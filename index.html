@@ -1,0 +1,1636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lesestube — Reading Room</title>
+<style>
+  :root {
+    --bg: #faf7f2;
+    --panel: #ffffff;
+    --ink: #2b2620;
+    --muted: #8a8175;
+    --accent: #7a5c3e;
+    --accent-soft: #efe6da;
+    --focus-bg: #f3ead9;
+    --en-ink: #5a6b7a;
+    --idiom-ink: #3e7a5c;
+    --note-bg: #fdf6e3;
+    --note-border: #e6d9b8;
+    --border: #e5ddd0;
+    font-size: 17px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: Georgia, 'Times New Roman', serif;
+  }
+  header {
+    position: sticky; top: 0; z-index: 20;
+    background: var(--panel); border-bottom: 1px solid var(--border);
+    padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+    font-family: system-ui, -apple-system, sans-serif; font-size: 14px;
+  }
+  header .title { font-weight: 700; font-size: 15px; margin-right: 6px; }
+  select, button, label.filebtn {
+    font: inherit; padding: 5px 10px; border-radius: 8px;
+    border: 1px solid var(--border); background: #fff; color: var(--ink); cursor: pointer;
+  }
+  button:hover, label.filebtn:hover, select:hover { background: var(--accent-soft); }
+  button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .spacer { flex: 1; }
+  #rateWrap { display: flex; align-items: center; gap: 6px; color: var(--muted); }
+  #rate { width: 90px; }
+  main { max-width: 880px; margin: 0 auto; padding: 24px 20px 45vh; }
+  h1.storyTitle { font-size: 1.7rem; margin: 8px 0 2px; }
+  .storyMeta { color: var(--muted); font-size: .85rem; font-family: system-ui, sans-serif; margin-bottom: 24px; }
+  .hint { color: var(--muted); font-size: .82rem; font-family: system-ui, sans-serif;
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; margin-bottom: 26px; line-height: 1.5; }
+  .hint kbd { background: var(--accent-soft); border-radius: 4px; padding: 0 5px; font-family: inherit; }
+
+  .sent { border-radius: 10px; padding: 8px 12px; margin: 2px -12px; cursor: pointer; line-height: 1.75; }
+  .sent.parastart { margin-top: 26px; }
+  .sent.focused { background: var(--focus-bg); box-shadow: 0 0 0 1px var(--border); }
+  .sent.verse .de { font-style: italic; padding-left: 1.5em; }
+  .de { font-size: 1.12rem; white-space: pre-line; }
+  .de .w { border-radius: 4px; }
+  .de .w:hover { background: var(--accent-soft); }
+  .de .w.wsel { background: var(--accent); color: #fff; }
+
+  .en { color: var(--en-ink); font-size: .98rem; margin-top: 5px; white-space: pre-line; display: none; }
+  .en.idm { color: var(--idiom-ink); }
+  .en .lbl { font-family: system-ui, sans-serif; font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; opacity: .65; margin-right: 6px; }
+  .showEN .en { display: block; }
+  .note { display: none; background: var(--note-bg); border: 1px solid var(--note-border); border-radius: 8px;
+    padding: 8px 12px; margin-top: 7px; font-size: .9rem; line-height: 1.55; color: #6b5d33; }
+  .note.open { display: block; }
+
+  .toolbar { display: none; gap: 6px; margin-top: 8px; font-family: system-ui, sans-serif; flex-wrap: wrap; }
+  .sent.focused .toolbar { display: flex; }
+  .toolbar button { font-size: .8rem; padding: 4px 10px; border-radius: 999px; }
+
+  /* side-by-side mode */
+  body.sbs .sent { display: grid; grid-template-columns: 1fr 1fr; column-gap: 26px; }
+  body.sbs .sent .de { grid-column: 1; }
+  body.sbs .sent .en { grid-column: 2; grid-row: 1; display: block; margin-top: 0; align-self: start; }
+  body.sbs .sent .note { grid-column: 1 / -1; }
+  body.sbs .sent .toolbar { grid-column: 1 / -1; }
+  @media (max-width: 700px) {
+    body.sbs .sent { display: block; }
+    body.sbs .sent .en { margin-top: 5px; }
+  }
+
+  /* try-first mode */
+  .tryBox { margin-top: 8px; font-family: system-ui, sans-serif; }
+  .tryBox textarea {
+    width: 100%; font: inherit; font-size: .95rem; padding: 8px 10px;
+    border: 1px solid var(--border); border-radius: 8px; background: var(--panel);
+    color: var(--ink); resize: vertical; line-height: 1.5;
+  }
+  .tryBox textarea:focus { outline: none; border-color: var(--accent); }
+  .tryRow { display: flex; gap: 6px; margin-top: 6px; }
+  .tryRow button { font-size: .8rem; padding: 4px 10px; border-radius: 999px; }
+  .tryRow button.reclive { background: #b3552f; color: #fff; border-color: #b3552f; }
+  .tryRes { margin-top: 8px; font-size: .95rem; line-height: 1.6; }
+  .tryRes .tryLine { margin: 2px 0; }
+  .tryRes .you { color: var(--accent); }
+  .tryRes .lit { color: var(--en-ink); }
+  .tryRes .idm { color: var(--idiom-ink); }
+  .tryRes .lbl { font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; opacity: .65; margin-right: 6px; }
+  body.sbs .sent .tryBox { grid-column: 1 / -1; }
+
+  /* word popup */
+  #pop {
+    position: fixed; z-index: 50; max-width: 340px; display: none;
+    background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(60,45,30,.18); padding: 12px 14px;
+    font-family: system-ui, sans-serif; font-size: .9rem; line-height: 1.5;
+  }
+  #pop .pw { font-family: Georgia, serif; font-size: 1.15rem; font-weight: 700; }
+  #pop .pg { margin: 6px 0 10px; color: var(--ink); }
+  #pop .pbtns { display: flex; gap: 6px; }
+  #pop .pbtns button { font-size: .8rem; padding: 4px 10px; border-radius: 999px; }
+  #pop .pclose { position: absolute; top: 6px; right: 10px; border: none; background: none; color: var(--muted); font-size: 1rem; padding: 2px 6px; }
+  #pop .pmiss { color: var(--muted); font-style: italic; }
+</style>
+</head>
+<body>
+<header>
+  <span class="title">Lesestube</span>
+  <select id="storySel" title="Choose story"></select>
+  <button id="modeDE" title="Original language only — reveal English per sentence">Original only</button>
+  <button id="modeSBS" title="Original with English side by side">Side by side</button>
+  <span class="spacer"></span>
+  <span id="rateWrap">🔊 <input type="range" id="rate" min="0.4" max="1.2" step="0.05" value="0.92" title="Speech speed"></span>
+  <label class="filebtn" title="Load a story .json file produced by your project">＋ Load story<input type="file" id="fileIn" accept=".json,application/json" style="display:none"></label>
+</header>
+
+<main>
+  <h1 class="storyTitle" id="stTitle"></h1>
+  <div class="storyMeta" id="stMeta"></div>
+  <div class="hint">
+    Click a sentence to focus it — the buttons always show what you'll get <i>next</i>:
+    <b>🔊 Listen</b> becomes <b>⏹ Stop</b> while it reads (<kbd>Esc</kbd> also stops);
+    <b>🐢 Slow</b> plays it slowly and becomes <b>🐇 Regular</b>;
+    <b>EN</b> reveals the English and becomes <b>hide EN</b>;
+    <b>≈ natural</b> and <b>≈ literal</b> switch between the two English versions; <b>📝</b> opens the grammar note.
+    <b>✍️ Try</b> lets you attempt your own translation (typed or dictated 🎤) before comparing with the English.
+    Click any <b>word</b> for its meaning and pronunciation.
+    Keyboard: <kbd>↑</kbd>/<kbd>↓</kbd> move · <kbd>E</kbd> English · <kbd>L</kbd> listen · <kbd>S</kbd> slow · <kbd>N</kbd> note · <kbd>T</kbd> try · <kbd>Esc</kbd> stop.
+    For anything deeper — “I don’t get how this sentence works” — ask your tutor in the project chat.
+  </div>
+  <div id="text"></div>
+</main>
+
+<div id="pop">
+  <button class="pclose" onclick="hidePop()">✕</button>
+  <div class="pw" id="popW"></div>
+  <div class="pg" id="popG"></div>
+  <div class="pbtns">
+    <button id="popSay" onclick="speakPop(0.92, this)">🔊 Say it</button>
+    <button id="popSlow" onclick="speakPop(0.5, this)">🐢 Slowly</button>
+  </div>
+</div>
+
+<script>
+const STORIES = [
+{
+  "id": "aschenputtel",
+  "title": "Aschenputtel",
+  "titleEn": "Cinderella",
+  "language": "German",
+  "langCode": "de-DE",
+  "source": "Brüder Grimm, Kinder- und Hausmärchen, 7. Auflage (1857), KHM 21",
+  "sentences": [
+    {"p": true, "t": "Einem reichen Manne, dem wurde seine Frau krank, und als sie fühlte, daß ihr Ende herankam, rief sie ihr einziges Töchterlein zu sich ans Bett und sprach „liebes Kind, bleibe fromm und gut, so wird dir der liebe Gott immer beistehen, und ich will vom Himmel auf dich herabblicken, und will um dich sein.“",
+     "l": "To a rich man — his wife became sick, and when she felt that her end was drawing near, she called her only little-daughter to herself at the bed and spoke: “dear child, stay pious and good, so will the dear God always stand by you, and I will from heaven look down upon you, and will be about you.”",
+     "i": "A rich man’s wife fell ill, and when she felt her end approaching, she called her only little daughter to her bedside and said: “Dear child, stay devout and good; then the dear Lord will always stand by you, and I will look down on you from heaven and be with you.”",
+     "n": "„Einem reichen Manne, dem wurde seine Frau krank“ is an old-fashioned dative construction: literally ‘To a rich man, to him his wife became sick.’ German often marks the affected person with the dative where English uses a possessive (‘a rich man’s wife’). Also note „so wird dir … beistehen“: after a condition, the result clause can begin with „so“ followed immediately by the verb."},
+    {"t": "Darauf tat sie die Augen zu und verschied.",
+     "l": "Thereupon did she the eyes shut and passed-away.",
+     "i": "Then she closed her eyes and passed away.",
+     "n": "„zutun“ is a separable verb (old-fashioned for ‘to close’): „tat … zu“. „verscheiden“ is a gentle, elevated word for dying."},
+    {"t": "Das Mädchen ging jeden Tag hinaus zu dem Grabe der Mutter und weinte, und blieb fromm und gut.",
+     "l": "The girl went every day out to the grave of-the mother and wept, and remained pious and good.",
+     "i": "Every day the girl went out to her mother’s grave and wept, and she remained devout and good.",
+     "n": "„das Mädchen“ is grammatically neuter, so the story will refer to Cinderella as „es“ (‘it’) throughout — that is normal German grammar for Mädchen, not coldness."},
+    {"t": "Als der Winter kam, deckte der Schnee ein weißes Tüchlein auf das Grab, und als die Sonne im Frühjahr es wieder herabgezogen hatte, nahm sich der Mann eine andere Frau.",
+     "l": "When the winter came, spread the snow a white little-cloth upon the grave, and when the sun in-the spring it again down-drawn had, took himself the man an other wife.",
+     "i": "When winter came, the snow spread a little white cloth over the grave, and when the spring sun had drawn it off again, the man took another wife.",
+     "n": "Two word-order rules at once: in „als“ clauses the verb goes to the end („herabgezogen hatte“), and when a main clause starts with anything other than the subject, the verb comes immediately after it („deckte der Schnee…“, „nahm sich der Mann…“)."},
+    {"p": true, "t": "Die Frau hatte zwei Töchter mit ins Haus gebracht, die schön und weiß von Angesicht waren, aber garstig und schwarz von Herzen.",
+     "l": "The woman had two daughters with into-the house brought, who beautiful and white of countenance were, but nasty and black of heart.",
+     "i": "The woman had brought two daughters with her into the house, who were beautiful and fair of face, but nasty and black of heart."},
+    {"t": "Da ging eine schlimme Zeit für das arme Stiefkind an.",
+     "l": "Then went a bad time for the poor stepchild on.",
+     "i": "Then a hard time began for the poor stepchild.",
+     "n": "„angehen“ (‘to begin’) is separable: „ging … an“. The little word „an“ dangling at the end belongs to the verb."},
+    {"t": "„Soll die dumme Gans bei uns in der Stube sitzen!“ sprachen sie, „wer Brot essen will, muß es verdienen: hinaus mit der Küchenmagd.“",
+     "l": "“Shall the stupid goose with us in the parlor sit!” spoke they, “who bread eat wants, must it earn: out with the kitchen-maid.”",
+     "i": "“Is the stupid goose to sit in the parlor with us?” they said. “Whoever wants to eat bread must earn it — out with the kitchen maid!”"},
+    {"t": "Sie nahmen ihm seine schönen Kleider weg, zogen ihm einen grauen alten Kittel an, und gaben ihm hölzerne Schuhe.",
+     "l": "They took from-it its beautiful clothes away, pulled on-it a gray old smock on, and gave it wooden shoes.",
+     "i": "They took away her beautiful clothes, dressed her in an old gray smock, and gave her wooden shoes.",
+     "n": "„ihm“ = ‘to it’, referring to das Mädchen (neuter). Dative again where English uses a possessive: „nahmen ihm die Kleider weg“ = ‘took her clothes away from her.’ Both „wegnehmen“ and „anziehen“ are separable verbs."},
+    {"t": "„Seht einmal die stolze Prinzessin, wie sie geputzt ist!“ riefen sie, lachten und führten es in die Küche.",
+     "l": "“See once the proud princess, how she decked-out is!” called they, laughed and led it into the kitchen.",
+     "i": "“Just look at the proud princess, how dressed up she is!” they cried, laughing, and led her into the kitchen.",
+     "n": "„einmal“ after an imperative („Seht einmal…“) works like English ‘just’ — ‘just look at…’. „geputzt“ here means ‘dressed up, adorned’ (not ‘cleaned’, its usual modern sense)."},
+    {"t": "Da mußte es von Morgen bis Abend schwere Arbeit tun, früh vor Tag aufstehn, Wasser tragen, Feuer anmachen, kochen und waschen.",
+     "l": "There must it from morning until evening heavy work do, early before day up-get, water carry, fire on-make, cook and wash.",
+     "i": "There she had to do heavy work from morning till evening, get up before daybreak, carry water, light the fire, cook, and wash."},
+    {"t": "Obendrein taten ihm die Schwestern alles ersinnliche Herzeleid an, verspotteten es und schütteten ihm die Erbsen und Linsen in die Asche, so daß es sitzen und sie wieder auslesen mußte.",
+     "l": "On-top-of-that did to-it the sisters all conceivable heart-sorrow on, mocked it and poured to-it the peas and lentils into the ash, so that it sit and them again out-pick must.",
+     "i": "On top of that the sisters did her every conceivable hurt, mocked her, and dumped her peas and lentils into the ashes, so that she had to sit and pick them out again.",
+     "n": "„jemandem etwas antun“ = ‘to do something (bad) to someone’ — separable „taten … an“. „auslesen“ = ‘to pick out, sort out’ — this old sense of „lesen“ (‘to gather’) will matter later in the story."},
+    {"t": "Abends, wenn es sich müde gearbeitet hatte, kam es in kein Bett, sondern mußte sich neben den Herd in die Asche legen.",
+     "l": "Evenings, when it itself tired worked had, came it into no bed, but-rather must itself beside the hearth into the ash lay.",
+     "i": "In the evenings, when she had worked herself tired, she got no bed, but had to lie down in the ashes beside the hearth.",
+     "n": "„sich müde arbeiten“ = ‘to work oneself tired’ — German loves this pattern: verb + reflexive + result adjective."},
+    {"t": "Und weil es darum immer staubig und schmutzig aussah, nannten sie es Aschenputtel.",
+     "l": "And because it therefore always dusty and dirty looked, named they it Aschenputtel.",
+     "i": "And because she therefore always looked dusty and dirty, they called her Aschenputtel.",
+     "n": "„Aschenputtel“ ≈ ‘one who grubs about in the ashes.’ The English name Cinderella comes via the French Cendrillon (cendre = ash, cinder)."},
+    {"p": true, "t": "Es trug sich zu, daß der Vater einmal in die Messe ziehen wollte, da fragte er die beiden Stieftöchter, was er ihnen mitbringen sollte.",
+     "l": "It carried itself to, that the father once to the fair go wanted, then asked he the both stepdaughters, what he to-them along-bring should.",
+     "i": "It so happened that the father was once setting out for the fair, and he asked the two stepdaughters what he should bring back for them.",
+     "n": "„sich zutragen“ = ‘to come to pass.’ „die Messe“ here means the trade fair — not the church mass. „mitbringen“ separable: ‘bring along/back.’"},
+    {"t": "„Schöne Kleider,“ sagte die eine, „Perlen und Edelsteine,“ die zweite.",
+     "l": "“Beautiful dresses,” said the one, “pearls and precious-stones,” the second.",
+     "i": "“Beautiful dresses,” said one; “pearls and jewels,” said the second."},
+    {"t": "„Aber du, Aschenputtel,“ sprach er, „was willst du haben?“",
+     "l": "“But you, Aschenputtel,” spoke he, “what want you to-have?”",
+     "i": "“But you, Aschenputtel — what would you like?”"},
+    {"t": "„Vater, das erste Reis, das Euch auf Eurem Heimweg an den Hut stößt, das brecht für mich ab.“",
+     "l": "“Father, the first twig, that against-You on Your home-way against the hat knocks, that break for me off.”",
+     "i": "“Father, the first twig that brushes against your hat on your way home — break that off for me.”",
+     "n": "„das Reis“ (neuter) = ‘twig, sprig’, an old word — not „der Reis“ (‘rice’). Capitalized „Euch / Eurem“ is the old respectful form of address, like French vous: the daughter addresses her father formally. „abbrechen“ separable: „brecht … ab“."},
+    {"t": "Er kaufte nun für die beiden Stiefschwestern schöne Kleider, Perlen und Edelsteine, und auf dem Rückweg, als er durch einen grünen Busch ritt, streifte ihn ein Haselreis und stieß ihm den Hut ab.",
+     "l": "He bought now for the both stepsisters beautiful dresses, pearls and precious-stones, and on the back-way, as he through a green bush rode, brushed him a hazel-twig and knocked from-him the hat off.",
+     "i": "So he bought beautiful dresses, pearls, and jewels for the two stepsisters; and on the way back, as he rode through a green thicket, a hazel twig brushed against him and knocked off his hat."},
+    {"t": "Da brach er das Reis ab und nahm es mit.",
+     "l": "Then broke he the twig off and took it with.",
+     "i": "So he broke off the twig and took it with him."},
+    {"t": "Als er nach Haus kam, gab er den Stieftöchtern, was sie sich gewünscht hatten, und dem Aschenputtel gab er das Reis von dem Haselbusch.",
+     "l": "When he to home came, gave he to-the stepdaughters, what they for-themselves wished had, and to-the Aschenputtel gave he the twig from the hazel-bush.",
+     "i": "When he got home, he gave the stepdaughters what they had wished for, and to Aschenputtel he gave the twig from the hazel bush."},
+    {"t": "Aschenputtel dankte ihm, ging zu seiner Mutter Grab und pflanzte das Reis darauf, und weinte so sehr, daß die Tränen darauf niederfielen und es begossen.",
+     "l": "Aschenputtel thanked him, went to its mother’s grave and planted the twig thereon, and wept so much, that the tears thereon down-fell and it watered.",
+     "i": "Aschenputtel thanked him, went to her mother’s grave and planted the twig on it, and wept so much that her tears fell upon it and watered it.",
+     "n": "„zu seiner Mutter Grab“ — an old genitive placed before the noun: ‘to its mother’s grave.’ „seiner“ (its) because the possessor is das Mädchen, neuter."},
+    {"t": "Es wuchs aber, und ward ein schöner Baum.",
+     "l": "It grew however, and became a beautiful tree.",
+     "i": "And it grew and became a beautiful tree.",
+     "n": "„ward“ = archaic form of „wurde“ (‘became’). You will meet it constantly in older German texts."},
+    {"t": "Aschenputtel ging alle Tage dreimal darunter, weinte und betete, und allemal kam ein weißes Vöglein auf den Baum, und wenn es einen Wunsch aussprach, so warf ihm das Vöglein herab, was es sich gewünscht hatte.",
+     "l": "Aschenputtel went all days three-times thereunder, wept and prayed, and every-time came a white little-bird onto the tree, and when it a wish out-spoke, so threw to-it the little-bird down, what it for-itself wished had.",
+     "i": "Three times every day Aschenputtel went and sat beneath it, wept and prayed; and each time a little white bird came to the tree, and whenever she spoke a wish, the little bird threw down to her whatever she had wished for.",
+     "n": "The diminutive „-lein“ (Vöglein = little bird) is everywhere in Grimm; like „-chen“, it always makes the noun neuter."},
+    {"p": true, "t": "Es begab sich aber, daß der König ein Fest anstellte, das drei Tage dauern sollte, und wozu alle schönen Jungfrauen im Lande eingeladen wurden, damit sich sein Sohn eine Braut aussuchen möchte.",
+     "l": "It came-to-pass however, that the king a festival arranged, that three days last should, and to-which all beautiful maidens in-the land invited were, so-that himself his son a bride out-choose might.",
+     "i": "Now it came to pass that the king proclaimed a festival that was to last three days, to which all the beautiful maidens in the land were invited, so that his son might choose himself a bride.",
+     "n": "„Es begab sich“ — a solemn fairy-tale / biblical opener: ‘it came to pass.’ „aussuchen“ separable: ‘to pick out, choose.’"},
+    {"t": "Die zwei Stiefschwestern, als sie hörten, daß sie auch dabei erscheinen sollten, waren guter Dinge, riefen Aschenputtel und sprachen „kämm uns die Haare, bürste uns die Schuhe und mache uns die Schnallen fest, wir gehen zur Hochzeit auf des Königs Schloß.“",
+     "l": "The two stepsisters, when they heard, that they also there appear should, were of-good things, called Aschenputtel and spoke “comb us the hairs, brush us the shoes and make us the buckles fast, we go to-the wedding at the king’s castle.”",
+     "i": "When the two stepsisters heard that they too were to appear, they were in high spirits; they called Aschenputtel and said: “Comb our hair, brush our shoes, and fasten our buckles — we are going to the wedding at the king’s castle.”",
+     "n": "„guter Dinge sein“ = idiom, ‘to be in good spirits’ (an old genitive expression). „kämm uns die Haare“ — German says ‘comb for-us the hair’ (dative + definite article) where English says ‘comb our hair.’"},
+    {"t": "Aschenputtel gehorchte, weinte aber, weil es auch gern zum Tanz mitgegangen wäre, und bat die Stiefmutter, sie möchte es ihm erlauben.",
+     "l": "Aschenputtel obeyed, wept however, because it also gladly to-the dance along-gone would-have, and asked the stepmother, she might it to-it allow.",
+     "i": "Aschenputtel obeyed, but wept, because she too would have gladly gone along to the dance, and she begged the stepmother to allow it.",
+     "n": "„gern“ + verb = ‘to like doing’: „es wäre gern mitgegangen“ = ‘she would have liked to go along.’ „mitgehen“ separable."},
+    {"t": "„Du Aschenputtel,“ sprach sie, „bist voll Staub und Schmutz, und willst zur Hochzeit? du hast keine Kleider und Schuhe, und willst tanzen!“",
+     "l": "“You Aschenputtel,” spoke she, “are full-of dust and dirt, and want to-the wedding? you have no clothes and shoes, and want to-dance!”",
+     "i": "“You, Aschenputtel,” she said, “covered in dust and dirt, and you want to go to the wedding? You have no clothes and shoes, and you want to dance!”",
+     "n": "„willst zur Hochzeit“ — German can drop the motion verb after „wollen“: literally ‘you want to the wedding’, i.e. ‘you want to go to the wedding.’"},
+    {"t": "Als es aber mit Bitten anhielt, sprach sie endlich „da habe ich dir eine Schüssel Linsen in die Asche geschüttet, wenn du die Linsen in zwei Stunden wieder ausgelesen hast, so sollst du mitgehen.“",
+     "l": "When it however with begging kept-on, spoke she finally “there have I for-you a bowl-of lentils into the ash poured, if you the lentils in two hours again out-picked have, so shall you along-go.”",
+     "i": "But when she kept on begging, the stepmother finally said: “There — I have poured a bowl of lentils into the ashes for you. If you have picked the lentils out again within two hours, you may come along.”"},
+    {"t": "Das Mädchen ging durch die Hintertür nach dem Garten und rief „ihr zahmen Täubchen, ihr Turteltäubchen, all ihr Vöglein unter dem Himmel, kommt und helft mir lesen,",
+     "l": "The girl went through the back-door to the garden and called “you tame little-doves, you turtle-little-doves, all you little-birds under the sky, come and help me gather,",
+     "i": "The girl went through the back door into the garden and called: “You tame little doves, you turtledoves, all you little birds under heaven, come and help me gather:",
+     "n": "„lesen“ here is the old sense ‘to gather, pick out’ (as in „auslesen“ and English ‘glean’) — not ‘to read.’"},
+    {"v": true, "t": "die guten ins Töpfchen,\ndie schlechten ins Kröpfchen.“",
+     "l": "the good-ones into-the little-pot,\nthe bad-ones into-the little-crop.”",
+     "i": "“The good ones into the little pot, the bad ones into your little crop” — a bird’s crop is the pouch in its throat where food is stored.",
+     "n": "The whole charm rests on the rhyme Töpfchen / Kröpfchen. „der Kropf“ = a bird’s crop; the bad lentils are the birds’ payment — they may eat them."},
+    {"t": "Da kamen zum Küchenfenster zwei weiße Täubchen herein, und danach die Turteltäubchen, und endlich schwirrten und schwärmten alle Vöglein unter dem Himmel herein und ließen sich um die Asche nieder.",
+     "l": "Then came to-the kitchen-window two white little-doves in, and after-that the turtle-doves, and finally whirred and swarmed all little-birds under the sky in and let themselves around the ash down.",
+     "i": "Then two white doves came in through the kitchen window, and after them the turtledoves, and at last all the little birds under heaven came whirring and swarming in and settled down around the ashes.",
+     "n": "„sich niederlassen“ = ‘to settle, alight’ — literally ‘to let oneself down.’"},
+    {"t": "Und die Täubchen nickten mit den Köpfchen und fingen an pick, pick, pick, pick, und da fingen die übrigen auch an pick, pick, pick, pick, und lasen alle guten Körnlein in die Schüssel.",
+     "l": "And the little-doves nodded with the little-heads and began: pick, pick, pick, pick, and then began the remaining-ones also: pick, pick, pick, pick, and gathered all good little-grains into the bowl.",
+     "i": "And the little doves nodded their heads and began — peck, peck, peck, peck — and then all the others joined in — peck, peck, peck, peck — and they gathered all the good grains into the bowl.",
+     "n": "„anfangen“ (‘to begin’) separable: „fingen … an“. And there is „lasen“ again — past tense of „lesen“, ‘gathered.’"},
+    {"t": "Kaum war eine Stunde herum, so waren sie schon fertig und flogen alle wieder hinaus.",
+     "l": "Hardly was one hour around, so were they already finished and flew all again out.",
+     "i": "Scarcely an hour had passed before they were finished, and they all flew out again.",
+     "n": "„herum sein“ = ‘to be over / to have passed’ (of time). „Kaum … so …“ = ‘scarcely … when ….’"},
+    {"t": "Da brachte das Mädchen die Schüssel der Stiefmutter, freute sich und glaubte, es dürfte nun mit auf die Hochzeit gehen.",
+     "l": "Then brought the girl the bowl to-the stepmother, gladdened herself and believed, it might now along to the wedding go.",
+     "i": "Then the girl brought the bowl to the stepmother, rejoicing, and believed she would now be allowed to go along to the wedding.",
+     "n": "„der Stiefmutter“ is dative — ‘brought the bowl *to* the stepmother.’ „dürfte“ (subjunctive of dürfen) = ‘would be allowed to.’"},
+    {"t": "Aber sie sprach „nein, Aschenputtel, du hast keine Kleider, und kannst nicht tanzen: du wirst nur ausgelacht.“",
+     "l": "But she spoke “no, Aschenputtel, you have no clothes, and can not dance: you will only be-laughed-at.”",
+     "i": "But she said: “No, Aschenputtel, you have no clothes and you cannot dance — you would only be laughed at.”",
+     "n": "„du wirst ausgelacht“ — the werden-passive: ‘you will be laughed at.’ „auslachen“ = ‘to laugh at, mock.’"},
+    {"t": "Als es nun weinte, sprach sie „wenn du mir zwei Schüsseln voll Linsen in einer Stunde aus der Asche rein lesen kannst, so sollst du mitgehen,“ und dachte „das kann es ja nimmermehr.“",
+     "l": "When it now wept, spoke she “if you for-me two bowls full-of lentils in one hour out-of the ash clean gather can, so shall you along-go,” and thought “that can it surely never-more.”",
+     "i": "When she wept at this, the stepmother said: “If you can pick two bowls full of lentils clean out of the ashes in one hour, you may come along” — and thought to herself, “She can never do that.”",
+     "n": "„ja“ inside a sentence is a flavoring particle: „das kann es ja nimmermehr“ ≈ ‘she can’t possibly ever do that.’ „nimmermehr“ = ‘nevermore.’"},
+    {"t": "Als sie die zwei Schüsseln Linsen in die Asche geschüttet hatte, ging das Mädchen durch die Hintertür nach dem Garten und rief „ihr zahmen Täubchen, ihr Turteltäubchen, all ihr Vöglein unter dem Himmel, kommt und helft mir lesen,",
+     "l": "When she the two bowls-of lentils into the ash poured had, went the girl through the back-door to the garden and called “you tame little-doves, you turtle-doves, all you little-birds under the sky, come and help me gather,",
+     "i": "When she had poured the two bowls of lentils into the ashes, the girl went through the back door into the garden and called: “You tame little doves, you turtledoves, all you little birds under heaven, come and help me gather:"},
+    {"v": true, "t": "die guten ins Töpfchen,\ndie schlechten ins Kröpfchen.“",
+     "l": "the good-ones into-the little-pot,\nthe bad-ones into-the little-crop.”",
+     "i": "“The good ones into the little pot, the bad ones into your little crop.”"},
+    {"t": "Da kamen zum Küchenfenster zwei weiße Täubchen herein und danach die Turteltäubchen, und endlich schwirrten und schwärmten alle Vögel unter dem Himmel herein und ließen sich um die Asche nieder.",
+     "l": "Then came to-the kitchen-window two white little-doves in and after-that the turtle-doves, and finally whirred and swarmed all birds under the sky in and let themselves around the ash down.",
+     "i": "Then two white doves came in through the kitchen window, and after them the turtledoves, and at last all the birds under heaven came whirring and swarming in and settled down around the ashes."},
+    {"t": "Und die Täubchen nickten mit ihren Köpfchen und fingen an pick, pick, pick, pick, und da fingen die übrigen auch an pick, pick, pick, pick, und lasen alle guten Körner in die Schüsseln.",
+     "l": "And the little-doves nodded with their little-heads and began: pick, pick, pick, pick, and then began the remaining-ones also: pick, pick, pick, pick, and gathered all good grains into the bowls.",
+     "i": "And the little doves nodded their heads and began — peck, peck, peck, peck — and the others joined in — peck, peck, peck, peck — and they gathered all the good grains into the bowls."},
+    {"t": "Und ehe eine halbe Stunde herum war, waren sie schon fertig, und flogen alle wieder hinaus.",
+     "l": "And before a half hour around was, were they already finished, and flew all again out.",
+     "i": "And before half an hour had passed, they were already finished, and they all flew out again.",
+     "n": "„ehe“ = ‘before’ (conjunction), an older synonym of „bevor“."},
+    {"t": "Da trug das Mädchen die Schüsseln zu der Stiefmutter, freute sich und glaubte, nun dürfte es mit auf die Hochzeit gehen.",
+     "l": "Then carried the girl the bowls to the stepmother, gladdened herself and believed, now might it along to the wedding go.",
+     "i": "Then the girl carried the bowls to the stepmother, rejoicing, and believed that now she would be allowed to go along to the wedding."},
+    {"t": "Aber sie sprach „es hilft dir alles nichts: du kommst nicht mit, denn du hast keine Kleider und kannst nicht tanzen; wir müßten uns deiner schämen.“",
+     "l": "But she spoke “it helps you all nothing: you come not along, for you have no clothes and can not dance; we would-must ourselves of-you be-ashamed.”",
+     "i": "But she said: “It’s all no use. You are not coming along, for you have no clothes and cannot dance; we would be ashamed of you.”",
+     "n": "„es hilft dir alles nichts“ = idiom, ‘it’s all no use (to you).’ „sich jemandes schämen“ takes the genitive — „uns deiner schämen“ = ‘be ashamed of you’ — very old-fashioned and elegant."},
+    {"t": "Darauf kehrte sie ihm den Rücken zu und eilte mit ihren zwei stolzen Töchtern fort.",
+     "l": "Thereupon turned she to-it the back to and hurried with her two proud daughters away.",
+     "i": "With that she turned her back on her and hurried away with her two proud daughters.",
+     "n": "„jemandem den Rücken zukehren“ = ‘to turn one’s back on someone’ — same image as in English."},
+    {"p": true, "t": "Als nun niemand mehr daheim war, ging Aschenputtel zu seiner Mutter Grab unter den Haselbaum und rief",
+     "l": "When now no-one more at-home was, went Aschenputtel to its mother’s grave under the hazel-tree and called",
+     "i": "Now when no one was left at home, Aschenputtel went to her mother’s grave under the hazel tree and called:"},
+    {"v": true, "t": "„Bäumchen, rüttel dich und schüttel dich,\nwirf Gold und Silber über mich.“",
+     "l": "“Little-tree, shake yourself and shudder yourself,\nthrow gold and silver over me.”",
+     "i": "“Little tree, shake and quiver, throw gold and silver down over me.”",
+     "n": "„rütteln“ and „schütteln“ both mean ‘to shake’ — the pair exists for the rhyme and the rocking rhythm. „wirf“ is the du-imperative of „werfen“ (to throw)."},
+    {"t": "Da warf ihm der Vogel ein golden und silbern Kleid herunter und mit Seide und Silber ausgestickte Pantoffeln.",
+     "l": "Then threw to-it the bird a golden and silver dress down and with silk and silver embroidered slippers.",
+     "i": "Then the bird threw down to her a gold and silver dress, and slippers embroidered with silk and silver.",
+     "n": "„golden und silbern“ without endings is archaic; modern German would say „ein goldenes und silbernes Kleid“."},
+    {"t": "In aller Eile zog es das Kleid an und ging zur Hochzeit.",
+     "l": "In all haste pulled it the dress on and went to-the wedding.",
+     "i": "In all haste she put on the dress and went to the wedding.",
+     "n": "„anziehen“ (‘to put on’) separable: „zog … an“."},
+    {"t": "Seine Schwestern aber und die Stiefmutter kannten es nicht und meinten, es müsse eine fremde Königstochter sein, so schön sah es in dem goldenen Kleide aus.",
+     "l": "Its sisters however and the stepmother knew it not and thought, it must a foreign king’s-daughter be, so beautiful looked it in the golden dress out.",
+     "i": "But her sisters and the stepmother did not recognize her; they thought she must be some foreign princess, so beautiful did she look in the golden dress.",
+     "n": "„müsse“ is subjunctive I — used for reporting what someone thinks or says. „aussehen“ (‘to look, appear’) separable: „sah … aus“."},
+    {"t": "An Aschenputtel dachten sie gar nicht und dachten, es säße daheim im Schmutz und suchte die Linsen aus der Asche.",
+     "l": "Of Aschenputtel thought they at-all not and thought, it would-sit at-home in-the dirt and would-seek the lentils out-of the ash.",
+     "i": "They did not think of Aschenputtel at all, but assumed she was sitting at home in the dirt, picking the lentils out of the ashes.",
+     "n": "„säße“ is subjunctive II of „sitzen“ — it marks what they *imagined* to be happening, not what was."},
+    {"t": "Der Königssohn kam ihm entgegen, nahm es bei der Hand und tanzte mit ihm.",
+     "l": "The king’s-son came to-it toward, took it by the hand and danced with it.",
+     "i": "The prince came to meet her, took her by the hand, and danced with her.",
+     "n": "„der Königssohn“ = literally ‘the king’s son’, i.e. the prince. „jemandem entgegenkommen“ = ‘to come toward / to meet someone’ (dative)."},
+    {"t": "Er wollte auch sonst mit niemand tanzen, also daß er ihm die Hand nicht losließ, und wenn ein anderer kam, es aufzufordern, sprach er „das ist meine Tänzerin.“",
+     "l": "He wanted also otherwise with no-one to-dance, so that he to-it the hand not loose-let, and when an other came, it to-invite, spoke he “that is my dance-partner.”",
+     "i": "He would dance with no one else, and would not let go of her hand; and whenever another man came to ask her, he said: “She is my partner.”",
+     "n": "„auffordern“ = ‘to ask (someone) to dance.’ „loslassen“ = ‘to let go of’, separable."},
+    {"p": true, "t": "Es tanzte, bis es Abend war, da wollte es nach Haus gehen.",
+     "l": "It danced, until it evening was, then wanted it to home go.",
+     "i": "She danced until evening came; then she wanted to go home."},
+    {"t": "Der Königssohn aber sprach „ich gehe mit und begleite dich,“ denn er wollte sehen, wem das schöne Mädchen angehörte.",
+     "l": "The king’s-son however spoke “I go along and accompany you,” for he wanted to-see, to-whom the beautiful girl belonged.",
+     "i": "But the prince said, “I will go with you and escort you,” for he wanted to see whose daughter the beautiful girl was.",
+     "n": "„wem … angehörte“ — ‘to whom she belonged’, i.e. what family she came from. „angehören“ takes the dative."},
+    {"t": "Sie entwischte ihm aber und sprang in das Taubenhaus.",
+     "l": "She slipped-away from-him however and jumped into the dove-house.",
+     "i": "But she slipped away from him and sprang into the dovecote.",
+     "n": "Note the sudden „sie“ — for a moment the narrator uses the natural gender (‘she’) instead of the grammatical neuter „es“. Grimm does this occasionally."},
+    {"t": "Nun wartete der Königssohn, bis der Vater kam, und sagte ihm, das fremde Mädchen wär in das Taubenhaus gesprungen.",
+     "l": "Now waited the king’s-son, until the father came, and said to-him, the strange girl were into the dove-house jumped.",
+     "i": "The prince waited until the father came, and told him the unknown maiden had leapt into the dovecote.",
+     "n": "„wär(e) … gesprungen“ — subjunctive again, because this is reported speech: he *said that* she had jumped in."},
+    {"t": "Der Alte dachte „sollte es Aschenputtel sein?“ und sie mußten ihm Axt und Hacken bringen, damit er das Taubenhaus entzweischlagen konnte: aber es war niemand darin.",
+     "l": "The old-man thought “should it Aschenputtel be?” and they must to-him axe and pick bring, so-that he the dove-house in-two-strike could: but it was no-one therein.",
+     "i": "The old man thought, “Could it be Aschenputtel?” — and they had to bring him an axe and a pick so that he could break the dovecote in two; but no one was inside.",
+     "n": "„sollte es … sein?“ — ‘could it be…?’ (a wondering „sollte“). „entzwei“ = ‘in two, apart’: „entzweischlagen“ = ‘to smash apart.’"},
+    {"t": "Und als sie ins Haus kamen, lag Aschenputtel in seinen schmutzigen Kleidern in der Asche, und ein trübes Öllämpchen brannte im Schornstein; denn Aschenputtel war geschwind aus dem Taubenhaus hinten herabgesprungen, und war zu dem Haselbäumchen gelaufen: da hatte es die schönen Kleider abgezogen und aufs Grab gelegt, und der Vogel hatte sie wieder weggenommen, und dann hatte es sich in seinem grauen Kittelchen in die Küche zur Asche gesetzt.",
+     "l": "And when they into-the house came, lay Aschenputtel in its dirty clothes in the ash, and a dim little-oil-lamp burned in-the chimney; for Aschenputtel was swiftly out-of the dove-house at-the-back down-jumped, and was to the little-hazel-tree run: there had it the beautiful clothes off-taken and onto-the grave laid, and the bird had them again away-taken, and then had it itself in its gray little-smock into the kitchen to-the ash set.",
+     "i": "And when they came into the house, Aschenputtel was lying in her dirty clothes in the ashes, and a dim little oil lamp was burning on the chimney; for Aschenputtel had quickly jumped down from the back of the dovecote and run to the little hazel tree; there she had taken off the beautiful clothes and laid them on the grave, and the bird had taken them away again, and then she had sat down in her little gray smock in the kitchen among the ashes.",
+     "n": "A long chain of past-perfect clauses („war … herabgesprungen“, „hatte … abgezogen“) — German uses „war“ (not „hatte“) with verbs of motion: „war gesprungen, war gelaufen“."},
+    {"p": true, "t": "Am andern Tag, als das Fest von neuem anhub, und die Eltern und Stiefschwestern wieder fort waren, ging Aschenputtel zu dem Haselbaum und sprach",
+     "l": "On-the other day, when the festival from new began, and the parents and stepsisters again away were, went Aschenputtel to the hazel-tree and spoke",
+     "i": "The next day, when the festival began anew and the parents and stepsisters were gone again, Aschenputtel went to the hazel tree and said:",
+     "n": "„anhub“ = archaic past tense of „anheben“, ‘to begin’ (modern: „anfing“). „von neuem“ = ‘anew.’"},
+    {"v": true, "t": "„Bäumchen, rüttel dich und schüttel dich,\nwirf Gold und Silber über mich.“",
+     "l": "“Little-tree, shake yourself and shudder yourself,\nthrow gold and silver over me.”",
+     "i": "“Little tree, shake and quiver, throw gold and silver down over me.”"},
+    {"t": "Da warf der Vogel ein noch viel stolzeres Kleid herab als am vorigen Tag.",
+     "l": "Then threw the bird a still much prouder dress down than on-the previous day.",
+     "i": "Then the bird threw down a dress far more splendid than the day before.",
+     "n": "„stolz“ (‘proud’) applied to a dress means ‘splendid, magnificent.’ „noch viel stolzeres“ = ‘even much more splendid.’"},
+    {"t": "Und als es mit diesem Kleide auf der Hochzeit erschien, erstaunte jedermann über seine Schönheit.",
+     "l": "And when it with this dress at the wedding appeared, marveled everyone over its beauty.",
+     "i": "And when she appeared at the wedding in this dress, everyone marveled at her beauty."},
+    {"t": "Der Königssohn aber hatte gewartet, bis es kam, nahm es gleich bei der Hand und tanzte nur allein mit ihm.",
+     "l": "The king’s-son however had waited, until it came, took it at-once by the hand and danced only alone with it.",
+     "i": "The prince had waited until she came; he took her at once by the hand and danced with no one but her."},
+    {"t": "Wenn die andern kamen und es aufforderten, sprach er „das ist meine Tänzerin.“",
+     "l": "When the others came and it invited, spoke he “that is my dance-partner.”",
+     "i": "When the others came to ask her, he said: “She is my partner.”"},
+    {"t": "Als es nun Abend war, wollte es fort, und der Königssohn ging ihm nach und wollte sehen, in welches Haus es ging: aber es sprang ihm fort und in den Garten hinter dem Haus.",
+     "l": "When it now evening was, wanted it away, and the king’s-son went it after and wanted to-see, into which house it went: but it sprang from-him away and into the garden behind the house.",
+     "i": "When evening came she wanted to leave, and the prince followed her, wanting to see which house she went into; but she darted away from him and into the garden behind the house.",
+     "n": "„nachgehen“ (+ dative) = ‘to follow.’ „fort“ = ‘away’ — „es sprang ihm fort“, ‘she sprang away from him.’"},
+    {"t": "Darin stand ein schöner großer Baum, an dem die herrlichsten Birnen hingen, es kletterte so behend wie ein Eichhörnchen zwischen die Äste, und der Königssohn wußte nicht, wo es hingekommen war.",
+     "l": "Therein stood a beautiful big tree, on which the most-glorious pears hung, it climbed as nimbly as a squirrel between the branches, and the king’s-son knew not, where it gone was.",
+     "i": "There stood a beautiful tall tree hung with the most glorious pears; she climbed among the branches as nimbly as a squirrel, and the prince had no idea where she had gone.",
+     "n": "„behend“ = ‘nimble, agile’ (slightly old-fashioned). „hingekommen“ — „hinkommen“ = ‘to get to (somewhere)’: ‘where she had got to.’"},
+    {"t": "Er wartete aber, bis der Vater kam, und sprach zu ihm „das fremde Mädchen ist mir entwischt, und ich glaube, es ist auf den Birnbaum gesprungen.“",
+     "l": "He waited however, until the father came, and spoke to him “the strange girl is from-me slipped-away, and I believe, it is onto the pear-tree jumped.”",
+     "i": "But he waited until the father came and said to him: “The unknown maiden has escaped me, and I believe she has jumped up into the pear tree.”",
+     "n": "„ist mir entwischt“ — dative of the person escaped from: ‘has slipped away from me.’ Motion verbs take „sein“: „ist … gesprungen“."},
+    {"t": "Der Vater dachte „sollte es Aschenputtel sein?“ ließ sich die Axt holen und hieb den Baum um, aber es war niemand darauf.",
+     "l": "The father thought “should it Aschenputtel be?” let for-himself the axe fetch and hewed the tree down, but it was no-one thereon.",
+     "i": "The father thought, “Could it be Aschenputtel?” — had the axe fetched and chopped the tree down, but no one was in it.",
+     "n": "„ließ sich die Axt holen“ — „lassen“ + infinitive = ‘to have something done’: ‘had the axe fetched.’ „umhauen“ separable: „hieb … um“ = ‘chopped down.’"},
+    {"t": "Und als sie in die Küche kamen, lag Aschenputtel da in der Asche, wie sonst auch, denn es war auf der andern Seite vom Baum herabgesprungen, hatte dem Vogel auf dem Haselbäumchen die schönen Kleider wiedergebracht und sein graues Kittelchen angezogen.",
+     "l": "And when they into the kitchen came, lay Aschenputtel there in the ash, as otherwise too, for it was on the other side from-the tree down-jumped, had to-the bird on the little-hazel-tree the beautiful clothes back-brought and its gray little-smock on-pulled.",
+     "i": "And when they came into the kitchen, Aschenputtel lay there in the ashes as usual; for she had jumped down on the other side of the tree, brought the beautiful clothes back to the bird on the little hazel tree, and put on her little gray smock.",
+     "n": "„wie sonst auch“ = ‘as usual, as at other times.’"},
+    {"p": true, "t": "Am dritten Tag, als die Eltern und Schwestern fort waren, ging Aschenputtel wieder zu seiner Mutter Grab und sprach zu dem Bäumchen",
+     "l": "On-the third day, when the parents and sisters away were, went Aschenputtel again to its mother’s grave and spoke to the little-tree",
+     "i": "On the third day, when the parents and sisters were gone, Aschenputtel went again to her mother’s grave and said to the little tree:"},
+    {"v": true, "t": "„Bäumchen, rüttel dich und schüttel dich,\nwirf Gold und Silber über mich.“",
+     "l": "“Little-tree, shake yourself and shudder yourself,\nthrow gold and silver over me.”",
+     "i": "“Little tree, shake and quiver, throw gold and silver down over me.”"},
+    {"t": "Nun warf ihm der Vogel ein Kleid herab, das war so prächtig und glänzend, wie es noch keins gehabt hatte, und die Pantoffeln waren ganz golden.",
+     "l": "Now threw to-it the bird a dress down, that was so magnificent and gleaming, as it yet none had had, and the slippers were entirely golden.",
+     "i": "Now the bird threw down to her a dress more magnificent and dazzling than any she had yet had, and the slippers were all of gold.",
+     "n": "„wie es noch keins gehabt hatte“ = ‘such as she had never yet had’ — „keins“ = „keines“, ‘none (no dress).’"},
+    {"t": "Als es in dem Kleid zu der Hochzeit kam, wußten sie alle nicht, was sie vor Verwunderung sagen sollten.",
+     "l": "When it in the dress to the wedding came, knew they all not, what they for wonderment say should.",
+     "i": "When she arrived at the wedding in this dress, they were all speechless with astonishment.",
+     "n": "„vor + noun“ expresses a cause that overwhelms: „vor Verwunderung“ = ‘from / out of sheer astonishment.’ Watch for „vor Ärger“ (with rage) near the end of the story."},
+    {"t": "Der Königssohn tanzte ganz allein mit ihm, und wenn es einer aufforderte, sprach er „das ist meine Tänzerin.“",
+     "l": "The king’s-son danced entirely alone with it, and when it someone invited, spoke he “that is my dance-partner.”",
+     "i": "The prince danced with her alone, and if anyone asked her, he said: “She is my partner.”"},
+    {"p": true, "t": "Als es nun Abend war, wollte Aschenputtel fort, und der Königssohn wollte es begleiten, aber es entsprang ihm so geschwind, daß er nicht folgen konnte.",
+     "l": "When it now evening was, wanted Aschenputtel away, and the king’s-son wanted it to-accompany, but it away-sprang from-him so swiftly, that he not follow could.",
+     "i": "When evening came, Aschenputtel wanted to leave, and the prince wanted to escort her; but she sprang away from him so quickly that he could not follow.",
+     "n": "„geschwind“ = ‘swift, quick’ — old-fashioned; modern German prefers „schnell“."},
+    {"t": "Der Königssohn hatte aber eine List gebraucht, und hatte die ganze Treppe mit Pech bestreichen lassen: da war, als es hinabsprang, der linke Pantoffel des Mädchens hängen geblieben.",
+     "l": "The king’s-son had however a ruse used, and had the whole staircase with pitch smear let: there was, as it down-jumped, the left slipper of-the girl hanging remained.",
+     "i": "But the prince had used a trick: he had had the whole staircase smeared with pitch, and when she leapt down, the girl’s left slipper stuck fast in it.",
+     "n": "„die List“ = ‘ruse, cunning trick.’ „das Pech“ = ‘pitch, tar’ (in modern German also ‘bad luck’ — „Pech haben“). „hängen bleiben“ = ‘to get stuck’, literally ‘to remain hanging.’"},
+    {"t": "Der Königssohn hob ihn auf, und er war klein und zierlich und ganz golden.",
+     "l": "The king’s-son picked it up, and it was small and dainty and entirely golden.",
+     "i": "The prince picked it up, and it was small and dainty and all of gold.",
+     "n": "„aufheben“ = ‘to pick up’, separable: „hob … auf“. „ihn / er“ refer to „der Pantoffel“ (masculine) — German pronouns follow grammatical gender even for things."},
+    {"t": "Am nächsten Morgen ging er damit zu dem Mann und sagte zu ihm „keine andere soll meine Gemahlin werden als die, an deren Fuß dieser goldene Schuh paßt.“",
+     "l": "On-the next morning went he therewith to the man and said to him “no other shall my consort become than she, on whose foot this golden shoe fits.”",
+     "i": "The next morning he went with it to the man and said to him: “No one shall be my wife but she whose foot this golden shoe fits.”",
+     "n": "„die Gemahlin“ = elevated word for ‘wife, consort.’ „an deren Fuß“ — „deren“ is the genitive relative pronoun: ‘on whose foot.’"},
+    {"t": "Da freuten sich die beiden Schwestern, denn sie hatten schöne Füße.",
+     "l": "Then gladdened themselves the both sisters, for they had beautiful feet.",
+     "i": "The two sisters were glad, for they had beautiful feet."},
+    {"t": "Die älteste ging mit dem Schuh in die Kammer und wollte ihn anprobieren, und die Mutter stand dabei.",
+     "l": "The eldest went with the shoe into the chamber and wanted it to-try-on, and the mother stood by.",
+     "i": "The eldest went with the shoe into the chamber to try it on, and her mother stood beside her."},
+    {"t": "Aber sie konnte mit der großen Zehe nicht hineinkommen, und der Schuh war ihr zu klein, da reichte ihr die Mutter ein Messer und sprach „hau die Zehe ab: wann du Königin bist, so brauchst du nicht mehr zu Fuß zu gehen.“",
+     "l": "But she could with the big toe not in-come, and the shoe was for-her too small, then handed to-her the mother a knife and spoke “hew the toe off: when you queen are, so need you not more on foot to go.”",
+     "i": "But she could not get her big toe in — the shoe was too small for her. Then her mother handed her a knife and said: “Cut the toe off. Once you are queen, you won’t need to go on foot any more.”",
+     "n": "„der Schuh war ihr zu klein“ — dative of the affected person: ‘too small *for her*.’ „wann“ here = „wenn“ (‘when/once’), an older usage. „abhauen“ = ‘to hew off, chop off.’"},
+    {"t": "Das Mädchen hieb die Zehe ab, zwängte den Fuß in den Schuh, verbiß den Schmerz und ging heraus zum Königssohn.",
+     "l": "The girl hewed the toe off, forced the foot into the shoe, bit-back the pain and went out to-the king’s-son.",
+     "i": "The girl chopped off her toe, forced her foot into the shoe, swallowed the pain, and went out to the prince.",
+     "n": "„verbeißen“ — ‘to clench one’s teeth against’: „verbiß den Schmerz“ = ‘bit back the pain.’"},
+    {"t": "Da nahm er sie als seine Braut aufs Pferd und ritt mit ihr fort.",
+     "l": "Then took he her as his bride onto-the horse and rode with her away.",
+     "i": "Then he took her up on his horse as his bride and rode away with her."},
+    {"t": "Sie mußten aber an dem Grabe vorbei, da saßen die zwei Täubchen auf dem Haselbäumchen und riefen",
+     "l": "They must however by the grave past, there sat the two little-doves on the little-hazel-tree and called",
+     "i": "But their way led past the grave, and there the two little doves sat on the little hazel tree, calling:",
+     "n": "„an … vorbei“ = ‘past …’; the motion verb (‘ride’) is simply left out after „mußten“ — ‘they had to [go] past the grave.’"},
+    {"v": true, "t": "„rucke di guck, rucke di guck,\nBlut ist im Schuck (Schuh):\nDer Schuck ist zu klein,\ndie rechte Braut sitzt noch daheim.“",
+     "l": "“rook-di-look, rook-di-look,\nblood is in-the shoe:\nthe shoe is too small,\nthe right bride sits still at-home.”",
+     "i": "“Coo, coo, look and see! There’s blood in the shoe: the shoe is too small — the true bride still sits at home.”",
+     "n": "„rucke di guck“ imitates a dove’s cooing („rucken“) while punning on „gucken“ (‘to look’). „Schuck“ is dialect for „Schuh“, kept for the rhyme — the text itself glosses it in parentheses. „recht“ = ‘right’ in the sense of ‘true, rightful.’"},
+    {"t": "Da blickte er auf ihren Fuß und sah, wie das Blut herausquoll.",
+     "l": "Then looked he at her foot and saw, how the blood out-welled.",
+     "i": "Then he looked down at her foot and saw the blood welling out.",
+     "n": "„herausquellen“ = ‘to well out, gush out’ — „quoll“ is its (strong) past tense."},
+    {"t": "Er wendete sein Pferd um, brachte die falsche Braut wieder nach Hause und sagte, das wäre nicht die rechte, die andere Schwester solle den Schuh anziehen.",
+     "l": "He turned his horse around, brought the false bride again to home and said, that were not the right-one, the other sister should the shoe put-on.",
+     "i": "He turned his horse around, brought the false bride back home, and said she was not the true one — the other sister should try the shoe on.",
+     "n": "„wäre“ and „solle“ — both subjunctive, marking reported speech: he *said that* she was not the right one and that the other *should* put on the shoe."},
+    {"t": "Da ging diese in die Kammer und kam mit den Zehen glücklich in den Schuh, aber die Ferse war zu groß.",
+     "l": "Then went this-one into the chamber and came with the toes happily into the shoe, but the heel was too big.",
+     "i": "So she went into the chamber and got her toes successfully into the shoe, but her heel was too big.",
+     "n": "„glücklich“ here means ‘successfully’, not ‘happily’ — an older usage that survives in „es ist glücklich gelungen“ (‘it happily succeeded’)."},
+    {"t": "Da reichte ihr die Mutter ein Messer und sprach „hau ein Stück von der Ferse ab: wann du Königin bist, brauchst du nicht mehr zu Fuß zu gehen.“",
+     "l": "Then handed to-her the mother a knife and spoke “hew a piece from the heel off: when you queen are, need you not more on foot to go.”",
+     "i": "Then her mother handed her a knife and said: “Cut a piece off your heel. Once you are queen, you won’t need to go on foot any more.”"},
+    {"t": "Das Mädchen hieb ein Stück von der Ferse ab, zwängte den Fuß in den Schuh, verbiß den Schmerz und ging heraus zum Königssohn.",
+     "l": "The girl hewed a piece from the heel off, forced the foot into the shoe, bit-back the pain and went out to-the king’s-son.",
+     "i": "The girl cut a piece off her heel, forced her foot into the shoe, swallowed the pain, and went out to the prince."},
+    {"t": "Da nahm er sie als seine Braut aufs Pferd und ritt mit ihr fort.",
+     "l": "Then took he her as his bride onto-the horse and rode with her away.",
+     "i": "Then he took her up on his horse as his bride and rode away with her."},
+    {"t": "Als sie an dem Haselbäumchen vorbeikamen, saßen die zwei Täubchen darauf und riefen",
+     "l": "When they by the little-hazel-tree past-came, sat the two little-doves thereon and called",
+     "i": "When they passed the little hazel tree, the two little doves were sitting on it, and they called:"},
+    {"v": true, "t": "„rucke di guck, rucke di guck,\nBlut ist im Schuck (Schuh):\nDer Schuck ist zu klein,\ndie rechte Braut sitzt noch daheim.“",
+     "l": "“rook-di-look, rook-di-look,\nblood is in-the shoe:\nthe shoe is too small,\nthe right bride sits still at-home.”",
+     "i": "“Coo, coo, look and see! There’s blood in the shoe: the shoe is too small — the true bride still sits at home.”"},
+    {"t": "Er blickte nieder auf ihren Fuß und sah, wie das Blut aus dem Schuh quoll und an den weißen Strümpfen ganz rot heraufgestiegen war.",
+     "l": "He looked down at her foot and saw, how the blood out-of the shoe welled and on the white stockings all red up-climbed was.",
+     "i": "He looked down at her foot and saw how the blood was welling out of the shoe and had risen all red up her white stockings.",
+     "n": "„heraufgestiegen war“ — past perfect with „sein“: the blood ‘had climbed up’ the stockings. A vivid, physical image typical of Grimm."},
+    {"t": "Da wendete er sein Pferd und brachte die falsche Braut wieder nach Haus.",
+     "l": "Then turned he his horse and brought the false bride again to home.",
+     "i": "Then he turned his horse and brought the false bride back home."},
+    {"t": "„Das ist auch nicht die rechte,“ sprach er, „habt ihr keine andere Tochter?“",
+     "l": "“That is also not the right-one,” spoke he, “have you no other daughter?”",
+     "i": "“This is not the true one either,” he said. “Have you no other daughter?”",
+     "n": "„ihr / habt“ — the plural ‘you’, addressing the household; also the old respectful address to a single person of lower rank."},
+    {"t": "„Nein,“ sagte der Mann, „nur von meiner verstorbenen Frau ist noch ein kleines verbuttetes Aschenputtel da: das kann unmöglich die Braut sein.“",
+     "l": "“No,” said the man, “only from my deceased wife is still a small stunted Aschenputtel there: that can impossibly the bride be.”",
+     "i": "“No,” said the man, “there is only a puny little Aschenputtel left from my late wife — she cannot possibly be the bride.”",
+     "n": "„verbuttet“ = ‘stunted, scrubby’ — a rare, dismissive word. Notice the father’s own coldness here; the Grimms leave it without comment."},
+    {"t": "Der Königssohn sprach, er sollte es heraufschicken, die Mutter aber antwortete „ach nein, das ist viel zu schmutzig, das darf sich nicht sehen lassen.“",
+     "l": "The king’s-son spoke, he should it up-send, the mother however answered “oh no, that is much too dirty, that may itself not seen let.”",
+     "i": "The prince said he should send her up, but the mother answered: “Oh no, she is far too dirty — she must not be seen.”",
+     "n": "„sich sehen lassen“ = ‘to show oneself, be presentable’: „das darf sich nicht sehen lassen“ ≈ ‘she is not fit to be seen.’ Note the mother calls her „das“ (‘that thing’)."},
+    {"t": "Er wollte es aber durchaus haben, und Aschenputtel mußte gerufen werden.",
+     "l": "He wanted it however absolutely to-have, and Aschenputtel must called be.",
+     "i": "But he absolutely insisted, and Aschenputtel had to be called.",
+     "n": "„durchaus“ here = ‘absolutely, by all means.’ „mußte gerufen werden“ — passive with modal: ‘had to be called.’"},
+    {"t": "Da wusch es sich erst Hände und Angesicht rein, ging dann hin und neigte sich vor dem Königssohn, der ihm den goldenen Schuh reichte.",
+     "l": "Then washed it itself first hands and countenance clean, went then thither and bowed itself before the king’s-son, who to-it the golden shoe handed.",
+     "i": "First she washed her hands and face clean, then went in and curtsied before the prince, who handed her the golden shoe.",
+     "n": "„sich rein waschen“ — again the verb + result pattern: ‘to wash oneself clean.’ „das Angesicht“ = elevated old word for ‘face.’"},
+    {"t": "Dann setzte es sich auf einen Schemel, zog den Fuß aus dem schweren Holzschuh und steckte ihn in den Pantoffel, der war wie angegossen.",
+     "l": "Then set it itself onto a stool, pulled the foot out-of the heavy wooden-shoe and stuck it into the slipper, that was as-if poured-on.",
+     "i": "Then she sat down on a stool, drew her foot out of the heavy wooden shoe, and slipped it into the slipper — it fitted like a glove.",
+     "n": "„wie angegossen“ = literally ‘as if cast/poured on (like molten metal)’ — the standard German idiom for a perfect fit, where English says ‘fits like a glove.’"},
+    {"t": "Und als es sich in die Höhe richtete und der König ihm ins Gesicht sah, so erkannte er das schöne Mädchen, das mit ihm getanzt hatte, und rief „das ist die rechte Braut.“",
+     "l": "And when it itself into the height straightened and the king it in-the face looked, so recognized he the beautiful girl, that with him danced had, and called “that is the right bride.”",
+     "i": "And when she stood up and the prince looked into her face, he recognized the beautiful maiden who had danced with him, and cried: “This is the true bride!”",
+     "n": "„sich in die Höhe richten“ = ‘to straighten up, rise.’ The text says „der König“ here although it is the prince — a small inconsistency that stands in the 1857 original."},
+    {"t": "Die Stiefmutter und die beiden Schwestern erschraken und wurden bleich vor Ärger: er aber nahm Aschenputtel aufs Pferd und ritt mit ihm fort.",
+     "l": "The stepmother and the both sisters were-startled and became pale for anger: he however took Aschenputtel onto-the horse and rode with it away.",
+     "i": "The stepmother and the two sisters were horrified and turned pale with rage; but he took Aschenputtel up on his horse and rode away with her.",
+     "n": "There it is: „vor Ärger“ — ‘pale *with* rage’, the „vor“ of overwhelming causes. „erschrecken“ (strong): „erschraken“ = ‘were startled/horrified.’"},
+    {"t": "Als sie an dem Haselbäumchen vorbeikamen, riefen die zwei weißen Täubchen",
+     "l": "When they by the little-hazel-tree past-came, called the two white little-doves",
+     "i": "As they passed the little hazel tree, the two white doves called:"},
+    {"v": true, "t": "„rucke di guck, rucke di guck,\nkein Blut im Schuck:\nDer Schuck ist nicht zu klein,\ndie rechte Braut, die führt er heim.“",
+     "l": "“rook-di-look, rook-di-look,\nno blood in-the shoe:\nthe shoe is not too small,\nthe right bride, her leads he home.”",
+     "i": "“Coo, coo, look and see! No blood in the shoe: the shoe is not too small — the true bride he carries home.”",
+     "n": "„heimführen“ = ‘to lead home’ — the old expression for taking a bride home in marriage. „die rechte Braut, die führt er heim“ — the doubled „die“ fronts the object for emphasis."},
+    {"t": "Und als sie das gerufen hatten, kamen sie beide herabgeflogen und setzten sich dem Aschenputtel auf die Schultern, eine rechts, die andere links, und blieben da sitzen.",
+     "l": "And when they that called had, came they both down-flown and set themselves to-the Aschenputtel on the shoulders, one right, the other left, and remained there sitting.",
+     "i": "And when they had called this, they both flew down and perched on Aschenputtel’s shoulders, one on the right, the other on the left, and there they stayed.",
+     "n": "„kamen … herabgeflogen“ — ‘came flying down’: German pairs „kommen“ with a past participle of motion where English uses ‘came …-ing.’"},
+    {"p": true, "t": "Als die Hochzeit mit dem Königssohn sollte gehalten werden, kamen die falschen Schwestern, wollten sich einschmeicheln und teil an seinem Glück nehmen.",
+     "l": "When the wedding with the king’s-son should held be, came the false sisters, wanted themselves to-ingratiate and part in its fortune take.",
+     "i": "When the wedding with the prince was to be held, the false sisters came, wanting to ingratiate themselves and share in her good fortune.",
+     "n": "„sich einschmeicheln“ = ‘to flatter one’s way in, ingratiate oneself.’ „teilnehmen an“ = ‘to take part in, share in.’"},
+    {"t": "Als die Brautleute nun zur Kirche gingen, war die älteste zur rechten, die jüngste zur linken Seite: da pickten die Tauben einer jeden das eine Auge aus.",
+     "l": "When the bridal-pair now to-the church went, was the eldest at-the right, the youngest at-the left side: there pecked the doves of-each one the one eye out.",
+     "i": "As the bridal pair walked to the church, the eldest was on the right side, the youngest on the left — and the doves pecked out one eye of each of them.",
+     "n": "„die Brautleute“ = ‘the bridal couple.’ „einer jeden“ — dative: ‘of each (of the two women).’ „auspicken“ = ‘to peck out.’"},
+    {"t": "Hernach, als sie herausgingen, war die älteste zur linken und die jüngste zur rechten: da pickten die Tauben einer jeden das andere Auge aus.",
+     "l": "Afterward, when they out-went, was the eldest at-the left and the youngest at-the right: there pecked the doves of-each one the other eye out.",
+     "i": "Afterward, as they came out, the eldest was on the left and the youngest on the right — and the doves pecked out the other eye of each.",
+     "n": "„hernach“ = ‘afterward’ (archaic). The grim symmetry of the two sentences is deliberate."},
+    {"t": "Und waren sie also für ihre Bosheit und Falschheit mit Blindheit auf ihr Lebtag bestraft.",
+     "l": "And were they thus for their malice and falseness with blindness for their life-days punished.",
+     "i": "And so, for their wickedness and falseness, they were punished with blindness for the rest of their days.",
+     "n": "„auf ihr Lebtag“ = ‘for their whole life’ — old fixed phrase. The sentence begins with „Und waren sie…“, an archaic verb-first close that gives the ending its formal, sealed quality."}
+  ],
+  "glossary": {
+    "ab": "off, away (separable prefix)",
+    "abend": "der Abend — evening",
+    "abends": "in the evening(s)",
+    "aber": "but, however",
+    "abgezogen": "taken off (abziehen)",
+    "ach": "oh, ah",
+    "all": "all",
+    "alle": "all",
+    "allein": "alone",
+    "allemal": "every time",
+    "aller": "of all — in aller Eile: in all haste",
+    "alles": "everything, all",
+    "als": "when, as; than (after comparative)",
+    "also": "thus, so — also daß: so that",
+    "alte": "old — der Alte: the old man",
+    "alten": "old (inflected form of alt)",
+    "am": "= an dem, at the / on the",
+    "an": "at, on, against",
+    "andere": "other",
+    "anderer": "another (one)",
+    "andern": "other (old spelling of anderen)",
+    "angegossen": "wie angegossen — ‘as if poured on’: a perfect fit",
+    "angehörte": "belonged to (angehören + dative)",
+    "angesicht": "das Angesicht — face, countenance (elevated)",
+    "angezogen": "put on (anziehen)",
+    "anhielt": "kept on, persisted (anhalten)",
+    "anhub": "began (archaic past of anheben; modern: anfing)",
+    "anmachen": "to light, kindle (a fire)",
+    "anprobieren": "to try on",
+    "ans": "= an das, to the / at the",
+    "anstellte": "arranged, held (anstellen)",
+    "antwortete": "answered (antworten)",
+    "anziehen": "to put on (clothes)",
+    "arbeit": "die Arbeit — work",
+    "arme": "poor (arm)",
+    "asche": "die Asche — ash, ashes",
+    "aschenputtel": "Aschenputtel — ‘one who grubs in the ashes’; Cinderella",
+    "auch": "also, too",
+    "auf": "on, onto, at, up",
+    "aufforderte": "asked (her) to dance (auffordern)",
+    "aufforderten": "asked (her) to dance (plural)",
+    "aufs": "= auf das, onto the",
+    "aufstehn": "to get up (= aufstehen)",
+    "aufzufordern": "to ask (her) to dance (zu-infinitive of auffordern)",
+    "auge": "das Auge — eye",
+    "augen": "eyes (plural of das Auge)",
+    "aus": "out of, from",
+    "ausgelacht": "laughed at, mocked (auslachen)",
+    "ausgelesen": "picked out, sorted out (auslesen)",
+    "ausgestickte": "embroidered (aussticken)",
+    "auslesen": "to pick out, sort out",
+    "aussah": "looked, appeared (aussehen)",
+    "aussprach": "spoke, uttered (aussprechen)",
+    "aussuchen": "to choose, pick out",
+    "axt": "die Axt — axe",
+    "bat": "asked, begged (past of bitten)",
+    "baum": "der Baum — tree",
+    "begab": "es begab sich — it came to pass (solemn fairy-tale phrase)",
+    "begleite": "accompany, escort (begleiten)",
+    "begleiten": "to accompany, escort",
+    "begossen": "watered (begießen)",
+    "behend": "nimble, agile (slightly archaic)",
+    "bei": "at, with, by — bei der Hand: by the hand",
+    "beide": "both",
+    "beiden": "both (inflected)",
+    "beistehen": "to stand by, support (+ dative)",
+    "bestraft": "punished (bestrafen)",
+    "bestreichen": "to smear, coat",
+    "betete": "prayed (beten)",
+    "bett": "das Bett — bed",
+    "birnbaum": "der Birnbaum — pear tree",
+    "birnen": "pears (die Birne)",
+    "bis": "until",
+    "bist": "are (du-form of sein)",
+    "bitten": "das Bitten — begging, pleading; bitten: to beg",
+    "bleibe": "stay, remain (imperative of bleiben)",
+    "bleich": "pale",
+    "blickte": "looked, glanced (blicken)",
+    "blieb": "remained (past of bleiben)",
+    "blieben": "remained (plural)",
+    "blindheit": "die Blindheit — blindness",
+    "blut": "das Blut — blood",
+    "bosheit": "die Bosheit — malice, wickedness",
+    "brach": "broke (past of brechen)",
+    "brachte": "brought (past of bringen)",
+    "brannte": "burned (past of brennen)",
+    "brauchst": "need (brauchen) — brauchst nicht zu gehen: don’t need to go",
+    "braut": "die Braut — bride",
+    "brautleute": "die Brautleute — the bridal couple",
+    "brecht": "break (imperative, old respectful form of brechen)",
+    "bringen": "to bring",
+    "brot": "das Brot — bread",
+    "busch": "der Busch — bush, thicket",
+    "bäumchen": "das Bäumchen — little tree (diminutive of Baum)",
+    "bürste": "brush! (imperative of bürsten)",
+    "da": "there; then; since",
+    "dabei": "present, there; alongside",
+    "dachte": "thought (past of denken)",
+    "dachten": "thought (plural)",
+    "daheim": "at home",
+    "damit": "so that; with it",
+    "danach": "after that",
+    "dankte": "thanked (danken + dative)",
+    "dann": "then",
+    "darauf": "on it, thereupon; after that",
+    "darf": "may, is allowed to (dürfen)",
+    "darin": "inside, in it",
+    "darum": "therefore, for that reason",
+    "darunter": "under it, beneath it",
+    "das": "the (neuter); that; which",
+    "dauern": "to last",
+    "daß": "that (conjunction; old spelling of dass)",
+    "deckte": "covered, spread (decken)",
+    "deiner": "of you (genitive of du — uns deiner schämen: be ashamed of you)",
+    "dem": "the / to the (dative)",
+    "den": "the (accusative masculine; dative plural)",
+    "denn": "for, because",
+    "der": "the (masculine); who, that; of the (feminine dative/genitive)",
+    "deren": "whose (genitive relative pronoun)",
+    "des": "of the (genitive)",
+    "di": "(nonsense syllable in the doves’ call „rucke di guck“)",
+    "dich": "you, yourself (accusative of du)",
+    "die": "the; who, that",
+    "diese": "this one, she",
+    "diesem": "this (dative)",
+    "dieser": "this",
+    "dinge": "guter Dinge sein — to be in good spirits (das Ding: thing)",
+    "dir": "to you, for you (dative of du)",
+    "drei": "three",
+    "dreimal": "three times",
+    "dritten": "third (inflected)",
+    "du": "you (familiar singular)",
+    "dumme": "stupid (dumm)",
+    "durch": "through",
+    "durchaus": "absolutely, by all means",
+    "dürfte": "would be allowed to (subjunctive of dürfen)",
+    "edelsteine": "precious stones, jewels (der Edelstein)",
+    "ehe": "before (conjunction; older synonym of bevor)",
+    "eichhörnchen": "das Eichhörnchen — squirrel",
+    "eile": "die Eile — haste, hurry",
+    "eilte": "hurried (eilen)",
+    "ein": "a, an; one; in (separable prefix, as in herein)",
+    "eine": "a, an; one",
+    "einem": "a, an (dative)",
+    "einen": "a, an (accusative)",
+    "einer": "one, someone; (dative feminine) einer jeden: of each one",
+    "eingeladen": "invited (einladen)",
+    "einmal": "once; (after imperative) just — seht einmal: just look",
+    "einschmeicheln": "sich einschmeicheln — to ingratiate oneself",
+    "einziges": "only, sole (einzig)",
+    "eltern": "die Eltern — parents",
+    "ende": "das Ende — end",
+    "endlich": "finally, at last",
+    "entgegen": "toward — jemandem entgegenkommen: to come to meet someone",
+    "entsprang": "sprang away, escaped (entspringen)",
+    "entwischt": "slipped away, escaped (entwischen)",
+    "entwischte": "slipped away (past of entwischen)",
+    "entzweischlagen": "to smash in two (entzwei: apart, in two)",
+    "er": "he; it (for masculine nouns)",
+    "erbsen": "peas (die Erbse)",
+    "erkannte": "recognized (erkennen)",
+    "erlauben": "to allow, permit",
+    "erscheinen": "to appear",
+    "erschien": "appeared (past of erscheinen)",
+    "erschraken": "were startled, horrified (past of erschrecken)",
+    "ersinnliche": "conceivable, imaginable (ersinnlich, archaic)",
+    "erst": "first; only",
+    "erstaunte": "marveled, was astonished (erstaunen)",
+    "erste": "first",
+    "es": "it — also ‘she’ throughout, referring to das Mädchen (neuter)",
+    "essen": "to eat",
+    "euch": "you (old respectful address, like French vous)",
+    "eurem": "your (old respectful address)",
+    "falsche": "false",
+    "falschen": "false (inflected)",
+    "falschheit": "die Falschheit — falseness, deceit",
+    "ferse": "die Ferse — heel",
+    "fertig": "finished, done",
+    "fest": "das Fest — festival, feast; fest (adj.): firm, tight",
+    "feuer": "das Feuer — fire",
+    "fingen": "fingen an — began (anfangen, separable)",
+    "flogen": "flew (past of fliegen)",
+    "folgen": "to follow",
+    "fort": "away, gone; off",
+    "fragte": "asked (fragen)",
+    "frau": "die Frau — woman, wife",
+    "fremde": "strange, unknown, foreign",
+    "freute": "freute sich — was glad, rejoiced (sich freuen)",
+    "freuten": "rejoiced (plural)",
+    "fromm": "pious, devout",
+    "früh": "early",
+    "frühjahr": "das Frühjahr — spring(time)",
+    "fuß": "der Fuß — foot; zu Fuß gehen: to go on foot",
+    "fühlte": "felt (fühlen)",
+    "führt": "leads (führen) — die führt er heim: her he leads home (marries)",
+    "führten": "led (plural)",
+    "für": "for",
+    "füße": "feet (plural of der Fuß)",
+    "gab": "gave (past of geben)",
+    "gaben": "gave (plural)",
+    "gans": "die Gans — goose",
+    "ganz": "entirely, quite — ganz golden: all of gold",
+    "ganze": "whole",
+    "gar": "gar nicht — not at all",
+    "garstig": "nasty, vile",
+    "garten": "der Garten — garden",
+    "gearbeitet": "worked (arbeiten)",
+    "geblieben": "remained — hängen geblieben: got stuck",
+    "gebracht": "brought (bringen)",
+    "gebraucht": "used, employed (gebrauchen)",
+    "gehabt": "had (haben)",
+    "gehalten": "held (halten)",
+    "gehe": "go (ich gehe: I go)",
+    "gehen": "to go",
+    "gehorchte": "obeyed (gehorchen)",
+    "gelaufen": "run (laufen)",
+    "gelegt": "laid (legen)",
+    "gemahlin": "die Gemahlin — wife, consort (elevated)",
+    "geputzt": "decked out, dressed up (old sense of putzen)",
+    "gern": "gladly, willingly — wäre gern mitgegangen: would have liked to go",
+    "gerufen": "called (rufen)",
+    "geschwind": "swift(ly), quick(ly) (old-fashioned)",
+    "geschüttet": "poured, dumped (schütten)",
+    "gesetzt": "sat (sich setzen: to sit down)",
+    "gesicht": "das Gesicht — face",
+    "gesprungen": "jumped (springen)",
+    "getanzt": "danced (tanzen)",
+    "gewartet": "waited (warten)",
+    "gewünscht": "wished (wünschen)",
+    "ging": "went (past of gehen)",
+    "gingen": "went (plural)",
+    "glaube": "believe (ich glaube: I believe)",
+    "glaubte": "believed (glauben)",
+    "gleich": "at once, right away",
+    "glück": "das Glück — fortune, happiness, luck",
+    "glücklich": "successfully (old usage); happy",
+    "glänzend": "gleaming, shining",
+    "gold": "das Gold — gold",
+    "golden": "golden, of gold",
+    "goldene": "golden (inflected)",
+    "goldenen": "golden (inflected)",
+    "gott": "der Gott — God",
+    "grab": "das Grab — grave",
+    "grabe": "grave (old dative of das Grab)",
+    "grauen": "gray (inflected form of grau)",
+    "graues": "gray",
+    "groß": "big, large, tall",
+    "großen": "big (inflected)",
+    "großer": "big",
+    "grünen": "green (inflected form of grün)",
+    "guck": "look! (gucken) — punned into the doves’ coo",
+    "gut": "good",
+    "guten": "good (inflected)",
+    "guter": "guter Dinge — in good spirits",
+    "haare": "hair (plural of das Haar)",
+    "habe": "have (ich habe: I have)",
+    "haben": "to have",
+    "habt": "have (ihr habt: you have)",
+    "hacken": "die Hacke — pick, mattock (here plural/old form)",
+    "halbe": "half",
+    "hand": "die Hand — hand",
+    "haselbaum": "der Haselbaum — hazel tree",
+    "haselbusch": "der Haselbusch — hazel bush",
+    "haselbäumchen": "das Haselbäumchen — little hazel tree",
+    "haselreis": "das Haselreis — hazel twig",
+    "hast": "have (du hast: you have)",
+    "hatte": "had (past of haben)",
+    "hatten": "had (plural)",
+    "hau": "chop! hew! (imperative of hauen)",
+    "haus": "das Haus — house; nach Haus: home(ward)",
+    "hause": "house (old dative); nach Hause: home",
+    "heim": "home(ward)",
+    "heimweg": "der Heimweg — the way home",
+    "helft": "help! (imperative plural of helfen)",
+    "herab": "down(ward)",
+    "herabblicken": "to look down (from above)",
+    "herabgeflogen": "flown down (herabfliegen)",
+    "herabgesprungen": "jumped down (herabspringen)",
+    "herabgezogen": "drawn down, pulled off (herabziehen)",
+    "herankam": "approached, drew near (herankommen)",
+    "heraufgestiegen": "risen up, climbed up (heraufsteigen)",
+    "heraufschicken": "to send up",
+    "heraus": "out (toward the speaker)",
+    "herausgingen": "went out (plural)",
+    "herausquoll": "welled out, gushed out (herausquellen)",
+    "herd": "der Herd — hearth, stove",
+    "herein": "in, inside (motion toward the speaker)",
+    "hernach": "afterward (archaic)",
+    "herrlichsten": "most glorious, most splendid (herrlich)",
+    "herum": "around; herum sein: to be over, past (of time)",
+    "herunter": "down(ward)",
+    "herzeleid": "das Herzeleid — heartache, sorrow",
+    "herzen": "das Herz — heart (dative: von Herzen, of heart)",
+    "hieb": "hewed, chopped (past of hauen)",
+    "hilft": "helps (helfen) — es hilft dir alles nichts: it’s all no use",
+    "himmel": "der Himmel — sky, heaven",
+    "hin": "thither, to that place",
+    "hinabsprang": "jumped down (hinabspringen)",
+    "hinaus": "out(ward), outside",
+    "hineinkommen": "to get in(to)",
+    "hingekommen": "got to, gone to (hinkommen) — wo es hingekommen war: where she had got to",
+    "hingen": "hung (past of hängen)",
+    "hinten": "at the back, behind",
+    "hinter": "behind",
+    "hintertür": "die Hintertür — back door",
+    "hob": "hob auf — picked up (aufheben)",
+    "hochzeit": "die Hochzeit — wedding",
+    "holen": "to fetch, get",
+    "holzschuh": "der Holzschuh — wooden shoe, clog",
+    "hut": "der Hut — hat",
+    "hände": "hands (plural of die Hand)",
+    "hängen": "to hang — hängen bleiben: to get stuck",
+    "hölzerne": "wooden (hölzern)",
+    "hörten": "heard (hören)",
+    "höhe": "die Höhe — height; sich in die Höhe richten: to straighten up",
+    "ich": "I",
+    "ihm": "to him / to it (dative — often ‘to her’, since das Mädchen is neuter)",
+    "ihn": "him, it (accusative)",
+    "ihnen": "to them (dative)",
+    "ihr": "you (plural); her; their",
+    "ihre": "her, their",
+    "ihren": "her, their (inflected)",
+    "im": "= in dem, in the",
+    "immer": "always",
+    "in": "in, into",
+    "ins": "= in das, into the",
+    "ist": "is",
+    "ja": "(particle) surely, after all — das kann es ja nimmermehr: she surely never can",
+    "jeden": "every, each",
+    "jedermann": "everyone",
+    "jungfrauen": "maidens (die Jungfrau)",
+    "jüngste": "youngest",
+    "kam": "came (past of kommen)",
+    "kamen": "came (plural)",
+    "kammer": "die Kammer — chamber, small room",
+    "kann": "can (können)",
+    "kannst": "can (du kannst: you can)",
+    "kannten": "knew, recognized (kennen)",
+    "kaufte": "bought (kaufen)",
+    "kaum": "hardly, scarcely",
+    "kehrte": "kehrte … zu — turned toward (zukehren): den Rücken zukehren, to turn one’s back",
+    "kein": "no, not a",
+    "keine": "no, not any",
+    "keins": "none (= keines)",
+    "kind": "das Kind — child",
+    "kirche": "die Kirche — church",
+    "kittel": "der Kittel — smock, work frock",
+    "kittelchen": "das Kittelchen — little smock",
+    "kleid": "das Kleid — dress",
+    "kleide": "dress (old dative)",
+    "kleider": "clothes, dresses",
+    "kleidern": "clothes (dative plural)",
+    "klein": "small, little",
+    "kleines": "small, little",
+    "kletterte": "climbed (klettern)",
+    "kochen": "to cook",
+    "kommst": "come (du kommst: you come)",
+    "kommt": "come! (imperative plural); comes",
+    "konnte": "could (past of können)",
+    "krank": "sick, ill",
+    "kröpfchen": "das Kröpfchen — little crop (pouch in a bird’s throat; dim. of Kropf)",
+    "kämm": "comb! (imperative of kämmen)",
+    "könig": "der König — king",
+    "königin": "die Königin — queen",
+    "königs": "of the king (genitive)",
+    "königssohn": "der Königssohn — the king’s son, the prince",
+    "königstochter": "die Königstochter — king’s daughter, princess",
+    "köpfchen": "das Köpfchen — little head",
+    "körner": "grains (das Korn)",
+    "körnlein": "das Körnlein — little grain",
+    "küche": "die Küche — kitchen",
+    "küchenfenster": "das Küchenfenster — kitchen window",
+    "küchenmagd": "die Küchenmagd — kitchen maid",
+    "lachten": "laughed (lachen)",
+    "lag": "lay (past of liegen)",
+    "lande": "das Land — land (old dative: im Lande, in the land)",
+    "lasen": "gathered, picked (past of lesen in its old sense)",
+    "lassen": "to let; to have something done — bestreichen lassen: have (it) smeared",
+    "lebtag": "auf ihr Lebtag — for the rest of their lives (old fixed phrase)",
+    "legen": "to lay (down) — sich legen: to lie down",
+    "lesen": "to gather, glean (old sense); to read",
+    "liebe": "dear (lieb); der liebe Gott: the dear Lord",
+    "liebes": "dear (liebes Kind: dear child)",
+    "ließ": "let; had (done) (lassen) — ließ sich die Axt holen: had the axe fetched",
+    "ließen": "ließen sich nieder — settled down, alighted (sich niederlassen)",
+    "linke": "left (adjective)",
+    "linken": "left (inflected)",
+    "links": "on the left",
+    "linsen": "lentils (die Linse)",
+    "list": "die List — ruse, cunning trick",
+    "losließ": "let go of (loslassen)",
+    "mache": "make! — mache fest: fasten (festmachen)",
+    "mann": "der Mann — man",
+    "manne": "man (old dative of der Mann)",
+    "mehr": "more — nicht mehr: no longer; niemand mehr: no one anymore",
+    "meine": "my",
+    "meiner": "my (inflected)",
+    "meinten": "thought, supposed (meinen)",
+    "messe": "die Messe — (trade) fair (here); also: church mass",
+    "messer": "das Messer — knife",
+    "mich": "me (accusative)",
+    "mir": "to me, for me (dative)",
+    "mit": "with; along (separable prefix: mitgehen, mitbringen)",
+    "mitbringen": "to bring along, bring back",
+    "mitgegangen": "gone along (mitgehen)",
+    "mitgehen": "to go along, come too",
+    "morgen": "der Morgen — morning",
+    "mutter": "die Mutter — mother",
+    "muß": "must (old spelling of muss)",
+    "mußte": "had to (old spelling of musste)",
+    "mußten": "had to (plural)",
+    "mädchen": "das Mädchen — girl (grammatically neuter)",
+    "mädchens": "of the girl (genitive)",
+    "möchte": "might, would like to (subjunctive of mögen)",
+    "müde": "tired — sich müde arbeiten: to work oneself tired",
+    "müsse": "must (subjunctive I — reported thought/speech)",
+    "müßten": "would have to (subjunctive II of müssen)",
+    "nach": "to, toward; after — nach Haus: home",
+    "nahm": "took (past of nehmen)",
+    "nahmen": "took (plural)",
+    "nannten": "named, called (nennen)",
+    "neben": "beside, next to",
+    "nehmen": "to take — teil nehmen an: to share in",
+    "neigte": "neigte sich — bowed, curtsied (sich neigen)",
+    "nein": "no",
+    "neuem": "von neuem — anew, afresh",
+    "nicht": "not",
+    "nichts": "nothing",
+    "nickten": "nodded (nicken)",
+    "nieder": "down (nieder blicken: look down)",
+    "niederfielen": "fell down (niederfallen)",
+    "niemand": "no one, nobody",
+    "nimmermehr": "nevermore, never possibly",
+    "noch": "still, yet — noch keins: none yet",
+    "nun": "now",
+    "nur": "only",
+    "nächsten": "next (inflected)",
+    "obendrein": "on top of that, in addition",
+    "pantoffel": "der Pantoffel — slipper",
+    "pantoffeln": "slippers",
+    "paßt": "fits (passen; old spelling of passt)",
+    "pech": "das Pech — pitch, tar (modern German also: bad luck)",
+    "perlen": "pearls (die Perle)",
+    "pferd": "das Pferd — horse",
+    "pflanzte": "planted (pflanzen)",
+    "pick": "peck! (the sound of pecking)",
+    "pickten": "pecked (picken)",
+    "prinzessin": "die Prinzessin — princess",
+    "prächtig": "magnificent, splendid",
+    "quoll": "welled, gushed (past of quellen)",
+    "rechte": "right; true, rightful — die rechte Braut: the true bride",
+    "rechten": "right (inflected); zur rechten: on the right side",
+    "rechts": "on the right",
+    "reichen": "rich (inflected form of reich); reichen: to hand, pass",
+    "reichte": "handed, passed (reichen)",
+    "rein": "clean — rein lesen: to pick clean; rein waschen: to wash clean",
+    "reis": "das Reis — twig, sprig (old word; not der Reis, ‘rice’)",
+    "richtete": "richtete sich in die Höhe — straightened up, rose (sich richten)",
+    "rief": "called, cried (past of rufen)",
+    "riefen": "called (plural)",
+    "ritt": "rode (past of reiten)",
+    "rot": "red",
+    "rucke": "coo (imitating a dove; rucken = to coo)",
+    "rücken": "der Rücken — back",
+    "rückweg": "der Rückweg — the way back",
+    "rüttel": "shake! (imperative of rütteln)",
+    "sagen": "to say",
+    "sagte": "said (sagen)",
+    "sah": "saw; looked (past of sehen)",
+    "saßen": "sat (past plural of sitzen)",
+    "schemel": "der Schemel — stool",
+    "schlechten": "bad (schlecht) — die schlechten: the bad ones",
+    "schlimme": "bad, grievous (schlimm)",
+    "schloß": "das Schloß — castle (old spelling of Schloss)",
+    "schmerz": "der Schmerz — pain",
+    "schmutz": "der Schmutz — dirt, filth",
+    "schmutzig": "dirty",
+    "schmutzigen": "dirty (inflected)",
+    "schnallen": "buckles (die Schnalle)",
+    "schnee": "der Schnee — snow",
+    "schon": "already",
+    "schornstein": "der Schornstein — chimney",
+    "schuck": "dialect for der Schuh (shoe), kept for the doves’ rhyme",
+    "schuh": "der Schuh — shoe",
+    "schuhe": "shoes",
+    "schultern": "shoulders (die Schulter)",
+    "schwarz": "black",
+    "schwere": "heavy, hard (schwer)",
+    "schweren": "heavy (inflected)",
+    "schwester": "die Schwester — sister",
+    "schwestern": "sisters",
+    "schwirrten": "whirred (schwirren)",
+    "schwärmten": "swarmed (schwärmen)",
+    "schämen": "sich schämen (+ genitive) — to be ashamed (of someone)",
+    "schön": "beautiful",
+    "schöne": "beautiful (inflected)",
+    "schönen": "beautiful (inflected)",
+    "schöner": "beautiful; (with ein) a beautiful …",
+    "schönheit": "die Schönheit — beauty",
+    "schüssel": "die Schüssel — bowl",
+    "schüsseln": "bowls",
+    "schüttel": "shake! (imperative of schütteln)",
+    "schütteten": "poured, dumped (schütten)",
+    "sehen": "to see — sich sehen lassen: to show oneself, be presentable",
+    "sehr": "very; so sehr: so much",
+    "seht": "see! look! (imperative plural of sehen)",
+    "seide": "die Seide — silk",
+    "sein": "to be; his / its",
+    "seine": "his, its",
+    "seinem": "his, its (dative)",
+    "seinen": "his, its (inflected)",
+    "seiner": "his, its — seiner Mutter Grab: its mother’s grave (old genitive)",
+    "seite": "die Seite — side",
+    "setzte": "setzte sich — sat down (sich setzen)",
+    "setzten": "setzten sich — sat down, perched (plural)",
+    "sich": "himself, herself, itself, themselves (reflexive)",
+    "sie": "she; they; her, them",
+    "silber": "das Silber — silver",
+    "silbern": "(of) silver (archaic uninflected form)",
+    "sitzen": "to sit",
+    "sitzt": "sits (sitzen)",
+    "so": "so, thus; then (introducing a result clause)",
+    "sohn": "der Sohn — son",
+    "soll": "shall, is (supposed) to (sollen)",
+    "solle": "should (subjunctive — reported speech)",
+    "sollst": "shall (du sollst: you shall/may)",
+    "sollte": "should; was to — sollte es … sein?: could it be …?",
+    "sollten": "should, were to (plural)",
+    "sondern": "but rather, but instead (after a negative)",
+    "sonne": "die Sonne — sun",
+    "sonst": "otherwise; wie sonst auch: as usual",
+    "sprach": "spoke, said (past of sprechen)",
+    "sprachen": "spoke (plural)",
+    "sprang": "jumped, sprang (past of springen)",
+    "stand": "stood (past of stehen)",
+    "staub": "der Staub — dust",
+    "staubig": "dusty",
+    "steckte": "stuck, put (stecken)",
+    "stiefkind": "das Stiefkind — stepchild",
+    "stiefmutter": "die Stiefmutter — stepmother",
+    "stiefschwestern": "stepsisters (die Stiefschwester)",
+    "stieftöchter": "stepdaughters (die Stieftochter)",
+    "stieftöchtern": "stepdaughters (dative)",
+    "stieß": "knocked, bumped (past of stoßen) — stieß ihm den Hut ab: knocked his hat off",
+    "stolze": "proud",
+    "stolzen": "proud (inflected)",
+    "stolzeres": "more splendid (stolz of clothes = splendid, magnificent)",
+    "streifte": "brushed, grazed (streifen)",
+    "strümpfen": "stockings (der Strumpf, dative plural)",
+    "stube": "die Stube — parlor, sitting room",
+    "stunde": "die Stunde — hour",
+    "stunden": "hours",
+    "stück": "das Stück — piece",
+    "stößt": "knocks, bumps (stoßen)",
+    "suchte": "sought, was picking out (suchen)",
+    "säße": "would be sitting (subjunctive II of sitzen — what they imagined)",
+    "tag": "der Tag — day; vor Tag: before daybreak",
+    "tage": "days",
+    "tanz": "der Tanz — dance",
+    "tanzen": "to dance",
+    "tanzte": "danced (tanzen)",
+    "tat": "did (past of tun) — tat … zu: closed (zutun)",
+    "taten": "did (plural) — taten … an: did (harm) to (antun)",
+    "tauben": "doves (die Taube)",
+    "taubenhaus": "das Taubenhaus — dovecote, pigeon house",
+    "teil": "teil nehmen an — to take part in, share in (der Teil: part)",
+    "tochter": "die Tochter — daughter",
+    "tragen": "to carry",
+    "treppe": "die Treppe — staircase",
+    "trug": "carried (tragen); es trug sich zu: it came to pass (sich zutragen)",
+    "tränen": "tears (die Träne)",
+    "trübes": "dim, murky (trüb)",
+    "tun": "to do",
+    "turteltäubchen": "das Turteltäubchen — little turtledove",
+    "tänzerin": "die Tänzerin — (female) dance partner",
+    "täubchen": "das Täubchen — little dove (diminutive of Taube)",
+    "töchter": "daughters (die Tochter)",
+    "töchterlein": "das Töchterlein — little daughter (diminutive)",
+    "töchtern": "daughters (dative plural)",
+    "töpfchen": "das Töpfchen — little pot (diminutive of Topf)",
+    "tüchlein": "das Tüchlein — little cloth (diminutive of Tuch)",
+    "um": "around; (umwenden) turned around; um … zu: in order to",
+    "und": "and",
+    "unmöglich": "impossible; (adverb) cannot possibly",
+    "uns": "us, ourselves",
+    "unter": "under, beneath, among",
+    "vater": "der Vater — father",
+    "verbiß": "bit back (verbeißen) — verbiß den Schmerz: swallowed the pain",
+    "verbuttetes": "stunted, puny (verbuttet — rare, dismissive)",
+    "verdienen": "to earn",
+    "verschied": "passed away, died (verscheiden — gentle, elevated)",
+    "verspotteten": "mocked (verspotten)",
+    "verstorbenen": "deceased, late (verstorben)",
+    "verwunderung": "die Verwunderung — astonishment, wonder",
+    "viel": "much — viel zu schmutzig: much too dirty",
+    "vogel": "der Vogel — bird",
+    "voll": "full (of)",
+    "vom": "= von dem, from the / of the",
+    "von": "from, of, by",
+    "vor": "before, in front of; (with emotions) with, from — vor Ärger: with rage",
+    "vorbei": "past, by",
+    "vorbeikamen": "came past (vorbeikommen)",
+    "vorigen": "previous (vorig) — am vorigen Tag: on the previous day",
+    "vögel": "birds (plural of der Vogel)",
+    "vöglein": "das Vöglein — little bird (diminutive)",
+    "wann": "when (here in the older sense of wenn: once, when)",
+    "war": "was",
+    "ward": "became (archaic form of wurde)",
+    "waren": "were",
+    "warf": "threw (past of werfen)",
+    "wartete": "waited (warten)",
+    "was": "what; whatever; that which",
+    "waschen": "to wash",
+    "wasser": "das Wasser — water",
+    "weg": "away (separable prefix: wegnehmen)",
+    "weggenommen": "taken away (wegnehmen)",
+    "weil": "because",
+    "weinte": "wept, cried (weinen)",
+    "weiß": "white",
+    "weiße": "white (inflected)",
+    "weißen": "white (inflected)",
+    "weißes": "white",
+    "welches": "which",
+    "wem": "to whom (dative of wer)",
+    "wendete": "turned (wenden) — wendete sein Pferd um: turned his horse around",
+    "wenn": "when, whenever; if",
+    "wer": "who; whoever",
+    "werden": "to become; (auxiliary) will; (passive) to be",
+    "wie": "how; as, like",
+    "wieder": "again",
+    "wiedergebracht": "brought back (wiederbringen)",
+    "will": "want(s) (wollen); ich will: I will/want to",
+    "willst": "want (du willst: you want)",
+    "winter": "der Winter — winter",
+    "wir": "we",
+    "wird": "will (future auxiliary); becomes (werden)",
+    "wirf": "throw! (imperative of werfen)",
+    "wirst": "will (du wirst) — du wirst ausgelacht: you will be laughed at (passive)",
+    "wo": "where",
+    "wollte": "wanted (past of wollen)",
+    "wollten": "wanted (plural)",
+    "wozu": "to which (wedding/festival)",
+    "wuchs": "grew (past of wachsen)",
+    "wunsch": "der Wunsch — wish",
+    "wurde": "became; (passive auxiliary) was",
+    "wurden": "became; were (passive, plural)",
+    "wusch": "washed (past of waschen)",
+    "wußte": "knew (past of wissen; old spelling of wusste)",
+    "wußten": "knew (plural)",
+    "wär": "= wäre, were / would be (subjunctive of sein — reported speech)",
+    "wäre": "would be, were (subjunctive of sein)",
+    "zahmen": "tame (zahm)",
+    "zehe": "die Zehe — toe",
+    "zehen": "toes",
+    "zeit": "die Zeit — time",
+    "ziehen": "to go, set out (old usage: in die Messe ziehen); to pull",
+    "zierlich": "dainty, delicate",
+    "zog": "pulled — zog an: put on (anziehen); zog aus: drew out",
+    "zogen": "pulled — zogen ihm … an: dressed him in (plural)",
+    "zu": "to; too (zu klein: too small); closed (separable prefix: zutun)",
+    "zum": "= zu dem, to the",
+    "zur": "= zu der, to the",
+    "zwei": "two",
+    "zweite": "second",
+    "zwischen": "between, among",
+    "zwängte": "forced, squeezed (zwängen)",
+    "älteste": "eldest",
+    "ärger": "der Ärger — anger, vexation — vor Ärger: with rage",
+    "äste": "branches (der Ast)",
+    "öllämpchen": "das Öllämpchen — little oil lamp",
+    "über": "over, above; (erstaunen über) at, about",
+    "übrigen": "die übrigen — the rest, the others (übrig: remaining)"
+  }
+}
+];
+
+let story = null, focusedIdx = -1, mode = 'de', voices = [];
+
+function $(id){ return document.getElementById(id); }
+
+/* ---------- voices ---------- */
+function loadVoices(){ voices = speechSynthesis.getVoices(); }
+loadVoices();
+if (typeof speechSynthesis !== 'undefined') speechSynthesis.onvoiceschanged = loadVoices;
+
+function bestVoice(lang){
+  if (!lang) return null;
+  const base = lang.slice(0,2).toLowerCase();
+  const cand = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith(base));
+  if (!cand.length) return null;
+  const exact = cand.filter(v => v.lang.toLowerCase() === lang.toLowerCase());
+  const pool = exact.length ? exact : cand;
+  return pool.find(v => v.localService) || pool[0];
+}
+
+let speakingKey = '';
+let onSpeechEnd = null;         // called when the current utterance ends or is stopped
+function fireSpeechEnd(){
+  if (onSpeechEnd) { const f = onSpeechEnd; onSpeechEnd = null; f(); }
+}
+function stopSpeech(){
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
+  speakingKey = '';
+  fireSpeechEnd();
+}
+function speak(txt, rate, onEnd){
+  if (!('speechSynthesis' in window)) { alert('Speech synthesis is not available in this browser.'); return false; }
+  const r = rate ?? parseFloat($('rate').value);
+  const key = txt + '@' + r;
+  if ((speechSynthesis.speaking || speechSynthesis.pending) && speakingKey === key) { stopSpeech(); return false; }
+  speechSynthesis.cancel();
+  fireSpeechEnd();              // reset whatever button was speaking before
+  const u = new SpeechSynthesisUtterance(txt.replace(/[„“”"«»]/g, ''));
+  u.lang = story.langCode || 'de-DE';
+  const v = bestVoice(u.lang);
+  if (v) u.voice = v;
+  u.rate = r;
+  u.onend = u.onerror = () => { if (speakingKey === key) { speakingKey = ''; fireSpeechEnd(); } };
+  speakingKey = key;
+  onSpeechEnd = onEnd || null;
+  speechSynthesis.speak(u);
+  return true;
+}
+
+/* ---------- rendering ---------- */
+function tokenize(text){
+  // wrap letter-sequences in clickable spans
+  return text.replace(/([A-Za-zÀ-ÖØ-öø-ÿĀ-žΆ-ϿЀ-ӿ]+)/g, '<span class="w">$1</span>');
+}
+
+function render(){
+  const box = $('text'); box.innerHTML = '';
+  $('stTitle').textContent = story.title + (story.titleEn ? ' · ' + story.titleEn : '');
+  $('stMeta').textContent = (story.language || '') + ' — ' + (story.source || '');
+  story.sentences.forEach((s, i) => {
+    const div = document.createElement('div');
+    div.className = 'sent' + (s.p ? ' parastart' : '') + (s.v ? ' verse' : '');
+    div.dataset.i = i;
+
+    const de = document.createElement('div');
+    de.className = 'de';
+    de.innerHTML = tokenize(s.t);
+    div.appendChild(de);
+
+    const en = document.createElement('div');
+    en.className = 'en';
+    en.dataset.showing = 'lit';
+    en.innerHTML = '<span class="lbl">literal</span>' + escapeHtml(s.l || '');
+    div.appendChild(en);
+
+    if (s.n) {
+      const nt = document.createElement('div');
+      nt.className = 'note';
+      nt.textContent = s.n;
+      div.appendChild(nt);
+    }
+
+    const tb = document.createElement('div');
+    tb.className = 'toolbar';
+    tb.innerHTML =
+      '<button data-a="listen">' + (speakingIdx === i ? '⏹ Stop' : '🔊 Listen') + '</button>' +
+      '<button data-a="speed">' + (slowPref[i] ? '🐇 Regular' : '🐢 Slow') + '</button>' +
+      '<button data-a="try">✍️ Try</button>' +
+      (mode === 'de' ? '<button data-a="en">EN</button>' : '') +
+      (s.i ? '<button data-a="idiom">≈ natural</button>' : '') +
+      (s.n ? '<button data-a="note">📝 note</button>' : '');
+    div.appendChild(tb);
+
+    box.appendChild(div);
+  });
+}
+
+function escapeHtml(t){ const d = document.createElement('div'); d.textContent = t; return d.innerHTML; }
+
+/* ---------- interactions ---------- */
+function focusSent(i, scroll){
+  document.querySelectorAll('.sent.focused').forEach(el => el.classList.remove('focused'));
+  focusedIdx = i;
+  const el = sentEl(i);
+  if (!el) return;
+  el.classList.add('focused');
+  if (scroll) el.scrollIntoView({ block: 'center', behavior: 'smooth' });
+  try { localStorage.setItem('pos:' + story.id, i); } catch(e) {}
+}
+function sentEl(i){ return document.querySelector('.sent[data-i="' + i + '"]'); }
+function sentBtn(i, a){ const el = sentEl(i); return el && el.querySelector('button[data-a="' + a + '"]'); }
+
+/* ---------- sentence playback (buttons show the opposite state) ---------- */
+let speakingIdx = -1;   // which sentence is currently being read aloud
+let slowPref = {};      // per-sentence speed: true = slow
+
+function setSpeakingIdx(i){
+  if (speakingIdx >= 0) { const b = sentBtn(speakingIdx, 'listen'); if (b) b.textContent = '🔊 Listen'; }
+  speakingIdx = i;
+  if (i >= 0) { const b = sentBtn(i, 'listen'); if (b) b.textContent = '⏹ Stop'; }
+}
+function playSent(i){
+  const s = story.sentences[i];
+  const started = speak(s.t, slowPref[i] ? 0.55 : undefined,
+    () => { if (speakingIdx === i) setSpeakingIdx(-1); });
+  setSpeakingIdx(started ? i : -1);
+}
+function listenAction(i){
+  if (speakingIdx === i) stopSpeech();   // callback resets the button
+  else playSent(i);
+}
+function speedAction(i){
+  slowPref[i] = !slowPref[i];
+  const b = sentBtn(i, 'speed');
+  if (b) b.textContent = slowPref[i] ? '🐇 Regular' : '🐢 Slow';
+  playSent(i);
+}
+
+function toggleEN(i){
+  const el = sentEl(i); if (!el) return;
+  const on = el.classList.toggle('showEN');
+  const b = sentBtn(i, 'en');
+  if (b) b.textContent = on ? 'hide EN' : 'EN';
+}
+function toggleIdiom(i){
+  const el = sentEl(i), s = story.sentences[i];
+  const en = el.querySelector('.en'); if (!en || !s.i) return;
+  const b = sentBtn(i, 'idiom');
+  if (en.dataset.showing === 'lit') {
+    en.dataset.showing = 'idiom';
+    en.classList.add('idm');
+    en.innerHTML = '<span class="lbl">natural</span>' + escapeHtml(s.i);
+    if (b) b.textContent = '≈ literal';
+  } else {
+    en.dataset.showing = 'lit';
+    en.classList.remove('idm');
+    en.innerHTML = '<span class="lbl">literal</span>' + escapeHtml(s.l || '');
+    if (b) b.textContent = '≈ natural';
+  }
+  if (mode === 'de' && !el.classList.contains('showEN')) toggleEN(i);
+}
+function toggleNote(i){
+  const el = sentEl(i); const nt = el && el.querySelector('.note');
+  if (!nt) return;
+  const open = nt.classList.toggle('open');
+  const b = sentBtn(i, 'note');
+  if (b) b.textContent = open ? '📝 hide note' : '📝 note';
+}
+
+$('text').addEventListener('click', (ev) => {
+  const w = ev.target.closest('.w');
+  const sent = ev.target.closest('.sent');
+  const btn = ev.target.closest('button[data-a]');
+  if (btn && sent) {
+    const i = +sent.dataset.i;
+    ev.stopPropagation();
+    if (btn.dataset.a === 'listen') listenAction(i);
+    if (btn.dataset.a === 'speed') speedAction(i);
+    if (btn.dataset.a === 'try') toggleTry(i);
+    if (btn.dataset.a === 'en') toggleEN(i);
+    if (btn.dataset.a === 'idiom') toggleIdiom(i);
+    if (btn.dataset.a === 'note') toggleNote(i);
+    return;
+  }
+  if (w && sent) { showPop(w); focusSent(+sent.dataset.i, false); ev.stopPropagation(); return; }
+  if (sent) focusSent(+sent.dataset.i, false);
+});
+
+document.addEventListener('keydown', (ev) => {
+  if (ev.target.tagName === 'INPUT' || ev.target.tagName === 'SELECT' || ev.target.tagName === 'TEXTAREA') return;
+  const n = story ? story.sentences.length : 0;
+  if (ev.key === 'Escape') { stopSpeech(); hidePop(); }
+  else if (ev.key === 'ArrowDown' || ev.key === 'j') { ev.preventDefault(); focusSent(Math.min(focusedIdx + 1, n - 1), true); }
+  else if (ev.key === 'ArrowUp' || ev.key === 'k') { ev.preventDefault(); focusSent(Math.max(focusedIdx - 1, 0), true); }
+  else if (focusedIdx >= 0) {
+    if (ev.key === 'e' || ev.key === 'E') toggleEN(focusedIdx);
+    else if (ev.key === 'l' || ev.key === 'L') listenAction(focusedIdx);
+    else if (ev.key === 's' || ev.key === 'S') speedAction(focusedIdx);
+    else if (ev.key === 'n' || ev.key === 'N') toggleNote(focusedIdx);
+    else if (ev.key === 't' || ev.key === 'T') toggleTry(focusedIdx);
+  }
+});
+
+/* ---------- try-first mode ---------- */
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+let activeRec = null;
+
+function stopDictation(){
+  if (activeRec) { const r = activeRec; activeRec = null; try { r.stop(); } catch(e) {} }
+  document.querySelectorAll('.tryRow button.reclive').forEach(b => { b.classList.remove('reclive'); b.textContent = '🎤 Dictate'; });
+}
+
+function dictate(btn, ta){
+  if (activeRec) { stopDictation(); return; }
+  const rec = new SR();
+  rec.lang = 'en-US';
+  rec.continuous = true;
+  rec.interimResults = false;
+  rec.onresult = (e) => {
+    let t = '';
+    for (let j = e.resultIndex; j < e.results.length; j++) if (e.results[j].isFinal) t += e.results[j][0].transcript;
+    if (t) ta.value = (ta.value.trim() ? ta.value.trim() + ' ' : '') + t.trim();
+  };
+  rec.onerror = (e) => {
+    stopDictation();
+    if (e.error === 'not-allowed') alert('Microphone access was blocked. Allow it in your browser settings to dictate.');
+  };
+  rec.onend = () => { if (activeRec === rec) stopDictation(); };
+  activeRec = rec;
+  btn.classList.add('reclive');
+  btn.textContent = '⏹ Stop mic';
+  rec.start();
+}
+
+function toggleTry(i){
+  const el = sentEl(i); if (!el) return;
+  const tryBtn = sentBtn(i, 'try');
+  const existing = el.querySelector('.tryBox');
+  if (existing) {
+    stopDictation(); existing.remove();
+    if (tryBtn) tryBtn.textContent = '✍️ Try';
+    return;
+  }
+  if (tryBtn) tryBtn.textContent = '✍️ Close try';
+  const s = story.sentences[i];
+  const box = document.createElement('div');
+  box.className = 'tryBox';
+  const ta = document.createElement('textarea');
+  ta.rows = 2;
+  ta.placeholder = 'Your translation… then Compare';
+  box.appendChild(ta);
+  const row = document.createElement('div');
+  row.className = 'tryRow';
+  if (SR) {
+    const mic = document.createElement('button');
+    mic.textContent = '🎤 Dictate';
+    mic.addEventListener('click', (ev) => { ev.stopPropagation(); dictate(mic, ta); });
+    row.appendChild(mic);
+  }
+  const cmp = document.createElement('button');
+  cmp.textContent = '⇄ Compare';
+  cmp.addEventListener('click', (ev) => {
+    ev.stopPropagation();
+    stopDictation();
+    let res = box.querySelector('.tryRes');
+    if (!res) { res = document.createElement('div'); res.className = 'tryRes'; box.appendChild(res); }
+    res.innerHTML =
+      '<div class="tryLine you"><span class="lbl">you</span>' + escapeHtml(ta.value.trim() || '—') + '</div>' +
+      '<div class="tryLine lit"><span class="lbl">literal</span>' + escapeHtml(s.l || '') + '</div>' +
+      (s.i ? '<div class="tryLine idm"><span class="lbl">natural</span>' + escapeHtml(s.i) + '</div>' : '');
+  });
+  row.appendChild(cmp);
+  box.appendChild(row);
+  el.insertBefore(box, el.querySelector('.toolbar'));
+  ta.focus();
+}
+
+/* ---------- word popup ---------- */
+let popWord = '';
+function showPop(wEl){
+  document.querySelectorAll('.w.wsel').forEach(e => e.classList.remove('wsel'));
+  wEl.classList.add('wsel');
+  popWord = wEl.textContent;
+  const key = popWord.toLowerCase();
+  const gloss = story.glossary && story.glossary[key];
+  $('popW').textContent = popWord;
+  $('popG').innerHTML = gloss ? escapeHtml(gloss)
+    : '<span class="pmiss">Not in this story’s glossary — ask your tutor in the project chat.</span>';
+  const pop = $('pop');
+  pop.style.display = 'block';
+  const r = wEl.getBoundingClientRect();
+  let x = Math.min(r.left, window.innerWidth - 360);
+  let y = r.bottom + 8;
+  if (y > window.innerHeight - 160) y = r.top - pop.offsetHeight - 8;
+  pop.style.left = Math.max(8, x) + 'px';
+  pop.style.top = Math.max(8, y) + 'px';
+}
+function hidePop(){
+  $('pop').style.display = 'none';
+  document.querySelectorAll('.w.wsel').forEach(e => e.classList.remove('wsel'));
+}
+const POP_LABELS = { popSay: '🔊 Say it', popSlow: '🐢 Slowly' };
+function resetPopBtns(){ for (const id in POP_LABELS) { const b = $(id); if (b) b.textContent = POP_LABELS[id]; } }
+function speakPop(rate, btn){
+  if (!popWord) return;
+  if (btn && btn.textContent === '⏹ Stop') { stopSpeech(); return; }  // callback resets labels
+  resetPopBtns();
+  const started = speak(popWord, rate, resetPopBtns);
+  if (started && btn) btn.textContent = '⏹ Stop';
+}
+document.addEventListener('click', (ev) => {
+  if (!ev.target.closest('#pop') && !ev.target.closest('.w')) hidePop();
+});
+
+/* ---------- modes & stories ---------- */
+function setMode(m){
+  mode = m;
+  document.body.classList.toggle('sbs', m === 'sbs');
+  $('modeDE').classList.toggle('active', m === 'de');
+  $('modeSBS').classList.toggle('active', m === 'sbs');
+  render();
+  if (focusedIdx >= 0) focusSent(focusedIdx, false);
+  try { localStorage.setItem('mode', m); } catch(e) {}
+}
+$('modeDE').onclick = () => setMode('de');
+$('modeSBS').onclick = () => setMode('sbs');
+
+function fillStorySel(){
+  const sel = $('storySel'); sel.innerHTML = '';
+  STORIES.forEach((s, i) => {
+    const o = document.createElement('option');
+    o.value = i; o.textContent = s.title + ' (' + (s.language || '') + ')';
+    sel.appendChild(o);
+  });
+}
+$('storySel').onchange = () => loadStory(STORIES[+$('storySel').value]);
+
+function loadStory(s){
+  stopSpeech();
+  speakingIdx = -1;
+  slowPref = {};
+  story = s;
+  hidePop();
+  render();
+  let pos = 0;
+  try { pos = parseInt(localStorage.getItem('pos:' + s.id)) || 0; } catch(e) {}
+  focusSent(Math.min(pos, s.sentences.length - 1), pos > 0);
+  try { localStorage.setItem('story', s.id); } catch(e) {}
+}
+
+$('fileIn').addEventListener('change', (ev) => {
+  const f = ev.target.files[0]; if (!f) return;
+  const rd = new FileReader();
+  rd.onload = () => {
+    try {
+      const s = JSON.parse(rd.result);
+      if (!s.sentences || !s.title) throw new Error('missing fields');
+      const existing = STORIES.findIndex(x => x.id === s.id);
+      if (existing >= 0) STORIES[existing] = s; else STORIES.push(s);
+      fillStorySel();
+      $('storySel').value = STORIES.findIndex(x => x.id === s.id);
+      loadStory(s);
+    } catch(e) { alert('Could not read story file: ' + e.message); }
+  };
+  rd.readAsText(f);
+  ev.target.value = '';
+});
+
+/* ---------- init ---------- */
+(function init(){
+  fillStorySel();
+  let m = 'de';
+  try { m = localStorage.getItem('mode') || 'de'; } catch(e) {}
+  let last = null;
+  try { last = localStorage.getItem('story'); } catch(e) {}
+  const idx = Math.max(0, STORIES.findIndex(s => s.id === last));
+  if (STORIES.length) {
+    $('storySel').value = idx;
+    setMode(m);
+    loadStory(STORIES[idx]);
+  } else {
+    $('stTitle').textContent = 'No stories loaded';
+    $('stMeta').textContent = 'Use “＋ Load story” to open a story .json file.';
+  }
+})();
+</script>
+</body>
+</html>

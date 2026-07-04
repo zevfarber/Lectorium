@@ -99,6 +99,35 @@
   .tryRes .lbl { font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; opacity: .65; margin-right: 6px; }
   body.sbs .sent .tryBox { grid-column: 1 / -1; }
 
+  /* in-app tutor */
+  #tutorSetup { display: none; font-family: system-ui, sans-serif; font-size: .85rem;
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    padding: 10px 14px; margin-bottom: 16px; line-height: 1.6; }
+  #tutorSetup.open { display: block; }
+  #tutorSetup input { font: inherit; width: 100%; max-width: 420px; padding: 6px 8px;
+    border: 1px solid var(--border); border-radius: 8px; }
+  #tutorSetup button { font-size: .8rem; padding: 4px 10px; border-radius: 999px; margin-right: 6px; }
+  #tutorSetup .dim { color: var(--muted); margin-top: 6px; }
+  .askBox { margin-top: 8px; font-family: system-ui, sans-serif; }
+  .askMsg { border-radius: 8px; padding: 7px 10px; margin: 6px 0; white-space: pre-wrap;
+    font-size: .92rem; line-height: 1.55; }
+  .askMsg.q { background: var(--accent-soft); }
+  .askMsg.a { background: var(--note-bg); border: 1px solid var(--note-border); }
+  .askMsg.err { background: #fbeae5; border: 1px solid #e6c0b0; color: #8a3b1e; }
+  .askRow { display: flex; gap: 6px; margin-top: 6px; }
+  .askRow input { flex: 1; font: inherit; font-size: .95rem; padding: 6px 10px;
+    border: 1px solid var(--border); border-radius: 8px; background: var(--panel); color: var(--ink); }
+  .askRow input:focus { outline: none; border-color: var(--accent); }
+  .askRow button { font-size: .8rem; padding: 4px 10px; border-radius: 999px; }
+  .askCost { color: var(--muted); font-size: .72rem; font-family: system-ui, sans-serif; margin-top: 4px; }
+  .chkRes { margin-top: 8px; font-size: .92rem; font-family: system-ui, sans-serif; line-height: 1.55; }
+  .chkRes .verdict { font-weight: 600; }
+  .chkErr { background: #fdf1ec; border: 1px solid #ecd0c0; border-radius: 8px; padding: 6px 10px; margin: 5px 0; }
+  .chkErr q { font-style: italic; }
+  .chkErr button { font-size: .72rem; padding: 2px 8px; border-radius: 999px; margin-left: 6px; }
+  .chkErr .whyTxt { margin-top: 5px; white-space: pre-wrap; color: #6b5d33; }
+  body.sbs .sent .askBox { grid-column: 1 / -1; }
+
   /* word popup */
   #pop {
     position: fixed; z-index: 50; max-width: 340px; display: none;
@@ -123,6 +152,7 @@
   <span class="spacer"></span>
   <span id="rateWrap">🔊 <input type="range" id="rate" min="0.4" max="1.2" step="0.05" value="0.92" title="Speech speed"></span>
   <label class="filebtn" title="Load a story .json file produced by your project">＋ Load story<input type="file" id="fileIn" accept=".json,application/json" style="display:none"></label>
+  <button id="tutorBtn" title="In-app tutor — API key & spending">🎓 Tutor</button>
 </header>
 
 <main>
@@ -136,8 +166,18 @@
     <b>≈ natural</b> and <b>≈ literal</b> switch between the two English versions; <b>📝</b> opens the grammar note.
     <b>✍️ Try</b> lets you attempt your own translation (typed or dictated 🎤) before comparing with the English.
     Click any <b>word</b> for its meaning and pronunciation.
-    Keyboard: <kbd>↑</kbd>/<kbd>↓</kbd> move · <kbd>E</kbd> English · <kbd>L</kbd> listen · <kbd>S</kbd> slow · <kbd>N</kbd> note · <kbd>T</kbd> try · <kbd>Esc</kbd> stop.
-    For anything deeper — “I don’t get how this sentence works” — ask your tutor in the project chat.
+    <b>🎓 Ask</b> opens the in-app tutor for that sentence, and <b>✓ Check</b> (inside ✍️ Try) has the tutor judge your translation by meaning — each flagged error gets a <b>why?</b>. Set it up once via <b>🎓 Tutor</b> in the top bar.
+    Keyboard: <kbd>↑</kbd>/<kbd>↓</kbd> move · <kbd>E</kbd> English · <kbd>L</kbd> listen · <kbd>S</kbd> slow · <kbd>N</kbd> note · <kbd>T</kbd> try · <kbd>A</kbd> ask · <kbd>Esc</kbd> stop.
+  </div>
+  <div id="tutorSetup">
+    <b>🎓 In-app tutor</b> — answers questions about the focused sentence using Claude (Haiku). It runs on your own Anthropic API key, pay-per-use: a typical question costs a fraction of a cent.
+    <div style="margin:8px 0">
+      <input id="anthKey" type="password" placeholder="Paste your Anthropic API key (sk-ant-…)">
+    </div>
+    <button id="keySave">Save key</button>
+    <button id="keyClear">Remove key</button>
+    <span class="dim" id="spendInfo"></span>
+    <div class="dim">Your key is stored only in this browser — it is never part of the website itself. Create one at console.anthropic.com (API keys), and set a monthly spend limit there for peace of mind.</div>
   </div>
   <div id="text"></div>
 </main>
@@ -1335,6 +1375,7 @@ function render(){
       '<button data-a="listen">' + (speakingIdx === i ? '⏹ Stop' : '🔊 Listen') + '</button>' +
       '<button data-a="speed">' + (slowPref[i] ? '🐇 Regular' : '🐢 Slow') + '</button>' +
       '<button data-a="try">✍️ Try</button>' +
+      '<button data-a="ask">🎓 Ask</button>' +
       (mode === 'de' ? '<button data-a="en">EN</button>' : '') +
       (s.i ? '<button data-a="idiom">≈ natural</button>' : '') +
       (s.n ? '<button data-a="note">📝 note</button>' : '');
@@ -1426,6 +1467,7 @@ $('text').addEventListener('click', (ev) => {
     if (btn.dataset.a === 'listen') listenAction(i);
     if (btn.dataset.a === 'speed') speedAction(i);
     if (btn.dataset.a === 'try') toggleTry(i);
+    if (btn.dataset.a === 'ask') toggleAsk(i);
     if (btn.dataset.a === 'en') toggleEN(i);
     if (btn.dataset.a === 'idiom') toggleIdiom(i);
     if (btn.dataset.a === 'note') toggleNote(i);
@@ -1447,6 +1489,7 @@ document.addEventListener('keydown', (ev) => {
     else if (ev.key === 's' || ev.key === 'S') speedAction(focusedIdx);
     else if (ev.key === 'n' || ev.key === 'N') toggleNote(focusedIdx);
     else if (ev.key === 't' || ev.key === 'T') toggleTry(focusedIdx);
+    else if (ev.key === 'a' || ev.key === 'A') toggleAsk(focusedIdx);
   }
 });
 
@@ -1519,6 +1562,31 @@ function toggleTry(i){
       (s.i ? '<div class="tryLine idm"><span class="lbl">natural</span>' + escapeHtml(s.i) + '</div>' : '');
   });
   row.appendChild(cmp);
+  const chk = document.createElement('button');
+  chk.textContent = '✓ Check';
+  chk.title = 'Have the tutor judge your translation by meaning (uses your API key)';
+  chk.addEventListener('click', async (ev) => {
+    ev.stopPropagation();
+    stopDictation();
+    const attempt = ta.value.trim();
+    if (!attempt) { alert('Type or dictate your translation first.'); return; }
+    let res = box.querySelector('.chkRes');
+    if (!res) { res = document.createElement('div'); res.className = 'chkRes'; box.appendChild(res); }
+    res.textContent = 'Checking…';
+    chk.disabled = true;
+    try {
+      const out = await callClaude(CHECK_SYSTEM,
+        [{ role: 'user', content: sentContext(i) + '\n\nReader\'s attempt: ' + attempt }], 500);
+      renderCheck(res, out, i, attempt);
+    } catch(e) {
+      res.innerHTML = '';
+      const d = document.createElement('div'); d.className = 'askMsg err';
+      d.textContent = tutorErrMsg(e);
+      res.appendChild(d);
+    }
+    chk.disabled = false;
+  });
+  row.appendChild(chk);
   box.appendChild(row);
   el.insertBefore(box, el.querySelector('.toolbar'));
   ta.focus();
@@ -1534,7 +1602,7 @@ function showPop(wEl){
   const gloss = story.glossary && story.glossary[key];
   $('popW').textContent = popWord;
   $('popG').innerHTML = gloss ? escapeHtml(gloss)
-    : '<span class="pmiss">Not in this story’s glossary — ask your tutor in the project chat.</span>';
+    : '<span class="pmiss">Not in this story’s glossary — ask the 🎓 tutor.</span>';
   const pop = $('pop');
   pop.style.display = 'block';
   const r = wEl.getBoundingClientRect();
@@ -1560,6 +1628,186 @@ function speakPop(rate, btn){
 document.addEventListener('click', (ev) => {
   if (!ev.target.closest('#pop') && !ev.target.closest('.w')) hidePop();
 });
+
+/* ---------- in-app tutor (Claude API, token-diet by design) ---------- */
+const TUTOR_MODEL = 'claude-haiku-4-5';
+const COST_IN = 0.0001, COST_OUT = 0.0005;   // cents per token (Haiku 4.5: $1 / $5 per MTok)
+
+function tutorKey(){ try { return localStorage.getItem('anthKey') || ''; } catch(e){ return ''; } }
+function spendCents(){ try { return parseFloat(localStorage.getItem('tutorSpend')) || 0; } catch(e){ return 0; } }
+function addSpend(u){
+  if (!u) return 0;
+  const c = (u.input_tokens || 0) * COST_IN + (u.output_tokens || 0) * COST_OUT;
+  try { localStorage.setItem('tutorSpend', (spendCents() + c).toFixed(4)); } catch(e) {}
+  updateSpendInfo();
+  return c;
+}
+function fmtCents(c){ return c >= 100 ? '$' + (c / 100).toFixed(2) : c.toFixed(c < 1 ? 2 : 1) + '¢'; }
+function updateSpendInfo(){
+  const el = $('spendInfo'); if (!el) return;
+  el.textContent = tutorKey() ? ('Key saved ✓ · spent so far on this device: ' + fmtCents(spendCents())) : 'No key saved yet.';
+}
+function tutorErrMsg(e){
+  return e.message === 'NOKEY'
+    ? 'No API key saved — click 🎓 Tutor in the top bar to set one up.'
+    : 'Tutor error: ' + e.message;
+}
+$('tutorBtn').onclick = () => { $('tutorSetup').classList.toggle('open'); updateSpendInfo(); };
+$('keySave').onclick = () => {
+  const v = $('anthKey').value.trim();
+  if (!v) { alert('Paste a key first.'); return; }
+  try { localStorage.setItem('anthKey', v); } catch(e) {}
+  $('anthKey').value = '';
+  updateSpendInfo();
+};
+$('keyClear').onclick = () => { try { localStorage.removeItem('anthKey'); } catch(e) {} updateSpendInfo(); };
+
+/* context sent to the tutor: ONLY the focused sentence, its translations/note,
+   and glossary entries for its own words — never the whole story */
+function sentContext(i){
+  const s = story.sentences[i];
+  const seen = {}, lines = [];
+  (s.t.match(/[A-Za-zÀ-ÖØ-öø-ÿĀ-žΆ-ϿЀ-ӿ]+/g) || []).forEach(w => {
+    const k = w.toLowerCase();
+    if (!seen[k] && story.glossary && story.glossary[k]) { seen[k] = 1; lines.push(k + ': ' + story.glossary[k]); }
+  });
+  return 'Language: ' + (story.language || '') +
+    '\nSentence: ' + s.t +
+    '\nLiteral translation: ' + (s.l || '') +
+    (s.i ? '\nNatural translation: ' + s.i : '') +
+    (s.n ? '\nNote: ' + s.n : '') +
+    (lines.length ? '\nGlossary:\n' + lines.join('\n') : '');
+}
+
+const ASK_SYSTEM = 'You are the reading tutor inside Lectorium, a reading app for classic texts in their original languages. The reader is focused on one sentence; its data is provided. Rules: answer at exactly the depth asked — a word question gets one or two sentences, not a grammar lecture; a how-does-this-sentence-work question gets the full bridge from the original structure to the English. Never quiz or test the reader. Archaic forms: identify, give the modern equivalent, move on. Plain text only, no markdown. Be concise.';
+
+const CHECK_SYSTEM = 'You judge a reader\'s English translation of one sentence by MEANING only — a valid paraphrase is correct; wording and style never matter. Flag only genuine meaning errors: wrong tense, missed or invented content, wrong word sense, false friend. Reply with ONLY JSON, no other text: {"verdict":"right"|"close"|"off","comment":"one short encouraging sentence","errors":[{"quote":"exact words from the attempt","issue":"what it gets wrong, briefly"}]}. Use an empty errors array when there are none.';
+
+async function callClaude(system, messages, maxTok){
+  const key = tutorKey();
+  if (!key) { $('tutorSetup').classList.add('open'); updateSpendInfo(); throw new Error('NOKEY'); }
+  const r = await fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: {
+      'content-type': 'application/json',
+      'x-api-key': key,
+      'anthropic-version': '2023-06-01',
+      'anthropic-dangerous-direct-browser-access': 'true'
+    },
+    body: JSON.stringify({ model: TUTOR_MODEL, max_tokens: maxTok, system: system, messages: messages })
+  });
+  const data = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error((data.error && data.error.message) || ('API error ' + r.status));
+  return { text: (data.content || []).map(b => b.text || '').join(''), cost: addSpend(data.usage) };
+}
+
+/* one short thread per sentence — discarded when the tutor opens on another sentence */
+let askState = { idx: -1, msgs: [], log: [] };
+
+function addMsg(th, cls, text){
+  const d = document.createElement('div');
+  d.className = 'askMsg ' + cls;
+  d.textContent = text;
+  th.appendChild(d);
+  return d;
+}
+
+function toggleAsk(i){
+  const el = sentEl(i); if (!el) return;
+  const btn = sentBtn(i, 'ask');
+  const existing = el.querySelector('.askBox');
+  if (existing) { existing.remove(); if (btn) btn.textContent = '🎓 Ask'; return; }
+  if (btn) btn.textContent = '🎓 Close';
+  if (askState.idx !== i) askState = { idx: i, msgs: [], log: [] };
+  const box = document.createElement('div');
+  box.className = 'askBox';
+  const th = document.createElement('div');
+  box.appendChild(th);
+  askState.log.forEach(m => addMsg(th, m.cls, m.text));
+  const row = document.createElement('div');
+  row.className = 'askRow';
+  const inp = document.createElement('input');
+  inp.type = 'text';
+  inp.placeholder = 'Ask about this sentence…';
+  const go = document.createElement('button');
+  go.textContent = 'Ask';
+  const cost = document.createElement('div');
+  cost.className = 'askCost';
+  const send = () => { const q = inp.value.trim(); if (!q) return; inp.value = ''; askTutor(i, q, th, cost); };
+  go.addEventListener('click', (ev) => { ev.stopPropagation(); send(); });
+  inp.addEventListener('keydown', (ev) => { if (ev.key === 'Enter') { ev.preventDefault(); send(); } });
+  row.appendChild(inp); row.appendChild(go);
+  box.appendChild(row); box.appendChild(cost);
+  el.insertBefore(box, el.querySelector('.toolbar'));
+  inp.focus();
+}
+
+async function askTutor(i, q, th, costEl){
+  addMsg(th, 'q', q);
+  askState.log.push({ cls: 'q', text: q });
+  const wait = addMsg(th, 'a', '…');
+  if (askState.msgs.length >= 12) askState.msgs = [];   // long thread: start fresh (context is resent, still tiny)
+  const userContent = askState.msgs.length ? q : sentContext(i) + '\n\nReader\'s question: ' + q;
+  askState.msgs.push({ role: 'user', content: userContent });
+  try {
+    const res = await callClaude(ASK_SYSTEM, askState.msgs, 400);
+    wait.textContent = res.text;
+    askState.log.push({ cls: 'a', text: res.text });
+    askState.msgs.push({ role: 'assistant', content: res.text });
+    costEl.textContent = '≈' + fmtCents(res.cost) + ' this question · ' + fmtCents(spendCents()) + ' total';
+  } catch(e) {
+    askState.msgs.pop();
+    wait.className = 'askMsg err';
+    wait.textContent = tutorErrMsg(e);
+    askState.log.push({ cls: 'err', text: wait.textContent });
+  }
+}
+
+function renderCheck(res, out, i, attempt){
+  let j = null;
+  try { j = JSON.parse(out.text.slice(out.text.indexOf('{'), out.text.lastIndexOf('}') + 1)); } catch(e) {}
+  res.innerHTML = '';
+  if (!j || !j.verdict) {   // model didn't return JSON — show what it said
+    const d = document.createElement('div'); d.className = 'askMsg a'; d.textContent = out.text; res.appendChild(d);
+    return;
+  }
+  const v = document.createElement('div');
+  v.className = 'verdict';
+  v.textContent = (j.verdict === 'right' ? '✓ ' : j.verdict === 'close' ? '≈ ' : '✗ ') + (j.comment || '');
+  v.style.color = j.verdict === 'right' ? 'var(--idiom-ink)' : (j.verdict === 'close' ? 'var(--accent)' : '#8a3b1e');
+  res.appendChild(v);
+  (j.errors || []).forEach(er => {
+    const d = document.createElement('div');
+    d.className = 'chkErr';
+    d.innerHTML = '<q>' + escapeHtml(er.quote || '') + '</q> — ' + escapeHtml(er.issue || '');
+    const wb = document.createElement('button');
+    wb.textContent = 'why?';
+    wb.title = 'Explain how the original produces the meaning missed';
+    wb.addEventListener('click', async (ev) => {
+      ev.stopPropagation();
+      wb.disabled = true; wb.textContent = '…';
+      let wt = d.querySelector('.whyTxt');
+      if (!wt) { wt = document.createElement('div'); wt.className = 'whyTxt'; d.appendChild(wt); }
+      try {
+        const o = await callClaude(ASK_SYSTEM, [{ role: 'user', content: sentContext(i) +
+          '\n\nThe reader translated the sentence as: ' + attempt +
+          '\nA checker flagged this part: "' + (er.quote || '') + '" — ' + (er.issue || '') +
+          '\n\nExplain in 2-4 sentences how the original wording produces the meaning the reader missed.' }], 350);
+        wt.textContent = o.text;
+        wb.style.display = 'none';
+      } catch(e) {
+        wt.textContent = tutorErrMsg(e);
+        wb.disabled = false; wb.textContent = 'why?';
+      }
+    });
+    d.appendChild(wb);
+    res.appendChild(d);
+  });
+  const c = document.createElement('div');
+  c.className = 'askCost';
+  c.textContent = '≈' + fmtCents(out.cost) + ' · ' + fmtCents(spendCents()) + ' total';
+  res.appendChild(c);
+}
 
 /* ---------- modes & stories ---------- */
 function setMode(m){
@@ -1634,4 +1882,4 @@ $('fileIn').addEventListener('change', (ev) => {
 })();
 </script>
 </body>
-</h
+</html>

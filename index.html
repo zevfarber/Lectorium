@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lesestube — Reading Room</title>
+<title>Lectorium</title>
 <style>
   :root {
     --bg: #faf7f2;
@@ -116,7 +116,7 @@
 </head>
 <body>
 <header>
-  <span class="title">Lesestube</span>
+  <span class="title">Lectorium</span>
   <select id="storySel" title="Choose story"></select>
   <button id="modeDE" title="Original language only — reveal English per sentence">Original only</button>
   <button id="modeSBS" title="Original with English side by side">Side by side</button>
@@ -1302,6 +1302,7 @@ function tokenize(text){
 }
 
 function render(){
+  if (!story) return;
   const box = $('text'); box.innerHTML = '';
   $('stTitle').textContent = story.title + (story.titleEn ? ' · ' + story.titleEn : '');
   $('stMeta').textContent = (story.language || '') + ' — ' + (story.source || '');
@@ -1633,4 +1634,4 @@ $('fileIn').addEventListener('change', (ev) => {
 })();
 </script>
 </body>
-</html>
+</h

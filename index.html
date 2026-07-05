@@ -47,6 +47,13 @@
   .hint { color: var(--muted); font-size: .82rem; font-family: system-ui, sans-serif;
     background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; margin-bottom: 26px; line-height: 1.5; }
   .hint kbd { background: var(--accent-soft); border-radius: 4px; padding: 0 5px; font-family: inherit; }
+  details.hint { padding: 8px 14px; }
+  details.hint summary { cursor: pointer; font-weight: 600; color: var(--text); list-style: none;
+    display: inline-flex; align-items: center; gap: 6px; user-select: none; }
+  details.hint summary::-webkit-details-marker { display: none; }
+  details.hint summary::before { content: "▸"; display: inline-block; font-size: .85em; transition: transform .15s ease; }
+  details.hint[open] summary::before { transform: rotate(90deg); }
+  details.hint[open] summary { margin-bottom: 8px; }
 
   .sent { border-radius: 10px; padding: 8px 12px; margin: 2px -12px; cursor: pointer; line-height: 1.75; }
   .sent.parastart { margin-top: 26px; }
@@ -158,7 +165,9 @@
 <main>
   <h1 class="storyTitle" id="stTitle"></h1>
   <div class="storyMeta" id="stMeta"></div>
-  <div class="hint">
+  <details class="hint" id="hintBox" open>
+    <summary>Instructions</summary>
+    <div class="hint-body">
     Click a sentence to focus it — the buttons always show what you'll get <i>next</i>:
     <b>🔊 Listen</b> becomes <b>⏹ Stop</b> while it reads (<kbd>Esc</kbd> also stops);
     <b>🐢 Slow</b> plays it slowly and becomes <b>🐇 Regular</b>;
@@ -168,7 +177,8 @@
     Click any <b>word</b> for its meaning and pronunciation.
     <b>🎓 Ask</b> opens the in-app tutor for that sentence, and <b>✓ Check</b> (inside ✍️ Try) has the tutor judge your translation by meaning — each flagged error gets a <b>why?</b>. Set it up once via <b>🎓 Tutor</b> in the top bar.
     Keyboard: <kbd>↑</kbd>/<kbd>↓</kbd> move · <kbd>E</kbd> English · <kbd>L</kbd> listen · <kbd>S</kbd> slow · <kbd>N</kbd> note · <kbd>T</kbd> try · <kbd>A</kbd> ask · <kbd>Esc</kbd> stop.
-  </div>
+    </div>
+  </details>
   <div id="tutorSetup">
     <b>🎓 In-app tutor</b> — answers questions about the focused sentence using Claude (Haiku). It runs on your own Anthropic API key, pay-per-use: a typical question costs a fraction of a cent.
     <div style="margin:8px 0">
@@ -1881,6 +1891,11 @@ $('fileIn').addEventListener('change', (ev) => {
 
 /* ---------- init ---------- */
 (function init(){
+  const hint = $('hintBox');
+  if (hint) {
+    try { const s = localStorage.getItem('hintOpen'); if (s !== null) hint.open = (s === '1'); } catch(e) {}
+    hint.addEventListener('toggle', () => { try { localStorage.setItem('hintOpen', hint.open ? '1' : '0'); } catch(e) {} });
+  }
   fillStorySel();
   let m = 'de';
   try { m = localStorage.getItem('mode') || 'de'; } catch(e) {}

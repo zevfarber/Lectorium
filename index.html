@@ -1869,4 +1869,33 @@ $('fileIn').addEventListener('change', (ev) => {
       const s = JSON.parse(rd.result);
       if (!s.sentences || !s.title) throw new Error('missing fields');
       const existing = STORIES.findIndex(x => x.id === s.id);
-      if (existing >=
+      if (existing >= 0) STORIES[existing] = s; else STORIES.push(s);
+      fillStorySel();
+      $('storySel').value = STORIES.findIndex(x => x.id === s.id);
+      loadStory(s);
+    } catch(e) { alert('Could not read story file: ' + e.message); }
+  };
+  rd.readAsText(f);
+  ev.target.value = '';
+});
+
+/* ---------- init ---------- */
+(function init(){
+  fillStorySel();
+  let m = 'de';
+  try { m = localStorage.getItem('mode') || 'de'; } catch(e) {}
+  let last = null;
+  try { last = localStorage.getItem('story'); } catch(e) {}
+  const idx = Math.max(0, STORIES.findIndex(s => s.id === last));
+  if (STORIES.length) {
+    $('storySel').value = idx;
+    setMode(m);
+    loadStory(STORIES[idx]);
+  } else {
+    $('stTitle').textContent = 'No stories loaded';
+    $('stMeta').textContent = 'Use “＋ Load story” to open a story .json file.';
+  }
+})();
+</script>
+</body>
+</html>

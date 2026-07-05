@@ -163,7 +163,7 @@
     <b>🔊 Listen</b> becomes <b>⏹ Stop</b> while it reads (<kbd>Esc</kbd> also stops);
     <b>🐢 Slow</b> plays it slowly and becomes <b>🐇 Regular</b>;
     <b>EN</b> reveals the English and becomes <b>hide EN</b>;
-    <b>≈ natural</b> and <b>≈ literal</b> switch between the two English versions; <b>📝</b> opens the grammar note.
+    <b>≈ literal</b> and <b>≈ natural</b> switch between the two English versions (natural is shown first); <b>📝</b> opens the grammar note.
     <b>✍️ Try</b> lets you attempt your own translation (typed or dictated 🎤) before comparing with the English.
     Click any <b>word</b> for its meaning and pronunciation.
     <b>🎓 Ask</b> opens the in-app tutor for that sentence, and <b>✓ Check</b> (inside ✍️ Try) has the tutor judge your translation by meaning — each flagged error gets a <b>why?</b>. Set it up once via <b>🎓 Tutor</b> in the top bar.
@@ -651,7 +651,7 @@ const STORIES = [
     "auch": "also, too",
     "auf": "on, onto, at, up",
     "aufforderte": "asked (her) to dance (auffordern)",
-    "aufforderten": "asked (her) to dance (plural)",
+    "aufforderten": "asked (her) to dance (auffordern, plural)",
     "aufs": "= auf das, onto the",
     "aufstehn": "to get up (= aufstehen)",
     "aufzufordern": "to ask (her) to dance (zu-infinitive of auffordern)",
@@ -690,7 +690,7 @@ const STORIES = [
     "bleich": "pale",
     "blickte": "looked, glanced (blicken)",
     "blieb": "remained (past of bleiben)",
-    "blieben": "remained (plural)",
+    "blieben": "remained (past of bleiben, plural)",
     "blindheit": "die Blindheit — blindness",
     "blut": "das Blut — blood",
     "bosheit": "die Bosheit — malice, wickedness",
@@ -709,7 +709,7 @@ const STORIES = [
     "da": "there; then; since",
     "dabei": "present, there; alongside",
     "dachte": "thought (past of denken)",
-    "dachten": "thought (plural)",
+    "dachten": "thought (past of denken, plural)",
     "daheim": "at home",
     "damit": "so that; with it",
     "danach": "after that",
@@ -799,18 +799,18 @@ const STORIES = [
     "frau": "die Frau — woman, wife",
     "fremde": "strange, unknown, foreign",
     "freute": "freute sich — was glad, rejoiced (sich freuen)",
-    "freuten": "rejoiced (plural)",
+    "freuten": "rejoiced (sich freuen, plural)",
     "fromm": "pious, devout",
     "früh": "early",
     "frühjahr": "das Frühjahr — spring(time)",
     "fuß": "der Fuß — foot; zu Fuß gehen: to go on foot",
     "fühlte": "felt (fühlen)",
     "führt": "leads (führen) — die führt er heim: her he leads home (marries)",
-    "führten": "led (plural)",
+    "führten": "led (führen, plural)",
     "für": "for",
     "füße": "feet (plural of der Fuß)",
     "gab": "gave (past of geben)",
-    "gaben": "gave (plural)",
+    "gaben": "gave (past of geben, plural)",
     "gans": "die Gans — goose",
     "ganz": "entirely, quite — ganz golden: all of gold",
     "ganze": "whole",
@@ -818,12 +818,12 @@ const STORIES = [
     "garstig": "nasty, vile",
     "garten": "der Garten — garden",
     "gearbeitet": "worked (arbeiten)",
-    "geblieben": "remained — hängen geblieben: got stuck",
+    "geblieben": "remained (past participle of bleiben) — hängen geblieben: got stuck",
     "gebracht": "brought (bringen)",
     "gebraucht": "used, employed (gebrauchen)",
     "gehabt": "had (haben)",
     "gehalten": "held (halten)",
-    "gehe": "go (ich gehe: I go)",
+    "gehe": "go (gehen — ich gehe: I go)",
     "gehen": "to go",
     "gehorchte": "obeyed (gehorchen)",
     "gelaufen": "run (laufen)",
@@ -841,8 +841,8 @@ const STORIES = [
     "gewartet": "waited (warten)",
     "gewünscht": "wished (wünschen)",
     "ging": "went (past of gehen)",
-    "gingen": "went (plural)",
-    "glaube": "believe (ich glaube: I believe)",
+    "gingen": "went (past of gehen, plural)",
+    "glaube": "believe (glauben — ich glaube: I believe)",
     "glaubte": "believed (glauben)",
     "gleich": "at once, right away",
     "glück": "das Glück — fortune, happiness, luck",
@@ -866,9 +866,9 @@ const STORIES = [
     "guten": "good (inflected)",
     "guter": "guter Dinge — in good spirits",
     "haare": "hair (plural of das Haar)",
-    "habe": "have (ich habe: I have)",
+    "habe": "have (haben — ich habe: I have)",
     "haben": "to have",
-    "habt": "have (ihr habt: you have)",
+    "habt": "have (haben — ihr habt: you have)",
     "hacken": "die Hacke — pick, mattock (here plural/old form)",
     "halbe": "half",
     "hand": "die Hand — hand",
@@ -876,9 +876,9 @@ const STORIES = [
     "haselbusch": "der Haselbusch — hazel bush",
     "haselbäumchen": "das Haselbäumchen — little hazel tree",
     "haselreis": "das Haselreis — hazel twig",
-    "hast": "have (du hast: you have)",
+    "hast": "have (haben — du hast: you have)",
     "hatte": "had (past of haben)",
-    "hatten": "had (plural)",
+    "hatten": "had (past of haben, plural)",
     "hau": "chop! hew! (imperative of hauen)",
     "haus": "das Haus — house; nach Haus: home(ward)",
     "hause": "house (old dative); nach Hause: home",
@@ -894,7 +894,7 @@ const STORIES = [
     "heraufgestiegen": "risen up, climbed up (heraufsteigen)",
     "heraufschicken": "to send up",
     "heraus": "out (toward the speaker)",
-    "herausgingen": "went out (plural)",
+    "herausgingen": "went out (herausgehen, plural)",
     "herausquoll": "welled out, gushed out (herausquellen)",
     "herd": "der Herd — hearth, stove",
     "herein": "in, inside (motion toward the speaker)",
@@ -937,17 +937,17 @@ const STORIES = [
     "immer": "always",
     "in": "in, into",
     "ins": "= in das, into the",
-    "ist": "is",
+    "ist": "is (sein)",
     "ja": "(particle) surely, after all — das kann es ja nimmermehr: she surely never can",
     "jeden": "every, each",
     "jedermann": "everyone",
     "jungfrauen": "maidens (die Jungfrau)",
     "jüngste": "youngest",
     "kam": "came (past of kommen)",
-    "kamen": "came (plural)",
+    "kamen": "came (past of kommen, plural)",
     "kammer": "die Kammer — chamber, small room",
     "kann": "can (können)",
-    "kannst": "can (du kannst: you can)",
+    "kannst": "can (können — du kannst: you can)",
     "kannten": "knew, recognized (kennen)",
     "kaufte": "bought (kaufen)",
     "kaum": "hardly, scarcely",
@@ -967,8 +967,8 @@ const STORIES = [
     "kleines": "small, little",
     "kletterte": "climbed (klettern)",
     "kochen": "to cook",
-    "kommst": "come (du kommst: you come)",
-    "kommt": "come! (imperative plural); comes",
+    "kommst": "come (kommen — du kommst: you come)",
+    "kommt": "come! (imperative plural of kommen); comes",
     "konnte": "could (past of können)",
     "krank": "sick, ill",
     "kröpfchen": "das Kröpfchen — little crop (pouch in a bird’s throat; dim. of Kropf)",
@@ -1002,7 +1002,7 @@ const STORIES = [
     "linsen": "lentils (die Linse)",
     "list": "die List — ruse, cunning trick",
     "losließ": "let go of (loslassen)",
-    "mache": "make! — mache fest: fasten (festmachen)",
+    "mache": "make! (imperative of machen) — mache fest: fasten (festmachen)",
     "mann": "der Mann — man",
     "manne": "man (old dative of der Mann)",
     "mehr": "more — nicht mehr: no longer; niemand mehr: no one anymore",
@@ -1019,18 +1019,18 @@ const STORIES = [
     "mitgehen": "to go along, come too",
     "morgen": "der Morgen — morning",
     "mutter": "die Mutter — mother",
-    "muß": "must (old spelling of muss)",
-    "mußte": "had to (old spelling of musste)",
-    "mußten": "had to (plural)",
+    "muß": "must (müssen; old spelling of muss)",
+    "mußte": "had to (past of müssen; old spelling of musste)",
+    "mußten": "had to (past of müssen, plural)",
     "mädchen": "das Mädchen — girl (grammatically neuter)",
     "mädchens": "of the girl (genitive)",
     "möchte": "might, would like to (subjunctive of mögen)",
     "müde": "tired — sich müde arbeiten: to work oneself tired",
-    "müsse": "must (subjunctive I — reported thought/speech)",
+    "müsse": "must (subjunctive I of müssen — reported thought/speech)",
     "müßten": "would have to (subjunctive II of müssen)",
     "nach": "to, toward; after — nach Haus: home",
     "nahm": "took (past of nehmen)",
-    "nahmen": "took (plural)",
+    "nahmen": "took (past of nehmen, plural)",
     "nannten": "named, called (nennen)",
     "neben": "beside, next to",
     "nehmen": "to take — teil nehmen an: to share in",
@@ -1070,7 +1070,7 @@ const STORIES = [
     "reis": "das Reis — twig, sprig (old word; not der Reis, ‘rice’)",
     "richtete": "richtete sich in die Höhe — straightened up, rose (sich richten)",
     "rief": "called, cried (past of rufen)",
-    "riefen": "called (plural)",
+    "riefen": "called (past of rufen, plural)",
     "ritt": "rode (past of reiten)",
     "rot": "red",
     "rucke": "coo (imitating a dove; rucken = to coo)",
@@ -1136,14 +1136,14 @@ const STORIES = [
     "sohn": "der Sohn — son",
     "soll": "shall, is (supposed) to (sollen)",
     "solle": "should (subjunctive — reported speech)",
-    "sollst": "shall (du sollst: you shall/may)",
-    "sollte": "should; was to — sollte es … sein?: could it be …?",
-    "sollten": "should, were to (plural)",
+    "sollst": "shall (sollen — du sollst: you shall/may)",
+    "sollte": "should; was to (past of sollen) — sollte es … sein?: could it be …?",
+    "sollten": "should, were to (past of sollen, plural)",
     "sondern": "but rather, but instead (after a negative)",
     "sonne": "die Sonne — sun",
     "sonst": "otherwise; wie sonst auch: as usual",
     "sprach": "spoke, said (past of sprechen)",
-    "sprachen": "spoke (plural)",
+    "sprachen": "spoke (past of sprechen, plural)",
     "sprang": "jumped, sprang (past of springen)",
     "stand": "stood (past of stehen)",
     "staub": "der Staub — dust",
@@ -1173,7 +1173,7 @@ const STORIES = [
     "tanzen": "to dance",
     "tanzte": "danced (tanzen)",
     "tat": "did (past of tun) — tat … zu: closed (zutun)",
-    "taten": "did (plural) — taten … an: did (harm) to (antun)",
+    "taten": "did (past of tun, plural) — taten … an: did (harm) to (antun)",
     "tauben": "doves (die Taube)",
     "taubenhaus": "das Taubenhaus — dovecote, pigeon house",
     "teil": "teil nehmen an — to take part in, share in (der Teil: part)",
@@ -1217,9 +1217,9 @@ const STORIES = [
     "vögel": "birds (plural of der Vogel)",
     "vöglein": "das Vöglein — little bird (diminutive)",
     "wann": "when (here in the older sense of wenn: once, when)",
-    "war": "was",
+    "war": "was (past of sein)",
     "ward": "became (archaic form of wurde)",
-    "waren": "were",
+    "waren": "were (past of sein, plural)",
     "warf": "threw (past of werfen)",
     "wartete": "waited (warten)",
     "was": "what; whatever; that which",
@@ -1243,23 +1243,23 @@ const STORIES = [
     "wieder": "again",
     "wiedergebracht": "brought back (wiederbringen)",
     "will": "want(s) (wollen); ich will: I will/want to",
-    "willst": "want (du willst: you want)",
+    "willst": "want (wollen — du willst: you want)",
     "winter": "der Winter — winter",
     "wir": "we",
     "wird": "will (future auxiliary); becomes (werden)",
     "wirf": "throw! (imperative of werfen)",
-    "wirst": "will (du wirst) — du wirst ausgelacht: you will be laughed at (passive)",
+    "wirst": "will (werden — du wirst) — du wirst ausgelacht: you will be laughed at (passive)",
     "wo": "where",
     "wollte": "wanted (past of wollen)",
-    "wollten": "wanted (plural)",
+    "wollten": "wanted (past of wollen, plural)",
     "wozu": "to which (wedding/festival)",
     "wuchs": "grew (past of wachsen)",
     "wunsch": "der Wunsch — wish",
-    "wurde": "became; (passive auxiliary) was",
-    "wurden": "became; were (passive, plural)",
+    "wurde": "became (past of werden); (passive auxiliary) was",
+    "wurden": "became; were (passive, past of werden, plural)",
     "wusch": "washed (past of waschen)",
     "wußte": "knew (past of wissen; old spelling of wusste)",
-    "wußten": "knew (plural)",
+    "wußten": "knew (past of wissen, plural)",
     "wär": "= wäre, were / would be (subjunctive of sein — reported speech)",
     "wäre": "would be, were (subjunctive of sein)",
     "zahmen": "tame (zahm)",
@@ -1268,8 +1268,8 @@ const STORIES = [
     "zeit": "die Zeit — time",
     "ziehen": "to go, set out (old usage: in die Messe ziehen); to pull",
     "zierlich": "dainty, delicate",
-    "zog": "pulled — zog an: put on (anziehen); zog aus: drew out",
-    "zogen": "pulled — zogen ihm … an: dressed him in (plural)",
+    "zog": "pulled (past of ziehen) — zog an: put on (anziehen); zog aus: drew out (ausziehen)",
+    "zogen": "pulled (past of ziehen, plural) — zogen ihm … an: dressed her in (anziehen)",
     "zu": "to; too (zu klein: too small); closed (separable prefix: zutun)",
     "zum": "= zu dem, to the",
     "zur": "= zu der, to the",
@@ -1357,9 +1357,9 @@ function render(){
     div.appendChild(de);
 
     const en = document.createElement('div');
-    en.className = 'en';
-    en.dataset.showing = 'lit';
-    en.innerHTML = '<span class="lbl">literal</span>' + escapeHtml(s.l || '');
+    en.className = 'en idm';
+    en.dataset.showing = 'idiom';
+    en.innerHTML = '<span class="lbl">natural</span>' + escapeHtml(s.i || s.l || '');
     div.appendChild(en);
 
     if (s.n) {
@@ -1377,7 +1377,7 @@ function render(){
       '<button data-a="try">✍️ Try</button>' +
       '<button data-a="ask">🎓 Ask</button>' +
       (mode === 'de' ? '<button data-a="en">EN</button>' : '') +
-      (s.i ? '<button data-a="idiom">≈ natural</button>' : '') +
+      (s.i ? '<button data-a="idiom">≈ literal</button>' : '') +
       (s.n ? '<button data-a="note">📝 note</button>' : '');
     div.appendChild(tb);
 
@@ -1558,8 +1558,8 @@ function toggleTry(i){
     if (!res) { res = document.createElement('div'); res.className = 'tryRes'; box.appendChild(res); }
     res.innerHTML =
       '<div class="tryLine you"><span class="lbl">you</span>' + escapeHtml(ta.value.trim() || '—') + '</div>' +
-      '<div class="tryLine lit"><span class="lbl">literal</span>' + escapeHtml(s.l || '') + '</div>' +
-      (s.i ? '<div class="tryLine idm"><span class="lbl">natural</span>' + escapeHtml(s.i) + '</div>' : '');
+      (s.i ? '<div class="tryLine idm"><span class="lbl">natural</span>' + escapeHtml(s.i) + '</div>' : '') +
+      '<div class="tryLine lit"><span class="lbl">literal</span>' + escapeHtml(s.l || '') + '</div>';
   });
   row.appendChild(cmp);
   const chk = document.createElement('button');
@@ -1717,7 +1717,7 @@ function toggleAsk(i){
   const btn = sentBtn(i, 'ask');
   const existing = el.querySelector('.askBox');
   if (existing) { existing.remove(); if (btn) btn.textContent = '🎓 Ask'; return; }
-  if (btn) btn.textContent = '🎓 Close';
+  if (btn) btn.textContent = '🎓 Close ask';
   if (askState.idx !== i) askState = { idx: i, msgs: [], log: [] };
   const box = document.createElement('div');
   box.className = 'askBox';

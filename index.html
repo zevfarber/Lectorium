@@ -1296,14 +1296,30 @@ function loadVoices(){ voices = speechSynthesis.getVoices(); }
 loadVoices();
 if (typeof speechSynthesis !== 'undefined') speechSynthesis.onvoiceschanged = loadVoices;
 
+function voiceScore(v){
+  // Higher is better. Reads name + voiceURI: Apple encodes quality in the URI
+  // (e.g. com.apple.voice.compact.de-DE.Anna vs .enhanced. / .premium.).
+  const s = ((v.name || '') + ' ' + (v.voiceURI || '')).toLowerCase();
+  let q = 0;
+  if (/premium/.test(s))            q += 100;
+  if (/enhanced/.test(s))           q += 90;
+  if (/neural/.test(s))             q += 80;
+  if (/natural/.test(s))            q += 70;
+  if (/siri/.test(s))               q += 60;
+  if (/super-?compact/.test(s))     q -= 120;   // worst iOS tier
+  else if (/compact/.test(s))       q -= 100;   // default robotic iOS voice
+  if (q === 0 && v.localService)    q += 1;      // neutral tiebreak (keeps good desktop pick)
+  return q;
+}
 function bestVoice(lang){
   if (!lang) return null;
+  if (!voices.length && typeof speechSynthesis !== 'undefined') voices = speechSynthesis.getVoices();
   const base = lang.slice(0,2).toLowerCase();
   const cand = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith(base));
   if (!cand.length) return null;
   const exact = cand.filter(v => v.lang.toLowerCase() === lang.toLowerCase());
   const pool = exact.length ? exact : cand;
-  return pool.find(v => v.localService) || pool[0];
+  return pool.slice().sort((a,b) => voiceScore(b) - voiceScore(a))[0];
 }
 
 let speakingKey = '';
@@ -1853,33 +1869,4 @@ $('fileIn').addEventListener('change', (ev) => {
       const s = JSON.parse(rd.result);
       if (!s.sentences || !s.title) throw new Error('missing fields');
       const existing = STORIES.findIndex(x => x.id === s.id);
-      if (existing >= 0) STORIES[existing] = s; else STORIES.push(s);
-      fillStorySel();
-      $('storySel').value = STORIES.findIndex(x => x.id === s.id);
-      loadStory(s);
-    } catch(e) { alert('Could not read story file: ' + e.message); }
-  };
-  rd.readAsText(f);
-  ev.target.value = '';
-});
-
-/* ---------- init ---------- */
-(function init(){
-  fillStorySel();
-  let m = 'de';
-  try { m = localStorage.getItem('mode') || 'de'; } catch(e) {}
-  let last = null;
-  try { last = localStorage.getItem('story'); } catch(e) {}
-  const idx = Math.max(0, STORIES.findIndex(s => s.id === last));
-  if (STORIES.length) {
-    $('storySel').value = idx;
-    setMode(m);
-    loadStory(STORIES[idx]);
-  } else {
-    $('stTitle').textContent = 'No stories loaded';
-    $('stMeta').textContent = 'Use “＋ Load story” to open a story .json file.';
-  }
-})();
-</script>
-</body>
-</html>
+      if (existing >=

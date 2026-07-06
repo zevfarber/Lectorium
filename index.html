@@ -2714,4 +2714,73 @@ function setPlain(on){
   render();
   if (focusedIdx >= 0) focusSent(focusedIdx, false);
 }
-$('plainBtn').oncl
+$('plainBtn').onclick = () => setPlain(!plainMode);
+
+/* ---------- library & story loading ---------- */
+function fillStorySel(){
+  const sel = $('storySel'); sel.innerHTML = '';
+  STORIES.forEach((s, i) => {
+    const o = document.createElement('option');
+    o.value = i; o.textContent = s.title + ' (' + (s.language || '') + ')';
+    sel.appendChild(o);
+  });
+}
+$('storySel').onchange = () => loadStory(STORIES[+$('storySel').value]);
+
+function loadStory(s){
+  stopSpeech();
+  speakingIdx = -1;
+  slowPref = {};
+  story = s;
+  hidePop();
+  render();
+  let pos = 0;
+  try { pos = parseInt(localStorage.getItem('pos:' + s.id)) || 0; } catch(e) {}
+  focusSent(Math.min(pos, s.sentences.length - 1), pos > 0);
+  try { localStorage.setItem('story', s.id); } catch(e) {}
+}
+
+$('fileIn').addEventListener('change', (ev) => {
+  const f = ev.target.files[0]; if (!f) return;
+  const rd = new FileReader();
+  rd.onload = () => {
+    try {
+      const s = JSON.parse(rd.result);
+      if (!s.sentences || !s.title) throw new Error('missing fields');
+      const existing = STORIES.findIndex(x => x.id === s.id);
+      if (existing >= 0) STORIES[existing] = s; else STORIES.push(s);
+      fillStorySel();
+      $('storySel').value = STORIES.findIndex(x => x.id === s.id);
+      loadStory(s);
+    } catch(e) { alert('Could not read story file: ' + e.message); }
+  };
+  rd.readAsText(f);
+  ev.target.value = '';
+});
+
+/* ---------- init ---------- */
+(function init(){
+  const hint = $('hintBox');
+  if (hint) {
+    try { const s = localStorage.getItem('hintOpen'); if (s !== null) hint.open = (s === '1'); } catch(e) {}
+    hint.addEventListener('toggle', () => { try { localStorage.setItem('hintOpen', hint.open ? '1' : '0'); } catch(e) {} });
+  }
+  $('plainBtn').classList.toggle('active', plainMode);
+  fillStorySel();
+  let m = 'de';
+  try { m = localStorage.getItem('mode') || 'de'; } catch(e) {}
+  let last = null;
+  try { last = localStorage.getItem('story'); } catch(e) {}
+  const idx = Math.max(0, STORIES.findIndex(s => s.id === last));
+  if (STORIES.length) {
+    $('storySel').value = idx;
+    setMode(m);
+    loadStory(STORIES[idx]);
+  } else {
+    $('stTitle').textContent = 'No stories loaded';
+    $('stMeta').textContent = 'Use “＋ Load story” to open a story .json file.';
+  }
+})();
+</script>
+</body>
+</html>

@@ -59,6 +59,9 @@
   .sent.parastart { margin-top: 26px; }
   .sent.focused { background: var(--focus-bg); box-shadow: 0 0 0 1px var(--border); }
   .sent.verse .de { font-style: italic; padding-left: 1.5em; }
+  body.allverse .sent.verse .de { font-style: normal; padding-left: 0; }
+  .lineno { font-family: system-ui, -apple-system, sans-serif; font-size: .68rem; color: var(--muted);
+    vertical-align: super; margin-right: 10px; user-select: none; letter-spacing: .03em; }
   .de { font-size: 1.12rem; white-space: pre-line; }
   .de .w { border-radius: 4px; }
   .de .w:hover { background: var(--accent-soft); }
@@ -156,6 +159,7 @@
   <select id="storySel" title="Choose story"></select>
   <button id="modeDE" title="Original language only — reveal English per sentence">Original only</button>
   <button id="modeSBS" title="Original with English side by side">Side by side</button>
+  <button id="plainBtn" title="Plain letters — þ, ð → th, æ → ae, length marks hidden">þ→th</button>
   <span class="spacer"></span>
   <span id="rateWrap">🔊 <input type="range" id="rate" min="0.4" max="1.2" step="0.05" value="0.92" title="Speech speed"></span>
   <label class="filebtn" title="Load a story .json file produced by your project">＋ Load story<input type="file" id="fileIn" accept=".json,application/json" style="display:none"></label>
@@ -165,6 +169,7 @@
 <main>
   <h1 class="storyTitle" id="stTitle"></h1>
   <div class="storyMeta" id="stMeta"></div>
+  <div class="hint" id="stAbout" style="display:none"></div>
   <details class="hint" id="hintBox" open>
     <summary>Instructions</summary>
     <div class="hint-body">
@@ -1795,6 +1800,333 @@ const STORIES = [
     "étrange": "étrange — strange (adjective)",
     "éveillée": "éveillé — bright, alert, lively (adjective, f.; from éveiller 'to awaken')"
   }
+},
+{
+  "id": "beowulf-prologue",
+  "title": "Bēowulf",
+  "titleEn": "Beowulf — Prologue (lines 1–52)",
+  "language": "Old English",
+  "langCode": null,
+  "source": "Fr. Klaeber, Beowulf and the Fight at Finnsburg, 1st edition (Boston: D. C. Heath & Co., 1922), pp. 1–3, lines 1–52 (the unnumbered prologue). Text follows Klaeber's printing exactly — þ, ð, æ, vowel-length macrons, circumflex on contracted vowels (Līffrēâ, geþēôn), [brackets] for letters added by emendation, (parentheses) for conjectural restoration of fire-damaged letters; the opening display capitals are normalized. Pronunciation convention: reconstructed late West Saxon, c. 1000, following Campbell's Old English Grammar. Translations made fresh from the original.",
+  "about": "Beowulf survives in a single manuscript, the Nowell Codex, which was scorched in a library fire in 1731; its edges have crumbled away, and some readings survive only in two transcripts made in 1787. What you read here is a reconstruction — Klaeber's edition of 1922 — and parts of it are educated guesswork: [brackets] mark letters editors added, (parentheses) mark letters restored where the manuscript is damaged or lost, and a few words are best guesses whose exact meaning no one knows. The notes say so where it matters. Line numbers are Klaeber's, the standard way of citing the poem.",
+  "sentences": [
+    {"p": true, "v": true, "ln": 1,
+     "t": "Hwæt, wē Gār-Dena in gēardagum,\nþēodcyninga þrym gefrūnon,\nhū ðā æþelingas ellen fremedon!",
+     "l": "What! We have heard of the glory of the Spear-Danes' people-kings in days of yore — how the athelings did deeds of valor!",
+     "i": "Listen! We have heard of the might of the Spear-Danes' kings in days of old — how those princes did brave deeds.",
+     "n": "The poem's famous opening. ‘Hwæt’ is a call for attention — how to translate it is a celebrated crux; we give the word's plain sense. Note the word order: the genitives come first (‘of the Spear-Danes, of the people-kings, the glory we have heard’) — Old English verse likes to front-load. The Danes go by many compound names in this poem (Spear-Danes, Ring-Danes, Bright-Danes…), chosen largely for alliteration."},
+    {"p": true, "v": true, "ln": 4,
+     "t": "Oft Scyld Scēfing sceaþena þrēatum,\nmonegum mǣgþum meodosetla oftēah,\negsode eorl[as], syððan ǣrest wearð\nfēasceaft funden;",
+     "l": "Often Scyld Scefing took mead-benches away from bands of harmers, from many tribes — terrified their warriors — after he first was found destitute;",
+     "i": "Time and again Scyld Scefing stripped the mead-benches from troops of enemies, from many a tribe, and struck terror into their men — he who had first been found a helpless foundling.",
+     "n": "To ‘take away a people's mead-benches' is to conquer them: the mead-hall stands for a tribe's whole common life. The brackets in ‘eorl[as]’ are Klaeber's: the manuscript reads only ‘eorl’; the ending is editorial. (Curiously, some 16th-century reader wrote the English word ‘feared' above ‘egsode’ in the manuscript — an early crib.)"},
+    {"v": true, "ln": 7,
+     "t": "hē þæs frōfre gebād,\nwēox under wolcnum weorðmyndum þāh,\noð þæt him ǣghwylc ymbsittendra\nofer hronrāde hȳran scolde,\ngomban gyldan;",
+     "l": "he lived to see comfort for that: he waxed under the welkin, throve in worth-honors, until each of the around-sitters over the whale-road had to obey him, yield tribute;",
+     "i": "He found solace for that: he grew beneath the skies and flourished in honors, until every neighboring people across the sea had to obey him and pay him tribute.",
+     "n": "‘hronrāde’ — ‘whale-road' — is the poem's first real kenning, a compact poetic riddle-name: the sea is the road the whale rides. You'll meet many more; the literal line keeps them hyphenated, the natural line unpacks them. ‘ymbsittendra’ = ‘those sitting around' — the neighboring peoples."},
+    {"v": true, "ln": 11,
+     "t": "þæt wæs gōd cyning!",
+     "l": "that was a good king!",
+     "n": "The poet's laconic verdict, almost a formula — it recurs later in the poem of other kings. Understatement is this poet's habit."},
+    {"v": true, "ln": 12,
+     "t": "Ðǣm eafera wæs æfter cenned\ngeong in geardum, þone God sende\nfolce tō frōfre; fyrenðearfe ongeat,\nþē hīe ǣr drugon aldor(lē)ase\nlange hwīle;",
+     "l": "To him an heir was afterward born, young in the courts, whom God sent as comfort to the folk; He had seen the dire-need that they before endured, lord-less, a long while;",
+     "i": "In time a son was born to him, young in his halls, whom God sent to comfort the people: God had seen the dire distress they had long suffered without a lord.",
+     "n": "‘Ðǣm eafera wæs æfter cenned’ opens with a dative — ‘to him an heir was born' — the same dative-of-the-person-affected you know from German. The parentheses in ‘aldor(lē)ase’ mark letters lost at the manuscript's burned edge and restored by editors; ‘aldor’ is ‘lord' (also ‘life'), ‘-lēase’ is ‘-less'."},
+    {"v": true, "ln": 16,
+     "t": "him þæs Līffrēâ,\nwuldres Wealdend woroldāre forgeaf;",
+     "l": "to him for that the Life-Lord, glory's Wielder, gave world-honor;",
+     "i": "for that, the Lord of life, the Ruler of glory, granted him honor in the world;",
+     "n": "The circumflex in ‘Līffrēâ’ is Klaeber's mark for a contracted vowel (frēa goes back to an older two-syllable word). Note God's easy presence in this heroic pagan story — the Christian poet telling pre-Christian matter is a tension that runs through the whole poem."},
+    {"v": true, "ln": 18,
+     "t": "Bēowulf wæs brēme — blǣd wīde sprang —\nScyldes eafera Scedelandum in.",
+     "l": "Beowulf was famed — renown sprang wide — Scyld's heir, in the Scede-lands.",
+     "i": "Beowulf's fame was great — word of him spread far — Scyld's heir in the Scandinavian lands.",
+     "n": "This Beowulf is not the hero of the poem! He is Scyld's son, a Danish king; the hero (a Geat) enters later. Many scholars believe the name here should be ‘Bēow’, as in the old royal genealogies, and that a scribe slipped in the more familiar name — Klaeber keeps what the manuscript says. A good first taste of how speculative this text's edges are."},
+    {"p": true, "v": true, "ln": 20,
+     "t": "Swā sceal (geong g)uma gōde gewyrcean,\nfromum feohgiftum on fæder (bea)rme,\nþæt hine on ylde eft gewunigen\nwilgesīþas, þonne wīg cume,\nlēode gelǣsten;",
+     "l": "So shall a young man work good with splendid fee-gifts while in his father's bosom, so that in old age willing-companions again stand by him, the people serve him when war comes;",
+     "i": "So should a young man, while still under his father's wing, do good with generous gifts of treasure, so that when he is old loyal companions will stand by him, and his people serve him when war comes.",
+     "n": "The manuscript is burned here: only ‘…uma’ and ‘…rme’ survive; ‘(geong g)uma’ and ‘(bea)rme’ are 19th-century restorations that Klaeber adopts — the parentheses keep the guesswork honest. ‘on fæder bearme’ — ‘in his father's lap/bosom' — means while his father still lives and protects him."},
+    {"v": true, "ln": 24,
+     "t": "lofdǣdum sceal\nin mǣgþa gehwǣre man geþēôn.",
+     "l": "by praise-deeds shall a man thrive in each of tribes.",
+     "i": "By praiseworthy deeds a man prospers in any nation.",
+     "n": "The poem's first gnomic maxim — the poet steps out of the story to state a general truth, a thing this poem loves to do. ‘sceal’ in maxims means ‘ought by nature to / it is the way of things that'. The circumflex in ‘geþēôn’ again marks a contracted vowel."},
+    {"p": true, "v": true, "ln": 26,
+     "t": "Him ðā Scyld gewāt tō gescæphwīle\nfelahrōr fēran on Frēan wǣre;",
+     "l": "Then Scyld took himself off at the shaped-hour, still much-strong, to fare into the Lord's keeping;",
+     "i": "Then at his fated hour Scyld, still in full strength, departed into the Lord's keeping.",
+     "n": "‘Him … gewāt’ — a reflexive dative with verbs of going: ‘took himself off'. ‘gescæphwīl’ is the ‘shaped hour', the appointed time of death: destiny as something shaped (gesceap) runs through the poem."},
+    {"v": true, "ln": 28,
+     "t": "hī hyne þā ætbǣron tō brimes faroðe,\nswǣse gesīþas, swā hē selfa bæd,\nþenden wordum wēold wine Scyldinga —\nlēof landfruma lange āhte.",
+     "l": "they then bore him to the sea's current, his dear companions, as he himself bade while he wielded words, the Scyldings' friend — the dear land-chief had long ruled.",
+     "i": "His own dear companions carried him down to the water's edge, as he himself had asked while he could still speak — the friend of the Scyldings, the beloved lord of the land, had ruled long.",
+     "n": "‘þenden wordum wēold’ — ‘while he still ruled with words', i.e. while he could still speak and command. Notice the piling of names for the same man — ‘the Scyldings' friend', ‘the dear land-chief': this is variation, saying a thing again in new words, the very heartbeat of Old English verse."},
+    {"v": true, "ln": 32,
+     "t": "Þǣr æt hȳðe stōd hringedstefna\nīsig ond ūtfūs, æþelinges fær;",
+     "l": "There at the hythe stood the ringed-prow, icy and out-eager, the prince's craft;",
+     "i": "There in the harbor stood the ring-prowed ship, ice-covered and straining to be off — the prince's vessel.",
+     "n": "‘hringedstefna’ — ‘ring-prow' — a ship named by its ornament. ‘īsig’ (‘icy') is a famous puzzle: why icy? Scholars have proposed literal ice, ‘shining', ‘ready', even ‘death-cold' — no one knows. ‘hȳð’ (‘landing-place') survives in English place-names like Hythe and Rotherhithe."},
+    {"v": true, "ln": 34,
+     "t": "ālēdon þā lēofne þēoden,\nbēaga bryttan on bearm scipes,\nmǣrne be mæste.",
+     "l": "They laid then the beloved lord, the rings' dispenser, in the bosom of the ship, the famed one by the mast.",
+     "i": "Then they laid their beloved lord, the giver of rings, in the ship's hold, the famous man beside the mast.",
+     "n": "‘bēaga brytta’ — ‘dispenser of rings' — the standard kenning for a generous lord: gold arm-rings were broken and dealt out as reward. Variation again: beloved lord / ring-giver / famed one, all the same man."},
+    {"v": true, "ln": 36,
+     "t": "Þǣr wæs mādma fela\nof feorwegum frætwa gelǣded;",
+     "l": "There was many a treasure, adornments from far-ways, brought;",
+     "i": "Many treasures and ornaments from distant lands were brought there."},
+    {"v": true, "ln": 38,
+     "t": "ne hȳrde ic cȳmlīcor cēol gegyrwan\nhildewǣpnum ond heaðowǣdum,\nbillum ond byrnum;",
+     "l": "I have not heard of a keel more handsomely equipped with battle-weapons and war-weeds, with bills and byrnies;",
+     "i": "I have never heard of a ship more finely fitted out with weapons of war and battle-dress, with swords and mail-shirts.",
+     "n": "‘ne hȳrde ic’ — ‘I have not heard…': the poet cites oral tradition as his authority throughout the poem (‘I heard', ‘we have learned'). ‘heaðowǣd’ is ‘war-weed' — armor; the old sense of ‘weeds' = clothes survives in ‘widow's weeds'. A ‘byrne’ is a mail-shirt."},
+    {"v": true, "ln": 40,
+     "t": "him on bearme læg\nmādma mænigo, þā him mid scoldon\non flōdes ǣht feor gewītan.",
+     "l": "on his bosom lay a multitude of treasures, which with him must into the flood's possession travel far.",
+     "i": "On his breast lay a heap of treasures that were to journey far with him, into the keeping of the sea.",
+     "n": "‘on flōdes ǣht’ — ‘into the flood's possession': the sea takes legal ownership of the treasure; ‘ǣht’ comes from ‘āgan’ ‘to own' (cognate with ‘ought' and ‘owe')."},
+    {"v": true, "ln": 43,
+     "t": "Nalæs hī hine lǣssan lācum tēodan,\nþēodgestrēonum, þon þā dydon,\nþē hine æt frumsceafte forð onsendon\nǣnne ofer ȳðe umborwesende.",
+     "l": "Not at all with lesser gifts did they furnish him, with people-treasures, than those did who at his first-shaping sent him forth alone over the wave, being a child.",
+     "i": "They provided him with gifts no poorer, treasures of the people no less, than those had given who sent him forth at his beginning, a child alone on the waves.",
+     "n": "The gifts must match the mystery of his arrival: Scyld came as a foundling, alone in a boat. ‘þon’ is the manuscript's own form — most editors emend to ‘þon[ne]’ ‘than'; Klaeber, for once, keeps the manuscript. ‘umborwesende’ = ‘being an infant'."},
+    {"v": true, "ln": 47,
+     "t": "þā gȳt hīe him āsetton segen g(yl)denne\nhēah ofer hēafod, lēton holm beran,\ngēafon on gārsecg;",
+     "l": "then still they set for him a golden banner high over head, let the sea bear him, gave him to the ocean;",
+     "i": "And they set a golden banner high above his head, let the water take him, gave him to the open sea;",
+     "n": "‘g(yl)denne’ — the burned edge again: the manuscript has ‘g…denne’; the restoration is Kemble's. ‘gārsecg’ is an old and obscure word for the ocean — literally perhaps ‘spear-man'; why the sea bears that name, nobody knows."},
+    {"v": true, "ln": 49,
+     "t": "him wæs geōmor sefa,\nmurnende mōd.",
+     "l": "in them was a mournful spirit, a mourning mood.",
+     "i": "their hearts were grieving, their minds full of mourning.",
+     "n": "‘him’ here is plural — ‘in them': the mourners on the shore, not Scyld."},
+    {"v": true, "ln": 50,
+     "t": "Men ne cunnon\nsecgan tō sōðe, selerǣdende,\nhæleð under heofenum, hwā þǣm hlæste onfēng.",
+     "l": "Men cannot say for sooth — hall-counselors, heroes under the heavens — who received that load.",
+     "i": "No one can say for certain — no counselor in hall, no hero under heaven — who received that cargo.",
+     "n": "The prologue closes on deliberate mystery: Scyld returns to the unknown he came from, and no one — not the wisest — knows who received him. ‘selerǣdende’ (‘hall-counselors') is emended; the manuscript reads ‘selerædenne’. ‘tō sōðe’ — ‘in sooth' — survives almost unchanged."}
+  ],
+  "glossary": {
+    "hwæt": "hwæt — what! lo! (interjection calling for attention; also the pronoun 'what')",
+    "wē": "wē — we (1st person plural pronoun)",
+    "gār-dena": "Gār-Dene — of the Spear-Danes (genitive plural; gār 'spear' + Dene 'Danes')",
+    "in": "in — in, into, within (preposition)",
+    "gēardagum": "gēardagas — in days of yore (dative plural; gēar 'year' + dagas 'days')",
+    "þēodcyninga": "þēodcyning — of the people-kings (genitive plural; þēod 'people, nation' + cyning 'king')",
+    "þrym": "þrymm — glory, might, splendor (accusative singular)",
+    "gefrūnon": "gefrignan — (we) have heard of, learned by inquiry (1st plural preterite)",
+    "hū": "hū — how (adverb, conjunction)",
+    "ðā": "sē/þā — the, those (nominative plural of the demonstrative); as adverb: then",
+    "æþelingas": "æþeling — princes, nobles, athelings (nominative plural)",
+    "ellen": "ellen — courage, valor, mighty deeds (accusative singular)",
+    "fremedon": "fremman — did, performed (3rd plural preterite)",
+    "oft": "oft — often, time and again (adverb)",
+    "scyld": "Scyld — Scyld, mythical founder of the Danish royal house (nominative)",
+    "scēfing": "Scēfing — son of Scef (patronymic)",
+    "sceaþena": "sceaþa — of harmers, enemies (genitive plural)",
+    "þrēatum": "þrēat — from bands, troops (dative plural)",
+    "monegum": "monig — many (dative plural)",
+    "mǣgþum": "mǣgþ — from tribes, peoples (dative plural)",
+    "meodosetla": "meodosetl — of mead-seats, mead-benches (genitive plural, object of oftēah; medu 'mead' + setl 'seat')",
+    "oftēah": "oftēon — took away, deprived of (3rd singular preterite; takes a genitive object)",
+    "egsode": "egsian — terrified, frightened (3rd singular preterite)",
+    "eorlas": "eorl — warriors, nobles (accusative plural; the MS reads 'eorl' — the ending is Klaeber's emendation, hence the brackets)",
+    "syððan": "siþþan — after, since, from the time when (conjunction)",
+    "ǣrest": "ǣrest — first (superlative of ǣr 'before')",
+    "wearð": "weorðan — became, was (3rd singular preterite; auxiliary of the passive: 'was found')",
+    "fēasceaft": "fēasceaft — destitute, helpless, wretched (adjective)",
+    "funden": "findan — found (past participle)",
+    "hē": "hē — he",
+    "þæs": "þæt — for that, of that (genitive singular of the demonstrative: 'comfort for that')",
+    "frōfre": "frōfor — comfort, consolation, help (feminine; genitive/dative/accusative singular)",
+    "gebād": "gebīdan — experienced, lived to see (3rd singular preterite; takes the genitive)",
+    "wēox": "weaxan — grew, waxed (3rd singular preterite)",
+    "under": "under — under, beneath (preposition)",
+    "wolcnum": "wolcen — under the clouds, the skies (dative plural; cf. archaic English 'welkin')",
+    "weorðmyndum": "weorðmynd — in honors, marks of esteem (dative plural)",
+    "þāh": "þēon — throve, prospered (3rd singular preterite)",
+    "oð": "oð — until (with þæt: oð þæt 'until')",
+    "þæt": "þæt — that (conjunction; also neuter demonstrative 'that')",
+    "him": "hē — to him, or to them (dative singular or plural of hē)",
+    "ǣghwylc": "ǣghwylc — each, every one (pronoun)",
+    "ymbsittendra": "ymbsittend — of the around-sitters, neighboring peoples (genitive plural; present participle of ymbsittan 'to sit around')",
+    "ofer": "ofer — over, across (preposition)",
+    "hronrāde": "hronrād — whale-road = the sea (accusative singular; the poem's first kenning: hron 'whale' + rād 'road, riding')",
+    "hȳran": "hȳran — to obey, hearken to (infinitive; takes the dative)",
+    "scolde": "sculan — had to, was obliged to (3rd singular preterite)",
+    "gomban": "gombe — tribute (accusative singular; a rare, old word)",
+    "gyldan": "gyldan — to yield, pay (infinitive; cf. 'yield')",
+    "wæs": "wesan — was (3rd singular preterite)",
+    "gōd": "gōd — good (adjective)",
+    "cyning": "cyning — king (nominative singular)",
+    "ðǣm": "sē — to that one, to him (dative singular of the demonstrative)",
+    "eafera": "eafora — heir, son, offspring (nominative singular)",
+    "æfter": "æfter — after, afterward (adverb, preposition)",
+    "cenned": "cennan — born, begotten (past participle)",
+    "geong": "geong — young (adjective; in line 20 restored — the MS is burned, only '…uma' survives)",
+    "geardum": "geard — in the courts, dwellings (dative plural; geard 'yard, enclosure' — cf. middangeard 'middle-earth')",
+    "þone": "sē — whom, that (accusative singular masculine of the demonstrative, here relative)",
+    "god": "God — God (nominative)",
+    "sende": "sendan — sent (3rd singular preterite)",
+    "folce": "folc — to the folk, people (dative singular)",
+    "tō": "tō — to, as, for (preposition)",
+    "fyrenðearfe": "fyrenðearf — dire distress (accusative singular; fyren 'crime, torment' + ðearf 'need')",
+    "ongeat": "ongietan — perceived, understood, had seen (3rd singular preterite)",
+    "þē": "þe — which, that (relative particle; Klaeber prints þē, emended — the MS has only 'þ')",
+    "hīe": "hīe — they (nominative plural)",
+    "ǣr": "ǣr — before, previously (adverb; cf. archaic 'ere')",
+    "drugon": "drēogan — suffered, endured (3rd plural preterite; cf. Scots 'dree')",
+    "aldorlēase": "aldorlēas — lord-less, without a chief (aldor 'lord, elder' + -lēas '-less'; printed aldor(lē)ase — the letters in parentheses are restored from the burned MS)",
+    "lange": "lang — long (adjective/adverb; lange hwīle 'a long while')",
+    "hwīle": "hwīl — while, space of time (accusative singular)",
+    "līffrēâ": "līffrēa — Lord of life, God (nominative singular; līf 'life' + frēa 'lord'; the circumflex is Klaeber's mark for a contracted vowel)",
+    "wuldres": "wuldor — of glory (genitive singular)",
+    "wealdend": "wealdend — Wielder, Ruler (nominative singular; a title of God)",
+    "woroldāre": "woroldār — world-honor, worldly honor (accusative singular)",
+    "forgeaf": "forgiefan — gave, granted (3rd singular preterite)",
+    "bēowulf": "Bēowulf — Beowulf; here Scyld's son, the Danish king — not the poem's hero (nominative)",
+    "brēme": "brēme — famous, renowned (adjective)",
+    "blǣd": "blǣd — renown, glory; flourishing (nominative singular)",
+    "wīde": "wīde — widely, far (adverb)",
+    "sprang": "springan — sprang, spread (3rd singular preterite)",
+    "scyldes": "Scyld — of Scyld (genitive singular)",
+    "scedelandum": "Scedeland — in the Scede-lands, southern Scandinavia (dative plural; cf. Skåne, Scania)",
+    "swā": "swā — so, thus; as (adverb, conjunction)",
+    "sceal": "sculan — shall, must, ought by nature to (3rd singular present)",
+    "guma": "guma — man (nominative singular; poetic word; printed (geong g)uma — restored from the burned MS)",
+    "gōde": "gōd — good (here the noun: 'with good, by good action', dative singular)",
+    "gewyrcean": "gewyrcan — to bring about, achieve, earn (infinitive)",
+    "fromum": "from — splendid, bold, generous (dative plural adjective)",
+    "feohgiftum": "feohgift — with treasure-gifts (dative plural; feoh 'wealth, cattle' — cognate with 'fee' — + gift)",
+    "on": "on — on, in, into (preposition)",
+    "fæder": "fæder — father (here genitive: 'father's')",
+    "bearme": "bearm — in the bosom, lap (dative singular; in line 21 printed (bea)rme — restored from the burned MS)",
+    "hine": "hē — him (accusative singular)",
+    "ylde": "yldo — old age (dative singular; on ylde 'in old age')",
+    "eft": "eft — again, in turn, afterward (adverb)",
+    "gewunigen": "gewunian — may remain with, stand by (3rd plural present subjunctive)",
+    "wilgesīþas": "wilgesīþ — willing companions (nominative plural; willa 'goodwill, desire' + gesīþ 'companion')",
+    "þonne": "þonne — when, whenever; than (conjunction)",
+    "wīg": "wīg — war, battle (nominative singular)",
+    "cume": "cuman — may come (3rd singular present subjunctive)",
+    "lēode": "lēode — people, men (nominative plural)",
+    "gelǣsten": "gelǣstan — may stand by, serve, follow (3rd plural present subjunctive; cf. 'last')",
+    "lofdǣdum": "lofdǣd — by praise-deeds, praiseworthy deeds (dative plural; lof 'praise' + dǣd 'deed')",
+    "mǣgþa": "mǣgþ — of tribes, peoples (genitive plural)",
+    "gehwǣre": "gehwā — in each (dative singular feminine; mǣgþa gehwǣre 'in each of tribes')",
+    "man": "mann — man, one (nominative singular)",
+    "geþēôn": "geþēon — to thrive, prosper (infinitive; the circumflex is Klaeber's mark for a contracted vowel)",
+    "gewāt": "gewītan — departed, went (3rd singular preterite; him gewāt 'took himself off')",
+    "gescæphwīle": "gescæphwīl — the shaped hour, appointed time of death (dative singular; gesceap 'destiny, what is shaped' + hwīl 'time')",
+    "felahrōr": "felahrōr — very vigorous, still strong (adjective; fela 'much' + hrōr 'active, strong')",
+    "fēran": "fēran — to fare, journey (infinitive)",
+    "frēan": "frēa — of the Lord (genitive singular of frēa 'lord'; here God)",
+    "wǣre": "wǣr — keeping, protection; covenant (accusative singular)",
+    "hī": "hīe — they (nominative plural, variant spelling)",
+    "hyne": "hē — him (accusative singular, variant of hine)",
+    "ætbǣron": "ætberan — carried, bore (to a place) (3rd plural preterite)",
+    "brimes": "brim — of the sea, the surf (genitive singular)",
+    "faroðe": "faroð — to the current, the shore-water (dative singular)",
+    "swǣse": "swǣs — dear, beloved, own (nominative plural)",
+    "gesīþas": "gesīþ — companions, retainers (nominative plural)",
+    "selfa": "self — (he) himself (nominative singular, weak form)",
+    "bæd": "biddan — asked, bade (3rd singular preterite)",
+    "þenden": "þenden — while, as long as (conjunction; archaic)",
+    "wordum": "word — with words (dative plural)",
+    "wēold": "wealdan — wielded, ruled (3rd singular preterite; takes the dative)",
+    "wine": "wine — friend, friend-and-lord (nominative singular; wine Scyldinga 'friend of the Scyldings')",
+    "scyldinga": "Scyldingas — of the Scyldings, the descendants of Scyld = the Danes (genitive plural)",
+    "lēof": "lēof — dear, beloved (adjective; cf. archaic 'lief')",
+    "landfruma": "landfruma — land-chief, ruler of the land (nominative singular; land + fruma 'first one, chief')",
+    "āhte": "āgan — possessed, ruled (3rd singular preterite; cognate with 'ought', 'owe')",
+    "þǣr": "þǣr — there (adverb)",
+    "æt": "æt — at (preposition)",
+    "hȳðe": "hȳð — at the harbor, landing-place (dative singular; survives in place-names: Hythe, Rotherhithe)",
+    "stōd": "standan — stood (3rd singular preterite)",
+    "hringedstefna": "hringedstefna — the ring-prowed ship (nominative singular; hringed 'ringed, ring-adorned' + stefna 'prow')",
+    "īsig": "īsig — icy (adjective; a famous crux — 'shining', 'ready', and other meanings have been proposed; no one knows)",
+    "ond": "ond — and (the usual spelling of and in this MS)",
+    "ūtfūs": "ūtfūs — eager to set out (adjective; ūt 'out' + fūs 'eager, ready')",
+    "æþelinges": "æþeling — of the prince, atheling (genitive singular)",
+    "fær": "fær — vessel, craft (nominative singular; related to faran 'to fare, travel')",
+    "ālēdon": "ālecgan — laid (down) (3rd plural preterite)",
+    "þā": "þā — then (adverb); also: those, the (plural demonstrative); who, which (relative)",
+    "lēofne": "lēof — beloved (accusative singular masculine)",
+    "þēoden": "þēoden — lord, chief of a people (accusative singular; from þēod 'people')",
+    "bēaga": "bēag — of rings (genitive plural; gold arm-rings, the currency of reward)",
+    "bryttan": "brytta — dispenser, distributor (accusative singular; bēaga brytta 'giver of rings' = generous lord)",
+    "bearm": "bearm — bosom, lap; hold (accusative singular; on bearm scipes 'into the ship's bosom')",
+    "scipes": "scip — of the ship (genitive singular)",
+    "mǣrne": "mǣre — famous, glorious (accusative singular masculine)",
+    "be": "be — by, beside (preposition)",
+    "mæste": "mæst — by the mast (dative singular)",
+    "mādma": "māðum — of treasures (genitive plural; mādma fela 'many of treasures')",
+    "fela": "fela — many, much (indeclinable; takes the genitive)",
+    "of": "of — from, out of (preposition)",
+    "feorwegum": "feorweg — from far-ways, distant regions (dative plural; feor 'far' + weg 'way')",
+    "frætwa": "frætwe — of ornaments, trappings (genitive plural)",
+    "gelǣded": "gelǣdan — brought, led (past participle)",
+    "ne": "ne — not (negative particle)",
+    "hȳrde": "hȳran — heard (1st singular preterite; ne hȳrde ic 'I have not heard')",
+    "ic": "ic — I",
+    "cȳmlīcor": "cȳmlīce — more becomingly, more handsomely (comparative adverb)",
+    "cēol": "cēol — ship, keel (accusative singular)",
+    "gegyrwan": "gegyrwan — to equip, adorn, make ready (infinitive)",
+    "hildewǣpnum": "hildewǣpen — with battle-weapons (dative plural; hild 'battle' + wǣpen 'weapon')",
+    "heaðowǣdum": "heaðowǣd — with war-garments, armor (dative plural; heaðu 'war' + wǣd 'garment' — cf. 'widow's weeds')",
+    "billum": "bill — with swords (dative plural; an old word for sword)",
+    "byrnum": "byrne — with mail-shirts, byrnies (dative plural)",
+    "læg": "licgan — lay (3rd singular preterite)",
+    "mænigo": "menigu — multitude, host (nominative singular)",
+    "mid": "mid — with (preposition; here after its object: him mid 'with him')",
+    "scoldon": "sculan — had to, were destined to (3rd plural preterite)",
+    "flōdes": "flōd — of the flood, the sea (genitive singular)",
+    "ǣht": "ǣht — possession, keeping (accusative singular; from āgan 'to own')",
+    "feor": "feor — far (adverb)",
+    "gewītan": "gewītan — to depart, travel (infinitive)",
+    "nalæs": "nalæs — not at all, by no means (adverb; from ne + ealles)",
+    "lǣssan": "lǣssa — lesser, smaller (dative plural; comparative of lȳtel 'little')",
+    "lācum": "lāc — with gifts, offerings (dative plural)",
+    "tēodan": "tēon — furnished, provided, adorned (3rd plural preterite)",
+    "þēodgestrēonum": "þēodgestrēon — with people-treasures, treasures of a nation (dative plural; þēod 'people' + gestrēon 'treasure')",
+    "þon": "þon — than (the manuscript's own form, kept by Klaeber; most editors emend to þon[ne])",
+    "dydon": "dōn — did (3rd plural preterite)",
+    "frumsceafte": "frumsceaft — first creation, origin, beginning (dative singular; fruma 'first' + sceaft 'shaping')",
+    "forð": "forð — forth, onward (adverb)",
+    "onsendon": "onsendan — sent forth (3rd plural preterite)",
+    "ǣnne": "ān — one, alone (accusative singular masculine)",
+    "ȳðe": "ȳð — over the wave (accusative singular)",
+    "umborwesende": "umborwesende — being an infant (accusative singular; umbor 'infant' + wesende, present participle of wesan 'to be')",
+    "gȳt": "gȳt — yet, still, further (adverb; þā gȳt 'then still, moreover')",
+    "āsetton": "āsettan — set up, placed (3rd plural preterite)",
+    "segen": "segn — banner, standard (accusative singular; from Latin signum)",
+    "gyldenne": "gylden — golden (accusative singular masculine; printed g(yl)denne — restored from the burned MS)",
+    "hēah": "hēah — high (adjective)",
+    "hēafod": "hēafod — head (accusative singular)",
+    "lēton": "lǣtan — let, allowed (3rd plural preterite)",
+    "holm": "holm — the sea, the deep (accusative singular)",
+    "beran": "beran — to bear, carry (infinitive)",
+    "gēafon": "giefan — gave (3rd plural preterite)",
+    "gārsecg": "gārsecg — the ocean, the open sea (accusative singular; an obscure old word, literally perhaps 'spear-man')",
+    "geōmor": "geōmor — mournful, sad (adjective)",
+    "sefa": "sefa — mind, spirit, heart (nominative singular)",
+    "murnende": "murnan — mourning (present participle; cf. 'mourn')",
+    "mōd": "mōd — mind, heart, spirit (nominative singular; cf. 'mood')",
+    "men": "mann — men (nominative plural)",
+    "cunnon": "cunnan — know how to, are able (3rd plural present; cf. 'can')",
+    "secgan": "secgan — to say (infinitive)",
+    "sōðe": "sōð — truth (dative singular; tō sōðe 'in sooth, for a truth')",
+    "selerǣdende": "selerǣdend — hall-counselors (nominative plural; sele 'hall' + rǣdend 'counselor'; emended — the MS reads selerædenne)",
+    "hæleð": "hæleð — heroes, men (nominative plural)",
+    "heofenum": "heofon — under the heavens (dative plural)",
+    "hwā": "hwā — who (interrogative pronoun)",
+    "þǣm": "sē — that (dative singular: 'that cargo')",
+    "hlæste": "hlæst — load, cargo (dative singular; cf. German Last)",
+    "onfēng": "onfōn — received (3rd singular preterite; takes the dative)"
+  }
 }
 ];
 
@@ -1863,9 +2195,23 @@ function speak(txt, rate, onEnd){
 }
 
 /* ---------- rendering ---------- */
+const WORD_CLASS = 'A-Za-zÀ-ÖØ-öø-ÿ\\u0100-\\u024FΆ-ϿЀ-ӿ';
+const WORD_RE = new RegExp('[' + WORD_CLASS + ']+(?:[-\\[\\]()][' + WORD_CLASS + ']+)*', 'g');
+// glossary key for a token: editorial brackets/parens stripped, lowercased (eorl[as] → eorlas)
+function wordKey(w){ return w.replace(/[\[\]()]/g, '').toLowerCase(); }
+
+/* plain-letters mode (app-wide): þ/ð → th, æ → ae, length marks hidden */
+let plainMode = false;
+try { plainMode = localStorage.getItem('plainLetters') === '1'; } catch(e) {}
+function plainLetters(s){
+  s = s.normalize('NFD').replace(/[̄̂]/g, '').normalize('NFC');
+  return s.replace(/þ|ð/g, 'th').replace(/Þ|Ð/g, 'Th').replace(/æ/g, 'ae').replace(/Æ/g, 'Ae');
+}
+
 function tokenize(text){
-  // wrap letter-sequences in clickable spans
-  return text.replace(/([A-Za-zÀ-ÖØ-öø-ÿĀ-žΆ-ϿЀ-ӿ]+)/g, '<span class="w">$1</span>');
+  // wrap letter-sequences (incl. hyphenated words and Klaeber-style eorl[as], aldor(lē)ase) in clickable spans
+  return text.replace(WORD_RE, m =>
+    '<span class="w" data-w="' + wordKey(m) + '">' + (plainMode ? plainLetters(m) : m) + '</span>');
 }
 
 function render(){
@@ -1873,6 +2219,11 @@ function render(){
   const box = $('text'); box.innerHTML = '';
   $('stTitle').textContent = story.title + (story.titleEn ? ' · ' + story.titleEn : '');
   $('stMeta').textContent = (story.language || '') + ' — ' + (story.source || '');
+  const ab = $('stAbout');
+  if (ab) { ab.textContent = story.about || ''; ab.style.display = story.about ? '' : 'none'; }
+  const tts = !!story.langCode;
+  $('rateWrap').style.display = tts ? '' : 'none';
+  document.body.classList.toggle('allverse', story.sentences.every(x => x.v));
   story.sentences.forEach((s, i) => {
     const div = document.createElement('div');
     div.className = 'sent' + (s.p ? ' parastart' : '') + (s.v ? ' verse' : '');
@@ -1880,7 +2231,12 @@ function render(){
 
     const de = document.createElement('div');
     de.className = 'de';
-    de.innerHTML = tokenize(s.t);
+    let lnChip = '';
+    if (s.ln) {
+      const end = s.ln + (s.t.match(/\n/g) || []).length;
+      lnChip = '<span class="lineno">' + (end > s.ln ? s.ln + '–' + end : s.ln) + '</span>';
+    }
+    de.innerHTML = lnChip + tokenize(s.t);
     div.appendChild(de);
 
     const en = document.createElement('div');
@@ -1899,8 +2255,8 @@ function render(){
     const tb = document.createElement('div');
     tb.className = 'toolbar';
     tb.innerHTML =
-      '<button data-a="listen">' + (speakingIdx === i ? '⏹ Stop' : '🔊 Listen') + '</button>' +
-      '<button data-a="speed">' + (slowPref[i] ? '🐇 Regular' : '🐢 Slow') + '</button>' +
+      (tts ? '<button data-a="listen">' + (speakingIdx === i ? '⏹ Stop' : '🔊 Listen') + '</button>' +
+             '<button data-a="speed">' + (slowPref[i] ? '🐇 Regular' : '🐢 Slow') + '</button>' : '') +
       '<button data-a="try">✍️ Try</button>' +
       '<button data-a="ask">🎓 Ask</button>' +
       (mode === 'de' ? '<button data-a="en">EN</button>' : '') +
@@ -1937,6 +2293,7 @@ function setSpeakingIdx(i){
   if (i >= 0) { const b = sentBtn(i, 'listen'); if (b) b.textContent = '⏹ Stop'; }
 }
 function playSent(i){
+  if (!story.langCode) return;   // no TTS convention for this language
   const s = story.sentences[i];
   const started = speak(s.t, slowPref[i] ? 0.55 : undefined,
     () => { if (speakingIdx === i) setSpeakingIdx(-1); });
@@ -2125,11 +2482,12 @@ function showPop(wEl){
   document.querySelectorAll('.w.wsel').forEach(e => e.classList.remove('wsel'));
   wEl.classList.add('wsel');
   popWord = wEl.textContent;
-  const key = popWord.toLowerCase();
+  const key = wEl.dataset.w || popWord.toLowerCase();
   const gloss = story.glossary && story.glossary[key];
   $('popW').textContent = popWord;
   $('popG').innerHTML = gloss ? escapeHtml(gloss)
     : '<span class="pmiss">Not in this story’s glossary — ask the 🎓 tutor.</span>';
+  $('popSay').style.display = $('popSlow').style.display = story.langCode ? '' : 'none';
   const pop = $('pop');
   pop.style.display = 'block';
   const r = wEl.getBoundingClientRect();
@@ -2194,8 +2552,8 @@ $('keyClear').onclick = () => { try { localStorage.removeItem('anthKey'); } catc
 function sentContext(i){
   const s = story.sentences[i];
   const seen = {}, lines = [];
-  (s.t.match(/[A-Za-zÀ-ÖØ-öø-ÿĀ-žΆ-ϿЀ-ӿ]+/g) || []).forEach(w => {
-    const k = w.toLowerCase();
+  (s.t.match(WORD_RE) || []).forEach(w => {
+    const k = wordKey(w);
     if (!seen[k] && story.glossary && story.glossary[k]) { seen[k] = 1; lines.push(k + ': ' + story.glossary[k]); }
   });
   return 'Language: ' + (story.language || '') +
@@ -2349,69 +2707,11 @@ function setMode(m){
 $('modeDE').onclick = () => setMode('de');
 $('modeSBS').onclick = () => setMode('sbs');
 
-function fillStorySel(){
-  const sel = $('storySel'); sel.innerHTML = '';
-  STORIES.forEach((s, i) => {
-    const o = document.createElement('option');
-    o.value = i; o.textContent = s.title + ' (' + (s.language || '') + ')';
-    sel.appendChild(o);
-  });
-}
-$('storySel').onchange = () => loadStory(STORIES[+$('storySel').value]);
-
-function loadStory(s){
-  stopSpeech();
-  speakingIdx = -1;
-  slowPref = {};
-  story = s;
-  hidePop();
+function setPlain(on){
+  plainMode = on;
+  $('plainBtn').classList.toggle('active', on);
+  try { localStorage.setItem('plainLetters', on ? '1' : '0'); } catch(e) {}
   render();
-  let pos = 0;
-  try { pos = parseInt(localStorage.getItem('pos:' + s.id)) || 0; } catch(e) {}
-  focusSent(Math.min(pos, s.sentences.length - 1), pos > 0);
-  try { localStorage.setItem('story', s.id); } catch(e) {}
+  if (focusedIdx >= 0) focusSent(focusedIdx, false);
 }
-
-$('fileIn').addEventListener('change', (ev) => {
-  const f = ev.target.files[0]; if (!f) return;
-  const rd = new FileReader();
-  rd.onload = () => {
-    try {
-      const s = JSON.parse(rd.result);
-      if (!s.sentences || !s.title) throw new Error('missing fields');
-      const existing = STORIES.findIndex(x => x.id === s.id);
-      if (existing >= 0) STORIES[existing] = s; else STORIES.push(s);
-      fillStorySel();
-      $('storySel').value = STORIES.findIndex(x => x.id === s.id);
-      loadStory(s);
-    } catch(e) { alert('Could not read story file: ' + e.message); }
-  };
-  rd.readAsText(f);
-  ev.target.value = '';
-});
-
-/* ---------- init ---------- */
-(function init(){
-  const hint = $('hintBox');
-  if (hint) {
-    try { const s = localStorage.getItem('hintOpen'); if (s !== null) hint.open = (s === '1'); } catch(e) {}
-    hint.addEventListener('toggle', () => { try { localStorage.setItem('hintOpen', hint.open ? '1' : '0'); } catch(e) {} });
-  }
-  fillStorySel();
-  let m = 'de';
-  try { m = localStorage.getItem('mode') || 'de'; } catch(e) {}
-  let last = null;
-  try { last = localStorage.getItem('story'); } catch(e) {}
-  const idx = Math.max(0, STORIES.findIndex(s => s.id === last));
-  if (STORIES.length) {
-    $('storySel').value = idx;
-    setMode(m);
-    loadStory(STORIES[idx]);
-  } else {
-    $('stTitle').textContent = 'No stories loaded';
-    $('stMeta').textContent = 'Use “＋ Load story” to open a story .json file.';
-  }
-})();
-</script>
-</body>
-</html>
+$('plainBtn').oncl

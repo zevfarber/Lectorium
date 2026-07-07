@@ -4891,4 +4891,26 @@ $('fileIn').addEventListener('change', (ev) => {
 (function init(){
   const hint = $('hintBox');
   if (hint) {
-    try { const s = localStorage.getItem('hintOpen'); if (s !==
+    try { const s = localStorage.getItem('hintOpen'); if (s !== null) hint.open = (s === '1'); } catch(e) {}
+    hint.addEventListener('toggle', () => { try { localStorage.setItem('hintOpen', hint.open ? '1' : '0'); } catch(e) {} });
+  }
+  $('plainBtn').classList.toggle('active', plainMode);
+  applyTr();
+  fillStorySel();
+  let m = 'de';
+  try { m = localStorage.getItem('mode') || 'de'; } catch(e) {}
+  let last = null;
+  try { last = localStorage.getItem('story'); } catch(e) {}
+  const idx = Math.max(0, STORIES.findIndex(s => s.id === last));
+  if (STORIES.length) {
+    $('storySel').value = idx;
+    setMode(m);
+    loadStory(STORIES[idx]);
+  } else {
+    $('stTitle').textContent = 'No stories loaded';
+    $('stMeta').textContent = 'Use “＋ Load story” to open a story .json file.';
+  }
+})();
+</script>
+</body>
+</html>

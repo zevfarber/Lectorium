@@ -7,8 +7,8 @@
   "script": "Egyptian hieroglyphs",
   "dir": "ltr",
   "provisional": true,
-  "source": "Papyrus of Ani (British Museum EA 10470), Book of the Dead Spell 125B — the 42 declarations of innocence addressed one by one to the assessor gods. Text from E. A. W. Budge, The Papyrus of Ani (1895), interlinear, Plates XXXI-XXXII (pp. 198-203); Budge's transliteration and English gloss consulted as a meaning-check. Fresh transliteration in the Leiden Unified convention; translation made fresh from the original. Shown left-to-right; the papyrus runs right-to-left. langCode null (no TTS). PROVISIONAL DRAFT: declarations 1-6 carry a first hieroglyph transcription; 7-42 show transliteration + English with glyphs pending, added and verified against the plate in batches; a few god/place readings are still to confirm (noted in those lines).",
-  "about": "Spell 125B, the famous 'Negative Confession': the dead declares innocence before 42 assessor gods, one at a time — 'Hail, [god], who comes forth from [place]: I have not [sin].' All 42 are here. Declarations 1-6 carry their hieroglyphs (a first transcription from Budge's plate); 7-42 currently show transliteration and English only, with 'glyphs pending' — the hieroglyphs are being added and checked against the plate in batches. A few god/place readings are still to confirm (noted). Translations are fresh from the original.",
+  "source": "Papyrus of Ani (British Museum EA 10470), Book of the Dead Spell 125B — the 42 declarations of innocence addressed one by one to the assessor gods. Text from E. A. W. Budge, The Papyrus of Ani (1895), interlinear, Plates XXXI-XXXII (pp. 198-203); Budge's transliteration and English gloss consulted as a meaning-check. Fresh transliteration in the Leiden Unified convention; translation made fresh from the original. Shown left-to-right; the papyrus runs right-to-left. langCode null (no TTS). PROVISIONAL DRAFT: all 42 now carry a first hieroglyph transcription that still needs sign-by-sign verification, especially the obscure proper names.",
+  "about": "Spell 125B, the famous 'Negative Confession': the dead declares innocence before 42 assessor gods, one at a time — 'Hail, [god], who comes forth from [place]: I have not [sin].' All 42 declarations are here, each with hieroglyphs, transliteration, and translation. This is a provisional draft: the hieroglyphs — especially the obscure god- and place-names — are a first transcription from Budge's 1895 plates and still want checking sign by sign. Translations are fresh from the original.",
   "sentences": [
     {
       "p": true,
@@ -222,84 +222,84 @@
       "n": "nb-ḥrw — 'Lord of faces'; from Netchefet. The sin: I have not judged hastily."
     },
     {
-      "t": "",
-      "tr": "i srḫi pr m wtnt n sḫꜣ ·i",
-      "l": "hail · Serekhi · coming-forth · from · Wetenet · not · pry-into · I",
-      "i": "Hail, Serekhi, who comes forth from Wetenet: I have not pried into matters.",
-      "n": "srḫi — 'Serekhi'; from Wetenet. The sin: I have not pried into matters. (God/place reading still to confirm against the plate.)"
+      "t": "𓇋 𓋴𓐍𓂋𓇋𓅱𓀭 𓉐𓂻 𓅓 𓅱𓏏𓈖𓊖 𓂜 𓋴𓅓𓏏𓅓𓏏𓀁 𓀀",
+      "tr": "i sḫriw pr m wtn n smtmt ·i",
+      "l": "hail · Sekheriu · coming-forth · from · Uten · not · eavesdrop · I",
+      "i": "Hail, Sekheriu, who comes forth from Uten: I have not been an eavesdropper.",
+      "n": "sḫriw — Sekheriu; comes forth from Uten (wtn). smtmt = 'to eavesdrop, pry into others' affairs'."
     },
     {
-      "t": "",
-      "tr": "i nb-ꜣbwi pr m sꜣwti n wšb ·i",
-      "l": "hail · Lord of horns · coming-forth · from · Sauti · not · multiply-words · I",
-      "i": "Hail, Lord of horns, who comes forth from Sauti: I have not multiplied words overmuch.",
-      "n": "nb-ꜣbwi — 'Lord of horns'; from Sauti. The sin: I have not multiplied words overmuch. (God/place reading still to confirm against the plate.)"
+      "t": "𓇋 𓎟𓄽𓄽 𓉐𓂻 𓅓 𓊃𓄿𓅱𓏏𓊖 𓂜 𓂝𓈙𓊤𓀁 𓀀",
+      "tr": "i nb-ꜥbwi pr m sꜣwti n ꜥš-ḫrw ·i",
+      "l": "hail · Lord-of-two-horns · coming-forth · from · Sais · not · be-loud-of-voice · I",
+      "i": "Hail, Lord-of-two-horns, who comes forth from Sais: I have not multiplied my words.",
+      "n": "nb-ꜥbwi — 'Lord of two horns' (Budge: Neb-abui); from Sais (sꜣwti). ꜥš-ḫrw, literally 'loud of voice' — to talk overmuch."
     },
     {
-      "t": "",
+      "t": "𓇋 𓄤𓏏𓅓𓀭 𓉐𓂻 𓅓 𓉗𓂓𓊪𓏏𓎛 𓂜 𓁹 𓀀 𓃀𓇋𓈖𓅪",
       "tr": "i nfr-tm pr m ḥwt-kꜣ-ptḥ n ir ·i bin",
       "l": "hail · Nefertem · coming-forth · from · Memphis · not · do · I · evil",
       "i": "Hail, Nefertem, who comes forth from Memphis: I have not done evil.",
       "n": "nfr-tm — 'Nefertem'; from Memphis. The sin: I have not done evil."
     },
     {
-      "t": "",
+      "t": "𓇋 𓏏𓅓𓀭𓇳 𓉐𓂻 𓅓 𓊽𓅱𓊖 𓂜 𓋴𓎛𓅱𓂋𓀁 𓀀 𓇓𓏏𓈖",
       "tr": "i tm-m-trw pr m ḏdw n sḥwr ·i nswt",
       "l": "hail · Tem in his seasons · coming-forth · from · Busiris · not · curse · I · the king",
       "i": "Hail, Tem in his seasons, who comes forth from Busiris: I have not cursed the king.",
       "n": "tm-m-trw — 'Tem in his seasons'; from Busiris. The sin: I have not cursed the king."
     },
     {
-      "t": "",
+      "t": "𓇋 𓁹𓅓𓄣𓆑 𓉐𓂻 𓅓 𓏏𓃀𓅱𓊖 𓂜 𓂋𓎛𓈖𓈗 𓀀 𓈗",
       "tr": "i iri-m-ib-f pr m tbw n rḥn ·i mw",
       "l": "hail · Working in his heart · coming-forth · from · Tebu · not · foul · I · water",
       "i": "Hail, Working in his heart, who comes forth from Tebu: I have not fouled water.",
       "n": "iri-m-ib-f — 'Working in his heart'; from Tebu. The sin: I have not fouled water."
     },
     {
-      "t": "",
+      "t": "𓇋 𓐖𓎛𓇋𓀭 𓉐𓂻 𓅓 𓏌𓅱𓈗 𓂜 𓋴𓈎𓄿𓂝 𓀀 𓊤",
       "tr": "i ꜥḥi pr m nw n sqꜣ ·i ḫrw",
       "l": "hail · Sistrum bearer · coming-forth · from · Nu · not · make-loud · I · voice",
       "i": "Hail, Sistrum bearer, who comes forth from Nu: I have not spoken arrogantly (raised my voice).",
       "n": "ꜥḥi — 'Sistrum bearer'; from Nu. The sin: I have not spoken arrogantly (raised my voice)."
     },
     {
-      "t": "",
+      "t": "𓇋 𓎗𓂋𓐍𓇋𓏏𓏥 𓉐𓂻 𓅓 𓊃𓄿𓅱𓊖 𓂜 𓋴𓎛𓅱𓂋𓀁 𓀀 𓊹",
       "tr": "i wḏ-rḫyt pr m sꜣw n sḥwr ·i nṯr",
       "l": "hail · Provider of mankind · coming-forth · from · Sais · not · curse · I · the god",
       "i": "Hail, Provider of mankind, who comes forth from Sais: I have not cursed the god.",
-      "n": "wḏ-rḫyt — 'Provider of mankind'; from Sais. The sin: I have not cursed the god. (God/place reading still to confirm against the plate.)"
+      "n": "wḏ-rḫyt — 'Commander of mankind' (Budge: Uatch-rekhit); from Sais (sꜣw). The sin: I have not cursed God (sḥwr nṯr)."
     },
     {
-      "t": "",
-      "tr": "i nḫb-nfrt pr m ḏdw n ir ·i ꜥꜣt",
-      "l": "hail · Nekheb nefret · coming-forth · from · Busiris · not · act · I · arrogance",
-      "i": "Hail, Nekheb nefret, who comes forth from Busiris: I have not acted with arrogance.",
-      "n": "nḫb-nfrt — 'Nekheb nefret'; from Busiris. The sin: I have not acted with arrogance. (God/place reading still to confirm against the plate.)"
+      "t": "𓇋 𓈖𓎛𓃀𓂓𓀭 𓉐𓂻 𓅓 𓏏𓊪𓎛𓏏𓉐𓆑 𓂜 𓁹 𓀀 𓊃𓄿𓈎𓂡",
+      "tr": "i nḥb-kꜣ pr m tpḥt-f n ir ·i sꜣq",
+      "l": "hail · Neheb-ka · coming-forth · from · his cavern · not · commit · I · theft",
+      "i": "Hail, Neheb-ka, who comes forth from his cavern: I have not committed theft.",
+      "n": "nḥb-kꜣ — Neheb-ka; from his cavern (tpḥt-f). The sign is damaged; Budge reads the sin as robbery/theft (sꜣq), with a query."
     },
     {
-      "t": "",
-      "tr": "i ḥpi pr m tꜣ-mri n ḥḏ ·i pꜣwt-nṯrw",
-      "l": "hail · Hepi · coming-forth · from · Egypt · not · defraud · I · the gods' cakes",
-      "i": "Hail, Hepi, who comes forth from Egypt: I have not defrauded the gods of their cake-offerings.",
-      "n": "ḥpi — 'Hepi'; from Egypt. The sin: I have not defrauded the gods of their cake-offerings. (God/place reading still to confirm against the plate.)"
+      "t": "𓇋 𓈖𓎛𓃀𓄤𓏏𓀭 𓉐𓂻 𓅓 𓏏𓊪𓎛𓏏𓉐𓆑 𓂜 𓎛𓆓𓏏 𓀀 𓊪𓄿𓅱𓏏𓏒𓊹𓊹𓊹",
+      "tr": "i nḥb-nfrt pr m tpḥt-f n ḥḏ ·i pꜣwt-nṯrw",
+      "l": "hail · Neheb-nefert · coming-forth · from · his cavern · not · defraud · I · gods'-cakes",
+      "i": "Hail, Neheb-nefert, who comes forth from his cavern: I have not defrauded the gods of their cake-offerings.",
+      "n": "nḥb-nfrt — Neheb-nefert (paired with Neheb-ka just before); from his cavern (tpḥt-f). ḥḏ pꜣwt-nṯrw = to defraud the gods of their pat-cakes (offering-bread)."
     },
     {
-      "t": "",
+      "t": "𓇋 𓋴𓐍𓂋𓏏𓁶 𓉐𓂻 𓅓 𓎡𓂋𓏏𓉐𓆑 𓂜 𓈖𓎛𓅓𓂡 𓀀 𓐍𓈖𓆑𓅱𓏒",
       "tr": "i sšr-tp pr m krt-f n nḥm ·i ḫnfw",
       "l": "hail · Arranger of the head · coming-forth · from · his shrine · not · carry-away · I · cake offerings",
       "i": "Hail, Arranger of the head, who comes forth from his shrine: I have not stolen the khenfu-cakes of the blessed dead.",
       "n": "sšr-tp — 'Arranger of the head'; from his shrine. The sin: I have not stolen the khenfu-cakes of the blessed dead."
     },
     {
-      "t": "",
+      "t": "𓇋 𓇋𓈖𓂝𓆑 𓉐𓂻 𓅓 𓐙𓐙𓏏𓏭𓊖 𓂜 𓈖𓎛𓅓𓂡 𓀀 𓂝𓈎𓅱𓏒𓐍𓈖𓀔",
       "tr": "i in-ꜥ-f pr m mꜣꜥti n nḥm ·i ꜥqw-nḫn",
       "l": "hail · Bringer of his arm · coming-forth · from · the twin city of Maat · not · snatch · I · a child's food",
       "i": "Hail, Bringer of his arm, who comes forth from the twin city of Maat: I have not snatched away the food of children.",
       "n": "in-ꜥ-f — 'Bringer of his arm'; from the twin city of Maat. The sin: I have not snatched away the food of children."
     },
     {
-      "t": "",
+      "t": "𓇋 𓎛𓆓𓅱𓃀𓎛 𓉐𓂻 𓅓 𓇾𓈙𓈗𓊖 𓂜 𓋴𓐍𓏏𓂡 𓀀 𓊹𓊖𓆑",
       "tr": "i ḥḏ-ꜥbḥw pr m tꜣ-š n sḫt ·i nṯr-niwt-f",
       "l": "hail · White teeth · coming-forth · from · the Lake · not · blaspheme · I · the god of his town",
       "i": "Hail, White teeth, who comes forth from the Lake: I have not blasphemed the god of my city.",
@@ -453,6 +453,14 @@
     "tꜣtꜣ": "tꜣtꜣ — to pollute, defile (oneself)",
     "ḥr-wr": "ḥr-wr — 'Chief of the mighty' (Budge: Her-uru), the 23rd assessor god",
     "ꜣmmt": "ꜣmmt — Amemt, the place the 23rd god comes forth from",
-    "hrw": "hrw — terror, dread"
+    "hrw": "hrw — terror, dread",
+    "sḫriw": "sḫriw — Sekheriu, the 31st assessor god",
+    "wtn": "wtn — Uten, the place the 31st god comes forth from",
+    "smtmt": "smtmt — to eavesdrop, pry into",
+    "nb-ꜥbwi": "nb-ꜥbwi — 'Lord of two horns', the 32nd assessor god (Budge: Neb-abui)",
+    "ꜥš-ḫrw": "ꜥš-ḫrw — 'loud of voice'; to multiply one's words, talk overmuch",
+    "nḥb-kꜣ": "nḥb-kꜣ — Neheb-ka, the 38th assessor god",
+    "sꜣq": "sꜣq — robbery, theft (Budge reads the damaged sin here with a query)",
+    "nḥb-nfrt": "nḥb-nfrt — Neheb-nefert, the 39th assessor god"
   }
 }

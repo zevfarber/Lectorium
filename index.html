@@ -6,6 +6,7 @@
 <title>Lectorium</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Egyptian+Hieroglyphs&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg: #faf7f2;
@@ -25,13 +26,13 @@
   * { box-sizing: border-box; }
   body {
     margin: 0; background: var(--bg); color: var(--ink);
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: Georgia, 'Times New Roman', 'Noto Serif', serif;
   }
   header {
     position: sticky; top: 0; z-index: 20;
     background: var(--panel); border-bottom: 1px solid var(--border);
     padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
-    font-family: system-ui, -apple-system, sans-serif; font-size: 14px;
+    font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: 14px;
   }
   header .title { font-weight: 700; font-size: 15px; margin-right: 6px; }
   select, button, label.filebtn {
@@ -44,11 +45,11 @@
   #rateWrap { display: flex; align-items: center; gap: 6px; color: var(--muted); }
   #rate { width: 90px; }
   main { max-width: 880px; margin: 0 auto; padding: 24px 20px 45vh; }
-  h1.storyTitle { font-size: 1.7rem; margin: 8px 0 2px; font-family: Georgia, 'Times New Roman', system-ui, serif; }
+  h1.storyTitle { font-size: 1.7rem; margin: 8px 0 2px; font-family: Georgia, 'Times New Roman', system-ui, 'Noto Serif', serif; }
   .storyOrig { display: block; font-size: 1rem; font-weight: normal; color: var(--muted); margin-top: 3px;
-    font-family: Georgia, 'Times New Roman', system-ui, serif; }
-  .storyMeta { color: var(--muted); font-size: .85rem; font-family: system-ui, sans-serif; margin-bottom: 24px; }
-  .hint { color: var(--muted); font-size: .82rem; font-family: system-ui, sans-serif;
+    font-family: Georgia, 'Times New Roman', system-ui, 'Noto Serif', serif; }
+  .storyMeta { color: var(--muted); font-size: .85rem; font-family: system-ui, 'Noto Sans', sans-serif; margin-bottom: 24px; }
+  .hint { color: var(--muted); font-size: .82rem; font-family: system-ui, 'Noto Sans', sans-serif;
     background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; margin-bottom: 26px; line-height: 1.5; }
   .hint kbd { background: var(--accent-soft); border-radius: 4px; padding: 0 5px; font-family: inherit; }
   details.hint { padding: 8px 14px; }
@@ -64,7 +65,7 @@
   .sent.focused { background: var(--focus-bg); box-shadow: 0 0 0 1px var(--border); }
   .sent.verse .de { font-style: italic; padding-left: 1.5em; }
   body.allverse .sent.verse .de { font-style: normal; padding-left: 0; }
-  .lineno { font-family: system-ui, -apple-system, sans-serif; font-size: .68rem; color: var(--muted);
+  .lineno { font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: .68rem; color: var(--muted);
     vertical-align: super; margin-right: 10px; user-select: none; letter-spacing: .03em; }
   .de { font-size: 1.12rem; white-space: pre-line; }
   .de .w { border-radius: 4px; }
@@ -73,13 +74,13 @@
 
   .en { color: var(--en-ink); font-size: .98rem; margin-top: 5px; white-space: pre-line; display: none; }
   .en.idm { color: var(--idiom-ink); }
-  .en .lbl { font-family: system-ui, sans-serif; font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; opacity: .65; margin-right: 6px; }
+  .en .lbl { font-family: system-ui, 'Noto Sans', sans-serif; font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; opacity: .65; margin-right: 6px; }
   .showEN .en { display: block; }
   .note { display: none; background: var(--note-bg); border: 1px solid var(--note-border); border-radius: 8px;
     padding: 8px 12px; margin-top: 7px; font-size: .9rem; line-height: 1.55; color: #6b5d33; }
   .note.open { display: block; }
 
-  .toolbar { display: none; gap: 6px; margin-top: 8px; font-family: system-ui, sans-serif; flex-wrap: wrap; }
+  .toolbar { display: none; gap: 6px; margin-top: 8px; font-family: system-ui, 'Noto Sans', sans-serif; flex-wrap: wrap; }
   .sent.focused .toolbar { display: flex; }
   .toolbar button { font-size: .8rem; padding: 4px 10px; border-radius: 999px; }
 
@@ -95,7 +96,7 @@
   }
 
   /* try-first mode */
-  .tryBox { margin-top: 8px; font-family: system-ui, sans-serif; }
+  .tryBox { margin-top: 8px; font-family: system-ui, 'Noto Sans', sans-serif; }
   .tryBox textarea {
     width: 100%; font: inherit; font-size: .95rem; padding: 8px 10px;
     border: 1px solid var(--border); border-radius: 8px; background: var(--panel);
@@ -114,7 +115,7 @@
   body.sbs .sent .tryBox { grid-column: 1 / -1; }
 
   /* in-app tutor */
-  #tutorSetup { display: none; font-family: system-ui, sans-serif; font-size: .85rem;
+  #tutorSetup { display: none; font-family: system-ui, 'Noto Sans', sans-serif; font-size: .85rem;
     background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
     padding: 10px 14px; margin-bottom: 16px; line-height: 1.6; }
   #tutorSetup.open { display: block; }
@@ -122,7 +123,7 @@
     border: 1px solid var(--border); border-radius: 8px; }
   #tutorSetup button { font-size: .8rem; padding: 4px 10px; border-radius: 999px; margin-right: 6px; }
   #tutorSetup .dim { color: var(--muted); margin-top: 6px; }
-  .askBox { margin-top: 8px; font-family: system-ui, sans-serif; }
+  .askBox { margin-top: 8px; font-family: system-ui, 'Noto Sans', sans-serif; }
   .askMsg { border-radius: 8px; padding: 7px 10px; margin: 6px 0; white-space: pre-wrap;
     font-size: .92rem; line-height: 1.55; }
   .askMsg.q { background: var(--accent-soft); }
@@ -133,8 +134,8 @@
     border: 1px solid var(--border); border-radius: 8px; background: var(--panel); color: var(--ink); }
   .askRow input:focus { outline: none; border-color: var(--accent); }
   .askRow button { font-size: .8rem; padding: 4px 10px; border-radius: 999px; }
-  .askCost { color: var(--muted); font-size: .72rem; font-family: system-ui, sans-serif; margin-top: 4px; }
-  .chkRes { margin-top: 8px; font-size: .92rem; font-family: system-ui, sans-serif; line-height: 1.55; }
+  .askCost { color: var(--muted); font-size: .72rem; font-family: system-ui, 'Noto Sans', sans-serif; margin-top: 4px; }
+  .chkRes { margin-top: 8px; font-size: .92rem; font-family: system-ui, 'Noto Sans', sans-serif; line-height: 1.55; }
   .chkRes .verdict { font-weight: 600; }
   .chkErr { background: #fdf1ec; border: 1px solid #ecd0c0; border-radius: 8px; padding: 6px 10px; margin: 5px 0; }
   .chkErr q { font-style: italic; }
@@ -147,34 +148,34 @@
     position: fixed; z-index: 50; max-width: 340px; display: none;
     background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
     box-shadow: 0 8px 30px rgba(60,45,30,.18); padding: 12px 14px;
-    font-family: system-ui, sans-serif; font-size: .9rem; line-height: 1.5;
+    font-family: system-ui, 'Noto Sans', sans-serif; font-size: .9rem; line-height: 1.5;
   }
-  #pop .pw { font-family: Georgia, serif; font-size: 1.15rem; font-weight: 700; }
+  #pop .pw { font-family: Georgia, 'Noto Serif', serif; font-size: 1.15rem; font-weight: 700; }
   #pop .pg { margin: 6px 0 10px; color: var(--ink); }
   #pop .pbtns { display: flex; gap: 6px; }
   #pop .pbtns button { font-size: .8rem; padding: 4px 10px; border-radius: 999px; }
   #pop .pclose { position: absolute; top: 6px; right: 10px; border: none; background: none; color: var(--muted); font-size: 1rem; padding: 2px 6px; }
   #pop .pmiss { color: var(--muted); font-style: italic; }
-  #popW { font-family: 'Noto Sans Egyptian Hieroglyphs', Georgia, serif; }
+  #popW { font-family: 'Noto Sans Egyptian Hieroglyphs', Georgia, 'Noto Serif', serif; }
   /* Egyptian word-stack reading layer: glyph over transliteration */
   .de.stacks { white-space: normal; display: flex; flex-wrap: wrap; align-items: flex-end; gap: 5px 9px; }
   .stack { display: inline-flex; flex-direction: column; align-items: center; gap: 2px; padding: 3px 5px; border-radius: 6px; cursor: pointer; }
   .stack:hover { background: var(--accent-soft); }
   .stack.wsel { background: var(--accent); }
   .stack.wsel .gl, .stack.wsel .tr { color: #fff; }
-  .gl { font-family: 'Noto Sans Egyptian Hieroglyphs', Georgia, serif; font-size: 1.95rem; line-height: 1.05; }
-  .tr { font-family: system-ui, -apple-system, sans-serif; font-size: .72rem; color: var(--muted); letter-spacing: .02em; }
+  .gl { font-family: 'Noto Sans Egyptian Hieroglyphs', Georgia, 'Noto Serif', serif; font-size: 1.95rem; line-height: 1.05; }
+  .tr { font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: .72rem; color: var(--muted); letter-spacing: .02em; }
   body.hidetr .tr { display: none; }
   .stack.pend { align-items: center; }
-  .trp { font-family: system-ui, -apple-system, sans-serif; font-size: 1.02rem; color: var(--ink); }
-  .pendChip { display: inline-block; font-family: system-ui, sans-serif; font-size: .6rem; font-weight: 600;
+  .trp { font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: 1.02rem; color: var(--ink); }
+  .pendChip { display: inline-block; font-family: system-ui, 'Noto Sans', sans-serif; font-size: .6rem; font-weight: 600;
     text-transform: uppercase; letter-spacing: .07em; color: #7a5300; background: #fdf2dc;
     border: 1px solid #ecd39b; border-radius: 999px; padding: 2px 8px; margin-right: 8px; align-self: center; }
   .sent.rubric .gl, .sent.rubric .tr { color: #b3552f; }
-  .draftBadge { display: inline-block; font-family: system-ui, sans-serif; font-size: .6rem; font-weight: 600;
+  .draftBadge { display: inline-block; font-family: system-ui, 'Noto Sans', sans-serif; font-size: .6rem; font-weight: 600;
     text-transform: uppercase; letter-spacing: .08em; color: #8a5300; background: #fbe6c0;
     border: 1px solid #e8c986; border-radius: 999px; padding: 2px 9px; vertical-align: middle; margin-left: 12px; }
-  .draftBar { font-family: system-ui, sans-serif; font-size: .82rem; color: #7a5300; background: #fdf2dc;
+  .draftBar { font-family: system-ui, 'Noto Sans', sans-serif; font-size: .82rem; color: #7a5300; background: #fdf2dc;
     border: 1px solid #ecd39b; border-radius: 10px; padding: 8px 14px; margin-bottom: 18px; line-height: 1.5; }
 </style>
 </head>

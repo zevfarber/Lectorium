@@ -4834,10 +4834,21 @@ $('trBtn').onclick = () => { hideTr = !hideTr; try { localStorage.setItem('hideT
 /* ---------- library & story loading ---------- */
 function fillStorySel(){
   const sel = $('storySel'); sel.innerHTML = '';
+  const groups = {}, order = [];
   STORIES.forEach((s, i) => {
-    const o = document.createElement('option');
-    o.value = i; o.textContent = (s.titleEn || s.title) + ' (' + (s.language || '') + ')';
-    sel.appendChild(o);
+    const lang = s.language || 'Other';
+    if (!groups[lang]) { groups[lang] = []; order.push(lang); }
+    groups[lang].push(i);
+  });
+  order.forEach(lang => {
+    const og = document.createElement('optgroup');
+    og.label = lang;
+    groups[lang].forEach(i => {
+      const o = document.createElement('option');
+      o.value = i; o.textContent = STORIES[i].titleEn || STORIES[i].title;
+      og.appendChild(o);
+    });
+    sel.appendChild(og);
   });
 }
 $('storySel').onchange = () => loadStory(STORIES[+$('storySel').value]);

@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lectorium</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Egyptian+Hieroglyphs&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg: #faf7f2;
@@ -151,6 +153,22 @@
   #pop .pbtns button { font-size: .8rem; padding: 4px 10px; border-radius: 999px; }
   #pop .pclose { position: absolute; top: 6px; right: 10px; border: none; background: none; color: var(--muted); font-size: 1rem; padding: 2px 6px; }
   #pop .pmiss { color: var(--muted); font-style: italic; }
+  #popW { font-family: 'Noto Sans Egyptian Hieroglyphs', Georgia, serif; }
+  /* Egyptian word-stack reading layer: glyph over transliteration */
+  .de.stacks { white-space: normal; display: flex; flex-wrap: wrap; align-items: flex-end; gap: 5px 9px; }
+  .stack { display: inline-flex; flex-direction: column; align-items: center; gap: 2px; padding: 3px 5px; border-radius: 6px; cursor: pointer; }
+  .stack:hover { background: var(--accent-soft); }
+  .stack.wsel { background: var(--accent); }
+  .stack.wsel .gl, .stack.wsel .tr { color: #fff; }
+  .gl { font-family: 'Noto Sans Egyptian Hieroglyphs', Georgia, serif; font-size: 1.95rem; line-height: 1.05; }
+  .tr { font-family: system-ui, -apple-system, sans-serif; font-size: .72rem; color: var(--muted); letter-spacing: .02em; }
+  body.hidetr .tr { display: none; }
+  .sent.rubric .gl, .sent.rubric .tr { color: #b3552f; }
+  .draftBadge { display: inline-block; font-family: system-ui, sans-serif; font-size: .6rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .08em; color: #8a5300; background: #fbe6c0;
+    border: 1px solid #e8c986; border-radius: 999px; padding: 2px 9px; vertical-align: middle; margin-left: 12px; }
+  .draftBar { font-family: system-ui, sans-serif; font-size: .82rem; color: #7a5300; background: #fdf2dc;
+    border: 1px solid #ecd39b; border-radius: 10px; padding: 8px 14px; margin-bottom: 18px; line-height: 1.5; }
 </style>
 </head>
 <body>
@@ -160,6 +178,7 @@
   <button id="modeDE" title="Original language only — reveal English per sentence">Original only</button>
   <button id="modeSBS" title="Original with English side by side">Side by side</button>
   <button id="plainBtn" title="Plain letters — þ, ð → th, æ → ae, length marks hidden">þ→th</button>
+  <button id="trBtn" title="Transliteration — show or hide the sound under each glyph" style="display:none">Sound</button>
   <span class="spacer"></span>
   <span id="rateWrap">🔊 <input type="range" id="rate" min="0.4" max="1.2" step="0.05" value="0.92" title="Speech speed"></span>
   <label class="filebtn" title="Load a story .json file produced by your project">＋ Load story<input type="file" id="fileIn" accept=".json,application/json" style="display:none"></label>
@@ -169,6 +188,7 @@
 <main>
   <h1 class="storyTitle" id="stTitle"></h1>
   <div class="storyMeta" id="stMeta"></div>
+  <div class="draftBar" id="stDraft" style="display:none"></div>
   <div class="hint" id="stAbout" style="display:none"></div>
   <details class="hint" id="hintBox" open>
     <summary>Instructions</summary>
@@ -209,6 +229,51 @@
 
 <script>
 const STORIES = [
+{
+  "id": "ani-spell125-opening",
+  "title": "Rꜣ nw prt m hrw (125)",
+  "titleEn": "Book of the Dead of Ani — Spell 125: opening declarations",
+  "language": "Egyptian (Middle Egyptian)",
+  "langCode": null,
+  "script": "Egyptian hieroglyphs",
+  "dir": "ltr",
+  "provisional": true,
+  "source": "Papyrus of Ani (British Museum EA 10470), Book of the Dead Spell 125. Reading layer drafted toward Ani's text. Hieroglyphs are set left-to-right for the reading view; the manuscript itself runs right-to-left (its true orientation belongs to the manuscript-image layer). Transliteration follows the Leiden Unified convention. Pronunciation convention: conventional Egyptological (langCode null — no TTS). PROVISIONAL DRAFT: the hieroglyphic forms and readings here are set from scholarly knowledge for pipeline testing and have NOT yet been verified sign-by-sign against Budge's 1913 facsimile of Ani — the sole-source requirement — which must happen before publication. Translations made fresh from the original grammar, not from any published translation.",
+  "about": "These are the first lines of Spell 125, the 'Negative Confession', where the dead person declares innocence before the gods. This is a reading-and-language draft, not a finished edition: the hieroglyphs and their readings still need checking against the actual Ani papyrus, and a few signs are conventional best-guesses. Notes say so where it matters. The text is shown left-to-right for ease of reading; on the papyrus it runs right-to-left.",
+  "sentences": [
+    {"r": true,
+     "t": "𓆓𓌃",
+     "tr": "ḏd-mdw",
+     "l": "words to-be-spoken",
+     "i": "Words spoken:",
+     "n": "A rubric — written in red on the papyrus to mark the start of a recitation. The red carries meaning, so the reader keeps it. ḏd-mdw is literally 'saying words'."},
+    {"p": true,
+     "t": "𓂜 𓂝𓅱𓄿 𓀀",
+     "tr": "n ꜥwꜣ ·i",
+     "l": "not · rob · I",
+     "i": "I have not robbed.",
+     "n": "The negation n heads every declaration — after a few lines you will read straight past it. The verb ꜥwꜣ is spelled out consonant by consonant, ꜥ–w–ꜣ. The seated man is the suffix pronoun 'I', shown here as its own unit (the split house rule)."},
+    {"t": "𓂜 𓋴𓅓𓄿 𓀀",
+     "tr": "n smꜣ ·i",
+     "l": "not · kill · I",
+     "i": "I have not killed.",
+     "n": "The same frame as the line before: negation + verb + 'I'. smꜣ, 'to kill, slay', is spelled s–m–ꜣ. Watch how the little seated-man 'I' recurs at the end of every denial."},
+    {"t": "𓂜 𓁹 𓀀 𓃀𓅱𓈋",
+     "tr": "n ir ·i bw-ḏw",
+     "l": "not · do · I · evil",
+     "i": "I have not done evil.",
+     "n": "ir (lemma ı͗ri̯) 'do, make', here written with the eye. bw-ḏw, literally 'the bad thing' (bw 'thing, place' + ḏw 'bad'), is the ordinary word for 'evil' — a good early example of Egyptian building an abstract idea out of a concrete pair of words."}
+  ],
+  "glossary": {
+    "ḏd-mdw": "ḏd-mdw — 'words to be spoken', a recitation rubric (ḏd 'say' + mdw 'words')",
+    "n": "n — not; negates the following past-tense verb",
+    "ꜥwꜣ": "ꜥwꜣ — to rob, plunder (verb)",
+    "·i": "·i — I, me, my (1st-person singular suffix pronoun; the seated-man sign)",
+    "smꜣ": "smꜣ — to kill, slay (verb)",
+    "ir": "ir — to do, make (verb; lemma ı͗ri̯)",
+    "bw-ḏw": "bw-ḏw — evil, wrongdoing (literally 'bad thing': bw 'thing' + ḏw 'bad')"
+  }
+},
 {
   "id": "aschenputtel",
   "title": "Aschenputtel",
@@ -2214,19 +2279,41 @@ function tokenize(text){
     '<span class="w" data-w="' + wordKey(m) + '">' + (plainMode ? plainLetters(m) : m) + '</span>');
 }
 
+/* Egyptian (and other glyph scripts): zip glyph words (t) with transliteration words (tr)
+   into stacked, clickable units — glyph on top, sound beneath. Glossary key = tr token. */
+function buildStacks(s){
+  const gs = s.t.split(/\s+/).filter(Boolean);
+  const ts = s.tr.split(/\s+/).filter(Boolean);
+  let out = '';
+  for (let k = 0; k < gs.length; k++){
+    const g = gs[k], tr = ts[k] || '';
+    out += '<span class="stack" data-w="' + escapeHtml(wordKey(tr)) + '" data-pw="' + escapeHtml(g) + '">'
+         + '<span class="gl">' + escapeHtml(g) + '</span>'
+         + '<span class="tr">' + escapeHtml(tr) + '</span></span>';
+  }
+  return out;
+}
+
 function render(){
   if (!story) return;
   const box = $('text'); box.innerHTML = '';
-  $('stTitle').textContent = story.title + (story.titleEn ? ' · ' + story.titleEn : '');
+  $('stTitle').innerHTML = escapeHtml(story.title) + (story.titleEn ? ' · ' + escapeHtml(story.titleEn) : '')
+    + (story.provisional ? ' <span class="draftBadge">draft · being built</span>' : '');
   $('stMeta').textContent = (story.language || '') + ' — ' + (story.source || '');
   const ab = $('stAbout');
   if (ab) { ab.textContent = story.about || ''; ab.style.display = story.about ? '' : 'none'; }
+  const dr = $('stDraft');
+  if (dr) {
+    const prov = !!story.provisional;
+    dr.style.display = prov ? '' : 'none';
+    if (prov) dr.textContent = story.draftNote || 'Draft in progress — the hieroglyphs and their readings are provisional and still being checked sign-by-sign against the original papyrus, so expect changes.';
+  }
   const tts = !!story.langCode;
   $('rateWrap').style.display = tts ? '' : 'none';
   document.body.classList.toggle('allverse', story.sentences.every(x => x.v));
   story.sentences.forEach((s, i) => {
     const div = document.createElement('div');
-    div.className = 'sent' + (s.p ? ' parastart' : '') + (s.v ? ' verse' : '');
+    div.className = 'sent' + (s.p ? ' parastart' : '') + (s.v ? ' verse' : '') + (s.r ? ' rubric' : '');
     div.dataset.i = i;
 
     const de = document.createElement('div');
@@ -2236,7 +2323,13 @@ function render(){
       const end = s.ln + (s.t.match(/\n/g) || []).length;
       lnChip = '<span class="lineno">' + (end > s.ln ? s.ln + '–' + end : s.ln) + '</span>';
     }
-    de.innerHTML = lnChip + tokenize(s.t);
+    if (s.tr) {
+      de.classList.add('stacks');
+      if (story.dir) de.setAttribute('dir', story.dir);
+      de.innerHTML = lnChip + buildStacks(s);
+    } else {
+      de.innerHTML = lnChip + tokenize(s.t);
+    }
     div.appendChild(de);
 
     const en = document.createElement('div');
@@ -2342,7 +2435,7 @@ function toggleNote(i){
 }
 
 $('text').addEventListener('click', (ev) => {
-  const w = ev.target.closest('.w');
+  const w = ev.target.closest('.w') || ev.target.closest('.stack');
   const sent = ev.target.closest('.sent');
   const btn = ev.target.closest('button[data-a]');
   if (btn && sent) {
@@ -2479,9 +2572,9 @@ function toggleTry(i){
 /* ---------- word popup ---------- */
 let popWord = '';
 function showPop(wEl){
-  document.querySelectorAll('.w.wsel').forEach(e => e.classList.remove('wsel'));
+  document.querySelectorAll('.wsel').forEach(e => e.classList.remove('wsel'));
   wEl.classList.add('wsel');
-  popWord = wEl.textContent;
+  popWord = wEl.dataset.pw || wEl.textContent;
   const key = wEl.dataset.w || popWord.toLowerCase();
   const gloss = story.glossary && story.glossary[key];
   $('popW').textContent = popWord;
@@ -2499,7 +2592,7 @@ function showPop(wEl){
 }
 function hidePop(){
   $('pop').style.display = 'none';
-  document.querySelectorAll('.w.wsel').forEach(e => e.classList.remove('wsel'));
+  document.querySelectorAll('.wsel').forEach(e => e.classList.remove('wsel'));
 }
 const POP_LABELS = { popSay: '🔊 Say it', popSlow: '🐢 Slowly' };
 function resetPopBtns(){ for (const id in POP_LABELS) { const b = $(id); if (b) b.textContent = POP_LABELS[id]; } }
@@ -2511,7 +2604,7 @@ function speakPop(rate, btn){
   if (started && btn) btn.textContent = '⏹ Stop';
 }
 document.addEventListener('click', (ev) => {
-  if (!ev.target.closest('#pop') && !ev.target.closest('.w')) hidePop();
+  if (!ev.target.closest('#pop') && !ev.target.closest('.w') && !ev.target.closest('.stack')) hidePop();
 });
 
 /* ---------- in-app tutor (Claude API, token-diet by design) ---------- */
@@ -2615,172 +2708,4 @@ function toggleAsk(i){
   inp.type = 'text';
   inp.placeholder = 'Ask about this sentence…';
   const go = document.createElement('button');
-  go.textContent = 'Ask';
-  const cost = document.createElement('div');
-  cost.className = 'askCost';
-  const send = () => { const q = inp.value.trim(); if (!q) return; inp.value = ''; askTutor(i, q, th, cost); };
-  go.addEventListener('click', (ev) => { ev.stopPropagation(); send(); });
-  inp.addEventListener('keydown', (ev) => { if (ev.key === 'Enter') { ev.preventDefault(); send(); } });
-  row.appendChild(inp); row.appendChild(go);
-  box.appendChild(row); box.appendChild(cost);
-  el.insertBefore(box, el.querySelector('.toolbar'));
-  inp.focus();
-}
-
-async function askTutor(i, q, th, costEl){
-  addMsg(th, 'q', q);
-  askState.log.push({ cls: 'q', text: q });
-  const wait = addMsg(th, 'a', '…');
-  if (askState.msgs.length >= 12) askState.msgs = [];   // long thread: start fresh (context is resent, still tiny)
-  const userContent = askState.msgs.length ? q : sentContext(i) + '\n\nReader\'s question: ' + q;
-  askState.msgs.push({ role: 'user', content: userContent });
-  try {
-    const res = await callClaude(ASK_SYSTEM, askState.msgs, 400);
-    wait.textContent = res.text;
-    askState.log.push({ cls: 'a', text: res.text });
-    askState.msgs.push({ role: 'assistant', content: res.text });
-    costEl.textContent = '≈' + fmtCents(res.cost) + ' this question · ' + fmtCents(spendCents()) + ' total';
-  } catch(e) {
-    askState.msgs.pop();
-    wait.className = 'askMsg err';
-    wait.textContent = tutorErrMsg(e);
-    askState.log.push({ cls: 'err', text: wait.textContent });
-  }
-}
-
-function renderCheck(res, out, i, attempt){
-  let j = null;
-  try { j = JSON.parse(out.text.slice(out.text.indexOf('{'), out.text.lastIndexOf('}') + 1)); } catch(e) {}
-  res.innerHTML = '';
-  if (!j || !j.verdict) {   // model didn't return JSON — show what it said
-    const d = document.createElement('div'); d.className = 'askMsg a'; d.textContent = out.text; res.appendChild(d);
-    return;
-  }
-  const v = document.createElement('div');
-  v.className = 'verdict';
-  v.textContent = (j.verdict === 'right' ? '✓ ' : j.verdict === 'close' ? '≈ ' : '✗ ') + (j.comment || '');
-  v.style.color = j.verdict === 'right' ? 'var(--idiom-ink)' : (j.verdict === 'close' ? 'var(--accent)' : '#8a3b1e');
-  res.appendChild(v);
-  (j.errors || []).forEach(er => {
-    const d = document.createElement('div');
-    d.className = 'chkErr';
-    d.innerHTML = '<q>' + escapeHtml(er.quote || '') + '</q> — ' + escapeHtml(er.issue || '');
-    const wb = document.createElement('button');
-    wb.textContent = 'why?';
-    wb.title = 'Explain how the original produces the meaning missed';
-    wb.addEventListener('click', async (ev) => {
-      ev.stopPropagation();
-      wb.disabled = true; wb.textContent = '…';
-      let wt = d.querySelector('.whyTxt');
-      if (!wt) { wt = document.createElement('div'); wt.className = 'whyTxt'; d.appendChild(wt); }
-      try {
-        const o = await callClaude(ASK_SYSTEM, [{ role: 'user', content: sentContext(i) +
-          '\n\nThe reader translated the sentence as: ' + attempt +
-          '\nA checker flagged this part: "' + (er.quote || '') + '" — ' + (er.issue || '') +
-          '\n\nExplain in 2-4 sentences how the original wording produces the meaning the reader missed.' }], 350);
-        wt.textContent = o.text;
-        wb.style.display = 'none';
-      } catch(e) {
-        wt.textContent = tutorErrMsg(e);
-        wb.disabled = false; wb.textContent = 'why?';
-      }
-    });
-    d.appendChild(wb);
-    res.appendChild(d);
-  });
-  const c = document.createElement('div');
-  c.className = 'askCost';
-  c.textContent = '≈' + fmtCents(out.cost) + ' · ' + fmtCents(spendCents()) + ' total';
-  res.appendChild(c);
-}
-
-/* ---------- modes & stories ---------- */
-function setMode(m){
-  mode = m;
-  document.body.classList.toggle('sbs', m === 'sbs');
-  $('modeDE').classList.toggle('active', m === 'de');
-  $('modeSBS').classList.toggle('active', m === 'sbs');
-  render();
-  if (focusedIdx >= 0) focusSent(focusedIdx, false);
-  try { localStorage.setItem('mode', m); } catch(e) {}
-}
-$('modeDE').onclick = () => setMode('de');
-$('modeSBS').onclick = () => setMode('sbs');
-
-function setPlain(on){
-  plainMode = on;
-  $('plainBtn').classList.toggle('active', on);
-  try { localStorage.setItem('plainLetters', on ? '1' : '0'); } catch(e) {}
-  render();
-  if (focusedIdx >= 0) focusSent(focusedIdx, false);
-}
-$('plainBtn').onclick = () => setPlain(!plainMode);
-
-/* ---------- library & story loading ---------- */
-function fillStorySel(){
-  const sel = $('storySel'); sel.innerHTML = '';
-  STORIES.forEach((s, i) => {
-    const o = document.createElement('option');
-    o.value = i; o.textContent = s.title + ' (' + (s.language || '') + ')';
-    sel.appendChild(o);
-  });
-}
-$('storySel').onchange = () => loadStory(STORIES[+$('storySel').value]);
-
-function loadStory(s){
-  stopSpeech();
-  speakingIdx = -1;
-  slowPref = {};
-  story = s;
-  hidePop();
-  render();
-  let pos = 0;
-  try { pos = parseInt(localStorage.getItem('pos:' + s.id)) || 0; } catch(e) {}
-  focusSent(Math.min(pos, s.sentences.length - 1), pos > 0);
-  try { localStorage.setItem('story', s.id); } catch(e) {}
-}
-
-$('fileIn').addEventListener('change', (ev) => {
-  const f = ev.target.files[0]; if (!f) return;
-  const rd = new FileReader();
-  rd.onload = () => {
-    try {
-      const s = JSON.parse(rd.result);
-      if (!s.sentences || !s.title) throw new Error('missing fields');
-      const existing = STORIES.findIndex(x => x.id === s.id);
-      if (existing >= 0) STORIES[existing] = s; else STORIES.push(s);
-      fillStorySel();
-      $('storySel').value = STORIES.findIndex(x => x.id === s.id);
-      loadStory(s);
-    } catch(e) { alert('Could not read story file: ' + e.message); }
-  };
-  rd.readAsText(f);
-  ev.target.value = '';
-});
-
-/* ---------- init ---------- */
-(function init(){
-  const hint = $('hintBox');
-  if (hint) {
-    try { const s = localStorage.getItem('hintOpen'); if (s !== null) hint.open = (s === '1'); } catch(e) {}
-    hint.addEventListener('toggle', () => { try { localStorage.setItem('hintOpen', hint.open ? '1' : '0'); } catch(e) {} });
-  }
-  $('plainBtn').classList.toggle('active', plainMode);
-  fillStorySel();
-  let m = 'de';
-  try { m = localStorage.getItem('mode') || 'de'; } catch(e) {}
-  let last = null;
-  try { last = localStorage.getItem('story'); } catch(e) {}
-  const idx = Math.max(0, STORIES.findIndex(s => s.id === last));
-  if (STORIES.length) {
-    $('storySel').value = idx;
-    setMode(m);
-    loadStory(STORIES[idx]);
-  } else {
-    $('stTitle').textContent = 'No stories loaded';
-    $('stMeta').textContent = 'Use “＋ Load story” to open a story .json file.';
-  }
-})();
-</script>
-</body>
-</html>
+  go.t

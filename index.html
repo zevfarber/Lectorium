@@ -228,6 +228,7 @@
 </div>
 
 <script>
+/* Lectorium — Egyptian word-stack reader build */
 const STORIES = [
 {
   "id": "ani-spell125-opening",
@@ -2708,4 +2709,180 @@ function toggleAsk(i){
   inp.type = 'text';
   inp.placeholder = 'Ask about this sentence…';
   const go = document.createElement('button');
-  go.t
+  go.textContent = 'Ask';
+  const cost = document.createElement('div');
+  cost.className = 'askCost';
+  const send = () => { const q = inp.value.trim(); if (!q) return; inp.value = ''; askTutor(i, q, th, cost); };
+  go.addEventListener('click', (ev) => { ev.stopPropagation(); send(); });
+  inp.addEventListener('keydown', (ev) => { if (ev.key === 'Enter') { ev.preventDefault(); send(); } });
+  row.appendChild(inp); row.appendChild(go);
+  box.appendChild(row); box.appendChild(cost);
+  el.insertBefore(box, el.querySelector('.toolbar'));
+  inp.focus();
+}
+
+async function askTutor(i, q, th, costEl){
+  addMsg(th, 'q', q);
+  askState.log.push({ cls: 'q', text: q });
+  const wait = addMsg(th, 'a', '…');
+  if (askState.msgs.length >= 12) askState.msgs = [];   // long thread: start fresh (context is resent, still tiny)
+  const userContent = askState.msgs.length ? q : sentContext(i) + '\n\nReader\'s question: ' + q;
+  askState.msgs.push({ role: 'user', content: userContent });
+  try {
+    const res = await callClaude(ASK_SYSTEM, askState.msgs, 400);
+    wait.textContent = res.text;
+    askState.log.push({ cls: 'a', text: res.text });
+    askState.msgs.push({ role: 'assistant', content: res.text });
+    costEl.textContent = '≈' + fmtCents(res.cost) + ' this question · ' + fmtCents(spendCents()) + ' total';
+  } catch(e) {
+    askState.msgs.pop();
+    wait.className = 'askMsg err';
+    wait.textContent = tutorErrMsg(e);
+    askState.log.push({ cls: 'err', text: wait.textContent });
+  }
+}
+
+function renderCheck(res, out, i, attempt){
+  let j = null;
+  try { j = JSON.parse(out.text.slice(out.text.indexOf('{'), out.text.lastIndexOf('}') + 1)); } catch(e) {}
+  res.innerHTML = '';
+  if (!j || !j.verdict) {   // model didn't return JSON — show what it said
+    const d = document.createElement('div'); d.className = 'askMsg a'; d.textContent = out.text; res.appendChild(d);
+    return;
+  }
+  const v = document.createElement('div');
+  v.className = 'verdict';
+  v.textContent = (j.verdict === 'right' ? '✓ ' : j.verdict === 'close' ? '≈ ' : '✗ ') + (j.comment || '');
+  v.style.color = j.verdict === 'right' ? 'var(--idiom-ink)' : (j.verdict === 'close' ? 'var(--accent)' : '#8a3b1e');
+  res.appendChild(v);
+  (j.errors || []).forEach(er => {
+    const d = document.createElement('div');
+    d.className = 'chkErr';
+    d.innerHTML = '<q>' + escapeHtml(er.quote || '') + '</q> — ' + escapeHtml(er.issue || '');
+    const wb = document.createElement('button');
+    wb.textContent = 'why?';
+    wb.title = 'Explain how the original produces the meaning missed';
+    wb.addEventListener('click', async (ev) => {
+      ev.stopPropagation();
+      wb.disabled = true; wb.textContent = '…';
+      let wt = d.querySelector('.whyTxt');
+      if (!wt) { wt = document.createElement('div'); wt.className = 'whyTxt'; d.appendChild(wt); }
+      try {
+        const o = await callClaude(ASK_SYSTEM, [{ role: 'user', content: sentContext(i) +
+          '\n\nThe reader translated the sentence as: ' + attempt +
+          '\nA checker flagged this part: "' + (er.quote || '') + '" — ' + (er.issue || '') +
+          '\n\nExplain in 2-4 sentences how the original wording produces the meaning the reader missed.' }], 350);
+        wt.textContent = o.text;
+        wb.style.display = 'none';
+      } catch(e) {
+        wt.textContent = tutorErrMsg(e);
+        wb.disabled = false; wb.textContent = 'why?';
+      }
+    });
+    d.appendChild(wb);
+    res.appendChild(d);
+  });
+  const c = document.createElement('div');
+  c.className = 'askCost';
+  c.textContent = '≈' + fmtCents(out.cost) + ' · ' + fmtCents(spendCents()) + ' total';
+  res.appendChild(c);
+}
+
+/* ---------- modes & stories ---------- */
+function setMode(m){
+  mode = m;
+  document.body.classList.toggle('sbs', m === 'sbs');
+  $('modeDE').classList.toggle('active', m === 'de');
+  $('modeSBS').classList.toggle('active', m === 'sbs');
+  render();
+  if (focusedIdx >= 0) focusSent(focusedIdx, false);
+  try { localStorage.setItem('mode', m); } catch(e) {}
+}
+$('modeDE').onclick = () => setMode('de');
+$('modeSBS').onclick = () => setMode('sbs');
+
+function setPlain(on){
+  plainMode = on;
+  $('plainBtn').classList.toggle('active', on);
+  try { localStorage.setItem('plainLetters', on ? '1' : '0'); } catch(e) {}
+  render();
+  if (focusedIdx >= 0) focusSent(focusedIdx, false);
+}
+$('plainBtn').onclick = () => setPlain(!plainMode);
+
+/* transliteration ruby toggle (app-wide), shown only for stories that carry tr */
+let hideTr = false;
+try { hideTr = localStorage.getItem('hideTr') === '1'; } catch(e) {}
+function applyTr(){ document.body.classList.toggle('hidetr', hideTr); $('trBtn').classList.toggle('active', !hideTr); }
+$('trBtn').onclick = () => { hideTr = !hideTr; try { localStorage.setItem('hideTr', hideTr ? '1' : '0'); } catch(e) {} applyTr(); };
+
+/* ---------- library & story loading ---------- */
+function fillStorySel(){
+  const sel = $('storySel'); sel.innerHTML = '';
+  STORIES.forEach((s, i) => {
+    const o = document.createElement('option');
+    o.value = i; o.textContent = s.title + ' (' + (s.language || '') + ')';
+    sel.appendChild(o);
+  });
+}
+$('storySel').onchange = () => loadStory(STORIES[+$('storySel').value]);
+
+function loadStory(s){
+  stopSpeech();
+  speakingIdx = -1;
+  slowPref = {};
+  story = s;
+  $('trBtn').style.display = s.sentences.some(x => x.tr) ? '' : 'none';
+  hidePop();
+  render();
+  let pos = 0;
+  try { pos = parseInt(localStorage.getItem('pos:' + s.id)) || 0; } catch(e) {}
+  focusSent(Math.min(pos, s.sentences.length - 1), pos > 0);
+  try { localStorage.setItem('story', s.id); } catch(e) {}
+}
+
+$('fileIn').addEventListener('change', (ev) => {
+  const f = ev.target.files[0]; if (!f) return;
+  const rd = new FileReader();
+  rd.onload = () => {
+    try {
+      const s = JSON.parse(rd.result);
+      if (!s.sentences || !s.title) throw new Error('missing fields');
+      const existing = STORIES.findIndex(x => x.id === s.id);
+      if (existing >= 0) STORIES[existing] = s; else STORIES.push(s);
+      fillStorySel();
+      $('storySel').value = STORIES.findIndex(x => x.id === s.id);
+      loadStory(s);
+    } catch(e) { alert('Could not read story file: ' + e.message); }
+  };
+  rd.readAsText(f);
+  ev.target.value = '';
+});
+
+/* ---------- init ---------- */
+(function init(){
+  const hint = $('hintBox');
+  if (hint) {
+    try { const s = localStorage.getItem('hintOpen'); if (s !== null) hint.open = (s === '1'); } catch(e) {}
+    hint.addEventListener('toggle', () => { try { localStorage.setItem('hintOpen', hint.open ? '1' : '0'); } catch(e) {} });
+  }
+  $('plainBtn').classList.toggle('active', plainMode);
+  applyTr();
+  fillStorySel();
+  let m = 'de';
+  try { m = localStorage.getItem('mode') || 'de'; } catch(e) {}
+  let last = null;
+  try { last = localStorage.getItem('story'); } catch(e) {}
+  const idx = Math.max(0, STORIES.findIndex(s => s.id === last));
+  if (STORIES.length) {
+    $('storySel').value = idx;
+    setMode(m);
+    loadStory(STORIES[idx]);
+  } else {
+    $('stTitle').textContent = 'No stories loaded';
+    $('stMeta').textContent = 'Use “＋ Load story” to open a story .json file.';
+  }
+})();
+</script>
+</body>
+</html>

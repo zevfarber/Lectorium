@@ -185,7 +185,7 @@
   <select id="storySel" title="Choose story"></select>
   <button id="modeDE" title="Original language only — reveal English per sentence">Original only</button>
   <button id="modeSBS" title="Original with English side by side">Side by side</button>
-  <button id="plainBtn" title="Plain letters — þ, ð → th, æ → ae, length marks hidden">þ→th</button>
+  <button id="plainBtn" title="Plain letters — þ, ð → th, æ → ae, length marks hidden" style="display:none">þ→th</button>
   <button id="trBtn" title="Transliteration — show or hide the sound under each glyph" style="display:none">Sound</button>
   <span class="spacer"></span>
   <span id="rateWrap">🔊 <input type="range" id="rate" min="0.4" max="1.2" step="0.05" value="0.92" title="Speech speed"></span>
@@ -4273,7 +4273,7 @@ const WORD_RE = new RegExp('[' + WORD_CLASS + ']+(?:[-\\[\\]()][' + WORD_CLASS +
 // glossary key for a token: editorial brackets/parens stripped, lowercased (eorl[as] → eorlas)
 function wordKey(w){ return w.replace(/[\[\]()]/g, '').toLowerCase(); }
 
-/* plain-letters mode (app-wide): þ/ð → th, æ → ae, length marks hidden */
+/* plain-letters mode: þ/ð → th, æ → ae, length marks hidden */
 let plainMode = false;
 try { plainMode = localStorage.getItem('plainLetters') === '1'; } catch(e) {}
 function plainLetters(s){
@@ -4281,10 +4281,26 @@ function plainLetters(s){
   return s.replace(/þ|ð/g, 'th').replace(/Þ|Ð/g, 'Th').replace(/æ/g, 'ae').replace(/Æ/g, 'Ae');
 }
 
+/* ---- "simplify script" capability (one toolbar slot, shown only where useful) ----
+   Each text can offer a friendlier rendering of its script. The toggle appears
+   only for texts that have one, does the language-appropriate swap, and is
+   driven by data, not by hardcoded language names — so new scripts just plug in.
+   Old English: plainLetters (þ/ð→th, æ→ae, length marks hidden).
+   Future (Egyptian etc.): scholarly→readable transliteration slots in the same way. */
+let activeSimplify = null;   // config for the current story, or null
+function simplifyConfig(story){
+  if (!story) return null;
+  const txt = story.sentences.map(x => x.t || '').join('\n');
+  // Old English letterforms (þ ð æ) or vowel-length macrons → the plain-letters view
+  if (/[þðæÞÐÆ]/.test(txt) || /̄/.test(txt.normalize('NFD')))
+    return { label: 'þ→th', title: 'Plain letters — þ, ð → th, æ → ae, length marks hidden', fn: plainLetters };
+  return null;
+}
+
 function tokenize(text){
   // wrap letter-sequences (incl. hyphenated words and Klaeber-style eorl[as], aldor(lē)ase) in clickable spans
   return text.replace(WORD_RE, m =>
-    '<span class="w" data-w="' + wordKey(m) + '">' + (plainMode ? plainLetters(m) : m) + '</span>');
+    '<span class="w" data-w="' + wordKey(m) + '">' + ((plainMode && activeSimplify) ? activeSimplify.fn(m) : m) + '</span>');
 }
 
 /* Egyptian (and other glyph scripts): zip glyph words (t) with transliteration words (tr)
@@ -4860,6 +4876,16 @@ function loadStory(s){
   slowPref = {};
   story = s;
   $('trBtn').style.display = s.sentences.some(x => x.tr) ? '' : 'none';
+  activeSimplify = simplifyConfig(s);
+  const pb = $('plainBtn');
+  if (activeSimplify) {
+    pb.style.display = '';
+    pb.textContent = activeSimplify.label;
+    pb.title = activeSimplify.title;
+    pb.classList.toggle('active', plainMode);
+  } else {
+    pb.style.display = 'none';
+  }
   hidePop();
   render();
   let pos = 0;

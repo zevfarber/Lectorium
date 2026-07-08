@@ -71,6 +71,7 @@
   .de .w { border-radius: 4px; }
   .de .w:hover { background: var(--accent-soft); }
   .de .w.wsel { background: var(--accent); color: #fff; }
+  .de .w.wnow { background: var(--accent); color: #fff; }
 
   .en { color: var(--en-ink); font-size: .98rem; margin-top: 5px; white-space: pre-line; display: none; }
   .en.idm { color: var(--idiom-ink); }
@@ -4300,8 +4301,11 @@ function simplifyConfig(story){
 
 function tokenize(text){
   // wrap letter-sequences (incl. hyphenated words and Klaeber-style eorl[as], aldor(lē)ase) in clickable spans
-  return text.replace(WORD_RE, m =>
-    '<span class="w" data-w="' + wordKey(m) + '">' + ((plainMode && activeSimplify) ? activeSimplify.fn(m) : m) + '</span>');
+  let wi = -1;
+  return text.replace(WORD_RE, m => {
+    wi++;
+    return '<span class="w" data-w="' + wordKey(m) + '" data-wi="' + wi + '">' + ((plainMode && activeSimplify) ? activeSimplify.fn(m) : m) + '</span>';
+  });
 }
 
 /* Egyptian (and other glyph scripts): zip glyph words (t) with transliteration words (tr)
@@ -4382,7 +4386,8 @@ function render(){
     const tb = document.createElement('div');
     tb.className = 'toolbar';
     tb.innerHTML =
-      (tts ? '<button data-a="listen">' + (speakingIdx === i ? '⏹ Stop' : '🔊 Listen') + '</button>' +
+      (tts ? '<button data-a="listen">' + listenLabel(i) + '</button>' +
+             (story.audio ? '<button data-a="stop">⏹ Stop</button>' : '') +
              '<button data-a="speed">' + (slowPref[i] ? '🐇 Regular' : '🐢 Slow') + '</button>' : '') +
       '<button data-a="try">✍️ Try</button>' +
       '<button data-a="ask">🎓 Ask</button>' +
@@ -4415,6 +4420,8 @@ let speakingIdx = -1;   // which sentence is currently active (playing or paused
 let slowPref = {};      // per-sentence speed: true = slow
 let audioEl = null;     // reused <audio> element for pre-rendered per-sentence mp3s
 let audioPaused = false;
+let wordTimes = null;   // per-story word timings {sentenceIdx: [[start,end],...]} or null
+let hlWi = -1;          // currently highlighted word index within the speaking sentence
 const SLOW_RATE = 0.65;
 
 function getAudio(){
@@ -4422,8 +4429,43 @@ function getAudio(){
     audioEl = new Audio();
     // when a clip finishes on its own, reset the button back to "Listen"
     audioEl.addEventListener('ended', () => { if (speakingIdx >= 0 && story && story.audio) setSpeakingIdx(-1); });
+    // karaoke highlight: follow the spoken word while actually playing
+    audioEl.addEventListener('timeupdate', () => {
+      if (speakingIdx >= 0 && story && story.audio && !audioEl.paused) highlightAt(speakingIdx, audioEl.currentTime);
+    });
   }
   return audioEl;
+}
+/* ---- word highlight + click-to-seek (uses align.json word timings) ---- */
+function clearHighlight(){
+  document.querySelectorAll('.w.wnow').forEach(el => el.classList.remove('wnow'));
+  hlWi = -1;
+}
+function highlightAt(i, t){
+  const arr = wordTimes && wordTimes[i];
+  if (!arr) return;
+  let wi = -1;
+  for (let k = 0; k < arr.length; k++){ if (arr[k] && arr[k][0] <= t + 0.03) wi = k; else break; }
+  if (wi === hlWi) return;
+  clearHighlight();
+  if (wi >= 0){ const el = sentEl(i); const span = el && el.querySelector('.w[data-wi="' + wi + '"]'); if (span) span.classList.add('wnow'); }
+  hlWi = wi;
+}
+function seekToWord(i, wi){
+  const arr = wordTimes && wordTimes[i];
+  if (!arr || !arr[wi]) return;
+  const a = getAudio();
+  a.currentTime = arr[wi][0];
+  a.playbackRate = slowPref[i] ? SLOW_RATE : 1;
+  a.play().catch(() => {});
+  audioPaused = false;
+  refreshListenBtn(i);
+  highlightAt(i, arr[wi][0]);
+}
+function stopPlay(){
+  if (audioEl){ audioEl.pause(); try { audioEl.currentTime = 0; } catch(e){} }
+  clearHighlight();
+  setSpeakingIdx(-1);
 }
 function audioSrc(i){ return story.audio.replace(/\/+$/,'') + '/' + i + '.mp3'; }
 function listenLabel(i){
@@ -4435,6 +4477,7 @@ function refreshListenBtn(i){ const b = sentBtn(i, 'listen'); if (b) b.textConte
 
 function setSpeakingIdx(i){
   if (speakingIdx >= 0 && speakingIdx !== i) { const b = sentBtn(speakingIdx, 'listen'); if (b) b.textContent = '🔊 Listen'; }
+  if (i !== speakingIdx) clearHighlight();
   speakingIdx = i;
   audioPaused = false;
   refreshListenBtn(i);
@@ -4527,9 +4570,18 @@ $('text').addEventListener('click', (ev) => {
     if (btn.dataset.a === 'en') toggleEN(i);
     if (btn.dataset.a === 'idiom') toggleIdiom(i);
     if (btn.dataset.a === 'note') toggleNote(i);
+    if (btn.dataset.a === 'stop') stopPlay();
     return;
   }
-  if (w && sent) { showPop(w); focusSent(+sent.dataset.i, false); ev.stopPropagation(); return; }
+  if (w && sent) {
+    const i = +sent.dataset.i;
+    if (story.audio && speakingIdx === i && audioEl && !audioEl.paused && w.dataset.wi !== undefined) {
+      seekToWord(i, +w.dataset.wi);          // while reading: tap a word to jump there
+    } else {
+      showPop(w); focusSent(i, false);       // otherwise: look the word up
+    }
+    ev.stopPropagation(); return;
+  }
   if (sent) focusSent(+sent.dataset.i, false);
 });
 
@@ -4922,6 +4974,10 @@ function loadStory(s){
   speakingIdx = -1;
   slowPref = {};
   story = s;
+  wordTimes = null; hlWi = -1;
+  if (s.audio){
+    fetch(s.audio.replace(/\/+$/,'') + '/align.json').then(r => r.ok ? r.json() : null).then(d => { wordTimes = d; }).catch(() => {});
+  }
   $('trBtn').style.display = s.sentences.some(x => x.tr) ? '' : 'none';
   activeSimplify = simplifyConfig(s);
   const pb = $('plainBtn');

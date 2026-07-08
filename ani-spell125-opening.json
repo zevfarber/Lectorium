@@ -7,13 +7,24 @@
   "script": "Egyptian hieroglyphs",
   "dir": "ltr",
   "provisional": false,
-  "source": "Papyrus of Ani (British Museum EA 10470), Book of the Dead Spell 125B — the 42 declarations of innocence addressed one by one to the assessor gods. Hieroglyphs transcribed from E. A. W. Budge, The Papyrus of Ani (1895), interlinear text, Plates XXXI-XXXII (pp. 198-203); Budge's transliteration and English gloss consulted as a meaning-check. Transliteration in the Leiden Unified convention; translation made fresh from the original grammar. Shown left-to-right; the papyrus runs right-to-left. Pronunciation convention: conventional Egyptological (langCode null, no TTS).",
+  "source": "Papyrus of Ani (British Museum EA 10470), Book of the Dead Spell 125B — the 42 declarations of innocence addressed one by one to the assessor gods. Hieroglyphs transcribed from E. A. W. Budge, The Papyrus of Ani (1895), interlinear text, Plates XXXI-XXXII (pp. 198-203); Budge's transliteration and English gloss consulted as a meaning-check. Transliteration in the Leiden Unified convention; translation made fresh from the original grammar. Shown left-to-right; the papyrus runs right-to-left. Pronunciation convention: conventional Egyptological (langCode null, no TTS). Readable layer (\"say\"): a per-word vocalization index-aligned to the transliteration tokens, giving the conventional Egyptological reading (after Allen/Gardiner) — a neutral \"e\" is inserted between consonants; ꜣ, ꜥ → a; w → u/w; j, i → i; y → y; ṯ → tj; ḏ → dj; ḫ/ẖ → kh; š → sh; ḥ/h → h; q → q; z → s. Divine names take the standard modern form where a recognizable one exists (Bastet, Nefertem, Ptah, Atum, Min); otherwise names and toponyms are the rule-based vocalization of the Egyptian. This is an artificial teaching pronunciation (vowels are not reconstructed). It does double duty: the human-readable line shown via the reader's script toggle, and the input for the one-time synthesized audio. Budge's older vocalizations are not used in the reader (kept only as a meaning-check). No browser TTS (langCode null).",
   "about": "Spell 125B, the famous 'Negative Confession': the dead person declares innocence before 42 assessor gods, one at a time — 'Hail, [god], who comes forth from [place]: I have not [sin].' All 42 declarations are here, each with hieroglyphs, transliteration, and translation. The hieroglyphs are transcribed from Budge's 1895 plates of the Papyrus of Ani; the transliteration follows the Leiden convention, and the translations are made fresh from the original. Shown left-to-right for reading; on the papyrus the text runs right-to-left.",
   "sentences": [
     {
       "p": true,
       "t": "𓇋 𓅱𓋴𓐍𓈖𓅓𓏏𓂻 𓉐𓂻 𓅓 𓉺𓊖 𓂜 𓁹 𓀀 𓇋𓋴𓆑𓏏𓅪",
       "tr": "i wsḫ-nmtt pr m iwnw n ir ·i isft",
+      "say": [
+        "i",
+        "Usekh-nemtet",
+        "per",
+        "em",
+        "Iunu",
+        "en",
+        "ir",
+        "i",
+        "isefet"
+      ],
       "l": "hail · Wide-strider · coming-forth · from · Heliopolis · not · do · I · wrong",
       "i": "Hail, Wide-strider, who comes forth from Heliopolis: I have not done wrong.",
       "n": "The template for every one of the 42 declarations: 'Hail, [god], who comes forth from [place]: I have not [sin].' After a few you will read straight past the frame and just watch the god, the place, and the sin change. wsḫ-nmtt = 'wide of stride'; iwnw is Heliopolis (Budge's 'Annu'); isft, 'wrong / falsehood', is the opposite of maꜥat."
@@ -21,6 +32,16 @@
     {
       "t": "𓇋 𓎛𓊪𓏏𓊮 𓉐𓂻 𓅓 𓐍𓂋𓂝𓎛𓄿𓊖 𓂜 𓂝𓅱𓄿𓂡 𓀀",
       "tr": "i ḥpt-sšt pr m ḫr-ꜥḥꜣ n ꜥwꜣ ·i",
+      "say": [
+        "i",
+        "Hepet-seshet",
+        "per",
+        "em",
+        "Kher-aha",
+        "en",
+        "awa",
+        "i"
+      ],
       "l": "hail · Embracer-of-flame · coming-forth · from · Kher-aha · not · plunder · I",
       "i": "Hail, Embracer-of-flame, who comes forth from Kher-aha: I have not plundered.",
       "n": "ḥpt-sšt = 'embracer of flame' (Budge: 'Hept, embraced with flame'). ḫr-ꜥḥꜣ, Kher-aha, is an old district by the Nile near Heliopolis (Old Cairo). ꜥwꜣ, 'plunder, rob', is the very verb from the first draft — here in its real setting."
@@ -28,6 +49,16 @@
     {
       "t": "𓇋 𓆑𓈖𓍿𓅱𓀭 𓉐𓂻 𓅓 𓐍𓏇𓏌𓅱𓊖 𓂜 𓍿𓄿𓅱𓂡 𓀀",
       "tr": "i fnṯw pr m ḫmnw n ṯꜣw ·i",
+      "say": [
+        "i",
+        "Fenetju",
+        "per",
+        "em",
+        "Khemenu",
+        "en",
+        "tjau",
+        "i"
+      ],
       "l": "hail · Fenti · coming-forth · from · Hermopolis · not · steal · I",
       "i": "Hail, Fenti, who comes forth from Hermopolis: I have not stolen.",
       "n": "fnṯw, 'the Nose' (Budge 'Fenti'), a god named for the nose. ḫmnw is Hermopolis, the 'city of the Eight' primeval gods. ṯꜣw = 'steal, take away'."
@@ -35,6 +66,17 @@
     {
       "t": "𓇋 𓂝𓅓𓈙𓅱𓏏 𓉐𓂻 𓅓 𓈎𓂋𓏏𓊖 𓂜 𓋴𓅓𓄿𓌪 𓀀 𓂋𓍿𓀀𓁐𓏥",
       "tr": "i ꜥm-ḫꜣibit pr m qrt n smꜣ ·i rmṯ",
+      "say": [
+        "i",
+        "Am-khaibit",
+        "per",
+        "em",
+        "Qeret",
+        "en",
+        "sema",
+        "i",
+        "remetj"
+      ],
       "l": "hail · Eater-of-shades · coming-forth · from · Qernet · not · slay · I · men",
       "i": "Hail, Eater-of-shades, who comes forth from Qernet: I have not slain men.",
       "n": "ꜥm-ḫꜣibit = 'eater of shades' — one of the more sinister assessors. smꜣ = 'slay, kill'; rmṯ = 'people, mankind'. Budge marks the men-sign 'twice', i.e. written to mean people in general."
@@ -42,6 +84,17 @@
     {
       "t": "𓇋 𓈖𓎛𓄿𓁷 𓉐𓂻 𓅓 𓂋𓄿𓊃𓏏𓄿𓅱𓈉 𓂜 𓎛𓆓𓏏 𓀀 𓂧𓃀𓎛𓏏𓐁",
       "tr": "i nḥꜣ-ḥr pr m rꜣ-sṯꜣw n ḥḏ ·i dbḥ",
+      "say": [
+        "i",
+        "Neha-her",
+        "per",
+        "em",
+        "Ra-setjau",
+        "en",
+        "hedj",
+        "i",
+        "debeh"
+      ],
       "l": "hail · Dangerous-face · coming-forth · from · Rosetau · not · defraud · I · offerings",
       "i": "Hail, Dangerous-face, who comes forth from Rosetau: I have not defrauded the offerings.",
       "n": "nḥꜣ-ḥr = 'fierce / dangerous of face' (Budge 'Neha-hra'). rꜣ-sṯꜣw, Rosetau, is the necropolis realm of Sokar near Giza. ḥḏ = 'damage, defraud'; dbḥ, the offerings that are due."
@@ -49,6 +102,16 @@
     {
       "t": "𓇋 𓃭𓃭𓏏𓄛 𓉐𓂻 𓅓 𓊪𓏏𓇯 𓂜 𓐍𓃀𓄿 𓀀",
       "tr": "i rwti pr m pt n ḫbꜣ ·i",
+      "say": [
+        "i",
+        "Ruti",
+        "per",
+        "em",
+        "pet",
+        "en",
+        "kheba",
+        "i"
+      ],
       "l": "hail · Double-Lion · coming-forth · from · sky · not · diminish · I",
       "i": "Hail, Double-Lion, who comes forth from heaven: I have not diminished the oblations.",
       "n": "rwti (Budge 'Rereti'), the 'Double Lion' — the twin lions Shu and Tefnut, guardians of the horizon; here the god comes forth from the sky (pt). ḫbꜣ = 'diminish, reduce'. Budge restores the object '[oblations]' from parallel copies — the sin is stinting the gods' food-offerings."
@@ -56,6 +119,17 @@
     {
       "t": "𓇋 𓁹𓆑 𓉐𓂻 𓅓 𓊃𓄿𓅱𓏏𓊖 𓂜 𓍿𓄿𓂡 𓀀 𓆱𓏏𓊹",
       "tr": "i mꜣꜣ-f pr m sꜣwt n ṯꜣ ·i ḫt-nṯr",
+      "say": [
+        "i",
+        "Maa-ef",
+        "per",
+        "em",
+        "Saut",
+        "en",
+        "tja",
+        "i",
+        "khet-netjer"
+      ],
       "l": "hail · Whose eyes are of fire · coming-forth · from · Asyut · not · despoil · I · god's property",
       "i": "Hail, Whose eyes are of fire, who comes forth from Asyut: I have not despoiled the property of the god.",
       "n": "mꜣꜣ-f — 'Whose eyes are of fire'; from Asyut. The sin: I have not despoiled the property of the god."
@@ -63,6 +137,16 @@
     {
       "t": "𓇋 𓈖𓃀𓄿𓊮 𓉐𓂻 𓅓 𓐍𓏏𓐍𓏏𓊖 𓂜 𓎼𓂋𓎼𓀁 𓀀",
       "tr": "i nbꜣ pr m ḫtḫt n grg ·i",
+      "say": [
+        "i",
+        "Neba",
+        "per",
+        "em",
+        "Khetkhet",
+        "en",
+        "gereg",
+        "i"
+      ],
       "l": "hail · Flame · coming-forth · from · Khetkhet · not · tell-lies · I",
       "i": "Hail, Flame, who comes forth from Khetkhet: I have not told lies.",
       "n": "nbꜣ — 'Flame'; from Khetkhet. The sin: I have not told lies."
@@ -70,6 +154,17 @@
     {
       "t": "𓇋 𓋴𓍿𓈎𓋴𓅱 𓉐𓂻 𓅓 𓈖𓈖𓇓𓅱𓊖 𓂜 𓈖𓎛𓅓𓂡 𓀀 𓂝𓈎𓅱𓏒",
       "tr": "i sṯ-qsw pr m nni-nsw n nḥm ·i ꜥqw",
+      "say": [
+        "i",
+        "Set-qesu",
+        "per",
+        "em",
+        "Neni-nesu",
+        "en",
+        "nehem",
+        "i",
+        "aqu"
+      ],
       "l": "hail · Bone breaker · coming-forth · from · Herakleopolis · not · carry-off · I · food",
       "i": "Hail, Bone breaker, who comes forth from Herakleopolis: I have not carried off food.",
       "n": "sṯ-qsw — 'Bone breaker'; from Herakleopolis. The sin: I have not carried off food."
@@ -77,6 +172,16 @@
     {
       "t": "𓇋 𓅱𓏏𓅱𓊮 𓉐𓂻 𓅓 𓉗𓂓𓊪𓏏𓎛 𓂜 𓎡𓈖𓂡 𓀀",
       "tr": "i wtw-nsr pr m ḥwt-kꜣ-ptḥ n kn ·i",
+      "say": [
+        "i",
+        "Utu-neser",
+        "per",
+        "em",
+        "Hut-ka-Ptah",
+        "en",
+        "ken",
+        "i"
+      ],
       "l": "hail · Flame shooter · coming-forth · from · Memphis · not · do-violence · I",
       "i": "Hail, Flame shooter, who comes forth from Memphis: I have not done violence.",
       "n": "wtw-nsr — 'Flame shooter'; from Memphis. The sin: I have not done violence."
@@ -84,6 +189,16 @@
     {
       "t": "𓇋 𓈎𓂋𓏏𓏭 𓉐𓂻 𓅓 𓋀𓏏𓈉 𓂜 𓈖𓎡𓂺 𓀀",
       "tr": "i qrti pr m imntt n nk ·i",
+      "say": [
+        "i",
+        "Qerti",
+        "per",
+        "em",
+        "imentet",
+        "en",
+        "nek",
+        "i"
+      ],
       "l": "hail · Qerti · coming-forth · from · the West · not · fornicate · I",
       "i": "Hail, Qerti, who comes forth from the West: I have not committed fornication.",
       "n": "qrti — 'Qerti'; from the West. The sin: I have not committed fornication."
@@ -91,6 +206,16 @@
     {
       "t": "𓇋 𓁷𓆑𓄂𓆑 𓉐𓂻 𓅓 𓏏𓊪𓎛𓏏𓉐𓆑 𓂜 𓋴𓂋𓅓𓁿 𓀀",
       "tr": "i ḥr-f-ḥꜣ-f pr m tpḥt-f n srmi ·i",
+      "say": [
+        "i",
+        "Her-ef-ha-ef",
+        "per",
+        "em",
+        "tepehet-ef",
+        "en",
+        "seremi",
+        "i"
+      ],
       "l": "hail · His face behind him · coming-forth · from · his cavern · not · make-weep · I",
       "i": "Hail, His face behind him, who comes forth from his cavern: I have not made anyone weep.",
       "n": "ḥr-f-ḥꜣ-f — 'His face behind him'; from his cavern. The sin: I have not made anyone weep."
@@ -98,6 +223,17 @@
     {
       "t": "𓇋 𓃀𓄿𓋴𓏏𓆇 𓉐𓂻 𓅓 𓈙𓏏𓄿𓏏𓉐 𓂜 𓅱𓈖𓅓𓁃 𓀀 𓄣",
       "tr": "i bꜣsti pr m štꜣt n wnm ·i ib",
+      "say": [
+        "i",
+        "Bastet",
+        "per",
+        "em",
+        "shetat",
+        "en",
+        "wenem",
+        "i",
+        "ib"
+      ],
       "l": "hail · Bast · coming-forth · from · the hidden place · not · devour · I · heart",
       "i": "Hail, Bast, who comes forth from the hidden place: I have not been rapacious (devoured the heart).",
       "n": "bꜣsti — 'Bast'; from the hidden place. The sin: I have not been rapacious (devoured the heart)."
@@ -105,6 +241,16 @@
     {
       "t": "𓇋 𓏏𓄿𓊮𓂾 𓉐𓂻 𓅓 𓐍𓐍𓅱𓇰 𓂜 𓏏𓎛𓂻 𓀀",
       "tr": "i tꜣ-rd pr m ꜣḫḫ n th ·i",
+      "say": [
+        "i",
+        "Ta-red",
+        "per",
+        "em",
+        "Akhekh",
+        "en",
+        "teh",
+        "i"
+      ],
       "l": "hail · Fiery-legs · coming-forth · from · the darkness · not · transgress · I",
       "i": "Hail, Fiery-legs, who comes forth from the darkness: I have not transgressed.",
       "n": "tꜣ-rd — 'Hot/fiery of legs' (Budge: 'Blazing legs'); comes forth from ꜣḫḫ, 'the darkness' (Budge's Akhekh). th = 'to transgress, overstep'."
@@ -112,6 +258,17 @@
     {
       "t": "𓇋 𓂝𓅓𓋴𓈖𓆑 𓉐𓂻 𓅓 𓈖𓅓𓅓𓏏𓉐 𓂜 𓁹 𓀀 𓎛𓈖𓅱𓏏",
       "tr": "i ꜥm-snf pr m nmmt n ir ·i hn",
+      "say": [
+        "i",
+        "Am-senef",
+        "per",
+        "em",
+        "nemmet",
+        "en",
+        "ir",
+        "i",
+        "hen"
+      ],
       "l": "hail · Blood-eater · coming-forth · from · the-block · not · commit · I · deceit",
       "i": "Hail, Blood-eater, who comes forth from the block: I have not acted deceitfully.",
       "n": "ꜥm-snf — 'Eater of blood' (Budge: Am-snef); comes forth from nmmt, 'the block / place of slaughter'. The sin: I have not acted deceitfully."
@@ -119,6 +276,17 @@
     {
       "t": "𓇋 𓂝𓅓𓄡𓊃𓎡 𓉐𓂻 𓅓 𓅓𓄿𓃀𓏏𓊖 𓂜 𓅱𓈙𓂡 𓀀 𓎛𓈖𓃀𓏏𓈅",
       "tr": "i ꜥm-bsk pr m mꜣbt n wš ·i ḥnbt",
+      "say": [
+        "i",
+        "Am-besek",
+        "per",
+        "em",
+        "Mabet",
+        "en",
+        "wesh",
+        "i",
+        "henbet"
+      ],
       "l": "hail · Eater-of-entrails · coming-forth · from · Mabet · not · lay-waste · I · ploughed-land",
       "i": "Hail, Eater-of-entrails, who comes forth from Mabet: I have not laid waste ploughed land.",
       "n": "ꜥm-bsk — 'Eater of entrails' (Budge: Am-besek); from Mabet. wš = 'lay waste'; ḥnbt, ploughed/cultivated land."
@@ -126,6 +294,16 @@
     {
       "t": "𓇋 𓎟𓐙𓏏𓆄 𓉐𓂻 𓅓 𓐙𓐙𓏏𓏭𓊖 𓂜 𓅓𓏏𓅓𓏏𓀁 𓀀",
       "tr": "i nb-mꜣꜥt pr m mꜣꜥti n mtmt ·i",
+      "say": [
+        "i",
+        "Neb-maat",
+        "per",
+        "em",
+        "Maati",
+        "en",
+        "metmet",
+        "i"
+      ],
       "l": "hail · Lord of Maat · coming-forth · from · Maati · not · eavesdrop · I",
       "i": "Hail, Lord of Maat, who comes forth from Maati: I have not been an eavesdropper.",
       "n": "nb-mꜣꜥt — 'Lord of Maat'; from Maati. The sin: I have not been an eavesdropper."
@@ -133,6 +311,16 @@
     {
       "t": "𓇋 𓍿𓈖𓅓𓅱𓂾 𓉐𓂻 𓅓 𓃀𓄿𓋴𓏏𓊖 𓂜 𓈝𓂋 𓀀",
       "tr": "i ṯnmiw pr m bꜣst n šm-r ·i",
+      "say": [
+        "i",
+        "Tjenemiu",
+        "per",
+        "em",
+        "Baset",
+        "en",
+        "shem-er",
+        "i"
+      ],
       "l": "hail · Backward strider · coming-forth · from · Bubastis · not · set-mouth-going · I",
       "i": "Hail, Backward strider, who comes forth from Bubastis: I have not spoken against anyone in anger.",
       "n": "ṯnmiw — 'Backward strider'; from Bubastis. The sin: I have not spoken against anyone in anger."
@@ -140,6 +328,16 @@
     {
       "t": "𓇋 𓋴𓂋𓏏𓏭𓆙 𓉐𓂻 𓅓 𓉺𓊖 𓂜 𓐍𓂝𓂋𓀁 𓀀",
       "tr": "i srti pr m iwnw n ḫꜥr ·i",
+      "say": [
+        "i",
+        "Serti",
+        "per",
+        "em",
+        "Iunu",
+        "en",
+        "khaar",
+        "i"
+      ],
       "l": "hail · Sertiu · coming-forth · from · Heliopolis · not · be-wroth · I",
       "i": "Hail, Sertiu, who comes forth from Heliopolis: I have not been angry without just cause.",
       "n": "srti — 'Sertiu'; from Heliopolis. The sin: I have not been angry without just cause."
@@ -147,6 +345,17 @@
     {
       "t": "𓇋 𓏏𓅱𓏏𓅱𓆑𓀐 𓉐𓂻 𓅓 𓄿𓏏𓏭𓊖 𓂜 𓈖𓎡𓂺 𓀀 𓍔𓏏𓁐",
       "tr": "i tuti-f pr m ꜣti n nk ·i ḥmt",
+      "say": [
+        "i",
+        "Tuti-ef",
+        "per",
+        "em",
+        "Ati",
+        "en",
+        "nek",
+        "i",
+        "hemet"
+      ],
       "l": "hail · Doubly wicked · coming-forth · from · Ati · not · defile · I · a wife",
       "i": "Hail, Doubly wicked, who comes forth from Ati: I have not committed adultery.",
       "n": "tuti-f — 'Doubly wicked'; from Ati. The sin: I have not committed adultery."
@@ -154,6 +363,17 @@
     {
       "t": "𓇋 𓅱𓄿𓅓𓅓𓏏𓆙 𓉐𓂻 𓅓 𓐍𓃀𓏏𓉐 𓂜 𓈖𓎡𓂺 𓀀 𓍔𓏏𓁐",
       "tr": "i wꜣmmti pr m ẖbt n nk ·i ḥmt",
+      "say": [
+        "i",
+        "Wamemti",
+        "per",
+        "em",
+        "khebet",
+        "en",
+        "nek",
+        "i",
+        "hemet"
+      ],
       "l": "hail · Uamemti · coming-forth · from · the place of execution · not · defile · I · a wife",
       "i": "Hail, Uamemti, who comes forth from the place of execution: I have not lain with another man's wife.",
       "n": "wꜣmmti — 'Uamemti'; from the place of execution. The sin: I have not lain with another man's wife."
@@ -161,6 +381,16 @@
     {
       "t": "𓇋 𓁹𓈖𓏏𓏭𓆑 𓉐𓂻 𓅓 𓉐𓏠𓈖𓅱𓊖 𓂜 𓏏𓄿𓏏𓄿𓂡 𓀀",
       "tr": "i mꜣꜣ-int-f pr m pr-mnw n tꜣtꜣ ·i",
+      "say": [
+        "i",
+        "Maa-inet-ef",
+        "per",
+        "em",
+        "Per-Min",
+        "en",
+        "tata",
+        "i"
+      ],
       "l": "hail · Watcher-of-what-is-brought · coming-forth · from · Panopolis · not · pollute · I",
       "i": "Hail, Watcher-of-what-is-brought-to-him, who comes forth from Panopolis: I have not polluted myself.",
       "n": "mꜣꜣ-int-f — 'Watcher of what is brought to him' (Budge: Maa-antu-f); comes forth from pr-mnw, Panopolis (Akhmim). tꜣtꜣ = 'to pollute, defile (oneself)'."
@@ -168,6 +398,17 @@
     {
       "t": "𓇋 𓁷𓅨 𓉐𓂻 𓅓 𓄿𓅓𓅓𓏏𓊖 𓂜 𓁹 𓀀 𓉔𓂋𓅱𓀐",
       "tr": "i ḥr-wr pr m ꜣmmt n ir ·i hrw",
+      "say": [
+        "i",
+        "Her-ur",
+        "per",
+        "em",
+        "Amemt",
+        "en",
+        "ir",
+        "i",
+        "heru"
+      ],
       "l": "hail · Chief-of-the-mighty · coming-forth · from · Amemt · not · cause · I · terror",
       "i": "Hail, Chief-of-the-mighty, who comes forth from Amemt: I have not caused terror.",
       "n": "ḥr-wr — 'Chief of the mighty' (Budge: Her-uru); comes forth from Amemt (ꜣmmt). The sin: I have not caused terror (ir hrw)."
@@ -175,6 +416,16 @@
     {
       "t": "𓇋 𓐍𓅓𓇋𓅱𓀭 𓉐𓂻 𓅓 𓎡𓊃𓇋𓅱𓊖 𓂜 𓏏𓎛𓂻 𓀀",
       "tr": "i ḫmiw pr m ksiw n th ·i",
+      "say": [
+        "i",
+        "Khemiu",
+        "per",
+        "em",
+        "Kesiu",
+        "en",
+        "teh",
+        "i"
+      ],
       "l": "hail · Khemiu · coming-forth · from · Kesiu · not · transgress · I",
       "i": "Hail, Khemiu, who comes forth from Kesiu: I have not transgressed / committed offence.",
       "n": "ḫmiw — 'Khemiu'; from Kesiu. The sin: I have not transgressed / committed offence."
@@ -182,6 +433,17 @@
     {
       "t": "𓇋 𓋴𓈙𓏏𓀁 𓉐𓂻 𓅓 𓅨𓂋𓏏𓊖 𓂜 𓏏𓄿𓊮 𓀀 𓄣",
       "tr": "i sšt-ḫrw pr m wryt n tꜣ ·i ib",
+      "say": [
+        "i",
+        "Seshet-kheru",
+        "per",
+        "em",
+        "Weryet",
+        "en",
+        "ta",
+        "i",
+        "ib"
+      ],
       "l": "hail · Disposer of speech · coming-forth · from · Urit · not · be-hot · I · of heart",
       "i": "Hail, Disposer of speech, who comes forth from Urit: I have not been hot-tempered.",
       "n": "sšt-ḫrw — 'Disposer of speech'; from Urit. The sin: I have not been hot-tempered."
@@ -189,6 +451,17 @@
     {
       "t": "𓇋 𓐍𓈖𓀔 𓉐𓂻 𓅓 𓅱𓄿𓃀𓊖 𓂜 𓋴𓐍𓀁 𓀀 𓐙𓏏𓆄",
       "tr": "i nḫnw pr m wꜣb n sḫ ·i mꜣꜥt",
+      "say": [
+        "i",
+        "Nekhenu",
+        "per",
+        "em",
+        "Wab",
+        "en",
+        "sekh",
+        "i",
+        "maat"
+      ],
       "l": "hail · Babe · coming-forth · from · Uab · not · be-deaf · I · to truth",
       "i": "Hail, Babe, who comes forth from Uab: I have not turned a deaf ear to the words of truth.",
       "n": "nḫnw — 'Babe'; from Uab. The sin: I have not turned a deaf ear to the words of truth."
@@ -196,6 +469,16 @@
     {
       "t": "𓇋 𓎡𓈖𓅓𓏏𓏭𓀭 𓉐𓂻 𓅓 𓎡𓈖𓅓𓏏𓊖 𓂜 𓋴𓈖𓈙𓀁 𓀀",
       "tr": "i knmti pr m knmt n snš ·i",
+      "say": [
+        "i",
+        "Kenemti",
+        "per",
+        "em",
+        "Kenemet",
+        "en",
+        "senesh",
+        "i"
+      ],
       "l": "hail · Kenemti · coming-forth · from · Kenemet · not · cause-grief · I",
       "i": "Hail, Kenemti, who comes forth from Kenemet: I have not caused grief.",
       "n": "knmti — 'Kenemti'; from Kenemet. The sin: I have not caused grief."
@@ -203,6 +486,17 @@
     {
       "t": "𓇋 𓇋𓈖𓊵𓏏𓊪𓆑 𓉐𓂻 𓅓 𓊃𓄿𓅱𓊖 𓂜 𓁹 𓀀 𓂝𓆓𓄿𓀐",
       "tr": "i in-ḥtp-f pr m sꜣw n ir ·i ꜥḏꜣ",
+      "say": [
+        "i",
+        "In-hetep-ef",
+        "per",
+        "em",
+        "Sau",
+        "en",
+        "ir",
+        "i",
+        "adja"
+      ],
       "l": "hail · Bringer of his offering · coming-forth · from · Sais · not · act · I · insolence",
       "i": "Hail, Bringer of his offering, who comes forth from Sais: I have not acted insolently.",
       "n": "in-ḥtp-f — 'Bringer of his offering'; from Sais. The sin: I have not acted insolently."
@@ -210,6 +504,17 @@
     {
       "t": "𓇋 𓋴𓂋𓐍𓂋𓅱𓀁 𓉐𓂻 𓅓 𓃹𓈖𓊃𓏏𓊖 𓂜 𓋴𓐍𓈖𓂡 𓀀 𓐍𓈖𓈖𓅱𓀐",
       "tr": "i sr-ḫrw pr m wnst n sḫn ·i ḫnnw",
+      "say": [
+        "i",
+        "Ser-kheru",
+        "per",
+        "em",
+        "Weneset",
+        "en",
+        "sekhen",
+        "i",
+        "khenenu"
+      ],
       "l": "hail · Disposer of speech · coming-forth · from · Unaset · not · stir-up · I · strife",
       "i": "Hail, Disposer of speech, who comes forth from Unaset: I have not stirred up strife.",
       "n": "sr-ḫrw — 'Disposer of speech'; from Unaset. The sin: I have not stirred up strife."
@@ -217,6 +522,16 @@
     {
       "t": "𓇋 𓎟𓁷𓏥 𓉐𓂻 𓅓 𓈖𓆓𓆑𓏏𓊖 𓂜 𓅱𓋴𓍿𓈖𓂻 𓀀",
       "tr": "i nb-ḥrw pr m nṯft n wsṯn ·i",
+      "say": [
+        "i",
+        "Neb-heru",
+        "per",
+        "em",
+        "Netjefet",
+        "en",
+        "wesetjen",
+        "i"
+      ],
       "l": "hail · Lord of faces · coming-forth · from · Netchefet · not · judge-hastily · I",
       "i": "Hail, Lord of faces, who comes forth from Netchefet: I have not judged hastily.",
       "n": "nb-ḥrw — 'Lord of faces'; from Netchefet. The sin: I have not judged hastily."
@@ -224,6 +539,16 @@
     {
       "t": "𓇋 𓋴𓐍𓂋𓇋𓅱𓀭 𓉐𓂻 𓅓 𓅱𓏏𓈖𓊖 𓂜 𓋴𓅓𓏏𓅓𓏏𓀁 𓀀",
       "tr": "i sḫriw pr m wtn n smtmt ·i",
+      "say": [
+        "i",
+        "Sekheriu",
+        "per",
+        "em",
+        "Weten",
+        "en",
+        "semetmet",
+        "i"
+      ],
       "l": "hail · Sekheriu · coming-forth · from · Uten · not · eavesdrop · I",
       "i": "Hail, Sekheriu, who comes forth from Uten: I have not been an eavesdropper.",
       "n": "sḫriw — Sekheriu; comes forth from Uten (wtn). smtmt = 'to eavesdrop, pry into others' affairs'."
@@ -231,6 +556,16 @@
     {
       "t": "𓇋 𓎟𓂝𓃀𓅱𓏭 𓉐𓂻 𓅓 𓊃𓄿𓅱𓏏𓊖 𓂜 𓂝𓈙𓊤𓀁 𓀀",
       "tr": "i nb-ꜥbwi pr m sꜣwti n ꜥš-ḫrw ·i",
+      "say": [
+        "i",
+        "Neb-abui",
+        "per",
+        "em",
+        "Sauti",
+        "en",
+        "ash-kheru",
+        "i"
+      ],
       "l": "hail · Lord-of-two-horns · coming-forth · from · Sais · not · be-loud-of-voice · I",
       "i": "Hail, Lord-of-two-horns, who comes forth from Sais: I have not multiplied my words.",
       "n": "nb-ꜥbwi — 'Lord of two horns' (Budge: Neb-abui); from Sais (sꜣwti). ꜥš-ḫrw, literally 'loud of voice' — to talk overmuch."
@@ -238,6 +573,17 @@
     {
       "t": "𓇋 𓄤𓏏𓅓𓀭 𓉐𓂻 𓅓 𓉗𓂓𓊪𓏏𓎛 𓂜 𓁹 𓀀 𓃀𓇋𓈖𓅪",
       "tr": "i nfr-tm pr m ḥwt-kꜣ-ptḥ n ir ·i bin",
+      "say": [
+        "i",
+        "Nefertem",
+        "per",
+        "em",
+        "Hut-ka-Ptah",
+        "en",
+        "ir",
+        "i",
+        "bin"
+      ],
       "l": "hail · Nefertem · coming-forth · from · Memphis · not · do · I · evil",
       "i": "Hail, Nefertem, who comes forth from Memphis: I have not done evil.",
       "n": "nfr-tm — 'Nefertem'; from Memphis. The sin: I have not done evil."
@@ -245,6 +591,17 @@
     {
       "t": "𓇋 𓏏𓅓𓀭𓇳 𓉐𓂻 𓅓 𓊽𓅱𓊖 𓂜 𓋴𓎛𓅱𓂋𓀁 𓀀 𓇓𓏏𓈖",
       "tr": "i tm-m-trw pr m ḏdw n sḥwr ·i nswt",
+      "say": [
+        "i",
+        "Atum-em-teru",
+        "per",
+        "em",
+        "Djedu",
+        "en",
+        "sehwer",
+        "i",
+        "nesut"
+      ],
       "l": "hail · Tem in his seasons · coming-forth · from · Busiris · not · curse · I · the king",
       "i": "Hail, Tem in his seasons, who comes forth from Busiris: I have not cursed the king.",
       "n": "tm-m-trw — 'Tem in his seasons'; from Busiris. The sin: I have not cursed the king."
@@ -252,6 +609,17 @@
     {
       "t": "𓇋 𓁹𓅓𓄣𓆑 𓉐𓂻 𓅓 𓏏𓃀𓅱𓊖 𓂜 𓂋𓎛𓈖𓈗 𓀀 𓈗",
       "tr": "i iri-m-ib-f pr m tbw n rḥn ·i mw",
+      "say": [
+        "i",
+        "Iri-em-ib-ef",
+        "per",
+        "em",
+        "Tebu",
+        "en",
+        "rehen",
+        "i",
+        "mu"
+      ],
       "l": "hail · Working in his heart · coming-forth · from · Tebu · not · foul · I · water",
       "i": "Hail, Working in his heart, who comes forth from Tebu: I have not fouled water.",
       "n": "iri-m-ib-f — 'Working in his heart'; from Tebu. The sin: I have not fouled water."
@@ -259,6 +627,17 @@
     {
       "t": "𓇋 𓐖𓎛𓇋𓀭 𓉐𓂻 𓅓 𓏌𓅱𓈗 𓂜 𓋴𓈎𓄿𓂝 𓀀 𓊤",
       "tr": "i ꜥḥi pr m nw n sqꜣ ·i ḫrw",
+      "say": [
+        "i",
+        "Ahi",
+        "per",
+        "em",
+        "Nu",
+        "en",
+        "seqa",
+        "i",
+        "kheru"
+      ],
       "l": "hail · Sistrum bearer · coming-forth · from · Nu · not · make-loud · I · voice",
       "i": "Hail, Sistrum bearer, who comes forth from Nu: I have not spoken arrogantly (raised my voice).",
       "n": "ꜥḥi — 'Sistrum bearer'; from Nu. The sin: I have not spoken arrogantly (raised my voice)."
@@ -266,6 +645,17 @@
     {
       "t": "𓇋 𓎗𓂋𓐍𓇋𓏏𓏥 𓉐𓂻 𓅓 𓊃𓄿𓅱𓊖 𓂜 𓋴𓎛𓅱𓂋𓀁 𓀀 𓊹",
       "tr": "i wḏ-rḫyt pr m sꜣw n sḥwr ·i nṯr",
+      "say": [
+        "i",
+        "Wedj-rekhyt",
+        "per",
+        "em",
+        "Sau",
+        "en",
+        "sehwer",
+        "i",
+        "netjer"
+      ],
       "l": "hail · Provider of mankind · coming-forth · from · Sais · not · curse · I · the god",
       "i": "Hail, Provider of mankind, who comes forth from Sais: I have not cursed the god.",
       "n": "wḏ-rḫyt — 'Commander of mankind' (Budge: Uatch-rekhit); from Sais (sꜣw). The sin: I have not cursed God (sḥwr nṯr)."
@@ -273,6 +663,17 @@
     {
       "t": "𓇋 𓈖𓎛𓃀𓂓𓀭 𓉐𓂻 𓅓 𓏏𓊪𓎛𓏏𓉐𓆑 𓂜 𓁹 𓀀 𓊃𓄿𓈎𓂡",
       "tr": "i nḥb-kꜣ pr m tpḥt-f n ir ·i sꜣq",
+      "say": [
+        "i",
+        "Neheb-ka",
+        "per",
+        "em",
+        "tepehet-ef",
+        "en",
+        "ir",
+        "i",
+        "saq"
+      ],
       "l": "hail · Neheb-ka · coming-forth · from · his cavern · not · commit · I · theft",
       "i": "Hail, Neheb-ka, who comes forth from his cavern: I have not committed theft.",
       "n": "nḥb-kꜣ — Neheb-ka; from his cavern (tpḥt-f). The sign is damaged; Budge reads the sin as robbery/theft (sꜣq), with a query."
@@ -280,6 +681,17 @@
     {
       "t": "𓇋 𓈖𓎛𓃀𓄤𓏏𓀭 𓉐𓂻 𓅓 𓏏𓊪𓎛𓏏𓉐𓆑 𓂜 𓎛𓆓𓏏 𓀀 𓊪𓄿𓅱𓏏𓏒𓊹𓊹𓊹",
       "tr": "i nḥb-nfrt pr m tpḥt-f n ḥḏ ·i pꜣwt-nṯrw",
+      "say": [
+        "i",
+        "Neheb-neferet",
+        "per",
+        "em",
+        "tepehet-ef",
+        "en",
+        "hedj",
+        "i",
+        "paut-netjeru"
+      ],
       "l": "hail · Neheb-nefert · coming-forth · from · his cavern · not · defraud · I · gods'-cakes",
       "i": "Hail, Neheb-nefert, who comes forth from his cavern: I have not defrauded the gods of their cake-offerings.",
       "n": "nḥb-nfrt — Neheb-nefert (paired with Neheb-ka just before); from his cavern (tpḥt-f). ḥḏ pꜣwt-nṯrw = to defraud the gods of their pat-cakes (offering-bread)."
@@ -287,6 +699,17 @@
     {
       "t": "𓇋 𓋴𓐍𓂋𓏏𓁶 𓉐𓂻 𓅓 𓎡𓂋𓏏𓉐𓆑 𓂜 𓈖𓎛𓅓𓂡 𓀀 𓐍𓈖𓆑𓅱𓏒",
       "tr": "i sšr-tp pr m krt-f n nḥm ·i ḫnfw",
+      "say": [
+        "i",
+        "Sesher-tep",
+        "per",
+        "em",
+        "keret-ef",
+        "en",
+        "nehem",
+        "i",
+        "khenfu"
+      ],
       "l": "hail · Arranger of the head · coming-forth · from · his shrine · not · carry-away · I · cake offerings",
       "i": "Hail, Arranger of the head, who comes forth from his shrine: I have not stolen the khenfu-cakes of the blessed dead.",
       "n": "sšr-tp — 'Arranger of the head'; from his shrine. The sin: I have not stolen the khenfu-cakes of the blessed dead."
@@ -294,6 +717,17 @@
     {
       "t": "𓇋 𓇋𓈖𓂝𓆑 𓉐𓂻 𓅓 𓐙𓐙𓏏𓏭𓊖 𓂜 𓈖𓎛𓅓𓂡 𓀀 𓂝𓈎𓅱𓏒𓐍𓈖𓀔",
       "tr": "i in-ꜥ-f pr m mꜣꜥti n nḥm ·i ꜥqw-nḫn",
+      "say": [
+        "i",
+        "In-a-ef",
+        "per",
+        "em",
+        "Maati",
+        "en",
+        "nehem",
+        "i",
+        "aqu-nekhen"
+      ],
       "l": "hail · Bringer of his arm · coming-forth · from · the twin city of Maat · not · snatch · I · a child's food",
       "i": "Hail, Bringer of his arm, who comes forth from the twin city of Maat: I have not snatched away the food of children.",
       "n": "in-ꜥ-f — 'Bringer of his arm'; from the twin city of Maat. The sin: I have not snatched away the food of children."
@@ -301,6 +735,17 @@
     {
       "t": "𓇋 𓎛𓆓𓅱𓃀𓎛 𓉐𓂻 𓅓 𓇾𓈙𓈗𓊖 𓂜 𓋴𓐍𓏏𓂡 𓀀 𓊹𓊖𓆑",
       "tr": "i ḥḏ-ꜥbḥw pr m tꜣ-š n sḫt ·i nṯr-niwt-f",
+      "say": [
+        "i",
+        "Hedj-abehu",
+        "per",
+        "em",
+        "ta-she",
+        "en",
+        "sekhet",
+        "i",
+        "netjer-niut-ef"
+      ],
       "l": "hail · White teeth · coming-forth · from · the Lake · not · blaspheme · I · the god of his town",
       "i": "Hail, White teeth, who comes forth from the Lake: I have not blasphemed the god of my city.",
       "n": "ḥḏ-ꜥbḥw — 'White teeth'; from the Lake. The sin: I have not blasphemed the god of my city."
@@ -345,7 +790,7 @@
     "nḥm": "nḥm — to take away, carry off, snatch",
     "ꜥqw": "ꜥqw — food, provisions, bread",
     "wtw-nsr": "wtw-nsr — 'Shooter-forth of flame', 10th assessor",
-    "ḥwt-kꜣ-ptḥ": "ḥwt-kꜣ-ptḥ — (gloss pending)",
+    "ḥwt-kꜣ-ptḥ": "ḥwt-kꜣ-ptḥ — Memphis ('Mansion of the ka of Ptah'; Budge: Het-ka-Ptah)",
     "kn": "kn — to be violent, do harm",
     "qrti": "qrti — Qerti, 11th assessor (Budge: Qererti)",
     "imntt": "imntt — the West, the realm of the dead",
@@ -357,16 +802,10 @@
     "štꜣt": "štꜣt — 'the hidden/secret place'",
     "wnm": "wnm — to eat, devour",
     "ib": "ib — the heart, mind",
-    "ṯꜣ-rti": "ṯꜣ-rti — Ta-reti, 14th assessor (reading to confirm)",
-    "ꜣḫḫw": "ꜣḫḫw — Akhekhu (reading to confirm)",
-    "ꜥwn-ib": "ꜥwn-ib — greed, covetousness",
-    "wnm-snf": "wnm-snf — 'Blood-eater', 15th assessor (reading to confirm)",
-    "ẖnt": "ẖnt — 'the shambles/place of slaughter' (reading to confirm)",
     "hn": "hn — deceit, fraud",
     "ꜥm-bsk": "ꜥm-bsk — 'Eater of entrails', 16th assessor (Budge: Am-besek)",
     "mꜣbt": "mꜣbt — Mabet",
     "wš": "wš — to lay waste, make desolate",
-    "ꜣḥt": "ꜣḥt — arable field, ploughed land",
     "nb-mꜣꜥt": "nb-mꜣꜥt — 'Lord of Maat', 17th assessor",
     "mꜣꜥti": "mꜣꜥti — Maati, the hall/city of the Two Truths",
     "mtmt": "mtmt — to eavesdrop, pry",
@@ -382,10 +821,6 @@
     "ẖbt": "ẖbt — the place of execution",
     "mꜣꜣ-int-f": "mꜣꜣ-int-f — 'Watcher of what is brought to him', the 22nd assessor god (Budge: Maa-antu-f)",
     "pr-mnw": "pr-mnw — Panopolis / Akhmim (Budge: Per-Amsu)",
-    "ꜥbꜥ": "ꜥbꜥ — to pollute, defile (oneself)",
-    "ḥri-sr": "ḥri-sr — 23rd assessor (reading to confirm)",
-    "nḏft": "nḏft — Nedjefet (reading to confirm)",
-    "sšm": "sšm — to cause terror, to lead astray",
     "ḫmiw": "ḫmiw — Khemiu, 24th assessor",
     "ksiw": "ksiw — Kesiu",
     "th": "th — to transgress, overstep",
@@ -409,12 +844,7 @@
     "nb-ḥrw": "nb-ḥrw — 'Lord of faces', 30th assessor",
     "nṯft": "nṯft — Netchefet",
     "wsṯn": "wsṯn — to act/judge with undue haste",
-    "srḫi": "srḫi — Serekhi, 31st assessor (reading to confirm)",
-    "wtnt": "wtnt — Wetenet (reading to confirm)",
-    "sḫꜣ": "sḫꜣ — to pry into, be inquisitive",
-    "nb-ꜣbwi": "nb-ꜣbwi — 'Lord of horns', 32nd assessor (reading to confirm)",
-    "sꜣwti": "sꜣwti — Sauti (reading to confirm)",
-    "wšb": "wšb — to multiply (words), answer overmuch",
+    "sꜣwti": "sꜣwti — Sais (a writing of the town; cf. sꜣw; Budge: Sauti)",
     "nfr-tm": "nfr-tm — Nefertem, 33rd assessor (the lotus-god)",
     "bin": "bin — evil, bad",
     "tm-m-trw": "tm-m-trw — 'Tem in his seasons', 34th assessor",
@@ -429,12 +859,8 @@
     "nw": "nw — Nu, the primeval water",
     "sqꜣ": "sqꜣ — to make high/loud (causative of qꜣi)",
     "ḫrw": "ḫrw — voice",
-    "wḏ-rḫyt": "wḏ-rḫyt — 'Commander of mankind', 37th assessor (reading to confirm)",
+    "wḏ-rḫyt": "wḏ-rḫyt — 'Commander of mankind', the 37th assessor god (Budge: Uatch-rekhit)",
     "nṯr": "nṯr — god",
-    "nḫb-nfrt": "nḫb-nfrt — 38th assessor (reading to confirm)",
-    "ꜥꜣt": "ꜥꜣt — arrogance, insolence",
-    "ḥpi": "ḥpi — Hapi, 39th assessor (reading to confirm)",
-    "tꜣ-mri": "tꜣ-mri — Egypt (reading to confirm)",
     "pꜣwt-nṯrw": "pꜣwt-nṯrw — the cake-offerings of the gods",
     "sšr-tp": "sšr-tp — 'Arranger of the head', 40th assessor",
     "krt-f": "krt-f — 'his shrine/cavern'",
@@ -443,7 +869,7 @@
     "ꜥqw-nḫn": "ꜥqw-nḫn — the food of a child",
     "ḥḏ-ꜥbḥw": "ḥḏ-ꜥbḥw — 'White of teeth', 42nd assessor (Budge: Hetch-abehu)",
     "tꜣ-š": "tꜣ-š — 'the Lake' (the Fayum)",
-    "sḫt": "sḫt — (gloss pending)",
+    "sḫt": "sḫt — to blaspheme, revile (a god)",
     "nṯr-niwt-f": "nṯr-niwt-f — the god of his town",
     "tꜣ-rd": "tꜣ-rd — 'Fiery of legs' (Budge: 'Blazing legs'), the 14th assessor god",
     "ꜣḫḫ": "ꜣḫḫ — 'the darkness' (Budge: Akhekh), the place the 14th god comes forth from",

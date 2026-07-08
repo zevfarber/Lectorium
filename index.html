@@ -709,6 +709,7 @@ const STORIES = [
   "titleEn": "Cinderella",
   "language": "German",
   "langCode": "de-DE",
+  "audio": "audio/aschenputtel",
   "source": "Brüder Grimm, Kinder- und Hausmärchen, 7. Auflage (1857), KHM 21",
   "sentences": [
     {"p": true, "t": "Einem reichen Manne, dem wurde seine Frau krank, und als sie fühlte, daß ihr Ende herankam, rief sie ihr einziges Töchterlein zu sich ans Bett und sprach „liebes Kind, bleibe fromm und gut, so wird dir der liebe Gott immer beistehen, und ich will vom Himmel auf dich herabblicken, und will um dich sein.“",
@@ -4245,6 +4246,7 @@ function fireSpeechEnd(){
 function stopSpeech(){
   if ('speechSynthesis' in window) speechSynthesis.cancel();
   speakingKey = '';
+  if (audioEl){ audioEl.pause(); try { audioEl.currentTime = 0; } catch(e){} }
   fireSpeechEnd();
 }
 function speak(txt, rate, onEnd){
@@ -4409,29 +4411,74 @@ function sentEl(i){ return document.querySelector('.sent[data-i="' + i + '"]'); 
 function sentBtn(i, a){ const el = sentEl(i); return el && el.querySelector('button[data-a="' + a + '"]'); }
 
 /* ---------- sentence playback (buttons show the opposite state) ---------- */
-let speakingIdx = -1;   // which sentence is currently being read aloud
+let speakingIdx = -1;   // which sentence is currently active (playing or paused)
 let slowPref = {};      // per-sentence speed: true = slow
+let audioEl = null;     // reused <audio> element for pre-rendered per-sentence mp3s
+let audioPaused = false;
+const SLOW_RATE = 0.65;
+
+function getAudio(){
+  if (!audioEl){
+    audioEl = new Audio();
+    // when a clip finishes on its own, reset the button back to "Listen"
+    audioEl.addEventListener('ended', () => { if (speakingIdx >= 0 && story && story.audio) setSpeakingIdx(-1); });
+  }
+  return audioEl;
+}
+function audioSrc(i){ return story.audio.replace(/\/+$/,'') + '/' + i + '.mp3'; }
+function listenLabel(i){
+  if (speakingIdx !== i) return '🔊 Listen';
+  if (story && story.audio) return audioPaused ? '▶ Resume' : '⏸ Pause';
+  return '⏹ Stop';
+}
+function refreshListenBtn(i){ const b = sentBtn(i, 'listen'); if (b) b.textContent = listenLabel(i); }
 
 function setSpeakingIdx(i){
-  if (speakingIdx >= 0) { const b = sentBtn(speakingIdx, 'listen'); if (b) b.textContent = '🔊 Listen'; }
+  if (speakingIdx >= 0 && speakingIdx !== i) { const b = sentBtn(speakingIdx, 'listen'); if (b) b.textContent = '🔊 Listen'; }
   speakingIdx = i;
-  if (i >= 0) { const b = sentBtn(i, 'listen'); if (b) b.textContent = '⏹ Stop'; }
+  audioPaused = false;
+  refreshListenBtn(i);
 }
 function playSent(i){
-  if (!story.langCode) return;   // no TTS convention for this language
   const s = story.sentences[i];
+  if (story.audio){                         // pre-rendered audio → real pause/resume
+    const a = getAudio();
+    a.pause();
+    a.src = audioSrc(i);
+    a.playbackRate = slowPref[i] ? SLOW_RATE : 1;
+    a.currentTime = 0;
+    a.play().catch(() => {});
+    setSpeakingIdx(i);
+    return;
+  }
+  if (!story.langCode) return;              // no TTS convention for this language
   const started = speak(s.t, slowPref[i] ? 0.55 : undefined,
     () => { if (speakingIdx === i) setSpeakingIdx(-1); });
   setSpeakingIdx(started ? i : -1);
 }
 function listenAction(i){
-  if (speakingIdx === i) stopSpeech();   // callback resets the button
+  if (story.audio){                         // toggle: play ↔ pause ↔ resume
+    if (speakingIdx === i){
+      const a = getAudio();
+      if (a.paused){ a.play().catch(() => {}); audioPaused = false; }
+      else { a.pause(); audioPaused = true; }
+      refreshListenBtn(i);
+    } else {
+      playSent(i);
+    }
+    return;
+  }
+  if (speakingIdx === i) stopSpeech();      // callback resets the button
   else playSent(i);
 }
 function speedAction(i){
   slowPref[i] = !slowPref[i];
   const b = sentBtn(i, 'speed');
   if (b) b.textContent = slowPref[i] ? '🐇 Regular' : '🐢 Slow';
+  if (story.audio && speakingIdx === i && !audioPaused){   // change speed live, no restart
+    getAudio().playbackRate = slowPref[i] ? SLOW_RATE : 1;
+    return;
+  }
   playSent(i);
 }
 
@@ -4489,7 +4536,7 @@ $('text').addEventListener('click', (ev) => {
 document.addEventListener('keydown', (ev) => {
   if (ev.target.tagName === 'INPUT' || ev.target.tagName === 'SELECT' || ev.target.tagName === 'TEXTAREA') return;
   const n = story ? story.sentences.length : 0;
-  if (ev.key === 'Escape') { stopSpeech(); hidePop(); }
+  if (ev.key === 'Escape') { stopSpeech(); if (speakingIdx >= 0) setSpeakingIdx(-1); hidePop(); }
   else if (ev.key === 'ArrowDown' || ev.key === 'j') { ev.preventDefault(); focusSent(Math.min(focusedIdx + 1, n - 1), true); }
   else if (ev.key === 'ArrowUp' || ev.key === 'k') { ev.preventDefault(); focusSent(Math.max(focusedIdx - 1, 0), true); }
   else if (focusedIdx >= 0) {

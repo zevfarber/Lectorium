@@ -183,8 +183,7 @@
 <header>
   <span class="title">Lectorium</span>
   <select id="storySel" title="Choose story"></select>
-  <button id="modeDE" title="Original language only — reveal English per sentence">Original only</button>
-  <button id="modeSBS" title="Original with English side by side">Side by side</button>
+  <button id="modeToggle" title="Show original with English side by side">Side by side</button>
   <button id="plainBtn" title="Plain letters — þ, ð → th, æ → ae, length marks hidden" style="display:none">þ→th</button>
   <button id="trBtn" title="Transliteration — show or hide the sound under each glyph" style="display:none">Sound</button>
   <span class="spacer"></span>
@@ -4824,14 +4823,15 @@ function renderCheck(res, out, i, attempt){
 function setMode(m){
   mode = m;
   document.body.classList.toggle('sbs', m === 'sbs');
-  $('modeDE').classList.toggle('active', m === 'de');
-  $('modeSBS').classList.toggle('active', m === 'sbs');
+  // single next-action toggle: label shows what a click will switch TO
+  const b = $('modeToggle');
+  if (m === 'sbs'){ b.textContent = 'Original only'; b.title = 'Show original language only — reveal English per sentence'; }
+  else { b.textContent = 'Side by side'; b.title = 'Show original with English side by side'; }
   render();
   if (focusedIdx >= 0) focusSent(focusedIdx, false);
   try { localStorage.setItem('mode', m); } catch(e) {}
 }
-$('modeDE').onclick = () => setMode('de');
-$('modeSBS').onclick = () => setMode('sbs');
+$('modeToggle').onclick = () => setMode(mode === 'sbs' ? 'de' : 'sbs');
 
 function setPlain(on){
   plainMode = on;

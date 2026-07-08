@@ -1,27 +1,29 @@
 #!/usr/bin/env python3
-# Forced-ish alignment via Vosk: recognize each per-sentence mp3, then map the
-# recognized word times onto the exact tokens the reader displays (same WORD_RE),
-# interpolating any tokens Vosk missed. Output: audio/<id>/align.json
+# Forced-ish alignment via Vosk for one or more stories. Recognizes each per-sentence
+# mp3, then maps recognized word times onto the exact tokens the reader displays
+# (same WORD_RE), interpolating any tokens Vosk missed.
+# Output per story: audio/<id>/align.json
 #   { "<sentenceIndex>": [[startSec, endSec], ... one per WORD_RE token ], ... }
 import json, re, subprocess, os, sys, difflib, wave
 from vosk import Model, KaldiRecognizer
 
-STORY_ID = "aschenputtel"
-STORY_JSON = STORY_ID + ".json"
-AUDIO_DIR = os.path.join("audio", STORY_ID)
-MODEL = Model(os.path.expanduser("~/vosk-model-de"))
+# (story_id, vosk_model_dir)
+JOBS = [
+    ("hansel-und-grethel",  os.path.expanduser("~/vosk-model-de")),
+    ("petit-chaperon-rouge", os.path.expanduser("~/vosk-model-fr")),
+]
 
-# must match reader.html WORD_RE (letters incl. Latin-1 + Latin Extended-A, hyphen/bracket joins)
+# must match reader.html WORD_RE (Latin incl. accents + Latin Extended-A)
 WORD_RE = re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ]+(?:[-\[\]()][A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ]+)*")
 def norm(w):
-    return re.sub(r"[^a-zäöüß]", "", w.lower())
+    return "".join(c for c in w.lower() if c.isalpha())
 
-def vosk_words(mp3):
+def vosk_words(mp3, model):
     wav = "/tmp/a.wav"
     subprocess.run(["ffmpeg", "-y", "-i", mp3, "-ar", "16000", "-ac", "1", wav],
                    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
     wf = wave.open(wav, "rb")
-    rec = KaldiRecognizer(MODEL, 16000)
+    rec = KaldiRecognizer(model, 16000)
     rec.SetWords(True)
     res = []
     while True:
@@ -59,15 +61,15 @@ def fill(times, D):
             times[k] = [round(p, 3), round(q, 3)]
     return times
 
-def main():
-    story = json.load(open(STORY_JSON, encoding="utf-8"))
+def align_story(sid, model):
+    story = json.load(open(sid + ".json", encoding="utf-8"))
     out = {}
     total_tok = total_match = 0
     for i, s in enumerate(story["sentences"]):
-        mp3 = os.path.join(AUDIO_DIR, "%d.mp3" % i)
+        mp3 = "audio/%s/%d.mp3" % (sid, i)
         toks = WORD_RE.findall(s.get("t", ""))
         D = audio_dur(mp3)
-        vw = vosk_words(mp3)
+        vw = vosk_words(mp3, model)
         a = [norm(t) for t in toks]
         b = [norm(w["word"]) for w in vw]
         times = [None] * len(toks)
@@ -76,17 +78,21 @@ def main():
                 for k in range(i2 - i1):
                     w = vw[j1 + k]
                     times[i1 + k] = [round(w["start"], 3), round(w["end"], 3)]
-        matched = sum(1 for t in times if t)
-        total_tok += len(toks); total_match += matched
+        total_tok += len(toks); total_match += sum(1 for t in times if t)
         times = fill(times, D)
         out[str(i)] = times
-        if i % 10 == 0:
-            print("%d/%d  matched %d/%d" % (i, len(story["sentences"]), matched, len(toks)))
-            sys.stdout.flush()
-    with open(os.path.join(AUDIO_DIR, "align.json"), "w", encoding="utf-8") as f:
+        if i % 20 == 0:
+            print("%s %d/%d" % (sid, i, len(story["sentences"]))); sys.stdout.flush()
+    with open("audio/%s/align.json" % sid, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False)
-    print("DONE sentences=%d  words matched %d/%d (%.0f%%)" %
-          (len(out), total_match, total_tok, 100.0 * total_match / max(1, total_tok)))
+    print("%s DONE  %d/%d words matched (%.0f%%)" %
+          (sid, total_match, total_tok, 100.0 * total_match / max(1, total_tok)))
+
+def main():
+    for sid, model_dir in JOBS:
+        model = Model(model_dir)
+        align_story(sid, model)
+    print("ALL DONE")
 
 if __name__ == "__main__":
     main()

@@ -213,6 +213,13 @@
   body.hidetr .qtr { display: none; }
   .word.quad .stack.det .qgl { color: #6b4a9e; }
   .word.quad .stack.suff .qgl { color: #2a7d5c; }
+  /* ---- readable mode: one vowelled reading under the whole word ---- */
+  .word.wordread { flex-direction: column; align-items: center; gap: 2px; }
+  .glyphrow { display: inline-flex; align-items: flex-end; gap: 3px; white-space: nowrap; }
+  .word.quad.wordread .glyphrow { align-items: flex-start; gap: 3px 12px; }
+  .wordsay { font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: .95rem; color: var(--ink); letter-spacing: .01em; margin-top: 1px; }
+  .word.wordread.wsel .wordsay { color: #fff; }
+  body.hidetr .wordsay { display: none; }
   /* word popup: morpheme breakdown + classifier notes */
   .pmorph .pm { display: block; margin: 4px 0; }
   .pmorph .pmk { font-weight: 600; }
@@ -326,7 +333,7 @@ const STORIES = [
   "script": "Egyptian hieroglyphs",
   "dir": "ltr",
   "provisional": true,
-  "source": "Pilot of the per-glyph interlinear model. Hieroglyphs from the Papyrus of Ani declaration 1 (after Budge 1895, Pl. XXXI), already in the project's ani-spell125 text; re-segmented sign-by-sign with Gardiner codes (verified via the Unicode database) and glyph roles. Transliteration Egyptological (reed=i). Translation made fresh. Shown left-to-right; papyrus runs right-to-left. No TTS (langCode null). Quadrat groupings (\"as written\" mode) are provisional standard blockings, not yet verified against Budge's Plate XXXI.",
+  "source": "Pilot of the per-glyph interlinear model. Hieroglyphs from the Papyrus of Ani declaration 1 (after Budge 1895, Pl. XXXI), already in the project's ani-spell125 text; re-segmented sign-by-sign with Gardiner codes (verified via the Unicode database) and glyph roles. Transliteration Egyptological (reed=i). Translation made fresh. Shown left-to-right; papyrus runs right-to-left. No TTS (langCode null). Quadrat groupings (\"as written\" mode) are provisional standard blockings, not yet verified against Budge's Plate XXXI. Readable layer (\"say\", ꜥnḫ→ankh toggle): one vowelled reading under the whole word (after Allen/Gardiner; wsḫ-nmtt → Usekh-nemtet), matching the full Ani text.",
   "about": "A single declaration, rebuilt in the new per-glyph model: each sign carries its own transcription and role (sound sign, determinative, or suffix), words stay bound as units, and determinatives are marked and tappable to the sign reference.",
   "sentences": [
     {
@@ -351,7 +358,8 @@ const STORIES = [
                 0
               ]
             }
-          ]
+          ],
+          "say": "i"
         },
         {
           "reading": "wsḫ-nmtt",
@@ -414,7 +422,8 @@ const STORIES = [
               ]
             }
           ],
-          "q": "0:1-2:3-4:5-6"
+          "q": "0:1-2:3-4:5-6",
+          "say": "Usekh-nemtet"
         },
         {
           "reading": "pr",
@@ -442,7 +451,8 @@ const STORIES = [
               ]
             }
           ],
-          "q": "0-1"
+          "q": "0-1",
+          "say": "per"
         },
         {
           "reading": "m",
@@ -462,7 +472,8 @@ const STORIES = [
                 0
               ]
             }
-          ]
+          ],
+          "say": "em"
         },
         {
           "reading": "iwnw",
@@ -490,7 +501,8 @@ const STORIES = [
               ]
             }
           ],
-          "q": "0-1"
+          "q": "0-1",
+          "say": "Iunu"
         },
         {
           "reading": "n",
@@ -510,7 +522,8 @@ const STORIES = [
                 0
               ]
             }
-          ]
+          ],
+          "say": "en"
         },
         {
           "reading": "ir·i",
@@ -544,7 +557,8 @@ const STORIES = [
               ]
             }
           ],
-          "q": "0*1"
+          "q": "0*1",
+          "say": "iri"
         },
         {
           "reading": "isft",
@@ -593,7 +607,8 @@ const STORIES = [
               ]
             }
           ],
-          "q": "0:1-2:3-4"
+          "q": "0:1-2:3-4",
+          "say": "isefet"
         }
       ],
       "l": "hail · Wide-strider · coming-forth · from · Heliopolis · not · do-I · wrong",
@@ -5102,7 +5117,7 @@ function simplifyConfig(story){
   if (/[þðæÞÐÆ]/.test(txt) || /̄/.test(txt.normalize('NFD')))
     return { label: 'þ→th', title: 'Plain letters — þ, ð → th, æ → ae, length marks hidden', fn: plainLetters };
   // Egyptian etc.: a per-word readable reading (say) sits under the scholarly transliteration → toggle the sound line
-  if (story.sentences.some(x => Array.isArray(x.say) && x.say.length))
+  if (story.sentences.some(x => (Array.isArray(x.say) && x.say.length) || (Array.isArray(x.words) && x.words.some(w => w.say))))
     return { label: 'ꜥnḫ→ankh', title: 'Readable spelling — the vowelled reading (Usekh-nemtet) instead of the scholarly transliteration (wsḫ-nmtt)', mode: 'say' };
   return null;
 }
@@ -5163,8 +5178,24 @@ const SIGN_GLOSSARIES = {
 };
 function signGlossaryFor(st){ return (st && st.script && SIGN_GLOSSARIES[st.script]) || null; }
 
-/* Dispatch: linear per-glyph interlinear, or "as written" quadrat blocking. */
-function buildWords(s){ return quadMode ? buildWordsQuad(s) : buildGlyphLinear(s); }
+/* Dispatch: linear per-glyph interlinear, or "as written" quadrat blocking.
+   In readable mode the per-glyph/per-quadrat letters give way to one vowelled reading under the whole word. */
+function buildWords(s){
+  const readable = !!(plainMode && activeSimplify && activeSimplify.mode === 'say');
+  return quadMode ? buildWordsQuad(s, readable) : buildGlyphLinear(s, readable);
+}
+
+/* readable mode: the word's glyphs on top, a single vowelled reading (say) beneath the whole word */
+function buildWordReadable(w, wi){
+  const key = (w.morph && w.morph[0] && w.morph[0].lemma) || w.reading || '';
+  let row = '';
+  (w.glyphs || []).forEach((g, gi) => {
+    const role = g.role || 'phon';
+    row += '<span class="stack ' + role + '" data-gi="' + gi + '" data-sign="' + escapeHtml(g.sign || '') + '" data-role="' + role + '"><span class="gl">' + escapeHtml(g.s || '') + '</span></span>';
+  });
+  const say = w.say || w.reading || '';
+  return '<span class="word wordread" data-wi="' + wi + '" data-w="' + escapeHtml(key) + '"><span class="glyphrow">' + row + '</span><span class="wordsay">' + escapeHtml(say) + '</span></span>';
+}
 
 /* ---- quadrat layout parser (compact MdC subset over glyph indices) ----
    "-" separates quadrats (left→right);  ":" stacks vertically;  "*" places side-by-side;
@@ -5187,18 +5218,21 @@ function qNode(t, glyphs){
   const cls = t.op === ':' ? 'qv' : 'qh';
   return '<span class="' + cls + '">' + t.kids.map(k => qNode(k, glyphs)).join('') + '</span>';
 }
-function buildWordsQuad(s){
+function buildWordsQuad(s, readable){
   let out = '';
   (s.words || []).forEach((w, wi) => {
     const glyphs = w.glyphs || [];
     const quads = w.q ? w.q.split('-').map(qColon) : glyphs.map((g, i) => ({ leaf: i }));
-    let inner = '';
+    let blocks = '';
     quads.forEach(tree => {
       const reading = qLeaves(tree).map(i => glyphs[i]).filter(g => g && g.role !== 'det').map(g => g.tr || '').join('');
-      inner += '<span class="quadblock">' + qNode(tree, glyphs) + '<span class="qtr">' + (reading ? escapeHtml(reading) : '&nbsp;') + '</span></span>';
+      blocks += '<span class="quadblock">' + qNode(tree, glyphs) + (readable ? '' : '<span class="qtr">' + (reading ? escapeHtml(reading) : '&nbsp;') + '</span>') + '</span>';
     });
     const key = (w.morph && w.morph[0] && w.morph[0].lemma) || w.reading || '';
-    out += '<span class="word quad" data-wi="' + wi + '" data-w="' + escapeHtml(key) + '">' + inner + '</span>';
+    const inner = readable
+      ? '<span class="glyphrow">' + blocks + '</span><span class="wordsay">' + escapeHtml(w.say || w.reading || '') + '</span>'
+      : blocks;
+    out += '<span class="word quad' + (readable ? ' wordread' : '') + '" data-wi="' + wi + '" data-w="' + escapeHtml(key) + '">' + inner + '</span>';
   });
   return out;
 }
@@ -5206,10 +5240,11 @@ function buildWordsQuad(s){
 /* Per-glyph interlinear (words model). Each word is one atomic, non-wrapping unit;
    inside it, every glyph keeps its own transcription and is styled by its role.
    Determinatives show as a quiet purple glyph and are tappable to the sign reference. */
-function buildGlyphLinear(s){
+function buildGlyphLinear(s, readable){
   const sg = signGlossaryFor(story) || {};
   let out = '';
   (s.words || []).forEach((w, wi) => {
+    if (readable) { out += buildWordReadable(w, wi); return; }
     let inner = '';
     (w.glyphs || []).forEach((g, gi) => {
       const role = g.role || 'phon';

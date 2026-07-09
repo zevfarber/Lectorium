@@ -43,7 +43,8 @@
   button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
   .readGroup { align-items: stretch; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
   .readGroup > button, .readGroup .spellSeg > button { border: 0; border-radius: 0; }
-  .readGroup .spellSeg > button { border-left: 1px solid var(--border); }
+  .readGroup .spellSeg > button { border-left: 1px solid var(--border); color: var(--muted); }
+  .readGroup .spellSeg > button.active { background: var(--accent-soft); color: var(--ink); font-weight: 600; }
   .spacer { flex: 1; }
   #rateWrap { display: flex; align-items: center; gap: 6px; color: var(--muted); }
   #rate { width: 90px; }
@@ -189,7 +190,7 @@
   <select id="storySel" title="Choose story"></select>
   <button id="modeToggle" title="Show original with English side by side">Side by side</button>
   <button id="plainBtn" title="Plain letters — þ, ð → th, æ → ae, length marks hidden" style="display:none">þ→th</button>
-  <span id="readGroup" class="readGroup" style="display:none"><button id="trBtn" title="Reading — show or hide the letters under each glyph">Reading</button><span id="spellSeg" class="spellSeg"><button data-sp="sch" title="Scholarly transliteration (ꜥnḫ)">ꜥnḫ</button><button data-sp="read" title="Readable spelling (ankh)">ankh</button></span></span>
+  <span id="readGroup" class="readGroup" style="display:none"><button id="trBtn" title="Transcription — show or hide the letters under each glyph">Transcription</button><span id="spellSeg" class="spellSeg"><button data-sp="sch" title="Scholarly transliteration (ꜥnḫ)">ꜥnḫ</button><button data-sp="read" title="Readable spelling (ankh)">ankh</button></span></span>
   <span class="spacer"></span>
   <span id="rateWrap">🔊 <input type="range" id="rate" min="0.4" max="1.2" step="0.05" value="0.92" title="Speech speed"></span>
   <label class="filebtn" title="Load a story .json file produced by your project">＋ Load story<input type="file" id="fileIn" accept=".json,application/json" style="display:none"></label>

@@ -41,6 +41,9 @@
   }
   button:hover, label.filebtn:hover, select:hover { background: var(--accent-soft); }
   button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .readGroup { align-items: stretch; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+  .readGroup > button, .readGroup .spellSeg > button { border: 0; border-radius: 0; }
+  .readGroup .spellSeg > button { border-left: 1px solid var(--border); }
   .spacer { flex: 1; }
   #rateWrap { display: flex; align-items: center; gap: 6px; color: var(--muted); }
   #rate { width: 90px; }
@@ -186,7 +189,7 @@
   <select id="storySel" title="Choose story"></select>
   <button id="modeToggle" title="Show original with English side by side">Side by side</button>
   <button id="plainBtn" title="Plain letters — þ, ð → th, æ → ae, length marks hidden" style="display:none">þ→th</button>
-  <button id="trBtn" title="Transliteration — show or hide the sound under each glyph" style="display:none">Sound</button>
+  <span id="readGroup" class="readGroup" style="display:none"><button id="trBtn" title="Reading — show or hide the letters under each glyph">Reading</button><span id="spellSeg" class="spellSeg"><button data-sp="sch" title="Scholarly transliteration (ꜥnḫ)">ꜥnḫ</button><button data-sp="read" title="Readable spelling (ankh)">ankh</button></span></span>
   <span class="spacer"></span>
   <span id="rateWrap">🔊 <input type="range" id="rate" min="0.4" max="1.2" step="0.05" value="0.92" title="Speech speed"></span>
   <label class="filebtn" title="Load a story .json file produced by your project">＋ Load story<input type="file" id="fileIn" accept=".json,application/json" style="display:none"></label>
@@ -5379,8 +5382,27 @@ $('plainBtn').onclick = () => setPlain(!plainMode);
 /* transliteration ruby toggle (app-wide), shown only for stories that carry tr */
 let hideTr = false;
 try { hideTr = localStorage.getItem('hideTr') === '1'; } catch(e) {}
-function applyTr(){ document.body.classList.toggle('hidetr', hideTr); $('trBtn').classList.toggle('active', !hideTr); }
+function updateSpellSeg(){
+  const seg = $('spellSeg'); if (!seg) return;
+  seg.querySelector('[data-sp="sch"]').classList.toggle('active', !plainMode);
+  seg.querySelector('[data-sp="read"]').classList.toggle('active', plainMode);
+}
+function applyTr(){
+  document.body.classList.toggle('hidetr', hideTr);
+  $('trBtn').classList.toggle('active', !hideTr);
+  const say = !!(activeSimplify && activeSimplify.mode === 'say');
+  const seg = $('spellSeg');
+  if (seg) seg.style.display = (say && !hideTr) ? 'inline-flex' : 'none';
+  updateSpellSeg();
+}
 $('trBtn').onclick = () => { hideTr = !hideTr; try { localStorage.setItem('hideTr', hideTr ? '1' : '0'); } catch(e) {} applyTr(); };
+document.querySelectorAll('#spellSeg button').forEach(b => b.onclick = () => {
+  plainMode = (b.dataset.sp === 'read');
+  try { localStorage.setItem('egReadable', plainMode ? '1' : '0'); } catch(e) {}
+  updateSpellSeg();
+  render();
+  if (focusedIdx >= 0) focusSent(focusedIdx, false);
+});
 
 /* ---------- library & story loading ---------- */
 function fillStorySel(){
@@ -5413,17 +5435,27 @@ function loadStory(s){
   if (s.audio){
     fetch(s.audio.replace(/\/+$/,'') + '/align.json').then(r => r.ok ? r.json() : null).then(d => { wordTimes = d; }).catch(() => {});
   }
-  $('trBtn').style.display = s.sentences.some(x => x.tr) ? '' : 'none';
   activeSimplify = simplifyConfig(s);
+  const sayMode = !!(activeSimplify && activeSimplify.mode === 'say');
   const pb = $('plainBtn');
-  if (activeSimplify) {
-    pb.style.display = '';
-    pb.textContent = activeSimplify.label;
-    pb.title = activeSimplify.title;
-    pb.classList.toggle('active', plainMode);
-  } else {
+  const rg = $('readGroup');
+  if (sayMode) {
+    try { plainMode = localStorage.getItem('egReadable') !== '0'; } catch(e) { plainMode = true; }
+    if (rg) rg.style.display = 'inline-flex';
     pb.style.display = 'none';
+  } else {
+    if (rg) rg.style.display = 'none';
+    if (activeSimplify) {
+      try { plainMode = localStorage.getItem('plainLetters') === '1'; } catch(e) { plainMode = false; }
+      pb.style.display = '';
+      pb.textContent = activeSimplify.label;
+      pb.title = activeSimplify.title;
+      pb.classList.toggle('active', plainMode);
+    } else {
+      pb.style.display = 'none';
+    }
   }
+  applyTr();
   hidePop();
   render();
   let pos = 0;

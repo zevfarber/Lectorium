@@ -177,6 +177,70 @@
     text-transform: uppercase; letter-spacing: .07em; color: #7a5300; background: #fdf2dc;
     border: 1px solid #ecd39b; border-radius: 999px; padding: 2px 8px; margin-right: 8px; align-self: center; }
   .sent.rubric .gl, .sent.rubric .tr { color: #b3552f; }
+  /* ---- per-glyph interlinear (words model): words stay bound, each glyph keeps its own transcription ---- */
+  .de.words { white-space: normal; display: flex; flex-wrap: wrap; align-items: flex-end; gap: 8px 16px; }
+  .word { display: inline-flex; align-items: flex-end; gap: 3px; white-space: nowrap; padding: 2px 5px; border-radius: 7px; cursor: pointer; }
+  .word:hover { background: var(--accent-soft); }
+  .word.wsel { background: var(--accent); }
+  .word.wsel .gl, .word.wsel .tr, .word.wsel .detmk { color: #fff; }
+  .word.wsel .detmk { border-color: rgba(255,255,255,.6); }
+  .word .stack { padding: 1px 2px; background: none; }
+  .word .stack:hover { background: none; }
+  .word .stack.det { cursor: help; }
+  .word .stack.det:hover { background: rgba(107,74,158,.13); border-radius: 5px; }
+  .word.wsel .stack.det:hover { background: rgba(255,255,255,.18); }
+  /* phonetic complement — a redundant sound sign: dimmed with a dotted underline */
+  .stack.comp .tr { color: var(--muted); opacity: .8; border-bottom: 1px dotted var(--muted); }
+  .stack.comp .gl { opacity: .78; }
+  /* determinative — an unpronounced classifier: tinted glyph, a "det" tag instead of letters */
+  .stack.det .gl { color: #6b4a9e; }
+  .detmk { font-family: system-ui, 'Noto Sans', sans-serif; font-size: .56rem; color: #7d5fae; text-transform: lowercase;
+           border: 1px dotted #b7a3d6; border-radius: 3px; padding: 0 3px; line-height: 1.3; letter-spacing: .04em; }
+  body.hidetr .detmk { display: none; }
+  /* suffix pronoun — a bound grammatical ending (kept under its own glyph, locked to the word) */
+  .stack.suff .gl { color: #2a7d5c; }
+  .stack.suff .tr { color: #2a7d5c; font-style: italic; }
+  /* ---- "as written" quadrat mode: signs blocked into squares, reading under each block ---- */
+  .word.quad { align-items: flex-start; gap: 3px 12px; }
+  .quadblock { display: inline-flex; flex-direction: column; align-items: center; gap: 1px; }
+  .quadblock .qh { display: inline-flex; flex-direction: row; align-items: center; gap: 1px; }
+  .quadblock .qv { display: inline-flex; flex-direction: column; align-items: center; gap: 0; line-height: .82; }
+  .quadblock .stack { padding: 0; }
+  .qgl { font-family: 'Noto Sans Egyptian Hieroglyphs', serif; font-size: 1.7rem; line-height: 1; }
+  .qv .qgl { font-size: 1.18rem; }
+  .qh .qgl { font-size: 1.35rem; }
+  .qtr { font-family: system-ui, 'Noto Sans', sans-serif; font-size: .72rem; color: var(--muted); margin-top: 2px; letter-spacing: .02em; }
+  body.hidetr .qtr { display: none; }
+  .word.quad .stack.det .qgl { color: #6b4a9e; }
+  .word.quad .stack.suff .qgl { color: #2a7d5c; }
+  /* word popup: morpheme breakdown + classifier notes */
+  .pmorph .pm { display: block; margin: 4px 0; }
+  .pmorph .pmk { font-weight: 600; }
+  .pdet { margin-top: 8px; padding-top: 7px; border-top: 1px solid var(--border); font-size: .93em; }
+  .pdet .pdrow { display: block; margin: 2px 0; }
+  .pdet .pdg { color: #6b4a9e; }
+  .pdet .pdgl { font-family: 'Noto Sans Egyptian Hieroglyphs', serif; margin-right: 5px; }
+  /* sign popup + reference browser */
+  .signGl { font-family: 'Noto Sans Egyptian Hieroglyphs', serif; font-size: 1.5rem; margin-right: 6px; }
+  .spTag { display:inline-block; font-size:.58rem; font-weight:600; text-transform:uppercase; letter-spacing:.05em;
+           padding:1px 7px; border-radius:10px; margin-left:6px; vertical-align:middle; background:#efe7fb; color:#6b4a9e; }
+  .spRow { margin-top: 7px; }
+  .spMuted { color: var(--muted); }
+  .signModal { display:none; position:fixed; inset:0; background:rgba(30,25,20,.42); z-index:60; }
+  .signModal.open { display:flex; align-items:flex-start; justify-content:center; }
+  .smBox { background:var(--panel); color:var(--ink); margin-top:6vh; width:min(680px,92vw); max-height:84vh; overflow:auto;
+           border-radius:14px; padding:22px 24px; box-shadow:0 12px 40px rgba(0,0,0,.28); position:relative; }
+  .smTitle { margin:0 0 2px; font-size:1.15rem; }
+  .smSub { color:var(--muted); font-size:.85rem; margin-bottom:14px; }
+  .smGroup { margin-top:16px; }
+  .smGroup h4 { margin:0 0 8px; font-size:.72rem; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); }
+  .smGrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:8px; }
+  .smCell { display:flex; align-items:center; gap:9px; border:1px solid var(--border); border-radius:9px; padding:7px 9px; }
+  .smCell .cgl { font-family:'Noto Sans Egyptian Hieroglyphs', serif; font-size:1.7rem; line-height:1; }
+  .smCell .cbody { font-family:system-ui,'Noto Sans',sans-serif; font-size:.78rem; line-height:1.25; }
+  .smCell .cval { font-weight:600; }
+  .smCell .cname { color:var(--muted); }
+  .smCell.cdet .cgl { color:#6b4a9e; }
   .draftBadge { display: inline-block; font-family: system-ui, 'Noto Sans', sans-serif; font-size: .6rem; font-weight: 600;
     text-transform: uppercase; letter-spacing: .08em; color: #8a5300; background: #fbe6c0;
     border: 1px solid #e8c986; border-radius: 999px; padding: 2px 9px; vertical-align: middle; margin-left: 12px; }
@@ -191,6 +255,8 @@
   <button id="modeToggle" title="Show original with English side by side">Side by side</button>
   <button id="plainBtn" title="Plain letters — þ, ð → th, æ → ae, length marks hidden" style="display:none">þ→th</button>
   <span id="readGroup" class="readGroup" style="display:none"><button id="trBtn" title="Transcription — show or hide the letters under each glyph">Transcription</button><span id="spellSeg" class="spellSeg"><button data-sp="sch" title="Scholarly transliteration (ꜥnḫ)">ꜥnḫ</button><button data-sp="read" title="Readable spelling (ankh)">ankh</button></span></span>
+  <button id="signsBtn" title="Sign reference — the alphabet and the classifiers" style="display:none">📜 Signs</button>
+  <button id="quadBtn" title="As written — show the signs blocked into quadrats as on the papyrus" style="display:none">▦ As written</button>
   <span class="spacer"></span>
   <span id="rateWrap">🔊 <input type="range" id="rate" min="0.4" max="1.2" step="0.05" value="0.92" title="Speech speed"></span>
   <label class="filebtn" title="Load a story .json file produced by your project">＋ Load story<input type="file" id="fileIn" accept=".json,application/json" style="display:none"></label>
@@ -239,16 +305,320 @@
   </div>
 </div>
 
+<div id="signModal" class="signModal">
+  <div class="smBox">
+    <button class="pclose" onclick="closeSigns()">✕</button>
+    <h3 class="smTitle">Sign reference</h3>
+    <div class="smSub" id="smSub"></div>
+    <div id="smBody"></div>
+  </div>
+</div>
+
 <script>
 /* Lectorium — Egyptian word-stack reader build */
 const STORIES = [
+{
+  "id": "ani-spell125-pilot",
+  "title": "Rꜣ nw prt m hrw (125) — pilot",
+  "titleEn": "Book of the Dead — Spell 125, declaration 1 (per-glyph interlinear pilot)",
+  "language": "Middle Egyptian",
+  "langCode": null,
+  "script": "Egyptian hieroglyphs",
+  "dir": "ltr",
+  "provisional": true,
+  "source": "Pilot of the per-glyph interlinear model. Hieroglyphs from the Papyrus of Ani declaration 1 (after Budge 1895, Pl. XXXI), already in the project's ani-spell125 text; re-segmented sign-by-sign with Gardiner codes (verified via the Unicode database) and glyph roles. Transliteration Egyptological (reed=i). Translation made fresh. Shown left-to-right; papyrus runs right-to-left. No TTS (langCode null). Quadrat groupings (\"as written\" mode) are provisional standard blockings, not yet verified against Budge's Plate XXXI.",
+  "about": "A single declaration, rebuilt in the new per-glyph model: each sign carries its own transcription and role (sound sign, determinative, or suffix), words stay bound as units, and determinatives are marked and tappable to the sign reference.",
+  "sentences": [
+    {
+      "p": true,
+      "t": "𓇋 𓅱𓋴𓐍𓈖𓅓𓏏𓂻 𓉐𓂻 𓅓 𓉺𓊖 𓂜 𓁹𓀀 𓇋𓋴𓆑𓏏𓅪",
+      "words": [
+        {
+          "reading": "i",
+          "glyphs": [
+            {
+              "s": "𓇋",
+              "sign": "M17",
+              "role": "phon",
+              "tr": "i"
+            }
+          ],
+          "morph": [
+            {
+              "lemma": "i",
+              "gloss": "O!, hail — the vocative that opens each declaration",
+              "g": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "reading": "wsḫ-nmtt",
+          "glyphs": [
+            {
+              "s": "𓅱",
+              "sign": "G43",
+              "role": "phon",
+              "tr": "w"
+            },
+            {
+              "s": "𓋴",
+              "sign": "S29",
+              "role": "phon",
+              "tr": "s"
+            },
+            {
+              "s": "𓐍",
+              "sign": "Aa1",
+              "role": "phon",
+              "tr": "ḫ"
+            },
+            {
+              "s": "𓈖",
+              "sign": "N35",
+              "role": "phon",
+              "tr": "n"
+            },
+            {
+              "s": "𓅓",
+              "sign": "G17",
+              "role": "phon",
+              "tr": "m"
+            },
+            {
+              "s": "𓏏",
+              "sign": "X1",
+              "role": "phon",
+              "tr": "t"
+            },
+            {
+              "s": "𓂻",
+              "sign": "D54",
+              "role": "det",
+              "tr": ""
+            }
+          ],
+          "morph": [
+            {
+              "lemma": "wsḫ-nmtt",
+              "gloss": "'Wide-strider', the 1st assessor god (Budge: Usekh-nemtet); the walking-legs sign classifies it as motion",
+              "g": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            }
+          ],
+          "q": "0:1-2:3-4:5-6"
+        },
+        {
+          "reading": "pr",
+          "glyphs": [
+            {
+              "s": "𓉐",
+              "sign": "O1",
+              "role": "phon",
+              "tr": "pr"
+            },
+            {
+              "s": "𓂻",
+              "sign": "D54",
+              "role": "det",
+              "tr": ""
+            }
+          ],
+          "morph": [
+            {
+              "lemma": "pr",
+              "gloss": "comes forth, 'who comes forth' (participle of pri, to go out)",
+              "g": [
+                0,
+                1
+              ]
+            }
+          ],
+          "q": "0-1"
+        },
+        {
+          "reading": "m",
+          "glyphs": [
+            {
+              "s": "𓅓",
+              "sign": "G17",
+              "role": "phon",
+              "tr": "m"
+            }
+          ],
+          "morph": [
+            {
+              "lemma": "m",
+              "gloss": "in, from (preposition)",
+              "g": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "reading": "iwnw",
+          "glyphs": [
+            {
+              "s": "𓉺",
+              "sign": "O28",
+              "role": "phon",
+              "tr": "iwn"
+            },
+            {
+              "s": "𓊖",
+              "sign": "O49",
+              "role": "det",
+              "tr": ""
+            }
+          ],
+          "morph": [
+            {
+              "lemma": "iwnw",
+              "gloss": "Heliopolis, the sun-cult city (Budge: Annu); the town sign classifies it as a place. Final -w unwritten",
+              "g": [
+                0,
+                1
+              ]
+            }
+          ],
+          "q": "0-1"
+        },
+        {
+          "reading": "n",
+          "glyphs": [
+            {
+              "s": "𓂜",
+              "sign": "D35",
+              "role": "phon",
+              "tr": "n"
+            }
+          ],
+          "morph": [
+            {
+              "lemma": "n",
+              "gloss": "not — the negation of the verb that follows",
+              "g": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "reading": "ir·i",
+          "glyphs": [
+            {
+              "s": "𓁹",
+              "sign": "D4",
+              "role": "phon",
+              "tr": "ir"
+            },
+            {
+              "s": "𓀀",
+              "sign": "A1",
+              "role": "suff",
+              "tr": "·i"
+            }
+          ],
+          "morph": [
+            {
+              "lemma": "ir",
+              "gloss": "do, make (written with the eye, D4)",
+              "g": [
+                0
+              ]
+            },
+            {
+              "lemma": "·i",
+              "gloss": "1sg suffix pronoun — I / my (the seated man, A1)",
+              "g": [
+                1
+              ]
+            }
+          ],
+          "q": "0*1"
+        },
+        {
+          "reading": "isft",
+          "glyphs": [
+            {
+              "s": "𓇋",
+              "sign": "M17",
+              "role": "phon",
+              "tr": "i"
+            },
+            {
+              "s": "𓋴",
+              "sign": "S29",
+              "role": "phon",
+              "tr": "s"
+            },
+            {
+              "s": "𓆑",
+              "sign": "I9",
+              "role": "phon",
+              "tr": "f"
+            },
+            {
+              "s": "𓏏",
+              "sign": "X1",
+              "role": "phon",
+              "tr": "t"
+            },
+            {
+              "s": "𓅪",
+              "sign": "G37",
+              "role": "det",
+              "tr": ""
+            }
+          ],
+          "morph": [
+            {
+              "lemma": "isft",
+              "gloss": "wrong, falsehood, injustice — the opposite of maꜥat; the small-bird sign classifies it as something bad",
+              "g": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            }
+          ],
+          "q": "0:1-2:3-4"
+        }
+      ],
+      "l": "hail · Wide-strider · coming-forth · from · Heliopolis · not · do-I · wrong",
+      "i": "Hail, Wide-strider, who comes forth from Heliopolis: I have not done wrong.",
+      "n": "The frame of all 42 declarations: 'Hail, [god], who comes forth from [place]: I have not [sin].' Note the last verb group ir·i — the eye 𓁹 (ir, 'do') and the seated man 𓀀 (·i, 'I') are ONE word (verb + its subject-suffix), not two; you'll meet this suffix ·i constantly. Determinatives (walking legs, town, small bird) are unpronounced — they classify the word's meaning rather than adding sound. (\"As written\" shows a provisional standard quadrat blocking; the authentic plate arrangement will be confirmed later.)"
+    }
+  ],
+  "glossary": {
+    "i": "i — O!, hail (vocative interjection opening each declaration)",
+    "wsḫ-nmtt": "wsḫ-nmtt — 'Wide-strider', the 1st assessor god (Budge: Usekh-nemtet)",
+    "pr": "pr — comes forth (participle of pri, to go/come out)",
+    "m": "m — in, from (preposition)",
+    "iwnw": "iwnw — Heliopolis, the sun-cult city (Budge: Annu)",
+    "n": "n — not (negation)",
+    "ir": "ir — do, make (verb; written with the eye D4)",
+    "·i": "·i — 1sg suffix pronoun: I, me, my (the seated man A1)",
+    "isft": "isft — wrong, falsehood, injustice (opposite of maꜥat)"
+  }
+},
 {
   "id": "ani-spell125-opening",
   "title": "Rꜣ nw prt m hrw (125)",
   "titleEn": "Book of the Dead of Ani — Spell 125: the Negative Confession (all 42 declarations)",
   "language": "Middle Egyptian",
   "langCode": null,
-  "audio": "audio/ani-spell125-opening",
   "script": "Egyptian hieroglyphs",
   "dir": "ltr",
   "provisional": false,
@@ -4711,6 +5081,8 @@ function wordKey(w){ return w.replace(/[\[\]()]/g, '').toLowerCase(); }
 /* plain-letters mode: þ/ð → th, æ → ae, length marks hidden */
 let plainMode = false;
 try { plainMode = localStorage.getItem('plainLetters') === '1'; } catch(e) {}
+let quadMode = false;
+try { quadMode = localStorage.getItem('quadMode') === '1'; } catch(e) {}
 function plainLetters(s){
   s = s.normalize('NFD').replace(/[̄̂]/g, '').normalize('NFC');
   return s.replace(/þ|ð/g, 'th').replace(/Þ|Ð/g, 'Th').replace(/æ/g, 'ae').replace(/Æ/g, 'Ae');
@@ -4743,6 +5115,206 @@ function tokenize(text){
     return '<span class="w" data-w="' + wordKey(m) + '" data-wi="' + wi + '">' + ((plainMode && activeSimplify && activeSimplify.fn) ? activeSimplify.fn(m) : m) + '</span>';
   });
 }
+
+/* ---- app-level, per-script SIGN GLOSSARY (shared across every text in a script) ----
+   The alphabet (uniliterals) is seeded in full; other signs grow as texts introduce them.
+   A story selects its script via story.script. Roles come from the story data, not here. */
+const SIGN_GLOSSARIES = {
+ "Egyptian hieroglyphs": {
+  "G1": {"glyph": "𓄿", "name": "Egyptian vulture", "type": "uniliteral", "sound": "ꜣ", "pron": "glottal stop / aleph (conventionally 'a')", "determines": null},
+  "M17": {"glyph": "𓇋", "name": "flowering reed", "type": "uniliteral", "sound": "i", "pron": "'i'/'y' or glottal stop (written i here; Leiden j)", "determines": null},
+  "Z4": {"glyph": "𓏭", "name": "pair of strokes", "type": "uniliteral", "sound": "y", "pron": "'y' (also written as two reeds)", "determines": null},
+  "D36": {"glyph": "𓂝", "name": "forearm", "type": "uniliteral", "sound": "ꜥ", "pron": "ayin, pharyngeal (conventionally 'a')", "determines": null},
+  "G43": {"glyph": "𓅱", "name": "quail chick", "type": "uniliteral", "sound": "w", "pron": "'w' (conventionally 'u/w')", "determines": null},
+  "D58": {"glyph": "𓃀", "name": "foot / lower leg", "type": "uniliteral", "sound": "b", "pron": "'b'", "determines": null},
+  "Q3": {"glyph": "𓊪", "name": "stool (reed mat)", "type": "uniliteral", "sound": "p", "pron": "'p'", "determines": null},
+  "I9": {"glyph": "𓆑", "name": "horned viper", "type": "uniliteral", "sound": "f", "pron": "'f'", "determines": null},
+  "G17": {"glyph": "𓅓", "name": "owl", "type": "uniliteral", "sound": "m", "pron": "'m'", "determines": null},
+  "N35": {"glyph": "𓈖", "name": "ripple of water", "type": "uniliteral", "sound": "n", "pron": "'n'", "determines": null},
+  "D21": {"glyph": "𓂋", "name": "mouth", "type": "uniliteral", "sound": "r", "pron": "'r'", "determines": null},
+  "O4": {"glyph": "𓉔", "name": "reed shelter", "type": "uniliteral", "sound": "h", "pron": "'h' as in hat", "determines": null},
+  "V28": {"glyph": "𓎛", "name": "twisted wick / hank of flax", "type": "uniliteral", "sound": "ḥ", "pron": "emphatic h (conventionally 'h')", "determines": null},
+  "Aa1": {"glyph": "𓐍", "name": "sieve / placenta", "type": "uniliteral", "sound": "ḫ", "pron": "'kh' as in Bach", "determines": null},
+  "F32": {"glyph": "𓄡", "name": "animal's belly with teats", "type": "uniliteral", "sound": "ẖ", "pron": "softer 'kh' (palatal)", "determines": null},
+  "O34": {"glyph": "𓊃", "name": "door bolt", "type": "uniliteral", "sound": "z", "pron": "'z'/'s'", "determines": null},
+  "S29": {"glyph": "𓋴", "name": "folded cloth", "type": "uniliteral", "sound": "s", "pron": "'s'", "determines": null},
+  "N37": {"glyph": "𓈙", "name": "pool / garden basin", "type": "uniliteral", "sound": "š", "pron": "'sh'", "determines": null},
+  "N29": {"glyph": "𓈎", "name": "hill slope", "type": "uniliteral", "sound": "q", "pron": "emphatic k (Gardiner ḳ); conventionally 'q'", "determines": null},
+  "V31": {"glyph": "𓎡", "name": "basket with handle", "type": "uniliteral", "sound": "k", "pron": "'k'", "determines": null},
+  "W11": {"glyph": "𓎼", "name": "ring stand / jar stand", "type": "uniliteral", "sound": "g", "pron": "'g'", "determines": null},
+  "X1": {"glyph": "𓏏", "name": "bread loaf", "type": "uniliteral", "sound": "t", "pron": "'t'", "determines": null},
+  "V13": {"glyph": "𓍿", "name": "tethering rope / hobble", "type": "uniliteral", "sound": "ṯ", "pron": "'tj'/'ch' as in church", "determines": null},
+  "D46": {"glyph": "𓂧", "name": "hand", "type": "uniliteral", "sound": "d", "pron": "'d'", "determines": null},
+  "I10": {"glyph": "𓆓", "name": "cobra / snake", "type": "uniliteral", "sound": "ḏ", "pron": "'dj'/'j' as in judge", "determines": null},
+  "A1": {"glyph": "𓀀", "name": "seated man", "type": "logogram/determinative", "sound": "1sg suffix pronoun ·i; det. of a man", "pron": null, "determines": "a man; a person; 1st person ('I/me'); occupations & roles"},
+  "B1": {"glyph": "𓁐", "name": "seated woman", "type": "determinative", "sound": null, "pron": null, "determines": "a woman; a female person"},
+  "D54": {"glyph": "𓂻", "name": "walking legs", "type": "determinative", "sound": null, "pron": null, "determines": "motion — verbs of coming, going, movement"},
+  "Z1": {"glyph": "𓏤", "name": "single stroke", "type": "marker", "sound": null, "pron": null, "determines": "logogram/ideogram marker (the sign IS the word); the number 'one'"},
+  "Z2": {"glyph": "𓏥", "name": "plural strokes", "type": "marker", "sound": null, "pron": null, "determines": "plurality — a plural or collective noun"},
+  "O1": {"glyph": "𓉐", "name": "house / building plan", "type": "biliteral/logogram", "sound": "pr (also logogram 'house, pr')", "pron": null, "determines": null},
+  "O28": {"glyph": "𓉺", "name": "pillar (iwn)", "type": "triliteral", "sound": "iwn", "pron": null, "determines": null},
+  "O49": {"glyph": "𓊖", "name": "town (crossroads)", "type": "determinative", "sound": null, "pron": null, "determines": "a town, city, or place; a settlement"},
+  "D35": {"glyph": "𓂜", "name": "forearms in negation", "type": "grammatical", "sound": "n — negation ('not')", "pron": null, "determines": null},
+  "D4": {"glyph": "𓁹", "name": "eye", "type": "biliteral/logogram", "sound": "ir / jr (also logogram 'eye')", "pron": null, "determines": "the eye; seeing; (as verb) do, make"},
+  "G37": {"glyph": "𓅪", "name": "sparrow (small bird)", "type": "determinative", "sound": null, "pron": null, "determines": "bad, evil, small, weak — abstract negatives"},
+  "Q7": {"glyph": "𓊮", "name": "brazier with flame", "type": "determinative", "sound": null, "pron": null, "determines": "fire, flame, heat, burning"},
+  "D40": {"glyph": "𓂡", "name": "forearm with stick", "type": "determinative", "sound": null, "pron": null, "determines": "force, effort, strength; violent action"}
+ }
+};
+function signGlossaryFor(st){ return (st && st.script && SIGN_GLOSSARIES[st.script]) || null; }
+
+/* Dispatch: linear per-glyph interlinear, or "as written" quadrat blocking. */
+function buildWords(s){ return quadMode ? buildWordsQuad(s) : buildGlyphLinear(s); }
+
+/* ---- quadrat layout parser (compact MdC subset over glyph indices) ----
+   "-" separates quadrats (left→right);  ":" stacks vertically;  "*" places side-by-side;
+   parentheses group;  leaves are glyph indices.  e.g. "0:1-2*3-4" */
+function qSplitTop(str, sep){
+  const parts = []; let depth = 0, cur = '';
+  for (const c of str){ if (c === '(') depth++; else if (c === ')') depth--;
+    if (c === sep && depth === 0){ parts.push(cur); cur = ''; } else cur += c; }
+  parts.push(cur); return parts;
+}
+function qColon(str){ const p = qSplitTop(str, ':'); return p.length === 1 ? qStar(p[0]) : { op: ':', kids: p.map(qStar) }; }
+function qStar(str){ const p = qSplitTop(str, '*'); return p.length === 1 ? qAtom(p[0]) : { op: '*', kids: p.map(qAtom) }; }
+function qAtom(str){ str = str.trim(); if (str[0] === '(' && str[str.length - 1] === ')') return qColon(str.slice(1, -1)); return { leaf: parseInt(str, 10) }; }
+function qLeaves(t, acc){ acc = acc || []; if (t.leaf !== undefined) acc.push(t.leaf); else t.kids.forEach(k => qLeaves(k, acc)); return acc; }
+function qNode(t, glyphs){
+  if (t.leaf !== undefined){
+    const g = glyphs[t.leaf] || {}; const role = g.role || 'phon';
+    return '<span class="stack ' + role + '" data-gi="' + t.leaf + '" data-sign="' + escapeHtml(g.sign || '') + '" data-role="' + role + '"><span class="gl qgl">' + escapeHtml(g.s || '') + '</span></span>';
+  }
+  const cls = t.op === ':' ? 'qv' : 'qh';
+  return '<span class="' + cls + '">' + t.kids.map(k => qNode(k, glyphs)).join('') + '</span>';
+}
+function buildWordsQuad(s){
+  let out = '';
+  (s.words || []).forEach((w, wi) => {
+    const glyphs = w.glyphs || [];
+    const quads = w.q ? w.q.split('-').map(qColon) : glyphs.map((g, i) => ({ leaf: i }));
+    let inner = '';
+    quads.forEach(tree => {
+      const reading = qLeaves(tree).map(i => glyphs[i]).filter(g => g && g.role !== 'det').map(g => g.tr || '').join('');
+      inner += '<span class="quadblock">' + qNode(tree, glyphs) + '<span class="qtr">' + (reading ? escapeHtml(reading) : '&nbsp;') + '</span></span>';
+    });
+    const key = (w.morph && w.morph[0] && w.morph[0].lemma) || w.reading || '';
+    out += '<span class="word quad" data-wi="' + wi + '" data-w="' + escapeHtml(key) + '">' + inner + '</span>';
+  });
+  return out;
+}
+
+/* Per-glyph interlinear (words model). Each word is one atomic, non-wrapping unit;
+   inside it, every glyph keeps its own transcription and is styled by its role.
+   Determinatives show as a quiet purple glyph and are tappable to the sign reference. */
+function buildGlyphLinear(s){
+  const sg = signGlossaryFor(story) || {};
+  let out = '';
+  (s.words || []).forEach((w, wi) => {
+    let inner = '';
+    (w.glyphs || []).forEach((g, gi) => {
+      const role = g.role || 'phon';
+      let sub, title = '';
+      if (role === 'det') {
+        const d = (sg[g.sign] && sg[g.sign].determines) || '';
+        title = ' title="' + escapeHtml('determinative — unpronounced; classifies: ' + d) + '"';
+        sub = '<span class="tr"> </span>';   // no letters — the purple glyph marks it; blank keeps the glyph row level
+      } else {
+        sub = '<span class="tr">' + escapeHtml(g.tr || '') + '</span>';
+      }
+      inner += '<span class="stack ' + role + '"' + title + ' data-gi="' + gi + '" data-sign="' + escapeHtml(g.sign || '') + '" data-role="' + role + '">'
+             + '<span class="gl">' + escapeHtml(g.s || '') + '</span>' + sub + '</span>';
+    });
+    const key = (w.morph && w.morph[0] && w.morph[0].lemma) || w.reading || '';
+    out += '<span class="word" data-wi="' + wi + '" data-w="' + escapeHtml(key) + '">' + inner + '</span>';
+  });
+  return out;
+}
+
+/* word popup: reading + morpheme breakdown, and (if any) its determinatives explained */
+function showWordPop(wordEl){
+  document.querySelectorAll('.wsel').forEach(e => e.classList.remove('wsel'));
+  wordEl.classList.add('wsel');
+  const se = wordEl.closest('.sent'); if (!se) return;
+  const w = ((story.sentences[+se.dataset.i] || {}).words || [])[+wordEl.dataset.wi];
+  if (!w) return;
+  const sg = signGlossaryFor(story) || {};
+  popWord = '';
+  $('popW').textContent = w.reading || '';
+  let g = '<div class="pmorph">';
+  (w.morph || []).forEach(m => { g += '<span class="pm"><span class="pmk">' + escapeHtml(m.lemma) + '</span> — ' + escapeHtml(m.gloss || '') + '</span>'; });
+  g += '</div>';
+  const dets = (w.glyphs || []).filter(x => (x.role || '') === 'det');
+  if (dets.length) {
+    g += '<div class="pdet"><span class="spMuted">classifiers (unpronounced):</span>';
+    dets.forEach(x => {
+      const e = sg[x.sign] || {};
+      g += '<span class="pdrow"><span class="pdgl">' + escapeHtml(x.s) + '</span>' + escapeHtml(e.name || x.sign)
+         + ' — <span class="pdg">' + escapeHtml(e.determines || '') + '</span></span>';
+    });
+    g += '</div>';
+  }
+  $('popG').innerHTML = g;
+  $('popSay').style.display = $('popSlow').style.display = story.langCode ? '' : 'none';
+  positionPop(wordEl);
+}
+
+function signPopHtml(sign, e){
+  if (!e) return '<span class="pmiss">Sign ' + escapeHtml(sign) + ' — not in the reference yet.</span>';
+  const isDet = /det/.test(e.type) || (!e.sound && e.determines);
+  let h = '<span class="spMuted">' + escapeHtml(e.type) + '</span><span class="spTag">' + escapeHtml(sign) + '</span>';
+  if (isDet) {
+    h += '<div class="spRow"><b>Unpronounced classifier.</b></div>';
+    if (e.determines) h += '<div class="spRow">Classifies: ' + escapeHtml(e.determines) + '</div>';
+  } else {
+    if (e.sound) h += '<div class="spRow">Value: <b>' + escapeHtml(e.sound) + '</b></div>';
+    if (e.pron) h += '<div class="spRow spMuted">' + escapeHtml(e.pron) + '</div>';
+    if (e.determines) h += '<div class="spRow spMuted">Also classifies: ' + escapeHtml(e.determines) + '</div>';
+  }
+  return h;
+}
+
+/* sign popup: tapped a determinative (or any glyph) → the sign's own reference entry */
+function showSignPop(stackEl){
+  document.querySelectorAll('.wsel').forEach(e => e.classList.remove('wsel'));
+  stackEl.classList.add('wsel');
+  const sign = stackEl.dataset.sign;
+  const e = (signGlossaryFor(story) || {})[sign];
+  popWord = '';
+  $('popW').innerHTML = '<span class="signGl">' + escapeHtml(e ? e.glyph : (stackEl.querySelector('.gl') || {}).textContent || '') + '</span>' + escapeHtml(e ? e.name : sign);
+  $('popG').innerHTML = signPopHtml(sign, e);
+  $('popSay').style.display = $('popSlow').style.display = 'none';
+  positionPop(stackEl);
+}
+
+/* ---- sign reference browser (the alphabet + the classifiers) ---- */
+function openSigns(){
+  const sg = signGlossaryFor(story); if (!sg) return;
+  const groups = [
+    ['The alphabet — uniliterals (one sound each)', e => e.type === 'uniliteral'],
+    ['Sound signs — bi- & triliterals, logograms', e => /literal|logogram|grammatical/.test(e.type) && e.type !== 'uniliteral'],
+    ['Determinatives & markers — unpronounced', e => e.type === 'determinative' || e.type === 'marker']
+  ];
+  let body = '';
+  const used = new Set();
+  groups.forEach(([label, test]) => {
+    const cells = Object.keys(sg).filter(k => !used.has(k) && test(sg[k]));
+    cells.forEach(k => used.add(k));
+    if (!cells.length) return;
+    body += '<div class="smGroup"><h4>' + escapeHtml(label) + '</h4><div class="smGrid">';
+    cells.forEach(k => {
+      const e = sg[k];
+      const val = e.sound ? escapeHtml(e.sound) : escapeHtml(e.determines || '');
+      const cdet = (e.type === 'determinative' || e.type === 'marker') ? ' cdet' : '';
+      body += '<div class="smCell' + cdet + '"><span class="cgl">' + escapeHtml(e.glyph) + '</span>'
+            + '<span class="cbody"><span class="cval">' + val + '</span><br><span class="cname">' + escapeHtml(e.name) + ' · ' + escapeHtml(k) + '</span></span></div>';
+    });
+    body += '</div></div>';
+  });
+  $('smBody').innerHTML = body;
+  $('smSub').textContent = (story.script || '') + ' — tap a determinative in the text to see what it classifies.';
+  $('signModal').classList.add('open');
+}
+function closeSigns(){ $('signModal').classList.remove('open'); }
 
 /* Egyptian (and other glyph scripts): zip glyph words (t) with transliteration words (tr)
    into stacked, clickable units — glyph on top, sound beneath. Glossary key = tr token. */
@@ -4786,7 +5358,7 @@ function render(){
     dr.style.display = prov ? '' : 'none';
     if (prov) dr.textContent = story.draftNote || 'Draft in progress — the hieroglyphs and their readings are provisional and still being checked sign-by-sign against the original papyrus, so expect changes.';
   }
-  const tts = !!story.langCode || !!story.audio;
+  const tts = !!story.langCode;
   $('rateWrap').style.display = tts ? '' : 'none';
   document.body.classList.toggle('allverse', story.sentences.every(x => x.v));
   story.sentences.forEach((s, i) => {
@@ -4801,7 +5373,11 @@ function render(){
       const end = s.ln + (s.t.match(/\n/g) || []).length;
       lnChip = '<span class="lineno">' + (end > s.ln ? s.ln + '–' + end : s.ln) + '</span>';
     }
-    if (s.tr) {
+    if (s.words) {
+      de.classList.add('words');
+      if (story.dir) de.setAttribute('dir', story.dir);
+      de.innerHTML = lnChip + buildWords(s);
+    } else if (s.tr) {
       de.classList.add('stacks');
       if (story.dir) de.setAttribute('dir', story.dir);
       de.innerHTML = lnChip + buildStacks(s);
@@ -5013,6 +5589,15 @@ $('text').addEventListener('click', (ev) => {
     if (btn.dataset.a === 'stop') stopPlay();
     return;
   }
+  const wordEl = ev.target.closest('.word');
+  if (wordEl && sent) {
+    const i = +sent.dataset.i;
+    const st = ev.target.closest('.stack');
+    if (st && st.dataset.role === 'det') showSignPop(st);   // determinative → its sign-reference entry
+    else showWordPop(wordEl);                                // sound signs → the word + morpheme breakdown
+    focusSent(i, false);
+    ev.stopPropagation(); return;
+  }
   if (w && sent) {
     const i = +sent.dataset.i;
     if (story.audio && speakingIdx === i && audioEl && !audioEl.paused && w.dataset.wi !== undefined) {
@@ -5028,7 +5613,7 @@ $('text').addEventListener('click', (ev) => {
 document.addEventListener('keydown', (ev) => {
   if (ev.target.tagName === 'INPUT' || ev.target.tagName === 'SELECT' || ev.target.tagName === 'TEXTAREA') return;
   const n = story ? story.sentences.length : 0;
-  if (ev.key === 'Escape') { stopSpeech(); if (speakingIdx >= 0) setSpeakingIdx(-1); hidePop(); }
+  if (ev.key === 'Escape') { stopSpeech(); if (speakingIdx >= 0) setSpeakingIdx(-1); hidePop(); closeSigns(); }
   else if (ev.key === 'ArrowDown' || ev.key === 'j') { ev.preventDefault(); focusSent(Math.min(focusedIdx + 1, n - 1), true); }
   else if (ev.key === 'ArrowUp' || ev.key === 'k') { ev.preventDefault(); focusSent(Math.max(focusedIdx - 1, 0), true); }
   else if (focusedIdx >= 0) {
@@ -5164,6 +5749,16 @@ function showPop(wEl){
 function hidePop(){
   $('pop').style.display = 'none';
   document.querySelectorAll('.wsel').forEach(e => e.classList.remove('wsel'));
+}
+function positionPop(el){
+  const pop = $('pop');
+  pop.style.display = 'block';
+  const r = el.getBoundingClientRect();
+  let x = Math.min(r.left, window.innerWidth - 360);
+  let y = r.bottom + 8;
+  if (y > window.innerHeight - 160) y = r.top - pop.offsetHeight - 8;
+  pop.style.left = Math.max(8, x) + 'px';
+  pop.style.top = Math.max(8, y) + 'px';
 }
 const POP_LABELS = { popSay: '🔊 Say it', popSlow: '🐢 Slowly' };
 function resetPopBtns(){ for (const id in POP_LABELS) { const b = $(id); if (b) b.textContent = POP_LABELS[id]; } }
@@ -5380,6 +5975,16 @@ function setPlain(on){
   if (focusedIdx >= 0) focusSent(focusedIdx, false);
 }
 $('plainBtn').onclick = () => setPlain(!plainMode);
+$('signsBtn').onclick = openSigns;
+$('signModal').addEventListener('click', (e) => { if (e.target.id === 'signModal') closeSigns(); });
+function updateQuadBtn(){ const b = $('quadBtn'); if (!b) return; b.classList.toggle('active', quadMode); b.textContent = quadMode ? '▤ Linear' : '▦ As written'; }
+$('quadBtn').onclick = () => {
+  quadMode = !quadMode;
+  try { localStorage.setItem('quadMode', quadMode ? '1' : '0'); } catch(e) {}
+  updateQuadBtn();
+  render();
+  if (focusedIdx >= 0) focusSent(focusedIdx, false);
+};
 
 /* transliteration ruby toggle (app-wide), shown only for stories that carry tr */
 let hideTr = false;
@@ -5457,6 +6062,12 @@ function loadStory(s){
       pb.style.display = 'none';
     }
   }
+  const glyphy = s.sentences.some(x => x.words || x.tr);
+  if (rg) rg.style.display = glyphy ? 'inline-flex' : 'none';
+  const sb = $('signsBtn'); if (sb) sb.style.display = signGlossaryFor(s) ? '' : 'none';
+  const hasQuad = s.sentences.some(x => (x.words || []).some(w => w.q));
+  const qb = $('quadBtn'); if (qb) qb.style.display = hasQuad ? '' : 'none';
+  updateQuadBtn();
   applyTr();
   hidePop();
   render();

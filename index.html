@@ -5345,4 +5345,135 @@ function renderCheck(res, out, i, attempt){
       }
     });
     d.appendChild(wb);
-    res.
+    res.appendChild(d);
+  });
+  const c = document.createElement('div');
+  c.className = 'askCost';
+  c.textContent = '≈' + fmtCents(out.cost) + ' · ' + fmtCents(spendCents()) + ' total';
+  res.appendChild(c);
+}
+
+/* ---------- modes & stories ---------- */
+function setMode(m){
+  mode = m;
+  document.body.classList.toggle('sbs', m === 'sbs');
+  // single next-action toggle: label shows what a click will switch TO
+  const b = $('modeToggle');
+  if (m === 'sbs'){ b.textContent = 'Original only'; b.title = 'Show original language only — reveal English per sentence'; }
+  else { b.textContent = 'Side by side'; b.title = 'Show original with English side by side'; }
+  render();
+  if (focusedIdx >= 0) focusSent(focusedIdx, false);
+  try { localStorage.setItem('mode', m); } catch(e) {}
+}
+$('modeToggle').onclick = () => setMode(mode === 'sbs' ? 'de' : 'sbs');
+
+function setPlain(on){
+  plainMode = on;
+  $('plainBtn').classList.toggle('active', on);
+  try { localStorage.setItem('plainLetters', on ? '1' : '0'); } catch(e) {}
+  render();
+  if (focusedIdx >= 0) focusSent(focusedIdx, false);
+}
+$('plainBtn').onclick = () => setPlain(!plainMode);
+
+/* transliteration ruby toggle (app-wide), shown only for stories that carry tr */
+let hideTr = false;
+try { hideTr = localStorage.getItem('hideTr') === '1'; } catch(e) {}
+function applyTr(){ document.body.classList.toggle('hidetr', hideTr); $('trBtn').classList.toggle('active', !hideTr); }
+$('trBtn').onclick = () => { hideTr = !hideTr; try { localStorage.setItem('hideTr', hideTr ? '1' : '0'); } catch(e) {} applyTr(); };
+
+/* ---------- library & story loading ---------- */
+function fillStorySel(){
+  const sel = $('storySel'); sel.innerHTML = '';
+  const groups = {}, order = [];
+  STORIES.forEach((s, i) => {
+    const lang = s.language || 'Other';
+    if (!groups[lang]) { groups[lang] = []; order.push(lang); }
+    groups[lang].push(i);
+  });
+  order.forEach(lang => {
+    const og = document.createElement('optgroup');
+    og.label = lang;
+    groups[lang].forEach(i => {
+      const o = document.createElement('option');
+      o.value = i; o.textContent = STORIES[i].titleEn || STORIES[i].title;
+      og.appendChild(o);
+    });
+    sel.appendChild(og);
+  });
+}
+$('storySel').onchange = () => loadStory(STORIES[+$('storySel').value]);
+
+function loadStory(s){
+  stopSpeech();
+  speakingIdx = -1;
+  slowPref = {};
+  story = s;
+  wordTimes = null; hlWi = -1;
+  if (s.audio){
+    fetch(s.audio.replace(/\/+$/,'') + '/align.json').then(r => r.ok ? r.json() : null).then(d => { wordTimes = d; }).catch(() => {});
+  }
+  $('trBtn').style.display = s.sentences.some(x => x.tr) ? '' : 'none';
+  activeSimplify = simplifyConfig(s);
+  const pb = $('plainBtn');
+  if (activeSimplify) {
+    pb.style.display = '';
+    pb.textContent = activeSimplify.label;
+    pb.title = activeSimplify.title;
+    pb.classList.toggle('active', plainMode);
+  } else {
+    pb.style.display = 'none';
+  }
+  hidePop();
+  render();
+  let pos = 0;
+  try { pos = parseInt(localStorage.getItem('pos:' + s.id)) || 0; } catch(e) {}
+  focusSent(Math.min(pos, s.sentences.length - 1), pos > 0);
+  try { localStorage.setItem('story', s.id); } catch(e) {}
+}
+
+$('fileIn').addEventListener('change', (ev) => {
+  const f = ev.target.files[0]; if (!f) return;
+  const rd = new FileReader();
+  rd.onload = () => {
+    try {
+      const s = JSON.parse(rd.result);
+      if (!s.sentences || !s.title) throw new Error('missing fields');
+      const existing = STORIES.findIndex(x => x.id === s.id);
+      if (existing >= 0) STORIES[existing] = s; else STORIES.push(s);
+      fillStorySel();
+      $('storySel').value = STORIES.findIndex(x => x.id === s.id);
+      loadStory(s);
+    } catch(e) { alert('Could not read story file: ' + e.message); }
+  };
+  rd.readAsText(f);
+  ev.target.value = '';
+});
+
+/* ---------- init ---------- */
+(function init(){
+  const hint = $('hintBox');
+  if (hint) {
+    try { const s = localStorage.getItem('hintOpen'); if (s !== null) hint.open = (s === '1'); } catch(e) {}
+    hint.addEventListener('toggle', () => { try { localStorage.setItem('hintOpen', hint.open ? '1' : '0'); } catch(e) {} });
+  }
+  $('plainBtn').classList.toggle('active', plainMode);
+  applyTr();
+  fillStorySel();
+  let m = 'de';
+  try { m = localStorage.getItem('mode') || 'de'; } catch(e) {}
+  let last = null;
+  try { last = localStorage.getItem('story'); } catch(e) {}
+  const idx = Math.max(0, STORIES.findIndex(s => s.id === last));
+  if (STORIES.length) {
+    $('storySel').value = idx;
+    setMode(m);
+    loadStory(STORIES[idx]);
+  } else {
+    $('stTitle').textContent = 'No stories loaded';
+    $('stMeta').textContent = 'Use “＋ Load story” to open a story .json file.';
+  }
+})();
+</script>
+</body>
+</html>

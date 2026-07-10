@@ -50,9 +50,15 @@
   #rate { width: 90px; }
   main { max-width: 880px; margin: 0 auto; padding: 24px 20px 45vh; }
   h1.storyTitle { font-size: 1.7rem; margin: 8px 0 2px; font-family: Georgia, 'Times New Roman', system-ui, 'Noto Serif', serif; }
+  .storyTitle .storyLang { font-weight: normal; color: var(--muted); font-size: 1.15rem; }
   .storyOrig { display: block; font-size: 1rem; font-weight: normal; color: var(--muted); margin-top: 3px;
     font-family: Georgia, 'Times New Roman', system-ui, 'Noto Serif', serif; }
+  .storySub { color: var(--muted); font-size: 1rem; margin: 2px 0 18px;
+    font-family: Georgia, 'Times New Roman', system-ui, 'Noto Serif', serif; }
   .storyMeta { color: var(--muted); font-size: .85rem; font-family: system-ui, 'Noto Sans', sans-serif; margin-bottom: 24px; }
+  #aboutBody .aboutAbout { margin-bottom: 10px; }
+  #aboutBody .aboutSource { color: var(--muted); }
+  #aboutBody .aboutLbl { font-weight: 600; }
   .hint { color: var(--muted); font-size: .82rem; font-family: system-ui, 'Noto Sans', sans-serif;
     background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; margin-bottom: 26px; line-height: 1.5; }
   .hint kbd { background: var(--accent-soft); border-radius: 4px; padding: 0 5px; font-family: inherit; }
@@ -272,9 +278,12 @@
 
 <main>
   <h1 class="storyTitle" id="stTitle"></h1>
-  <div class="storyMeta" id="stMeta"></div>
+  <div class="storySub" id="stSub"></div>
   <div class="draftBar" id="stDraft" style="display:none"></div>
-  <div class="hint" id="stAbout" style="display:none"></div>
+  <details class="hint" id="aboutBox">
+    <summary>Background information</summary>
+    <div class="hint-body" id="aboutBody"></div>
+  </details>
   <details class="hint" id="hintBox" open>
     <summary>Instructions</summary>
     <div class="hint-body">
@@ -15733,12 +15742,33 @@ function buildStacks(s){
 function render(){
   if (!story) return;
   const box = $('text'); box.innerHTML = '';
-  $('stTitle').innerHTML = escapeHtml(story.titleEn || story.title)
-    + (story.titleEn && story.title ? '<span class="storyOrig">' + escapeHtml(story.title) + '</span>' : '')
+  const mainTitle = story.title || story.titleEn || '';
+  $('stTitle').innerHTML = escapeHtml(mainTitle)
+    + (story.language ? ' <span class="storyLang">(' + escapeHtml(story.language) + ')</span>' : '')
     + (story.provisional ? ' <span class="draftBadge">draft · being built</span>' : '');
-  $('stMeta').textContent = (story.language || '') + ' — ' + (story.source || '');
-  const ab = $('stAbout');
-  if (ab) { ab.textContent = story.about || ''; ab.style.display = story.about ? '' : 'none'; }
+  const sub = $('stSub');
+  if (sub) {
+    const subText = (story.title && story.titleEn && story.titleEn !== story.title) ? story.titleEn : '';
+    sub.textContent = subText;
+    sub.style.display = subText ? '' : 'none';
+  }
+  const aboutBox = $('aboutBox'), aboutBody = $('aboutBody');
+  if (aboutBox && aboutBody) {
+    aboutBody.innerHTML = '';
+    if (story.about) {
+      const p = document.createElement('div');
+      p.className = 'aboutAbout';
+      p.textContent = story.about;
+      aboutBody.appendChild(p);
+    }
+    if (story.source) {
+      const p = document.createElement('div');
+      p.className = 'aboutSource';
+      p.innerHTML = '<span class="aboutLbl">Source &amp; edition:</span> ' + escapeHtml(story.source);
+      aboutBody.appendChild(p);
+    }
+    aboutBox.style.display = (story.about || story.source) ? '' : 'none';
+  }
   const dr = $('stDraft');
   if (dr) {
     const prov = !!story.provisional;
@@ -16503,7 +16533,7 @@ $('fileIn').addEventListener('change', (ev) => {
     loadStory(STORIES[idx]);
   } else {
     $('stTitle').textContent = 'No stories loaded';
-    $('stMeta').textContent = 'Use “＋ Load story” to open a story .json file.';
+    $('stSub').textContent = 'Use “＋ Load story” to open a story .json file.';
   }
 })();
 </script>

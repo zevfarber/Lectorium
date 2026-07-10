@@ -53,8 +53,10 @@
   .storyTitle .storyLang { font-weight: normal; color: var(--muted); font-size: 1.15rem; }
   .storyOrig { display: block; font-size: 1rem; font-weight: normal; color: var(--muted); margin-top: 3px;
     font-family: Georgia, 'Times New Roman', system-ui, 'Noto Serif', serif; }
-  .storySub { color: var(--muted); font-size: 1rem; margin: 2px 0 18px;
+  .storySub { color: var(--muted); font-size: 1.05rem; margin: 3px 0 1px;
     font-family: Georgia, 'Times New Roman', system-ui, 'Noto Serif', serif; }
+  .storyLangLine { color: var(--muted); font-size: .85rem; margin: 1px 0 18px;
+    font-family: system-ui, 'Noto Sans', sans-serif; }
   .storyMeta { color: var(--muted); font-size: .85rem; font-family: system-ui, 'Noto Sans', sans-serif; margin-bottom: 24px; }
   #aboutBody .aboutAbout { margin-bottom: 10px; }
   #aboutBody .aboutSource { color: var(--muted); }
@@ -279,6 +281,7 @@
 <main>
   <h1 class="storyTitle" id="stTitle"></h1>
   <div class="storySub" id="stSub"></div>
+  <div class="storyLangLine" id="stLang" style="display:none"></div>
   <div class="draftBar" id="stDraft" style="display:none"></div>
   <details class="hint" id="aboutBox">
     <summary>Background information</summary>
@@ -337,6 +340,7 @@ const STORIES = [
 {
   "id": "ani-spell125-opening",
   "title": "Rꜣ nw prt m hrw (125)",
+  "titleRead": "Ra nu per em heru (125)",
   "titleEn": "Book of the Dead of Ani — Spell 125: the Negative Confession",
   "language": "Middle Egyptian",
   "langCode": null,
@@ -15742,15 +15746,20 @@ function buildStacks(s){
 function render(){
   if (!story) return;
   const box = $('text'); box.innerHTML = '';
-  const mainTitle = story.title || story.titleEn || '';
-  $('stTitle').innerHTML = escapeHtml(mainTitle)
-    + (story.language ? ' <span class="storyLang">(' + escapeHtml(story.language) + ')</span>' : '')
+  const enTitle = story.titleEn || story.title || '';
+  const origTitle = story.titleRead || story.title || '';
+  $('stTitle').innerHTML = escapeHtml(enTitle)
     + (story.provisional ? ' <span class="draftBadge">draft · being built</span>' : '');
   const sub = $('stSub');
   if (sub) {
-    const subText = (story.title && story.titleEn && story.titleEn !== story.title) ? story.titleEn : '';
-    sub.textContent = subText;
-    sub.style.display = subText ? '' : 'none';
+    const showOrig = !!(story.titleEn && origTitle && origTitle !== enTitle);
+    sub.textContent = showOrig ? origTitle : '';
+    sub.style.display = showOrig ? '' : 'none';
+  }
+  const langLine = $('stLang');
+  if (langLine) {
+    langLine.textContent = story.language || '';
+    langLine.style.display = story.language ? '' : 'none';
   }
   const aboutBox = $('aboutBox'), aboutBody = $('aboutBody');
   if (aboutBox && aboutBody) {

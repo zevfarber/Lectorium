@@ -333,6 +333,74 @@
 <script>
 /* Lectorium — Egyptian word-stack reader build */
 const STORIES = [
+{
+  "id": "havamal-pilot",
+  "title": "Hávamál",
+  "titleEn": "Hávamál — stanzas 1–2 (Sayings of the High One)",
+  "language": "Old Norse",
+  "langCode": null,
+  "numbering": "stanza",
+  "provisional": true,
+  "draftNote": "Pilot — the first two stanzas. The wording is well attested, but the exact orthography and lineation are still being checked sign-by-sign against Gustav Neckel's 1914 printing; small changes are possible before the full poem is prepared.",
+  "source": "Gustav Neckel, Edda: Die Lieder des Codex Regius nebst verwandten Denkmälern, 1st edition (Heidelberg: Carl Winter, 1914), Hávamál, stanzas 1–2. Text in normalized classical Old Icelandic following Neckel's conventions — þ, ð, æ, œ, the nasal vowel ǫ, and acute marks for vowel length. Eddic poems are cited by stanza, not line, so the margin numbers are stanza numbers. Pronunciation convention: reconstructed classical Old Icelandic, c. 1200. Translations made fresh from the original. (Pilot: orthography and lineation to be verified against the Neckel printing before the full Gestaþáttr.)",
+  "about": "The Hávamál (‘Sayings of the High One’) survives in a single medieval manuscript, the Codex Regius (GKS 2365 4to, c. 1270); everything printed here is a modern editor's normalization of that one source, and the standard spelling itself — including the letter ǫ and the acute length-marks — is a scholarly convention, not something the scribe wrote consistently. The poem is gnomic: loosely linked proverbs of hospitality, caution, and conduct, voiced as if by Odin. These are its first two stanzas — the wary advice a traveller gives himself on entering a stranger's hall. The numbers in the margin are stanza numbers, the usual way of citing Eddic verse.",
+  "sentences": [
+    {
+      "p": true,
+      "v": true,
+      "ln": 1,
+      "t": "Gáttir allar,\náðr gangi fram,\num skoðask skyli,\num skygnask skyli;\nþví at óvíst er at vita,\nhvar óvinir sitja á fleti fyrir.",
+      "l": "All the doorways, before one walks forward, should be scanned, should be spied out; for it is uncertain to know where enemies sit on the hall-floor ahead.",
+      "i": "Before you step through any doorway, look it all over, scout it well — for you can never know for certain where enemies may be sitting in the hall ahead of you.",
+      "n": "The poem opens in ljóðaháttr, the ‘chant meter’ of Old Norse wisdom verse: short paired lines whose stressed syllables alliterate (Gáttir–gangi; skoðask–skygnask). You will see it throughout. Three grammar habits begin here. skyli ‘should’ is the gnomic subjunctive of skulu — it gives proverbs their timeless ‘one should…’. skoðask and skygnask carry the -sk middle ending (worn down from sik ‘oneself’), here roughly ‘be scanned / look about one’. And um before a verb is an old, now-meaningless particle — ignore it in the sense. flet (dat. fleti) is the raised plank-floor along a hall's walls where people sat, so á fleti fyrir = ‘on the benches ahead.’"
+    },
+    {
+      "p": true,
+      "v": true,
+      "ln": 2,
+      "t": "Gefendr heilir!\nGestr er inn kominn,\nhvar skal sitja sjá?\nMjǫk er bráðr,\nsá er á brǫndum skal\nsíns um freista frama.",
+      "l": "Givers, hail! A guest is come in — where shall this one sit? Very hasty is he who, at the fire-logs, must make trial of his own worth.",
+      "i": "Good health to the givers! A guest has stepped inside — where is he to sit? The man who must prove his worth at the hearth-fire stands there in an anxious hurry.",
+      "n": "A greeting to the hosts: Gefendr ‘the givers’ (of hospitality), heilir ‘hale, whole’ — the ancestor of English hail and wassail. inn is the adverb ‘in’ (gestr er inn kominn, ‘a guest has come in’); sjá here is the demonstrative ‘this one’ (nom.), not to be confused with sá ‘that one, he’ in the next line. Note the letter ǫ in mjǫk and brǫndum — the normalized spelling of a nasal o-vowel (later Icelandic ö); use the ‘þ→th’ button to fold it to a plain o. The second half is genuinely uncertain: á brǫndum is literally ‘on the firewood/logs’, taken as ‘at the hearth’, and síns um freista frama ‘to make trial of his own worth’ — the exact picture is debated. We keep the literal image and flag the doubt, as this text will do throughout."
+    }
+  ],
+  "glossary": {
+    "gáttir": "gátt (f.) — doorway, door-opening; here acc. pl., ‘all the doorways’",
+    "allar": "allr — all, every; here nom./acc. pl. fem., agreeing with gáttir",
+    "áðr": "áðr — before, ere (adv./conj.)",
+    "gangi": "ganga — to go, walk; here 3rd sg. pres. subjunctive, ‘(before) one goes’",
+    "fram": "fram — forward, forth (adv.)",
+    "um": "um — here an old expletive particle placed before the verb, with no meaning of its own (elsewhere a prep., ‘about, around’)",
+    "skoðask": "skoða — to look at, examine; here with the -sk middle ending, ‘be examined / look over for oneself’ (pres. subj.)",
+    "skygnask": "skygnask — to look about, peer around, spy out (-sk middle verb; pres. subj.)",
+    "skyli": "skulu — shall, must, ought; here 3rd sg. pres. subjunctive, ‘should’ (the gnomic ‘one should’)",
+    "því": "því — for, because — því at = ‘because, for’ (því is the instrumental of the demonstrative sá/þat)",
+    "at": "at — that; to (before an infinitive); in því at = ‘because’",
+    "óvíst": "óvíss — uncertain, not known; here neut. sg. óvíst (ó- ‘un-’ + víss ‘certain’)",
+    "er": "vera — to be; here 3rd sg. pres. ‘is’ (er also serves as the relative particle ‘who, which, that’)",
+    "vita": "vita — to know (infinitive)",
+    "hvar": "hvar — where (interrogative/relative adverb)",
+    "óvinir": "óvinr (m.) — enemy, foe (ó- ‘un-’ + vinr ‘friend’); here nom. pl.",
+    "sitja": "sitja — to sit; here 3rd pl. pres. ‘(they) sit’",
+    "á": "á — on, upon, at (prep. with dat. or acc.)",
+    "fleti": "flet (n.) — the raised plank-floor / benches along a hall's walls; here dat. sg., ‘on the floor’",
+    "fyrir": "fyrir — before, in front, ahead (adv./prep.); á fleti fyrir = ‘on the benches ahead’",
+    "gefendr": "gefandi (m.) — giver; here nom. pl. gefendr, ‘the givers’ (of hospitality), i.e. the hosts (present participle of gefa ‘to give’)",
+    "heilir": "heill — hale, whole, sound; as a greeting ‘hail!’; here nom. pl. masc., addressing the hosts",
+    "gestr": "gestr (m.) — guest, stranger; here nom. sg.",
+    "inn": "inn — in, inward (adverb of motion): gestr er inn kominn = ‘a guest has come in’ (distinct from the article inn/hinn)",
+    "kominn": "koma — to come; here past participle masc. sg., ‘come’ (er kominn = ‘has come’)",
+    "skal": "skulu — shall, must; here 3rd sg. pres. ‘shall, is to’",
+    "sjá": "sjá — this, this one (demonstrative pron., nom. sg. masc.); identical in form to the verb sjá ‘to see’, but here the pronoun",
+    "mjǫk": "mjǫk — much, very, greatly (adv.); normalized spelling with ǫ (later Icelandic mjög)",
+    "bráðr": "bráðr — hasty, impetuous, in a hurry (adj.); here nom. sg. masc.",
+    "sá": "sá — that, that one; he (demonstrative pron., nom. sg. masc.); sá er = ‘he who’",
+    "brǫndum": "brandr (m.) — firebrand, burning log; here dat. pl. brǫndum, ‘at the fire-logs / hearth’",
+    "síns": "sinn — his own (reflexive possessive); here gen. sg. masc., ‘of his own’, going with frama",
+    "freista": "freista (+ gen.) — to try, test, make trial of (infinitive)",
+    "frama": "frami (m.) — advancement, success, distinction, worth; here gen. sg. frama, object of freista"
+  }
+},
 
 {
   "id": "ani-spell125-opening",
@@ -15417,6 +15485,16 @@ function plainLetters(s){
   return s.replace(/þ|ð/g, 'th').replace(/Þ|Ð/g, 'Th').replace(/æ/g, 'ae').replace(/Æ/g, 'Ae');
 }
 
+/* Old Norse plain-letters: fold the four exotic letterforms but KEEP acute length
+   marks (á é í ó ú ý), which are phonemic and standard even in plain reading. */
+function plainLettersON(s){
+  return s.replace(/þ/g, 'th').replace(/Þ/g, 'Th')
+          .replace(/ð/g, 'd').replace(/Ð/g, 'D')
+          .replace(/æ/g, 'ae').replace(/Æ/g, 'Ae')
+          .replace(/œ/g, 'oe').replace(/Œ/g, 'Oe')
+          .replace(/ǫ/g, 'o').replace(/Ǫ/g, 'O');
+}
+
 /* ---- "simplify script" capability (one toolbar slot, shown only where useful) ----
    Each text can offer a friendlier rendering of its script. The toggle appears
    only for texts that have one, does the language-appropriate swap, and is
@@ -15427,6 +15505,9 @@ let activeSimplify = null;   // config for the current story, or null
 function simplifyConfig(story){
   if (!story) return null;
   const txt = story.sentences.map(x => x.t || '').join('\n');
+  // Old Norse: same þ/ð/æ letterforms plus the nasal vowel ǫ and the ligature œ; keep acute length marks.
+  if ((story.language && /norse/i.test(story.language)) || /[ǫœǪŒ]/.test(txt))
+    return { label: 'þ→th', title: 'Plain letters — þ→th, ð→d, æ→ae, ǫ→o, œ→oe (accents kept)', fn: plainLettersON };
   // Old English letterforms (þ ð æ) or vowel-length macrons → the plain-letters view
   if (/[þðæÞÐÆ]/.test(txt) || /̄/.test(txt.normalize('NFD')))
     return { label: 'þ→th', title: 'Plain letters — þ, ð → th, æ → ae, length marks hidden', fn: plainLetters };
@@ -15793,8 +15874,10 @@ function render(){
     de.className = 'de';
     let lnChip = '';
     if (s.ln) {
+      // Eddic verse is cited by stanza (a single number); other verse (Beowulf) by line range.
       const end = s.ln + (s.t.match(/\n/g) || []).length;
-      lnChip = '<span class="lineno">' + (end > s.ln ? s.ln + '–' + end : s.ln) + '</span>';
+      const showRange = (story.numbering !== 'stanza') && end > s.ln;
+      lnChip = '<span class="lineno">' + (showRange ? s.ln + '–' + end : s.ln) + '</span>';
     }
     if (s.words) {
       de.classList.add('words');

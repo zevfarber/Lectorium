@@ -174,8 +174,9 @@
   .de.stacks { white-space: normal; display: flex; flex-wrap: wrap; align-items: flex-end; gap: 5px 9px; }
   .stack { display: inline-flex; flex-direction: column; align-items: center; gap: 2px; padding: 3px 5px; border-radius: 6px; cursor: pointer; }
   .stack:hover { background: var(--accent-soft); }
-  .stack.wsel { background: var(--accent); }
-  .stack.wsel .gl, .stack.wsel .tr { color: #fff; }
+  /* selected: light fill + brown ring, so role-coloured glyphs (purple determinatives,
+     green suffixes) stay legible instead of vanishing on a dark fill (accessibility). */
+  .stack.wsel { background: var(--focus-bg); box-shadow: 0 0 0 2px var(--accent); }
   .gl { font-family: 'Noto Sans Egyptian Hieroglyphs', Georgia, 'Noto Serif', serif; font-size: 1.95rem; line-height: 1.05; }
   .tr { font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: .72rem; color: var(--muted); letter-spacing: .02em; }
   body.hidetr .tr { display: none; }
@@ -189,14 +190,11 @@
   .de.words { white-space: normal; display: flex; flex-wrap: wrap; align-items: flex-end; gap: 8px 16px; }
   .word { display: inline-flex; align-items: flex-end; gap: 3px; white-space: nowrap; padding: 2px 5px; border-radius: 7px; cursor: pointer; }
   .word:hover { background: var(--accent-soft); }
-  .word.wsel { background: var(--accent); }
-  .word.wsel .gl, .word.wsel .tr, .word.wsel .detmk { color: #fff; }
-  .word.wsel .detmk { border-color: rgba(255,255,255,.6); }
+  .word.wsel { background: var(--focus-bg); box-shadow: 0 0 0 2px var(--accent); }
   .word .stack { padding: 1px 2px; background: none; }
   .word .stack:hover { background: none; }
   .word .stack.det { cursor: help; }
   .word .stack.det:hover { background: rgba(107,74,158,.13); border-radius: 5px; }
-  .word.wsel .stack.det:hover { background: rgba(255,255,255,.18); }
   /* phonetic complement — a redundant sound sign: dimmed with a dotted underline */
   .stack.comp .tr { color: var(--muted); opacity: .8; border-bottom: 1px dotted var(--muted); }
   .stack.comp .gl { opacity: .78; }
@@ -226,7 +224,6 @@
   .glyphrow { display: inline-flex; align-items: flex-end; gap: 3px; white-space: nowrap; }
   .word.quad.wordread .glyphrow { align-items: flex-start; gap: 3px 12px; }
   .wordsay { font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: .95rem; color: var(--ink); letter-spacing: .01em; margin-top: 1px; }
-  .word.wordread.wsel .wordsay { color: #fff; }
   body.hidetr .wordsay { display: none; }
   /* word popup: morpheme breakdown + classifier notes */
   .pmorph .pm { display: block; margin: 4px 0; }

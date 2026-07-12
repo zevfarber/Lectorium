@@ -6,6 +6,7 @@
 <title>Lectorium</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Egyptian+Hieroglyphs&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Anatolian+Hieroglyphs&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -169,7 +170,7 @@
   #pop .pbtns button { font-size: .8rem; padding: 4px 10px; border-radius: 999px; }
   #pop .pclose { position: absolute; top: 6px; right: 10px; border: none; background: none; color: var(--muted); font-size: 1rem; padding: 2px 6px; }
   #pop .pmiss { color: var(--muted); font-style: italic; }
-  #popW { font-family: 'Noto Sans Egyptian Hieroglyphs', Georgia, 'Noto Serif', serif; }
+  #popW { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', Georgia, 'Noto Serif', serif; }
   /* Egyptian word-stack reading layer: glyph over transliteration */
   .de.stacks { white-space: normal; display: flex; flex-wrap: wrap; align-items: flex-end; gap: 5px 9px; }
   .stack { display: inline-flex; flex-direction: column; align-items: center; gap: 2px; padding: 3px 5px; border-radius: 6px; cursor: pointer; }
@@ -177,7 +178,7 @@
   /* selected: light fill + brown ring, so role-coloured glyphs (purple determinatives,
      green suffixes) stay legible instead of vanishing on a dark fill (accessibility). */
   .stack.wsel { background: var(--focus-bg); box-shadow: 0 0 0 2px var(--accent); }
-  .gl { font-family: 'Noto Sans Egyptian Hieroglyphs', Georgia, 'Noto Serif', serif; font-size: 1.95rem; line-height: 1.05; }
+  .gl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', Georgia, 'Noto Serif', serif; font-size: 1.95rem; line-height: 1.05; }
   .tr { font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: .72rem; color: var(--muted); letter-spacing: .02em; }
   body.hidetr .tr { display: none; }
   .stack.pend { align-items: center; }
@@ -212,7 +213,7 @@
   .quadblock .qh { display: inline-flex; flex-direction: row; align-items: center; gap: 1px; }
   .quadblock .qv { display: inline-flex; flex-direction: column; align-items: center; gap: 0; line-height: .82; }
   .quadblock .stack { padding: 0; }
-  .qgl { font-family: 'Noto Sans Egyptian Hieroglyphs', serif; font-size: 1.7rem; line-height: 1; }
+  .qgl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', serif; font-size: 1.7rem; line-height: 1; }
   .qv .qgl { font-size: 1.18rem; }
   .qh .qgl { font-size: 1.35rem; }
   .qtr { font-family: system-ui, 'Noto Sans', sans-serif; font-size: .72rem; color: var(--muted); margin-top: 2px; letter-spacing: .02em; }
@@ -231,9 +232,9 @@
   .pdet { margin-top: 8px; padding-top: 7px; border-top: 1px solid var(--border); font-size: .93em; }
   .pdet .pdrow { display: block; margin: 2px 0; }
   .pdet .pdg { color: #6b4a9e; }
-  .pdet .pdgl { font-family: 'Noto Sans Egyptian Hieroglyphs', serif; margin-right: 5px; }
+  .pdet .pdgl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', serif; margin-right: 5px; }
   /* sign popup + reference browser */
-  .signGl { font-family: 'Noto Sans Egyptian Hieroglyphs', serif; font-size: 1.5rem; margin-right: 6px; }
+  .signGl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', serif; font-size: 1.5rem; margin-right: 6px; }
   .spTag { display:inline-block; font-size:.58rem; font-weight:600; text-transform:uppercase; letter-spacing:.05em;
            padding:1px 7px; border-radius:10px; margin-left:6px; vertical-align:middle; background:#efe7fb; color:#6b4a9e; }
   .spRow { margin-top: 7px; }
@@ -248,7 +249,7 @@
   .smGroup h4 { margin:0 0 8px; font-size:.72rem; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); }
   .smGrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:8px; }
   .smCell { display:flex; align-items:center; gap:9px; border:1px solid var(--border); border-radius:9px; padding:7px 9px; }
-  .smCell .cgl { font-family:'Noto Sans Egyptian Hieroglyphs', serif; font-size:1.7rem; line-height:1; }
+  .smCell .cgl { font-family:'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', serif; font-size:1.7rem; line-height:1; }
   .smCell .cbody { font-family:system-ui,'Noto Sans',sans-serif; font-size:.78rem; line-height:1.25; }
   .smCell .cval { font-weight:600; }
   .smCell .cname { color:var(--muted); }
@@ -554,6 +555,95 @@ const SIGN_GLOSSARIES = {
   "X4": {"glyph": "𓏒", "name": "loaf / bread-roll", "type": "determinative", "sound": null, "pron": null, "determines": "bread, cakes; food offerings"},
   "Y5": {"glyph": "𓏠", "name": "senet game-board", "type": "biliteral", "sound": "mn", "pron": null, "determines": null},
   "Z15g": {"glyph": "𓐁", "name": "group of small strokes (numeral variant)", "type": "marker/determinative", "sound": null, "pron": null, "determines": "strokes accompanying a sign-group (function here uncertain)"}
+ },
+ "Anatolian hieroglyphs": {
+  "A450": {"glyph": "𔗷", "name": "the a sign (*450)", "type": "syllabogram", "sound": "a", "pron": null, "determines": null},
+  "A019": {"glyph": "𔐓", "name": "the á sign (*19)", "type": "syllabogram", "sound": "á", "pron": null, "determines": null},
+  "A209": {"glyph": "𔓯", "name": "the i sign (*209)", "type": "syllabogram", "sound": "i", "pron": null, "determines": null},
+  "A210": {"glyph": "𔓱", "name": "the ia sign (*210)", "type": "syllabogram", "sound": "ia", "pron": null, "determines": null},
+  "A105": {"glyph": "𔑺", "name": "ox's head (BOS)", "type": "syllabogram/logogram", "sound": "u (also logogram BOS 'ox')", "pron": null, "determines": null},
+  "A377": {"glyph": "𔖪", "name": "the za sign (*377)", "type": "syllabogram", "sound": "za", "pron": null, "determines": null},
+  "A112": {"glyph": "𔒈", "name": "licking mouth (LINGERE)", "type": "syllabogram/determinative", "sound": "za₄ (as sound sign)", "pron": null, "determines": "licking, tasting; satiety"},
+  "A376": {"glyph": "𔖩", "name": "the zi sign (*376)", "type": "syllabogram", "sound": "zi (also za)", "pron": null, "determines": null},
+  "A448": {"glyph": "𔗵", "name": "the zú sign (*448)", "type": "syllabogram", "sound": "zú (also sù)", "pron": null, "determines": null},
+  "A090": {"glyph": "𔑣", "name": "leg and foot (PES)", "type": "syllabogram/logogram", "sound": "ti (also logogram PES 'foot')", "pron": null, "determines": null},
+  "A488": {"glyph": "𔘟", "name": "the tí sign (*488)", "type": "syllabogram", "sound": "tí", "pron": null, "determines": null},
+  "A100": {"glyph": "𔑯", "name": "donkey's head (ASINUS)", "type": "syllabogram", "sound": "ta", "pron": null, "determines": null},
+  "A029": {"glyph": "𔐞", "name": "the tá sign (*29)", "type": "syllabogram", "sound": "tá", "pron": null, "determines": null},
+  "A041": {"glyph": "𔐫", "name": "hand grasping (CAPERE)", "type": "syllabogram/logogram", "sound": "tà (also logogram CAPERE 'take')", "pron": null, "determines": null},
+  "A088": {"glyph": "𔑡", "name": "the tu sign (*88)", "type": "syllabogram", "sound": "tu", "pron": null, "determines": null},
+  "A389": {"glyph": "𔖹", "name": "the tara/i sign (*389)", "type": "syllabogram", "sound": "tara / tari", "pron": null, "determines": null},
+  "A415": {"glyph": "𔗔", "name": "the sa sign (*415)", "type": "syllabogram", "sound": "sa", "pron": null, "determines": null},
+  "A433": {"glyph": "𔗦", "name": "the sá sign (*433)", "type": "syllabogram", "sound": "sá", "pron": null, "determines": null},
+  "A104": {"glyph": "𔑶", "name": "goat's head (CAPRA)", "type": "syllabogram", "sound": "sà", "pron": null, "determines": null},
+  "A370": {"glyph": "𔖢", "name": "the su sign (BONUS₂)", "type": "syllabogram", "sound": "su", "pron": null, "determines": null},
+  "A215": {"glyph": "𔓶", "name": "the ha sign (*215)", "type": "syllabogram", "sound": "ha", "pron": null, "determines": null},
+  "A196": {"glyph": "𔓟", "name": "the há sign (HATTI)", "type": "syllabogram/logogram", "sound": "há (also HATTI 'Hatti')", "pron": null, "determines": null},
+  "A307": {"glyph": "𔕙", "name": "the hu sign (*307)", "type": "syllabogram", "sound": "hu", "pron": null, "determines": null},
+  "A434": {"glyph": "𔗧", "name": "the ka sign (*434)", "type": "syllabogram", "sound": "ka", "pron": null, "determines": null},
+  "A423": {"glyph": "𔗜", "name": "the ku sign (*423)", "type": "syllabogram", "sound": "ku", "pron": null, "determines": null},
+  "A446": {"glyph": "𔗳", "name": "the ki sign (*446)", "type": "syllabogram", "sound": "ki", "pron": null, "determines": null},
+  "A035": {"glyph": "𔐤", "name": "the na sign (*35)", "type": "syllabogram", "sound": "na", "pron": null, "determines": null},
+  "A214": {"glyph": "𔓵", "name": "the ní sign (*214)", "type": "syllabogram", "sound": "ní", "pron": null, "determines": null},
+  "A153": {"glyph": "𔒴", "name": "the nu sign (*153)", "type": "syllabogram", "sound": "nu", "pron": null, "determines": null},
+  "A395": {"glyph": "𔖿", "name": "the nú sign (*395)", "type": "syllabogram", "sound": "nú (also the numeral 9)", "pron": null, "determines": null},
+  "A110": {"glyph": "𔒄", "name": "the ma sign (*110)", "type": "syllabogram", "sound": "ma", "pron": null, "determines": null},
+  "A391": {"glyph": "𔖻", "name": "the mi sign (*391)", "type": "syllabogram", "sound": "mi (also the numeral 4)", "pron": null, "determines": null},
+  "A107": {"glyph": "𔑾", "name": "ox's head with mi (BOS+MI)", "type": "syllabogram", "sound": "mu", "pron": null, "determines": null},
+  "A334": {"glyph": "𔕸", "name": "the pa sign (*334)", "type": "syllabogram", "sound": "pa", "pron": null, "determines": null},
+  "A439": {"glyph": "𔗬", "name": "the wa/i sign (*439)", "type": "syllabogram", "sound": "wa / wi (one sign, either vowel)", "pron": null, "determines": null},
+  "A166": {"glyph": "𔓁", "name": "the wá/í sign (*166)", "type": "syllabogram", "sound": "wá / wí (variant of wa/i)", "pron": null, "determines": null},
+  "A175": {"glyph": "𔓊", "name": "tongue (LINGUA)", "type": "syllabogram", "sound": "la", "pron": null, "determines": null},
+  "A445": {"glyph": "𔗲", "name": "the la/i/u sign (*445)", "type": "syllabogram", "sound": "la / li / lu (one sign, any vowel)", "pron": null, "determines": null},
+  "A125": {"glyph": "𔒖", "name": "the lí sign (*125)", "type": "syllabogram", "sound": "lí", "pron": null, "determines": null},
+  "A278": {"glyph": "𔔹", "name": "the li sign (*278)", "type": "syllabogram", "sound": "li", "pron": null, "determines": null},
+  "A383": {"glyph": "𔖱", "name": "the attached ra/i sign (*383)", "type": "syllabogram", "sound": "ra / ri — a small hook attached to another sign (+ra/i)", "pron": null, "determines": null},
+  "A329": {"glyph": "𔕰", "name": "the kwa/i sign (REL)", "type": "syllabogram/logogram", "sound": "kwa / kwi — also the relative pronoun 'who, which' (REL)", "pron": null, "determines": null},
+  "A412": {"glyph": "𔗑", "name": "the ru sign (*412)", "type": "syllabogram", "sound": "ru", "pron": null, "determines": null},
+  "A001": {"glyph": "𔐀", "name": "figure pointing to himself (EGO)", "type": "logogram", "sound": "EGO — 'I' (ammu)", "pron": null, "determines": null},
+  "A010": {"glyph": "𔐉", "name": "head (CAPUT)", "type": "logogram", "sound": "CAPUT — 'man, person' (ziti-)", "pron": null, "determines": null},
+  "A017": {"glyph": "𔐑", "name": "the REX sign", "type": "logogram", "sound": "REX — 'king' (hantawatti-)", "pron": null, "determines": null},
+  "A191": {"glyph": "𔓚", "name": "winged sun disk (SOL)", "type": "logogram", "sound": "SOL — 'Sun, Sun-god' (Tiwad-)", "pron": null, "determines": null},
+  "A199": {"glyph": "𔓢", "name": "storm sign (TONITRUS)", "type": "logogram", "sound": "TONITRUS — 'thunder'; writes the Storm-god Tarhunzas", "pron": null, "determines": null},
+  "A387": {"glyph": "𔖷", "name": "the SERVUS sign", "type": "logogram", "sound": "SERVUS — 'servant' (hudarli-)", "pron": null, "determines": null},
+  "A363": {"glyph": "𔖙", "name": "the MAGNUS sign", "type": "logogram", "sound": "MAGNUS (ur) — 'great' (ura-)", "pron": null, "determines": null},
+  "A079": {"glyph": "𔑘", "name": "woman (MATER/FEMINA)", "type": "logogram", "sound": "MATER — 'mother' (anna-)", "pron": null, "determines": null},
+  "A216": {"glyph": "𔓸", "name": "the ARHA sign (FINES)", "type": "logogram", "sound": "ARHA — 'away, forth, utterly' (preverb); as FINES 'borders'", "pron": null, "determines": null},
+  "A026A": {"glyph": "𔐛", "name": "the VERSUS sign", "type": "logogram", "sound": "VERSUS — 'toward, facing' (tawiyan)", "pron": null, "determines": null},
+  "A366": {"glyph": "𔖝", "name": "the OMNIS sign", "type": "logogram", "sound": "OMNIS — 'all, every' (tanim(a)-)", "pron": null, "determines": null},
+  "A269": {"glyph": "𔔰", "name": "the EXERCITUS sign", "type": "logogram", "sound": "EXERCITUS — 'army' (kwalan-)", "pron": null, "determines": null},
+  "A270": {"glyph": "𔔱", "name": "the SUPER sign", "type": "logogram", "sound": "SUPER (sarra/i) — 'over, on top of'", "pron": null, "determines": null},
+  "A272": {"glyph": "𔔳", "name": "sign *272", "type": "logogram", "sound": "writes har(r)ali- 'shield'(?) — meaning inferred, not certain", "pron": null, "determines": null},
+  "A056": {"glyph": "𔐾", "name": "the INFRA sign", "type": "logogram", "sound": "INFRA (ká) — 'under, beneath' (annan)", "pron": null, "determines": null},
+  "A039": {"glyph": "𔐨", "name": "fist (PUGNUS)", "type": "logogram", "sound": "PUGNUS — 'fist'; in words of strength and grasping", "pron": null, "determines": null},
+  "A247": {"glyph": "𔔙", "name": "house plan (DOMUS)", "type": "logogram", "sound": "DOMUS — 'house' (parna-)", "pron": null, "determines": null},
+  "A390": {"glyph": "𔖺", "name": "the DOMINUS sign", "type": "logogram", "sound": "DOMINUS — 'lord' (nanni-)", "pron": null, "determines": null},
+  "A246": {"glyph": "𔔘", "name": "the AEDIFICARE sign", "type": "logogram", "sound": "AEDIFICARE — 'to build' (tama-)", "pron": null, "determines": null},
+  "A371": {"glyph": "𔖣", "name": "the IUSTITIA sign", "type": "logogram", "sound": "IUSTITIA / IUDEX — 'justice' (tarrawanna-)", "pron": null, "determines": null},
+  "A332B": {"glyph": "𔕵", "name": "the NEG₂ sign", "type": "logogram/grammatical", "sound": "NEG₂ (ná) — 'not'", "pron": null, "determines": null},
+  "A058": {"glyph": "𔑀", "name": "the CUM sign", "type": "logogram", "sound": "CUM — 'with, together with' (anna(n))", "pron": null, "determines": null},
+  "A299": {"glyph": "𔕐", "name": "seat (SOLIUM)", "type": "logogram", "sound": "SOLIUM — 'seat'; writes 'cause to sit' (also the í sign)", "pron": null, "determines": null},
+  "A099": {"glyph": "𔑮", "name": "horse's head (EQUUS)", "type": "logogram", "sound": "EQUUS — 'horse' (azzu-); here in the compound EQUUS.ANIMA", "pron": null, "determines": null},
+  "A360": {"glyph": "𔖖", "name": "the DEUS sign", "type": "determinative", "sound": null, "pron": null, "determines": "a god; placed before divine names (Tarhunzas, the Sun-god)"},
+  "A383A": {"glyph": "𔖲", "name": "personal-name marker", "type": "determinative", "sound": null, "pron": null, "determines": "a personal name follows (with the lituus crook in this text's spelling)"},
+  "A225": {"glyph": "𔔂", "name": "the URBS sign", "type": "determinative", "sound": null, "pron": null, "determines": "a city or land; follows place names (Hiyawa, Pahar)"},
+  "A429": {"glyph": "𔗢", "name": "sign *429 (the city name)", "type": "logogram", "sound": null, "pron": null, "determines": "the disputed sign that writes the country's name — read Hiyawa by the corpus followed here, Adanawa by others"},
+  "A059": {"glyph": "𔑁", "name": "hand (MANUS)", "type": "determinative", "sound": null, "pron": null, "determines": "actions of the hand — extending, filling, taking (carved reversed in this text)"},
+  "A201": {"glyph": "𔓤", "name": "the TERRA sign", "type": "determinative", "sound": null, "pron": null, "determines": "earth, land, open country (here with an extra mark: TERRA+X)"},
+  "A379": {"glyph": "𔖬", "name": "the OCCIDENS sign", "type": "determinative", "sound": null, "pron": null, "determines": "the setting sun — the west (also the ià sign)"},
+  "A192": {"glyph": "𔓛", "name": "the ORIENS sign", "type": "determinative", "sound": null, "pron": null, "determines": "the rising sun — the east"},
+  "A358": {"glyph": "𔖓", "name": "the DIES sign", "type": "determinative", "sound": null, "pron": null, "determines": "a day"},
+  "A320": {"glyph": "𔕧", "name": "the BONUS sign", "type": "determinative", "sound": null, "pron": null, "determines": "good things — marks words of goodness (sannawi-)"},
+  "A108": {"glyph": "𔒂", "name": "horn (CORNU)", "type": "determinative", "sound": null, "pron": null, "determines": "a horn; abundance — the overflowing horn (here with attached ra/i)"},
+  "A255": {"glyph": "𔔡", "name": "granary (HORREUM / *255)", "type": "determinative", "sound": null, "pron": null, "determines": "a granary, storehouse; also marks the uncertain word for 'rebels'(?) in §11"},
+  "A368": {"glyph": "𔖟", "name": "the MALUS sign", "type": "determinative", "sound": null, "pron": null, "determines": "bad, evil — marks words of badness"},
+  "A368A": {"glyph": "𔖠", "name": "the MALUS₂ sign", "type": "determinative", "sound": null, "pron": null, "determines": "bad, evil (variant form)"},
+  "A294": {"glyph": "𔕊", "name": "seat with back (THRONUS)", "type": "determinative", "sound": null, "pron": null, "determines": "a throne, a seat of honor"},
+  "A300": {"glyph": "𔕒", "name": "the NEPOS sign", "type": "determinative", "sound": null, "pron": null, "determines": "grandson, descendant — marks words for offspring and family"},
+  "A341": {"glyph": "𔖂", "name": "the COR sign", "type": "determinative", "sound": null, "pron": null, "determines": "the heart — marks 'wisdom', which lives in the heart"},
+  "A231": {"glyph": "𔔉", "name": "fortress wall (CASTRUM)", "type": "determinative", "sound": null, "pron": null, "determines": "a fortress, fortification"},
+  "A217": {"glyph": "𔓺", "name": "sign *217 (damaged here)", "type": "determinative", "sound": null, "pron": null, "determines": "marks the word read 'thieves' — the sign is damaged on the stone and its identity uncertain"},
+  "DAMAGED": {"glyph": "▢", "name": "damaged sign", "type": "marker", "sound": null, "pron": null, "determines": "a sign lost or illegible on the stone; any reading is a modern restoration"}
  }
 };
 function signGlossaryFor(st){ return (st && st.script && SIGN_GLOSSARIES[st.script]) || null; }
@@ -706,7 +796,8 @@ function openSigns(){
   const sg = signGlossaryFor(story); if (!sg) return;
   const groups = [
     ['The alphabet — uniliterals (one sound each)', e => e.type === 'uniliteral'],
-    ['Sound signs — bi- & triliterals, logograms', e => /literal|logogram|grammatical/.test(e.type) && e.type !== 'uniliteral'],
+    ['The syllabary — one syllable each', e => /syllabogram/.test(e.type) && !/logogram|determinative/.test(e.type)],
+    ['Word & sound signs — logograms, multi-sound signs', e => /literal|logogram|grammatical|syllabogram/.test(e.type) && e.type !== 'uniliteral'],
     ['Determinatives & markers — unpronounced', e => e.type === 'determinative' || e.type === 'marker']
   ];
   let body = '';
@@ -811,10 +902,12 @@ function render(){
     de.className = 'de';
     let lnChip = '';
     if (s.ln) {
-      // Eddic verse is cited by stanza (a single number); other verse (Beowulf) by line range.
+      // Eddic verse is cited by stanza (a single number); other verse (Beowulf) by line range;
+      // clause-numbered inscriptions (Luwian) by §-clause.
       const end = s.ln + (s.t.match(/\n/g) || []).length;
-      const showRange = (story.numbering !== 'stanza') && end > s.ln;
-      lnChip = '<span class="lineno">' + (showRange ? s.ln + '–' + end : s.ln) + '</span>';
+      const single = story.numbering === 'stanza' || story.numbering === 'clause';
+      const pre = story.numbering === 'clause' ? '§' : '';
+      lnChip = '<span class="lineno">' + pre + ((!single && end > s.ln) ? s.ln + '–' + end : s.ln) + '</span>';
     }
     if (s.words) {
       de.classList.add('words');

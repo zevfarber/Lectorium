@@ -657,7 +657,10 @@ function signGlossaryFor(st){ return (st && st.script && SIGN_GLOSSARIES[st.scri
    In readable mode the per-glyph/per-quadrat letters give way to one vowelled reading under the whole word. */
 function buildWords(s){
   const readable = !!(plainMode && activeSimplify && activeSimplify.mode === 'say');
-  return quadMode ? buildWordsQuad(s, readable) : buildGlyphLinear(s, readable);
+  // "as written" only applies to sentences that actually carry quadrat data — the
+  // toggle's saved state must not leak from one text (Egyptian) into another (Luwian)
+  const hasQ = (s.words || []).some(w => w.q);
+  return (quadMode && hasQ) ? buildWordsQuad(s, readable) : buildGlyphLinear(s, readable);
 }
 
 /* readable mode: the word's glyphs on top, a single vowelled reading (say) beneath the whole word */
@@ -700,7 +703,7 @@ function buildWordsQuad(s, readable){
     const quads = w.q ? w.q.split('-').map(qColon) : glyphs.map((g, i) => ({ leaf: i }));
     let blocks = '';
     quads.forEach(tree => {
-      const reading = qLeaves(tree).map(i => glyphs[i]).filter(g => g && g.role !== 'det').map(g => g.tr || '').join('');
+      const reading = qLeaves(tree).map(i => glyphs[i]).filter(g => g && g.role !== 'det').map(g => (valMode && g.val) ? g.val : (g.tr || '')).join('');
       blocks += '<span class="quadblock">' + qNode(tree, glyphs) + (readable ? '' : '<span class="qtr">' + (reading ? escapeHtml(reading) : '&nbsp;') + '</span>') + '</span>';
     });
     const key = (w.morph && w.morph[0] && w.morph[0].lemma) || w.reading || '';

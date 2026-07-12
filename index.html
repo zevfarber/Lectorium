@@ -182,6 +182,9 @@
   .tr { font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: .72rem; color: var(--muted); letter-spacing: .02em; }
   /* sounded-signs mode: a logogram showing its in-language value instead of its citation label */
   .tr.lval { color: var(--accent); font-weight: 600; font-style: italic; }
+  /* a line division on the stone (register break), as recorded in the source corpus */
+  .lbrk { color: var(--muted); opacity: .5; font-size: .85em; margin: 0 1px; align-self: center; cursor: help; user-select: none; }
+  .word .lbrk { align-self: flex-end; padding-bottom: 6px; }
   body.hidetr .tr { display: none; }
   .stack.pend { align-items: center; }
   .trp { font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: 1.02rem; color: var(--ink); }
@@ -669,6 +672,7 @@ function buildWordReadable(w, wi){
   let row = '';
   (w.glyphs || []).forEach((g, gi) => {
     const role = g.role || 'phon';
+    if (g.nl) row += LBRK;
     row += '<span class="stack ' + role + '" data-gi="' + gi + '" data-sign="' + escapeHtml(g.sign || '') + '" data-role="' + role + '"><span class="gl">' + escapeHtml(g.s || '') + '</span></span>';
   });
   const say = w.say || w.reading || '';
@@ -718,13 +722,16 @@ function buildWordsQuad(s, readable){
 /* Per-glyph interlinear (words model). Each word is one atomic, non-wrapping unit;
    inside it, every glyph keeps its own transcription and is styled by its role.
    Determinatives show as a quiet purple glyph and are tappable to the sign reference. */
+const LBRK = '<span class="lbrk" title="line division on the stone — the text moves to a new register here (as recorded in the source corpus)">‖</span>';
 function buildGlyphLinear(s, readable){
   const sg = signGlossaryFor(story) || {};
   let out = '';
   (s.words || []).forEach((w, wi) => {
+    if (w.nl) out += LBRK;
     if (readable) { out += buildWordReadable(w, wi); return; }
     let inner = '';
     (w.glyphs || []).forEach((g, gi) => {
+      if (g.nl) inner += LBRK;
       const role = g.role || 'phon';
       let sub, title = '';
       if (role === 'det') {

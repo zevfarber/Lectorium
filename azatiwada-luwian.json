@@ -9,7 +9,7 @@
  "provisional": true,
  "draftNote": "Pilot draft — the first 21 clauses. Sign identifications and readings are provisional and still being checked against the corpus and the stones; expect changes.",
  "about": "Around 700 BCE, on a hilltop above the Ceyhan river in Cilicia, a local ruler named Azatiwada built a fortress-city and wrote his boast on its gates — twice in Hieroglyphic Luwian and once in Phoenician, the longest text in the hieroglyphs of ancient Anatolia and the key that confirmed their decipherment. He tells how he made his land flourish, filled its granaries, crushed its enemies, and set his king's heir on the throne. A word of honesty: this script was deciphered only in the 20th century, and its sign readings were substantially revised as recently as 1973. This text's readings are the most secure in the whole corpus, because the Phoenician parallel anchors them — but individual words remain scholarly guesses, and the notes say so plainly.",
- "source": "KARATEPE 1 (the Azatiwada inscription), Hieroglyphic Luwian version, copy Hu., clauses §1–§21 of ~75. Text (transcription and sign-by-sign transliteration) follows the Annotated Corpus of Luwian Texts, ACLT 2 (I. Yakubovich et al., luwian.web-corpora.net), with sign identifications per the Unicode Anatolian Hieroglyphs repertoire (Laroche numbering); lemma meanings checked against open scholarly literature. The inscription survives in duplicate copies at the citadel's two gates (Hu. and Ho.); §17 is preserved only in Ho. Transliteration conventions: Hawkins-style values as adopted by ACLT (the city name of clause 2 read Hiyawa; others read Adanawa). The stone's word-divider strokes and sign reversals are not reproduced. The original runs boustrophedon (alternating direction line by line); it is presented here left-to-right. Translations are made fresh from the Luwian for this edition. Pronunciation convention: conventional scholarly Iron Age Luwian values (z = ts, h = a rasped kh).",
+ "source": "KARATEPE 1 (the Azatiwada inscription), Hieroglyphic Luwian version, copy Hu., clauses §1–§21 of ~75. Text (transcription and sign-by-sign transliteration) follows the Annotated Corpus of Luwian Texts, ACLT 2 (I. Yakubovich et al., luwian.web-corpora.net), with sign identifications per the Unicode Anatolian Hieroglyphs repertoire (Laroche numbering); lemma meanings checked against open scholarly literature. The inscription survives in duplicate copies at the citadel's two gates (Hu. and Ho.); §17 is preserved only in Ho. Transliteration conventions: Hawkins-style values as adopted by ACLT (the city name of clause 2 read Hiyawa; others read Adanawa). The stone's word-divider strokes and sign reversals are not reproduced. The original runs boustrophedon (alternating direction line by line) in registers of vertically stacked signs; it is presented here left-to-right and linear, with the corpus's recorded line divisions shown as ‖ marks. Translations are made fresh from the Luwian for this edition. Pronunciation convention: conventional scholarly Iron Age Luwian values (z = ts, h = a rasped kh).",
  "sentences": [
   {
    "t": "𔐀𔖻 𔖲𔐓𔖪𔑣𔓯𔗬𔐫𔗦 𔖖𔓚𔖻𔗦 𔐉𔑣𔓯𔗦 𔖖𔓢𔕙𔑯𔗔 𔖷𔗲𔗦",
@@ -431,7 +431,8 @@
         2
        ]
       }
-     ]
+     ],
+     "nl": true
     },
     {
      "reading": "urannuwatta",
@@ -726,6 +727,7 @@
        "s": "𔓱",
        "role": "phon",
        "tr": "ia",
+       "nl": true,
        "sign": "A210"
       },
       {
@@ -2928,7 +2930,8 @@
         8
        ]
       }
-     ]
+     ],
+     "nl": true
     },
     {
      "reading": "kwaya",
@@ -3257,6 +3260,7 @@
        "s": "𔒈",
        "role": "phon",
        "tr": "za₄",
+       "nl": true,
        "sign": "A112"
       },
       {
@@ -3712,7 +3716,8 @@
         4
        ]
       }
-     ]
+     ],
+     "nl": true
     },
     {
      "reading": "anna",
@@ -4466,7 +4471,8 @@
         6
        ]
       }
-     ]
+     ],
+     "nl": true
     }
    ],
    "i": "[Every king] treated me [as a father], for my justice, my wisdom, and my kindness.",

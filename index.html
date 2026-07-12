@@ -906,7 +906,7 @@ function render(){
     dr.style.display = prov ? '' : 'none';
     if (prov) dr.textContent = story.draftNote || 'Draft in progress — the hieroglyphs and their readings are provisional and still being checked sign-by-sign against the original papyrus, so expect changes.';
   }
-  const tts = !!story.langCode;
+  const tts = !!story.langCode || !!story.audio;
   $('rateWrap').style.display = tts ? '' : 'none';
   document.body.classList.toggle('allverse', story.sentences.every(x => x.v));
   story.sentences.forEach((s, i) => {

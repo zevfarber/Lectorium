@@ -180,6 +180,8 @@
   .stack.wsel { background: var(--focus-bg); box-shadow: 0 0 0 2px var(--accent); }
   .gl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', Georgia, 'Noto Serif', serif; font-size: 1.95rem; line-height: 1.05; }
   .tr { font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: .72rem; color: var(--muted); letter-spacing: .02em; }
+  /* sounded-signs mode: a logogram showing its in-language value instead of its citation label */
+  .tr.lval { color: var(--accent); font-weight: 600; font-style: italic; }
   body.hidetr .tr { display: none; }
   .stack.pend { align-items: center; }
   .trp { font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: 1.02rem; color: var(--ink); }
@@ -415,6 +417,9 @@ function wordKey(w){ return w.replace(/[\[\]()]/g, '').toLowerCase(); }
 /* plain-letters mode: þ/ð → th, æ → ae, length marks hidden */
 let plainMode = false;
 try { plainMode = localStorage.getItem('plainLetters') === '1'; } catch(e) {}
+/* three-state glyph scripts (Luwian etc.): sounded-signs mode — logograms show their value, not their label */
+let valMode = false;
+try { valMode = localStorage.getItem('valMode') === '1'; } catch(e) {}
 let quadMode = false;
 try { quadMode = localStorage.getItem('quadMode') === '1'; } catch(e) {}
 function plainLetters(s){
@@ -724,7 +729,8 @@ function buildGlyphLinear(s, readable){
         title = ' title="' + escapeHtml('determinative — unpronounced; classifies: ' + d) + '"';
         sub = '<span class="tr"> </span>';   // no letters — the purple glyph marks it; blank keeps the glyph row level
       } else {
-        sub = '<span class="tr">' + escapeHtml(g.tr || '') + '</span>';
+        const useVal = valMode && g.val;   // sounded-signs mode: known logogram values replace citation labels
+        sub = '<span class="tr' + (useVal ? ' lval' : '') + '">' + escapeHtml(useVal ? g.val : (g.tr || '')) + '</span>';
       }
       inner += '<span class="stack ' + role + '"' + title + ' data-gi="' + gi + '" data-sign="' + escapeHtml(g.sign || '') + '" data-role="' + role + '">'
              + '<span class="gl">' + escapeHtml(g.s || '') + '</span>' + sub + '</span>';
@@ -1547,8 +1553,8 @@ let hideTr = false;
 try { hideTr = localStorage.getItem('hideTr') === '1'; } catch(e) {}
 function updateSpellSeg(){
   const seg = $('spellSeg'); if (!seg) return;
-  seg.querySelector('[data-sp="sch"]').classList.toggle('active', !plainMode);
-  seg.querySelector('[data-sp="read"]').classList.toggle('active', plainMode);
+  const st = plainMode ? 'read' : (valMode ? 'val' : 'sch');
+  seg.querySelectorAll('button[data-sp]').forEach(b => b.classList.toggle('active', b.dataset.sp === st));
 }
 function applyTr(){
   document.body.classList.toggle('hidetr', hideTr);
@@ -1559,9 +1565,12 @@ function applyTr(){
   updateSpellSeg();
 }
 $('trBtn').onclick = () => { hideTr = !hideTr; try { localStorage.setItem('hideTr', hideTr ? '1' : '0'); } catch(e) {} applyTr(); };
-document.querySelectorAll('#spellSeg button').forEach(b => b.onclick = () => {
+/* delegated: the segment's buttons are rebuilt per story (two-state ꜥnḫ|ankh, or three-state signs|sounds|words) */
+$('spellSeg').addEventListener('click', (ev) => {
+  const b = ev.target.closest('button[data-sp]'); if (!b) return;
   plainMode = (b.dataset.sp === 'read');
-  try { localStorage.setItem('egReadable', plainMode ? '1' : '0'); } catch(e) {}
+  valMode = (b.dataset.sp === 'val');
+  try { localStorage.setItem('egReadable', plainMode ? '1' : '0'); localStorage.setItem('valMode', valMode ? '1' : '0'); } catch(e) {}
   updateSpellSeg();
   render();
   if (focusedIdx >= 0) focusSent(focusedIdx, false);
@@ -1631,6 +1640,18 @@ function loadStory(s){
   const rg = $('readGroup');
   if (sayMode) {
     try { plainMode = localStorage.getItem('egReadable') !== '0'; } catch(e) { plainMode = true; }
+    // three-state segment for scripts whose logograms carry in-language values (Luwian; later Akkadian, Hittite…):
+    // signs (citation labels) | sounds (values; unknowns keep labels) | words (readable transcription).
+    // Two-state ꜥnḫ|ankh for scripts without them (Egyptian).
+    const hasVals = s.sentences.some(x => (x.words || []).some(w => (w.glyphs || []).some(gl => gl.val)));
+    const sseg = $('spellSeg');
+    if (sseg) sseg.innerHTML = hasVals
+      ? '<button data-sp="sch" title="Scholarly sign labels — logograms shown by their citation names (CAPUT)">signs</button>'
+        + '<button data-sp="val" title="Sounded signs — each logogram shows its value in the language (ziti); signs whose reading is unknown keep their labels">sounds</button>'
+        + '<button data-sp="read" title="Readable words — the interpreted word beneath each written word (Azzattiwadas)">words</button>'
+      : '<button data-sp="sch" title="Scholarly transliteration (ꜥnḫ)">ꜥnḫ</button>'
+        + '<button data-sp="read" title="Readable spelling (ankh)">ankh</button>';
+    if (!hasVals) valMode = false;
     if (rg) rg.style.display = 'inline-flex';
     pb.style.display = 'none';
   } else {

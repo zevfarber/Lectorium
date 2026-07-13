@@ -82,14 +82,15 @@
   body.allverse .de { line-height: 1.5; }
   body.allverse .sent { padding-top: 4px; padding-bottom: 4px; margin-top: 7px; margin-bottom: 0; }
   body.allverse .sent.parastart { margin-top: 24px; }
-  /* interlinear crib: each verse line paired with its literal line, aligned as a grid row */
-  body.sbs .sent.interlin { row-gap: 6px; align-items: baseline; }
-  .sent.interlin .ilat { grid-column: 1; font-size: 1.12rem; line-height: 1.3; white-space: pre-line; }
-  .sent.interlin .ilit { grid-column: 2; font-size: 1rem; line-height: 1.3; color: var(--en-ink); white-space: pre-line; }
-  .sent.interlin .ilit .lbl { font-family: system-ui, 'Noto Sans', sans-serif; font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; opacity: .65; margin-right: 6px; }
-  .sent.interlin .ilat .w { border-radius: 4px; }
-  .sent.interlin .ilat .w:hover { background: var(--accent-soft); }
-  .sent.interlin .ilat .w.wsel { background: var(--accent); color: #fff; }
+  /* interlinear crib: each Latin line with its literal directly beneath — even rhythm, unmistakable pairing */
+  body.sbs .sent.ilv { display: block; }
+  .sent.ilv .ipair { margin: 0 0 10px 0; }
+  .sent.ilv .ipair:last-of-type { margin-bottom: 2px; }
+  .sent.ilv .ilat { font-size: 1.12rem; line-height: 1.32; }
+  .sent.ilv .ilit { font-size: .95rem; line-height: 1.32; color: var(--en-ink); padding-left: 1.5em; }
+  .sent.ilv .ilat .w { border-radius: 4px; }
+  .sent.ilv .ilat .w:hover { background: var(--accent-soft); }
+  .sent.ilv .ilat .w.wsel { background: var(--accent); color: #fff; }
   .lineno { font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: .68rem; color: var(--muted);
     vertical-align: super; margin-right: 10px; user-select: none; letter-spacing: .03em; }
   .de { font-size: 1.12rem; white-space: pre-line; }
@@ -898,17 +899,20 @@ function buildSentEl(s, i, showLit){
     && s.l.split('\n').length === latLines.length;
 
   if (interlin) {
-    div.classList.add('interlin');
+    div.classList.add('ilv');
     const litLines = s.l.split('\n');
     for (let k = 0; k < latLines.length; k++) {
+      const pair = document.createElement('div');
+      pair.className = 'ipair';
       const a = document.createElement('div');
       a.className = 'ilat';
       a.innerHTML = (k === 0 ? lnChip : '') + tokenize(latLines[k]);
-      div.appendChild(a);
       const b = document.createElement('div');
       b.className = 'ilit';
-      b.innerHTML = (k === 0 ? '<span class="lbl">literal</span>' : '') + escapeHtml(litLines[k] || '');
-      div.appendChild(b);
+      b.innerHTML = escapeHtml(litLines[k] || '');
+      pair.appendChild(a);
+      pair.appendChild(b);
+      div.appendChild(pair);
     }
   } else {
     const de = document.createElement('div');
@@ -1144,7 +1148,7 @@ function toggleIdiom(i){
   const eligible = mode === 'sbs' && s.v && s.l && !s.words && !s.tr
     && s.l.split('\n').length === s.t.split('\n').length;
   if (eligible) {
-    const showingLit = el.classList.contains('interlin');
+    const showingLit = el.classList.contains('ilv');
     const nel = buildSentEl(s, i, !showingLit);
     el.replaceWith(nel);
     if (focusedIdx === i) nel.classList.add('focused');

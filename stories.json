@@ -21,14 +21,16 @@
    "file": "ani-spell125-opening.json"
   },
   {
-   "id": "aschenputtel",
-   "title": "Aschenputtel",
-   "titleEn": "Cinderella",
+   "id": "froschkoenig",
+   "title": "Der Froschkönig oder der eiserne Heinrich",
+   "titleEn": "The Frog King, or Iron Heinrich",
+   "khm": 1,
    "language": "German",
    "work": "Kinder- und Hausmärchen",
    "workEn": "Grimms’ Fairy Tales",
-   "part": "Cinderella",
-   "file": "aschenputtel.json"
+   "part": "The Frog King",
+   "group": "KHM 1–50",
+   "file": "froschkoenig.json"
   },
   {
    "id": "hansel-und-grethel",
@@ -38,7 +40,21 @@
    "work": "Kinder- und Hausmärchen",
    "workEn": "Grimms’ Fairy Tales",
    "part": "Hansel and Gretel",
-   "file": "hansel-und-grethel.json"
+   "file": "hansel-und-grethel.json",
+   "khm": 15,
+   "group": "KHM 1–50"
+  },
+  {
+   "id": "aschenputtel",
+   "title": "Aschenputtel",
+   "titleEn": "Cinderella",
+   "language": "German",
+   "work": "Kinder- und Hausmärchen",
+   "workEn": "Grimms’ Fairy Tales",
+   "part": "Cinderella",
+   "file": "aschenputtel.json",
+   "khm": 21,
+   "group": "KHM 1–50"
   },
   {
    "id": "daumenlutscher",

@@ -1,0 +1,333 @@
+{
+ "id": "froschkoenig",
+ "title": "Der Froschkönig oder der eiserne Heinrich",
+ "titleEn": "The Frog King, or Iron Heinrich",
+ "khm": 1,
+ "language": "German",
+ "langCode": "de-DE",
+ "work": "Kinder- und Hausmärchen",
+ "workEn": "Grimms’ Fairy Tales",
+ "part": "The Frog King",
+ "source": "Brüder Grimm, Kinder- und Hausmärchen, 7. Auflage (Ausgabe letzter Hand), Dieterich, Göttingen 1857, KHM 1. Text from Wikisource (twice proofread against the original scans). 1857 spelling preserved (daß, fieng, gieng, Thür, Rath, Noth, saßt/wast), including Grimm’s own parenthetical glosses of the dialect rhyme.",
+ "about": "The tale that opens the Grimms’ collection (KHM 1). It is a “frog-bridegroom” story: note that the frog is disenchanted not by a kiss but by being flung against the wall — the kiss is a later, gentler tradition. The second half belongs as much to the faithful servant Heinrich, whose iron heart-bands give the tale its double title. Spelling follows the 1857 edition, so you will meet older forms such as daß, fieng, gieng, Thür and Rath.",
+ "glossaryFile": "khm-glossary.json",
+ "sentences": [
+  {
+   "p": true,
+   "t": "In den alten Zeiten, wo das Wünschen noch geholfen hat, lebte ein König, dessen Töchter waren alle schön, aber die jüngste war so schön, daß die Sonne selber, die doch so vieles gesehen hat, sich verwunderte so oft sie ihr ins Gesicht schien.",
+   "l": "In the old times, when wishing still helped, there lived a king, whose daughters were all beautiful, but the youngest was so beautiful that the sun itself, which yet has seen so much, marveled every time it shone into her face.",
+   "i": "In the old days, when wishing still did some good, there lived a king whose daughters were all beautiful; but the youngest was so beautiful that the sun itself, which has seen so much, was filled with wonder every time it shone on her face.",
+   "n": "The famous opening formula. daß is the 1857 spelling of modern dass — you’ll see it throughout; it simply marks a “that”-clause. sich verwunderte is a reflexive verb (literally “wondered itself”); German uses reflexives where English does not."
+  },
+  {
+   "t": "Nahe bei dem Schlosse des Königs lag ein großer dunkler Wald, und in dem Walde unter einer alten Linde war ein Brunnen: wenn nun der Tag recht heiß war, so ging das Königskind hinaus in den Wald und setzte sich an den Rand des kühlen Brunnens: und wenn sie Langeweile hatte, so nahm sie eine goldene Kugel, warf sie in die Höhe und fieng sie wieder; und das war ihr liebstes Spielwerk.",
+   "l": "Near by the castle of the king lay a great dark forest, and in the forest under an old linden-tree was a well: when now the day was really hot, so the king’s-child went out into the forest and sat itself at the edge of the cool well: and when she was bored, so she took a golden ball, threw it into the height and caught it again; and that was her dearest plaything.",
+   "i": "Near the king’s castle lay a great dark forest, and in the forest, under an old linden tree, was a well. When the day was really hot, the king’s child would go out into the forest and sit down by the edge of the cool well; and when she grew bored, she would take a golden ball, throw it up in the air and catch it again — and that was her favorite plaything.",
+   "n": "“in die Höhe” = “into the height,” i.e. upward. Watch the two preterites ging and fieng: the 1857 text writes fieng (and later gieng) with -ie-, an older spelling of modern fing/ging — the same words, just older on the page. The resumptive so after a wenn-clause (“wenn… so…”) is old-fashioned; modern German drops it."
+  },
+  {
+   "p": true,
+   "t": "Nun trug es sich einmal zu, daß die goldene Kugel der Königstochter nicht in ihr Händchen fiel, das sie in die Höhe gehalten hatte, sondern vorbei auf die Erde schlug und geradezu ins Wasser hinein rollte.",
+   "l": "Now it bore itself once to-pass, that the golden ball of the king’s-daughter did not fall into her little-hand, which she had held up into the height, but rather struck past onto the earth and rolled straight into the water.",
+   "i": "Now it happened one day that the king’s daughter’s golden ball did not fall into her little hand, which she was holding up, but struck past it onto the ground and rolled straight into the water.",
+   "n": "“es trug sich zu” is a set idiom for “it came to pass / it happened.” Händchen is a diminutive of Hand (-chen = “little”); Grimm loves these tender diminutives — you’ll meet Tellerlein, Bettlein, Becherlein below."
+  },
+  {
+   "t": "Die Königstochter folgte ihr mit den Augen nach, aber die Kugel verschwand, und der Brunnen war tief, so tief daß man keinen Grund sah.",
+   "l": "The king’s-daughter followed after it with the eyes, but the ball vanished, and the well was deep, so deep that one saw no bottom.",
+   "i": "The king’s daughter followed it with her eyes, but the ball vanished, and the well was deep — so deep that no bottom could be seen.",
+   "n": "nachfolgen is a separable verb: the prefix nach jumps to the end (“folgte ihr… nach”). Grund here means the bottom (of the well), not “reason.”"
+  },
+  {
+   "t": "Da fieng sie an zu weinen und weinte immer lauter und konnte sich gar nicht trösten.",
+   "l": "Then began she to weep and wept ever louder and could not console herself at all.",
+   "i": "Then she began to cry, and wept louder and louder, and could not comfort herself at all.",
+   "n": "anfangen (to begin) is separable: “fieng… an.” “immer lauter” = “ever louder,” i.e. louder and louder."
+  },
+  {
+   "t": "Und wie sie so klagte, rief ihr jemand zu „was hast du vor, Königstochter, du schreist ja daß sich ein Stein erbarmen möchte.“",
+   "l": "And as she lamented so, someone called to her “what have you before you, king’s-daughter, you cry so that a stone might take pity.”",
+   "i": "And as she was wailing like this, someone called out to her: “What is the matter, king’s daughter? You cry so that a stone might take pity.”",
+   "n": "“was hast du vor” — vorhaben usually means “to intend/plan,” but here it’s the idiom “what’s the matter with you.” zurufen (to call to) is separable: “rief ihr… zu.”"
+  },
+  {
+   "t": "Sie sah sich um, woher die Stimme käme, da erblickte sie einen Frosch, der seinen dicken häßlichen Kopf aus dem Wasser streckte.",
+   "l": "She looked herself around, whence the voice might come, then she caught-sight-of a frog, who stretched his thick ugly head out of the water.",
+   "i": "She looked around to see where the voice was coming from, and caught sight of a frog stretching his thick, ugly head out of the water.",
+   "n": "sich umsehen (to look around) — reflexive and separable. käme is subjunctive (Konjunktiv II) after woher, casting the source of the voice as something uncertain she is trying to make out."
+  },
+  {
+   "t": "„Ach, du bists, alter Wasserpatscher,“ sagte sie, „ich weine über meine goldene Kugel, die mir in den Brunnen hinab gefallen ist.“",
+   "l": "“Ah, it’s you, old water-splasher,” said she, “I weep over my golden ball, which has fallen down into the well from me.”",
+   "i": "“Oh, it’s you, you old water-splasher,” she said. “I’m crying over my golden ball, which has fallen down into the well.”",
+   "n": "bists = bist es (“you are it”) contracted. Wasserpatscher (from patschen, to splash) is a coined nickname — an “old splasher.” mir is a dative of disadvantage: the ball fell, to her loss."
+  },
+  {
+   "t": "„Sei still und weine nicht“, antwortete der Frosch, „ich kann wohl Rath schaffen, aber was gibst du mir, wenn ich dein Spielwerk wieder heraufhole“?",
+   "l": "“Be still and weep not,” answered the frog, “I can well provide counsel, but what give you me, if I fetch your plaything up again”?",
+   "i": "“Be quiet and don’t cry,” answered the frog. “I can surely find a way to help — but what will you give me if I fetch your plaything back up?”",
+   "n": "“Rath schaffen” (modern Rat schaffen) = to find a remedy / provide help. Rath keeps the archaic th-spelling (modern Rat); you’ll also meet Thür and Noth. heraufholen is separable: “hole… herauf.”"
+  },
+  {
+   "t": "„Was du haben willst, lieber Frosch,“ sagte sie, „meine Kleider, meine Perlen und Edelsteine, auch noch die goldene Krone, die ich trage.“",
+   "l": "“What you want to have, dear frog,” said she, “my clothes, my pearls and jewels, even also the golden crown that I wear.”",
+   "i": "“Whatever you want, dear frog,” she said — “my clothes, my pearls and jewels, even the golden crown I’m wearing.”"
+  },
+  {
+   "t": "Der Frosch antwortete „deine Kleider, deine Perlen und Edelsteine, und deine goldene Krone, die mag ich nicht: aber wenn du mich lieb haben willst, und ich soll dein Geselle und Spielkamerad sein, an deinem Tischlein neben dir sitzen, von deinem goldenen Tellerlein essen, aus deinem Becherlein trinken, in deinem Bettlein schlafen: wenn du mir das versprichst, so will ich hinunter steigen und dir die goldene Kugel wieder herauf holen.“",
+   "l": "The frog answered “your clothes, your pearls and jewels, and your golden crown, those I do not want: but if you will love me, and I am to be your companion and playmate, to sit at your little-table beside you, to eat from your golden little-plate, to drink from your little-cup, to sleep in your little-bed: if you promise me that, then will I climb down and fetch you the golden ball up again.”",
+   "i": "The frog answered: “Your clothes, your pearls and jewels, and your golden crown — those I don’t want. But if you will love me and let me be your companion and playmate, sitting beside you at your little table, eating from your little golden plate, drinking from your little cup, sleeping in your little bed — if you promise me that, then I will climb down and fetch your golden ball back up.”",
+   "n": "A cascade of tender diminutives — Tischlein, Tellerlein, Becherlein, Bettlein (all -lein, “little ___”). “lieb haben” = to hold dear, to love. In “die mag ich nicht,” mögen means to want/care for."
+  },
+  {
+   "t": "„Ach ja,“ sagte sie, „ich verspreche dir alles, was du willst, wenn du mir nur die Kugel wieder bringst.“",
+   "l": "“Ah yes,” said she, “I promise you everything that you want, if you only bring me the ball again.”",
+   "i": "“Oh yes,” she said, “I promise you anything you like, if only you’ll bring me back the ball.”"
+  },
+  {
+   "t": "Sie dachte aber „was der einfältige Frosch schwätzt, der sitzt im Wasser bei seines Gleichen und quackt, und kann keines Menschen Geselle sein.“",
+   "l": "She thought however “what the simple-minded frog prattles — that-one sits in the water among his like and croaks, and can be no person’s companion.”",
+   "i": "But she thought to herself: “What nonsense this silly frog talks — he sits in the water among his own kind and croaks, and can’t be any human’s companion.”",
+   "n": "“seines Gleichen” (his equals, his own kind) and “keines Menschen” (no person’s) are genitives. The demonstrative der (“der sitzt”) picks up Frosch — “that one sits”; German often resumes a noun with a pointing der/die/das."
+  },
+  {
+   "p": true,
+   "t": "Der Frosch, als er die Zusage erhalten hatte, tauchte seinen Kopf unter, sank hinab und über ein Weilchen kam er wieder herauf gerudert, hatte die Kugel im Maul und warf sie ins Gras.",
+   "l": "The frog, when he had received the promise, dived his head under, sank down and over a little-while came he rowing up again, had the ball in the maw and threw it into the grass.",
+   "i": "The frog, once he had the promise, ducked his head under, sank down, and after a little while came paddling back up, the ball in his mouth, and threw it into the grass.",
+   "n": "“über ein Weilchen” = “after a little while” (Weilchen, diminutive of Weile). Maul is an animal’s mouth (a human’s is Mund). After the opening “über ein Weilchen,” verb-second word order flips subject and verb: “kam er.”"
+  },
+  {
+   "t": "Die Königstochter war voll Freude, als sie ihr schönes Spielwerk wieder erblickte, hob es auf und sprang damit fort.",
+   "l": "The king’s-daughter was full of joy, when she caught-sight-of her beautiful plaything again, lifted it up and sprang away with it.",
+   "i": "The king’s daughter was overjoyed when she saw her lovely plaything again; she picked it up and ran off with it.",
+   "n": "aufheben (to pick up) and fortspringen (to spring away) are both separable: “hob… auf,” “sprang… fort.”"
+  },
+  {
+   "t": "„Warte, warte,“ rief der Frosch, „nimm mich mit, ich kann nicht so laufen wie du.“",
+   "l": "“Wait, wait,” called the frog, “take me with, I cannot run so as you.”",
+   "i": "“Wait, wait!” cried the frog. “Take me with you — I can’t run the way you can.”",
+   "n": "mitnehmen (to take along) is separable: “nimm mich mit.”"
+  },
+  {
+   "t": "Aber was half ihm daß er ihr sein quack quack so laut nachschrie als er konnte!",
+   "l": "But what helped it him that he cried after her his quack quack as loud as he could!",
+   "i": "But what good did it do him to shriek his “quack, quack” after her as loudly as he could!",
+   "n": "“was half ihm” — “what use was it to him,” a rhetorical idiom. nachschreien (to shout after) is separable: “schrie… nach.”"
+  },
+  {
+   "t": "sie hörte nicht darauf, eilte nach Haus und hatte bald den armen Frosch vergessen, der wieder in seinen Brunnen hinab steigen mußte.",
+   "l": "she heard not upon it, hurried toward home and had soon forgotten the poor frog, who had to climb down again into his well.",
+   "i": "She paid it no heed, hurried home, and had soon forgotten the poor frog, who had to climb back down into his well.",
+   "n": "This unit opens with a lower-case sie because the 1857 text runs it straight on after the exclamation mark — we keep the original. “darauf hören” = to heed. mußte keeps the archaic ß (modern musste)."
+  },
+  {
+   "p": true,
+   "t": "Am andern Tage, als sie mit dem König und allen Hofleuten sich zur Tafel gesetzt hatte und von ihrem goldenen Tellerlein aß, da kam, plitsch platsch, plitsch platsch, etwas die Marmortreppe herauf gekrochen, und als es oben angelangt war, klopfte es an der Thür und rief „Königstochter, jüngste, mach mir auf.“",
+   "l": "On the other day, when she with the king and all the court-folk had seated herself at the table and ate from her golden little-plate, then came, plitsch platsch, plitsch platsch, something crawling up the marble-stair, and when it had arrived above, it knocked at the door and called “king’s-daughter, youngest, open up for me.”",
+   "i": "The next day, when she had sat down to dinner with the king and all the court, eating from her little golden plate, something came — splish-splash, splish-splash — crawling up the marble staircase; and when it had reached the top, it knocked at the door and called: “King’s daughter, youngest, open the door for me.”",
+   "n": "“am andern Tage” = the next day. Tafel is a grand word for a dining table (a banquet board). “plitsch platsch” is onomatopoeia for wet slapping — like English “splish-splash.” aufmachen (to open) is separable: “mach… auf.” Thür = modern Tür (archaic th-)."
+  },
+  {
+   "t": "Sie lief und wollte sehen wer draußen wäre, als sie aber aufmachte, so saß der Frosch davor.",
+   "l": "She ran and wanted to see who might be outside, but when she opened, so sat the frog before it.",
+   "i": "She ran to see who was outside; but when she opened the door, there sat the frog in front of it.",
+   "n": "wäre is subjunctive (“who might be”), used for the uncertain thing she wants to find out. davor = “before it” (in front of the door)."
+  },
+  {
+   "t": "Da warf sie die Thür hastig zu, setzte sich wieder an den Tisch, und war ihr ganz angst.",
+   "l": "Then she threw the door hastily to, set herself again at the table, and was to her quite afraid.",
+   "i": "She hastily slammed the door shut, sat back down at the table, and was thoroughly frightened.",
+   "n": "zuwerfen (to slam shut) is separable: “warf… zu.” “ihr war angst” is an impersonal construction — literally “to her was fear,” i.e. “she was afraid”; the person sits in the dative (ihr)."
+  },
+  {
+   "t": "Der König sah wohl daß ihr das Herz gewaltig klopfte und sprach „mein Kind, was fürchtest du dich, steht etwa ein Riese vor der Thür und will dich holen?“",
+   "l": "The king saw well that to her the heart was pounding mightily and spoke “my child, what do you fear yourself, stands perhaps a giant before the door and wants to fetch you?”",
+   "i": "The king saw clearly that her heart was pounding hard, and said: “My child, what are you afraid of? Is there perhaps a giant standing at the door, come to carry you off?”",
+   "n": "sich fürchten (to be afraid) is reflexive: “fürchtest du dich.” “ihr das Herz klopfte” — a dative of possession: German says “the heart pounded to her” rather than “her heart pounded.” etwa here = “perhaps.”"
+  },
+  {
+   "t": "„Ach nein,“ antwortete sie, „es ist kein Riese, sondern ein garstiger Frosch.“",
+   "l": "“Ah no,” answered she, “it is no giant, but rather a nasty frog.”",
+   "i": "“Oh no,” she answered, “it’s no giant, just a nasty frog.”",
+   "n": "sondern = “but rather,” the “but” used after a negation (kein… sondern…), distinct from aber."
+  },
+  {
+   "t": "„Was will der Frosch von dir?“",
+   "l": "“What wants the frog from you?”",
+   "i": "“What does the frog want from you?”"
+  },
+  {
+   "t": "„Ach lieber Vater, als ich gestern im Wald bei dem Brunnen saß und spielte, da fiel meine goldene Kugel ins Wasser.",
+   "l": "“Ah dear father, when I yesterday in the forest by the well sat and played, then fell my golden ball into the water.",
+   "i": "“Oh dear father, yesterday, when I was sitting playing in the forest by the well, my golden ball fell into the water.",
+   "n": "als (“when,” for a single past event) sends its verbs to the end (“saß und spielte”); then the main clause flips verb and subject (“da fiel meine Kugel”)."
+  },
+  {
+   "t": "Und weil ich so weinte, hat sie der Frosch wieder heraufgeholt, und weil er es durchaus verlangte, so versprach ich ihm er sollte mein Geselle werden, ich dachte aber nimmermehr daß er aus seinem Wasser heraus könnte.",
+   "l": "And because I wept so, the frog fetched it up again, and because he absolutely demanded it, so I promised him he should become my companion, but I thought never-more that he could get out of his water.",
+   "i": "And because I was crying so, the frog fetched it back up; and because he insisted on it, I promised him he could be my companion — but I never dreamed he could get out of his water.",
+   "n": "weil (because) sends its verb to the end. nimmermehr = “nevermore,” an emphatic old-fashioned “never.” In “heraus… könnte,” heraus (out) is a separable piece stranded before the modal."
+  },
+  {
+   "t": "Nun ist er draußen und will zu mir herein.“",
+   "l": "Now is he outside and wants in to me.",
+   "i": "Now he’s outside and wants to come in to me.”",
+   "n": "herein = “in” (toward the speaker); German neatly distinguishes herein (in, toward me) from hinein (in, away from me)."
+  },
+  {
+   "t": "Indem klopfte es zum zweitenmal und rief",
+   "l": "Meanwhile it knocked for the second-time and called",
+   "i": "Just then there came a second knock, and it called out:",
+   "n": "indem here is old-fashioned for “meanwhile / just then” (in modern German indem means “by doing”). “zum zweitenmal” = for the second time. The line has no full stop because the verse that follows completes it."
+  },
+  {
+   "v": true,
+   "t": "„Königstochter, jüngste,\nmach mir auf,\nweißt du nicht was gestern\ndu zu mir gesagt\nbei dem kühlen Brunnenwasser?\nKönigstochter, jüngste,\nmach mir auf.“",
+   "l": "“King’s-daughter, youngest,\nopen up for me,\ndo you not know what yesterday\nyou said to me\nby the cool well-water?\nKing’s-daughter, youngest,\nopen up for me.”",
+   "i": "“King’s daughter, youngest, / open the door for me — / don’t you know what you said to me / yesterday by the cool well-water? / King’s daughter, youngest, / open the door for me.”",
+   "n": "A little rhyming song. The word order “was gestern du zu mir gesagt” is bent to fit the verse; in plain prose it would be “was du mir gestern gesagt (hast).” The auxiliary hast is dropped, as verse allows."
+  },
+  {
+   "p": true,
+   "t": "Da sagte der König „was du versprochen hast, das mußt du auch halten; geh nur und mach ihm auf.“",
+   "l": "Then said the king “what you have promised, that you must also keep; go just and open up for him.”",
+   "i": "Then the king said: “What you have promised, you must also keep. Just go and open the door for him.”",
+   "n": "“was du versprochen hast, das mußt du halten” — the clause is picked up by a resumptive das; a very German rhythm. nur here is a softening “just,” not “only.”"
+  },
+  {
+   "t": "Sie gieng und öffnete die Thüre, da hüpfte der Frosch herein, ihr immer auf dem Fuße nach, bis zu ihrem Stuhl.",
+   "l": "She went and opened the door, then the frog hopped in, always on the foot after her, up to her chair.",
+   "i": "She went and opened the door, and the frog hopped in, following right at her heels, all the way to her chair.",
+   "n": "gieng — the archaic -ie- spelling of ging (went). “immer auf dem Fuße nach” — “always on the foot after (her),” i.e. right at her heels."
+  },
+  {
+   "t": "Da saß er und rief „heb mich herauf zu dir.“",
+   "l": "There sat he and called “lift me up to you.”",
+   "i": "There he sat and cried: “Lift me up beside you.”",
+   "n": "herauf (up, toward the speaker) — “heb… herauf,” separable; heb is the imperative of heben."
+  },
+  {
+   "t": "Sie zauderte bis es endlich der König befahl.",
+   "l": "She hesitated until at last the king commanded it.",
+   "i": "She hesitated, until at last the king commanded it."
+  },
+  {
+   "t": "Als der Frosch erst auf dem Stuhl war, wollte er auf den Tisch, und als er da saß, sprach er „nun schieb mir dein goldenes Tellerlein näher, damit wir zusammen essen.“",
+   "l": "When the frog was first on the chair, wanted he onto the table, and when he sat there, spoke he “now push me your golden little-plate nearer, so that we eat together.”",
+   "i": "Once the frog was on the chair, he wanted to be on the table; and when he sat there, he said: “Now push your little golden plate closer to me, so we can eat together.”",
+   "n": "erst here = “once / no sooner.” Note “wollte er auf den Tisch” with the verb of motion left out — “wanted [to go] onto the table”; German often omits gehen after a modal. damit = “so that” (purpose), sending its verb to the end."
+  },
+  {
+   "t": "Das that sie zwar, aber man sah wohl daß sies nicht gerne that.",
+   "l": "That did she indeed, but one saw well that she did it not gladly.",
+   "i": "This she did do — but you could tell she did it unwillingly.",
+   "n": "that is the archaic spelling of tat (did), from thun = modern tun. sies = sie es (“she it”), contracted. “zwar… aber” = “indeed… but.”"
+  },
+  {
+   "t": "Der Frosch ließ sichs gut schmecken, aber ihr blieb fast jedes Bißlein im Halse.",
+   "l": "The frog let it taste good to himself, but to her nearly every little-bite stuck in the throat.",
+   "i": "The frog enjoyed his meal heartily, but almost every little morsel stuck in her throat.",
+   "n": "“sich (etwas) gut schmecken lassen” is an idiom: to tuck in, to relish one’s food. sichs = sich es. Bißlein (little bite, morsel) keeps the archaic ß."
+  },
+  {
+   "t": "Endlich sprach er „ich habe mich satt gegessen, und bin müde, nun trag mich in dein Kämmerlein und mach dein seiden Bettlein zurecht, da wollen wir uns schlafen legen.“",
+   "l": "At last spoke he “I have eaten myself full, and am tired, now carry me into your little-chamber and make your silken little-bed ready, there we will lay ourselves to sleep.”",
+   "i": "At last he said: “I have eaten my fill and I’m tired; now carry me to your little chamber and make your silken little bed ready, and we’ll lie down to sleep.”",
+   "n": "“sich satt essen” = to eat one’s fill (reflexive). zurechtmachen (to make ready) is separable: “mach… zurecht.” seiden = silken. More diminutives: Kämmerlein, Bettlein."
+  },
+  {
+   "t": "Die Königstochter fieng an zu weinen und fürchtete sich vor dem kalten Frosch, den sie nicht anzurühren getraute, und der nun in ihrem schönen reinen Bettlein schlafen sollte.",
+   "l": "The king’s-daughter began to weep and feared herself before the cold frog, whom she did not dare to touch, and who now was to sleep in her beautiful clean little-bed.",
+   "i": "The king’s daughter began to cry, and was afraid of the cold frog, whom she did not dare to touch, and who was now to sleep in her lovely clean little bed.",
+   "n": "“sich fürchten vor” (+ dative) = to be afraid of. “sich getrauen” = to dare (reflexive); anzurühren shows the separable an split around zu (an-zu-rühren)."
+  },
+  {
+   "t": "Der König aber ward zornig und sprach „wer dir geholfen hat, als du in der Noth warst, den sollst du hernach nicht verachten.“",
+   "l": "The king however became angry and spoke “who has helped you, when you were in the need, him shall you afterward not despise.”",
+   "i": "But the king grew angry and said: “Whoever helped you when you were in need, him you must not despise afterward.”",
+   "n": "ward is the archaic preterite of werden (became) — modern wurde; you’ll meet it often in Grimm. Noth = modern Not (need, distress), archaic th-. “wer… den” is a “whoever… him” correlative, with den resuming the clause."
+  },
+  {
+   "t": "Da packte sie ihn mit zwei Fingern, trug ihn hinauf und setzte ihn in eine Ecke.",
+   "l": "Then grabbed she him with two fingers, carried him up and set him in a corner.",
+   "i": "So she picked him up with two fingers, carried him upstairs, and set him in a corner.",
+   "n": "hinauf = up (away from the speaker), so “carried him up” (upstairs)."
+  },
+  {
+   "t": "Als sie aber im Bett lag, kam er gekrochen und sprach „ich bin müde, ich will schlafen so gut wie du: heb mich herauf, oder ich sags deinem Vater.“",
+   "l": "But when she lay in the bed, came he crawling and spoke “I am tired, I want to sleep as well as you: lift me up, or I say it to your father.”",
+   "i": "But when she was lying in bed, he came crawling up and said: “I’m tired, I want to sleep as comfortably as you — lift me up, or I’ll tell your father.”",
+   "n": "“kam gekrochen” — “came crawling” (a past participle after kommen expresses the manner of arrival). sags = sage es (“I’ll say it”)."
+  },
+  {
+   "t": "Da ward sie erst bitterböse, holte ihn herauf und warf ihn aus allen Kräften wider die Wand, „nun wirst du Ruhe haben, du garstiger Frosch.“",
+   "l": "Then became she really bitter-angry, fetched him up and threw him with all forces against the wall, “now will you have peace, you nasty frog.”",
+   "i": "Then she grew really furious, snatched him up, and hurled him with all her might against the wall: “Now you’ll have your peace, you nasty frog!”",
+   "n": "bitterböse — literally “bitter-angry,” i.e. furious. wider (against) is an old preposition, distinct from wieder (again) though pronounced alike. “aus allen Kräften” = with all one’s might. This is the disenchantment — by the wall, not a kiss."
+  },
+  {
+   "p": true,
+   "t": "Als er aber herab fiel, war er kein Frosch, sondern ein Königssohn mit schönen und freundlichen Augen.",
+   "l": "But when he fell down, was he no frog, but rather a king’s-son with beautiful and friendly eyes.",
+   "i": "But when he fell down, he was no frog, but a king’s son with beautiful, kind eyes.",
+   "n": "herab = down (toward the speaker’s level). Again “kein… sondern” — “not a… but rather a.”"
+  },
+  {
+   "t": "Der war nun nach ihres Vaters Willen ihr lieber Geselle und Gemahl.",
+   "l": "That-one was now according to her father’s will her dear companion and husband.",
+   "i": "And so, by her father’s will, he became her dear companion and husband.",
+   "n": "Der opens the sentence as a pointing demonstrative (“that one” = the prince). “nach ihres Vaters Willen” — “according to her father’s will”; “ihres Vaters” is a genitive placed before its noun, an elevated word order. Gemahl is an elevated word for spouse."
+  },
+  {
+   "t": "Da erzählte er ihr, er wäre von einer bösen Hexe verwünscht worden, und Niemand hätte ihn aus dem Brunnen erlösen können als sie allein, und morgen wollten sie zusammen in sein Reich gehen.",
+   "l": "Then told he her, he had been cursed by a wicked witch, and no one could have released him out of the well but she alone, and tomorrow they wanted together to go into his kingdom.",
+   "i": "Then he told her that he had been cursed by a wicked witch, and that no one could have freed him from the well but she alone, and that tomorrow they would go together into his kingdom.",
+   "n": "This is reported speech, so the verbs go into the subjunctive: “wäre… verwünscht worden” (had been cursed), “hätte… erlösen können” (could have freed). German uses this Konjunktiv to mark the frog’s account rather than the narrator’s fact — you’ll see it constantly in reported speech. Here als = “except” (“but she alone”)."
+  },
+  {
+   "t": "Dann schliefen sie ein, und am andern Morgen, als die Sonne sie aufweckte, kam ein Wagen heran gefahren mit acht weißen Pferden bespannt, die hatten weiße Straußfedern auf dem Kopf, und giengen in goldenen Ketten, und hinten stand der Diener des jungen Königs, das war der treue Heinrich.",
+   "l": "Then fell they asleep, and on the other morning, when the sun woke them, came a carriage driving up harnessed with eight white horses, they had white ostrich-feathers on the head, and went in golden chains, and behind stood the servant of the young king, that was the faithful Heinrich.",
+   "i": "Then they fell asleep, and the next morning, when the sun woke them, a carriage came driving up, drawn by eight white horses with white ostrich plumes on their heads, going in golden harness; and behind stood the young king’s servant — faithful Heinrich.",
+   "n": "einschlafen (to fall asleep) separable: “schliefen… ein.” “kam… gefahren” — “came driving” (participle of manner, as with “kam gekrochen” earlier). “giengen in goldenen Ketten” — the horses “went in golden chains,” i.e. in golden harness-chains. giengen is the archaic -ie- spelling of gingen."
+  },
+  {
+   "t": "Der treue Heinrich hatte sich so betrübt, als sein Herr war in einen Frosch verwandelt worden, daß er drei eiserne Bande hatte um sein Herz legen lassen, damit es ihm nicht vor Weh und Traurigkeit zerspränge.",
+   "l": "The faithful Heinrich had grieved himself so, when his master had been transformed into a frog, that he had had three iron bands laid around his heart, so that it should not burst apart from woe and sadness.",
+   "i": "Faithful Heinrich had grieved so bitterly when his master was turned into a frog that he had had three iron bands laid around his heart, to keep it from bursting with grief and sorrow.",
+   "n": "“sich betrüben” = to grieve (reflexive). “hatte… legen lassen” is a causative: “had (them) laid,” i.e. had it done for him. zerspränge is subjunctive of zerspringen (to burst apart), naming the feared outcome he guarded against. vor here = “from / out of” (a cause). This is the tale’s title image: the eiserne Heinrich, iron-bound Heinrich."
+  },
+  {
+   "t": "Der Wagen aber sollte den jungen König in sein Reich abholen; der treue Heinrich hob beide hinein, stellte sich wieder hinten auf und war voller Freude über die Erlösung.",
+   "l": "The carriage however was to fetch the young king into his kingdom; the faithful Heinrich lifted both in, placed himself again behind and was full of joy over the deliverance.",
+   "i": "The carriage was to carry the young king off to his kingdom; faithful Heinrich lifted them both in, took his place again at the back, and was full of joy at the deliverance.",
+   "n": "abholen (to fetch, collect) and “sich aufstellen” (to take up position) are separable — “hob… hinein,” “stellte sich… auf.” Erlösung (deliverance, redemption) is a weighty word: the release from the curse."
+  },
+  {
+   "t": "Und als sie ein Stück Wegs gefahren waren, hörte der Königssohn daß es hinter ihm krachte, als wäre etwas zerbrochen.",
+   "l": "And when they had driven a stretch of way, heard the king’s-son that behind him it cracked, as if something had broken.",
+   "i": "And when they had driven a stretch of the way, the king’s son heard a cracking behind him, as if something had broken.",
+   "n": "“ein Stück Wegs” — “a stretch of way”; Wegs is a genitive (“of way”). “als wäre etwas zerbrochen” = “as if something had broken,” subjunctive after als (“as if”)."
+  },
+  {
+   "t": "Da drehte er sich um und rief",
+   "l": "Then turned he himself around and called",
+   "i": "Then he turned around and called out:",
+   "n": "“sich umdrehen” (to turn around) — reflexive and separable. No full stop: the verse completes the line."
+  },
+  {
+   "v": true,
+   "t": "„Heinrich, der Wagen bricht.“\n„Nein, Herr, der Wagen nicht,\nes ist ein Band von meinem Herzen,\ndas da lag in großen Schmerzen,\nals ihr in dem Brunnen saßt,\nals ihr eine Fretsche (Frosch) wast (wart).“",
+   "l": "“Heinrich, the carriage is breaking.”\n“No, lord, not the carriage,\nit is a band from my heart,\nwhich lay there in great pains,\nwhen you sat in the well,\nwhen you were a frog.”",
+   "i": "“Heinrich, the carriage is breaking!” / “No, my lord, not the carriage — / it is a band from around my heart, / which lay in great anguish / when you were down in the well, / when you were a frog.”",
+   "n": "The rhyming exchange that closes the tale. ihr is the old respectful “you” a servant uses to his master (a polite plural). The last line is dialect — “eine Fretsche” for “ein Frosch” (a frog), “wast” for “wart” (you were) — and Grimm supplies the standard words in parentheses right in the 1857 text; we keep his glosses. saßt and wast keep the archaic ß."
+  },
+  {
+   "p": true,
+   "t": "Noch einmal und noch einmal krachte es auf dem Weg, und der Königssohn meinte immer der Wagen bräche, und es waren doch nur die Bande, die vom Herzen des treuen Heinrich absprangen, weil sein Herr erlöst und glücklich war.",
+   "l": "Once more and once more it cracked on the way, and the king’s-son thought always the carriage were breaking, and it was yet only the bands, which sprang from the heart of the faithful Heinrich, because his master was released and happy.",
+   "i": "Once more, and once more again, there was a crack along the way, and each time the king’s son thought the carriage was breaking; but it was only the bands springing away from faithful Heinrich’s heart, because his master was freed and happy.",
+   "n": "bräche is subjunctive (“were breaking”) inside what the prince meinte (supposed) — reported thought again. abspringen (to spring off) separable: absprangen. A quiet, satisfying close: the ominous cracks are joy, not damage."
+  }
+ ]
+}

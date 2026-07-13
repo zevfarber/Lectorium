@@ -41,6 +41,8 @@
     border: 1px solid var(--border); background: #fff; color: var(--ink); cursor: pointer;
   }
   button:hover, label.filebtn:hover, select:hover { background: var(--accent-soft); }
+  input#storyFilter { font: inherit; padding: 5px 10px; border-radius: 8px; border: 1px solid var(--border);
+    background: #fff; color: var(--ink); max-width: 170px; }
   button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
   .readGroup { align-items: stretch; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
   .readGroup > button, .readGroup .spellSeg > button { border: 0; border-radius: 0; }
@@ -284,6 +286,8 @@
   <span class="title">Lectorium</span>
   <select id="workSel" title="Choose a work"></select>
   <select id="storySel" title="Choose a text within the work"></select>
+  <input id="storyFilter" type="search" placeholder="Filter…" title="Filter texts in this work by title or number" style="display:none">
+
   <span id="enGroup" class="readGroup" style="display:inline-flex"><button id="enBtn" title="Show English side by side">English</button><span id="enSeg" class="spellSeg" style="display:none"><button data-ep="idiom" title="Natural English — how you'd actually say it">natural</button><button data-ep="lit" title="Literal English — mirrors the original's structure">literal</button></span></span>
   <button id="plainBtn" title="Plain letters — þ, ð → th, æ → ae, length marks hidden" style="display:none">þ→th</button>
   <span id="readGroup" class="readGroup" style="display:none"><button id="trBtn" title="Transcription — show or hide the letters under each glyph">Transcription</button><span id="spellSeg" class="spellSeg"><button data-sp="sch" title="Scholarly transliteration (ꜥnḫ)">ꜥnḫ</button><button data-sp="read" title="Readable spelling (ankh)">ankh</button></span></span>
@@ -969,7 +973,8 @@ function render(){
   const box = $('text'); box.innerHTML = '';
   const enTitle = story.titleEn || story.title || '';
   const origTitle = story.titleRead || story.title || '';
-  $('stTitle').innerHTML = escapeHtml(enTitle)
+  const cite = story.khm ? 'KHM ' + story.khm + ' · ' : '';
+  $('stTitle').innerHTML = escapeHtml(cite + enTitle)
     + (story.provisional ? ' <span class="draftBadge">draft · being built</span>' : '');
   const sub = $('stSub');
   if (sub) {
@@ -1679,20 +1684,58 @@ function fillLibrary(selIdx){
   fillStorySel(wi, selIdx);
 }
 
-/* Fill the text dropdown for one work; hidden when the work has a single text. */
+/* Text-picker label: "KHM 1 · The Frog King" when the entry carries a number. */
+function storyLabel(m){
+  return (m.khm ? 'KHM ' + m.khm + ' · ' : '') + (m.part || m.titleEn || m.title || '');
+}
+function storyMatches(m, q){
+  if (!q) return true;
+  const hay = (storyLabel(m) + ' ' + (m.titleEn || '') + ' ' + (m.title || '') + ' ' + (m.khm || '')).toLowerCase();
+  return hay.includes(q);
+}
+
+/* Fill the text dropdown for one work. Hidden when the work has a single text.
+   Large works (KHM…) get a filter box and optgroup grouping (by each entry's
+   optional "group" field); small works stay a flat list, no filter box. */
+const STORY_FILTER_MIN = 8;   // show the filter box only when a work has more texts than this
+let storyFilterText = '';
 function fillStorySel(wi, selIdx){
   const ss = $('storySel'); ss.innerHTML = '';
+  const fb = $('storyFilter');
   const w = WORKS[wi];
-  if (!w) { ss.style.display = 'none'; return; }
+  if (!w) { ss.style.display = 'none'; if (fb) fb.style.display = 'none'; return; }
+  const many = w.indices.length > STORY_FILTER_MIN;
+  if (fb) { if (!many) storyFilterText = ''; fb.style.display = many ? '' : 'none'; fb.value = storyFilterText; }
+  const q = storyFilterText.trim().toLowerCase();
+
+  // group matching entries by their "group" field, keeping first-seen order
+  const groups = {}, order = [];
   w.indices.forEach(i => {
-    const m = MANIFEST[i];
-    const o = document.createElement('option');
-    o.value = i;
-    o.textContent = m.part || m.titleEn || m.title;
-    ss.appendChild(o);
+    if (!storyMatches(MANIFEST[i], q)) return;
+    const g = MANIFEST[i].group || '';
+    if (!(g in groups)) { groups[g] = []; order.push(g); }
+    groups[g].push(i);
   });
+  const useGroups = order.some(g => g !== '');
+  const addOpt = (parent, i) => {
+    const o = document.createElement('option');
+    o.value = i; o.textContent = storyLabel(MANIFEST[i]);
+    parent.appendChild(o);
+  };
+  order.forEach(g => {
+    if (useGroups && g) {
+      const og = document.createElement('optgroup'); og.label = g;
+      groups[g].forEach(i => addOpt(og, i));
+      ss.appendChild(og);
+    } else {
+      groups[g].forEach(i => addOpt(ss, i));
+    }
+  });
+
   ss.style.display = w.indices.length > 1 ? '' : 'none';
-  ss.value = (selIdx != null && w.indices.includes(selIdx)) ? selIdx : w.indices[0];
+  const opts = Array.from(ss.options).map(o => +o.value);
+  const wanted = (selIdx != null && opts.includes(selIdx)) ? selIdx : null;
+  ss.value = (wanted != null) ? wanted : (opts.length ? opts[0] : '');
 }
 
 /* ---------- shared work-level glossary ----------
@@ -1743,10 +1786,17 @@ async function loadEntryByIndex(i){
   loadStory(s);
 }
 $('workSel').onchange = () => {
+  storyFilterText = '';
   fillStorySel(+$('workSel').value, null);
   loadEntryByIndex(+$('storySel').value);
 };
 $('storySel').onchange = () => loadEntryByIndex(+$('storySel').value);
+// Filtering only narrows the list; it never loads a story on its own.
+$('storyFilter').oninput = (e) => {
+  storyFilterText = e.target.value;
+  const keep = $('storySel').value !== '' ? +$('storySel').value : null;
+  fillStorySel(+$('workSel').value, keep);
+};
 
 function loadStory(s){
   stopSpeech();

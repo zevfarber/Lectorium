@@ -898,7 +898,7 @@ function buildSentEl(s, i, showLit){
 
   const latLines = s.t.split('\n');
   const interlin = mode === 'sbs' && showLit && s.v && s.l && !s.words && !s.tr
-    && s.l.split('\n').length === latLines.length;
+    && latLines.length > 1 && s.l.split('\n').length === latLines.length;
 
   if (interlin) {
     div.classList.add('ilv');

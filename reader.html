@@ -282,7 +282,8 @@
 <body>
 <header>
   <span class="title">Lectorium</span>
-  <select id="storySel" title="Choose story"></select>
+  <select id="workSel" title="Choose a work"></select>
+  <select id="storySel" title="Choose a text within the work"></select>
   <span id="enGroup" class="readGroup" style="display:inline-flex"><button id="enBtn" title="Show English side by side">English</button><span id="enSeg" class="spellSeg" style="display:none"><button data-ep="idiom" title="Natural English — how you'd actually say it">natural</button><button data-ep="lit" title="Literal English — mirrors the original's structure">literal</button></span></span>
   <button id="plainBtn" title="Plain letters — þ, ð → th, æ → ae, length marks hidden" style="display:none">þ→th</button>
   <span id="readGroup" class="readGroup" style="display:none"><button id="trBtn" title="Transcription — show or hide the letters under each glyph">Transcription</button><span id="spellSeg" class="spellSeg"><button data-sp="sch" title="Scholarly transliteration (ꜥnḫ)">ꜥnḫ</button><button data-sp="read" title="Readable spelling (ankh)">ankh</button></span></span>
@@ -352,9 +353,10 @@
 </div>
 
 <script>
-/* Lectorium — Egyptian word-stack reader build */
+/* Lectorium — hierarchical library build (language → work → text) */
 const STORIES = [];   // runtime cache of fully-loaded story objects
-let MANIFEST = [];    // {id,title,titleEn,language,file} from stories.json
+let MANIFEST = [];    // {id,title,titleEn,language,work,workEn,part,file} from stories.json
+let WORKS = [];       // derived: {key,language,label,indices:[manifest idx]}
 
 let story = null, focusedIdx = -1, mode = 'de', voices = [];
 /* global English preference for side-by-side mode: 'idiom' (natural) or 'lit' (literal) */
@@ -977,8 +979,12 @@ function render(){
   }
   const langLine = $('stLang');
   if (langLine) {
-    langLine.textContent = story.language || '';
-    langLine.style.display = story.language ? '' : 'none';
+    const bits = [];
+    if (story.language) bits.push(story.language);
+    const wk = story.workEn || story.work;
+    if (wk && wk !== (story.titleEn || story.title)) bits.push(wk);
+    langLine.textContent = bits.join(' · ');
+    langLine.style.display = bits.length ? '' : 'none';
   }
   const aboutBox = $('aboutBox'), aboutBody = $('aboutBody');
   if (aboutBox && aboutBody) {
@@ -1634,25 +1640,59 @@ $('spellSeg').addEventListener('click', (ev) => {
   if (focusedIdx >= 0) focusSent(focusedIdx, false);
 });
 
-/* ---------- library & story loading ---------- */
-function fillStorySel(){
-  const sel = $('storySel'); sel.innerHTML = '';
-  const groups = {}, order = [];
+/* ---------- hierarchical library: language → work → text ---------- */
+function workKeyOf(m){ return (m.language || 'Other') + '|' + (m.work || m.title || ''); }
+
+/* Build WORKS from MANIFEST and fill the work dropdown (grouped by language).
+   selIdx (a manifest index) decides which work/text end up selected. */
+function fillLibrary(selIdx){
+  const ws = $('workSel');
+  WORKS = []; const byKey = {};
   MANIFEST.forEach((m, i) => {
-    const lang = m.language || 'Other';
-    if (!groups[lang]) { groups[lang] = []; order.push(lang); }
-    groups[lang].push(i);
+    const k = workKeyOf(m);
+    if (!byKey[k]) {
+      byKey[k] = { key: k, language: m.language || 'Other',
+                   label: m.workEn || m.work || m.titleEn || m.title, indices: [] };
+      WORKS.push(byKey[k]);
+    }
+    byKey[k].indices.push(i);
+  });
+  ws.innerHTML = '';
+  const groups = {}, order = [];
+  WORKS.forEach((w, wi) => {
+    if (!groups[w.language]) { groups[w.language] = []; order.push(w.language); }
+    groups[w.language].push(wi);
   });
   order.forEach(lang => {
     const og = document.createElement('optgroup');
     og.label = lang;
-    groups[lang].forEach(i => {
+    groups[lang].forEach(wi => {
       const o = document.createElement('option');
-      o.value = i; o.textContent = MANIFEST[i].titleEn || MANIFEST[i].title;
+      o.value = wi; o.textContent = WORKS[wi].label;
       og.appendChild(o);
     });
-    sel.appendChild(og);
+    ws.appendChild(og);
   });
+  let wi = 0;
+  if (selIdx != null) { const f = WORKS.findIndex(w => w.indices.includes(selIdx)); if (f >= 0) wi = f; }
+  ws.value = wi;
+  fillStorySel(wi, selIdx);
+}
+
+/* Fill the text dropdown for one work; hidden when the work has a single text. */
+function fillStorySel(wi, selIdx){
+  const ss = $('storySel'); ss.innerHTML = '';
+  const w = WORKS[wi];
+  if (!w) { ss.style.display = 'none'; return; }
+  w.indices.forEach(i => {
+    const m = MANIFEST[i];
+    const o = document.createElement('option');
+    o.value = i;
+    o.textContent = m.part || m.titleEn || m.title;
+    ss.appendChild(o);
+  });
+  ss.style.display = w.indices.length > 1 ? '' : 'none';
+  ss.value = (selIdx != null && w.indices.includes(selIdx)) ? selIdx : w.indices[0];
 }
 
 /* Load the story for a manifest entry: use the runtime cache if present,
@@ -1681,6 +1721,10 @@ async function loadEntryByIndex(i){
   }
   loadStory(s);
 }
+$('workSel').onchange = () => {
+  fillStorySel(+$('workSel').value, null);
+  loadEntryByIndex(+$('storySel').value);
+};
 $('storySel').onchange = () => loadEntryByIndex(+$('storySel').value);
 
 function loadStory(s){
@@ -1749,11 +1793,12 @@ $('fileIn').addEventListener('change', (ev) => {
       s.id = s.id || ('loaded-' + Date.now());
       const ci = STORIES.findIndex(x => x.id === s.id);
       if (ci >= 0) STORIES[ci] = s; else STORIES.push(s);
-      const entry = { id: s.id, title: s.title, titleEn: s.titleEn || null, language: s.language || null, file: null, story: s };
+      const entry = { id: s.id, title: s.title, titleEn: s.titleEn || null,
+                      language: s.language || null, work: s.work || null,
+                      workEn: s.workEn || null, part: s.part || null, file: null, story: s };
       let mi = MANIFEST.findIndex(m => m.id === s.id);
       if (mi >= 0) MANIFEST[mi] = entry; else { MANIFEST.push(entry); mi = MANIFEST.length - 1; }
-      fillStorySel();
-      $('storySel').value = mi;
+      fillLibrary(mi);
       loadStory(s);
     } catch(e) { alert('Could not read story file: ' + e.message); }
   };
@@ -1777,13 +1822,12 @@ $('fileIn').addEventListener('change', (ev) => {
     .then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)))
     .then(data => {
       MANIFEST = (data && data.stories) || [];
-      fillStorySel();
       let last = null;
       try { last = localStorage.getItem('story'); } catch(e) {}
       let idx = MANIFEST.findIndex(x => x.id === last);
       if (idx < 0) idx = 0;
-      if (MANIFEST.length) { $('storySel').value = idx; loadEntryByIndex(idx); }
-      else { $('stTitle').textContent = 'No stories found'; $('stSub').textContent = 'Use “＋ Load story” to open a story .json file.'; }
+      if (MANIFEST.length) { fillLibrary(idx); loadEntryByIndex(idx); }
+      else { fillLibrary(null); $('stTitle').textContent = 'No stories found'; $('stSub').textContent = 'Use “＋ Load story” to open a story .json file.'; }
     })
     .catch(() => {
       $('stTitle').textContent = 'Library unavailable';

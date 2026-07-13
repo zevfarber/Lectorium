@@ -78,10 +78,18 @@
   .sent.focused { background: var(--focus-bg); box-shadow: 0 0 0 1px var(--border); }
   .sent.verse .de { font-style: italic; padding-left: 1.5em; }
   body.allverse .sent.verse .de { font-style: normal; padding-left: 0; }
-  /* verse-only texts read as continuous verse: tighter line-spacing and smaller gaps between tap-units */
-  body.allverse .de { line-height: 1.35; }
-  body.allverse .sent { padding-top: 4px; padding-bottom: 4px; margin-top: 0; margin-bottom: 0; }
-  body.allverse .sent.parastart { margin-top: 20px; }
+  /* verse-only texts: readable line-spacing, clear hierarchy line < unit < paragraph */
+  body.allverse .de { line-height: 1.5; }
+  body.allverse .sent { padding-top: 4px; padding-bottom: 4px; margin-top: 7px; margin-bottom: 0; }
+  body.allverse .sent.parastart { margin-top: 24px; }
+  /* interlinear crib: each verse line paired with its literal line, aligned as a grid row */
+  body.sbs .sent.interlin { row-gap: 6px; align-items: baseline; }
+  .sent.interlin .ilat { grid-column: 1; font-size: 1.12rem; line-height: 1.3; white-space: pre-line; }
+  .sent.interlin .ilit { grid-column: 2; font-size: 1rem; line-height: 1.3; color: var(--en-ink); white-space: pre-line; }
+  .sent.interlin .ilit .lbl { font-family: system-ui, 'Noto Sans', sans-serif; font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; opacity: .65; margin-right: 6px; }
+  .sent.interlin .ilat .w { border-radius: 4px; }
+  .sent.interlin .ilat .w:hover { background: var(--accent-soft); }
+  .sent.interlin .ilat .w.wsel { background: var(--accent); color: #fff; }
   .lineno { font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: .68rem; color: var(--muted);
     vertical-align: super; margin-right: 10px; user-select: none; letter-spacing: .03em; }
   .de { font-size: 1.12rem; white-space: pre-line; }
@@ -869,6 +877,87 @@ function buildStacks(s){
   return out;
 }
 
+// build one sentence element. In side-by-side literal mode, verse whose literal is
+// line-aligned to the Latin renders as an interlinear crib (each Latin line paired with
+// its literal line); everything else keeps the original .de / .en block layout.
+function buildSentEl(s, i, showLit){
+  const div = document.createElement('div');
+  div.className = 'sent' + (s.p ? ' parastart' : '') + (s.v ? ' verse' : '') + (s.r ? ' rubric' : '');
+  div.dataset.i = i;
+
+  let lnChip = '';
+  if (s.ln) {
+    const end = s.ln + (s.t.match(/\n/g) || []).length;
+    const single = story.numbering === 'stanza' || story.numbering === 'clause';
+    const pre = story.numbering === 'clause' ? '§' : '';
+    lnChip = '<span class="lineno">' + pre + ((!single && end > s.ln) ? s.ln + '–' + end : s.ln) + '</span>';
+  }
+
+  const latLines = s.t.split('\n');
+  const interlin = mode === 'sbs' && showLit && s.v && s.l && !s.words && !s.tr
+    && s.l.split('\n').length === latLines.length;
+
+  if (interlin) {
+    div.classList.add('interlin');
+    const litLines = s.l.split('\n');
+    for (let k = 0; k < latLines.length; k++) {
+      const a = document.createElement('div');
+      a.className = 'ilat';
+      a.innerHTML = (k === 0 ? lnChip : '') + tokenize(latLines[k]);
+      div.appendChild(a);
+      const b = document.createElement('div');
+      b.className = 'ilit';
+      b.innerHTML = (k === 0 ? '<span class="lbl">literal</span>' : '') + escapeHtml(litLines[k] || '');
+      div.appendChild(b);
+    }
+  } else {
+    const de = document.createElement('div');
+    de.className = 'de';
+    if (s.words) {
+      de.classList.add('words');
+      if (story.dir) de.setAttribute('dir', story.dir);
+      de.innerHTML = lnChip + buildWords(s);
+    } else if (s.tr) {
+      de.classList.add('stacks');
+      if (story.dir) de.setAttribute('dir', story.dir);
+      de.innerHTML = lnChip + buildStacks(s);
+    } else {
+      de.innerHTML = lnChip + tokenize(s.t);
+    }
+    div.appendChild(de);
+
+    const en = document.createElement('div');
+    en.className = 'en' + (showLit ? '' : ' idm');
+    en.dataset.showing = showLit ? 'lit' : 'idiom';
+    en.innerHTML = showLit
+      ? '<span class="lbl">literal</span>' + escapeHtml(s.l || s.i || '')
+      : '<span class="lbl">natural</span>' + escapeHtml(s.i || s.l || '');
+    div.appendChild(en);
+  }
+
+  if (s.n) {
+    const nt = document.createElement('div');
+    nt.className = 'note';
+    nt.textContent = s.n;
+    div.appendChild(nt);
+  }
+
+  const tts = !!story.langCode || !!story.audio;
+  const tb = document.createElement('div');
+  tb.className = 'toolbar';
+  tb.innerHTML =
+    (tts ? '<button data-a="listen">' + listenLabel(i) + '</button>' +
+           (story.audio ? '<button data-a="stop">⏹ Stop</button>' : '') +
+           '<button data-a="speed">' + (slowPref[i] ? '🐇 Regular' : '🐢 Slow') + '</button>' : '') +
+    '<button data-a="try">✍️ Try</button>' +
+    '<button data-a="ask">🎓 Ask</button>' +
+    (mode === 'de' ? '<button data-a="en">EN</button>' : '') +
+    (s.i ? '<button data-a="idiom">' + (showLit ? '≈ natural' : '≈ literal') + '</button>' : '') +
+    (s.n ? '<button data-a="note">📝 note</button>' : '');
+  div.appendChild(tb);
+  return div;
+}
+
 function render(){
   if (!story) return;
   const box = $('text'); box.innerHTML = '';
@@ -913,68 +1002,8 @@ function render(){
   const tts = !!story.langCode || !!story.audio;
   $('rateWrap').style.display = tts ? '' : 'none';
   document.body.classList.toggle('allverse', story.sentences.every(x => x.v));
-  story.sentences.forEach((s, i) => {
-    const div = document.createElement('div');
-    div.className = 'sent' + (s.p ? ' parastart' : '') + (s.v ? ' verse' : '') + (s.r ? ' rubric' : '');
-    div.dataset.i = i;
-
-    const de = document.createElement('div');
-    de.className = 'de';
-    let lnChip = '';
-    if (s.ln) {
-      // Eddic verse is cited by stanza (a single number); other verse (Beowulf) by line range;
-      // clause-numbered inscriptions (Luwian) by §-clause.
-      const end = s.ln + (s.t.match(/\n/g) || []).length;
-      const single = story.numbering === 'stanza' || story.numbering === 'clause';
-      const pre = story.numbering === 'clause' ? '§' : '';
-      lnChip = '<span class="lineno">' + pre + ((!single && end > s.ln) ? s.ln + '–' + end : s.ln) + '</span>';
-    }
-    if (s.words) {
-      de.classList.add('words');
-      if (story.dir) de.setAttribute('dir', story.dir);
-      de.innerHTML = lnChip + buildWords(s);
-    } else if (s.tr) {
-      de.classList.add('stacks');
-      if (story.dir) de.setAttribute('dir', story.dir);
-      de.innerHTML = lnChip + buildStacks(s);
-    } else {
-      de.innerHTML = lnChip + tokenize(s.t);
-    }
-    div.appendChild(de);
-
-    const en = document.createElement('div');
-    // side-by-side follows the global natural|literal choice; original-only keeps its
-    // per-sentence default (natural first)
-    const showLit = (mode === 'sbs' && enPref === 'lit');
-    en.className = 'en' + (showLit ? '' : ' idm');
-    en.dataset.showing = showLit ? 'lit' : 'idiom';
-    en.innerHTML = showLit
-      ? '<span class="lbl">literal</span>' + escapeHtml(s.l || s.i || '')
-      : '<span class="lbl">natural</span>' + escapeHtml(s.i || s.l || '');
-    div.appendChild(en);
-
-    if (s.n) {
-      const nt = document.createElement('div');
-      nt.className = 'note';
-      nt.textContent = s.n;
-      div.appendChild(nt);
-    }
-
-    const tb = document.createElement('div');
-    tb.className = 'toolbar';
-    tb.innerHTML =
-      (tts ? '<button data-a="listen">' + listenLabel(i) + '</button>' +
-             (story.audio ? '<button data-a="stop">⏹ Stop</button>' : '') +
-             '<button data-a="speed">' + (slowPref[i] ? '🐇 Regular' : '🐢 Slow') + '</button>' : '') +
-      '<button data-a="try">✍️ Try</button>' +
-      '<button data-a="ask">🎓 Ask</button>' +
-      (mode === 'de' ? '<button data-a="en">EN</button>' : '') +
-      (s.i ? '<button data-a="idiom">' + (showLit ? '≈ natural' : '≈ literal') + '</button>' : '') +
-      (s.n ? '<button data-a="note">📝 note</button>' : '');
-    div.appendChild(tb);
-
-    box.appendChild(div);
-  });
+  const showLit = (mode === 'sbs' && enPref === 'lit');
+  story.sentences.forEach((s, i) => box.appendChild(buildSentEl(s, i, showLit)));
 }
 
 function escapeHtml(t){ const d = document.createElement('div'); d.textContent = t; return d.innerHTML; }
@@ -1110,6 +1139,17 @@ function toggleEN(i){
 }
 function toggleIdiom(i){
   const el = sentEl(i), s = story.sentences[i];
+  if (!el || (!s.i && !s.l)) return;
+  // verse whose literal is line-aligned flips layout (interlinear crib ↔ prose), so rebuild it
+  const eligible = mode === 'sbs' && s.v && s.l && !s.words && !s.tr
+    && s.l.split('\n').length === s.t.split('\n').length;
+  if (eligible) {
+    const showingLit = el.classList.contains('interlin');
+    const nel = buildSentEl(s, i, !showingLit);
+    el.replaceWith(nel);
+    if (focusedIdx === i) nel.classList.add('focused');
+    return;
+  }
   const en = el.querySelector('.en'); if (!en || !s.i) return;
   const b = sentBtn(i, 'idiom');
   if (en.dataset.showing === 'lit') {

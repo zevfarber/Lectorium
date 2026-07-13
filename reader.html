@@ -1695,6 +1695,26 @@ function fillStorySel(wi, selIdx){
   ss.value = (selIdx != null && w.indices.includes(selIdx)) ? selIdx : w.indices[0];
 }
 
+/* ---------- shared work-level glossary ----------
+   Multi-part works (Beowulf's fitts…) keep one glossary file for the whole work
+   instead of repeating hundreds of entries in every part. A story opts in with
+   "glossaryFile": "beowulf-glossary.json"; the file is fetched once per session
+   and merged under the story's own entries (story-local entries win). Over
+   file:// the fetch fails silently and the story's own glossary still works. */
+const SHARED_GLOSS = {};   // glossaryFile -> glossary object (or null if unavailable)
+async function ensureGlossary(s){
+  if (!s || !s.glossaryFile || s._glossMerged) return;
+  let shared = SHARED_GLOSS[s.glossaryFile];
+  if (shared === undefined) {
+    try {
+      const r = await fetch(s.glossaryFile, { cache: 'no-cache' });
+      shared = r.ok ? ((await r.json()).glossary || null) : null;
+    } catch(e) { shared = null; }
+    SHARED_GLOSS[s.glossaryFile] = shared;
+  }
+  if (shared) { s.glossary = Object.assign({}, shared, s.glossary || {}); s._glossMerged = true; }
+}
+
 /* Load the story for a manifest entry: use the runtime cache if present,
    otherwise fetch its JSON file once and cache it. Stories loaded via
    "＋ Load story" are already full objects in the cache, so no fetch. */
@@ -1719,6 +1739,7 @@ async function loadEntryByIndex(i){
       }
     }
   }
+  await ensureGlossary(s);
   loadStory(s);
 }
 $('workSel').onchange = () => {
@@ -1798,8 +1819,7 @@ $('fileIn').addEventListener('change', (ev) => {
                       workEn: s.workEn || null, part: s.part || null, file: null, story: s };
       let mi = MANIFEST.findIndex(m => m.id === s.id);
       if (mi >= 0) MANIFEST[mi] = entry; else { MANIFEST.push(entry); mi = MANIFEST.length - 1; }
-      fillLibrary(mi);
-      loadStory(s);
+      ensureGlossary(s).catch(() => {}).then(() => { fillLibrary(mi); loadStory(s); });
     } catch(e) { alert('Could not read story file: ' + e.message); }
   };
   rd.readAsText(f);

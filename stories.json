@@ -5,6 +5,9 @@
    "title": "Hávamál",
    "titleEn": "Hávamál — Gestaþáttr (stanzas 1–79)",
    "language": "Old Norse",
+   "work": "Hávamál",
+   "workEn": "Hávamál",
+   "part": "Gestaþáttr (stanzas 1–79)",
    "file": "havamal-gestathattr.json"
   },
   {
@@ -12,6 +15,9 @@
    "title": "Rꜣ nw prt m hrw (125)",
    "titleEn": "Book of the Dead of Ani — Spell 125: the Negative Confession",
    "language": "Middle Egyptian",
+   "work": "Book of the Dead of Ani",
+   "workEn": "Book of the Dead of Ani",
+   "part": "Spell 125 — the Negative Confession",
    "file": "ani-spell125-opening.json"
   },
   {
@@ -19,13 +25,39 @@
    "title": "Aschenputtel",
    "titleEn": "Cinderella",
    "language": "German",
+   "work": "Kinder- und Hausmärchen",
+   "workEn": "Grimms’ Fairy Tales",
+   "part": "Cinderella",
    "file": "aschenputtel.json"
+  },
+  {
+   "id": "hansel-und-grethel",
+   "title": "Hänsel und Grethel",
+   "titleEn": "Hansel and Gretel",
+   "language": "German",
+   "work": "Kinder- und Hausmärchen",
+   "workEn": "Grimms’ Fairy Tales",
+   "part": "Hansel and Gretel",
+   "file": "hansel-und-grethel.json"
+  },
+  {
+   "id": "daumenlutscher",
+   "title": "Die Geschichte vom Daumenlutscher",
+   "titleEn": "The Story of the Thumb-Sucker",
+   "language": "German",
+   "work": "Der Struwwelpeter",
+   "workEn": "Struwwelpeter",
+   "part": "The Story of the Thumb-Sucker",
+   "file": "daumenlutscher.json"
   },
   {
    "id": "petit-chaperon-rouge",
    "title": "Le petit Chaperon rouge",
    "titleEn": "Little Red Riding Hood",
    "language": "French",
+   "work": "Histoires ou contes du temps passé",
+   "workEn": "Tales of Times Past (Perrault)",
+   "part": "Little Red Riding Hood",
    "file": "petit-chaperon-rouge.json"
   },
   {
@@ -33,20 +65,19 @@
    "title": "Bēowulf",
    "titleEn": "Beowulf — Prologue (lines 1–52)",
    "language": "Old English",
+   "work": "Bēowulf",
+   "workEn": "Beowulf",
+   "part": "Prologue (lines 1–52)",
    "file": "beowulf-prologue.json"
-  },
-  {
-   "id": "hansel-und-grethel",
-   "title": "Hänsel und Grethel",
-   "titleEn": "Hansel and Gretel",
-   "language": "German",
-   "file": "hansel-und-grethel.json"
   },
   {
    "id": "azatiwada-luwian",
    "title": "Azzattiwadas",
    "titleEn": "The Azatiwada Inscription (Karatepe) — §1–§21",
    "language": "Hieroglyphic Luwian",
+   "work": "Azzattiwadas",
+   "workEn": "The Azatiwada Inscription (Karatepe)",
+   "part": "§1–§21",
    "file": "azatiwada-luwian.json"
   },
   {
@@ -54,6 +85,9 @@
    "title": "Pyramus et Thisbe",
    "titleEn": "Pyramus and Thisbe — Metamorphoses IV.55–166",
    "language": "Latin",
+   "work": "Metamorphoses",
+   "workEn": "Metamorphoses (Ovid)",
+   "part": "Pyramus and Thisbe (IV.55–166)",
    "file": "pyramus-thisbe.json"
   }
  ]

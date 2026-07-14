@@ -807,6 +807,64 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "note": "Here the plural element in -me-eš; written with the U-U-U sign."
  },
+ "A2": {
+  "glyph": "𒀉",
+  "name": "a₂ (arm; here in Alulim)",
+  "type": "syllabogram",
+  "sound": "a₂",
+  "determines": null
+ },
+ "IGI": {
+  "glyph": "𒅆",
+  "name": "eye (igi); here read lim",
+  "type": "logogram",
+  "sound": "igi",
+  "determines": null,
+  "values": [
+   "igi",
+   "lim (in Alulim)"
+  ],
+  "note": "The 'eye' sign; in the name Alulim it carries the value lim — the reading Langdon flagged as 'REC 229'."
+ },
+ "EZENxBAD": {
+  "glyph": "𒂦",
+  "name": "fortress (bàd₃)",
+  "type": "logogram",
+  "sound": "bàd₃",
+  "determines": null,
+  "note": "EZEN containing BAD; with DUB spells bàd₃ 'wall/fortress' in Bad-tibira."
+ },
+ "DUB": {
+  "glyph": "𒁾",
+  "name": "dub; second sign of bàd₃",
+  "type": "syllabogram",
+  "sound": "dub",
+  "determines": null
+ },
+ "NAGAR": {
+  "glyph": "𒉄",
+  "name": "craftsman (nagar); here tibira",
+  "type": "logogram",
+  "sound": "tibira",
+  "determines": null,
+  "values": [
+   "nagar",
+   "tibira"
+  ],
+  "note": "Craftsman sign; read tibira 'metalworker' in Bad-tibira."
+ },
+ "ESH2": {
+  "glyph": "𒂠",
+  "name": "terminative -šè/-šú",
+  "type": "syllabogram",
+  "sound": "šú",
+  "determines": null,
+  "values": [
+   "šè",
+   "šú"
+  ],
+  "note": "The EŠ₂ sign — the postposition 'to/towards'."
+ },
  "NUM": {
   "glyph": "",
   "name": "sexagesimal numeral",
@@ -1294,7 +1352,7 @@ function render(){
   const box = $('text'); box.innerHTML = '';
   const enTitle = story.titleEn || story.title || '';
   const origTitle = story.titleRead || story.title || '';
-  const cite = story.khm ? 'Grimm ' + story.khm + ' · ' : '';
+  const cite = story.khm ? 'KHM ' + story.khm + ' · ' : '';
   $('stTitle').innerHTML = escapeHtml(cite + enTitle)
     + (story.provisional ? ' <span class="draftBadge">draft · being built</span>' : '');
   const sub = $('stSub');
@@ -1307,17 +1365,8 @@ function render(){
   if (langLine) {
     const bits = [];
     if (story.language) bits.push(story.language);
-    const shownTitle = story.titleEn || story.title;
-    if (story.workGloss && story.work) {
-      // Trilingual work line: original title (literal English) · popular name
-      const orig = story.work + ' (' + story.workGloss + ')';
-      if (orig !== shownTitle) bits.push(orig);
-      const pop = story.workEn;
-      if (pop && pop !== story.work && pop !== shownTitle) bits.push(pop);
-    } else {
-      const wk = story.workEn || story.work;
-      if (wk && wk !== shownTitle) bits.push(wk);
-    }
+    const wk = story.workEn || story.work;
+    if (wk && wk !== (story.titleEn || story.title)) bits.push(wk);
     langLine.textContent = bits.join(' · ');
     langLine.style.display = bits.length ? '' : 'none';
   }
@@ -2014,9 +2063,9 @@ function fillLibrary(selIdx){
   fillStorySel(wi, selIdx);
 }
 
-/* Text-picker label: "Grimm 1 · The Frog King" when the entry carries a number. */
+/* Text-picker label: "KHM 1 · The Frog King" when the entry carries a number. */
 function storyLabel(m){
-  return (m.khm ? 'Grimm ' + m.khm + ' · ' : '') + (m.part || m.titleEn || m.title || '');
+  return (m.khm ? 'KHM ' + m.khm + ' · ' : '') + (m.part || m.titleEn || m.title || '');
 }
 function storyMatches(m, q){
   if (!q) return true;
@@ -2025,7 +2074,7 @@ function storyMatches(m, q){
 }
 
 /* Fill the text dropdown for one work. Hidden when the work has a single text.
-   Large works (Grimm…) get a filter box and optgroup grouping (by each entry's
+   Large works (KHM…) get a filter box and optgroup grouping (by each entry's
    optional "group" field); small works stay a flat list, no filter box. */
 const STORY_FILTER_MIN = 8;   // show the filter box only when a work has more texts than this
 let storyFilterText = '';
@@ -2200,9 +2249,7 @@ $('fileIn').addEventListener('change', (ev) => {
       if (ci >= 0) STORIES[ci] = s; else STORIES.push(s);
       const entry = { id: s.id, title: s.title, titleEn: s.titleEn || null,
                       language: s.language || null, work: s.work || null,
-                      workEn: s.workEn || null, workGloss: s.workGloss || null,
-                      khm: s.khm || null, group: s.group || null,
-                      part: s.part || null, file: null, story: s };
+                      workEn: s.workEn || null, part: s.part || null, file: null, story: s };
       let mi = MANIFEST.findIndex(m => m.id === s.id);
       if (mi >= 0) MANIFEST[mi] = entry; else { MANIFEST.push(entry); mi = MANIFEST.length - 1; }
       ensureGlossary(s).catch(() => {}).then(() => { fillLibrary(mi); loadStory(s); });

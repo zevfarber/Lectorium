@@ -9,9 +9,9 @@
  "workEn": "Sumerian King List",
  "part": "Antediluvian prologue · Eridu → Larak (lines 1–24)",
  "provisional": true,
- "draftNote": "Draft in progress — the cuneiform and its readings are provisional, checked sign-by-sign against Langdon's 1923 edition of the prism, so expect changes. A few names Langdon himself flagged (Alulim; the city Bad-tibira) are shown 'glyphs pending' rather than guessed.",
+ "draftNote": "Draft in progress — the cuneiform and its readings are provisional, checked sign-by-sign against Langdon's 1923 edition of the prism, so expect changes as the text is extended.",
  "source": "Weld-Blundell Prism (WB 444), after S. Langdon, Oxford Editions of Cuneiform Texts II (Oxford, 1923), Col. I. Cuneiform in normalized Unicode (Neo-Assyrian forms) though the prism is Old Babylonian. Academic transliteration in modern subscript notation over Langdon's 1923 readings; pronunciation conventional/reconstructed. Fresh translations.",
- "about": "The world's oldest king-list, copied c. 1800 BCE. Every layer — sign readings, values, word-divisions, pronunciation, even the giant numbers — is a scholarly convention, some frank guesses; notes flag genuine uncertainty. A few names Langdon himself flagged (Alulim; the city Bad-tibira) are shown 'glyphs pending' rather than guessed.",
+ "about": "The world's oldest king-list, copied c. 1800 BCE. Every layer — sign readings, values, word-divisions, pronunciation, even the giant numbers — is a scholarly convention, some frank guesses; notes flag genuine uncertainty. Where Langdon flagged a sign (Alulim's final sign; the city Bad-tibira), the note explains the identification rather than hiding it.",
  "numbering": "line",
  "sentences": [
   {
@@ -219,16 +219,96 @@
   },
   {
    "ln": 3,
-   "t": "",
-   "tr": "eridu{ki} a-lu-lim lugal",
-   "say": [
-    "eridu",
-    "alulim",
-    "lugal"
-   ],
+   "t": "𒉣𒆠 𒀉𒇻𒅆 𒈗",
    "l": "in-Eridu, Alulim (was) king —",
    "i": "In Eridu, Alulim became king;",
-   "n": "The first king. Langdon reads A-lu-lim but flags its last sign as uncertain (his 'REC 229'). Because that sign is unsettled, the cuneiform is held back while the transliteration and translation stand."
+   "n": "The first king. Langdon read A-lu-lim but flagged its final sign (his 'REC 229'); it is the IGI sign carrying the value lim — a non-obvious reading, now resolved. Alulim is listed as a mortal, with no divine determinative.",
+   "words": [
+    {
+     "reading": "eridu{ki}",
+     "say": "eridu",
+     "glyphs": [
+      {
+       "s": "𒉣",
+       "sign": "NUN",
+       "role": "log",
+       "tr": "eridu"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "eridu",
+       "gloss": "Eridu — the first city (written NUN.KI)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a₂-lu-lim",
+     "say": "alulim",
+     "glyphs": [
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "a₂"
+      },
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      },
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "lim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "a₂-lu-lim",
+       "gloss": "Alulim — first king of Eridu; final sign is IGI read lim (Langdon's uncertain 'REC 229')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal",
+     "say": "lugal",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "ln": 4,
@@ -634,16 +714,116 @@
   },
   {
    "ln": 9,
-   "t": "",
-   "tr": "nam-lugal-bi bad-tibira{ki}-šú",
-   "say": [
-    "namlugalbi",
-    "badtibira",
-    "šu"
-   ],
-   "l": "its-kingship to-Bad-tibira —",
+   "t": "𒉆𒈗𒁉 𒂦𒁾𒉄𒆠 𒂠",
+   "l": "its-kingship, to-Bad-tibira —",
    "i": "its kingship (passed) to Bad-tibira;",
-   "n": "Bad-tibira, the second city. Its name is a genuine crux: neither bàd₃ 'wall' nor the tibira 'metalworker' sign has a settled single Unicode form, and Langdon himself footnotes tibira as uncertain (he links it to the Tubal-Cain of Genesis). So this city's cuneiform is held back; the reading stands."
+   "n": "-šú (the EŠ₂ sign) is the terminative 'to / towards' — kingship moves on. Bad-tibira: bàd₃ 'fortress' is written EZEN×BAD + DUB; tibira 'metalworker' is the NAGAR sign. Langdon footnotes tibira, linking it to the Tubal-Cain of Genesis.",
+   "words": [
+    {
+     "reading": "nam-lugal-bi",
+     "say": "namlugalbi",
+     "glyphs": [
+      {
+       "s": "𒉆",
+       "sign": "NAM",
+       "role": "phon",
+       "tr": "nam"
+      },
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nam-lugal",
+       "gloss": "kingship",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-bi",
+       "gloss": "'its / that' (3rd-person possessive)",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bàd₃-tibira{ki}",
+     "say": "badtibira",
+     "glyphs": [
+      {
+       "s": "𒂦",
+       "sign": "EZENxBAD",
+       "role": "log",
+       "tr": "bàd₃"
+      },
+      {
+       "s": "𒁾",
+       "sign": "DUB",
+       "role": "comp",
+       "tr": ""
+      },
+      {
+       "s": "𒉄",
+       "sign": "NAGAR",
+       "role": "log",
+       "tr": "tibira"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bàd₃-tibira",
+       "gloss": "Bad-tibira — second city: bàd₃ 'fortress' (EZEN×BAD, with DUB) + tibira 'metalworker' (NAGAR) + place-det ki",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "-šú",
+     "say": "šú",
+     "glyphs": [
+      {
+       "s": "𒂠",
+       "sign": "ESH2",
+       "role": "phon",
+       "tr": "šú"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "-šú",
+       "gloss": "terminative -šè/-šú — 'to, towards' (the EŠ₂ sign)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "ln": 10,
@@ -684,15 +864,110 @@
   },
   {
    "ln": 11,
-   "t": "",
-   "tr": "bad-tibira{ki} en-me-en-lù-an-na",
-   "say": [
-    "badtibira",
-    "enmenluanna"
-   ],
+   "t": "𒂦𒁾𒉄𒆠 𒂗𒈨𒂗𒇽𒀭𒈾",
    "l": "in-Bad-tibira, Enmenluanna —",
    "i": "In Bad-tibira, Enmenluanna",
-   "n": "The king Enmenluanna (en-me-en-lù-an-na). His name resolves in signs, but the line is held back because the city-name Bad-tibira does not — the cuneiform for the whole line waits on it."
+   "n": "Enmenluanna, first king of Bad-tibira — an 'En-men-…-anna' throne-name (en 'lord', an 'heaven') shared by several pre-flood kings.",
+   "words": [
+    {
+     "reading": "bàd₃-tibira{ki}",
+     "say": "badtibira",
+     "glyphs": [
+      {
+       "s": "𒂦",
+       "sign": "EZENxBAD",
+       "role": "log",
+       "tr": "bàd₃"
+      },
+      {
+       "s": "𒁾",
+       "sign": "DUB",
+       "role": "comp",
+       "tr": ""
+      },
+      {
+       "s": "𒉄",
+       "sign": "NAGAR",
+       "role": "log",
+       "tr": "tibira"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bàd₃-tibira",
+       "gloss": "Bad-tibira — second city: bàd₃ 'fortress' (EZEN×BAD, with DUB) + tibira 'metalworker' (NAGAR) + place-det ki",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "en-me-en-lù-an-na",
+     "say": "enmenluanna",
+     "glyphs": [
+      {
+       "s": "𒂗",
+       "sign": "EN",
+       "role": "phon",
+       "tr": "en"
+      },
+      {
+       "s": "𒈨",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "me"
+      },
+      {
+       "s": "𒂗",
+       "sign": "EN",
+       "role": "phon",
+       "tr": "en"
+      },
+      {
+       "s": "𒇽",
+       "sign": "LU2",
+       "role": "phon",
+       "tr": "lù"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "phon",
+       "tr": "an"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "en-me-en-lù-an-na",
+       "gloss": "Enmenluanna — first king of Bad-tibira",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "ln": 12,
@@ -1211,15 +1486,102 @@
   },
   {
    "ln": 18,
-   "t": "",
-   "tr": "bad-tibira{ki} ba-šub-bi-en",
-   "say": [
-    "badtibira",
-    "bašubbien"
-   ],
+   "t": "𒂦𒁾𒉄𒆠 𒁀𒊒𒁉𒂗",
    "l": "Bad-tibira it-was-abandoned.",
    "i": "Then Bad-tibira fell,",
-   "n": "Bad-tibira falls; kingship moves to Larak. Held back only for the Bad-tibira sign; ba-šub-bi-en is the fall-refrain."
+   "n": "Bad-tibira falls; kingship passes to Larak (next). ba-šub-bi-en is the fall-refrain that closes every dynasty.",
+   "words": [
+    {
+     "reading": "bàd₃-tibira{ki}",
+     "say": "badtibira",
+     "glyphs": [
+      {
+       "s": "𒂦",
+       "sign": "EZENxBAD",
+       "role": "log",
+       "tr": "bàd₃"
+      },
+      {
+       "s": "𒁾",
+       "sign": "DUB",
+       "role": "comp",
+       "tr": ""
+      },
+      {
+       "s": "𒉄",
+       "sign": "NAGAR",
+       "role": "log",
+       "tr": "tibira"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bàd₃-tibira",
+       "gloss": "Bad-tibira — second city: bàd₃ 'fortress' (EZEN×BAD, with DUB) + tibira 'metalworker' (NAGAR) + place-det ki",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ba-šub-bi-en",
+     "say": "bašubbien",
+     "glyphs": [
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒊒",
+       "sign": "RU",
+       "role": "log",
+       "tr": "šub"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      },
+      {
+       "s": "𒂗",
+       "sign": "EN",
+       "role": "phon",
+       "tr": "en"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ba-šub",
+       "gloss": "'fell, was abandoned' (šub written with the RU sign)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-bi-en",
+       "gloss": "enclitic chain (Langdon's -bi-en)",
+       "g": [
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "ln": 19,
@@ -1773,17 +2135,22 @@
   "-ba": "'in that (time)'",
   "eridu": "Eridu — the first city (written NUN.KI)",
   "-la": "genitive/locative — 'of/in'",
+  "a₂-lu-lim": "Alulim — first king of Eridu; final sign is IGI read lim (Langdon's uncertain 'REC 229')",
+  "lugal": "king",
   "mu": "year(s)",
   "28800": "28,800 = 8 × 3,600",
   "ni-ag": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
   "a-la-gar": "Alalgar — second king of Eridu (Langdon A-la(l)-gar)",
   "36000": "36,000 = 10 × 3,600",
   "2": "two",
-  "lugal": "king",
   "64800": "64,800 = 18 × 3,600 — the two reigns summed",
   "ib-ag": "íb-aĝ₂ — 'they ruled' (plural reign verb)",
   "ba-šub": "'fell, was abandoned' (šub written with the RU sign)",
+  "-bi": "'its / that' (3rd-person possessive)",
+  "bàd₃-tibira": "Bad-tibira — second city: bàd₃ 'fortress' (EZEN×BAD, with DUB) + tibira 'metalworker' (NAGAR) + place-det ki",
+  "-šú": "terminative -šè/-šú — 'to, towards' (the EŠ₂ sign)",
   "ba-gín": "ba-ĝen — 'went, passed' (ĝen written with the DU sign)",
+  "en-me-en-lù-an-na": "Enmenluanna — first king of Bad-tibira",
   "43200": "43,200 = 12 × 3,600 (šaru + 2 šar₂)",
   "en-me-en-gal-an-na": "Enmengalanna — second king of Bad-tibira",
   "{d}": "divine determinative (diĝir) — marks the following name as a god",
@@ -1791,18 +2158,16 @@
   "3": "three",
   "mu-bi": "'its years' — mu 'years' + -bi 'its'",
   "108000": "108,000 = 30 × 3,600 = three šaru",
-  "-bi": "'its / that' (3rd-person possessive)",
+  "-bi-en": "enclitic chain (Langdon's -bi-en)",
   "la-ra-ak": "Larak — the fourth pre-flood city",
   "ba-gub": "ba-gub — 'was set up, established' (gub written with the DU sign)",
   "en-sib-zi-an-na": "Ensipazianna — the one king of Larak",
   "1": "one",
-  "-bi-en": "enclitic chain (Langdon's -bi-en)",
   "eridu{ki}": "Eridu — the first city (written NUN.KI)",
   "a-lu-lim": "Alulim — first king of Eridu (final sign uncertain)",
   "alulim": "Alulim (reading uncertain)",
   "bad-tibira{ki}": "Bad-tibira — the second city (sign uncertain / unencoded)",
   "badtibira": "Bad-tibira (sign uncertain)",
-  "en-me-en-lù-an-na": "Enmenluanna — first king of Bad-tibira",
   "šu": "terminative -šè/-šú — 'to, towards'",
   "bašubbien": "ba-šub-bi-en — 'fell, was abandoned'",
   "namlugalbi": "nam-lugal-bi — 'its kingship'"

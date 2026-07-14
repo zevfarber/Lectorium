@@ -195,6 +195,8 @@
      green suffixes) stay legible instead of vanishing on a dark fill (accessibility). */
   .stack.wsel { background: var(--focus-bg); box-shadow: 0 0 0 2px var(--accent); }
   .gl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Cuneiform', Georgia, 'Noto Serif', serif; font-size: 1.95rem; line-height: 1.05; }
+  /* cuneiform signs vary in height (numerals span two registers); relax the tight line-height so tall signs don't collide with the transcription below */
+  body[data-script="cuneiform"] .gl, body[data-script="cuneiform"] .qgl { line-height: 1.75; }
   .tr { font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: .72rem; color: var(--muted); letter-spacing: .02em; }
   /* sounded-signs mode: a logogram showing its in-language value instead of its citation label */
   .tr.lval { color: var(--accent); font-weight: 600; font-style: italic; }
@@ -2001,6 +2003,7 @@ $('storyFilter').oninput = (e) => {
 };
 
 function loadStory(s){
+  try { document.body.setAttribute('data-script', s.script || ''); } catch(e){}
   stopSpeech();
   speakingIdx = -1;
   slowPref = {};
@@ -2025,8 +2028,8 @@ function loadStory(s){
         + '<button data-sp="val" title="Sounded signs — each logogram shows its value in the language (ziti); signs whose reading is unknown keep their labels">sounds</button>'
         + '<button data-sp="read" title="Readable words — the interpreted word beneath each written word (Azzattiwadas)">words</button>'
       : (story.script === 'cuneiform'
-          ? '<button data-sp="sch" title="Academic transliteration — per sign, hyphens and superscript determinatives">academic</button>'
-            + '<button data-sp="read" title="Readable — smoothed running words, determinatives silent">readable</button>'
+          ? '<button data-sp="sch" title="Academic transliteration — per sign, with ĝ, hyphens and superscript determinatives (diĝir)">diĝir</button>'
+            + '<button data-sp="read" title="Readable spelling — smoothed running words, ĝ→ng, determinatives silent (dingir)">dingir</button>'
           : '<button data-sp="sch" title="Scholarly transliteration (ꜥnḫ)">ꜥnḫ</button>'
             + '<button data-sp="read" title="Readable spelling (ankh)">ankh</button>');
     if (!hasVals) valMode = false;

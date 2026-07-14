@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Egyptian+Hieroglyphs&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Anatolian+Hieroglyphs&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Cuneiform&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -185,7 +186,7 @@
   #pop .pbtns button { font-size: .8rem; padding: 4px 10px; border-radius: 999px; }
   #pop .pclose { position: absolute; top: 6px; right: 10px; border: none; background: none; color: var(--muted); font-size: 1rem; padding: 2px 6px; }
   #pop .pmiss { color: var(--muted); font-style: italic; }
-  #popW { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', Georgia, 'Noto Serif', serif; }
+  #popW { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Cuneiform', Georgia, 'Noto Serif', serif; }
   /* Egyptian word-stack reading layer: glyph over transliteration */
   .de.stacks { white-space: normal; display: flex; flex-wrap: wrap; align-items: flex-end; gap: 5px 9px; }
   .stack { display: inline-flex; flex-direction: column; align-items: center; gap: 2px; padding: 3px 5px; border-radius: 6px; cursor: pointer; }
@@ -193,7 +194,7 @@
   /* selected: light fill + brown ring, so role-coloured glyphs (purple determinatives,
      green suffixes) stay legible instead of vanishing on a dark fill (accessibility). */
   .stack.wsel { background: var(--focus-bg); box-shadow: 0 0 0 2px var(--accent); }
-  .gl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', Georgia, 'Noto Serif', serif; font-size: 1.95rem; line-height: 1.05; }
+  .gl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Cuneiform', Georgia, 'Noto Serif', serif; font-size: 1.95rem; line-height: 1.05; }
   .tr { font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: .72rem; color: var(--muted); letter-spacing: .02em; }
   /* sounded-signs mode: a logogram showing its in-language value instead of its citation label */
   .tr.lval { color: var(--accent); font-weight: 600; font-style: italic; }
@@ -233,7 +234,7 @@
   .quadblock .qh { display: inline-flex; flex-direction: row; align-items: center; gap: 1px; }
   .quadblock .qv { display: inline-flex; flex-direction: column; align-items: center; gap: 0; line-height: .82; }
   .quadblock .stack { padding: 0; }
-  .qgl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', serif; font-size: 1.7rem; line-height: 1; }
+  .qgl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Cuneiform', serif; font-size: 1.7rem; line-height: 1; }
   .qv .qgl { font-size: 1.18rem; }
   .qh .qgl { font-size: 1.35rem; }
   .qtr { font-family: system-ui, 'Noto Sans', sans-serif; font-size: .72rem; color: var(--muted); margin-top: 2px; letter-spacing: .02em; }
@@ -252,9 +253,9 @@
   .pdet { margin-top: 8px; padding-top: 7px; border-top: 1px solid var(--border); font-size: .93em; }
   .pdet .pdrow { display: block; margin: 2px 0; }
   .pdet .pdg { color: #6b4a9e; }
-  .pdet .pdgl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', serif; margin-right: 5px; }
+  .pdet .pdgl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Cuneiform', serif; margin-right: 5px; }
   /* sign popup + reference browser */
-  .signGl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', serif; font-size: 1.5rem; margin-right: 6px; }
+  .signGl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Cuneiform', serif; font-size: 1.5rem; margin-right: 6px; }
   .spTag { display:inline-block; font-size:.58rem; font-weight:600; text-transform:uppercase; letter-spacing:.05em;
            padding:1px 7px; border-radius:10px; margin-left:6px; vertical-align:middle; background:#efe7fb; color:#6b4a9e; }
   .spRow { margin-top: 7px; }
@@ -269,7 +270,7 @@
   .smGroup h4 { margin:0 0 8px; font-size:.72rem; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); }
   .smGrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:8px; }
   .smCell { display:flex; align-items:center; gap:9px; border:1px solid var(--border); border-radius:9px; padding:7px 9px; }
-  .smCell .cgl { font-family:'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', serif; font-size:1.7rem; line-height:1; }
+  .smCell .cgl { font-family:'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Cuneiform', serif; font-size:1.7rem; line-height:1; }
   .smCell .cbody { font-family:system-ui,'Noto Sans',sans-serif; font-size:.78rem; line-height:1.25; }
   .smCell .cval { font-weight:600; }
   .smCell .cname { color:var(--muted); }
@@ -495,6 +496,207 @@ function tokenize(text){
    The alphabet (uniliterals) is seeded in full; other signs grow as texts introduce them.
    A story selects its script via story.script. Roles come from the story data, not here. */
 const SIGN_GLOSSARIES = {
+ "cuneiform": {
+ "AN": {
+  "glyph": "𒀭",
+  "name": "heaven / god (an, diĝir)",
+  "type": "logogram",
+  "sound": "an",
+  "determines": null,
+  "values": [
+   "an",
+   "diĝir (as det. {d})"
+  ],
+  "note": "Also the divine determinative {d} before gods' names."
+ },
+ "NAM": {
+  "glyph": "𒉆",
+  "name": "nam (abstract-noun prefix)",
+  "type": "syllabogram",
+  "sound": "nam",
+  "determines": null
+ },
+ "LUGAL": {
+  "glyph": "𒈗",
+  "name": "king (lugal)",
+  "type": "logogram",
+  "sound": "lugal",
+  "determines": null
+ },
+ "TA": {
+  "glyph": "𒋫",
+  "name": "ta (ablative)",
+  "type": "syllabogram",
+  "sound": "ta",
+  "determines": null
+ },
+ "E": {
+  "glyph": "𒂊",
+  "name": "e (e₃ 'go out/up/down')",
+  "type": "syllabogram",
+  "sound": "e₃",
+  "determines": null,
+  "values": [
+   "e",
+   "e₃",
+   "è"
+  ],
+  "note": "Plain E; one conventional spelling of the verb e₃ — a crux."
+ },
+ "NE": {
+  "glyph": "𒉈",
+  "name": "ne / de₃ / bil",
+  "type": "syllabogram",
+  "sound": "de₃",
+  "determines": null,
+  "values": [
+   "ne",
+   "de₃",
+   "bil"
+  ]
+ },
+ "A": {
+  "glyph": "𒀀",
+  "name": "a (water; nominalizer)",
+  "type": "syllabogram",
+  "sound": "a",
+  "determines": null
+ },
+ "BA": {
+  "glyph": "𒁀",
+  "name": "ba (verbal prefix)",
+  "type": "syllabogram",
+  "sound": "ba",
+  "determines": null
+ },
+ "NUN": {
+  "glyph": "𒉣",
+  "name": "prince; Eridu (nun / eridu)",
+  "type": "logogram",
+  "sound": "eridu",
+  "determines": null,
+  "values": [
+   "nun",
+   "eridu (with KI)"
+  ]
+ },
+ "KI": {
+  "glyph": "𒆠",
+  "name": "place determinative {ki}",
+  "type": "determinative",
+  "sound": null,
+  "determines": "places — cities and lands; written after the name",
+  "values": [
+   "ki 'place/earth'"
+  ]
+ },
+ "LU": {
+  "glyph": "𒇻",
+  "name": "lu",
+  "type": "syllabogram",
+  "sound": "lu",
+  "determines": null
+ },
+ "LA": {
+  "glyph": "𒆷",
+  "name": "la",
+  "type": "syllabogram",
+  "sound": "la",
+  "determines": null
+ },
+ "GAR": {
+  "glyph": "𒃻",
+  "name": "ĝar / gar",
+  "type": "syllabogram",
+  "sound": "gar",
+  "determines": null,
+  "values": [
+   "ĝar",
+   "gar"
+  ]
+ },
+ "MU": {
+  "glyph": "𒈬",
+  "name": "year (mu)",
+  "type": "logogram",
+  "sound": "mu",
+  "determines": null
+ },
+ "NI": {
+  "glyph": "𒉌",
+  "name": "ni / ì",
+  "type": "syllabogram",
+  "sound": "ni",
+  "determines": null,
+  "values": [
+   "ni",
+   "ì"
+  ]
+ },
+ "AK": {
+  "glyph": "𒀝",
+  "name": "to do / measure (ak, aĝ₂)",
+  "type": "logogram",
+  "sound": "ag",
+  "determines": null,
+  "values": [
+   "ak",
+   "aĝ₂"
+  ]
+ },
+ "IB": {
+  "glyph": "𒅁",
+  "name": "ib / íb",
+  "type": "syllabogram",
+  "sound": "ib",
+  "determines": null
+ },
+ "BI": {
+  "glyph": "𒁉",
+  "name": "bi (its; that)",
+  "type": "syllabogram",
+  "sound": "bi",
+  "determines": null
+ },
+ "RU": {
+  "glyph": "𒊒",
+  "name": "ru / šub 'fall'",
+  "type": "logogram",
+  "sound": "šub",
+  "determines": null,
+  "values": [
+   "ru",
+   "šub"
+  ]
+ },
+ "DISH": {
+  "glyph": "𒁹",
+  "name": "unit wedge (1 / diš)",
+  "type": "logogram",
+  "sound": "1",
+  "determines": null,
+  "values": [
+   "1 (diš)"
+  ],
+  "note": "Repeated for small cardinals: 𒁹𒁹 = 2."
+ },
+ "NUM-8-SHAR2": {
+  "glyph": "𒐪",
+  "name": "28,800 (8 × šar₂)",
+  "type": "logogram",
+  "sound": "28800",
+  "determines": null,
+  "note": "Sexagesimal numeral: 8 × 3,600."
+ },
+ "NUM-1-SHARU": {
+  "glyph": "𒐬",
+  "name": "36,000 (šaru = 10 × šar₂)",
+  "type": "logogram",
+  "sound": "36000",
+  "determines": null,
+  "note": "Sexagesimal numeral: 10 × 3,600."
+ }
+},
  "Egyptian hieroglyphs": {
   "G1": {"glyph": "𓄿", "name": "Egyptian vulture", "type": "uniliteral", "sound": "ꜣ", "pron": "glottal stop / aleph (conventionally 'a')", "determines": null},
   "M17": {"glyph": "𓇋", "name": "flowering reed", "type": "uniliteral", "sound": "i", "pron": "'i'/'y' or glottal stop (written i here; Leiden j)", "determines": null},
@@ -1822,8 +2024,11 @@ function loadStory(s){
       ? '<button data-sp="sch" title="Scholarly sign labels — logograms shown by their citation names (CAPUT)">signs</button>'
         + '<button data-sp="val" title="Sounded signs — each logogram shows its value in the language (ziti); signs whose reading is unknown keep their labels">sounds</button>'
         + '<button data-sp="read" title="Readable words — the interpreted word beneath each written word (Azzattiwadas)">words</button>'
-      : '<button data-sp="sch" title="Scholarly transliteration (ꜥnḫ)">ꜥnḫ</button>'
-        + '<button data-sp="read" title="Readable spelling (ankh)">ankh</button>';
+      : (story.script === 'cuneiform'
+          ? '<button data-sp="sch" title="Academic transliteration — per sign, hyphens and superscript determinatives">academic</button>'
+            + '<button data-sp="read" title="Readable — smoothed running words, determinatives silent">readable</button>'
+          : '<button data-sp="sch" title="Scholarly transliteration (ꜥnḫ)">ꜥnḫ</button>'
+            + '<button data-sp="read" title="Readable spelling (ankh)">ankh</button>');
     if (!hasVals) valMode = false;
     if (rg) rg.style.display = 'inline-flex';
     pb.style.display = 'none';
@@ -1907,3 +2112,5 @@ $('fileIn').addEventListener('change', (ev) => {
 </script>
 </body>
 </html>
+
+<!-- autopublish-loop-test -->

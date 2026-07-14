@@ -1,0 +1,658 @@
+{
+ "id": "king-list-eridu",
+ "title": "𒉆𒈗",
+ "titleEn": "Sumerian King List — Eridu (antediluvian prologue, lines 1–8)",
+ "language": "Sumerian",
+ "langCode": null,
+ "script": "cuneiform",
+ "work": "Sumerian King List",
+ "workEn": "Sumerian King List",
+ "part": "Eridu · antediluvian prologue (lines 1–8)",
+ "provisional": true,
+ "source": "Weld-Blundell Prism (WB 444), after S. Langdon, Oxford Editions of Cuneiform Texts II: Historical Inscriptions (Oxford, 1923), Col. I. Cuneiform shown in normalized Unicode (Neo-Assyrian sign forms) though the prism is Old Babylonian. Academic transliteration in modern subscript notation over Langdon's 1923 readings; pronunciation is conventional and reconstructed. Translations made fresh from the Sumerian.",
+ "about": "This is the world's oldest surviving list of kings, copied c. 1800 BCE onto a clay prism now in the Ashmolean Museum. Everything here is a reconstruction: the reading of individual signs, their values, the word-divisions, the pronunciation, even the giant numbers are scholarly conventions — and some are frank best-guesses. The reader-facing text follows Langdon's 1923 edition; where a reading is genuinely uncertain the notes say so, and one line whose royal name Langdon himself flagged is shown as 'glyphs pending'.",
+ "numbering": "line",
+ "sentences": [
+  {
+   "ln": 1,
+   "t": "𒉆𒈗 𒀭𒋫 𒂊𒉈𒀀𒁀",
+   "l": "kingship — from heaven when-it-came-down —",
+   "i": "When kingship came down from heaven,",
+   "n": "The famous opening. nam- is the abstract-noun prefix ('king' → 'king-ship'); -ta is the ablative 'from'; an is 'heaven / sky'. The verb e₃ 'go up/down' takes the nominalizer -a and -ba 'in that (time)': 'when (kingship) had descended.' You will meet nam-, -ta and -a constantly. Honest crux: the sign read here as e₃ (𒂊, plain E) is one of several conventional spellings of this verb.",
+   "words": [
+    {
+     "reading": "nam-lugal",
+     "say": "namlugal",
+     "glyphs": [
+      {
+       "s": "𒉆",
+       "sign": "NAM",
+       "role": "phon",
+       "tr": "nam"
+      },
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nam-lugal",
+       "gloss": "kingship (nam- abstract-noun prefix + lugal 'king')",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "an-ta",
+     "say": "anta",
+     "glyphs": [
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "log",
+       "tr": "an"
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "an",
+       "gloss": "heaven, sky",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-ta",
+       "gloss": "ablative case — 'from'",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "e₃-de₃-a-ba",
+     "say": "edeaba",
+     "glyphs": [
+      {
+       "s": "𒂊",
+       "sign": "E",
+       "role": "phon",
+       "tr": "e₃"
+      },
+      {
+       "s": "𒉈",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "de₃"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "e₃",
+       "gloss": "to go out / up / down — here 'descend' (verb)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-a",
+       "gloss": "nominalizer — 'when / that which…'",
+       "g": [
+        2
+       ]
+      },
+      {
+       "lemma": "-ba",
+       "gloss": "'in that (time)' (-bi + locative -a)",
+       "g": [
+        3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 2,
+   "t": "𒉣𒆠 𒉆𒈗𒆷",
+   "l": "in-Eridu the-kingship —",
+   "i": "the kingship was in Eridu.",
+   "n": "-la here is the genitive/locative ending: Eridu holds the kingship. KI after Eridu is a determinative — an unpronounced sign marking the word as a place; tap it to see what it classifies.",
+   "words": [
+    {
+     "reading": "eridu{ki}",
+     "say": "eridu",
+     "glyphs": [
+      {
+       "s": "𒉣",
+       "sign": "NUN",
+       "role": "log",
+       "tr": "eridu"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "eridu",
+       "gloss": "Eridu — the first city (written NUN.KI; KI marks it a place)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nam-lugal-la",
+     "say": "namlugala",
+     "glyphs": [
+      {
+       "s": "𒉆",
+       "sign": "NAM",
+       "role": "phon",
+       "tr": "nam"
+      },
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      },
+      {
+       "s": "𒆷",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nam-lugal",
+       "gloss": "kingship",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-la",
+       "gloss": "genitive/locative (-ak > -a): 'of / in'",
+       "g": [
+        2
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 3,
+   "t": "",
+   "tr": "eridu{ki} a-lu-lim lugal",
+   "say": [
+    "eridu",
+    "alulim",
+    "lugal"
+   ],
+   "l": "in-Eridu, Alulim (was) king —",
+   "i": "In Eridu, Alulim became king;",
+   "n": "The first king. Langdon reads the name A-lu-lim but flags its last sign as uncertain (his 'REC 229', linked to lulim 'stag'). Because that sign-identification is genuinely unsettled, the cuneiform for this line is held back ('glyphs pending') while the transliteration and translation stand — honesty over a confident guess."
+  },
+  {
+   "ln": 4,
+   "t": "𒈬 𒐪 𒉌𒀝",
+   "l": "years 28800 he-ruled.",
+   "i": "He ruled 28,800 years.",
+   "n": "The reign formula, repeated for every king: mu ('years') + the number + the verb. Langdon reads the verb ni-ag; modern editions read ì-aĝ₂ 'he measured/meted out (rule)'. The number is sexagesimal: 28,800 = 8 × 3,600, a single sign.",
+   "words": [
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "28800",
+     "say": "28800",
+     "glyphs": [
+      {
+       "s": "𒐪",
+       "sign": "NUM-8-SHAR2",
+       "role": "log",
+       "tr": "28800"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "28800",
+       "gloss": "28,800 = 8 × 3,600 (šar₂); one sexagesimal numeral (𒐪)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 5,
+   "t": "𒀀𒆷𒃻 𒈬 𒐬 𒉌𒀝",
+   "l": "Alalgar, years 36000 he-ruled.",
+   "i": "Alalgar ruled 36,000 years.",
+   "n": "Langdon writes A-la(l)-gar, the '(l)' marking a sign he read tentatively — the kind of small uncertainty this text is full of.",
+   "words": [
+    {
+     "reading": "a-la-gar",
+     "say": "alagar",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒆷",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la"
+      },
+      {
+       "s": "𒃻",
+       "sign": "GAR",
+       "role": "phon",
+       "tr": "gar"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "a-la-gar",
+       "gloss": "Alalgar — second king of Eridu (Langdon A-la(l)-gar)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "36000",
+     "say": "36000",
+     "glyphs": [
+      {
+       "s": "𒐬",
+       "sign": "NUM-1-SHARU",
+       "role": "log",
+       "tr": "36000"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "36000",
+       "gloss": "36,000 = 10 × 3,600 (šaru); one sign (𒐬)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 6,
+   "t": "𒁹𒁹 𒈗",
+   "l": "2 kings —",
+   "i": "Two kings.",
+   "n": "The count for the dynasty so far: Eridu had two kings. '2' is written with two vertical wedges (𒁹𒁹).",
+   "words": [
+    {
+     "reading": "2",
+     "say": "2",
+     "glyphs": [
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "log",
+       "tr": "2"
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "log",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "2",
+       "gloss": "two",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal",
+     "say": "lugal",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king; here plural 'kings'",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 7,
+   "t": "𒈬 𒐬𒐪 𒅁𒀝",
+   "l": "years 64800 they-ruled.",
+   "i": "In all they ruled 64,800 years.",
+   "n": "ib-ag (íb-aĝ₂) is the plural 'they ruled', against singular ni-ag for one king. 64,800 is the two reigns added: 28,800 + 36,000.",
+   "words": [
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "64800",
+     "say": "64800",
+     "glyphs": [
+      {
+       "s": "𒐬",
+       "sign": "NUM-1-SHARU",
+       "role": "log",
+       "tr": "36000"
+      },
+      {
+       "s": "𒐪",
+       "sign": "NUM-8-SHAR2",
+       "role": "log",
+       "tr": "28800"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "64800",
+       "gloss": "64,800 = 18 × 3,600, written šaru + 8 šar₂ (𒐬𒐪) — the two reigns summed",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ib-ag",
+     "say": "ibag",
+     "glyphs": [
+      {
+       "s": "𒅁",
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ib"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ib-ag",
+       "gloss": "íb-aĝ₂ — 'they ruled' (plural of the reign verb)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 8,
+   "t": "𒉣𒆠 𒁀𒊒",
+   "l": "Eridu it-was-abandoned.",
+   "i": "Then Eridu fell,",
+   "n": "The refrain that ends every dynasty: the city 'falls / is abandoned' (ba-šub) and kingship moves on. šub here is written with the RU sign — a sign carrying more than one value, which is normal in cuneiform.",
+   "words": [
+    {
+     "reading": "eridu{ki}",
+     "say": "eridu",
+     "glyphs": [
+      {
+       "s": "𒉣",
+       "sign": "NUN",
+       "role": "log",
+       "tr": "eridu"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "eridu",
+       "gloss": "Eridu — the first city (written NUN.KI; KI marks it a place)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ba-šub",
+     "say": "bašub",
+     "glyphs": [
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒊒",
+       "sign": "RU",
+       "role": "log",
+       "tr": "šub"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ba-šub",
+       "gloss": "ba-šub — 'fell, was abandoned'; šub is written with the RU sign (𒊒)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": {
+  "nam-lugal": "kingship",
+  "an": "heaven, sky",
+  "-ta": "ablative case — 'from'",
+  "e₃": "to go out / up / down — here 'descend' (verb)",
+  "-a": "nominalizer — 'when / that which…'",
+  "-ba": "'in that (time)' (-bi + locative -a)",
+  "eridu": "Eridu — the first city (written NUN.KI; KI marks it a place)",
+  "-la": "genitive/locative (-ak > -a): 'of / in'",
+  "mu": "year(s)",
+  "28800": "28,800 = 8 × 3,600 (šar₂); one sexagesimal numeral (𒐪)",
+  "ni-ag": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+  "a-la-gar": "Alalgar — second king of Eridu (Langdon A-la(l)-gar)",
+  "36000": "36,000 = 10 × 3,600 (šaru); one sign (𒐬)",
+  "2": "two",
+  "lugal": "king",
+  "64800": "64,800 = 18 × 3,600, written šaru + 8 šar₂ (𒐬𒐪) — the two reigns summed",
+  "ib-ag": "íb-aĝ₂ — 'they ruled' (plural of the reign verb)",
+  "ba-šub": "ba-šub — 'fell, was abandoned'; šub is written with the RU sign (𒊒)",
+  "eridu{ki}": "Eridu — the first city (written NUN.KI)",
+  "a-lu-lim": "Alulim — first king of Eridu (final sign uncertain; Langdon's REC 229)",
+  "alulim": "Alulim — first king of Eridu (reading uncertain)"
+ }
+}

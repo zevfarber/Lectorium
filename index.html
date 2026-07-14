@@ -2353,4 +2353,44 @@ $('fileIn').addEventListener('change', (ev) => {
                       khm: s.khm || null, group: s.group || null,
                       part: s.part || null, file: null, story: s };
       let mi = MANIFEST.findIndex(m => m.id === s.id);
-      if (mi >= 0) MANIFEST[mi] = entry; else { MANIFEST.push(entr
+      if (mi >= 0) MANIFEST[mi] = entry; else { MANIFEST.push(entry); mi = MANIFEST.length - 1; }
+      ensureGlossary(s).catch(() => {}).then(() => { fillLibrary(mi); loadStory(s); });
+    } catch(e) { alert('Could not read story file: ' + e.message); }
+  };
+  rd.readAsText(f);
+  ev.target.value = '';
+});
+
+/* ---------- init ---------- */
+(function init(){
+  const hint = $('hintBox');
+  if (hint) {
+    try { const s = localStorage.getItem('hintOpen'); if (s !== null) hint.open = (s === '1'); } catch(e) {}
+    hint.addEventListener('toggle', () => { try { localStorage.setItem('hintOpen', hint.open ? '1' : '0'); } catch(e) {} });
+  }
+  $('plainBtn').classList.toggle('active', plainMode);
+  applyTr();
+  let m = 'de';
+  try { m = localStorage.getItem('mode') || 'de'; } catch(e) {}
+  setMode(m);
+  fetch('stories.json', { cache: 'no-cache' })
+    .then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)))
+    .then(data => {
+      MANIFEST = (data && data.stories) || [];
+      let last = null;
+      try { last = localStorage.getItem('story'); } catch(e) {}
+      let idx = MANIFEST.findIndex(x => x.id === last);
+      if (idx < 0) idx = 0;
+      if (MANIFEST.length) { fillLibrary(idx); loadEntryByIndex(idx); }
+      else { fillLibrary(null); $('stTitle').textContent = 'No stories found'; $('stSub').textContent = 'Use “＋ Load story” to open a story .json file.'; }
+    })
+    .catch(() => {
+      $('stTitle').textContent = 'Library unavailable';
+      $('stSub').textContent = 'The story list loads over the hosted site. Use “＋ Load story” to open a .json file directly.';
+    });
+})();
+</script>
+</body>
+</html>
+
+<!-- autopublish-loop-test -->

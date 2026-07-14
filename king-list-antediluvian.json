@@ -1,17 +1,17 @@
 {
  "id": "king-list-antediluvian",
  "title": "𒉆𒈗",
- "titleEn": "Sumerian King List — Antediluvian prologue (lines 1–24)",
+ "titleEn": "Sumerian King List — Antediluvian prologue (lines 1–41)",
  "language": "Sumerian",
  "langCode": null,
  "script": "cuneiform",
  "work": "Sumerian King List",
  "workEn": "Sumerian King List",
- "part": "Antediluvian prologue · Eridu → Larak (lines 1–24)",
+ "part": "Antediluvian prologue · the five cities and the Flood (lines 1–41)",
  "provisional": true,
  "draftNote": "Draft in progress — the cuneiform and its readings are provisional, checked sign-by-sign against Langdon's 1923 edition of the prism, so expect changes as the text is extended.",
  "source": "Weld-Blundell Prism (WB 444), after S. Langdon, Oxford Editions of Cuneiform Texts II (Oxford, 1923), Col. I. Cuneiform in normalized Unicode (Neo-Assyrian forms) though the prism is Old Babylonian. Academic transliteration in modern subscript notation over Langdon's 1923 readings; pronunciation conventional/reconstructed. Fresh translations.",
- "about": "The world's oldest king-list, copied c. 1800 BCE. Every layer — sign readings, values, word-divisions, pronunciation, even the giant numbers — is a scholarly convention, some frank guesses; notes flag genuine uncertainty. Where Langdon flagged a sign (Alulim's final sign; the city Bad-tibira), the note explains the identification rather than hiding it.",
+ "about": "The world's oldest king-list, copied c. 1800 BCE: the five cities that held kingship before the Flood, and the Flood itself. Every layer — sign readings, values, word-divisions, pronunciation, even the giant numbers — is a scholarly convention, some frank guesses; the notes flag genuine uncertainty rather than hide it. One royal name Langdon read from a damaged sign (Ubara-Tutu, at Shuruppak) is shown 'glyphs pending' while its reading stands.",
  "numbering": "line",
  "sentences": [
   {
@@ -2136,14 +2136,1687 @@
      ]
     }
    ]
+  },
+  {
+   "ln": 25,
+   "t": "𒉆𒈗𒁉 𒌓𒄒𒉣𒆠 𒂠 𒁀𒁺",
+   "l": "its-kingship, to-Sippar, passed —",
+   "i": "its kingship passed to Sippar;",
+   "n": "Sippar (Sumerian Zimbir) is written UD.KIB.NUN — the KIB sign is 'gish-crossing-gish' (𒄒). The city of the sun-god Utu.",
+   "words": [
+    {
+     "reading": "nam-lugal-bi",
+     "say": "namlugalbi",
+     "glyphs": [
+      {
+       "s": "𒉆",
+       "sign": "NAM",
+       "role": "phon",
+       "tr": "nam"
+      },
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nam-lugal",
+       "gloss": "kingship",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-bi",
+       "gloss": "'its / that' (3rd-person possessive)",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "zimbir{ki}",
+     "say": "zimbir",
+     "glyphs": [
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "log",
+       "tr": "zimbir"
+      },
+      {
+       "s": "𒄒",
+       "sign": "KIB",
+       "role": "log",
+       "tr": ""
+      },
+      {
+       "s": "𒉣",
+       "sign": "NUN",
+       "role": "log",
+       "tr": ""
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "zimbir",
+       "gloss": "Sippar (Sumerian Zimbir) — the fifth pre-flood city; written UD.KIB.NUN + ki",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "-šú",
+     "say": "šú",
+     "glyphs": [
+      {
+       "s": "𒂠",
+       "sign": "ESH2",
+       "role": "phon",
+       "tr": "šú"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "-šú",
+       "gloss": "terminative -šè/-šú — 'to, towards' (the EŠ₂ sign)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ba-gín",
+     "say": "bagin",
+     "glyphs": [
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒁺",
+       "sign": "DU",
+       "role": "log",
+       "tr": "gín"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ba-gín",
+       "gloss": "ba-ĝen — 'went, passed' (ĝen written with the DU sign)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 26,
+   "t": "𒌓𒄒𒉣𒆠 𒂗𒈨𒂗𒂉𒀭𒈾",
+   "l": "in-Sippar, Enmenduranna —",
+   "i": "In Sippar, Enmenduranna",
+   "n": "dúr is the DUR₂ sign. This king becomes Enmeduranki, the mythic first diviner, in later tradition.",
+   "words": [
+    {
+     "reading": "zimbir{ki}",
+     "say": "zimbir",
+     "glyphs": [
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "log",
+       "tr": "zimbir"
+      },
+      {
+       "s": "𒄒",
+       "sign": "KIB",
+       "role": "log",
+       "tr": ""
+      },
+      {
+       "s": "𒉣",
+       "sign": "NUN",
+       "role": "log",
+       "tr": ""
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "zimbir",
+       "gloss": "Sippar (Sumerian Zimbir) — the fifth pre-flood city; written UD.KIB.NUN + ki",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "en-me-en-dúr-an-na",
+     "say": "enmenduranna",
+     "glyphs": [
+      {
+       "s": "𒂗",
+       "sign": "EN",
+       "role": "phon",
+       "tr": "en"
+      },
+      {
+       "s": "𒈨",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "me"
+      },
+      {
+       "s": "𒂗",
+       "sign": "EN",
+       "role": "phon",
+       "tr": "en"
+      },
+      {
+       "s": "𒂉",
+       "sign": "DUR2",
+       "role": "phon",
+       "tr": "dúr"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "phon",
+       "tr": "an"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "en-me-en-dúr-an-na",
+       "gloss": "Enmenduranna — the one king of Sippar (the Enmeduranki of later divination lore)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 27,
+   "t": "𒈗𒀀𒀭 𒈬 𒐧𒐢 𒉌𒀝",
+   "l": "was-king, years 21000 he-ruled.",
+   "i": "was king and ruled 21,000 years.",
+   "n": "lugal-am₃ 'was king' — the enclitic copula -am₃, written a-an. 21,000 = five šar₂ (18,000) + five geš'u (3,000).",
+   "words": [
+    {
+     "reading": "lugal-am₃",
+     "say": "lugalam",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "am₃"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "phon",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-am₃",
+       "gloss": "enclitic copula 'is / was' — written am₃ = a-an",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "21,000",
+     "say": "21,000",
+     "glyphs": [
+      {
+       "s": "𒐧",
+       "sign": "SHAR2",
+       "role": "num",
+       "tr": "5 šar₂"
+      },
+      {
+       "s": "𒐢",
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "5 geš'u"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šar₂",
+       "gloss": "3,600 (60 × 60); 5 here = 18,000",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš); 5 here = 3,000",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 28,
+   "t": "𒁹 𒈗",
+   "l": " 1 king —",
+   "i": "One king.",
+   "n": "",
+   "words": [
+    {
+     "reading": "1",
+     "say": "1",
+     "glyphs": [
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "1"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "1",
+       "gloss": "one",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal",
+     "say": "lugal",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 29,
+   "t": "𒈬𒁉 𒐧𒐢 𒅁𒀝",
+   "l": " their-years 21000 they-ruled.",
+   "i": "he ruled 21,000 years.",
+   "n": "",
+   "words": [
+    {
+     "reading": "mu-bi",
+     "say": "mubi",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu-bi",
+       "gloss": "'its years' — mu 'years' + -bi 'its'",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "21,000",
+     "say": "21,000",
+     "glyphs": [
+      {
+       "s": "𒐧",
+       "sign": "SHAR2",
+       "role": "num",
+       "tr": "5 šar₂"
+      },
+      {
+       "s": "𒐢",
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "5 geš'u"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šar₂",
+       "gloss": "3,600 (60 × 60); 5 here = 18,000",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš); 5 here = 3,000",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ib-ag",
+     "say": "ibag",
+     "glyphs": [
+      {
+       "s": "𒅁",
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ib"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ib-ag",
+       "gloss": "íb-aĝ₂ — 'they ruled' (plural reign verb)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 30,
+   "t": "𒌓𒄒𒉣𒆠 𒁀𒊒𒁉𒂗",
+   "l": "Sippar it-was-abandoned.",
+   "i": "Then Sippar fell,",
+   "n": "",
+   "words": [
+    {
+     "reading": "zimbir{ki}",
+     "say": "zimbir",
+     "glyphs": [
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "log",
+       "tr": "zimbir"
+      },
+      {
+       "s": "𒄒",
+       "sign": "KIB",
+       "role": "log",
+       "tr": ""
+      },
+      {
+       "s": "𒉣",
+       "sign": "NUN",
+       "role": "log",
+       "tr": ""
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "zimbir",
+       "gloss": "Sippar (Sumerian Zimbir) — the fifth pre-flood city; written UD.KIB.NUN + ki",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ba-šub-bi-en",
+     "say": "bašubbien",
+     "glyphs": [
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒊒",
+       "sign": "RU",
+       "role": "log",
+       "tr": "šub"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      },
+      {
+       "s": "𒂗",
+       "sign": "EN",
+       "role": "phon",
+       "tr": "en"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ba-šub",
+       "gloss": "'fell, was abandoned' (šub written with the RU sign)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-bi-en",
+       "gloss": "enclitic chain (Langdon's -bi-en)",
+       "g": [
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 31,
+   "t": "𒉆𒈗𒁉 𒋢𒆳𒊒𒆠 𒁀𒁺",
+   "l": "its-kingship, Shuruppak, was-established —",
+   "i": "its kingship was established at Shuruppak;",
+   "n": "Shuruppak (SU.KUR.RU) — the last city before the Flood, and the home of Ziusudra, the Sumerian Noah. This is the city of the Instructions of Shuruppak.",
+   "words": [
+    {
+     "reading": "nam-lugal-bi",
+     "say": "namlugalbi",
+     "glyphs": [
+      {
+       "s": "𒉆",
+       "sign": "NAM",
+       "role": "phon",
+       "tr": "nam"
+      },
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nam-lugal",
+       "gloss": "kingship",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-bi",
+       "gloss": "'its / that' (3rd-person possessive)",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šuruppak{ki}",
+     "say": "šuruppak",
+     "glyphs": [
+      {
+       "s": "𒋢",
+       "sign": "SU",
+       "role": "log",
+       "tr": "šuruppak"
+      },
+      {
+       "s": "𒆳",
+       "sign": "KUR",
+       "role": "log",
+       "tr": ""
+      },
+      {
+       "s": "𒊒",
+       "sign": "RU",
+       "role": "log",
+       "tr": ""
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šuruppak",
+       "gloss": "Shuruppak — the last pre-flood city, home of Ziusudra (the Flood hero); written SU.KUR.RU + ki",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ba-gub",
+     "say": "bagub",
+     "glyphs": [
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒁺",
+       "sign": "DU",
+       "role": "log",
+       "tr": "gub"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ba-gub",
+       "gloss": "ba-gub — 'was set up, established' (gub written with the DU sign)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 32,
+   "t": "",
+   "tr": "šuruppak{ki} ubur-du-du",
+   "say": [
+    "šuruppak",
+    "ubur-dudu"
+   ],
+   "l": "in-Shuruppak, Ubara-Tutu —",
+   "i": "In Shuruppak, Ubara-Tutu",
+   "n": "Ubara-Tutu, the last pre-flood king and father of Ziusudra (the Flood hero). Langdon reads the first sign as ubur, the 'breast' sign, which has no settled single Unicode form — so this line is held back while the reading stands. (du-du and Shuruppak itself do resolve.)"
+  },
+  {
+   "ln": 33,
+   "t": "𒈗𒀀𒀭 𒈬 𒐧𒐞 𒉌𒀝",
+   "l": "was-king, years 18600 he-ruled.",
+   "i": "was king and ruled 18,600 years.",
+   "n": "18,600 = five šar₂ (18,000) + one geš'u (600).",
+   "words": [
+    {
+     "reading": "lugal-am₃",
+     "say": "lugalam",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "am₃"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "phon",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-am₃",
+       "gloss": "enclitic copula 'is / was' — written am₃ = a-an",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "18,600",
+     "say": "18,600",
+     "glyphs": [
+      {
+       "s": "𒐧",
+       "sign": "SHAR2",
+       "role": "num",
+       "tr": "5 šar₂"
+      },
+      {
+       "s": "𒐞",
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "geš'u"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šar₂",
+       "gloss": "3,600 (60 × 60); 5 here = 18,000",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 34,
+   "t": "𒁹 𒈗",
+   "l": " 1 king —",
+   "i": "One king.",
+   "n": "",
+   "words": [
+    {
+     "reading": "1",
+     "say": "1",
+     "glyphs": [
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "1"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "1",
+       "gloss": "one",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal",
+     "say": "lugal",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 35,
+   "t": "𒈬𒁉 𒐧𒐞 𒅁𒀝",
+   "l": " their-years 18600 they-ruled.",
+   "i": "he ruled 18,600 years.",
+   "n": "",
+   "words": [
+    {
+     "reading": "mu-bi",
+     "say": "mubi",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu-bi",
+       "gloss": "'its years' — mu 'years' + -bi 'its'",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "18,600",
+     "say": "18,600",
+     "glyphs": [
+      {
+       "s": "𒐧",
+       "sign": "SHAR2",
+       "role": "num",
+       "tr": "5 šar₂"
+      },
+      {
+       "s": "𒐞",
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "geš'u"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šar₂",
+       "gloss": "3,600 (60 × 60); 5 here = 18,000",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ib-ag",
+     "say": "ibag",
+     "glyphs": [
+      {
+       "s": "𒅁",
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ib"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ib-ag",
+       "gloss": "íb-aĝ₂ — 'they ruled' (plural reign verb)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 36,
+   "t": "𒁹𒁹𒁹𒁹𒁹 𒌷𒆠𒈨𒌍",
+   "l": " 5 cities-they-are —",
+   "i": "Five cities in all.",
+   "n": "The summary of the whole pre-flood age. eri-me-eš 'they are cities' — eri 'city' + the plural copula -me-eš.",
+   "words": [
+    {
+     "reading": "5",
+     "say": "5",
+     "glyphs": [
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "5"
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": ""
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": ""
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": ""
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "5",
+       "gloss": "five",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "eri{ki}-me-eš",
+     "say": "erimeš",
+     "glyphs": [
+      {
+       "s": "𒌷",
+       "sign": "URU",
+       "role": "log",
+       "tr": "eri"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒈨",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "me"
+      },
+      {
+       "s": "𒌍",
+       "sign": "ESZ",
+       "role": "phon",
+       "tr": "eš"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "eri",
+       "gloss": "city (uru/iri)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-me-eš",
+       "gloss": "plural — 'are/were' (copula + plural)",
+       "g": [
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 37,
+   "t": "𒁹𒁹𒁹𒁹𒁹𒁹𒁹𒁹 𒈗",
+   "l": " 8 kings —",
+   "i": "Eight kings.",
+   "n": "",
+   "words": [
+    {
+     "reading": "8",
+     "say": "8",
+     "glyphs": [
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "8"
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": ""
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": ""
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": ""
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": ""
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": ""
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": ""
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "8",
+       "gloss": "eight",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal",
+     "say": "lugal",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king (here plural 'kings')",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 38,
+   "t": "𒈬 𒐲𒐩 𒅁𒀝",
+   "l": "years 241200 they-ruled.",
+   "i": "together they ruled 241,200 years.",
+   "n": "The grand total. Langdon writes it šar-gal + 7 šar₂: šar-gal is the 'great šar₂' (216,000 = 60³), the next power up. 216,000 + 25,200 = 241,200, which is exactly the eight reigns added together.",
+   "words": [
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "241,200",
+     "say": "241,200",
+     "glyphs": [
+      {
+       "s": "𒐲",
+       "sign": "SHARGAL",
+       "role": "num",
+       "tr": "šar-gal"
+      },
+      {
+       "s": "𒐩",
+       "sign": "SHAR2",
+       "role": "num",
+       "tr": "7 šar₂"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šar-gal",
+       "gloss": "216,000 (sixty šar₂ = 60³)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "šar₂",
+       "gloss": "3,600 (60 × 60); 7 here = 25,200",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ib-ag",
+     "say": "ibag",
+     "glyphs": [
+      {
+       "s": "𒅁",
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ib"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ib-ag",
+       "gloss": "íb-aĝ₂ — 'they ruled' (plural reign verb)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 39,
+   "t": "𒀀𒈠𒊒 𒁀𒌫𒊏𒋫",
+   "l": "the-Flood it-swept-over —",
+   "i": "Then the Flood swept over.",
+   "n": "a-ma-ru, the Deluge — 'the great water'. The single line on which the whole antediluvian age ends. Everything before it is myth-time; after it, kingship begins again.",
+   "words": [
+    {
+     "reading": "a-ma-ru",
+     "say": "amaru",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "𒊒",
+       "sign": "RU",
+       "role": "phon",
+       "tr": "ru"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "a-ma-ru",
+       "gloss": "the Flood, the Deluge (a-ma-ru, lit. 'great water')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ba-úr-ra-ta",
+     "say": "baurrata",
+     "glyphs": [
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒌫",
+       "sign": "UR2",
+       "role": "phon",
+       "tr": "úr"
+      },
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ba-úr",
+       "gloss": "swept / passed over (úr 'to drag, sweep')",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-ra-ta",
+       "gloss": "'after' (nominalizer -ra + ablative -ta)",
+       "g": [
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 40,
+   "t": "𒂕 𒀀𒈠𒊒 𒁀𒌫𒊏𒋫",
+   "l": "after the-Flood it-swept-over —",
+   "i": "After the Flood had swept over,",
+   "n": "egir 'after'. The narrative turns to resume: kingship will descend from heaven a second time (to Kish).",
+   "words": [
+    {
+     "reading": "egir",
+     "say": "egir",
+     "glyphs": [
+      {
+       "s": "𒂕",
+       "sign": "EGIR",
+       "role": "log",
+       "tr": "egir"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "egir",
+       "gloss": "after, behind",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-ma-ru",
+     "say": "amaru",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "𒊒",
+       "sign": "RU",
+       "role": "phon",
+       "tr": "ru"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "a-ma-ru",
+       "gloss": "the Flood, the Deluge (a-ma-ru, lit. 'great water')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ba-úr-ra-ta",
+     "say": "baurrata",
+     "glyphs": [
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒌫",
+       "sign": "UR2",
+       "role": "phon",
+       "tr": "úr"
+      },
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ba-úr",
+       "gloss": "swept / passed over (úr 'to drag, sweep')",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-ra-ta",
+       "gloss": "'after' (nominalizer -ra + ablative -ta)",
+       "g": [
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 41,
+   "t": "𒉆𒈗 𒀭𒋫 𒂊𒉈𒀀𒁀",
+   "l": " kingship — from heaven when-it-came-down —",
+   "i": "(the kingship that had come down from heaven) —",
+   "n": "Here the scribe absent-mindedly re-copied the opening line — Langdon marks it '(Sic!)'. A 3,800-year-old copying slip, preserved. The sentence properly belongs only at the very start; its reappearance here is an error, not part of the text.",
+   "words": [
+    {
+     "reading": "nam-lugal",
+     "say": "namlugal",
+     "glyphs": [
+      {
+       "s": "𒉆",
+       "sign": "NAM",
+       "role": "phon",
+       "tr": "nam"
+      },
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nam-lugal",
+       "gloss": "kingship",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "an-ta",
+     "say": "anta",
+     "glyphs": [
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "log",
+       "tr": "an"
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "an",
+       "gloss": "heaven, sky",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-ta",
+       "gloss": "ablative — 'from'",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "e₃-de₃-a-ba",
+     "say": "edeaba",
+     "glyphs": [
+      {
+       "s": "𒂊",
+       "sign": "E",
+       "role": "phon",
+       "tr": "e₃"
+      },
+      {
+       "s": "𒉈",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "de₃"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "e₃",
+       "gloss": "to descend (verb e₃)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-a",
+       "gloss": "nominalizer",
+       "g": [
+        2
+       ]
+      },
+      {
+       "lemma": "-ba",
+       "gloss": "'in that (time)'",
+       "g": [
+        3
+       ]
+      }
+     ]
+    }
+   ]
   }
  ],
  "glossary": {
   "nam-lugal": "kingship",
   "an": "heaven, sky",
   "-ta": "ablative — 'from'",
-  "e₃": "to go out/up/down — here 'descend' (verb)",
-  "-a": "nominalizer — 'when/that which'",
+  "e₃": "to descend (verb e₃)",
+  "-a": "nominalizer",
   "-ba": "'in that (time)'",
   "eridu": "Eridu — the first city (written NUN.KI)",
   "-la": "genitive/locative — 'of/in'",
@@ -2172,7 +3845,20 @@
   "ba-gub": "ba-gub — 'was set up, established' (gub written with the DU sign)",
   "en-sib-zi-an-na": "Ensipazianna — the one king of Larak",
   "1": "one",
+  "zimbir": "Sippar (Sumerian Zimbir) — the fifth pre-flood city; written UD.KIB.NUN + ki",
+  "en-me-en-dúr-an-na": "Enmenduranna — the one king of Sippar (the Enmeduranki of later divination lore)",
+  "-am₃": "enclitic copula 'is / was' — written am₃ = a-an",
   "geš'u": "geš'u — 600 (ten geš)",
+  "šuruppak": "Shuruppak — the last pre-flood city, home of Ziusudra (the Flood hero); written SU.KUR.RU + ki",
+  "5": "five",
+  "eri": "city (uru/iri)",
+  "-me-eš": "plural — 'are/were' (copula + plural)",
+  "8": "eight",
+  "šar-gal": "šar-gal — 216,000 (the 'great šar₂', 60³)",
+  "a-ma-ru": "the Flood, the Deluge (a-ma-ru, lit. 'great water')",
+  "ba-úr": "swept / passed over (úr 'to drag, sweep')",
+  "-ra-ta": "'after' (nominalizer -ra + ablative -ta)",
+  "egir": "after, behind",
   "geš": "geš — 60 (the base of the system)",
   "u": "u — 10",
   "diš": "diš — 1"

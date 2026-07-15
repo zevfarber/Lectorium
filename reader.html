@@ -105,6 +105,12 @@
   .de .w.wsel { background: var(--accent); color: #fff; }
   .de .w.wnow { background: var(--accent); color: #fff; }
 
+  /* romanization LINE for alphabetic non-Latin scripts (Cyrillic; later Greek, Hebrew).
+     Unlike the glyph-stack .tr, this sits under the whole original line; the original
+     words stay clickable in .de. Toggled app-wide by the Transcription button. */
+  .translit { font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: .9rem;
+    color: var(--muted); margin-top: 3px; white-space: pre-line; letter-spacing: .01em; font-style: italic; }
+  body.hidetr .translit { display: none; }
   .en { color: var(--en-ink); font-size: .98rem; margin-top: 5px; white-space: pre-line; display: none; }
   .en.idm { color: var(--idiom-ink); }
   .en .lbl { font-family: system-ui, 'Noto Sans', sans-serif; font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; opacity: .65; margin-right: 6px; }
@@ -1401,7 +1407,7 @@ function buildSentEl(s, i, showLit){
       de.classList.add('words');
       if (story.dir) de.setAttribute('dir', story.dir);
       de.innerHTML = lnChip + buildWords(s);
-    } else if (s.tr) {
+    } else if (s.tr && story.trStyle !== 'line') {
       de.classList.add('stacks');
       if (story.dir) de.setAttribute('dir', story.dir);
       de.innerHTML = lnChip + buildStacks(s);
@@ -1409,6 +1415,15 @@ function buildSentEl(s, i, showLit){
       de.innerHTML = lnChip + tokenize(s.t);
     }
     div.appendChild(de);
+
+    // alphabetic non-Latin scripts (trStyle:'line'): a romanization line under the
+    // original — words stay clickable in .de, glossary keyed on the original wordform.
+    if (story.trStyle === 'line' && s.tr) {
+      const trl = document.createElement('div');
+      trl.className = 'translit';
+      trl.textContent = s.tr;
+      div.appendChild(trl);
+    }
 
     const en = document.createElement('div');
     en.className = 'en' + (showLit ? '' : ' idm');

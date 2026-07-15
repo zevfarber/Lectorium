@@ -1447,7 +1447,7 @@ function render(){
   const box = $('text'); box.innerHTML = '';
   const enTitle = story.titleEn || story.title || '';
   const origTitle = story.titleRead || story.title || '';
-  const cite = story.khm ? 'KHM ' + story.khm + ' · ' : '';
+  const cite = story.khm ? 'Grimm ' + story.khm + ' · ' : '';
   $('stTitle').innerHTML = escapeHtml(cite + enTitle)
     + (story.provisional ? ' <span class="draftBadge">draft · being built</span>' : '');
   const sub = $('stSub');
@@ -1463,8 +1463,13 @@ function render(){
   if (langLine) {
     const bits = [];
     if (story.language) bits.push(story.language);
-    const wk = story.workEn || story.work;
-    if (wk && wk !== (story.titleEn || story.title)) bits.push(wk);
+    if (story.workGloss && story.work) {
+      bits.push(story.work + ' (' + story.workGloss + ')');
+      if (story.workEn && story.workEn !== story.work) bits.push(story.workEn);
+    } else {
+      const wk = story.workEn || story.work;
+      if (wk && wk !== (story.titleEn || story.title)) bits.push(wk);
+    }
     langLine.textContent = bits.join(' · ');
     langLine.style.display = bits.length ? '' : 'none';
   }
@@ -2161,9 +2166,9 @@ function fillLibrary(selIdx){
   fillStorySel(wi, selIdx);
 }
 
-/* Text-picker label: "KHM 1 · The Frog King" when the entry carries a number. */
+/* Text-picker label: "Grimm 1 · The Frog King" when the entry carries a number. */
 function storyLabel(m){
-  return (m.khm ? 'KHM ' + m.khm + ' · ' : '') + (m.part || m.titleEn || m.title || '');
+  return (m.khm ? 'Grimm ' + m.khm + ' · ' : '') + (m.part || m.titleEn || m.title || '');
 }
 function storyMatches(m, q){
   if (!q) return true;
@@ -2201,7 +2206,7 @@ function fillStorySel(wi, selIdx){
   };
   order.forEach(g => {
     if (useGroups && g) {
-      const og = document.createElement('optgroup'); og.label = g;
+      const og = document.createElement('optgroup'); og.label = g.replace(/^KHM /, 'Grimm ');
       groups[g].forEach(i => addOpt(og, i));
       ss.appendChild(og);
     } else {

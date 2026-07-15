@@ -1839,7 +1839,7 @@ function toggleTry(i){
 }
 
 /* ---------- word popup ---------- */
-let popWord = '', popSi = -1, popWi = -1, wordAudio = null;
+let popWord = '', popKey = '', wordAudio = null, wordClips = null;
 function showPop(wEl){
   document.querySelectorAll('.wsel').forEach(e => e.classList.remove('wsel'));
   wEl.classList.add('wsel');
@@ -1849,13 +1849,11 @@ function showPop(wEl){
   $('popW').textContent = popWord;
   $('popG').innerHTML = gloss ? escapeHtml(gloss)
     : '<span class="pmiss">Not in this story’s glossary — ask the 🎓 tutor.</span>';
-  // per-word audio: prefer a slice of the prepared clip (via align.json word-timings);
-  // fall back to browser TTS only where a langCode exists.
-  const se = wEl.closest('.sent');
-  popSi = se ? +se.dataset.i : -1;
-  popWi = (wEl.dataset.wi !== undefined) ? +wEl.dataset.wi : -1;
-  const hasSlice = !!(story.audio && wordTimes && popSi >= 0 && popWi >= 0 && wordTimes[popSi] && wordTimes[popSi][popWi]);
-  $('popSay').style.display = $('popSlow').style.display = (story.langCode || hasSlice) ? '' : 'none';
+  // per-word audio: play the word's OWN isolated clip (audio/<id>/w/<n>.mp3) when the
+  // story ships one; fall back to browser TTS only where a langCode exists.
+  popKey = key;
+  const hasWordClip = !!(story.audio && wordClips && wordClips[key] !== undefined);
+  $('popSay').style.display = $('popSlow').style.display = (story.langCode || hasWordClip) ? '' : 'none';
   const pop = $('pop');
   pop.style.display = 'block';
   const r = wEl.getBoundingClientRect();
@@ -1881,30 +1879,25 @@ function positionPop(el){
 }
 const POP_LABELS = { popSay: '🔊 Say it', popSlow: '🐢 Slowly' };
 function resetPopBtns(){ for (const id in POP_LABELS) { const b = $(id); if (b) b.textContent = POP_LABELS[id]; } }
-function stopWordSlice(){ if (wordAudio) wordAudio.pause(); resetPopBtns(); }
-/* play just one word's slice out of its prepared sentence clip, using align.json timings */
-function playWordSlice(si, wi, rate, btn){
-  const seg = wordTimes[si][wi], s = seg[0], e = seg[1];
+function stopWordAudio(){ if (wordAudio) wordAudio.pause(); resetPopBtns(); }
+/* play a word's OWN isolated clip (audio/<id>/w/<n>.mp3) — clean, no boundary bleed */
+function playWordClip(n, rate, btn){
   if (!wordAudio) wordAudio = new Audio();
   wordAudio.pause();
-  const src = audioSrc(si);
-  const go = () => { wordAudio.playbackRate = rate < 0.7 ? 0.6 : 1; try { wordAudio.currentTime = s; } catch(_){} wordAudio.play().catch(()=>{}); };
-  const onTime = () => { if (wordAudio.currentTime >= e - 0.005) { wordAudio.pause(); done(); } };
-  const done = () => { wordAudio.removeEventListener('timeupdate', onTime); resetPopBtns(); };
-  wordAudio.removeEventListener('timeupdate', onTime);
-  wordAudio.addEventListener('timeupdate', onTime);
-  wordAudio.onended = done;
-  if (wordAudio.__src === src && wordAudio.readyState >= 1) go();
-  else { wordAudio.__src = src; wordAudio.src = src; wordAudio.addEventListener('loadedmetadata', go, { once: true }); }
+  wordAudio.onended = resetPopBtns;
+  wordAudio.src = story.audio.replace(/\/+$/,'') + '/w/' + n + '.mp3';
+  wordAudio.playbackRate = rate < 0.7 ? 0.6 : 1;
+  try { wordAudio.currentTime = 0; } catch(_){}
+  wordAudio.play().catch(()=>{});
   if (btn) btn.textContent = '⏹ Stop';
 }
 function speakPop(rate, btn){
   if (!popWord) return;
-  if (btn && btn.textContent === '⏹ Stop') { stopWordSlice(); stopSpeech(); return; }  // callback resets labels
+  if (btn && btn.textContent === '⏹ Stop') { stopWordAudio(); stopSpeech(); return; }  // callback resets labels
   resetPopBtns();
-  // prepared-audio slice wins when we have word-timings for this word
-  const arr = (story.audio && wordTimes && popSi >= 0) ? wordTimes[popSi] : null;
-  if (arr && popWi >= 0 && arr[popWi]) { playWordSlice(popSi, popWi, rate, btn); return; }
+  // the word's own isolated clip wins when the story ships per-word audio
+  const n = (story.audio && wordClips) ? wordClips[popKey] : undefined;
+  if (n !== undefined) { playWordClip(n, rate, btn); return; }
   const started = speak(popWord, rate, resetPopBtns);
   if (started && btn) btn.textContent = '⏹ Stop';
 }
@@ -2327,9 +2320,11 @@ function loadStory(s){
   speakingIdx = -1;
   slowPref = {};
   story = s;
-  wordTimes = null; hlWi = -1;
+  wordTimes = null; hlWi = -1; wordClips = null;
   if (s.audio){
-    fetch(s.audio.replace(/\/+$/,'') + '/align.json').then(r => r.ok ? r.json() : null).then(d => { wordTimes = d; }).catch(() => {});
+    const ab = s.audio.replace(/\/+$/,'');
+    fetch(ab + '/align.json').then(r => r.ok ? r.json() : null).then(d => { wordTimes = d; }).catch(() => {});
+    fetch(ab + '/words.json').then(r => r.ok ? r.json() : null).then(d => { wordClips = d; }).catch(() => {});
   }
   activeSimplify = simplifyConfig(s);
   const sayMode = !!(activeSimplify && activeSimplify.mode === 'say');

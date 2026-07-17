@@ -1,0 +1,1029 @@
+{
+ "script": "cuneiform",
+ "name": "Cuneiform (Sumerian & Akkadian) — sign reference",
+ "signCodeSystem": "sign names after Assyriological convention; Unicode cuneiform (Neo-Assyrian forms)",
+ "transliteration": "Academic = per-sign, hyphen-joined, determinatives superscript, modern subscript indices; readable = smoothed running words, determinatives silent. Akkadian texts: syllabograms lowercase (i-nu), Sumerograms CAPS (LUGAL) carrying their Akkadian value in “sounds” mode.",
+ "numbers": "Sexagesimal (base-60): a number is written as denomination signs (diš 1, u 10, geš 60, geš'u 600, šar₂ 3,600, šar'u 36,000) and READ BY ADDING THEM UP. Two-to-nine of a denomination are drawn as one clustered sign.",
+ "note": "Per-script shared sign reference, frequency-defined. Grows as the King List extends.",
+ "signs": {
+  "AN": {
+   "glyph": "𒀭",
+   "name": "heaven / god (an, diĝir)",
+   "type": "logogram",
+   "sound": "an",
+   "determines": null,
+   "values": [
+    "an",
+    "diĝir (as det. {d})",
+    "Akkadian: Anum (the sky-god, the bare sign), ilum “god”"
+   ],
+   "note": "Also the divine determinative {d} before gods' names. In the Hammurabi text the bare sign is the god Anum."
+  },
+  "NAM": {
+   "glyph": "𒉆",
+   "name": "nam (abstract-noun prefix)",
+   "type": "syllabogram",
+   "sound": "nam",
+   "determines": null,
+   "values": [
+    "Akkadian: nam"
+   ]
+  },
+  "LUGAL": {
+   "glyph": "𒈗",
+   "name": "king (lugal)",
+   "type": "logogram",
+   "sound": "lugal",
+   "determines": null,
+   "values": [
+    "Akkadian value šarrum “king”"
+   ]
+  },
+  "TA": {
+   "glyph": "𒋫",
+   "name": "ta (ablative 'from')",
+   "type": "syllabogram",
+   "sound": "ta",
+   "determines": null
+  },
+  "E": {
+   "glyph": "𒂊",
+   "name": "e (verb e₃ 'go out/up/down')",
+   "type": "syllabogram",
+   "sound": "e₃",
+   "determines": null,
+   "values": [
+    "e",
+    "e₃",
+    "è",
+    "Akkadian: e"
+   ]
+  },
+  "NE": {
+   "glyph": "𒉈",
+   "name": "ne / de₃",
+   "type": "syllabogram",
+   "sound": "de₃",
+   "determines": null,
+   "values": [
+    "ne",
+    "de₃",
+    "bil"
+   ]
+  },
+  "A": {
+   "glyph": "𒀀",
+   "name": "a (water; nominalizer)",
+   "type": "syllabogram",
+   "sound": "a",
+   "determines": null,
+   "values": [
+    "Akkadian: a"
+   ]
+  },
+  "BA": {
+   "glyph": "𒁀",
+   "name": "ba (verbal prefix)",
+   "type": "syllabogram",
+   "sound": "ba",
+   "determines": null,
+   "values": [
+    "Akkadian: ba"
+   ]
+  },
+  "NUN": {
+   "glyph": "𒉣",
+   "name": "prince; Eridu (nun / eridu)",
+   "type": "logogram",
+   "sound": "eridu",
+   "determines": null,
+   "values": [
+    "nun",
+    "eridu (with KI)",
+    "Akkadian: nun"
+   ]
+  },
+  "KI": {
+   "glyph": "𒆠",
+   "name": "place determinative {ki}",
+   "type": "determinative",
+   "sound": null,
+   "determines": "places — cities and lands; written after the name",
+   "values": [
+    "ki 'place/earth'",
+    "Akkadian: ki, qi₂; also the syllable ki in words"
+   ]
+  },
+  "LU": {
+   "glyph": "𒇻",
+   "name": "lu (also 'sheep')",
+   "type": "syllabogram",
+   "sound": "lu",
+   "determines": null,
+   "values": [
+    "Akkadian: lu"
+   ]
+  },
+  "LA": {
+   "glyph": "𒆷",
+   "name": "la",
+   "type": "syllabogram",
+   "sound": "la",
+   "determines": null,
+   "values": [
+    "Akkadian: la"
+   ]
+  },
+  "GAR": {
+   "glyph": "𒃻",
+   "name": "ĝar / gar",
+   "type": "syllabogram",
+   "sound": "gar",
+   "determines": null,
+   "values": [
+    "ĝar",
+    "gar"
+   ]
+  },
+  "MU": {
+   "glyph": "𒈬",
+   "name": "year (mu)",
+   "type": "logogram",
+   "sound": "mu",
+   "determines": null,
+   "values": [
+    "Akkadian: mu"
+   ]
+  },
+  "NI": {
+   "glyph": "𒉌",
+   "name": "ni / ì",
+   "type": "syllabogram",
+   "sound": "ni",
+   "determines": null,
+   "values": [
+    "ni",
+    "ì",
+    "Akkadian: ni, li₂, ì"
+   ]
+  },
+  "AK": {
+   "glyph": "𒀝",
+   "name": "to do / measure (ak, aĝ₂) — the reign verb",
+   "type": "logogram",
+   "sound": "ag",
+   "determines": null,
+   "values": [
+    "ak",
+    "aĝ₂"
+   ]
+  },
+  "IB": {
+   "glyph": "𒅁",
+   "name": "ib / íb",
+   "type": "syllabogram",
+   "sound": "ib",
+   "determines": null,
+   "values": [
+    "Akkadian: ib, ip"
+   ]
+  },
+  "BI": {
+   "glyph": "𒁉",
+   "name": "bi ('its; that')",
+   "type": "syllabogram",
+   "sound": "bi",
+   "determines": null,
+   "values": [
+    "Akkadian: bi, bé, pi₂"
+   ]
+  },
+  "RU": {
+   "glyph": "𒊒",
+   "name": "ru / šub 'fall'",
+   "type": "logogram",
+   "sound": "šub",
+   "determines": null,
+   "values": [
+    "ru",
+    "šub",
+    "Akkadian: ru"
+   ]
+  },
+  "DU": {
+   "glyph": "𒁺",
+   "name": "to go (du/ĝen/gub/rá)",
+   "type": "logogram",
+   "sound": "du",
+   "determines": null,
+   "values": [
+    "du",
+    "ĝen",
+    "gub",
+    "rá"
+   ],
+   "note": "Polyvalent motion verb: ĝen 'go', gub 'stand / set up'."
+  },
+  "EN": {
+   "glyph": "𒂗",
+   "name": "lord (en)",
+   "type": "logogram",
+   "sound": "en",
+   "determines": null,
+   "values": [
+    "Akkadian: en; EN = bēlum “lord”; EN.LÍL = the god Enlil"
+   ]
+  },
+  "ME": {
+   "glyph": "𒈨",
+   "name": "me",
+   "type": "syllabogram",
+   "sound": "me",
+   "determines": null,
+   "values": [
+    "Akkadian: me"
+   ]
+  },
+  "LU2": {
+   "glyph": "𒇽",
+   "name": "man (lú)",
+   "type": "logogram",
+   "sound": "lù",
+   "determines": null,
+   "values": [
+    "lù",
+    "lú"
+   ]
+  },
+  "NA": {
+   "glyph": "𒈾",
+   "name": "na",
+   "type": "syllabogram",
+   "sound": "na",
+   "determines": null,
+   "values": [
+    "Akkadian: na"
+   ]
+  },
+  "GAL": {
+   "glyph": "𒃲",
+   "name": "great (gal)",
+   "type": "logogram",
+   "sound": "gal",
+   "determines": null
+  },
+  "TUR": {
+   "glyph": "𒌉",
+   "name": "child / son (dumu, tur)",
+   "type": "logogram",
+   "sound": "dumu",
+   "determines": null,
+   "values": [
+    "dumu",
+    "tur",
+    "as DUMU — “son”, Akkadian mārum"
+   ]
+  },
+  "ZI": {
+   "glyph": "𒍣",
+   "name": "zi (life / breath)",
+   "type": "syllabogram",
+   "sound": "zi",
+   "determines": null,
+   "values": [
+    "Akkadian: ṣi, ṣe"
+   ]
+  },
+  "PA": {
+   "glyph": "𒉺",
+   "name": "staff (pa); with LU = sib 'shepherd'",
+   "type": "logogram",
+   "sound": "pa",
+   "determines": null,
+   "values": [
+    "pa",
+    "sib (PA.LU)",
+    "Akkadian: pa"
+   ]
+  },
+  "RA": {
+   "glyph": "𒊏",
+   "name": "ra",
+   "type": "syllabogram",
+   "sound": "ra",
+   "determines": null,
+   "values": [
+    "Akkadian: ra"
+   ]
+  },
+  "URU": {
+   "glyph": "𒌷",
+   "name": "city (uru / eri)",
+   "type": "logogram",
+   "sound": "eri",
+   "determines": null,
+   "values": [
+    "uru",
+    "eri",
+    "iri",
+    "Akkadian: ri₂ (in da-ri₂-tam “everlasting”)"
+   ]
+  },
+  "ESZ": {
+   "glyph": "𒌍",
+   "name": "eš (plural -meš)",
+   "type": "syllabogram",
+   "sound": "eš",
+   "determines": null,
+   "note": "The plural element in -me-eš; the U-U-U sign."
+  },
+  "A2": {
+   "glyph": "𒀉",
+   "name": "a₂ (arm)",
+   "type": "syllabogram",
+   "sound": "a₂",
+   "determines": null,
+   "values": [
+    "Akkadian: id, it (ni-bi-it)"
+   ]
+  },
+  "IGI": {
+   "glyph": "𒅆",
+   "name": "eye (igi); here read lim",
+   "type": "logogram",
+   "sound": "igi",
+   "determines": null,
+   "values": [
+    "igi",
+    "lim (in Alulim)",
+    "Akkadian: ši; Sumerian igi “eye”"
+   ],
+   "note": "The 'eye' sign; in Alulim it carries the value lim (Langdon's 'REC 229')."
+  },
+  "EZENxBAD": {
+   "glyph": "𒂦",
+   "name": "fortress (bàd₃)",
+   "type": "logogram",
+   "sound": "bàd₃",
+   "determines": null,
+   "note": "EZEN containing BAD; with DUB spells bàd₃ 'wall / fortress' in Bad-tibira."
+  },
+  "DUB": {
+   "glyph": "𒁾",
+   "name": "dub (second sign of bàd₃)",
+   "type": "syllabogram",
+   "sound": "dub",
+   "determines": null
+  },
+  "NAGAR": {
+   "glyph": "𒉄",
+   "name": "craftsman (nagar); here tibira",
+   "type": "logogram",
+   "sound": "tibira",
+   "determines": null,
+   "values": [
+    "nagar",
+    "tibira"
+   ],
+   "note": "Craftsman sign; read tibira 'metalworker' in Bad-tibira."
+  },
+  "ESH2": {
+   "glyph": "𒂠",
+   "name": "terminative -šè / -šú",
+   "type": "syllabogram",
+   "sound": "šú",
+   "determines": null,
+   "values": [
+    "šè",
+    "šú"
+   ],
+   "note": "The EŠ₂ sign — the postposition 'to / towards'."
+  },
+  "UD": {
+   "glyph": "𒌓",
+   "name": "sun / day (ud); in Zimbir",
+   "type": "logogram",
+   "sound": "ud",
+   "determines": null,
+   "values": [
+    "ud",
+    "u₄",
+    "Akkadian: ud, ut, tam; as logogram UTU = Šamaš, the sun-god"
+   ],
+   "note": "First sign of Sippar (UD.KIB.NUN)."
+  },
+  "KIB": {
+   "glyph": "𒄒",
+   "name": "kib (gish-crossing-gish); in Zimbir",
+   "type": "syllabogram",
+   "sound": "kib",
+   "determines": null,
+   "note": "Second sign of Sippar; drawn as two crossed GIŠ signs."
+  },
+  "SU": {
+   "glyph": "𒋢",
+   "name": "su; first sign of Shuruppak",
+   "type": "syllabogram",
+   "sound": "su",
+   "determines": null
+  },
+  "KUR": {
+   "glyph": "𒆳",
+   "name": "mountain / land (kur)",
+   "type": "logogram",
+   "sound": "kur",
+   "determines": null,
+   "values": [
+    "kur",
+    "land, mountain"
+   ]
+  },
+  "DUR2": {
+   "glyph": "𒂉",
+   "name": "to sit (dúr / tuš)",
+   "type": "logogram",
+   "sound": "dúr",
+   "determines": null,
+   "values": [
+    "dúr",
+    "tuš"
+   ]
+  },
+  "MA": {
+   "glyph": "𒈠",
+   "name": "ma",
+   "type": "syllabogram",
+   "sound": "ma",
+   "determines": null,
+   "values": [
+    "Akkadian: ma"
+   ]
+  },
+  "UR2": {
+   "glyph": "𒌫",
+   "name": "úr (to sweep / drag)",
+   "type": "syllabogram",
+   "sound": "úr",
+   "determines": null,
+   "note": "In a-ma-ru ba-úr-ra-ta 'the Flood swept over'."
+  },
+  "EGIR": {
+   "glyph": "𒂕",
+   "name": "after, behind (egir)",
+   "type": "logogram",
+   "sound": "egir",
+   "determines": null
+  },
+  "DISH": {
+   "glyph": "𒁹",
+   "name": "diš — one",
+   "type": "numeral",
+   "sound": "1",
+   "determines": null,
+   "note": "A single upright wedge; stacked up to nine for 1–9."
+  },
+  "U": {
+   "glyph": "𒌋",
+   "name": "u — ten",
+   "type": "numeral",
+   "sound": "10",
+   "determines": null,
+   "note": "A corner wedge; up to five of them make 10–50."
+  },
+  "GESH2": {
+   "glyph": "𒐕",
+   "name": "geš — sixty",
+   "type": "numeral",
+   "sound": "60",
+   "determines": null,
+   "note": "The base of the whole system (60 = ten u)."
+  },
+  "GESHU": {
+   "glyph": "𒐞",
+   "name": "geš'u — six hundred",
+   "type": "numeral",
+   "sound": "600",
+   "determines": null,
+   "note": "Ten geš."
+  },
+  "SHAR2": {
+   "glyph": "𒊹",
+   "name": "šar₂ — three thousand six hundred",
+   "type": "numeral",
+   "sound": "3,600",
+   "determines": null,
+   "note": "60 × 60; the working unit for the giant reign-lengths. Two-to-nine šar₂ are drawn as ONE clustered sign (e.g. the eight-šar₂ diamond-cluster = 28,800)."
+  },
+  "SHARU": {
+   "glyph": "𒐬",
+   "name": "šar'u — thirty-six thousand",
+   "type": "numeral",
+   "sound": "36,000",
+   "determines": null,
+   "note": "Ten šar₂, folded into a single sign (a šar₂ with the '10' mark inside). So 64,800 = one šar'u + eight šar₂ = 36,000 + 28,800."
+  },
+  "SHARGAL": {
+   "glyph": "𒐲",
+   "name": "šar-gal — two hundred sixteen thousand",
+   "type": "numeral",
+   "sound": "216,000",
+   "determines": null,
+   "note": "The 'great šar₂' (60³ = sixty šar₂) — the next power up, used only in the grand total 241,200."
+  },
+  "I": {
+   "glyph": "𒄿",
+   "name": "i",
+   "type": "syllabogram",
+   "sound": "i",
+   "determines": null,
+   "values": [
+    "i"
+   ]
+  },
+  "BAD": {
+   "glyph": "𒁁",
+   "name": "be, bad",
+   "type": "syllabogram",
+   "sound": "be",
+   "determines": null,
+   "values": [
+    "be",
+    "bad",
+    "bat",
+    "til"
+   ]
+  },
+  "EL": {
+   "glyph": "𒂖",
+   "name": "el",
+   "type": "syllabogram",
+   "sound": "el",
+   "determines": null,
+   "values": [
+    "el"
+   ]
+  },
+  "SHA": {
+   "glyph": "𒊭",
+   "name": "ša",
+   "type": "syllabogram",
+   "sound": "ša",
+   "determines": null,
+   "values": [
+    "ša"
+   ]
+  },
+  "U3": {
+   "glyph": "𒅇",
+   "name": "ù — “and”",
+   "type": "syllabogram",
+   "sound": "ù",
+   "determines": null,
+   "values": [
+    "ù (u₃) — the conjunction “and”"
+   ]
+  },
+  "IR": {
+   "glyph": "𒅕",
+   "name": "ir, er",
+   "type": "syllabogram",
+   "sound": "ir",
+   "determines": null,
+   "values": [
+    "ir",
+    "er"
+   ]
+  },
+  "DIM": {
+   "glyph": "𒁴",
+   "name": "tim, dim",
+   "type": "syllabogram",
+   "sound": "tim",
+   "determines": null,
+   "values": [
+    "tim",
+    "dim",
+    "ṭim"
+   ]
+  },
+  "AD": {
+   "glyph": "𒀜",
+   "name": "ad, at",
+   "type": "syllabogram",
+   "sound": "ad",
+   "determines": null,
+   "values": [
+    "ad",
+    "at",
+    "aṭ"
+   ]
+  },
+  "KALAM": {
+   "glyph": "𒌦",
+   "name": "land (kalam / mātum)",
+   "type": "logogram",
+   "sound": "KALAM",
+   "determines": null,
+   "values": [
+    "KALAM — Sumerian “land”, read mātum in Akkadian",
+    "un"
+   ]
+  },
+  "AMAR": {
+   "glyph": "𒀫",
+   "name": "calf (amar)",
+   "type": "logogram",
+   "sound": "AMAR",
+   "determines": null,
+   "values": [
+    "AMAR — “calf”; with UTU spells Marduk (AMAR.UTU, “calf of the Sun”)"
+   ]
+  },
+  "RI": {
+   "glyph": "𒊑",
+   "name": "ri, re",
+   "type": "syllabogram",
+   "sound": "ri",
+   "determines": null,
+   "values": [
+    "ri",
+    "re",
+    "tal"
+   ]
+  },
+  "ESH": {
+   "glyph": "𒌍",
+   "name": "eš (three tens)",
+   "type": "syllabogram",
+   "sound": "eš",
+   "determines": null,
+   "values": [
+    "eš",
+    "30 — three Winkelhaken"
+   ]
+  },
+  "TI": {
+   "glyph": "𒋾",
+   "name": "ti (arrow)",
+   "type": "syllabogram",
+   "sound": "ti",
+   "determines": null,
+   "values": [
+    "ti",
+    "ṭi",
+    "TI — “arrow”, also “life” (Sumerian ti(l))"
+   ]
+  },
+  "IM": {
+   "glyph": "𒅎",
+   "name": "im, em",
+   "type": "syllabogram",
+   "sound": "im",
+   "determines": null,
+   "values": [
+    "im",
+    "em",
+    "IM — also “clay, storm”"
+   ]
+  },
+  "KISH": {
+   "glyph": "𒆧",
+   "name": "kiššat — “totality”",
+   "type": "logogram",
+   "sound": "KIŠ",
+   "determines": null,
+   "values": [
+    "KIŠ — read kiššat “all, totality” in Akkadian (Harper’s sign list: ner, kiš, šēpu, kiššatu)"
+   ]
+  },
+  "TAG": {
+   "glyph": "𒋳",
+   "name": "šum, tag",
+   "type": "syllabogram",
+   "sound": "šum",
+   "determines": null,
+   "values": [
+    "šum",
+    "tag",
+    "tak"
+   ]
+  },
+  "IN": {
+   "glyph": "𒅔",
+   "name": "in",
+   "type": "syllabogram",
+   "sound": "in",
+   "determines": null,
+   "values": [
+    "in"
+   ]
+  },
+  "GI4": {
+   "glyph": "𒄄",
+   "name": "gi₄",
+   "type": "syllabogram",
+   "sound": "gi₄",
+   "determines": null,
+   "values": [
+    "gi₄",
+    "ge₄"
+   ]
+  },
+  "U2": {
+   "glyph": "𒌑",
+   "name": "u₂",
+   "type": "syllabogram",
+   "sound": "u₂",
+   "determines": null,
+   "values": [
+    "u₂ — the commonest writing of vowel u in Old Babylonian",
+    "Sumerian ú “plant”"
+   ]
+  },
+  "SAR": {
+   "glyph": "𒊬",
+   "name": "šar (garden)",
+   "type": "syllabogram",
+   "sound": "šar",
+   "determines": null,
+   "values": [
+    "šar",
+    "SAR — Sumerian “garden / to write”"
+   ]
+  },
+  "SHU": {
+   "glyph": "𒋗",
+   "name": "šu (hand)",
+   "type": "syllabogram",
+   "sound": "šu",
+   "determines": null,
+   "values": [
+    "šu",
+    "ŠU — “hand”"
+   ]
+  },
+  "KA2": {
+   "glyph": "𒆍",
+   "name": "gate (ká / bābum)",
+   "type": "logogram",
+   "sound": "KA₂",
+   "determines": null,
+   "values": [
+    "KA₂ — “gate”; opens KA₂.DINGIR.RA “Babylon”, Bāb-ilim “gate of the god”"
+   ]
+  },
+  "TE": {
+   "glyph": "𒋼",
+   "name": "te",
+   "type": "syllabogram",
+   "sound": "te",
+   "determines": null,
+   "values": [
+    "te",
+    "ṭe₄"
+   ]
+  },
+  "LI": {
+   "glyph": "𒇷",
+   "name": "li",
+   "type": "syllabogram",
+   "sound": "li",
+   "determines": null,
+   "values": [
+    "li",
+    "le"
+   ]
+  },
+  "DA": {
+   "glyph": "𒁕",
+   "name": "da",
+   "type": "syllabogram",
+   "sound": "da",
+   "determines": null,
+   "values": [
+    "da",
+    "ṭa"
+   ]
+  },
+  "HA": {
+   "glyph": "𒄩",
+   "name": "ḫa (fish)",
+   "type": "syllabogram",
+   "sound": "ḫa",
+   "determines": null,
+   "values": [
+    "ḫa",
+    "ḪA — “fish”"
+   ]
+  },
+  "AM": {
+   "glyph": "𒄠",
+   "name": "am (wild bull)",
+   "type": "syllabogram",
+   "sound": "am",
+   "determines": null,
+   "values": [
+    "am",
+    "AM — “wild bull” (GUD×KUR)"
+   ]
+  },
+  "AH": {
+   "glyph": "𒄴",
+   "name": "aḫ / the glottal stop",
+   "type": "syllabogram",
+   "sound": "aḫ",
+   "determines": null,
+   "values": [
+    "aḫ, eḫ, iḫ, uḫ",
+    "a’ — carries the glottal stop (ʾ) in words like na-a’-dam"
+   ]
+  },
+  "DAM": {
+   "glyph": "𒁮",
+   "name": "dam",
+   "type": "syllabogram",
+   "sound": "dam",
+   "determines": null,
+   "values": [
+    "dam",
+    "DAM — “spouse”"
+   ]
+  },
+  "IA": {
+   "glyph": "𒅀",
+   "name": "ia",
+   "type": "syllabogram",
+   "sound": "ia",
+   "determines": null,
+   "values": [
+    "ia (i+a ligature) — the sound y"
+   ]
+  },
+  "GA": {
+   "glyph": "𒂵",
+   "name": "ga",
+   "type": "syllabogram",
+   "sound": "ga",
+   "determines": null,
+   "values": [
+    "ga",
+    "qa₂"
+   ]
+  },
+  "UL": {
+   "glyph": "𒌌",
+   "name": "ul",
+   "type": "syllabogram",
+   "sound": "ul",
+   "determines": null,
+   "values": [
+    "ul"
+   ]
+  },
+  "HU": {
+   "glyph": "𒄷",
+   "name": "ḫu (bird)",
+   "type": "syllabogram",
+   "sound": "ḫu",
+   "determines": null,
+   "values": [
+    "ḫu",
+    "MUŠEN — “bird” (as det.)"
+   ]
+  },
+  "KAL": {
+   "glyph": "𒆗",
+   "name": "dan, kal — “strong”",
+   "type": "logogram",
+   "sound": "dan",
+   "determines": null,
+   "values": [
+    "dan — in dannum “strong”",
+    "kal, KAL — “mighty, precious”"
+   ]
+  },
+  "SAG": {
+   "glyph": "𒊕",
+   "name": "head (sag / rēšum)",
+   "type": "logogram",
+   "sound": "SAG",
+   "determines": null,
+   "values": [
+    "SAG — “head”; SAG.GI₆ “the black-headed” = mankind",
+    "sag"
+   ]
+  },
+  "MI": {
+   "glyph": "𒈪",
+   "name": "mi; black (gi₆)",
+   "type": "syllabogram",
+   "sound": "mi",
+   "determines": null,
+   "values": [
+    "mi",
+    "gi₆ / gig₂ — “black, night”; second sign of SAG.GI₆"
+   ]
+  },
+  "PI": {
+   "glyph": "𒉿",
+   "name": "wa, wi, wu, pi",
+   "type": "syllabogram",
+   "sound": "wa",
+   "determines": null,
+   "values": [
+    "wa",
+    "wi",
+    "wu",
+    "pi — one sign for all the w-syllables"
+   ]
+  },
+  "TU": {
+   "glyph": "𒌅",
+   "name": "tu, ṭu",
+   "type": "syllabogram",
+   "sound": "tu",
+   "determines": null,
+   "values": [
+    "tu",
+    "ṭu₂"
+   ]
+  },
+  "UB": {
+   "glyph": "𒌒",
+   "name": "ub",
+   "type": "syllabogram",
+   "sound": "ub",
+   "determines": null,
+   "values": [
+    "ub",
+    "up"
+   ]
+  },
+  "BU": {
+   "glyph": "𒁍",
+   "name": "bu",
+   "type": "syllabogram",
+   "sound": "bu",
+   "determines": null,
+   "values": [
+    "bu",
+    "pu"
+   ]
+  },
+  "KU": {
+   "glyph": "𒆪",
+   "name": "ku",
+   "type": "syllabogram",
+   "sound": "ku",
+   "determines": null,
+   "values": [
+    "ku",
+    "qu₂",
+    "KU — “to lie down”"
+   ]
+  },
+  "UR": {
+   "glyph": "𒌨",
+   "name": "ur (dog)",
+   "type": "syllabogram",
+   "sound": "ur",
+   "determines": null,
+   "values": [
+    "ur",
+    "UR — “dog”"
+   ]
+  },
+  "NU": {
+   "glyph": "𒉡",
+   "name": "nu",
+   "type": "syllabogram",
+   "sound": "nu",
+   "determines": null,
+   "values": [
+    "nu",
+    "Sumerian nu “not”"
+   ]
+  },
+  "UM": {
+   "glyph": "𒌝",
+   "name": "um",
+   "type": "syllabogram",
+   "sound": "um",
+   "determines": null,
+   "values": [
+    "um"
+   ]
+  },
+  "KID": {
+   "glyph": "𒆤",
+   "name": "lil₂ — second sign of EN.LÍL (Enlil)",
+   "type": "syllabogram",
+   "sound": "lil₂",
+   "determines": null,
+   "values": [
+    "lil₂ — in {d}EN.LÍL “Enlil”",
+    "kid"
+   ]
+  }
+ }
+}

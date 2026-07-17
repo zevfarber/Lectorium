@@ -1,0 +1,3218 @@
+{
+ "id": "hammurabi-prologue",
+ "title": "𒄩𒄠𒈬𒊏𒁉",
+ "titleRead": "Ḫammurabi",
+ "titleEn": "Laws of Hammurabi — Prologue: the call of the king (i 1–53)",
+ "language": "Akkadian (Old Babylonian)",
+ "langCode": null,
+ "script": "cuneiform",
+ "font": "old-babylonian",
+ "work": "Codex Ḫammurabi",
+ "workEn": "Laws of Hammurabi",
+ "part": "Prologue · the call of the king (Col. i 1–53)",
+ "numbering": "line",
+ "provisional": true,
+ "draftNote": "Pilot in progress — the cuneiform and its readings are checked sign-by-sign against Harper’s 1904 edition of the stele; expect refinements as the text is extended.",
+ "source": "Louvre stele, after R.F. Harper, The Code of Hammurabi, King of Babylon (Chicago, 1904): transliteration pp. 2–8, autograph Plates I–II, sign list Plates LXXXIII–XCVIII. Readings are Harper’s, written in modern subscript notation; a few now-superseded readings are kept and noted. Cuneiform shown in Old Babylonian monumental sign forms via the SantakkuM webfont by Sylvie Vanséveren (CC BY 4.0; hethport.uni-wuerzburg.de/cuneifont/) — the script style of the stele itself; occasional signs it lacks fall back to Neo-Assyrian (Noto) shapes. Pronunciation: conventional reconstructed Old Babylonian (standard Assyriological values). Fresh translations, made for this edition directly from the Akkadian.",
+ "about": "The top of the stele: one enormous sentence, forty-nine lines long, in which the great gods elevate Marduk and Babylon and then call Hammurabi by name “to make justice appear in the land, so that the strong might not wrong the weak” — followed by the king stepping forward: “I am Hammurabi, the shepherd.” Sign identifications, word divisions, vowel lengths, and the pronunciation are scholarly conventions; the notes flag where Harper’s 1904 readings have been superseded rather than silently modernizing them.",
+ "sentences": [
+  {
+   "ln": 1,
+   "p": true,
+   "words": [
+    {
+     "reading": "i-nu",
+     "say": "inu",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "inu",
+       "gloss": "when — the temporal conjunction that opens the whole monument",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "AN",
+     "say": "Anum",
+     "glyphs": [
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "log",
+       "tr": "AN",
+       "val": "Anum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Anum",
+       "gloss": "Anum — the sky-god, head of the pantheon (the AN sign alone, read Anum)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ṣi-ru-um",
+     "say": "ṣīrum",
+     "glyphs": [
+      {
+       "s": "𒍣",
+       "sign": "ZI",
+       "role": "phon",
+       "tr": "ṣi"
+      },
+      {
+       "s": "𒊒",
+       "sign": "RU",
+       "role": "phon",
+       "tr": "ru"
+      },
+      {
+       "s": "𒌝",
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṣīrum",
+       "gloss": "lofty, exalted (adj., nom.)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "LUGAL",
+     "say": "šar",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "LUGAL",
+       "val": "šar"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šarrum",
+       "gloss": "king; here construct šar “king of”",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "{d}a-nun-na-ki",
+     "say": "Anunnakī",
+     "glyphs": [
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒉣",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "nun"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "ki"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Anunnakū",
+       "gloss": "the Anunnaki — the great gods as a college",
+       "g": [
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "{d}EN.LÍL",
+     "say": "Ellil",
+     "glyphs": [
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "det",
+       "tr": "",
+       "nl": true
+      },
+      {
+       "s": "𒂗",
+       "sign": "EN",
+       "role": "log",
+       "tr": "EN",
+       "val": "El"
+      },
+      {
+       "s": "𒆤",
+       "sign": "KID",
+       "role": "log",
+       "tr": "LÍL",
+       "val": "lil"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Enlil",
+       "gloss": "Enlil (EN.LÍL) — lord of the lands, chief executive of the gods",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "be-el",
+     "say": "bēl",
+     "glyphs": [
+      {
+       "s": "𒁁",
+       "sign": "BAD",
+       "role": "phon",
+       "tr": "be",
+       "nl": true
+      },
+      {
+       "s": "𒂖",
+       "sign": "EL",
+       "role": "phon",
+       "tr": "el"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bēlum",
+       "gloss": "lord; construct bēl “lord of”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ša-me-e",
+     "say": "šamê",
+     "glyphs": [
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša"
+      },
+      {
+       "s": "𒈨",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "me"
+      },
+      {
+       "s": "𒂊",
+       "sign": "E",
+       "role": "phon",
+       "tr": "e"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šamû",
+       "gloss": "heaven(s); gen. šamê",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ù",
+     "say": "u",
+     "glyphs": [
+      {
+       "s": "𒅇",
+       "sign": "U3",
+       "role": "phon",
+       "tr": "ù",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "and (ù)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ir-ṣi-tim",
+     "say": "erṣetim",
+     "glyphs": [
+      {
+       "s": "𒅕",
+       "sign": "IR",
+       "role": "phon",
+       "tr": "ir"
+      },
+      {
+       "s": "𒍣",
+       "sign": "ZI",
+       "role": "phon",
+       "tr": "ṣi"
+      },
+      {
+       "s": "𒁴",
+       "sign": "DIM",
+       "role": "phon",
+       "tr": "tim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "erṣetum",
+       "gloss": "earth; gen. erṣetim (Harper reads ir-ṣi-tim, the same signs)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ša-i-im",
+     "say": "šāʾim",
+     "glyphs": [
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša",
+       "nl": true
+      },
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šâmum",
+       "gloss": "to determine, fix (destinies); participle šāʾim “who determines”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ši-ma-at",
+     "say": "šīmāt",
+     "glyphs": [
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "ši",
+       "nl": true
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "𒀜",
+       "sign": "AD",
+       "role": "phon",
+       "tr": "at"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šīmtum",
+       "gloss": "destiny, fate; pl. construct šīmāt “the destinies of”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "KALAM",
+     "say": "mātim",
+     "glyphs": [
+      {
+       "s": "𒌦",
+       "sign": "KALAM",
+       "role": "log",
+       "tr": "KALAM",
+       "val": "mātim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mātum",
+       "gloss": "land, country (the Sumerogram KALAM)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "l": "When Anum the-lofty, king of-the-Anunnaki, (and) Enlil, lord of-heaven and earth, determiner of-the-destinies of-the-land,",
+   "i": "When lofty Anum, king of the Anunnaki, and Enlil, lord of heaven and earth, who determines the destinies of the land,",
+   "n": "The monument opens mid-sentence and stays there for 49 lines: inu “when …” governs everything down to “called my name” (i 49). Anum is written with the bare AN sign (Harper read it simply ilum “god”); Enlil carries the silent divine marker 𒀭 — tap it. You will meet the -um/-im endings constantly: nominative and genitive case.",
+   "t": "𒄿𒉡 𒀭 𒍣𒊒𒌝\n𒈗 𒀭𒀀𒉣𒈾𒆠\n𒀭𒂗𒆤\n𒁁𒂖 𒊭𒈨𒂊\n𒅇 𒅕𒍣𒁴\n𒊭𒄿𒅎\n𒅆𒈠𒀜 𒌦"
+  },
+  {
+   "ln": 8,
+   "words": [
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "to, for (preposition)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "{d}AMAR.UTU",
+     "say": "Marduk",
+     "glyphs": [
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒀫",
+       "sign": "AMAR",
+       "role": "log",
+       "tr": "AMAR",
+       "val": "Mar"
+      },
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "log",
+       "tr": "UTU",
+       "val": "duk"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Marduk",
+       "gloss": "Marduk, god of Babylon — written with the Sumerogram AMAR.UTU, “calf of the Sun”",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "DUMU",
+     "say": "mār",
+     "glyphs": [
+      {
+       "s": "𒌉",
+       "sign": "TUR",
+       "role": "log",
+       "tr": "DUMU",
+       "val": "mār",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mārum",
+       "gloss": "son; construct mār “son of” (the DUMU sign)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ri-eš-ti-im",
+     "say": "rēštîm",
+     "glyphs": [
+      {
+       "s": "𒊑",
+       "sign": "RI",
+       "role": "phon",
+       "tr": "ri"
+      },
+      {
+       "s": "𒌍",
+       "sign": "ESH",
+       "role": "phon",
+       "tr": "eš"
+      },
+      {
+       "s": "𒋾",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rēštûm",
+       "gloss": "firstborn, foremost; gen. — “the firstborn (son)”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ša",
+     "say": "ša",
+     "glyphs": [
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ša",
+       "gloss": "who, which, of (relative particle)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "{d}EN.KI",
+     "say": "Ea",
+     "glyphs": [
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒂗",
+       "sign": "EN",
+       "role": "log",
+       "tr": "EN",
+       "val": "E"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "log",
+       "tr": "KI",
+       "val": "a"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Ea",
+       "gloss": "Ea (Sumerian Enki), god of wisdom and the deep — Marduk’s father",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "{d}EN.LÍL-ut",
+     "say": "illilūt",
+     "glyphs": [
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "det",
+       "tr": "",
+       "nl": true
+      },
+      {
+       "s": "𒂗",
+       "sign": "EN",
+       "role": "log",
+       "tr": "EN",
+       "val": "illil"
+      },
+      {
+       "s": "𒆤",
+       "sign": "KID",
+       "role": "log",
+       "tr": "LÍL"
+      },
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "phon",
+       "tr": "ut"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "illilūtum",
+       "gloss": "“Enlil-ship” — supreme authority among the gods; construct illilūt",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "KIŠ",
+     "say": "kiššat",
+     "glyphs": [
+      {
+       "s": "𒆧",
+       "sign": "KISH",
+       "role": "log",
+       "tr": "KIŠ",
+       "val": "kiššat",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kiššatum",
+       "gloss": "totality, all; construct kiššat “all of”",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ši",
+     "say": "nišī",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "ši"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nišū",
+       "gloss": "people, mankind (plural noun); gen. nišī",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-ši-mu-šum",
+     "say": "išīmūšum",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "ši"
+      },
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "phon",
+       "tr": "mu"
+      },
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šâmum",
+       "gloss": "to determine, allot: išīmū “they allotted” + -šum “to him”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "l": "to Marduk, the-son the-firstborn of Ea, the-Enlil-ship of-all of-people they-allotted-to-him,",
+   "i": "allotted to Marduk, the firstborn son of Ea, supreme rule over all mankind,",
+   "n": "The verb comes last — išīmū-šum “they allotted (it) to him” — after every title has been stacked up; hold the sentence open, Akkadian loves this. illilūt “Enlil-ship” turns the god Enlil’s own name into a noun for supreme authority (Harper read the signs as bêlu-ut “rule”; the sense is the same). kiššat is written with a single sign (KIŠ), which Harper’s sign list glosses as kiššatu “totality”.",
+   "t": "𒀀𒈾 𒀭𒀫𒌓\n𒌉 𒊑𒌍𒋾𒅎\n𒊭 𒀭𒂗𒆠\n𒀭𒂗𒆤𒌓\n𒆧 𒉌𒅆\n𒄿𒅆𒈬𒋳"
+  },
+  {
+   "ln": 14,
+   "words": [
+    {
+     "reading": "in",
+     "say": "in",
+     "glyphs": [
+      {
+       "s": "𒅔",
+       "sign": "IN",
+       "role": "phon",
+       "tr": "in"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "in",
+       "gloss": "in, among — the older, poetic form of ina",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-gi₄-gi₄",
+     "say": "Igigī",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒄄",
+       "sign": "GI4",
+       "role": "phon",
+       "tr": "gi₄"
+      },
+      {
+       "s": "𒄄",
+       "sign": "GI4",
+       "role": "phon",
+       "tr": "gi₄"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Igigū",
+       "gloss": "the Igigi — the college of the great heavenly gods",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "u₂-šar-bé-u₃-šu",
+     "say": "ušarbiūšu",
+     "glyphs": [
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u₂",
+       "nl": true
+      },
+      {
+       "s": "𒊬",
+       "sign": "SAR",
+       "role": "phon",
+       "tr": "šar"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bé"
+      },
+      {
+       "s": "𒅇",
+       "sign": "U3",
+       "role": "phon",
+       "tr": "u₃"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rabûm",
+       "gloss": "to be great; š-causative ušarbiū “they made great” + -šu “him”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "him (accusative suffix)",
+       "g": [
+        4
+       ]
+      }
+     ]
+    }
+   ],
+   "l": "among the-Igigi they-made-great-him,",
+   "i": "made him great among the Igigi,",
+   "n": "ušarbiūšu is the š-causative of rabûm “to be great”: u-šarbi-ū-šu, “they-made-great-him.” The š-causative (“make X do/be”) is one of Akkadian’s workhorses — you will meet it constantly. in is the older form of ina “in.”",
+   "t": "𒅔 𒄿𒄄𒄄\n𒌑𒊬𒁉𒅇𒋗"
+  },
+  {
+   "ln": 16,
+   "words": [
+    {
+     "reading": "KA₂.DINGIR.RA{ki}",
+     "say": "Bābilam",
+     "glyphs": [
+      {
+       "s": "𒆍",
+       "sign": "KA2",
+       "role": "log",
+       "tr": "KA₂",
+       "val": "Bāb"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "log",
+       "tr": "DINGIR",
+       "val": "ilam"
+      },
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "log",
+       "tr": "RA"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Bābilum",
+       "gloss": "Babylon — written KA₂.DINGIR.RA “gate of the god”, the Sumerian rendering of Bāb-ilim; the silent KI marks a place-name",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šum-šu",
+     "say": "šumšu",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum",
+       "nl": true
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumum",
+       "gloss": "name: šum-šu “its name”",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "its (possessive suffix)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ṣi-ra-am",
+     "say": "ṣīram",
+     "glyphs": [
+      {
+       "s": "𒍣",
+       "sign": "ZI",
+       "role": "phon",
+       "tr": "ṣi"
+      },
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṣīrum",
+       "gloss": "lofty, exalted; acc. ṣīram — echoing line 1",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ib-bi-u₂",
+     "say": "ibbiū",
+     "glyphs": [
+      {
+       "s": "𒅁",
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ib"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      },
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u₂"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nabûm",
+       "gloss": "to name, call: ibbiū “they called” (n-verb; the n has assimilated: i-nbi- → ibbi-)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "l": "Babylon its-name the-lofty they-called,",
+   "i": "called Babylon by its lofty name,",
+   "n": "Babylon’s name is written KA₂.DINGIR.RA — Sumerian for “gate of the god”, matching the Akkadian folk-reading Bāb-ilim. The verb nabûm “to name” returns at the climax (i 49, “they called my name”), binding city and king together. ṣīram “lofty” deliberately echoes ṣīrum of line 1.",
+   "t": "𒆍𒀭𒊏𒆠\n𒋳𒋗 𒍣𒊏𒄠 𒅁𒁉𒌑"
+  },
+  {
+   "ln": 18,
+   "words": [
+    {
+     "reading": "in",
+     "say": "in",
+     "glyphs": [
+      {
+       "s": "𒅔",
+       "sign": "IN",
+       "role": "phon",
+       "tr": "in"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "in",
+       "gloss": "in, among — the older form of ina",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ki-ib-ra-tim",
+     "say": "kibrātim",
+     "glyphs": [
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "ki"
+      },
+      {
+       "s": "𒅁",
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ib"
+      },
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "𒁴",
+       "sign": "DIM",
+       "role": "phon",
+       "tr": "tim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kibrātum",
+       "gloss": "the world-quarters (kibrāt erbettim, “the four edges of the world”)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "u₂-ša-te-ru-šu",
+     "say": "ušāterūšu",
+     "glyphs": [
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u₂",
+       "nl": true
+      },
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša"
+      },
+      {
+       "s": "𒋼",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "te"
+      },
+      {
+       "s": "𒊒",
+       "sign": "RU",
+       "role": "phon",
+       "tr": "ru"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "watārum",
+       "gloss": "to be surpassing; š-causative ušāterū “they made supreme” + -šu “it”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "it (accusative suffix)",
+       "g": [
+        4
+       ]
+      }
+     ]
+    }
+   ],
+   "l": "in the-world-quarters they-made-supreme-it,",
+   "i": "made it supreme in the quarters of the world,",
+   "n": "Another š-causative, the second in five lines: ušāterūšu from watārum “to surpass.” kibrātum are the “banks/edges” of the world — the four quarters of the earth in Babylonian geography.",
+   "t": "𒅔 𒆠𒅁𒊏𒁴\n𒌑𒊭𒋼𒊒𒋗"
+  },
+  {
+   "ln": 20,
+   "words": [
+    {
+     "reading": "i-na",
+     "say": "ina",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ina",
+       "gloss": "in, within (preposition)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "li-ib-bi-šu",
+     "say": "libbišu",
+     "glyphs": [
+      {
+       "s": "𒇷",
+       "sign": "LI",
+       "role": "phon",
+       "tr": "li"
+      },
+      {
+       "s": "𒅁",
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ib"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "libbum",
+       "gloss": "heart, interior: ina libbi-šu “within it (Babylon)”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "its",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šar-ru-tam",
+     "say": "šarrūtam",
+     "glyphs": [
+      {
+       "s": "𒊬",
+       "sign": "SAR",
+       "role": "phon",
+       "tr": "šar",
+       "nl": true
+      },
+      {
+       "s": "𒊒",
+       "sign": "RU",
+       "role": "phon",
+       "tr": "ru"
+      },
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "phon",
+       "tr": "tam"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šarrūtum",
+       "gloss": "kingship (šarrum “king” + abstract -ūtum); acc.",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "da-ri₂-tam",
+     "say": "dārītam",
+     "glyphs": [
+      {
+       "s": "𒁕",
+       "sign": "DA",
+       "role": "phon",
+       "tr": "da"
+      },
+      {
+       "s": "𒌷",
+       "sign": "URU",
+       "role": "phon",
+       "tr": "ri₂"
+      },
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "phon",
+       "tr": "tam"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dārûm",
+       "gloss": "everlasting, eternal; fem. acc. dārītam",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ša",
+     "say": "ša",
+     "glyphs": [
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ša",
+       "gloss": "whose, which (relative particle)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ki-ma",
+     "say": "kīma",
+     "glyphs": [
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "ki"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kīma",
+       "gloss": "like, as",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ša-me-e",
+     "say": "šamê",
+     "glyphs": [
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša"
+      },
+      {
+       "s": "𒈨",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "me"
+      },
+      {
+       "s": "𒂊",
+       "sign": "E",
+       "role": "phon",
+       "tr": "e"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šamû",
+       "gloss": "heaven(s); gen. šamê",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ù",
+     "say": "u",
+     "glyphs": [
+      {
+       "s": "𒅇",
+       "sign": "U3",
+       "role": "phon",
+       "tr": "ù",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "and (ù)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ir-ṣi-tim",
+     "say": "erṣetim",
+     "glyphs": [
+      {
+       "s": "𒅕",
+       "sign": "IR",
+       "role": "phon",
+       "tr": "ir"
+      },
+      {
+       "s": "𒍣",
+       "sign": "ZI",
+       "role": "phon",
+       "tr": "ṣi"
+      },
+      {
+       "s": "𒁴",
+       "sign": "DIM",
+       "role": "phon",
+       "tr": "tim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "erṣetum",
+       "gloss": "earth; gen.",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "iš-da-ša",
+     "say": "išdāša",
+     "glyphs": [
+      {
+       "s": "𒅔",
+       "sign": "IN",
+       "role": "phon",
+       "tr": "iš",
+       "nl": true
+      },
+      {
+       "s": "𒁕",
+       "sign": "DA",
+       "role": "phon",
+       "tr": "da"
+      },
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "išdum",
+       "gloss": "foundation: išdā-ša “its (the kingship’s) foundations” (dual)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-ša",
+       "gloss": "its (feminine possessive)",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šu-ur-šu-da",
+     "say": "šuršudā",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu",
+       "nl": true
+      },
+      {
+       "s": "𒌨",
+       "sign": "UR",
+       "role": "phon",
+       "tr": "ur"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒁕",
+       "sign": "DA",
+       "role": "phon",
+       "tr": "da"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šuršudum",
+       "gloss": "firmly grounded (š-stem of rašādum “to be founded”): šuršudā “are made firm”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "u₂-ki-in-nu-šum",
+     "say": "ukinnūšum",
+     "glyphs": [
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u₂",
+       "nl": true
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "ki"
+      },
+      {
+       "s": "𒅔",
+       "sign": "IN",
+       "role": "phon",
+       "tr": "in"
+      },
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      },
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kânum",
+       "gloss": "to be firm; D-stem ukinnū “they established” + -šum “for him”",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    }
+   ],
+   "l": "within-it a-kingship everlasting, whose — like heaven and earth — its-foundations are-made-firm, they-established-for-him —",
+   "i": "and established for him within it an everlasting kingship whose foundations are as firm as heaven and earth —",
+   "n": "The longest span yet, and classic Akkadian architecture: object (šarrūtam dārītam) → relative clause (ša … šuršudā) → main verb last (ukinnūšum). The ša-clause literally runs “whose, like heaven and earth, its foundations are firm” — Akkadian keeps a resumptive “its” (išdā-ša) where English drops it. This closes the “when the gods…” half of the sentence begun in line 1.",
+   "t": "𒄿𒈾 𒇷𒅁𒁉𒋗\n𒊬𒊒𒌓 𒁕𒌷𒌓\n𒊭 𒆠𒈠 𒊭𒈨𒂊\n𒅇 𒅕𒍣𒁴\n𒅔𒁕𒊭\n𒋗𒌨𒋗𒁕\n𒌑𒆠𒅔𒉡𒋳"
+  },
+  {
+   "ln": 27,
+   "p": true,
+   "words": [
+    {
+     "reading": "i-nu-mi-šu",
+     "say": "inūmišu",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      },
+      {
+       "s": "𒈪",
+       "sign": "MI",
+       "role": "phon",
+       "tr": "mi"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "inūmišu",
+       "gloss": "“at that time” — the answering beat to inu of line 1: when the gods did all that … THEN",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫa-am-mu-ra-bi",
+     "say": "Ḫammurabi",
+     "glyphs": [
+      {
+       "s": "𒄩",
+       "sign": "HA",
+       "role": "phon",
+       "tr": "ḫa",
+       "nl": true
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      },
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "phon",
+       "tr": "mu"
+      },
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Ḫammurabi",
+       "gloss": "Hammurabi — the king’s own name, spelled out syllable by syllable; an Amorite name, “the kinsman is great”",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ru-ba-am",
+     "say": "rubâm",
+     "glyphs": [
+      {
+       "s": "𒊒",
+       "sign": "RU",
+       "role": "phon",
+       "tr": "ru",
+       "nl": true
+      },
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rubûm",
+       "gloss": "prince; acc. rubâm",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "na-a’-dam",
+     "say": "naʾdam",
+     "glyphs": [
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na",
+       "nl": true
+      },
+      {
+       "s": "𒄴",
+       "sign": "AH",
+       "role": "phon",
+       "tr": "a’"
+      },
+      {
+       "s": "𒁮",
+       "sign": "DAM",
+       "role": "phon",
+       "tr": "dam"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "naʾdum",
+       "gloss": "reverent, pious; acc. — “the pious prince”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "pa-li-iḫ",
+     "say": "pāliḫ",
+     "glyphs": [
+      {
+       "s": "𒉺",
+       "sign": "PA",
+       "role": "phon",
+       "tr": "pa",
+       "nl": true
+      },
+      {
+       "s": "𒇷",
+       "sign": "LI",
+       "role": "phon",
+       "tr": "li"
+      },
+      {
+       "s": "𒄴",
+       "sign": "AH",
+       "role": "phon",
+       "tr": "iḫ"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "palāḫum",
+       "gloss": "to fear, revere; participle pāliḫ “who fears”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-li₂",
+     "say": "ilī",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "li₂"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ilum",
+       "gloss": "god; gen. pl. ilī “of the gods”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ia-ti",
+     "say": "jâti",
+     "glyphs": [
+      {
+       "s": "𒅀",
+       "sign": "IA",
+       "role": "phon",
+       "tr": "ia"
+      },
+      {
+       "s": "𒋾",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "jâti",
+       "gloss": "me — the independent pronoun, planted long before its verb arrives in line 49",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "l": "at-that-time Hammurabi, the-prince the-pious, fearer of-the-gods, me —",
+   "i": "at that time the gods named me, Hammurabi, the pious prince, who fears the gods —",
+   "n": "inūmišu “at that time” answers the inu of line 1 — the hinge of the whole prologue. Then comes the name: Ḫa-am-mu-ra-bi, spelled out in five syllables (many editions read the last sign as -pi₂: same sign, BI). And note jâti “me” — the object of a verb that will not arrive for eighteen more lines.",
+   "t": "𒄿𒉡𒈪𒋗\n𒄩𒄠𒈬𒊏𒁉\n𒊒𒁀𒄠\n𒈾𒄴𒁮\n𒉺𒇷𒄴 𒄿𒉌 𒅀𒋾"
+  },
+  {
+   "ln": 32,
+   "words": [
+    {
+     "reading": "mi-ša-ra-am",
+     "say": "mīšaram",
+     "glyphs": [
+      {
+       "s": "𒈪",
+       "sign": "MI",
+       "role": "phon",
+       "tr": "mi"
+      },
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša"
+      },
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mīšarum",
+       "gloss": "justice, equity — the key word of the whole monument; acc.",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-na",
+     "say": "ina",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ina",
+       "gloss": "in",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ma-tim",
+     "say": "mātim",
+     "glyphs": [
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "𒁴",
+       "sign": "DIM",
+       "role": "phon",
+       "tr": "tim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mātum",
+       "gloss": "land; gen.",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "to, for — with the infinitive: “in order to”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šu-pi₂-i-im",
+     "say": "šūpîm",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "pi₂"
+      },
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šūpûm",
+       "gloss": "to make appear, make manifest (š-stem of wapûm); ana šūpîm “to make appear”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "l": "justice in the-land to make-appear,",
+   "i": "to make justice appear in the land,",
+   "n": "The mission statement. mīšarum is justice as fairness — the same word Babylonian kings used for their debt-cancelling “justice edicts.” The pattern ana + infinitive (“in order to…”) now repeats four times in a row; watch for it. Harper read the second sign šu-bi-i-im; the sign BI also carries the value pi₂, and the verb is šūpûm.",
+   "t": "𒈪𒊭𒊏𒄠\n𒄿𒈾 𒈠𒁴\n𒀀𒈾 𒋗𒁉𒄿𒅎"
+  },
+  {
+   "ln": 35,
+   "words": [
+    {
+     "reading": "ra-ga-am",
+     "say": "raggam",
+     "glyphs": [
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "𒂵",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "ga"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "raggum",
+       "gloss": "the wicked (one); acc.",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ù",
+     "say": "u",
+     "glyphs": [
+      {
+       "s": "𒅇",
+       "sign": "U3",
+       "role": "phon",
+       "tr": "ù"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "and",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ṣi-nam",
+     "say": "ṣēnam",
+     "glyphs": [
+      {
+       "s": "𒍣",
+       "sign": "ZI",
+       "role": "phon",
+       "tr": "ṣi"
+      },
+      {
+       "s": "𒉆",
+       "sign": "NAM",
+       "role": "phon",
+       "tr": "nam"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṣēnum",
+       "gloss": "the evil (one); acc. (Harper reads ṣi-nam; same signs)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "to, for — “in order to”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫu-ul-lu-qi₂-im",
+     "say": "ḫulluqim",
+     "glyphs": [
+      {
+       "s": "𒄷",
+       "sign": "HU",
+       "role": "phon",
+       "tr": "ḫu"
+      },
+      {
+       "s": "𒌌",
+       "sign": "UL",
+       "role": "phon",
+       "tr": "ul"
+      },
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "qi₂"
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫulluqum",
+       "gloss": "to destroy (D-stem of ḫalāqum “to vanish”): “to make vanish”",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    }
+   ],
+   "l": "the-wicked and the-evil to destroy,",
+   "i": "to destroy the wicked and the evil,",
+   "n": "Second purpose clause: ana ḫulluqim, the D-stem of ḫalāqum “to vanish” — literally “to make (them) vanish.” The D-stem (doubled middle consonant) often makes a verb causative or intensive; another workhorse pattern.",
+   "t": "𒊏𒂵𒄠 𒅇 𒍣𒉆\n𒀀𒈾 𒄷𒌌𒇻𒆠𒅎"
+  },
+  {
+   "ln": 37,
+   "words": [
+    {
+     "reading": "dan-nu-um",
+     "say": "dannum",
+     "glyphs": [
+      {
+       "s": "𒆗",
+       "sign": "KAL",
+       "role": "log",
+       "tr": "dan",
+       "val": "dan"
+      },
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      },
+      {
+       "s": "𒌝",
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dannum",
+       "gloss": "the strong (one); nominative — subject of the clause inside “that the strong not wrong the weak”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "en-ša-am",
+     "say": "enšam",
+     "glyphs": [
+      {
+       "s": "𒂗",
+       "sign": "EN",
+       "role": "phon",
+       "tr": "en",
+       "nl": true
+      },
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "enšum",
+       "gloss": "the weak (one); acc.",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "to, for — “in order that”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "la",
+     "say": "lā",
+     "glyphs": [
+      {
+       "s": "𒆷",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lā",
+       "gloss": "not",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫa-ba-li-im",
+     "say": "ḫabālim",
+     "glyphs": [
+      {
+       "s": "𒄩",
+       "sign": "HA",
+       "role": "phon",
+       "tr": "ḫa"
+      },
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒇷",
+       "sign": "LI",
+       "role": "phon",
+       "tr": "li"
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫabālum",
+       "gloss": "to wrong, oppress; ana lā ḫabālim “that (the strong) not wrong (the weak)”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "l": "the-strong the-weak — to not oppressing,",
+   "i": "so that the strong might not wrong the weak,",
+   "n": "The most quoted line of the monument. Akkadian packs a whole clause into a phrase: dannum (nominative!) stays the subject of the infinitive — “for the-strong not-wronging the-weak.” dan is written with the KAL sign, a logogram carrying its Akkadian value.",
+   "t": "𒆗𒉡𒌝\n𒂗𒊭𒄠\n𒀀𒈾 𒆷 𒄩𒁀𒇷𒅎"
+  },
+  {
+   "ln": 40,
+   "words": [
+    {
+     "reading": "ki-ma",
+     "say": "kīma",
+     "glyphs": [
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "ki"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kīma",
+       "gloss": "like, as",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "{d}UTU",
+     "say": "Šamaš",
+     "glyphs": [
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "log",
+       "tr": "UTU",
+       "val": "Šamaš"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Šamaš",
+       "gloss": "Shamash, the sun-god and god of justice — written {d}UTU",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "to, over",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "SAG.GI₆",
+     "say": "ṣalmāt qaqqadim",
+     "glyphs": [
+      {
+       "s": "𒊕",
+       "sign": "SAG",
+       "role": "log",
+       "tr": "SAG",
+       "val": "ṣalmāt"
+      },
+      {
+       "s": "𒈪",
+       "sign": "MI",
+       "role": "log",
+       "tr": "GI₆",
+       "val": "qaqqadim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṣalmāt qaqqadim",
+       "gloss": "“the black-headed (people)” — mankind; written with the Sumerogram SAG.GI₆ “head-black” (Harper: SAG.GIG)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wa-ṣi-e-im-ma",
+     "say": "waṣêmma",
+     "glyphs": [
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wa",
+       "nl": true
+      },
+      {
+       "s": "𒍣",
+       "sign": "ZI",
+       "role": "phon",
+       "tr": "ṣi"
+      },
+      {
+       "s": "𒂊",
+       "sign": "E",
+       "role": "phon",
+       "tr": "e"
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "waṣûm",
+       "gloss": "to go out, rise (of the sun): ana waṣêm “to rise” + -ma “and”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-ma",
+       "gloss": "and (the connective particle, chaining this purpose to the next)",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ma-tim",
+     "say": "mātim",
+     "glyphs": [
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma",
+       "nl": true
+      },
+      {
+       "s": "𒁴",
+       "sign": "DIM",
+       "role": "phon",
+       "tr": "tim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mātum",
+       "gloss": "land; gen.",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nu-wu-ri-im",
+     "say": "nuwwurim",
+     "glyphs": [
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu",
+       "nl": true
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wu"
+      },
+      {
+       "s": "𒊑",
+       "sign": "RI",
+       "role": "phon",
+       "tr": "ri"
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nawārum",
+       "gloss": "to be bright; D-stem nuwwurum “to light up”: (ana) mātim nuwwurim “to light up the land”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "l": "like Shamash over the-black-headed to rise-and the-land to-light-up,",
+   "i": "to rise like Shamash over the black-headed people and light up the land,",
+   "n": "The king as sunrise: Shamash is both sun and judge, so the simile carries the law with it. ṣalmāt qaqqadim “the black-headed” is the Mesopotamian idiom for mankind, here compressed into two signs, SAG.GI₆ “head-black.” The sign PI does double duty in this unit as wa and wu. The little -ma on waṣêm chains the two infinitives: “to rise … and light up.”",
+   "t": "𒆠𒈠 𒀭𒌓\n𒀀𒈾 𒊕𒈪\n𒉿𒍣𒂊𒅎𒈠\n𒈠𒁴\n𒉡𒉿𒊑𒅎"
+  },
+  {
+   "ln": 45,
+   "words": [
+    {
+     "reading": "AN",
+     "say": "Anum",
+     "glyphs": [
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "log",
+       "tr": "AN",
+       "val": "Anum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Anum",
+       "gloss": "Anum — again the bare AN sign, a whole line of the stele to itself",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ù",
+     "say": "u",
+     "glyphs": [
+      {
+       "s": "𒅇",
+       "sign": "U3",
+       "role": "phon",
+       "tr": "ù",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "and",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "{d}EN.LÍL",
+     "say": "Ellil",
+     "glyphs": [
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒂗",
+       "sign": "EN",
+       "role": "log",
+       "tr": "EN",
+       "val": "El"
+      },
+      {
+       "s": "𒆤",
+       "sign": "KID",
+       "role": "log",
+       "tr": "LÍL",
+       "val": "lil"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Enlil",
+       "gloss": "Enlil — the same pair of gods who opened the sentence in lines 1–3",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "for",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ši-ir",
+     "say": "šīr",
+     "glyphs": [
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "ši"
+      },
+      {
+       "s": "𒅕",
+       "sign": "IR",
+       "role": "phon",
+       "tr": "ir"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šīrum",
+       "gloss": "flesh, body; construct šīr — “the wellbeing of”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ši",
+     "say": "nišī",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "ši"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nišū",
+       "gloss": "people; gen. nišī",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tu-ub-bi-im",
+     "say": "ṭubbim",
+     "glyphs": [
+      {
+       "s": "𒌅",
+       "sign": "TU",
+       "role": "phon",
+       "tr": "tu",
+       "nl": true
+      },
+      {
+       "s": "𒌒",
+       "sign": "UB",
+       "role": "phon",
+       "tr": "ub"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṭâbum",
+       "gloss": "to be good; D-stem ṭubbum “to make good”: ana šīr nišī ṭubbim “to make the people’s flesh good” = for their wellbeing",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šu-mi",
+     "say": "šumī",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu",
+       "nl": true
+      },
+      {
+       "s": "𒈪",
+       "sign": "MI",
+       "role": "phon",
+       "tr": "mi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumum",
+       "gloss": "name: šum-ī “my name”",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-ī",
+       "gloss": "my (possessive suffix)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ib-bu-u₂",
+     "say": "ibbiū",
+     "glyphs": [
+      {
+       "s": "𒅁",
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ib"
+      },
+      {
+       "s": "𒁍",
+       "sign": "BU",
+       "role": "phon",
+       "tr": "bu"
+      },
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u₂"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nabûm",
+       "gloss": "to name, call: ibbiū “they called” — the main verb at last, 49 lines after inu",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "l": "Anum and Enlil, for the-flesh of-the-people to-make-good, my-name they-called.",
+   "i": "then Anum and Enlil called me by name, for the wellbeing of the people.",
+   "n": "Arrival. The subjects of line 1 return (Anum and Enlil — Anum again a single sign on its own stele line), one last purpose clause, and then the payoff: šumī ibbiū “they called my name.” The same verb that named Babylon (i 17) now names the king. One sentence, forty-nine lines, closed.",
+   "t": "𒀭\n𒅇 𒀭𒂗𒆤\n𒀀𒈾 𒅆𒅕 𒉌𒅆\n𒌅𒌒𒁉𒅎\n𒋗𒈪 𒅁𒁍𒌑"
+  },
+  {
+   "ln": 50,
+   "p": true,
+   "words": [
+    {
+     "reading": "ḫa-am-mu-ra-bi",
+     "say": "Ḫammurabi",
+     "glyphs": [
+      {
+       "s": "𒄩",
+       "sign": "HA",
+       "role": "phon",
+       "tr": "ḫa"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      },
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "phon",
+       "tr": "mu"
+      },
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Ḫammurabi",
+       "gloss": "Hammurabi",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ri-i-a-um",
+     "say": "rēʾûm",
+     "glyphs": [
+      {
+       "s": "𒊑",
+       "sign": "RI",
+       "role": "phon",
+       "tr": "ri",
+       "nl": true
+      },
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒌝",
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rēʾûm",
+       "gloss": "shepherd — the royal metaphor: the king as herdsman of his people",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-bi-it",
+     "say": "nibīt",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni",
+       "nl": true
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      },
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "it"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nibītum",
+       "gloss": "the named, the called-one (from nabûm); construct nibīt “called of”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "{d}EN.LÍL",
+     "say": "Ellil",
+     "glyphs": [
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "det",
+       "tr": "",
+       "nl": true
+      },
+      {
+       "s": "𒂗",
+       "sign": "EN",
+       "role": "log",
+       "tr": "EN",
+       "val": "El"
+      },
+      {
+       "s": "𒆤",
+       "sign": "KID",
+       "role": "log",
+       "tr": "LÍL",
+       "val": "lil"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Enlil",
+       "gloss": "Enlil",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-na-ku",
+     "say": "anāku",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "𒆪",
+       "sign": "KU",
+       "role": "phon",
+       "tr": "ku"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "anāku",
+       "gloss": "I (am) — the independent pronoun as a one-word predicate",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "l": "Hammurabi, the-shepherd, the-called of-Enlil, I(-am).",
+   "i": "I am Hammurabi, the shepherd, called by Enlil.",
+   "n": "The king steps forward and speaks: a nominal sentence with no verb “to be” — the row of titles simply lands on anāku, “I.” From here the prologue unrolls a long litany of “I am he who…” epithets, city by city, down the stele. rēʾûm “shepherd” is the oldest royal metaphor in Mesopotamia.",
+   "t": "𒄩𒄠𒈬𒊏𒁉\n𒊑𒄿𒀀𒌝\n𒉌𒁉𒀉\n𒀭𒂗𒆤 𒀀𒈾𒆪"
+  }
+ ],
+ "glossary": {
+  "inu": "when (temporal conjunction; archaic/poetic)",
+  "Anum": "Anum — the sky-god, head of the pantheon (written with the bare AN sign)",
+  "ṣīrum": "lofty, exalted",
+  "šarrum": "king (LUGAL); šarrūtum kingship",
+  "Anunnakū": "the Anunnaki — the great gods as a college",
+  "Enlil": "Enlil ({d}EN.LÍL) — lord of the lands, chief of the pantheon’s executive",
+  "bēlum": "lord",
+  "šamû": "heaven(s)",
+  "u": "and (ù)",
+  "erṣetum": "earth",
+  "šâmum": "to determine, fix, allot (destinies)",
+  "šīmtum": "destiny, fate; pl. šīmātum",
+  "mātum": "land, country",
+  "ana": "to, for; with infinitive: in order to",
+  "Marduk": "Marduk ({d}AMAR.UTU) — god of Babylon",
+  "mārum": "son",
+  "rēštûm": "firstborn, foremost",
+  "ša": "who, which, of (relative particle)",
+  "Ea": "Ea ({d}EN.KI) — god of wisdom and the deep, Marduk’s father",
+  "illilūtum": "“Enlil-ship” — supreme divine authority",
+  "kiššatum": "totality, all (written with the KIŠ sign)",
+  "nišū": "people, mankind (plural)",
+  "in": "in, among (older form of ina)",
+  "Igigū": "the Igigi — the college of the great heavenly gods",
+  "rabûm": "to be(come) great; š-stem šurbûm to make great",
+  "-šu": "him / it / its (3rd-person suffix)",
+  "-ša": "her / its (3rd-person feminine suffix)",
+  "-ī": "my (1st-person possessive suffix)",
+  "-ma": "and (enclitic connective particle)",
+  "Bābilum": "Babylon (KA₂.DINGIR.RA{ki}, “gate of the god” = Bāb-ilim)",
+  "šumum": "name",
+  "nabûm": "to name, call",
+  "kibrātum": "the world-quarters, the edges of the world",
+  "watārum": "to be surpassing; š-stem šūturum to make supreme",
+  "ina": "in, within",
+  "libbum": "heart; interior — ina libbi “inside”",
+  "šarrūtum": "kingship",
+  "dārûm": "everlasting, eternal",
+  "kīma": "like, as",
+  "išdum": "foundation",
+  "šuršudum": "firmly grounded (š-stem of rašādum)",
+  "kânum": "to be(come) firm; D-stem kunnum to establish",
+  "inūmišu": "at that time (answers inu “when”)",
+  "Ḫammurabi": "Hammurabi, king of Babylon c. 1792–1750 BCE (Amorite name, “the kinsman is great”)",
+  "rubûm": "prince",
+  "naʾdum": "reverent, pious",
+  "palāḫum": "to fear, revere",
+  "ilum": "god",
+  "jâti": "me (independent accusative pronoun)",
+  "mīšarum": "justice, equity",
+  "šūpûm": "to make appear, make manifest (š-stem of wapûm)",
+  "raggum": "wicked (one)",
+  "ṣēnum": "evil (one)",
+  "ḫulluqum": "to destroy, make vanish (D-stem of ḫalāqum)",
+  "dannum": "strong (one)",
+  "enšum": "weak (one)",
+  "lā": "not",
+  "ḫabālum": "to wrong, oppress",
+  "Šamaš": "Shamash ({d}UTU) — the sun-god, god of justice",
+  "ṣalmāt qaqqadim": "“the black-headed (people)” — mankind (SAG.GI₆)",
+  "waṣûm": "to go out; (of the sun) to rise",
+  "nawārum": "to be bright; D-stem nuwwurum to light up",
+  "šīrum": "flesh, body; wellbeing",
+  "ṭâbum": "to be good; D-stem ṭubbum to make good",
+  "rēʾûm": "shepherd",
+  "nibītum": "the named/called one",
+  "anāku": "I"
+ }
+}

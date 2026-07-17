@@ -513,7 +513,10 @@
    "type": "numeral",
    "sound": "1",
    "determines": null,
-   "note": "A single upright wedge; stacked up to nine for 1–9."
+   "note": "A single upright wedge; stacked up to nine for 1–9.",
+   "values": [
+    "1 — I MA.NA “one mina” (§24)"
+   ]
   },
   "U": {
    "glyph": "𒌋",
@@ -811,7 +814,8 @@
    "sound": "KA₂",
    "determines": null,
    "values": [
-    "KA₂ — “gate”; opens KA₂.DINGIR.RA “Babylon”, Bāb-ilim “gate of the god”"
+    "KA₂ — “gate”; opens KA₂.DINGIR.RA “Babylon”, Bāb-ilim “gate of the god”",
+    "KÁ.GAL = abullum, the city gate (§15)"
    ]
   },
   "TE": {
@@ -1639,7 +1643,8 @@
    "sound": "KAR",
    "determines": null,
    "values": [
-    "KAR (the TE sign with extra strokes) — karûm “grain-heap”"
+    "KAR (the TE sign with extra strokes) — karûm “grain-heap”",
+    "kar (syllable) — in iz-za-kar “he declared” (zakārum)"
    ]
   },
   "SAL": {
@@ -1761,7 +1766,58 @@
    "sound": "2",
    "determines": null,
    "values": [
-    "2; with U: the numeral 12 (adi 12-šu “twelvefold”)"
+    "2; with U: the numeral 12 (adi 12-šu “twelvefold”)",
+    "2 — II GÍN “two shekels” (§17)"
+   ]
+  },
+  "IA5": {
+   "glyph": "𒐊",
+   "name": "5 — five wedges",
+   "type": "numeral",
+   "sound": "5",
+   "determines": null,
+   "values": [
+    "5 — adi 5-šu “up to five times over” (§12)"
+   ]
+  },
+  "SHESH6": {
+   "glyph": "𒐋",
+   "name": "6 — six wedges",
+   "type": "numeral",
+   "sound": "6",
+   "determines": null,
+   "values": [
+    "6 — ITI VI{kam} “the sixth month” (§13)"
+   ]
+  },
+  "ITI": {
+   "glyph": "𒌗",
+   "name": "month (iti / warḫum)",
+   "type": "logogram",
+   "sound": "ITI",
+   "determines": null,
+   "values": [
+    "ITI — “month”, Akkadian warḫum: the UD “day” sign with 30 inside — a month of days"
+   ]
+  },
+  "KAM": {
+   "glyph": "𒄰",
+   "name": "kam — the ordinal marker",
+   "type": "determinative",
+   "sound": "after",
+   "determines": "ordinal numbers — VI{kam} “the sixth”",
+   "values": [
+    "after a numeral, makes it an ordinal: VI{kam} “the sixth”"
+   ]
+  },
+  "GIN2": {
+   "glyph": "𒂇",
+   "name": "shekel (gín / šiqlum)",
+   "type": "logogram",
+   "sound": "GÍN",
+   "determines": null,
+   "values": [
+    "GÍN — “shekel”, Akkadian šiqlum: the basic weight of silver, about 8.3 g"
    ]
   }
  }

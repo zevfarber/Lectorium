@@ -1,0 +1,8528 @@
+{
+ "id": "hammurabi-laws-11-25",
+ "title": "𒋳𒈠 𒀀𒉿𒈝",
+ "titleRead": "šumma awīlum",
+ "titleEn": "Laws of Hammurabi — §11–25: theft II & the household (vii 62 – ix 65)",
+ "language": "Akkadian (Old Babylonian)",
+ "langCode": null,
+ "script": "cuneiform",
+ "font": "old-babylonian",
+ "work": "Codex Ḫammurabi",
+ "workEn": "Laws of Hammurabi",
+ "part": "Laws §11–25 · theft II & the household (Col. vii 62 – ix 65)",
+ "numbering": "clause",
+ "provisional": true,
+ "draftNote": "The § chips number the laws (Harper’s sectioning, still standard); long laws span several tap-units. Readings checked sign-by-sign against Harper’s 1904 edition.",
+ "source": "Louvre stele, after R.F. Harper, The Code of Hammurabi, King of Babylon (Chicago, 1904): transliteration pp. 14–21, autograph Plates X–XV, List of Signs. Readings are Harper’s in modern subscript notation. Cuneiform in Old Babylonian monumental sign forms via the SantakkuM webfont by Sylvie Vanséveren (CC BY 4.0); pronunciation: conventional reconstructed Old Babylonian. Fresh translations made directly from the Akkadian; Harper’s public-domain translation consulted for sense only.",
+ "about": "The lost-goods trial of §9–10 finishes its arc: the claimant who cannot produce his witnesses (§11) is the liar, and heirs may still sue a dead seller’s estate fivefold (§12–13). Then the household: stealing a man’s young son (§14), abducting or harboring palace slaves (§15–16), the runaway caught in the open — returned for two shekels (§17), interrogated (§18), kept (§19), or lost on the road under oath (§20). §21–25 are the burglar hanged in the hole he cut, the robber, the city that must restore what its district could not protect, and the firefighter who loots the blaze — thrown into that very fire.",
+ "sentences": [
+  {
+   "t": "𒋳𒈠 𒁁𒂖𒄷𒌌𒆠𒅎\n𒅆𒁉𒈬𒁲\n𒄷𒌌𒆠𒋗\n𒆷 𒀉𒁀𒇴\n𒍝𒅈\n𒌅𒍑𒊭𒄠𒈠 𒀉𒆠\n𒀉𒁕𒀝",
+   "l": "If the-owner of-the-lost-thing witnesses knowing his-lost-thing not brought, a-liar (he is): slander he-stirred-up — he-shall-be-killed.",
+   "i": "If the owner of the lost property has not brought witnesses who know his property, he is a liar who has stirred up a false charge — he shall be killed.",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "be-el ḫu-ul-qi₂-im",
+     "say": "bēl ḫulqim",
+     "glyphs": [
+      {
+       "s": "𒁁",
+       "sign": "BAD",
+       "role": "phon",
+       "tr": "be"
+      },
+      {
+       "s": "𒂖",
+       "sign": "EL",
+       "role": "phon",
+       "tr": "el"
+      },
+      {
+       "s": "𒄷",
+       "sign": "HU",
+       "role": "phon",
+       "tr": "ḫu"
+      },
+      {
+       "s": "𒌌",
+       "sign": "UL",
+       "role": "phon",
+       "tr": "ul"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "qi₂"
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bēlum",
+       "gloss": "owner, lord: bēl ḫulqim “owner of the lost property”",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "ḫulqum",
+       "gloss": "the lost thing, lost property; ḫuluqšu “his lost property”",
+       "g": [
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ši-bi mu-di",
+     "say": "šībī mūdi",
+     "glyphs": [
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "ši",
+       "nl": true
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      },
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "phon",
+       "tr": "mu"
+      },
+      {
+       "s": "𒁲",
+       "sign": "DI",
+       "role": "phon",
+       "tr": "di"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šībum",
+       "gloss": "witness; pl. šībū/šībī",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "mūdûm",
+       "gloss": "one who knows: šībī mūdi ḫulqišu “witnesses who know his lost property”; mūdûssunu “what they know”",
+       "g": [
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫu-ul-qi₂-šu",
+     "say": "ḫulqišu",
+     "glyphs": [
+      {
+       "s": "𒄷",
+       "sign": "HU",
+       "role": "phon",
+       "tr": "ḫu",
+       "nl": true
+      },
+      {
+       "s": "𒌌",
+       "sign": "UL",
+       "role": "phon",
+       "tr": "ul"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "qi₂"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫulqum",
+       "gloss": "the lost thing, lost property; ḫuluqšu “his lost property”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "la",
+     "say": "lā",
+     "glyphs": [
+      {
+       "s": "𒆷",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lā",
+       "gloss": "not (in subordinate and nominal contexts)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "it-ba-lam",
+     "say": "itbalam",
+     "glyphs": [
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "it"
+      },
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒇴",
+       "sign": "LAM",
+       "role": "phon",
+       "tr": "lam"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wabālum",
+       "gloss": "to bring, carry: itbalam “he brought”, lū ublam “let me bring”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ṣa-ar",
+     "say": "sar",
+     "glyphs": [
+      {
+       "s": "𒍝",
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "ṣa",
+       "nl": true
+      },
+      {
+       "s": "𒅈",
+       "sign": "AR",
+       "role": "phon",
+       "tr": "ar"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "sarrum",
+       "gloss": "liar; false: sar “he is a liar”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tu-uš-ša-am-ma",
+     "say": "tuššamma",
+     "glyphs": [
+      {
+       "s": "𒌅",
+       "sign": "TU",
+       "role": "phon",
+       "tr": "tu",
+       "nl": true
+      },
+      {
+       "s": "𒍑",
+       "sign": "USH",
+       "role": "phon",
+       "tr": "uš"
+      },
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tuššum",
+       "gloss": "slander, malicious talk: tuššamma idki “he has stirred up slander”",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "id-ki",
+     "say": "idki",
+     "glyphs": [
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "id"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "ki"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dekûm",
+       "gloss": "to raise, stir up: tuššamma idki “he stirred up slander”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "id-da-ak",
+     "say": "iddâk",
+     "glyphs": [
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "id",
+       "nl": true
+      },
+      {
+       "s": "𒁕",
+       "sign": "DA",
+       "role": "phon",
+       "tr": "da"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "phon",
+       "tr": "ak"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dâkum",
+       "gloss": "to kill; N-stem iddâk “he shall be killed” — the code’s death sentence",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "ln": 11,
+   "p": true,
+   "n": "The procedure of §9–10 closes on the third possibility: the “owner” who cannot prove ownership is himself the criminal. sar tuššamma idki — “a liar: he raised slander” — and the death he sought falls on him, as in §1."
+  },
+  {
+   "t": "𒋳𒈠 𒈾𒁲𒈾𒉡𒌝\n𒀀𒈾 𒅆𒅎𒁴\n𒀉𒋫𒆷𒀝\n𒊭𒀀𒀀𒈠𒉡𒌝\n𒄿𒈾 𒁉𒀉\n𒈾𒁲𒈾𒉏\n𒊒𒄖𒌝𒈨𒂊\n𒁲𒉏 𒋗𒀀𒋾\n𒀀𒁺𒐊𒋗\n𒄿𒇷𒆠",
+   "l": "If the-seller to fate has-gone, the-buyer from the-house of-the-seller the-claim of-case that five-fold shall-take.",
+   "i": "If the seller has meanwhile gone to his fate, the buyer may take from the seller’s estate five times the claim of that case.",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "na-di-na-nu-um",
+     "say": "nādinānum",
+     "glyphs": [
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "𒁲",
+       "sign": "DI",
+       "role": "phon",
+       "tr": "di"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      },
+      {
+       "s": "𒌝",
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nādinānum",
+       "gloss": "seller: nādin “the seller (who)”",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "to, for",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ši-im-tim",
+     "say": "šīmtim",
+     "glyphs": [
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "ši"
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      },
+      {
+       "s": "𒁴",
+       "sign": "DIM",
+       "role": "phon",
+       "tr": "tim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šīmtum",
+       "gloss": "fate; one’s natural death: ana šīmtim ittalak “he went to (his) fate” = he died",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "it-ta-la-ak",
+     "say": "ittalak",
+     "glyphs": [
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "it",
+       "nl": true
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "𒆷",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "phon",
+       "tr": "ak"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "alākum",
+       "gloss": "to go: illak “he shall go”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ša-a-a-ma-nu-um",
+     "say": "šayyāmānum",
+     "glyphs": [
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša",
+       "nl": true
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      },
+      {
+       "s": "𒌝",
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šayyāmānum",
+       "gloss": "buyer, purchaser",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-na",
+     "say": "ina",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ina",
+       "gloss": "in, from",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bi-it",
+     "say": "bīt",
+     "glyphs": [
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      },
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "it"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bītum",
+       "gloss": "house, estate",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "na-di-na-nim",
+     "say": "nādinānim",
+     "glyphs": [
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na",
+       "nl": true
+      },
+      {
+       "s": "𒁲",
+       "sign": "DI",
+       "role": "phon",
+       "tr": "di"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "𒉏",
+       "sign": "NIM",
+       "role": "phon",
+       "tr": "nim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nādinānum",
+       "gloss": "seller: nādin “the seller (who)”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ru-gu-um-me-e",
+     "say": "rugummê",
+     "glyphs": [
+      {
+       "s": "𒊒",
+       "sign": "RU",
+       "role": "phon",
+       "tr": "ru",
+       "nl": true
+      },
+      {
+       "s": "𒄖",
+       "sign": "GU",
+       "role": "phon",
+       "tr": "gu"
+      },
+      {
+       "s": "𒌝",
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      },
+      {
+       "s": "𒈨",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "me"
+      },
+      {
+       "s": "𒂊",
+       "sign": "E",
+       "role": "phon",
+       "tr": "e"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rugummûm",
+       "gloss": "claim, disputed amount",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "di-nim",
+     "say": "dīnim",
+     "glyphs": [
+      {
+       "s": "𒁲",
+       "sign": "DI",
+       "role": "phon",
+       "tr": "di",
+       "nl": true
+      },
+      {
+       "s": "𒉏",
+       "sign": "NIM",
+       "role": "phon",
+       "tr": "nim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dīnum",
+       "gloss": "case, lawsuit; judgment: dīn napištim “a case of life”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šu-a-ti",
+     "say": "šuāti",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒋾",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šuāti",
+       "gloss": "that, the aforesaid",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-du V-šu",
+     "say": "adi 5-šu",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒁺",
+       "sign": "DU",
+       "role": "phon",
+       "tr": "du"
+      },
+      {
+       "s": "𒐊",
+       "sign": "IA5",
+       "role": "log",
+       "tr": "V",
+       "val": "5"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "adi",
+       "gloss": "up to, times: adi 12-šu “twelvefold”",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "5-šu",
+       "gloss": "fivefold: adi 5-šu “up to five times over”",
+       "g": [
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-li-qi₂",
+     "say": "ileqqi",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒇷",
+       "sign": "LI",
+       "role": "phon",
+       "tr": "li"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "qi₂"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "leqûm",
+       "gloss": "to take: ileqqi “he shall take”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "ln": 12,
+   "n": "ana šīmtim alākum, “to go to one’s destiny,” is Akkadian’s gentlest word for dying — the same šīmtum the gods fixed in the prologue. Even death does not close the seller’s account: his estate pays fivefold."
+  },
+  {
+   "t": "𒋳𒈠 𒀀𒉿𒈝 𒋗𒌑\n𒅆𒁍𒋗 𒆷 𒄈𒁍\n𒁕𒀀𒀀𒉡 𒀀𒁕𒉆\n𒀀𒈾 𒌗𒐋𒄰\n𒄿𒊭𒀝𒅗𒉡𒋳𒈠",
+   "l": "If man that — his-witnesses not (are) at-hand — the-judges a-term of six-months shall-set-for-him-and:",
+   "i": "If that man’s witnesses are not at hand, the judges shall set him a term of six months;",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lum",
+     "say": "awīlum",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šu-u",
+     "say": "šū",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šū",
+       "gloss": "he, that (šū/šuāti “that (man)”)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ši-bu-šu",
+     "say": "šībūšu",
+     "glyphs": [
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "ši",
+       "nl": true
+      },
+      {
+       "s": "𒁍",
+       "sign": "BU",
+       "role": "phon",
+       "tr": "bu"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šībum",
+       "gloss": "witness; pl. šībū/šībī",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "la",
+     "say": "lā",
+     "glyphs": [
+      {
+       "s": "𒆷",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lā",
+       "gloss": "not (in subordinate and nominal contexts)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "kir-bu",
+     "say": "qerbū",
+     "glyphs": [
+      {
+       "s": "𒄈",
+       "sign": "GIR2",
+       "role": "phon",
+       "tr": "kir"
+      },
+      {
+       "s": "𒁍",
+       "sign": "BU",
+       "role": "phon",
+       "tr": "bu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "qerbum",
+       "gloss": "near, at hand: šībūšu lā qerbū “his witnesses are not at hand”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "da-a-a-nu",
+     "say": "dajjānū",
+     "glyphs": [
+      {
+       "s": "𒁕",
+       "sign": "DA",
+       "role": "phon",
+       "tr": "da",
+       "nl": true
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dajjānum",
+       "gloss": "judge (da-a-a-nu-um); pl. dajjānū",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-da-nam",
+     "say": "adannam",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒁕",
+       "sign": "DA",
+       "role": "phon",
+       "tr": "da"
+      },
+      {
+       "s": "𒉆",
+       "sign": "NAM",
+       "role": "phon",
+       "tr": "nam"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "adannum",
+       "gloss": "set term, deadline: adannam “a term (of six months)”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "to, for",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ITI VI{kam}",
+     "say": "warḫim šeššim",
+     "glyphs": [
+      {
+       "s": "𒌗",
+       "sign": "ITI",
+       "role": "log",
+       "tr": "ITI",
+       "val": "warḫim"
+      },
+      {
+       "s": "𒐋",
+       "sign": "SHESH6",
+       "role": "log",
+       "tr": "VI",
+       "val": "6"
+      },
+      {
+       "s": "𒄰",
+       "sign": "KAM",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "warḫum",
+       "gloss": "month (written with ITI, the moon-month sign): warḫim “of the month”",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "6-kam",
+       "gloss": "sixth (KAM marks the ordinal): warḫim šeššim “of the sixth month”",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-ša-ak-ka-nu-šum-ma",
+     "say": "išakkanūšumma",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "phon",
+       "tr": "ak"
+      },
+      {
+       "s": "𒅗",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "ka"
+      },
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      },
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šakānum",
+       "gloss": "to set, place: išakkanūšumma “they shall set for him (a term), and”",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+       ]
+      }
+     ]
+    }
+   ],
+   "ln": 13,
+   "n": "Due process on stone: the court waits. The six months are written with the moon’s own month-sign ITI, the number 6, and the little KAM that turns a numeral into an ordinal."
+  },
+  {
+   "t": "𒋳𒈠 𒄿𒈾 𒌗𒐋𒄰\n𒅆𒁉𒋗 𒆷 𒅕𒁲𒀀𒄠\n𒀀𒉿𒈝 𒋗𒌑\n𒍝𒅈\n𒀀𒊏𒀭 𒁲𒉏 𒋗𒀀𒋾\n𒀉𒋫𒈾𒀸𒅆",
+   "l": "if within six-months his-witnesses not he-produced, man that (is) a-liar: the-penalty of-case that he-shall-bear.",
+   "i": "and if within the six months he has not produced his witnesses, that man is a liar: he shall bear the penalty of that case.",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-na",
+     "say": "ina",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ina",
+       "gloss": "in, from",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ITI VI{kam}",
+     "say": "warḫim šeššim",
+     "glyphs": [
+      {
+       "s": "𒌗",
+       "sign": "ITI",
+       "role": "log",
+       "tr": "ITI",
+       "val": "warḫim"
+      },
+      {
+       "s": "𒐋",
+       "sign": "SHESH6",
+       "role": "log",
+       "tr": "VI",
+       "val": "6"
+      },
+      {
+       "s": "𒄰",
+       "sign": "KAM",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "warḫum",
+       "gloss": "month (written with ITI, the moon-month sign): warḫim “of the month”",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "6-kam",
+       "gloss": "sixth (KAM marks the ordinal): warḫim šeššim “of the sixth month”",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ši-bi-šu",
+     "say": "šībīšu",
+     "glyphs": [
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "ši",
+       "nl": true
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šībum",
+       "gloss": "witness; pl. šībū/šībī",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "la",
+     "say": "lā",
+     "glyphs": [
+      {
+       "s": "𒆷",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lā",
+       "gloss": "not (in subordinate and nominal contexts)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ir-di-a-am",
+     "say": "irdiam",
+     "glyphs": [
+      {
+       "s": "𒅕",
+       "sign": "IR",
+       "role": "phon",
+       "tr": "ir"
+      },
+      {
+       "s": "𒁲",
+       "sign": "DI",
+       "role": "phon",
+       "tr": "di"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "redûm",
+       "gloss": "to lead, conduct; bring back: irdiam “he produced”, irtediaššu “he has led him back”, ireddišu “he shall conduct him”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lum",
+     "say": "awīlum",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šu-u",
+     "say": "šū",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šū",
+       "gloss": "he, that (šū/šuāti “that (man)”)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ṣa-ar",
+     "say": "sar",
+     "glyphs": [
+      {
+       "s": "𒍝",
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "ṣa",
+       "nl": true
+      },
+      {
+       "s": "𒅈",
+       "sign": "AR",
+       "role": "phon",
+       "tr": "ar"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "sarrum",
+       "gloss": "liar; false: sar “he is a liar”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-ra-an",
+     "say": "aran",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "phon",
+       "tr": "an"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "arnum",
+       "gloss": "penalty, punishment",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "di-nim",
+     "say": "dīnim",
+     "glyphs": [
+      {
+       "s": "𒁲",
+       "sign": "DI",
+       "role": "phon",
+       "tr": "di"
+      },
+      {
+       "s": "𒉏",
+       "sign": "NIM",
+       "role": "phon",
+       "tr": "nim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dīnum",
+       "gloss": "case, lawsuit; judgment: dīn napištim “a case of life”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šu-a-ti",
+     "say": "šuāti",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒋾",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šuāti",
+       "gloss": "that, the aforesaid",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "it-ta-na-aš-ši",
+     "say": "ittanašši",
+     "glyphs": [
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "it",
+       "nl": true
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "𒀸",
+       "sign": "AS",
+       "role": "phon",
+       "tr": "aš"
+      },
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "ši"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "našûm",
+       "gloss": "to bear, carry: ittanašši “he shall bear (the penalty)”",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "𒋳𒈠 𒀀𒉿𒈝\n𒌉 𒀀𒉿𒅆\n𒍣𒄴𒊏𒄠\n𒅖𒋫𒊑𒆠\n𒀉𒁕𒀝",
+   "l": "If a-man the-son of-a-man — a-minor — has-stolen, he-shall-be-killed.",
+   "i": "If a man has stolen the young son of another man, he shall be killed.",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lum",
+     "say": "awīlum",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "DUMU",
+     "say": "mār",
+     "glyphs": [
+      {
+       "s": "𒌉",
+       "sign": "TUR",
+       "role": "log",
+       "tr": "DUMU",
+       "val": "mār",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mārum",
+       "gloss": "son (DUMU) — here: a minor, not yet able to sell",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lim",
+     "say": "awīlim",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "lim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ṣi-iḫ-ra-am",
+     "say": "ṣeḫram",
+     "glyphs": [
+      {
+       "s": "𒍣",
+       "sign": "ZI",
+       "role": "phon",
+       "tr": "ṣi",
+       "nl": true
+      },
+      {
+       "s": "𒄴",
+       "sign": "AH",
+       "role": "phon",
+       "tr": "iḫ"
+      },
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṣeḫrum",
+       "gloss": "young; the child: mār awīlim ṣeḫram “the young son of a free man”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "iš-ta-ri-iq",
+     "say": "ištariq",
+     "glyphs": [
+      {
+       "s": "𒅖",
+       "sign": "ISH",
+       "role": "phon",
+       "tr": "iš",
+       "nl": true
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "𒊑",
+       "sign": "RI",
+       "role": "phon",
+       "tr": "ri"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "iq"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šarāqum",
+       "gloss": "to steal: išriq",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "id-da-ak",
+     "say": "iddâk",
+     "glyphs": [
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "id",
+       "nl": true
+      },
+      {
+       "s": "𒁕",
+       "sign": "DA",
+       "role": "phon",
+       "tr": "da"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "phon",
+       "tr": "ak"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dâkum",
+       "gloss": "to kill; N-stem iddâk “he shall be killed” — the code’s death sentence",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "ln": 14,
+   "p": true,
+   "n": "Kidnapping, in five short lines. ṣeḫrum “small” marks the victim as a child; the law needs no more words than that."
+  },
+  {
+   "t": "𒋳𒈠 𒀀𒉿𒈝\n𒇻 𒀴 𒂍𒃲𒅆\n𒇻 𒊩𒆳 𒂍𒃲𒅆\n𒇻 𒀴 𒈦𒂗𒆕\n𒇻 𒊩𒆳 𒈦𒂗𒆕\n𒆍𒃲𒇴 𒍑𒋼𒍣\n𒀉𒁕𒀝",
+   "l": "If a-man either a-slave of-the-palace, or a-slave-woman of-the-palace, or a-slave of-a-commoner, or a-slave-woman of-a-commoner, out-the-city-gate has-taken, he-shall-be-killed.",
+   "i": "If a man has taken a palace slave or slave-woman, or a commoner’s slave or slave-woman, out through the city gate, he shall be killed.",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lum",
+     "say": "awīlum",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lu",
+     "say": "lū",
+     "glyphs": [
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lū",
+       "gloss": "or; either (lū … lū “whether … or”); with verb: “let …”",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ARAD",
+     "say": "warad",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "warad"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "É.GAL-lim",
+     "say": "ekallim",
+     "glyphs": [
+      {
+       "s": "𒂍",
+       "sign": "E2",
+       "role": "log",
+       "tr": "É",
+       "val": "ekall"
+      },
+      {
+       "s": "𒃲",
+       "sign": "GAL",
+       "role": "log",
+       "tr": "GAL",
+       "val": ""
+      },
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "lim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ekallum",
+       "gloss": "palace (É.GAL “great house”) — the crown as owner",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lu",
+     "say": "lū",
+     "glyphs": [
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lū",
+       "gloss": "or; either (lū … lū “whether … or”); with verb: “let …”",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "GEME₂",
+     "say": "amat",
+     "glyphs": [
+      {
+       "s": "𒊩",
+       "sign": "SAL",
+       "role": "log",
+       "tr": "GEME₂",
+       "val": "amat"
+      },
+      {
+       "s": "𒆳",
+       "sign": "KUR",
+       "role": "log",
+       "tr": "",
+       "val": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "amtum",
+       "gloss": "slave-woman (GEME₂)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "É.GAL-lim",
+     "say": "ekallim",
+     "glyphs": [
+      {
+       "s": "𒂍",
+       "sign": "E2",
+       "role": "log",
+       "tr": "É",
+       "val": "ekall"
+      },
+      {
+       "s": "𒃲",
+       "sign": "GAL",
+       "role": "log",
+       "tr": "GAL",
+       "val": ""
+      },
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "lim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ekallum",
+       "gloss": "palace (É.GAL “great house”) — the crown as owner",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lu",
+     "say": "lū",
+     "glyphs": [
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lū",
+       "gloss": "or; either (lū … lū “whether … or”); with verb: “let …”",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ARAD",
+     "say": "warad",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "warad"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "MAŠ.EN.KAK",
+     "say": "muškēnim",
+     "glyphs": [
+      {
+       "s": "𒈦",
+       "sign": "MASH",
+       "role": "log",
+       "tr": "MAŠ",
+       "val": "muškēn"
+      },
+      {
+       "s": "𒂗",
+       "sign": "EN",
+       "role": "log",
+       "tr": "EN",
+       "val": ""
+      },
+      {
+       "s": "𒆕",
+       "sign": "KAK",
+       "role": "log",
+       "tr": "KAK",
+       "val": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "muškēnum",
+       "gloss": "commoner, dependent freeman (MAŠ.EN.KAK) — the code’s second rank",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lu",
+     "say": "lū",
+     "glyphs": [
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lū",
+       "gloss": "or; either (lū … lū “whether … or”); with verb: “let …”",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "GEME₂",
+     "say": "amat",
+     "glyphs": [
+      {
+       "s": "𒊩",
+       "sign": "SAL",
+       "role": "log",
+       "tr": "GEME₂",
+       "val": "amat"
+      },
+      {
+       "s": "𒆳",
+       "sign": "KUR",
+       "role": "log",
+       "tr": "",
+       "val": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "amtum",
+       "gloss": "slave-woman (GEME₂)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "MAŠ.EN.KAK",
+     "say": "muškēnim",
+     "glyphs": [
+      {
+       "s": "𒈦",
+       "sign": "MASH",
+       "role": "log",
+       "tr": "MAŠ",
+       "val": "muškēn"
+      },
+      {
+       "s": "𒂗",
+       "sign": "EN",
+       "role": "log",
+       "tr": "EN",
+       "val": ""
+      },
+      {
+       "s": "𒆕",
+       "sign": "KAK",
+       "role": "log",
+       "tr": "KAK",
+       "val": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "muškēnum",
+       "gloss": "commoner, dependent freeman (MAŠ.EN.KAK) — the code’s second rank",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "KÁ.GAL-lam",
+     "say": "abullam",
+     "glyphs": [
+      {
+       "s": "𒆍",
+       "sign": "KA2",
+       "role": "log",
+       "tr": "KÁ",
+       "val": "abull",
+       "nl": true
+      },
+      {
+       "s": "𒃲",
+       "sign": "GAL",
+       "role": "log",
+       "tr": "GAL",
+       "val": ""
+      },
+      {
+       "s": "𒇴",
+       "sign": "LAM",
+       "role": "phon",
+       "tr": "lam"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "abullum",
+       "gloss": "city gate (KÁ.GAL “great door”): abullam uštēṣi “he has taken out through the gate”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "uš-te-ṣi",
+     "say": "uštēṣi",
+     "glyphs": [
+      {
+       "s": "𒍑",
+       "sign": "USH",
+       "role": "phon",
+       "tr": "uš"
+      },
+      {
+       "s": "𒋼",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "te"
+      },
+      {
+       "s": "𒍣",
+       "sign": "ZI",
+       "role": "phon",
+       "tr": "ṣi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "waṣûm",
+       "gloss": "to go out; ūṣiamma “he came forward”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "id-da-ak",
+     "say": "iddâk",
+     "glyphs": [
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "id",
+       "nl": true
+      },
+      {
+       "s": "𒁕",
+       "sign": "DA",
+       "role": "phon",
+       "tr": "da"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "phon",
+       "tr": "ak"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dâkum",
+       "gloss": "to kill; N-stem iddâk “he shall be killed” — the code’s death sentence",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "ln": 15,
+   "n": "The city gate — KÁ.GAL, the “great gate” — is the legal edge of the world: past it, a slave is stolen property in flight. Six laws on runaway slaves begin here."
+  },
+  {
+   "t": "𒋳𒈠 𒀀𒉿𒈝\n𒇻 𒀴𒄠 𒇻 𒊩𒆳𒄠\n𒄯𒂵𒄠\n𒊭 𒂍𒃲𒅆\n𒅇 𒇻 𒈦𒂗𒆕\n𒄿𒈾 𒁉𒋾𒋗\n𒅕𒋫𒆠𒈠",
+   "l": "If a-man either a-slave or a-slave-woman fugitive of the-palace or of a-commoner in his-house has-harbored-and",
+   "i": "If a man has harbored in his house a runaway slave or slave-woman of the palace or of a commoner,",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lum",
+     "say": "awīlum",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lu",
+     "say": "lū",
+     "glyphs": [
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lū",
+       "gloss": "or; either (lū … lū “whether … or”); with verb: “let …”",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ARAD-am",
+     "say": "wardam",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "ward"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lu",
+     "say": "lū",
+     "glyphs": [
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lū",
+       "gloss": "or; either (lū … lū “whether … or”); with verb: “let …”",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "GEME₂-am",
+     "say": "amtam",
+     "glyphs": [
+      {
+       "s": "𒊩",
+       "sign": "SAL",
+       "role": "log",
+       "tr": "GEME₂",
+       "val": "amt"
+      },
+      {
+       "s": "𒆳",
+       "sign": "KUR",
+       "role": "log",
+       "tr": "",
+       "val": ""
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "amtum",
+       "gloss": "slave-woman (GEME₂)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫal-qa₂-am",
+     "say": "ḫalqam",
+     "glyphs": [
+      {
+       "s": "𒄯",
+       "sign": "HAR",
+       "role": "phon",
+       "tr": "ḫal",
+       "nl": true
+      },
+      {
+       "s": "𒂵",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "qa₂"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫalāqum",
+       "gloss": "to be lost, vanish: ḫalqu, ḫalqam",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ša",
+     "say": "ša",
+     "glyphs": [
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ša",
+       "gloss": "who, which, of",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "É.GAL-lim",
+     "say": "ekallim",
+     "glyphs": [
+      {
+       "s": "𒂍",
+       "sign": "E2",
+       "role": "log",
+       "tr": "É",
+       "val": "ekall"
+      },
+      {
+       "s": "𒃲",
+       "sign": "GAL",
+       "role": "log",
+       "tr": "GAL",
+       "val": ""
+      },
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "lim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ekallum",
+       "gloss": "palace (É.GAL “great house”) — the crown as owner",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ù",
+     "say": "u",
+     "glyphs": [
+      {
+       "s": "𒅇",
+       "sign": "U3",
+       "role": "phon",
+       "tr": "ù",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "and",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lu",
+     "say": "lū",
+     "glyphs": [
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lū",
+       "gloss": "or; either (lū … lū “whether … or”); with verb: “let …”",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "MAŠ.EN.KAK",
+     "say": "muškēnim",
+     "glyphs": [
+      {
+       "s": "𒈦",
+       "sign": "MASH",
+       "role": "log",
+       "tr": "MAŠ",
+       "val": "muškēn"
+      },
+      {
+       "s": "𒂗",
+       "sign": "EN",
+       "role": "log",
+       "tr": "EN",
+       "val": ""
+      },
+      {
+       "s": "𒆕",
+       "sign": "KAK",
+       "role": "log",
+       "tr": "KAK",
+       "val": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "muškēnum",
+       "gloss": "commoner, dependent freeman (MAŠ.EN.KAK) — the code’s second rank",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-na",
+     "say": "ina",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ina",
+       "gloss": "in, from",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bi-ti-šu",
+     "say": "bītišu",
+     "glyphs": [
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      },
+      {
+       "s": "𒋾",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bītum",
+       "gloss": "house, estate",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ir-ta-ki-ma",
+     "say": "irtakima",
+     "glyphs": [
+      {
+       "s": "𒅕",
+       "sign": "IR",
+       "role": "phon",
+       "tr": "ir",
+       "nl": true
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "ki"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rakûm",
+       "gloss": "to harbor, conceal (a fugitive slave): irtakima “he has harbored, and” — Harper’s reading; modern editions take the verb as raqûm “to hide”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "ln": 16
+  },
+  {
+   "t": "𒀀𒈾 𒅆𒋛𒀉\n𒈾𒄀𒊑𒅎\n𒆷 𒍑𒋼𒍣𒀀𒄠\n𒁁𒂖 𒂍𒁴 𒋗𒌑\n𒀉𒁕𒀝",
+   "l": "at the-cry of-the-herald not brought-(him)-out, the-owner of-house that shall-be-killed.",
+   "i": "and has not brought him out at the herald’s proclamation, that householder shall be killed.",
+   "words": [
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "to, for",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ši-si-it",
+     "say": "šisīt",
+     "glyphs": [
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "ši"
+      },
+      {
+       "s": "𒋛",
+       "sign": "SI",
+       "role": "phon",
+       "tr": "si"
+      },
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "it"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šisītum",
+       "gloss": "cry, proclamation: šisīt nāgirim “the herald’s cry”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "na-gi-ri-im",
+     "say": "nāgirim",
+     "glyphs": [
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na",
+       "nl": true
+      },
+      {
+       "s": "𒄀",
+       "sign": "GI",
+       "role": "phon",
+       "tr": "gi"
+      },
+      {
+       "s": "𒊑",
+       "sign": "RI",
+       "role": "phon",
+       "tr": "ri"
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nāgirum",
+       "gloss": "the herald, town crier: šisīt nāgirim “the herald’s proclamation”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "la",
+     "say": "lā",
+     "glyphs": [
+      {
+       "s": "𒆷",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lā",
+       "gloss": "not (in subordinate and nominal contexts)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "uš-te-ṣi-a-am",
+     "say": "uštēṣiam",
+     "glyphs": [
+      {
+       "s": "𒍑",
+       "sign": "USH",
+       "role": "phon",
+       "tr": "uš"
+      },
+      {
+       "s": "𒋼",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "te"
+      },
+      {
+       "s": "𒍣",
+       "sign": "ZI",
+       "role": "phon",
+       "tr": "ṣi"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "waṣûm",
+       "gloss": "to go out; ūṣiamma “he came forward”",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "be-el",
+     "say": "bēl",
+     "glyphs": [
+      {
+       "s": "𒁁",
+       "sign": "BAD",
+       "role": "phon",
+       "tr": "be",
+       "nl": true
+      },
+      {
+       "s": "𒂖",
+       "sign": "EL",
+       "role": "phon",
+       "tr": "el"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bēlum",
+       "gloss": "owner, lord: bēl ḫulqim “owner of the lost property”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "É-tim",
+     "say": "bītim",
+     "glyphs": [
+      {
+       "s": "𒂍",
+       "sign": "E2",
+       "role": "log",
+       "tr": "É",
+       "val": "bīt"
+      },
+      {
+       "s": "𒁴",
+       "sign": "DIM",
+       "role": "phon",
+       "tr": "tim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bītum",
+       "gloss": "house, estate",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šu-u",
+     "say": "šū",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šū",
+       "gloss": "he, that (šū/šuāti “that (man)”)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "id-da-ak",
+     "say": "iddâk",
+     "glyphs": [
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "id",
+       "nl": true
+      },
+      {
+       "s": "𒁕",
+       "sign": "DA",
+       "role": "phon",
+       "tr": "da"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "phon",
+       "tr": "ak"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dâkum",
+       "gloss": "to kill; N-stem iddâk “he shall be killed” — the code’s death sentence",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "n": "šisīt nāgirim — the herald crying the runaway’s description through the streets. Ignore the cry, and harboring becomes theft of a person."
+  },
+  {
+   "t": "𒋳𒈠 𒀀𒉿𒈝\n𒇻 𒀴𒄠 𒇻 𒊩𒆳𒄠\n𒄯𒂵𒄠\n𒄿𒈾 𒍣𒊑𒅎\n𒄑𒁀𒀜𒈠\n𒀀𒈾 𒁁𒇷𒋗\n𒅕𒋼𒁲𒀀𒀸𒋗\n𒈫𒂇𒆬𒌓𒅎\n𒁁𒂖 𒀴𒅎\n𒄿𒈾𒀜𒁲𒅖𒋳",
+   "l": "If a-man either a-slave or a-slave-woman fugitive in the-open-country seized-and to his-owner led-him-back, two shekels of-silver the-owner of-the-slave shall-give-him.",
+   "i": "If a man has caught a runaway slave or slave-woman in the open country and led him back to his owner, the owner shall pay him two shekels of silver.",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lum",
+     "say": "awīlum",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lu",
+     "say": "lū",
+     "glyphs": [
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lū",
+       "gloss": "or; either (lū … lū “whether … or”); with verb: “let …”",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ARAD-am",
+     "say": "wardam",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "ward"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lu",
+     "say": "lū",
+     "glyphs": [
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lū",
+       "gloss": "or; either (lū … lū “whether … or”); with verb: “let …”",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "GEME₂-am",
+     "say": "amtam",
+     "glyphs": [
+      {
+       "s": "𒊩",
+       "sign": "SAL",
+       "role": "log",
+       "tr": "GEME₂",
+       "val": "amt"
+      },
+      {
+       "s": "𒆳",
+       "sign": "KUR",
+       "role": "log",
+       "tr": "",
+       "val": ""
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "amtum",
+       "gloss": "slave-woman (GEME₂)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫal-qa₂-am",
+     "say": "ḫalqam",
+     "glyphs": [
+      {
+       "s": "𒄯",
+       "sign": "HAR",
+       "role": "phon",
+       "tr": "ḫal",
+       "nl": true
+      },
+      {
+       "s": "𒂵",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "qa₂"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫalāqum",
+       "gloss": "to be lost, vanish: ḫalqu, ḫalqam",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-na",
+     "say": "ina",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ina",
+       "gloss": "in, from",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ṣi-ri-im",
+     "say": "ṣērim",
+     "glyphs": [
+      {
+       "s": "𒍣",
+       "sign": "ZI",
+       "role": "phon",
+       "tr": "ṣi"
+      },
+      {
+       "s": "𒊑",
+       "sign": "RI",
+       "role": "phon",
+       "tr": "ri"
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṣērum",
+       "gloss": "the open country, the steppe: ina ṣērim “in the open country”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "iṣ-ba-at-ma",
+     "say": "iṣbatma",
+     "glyphs": [
+      {
+       "s": "𒄑",
+       "sign": "GISH",
+       "role": "phon",
+       "tr": "iṣ",
+       "nl": true
+      },
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒀜",
+       "sign": "AD",
+       "role": "phon",
+       "tr": "at"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṣabātum",
+       "gloss": "to seize: iṣṣabat, ṣabtu",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "to, for",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "be-li-šu",
+     "say": "bēlišu",
+     "glyphs": [
+      {
+       "s": "𒁁",
+       "sign": "BAD",
+       "role": "phon",
+       "tr": "be"
+      },
+      {
+       "s": "𒇷",
+       "sign": "LI",
+       "role": "phon",
+       "tr": "li"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bēlum",
+       "gloss": "owner, lord: bēl ḫulqim “owner of the lost property”",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ir-te-di-a-aš-šu",
+     "say": "irtediaššu",
+     "glyphs": [
+      {
+       "s": "𒅕",
+       "sign": "IR",
+       "role": "phon",
+       "tr": "ir",
+       "nl": true
+      },
+      {
+       "s": "𒋼",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "te"
+      },
+      {
+       "s": "𒁲",
+       "sign": "DI",
+       "role": "phon",
+       "tr": "di"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒀸",
+       "sign": "AS",
+       "role": "phon",
+       "tr": "aš"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "redûm",
+       "gloss": "to lead, conduct; bring back: irdiam “he produced”, irtediaššu “he has led him back”, ireddišu “he shall conduct him”",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "II GÍN KÙ.BABBAR-im",
+     "say": "2 šiqil kaspim",
+     "glyphs": [
+      {
+       "s": "𒈫",
+       "sign": "MIN",
+       "role": "log",
+       "tr": "II",
+       "val": "2",
+       "nl": true
+      },
+      {
+       "s": "𒂇",
+       "sign": "GIN2",
+       "role": "log",
+       "tr": "GÍN",
+       "val": "šiqil"
+      },
+      {
+       "s": "𒆬",
+       "sign": "KU3",
+       "role": "log",
+       "tr": "KÙ",
+       "val": "kasp"
+      },
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "log",
+       "tr": "BABBAR",
+       "val": ""
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "2",
+       "gloss": "two — two vertical wedges: 2 šiqil “two shekels”",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "šiqlum",
+       "gloss": "shekel — the basic weight of silver, about 8.3 g (written GÍN): 2 šiqil kaspim",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "kaspum",
+       "gloss": "silver — the code’s money, written KÙ.BABBAR “shining precious-metal”",
+       "g": [
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "be-el",
+     "say": "bēl",
+     "glyphs": [
+      {
+       "s": "𒁁",
+       "sign": "BAD",
+       "role": "phon",
+       "tr": "be",
+       "nl": true
+      },
+      {
+       "s": "𒂖",
+       "sign": "EL",
+       "role": "phon",
+       "tr": "el"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bēlum",
+       "gloss": "owner, lord: bēl ḫulqim “owner of the lost property”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ARAD-im",
+     "say": "wardim",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "ward"
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-na-ad-di-iš-šum",
+     "say": "inaddiššum",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "𒀜",
+       "sign": "AD",
+       "role": "phon",
+       "tr": "ad"
+      },
+      {
+       "s": "𒁲",
+       "sign": "DI",
+       "role": "phon",
+       "tr": "di"
+      },
+      {
+       "s": "𒅖",
+       "sign": "ISH",
+       "role": "phon",
+       "tr": "iš"
+      },
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nadānum",
+       "gloss": "to give, pay: inaddin, iddinam, iddinušum; nadānim “to give”",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    }
+   ],
+   "ln": 17,
+   "n": "The other side of the ledger: catching a runaway earns a bounty. Two shekels — about a workman’s wage for two months — written numeral + GÍN, the shekel-sign, + KÙ.BABBAR."
+  },
+  {
+   "t": "𒋳𒈠 𒀴𒌝 𒋗𒌑\n𒁁𒂖𒋗\n𒆷 𒄑𒍝𒋽\n𒀀𒈾 𒂍𒃲𒅆\n𒄿𒊑𒀉𒁲𒋗\n𒉿𒅈𒅗𒍪\n𒅁𒉺𒅈𒊏𒀸𒈠\n𒀀𒈾 𒁁𒇷𒋗\n𒌑𒋫𒅈𒊒𒋗",
+   "l": "If slave that his-owner not names, to the-palace he-shall-lead-him; his-record shall-be-investigated-and to his-owner they-shall-return-him.",
+   "i": "If that slave will not name his owner, the catcher shall bring him to the palace; his case shall be investigated, and they shall return him to his owner.",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ARAD-um",
+     "say": "wardum",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "ward"
+      },
+      {
+       "s": "𒌝",
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šu-u",
+     "say": "šū",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šū",
+       "gloss": "he, that (šū/šuāti “that (man)”)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "be-el-šu",
+     "say": "bēlšu",
+     "glyphs": [
+      {
+       "s": "𒁁",
+       "sign": "BAD",
+       "role": "phon",
+       "tr": "be",
+       "nl": true
+      },
+      {
+       "s": "𒂖",
+       "sign": "EL",
+       "role": "phon",
+       "tr": "el"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bēlum",
+       "gloss": "owner, lord: bēl ḫulqim “owner of the lost property”",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "la",
+     "say": "lā",
+     "glyphs": [
+      {
+       "s": "𒆷",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lā",
+       "gloss": "not (in subordinate and nominal contexts)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "iz-za-kar",
+     "say": "izzakar",
+     "glyphs": [
+      {
+       "s": "𒄑",
+       "sign": "GISH",
+       "role": "phon",
+       "tr": "iz"
+      },
+      {
+       "s": "𒍝",
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "za"
+      },
+      {
+       "s": "𒋽",
+       "sign": "KAR",
+       "role": "phon",
+       "tr": "kar"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "zakārum",
+       "gloss": "to name, declare: izzakar “he named”, izakkarma “he shall declare, and”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "to, for",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "É.GAL-lim",
+     "say": "ekallim",
+     "glyphs": [
+      {
+       "s": "𒂍",
+       "sign": "E2",
+       "role": "log",
+       "tr": "É",
+       "val": "ekall"
+      },
+      {
+       "s": "𒃲",
+       "sign": "GAL",
+       "role": "log",
+       "tr": "GAL",
+       "val": ""
+      },
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "lim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ekallum",
+       "gloss": "palace (É.GAL “great house”) — the crown as owner",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-ri-id-di-šu",
+     "say": "ireddišu",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒊑",
+       "sign": "RI",
+       "role": "phon",
+       "tr": "ri"
+      },
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "id"
+      },
+      {
+       "s": "𒁲",
+       "sign": "DI",
+       "role": "phon",
+       "tr": "di"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "redûm",
+       "gloss": "to lead, conduct; bring back: irdiam “he produced”, irtediaššu “he has led him back”, ireddišu “he shall conduct him”",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wa-ar-ka-zu",
+     "say": "warkassu",
+     "glyphs": [
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wa",
+       "nl": true
+      },
+      {
+       "s": "𒅈",
+       "sign": "AR",
+       "role": "phon",
+       "tr": "ar"
+      },
+      {
+       "s": "𒅗",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "ka"
+      },
+      {
+       "s": "𒍪",
+       "sign": "ZU",
+       "role": "phon",
+       "tr": "zu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "warkatum",
+       "gloss": "the circumstances, the facts of the case: warkassu “his case” (warkat + šu, t+š → ss)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ip-pa-ar-ra-as-ma",
+     "say": "ipparrasma",
+     "glyphs": [
+      {
+       "s": "𒅁",
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ip",
+       "nl": true
+      },
+      {
+       "s": "𒉺",
+       "sign": "PA",
+       "role": "phon",
+       "tr": "pa"
+      },
+      {
+       "s": "𒅈",
+       "sign": "AR",
+       "role": "phon",
+       "tr": "ar"
+      },
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "𒀸",
+       "sign": "AS",
+       "role": "phon",
+       "tr": "as"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "parāsum",
+       "gloss": "to decide, cut off: iprus",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "to, for",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "be-li-šu",
+     "say": "bēlišu",
+     "glyphs": [
+      {
+       "s": "𒁁",
+       "sign": "BAD",
+       "role": "phon",
+       "tr": "be"
+      },
+      {
+       "s": "𒇷",
+       "sign": "LI",
+       "role": "phon",
+       "tr": "li"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bēlum",
+       "gloss": "owner, lord: bēl ḫulqim “owner of the lost property”",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "u₂-ta-ar-ru-šu",
+     "say": "utarrūšu",
+     "glyphs": [
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u₂",
+       "nl": true
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "𒅈",
+       "sign": "AR",
+       "role": "phon",
+       "tr": "ar"
+      },
+      {
+       "s": "𒊒",
+       "sign": "RU",
+       "role": "phon",
+       "tr": "ru"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "târum",
+       "gloss": "to return: ul itârma “he shall never again …”",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    }
+   ],
+   "ln": 18,
+   "n": "warkatam parāsum, “to sort out the background,” is the code’s standing phrase for an official inquiry — the palace as registry of persons."
+  },
+  {
+   "t": "𒋳𒈠 𒀴𒄠\n𒋗𒀀𒋾\n𒄿𒈾 𒁉𒋾𒋗\n𒅅𒋫𒆷𒋗\n𒉿𒅈𒅗 𒀴𒌝\n𒄿𒈾 𒂵𒋾𒋗\n𒀉𒋫𒄑𒁀𒀜\n𒀀𒉿𒈝 𒋗𒌑\n𒀉𒁕𒀝",
+   "l": "If slave that in his-house he-detained (and) afterward the-slave in his-hand was-seized, man that shall-be-killed.",
+   "i": "But if he has kept that slave in his own house and the slave is afterwards found in his possession, that man shall be killed.",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ARAD-am",
+     "say": "wardam",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "ward"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šu-a-ti",
+     "say": "šuāti",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu",
+       "nl": true
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒋾",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šuāti",
+       "gloss": "that, the aforesaid",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-na",
+     "say": "ina",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ina",
+       "gloss": "in, from",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bi-ti-šu",
+     "say": "bītišu",
+     "glyphs": [
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      },
+      {
+       "s": "𒋾",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bītum",
+       "gloss": "house, estate",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ik-ta-la-šu",
+     "say": "iktalāšu",
+     "glyphs": [
+      {
+       "s": "𒅅",
+       "sign": "IG",
+       "role": "phon",
+       "tr": "ik",
+       "nl": true
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "𒆷",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kalûm",
+       "gloss": "to hold back, detain: iktalāšu “he has kept him back”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wa-ar-ka",
+     "say": "warka",
+     "glyphs": [
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wa",
+       "nl": true
+      },
+      {
+       "s": "𒅈",
+       "sign": "AR",
+       "role": "phon",
+       "tr": "ar"
+      },
+      {
+       "s": "𒅗",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "ka"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "warka",
+       "gloss": "afterwards, later",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ARAD-um",
+     "say": "wardum",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "ward"
+      },
+      {
+       "s": "𒌝",
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-na",
+     "say": "ina",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ina",
+       "gloss": "in, from",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "qa-ti-šu",
+     "say": "qātišu",
+     "glyphs": [
+      {
+       "s": "𒂵",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "qa"
+      },
+      {
+       "s": "𒋾",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "qātum",
+       "gloss": "hand: ina qāt “from the hand of”",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "it-ta-aṣ-ba-at",
+     "say": "ittaṣbat",
+     "glyphs": [
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "it",
+       "nl": true
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "𒄑",
+       "sign": "GISH",
+       "role": "phon",
+       "tr": "aṣ"
+      },
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒀜",
+       "sign": "AD",
+       "role": "phon",
+       "tr": "at"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṣabātum",
+       "gloss": "to seize: iṣṣabat, ṣabtu",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lum",
+     "say": "awīlum",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šu-u",
+     "say": "šū",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šū",
+       "gloss": "he, that (šū/šuāti “that (man)”)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "id-da-ak",
+     "say": "iddâk",
+     "glyphs": [
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "id",
+       "nl": true
+      },
+      {
+       "s": "𒁕",
+       "sign": "DA",
+       "role": "phon",
+       "tr": "da"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "phon",
+       "tr": "ak"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dâkum",
+       "gloss": "to kill; N-stem iddâk “he shall be killed” — the code’s death sentence",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "ln": 19
+  },
+  {
+   "t": "𒋳𒈠 𒀴𒌝\n𒄿𒈾 𒂵𒀜\n𒍝𒁉𒋫𒉌𒋗\n𒄴𒋫𒇷𒆠\n𒀀𒉿𒈝 𒋗𒌑\n𒀀𒈾 𒁁𒂖 𒀴𒅎\n𒉌𒅖 𒄿𒅆\n𒄿𒍝𒋽𒈠\n𒌑𒋫𒀸𒊬",
+   "l": "If the-slave from the-hand of-his-captor escaped, man that to the-owner of-the-slave the-oath of-the-god shall-swear-and he-goes-free.",
+   "i": "If the slave escapes from the hands of his captor, the man shall swear an oath by the god to the slave’s owner, and he goes free.",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ARAD-um",
+     "say": "wardum",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "ward"
+      },
+      {
+       "s": "𒌝",
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-na",
+     "say": "ina",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ina",
+       "gloss": "in, from",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "qa-at",
+     "say": "qāt",
+     "glyphs": [
+      {
+       "s": "𒂵",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "qa"
+      },
+      {
+       "s": "𒀜",
+       "sign": "AD",
+       "role": "phon",
+       "tr": "at"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "qātum",
+       "gloss": "hand: ina qāt “from the hand of”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ṣa-bi-ta-ni-šu",
+     "say": "ṣābitānišu",
+     "glyphs": [
+      {
+       "s": "𒍝",
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "ṣa",
+       "nl": true
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṣābitānum",
+       "gloss": "the captor — the one who seized the runaway: ṣābitānišu “to his captor”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "iḫ-ta-li-iq",
+     "say": "iḫtaliq",
+     "glyphs": [
+      {
+       "s": "𒄴",
+       "sign": "AH",
+       "role": "phon",
+       "tr": "iḫ",
+       "nl": true
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "𒇷",
+       "sign": "LI",
+       "role": "phon",
+       "tr": "li"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "iq"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫalāqum",
+       "gloss": "to be lost, vanish: ḫalqu, ḫalqam",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lum",
+     "say": "awīlum",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šu-u",
+     "say": "šū",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šū",
+       "gloss": "he, that (šū/šuāti “that (man)”)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "to, for",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "be-el",
+     "say": "bēl",
+     "glyphs": [
+      {
+       "s": "𒁁",
+       "sign": "BAD",
+       "role": "phon",
+       "tr": "be"
+      },
+      {
+       "s": "𒂖",
+       "sign": "EL",
+       "role": "phon",
+       "tr": "el"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bēlum",
+       "gloss": "owner, lord: bēl ḫulqim “owner of the lost property”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ARAD-im",
+     "say": "wardim",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "ward"
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-iš",
+     "say": "nīš",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni",
+       "nl": true
+      },
+      {
+       "s": "𒅖",
+       "sign": "ISH",
+       "role": "phon",
+       "tr": "iš"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nīšum",
+       "gloss": "oath (literally “life”): nīš ilim “the oath by the god”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-lim",
+     "say": "ilim",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "lim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ilum",
+       "gloss": "god; here: the temple as owner",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-za-kar-ma",
+     "say": "izakkarma",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒍝",
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "za"
+      },
+      {
+       "s": "𒋽",
+       "sign": "KAR",
+       "role": "phon",
+       "tr": "kar"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "zakārum",
+       "gloss": "to name, declare: izzakar “he named”, izakkarma “he shall declare, and”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "u₂-ta-aš-šar",
+     "say": "ūtaššar",
+     "glyphs": [
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u₂",
+       "nl": true
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "𒀸",
+       "sign": "AS",
+       "role": "phon",
+       "tr": "aš"
+      },
+      {
+       "s": "𒊬",
+       "sign": "SAR",
+       "role": "phon",
+       "tr": "šar"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wašārum",
+       "gloss": "D-stem (w)uššurum “to release, set free”: ūtaššar “he shall be released”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "ln": 20,
+   "n": "nīš ilim zakārum — “to name the life of the god” — is the exculpatory oath. Where no evidence can exist, the god’s name settles it; a false oath trades this life for divine justice."
+  },
+  {
+   "t": "𒋳𒈠 𒀀𒉿𒈝\n𒁉𒌓\n𒅁𒇻𒍑\n𒄿𒈾 𒉺𒉌\n𒁉𒅋𒅆𒅎\n𒋗𒀀𒋾\n𒄿𒁺𒅅𒆪𒋗𒈠\n𒄿𒄩𒀠𒆷𒇻𒋗",
+   "l": "If a-man a-house broke-through, in-front-of breach that they-shall-kill-him-and hang-him.",
+   "i": "If a man has broken through the wall of a house, they shall kill him in front of that very breach and hang him in it.",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lum",
+     "say": "awīlum",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bi-tam",
+     "say": "bītam",
+     "glyphs": [
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi",
+       "nl": true
+      },
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "phon",
+       "tr": "tam"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bītum",
+       "gloss": "house, estate",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ip-lu-uš",
+     "say": "iplūš",
+     "glyphs": [
+      {
+       "s": "𒅁",
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ip",
+       "nl": true
+      },
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      },
+      {
+       "s": "𒍑",
+       "sign": "USH",
+       "role": "phon",
+       "tr": "uš"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "palāšum",
+       "gloss": "to break through, breach (a house wall): iplūš “he broke in”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-na",
+     "say": "ina",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ina",
+       "gloss": "in, from",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "pa-ni",
+     "say": "pani",
+     "glyphs": [
+      {
+       "s": "𒉺",
+       "sign": "PA",
+       "role": "phon",
+       "tr": "pa"
+      },
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "pānum",
+       "gloss": "front, face: ina pani “in front of”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "pi₂-il-ši-im",
+     "say": "pilšim",
+     "glyphs": [
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "pi₂",
+       "nl": true
+      },
+      {
+       "s": "𒅋",
+       "sign": "IL",
+       "role": "phon",
+       "tr": "il"
+      },
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "ši"
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "pilšum",
+       "gloss": "the breach, the burglar’s hole: ina pani pilšim “in front of the breach”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šu-a-ti",
+     "say": "šuāti",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu",
+       "nl": true
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒋾",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šuāti",
+       "gloss": "that, the aforesaid",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-du-uk-ku-šu-ma",
+     "say": "idukkūšuma",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒁺",
+       "sign": "DU",
+       "role": "phon",
+       "tr": "du"
+      },
+      {
+       "s": "𒅅",
+       "sign": "IG",
+       "role": "phon",
+       "tr": "uk"
+      },
+      {
+       "s": "𒆪",
+       "sign": "KU",
+       "role": "phon",
+       "tr": "ku"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dâkum",
+       "gloss": "to kill; N-stem iddâk “he shall be killed” — the code’s death sentence",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-ḫa-al-la-lu-šu",
+     "say": "iḫallalūšu",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒄩",
+       "sign": "HA",
+       "role": "phon",
+       "tr": "ḫa"
+      },
+      {
+       "s": "𒀠",
+       "sign": "AL",
+       "role": "phon",
+       "tr": "al"
+      },
+      {
+       "s": "𒆷",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la"
+      },
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫalālum",
+       "gloss": "to hang up: iḫallalūšu “they shall hang him” (in the breach he cut)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    }
+   ],
+   "ln": 21,
+   "p": true,
+   "n": "Burglary in a mud-brick world: palāšum is literally to dig through the wall. The punishment is staged at the crime — the burglar’s body walls up the hole he made."
+  },
+  {
+   "t": "𒋳𒈠 𒀀𒉿𒈝\n𒄷𒌒𒌓\n𒄴𒁍𒀉𒈠\n𒀉𒋫𒄑𒁀𒀜\n𒀀𒉿𒈝 𒋗𒌑\n𒀉𒁕𒀝",
+   "l": "If a-man robbery committed-and was-caught, man that shall-be-killed.",
+   "i": "If a man has committed robbery and is caught, that man shall be killed.",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lum",
+     "say": "awīlum",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫu-ub-tam",
+     "say": "ḫubtam",
+     "glyphs": [
+      {
+       "s": "𒄷",
+       "sign": "HU",
+       "role": "phon",
+       "tr": "ḫu",
+       "nl": true
+      },
+      {
+       "s": "𒌒",
+       "sign": "UB",
+       "role": "phon",
+       "tr": "ub"
+      },
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "phon",
+       "tr": "tam"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫubtum",
+       "gloss": "robbery; the plunder: ḫubtam iḫbutma “committed a robbery”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "iḫ-bu-ut-ma",
+     "say": "iḫbutma",
+     "glyphs": [
+      {
+       "s": "𒄴",
+       "sign": "AH",
+       "role": "phon",
+       "tr": "iḫ",
+       "nl": true
+      },
+      {
+       "s": "𒁍",
+       "sign": "BU",
+       "role": "phon",
+       "tr": "bu"
+      },
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "ut"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫabātum",
+       "gloss": "to rob: iḫbutma “he committed robbery, and”; N-stem iḫḫabtu “(what) was robbed”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "it-ta-aṣ-ba-at",
+     "say": "ittaṣbat",
+     "glyphs": [
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "it",
+       "nl": true
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "𒄑",
+       "sign": "GISH",
+       "role": "phon",
+       "tr": "aṣ"
+      },
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒀜",
+       "sign": "AD",
+       "role": "phon",
+       "tr": "at"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṣabātum",
+       "gloss": "to seize: iṣṣabat, ṣabtu",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lum",
+     "say": "awīlum",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šu-u",
+     "say": "šū",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šū",
+       "gloss": "he, that (šū/šuāti “that (man)”)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "id-da-ak",
+     "say": "iddâk",
+     "glyphs": [
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "id",
+       "nl": true
+      },
+      {
+       "s": "𒁕",
+       "sign": "DA",
+       "role": "phon",
+       "tr": "da"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "phon",
+       "tr": "ak"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dâkum",
+       "gloss": "to kill; N-stem iddâk “he shall be killed” — the code’s death sentence",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "ln": 22
+  },
+  {
+   "t": "𒋳𒈠 𒄩𒀊𒁀𒌈\n𒆷 𒀉𒋫𒄑𒁀𒀜\n𒀀𒉿𒈝\n𒄩𒀊𒌈\n𒈪𒅎𒈠𒋗\n𒄯𒂵𒄠\n𒈠𒄩𒅈\n𒄿𒅆\n𒌑𒁀𒅈𒈠",
+   "l": "If the-robber not was-caught, the-man robbed his-property lost before the-god shall-declare-and",
+   "i": "If the robber is not caught, the robbed man shall declare his lost property before the god,",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫa-ab-ba-tum",
+     "say": "ḫabbātum",
+     "glyphs": [
+      {
+       "s": "𒄩",
+       "sign": "HA",
+       "role": "phon",
+       "tr": "ḫa"
+      },
+      {
+       "s": "𒀊",
+       "sign": "AB",
+       "role": "phon",
+       "tr": "ab"
+      },
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒌈",
+       "sign": "TUM",
+       "role": "phon",
+       "tr": "tum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫabbātum",
+       "gloss": "robber, brigand",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "la",
+     "say": "lā",
+     "glyphs": [
+      {
+       "s": "𒆷",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lā",
+       "gloss": "not (in subordinate and nominal contexts)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "it-ta-aṣ-ba-at",
+     "say": "ittaṣbat",
+     "glyphs": [
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "it"
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "𒄑",
+       "sign": "GISH",
+       "role": "phon",
+       "tr": "aṣ"
+      },
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒀜",
+       "sign": "AD",
+       "role": "phon",
+       "tr": "at"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṣabātum",
+       "gloss": "to seize: iṣṣabat, ṣabtu",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lum",
+     "say": "awīlum",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫa-ab-tum",
+     "say": "ḫabtum",
+     "glyphs": [
+      {
+       "s": "𒄩",
+       "sign": "HA",
+       "role": "phon",
+       "tr": "ḫa",
+       "nl": true
+      },
+      {
+       "s": "𒀊",
+       "sign": "AB",
+       "role": "phon",
+       "tr": "ab"
+      },
+      {
+       "s": "𒌈",
+       "sign": "TUM",
+       "role": "phon",
+       "tr": "tum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫabtum",
+       "gloss": "robbed: awīlum ḫabtum “the man who was robbed”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mi-im-ma-šu",
+     "say": "mimmâšu",
+     "glyphs": [
+      {
+       "s": "𒈪",
+       "sign": "MI",
+       "role": "phon",
+       "tr": "mi",
+       "nl": true
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mimmûm",
+       "gloss": "property, belongings: mimmûšu “his property”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫal-qa₂-am",
+     "say": "ḫalqam",
+     "glyphs": [
+      {
+       "s": "𒄯",
+       "sign": "HAR",
+       "role": "phon",
+       "tr": "ḫal",
+       "nl": true
+      },
+      {
+       "s": "𒂵",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "qa₂"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫalāqum",
+       "gloss": "to be lost, vanish: ḫalqu, ḫalqam",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ma-ḫa-ar",
+     "say": "maḫar",
+     "glyphs": [
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma",
+       "nl": true
+      },
+      {
+       "s": "𒄩",
+       "sign": "HA",
+       "role": "phon",
+       "tr": "ḫa"
+      },
+      {
+       "s": "𒅈",
+       "sign": "AR",
+       "role": "phon",
+       "tr": "ar"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "maḫar",
+       "gloss": "before, in the presence of: maḫar ilim “before the god”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-lim",
+     "say": "ilim",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "lim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ilum",
+       "gloss": "god; here: the temple as owner",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "u₂-ba-ar-ma",
+     "say": "ubârma",
+     "glyphs": [
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u₂",
+       "nl": true
+      },
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒅈",
+       "sign": "AR",
+       "role": "phon",
+       "tr": "ar"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bârum",
+       "gloss": "to establish, prove; D-stem: ubârma “he shall prove (it), and…”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "ln": 23
+  },
+  {
+   "t": "𒌷\n𒅇 𒊏𒁉𒀀𒉡𒌝\n𒊭 𒄿𒈾 𒅕𒍣𒋾𒋗𒉡\n𒅇 𒉺𒁲𒋗𒉡\n𒄷𒌒𒌈\n𒄴𒄩𒀊𒌅\n𒈪𒅎𒈠𒋗\n𒄯𒂵𒄠\n𒄿𒊑𒀀𒀊𒁍𒋳",
+   "l": "and the-city and the-governor in whose land and district the-robbery was-committed his-property lost shall-replace-for-him.",
+   "i": "and the city and governor in whose territory the robbery was committed shall replace his lost property for him.",
+   "words": [
+    {
+     "reading": "URU",
+     "say": "ālum",
+     "glyphs": [
+      {
+       "s": "𒌷",
+       "sign": "URU",
+       "role": "log",
+       "tr": "URU",
+       "val": "ālum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ālum",
+       "gloss": "city (URU): ālum u rabiānum “the city and the mayor”",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ù",
+     "say": "u",
+     "glyphs": [
+      {
+       "s": "𒅇",
+       "sign": "U3",
+       "role": "phon",
+       "tr": "ù",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "and",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ra-bi-a-nu-um",
+     "say": "rabiānum",
+     "glyphs": [
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      },
+      {
+       "s": "𒌝",
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rabiānum",
+       "gloss": "the mayor, headman of a town",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ša",
+     "say": "ša",
+     "glyphs": [
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ša",
+       "gloss": "who, which, of",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-na",
+     "say": "ina",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ina",
+       "gloss": "in, from",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ir-ṣi-ti-šu-nu",
+     "say": "erṣetišunu",
+     "glyphs": [
+      {
+       "s": "𒅕",
+       "sign": "IR",
+       "role": "phon",
+       "tr": "ir"
+      },
+      {
+       "s": "𒍣",
+       "sign": "ZI",
+       "role": "phon",
+       "tr": "ṣi"
+      },
+      {
+       "s": "𒋾",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "erṣetum",
+       "gloss": "earth, land, territory: erṣetišunu “their territory”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-šunu",
+       "gloss": "their / them",
+       "g": [
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ù",
+     "say": "u",
+     "glyphs": [
+      {
+       "s": "𒅇",
+       "sign": "U3",
+       "role": "phon",
+       "tr": "ù",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "and",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "pa-ṭi-šu-nu",
+     "say": "pāṭišunu",
+     "glyphs": [
+      {
+       "s": "𒉺",
+       "sign": "PA",
+       "role": "phon",
+       "tr": "pa"
+      },
+      {
+       "s": "𒁲",
+       "sign": "DI",
+       "role": "phon",
+       "tr": "ṭi"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "pāṭum",
+       "gloss": "border, district: pāṭišunu “their district”",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-šunu",
+       "gloss": "their / them",
+       "g": [
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫu-ub-tum",
+     "say": "ḫubtum",
+     "glyphs": [
+      {
+       "s": "𒄷",
+       "sign": "HU",
+       "role": "phon",
+       "tr": "ḫu",
+       "nl": true
+      },
+      {
+       "s": "𒌒",
+       "sign": "UB",
+       "role": "phon",
+       "tr": "ub"
+      },
+      {
+       "s": "𒌈",
+       "sign": "TUM",
+       "role": "phon",
+       "tr": "tum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫubtum",
+       "gloss": "robbery; the plunder: ḫubtam iḫbutma “committed a robbery”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "iḫ-ḫa-ab-tu",
+     "say": "iḫḫabtu",
+     "glyphs": [
+      {
+       "s": "𒄴",
+       "sign": "AH",
+       "role": "phon",
+       "tr": "iḫ",
+       "nl": true
+      },
+      {
+       "s": "𒄩",
+       "sign": "HA",
+       "role": "phon",
+       "tr": "ḫa"
+      },
+      {
+       "s": "𒀊",
+       "sign": "AB",
+       "role": "phon",
+       "tr": "ab"
+      },
+      {
+       "s": "𒌅",
+       "sign": "TU",
+       "role": "phon",
+       "tr": "tu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫabātum",
+       "gloss": "to rob: iḫbutma “he committed robbery, and”; N-stem iḫḫabtu “(what) was robbed”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mi-im-ma-šu",
+     "say": "mimmâšu",
+     "glyphs": [
+      {
+       "s": "𒈪",
+       "sign": "MI",
+       "role": "phon",
+       "tr": "mi",
+       "nl": true
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mimmûm",
+       "gloss": "property, belongings: mimmûšu “his property”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫal-qa₂-am",
+     "say": "ḫalqam",
+     "glyphs": [
+      {
+       "s": "𒄯",
+       "sign": "HAR",
+       "role": "phon",
+       "tr": "ḫal",
+       "nl": true
+      },
+      {
+       "s": "𒂵",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "qa₂"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫalāqum",
+       "gloss": "to be lost, vanish: ḫalqu, ḫalqam",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-ri-a-ab-bu-šum",
+     "say": "iriabbūšum",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒊑",
+       "sign": "RI",
+       "role": "phon",
+       "tr": "ri"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒀊",
+       "sign": "AB",
+       "role": "phon",
+       "tr": "ab"
+      },
+      {
+       "s": "𒁍",
+       "sign": "BU",
+       "role": "phon",
+       "tr": "bu"
+      },
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "riābum",
+       "gloss": "to replace, restore: iriab",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    }
+   ],
+   "n": "Collective liability: catch the robber, or the town itself pays. The rabiānum — the mayor — answers for the roads of his district. Modern insurance in eighteen lines, minus the premiums."
+  },
+  {
+   "t": "𒋳𒈠 𒈾𒁉𒅖𒌈\n𒌷 𒅇 𒊏𒁉𒀀𒉡𒌝\n𒁹𒈠𒈾𒆬𒌓𒅎\n𒀀𒈾 𒉌𒅆𒋗\n𒄿𒊭𒂵𒇻",
+   "l": "If a-life (was lost), the-city and the-governor one mana of-silver to his-people shall-weigh-out.",
+   "i": "If a life was lost in the robbery, the city and governor shall weigh out one mina of silver to the victim’s kin.",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "na-pi₂-iš-tum",
+     "say": "napištum",
+     "glyphs": [
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "pi₂"
+      },
+      {
+       "s": "𒅖",
+       "sign": "ISH",
+       "role": "phon",
+       "tr": "iš"
+      },
+      {
+       "s": "𒌈",
+       "sign": "TUM",
+       "role": "phon",
+       "tr": "tum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "napištum",
+       "gloss": "life",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "URU",
+     "say": "ālum",
+     "glyphs": [
+      {
+       "s": "𒌷",
+       "sign": "URU",
+       "role": "log",
+       "tr": "URU",
+       "val": "ālum",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ālum",
+       "gloss": "city (URU): ālum u rabiānum “the city and the mayor”",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ù",
+     "say": "u",
+     "glyphs": [
+      {
+       "s": "𒅇",
+       "sign": "U3",
+       "role": "phon",
+       "tr": "ù"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "and",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ra-bi-a-nu-um",
+     "say": "rabiānum",
+     "glyphs": [
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      },
+      {
+       "s": "𒌝",
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rabiānum",
+       "gloss": "the mayor, headman of a town",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "I MA.NA KÙ.BABBAR-im",
+     "say": "1 mana kaspim",
+     "glyphs": [
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "log",
+       "tr": "I",
+       "val": "1",
+       "nl": true
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "log",
+       "tr": "MA",
+       "val": "man"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "log",
+       "tr": "NA",
+       "val": "a"
+      },
+      {
+       "s": "𒆬",
+       "sign": "KU3",
+       "role": "log",
+       "tr": "KÙ",
+       "val": "kasp"
+      },
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "log",
+       "tr": "BABBAR",
+       "val": ""
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "1",
+       "gloss": "one — a single vertical wedge (DIŠ): 1 mana “one mina”",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "manûm",
+       "gloss": "mina — weight of silver, 60 shekels (about 500 g): 1 mana kaspim",
+       "g": [
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "kaspum",
+       "gloss": "silver — the code’s money, written KÙ.BABBAR “shining precious-metal”",
+       "g": [
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "to, for",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ši-šu",
+     "say": "nišīšu",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "ši"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nišū",
+       "gloss": "people; the household: nišīšu “his household”",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-ša-qa₂-lu",
+     "say": "išaqqalū",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša"
+      },
+      {
+       "s": "𒂵",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "qa₂"
+      },
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šaqālum",
+       "gloss": "to weigh out (silver = to pay): išqulu",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "ln": 24,
+   "n": "A mina — sixty shekels — for a life the town failed to protect, paid to the survivors. The nišū “people” here are the dead man’s own."
+  },
+  {
+   "t": "𒋳𒈠 𒄿𒈾 𒂍 𒀀𒉿𒅆\n𒄿𒊭𒌈\n𒅔𒈾𒁉𒄴𒈠\n𒀀𒉿𒈝\n𒊭 𒀀𒈾 𒁍𒌌𒇷𒅎\n𒅋𒇷𒆪\n𒀀𒈾 𒉡𒈠𒀜\n𒁁𒂖 𒂍𒁴\n𒄿𒅔𒋗 𒅖𒅆𒈠",
+   "l": "If in the-house of-a-man a-fire broke-out, (and) a-man who to extinguish went, to the-goods of-the-owner of-the-house his-eye lifted-and",
+   "i": "If fire broke out in a man’s house, and a man who came to put it out lifted his eye to the householder’s goods",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-na",
+     "say": "ina",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ina",
+       "gloss": "in, from",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "É",
+     "say": "bīt",
+     "glyphs": [
+      {
+       "s": "𒂍",
+       "sign": "E2",
+       "role": "log",
+       "tr": "É",
+       "val": "bīt"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bītum",
+       "gloss": "house, estate",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lim",
+     "say": "awīlim",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "lim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-ša-tum",
+     "say": "išātum",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša"
+      },
+      {
+       "s": "𒌈",
+       "sign": "TUM",
+       "role": "phon",
+       "tr": "tum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "išātum",
+       "gloss": "fire: išātum innapiḫma “fire broke out”; ana išātim “into the fire”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "in-na-pi₂-iḫ-ma",
+     "say": "innapiḫma",
+     "glyphs": [
+      {
+       "s": "𒅔",
+       "sign": "IN",
+       "role": "phon",
+       "tr": "in",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "pi₂"
+      },
+      {
+       "s": "𒄴",
+       "sign": "AH",
+       "role": "phon",
+       "tr": "iḫ"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "napāḫum",
+       "gloss": "to kindle; N-stem: innapiḫma “(fire) broke out, and”",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lum",
+     "say": "awīlum",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ša",
+     "say": "ša",
+     "glyphs": [
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ša",
+       "gloss": "who, which, of",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "to, for",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bu-ul-li-im",
+     "say": "bullîm",
+     "glyphs": [
+      {
+       "s": "𒁍",
+       "sign": "BU",
+       "role": "phon",
+       "tr": "bu"
+      },
+      {
+       "s": "𒌌",
+       "sign": "UL",
+       "role": "phon",
+       "tr": "ul"
+      },
+      {
+       "s": "𒇷",
+       "sign": "LI",
+       "role": "phon",
+       "tr": "li"
+      },
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "balûm",
+       "gloss": "to go out (of fire); D-stem bullûm “to extinguish”: ana bullîm “to put (it) out”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "il-li-ku",
+     "say": "illiku",
+     "glyphs": [
+      {
+       "s": "𒅋",
+       "sign": "IL",
+       "role": "phon",
+       "tr": "il",
+       "nl": true
+      },
+      {
+       "s": "𒇷",
+       "sign": "LI",
+       "role": "phon",
+       "tr": "li"
+      },
+      {
+       "s": "𒆪",
+       "sign": "KU",
+       "role": "phon",
+       "tr": "ku"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "alākum",
+       "gloss": "to go: illak “he shall go”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "to, for",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nu-ma-at",
+     "say": "numāt",
+     "glyphs": [
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "𒀜",
+       "sign": "AD",
+       "role": "phon",
+       "tr": "at"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "numātum",
+       "gloss": "goods, household property: numāt bēl bītim “the goods of the house’s owner”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "be-el",
+     "say": "bēl",
+     "glyphs": [
+      {
+       "s": "𒁁",
+       "sign": "BAD",
+       "role": "phon",
+       "tr": "be",
+       "nl": true
+      },
+      {
+       "s": "𒂖",
+       "sign": "EL",
+       "role": "phon",
+       "tr": "el"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bēlum",
+       "gloss": "owner, lord: bēl ḫulqim “owner of the lost property”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "É-tim",
+     "say": "bītim",
+     "glyphs": [
+      {
+       "s": "𒂍",
+       "sign": "E2",
+       "role": "log",
+       "tr": "É",
+       "val": "bīt"
+      },
+      {
+       "s": "𒁴",
+       "sign": "DIM",
+       "role": "phon",
+       "tr": "tim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bītum",
+       "gloss": "house, estate",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-in-šu",
+     "say": "īnšu",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i",
+       "nl": true
+      },
+      {
+       "s": "𒅔",
+       "sign": "IN",
+       "role": "phon",
+       "tr": "in"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "īnum",
+       "gloss": "eye: īnšu … iššīma “he lifted his eye (to it)” — he coveted it",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "iš-ši-ma",
+     "say": "iššīma",
+     "glyphs": [
+      {
+       "s": "𒅖",
+       "sign": "ISH",
+       "role": "phon",
+       "tr": "iš"
+      },
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "ši"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "našûm",
+       "gloss": "to bear, carry: ittanašši “he shall bear (the penalty)”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "ln": 25,
+   "n": "īnam našûm, “to raise the eye,” is the idiom for coveting — the firefighter eyeing the furniture."
+  },
+  {
+   "t": "𒉡𒈠𒀜\n𒁁𒂖 𒂍𒁴\n𒅋𒋼𒁲\n𒀀𒉿𒈝 𒋗𒌑\n𒀀𒈾 𒄿𒊭𒁴 𒋗𒀀𒋾\n𒅔𒈾𒀜𒁲",
+   "l": "and the-goods of-the-owner of-the-house took, man that into fire that shall-be-thrown.",
+   "i": "and took them — that man shall be thrown into that very fire.",
+   "words": [
+    {
+     "reading": "nu-ma-at",
+     "say": "numāt",
+     "glyphs": [
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "𒀜",
+       "sign": "AD",
+       "role": "phon",
+       "tr": "at"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "numātum",
+       "gloss": "goods, household property: numāt bēl bītim “the goods of the house’s owner”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "be-el",
+     "say": "bēl",
+     "glyphs": [
+      {
+       "s": "𒁁",
+       "sign": "BAD",
+       "role": "phon",
+       "tr": "be",
+       "nl": true
+      },
+      {
+       "s": "𒂖",
+       "sign": "EL",
+       "role": "phon",
+       "tr": "el"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bēlum",
+       "gloss": "owner, lord: bēl ḫulqim “owner of the lost property”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "É-tim",
+     "say": "bītim",
+     "glyphs": [
+      {
+       "s": "𒂍",
+       "sign": "E2",
+       "role": "log",
+       "tr": "É",
+       "val": "bīt"
+      },
+      {
+       "s": "𒁴",
+       "sign": "DIM",
+       "role": "phon",
+       "tr": "tim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bītum",
+       "gloss": "house, estate",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "il-te-qi₂",
+     "say": "ilteqi",
+     "glyphs": [
+      {
+       "s": "𒅋",
+       "sign": "IL",
+       "role": "phon",
+       "tr": "il",
+       "nl": true
+      },
+      {
+       "s": "𒋼",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "te"
+      },
+      {
+       "s": "𒁲",
+       "sign": "DI",
+       "role": "phon",
+       "tr": "qi₂"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "leqûm",
+       "gloss": "to take: ileqqi “he shall take”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lum",
+     "say": "awīlum",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šu-u",
+     "say": "šū",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šū",
+       "gloss": "he, that (šū/šuāti “that (man)”)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "to, for",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-ša-tim",
+     "say": "išātim",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša"
+      },
+      {
+       "s": "𒁴",
+       "sign": "DIM",
+       "role": "phon",
+       "tr": "tim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "išātum",
+       "gloss": "fire: išātum innapiḫma “fire broke out”; ana išātim “into the fire”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šu-a-ti",
+     "say": "šuāti",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒋾",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šuāti",
+       "gloss": "that, the aforesaid",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "in-na-ad-di",
+     "say": "innaddi",
+     "glyphs": [
+      {
+       "s": "𒅔",
+       "sign": "IN",
+       "role": "phon",
+       "tr": "in",
+       "nl": true
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "𒀜",
+       "sign": "AD",
+       "role": "phon",
+       "tr": "ad"
+      },
+      {
+       "s": "𒁲",
+       "sign": "DI",
+       "role": "phon",
+       "tr": "di"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nadûm",
+       "gloss": "to cast, throw (a charge; a body into the river): iddi, nadû, iddû",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "n": "The block ends as it likes to: punishment mirroring crime, the looter fed to the blaze he was pretending to fight. Harper preserves one last carver’s slip here — il-te-di carved where il-te-qí was meant; the DI sign sits where KI should be, and the stone keeps its own errata. §26 opens the soldier’s laws — the next installment."
+  }
+ ],
+ "glossary": {
+  "šumma": "if — the word that opens every law of the code",
+  "bēlum": "owner, lord: bēl ḫulqim “owner of the lost property”",
+  "ḫulqum": "the lost thing, lost property; ḫuluqšu “his lost property”",
+  "šībum": "witness; pl. šībū/šībī",
+  "mūdûm": "one who knows: šībī mūdi ḫulqišu “witnesses who know his lost property”; mūdûssunu “what they know”",
+  "-šu": "his / him",
+  "lā": "not (in subordinate and nominal contexts)",
+  "wabālum": "to bring, carry: itbalam “he brought”, lū ublam “let me bring”",
+  "sarrum": "liar; false: sar “he is a liar”",
+  "tuššum": "slander, malicious talk: tuššamma idki “he has stirred up slander”",
+  "dekûm": "to raise, stir up: tuššamma idki “he stirred up slander”",
+  "dâkum": "to kill; N-stem iddâk “he shall be killed” — the code’s death sentence",
+  "nādinānum": "seller: nādin “the seller (who)”",
+  "ana": "to, for",
+  "šīmtum": "fate; one’s natural death: ana šīmtim ittalak “he went to (his) fate” = he died",
+  "alākum": "to go: illak “he shall go”",
+  "šayyāmānum": "buyer, purchaser",
+  "ina": "in, from",
+  "bītum": "house, estate",
+  "rugummûm": "claim, disputed amount",
+  "dīnum": "case, lawsuit; judgment: dīn napištim “a case of life”",
+  "šuāti": "that, the aforesaid",
+  "adi": "up to, times: adi 12-šu “twelvefold”",
+  "5-šu": "fivefold: adi 5-šu “up to five times over”",
+  "leqûm": "to take: ileqqi “he shall take”",
+  "awīlum": "man; the free citizen, the code’s first legal class",
+  "šū": "he, that (šū/šuāti “that (man)”)",
+  "qerbum": "near, at hand: šībūšu lā qerbū “his witnesses are not at hand”",
+  "dajjānum": "judge (da-a-a-nu-um); pl. dajjānū",
+  "adannum": "set term, deadline: adannam “a term (of six months)”",
+  "warḫum": "month (written with ITI, the moon-month sign): warḫim “of the month”",
+  "6-kam": "sixth (KAM marks the ordinal): warḫim šeššim “of the sixth month”",
+  "šakānum": "to set, place: išakkanūšumma “they shall set for him (a term), and”",
+  "redûm": "to lead, conduct; bring back: irdiam “he produced”, irtediaššu “he has led him back”, ireddišu “he shall conduct him”",
+  "arnum": "penalty, punishment",
+  "našûm": "to bear, carry: ittanašši “he shall bear (the penalty)”",
+  "mārum": "son (DUMU) — here: a minor, not yet able to sell",
+  "ṣeḫrum": "young; the child: mār awīlim ṣeḫram “the young son of a free man”",
+  "šarāqum": "to steal: išriq",
+  "lū": "or; either (lū … lū “whether … or”); with verb: “let …”",
+  "wardum": "male slave (ARAD)",
+  "ekallum": "palace (É.GAL “great house”) — the crown as owner",
+  "amtum": "slave-woman (GEME₂)",
+  "muškēnum": "commoner, dependent freeman (MAŠ.EN.KAK) — the code’s second rank",
+  "abullum": "city gate (KÁ.GAL “great door”): abullam uštēṣi “he has taken out through the gate”",
+  "waṣûm": "to go out; ūṣiamma “he came forward”",
+  "ḫalāqum": "to be lost, vanish: ḫalqu, ḫalqam",
+  "ša": "who, which, of",
+  "u": "and",
+  "rakûm": "to harbor, conceal (a fugitive slave): irtakima “he has harbored, and” — Harper’s reading; modern editions take the verb as raqûm “to hide”",
+  "šisītum": "cry, proclamation: šisīt nāgirim “the herald’s cry”",
+  "nāgirum": "the herald, town crier: šisīt nāgirim “the herald’s proclamation”",
+  "ṣērum": "the open country, the steppe: ina ṣērim “in the open country”",
+  "ṣabātum": "to seize: iṣṣabat, ṣabtu",
+  "2": "two — two vertical wedges: 2 šiqil “two shekels”",
+  "šiqlum": "shekel — the basic weight of silver, about 8.3 g (written GÍN): 2 šiqil kaspim",
+  "kaspum": "silver — the code’s money, written KÙ.BABBAR “shining precious-metal”",
+  "nadānum": "to give, pay: inaddin, iddinam, iddinušum; nadānim “to give”",
+  "zakārum": "to name, declare: izzakar “he named”, izakkarma “he shall declare, and”",
+  "warkatum": "the circumstances, the facts of the case: warkassu “his case” (warkat + šu, t+š → ss)",
+  "parāsum": "to decide, cut off: iprus",
+  "târum": "to return: ul itârma “he shall never again …”",
+  "kalûm": "to hold back, detain: iktalāšu “he has kept him back”",
+  "warka": "afterwards, later",
+  "qātum": "hand: ina qāt “from the hand of”",
+  "ṣābitānum": "the captor — the one who seized the runaway: ṣābitānišu “to his captor”",
+  "nīšum": "oath (literally “life”): nīš ilim “the oath by the god”",
+  "ilum": "god; here: the temple as owner",
+  "wašārum": "D-stem (w)uššurum “to release, set free”: ūtaššar “he shall be released”",
+  "palāšum": "to break through, breach (a house wall): iplūš “he broke in”",
+  "pānum": "front, face: ina pani “in front of”",
+  "pilšum": "the breach, the burglar’s hole: ina pani pilšim “in front of the breach”",
+  "ḫalālum": "to hang up: iḫallalūšu “they shall hang him” (in the breach he cut)",
+  "ḫubtum": "robbery; the plunder: ḫubtam iḫbutma “committed a robbery”",
+  "ḫabātum": "to rob: iḫbutma “he committed robbery, and”; N-stem iḫḫabtu “(what) was robbed”",
+  "ḫabbātum": "robber, brigand",
+  "ḫabtum": "robbed: awīlum ḫabtum “the man who was robbed”",
+  "mimmûm": "property, belongings: mimmûšu “his property”",
+  "maḫar": "before, in the presence of: maḫar ilim “before the god”",
+  "bârum": "to establish, prove; D-stem: ubârma “he shall prove (it), and…”",
+  "ālum": "city (URU): ālum u rabiānum “the city and the mayor”",
+  "rabiānum": "the mayor, headman of a town",
+  "erṣetum": "earth, land, territory: erṣetišunu “their territory”",
+  "-šunu": "their / them",
+  "pāṭum": "border, district: pāṭišunu “their district”",
+  "riābum": "to replace, restore: iriab",
+  "napištum": "life",
+  "1": "one — a single vertical wedge (DIŠ): 1 mana “one mina”",
+  "manûm": "mina — weight of silver, 60 shekels (about 500 g): 1 mana kaspim",
+  "nišū": "people; the household: nišīšu “his household”",
+  "šaqālum": "to weigh out (silver = to pay): išqulu",
+  "išātum": "fire: išātum innapiḫma “fire broke out”; ana išātim “into the fire”",
+  "napāḫum": "to kindle; N-stem: innapiḫma “(fire) broke out, and”",
+  "balûm": "to go out (of fire); D-stem bullûm “to extinguish”: ana bullîm “to put (it) out”",
+  "numātum": "goods, household property: numāt bēl bītim “the goods of the house’s owner”",
+  "īnum": "eye: īnšu … iššīma “he lifted his eye (to it)” — he coveted it",
+  "nadûm": "to cast, throw (a charge; a body into the river): iddi, nadû, iddû"
+ }
+}

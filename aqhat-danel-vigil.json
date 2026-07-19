@@ -1,0 +1,6790 @@
+{
+ "id": "aqhat-danel-vigil",
+ "title": "𐎀𐎖𐎅𐎚 — Aqht",
+ "titleEn": "The Tale of Aqhat — Danel's vigil",
+ "language": "Ugaritic",
+ "langCode": null,
+ "script": "ugaritic",
+ "work": "Aqht",
+ "workEn": "The Tale of Aqhat",
+ "part": "I. Danel's vigil (KTU 1.17 i 1–33)",
+ "provisional": true,
+ "draftNote": "Draft in progress — the attested text follows accessible scholarly witnesses, cross-checked; a full collation against the standard edition is still pending, and line numbers in i 16–25 are approximate. One reading (abyn at / abynt) is a flagged crux.",
+ "numbering": "line",
+ "source": "Text: the attested readings of tablet RS 2.[004] (Louvre; = CTA 17 = KTU/CAT 1.17), column i, lines 1–33 — Danel's incubation vigil through the duties-of-the-son litany. Discovered at Ras Shamra (Ugarit) 1930–31; editio princeps Ch. Virolleaud, La légende phénicienne de Danel (Mission de Ras Shamra, 1936). No public-domain edition of Ugaritic can exist (the language was found in 1929), so Lectorium prints only the physically attested sign sequence — a fact no one owns — as reported by accessible witnesses (Gibson- and KTU³-based scholarly quotations, cross-checked); editorial restorations of the breaks are never printed as text — the notes report them. Damage brackets follow the witnesses; line numbers cite the CAT/KTU³ system, approximate (±1) in i 16–25 where accessible witnesses' lineations differ. Word dividers as printed by the witnesses. Transliteration: standard single-grapheme system (a i u for the three ʾaleph signs). Vocalized readings (the toggle) are comparative-Semitic reconstructions after the conventions of the standard handbooks (Huehnergard); actual vowels are unrecorded — the convention is applied consistently and is admittedly artificial. Font: Noto Sans Ugaritic (OFL).",
+ "about": "The oldest story in this library with a named human hero: Danel, the righteous judge, has no son. For six days he feeds the gods and sleeps in the sanctuary; on the seventh, Baal pleads his case to El — and recites the famous catalogue of what a son is for, from tending his father's ancestor-stela to carrying him home drunk from the feast. Everything here is read from one scorched clay tablet dug up in 1930: the opening lines are broken, several words are cruxes no one can translate with certainty, and this app shows the damage rather than papering over it. What you are reading is exactly what survives.",
+ "sentences": [
+  {
+   "ln": 1,
+   "t": "𐎛𐎟𐎀𐎔𐎅𐎟𐎙𐎇𐎗",
+   "l": "[…Rapiʾ]u — thereupon, the hero, […]",
+   "words": [
+    {
+     "reading": "[dnil.mt.rp]i",
+     "say": "(rapiʾ)i",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𐎛",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rpi",
+       "gloss": "…tail of rpi 'Rapiʾu'",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "aph",
+     "say": "ʾappuha",
+     "glyphs": [
+      {
+       "s": "𐎀",
+       "sign": "ALPA",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𐎔",
+       "sign": "PU",
+       "role": "phon",
+       "tr": "p"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "aph",
+       "gloss": "thereupon, and then (ʾap 'also, then' + -h)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ġzr",
+     "say": "ġazru",
+     "glyphs": [
+      {
+       "s": "𐎙",
+       "sign": "GHAIN",
+       "role": "phon",
+       "tr": "ġ"
+      },
+      {
+       "s": "𐎇",
+       "sign": "ZETA",
+       "role": "phon",
+       "tr": "z"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ġzr",
+       "gloss": "ġazru — hero, young man",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[…]",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "break in the tablet — text lost",
+       "g": []
+      }
+     ],
+     "say": "…",
+     "nl": true
+    }
+   ],
+   "n": "The poem's opening is gone: about ten lines are lost above this, and what survives of the first two lines is mostly broken away. From the formula's many repetitions editors restore: '[Then] [Danel, the man of Rapi]ʾu, thereupon the hero, [the man of the Harnamite]' — introducing our hero. Only the tail of rpi, the word aph 'thereupon', and ġzr 'the hero' physically survive. Danel (dnil) may be the ancient righteous sage Ezekiel 14 names beside Noah and Job. His two fixed epithets are imperfectly understood: mt rpi 'man of Rapiʾu' (a god? cf. the rpum, the deified dead) and mt hrnmy 'the Harnamite man' (his home town?)."
+  },
+  {
+   "ln": 1,
+   "t": "𐎜𐎇𐎗𐎟𐎛𐎍𐎎𐎟𐎊𐎍𐎈𐎎\n𐎁𐎐𐎟𐎖𐎄𐎌𐎟",
+   "l": "girded(?) — the gods — he feeds; […] the sons of the Holy-One.",
+   "words": [
+    {
+     "reading": "uzr",
+     "say": "ʾuzru",
+     "glyphs": [
+      {
+       "s": "𐎜",
+       "sign": "U",
+       "role": "phon",
+       "tr": "u"
+      },
+      {
+       "s": "𐎇",
+       "sign": "ZETA",
+       "role": "phon",
+       "tr": "z"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "uzr",
+       "gloss": "crux word: 'girded' (clad in the ritual garment) or 'an uzr-offering' — meaning and vocalization uncertain",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ilm",
+     "say": "ʾilīma",
+     "glyphs": [
+      {
+       "s": "𐎛",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "il",
+       "gloss": "ʾilu — god; El, the high god (pl. ilm 'the gods')",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-m",
+       "gloss": "enclitic -ma — emphasis; also the plural ending",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ylḥm",
+     "say": "yulaḥḥimu",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎈",
+       "sign": "HOTA",
+       "role": "phon",
+       "tr": "ḥ"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lḥm",
+       "gloss": "to eat; D-stem 'to feed' (ylḥm 'he feeds')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[…]",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "break in the tablet — text lost",
+       "g": []
+      }
+     ],
+     "say": "…",
+     "nl": true
+    },
+    {
+     "reading": "bn",
+     "say": "binī",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bn",
+       "gloss": "binu — son; bn qdš 'sons of the Holy One' = the gods",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "qdš",
+     "say": "qudši",
+     "glyphs": [
+      {
+       "s": "𐎖",
+       "sign": "QOPA",
+       "role": "phon",
+       "tr": "q"
+      },
+      {
+       "s": "𐎄",
+       "sign": "DELTA",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "qdš",
+       "gloss": "qudšu — holiness, sanctuary; the Holy One (divine epithet)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "Girded, he gives the gods to eat, […] the sons of the Holy One.",
+   "n": "uzr is a famous crux: either 'girded' — Danel wearing the ritual garment of his vigil — or an offering ('an uzr he feeds the gods'). The break is restored by editors as [uzr yšqy] 'girded, he gives drink' from the intact repetition below — your first taste of this poem's echoing, formulaic style. bn qdš 'sons of the Holy One' = the gods. The scene: childless Danel is hosting the gods, day after day, to win a son."
+  },
+  {
+   "ln": 2,
+   "t": "𐎊𐎄\n𐎆𐎊𐎌𐎋𐎁𐎟𐎊𐎄\n𐎔𐎊𐎍𐎐𐎟",
+   "l": "he-casts-off […] and-he-lies-down; he-casts-off […] and-passes-the-night.",
+   "words": [
+    {
+     "reading": "yd",
+     "say": "yadû",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎄",
+       "sign": "DELTA",
+       "role": "phon",
+       "tr": "d"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ydy",
+       "gloss": "to cast off, throw down (yd 'he casts off')",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[…]",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "break in the tablet — text lost",
+       "g": []
+      }
+     ],
+     "say": "…",
+     "nl": true
+    },
+    {
+     "reading": "wyškb",
+     "say": "wa-yiškabu",
+     "glyphs": [
+      {
+       "s": "𐎆",
+       "sign": "WO",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎋",
+       "sign": "KAF",
+       "role": "phon",
+       "tr": "k"
+      },
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "w",
+       "gloss": "and (wa-)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "škb",
+       "gloss": "to lie down (yškb; cf. Hebrew šākab)",
+       "g": [
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "yd",
+     "say": "yadû",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎄",
+       "sign": "DELTA",
+       "role": "phon",
+       "tr": "d"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ydy",
+       "gloss": "to cast off, throw down (yd 'he casts off')",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[…]",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "break in the tablet — text lost",
+       "g": []
+      }
+     ],
+     "say": "…",
+     "nl": true
+    },
+    {
+     "reading": "pyln",
+     "say": "pa-yalīnu",
+     "glyphs": [
+      {
+       "s": "𐎔",
+       "sign": "PU",
+       "role": "phon",
+       "tr": "p"
+      },
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "p",
+       "gloss": "and so, and then (pa-)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "lwn",
+       "gloss": "to pass the night (p yln 'and he passes the night'; cf. Hebrew lān)",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "He casts off […] and lies down, casts off […] and spends the night.",
+   "n": "Editors restore [ṣth yʿl] 'his cloak, goes up' and [mizrth] 'his wrap' from the intact repetition at the end of the scene: 'he casts off his cloak, goes up and lies down; casts off his wrap and passes the night.' Danel is sleeping in the sanctuary on purpose — ritual incubation, awaiting an answer in a dream. mizrt (root ʾzr 'gird') is the same garment family as the crux-word uzr. Note p yln: p 'and so' + √lwn 'pass the night' (Hebrew lān)."
+  },
+  {
+   "ln": 4,
+   "t": "𐎅𐎐𐎟𐎊𐎎",
+   "l": "behold, a day […]",
+   "words": [
+    {
+     "reading": "hn",
+     "say": "hanna",
+     "glyphs": [
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "hn",
+       "gloss": "behold, look",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ym",
+     "say": "yômu",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ym",
+       "gloss": "yômu — day",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[…]",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "break in the tablet — text lost",
+       "g": []
+      }
+     ],
+     "say": "…",
+     "nl": true
+    }
+   ],
+   "i": "Behold, a day […and a second…]",
+   "n": "The lost words are restored as [w ṯn] 'and a second'. Here begins the count-up you will meet constantly in West Semitic poetry: a day and a second, a third and a fourth, a fifth and a sixth — then the climax on the seventh. The same seven-day ladder shapes Baal's palace-fire and the flood story's waiting doves."
+  },
+  {
+   "ln": 5,
+   "t": "𐎛𐎍𐎎𐎟𐎄𐎐𐎛𐎍\n𐎊𐎍𐎈𐎎𐎟𐎜𐎇𐎗\n𐎐𐎟𐎖𐎄𐎌𐎟",
+   "l": "[…] the gods, Danel, […] feeds; girded(?), […the son]s of the Holy-One.",
+   "words": [
+    {
+     "reading": "[…]",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "break in the tablet — text lost",
+       "g": []
+      }
+     ],
+     "say": "…"
+    },
+    {
+     "reading": "ilm",
+     "say": "ʾilīma",
+     "glyphs": [
+      {
+       "s": "𐎛",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "il",
+       "gloss": "ʾilu — god; El, the high god (pl. ilm 'the gods')",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-m",
+       "gloss": "enclitic -ma — emphasis; also the plural ending",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "dnil",
+     "say": "danīʾilu",
+     "glyphs": [
+      {
+       "s": "𐎄",
+       "sign": "DELTA",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎛",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dnil",
+       "gloss": "Danel (Daniʾilu) — the righteous hero; mt rpi and mt hrnmy are his fixed epithets",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[…]",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "break in the tablet — text lost",
+       "g": []
+      }
+     ],
+     "say": "…",
+     "nl": true
+    },
+    {
+     "reading": "ylḥm",
+     "say": "yulaḥḥimu",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎈",
+       "sign": "HOTA",
+       "role": "phon",
+       "tr": "ḥ"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lḥm",
+       "gloss": "to eat; D-stem 'to feed' (ylḥm 'he feeds')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "uzr",
+     "say": "ʾuzru",
+     "glyphs": [
+      {
+       "s": "𐎜",
+       "sign": "U",
+       "role": "phon",
+       "tr": "u"
+      },
+      {
+       "s": "𐎇",
+       "sign": "ZETA",
+       "role": "phon",
+       "tr": "z"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "uzr",
+       "gloss": "crux word: 'girded' (clad in the ritual garment) or 'an uzr-offering' — meaning and vocalization uncertain",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[…]",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "break in the tablet — text lost",
+       "g": []
+      }
+     ],
+     "say": "…",
+     "nl": true
+    },
+    {
+     "reading": "[b]n",
+     "say": "(bi)nī",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bn",
+       "gloss": "…tail of bn 'sons'",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "qdš",
+     "say": "qudši",
+     "glyphs": [
+      {
+       "s": "𐎖",
+       "sign": "QOPA",
+       "role": "phon",
+       "tr": "q"
+      },
+      {
+       "s": "𐎄",
+       "sign": "DELTA",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "qdš",
+       "gloss": "qudšu — holiness, sanctuary; the Holy One (divine epithet)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "[…] Danel [feeds] the gods, […] gives drink [to the son]s of the Holy One.",
+   "n": "The second day, in the same formula, each line losing its opening to the break: '[and a second, girded,] the gods Danel, [girded, the gods] he feeds; girded, [gives drink to the son]s of the Holy One.' Only the tail -n of bn survives on the last line."
+  },
+  {
+   "ln": 7,
+   "t": "𐎘𐎍𐎘𐎟𐎗𐎁𐎓𐎊𐎎",
+   "l": "a-third, a-fourth day —",
+   "words": [
+    {
+     "reading": "ṯlṯ",
+     "say": "ṯalāṯa",
+     "glyphs": [
+      {
+       "s": "𐎘",
+       "sign": "THANNA",
+       "role": "phon",
+       "tr": "ṯ"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎘",
+       "sign": "THANNA",
+       "role": "phon",
+       "tr": "ṯ"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṯlṯ",
+       "gloss": "three; a third (day)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "rbʿ",
+     "say": "rabāʿa",
+     "glyphs": [
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎓",
+       "sign": "AIN",
+       "role": "phon",
+       "tr": "ʿ"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rbʿ",
+       "gloss": "four; a fourth",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ym",
+     "say": "yôma",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ym",
+       "gloss": "yômu — day",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "A third, a fourth day —"
+  },
+  {
+   "ln": 8,
+   "t": "𐎍𐎎𐎟𐎄𐎐𐎛𐎍𐎟𐎜𐎇𐎗\n𐎍𐎈𐎎𐎟𐎜𐎇𐎗𐎟𐎊𐎌𐎖𐎊𐎟𐎁𐎐",
+   "l": "[girded(?), the go]ds, Danel — girded(?), [he fee]ds; girded(?), he-gives-drink-to the sons [of the Holy-One].",
+   "words": [
+    {
+     "reading": "[…]",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "break in the tablet — text lost",
+       "g": []
+      }
+     ],
+     "say": "…"
+    },
+    {
+     "reading": "[i]lm",
+     "say": "(ʾi)līma",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "il",
+       "gloss": "…tail of ilm 'the gods'",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "-m",
+       "gloss": "enclitic -ma — emphasis; also the plural ending",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "dnil",
+     "say": "danīʾilu",
+     "glyphs": [
+      {
+       "s": "𐎄",
+       "sign": "DELTA",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎛",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dnil",
+       "gloss": "Danel (Daniʾilu) — the righteous hero; mt rpi and mt hrnmy are his fixed epithets",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "uzr",
+     "say": "ʾuzru",
+     "glyphs": [
+      {
+       "s": "𐎜",
+       "sign": "U",
+       "role": "phon",
+       "tr": "u"
+      },
+      {
+       "s": "𐎇",
+       "sign": "ZETA",
+       "role": "phon",
+       "tr": "z"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "uzr",
+       "gloss": "crux word: 'girded' (clad in the ritual garment) or 'an uzr-offering' — meaning and vocalization uncertain",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[…]",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "break in the tablet — text lost",
+       "g": []
+      }
+     ],
+     "say": "…",
+     "nl": true
+    },
+    {
+     "reading": "[y]lḥm",
+     "say": "(yu)laḥḥimu",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎈",
+       "sign": "HOTA",
+       "role": "phon",
+       "tr": "ḥ"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lḥm",
+       "gloss": "…tail of ylḥm 'he feeds'",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "uzr",
+     "say": "ʾuzru",
+     "glyphs": [
+      {
+       "s": "𐎜",
+       "sign": "U",
+       "role": "phon",
+       "tr": "u"
+      },
+      {
+       "s": "𐎇",
+       "sign": "ZETA",
+       "role": "phon",
+       "tr": "z"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "uzr",
+       "gloss": "crux word: 'girded' (clad in the ritual garment) or 'an uzr-offering' — meaning and vocalization uncertain",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "yšqy",
+     "say": "yašqiyu",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎖",
+       "sign": "QOPA",
+       "role": "phon",
+       "tr": "q"
+      },
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šqy",
+       "gloss": "to give drink (yšqy; cf. Hebrew hišqāh)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bn",
+     "say": "binī",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bn",
+       "gloss": "binu — son; bn qdš 'sons of the Holy One' = the gods",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[…]",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "break in the tablet — text lost",
+       "g": []
+      }
+     ],
+     "say": "…",
+     "nl": true
+    }
+   ],
+   "i": "[Girded,] Danel [feeds] the gods; girded he [fee]ds them, girded gives drink to the sons [of the Holy One].",
+   "n": "The third day of the vigil, same formula, the breaks falling elsewhere — across the six days the repetitions let each damaged line be completed from its intact twins. This mutual restoration is exactly how editors work, and why the notes can report the lost words with confidence."
+  },
+  {
+   "ln": 10,
+   "t": "𐎎𐎌𐎟𐎘𐎄𐎘𐎟𐎊𐎎𐎟",
+   "l": "[a fi]fth, a-sixth day —",
+   "words": [
+    {
+     "reading": "[ḫ]mš",
+     "say": "(ḫa)miša",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫmš",
+       "gloss": "…tail of ḫmš 'five'",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ṯdṯ",
+     "say": "ṯādiṯa",
+     "glyphs": [
+      {
+       "s": "𐎘",
+       "sign": "THANNA",
+       "role": "phon",
+       "tr": "ṯ"
+      },
+      {
+       "s": "𐎄",
+       "sign": "DELTA",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "s": "𐎘",
+       "sign": "THANNA",
+       "role": "phon",
+       "tr": "ṯ"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṯdṯ",
+       "gloss": "six; a sixth",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ym",
+     "say": "yôma",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ym",
+       "gloss": "yômu — day",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "[A fi]fth, a sixth day —"
+  },
+  {
+   "ln": 10,
+   "t": "𐎜𐎇𐎗\n𐎎𐎟𐎄𐎐𐎛𐎍𐎟𐎜𐎇𐎗𐎟𐎛𐎍𐎎𐎟𐎊𐎍𐎈𐎎\n𐎊𐎌𐎖𐎊𐎟𐎁𐎐𐎟𐎖𐎄𐎌𐎟",
+   "l": "girded(?), [the god]s, Danel — girded(?), the gods he-feeds; [girded(?),] he-gives-drink-to the sons of the Holy-One.",
+   "words": [
+    {
+     "reading": "uzr",
+     "say": "ʾuzru",
+     "glyphs": [
+      {
+       "s": "𐎜",
+       "sign": "U",
+       "role": "phon",
+       "tr": "u"
+      },
+      {
+       "s": "𐎇",
+       "sign": "ZETA",
+       "role": "phon",
+       "tr": "z"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "uzr",
+       "gloss": "crux word: 'girded' (clad in the ritual garment) or 'an uzr-offering' — meaning and vocalization uncertain",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[…]",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "break in the tablet — text lost",
+       "g": []
+      }
+     ],
+     "say": "…",
+     "nl": true
+    },
+    {
+     "reading": "[il]m",
+     "say": "(ʾilī)ma",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "-m",
+       "gloss": "…tail of ilm 'the gods'",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "dnil",
+     "say": "danīʾilu",
+     "glyphs": [
+      {
+       "s": "𐎄",
+       "sign": "DELTA",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎛",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dnil",
+       "gloss": "Danel (Daniʾilu) — the righteous hero; mt rpi and mt hrnmy are his fixed epithets",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "uzr",
+     "say": "ʾuzru",
+     "glyphs": [
+      {
+       "s": "𐎜",
+       "sign": "U",
+       "role": "phon",
+       "tr": "u"
+      },
+      {
+       "s": "𐎇",
+       "sign": "ZETA",
+       "role": "phon",
+       "tr": "z"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "uzr",
+       "gloss": "crux word: 'girded' (clad in the ritual garment) or 'an uzr-offering' — meaning and vocalization uncertain",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ilm",
+     "say": "ʾilīma",
+     "glyphs": [
+      {
+       "s": "𐎛",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "il",
+       "gloss": "ʾilu — god; El, the high god (pl. ilm 'the gods')",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-m",
+       "gloss": "enclitic -ma — emphasis; also the plural ending",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ylḥm",
+     "say": "yulaḥḥimu",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎈",
+       "sign": "HOTA",
+       "role": "phon",
+       "tr": "ḥ"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lḥm",
+       "gloss": "to eat; D-stem 'to feed' (ylḥm 'he feeds')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[…]",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "break in the tablet — text lost",
+       "g": []
+      }
+     ],
+     "say": "…",
+     "nl": true
+    },
+    {
+     "reading": "yšqy",
+     "say": "yašqiyu",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎖",
+       "sign": "QOPA",
+       "role": "phon",
+       "tr": "q"
+      },
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šqy",
+       "gloss": "to give drink (yšqy; cf. Hebrew hišqāh)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bn",
+     "say": "binī",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bn",
+       "gloss": "binu — son; bn qdš 'sons of the Holy One' = the gods",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "qdš",
+     "say": "qudši",
+     "glyphs": [
+      {
+       "s": "𐎖",
+       "sign": "QOPA",
+       "role": "phon",
+       "tr": "q"
+      },
+      {
+       "s": "𐎄",
+       "sign": "DELTA",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "qdš",
+       "gloss": "qudšu — holiness, sanctuary; the Holy One (divine epithet)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "Girded, Danel [feeds the god]s; girded he feeds the gods, [girded] gives drink to the sons of the Holy One."
+  },
+  {
+   "ln": 12,
+   "t": "𐎊𐎄𐎟𐎕𐎚𐎅\n𐎛𐎍𐎟𐎊𐎄𐎟𐎕𐎚𐎅𐎟𐎊𐎓𐎍𐎟𐎆𐎊𐎌𐎋𐎁\n𐎎𐎛𐎇𐎗𐎚𐎅𐎟𐎔𐎊𐎍𐎐",
+   "l": "he-casts-off his-cloak, [Dan]el — he-casts-off his-cloak, goes-up and-lies-down; [he-casts-off] his-wrap and-passes-the-night.",
+   "words": [
+    {
+     "reading": "yd",
+     "say": "yadû",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎄",
+       "sign": "DELTA",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ydy",
+       "gloss": "to cast off, throw down (yd 'he casts off')",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ṣth",
+     "say": "ṣâtahu",
+     "glyphs": [
+      {
+       "s": "𐎕",
+       "sign": "SADE",
+       "role": "phon",
+       "tr": "ṣ"
+      },
+      {
+       "s": "𐎚",
+       "sign": "TO",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṣt",
+       "gloss": "cloak, garment",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[dn]il",
+     "say": "(danīʾ)ilu",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𐎛",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dnil",
+       "gloss": "…tail of dnil 'Danel'",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "yd",
+     "say": "yadû",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎄",
+       "sign": "DELTA",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ydy",
+       "gloss": "to cast off, throw down (yd 'he casts off')",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ṣth",
+     "say": "ṣâtahu",
+     "glyphs": [
+      {
+       "s": "𐎕",
+       "sign": "SADE",
+       "role": "phon",
+       "tr": "ṣ"
+      },
+      {
+       "s": "𐎚",
+       "sign": "TO",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṣt",
+       "gloss": "cloak, garment",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "yʿl",
+     "say": "yaʿlû",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎓",
+       "sign": "AIN",
+       "role": "phon",
+       "tr": "ʿ"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ʿly",
+       "gloss": "to go up (yʿl; cf. Hebrew ʿālāh)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wyškb",
+     "say": "wa-yiškabu",
+     "glyphs": [
+      {
+       "s": "𐎆",
+       "sign": "WO",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎋",
+       "sign": "KAF",
+       "role": "phon",
+       "tr": "k"
+      },
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "w",
+       "gloss": "and (wa-)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "škb",
+       "gloss": "to lie down (yškb; cf. Hebrew šākab)",
+       "g": [
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[…]",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "break in the tablet — text lost",
+       "g": []
+      }
+     ],
+     "say": "…",
+     "nl": true
+    },
+    {
+     "reading": "mizrth",
+     "say": "miʾzartahu",
+     "glyphs": [
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎛",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𐎇",
+       "sign": "ZETA",
+       "role": "phon",
+       "tr": "z"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎚",
+       "sign": "TO",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mizrt",
+       "gloss": "girded wrap, ritual garment (root ʾzr 'to gird')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "pyln",
+     "say": "pa-yalīnu",
+     "glyphs": [
+      {
+       "s": "𐎔",
+       "sign": "PU",
+       "role": "phon",
+       "tr": "p"
+      },
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "p",
+       "gloss": "and so, and then (pa-)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "lwn",
+       "gloss": "to pass the night (p yln 'and he passes the night'; cf. Hebrew lān)",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "Danel casts off his cloak — casts off his cloak, goes up and lies down; [casts off] his wrap and passes the night.",
+   "n": "The sixth night, and now the formula stands intact — the very lines from which editors restored the broken openings above. yd ṣth 'he casts off his cloak': the root ydy 'throw down'; yʿl 'he goes up' (Hebrew ʿālāh) — up onto the sanctuary bed."
+  },
+  {
+   "ln": 15,
+   "t": "𐎎𐎋𐎟𐎁𐎌𐎁𐎓𐎟𐎊𐎎𐎎",
+   "l": "look — on-the-seventh of-days:",
+   "words": [
+    {
+     "reading": "mk",
+     "say": "mak",
+     "glyphs": [
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎋",
+       "sign": "KAF",
+       "role": "phon",
+       "tr": "k"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mk",
+       "gloss": "then, look — marks the climactic seventh day",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bšbʿ",
+     "say": "bi-šābiʿi",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎓",
+       "sign": "AIN",
+       "role": "phon",
+       "tr": "ʿ"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "b",
+       "gloss": "in, on, at (bi-)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "šbʿ",
+       "gloss": "seven; b šbʿ 'on the seventh'",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ymm",
+     "say": "yômīma",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ym",
+       "gloss": "yômu — day",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-m",
+       "gloss": "enclitic -ma — emphasis; also the plural ending",
+       "g": [
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "Then, on the seventh day,",
+   "n": "mk marks the arrival of the climactic seventh day — the ladder of days (1–2, 3–4, 5–6) always resolves on the seventh. Singular drama after six identical days of silence."
+  },
+  {
+   "ln": 16,
+   "t": "𐎊𐎖𐎗𐎁𐎟𐎁𐎓𐎍𐎟𐎁𐎈𐎐𐎚𐎅",
+   "l": "[and-]he-draws-near, Baʿlu, in-his-compassion:",
+   "words": [
+    {
+     "reading": "[w]yqrb",
+     "say": "(wa-)yiqrabu",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎖",
+       "sign": "QOPA",
+       "role": "phon",
+       "tr": "q"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "qrb",
+       "gloss": "to draw near (yqrb); as noun 'midst' (b qrb 'within')",
+       "g": [
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bʿl",
+     "say": "baʿlu",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎓",
+       "sign": "AIN",
+       "role": "phon",
+       "tr": "ʿ"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bʿl",
+       "gloss": "Baal (Baʿlu), the storm-god; as common noun 'lord'",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bḥnth",
+     "say": "bi-ḥinnatihu",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎈",
+       "sign": "HOTA",
+       "role": "phon",
+       "tr": "ḥ"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎚",
+       "sign": "TO",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "b",
+       "gloss": "in, on, at (bi-)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "ḥnt",
+       "gloss": "compassion, grace (root ḥnn; cf. Hebrew ḥānan)",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        4
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "Baal draws near in his compassion:",
+   "n": "It is Baal — not El — who notices the suffering man. ḥnt is from ḥnn 'to be gracious' (Hebrew ḥānan): 'in his compassion', or 'at his (Danel's) plea'. Baal now speaks, describing Danel's misery to move El to act."
+  },
+  {
+   "ln": 16,
+   "t": "𐎀𐎁𐎊𐎐𐎀𐎚𐎐𐎛𐎍𐎟𐎎𐎚𐎟𐎗𐎔𐎛𐎟𐎀𐎐𐎃𐎟𐎙𐎇𐎗\n𐎎𐎚𐎟𐎅𐎗𐎐𐎎𐎊𐎟",
+   "l": "wretched are-you(?), [Da]nel, man of-Rapiʾu; sighing, the-hero, man of-the-Harnamite —",
+   "words": [
+    {
+     "reading": "abyn",
+     "say": "ʾabyānu",
+     "glyphs": [
+      {
+       "s": "𐎀",
+       "sign": "ALPA",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "abyn",
+       "gloss": "wretched, destitute (cf. Hebrew ʾebyôn 'poor')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "at",
+     "say": "ʾatta",
+     "glyphs": [
+      {
+       "s": "𐎀",
+       "sign": "ALPA",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𐎚",
+       "sign": "TO",
+       "role": "phon",
+       "tr": "t"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "at",
+       "gloss": "you (masc. sing.; ʾatta)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[d]nil",
+     "say": "(da)nīʾilu",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎛",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dnil",
+       "gloss": "…Danel, first sign restored",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mt",
+     "say": "mutu",
+     "glyphs": [
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎚",
+       "sign": "TO",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mt",
+       "gloss": "mutu — man (of); husband",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "rpi",
+     "say": "rapiʾi",
+     "glyphs": [
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎔",
+       "sign": "PU",
+       "role": "phon",
+       "tr": "p"
+      },
+      {
+       "s": "𐎛",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rpi",
+       "gloss": "Rapiʾu — divine name; cf. the rpum (Rephaim), the deified dead",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "anḫ",
+     "say": "ʾanīḫu",
+     "glyphs": [
+      {
+       "s": "𐎀",
+       "sign": "ALPA",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎃",
+       "sign": "KHA",
+       "role": "phon",
+       "tr": "ḫ"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "anḫ",
+       "gloss": "sighing, groaning (root ʾnḫ)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ġzr",
+     "say": "ġazru",
+     "glyphs": [
+      {
+       "s": "𐎙",
+       "sign": "GHAIN",
+       "role": "phon",
+       "tr": "ġ"
+      },
+      {
+       "s": "𐎇",
+       "sign": "ZETA",
+       "role": "phon",
+       "tr": "z"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ġzr",
+       "gloss": "ġazru — hero, young man",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mt",
+     "say": "mutu",
+     "glyphs": [
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎚",
+       "sign": "TO",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mt",
+       "gloss": "mutu — man (of); husband",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "hrnmy",
+     "say": "harnamiyyi",
+     "glyphs": [
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "hrnmy",
+       "gloss": "Harnamite(?) — epithet of Danel, meaning uncertain (a place-name?)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "'Wretched you are, Danel, man of Rapiʾu — sighing, the hero, the Harnamite man —",
+   "n": "An honest crux: our witness reads abyn at 'wretched are you' (two words), but some editions read a single word abynt 'wretchedness' — the difference is one ʾaleph sign, and the accessible witnesses disagree. Either way the sense is Danel's misery. abyn is Hebrew ʾebyôn 'poor, wretched'; anḫ 'sighing' — six days of unanswered vigil."
+  },
+  {
+   "ln": 17,
+   "t": "𐎄𐎛𐎐𐎟𐎁𐎐𐎟𐎍𐎅\n𐎋𐎎𐎟𐎀𐎃𐎅𐎟𐎆𐎟𐎌𐎗𐎌𐎟𐎋𐎎𐎟𐎀𐎗𐎊𐎅",
+   "l": "who — no son to-him like his-brothers, nor scion like his-kinsmen.",
+   "words": [
+    {
+     "reading": "din",
+     "say": "dī-ʾênu",
+     "glyphs": [
+      {
+       "s": "𐎄",
+       "sign": "DELTA",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "s": "𐎛",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "d",
+       "gloss": "who, which (relative pronoun dū)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "in",
+       "gloss": "there is not (ʾênu — the opposite of iṯ)",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bn",
+     "say": "binu",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bn",
+       "gloss": "binu — son; bn qdš 'sons of the Holy One' = the gods",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lh",
+     "say": "lêhu",
+     "glyphs": [
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "l",
+       "gloss": "to, for; from; against; also emphatic/vocative la- 'verily, O'",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "km",
+     "say": "kama",
+     "glyphs": [
+      {
+       "s": "𐎋",
+       "sign": "KAF",
+       "role": "phon",
+       "tr": "k"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "km",
+       "gloss": "like, as (kama)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "aḫh",
+     "say": "ʾaḫîhu",
+     "glyphs": [
+      {
+       "s": "𐎀",
+       "sign": "ALPA",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𐎃",
+       "sign": "KHA",
+       "role": "phon",
+       "tr": "ḫ"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "aḫ",
+       "gloss": "brother",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "w",
+     "say": "wa",
+     "glyphs": [
+      {
+       "s": "𐎆",
+       "sign": "WO",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "w",
+       "gloss": "and (wa-)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šrš",
+     "say": "šuršu",
+     "glyphs": [
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šrš",
+       "gloss": "šuršu — root; scion, offspring (cf. Hebrew šōreš)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "km",
+     "say": "kama",
+     "glyphs": [
+      {
+       "s": "𐎋",
+       "sign": "KAF",
+       "role": "phon",
+       "tr": "k"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "km",
+       "gloss": "like, as (kama)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "aryh",
+     "say": "ʾaryihu",
+     "glyphs": [
+      {
+       "s": "𐎀",
+       "sign": "ALPA",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ary",
+       "gloss": "kinsman, fellow",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "who has no son as his brothers have, no scion like his kinsmen.",
+   "n": "d in bn lh, literally 'who — there-is-not a son to him': possession in Ugaritic (as in Hebrew) is 'there is to X', not 'X has'. You'll see this constantly. šrš 'root' used of offspring — a scion; the pairing bn // šrš is classic parallelism: say it, then say it again in other words."
+  },
+  {
+   "ln": 18,
+   "t": "𐎁𐎍𐎟𐎛𐎘𐎟𐎁𐎐𐎟𐎍𐎅𐎟𐎋𐎎𐎀𐎃𐎅𐎟𐎆𐎟𐎌𐎗𐎌\n𐎋𐎎𐎟𐎀𐎗𐎊𐎅𐎟",
+   "l": "shall-there-not-be a-son to-him like his-brothers, a-scion like his-kinsmen?",
+   "words": [
+    {
+     "reading": "bl",
+     "say": "bal",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bl",
+       "gloss": "not; here 'shall (he) not…?'",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "iṯ",
+     "say": "ʾiṯu",
+     "glyphs": [
+      {
+       "s": "𐎛",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𐎘",
+       "sign": "THANNA",
+       "role": "phon",
+       "tr": "ṯ"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "iṯ",
+       "gloss": "there is (ʾiṯu; cf. Hebrew yēš)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bn",
+     "say": "binu",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bn",
+       "gloss": "binu — son; bn qdš 'sons of the Holy One' = the gods",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lh",
+     "say": "lêhu",
+     "glyphs": [
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "l",
+       "gloss": "to, for; from; against; also emphatic/vocative la- 'verily, O'",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "km",
+     "say": "kama",
+     "glyphs": [
+      {
+       "s": "𐎋",
+       "sign": "KAF",
+       "role": "phon",
+       "tr": "k"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "km",
+       "gloss": "like, as (kama)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "aḫh",
+     "say": "ʾaḫîhu",
+     "glyphs": [
+      {
+       "s": "𐎀",
+       "sign": "ALPA",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𐎃",
+       "sign": "KHA",
+       "role": "phon",
+       "tr": "ḫ"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "aḫ",
+       "gloss": "brother",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "w",
+     "say": "wa",
+     "glyphs": [
+      {
+       "s": "𐎆",
+       "sign": "WO",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "w",
+       "gloss": "and (wa-)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šrš",
+     "say": "šuršu",
+     "glyphs": [
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šrš",
+       "gloss": "šuršu — root; scion, offspring (cf. Hebrew šōreš)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "km",
+     "say": "kama",
+     "glyphs": [
+      {
+       "s": "𐎋",
+       "sign": "KAF",
+       "role": "phon",
+       "tr": "k"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "km",
+       "gloss": "like, as (kama)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "aryh",
+     "say": "ʾaryihu",
+     "glyphs": [
+      {
+       "s": "𐎀",
+       "sign": "ALPA",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ary",
+       "gloss": "kinsman, fellow",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "Shall he not have a son like his brothers, a scion like his kinsmen?",
+   "n": "Baal turns Danel's lack into a plea: bl iṯ 'is there not (to be)…?' — iṯ 'there is' (Hebrew yēš) is the positive twin of in in the previous line. Small print: our accessible witness actually prints it here; the existential is everywhere else iṯ, so we print iṯ and flag the discrepancy — pending collation against the standard edition."
+  },
+  {
+   "ln": 20,
+   "t": "𐎜𐎇𐎗𐎎𐎟𐎛𐎍𐎎𐎟𐎊𐎍𐎈𐎎\n𐎜𐎇𐎗𐎎𐎟𐎊𐎌𐎖𐎊𐎟𐎁𐎐𐎟𐎖𐎄𐎌",
+   "l": "girded(?) the gods he-has-fed, girded(?) given-drink-to the sons of-the-Holy-One —",
+   "words": [
+    {
+     "reading": "uzrm",
+     "say": "ʾuzruma",
+     "glyphs": [
+      {
+       "s": "𐎜",
+       "sign": "U",
+       "role": "phon",
+       "tr": "u"
+      },
+      {
+       "s": "𐎇",
+       "sign": "ZETA",
+       "role": "phon",
+       "tr": "z"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "uzr",
+       "gloss": "crux word: 'girded' (clad in the ritual garment) or 'an uzr-offering' — meaning and vocalization uncertain",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-m",
+       "gloss": "enclitic -ma — emphasis; also the plural ending",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ilm",
+     "say": "ʾilīma",
+     "glyphs": [
+      {
+       "s": "𐎛",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "il",
+       "gloss": "ʾilu — god; El, the high god (pl. ilm 'the gods')",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-m",
+       "gloss": "enclitic -ma — emphasis; also the plural ending",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ylḥm",
+     "say": "yulaḥḥimu",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎈",
+       "sign": "HOTA",
+       "role": "phon",
+       "tr": "ḥ"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lḥm",
+       "gloss": "to eat; D-stem 'to feed' (ylḥm 'he feeds')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "uzrm",
+     "say": "ʾuzruma",
+     "glyphs": [
+      {
+       "s": "𐎜",
+       "sign": "U",
+       "role": "phon",
+       "tr": "u"
+      },
+      {
+       "s": "𐎇",
+       "sign": "ZETA",
+       "role": "phon",
+       "tr": "z"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "uzr",
+       "gloss": "crux word: 'girded' (clad in the ritual garment) or 'an uzr-offering' — meaning and vocalization uncertain",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-m",
+       "gloss": "enclitic -ma — emphasis; also the plural ending",
+       "g": [
+        3
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "yšqy",
+     "say": "yašqiyu",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎖",
+       "sign": "QOPA",
+       "role": "phon",
+       "tr": "q"
+      },
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šqy",
+       "gloss": "to give drink (yšqy; cf. Hebrew hišqāh)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bn",
+     "say": "binī",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bn",
+       "gloss": "binu — son; bn qdš 'sons of the Holy One' = the gods",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "qdš",
+     "say": "qudši",
+     "glyphs": [
+      {
+       "s": "𐎖",
+       "sign": "QOPA",
+       "role": "phon",
+       "tr": "q"
+      },
+      {
+       "s": "𐎄",
+       "sign": "DELTA",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "qdš",
+       "gloss": "qudšu — holiness, sanctuary; the Holy One (divine epithet)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "Girded he has fed the gods, girded given drink to the sons of the Holy One —",
+   "n": "Baal reports Danel's six days of piety back to El, in the poem's own formula — with an enclitic -m added to uzr (uzrm), a little emphatic particle that changes nothing in translation. Formulae repeated with tiny variations: the heartbeat of this poetry."
+  },
+  {
+   "ln": 22,
+   "t": "𐎍𐎚𐎁𐎗𐎋𐎐𐎐𐎍𐎘𐎗𐎟𐎛𐎍𐎀𐎁𐎊",
+   "l": "wilt-thou-not-bless-him, O-Bull, El, my-father —",
+   "words": [
+    {
+     "reading": "ltbrknn",
+     "say": "la-tabarrikannannu",
+     "glyphs": [
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎚",
+       "sign": "TO",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎋",
+       "sign": "KAF",
+       "role": "phon",
+       "tr": "k"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "l",
+       "gloss": "to, for; from; against; also emphatic/vocative la- 'verily, O'",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "brk",
+       "gloss": "to bless (tbrk; cf. Hebrew bērak)",
+       "g": [
+        1,
+        2,
+        3,
+        4
+       ]
+      },
+      {
+       "lemma": "-nn",
+       "gloss": "him (energic ending + 3 masc. sing. suffix on the verb)",
+       "g": [
+        5,
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lṯr",
+     "say": "la-ṯôri",
+     "glyphs": [
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎘",
+       "sign": "THANNA",
+       "role": "phon",
+       "tr": "ṯ"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "l",
+       "gloss": "to, for; from; against; also emphatic/vocative la- 'verily, O'",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "ṯr",
+       "gloss": "ṯôru — Bull, El's epithet",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "il",
+     "say": "ʾili",
+     "glyphs": [
+      {
+       "s": "𐎛",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "il",
+       "gloss": "ʾilu — god; El, the high god (pl. ilm 'the gods')",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "aby",
+     "say": "ʾabīya",
+     "glyphs": [
+      {
+       "s": "𐎀",
+       "sign": "ALPA",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ab",
+       "gloss": "father",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-y",
+       "gloss": "my (1 sing. suffix)",
+       "g": [
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "Will you not bless him, O Bull El, my father,",
+   "n": "The plea proper. l tbrknn: emphatic la- + 'you bless' + the energic ending -nn 'him' — a whole English clause in one Ugaritic word. ṯr il 'Bull El': El's standing epithet, strength and fatherhood in one image; Baal calls him aby 'my father'."
+  },
+  {
+   "ln": 23,
+   "t": "𐎚𐎎𐎗𐎐𐎐𐎍𐎁𐎐𐎊𐎟𐎁𐎐𐎆𐎚",
+   "l": "strengthen-him, O-Builder of-Creatures?",
+   "words": [
+    {
+     "reading": "tmrnn",
+     "say": "tamurrannannu",
+     "glyphs": [
+      {
+       "s": "𐎚",
+       "sign": "TO",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mrr",
+       "gloss": "to strengthen — or 'to bless' (disputed)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-nn",
+       "gloss": "him (energic ending + 3 masc. sing. suffix on the verb)",
+       "g": [
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lbny",
+     "say": "la-bāniyi",
+     "glyphs": [
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "l",
+       "gloss": "to, for; from; against; also emphatic/vocative la- 'verily, O'",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "bny",
+       "gloss": "builder, creator (bny bnwt 'Creator of Creatures', El's epithet)",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bnwt",
+     "say": "bunuwwati",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎆",
+       "sign": "WO",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𐎚",
+       "sign": "TO",
+       "role": "phon",
+       "tr": "t"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bnwt",
+       "gloss": "creatures, creation",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "strengthen him, O Creator of Creatures?",
+   "n": "tmr from mrr — 'strengthen' or simply 'bless' (disputed; the root elsewhere means 'be strong/bitter'). bny bnwt 'Builder of Creatures' — El as creator; the second half of the parallel pair begun with ṯr il aby."
+  },
+  {
+   "ln": 25,
+   "t": "𐎆𐎊𐎋𐎐𐎟𐎁𐎐𐎅𐎟𐎁𐎁𐎚𐎟𐎌𐎗𐎌𐎟𐎁𐎖𐎗𐎁\n𐎅𐎋𐎍𐎅𐎟",
+   "l": "and-let-there-be his-son in-the-house, a-scion in-the-midst-of his-palace:",
+   "words": [
+    {
+     "reading": "wykn",
+     "say": "wa-yakūnu",
+     "glyphs": [
+      {
+       "s": "𐎆",
+       "sign": "WO",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎋",
+       "sign": "KAF",
+       "role": "phon",
+       "tr": "k"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "w",
+       "gloss": "and (wa-)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "kn",
+       "gloss": "to be, be established (ykn 'let there be'; cf. Hebrew kûn)",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bnh",
+     "say": "binuhu",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bn",
+       "gloss": "binu — son; bn qdš 'sons of the Holy One' = the gods",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bbt",
+     "say": "bi-bêti",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎚",
+       "sign": "TO",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "b",
+       "gloss": "in, on, at (bi-)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "bt",
+       "gloss": "bêtu — house; temple",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šrš",
+     "say": "šuršu",
+     "glyphs": [
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šrš",
+       "gloss": "šuršu — root; scion, offspring (cf. Hebrew šōreš)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bqrb",
+     "say": "bi-qirbi",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎖",
+       "sign": "QOPA",
+       "role": "phon",
+       "tr": "q"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "b",
+       "gloss": "in, on, at (bi-)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "qrb",
+       "gloss": "to draw near (yqrb); as noun 'midst' (b qrb 'within')",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "hklh",
+     "say": "hêkalihu",
+     "glyphs": [
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎋",
+       "sign": "KAF",
+       "role": "phon",
+       "tr": "k"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "hkl",
+       "gloss": "hêkalu — palace (cf. Hebrew hêkāl; ultimately Sumerian É.GAL 'great house' — see the Hammurabi texts)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        3
+       ]
+      }
+     ],
+     "nl": true
+    }
+   ],
+   "i": "Let there be a son in his house, a scion within his palace —",
+   "n": "ykn (root kwn, Hebrew kûn): 'let there be, let him be established.' hkl 'palace' is the same word as Hebrew hêkāl — and ultimately Sumerian É.GAL 'great house', which you can see written in this library's Hammurabi texts. The blessing asked for; now comes the famous answer to 'what is a son for?'"
+  },
+  {
+   "ln": 26,
+   "t": "𐎐𐎕𐎁𐎟𐎒𐎋𐎐𐎟𐎛𐎍𐎛𐎁𐎅𐎟𐎁𐎖𐎄𐎌\n𐎇𐎚𐎗𐎓𐎎𐎅𐎟",
+   "l": "one-setting-up the-stela of-his-father's-god; in-the-sanctuary the-ztr of-his-clan;",
+   "words": [
+    {
+     "reading": "nṣb",
+     "say": "nāṣibu",
+     "glyphs": [
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎕",
+       "sign": "SADE",
+       "role": "phon",
+       "tr": "ṣ"
+      },
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nṣb",
+       "gloss": "to set up, erect (nṣb 'one who sets up'; cf. Hebrew maṣṣēbāh 'standing stone')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "skn",
+     "say": "sikkanna",
+     "glyphs": [
+      {
+       "s": "𐎒",
+       "sign": "SAMKA",
+       "role": "phon",
+       "tr": "s"
+      },
+      {
+       "s": "𐎋",
+       "sign": "KAF",
+       "role": "phon",
+       "tr": "k"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "skn",
+       "gloss": "sikkannu — stela, sacred stone",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ilibh",
+     "say": "ʾilʾibihu",
+     "glyphs": [
+      {
+       "s": "𐎛",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎛",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ilib",
+       "gloss": "the father's-god, divine ancestor (il 'god' + ab 'father')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "b",
+     "say": "bi",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "b",
+       "gloss": "in, on, at (bi-)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "qdš",
+     "say": "qudši",
+     "glyphs": [
+      {
+       "s": "𐎖",
+       "sign": "QOPA",
+       "role": "phon",
+       "tr": "q"
+      },
+      {
+       "s": "𐎄",
+       "sign": "DELTA",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "qdš",
+       "gloss": "qudšu — holiness, sanctuary; the Holy One (divine epithet)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ztr",
+     "say": "zittara",
+     "glyphs": [
+      {
+       "s": "𐎇",
+       "sign": "ZETA",
+       "role": "phon",
+       "tr": "z"
+      },
+      {
+       "s": "𐎚",
+       "sign": "TO",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ztr",
+       "gloss": "unknown word — 'emblem'? 'marjoram'? A genuine crux",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "ʿmh",
+     "say": "ʿammihu",
+     "glyphs": [
+      {
+       "s": "𐎓",
+       "sign": "AIN",
+       "role": "phon",
+       "tr": "ʿ"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ʿm",
+       "gloss": "ʿammu — clan, kinsman",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "one to set up the stela of his father's god, in the sanctuary the emblem of his clan;",
+   "n": "Here begins the catalogue of filial duties — recited four times in the poem, the fullest ancient answer to 'what is a son for?'. First duty: the ancestor cult. ilib = il + ab, 'the father's-god', the divine ancestor; skn is the standing stone (Hebrew maṣṣēbāh) that keeps his name. ztr is a genuine unknown — 'emblem'? even 'marjoram' has been proposed. No one knows; that is what a hapax looks like."
+  },
+  {
+   "ln": 27,
+   "t": "𐎍𐎀𐎗𐎕𐎟𐎎𐎌𐎕𐎜𐎟𐎖𐎉𐎗𐎅\n𐎍𐎓𐎔𐎗𐎟𐎏𐎎𐎗𐎟𐎀𐎘𐎗𐎅𐎟",
+   "l": "from-the-earth one-bringing-out his-smoke; from-the-dust the-guardian(?) of-his-place;",
+   "words": [
+    {
+     "reading": "larṣ",
+     "say": "la-ʾarṣi",
+     "glyphs": [
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎀",
+       "sign": "ALPA",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎕",
+       "sign": "SADE",
+       "role": "phon",
+       "tr": "ṣ"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "l",
+       "gloss": "to, for; from; against; also emphatic/vocative la- 'verily, O'",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "arṣ",
+       "gloss": "ʾarṣu — earth, ground (cf. Hebrew ʾereṣ)",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mšṣu",
+     "say": "mušôṣiʾu",
+     "glyphs": [
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎕",
+       "sign": "SADE",
+       "role": "phon",
+       "tr": "ṣ"
+      },
+      {
+       "s": "𐎜",
+       "sign": "U",
+       "role": "phon",
+       "tr": "u"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "yṣʾ",
+       "gloss": "to go out; Š-stem mšṣu 'one who brings out' (cf. Hebrew hôṣîʾ)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "qṭrh",
+     "say": "quṭrahu",
+     "glyphs": [
+      {
+       "s": "𐎖",
+       "sign": "QOPA",
+       "role": "phon",
+       "tr": "q"
+      },
+      {
+       "s": "𐎉",
+       "sign": "TET",
+       "role": "phon",
+       "tr": "ṭ"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "qṭr",
+       "gloss": "smoke, incense — perhaps the dead father's 'spirit'",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lʿpr",
+     "say": "la-ʿapari",
+     "glyphs": [
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎓",
+       "sign": "AIN",
+       "role": "phon",
+       "tr": "ʿ"
+      },
+      {
+       "s": "𐎔",
+       "sign": "PU",
+       "role": "phon",
+       "tr": "p"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "l",
+       "gloss": "to, for; from; against; also emphatic/vocative la- 'verily, O'",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "ʿpr",
+       "gloss": "dust, soil (cf. Hebrew ʿāpār)",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "ḏmr",
+     "say": "ḏāmiru",
+     "glyphs": [
+      {
+       "s": "𐎏",
+       "sign": "DHAL",
+       "role": "phon",
+       "tr": "ḏ"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḏmr",
+       "gloss": "guardian, protector — or 'song' (genuinely disputed)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "aṯrh",
+     "say": "ʾaṯrihu",
+     "glyphs": [
+      {
+       "s": "𐎀",
+       "sign": "ALPA",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𐎘",
+       "sign": "THANNA",
+       "role": "phon",
+       "tr": "ṯ"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "aṯr",
+       "gloss": "place, shrine",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "to send his smoke up from the earth, to guard his place from the dust;",
+   "n": "The most debated duty. qṭr is 'smoke, incense' — many take it as the dead father's very spirit, sent up from the earth by the son's rites; ḏmr is 'guardian/protector' or 'song' — both are defended. Read it as: the son keeps his dead father remembered, fed, and safe. Scholarly honesty: every word of this line is contested; the drift is not."
+  },
+  {
+   "ln": 28,
+   "t": "𐎉𐎁𐎖𐎟𐎍𐎈𐎚\n𐎐𐎛𐎕𐎅𐎟𐎂𐎗𐎌𐎟𐎄𐎟𐎓𐎌𐎊𐎟𐎍𐎐𐎅",
+   "l": "one-shutting the-jaws of-his-detractors; one-driving-out the-doer-of-ill against-him;",
+   "words": [
+    {
+     "reading": "ṭbq",
+     "say": "ṭābiqu",
+     "glyphs": [
+      {
+       "s": "𐎉",
+       "sign": "TET",
+       "role": "phon",
+       "tr": "ṭ"
+      },
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎖",
+       "sign": "QOPA",
+       "role": "phon",
+       "tr": "q"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṭbq",
+       "gloss": "to shut, stop up",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lḥt",
+     "say": "laḥata",
+     "glyphs": [
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎈",
+       "sign": "HOTA",
+       "role": "phon",
+       "tr": "ḥ"
+      },
+      {
+       "s": "𐎚",
+       "sign": "TO",
+       "role": "phon",
+       "tr": "t"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lḥt",
+       "gloss": "jaws(?) — lḥt niṣh 'the jaws of his detractor'",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "niṣh",
+     "say": "nāʾiṣihu",
+     "glyphs": [
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎛",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𐎕",
+       "sign": "SADE",
+       "role": "phon",
+       "tr": "ṣ"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "niṣ",
+       "gloss": "detractor, reviler (root nʾṣ; cf. Hebrew niʾēṣ 'to spurn')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        3
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "grš",
+     "say": "gārišu",
+     "glyphs": [
+      {
+       "s": "𐎂",
+       "sign": "GAMLA",
+       "role": "phon",
+       "tr": "g"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "grš",
+       "gloss": "to drive out, expel (cf. Hebrew gēraš)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "d",
+     "say": "dā",
+     "glyphs": [
+      {
+       "s": "𐎄",
+       "sign": "DELTA",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "d",
+       "gloss": "who, which (relative pronoun dū)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʿšy",
+     "say": "ʿāšiya",
+     "glyphs": [
+      {
+       "s": "𐎓",
+       "sign": "AIN",
+       "role": "phon",
+       "tr": "ʿ"
+      },
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ʿšy",
+       "gloss": "to do (ill against), act against",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lnh",
+     "say": "lênahu",
+     "glyphs": [
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "l",
+       "gloss": "against",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "to shut the jaws of his detractors, to drive off whoever acts against him;",
+   "n": "From cult to muscle: the son defends the father's name (shuts slanderers' jaws) and his person (expels troublemakers). d ʿšy lnh: relative d + 'the one acting' + 'against him' — the l of ln here is hostile, 'against'."
+  },
+  {
+   "ln": 30,
+   "t": "𐎀𐎃𐎄𐎟𐎊𐎄𐎅𐎟𐎁𐎌𐎋𐎗𐎐𐎟𐎎𐎓𐎎𐎒𐎅\n𐎌𐎁𐎓𐎟𐎊𐎐𐎟",
+   "l": "one-grasping his-hand in-drunkenness, one-carrying-him [when-]sated-with wine;",
+   "words": [
+    {
+     "reading": "aḫd",
+     "say": "ʾāḫidu",
+     "glyphs": [
+      {
+       "s": "𐎀",
+       "sign": "ALPA",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𐎃",
+       "sign": "KHA",
+       "role": "phon",
+       "tr": "ḫ"
+      },
+      {
+       "s": "𐎄",
+       "sign": "DELTA",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "aḫd",
+       "gloss": "to grasp, take hold (cf. Hebrew ʾāḥaz)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ydh",
+     "say": "yadahu",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎄",
+       "sign": "DELTA",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "yd",
+       "gloss": "hand",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "b",
+     "say": "bi",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "b",
+       "gloss": "in, on, at (bi-)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "škrn",
+     "say": "šikarāni",
+     "glyphs": [
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎋",
+       "sign": "KAF",
+       "role": "phon",
+       "tr": "k"
+      },
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "škrn",
+       "gloss": "drunkenness (cf. Hebrew šēkār 'strong drink')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mʿmsh",
+     "say": "muʿammisuhu",
+     "glyphs": [
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎓",
+       "sign": "AIN",
+       "role": "phon",
+       "tr": "ʿ"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎒",
+       "sign": "SAMKA",
+       "role": "phon",
+       "tr": "s"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ʿms",
+       "gloss": "to carry, support (cf. Hebrew ʿāmas)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[k]šbʿ",
+     "say": "(kī) šabiʿa",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𐎌",
+       "sign": "SHIN",
+       "role": "phon",
+       "tr": "š"
+      },
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎓",
+       "sign": "AIN",
+       "role": "phon",
+       "tr": "ʿ"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šbʿ",
+       "gloss": "sated — same letters as 'seven'",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "yn",
+     "say": "yêna",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "yn",
+       "gloss": "yênu — wine (cf. Hebrew yayin)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "to take his hand when he is drunk, to carry him [when] he is full of wine;",
+   "n": "The tenderest duty: the son walks his father home from the feast — takes his hand in škrn 'drunkenness' (Hebrew šēkār), carries him when sated (šbʿ 'be sated' — the same letters as 'seven') with yn 'wine' (Hebrew yayin). Ancient Near Eastern feasting was a religious obligation; so was getting father home afterward."
+  },
+  {
+   "ln": 31,
+   "t": "𐎒𐎔𐎜𐎟𐎋𐎒𐎎𐎅𐎟𐎁𐎚𐎟𐎁𐎓𐎍\n𐎎𐎐𐎚𐎅𐎟𐎁𐎚𐎟𐎛𐎍𐎟",
+   "l": "one-eating his-portion in-the-house-of Baʿlu, [and-]his-share in-the-house-of El;",
+   "words": [
+    {
+     "reading": "spu",
+     "say": "sāpiʾu",
+     "glyphs": [
+      {
+       "s": "𐎒",
+       "sign": "SAMKA",
+       "role": "phon",
+       "tr": "s"
+      },
+      {
+       "s": "𐎔",
+       "sign": "PU",
+       "role": "phon",
+       "tr": "p"
+      },
+      {
+       "s": "𐎜",
+       "sign": "U",
+       "role": "phon",
+       "tr": "u"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "spʾ",
+       "gloss": "to eat (spu 'one who eats')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ksmh",
+     "say": "kismahu",
+     "glyphs": [
+      {
+       "s": "𐎋",
+       "sign": "KAF",
+       "role": "phon",
+       "tr": "k"
+      },
+      {
+       "s": "𐎒",
+       "sign": "SAMKA",
+       "role": "phon",
+       "tr": "s"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ksm",
+       "gloss": "portion, share",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bt",
+     "say": "bêta",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎚",
+       "sign": "TO",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bt",
+       "gloss": "bêtu — house; temple",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bʿl",
+     "say": "baʿli",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎓",
+       "sign": "AIN",
+       "role": "phon",
+       "tr": "ʿ"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bʿl",
+       "gloss": "Baal (Baʿlu), the storm-god; as common noun 'lord'",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[w]mnth",
+     "say": "(wa-)manātahu",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎚",
+       "sign": "TO",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mnt",
+       "gloss": "portion, share (manātu; cf. Hebrew mānāh)",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        4
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "bt",
+     "say": "bêta",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𐎚",
+       "sign": "TO",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bt",
+       "gloss": "bêtu — house; temple",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "il",
+     "say": "ʾili",
+     "glyphs": [
+      {
+       "s": "𐎛",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𐎍",
+       "sign": "LAMDA",
+       "role": "phon",
+       "tr": "l"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "il",
+       "gloss": "ʾilu — god; El, the high god (pl. ilm 'the gods')",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "to eat his portion in the house of Baal, [and] his share in the house of El;",
+   "n": "The son represents the father at the temple meals — eats the family's portion (ksm // mnt, another exact parallel pair) in the houses of Baal and of El, keeping the family's place in the cult alive after the father cannot."
+  },
+  {
+   "ln": 32,
+   "t": "𐎉𐎃𐎟𐎂𐎂𐎅𐎟𐎁𐎊𐎎\n𐎉𐎟𐎗𐎈𐎕𐎟𐎐𐎔𐎕𐎅𐎟𐎁𐎊𐎎𐎟𐎗𐎘",
+   "l": "one-plastering his-roof on-the-day-of [m]ud, one-washing his-gear on-the-day-of grime.",
+   "words": [
+    {
+     "reading": "ṭḫ",
+     "say": "ṭāḫû",
+     "glyphs": [
+      {
+       "s": "𐎉",
+       "sign": "TET",
+       "role": "phon",
+       "tr": "ṭ"
+      },
+      {
+       "s": "𐎃",
+       "sign": "KHA",
+       "role": "phon",
+       "tr": "ḫ"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṭḫ",
+       "gloss": "to plaster, coat",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ggh",
+     "say": "gaggahu",
+     "glyphs": [
+      {
+       "s": "𐎂",
+       "sign": "GAMLA",
+       "role": "phon",
+       "tr": "g"
+      },
+      {
+       "s": "𐎂",
+       "sign": "GAMLA",
+       "role": "phon",
+       "tr": "g"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "gg",
+       "gloss": "roof (cf. Hebrew gāg)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "b",
+     "say": "bi",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "b",
+       "gloss": "in, on, at (bi-)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ym",
+     "say": "yômi",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ym",
+       "gloss": "yômu — day",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[ṯi]ṭ",
+     "say": "(ṯi)ʾṭi",
+     "glyphs": [
+      {
+       "s": "[ ]",
+       "sign": "LACUNA",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𐎉",
+       "sign": "TET",
+       "role": "phon",
+       "tr": "ṭ"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṯiṭ",
+       "gloss": "…tail of ṯiṭ 'mud'",
+       "g": [
+        1
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "rḥṣ",
+     "say": "rāḥiṣu",
+     "glyphs": [
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎈",
+       "sign": "HOTA",
+       "role": "phon",
+       "tr": "ḥ"
+      },
+      {
+       "s": "𐎕",
+       "sign": "SADE",
+       "role": "phon",
+       "tr": "ṣ"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rḥṣ",
+       "gloss": "to wash (cf. Hebrew rāḥaṣ)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "npṣh",
+     "say": "napṣahu",
+     "glyphs": [
+      {
+       "s": "𐎐",
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𐎔",
+       "sign": "PU",
+       "role": "phon",
+       "tr": "p"
+      },
+      {
+       "s": "𐎕",
+       "sign": "SADE",
+       "role": "phon",
+       "tr": "ṣ"
+      },
+      {
+       "s": "𐎅",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "npṣ",
+       "gloss": "garment, gear",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-h",
+       "gloss": "his, him (3 masc. sing. suffix)",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "b",
+     "say": "bi",
+     "glyphs": [
+      {
+       "s": "𐎁",
+       "sign": "BETA",
+       "role": "phon",
+       "tr": "b"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "b",
+       "gloss": "in, on, at (bi-)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ym",
+     "say": "yômi",
+     "glyphs": [
+      {
+       "s": "𐎊",
+       "sign": "YOD",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𐎎",
+       "sign": "MEM",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "s": "𐎟",
+       "sign": "DIVIDER",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ym",
+       "gloss": "yômu — day",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "rṯ",
+     "say": "raṯi",
+     "glyphs": [
+      {
+       "s": "𐎗",
+       "sign": "RASHA",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𐎘",
+       "sign": "THANNA",
+       "role": "phon",
+       "tr": "ṯ"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rṯ",
+       "gloss": "grime, dirt",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "to plaster his roof on the day of mud, to wash his clothes on the day of grime.",
+   "n": "And down to earth: the son patches the mud roof after the rains (ym ṯiṭ 'the day of mud' — Hebrew ṭîṭ) and does the laundry on 'the day of grime'. From stela to washing-line, the whole catalogue is one idea: a son is the father's continuation, in cult, in honor, in daily life. Here the pilot ends; the column continues with El's blessing — the next installment."
+  }
+ ],
+ "glossary": {
+  "aph": "thereupon, and then (ʾap 'also, then' + -h)",
+  "ġzr": "ġazru — hero, young man",
+  "uzr": "crux word: 'girded' (clad in the ritual garment) or 'an uzr-offering' — meaning and vocalization uncertain",
+  "il": "ʾilu — god; El, the high god (pl. ilm 'the gods')",
+  "dnil": "Danel (Daniʾilu) — the righteous hero; mt rpi and mt hrnmy are his fixed epithets",
+  "lḥm": "to eat; D-stem 'to feed' (ylḥm 'he feeds')",
+  "bn": "binu — son; bn qdš 'sons of the Holy One' = the gods",
+  "qdš": "qudšu — holiness, sanctuary; the Holy One (divine epithet)",
+  "ydy": "to cast off, throw down (yd 'he casts off')",
+  "yd": "yadu — hand (cf. Hebrew yād)",
+  "škb": "to lie down (yškb; cf. Hebrew šākab)",
+  "w": "and (wa-)",
+  "p": "and so, and then (pa-)",
+  "lwn": "to pass the night (p yln 'and he passes the night'; cf. Hebrew lān)",
+  "hn": "behold, look",
+  "ym": "yômu — day",
+  "ṯlṯ": "three; a third (day)",
+  "rbʿ": "four; a fourth",
+  "ḫmš": "five; a fifth",
+  "ṯdṯ": "six; a sixth",
+  "šbʿ": "seven; b šbʿ 'on the seventh'",
+  "šqy": "to give drink (yšqy; cf. Hebrew hišqāh)",
+  "ṣt": "cloak, garment",
+  "ʿly": "to go up (yʿl; cf. Hebrew ʿālāh)",
+  "mizrt": "girded wrap, ritual garment (root ʾzr 'to gird')",
+  "mk": "then, look — marks the climactic seventh day",
+  "b": "in, on, at (bi-)",
+  "l": "to, for; from; against; also emphatic/vocative la- 'verily, O'",
+  "qrb": "to draw near (yqrb); as noun 'midst' (b qrb 'within')",
+  "bʿl": "Baal (Baʿlu), the storm-god; as common noun 'lord'",
+  "ḥnt": "compassion, grace (root ḥnn; cf. Hebrew ḥānan)",
+  "abyn": "wretched, destitute (cf. Hebrew ʾebyôn 'poor')",
+  "at": "you (masc. sing.; ʾatta)",
+  "mt": "mutu — man (of); husband",
+  "rpi": "Rapiʾu — divine name; cf. the rpum (Rephaim), the deified dead",
+  "anḫ": "sighing, groaning (root ʾnḫ)",
+  "hrnmy": "Harnamite(?) — epithet of Danel, meaning uncertain (a place-name?)",
+  "d": "who, which (relative pronoun dū)",
+  "in": "there is not (ʾênu — the opposite of iṯ)",
+  "-h": "his, him (3 masc. sing. suffix)",
+  "km": "like, as (kama)",
+  "aḫ": "brother",
+  "šrš": "šuršu — root; scion, offspring (cf. Hebrew šōreš)",
+  "ary": "kinsman, fellow",
+  "bl": "not; here 'shall (he) not…?'",
+  "iṯ": "there is (ʾiṯu; cf. Hebrew yēš)",
+  "-m": "enclitic -ma — emphasis; also the plural ending",
+  "brk": "to bless (tbrk; cf. Hebrew bērak)",
+  "-nn": "him (energic ending + 3 masc. sing. suffix on the verb)",
+  "ṯr": "ṯôru — Bull, El's epithet",
+  "ab": "father",
+  "-y": "my (1 sing. suffix)",
+  "mrr": "to strengthen — or 'to bless' (disputed)",
+  "bny": "builder, creator (bny bnwt 'Creator of Creatures', El's epithet)",
+  "bnwt": "creatures, creation",
+  "kn": "to be, be established (ykn 'let there be'; cf. Hebrew kûn)",
+  "bt": "bêtu — house; temple",
+  "hkl": "hêkalu — palace (cf. Hebrew hêkāl; ultimately Sumerian É.GAL 'great house' — see the Hammurabi texts)",
+  "nṣb": "to set up, erect (nṣb 'one who sets up'; cf. Hebrew maṣṣēbāh 'standing stone')",
+  "skn": "sikkannu — stela, sacred stone",
+  "ilib": "the father's-god, divine ancestor (il 'god' + ab 'father')",
+  "ztr": "unknown word — 'emblem'? 'marjoram'? A genuine crux",
+  "ʿm": "ʿammu — clan, kinsman",
+  "arṣ": "ʾarṣu — earth, ground (cf. Hebrew ʾereṣ)",
+  "yṣʾ": "to go out; Š-stem mšṣu 'one who brings out' (cf. Hebrew hôṣîʾ)",
+  "qṭr": "smoke, incense — perhaps the dead father's 'spirit'",
+  "ʿpr": "dust, soil (cf. Hebrew ʿāpār)",
+  "ḏmr": "guardian, protector — or 'song' (genuinely disputed)",
+  "aṯr": "place, shrine",
+  "ṭbq": "to shut, stop up",
+  "lḥt": "jaws(?) — lḥt niṣh 'the jaws of his detractor'",
+  "niṣ": "detractor, reviler (root nʾṣ; cf. Hebrew niʾēṣ 'to spurn')",
+  "grš": "to drive out, expel (cf. Hebrew gēraš)",
+  "ʿšy": "to do (ill against), act against",
+  "aḫd": "to grasp, take hold (cf. Hebrew ʾāḥaz)",
+  "škrn": "drunkenness (cf. Hebrew šēkār 'strong drink')",
+  "ʿms": "to carry, support (cf. Hebrew ʿāmas)",
+  "k": "when, as (kī)",
+  "yn": "yênu — wine (cf. Hebrew yayin)",
+  "spʾ": "to eat (spu 'one who eats')",
+  "ksm": "portion, share",
+  "mnt": "portion, share (manātu; cf. Hebrew mānāh)",
+  "ṭḫ": "to plaster, coat",
+  "gg": "roof (cf. Hebrew gāg)",
+  "ṯiṭ": "mud, mire (cf. Hebrew ṭîṭ)",
+  "rḥṣ": "to wash (cf. Hebrew rāḥaṣ)",
+  "npṣ": "garment, gear",
+  "rṯ": "grime, dirt",
+  "[…]": "break in the tablet — text lost"
+ }
+}

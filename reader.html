@@ -14,6 +14,7 @@
   /* Old Babylonian cuneiform webfonts by Sylvie Vanséveren (hethport.uni-wuerzburg.de/cuneifont/),
      CC BY 4.0 (Zenodo 10.5281/zenodo.8342382). SantakkuM imitates the monumental script of the
      Hammurabi stele; Santakku the OB cursive. Signs outside them fall back to Noto (Neo-Assyrian). */
+  @font-face { font-family: 'Noto Sans Ugaritic'; src: url('fonts/NotoSansUgaritic-Regular.woff2') format('woff2'); font-display: swap; }
   @font-face { font-family: 'SantakkuM'; src: url('fonts/SantakkuM.woff') format('woff'); font-display: swap; }
   @font-face { font-family: 'Santakku';  src: url('fonts/Santakku.woff')  format('woff'); font-display: swap; }
   :root {
@@ -67,7 +68,7 @@
     font-family: Georgia, 'Times New Roman', system-ui, 'Noto Serif', serif; }
   .storyLangLine { color: var(--muted); font-size: .85rem; margin: 1px 0 18px;
     font-family: system-ui, 'Noto Sans', sans-serif; }
-  .storySub .tOrig { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Cuneiform', Georgia, serif; color: var(--ink); font-size: 1.25rem; }
+  .storySub .tOrig { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Segoe UI Historic', 'Noto Sans Cuneiform', Georgia, serif; color: var(--ink); font-size: 1.25rem; }
   .storySub .tRead { color: var(--muted); font-style: italic; }
   .storySub .tSep { color: var(--muted); margin: 0 .5em; }
   .storyMeta { color: var(--muted); font-size: .85rem; font-family: system-ui, 'Noto Sans', sans-serif; margin-bottom: 24px; }
@@ -201,7 +202,7 @@
   #pop .pbtns button { font-size: .8rem; padding: 4px 10px; border-radius: 999px; }
   #pop .pclose { position: absolute; top: 6px; right: 10px; border: none; background: none; color: var(--muted); font-size: 1rem; padding: 2px 6px; }
   #pop .pmiss { color: var(--muted); font-style: italic; }
-  #popW { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Cuneiform', Georgia, 'Noto Serif', serif; }
+  #popW { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Segoe UI Historic', 'Noto Sans Cuneiform', Georgia, 'Noto Serif', serif; }
   /* Egyptian word-stack reading layer: glyph over transliteration */
   .de.stacks { white-space: normal; display: flex; flex-wrap: wrap; align-items: flex-end; gap: 5px 9px; }
   .stack { display: inline-flex; flex-direction: column; align-items: center; gap: 2px; padding: 3px 5px; border-radius: 6px; cursor: pointer; }
@@ -209,7 +210,7 @@
   /* selected: light fill + brown ring, so role-coloured glyphs (purple determinatives,
      green suffixes) stay legible instead of vanishing on a dark fill (accessibility). */
   .stack.wsel { background: var(--focus-bg); box-shadow: 0 0 0 2px var(--accent); }
-  .gl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Cuneiform', Georgia, 'Noto Serif', serif; font-size: 1.95rem; line-height: 1.05; }
+  .gl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Segoe UI Historic', 'Noto Sans Cuneiform', Georgia, 'Noto Serif', serif; font-size: 1.95rem; line-height: 1.05; }
   /* cuneiform signs vary in height (numerals span two registers); relax the tight line-height so tall signs don't collide with the transcription below */
   body[data-script="cuneiform"] .gl, body[data-script="cuneiform"] .qgl { line-height: 1.75; }
 
@@ -259,7 +260,7 @@
   .quadblock .qh { display: inline-flex; flex-direction: row; align-items: center; gap: 1px; }
   .quadblock .qv { display: inline-flex; flex-direction: column; align-items: center; gap: 0; line-height: .82; }
   .quadblock .stack { padding: 0; }
-  .qgl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Cuneiform', serif; font-size: 1.7rem; line-height: 1; }
+  .qgl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Segoe UI Historic', 'Noto Sans Cuneiform', serif; font-size: 1.7rem; line-height: 1; }
   .qv .qgl { font-size: 1.18rem; }
   .qh .qgl { font-size: 1.35rem; }
   .qtr { font-family: system-ui, 'Noto Sans', sans-serif; font-size: .72rem; color: var(--muted); margin-top: 2px; letter-spacing: .02em; }
@@ -278,9 +279,9 @@
   .pdet { margin-top: 8px; padding-top: 7px; border-top: 1px solid var(--border); font-size: .93em; }
   .pdet .pdrow { display: block; margin: 2px 0; }
   .pdet .pdg { color: #6b4a9e; }
-  .pdet .pdgl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Cuneiform', serif; margin-right: 5px; }
+  .pdet .pdgl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Segoe UI Historic', 'Noto Sans Cuneiform', serif; margin-right: 5px; }
   /* sign popup + reference browser */
-  .signGl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Cuneiform', serif; font-size: 1.5rem; margin-right: 6px; }
+  .signGl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Segoe UI Historic', 'Noto Sans Cuneiform', serif; font-size: 1.5rem; margin-right: 6px; }
   .spTag { display:inline-block; font-size:.58rem; font-weight:600; text-transform:uppercase; letter-spacing:.05em;
            padding:1px 7px; border-radius:10px; margin-left:6px; vertical-align:middle; background:#efe7fb; color:#6b4a9e; }
   .spRow { margin-top: 7px; }
@@ -295,7 +296,7 @@
   .smGroup h4 { margin:0 0 8px; font-size:.72rem; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); }
   .smGrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:8px; }
   .smCell { display:flex; align-items:center; gap:9px; border:1px solid var(--border); border-radius:9px; padding:7px 9px; }
-  .smCell .cgl { font-family:'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Cuneiform', serif; font-size:1.7rem; line-height:1; }
+  .smCell .cgl { font-family:'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Segoe UI Historic', 'Noto Sans Cuneiform', serif; font-size:1.7rem; line-height:1; }
   .smCell .cbody { font-family:system-ui,'Noto Sans',sans-serif; font-size:.78rem; line-height:1.25; }
   .smCell .cval { font-weight:600; }
   .smCell .cname { color:var(--muted); }
@@ -521,6 +522,249 @@ function tokenize(text){
    The alphabet (uniliterals) is seeded in full; other signs grow as texts introduce them.
    A story selects its script via story.script. Roles come from the story data, not here. */
 const SIGN_GLOSSARIES = {
+ "ugaritic": {
+ "ALPA": {
+  "glyph": "𐎀",
+  "name": "letter a",
+  "type": "uniliteral",
+  "sound": "ʾa",
+  "determines": null,
+  "note": "ʾaleph + a — glottal stop with a-vowel"
+ },
+ "BETA": {
+  "glyph": "𐎁",
+  "name": "letter b",
+  "type": "uniliteral",
+  "sound": "b",
+  "determines": null
+ },
+ "GAMLA": {
+  "glyph": "𐎂",
+  "name": "letter g",
+  "type": "uniliteral",
+  "sound": "g",
+  "determines": null
+ },
+ "KHA": {
+  "glyph": "𐎃",
+  "name": "letter ḫ",
+  "type": "uniliteral",
+  "sound": "ḫ",
+  "determines": null,
+  "note": "harsh ch (as in Scottish loch / Bach)"
+ },
+ "DELTA": {
+  "glyph": "𐎄",
+  "name": "letter d",
+  "type": "uniliteral",
+  "sound": "d",
+  "determines": null
+ },
+ "HO": {
+  "glyph": "𐎅",
+  "name": "letter h",
+  "type": "uniliteral",
+  "sound": "h",
+  "determines": null
+ },
+ "WO": {
+  "glyph": "𐎆",
+  "name": "letter w",
+  "type": "uniliteral",
+  "sound": "w",
+  "determines": null
+ },
+ "ZETA": {
+  "glyph": "𐎇",
+  "name": "letter z",
+  "type": "uniliteral",
+  "sound": "z",
+  "determines": null
+ },
+ "HOTA": {
+  "glyph": "𐎈",
+  "name": "letter ḥ",
+  "type": "uniliteral",
+  "sound": "ḥ",
+  "determines": null,
+  "note": "pharyngeal h (Arabic ḥāʾ, Hebrew ḥet)"
+ },
+ "TET": {
+  "glyph": "𐎉",
+  "name": "letter ṭ",
+  "type": "uniliteral",
+  "sound": "ṭ",
+  "determines": null,
+  "note": "emphatic t (Arabic ṭāʾ, Hebrew ṭet)"
+ },
+ "YOD": {
+  "glyph": "𐎊",
+  "name": "letter y",
+  "type": "uniliteral",
+  "sound": "y",
+  "determines": null
+ },
+ "KAF": {
+  "glyph": "𐎋",
+  "name": "letter k",
+  "type": "uniliteral",
+  "sound": "k",
+  "determines": null
+ },
+ "SHIN": {
+  "glyph": "𐎌",
+  "name": "letter š",
+  "type": "uniliteral",
+  "sound": "š",
+  "determines": null,
+  "note": "sh"
+ },
+ "LAMDA": {
+  "glyph": "𐎍",
+  "name": "letter l",
+  "type": "uniliteral",
+  "sound": "l",
+  "determines": null
+ },
+ "MEM": {
+  "glyph": "𐎎",
+  "name": "letter m",
+  "type": "uniliteral",
+  "sound": "m",
+  "determines": null
+ },
+ "DHAL": {
+  "glyph": "𐎏",
+  "name": "letter ḏ",
+  "type": "uniliteral",
+  "sound": "ḏ",
+  "determines": null,
+  "note": "voiced th (as in 'this'; Arabic ḏāl)"
+ },
+ "NUN": {
+  "glyph": "𐎐",
+  "name": "letter n",
+  "type": "uniliteral",
+  "sound": "n",
+  "determines": null
+ },
+ "ZU": {
+  "glyph": "𐎑",
+  "name": "letter ẓ",
+  "type": "uniliteral",
+  "sound": "ẓ",
+  "determines": null,
+  "note": "emphatic th/z (Arabic ẓāʾ)"
+ },
+ "SAMKA": {
+  "glyph": "𐎒",
+  "name": "letter s",
+  "type": "uniliteral",
+  "sound": "s",
+  "determines": null
+ },
+ "AIN": {
+  "glyph": "𐎓",
+  "name": "letter ʿ",
+  "type": "uniliteral",
+  "sound": "ʿ",
+  "determines": null,
+  "note": "ʿayin — voiced pharyngeal (Arabic/Hebrew ʿayin)"
+ },
+ "PU": {
+  "glyph": "𐎔",
+  "name": "letter p",
+  "type": "uniliteral",
+  "sound": "p",
+  "determines": null
+ },
+ "SADE": {
+  "glyph": "𐎕",
+  "name": "letter ṣ",
+  "type": "uniliteral",
+  "sound": "ṣ",
+  "determines": null,
+  "note": "emphatic s (Arabic ṣād, Hebrew ṣade)"
+ },
+ "QOPA": {
+  "glyph": "𐎖",
+  "name": "letter q",
+  "type": "uniliteral",
+  "sound": "q",
+  "determines": null,
+  "note": "uvular k (Arabic qāf, Hebrew qof)"
+ },
+ "RASHA": {
+  "glyph": "𐎗",
+  "name": "letter r",
+  "type": "uniliteral",
+  "sound": "r",
+  "determines": null
+ },
+ "THANNA": {
+  "glyph": "𐎘",
+  "name": "letter ṯ",
+  "type": "uniliteral",
+  "sound": "ṯ",
+  "determines": null,
+  "note": "voiceless th (as in 'thin'; Arabic ṯāʾ)"
+ },
+ "GHAIN": {
+  "glyph": "𐎙",
+  "name": "letter ġ",
+  "type": "uniliteral",
+  "sound": "ġ",
+  "determines": null,
+  "note": "voiced gh — guttural g (Arabic ġayn)"
+ },
+ "TO": {
+  "glyph": "𐎚",
+  "name": "letter t",
+  "type": "uniliteral",
+  "sound": "t",
+  "determines": null
+ },
+ "I": {
+  "glyph": "𐎛",
+  "name": "letter i",
+  "type": "uniliteral",
+  "sound": "ʾi",
+  "determines": null,
+  "note": "ʾaleph + i — glottal stop with i-vowel"
+ },
+ "U": {
+  "glyph": "𐎜",
+  "name": "letter u",
+  "type": "uniliteral",
+  "sound": "ʾu",
+  "determines": null,
+  "note": "ʾaleph + u — glottal stop with u-vowel"
+ },
+ "SSU": {
+  "glyph": "𐎝",
+  "name": "letter ś",
+  "type": "uniliteral",
+  "sound": "ś/su",
+  "determines": null,
+  "note": "rare sign (mostly in foreign words); conventionally s̀/ś"
+ },
+ "DIVIDER": {
+  "glyph": "𐎟",
+  "name": "word divider",
+  "type": "marker",
+  "sound": null,
+  "determines": "word boundary",
+  "note": "A small vertical wedge the scribes wrote between words — the reason Ugaritic word division is mostly certain. Unpronounced."
+ },
+ "LACUNA": {
+  "glyph": "[ ]",
+  "name": "break in the tablet",
+  "type": "marker",
+  "sound": null,
+  "determines": "lost text",
+  "note": "The tablet is damaged here: signs are broken away. Lectorium ships only what is physically attested; where editors restore the gap from parallel passages, the sentence's note reports the restoration."
+ }
+},
  "cuneiform": {
  "AN": {
   "glyph": "𒀭",
@@ -2987,7 +3231,7 @@ function render(){
   if (dr) {
     const prov = !!story.provisional;
     dr.style.display = prov ? '' : 'none';
-    if (prov) dr.textContent = story.draftNote || 'Draft in progress — the hieroglyphs and their readings are provisional and still being checked sign-by-sign against the original papyrus, so expect changes.';
+    if (prov) dr.textContent = story.draftNote || 'Draft in progress — the text and its readings are provisional and still being checked sign-by-sign against the sources, so expect changes.';
   }
   const tts = !!story.langCode || !!story.audio;
   $('rateWrap').style.display = tts ? '' : 'none';
@@ -3820,7 +4064,10 @@ function loadStory(s){
       ? '<button data-sp="sch" title="Scholarly sign labels — logograms shown by their citation names (CAPUT)">signs</button>'
         + '<button data-sp="val" title="Sounded signs — each logogram shows its value in the language (ziti); signs whose reading is unknown keep their labels">sounds</button>'
         + '<button data-sp="read" title="Readable words — the interpreted word beneath each written word (Azzattiwadas)">words</button>'
-      : (story.script === 'cuneiform'
+      : (story.script === 'ugaritic'
+          ? '<button data-sp="sch" title="Consonantal — the letters as the tablet writes them (mlk)">mlk</button>'
+            + '<button data-sp="read" title="Vocalized — the reconstructed reading with vowels (malku)">malku</button>'
+          : story.script === 'cuneiform'
           ? '<button data-sp="sch" title="Academic transliteration — per sign, with ĝ, hyphens and superscript determinatives (diĝir)">diĝir</button>'
             + '<button data-sp="read" title="Readable spelling — smoothed running words, ĝ→ng, determinatives silent (dingir)">dingir</button>'
           : '<button data-sp="sch" title="Scholarly transliteration (ꜥnḫ)">ꜥnḫ</button>'

@@ -1,0 +1,247 @@
+{
+ "script": "ugaritic",
+ "name": "Ugaritic — the 30-letter cuneiform alphabet",
+ "signCodeSystem": "letters keyed by their Unicode names (ALPA, BETA …), which follow the native abecedary order",
+ "transliteration": "one Latin grapheme per sign (a i u for the three ʾaleph signs); word dividers on the tablet shown as the small vertical wedge",
+ "ALPA": {
+  "glyph": "𐎀",
+  "name": "letter a",
+  "type": "uniliteral",
+  "sound": "ʾa",
+  "determines": null,
+  "note": "ʾaleph + a — glottal stop with a-vowel"
+ },
+ "BETA": {
+  "glyph": "𐎁",
+  "name": "letter b",
+  "type": "uniliteral",
+  "sound": "b",
+  "determines": null
+ },
+ "GAMLA": {
+  "glyph": "𐎂",
+  "name": "letter g",
+  "type": "uniliteral",
+  "sound": "g",
+  "determines": null
+ },
+ "KHA": {
+  "glyph": "𐎃",
+  "name": "letter ḫ",
+  "type": "uniliteral",
+  "sound": "ḫ",
+  "determines": null,
+  "note": "harsh ch (as in Scottish loch / Bach)"
+ },
+ "DELTA": {
+  "glyph": "𐎄",
+  "name": "letter d",
+  "type": "uniliteral",
+  "sound": "d",
+  "determines": null
+ },
+ "HO": {
+  "glyph": "𐎅",
+  "name": "letter h",
+  "type": "uniliteral",
+  "sound": "h",
+  "determines": null
+ },
+ "WO": {
+  "glyph": "𐎆",
+  "name": "letter w",
+  "type": "uniliteral",
+  "sound": "w",
+  "determines": null
+ },
+ "ZETA": {
+  "glyph": "𐎇",
+  "name": "letter z",
+  "type": "uniliteral",
+  "sound": "z",
+  "determines": null
+ },
+ "HOTA": {
+  "glyph": "𐎈",
+  "name": "letter ḥ",
+  "type": "uniliteral",
+  "sound": "ḥ",
+  "determines": null,
+  "note": "pharyngeal h (Arabic ḥāʾ, Hebrew ḥet)"
+ },
+ "TET": {
+  "glyph": "𐎉",
+  "name": "letter ṭ",
+  "type": "uniliteral",
+  "sound": "ṭ",
+  "determines": null,
+  "note": "emphatic t (Arabic ṭāʾ, Hebrew ṭet)"
+ },
+ "YOD": {
+  "glyph": "𐎊",
+  "name": "letter y",
+  "type": "uniliteral",
+  "sound": "y",
+  "determines": null
+ },
+ "KAF": {
+  "glyph": "𐎋",
+  "name": "letter k",
+  "type": "uniliteral",
+  "sound": "k",
+  "determines": null
+ },
+ "SHIN": {
+  "glyph": "𐎌",
+  "name": "letter š",
+  "type": "uniliteral",
+  "sound": "š",
+  "determines": null,
+  "note": "sh"
+ },
+ "LAMDA": {
+  "glyph": "𐎍",
+  "name": "letter l",
+  "type": "uniliteral",
+  "sound": "l",
+  "determines": null
+ },
+ "MEM": {
+  "glyph": "𐎎",
+  "name": "letter m",
+  "type": "uniliteral",
+  "sound": "m",
+  "determines": null
+ },
+ "DHAL": {
+  "glyph": "𐎏",
+  "name": "letter ḏ",
+  "type": "uniliteral",
+  "sound": "ḏ",
+  "determines": null,
+  "note": "voiced th (as in 'this'; Arabic ḏāl)"
+ },
+ "NUN": {
+  "glyph": "𐎐",
+  "name": "letter n",
+  "type": "uniliteral",
+  "sound": "n",
+  "determines": null
+ },
+ "ZU": {
+  "glyph": "𐎑",
+  "name": "letter ẓ",
+  "type": "uniliteral",
+  "sound": "ẓ",
+  "determines": null,
+  "note": "emphatic th/z (Arabic ẓāʾ)"
+ },
+ "SAMKA": {
+  "glyph": "𐎒",
+  "name": "letter s",
+  "type": "uniliteral",
+  "sound": "s",
+  "determines": null
+ },
+ "AIN": {
+  "glyph": "𐎓",
+  "name": "letter ʿ",
+  "type": "uniliteral",
+  "sound": "ʿ",
+  "determines": null,
+  "note": "ʿayin — voiced pharyngeal (Arabic/Hebrew ʿayin)"
+ },
+ "PU": {
+  "glyph": "𐎔",
+  "name": "letter p",
+  "type": "uniliteral",
+  "sound": "p",
+  "determines": null
+ },
+ "SADE": {
+  "glyph": "𐎕",
+  "name": "letter ṣ",
+  "type": "uniliteral",
+  "sound": "ṣ",
+  "determines": null,
+  "note": "emphatic s (Arabic ṣād, Hebrew ṣade)"
+ },
+ "QOPA": {
+  "glyph": "𐎖",
+  "name": "letter q",
+  "type": "uniliteral",
+  "sound": "q",
+  "determines": null,
+  "note": "uvular k (Arabic qāf, Hebrew qof)"
+ },
+ "RASHA": {
+  "glyph": "𐎗",
+  "name": "letter r",
+  "type": "uniliteral",
+  "sound": "r",
+  "determines": null
+ },
+ "THANNA": {
+  "glyph": "𐎘",
+  "name": "letter ṯ",
+  "type": "uniliteral",
+  "sound": "ṯ",
+  "determines": null,
+  "note": "voiceless th (as in 'thin'; Arabic ṯāʾ)"
+ },
+ "GHAIN": {
+  "glyph": "𐎙",
+  "name": "letter ġ",
+  "type": "uniliteral",
+  "sound": "ġ",
+  "determines": null,
+  "note": "voiced gh — guttural g (Arabic ġayn)"
+ },
+ "TO": {
+  "glyph": "𐎚",
+  "name": "letter t",
+  "type": "uniliteral",
+  "sound": "t",
+  "determines": null
+ },
+ "I": {
+  "glyph": "𐎛",
+  "name": "letter i",
+  "type": "uniliteral",
+  "sound": "ʾi",
+  "determines": null,
+  "note": "ʾaleph + i — glottal stop with i-vowel"
+ },
+ "U": {
+  "glyph": "𐎜",
+  "name": "letter u",
+  "type": "uniliteral",
+  "sound": "ʾu",
+  "determines": null,
+  "note": "ʾaleph + u — glottal stop with u-vowel"
+ },
+ "SSU": {
+  "glyph": "𐎝",
+  "name": "letter ś",
+  "type": "uniliteral",
+  "sound": "ś/su",
+  "determines": null,
+  "note": "rare sign (mostly in foreign words); conventionally s̀/ś"
+ },
+ "DIVIDER": {
+  "glyph": "𐎟",
+  "name": "word divider",
+  "type": "marker",
+  "sound": null,
+  "determines": "word boundary",
+  "note": "A small vertical wedge the scribes wrote between words — the reason Ugaritic word division is mostly certain. Unpronounced."
+ },
+ "LACUNA": {
+  "glyph": "[ ]",
+  "name": "break in the tablet",
+  "type": "marker",
+  "sound": null,
+  "determines": "lost text",
+  "note": "The tablet is damaged here: signs are broken away. Lectorium ships only what is physically attested; where editors restore the gap from parallel passages, the sentence's note reports the restoration."
+ }
+}

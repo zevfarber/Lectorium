@@ -213,6 +213,11 @@
   .gl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Segoe UI Historic', 'Noto Sans Cuneiform', Georgia, 'Noto Serif', serif; font-size: 1.95rem; line-height: 1.05; }
   /* cuneiform signs vary in height (numerals span two registers); relax the tight line-height so tall signs don't collide with the transcription below */
   body[data-script="cuneiform"] .gl, body[data-script="cuneiform"] .qgl { line-height: 1.75; }
+  /* Ancient Greek (polytonic): Georgia renders the varia (grave) series U+1F70–1F7D with a detached
+     accent; Palatino Linotype / Cambria carry full correctly-composed polytonic. Scoped to Greek stories. */
+  body[data-script="greek"] .de, body[data-script="greek"] .note, body[data-script="greek"] .en,
+  body[data-script="greek"] .storySub .tOrig, body[data-script="greek"] #popW, body[data-script="greek"] #popG {
+    font-family: 'Palatino Linotype', Cambria, 'Times New Roman', Georgia, serif; }
 
   body[data-font="old-babylonian"] .gl, body[data-font="old-babylonian"] .qgl,
   body[data-font="old-babylonian"] .tOrig, body[data-font="old-babylonian"] .pdgl,

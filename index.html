@@ -458,7 +458,7 @@ function speak(txt, rate, onEnd){
 }
 
 /* ---------- rendering ---------- */
-const WORD_CLASS = 'A-Za-zÀ-ÖØ-öø-ÿ\\u0100-\\u024FΆ-ϿЀ-ӿ';
+const WORD_CLASS = 'A-Za-zÀ-ÖØ-öø-ÿ\\u0100-\\u024FΆ-ϿЀ-ӿ\\u1F00-\\u1FFF';
 const WORD_RE = new RegExp('[' + WORD_CLASS + ']+(?:[-\\[\\]()][' + WORD_CLASS + ']+)*', 'g');
 // glossary key for a token: editorial brackets/parens stripped, lowercased (eorl[as] → eorlas)
 function wordKey(w){ return w.replace(/[\[\]()]/g, '').toLowerCase(); }

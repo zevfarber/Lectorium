@@ -1,0 +1,83 @@
+name: Build audio
+
+# Synthesizes missing per-sentence TTS clips and karaoke word-timings for any
+# audio-bearing story JSON pushed to main, then commits audio/<id>/*.mp3 +
+# align.json back to main. Runs on a GitHub-hosted runner because the Cowork
+# sandbox cannot reach Google TTS; the runner has open internet.
+#
+# Self-retrigger is prevented three ways: (1) the path filter is root-level
+# *.json only, so the audio/** commit does not match; (2) commits made with the
+# built-in GITHUB_TOKEN do not trigger further workflow runs; (3) [skip ci] on
+# the audio commit.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '*.json'
+  workflow_dispatch:
+    inputs:
+      id:
+        description: 'Story id (or <id>.json) to build audio for'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-audio
+  cancel-in-progress: false
+
+jobs:
+  audio:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install system + Python dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq espeak-ng espeak libespeak-dev libsndfile1 ffmpeg
+          python3 -m pip install --quiet --upgrade pip
+          python3 -m pip install --quiet librosa soundfile numpy
+
+      - name: Pick target stories
+        id: targets
+        env:
+          DISPATCH_ID: ${{ github.event.inputs.id }}
+          BEFORE_SHA: ${{ github.event.before }}
+        run: python3 .github/scripts/pick_targets.py
+
+      - name: Synthesize + align
+        if: steps.targets.outputs.ids != ''
+        env:
+          GOOGLE_TTS_KEY: ${{ secrets.GOOGLE_TTS_KEY }}
+        run: |
+          set -e
+          for id in ${{ steps.targets.outputs.ids }}; do
+            echo "::group::build audio for $id"
+            python3 .github/scripts/build_audio.py "$id"
+            echo "::endgroup::"
+          done
+
+      - name: Commit audio back to main
+        if: steps.targets.outputs.ids != ''
+        run: |
+          git config user.name "lectorium-audio-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add audio/
+          if git diff --cached --quiet; then
+            echo "No audio changes to commit."
+          else
+            git commit -m "Audio: build clips + align.json for ${{ steps.targets.outputs.ids }} [skip ci]"
+            git push
+          fi

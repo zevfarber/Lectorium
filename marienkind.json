@@ -1,0 +1,440 @@
+{
+ "id": "marienkind",
+ "title": "Marienkind",
+ "titleEn": "Our Lady's Child",
+ "khm": 3,
+ "language": "German",
+ "langCode": "de-DE",
+ "work": "Kinder- und Hausmärchen",
+ "workEn": "Grimm’s Fairy Tales",
+ "workGloss": "Children’s and Household Tales",
+ "part": "Our Lady's Child",
+ "source": "Brüder Grimm, Kinder- und Hausmärchen, Band 1, 7. Auflage (Ausgabe letzter Hand), Dieterich, Göttingen 1857, KHM 3. Text from Wikisource (twice proofread against the original). 1857 spelling preserved exactly.",
+ "about": "The third tale in the Grimms’ collection (KHM 3), a solemn religious legend. The Virgin Mary takes a poor woodcutter’s daughter up to heaven and, before a journey, entrusts her with the keys to thirteen doors — twelve open, the thirteenth forbidden; the child opens it, touches the radiance of the Trinity, and then thrice denies the deed, whereupon she is struck mute and cast back to earth. Married to a king who finds her in the wilderness, she loses each of her three children to Mary and is nearly burned at the stake, until at the last she confesses and is forgiven. Spelling follows the 1857 edition, so you will meet older forms such as daß, Thür/Thüren, gieng, fieng, ward, gethan, thun, aufthun, Räthe and Überfluß.",
+ "glossaryFile": "khm-glossary.json",
+ "sentences": [
+  {
+   "t": "Vor einem großen Walde lebte ein Holzhacker mit seiner Frau, der hatte nur ein einziges Kind, das war ein Mädchen von drei Jahren.",
+   "l": "Before a great forest there lived a woodcutter with his wife, who had only one single child, that was a girl of three years.",
+   "i": "By a great forest there lived a woodcutter with his wife; he had but a single child, and that was a girl of three years old.",
+   "n": "The demonstrative “der hatte” resumes the woodcutter — German often points back with der/die/das where English uses “who.” “Walde” carries the old dative -e, common in Grimm and now archaic.",
+   "p": true
+  },
+  {
+   "t": "Sie waren aber so arm, daß sie nicht mehr das tägliche Brot hatten und nicht wußten was sie ihm sollten zu essen geben.",
+   "l": "They were, however, so poor that they no longer had the daily bread and did not know what they should give it to eat.",
+   "i": "But they were so poor that they no longer had their daily bread, and did not know what to give the child to eat.",
+   "n": "“daß” is the 1857 spelling of dass; the ß is kept throughout this edition. “ihm” (dative, “to it”) refers to das Kind (neuter) — grammatically “it,” though the child is meant. “wußten” is the 1857 spelling of wussten."
+  },
+  {
+   "t": "Eines Morgens gieng der Holzhacker voller Sorgen hinaus in den Wald an seine Arbeit, und wie er da Holz hackte, stand auf einmal eine schöne große Frau vor ihm, die hatte eine Krone von leuchtenden Sternen auf dem Haupt und sprach zu ihm „ich bin die Jungfrau Maria, die Mutter des Christkindleins: du bist arm und dürftig, bring mir dein Kind, ich will es mit mir nehmen, seine Mutter sein und für es sorgen.“",
+   "l": "One morning the woodcutter went out full of cares into the forest to his work, and as he chopped wood there, all at once a beautiful tall woman stood before him; she had a crown of shining stars upon her head and spoke to him, “I am the Virgin Mary, the mother of the Christ child: you are poor and needy, bring me your child, I will take it with me, be its mother and care for it.”",
+   "i": "One morning the woodcutter went out into the forest to his work, full of cares; and as he was chopping wood, all at once a beautiful, tall woman stood before him, with a crown of shining stars upon her head, and she said to him, “I am the Virgin Mary, the mother of the Christ child. You are poor and needy; bring me your child, and I will take it with me, be its mother, and care for it.”",
+   "n": "“gieng” is the 1857 spelling of ging (“went”); this -ie- spelling of gehen/anfangen recurs in the edition (gieng, fieng, anfieng). “Christkindlein” is the diminutive of Christkind, the Christ child; the genitive “des Christkindleins” = “of the Christ child.” Note the resumptive “die hatte” (“she had”), pointing back to the woman."
+  },
+  {
+   "t": "Der Holzhacker gehorchte, holte sein Kind und übergab es der Jungfrau Maria, die nahm es mit sich hinauf in den Himmel.",
+   "l": "The woodcutter obeyed, fetched his child and handed it over to the Virgin Mary, who took it up with her into heaven.",
+   "i": "The woodcutter obeyed, fetched his child and gave it over to the Virgin Mary, and she took it up with her into heaven.",
+   "n": "“der Jungfrau Maria” is dative — übergeben takes the dative, “handed it over to Mary.” Again the resumptive “die nahm” = “she took.”"
+  },
+  {
+   "t": "Da gieng es ihm wohl, es aß Zuckerbrot und trank süße Milch, und seine Kleider waren von Gold, und die Englein spielten mit ihm.",
+   "l": "There it fared well, it ate sugar-bread and drank sweet milk, and its clothes were of gold, and the little angels played with it.",
+   "i": "There it fared well: it ate sweet cake and drank sweet milk, its clothes were of gold, and the little angels played with it.",
+   "n": "“es gieng ihm wohl” is the impersonal dative idiom “it went well for it,” i.e. it fared well. “Englein” is the diminutive plural of Engel (“little angels”); Grimm’s tales are full of such -lein / -chen diminutives."
+  },
+  {
+   "t": "Als es nun vierzehn Jahr alt geworden war, rief es einmal die Jungfrau Maria zu sich und sprach",
+   "l": "When it had now grown fourteen years old, the Virgin Mary once called it to her and spoke",
+   "i": "When she had now turned fourteen years old, the Virgin Mary called her to her one day and said:",
+   "n": "“es” refers to the girl as das Kind (neuter), so grammatically “it” — read it as “she.” Word order: “die Jungfrau Maria” is the subject who calls, “es” the object called. “vierzehn Jahr” drops the plural ending (Jahr for Jahre), usual in such counting phrases."
+  },
+  {
+   "t": "„liebes Kind, ich habe eine große Reise vor, da nimm die Schlüssel zu den dreizehn Thüren des Himmelreichs in Verwahrung: zwölf davon darfst du aufschließen und die Herrlichkeiten darin betrachten, aber die dreizehnte, wozu dieser kleine Schlüssel gehört, die ist dir verboten: hüte dich daß du sie nicht aufschließest, sonst wirst du unglücklich.“",
+   "l": "“dear child, I have a great journey before me; take, then, the keys to the thirteen doors of the kingdom of heaven into keeping: twelve of them you may unlock and behold the glories within, but the thirteenth, to which this little key belongs, that one is forbidden to you: beware that you do not unlock it, else you will become unhappy.”",
+   "i": "“Dear child, I have a great journey before me; so take the keys to the thirteen doors of the kingdom of heaven into your keeping. Twelve of them you may unlock, and look upon the glories within, but the thirteenth, to which this little key belongs, is forbidden you. Take care not to unlock it, or you will come to grief.”",
+   "n": "“ich habe … vor” is the separable verb vorhaben (“to have planned, intend”) — here “I have before me.” “Thüren” is the 1857 spelling of Türen (“doors”), with the old -th-. “in Verwahrung” = into safekeeping. “die ist dir verboten”: dative dir, “forbidden to you.” “aufschließest” has the old 2nd-person ending on aufschließen (separable auf-)."
+  },
+  {
+   "t": "Das Mädchen versprach gehorsam zu sein, und als nun die Jungfrau Maria weg war, fieng sie an und besah die Wohnungen des Himmelreichs: jeden Tag schloß es eine auf, bis die zwölfe herum waren.",
+   "l": "The girl promised to be obedient, and when the Virgin Mary was now away, she began and looked over the dwellings of the kingdom of heaven: every day it unlocked one, until the twelve were round.",
+   "i": "The girl promised to be obedient, and when the Virgin Mary was gone, she set about it and looked over the chambers of the kingdom of heaven: each day she unlocked one, until the twelve were done.",
+   "n": "“fieng … an” is the 1857 spelling of fing an (anfangen, “to begin”; separable an-). Note the gender wobble: “fieng sie an” (she) but “schloß es … auf” (it) — Grimm slips between treating das Mädchen as “she” and as grammatical neuter “it.” “bis die zwölfe herum waren” = until the twelve were gone through."
+  },
+  {
+   "t": "In jeder aber saß ein Apostel, und war von großem Glanz umgeben, und es freute sich über all die Pracht und Herrlichkeit, und die Englein, die es immer begleiteten, freuten sich mit ihm.",
+   "l": "In each, however, sat an apostle, and was surrounded by great radiance, and it rejoiced over all the pomp and glory, and the little angels, who always accompanied it, rejoiced with it.",
+   "i": "In each one sat an apostle, ringed about with great radiance, and she delighted in all the pomp and splendour, and the little angels, who always went with her, rejoiced along with her.",
+   "n": "“sich freuen über” = to rejoice at, delight in (reflexive). “war … umgeben” drops its subject, carried over from “ein Apostel”: “[he] was surrounded.”"
+  },
+  {
+   "t": "Nun war die verbotene Thür allein noch übrig, da empfand es eine große Lust zu wissen was dahinter verborgen wäre, und sprach zu den Englein",
+   "l": "Now the forbidden door alone was still left over; then it felt a great desire to know what was hidden behind it, and spoke to the little angels",
+   "i": "Now only the forbidden door was still left, and she felt a great longing to know what was hidden behind it, and said to the little angels:",
+   "n": "“allein” here has the old sense “only.” “verborgen wäre” is subjunctive II in an indirect question (“what might be hidden”) — Grimm uses this reported-mood subjunctive constantly."
+  },
+  {
+   "t": "„ganz aufmachen will ich sie nicht und will auch nicht hinein gehen, aber ich will sie aufschließen, damit wir ein wenig durch den Ritz sehen.“",
+   "l": "“open it wide I will not, and will also not go in, but I will unlock it, so that we may see a little through the crack.”",
+   "i": "“I will not open it wide, nor will I go in, but I will unlock it, so that we may peek a little through the crack.”",
+   "n": "“ganz aufmachen will ich sie nicht” fronts the infinitive for emphasis (“open it wide, that I will not do”). “Ritz” = a crack, chink. “damit” = so that (purpose), sending its verb to the end."
+  },
+  {
+   "t": "„Ach nein,“ sagten die Englein, „das wäre Sünde: die Jungfrau Maria hats verboten, und es könnte leicht dein Unglück werden.“",
+   "l": "“Oh no,” said the little angels, “that would be sin: the Virgin Mary has forbidden it, and it could easily become your misfortune.”",
+   "i": "“Oh no,” said the little angels, “that would be a sin: the Virgin Mary has forbidden it, and it might easily bring about your ruin.”",
+   "n": "“hats” = hat es, “has it” (contraction). “wäre” and “könnte” are subjunctive II — the hypothetical “would be / could be.”"
+  },
+  {
+   "t": "Da schwieg es still, aber die Begierde in seinem Herzen schwieg nicht still, sondern nagte und pickte ordentlich daran und ließ ihm keine Ruhe.",
+   "l": "Then it kept silent, but the craving in its heart did not keep silent, but rather gnawed and pecked properly at it and left it no peace.",
+   "i": "Then she held her peace, but the craving in her heart did not hold its peace; rather it gnawed and pecked away at her and gave her no rest.",
+   "n": "“nicht … sondern” = “not … but rather.” “nagte” (nagen, to gnaw) and “pickte” (picken, to peck) picture the desire as a living thing; “ordentlich” here is intensifying, “properly, thoroughly.” “ließ ihm keine Ruhe” — dative ihm, “left it no peace.”"
+  },
+  {
+   "t": "Und als die Englein einmal alle hinausgegangen waren, dachte es „nun bin ich ganz allein und könnte hinein gucken, es weiß es ja niemand, wenn ichs thue.“",
+   "l": "And when the little angels had once all gone out, it thought, “now I am quite alone and could peek in; nobody knows it, after all, if I do it.”",
+   "i": "And when the little angels had all gone out one time, she thought, “Now I am quite alone and could peek in; no one will know, after all, if I do it.”",
+   "n": "“hinausgegangen” (hinausgehen, to go out; separable hinaus-). “gucken” = to peek, peer. “ichs” = ich es. “thue” is the 1857 spelling of tue (thun = modern tun). “ja” is a softening particle, “after all.”"
+  },
+  {
+   "t": "Es suchte den Schlüssel heraus und als es ihn in der Hand hielt, steckte es ihn auch in das Schloß, und als es ihn hinein gesteckt hatte, drehte es auch um.",
+   "l": "It sought the key out, and when it held it in its hand, it also stuck it into the lock, and when it had stuck it in, it also turned round.",
+   "i": "She sought out the key, and when she held it in her hand, she put it into the lock as well; and when she had put it in, she turned it, too.",
+   "n": "“suchte … heraus” (heraussuchen, to seek out) and “drehte … um” (umdrehen, to turn round) are separable. The repeated “auch” (“also/too,” here twice) tolls off each further step — first into the lock, then the turn — as she does the very thing she meant only to peek at."
+  },
+  {
+   "t": "Da sprang die Thüre auf, und es sah da die Dreieinigkeit im Feuer und Glanz sitzen.",
+   "l": "Then the door sprang open, and it saw there the Trinity sitting in fire and radiance.",
+   "i": "Then the door sprang open, and she saw the Holy Trinity seated there in fire and radiance.",
+   "n": "“sprang … auf” (aufspringen, to spring open; separable). “Dreieinigkeit” = the Trinity, the three-in-one Godhead — the one glory she was forbidden to see."
+  },
+  {
+   "t": "Es blieb ein Weilchen stehen und betrachtete alles mit Erstaunen, dann rührte es ein wenig mit dem Finger an den Glanz, da ward der Finger ganz golden.",
+   "l": "It stayed standing a little while and looked at everything with astonishment; then it touched a little with the finger on the radiance, and there the finger became quite golden.",
+   "i": "She stood a little while and gazed at everything in astonishment; then she touched the radiance a little with her finger, and the finger turned quite golden.",
+   "n": "“blieb … stehen” (stehen bleiben, to stop, remain standing). “Erstaunen” = astonishment. “an etwas rühren” = to touch something. “ward” is the archaic preterite of werden (“became”); modern German uses wurde, and you will meet ward throughout."
+  },
+  {
+   "t": "Alsbald empfand es eine gewaltige Angst, schlug die Thüre heftig zu und lief fort.",
+   "l": "At once it felt a tremendous fear, slammed the door violently shut and ran away.",
+   "i": "At once she felt a mighty fear, slammed the door violently shut, and ran away.",
+   "n": "“alsbald” is an elevated/archaic word for “at once, presently.” “gewaltig” = mighty, tremendous. “schlug … zu” (zuschlagen, to slam shut) and “lief fort” (fortlaufen, to run away) are separable."
+  },
+  {
+   "t": "Die Angst wollte auch nicht wieder weichen, es mochte anfangen was es wollte, und das Herz klopfte in einem fort und wollte nicht ruhig werden: auch das Gold blieb an dem Finger und gieng nicht ab, es mochte waschen und reiben so viel es wollte.",
+   "l": "The fear would also not yield again, let it begin what it would; and the heart knocked on and on and would not become calm: the gold too stayed on the finger and did not go off, let it wash and rub as much as it would.",
+   "i": "Nor would the fear give way, whatever she set about; and her heart pounded on and on and would not grow calm; the gold, too, stayed on her finger and would not come off, however much she washed and rubbed.",
+   "n": "“es mochte anfangen was es wollte” is an idiom, “whatever she might attempt.” “in einem fort” = incessantly, without stopping. “gieng … ab” (abgehen, to come off; separable, with the 1857 gieng). “reiben” = to rub."
+  },
+  {
+   "t": "Gar nicht lange, so kam die Jungfrau Maria von ihrer Reise zurück.",
+   "l": "Not long at all, and the Virgin Mary came back from her journey.",
+   "i": "Before very long, the Virgin Mary came back from her journey.",
+   "n": "“Gar nicht lange, so …” is the old resumptive frame (“[it was] not long at all, then …”); modern German would drop the so. “kam … zurück” (zurückkommen, to come back) is separable.",
+   "p": true
+  },
+  {
+   "t": "Sie rief das Mädchen zu sich und forderte ihm die Himmelsschlüssel wieder ab.",
+   "l": "She called the girl to her and demanded the heaven-keys back from it.",
+   "i": "She called the girl to her and asked back the keys of heaven from her.",
+   "n": "“forderte … ab” (abfordern, to demand back; separable ab-), with the person in the dative (ihm, “from it”). “Himmelsschlüssel” = the keys of heaven."
+  },
+  {
+   "t": "Als es den Bund hinreichte, blickte ihm die Jungfrau in die Augen, und sprach „hast du auch nicht die dreizehnte Thüre geöffnet?“",
+   "l": "When it handed over the bunch, the Virgin looked into its eyes, and spoke, “have you not opened the thirteenth door?”",
+   "i": "When she held out the bunch, the Virgin looked her in the eyes and said, “You have not opened the thirteenth door, have you?”",
+   "n": "“Bund” here = the bunch (of keys). “hinreichte” (hinreichen, to hand over, hold out; separable hin-). The particle “auch” in a question invites reassurance, like English “… have you now?”"
+  },
+  {
+   "t": "„Nein“ antwortete es.",
+   "l": "“No,” it answered.",
+   "i": "“No,” she answered.",
+   "n": "“antworten” = to answer."
+  },
+  {
+   "t": "Da legte sie ihre Hand auf sein Herz, fühlte wie es klopfte und klopfte, und merkte wohl daß es ihr Gebot übertreten und die Thüre aufgeschlossen hatte.",
+   "l": "Then she laid her hand on its heart, felt how it knocked and knocked, and marked well that it had transgressed her command and unlocked the door.",
+   "i": "Then she laid her hand on the girl’s heart, felt how it pounded and pounded, and saw plainly that she had broken her command and unlocked the door.",
+   "n": "“Gebot” = commandment, order. “übertreten” = to transgress, break (a command); the past participle is the same as the infinitive. “aufgeschlossen” (aufschließen, to unlock; separable). “merken” here = to perceive, notice."
+  },
+  {
+   "t": "Da sprach sie noch einmal „hast du es gewis nicht gethan?“",
+   "l": "Then she spoke once more, “have you surely not done it?”",
+   "i": "Then she said once more, “You surely have not done it?”",
+   "n": "“gewis” is the 1857 spelling of gewiss (“surely, for certain”). “gethan” is the 1857 spelling of getan (thun = modern tun); the old -th- returns in Thür, Thüre."
+  },
+  {
+   "t": "„Nein“ sagte das Mädchen zum zweitenmal.",
+   "l": "“No,” said the girl for the second time.",
+   "n": "“zum zweitenmal” = for the second time (zweites Mal). The threefold denial is the heart of the tale."
+  },
+  {
+   "t": "Da erblickte sie den Finger der von der Berührung des himmlischen Feuers golden geworden war, sah wohl daß es gesündigt hatte und sprach zum drittenmal „hast du es nicht gethan?“",
+   "l": "Then she caught sight of the finger, which from the touch of the heavenly fire had become golden, saw well that it had sinned, and spoke for the third time, “have you not done it?”",
+   "i": "Then she caught sight of the finger, which from the touch of the heavenly fire had turned golden, saw plainly that she had sinned, and said for the third time, “Have you not done it?”",
+   "n": "“Berührung” = touch, contact. “des himmlischen Feuers” is genitive, “of the heavenly fire” (himmlisch, heavenly; Feuer, fire). “gesündigt” (sündigen, to sin)."
+  },
+  {
+   "t": "„Nein“ sagte das Mädchen zum drittenmal.",
+   "l": "“No,” said the girl for the third time."
+  },
+  {
+   "t": "Da sprach die Jungfrau Maria „du hast mir nicht gehorcht, und hast noch dazu gelogen, du bist nicht mehr würdig im Himmel zu sein.“",
+   "l": "Then the Virgin Mary spoke, “you have not obeyed me, and have moreover lied; you are no longer worthy to be in heaven.”",
+   "i": "Then the Virgin Mary said, “You have not obeyed me, and on top of that you have lied; you are no longer worthy to be in heaven.”",
+   "n": "“gehorcht” — gehorchen takes the dative (mir, “obeyed me”). “noch dazu” = moreover, on top of that. “gelogen” is the past participle of lügen (“to lie, tell an untruth”), not to be confused with liegen (“to lie down”)."
+  },
+  {
+   "t": "Da versank das Mädchen in einen tiefen Schlaf, und als es erwachte, lag es unten auf der Erde, mitten in einer Wildnis.",
+   "l": "Then the girl sank into a deep sleep, and when it awoke, it lay below on the earth, in the midst of a wilderness.",
+   "i": "Then the girl sank into a deep sleep, and when she awoke, she lay down below on the earth, in the midst of a wilderness.",
+   "n": "“versank” (versinken, to sink down). “Wildnis” = wilderness, wild place.",
+   "p": true
+  },
+  {
+   "t": "Es wollte rufen, aber es konnte keinen Laut hervorbringen.",
+   "l": "It wanted to call, but it could bring forth no sound.",
+   "i": "She wanted to cry out, but she could not utter a sound.",
+   "n": "“hervorbringen” = to bring forth, produce, utter (separable hervor-). This muteness is the punishment for her lie."
+  },
+  {
+   "t": "Es sprang auf und wollte fortlaufen, aber wo es sich hinwendete, immer ward es von dichten Dornhecken zurück gehalten, die es nicht durchbrechen konnte.",
+   "l": "It sprang up and wanted to run away, but wherever it turned itself, it was always held back by dense thorn-hedges, which it could not break through.",
+   "i": "She sprang up and would have run away, but wherever she turned, she was always held back by dense hedges of thorns, which she could not break through.",
+   "n": "“sprang auf” (aufspringen) and “ward … zurück gehalten” (zurückhalten, a passive with the archaic ward) are separable. “sich hinwenden” = to turn (in some direction). “dicht” = dense, thick; “Dornhecke” = thorn-hedge. “durchbrechen” = to break through."
+  },
+  {
+   "t": "In der Einöde, in welche es eingeschlossen war, stand ein alter hohler Baum, das mußte seine Wohnung sein.",
+   "l": "In the wilderness, in which it was shut in, stood an old hollow tree; that had to be its dwelling.",
+   "i": "In the wasteland where she was shut in stood an old hollow tree; that had to be her dwelling.",
+   "n": "“Einöde” = a desolate place, waste. “eingeschlossen” (einschließen, to shut in, enclose; separable ein-). “hohl” = hollow. “mußte” is the 1857 spelling of musste."
+  },
+  {
+   "t": "Da kroch es hinein, wenn die Nacht kam, und schlief darin, und wenn es stürmte und regnete, fand es darin Schutz: aber es war ein jämmerliches Leben, und wenn es daran dachte, wie es im Himmel so schön gewesen war, und die Engel mit ihm gespielt hatten, so weinte es bitterlich.",
+   "l": "There it crept in when the night came, and slept therein; and when it stormed and rained, it found shelter therein: but it was a wretched life, and when it thought of how it had been so beautiful in heaven, and the angels had played with it, then it wept bitterly.",
+   "i": "There she crept in when night came, and slept within; and when it stormed and rained, she found shelter there. But it was a wretched life; and when she thought how lovely it had been in heaven, and how the angels had played with her, she wept bitterly.",
+   "n": "“es stürmte und regnete” — impersonal “it stormed and rained” (stürmen, to storm; regnen, to rain). “Schutz” = shelter, protection. “jämmerlich” = wretched, miserable. “Engel” = angels."
+  },
+  {
+   "t": "Wurzeln und Waldbeeren waren seine einzige Nahrung, die suchte es sich, so weit es kommen konnte.",
+   "l": "Roots and wild-berries were its only nourishment; those it sought for itself, as far as it could come.",
+   "i": "Roots and wild berries were her only food; these she sought out for herself, as far as she could go.",
+   "n": "“Waldbeere” = wild (forest) berry. The resumptive “die suchte es sich” fronts “those” (“those it sought”); “sich” is a dative of interest, “for itself.”"
+  },
+  {
+   "t": "Im Herbst sammelte es die herabgefallenen Nüsse und Blätter und trug sie in die Höhle, die Nüsse waren im Winter seine Speise und wenn Schnee und Eis kam, so kroch es, wie ein armes Thierchen in die Blätter, daß es nicht fror.",
+   "l": "In autumn it gathered the fallen-down nuts and leaves and carried them into the cave; the nuts were its food in winter, and when snow and ice came, then it crept, like a poor little animal, into the leaves, so that it did not freeze.",
+   "i": "In autumn she gathered the fallen nuts and leaves and carried them into the cave; the nuts were her food in winter, and when snow and ice came, she crept into the leaves like a poor little beast, so that she should not freeze.",
+   "n": "“Herbst” = autumn. “herabgefallen” (herabfallen, to fall down; separable herab-). “Eis” = ice. “Thierchen” is the 1857 spelling of Tierchen (“little animal”), with the old -th- you also see in Thür, thun."
+  },
+  {
+   "t": "Nicht lange, so zerrissen seine Kleider und fiel ein Stück nach dem andern vom Leib herab.",
+   "l": "Not long, and its clothes tore apart, and one piece after the other fell down from the body.",
+   "i": "Before long her clothes tore, and one piece after another fell from her body.",
+   "n": "“Nicht lange, so …” is again the old resumptive frame. “zerrissen” (zerreißen, to tear apart; the prefix zer- means to pieces, apart). “fiel … herab” (herabfallen, separable) — the singular verb agrees with the following “ein Stück.”"
+  },
+  {
+   "t": "Sobald dann die Sonne wieder warm schien, gieng es heraus und setzte sich vor den Baum, und seine langen Haare bedeckten es von allen Seiten wie ein Mantel.",
+   "l": "As soon as the sun then shone warm again, it went out and sat itself before the tree, and its long hair covered it from all sides like a cloak.",
+   "i": "As soon as the sun shone warm again, she would go out and sit down before the tree, and her long hair covered her on every side like a cloak.",
+   "n": "“sobald” = as soon as. “gieng … heraus” (herausgehen, to go out; separable, 1857 gieng). “bedeckten” (bedecken, to cover). “Mantel” = cloak, mantle."
+  },
+  {
+   "t": "So saß es ein Jahr nach dem andern und fühlte den Jammer und das Elend der Welt.",
+   "l": "Thus it sat one year after the other and felt the misery and the wretchedness of the world.",
+   "i": "Thus she sat year after year and felt the misery and wretchedness of the world.",
+   "n": "“ein Jahr nach dem andern” = one year after another. “Jammer” = misery, lamentation; “Elend” = wretchedness, distress."
+  },
+  {
+   "t": "Einmal, als die Bäume wieder in frischem Grün standen, jagte der König des Landes in dem Wald und verfolgte ein Reh, und weil es in das Gebüsch geflohen war, das den Waldplatz einschloß, stieg er vom Pferd, riß das Gestrüppe aus einander und hieb sich mit seinem Schwert einen Weg.",
+   "l": "Once, when the trees stood again in fresh green, the king of the land hunted in the forest and pursued a roe deer; and because it had fled into the bushes that enclosed the forest-clearing, he climbed down from his horse, tore the brushwood apart, and hewed himself a path with his sword.",
+   "i": "Once, when the trees stood again in fresh green, the king of the land was hunting in the forest and gave chase to a roe deer; and because it had fled into the thicket that closed in the clearing, he got down from his horse, tore the brushwood apart, and hewed himself a way with his sword.",
+   "n": "“frisch” = fresh. “verfolgte” (verfolgen, to pursue). “Reh” = roe deer. “geflohen” (fliehen, to flee). “Waldplatz” = forest clearing. “einschloß” (einschließen, to enclose, shut in; separable, 1857 spelling). “Gestrüppe” = brushwood, thicket. “aus einander” = apart.",
+   "p": true
+  },
+  {
+   "t": "Als er endlich hindurch gedrungen war, sah er unter dem Baum ein wunderschönes Mädchen sitzen, das saß da und war von seinem goldenen Haar bis zu den Fußzehen bedeckt.",
+   "l": "When he had finally pressed through, he saw a wondrously beautiful girl sitting under the tree; she sat there and was covered by her golden hair down to the toes.",
+   "i": "When he had at last forced his way through, he saw a wondrously beautiful girl sitting under the tree; she sat there, covered by her golden hair from head to toe.",
+   "n": "“hindurch gedrungen” (hindurchdringen, to press through; gedrungen is the past participle of dringen, to press, penetrate). “wunderschön” = wondrously beautiful. “Fußzehe” = toe (literally “foot-toe”). “bedeckt” (bedecken, to cover)."
+  },
+  {
+   "t": "Er stand still und betrachtete es voll Erstaunen, dann redete er es an und sprach „wer bist du? warum sitzest du hier in der Einöde?“",
+   "l": "He stood still and looked at it full of astonishment; then he addressed it and spoke, “who are you? why do you sit here in the wilderness?”",
+   "i": "He stood still and gazed at her in astonishment; then he spoke to her and said, “Who are you? Why do you sit here in this wasteland?”",
+   "n": "“Erstaunen” = astonishment. “redete … an” (anreden, to address, speak to; separable an-). “sitzest” has the old 2nd-person ending on sitzen."
+  },
+  {
+   "t": "Es gab aber keine Antwort, denn es konnte seinen Mund nicht aufthun.",
+   "l": "It gave, however, no answer, for it could not open its mouth.",
+   "i": "But she gave no answer, for she could not open her mouth.",
+   "n": "“aufthun” is the 1857 spelling of auftun (“to open”; separable auf-, with the old -th-)."
+  },
+  {
+   "t": "Der König sprach weiter „willst du mit mir auf mein Schloß gehen?“",
+   "l": "The king spoke further, “will you go with me to my castle?”",
+   "i": "The king went on, “Will you come with me to my castle?”"
+  },
+  {
+   "t": "Da nickte es nur ein wenig mit dem Kopf.",
+   "l": "Then it only nodded a little with the head.",
+   "i": "Then she only nodded a little with her head.",
+   "n": "German says “mit dem Kopf nicken” (“nod with the head”) where English simply “nods.”"
+  },
+  {
+   "t": "Der König nahm es auf seinen Arm, trug es auf sein Pferd und ritt mit ihm heim, und als er auf das königliche Schloß kam, ließ er ihm schöne Kleider anziehen und gab ihm alles im Überfluß.",
+   "l": "The king took it upon his arm, carried it onto his horse and rode home with it; and when he came to the royal castle, he had beautiful clothes put on it and gave it everything in abundance.",
+   "i": "The king took her up on his arm, carried her onto his horse, and rode home with her; and when he came to the royal castle, he had fine clothes put upon her and gave her everything in abundance.",
+   "n": "“ließ … anziehen” — lassen + infinitive, “had (clothes) put on”; anziehen (to put on) is separable. “Überfluß” is the 1857 spelling of Überfluss (“abundance”); “im Überfluß” = in plenty."
+  },
+  {
+   "t": "Und ob es gleich nicht sprechen konnte, so war es doch schön und holdselig, daß er es von Herzen lieb gewann, und es dauerte nicht lange, da vermählte er sich mit ihm.",
+   "l": "And although it could not speak, it was nevertheless so beautiful and lovely that he grew to love it from the heart, and it did not last long, then he wedded himself to it.",
+   "i": "And though she could not speak, she was so fair and gracious that he came to love her with all his heart; and it was not long before he wedded her.",
+   "n": "“ob … gleich” is an old concessive, “although” (modern obgleich). “holdselig” = fair and gracious, lovely. “lieb gewann” (liebgewinnen, to grow fond of; gewann is the preterite of gewinnen). “sich vermählen mit” = to marry, wed (takes the dative)."
+  },
+  {
+   "t": "Als etwa ein Jahr verflossen war, brachte die Königin einen Sohn zur Welt.",
+   "l": "When about a year had flowed by, the queen brought a son into the world.",
+   "i": "When about a year had passed, the queen brought a son into the world.",
+   "n": "“verflossen” (verfließen, to elapse, literally “flow by,” of time). “zur Welt bringen” = to give birth to.",
+   "p": true
+  },
+  {
+   "t": "Darauf in der Nacht, wo sie allein in ihrem Bette lag, erschien ihr die Jungfrau Maria und sprach",
+   "l": "Thereupon in the night, when she lay alone in her bed, the Virgin Mary appeared to her and spoke",
+   "i": "Then, in the night, as she lay alone in her bed, the Virgin Mary appeared to her and said:",
+   "n": "“wo” here means “when” (of time), an old usage. “Bette” has the old dative -e. “erschien ihr” — erscheinen takes the dative, “appeared to her.”"
+  },
+  {
+   "t": "„willst du die Wahrheit sagen und gestehen daß du die verbotene Thür aufgeschlossen hast, so will ich deinen Mund öffnen und dir die Sprache wieder geben: verharrst du aber in der Sünde, und leugnest hartnäckig, so nehm ich dein neugebornes Kind mit mir.“",
+   "l": "“if you will tell the truth and confess that you have unlocked the forbidden door, then I will open your mouth and give you back your speech: but if you persist in the sin and stubbornly deny it, then I take your newborn child with me.”",
+   "i": "“If you will tell the truth and confess that you unlocked the forbidden door, then I will open your mouth and give you back your speech; but if you persist in your sin and stubbornly deny it, I will take your newborn child away with me.”",
+   "n": "“gestehen” = to confess. “verboten” (from verbieten) = forbidden. “Sprache” here = speech, the power of speech. “verharrst du … so …” is a conditional made by fronting the verb (“[if] you persist, then …”). “leugnest” (leugnen, to deny). “hartnäckig” = stubbornly. “nehm” = nehme (“I take”). “neugebornes” = newborn (older form of neugeborenes)."
+  },
+  {
+   "t": "Da war der Königin verliehen zu antworten, sie blieb aber verstockt und sprach „nein, ich habe die verbotene Thür nicht aufgemacht,“ und die Jungfrau Maria nahm das neugeborene Kind ihr aus den Armen und verschwand damit.",
+   "l": "Then it was granted to the queen to answer; but she remained obdurate and spoke, “no, I have not opened the forbidden door,” and the Virgin Mary took the newborn child from her arms and vanished with it.",
+   "i": "Now the queen was granted the power to answer; but she remained hardened and said, “No, I did not open the forbidden door,” and the Virgin Mary took the newborn child from her arms and vanished with it.",
+   "n": "“war … verliehen” (verleihen, to grant, bestow; here “was granted”). “verstockt” = obdurate, hardened in stubbornness. “neugeborene” = newborn."
+  },
+  {
+   "t": "Am andern Morgen, als das Kind nicht zu finden war, gieng ein Gemurmel unter den Leuten, die Königin wäre eine Menschenfresserin und hätte ihr eigenes Kind umgebracht.",
+   "l": "On the next morning, when the child was not to be found, a murmur went among the people, that the queen was a man-eater and had done her own child to death.",
+   "i": "The next morning, when the child was nowhere to be found, a murmur went about among the people that the queen was an ogress and had made away with her own child.",
+   "n": "“Gemurmel” = murmuring, muttering. “Leute” = people, folk. “Menschenfresserin” = a female man-eater, ogress. “wäre … hätte … umgebracht” are subjunctive — the rumour is reported, not vouched for. “eigen” = own."
+  },
+  {
+   "t": "Sie hörte alles und konnte nichts dagegen sagen, der König aber wollte es nicht glauben weil er sie so lieb hatte.",
+   "l": "She heard everything and could say nothing against it; the king, however, would not believe it because he held her so dear.",
+   "i": "She heard it all and could say nothing against it; but the king would not believe it, because he loved her so dearly.",
+   "n": "“dagegen” = against it. “lieb haben” = to love, hold dear."
+  },
+  {
+   "t": "Nach einem Jahr gebar die Königin wieder einen Sohn.",
+   "l": "After a year the queen again bore a son.",
+   "i": "After a year the queen bore another son.",
+   "n": "“gebar” is the preterite of gebären (“to bear, give birth to”).",
+   "p": true
+  },
+  {
+   "t": "In der Nacht trat auch wieder die Jungfrau Maria zu ihr herein und sprach",
+   "l": "In the night the Virgin Mary again stepped in to her and spoke",
+   "i": "In the night the Virgin Mary again came in to her and said:",
+   "n": "“trat … herein” (hereintreten, to step in; separable herein-)."
+  },
+  {
+   "t": "„willst du gestehen daß du die verbotene Thüre geöffnet hast, so will ich dir dein Kind wiedergeben und deine Zunge lösen: verharrst du aber in der Sünde und leugnest, so nehme ich auch dieses neugeborne mit mir.“",
+   "l": "“if you will confess that you have opened the forbidden door, then I will give you back your child and loose your tongue: but if you persist in the sin and deny it, then I also take this newborn one with me.”",
+   "i": "“If you will confess that you opened the forbidden door, then I will give you back your child and loose your tongue; but if you persist in your sin and deny it, I will take this newborn one, too, away with me.”",
+   "n": "“wiedergeben” = to give back (separable wieder-). “deine Zunge lösen” = to loose your tongue, restore your speech (Zunge, tongue). “nehme” = “I take.” “neugeborne” = newborn (older form)."
+  },
+  {
+   "t": "Da sprach die Königin wiederum „nein, ich habe die verbotene Thür nicht geöffnet,“ und die Jungfrau nahm ihr das Kind aus den Armen weg und mit sich in den Himmel.",
+   "l": "Then the queen spoke once more, “no, I have not opened the forbidden door,” and the Virgin took the child away from her arms and with her into heaven.",
+   "i": "Then the queen said again, “No, I did not open the forbidden door,” and the Virgin took the child away from her arms, and carried it with her into heaven.",
+   "n": "“wiederum” = again, once more. “nahm … weg” (wegnehmen, to take away; separable weg-). “geöffnet” (öffnen, to open)."
+  },
+  {
+   "t": "Am Morgen, als das Kind abermals verschwunden war, sagten die Leute ganz laut die Königin hätte es verschlungen, und des Königs Räthe verlangten daß sie sollte gerichtet werden.",
+   "l": "In the morning, when the child had once more vanished, the people said quite loudly the queen had devoured it, and the king’s councillors demanded that she should be judged.",
+   "i": "In the morning, when the child had again vanished, the people said quite openly that the queen had devoured it, and the king’s councillors demanded that she be brought to trial.",
+   "n": "“abermals” = once again. “hätte … verschlungen” is the subjunctive of the reported accusation (verschlingen, to devour). “Räthe” is the 1857 spelling of Räte (“councillors”), with old -th-. “verlangten” (verlangen, to demand). “gerichtet werden” = to be judged, brought to trial (richten, to try, judge)."
+  },
+  {
+   "t": "Der König aber hatte sie so lieb daß er es nicht glauben wollte, und befahl den Räthen bei Leibes- und Lebensstrafe nichts mehr darüber zu sprechen.",
+   "l": "The king, however, held her so dear that he would not believe it, and commanded the councillors, on pain of bodily and life punishment, to speak no more about it.",
+   "i": "But the king loved her so dearly that he would not believe it, and commanded the councillors, on pain of life and limb, to speak no more about it.",
+   "n": "“Räthen” is the dative plural (1857 spelling of Räten). “bei Leibes- und Lebensstrafe” = on pain of punishment to body and life (Leib, body; Lebensstrafe, the death penalty) — a set legal formula. “darüber” = about it."
+  },
+  {
+   "t": "Im nächsten Jahre gebar die Königin ein schönes Töchterlein, da erschien ihr zum drittenmal Nachts die Jungfrau Maria und sprach „folge mir.“",
+   "l": "In the next year the queen bore a beautiful little daughter; then the Virgin Mary appeared to her for the third time at night and spoke, “follow me.”",
+   "i": "The next year the queen bore a beautiful little daughter; then, for the third time, the Virgin Mary appeared to her at night and said, “Follow me.”",
+   "n": "“Jahre” has the old dative -e. “Töchterlein” = little daughter (diminutive). “zum drittenmal” = for the third time. “folge” is the imperative of folgen (“to follow,” which takes the dative: “follow me”).",
+   "p": true
+  },
+  {
+   "t": "Sie nahm sie bei der Hand und führte sie in den Himmel, und zeigte ihr da ihre beiden ältesten Kinder, die lachten sie an und spielten mit der Weltkugel.",
+   "l": "She took her by the hand and led her into heaven, and showed her there her two eldest children, who laughed at her and played with the globe of the world.",
+   "i": "She took her by the hand and led her into heaven, and showed her there her two eldest children, who laughed at her and played with the orb of the world.",
+   "n": "“beiden ältesten” = the two eldest. “lachten … an” (anlachen, to smile/laugh at; separable an-). “spielten” (spielen, to play). “Weltkugel” = globe, orb of the world."
+  },
+  {
+   "t": "Als sich die Königin darüber freuete, sprach die Jungfrau Maria „ist dein Herz noch nicht erweicht? wenn du eingestehst daß du die verbotene Thür geöffnet hast, so will ich dir deine beiden Söhnlein zurück geben.“",
+   "l": "When the queen rejoiced over it, the Virgin Mary spoke, “is your heart not yet softened? if you confess that you have opened the forbidden door, then I will give you back your two little sons.”",
+   "i": "When the queen rejoiced at this, the Virgin Mary said, “Is your heart not yet softened? If you confess that you opened the forbidden door, I will give you back your two little sons.”",
+   "n": "“freuete” is the 1857 spelling of freute (sich freuen, to rejoice). “erweicht” (erweichen, to soften). “eingestehst” (eingestehen, to confess, admit; separable ein-). “Söhnlein” = little sons (diminutive). “zurück geben” = to give back (separable zurück-)."
+  },
+  {
+   "t": "Aber die Königin antwortete zum drittenmal „nein, ich habe die verbotene Thür nicht geöffnet.“",
+   "l": "But the queen answered for the third time, “no, I have not opened the forbidden door.”",
+   "i": "But the queen answered for the third time, “No, I did not open the forbidden door.”"
+  },
+  {
+   "t": "Da ließ sie die Jungfrau wieder zur Erde herabsinken und nahm ihr auch das dritte Kind.",
+   "l": "Then the Virgin let her sink down again to the earth and took from her the third child too.",
+   "i": "Then the Virgin let her sink down again to the earth, and took from her the third child as well.",
+   "n": "“ließ … herabsinken” — lassen + infinitive; herabsinken (to sink down; separable herab-). Word order: “sie” is the queen (who is let to sink), “die Jungfrau” the subject who lets it happen."
+  },
+  {
+   "t": "Am andern Morgen, als es ruchbar ward, riefen alle Leute laut „die Königin ist eine Menschenfresserin, sie muß verurtheilt werden,“ und der König konnte seine Räthe nicht mehr zurückweisen.",
+   "l": "On the next morning, when it became known, all the people cried loudly, “the queen is a man-eater, she must be condemned,” and the king could no longer turn away his councillors.",
+   "i": "The next morning, when it became noised abroad, all the people cried aloud, “The queen is an ogress, she must be condemned!” and the king could no longer put off his councillors.",
+   "n": "“ruchbar werden” = to become known, get about (with archaic ward for wurde). “verurtheilt” (verurtheilen, 1857 spelling of verurteilen, “to condemn, sentence”). “zurückweisen” = to turn away, rebuff (separable zurück-).",
+   "p": true
+  },
+  {
+   "t": "Es ward ein Gericht über sie gehalten, und weil sie nicht antworten und sich nicht vertheidigen konnte, ward sie verurtheilt auf dem Scheiterhaufen zu sterben.",
+   "l": "A court was held over her, and because she could not answer and could not defend herself, she was condemned to die on the pyre.",
+   "i": "A trial was held over her, and because she could neither answer nor defend herself, she was condemned to die at the stake.",
+   "n": "“ward … gehalten” — a passive with the archaic ward. “Gericht” = court, trial (also “judgment”). “vertheidigen” is the 1857 spelling of verteidigen (“to defend”). “Scheiterhaufen” = pyre, the pile of wood for burning at the stake."
+  },
+  {
+   "t": "Das Holz wurde zusammengetragen, und als sie an einen Pfahl festgebunden war und das Feuer rings umher zu brennen anfieng, da schmolz das harte Eis des Stolzes und ihr Herz ward von Reue bewegt, und sie dachte",
+   "l": "The wood was carried together, and when she was bound fast to a stake and the fire began to burn round about, then the hard ice of pride melted and her heart was moved by remorse, and she thought",
+   "i": "The wood was piled up, and when she was bound fast to a stake and the fire began to burn all around, the hard ice of her pride melted, and her heart was moved to remorse, and she thought:",
+   "n": "“zusammengetragen” (zusammentragen, to gather/carry together; separable). “festgebunden” (festbinden, to bind fast; separable fest-). “Pfahl” = stake, post. “anfieng” (anfangen, 1857 spelling). “schmolz” (schmelzen, to melt). “Eis” = ice; “Stolz” = pride (genitive Stolzes). “Reue” = remorse, repentance."
+  },
+  {
+   "t": "„könnt ich nur noch vor meinem Tode gestehen daß ich die Thür geöffnet habe,“ da kam ihr die Stimme daß sie laut ausrief „ja, Maria, ich habe es gethan!“",
+   "l": "“could I but still confess before my death that I have opened the door,” then the voice came to her, so that she cried aloud, “yes, Mary, I have done it!”",
+   "i": "“If only I could confess before my death that I opened the door!” — and then her voice came back to her, so that she cried aloud, “Yes, Mary, I have done it!”",
+   "n": "“könnt ich nur …” is a subjunctive of wishing (“if only I could”). “vor meinem Tode” = before my death (Tode has the old dative -e). “ausrief” (ausrufen, to cry out; separable aus-). “gethan” is the 1857 spelling of getan."
+  },
+  {
+   "t": "Und alsbald fieng der Himmel an zu regnen und löschte die Feuerflammen, und über ihr brach ein Licht hervor, und die Jungfrau Maria kam herab und hatte die beiden Söhnlein zu ihren Seiten und das neugeborne Töchterlein auf dem Arm.",
+   "l": "And at once the sky began to rain and quenched the flames of fire, and over her a light broke forth, and the Virgin Mary came down and had the two little sons at her sides and the newborn little daughter on her arm.",
+   "i": "And at once the sky began to rain and quenched the flames, and above her a light broke forth, and the Virgin Mary came down, with the two little sons at her sides and the newborn little daughter on her arm.",
+   "n": "“fieng … an” (anfangen, 1857 spelling). “regnen” = to rain. “löschte” (löschen, to extinguish, quench). “brach … hervor” (hervorbrechen, to break forth; separable hervor-). “kam herab” (herabkommen; separable). “neugeborne” = newborn (older form)."
+  },
+  {
+   "t": "Sie sprach freundlich zu ihr „wer seine Sünde bereut und eingesteht, dem ist sie vergeben,“ und reichte ihr die drei Kinder, löste ihr die Zunge, und gab ihr Glück für das ganze Leben.",
+   "l": "She spoke kindly to her, “whoever repents of his sin and confesses it, to him it is forgiven,” and handed her the three children, loosed her tongue, and gave her fortune for the whole life.",
+   "i": "She said kindly to her, “Whoever repents of his sin and confesses it, to him it is forgiven,” and handed her the three children, loosed her tongue, and gave her good fortune for the whole of her life.",
+   "n": "“Sünde” = sin. “bereut” (bereuen, to repent, regret). “eingesteht” (eingestehen, to confess; separable ein-). “dem ist sie vergeben” is the “whoever …, to him …” correlative, with dative dem; vergeben (to forgive), sie = die Sünde. “löste … die Zunge” (die Zunge lösen, to loose the tongue; löste from lösen)."
+  }
+ ]
+}

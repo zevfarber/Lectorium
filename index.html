@@ -305,6 +305,13 @@
   .smCell .cbody { font-family:system-ui,'Noto Sans',sans-serif; font-size:.78rem; line-height:1.25; }
   .smCell .cval { font-weight:600; }
   .smCell .cname { color:var(--muted); }
+  .fidalWrap { overflow-x:auto; margin-top:12px; }
+  table.fidal { border-collapse:collapse; margin:0 auto; }
+  table.fidal th, table.fidal td { border:1px solid var(--border); text-align:center; padding:4px 7px; }
+  table.fidal thead th { font-size:.68rem; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); font-weight:600; }
+  table.fidal th.fcons { font-size:.9rem; font-weight:700; color:var(--ink); background:var(--accent-soft); font-family:system-ui,'Noto Sans',sans-serif; }
+  table.fidal td .fgl { display:block; font-size:1.5rem; line-height:1.15; }
+  table.fidal td .from { display:block; font-size:.6rem; color:var(--muted); font-family:system-ui,'Noto Sans',sans-serif; margin-top:1px; }
   .smCell.cdet .cgl { color:#6b4a9e; }
   .draftBadge { display: inline-block; font-family: system-ui, 'Noto Sans', sans-serif; font-size: .6rem; font-weight: 600;
     text-transform: uppercase; letter-spacing: .08em; color: #8a5300; background: #fbe6c0;
@@ -382,7 +389,7 @@
 <div id="signModal" class="signModal">
   <div class="smBox">
     <button class="pclose" onclick="closeSigns()">✕</button>
-    <h3 class="smTitle">Sign reference</h3>
+    <h3 class="smTitle" id="smTitle">Sign reference</h3>
     <div class="smSub" id="smSub"></div>
     <div id="smBody"></div>
   </div>
@@ -527,6 +534,7 @@ function tokenize(text){
    The alphabet (uniliterals) is seeded in full; other signs grow as texts introduce them.
    A story selects its script via story.script. Roles come from the story data, not here. */
 const SIGN_GLOSSARIES = {
+ "ethiopic": {orders:["ä", "u", "i", "a", "e", "ə", "o"],rows:[{cons:"h",cells:[{g:"ሀ",r:"hä"},{g:"ሁ",r:"hu"},{g:"ሂ",r:"hi"},{g:"ሃ",r:"ha"},{g:"ሄ",r:"he"},{g:"ህ",r:"hə"},{g:"ሆ",r:"ho"}]},{cons:"l",cells:[{g:"ለ",r:"lä"},{g:"ሉ",r:"lu"},{g:"ሊ",r:"li"},{g:"ላ",r:"la"},{g:"ሌ",r:"le"},{g:"ል",r:"lə"},{g:"ሎ",r:"lo"}]},{cons:"ḥ",cells:[{g:"ሐ",r:"ḥä"},{g:"ሑ",r:"ḥu"},{g:"ሒ",r:"ḥi"},{g:"ሓ",r:"ḥa"},{g:"ሔ",r:"ḥe"},{g:"ሕ",r:"ḥə"},{g:"ሖ",r:"ḥo"}]},{cons:"m",cells:[{g:"መ",r:"mä"},{g:"ሙ",r:"mu"},{g:"ሚ",r:"mi"},{g:"ማ",r:"ma"},{g:"ሜ",r:"me"},{g:"ም",r:"mə"},{g:"ሞ",r:"mo"}]},{cons:"ś",cells:[{g:"ሠ",r:"śä"},{g:"ሡ",r:"śu"},{g:"ሢ",r:"śi"},{g:"ሣ",r:"śa"},{g:"ሤ",r:"śe"},{g:"ሥ",r:"śə"},{g:"ሦ",r:"śo"}]},{cons:"r",cells:[{g:"ረ",r:"rä"},{g:"ሩ",r:"ru"},{g:"ሪ",r:"ri"},{g:"ራ",r:"ra"},{g:"ሬ",r:"re"},{g:"ር",r:"rə"},{g:"ሮ",r:"ro"}]},{cons:"s",cells:[{g:"ሰ",r:"sä"},{g:"ሱ",r:"su"},{g:"ሲ",r:"si"},{g:"ሳ",r:"sa"},{g:"ሴ",r:"se"},{g:"ስ",r:"sə"},{g:"ሶ",r:"so"}]},{cons:"q",cells:[{g:"ቀ",r:"qä"},{g:"ቁ",r:"qu"},{g:"ቂ",r:"qi"},{g:"ቃ",r:"qa"},{g:"ቄ",r:"qe"},{g:"ቅ",r:"qə"},{g:"ቆ",r:"qo"}]},{cons:"b",cells:[{g:"በ",r:"bä"},{g:"ቡ",r:"bu"},{g:"ቢ",r:"bi"},{g:"ባ",r:"ba"},{g:"ቤ",r:"be"},{g:"ብ",r:"bə"},{g:"ቦ",r:"bo"}]},{cons:"t",cells:[{g:"ተ",r:"tä"},{g:"ቱ",r:"tu"},{g:"ቲ",r:"ti"},{g:"ታ",r:"ta"},{g:"ቴ",r:"te"},{g:"ት",r:"tə"},{g:"ቶ",r:"to"}]},{cons:"ḫ",cells:[{g:"ኀ",r:"ḫä"},{g:"ኁ",r:"ḫu"},{g:"ኂ",r:"ḫi"},{g:"ኃ",r:"ḫa"},{g:"ኄ",r:"ḫe"},{g:"ኅ",r:"ḫə"},{g:"ኆ",r:"ḫo"}]},{cons:"n",cells:[{g:"ነ",r:"nä"},{g:"ኑ",r:"nu"},{g:"ኒ",r:"ni"},{g:"ና",r:"na"},{g:"ኔ",r:"ne"},{g:"ን",r:"nə"},{g:"ኖ",r:"no"}]},{cons:"ʾ",cells:[{g:"አ",r:"ʾä"},{g:"ኡ",r:"ʾu"},{g:"ኢ",r:"ʾi"},{g:"ኣ",r:"ʾa"},{g:"ኤ",r:"ʾe"},{g:"እ",r:"ʾə"},{g:"ኦ",r:"ʾo"}]},{cons:"k",cells:[{g:"ከ",r:"kä"},{g:"ኩ",r:"ku"},{g:"ኪ",r:"ki"},{g:"ካ",r:"ka"},{g:"ኬ",r:"ke"},{g:"ክ",r:"kə"},{g:"ኮ",r:"ko"}]},{cons:"w",cells:[{g:"ወ",r:"wä"},{g:"ዉ",r:"wu"},{g:"ዊ",r:"wi"},{g:"ዋ",r:"wa"},{g:"ዌ",r:"we"},{g:"ው",r:"wə"},{g:"ዎ",r:"wo"}]},{cons:"ʿ",cells:[{g:"ዐ",r:"ʿä"},{g:"ዑ",r:"ʿu"},{g:"ዒ",r:"ʿi"},{g:"ዓ",r:"ʿa"},{g:"ዔ",r:"ʿe"},{g:"ዕ",r:"ʿə"},{g:"ዖ",r:"ʿo"}]},{cons:"z",cells:[{g:"ዘ",r:"zä"},{g:"ዙ",r:"zu"},{g:"ዚ",r:"zi"},{g:"ዛ",r:"za"},{g:"ዜ",r:"ze"},{g:"ዝ",r:"zə"},{g:"ዞ",r:"zo"}]},{cons:"y",cells:[{g:"የ",r:"yä"},{g:"ዩ",r:"yu"},{g:"ዪ",r:"yi"},{g:"ያ",r:"ya"},{g:"ዬ",r:"ye"},{g:"ይ",r:"yə"},{g:"ዮ",r:"yo"}]},{cons:"d",cells:[{g:"ደ",r:"dä"},{g:"ዱ",r:"du"},{g:"ዲ",r:"di"},{g:"ዳ",r:"da"},{g:"ዴ",r:"de"},{g:"ድ",r:"də"},{g:"ዶ",r:"do"}]},{cons:"g",cells:[{g:"ገ",r:"gä"},{g:"ጉ",r:"gu"},{g:"ጊ",r:"gi"},{g:"ጋ",r:"ga"},{g:"ጌ",r:"ge"},{g:"ግ",r:"gə"},{g:"ጎ",r:"go"}]},{cons:"ṭ",cells:[{g:"ጠ",r:"ṭä"},{g:"ጡ",r:"ṭu"},{g:"ጢ",r:"ṭi"},{g:"ጣ",r:"ṭa"},{g:"ጤ",r:"ṭe"},{g:"ጥ",r:"ṭə"},{g:"ጦ",r:"ṭo"}]},{cons:"ṗ",cells:[{g:"ጰ",r:"ṗä"},{g:"ጱ",r:"ṗu"},{g:"ጲ",r:"ṗi"},{g:"ጳ",r:"ṗa"},{g:"ጴ",r:"ṗe"},{g:"ጵ",r:"ṗə"},{g:"ጶ",r:"ṗo"}]},{cons:"ṣ",cells:[{g:"ጸ",r:"ṣä"},{g:"ጹ",r:"ṣu"},{g:"ጺ",r:"ṣi"},{g:"ጻ",r:"ṣa"},{g:"ጼ",r:"ṣe"},{g:"ጽ",r:"ṣə"},{g:"ጾ",r:"ṣo"}]},{cons:"ṣ́",cells:[{g:"ፀ",r:"ṣ́ä"},{g:"ፁ",r:"ṣ́u"},{g:"ፂ",r:"ṣ́i"},{g:"ፃ",r:"ṣ́a"},{g:"ፄ",r:"ṣ́e"},{g:"ፅ",r:"ṣ́ə"},{g:"ፆ",r:"ṣ́o"}]},{cons:"f",cells:[{g:"ፈ",r:"fä"},{g:"ፉ",r:"fu"},{g:"ፊ",r:"fi"},{g:"ፋ",r:"fa"},{g:"ፌ",r:"fe"},{g:"ፍ",r:"fə"},{g:"ፎ",r:"fo"}]},{cons:"p",cells:[{g:"ፐ",r:"pä"},{g:"ፑ",r:"pu"},{g:"ፒ",r:"pi"},{g:"ፓ",r:"pa"},{g:"ፔ",r:"pe"},{g:"ፕ",r:"pə"},{g:"ፖ",r:"po"}]}]},
  "ugaritic": {
  "ALPA": {
   "glyph": "𐎀",
@@ -3033,8 +3041,27 @@ function showSignPop(stackEl){
 }
 
 /* ---- sign reference browser (the alphabet + the classifiers) ---- */
+function renderFidal(sg){
+  const orders = sg.orders || [];
+  let body = '<div class="fidalWrap"><table class="fidal"><thead><tr><th></th>'
+    + orders.map(v => '<th>' + escapeHtml(v) + '</th>').join('') + '</tr></thead><tbody>';
+  (sg.rows || []).forEach(r => {
+    body += '<tr><th class="fcons">' + escapeHtml(r.cons) + '</th>'
+      + r.cells.map(c => '<td><span class="fgl">' + escapeHtml(c.g) + '</span><span class="from">' + escapeHtml(c.r) + '</span></td>').join('')
+      + '</tr>';
+  });
+  return body + '</tbody></table></div>';
+}
 function openSigns(){
   const sg = signGlossaryFor(story); if (!sg) return;
+  if (story.script === 'ethiopic'){
+    $('smTitle').textContent = 'Fidäl — the Geʿez syllabary';
+    $('smSub').textContent = 'Each sign is a consonant + a vowel. The columns are the seven orders (ä u i a e ə o); the 6th order (ə) doubles as the bare consonant. ś = the ሠ-series; ḥ ḫ ʾ ʿ are the laryngeals.';
+    $('smBody').innerHTML = renderFidal(sg);
+    $('signModal').classList.add('open');
+    return;
+  }
+  $('smTitle').textContent = 'Sign reference';
   const groups = [
     ['The alphabet — uniliterals (one sound each)', e => e.type === 'uniliteral'],
     ['The syllabary — one syllable each', e => /syllabogram/.test(e.type) && !/logogram|determinative/.test(e.type)],
@@ -4075,6 +4102,9 @@ function loadStory(s){
           : story.script === 'cuneiform'
           ? '<button data-sp="sch" title="Academic transliteration — per sign, with ĝ, hyphens and superscript determinatives (diĝir)">diĝir</button>'
             + '<button data-sp="read" title="Readable spelling — smoothed running words, ĝ→ng, determinatives silent (dingir)">dingir</button>'
+          : story.script === 'ethiopic'
+          ? '<button data-sp="sch" title="Scholarly transliteration — with the schwa ə (6th order) and the pharyngeal ʿ (Gəʿəz)">Gəʿəz</button>'
+            + '<button data-sp="read" title="Readable spelling — plain vowels, no diacritics (Geez)">Geez</button>'
           : '<button data-sp="sch" title="Scholarly transliteration (ꜥnḫ)">ꜥnḫ</button>'
             + '<button data-sp="read" title="Readable spelling (ankh)">ankh</button>');
     if (!hasVals) valMode = false;
@@ -4094,7 +4124,7 @@ function loadStory(s){
   }
   const glyphy = s.sentences.some(x => x.words || x.tr);
   if (rg) rg.style.display = glyphy ? 'inline-flex' : 'none';
-  const sb = $('signsBtn'); if (sb) sb.style.display = signGlossaryFor(s) ? '' : 'none';
+  const sb = $('signsBtn'); if (sb){ sb.style.display = signGlossaryFor(s) ? '' : 'none'; sb.textContent = (s.script === 'ethiopic') ? '📜 Fidäl' : '📜 Signs'; }
   const hasQuad = s.sentences.some(x => (x.words || []).some(w => w.q));
   const qb = $('quadBtn'); if (qb) qb.style.display = hasQuad ? '' : 'none';
   updateQuadBtn();

@@ -312,6 +312,14 @@
   table.fidal th.fcons { font-size:.9rem; font-weight:700; color:var(--ink); background:var(--accent-soft); font-family:system-ui,'Noto Sans',sans-serif; }
   table.fidal td .fgl { display:block; font-size:1.5rem; line-height:1.15; }
   table.fidal td .from { display:block; font-size:.6rem; color:var(--muted); font-family:system-ui,'Noto Sans',sans-serif; margin-top:1px; }
+  .fixOrig { border:1px solid var(--border); border-radius:9px; padding:9px 11px; margin:12px 0; background:var(--accent-soft); }
+  .fixOrig .fixOrigT { display:block; font-size:1.15rem; line-height:1.5; }
+  .fixOrig .fixOrigE { display:block; font-size:.85rem; color:var(--muted); margin-top:5px; font-family:system-ui,'Noto Sans',sans-serif; }
+  .fixText { width:100%; box-sizing:border-box; min-height:90px; border:1px solid var(--border); border-radius:9px; padding:9px 11px; font-family:system-ui,'Noto Sans',sans-serif; font-size:.9rem; resize:vertical; }
+  .fixBtns { display:flex; align-items:center; gap:10px; margin-top:10px; flex-wrap:wrap; }
+  .fixSend, .fixCopy { border:1px solid var(--border); border-radius:8px; padding:7px 12px; background:#fff; cursor:pointer; font-size:.85rem; }
+  .fixSend { background:var(--accent-soft); font-weight:600; }
+  .fixMsg { font-size:.8rem; color:var(--muted); }
   .smCell.cdet .cgl { color:#6b4a9e; }
   .draftBadge { display: inline-block; font-family: system-ui, 'Noto Sans', sans-serif; font-size: .6rem; font-weight: 600;
     text-transform: uppercase; letter-spacing: .08em; color: #8a5300; background: #fbe6c0;
@@ -392,6 +400,15 @@
     <h3 class="smTitle" id="smTitle">Sign reference</h3>
     <div class="smSub" id="smSub"></div>
     <div id="smBody"></div>
+  </div>
+</div>
+
+<div id="fixModal" class="signModal">
+  <div class="smBox">
+    <button class="pclose" onclick="closeFix()">✕</button>
+    <h3 class="smTitle">Suggest a correction</h3>
+    <div class="smSub">Lectorium's texts are prepared with care but are the best effort of a machine, not a proofreading by a native reader — so errors are expected, and pointing them out is how they get fixed. Your note goes to the project; each text is corrected once, for everyone.</div>
+    <div id="fixBody"></div>
   </div>
 </div>
 
@@ -3091,6 +3108,45 @@ function openSigns(){
 }
 function closeSigns(){ $('signModal').classList.remove('open'); }
 
+/* ---- Suggest a correction (backend-free: prefilled GitHub issue + copy-to-clipboard) ---- */
+const CORRECTION_REPO = 'zevfarber/Lectorium';
+function openCorrection(i){
+  const s = story.sentences[i]; if (!s) return;
+  const orig = (s.t || '').replace(/\s*\n\s*/g,' ');
+  const en = s.i || s.l || '';
+  const ref = (story.id || 'text') + ' · sentence ' + (i + 1);
+  const report =
+    'Text: ' + (story.titleEn || story.title || story.id || '') + ' (' + (story.id||'') + ')\n' +
+    'Sentence ' + (i + 1) + ': ' + orig + '\n' +
+    'Current translation: ' + en + '\n' +
+    (s.n ? 'Current note: ' + s.n + '\n' : '') +
+    '\nSuggested correction:\n';
+  $('fixBody').innerHTML =
+    '<div class="fixOrig"><span class="fixOrigT">' + escapeHtml(orig) + '</span>' +
+    '<span class="fixOrigE">' + escapeHtml(en) + '</span></div>' +
+    '<textarea id="fixText" class="fixText" placeholder="What’s wrong, and what should it say? (a word gloss, the translation, the transliteration…)"></textarea>' +
+    '<div class="fixBtns">' +
+      '<button id="fixIssue" class="fixSend">Open a GitHub issue ↗</button>' +
+      '<button id="fixCopy" class="fixCopy">Copy report</button>' +
+      '<span id="fixMsg" class="fixMsg"></span>' +
+    '</div>';
+  const build = () => report + ($('fixText').value || '').trim();
+  $('fixIssue').onclick = () => {
+    const url = 'https://github.com/' + CORRECTION_REPO + '/issues/new?title=' +
+      encodeURIComponent('Correction: ' + ref) + '&body=' + encodeURIComponent(build());
+    window.open(url, '_blank', 'noopener');
+  };
+  $('fixCopy').onclick = () => {
+    const t = build();
+    (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject())
+      .then(() => { $('fixMsg').textContent = 'Copied — paste it anywhere to send.'; })
+      .catch(() => { $('fixMsg').textContent = 'Select the text above and copy manually.'; });
+  };
+  $('fixModal').classList.add('open');
+  setTimeout(() => { const t = $('fixText'); if (t) t.focus(); }, 30);
+}
+function closeFix(){ $('fixModal').classList.remove('open'); }
+
 /* Egyptian (and other glyph scripts): zip glyph words (t) with transliteration words (tr)
    into stacked, clickable units — glyph on top, sound beneath. Glossary key = tr token. */
 function buildStacks(s){
@@ -3206,7 +3262,8 @@ function buildSentEl(s, i, showLit){
     '<button data-a="ask">🎓 Ask</button>' +
     (mode === 'de' ? '<button data-a="en">EN</button>' : '') +
     (s.i ? '<button data-a="idiom">' + (showLit ? '≈ natural' : '≈ literal') + '</button>' : '') +
-    (s.n ? '<button data-a="note">📝 note</button>' : '');
+    (s.n ? '<button data-a="note">📝 note</button>' : '') +
+    '<button data-a="fix" title="Spotted an error? Suggest a correction">⚑ correction</button>';
   div.appendChild(tb);
   return div;
 }
@@ -3453,6 +3510,7 @@ $('text').addEventListener('click', (ev) => {
     if (btn.dataset.a === 'en') toggleEN(i);
     if (btn.dataset.a === 'idiom') toggleIdiom(i);
     if (btn.dataset.a === 'note') toggleNote(i);
+    if (btn.dataset.a === 'fix') openCorrection(i);
     if (btn.dataset.a === 'stop') stopPlay();
     return;
   }
@@ -3480,7 +3538,7 @@ $('text').addEventListener('click', (ev) => {
 document.addEventListener('keydown', (ev) => {
   if (ev.target.tagName === 'INPUT' || ev.target.tagName === 'SELECT' || ev.target.tagName === 'TEXTAREA') return;
   const n = story ? story.sentences.length : 0;
-  if (ev.key === 'Escape') { stopSpeech(); if (speakingIdx >= 0) setSpeakingIdx(-1); hidePop(); closeSigns(); }
+  if (ev.key === 'Escape') { stopSpeech(); if (speakingIdx >= 0) setSpeakingIdx(-1); hidePop(); closeSigns(); closeFix(); }
   else if (ev.key === 'ArrowDown' || ev.key === 'j') { ev.preventDefault(); focusSent(Math.min(focusedIdx + 1, n - 1), true); }
   else if (ev.key === 'ArrowUp' || ev.key === 'k') { ev.preventDefault(); focusSent(Math.max(focusedIdx - 1, 0), true); }
   else if (focusedIdx >= 0) {
@@ -3878,6 +3936,7 @@ function setPlain(on){
 $('plainBtn').onclick = () => setPlain(!plainMode);
 $('signsBtn').onclick = openSigns;
 $('signModal').addEventListener('click', (e) => { if (e.target.id === 'signModal') closeSigns(); });
+$('fixModal').addEventListener('click', (e) => { if (e.target.id === 'fixModal') closeFix(); });
 function updateQuadBtn(){ const b = $('quadBtn'); if (!b) return; b.classList.toggle('active', quadMode); b.textContent = quadMode ? '▤ Linear' : '▦ As written'; }
 $('quadBtn').onclick = () => {
   quadMode = !quadMode;

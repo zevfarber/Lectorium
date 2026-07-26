@@ -5,13 +5,12 @@
  "language": "Old Norse",
  "langCode": null,
  "numbering": "stanza",
- "provisional": true,
- "draftNote": "Draft in progress — stanzas 80–95 of 80–110 are done. The remaining stanzas (96–110, the Billings-daughter and Gunnlǫð episodes) are being prepared.",
+ "provisional": false,
  "work": "Hávamál",
  "workEn": "Hávamál",
  "part": "Óðins dœmi (stanzas 80–110)",
- "source": "Gustav Neckel, Edda: Die Lieder des Codex Regius nebst verwandten Denkmälern, 1st edition (Heidelberg: Carl Winter, 1914), Hávamál, stanzas 80–110, pp. 28–33. Text transcribed from Neckel's page images and reproduced in his normalization exactly — þ, ð, æ, œ, the nasal vowel ǫ, ø, acute length-marks, the -z/-az/-oz middle endings, i for j (sitia, miǫk), -om datives, þvíat as one word. Italicized (editorially emended or expanded) letters are set as plain letters; major emendations are noted. Eddic poems are cited by stanza, so the margin numbers are stanza numbers. Pronunciation convention: reconstructed classical Old Icelandic, c. 1200. Translations made fresh from the original.",
- "about": "The second movement of the Hávamál, running from the end of the proverbs to the printed break Neckel sets at stanza 110. It begins in the gnomic voice of the Gestaþáttr — praise the day at evening, buy a horse lean — and then turns into something stranger. At stanza 84 begins what Karl Müllenhoff named the ‘first Odin example’: a warning against trusting women, a vast catalogue of things that cannot be relied on, and then, at 91, an admission that men's hearts are exactly as false. What follows is the speaker's own humiliation — Billing's daughter leaves him a dog tied to her bed — and then the theft of the mead of poetry from Suttungr and Gunnlǫð, told by the thief. Everything printed here is a modern editor's normalization of a single manuscript, the Codex Regius (GKS 2365 4to, c. 1270); the verse is ljóðaháttr, and the margin numbers are stanza numbers.",
+ "source": "Gustav Neckel, Edda: Die Lieder des Codex Regius nebst verwandten Denkmälern, 1st edition (Heidelberg: Carl Winter, 1914), Hávamál, stanzas 80–110, pp. 28–33. Text transcribed from Neckel's page images and reproduced in his normalization exactly — þ, ð, æ, œ, the nasal vowel ǫ, ø, acute length-marks, the -z/-az/-oz middle endings, i for j (sitia, miǫk), -om datives, þvíat as one word. Italicized (editorially emended or expanded) letters are set as plain letters; the emendations that change the sense are noted. Neckel's raised commas marking direct speech (st. 98) are kept. In his apparatus, bold sigla are manuscripts (R = Codex Regius) and italic sigla are scholars (Mh = Müllenhoff, R = Rask, D = Dietrich, J = Finnur Jónsson, Hs = Heusler, Gv = Grundtvig, B = Bugge); the notes here follow that distinction. Eddic poems are cited by stanza, so the margin numbers are stanza numbers. Pronunciation convention: reconstructed classical Old Icelandic, c. 1200. Translations made fresh from the original.",
+ "about": "The second movement of the Hávamál, running from the end of the proverbs to the break Neckel prints at stanza 110. It begins in the gnomic voice of the Gestaþáttr — praise the day at evening, buy a horse lean — and then turns into something stranger. At stanza 84 begins what Karl Müllenhoff named the ‘first Odin example’: a warning against trusting women, a vast catalogue of things that cannot be relied on, and then, at 91, an admission that men's hearts are exactly as false. What follows is the speaker's own humiliation — he waits in a reed-bed for Billing's daughter and is left a dog tied to her bed — and then, from 104, the theft of the mead of poetry from Suttungr and Gunnlǫð, told by the thief, who admits he repaid her badly. The section ends in another voice altogether, accusing Óðinn of breaking an oath sworn on the sacred ring. Everything printed here is a modern editor's normalization of a single manuscript, the Codex Regius (GKS 2365 4to, c. 1270); the verse is ljóðaháttr, and the margin numbers are stanza numbers.",
  "glossaryFile": "havamal-glossary.json",
  "sentences": [
   {
@@ -157,6 +156,141 @@
    "l": "The mind alone knows\nwhat has its dwelling by the heart,\nalone he is with his own soul:\nno sickness is worse\nfor any wise man\nthan to take joy in nothing.",
    "i": "Only the mind knows what lies close beside the heart; a man is alone with his own thoughts. And for a wise man there is no sickness worse than to find pleasure in nothing at all.",
    "n": "The boasting drops away and what is left is a man alone with himself — and the very next stanza begins the story of how he was made a fool of. Do not let hugr and hiarta collapse into one word: the mind knows what lives beside the heart. una takes the dative of what one is content with, so sér øngo at una is 'to be content with nothing for oneself'. øngo is the dative of engi 'none', which Neckel spells with ø. The Codex Regius reads manni in line 5; hal is Rask's conjecture, which Neckel records but does not adopt."
+  },
+  {
+   "p": true,
+   "v": true,
+   "ln": 96,
+   "t": "Þat ek þá reynda,\ner ek í reyri sat\nok vættak míns munar;\nhold ok hiarta\nvar mér in horska mær —\nþeygi ek hana at heldr hefik.",
+   "l": "That I found out then,\nwhen I sat in the reeds\nand waited for my delight;\nflesh and heart\nwas to me the wise maiden —\nyet I have her not any the more.",
+   "i": "I learned that by trying it, sitting in the reed-bed waiting for my heart's desire: flesh and heart she was to me, that clever girl — and for all of it, I do not have her.",
+   "n": "The first of the two Odin stories begins, and it begins with the verb the poem keeps using for knowledge bought dearly: reyna 'to learn by trying', the same word as st. 80's Þat er þá reynt and st. 102's þá ek þat reynda. Two verbs here carry an enclitic pronoun fused onto the end — vættak is vætta ek 'I awaited', hefik is hefi ek 'I have' — a compression Old Norse verse likes and English cannot reproduce. hold ok hiarta is a nominative predicate: she *was* flesh and heart to him, everything bodily and everything felt. The sting is the last three words, at heldr 'any the more'."
+  },
+  {
+   "p": true,
+   "v": true,
+   "ln": 97,
+   "t": "Billings mey\nek fann beðiom á,\nsólhvíta, sofa:\niarls ynði\nþótti mér ekki vera,\nnema við þat lík at lifa.",
+   "l": "Billing's maiden\nI found on the bed,\nsun-white, asleep:\nan earl's delight\nseemed to me to be nothing,\nunless to live with that body.",
+   "i": "I found Billing's daughter asleep on her bed, sun-white; and an earl's whole happiness seemed to me worth nothing, if I could not live with that body.",
+   "n": "Billingr is otherwise unknown — Snorri never tells this story, and the name turns up in the dwarf-list of the Vǫluspá, which may or may not be the same figure. sólhvítr 'sun-white' is barely attested outside this line: skin so pale it looks lit. lík is simply 'body' here (the word later narrows to 'corpse'), and the stanza's frankness is the point."
+  },
+  {
+   "p": true,
+   "v": true,
+   "ln": 98,
+   "t": "‘Auk nær apni\nskaltu, Óðinn, koma,\nef þú vilt þér mæla man;\nallt ero óskǫp,\nnema einir viti\nslíkan lǫst saman.’",
+   "l": "‘And towards evening\nyou shall come, Óðinn,\nif you would bespeak a girl for yourself;\nall is ruin,\nunless two alone know\nof such a fault together.’",
+   "i": "‘Come back towards evening, Óðinn, if you want to speak for a girl of your own. It is all ruin unless the two alone know about a shame like this.’",
+   "n": "Her answer, which Neckel marks with raised commas as direct speech. She names him — the first time in the whole poem the speaker is identified, and it is a woman saying Óðinn's name to put him off. mæla þér man is 'to bespeak a girl for yourself': the dative þér is a dative of interest pointing back at Óðinn, so the arrangement is for him, not for her. Neckel's apparatus records that the man of line 3 was corrected from mey in the Codex Regius. óskǫp is literally 'un-shapings', the opposite of what is fated or fitting: a monstrous thing. Line 5 has no expressed subject — viti is a plain 3rd plural, 'unless (people) alone know' — and the first-person reading that most translations give follows Finnur Jónsson's emendation ein vitim; we keep Neckel's text. Note what she actually objects to: not the act, but anyone else knowing of it."
+  },
+  {
+   "p": true,
+   "v": true,
+   "ln": 99,
+   "t": "Aptr ek hvarf,\nok una þóttomz,\nvísom vilia frá;\nhitt ek hugða,\nat ek hafa mynda\ngeð hennar allt ok gaman.",
+   "l": "Back I turned,\nand thought myself content,\naway from a sure pleasure;\nthis I thought,\nthat I would have\nall her heart and her delight.",
+   "i": "I turned back, thinking myself well pleased to leave a sure pleasure behind; I thought I would have all her heart and all her joy.",
+   "n": "Neckel prints una with the n in italic — an editor's correction; the Codex Regius reads unna. þóttomz is the middle voice (later þóttumk), 'it seemed to myself'. The irony is laid on thick: he congratulates himself on giving up a certain thing for a better one. vísom vilia frá is 'away from a sure pleasure' — a sure thing, given up."
+  },
+  {
+   "p": true,
+   "v": true,
+   "ln": 100,
+   "t": "Svá kom ek næst,\nat in nýta var\nvígdrótt ǫll um vakin:\nmeð brennandom liósom\nok bornom viði,\nsvá var mér vilstígr of vitaðr.",
+   "l": "So I came the next time,\nthat the doughty\nwar-band was all roused:\nwith burning lights\nand with borne wood,\nso was a desire-path marked out for me.",
+   "i": "So I came the next time — and the whole able war-band was roused, lights burning and torches carried. So a path of desire, or of woe, was appointed for me.",
+   "n": "vilstígr is a crux, and the reading decides the tone: with vil- it is 'the path of desire', with víl- 'a path of woe'. Neckel prints vilstígr and notes that Grundtvig read vílstígr and that all the newer editors follow him. The compound is kept visible in the literal layer and both senses in the idiomatic one, because the poem may well intend the collision. of vitaðr is an agentless passive — the path was appointed, not marked out by anyone named. um vakin is the participle of the causative vekia: the war-band was *roused*, which sets up um sofin 'gone to sleep' in the next stanza. bornom viði is 'borne wood' — torches. The joke is that the household turned out in force to light his way, and being lit is exactly what defeats him."
+  },
+  {
+   "p": true,
+   "v": true,
+   "ln": 101,
+   "t": "Auk nær morni,\ner ek var enn um kominn,\nþá var saldrótt um sofin:\ngrey eitt ek þá fann\ninnar góðo kono\nbundit beðiom á.",
+   "l": "And towards morning,\nwhen I had come again,\nthen the hall-troop was asleep:\na dog alone I then found\nof the good woman\nbound on the bed.",
+   "i": "And towards morning, when I came back again, the household were all asleep — and all I found of the good woman was a dog tied to her bed.",
+   "n": "The punchline, delivered flat. grey (neuter) is a dog, a cur or lapdog, used contemptuously; many readers take the substitution to be pointedly a bitch, but the word itself carries no sex. innar góðo kono is genitive, 'belonging to the good woman' — the epithet is not withdrawn, which makes it worse. Neckel's apparatus records that the Codex Regius begins the stanza Ok where he prints Auk (compare st. 98), and that Hildebrand put the caesura after eitt."
+  },
+  {
+   "p": true,
+   "v": true,
+   "ln": 102,
+   "t": "Mǫrg er góð mær,\nef gǫrva kannar,\nhugbrigð við hali:\nþá ek þat reynda,\ner it ráðspaka\nteygða ek á flærðir flióð;\nháðungar hverrar\nleitaði mér it horska man,\nok hafða ek þess vetki vífs.",
+   "l": "Many a good maiden is,\nif one looks closely,\nfickle of heart towards men:\nthat I found out then,\nwhen the counsel-wise\nwoman I drew into deceits;\nof every humiliation\nthe clever girl sought for me,\nand I had nothing at all of that woman.",
+   "i": "Many a good girl, if you look closely, is fickle-hearted towards men. I learned that when I drew the shrewd woman on into deceits: every humiliation there is the clever girl found for me, and of that woman I had nothing whatever.",
+   "n": "The moral he draws — and note that he draws it against her. He drew her on (teygia 'to entice, lead on'), she out-thought him, and the stanza still concludes that women are hugbrigð 'fickle of mind'. Every epithet he gives her, here and in the stanzas around, praises her intelligence: ráðspǫk 'wise in counsel' and horsk 'clever' in this stanza, góð in st. 101, horsk again back in st. 96. Neckel prints the final i of vetki in italic as an editor's correction; the Codex Regius reads vetkis. Nine lines."
+  },
+  {
+   "p": true,
+   "v": true,
+   "ln": 103,
+   "t": "Heima glaðr gumi\nok við gesti reifr,\nsviðr skal um sik vera,\nminnigr ok málugr,\nef hann vill margfróðr vera,\nopt skal góðs geta;\nfimbulfambi\nheitir, sá er fátt kann segia:\nþat er ósnotrs aðal.",
+   "l": "A man glad at home\nand cheerful towards guests,\nprudent about himself he shall be,\nof good memory and ready of speech,\nif he wants to be much-knowing,\noften shall he speak of good;\na mighty booby\nhe is called, who knows little to say:\nthat is the nature of the unwise.",
+   "i": "A man should be cheerful at home and welcoming to his guests, and shrewd about himself; a good memory and a ready tongue, if he wants to know much; and let him often speak of what is good. The man with little to say is called a mighty booby — that is what the unwise are like.",
+   "n": "This is where Müllenhoff put the start of the 'second Odin example', though the stanza itself is plain gnomic wisdom of the Gestaþáttr kind: the seam between the two stories shows. góðs geta is 'to speak of what is good' — geta with the genitive means 'mention', not 'get'. fimbulfambi 'the mighty fool' is one of the poem's best insults and is attested nowhere else — and fimbul- is the same intensifier as in fimbulþulr, the 'mighty sage' of st. 80. The great sage and the great booby are defined by the same thing, whether they can speak; but where st. 80 said a man does best to hold his tongue, this one makes silence the mark of a fool. The poem contradicts itself openly, and the next stanza takes the side of speech. Nine lines."
+  },
+  {
+   "p": true,
+   "v": true,
+   "ln": 104,
+   "t": "Inn aldna iǫtun ek sótta:\nnú em ek aptr um kominn;\nfátt gat ek þegiandi þar:\nmǫrgom orðom\nmælta ek í minn frama\ní Suttungs sǫlom.",
+   "l": "The old giant I sought out:\nnow I am come back again;\nlittle I got there by keeping silent:\nwith many words\nI spoke to my own advantage\nin Suttungr's halls.",
+   "i": "I went to the old giant; now I am back. I got little there by holding my tongue — I talked my way forward, with a great many words, in Suttungr's halls.",
+   "n": "The second story, and the method reverses. Everything the poem has praised so far is silence — st. 80's 'he does best if he holds his tongue', the wary guest of the Gestaþáttr — and here Óðinn says flatly that silence got him nothing. mælta ek í minn frama is 'I spoke to my own advantage'; the poem does not use the word for lying, though what follows is a theft by deception. Neckel's apparatus records that the ek of line 1 was added in the margin of the Codex Regius, and that Heusler proposed reading Sóttak inn aldna iǫtun instead."
+  },
+  {
+   "p": true,
+   "v": true,
+   "ln": 105,
+   "t": "Gunnlǫð mér um gaf\ngullnom stóli á\ndrykk ins dýra miaðar;\nill iðgiǫld\nlét ek hana eptir hafa\nsíns ins heila hugar,\nsíns ins svára sefa.",
+   "l": "Gunnlǫð gave me\non a golden seat\na drink of the precious mead;\nan ill repayment\nI let her have afterwards\nfor her whole heart,\nfor her heavy spirit.",
+   "i": "Gunnlǫð gave me, on a golden seat, a drink of the precious mead. I left her an ill return for her whole heart, for her grieving spirit.",
+   "n": "The one stanza in the episode that admits what it cost her, and it does not soften the admission: ill iðgiǫld 'evil repayment' is the poem's own verdict on its speaker. The two genitives síns ins heila hugar and síns ins svára sefa are what the repayment is measured against — she gave a whole heart and got that. Whether svárr here is 'heavy with grief' or 'earnest, weighty' is arguable; either way she is the injured party. Seven lines."
+  },
+  {
+   "p": true,
+   "v": true,
+   "ln": 106,
+   "t": "Rata munn\nlétomk rúms um fá\nok um griót gnaga;\nyfir ok undir\nstóðomk iǫtna vegir:\nsvá hætta ek hǫfði til.",
+   "l": "Rati's mouth\nI made get me room\nand gnaw through the rock;\nabove and below\nstood about me the giants' ways:\nso did I risk my head.",
+   "i": "I made Rati's mouth eat me out a passage and gnaw through the stone; the roads of the giants ran above me and below. That is how I staked my head.",
+   "n": "The grammar carries the point: munn is accusative, so Rati's mouth is not the actor — this is láta with an accusative and an infinitive, 'I made Rati's mouth get room and gnaw'. Óðinn is the one boring in. Rati is the auger that made the tunnel into the mountain, and it is one of the few *named* details this account shares with Snorri's telling in the Skáldskaparmál, which very likely drew on this poem. létomk and stóðomk carry the -mk middle ending, 'for myself' and 'about me'. hætta hǫfði til is 'to risk one's head on it' — the same image as the head-wagers of the wisdom contests, though the fixed formula there is veðia hǫfði."
+  },
+  {
+   "p": true,
+   "v": true,
+   "ln": 107,
+   "t": "Vel keypts litar\nhefi ek vel notit,\nfás er fróðom vant;\nþvíat Óðrerir\ner nú upp kominn\ná alda vés iarðar.",
+   "l": "Of the well-bought shape\nI have made good use,\nlittle is wanting to the wise;\nfor Óðrerir\nis now come up\nto the earth's sanctuary of men.",
+   "i": "The shape I bought so well has served me well — little is wanting to a wise man. Óðrerir has come up now, into the earth's holy place of men.",
+   "n": "Almost nothing in this stanza is secure. litr 'hue, shape' is usually taken as the shape-changing — Óðinn got in as a snake — and vel keypts 'well bought' is then a bitter joke two stanzas after ill iðgiǫld; but Neckel's apparatus records rival readings for the word itself (Vélkeypts from the Corpus Poeticum Boreale, líðar 'of the drink' from Hildebrand, hlutar from Finnur Jónsson), and líðar would give a wholly different sense. The last line is worse: as Neckel prints it, á governs three genitives in a row and no accusative or dative, which is why five editors — Bugge, Grundtvig, Hildebrand, Finnur Jónsson and Gering — each redistribute the same handful of words differently. The rendering here is a construal of an unconstruable line, offered because something has to stand there. Óðrerir is the mead, or the vessel that holds it — the sources disagree — and the name means something like 'stirrer of the spirit'."
+  },
+  {
+   "p": true,
+   "v": true,
+   "ln": 108,
+   "t": "Ifi er mér á,\nat ek væra enn kominn\niǫtna gǫrðom ór,\nef ek Gunnlaðar ne nytak,\ninnar góðo kono,\nþeirar er lǫgðomk arm yfir.",
+   "l": "Doubt is upon me\nthat I would ever have come\nout of the giants' courts,\nif I had not had Gunnlǫð,\nthe good woman,\nwho laid her arm over me.",
+   "i": "I doubt I would ever have got out of the giants' courts if I had not had Gunnlǫð, that good woman, who laid her arm across me.",
+   "n": "An admission — and the second time in eight stanzas that a woman he has wronged is called in góða kona. lǫgðomk is the -mk middle again, 'laid over me'. ne is the older negative particle (as at st. 93), and nytak is nióta 'to have the use of' in the preterite subjunctive with the enclitic -k 'I': the whole sentence is a past counterfactual. enn is 'ever, still', not 'back'. This is as close as the poem comes to gratitude, and two stanzas later the affair is called an oath-breaking."
+  },
+  {
+   "p": true,
+   "v": true,
+   "ln": 109,
+   "t": "Ins hindra dags\ngengo hrímþursar\nHáva ráðs at fregna\nHáva hǫllo í:\nat Bǫlverki þeir spurðo,\nef hann væri með bǫndom kominn\neða hefði hánom Suttungr of sóit.",
+   "l": "On the next day\nthe frost-giants went\nto ask the High One for counsel\nin the High One's hall:\nafter Bǫlverkr they asked,\nwhether he had come among the gods\nor whether Suttungr had made away with him.",
+   "i": "Next day the frost-giants went to ask the High One for counsel, in the High One's hall: they asked after Bǫlverkr — whether he had got back among the gods, or whether Suttungr had destroyed him.",
+   "n": "The joke is structural. The frost-giants come to Hávi, the High One, to ask what became of Bǫlverkr — and Bǫlverkr, 'Evil-worker', is the name Óðinn used for the theft. They are asking the thief where the thief went. The weak forms of Hávi are identical in the genitive and accusative, so Háva ráðs at fregna is either 'to ask the High One for counsel' (fregna takes the person in the accusative and the matter in the genitive) or 'to ask after the High One's counsel'; we take the first. bǫnd, literally 'the bonds', is a poetic word for the gods; sóa is 'to sacrifice, to make away with'. In the Codex Regius the last word stands as sóitt, itself corrected from sótt; Neckel prints sóit, and does not say whose hand made the correction. Háva in two successive lines is the poem's own title: Hávamál, 'the sayings of the High One'. Seven lines."
+  },
+  {
+   "p": true,
+   "v": true,
+   "ln": 110,
+   "t": "Baugeið Óðinn\nhygg ek at unnit hafi:\nhvat skal hans tryggðom trúa?\nSuttung svikinn\nhann lét sumbli frá\nok grœtta Gunnlǫðo.",
+   "l": "A ring-oath Óðinn,\nI think, has sworn:\nhow shall his pledges be trusted?\nSuttungr cheated\nhe let go from the ale-feast\nand Gunnlǫð in tears.",
+   "i": "Óðinn, I think, has sworn an oath on the ring — how is anyone to trust his pledges? He left Suttungr cheated of the drink, and Gunnlǫð weeping.",
+   "n": "The last stanza before the break Neckel prints, and the voice changes: someone else is speaking now, and it is an accusation. A baugeiðr was sworn on the sacred arm-ring kept on the altar, the most binding oath there was, and the stanza says the god who swore it broke it. The poem does not answer the charge — it lets it stand and turns to the Loddfáfnir counsels. Both objects in the last two lines are past participles agreeing with their nouns, Suttung svikinn 'Suttungr cheated' and Gunnlǫðo grœtta 'Gunnlǫð made to weep', setting the two of them side by side as the two things he did."
   }
  ]
 }

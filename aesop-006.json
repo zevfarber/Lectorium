@@ -1,0 +1,66 @@
+{
+ "id": "aesop-006",
+ "title": "Ἀετὸς ⟨τὰ πτερὰ τιλθείς⟩ καὶ ἀλώπηξ",
+ "titleEn": "The Eagle with Clipped Wings and the Fox",
+ "work": "Αἰσώπου Μῦθοι",
+ "workEn": "Aesop's Fables",
+ "part": "The Eagle with Clipped Wings and the Fox (Chambry 6 · Perry 6)",
+ "language": "Ancient Greek",
+ "langCode": null,
+ "source": "Émile Chambry, Ésope: Fables, texte établi et traduit (Les Belles Lettres, Paris, 1927), fable 6 (= Perry 6). Text as printed, including Chambry's editorial punctuation (« », ⟨ ⟩ for editorial supplements). Pronunciation: reconstructed Attic, after W. S. Allen, Vox Graeca. Romanization: standard classical transliteration (ē/ō; th/ph/ch; y for υ, u in diphthongs; h = rough breathing; ēi/āi/ōi for iota subscript; accents omitted).",
+ "trStyle": "line",
+ "glossaryFile": "aesop-glossary.json",
+ "script": "greek",
+ "sentences": [
+  {
+   "t": "Ποτὲ ἀετὸς ἑάλω ὑπ’ ἀνθρώπου.",
+   "tr": "Pote aetos healō hyp’ anthrōpou.",
+   "l": "Once an eagle was caught by a man.",
+   "n": "ἑάλω is the aorist of ἁλίσκομαι, “be taken, be captured” — a verb with active endings but passive sense, which serves as the passive of αἱρέω “catch.” ὑπό with the genitive names the agent.",
+   "p": true
+  },
+  {
+   "t": "Τούτου δὲ τὰ πτερὰ ὁ ἄνθρωπος κόψας ἀφῆκε μετὰ τῶν ὀρνίθων ἐν οἴκῳ εἶναι.",
+   "tr": "Toutou de ta ptera ho anthrōpos kopsas aphēke meta tōn ornithōn en oikōi einai.",
+   "l": "And his wings the man, having cut them, let him be with the birds in a house.",
+   "i": "The man clipped his wings and let him live indoors among the poultry.",
+   "n": "The aorist participle κόψας reports what happened first, the main verb ἀφῆκε what followed: participle-then-verb is the engine of every one of these fables, and you will see it constantly. ὄρνις is any bird, but with a house it means the birds of the yard — the poultry."
+  },
+  {
+   "t": "Ὁ δὲ ἦν κατηφὴς καὶ οὐδὲν ἤσθιεν ἐκ τῆς λύπης, ὅμοιος δὲ ἦν βασιλεῖ δεσμώτῃ.",
+   "tr": "Ho de ēn katēphēs kai ouden ēsthien ek tēs lypēs, homoios de ēn basilei desmōtēi.",
+   "l": "And he was downcast and was eating nothing out of grief, and he was like to a king, a prisoner.",
+   "i": "He was dejected and would eat nothing for grief; he was like a king made prisoner.",
+   "n": "Ὁ δέ — the bare article used as a pronoun, “and he” — is how this prose swings the subject back to the other party; it is everywhere. ὅμοιος takes the dative: βασιλεῖ δεσμώτῃ, “like to a king who is a prisoner.”"
+  },
+  {
+   "t": "Ἕτερος δέ τις τοῦτον ὠνησάμενος καὶ τὰ πτερὰ ἀνασπάσας καὶ μύρῳ χρίσας ἐποίησε πτερῶσαι.",
+   "tr": "Heteros de tis touton ōnēsamenos kai ta ptera anaspasas kai myrōi chrisas epoiēse pterōsai.",
+   "l": "But some other man, having bought him and having plucked out the feathers and having anointed him with perfumed oil, made him grow-feathers.",
+   "i": "Another man bought him, pulled out the clipped feathers, rubbed him with scented oil, and made his feathers grow again.",
+   "n": "Three aorist participles in a row and then a single main verb — the chain at full stretch. μύρον is perfumed oil, an ordinary article of the household, used as much for salve as for scent. ἐποίησε πτερῶσαι: “caused (him) to feather,” the infinitive completing the causative verb. The active πτερῶσαι where one would expect the passive (“to be feathered”) is unusual, and the exact force is a guess."
+  },
+  {
+   "t": "Ὁ δὲ πετασθεὶς καὶ τοῖς ὄνυξι λαγωὸν ἁρπάσας ἤνεγκεν αὐτῷ δῶρον.",
+   "tr": "Ho de petastheis kai tois onyxi lagōon harpasas ēnenken autōi dōron.",
+   "l": "And he, having taken wing and having snatched a hare with his talons, brought it to him as a gift.",
+   "i": "He took wing, seized a hare in his talons, and brought it to the man as a gift.",
+   "n": "πετασθείς is passive in form but active in sense, “having taken flight” — Greek uses passive-looking aorists for many verbs of motion and feeling. δῶρον stands in apposition: he brought it, a gift."
+  },
+  {
+   "t": "Ἀλώπηξ δὲ ἰδοῦσα εἶπεν· « Μὴ τούτῳ δίδου, ἀλλὰ τῷ πρώτῳ, ὅτι ὁ μὲν φύσει ἀγαθός ἐστι· ἐκεῖνον δὲ μᾶλλον ἐξευμενίζου, μή πως πάλιν λαβών σε τὸ πτερὸν ἐρημώσῃ. »",
+   "tr": "Alōpēx de idousa eipen: « Mē toutōi didou, alla tōi prōtōi, hoti ho men physei agathos esti: ekeinon de mallon exeumenizou, mē pōs palin labōn se to pteron erēmōsēi. »",
+   "l": "And a fox, having seen it, said: « Do not give to this one, but to the first, since this one is good by nature; that other one rather placate, lest somehow, taking you again, he strip you of your feathers. »",
+   "i": "A fox saw it and said, « Do not give to this man, but to the first: this one is decent by nature. Win over the first man instead, in case he takes you again and strips you of your feathers. »",
+   "n": "δίδου and ἐξευμενίζου are present imperatives, the second middle — “make him gracious to yourself.” φύσει is a dative of respect, “in nature, by nature.” μή πως with the subjunctive (ἐρημώσῃ) expresses a fear or precaution: “lest somehow he…” The guillemets « » and the raised dot are Chambry's punctuation, kept as printed."
+  },
+  {
+   "t": "Ὅτι δεῖ χρηστὰς ἀμοιβὰς τοῖς εὐεργέταις παρέχειν, τοὺς πονηροὺς δὲ φρονίμως τροποῦσθαι.",
+   "tr": "Hoti dei chrēstas amoibas tois euergetais parechein, tous ponērous de phronimōs tropousthai.",
+   "l": "That one must render good returns to benefactors, and prudently put the wicked to rout.",
+   "i": "Make good return to your benefactors, and prudently drive off the wicked.",
+   "n": "The moral opens with a bare Ὅτι, “that…”, as though completing an unwritten “the story shows”; the collection uses this shorthand often. τροποῦσθαι is the middle of the rare verb τροπόω, “put to flight, rout.” What routing the wicked amounts to here is left unsaid, and any fuller English is a guess.",
+   "p": true
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "id": "aesop-016",
+ "title": "Αἴξ καὶ ὄνος",
+ "titleEn": "The Goat and the Donkey",
+ "work": "Αἰσώπου Μῦθοι",
+ "workEn": "Aesop's Fables",
+ "part": "The Goat and the Donkey (Chambry 16)",
+ "language": "Ancient Greek",
+ "langCode": null,
+ "source": "Émile Chambry, Ésope: Fables, texte établi et traduit (Les Belles Lettres, Paris, 1927), fable 16. Text as printed, including Chambry's editorial punctuation (« », ⟨ ⟩ for editorial supplements). Pronunciation: reconstructed Attic, after W. S. Allen, Vox Graeca. Romanization: standard classical transliteration (ē/ō; th/ph/ch; y for υ, u in diphthongs; h = rough breathing; ēi/āi/ōi for iota subscript; accents omitted).",
+ "trStyle": "line",
+ "glossaryFile": "aesop-glossary.json",
+ "script": "greek",
+ "sentences": [
+  {
+   "t": "Αἶγα καὶ ὄνον ἔτρεφέ τις.",
+   "tr": "Aiga kai onon etrephe tis.",
+   "l": "A goat and a donkey someone was keeping.",
+   "i": "A man kept a goat and a donkey.",
+   "n": "τις, “someone, a certain man”, is an enclitic and cannot stand first in its clause, so Greek puts the two objects up front and the owner last. He is given no name, only a role: he returns later as ὁ δεσπότης, “the master”.",
+   "p": true
+  },
+  {
+   "t": "Ἡ δὲ αἴξ, φθονήσασα τῷ ὄνῳ διὰ τὸ περισσὸν τῆς τροφῆς, ἔλεγεν ὡς ἄπειρα κολάζῃ, ποτὲ μὲν ἀλήθων, ποτὲ δὲ ἀχθοφορῶν, καὶ συνεβούλευεν ἐπίληπτον ἑαυτὸν ποιήσαντα καταπεσεῖν ἔν τινι βόθρῳ καὶ ἀναπαύσεως τυχεῖν.",
+   "tr": "Hē de aix, phthonēsasa tōi onōi dia to perisson tēs trophēs, elegen hōs apeira kolazēi, pote men alēthōn, pote de achthophorōn, kai synebouleuen epilēpton heauton poiēsanta katapesein en tini bothrōi kai anapauseōs tychein.",
+   "l": "And the goat, having envied the donkey because of the abundance of his feed, kept saying that he was punished beyond measure, now grinding at the mill, now carrying loads, and advised him, having made himself epileptic, to fall down into some pit and to obtain rest.",
+   "i": "But the goat, grudging the donkey his larger ration, kept telling him he was worked past all bearing — now at the mill, now under a load — and advised him to throw a fit, tumble into a pit and so get some rest.",
+   "n": "κολάζῃ is second person: the goat is speaking to the donkey, and Greek keeps the “you” of the original words inside the reported speech where English shifts to “he”. The nominative participles ἀλήθων and ἀχθοφορῶν describe that “you”. ποτὲ μέν… ποτὲ δέ… is “at one time… at another…”, the two halves of a donkey's working life: turning the mill-stone and carrying burdens. ἐπίληπτος is “seized”, of the falling sickness."
+  },
+  {
+   "t": "Ὁ δὲ πιστεύσας καὶ πεσὼν συνετρίβη.",
+   "tr": "Ho de pisteusas kai pesōn synetribē.",
+   "l": "And he, having believed and having fallen, was crushed.",
+   "i": "He believed her, fell, and was broken to pieces.",
+   "n": "The engine of these fables in one short sentence: two aorist participles for what led up to it, one aorist indicative for the disaster. συνετρίβη is passive — nothing did it to him but the fall."
+  },
+  {
+   "t": "Ὁ δὲ δεσπότης τὸν ἰατρὸν καλέσας ᾔτει βοηθεῖν.",
+   "tr": "Ho de despotēs ton iatron kalesas ēitei boēthein.",
+   "l": "And the master, having called the doctor, asked him to help."
+  },
+  {
+   "t": "Ὁ δὲ αἰγὸς πνεύμονα ἐγχυματίσαι ἔλεγεν αὐτῷ καὶ τῆς ὑγείας τυχεῖν.",
+   "tr": "Ho de aigos pneumona enchymatisai elegen autōi kai tēs hygeias tychein.",
+   "l": "And he told him to pour in a goat's lung as a draught and (so) to obtain health.",
+   "i": "The doctor told him to drench the animal with a goat's lung, and it would recover.",
+   "n": "ἐγχυματίζω is a rare medical verb, “administer by pouring in” — the ancient veterinary drench; the exact procedure is a guess from the word's parts (ἐν + χυμός, “juice”). ἔλεγεν with an infinitive is “told him to…”, a command rather than a report. τυγχάνω takes the genitive of what one obtains (τῆς ὑγείας, ἀναπαύσεως above)."
+  },
+  {
+   "t": "Τὴν δὲ αἶγα θύσαντες τὸν ὄνον ἰάτρευον.",
+   "tr": "Tēn de aiga thysantes ton onon iatreuon.",
+   "l": "And having sacrificed the goat, they treated the donkey.",
+   "i": "So they slaughtered the goat and dosed the donkey with it.",
+   "n": "θύω covers both religious sacrifice and plain butchering; here it is the killing that supplies the medicine. The plural verbs (“they”) take in the master, the doctor and whatever household hands did the work — Greek is content to leave the agent vague."
+  },
+  {
+   "t": "Ὅτι ὅστις καθ’ ἑτέρου δόλια μηχανᾶται ἑαυτοῦ γίνεται τῶν κακῶν ἀρχηγός.",
+   "tr": "Hoti hostis kath’ heterou dolia mēchanatai heautou ginetai tōn kakōn archēgos.",
+   "l": "That whoever contrives treacherous things against another becomes the author of his own troubles.",
+   "n": "The moral opens with a bare Ὅτι, “that…”, hanging on an unspoken “the story shows…” — a shorthand this collection uses often, and the reason the English begins mid-sentence. κατά with the genitive is “against”. ἀρχηγός is the one who begins a thing and so is answerable for it.",
+   "p": true
+  }
+ ]
+}

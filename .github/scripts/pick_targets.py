@@ -13,7 +13,7 @@ Writes `ids=<space separated>` to $GITHUB_OUTPUT.
 """
 import json, os, subprocess
 
-VOICE_LANGS = {"de-DE", "fr-FR"}          # keep in sync with build_audio.py VOICES
+VOICE_LANGS = {"de-DE", "fr-FR", "zh-CN"}   # keep in sync with build_audio.py VOICES
 
 
 def story_id(path):

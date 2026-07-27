@@ -111,6 +111,9 @@
   .de .w:hover { background: var(--accent-soft); }
   .de .w.wsel { background: var(--accent); color: #fff; }
   .de .w.wnow { background: var(--accent); color: #fff; }
+  /* karaoke highlight on a words-model unit (the whole stack lights, glyph + transcription) */
+  .word.wnow { background: var(--accent); }
+  .word.wnow .gl, .word.wnow .tr, .word.wnow .wordsay { color: #fff; }
 
   /* romanization LINE for alphabetic non-Latin scripts (Cyrillic; later Greek, Hebrew).
      Unlike the glyph-stack .tr, this sits under the whole original line; the original
@@ -3381,7 +3384,7 @@ function getAudio(){
 }
 /* ---- word highlight + click-to-seek (uses align.json word timings) ---- */
 function clearHighlight(){
-  document.querySelectorAll('.w.wnow').forEach(el => el.classList.remove('wnow'));
+  document.querySelectorAll('.w.wnow, .word.wnow').forEach(el => el.classList.remove('wnow'));
   hlWi = -1;
 }
 function highlightAt(i, t){
@@ -3391,7 +3394,10 @@ function highlightAt(i, t){
   for (let k = 0; k < arr.length; k++){ if (arr[k] && arr[k][0] <= t + 0.03) wi = k; else break; }
   if (wi === hlWi) return;
   clearHighlight();
-  if (wi >= 0){ const el = sentEl(i); const span = el && el.querySelector('.w[data-wi="' + wi + '"]'); if (span) span.classList.add('wnow'); }
+  if (wi >= 0){ const el = sentEl(i);
+    /* .w = Latin/alphabetic tokens; .word = words-model units (Han, hieroglyphs, cuneiform) */
+    const span = el && el.querySelector('.w[data-wi="' + wi + '"], .word[data-wi="' + wi + '"]');
+    if (span) span.classList.add('wnow'); }
   hlWi = wi;
 }
 function seekToWord(i, wi){
@@ -3532,7 +3538,10 @@ $('text').addEventListener('click', (ev) => {
   if (wordEl && sent) {
     const i = +sent.dataset.i;
     const st = ev.target.closest('.stack');
-    if (st && st.dataset.role === 'det') showSignPop(st);   // determinative → its sign-reference entry
+    if (story.audio && speakingIdx === i && audioEl && !audioEl.paused && wordEl.dataset.wi !== undefined) {
+      seekToWord(i, +wordEl.dataset.wi);                     // while reading: tap a word to jump there
+    }
+    else if (st && st.dataset.role === 'det') showSignPop(st);   // determinative → its sign-reference entry
     else showWordPop(wordEl);                                // sound signs → the word + morpheme breakdown
     focusSent(i, false);
     ev.stopPropagation(); return;

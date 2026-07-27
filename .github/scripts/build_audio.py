@@ -22,7 +22,40 @@ import base64, json, os, subprocess, sys, time, urllib.request, urllib.error
 VOICES = {
     "de-DE": {"name": "de-DE-Chirp-HD-F", "lang": "de-DE", "espeak": "de"},
     "fr-FR": {"name": "fr-FR-Chirp-HD-F", "lang": "fr-FR", "espeak": "fr"},
+    # Classical Chinese is READ in modern Mandarin (the stated convention), so a real
+    # voice exists. name=None => resolve once from the live voice list, then PIN the
+    # chosen name here (one voice per language, forever).
+    "zh-CN": {"name": None, "lang": "cmn-CN", "espeak": "cmn"},
 }
+
+VOICES_URL = "https://texttospeech.googleapis.com/v1/voices"
+
+
+def resolve_voice(cfg, key):
+    """Return the pinned voice name, or deterministically choose the best available one.
+
+    Only runs for a language with no pinned name yet. Preference is by quality tier then
+    alphabetical, so the same catalogue always yields the same answer. The chosen name is
+    written to audio/<id>/voice.txt so it can be read back and pinned here.
+    """
+    if cfg.get("name"):
+        return cfg["name"]
+    url = "%s?languageCode=%s&key=%s" % (VOICES_URL, cfg["lang"], key)
+    with urllib.request.urlopen(url, timeout=60) as r:
+        voices = json.load(r).get("voices", [])
+    if not voices:
+        raise SystemExit("No TTS voices offered for %s" % cfg["lang"])
+
+    def tier(n):
+        for i, mark in enumerate(("Chirp3-HD", "Chirp-HD", "Neural2", "Wavenet", "Standard")):
+            if mark in n:
+                return i
+        return 9
+
+    pool = [v["name"] for v in voices if v.get("ssmlGender") == "FEMALE"] or [v["name"] for v in voices]
+    chosen = sorted(pool, key=lambda n: (tier(n), n))[0]
+    print("resolved voice for %s: %s (%d offered)" % (cfg["lang"], chosen, len(voices)))
+    return chosen
 
 TTS_URL = "https://texttospeech.googleapis.com/v1/text:synthesize"
 
@@ -72,11 +105,18 @@ def main():
     lc = story.get("langCode")
     if lc not in VOICES:
         raise SystemExit("No voice configured for langCode %r (story %s)" % (lc, sid))
-    cfg = VOICES[lc]
+    cfg = dict(VOICES[lc])
     key = os.environ["GOOGLE_TTS_KEY"]
 
     adir = "audio/" + sid
     os.makedirs(adir, exist_ok=True)
+
+    # an already-resolved voice sticks (idempotent re-runs must never drift)
+    vf = adir + "/voice.txt"
+    if not cfg.get("name") and os.path.exists(vf):
+        cfg["name"] = open(vf, encoding="utf-8").read().strip() or None
+    cfg["name"] = resolve_voice(cfg, key)
+    open(vf, "w", encoding="utf-8").write(cfg["name"] + "\n")
 
     made = 0
     for i, s in enumerate(story["sentences"]):

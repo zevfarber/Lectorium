@@ -30,8 +30,21 @@ def mfcc(y):
     m=librosa.feature.mfcc(y=y,sr=SR,n_mfcc=13,hop_length=HOP,n_fft=400)
     return np.vstack([m,librosa.feature.delta(m)])
 
-def align_sentence(mp3,text):
-    toks=WORD_RE.findall(text); y=load(mp3); D=len(y)/SR
+def sent_tokens(s):
+    """One token per unit the reader can highlight and seek to.
+
+    Words-model stories (Han, hieroglyphs, cuneiform) carry an explicit `words` array, and
+    their .word[data-wi] indices are positions in THAT array, not WORD_RE matches — so the
+    timings must be built from it or karaoke lands on the wrong unit. Punctuation glyphs are
+    dropped: written, but not spoken.
+    """
+    if s.get("words"):
+        return ["".join(g.get("s","") for g in w.get("glyphs",[]) if g.get("role") != "punct")
+                for w in s["words"]]
+    return WORD_RE.findall(s["t"])
+
+def align_sentence(mp3,toks):
+    y=load(mp3); D=len(y)/SR
     if not toks: return [],D
     parts=[]; bounds=[]; cur=0; gap=np.zeros(int(0.03*SR))
     for w in toks:
@@ -59,8 +72,8 @@ def main():
     story=json.load(open(sid+".json",encoding="utf-8"))
     out={}; bad=[]
     for i,s in enumerate(story["sentences"]):
-        toks=WORD_RE.findall(s["t"])
-        try: arr,_=align_sentence("%s/%d.mp3"%(adir,i),s["t"])
+        toks=sent_tokens(s)
+        try: arr,_=align_sentence("%s/%d.mp3"%(adir,i),toks)
         except Exception as e: arr=[]; bad.append((i,str(e)))
         if len(arr)!=len(toks): bad.append((i,"len %d!=tok %d"%(len(arr),len(toks))))
         out[str(i)]=arr

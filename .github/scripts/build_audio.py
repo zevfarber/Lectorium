@@ -23,9 +23,8 @@ VOICES = {
     "de-DE": {"name": "de-DE-Chirp-HD-F", "lang": "de-DE", "espeak": "de"},
     "fr-FR": {"name": "fr-FR-Chirp-HD-F", "lang": "fr-FR", "espeak": "fr"},
     # Classical Chinese is READ in modern Mandarin (the stated convention), so a real
-    # voice exists. name=None => resolve once from the live voice list, then PIN the
-    # chosen name here (one voice per language, forever).
-    "zh-CN": {"name": None, "lang": "cmn-CN", "espeak": "cmn"},
+    # voice exists. Resolved once on 2026-07-27 and now PINNED, like German and French.
+    "zh-CN": {"name": "cmn-CN-Chirp3-HD-Achernar", "lang": "cmn-CN", "espeak": "cmn"},
 }
 
 VOICES_URL = "https://texttospeech.googleapis.com/v1/voices"

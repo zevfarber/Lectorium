@@ -213,6 +213,14 @@
   .gl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Segoe UI Historic', 'Noto Sans Cuneiform', Georgia, 'Noto Serif', serif; font-size: 1.95rem; line-height: 1.05; }
   /* cuneiform signs vary in height (numerals span two registers); relax the tight line-height so tall signs don't collide with the transcription below */
   body[data-script="cuneiform"] .gl, body[data-script="cuneiform"] .qgl { line-height: 1.75; }
+  /* Han script: a CJK serif, a shade larger than the Latin body, with room for the pinyin row.
+     Georgia has no Han coverage, so the CJK families must come first. */
+  body[data-script="chinese"] .gl, body[data-script="chinese"] .qgl {
+    font-family: 'Noto Serif TC', 'Noto Serif CJK TC', 'Source Han Serif TC', 'Songti TC', 'SimSun', 'MS Mincho', serif;
+    font-size: 2.15rem; line-height: 1.2; }
+  body[data-script="chinese"] .tr { font-size: .76rem; letter-spacing: 0; }
+  body[data-script="chinese"] .stack.punct .gl { font-size: 1.5rem; }
+  body[data-script="chinese"] .de.words { gap: 10px 6px; }
   /* Ancient Greek (polytonic): Georgia renders the varia (grave) series U+1F70–1F7D with a detached
      accent; Palatino Linotype / Cambria carry full correctly-composed polytonic. Scoped to Greek stories. */
   body[data-script="greek"] .de, body[data-script="greek"] .note, body[data-script="greek"] .en,
@@ -241,6 +249,8 @@
   .sent.rubric .gl, .sent.rubric .tr { color: #b3552f; }
   /* ---- per-glyph interlinear (words model): words stay bound, each glyph keeps its own transcription ---- */
   .de.words { white-space: normal; display: flex; flex-wrap: wrap; align-items: flex-end; gap: 8px 16px; }
+  /* a verse line break inside a words-model sentence: zero-height full-width flex item */
+  .wbr { flex-basis: 100%; height: 0; margin: 0; }
   .word { display: inline-flex; align-items: flex-end; gap: 3px; white-space: nowrap; padding: 2px 5px; border-radius: 7px; cursor: pointer; }
   .word:hover { background: var(--accent-soft); }
   .word.wsel { background: var(--focus-bg); box-shadow: 0 0 0 2px var(--accent); }
@@ -488,7 +498,10 @@ function speak(txt, rate, onEnd){
 
 /* ---------- rendering ---------- */
 const WORD_CLASS = 'A-Za-zÀ-ÖØ-öø-ÿ\\u0100-\\u024FΆ-ϿЀ-ӿ\\u1F00-\\u1FFF';
-const WORD_RE = new RegExp('[' + WORD_CLASS + ']+(?:[-\\[\\]()][' + WORD_CLASS + ']+)*', 'g');
+/* Han characters: no spaces are written, and in Classical Chinese the character IS the word,
+   so each one tokenizes on its own (a run must NOT collapse into a single token). */
+const HAN_CLASS = '\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uF900-\\uFAFF';
+const WORD_RE = new RegExp('[' + HAN_CLASS + ']|[' + WORD_CLASS + ']+(?:[-\\[\\]()][' + WORD_CLASS + ']+)*', 'g');
 // glossary key for a token: editorial brackets/parens stripped, lowercased (eorl[as] → eorlas)
 function wordKey(w){ return w.replace(/[\[\]()]/g, '').toLowerCase(); }
 
@@ -2977,6 +2990,7 @@ function buildGlyphLinear(s, readable){
   const sg = signGlossaryFor(story) || {};
   let out = '';
   (s.words || []).forEach((w, wi) => {
+    if (w.br) out += '<span class="wbr"></span>';   // verse line break (v: true texts)
     if (w.nl) out += LBRK;
     if (readable) { out += buildWordReadable(w, wi); return; }
     let inner = '';

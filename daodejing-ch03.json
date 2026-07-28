@@ -572,27 +572,13 @@
    "t": "是以聖人之治，\n虛其心，\n實其腹，",
    "words": [
     {
-     "reading": "是 shì",
+     "reading": "是以 shì yǐ",
      "glyphs": [
       {
        "s": "是",
        "tr": "shì",
        "role": "phon"
-      }
-     ],
-     "morph": [
-      {
-       "lemma": "是",
-       "gloss": "this",
-       "g": [
-        0
-       ]
-      }
-     ]
-    },
-    {
-     "reading": "以 yǐ",
-     "glyphs": [
+      },
       {
        "s": "以",
        "tr": "yǐ",
@@ -601,10 +587,25 @@
      ],
      "morph": [
       {
-       "lemma": "以",
-       "gloss": "by reason of",
+       "lemma": "是以",
+       "gloss": "therefore, and so — a fixed connective; 是 'this' + 以 'by means of' fused into a conjunction that neither half gives you on its own",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "是",
+       "gloss": "this",
        "g": [
         0
+       ]
+      },
+      {
+       "lemma": "以",
+       "gloss": "by means of, thereby",
+       "g": [
+        1
        ]
       }
      ]

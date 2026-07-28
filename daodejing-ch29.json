@@ -332,27 +332,13 @@
      "br": true
     },
     {
-     "reading": "神 shén",
+     "reading": "神器 shén qì",
      "glyphs": [
       {
        "s": "神",
        "tr": "shén",
        "role": "phon"
-      }
-     ],
-     "morph": [
-      {
-       "lemma": "神",
-       "gloss": "spirit, the numinous — here as a modifier: spirit-like, not a thing to be handled",
-       "g": [
-        0
-       ]
-      }
-     ]
-    },
-    {
-     "reading": "器 qì",
-     "glyphs": [
+      },
       {
        "s": "器",
        "tr": "qì",
@@ -366,10 +352,25 @@
      ],
      "morph": [
       {
-       "lemma": "器",
-       "gloss": "a vessel, an implement — a thing made and shaped for use",
+       "lemma": "神器",
+       "gloss": "the sacred vessel — a standing term for sovereign power, and one Wang Bi names outright (故謂之神器也)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "神",
+       "gloss": "divine, numinous, spirit",
        "g": [
         0
+       ]
+      },
+      {
+       "lemma": "器",
+       "gloss": "a vessel, an implement",
+       "g": [
+        1
        ]
       }
      ]

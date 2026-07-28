@@ -47,6 +47,40 @@ def changed_root_jsons():
     return [f for f in out.split() if "/" not in f and f.endswith(".json")]
 
 
+def stale_alignment():
+    """Story ids whose shipped align.json no longer has one timing per words-model unit.
+
+    Word counts change without any character changing — binding two characters into one
+    tap-unit is invisible to every text-level check — so alignment has to be verified against
+    the story itself, not inferred from a diff.
+    """
+    out = []
+    for f in os.listdir("."):
+        if "/" in f or not f.endswith(".json"):
+            continue
+        sid = story_id(f)
+        if not sid:
+            continue
+        ap = os.path.join("audio", sid, "align.json")
+        if not os.path.exists(ap):
+            continue
+        try:
+            story = json.load(open(f, encoding="utf-8"))
+            al = json.load(open(ap, encoding="utf-8"))
+        except Exception:
+            continue
+        for i, s in enumerate(story["sentences"]):
+            want = len(s["words"]) if s.get("words") else None
+            if want is None:
+                continue
+            if len(al.get(str(i), [])) != want:
+                print("stale alignment: %s sentence %d has %d timings for %d units"
+                      % (sid, i, len(al.get(str(i), [])), want))
+                out.append(sid)
+                break
+    return out
+
+
 def main():
     ids = []
     dispatch = os.environ.get("DISPATCH_ID", "").strip()
@@ -63,6 +97,7 @@ def main():
                 sid = story_id(f)
                 if sid:
                     ids.append(sid)
+        ids.extend(stale_alignment())
 
     ids = sorted(set(ids))
     gh_out = os.environ.get("GITHUB_OUTPUT")

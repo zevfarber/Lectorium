@@ -128,6 +128,12 @@ def main():
             prev_texts = json.load(open(tf, encoding="utf-8"))
         except Exception:
             prev_texts = {}
+    else:
+        # Clips that predate this cache are grandfathered in: record what they say now rather
+        # than resynthesizing a whole corpus to establish a baseline we already trust.
+        prev_texts = {str(i): s["t"].replace("\n", " ").strip()
+                      for i, s in enumerate(story["sentences"])
+                      if os.path.exists("%s/%d.mp3" % (adir, i))}
 
     made = restaled = 0
     texts = {}

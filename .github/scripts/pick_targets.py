@@ -47,6 +47,13 @@ def changed_root_jsons():
     return [f for f in out.split() if "/" not in f and f.endswith(".json")]
 
 
+# Backfilling a missing baseline re-runs alignment for the whole story, which is expensive.
+# Every story in the library lacks one right now, so an uncapped sweep would try to re-align the
+# entire corpus in a single job. Backfill a few per run instead: it converges over a handful of
+# pushes and no run is ever large.
+BASELINE_BACKFILL_PER_RUN = 4
+
+
 def stale_alignment():
     """Story ids whose shipped align.json no longer has one timing per words-model unit.
 
@@ -54,8 +61,8 @@ def stale_alignment():
     tap-unit is invisible to every text-level check — so alignment has to be verified against
     the story itself, not inferred from a diff.
     """
-    out = []
-    for f in os.listdir("."):
+    out, baseline = [], []
+    for f in sorted(os.listdir(".")):
         if "/" in f or not f.endswith(".json"):
             continue
         sid = story_id(f)
@@ -70,8 +77,7 @@ def stale_alignment():
         # a line, the grandfathering in build_audio would record the NEW text against the OLD clip
         # and the correction would silently never be spoken.
         if not os.path.exists(os.path.join(adir, "texts.json")):
-            print("no audio text baseline yet: %s" % sid)
-            out.append(sid)
+            baseline.append(sid)
             continue
         try:
             story = json.load(open(f, encoding="utf-8"))
@@ -87,7 +93,13 @@ def stale_alignment():
                       % (sid, i, len(al.get(str(i), [])), want))
                 out.append(sid)
                 break
-    return out
+
+    # stale alignment is a live defect and always runs; baselines are housekeeping and are rationed
+    take = baseline[:BASELINE_BACKFILL_PER_RUN]
+    if baseline:
+        print("audio text baseline missing for %d story/ies; backfilling %d this run: %s"
+              % (len(baseline), len(take), " ".join(take)))
+    return out + take
 
 
 def main():

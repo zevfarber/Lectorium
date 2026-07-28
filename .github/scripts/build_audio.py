@@ -117,16 +117,36 @@ def main():
     cfg["name"] = resolve_voice(cfg, key)
     open(vf, "w", encoding="utf-8").write(cfg["name"] + "\n")
 
-    made = 0
+    # Clips are cached by TEXT, not merely by existence. Skipping on existence alone means a
+    # corrected sentence keeps its old recording forever — and when the correction does not change
+    # the word count (e.g. swapping 愛國治民 -> 愛民治國) the aligner still reports a clean match, so
+    # nothing anywhere reveals that the voice is reading the superseded text.
+    tf = adir + "/texts.json"
+    prev_texts = {}
+    if os.path.exists(tf):
+        try:
+            prev_texts = json.load(open(tf, encoding="utf-8"))
+        except Exception:
+            prev_texts = {}
+
+    made = restaled = 0
+    texts = {}
     for i, s in enumerate(story["sentences"]):
         path = "%s/%d.mp3" % (adir, i)
-        if os.path.exists(path) and os.path.getsize(path) > 0:
-            continue
         text = s["t"].replace("\n", " ").strip()
+        texts[str(i)] = text
+        fresh = os.path.exists(path) and os.path.getsize(path) > 0
+        if fresh and prev_texts.get(str(i)) == text:
+            continue
+        if fresh:
+            restaled += 1
+            print("  text changed for sentence %d — resynthesizing" % i)
         open(path, "wb").write(synth_with_retry(text, cfg, key))
         made += 1
         time.sleep(THROTTLE_S)
-    print("synth: %d new clip(s) of %d total for %s" % (made, len(story["sentences"]), sid))
+    json.dump(texts, open(tf, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print("synth: %d clip(s) written (%d of them stale text) of %d total for %s"
+          % (made, restaled, len(story["sentences"]), sid))
 
     env = dict(os.environ)
     env["ESPEAK_VOICE"] = cfg["espeak"]

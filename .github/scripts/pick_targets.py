@@ -61,8 +61,17 @@ def stale_alignment():
         sid = story_id(f)
         if not sid:
             continue
-        ap = os.path.join("audio", sid, "align.json")
+        adir = os.path.join("audio", sid)
+        ap = os.path.join(adir, "align.json")
         if not os.path.exists(ap):
+            continue
+        # No texts.json means this story predates the text-cache and has no baseline. Establish
+        # one NOW, while its clips and text are known to agree. If we wait until someone corrects
+        # a line, the grandfathering in build_audio would record the NEW text against the OLD clip
+        # and the correction would silently never be spoken.
+        if not os.path.exists(os.path.join(adir, "texts.json")):
+            print("no audio text baseline yet: %s" % sid)
+            out.append(sid)
             continue
         try:
             story = json.load(open(f, encoding="utf-8"))

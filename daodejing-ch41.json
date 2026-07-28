@@ -14,27 +14,13 @@
    "t": "上士聞道，\n勤而行之；",
    "words": [
     {
-     "reading": "上 shàng",
+     "reading": "上士 shàng shì",
      "glyphs": [
       {
        "s": "上",
        "tr": "shàng",
        "role": "phon"
-      }
-     ],
-     "morph": [
-      {
-       "lemma": "上",
-       "gloss": "the upper, the topmost of a set",
-       "g": [
-        0
-       ]
-      }
-     ]
-    },
-    {
-     "reading": "士 shì",
-     "glyphs": [
+      },
       {
        "s": "士",
        "tr": "shì",
@@ -43,10 +29,25 @@
      ],
      "morph": [
       {
-       "lemma": "士",
-       "gloss": "a man of standing — the knight-officer class, and so anyone who has a calling and is good at it",
+       "lemma": "上士",
+       "gloss": "the highest grade of officer — one of the three ranks of Zhou service, not simply \"a superior man\"",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "上",
+       "gloss": "above, upper",
        "g": [
         0
+       ]
+      },
+      {
+       "lemma": "士",
+       "gloss": "an officer, a man in service",
+       "g": [
+        1
        ]
       }
      ]
@@ -187,27 +188,13 @@
    "t": "中士聞道，\n若存若亡；\n下士聞道，\n大笑之。\n不笑不足以為道。\n故建言有之﹕",
    "words": [
     {
-     "reading": "中 zhōng",
+     "reading": "中士 zhōng shì",
      "glyphs": [
       {
        "s": "中",
        "tr": "zhōng",
        "role": "phon"
-      }
-     ],
-     "morph": [
-      {
-       "lemma": "中",
-       "gloss": "the middle, the middling one of a set",
-       "g": [
-        0
-       ]
-      }
-     ]
-    },
-    {
-     "reading": "士 shì",
-     "glyphs": [
+      },
       {
        "s": "士",
        "tr": "shì",
@@ -216,10 +203,25 @@
      ],
      "morph": [
       {
-       "lemma": "士",
-       "gloss": "a man of standing — the knight-officer class, and so anyone who has a calling and is good at it",
+       "lemma": "中士",
+       "gloss": "the middle grade of officer",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "中",
+       "gloss": "middle",
        "g": [
         0
+       ]
+      },
+      {
+       "lemma": "士",
+       "gloss": "an officer, a man in service",
+       "g": [
+        1
        ]
       }
      ]
@@ -350,28 +352,13 @@
      ]
     },
     {
-     "reading": "下 xià",
+     "reading": "下士 xià shì",
      "glyphs": [
       {
        "s": "下",
        "tr": "xià",
        "role": "phon"
-      }
-     ],
-     "morph": [
-      {
-       "lemma": "下",
-       "gloss": "the lower, the bottom of a set",
-       "g": [
-        0
-       ]
-      }
-     ],
-     "br": true
-    },
-    {
-     "reading": "士 shì",
-     "glyphs": [
+      },
       {
        "s": "士",
        "tr": "shì",
@@ -380,13 +367,29 @@
      ],
      "morph": [
       {
-       "lemma": "士",
-       "gloss": "a man of standing — the knight-officer class, and so anyone who has a calling and is good at it",
+       "lemma": "下士",
+       "gloss": "the lowest grade of officer",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "下",
+       "gloss": "below, lower",
        "g": [
         0
        ]
+      },
+      {
+       "lemma": "士",
+       "gloss": "an officer, a man in service",
+       "g": [
+        1
+       ]
       }
-     ]
+     ],
+     "br": true
     },
     {
      "reading": "聞 wén",

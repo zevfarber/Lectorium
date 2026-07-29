@@ -566,12 +566,17 @@ function speak(txt, rate, onEnd){
 }
 
 /* ---------- rendering ---------- */
-/* Mongolian (U+1820–1877) plus the invisible shaping controls FVS1–3 and the MVS
+/* Latin Extended Additional (U+1E00–1EFF) and the combining diacritics (U+0300–036F) are
+   letters too: scholarly transliterations need them — Middle Mongol's ṅ is U+1E45, and its
+   γ̇ has no precomposed form at all, so without the combining range a single word would
+   tokenize as two. No text shipped before 2026-07-29 uses either range in its `t`.
+   Mongolian (U+1820–1877) plus the invisible shaping controls FVS1–3 and the MVS
    (U+180B–180E), which belong INSIDE a token. U+202F (NNBSP), which detaches a case
    particle from its host, is deliberately NOT here: it separates two tokens, so the
    particle becomes its own tap target — and being a no-break space it still keeps
    host and particle in the same column. */
-const WORD_CLASS = 'A-Za-zÀ-ÖØ-öø-ÿ\\u0100-\\u024FΆ-ϿЀ-ӿ\\u1F00-\\u1FFF\\u1820-\\u1877\\u180B-\\u180E';
+const WORD_CLASS = 'A-Za-zÀ-ÖØ-öø-ÿ\\u0100-\\u024F\\u0300-\\u036F\\u1E00-\\u1EFF'
+  + 'Ά-ϿЀ-ӿ\\u1F00-\\u1FFF\\u1820-\\u1877\\u180B-\\u180E';
 /* Han characters: no spaces are written, and in Classical Chinese the character IS the word,
    so each one tokenizes on its own (a run must NOT collapse into a single token). */
 const HAN_CLASS = '\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uF900-\\uFAFF';

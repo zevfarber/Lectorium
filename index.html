@@ -8,6 +8,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Egyptian+Hieroglyphs&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Anatolian+Hieroglyphs&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Cuneiform&display=swap" rel="stylesheet">
+<!-- Classical Mongolian: shipped as a webfont because iPhones carry no Mongolian font at all
+     (Windows' Mongolian Baiti is only the offline fallback in the stack). -->
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mongolian&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&display=swap" rel="stylesheet">
 <style>
 
@@ -121,6 +124,43 @@
   .translit { font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: .9rem;
     color: var(--muted); margin-top: 3px; white-space: pre-line; letter-spacing: .01em; font-style: italic; }
   body.hidetr .translit { display: none; }
+
+  /* ---- vertical-text mode (Classical Mongolian): story.vertical = true ----
+     The sentence stays a card in the page's normal downward flow; inside it the
+     original text becomes an authentic top-to-bottom block and the whole apparatus
+     (romanization, English, note, Try/Ask, toolbar) sits beside it in .vaux. */
+  .sent.vsent { display: flex; gap: 20px; align-items: flex-start; }
+  .sent.vsent .vaux { flex: 1; min-width: 0; padding-top: 2px; }
+  .de.vert {
+    writing-mode: vertical-lr;          /* columns top→bottom, advancing left→right */
+    /* text-orientation stays default: Mongolian letters are natively vertical */
+    font-family: 'Noto Sans Mongolian', 'Mongolian Baiti', sans-serif;
+    font-size: 1.38rem;
+    line-height: 1.95;                  /* = spacing between columns */
+    inline-size: max-content;           /* column exactly as long as its words… */
+    /* …capped at 13em, where it wraps to a new column, and never taller than the
+       viewport (56vh). CAREFUL: under writing-mode:vertical-lr the inline axis IS
+       the vertical one, so max-inline-size and max-height constrain the same thing
+       and the later declaration would win outright — leaving one cap silently dead
+       (on a tall desktop window that was the 13em wrap). min() makes both bind. */
+    max-inline-size: min(13em, 56vh);
+    max-height: min(13em, 56vh);
+    flex: 0 0 auto;
+    max-width: 55%;
+    overflow-x: auto;                   /* a very long sentence scrolls its columns */
+    overflow-y: hidden;
+    padding: 2px 0;
+    white-space: normal;
+  }
+  @media (max-width: 700px) {
+    .sent.vsent { display: block; }     /* phone: the apparatus stacks below the block */
+    .de.vert { max-width: 100%; max-inline-size: min(11em, 44vh); max-height: min(11em, 44vh); }
+  }
+  .de.vert .w { border-radius: 4px; cursor: pointer; }
+  .de.vert .w:hover { background: var(--accent-soft); }
+  .de.vert .w.wsel { background: var(--accent); color: #fff; }
+  .sent.vsent .translit { margin-top: 0; }
+
   .en { color: var(--en-ink); font-size: .98rem; margin-top: 5px; white-space: pre-line; display: none; }
   .en.idm { color: var(--idiom-ink); }
   .en .lbl { font-family: system-ui, 'Noto Sans', sans-serif; font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; opacity: .65; margin-right: 6px; }
@@ -134,14 +174,17 @@
   .toolbar button { font-size: .8rem; padding: 4px 10px; border-radius: 999px; }
 
   /* side-by-side mode */
-  body.sbs .sent { display: grid; grid-template-columns: 1fr 1fr; column-gap: 26px; }
-  body.sbs .sent .de { grid-column: 1; }
-  body.sbs .sent .en { grid-column: 2; grid-row: 1; display: block; margin-top: 0; align-self: start; }
-  body.sbs .sent .note { grid-column: 1 / -1; }
-  body.sbs .sent .toolbar { grid-column: 1 / -1; }
+  body.sbs .sent:not(.vsent) { display: grid; grid-template-columns: 1fr 1fr; column-gap: 26px; }
+  body.sbs .sent:not(.vsent) .de { grid-column: 1; }
+  body.sbs .sent:not(.vsent) .en { grid-column: 2; grid-row: 1; display: block; margin-top: 0; align-self: start; }
+  body.sbs .sent:not(.vsent) .note { grid-column: 1 / -1; }
+  body.sbs .sent:not(.vsent) .toolbar { grid-column: 1 / -1; }
+  /* vertical stories keep the vsent flex layout — .vaux already sits beside the text,
+     which IS the side-by-side presentation; sbs just reveals every sentence's English. */
+  body.sbs .sent.vsent .en { display: block; }
   @media (max-width: 700px) {
-    body.sbs .sent { display: block; }
-    body.sbs .sent .en { margin-top: 5px; }
+    body.sbs .sent:not(.vsent) { display: block; }
+    body.sbs .sent:not(.vsent) .en { margin-top: 5px; }
   }
 
   /* try-first mode */
@@ -161,7 +204,7 @@
   .tryRes .lit { color: var(--en-ink); }
   .tryRes .idm { color: var(--idiom-ink); }
   .tryRes .lbl { font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; opacity: .65; margin-right: 6px; }
-  body.sbs .sent .tryBox { grid-column: 1 / -1; }
+  body.sbs .sent:not(.vsent) .tryBox { grid-column: 1 / -1; }
 
   /* in-app tutor */
   #tutorSetup { display: none; font-family: system-ui, 'Noto Sans', sans-serif; font-size: .85rem;
@@ -190,7 +233,7 @@
   .chkErr q { font-style: italic; }
   .chkErr button { font-size: .72rem; padding: 2px 8px; border-radius: 999px; margin-left: 6px; }
   .chkErr .whyTxt { margin-top: 5px; white-space: pre-wrap; color: #6b5d33; }
-  body.sbs .sent .askBox { grid-column: 1 / -1; }
+  body.sbs .sent:not(.vsent) .askBox { grid-column: 1 / -1; }
 
   /* word popup */
   #pop {
@@ -206,6 +249,9 @@
   #pop .pclose { position: absolute; top: 6px; right: 10px; border: none; background: none; color: var(--muted); font-size: 1rem; padding: 2px 6px; }
   #pop .pmiss { color: var(--muted); font-style: italic; }
   #popW { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Segoe UI Historic', 'Noto Sans Cuneiform', Georgia, 'Noto Serif', serif; }
+  /* vertical stories: the looked-up word shows UPRIGHT in the popup, in its natural shape */
+  body.vtext #pop .pw { font-family: 'Noto Sans Mongolian', 'Mongolian Baiti', serif;
+    font-size: 1.5rem; font-weight: 400; writing-mode: vertical-lr; max-height: 7em; margin: 0 auto 2px; }
   /* Egyptian word-stack reading layer: glyph over transliteration */
   .de.stacks { white-space: normal; display: flex; flex-wrap: wrap; align-items: flex-end; gap: 5px 9px; }
   .stack { display: inline-flex; flex-direction: column; align-items: center; gap: 2px; padding: 3px 5px; border-radius: 6px; cursor: pointer; }
@@ -325,6 +371,26 @@
   table.fidal th.fcons { font-size:.9rem; font-weight:700; color:var(--ink); background:var(--accent-soft); font-family:system-ui,'Noto Sans',sans-serif; }
   table.fidal td .fgl { display:block; font-size:1.5rem; line-height:1.15; }
   table.fidal td .from { display:block; font-size:.6rem; color:var(--muted); font-family:system-ui,'Noto Sans',sans-serif; margin-top:1px; }
+  /* ---- alphabet reference chart (Mongolian 📜, classic grammar-book layout) ----
+     NOTE: the note cells are classed .abcn, never .note — the reader's sentence-note
+     rule (.note { display:none }) would hide them. */
+  table.abc { border-collapse:collapse; width:100%; }
+  table.abc th { font-family:system-ui,'Noto Sans',sans-serif; font-size:.68rem; text-transform:uppercase;
+    letter-spacing:.06em; color:var(--muted); font-weight:600; text-align:center;
+    padding:4px 6px; border-bottom:1px solid var(--border); }
+  table.abc th:first-child, table.abc td.snd { text-align:left; }
+  table.abc td { padding:5px 6px; border-bottom:1px solid var(--border); text-align:center;
+    vertical-align:middle; }
+  table.abc tr:last-child td { border-bottom:none; }
+  table.abc td.snd { font-family:Georgia,'Noto Serif',serif; font-weight:700; font-size:1.02rem; white-space:nowrap; }
+  table.abc td.f { font-family:'Noto Sans Mongolian','Mongolian Baiti',serif; font-size:1.5rem;
+    line-height:1.1; writing-mode:vertical-lr; height:2.1em; min-width:44px; }
+  table.abc td.abcn { font-family:system-ui,'Noto Sans',sans-serif; font-size:.76rem; color:var(--muted);
+    text-align:left; line-height:1.35; max-width:280px; }
+  @media (max-width:560px){ table.abc td.abcn { display:none; } }
+  .abcNote { font-family:system-ui,'Noto Sans',sans-serif; font-size:.8rem; color:#6b5d33;
+    background:var(--note-bg); border:1px solid var(--note-border); border-radius:8px;
+    padding:8px 12px; margin:10px 0 2px; line-height:1.5; }
   .fixOrig { border:1px solid var(--border); border-radius:9px; padding:9px 11px; margin:12px 0; background:var(--accent-soft); }
   .fixOrig .fixOrigT { display:block; font-size:1.15rem; line-height:1.5; }
   .fixOrig .fixOrigE { display:block; font-size:.85rem; color:var(--muted); margin-top:5px; font-family:system-ui,'Noto Sans',sans-serif; }
@@ -500,13 +566,21 @@ function speak(txt, rate, onEnd){
 }
 
 /* ---------- rendering ---------- */
-const WORD_CLASS = 'A-Za-zÀ-ÖØ-öø-ÿ\\u0100-\\u024FΆ-ϿЀ-ӿ\\u1F00-\\u1FFF';
+/* Mongolian (U+1820–1877) plus the invisible shaping controls FVS1–3 and the MVS
+   (U+180B–180E), which belong INSIDE a token. U+202F (NNBSP), which detaches a case
+   particle from its host, is deliberately NOT here: it separates two tokens, so the
+   particle becomes its own tap target — and being a no-break space it still keeps
+   host and particle in the same column. */
+const WORD_CLASS = 'A-Za-zÀ-ÖØ-öø-ÿ\\u0100-\\u024FΆ-ϿЀ-ӿ\\u1F00-\\u1FFF\\u1820-\\u1877\\u180B-\\u180E';
 /* Han characters: no spaces are written, and in Classical Chinese the character IS the word,
    so each one tokenizes on its own (a run must NOT collapse into a single token). */
 const HAN_CLASS = '\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uF900-\\uFAFF';
 const WORD_RE = new RegExp('[' + HAN_CLASS + ']|[' + WORD_CLASS + ']+(?:[-\\[\\]()][' + WORD_CLASS + ']+)*', 'g');
-// glossary key for a token: editorial brackets/parens stripped, lowercased (eorl[as] → eorlas)
-function wordKey(w){ return w.replace(/[\[\]()]/g, '').toLowerCase(); }
+// glossary key for a token: editorial brackets/parens stripped, lowercased (eorl[as] → eorlas).
+// Mongolian free-variation selectors and the MVS (U+180B–180E) are invisible shaping controls —
+// stripping them here (and authoring glossary keys without them) means an unseeable character
+// can never cause a missed lookup. Lowercasing is a no-op for Mongolian.
+function wordKey(w){ return w.replace(/[\[\]()]/g, '').replace(/[\u180B-\u180E]/g, '').toLowerCase(); }
 
 /* plain-letters mode: þ/ð → th, æ → ae, length marks hidden */
 let plainMode = false;
@@ -2920,6 +2994,57 @@ const SIGN_GLOSSARIES = {
   "DAMAGED": {"glyph": "▢", "name": "damaged sign", "type": "marker", "sound": null, "pron": null, "determines": "a sign lost or illegible on the stone; any reading is a modern restoration"}
  }
 };
+
+/* ---- the Mongol alphabet (script: "mongol") ----
+   Not a sign list but a classic grammar-book chart: one row per letter, shown in its
+   initial / medial / final shapes. The defective pairs (o/u, ö/ü, t/d, medial a/e,
+   q/k, γ/g) come out looking identical in the chart — that is the pedagogy, not a bug.
+   Registered in SIGN_GLOSSARIES so the shared 📜 button logic picks it up unchanged. */
+const MONGOL_ALPHABET = {
+  vowels: [
+    ["ᠠ","a","medial a and e often look alike; a final a can swing free of the word (see marks)"],
+    ["ᠡ","e",""],
+    ["ᠢ","i","after a vowel often doubled (yi)"],
+    ["ᠣ","o","o and u are written identically — the word decides the reading"],
+    ["ᠤ","u",""],
+    ["ᠥ","ö","ö and ü are written identically; clearly marked only in a first syllable"],
+    ["ᠦ","ü",""]
+  ],
+  consonants: [
+    ["ᠨ","n","dotted before a vowel; undotted it looks like a/e"],
+    ["ᠩ","ng",""],
+    ["ᠪ","b",""],
+    ["ᠫ","p","rare"],
+    ["ᠬ","q · k","one letter: q in back-vowel words, k in front-vowel words"],
+    ["ᠭ","γ · g","one letter: γ in back-vowel words (two dots in careful print), g in front-vowel words"],
+    ["ᠮ","m",""],
+    ["ᠯ","l",""],
+    ["ᠰ","s",""],
+    ["ᠱ","š","s before i; also in loanwords"],
+    ["ᠲ","t","t and d share shapes in most positions"],
+    ["ᠳ","d",""],
+    ["ᠴ","č","ch as in church"],
+    ["ᠵ","ǰ","j as in judge; initial ǰ and y look alike"],
+    ["ᠶ","y",""],
+    ["ᠷ","r","never begins a native word"],
+    ["ᠸ","w · v",""]
+  ],
+  foreign: [
+    ["ᠹ","f","loanwords"],
+    ["ᠺ","k’","foreign k (Tibetan, Sanskrit, Chinese words)"],
+    ["ᠼ","ts","loanwords"],
+    ["ᠽ","z","loanwords"],
+    ["ᠾ","h","loanwords"]
+  ],
+  punct: [
+    ["᠀","birga — opens a text or chapter"],
+    ["᠂","comma"],
+    ["᠃","full stop"],
+    ["᠅","four dots — closes a passage"]
+  ]
+};
+SIGN_GLOSSARIES["mongol"] = { type: "alphabet", groups: MONGOL_ALPHABET };
+
 function signGlossaryFor(st){ return (st && st.script && SIGN_GLOSSARIES[st.script]) || null; }
 
 /* Dispatch: linear per-glyph interlinear, or "as written" quadrat blocking.
@@ -3086,8 +3211,53 @@ function renderFidal(sg){
   });
   return body + '</tbody></table></div>';
 }
+/* The Mongol alphabet chart. Positional shapes are produced with ZWJ (U+200D):
+   initial = ch+ZWJ, medial = ZWJ+ch+ZWJ, final = ZWJ+ch — the font shapes them
+   exactly as it would inside a real word.
+   The note cells MUST be .abcn: the reader's .note rule would hide a .note cell. */
+const MONGOL_ZWJ = '\u200D';
+function abcRows(rows){
+  let h = '<table class="abc"><tr><th>sound</th><th>initial</th><th>medial</th><th>final</th>'
+        + '<th class="abcn" style="text-align:left">notes</th></tr>';
+  rows.forEach(([ch, snd, note]) => {
+    h += '<tr><td class="snd">' + escapeHtml(snd) + '</td>'
+       + '<td class="f">' + escapeHtml(ch + MONGOL_ZWJ) + '</td>'
+       + '<td class="f">' + escapeHtml(MONGOL_ZWJ + ch + MONGOL_ZWJ) + '</td>'
+       + '<td class="f">' + escapeHtml(MONGOL_ZWJ + ch) + '</td>'
+       + '<td class="abcn">' + escapeHtml(note || '') + '</td></tr>';
+  });
+  return h + '</table>';
+}
+function renderMongolAlphabet(sg){
+  const a = (sg && sg.groups) || MONGOL_ALPHABET;
+  let h = '<div class="abcNote">The script leaves some sounds looking identical — <b>o/u</b>, '
+        + '<b>ö/ü</b>, <b>t/d</b>, medial <b>a/e</b>, and <b>q/k</b>, <b>γ/g</b> share their shapes. '
+        + 'That is normal: the reading comes from knowing the word, and the transcription line '
+        + 'beneath each sentence carries the resolved reading for you.</div>';
+  h += '<div class="smGroup"><h4>Vowels</h4>' + abcRows(a.vowels) + '</div>';
+  h += '<div class="smGroup"><h4>Consonants</h4>' + abcRows(a.consonants) + '</div>';
+  h += '<div class="smGroup"><h4>Foreign-word letters</h4>' + abcRows(a.foreign) + '</div>';
+  h += '<div class="smGroup"><h4>Punctuation &amp; marks</h4><table class="abc">';
+  a.punct.forEach(([ch, note]) => {
+    h += '<tr><td class="f">' + escapeHtml(ch) + '</td>'
+       + '<td class="abcn" style="max-width:none">' + escapeHtml(note) + '</td></tr>';
+  });
+  h += '<tr><td class="f">ᠬᠠᠭᠠᠨ' + '\u202F' + 'ᠤ</td>'
+     + '<td class="abcn" style="max-width:none">a case particle hangs after its word across a small '
+     + 'gap (qaγan-u) — tap it on its own for its gloss</td></tr>';
+  return h + '</table></div>';
+}
+
 function openSigns(){
   const sg = signGlossaryFor(story); if (!sg) return;
+  if (story.script === 'mongol'){
+    $('smTitle').textContent = 'The Mongol alphabet';
+    $('smSub').innerHTML = 'Each letter changes shape by position: <b>initial · medial · final</b>. '
+      + 'Letters connect like joined-up handwriting, written top to bottom.';
+    $('smBody').innerHTML = renderMongolAlphabet(sg);
+    $('signModal').classList.add('open');
+    return;
+  }
   if (story.script === 'ethiopic'){
     $('smTitle').textContent = 'Fidäl — the Geʿez syllabary';
     $('smSub').textContent = 'Each sign is a consonant + a vowel. The columns are the seven orders (ä u i a e ə o); the 6th order (ə) doubles as the bare consonant. ś = the ሠ-series; ḥ ḫ ʾ ʿ are the laryngeals.';
@@ -3196,8 +3366,15 @@ function buildStacks(s){
 // its literal line); everything else keeps the original .de / .en block layout.
 function buildSentEl(s, i, showLit){
   const div = document.createElement('div');
-  div.className = 'sent' + (s.p ? ' parastart' : '') + (s.v ? ' verse' : '') + (s.r ? ' rubric' : '');
+  // vertical-text stories (Classical Mongolian): the card becomes a row — the top-to-bottom
+  // original first, then .vaux carrying the whole apparatus beside it.
+  const vertical = !!story.vertical;
+  div.className = 'sent' + (s.p ? ' parastart' : '') + (s.v ? ' verse' : '') + (s.r ? ' rubric' : '')
+                + (vertical ? ' vsent' : '');
   div.dataset.i = i;
+  // where the apparatus goes: the .vaux column for vertical stories, the card itself otherwise
+  let aux = div;
+  if (vertical) { aux = document.createElement('div'); aux.className = 'vaux'; }
 
   let lnChip = '';
   if (s.ln) {
@@ -3208,7 +3385,8 @@ function buildSentEl(s, i, showLit){
   }
 
   const latLines = s.t.split('\n');
-  const interlin = mode === 'sbs' && showLit && s.v && s.l && !s.words && !s.tr
+  // the interlinear-verse crib is a horizontal-only layout — never for vertical stories
+  const interlin = !vertical && mode === 'sbs' && showLit && s.v && s.l && !s.words && !s.tr
     && latLines.length > 1 && s.l.split('\n').length === latLines.length;
 
   if (interlin) {
@@ -3241,7 +3419,9 @@ function buildSentEl(s, i, showLit){
     } else {
       de.innerHTML = lnChip + tokenize(s.t);
     }
+    if (vertical) de.classList.add('vert');
     div.appendChild(de);
+    if (vertical) div.appendChild(aux);
 
     // alphabetic non-Latin scripts (trStyle:'line'): a romanization line under the
     // original — words stay clickable in .de, glossary keyed on the original wordform.
@@ -3249,7 +3429,7 @@ function buildSentEl(s, i, showLit){
       const trl = document.createElement('div');
       trl.className = 'translit';
       trl.textContent = s.tr;
-      div.appendChild(trl);
+      aux.appendChild(trl);
     }
 
     const en = document.createElement('div');
@@ -3258,14 +3438,14 @@ function buildSentEl(s, i, showLit){
     en.innerHTML = showLit
       ? '<span class="lbl">literal</span>' + escapeHtml(s.l || s.i || '')
       : '<span class="lbl">natural</span>' + escapeHtml(s.i || s.l || '');
-    div.appendChild(en);
+    aux.appendChild(en);
   }
 
   if (s.n) {
     const nt = document.createElement('div');
     nt.className = 'note';
     nt.textContent = s.n;
-    div.appendChild(nt);
+    aux.appendChild(nt);
   }
 
   const tts = !!story.langCode || !!story.audio;
@@ -3281,7 +3461,7 @@ function buildSentEl(s, i, showLit){
     (s.i ? '<button data-a="idiom">' + (showLit ? '≈ natural' : '≈ literal') + '</button>' : '') +
     (s.n ? '<button data-a="note">📝 note</button>' : '') +
     '<button data-a="fix" title="Spotted an error? Suggest a correction">⚑ correction</button>';
-  div.appendChild(tb);
+  aux.appendChild(tb);
   return div;
 }
 
@@ -3359,6 +3539,13 @@ function focusSent(i, scroll){
   try { localStorage.setItem('pos:' + story.id, i); } catch(e) {}
 }
 function sentEl(i){ return document.querySelector('.sent[data-i="' + i + '"]'); }
+/* Put a panel (Try / Ask) directly above the sentence's toolbar. In vertical stories the
+   toolbar lives inside .vaux rather than being a direct child of the card, so insert into
+   whatever the toolbar's actual parent is. */
+function insertBeforeToolbar(el, box){
+  const tb = el.querySelector('.toolbar');
+  (tb ? tb.parentNode : el).insertBefore(box, tb || null);
+}
 function sentBtn(i, a){ const el = sentEl(i); return el && el.querySelector('button[data-a="' + a + '"]'); }
 
 /* ---------- sentence playback (buttons show the opposite state) ---------- */
@@ -3669,7 +3856,7 @@ function toggleTry(i){
   });
   row.appendChild(chk);
   box.appendChild(row);
-  el.insertBefore(box, el.querySelector('.toolbar'));
+  insertBeforeToolbar(el, box);
   ta.focus();
 }
 
@@ -3689,14 +3876,7 @@ function showPop(wEl){
   popKey = key;
   const hasWordClip = !!(story.audio && wordClips && wordClips[key] !== undefined);
   $('popSay').style.display = $('popSlow').style.display = (story.langCode || hasWordClip) ? '' : 'none';
-  const pop = $('pop');
-  pop.style.display = 'block';
-  const r = wEl.getBoundingClientRect();
-  let x = Math.min(r.left, window.innerWidth - 360);
-  let y = r.bottom + 8;
-  if (y > window.innerHeight - 160) y = r.top - pop.offsetHeight - 8;
-  pop.style.left = Math.max(8, x) + 'px';
-  pop.style.top = Math.max(8, y) + 'px';
+  positionPop(wEl);
 }
 function hidePop(){
   $('pop').style.display = 'none';
@@ -3706,9 +3886,19 @@ function positionPop(el){
   const pop = $('pop');
   pop.style.display = 'block';
   const r = el.getBoundingClientRect();
-  let x = Math.min(r.left, window.innerWidth - 360);
-  let y = r.bottom + 8;
-  if (y > window.innerHeight - 160) y = r.top - pop.offsetHeight - 8;
+  let x, y;
+  if (el.closest('.de.vert')) {
+    // vertical text: below the word is the NEXT word, so the popup goes beside the
+    // column — to its right by preference, flipping left if that would overflow.
+    const pw = pop.offsetWidth || 340;
+    x = r.right + 10;
+    if (x + pw > window.innerWidth - 8) x = r.left - pw - 10;
+    y = Math.min(r.top, window.innerHeight - pop.offsetHeight - 8);
+  } else {
+    x = Math.min(r.left, window.innerWidth - 360);
+    y = r.bottom + 8;
+    if (y > window.innerHeight - 160) y = r.top - pop.offsetHeight - 8;
+  }
   pop.style.left = Math.max(8, x) + 'px';
   pop.style.top = Math.max(8, y) + 'px';
 }
@@ -3849,7 +4039,7 @@ function toggleAsk(i){
   inp.addEventListener('keydown', (ev) => { if (ev.key === 'Enter') { ev.preventDefault(); send(); } });
   row.appendChild(inp); row.appendChild(go);
   box.appendChild(row); box.appendChild(cost);
-  el.insertBefore(box, el.querySelector('.toolbar'));
+  insertBeforeToolbar(el, box);
   inp.focus();
 }
 
@@ -4153,6 +4343,8 @@ $('storyFilter').oninput = (e) => {
 function loadStory(s){
   try { document.body.setAttribute('data-script', s.script || ''); } catch(e){}
   try { document.body.setAttribute('data-font', s.font || ''); } catch(e){}
+  // vertical-text story: flips the word popup to its upright presentation
+  document.body.classList.toggle('vtext', !!s.vertical);
   stopSpeech();
   speakingIdx = -1;
   slowPref = {};
@@ -4206,7 +4398,15 @@ function loadStory(s){
   }
   const glyphy = s.sentences.some(x => x.words || x.tr);
   if (rg) rg.style.display = glyphy ? 'inline-flex' : 'none';
-  const sb = $('signsBtn'); if (sb){ sb.style.display = signGlossaryFor(s) ? '' : 'none'; sb.textContent = (s.script === 'ethiopic') ? '📜 Fidäl' : '📜 Signs'; }
+  const sb = $('signsBtn');
+  if (sb){
+    sb.style.display = signGlossaryFor(s) ? '' : 'none';
+    sb.textContent = (s.script === 'ethiopic') ? '📜 Fidäl'
+                   : (s.script === 'mongol')   ? '📜 Alphabet' : '📜 Signs';
+    sb.title = (s.script === 'mongol')
+      ? 'Alphabet reference — every letter in its initial, medial and final shapes'
+      : 'Sign reference — the alphabet and the classifiers';
+  }
   const hasQuad = s.sentences.some(x => (x.words || []).some(w => w.q));
   const qb = $('quadBtn'); if (qb) qb.style.display = hasQuad ? '' : 'none';
   updateQuadBtn();

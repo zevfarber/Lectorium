@@ -405,6 +405,23 @@
     border: 1px solid #e8c986; border-radius: 999px; padding: 2px 9px; vertical-align: middle; margin-left: 12px; }
   .draftBar { font-family: system-ui, 'Noto Sans', sans-serif; font-size: .82rem; color: #7a5300; background: #fdf2dc;
     border: 1px solid #ecd39b; border-radius: 10px; padding: 8px 14px; margin-bottom: 18px; line-height: 1.5; }
+  /* Content advisory — always visible above the text, never collapsed away.
+     The flipper is on the explanation, not on the poem. */
+  details.advisory { font-family: system-ui, 'Noto Sans', sans-serif; font-size: .84rem; line-height: 1.6;
+    background: var(--note-bg); border: 1px solid var(--note-border); border-left: 3px solid var(--accent);
+    border-radius: 10px; padding: 11px 15px; margin: 14px 0 4px; color: var(--ink); }
+  details.advisory summary { cursor: pointer; list-style: none; display: flex; gap: 7px;
+    align-items: baseline; font-weight: 600; }
+  details.advisory summary::-webkit-details-marker { display: none; }
+  details.advisory summary::after { content: "▸ more"; color: var(--muted); font-weight: 400;
+    font-size: .82em; margin-left: auto; white-space: nowrap; }
+  details.advisory[open] summary::after { content: "▾ less"; }
+  details.advisory.flat summary { cursor: default; }
+  details.advisory.flat summary::after { content: none; }
+  details.advisory .advMore { margin-top: 9px; padding-top: 9px;
+    border-top: 1px dashed var(--note-border); font-weight: 400; }
+  .advGate { text-align: center; padding: 26px 16px 20px; }
+  .advGate p { font-family: system-ui, 'Noto Sans', sans-serif; font-size: .84rem; color: var(--muted); margin: 0 0 14px; }
 </style>
 </head>
 <body>
@@ -430,6 +447,14 @@
   <div class="storySub" id="stSub"></div>
   <div class="storyLangLine" id="stLang" style="display:none"></div>
   <div class="draftBar" id="stDraft" style="display:none"></div>
+  <details class="advisory" id="advisoryBox" style="display:none">
+    <summary id="advisoryLede"></summary>
+    <div class="advMore" id="advisoryMore"></div>
+  </details>
+  <div class="advGate" id="advisoryGate" style="display:none">
+    <p>The text is hidden until you choose to open it.</p>
+    <button id="advisoryGateBtn">Show the text</button>
+  </div>
   <details class="hint" id="aboutBox">
     <summary>Background information</summary>
     <div class="hint-body" id="aboutBody"></div>
@@ -3501,6 +3526,27 @@ function render(){
     langLine.textContent = bits.join(' · ');
     langLine.style.display = bits.length ? '' : 'none';
   }
+  // Content advisory. story.advisory is either a string (one sentence) or
+  // {lede, more}. story.advisoryGate:true additionally hides the text behind a
+  // reveal button — off everywhere by default; a single field turns it on.
+  const advBox = $('advisoryBox'), advGate = $('advisoryGate');
+  if (advBox) {
+    const adv = story.advisory;
+    const lede = typeof adv === 'string' ? adv : (adv && adv.lede) || '';
+    const more = (adv && typeof adv === 'object' && adv.more) || '';
+    $('advisoryLede').textContent = lede;
+    $('advisoryMore').textContent = more;
+    advBox.classList.toggle('flat', !more);
+    advBox.open = false;
+    advBox.style.display = lede ? '' : 'none';
+    const gated = !!(lede && story.advisoryGate);
+    if (advGate) {
+      advGate.style.display = gated ? '' : 'none';
+      const btn = $('advisoryGateBtn');
+      if (btn) btn.textContent = 'Show the text';
+    }
+    $('text').style.display = gated ? 'none' : '';
+  }
   const aboutBox = $('aboutBox'), aboutBody = $('aboutBody');
   if (aboutBox && aboutBody) {
     aboutBody.innerHTML = '';
@@ -3708,6 +3754,14 @@ function toggleNote(i){
   if (b) b.textContent = open ? '📝 hide note' : '📝 note';
 }
 
+{
+  const gb = $('advisoryGateBtn');
+  if (gb) gb.addEventListener('click', () => {
+    const t = $('text'), shown = t.style.display !== 'none';
+    t.style.display = shown ? 'none' : '';
+    gb.textContent = shown ? 'Show the text' : 'Hide the text';
+  });
+}
 $('text').addEventListener('click', (ev) => {
   const w = ev.target.closest('.w') || ev.target.closest('.stack');
   const sent = ev.target.closest('.sent');

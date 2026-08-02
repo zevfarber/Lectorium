@@ -25,6 +25,10 @@ VOICES = {
     # Classical Chinese is READ in modern Mandarin (the stated convention), so a real
     # voice exists. Resolved once on 2026-07-27 and now PINNED, like German and French.
     "zh-CN": {"name": "cmn-CN-Chirp3-HD-Achernar", "lang": "cmn-CN", "espeak": "cmn"},
+    # Arabic: the stated convention is a Modern Standard Arabic reading of the classical
+    # text, so a real voice exists. Name left empty on first run so resolve_voice() picks
+    # deterministically and writes it to audio/<id>/voice.txt; pin it here afterwards.
+    "ar-XA": {"name": "", "lang": "ar-XA", "espeak": "ar"},
 }
 
 VOICES_URL = "https://texttospeech.googleapis.com/v1/voices"

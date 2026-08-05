@@ -687,27 +687,22 @@ function bareLettersAR(s){ return s.replace(/[\u064B-\u065F\u0670\u06D6-\u06ED]/
    Old English: plainLetters (þ/ð→th, æ→ae, length marks hidden).
    Future (Egyptian etc.): scholarly→readable transliteration slots in the same way. */
 let activeSimplify = null;   // config for the current story, or null
-let cycleIdx = 0;            // position on a multi-rung script ladder (Arabic); 0 for everything else
-function cycleState(){ return (activeSimplify && activeSimplify.cycle) ? activeSimplify.cycle[cycleIdx % activeSimplify.cycle.length] : null; }
-/* should the original text be folded right now? binary toggles ask plainMode; ladders ask the rung. */
+/* should the original text be folded right now? */
 function simplifyNow(){
-  const st = cycleState();
-  if (st) return !!(st.strip && activeSimplify.fn);
   return !!(plainMode && activeSimplify && activeSimplify.fn);
 }
 function simplifyConfig(story){
   if (!story) return null;
   const txt = story.sentences.map(x => x.t || '').join('\n');
-  // Arabic: not a two-way fold but a three-rung ladder of reliance. Rung 0 is fully vocalized
-  // (our editorial tashkil, the assisted reading); rung 1 is the bare rasm as printed; rung 2
-  // adds the IJMES romanization line for a reader who cannot yet decode the script at all.
-  // Ordered assisted -> unassisted so the button always reads "what you get if you press me".
+  // Arabic: one job only — our editorial vowel points on, or the bare rasm as the edition
+  // prints it. The romanization line is an INDEPENDENT control (the Transcription button), so
+  // the reader can combine them freely — including bare script with the romanization beneath,
+  // which the old three-rung ladder made unreachable. Own state key: Arabic vowels and Old
+  // English plain letters are different ideas and must not share a saved setting.
   if ((story.language && /arabic/i.test(story.language)) || story.script === 'arabic')
-    return { cycle: [
-      { key: 'voc',   label: 'ٰ vowels',  title: 'Vocalized — full tashkīl (editorial). Press for the bare script as the edition prints it.', strip: false, translit: false },
-      { key: 'bare',  label: 'ٰ bare',    title: 'Bare script — the unpointed rasm. Press to add the romanization line.', strip: true,  translit: false },
-      { key: 'roman', label: 'ab̄ roman', title: 'Vocalized + IJMES romanization. Press to return to vocalized Arabic alone.', strip: false, translit: true }
-    ], fn: bareLettersAR };
+    return { label: 'ٰ bare', title: 'Bare script — hide the editorial vowel points and read the rasm as the edition prints it',
+             labelOn: 'ٰ vowels', titleOn: 'Vocalized — put the editorial tashkīl back',
+             stateKey: 'bareAR', fn: bareLettersAR };
   // Old Norse: same þ/ð/æ letterforms plus the nasal vowel ǫ and the ligature œ; keep acute length marks.
   if ((story.language && /norse/i.test(story.language)) || /[ǫœǪŒ]/.test(txt))
     return { label: 'þ→th', title: 'Plain letters — þ→th, ð→d, æ→ae, ǫ→o, œ→oe (accents kept)', fn: plainLettersON };
@@ -4263,34 +4258,24 @@ document.querySelectorAll('#enSeg button').forEach(b => b.onclick = () => {
   setMode(mode);   // re-render: switches every sentence's English at once
 });
 
+/* which saved setting this text's script toggle uses (Arabic keeps its own — see simplifyConfig) */
+function plainStateKey(){ return (activeSimplify && activeSimplify.stateKey) || 'plainLetters'; }
+/* the button always reads what you get if you press it; texts that don't supply a second
+   label keep their single label and just show pressed/unpressed. */
+function updatePlainBtn(){
+  const pb = $('plainBtn'); if (!pb || !activeSimplify) return;
+  pb.textContent = (plainMode && activeSimplify.labelOn) ? activeSimplify.labelOn : activeSimplify.label;
+  pb.title = (plainMode && activeSimplify.titleOn) ? activeSimplify.titleOn : activeSimplify.title;
+  pb.classList.toggle('active', plainMode);
+}
 function setPlain(on){
   plainMode = on;
-  $('plainBtn').classList.toggle('active', on);
-  try { localStorage.setItem('plainLetters', on ? '1' : '0'); } catch(e) {}
+  try { localStorage.setItem(plainStateKey(), on ? '1' : '0'); } catch(e) {}
+  updatePlainBtn();
   render();
   if (focusedIdx >= 0) focusSent(focusedIdx, false);
 }
-/* Multi-rung script ladders (Arabic): the button walks the rungs instead of flipping a flag.
-   The rung owns the romanization line too, so the ladder is the single control for "how much
-   help am I taking" — which is the whole point of the Arabic alphabet button. */
-function applyCycle(){
-  const st = cycleState(); if (!st) return;
-  const pb = $('plainBtn');
-  pb.textContent = st.label;
-  pb.title = st.title;
-  pb.classList.toggle('active', st.key !== 'voc');
-  hideTr = !st.translit;
-  document.body.classList.toggle('hidetr', hideTr);
-  try { localStorage.setItem('scriptRung', String(cycleIdx)); } catch(e) {}
-}
-function advanceCycle(){
-  const cyc = activeSimplify && activeSimplify.cycle; if (!cyc) return;
-  cycleIdx = (cycleIdx + 1) % cyc.length;
-  applyCycle();
-  render();
-  if (focusedIdx >= 0) focusSent(focusedIdx, false);
-}
-$('plainBtn').onclick = () => { if (activeSimplify && activeSimplify.cycle) advanceCycle(); else setPlain(!plainMode); };
+$('plainBtn').onclick = () => setPlain(!plainMode);
 $('signsBtn').onclick = openSigns;
 $('signModal').addEventListener('click', (e) => { if (e.target.id === 'signModal') closeSigns(); });
 $('fixModal').addEventListener('click', (e) => { if (e.target.id === 'fixModal') closeFix(); });
@@ -4303,9 +4288,20 @@ $('quadBtn').onclick = () => {
   if (focusedIdx >= 0) focusSent(focusedIdx, false);
 };
 
-/* transliteration ruby toggle (app-wide), shown only for stories that carry tr */
+/* Transcription toggle (app-wide), shown only for stories that carry tr.
+   Two independent saved settings, because they are two different things with opposite
+   sensible defaults: letters under each glyph (Egyptian, cuneiform…) are ON by default —
+   the glyphs are unreadable without them; a whole romanized LINE under the sentence
+   (Arabic…) is OFF by default — it is the escape hatch from the script, not the norm. */
 let hideTr = false;
-try { hideTr = localStorage.getItem('hideTr') === '1'; } catch(e) {}
+function trPrefKey(){ return (story && story.trStyle === 'line') ? 'hideTrLine' : 'hideTr'; }
+function loadTrPref(){
+  const k = trPrefKey();
+  let v = null;
+  try { v = localStorage.getItem(k); } catch(e) {}
+  hideTr = (v === null) ? (k === 'hideTrLine') : (v === '1');
+}
+loadTrPref();
 function updateSpellSeg(){
   const seg = $('spellSeg'); if (!seg) return;
   const st = plainMode ? 'read' : (valMode ? 'val' : 'sch');
@@ -4313,13 +4309,19 @@ function updateSpellSeg(){
 }
 function applyTr(){
   document.body.classList.toggle('hidetr', hideTr);
-  $('trBtn').classList.toggle('active', !hideTr);
+  const tb = $('trBtn');
+  tb.classList.toggle('active', !hideTr);
+  const line = !!(story && story.trStyle === 'line');
+  tb.textContent = line ? 'Roman letters' : 'Transcription';
+  tb.title = line
+    ? 'Roman letters — show or hide the romanized line under each sentence'
+    : 'Transcription — show or hide the letters under each glyph';
   const say = !!(activeSimplify && activeSimplify.mode === 'say');
   const seg = $('spellSeg');
   if (seg) seg.style.display = (say && !hideTr) ? 'inline-flex' : 'none';
   updateSpellSeg();
 }
-$('trBtn').onclick = () => { hideTr = !hideTr; try { localStorage.setItem('hideTr', hideTr ? '1' : '0'); } catch(e) {} applyTr(); };
+$('trBtn').onclick = () => { hideTr = !hideTr; try { localStorage.setItem(trPrefKey(), hideTr ? '1' : '0'); } catch(e) {} applyTr(); };
 /* delegated: the segment's buttons are rebuilt per story (two-state ꜥnḫ|ankh, or three-state signs|sounds|words) */
 $('spellSeg').addEventListener('click', (ev) => {
   const b = ev.target.closest('button[data-sp]'); if (!b) return;
@@ -4531,20 +4533,10 @@ function loadStory(s){
     pb.style.display = 'none';
   } else {
     if (rg) rg.style.display = 'none';
-    if (activeSimplify && activeSimplify.cycle) {
-      // land on the vocalized rung by default — the assisted reading is the entry point
-      let r = 0; try { r = parseInt(localStorage.getItem('scriptRung') || '0', 10) || 0; } catch(e) { r = 0; }
-      cycleIdx = r % activeSimplify.cycle.length;
-      plainMode = false;
+    if (activeSimplify) {
+      try { plainMode = localStorage.getItem(plainStateKey()) === '1'; } catch(e) { plainMode = false; }
       pb.style.display = '';
-      applyCycle();
-    } else if (activeSimplify) {
-      cycleIdx = 0;
-      try { plainMode = localStorage.getItem('plainLetters') === '1'; } catch(e) { plainMode = false; }
-      pb.style.display = '';
-      pb.textContent = activeSimplify.label;
-      pb.title = activeSimplify.title;
-      pb.classList.toggle('active', plainMode);
+      updatePlainBtn();
     } else {
       pb.style.display = 'none';
     }
@@ -4563,6 +4555,7 @@ function loadStory(s){
   const hasQuad = s.sentences.some(x => (x.words || []).some(w => w.q));
   const qb = $('quadBtn'); if (qb) qb.style.display = hasQuad ? '' : 'none';
   updateQuadBtn();
+  loadTrPref();   // glyph-transcription and romanization-line prefs are saved separately
   applyTr();
   hidePop();
   render();

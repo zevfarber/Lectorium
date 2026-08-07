@@ -1,0 +1,57 @@
+{
+ "id": "aesop-141",
+ "title": "Ἵππος καὶ ὄνος",
+ "titleEn": "The Horse and the Donkey",
+ "work": "Αἰσώπου Μῦθοι",
+ "workEn": "Aesop's Fables",
+ "part": "The Horse and the Donkey (Chambry 141)",
+ "language": "Ancient Greek",
+ "langCode": null,
+ "source": "Émile Chambry, Ésope: Fables, texte établi et traduit (Les Belles Lettres, Paris, 1927), fable 141. Text as printed, including Chambry's editorial punctuation (« »). Pronunciation: reconstructed Attic, after W. S. Allen, Vox Graeca. Romanization: standard classical transliteration (ē/ō; th/ph/ch; y for υ, u in diphthongs; h = rough breathing; ēi/āi/ōi for iota subscript; accents omitted).",
+ "trStyle": "line",
+ "glossaryFile": "aesop-glossary.json",
+ "script": "greek",
+ "sentences": [
+  {
+   "t": "Ἄνθρωπός τις εἶχεν ἵππον καὶ ὄνον.",
+   "tr": "Anthrōpos tis eichen hippon kai onon.",
+   "l": "A certain man had a horse and a donkey.",
+   "p": true
+  },
+  {
+   "t": "Ὁδευόντων δέ, ἐν τῇ ὁδῷ εἶπεν ὁ ὄνος τῷ ἵππῳ· « Ἆρον ἐκ τοῦ ἐμοῦ βάρους, εἰ θέλεις εἶναί με σῶν. »",
+   "tr": "Hodeuontōn de, en tēi hodōi eipen ho onos tōi hippōi· « Aron ek tou emou barous, ei theleis einai me sōn. »",
+   "l": "And as they were travelling, on the road the donkey said to the horse: « Take some of my load, if you wish me to be safe. »",
+   "n": "Ὁδευόντων δέ is a genitive absolute whose subject is left unexpressed — \"with them travelling\", the two animals understood from the line before. ἆρον is the aorist imperative of αἴρω, \"lift, take up\"; ἐκ with the genitive is partitive here, \"some of\". σῶν is the accusative of σῶς, \"safe and whole\", contracted from the older σάος."
+  },
+  {
+   "t": "Ὁ δὲ οὐκ ἐπείσθη· ὁ δὲ ὄνος πεσὼν ἐκ τοῦ κόπου ἐτελεύτησε.",
+   "tr": "Ho de ouk epeisthē· ho de onos pesōn ek tou kopou eteleutēse.",
+   "l": "But he was not persuaded; and the donkey, having fallen from the toil, died.",
+   "i": "But the horse would not be persuaded; and the donkey dropped under the strain and died.",
+   "n": "ἐπείσθη is the aorist passive of πείθω: Greek says \"he was not persuaded\" where English says \"he refused\". ἐκ τοῦ κόπου is cause, \"out of the labour\". Chambry's ano teleia (·) marks a stop lighter than a full stop and heavier than a comma."
+  },
+  {
+   "t": "Τοῦ δὲ δεσπότου πάντα ἐπιθέντος αὐτῷ καὶ αὐτὴν τὴν τοῦ ὄνου δοράν, θρηνῶν ὁ ἵππος ἐβόα· « Οἴμοι τῷ παναθλίῳ, τί μοι συνέβη τῷ ταλαιπώρῳ ;",
+   "tr": "Tou de despotou panta epithentos autōi kai autēn tēn tou onou doran, thrēnōn ho hippos eboa· « Oimoi tōi panathliōi, ti moi synebē tōi talaipōrōi ;",
+   "l": "And the master having put everything upon him, and the donkey's very hide as well, the horse, lamenting, cried out: « Alas for me, all-wretched that I am — what has befallen me, poor sufferer ?",
+   "i": "And when the master had loaded everything onto him, the donkey's hide into the bargain, the horse wailed aloud in lament: « Alas for me, wretch that I am — what has come upon me in my misery ?",
+   "n": "Another genitive absolute. αὐτὴν τὴν … δοράν: αὐτός in this position is \"the very…\" — the skin itself went up on top of the load, so that the horse now carries the donkey twice over. οἴμοι takes a dative of the person bewailed, here the speaker himself. Chambry sets a space before the Greek question mark; the speech runs on into the next line, so the » is still open."
+  },
+  {
+   "t": "μὴ θελήσας γὰρ μικρὸν βάρος λαβεῖν, ἰδοῦ ἅπαντα βαστάζω, καὶ τὸ δέρμα. »",
+   "tr": "mē thelēsas gar mikron baros labein, idou hapanta bastazō, kai to derma. »",
+   "l": "for, not having been willing to take a small burden, look, I carry everything, and the hide too. »",
+   "i": "for because I would not take up a little of the load, see now — I carry it all, hide and all. »",
+   "n": "μὴ θελήσας, an aorist participle with μή rather than οὐ, gives the reason and the condition at once: \"because I refused\". βαστάζω is to carry a weight, to hold it up. Chambry prints ἰδοῦ with a circumflex where the usual accent is ἰδού; the page is followed as it stands."
+  },
+  {
+   "t": "Ὁ μῦθος δηλοῖ ὅτι τοῖς μικροῖς οἱ μεγάλοι συγκοινωνοῦντες οἱ ἀμφότεροι σωθήσονται ἐν βίῳ.",
+   "tr": "Ho mythos dēloi hoti tois mikrois hoi megaloi synkoinōnountes hoi amphoteroi sōthēsontai en biōi.",
+   "l": "The fable shows that the great, sharing with the small, both of them will be kept safe in life.",
+   "i": "The fable shows that when the great make common cause with the small, both come safe through life.",
+   "n": "συγκοινωνέω takes the dative of the party one shares with. The sentence is loosely built: οἱ μεγάλοι … συγκοινωνοῦντες is taken up again by οἱ ἀμφότεροι, \"both of them\", a resumption classical prose would not need. σωθήσονται is future passive of σῴζω, \"will be kept safe\".",
+   "p": true
+  }
+ ]
+}

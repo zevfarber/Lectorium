@@ -10,16 +10,34 @@ WHY THIS EXISTS
     moves here and an unattended nightly session gets every source it needs with
     an unauthenticated `git fetch`, never opening a browser.
 
-HOW A TALE IS IDENTIFIED  (the rule grimm-corpus-plan.md proves and requires)
-    The KHM number is read off EACH PAGE'S OWN Textdaten box, out of its
-    SONSTIGES row ("seit 1812: KHM 76"). Never off index position, never off the
-    index entry's text: the index's link order is not edition order — Die
-    Goldkinder (KHM 85) sits between 62 and 63 in the DOM. Only the BOX's text is
-    searched, never the whole page: the "Andere Version" footer links to
-    .../Anmerkungen#76 and would be a second number to trip over. A box offering
-    two different numbers fails loudly and the tale is skipped — never guessed.
-    The number is re-read from the page's own box again at write time, so nothing
-    is ever archived on the strength of a cached number.
+HOW A TALE IS IDENTIFIED  (rewritten after the second live run)
+    THE PRINTED NUMERAL IS THE DATUM. Every numbered 1857 tale carries its number
+    in the text itself: the centred "76." standing above the title, straight off
+    the scanned page. That is evidence from the artifact, so it is what decides,
+    and it is read from the page's leading block before the leading-heading guard
+    removes it (the guard still removes it — the published corpus proves the
+    numeral and the title are not part of the tale).
+
+    SONSTIGES IS A RENUMBERING HISTORY, NOT THE 1857 NUMBER. The second live run
+    failed exactly here: Die Sternthaler's box offers 83 AND 153 (83 in the early
+    editions, 153 in 1857); Die Goldkinder offers 63 and 85 (85 in 1857);
+    Strohhalm, Kohle und Bohne is 18 in 1857 but its box yields 19. Picking the
+    larger, the last, or refusing on ambiguity are all wrong, so the box is now a
+    CROSS-CHECK ONLY: its KHM numbers are parsed, and if the printed numeral is
+    not among them a warning is logged naming both — but the printed numeral is
+    used, and nothing is skipped over the disagreement. Never off index position
+    either: the index's link order is not edition order.
+
+    NO PRINTED NUMERAL -> SKIP, NEVER FALL BACK. Those pages are the ten
+    Kinderlegenden and Der goldene Schlüssel: numbered separately in the book (the
+    legends run 1.-10. of their own) and out of scope for this pass. Their own
+    "1." must never be taken for KHM 1 — that is what produced the bogus
+    "KHM 121 claimed twice" line — so a page with a printed numeral but NO KHM
+    number anywhere in its Textdaten box is skipped as a probable legend too.
+    211 discovered pages - 11 legends/specials = the 200 numbered tales.
+
+    The number is re-read from the page itself again at write time, so nothing is
+    ever archived on the strength of a cached number.
 
 HOW CANDIDATE PAGES ARE DISCOVERED
     From the TWO 1857 volume pages, via the API's prop=links (not by scraping
@@ -34,7 +52,9 @@ WHAT IT GUARANTEES — three controls, all fatal, all before anything is written
        every extraction rule, plus two injected defects the comparator must
        catch. A gate that has only ever returned "pass" has not been shown to
        test anything.
-    1. NUMBER->TITLE MAPPING is proved against the published corpus: every Grimm
+    1. NUMBER->TITLE MAPPING is proved against the published corpus (and two
+       pages claiming the same number is a fatal defect, reported with both
+       titles, never resolved by keeping the first): every Grimm
        tale already in stories.json must agree with the mapping. 84 independent
        agreements, plus a >=190-of-200 coverage assertion, is what licenses
        trust in the mapping for the tales not yet done. A partial mapping fails
@@ -72,6 +92,7 @@ Usage:
 """
 
 import argparse
+import collections
 import json
 import os
 import re
@@ -103,6 +124,7 @@ MAX_ATTEMPTS = 5
 DEFAULT_LIMIT = 40
 MAPPING_MIN = 190         # of 200 numbered tales
 KHM_MAX = 210             # 200 tales + the ten Kinderlegenden
+TALE_MAX = 200            # the printed numeral of a numbered tale is 1..200
 
 
 def _repo_root():
@@ -253,18 +275,26 @@ def _is_poem(el):
     return "poem" in (el.get("class") or [])
 
 
-BARE_NUMERAL_RE = re.compile(r"^\d{1,3}\.$")
+# The centred numeral above the title: "76." — the 1857 number as the book
+# itself prints it. \s* on both sides because the block text is taken as it
+# comes; the guard's own input is already stripped.
+PRINTED_NUMERAL_RE = re.compile(r"^\s*(\d{1,3})\.\s*$")
 
 
 def drop_leading_headings(blocks, page="?"):
-    """Defensive no-op guard for the centred "76." / "Die Nelke." heading.
+    """Remove the centred "76." / "Die Nelke." heading from the archived text.
 
-    On a real tale page those two lines sit in a generic container, not a <p>,
-    so the extractor never collects them (nelke.json's sentence 0 is the first
-    line of the story, proving it). This drops AT MOST the first two blocks, and
-    only when a block is exactly a bare numeral or exactly the tale's own title.
-    It is expected never to fire; if it does, it says so, because a page whose
-    markup changed shape is news, not something to swallow silently.
+    The second live run showed these arriving AS <p> blocks ("leading-heading
+    guard dropped a block (bare numeral): '76.'"), so this fires routinely now
+    rather than never. It still drops AT MOST the first two blocks, and only when
+    a block is exactly a bare numeral or exactly the tale's own title; the
+    published corpus proves neither belongs to the tale (nelke.json's sentence 0
+    is the first line of the story). It still says what it dropped, because a
+    page whose markup changed shape is news.
+
+    THE NUMERAL IS EVIDENCE, NOT NOISE: read it with printed_number() BEFORE
+    calling this. Dropping it from the archived text and using it as the tale's
+    1857 number are not in conflict — the book prints it outside the tale.
     """
     bare = re.sub(r"\s*\(1857\)\s*$", "", page or "").strip()
     title_key = fold_title(bare) if bare and bare != "?" else ""
@@ -277,7 +307,7 @@ def drop_leading_headings(blocks, page="?"):
         if "\n" in x or not x:
             break
         why = None
-        if BARE_NUMERAL_RE.match(x):
+        if PRINTED_NUMERAL_RE.match(x):
             why = "bare numeral"
         elif title_key and fold_title(x) == title_key:
             why = "tale title"
@@ -289,14 +319,22 @@ def drop_leading_headings(blocks, page="?"):
     return out
 
 
-def extract_blocks(html, page="?"):
-    """Ordered [{'t':'p'|'v','x':...}] from a Wikisource parse fragment."""
-    soup = BeautifulSoup(html, "lxml")
-    root = soup.select_one(".mw-parser-output") or soup
+def _pruned_root(html):
+    """The parse fragment with the non-text furniture decomposed.
 
+    Note this removes the Textdaten <table> along with everything else in
+    DROP_SELECTOR, which is why the printed numeral read from here can never be
+    contaminated by the box's numbers, and why the box must be read from its own
+    fresh soup (see box_numbers)."""
+    soup = BeautifulSoup(html or "", "lxml")
+    root = soup.select_one(".mw-parser-output") or soup
     for el in root.select(DROP_SELECTOR):
         el.decompose()
+    return root
 
+
+def _collect_blocks(root):
+    """Ordered [{'t':'p'|'v','x':...}], before the leading-heading guard."""
     blocks = []
 
     def walk(node):
@@ -314,6 +352,66 @@ def extract_blocks(html, page="?"):
             walk(child)
 
     walk(root)
+    return blocks
+
+
+# How far down the page a printed numeral may sit. Deliberately the same window
+# the leading-heading guard drops from: a numeral is only ever accepted where the
+# guard would also remove it, so the number used and the text archived can never
+# disagree about what belongs to the tale.
+LEADING_SCAN = 2
+
+
+def leading_texts(root, limit=LEADING_SCAN):
+    """The first few single-line text units in document order.
+
+    Wider than _collect_blocks on purpose: the centred numeral is a <p> on the
+    pages the live run met, but on other pages it sits in a bare
+    <div style="text-align:center">, which the block extractor (rightly) ignores.
+    A generic container with no block children counts as one unit here, so the
+    numeral is found in either shape. Only the first few units are ever returned,
+    so nothing deep in the tale can be mistaken for a heading.
+    """
+    out = []
+
+    def walk(node):
+        for child in node.find_all(recursive=False):
+            if len(out) >= limit:
+                return
+            if _is_poem(child) or child.name == "p":
+                txt = _block_text(child)
+                if txt:
+                    out.append(txt)
+                continue
+            if child.find(["p", "div", "table", "ul", "ol", "dl"]) is None:
+                txt = _block_text(child)          # a leaf container: the centred div
+                if txt:
+                    out.append(txt)
+                continue
+            walk(child)
+
+    walk(root)
+    return out[:limit]
+
+
+def printed_number(html, page="?"):
+    """The 1857 number as the book prints it: the bare "76." above the title.
+
+    THE authoritative number (see the module docstring). Returns None when the
+    page has no such numeral — the Kinderlegenden and Der goldene Schlüssel —
+    and the caller then skips the page. It never falls back to anything.
+    """
+    for txt in leading_texts(_pruned_root(html)):
+        m = PRINTED_NUMERAL_RE.match(txt)
+        if m:
+            n = int(m.group(1))
+            return n if 1 <= n <= TALE_MAX else None
+    return None
+
+
+def extract_blocks(html, page="?"):
+    """Ordered [{'t':'p'|'v','x':...}] from a Wikisource parse fragment."""
+    blocks = _collect_blocks(_pruned_root(html))
     blocks = drop_leading_headings(blocks, page)
 
     # Refuse an implausible result rather than returning it. The failure this
@@ -331,19 +429,32 @@ def extract_blocks(html, page="?"):
 
 
 # --------------------------------------------------------------------------
-# the KHM number, read off the page's OWN Textdaten box
+# the tale's 1857 number: printed numeral decides, Textdaten box cross-checks
 # --------------------------------------------------------------------------
 
 KHM_RE = re.compile(r"KHM\s*[:.\s]?\s*(\d{1,3})")
 BOX_SELECTORS = ("table.ws-header", "#ws-data", "table.textdaten", ".ws-header", ".textdaten")
 
-# The Textdaten template's own field, in raw wikitext: "|SONSTIGES=seit 1812: KHM 76".
-# Unambiguous by construction — it is one named field of one template.
-SONSTIGES_RE = re.compile(r"^\|\s*SONSTIGES\s*=.*?KHM\s*[:.\s]?\s*(\d{1,3})", re.M)
+# The Textdaten template's own field, in raw wikitext: "|SONSTIGES=seit 1812:
+# KHM 76". Unambiguous by construction — one named field of one template — and
+# used only to reconstruct the box's cross-check set when the rendered box
+# yielded nothing. It never supplies the tale's number.
+SONSTIGES_FIELD_RE = re.compile(r"^\|\s*SONSTIGES\s*=(.*)$", re.M)
 
 
-class AmbiguousNumber(RuntimeError):
-    """The Textdaten box offered more than one KHM number. Never guess."""
+class DuplicateNumber(RuntimeError):
+    """Two pages claimed the same 1857 number. A real defect — reported with both
+    titles and fatal, never resolved by keeping the first."""
+
+    def __init__(self, conflicts):
+        self.conflicts = list(conflicts)
+        RuntimeError.__init__(self, " | ".join(self.conflicts))
+
+
+# number: the 1857 number, or None when the page is skipped.
+# kind:   "numbered" | "legend".
+# message: a warning (kind "numbered") or the reason for skipping ("legend").
+NumberResult = collections.namedtuple("NumberResult", "number kind message")
 
 
 def textdaten_box(soup):
@@ -359,56 +470,89 @@ def textdaten_box(soup):
     return None
 
 
-def khm_number(html, wikitext="", page="?"):
-    """Read the KHM number off the page's OWN Textdaten box.
+def box_numbers(html, wikitext=""):
+    """Every KHM number the page's OWN Textdaten box offers — the renumbering
+    history, as a set. CROSS-CHECK MATERIAL ONLY; it never decides a number.
 
-    The index page's link order is NOT edition order (Die Goldkinder, KHM 85,
-    sits between 62 and 63 in the DOM). Never count positions, and never take
-    the number from prose elsewhere on the page when a box is present.
-
-    PRIMARY PATH — the box's SONSTIGES row, which reads "seit 1812: KHM 76".
     Only the BOX's text is searched, never the whole page: the "Andere Version"
     footer links to "Kinder- und Haus-Märchen Band 3 (1856)/Anmerkungen#76" and
-    is exactly the sort of second number that must not be mistaken for the datum.
+    is exactly the sort of stray number that must not join the set. When the
+    rendered box yields nothing, the header template's SONSTIGES field in the raw
+    wikitext stands in for it — the same datum, same template, so a real tale is
+    not mistaken for a legend just because the box did not render.
 
-    Two different numbers in the box raises AmbiguousNumber. A tale whose number
-    cannot be read fails loudly and is skipped; it is never guessed.
-
-    Read this BEFORE the extractor touches the page. The box is a <table> and
-    extract_blocks decomposes tables — but each parses its own fresh soup from
-    the HTML string, so neither can strip the other's evidence. Keep it that way:
-    do not pass a shared, already-pruned soup in here.
+    Parses its own fresh soup: extract_blocks decomposes tables, and the box is
+    one. Do not pass a shared, already-pruned soup in here.
     """
-    soup = BeautifulSoup(html or "", "lxml")
-    box = textdaten_box(soup)
+    nums = set()
+    box = textdaten_box(BeautifulSoup(html or "", "lxml"))
     if box is not None:
         nums = _plausible(KHM_RE.findall(box.get_text(" ", strip=True)))
-        if len(nums) > 1:
-            raise AmbiguousNumber(
-                "%s: Textdaten box offers %d different KHM numbers (%s) — refusing to guess"
-                % (page, len(nums), ", ".join(str(n) for n in sorted(nums))))
-        if nums:
-            return nums.pop()
+    if not nums:
+        for value in SONSTIGES_FIELD_RE.findall(wikitext or ""):
+            nums |= _plausible(KHM_RE.findall(value))
+    return nums
 
-    # Fallbacks, in order, only when the box yielded nothing: the same datum as
-    # a named field of the header template in the raw wikitext, then any KHM
-    # mention in the wikitext at all.
-    m = SONSTIGES_RE.search(wikitext or "")
-    if m:
-        n = int(m.group(1))
-        if 1 <= n <= KHM_MAX:
-            return n
-    m = KHM_RE.search(wikitext or "")
-    if m:
-        n = int(m.group(1))
-        if 1 <= n <= KHM_MAX:
-            return n
-    return None
+
+def tale_number(html, wikitext="", page="?"):
+    """The tale's 1857 number, as a NumberResult. The one place this is decided.
+
+    THE PRINTED NUMERAL DECIDES. The box only cross-checks: a printed numeral
+    absent from the box gets a warning naming both and is used anyway, because
+    the box is a renumbering history (Sternthaler: 83 early, 153 in 1857;
+    Strohhalm: box says 19, the 1857 book prints 18). Disagreement is EXPECTED
+    for renumbered tales and never causes a skip.
+
+    No printed numeral, or a printed numeral on a page whose box holds no KHM
+    number at all, means one of the Kinderlegenden or Der goldene Schlüssel:
+    kind "legend", number None, skipped with a reason. The second condition is
+    what stops a legend's own "1." from being archived as KHM 1.
+    """
+    printed = printed_number(html, page)
+    box = box_numbers(html, wikitext)
+
+    if printed is None:
+        return NumberResult(None, "legend",
+                            "%s: no printed numeral above the title — one of the ten "
+                            "Kinderlegenden or Der goldene Schlüssel, numbered separately in "
+                            "the 1857 book and out of scope for this pass" % page)
+    if not box:
+        return NumberResult(None, "legend",
+                            "%s: prints %r but its Textdaten box holds no KHM number at all — "
+                            "probable Kinderlegende numbering itself 1.-10.; refusing to read "
+                            "it as KHM %d" % (page, "%d." % printed, printed))
+    if printed not in box:
+        return NumberResult(printed, "numbered",
+                            "%s: the page prints %r but its Textdaten box offers KHM %s — using "
+                            "the printed numeral (SONSTIGES is a renumbering history, not the "
+                            "1857 number)"
+                            % (page, "%d." % printed, ", ".join(str(n) for n in sorted(box))))
+    return NumberResult(printed, "numbered", None)
 
 
 def _plausible(found):
     """The distinct in-range numbers among regex hits."""
     return {int(x) for x in found if 1 <= int(x) <= KHM_MAX}
+
+
+def assemble_mapping(claims):
+    """{number: entry} from (number, entry) claims, or DuplicateNumber.
+
+    Two pages claiming one number is a defect in the number-reading, not a tie to
+    break: the run stops and names both pages. (Keeping the first is what let the
+    bogus "KHM 19 claimed twice" pass through the second live run.)
+    """
+    mapping, conflicts = {}, []
+    for number, entry in claims:
+        prev = mapping.get(number)
+        if prev is not None and prev["page"] != entry["page"]:
+            conflicts.append("KHM %d claimed by two pages: %r and %r"
+                             % (number, prev["page"], entry["page"]))
+            continue
+        mapping[number] = entry
+    if conflicts:
+        raise DuplicateNumber(conflicts)
+    return mapping
 
 
 # --------------------------------------------------------------------------
@@ -510,6 +654,7 @@ FIXTURE_HTML = """
 <tr><td>Sonstiges:</td><td>seit 1812: KHM 12</td></tr></table>
 <div class="ws-noexport">Diese Seite ist zweimal korrekturgelesen. KHM 199</div>
 <h2>Rapunzel<span class="mw-editsection">[bearbeiten]</span></h2>
+<p>12.</p>
 <p>Es war einmal ein Mann
 und eine Frau<sup class="reference">FUSSNOTE-XYZ</sup>, die wünschten sich[7] ein Kind.</p>
 <div class="poem"><p>Rapunzel, Rapunzel,<br/>
@@ -520,18 +665,18 @@ laß mir dein Haar herunter.</p></div>
 </div>
 """
 
-# The real shape of a tale page, modelled on Die Nelke (1857) as it is live
-# today: the number lives in the Textdaten box's SONSTIGES row, and the footer
-# carries an "Andere Version" link to the 1856 Anmerkungsband whose fragment is
-# also "76" — the decoy the box-only rule exists to ignore.
+# The real shape of a tale page, modelled on Die Nelke (1857) as the second live
+# run met it: the numeral "76." and the title arrive as <p> blocks (the run's own
+# log says so), the box's SONSTIGES row agrees, and the footer carries an "Andere
+# Version" link to the 1856 Anmerkungsband — the decoy the box-only rule ignores.
 FIXTURE_TEXTDATEN_HTML = """
 <div class="mw-parser-output">
 <table class="ws-header"><tr><th colspan="2">Textdaten</th></tr>
 <tr><td>Autor:</td><td>Brüder Grimm</td></tr>
 <tr><td>Titel:</td><td>Die Nelke</td></tr>
 <tr><td>Sonstiges:</td><td>seit 1812: KHM 76</td></tr></table>
-<div style="text-align:center">76.</div>
-<div style="text-align:center"><b>Die Nelke.</b></div>
+<p>76.</p>
+<p><b>Die Nelke.</b></p>
 <p>Es war eine Königin, die hatte unser Herr Gott verschlossen.</p>
 <p>Da sprach der Koch: es soll geschehen.</p>
 <div class="ws-noexport">Andere Version:
@@ -540,21 +685,82 @@ FIXTURE_TEXTDATEN_HTML = """
 </div>
 """
 
-# A box offering two different numbers: must fail loudly, never be guessed.
-FIXTURE_AMBIGUOUS_HTML = """
+# The same page in the other shape seen in the wild: the centred numeral in a
+# bare <div>, which the block extractor ignores. The numeral must still be read.
+FIXTURE_CENTERED_DIV_HTML = """
 <div class="mw-parser-output">
-<table class="ws-header"><tr><th>Textdaten</th></tr>
-<tr><td>Sonstiges:</td><td>seit 1812: KHM 76</td></tr>
-<tr><td>Anmerkung:</td><td>vergleiche KHM 77</td></tr></table>
-<p>Es war einmal.</p>
+<table class="ws-header"><tr><th colspan="2">Textdaten</th></tr>
+<tr><td>Titel:</td><td>Die Nelke</td></tr>
+<tr><td>Sonstiges:</td><td>seit 1812: KHM 76</td></tr></table>
+<div style="text-align:center">76.</div>
+<div style="text-align:center"><b>Die Nelke.</b></div>
+<p>Es war eine Königin, die hatte unser Herr Gott verschlossen.</p>
+<p>Da sprach der Koch: es soll geschehen.</p>
 </div>
 """
 
-# A box with no number at all: the wikitext SONSTIGES field is the fallback.
+# A RENUMBERED tale — Die Sternthaler, KHM 83 in the early editions and 153 in
+# 1857. Its box offers both. This is the case that failed the second live run.
+FIXTURE_RENUMBERED_HTML = """
+<div class="mw-parser-output">
+<table class="ws-header"><tr><th>Textdaten</th></tr>
+<tr><td>Titel:</td><td>Die Sternthaler</td></tr>
+<tr><td>Sonstiges:</td><td>seit 1812: KHM 83; seit 1857: KHM 153</td></tr></table>
+<p>153.</p>
+<p><b>Die Sternthaler.</b></p>
+<p>Es war einmal ein kleines Mädchen, dem war Vater und Mutter gestorben.</p>
+<p>Da fielen die Sterne vom Himmel.</p>
+</div>
+"""
+
+# A DISAGREEING tale — Strohhalm, Kohle und Bohne prints 18. in 1857 while its
+# box yields only KHM 19. The printed numeral wins; a warning is logged.
+FIXTURE_DISAGREE_HTML = """
+<div class="mw-parser-output">
+<table class="ws-header"><tr><th>Textdaten</th></tr>
+<tr><td>Titel:</td><td>Strohhalm, Kohle und Bohne</td></tr>
+<tr><td>Sonstiges:</td><td>seit 1812: KHM 19</td></tr></table>
+<p>18.</p>
+<p><b>Strohhalm, Kohle und Bohne.</b></p>
+<p>In einem Dorfe wohnte eine arme alte Frau.</p>
+<p>Da lachte der Strohhalm.</p>
+</div>
+"""
+
+# A KINDERLEGENDE — Die zwölf Apostel: no printed numeral, and no KHM number
+# anywhere in its box. Skipped, never numbered, never guessed from wikitext.
+FIXTURE_LEGEND_HTML = """
+<div class="mw-parser-output">
+<table class="ws-header"><tr><th>Textdaten</th></tr>
+<tr><td>Titel:</td><td>Die zwölf Apostel</td></tr>
+<tr><td>Sonstiges:</td><td>Kinderlegende</td></tr></table>
+<p>Es war dreihundert Jahre vor der Geburt des Herrn Christus.</p>
+<p>Da gieng sie hin.</p>
+</div>
+"""
+
+# A legend that DOES print a numeral — its own "1.", because the Kinderlegenden
+# are numbered 1.-10. separately. Its box holds no KHM number, so it is skipped:
+# reading this as KHM 1 is precisely the bogus "claimed twice" defect.
+FIXTURE_LEGEND_NUMBERED_HTML = """
+<div class="mw-parser-output">
+<table class="ws-header"><tr><th>Textdaten</th></tr>
+<tr><td>Titel:</td><td>Der heilige Joseph im Walde</td></tr>
+<tr><td>Sonstiges:</td><td>Kinderlegende Nr. 1</td></tr></table>
+<p>1.</p>
+<p><b>Der heilige Joseph im Walde.</b></p>
+<p>Es war eine Mutter, die hatte drei Töchter.</p>
+<p>Da gieng die älteste hinaus in den Wald.</p>
+</div>
+"""
+
+# A box with no number at all, on a page that DOES print its numeral: the
+# wikitext SONSTIGES field stands in as the cross-check set.
 FIXTURE_NO_BOX_NUMBER_HTML = """
 <div class="mw-parser-output">
 <table class="ws-header"><tr><th>Textdaten</th></tr>
 <tr><td>Titel:</td><td>Die Nelke</td></tr></table>
+<p>76.</p>
 <p>Es war eine Königin.</p>
 </div>
 """
@@ -629,34 +835,83 @@ def fixture_test(verbose=True):
     check("[NN] markers stripped", "[7]" not in texts[0], repr(texts[0]))
     check("h2 not collected", not any(t.strip() == "Rapunzel" for t in texts))
 
-    n = khm_number(FIXTURE_HTML)
-    check("KHM number read off the Textdaten box (12, not 199/200)", n == 12, n)
+    r = tale_number(FIXTURE_HTML, page="<fixture>")
+    check("printed '12.' is the number; the box agrees; 199/200 ignored",
+          r.number == 12 and r.message is None, r)
+    check("the printed numeral is still removed from the archived text",
+          not any(PRINTED_NUMERAL_RE.match(t) for t in texts), texts)
 
-    # ---- the number, in the shape the live pages actually have --------------
-    n = khm_number(FIXTURE_TEXTDATEN_HTML, page="Die Nelke (1857)")
-    check("SONSTIGES row 'seit 1812: KHM 76' reads as 76", n == 76, n)
+    # ---- CASE 1: agreement — printed '76.', box says only KHM 76 ------------
+    r = tale_number(FIXTURE_TEXTDATEN_HTML, page="Die Nelke (1857)")
+    check("printed '76.' with a box saying only KHM 76 reads as 76, no warning",
+          r == NumberResult(76, "numbered", None), r)
     check("the 1856 Anmerkungen footer (#76 / 'KHM 199') is not read as the number",
-          n == 76 and "KHM 199" in FIXTURE_TEXTDATEN_HTML, n)
+          r.number == 76 and "KHM 199" in FIXTURE_TEXTDATEN_HTML, r)
+    check("the numeral is also found when it sits in a centred <div>, not a <p>",
+          tale_number(FIXTURE_CENTERED_DIV_HTML, page="Die Nelke (1857)").number == 76)
 
     # The box is a <table> and the extractor decomposes tables. Reading the
     # number must not depend on extraction order — prove both orders agree.
     _ = extract_blocks(FIXTURE_TEXTDATEN_HTML, page="Die Nelke (1857)")
     check("number still readable after the extractor has run (no shared soup)",
-          khm_number(FIXTURE_TEXTDATEN_HTML, page="Die Nelke (1857)") == 76)
+          tale_number(FIXTURE_TEXTDATEN_HTML, page="Die Nelke (1857)").number == 76)
 
+    # ---- CASE 2: a RENUMBERED tale — printed 153., box offers 83 and 153 ----
+    r = tale_number(FIXTURE_RENUMBERED_HTML, page="Die Sternthaler (1857)")
+    check("renumbered tale takes the printed 153, not the box's earlier 83",
+          r.number == 153, r)
+    check("a box offering two numbers is no longer a skip (renumbering is normal)",
+          r.kind == "numbered" and r.message is None, r)
+    check("the corpus agrees: Die Sternthaler is published as KHM 153",
+          published_khm().get(153, ("", ""))[0] == "Die Sternthaler", published_khm().get(153))
+
+    # ---- CASE 3: DISAGREEMENT — printed 18., box offers only 19 -------------
+    r = tale_number(FIXTURE_DISAGREE_HTML, page="Strohhalm, Kohle und Bohne (1857)")
+    check("the printed 18. beats the box's 19 — never skipped, never overridden",
+          r.number == 18 and r.kind == "numbered", r)
+    check("the disagreement is warned about, naming page, numeral and box numbers",
+          r.message and "18" in r.message and "19" in r.message
+          and "Strohhalm" in r.message, r.message)
+    check("the corpus agrees: KHM 18 is Strohhalm and KHM 19 is the Fischer",
+          published_khm().get(18, ("", ""))[0] == "Strohhalm, Kohle und Bohne"
+          and published_khm().get(19, ("", ""))[0] == "Von dem Fischer un syner Fru")
+
+    # ---- CASE 4: a KINDERLEGENDE — no numeral, no KHM in the box -----------
+    r = tale_number(FIXTURE_LEGEND_HTML, page="Die zwölf Apostel (1857)")
+    check("a page with no printed numeral is skipped as a legend, not numbered",
+          r.number is None and r.kind == "legend", r)
+    check("the skip message says it is a legend and names the page",
+          r.message and "Kinderlegende" in r.message and "Apostel" in r.message, r.message)
+    check("wikitext |SONSTIGES= never rescues a page with no printed numeral",
+          tale_number(FIXTURE_LEGEND_HTML, FIXTURE_WIKITEXT,
+                      "Die zwölf Apostel (1857)").number is None)
+
+    # ---- CASE 5: a legend that prints its OWN '1.' -------------------------
+    r = tale_number(FIXTURE_LEGEND_NUMBERED_HTML, page="Der heilige Joseph im Walde (1857)")
+    check("a leading '1.' with no KHM anywhere in the box is NEVER returned as KHM 1",
+          r.number is None and r.kind == "legend", r)
+    check("that skip says why (probable legend numbering itself 1.-10.)",
+          r.message and "Kinderlegende" in r.message, r.message)
+
+    check("the box's cross-check set falls back to wikitext |SONSTIGES=",
+          box_numbers(FIXTURE_NO_BOX_NUMBER_HTML, FIXTURE_WIKITEXT) == {76})
+    check("a printed numeral with a wikitext-only box still reads as 76",
+          tale_number(FIXTURE_NO_BOX_NUMBER_HTML, FIXTURE_WIKITEXT).number == 76)
+
+    # ---- CASE 6: two pages claiming one number is FATAL --------------------
+    claims = [(19, {"page": "Strohhalm, Kohle und Bohne (1857)", "title": "a", "revid": 1}),
+              (19, {"page": "Von dem Fischer un syner Fru (1857)", "title": "b", "revid": 2})]
     try:
-        bad = khm_number(FIXTURE_AMBIGUOUS_HTML, page="<ambiguous>")
-        raised = False
-    except AmbiguousNumber as exc:
-        raised, bad = True, str(exc)
-    check("two different numbers in the box fail loudly, never guessed", raised, bad)
-    check("the ambiguity message names both numbers",
-          raised and "76" in bad and "77" in bad, bad)
-
-    check("wikitext |SONSTIGES= is the fallback when the box has no number",
-          khm_number(FIXTURE_NO_BOX_NUMBER_HTML, FIXTURE_WIKITEXT) == 76)
-    check("no number anywhere returns None (caller skips loudly)",
-          khm_number(FIXTURE_NO_BOX_NUMBER_HTML, "") is None)
+        assemble_mapping(claims)
+        dup = None
+    except DuplicateNumber as exc:
+        dup = str(exc)
+    check("two pages claiming the same number fail hard, never 'keeping the first'",
+          dup is not None, dup)
+    check("the duplicate report names BOTH pages",
+          dup and "Strohhalm" in dup and "Fischer" in dup, dup)
+    check("distinct numbers assemble normally",
+          sorted(assemble_mapping([(18, claims[0][1]), (19, claims[1][1])])) == [18, 19])
 
     # ---- discovery from prop=links -----------------------------------------
     titles = tale_links(FIXTURE_LINKS)
@@ -676,8 +931,18 @@ def fixture_test(verbose=True):
 
     # ---- the leading-heading guard -----------------------------------------
     real = extract_blocks(FIXTURE_TEXTDATEN_HTML, page="Die Nelke (1857)")
-    check("guard is a no-op on the real page shape (heading is not a <p>)",
+    check("guard removes the printed numeral AND the title from the archived text",
           len(real) == 2 and real[0]["x"].startswith("Es war eine Königin"), real)
+    centred = extract_blocks(FIXTURE_CENTERED_DIV_HTML, page="Die Nelke (1857)")
+    check("centred-<div> heading was never collected in the first place",
+          len(centred) == 2 and centred[0]["x"].startswith("Es war eine Königin"), centred)
+    check("archived text is identical in both page shapes",
+          first_diff(signature(real), signature(centred)) is None)
+    for name, html in (("Die Sternthaler", FIXTURE_RENUMBERED_HTML),
+                       ("Strohhalm, Kohle und Bohne", FIXTURE_DISAGREE_HTML)):
+        got = extract_blocks(html, page="%s (1857)" % name)
+        check("%s: numeral and title dropped, tale kept whole" % name,
+              len(got) == 2 and not any(PRINTED_NUMERAL_RE.match(b["x"]) for b in got), got)
     guarded = extract_blocks(FIXTURE_HEADING_AS_P_HTML, page="Die Nelke (1857)")
     check("guard drops a bare numeral and the bare title when they ARE <p>s",
           [b["x"] for b in guarded] == ["77.", "Es war eine Königin, die hatte unser "
@@ -752,38 +1017,49 @@ def discover_titles():
 
 
 def crawl_mapping():
-    """{khm: {page,title,revid}} built by asking every candidate page its own
-    number. Slow (one request per page) but done once and cached."""
+    """{khm: {page,title,revid}} built by asking every candidate page what number
+    it prints. Slow (one request per page) but done once and cached."""
     titles = discover_titles()
     print("discovered %d candidate 1857 pages" % len(titles))
-    mapping, skipped = {}, 0
+    claims, legends, unreadable, warnings = [], 0, 0, 0
     for t in titles:
         try:
             page = api_parse(t)
         except Exception as exc:
             print("  skip %s: %s" % (t, exc), file=sys.stderr)
-            skipped += 1
+            unreadable += 1
             continue
-        try:
-            n = khm_number(page["html"], page["wikitext"], t)
-        except AmbiguousNumber as exc:      # never guessed; loud and skipped
-            print("  skip %s: %s" % (t, exc), file=sys.stderr)
-            skipped += 1
+        res = tale_number(page["html"], page["wikitext"], t)
+        if res.number is None:
+            legends += 1
+            print("  skip %s" % res.message, file=sys.stderr)
             continue
-        if n is None:
-            print("  skip %s: no KHM number in its own Textdaten box" % t, file=sys.stderr)
-            skipped += 1
-            continue
-        if n in mapping and mapping[n]["page"] != t:
-            print("  KHM %d claimed twice: %r and %r — keeping the first"
-                  % (n, mapping[n]["page"], t), file=sys.stderr)
-            continue
-        mapping[n] = {
+        if res.message:                      # a renumbered tale: expected, not fatal
+            warnings += 1
+            print("  WARNING %s" % res.message, file=sys.stderr)
+        claims.append((res.number, {
             "page": t,
             "title": re.sub(r"\s*\(1857\)\s*$", "", t).strip(),
             "revid": page["revid"],
-        }
-    print("mapping: %d numbered tales (%d pages skipped)" % (len(mapping), skipped))
+        }))
+
+    try:
+        mapping = assemble_mapping(claims)
+    except DuplicateNumber as exc:
+        print("\nNUMBERING CONTROL FAILED — one 1857 number, two pages:", file=sys.stderr)
+        for line in exc.conflicts:
+            print("  " + line, file=sys.stderr)
+        print("Committing nothing.", file=sys.stderr)
+        raise SystemExit(3)
+
+    print("mapping: %d numbered tales" % len(mapping))
+    print("skipped as Kinderlegenden/specials (unnumbered in the 1857 sequence, "
+          "out of scope for this pass): %d" % legends)
+    if warnings:
+        print("%d page(s) where the printed numeral disagreed with SONSTIGES — renumbered "
+              "tales; the printed numeral was used" % warnings)
+    if unreadable:
+        print("%d page(s) could not be fetched" % unreadable)
     return mapping
 
 
@@ -923,14 +1199,16 @@ def archive_one(khm, entry):
     page = entry["page"]
     got = api_parse(page)
 
-    # Never archive on the strength of a cached number: re-read it from this
-    # page's own Textdaten box, now — and before the extractor, which drops the
-    # tables the box is made of.
-    n = khm_number(got["html"], got["wikitext"], page)
-    if n is None:
-        raise RuntimeError("%s: no KHM number in its own Textdaten box" % page)
-    if n != khm:
-        raise RuntimeError("%s: page says KHM %d, index says KHM %d" % (page, n, khm))
+    # Never archive on the strength of a cached number: re-read the numeral the
+    # page itself prints, now.
+    res = tale_number(got["html"], got["wikitext"], page)
+    if res.number is None:
+        raise RuntimeError(res.message)
+    if res.message:
+        print("  " + res.message, file=sys.stderr)
+    if res.number != khm:
+        raise RuntimeError("%s: the page prints %d., the index says KHM %d"
+                           % (page, res.number, khm))
 
     blocks = extract_blocks(got["html"], page)
     if len(blocks) < 2:
@@ -946,7 +1224,8 @@ def archive_one(khm, entry):
         "source": ("Brüder Grimm, Kinder- und Hausmärchen, 7. Auflage (Ausgabe letzter Hand), "
                    "Dieterich, Göttingen 1857, KHM %d. Text from de.wikisource.org "
                    "(twice proofread); 1857 spelling preserved exactly." % khm),
-        "extractor": "archive_khm.py v1 (rules v2: <br>-only breaks, KHM off the Textdaten box)",
+        "extractor": ("archive_khm.py v2 (rules v2: <br>-only breaks; 1857 number off the "
+                      "numeral the page prints, Textdaten box as cross-check only)"),
         "tokens": len([t for t in sig if t != NL]),
         "lineBreaks": sig.count(NL),
         "blocks": blocks,

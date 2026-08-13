@@ -26,6 +26,19 @@ name: Archive KHM sources
 # first few times.
 
 on:
+  # Pushing a new version of the archiver runs it immediately. This is what makes
+  # the whole thing one step for Zev: the PowerShell publish script pushes the
+  # script, and that push IS the trigger — no "Run workflow" click.
+  #
+  # Safe against self-retrigger three ways, same as audio.yml: this filter matches
+  # only the script itself (the Action's own commit touches sources/** ), commits
+  # made with the built-in GITHUB_TOKEN do not start further runs, and the commit
+  # carries [skip ci].
+  push:
+    branches: [main]
+    paths:
+      - '.github/scripts/archive_khm.py'
+      - '.github/workflows/archive.yml'
   schedule:
     # 01:17 UTC daily — well clear of the nightly Cowork batch, so sources are
     # already in place by the time it runs. Idempotent: archives only what is

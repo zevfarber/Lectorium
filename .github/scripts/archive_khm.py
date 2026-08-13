@@ -10,13 +10,33 @@ WHY THIS EXISTS
     moves here and an unattended nightly session gets every source it needs with
     an unauthenticated `git fetch`, never opening a browser.
 
-HOW A TALE IS IDENTIFIED  (rewritten after the second live run)
+HOW A TALE IS IDENTIFIED  (rewritten after all 211 live pages were measured)
     THE PRINTED NUMERAL IS THE DATUM. Every numbered 1857 tale carries its number
     in the text itself: the centred "76." standing above the title, straight off
     the scanned page. That is evidence from the artifact, so it is what decides,
-    and it is read from the page's leading block before the leading-heading guard
-    removes it (the guard still removes it — the published corpus proves the
-    numeral and the title are not part of the tale).
+    and it is read before the leading-heading guard removes it from the archived
+    text (the guard still removes it — the published corpus proves the numeral
+    and the title are not part of the tale).
+
+    IT IS READ BY WALKING TEXT NODES, NOT <p> BLOCKS. On the live pages the
+    numeral is a <b> inside a styled <div> and is never a <p>. Looking for it
+    among the extracted <p> blocks therefore never found it, and the live run
+    skipped 97 real tales as "legends". The scan now walks text nodes in document
+    order over the content root with table/sup/style/script/.ws-noexport/
+    .noprint/.catlinks/.mw-editsection removed, takes the first node matching
+    "NNN." (or "NNN*."), and gives up at the first node longer than three words,
+    which is prose. The scanned-page marker's "[" / "280" / "]" triple is three
+    short nodes, so the scan walks past it.
+
+    THE KINDERLEGENDE RULE: skip when the printed numeral is <= 10 AND is not
+    among the KHM numbers in the page's tables (an empty box counts as "not
+    among"). Nothing else. An empty-box test is wrong in both directions: Die
+    himmlische Hochzeit prints "9." with a box saying KHM 121 (a legend it
+    missed, colliding with the real KHM 9), and Der goldene Schlüssel prints
+    "200." with an empty box (a real tale it discarded).
+
+    A "151*." numeral is the one starred variant, Die zwölf faulen Knechte. It is
+    skipped, named in the log, counted separately, and never read as plain 151.
 
     SONSTIGES IS A RENUMBERING HISTORY, NOT THE 1857 NUMBER. The second live run
     failed exactly here: Die Sternthaler's box offers 83 AND 153 (83 in the early
@@ -28,13 +48,12 @@ HOW A TALE IS IDENTIFIED  (rewritten after the second live run)
     used, and nothing is skipped over the disagreement. Never off index position
     either: the index's link order is not edition order.
 
-    NO PRINTED NUMERAL -> SKIP, NEVER FALL BACK. Those pages are the ten
-    Kinderlegenden and Der goldene Schlüssel: numbered separately in the book (the
-    legends run 1.-10. of their own) and out of scope for this pass. Their own
-    "1." must never be taken for KHM 1 — that is what produced the bogus
-    "KHM 121 claimed twice" line — so a page with a printed numeral but NO KHM
-    number anywhere in its Textdaten box is skipped as a probable legend too.
-    211 discovered pages - 11 legends/specials = the 200 numbered tales.
+    THE SHAPE IS ASSERTED, NOT HOPED FOR. 211 discovered pages = 200 numbered
+    tales (1-200, no gaps, no duplicates) + 10 Kinderlegenden + 1 starred
+    variant, with 1 expected printed-vs-box warning (Strohhalm, Kohle und Bohne:
+    prints 18, box says 19; 18 is correct and the corpus confirms it). The crawl
+    fails loudly and exits non-zero on anything else — a partial mapping is never
+    archived from.
 
     The number is re-read from the page itself again at write time, so nothing is
     ever archived on the strength of a cached number.
@@ -101,7 +120,7 @@ import time
 import unicodedata
 
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Comment, NavigableString
 
 API = "https://de.wikisource.org/w/api.php"
 UA = "Lectorium-archiver/1.0 (https://github.com/zevfarber/Lectorium; text archiving for a reading app)"
@@ -292,7 +311,7 @@ def drop_leading_headings(blocks, page="?"):
     is the first line of the story). It still says what it dropped, because a
     page whose markup changed shape is news.
 
-    THE NUMERAL IS EVIDENCE, NOT NOISE: read it with printed_number() BEFORE
+    THE NUMERAL IS EVIDENCE, NOT NOISE: read it with printed_numeral() BEFORE
     calling this. Dropping it from the archived text and using it as the tale's
     1857 number are not in conflict — the book prints it outside the tale.
     """
@@ -355,57 +374,68 @@ def _collect_blocks(root):
     return blocks
 
 
-# How far down the page a printed numeral may sit. Deliberately the same window
-# the leading-heading guard drops from: a numeral is only ever accepted where the
-# guard would also remove it, so the number used and the text archived can never
-# disagree about what belongs to the tale.
-LEADING_SCAN = 2
+# The furniture removed before the numeral is looked for. Exactly the selector
+# the algorithm was validated with against all 211 live pages — NOT
+# DROP_SELECTOR, which also removes h1-h3: a heading is short enough to scan
+# past harmlessly, and removing it would change measured behaviour.
+NUMERAL_DROP_SELECTOR = (
+    "table, sup, style, script, .ws-noexport, .noprint, .catlinks, .mw-editsection"
+)
+
+# The numeral as a TEXT NODE: "76." or, for the one starred variant, "151*.".
+NUMERAL_TEXT_RE = re.compile(r"^(\d{1,3})(\*)?\.$")
+
+# A text node with more than this many words is prose: the tale has begun and
+# there is no numeral to find. Everything above the numeral on a real page —
+# the scanned-page marker's "[" / "280" / "]" triple, a short title, a folio —
+# is at most three words, so the scan walks past all of it and stops at the
+# first sentence.
+MAX_MARKER_WORDS = 3
+
+# number: the printed numeral. starred: it printed "151*." not "151.".
+# text: the matched text node, for messages.
+PrintedNumeral = collections.namedtuple("PrintedNumeral", "number starred text")
 
 
-def leading_texts(root, limit=LEADING_SCAN):
-    """The first few single-line text units in document order.
+def _numeral_root(html):
+    """The parse fragment with only the numeral-scan furniture removed."""
+    soup = BeautifulSoup(html or "", "lxml")
+    root = soup.select_one(".mw-parser-output") or soup
+    for el in root.select(NUMERAL_DROP_SELECTOR):
+        el.decompose()
+    return root
 
-    Wider than _collect_blocks on purpose: the centred numeral is a <p> on the
-    pages the live run met, but on other pages it sits in a bare
-    <div style="text-align:center">, which the block extractor (rightly) ignores.
-    A generic container with no block children counts as one unit here, so the
-    numeral is found in either shape. Only the first few units are ever returned,
-    so nothing deep in the tale can be mistaken for a heading.
+
+def printed_numeral(html, page="?"):
+    """The 1857 number as the book prints it: the centred "76." above the title.
+
+    THE authoritative number (see the module docstring). Validated in a browser
+    against all 211 live pages, and the rule is exactly this:
+
+    WALK TEXT NODES IN DOCUMENT ORDER, not <p> blocks. Reading the numeral out of
+    the extracted <p> blocks is the defect this replaces: on the live pages the
+    numeral is a <b> inside a styled <div> and is never a <p>, so it was never
+    found and 97 real tales were skipped as "legends".
+
+    The first text node matching "NNN." (or "NNN*.") gives the number. Scanning
+    stops — no numeral — at the first text node of more than MAX_MARKER_WORDS
+    words, because that is the tale's own prose. The scanned-page marker renders
+    as three separate text nodes, "[" / "280" / "]"; none matches and each is
+    short, so the scan correctly continues past it.
+
+    Returns a PrintedNumeral, or None when no numeral stands above the prose.
     """
-    out = []
-
-    def walk(node):
-        for child in node.find_all(recursive=False):
-            if len(out) >= limit:
-                return
-            if _is_poem(child) or child.name == "p":
-                txt = _block_text(child)
-                if txt:
-                    out.append(txt)
-                continue
-            if child.find(["p", "div", "table", "ul", "ol", "dl"]) is None:
-                txt = _block_text(child)          # a leaf container: the centred div
-                if txt:
-                    out.append(txt)
-                continue
-            walk(child)
-
-    walk(root)
-    return out[:limit]
-
-
-def printed_number(html, page="?"):
-    """The 1857 number as the book prints it: the bare "76." above the title.
-
-    THE authoritative number (see the module docstring). Returns None when the
-    page has no such numeral — the Kinderlegenden and Der goldene Schlüssel —
-    and the caller then skips the page. It never falls back to anything.
-    """
-    for txt in leading_texts(_pruned_root(html)):
-        m = PRINTED_NUMERAL_RE.match(txt)
+    for node in _numeral_root(html).descendants:
+        if not isinstance(node, NavigableString) or isinstance(node, Comment):
+            continue
+        txt = _clean_ws(str(node))
+        if not txt:
+            continue
+        m = NUMERAL_TEXT_RE.match(txt)
         if m:
-            n = int(m.group(1))
-            return n if 1 <= n <= TALE_MAX else None
+            return PrintedNumeral(int(m.group(1)), bool(m.group(2)), txt)
+        if len(txt.split()) > MAX_MARKER_WORDS:
+            return None
     return None
 
 
@@ -433,7 +463,14 @@ def extract_blocks(html, page="?"):
 # --------------------------------------------------------------------------
 
 KHM_RE = re.compile(r"KHM\s*[:.\s]?\s*(\d{1,3})")
-BOX_SELECTORS = ("table.ws-header", "#ws-data", "table.textdaten", ".ws-header", ".textdaten")
+
+# A printed numeral this small or smaller, on a page whose box does not contain
+# it, is one of the ten Kinderlegenden numbering themselves 1.-10. Nothing else
+# marks them: Die himmlische Hochzeit prints "9." and its box says KHM 121, so
+# an empty-box test misses it and it collides with the real KHM 9 (Die zwölf
+# Brüder); Der goldene Schlüssel prints "200." with an EMPTY box and is a real
+# tale, so an empty-box test throws it away. Both facts measured live.
+LEGEND_MAX = 10
 
 # The Textdaten template's own field, in raw wikitext: "|SONSTIGES=seit 1812:
 # KHM 76". Unambiguous by construction — one named field of one template — and
@@ -452,42 +489,29 @@ class DuplicateNumber(RuntimeError):
 
 
 # number: the 1857 number, or None when the page is skipped.
-# kind:   "numbered" | "legend".
-# message: a warning (kind "numbered") or the reason for skipping ("legend").
+# kind:   "numbered" | "legend" | "starred" | "unreadable".
+# message: a warning (kind "numbered") or the reason for skipping.
 NumberResult = collections.namedtuple("NumberResult", "number kind message")
 
 
-def textdaten_box(soup):
-    """The page's own header/Textdaten box, or None."""
-    for sel in BOX_SELECTORS:
-        el = soup.select_one(sel)
-        if el is not None:
-            return el
-    for t in soup.find_all("table"):
-        txt = t.get_text(" ", strip=True)
-        if "Textdaten" in txt or KHM_RE.search(txt):
-            return t
-    return None
-
-
 def box_numbers(html, wikitext=""):
-    """Every KHM number the page's OWN Textdaten box offers — the renumbering
-    history, as a set. CROSS-CHECK MATERIAL ONLY; it never decides a number.
+    """Every distinct KHM number in the text of the page's TABLE elements — the
+    renumbering history, as a set. CROSS-CHECK MATERIAL ONLY; it never decides a
+    number, and an empty set is a normal, harmless result (Der goldene Schlüssel).
 
-    Only the BOX's text is searched, never the whole page: the "Andere Version"
-    footer links to "Kinder- und Haus-Märchen Band 3 (1856)/Anmerkungen#76" and
-    is exactly the sort of stray number that must not join the set. When the
-    rendered box yields nothing, the header template's SONSTIGES field in the raw
-    wikitext stands in for it — the same datum, same template, so a real tale is
-    not mistaken for a legend just because the box did not render.
+    Tables only, never the whole page: the "Andere Version" footer links to
+    "Kinder- und Haus-Märchen Band 3 (1856)/Anmerkungen#76" and is exactly the
+    sort of stray number that must not join the set. When no table yields a
+    number, the header template's SONSTIGES field in the raw wikitext stands in —
+    the same datum from the same template, for pages whose box did not render.
 
     Parses its own fresh soup: extract_blocks decomposes tables, and the box is
     one. Do not pass a shared, already-pruned soup in here.
     """
     nums = set()
-    box = textdaten_box(BeautifulSoup(html or "", "lxml"))
-    if box is not None:
-        nums = _plausible(KHM_RE.findall(box.get_text(" ", strip=True)))
+    soup = BeautifulSoup(html or "", "lxml")
+    for t in soup.find_all("table"):
+        nums |= _plausible(KHM_RE.findall(t.get_text(" ", strip=True)))
     if not nums:
         for value in SONSTIGES_FIELD_RE.findall(wikitext or ""):
             nums |= _plausible(KHM_RE.findall(value))
@@ -498,30 +522,48 @@ def tale_number(html, wikitext="", page="?"):
     """The tale's 1857 number, as a NumberResult. The one place this is decided.
 
     THE PRINTED NUMERAL DECIDES. The box only cross-checks: a printed numeral
-    absent from the box gets a warning naming both and is used anyway, because
-    the box is a renumbering history (Sternthaler: 83 early, 153 in 1857;
+    absent from a non-empty box gets a warning naming both and is used anyway,
+    because the box is a renumbering history (Sternthaler: 83 early, 153 in 1857;
     Strohhalm: box says 19, the 1857 book prints 18). Disagreement is EXPECTED
     for renumbered tales and never causes a skip.
 
-    No printed numeral, or a printed numeral on a page whose box holds no KHM
-    number at all, means one of the Kinderlegenden or Der goldene Schlüssel:
-    kind "legend", number None, skipped with a reason. The second condition is
-    what stops a legend's own "1." from being archived as KHM 1.
+    THE KINDERLEGENDE RULE, as validated live: printed <= 10 AND printed not
+    among the box's numbers (an empty box counts as "not among"). Nothing else.
+    That is what catches Die himmlische Hochzeit (prints 9., box says KHM 121)
+    without throwing away Der goldene Schlüssel (prints 200., empty box), and
+    what keeps the real KHM 1-10, whose boxes do contain their own number.
+
+    A "151*." numeral is the one starred variant, Die zwölf faulen Knechte: it is
+    skipped as out of scope and is never read as plain 151.
     """
-    printed = printed_number(html, page)
+    found = printed_numeral(html, page)
     box = box_numbers(html, wikitext)
 
-    if printed is None:
+    if found is None:
+        return NumberResult(None, "unreadable",
+                            "%s: no printed numeral stands above the prose — every 1857 page "
+                            "measured live prints one, so this page's shape has changed and it "
+                            "is NOT silently treated as a legend" % page)
+    if found.starred:
+        return NumberResult(None, "starred",
+                            "%s: prints %r — the starred variant KHM %d*, not part of the "
+                            "numbered 1-200 sequence and out of scope for this pass; never read "
+                            "as plain KHM %d" % (page, found.text, found.number, found.number))
+
+    printed = found.number
+    if not 1 <= printed <= TALE_MAX:
+        return NumberResult(None, "unreadable",
+                            "%s: prints %r, which is outside the 1-%d range of 1857 tale "
+                            "numbers" % (page, found.text, TALE_MAX))
+    if printed <= LEGEND_MAX and printed not in box:
         return NumberResult(None, "legend",
-                            "%s: no printed numeral above the title — one of the ten "
-                            "Kinderlegenden or Der goldene Schlüssel, numbered separately in "
-                            "the 1857 book and out of scope for this pass" % page)
-    if not box:
-        return NumberResult(None, "legend",
-                            "%s: prints %r but its Textdaten box holds no KHM number at all — "
-                            "probable Kinderlegende numbering itself 1.-10.; refusing to read "
-                            "it as KHM %d" % (page, "%d." % printed, printed))
-    if printed not in box:
+                            "%s: prints %r and its Textdaten box (%s) does not contain %d — one "
+                            "of the ten Kinderlegenden, which number themselves 1.-10.; refusing "
+                            "to read it as KHM %d"
+                            % (page, found.text,
+                               ", ".join("KHM %d" % n for n in sorted(box)) or "no KHM number",
+                               printed, printed))
+    if box and printed not in box:
         return NumberResult(printed, "numbered",
                             "%s: the page prints %r but its Textdaten box offers KHM %s — using "
                             "the printed numeral (SONSTIGES is a renumbering history, not the "
@@ -533,6 +575,68 @@ def tale_number(html, wikitext="", page="?"):
 def _plausible(found):
     """The distinct in-range numbers among regex hits."""
     return {int(x) for x in found if 1 <= int(x) <= KHM_MAX}
+
+
+# What a correct crawl of the 211 live pages produces, measured page by page in
+# a browser on 13 Aug 2026: 200 numbered tales covering 1-200 with no gaps, the
+# ten Kinderlegenden, the one starred variant, nothing unreadable.
+EXPECTED_NUMBERED = 200
+EXPECTED_LEGENDS = 10
+EXPECTED_STARRED = 1
+EXPECTED_WARNINGS = 1          # Strohhalm, Kohle und Bohne: prints 18, box says 19
+
+
+class MappingShape(RuntimeError):
+    """The crawl produced a mapping that is not 1-200 complete. Fatal: it means
+    the number-reading is wrong again, and 'whatever it managed to find' is
+    exactly what must never be archived."""
+
+    def __init__(self, problems):
+        self.problems = list(problems)
+        RuntimeError.__init__(self, " | ".join(self.problems))
+
+
+def mapping_shape_problems(mapping):
+    """What differs between this mapping and the expected 1-200. Empty = correct.
+
+    Duplicates cannot reach here (assemble_mapping is fatal on them), so this is
+    stated as a fact about the assembled set and re-asserted anyway."""
+    problems = []
+    numbers = sorted(mapping)
+    if len(numbers) != EXPECTED_NUMBERED:
+        problems.append("expected %d numbered tales, got %d"
+                        % (EXPECTED_NUMBERED, len(numbers)))
+    if len(numbers) != len(set(numbers)):
+        problems.append("duplicate numbers in the assembled mapping: %s"
+                        % sorted({n for n in numbers if numbers.count(n) > 1}))
+    missing = [n for n in range(1, EXPECTED_NUMBERED + 1) if n not in mapping]
+    extra = [n for n in numbers if not 1 <= n <= EXPECTED_NUMBERED]
+    if missing:
+        problems.append("missing number(s): %s"
+                        % ", ".join(str(n) for n in missing[:40])
+                        + (" ... and %d more" % (len(missing) - 40) if len(missing) > 40 else ""))
+    if extra:
+        problems.append("number(s) outside 1-%d: %s"
+                        % (EXPECTED_NUMBERED, ", ".join(str(n) for n in extra[:40])))
+    return problems
+
+
+def assert_mapping_shape(mapping, legends=None, starred=None, unreadable=None):
+    """Fatal gate on the crawl's shape: 200 numbered, contiguous 1-200, no
+    duplicates — plus the skip counts when the caller has them. Prints exactly
+    what differs, then exits non-zero."""
+    problems = mapping_shape_problems(mapping)
+    if legends is not None and legends != EXPECTED_LEGENDS:
+        problems.append("expected %d Kinderlegenden skipped, got %d"
+                        % (EXPECTED_LEGENDS, legends))
+    if starred is not None and starred != EXPECTED_STARRED:
+        problems.append("expected %d starred variant skipped, got %d"
+                        % (EXPECTED_STARRED, starred))
+    if unreadable is not None and unreadable:
+        problems.append("%d page(s) could not be read at all — expected 0" % unreadable)
+    if problems:
+        raise MappingShape(problems)
+    return True
 
 
 def assemble_mapping(claims):
@@ -685,17 +789,92 @@ FIXTURE_TEXTDATEN_HTML = """
 </div>
 """
 
-# The same page in the other shape seen in the wild: the centred numeral in a
-# bare <div>, which the block extractor ignores. The numeral must still be read.
+# THE REAL SHAPE OF A LIVE PAGE, and the regression test for the defect this
+# file was last rewritten for: the numeral is a <b> inside a styled <div> and is
+# NEVER a <p>, so looking for it among the extracted <p> blocks never found it
+# and 97 real tales were skipped as "legends". Above it sits the scanned-page
+# marker, which renders as the three separate text nodes "[", "280", "]" — none
+# of them a numeral, all of them short, so the scan must walk past them rather
+# than stop.
 FIXTURE_CENTERED_DIV_HTML = """
 <div class="mw-parser-output">
 <table class="ws-header"><tr><th colspan="2">Textdaten</th></tr>
 <tr><td>Titel:</td><td>Die Nelke</td></tr>
 <tr><td>Sonstiges:</td><td>seit 1812: KHM 76</td></tr></table>
-<div style="text-align:center">76.</div>
+<span class="pagenum ws-pagenum">[<a href="/wiki/Seite:Grimms_M%C3%A4rchen_280.jpg">280</a>]</span>
+<div style="text-align:center; font-size:150%"><b>76.</b></div>
 <div style="text-align:center"><b>Die Nelke.</b></div>
 <p>Es war eine Königin, die hatte unser Herr Gott verschlossen.</p>
 <p>Da sprach der Koch: es soll geschehen.</p>
+</div>
+"""
+
+# A LEGEND WITH A NUMBERED BOX — Die himmlische Hochzeit prints "9." and its box
+# says KHM 121. The old "empty box" test called it a real tale, and it collided
+# with Die zwölf Brüder, the actual KHM 9. printed <= 10 and 9 not in {121}
+# is what catches it.
+FIXTURE_LEGEND_BOXED_HTML = """
+<div class="mw-parser-output">
+<table class="ws-header"><tr><th>Textdaten</th></tr>
+<tr><td>Titel:</td><td>Die himmlische Hochzeit</td></tr>
+<tr><td>Sonstiges:</td><td>KHM 121</td></tr></table>
+<div style="text-align:center"><b>9.</b></div>
+<div style="text-align:center"><b>Die himmlische Hochzeit.</b></div>
+<p>Es hörte einmal ein armer Bauernjunge in der Kirche.</p>
+</div>
+"""
+
+# THE REAL KHM 9 — Die zwölf Brüder prints "9." and its box contains KHM 9. Same
+# numeral as the legend above; only the box tells them apart.
+FIXTURE_KHM9_HTML = """
+<div class="mw-parser-output">
+<table class="ws-header"><tr><th>Textdaten</th></tr>
+<tr><td>Titel:</td><td>Die zwölf Brüder</td></tr>
+<tr><td>Sonstiges:</td><td>seit 1812: KHM 9</td></tr></table>
+<div style="text-align:center"><b>9.</b></div>
+<div style="text-align:center"><b>Die zwölf Brüder.</b></div>
+<p>Es war einmal ein König und eine Königin.</p>
+</div>
+"""
+
+# DER GOLDENE SCHLÜSSEL — prints "200." with a box holding NO KHM number at all.
+# A real tale, and the last one. The old "empty box means legend" test threw it
+# away; printed <= 10 is what makes the emptiness harmless here.
+FIXTURE_EMPTY_BOX_200_HTML = """
+<div class="mw-parser-output">
+<table class="ws-header"><tr><th>Textdaten</th></tr>
+<tr><td>Titel:</td><td>Der goldene Schlüssel</td></tr>
+<tr><td>Sonstiges:</td><td>—</td></tr></table>
+<div style="text-align:center"><b>200.</b></div>
+<div style="text-align:center"><b>Der goldene Schlüssel.</b></div>
+<p>Zur Winterszeit, als einmal ein tiefer Schnee lag.</p>
+</div>
+"""
+
+# THE ONE STARRED VARIANT — Die zwölf faulen Knechte prints "151*." and its box
+# offers KHM 151* and KHM 151. Skipped as out of scope; never read as 151, which
+# belongs to Der faule Heinz.
+FIXTURE_STARRED_HTML = """
+<div class="mw-parser-output">
+<table class="ws-header"><tr><th>Textdaten</th></tr>
+<tr><td>Titel:</td><td>Die zwölf faulen Knechte</td></tr>
+<tr><td>Sonstiges:</td><td>KHM 151*; seit 1857: KHM 151</td></tr></table>
+<div style="text-align:center"><b>151*.</b></div>
+<div style="text-align:center"><b>Die zwölf faulen Knechte.</b></div>
+<p>Zwölf Knechte, die den ganzen Tag nichts gethan hatten.</p>
+</div>
+"""
+
+# NO NUMERAL AT ALL: prose starts immediately, and a "5." sits further down in
+# the tale's own text. The scan must stop at the prose and never reach it.
+FIXTURE_NO_NUMERAL_HTML = """
+<div class="mw-parser-output">
+<table class="ws-header"><tr><th>Textdaten</th></tr>
+<tr><td>Titel:</td><td>Ein Blatt ohne Nummer</td></tr>
+<tr><td>Sonstiges:</td><td>seit 1812: KHM 76</td></tr></table>
+<p>Es war einmal ein Mann, der hatte sieben Söhne.</p>
+<div style="text-align:center"><b>5.</b></div>
+<p>Da gieng er fort.</p>
 </div>
 """
 
@@ -847,8 +1026,19 @@ def fixture_test(verbose=True):
           r == NumberResult(76, "numbered", None), r)
     check("the 1856 Anmerkungen footer (#76 / 'KHM 199') is not read as the number",
           r.number == 76 and "KHM 199" in FIXTURE_TEXTDATEN_HTML, r)
-    check("the numeral is also found when it sits in a centred <div>, not a <p>",
-          tale_number(FIXTURE_CENTERED_DIV_HTML, page="Die Nelke (1857)").number == 76)
+    # ---- THE REGRESSION TEST: the numeral is a <b> in a <div>, never a <p> --
+    live = tale_number(FIXTURE_CENTERED_DIV_HTML, page="Die Nelke (1857)")
+    check("numeral as <b> inside a styled <div> (NOT a <p>) is found — the live shape",
+          live == NumberResult(76, "numbered", None), live)
+    check("that page has no <p> numeral at all, so a <p>-only scan would find nothing",
+          not any(NUMERAL_TEXT_RE.match(b["x"])
+                  for b in _collect_blocks(_pruned_root(FIXTURE_CENTERED_DIV_HTML))))
+    marker = [_clean_ws(str(n)) for n in _numeral_root(FIXTURE_CENTERED_DIV_HTML).descendants
+              if isinstance(n, NavigableString) and _clean_ws(str(n))]
+    check("the page marker really is the three text nodes '[' / '280' / ']'",
+          marker[:3] == ["[", "280", "]"], marker[:6])
+    check("the marker triple is walked past, not treated as the end of the scan",
+          marker[3] == "76." and live.number == 76, marker[:6])
 
     # The box is a <table> and the extractor decomposes tables. Reading the
     # number must not depend on extraction order — prove both orders agree.
@@ -876,22 +1066,50 @@ def fixture_test(verbose=True):
           published_khm().get(18, ("", ""))[0] == "Strohhalm, Kohle und Bohne"
           and published_khm().get(19, ("", ""))[0] == "Von dem Fischer un syner Fru")
 
-    # ---- CASE 4: a KINDERLEGENDE — no numeral, no KHM in the box -----------
-    r = tale_number(FIXTURE_LEGEND_HTML, page="Die zwölf Apostel (1857)")
-    check("a page with no printed numeral is skipped as a legend, not numbered",
+    # ---- CASE 4: the KINDERLEGENDE rule — printed <= 10 and not in the box --
+    r = tale_number(FIXTURE_LEGEND_BOXED_HTML, page="Die himmlische Hochzeit (1857)")
+    check("printed 9. with a box saying KHM 121 is a LEGEND (the empty-box test missed it)",
           r.number is None and r.kind == "legend", r)
-    check("the skip message says it is a legend and names the page",
-          r.message and "Kinderlegende" in r.message and "Apostel" in r.message, r.message)
+    check("that skip names the page, the numeral and the box number",
+          r.message and "Hochzeit" in r.message and "9." in r.message
+          and "121" in r.message, r.message)
+
+    r = tale_number(FIXTURE_KHM9_HTML, page="Die zwölf Brüder (1857)")
+    check("printed 9. with a box saying KHM 9 is the REAL KHM 9, not a legend",
+          r == NumberResult(9, "numbered", None), r)
+    check("the corpus agrees: KHM 9 is Die zwölf Brüder",
+          published_khm().get(9, ("", ""))[0] in ("Die zwölf Brüder", ""), published_khm().get(9))
+
+    r = tale_number(FIXTURE_EMPTY_BOX_200_HTML, page="Der goldene Schlüssel (1857)")
+    check("printed 200. with an EMPTY box is a real tale — the last one, not a legend",
+          r == NumberResult(200, "numbered", None), r)
+
+    r = tale_number(FIXTURE_LEGEND_NUMBERED_HTML, page="Der heilige Joseph im Walde (1857)")
+    check("printed 1. with an empty box IS a legend, never returned as KHM 1",
+          r.number is None and r.kind == "legend", r)
+    check("that skip says why (a legend numbering itself 1.-10.)",
+          r.message and "Kinderlegende" in r.message, r.message)
+
+    # ---- CASE 5: the one STARRED variant -----------------------------------
+    r = tale_number(FIXTURE_STARRED_HTML, page="Die zwölf faulen Knechte (1857)")
+    check("'151*.' is skipped as a starred variant, and is NEVER read as 151",
+          r.number is None and r.kind == "starred", r)
+    check("the starred skip names the page and the starred numeral",
+          r.message and "Knechte" in r.message and "151*" in r.message, r.message)
+    check("the starred numeral is parsed as starred, not as a plain numeral",
+          printed_numeral(FIXTURE_STARRED_HTML) == PrintedNumeral(151, True, "151*."),
+          printed_numeral(FIXTURE_STARRED_HTML))
+
+    # ---- CASE 5b: no numeral at all — prose stops the scan -----------------
+    r = tale_number(FIXTURE_NO_NUMERAL_HTML, page="Ein Blatt ohne Nummer (1857)")
+    check("prose (>3 words) ends the scan: no numeral, and the tale's own '5.' is never reached",
+          r.number is None and r.kind == "unreadable", r)
+    check("a page with no numeral is NOT quietly called a legend",
+          r.kind != "legend" and r.message and "no printed numeral" in r.message, r.message)
+    r = tale_number(FIXTURE_LEGEND_HTML, page="Die zwölf Apostel (1857)")
     check("wikitext |SONSTIGES= never rescues a page with no printed numeral",
           tale_number(FIXTURE_LEGEND_HTML, FIXTURE_WIKITEXT,
-                      "Die zwölf Apostel (1857)").number is None)
-
-    # ---- CASE 5: a legend that prints its OWN '1.' -------------------------
-    r = tale_number(FIXTURE_LEGEND_NUMBERED_HTML, page="Der heilige Joseph im Walde (1857)")
-    check("a leading '1.' with no KHM anywhere in the box is NEVER returned as KHM 1",
-          r.number is None and r.kind == "legend", r)
-    check("that skip says why (probable legend numbering itself 1.-10.)",
-          r.message and "Kinderlegende" in r.message, r.message)
+                      "Die zwölf Apostel (1857)").number is None and r.number is None, r)
 
     check("the box's cross-check set falls back to wikitext |SONSTIGES=",
           box_numbers(FIXTURE_NO_BOX_NUMBER_HTML, FIXTURE_WIKITEXT) == {76})
@@ -912,6 +1130,35 @@ def fixture_test(verbose=True):
           dup and "Strohhalm" in dup and "Fischer" in dup, dup)
     check("distinct numbers assemble normally",
           sorted(assemble_mapping([(18, claims[0][1]), (19, claims[1][1])])) == [18, 19])
+
+    # ---- CASE 7: the mapping SHAPE gate — 200, contiguous 1-200 ------------
+    full = {n: {"page": "p%d (1857)" % n, "title": "t%d" % n, "revid": n}
+            for n in range(1, EXPECTED_NUMBERED + 1)}
+    check("a complete 1-200 mapping passes the shape gate",
+          assert_mapping_shape(full, legends=EXPECTED_LEGENDS, starred=EXPECTED_STARRED,
+                               unreadable=0) is True)
+    gap = dict(full)
+    gap.pop(97)
+    probs = mapping_shape_problems(gap)
+    check("a mapping missing KHM 97 fails the shape gate and says which number",
+          probs and any("97" in p for p in probs), probs)
+    over = dict(full)
+    over[201] = {"page": "x (1857)", "title": "x", "revid": 0}
+    check("a number outside 1-200 fails the shape gate",
+          any("201" in p for p in mapping_shape_problems(over)), mapping_shape_problems(over))
+    for kw in ("legends", "starred"):
+        try:
+            assert_mapping_shape(full, **{kw: 99})
+            raised = False
+        except MappingShape as exc:
+            raised = "99" in str(exc)
+        check("a wrong %s count fails the shape gate" % kw, raised)
+    try:
+        assert_mapping_shape(full, unreadable=2)
+        raised = False
+    except MappingShape:
+        raised = True
+    check("an unreadable page fails the shape gate", raised)
 
     # ---- discovery from prop=links -----------------------------------------
     titles = tale_links(FIXTURE_LINKS)
@@ -1021,7 +1268,8 @@ def crawl_mapping():
     it prints. Slow (one request per page) but done once and cached."""
     titles = discover_titles()
     print("discovered %d candidate 1857 pages" % len(titles))
-    claims, legends, unreadable, warnings = [], 0, 0, 0
+    claims, legends, starred, unreadable = [], [], [], 0
+    warnings = []
     for t in titles:
         try:
             page = api_parse(t)
@@ -1031,11 +1279,16 @@ def crawl_mapping():
             continue
         res = tale_number(page["html"], page["wikitext"], t)
         if res.number is None:
-            legends += 1
-            print("  skip %s" % res.message, file=sys.stderr)
+            if res.kind == "legend":
+                legends.append(t)
+            elif res.kind == "starred":
+                starred.append(t)
+            else:
+                unreadable += 1
+            print("  skip [%s] %s" % (res.kind, res.message), file=sys.stderr)
             continue
         if res.message:                      # a renumbered tale: expected, not fatal
-            warnings += 1
+            warnings.append(res.message)
             print("  WARNING %s" % res.message, file=sys.stderr)
         claims.append((res.number, {
             "page": t,
@@ -1053,13 +1306,37 @@ def crawl_mapping():
         raise SystemExit(3)
 
     print("mapping: %d numbered tales" % len(mapping))
-    print("skipped as Kinderlegenden/specials (unnumbered in the 1857 sequence, "
-          "out of scope for this pass): %d" % legends)
+    print("skipped as Kinderlegenden (they number themselves 1.-10.): %d%s"
+          % (len(legends), (" — " + "; ".join(legends)) if legends else ""))
+    print("skipped as starred variants (out of the 1-200 sequence): %d%s"
+          % (len(starred), (" — " + "; ".join(starred)) if starred else ""))
     if warnings:
-        print("%d page(s) where the printed numeral disagreed with SONSTIGES — renumbered "
-              "tales; the printed numeral was used" % warnings)
+        print("%d page(s) where the printed numeral disagreed with a non-empty box — the "
+              "printed numeral was used" % len(warnings))
     if unreadable:
-        print("%d page(s) could not be fetched" % unreadable)
+        print("%d page(s) could not be fetched or read" % unreadable)
+
+    # The shape gate. Measured live: 200 numbered covering 1-200, 10 legends,
+    # 1 starred, 0 unreadable. Anything else means the number-reading is wrong
+    # again, and a wrong mapping must never reach the archiver.
+    try:
+        assert_mapping_shape(mapping, legends=len(legends), starred=len(starred),
+                             unreadable=unreadable)
+    except MappingShape as exc:
+        print("\nMAPPING SHAPE CONTROL FAILED — the crawl is not 1-200 complete:",
+              file=sys.stderr)
+        for line in exc.problems:
+            print("  " + line, file=sys.stderr)
+        print("Committing nothing.", file=sys.stderr)
+        raise SystemExit(3)
+    if len(warnings) != EXPECTED_WARNINGS:
+        # Loud, but not fatal: an extra printed-vs-box disagreement still leaves
+        # the printed numeral in charge and the mapping 1-200 complete.
+        print("\nSHAPE NOTICE: expected %d printed-vs-box warning(s), got %d — read them:"
+              % (EXPECTED_WARNINGS, len(warnings)), file=sys.stderr)
+        for line in warnings:
+            print("  " + line, file=sys.stderr)
+    print("mapping shape control PASSED: 200 numbered, contiguous 1-200, no duplicates.")
     return mapping
 
 

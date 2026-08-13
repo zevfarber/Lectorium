@@ -1,0 +1,113 @@
+name: Archive KHM sources
+
+# Fetches the authentic 1857 Kinder- und Hausmärchen text from de.wikisource.org
+# and commits it as sources/khm-NNN-source.json.
+#
+# Why it lives here rather than in the Cowork sandbox: the sandbox cannot reach
+# Wikisource, so archiving used to require Zev's Chrome to be open and was the
+# last human dependency in the text pipeline. A runner has ordinary internet, so
+# the nightly Cowork session can now get every source it needs with an
+# unauthenticated `git fetch` and never touch a browser.
+#
+# Self-retrigger is prevented the same three ways audio.yml uses: the commit
+# touches sources/** only (audio.yml's path filter is root-level *.json), the
+# built-in GITHUB_TOKEN does not trigger further runs, and the commit carries
+# [skip ci].
+#
+# Three controls run on EVERY invocation, all fatal, all before anything is
+# written:
+#   0. an offline fixture test of every extraction rule, including two injected
+#      defects the comparator must catch;
+#   1. the KHM number->title mapping must agree with all 84 published tales
+#      (numbers are read off each page's own Textdaten box, never positionally);
+#   2. three published tales — verse-bearing ones preferred — must re-extract
+#      token-for-token AND line-break-for-line-break.
+# Watch the log for "mapping control PASSED" and three "OK" control lines the
+# first few times.
+
+on:
+  schedule:
+    # 01:17 UTC daily — well clear of the nightly Cowork batch, so sources are
+    # already in place by the time it runs. Idempotent: archives only what is
+    # missing, and does nothing at all once the corpus is complete.
+    - cron: '17 1 * * *'
+  workflow_dispatch:
+    inputs:
+      which:
+        description: '"missing", "all", or a comma-separated list of KHM numbers'
+        required: false
+        default: 'missing'
+      limit:
+        description: 'Max tales to archive in one run'
+        required: false
+        default: '40'
+      selftest_only:
+        description: 'Run the controls and write nothing'
+        required: false
+        default: 'false'
+      rebuild_index:
+        description: 'Re-derive the number->title mapping from the pages themselves'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: archive-khm
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install --quiet beautifulsoup4 lxml requests
+
+      - name: Fixture test (offline, no network)
+        run: python .github/scripts/archive_khm.py --fixture
+
+      - name: Archive (controls run first and are fatal)
+        env:
+          WHICH: ${{ github.event.inputs.which || 'missing' }}
+          LIMIT: ${{ github.event.inputs.limit || '40' }}
+          SELFTEST_ONLY: ${{ github.event.inputs.selftest_only || 'false' }}
+          REBUILD_INDEX: ${{ github.event.inputs.rebuild_index || 'false' }}
+        run: |
+          set -eo pipefail
+          ARGS="--which $WHICH --limit $LIMIT"
+          if [ "$SELFTEST_ONLY" = "true" ]; then ARGS="--selftest"; fi
+          if [ "$REBUILD_INDEX" = "true" ]; then ARGS="$ARGS --rebuild-index"; fi
+          echo "running: $ARGS"
+          python .github/scripts/archive_khm.py $ARGS
+
+      - name: Commit new sources
+        run: |
+          set -eo pipefail
+          git config user.name  'lectorium-archiver'
+          git config user.email 'actions@github.com'
+          git add sources
+          if git diff --cached --quiet; then
+            echo "No new sources — nothing to commit."
+            exit 0
+          fi
+          N=$(git diff --cached --name-only | wc -l | tr -d ' ')
+          git commit -m "Archive KHM sources ($N file(s)) [skip ci]"
+          git pull --rebase origin main
+          git push
+          echo "Pushed $N source file(s)."
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### KHM source archive" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Archived on disk: $(ls sources/khm-*-source.json 2>/dev/null | wc -l | tr -d ' ') of 200" >> $GITHUB_STEP_SUMMARY

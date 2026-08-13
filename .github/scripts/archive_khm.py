@@ -11,13 +11,23 @@ WHY THIS EXISTS
     an unauthenticated `git fetch`, never opening a browser.
 
 HOW A TALE IS IDENTIFIED  (the rule grimm-corpus-plan.md proves and requires)
-    The KHM number is read off EACH PAGE'S OWN Textdaten box. Never off index
-    position, never off the index entry's text: the index's link order is not
-    edition order — Die Goldkinder (KHM 85) sits between 62 and 63 in the DOM.
-    Candidate pages are discovered from the three 1857 volume index pages,
-    filtered on the "(1857)" title suffix, and every page is then asked what
-    number it is. The number is re-read from the page's own box again at write
-    time, so nothing is ever archived on the strength of a cached number.
+    The KHM number is read off EACH PAGE'S OWN Textdaten box, out of its
+    SONSTIGES row ("seit 1812: KHM 76"). Never off index position, never off the
+    index entry's text: the index's link order is not edition order — Die
+    Goldkinder (KHM 85) sits between 62 and 63 in the DOM. Only the BOX's text is
+    searched, never the whole page: the "Andere Version" footer links to
+    .../Anmerkungen#76 and would be a second number to trip over. A box offering
+    two different numbers fails loudly and the tale is skipped — never guessed.
+    The number is re-read from the page's own box again at write time, so nothing
+    is ever archived on the strength of a cached number.
+
+HOW CANDIDATE PAGES ARE DISCOVERED
+    From the TWO 1857 volume pages, via the API's prop=links (not by scraping
+    hrefs out of rendered HTML). There is no third 1857 volume: "Band 3" is the
+    Anmerkungsband, it is dated 1856, and it holds Grimm's scholarly notes rather
+    than tales — asking for it at an 1857 title is what produced the "page you
+    specified doesn't exist" line in the first live run. Links are kept when they
+    are ns 0, exist, end in " (1857)", and are not themselves a volume page.
 
 WHAT IT GUARANTEES — three controls, all fatal, all before anything is written
     0. FIXTURE TEST (offline, no network): synthetic MediaWiki HTML exercising
@@ -75,13 +85,18 @@ from bs4 import BeautifulSoup
 API = "https://de.wikisource.org/w/api.php"
 UA = "Lectorium-archiver/1.0 (https://github.com/zevfarber/Lectorium; text archiving for a reading app)"
 
-# The three 1857 volumes. Tale pages are discovered from these index pages and
-# filtered on the "(1857)" suffix; the numbers come from the pages themselves.
+# The 1857 edition is TWO volumes. There is no "Band 3 (1857)": the third book
+# is the Anmerkungsband, dated 1856, and it carries Grimm's notes, not tales.
+# Tale pages are discovered from these two index pages via prop=links and
+# filtered on the " (1857)" suffix; the numbers come from the pages themselves.
 INDEX_PAGES = [
     "Kinder- und Haus-Märchen Band 1 (1857)",
     "Kinder- und Haus-Märchen Band 2 (1857)",
-    "Kinder- und Haus-Märchen Band 3 (1857)",
 ]
+
+# Volume pages link to each other, so they turn up in prop=links themselves.
+VOLUME_PREFIX = unicodedata.normalize("NFC", "Kinder- und Haus-Märchen")
+YEAR_SUFFIX = " (1857)"
 
 MIN_INTERVAL = 0.9        # seconds between requests, globally
 MAX_ATTEMPTS = 5
@@ -150,6 +165,18 @@ def _throttle():
 
 def api_parse(page, props="text|wikitext|revid"):
     """Return {'html','wikitext','revid','title'} for a page, or raise."""
+    p = api_parse_raw(page, props)
+    return {
+        "html": p.get("text") or "",
+        "wikitext": p.get("wikitext") or "",
+        "revid": p.get("revid"),
+        "title": p.get("title") or page,
+    }
+
+
+def api_parse_raw(page, props):
+    """The API's raw `parse` object. Everything goes through here, so prop=links
+    gets the same throttling and the same throttle-aware backoff as prop=text."""
     last = None
     for attempt in range(MAX_ATTEMPTS):
         _throttle()
@@ -196,13 +223,7 @@ def api_parse(page, props="text|wikitext|revid"):
         if "error" in d:                              # genuine API error: no retry
             raise RuntimeError("wikisource error for %r: %s"
                                % (page, d["error"].get("info") or d["error"].get("code")))
-        p = d["parse"]
-        return {
-            "html": p.get("text") or "",
-            "wikitext": p.get("wikitext") or "",
-            "revid": p.get("revid"),
-            "title": p.get("title") or page,
-        }
+        return d["parse"]
     raise RuntimeError("could not fetch %r after %d attempts (last: %s)"
                        % (page, MAX_ATTEMPTS, last))
 
@@ -232,6 +253,42 @@ def _is_poem(el):
     return "poem" in (el.get("class") or [])
 
 
+BARE_NUMERAL_RE = re.compile(r"^\d{1,3}\.$")
+
+
+def drop_leading_headings(blocks, page="?"):
+    """Defensive no-op guard for the centred "76." / "Die Nelke." heading.
+
+    On a real tale page those two lines sit in a generic container, not a <p>,
+    so the extractor never collects them (nelke.json's sentence 0 is the first
+    line of the story, proving it). This drops AT MOST the first two blocks, and
+    only when a block is exactly a bare numeral or exactly the tale's own title.
+    It is expected never to fire; if it does, it says so, because a page whose
+    markup changed shape is news, not something to swallow silently.
+    """
+    bare = re.sub(r"\s*\(1857\)\s*$", "", page or "").strip()
+    title_key = fold_title(bare) if bare and bare != "?" else ""
+
+    out = list(blocks)
+    for _ in range(2):
+        if not out:
+            break
+        x = out[0]["x"].strip()
+        if "\n" in x or not x:
+            break
+        why = None
+        if BARE_NUMERAL_RE.match(x):
+            why = "bare numeral"
+        elif title_key and fold_title(x) == title_key:
+            why = "tale title"
+        if why is None:
+            break
+        print("  %s: leading-heading guard dropped a block (%s): %r"
+              % (page, why, x), file=sys.stderr)
+        out.pop(0)
+    return out
+
+
 def extract_blocks(html, page="?"):
     """Ordered [{'t':'p'|'v','x':...}] from a Wikisource parse fragment."""
     soup = BeautifulSoup(html, "lxml")
@@ -257,6 +314,7 @@ def extract_blocks(html, page="?"):
             walk(child)
 
     walk(root)
+    blocks = drop_leading_headings(blocks, page)
 
     # Refuse an implausible result rather than returning it. The failure this
     # guards against is raw newlines being taken for line breaks, which sprays
@@ -279,6 +337,14 @@ def extract_blocks(html, page="?"):
 KHM_RE = re.compile(r"KHM\s*[:.\s]?\s*(\d{1,3})")
 BOX_SELECTORS = ("table.ws-header", "#ws-data", "table.textdaten", ".ws-header", ".textdaten")
 
+# The Textdaten template's own field, in raw wikitext: "|SONSTIGES=seit 1812: KHM 76".
+# Unambiguous by construction — it is one named field of one template.
+SONSTIGES_RE = re.compile(r"^\|\s*SONSTIGES\s*=.*?KHM\s*[:.\s]?\s*(\d{1,3})", re.M)
+
+
+class AmbiguousNumber(RuntimeError):
+    """The Textdaten box offered more than one KHM number. Never guess."""
+
 
 def textdaten_box(soup):
     """The page's own header/Textdaten box, or None."""
@@ -293,29 +359,56 @@ def textdaten_box(soup):
     return None
 
 
-def khm_number(html, wikitext=""):
+def khm_number(html, wikitext="", page="?"):
     """Read the KHM number off the page's OWN Textdaten box.
 
     The index page's link order is NOT edition order (Die Goldkinder, KHM 85,
     sits between 62 and 63 in the DOM). Never count positions, and never take
     the number from prose elsewhere on the page when a box is present.
+
+    PRIMARY PATH — the box's SONSTIGES row, which reads "seit 1812: KHM 76".
+    Only the BOX's text is searched, never the whole page: the "Andere Version"
+    footer links to "Kinder- und Haus-Märchen Band 3 (1856)/Anmerkungen#76" and
+    is exactly the sort of second number that must not be mistaken for the datum.
+
+    Two different numbers in the box raises AmbiguousNumber. A tale whose number
+    cannot be read fails loudly and is skipped; it is never guessed.
+
+    Read this BEFORE the extractor touches the page. The box is a <table> and
+    extract_blocks decomposes tables — but each parses its own fresh soup from
+    the HTML string, so neither can strip the other's evidence. Keep it that way:
+    do not pass a shared, already-pruned soup in here.
     """
     soup = BeautifulSoup(html or "", "lxml")
     box = textdaten_box(soup)
     if box is not None:
-        m = KHM_RE.search(box.get_text(" ", strip=True))
-        if m:
-            n = int(m.group(1))
-            if 1 <= n <= KHM_MAX:
-                return n
-    # Fallback only when the page has no recognisable box: the header template
-    # in the wikitext carries the same datum.
+        nums = _plausible(KHM_RE.findall(box.get_text(" ", strip=True)))
+        if len(nums) > 1:
+            raise AmbiguousNumber(
+                "%s: Textdaten box offers %d different KHM numbers (%s) — refusing to guess"
+                % (page, len(nums), ", ".join(str(n) for n in sorted(nums))))
+        if nums:
+            return nums.pop()
+
+    # Fallbacks, in order, only when the box yielded nothing: the same datum as
+    # a named field of the header template in the raw wikitext, then any KHM
+    # mention in the wikitext at all.
+    m = SONSTIGES_RE.search(wikitext or "")
+    if m:
+        n = int(m.group(1))
+        if 1 <= n <= KHM_MAX:
+            return n
     m = KHM_RE.search(wikitext or "")
     if m:
         n = int(m.group(1))
         if 1 <= n <= KHM_MAX:
             return n
     return None
+
+
+def _plausible(found):
+    """The distinct in-range numbers among regex hits."""
+    return {int(x) for x in found if 1 <= int(x) <= KHM_MAX}
 
 
 # --------------------------------------------------------------------------
@@ -413,7 +506,8 @@ FIXTURE_HTML = """
 <div class="mw-parser-output">
 <table class="ws-header"><tr><th>Textdaten</th></tr>
 <tr><td>Titel:</td><td>Rapunzel</td></tr>
-<tr><td>Aus:</td><td>Kinder- und Hausmärchen, Band 1, KHM 12</td></tr></table>
+<tr><td>Aus:</td><td>Kinder- und Hausmärchen, Band 1</td></tr>
+<tr><td>Sonstiges:</td><td>seit 1812: KHM 12</td></tr></table>
 <div class="ws-noexport">Diese Seite ist zweimal korrekturgelesen. KHM 199</div>
 <h2>Rapunzel<span class="mw-editsection">[bearbeiten]</span></h2>
 <p>Es war einmal ein Mann
@@ -423,6 +517,87 @@ laß mir dein Haar herunter.</p></div>
 <p>Da rief die Zauberin:<br>komm herab!</p>
 <table class="prettytable"><tr><td>Fußnote KHM 200</td></tr></table>
 <div class="catlinks">Kategorien: Märchen</div>
+</div>
+"""
+
+# The real shape of a tale page, modelled on Die Nelke (1857) as it is live
+# today: the number lives in the Textdaten box's SONSTIGES row, and the footer
+# carries an "Andere Version" link to the 1856 Anmerkungsband whose fragment is
+# also "76" — the decoy the box-only rule exists to ignore.
+FIXTURE_TEXTDATEN_HTML = """
+<div class="mw-parser-output">
+<table class="ws-header"><tr><th colspan="2">Textdaten</th></tr>
+<tr><td>Autor:</td><td>Brüder Grimm</td></tr>
+<tr><td>Titel:</td><td>Die Nelke</td></tr>
+<tr><td>Sonstiges:</td><td>seit 1812: KHM 76</td></tr></table>
+<div style="text-align:center">76.</div>
+<div style="text-align:center"><b>Die Nelke.</b></div>
+<p>Es war eine Königin, die hatte unser Herr Gott verschlossen.</p>
+<p>Da sprach der Koch: es soll geschehen.</p>
+<div class="ws-noexport">Andere Version:
+<a href="/wiki/Kinder-_und_Haus-M%C3%A4rchen_Band_3_(1856)/Anmerkungen#76">Anmerkungen</a>
+— dort als KHM 199 geführt</div>
+</div>
+"""
+
+# A box offering two different numbers: must fail loudly, never be guessed.
+FIXTURE_AMBIGUOUS_HTML = """
+<div class="mw-parser-output">
+<table class="ws-header"><tr><th>Textdaten</th></tr>
+<tr><td>Sonstiges:</td><td>seit 1812: KHM 76</td></tr>
+<tr><td>Anmerkung:</td><td>vergleiche KHM 77</td></tr></table>
+<p>Es war einmal.</p>
+</div>
+"""
+
+# A box with no number at all: the wikitext SONSTIGES field is the fallback.
+FIXTURE_NO_BOX_NUMBER_HTML = """
+<div class="mw-parser-output">
+<table class="ws-header"><tr><th>Textdaten</th></tr>
+<tr><td>Titel:</td><td>Die Nelke</td></tr></table>
+<p>Es war eine Königin.</p>
+</div>
+"""
+
+FIXTURE_WIKITEXT = """{{Textdaten
+|AUTOR=Brüder Grimm
+|TITEL=Die Nelke
+|SONSTIGES=seit 1812: KHM 76
+}}
+"""
+
+# What action=parse&prop=links returns for a volume page: ns 0 tale titles
+# alongside the sibling volume, a non-1857 edition, a redlink, and other
+# namespaces. Every non-tale here has been seen in the live link list.
+FIXTURE_LINKS = [
+    {"ns": 0, "title": "Der Froschkönig oder der eiserne Heinrich (1857)", "exists": True},
+    {"ns": 0, "title": "Rapunzel (1857)", "exists": True},
+    {"ns": 0, "title": "Die Nelke (1857)", "exists": True},
+    {"ns": 0, "title": "Von dem Fischer un syner Fru (1857)", "exists": True},
+    {"ns": 0, "title": "Von dem Tode des Hühnchens (1857)", "exists": True},
+    {"ns": 0, "title": "Das kluge Grethel (1857)", "exists": True},
+    {"ns": 0, "title": "Mährchen von einem, der auszog das Fürchten zu lernen (1857)",
+     "exists": True},
+    # the sibling volume: ns 0, exists, ends in " (1857)" — excluded by prefix
+    {"ns": 0, "title": "Kinder- und Haus-Märchen Band 2 (1857)", "exists": True},
+    # the Anmerkungsband is 1856, and is not a tale page
+    {"ns": 0, "title": "Kinder- und Haus-Märchen Band 3 (1856)", "exists": True},
+    # a different edition of a real tale — excluded by the year suffix
+    {"ns": 0, "title": "Rapunzel (1812)", "exists": True},
+    # a redlink and other namespaces
+    {"ns": 0, "title": "Der Wolf und der Fuchs (1857)", "exists": False},
+    {"ns": 14, "title": "Kategorie:Märchen (1857)", "exists": True},
+    {"ns": 104, "title": "Seite:Grimms Märchen (1857) 076.jpg (1857)", "exists": True},
+]
+
+# The centred heading as the extractor actually meets it (generic containers,
+# not <p>), and the shape the guard exists for if that ever changes.
+FIXTURE_HEADING_AS_P_HTML = """
+<div class="mw-parser-output">
+<p>76.</p>
+<p>Die Nelke.</p>
+<p>77.</p>
+<p>Es war eine Königin, die hatte unser Herr Gott verschlossen.</p>
 </div>
 """
 
@@ -457,6 +632,59 @@ def fixture_test(verbose=True):
     n = khm_number(FIXTURE_HTML)
     check("KHM number read off the Textdaten box (12, not 199/200)", n == 12, n)
 
+    # ---- the number, in the shape the live pages actually have --------------
+    n = khm_number(FIXTURE_TEXTDATEN_HTML, page="Die Nelke (1857)")
+    check("SONSTIGES row 'seit 1812: KHM 76' reads as 76", n == 76, n)
+    check("the 1856 Anmerkungen footer (#76 / 'KHM 199') is not read as the number",
+          n == 76 and "KHM 199" in FIXTURE_TEXTDATEN_HTML, n)
+
+    # The box is a <table> and the extractor decomposes tables. Reading the
+    # number must not depend on extraction order — prove both orders agree.
+    _ = extract_blocks(FIXTURE_TEXTDATEN_HTML, page="Die Nelke (1857)")
+    check("number still readable after the extractor has run (no shared soup)",
+          khm_number(FIXTURE_TEXTDATEN_HTML, page="Die Nelke (1857)") == 76)
+
+    try:
+        bad = khm_number(FIXTURE_AMBIGUOUS_HTML, page="<ambiguous>")
+        raised = False
+    except AmbiguousNumber as exc:
+        raised, bad = True, str(exc)
+    check("two different numbers in the box fail loudly, never guessed", raised, bad)
+    check("the ambiguity message names both numbers",
+          raised and "76" in bad and "77" in bad, bad)
+
+    check("wikitext |SONSTIGES= is the fallback when the box has no number",
+          khm_number(FIXTURE_NO_BOX_NUMBER_HTML, FIXTURE_WIKITEXT) == 76)
+    check("no number anywhere returns None (caller skips loudly)",
+          khm_number(FIXTURE_NO_BOX_NUMBER_HTML, "") is None)
+
+    # ---- discovery from prop=links -----------------------------------------
+    titles = tale_links(FIXTURE_LINKS)
+    check("sibling volume page excluded from candidates",
+          "Kinder- und Haus-Märchen Band 2 (1857)" not in titles)
+    check("the 1856 Anmerkungsband excluded", not any("1856" in t for t in titles))
+    check("non-1857 edition excluded", "Rapunzel (1812)" not in titles)
+    check("redlink (exists=false) excluded",
+          "Der Wolf und der Fuchs (1857)" not in titles)
+    check("non-zero namespaces excluded", not any(":" in t for t in titles), titles)
+    anchors = ["Der Froschkönig oder der eiserne Heinrich (1857)", "Rapunzel (1857)",
+               "Die Nelke (1857)", "Von dem Fischer un syner Fru (1857)",
+               "Von dem Tode des Hühnchens (1857)", "Das kluge Grethel (1857)",
+               "Mährchen von einem, der auszog das Fürchten zu lernen (1857)"]
+    check("all seven live-verified tale titles kept",
+          [t for t in titles] == anchors, titles)
+
+    # ---- the leading-heading guard -----------------------------------------
+    real = extract_blocks(FIXTURE_TEXTDATEN_HTML, page="Die Nelke (1857)")
+    check("guard is a no-op on the real page shape (heading is not a <p>)",
+          len(real) == 2 and real[0]["x"].startswith("Es war eine Königin"), real)
+    guarded = extract_blocks(FIXTURE_HEADING_AS_P_HTML, page="Die Nelke (1857)")
+    check("guard drops a bare numeral and the bare title when they ARE <p>s",
+          [b["x"] for b in guarded] == ["77.", "Es war eine Königin, die hatte unser "
+                                        "Herr Gott verschlossen."], guarded)
+    check("guard drops at most two blocks (the third '77.' survives)",
+          guarded[0]["x"] == "77.", guarded)
+
     # The comparator must not be blind. Inject one dropped word and one moved
     # line break and require both to be caught.
     base = signature([{"t": "v", "x": "Es war einmal\nein König"}])
@@ -476,30 +704,51 @@ def fixture_test(verbose=True):
 # CONTROL 1 — the KHM number -> page title mapping
 # --------------------------------------------------------------------------
 
-def discover_titles():
-    """Candidate tale pages, from the three 1857 volume index pages."""
-    seen, out = set(), []
-    link_re = re.compile(r'href="/wiki/([^"#?]+)"')
-    for idx in INDEX_PAGES:
-        try:
-            page = api_parse(idx, props="text")
-        except Exception as exc:
-            print("  index %r unavailable: %s" % (idx, exc), file=sys.stderr)
+def tale_links(links):
+    """The tale pages among one volume's prop=links list.
+
+    A link is a candidate when it is ns 0 (so Seite:, Datei:, Kategorie: drop
+    out), when the page actually exists, when it ends in " (1857)" (so the 1856
+    Anmerkungsband and other editions drop out), and when it is not itself a
+    volume page — Band 1 links to Band 2, and that sibling ends in " (1857)"
+    too, so the suffix test alone would let it through.
+    """
+    out = []
+    for link in links or []:
+        if link.get("ns") != 0 or not link.get("exists"):
             continue
-        for href in link_re.findall(page["html"]):
-            title = urlunquote(href)
-            if ":" in title.split("(")[0]:            # namespaced (Seite:, Datei:, …)
-                continue
-            if not title.endswith("(1857)") or title in seen or title in INDEX_PAGES:
-                continue
-            seen.add(title)
-            out.append(title)
+        title = unicodedata.normalize("NFC", (link.get("title") or "").strip())
+        if not title.endswith(YEAR_SUFFIX):
+            continue
+        if title.startswith(VOLUME_PREFIX):
+            continue
+        out.append(title)
     return out
 
 
-def urlunquote(href):
-    import urllib.parse
-    return urllib.parse.unquote(href).replace("_", " ")
+def discover_titles():
+    """Candidate tale pages, from the two 1857 volume pages, via prop=links.
+
+    prop=links is the API's own view of a page's outgoing links: it arrives
+    already parsed, already carrying ns and exists, and does not depend on the
+    skin's HTML. Scraping hrefs out of rendered HTML is what this replaces.
+    """
+    seen, out = set(), []
+    for idx in INDEX_PAGES:
+        try:
+            links = api_parse_raw(idx, "links").get("links") or []
+        except Exception as exc:
+            print("  index %r unavailable: %s" % (idx, exc), file=sys.stderr)
+            continue
+        found = 0
+        for title in tale_links(links):
+            if title in seen:
+                continue
+            seen.add(title)
+            out.append(title)
+            found += 1
+        print("  %s: %d tale page(s)" % (idx, found))
+    return out
 
 
 def crawl_mapping():
@@ -515,8 +764,14 @@ def crawl_mapping():
             print("  skip %s: %s" % (t, exc), file=sys.stderr)
             skipped += 1
             continue
-        n = khm_number(page["html"], page["wikitext"])
+        try:
+            n = khm_number(page["html"], page["wikitext"], t)
+        except AmbiguousNumber as exc:      # never guessed; loud and skipped
+            print("  skip %s: %s" % (t, exc), file=sys.stderr)
+            skipped += 1
+            continue
         if n is None:
+            print("  skip %s: no KHM number in its own Textdaten box" % t, file=sys.stderr)
             skipped += 1
             continue
         if n in mapping and mapping[n]["page"] != t:
@@ -669,8 +924,9 @@ def archive_one(khm, entry):
     got = api_parse(page)
 
     # Never archive on the strength of a cached number: re-read it from this
-    # page's own Textdaten box, now.
-    n = khm_number(got["html"], got["wikitext"])
+    # page's own Textdaten box, now — and before the extractor, which drops the
+    # tables the box is made of.
+    n = khm_number(got["html"], got["wikitext"], page)
     if n is None:
         raise RuntimeError("%s: no KHM number in its own Textdaten box" % page)
     if n != khm:

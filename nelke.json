@@ -5,6 +5,7 @@
  "khm": 76,
  "language": "German",
  "langCode": "de-DE",
+ "audio": "audio/nelke",
  "work": "Kinder- und Hausmärchen",
  "workEn": "Grimms’ Fairy Tales",
  "workGloss": "Children’s and Household Tales",
@@ -22,7 +23,8 @@
   {
    "t": "Da gieng sie alle Morgen in den Garten und bat zu Gott im Himmel er möchte ihr einen Sohn oder eine Tochter bescheren.",
    "l": "Then she went every morning into the garden and prayed to God in heaven he might grant her a son or a daughter.",
-   "i": "So every morning she went into the garden and prayed to God in heaven that he might grant her a son or a daughter."
+   "i": "So every morning she went into the garden and prayed to God in heaven that he might grant her a son or a daughter.",
+   "n": "“alle Morgen” is a bare accusative of time, no preposition. möchte is subjunctive, carrying the prayer as reported words with no daß to introduce it — German can drop the conjunction and keep the verb second."
   },
   {
    "t": "Da kam ein Engel vom Himmel und sprach „gib dich zufrieden, du sollst einen Sohn haben mit wünschlichen Gedanken, denn was er sich wünscht auf der Welt, das wird er erhalten.“",
@@ -33,7 +35,8 @@
   {
    "t": "Sie gieng zum König und sagte ihm die fröhliche Botschaft, und als die Zeit herum war, gebar sie einen Sohn, und der König war in großer Freude.",
    "l": "She went to the king and told him the joyful message, and when the time was round, she bore a son, and the king was in great joy.",
-   "i": "She went to the king and told him the joyful news; and when the time was up she bore a son, and the king was in great joy."
+   "i": "She went to the king and told him the joyful news; and when the time was up she bore a son, and the king was in great joy.",
+   "n": "“die Zeit war herum” = the time was up, come round — herum sein said of a span, and it returns when the seven years in the tower are herum."
   },
   {
    "p": true,
@@ -45,12 +48,14 @@
   {
    "t": "Es geschah einstmals, als das Kind schon ein wenig älter war, daß es ihr auf dem Schooß lag, und sie entschlief.",
    "l": "It happened once, when the child was already a little older, that it lay to her on the lap, and she fell asleep.",
-   "i": "It happened once, when the child was a little older, that it lay in her lap and she fell asleep."
+   "i": "It happened once, when the child was a little older, that it lay in her lap and she fell asleep.",
+   "n": "The es at the front is a placeholder: the real subject is the daß-clause, held back to the end. “ihr auf dem Schooß” is the dative of the person concerned — the lap to her, where English says her lap."
   },
   {
    "t": "Da kam der alte Koch, der wußte daß das Kind wünschliche Gedanken hatte, und raubte es, und nahm ein Huhn und zerriß es, und tropfte ihr das Blut auf die Schürze und das Kleid.",
    "l": "Then came the old cook, who knew that the child had wishing-thoughts, and stole it, and took a hen and tore it apart, and dripped her the blood onto the apron and the dress.",
-   "i": "Then came the old cook — he knew that the child had wishing-thoughts — and stole it away, and took a hen and tore it apart, and dripped the blood onto her apron and her dress."
+   "i": "Then came the old cook — he knew that the child had wishing-thoughts — and stole it away, and took a hen and tore it apart, and dripped the blood onto her apron and her dress.",
+   "n": "The dative once more: “tropfte ihr das Blut auf die Schürze”, dripped the blood onto the apron to her."
   },
   {
    "t": "Da trug er das Kind fort an einen verborgenen Ort, wo es eine Amme tränken mußte, und lief zum König und klagte die Königin an, sie habe ihr Kind von den wilden Thieren rauben lassen.",
@@ -80,17 +85,20 @@
    "p": true,
    "t": "Der Koch aber dachte bei sich „hat das Kind wünschliche Gedanken und ich bin hier, so könnte es mich leicht ins Unglück bringen.“",
    "l": "The cook however thought to himself “has the child wishing-thoughts and I am here, so could it easily bring me into misfortune.”",
-   "i": "But the cook thought to himself: “If the child has wishing-thoughts and I am here, it could easily bring me to ruin.”"
+   "i": "But the cook thought to himself: “If the child has wishing-thoughts and I am here, it could easily bring me to ruin.”",
+   "n": "A conditional with no wenn: the verb comes first — “hat das Kind …” — and English must supply the “if”. The so that follows is the answering “then”."
   },
   {
    "t": "Da machte er sich vom Schloß weg, und gieng zu dem Knaben, der war schon so groß, daß er sprechen konnte, und sagte zu ihm „wünsche dir ein schönes Schloß mit einem Garten und was dazu gehört.“",
    "l": "Then he made himself away from the castle, and went to the boy, who was already so big that he could speak, and said to him “wish yourself a fine castle with a garden and what belongs to it.”",
-   "i": "So he took himself off from the castle and went to the boy, who was by now big enough to speak, and said to him: “Wish yourself a fine castle with a garden, and whatever goes with it.”"
+   "i": "So he took himself off from the castle and went to the boy, who was by now big enough to speak, and said to him: “Wish yourself a fine castle with a garden, and whatever goes with it.”",
+   "n": "der opens the next clause as a pointing demonstrative — that one was already so big — rather than as a relative pronoun. “sich wegmachen” = to make off, to take oneself away."
   },
   {
    "t": "Und kaum waren die Worte aus dem Munde des Knaben, so stand alles da, was er gewünscht hatte.",
    "l": "And scarcely were the words out of the mouth of the boy, so stood everything there that he had wished.",
-   "i": "And scarcely were the words out of the boy’s mouth when everything he had wished for stood there."
+   "i": "And scarcely were the words out of the boy’s mouth when everything he had wished for stood there.",
+   "n": "“kaum …, so …” is the old correlative: scarcely had the one thing happened, and already the other. The verb of motion is left out — the words were scarcely out of his mouth."
   },
   {
    "t": "Über eine Zeit sprach der Koch zu ihm „es ist nicht gut, daß du so allein bist, wünsche dir eine schöne Jungfrau zur Gesellschaft.“",
@@ -107,7 +115,8 @@
   {
    "t": "Nun spielten die beide zusammen, und hatten sich von Herzen lieb, und der alte Koch gieng auf die Jagd, wie ein vornehmer Mann.",
    "l": "Now the two played together, and had each other dear from the heart, and the old cook went to the hunt, like a distinguished man.",
-   "i": "Now the two played together and loved each other with all their hearts, while the old cook went hunting like a gentleman of rank."
+   "i": "Now the two played together and loved each other with all their hearts, while the old cook went hunting like a gentleman of rank.",
+   "n": "“sich lieb haben” with a plural subject is reciprocal: they held each other dear. die beide is the 1857 form of die beiden."
   },
   {
    "t": "Es kam ihm aber der Gedanke, der Königssohn könnte einmal wünschen bei seinem Vater zu sein und ihn damit in große Noth bringen.",
@@ -142,7 +151,8 @@
   {
    "t": "und als sie den Alten kommen sah, sprach sie zu dem Knaben „leg dich ins Bett und zieh die Decke über dich.“",
    "l": "and when she saw the old one coming, she spoke to the boy “lay yourself in the bed and pull the blanket over you.”",
-   "i": "and when she saw the old man coming, she said to the boy: “Lie down in bed and pull the blanket over you.”"
+   "i": "and when she saw the old man coming, she said to the boy: “Lie down in bed and pull the blanket over you.”",
+   "n": "sehen with an object and a bare infinitive — “den Alten kommen sah”, saw the old man come. der Alte is an adjective used as a noun, the old one."
   },
   {
    "p": true,
@@ -170,17 +180,20 @@
   {
    "t": "Nun blieb der Königssohn noch eine kleine Zeit da und dachte an seine Mutter und ob sie noch am Leben wäre.",
    "l": "Now the king’s-son stayed there a little time yet and thought of his mother and whether she were still alive.",
-   "i": "Now the king’s son stayed there a little while longer, and thought of his mother, and whether she were still alive."
+   "i": "Now the king’s son stayed there a little while longer, and thought of his mother, and whether she were still alive.",
+   "n": "The ob-clause hangs on dachte, so his thinking runs straight on into an indirect question; wäre is subjunctive — whether she is alive is exactly what he cannot know."
   },
   {
    "t": "Endlich sprach er zu dem Mädchen „ich will heim in mein Vaterland, willst du mit mir gehen, so will ich dich ernähren.“",
    "l": "At last he spoke to the girl “I want home into my fatherland, will you go with me, so will I feed you.”",
-   "i": "At last he said to the girl: “I mean to go home to my own country; if you will come with me, I will provide for you.”"
+   "i": "At last he said to the girl: “I mean to go home to my own country; if you will come with me, I will provide for you.”",
+   "n": "“ich will heim” leaves the verb of motion out after the modal — I want [to go] home; German does this freely with heim, fort, hinaus. Then a conditional with the verb first and no wenn."
   },
   {
    "t": "„Ach,“ antwortete sie, „der Weg ist so weit, und was soll ich in einem fremden Lande machen, wo ich unbekannt bin.“",
    "l": "“Ah,” answered she, “the way is so far, and what should I do in a strange land, where I am unknown.”",
-   "i": "“Ah,” she answered, “the way is so long, and what should I do in a strange land where nobody knows me.”"
+   "i": "“Ah,” she answered, “the way is so long, and what should I do in a strange land where nobody knows me.”",
+   "n": "sollen here is “am I to” — what am I to do there — a question about her prospects rather than an obligation. Lande keeps the old dative -e."
   },
   {
    "t": "Weil es also ihr Wille nicht recht war, und sie doch von einander nicht lassen wollten, wünschte er sie zu einer schönen Nelke und steckte sie bei sich.",
@@ -197,7 +210,8 @@
   {
    "t": "Nun gieng er zu dem Thurm, wo seine Mutter darin saß, und weil der Thurm so hoch war, wünschte er eine Leiter herbei, die bis oben hin reichte.",
    "l": "Now he went to the tower where his mother sat inside it, and because the tower was so high, he wished a ladder hither that reached right to the top.",
-   "i": "Now he went to the tower where his mother sat shut in; and because the tower was so high, he wished a ladder there that reached right to the top."
+   "i": "Now he went to the tower where his mother sat shut in; and because the tower was so high, he wished a ladder there that reached right to the top.",
+   "n": "“wo … darin” says it twice: the relative wo already means in which, and darin repeats it. The doubling is spoken German rather than an error, and it survives in dialect still."
   },
   {
    "t": "Da stieg er hinauf und sah hinein und rief „herzliebste Mutter, Frau Königin, seid ihr noch am Leben, oder seid ihr todt?“",
@@ -232,12 +246,14 @@
   {
    "t": "Da versprach der Jäger er wollte ihm so viel Wild schaffen, als er nur auf der königlichen Tafel brauchen könnte.",
    "l": "Then the huntsman promised he would get him as much game as he could ever use at the royal table.",
-   "i": "Then the huntsman promised to get him as much game as he could ever want for the royal table."
+   "i": "Then the huntsman promised to get him as much game as he could ever want for the royal table.",
+   "n": "“so viel … als” where modern German says so viel … wie. nur here is “ever”, stretching the amount rather than limiting it."
   },
   {
    "t": "Dann hieß er die Jägerei zusammen kommen, sie sollten alle mit ihm hinaus in den Wald gehen.",
    "l": "Then he bade the huntsmen come together, they should all go out with him into the forest.",
-   "i": "Then he bade the whole hunting establishment assemble, and they should all go out with him into the forest."
+   "i": "Then he bade the whole hunting establishment assemble, and they should all go out with him into the forest.",
+   "n": "heißen with a bare infinitive = to bid someone do a thing — “hieß … zusammen kommen”, bade them assemble. Die Jägerei is the whole hunting establishment of a court taken as one body."
   },
   {
    "t": "Da giengen sie mit, und draußen hieß er sie einen großen Kreiß schließen, der an einem Ende offen blieb, und dann stellte er sich hinein und fieng an zu wünschen.",
@@ -248,18 +264,21 @@
   {
    "t": "Alsbald kamen zweihundert und etliche Stück Wildpret in den Kreiß gelaufen, und die Jäger mußten es schießen.",
    "l": "Straightway came two hundred and some head of game running into the circle, and the huntsmen had to shoot it.",
-   "i": "Straightway two hundred head of game and more came running into the ring, and the huntsmen had to shoot them."
+   "i": "Straightway two hundred head of game and more came running into the ring, and the huntsmen had to shoot them.",
+   "n": "“kamen … gelaufen” is kommen with a past participle of motion: came running. Stück is the counting word for head of game and stays uninflected after a number."
   },
   {
    "t": "Da ward alles auf sechszig Bauerwagen geladen und dem König heimgefahren; da konnte er einmal seine Tafel mit Wildpret zieren, nachdem er lange Jahre keins gehabt hatte.",
    "l": "Then everything was loaded onto sixty peasant-wagons and driven home to the king; then he could for once adorn his table with game, after he had had none for long years.",
-   "i": "Then it was all loaded onto sixty farm wagons and driven home to the king; and for once he could deck his table with venison, after having had none for many long years."
+   "i": "Then it was all loaded onto sixty farm wagons and driven home to the king; and for once he could deck his table with venison, after having had none for many long years.",
+   "n": "ward is the old preterite of werden and carries both passives here. einmal is “for once”, not “once upon a time”."
   },
   {
    "p": true,
    "t": "Nun empfand der König große Freude darüber und bestellte es sollte des andern Tags seine ganze Hofhaltung bei ihm speisen, und machte ein großes Gastmal.",
    "l": "Now the king felt great joy over it and ordered his whole court-household should dine with him the next day, and made a great banquet.",
-   "i": "Now the king felt great joy at this, and gave order that his whole court should dine with him the next day, and made a great banquet."
+   "i": "Now the king felt great joy at this, and gave order that his whole court should dine with him the next day, and made a great banquet.",
+   "n": "“des andern Tags” is a genitive of time — on the next day; ander here means next, not other. Hofhaltung is the court as a household, everyone kept and fed at the king’s table."
   },
   {
    "t": "Wie sie alle beisammen waren, sprach er zu dem Jäger „weil du so geschickt bist, so sollst du neben mir sitzen.“",
@@ -292,7 +311,8 @@
   {
    "t": "Aber der König antwortete „sie hat mir meinen lieben Sohn von den wilden Thieren zerreißen lassen, davon will ich nichts hören.“",
    "l": "But the king answered “she has let my dear son be torn apart by the wild animals, of that I want to hear nothing.”",
-   "i": "But the king answered: “She let my dear son be torn to pieces by wild beasts; of that I will hear nothing.”"
+   "i": "But the king answered: “She let my dear son be torn to pieces by wild beasts; of that I will hear nothing.”",
+   "n": "lassen takes the same plain infinitive in the perfect as the modals do — “hat … zerreißen lassen”, not gelassen. mir is the dative of the person it was done against: torn from me."
   },
   {
    "t": "Da stand der Jäger auf und sprach „gnädigster Herr Vater, sie ist noch am Leben, und ich bin ihr Sohn, und die wilden Thiere haben ihn nicht geraubt, sondern der Bösewicht, der alte Koch, hat es gethan, der hat mich, als sie eingeschlafen war, von ihrem Schooß weggenommen und ihre Schürze mit dem Blut eines Huhns betropft.“",
@@ -314,7 +334,8 @@
   },
   {
    "t": "Der König, wie er ihn sah, ward zornig, und befahl daß er in den tiefsten Kerker sollte geworfen werden.",
-   "l": "The king, when he saw him, became wrathful, and commanded that he should be thrown into the deepest dungeon."
+   "l": "The king, when he saw him, became wrathful, and commanded that he should be thrown into the deepest dungeon.",
+   "n": "Three verb-forms queue at the end of the clause — “sollte geworfen werden”, was to be thrown — and English unpicks them in the opposite order."
   },
   {
    "t": "Darauf sprach der Jäger weiter „Herr Vater, wollt ihr auch das Mädchen sehen, das mich so zärtlich aufgezogen hat und mich hernach ums Leben bringen sollte, es aber nicht gethan hat, obgleich sein eigenes Leben auf dem Spiel stand?“",
@@ -335,12 +356,14 @@
   {
    "t": "Und griff in die Tasche und holte die Nelke, und stellte sie auf die königliche Tafel, und sie war so schön, wie der König nie eine gesehen hatte.",
    "l": "And reached into the pocket and fetched the carnation, and set it on the royal table, and it was so beautiful as the king had never seen one.",
-   "i": "And he reached into his pocket and drew out the carnation, and set it on the royal table; and it was more beautiful than any the king had ever seen."
+   "i": "And he reached into his pocket and drew out the carnation, and set it on the royal table; and it was more beautiful than any the king had ever seen.",
+   "n": "The sentence opens with und and no subject at all: er carries over from the speech before it. eine at the end stands for eine Blume, the noun dropped and its gender left in the ending."
   },
   {
    "t": "Darauf sprach der Sohn „nun will ich sie auch in ihrer wahren Gestalt zeigen,“ und wünschte sie zu einer Jungfrau; da stand sie da und war so schön, daß kein Maler sie hätte schöner malen können.",
    "l": "Thereupon the son spoke “now will I show her also in her true form,” and wished her into a maiden; then she stood there and was so beautiful that no painter could have painted her more beautifully.",
-   "i": "Then the son said, “Now I will show her in her true shape as well,” and wished her into a maiden; and there she stood, so beautiful that no painter could have painted her more beautifully."
+   "i": "Then the son said, “Now I will show her in her true shape as well,” and wished her into a maiden; and there she stood, so beautiful that no painter could have painted her more beautifully.",
+   "n": "“hätte … malen können” is the same double infinitive, now in the past subjunctive: können and not gekonnt, with hätte standing ahead of both."
   },
   {
    "p": true,

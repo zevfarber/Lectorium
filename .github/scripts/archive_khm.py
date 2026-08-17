@@ -28,12 +28,21 @@ HOW A TALE IS IDENTIFIED  (rewritten after all 211 live pages were measured)
     which is prose. The scanned-page marker's "[" / "280" / "]" triple is three
     short nodes, so the scan walks past it.
 
-    THE KINDERLEGENDE RULE: skip when the printed numeral is <= 10 AND is not
-    among the KHM numbers in the page's tables (an empty box counts as "not
-    among"). Nothing else. An empty-box test is wrong in both directions: Die
-    himmlische Hochzeit prints "9." with a box saying KHM 121 (a legend it
-    missed, colliding with the real KHM 9), and Der goldene Schlüssel prints
-    "200." with an empty box (a real tale it discarded).
+    THE KINDERLEGENDE RULE: a page is one of the ten legends when the printed
+    numeral is <= 10 AND is not among the KHM numbers in the page's tables (an
+    empty box counts as "not among"). Nothing else. An empty-box test is wrong in
+    both directions: Die himmlische Hochzeit prints "9." with a box saying KHM 121
+    (a legend it missed, colliding with the real KHM 9), and Der goldene Schlüssel
+    prints "200." with an empty box (a real tale it discarded).
+
+    A LEGEND IS RENUMBERED, NOT DISCARDED (17 Aug 2026). It is addressed as
+    200 + the numeral it prints, i.e. KHM 201-210 — the numbering modern
+    scholarship uses, and derived from the appendix's own 1.-10. rather than from
+    position, so nothing is invented. Until this date the rule returned no number
+    and the caller threw the page away, which is why the ten legends were never
+    archived. The detection above is untouched; only the verdict changed. The real
+    KHM 1-10 are unaffected: they are told apart by their own Textdaten boxes,
+    and the fixture proves both directions.
 
     A "151*." numeral is the one starred variant, Die zwölf faulen Knechte. It is
     skipped, named in the log, counted separately, and never read as plain 151.
@@ -141,9 +150,16 @@ YEAR_SUFFIX = " (1857)"
 MIN_INTERVAL = 0.9        # seconds between requests, globally
 MAX_ATTEMPTS = 5
 DEFAULT_LIMIT = 40
-MAPPING_MIN = 190         # of 200 numbered tales
+MAPPING_MIN = 205         # of 210. Deliberately above the 200 a pre-Kinderlegenden
+                          # cache holds, so the first run after this change judges
+                          # that cache incomplete and re-crawls instead of quietly
+                          # reusing a mapping that knows no legends.
 KHM_MAX = 210             # 200 tales + the ten Kinderlegenden
-TALE_MAX = 200            # the printed numeral of a numbered tale is 1..200
+TALE_MAX = 200            # the printed numeral of a NUMBERED tale is 1..200
+LEGEND_OFFSET = 200       # a Kinderlegende prints 1.-10.; it is addressed as
+                          # KHM 201-210, which is 200 + the numeral it prints.
+                          # Nothing here is invented — see the ruling in
+                          # claude/grimm-corpus-plan.md.
 MIN_TALE_TOKENS = 60      # the empty-extraction floor. Measured, not guessed:
                           # the shortest published Grimm tale is KHM 139 at 127
                           # tokens, so 60 admits every real tale and still
@@ -560,13 +576,19 @@ def tale_number(html, wikitext="", page="?"):
                             "%s: prints %r, which is outside the 1-%d range of 1857 tale "
                             "numbers" % (page, found.text, TALE_MAX))
     if printed <= LEGEND_MAX and printed not in box:
-        return NumberResult(None, "legend",
+        # A Kinderlegende. It is NOT KHM <printed> — that number belongs to a real
+        # tale — but it is not out of scope either: it is addressed as
+        # 200 + printed, the convention modern scholarship uses. The detection is
+        # unchanged; only the verdict is. It used to return None here and the
+        # caller discarded the page, which is why the ten legends were never
+        # archived at all.
+        return NumberResult(LEGEND_OFFSET + printed, "legend",
                             "%s: prints %r and its Textdaten box (%s) does not contain %d — one "
-                            "of the ten Kinderlegenden, which number themselves 1.-10.; refusing "
-                            "to read it as KHM %d"
+                            "of the ten Kinderlegenden, which number themselves 1.-10.; read as "
+                            "KHM %d (200 + the printed numeral), never as KHM %d"
                             % (page, found.text,
                                ", ".join("KHM %d" % n for n in sorted(box)) or "no KHM number",
-                               printed, printed))
+                               printed, LEGEND_OFFSET + printed, printed))
     if box and printed not in box:
         return NumberResult(printed, "numbered",
                             "%s: the page prints %r but its Textdaten box offers KHM %s — using "
@@ -584,7 +606,13 @@ def _plausible(found):
 # What a correct crawl of the 211 live pages produces, measured page by page in
 # a browser on 13 Aug 2026: 200 numbered tales covering 1-200 with no gaps, the
 # ten Kinderlegenden, the one starred variant, nothing unreadable.
-EXPECTED_NUMBERED = 200
+#
+# Since 17 Aug 2026 the ten legends are ADDRESSED rather than discarded, as
+# KHM 201-210, so the contiguous run the gate demands is 1-210. EXPECTED_LEGENDS
+# is now the count of pages recognised AS legends and renumbered — not skipped.
+# The starred variant is still refused: 151* is a variant of a numbered tale, not
+# an eleventh legend.
+EXPECTED_NUMBERED = 210
 EXPECTED_LEGENDS = 10
 EXPECTED_STARRED = 1
 EXPECTED_WARNINGS = 1          # Strohhalm, Kohle und Bohne: prints 18, box says 19
@@ -631,8 +659,8 @@ def assert_mapping_shape(mapping, legends=None, starred=None, unreadable=None):
     what differs, then exits non-zero."""
     problems = mapping_shape_problems(mapping)
     if legends is not None and legends != EXPECTED_LEGENDS:
-        problems.append("expected %d Kinderlegenden skipped, got %d"
-                        % (EXPECTED_LEGENDS, legends))
+        problems.append("expected %d Kinderlegenden recognised and renumbered to KHM 201-210, "
+                        "got %d" % (EXPECTED_LEGENDS, legends))
     if starred is not None and starred != EXPECTED_STARRED:
         problems.append("expected %d starred variant skipped, got %d"
                         % (EXPECTED_STARRED, starred))
@@ -1073,8 +1101,10 @@ def fixture_test(verbose=True):
     # ---- CASE 4: the KINDERLEGENDE rule — printed <= 10 and not in the box --
     r = tale_number(FIXTURE_LEGEND_BOXED_HTML, page="Die himmlische Hochzeit (1857)")
     check("printed 9. with a box saying KHM 121 is a LEGEND (the empty-box test missed it)",
-          r.number is None and r.kind == "legend", r)
-    check("that skip names the page, the numeral and the box number",
+          r.kind == "legend", r)
+    check("that legend is addressed as KHM 209, never as KHM 9",
+          r.number == 209, r)
+    check("the message names the page, the numeral and the box number",
           r.message and "Hochzeit" in r.message and "9." in r.message
           and "121" in r.message, r.message)
 
@@ -1090,9 +1120,20 @@ def fixture_test(verbose=True):
 
     r = tale_number(FIXTURE_LEGEND_NUMBERED_HTML, page="Der heilige Joseph im Walde (1857)")
     check("printed 1. with an empty box IS a legend, never returned as KHM 1",
-          r.number is None and r.kind == "legend", r)
-    check("that skip says why (a legend numbering itself 1.-10.)",
+          r.kind == "legend" and r.number != 1, r)
+    check("Der heilige Joseph im Walde is addressed as KHM 201 (200 + printed 1.)",
+          r.number == 201, r)
+    check("the message says why (a legend numbering itself 1.-10.)",
           r.message and "Kinderlegende" in r.message, r.message)
+    check("the legend offset is applied, not a positional guess",
+          r.number == LEGEND_OFFSET + 1, (r.number, LEGEND_OFFSET))
+    # The both-ways proof: renumbering the legends must not disturb the real
+    # KHM 1-10, which are told apart by their own Textdaten boxes.
+    check("the REAL KHM 9 is still 9 after the legend change, not 209",
+          tale_number(FIXTURE_KHM9_HTML, page="Die zwölf Brüder (1857)")
+          == NumberResult(9, "numbered", None))
+    check("a legend never lands in the 1-200 range",
+          not 1 <= r.number <= TALE_MAX, r.number)
 
     # ---- CASE 5: the one STARRED variant -----------------------------------
     r = tale_number(FIXTURE_STARRED_HTML, page="Die zwölf faulen Knechte (1857)")
@@ -1160,7 +1201,7 @@ def fixture_test(verbose=True):
     # ---- CASE 7: the mapping SHAPE gate — 200, contiguous 1-200 ------------
     full = {n: {"page": "p%d (1857)" % n, "title": "t%d" % n, "revid": n}
             for n in range(1, EXPECTED_NUMBERED + 1)}
-    check("a complete 1-200 mapping passes the shape gate",
+    check("a complete 1-210 mapping passes the shape gate",
           assert_mapping_shape(full, legends=EXPECTED_LEGENDS, starred=EXPECTED_STARRED,
                                unreadable=0) is True)
     gap = dict(full)
@@ -1168,10 +1209,15 @@ def fixture_test(verbose=True):
     probs = mapping_shape_problems(gap)
     check("a mapping missing KHM 97 fails the shape gate and says which number",
           probs and any("97" in p for p in probs), probs)
+    legend_gap = dict(full)
+    legend_gap.pop(205)
+    check("a mapping missing a Kinderlegende (KHM 205) fails the shape gate too",
+          any("205" in p for p in mapping_shape_problems(legend_gap)),
+          mapping_shape_problems(legend_gap))
     over = dict(full)
-    over[201] = {"page": "x (1857)", "title": "x", "revid": 0}
-    check("a number outside 1-200 fails the shape gate",
-          any("201" in p for p in mapping_shape_problems(over)), mapping_shape_problems(over))
+    over[211] = {"page": "x (1857)", "title": "x", "revid": 0}
+    check("a number outside 1-210 fails the shape gate",
+          any("211" in p for p in mapping_shape_problems(over)), mapping_shape_problems(over))
     for kw in ("legends", "starred"):
         try:
             assert_mapping_shape(full, **{kw: 99})
@@ -1305,15 +1351,19 @@ def crawl_mapping():
             continue
         res = tale_number(page["html"], page["wikitext"], t)
         if res.number is None:
-            if res.kind == "legend":
-                legends.append(t)
-            elif res.kind == "starred":
+            if res.kind == "starred":
                 starred.append(t)
             else:
                 unreadable += 1
             print("  skip [%s] %s" % (res.kind, res.message), file=sys.stderr)
             continue
-        if res.message:                      # a renumbered tale: expected, not fatal
+        if res.kind == "legend":
+            # Recognised, renumbered, and CLAIMED — a legend is archived like any
+            # other text, at 200 + the numeral it prints. It is counted separately
+            # only so the shape gate can still assert there are exactly ten.
+            legends.append(t)
+            print("  legend %s" % res.message, file=sys.stderr)
+        elif res.message:                    # a renumbered tale: expected, not fatal
             warnings.append(res.message)
             print("  WARNING %s" % res.message, file=sys.stderr)
         claims.append((res.number, {
@@ -1332,7 +1382,7 @@ def crawl_mapping():
         raise SystemExit(3)
 
     print("mapping: %d numbered tales" % len(mapping))
-    print("skipped as Kinderlegenden (they number themselves 1.-10.): %d%s"
+    print("Kinderlegenden recognised and renumbered to KHM 201-210 (they print 1.-10.): %d%s"
           % (len(legends), (" — " + "; ".join(legends)) if legends else ""))
     print("skipped as starred variants (out of the 1-200 sequence): %d%s"
           % (len(starred), (" — " + "; ".join(starred)) if starred else ""))

@@ -102,10 +102,39 @@ def stale_alignment():
     return out + take
 
 
+def missing_audio():
+    """Every audio-bearing root story that has no clips at all.
+
+    WHY THIS MODE EXISTS. The push trigger only ever sees the stories changed in
+    one push, and `stale_alignment` only looks at stories that ALREADY have an
+    align.json. A batch whose clips were built and then lost is therefore
+    unreachable by both: the story files sit on main, unchanged, and nothing will
+    pick them up again. That is exactly what happened on 17 Aug 2026 — run #89
+    synthesized all 47 tales of the P5-P10 landing, 2h 3m of paid TTS, and lost
+    the lot when its push was rejected non-fast-forward. Before this mode the only
+    remedy was one workflow_dispatch per tale, forty-seven times.
+
+    Dispatch with id = "missing" to rebuild everything that has no audio.
+    """
+    out = []
+    for f in sorted(os.listdir(".")):
+        if "/" in f or not f.endswith(".json"):
+            continue
+        sid = story_id(f)
+        if not sid:
+            continue
+        if not os.path.exists(os.path.join("audio", sid, "align.json")):
+            out.append(sid)
+    return out
+
+
 def main():
     ids = []
     dispatch = os.environ.get("DISPATCH_ID", "").strip()
-    if dispatch:
+    if dispatch.lower() == "missing":
+        ids.extend(missing_audio())
+        print("dispatch 'missing': %d story/ies have no clips yet" % len(ids))
+    elif dispatch:
         name = dispatch[:-5] if dispatch.endswith(".json") else dispatch
         fn = name + ".json"
         if os.path.exists(fn):

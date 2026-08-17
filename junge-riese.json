@@ -1,0 +1,797 @@
+{
+ "id": "junge-riese",
+ "title": "Der junge Riese",
+ "titleEn": "The Young Giant",
+ "khm": 90,
+ "language": "German",
+ "langCode": "de-DE",
+ "work": "Kinder- und Hausmärchen",
+ "workEn": "Grimms’ Fairy Tales",
+ "workGloss": "Children’s and Household Tales",
+ "part": "The Young Giant",
+ "source": "Brüder Grimm, Kinder- und Hausmärchen, Band 2, 7. Auflage (Ausgabe letzter Hand), Dieterich, Göttingen 1857, KHM 90. Text from Wikisource (twice proofread against the original). 1857 spelling preserved exactly.",
+ "about": "A Thumbling tale that grows out of its own genre. KHM 90 starts with a farmer’s son no bigger than a thumb, carried off from the furrow by a giant who suckles him for six years, until he can tear the thickest oak out of the ground and carry plough, harrow and horses home like a bundle of straw. Too strong and far too hungry for his parents to keep, he hires himself out for wages of blows instead of coin — which is the joke the rest of the tale runs on. A miserly smith takes the bargain and is kicked over four loads of hay; a skinflint steward takes it too and spends the year trying to have him killed, by a millstone dropped down a well and by a night in a haunted mill where invisible fingers lay the table and box his ears. He and his wife end hanging in the air out of their own windows, and for all the teller knows they hang there yet. Spelling follows the 1857 edition (daß, muß, gieng, fieng, that, Thür, Rath, todt, ward).",
+ "glossaryFile": "khm-glossary.json",
+ "sentences": [
+  {
+   "p": true,
+   "t": "Ein Bauersmann hatte einen Sohn, der war so groß wie ein Daumen und ward gar nicht größer und wuchs in etlichen Jahren nicht ein Haarbreit.",
+   "l": "A farming-man had a son, who was as big as a thumb and became not at all bigger and grew in several years not a hair’s-breadth.",
+   "i": "A peasant had a son who was no bigger than a thumb; he grew no bigger at all, and in several years did not grow a hair’s breadth.",
+   "n": "Bauersmann is the older, fuller form of Bauer, a farmer. ward is the old past of werden, “became”, and the tales use it constantly where modern German has wurde. der war is a relative clause built on the demonstrative der, “that one”, a shape German speech still likes."
+  },
+  {
+   "t": "Einmal wollte der Bauer ins Feld gehen und pflügen, da sagte der Kleine „Vater, ich will mit hinaus.“",
+   "l": "Once the farmer wanted to go into the field and plough, then said the little one “father, I want to go out with [you].”",
+   "i": "One day the farmer meant to go out to the field and plough, and the little one said, “Father, I want to come out with you.”",
+   "n": "mit hinaus is bare in two ways: the verb is left out, mitgehen being understood from the preceding gehen, and mit itself is an adverb, “along”, governing nothing. English “with” must have an object, so the literal supplies [you] in brackets — the word is ours, not the tale’s. wollte is “wanted to, meant to”, not a plain future."
+  },
+  {
+   "t": "„Du willst mit hinaus?“ sprach der Vater, „bleib du hier, dort bist du zu nichts nutz: du könntest mir auch verloren gehen.“",
+   "l": "“You want to go out with [me]?” spoke the father, “stay here, out there you are good for nothing: you could also get lost on me.”",
+   "i": "“You want to come out with me?” said the father. “Stay here; out there you are no use at all — and I might well lose you.”",
+   "n": "mit hinaus again, and again mit stands alone as “along” with nothing after it; the literal supplies [me] in brackets as the object English requires, a word we have added and the German does not have. zu nichts nutz is a set phrase, “good for nothing”. The mir in du könntest mir verloren gehen is a dative of the person concerned — the loss would be his — where English says “on me” or nothing at all. sprach is the old narrative past of sprechen, the tales’ ordinary word for “said”."
+  },
+  {
+   "t": "Da fieng der Däumling an zu weinen, und um Ruhe zu haben, steckte ihn der Vater in die Tasche und nahm ihn mit.",
+   "l": "Then the Thumbling began to weep, and in order to have peace, the father stuck him in his pocket and took him along.",
+   "i": "Then Thumbling began to cry, and to have peace the father put him in his pocket and took him with him.",
+   "n": "fieng is the 1857 spelling of fing; anfangen is separable, so its prefix an stands away from the verb: fieng … an. Däumling is Daumen, thumb, with the diminutive ending -ling; the name is left standing."
+  },
+  {
+   "t": "Draußen auf dem Felde holte er ihn wieder heraus und setzte ihn in eine frische Furche.",
+   "l": "Outside on the field he fetched him out again and set him in a fresh furrow.",
+   "i": "Out in the field he took him out again and set him down in a fresh furrow.",
+   "n": "Felde carries the old dative -e, still normal in 1857 and now left only in fixed phrases. herausholen is separable: holte … heraus."
+  },
+  {
+   "t": "Wie er da so saß, kam über den Berg ein großer Riese daher.",
+   "l": "As he sat there like that, there came over the hill a great giant along.",
+   "i": "As he was sitting there, a great giant came along over the hill.",
+   "n": "wie here means “as, when”, not “how” — you will meet it constantly in the tales. daherkommen, “to come along”, is separable, and its prefix closes the sentence."
+  },
+  {
+   "t": "„Siehst du dort den großen Butzemann?“ sagte der Vater, und wollte den Kleinen schrecken, damit er artig wäre, „der kommt und holt dich.“",
+   "l": "“Do you see there the great bogeyman?” said the father, and wanted to frighten the little one so that he would be well-behaved, “he is coming and fetching you.”",
+   "i": "“Do you see the great bogeyman over there?” said the father, meaning to frighten the little one into behaving. “He is coming to carry you off.”",
+   "n": "A Butzemann is the nursery bogeyman held over children to scare them; the father is only threatening. wäre is subjunctive after damit, which introduces the purpose."
+  },
+  {
+   "t": "Der Riese aber hatte mit seinen langen Beinen kaum ein paar Schritte gethan, so war er bei der Furche.",
+   "l": "The giant, however, had with his long legs scarcely taken a couple of steps, so was he at the furrow.",
+   "i": "But the giant had hardly taken a couple of strides on his long legs before he was at the furrow.",
+   "n": "gethan is the 1857 spelling of getan. kaum … so is the old correlative pair — “scarcely … when”; English needs “before” or “when” where German puts so."
+  },
+  {
+   "t": "Er hob den kleinen Däumling mit zwei Fingern behutsam in die Höhe, betrachtete ihn und gieng ohne ein Wort zu sprechen, mit ihm fort.",
+   "l": "He lifted the little Thumbling with two fingers carefully into the height, looked him over and went, without speaking a word, away with him.",
+   "i": "He lifted little Thumbling carefully up with two fingers, looked him over, and went off with him without a word.",
+   "n": "in die Höhe heben is the ordinary German for lifting a thing up. gieng is the 1857 spelling of ging. The comma before mit ihm fort is the 1857 printer’s and is left as it stands."
+  },
+  {
+   "t": "Der Vater stand dabei, konnte vor Schrecken keinen Laut hervor bringen und dachte nicht anders als sein Kind für verloren, also daß ers sein Lebtag nicht wieder mit Augen sehen würde.",
+   "l": "The father stood by, could for terror bring forth no sound and thought nothing other than his child [to be] lost, and so that he would never again see it with his eyes his life long.",
+   "i": "The father stood by, so terrified that he could not utter a sound, and gave his child up for lost, thinking he would never set eyes on him again as long as he lived.",
+   "n": "vor Schrecken gives the cause, “out of terror”. dachte nicht anders als … für verloren is a compressed idiom — “thought nothing else than [that his child was] lost” — so the literal supplies [to be] in brackets. ers is er es run together, and Lebtag is one’s whole life."
+  },
+  {
+   "p": true,
+   "t": "Der Riese aber trug es heim und ließ es an seiner Brust saugen, und der Däumling wuchs und ward groß und stark nach Art der Riesen.",
+   "l": "The giant, however, carried it home and let it suck at his breast, and Thumbling grew and became big and strong after the manner of giants.",
+   "i": "But the giant carried him home and let him suck at his breast, and Thumbling grew and became big and strong in the way of giants.",
+   "n": "German keeps the neuter es for das Kind, so the child stays “it” where English slides to “him”. lassen with a bare infinitive is “to let something happen”. The giant nursing the child at his own breast stands in the text as printed; the tale does not explain it."
+  },
+  {
+   "t": "Nach Verlauf von zwei Jahren gieng der Alte mit ihm in den Wald, wollte ihn versuchen und sprach „zieh dir eine Gerte heraus.“",
+   "l": "After the passing of two years the old one went with him into the forest, wanted to test him and said “pull yourself out a switch.”",
+   "i": "After two years had gone by, the old one went into the forest with him, meaning to try him, and said, “Pull yourself up a switch.”",
+   "n": "versuchen here is “to put to the test”, an older sense than the modern “to try, attempt”. dir is a dative of advantage, “for yourself”, which English usually leaves out. A Gerte is a thin whippy rod."
+  },
+  {
+   "t": "Da war der Knabe schon so stark, daß er einen jungen Baum mit den Wurzeln aus der Erde riß.",
+   "l": "Then the boy was already so strong that he tore a young tree with the roots out of the earth.",
+   "i": "By then the boy was already so strong that he tore a young tree out of the ground, roots and all.",
+   "n": "daß sends its verb to the end of the clause, which is why riß, the past of reißen, stands last."
+  },
+  {
+   "t": "Der Riese aber meinte „das muß besser kommen,“ nahm ihn wieder mit, und säugte ihn noch zwei Jahre.",
+   "l": "The giant, however, thought “that must come better,” took him along again, and suckled him another two years.",
+   "i": "But the giant said to himself, “That will have to come out better,” took him along again, and suckled him for another two years.",
+   "n": "meinen is “to be of the opinion, to remark”, rather than English “to mean”. das muß besser kommen is plain speech: the result must improve."
+  },
+  {
+   "t": "Als er ihn versuchte, hatte seine Kraft schon so zugenommen, daß er einen alten Baum aus der Erde brechen konnte.",
+   "l": "When he tested him, his strength had already so increased that he could break an old tree out of the earth.",
+   "i": "When he tried him, his strength had grown so far that he could break an old tree out of the ground.",
+   "n": "zunehmen, “to increase”, is separable; in the perfect the prefix binds back on again: zugenommen."
+  },
+  {
+   "t": "Das war dem Riesen noch immer nicht genug, er säugte ihn abermals zwei Jahre,",
+   "l": "That was still not enough for the giant, he suckled him yet another two years,",
+   "i": "That was still not enough for the giant; he suckled him another two years,",
+   "n": "dem Riesen is a dative — the giant is the one for whom it is not enough. abermals, “once again”, belongs to the older written register."
+  },
+  {
+   "t": "und als er dann mit ihm in den Wald gieng, und sprach „nun reiß einmal eine ordentliche Gerte aus,“ so riß der Junge den dicksten Eichenbaum aus der Erde, daß er krachte, und war ihm nur ein Spaß.",
+   "l": "and when he then went with him into the forest, and said “now tear out a proper switch for once,” the boy tore the thickest oak-tree out of the earth, so that it cracked, and it was to him only a jest.",
+   "i": "and when he went into the forest with him and said, “Now pull out a proper switch,” the boy tore the thickest oak out of the ground so that it cracked — and it was mere play to him.",
+   "n": "einmal in a command is a softener, roughly “just, for once”, not “one time”. ausreißen is separable: reiß … aus. ihm is once more the dative of the person: “to him it was only fun”."
+  },
+  {
+   "t": "„Nun ists genug,“ sprach der Riese, „du hast ausgelernt,“ und führte ihn zurück auf den Acker, wo er ihn geholt hatte.",
+   "l": "“Now it is enough,” spoke the giant, “you have finished learning,” and led him back to the field where he had fetched him.",
+   "i": "“Now it is enough,” said the giant. “You have served out your time,” and he led him back to the field where he had picked him up.",
+   "n": "ausgelernt haben is what is said of an apprentice who has served out his years — his training is finished and he is a journeyman; English has no single verb for it. ists is ist es run together, as the speech in these tales does throughout."
+  },
+  {
+   "t": "Sein Vater stand da hinter dem Pflug, der junge Riese gieng auf ihn zu und sprach „sieht er wohl, Vater, was sein Sohn für ein Mann geworden ist.“",
+   "l": "His father stood there behind the plough, the young giant went up to him and said “does he see, father, what a man his son has become.”",
+   "i": "His father was standing there behind the plough; the young giant walked up to him and said, “Do you see, father, what a man your son has become.”",
+   "n": "The son addresses his father in the third person — sieht er, sein Sohn, literally “does he see, what a man his son has become” — the old Er-address, a form of speech standing between du and Sie and long dead in modern German. A master used it downward to a servant; in the country it was also the respectful way to speak to an elder, and that is what it is here: the son is deferring to his father, not talking down to him. The literal keeps the third person so the shape stays visible; the idiomatic uses “you”, since English has nothing like it. The address runs through the whole scene."
+  },
+  {
+   "t": "Der Bauer erschrack, und sagte „nein, du bist mein Sohn nicht, ich will dich nicht, geh weg von mir.“",
+   "l": "The farmer took fright, and said “no, you are not my son, I do not want you, go away from me.”",
+   "i": "The farmer took fright and said, “No, you are not my son, I do not want you, go away from me.”",
+   "n": "erschrack is the older spelling of erschrak, past of erschrecken, “to be startled”. The father answers with du while the son keeps to the third person."
+  },
+  {
+   "t": "„Freilich bin ich sein Sohn, laß er mich an die Arbeit, ich kann pflügen so gut als er und noch besser.“",
+   "l": "“Certainly I am his son, let him set me to the work, I can plough as well as he and better still.”",
+   "i": "“Of course I am your son — set me to the work, I can plough as well as you and better.”",
+   "n": "laß er is the imperative of the Er-address: “let him [allow] me”, that is, “let me”. The er of so gut als er at the end is the same address again — the literal’s “as well as he” means “as well as you”, the father, and not some third person. so gut als, where modern German writes so gut wie."
+  },
+  {
+   "t": "„Nein, nein, du bist mein Sohn nicht, du kannst auch nicht pflügen, geh weg von mir.“",
+   "l": "“No, no, you are not my son, and you cannot plough either, go away from me.”",
+   "n": "auch nicht adds the second denial to the first — “not that either”."
+  },
+  {
+   "t": "Weil er sich aber vor dem großen Mann fürchtete, ließ er den Pflug los, trat zurück und setzte sich zur Seite ans Land.",
+   "l": "Because he was afraid of the great man, however, he let the plough go, stepped back and set himself aside at the field-edge.",
+   "i": "But because he was afraid of the big man, he let go of the plough, stepped back, and sat down to one side at the edge of the field.",
+   "n": "sich fürchten vor takes the dative — one fears “before” a thing. loslassen is separable: ließ … los. sich setzen is reflexive, “to set oneself”, where English simply sits. ans Land is the unploughed border of the field."
+  },
+  {
+   "t": "Da nahm der Junge das Geschirr und drückte blos mit einer Hand darauf, aber der Druck war so gewaltig, daß der Pflug tief in die Erde gieng.",
+   "l": "Then the boy took the harness and pressed merely with one hand on it, but the pressure was so mighty that the plough went deep into the earth.",
+   "i": "Then the boy took hold of the gear and pressed on it with one hand only, but the pressure was so great that the plough went deep into the ground.",
+   "n": "blos is the 1857 spelling of bloß, here “merely, only”. Geschirr is the harness and plough-tackle, not crockery. darauf packs “on it” into one word, pointing back to the harness."
+  },
+  {
+   "t": "Der Bauer konnte das nicht mit ansehen und rief ihm zu „wenn du pflügen willst, mußt du nicht so gewaltig drücken, das gibt schlechte Arbeit.“",
+   "l": "The farmer could not look on at that and called to him “if you want to plough, you must not press so mightily, that gives bad work.”",
+   "i": "The farmer could not bear to watch, and called to him, “If you want to plough, you must not press so hard — that makes bad work.”",
+   "n": "mit ansehen is to look on while something is done, usually with the sense of not being able to bear it. zurufen is separable and takes the dative: rief ihm … zu."
+  },
+  {
+   "t": "Der Junge aber spannte die Pferde aus, zog selber den Pflug und sagte „geh er nur nach Haus, Vater, und laß er die Mutter eine große Schüssel voll Essen kochen; ich will derweil den Acker schon umreißen.“",
+   "l": "The boy, however, unharnessed the horses, drew the plough himself and said “let him just go home, father, and let him have mother cook a great bowl full of food; I will meanwhile turn the field over well enough.”",
+   "i": "But the boy unharnessed the horses, pulled the plough himself, and said, “Just go home, father, and have mother cook a great bowl full of food; I will turn the field over meanwhile.”",
+   "n": "Two more Er-imperatives, geh er and laß er. nur in a command means “just, go ahead and”. schon here is not “already” but a tone-word of confidence: “I shall manage it all right”."
+  },
+  {
+   "t": "Da gieng der Bauer heim und bestellte das Essen bei seiner Frau:",
+   "l": "Then the farmer went home and ordered the food from his wife:",
+   "i": "So the farmer went home and ordered the meal from his wife:",
+   "n": "bestellen bei is to place an order with someone. The colon does the work of a semicolon, setting the father’s errand against what the son does next."
+  },
+  {
+   "t": "der Junge aber pflügte das Feld, zwei Morgen groß, ganz allein, und dann spannte er sich auch selber vor die Egge und eggte alles mit zwei Eggen zugleich.",
+   "l": "the boy, however, ploughed the field, two Morgen in size, quite alone, and then he harnessed himself in front of the harrow as well and harrowed everything with two harrows at once.",
+   "i": "meanwhile the boy ploughed the field, two acres of it, entirely alone, and then harnessed himself to the harrow as well and harrowed it all with two harrows at once.",
+   "n": "A Morgen is an old field measure — as much land as one team could plough in a morning, roughly half a hectare; “acre” is the nearest English equivalent, not an exact one. eggte is the past of eggen, to harrow."
+  },
+  {
+   "t": "Wie er fertig war, gieng er in den Wald und riß zwei Eichenbäume aus, legte sie auf die Schultern, und hinten und vorn eine Egge darauf, und hinten und vorn auch ein Pferd, und trug das alles, als wär es ein Bund Stroh, nach seiner Eltern Haus.",
+   "l": "When he was finished, he went into the forest and tore out two oak-trees, laid them on his shoulders, and behind and in front a harrow on them, and behind and in front a horse too, and carried all that, as if it were a bundle of straw, to his parents’ house.",
+   "i": "When he had finished, he went into the forest and tore up two oaks, laid them on his shoulders, and on them a harrow behind and in front, and a horse behind and in front as well, and carried the whole load home to his parents as if it were a bundle of straw.",
+   "n": "The verb is not repeated in the two “behind and in front” members: legte is left to be understood, and the English has to leave it out as well. wär is the subjunctive wäre after als, “as if it were”. seiner Eltern Haus puts the genitive first, an elevated old order."
+  },
+  {
+   "t": "Wie er in den Hof kam, erkannte ihn seine Mutter nicht und fragte „wer ist der entsetzliche, große Mann?“",
+   "l": "When he came into the yard, his mother did not recognise him and asked “who is the frightful, big man?”",
+   "i": "When he came into the yard his mother did not know him, and asked, “Who is that dreadful great man?”",
+   "n": "entsetzlich is “appalling, frightful” — she is not admiring him. German uses the definite article der where English points with “that”."
+  },
+  {
+   "t": "Der Bauer sagte „das ist unser Sohn.“",
+   "l": "The farmer said “that is our son.”",
+   "n": "das ist is neuter and points at the person from a little distance, much as English does with “that is”."
+  },
+  {
+   "t": "Sie sprach „nein, unser Sohn ist das nimmermehr, so groß haben wir keinen gehabt, unser war ein kleines Ding.“",
+   "l": "She spoke “no, our son that is by no means, so big we have had none, ours was a little thing.”",
+   "i": "She said, “No, that is never our son — we never had one so big; ours was a little thing.”",
+   "n": "nimmermehr is “never, never at all”, stronger than nie. unser Sohn stands first for emphasis, which throws the verb into second place and das after it. Ding is neuter, and the child is still spoken of as a thing."
+  },
+  {
+   "t": "Sie rief ihm zu „geh fort, wir wollen dich nicht.“",
+   "l": "She called to him “go away, we do not want you.”",
+   "n": "zurufen again, separable and governing the dative ihm."
+  },
+  {
+   "t": "Der Junge schwieg still, zog seine Pferde in den Stall, gab ihnen Hafer und Heu, alles wie sichs gehörte.",
+   "l": "The boy kept quite silent, drew his horses into the stable, gave them oats and hay, all as was fitting.",
+   "i": "The boy said nothing, led his horses into the stable, and gave them oats and hay, everything as it should be.",
+   "n": "still schweigen is to hold one’s peace. sich gehören is “to be fitting, proper”, so wie sichs gehörte is “as was right”; sichs is sich es."
+  },
+  {
+   "t": "Als er fertig war, gieng er in die Stube, setzte sich auf die Bank und sagte „Mutter, nun hätte ich Lust zu essen, ists bald fertig?“",
+   "l": "When he was finished, he went into the parlour, set himself on the bench and said “mother, now I would have an appetite to eat, is it soon ready?”",
+   "i": "When he had finished he went into the parlour, sat down on the bench and said, “Mother, I could eat now — will it be ready soon?”",
+   "n": "Lust zu essen haben is “to have an appetite for eating”, and the subjunctive hätte softens it. ists is ist es."
+  },
+  {
+   "t": "Da sagte sie „ja“ und brachte zwei große große Schüsseln voll herein, daran hätten sie und ihr Mann acht Tage lang satt gehabt.",
+   "l": "Then she said “yes” and brought two great great bowls full in, at which she and her husband would have had their fill for eight days.",
+   "i": "Then she said, “Yes,” and brought in two great, great bowlfuls, on which she and her husband would have had their fill for eight days.",
+   "n": "große große, printed twice without a comma, is the story-teller’s own emphasis and not a misprint. satt haben an etwas is to have one’s fill of a thing; the subjunctive hätten makes it a might-have-been."
+  },
+  {
+   "t": "Der Junge aber aß sie allein auf und fragte ob sie nicht mehr vorsetzen könnte?",
+   "l": "The boy, however, ate them up alone and asked whether she could not set out more?",
+   "i": "But the boy ate them up by himself, and asked whether she could not set out more.",
+   "n": "The question mark stands although the question is reported rather than quoted — 1857 punctuation does this often. aufessen and vorsetzen are both separable; vorsetzen is to set food before someone."
+  },
+  {
+   "t": "„Nein,“ sagte sie, „das ist alles, was wir haben.“",
+   "l": "“No,” said she, “that is all that we have.”",
+   "i": "“No,” she said, “that is all we have.”",
+   "n": "sagte sie inverts because the quotation counts as the first element of the sentence, and the verb must stand second."
+  },
+  {
+   "t": "„Das war ja nur zum Schmecken, ich muß mehr haben.“",
+   "l": "“That was only for the tasting, I must have more.”",
+   "i": "“That was a mere taste — I must have more.”",
+   "n": "ja here is a flavouring word, not “yes”: it appeals to what both sides can see. zum Schmecken turns the infinitive into a noun, “for tasting”."
+  },
+  {
+   "t": "Sie getraute nicht ihm zu widerstehen, gieng hin und setzte einen großen Schweinekessel voll übers Feuer, und wie es gahr war, trug sie es herein.",
+   "l": "She did not dare to withstand him, went off and set a great pig-kettle full over the fire, and when it was cooked, she carried it in.",
+   "i": "She did not dare stand up to him, went and set a great pig-cauldron full over the fire, and when it was done she carried it in.",
+   "n": "sich getrauen, here without the reflexive as older German allows, is “to dare”. widerstehen takes the dative: ihm. gahr is the older spelling of gar, of food “done through”; a Schweinekessel is the big kettle in which feed for the pigs was boiled."
+  },
+  {
+   "t": "„Endlich kommen noch ein paar Brocken“ sagte er und aß alles hinein; es war aber doch nicht genug seinen Hunger zu stillen.",
+   "l": "“At last a few crumbs are coming” said he and ate it all in; it was, however, still not enough to still his hunger.",
+   "i": "“At last, a few morsels,” he said, and put it all away; but even so it was not enough to satisfy his hunger.",
+   "n": "Brocken are chunks or scraps — he is being dry about the size of the meal. alles hinein essen is a homely phrase for putting a quantity away. seinen Hunger stillen is the ordinary German for stilling hunger."
+  },
+  {
+   "t": "Da sprach er „Vater, ich sehe wohl, bei ihm werd ich nicht satt,",
+   "l": "Then he spoke “father, I see well, with him I do not get full,",
+   "i": "Then he said, “Father, I see well enough that I shall not get my fill here with you;",
+   "n": "wohl softens the verb: “I can see well enough”. bei ihm is the Er-address again — “with him”, meaning “at your house”. satt werden is to eat one’s fill."
+  },
+  {
+   "t": "will er mir einen Stab von Eisen verschaffen, der stark ist, und den ich vor meinen Knien nicht zerbrechen kann, so will ich fort in die Welt gehen.“",
+   "l": "will he get me a staff of iron, one that is strong, and that I cannot break in two across my knees, then will I go off into the world.”",
+   "i": "if you will get me an iron staff, a strong one that I cannot break across my knees, then I will go off into the world.”",
+   "n": "A conditional clause with no wenn: the verb simply comes first — will er … — and German hears “if”. English can echo it only with “should he” or by supplying “if”. The er is still the father, the Er-address running on from the sentence before, so the literal’s “will he get me” is “if you will get me”. vor meinen Knien is “in front of my knees”, the way a stick is snapped over the leg."
+  },
+  {
+   "t": "Der Bauer war froh, spannte seine zwei Pferde vor den Wagen und holte bei dem Schmied einen Stab so groß und dick, als ihn die zwei Pferde nur fort schaffen konnten.",
+   "l": "The farmer was glad, harnessed his two horses to the wagon and fetched from the smith a staff so big and thick as the two horses could just manage to carry away.",
+   "i": "The farmer was glad, harnessed his two horses to the wagon, and fetched from the smith a staff as big and thick as the two horses could barely haul.",
+   "n": "vorspannen is to harness a team in front of a vehicle. fort schaffen, modern fortschaffen, is to get a thing moved away; nur here means “only just”."
+  },
+  {
+   "t": "Der Junge nahm ihn vor die Knie, und ratsch! brach er ihn wie eine Bohnenstange in der Mitte entzwei und warf ihn weg.",
+   "l": "The boy took it in front of his knees, and crack! he broke it like a beanpole in the middle in two and threw it away.",
+   "i": "The boy took it across his knees, and crack! — he snapped it in the middle like a beanpole and threw it away.",
+   "n": "ratsch is a sound-word for something snapping or tearing; German narration drops such noises straight into the sentence. entzweibrechen, “to break in two”, is separable, so entzwei sits apart from the verb."
+  },
+  {
+   "t": "Der Vater spannte vier Pferde vor und holte einen Stab so groß und dick, als ihn die vier Pferde fort schaffen konnten.",
+   "l": "The father harnessed four horses in front and fetched a staff so big and thick as the four horses could carry away.",
+   "i": "The father harnessed four horses and fetched a staff as big and thick as the four horses could haul.",
+   "n": "The tale counts upward in the threefold rhythm it likes: two horses, four, then eight."
+  },
+  {
+   "t": "Der Sohn knickte auch diesen vor dem Knie entzwei, warf ihn hin und sprach „Vater, der kann mir nicht helfen, er muß besser vorspannen und einen stärkern Stab holen.“",
+   "l": "The son snapped this one too in two across his knee, threw it down and said “father, that one cannot help me, he must harness better and fetch a stronger staff.”",
+   "i": "The son snapped this one in two across his knee as well, threw it down, and said, “Father, that one is no help to me — you must harness a bigger team and fetch a stronger staff.”",
+   "n": "der at the head of the clause is the demonstrative, “that one”, pointing at the broken staff. stärkern is the older written form of stärkeren. The Er-address continues in er muß, “you must”."
+  },
+  {
+   "t": "Da spannte der Vater acht Pferde vor und holte einen so groß und dick, als ihn die acht Pferde herbei fahren konnten.",
+   "l": "Then the father harnessed eight horses in front and fetched one so big and thick as the eight horses could bring it along.",
+   "i": "Then the father harnessed eight horses and fetched one as big and thick as the eight horses could bring.",
+   "n": "herbei fahren is to bring a thing here by wagon; herbei marks the direction toward the speaker, as hin- marks the direction away."
+  },
+  {
+   "t": "Wie der Sohn den in die Hand nahm, brach er gleich oben ein Stück davon ab und sagte „Vater, ich sehe er kann mir keinen Stab anschaffen wie ich ihn brauche, ich will nicht länger bei ihm bleiben.“",
+   "l": "When the son took that one in his hand, he broke straight away a piece off the top of it and said “father, I see he cannot get me any staff such as I need it, I will not stay with him any longer.”",
+   "i": "When the son took that one in his hand, he at once broke a piece off the top of it and said, “Father, I see you cannot get me a staff such as I need; I will not stay with you any longer.”",
+   "n": "abbrechen is separable: brach … ab. anschaffen is to procure a thing for someone. The Er-address once more, and it is the last we hear of the father."
+  },
+  {
+   "p": true,
+   "t": "Da gieng er fort und gab sich für einen Schmiedegesellen aus.",
+   "l": "Then he went off and gave himself out for a smith’s journeyman.",
+   "i": "Then he went away and passed himself off as a blacksmith’s journeyman.",
+   "n": "sich ausgeben für is to pass oneself off as something, and the prefix aus closes the clause. A Geselle is the trained craftsman between apprentice and master."
+  },
+  {
+   "t": "Er kam in ein Dorf, darin wohnte ein Schmied, der war ein Geizmann, gönnte keinem Menschen etwas und wollte alles allein haben;",
+   "l": "He came into a village, in it lived a smith, he was a miser-man, granted no person anything and wanted to have everything alone;",
+   "i": "He came to a village where a smith lived, and the smith was a miser who begrudged everybody everything and wanted it all to himself;",
+   "n": "darin, “in it”, and der, “that one, he”, chain the clauses instead of relative pronouns — the loose spoken shape these tales keep. jemandem etwas gönnen is to be glad another has something; with a negative it is exactly English “to begrudge”."
+  },
+  {
+   "t": "zu dem trat er in die Schmiede und fragte ob er keinen Gesellen brauchte.",
+   "l": "to that one he stepped into the smithy and asked whether he did not need a journeyman.",
+   "i": "it was into his forge that he stepped, and he asked whether he had no need of a journeyman.",
+   "n": "zu dem, “to that one”, is put first for emphasis and German is content to leave it before the verb. A question with kein rather expects the answer “yes, I do”, like English “you don’t need a hand, do you?”"
+  },
+  {
+   "t": "„Ja“ sagte der Schmied, sah ihn an und dachte „das ist ein tüchtiger Kerl, der wird gut vorschlagen und sein Brot verdienen.“",
+   "l": "“Yes” said the smith, looked at him and thought “that is a capable fellow, he will strike well and earn his bread.”",
+   "i": "“Yes,” said the smith, looked him over, and thought, “That is a strapping fellow; he will strike well and earn his bread.”",
+   "n": "vorschlagen in a smithy is the striker’s work — swinging the great hammer at the master’s direction — not “to propose”. ansehen is separable: sah … an."
+  },
+  {
+   "t": "Er fragte „wie viel willst du Lohn haben?“",
+   "l": "He asked “how much wage do you want to have?”",
+   "i": "He asked, “How much do you want in wages?”",
+   "n": "German keeps the noun and the verb apart: wie viel … Lohn haben, “how much wage do you want to have”."
+  },
+  {
+   "t": "„Gar keinen will ich haben,“ antwortete er, „nur alle vierzehn Tage, wenn die andern Gesellen ihren Lohn bezahlt kriegen, will ich dir zwei Streiche geben, die mußt du aushalten.“",
+   "l": "“None at all do I want to have,” answered he, “only every fourteen days, when the other journeymen get their wage paid, I will give you two strokes, those you must endure.”",
+   "i": "“I want none at all,” he answered, “only every fortnight, when the other journeymen are paid their wages, I will give you two blows, and you must stand them.”",
+   "n": "vierzehn Tage is the German fortnight. kriegen is the everyday word for “to get”, so bezahlt kriegen is “to get paid”. A Streich is a stroke or blow — the tale is going to take it quite literally."
+  },
+  {
+   "t": "Das war der Geizmann von Herzen zufrieden und dachte damit viel Geld zu sparen.",
+   "l": "With that the miser was content from the heart and thought thereby to save much money.",
+   "i": "The miser was heartily content with that, and thought he would save a great deal of money by it.",
+   "n": "The object das stands first — “that the miser was content with” — an older construction with zufrieden. von Herzen is “from the heart, heartily”, and damit is “with that, by that means”."
+  },
+  {
+   "t": "Am andern Morgen sollte der fremde Geselle zuerst vorschlagen,",
+   "l": "On the next morning the strange journeyman was to strike first,",
+   "i": "The next morning the new journeyman was to take the first turn at the hammer,",
+   "n": "der andere Morgen is “the next morning”, not “the other”. fremd is “strange, from elsewhere” — the newcomer."
+  },
+  {
+   "t": "wie aber der Meister den glühenden Stab brachte und jener den ersten Schlag that, so flog das Eisen von einander und der Ambos sank in die Erde, so tief, daß sie ihn gar nicht wieder heraus bringen konnten.",
+   "l": "but when the master brought the glowing bar and that one struck the first blow, the iron flew apart and the anvil sank into the earth, so deep that they could not get it out again at all.",
+   "i": "but when the master brought the glowing bar and the fellow struck the first blow, the iron flew apart and the anvil sank into the ground so deep that they could not get it out again at all.",
+   "n": "jener, “that one, the former”, points back to the journeyman as against the master. that is the 1857 spelling of tat, the past of thun/tun. Ambos is now written Amboss."
+  },
+  {
+   "t": "Da ward der Geizmann bös und sagte „ei was, dich kann ich nicht brauchen, du schlägst gar zu grob, was willst du für den einen Zuschlag haben?“",
+   "l": "Then the miser became angry and said “eh what, you I cannot use, you strike far too coarsely, what do you want to have for the one blow?”",
+   "i": "Then the miser grew angry and said, “Oh come, I can make no use of you — you strike far too rough. What do you want for that one blow?”",
+   "n": "ei was is a brush-off, roughly “oh come, nonsense”. dich is fronted for emphasis, which is why the verb follows it. A Zuschlag is the striker’s blow of the hammer."
+  },
+  {
+   "t": "Da sprach er „ich will dir nur einen ganz kleinen Streich geben, weiter nichts.“",
+   "l": "Then he said “I will give you only a quite small stroke, nothing further.”",
+   "i": "Then he said, “I will give you only one quite small blow, nothing more.”",
+   "n": "weiter nichts is “nothing beyond that”. The threat is kept quiet; the tale lets the reader see what is coming."
+  },
+  {
+   "t": "Und hob seinen Fuß auf und gab ihm einen Tritt, daß er über vier Fuder Heu hinausflog.",
+   "l": "And lifted his foot up and gave him a kick, so that he flew out over four wagon-loads of hay.",
+   "i": "And he raised his foot and gave him a kick that sent him flying out over four loads of hay.",
+   "n": "The subject is not repeated after und — er is left standing from the sentence before. A Fuder is a cart-load, a rough measure for hay. daß here introduces result, “so that”."
+  },
+  {
+   "t": "Darauf suchte er sich den dicksten Eisenstab aus, der in der Schmiede war, nahm ihn als einen Stock in die Hand und gieng weiter.",
+   "l": "Thereupon he picked himself out the thickest iron bar that was in the smithy, took it as a stick in his hand and went further.",
+   "i": "Thereupon he picked out for himself the thickest iron bar in the forge, took it in his hand for a walking stick, and went on his way.",
+   "n": "sich aussuchen — the dative sich says he chose for himself, and the prefix aus goes to the end. als einen Stock stays in the accusative because it stands in apposition to ihn."
+  },
+  {
+   "p": true,
+   "t": "Als er eine Weile gezogen war, kam er zu einem Vorwerk und fragte den Amtmann ob er keinen Großknecht nöthig hätte.",
+   "l": "When he had travelled a while, he came to an outlying farm and asked the steward whether he did not need a head-farmhand.",
+   "i": "When he had been on the road a while, he came to an outlying estate farm and asked the steward whether he had no need of a head farmhand.",
+   "n": "ziehen of a person is to travel, and it takes sein in the perfect: gezogen war. A Vorwerk is an outlying farm belonging to a manor, and the Amtmann is the man who runs it for the owner — bailiff or steward. hätte is subjunctive because the question is reported."
+  },
+  {
+   "t": "„Ja,“ sagte der Amtmann, „ich kann einen brauchen: du siehst aus wie ein tüchtiger Kerl, der schon was vermag, wie viel willst du Jahrslohn haben?“",
+   "l": "“Yes,” said the steward, “I can use one: you look like a capable fellow who is good for something, how much yearly wage do you want to have?”",
+   "i": "“Yes,” said the steward, “I can use one. You look like a strapping fellow who is good for something. How much do you want in yearly wages?”",
+   "n": "aussehen wie is “to look like”, separable: siehst … aus. was is the everyday short form of etwas. vermögen is “to be capable of”, a step higher in register than können."
+  },
+  {
+   "t": "Er antwortete wiederum er verlangte gar keinen Lohn, aber alle Jahre wollte er ihm drei Streiche geben, die müßte er aushalten.",
+   "l": "He answered again he demanded no wage at all, but every year he wanted to give him three strokes, those he would have to endure.",
+   "i": "He answered again that he asked no wages at all, but that every year he would give him three blows, and he would have to stand them.",
+   "n": "Reported speech with no daß: the verbs go into the subjunctive instead — verlangte, wollte, müßte — and German needs no “that”, where English must supply one."
+  },
+  {
+   "t": "Das war der Amtmann zufrieden, denn er war auch ein Geizhals.",
+   "l": "The steward was content with that, for he too was a skinflint.",
+   "n": "Geizhals, literally “greed-throat”, is the ordinary German word for a miser; the smith was called a Geizmann, a rarer coinage of the same kind."
+  },
+  {
+   "t": "Am andern Morgen, da sollten die Knechte ins Holz fahren, und die andern Knechte waren schon auf, er aber lag noch im Bett.",
+   "l": "The next morning the farmhands were to drive into the wood, and the other hands were already up, he, however, still lay in bed.",
+   "i": "The next morning the farmhands were to drive out to the wood; the others were already up, but he was still lying in bed.",
+   "n": "Holz here is the woodland itself, not the material. The da after the time phrase is a resumptive “then”, common in speech and best left untranslated."
+  },
+  {
+   "t": "Da rief ihn einer an „steh auf, es ist Zeit, wir wollen ins Holz, und du mußt mit.“",
+   "l": "Then one of them called to him “get up, it is time, we are going into the wood, and you must along.”",
+   "i": "Then one of them called to him, “Get up, it is time, we are off to the wood, and you must come.”",
+   "n": "anrufen is separable — rief … an — and means to call out to someone. du mußt mit has no verb at all: mitkommen is understood from the mit alone."
+  },
+  {
+   "t": "„Ach,“ sagte er ganz grob und trotzig, „geht ihr nur hin, ich komme doch eher wieder als ihr alle mit einander.“",
+   "l": "“Ah,” said he quite rough and defiant, “just go along, I shall be back sooner than all of you together.”",
+   "i": "“Ah,” he said, quite rough and defiant, “off you go — I shall be back before all of you put together.”",
+   "n": "geht ihr nur hin — the ihr is put in after the imperative for emphasis. doch is a tone-word insisting against what the others expect. alle mit einander is now written miteinander."
+  },
+  {
+   "t": "Da giengen die andern zum Amtmann und erzählten ihm der Großknecht läge noch im Bett und wollte nicht mit ins Holz fahren.",
+   "l": "Then the others went to the steward and told him the head-hand was still lying in bed and would not drive along to the wood.",
+   "i": "Then the others went to the steward and told him that the head farmhand was still lying in bed and would not drive out to the wood with them.",
+   "n": "Reported speech by subjunctive alone again: läge, wollte. German can drop the daß and keep ordinary word order, and the mood does the work."
+  },
+  {
+   "t": "Der Amtmann sagte sie sollten ihn noch einmal wecken und ihn heißen die Pferde vorspannen.",
+   "l": "The steward said they should wake him once more and bid him harness the horses.",
+   "i": "The steward said they should wake him again and tell him to harness the horses.",
+   "n": "heißen with a bare infinitive is the old “to bid someone do something”, now mostly replaced by befehlen or a plain sagen."
+  },
+  {
+   "t": "Der Großknecht sprach aber wie vorher „geht ihr nur hin, ich komme doch eher wieder als ihr alle mit einander.“",
+   "l": "But the head-hand spoke as before “just go along, I shall be back sooner than all of you together.”",
+   "i": "But the head farmhand said as before, “Off you go — I shall be back before all of you put together.”",
+   "n": "The boast is repeated word for word; the repetitions are the story-teller’s own and are kept as they stand."
+  },
+  {
+   "t": "Darauf blieb er noch zwei Stunden liegen, da stieg er endlich aus den Federn, holte sich aber erst zwei Scheffel voll Erbsen vom Boden, kochte sich einen Brei und aß den mit guter Ruhe,",
+   "l": "Thereupon he stayed lying another two hours, then at last he climbed out of the feathers, but first fetched himself two bushels full of peas from the loft, cooked himself a porridge and ate it at his leisure,",
+   "i": "Thereupon he lay another two hours, and at last climbed out of the feathers, but first fetched himself two bushels of peas from the loft, cooked himself a porridge, and ate it at his leisure,",
+   "n": "aus den Federn steigen — out of the feather bed — is a homely phrase for getting up. Boden is the loft under the roof where grain was kept, not the ground. A Scheffel is an old dry measure, roughly a bushel. mit guter Ruhe is “in good peace”, unhurried."
+  },
+  {
+   "t": "und wie das alles geschehen war, gieng er hin, spannte die Pferde vor und fuhr ins Holz.",
+   "l": "and when all that had happened, he went off, harnessed the horses and drove into the wood.",
+   "i": "and when all that was done he went off, harnessed the horses, and drove out to the wood.",
+   "n": "geschehen takes sein in the perfect. hingehen, “to go off there”, is separable, and the hin carries what English puts into “off, over”."
+  },
+  {
+   "t": "Nicht weit vor dem Holz war ein Hohlweg, wo er durch mußte, da fuhr er den Wagen erst vorwärts, dann mußten die Pferde stille halten,",
+   "l": "Not far before the wood was a sunken lane, where he had to go through, there he drove the wagon forward first, then the horses had to hold still,",
+   "i": "Not far short of the wood there was a sunken lane he had to pass through; he drove the wagon forward first, then made the horses stand still,",
+   "n": "A Hohlweg is a road worn down between banks, so that there is no way round it. wo er durch mußte again has no verb of motion: durchmüssen, “to have to get through”, is understood from durch alone."
+  },
+  {
+   "t": "und er gieng hinter den Wagen, nahm Bäume und Reisig und machte da eine große Hucke (Verhack), so daß kein Pferd durchkommen konnte.",
+   "l": "and he went behind the wagon, took trees and brushwood and made there a great heap (barricade), so that no horse could get through.",
+   "i": "and he went behind the wagon, took trees and brushwood, and built a great pile there — a barricade — so that no horse could get through.",
+   "n": "The round brackets and the word Verhack are the Grimms’ own, printed in the 1857 text: they gloss the regional word Hucke, a heaped-up mass, with the commoner term for a barrier of felled timber. Nothing there has been supplied here."
+  },
+  {
+   "t": "Wie er nun vors Holz kam, fuhren die andern eben mit ihren beladenen Wagen heraus und wollten heim, da sprach er zu ihnen „fahrt nur hin, ich komme doch eher als ihr nach Haus.“",
+   "l": "When he now came before the wood, the others were just driving out with their loaded wagons and wanted to go home, then he said to them “just drive along, I shall get home sooner than you.”",
+   "i": "When he came up to the wood, the others were just driving out with their loaded wagons, meaning to go home, and he said to them, “Drive on — I shall be home before you.”",
+   "n": "eben is “just then, at that very moment”. vors is vor das run together, as ins is in das."
+  },
+  {
+   "t": "Er fuhr gar nicht weit ins Holz, riß gleich zwei der allergrößten Bäume aus der Erde, warf sie auf den Wagen und drehte um.",
+   "l": "He drove not at all far into the wood, at once tore two of the very biggest trees out of the earth, threw them on the wagon and turned about.",
+   "i": "He drove hardly any distance into the wood, tore up two of the very largest trees at once, threw them on the wagon, and turned around.",
+   "n": "aller- before a superlative makes it the greatest of all: allergrößten. umdrehen is separable: drehte … um."
+  },
+  {
+   "t": "Als er vor der Hucke anlangte, standen die andern noch da und konnten nicht durch.",
+   "l": "When he arrived in front of the heap, the others were still standing there and could not get through.",
+   "n": "anlangen, “to arrive”, is separable and takes sein. konnten nicht durch again leaves the verb of motion to be understood from the durch."
+  },
+  {
+   "t": "„Seht ihr wohl,“ sprach er, „wärt ihr bei mir geblieben, so wärt ihr eben so schnell nach Haus gekommen und hättet noch eine Stunde schlafen können.“",
+   "l": "“Do you see now,” he said, “had you stayed with me, then would you have come home just as fast and could have slept an hour longer.”",
+   "i": "“You see,” he said, “if you had stayed with me you would have got home just as fast, and could have slept an hour longer.”",
+   "n": "Another conditional with no wenn, marked by putting the verb first: wärt ihr … geblieben, “had you stayed”. English does the same thing, which is why the literal can keep the shape. seht ihr wohl is a taunt, not a question about eyesight."
+  },
+  {
+   "t": "Er wollte nun zufahren, aber seine Pferde konnten sich nicht durcharbeiten, da spannte er sie aus, legte sie oben auf den Wagen, nahm selber die Deichsel in die Hand, und hüf! zog er alles durch, und das gieng so leicht als hätt er Federn geladen.",
+   "l": "He wanted now to drive on, but his horses could not work their way through, so he unharnessed them, laid them up on top of the wagon, took the shaft himself in his hand, and heave! he pulled the whole thing through, and it went as easily as if he had loaded feathers.",
+   "i": "He meant to drive on now, but his horses could not force their way through, so he unharnessed them, laid them on top of the wagon, took the shaft in his own hand, and — heave! — pulled the whole thing through, and it went as lightly as if he had a load of feathers.",
+   "n": "hüf is a heaving cry, like English “heave”; there is no exact equivalent, and the sound is the point. The Deichsel is the pole a team is harnessed on either side of. hätt er is the subjunctive with wenn again left out."
+  },
+  {
+   "t": "Wie er drüben war, sprach er zu den andern „seht ihr wohl, ich bin schneller hindurch als ihr,“ fuhr weiter, und die andern mußten stehen bleiben.",
+   "l": "When he was over on the other side, he said to the others “do you see now, I am through faster than you,” drove on, and the others had to stay standing.",
+   "i": "When he was on the other side he said to the others, “You see, I am through quicker than you,” drove on, and the others had to stand where they were.",
+   "n": "hindurch is “through and out the other side”; German marks direction away from the speaker with hin- and toward the speaker with her-."
+  },
+  {
+   "t": "In dem Hof aber nahm er einen Baum in die Hand, zeigte ihn dem Amtmann und sagte „ist das nicht ein schönes Klafterstück?“",
+   "l": "In the yard, however, he took a tree in his hand, showed it to the steward and said “is that not a fine cord-log?”",
+   "i": "But in the yard he took a tree in his hand, showed it to the steward, and said, “Is that not a fine stick of firewood?”",
+   "n": "A Klafter was a stacked cord of firewood, so a Klafterstück is one log cut for the woodpile: he is calling a whole tree a single stick of firewood."
+  },
+  {
+   "t": "Da sprach der Amtmann zu seiner Frau „der Knecht ist gut; wenn er auch lang schläft, er ist doch eher wieder da als die andern.“",
+   "l": "Then the steward said to his wife “the farmhand is good; even if he sleeps long, he is back again sooner than the others.”",
+   "i": "Then the steward said to his wife, “The hand is a good one; even if he sleeps late, he is back before the others.”",
+   "n": "wenn … auch is the concessive, “even if”. doch answers the concession — “all the same”."
+  },
+  {
+   "p": true,
+   "t": "Nun diente er dem Amtmann ein Jahr: wie das herum war, und die andern Knechte ihren Lohn kriegten, sprach er es wäre Zeit, er wollte sich auch seinen Lohn nehmen.",
+   "l": "Now he served the steward a year: when that was round, and the other hands got their wage, he said it was time, he wanted to take his wage too.",
+   "i": "Now he served the steward for a year; when the year was round and the other hands were getting their wages, he said it was time, and he would take his wages too.",
+   "n": "dienen takes the dative — one serves to someone. herum sein of a stretch of time is “to be up, over”. The subjunctives wäre and wollte again mark reported speech with no “that”."
+  },
+  {
+   "t": "Dem Amtmann ward aber angst vor den Streichen, die er kriegen sollte, und bat ihn inständig er möchte sie ihm schenken, lieber wollte er selbst Großknecht werden, und er sollte Amtmann sein.",
+   "l": "To the steward, however, it grew fearful before the strokes that he was to get, and he begged him urgently he might make him a present of them, he would rather himself become head-hand, and he should be steward.",
+   "i": "But the steward grew frightened of the blows he was to receive, and begged him urgently to let him off them: he would rather be head farmhand himself and let the other be steward.",
+   "n": "jemandem wird angst is an impersonal construction with the person in the dative — fear comes over him — one of German’s oldest shapes for feeling, and English has to turn it round into “he grew frightened”. schenken is to give as a gift, hence to let a debt off. möchte and wollte are the subjunctives of reported speech. The two er of the last clauses are not the same man: the first is the steward offering to become head-hand himself, the second is the giant, who is to be steward in his place — German leaves the reader to sort them out."
+  },
+  {
+   "t": "„Nein,“ sprach er, „ich will kein Amtmann werden, ich bin Großknecht und wills bleiben, ich will aber austheilen was bedungen ist.“",
+   "l": "“No,” he said, “I do not want to become a steward, I am head-hand and will stay it, but I will deal out what was agreed.”",
+   "i": "“No,” he said, “I do not want to be a steward; I am head farmhand and mean to stay one, but I will deal out what was bargained for.”",
+   "n": "wills is will es. bedingen in its old sense “to stipulate, agree by contract” gives the participle bedungen; modern German would say ausgemacht. austheilen, modern austeilen, is “to deal out”, used of blows as readily as of food."
+  },
+  {
+   "t": "Der Amtmann wollte ihm geben, was er nur verlangte, aber es half nichts, der Großknecht sprach zu allem „nein.“",
+   "l": "The steward wanted to give him whatever he only demanded, but it helped nothing, the head-hand said to everything “no.”",
+   "i": "The steward was ready to give him whatever he asked, but it was no use: the head farmhand said no to everything.",
+   "n": "nur inside was er nur verlangte means “whatever at all”. es hilft nichts is the fixed phrase for “it is no use”."
+  },
+  {
+   "t": "Da wußte sich der Amtmann nicht zu helfen und bat ihn um vierzehn Tage Frist, er wollte sich auf etwas besinnen.",
+   "l": "Then the steward did not know how to help himself and asked him for a fortnight’s grace, he wanted to think of something.",
+   "i": "Then the steward was at his wits’ end and asked him for a fortnight’s grace; he would think of something.",
+   "n": "sich nicht zu helfen wissen is the German for being at a loss. Frist is a set term allowed, a period of grace. sich besinnen auf is to call something to mind, to hit on something."
+  },
+  {
+   "t": "Der Großknecht sprach die Frist sollte er haben.",
+   "l": "The head-hand said the grace he should have.",
+   "i": "The head farmhand said he should have his grace.",
+   "n": "The object die Frist stands before the subject, which German allows freely in reported speech; sollte is the subjunctive that marks the reporting."
+  },
+  {
+   "t": "Der Amtmann berief alle seine Schreiber zusammen, sie sollten sich bedenken und ihm einen Rath geben.",
+   "l": "The steward called all his clerks together, they were to think it over and give him a counsel.",
+   "i": "The steward called all his clerks together: they were to think it over and give him some advice.",
+   "n": "zusammenberufen is separable — berief … zusammen. Rath is the 1857 spelling of Rat, advice. The Schreiber are the writing clerks of the estate office."
+  },
+  {
+   "t": "Die Schreiber besannen sich lange, endlich sagten sie vor dem Großknecht wäre niemand seines Lebens sicher, der schlüge einen Menschen wie eine Mücke todt.",
+   "l": "The clerks thought it over long, at last they said from the head-hand nobody was safe of his life, he would strike a man dead like a gnat.",
+   "i": "The clerks thought a long time, and at last said that with the head farmhand about, nobody’s life was safe: he would knock a man dead like a fly.",
+   "n": "vor with sicher is “safe from”, not “before”. seines Lebens sicher is an old genitive after the adjective, “safe as to his life”. todtschlagen, modern totschlagen, is separable: schlüge … todt. A Mücke is a gnat or midge; English reaches for “fly” in the same comparison."
+  },
+  {
+   "t": "Er sollte ihn heißen in den Brunnen steigen und ihn reinigen,",
+   "l": "He should bid him climb into the well and clean it,",
+   "i": "He should tell him to climb down into the well and clean it out,",
+   "n": "heißen with a bare infinitive again, “to bid”. A Brunnen is a dug well, deep enough to be worked in."
+  },
+  {
+   "t": "wenn er unten wäre, wollten sie einen von den Mühlensteinen, die da lägen, herbei rollen und ihm auf den Kopf werfen, dann würde er nicht wieder an des Tages Licht kommen.",
+   "l": "when he was down below, they would roll one of the millstones that were lying there over and throw it on his head, then he would not come to the day’s light again.",
+   "i": "and when he was down at the bottom they would roll over one of the millstones lying there and drop it on his head, and then he would never come up to the light of day again.",
+   "n": "wäre, lägen, würde — the whole plan stays in the subjunctive, since it is still only what the clerks propose. an des Tages Licht kommen puts the genitive first, a stately old order for “the light of day”."
+  },
+  {
+   "t": "Der Rath gefiel dem Amtmann, und der Großknecht war bereit in den Brunnen hinab zu steigen.",
+   "l": "The counsel pleased the steward, and the head-hand was ready to climb down into the well.",
+   "i": "The advice pleased the steward, and the head farmhand was willing to climb down into the well.",
+   "n": "gefallen takes the dative of the person pleased: dem Amtmann. hinab zu steigen is printed as three words in 1857; modern German writes hinabzusteigen."
+  },
+  {
+   "t": "Als er unten auf dem Grund stand, rollten sie den größten Mühlstein hinab, und meinten der Kopf wäre ihm eingeschlagen,",
+   "l": "When he stood below on the bottom, they rolled the biggest millstone down, and thought the head was smashed in on him,",
+   "i": "When he was standing at the bottom, they rolled the biggest millstone down and supposed his head was smashed in,",
+   "n": "der Kopf wäre ihm eingeschlagen — the dative ihm does the work of an English possessive, “his head”; German much prefers this whenever a part of the body is concerned. Note that Mühlstein stands here and Mühlenstein a few lines later: both spellings are in the 1857 text."
+  },
+  {
+   "t": "aber er rief „jagt die Hühner vom Brunnen weg, die kratzen da oben im Sand und werfen mir die Körner in die Augen, daß ich nicht sehen kann.“",
+   "l": "but he called “drive the hens away from the well, they are scratching up there in the sand and throwing the grains into my eyes, so that I cannot see.”",
+   "i": "but he called out, “Drive the hens away from the well — they are scratching in the sand up there and throwing the grit into my eyes, so that I cannot see.”",
+   "n": "wegjagen is separable: jagt … weg. mir die Körner in die Augen is the dative again where English uses “my”. Körner are grains, here grains of sand."
+  },
+  {
+   "t": "Da rief der Amtmann „husch! husch!“ und that als scheuchte er die Hühner weg.",
+   "l": "Then the steward called “shoo! shoo!” and acted as if he were shooing the hens away.",
+   "i": "Then the steward called, “Shoo! shoo!” and made as if he were driving the hens away.",
+   "n": "husch is the German shooing-word. thun als, modern tun als ob, is “to act as if”, and the verb after it goes into the subjunctive: scheuchte."
+  },
+  {
+   "t": "Als der Großknecht mit seiner Arbeit fertig war, stieg er herauf und sagte „seht einmal, ich habe doch ein schönes Halsband um,“ da war es der Mühlenstein, den er um den Hals trug.",
+   "l": "When the head-hand was finished with his work, he climbed up and said “just look, I have a fine necklace on,” and it was the millstone that he wore round his neck.",
+   "i": "When the head farmhand had finished his work he climbed up and said, “Just look, I am wearing a fine necklace,” — and it was the millstone he had round his neck.",
+   "n": "umhaben, “to have on”, is separable: habe … um. da war es opens the narrator’s own aside, “and it turned out to be”."
+  },
+  {
+   "t": "Der Großknecht wollte jetzt seinen Lohn nehmen, aber der Amtmann bat wieder um vierzehn Tage Bedenkzeit.",
+   "l": "The head-hand wanted to take his wage now, but the steward asked again for a fortnight of thinking-time.",
+   "i": "The head farmhand now wanted to take his wages, but the steward asked again for a fortnight to consider.",
+   "n": "Bedenkzeit is “thinking-time”, a period allowed for reflection; German builds such compounds as freely as it needs them."
+  },
+  {
+   "t": "Die Schreiber kamen zusammen und gaben den Rath er sollte den Großknecht in die verwünschte Mühle schicken um dort in der Nacht Korn zu mahlen: von da wäre noch kein Mensch Morgens lebendig herausgekommen.",
+   "l": "The clerks came together and gave the counsel he should send the head-hand into the accursed mill to grind corn there in the night: from there no person had yet come out alive in the morning.",
+   "i": "The clerks came together and gave this advice: he should send the head farmhand to the accursed mill to grind corn there in the night — nobody had ever come out of it alive in the morning.",
+   "n": "verwünscht is “laid under a curse, bewitched”; the mill is not merely unlucky. Morgens is the genitive used adverbially, “of a morning”. Korn is grain of any kind, usually rye."
+  },
+  {
+   "t": "Der Anschlag gefiel dem Amtmann, er rief den Großknecht noch denselben Abend und hieß ihn acht Malter Korn in die Mühle fahren und in der Nacht noch mahlen; sie hättens nöthig.",
+   "l": "The scheme pleased the steward, he called the head-hand that same evening and bade him drive eight Malter of corn to the mill and grind it that very night; they had need of it.",
+   "i": "The scheme pleased the steward; that same evening he called the head farmhand and bade him drive eight measures of corn to the mill and grind it that very night — they were in need of it.",
+   "n": "Anschlag here is a plan or design, usually a hostile one. A Malter is an old grain measure of several bushels, so the amount is meant to be crushing. hättens is hätten es; nöthig is the 1857 spelling of nötig."
+  },
+  {
+   "t": "Da gieng der Großknecht auf den Boden und that zwei Malter in seine rechte Tasche, zwei in die linke, vier nahm er in einem Quersack halb auf den Rücken, halb auf die Brust, und gieng also beladen nach der verwünschten Mühle.",
+   "l": "Then the head-hand went up to the loft and put two Malter in his right pocket, two in the left, four he took in a cross-sack half on his back, half on his chest, and went thus loaded to the accursed mill.",
+   "i": "Then the head farmhand went up to the loft, put two measures in his right pocket and two in the left, took four in a double sack, half on his back and half on his chest, and went off thus loaded to the accursed mill.",
+   "n": "thun in the sense “to put” is ordinary older German. A Quersack is a bag made to hang across, one half before and one behind. also here is “thus, in this way”, not “also”."
+  },
+  {
+   "t": "Der Müller sagte ihm bei Tag könnte er recht gut da mahlen, aber nicht in der Nacht, da wäre die Mühle verwünscht, und wer da noch hinein gegangen wäre, den hätte man am Morgen todt darin gefunden.",
+   "l": "The miller told him by day he could grind there quite well, but not in the night, then the mill was accursed, and whoever had gone in there had been found dead inside in the morning.",
+   "i": "The miller told him that by day he could grind there well enough, but not at night: then the mill was under a curse, and whoever had gone in had been found dead inside in the morning.",
+   "n": "man is the impersonal “one, people”, and German prefers it where English turns the sentence round into a passive: “had been found”. todt is the 1857 spelling of tot."
+  },
+  {
+   "t": "Er sprach „ich will schon durchkommen, macht euch nur fort und legt euch aufs Ohr.“",
+   "l": "He said “I shall get through all right, just be off with you and lay yourselves on your ear.”",
+   "i": "He said, “I shall get through all right — off with you, and go and lie down.”",
+   "n": "schon is the confident tone-word again, “right enough”. sich fortmachen is to take oneself off. sich aufs Ohr legen, “to lay oneself on one’s ear”, is a homely phrase for going to bed."
+  },
+  {
+   "t": "Darauf gieng er in die Mühle und schüttete das Korn auf.",
+   "l": "Thereupon he went into the mill and shook the corn in.",
+   "i": "Thereupon he went into the mill and poured the grain into the hopper.",
+   "n": "aufschütten is the mill word for pouring grain into the hopper, and the prefix auf closes the clause."
+  },
+  {
+   "t": "Gegen elf Uhr gieng er in die Müllerstube und setzte sich auf die Bank.",
+   "l": "Toward eleven o’clock he went into the miller’s room and set himself on the bench.",
+   "i": "Toward eleven o’clock he went into the miller’s parlour and sat down on the bench.",
+   "n": "gegen with a time of day is “toward, about”. The Müllerstube is the living room of the mill house."
+  },
+  {
+   "t": "Als er ein Weilchen da gesessen hatte, that sich auf einmal die Thür auf und kam eine große große Tafel herein,",
+   "l": "When he had sat there a little while, all at once the door opened itself and a great great table came in,",
+   "i": "When he had been sitting there a little while, all at once the door opened and a great, great table came in,",
+   "n": "sich auftun is “to open of itself”, and the reflexive is exactly the point here. Thür is the 1857 spelling of Tür. Tafel is a table laid for a meal, grander than Tisch. The doubled große is the story-teller’s own, as it was earlier with the bowls."
+  },
+  {
+   "t": "und auf die Tafel stellte sich Wein und Braten, und viel gutes Essen, alles von selber, denn es war niemand da, ders auftrug.",
+   "l": "and onto the table there set themselves wine and roast meat, and much good food, all by itself, for there was nobody there who served it up.",
+   "i": "and wine and roast meat set themselves out on the table, and a great deal of good food, all of its own accord, for there was nobody there to serve it.",
+   "n": "sich stellen, “to place itself”, keeps the eeriness: nothing is being done to the dishes. ders is der es. auftragen is to bring food to table."
+  },
+  {
+   "t": "Und danach rückten sich die Stühle herbei, aber es kamen keine Leute, bis auf einmal sah er Finger, die handthierten mit den Messern und Gabeln und legten Speisen auf die Teller, aber sonst konnte er nichts sehen.",
+   "l": "And after that the chairs moved themselves up, but no people came, until all at once he saw fingers, which were busy with the knives and forks and laid food on the plates, but otherwise he could see nothing.",
+   "i": "And after that the chairs moved themselves up, but no people came — until all at once he saw fingers, busy with the knives and forks, laying food on the plates; but he could see nothing else.",
+   "n": "handthieren, modern hantieren, is to be busy with one’s hands, to handle things. es kamen keine Leute uses the placeholder es to hold the first position, so that the real subject follows the verb."
+  },
+  {
+   "t": "Da er hungrig war und die Speisen sah, so setzte er sich auch an die Tafel, aß mit und ließ sichs gut schmecken.",
+   "l": "Since he was hungry and saw the food, he set himself at the table too, ate along and let it taste good to himself.",
+   "i": "Since he was hungry and saw the food, he sat down at the table as well, ate with them, and made a good meal of it.",
+   "n": "da at the head of a clause is “since, because”, not “then”. sich etwas gut schmecken lassen is the set phrase for tucking in with relish; sichs is sich es."
+  },
+  {
+   "t": "Als er satt war und die andern ihre Schüsseln auch ganz leer gemacht hatten, da wurden die Lichter auf einmal alle ausgeputzt, das hörte er deutlich,",
+   "l": "When he was full and the others had made their bowls quite empty too, all at once the lights were all snuffed out, that he heard clearly,",
+   "i": "When he had eaten his fill, and the others had emptied their bowls as well, all at once the lights were all snuffed out — he heard it plainly —",
+   "n": "die andern, “the others”, are the invisible company; the tale speaks of them as matter-of-factly as of him. ausputzen of a candle is to snuff it out."
+  },
+  {
+   "t": "und wies nun stockfinster war, so kriegte er so etwas wie eine Ohrfeige ins Gesicht.",
+   "l": "and when it was now pitch dark, he got something like a box on the ear in his face.",
+   "i": "and now that it was pitch dark, he got something like a box on the ear.",
+   "n": "wies is wie es. stockfinster — Stock- as an intensifier means “utterly”, hence “pitch dark”. An Ohrfeige is a slap in the face; the vagueness of so etwas wie is deliberate, since he cannot see what struck him."
+  },
+  {
+   "t": "Da sprach er „wenn noch einmal so etwas kommt, so theil ich auch wieder aus.“",
+   "l": "Then he said “if something like that comes once more, then I shall deal out again too.”",
+   "i": "Then he said, “If anything like that comes again, I shall deal some out in my turn.”",
+   "n": "theil … aus is austheilen, modern austeilen, split by its separable prefix — the same verb he used for the wages he bargained for."
+  },
+  {
+   "t": "Und wie er zum zweiten Mal eine Ohrfeige kriegte, da schlug er gleichfalls mit hinein.",
+   "l": "And when he got a box on the ear for the second time, he struck in likewise.",
+   "i": "And when he was struck a second time, he laid about him in his turn.",
+   "n": "mit hineinschlagen is to strike in among them; the mit says that he does what they are doing."
+  },
+  {
+   "t": "Und so gieng das fort die ganze Nacht, er nahm nichts umsonst, sondern gab reichlich zurück und schlug nicht faul um sich herum: bei Tagesanbruch aber hörte alles auf.",
+   "l": "And so it went on the whole night, he took nothing for nothing, but gave back richly and struck not lazily about himself: at daybreak, however, everything stopped.",
+   "i": "And so it went on the whole night through: he took nothing for nothing, but gave back generously and laid about him with a will — and at daybreak it all stopped.",
+   "n": "nichts umsonst nehmen is “to take nothing free of charge” — he pays every blow back. nicht faul, “not lazy”, is a dry understatement for laying about oneself in earnest. um sich schlagen is to strike out all around."
+  },
+  {
+   "t": "Wie der Müller aufgestanden war, wollt er nach ihm sehen und verwunderte sich daß er noch lebte.",
+   "l": "When the miller had got up, he wanted to look after him and was astonished that he was still alive.",
+   "i": "When the miller had got up he went to look after him, and was astonished that he was still alive.",
+   "n": "wollt is wollte with the -e dropped, as speech does. sich verwundern is reflexive, “to be astonished”."
+  },
+  {
+   "t": "Da sprach er „ich habe mich satt gegessen, habe Ohrfeigen gekriegt, aber ich habe auch Ohrfeigen ausgetheilt.“",
+   "l": "Then he said “I have eaten myself full, have got boxes on the ear, but I have dealt out boxes on the ear as well.”",
+   "i": "Then he said, “I have eaten my fill, I have had blows in the face, and I have dealt them out as well.”",
+   "n": "sich satt essen — the reflexive makes the eating one’s own filling. The three perfects run on without repeating ich, as German speech allows."
+  },
+  {
+   "t": "Der Müller freute sich und sagte nun wäre die Mühle erlöst, und wollte ihm gern zur Belohnung viel Geld geben.",
+   "l": "The miller rejoiced and said now the mill was released, and wanted gladly to give him much money as a reward.",
+   "i": "The miller rejoiced and said the mill was now delivered, and would gladly have given him a great deal of money as a reward.",
+   "n": "erlösen is “to release, to redeem” — the word used all through these tales for lifting a spell. wäre is again the subjunctive of reported speech."
+  },
+  {
+   "t": "Er sprach aber „Geld will ich nicht, ich habe doch genug.“",
+   "l": "But he said “money I do not want, I have enough as it is.”",
+   "i": "But he said, “I want no money, I have enough as it is.”",
+   "n": "Geld stands first for contrast: money is not what he wants. doch is the tone-word, “as it is, after all”."
+  },
+  {
+   "t": "Dann nahm er sein Mehl auf den Rücken, gieng nach Haus und sagte dem Amtmann er hätte die Sache ausgerichtet und wollte nun seinen bedungenen Lohn haben.",
+   "l": "Then he took his flour on his back, went home and told the steward he had carried the thing out and now wanted to have his bargained wage.",
+   "i": "Then he took his flour on his back, went home, and told the steward that he had done the job and now wanted the wages he had bargained for.",
+   "n": "ausrichten is to carry out a commission. bedungen, the participle of bedingen, is the very word from the bargain in the first place, and it comes back here."
+  },
+  {
+   "t": "Wie der Amtmann das hörte, da ward ihm erst recht angst:",
+   "l": "When the steward heard that, then it grew fearful to him in earnest:",
+   "i": "When the steward heard that, he was frightened in earnest —",
+   "n": "The impersonal ihm ward angst again, with the person in the dative and no subject at all. erst recht is “now more than ever, properly this time”."
+  },
+  {
+   "t": "er wußte sich nicht zu lassen, gieng in der Stube auf und ab, und die Schweißtropfen liefen ihm von der Stirne herunter.",
+   "l": "he did not know what to do with himself, went up and down in the parlour, and the drops of sweat ran down from his forehead.",
+   "i": "he did not know what to do with himself, walked up and down the parlour, and the drops of sweat ran down his forehead.",
+   "n": "sich nicht zu lassen wissen is not to know how to contain oneself. auf und ab gehen is to pace. Stirne carries the old -e, and ihm is once more the dative doing duty for “his”."
+  },
+  {
+   "t": "Da machte er das Fenster auf nach frischer Luft, eh er sichs aber versah, hatte ihm der Großknecht einen Tritt gegeben, daß er durchs Fenster in die Luft hinein flog, immer fort, bis ihn niemand mehr sehen konnte.",
+   "l": "Then he opened the window for fresh air, but before he was aware of it, the head-hand had given him a kick, so that he flew through the window out into the air, on and on, until nobody could see him any more.",
+   "i": "Then he opened the window for fresh air, but before he knew it the head farmhand had given him such a kick that he flew out through the window into the air, on and on, until nobody could see him any more.",
+   "n": "ehe man sichs versieht, “before one is aware of it”, is a fixed phrase; sichs is sich es. einen Tritt geben takes the dative ihm. immer fort is “on and on”."
+  },
+  {
+   "t": "Da sprach der Großknecht zur Frau des Amtmanns „kommt er nicht wieder, so müßt ihr den anderen Streich hinnehmen.“",
+   "l": "Then the head-hand said to the steward’s wife “if he does not come back, then you must take the other blow.”",
+   "i": "Then the head farmhand said to the steward’s wife, “If he does not come back, you must take the other blow yourself.”",
+   "n": "Another conditional with no wenn, marked by the verb standing first: kommt er nicht wieder. He addresses her with ihr, the old plural used in speaking to one person out of respect, where he used du to the men. hinnehmen is to accept what is done to one."
+  },
+  {
+   "t": "Sie rief „nein, nein, ich kanns nicht aushalten,“ und machte das andere Fenster auf, weil ihr die Schweißtropfen die Stirne herunter liefen.",
+   "l": "She cried “no, no, I cannot stand it,” and opened the other window, because the drops of sweat were running down her forehead.",
+   "i": "She cried, “No, no, I cannot bear it,” and opened the other window, because the drops of sweat were running down her forehead.",
+   "n": "kanns is kann es. She opens a window for the same reason her husband did — the tale sets the two of them up in the same shape and disposes of them the same way."
+  },
+  {
+   "t": "Da gab er ihr einen Tritt, daß sie gleichfalls hinaus flog und da sie leichter war, noch viel höher als ihr Mann.",
+   "l": "Then he gave her a kick, so that she flew out likewise, and since she was lighter, much higher still than her husband.",
+   "i": "Then he gave her a kick that sent her flying out as well, and since she was lighter, a good deal higher than her husband.",
+   "n": "da here is “since, because”, as it was in unit 110. The last clause has no verb of its own: flog is understood from before."
+  },
+  {
+   "t": "Der Mann rief „komm doch zu mir,“ sie aber rief „komm du zu mir, ich kann nicht zu dir.“",
+   "l": "The man called “do come over to me,” but she called “you come to me, I cannot come to you.”",
+   "i": "The husband called, “Do come over to me,” but she called back, “You come to me — I cannot get to you.”",
+   "n": "doch in a command is coaxing: “do come”. The du in komm du zu mir is put in for contrast and is emphatic; the tale’s joke is that neither of them can move at all."
+  },
+  {
+   "t": "Und sie schwebten da in der Luft, und konnte keins zum andern kommen, und ob sie da noch schweben, das weiß ich nicht;",
+   "l": "And they hovered there in the air, and neither could come to the other, and whether they are still hovering there, that I do not know;",
+   "i": "And there they hung in the air, and neither could reach the other; and whether they are hovering there still, I do not know;",
+   "n": "konnte is singular because keins, “neither one”, is neuter singular. The story-teller steps forward in his own person here, as these tales like to do near the close."
+  },
+  {
+   "t": "der junge Riese aber nahm seine Eisenstange und gieng weiter.",
+   "l": "the young giant, however, took his iron bar and went further.",
+   "i": "but the young giant took up his iron bar and walked on.",
+   "n": "The tale simply lets him walk out of it with the bar he chose in the smithy — no wedding, no reward, no return to his parents."
+  }
+ ]
+}

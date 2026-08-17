@@ -1,0 +1,800 @@
+{
+ "id": "koenig-goldenen-berg",
+ "title": "Der König vom goldenen Berg",
+ "titleEn": "The King of the Golden Mountain",
+ "khm": 92,
+ "language": "German",
+ "langCode": "de-DE",
+ "work": "Kinder- und Hausmärchen",
+ "workEn": "Grimms’ Fairy Tales",
+ "workGloss": "Children’s and Household Tales",
+ "part": "The King of the Golden Mountain",
+ "source": "Brüder Grimm, Kinder- und Hausmärchen, Band 2, 7. Auflage (Ausgabe letzter Hand), Dieterich, Göttingen 1857, KHM 92. Text from Wikisource (twice proofread against the original). 1857 spelling preserved exactly.",
+ "about": "KHM 92 opens on a bad bargain made in the dark: a ruined merchant promises a little black man whatever first knocks against his leg at home in twelve years’ time, thinking of his dog and not of the son who cannot yet walk. The boy argues his way out of the bond into a boat pushed off by his own father, comes ashore at a cursed castle, and disenchants a snake-maiden by letting black men beat, stab and behead him three nights running without a word. The second half is the stranger one. Now King of the Golden Mountain, he breaks the promise he made his queen, has the wishing ring drawn off his finger while he sleeps in her lap, and wins his kingdom back only by talking three quarrelling giants out of a sword, a cloak of invisibility and a pair of wishing boots — an ending that is pure revenge, and leaves every head in the hall but his own on the floor. Spelling follows the 1857 edition (daß, gieng, hieng, thun/that, Thor, todt, ward).",
+ "glossaryFile": "khm-glossary.json",
+ "sentences": [
+  {
+   "p": true,
+   "t": "Ein Kaufmann, der hatte zwei Kinder, einen Buben und ein Mädchen, die waren beide noch klein und konnten noch nicht laufen.",
+   "l": "A merchant, he had two children, a boy and a girl, who were both still small and could not yet walk.",
+   "i": "There was a merchant who had two children, a boy and a girl; both were still small and could not yet walk.",
+   "n": "der hatte is the loose relative of the tales — “a merchant, he had” — where English wants “who had.” Bube is the older and southern word for a boy. The tale opens without Es war einmal, straight into the man’s circumstances."
+  },
+  {
+   "t": "Es giengen aber zwei reichbeladene Schiffe von ihm auf dem Meer, und sein ganzes Vermögen war darin,",
+   "l": "But two richly laden ships of his were going on the sea, and his whole fortune was in them,",
+   "i": "But two richly laden ships of his were out at sea, and his whole fortune was in them,",
+   "n": "Es giengen … Schiffe uses the placeholder es, which falls away once the real subject arrives; English says “there were.” gehen of a ship is to be under way. darin, “therein, in them.”"
+  },
+  {
+   "t": "und wie er meinte dadurch viel Geld zu gewinnen, kam die Nachricht, sie wären versunken.",
+   "l": "and as he thought to gain much money by them, the news came that they had gone down.",
+   "i": "and just as he was reckoning to make a great deal of money by them, the news came that they had gone down.",
+   "n": "wie again is “as, just when.” dadurch is “by that, by means of them.” wären versunken is the subjunctive of reported news."
+  },
+  {
+   "t": "Da war er nun statt eines reichen Mannes ein armer Mann und hatte nichts mehr übrig als einen Acker vor der Stadt.",
+   "l": "Then he was now instead of a rich man a poor man and had nothing more left over than a field outside the town.",
+   "i": "So now, instead of a rich man, he was a poor one, and had nothing left but a field outside the town.",
+   "n": "statt takes the genitive: statt eines reichen Mannes. übrig haben is “to have left.” Acker is ploughland, a field under crop, not a meadow."
+  },
+  {
+   "t": "Um sich sein Unglück ein wenig aus den Gedanken zu schlagen, gieng er hinaus auf den Acker,",
+   "l": "In order to strike his misfortune a little out of his thoughts, he went out onto the field,",
+   "i": "To drive his misfortune a little out of his mind, he went out to the field,",
+   "n": "um … zu is the purpose construction, “in order to.” sich etwas aus den Gedanken schlagen is a set phrase for putting something out of one’s head; the German verb in it is “to strike.”"
+  },
+  {
+   "t": "und wie er da so auf- und abging, stand auf einmal ein kleines schwarzes Männchen neben ihm",
+   "l": "and as he was walking up and down there, all at once a little black mannikin stood beside him",
+   "i": "and as he walked up and down there, all at once a little black man was standing beside him",
+   "n": "auf- und abging: the hyphen carries the shared -ging, German’s way of writing aufging und abging in one breath. Männchen is the diminutive of Mann; the blackness and the smallness are the tale’s way of saying who he is."
+  },
+  {
+   "t": "und fragte warum er so traurig wäre, und was er sich so sehr zu Herzen nähme.",
+   "l": "and asked why he was so sad, and what he was taking so much to heart.",
+   "n": "wäre and nähme are subjunctives of the reported question. sich etwas zu Herzen nehmen is the same idiom English has, to take a thing to heart."
+  },
+  {
+   "t": "Da sprach der Kaufmann „wenn du mir helfen könntest, wollt ich dir es wohl sagen.“",
+   "l": "Then the merchant said “if you could help me, I would readily tell you.”",
+   "i": "Then the merchant said, “If you could help me, I would gladly tell you.”",
+   "n": "wollt is the shortened wollte, here the subjunctive “I would.” wohl is the particle of readiness, “well enough.” dir es stands where modern German prefers es dir."
+  },
+  {
+   "t": "„Wer weiß,“ antwortete das schwarze Männchen, „vielleicht helf ich dir.“",
+   "l": "“Who knows,” answered the little black man, “perhaps I help you.”",
+   "i": "“Who knows,” answered the little black man, “perhaps I can help you.”",
+   "n": "helf drops the -e of helfe, as speech does. German uses the plain present where English reaches for “can” or “will.”"
+  },
+  {
+   "t": "Da erzählte der Kaufmann daß ihm sein ganzer Reichthum auf dem Meer zu Grunde gegangen wäre, und hätte er nichts mehr übrig als diesen Acker.",
+   "l": "Then the merchant told that his whole wealth had gone to the bottom on the sea, and he had nothing more left than this field.",
+   "i": "Then the merchant told him that his whole wealth had gone to the bottom at sea, and that he had nothing left but this field.",
+   "n": "Reichthum is the 1857 spelling of Reichtum. zu Grunde gehen is “to be ruined, to go to the bottom.” The second clause keeps the subjunctive hätte and puts the verb first — still reported speech, though the daß is not repeated."
+  },
+  {
+   "t": "„Bekümmere dich nicht,“ sagte das Männchen, „wenn du mir versprichst das, was dir zu Haus am ersten widers Bein stößt, in zwölf Jahren hierher auf den Platz zu bringen,",
+   "l": "“Do not trouble yourself,” said the mannikin, “if you promise me to bring here to this place, in twelve years, that which first knocks against your leg at home,",
+   "i": "“Do not distress yourself,” said the little man, “if you promise to bring me here to this spot, in twelve years’ time, whatever first knocks against your leg at home,",
+   "n": "sich bekümmern is reflexive, to be troubled. widers is wider das run together, “against the.” am ersten is the older zuerst, “first of all.” The German holds zu bringen back to the very last word, so the promise is only complete at the end; English has to bring it forward."
+  },
+  {
+   "t": "sollst du Geld haben so viel du willst.“",
+   "l": "then you shall have money as much as you want.”",
+   "i": "then you shall have as much money as you want.”",
+   "n": "so viel du willst follows the noun in German, where English folds it in: “as much money as you want.”"
+  },
+  {
+   "t": "Der Kaufmann dachte „was kann das anders sein als mein Hund?“",
+   "l": "The merchant thought “what can that be other than my dog?”",
+   "i": "The merchant thought, “What else can that be but my dog?”",
+   "n": "anders als is “other than, else but.” The thought is quoted straight out, in the tales’ way, with no “he said to himself.”"
+  },
+  {
+   "t": "aber an seinen kleinen Jungen dachte er nicht und sagte ja, gab dem schwarzen Mann Handschrift und Siegel darüber und gieng nach Haus.",
+   "l": "but of his little boy he did not think, and said yes, gave the black man handwriting and seal upon it and went home.",
+   "i": "but of his little boy he never thought; and he said yes, gave the black man a bond under his hand and seal, and went home.",
+   "n": "denken an takes the accusative, “to think of.” Handschrift und Siegel is the legal formula: a document written in his own hand and sealed, the binding kind. darüber is “upon it,” what the bond is drawn up about."
+  },
+  {
+   "p": true,
+   "t": "Als er nach Haus kam, da freute sich sein kleiner Junge so sehr darüber, daß er sich an den Bänken hielt, zu ihm herbei wackelte und ihn an den Beinen fest packte.",
+   "l": "When he came home, his little boy was so glad of it that he held himself by the benches, waddled over to him and gripped him fast by the legs.",
+   "i": "When he came home his little boy was so delighted that he pulled himself up by the benches, waddled over to him and caught him fast by the legs.",
+   "n": "sich freuen über is “to be glad about,” with darüber standing in for the thing. The child cannot walk yet, so he holds on to the furniture. an den Beinen packen names the part gripped in a prepositional phrase, English “by the legs.” This is the thing that knocks against his leg."
+  },
+  {
+   "t": "Da erschrack der Vater, denn es fiel ihm sein Versprechen ein und er wußte nun was er verschrieben hatte:",
+   "l": "Then the father took fright, for his promise came into his mind and he knew now what he had signed away:",
+   "i": "Then the father was horrified, for his promise came back to him and he knew now what he had signed away:",
+   "n": "erschrack is the 1857 spelling of erschrak, from erschrecken. einfallen again with the dative: fiel ihm … ein. verschreiben is to make over in writing, to sign away."
+  },
+  {
+   "t": "weil er aber immer noch kein Geld in seinen Kisten und Kasten fand, dachte er es wäre nur ein Spaß von dem Männchen gewesen.",
+   "l": "but because he still found no money in his chests and boxes, he thought it had only been a jest of the mannikin’s.",
+   "i": "but as he still found no money in his chests and boxes, he thought it had only been a joke of the little man’s.",
+   "n": "Kisten und Kasten is a set pair for everything a man keeps his goods in. wäre … gewesen is the subjunctive of his own thought."
+  },
+  {
+   "t": "Einen Monat nachher gieng er auf den Boden und wollte altes Zinn zusammen suchen und verkaufen, da sah er einen großen Haufen Geld liegen.",
+   "l": "A month afterwards he went up to the loft and wanted to gather old tin together and sell it, when he saw a great heap of money lying there.",
+   "i": "A month afterwards he went up to the loft, meaning to gather old pewter together and sell it, and there he saw a great heap of money lying.",
+   "n": "Boden is the loft, the space under the roof. zusammen suchen is written apart here where modern German writes zusammensuchen. sah … liegen is the bare infinitive after a verb of perception."
+  },
+  {
+   "t": "Nun war er wieder guter Dinge, kaufte ein, ward ein größerer Kaufmann als vorher und ließ Gott einen guten Mann sein.",
+   "l": "Now he was of good things again, bought in, became a greater merchant than before and let God be a good man.",
+   "i": "Now he was in good heart again; he laid in stock, became a greater merchant than before, and let God be a good man.",
+   "n": "guter Dinge sein is a frozen genitive, “to be in good spirits”; the literal keeps its shape and the idiomatic says what it means. einkaufen is separable, of laying in goods. Gott einen guten Mann sein lassen is a proverb for living without a care and leaving matters to God."
+  },
+  {
+   "t": "Unterdessen ward der Junge groß und dabei klug und gescheidt.",
+   "l": "Meanwhile the boy grew big and with it clever and sensible.",
+   "i": "Meanwhile the boy grew tall, and clever and sharp-witted with it.",
+   "n": "groß werden of a child is to grow up. gescheidt is the 1857 spelling of gescheit, quick-witted."
+  },
+  {
+   "t": "Je näher aber die zwölf Jahre herbei kamen, je sorgvoller ward der Kaufmann, so daß man ihm die Angst im Gesicht sehen konnte.",
+   "l": "But the nearer the twelve years came on, the more full of care the merchant grew, so that one could see the dread in his face.",
+   "i": "But the nearer the twelve years came, the more anxious the merchant grew, so that the fear could be seen in his face.",
+   "n": "je … je is the older form of je … desto, “the more … the more.” herbei kamen is separable, written apart in 1857. sorgvoll (modern sorgenvoll) is full of care. ihm … im Gesicht is a dative of the person, “in his face.”"
+  },
+  {
+   "t": "Da fragte ihn der Sohn einmal was ihm fehlte:",
+   "l": "Then the son asked him once what ailed him:",
+   "i": "Then one day the son asked him what was the matter with him:",
+   "n": "was fehlt dir is the ordinary German for “what is wrong with you,” literally “what is lacking to you,” with the person in the dative."
+  },
+  {
+   "t": "der Vater wollte es nicht sagen, aber jener hielt so lange an,",
+   "l": "the father would not say it, but that one kept on so long,",
+   "i": "the father would not tell him, but the son pressed him so long,",
+   "n": "jener, “that one,” picks out the son as against the father just named; German uses it where English simply repeats the name. anhalten here is separable and means to keep at someone."
+  },
+  {
+   "t": "bis er ihm endlich sagte er hätte ihn, ohne zu wissen was er verspräche, einem schwarzen Männchen zugesagt und vieles Geld dafür bekommen.",
+   "l": "until at last he told him he had promised him to a little black man, without knowing what he was promising, and got much money for it.",
+   "i": "until at last he told him that he had made him over to a little black man, without knowing what he was promising, and had taken much money for it.",
+   "n": "hätte … zugesagt is the subjunctive of reported speech, and it runs on into the next sentence too. zusagen is separable and takes the dative of the one promised to. verspräche is subjunctive again inside the ohne zu wissen clause."
+  },
+  {
+   "t": "Er hätte seine Handschrift mit Siegel darüber gegeben, und nun müßte er ihn, wenn zwölf Jahre herum wären, ausliefern.",
+   "l": "He had given his handwriting with a seal upon it, and now he had to deliver him up when twelve years were round.",
+   "i": "He had given a bond under his hand and seal, and now, when the twelve years were up, he must hand him over.",
+   "n": "The whole sentence is still the father’s account, carried by hätte and müßte. herum sein of time is “to be up.” ausliefern is separable, to deliver up."
+  },
+  {
+   "t": "Da sprach der Sohn „o Vater, laßt euch nicht bang sein, das soll schon gut werden, der Schwarze hat keine Macht über mich.“",
+   "l": "Then the son said “oh father, do not let yourselves be afraid, it shall turn out well enough, the black one has no power over me.”",
+   "i": "Then the son said, “Oh father, do not be frightened; it will come right, the black one has no power over me.”",
+   "n": "laßt euch nicht bang sein — euch is the polite plural, the son addressing his father as ihr, which comes into English simply as “you”; bang sein is to be afraid, and lassen turns it into “do not let it be.” schon is the confident particle once more."
+  },
+  {
+   "p": true,
+   "t": "Der Sohn ließ sich von dem Geistlichen segnen, und als die Stunde kam, giengen sie zusammen hinaus auf den Acker,",
+   "l": "The son had himself blessed by the clergyman, and when the hour came, they went out together onto the field,",
+   "i": "The son had himself blessed by the priest, and when the hour came they went out together to the field,",
+   "n": "sich segnen lassen — lassen with an infinitive, “to have oneself blessed.” Geistlicher is an adjective used as a noun, a man of the church."
+  },
+  {
+   "t": "und der Sohn machte einen Kreiß und stellte sich mit seinem Vater hinein.",
+   "l": "and the son made a circle and placed himself with his father inside it.",
+   "i": "and the son drew a circle and took his stand inside it with his father.",
+   "n": "Kreiß is the 1857 spelling of Kreis. sich hineinstellen is separable and reflexive: stellte sich … hinein. The circle is the old protection against a devil, who cannot cross it; the tale explains nothing and expects the reader to know."
+  },
+  {
+   "t": "Da kam das schwarze Männchen und sprach zu dem Alten „hast du mitgebracht, was du mir versprochen hast?“",
+   "l": "Then the little black man came and said to the old one “have you brought what you promised me?”",
+   "i": "Then the little black man came and said to the old man, “Have you brought what you promised me?”",
+   "n": "der Alte, “the old one,” is used as a noun for the father. mitbringen is separable: hast du mitgebracht."
+  },
+  {
+   "t": "Er schwieg still, aber der Sohn fragte „was willst du hier?“",
+   "l": "He kept silent, but the son asked “what do you want here?”",
+   "i": "He held his peace, but the son asked, “What do you want here?”",
+   "n": "still schweigen doubles the silence, since schweigen already means to be silent."
+  },
+  {
+   "t": "Da sagte das schwarze Männchen „ich habe mit deinem Vater zu sprechen und nicht mir dir.“",
+   "l": "Then the little black man said “I have to speak with your father and not with you.”",
+   "i": "Then the little black man said, “I have business with your father and not with you.”",
+   "n": "The 1857 text prints nicht mir dir where the sense plainly wants nicht mit dir — a slip of the setting, left standing here exactly as printed rather than mended. haben … zu sprechen is “to have something to say to someone.”"
+  },
+  {
+   "t": "Der Sohn antwortete „du hast meinen Vater betrogen und verführt, gib die Handschrift heraus.“",
+   "l": "The son answered “you have deceived my father and led him astray, give out the bond.”",
+   "i": "The son answered, “You have deceived my father and led him astray — hand over the bond.”",
+   "n": "herausgeben is separable, to hand over. Handschrift here is the signed and sealed document itself, not the handwriting on it."
+  },
+  {
+   "t": "„Nein,“ sagte das schwarze Männchen, „mein Recht geb ich nicht auf.“",
+   "l": "“No,” said the little black man, “my right I do not give up.”",
+   "i": "“No,” said the little black man, “I do not give up my right.”",
+   "n": "mein Recht stands first as object, the German way of throwing the point of a refusal forward. aufgeben is separable: geb … auf, with the -e of gebe dropped."
+  },
+  {
+   "t": "Da redeten sie noch lange mit einander, endlich wurden sie einig,",
+   "l": "Then they talked with one another a long while yet, at last they became of one mind,",
+   "i": "Then they talked together a long while more, and at last they came to an agreement,",
+   "n": "einig werden is “to reach agreement,” literally to become at one."
+  },
+  {
+   "t": "der Sohn, weil er nicht dem Erbfeind und nicht mehr seinem Vater zugehörte, sollte sich in ein Schiffchen setzen, das auf einem hinabwärts fließenden Wasser stände,",
+   "l": "the son, because he belonged neither to the arch-enemy nor any longer to his father, should set himself into a little boat that stood on a downward-flowing water,",
+   "i": "the son, since he belonged neither to the arch-enemy nor to his father any more, was to seat himself in a little boat lying on a stream that ran downward,",
+   "n": "Erbfeind, the hereditary enemy, is one of the common names for the devil. zugehören takes the dative. stände is subjunctive, the terms as agreed. Schiffchen is the diminutive of Schiff, a little boat."
+  },
+  {
+   "t": "und der Vater sollte es mit seinem eigenen Fuß fortstoßen, und dann sollte der Sohn dem Wasser überlassen bleiben.",
+   "l": "and the father should push it off with his own foot, and then the son should be left to the water.",
+   "i": "and the father was to push it off with his own foot, and then the son was to be left to the water.",
+   "n": "sollte reports what was agreed, “was to.” überlassen bleiben is “to remain handed over” — the water is to do with him what it will."
+  },
+  {
+   "t": "Da nahm er Abschied von seinem Vater, setzte sich in ein Schiffchen, und der Vater mußte es mit seinem eigenen Fuß fortstoßen.",
+   "l": "Then he took leave of his father, set himself in a little boat, and the father had to push it off with his own foot.",
+   "i": "Then he took leave of his father and seated himself in the little boat, and the father had to push it off with his own foot.",
+   "n": "The terms are repeated almost word for word as they are carried out; the tales like to say a thing twice, once as bargain and once as deed. That the father’s own foot does it is the cruelty of the bargain."
+  },
+  {
+   "t": "Das Schiffchen schlug um, so daß der unterste Theil oben war, die Decke aber im Wasser;",
+   "l": "The little boat turned over, so that the undermost part was on top, but the deck in the water;",
+   "i": "The little boat capsized, so that the lowest part was uppermost and the deck was under water;",
+   "n": "umschlagen is separable, of a boat turning over: schlug um. Theil is the 1857 spelling of Teil."
+  },
+  {
+   "t": "und der Vater glaubte, sein Sohn wäre verloren, gieng heim und trauerte um ihn.",
+   "l": "and the father believed his son was lost, went home and mourned for him.",
+   "i": "and the father believed his son was lost; he went home and mourned for him.",
+   "n": "wäre is the subjunctive of what he believed, not of what was so. trauern um is “to mourn for.”"
+  },
+  {
+   "p": true,
+   "t": "Das Schiffchen aber versank nicht, sondern floß ruhig fort, und der Jüngling saß sicher darin,",
+   "l": "But the little boat did not sink, but floated quietly on, and the youth sat safe in it,",
+   "i": "But the little boat did not sink; it floated quietly on, and the young man sat safe inside it,",
+   "n": "sondern is the “but” that follows a negative and sets it right, where aber only contrasts. fortfließen is separable: floß … fort."
+  },
+  {
+   "t": "und so floß es lange, bis es endlich an einem unbekannten Ufer festsitzen blieb.",
+   "l": "and so it floated a long while, until at last it stuck fast at an unknown shore.",
+   "i": "and so it floated a long while, until at last it came to rest against an unknown shore.",
+   "n": "festsitzen bleiben joins two verbs, “to remain sitting fast”: the boat both stops and stays."
+  },
+  {
+   "t": "Da stieg er ans Land, sah ein schönes Schloß vor sich liegen und gieng darauf los.",
+   "l": "Then he stepped ashore, saw a fine castle lying before him and went straight at it.",
+   "i": "Then he stepped ashore, saw a fine castle lying before him, and made for it.",
+   "n": "losgehen auf is “to make straight for something”; darauf los is the fixed pairing, the los carrying the setting-off."
+  },
+  {
+   "t": "Wie er aber hineintrat, war es verwünscht;",
+   "l": "But as he stepped inside, it was under a curse;",
+   "i": "But when he stepped inside, the place lay under a curse;",
+   "n": "verwünscht is bewitched, laid under a curse — a different word from verzaubert, but the same condition. hineintreten is separable."
+  },
+  {
+   "t": "er gieng durch alle Zimmer, aber sie waren leer bis er in die letzte Kammer kam, da lag eine Schlange darin und ringelte sich.",
+   "l": "he went through all the rooms, but they were empty until he came into the last chamber, there lay a snake in it and coiled itself.",
+   "i": "he went through all the rooms, but they were empty until he came to the last chamber, and there lay a snake, coiling itself.",
+   "n": "sich ringeln is reflexive, to coil itself. darin, “in it,” points back to the chamber."
+  },
+  {
+   "t": "Die Schlange aber war eine verwünschte Jungfrau, die freute sich, wie sie ihn sah, und sprach zu ihm „kommst du, mein Erlöser?",
+   "l": "But the snake was a maiden under a curse, she rejoiced when she saw him, and said to him “do you come, my redeemer?",
+   "i": "But the snake was a maiden under a spell; she rejoiced when she saw him, and said to him, “Have you come, my deliverer?",
+   "n": "die freute sich is the loose relative again, “she rejoiced.” wie is “when.” kommst du is the plain present, which English turns into “have you come.”"
+  },
+  {
+   "t": "auf dich habe ich schon zwölf Jahre gewartet; dies Reich ist verwünscht, und du mußt es erlösen.“",
+   "l": "for you I have waited twelve years already; this kingdom is under a curse, and you must release it.”",
+   "i": "I have waited twelve years for you already; this kingdom lies under a curse, and you must set it free.”",
+   "n": "auf jemanden warten is “to wait for someone,” and the phrase stands first for weight, which English can just about copy. dies without an ending is the older dieses. mußt is the 1857 spelling of musst. The twelve years are the same twelve of the bond."
+  },
+  {
+   "t": "„Wie kann ich das?“ fragte er.",
+   "l": "“How can I do that?” he asked.",
+   "n": "German leaves the verb of doing out: wie kann ich das, “how can I that,” where English must supply “do.”"
+  },
+  {
+   "t": "„Heute Nacht kommen zwölf schwarze Männer, die mit Ketten behangen sind, die werden dich fragen was du hier machst,",
+   "l": "“Tonight twelve black men will come, who are hung about with chains, they will ask you what you are doing here,",
+   "i": "“Tonight twelve black men will come, hung about with chains; they will ask you what you are doing here,",
+   "n": "behangen (modern behängt) is the participle of behängen, to drape with. German uses the plain present kommen for what is still to come, where English needs “will come.”"
+  },
+  {
+   "t": "da schweig aber still und gib ihnen keine Antwort, und laß sie mit dir machen was sie wollen:",
+   "l": "but then keep silent and give them no answer, and let them do with you what they will:",
+   "i": "but then keep silence and give them no answer, and let them do with you what they will:",
+   "n": "da here is “then, at that point,” not “there.” The imperatives schweig, gib, laß all drop the -e that modern German would keep."
+  },
+  {
+   "t": "sie werden dich quälen, schlagen und stechen, laß alles geschehen, nur rede nicht;",
+   "l": "they will torment you, beat and stab you, let everything happen, only do not speak;",
+   "i": "they will torment you, beat you and stab you — let it all happen, only do not speak;",
+   "n": "laß … geschehen is lassen with an infinitive once more. The tale says plainly what is coming, and the English says it too."
+  },
+  {
+   "t": "um zwölf Uhr müssen sie wieder fort.",
+   "l": "at twelve o’clock they must be off again.",
+   "i": "at twelve o’clock they must go again.",
+   "n": "müssen … fort leaves out the verb of motion after the modal, as German does freely with fort, weg, hin: “must away.”"
+  },
+  {
+   "t": "Und in der zweiten Nacht werden wieder zwölf andere kommen, in der dritten vier und zwanzig, die werden dir den Kopf abhauen:",
+   "l": "And in the second night twelve others will come again, in the third four and twenty, who will hew your head off:",
+   "i": "And on the second night twelve others will come again, and on the third four and twenty, and they will strike off your head:",
+   "n": "vier und zwanzig is printed in three words in 1857, where modern German writes vierundzwanzig. dir den Kopf abhauen is a dative of possession — “hew the head off you” — where English uses a possessive."
+  },
+  {
+   "t": "aber um zwölf Uhr ist ihre Macht vorbei, und wenn du dann ausgehalten und kein Wörtchen gesprochen hast, so bin ich erlöst.",
+   "l": "but at twelve o’clock their power is past, and if you have then held out and spoken not a little word, then I am released.",
+   "i": "but at twelve o’clock their power is over, and if you have held out and not spoken so much as a word, then I am set free.",
+   "n": "vorbei sein is “to be over.” aushalten is separable, to hold out, endure. Wörtchen is the diminutive of Wort: not one little word."
+  },
+  {
+   "t": "Ich komme zu dir, und habe in einer Flasche das Wasser des Lebens, damit bestreiche ich dich, und dann bist du wieder lebendig und gesund wie zuvor.“",
+   "l": "I come to you, and have in a bottle the water of life, with it I brush you over, and then you are alive and sound again as before.”",
+   "i": "I shall come to you with the water of life in a bottle; I shall brush you with it, and then you will be alive and well again as before.”",
+   "n": "das Wasser des Lebens is a genitive, the water of life, the healing water of many tales. damit is “with that.” bestreichen is to brush or smear something over."
+  },
+  {
+   "t": "Da sprach er „gerne will ich dich erlösen.“",
+   "l": "Then he said “gladly will I release you.”",
+   "i": "Then he said, “Gladly will I set you free.”",
+   "n": "gerne stands first for emphasis, and English can echo the shape with “gladly will I.”"
+  },
+  {
+   "t": "Es geschah nun alles so, wie sie gesagt hatte: die schwarzen Männer konnten ihm kein Wort abzwingen,",
+   "l": "Now everything happened so, as she had said: the black men could wring no word out of him,",
+   "i": "Now everything happened just as she had said: the black men could not force a word out of him,",
+   "n": "geschehen is “to happen, come to pass.” abzwingen is separable and takes the dative of the person: to wring something from someone."
+  },
+  {
+   "t": "und in der dritten Nacht ward die Schlange zu einer schönen Königstochter, die kam mit dem Wasser des Lebens und machte ihn wieder lebendig.",
+   "l": "and in the third night the snake became a beautiful king’s-daughter, she came with the water of life and made him alive again.",
+   "i": "and on the third night the snake became a beautiful princess, who came with the water of life and made him alive again.",
+   "n": "zu etwas werden is “to turn into something.” die kam is the loose relative once more. What happened in the third night — the head hewn off — is passed over in a single clause; the tale simply moves on."
+  },
+  {
+   "t": "Und dann fiel sie ihm um den Hals und küßte ihn, und war Jubel und Freude im ganzen Schloß.",
+   "l": "And then she fell about his neck and kissed him, and was jubilation and joy in the whole castle.",
+   "i": "And then she fell on his neck and kissed him, and there was rejoicing and gladness throughout the castle.",
+   "n": "jemandem um den Hals fallen is the set phrase for throwing one’s arms round someone. The last clause has no subject word at all: und war Jubel, where English must put in “there was.”"
+  },
+  {
+   "t": "Da wurde ihre Hochzeit gehalten, und er war König vom goldenen Berge.",
+   "l": "Then their wedding was held, and he was king of the golden mountain.",
+   "i": "Then their wedding was held, and he was King of the Golden Mountain.",
+   "n": "vom goldenen Berge carries the old dative -e on Berge. This is the title the tale takes its name from, and it is given here without any explanation of where the mountain is."
+  },
+  {
+   "p": true,
+   "t": "Also lebten sie vergnügt zusammen, und die Königin gebar einen schönen Knaben.",
+   "l": "So they lived contentedly together, and the queen bore a fine boy.",
+   "i": "So they lived happily together, and the queen bore a fine boy.",
+   "n": "Also is “so, accordingly,” not English “also.” gebar is the past of gebären, to give birth. Knabe is the elevated word for a boy."
+  },
+  {
+   "t": "Acht Jahre waren schon herum, da fiel ihm sein Vater ein und sein Herz ward bewegt, und er wünschte ihn einmal heimzusuchen.",
+   "l": "Eight years were already round, when his father came into his mind and his heart was moved, and he wished to go home and see him once.",
+   "i": "Eight years were already up when his father came into his mind and his heart was stirred, and he wished to go home and see him once.",
+   "n": "einfallen with the dative once more: fiel ihm … ein. heimsuchen is used here in its old plain sense of going home to visit someone; the modern word has hardened into “to afflict.”"
+  },
+  {
+   "t": "Die Königin wollte ihn aber nicht fortlassen und sagte „ich weiß schon daß es mein Unglück ist,“",
+   "l": "But the queen would not let him go and said “I know well that it is my misfortune,”",
+   "i": "But the queen would not let him go, and said, “I know it is my misfortune,”",
+   "n": "fortlassen is separable, to let go away. schon in a statement is the particle of certainty, “well enough.” She is right, and the tale lets her say so before anything has happened."
+  },
+  {
+   "t": "er ließ ihr aber keine Ruhe bis sie einwilligte.",
+   "l": "but he left her no peace until she consented.",
+   "n": "jemandem keine Ruhe lassen is the set phrase, to give someone no peace. einwilligen is separable: willigte … ein."
+  },
+  {
+   "t": "Beim Abschied gab sie ihm noch einen Wünschring und sprach „nimm diesen Ring und steck ihn an deinen Finger, so wirst du alsbald dahin versetzt, wo du dich hinwünschest,",
+   "l": "At the parting she gave him a wishing ring besides and said “take this ring and put it on your finger, then you will at once be set down there where you wish yourself,",
+   "i": "At their parting she gave him a wishing ring as well, and said, “Take this ring and put it on your finger, and you will at once be carried wherever you wish yourself,",
+   "n": "Wünschring (modern Wunschring) is a ring that grants wishes. dahin … wo is “to that place where.” sich hinwünschen is reflexive and separable, to wish oneself to a place."
+  },
+  {
+   "t": "nur mußt du mir versprechen daß du ihn nicht gebrauchst, mich von hier weg zu deinem Vater zu wünschen.“",
+   "l": "only you must promise me that you do not use it to wish me away from here to your father.”",
+   "i": "only you must promise me that you will not use it to wish me away from here to your father.”",
+   "n": "The infinitive clause mich … zu wünschen hangs on gebrauchst, “use it to wish.” German keeps the plain present where English wants “will not.” Her one condition is the hinge the whole tale turns on."
+  },
+  {
+   "t": "Er versprach ihr das, steckte den Ring an seinen Finger und wünschte sich heim vor die Stadt, wo sein Vater lebte.",
+   "l": "He promised her that, put the ring on his finger and wished himself home before the town where his father lived.",
+   "i": "He promised her, put the ring on his finger, and wished himself home to the outskirts of the town where his father lived.",
+   "n": "sich wünschen is reflexive, to wish oneself somewhere. vor die Stadt is the ground before the town, outside the walls."
+  },
+  {
+   "t": "Im Augenblick befand er sich auch dort und wollte in die Stadt:",
+   "l": "In a moment he found himself there too and wanted into the town:",
+   "i": "In an instant there he was, and wanted to go into the town:",
+   "n": "sich befinden is “to find oneself, to be” somewhere. wollte in die Stadt drops the verb of motion after the modal, as German does: “wanted into the town.”"
+  },
+  {
+   "t": "wie er aber vors Thor kam, wollten ihn die Schildwachen nicht einlassen, weil er seltsame und doch so reiche und prächtige Kleider an hatte.",
+   "l": "but as he came before the gate, the sentries would not let him in, because he had strange and yet such rich and splendid clothes on.",
+   "i": "but when he came to the gate, the sentries would not let him in, because he was wearing strange and yet such rich and splendid clothes.",
+   "n": "vors is vor das run together. Thor is the 1857 spelling of Tor, a gate. anhaben, “to have on,” is separable: Kleider an hatte. einlassen is separable too."
+  },
+  {
+   "t": "Da gieng er auf einen Berg, wo ein Schäfer hütete, tauschte mit diesem die Kleider und zog den alten Schäferrock an und gieng also ungestört in die Stadt ein.",
+   "l": "Then he went onto a hill where a shepherd was keeping watch, exchanged clothes with him and put on the old shepherd’s coat and so went undisturbed into the town.",
+   "i": "Then he went up a hill where a shepherd was watching his flock, exchanged clothes with him, put on the old shepherd’s smock, and so went into the town unhindered.",
+   "n": "hüten by itself is used of a shepherd minding his flock. einziehen and anziehen are both separable: gieng … ein, zog … an. also is “so, in that way.”"
+  },
+  {
+   "t": "Als er zu seinem Vater kam, gab er sich zu erkennen, der aber glaubte nimmermehr daß es sein Sohn wäre",
+   "l": "When he came to his father, he gave himself to be known, but that one never believed that it was his son",
+   "i": "When he came to his father he made himself known, but his father would not believe for a moment that it was his son",
+   "n": "sich zu erkennen geben is the set phrase for making oneself known. nimmermehr is “never at all, not for a moment.” wäre is the subjunctive of what the father did not believe."
+  },
+  {
+   "t": "und sagte er hätte zwar einen Sohn gehabt, der wäre aber längst todt:",
+   "l": "and said he had indeed had a son, but he was long since dead:",
+   "i": "and said that he had once had a son, but that he had long been dead:",
+   "n": "zwar … aber is the pair “indeed … but.” todt is the 1857 spelling of tot. hätte and wäre carry the father’s report."
+  },
+  {
+   "t": "doch weil er sähe daß er ein armer dürftiger Schäfer wäre, so wollte er ihm einen Teller voll zu essen geben.",
+   "l": "yet because he saw that he was a poor needy shepherd, he would give him a plateful to eat.",
+   "i": "yet since he saw that he was a poor, needy shepherd, he was willing to give him a plateful to eat.",
+   "n": "sähe and wäre are again subjunctive inside the report. einen Teller voll zu essen — a plate full, the food not named; that is how charity is measured out here."
+  },
+  {
+   "t": "Da sprach der Schäfer zu seinen Eltern „ich bin wahrhaftig euer Sohn, wißt ihr kein Mal an meinem Leibe, woran ihr mich erkennen könnt?“",
+   "l": "Then the shepherd said to his parents “I am truly your son, do you know no mark on my body by which you can know me?”",
+   "i": "Then the shepherd said to his parents, “I am truly your son; do you know of no mark on my body by which you might know me?”",
+   "n": "wahrhaftig is “truly, in very truth.” Mal is a birthmark, as in Muttermal. woran … erkennen swallows the preposition into the wo-form, “by which.” euer and ihr are the polite plural to his parents."
+  },
+  {
+   "t": "„Ja,“ sagte die Mutter, „unser Sohn hatte eine Himbeere unter dem rechten Arm.“",
+   "l": "“Yes,” said the mother, “our son had a raspberry under the right arm.”",
+   "i": "“Yes,” said the mother, “our son had a raspberry mark under his right arm.”",
+   "n": "Himbeere is simply the raspberry; the tale names the fruit and lets it stand for the birthmark, much as English does in “strawberry mark.” Whether the mark is meant to be raspberry-coloured or raspberry-shaped the text does not say."
+  },
+  {
+   "t": "Er streifte das Hemd zurück, da sahen sie die Himbeere unter seinem rechten Arm und zweifelten nicht mehr daß es ihr Sohn wäre.",
+   "l": "He stripped the shirt back, then they saw the raspberry under his right arm and doubted no more that it was their son.",
+   "i": "He pushed back his shirt, and they saw the raspberry under his right arm, and doubted no longer that it was their son.",
+   "n": "zurückstreifen is separable: streifte … zurück. wäre is the subjunctive of the doubt that is now being given up."
+  },
+  {
+   "t": "Darauf erzählte er ihnen er wäre König vom goldenen Berge und eine Königstochter wäre seine Gemahlin, und sie hätten einen schönen Sohn von sieben Jahren.",
+   "l": "Thereupon he told them he was king of the golden mountain and a king’s-daughter was his wife, and they had a fine son of seven years.",
+   "i": "Thereupon he told them that he was King of the Golden Mountain, that a princess was his wife, and that they had a fine son of seven years.",
+   "n": "wäre, wäre, hätten: three subjunctives in a row, each of them marking this as his report rather than the narrator’s word. The eight years are counted from the wedding, so a son of seven fits — he was born in the first year of the marriage."
+  },
+  {
+   "t": "Da sprach der Vater „nun und nimmermehr ist das wahr:",
+   "l": "Then the father said “now and nevermore is that true:",
+   "i": "Then the father said, “That is true now and never:",
+   "n": "nun und nimmermehr is a set formula of flat denial, something like “that will be true when never comes.” The English keeps its shape rather than flattening it into “nonsense.”"
+  },
+  {
+   "t": "das ist mir ein schöner König, der in einem zerlumpten Schäferrock hergeht.“",
+   "l": "that is to me a fine king, who goes about in a ragged shepherd’s coat.”",
+   "i": "a fine king he is, walking about in a ragged shepherd’s smock.”",
+   "n": "mir is the dative of the person concerned, used here in scorn — “a fine king you give me there.” hergehen is separable, of walking about in view of others."
+  },
+  {
+   "t": "Da ward der Sohn zornig und drehte, ohne an sein Versprechen zu denken, den Ring herum und wünschte beide, seine Gemahlin und sein Kind, zu sich.",
+   "l": "Then the son grew angry and turned, without thinking of his promise, the ring round and wished both, his wife and his child, to himself.",
+   "i": "Then the son grew angry and, without a thought for his promise, turned the ring round and wished both his wife and his child to him.",
+   "n": "herumdrehen is separable, and its particle herum stands off at the end, after the whole interposed clause — so the German holds the deed back to the last moment. an etwas denken, to think of something."
+  },
+  {
+   "t": "In dem Augenblick waren sie auch da,",
+   "l": "In that moment they were there too,",
+   "n": "auch is the confirming particle again, “sure enough,” not “also.”"
+  },
+  {
+   "t": "aber die Königin, die klagte und weinte, und sagte er hätte sein Wort gebrochen und hätte sie unglücklich gemacht.",
+   "l": "but the queen, she lamented and wept, and said he had broken his word and had made her unhappy.",
+   "i": "but the queen lamented and wept, and said that he had broken his word and had made her unhappy.",
+   "n": "die klagte is the loose relative used as a resumption — “the queen, she lamented” — which the literal keeps. hätte … gebrochen is the subjunctive of her reproach as reported."
+  },
+  {
+   "t": "Er sagte „ich habe es unachtsam gethan und nicht mit bösem Willen“ und redete ihr zu;",
+   "l": "He said “I have done it heedlessly and not with evil will” and talked to her;",
+   "i": "He said, “I did it heedlessly and not out of ill will,” and talked her round;",
+   "n": "gethan is the 1857 spelling of getan. unachtsam is “without paying heed.” zureden is separable and takes the dative: redete ihr zu, to talk at someone until they give way."
+  },
+  {
+   "t": "sie stellte sich auch als gäbe sie nach, aber sie hatte Böses im Sinn.",
+   "l": "she also made as if she gave way, but she had evil in mind.",
+   "i": "she made as though she were giving way, but she had evil in mind.",
+   "n": "sich stellen als is “to make as if.” gäbe is subjunctive after als, marking the pretence. Böses im Sinn haben is the set phrase for meaning harm."
+  },
+  {
+   "p": true,
+   "t": "Da führte er sie hinaus vor die Stadt auf den Acker und zeigte ihr das Wasser, wo das Schiffchen war abgestoßen worden,",
+   "l": "Then he led her out before the town onto the field and showed her the water where the little boat had been pushed off,",
+   "i": "Then he led her out of the town to the field and showed her the water where the little boat had been pushed off,",
+   "n": "war abgestoßen worden is the old pluperfect passive, with worden where a full verb would have geworden. abstoßen is separable."
+  },
+  {
+   "t": "und sprach dann „ich bin müde, setze dich nieder, ich will ein wenig auf deinem Schooß schlafen.“",
+   "l": "and then said “I am tired, set yourself down, I will sleep a little on your lap.”",
+   "i": "and then said, “I am tired; sit down, I will sleep a little in your lap.”",
+   "n": "Schooß is the 1857 spelling of Schoß, the lap. setze dich nieder is separable and reflexive, “set yourself down.”"
+  },
+  {
+   "t": "Da legte er seinen Kopf auf ihren Schooß und sie lauste ihn ein wenig, bis er einschlief.",
+   "l": "Then he laid his head on her lap and she loused him a little, until he fell asleep.",
+   "i": "Then he laid his head in her lap, and she picked through his hair a little until he fell asleep.",
+   "n": "lausen is to go through someone’s hair for lice — an everyday intimacy in these tales, and here the means of putting him to sleep. einschlafen is separable."
+  },
+  {
+   "t": "Als er eingeschlafen war, zog sie erst den Ring von seinem Finger, dann zog sie den Fuß unter ihm weg und ließ nur den Toffel zurück:",
+   "l": "When he had fallen asleep, she first drew the ring from his finger, then she drew her foot out from under him and left only the slipper behind:",
+   "i": "When he had fallen asleep she first drew the ring from his finger, then pulled her foot out from under him and left only the slipper behind:",
+   "n": "wegziehen and zurücklassen are both separable. Toffel is the shortened everyday form of Pantoffel, a slipper. Why the slipper stays behind the tale does not say; it is what he finds when he wakes, and the next sentence calls it the Wahrzeichen, the token that she was there."
+  },
+  {
+   "t": "hierauf nahm sie ihr Kind in den Arm und wünschte sich wieder in ihr Königreich.",
+   "l": "hereupon she took her child in her arm and wished herself back into her kingdom.",
+   "i": "thereupon she took her child in her arms and wished herself back to her kingdom.",
+   "n": "hierauf is “hereupon, upon this.” The ring is hers again, so the wishing is hers."
+  },
+  {
+   "t": "Als er aufwachte, lag er da ganz verlassen,",
+   "l": "When he woke up, he lay there quite forsaken,",
+   "n": "aufwachen is separable: wachte … auf. verlassen is the participle of verlassen, left behind, forsaken."
+  },
+  {
+   "t": "und seine Gemahlin und das Kind waren fort und der Ring vom Finger auch, nur der Toffel stand noch da zum Wahrzeichen.",
+   "l": "and his wife and the child were gone and the ring from his finger too, only the slipper still stood there for a token.",
+   "i": "and his wife and the child were gone, and the ring from his finger as well; only the slipper still stood there as a token.",
+   "n": "fort sein is “to be gone, away.” Wahrzeichen is a token or sign left behind to prove a thing happened."
+  },
+  {
+   "t": "„Nach Haus zu deinen Eltern kannst du nicht wieder gehen,“ dachte er, „die würden sagen, du wärst ein Hexenmeister,",
+   "l": "“Home to your parents you cannot go again,” he thought, “they would say you were a master of witchcraft,",
+   "i": "“You cannot go home to your parents again,” he thought, “they would say you were a wizard;",
+   "n": "He speaks to himself as du, which German does easily. würden sagen and wärst are subjunctive, what they would say if he went. Hexenmeister is the male counterpart of Hexe, a witch."
+  },
+  {
+   "t": "du willst aufpacken und gehen bis du in dein Königreich kommst.“",
+   "l": "you will pack up and go until you come into your kingdom.”",
+   "i": "you had best pack up and go until you come to your kingdom.”",
+   "n": "du willst spoken to oneself is a resolve, nearer to English “you had better” than to “you want to.” aufpacken is separable, to pack up one’s things."
+  },
+  {
+   "t": "Also gieng er fort und kam endlich zu einem Berg, vor dem drei Riesen standen und mit einander stritten,",
+   "l": "So he went away and came at last to a mountain, before which three giants stood and quarrelled with one another,",
+   "i": "So he went off, and came at last to a mountain, in front of which three giants stood quarrelling with one another,",
+   "n": "Also once more is “so, accordingly.” vor dem is the relative with its preposition, “before which.”"
+  },
+  {
+   "t": "weil sie nicht wußten wie sie ihres Vaters Erbe theilen sollten.",
+   "l": "because they did not know how they should divide their father’s inheritance.",
+   "i": "because they did not know how to divide their father’s inheritance.",
+   "n": "ihres Vaters Erbe puts the genitive in front of its noun, as English does in “their father’s inheritance.” theilen is the 1857 spelling of teilen."
+  },
+  {
+   "t": "Als sie ihn vorbei gehen sahen, riefen sie ihn an und sagten kleine Menschen hätten klugen Sinn, er sollte ihnen die Erbschaft vertheilen.",
+   "l": "When they saw him going past, they called to him and said little men had clever sense, he should divide the inheritance for them.",
+   "i": "When they saw him going past they called to him and said that little men had shrewd wits, and that he should divide the inheritance for them.",
+   "n": "vorbei gehen sahen is the bare infinitive after a verb of perception. hätten is subjunctive, their words reported. anrufen is separable: riefen … an."
+  },
+  {
+   "t": "Die Erbschaft aber bestand aus einem Degen, wenn einer den in die Hand nahm und sprach „Köpf alle runter, nur meiner nicht,“ so lagen alle Köpfe auf der Erde:",
+   "l": "But the inheritance consisted of a sword — if one took it in the hand and said “Heads all off, only not mine,” then all heads lay on the earth:",
+   "i": "Now the inheritance consisted, first, of a sword: if a man took it in his hand and said, “Heads all off, only not mine,” then all heads lay on the ground;",
+   "n": "bestehen aus is “to consist of.” Degen is a sword worn at the side, and the tale calls the same thing Schwert a few lines later without meaning any difference. Köpf is Köpfe with the -e dropped, and the line has no verb in it at all: “heads all down, only not mine.” That meiner is nominative, and that the giants give the line back as unsere Köpfe alle herab, both show it is the noun and not a command to behead. The formula is left as the bare phrase it is, and it comes back twice more."
+  },
+  {
+   "t": "zweitens aus einem Mantel, wer den anzog, war unsichtbar;",
+   "l": "secondly of a cloak — whoever put it on was invisible;",
+   "i": "secondly, of a cloak: whoever put it on became invisible;",
+   "n": "wer … der is the correlative “whoever … he,” with the der left unspoken here. anziehen is separable: den anzog."
+  },
+  {
+   "t": "drittens aus ein paar Stiefeln, wenn man die angezogen hatte und sich wohin wünschte, so war man im Augenblick da.",
+   "l": "thirdly of a pair of boots — if one had put them on and wished oneself somewhere, then one was there in a moment.",
+   "i": "thirdly, of a pair of boots: if a man had put them on and wished himself anywhere, he was there in an instant.",
+   "n": "man is the general “one, a man,” and German keeps it where English tends to slip into “you.” wohin is “to somewhere.” The boots are given no name in the tale."
+  },
+  {
+   "t": "Er sagte „gebt mir die drei Stücke damit ich probieren könnte ob sie noch in gutem Stande sind.“",
+   "l": "He said “give me the three pieces so that I could try whether they are still in good condition.”",
+   "i": "He said, “Give me the three pieces so that I may try whether they are still in good order.”",
+   "n": "damit here is the conjunction “so that,” not “with that” — the same word doing two different offices in this tale. könnte is the subjunctive of purpose. in gutem Stande carries the old dative -e."
+  },
+  {
+   "t": "Da gaben sie ihm den Mantel, und als er ihn umgehängt hatte, war er unsichtbar und war in eine Fliege verwandelt.",
+   "l": "Then they gave him the cloak, and when he had hung it about himself, he was invisible and was changed into a fly.",
+   "i": "Then they gave him the cloak, and when he had thrown it round himself he was invisible, and was turned into a fly.",
+   "n": "umhängen is separable: hatte … umgehängt. The fly is neither asked for nor explained; the cloak simply does more than was promised of it."
+  },
+  {
+   "t": "Dann nahm er wieder seine Gestalt an und sprach „der Mantel ist gut, nun gebt mir das Schwert.“",
+   "l": "Then he took his shape on again and said “the cloak is good, now give me the sword.”",
+   "i": "Then he took his own form again and said, “The cloak is good; now give me the sword.”",
+   "n": "annehmen is separable: nahm … an. Gestalt is the shape a person wears, the word these tales use whenever a body is exchanged for another."
+  },
+  {
+   "t": "Sie sagten „nein, das geben wir nicht!",
+   "l": "They said “no, that we do not give!",
+   "i": "They said, “No, that we will not give!",
+   "n": "das stands first as object, the German way of setting a refusal at the head of the sentence."
+  },
+  {
+   "t": "wenn du sprächst \"Köpf alle runter, nur meiner nicht!\" so wären unsere Köpfe alle herab und du allein hättest den deinigen noch.“",
+   "l": "if you were to say “Heads all off, only not mine!” then our heads would all be off and you alone would still have yours.”",
+   "i": "if you were to say, “Heads all off, only not mine!” our heads would all be off, and you alone would still have yours.”",
+   "n": "sprächst, wären, hättest are all subjunctive: the whole case is supposed, not done. The 1857 setting prints this inner citation with straight marks instead of the German ones, and it is reproduced exactly as printed. der deinige is the older possessive pronoun, “yours.”"
+  },
+  {
+   "t": "Doch gaben sie es ihm unter der Bedingung daß ers an einem Baum probieren sollte.",
+   "l": "Yet they gave it to him on the condition that he should try it on a tree.",
+   "i": "Yet they gave it to him on condition that he should try it on a tree.",
+   "n": "ers is er es run together, “he it.” unter der Bedingung daß is “on the condition that.”"
+  },
+  {
+   "t": "Das that er und das Schwert zerschnitt den Stamm eines Baums wie einen Strohhalm.",
+   "l": "That he did and the sword cut through the trunk of a tree like a straw.",
+   "i": "That he did, and the sword cut through the trunk of a tree as if it were a straw.",
+   "n": "that is the 1857 past of thun (modern tat, from tun). Strohhalm is a single stalk of straw."
+  },
+  {
+   "t": "Nun wollt er noch die Stiefeln haben, sie sprachen aber „nein, die geben wir nicht weg,",
+   "l": "Now he wanted to have the boots as well, but they said “no, those we do not give away,",
+   "i": "Now he wanted the boots as well, but they said, “No, those we will not give away;",
+   "n": "wollt is the shortened wollte. die stands first as object again, in exactly the shape of their earlier refusal."
+  },
+  {
+   "t": "wenn du sie angezogen hättest und wünschtest dich oben auf den Berg, so stünden wir da unten und hätten nichts.“",
+   "l": "if you had put them on and wished yourself up on the mountain, then we would stand down here and have nothing.”",
+   "i": "if you had put them on and wished yourself up on the mountain, we should be standing down here with nothing.”",
+   "n": "hättest, wünschtest, stünden, hätten — four subjunctives holding the whole case in the unreal. The giants have worked out exactly what he means to do, and hand the boots over anyway."
+  },
+  {
+   "t": "„Nein,“ sprach er, „das will ich nicht thun.“",
+   "l": "“No,” he said, “that I will not do.”",
+   "n": "thun is the 1857 spelling of tun. He promises nothing; he only says what he will not do — and then does it."
+  },
+  {
+   "t": "Da gaben sie ihm auch die Stiefeln.",
+   "l": "Then they gave him the boots too.",
+   "n": "auch here is “as well, into the bargain.”"
+  },
+  {
+   "t": "Wie er nun alle drei Stücke hatte, so dachte er an nichts als an seine Frau und sein Kind und sprach so vor sich hin „ach wäre ich auf dem goldenen Berg,“",
+   "l": "When he now had all three pieces, he thought of nothing but his wife and his child and said so to himself “ah, were I on the golden mountain,”",
+   "i": "Now when he had all three pieces, he thought of nothing but his wife and his child, and said half aloud to himself, “Ah, if I were on the Golden Mountain,”",
+   "n": "vor sich hin sprechen is to say a thing to oneself, half aloud. wäre ich is the wish-subjunctive with the verb first, “were I.” denken an takes the accusative."
+  },
+  {
+   "t": "und alsbald verschwand er vor den Augen der Riesen, und war also ihr Erbe getheilt.",
+   "l": "and at once he vanished before the eyes of the giants, and so was their inheritance divided.",
+   "i": "and at once he vanished before the giants’ eyes, and so their inheritance was divided.",
+   "n": "also is again “so, in this way.” The tale closes the giants’ business with a dry joke: the division is made, and there is nothing left to divide."
+  },
+  {
+   "t": "Als er nah beim Schloß war, hörte er Freudengeschrei, Geigen und Flöten, und die Leute sagten ihm seine Gemahlin feierte ihre Hochzeit mit einem andern.",
+   "l": "When he was near by the castle, he heard shouting for joy, fiddles and flutes, and the people told him his wife was celebrating her wedding with another.",
+   "i": "When he came near the castle he heard shouting for joy, fiddles and flutes, and the people told him that his wife was holding her wedding with another man.",
+   "n": "Freudengeschrei is a glued compound, joy-shouting. feierte stands in the plain indicative although it is reported speech; the tales are not strict about the subjunctive."
+  },
+  {
+   "t": "Da ward er zornig und sprach „die Falsche, sie hat mich betrogen und mich verlassen, als ich eingeschlafen war.“",
+   "l": "Then he grew angry and said “the false one, she has deceived me and left me when I had fallen asleep.”",
+   "i": "Then he grew angry and said, “The false woman — she deceived me and left me when I had fallen asleep.”",
+   "n": "die Falsche is an adjective used as a noun, feminine, “the false one.” German uses the perfect hat … betrogen where English prefers the plain past."
+  },
+  {
+   "t": "Da hieng er seinen Mantel um und gieng unsichtbar ins Schloß hinein.",
+   "l": "Then he hung his cloak about him and went invisible into the castle.",
+   "i": "Then he threw his cloak round him and went into the castle unseen.",
+   "n": "hieng is the 1857 spelling of hing, from the separable umhängen. hinein at the end doubles the ins Schloß, as German likes to do."
+  },
+  {
+   "t": "Als er in den Saal eintrat, war da eine große Tafel mit köstlichen Speisen besetzt, und die Gäste aßen und tranken, lachten und scherzten.",
+   "l": "When he stepped into the hall, there was a great table set with costly dishes, and the guests ate and drank, laughed and jested.",
+   "i": "When he stepped into the hall a great table stood spread with costly dishes, and the guests ate and drank, laughed and jested.",
+   "n": "Tafel is the laid table of a feast, not any table. besetzt mit is “set, covered with.” Speisen are dishes of food."
+  },
+  {
+   "t": "Sie aber saß in der Mitte in prächtigen Kleidern auf einem königlichen Sessel und hatte die Krone auf dem Haupt.",
+   "l": "But she sat in the middle in splendid clothes on a royal seat and had the crown on her head.",
+   "i": "But she sat in the middle in splendid clothes on a royal chair, with the crown on her head.",
+   "n": "Haupt is the elevated word for head, kept for crowns and solemn moments; Kopf is the everyday one, and it is Kopf that the sword will use."
+  },
+  {
+   "t": "Er stellte sich hinter sie und niemand sah ihn.",
+   "l": "He placed himself behind her and nobody saw him.",
+   "n": "sich stellen is reflexive, to take up a position."
+  },
+  {
+   "t": "Wenn sie ihr ein Stück Fleisch auf den Teller legten, nahm er ihn weg und aß es:",
+   "l": "When they laid a piece of meat on the plate for her, he took it away and ate it:",
+   "i": "Whenever they laid a piece of meat on her plate, he took the plate away and ate the meat;",
+   "n": "Wenn with a past tense is “whenever,” of a thing done again and again. ihr is the dative of the person served. wegnehmen is separable. The German keeps plate and meat apart by gender, ihn and es, which English cannot do."
+  },
+  {
+   "t": "und wenn sie ihr ein Glas Wein einschenkten, nahm ers weg und tranks aus;",
+   "l": "and when they poured her a glass of wine, he took it away and drank it up;",
+   "i": "and whenever they poured her a glass of wine, he took it away and drank it off;",
+   "n": "einschenken is separable, of pouring a drink out. nahm ers and tranks are nahm er es and trank es run together, as speech runs them. austrinken is separable, to drink to the bottom."
+  },
+  {
+   "t": "sie gaben ihr immer, und sie hatte doch immer nichts, denn Teller und Glas verschwanden augenblicklich.",
+   "l": "they gave to her always, and she had always nothing all the same, for plate and glass vanished in an instant.",
+   "i": "they kept serving her, and still she had nothing, for plate and glass vanished on the instant.",
+   "n": "immer stands twice, once of the giving that never stops and once of the emptiness that never stops. augenblicklich is “in a moment,” not “at present.”"
+  },
+  {
+   "t": "Da ward sie bestürzt und schämte sie sich, stand auf und gieng in ihre Kammer und weinte,",
+   "l": "Then she was dismayed and was ashamed, stood up and went into her chamber and wept,",
+   "i": "Then she was dismayed and ashamed; she got up and went into her chamber and wept,",
+   "n": "The 1857 text prints schämte sie sich with the subject set in again after the first verb, so the sentence starts over in the middle, as spoken narrative does. sich schämen is reflexive."
+  },
+  {
+   "t": "er aber gieng hinter ihr her.",
+   "l": "but he went along behind her.",
+   "n": "hinter ihr her gehen — the her marks the motion as following after her."
+  },
+  {
+   "t": "Da sprach sie „ist denn der Teufel über mir, oder kam mein Erlöser nie?“",
+   "l": "Then she said “is the devil then over me, or did my redeemer never come?”",
+   "i": "Then she said, “Is the devil over me, then, or did my deliverer never come?”",
+   "n": "über mir sein, “to be over me,” of a power that has hold of one. denn in a question is the particle of appeal. Erlöser is the very word she called him by when she was a snake."
+  },
+  {
+   "t": "Da schlug er ihr ins Angesicht und sagte „kam dein Erlöser nie?",
+   "l": "Then he struck her in the face and said “did your redeemer never come?",
+   "i": "Then he struck her in the face and said, “Did your deliverer never come?",
+   "n": "ihr ins Angesicht is a dative of the person struck, with the part named after it. Angesicht is the elevated word for face. The blow stands in the text and is not softened here."
+  },
+  {
+   "t": "er ist über dir, du Betrügerin.",
+   "l": "he is over you, you deceiver.",
+   "i": "He is over you, you cheat.",
+   "n": "He takes her own words up and turns them round: the “over me” she meant of the devil he claims for himself. Betrügerin is the feminine of Betrüger."
+  },
+  {
+   "t": "Habe ich das an dir verdient?“",
+   "l": "Have I deserved this of you?”",
+   "i": "Have I deserved this at your hands?”",
+   "n": "an dir verdienen is “to deserve at someone’s hands,” the an naming the person it comes from."
+  },
+  {
+   "t": "Da machte er sich sichtbar, gieng in den Saal und rief „die Hochzeit ist aus, der wahre König ist gekommen!“",
+   "l": "Then he made himself visible, went into the hall and cried “the wedding is out, the true king has come!”",
+   "i": "Then he made himself visible, went into the hall, and cried, “The wedding is at an end — the true king has come!”",
+   "n": "aus sein is “to be over, finished”; the literal keeps the German shape and the idiomatic says it in English. sich sichtbar machen undoes the cloak."
+  },
+  {
+   "t": "Die Könige, Fürsten und Räthe, die da versammelt waren, höhnten und verlachten ihn:",
+   "l": "The kings, princes and councillors who were assembled there jeered and laughed at him:",
+   "i": "The kings, princes and councillors assembled there jeered at him and laughed him to scorn;",
+   "n": "Räthe is the 1857 spelling of Räte, the plural of Rath, a councillor — the same word as Rath, counsel. verlachen is to laugh someone down, stronger than lachen."
+  },
+  {
+   "t": "er aber gab kurze Worte und sprach „wollt ihr hinaus oder nicht?“",
+   "l": "but he gave short words and said “will you out or not?”",
+   "i": "but he answered shortly and said, “Will you go out or not?”",
+   "n": "kurze Worte geben is to answer curtly. wollt ihr hinaus leaves the verb of motion out after the modal — “will you out” — which English can just about manage too."
+  },
+  {
+   "t": "Da wollten sie ihn fangen und drangen auf ihn ein, aber er zog sein Schwert und sprach „Köpf alle runter, nur meiner nicht.“",
+   "l": "Then they wanted to catch him and pressed in upon him, but he drew his sword and said “Heads all off, only not mine.”",
+   "i": "Then they tried to seize him and pressed in upon him, but he drew his sword and said, “Heads all off, only not mine.”",
+   "n": "wollten here is attempt, “tried to.” eindringen auf is separable, to press in upon someone. The formula comes for the third and last time, and this time it is meant."
+  },
+  {
+   "t": "Da rollten alle Köpfe zur Erde, und er war allein der Herr und war wieder König vom goldenen Berge.",
+   "l": "Then all heads rolled to the earth, and he alone was the lord and was king of the golden mountain again.",
+   "i": "Then all the heads rolled on the ground, and he alone was master, and was King of the Golden Mountain once more.",
+   "n": "Herr is master, lord — the one left standing. The tale ends on the killing with no comment and no closing formula of a long life, which is unusual even among these tales."
+  }
+ ]
+}

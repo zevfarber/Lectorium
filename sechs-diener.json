@@ -1,0 +1,886 @@
+{
+ "id": "sechs-diener",
+ "title": "Die sechs Diener",
+ "titleEn": "The Six Servants",
+ "khm": 134,
+ "language": "German",
+ "langCode": "de-DE",
+ "work": "Kinder- und Hausmärchen",
+ "workEn": "Grimms’ Fairy Tales",
+ "workGloss": "Children’s and Household Tales",
+ "part": "The Six Servants",
+ "source": "Brüder Grimm, Kinder- und Hausmärchen, Band 2, 7. Auflage (Ausgabe letzter Hand), Dieterich, Göttingen 1857, KHM 134. Text from Wikisource (twice proofread against the original). 1857 spelling preserved exactly (daß, müßte, gieng, Thüre).",
+ "about": "KHM 134: a queen who is really a sorceress sets impossible tasks to any suitor for her daughter's hand, and beheads the ones who fail. A prince wins through with the help of six servants each gifted with one uncanny power — a fat man who eats mountains of food, a keen-eared listener, a marksman who can shoot anything, a runner faster than the wind, a man whose hat freezes the world, and one whose gaze shatters stone. The tale is really theirs more than the prince's: each trial is solved by handing it to the right servant, and a reader can enjoy tracking which gift answers which task.",
+ "glossaryFile": "khm-glossary.json",
+ "sentences": [
+  {
+   "p": true,
+   "t": "Vor Zeiten lebte eine alte Königin, die war eine Zauberin, und ihre Tochter war das schönste Mädchen unter der Sonne.",
+   "l": "In times past lived an old queen, she was a sorceress, and her daughter was the most beautiful girl under the sun.",
+   "i": "In times gone by there lived an old queen who was a sorceress, and her daughter was the most beautiful girl under the sun.",
+   "n": "“Vor Zeiten” — in times past — opens the tale where another might have “Es war einmal”. “die war eine Zauberin” takes the queen up again with a demonstrative rather than a relative pronoun, the tales’ usual spoken join."
+  },
+  {
+   "t": "Die Alte dachte aber auf nichts als wie sie die Menschen ins Verderben locken könnte,",
+   "l": "The old one however thought on nothing but how she the people into ruin lure could,",
+   "i": "But the old woman thought of nothing except how she might lure people to their ruin,",
+   "n": "“die Alte” — the old one — is what the tale calls her from here on. “locken” is the verb to lure, entice, not the noun die Locke, a curl. “ins Verderben” = into ruin, destruction."
+  },
+  {
+   "t": "und wenn ein Freier kam, so sprach sie wer ihre Tochter haben wollte, müßte zuvor einen Bund (eine Aufgabe) lösen, oder er müßte sterben.",
+   "l": "and when a suitor came, so said she whoever her daughter have wanted must first a Bund (a task) loose, or he must die.",
+   "i": "and when a suitor came, she would say that whoever wanted her daughter must first undo a Bund — a task — or else must die.",
+   "n": "The round-bracket gloss “(eine Aufgabe)” stands in the 1857 text: it is the Grimms’ own explanation to their readers of what Bund means here — not a league or a bundle, but a condition set as a task. “müßte” is the subjunctive of reported speech, marking the words as hers. “einen Bund lösen” is to undo it, to solve it."
+  },
+  {
+   "t": "Viele waren von der Schönheit der Jungfrau verblendet und wagten es wohl, aber sie konnten nicht vollbringen was die Alte ihnen auflegte,",
+   "l": "Many were by the beauty of the maiden blinded and dared it indeed, but they could not accomplish what the old one to them laid on,",
+   "i": "Many were blinded by the maiden’s beauty and did indeed risk it, but they could not accomplish what the old woman laid upon them,",
+   "n": "“wohl” after a verb concedes: they did dare, for all the good it did them. “auflegen”, to lay upon, is separable, and its particle stands at the end of the clause."
+  },
+  {
+   "t": "und dann war keine Gnade, sie mußten niederknien, und das Haupt ward ihnen abgeschlagen.",
+   "l": "and then was no mercy, they had to kneel down, and the head was to them struck off.",
+   "i": "and then there was no mercy: they had to kneel down, and their heads were struck off.",
+   "n": "The tale does not soften this and neither does the translation. “das Haupt ward ihnen abgeschlagen” is the dative of possession — the head belonging to them; “ward” is the older passive past of werden, modern wurde. “Haupt” is the elevated word for head."
+  },
+  {
+   "t": "Ein Königssohn der hatte auch von der großen Schönheit der Jungfrau gehört und sprach zu seinem Vater „laßt mich hinziehen, ich will um sie werben.“",
+   "l": "A king’s-son, he had also of the great beauty of the maiden heard and spoke to his father “let me go there, I will for her sue.”",
+   "i": "A king’s son had also heard of the maiden’s great beauty, and said to his father, “Let me go there — I want to sue for her hand.”",
+   "n": "“Ein Königssohn der hatte…” names the subject and then repeats it as “der”, a spoken pattern the tales keep. The son addresses his father as “ihr” (“laßt”), the older respectful plural. “werben um” is to court, to sue for a woman’s hand."
+  },
+  {
+   "t": "„Nimmermehr,“ antwortete der König, „gehst du fort, so gehst du in deinen Tod.“",
+   "l": "“Nevermore,” answered the king, “go you away, so go you into your death.”",
+   "i": "“Never,” answered the king. “If you go, you go to your death.”",
+   "n": "A conditional with no wenn: the verb first, “gehst du fort”, and the main clause answered by “so”. The father uses “du” to his son, as the son used “ihr” to him."
+  },
+  {
+   "t": "Da legte der Sohn sich nieder und ward sterbenskrank, und lag sieben Jahre lang und kein Arzt konnte ihm helfen.",
+   "l": "Then laid the son himself down and became sick unto death, and lay seven years long and no doctor could him help.",
+   "i": "Then the son lay down and grew sick unto death, and lay there seven years long, and no doctor could help him.",
+   "n": "“sich niederlegen” is separable: “legte … nieder”. “sterbenskrank” — sick unto dying. The seven years are the tale’s way of saying the refusal cost as much as the journey would have."
+  },
+  {
+   "t": "Als der Vater sah daß keine Hoffnung mehr war, sprach er voll Herzenstraurigkeit zu ihm „zieh hin und versuche dein Glück, ich weiß dir sonst nicht zu helfen.“",
+   "l": "When the father saw that no hope more was, spoke he full of heart’s-sorrow to him “go there and try your luck, I know for you otherwise not to help.”",
+   "i": "When the father saw that there was no hope left, he said to him, full of sorrow of heart, “Go, then, and try your fortune; I know no other way to help you.”",
+   "n": "“Herzenstraurigkeit” is a compound the tale builds for the moment: the sorrow of the heart. “ich weiß dir sonst nicht zu helfen” — I know of no other way to help you."
+  },
+  {
+   "t": "Wie der Sohn das hörte, stand er auf von seinem Lager, ward gesund und machte sich fröhlich auf den Weg.",
+   "l": "As the son that heard, stood he up from his bed, became well and made himself merrily on the way.",
+   "i": "When the son heard that, he rose from his bed, grew well, and set out merrily on his way.",
+   "n": "“sich auf den Weg machen” — to set out — is the tales’ standing phrase for a journey beginning. “das Lager” is a bed, a resting-place. Being allowed to go is itself the cure."
+  },
+  {
+   "p": true,
+   "t": "Es trug sich zu, als er über eine Heide zu reiten kam, daß er von weitem auf der Erde etwas liegen sah wie einen großen Heuhaufen,",
+   "l": "It carried itself to, as he over a heath to ride came, that he from afar on the earth something lying saw like a great haystack,",
+   "i": "It came to pass, as he came riding over a heath, that from a distance he saw something lying on the ground like a great haystack,",
+   "n": "“sich zutragen” — to come to pass — is reflexive and separable: “es trug sich zu”. “die Heide” here is the heath he rides over, open uncultivated country, and has nothing to do with a heathen."
+  },
+  {
+   "t": "und wie er sich näherte, konnte er unterscheiden daß es der Bauch eines Menschen war, der sich dahingestreckt hatte;",
+   "l": "and as he himself neared, could he make out that it the belly of a man was, who himself stretched out had;",
+   "i": "and as he came nearer he could make out that it was the belly of a man who had stretched himself out at full length;",
+   "n": "“unterscheiden” here is to make out, to tell what a thing is. “sich dahinstrecken” — to stretch oneself out along the ground."
+  },
+  {
+   "t": "der Bauch aber sah aus wie ein kleiner Berg.",
+   "l": "the belly however looked like a small mountain.",
+   "i": "but the belly looked like a small mountain.",
+   "n": "“aussehen wie” — to look like — is separable: “sah … aus”. The grotesque is stated flatly, without comment; that flatness is the tale’s humour."
+  },
+  {
+   "t": "Der Dicke, wie er den Reisenden erblickte, richtete sich in die Höhe und sprach „wenn ihr jemand braucht, so nehmt mich in eure Dienste.“",
+   "l": "The fat one, as he the traveller caught sight of, raised himself up into the height and spoke “if you someone need, so take me into your service.”",
+   "i": "The fat one, when he caught sight of the traveller, raised himself up and said, “If you need someone, take me into your service.”",
+   "n": "“der Dicke” — the fat one — is an adjective used as a name; each of the six servants is called by what he is. He addresses the prince as “ihr”, the respectful plural: “ihr braucht”, “eure Dienste”."
+  },
+  {
+   "t": "Der Königssohn antwortete „was soll ich mit einem so ungefügen Mann anfangen?“",
+   "l": "The king’s-son answered “what shall I with such an unwieldy man begin?”",
+   "i": "The king’s son answered, “What am I to do with so unwieldy a man?”",
+   "n": "“mit jemandem etwas anfangen” — to do something with someone, to make use of him; anfangen is separable and its particle ends the clause. “ungefüge” is an old word: huge and ill-made, unwieldy."
+  },
+  {
+   "t": "„O,“ sprach der Dicke, „das will nichts sagen, wenn ich mich recht aus einander thue, bin ich noch dreitausendmal so dick.“",
+   "l": "“Oh,” spoke the fat one, “that will nothing say, when I myself properly apart do, am I still three thousand times so thick.”",
+   "i": "“Oh,” said the fat one, “that is nothing at all: when I spread myself out properly, I am three thousand times as fat again.”",
+   "n": "“das will nichts sagen” — that means nothing, that is nothing to speak of. “sich aus einander thun” is to spread oneself apart; thun and its forms are the 1857 spelling of tun. The 1857 text writes “aus einander” as two words."
+  },
+  {
+   "t": "„Wenn das ist,“ sagte der Königssohn, „so kann ich dich brauchen, komm mit mir.“",
+   "l": "“If that is,” said the king’s-son, “so can I you use, come with me.”",
+   "i": "“If that is so,” said the king’s son, “then I can use you — come with me.”",
+   "n": "“wenn das ist” = if that is the case, with the predicate simply left out. “brauchen” here is to have use for someone."
+  },
+  {
+   "t": "Da gieng der Dicke hinter dem Königssohn her, und über eine Weile fanden sie einen andern, der lag da auf der Erde und hatte das Ohr auf den Rasen gelegt.",
+   "l": "Then went the fat one behind the king’s-son along, and after a while found they another, he lay there on the earth and had the ear on the turf laid.",
+   "i": "So the fat one went along behind the king’s son, and after a while they found another, who was lying on the ground with his ear laid to the turf.",
+   "n": "“hinter jemandem her gehen” — to go along behind someone. “gieng” and “fanden” keep the 1857 ie-spellings. The ear on the turf tells the reader what this one is before he says a word."
+  },
+  {
+   "t": "Fragte der Königssohn „was machst du da?“",
+   "l": "Asked the king’s-son “what do you there?”",
+   "i": "The king’s son asked, “What are you doing there?”",
+   "n": "“Fragte der Königssohn” with the verb first and no da — the tale drops into a quicker, more spoken rhythm for the exchange that follows."
+  },
+  {
+   "t": "„Ich horche,“ antwortete der Mann.",
+   "l": "“I hearken,” answered the man.",
+   "i": "“I am listening,” answered the man.",
+   "n": "“horchen” is to listen intently, to hearken — a stronger word than hören, to hear. German has no continuous tense: “ich horche” covers both I listen and I am listening."
+  },
+  {
+   "t": "„Wonach horchst du so aufmerksam?“",
+   "l": "“At what hearken you so attentively?”",
+   "i": "“What are you listening for so closely?”",
+   "n": "“wonach” is wo- + nach: the question-word for a preposition, where English says ‘for what’ or ‘after what’. German builds a whole family this way — wovon, worin, wonach."
+  },
+  {
+   "t": "„Ich horche nach dem was eben in der Welt sich zuträgt, denn meinen Ohren entgeht nichts, das Gras sogar hör ich wachsen.“",
+   "l": "“I hearken after that which just now in the world itself carries to, for my ears escapes nothing, the grass even hear I growing.”",
+   "i": "“I am listening for whatever is happening in the world just now, for nothing escapes my ears — I can even hear the grass growing.”",
+   "n": "“sich zutragen” again, now in the present: “sich zuträgt”. “meinen Ohren entgeht nichts” puts the ears in the dative — nothing gets away from them. “hör ich” drops the -e of höre, as speech does."
+  },
+  {
+   "t": "Fragte der Königssohn „sage mir, was hörst du am Hofe der alten Königin, welche die schöne Tochter hat?“",
+   "l": "Asked the king’s-son “tell me, what hear you at the court of the old queen, who the beautiful daughter has?”",
+   "i": "The king’s son asked, “Tell me, what do you hear at the court of the old queen who has the beautiful daughter?”",
+   "n": "“am Hofe” keeps the older dative -e. The prince asks the one question that matters to him, and the answer he gets is the tale’s first real warning."
+  },
+  {
+   "t": "Da antwortete er „ich höre das Schwert sausen, das einem Freier den Kopf abschlägt.“",
+   "l": "Then answered he “I hear the sword whistling that a suitor the head strikes off.”",
+   "i": "Then he answered, “I hear the sword whistling that strikes a suitor’s head off.”",
+   "n": "“sausen” is the sound of something rushing through the air. “einem Freier den Kopf abschlägt” is the dative of possession again — the head belonging to a suitor. The listener hears it as it happens, three hundred hours away."
+  },
+  {
+   "t": "Der Königssohn sprach „ich kann dich brauchen, komm mit mir.“",
+   "l": "The king’s-son spoke “I can you use, come with me.”",
+   "i": "The king’s son said, “I can use you — come with me.”",
+   "n": "The formula that ends each meeting; it returns four more times, the words shifted a little each time."
+  },
+  {
+   "t": "Da zogen sie weiter und sahen einmal ein paar Füße da liegen und auch etwas von den Beinen, aber das Ende konnten sie nicht sehen.",
+   "l": "Then moved they further and saw once a pair of feet there lying and also something of the legs, but the end could they not see.",
+   "i": "Then they went on further, and once they saw a pair of feet lying there, and something of the legs too, but they could not see the end of them.",
+   "n": "“ziehen” of people on the road is to travel, to move on. “einmal” here is simply ‘once, at one point’, not ‘one time only’."
+  },
+  {
+   "t": "Als sie eine gute Strecke fortgegangen waren, kamen sie zu dem Leib und endlich auch zu dem Kopf.",
+   "l": "When they a good stretch gone on were, came they to the body and finally also to the head.",
+   "i": "When they had gone on a good stretch, they came to the body, and at last to the head as well.",
+   "n": "“eine gute Strecke” — a good distance. Verbs of motion form the perfect with sein, so “fortgegangen waren” has waren, not hatten."
+  },
+  {
+   "t": "„Ei,“ sprach der Königssohn, „was bist du für ein langer Strick!“",
+   "l": "“Well,” spoke the king’s-son, “what a long rope you are!”",
+   "i": "“Well,” said the king’s son, “what a long rope of a fellow you are!”",
+   "n": "“Ei” is a mild exclamation of surprise. “was bist du für ein langer Strick” — calling a lanky man a rope is meant as rough banter, not an insult."
+  },
+  {
+   "t": "„O,“ antwortete der Lange, „das ist noch gar nichts, wenn ich meine Gliedmaßen erst recht ausstrecke, bin ich noch dreitausendmal so lang, und bin größer als der höchste Berg auf Erden.",
+   "l": "“Oh,” answered the long one, “that is still nothing at all, when I my limbs only properly stretch out, am I still three thousand times so long, and am bigger than the highest mountain on earth.",
+   "i": "“Oh,” answered the long one, “that is nothing at all: when I stretch my limbs out properly, I am three thousand times as long again, and taller than the highest mountain on earth.",
+   "n": "“der Lange” — the long one — is his name from here on, matching “der Dicke”. He boasts in the same words the fat one used, “noch dreitausendmal so…”, which is how the tale marks them as a set."
+  },
+  {
+   "t": "Ich will euch gerne dienen, wenn ihr mich annehmen wollt.“",
+   "l": "I will you gladly serve, if you me take on want.”",
+   "i": "I will gladly serve you, if you will take me on.”",
+   "n": "“annehmen” — to take someone into service — is separable, and its particle stands at the end. The servants offer themselves; the prince never has to ask."
+  },
+  {
+   "t": "„Komm mit,“ sprach der Königssohn, „ich kann dich brauchen.“",
+   "l": "“Come along,” spoke the king’s-son, “I can you use.”",
+   "i": "“Come along,” said the king’s son, “I can use you.”",
+   "n": "“mitkommen” is separable and here in the imperative, so the particle mit comes first and the verb second. The formula returns, with the halves swapped round."
+  },
+  {
+   "t": "Sie zogen weiter und fanden einen am Weg sitzen, der hatte die Augen zugebunden.",
+   "l": "They moved further and found one by the way sitting, he had the eyes bound shut.",
+   "i": "They went on further and found one sitting by the roadside who had his eyes bound shut.",
+   "n": "“zubinden” — to bind shut — is separable; the past participle is “zugebunden”. Again the tale shows the gift before it explains it."
+  },
+  {
+   "t": "Sprach der Königssohn zu ihm „hast du blöde Augen, daß du nicht in das Licht sehen kannst?“",
+   "l": "Spoke the king’s-son to him “have you weak eyes, that you not into the light look can?”",
+   "i": "The king’s son said to him, “Have you weak eyes, that you cannot look into the light?”",
+   "n": "“blöde” of eyes means weak, dim — the modern sense ‘stupid’ came later and is not meant here. “daß” after a statement can mean ‘so that’, as it does here."
+  },
+  {
+   "t": "„Nein,“ antwortete der Mann, „ich darf die Binde nicht abnehmen, denn was ich mit meinen Augen ansehe, das springt aus einander, so gewaltig ist mein Blick.",
+   "l": "“No,” answered the man, “I may the bandage not take off, for what I with my eyes look at, that springs apart, so mighty is my gaze.",
+   "i": "“No,” answered the man, “I dare not take the bandage off, for whatever I look at with my eyes bursts apart — so mighty is my gaze.",
+   "n": "“die Binde” is the noun, the band or blindfold, not the verb binde. “dürfen” here has its old sense, to be permitted to, to dare. “ansehen” and “auseinander springen” are both separable, and both particles fall to the end of their clauses."
+  },
+  {
+   "t": "Kann euch das nützen, so will ich euch gern dienen.“",
+   "l": "Can you that be of use, so will I you gladly serve.”",
+   "i": "If that can be of use to you, I will gladly serve you.”",
+   "n": "Another conditional with no wenn, the verb standing first: “Kann euch das nützen, so…”. “nützen” takes the dative of the person it serves."
+  },
+  {
+   "t": "„Komm mit,“ antwortete der Königssohn, „ich kann dich brauchen.“",
+   "l": "“Come along,” answered the king’s-son, “I can you use.”",
+   "i": "“Come along,” answered the king’s son, “I can use you.”",
+   "n": "The formula for the fourth time, with antwortete for sprach — the small variations keep the repetition from being mechanical."
+  },
+  {
+   "t": "Sie zogen weiter und fanden einen Mann, der lag mitten im heißen Sonnenschein und zitterte und fror am ganzen Leibe, so daß ihm kein Glied still stand.",
+   "l": "They moved further and found a man, he lay in the middle of the hot sunshine and trembled and froze on his whole body, so that on him no limb still stood.",
+   "i": "They went on further and found a man who was lying in the middle of the hot sunshine, trembling and freezing all over his body, so that not a limb of him stood still.",
+   "n": "“am ganzen Leibe” keeps the older dative -e. “ihm kein Glied still stand” is the dative of possession once more — no limb of his stood still."
+  },
+  {
+   "t": "„Wie kannst du frieren?“ sprach der Königssohn, „und die Sonne scheint so warm.“",
+   "l": "“How can you be cold?” spoke the king’s-son, “and the sun shines so warm.”",
+   "i": "“How can you be freezing?” said the king’s son. “The sun is shining so warm.”",
+   "n": "“frieren” is to be cold, to freeze — of the person, not of the water. The speech tag sits inside the speech, between the two halves, as the 1857 text likes to place it."
+  },
+  {
+   "t": "„Ach,“ antwortete der Mann, „meine Natur ist ganz anderer Art, je heißer es ist, desto mehr frier ich, und der Frost dringt mir durch alle Knochen:",
+   "l": "“Ah,” answered the man, “my nature is of quite another kind, the hotter it is, the more freeze I, and the frost presses to me through all bones:",
+   "i": "“Ah,” answered the man, “my nature is of quite another kind: the hotter it is, the more I freeze, and the frost drives through every bone of me;",
+   "n": "“je … desto …” — the more … the more; the je-clause sends its verb to the end and desto keeps the verb second. “dringt mir durch alle Knochen” has the dative of the person again."
+  },
+  {
+   "t": "und je kälter es ist, desto heißer wird mir: mitten im Eis kann ichs vor Hitze, und mitten im Feuer vor Kälte nicht aushalten.“",
+   "l": "and the colder it is, the hotter becomes to me: in the middle of ice can I it for heat, and in the middle of fire for cold not bear.”",
+   "i": "and the colder it is, the hotter I grow: in the middle of ice I cannot bear the heat, and in the middle of fire I cannot bear the cold.”",
+   "n": "“mir wird heiß” — literally it becomes hot to me — is the German way of saying I grow hot. “ichs” = ich es. “vor Hitze”, “vor Kälte”: vor with a feeling or a state gives the cause, for heat, for cold."
+  },
+  {
+   "t": "„Du bist ein wunderlicher Kerl,“ sprach der Königssohn, „aber wenn du mir dienen willst, so komm mit.“",
+   "l": "“You are a strange fellow,” spoke the king’s-son, “but if you me serve want, so come along.”",
+   "i": "“You are a strange fellow,” said the king’s son, “but if you will serve me, come along.”",
+   "n": "“wunderlich” is odd, curious, out of the common — not wunderbar, wonderful. The formula shifts again: this time the prince makes it a condition."
+  },
+  {
+   "t": "Nun zogen sie weiter und sahen einen Mann stehen, der machte einen langen Hals, schaute sich um und schaute über alle Berge hinaus.",
+   "l": "Now moved they further and saw a man standing, he made a long neck, looked himself around and looked over all mountains out.",
+   "i": "Now they went on further and saw a man standing who was craning his neck, looking about him and looking out over all the mountains.",
+   "n": "“einen langen Hals machen” — to make a long neck — is to crane, to stretch to see. “sich umschauen” is reflexive, “hinausschauen über” separable; both particles fall to the end."
+  },
+  {
+   "t": "Sprach der Königssohn „wonach siehst du so eifrig?“",
+   "l": "Spoke the king’s-son “at what look you so eagerly?”",
+   "i": "The king’s son said, “What are you looking at so eagerly?”",
+   "n": "“wonach” again, the wo-form standing for ‘at what’. “eifrig” is eager, intent."
+  },
+  {
+   "t": "Der Mann antwortete „ich habe so helle Augen, daß ich über alle Wälder und Felder, Thäler und Berge hinaus und durch die ganze Welt sehen kann.“",
+   "l": "The man answered “I have such bright eyes that I over all woods and fields, valleys and mountains out and through the whole world see can.”",
+   "i": "The man answered, “I have such keen eyes that I can see out over all the woods and fields, valleys and mountains, and through the whole world.”",
+   "n": "“helle Augen” — bright eyes, meaning far-seeing ones. “Thäler” is the 1857 spelling of Täler. The sixth servant completes the set: fat, listening, long, blinding, freezing, far-seeing."
+  },
+  {
+   "t": "Der Königssohn sprach „willst du, so komm mit mir, denn so einer fehlte mir noch.“",
+   "l": "The king’s-son spoke “want you, so come with me, for such a one lacked to me still.”",
+   "i": "The king’s son said, “If you are willing, come with me — such a one was all I still lacked.”",
+   "n": "“willst du, so komm” — a bare conditional with the verb first and nothing else: if you will, then come. “so einer fehlte mir noch” — one like that was the one I was still missing."
+  },
+  {
+   "p": true,
+   "t": "Nun zog der Königssohn mit seinen sechs Dienern in die Stadt ein, wo die alte Königin lebte.",
+   "l": "Now moved the king’s-son with his six servants into the town in, where the old queen lived.",
+   "i": "Now the king’s son entered the town where the old queen lived, with his six servants.",
+   "n": "“einziehen” — to make one’s entry into a place — is separable, and the particle ein waits until the end of the clause."
+  },
+  {
+   "t": "Er sagte nicht wer er wäre, aber er sprach „wollt ihr mir eure schöne Tochter geben, so will ich vollbringen, was ihr mir auferlegt.“",
+   "l": "He said not who he were, but he spoke “want you me your beautiful daughter give, so will I accomplish what you to me lay upon.”",
+   "i": "He did not say who he was, but said, “If you will give me your beautiful daughter, I will accomplish whatever you lay upon me.”",
+   "n": "“wer er wäre” is the subjunctive of reported speech — the tale reports what he did not say without vouching for it. He addresses the queen as “ihr”, the respectful plural, all through."
+  },
+  {
+   "t": "Die Zauberin freute sich daß ein so schöner Jüngling wieder in ihre Netze fiel",
+   "l": "The sorceress rejoiced herself that such a handsome youth again into her nets fell",
+   "i": "The sorceress was glad that so handsome a youth had fallen into her nets again",
+   "n": "“sich freuen daß” — to be glad that. “in ihre Netze fallen” — to fall into her nets — is the tale’s standing image for a trap set and sprung; the plural Netze is what a fowler or a fisher spreads."
+  },
+  {
+   "t": "und sprach „dreimal will ich dir einen Bund aufgeben, lösest du ihn jedesmal, so sollst du der Herr und Gemahl meiner Tochter werden.“",
+   "l": "and spoke “three times will I to you a Bund set, loose you it each time, so shall you the lord and husband of my daughter become.”",
+   "i": "and said, “Three times I will set you a task; if you undo it each time, you shall become my daughter’s lord and husband.”",
+   "n": "“aufgeben” — to set a task — is separable. “lösest du ihn jedesmal” is again a conditional made by putting the verb first. She drops to “du” as soon as she has him."
+  },
+  {
+   "t": "„Was soll das erste sein?“ fragte er.",
+   "l": "“What shall the first be?” asked he.",
+   "i": "“What is the first to be?” he asked.",
+   "n": "“das erste” — the first of the three, with Bund understood and left out."
+  },
+  {
+   "t": "„Daß du mir einen Ring herbei bringst, den ich ins rothe Meer habe fallen lassen.“",
+   "l": "“That you to me a ring here bring, which I into the red sea have let fall.”",
+   "i": "“That you fetch me a ring which I let fall into the Red Sea.”",
+   "n": "“herbei bringen” — to bring here — is written as two words in 1857. “das rothe Meer” is the Red Sea, spelled with th; the task is impossible on its face, which is the point."
+  },
+  {
+   "t": "Da gieng der Königssohn heim zu seinen Dienern und sprach „der erste Bund ist nicht leicht, ein Ring soll aus dem rothen Meer geholt werden, nun schafft Rath.“",
+   "l": "Then went the king’s-son home to his servants and spoke “the first Bund is not easy, a ring shall out of the red sea fetched be, now make counsel.”",
+   "i": "Then the king’s son went home to his servants and said, “The first task is not an easy one: a ring is to be fetched out of the Red Sea. Now find me a way.”",
+   "n": "“Rath schaffen” — to find a way, to come up with the remedy; Rath is the 1857 spelling of Rat, counsel. “geholt werden” is the passive: it is to be fetched, no matter by whom."
+  },
+  {
+   "t": "Da sprach der mit den hellen Augen „ich will sehen wo er liegt,“ schaute in das Meer hinab und sagte „dort hängt er an einem spitzen Stein.“",
+   "l": "Then spoke the one with the bright eyes “I will see where it lies,” looked into the sea down and said “there hangs it on a pointed stone.”",
+   "i": "Then the one with the keen eyes said, “I will see where it lies,” and looked down into the sea and said, “There it hangs, on a pointed stone.”",
+   "n": "“der mit den hellen Augen” — the one with the bright eyes: the servants are named by their gifts, never given proper names. “hinabschauen” is separable."
+  },
+  {
+   "t": "Der Lange trug sie hin und sprach „ich wollte ihn wohl heraus holen, wenn ich ihn nur sehen könnte.“",
+   "l": "The long one carried them there and spoke “I would it well out fetch, if I it only see could.”",
+   "i": "The long one carried them there and said, “I would gladly fetch it out, if only I could see it.”",
+   "n": "“ich wollte ihn wohl heraus holen” — the subjunctive wollte with wohl makes it an offer with a condition attached. “heraus holen” stands as two words in 1857."
+  },
+  {
+   "t": "„Wenns weiter nichts ist,“ rief der Dicke, legte sich nieder und hielt seinen Mund ans Wasser:",
+   "l": "“If it nothing further is,” cried the fat one, laid himself down and held his mouth to the water:",
+   "i": "“If that is all,” cried the fat one, and lay down and held his mouth to the water:",
+   "n": "“wenns” = wenn es. “weiter nichts” — nothing beyond that, that is all. The colon does the work of a stage direction: what follows is what happened next."
+  },
+  {
+   "t": "da fielen die Wellen hinein wie in einen Abgrund, und er trank das ganze Meer aus, daß es trocken ward wie eine Wiese.",
+   "l": "there fell the waves into it as into an abyss, and he drank the whole sea out, so that it dry became like a meadow.",
+   "i": "and the waves fell into it as into an abyss, and he drank the whole sea dry, so that it became as dry as a meadow.",
+   "n": "“austrinken” — to drink up, drink dry — is separable: “trank … aus”. “ward” is the older past of werden."
+  },
+  {
+   "t": "Der Lange bückte sich ein wenig und holte den Ring mit der Hand heraus.",
+   "l": "The long one bent himself a little and fetched the ring with the hand out.",
+   "i": "The long one bent down a little and took the ring out with his hand.",
+   "n": "“sich bücken” is reflexive, to bend down. “mit der Hand” — with the hand, where English says with his hand; German uses the plain article where the owner is obvious."
+  },
+  {
+   "t": "Da war der Königssohn froh als er den Ring hatte, und brachte ihn der Alten.",
+   "l": "Then was the king’s-son glad when he the ring had, and brought it to the old one.",
+   "i": "Then the king’s son was glad to have the ring, and brought it to the old woman.",
+   "n": "“der Alten” is the dative of “die Alte”, to the old one. German keeps the definite article with such nicknames throughout."
+  },
+  {
+   "t": "Sie erstaunte und sprach „ja, es ist der rechte Ring: den ersten Bund hast du glücklich gelöst, aber nun kommt der zweite.",
+   "l": "She was astonished and spoke “yes, it is the right ring: the first Bund have you successfully loosed, but now comes the second.",
+   "i": "She was astonished and said, “Yes, it is the right ring. You have undone the first task successfully, but now comes the second.",
+   "n": "“glücklich” here means successfully, with good fortune — an older use, not ‘happily’. “der rechte Ring” — the right one, the very one."
+  },
+  {
+   "t": "Siehst du dort auf der Wiese vor meinem Schlosse, da weiden dreihundert fette Ochsen, die mußt du mit Haut und Haar, Knochen und Hörnern verzehren:",
+   "l": "See you there on the meadow before my castle, there graze three hundred fat oxen, those must you with hide and hair, bones and horns devour:",
+   "i": "Do you see, there on the meadow before my castle, three hundred fat oxen grazing? Those you must devour, hide and hair, bones and horns;",
+   "n": "“weiden” is the verb, to graze — not die Weide, the willow. “mit Haut und Haar” is a set phrase, hide and hair, meaning completely, leaving nothing. “Schlosse” keeps the older dative -e."
+  },
+  {
+   "t": "und unten im Keller liegen dreihundert Fässer Wein, die mußt du dazu austrinken;",
+   "l": "and below in the cellar lie three hundred casks of wine, those must you to it drink out;",
+   "i": "and down in the cellar lie three hundred casks of wine, which you must drink up along with them;",
+   "n": "“dazu” — in addition, along with it. “austrinken” separable once more; the particle waits at the end."
+  },
+  {
+   "t": "und bleibt von den Ochsen ein Haar und von dem Wein ein Tröpfchen übrig, so ist mir dein Leben verfallen.“",
+   "l": "and stays of the oxen one hair and of the wine one little-drop over, so is to me your life forfeit.”",
+   "i": "and if so much as one hair of the oxen or one drop of the wine is left over, your life is forfeit to me.”",
+   "n": "Another verb-first conditional: “bleibt … übrig, so …”. “mir dein Leben verfallen” — your life falls forfeit to me, with the dative naming who gets it. She means the beheading she has already used on the others."
+  },
+  {
+   "t": "Sprach der Königssohn „darf ich mir keine Gäste dazu laden? ohne Gesellschaft schmeckt keine Mahlzeit.“",
+   "l": "Spoke the king’s-son “may I to myself no guests to it invite? without company tastes no meal.”",
+   "i": "The king’s son said, “May I not invite guests to it? No meal tastes good without company.”",
+   "n": "“laden” here is the verb, to invite (einladen), not der Laden, a shop. The question is polite manners and cunning at once — he needs the fat one at the table."
+  },
+  {
+   "t": "Die Alte lachte boshaft und antwortete „einen darfst du dir dazu laden, damit du Gesellschaft hast, aber weiter keinen.“",
+   "l": "The old one laughed maliciously and answered “one may you to yourself to it invite, so that you company have, but further none.”",
+   "i": "The old woman laughed maliciously and answered, “One you may invite, so that you have company, but no more than that.”",
+   "n": "“boshaft” — malicious, spiteful. “einen darfst du dir dazu laden” puts the one guest first for emphasis; “weiter keinen” — no further one."
+  },
+  {
+   "p": true,
+   "t": "Da gieng der Königssohn zu seinen Dienern und sprach zu dem Dicken „du sollst heute mein Gast sein und dich einmal satt essen.“",
+   "l": "Then went the king’s-son to his servants and spoke to the fat one “you shall today my guest be and yourself for once full eat.”",
+   "i": "Then the king’s son went to his servants and said to the fat one, “Today you shall be my guest and eat your fill for once.”",
+   "n": "“sich satt essen” — to eat oneself full, to eat one’s fill. “einmal” here is ‘for once’."
+  },
+  {
+   "t": "Da that sich der Dicke von einander und aß die dreihundert Ochsen, daß kein Haar übrig blieb, und fragte ob weiter nichts als das Frühstück da wäre:",
+   "l": "Then did the fat one himself apart and ate the three hundred oxen, so that no hair over stayed, and asked whether further nothing but the breakfast there were:",
+   "i": "Then the fat one spread himself apart and ate the three hundred oxen, so that not a hair was left over, and asked whether there was nothing more than the breakfast:",
+   "n": "“that” is the 1857 spelling of tat. “übrig bleiben” is separable: “übrig blieb”. “wäre” is the subjunctive of reported speech — his question given without quotation marks."
+  },
+  {
+   "t": "den Wein aber trank er gleich aus den Fässern, ohne daß er ein Glas nöthig hatte,",
+   "l": "the wine however drank he straight out of the casks, without that he a glass necessary had,",
+   "i": "but the wine he drank straight out of the casks, without needing a glass,",
+   "n": "“ohne daß …” — without that, where English uses ‘without’ and a participle. “nöthig” is the 1857 spelling of nötig."
+  },
+  {
+   "t": "und trank den letzten Tropfen vom Nagel herunter.",
+   "l": "and drank the last drop from the tap down.",
+   "i": "and drank the last drop down from the tap.",
+   "n": "“vom Nagel herunter trinken” is to drink a thing down to the very last drop. Which nail is meant is not certain: der Nagel can be the spigot of a cask, and it is also the fingernail of the old Nagelprobe, where the last drop is tipped onto the thumbnail to show the vessel is empty. Either way the image is of a man who leaves nothing at all."
+  },
+  {
+   "t": "Als die Mahlzeit zu Ende war, gieng der Königssohn zur Alten und sagte ihr der zweite Bund wäre gelöst.",
+   "l": "When the meal to an end was, went the king’s-son to the old one and told her the second Bund were loosed.",
+   "i": "When the meal was at an end, the king’s son went to the old woman and told her the second task was undone.",
+   "n": "“sagte ihr … wäre gelöst” — reported speech again in the subjunctive, and with no daß: German can leave the conjunction out and simply keep the verb second."
+  },
+  {
+   "t": "Sie verwunderte sich und sprach „so weit hats noch keiner gebracht, aber es ist noch ein Bund übrig,“ und dachte „du sollst mir nicht entgehen und wirst deinen Kopf nicht oben behalten.“",
+   "l": "She wondered herself and spoke “so far has still no one it brought, but there is still one Bund left,” and thought “you shall to me not escape and will your head not on top keep.”",
+   "i": "She was amazed and said, “No one has ever brought it so far, but there is still one task left,” and thought, “You shall not escape me, and you will not keep your head on your shoulders.”",
+   "n": "“hats” = hat es. “es so weit bringen” — to get as far as that. Her thought is given in direct speech, exactly like speech aloud; “den Kopf oben behalten” is a grim plain way of saying to keep one’s head on."
+  },
+  {
+   "t": "„Heut Abend,“ sprach sie, „bring ich meine Tochter zu dir in deine Kammer und du sollst sie mit deinem Arm umschlingen:",
+   "l": "“This evening,” spoke she, “bring I my daughter to you into your chamber and you shall her with your arm clasp about:",
+   "i": "“This evening,” she said, “I will bring my daughter to you in your chamber, and you shall hold her clasped in your arm;",
+   "n": "The present tense “bring ich” carries the future, as German usually does. “umschlingen” is to wind one’s arms about someone, to hold clasped."
+  },
+  {
+   "t": "und wenn ihr da beisammen sitzt, so hüte dich daß du nicht einschläfst:",
+   "l": "and when you there together sit, so guard yourself that you not fall asleep:",
+   "i": "and when you are sitting there together, take care that you do not fall asleep;",
+   "n": "“sich hüten daß …” — to be on one’s guard that something does not happen. “einschlafen” is separable, and its particle stands at the end of the daß-clause."
+  },
+  {
+   "t": "ich komme Schlag zwölf Uhr, und ist sie dann nicht mehr in deinen Armen, so hast du verloren.“",
+   "l": "I come stroke twelve o’clock, and is she then no longer in your arms, so have you lost.”",
+   "i": "I will come on the stroke of twelve, and if she is no longer in your arms then, you have lost.”",
+   "n": "“Schlag zwölf Uhr” — on the stroke of twelve, an adverbial with no preposition at all. Once more a verb-first conditional answered by “so”."
+  },
+  {
+   "t": "Der Königssohn dachte, „der Bund ist leicht, ich will wohl meine Augen offen behalten,“",
+   "l": "The king’s-son thought, “the Bund is easy, I will well my eyes open keep,”",
+   "i": "The king’s son thought, “That task is easy; I can surely keep my eyes open,”",
+   "n": "“wohl” here is ‘surely, I dare say’ — the confidence the tale is about to punish."
+  },
+  {
+   "t": "doch rief er seine Diener, erzählte ihnen, was die Alte gesagt hatte",
+   "l": "yet called he his servants, told them what the old one said had",
+   "i": "yet he called his servants and told them what the old woman had said",
+   "n": "“doch” at the head of a clause means ‘yet, all the same’ and keeps the verb in second place, so the subject follows it."
+  },
+  {
+   "t": "und sprach „wer weiß, was für eine List dahinter steckt, Vorsicht ist gut, haltet Wache und sorgt daß die Jungfrau nicht wieder aus meiner Kammer kommt.“",
+   "l": "and spoke “who knows what kind of a trick behind it sticks, caution is good, keep watch and see to it that the maiden not again out of my chamber comes.”",
+   "i": "and said, “Who knows what trick lies behind it? Caution is a good thing: keep watch, and see that the maiden does not get out of my chamber again.”",
+   "n": "“dahinter stecken” — to lie behind a thing, to be at the bottom of it. “Wache halten” is to keep watch; “sorgt daß …” is the plural imperative, see to it that."
+  },
+  {
+   "t": "Als die Nacht einbrach, kam die Alte mit ihrer Tochter und führte sie in die Arme des Königssohns,",
+   "l": "When the night broke in, came the old one with her daughter and led her into the arms of the king’s-son,",
+   "i": "When night fell, the old woman came with her daughter and led her into the king’s son’s arms,",
+   "n": "“einbrechen” of night is to fall, to come on; it is separable, and here the whole verb stands at the end of the als-clause."
+  },
+  {
+   "t": "und dann schlang sich der Lange um sie beide in einen Kreis, und der Dicke stellte sich vor die Thüre, also daß keine lebendige Seele herein konnte.",
+   "l": "and then wound himself the long one around them both into a circle, and the fat one placed himself before the door, so that no living soul in could.",
+   "i": "and then the long one wound himself around the two of them in a ring, and the fat one placed himself before the door, so that no living soul could get in.",
+   "n": "“sich schlingen um” — to coil oneself around. “also daß” is the older form of so daß. “herein konnte” leaves the verb of motion out: could not get in."
+  },
+  {
+   "t": "Da saßen sie beide, und die Jungfrau sprach kein Wort, aber der Mond schien durchs Fenster auf ihr Angesicht, daß er ihre wunderbare Schönheit sehen konnte.",
+   "l": "There sat they both, and the maiden spoke not a word, but the moon shone through the window on her countenance, so that he her wonderful beauty see could.",
+   "i": "There the two of them sat, and the maiden did not speak a word, but the moon shone through the window on her face, so that he could see her wonderful beauty.",
+   "n": "“daß” again for ‘so that’. “Angesicht” is the elevated word for face, countenance. The maiden says nothing here, and nothing for a long while yet; her first words in the tale come only when strangers ask her who her husband is."
+  },
+  {
+   "t": "Er that nichts als sie anschauen, war voll Freude und Liebe, und es kam keine Müdigkeit in seine Augen.",
+   "l": "He did nothing but her look at, was full of joy and love, and it came no weariness into his eyes.",
+   "i": "He did nothing but gaze at her, and was full of joy and love, and no weariness came into his eyes.",
+   "n": "“nichts als” — nothing but. “die Liebe” is the noun, love; the adjective lieb, dear, gives the identical-looking liebe. The sentence is the tale’s only tenderness, and it is what the spell breaks."
+  },
+  {
+   "t": "Das dauerte bis elf Uhr, da warf die Alte einen Zauber über alle, daß sie einschliefen, und in dem Augenblick war auch die Jungfrau entrückt.",
+   "l": "That lasted until eleven o’clock, then threw the old one a spell over all, so that they fell asleep, and in that moment was also the maiden spirited away.",
+   "i": "That lasted until eleven o’clock, and then the old woman threw a spell over them all, so that they fell asleep, and in that same moment the maiden was carried off.",
+   "n": "“entrücken” is to carry off out of the world, to spirit away — the word used of things taken beyond reach rather than merely stolen."
+  },
+  {
+   "p": true,
+   "t": "Nun schliefen sie hart bis ein Viertel vor zwölf, da war der Zauber kraftlos, und sie erwachten alle wieder.",
+   "l": "Now slept they soundly until a quarter before twelve, then was the spell powerless, and they awoke all again.",
+   "i": "Now they slept soundly until a quarter to twelve, and then the spell lost its force and they all woke again.",
+   "n": "“hart schlafen” — to sleep hard, that is soundly, deeply. “ein Viertel vor zwölf” — a quarter before twelve; German counts to the hour just as English does here."
+  },
+  {
+   "t": "„O Jammer und Unglück,“ rief der Königssohn, „nun bin ich verloren!“",
+   "l": "“O misery and misfortune,” cried the king’s-son, “now am I lost!”",
+   "i": "“Oh, misery and misfortune!” cried the king’s son. “Now I am lost!”",
+   "n": "“Jammer” is lamentation and the misery that calls it out, a heavier word than Unglück."
+  },
+  {
+   "t": "Die treuen Diener fiengen auch an zu klagen, aber der Horcher sprach „seid still, ich will horchen,“",
+   "l": "The faithful servants began also to lament, but the hearkener spoke “be still, I will hearken,”",
+   "i": "The faithful servants too began to lament, but the listener said, “Be quiet, I will listen,”",
+   "n": "“fiengen … an” is anfangen, began — 1857 spelling of fingen; the same spelling elsewhere belongs to fangen, to catch, and only the particle an tells them apart. “der Horcher” — the hearkener — is named from his gift, like the rest."
+  },
+  {
+   "t": "da horchte er einen Augenblick",
+   "l": "there hearkened he a moment",
+   "i": "and he listened for a moment",
+   "n": "“einen Augenblick” is an accusative of duration, standing without a preposition: for a moment."
+  },
+  {
+   "t": "und dann sprach er „sie sitzt in einem Felsen dreihundert Stunden von hier, und bejammert ihr Schicksal.",
+   "l": "and then spoke he “she sits in a rock three hundred hours from here, and bewails her fate.",
+   "i": "and then he said, “She is sitting inside a rock three hundred hours away from here, bewailing her fate.",
+   "n": "Distance is reckoned in hours of travel: three hundred hours is the far side of the world. “bejammern” — to bewail, lament over something."
+  },
+  {
+   "t": "Du allein kannst helfen, Langer, wenn du dich aufrichtest, so bist du mit ein paar Schritten dort.“",
+   "l": "You alone can help, long one, if you yourself raise up, so are you with a few steps there.”",
+   "i": "You alone can help, long one: if you raise yourself up, you are there in a few strides.”",
+   "n": "“Langer” is the adjective used as a term of address, as one might call out ‘tall one’. “sich aufrichten” — to raise oneself up — is separable and reflexive."
+  },
+  {
+   "t": "„Ja,“ antwortete der Lange, „aber der mit den scharfen Augen muß mitgehen, damit wir den Felsen wegschaffen.“",
+   "l": "“Yes,” answered the long one, “but the one with the sharp eyes must go along, so that we the rock clear away.”",
+   "i": "“Yes,” answered the long one, “but the one with the keen eyes must come along, so that we can clear the rock away.”",
+   "n": "“damit” introduces a purpose clause and sends its verb to the end. The blindfolded man is now “der mit den scharfen Augen” — the tale names each servant afresh each time, always by the gift."
+  },
+  {
+   "t": "Da huckte der Lange den mit verbundenen Augen auf, und im Augenblick, wie man eine Hand umwendet waren sie vor dem verwünschten Felsen.",
+   "l": "Then hoisted the long one the one with bandaged eyes up onto his back, and in the moment, as one a hand turns over, were they before the enchanted rock.",
+   "i": "Then the long one hoisted the one with the bandaged eyes onto his back, and in a moment, in the turn of a hand, they stood before the enchanted rock.",
+   "n": "“aufhucken” is a regional word: to take someone up on one’s back, to give a pick-a-back. “wie man eine Hand umwendet” — as quick as turning a hand over."
+  },
+  {
+   "t": "Alsbald nahm der Lange dem andern die Binde von den Augen, der sich nur umschaute, so zersprang der Felsen in tausend Stücke.",
+   "l": "Straightway took the long one from the other the bandage from the eyes, he only looked around himself, so burst the rock into a thousand pieces.",
+   "i": "At once the long one took the bandage from the other’s eyes; he had only to look about him, and the rock burst into a thousand pieces.",
+   "n": "“der sich nur umschaute, so zersprang…” — the German lets ‘he had only to look’ stand as a plain clause, with “so” carrying the consequence. “die Binde” is the noun, the bandage."
+  },
+  {
+   "t": "Da nahm der Lange die Jungfrau auf den Arm, trug sie in einem Nu zurück, holte eben so schnell auch noch seinen Kameraden,",
+   "l": "Then took the long one the maiden onto the arm, carried her in an instant back, fetched just as quickly also his comrade,",
+   "i": "Then the long one took the maiden on his arm and carried her back in an instant, and fetched his comrade just as quickly,",
+   "n": "“in einem Nu” — in a flash; das Nu is a noun meaning the least moment, and is not the Low German nu, now."
+  },
+  {
+   "t": "und eh es zwölfe schlug, saßen sie alle wieder wie vorher und waren munter und guter Dinge.",
+   "l": "and before it twelve struck, sat they all again as before and were lively and of good cheer.",
+   "i": "and before the clock struck twelve they were all sitting as before, wide awake and in good spirits.",
+   "n": "“zwölfe” is an older inflected twelve, used of the striking clock. “guter Dinge sein” — to be in good spirits, a genitive phrase kept whole."
+  },
+  {
+   "t": "Als es zwölf schlug, kam die alte Zauberin herbei geschlichen, machte ein höhnisches Gesicht, als wollte sie sagen „nun ist er mein,“",
+   "l": "When it twelve struck, came the old sorceress creeping up, made a scornful face, as if she would say “now is he mine,”",
+   "i": "When twelve struck, the old sorceress came creeping up and made a scornful face, as though she would say, “Now he is mine,”",
+   "n": "“herbei geschlichen kommen” — to come creeping up; the 1857 text writes “herbei geschlichen” as two words. “als wollte sie sagen” is the subjunctive of an unreal comparison, as if."
+  },
+  {
+   "t": "und glaubte ihre Tochter säße dreihundert Stunden weit im Felsen.",
+   "l": "and believed her daughter sat three hundred hours far in the rock.",
+   "i": "and believed her daughter was sitting three hundred hours away inside the rock.",
+   "n": "“säße” is the subjunctive of reported thought — what she believed, not what was so; German marks the whole clause this way without needing a ‘that’."
+  },
+  {
+   "t": "Als sie aber ihre Tochter in den Armen des Königssohns erblickte, erschrack sie und sprach „da ist einer, der kann mehr als ich.“",
+   "l": "When she however her daughter in the arms of the king’s-son caught sight of, took she fright and spoke “there is one who can more than I.”",
+   "i": "But when she caught sight of her daughter in the king’s son’s arms, she took fright and said, “Here is one who can do more than I.”",
+   "n": "“erschrack” is the 1857 spelling of erschrak. “der kann mehr als ich” — a plain sentence with the sense of a defeat admitted: he is the stronger magician."
+  },
+  {
+   "t": "Aber sie durfte nichts einwenden und mußte ihm die Jungfrau zusagen.",
+   "l": "But she might nothing object and had to him the maiden promise.",
+   "i": "But she could raise no objection and had to promise him the maiden.",
+   "n": "“einwenden” — to object — is separable. “zusagen” is to promise, to grant; a bargain is a bargain even for a sorceress."
+  },
+  {
+   "t": "Da sprach sie ihr ins Ohr „Schande für dich, daß du gemeinem Volk gehorchen sollst und dir einen Gemahl nicht nach deinem Gefallen wählen darfst.“",
+   "l": "Then spoke she to her into the ear “shame for you, that you common folk obey shall and yourself a husband not after your liking choose may.”",
+   "i": "Then she said into her ear, “Shame on you, that you must obey common folk and may not choose a husband to your own liking.”",
+   "n": "“ins Ohr sprechen” — to speak into someone’s ear. “gemeines Volk” is common folk, people of low birth — she still takes him for a nobody. “nach deinem Gefallen” is the noun das Gefallen, one’s liking; “wählen” is the verb to choose."
+  },
+  {
+   "p": true,
+   "t": "Da ward das stolze Herz der Jungfrau mit Zorn erfüllt und sann auf Rache.",
+   "l": "Then was the proud heart of the maiden with anger filled and pondered on revenge.",
+   "i": "Then the maiden’s proud heart was filled with anger, and she brooded on revenge.",
+   "n": "The subject of “sann” is gapped: the heart is filled, and then the sentence goes on without naming who pondered. “auf Rache sinnen” — to brood on revenge."
+  },
+  {
+   "t": "Sie ließ am andern Morgen dreihundert Malter Holz zusammenfahren",
+   "l": "She let on the next morning three hundred Malter of wood together carted",
+   "i": "Next morning she had three hundred Malter of wood carted together",
+   "n": "“am andern Morgen” — on the next morning; ander in the older sense of ‘next, second’. “lassen” with an infinitive again for having a thing done. Das Malter is an old measure of quantity, used of grain and, as here, of firewood."
+  },
+  {
+   "t": "und sprach zu dem Königssohn, die drei Bünde wären gelöst, sie würde nicht eher seine Gemahlin werden, bis einer bereit wäre, sich mitten in das Holz zu setzen und das Feuer auszuhalten.",
+   "l": "and spoke to the king’s-son, the three Bünde were loosed, she would not sooner his wife become, until one ready were, himself in the middle of the wood to set and the fire to endure.",
+   "i": "and told the king’s son that the three tasks were undone, but that she would not become his wife until someone was ready to sit down in the middle of the wood and endure the fire.",
+   "n": "The whole of her speech is in the subjunctive of reported speech — wären, würde, wäre — and needs no daß and no quotation marks. “nicht eher … bis …” — not before, until."
+  },
+  {
+   "t": "Sie dachte keiner seiner Diener würde sich für ihn verbrennen, und aus Liebe zu ihr würde er selber sich hinein setzen, und dann wäre sie frei.",
+   "l": "She thought none of his servants would himself for him burn, and out of love for her would he himself in set, and then were she free.",
+   "i": "She thought that none of his servants would burn himself for him, and that out of love for her he would sit down in it himself, and then she would be free.",
+   "n": "Her calculation, again in reported subjunctive. “sich hinein setzen” — to set oneself down in it; the 1857 text writes “hinein setzen” as two words."
+  },
+  {
+   "t": "Die Diener aber sprachen „wir haben alle etwas gethan, nur der Frostige noch nicht, der muß auch daran,“",
+   "l": "The servants however spoke “we have all something done, only the frosty one not yet, he must also at it,”",
+   "i": "But the servants said, “We have all done something — only the frosty one has not yet; he must take his turn too,”",
+   "n": "“gethan” is the 1857 spelling of getan. “der muß auch daran” leaves the verb out: he must to it too, that is, he must have his turn — the phrase implies going at a job, not going to his death."
+  },
+  {
+   "t": "setzten ihn mitten auf den Holzstoß und steckten ihn an.",
+   "l": "set him in the middle upon the woodpile and set it alight.",
+   "i": "and set him in the middle of the woodpile and set it alight.",
+   "n": "“anstecken” — to set alight — is separable: “steckten … an”. The servants do this to their comrade without a word of hesitation, which is the tale’s joke, since he is the one man it cannot hurt."
+  },
+  {
+   "t": "Da begann das Feuer zu brennen und brannte drei Tage, bis alles Holz verzehrt war,",
+   "l": "There began the fire to burn and burned three days, until all wood consumed was,",
+   "i": "Then the fire began to burn, and burned three days until all the wood was consumed,",
+   "n": "“verzehren” is to consume, eat up — used of fire as it was used of the fat one at table."
+  },
+  {
+   "t": "und als die Flammen sich legten, stand der Frostige mitten in der Asche, zitterte wie ein Espenlaub",
+   "l": "and when the flames themselves laid, stood the frosty one in the middle of the ashes, trembled like an aspen-leaf",
+   "i": "and when the flames died down, the frosty one stood in the middle of the ashes, trembling like an aspen leaf",
+   "n": "“sich legen” of wind or fire is to die down, to subside. “zittern wie ein Espenlaub” — to tremble like aspen foliage — is a set comparison; the aspen’s leaves shake in the least wind."
+  },
+  {
+   "t": "und sprach „einen solchen Frost habe ich mein Lebtage nicht ausgehalten, und wenn er länger gedauert hätte, so wäre ich erstarrt.“",
+   "l": "and spoke “such a frost have I my whole life not endured, and if it longer lasted had, so were I frozen stiff.”",
+   "i": "and said, “Such a frost I have never endured in all my days, and if it had lasted any longer I should have frozen stiff.”",
+   "n": "“mein Lebtage” is an old adverbial phrase, in all my days. “aushalten” is separable and means to endure, hold out against. The unreal condition uses the past subjunctive twice: “hätte gedauert … wäre ich erstarrt”."
+  },
+  {
+   "p": true,
+   "t": "Nun war keine Aussicht mehr zu finden, die schöne Jungfrau mußte den unbekannten Jüngling zum Gemahl nehmen.",
+   "l": "Now was no prospect more to find, the beautiful maiden had to the unknown youth as husband take.",
+   "i": "Now there was no way out to be found, and the beautiful maiden had to take the unknown youth as her husband.",
+   "n": "“keine Aussicht mehr zu finden” — no prospect left to be found, no way out. She is still, to her, marrying a man of no name."
+  },
+  {
+   "t": "Als sie aber nach der Kirche fuhren, sprach die Alte „ich kann die Schande nicht ertragen“",
+   "l": "When they however to the church drove, spoke the old one “I can the shame not bear”",
+   "i": "But as they were driving to the church, the old woman said, “I cannot bear the disgrace,”",
+   "n": "“nach der Kirche fahren” — to drive to church, that is, to the wedding. “die Schande” is disgrace, shame in the eyes of others."
+  },
+  {
+   "t": "und schickte ihr Kriegsvolk nach, das sollte alles niedermachen, was ihm vorkäme, und ihr die Tochter zurück bringen.",
+   "l": "and sent her war-folk after, that should everything cut down what to it came, and her the daughter back bring.",
+   "i": "and sent her soldiery after them, who were to cut down everything that came their way and bring her daughter back.",
+   "n": "“nachschicken” — to send after — is separable. “das Kriegsvolk” is the soldiery taken as one body, so German uses a singular “das sollte”. “niedermachen” is the blunt word: to cut down, kill."
+  },
+  {
+   "t": "Der Horcher aber hatte die Ohren gespitzt und die heimlichen Reden der Alten vernommen.",
+   "l": "The hearkener however had the ears pricked and the secret speeches of the old one heard.",
+   "i": "But the listener had pricked up his ears and had heard the old woman’s secret talk.",
+   "n": "“die Ohren spitzen” — to prick up one’s ears. “vernehmen” is an elevated word for hearing, catching what is said."
+  },
+  {
+   "t": "„Was fangen wir an?“ sprach er zu dem Dicken,",
+   "l": "“What begin we?” spoke he to the fat one,",
+   "i": "“What are we to do?” he said to the fat one,",
+   "n": "“Was fangen wir an?” — anfangen again, this time meaning what shall we set about, what are we to do."
+  },
+  {
+   "t": "aber der wußte Rath, spie einmal oder zweimal hinter dem Wagen einen Theil von dem Meereswasser aus, das er getrunken hatte,",
+   "l": "but he knew counsel, spat once or twice behind the carriage a part of the sea-water out that he drunk had,",
+   "i": "but he knew what to do, and spat out behind the carriage a part of the sea water he had drunk, once or twice,",
+   "n": "“Rath wissen” — to know the remedy, to know what to do. “ausspeien” is separable: “spie … aus”. The tale collects its own debts: the sea he drank two pages ago is still in him."
+  },
+  {
+   "t": "da entstand ein großer See, worin die Kriegsvölker stecken blieben und ertranken.",
+   "l": "there arose a great lake, in which the war-folk stuck fast and drowned.",
+   "i": "and a great lake formed, in which the soldiery stuck fast and drowned.",
+   "n": "“der See” with the masculine article is a lake; “die See”, feminine, is the sea. “stecken bleiben” — to stick fast, get stuck — is separable and takes sein in the perfect."
+  },
+  {
+   "t": "Als die Zauberin das vernahm, schickte sie ihre geharnischten Reiter,",
+   "l": "When the sorceress that heard, sent she her harnessed riders,",
+   "i": "When the sorceress heard of it, she sent her armoured horsemen,",
+   "n": "“geharnischt” — in harness, that is in armour, from der Harnisch, a suit of armour."
+  },
+  {
+   "t": "aber der Horcher hörte das Rasseln ihrer Rüstung und band dem einen die Augen auf,",
+   "l": "but the hearkener heard the rattling of their armour and untied to the one the eyes,",
+   "i": "but the listener heard the rattling of their armour and untied the eyes of the one man,",
+   "n": "“aufbinden” — to untie, unbind — is separable, so “band … auf”; band by itself is the past of binden, to tie, not the noun das Band. Dative of possession once more: the eyes belonging to him."
+  },
+  {
+   "t": "der guckte die Feinde ein bischen scharf an, da sprangen sie aus einander wie Glas.",
+   "l": "he looked at the enemies a little bit sharply, there sprang they apart like glass.",
+   "i": "and he looked at the enemy a little sharply, and they burst apart like glass.",
+   "n": "“ein bischen” is the 1857 spelling of ein bißchen, a little bit; the understatement is the joke. “anschauen”, “aus einander springen”: both separable, both particles at the end."
+  },
+  {
+   "t": "Nun fuhren sie ungestört weiter,",
+   "l": "Now drove they undisturbed further,",
+   "i": "Now they drove on undisturbed,",
+   "n": "“weiterfahren” is separable — “fuhren … weiter” — and the tale returns to the wedding it left standing."
+  },
+  {
+   "t": "und als die beiden in der Kirche eingesegnet waren, nahmen die sechs Diener ihren Abschied,",
+   "l": "and when the two in the church blessed were, took the six servants their leave,",
+   "i": "and when the two of them had received the blessing in the church, the six servants took their leave,",
+   "n": "“einsegnen” — to give the blessing, here the marriage blessing. “Abschied nehmen” — to take one’s leave."
+  },
+  {
+   "t": "und sprachen zu ihrem Herrn „eure Wünsche sind erfüllt, ihr habt uns nicht mehr nöthig, wir wollen weiter ziehen und unser Glück versuchen.“",
+   "l": "and spoke to their lord “your wishes are fulfilled, you have us no longer necessary, we will further travel and our fortune try.”",
+   "i": "and said to their lord, “Your wishes are fulfilled; you have no more need of us. We will travel on and try our own fortune.”",
+   "n": "They keep the respectful “ihr” to the end. “nöthig haben” — to have need of; “sein Glück versuchen” is the same phrase the father used when he let his son go."
+  },
+  {
+   "p": true,
+   "t": "Eine halbe Stunde vor dem Schloß war ein Dorf, vor dem hütete ein Schweinehirt seine Herde:",
+   "l": "A half hour before the castle was a village, before it herded a swineherd his herd:",
+   "i": "Half an hour’s way from the castle was a village, and in front of it a swineherd was herding his swine:",
+   "n": "“eine halbe Stunde” of distance is half an hour’s walk. “die Herde” is the herd or flock — not der Herd, the hearth."
+  },
+  {
+   "t": "wie sie dahin kamen, sprach er zu seiner Frau „weißt du auch recht wer ich bin?",
+   "l": "as they there came, spoke he to his wife “know you also rightly who I am?",
+   "i": "as they came there, he said to his wife, “Do you really know who I am?",
+   "n": "“auch recht” inside a question presses it: do you really, do you rightly. What follows is not true — the tale lets him lie at length without comment."
+  },
+  {
+   "t": "ich bin kein Königssohn, sondern ein Schweinehirt, und der mit der Herde dort, das ist mein Vater:",
+   "l": "I am no king’s-son, but rather a swineherd, and the one with the herd there, that is my father:",
+   "i": "I am no king’s son but a swineherd, and the man with the herd over there is my father:",
+   "n": "“sondern” after a negative is the German ‘but rather’, correcting what was just denied — never aber."
+  },
+  {
+   "t": "wir zwei müssen auch daran und ihm helfen hüten.“",
+   "l": "we two must also at it and him help herd.”",
+   "i": "the two of us must set to it as well, and help him herd.”",
+   "n": "“daran müssen” with the verb left out again: we must to it, we must take our turn — the same phrase the servants used of the frosty one."
+  },
+  {
+   "t": "Dann stieg er mit ihr in das Wirthshaus ab, und sagte heimlich zu den Wirthsleuten in der Nacht sollten sie ihr die königlichen Kleider wegnehmen.",
+   "l": "Then got he with her at the inn down, and said secretly to the innkeeping-folk in the night should they to her the royal clothes take away.",
+   "i": "Then he put up with her at the inn, and told the innkeeper and his wife secretly that in the night they should take her royal clothes away.",
+   "n": "“absteigen” — to dismount, to put up at an inn — is separable. The order is reported without daß, keeping the verb second: “sollten sie …”. “wegnehmen” is separable too."
+  },
+  {
+   "t": "Wie sie nun am Morgen aufwachte, hatte sie nichts anzuthun,",
+   "l": "As she now in the morning awoke, had she nothing to put on,",
+   "i": "When she woke in the morning, she had nothing to put on,",
+   "n": "“anthun” of clothes is to put on — the 1857 spelling of antun; the infinitive with zu takes it inside the verb, “anzuthun”."
+  },
+  {
+   "t": "und die Wirthin gab ihr einen alten Rock und ein paar alte wollene Strümpfe,",
+   "l": "and the landlady gave her an old skirt and a pair of old woollen stockings,",
+   "n": "“wollene” is the adjective woollen, not the verb wollen, to want. “Wirthin” is the 1857 spelling of Wirtin."
+  },
+  {
+   "t": "dabei that sie noch als wärs ein großes Geschenk und sprach „wenn nicht euer Mann wäre, hätt ichs euch gar nicht gegeben.“",
+   "l": "in doing so did she still as if it were a great gift and spoke “if not your husband were, had I it you not at all given.”",
+   "i": "and made out, into the bargain, that it was a great gift, and said, “If it were not for your husband, I would not have given it to you at all.”",
+   "n": "“thun als ob” — to act as if. “wärs” = wäre es, “hätt ichs” = hätte ich es. “wenn nicht euer Mann wäre” leaves out the ‘there’: were it not for your husband. The landlady says “ihr” to her, still the respectful form, which makes the meanness sharper."
+  },
+  {
+   "t": "Da glaubte sie er wäre wirklich ein Schweinehirt und hütete mit ihm die Herde und dachte „ich habe es verdient mit meinem Übermuth und Stolz.“",
+   "l": "Then believed she he were really a swineherd and herded with him the herd and thought “I have it deserved with my arrogance and pride.”",
+   "i": "Then she believed he really was a swineherd, and herded the swine with him, and thought, “I have deserved this, with my arrogance and pride.”",
+   "n": "“wäre” is the reported subjunctive: what she believed. “Übermuth” is the 1857 spelling of Übermut — overweening high spirits, arrogance. She is doing to herself what her mother did to the suitors, in a smaller way."
+  },
+  {
+   "t": "Das dauerte acht Tage, da konnte sie es nicht mehr aushalten, denn die Füße waren ihr wund geworden.",
+   "l": "That lasted eight days, then could she it no longer bear, for the feet were to her sore become.",
+   "i": "That lasted eight days, and then she could bear it no longer, for her feet had grown sore.",
+   "n": "“acht Tage” is the German for a week. “die Füße waren ihr wund geworden” — the dative of possession again: her feet, and grown sore on her."
+  },
+  {
+   "t": "Da kamen ein paar Leute und fragten ob sie wüßte wer ihr Mann wäre.",
+   "l": "Then came a couple of people and asked whether she knew who her husband were.",
+   "i": "Then a couple of people came and asked whether she knew who her husband was.",
+   "n": "“ob sie wüßte … wäre” — two subjunctives, one for the reported question and one inside it; German marks reported speech this way through a whole sentence."
+  },
+  {
+   "t": "„Ja,“ antwortete sie, „er ist ein Schweinehirt, und ist eben ausgegangen mit Bändern und Schnüren einen kleinen Handel zu treiben.“",
+   "l": "“Yes,” answered she, “he is a swineherd, and is just gone out with ribbons and cords a small trade to drive.”",
+   "i": "“Yes,” she answered, “he is a swineherd, and has just gone out with ribbons and cords, to carry on a little trade.”",
+   "n": "“Handel treiben” — to carry on trade, to peddle. “Schnüren” is the plural of die Schnur, a cord — not the verb schnüren, to lace."
+  },
+  {
+   "t": "Sie sprachen aber „kommt einmal mit, wir wollen euch zu ihm hinführen,“",
+   "l": "They spoke however “come just along, we will you to him lead,”",
+   "i": "But they said, “Just come along; we will take you to him,”",
+   "n": "“kommt einmal mit” — the plural imperative with einmal softening it to ‘do just come’. “hinführen” — to lead there — is separable."
+  },
+  {
+   "t": "und brachten sie ins Schloß hinauf;",
+   "l": "and brought her into the castle up;",
+   "i": "and brought her up into the castle;",
+   "n": "“hinauf” shows the direction away from the speaker and upward; German piles the direction words on rather than leaving them to the verb."
+  },
+  {
+   "t": "und wie sie in den Saal kam, stand da ihr Mann in königlichen Kleidern.",
+   "l": "and as she into the hall came, stood there her husband in royal clothes.",
+   "i": "and when she came into the hall, there stood her husband in royal clothes.",
+   "n": "“der Saal” is the great hall of the castle, not any room. The recognition is given in one plain sentence and no more."
+  },
+  {
+   "t": "Sie erkannte ihn aber nicht, bis er ihr um den Hals fiel, sie küßte und sprach „ich habe so viel für dich gelitten, da hast du auch für mich leiden sollen.“",
+   "l": "She recognised him however not, until he to her around the neck fell, her kissed and spoke “I have so much for you suffered, there have you also for me to suffer had.”",
+   "i": "But she did not know him until he fell on her neck and kissed her and said, “I have suffered so much for you; so you have had to suffer for me as well.”",
+   "n": "“jemandem um den Hals fallen” — to fall on someone’s neck, to embrace. “da hast du auch für mich leiden sollen” — the tale settles its account plainly and does not apologise for the eight days."
+  },
+  {
+   "t": "Nun ward erst die Hochzeit gefeiert, und ders erzählt hat, wollte er wäre auch dabei gewesen.",
+   "l": "Now was only then the wedding celebrated, and who it told has, would he had also there been.",
+   "i": "Only then was the wedding celebrated, and the one who told it wished he had been there too.",
+   "n": "“erst” here means only then, not until then. “ders” = der es. The closing formula — the teller wishing he had been at the feast — ends many of the tales, and is the storyteller stepping out from behind the story for one line."
+  }
+ ],
+ "glossary": {
+  "acht": "acht — eight (numeral; acht Tage is the German for a week)",
+  "anfangen": "anfangen — to begin; with mit, to do something with a person or thing (separable: fängt an)",
+  "anzuthun": "anthun — to put on (of clothes) (zu-infinitive of the separable anthun; 1857 spelling of antun)",
+  "arme": "der Arm — arms (plural Arme; in die Arme fallen: into the arms)",
+  "armen": "der Arm — arms (dative plural Armen; in deinen Armen: in your arms)",
+  "aufgeben": "aufgeben — to set (a task) (infinitive; separable; the other sense of aufgeben is to give up)",
+  "ausgehalten": "aushalten — to endure, hold out against (past participle; separable)",
+  "band": "aufbinden — to untie, unbind (3rd sg. past: band … auf; band alone is the past of binden, to tie)",
+  "binde": "die Binde — band, bandage, blindfold (noun)",
+  "bring": "bringen — to bring (1st sg. pres. with the -e dropped: bring ich = ich bringe)",
+  "bund": "der Bund — a condition set as a task (the Grimms gloss it in the text: eine Aufgabe; elsewhere a bundle or a league)",
+  "fette": "fett — fat, well-fed (inflected)",
+  "fuhren": "fahren — to drive, ride (3rd pl. past; nach der Kirche fuhren: drove to church)",
+  "gefallen": "das Gefallen — liking, pleasure (nach deinem Gefallen: to your liking)",
+  "gelöst": "lösen — to loose, undo, solve (past participle gelöst; einen Bund lösen: to undo the task set as a condition)",
+  "handel": "der Handel — trade, dealing (einen Handel treiben: to carry on a trade; also a bargain)",
+  "hart": "hart — hard; of sleep, sound and deep (hart schlafen: to sleep soundly)",
+  "herde": "die Herde — herd, flock (not der Herd, the hearth)",
+  "horchen": "horchen — to listen, hearken (infinitive)",
+  "hör": "hören — to hear (1st sg. pres. with the -e dropped: hör ich = ich höre)",
+  "laden": "laden — to invite (infinitive; einladen)",
+  "lange": "der Lange — the long one (the adjective lang used as a name for the servant; lange is also the adverb, for a long time)",
+  "leicht": "leicht — easy; also light, nimble (adjective)",
+  "liebe": "die Liebe — love (noun; lieb, dear, gives the identical-looking adjective liebe)",
+  "locken": "locken — to lure, entice (infinitive)",
+  "nagel": "der Nagel — a nail; here either the spigot of a cask or the thumbnail of the old Nagelprobe (vom Nagel herunter trinken: to drink to the very last drop)",
+  "nu": "das Nu — an instant (in einem Nu: in a flash)",
+  "reden": "die Rede — speech, talk (plural Reden; heimliche Reden: secret talk)",
+  "rock": "der Rock — skirt, gown (of a woman’s dress; also a coat)",
+  "sage": "sagen — say, tell (imperative sg.: sage mir, tell me)",
+  "schafft": "schaffen — to provide, procure (imperative pl.; Rath schaffen: to find a way, to come up with the remedy)",
+  "schnüren": "die Schnur — cord, string (dative plural Schnüren; schnüren is also the verb, to lace)",
+  "see": "der See — lake (masculine); die See — the sea (feminine)",
+  "setzten": "setzen — to set, place (3rd pl. past; setzten ihn auf den Holzstoß: set him upon the woodpile)",
+  "steckten": "anstecken — to set alight (3rd pl. past steckten … an; separable)",
+  "treiben": "treiben — to carry on, ply (Handel treiben: to carry on trade; also to drive a flock)",
+  "volk": "das Volk — folk, common people",
+  "weg": "der Weg — way, road (sich auf den Weg machen: to set out; weg is also the separable prefix, away)",
+  "weiden": "weiden — to graze, pasture (3rd pl. pres.)",
+  "wählen": "wählen — to choose, select (infinitive)",
+  "wünsche": "der Wunsch — wishes (plural Wünsche)",
+  "zog": "einziehen — to make one’s entry (3rd sg. past zog … ein; separable; zog alone is the past of ziehen)",
+  "zogen": "ziehen — to travel, move on (3rd pl. past; zogen weiter: went on their way)",
+  "zwölfe": "zwölf — twelve (older inflected form; es schlug zwölfe: the clock struck twelve)"
+ }
+}

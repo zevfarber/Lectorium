@@ -70,6 +70,21 @@ jobs:
             echo "::endgroup::"
           done
 
+      # THE RACE THIS STEP LOST ON 17 AUG 2026, AND WHY IT NOW REBASES.
+      # Run #89 synthesized audio for all 47 tales of the P5-P10 landing — 2h 3m
+      # of paid Google TTS — committed 3,480 files locally, and then exited 1 at
+      # `git push`. Synthesis takes hours, and main moves while it runs:
+      # auto-publish pushes every 5 minutes, and that day two archiver commits
+      # landed as well. A bare push against a branch that has moved is rejected
+      # non-fast-forward, and the entire run's work is discarded — the clips exist
+      # only on a runner that is about to be destroyed.
+      #
+      # Rebasing is safe here specifically because this commit touches ONLY
+      # audio/**: story files, the manifest and the glossary are never staged by
+      # this job, so there is nothing for a concurrent auto-publish to conflict
+      # with. Retry a few times, because main can move again between the rebase
+      # and the push. Never force — a rebase that genuinely fails is a real
+      # problem and must stop the run rather than overwrite someone's push.
       - name: Commit audio back to main
         if: steps.targets.outputs.ids != ''
         run: |
@@ -78,7 +93,21 @@ jobs:
           git add audio/
           if git diff --cached --quiet; then
             echo "No audio changes to commit."
-          else
-            git commit -m "Audio: build clips + align.json for ${{ steps.targets.outputs.ids }} [skip ci]"
-            git push
+            exit 0
           fi
+          git commit -m "Audio: build clips + align.json for ${{ steps.targets.outputs.ids }} [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "push rejected on attempt $attempt — main moved under this run; rebasing onto it"
+            if ! git pull --rebase --autostash origin main; then
+              echo "REBASE FAILED — refusing to force. The audio is committed locally on the"
+              echo "runner and will be lost; re-run this workflow once main is settled."
+              exit 1
+            fi
+            sleep $((attempt * 5))
+          done
+          echo "could not push after 5 attempts — main is moving faster than this job can land."
+          exit 1

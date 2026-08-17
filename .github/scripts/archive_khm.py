@@ -144,6 +144,10 @@ DEFAULT_LIMIT = 40
 MAPPING_MIN = 190         # of 200 numbered tales
 KHM_MAX = 210             # 200 tales + the ten Kinderlegenden
 TALE_MAX = 200            # the printed numeral of a numbered tale is 1..200
+MIN_TALE_TOKENS = 60      # the empty-extraction floor. Measured, not guessed:
+                          # the shortest published Grimm tale is KHM 139 at 127
+                          # tokens, so 60 admits every real tale and still
+                          # catches a page that extracted to nothing.
 
 
 def _repo_root():
@@ -1116,6 +1120,28 @@ def fixture_test(verbose=True):
     check("a printed numeral with a wikitext-only box still reads as 76",
           tale_number(FIXTURE_NO_BOX_NUMBER_HTML, FIXTURE_WIKITEXT).number == 76)
 
+    # ---- CASE 5c: the empty-extraction guard, both directions --------------
+    # It must ADMIT a genuine one-paragraph tale (the shape that wrongly cost 40
+    # tales, nine of them already published as single-paragraph files) and still
+    # REFUSE an extraction that came back empty or stubbed.
+    one_para = [{"t": "p", "x": " ".join(["wort"] * 130)}]
+    stub = [{"t": "p", "x": "Die Rübe."}]
+    def guard(blocks):
+        """The archive_one guard, isolated so the fixture can exercise it."""
+        sig = signature(blocks)
+        n = len([t for t in sig if t != NL])
+        if not blocks:
+            return "no prose blocks"
+        if n < MIN_TALE_TOKENS:
+            return "only %d token(s)" % n
+        return None
+    check("a one-block tale of real length is ADMITTED (KHM 43, 103, 153 shape)",
+          guard(one_para) is None, guard(one_para))
+    check("an empty extraction is still refused", guard([]) == "no prose blocks")
+    check("a stub extraction is still refused", guard(stub) is not None, guard(stub))
+    check("the floor sits below the shortest published tale (KHM 139, 127 tokens)",
+          MIN_TALE_TOKENS < 127, MIN_TALE_TOKENS)
+
     # ---- CASE 6: two pages claiming one number is FATAL --------------------
     claims = [(19, {"page": "Strohhalm, Kohle und Bohne (1857)", "title": "a", "revid": 1}),
               (19, {"page": "Von dem Fischer un syner Fru (1857)", "title": "b", "revid": 2})]
@@ -1488,10 +1514,29 @@ def archive_one(khm, entry):
                            % (page, res.number, khm))
 
     blocks = extract_blocks(got["html"], page)
-    if len(blocks) < 2:
-        raise RuntimeError("%s: only %d block(s) — refusing to archive" % (page, len(blocks)))
-
     sig = signature(blocks)
+    ntokens = len([t for t in sig if t != NL])
+
+    # THE EMPTY-EXTRACTION GUARD. This used to refuse anything under two blocks,
+    # which was wrong: a one-paragraph tale is ordinary in the 1857 book, not a
+    # symptom of a broken parse. It rejected 40 real tales, run after run, and
+    # nine of those are ALREADY PUBLISHED from the earlier browser-archived
+    # sources — KHM 43, 62, 72, 74, 75, 78, 79, 103, 153 — every one of them a
+    # single-paragraph file in the live corpus. The block count never carried the
+    # signal; it only correlated with tale length.
+    #
+    # What the guard is for is an extraction that came back empty or stubbed, so
+    # that is what it now tests: at least one block, and a token count no real
+    # tale could fall under. Measured over the 137 published Grimm tales, the
+    # shortest is KHM 139 Dat Mäken von Brakel at 127 tokens; the floor of 60
+    # sits below every genuine tale and still catches a page that yielded nothing
+    # but furniture.
+    if not blocks:
+        raise RuntimeError("%s: no prose blocks survived extraction — refusing to archive" % page)
+    if ntokens < MIN_TALE_TOKENS:
+        raise RuntimeError("%s: only %d token(s) in %d block(s) — refusing to archive"
+                           % (page, ntokens, len(blocks)))
+
     doc = {
         "khm": khm,
         "title": entry["title"],

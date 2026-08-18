@@ -1,0 +1,399 @@
+{
+ "id": "der-zaunkoenig",
+ "title": "Der Zaunkönig",
+ "titleEn": "The Wren",
+ "khm": 171,
+ "language": "German",
+ "langCode": "de-DE",
+ "work": "Kinder- und Hausmärchen",
+ "workEn": "Grimms’ Fairy Tales",
+ "workGloss": "Children’s and Household Tales",
+ "part": "The Wren",
+ "source": "Brüder Grimm, Kinder- und Hausmärchen, Band 2, 7. Auflage (Ausgabe letzter Hand), Dieterich, Göttingen 1857, KHM 171. Text from Wikisource (twice proofread against the original). 1857 spelling preserved exactly (daß, gieng, fieng, aufzuthun). This tale is mostly in High German, but a good deal of the animals' and craftsmen's dialogue — the smith's hammer, the miller's rhyme, the wren's own cry — is in Low German (Plattdeutsch); the glossary gives the High German equivalent for each dialect form.",
+ "about": "KHM 171 imagines a time when hammers, planes, and mill-wheels all spoke, and the birds still had a language of their own. It follows the birds' contest to choose a king — won by trickery when the tiny, nameless bird hides in the eagle's feathers and flies up after the eagle tires — and the small war and siege that follow when the four-footed animals refuse to accept him. Much of the dialogue shifts into Low German dialect against the High German narration, so it will feel noticeably different in texture from most of the other tales.",
+ "glossaryFile": "khm-glossary.json",
+ "sentences": [
+  {
+   "p": true,
+   "t": "In den alten Zeiten da hatte jeder Klang noch Sinn und Bedeutung.",
+   "l": "In the old times, every sound still had sense and meaning.",
+   "i": "In the old days, every sound still had sense and meaning.",
+   "n": "A storyteller’s opening frame. “da” after the time-phrase is a resumptive ‘then,’ common in older German and left untranslated in smooth English."
+  },
+  {
+   "t": "Wenn der Hammer des Schmieds ertönte, so rief er „smiet mi to! smiet mi to!“",
+   "l": "When the smith’s hammer rang out, it cried, “throw it to me! throw it to me!”",
+   "i": "Whenever the smith’s hammer rang out, it cried, “throw it to me! throw it to me!”",
+   "n": "The hammer ‘speaks’ Low German: “smiet mi to” = High German ‘schmeiß mir zu,’ toss it to me. “mi” = mir, “to” = zu — the same dialect the birds use below."
+  },
+  {
+   "t": "Wenn der Hobel des Tischlers schnarrte, so sprach er „dor häst! dor, dor häst!“",
+   "l": "When the joiner’s plane rasped, it said, “there you have it! there, there you have it!”",
+   "i": "Whenever the joiner’s plane rasped, it said, “there you have it! there, there you have it!”",
+   "n": "Low German again: “dor” = da (there), “häst” = (du) hast — ‘da hast du!’, there you have it."
+  },
+  {
+   "t": "Fieng das Räderwerk der Mühle an zu klappern, so sprach es „help, Herr Gott! help, Herr Gott!“",
+   "l": "When the mill’s gearwork began to clatter, it said, “help, Lord God! help, Lord God!”",
+   "i": "Whenever the mill’s gearwork started to clatter, it said, “help, Lord God! help, Lord God!”",
+   "n": "“Fieng … an” is the 1857 spelling of ‘fing an,’ from “anfangen” (to begin), separable — the particle ‘an’ sits after the subject. “help” = Low German for ‘hilf.’"
+  },
+  {
+   "t": "und war der Müller ein Betrüger, und ließ die Mühle an, so sprach sie hochdeutsch und fragte erst langsam „wer ist da? wer ist da?“",
+   "l": "and if the miller was a cheat, and set the mill going, then it spoke High German and asked, first slowly, “who is there? who is there?”",
+   "i": "and if the miller was a cheat, and set the mill running, then it spoke High German and asked, slowly at first, “who is there? who is there?”",
+   "n": "The joke turns on dialect: the honest tools talk Low German, but the guilty mill switches to “hochdeutsch” (High German) to accuse the thieving miller."
+  },
+  {
+   "t": "dann antwortete sie schnell „der Müller! der Müller!“",
+   "l": "then it answered quickly, “the miller! the miller!”",
+   "i": "then quickly it answered, “the miller! the miller!”",
+   "n": "The rhythm imitates the quickening mill-wheel — slow question, quick answer, then the racing verdict that follows."
+  },
+  {
+   "t": "und endlich ganz geschwind „stiehlt tapfer, stiehlt tapfer, vom Achtel drei Sechter.“",
+   "l": "and at last quite fast, “steals briskly, steals briskly, three Sechter from the eighth.”",
+   "i": "and finally, very fast, “steals briskly, steals briskly, three Sechter from every eighth.”",
+   "n": "“tapfer” here means ‘briskly, heartily,’ not ‘bravely.’ “Achtel” and “Sechter” are old grain measures — three Sechter skimmed from every eighth, i.e. the miller’s theft."
+  },
+  {
+   "p": true,
+   "t": "Zu dieser Zeit hatten auch die Vögel ihre eigene Sprache, die jedermann verstand,",
+   "l": "At this time the birds too had their own language, which everyone understood,",
+   "i": "In those days the birds too had a language of their own, which everyone understood,",
+   "n": "“auch” = ‘too,’ tying the birds to the talking tools just described. “jedermann” — everyone, anyone."
+  },
+  {
+   "t": "jetzt lautet es nur wie ein Zwitschern, Kreischen und Pfeifen, und bei einigen wie Musik ohne Worte.",
+   "l": "now it sounds only like a twittering, screeching and whistling, and with some like music without words.",
+   "i": "now it sounds only like twittering, screeching and whistling, and with some like music without words.",
+   "n": "“lautet es” — impersonal ‘it sounds’; the birdsong that once carried meaning is now mere noise."
+  },
+  {
+   "t": "Es kam aber den Vögeln in den Sinn, sie wollten nicht länger ohne Herrn sein und einen unter sich zu ihrem König wählen.",
+   "l": "But it came into the birds’ minds that they no longer wished to be without a lord, and to choose one from among themselves for their king.",
+   "i": "But it came into the birds’ heads that they no longer wished to be without a lord, and would choose one of their own for king.",
+   "n": "“einen … wählen” is High German ‘to choose, elect’ — not the Low German ‘wollen’ (to want) that this spelling can mark elsewhere. “in den Sinn kommen” = to occur to one."
+  },
+  {
+   "t": "Nur einer von ihnen, der Kibitz, war dagegen:",
+   "l": "Only one of them, the lapwing, was against it:",
+   "i": "Only one of them, the lapwing, was set against it:",
+   "n": "“der Kibitz” — the lapwing or peewit, named for its call. The colon opens his reason."
+  },
+  {
+   "t": "frei hatte er gelebt und frei wollte er sterben, und angstvoll hin und her fliegend rief er „wo bliew ick? wo bliew ick?“",
+   "l": "free he had lived and free he wished to die, and anxiously flying to and fro he cried, “where do I stay? where do I stay?”",
+   "i": "free he had lived and free he would die, and, flying anxiously to and fro, he cried, “where shall I stay? where shall I stay?”",
+   "n": "Low German: “wo bliew ick?” = ‘wo bleibe ich?’, where am I to remain — i.e. where is my freedom left. The fronted “frei” twice stresses his one demand."
+  },
+  {
+   "t": "Er zog sich zurück in einsame und unbesuchte Sümpfe und zeigte sich nicht wieder unter Seinesgleichen.",
+   "l": "He withdrew into lonely and unvisited swamps and showed himself no more among his own kind.",
+   "i": "He drew back into lonely, unfrequented marshes and never again appeared among his own kind.",
+   "n": "“sich zurückziehen” — to withdraw (separable). “seinesgleichen” = those of his own sort."
+  },
+  {
+   "p": true,
+   "t": "Die Vögel wollten sich nun über die Sache besprechen,",
+   "l": "The birds now wished to confer about the matter,",
+   "n": "“sich besprechen über” — to talk something over together, confer."
+  },
+  {
+   "t": "und an einem schönen Maimorgen kamen sie alle aus Wäldern und Feldern zusammen, Adler und Buchfinke, Eule und Krähe, Lerche und Sperling, was soll ich sie alle nennen?",
+   "l": "and on a fine May morning they all came together out of woods and fields, eagle and chaffinch, owl and crow, lark and sparrow — what, shall I name them all?",
+   "i": "and on a fine May morning they all gathered from woods and fields, eagle and chaffinch, owl and crow, lark and sparrow — need I name them all?",
+   "n": "“was soll ich sie alle nennen?” is the teller stepping in mid-list with a shrug — ‘why should I name them all?’"
+  },
+  {
+   "t": "selbst der Kukuk kam und der Wiedehopf, sein Küster, der so heißt, weil er sich immer ein paar Tage früher hören läßt;",
+   "l": "even the cuckoo came, and the hoopoe, his sexton, who is so called because he always makes himself heard a couple of days earlier;",
+   "i": "even the cuckoo came, and the hoopoe, his sexton — so called because he is always heard a couple of days sooner;",
+   "n": "“Kukuk” is the 1857 spelling of Kuckuck (cuckoo). Folk belief made the “Wiedehopf” (hoopoe) the cuckoo’s “Küster” (sexton/verger) because it calls a few days before him."
+  },
+  {
+   "t": "auch ein ganz kleiner Vogel, der noch keinen Namen hatte, mischte sich unter die Schaar.",
+   "l": "also a quite tiny bird, who had as yet no name, mingled in among the throng.",
+   "i": "a quite tiny bird, too, who as yet had no name, mingled into the throng.",
+   "n": "This nameless little bird is the wren-to-be. “sich mischen unter” — to mix in among; “Schaar” is the 1857 spelling of Schar (throng, flock)."
+  },
+  {
+   "t": "Das Huhn, das zufällig von der ganzen Sache nichts gehört hatte, verwunderte sich über die große Versammlung.",
+   "l": "The hen, who by chance had heard nothing of the whole affair, marvelled at the great assembly.",
+   "i": "The hen, who happened to have heard nothing of the whole affair, marvelled at the great gathering.",
+   "n": "“sich verwundern über” — to be astonished at. “zufällig” = by chance."
+  },
+  {
+   "t": "„Wat, wat, wat is den dar to don?“ gackerte es,",
+   "l": "“What, what, what is there to do?” it cackled,",
+   "i": "“What, what, what’s going on here?” it cackled,",
+   "n": "Broad Low German cackle: “wat” = was, “is” = ist, “den” = denn, “dar” = da, “to don” = zu tun — ‘was ist denn da zu tun?’, what’s going on here? (Note: “don” is ‘tun,’ to do — not ‘Ton,’ sound.)"
+  },
+  {
+   "t": "aber der Hahn beruhigte seine liebe Henne und sagte „luter riek Lüd,“ erzählte ihr auch was sie vor hätten.",
+   "l": "but the cock calmed his dear hen and said, “nothing but rich folk,” and told her too what they were about.",
+   "i": "but the cock soothed his dear hen and said, “nothing but rich folk,” and told her as well what they had in mind.",
+   "n": "More Low German from the cock: “luter” = lauter (nothing but), “riek” = reich (rich), “Lüd” = Leute (folk). “was sie vor hätten” = what they were planning (vorhaben)."
+  },
+  {
+   "t": "Es ward aber beschlossen daß der König sein sollte, der am höchsten fliegen könnte.",
+   "l": "But it was decided that the one who could fly highest should be king.",
+   "i": "But it was resolved that whoever could fly highest should be king.",
+   "n": "“ward” is the old past of ‘werden’ (modern ‘wurde’); “es ward beschlossen” = it was resolved. The relative clause “der am höchsten fliegen könnte” names the winner."
+  },
+  {
+   "t": "Ein Laubfrosch, der im Gebüsche saß, rief, als er das hörte, warnend „natt, natt, natt! natt, natt, natt!“",
+   "l": "A tree-frog, who sat in the bushes, cried out warningly when he heard this, “wet, wet, wet! wet, wet, wet!”",
+   "i": "A tree-frog sitting in the bushes cried out a warning when he heard it, “wet, wet, wet! wet, wet, wet!”",
+   "n": "“natt” = Low German ‘nass’ (wet) — the frog’s croak, foretelling tears; his reason comes in the next clause."
+  },
+  {
+   "t": "weil er meinte es würden deshalb viel Thränen vergossen werden.",
+   "l": "because he thought that many tears would on that account be shed.",
+   "i": "because he thought many tears would be shed over it.",
+   "n": "“Thränen” is the 1857 spelling of Tränen (tears). “vergossen werden” — passive, ‘be shed.’"
+  },
+  {
+   "t": "Die Krähe aber sagte „Quark ok!“, es sollte alles friedlich abgehen.",
+   "l": "But the crow said, “Rubbish too!” — it would all pass off peacefully.",
+   "i": "But the crow said, “Nonsense!” — it would all go off peacefully.",
+   "n": "“Quark” literally is curd, used figuratively for ‘nonsense, rubbish’; “ok” = Low German auch (too). “abgehen” here = to turn out, pass off."
+  },
+  {
+   "p": true,
+   "t": "Es ward nun beschlossen, sie wollten gleich an diesem schönen Morgen aufsteigen, damit niemand hinterher sagen könnte „ich wäre wohl noch höher geflogen, aber der Abend kam, da konnte ich nicht mehr.“",
+   "l": "It was now decided that they would rise up at once on this fine morning, so that no one could say afterwards, “I would surely have flown still higher, but the evening came, then I could no more.”",
+   "i": "It was now decided they would rise at once this very morning, so that no one could say afterwards, “I’d surely have flown higher still, but evening came, and then I couldn’t.”",
+   "n": "The excuse is in the subjunctive “ich wäre … geflogen” (I would have flown), the unreal past that lets a bird claim a height he never reached."
+  },
+  {
+   "t": "Auf ein gegebenes Zeichen erhob sich also die ganze Schaar in die Lüfte.",
+   "l": "At a given signal the whole throng thus rose up into the air.",
+   "i": "So at a given signal the whole throng rose up into the air.",
+   "n": "“sich erheben” — to rise up. “in die Lüfte” (plural of Luft) is an elevated ‘into the skies.’"
+  },
+  {
+   "t": "Der Staub stieg da von dem Felde auf,",
+   "l": "The dust rose up there from the field,",
+   "i": "The dust went up from the field,",
+   "n": "“aufsteigen” — to rise (separable); the particle ‘auf’ closes the clause."
+  },
+  {
+   "t": "es war ein gewaltiges Sausen und Brausen und Fittichschlagen, und es sah aus als wenn eine schwarze Wolke dahin zöge.",
+   "l": "there was a mighty rushing and roaring and beating of wings, and it looked as if a black cloud were drifting along.",
+   "i": "there was a mighty rushing and roaring and beating of wings, and it looked as though a black cloud were passing overhead.",
+   "n": "“Sausen und Brausen” is a rhyming pair (whooshing and roaring). “als wenn … zöge” — ‘as if it were drifting,’ subjunctive of comparison."
+  },
+  {
+   "t": "Die kleinern Vögel aber blieben bald zurück, konnten nicht weiter und fielen wieder auf die Erde.",
+   "l": "But the smaller birds soon fell behind, could go no further and dropped back to the earth.",
+   "i": "But the smaller birds soon fell behind, could go no further and dropped back to earth.",
+   "n": "“die kleinern” = die kleineren (the smaller ones), 1857 keeping the shorter ending. “zurückbleiben” — to lag behind."
+  },
+  {
+   "t": "Die größern hieltens länger aus,",
+   "l": "The bigger ones held out longer,",
+   "n": "“hieltens” = ‘hielten’s’ = hielten es aus, from “aushalten” (to hold out, endure); the particle ‘aus’ follows. “die größern” = die größeren."
+  },
+  {
+   "t": "aber keiner konnte es dem Adler gleich thun, der stieg so hoch daß er der Sonne hätte die Augen aushacken können.",
+   "l": "but none could do the like of the eagle, who climbed so high that he could have pecked the sun’s eyes out.",
+   "i": "but none could match the eagle, who rose so high he could have pecked the very eyes out of the sun.",
+   "n": "“es jemandem gleich thun” — to match someone, do as well as he. “thun” is the 1857 spelling of tun. The image is comic hyperbole."
+  },
+  {
+   "t": "Und als er sah daß die andern nicht zu ihm herauf konnten, so dachte er „was willst du noch höher fliegen, du bist doch der König,“ und fieng an sich wieder herab zu lassen.",
+   "l": "And when he saw that the others could not come up to him, he thought, “why would you fly still higher, you are the king after all,” and began to let himself down again.",
+   "i": "And when he saw the others could not reach up to him, he thought, “why fly any higher — you are the king anyway,” and began to let himself sink again.",
+   "n": "The eagle addresses himself as “du,” rendered ‘you’ throughout — the elevated register comes from cadence, not archaic pronouns. “doch” here = ‘after all, surely.’ “sich herablassen” — to let oneself down."
+  },
+  {
+   "t": "Die Vögel unter ihm riefen ihm alle gleich zu „du mußt unser König sein, keiner ist höher geflogen als du.“",
+   "l": "The birds beneath him all called up to him at once, “you must be our king, none has flown higher than you.”",
+   "n": "“zurufen” — to call out to (separable); “ihm … zu.” “mußt” is the 1857 spelling of musst."
+  },
+  {
+   "t": "„Ausgenommen ich“ schrie der kleine Kerl ohne Namen, der sich in die Brustfedern des Adlers verkrochen hatte.",
+   "l": "“Excepting me,” screamed the little fellow without a name, who had crept into the eagle’s breast-feathers.",
+   "i": "“Except me,” screamed the little fellow with no name, who had hidden himself in the eagle’s breast-feathers.",
+   "n": "“ausgenommen” = excepting. This is the wren’s trick: carried up unseen, he launches from the eagle’s own feathers. “sich verkriechen” — to creep away and hide."
+  },
+  {
+   "t": "Und da er nicht müde war, so stieg er auf und stieg so hoch, daß er Gott auf seinem Stuhle konnte sitzen sehen.",
+   "l": "And since he was not tired, he rose up and climbed so high that he could see God sitting on his throne.",
+   "i": "And as he was not tired, he rose and climbed so high that he could see God seated on his throne.",
+   "n": "“Stuhl” here is a seat of state, a throne. “da” at the head is causal, ‘since, as.’"
+  },
+  {
+   "t": "Als er aber so weit gekommen war, legte er seine Flügel zusammen, sank herab und rief unten mit feiner durchdringender Stimme „König bün ick! König bün ick!“",
+   "l": "But when he had come so far, he folded his wings together, sank down and cried out below in a thin, piercing voice, “king am I! king am I!”",
+   "i": "But when he had got so far, he folded his wings, sank down and called out below in a thin, piercing voice, “king am I! king am I!”",
+   "n": "The wren’s refrain, Low German: “König bün ick!” = ‘König bin ich!’, I am king — “bün” = bin, “ick” = ich. It will sound again each time he claims the crown."
+  },
+  {
+   "p": true,
+   "t": "„Du unser König?“ schrien die Vögel zornig, „durch Ränke und Listen hast du es dahin gebracht.“",
+   "l": "“You our king?” screamed the birds angrily, “by wiles and tricks you have brought it to this.”",
+   "i": "“You, our king?” the birds screamed angrily, “you have brought it to this by wiles and cunning.”",
+   "n": "“Ränke und Listen” is a rhyming-ish pair, ‘intrigues and tricks.’ “es dahin bringen” — to bring it to such a point."
+  },
+  {
+   "t": "Sie machten eine andere Bedingung, der sollte ihr König sein, der am tiefsten in die Erde fallen könnte.",
+   "l": "They made another condition: he should be their king who could fall deepest into the earth.",
+   "i": "They set another condition: whoever could fall deepest into the earth should be their king.",
+   "n": "The contest is reversed — now lowest, not highest. “der … der”: the first ‘der’ points forward to the relative clause naming the winner."
+  },
+  {
+   "t": "Wie klatschte da die Gans mit ihrer breiten Brust wieder auf das Land!",
+   "l": "How the goose smacked down again onto the land with her broad breast!",
+   "i": "How the goose slapped down onto the ground with her broad breast!",
+   "n": "“Wie …!” opens an exclamation of admiration or comedy — ‘how she smacked down!’ “klatschen” = to slap, smack."
+  },
+  {
+   "t": "Wie scharrte der Hahn schnell ein Loch!",
+   "l": "How quickly the cock scratched out a hole!",
+   "i": "How quickly the cock scratched himself a hole!",
+   "n": "Same exclamatory “Wie …!” “scharren” — to scrape, scratch (as a bird scratches the ground)."
+  },
+  {
+   "t": "Die Ente kam am schlimmsten weg,",
+   "l": "The duck came off worst,",
+   "i": "The duck fared worst of all,",
+   "n": "“am schlimmsten wegkommen” — to come off worst, fare worst of all."
+  },
+  {
+   "t": "sie sprang in einen Graben, verrenkte sich aber die Beine und watschelte fort zum nahen Teiche mit dem Ausruf „Pracherwerk! Pracherwerk!“",
+   "l": "she jumped into a ditch, but wrenched her legs and waddled off to the nearby pond with the cry, “beggarly business! beggarly business!”",
+   "i": "she leapt into a ditch, but wrenched her legs and waddled off to the nearby pond, crying, “beggarly business! beggarly business!”",
+   "n": "“sich die Beine verrenken” — dative of the body-part, ‘wrenched her legs.’ “Pracherwerk” is Low German (Pracher = beggar): roughly ‘beggarly stuff, a wretched business’; its exact force is disputed, but the duck is plainly disgusted."
+  },
+  {
+   "t": "Der kleine ohne Namen aber suchte ein Mäuseloch, schlüpfte hinab und rief mit seiner feinen Stimme heraus „König bün ick! König bün ick!“",
+   "l": "But the little one without a name sought out a mouse-hole, slipped down into it and called out in his thin voice, “king am I! king am I!”",
+   "i": "But the little one with no name found a mouse-hole, slipped down and called up in his thin voice, “king am I! king am I!”",
+   "n": "The refrain again (see block 3): Low German “König bün ick!” = ‘König bin ich.’ Now he ‘falls’ deepest by hiding in the mouse-hole."
+  },
+  {
+   "p": true,
+   "t": "„Du unser König?“ riefen die Vögel noch zorniger, „meinst du deine Listen sollten gelten?“",
+   "l": "“You our king?” cried the birds still angrier, “do you think your tricks should count?”",
+   "i": "“You, our king?” the birds cried, angrier still, “do you think your tricks should hold good?”",
+   "n": "“gelten” — to be valid, count, hold good. “meinst du …?” — do you suppose …? The same scornful “Du unser König?” opens each rejection."
+  },
+  {
+   "t": "Sie beschlossen ihn in seinem Loch gefangen zu halten und auszuhungern.",
+   "l": "They resolved to keep him caught in his hole and to starve him out.",
+   "i": "They resolved to keep him trapped in his hole and starve him out.",
+   "n": "“aushungern” — to starve out (separable, ‘aus’), here in the infinitive with ‘zu’: “auszuhungern.”"
+  },
+  {
+   "t": "Die Eule ward als Wache davor gestellt:",
+   "l": "The owl was set before it as a guard:",
+   "i": "The owl was posted before it as a guard:",
+   "n": "“ward … gestellt” — passive with the old ‘ward’ (was placed). “davor” = before it (the hole)."
+  },
+  {
+   "t": "sie sollte den Schelm nicht heraus lassen, so lieb ihr das Leben wäre.",
+   "l": "she was to let the rogue out on no account, as dearly as she held her life.",
+   "i": "she was on no account to let the rogue out, if she valued her life.",
+   "n": "“so lieb ihr das Leben wäre” — an old turn, ‘as dear as her life was to her,’ i.e. on pain of her life. “Schelm” = rogue, knave."
+  },
+  {
+   "t": "Als es aber Abend geworden war und die Vögel von der Anstrengung beim Fliegen große Müdigkeit empfanden, so giengen sie mit Weib und Kind zu Bett.",
+   "l": "But when evening had come and the birds felt great weariness from the exertion of flying, they went to bed with wife and child.",
+   "i": "But when evening had come and the birds felt great weariness from all the flying, they went to bed with wife and child.",
+   "n": "“giengen” is the 1857 spelling of gingen (went). “mit Weib und Kind” is a fixed phrase, ‘with wife and child,’ i.e. the whole household."
+  },
+  {
+   "t": "Die Eule allein blieb bei dem Mäuseloch stehen und blickte mit ihren großen Augen unverwandt hinein.",
+   "l": "The owl alone remained standing by the mouse-hole and gazed into it fixedly with her great eyes.",
+   "i": "The owl alone stayed by the mouse-hole and gazed fixedly into it with her great eyes.",
+   "n": "“unverwandt” — fixedly, without turning the eyes away. This sets up the joke of the two eyes that follows."
+  },
+  {
+   "t": "Indessen war sie auch müde geworden und dachte „ein Auge kannst du wohl zu thun, du wachst ja noch mit dem andern, und der kleine Bösewicht soll nicht aus seinem Loch heraus.“",
+   "l": "Meanwhile she too had grown tired and thought, “one eye you may well close, you are still watching with the other, and the little villain shall not get out of his hole.”",
+   "i": "Meanwhile she too had grown tired and thought, “I can close one eye — I’m still watching with the other, and the little villain shan’t get out of his hole.”",
+   "n": "She addresses herself as “du” (rendered ‘you’). “zu thun” = zutun, to close (of an eye); “wohl” softens it to ‘well may.’"
+  },
+  {
+   "t": "Also that sie das eine Auge zu und schaute mit dem andern steif auf das Mäuseloch.",
+   "l": "So she closed the one eye and looked with the other stiffly at the mouse-hole.",
+   "i": "So she shut the one eye and stared at the mouse-hole with the other.",
+   "n": "“that … zu” = 1857 ‘tat zu,’ from “zutun” (to shut). “steif” — stiffly, unblinking."
+  },
+  {
+   "t": "Der kleine Kerl guckte mit dem Kopf heraus und wollte wegwitschen, aber die Eule trat gleich davor, und er zog den Kopf wieder zurück.",
+   "l": "The little fellow poked his head out and meant to dart away, but the owl stepped straight in front, and he drew his head back again.",
+   "i": "The little fellow poked his head out and made to slip away, but the owl stepped straight in his path, and he drew his head back again.",
+   "n": "“wegwitschen” — to whisk or dart away (separable, ‘weg’). “herausgucken” — to peep out."
+  },
+  {
+   "t": "Dann that die Eule das eine Auge wieder auf und das andere zu, und wollte so die ganze Nacht abwechseln.",
+   "l": "Then the owl opened the one eye again and closed the other, and meant so to alternate the whole night through.",
+   "i": "Then the owl opened the one eye again and shut the other, meaning to take turns like this all night long.",
+   "n": "“that … auf … zu” = tat auf / tat zu (opened / shut). “abwechseln” — to alternate, take turns."
+  },
+  {
+   "t": "Aber als sie das eine Auge wieder zu machte, vergaß sie das andere aufzuthun, und sobald die beiden Augen zu waren, schlief sie ein.",
+   "l": "But when she shut the one eye again, she forgot to open the other, and as soon as both eyes were closed, she fell asleep.",
+   "i": "But when she closed the one eye again, she forgot to open the other, and the moment both eyes were shut, she fell asleep.",
+   "n": "“aufzuthun” = aufzutun, to open. “einschlafen” — to fall asleep (separable). The forgotten eye is the wren’s escape."
+  },
+  {
+   "t": "Der Kleine merkte das bald und schlüpfte weg.",
+   "l": "The little one soon noticed this and slipped away.",
+   "i": "The little one soon noticed, and slipped away.",
+   "n": "“wegschlüpfen” — to slip away (separable). A short close after the long build-up."
+  },
+  {
+   "p": true,
+   "t": "Von der Zeit an darf sich die Eule nicht mehr am Tage sehen lassen, sonst sind die andern Vögel hinter ihr her und zerzausen ihr das Fell.",
+   "l": "From that time on the owl may no longer show herself by day, else the other birds are after her and ruffle her coat.",
+   "i": "From that time on the owl dares not show herself by day, or the other birds are after her and tousle her feathers.",
+   "n": "“sich sehen lassen” — to let oneself be seen, show oneself. “hinter ihr her sein” — to be after her, in pursuit. This turns to the tale’s ‘why’ (why owls fly by night)."
+  },
+  {
+   "t": "Sie fliegt nur zur Nachtzeit aus, haßt aber und verfolgt die Mäuse, weil sie solche böse Löcher machen.",
+   "l": "She flies out only at night-time, but hates and hunts the mice, because they make such wicked holes.",
+   "i": "She flies out only by night, but hates and hunts the mice, because they make such wicked holes.",
+   "n": "“ausfliegen” — to fly out (separable). “haßt” is the 1857 spelling of hasst. The grudge is comic aetiology: the mouse-hole undid her watch."
+  },
+  {
+   "t": "Auch der kleine Vogel läßt sich nicht gerne sehen, weil er fürchtet es gienge ihm an den Kragen, wenn er erwischt würde.",
+   "l": "The little bird too does not gladly let himself be seen, because he fears it would go hard for him if he were caught.",
+   "i": "The little bird, too, does not care to be seen, for he fears it would cost him his neck if he were caught.",
+   "n": "“es geht ihm an den Kragen” is an idiom — literally ‘it goes to his collar,’ i.e. his neck is at stake, he is in for it. “gienge” = ginge, subjunctive."
+  },
+  {
+   "t": "Er schlüpft in den Zäunen herum, und wenn er ganz sicher ist, ruft er wohl zuweilen „König bün ick!“",
+   "l": "He slips about among the fences, and when he is quite safe, he does now and then call out, “king am I!”",
+   "i": "He slips about in the hedges, and when he is quite safe, he does now and then call out, “king am I!”",
+   "n": "The refrain one last time (see block 3): Low German “König bün ick!” = ‘König bin ich.’ Now sung only from safe cover — which gives him his name in the next clause."
+  },
+  {
+   "t": "und deshalb nennen ihn die andern Vögel aus Spott Zaunkönig.",
+   "l": "and therefore the other birds call him, in mockery, hedge-king.",
+   "i": "and so the other birds call him, in mockery, the hedge-king.",
+   "n": "“Zaunkönig” (literally ‘fence-king’ or ‘hedge-king’) is the ordinary German word for the wren; “aus Spott” = in mockery. The tale explains the real bird’s name."
+  },
+  {
+   "p": true,
+   "t": "Niemand aber war froher als die Lerche, daß sie dem Zaunkönig nicht zu gehorchen brauchte.",
+   "l": "But no one was gladder than the lark that she did not have to obey the hedge-king.",
+   "i": "But no one was gladder than the lark that she owed the hedge-king no obedience.",
+   "n": "“brauchen” + zu + infinitive = ‘to need to, have to’; negated, ‘did not have to.’ “froher” = gladder."
+  },
+  {
+   "t": "Wie sich die Sonne blicken läßt, steigt sie in die Lüfte und ruft „ach, wo is dat schön! schön ist dat! schön! schön! ach, wo is dat schön!“",
+   "l": "As soon as the sun shows itself, she rises into the air and cries, “ah, how lovely it is! lovely it is! lovely! lovely! ah, how lovely it is!”",
+   "i": "The moment the sun shows itself, she rises into the air and cries, “ah, how lovely it is! lovely it is! lovely! lovely! ah, how lovely it is!”",
+   "n": "The lark’s Low German rejoicing: “wo is dat schön” = ‘wie ist das schön,’ how lovely it is — “wo” here = wie, “is” = ist, “dat” = das. “sich blicken lassen” — to let oneself be seen, show itself."
+  }
+ ],
+ "glossary": {
+  "don": "Low German: tun — to do (‘wat is den dar to don?’ = was ist denn da zu tun?; NOT ‘der Ton’ = sound)",
+  "henne": "die Henne — hen (‘seine liebe Henne’ = his dear hen; NOT Low German ‘hin’)",
+  "wählen": "wählen — to choose, elect (High German infinitive; NOT the Low German ‘wollen’ = to want)"
+ }
+}

@@ -1,0 +1,490 @@
+{
+ "id": "das-waldhaus",
+ "title": "Das Waldhaus",
+ "titleEn": "The Hut in the Forest",
+ "khm": 169,
+ "language": "German",
+ "langCode": "de-DE",
+ "work": "Kinder- und Hausmärchen",
+ "workEn": "Grimms’ Fairy Tales",
+ "workGloss": "Children’s and Household Tales",
+ "part": "The Hut in the Forest",
+ "source": "Brüder Grimm, Kinder- und Hausmärchen, Band 2, 7. Auflage (Ausgabe letzter Hand), Dieterich, Göttingen 1857, KHM 169. Text from Wikisource (twice proofread against the original). 1857 spelling preserved exactly (daß, gieng, fieng, Thür, roth).",
+ "about": "KHM 169 sends a woodcutter's three daughters, one after another, into the forest to bring him his dinner, where each ends up spending the night in a strange cottage kept by an old man and three talking animals — a hen, a cock, and a mottled cow. The first two daughters ignore the animals' hunger and are punished by falling through a trapdoor into a cellar; only the youngest feeds them before herself, and by morning both the old man and his house have become a prince and his palace. It is close kin to Cinderella-type tales, with kindness to animals doing the moral work a fairy godmother does elsewhere.",
+ "glossaryFile": "khm-glossary.json",
+ "sentences": [
+  {
+   "p": true,
+   "t": "Ein armer Holzhauer lebte mit seiner Frau und drei Töchtern in einer kleinen Hütte an dem Rande eines einsamen Waldes.",
+   "l": "A poor woodcutter lived with his wife and three daughters in a little hut at the edge of a lonely forest.",
+   "i": "A poor woodcutter lived with his wife and three daughters in a small hut on the edge of a lonely forest.",
+   "n": "“Holzhauer” = woodcutter (literally ‘wood-hewer’). “an dem Rande” — dative after an, ‘at the edge.’"
+  },
+  {
+   "t": "Eines Morgens, als er wieder an seine Arbeit wollte, sagte er zu seiner Frau, „laß mir mein Mittagsbrot von dem ältesten Mädchen hinaus in den Wald bringen, ich werde sonst nicht fertig.",
+   "l": "One morning, as he wanted to go to his work again, he said to his wife, “have my midday-bread brought out to me in the forest by the eldest girl, I shall not get finished otherwise.",
+   "i": "One morning, as he was about to set off for his work again, he said to his wife, “let the eldest girl bring my dinner out to me in the forest, or I shan’t get done.",
+   "n": "“laß … bringen” — lassen + infinitive, ‘have (something) brought.’ “Mittagsbrot” is the midday meal carried to a laborer. “sonst” = ‘otherwise.’"
+  },
+  {
+   "t": "Und damit es sich nicht verirrt,“ setzte er hinzu, „so will ich einen Beutel mit Hirsen mitnehmen und die Körner auf den Weg streuen.“",
+   "l": "And so that it does not lose its way,” he added, “I will take a pouch of millet along and scatter the grains on the path.”",
+   "i": "And so that she doesn’t lose her way,” he added, “I’ll take along a pouch of millet and scatter the grains on the path.”",
+   "n": "“es” is the girl (Mädchen is neuter, so German uses ‘it’). “setzte … hinzu” — hinzusetzen, ‘to add (in speech).’ “Hirsen” = millet. “mitnehmen” is separable, ‘to take along.’"
+  },
+  {
+   "t": "Als nun die Sonne mitten über dem Walde stand, machte sich das Mädchen mit einem Topf voll Suppe auf den Weg.",
+   "l": "When now the sun stood in the middle over the forest, the girl set out with a pot full of soup.",
+   "i": "Now when the sun stood at its height over the forest, the girl set out with a pot full of soup.",
+   "n": "“machte sich … auf den Weg” is an idiom, ‘set out.’ “mitten über” = ‘in the middle over,’ i.e. at its height."
+  },
+  {
+   "t": "Aber die Feld- und Waldsperlinge, die Lerchen und Finken, Amseln und Zeisige hatten den Hirsen schon längst aufgepickt, und das Mädchen konnte die Spur nicht finden.",
+   "l": "But the field- and forest-sparrows, the larks and finches, blackbirds and siskins had long since picked up the millet, and the girl could not find the trail.",
+   "i": "But the field- and wood-sparrows, the larks and finches, blackbirds and siskins had long since pecked up the millet, and the girl could not find the trail.",
+   "n": "“Feld- und Waldsperlinge” shares one noun across the hyphen — ‘field- and wood-sparrows.’ “aufgepickt” — aufpicken, ‘to peck up.’ “Spur” = track, trail."
+  },
+  {
+   "t": "Da gieng es auf gut Glück immer fort, bis die Sonne sank und die Nacht einbrach.",
+   "l": "There it went ever onward on good luck, until the sun sank and the night fell.",
+   "i": "So she pressed on and on at random, until the sun sank and night came on.",
+   "n": "“auf gut Glück” is an idiom, ‘at random, trusting to luck.’ “sank” here is the past of sinken (to sink). “einbrach” — einbrechen, of night ‘to fall.’ “gieng” = ging."
+  },
+  {
+   "t": "Die Bäume rauschten in der Dunkelheit, die Eulen schnarrten, und es fieng an ihm angst zu werden.",
+   "l": "The trees rustled in the darkness, the owls screeched, and it began to grow frightened.",
+   "i": "The trees rustled in the dark, the owls screeched, and she began to be afraid.",
+   "n": "“fieng an” — anfangen, ‘to begin’ (fieng is the 1857 spelling of fing). “es … ihm angst zu werden” is an impersonal dative, ‘fear came upon her’; “ihm” is the girl."
+  },
+  {
+   "t": "Da erblickte es in der Ferne ein Licht, das zwischen den Bäumen blinkte.",
+   "l": "There it caught sight in the distance of a light that gleamed between the trees.",
+   "i": "Then she spied in the distance a light that shone between the trees.",
+   "n": "“erblickte” = ‘caught sight of, spied.’ Fronting “Da” (‘there, then’) keeps the verb second (V2)."
+  },
+  {
+   "t": "„Dort sollten wohl Leute wohnen,“ dachte es, „die mich über Nacht behalten,“ und gieng auf das Licht zu.",
+   "l": "“There people should live, surely,” it thought, “who will keep me over night,” and went toward the light.",
+   "i": "“People must live there,” she thought, “who’ll take me in for the night,” and went toward the light.",
+   "n": "“sollten wohl” — the modal with “wohl” expresses supposition, ‘they must, surely.’ “über Nacht behalten” = ‘to keep overnight.’ “gieng … zu” — zugehen auf, ‘to go up to.’"
+  },
+  {
+   "t": "Nicht lange so kam es an ein Haus, dessen Fenster erleuchtet waren.",
+   "l": "Not long, and it came to a house whose windows were lit.",
+   "i": "Before long she came to a house with lighted windows.",
+   "n": "“Nicht lange so” = ‘before long.’ “dessen” is the genitive relative, ‘whose.’ Here “erleuchtet” is plain High German, ‘lit’ — not a Low German form."
+  },
+  {
+   "t": "Es klopfte an, und eine rauhe Stimme rief von innen „herein.“",
+   "l": "It knocked, and a rough voice called from within, “come in.”",
+   "i": "She knocked, and a rough voice called from inside, “come in.”",
+   "n": "“klopfte an” — anklopfen, ‘to knock at a door.’ “rauhe” — rough, harsh (1857 spelling of raue). “von innen” = ‘from within.’"
+  },
+  {
+   "t": "Das Mädchen trat auf die dunkle Diele, und pochte an der Stubenthür.",
+   "l": "The girl stepped onto the dark hall-floor and rapped at the parlor door.",
+   "i": "The girl stepped into the dark entry and rapped at the parlor door.",
+   "n": "“Diele” is the flagstone entrance floor or hallway of a house. “pochte an” — pochen, ‘to rap.’ “Stubenthür” = parlor door (Thür = the 1857 spelling of Tür)."
+  },
+  {
+   "t": "„Nur herein“ rief die Stimme, und als es öffnete, saß da ein alter eisgrauer Mann an dem Tisch, hatte das Gesicht auf die beiden Hände gestützt, und sein weißer Bart floß über den Tisch herab fast bis auf die Erde.",
+   "l": "“Just come in,” called the voice, and as it opened, there sat an old iron-gray man at the table, had his face propped on both hands, and his white beard flowed down over the table almost to the ground.",
+   "i": "“Come right in,” called the voice, and when she opened it, there at the table sat an old, iron-gray man, his face propped on both hands, his white beard flowing down over the table almost to the floor.",
+   "n": "“eisgrauer” = ‘iron-gray’ (of hair). “gestützt” — stützen, ‘to prop.’ “floß … herab” — herabfließen, ‘to flow down.’ German keeps neuter “es” for the girl."
+  },
+  {
+   "t": "Am Ofen aber lagen drei Thiere, ein Hühnchen, ein Hähnchen und eine buntgescheckte Kuh.",
+   "l": "But by the stove lay three animals, a little hen, a little cock, and a dappled cow.",
+   "i": "By the stove, meanwhile, lay three animals: a little hen, a little cock, and a brindled cow.",
+   "n": "“aber” here is lightly transitional, ‘but, meanwhile.’ “buntgescheckte” = ‘dappled, mottled.’ Hühnchen and Hähnchen are diminutives, ‘little hen’ and ‘little cock.’"
+  },
+  {
+   "t": "Das Mädchen erzählte dem Alten sein Schicksal und bat um ein Nachtlager.",
+   "l": "The girl told the old man its fate and asked for a night’s lodging.",
+   "i": "The girl told the old man her plight and asked for a night’s lodging.",
+   "n": "“erzählte dem Alten sein Schicksal” — “dem Alten” dative, ‘to the old man’; “sein” is neuter, agreeing with Mädchen. “Nachtlager” = a place to sleep for the night."
+  },
+  {
+   "t": "Der Mann sprach",
+   "l": "The man said",
+   "n": "“sprach” is the elevated narrative ‘said’ (from sprechen); the sentence leads into the rhymed question that follows."
+  },
+  {
+   "v": true,
+   "t": "„schön Hühnchen,\nschön Hähnchen,\nund du schöne bunte Kuh,\nwas sagst du dazu?“",
+   "l": "“fair little hen,\nfair little cock,\nand you fair dappled cow,\nwhat do you say to that?”",
+   "i": "“Pretty little hen,\npretty little cock,\nand you, pretty brindled cow,\nwhat do you say to it?”",
+   "n": "The old man’s question to the three animals; it recurs seven times through the tale with small changes. It rhymes Kuh / dazu; the idiomatic line does not reproduce the rhyme. “du” is rendered ‘you,’ never with an archaic pronoun."
+  },
+  {
+   "p": true,
+   "t": "„duks!“ antworteten die Thiere: und das mußte wohl heißen „wir sind es zufrieden,“ denn der Alte sprach weiter „hier ist Hülle und Fülle, geh hinaus an den Herd und koch uns ein Abendessen.“",
+   "l": "“duks!” answered the animals: and that must surely have meant “we are content with it,” for the old man spoke on, “here is plenty and to spare, go out to the hearth and cook us a supper.”",
+   "i": "“Duks!” answered the animals — which must have meant “we are content” — for the old man went on, “here there is plenty and to spare; go out to the hearth and cook us a supper.”",
+   "n": "“duks” is the animals’ cry, treated as speech; its exact sense is left open, glossed by the narrator as ‘we are content.’ “Hülle und Fülle” is a set phrase, ‘abundance, plenty and to spare.’"
+  },
+  {
+   "t": "Das Mädchen fand in der Küche Überfluß an allem und kochte eine gute Speise, aber an die Thiere dachte es nicht.",
+   "l": "The girl found in the kitchen abundance of everything and cooked a good dish, but of the animals it thought not.",
+   "i": "The girl found an abundance of everything in the kitchen and cooked a good dish, but she gave no thought to the animals.",
+   "n": "“Überfluß an allem” = ‘abundance of everything.’ The fronted “an die Thiere” before “dachte” throws the object forward for contrast (V2). This forgetfulness is what the animals reproach next."
+  },
+  {
+   "t": "Es trug die volle Schüssel auf den Tisch, setzte sich zu dem grauen Mann, aß und stillte seinen Hunger.",
+   "l": "It carried the full dish to the table, sat itself down by the gray man, ate, and stilled its hunger.",
+   "i": "She carried the full bowl to the table, sat down by the gray man, ate, and satisfied her hunger.",
+   "n": "“setzte sich” — reflexive, ‘sat down.’ “stillte seinen Hunger” — stillen, ‘to still, satisfy’; “seinen” is neuter (the girl’s)."
+  },
+  {
+   "t": "Als es satt war, sprach es „aber jetzt bin ich müde, wo ist ein Bett, in das ich mich legen und schlafen kann?“",
+   "l": "When it was full, it said, “but now I am tired; where is a bed in which I can lay myself and sleep?”",
+   "i": "When she had had enough, she said, “but now I’m tired; where is a bed I can lie down and sleep in?”",
+   "n": "“satt” = ‘full, sated.’ “in das ich mich legen … kann” — the relative clause sends both verbs to the end; “mich legen” = ‘lay myself, lie down.’"
+  },
+  {
+   "t": "Die Thiere antworteten",
+   "l": "The animals answered",
+   "n": "Leads into the animals’ rhymed reproach that follows."
+  },
+  {
+   "v": true,
+   "t": "„du hast mit ihm gegessen,\ndu hast mit ihm getrunken,\ndu hast an uns gar nicht gedacht,\nnun sieh auch wo du bleibst die Nacht.“",
+   "l": "“you have eaten with him,\nyou have drunk with him,\nyou did not think of us at all,\nnow see too where you stay the night.”",
+   "i": "“You have eaten with him,\nyou have drunk with him,\nyou gave us no thought at all,\nnow you may see for yourself where you spend the night.”",
+   "n": "The animals’ reproach to the girl who fed only herself; it recurs when the second sister comes. It rhymes gedacht / Nacht. “nun sieh auch wo du bleibst” — ‘now see for yourself where you’ll stay.’ “du” is ‘you.’"
+  },
+  {
+   "p": true,
+   "t": "Da sprach der Alte „steig nur die Treppe hinauf, so wirst du eine Kammer mit zwei Betten finden, schüttle sie auf und decke sie mit weißem Linnen, so will ich auch kommen und mich schlafen legen.“",
+   "l": "Then the old man said, “just climb up the stairs, and you will find a chamber with two beds; shake them up and cover them with white linen, then I too will come and lay myself down to sleep.”",
+   "i": "Then the old man said, “just go up the stairs, and you’ll find a chamber with two beds; shake them up and spread them with white linen, and I too will come and lie down to sleep.”",
+   "n": "“steig … hinauf” — hinaufsteigen. “schüttle … auf” — aufschütteln, ‘to shake up, plump.’ “weißem Linnen” — “weiß” here is ‘white’ (the color), and Linnen is an old word for linen. “du” is ‘you.’"
+  },
+  {
+   "t": "Das Mädchen stieg hinauf, und als es die Betten geschüttelt und frisch gedeckt hatte, legte es sich in das eine, ohne weiter auf den Alten zu warten.",
+   "l": "The girl climbed up, and when it had shaken the beds and freshly covered them, it lay down in the one, without waiting further for the old man.",
+   "i": "The girl went up, and when she had shaken the beds and made them fresh, she lay down in one of them, without waiting any longer for the old man.",
+   "n": "“geschüttelt … gedeckt hatte” — pluperfect. “legte es sich” — reflexive, ‘lay down.’ “ohne … zu warten” = ‘without waiting.’"
+  },
+  {
+   "t": "Nach einiger Zeit aber kam der graue Mann, beleuchtete das Mädchen mit dem Licht und schüttelte mit dem Kopf.",
+   "l": "After some time, however, the gray man came, lit up the girl with the light, and shook his head.",
+   "i": "After a while, though, the gray man came, shone the light on the girl, and shook his head.",
+   "n": "“beleuchtete … mit dem Licht” = ‘lit up, shone light on.’ “schüttelte mit dem Kopf” = ‘shook his head.’"
+  },
+  {
+   "t": "Und als er sah daß es fest eingeschlafen war, öffnete er eine Fallthüre und ließ es in den Keller sinken.",
+   "l": "And when he saw that it had fallen fast asleep, he opened a trapdoor and let it sink into the cellar.",
+   "i": "And when he saw that she was fast asleep, he opened a trapdoor and let her sink down into the cellar.",
+   "n": "“fest eingeschlafen” = ‘fast asleep.’ “Fallthüre” = trapdoor (Thüre = 1857 spelling of Türe). “ließ es … sinken” — lassen + infinitive, ‘let (her) sink.’"
+  },
+  {
+   "p": true,
+   "t": "Der Holzhauer kam am späten Abend nach Haus und machte seiner Frau Vorwürfe, daß sie ihn den ganzen Tag habe hungern lassen.",
+   "l": "The woodcutter came home late in the evening and reproached his wife that she had let him go hungry the whole day.",
+   "i": "The woodcutter came home late that evening and reproached his wife for letting him go hungry all day long.",
+   "n": "“machte … Vorwürfe” — jemandem Vorwürfe machen, ‘to reproach someone.’ “habe … lassen” is subjunctive of reported speech within the reproach."
+  },
+  {
+   "t": "„Ich habe keine Schuld“ antwortete sie, „das Mädchen ist mit dem Mittagsessen hinausgegangen, es muß sich verirrt haben: morgen wird es schon wiederkommen.“",
+   "l": "“I have no blame,” answered she, “the girl went out with the midday meal, it must have lost its way: tomorrow it will surely come back again.”",
+   "i": "“It’s no fault of mine,” she answered, “the girl went out with the midday meal; she must have lost her way — tomorrow she’ll come back, no doubt.”",
+   "n": "“keine Schuld haben” = ‘to be not to blame.’ “hinausgegangen” — hinausgehen. “schon” here softens to ‘surely, no doubt.’"
+  },
+  {
+   "t": "Vor Tag aber stand der Holzhauer auf, wollte in den Wald und verlangte die zweite Tochter sollte ihm diesmal das Essen bringen.",
+   "l": "But before day the woodcutter got up, wanted to go into the forest, and demanded the second daughter should bring him the food this time.",
+   "i": "But before daybreak the woodcutter got up, meaning to go into the forest, and insisted the second daughter should bring him his food this time.",
+   "n": "“Vor Tag” = ‘before daybreak.’ “stand … auf” — aufstehen. “verlangte … sollte” — indirect demand, ‘demanded that … should.’"
+  },
+  {
+   "t": "„Ich will einen Beutel mit Linsen mitnehmen,“ sagte er, „die Körner sind größer als Hirsen, das Mädchen wird sie besser sehen und kann den Weg nicht verfehlen.“",
+   "l": "“I will take a pouch of lentils along,” said he, “the grains are bigger than millet, the girl will see them better and cannot miss the way.”",
+   "i": "“I’ll take along a pouch of lentils,” said he, “the grains are bigger than millet; the girl will see them better and can’t miss the way.”",
+   "n": "“Linsen” = lentils. “verfehlen” = ‘to miss, fail to find.’ The ruse repeats with bigger grain than the first day’s millet."
+  },
+  {
+   "t": "Zur Mittagszeit trug auch das Mädchen die Speise hinaus, aber die Linsen waren verschwunden: die Waldvögel hatten sie, wie am vorigen Tag, aufgepickt und keine übrig gelassen.",
+   "l": "At midday the girl too carried the food out, but the lentils had vanished: the forest birds had, as on the day before, picked them up and left none over.",
+   "i": "At noon this girl too carried the food out, but the lentils had disappeared: the forest birds had pecked them up, as on the previous day, and left none behind.",
+   "n": "“Zur Mittagszeit” = ‘at midday.’ “Waldvögel” = forest birds. “übrig gelassen” — übriglassen, ‘to leave over.’ The pattern repeats with the second daughter."
+  },
+  {
+   "t": "Das Mädchen irrte im Walde umher bis es Nacht ward, da kam es ebenfalls zu dem Haus des Alten, ward hereingerufen, und bat um Speise und Nachtlager.",
+   "l": "The girl strayed about in the forest until it grew night; there it came likewise to the old man’s house, was called in, and asked for food and a night’s lodging.",
+   "i": "The girl wandered about the forest until night fell; then she too came to the old man’s house, was called in, and asked for food and a night’s lodging.",
+   "n": "“irrte … umher” — umherirren, ‘to wander about.’ “ward” is the old preterite of werden. “hereingerufen” — hereinrufen, ‘to call in.’"
+  },
+  {
+   "t": "Der Mann mit dem weißen Barte fragte wieder die Thiere",
+   "l": "The man with the white beard again asked the animals",
+   "n": "“Barte” has an old dative -e (Bart). Leads into the second occurrence of the rhymed question."
+  },
+  {
+   "v": true,
+   "t": "„schön Hühnchen,\nschön Hähnchen,\nund du schöne bunte Kuh,\nwas sagst du dazu?“",
+   "l": "“fair little hen,\nfair little cock,\nand you fair dappled cow,\nwhat do you say to that?”",
+   "i": "“Pretty little hen,\npretty little cock,\nand you, pretty brindled cow,\nwhat do you say to it?”",
+   "n": "The old man’s question, repeated word for word for the second daughter; same rhyme Kuh / dazu."
+  },
+  {
+   "p": true,
+   "t": "Die Thiere antworteten abermals „duks,“ und es geschah alles wie am vorigen Tag.",
+   "l": "The animals answered once again “duks,” and everything happened as on the day before.",
+   "i": "The animals again answered “duks,” and it all went just as on the previous day.",
+   "n": "“abermals” = ‘once again.’ “es geschah alles wie …” = ‘everything happened as.’"
+  },
+  {
+   "t": "Das Mädchen kochte eine gute Speise, aß und trank mit dem Alten und kümmerte sich nicht um die Thiere.",
+   "l": "The girl cooked a good dish, ate and drank with the old man, and did not concern itself about the animals.",
+   "i": "The girl cooked a good dish, ate and drank with the old man, and paid no heed to the animals.",
+   "n": "“kümmerte sich nicht um” — sich um etwas kümmern, ‘to concern oneself with’; the second sister repeats the first’s neglect."
+  },
+  {
+   "t": "Und als es sich nach seinem Nachtlager erkundigte, antworteten sie",
+   "l": "And when it inquired after its night’s lodging, they answered",
+   "n": "“erkundigte sich nach” — sich erkundigen, ‘to inquire after.’ Leads into the animals’ reproach again."
+  },
+  {
+   "v": true,
+   "t": "„du hast mit ihm gegessen,\ndu hast mit ihm getrunken,\ndu hast an uns gar nicht gedacht,\nnun sieh auch wo du bleibst die Nacht.“",
+   "l": "“you have eaten with him,\nyou have drunk with him,\nyou did not think of us at all,\nnow see too where you stay the night.”",
+   "i": "“You have eaten with him,\nyou have drunk with him,\nyou gave us no thought at all,\nnow you may see for yourself where you spend the night.”",
+   "n": "The animals’ reproach, repeated for the second sister; same rhyme gedacht / Nacht."
+  },
+  {
+   "p": true,
+   "t": "Als es eingeschlafen war, kam der Alte, betrachtete es mit Kopfschütteln und ließ es in den Keller hinab.",
+   "l": "When it had fallen asleep, the old man came, regarded it with head-shaking, and let it down into the cellar.",
+   "i": "When she had fallen asleep, the old man came, looked at her with a shake of his head, and let her down into the cellar.",
+   "n": "“betrachtete” = ‘regarded, looked at.’ “mit Kopfschütteln” = ‘with a shaking of the head.’ “ließ … hinab” — hinablassen. The second sister meets the first’s fate."
+  },
+  {
+   "p": true,
+   "t": "Am dritten Morgen sprach der Holzhacker zu seiner Frau „schicke mir heute unser jüngstes Kind mit dem Essen hinaus, das ist immer gut und gehorsam gewesen, das wird auf dem rechten Weg bleiben und nicht wie seine Schwestern, die wilden Hummeln, herum schwärmen.“",
+   "l": "On the third morning the woodcutter said to his wife, “send our youngest child out to me today with the food; that one has always been good and obedient, that one will stay on the right path and not swarm about like its sisters, the wild bumblebees.”",
+   "i": "On the third morning the woodcutter said to his wife, “send our youngest child out to me with the food today; she has always been good and obedient, she’ll keep to the right path and not go rambling about like her sisters, those wild bumblebees.”",
+   "n": "“Holzhacker” is a second word for the woodcutter (‘wood-chopper’; Holzhauer earlier). “wilden Hummeln” — ‘wild bumblebees,’ a figure for the flighty sisters. “herum schwärmen” — herumschwärmen, ‘to rove about.’"
+  },
+  {
+   "t": "Die Mutter wollte nicht und sprach „soll ich mein liebstes Kind auch noch verlieren?“",
+   "l": "The mother would not and said, “am I to lose my dearest child too?”",
+   "i": "The mother was unwilling and said, “am I to lose my dearest child as well?”",
+   "n": "“wollte nicht” = ‘was unwilling.’ “auch noch” = ‘too, on top of it all.’"
+  },
+  {
+   "t": "„Sei ohne Sorge,“ antwortete er, „das Mädchen verirrt sich nicht, es ist zu klug und verständig; zum Überfluß will ich Erbsen mitnehmen, und ausstreuen, die sind noch größer als Linsen und werden ihm den Weg zeigen.“",
+   "l": "“Be without worry,” answered he, “the girl does not lose her way, it is too clever and sensible; for good measure I will take peas along and scatter them, they are still bigger than lentils and will show it the way.”",
+   "i": "“Have no fear,” he answered, “the girl won’t lose her way, she’s too clever and sensible; for good measure I’ll take along peas and scatter them — they’re bigger still than lentils and will show her the way.”",
+   "n": "“Sei ohne Sorge” = ‘have no fear.’ “zum Überfluß” here = ‘for good measure.’ “Erbsen” = peas; the grain grows larger each day, and each day fails."
+  },
+  {
+   "t": "Aber als das Mädchen mit dem Korb am Arm hinaus kam, so hatten die Waldtauben die Erbsen schon im Kropf, und es wußte nicht wohin es sich wenden sollte.",
+   "l": "But when the girl came out with the basket on her arm, the wood-doves had the peas already in their crop, and it did not know where it should turn.",
+   "i": "But when the girl came out with the basket on her arm, the wood-pigeons already had the peas in their crops, and she did not know which way to turn.",
+   "n": "“Waldtauben” = wood-doves, wood-pigeons. “im Kropf” — the crop (a bird’s gullet-pouch). “wohin es sich wenden sollte” — ‘where she should turn.’"
+  },
+  {
+   "t": "Es war voll Sorgen und dachte beständig daran wie der arme Vater hungern und die gute Mutter jammern würde, wenn es ausbliebe.",
+   "l": "It was full of cares and thought constantly of how the poor father would go hungry and the good mother would lament, if it stayed away.",
+   "i": "She was full of worry and kept thinking of how the poor father would go hungry and the good mother would grieve, if she failed to return.",
+   "n": "“voll Sorgen” = ‘full of cares.’ “beständig” = ‘constantly.’ “ausbliebe” — ausbleiben, ‘to stay away’ (subjunctive)."
+  },
+  {
+   "t": "Endlich als es finster ward, erblickte es das Lichtchen und kam an das Waldhaus.",
+   "l": "At last, when it grew dark, it caught sight of the little light and came to the forest-house.",
+   "i": "At last, when it grew dark, she spied the little light and came to the woodland house.",
+   "n": "“Lichtchen” — diminutive of Licht, ‘little light.’ “Waldhaus” = forest-house, the house of the title. “ward” — old preterite of werden."
+  },
+  {
+   "t": "Es bat ganz freundlich sie möchten es über Nacht beherbergen, und der Mann mit dem weißen Bart fragte wieder seine Thiere",
+   "l": "It asked quite kindly that they might shelter it over night, and the man with the white beard again asked his animals",
+   "i": "She asked very kindly that they might take her in for the night, and the man with the white beard again asked his animals",
+   "n": "“beherbergen” = ‘to shelter, lodge.’ “möchten” is subjunctive in the polite reported request. Leads into the third occurrence of the rhymed question."
+  },
+  {
+   "v": true,
+   "t": "„schön Hühnchen,\nschön Hähnchen,\nund du schöne bunte Kuh,\nwas sagst du dazu?“",
+   "l": "“fair little hen,\nfair little cock,\nand you fair dappled cow,\nwhat do you say to that?”",
+   "i": "“Pretty little hen,\npretty little cock,\nand you, pretty brindled cow,\nwhat do you say to it?”",
+   "n": "The old man’s question a third time, now for the youngest daughter; same rhyme Kuh / dazu."
+  },
+  {
+   "p": true,
+   "t": "„duks“ sagten sie.",
+   "l": "“duks” said they.",
+   "n": "The animals’ assent again; the youngest daughter, unlike her sisters, will now heed them."
+  },
+  {
+   "t": "Da trat das Mädchen an den Ofen, wo die Thiere lagen, und liebkoste Hühnchen und Hähnchen, indem es mit der Hand über die glatten Federn hinstrich, und die bunte Kuh kraute es zwischen den Hörnern.",
+   "l": "Then the girl stepped up to the stove where the animals lay and caressed the little hen and little cock, stroking with her hand over the smooth feathers, and the dappled cow it scratched between the horns.",
+   "i": "Then the girl went up to the stove where the animals lay and caressed the little hen and cock, stroking their smooth feathers with her hand, and scratched the brindled cow between the horns.",
+   "n": "“liebkoste” = ‘caressed.’ “indem es … hinstrich” — “indem” with a clause of manner, ‘by stroking’; hinstreichen, ‘to stroke along.’ “kraute” — krauen, ‘to scratch gently.’"
+  },
+  {
+   "t": "Und als es auf Geheiß des Alten eine gute Suppe bereitet hatte und die Schüssel auf dem Tisch stand, so sprach es „soll ich mich sättigen und die guten Thiere sollen nichts haben?",
+   "l": "And when it had, at the old man’s bidding, prepared a good soup, and the dish stood on the table, then it said, “am I to sate myself and the good animals are to have nothing?",
+   "i": "And when she had made a good soup at the old man’s bidding, and the bowl stood on the table, she said, “am I to fill myself while the good animals have nothing?",
+   "n": "“auf Geheiß” = ‘at the bidding, command.’ “sättigen” — ‘to sate, fill.’ The correlative “als … so” carries the ‘when … then.’"
+  },
+  {
+   "t": "Draußen ist die Hülle und Fülle, erst will ich für sie sorgen.“",
+   "l": "Outside there is plenty and to spare; first I will care for them.”",
+   "i": "Out there is plenty and to spare; first I’ll see to them.”",
+   "n": "“Hülle und Fülle” again, the set phrase for abundance. “erst” = ‘first of all.’ “für sie sorgen” = ‘to care for them.’"
+  },
+  {
+   "t": "Da ging es, holte Gerste und streute sie dem Hühnchen und Hähnchen vor, und brachte der Kuh wohlriechendes Heu einen ganzen Arm voll.",
+   "l": "Then it went, fetched barley, and strewed it before the little hen and little cock, and brought the cow sweet-smelling hay, a whole armful.",
+   "i": "So she went and fetched barley, scattered it before the hen and cock, and brought the cow a whole armful of sweet-smelling hay.",
+   "n": "“streute … vor” — vorstreuen, ‘to strew before (an animal).’ “Gerste” = barley. “wohlriechendes Heu” = ‘sweet-smelling hay.’"
+  },
+  {
+   "t": "„Laßts euch schmecken, ihr lieben Thiere,“ sagte es, „und wenn ihr durstig seid, sollt ihr auch einen frischen Trunk haben.“",
+   "l": "“Let it taste good to you, you dear animals,” it said, “and if you are thirsty, you shall have a fresh drink too.”",
+   "i": "“Enjoy it, you dear animals,” she said, “and if you are thirsty, you shall have a fresh drink as well.”",
+   "n": "“Laßts euch schmecken” — a contraction of ‘laßt es euch schmecken,’ the idiom ‘enjoy your food.’ “Trunk” = a drink, draught. “ihr/euch” — plural ‘you.’"
+  },
+  {
+   "t": "Dann trug es einen Eimer voll Wasser herein, und Hühnchen und Hähnchen sprangen auf den Rand, steckten den Schnabel hinein und hielten den Kopf dann in die Höhe wie die Vögel trinken, und die bunte Kuh that auch einen herzhaften Zug.",
+   "l": "Then it carried in a bucket full of water, and the little hen and little cock sprang onto the rim, stuck their beaks in, and held their heads up then, the way the birds drink, and the dappled cow took a hearty draught too.",
+   "i": "Then she carried in a bucketful of water, and the hen and cock hopped onto the rim, dipped their beaks in, and then held their heads up the way birds drink, and the brindled cow took a hearty draught as well.",
+   "n": "“trug … herein” — hereintragen. “in die Höhe” = ‘up, aloft.’ “that … einen … Zug” — “that” is the 1857 spelling of tat; “einen Zug thun” = ‘to take a draught.’"
+  },
+  {
+   "t": "Als die Thiere gefüttert waren, setzte sich das Mädchen zu dem Alten an den Tisch und aß was er ihm übrig gelassen hatte.",
+   "l": "When the animals were fed, the girl sat itself down by the old man at the table and ate what he had left over for it.",
+   "i": "When the animals had been fed, the girl sat down at the table by the old man and ate what he had left for her.",
+   "n": "“gefüttert” — füttern, ‘to feed (an animal).’ “übrig gelassen hatte” — pluperfect of übriglassen. “ihm” is a dative, ‘for her’ (neuter, the girl)."
+  },
+  {
+   "t": "Nicht lange so fieng Hühnchen und Hähnchen an das Köpfchen zwischen die Flügel zu stecken, und die bunte Kuh blinzelte mit den Augen.",
+   "l": "Not long, and the little hen and little cock began to stick their little heads between their wings, and the dappled cow blinked with its eyes.",
+   "i": "Before long the little hen and cock began to tuck their heads between their wings, and the brindled cow blinked its eyes.",
+   "n": "“fieng … an … zu stecken” — anfangen zu, ‘to begin to’ (fieng = fing). “Köpfchen” — diminutive, ‘little head.’ “blinzelte” — ‘blinked’ (drowsy)."
+  },
+  {
+   "t": "Da sprach das Mädchen „sollen wir uns nicht zur Ruhe begeben?",
+   "l": "Then the girl said, “should we not betake ourselves to rest?",
+   "i": "Then the girl said, “shall we not take ourselves off to rest?",
+   "n": "“sich zur Ruhe begeben” — an idiom, ‘to retire to rest, go to bed.’ The girl now speaks the animals’ rhyme herself, leading into it."
+  },
+  {
+   "v": true,
+   "t": "schön Hühnchen,\nschön Hähnchen,\nund du schöne bunte Kuh,\nwas sagst du dazu?“",
+   "l": "fair little hen,\nfair little cock,\nand you fair dappled cow,\nwhat do you say to that?”",
+   "i": "Pretty little hen,\npretty little cock,\nand you, pretty brindled cow,\nwhat do you say to it?”",
+   "n": "Now the kind girl herself puts the question to the animals — the fourth time the formula sounds, and the turning point. Same rhyme Kuh / dazu; the opening quotation mark is absent because her speech began in the previous line."
+  },
+  {
+   "p": true,
+   "t": "Die Thiere antworteten „duks,",
+   "l": "The animals answered “duks,",
+   "n": "The animals’ reply, which now runs straight on into their blessing rather than a reproach."
+  },
+  {
+   "v": true,
+   "t": "du hast mit uns gegessen,\ndu hast mit uns getrunken,\ndu hast uns alle wohl bedacht,\nwir wünschen dir eine gute Nacht.“",
+   "l": "you have eaten with us,\nyou have drunk with us,\nyou have thought kindly of us all,\nwe wish you a good night.”",
+   "i": "you have eaten with us,\nyou have drunk with us,\nyou have taken good thought for us all,\nwe wish you a good night.”",
+   "n": "The reproach of the earlier rhymes is turned to blessing: “mit ihm” becomes “mit uns,” and the neglect becomes “uns alle wohl bedacht.” It rhymes bedacht / Nacht. “dir/du” is ‘you.’"
+  },
+  {
+   "p": true,
+   "t": "Da gieng das Mädchen die Treppe hinauf, schüttelte die Federkissen und deckte frisches Linnen auf, und als es fertig war, kam der Alte und legte sich in das eine Bett, und sein weißer Bart reichte ihm bis an die Füße.",
+   "l": "Then the girl climbed up the stairs, shook the feather-pillows, and spread fresh linen on, and when it was ready, the old man came and lay down in the one bed, and his white beard reached him down to the feet.",
+   "i": "Then the girl went up the stairs, shook the feather pillows, and laid on fresh linen, and when it was ready, the old man came and lay down in the one bed, his white beard reaching down to his feet.",
+   "n": "“Federkissen” = feather-pillows. “deckte … auf” — aufdecken, here ‘to spread on.’ “reichte ihm bis an die Füße” — dative of the person, ‘reached down to his feet.’ “gieng” = ging."
+  },
+  {
+   "t": "Das Mädchen legte sich in das andere, that sein Gebet und schlief ein.",
+   "l": "The girl lay itself down in the other, said its prayer, and fell asleep.",
+   "i": "The girl lay down in the other, said her prayer, and fell asleep.",
+   "n": "“legte sich” — reflexive. “that sein Gebet” — “that” = tat; “sein” is neuter, ‘her prayer.’ “schlief ein” — einschlafen."
+  },
+  {
+   "p": true,
+   "t": "Es schlief ruhig bis Mitternacht, da ward es so unruhig in dem Hause, daß das Mädchen erwachte.",
+   "l": "It slept peacefully until midnight; then it grew so restless in the house that the girl awoke.",
+   "i": "She slept peacefully until midnight; then such a commotion arose in the house that the girl awoke.",
+   "n": "“ward … unruhig” — the impersonal ‘it grew restless,’ i.e. an uproar arose (ward is the old preterite of werden). Here “unruhig” is plain High German, ‘restless.’"
+  },
+  {
+   "t": "Da fieng es an in den Ecken zu knittern und zu knattern, und die Thüre sprang auf und schlug an die Wand: die Balken drönten, als wenn sie aus ihren Fugen gerissen würden, und es war als wenn die Treppe herab stürzte, und endlich krachte es als wenn das ganze Dach zusammen fiele.",
+   "l": "Then it began in the corners to crackle and to clatter, and the door sprang open and struck against the wall: the beams groaned as if they were being torn out of their joints, and it was as if the stairs came tumbling down, and at last it crashed as if the whole roof were falling in.",
+   "i": "Then a crackling and clattering began in the corners, the door flew open and banged against the wall: the beams groaned as if they were being wrenched from their joints, and it was as though the staircase were tumbling down, and at last there was a crash as if the whole roof were caving in.",
+   "n": "“knittern … knattern” — two near-rhyming verbs for crackling and clattering. “drönten” — dröhnen, ‘to boom, groan’ (1857 spelling). “als wenn … gerissen würden … fiele” — repeated ‘as if’ clauses in the subjunctive. “sprang auf” — aufspringen, ‘to fly open.’"
+  },
+  {
+   "t": "Da es aber wieder still ward und dem Mädchen nichts zu Leid geschah, so blieb es ruhig liegen und schlief wieder ein.",
+   "l": "But when it grew still again and no harm came to the girl, it stayed lying quietly and fell asleep again.",
+   "i": "But when it grew quiet again and no harm came to the girl, she lay still and fell asleep once more.",
+   "n": "“nichts zu Leid geschah” — jemandem zu Leid geschehen, ‘to come to harm.’ “blieb … liegen” — bleiben + infinitive, ‘to remain lying.’"
+  },
+  {
+   "t": "Als es aber am Morgen bei hellem Sonnenschein aufwachte, was erblickten seine Augen?",
+   "l": "But when it awoke in the morning in bright sunshine, what did its eyes catch sight of?",
+   "i": "But when she awoke in the morning in bright sunshine, what did her eyes behold?",
+   "n": "“aufwachte” — aufwachen, ‘to wake up.’ “was erblickten seine Augen” — the rhetorical question inverts to verb-first; “seine” is neuter, ‘her eyes.’"
+  },
+  {
+   "t": "Es lag in einem großen Saal, und rings umher glänzte alles in königlicher Pracht: an den Wänden wuchsen auf grün seidenem Grund goldene Blumen in die Höhe, das Bett war von Elfenbein und die Decke darauf von rothem Sammt, und auf einem Stuhl daneben standen ein paar mit Perlen gestickte Pantoffel.",
+   "l": "It lay in a great hall, and all around everything gleamed in royal splendor: on the walls golden flowers grew up on a green silken ground, the bed was of ivory and the cover on it of red velvet, and on a chair beside it stood a pair of pearl-embroidered slippers.",
+   "i": "She lay in a great hall, and all around everything shone in royal splendor: golden flowers climbed the walls on a green silken ground, the bed was of ivory, its coverlet of red velvet, and on a chair beside it stood a pair of pearl-embroidered slippers.",
+   "n": "“rings umher” = ‘all around.’ “seidenem Grund” = ‘silken ground/background.’ “rothem Sammt” — 1857 spellings of rotem Samt (red velvet). “mit Perlen gestickte” — sticken, ‘embroidered with pearls.’"
+  },
+  {
+   "t": "Das Mädchen glaubte es wäre ein Traum, aber es traten drei reichgekleidete Diener herein und fragten was es zu befehlen hätte.",
+   "l": "The girl believed it were a dream, but three richly dressed servants stepped in and asked what it had to command.",
+   "i": "The girl thought it must be a dream, but three richly dressed servants came in and asked what she wished to command.",
+   "n": "“es wäre ein Traum” — subjunctive of reported belief. “traten … herein” — hereintreten, ‘to step in.’ “was es zu befehlen hätte” = ‘what she had to command.’"
+  },
+  {
+   "t": "„Geht nur,“ antwortete das Mädchen, „ich will gleich aufstehen und dem Alten eine Suppe kochen und dann auch schön Hühnchen, schön Hähnchen und die schöne bunte Kuh füttern.“",
+   "l": "“Just go,” answered the girl, “I will get up at once and cook the old man a soup, and then also feed fair little hen, fair little cock, and the fair dappled cow.”",
+   "i": "“Go on, then,” answered the girl, “I’ll get up at once and cook the old man a soup, and then feed the pretty little hen, the pretty little cock, and the pretty brindled cow too.”",
+   "n": "The girl still means to serve the old man and the animals — she does not yet grasp the transformation. The animal-names echo the rhyme, here in plain prose."
+  },
+  {
+   "t": "Es dachte der Alte wäre schon aufgestanden und sah sich nach seinem Bette um, aber er lag nicht darin, sondern ein fremder Mann.",
+   "l": "It thought the old man had already got up and looked around after his bed, but he did not lie in it, but rather a strange man.",
+   "i": "She thought the old man had already got up and looked round for his bed, but it was not he lying there, but a stranger.",
+   "n": "“wäre … aufgestanden” — subjunctive of reported thought. “sah sich … um” — sich umsehen nach, ‘to look around for.’ “sondern” = ‘but rather’ (after a negation). “Bette” has an old dative -e."
+  },
+  {
+   "t": "Und als es ihn betrachtete und sah daß er jung und schön war, erwachte er, richtete sich auf und sprach „ich bin ein Königssohn, und war von einer bösen Hexe verwünscht worden als ein alter eisgrauer Mann in dem Wald zu leben: niemand durfte um mich sein als meine drei Diener in der Gestalt eines Hühnchens eines Hähnchens und einer bunten Kuh.",
+   "l": "And when it looked at him and saw that he was young and handsome, he awoke, raised himself up, and said, “I am a king’s son, and was cursed by a wicked witch to live as an old iron-gray man in the forest: no one was allowed to be about me but my three servants in the shape of a little hen, a little cock, and a dappled cow.",
+   "i": "And as she looked at him and saw that he was young and handsome, he awoke, sat up, and said, “I am a king’s son, and was cursed by a wicked witch to live as an old, iron-gray man in the forest: no one might be near me but my three servants in the shape of a little hen, a little cock, and a brindled cow.",
+   "n": "“verwünscht worden … zu leben” — passive of verwünschen, ‘to be cursed (to do).’ “Königssohn” = king’s son, prince. “durfte … sein” — dürfen, ‘to be permitted.’ “in der Gestalt” = ‘in the shape of.’"
+  },
+  {
+   "t": "Und nicht eher sollte die Verwünschung aufhören, als bis ein Mädchen zu uns käme, so gut von Herzen, daß es nicht gegen die Menschen allein, sondern auch gegen die Thiere sich liebreich bezeigte, und das bist du gewesen, und heute um Mitternacht sind wir durch dich erlöst und das alte Waldhaus ist wieder in meinen königlichen Palast verwandelt worden.“",
+   "l": "And the curse was not to cease before a girl came to us, so good of heart that it showed itself loving not only toward people but also toward the animals; and that you have been, and today at midnight we are redeemed through you, and the old forest-house is changed back into my royal palace.”",
+   "i": "And the curse was not to end until a girl should come to us, so good of heart that she showed herself loving not to people alone but to the animals too; and that you have been, and today at midnight we are redeemed through you, and the old woodland house has been changed back into my royal palace.”",
+   "n": "“nicht eher … als bis” = ‘not before … until.’ “käme … bezeigte” — subjunctives in the condition. “sich liebreich bezeigte” — sich bezeigen, ‘to show oneself (to be).’ “verwandelt worden” — passive of verwandeln. “du” is ‘you.’"
+  },
+  {
+   "t": "Und als sie aufgestanden waren, sagte der Königssohn den drei Dienern sie sollten hinfahren und Vater und Mutter des Mädchens zur Hochzeitsfeier herbei holen.",
+   "l": "And when they had got up, the king’s son told the three servants they should drive off and fetch the girl’s father and mother here for the wedding celebration.",
+   "i": "And when they had risen, the king’s son told the three servants to set out and bring the girl’s father and mother here for the wedding feast.",
+   "n": "“aufgestanden waren” — pluperfect of aufstehen. “hinfahren” = ‘to drive/set off (to a place).’ “herbei holen” — herbeiholen, ‘to fetch here.’ “Hochzeitsfeier” = wedding celebration."
+  },
+  {
+   "t": "„Aber wo sind meine zwei Schwestern?“ fragte das Mädchen.",
+   "l": "“But where are my two sisters?” asked the girl.",
+   "n": "The girl’s first thought is for her sisters, who scorned the animals; “meine zwei Schwestern” = ‘my two sisters.’"
+  },
+  {
+   "t": "„Die habe ich in den Keller gesperrt, und Morgen sollen sie in den Wald geführt werden und sollen bei einem Köhler so lange als Mägde dienen, bis sie sich gebessert haben und auch die armen Thiere nicht hungern lassen.“",
+   "l": "“Those I have locked in the cellar, and tomorrow they shall be led into the forest and shall serve as maids at a charcoal-burner’s for so long, until they have mended their ways and do not let the poor animals go hungry either.”",
+   "i": "“Those I have shut in the cellar, and tomorrow they shall be taken into the forest and serve as maids to a charcoal-burner until they have mended their ways and no longer let the poor animals go hungry either.”",
+   "n": "“gesperrt” — sperren/einsperren, ‘to shut, lock in.’ “geführt werden” — passive, ‘to be led.’ “Köhler” = charcoal-burner. “bis sie sich gebessert haben” — sich bessern, ‘to reform, mend one’s ways.’"
+  }
+ ],
+ "glossary": {
+  "erleuchtet": "erleuchten — to light up, illuminate (past part.; here plain High German ‘lit,’ not a Low German form)",
+  "kraute": "krauen — to scratch gently, tickle (3rd sg. past; die Kuh kraute es = she scratched the cow; not from Kraut ‘herb’)",
+  "sammt": "der Samt — velvet (1857 spelling; von rothem Sammt = of red velvet; the noun here, not the preposition ‘samt’ = together with)",
+  "unruhig": "unruhig — restless, troubled (here plain High German; es ward unruhig = an uproar arose)"
+ }
+}

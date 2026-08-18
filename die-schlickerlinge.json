@@ -1,0 +1,73 @@
+{
+ "id": "die-schlickerlinge",
+ "title": "Die Schlickerlinge",
+ "titleEn": "The Cast-Off Flax",
+ "khm": 156,
+ "language": "German",
+ "langCode": "de-DE",
+ "work": "Kinder- und Hausmärchen",
+ "workEn": "Grimms’ Fairy Tales",
+ "workGloss": "Children’s and Household Tales",
+ "part": "The Cast-Off Flax",
+ "source": "Brüder Grimm, Kinder- und Hausmärchen, Band 2, 7. Auflage (Ausgabe letzter Hand), Dieterich, Göttingen 1857, KHM 156. Text from Wikisource (twice proofread against the original). 1857 spelling preserved exactly (daß, gieng, ließ). This tale is mostly in High German, but the bride's rhymed boast at the wedding-eve dance is in Low German (Plattdeutsch); the glossary gives the High German equivalent for each dialect form.",
+ "about": "KHM 156 is barely more than an anecdote: a pretty, careless girl tears her flax to shreds at the spinning wheel, while her diligent servant quietly gathers up what was thrown away and spins herself a fine dress from it. At the wedding-eve dance the bride's own boastful little rhyme about the servant's borrowed thread gives the game away, and the bridegroom simply changes his mind on the spot — one of the shortest tales in the collection, built almost entirely around that one rhymed line.",
+ "glossaryFile": "khm-glossary.json",
+ "sentences": [
+  {
+   "p": true,
+   "t": "Es war einmal ein Mädchen, das war schön, aber faul und nachlässig.",
+   "l": "There was once a girl, who was beautiful, but lazy and careless.",
+   "i": "There was once a girl who was beautiful, but lazy and slovenly.",
+   "n": "“Es war einmal” is the fixed fairy-tale opening, ‘Once there was.’ “das war schön” repeats the subject with a demonstrative, a common spoken-narrative rhythm that smooth English drops."
+  },
+  {
+   "t": "Wenn es spinnen sollte, so war es so verdrießlich daß wenn ein kleiner Knoten im Flachs war, es gleich einen ganzen Haufen mit herausriß und neben sich zur Erde schlickerte.",
+   "l": "When it was supposed to spin, then it was so sullen that, whenever there was a little knot in the flax, it at once tore out a whole heap along with it and let it dribble down to the ground beside it.",
+   "i": "Whenever she had to spin, she grew so peevish that, if there was a little knot in the flax, she would at once tear out a whole handful along with it and let it fall to the ground beside her.",
+   "n": "“es” is the girl: Mädchen is grammatically neuter, so German keeps a neuter “it” where English shifts to ‘she.’ “herausriß” and “schlickerte” are separable verbs, ‘tore out’ and ‘let dribble down’; “schlickerte” is a dialect word, and the coarse tow she throws away gives the tale its name — the Schlickerlinge."
+  },
+  {
+   "t": "Nun hatte es ein Dienstmädchen, das war arbeitsam, suchte den weggeworfenen Flachs zusammen, reinigte ihn, spann ihn fein und ließ sich ein hübsches Kleid daraus weben.",
+   "l": "Now it had a serving-girl, who was industrious, gathered the thrown-away flax together, cleaned it, spun it fine, and had a pretty dress woven from it for herself.",
+   "i": "Now she had a serving-maid who was industrious: she gathered up the discarded flax, cleaned it, spun it fine, and had a pretty dress woven from it.",
+   "n": "“suchte ... zusammen” is the separable verb zusammensuchen, ‘to gather up.’ “ließ sich ... weben” is ‘had (something) woven for herself,’ a causative use of lassen."
+  },
+  {
+   "t": "Ein junger Mann hatte um das faule Mädchen geworben, und die Hochzeit sollte gehalten werden.",
+   "l": "A young man had courted the lazy girl, and the wedding was to be held.",
+   "n": "“um (jemanden) werben” is ‘to court, woo (someone).’ “sollte gehalten werden” is a passive with sollen, ‘was to be held.’"
+  },
+  {
+   "t": "Auf dem Polterabend tanzte das fleißige in seinem schönen Kleide lustig herum, da sprach die Braut",
+   "l": "At the Polterabend the industrious one danced merrily about in her fine dress, whereupon the bride said",
+   "i": "At the wedding-eve party the industrious girl danced merrily about in her fine dress, and then the bride said",
+   "n": "The Polterabend is the noisy party on the eve of a German wedding, when crockery is smashed for luck. “das fleißige” is an adjective standing alone, ‘the industrious one (girl).’ “Kleide” carries an old dative -e ending. The sentence breaks off into the rhyme that follows."
+  },
+  {
+   "v": true,
+   "t": "„ach, wat kann dat Mäken springen\nin minen Slickerlingen!“",
+   "l": "“ah, how the lass can spring about\nin my coarse tow!”",
+   "i": "“Ah, how that lass can dance about\nin my leavings of tow!”",
+   "n": "This two-line rhyme is Low German: “wat” = was (what/how), “dat” = das (the), “Mäken” = Mädchen (girl, lass), “minen” = meinen (my). It rhymes springen / Slickerlingen; the idiomatic line does not reproduce the rhyme. The Slickerlingen are the coarse tow — the refuse combed out of the flax — which the bride threw away and the maid spun into her dress, so the bride is unknowingly mocking her own wastefulness."
+  },
+  {
+   "p": true,
+   "t": "Das hörte der Bräutigam und fragte die Braut was sie damit sagen wollte.",
+   "l": "The bridegroom heard that and asked the bride what she meant to say by it.",
+   "i": "The bridegroom heard this and asked the bride what she meant by it.",
+   "n": "Fronting the object “Das” (‘that’) before the verb is normal German V2 word order. “damit ... sagen wollte” = ‘meant to say by that.’"
+  },
+  {
+   "t": "Da erzählte sie ihm daß das Mädchen ein Kleid von dem Flachs trüge, den sie weggeworfen hätte.",
+   "l": "Then she told him that the girl was wearing a dress of the flax that she had thrown away.",
+   "i": "Then she told him that the girl was wearing a dress made from the flax she had thrown away.",
+   "n": "“trüge” and “hätte” are past-subjunctive forms marking reported speech, standard after a verb of telling. “daß” is the 1857 spelling of dass."
+  },
+  {
+   "t": "Wie der Bräutigam das hörte und ihre Faulheit bemerkte und den Fleiß des armen Mädchens, so ließ er sie stehen, gieng zu jener und wählte sie zu seiner Frau.",
+   "l": "When the bridegroom heard that and noticed her laziness, and the industriousness of the poor girl, then he let her stand, went over to the other one, and chose her for his wife.",
+   "i": "When the bridegroom heard this and marked her laziness against the poor maid’s diligence, he left her standing there, went over to the other, and chose her for his wife.",
+   "n": "“Wie ... so” is an old ‘When ... then’ correlation. “ließ er sie stehen” = ‘left her standing there,’ i.e. jilted her on the spot. “jener” = ‘that one, the former,’ here the industrious maid. “gieng” is the 1857 spelling of ging."
+  }
+ ]
+}

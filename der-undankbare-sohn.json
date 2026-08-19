@@ -1,0 +1,69 @@
+{
+ "id": "der-undankbare-sohn",
+ "title": "Der undankbare Sohn",
+ "titleEn": "The Ungrateful Son",
+ "khm": 145,
+ "language": "German",
+ "langCode": "de-DE",
+ "work": "Kinder- und Hausmärchen",
+ "workEn": "Grimms’ Fairy Tales",
+ "workGloss": "Children’s and Household Tales",
+ "part": "The Ungrateful Son",
+ "source": "Brüder Grimm, Kinder- und Hausmärchen, Band 2, 7. Auflage (Ausgabe letzter Hand), Dieterich, Göttingen 1857, KHM 145. Text from Wikisource (twice proofread against the original). Fresh translation made directly from the German; 1857 spelling preserved (daß, gieng, that for tat).",
+ "about": "KHM 145 is barely more than an anecdote, and a grim one: a man hides a roast chicken from his own hungry father rather than share it, and the chicken turns into a toad that fastens itself to his face and cannot be pulled off. He must feed it every day for the rest of his life and wanders the world with no rest and no cure offered — the tale ends exactly there, punishment without relief.",
+ "glossaryFile": "khm-glossary.json",
+ "sentences": [
+  {
+   "p": true,
+   "t": "Es saß einmal ein Mann mit seiner Frau vor der Hausthür, und sie hatten ein gebraten Huhn vor sich stehen und wollten das zusammen verzehren.",
+   "l": "There sat once a man with his wife before the house-door, and they had a roasted hen standing before them and wanted to eat it up together.",
+   "i": "A man was sitting once with his wife before the house door, and they had a roasted hen standing before them, meaning to eat it up between them.",
+   "n": "The tale opens with “es saß einmal” instead of the usual “es war einmal” — the same once-upon-a-time formula, with the couple already in place. gebraten stands uninflected before Huhn, an older usage where modern German writes “ein gebratenes Huhn”; a few lines on the tale does write gebratene. Hausthür is the 1857 spelling of Haustür, and this th- for t- runs through the whole collection."
+  },
+  {
+   "t": "Da sah der Mann wie sein alter Vater daher kam, geschwind nahm er das Huhn und versteckte es, weil er ihm nichts davon gönnte.",
+   "l": "Then saw the man how his old father came along, quickly took he the hen and hid it, because he granted him nothing of it.",
+   "i": "Then the man saw his old father coming along; quickly he took the hen and hid it, because he grudged him any share of it.",
+   "n": "German reports what was seen with a wie-clause — “sah wie … kam” — where English uses a participle, “saw him coming.” gönnen is to grant a thing willingly, so “nichts gönnen” is to begrudge; the whole tale hangs on that one verb. Note the inversion after geschwind: the verb keeps second place and the subject follows it."
+  },
+  {
+   "t": "Der Alte kam, that einen Trunk und gieng fort.",
+   "l": "The old man came, did a drink and went away.",
+   "i": "The old man came, took a drink, and went off again.",
+   "n": "“einen Trunk thun” = to take a drink, where German uses thun (modern tun) for English take. that is the 1857 spelling of tat, gieng of ging; the ie marks a long vowel and is not a diphthong. He is given a drink and nothing else; the hen is already out of sight."
+  },
+  {
+   "t": "Nun wollte der Sohn das gebratene Huhn wieder auf den Tisch tragen, aber als er danach griff, war es eine große Kröte geworden,",
+   "l": "Now wanted the son to carry the roasted hen again onto the table, but as he reached for it, it had become a great toad,",
+   "i": "Now the son meant to bring the roasted hen back to the table, but when he reached for it, it had turned into a great toad,",
+   "n": "Only here is the man called der Sohn — the word arrives at the very moment the punishment does. “nach etwas greifen” is to reach for something, and danach carries that nach. als is “when” of a single past occasion, not “as.”"
+  },
+  {
+   "t": "die sprang ihm ins Angesicht und saß da, und gieng nicht wieder weg;",
+   "l": "that one sprang him into the face and sat there, and went not away again;",
+   "i": "and it sprang into his face and sat there and would not go away again;",
+   "n": "die is not a relative pronoun here but the demonstrative that keeps a folktale moving: “that one sprang …”. “ihm ins Angesicht” is the dative of the person with the part of the body — German says “to him into the face” where English says “into his face.” Angesicht is the elevated word for a face, and the tale keeps it for this one horror."
+  },
+  {
+   "t": "und wenn sie jemand wegthun wollte, sah sie ihn giftig an, als wollte sie ihm ins Angesicht springen, so daß keiner sie anzurühren getraute.",
+   "l": "and if anyone wanted to put her away, she looked at him venomously, as if she wanted to spring him into the face, so that no one dared to touch her.",
+   "i": "and if anyone tried to take it off, it looked at him so venomously, as though it would spring into his face, that nobody dared touch it.",
+   "n": "The toad is sie throughout because Kröte is feminine; English has to say “it.” wegthun is the 1857 spelling of wegtun, to put away, and anzurühren shows what a separable verb does with zu — the particle takes it inside, an-zu-rühren. “sich getrauen” is to dare, with what is dared in an infinitive; the 1857 text leaves the sich out. sah … an is ansehen, to look at, split around its object."
+  },
+  {
+   "t": "Und die Kröte mußte der undankbare Sohn alle Tage füttern, sonst fraß sie ihm aus seinem Angesicht;",
+   "l": "And the toad the ungrateful son had to feed every day, otherwise she ate out of his face;",
+   "i": "And the ungrateful son had to feed the toad every day, or it fed on his face instead;",
+   "n": "The object stands first — “And the toad the ungrateful son had to feed” — which German can do freely, because the endings keep the roles straight; the title’s word, undankbar, is spoken in the tale only here. fressen is the verb for animals and for greedy eating, never for a person at table. “fraß sie ihm aus seinem Angesicht” sets the dative ihm of the person harmed beside the possessive: it ate out of his face, at his cost."
+  },
+  {
+   "t": "und also gieng er ohne Ruhe in der Welt hin und her.",
+   "l": "and so went he without rest in the world to and fro.",
+   "i": "and so he went to and fro in the world, and had no rest.",
+   "n": "also is not English “also” but “thus, so.” “hin und her” is thither and hither. There is no forgiveness and no further word: the tale simply sets him walking and stops."
+  }
+ ],
+ "glossary": {
+  "alter": "alt — old (masc. inflected; sein alter Vater, his old father)"
+ }
+}

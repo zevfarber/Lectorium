@@ -1,0 +1,80 @@
+{
+ "id": "die-brautschau",
+ "title": "Die Brautschau",
+ "titleEn": "Choosing a Bride",
+ "khm": 155,
+ "language": "German",
+ "langCode": "de-DE",
+ "work": "Kinder- und Hausmärchen",
+ "workEn": "Grimms’ Fairy Tales",
+ "workGloss": "Children’s and Household Tales",
+ "part": "Choosing a Bride",
+ "source": "Brüder Grimm, Kinder- und Hausmärchen, Band 2, 7. Auflage (Ausgabe letzter Hand), Dieterich, Göttingen 1857, KHM 155. Text from Wikisource (twice proofread against the original). Fresh translation made directly from the German; 1857 spelling preserved (daß, Rath, that for tat).",
+ "about": "KHM 155 is a tidy little courtship tale: a young shepherd, unable to choose among three equally lovely sisters, judges them at his mother's suggestion by watching how each one cuts a piece of cheese. The one who trims the rind neither too close nor too wastefully is the one he marries — a small, practical parable about moderation standing in for character.",
+ "glossaryFile": "khm-glossary.json",
+ "sentences": [
+  {
+   "p": true,
+   "t": "Es war ein junger Hirt, der wollte gern heirathen und kannte drei Schwestern,",
+   "l": "There was a young shepherd, who wanted gladly to marry and knew three sisters,",
+   "i": "There was a young shepherd who had a mind to marry, and he knew three sisters,",
+   "n": "“der wollte gern” — gern with a verb gives the sense ‘would like to, was keen to.’ “heirathen” is the 1857 spelling of heiraten."
+  },
+  {
+   "t": "davon war eine so schön wie die andere, daß ihm die Wahl schwer wurde und er sich nicht entschließen konnte einer davon den Vorzug zu geben.",
+   "l": "of them one was as beautiful as the other, so that the choice became hard for him and he could not resolve to give one of them the preference.",
+   "i": "and one was as fair as the next, so that the choice grew hard for him and he could not bring himself to prefer any one of them.",
+   "n": "“eine so schön wie die andere” is how German says that all of them were equally fair, however many there are — ‘one as fair as the other.’ In “ihm die Wahl schwer wurde” he stands in the dative: the choice grew hard to him."
+  },
+  {
+   "t": "Da fragte er seine Mutter um Rath,",
+   "l": "Then he asked his mother for advice,",
+   "i": "So he asked his mother for counsel,",
+   "n": "“um Rath fragen” = to ask for advice; “Rath” is the 1857 spelling of Rat."
+  },
+  {
+   "t": "die sprach „lad alle drei ein und setz ihnen Käs vor und hab acht wie sie ihn anschneiden.“",
+   "l": "she said “invite all three and set them cheese before and take heed how they cut into it.”",
+   "i": "and she said, “Invite all three, set cheese before them, and mark how they cut into it.”",
+   "n": "Three imperatives in a row, each with its particle held to the end: “lad … ein” (einladen, to invite), “setz … vor” (vorsetzen, to set before someone), “hab acht” (Acht haben, to pay heed). The literal line keeps the particles where the German puts them."
+  },
+  {
+   "t": "Das that der Jüngling, die erste aber verschlang den Käs mit der Rinde:",
+   "l": "That the youth did, but the first devoured the cheese with the rind:",
+   "i": "The youth did so; but the first swallowed the cheese down, rind and all:",
+   "n": "“Das that der Jüngling” puts the object first — a natural German way of hooking a sentence back to what has just been said. “Rinde” is bark on a tree and rind on a cheese; here it is the cheese."
+  },
+  {
+   "t": "die zweite schnitt in der Hast die Rinde vom Käs ab, weil sie aber so hastig war, ließ sie noch viel Gutes daran und warf das mit weg:",
+   "l": "the second cut in her haste the rind off the cheese, but because she was so hasty, she left much good part still on it and threw that away with it:",
+   "i": "the second cut the rind off the cheese in her haste, but because she was in such a hurry she left a good deal of the cheese on it and threw that away too:",
+   "n": "“Hast” is the noun ‘haste’ here, not a form of haben. “warf das mit weg” is wegwerfen, to throw away, with a second particle “mit,” ‘along with it.’"
+  },
+  {
+   "t": "die dritte schälte ordentlich die Rinde ab, nicht zu viel und nicht zu wenig.",
+   "l": "the third peeled the rind off properly, not too much and not too little.",
+   "i": "the third pared the rind off neatly, not too much and not too little.",
+   "n": "“schälte … ab” is abschälen, to peel off. The verdict is carried entirely by the adverb “ordentlich,” and the tale leaves the reader to draw the rest."
+  },
+  {
+   "t": "Der Hirt erzählte das alles seiner Mutter, da sprach sie „nimm die dritte zu deiner Frau.“",
+   "l": "The shepherd told all that to his mother, then she said “take the third for your wife.”",
+   "i": "The shepherd told his mother all of it, and she said, “Take the third for your wife.”",
+   "n": "“zu deiner Frau nehmen” = to take as your wife; zu marks the role someone is taken into, as it does with the office of king elsewhere in these tales."
+  },
+  {
+   "t": "Das that er und lebte zufrieden und glücklich mit ihr.",
+   "l": "That he did and lived contented and happily with her.",
+   "i": "That he did, and lived content and happy with her.",
+   "n": "The tale closes on the joke and no further: thrift without waste is the whole of the test, and neither the shepherd nor the third sister is given a word to say."
+  }
+ ],
+ "glossary": {
+  "deiner": "dein — your (dat. fem. deiner; „zu deiner Frau“ = as your wife); also the genitive of du, ‘of you’",
+  "es": "es — it (the impersonal subject, as in „Es war ein junger Hirt“ = there was a young shepherd)",
+  "glücklich": "glücklich — happy, fortunate; in older usage also ‘successfully’",
+  "hast": "die Hast — haste, hurry (noun, f.; „in der Hast“ = in her haste)",
+  "rinde": "die Rinde — rind (of a cheese); also bark (of a tree)",
+  "setz": "vorsetzen — set (before someone) (imperative sg.; „setz ihnen … vor“)"
+ }
+}

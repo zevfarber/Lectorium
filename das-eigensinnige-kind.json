@@ -1,0 +1,59 @@
+{
+ "id": "das-eigensinnige-kind",
+ "title": "Das eigensinnige Kind",
+ "titleEn": "The Wilful Child",
+ "khm": 117,
+ "language": "German",
+ "langCode": "de-DE",
+ "work": "Kinder- und Hausmärchen",
+ "workEn": "Grimms’ Fairy Tales",
+ "workGloss": "Children’s and Household Tales",
+ "part": "The Wilful Child",
+ "source": "Brüder Grimm, Kinder- und Hausmärchen, Band 2, 7. Auflage (Ausgabe letzter Hand), Dieterich, Göttingen 1857, KHM 117. Text from Wikisource (twice proofread against the original). 1857 spelling preserved (that, thaten, gethan).",
+ "about": "KHM 117 is the shortest tale in the entire collection, and one of the starkest: a child who will not obey its mother sickens, dies, and is buried — but its little arm keeps pushing up out of the grave, unwilling to rest, until the mother herself strikes it back down with a rod. The Grimms offer no softening frame around it; the tale is presented here exactly as plainly as it was printed.",
+ "glossaryFile": "khm-glossary.json",
+ "sentences": [
+  {
+   "p": true,
+   "t": "Es war einmal ein Kind eigensinnig und that nicht was seine Mutter haben wollte.",
+   "l": "There was once a child self-willed and did not do what its mother wanted.",
+   "i": "There was once a self-willed child, who would not do what its mother wanted.",
+   "n": "The adjective stands after its noun — “ein Kind eigensinnig” rather than “ein eigensinniges Kind” — an old, faintly formulaic order that gives the tale the ring of a case reported rather than a story told. “that” is the 1857 spelling of tat, preterite of thun (modern tun)."
+  },
+  {
+   "t": "Darum hatte der liebe Gott kein Wohlgefallen an ihm und ließ es krank werden, und kein Arzt konnte ihm helfen, und in kurzem lag es auf dem Todtenbettchen.",
+   "l": "Therefore the dear God had no pleasure in it and let it become sick, and no doctor could help it, and in a short time it lay on the little-deathbed.",
+   "i": "For that reason the dear God took no pleasure in it and let it fall ill, and no physician could help it, and before long it lay on its little deathbed.",
+   "n": "“Wohlgefallen an jemandem haben” is to take pleasure or delight in someone — here the noun das Wohlgefallen, not the verb. “ließ es krank werden” is lassen with an infinitive: he let it become ill. “in kurzem” means ‘shortly, before long.’ “Todtenbettchen” keeps the 1857 -th- (modern Totenbettchen) and is a diminutive, as the child’s own arm will be in a moment."
+  },
+  {
+   "t": "Als es nun ins Grab versenkt und Erde über es hingedeckt war, so kam auf einmal sein Ärmchen wieder hervor und reichte in die Höhe,",
+   "l": "When it was now sunk into the grave and earth covered over it, all at once its little-arm came out again and reached up into the height,",
+   "i": "Now when it had been let down into the grave and the earth heaped over it, all at once its little arm came out again and reached upward,",
+   "n": "“versenkt” and “hingedeckt” are two past participles carried by the single “war” at the end of the clause — German is happy to let one auxiliary serve both. “reichte” here is reichen in its sense ‘to reach, extend,’ not ‘to hand over.’ The 1857 text reports all this flatly, as a fact."
+  },
+  {
+   "t": "und wenn sie es hineinlegten und frische Erde darüber thaten, so half das nicht, und das Ärmchen kam immer wieder heraus.",
+   "l": "and when they laid it in and did fresh earth over it, that did not help, and the little-arm came out again every time.",
+   "i": "and when they put it back in and spread fresh earth over it, that did no good, and the little arm always came out again.",
+   "n": "“hineinlegten” and “darüber thaten” both work with a particle standing away from the verb; “darüber thun” is literally ‘to do over it,’ i.e. to put over it. “half das nicht” uses helfen impersonally — it was no use. The subject “sie” is never named: whoever was doing the burying."
+  },
+  {
+   "t": "Da mußte die Mutter selbst zum Grabe gehn und mit der Ruthe aufs Ärmchen schlagen,",
+   "l": "Then the mother had to go to the grave herself and strike the little-arm with the rod,",
+   "n": "“die Ruthe” (1857 spelling of Rute) is the switch or birch rod kept for punishing children — the same instrument that would have been used on the child in life; the 1857 text sets the two uses side by side without comment. “selbst” is emphatic: the mother herself, and nobody else. “zum Grabe” keeps the old dative -e."
+  },
+  {
+   "t": "und wie sie das gethan hatte, zog es sich hinein, und das Kind hatte nun erst Ruhe unter der Erde.",
+   "l": "and when she had done that, it drew itself in, and the child had rest under the earth only now.",
+   "i": "and when she had done that, it drew itself in, and only then did the child have rest under the earth.",
+   "n": "“erst” here is not ‘first’ but ‘not until then, only then’ — the whole weight of the ending rests on that one word. “zog es sich hinein” is separable hineinziehen with a reflexive, ‘drew itself in.’ “gethan” is the 1857 spelling of getan."
+  }
+ ],
+ "glossary": {
+  "es": "es — it (the child, das Kind being neuter, which is how the tale names it throughout); also the dummy subject, Es war einmal …",
+  "ihm": "ihm — to him, to it (dative; here of the child, which the German keeps in the neuter)",
+  "reichte": "reichen — reached, extended (3rd sg. preterite; reichte in die Höhe: reached upward); also ‘handed, passed’",
+  "wohlgefallen": "das Wohlgefallen — pleasure, delight (noun; Wohlgefallen an jemandem haben: to take delight in someone); also the verb wohlgefallen, ‘to please well’"
+ }
+}

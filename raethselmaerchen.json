@@ -1,0 +1,76 @@
+{
+ "id": "raethselmaerchen",
+ "title": "Räthselmärchen",
+ "titleEn": "The Riddle-Tale",
+ "khm": 160,
+ "language": "German",
+ "langCode": "de-DE",
+ "work": "Kinder- und Hausmärchen",
+ "workEn": "Grimms’ Fairy Tales",
+ "workGloss": "Children’s and Household Tales",
+ "part": "The Riddle-Tale",
+ "source": "Brüder Grimm, Kinder- und Hausmärchen, Band 2, 7. Auflage (Ausgabe letzter Hand), Dieterich, Göttingen 1857, KHM 160. Text from Wikisource (twice proofread against the original). Fresh translation made directly from the German; 1857 spelling preserved (Thau, mußte).",
+ "about": "KHM 160 is barely a page, built entirely around its own riddle: three women under an enchantment stand as flowers in a field by day, but one of them alone is allowed to be human at home by night, and her husband must pick her out from her identical sisters without ever being told which one she is. The answer he lands on — dew clings to the two who stood in the field all night, not to the one who slept indoors — is the whole point of the tale; there is no other story to it.",
+ "glossaryFile": "khm-glossary.json",
+ "sentences": [
+  {
+   "p": true,
+   "t": "Drei Frauen waren verwandelt in Blumen, die auf dem Felde standen,",
+   "l": "Three women were transformed into flowers, which stood in the field,",
+   "i": "Three women had been turned into flowers that stood out in the field,",
+   "n": "“waren verwandelt” is a passive formed with sein rather than werden — the state they are in, not the act that put them there; who transformed them is never said. “Frauen” here is the plain plural, women. The language of this piece is older and drier than most of these tales, closer to the sixteenth-century riddle-books it comes out of."
+  },
+  {
+   "t": "doch deren eine durfte des Nachts in ihrem Hause sein.",
+   "l": "yet of them one was allowed to be at night in her house.",
+   "i": "but one of them was permitted to be in her own house at night.",
+   "n": "“deren eine” is ‘one of them,’ with the genitive plural relative pronoun standing first. “des Nachts” is an adverbial genitive, ‘by night’ — the same form as Mittags, abends."
+  },
+  {
+   "t": "Da sprach sie auf eine Zeit zu ihrem Mann, als sich der Tag nahete und sie wiederum zu ihren Gespielen auf das Feld gehen und eine Blume werden mußte,",
+   "l": "Then she said at one time to her husband, as the day drew near and she again to her companions in the field had to go and become a flower,",
+   "i": "Then one day she said to her husband, as daybreak drew on and she had to go back to her companions in the field and become a flower,",
+   "n": "“auf eine Zeit” is an old phrase for ‘on one occasion, once.’ “nahete” is an older form of nahte (sich nahen, to draw near). “Gespielen” are playmates or companions — here the other two flowers."
+  },
+  {
+   "t": "„so du heute Vormittag kommst und mich abbrichst, werde ich erlöst und fürder bei dir bleiben;“",
+   "l": "“if you come today before noon and break me off, I shall be released and stay with you henceforth;”",
+   "i": "“if you come this forenoon and pluck me, I shall be set free and stay with you from then on;”",
+   "n": "“so” at the head of the clause is the old conditional ‘if,’ not ‘thus.’ “abbrichst” is abbrechen, to break off — the ordinary German for picking a flower by its stem. “fürder” is an archaic ‘henceforth, from then on.’"
+  },
+  {
+   "t": "als dann auch geschah.",
+   "l": "which then also happened.",
+   "i": "and so it also came to pass.",
+   "n": "“als” does the work of a relative here — ‘as which,’ that is, ‘and that is what happened.’ The clause has no subject of its own; the whole condition before it serves as one."
+  },
+  {
+   "t": "Nun ist die Frage, wie sie ihr Mann erkannt habe, so die Blumen ganz gleich und ohne Unterschied waren?",
+   "l": "Now the question is, how her husband recognised her, seeing the flowers were quite alike and without difference?",
+   "i": "Now the question is: how did her husband know her, when the flowers were entirely alike and without any difference?",
+   "n": "“die Frage” is the noun, the question. “erkannt habe” is subjunctive, the form German uses for a question put at second hand. “so” again is not ‘thus’ but the old conjunction, here ‘seeing that, since’; and “gleich” is ‘alike, identical,’ not ‘at once.’"
+  },
+  {
+   "t": "Antwort, „dieweil sie die Nacht in ihrem Haus und nicht auf dem Feld war, fiel der Thau nicht auf sie, als auf die andern zwei,",
+   "l": "Answer, “because she was [through] the night in her house and not in the field, the dew did not fall on her, as on the other two,",
+   "i": "Answer: “because she was in her house through the night and not in the field, the dew did not fall on her as it did on the other two,",
+   "n": "“dieweil” here is the old causal conjunction ‘because,’ not ‘meanwhile.’ “die Nacht” with no preposition is an accusative of duration, ‘through the night.’ The literal line supplies that preposition in square brackets, since English cannot do without it."
+  },
+  {
+   "t": "dabei sie der Mann erkannte.“",
+   "l": "by that the husband recognised her.”",
+   "i": "and by that the husband knew her.”",
+   "n": "“dabei” is ‘by that, by which’ — the dew, or rather its absence, is the sign. The riddle is not left hanging for the reader: the 1857 printing gives the answer inside the tale, in quotation marks, as part of the text."
+  }
+ ],
+ "glossary": {
+  "dabei": "dabei — by that, by which (the means of something)",
+  "dieweil": "dieweil — because, since (old causal conjunction); elsewhere ‘meanwhile’",
+  "frage": "die Frage — question (noun, f.); not the imperative of fragen",
+  "frauen": "die Frau — women (nom. pl. Frauen)",
+  "gleich": "gleich — alike, identical (adj.); elsewhere the adverb ‘at once’",
+  "habe": "haben — has (3rd sg. pres. subjunctive here: „erkannt habe“, the form used for a question put at second hand); also ich habe ‘I have’",
+  "so": "so — if (old conditional conjunction, „so du kommst“ = if you come); also ‘seeing that, since’",
+  "werde": "werden — I am, I shall be (1st sg. pres.; here the passive auxiliary: „werde ich erlöst“ = I am set free)"
+ }
+}

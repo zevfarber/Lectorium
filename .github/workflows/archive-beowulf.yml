@@ -1,0 +1,103 @@
+name: Archive Beowulf source
+
+# Brings an authentic Klaeber-1922 Beowulf text into the repo as
+# sources/beowulf-fitt-NN-source.json, so an unattended Cowork firing can draft the
+# poem with nothing but `git fetch`.
+#
+# Why it lives here rather than in the Cowork sandbox: measured 2026-08-20, the
+# sandbox reaches nothing but GitHub - archive.org, Wikisource, Gutenberg and
+# heorot.dk all return 000, and `git push` (receive-pack) is refused with 403. A
+# runner has ordinary internet, so the fetch belongs here, exactly as it does for
+# the KHM archiver.
+#
+# THE BAKE-OFF RUNS FIRST AND ALWAYS. Klaeber prints macrons and þ ð æ, which is
+# precisely what 1922-typeface OCR destroys, and a silently dropped macron is a
+# corrupted reader text no downstream gate would catch. So every run scores each
+# candidate witness against the 136 hand-verified lines in
+# .github/fixtures/beowulf-53-188-klaeber1922.txt - already published as fitts I
+# and II - and NOTHING is archived unless a Klaeber witness reproduces all 136
+# character-for-character. A negative result is a legitimate outcome, written to
+# .github/witness-report.json and to the job summary; it does not fail the job,
+# because "no adequate machine-readable Klaeber exists" is a finding, not a bug.
+#
+# Self-retrigger is prevented the three ways archive.yml uses: the commit touches
+# only sources/** and .github/witness-report.json (audio.yml filters root-level
+# *.json, this workflow filters its own script/fixture), commits made with the
+# built-in GITHUB_TOKEN start no further runs, and the commit carries [skip ci].
+
+on:
+  # Pushing a new version of the archiver runs it immediately - the same
+  # one-step property the KHM archiver has, so a publish IS the trigger.
+  push:
+    branches: [main]
+    paths:
+      - '.github/scripts/archive_beowulf.py'
+      - '.github/workflows/archive-beowulf.yml'
+      - '.github/fixtures/beowulf-53-188-klaeber1922.txt'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: '"bakeoff" (score witnesses, write nothing) or "archive" (emit all 44 source files)'
+        required: false
+        default: 'bakeoff'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: archive-beowulf
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Offline. Proves the fitt table sums to 3,182, the gold transcript is
+      # intact, and - the part that matters - that the scorer CATCHES injected
+      # defects: macrons stripped, thorn spelled th, a line dropped. A gate that
+      # has only ever said "pass" has not been shown to test anything.
+      - name: Selftest (offline, fatal)
+        run: python .github/scripts/archive_beowulf.py --selftest
+
+      - name: Witness bake-off
+        run: python .github/scripts/archive_beowulf.py --bakeoff
+
+      - name: Archive (only if a Klaeber witness passed all 136 gold lines)
+        if: ${{ github.event.inputs.mode == 'archive' }}
+        run: python .github/scripts/archive_beowulf.py --archive
+
+      - name: Commit
+        run: |
+          set -eo pipefail
+          git config user.name  'lectorium-archiver'
+          git config user.email 'actions@github.com'
+          git add sources .github/witness-report.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          N=$(git diff --cached --name-only | wc -l | tr -d ' ')
+          git commit -m "Beowulf archiver ($N file(s)) [skip ci]"
+          git pull --rebase origin main
+          git push
+          echo "Pushed $N file(s)."
+
+      - name: Verdict
+        if: always()
+        run: |
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f .github/witness-report.json ]; then
+            python - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import json
+          r = json.load(open('.github/witness-report.json'))
+          print("**Verdict:** " + r.get("verdict", "?"))
+          PY
+          fi

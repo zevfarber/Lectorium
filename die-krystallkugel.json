@@ -1,0 +1,350 @@
+{
+ "id": "die-krystallkugel",
+ "title": "Die Krystallkugel",
+ "titleEn": "The Crystal Ball",
+ "khm": 197,
+ "language": "German",
+ "langCode": "de-DE",
+ "work": "Kinder- und Hausmärchen",
+ "workEn": "Grimms’ Fairy Tales",
+ "workGloss": "Children’s and Household Tales",
+ "part": "The Crystal Ball",
+ "source": "Brüder Grimm, Kinder- und Hausmärchen, Band 2, 7. Auflage (Ausgabe letzter Hand), Dieterich, Göttingen 1857, KHM 197. Text from Wikisource („Die Krystallkugel (1857)“, twice proofread against the original). Fresh translation made directly from the German; 1857 spelling preserved exactly.",
+ "about": "KHM 197 begins with a sorceress who does not trust her own three sons: she turns the eldest into an eagle and the second into a whale, each allowed two hours a day in human shape, and the third runs off before she can do the same to him. He goes after the enchanted king’s daughter in the castle of the golden sun — twenty-three young men have already died of the attempt, and only one more may come — and reaches it by cheating two giants out of a wishing-hat; when he finds her, human eyes can see nothing but an ash-grey, wrinkled face, and a mirror has to show him the rest. Freeing her means a wild aurochs at a spring, a fire-bird that rises out of its body carrying a glowing egg, and the crystal ball lying in that egg where the yolk should be — with the eagle and the whale arriving at the moment each is needed.",
+ "glossaryFile": "khm-glossary.json",
+ "sentences": [
+  {
+   "p": true,
+   "t": "Es war einmal eine Zauberin, die hatte drei Söhne, die sich brüderlich liebten: aber die Alte traute ihnen nicht und dachte sie wollten ihr ihre Macht rauben.",
+   "l": "There was once a sorceress, she had three sons, who loved one another as brothers: but the old woman did not trust them and thought they wanted to rob her of her power.",
+   "i": "There was once a sorceress who had three sons, and they loved one another as brothers; but the old woman did not trust them, and thought they meant to rob her of her power.",
+   "n": "“die hatte drei Söhne” chains a new clause onto the noun with a demonstrative rather than a relative pronoun — a spoken-style join the Grimms use constantly. “rauben” puts the person robbed in the dative (“ihr”) and the thing taken in the accusative (“ihre Macht”)."
+  },
+  {
+   "t": "Da verwandelte sie den ältesten in einen Adler, der mußte auf einem Felsengebirge hausen und man sah ihn manchmal am Himmel in großen Kreißen auf und nieder schweben.",
+   "l": "Then transformed she the eldest into an eagle, who had to house on a rocky mountain-range, and one saw him sometimes in the sky floating up and down in great circles.",
+   "i": "So she turned the eldest into an eagle, who had to make his home on a rocky mountain range, and he was sometimes seen in the sky, sweeping up and down in great circles.",
+   "n": "“Kreißen” is the 1857 spelling of Kreisen, “circles”. “man sah ihn … schweben” — German reports perception with a bare infinitive where English needs a participle: “saw him hovering”."
+  },
+  {
+   "t": "Den zweiten verwandelte sie in einen Wallfisch, der lebte im tiefen Meer, und man sah nur wie er zuweilen einen mächtigen Wasserstrahl in die Höhe warf.",
+   "l": "The second she transformed into a whale, he lived in the deep sea, and one saw only how he at times threw a mighty jet of water into the height.",
+   "i": "The second she turned into a whale, and he lived in the deep sea, and all that was seen of him was the mighty jet of water he threw up now and then.",
+   "n": "“Wallfisch” is the older spelling of Walfisch, whale. “in die Höhe” — literally “into the height”, the ordinary German for “upwards”."
+  },
+  {
+   "t": "Beide hatten nur zwei Stunden jeden Tag ihre menschliche Gestalt.",
+   "l": "Both had only two hours each day their human shape.",
+   "i": "For two hours each day, and no longer, they had their human shape.",
+   "n": "German puts the time expression before the object; English has to move it. “Gestalt” is shape or form — the word returns at the end of the tale when the shapes are given back."
+  },
+  {
+   "t": "Der dritte Sohn, da er fürchtete sie möchte ihn auch in ein reißendes Thier verwandeln, in einen Bären oder einen Wolf, so gieng er heimlich fort.",
+   "l": "The third son, since he feared she might transform him too into a tearing beast, into a bear or a wolf, so went he secretly away.",
+   "i": "The third son, fearing that she might turn him too into a beast of prey, into a bear or a wolf, went off in secret.",
+   "n": "“ein reißendes Thier” — literally a “tearing animal”, the standard phrase for a beast of prey. The resumptive “so” after the long front clause is a spoken habit: the sentence restarts once the subordinate clause is done."
+  },
+  {
+   "t": "Er hatte aber gehört daß auf dem Schloß der goldenen Sonne eine verwünschte Königstochter säße, die auf Erlösung harrte:",
+   "l": "He had however heard that at the castle of the golden sun an enchanted king’s-daughter was sitting, who waited for deliverance:",
+   "i": "He had heard, though, that in the castle of the golden sun there sat a princess under a spell, waiting to be delivered:",
+   "n": "“säße” is the subjunctive of sitzen, marking this as reported hearsay rather than the narrator’s own statement — German keeps that distinction where English drops it. German is “auf dem Schloß”, on the castle, where English says at or in it: “auf” is the preposition German uses for being at a castle or a great house."
+  },
+  {
+   "t": "es müßte aber jeder sein Leben daran wagen, schon drei und zwanzig Jünglinge wären eines jämmerlichen Todes gestorben und nur noch einer übrig, dann dürfte keiner mehr kommen.",
+   "l": "but each one would have to stake his life on it, three and twenty young men had already died a wretched death and only one more [was] left over, then no one more might come.",
+   "i": "but each must stake his life on it; twenty-three young men had already died a wretched death, and only one more was left — after him no one else might come.",
+   "n": "“drei und zwanzig” is the old way of writing 23, and German still counts the units first. “eines jämmerlichen Todes sterben” is a genitive of the inner object: to die a wretched death. The German drops the verb after “nur noch einer übrig”; the bracketed word in the literal line is supplied so the English can stand."
+  },
+  {
+   "t": "Und da sein Herz ohne Furcht war, so faßte er den Entschluß das Schloß von der goldenen Sonne aufzusuchen.",
+   "l": "And since his heart was without fear, so took he the resolve to seek out the castle of the golden sun.",
+   "i": "And since his heart was without fear, he resolved to go in search of the castle of the golden sun.",
+   "n": "“einen Entschluß fassen” — literally to grasp a resolve; the ordinary German for making up one’s mind. “Entschluß” with ß is the 1857 spelling."
+  },
+  {
+   "t": "Er war schon lange Zeit herum gezogen, und hatte es nicht finden können, da gerieth er in einen großen Wald und wußte nicht wo der Ausgang war.",
+   "l": "He had already gone about for a long time, and had not been able to find it, then got he into a great forest and did not know where the way out was.",
+   "i": "He had wandered a long while already without being able to find it, when he got into a great forest and did not know the way out.",
+   "n": "“gerieth” (modern geriet) is geraten: to get into something without meaning to. “da” here is “then, at that point”, not “there”."
+  },
+  {
+   "t": "Auf einmal erblickte er in der Ferne zwei Riesen, die winkten ihm mit der Hand,",
+   "l": "All at once he caught sight in the distance of two giants, they beckoned him with the hand,",
+   "i": "All at once he caught sight of two giants in the distance, who beckoned to him with their hands,",
+   "n": "“die winkten ihm” is again the demonstrative-instead-of-relative join. German uses the singular “mit der Hand” where English prefers the plural."
+  },
+  {
+   "t": "und als er zu ihnen kam, sprachen sie „wir streiten um einen Hut, wem er zugehören soll, und da wir beide gleich stark sind, so kann keiner den andern überwältigen:",
+   "l": "and when he came to them, they said “we are quarrelling over a hat, to whom it should belong, and since we are both equally strong, so can neither overpower the other:",
+   "i": "and when he came up to them they said, “we are quarrelling over a hat, over which of us it belongs to, and since we are both equally strong, neither can overpower the other:",
+   "n": "“streiten um” is to fight over something. The 1857 text opens speech with a low double mark and closes it with a raised one; there is no comma before the quotation."
+  },
+  {
+   "t": "die kleinen Menschen sind klüger als wir, daher wollen wir dir die Entscheidung überlassen.“",
+   "l": "the small people are cleverer than we, therefore want we to leave you the decision.”",
+   "i": "little people are cleverer than we are, so we will leave the decision to you.”",
+   "n": "“überlassen” takes the person in the dative: to leave something up to someone. The giants’ flattery of “die kleinen Menschen” sets up the trick that follows."
+  },
+  {
+   "t": "„Wie könnt ihr euch um einen alten Hut streiten?“ sagte der Jüngling.",
+   "l": "“How can you quarrel over an old hat?” said the young man.",
+   "n": "“sich streiten um” — the reflexive makes it a quarrel between the two of them. The young man is using “ihr”, the plural you, to two giants at once."
+  },
+  {
+   "t": "„Du weißt nicht was er für Eigenschaften hat, es ist ein Wünschhut, wer den aufsetzt, der kann sich hinwünschen wohin er will, und im Augenblick ist er dort.“",
+   "l": "“You do not know what qualities it has, it is a wishing-hat, whoever puts it on can wish himself wherever he wants, and in a moment he is there.”",
+   "i": "“You do not know what it can do; it is a wishing-hat, and whoever puts it on can wish himself wherever he likes, and in an instant he is there.”",
+   "n": "“was er für Eigenschaften hat” — “was für” means what kind of, split here around the verb. “sich hinwünschen” is to wish oneself thither: the particle hin- carries the direction away from the speaker."
+  },
+  {
+   "t": "„Gebt mir den Hut“ sagte der Jüngling, „ich will ein Stück Wegs gehen, und wenn ich euch dann rufe, so lauft um die Wette,",
+   "l": "“Give me the hat,” said the young man, “I will go a piece of way, and when I then call you, run a race,",
+   "i": "“Give me the hat,” said the young man, “I will walk on a little, and when I call you, race for it,",
+   "n": "“ein Stück Wegs” keeps an old genitive after a measure word. “um die Wette laufen” is to run for the wager — the standard phrase for racing."
+  },
+  {
+   "t": "und wer am ersten bei mir ist, dem soll er gehören.“",
+   "l": "and whoever is first with me, to him shall it belong.”",
+   "i": "and whichever of you reaches me first shall have it.”",
+   "n": "“am ersten” is the older form of “am ehesten/zuerst”. The dative “dem” at the front of the second clause picks up “wer”: whoever … to him."
+  },
+  {
+   "t": "Er setzte den Hut auf und gieng fort, dachte aber an die Königstochter, vergaß die Riesen und gieng immer weiter.",
+   "l": "He set the hat on and went away, thought however of the king’s daughter, forgot the giants and went ever further.",
+   "i": "He put the hat on and went off, but his mind was on the princess; he forgot the giants and walked on and on.",
+   "n": "“aufsetzen” is separable: the particle “auf” sits at the end of its clause. “an etwas denken” always takes “an” — to think of."
+  },
+  {
+   "t": "Einmal seufzte er aus Herzensgrund und rief, „ach, wäre ich doch auf dem Schloß der goldenen Sonne!“",
+   "l": "Once he sighed from the ground of his heart and called, “ah, were I but at the castle of the golden sun!”",
+   "i": "Once he sighed from the bottom of his heart and cried, “ah, if only I were in the castle of the golden sun!”",
+   "n": "“aus Herzensgrund” — out of the heart’s ground; German builds the compound where English uses “from the bottom of”. “wäre … doch” is the wishing subjunctive, and “doch” is what makes it a wish rather than a statement."
+  },
+  {
+   "t": "und kaum waren die Worte über seine Lippen, so stand er auf einem hohen Berg vor dem Thor des Schlosses.",
+   "l": "and hardly were the words over his lips, so stood he on a high mountain before the gate of the castle.",
+   "i": "and the words were hardly out of his mouth before he stood on a high mountain in front of the castle gate.",
+   "n": "“kaum … so” pairs like English “no sooner … than”, and the inversion after it (“so stand er”) is obligatory in German. “Thor” is the 1857 spelling of Tor."
+  },
+  {
+   "p": true,
+   "t": "Er trat hinein und gieng durch alle Zimmer, bis er in dem letzten die Königstochter fand.",
+   "l": "He stepped inside and went through all the rooms, until he in the last found the king’s daughter.",
+   "i": "He went in and passed through all the rooms until he found the princess in the last of them.",
+   "n": "“hinein” marks motion inward from where the speaker stands; German has a small family of these direction words (hinein, heraus, hinab) that English handles with in, out, down."
+  },
+  {
+   "t": "Aber wie erschrack er, als er sie anblickte: sie hatte ein aschgraues Gesicht voll Runzeln, trübe Augen und rothe Haare.",
+   "l": "But how he took fright when he looked at her: she had an ash-grey face full of wrinkles, dim eyes and red hair.",
+   "i": "But how startled he was when he looked at her: she had an ash-grey face full of wrinkles, dim eyes and red hair.",
+   "n": "“erschrack” is the 1857 spelling of erschrak. “wie erschrack er” is exclamatory, not a question — German marks it only by word order and the following colon."
+  },
+  {
+   "t": "„Seid ihr die Königstochter, deren Schönheit alle Welt rühmt?“ rief er aus.",
+   "l": "“Are you the king’s daughter whose beauty all the world praises?” he cried out.",
+   "i": "“Are you the princess whose beauty all the world praises?” he cried.",
+   "n": "“ihr” is the older polite way of addressing one person, like French vous; the tale keeps it for strangers throughout. “deren” is the feminine genitive relative: whose."
+  },
+  {
+   "t": "„Ach,“ erwiederte sie, „das ist meine Gestalt nicht, die Augen der Menschen können mich nur in dieser Häßlichkeit erblicken,",
+   "l": "“Ah,” replied she, “that is not my shape, the eyes of men can behold me only in this ugliness,",
+   "i": "“Ah,” she replied, “this is not my true shape; human eyes can see me only in this ugliness,",
+   "n": "“erwiederte” is the 1857 spelling of erwiderte. “die Augen der Menschen” — Mensch is a human being of either sex, so “men” here means people."
+  },
+  {
+   "t": "aber damit du weißt wie ich aussehe, so schau in den Spiegel, der läßt sich nicht irre machen, der zeigt dir mein Bild, wie es in Wahrheit ist.“",
+   "l": "but so that you know how I look, so look into the mirror, it does not let itself be led astray, it shows you my picture as it is in truth.”",
+   "i": "but so that you may know how I look, look into the mirror; it cannot be deceived, and it shows you my likeness as it truly is.”",
+   "n": "“sich nicht irre machen lassen” — literally to let oneself be made astray; the mirror cannot be put off or confused. Both “der läßt” and “der zeigt” are demonstratives standing in for relative pronouns."
+  },
+  {
+   "t": "Sie gab ihm den Spiegel in die Hand, und er sah darin das Abbild der schönsten Jungfrau, die auf der Welt war,",
+   "l": "She gave him the mirror into the hand, and he saw in it the image of the fairest maiden that was in the world,",
+   "i": "She put the mirror into his hand, and in it he saw the likeness of the fairest maiden in the world,",
+   "n": "German says “gab ihm den Spiegel in die Hand” with a dative of the person where English uses a possessive: into his hand. “Abbild” is a likeness, an image of something that exists."
+  },
+  {
+   "t": "und sah wie ihr vor Traurigkeit die Thränen über die Wangen rollten.",
+   "l": "and saw how to her from sadness the tears rolled over the cheeks.",
+   "i": "and saw the tears rolling down her cheeks for sorrow.",
+   "n": "“ihr … über die Wangen” is the dative of possession: the dative pronoun names whose cheeks, so German needs no possessive. “vor Traurigkeit” — “vor” gives the cause of a feeling: for sorrow."
+  },
+  {
+   "t": "Da sprach er „wie kannst du erlöst werden? ich scheue keine Gefahr.“",
+   "l": "Then said he “how can you be delivered? I shun no danger.”",
+   "i": "Then he said, “how can you be set free? I shrink from no danger.”",
+   "n": "“erlöst werden” is the passive of erlösen, to release from a spell — the tale’s key verb, with “Erlösung” its noun."
+  },
+  {
+   "t": "Sie sprach „wer die krystallne Kugel erlangt und hält sie dem Zauberer vor, der bricht damit seine Macht, und ich kehre in meine wahre Gestalt zurück.",
+   "l": "She said “whoever obtains the crystal ball and holds it up to the sorcerer, he breaks his power with it, and I return into my true shape.",
+   "i": "She said, “whoever obtains the crystal ball and holds it up before the sorcerer breaks his power with it, and I come back to my true shape.",
+   "n": "“hält … vor” is vorhalten, to hold something up in front of someone; the particle “vor” stands at the end. The text calls the enchanter “der Zauberer”, a man, though the tale opened on a sorceress, and it never says whether they are the same. The opening quotation mark here is never closed in the 1857 printing — the next speech simply opens a new one."
+  },
+  {
+   "t": "„Ach,“ setzte sie hinzu, „schon so mancher ist darum in seinen Tod gegangen,",
+   "l": "“Ah,” added she, “already so many a one has gone to his death for it,",
+   "i": "“Ah,” she added, “many a man has gone to his death for it already,",
+   "n": "“hinzusetzen” is to add a remark. “so mancher” is the indefinite “many a one”, always singular in German."
+  },
+  {
+   "t": "und du junges Blut, du jammerst mich, wenn du dich in die großen Gefährlichkeiten begiebst.“",
+   "l": "and you young blood, you make me pity you, when you put yourself into the great perils.”",
+   "i": "and you, young blood, I am sorry for you if you put yourself in such great danger.”",
+   "n": "“du jammerst mich” reverses English: the person pitied is the subject and the pitier is the object — literally “you grieve me”. “sich begeben in” is to betake oneself into."
+  },
+  {
+   "t": "„Mich kann nichts abhalten“ sprach er, „aber sage mir was ich thun muß.“",
+   "l": "“Nothing can hold me back,” said he, “but tell me what I must do.”",
+   "i": "“Nothing can hold me back,” he said, “but tell me what I have to do.”",
+   "n": "German puts the object “mich” first for emphasis and the subject “nichts” after the verb; English cannot move it, so the emphasis has to come from elsewhere."
+  },
+  {
+   "t": "„Du sollst alles wissen,“ sprach die Königstochter, „wenn du den Berg auf dem das Schloß steht, hinabgehst,",
+   "l": "“You shall know everything,” said the king’s daughter, “when you go down the mountain on which the castle stands,",
+   "i": "“You shall know it all,” said the princess. “When you go down the mountain the castle stands on,",
+   "n": "“hinabgehst” is separable hinabgehen, to go down and away from the speaker; the whole verb waits at the end of the clause. “sollst” here promises rather than commands."
+  },
+  {
+   "t": "so wird unten an einer Quelle ein wilder Auerochs stehen, mit dem mußt du kämpfen.",
+   "l": "then will down below at a spring a wild aurochs be standing, with which you must fight.",
+   "i": "then down below, at a spring, a wild aurochs will be standing, and with him you must fight.",
+   "n": "The aurochs, the wild ox of the old European forests, was already extinct in 1857 and belongs to the tale’s archaic world. “mit dem” refers back to the animal; German prepositions govern the relative pronoun’s case."
+  },
+  {
+   "t": "Und wenn es dir glückt ihn zu tödten, so wird sich aus ihm ein feuriger Vogel erheben, der trägt in seinem Leib ein glühendes Ei, und in dem Ei steckt als Dotter die Krystallkugel.",
+   "l": "And if it succeeds for you to kill him, then will out of him a fiery bird raise itself, it carries in its body a glowing egg, and in the egg sits as yolk the crystal ball.",
+   "i": "And if you manage to kill him, a fiery bird will rise out of him; it carries a glowing egg in its body, and in the egg, for a yolk, sits the crystal ball.",
+   "n": "“es glückt dir” is impersonal, with the person in the dative: it turns out well for you. “tödten” is the 1857 spelling of töten."
+  },
+  {
+   "t": "Er läßt aber das Ei nicht fallen, bis er dazu gedrängt wird,",
+   "l": "He does not however let the egg fall, until he is forced to it,",
+   "i": "He will not drop the egg, though, until he is forced to,",
+   "n": "“fallen lassen” — to let fall, the German for “drop”. “dazu gedrängt werden” is a passive: to be pressed to it."
+  },
+  {
+   "t": "fällt es aber auf die Erde, so zündet es und verbrennt alles in seiner Nähe,",
+   "l": "but if it falls onto the earth, then it kindles and burns everything in its nearness,",
+   "i": "but if it falls to the ground it catches fire and burns everything near it,",
+   "n": "A conditional clause with no “wenn”: German can put the verb first instead, exactly as English does in “had he known”. “zündet” is intransitive here — it takes fire of itself."
+  },
+  {
+   "t": "und das Eis selbst zerschmilzt und mit ihm die krystallne Kugel, und all deine Mühe ist vergeblich gewesen.“",
+   "l": "and the ice itself melts away and with it the crystal ball, and all your trouble will have been in vain.”",
+   "i": "and the ice itself melts, and the crystal ball with it, and all your labour will have been for nothing.”",
+   "n": "The 1857 printing has “das Eis”, ice, where the sense wants “das Ei”, the egg the fire has just been said to destroy. The printed reading is reproduced here unchanged and left standing; whether it is a slip of the setting is not something this edition decides."
+  },
+  {
+   "p": true,
+   "t": "Der Jüngling stieg hinab zu der Quelle, wo der Auerochse schnaubte und ihn anbrüllte.",
+   "l": "The young man climbed down to the spring, where the aurochs snorted and bellowed at him.",
+   "i": "The young man went down to the spring, where the aurochs stood snorting and bellowing at him.",
+   "n": "“anbrüllen” is separable — to roar at someone — but in a subordinate clause the particle stays joined to the verb at the end."
+  },
+  {
+   "t": "Nach langem Kampf stieß er ihm sein Schwert in den Leib und er sank nieder.",
+   "l": "After long fight thrust he him his sword into the body and he sank down.",
+   "i": "After a long fight he thrust his sword into the beast’s body, and it sank down.",
+   "n": "“stieß er ihm sein Schwert in den Leib” — the dative “ihm” marks whose body is meant, a construction German prefers to a possessive. “Leib” is the body as a living trunk."
+  },
+  {
+   "t": "Augenblicklich erhob sich aus ihm der Feuervogel und wollte fort fliegen,",
+   "l": "Instantly there rose out of him the fire-bird and wanted to fly away,",
+   "i": "Instantly the fire-bird rose out of him and would have flown away,",
+   "n": "“wollte” here is on the way to its old sense “was about to”, not a statement of desire."
+  },
+  {
+   "t": "aber der Adler, der Bruder des Jünglings, der zwischen den Wolken daher zog, stürzte auf ihn herab,",
+   "l": "but the eagle, the brother of the young man, who was drawing along between the clouds, plunged down on him,",
+   "i": "but the eagle, the young man’s brother, who was sailing along among the clouds, swooped down on him,",
+   "n": "The brothers’ enchantment now pays off; the printing makes the connection no more explicitly than this. “daher ziehen” is to move along through the air."
+  },
+  {
+   "t": "jagte ihn nach dem Meer hin und stieß ihn mit seinem Schnabel an, so daß er in der Bedrängnis das Ei fallen ließ.",
+   "l": "chased him toward the sea and knocked against him with his beak, so that he in the distress let the egg fall.",
+   "i": "drove him out towards the sea and struck him with his beak, so that in his distress he dropped the egg.",
+   "n": "“stieß ihn … an” is anstoßen, to knock against; the particle “an” closes the clause. “Bedrängnis” is being hard pressed."
+  },
+  {
+   "t": "Es fiel aber nicht in das Meer, sondern auf eine Fischerhütte, die am Ufer stand, und die fieng gleich an zu rauchen und wollte in Flammen aufgehen.",
+   "l": "It fell however not into the sea, but onto a fisherman’s hut that stood on the shore, and it began at once to smoke and was about to go up in flames.",
+   "i": "But it did not fall into the sea; it fell on a fisherman’s hut standing on the shore, and the hut at once began to smoke and was about to go up in flames.",
+   "n": "“sondern” is the “but” that corrects a negative — not this, but that. “anfangen” is separable: “fieng … an”."
+  },
+  {
+   "t": "Da erhoben sich im Meer haushohe Wellen, strömten über die Hütte und bezwangen das Feuer.",
+   "l": "Then rose in the sea house-high waves, streamed over the hut and subdued the fire.",
+   "i": "Then house-high waves rose in the sea, streamed over the hut and mastered the fire.",
+   "n": "“haushoch” is one of the compact German comparisons — as high as a house. “bezwingen” is to force into submission; here the water conquers the fire."
+  },
+  {
+   "t": "Der andere Bruder, der Wallfisch, war heran geschwommen und hatte das Wasser in die Höhe getrieben.",
+   "l": "The other brother, the whale, had swum up and had driven the water into the height.",
+   "i": "The other brother, the whale, had swum up and driven the water high into the air.",
+   "n": "“heran geschwommen” — the 1857 text prints many separable verbs as two words where modern spelling joins them (herangeschwommen)."
+  },
+  {
+   "t": "Als der Brand gelöscht war, suchte der Jüngling nach dem Ei und fand es glücklicher Weise:",
+   "l": "When the blaze was quenched, the young man searched for the egg and found it, luckily:",
+   "i": "When the blaze was put out, the young man looked for the egg, and by good fortune found it:",
+   "n": "“glücklicher Weise” is written as two words in 1857 where modern German writes glücklicherweise, “fortunately”."
+  },
+  {
+   "t": "es war noch nicht geschmolzen, aber die Schaale war von der plötzlichen Abkühlung durch das kalte Wasser zerbröckelt und er konnte die Krystallkugel unversehrt heraus nehmen.",
+   "l": "it was not yet melted, but the shell was crumbled apart by the sudden cooling through the cold water, and he could take the crystal ball out unharmed.",
+   "i": "it had not yet melted, but the sudden chilling by the cold water had crumbled the shell, and he could lift the crystal ball out unharmed.",
+   "n": "“Schaale” is the 1857 spelling of Schale, shell. German states the cause with “von … durch”: crumbled by the cooling, through the water."
+  },
+  {
+   "p": true,
+   "t": "Als der Jüngling zu dem Zauberer gieng und sie ihm vorhielt, so sagte dieser „meine Macht ist zerstört und du bist von nun an der König vom Schloß der goldenen Sonne.",
+   "l": "When the young man went to the sorcerer and held it up to him, then said this one “my power is destroyed and you are from now on the king of the castle of the golden sun.",
+   "i": "When the young man went to the sorcerer and held it up before him, the sorcerer said, “my power is destroyed, and from now on you are king of the castle of the golden sun.",
+   "n": "“dieser” — “this one” — is how German names the person last mentioned, where English repeats the noun. “vorhielt” is vorhalten again, the verb the princess used."
+  },
+  {
+   "t": "Auch deinen Brüdern kannst du die menschliche Gestalt damit zurück geben.“",
+   "l": "Also to your brothers can you give the human shape back with it.”",
+   "i": "With it you can give your brothers their human shape back too.”",
+   "n": "The sentence begins with the dative object “deinen Brüdern”, which pushes the subject after the verb — ordinary German emphasis, not a special construction."
+  },
+  {
+   "t": "Da eilte der Jüngling zu der Königstochter, und als er in ihr Zimmer trat,",
+   "l": "Then hurried the young man to the king’s daughter, and when he stepped into her room,",
+   "i": "Then the young man hurried to the princess, and when he came into her room,",
+   "n": "The tale ends as abruptly as it moves: the disenchantment of the brothers is promised but never narrated."
+  },
+  {
+   "t": "so stand sie da in vollem Glanz ihrer Schönheit, und beide wechselten voll Freude ihre Ringe mit einander.",
+   "l": "then stood she there in full radiance of her beauty, and both exchanged full of joy their rings with one another.",
+   "i": "there she stood in the full radiance of her beauty, and in their joy the two exchanged rings.",
+   "n": "Exchanging rings is the tale’s whole wedding: the 1857 text closes on the gesture and says nothing more. “voll Freude” is uninflected before the noun, an older usage."
+  }
+ ],
+ "glossary": {
+  "alte": "die Alte — the old woman (alt ‘old’ substantivized; der Alte: the old man)",
+  "brand": "der Brand — fire, blaze (den Brand löschen: to put the fire out)",
+  "ei": "das Ei — egg (neuter noun)",
+  "erhoben": "sich erheben — rose up (3rd pl. past)",
+  "es": "es — it; also the impersonal subject where English needs “there” or a dummy “it” (es glückt dir: it turns out well for you)",
+  "gezogen": "ziehen — travelled, journeyed (past part.; herum ziehen: to wander about)",
+  "hält": "vorhalten — holds up before (3rd sg. present; separable vor-: hält … vor)",
+  "ihm": "ihm — to him, for him; also “to it” for a masculine or neuter noun (dative of er/es)",
+  "junges": "jung — young (adj., neuter; du junges Blut: you young thing)",
+  "kehre": "zurückkehren — (I) return (1st sg. present; separable zurück-: kehre … zurück)",
+  "lauft": "laufen — run (2nd pl. imperative; um die Wette laufen: to race)",
+  "macht": "die Macht — power, might (noun, f.)",
+  "sage": "sagen — say, tell (imperative sg.; sage mir: tell me)",
+  "schau": "schauen — look (imperative sg.; schau in den Spiegel)",
+  "stieß": "stoßen — thrust, struck (3rd sg. past; mit an: gave a knock, anstoßen)",
+  "verwünschte": "verwünscht — enchanted, under a spell (past part. of verwünschen used as an adjective)",
+  "wagen": "wagen — to stake, to risk (infinitive; sein Leben daran wagen: to stake one’s life on it)",
+  "wette": "die Wette — wager, bet (um die Wette laufen: to race one another)",
+  "wolken": "die Wolke — clouds (dat. pl.; zwischen den Wolken: among the clouds)",
+  "zeigt": "zeigen — shows (3rd sg. present)",
+  "zog": "ziehen — moved, drew along (3rd sg. past; daher ziehen: to move along through the air)",
+  "zündet": "zünden — catches fire, kindles (3rd sg. present; intransitive here)"
+ }
+}

@@ -133,10 +133,33 @@ def check_fitt_table():
 
 
 # ---------------------------------------------------------------------------
-# Normalisation. Used ONLY for matching a witness line to a gold line - never on
-# anything that gets archived. Archived text is always the witness's own bytes.
+# Normalisation. Two different things live here, and the difference matters:
+#   restore_printing() undoes a digitisation's MECHANICAL re-encodings (caesura
+#   spacing, -- for the em dash) and IS applied to what gets archived, because
+#   the goal is Klaeber's printed line. The 136-line gold control proves it.
+#   fingerprint() is brutal folding used ONLY to match a witness line to a gold
+#   line, and never touches anything that is written anywhere.
 # ---------------------------------------------------------------------------
 BRACKETS = "[]()<>{}"
+
+
+def restore_printing(line):
+    """Undo a digitisation's mechanical re-encodings of Klaeber's printing.
+
+    Perseus carries Klaeber's own text - macrons, brackets, conjectural
+    parentheses and all - but encodes two things differently from the page:
+    the caesura gap between half-lines becomes a run of spaces, and the em dash
+    becomes a double hyphen. Both are re-encodings of typography, not editorial
+    choices, so restoring them recovers Klaeber's line rather than inventing
+    one. The 136-line gold control is what proves that claim; if this function
+    ever over-reaches, the control fails and nothing is archived.
+    """
+    line = line.replace("\u2014", "--")          # normalise, then re-derive
+    line = re.sub(r"-{2,}", "\u2014", line)
+    line = re.sub(r"\s+", " ", line).strip()
+    line = re.sub(r"\s*\u2014\s*", " \u2014 ", line)      # one space each side
+    line = re.sub(r" \u2014 (?=[,.;:!?])", " \u2014", line)  # ... except before punctuation
+    return line.strip()
 
 
 def fingerprint(s):
@@ -235,7 +258,7 @@ def split_numbered(text):
             out.append((int(m.group(2)), m.group(1).strip()))
             continue
         out.append((None, s))
-    return out
+    return [(n, restore_printing(t)) for n, t in out]
 
 
 def w_klaeber_ocr():
@@ -323,7 +346,7 @@ def score(lines, gold):
         witness_macrons += macron_count(w)
         if w == g:
             exact += 1
-        elif len(mismatches) < 12:
+        elif len(mismatches) < 400:
             mismatches.append({"line": n, "gold": g, "witness": w})
     return {
         "lines_fetched": len(lines),
@@ -353,6 +376,20 @@ def bakeoff():
         report["witnesses"].append(entry)
         print("%-22s %s" % (key, json.dumps({k: v for k, v in entry.items()
                                              if k in ("matched", "exact", "macron_ratio", "error")})))
+
+    # Dump the best edition-of-record witness in full, so a later session can
+    # develop against real data instead of guessing from a 12-line sample.
+    best = max((w for w in report["witnesses"] if w["is_edition_of_record"]),
+               key=lambda w: w.get("exact", 0) * 1000 + w.get("matched", 0), default=None)
+    if best and best.get("matched"):
+        try:
+            lines = dict((k, f) for k, _, _, f in WITNESSES)[best["key"]]()
+            with open(os.path.join(ROOT, ".github", "witness-dump.txt"), "w", encoding="utf-8") as fh:
+                for n, t in lines:
+                    fh.write("%s\t%s\n" % ("" if n is None else n, t))
+            report["dump"] = ".github/witness-dump.txt (%s, %d lines)" % (best["key"], len(lines))
+        except Exception as exc:                                   # noqa: BLE001
+            report["dump"] = "dump failed: %s" % exc
 
     winners = [w for w in report["witnesses"] if w.get("usable_as_edition") and w["is_edition_of_record"]]
     report["verdict"] = ("ARCHIVE-READY: " + winners[0]["key"]) if winners else \

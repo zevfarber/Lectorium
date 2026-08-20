@@ -1,0 +1,234 @@
+{
+  "gold_lines": 136,
+  "witnesses": [
+    {
+      "key": "klaeber-archive-ocr",
+      "description": "Klaeber 1922 (edition of record), archive.org OCR",
+      "is_edition_of_record": true,
+      "lines_fetched": 31264,
+      "gold_lines": 136,
+      "matched": 16,
+      "exact": 0,
+      "gold_macrons": 300,
+      "witness_macrons": 0,
+      "macron_ratio": 0.0,
+      "missing_lines": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        70,
+        71,
+        74,
+        75
+      ],
+      "sample_mismatches": [
+        {
+          "line": 69,
+          "gold": "medoærn micel men gewyrcean . . . . . .",
+          "witness": "medoaern  micel        men  gewyrcean"
+        },
+        {
+          "line": 72,
+          "gold": "geongum ond ealdum, swylc him God sealde,",
+          "witness": "geongum  ond  ealdum,        swylc  him  God  sealde,"
+        },
+        {
+          "line": 73,
+          "gold": "būton folcscare ond feorum gumena.",
+          "witness": "buton  folcscare        ond  feorum  gumena."
+        },
+        {
+          "line": 76,
+          "gold": "folcstede frætwan. Him on fyrste gelomp,",
+          "witness": "folcstede  fraetwan.        Him  on  fyrste  gelomp"
+        },
+        {
+          "line": 95,
+          "gold": "lēoman tō lēohte landbūendum,",
+          "witness": "95leoman  to  leohte        landbuendum,"
+        },
+        {
+          "line": 96,
+          "gold": "ond gefrætwade foldan scēatas",
+          "witness": "ond  gefraetwade        foldan  sceatas"
+        },
+        {
+          "line": 101,
+          "gold": "fyrene fre(m)man fēond on helle;",
+          "witness": "fyrene  fre(m)man        feond  on  helle  ;"
+        },
+        {
+          "line": 112,
+          "gold": "eotenas ond ylfe ond orcnēâs,",
+          "witness": "eotenas  ond  ylfe        ond  orcneas,"
+        },
+        {
+          "line": 135,
+          "gold": "ac ymb āne niht eft gefremede",
+          "witness": "ac  ymb  ane  niht        eft  gefremede"
+        },
+        {
+          "line": 139,
+          "gold": "gerūmlīcor ræste [sōhte],",
+          "witness": "gerumlicor       raeste  [sohte],"
+        },
+        {
+          "line": 154,
+          "gold": "singāle sæce; sibbe ne wolde",
+          "witness": "singale  saece  ;        sibbe  ne  wolde"
+        },
+        {
+          "line": 161,
+          "gold": "seomade ond syrede; sinnihte hēold",
+          "witness": "seomade  ond  syrede ;        sinnihte  heold"
+        }
+      ],
+      "usable_as_edition": false
+    },
+    {
+      "key": "perseus-klaeber",
+      "description": "Perseus Beowulf, Klaeber lineation",
+      "is_edition_of_record": true,
+      "lines_fetched": 3268,
+      "gold_lines": 136,
+      "matched": 133,
+      "exact": 0,
+      "gold_macrons": 300,
+      "witness_macrons": 291,
+      "macron_ratio": 0.97,
+      "missing_lines": [
+        71,
+        93,
+        175
+      ],
+      "sample_mismatches": [
+        {
+          "line": 53,
+          "gold": "Ðā wæs on burgum Bēowulf Scyldinga,",
+          "witness": "Ðā wæs on burgum  Bēowulf Scyldinga,"
+        },
+        {
+          "line": 54,
+          "gold": "lēof lēodcyning longe þrāge",
+          "witness": "lēof lēodcyning  longe þrāge"
+        },
+        {
+          "line": 55,
+          "gold": "folcum gefrǣge — fæder ellor hwearf,",
+          "witness": "folcum gefrǣge  --fæder ellor hwearf,"
+        },
+        {
+          "line": 56,
+          "gold": "aldor of earde —, oþ þæt him eft onwōc",
+          "witness": "aldor of earde --,  oþ þæt him eft onwōc"
+        },
+        {
+          "line": 57,
+          "gold": "hēah Healfdene; hēold þenden lifde",
+          "witness": "hēah Healfdene;  hēold þenden lifde"
+        },
+        {
+          "line": 58,
+          "gold": "gamol ond gūðrēouw glæde Scyldingas.",
+          "witness": "gamol ond gūðrēouw  glæde Scyldingas."
+        },
+        {
+          "line": 59,
+          "gold": "Ðǣm fēower bearn forðgerīmed",
+          "witness": "Ðǣm fēower bearn  forðgerīmed"
+        },
+        {
+          "line": 60,
+          "gold": "in worold wōcun, weoroda rǣswa[n],",
+          "witness": "in worold wōcun,  weoroda rǣswa[n],"
+        },
+        {
+          "line": 61,
+          "gold": "Heorogār ond Hrōðgār ond Hālga til,",
+          "witness": "Heorogār ond Hrōðgār  ond Hālga til,"
+        },
+        {
+          "line": 62,
+          "gold": "hȳrde ic þæt [. . . . . . wæs On]elan cwēn,",
+          "witness": "hȳrde ic þæt [......  wæs On]elan cwēn,"
+        },
+        {
+          "line": 63,
+          "gold": "Heaðo-Scilfingas healsgebedda.",
+          "witness": "Heaðo-Scilfingas  healsgebedda."
+        },
+        {
+          "line": 64,
+          "gold": "þā wæs Hrōðgāre herespēd gyfen,",
+          "witness": "þā wæs Hrōðgāre  herespēd gyfen,"
+        }
+      ],
+      "usable_as_edition": false
+    },
+    {
+      "key": "wyatt-wikisource",
+      "description": "Wyatt 1894 via Wikisource",
+      "is_edition_of_record": false,
+      "lines_fetched": 104,
+      "gold_lines": 136,
+      "matched": 0,
+      "exact": 0,
+      "gold_macrons": 300,
+      "witness_macrons": 0,
+      "macron_ratio": 0.0,
+      "missing_lines": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "sample_mismatches": [],
+      "usable_as_edition": false
+    },
+    {
+      "key": "wyatt-oll",
+      "description": "Wyatt 1894 via Online Library of Liberty",
+      "is_edition_of_record": false,
+      "error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "usable_as_edition": false
+    },
+    {
+      "key": "ang-wikisource",
+      "description": "Old English Wikisource Beowulf",
+      "is_edition_of_record": false,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "usable_as_edition": false
+    }
+  ],
+  "verdict": "NO ADEQUATE KLAEBER WITNESS - the automated route is blocked; see the plan's decision (a)/(b)/(c)",
+  "winner": null
+}

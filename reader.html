@@ -4471,6 +4471,7 @@ async function loadEntryByIndex(i){
     }
   }
   await ensureGlossary(s);
+  await probeAudio(s);
   loadStory(s);
 }
 $('workSel').onchange = () => {
@@ -4486,6 +4487,27 @@ $('storyFilter').oninput = (e) => {
   fillStorySel(+$('workSel').value, keep);
 };
 
+/* ---- audio auto-detection (added 2026-08-20) -------------------------------
+   The Build-audio workflow commits clips + align.json under audio/<id>/ but never edits the
+   story file, so "audio": "audio/<id>" could only be set by a separate flip step. That step
+   failed silently for four consecutive batches — it looked for align.json on the OneDrive
+   master, where repo-built audio has never lived — leaving finished audio dark and karaoke off.
+   So: ask the site instead of waiting to be told. One align.json probe per story, remembered
+   for the session, and the parsed timings are handed to loadStory so nothing is fetched twice.
+   A story that already carries an audio field is left exactly as it is. */
+const audioProbe = {};          // id -> Promise<parsed align.json | null>
+function probeAudio(s){
+  if (!s || s.audio || !s.id) return Promise.resolve(null);
+  if (!(s.id in audioProbe)) {
+    audioProbe[s.id] = fetch('audio/' + s.id + '/align.json', { cache: 'no-cache' })
+      .then(r => r.ok ? r.json() : null).catch(() => null);
+  }
+  return audioProbe[s.id].then(d => {
+    if (d && !s.audio) { s.audio = 'audio/' + s.id; s._align = d; }
+    return d;
+  }).catch(() => null);
+}
+
 function loadStory(s){
   try { document.body.setAttribute('data-script', s.script || ''); } catch(e){}
   try { document.body.setAttribute('data-font', s.font || ''); } catch(e){}
@@ -4499,7 +4521,8 @@ function loadStory(s){
   wordTimes = null; hlWi = -1; wordClips = null;
   if (s.audio){
     const ab = s.audio.replace(/\/+$/,'');
-    fetch(ab + '/align.json').then(r => r.ok ? r.json() : null).then(d => { wordTimes = d; }).catch(() => {});
+    if (s._align) wordTimes = s._align;
+    else fetch(ab + '/align.json').then(r => r.ok ? r.json() : null).then(d => { wordTimes = d; }).catch(() => {});
     fetch(ab + '/words.json').then(r => r.ok ? r.json() : null).then(d => { wordClips = d; }).catch(() => {});
   }
   activeSimplify = simplifyConfig(s);

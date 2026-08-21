@@ -86,8 +86,16 @@ TOTAL_LINES = 3182
 
 # If the API rejects this model id, the script queries /v1/models and prints the
 # ids it is actually allowed to use, into the job summary. Change this one line.
-DEFAULT_MODEL = os.environ.get("VISION_MODEL", "claude-opus-4-5")
+#
+# `or`, NOT a dict default. The workflow passes VISION_MODEL: ${{ vars.VISION_MODEL }},
+# and an UNDEFINED repository variable expands to the EMPTY STRING rather than
+# being absent - so os.environ.get(name, default) hands back "" and the API
+# answers `model: String should have at least 1 character`. Measured on run #5,
+# 2026-08-21. An empty value must fall through to the default exactly as an
+# unset one does.
+DEFAULT_MODEL = os.environ.get("VISION_MODEL") or "claude-opus-4-5"
 API_URL = "https://api.anthropic.com/v1/messages"
+MODELS_URL = "https://api.anthropic.com/v1/models?limit=100"
 UA = {"User-Agent": "lectorium-vision/1.0 (+https://github.com/zevfarber/Lectorium)"}
 
 # The Old English inventory Klaeber prints, and nothing else. An acute accent is
@@ -316,6 +324,24 @@ not reconstruct it.
 Wrap the result in <transcription></transcription>."""
 
 
+def available_models(api_key):
+    """The model ids this key may actually use.
+
+    The module docstring has always promised that a rejected model id produces
+    the list of legal ones; until run #5 it only promised it. Asking costs one
+    cheap GET and turns "MODEL REJECTED" from a guess-and-push loop into a
+    single informative failure.
+    """
+    try:
+        req = Request(MODELS_URL, headers={"x-api-key": api_key,
+                                           "anthropic-version": "2023-06-01"})
+        with urlopen(req, timeout=60) as r:
+            doc = json.loads(r.read().decode("utf-8"))
+        return [m["id"] for m in doc.get("data", []) if m.get("id")]
+    except Exception as exc:                                    # noqa: BLE001
+        return ["<could not list models: %s: %s>" % (type(exc).__name__, exc)]
+
+
 def call_model(image_bytes, prompt, model, api_key, max_retries=4):
     body = {
         "model": model,
@@ -344,9 +370,17 @@ def call_model(image_bytes, prompt, model, api_key, max_retries=4):
         except HTTPError as exc:
             detail = exc.read().decode("utf-8", "replace")[:400]
             if exc.code in (400, 404) and "model" in detail.lower():
-                raise SystemExit(
-                    "MODEL REJECTED: %s\n%s\nSet VISION_MODEL to one of the ids "
-                    "returned by GET https://api.anthropic.com/v1/models" % (model, detail))
+                ids = available_models(api_key)
+                note = ("MODEL REJECTED: %r\n%s\n\nThis key may use:\n  %s\n\n"
+                        "Set the repository VARIABLE VISION_MODEL (Settings -> "
+                        "Secrets and variables -> Actions -> Variables) to one of "
+                        "them, or edit DEFAULT_MODEL in this file."
+                        % (model, detail, "\n  ".join(ids)))
+                summary = os.environ.get("GITHUB_STEP_SUMMARY")
+                if summary:
+                    with open(summary, "a", encoding="utf-8") as fh:
+                        fh.write("### Vision probe could not start\n\n```\n%s\n```\n" % note)
+                raise SystemExit(note)
             if exc.code in (429, 500, 502, 503, 529) and attempt < max_retries - 1:
                 time.sleep(delay)
                 delay *= 2

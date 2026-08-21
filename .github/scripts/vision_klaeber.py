@@ -185,10 +185,36 @@ def load_prologue_stream():
 # ---------------------------------------------------------------------------
 # Page discovery — free, from the OCR text layer's form feeds
 # ---------------------------------------------------------------------------
-def fetch(url, timeout=120, binary=False):
-    req = Request(url, headers=UA)
-    with urlopen(req, timeout=timeout) as r:
-        raw = r.read()
+# archive.org answers 5xx intermittently under load. Measured on run #6,
+# 2026-08-21: the djvu.txt download returned HTTP 500 and killed the probe four
+# minutes after the identical request had succeeded on run #5. A transient 5xx
+# is not a finding about the scans, so it is retried rather than reported.
+# 403/404 are NOT retried - they are a real answer ("this URL does not exist"),
+# and get_page_image depends on getting that answer quickly so it can move on
+# to the next URL pattern.
+TRANSIENT = {408, 425, 429, 500, 502, 503, 504, 520, 522, 524}
+
+
+def fetch(url, timeout=120, binary=False, retries=4):
+    delay = 2
+    for attempt in range(retries):
+        try:
+            req = Request(url, headers=UA)
+            with urlopen(req, timeout=timeout) as r:
+                raw = r.read()
+            break
+        except HTTPError as exc:
+            if exc.code in TRANSIENT and attempt < retries - 1:
+                time.sleep(delay)
+                delay *= 2
+                continue
+            raise
+        except (URLError, OSError):
+            if attempt < retries - 1:
+                time.sleep(delay)
+                delay *= 2
+                continue
+            raise
     if binary:
         return raw
     for enc in ("utf-8", "latin-1"):
@@ -263,7 +289,10 @@ def get_page_image(leaf):
     last = None
     for url in page_image_url(leaf):
         try:
-            data = fetch(url, binary=True)
+            # Fewer retries here than for the text layer: three patterns are
+            # tried in turn and only one of them exists, so a wrong pattern
+            # should cost a moment, not half a minute.
+            data = fetch(url, binary=True, retries=2)
             if len(data) > 8000:                    # a real scan, not an error page
                 return data, url
         except (URLError, HTTPError, OSError) as exc:

@@ -50,6 +50,7 @@ USAGE
 """
 
 import argparse
+import html
 import json
 import os
 import re
@@ -154,11 +155,17 @@ def restore_printing(line):
     one. The 136-line gold control is what proves that claim; if this function
     ever over-reaches, the control fails and nothing is archived.
     """
+    line = html.unescape(line)
+    line = re.sub(r"\s+", " ", line).strip()
+    # French-style space before ; ! ? : , which Klaeber does not print
+    line = re.sub(r"\s+([;:!?,])", r"\1", line)
+    line = re.sub(r"\s+\.(?!\.)", ".", line)          # ... but never a lacuna's dots
     line = line.replace("\u2014", "--")          # normalise, then re-derive
     line = re.sub(r"-{2,}", "\u2014", line)
-    line = re.sub(r"\s+", " ", line).strip()
     line = re.sub(r"\s*\u2014\s*", " \u2014 ", line)      # one space each side
     line = re.sub(r" \u2014 (?=[,.;:!?])", " \u2014", line)  # ... except before punctuation
+    # A lacuna is printed as spaced dots; digitisations compress them.
+    line = re.sub(r"\.{3,}", lambda m: " ".join("." * len(m.group(0))), line)
     return line.strip()
 
 
@@ -533,6 +540,28 @@ def selftest():
     # Numbering: unnumbered lines take their place from the previous anchor.
     numbered = number_lines([(53, "a"), (None, "b"), (None, "c"), (56, "d")], gold)
     assert numbered[54] == "b" and numbered[55] == "c" and numbered[56] == "d"
+
+    # The restorer's real regression cases, every one taken from a live bake-off
+    # against Perseus - not invented. If a digitisation changes shape, these fail
+    # loudly instead of quietly re-encoding the poem.
+    for got, want in [
+        ("\u00D0\u0101 w\u00E6s on burgum  B\u0113owulf Scyldinga,",
+         "\u00D0\u0101 w\u00E6s on burgum B\u0113owulf Scyldinga,"),
+        ("folcum gefr\u01E3ge  --f\u00E6der ellor hwearf,",
+         "folcum gefr\u01E3ge \u2014 f\u00E6der ellor hwearf,"),
+        ("aldor of earde --,  o\u00FE \u00FE\u00E6t him eft onw\u014Dc",
+         "aldor of earde \u2014, o\u00FE \u00FE\u00E6t him eft onw\u014Dc"),
+        ("h\u0233rde ic \u00FE\u00E6t [...... w\u00E6s On]elan cw\u0113n,",
+         "h\u0233rde ic \u00FE\u00E6t [. . . . . . w\u00E6s On]elan cw\u0113n,"),
+        ("medo\u00E6rn micel men gewyrcean ......",
+         "medo\u00E6rn micel men gewyrcean . . . . . ."),
+        ("lange \u00Fer\u0101ge ; h\u0113 him \u00F0\u00E6s l\u0113an forgeald.",
+         "lange \u00FEr\u0101ge; h\u0113 him \u00F0\u00E6s l\u0113an forgeald."),
+        ("wihte gewendan ! W\u0113l bi\u00F0 \u00FE\u01E3m \u00FEe m\u014Dt",
+         "wihte gewendan! W\u0113l bi\u00F0 \u00FE\u01E3m \u00FEe m\u014Dt"),
+    ]:
+        assert restore_printing(got) == want, \
+            "restorer regression: %r -> %r, wanted %r" % (got, restore_printing(got), want)
 
     print("selftest OK: fitt table sums to %d, gold holds %d lines, 5 controls pass"
           % (TOTAL_LINES, len(gold)))

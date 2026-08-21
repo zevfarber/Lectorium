@@ -79,7 +79,7 @@ jobs:
           set -eo pipefail
           git config user.name  'lectorium-archiver'
           git config user.email 'actions@github.com'
-          git add sources .github/witness-report.json 2>/dev/null || true
+          git add sources .github/witness-report.json .github/witness-dump.txt 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing to commit."
             exit 0

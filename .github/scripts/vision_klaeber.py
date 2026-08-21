@@ -259,6 +259,48 @@ def locate_poem_leaves(leaves, gold, prologue_stream):
     return hits
 
 
+# Klaeber 1922 is a book of several hundred pages, and lines 1-188 of the poem
+# cannot be printed on one or two of them. Anything below these floors means the
+# text layer did not split into leaves, not that the poem is short.
+MIN_LEAVES = 20
+MIN_POEM_LEAVES = 3
+
+
+def discovery_verdict(leaves, hits):
+    """None if page discovery looks real, else why it does not.
+
+    WHY THIS GATE EXISTS - measured on run #7, 2026-08-21. The README named the
+    form-feed assumption as untested and predicted that if it failed,
+    locate_poem_leaves would find NOTHING and the script would exit. It failed a
+    third way instead: `_djvu.txt` came back with no form feeds at all, so
+    split("\\f") produced ONE chunk holding the whole book, that single chunk
+    naturally contained every gold line, and discovery reported one located
+    "leaf" - leaf 0, the cover. The probe then dutifully transcribed the cover
+    twice, found no verse on it, and wrote
+
+        VISION WITNESS NOT USABLE - 0/136 gold exact
+
+    which is a FALSE NEGATIVE about the central question. The model was never
+    shown a page of Klaeber's verse. A wrong answer of that kind is worse than
+    an error, because the whole point of the probe is to decide whether the
+    vision route is alive; a future session reading that verdict would conclude
+    it is dead.
+
+    So: degenerate discovery must REFUSE, exactly as an unreachable archive.org
+    does. It must never be reported as a judgement on the model.
+    """
+    if len(leaves) < MIN_LEAVES:
+        return ("the OCR text layer split into %d chunk(s) - Klaeber 1922 runs to "
+                "several hundred pages, so `_djvu.txt` is not form-feed separated "
+                "for this item and page discovery has no leaves to work with"
+                % len(leaves))
+    if len(hits) < MIN_POEM_LEAVES:
+        return ("only %d leaf/leaves matched the poem - lines 1-188 cannot be "
+                "printed on fewer than %d pages, so the match is spurious"
+                % (len(hits), MIN_POEM_LEAVES))
+    return None
+
+
 def estimate_lines_per_leaf(hits):
     """Klaeber's page holds a fairly regular number of verse lines. Measured, not
     assumed: derived from consecutive located leaves."""
@@ -541,6 +583,62 @@ def transcribe_leaf(leaf, model, api_key, cache=True):
     return rec
 
 
+def refuse(reason, leaves, hits, mode, model):
+    """Stop before spending a single API call, and record a REFUSAL - never a
+    verdict on the witness.
+
+    The distinction is the point. `usable_as_edition` stays false either way, so
+    the archiver is equally blocked; but `witness_judged: false` says the model
+    was not tested, where the ordinary negative verdict says it was tested and
+    failed. Only one of those two is true here, and conflating them is how a
+    pipeline talks itself out of a route that was never tried.
+
+    The diagnostics are the useful part: they describe the text layer as it
+    actually arrived, so page discovery can be rebuilt from measurement instead
+    of from another guess - and they cost nothing.
+    """
+    joined = "\n".join(t for _, t in leaves)
+    report = {
+        "mode": mode,
+        "model": model,
+        "item": ITEM,
+        "witness_judged": False,
+        "usable_as_edition": False,
+        "verdict": "PROBE DID NOT RUN - " + reason,
+        "diagnostics": {
+            "chunks_from_form_feed_split": len(leaves),
+            "form_feeds_present": len(leaves) > 1,
+            "text_layer_chars": len(joined),
+            "text_layer_lines": joined.count("\n") + 1 if joined else 0,
+            "gold_lines_found_anywhere_in_text_layer": sum(
+                1 for g in load_gold().values()
+                if len(fingerprint(g)) >= 12 and fingerprint(g) in fingerprint(joined)),
+            "leaves_matching_poem": len(hits),
+            "first_chunk_head": joined[:300],
+        },
+    }
+    with open(PROBE_REPORT, "w", encoding="utf-8") as fh:
+        json.dump(report, fh, ensure_ascii=False, indent=2)
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        d = report["diagnostics"]
+        with open(summary, "a", encoding="utf-8") as fh:
+            fh.write("### Klaeber vision-OCR probe did not run\n\n%s\n\n" % reason)
+            fh.write("No API call was made, and **nothing is claimed about the "
+                     "model** - it was never shown a page of verse.\n\n")
+            fh.write("| text layer, as it actually arrived | |\n|---|---|\n")
+            fh.write("| chunks from the form-feed split | %d |\n"
+                     % d["chunks_from_form_feed_split"])
+            fh.write("| form feeds present | %s |\n" % d["form_feeds_present"])
+            fh.write("| characters | %d |\n" % d["text_layer_chars"])
+            fh.write("| lines | %d |\n" % d["text_layer_lines"])
+            fh.write("| gold lines found anywhere in it | %d / 136 |\n"
+                     % d["gold_lines_found_anywhere_in_text_layer"])
+            fh.write("| leaves matched to the poem | %d |\n" % d["leaves_matching_poem"])
+            fh.write("\nFirst 300 characters:\n\n```\n%s\n```\n" % d["first_chunk_head"])
+    raise SystemExit(report["verdict"])
+
+
 def run(mode):
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
@@ -555,8 +653,17 @@ def run(mode):
     leaves = ocr_leaves()
     hits = locate_poem_leaves(leaves, gold, prologue_stream)
     if not hits:
-        raise SystemExit("Could not locate the poem in the OCR text layer. "
-                         "Nothing transcribed; the item or its djvu.txt has changed.")
+        refuse("Could not locate the poem in the OCR text layer. "
+               "Nothing transcribed; the item or its djvu.txt has changed.",
+               leaves, hits, mode, model)
+    bad = discovery_verdict(leaves, hits)
+    if bad:
+        refuse("PAGE DISCOVERY FAILED - %s. Nothing was transcribed and NOTHING "
+               "IS CLAIMED ABOUT THE MODEL: it was never shown a page of verse. "
+               "The diagnostics below describe the text layer as it actually "
+               "arrived, so discovery can be rebuilt against facts rather than "
+               "against the form-feed guess." % bad,
+               leaves, hits, mode, model)
     per_leaf = estimate_lines_per_leaf(hits)
 
     if mode == "probe":
@@ -734,8 +841,19 @@ def selftest():
     numbered = number_pass([(53, "a"), (None, "b"), (None, "c"), (56, "d")])
     assert numbered[54] == "b" and numbered[55] == "c" and numbered[56] == "d"
 
+    # Defect 10: DEGENERATE PAGE DISCOVERY - the actual failure of run #7. One
+    # chunk holding the whole book matches every gold line and looks like a
+    # located leaf; it must be refused, not transcribed and scored.
+    assert discovery_verdict([(0, "the entire book")], {0: [1, 53, 188]}), \
+        "a text layer with no form feeds must be refused"
+    assert discovery_verdict([(i, "page %d" % i) for i in range(400)], {7: [53], 8: [80]}), \
+        "lines 1-188 spread over two leaves must be refused as spurious"
+    assert discovery_verdict([(i, "page %d" % i) for i in range(400)],
+                             {7: [53], 8: [80], 9: [110], 10: [150]}) is None, \
+        "a real-looking discovery must pass, or this gate blocks everything"
+
     print("vision selftest OK: gold %d lines, prologue stream %d chars with %d circumflexes, "
-          "9 injected defects all caught"
+          "10 injected defects all caught"
           % (len(gold), len(prologue_stream), circumflex_count(prologue_stream)))
     return 0
 

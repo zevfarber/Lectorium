@@ -146,7 +146,17 @@ jobs:
         if: ${{ github.event.inputs.mode == 'archive' }}
         run: python .github/scripts/archive_beowulf.py --archive
 
+      # always(), added 2026-08-21 after run #8. When the probe REFUSES - page
+      # discovery degenerate, archive.org unreachable - it writes an accurate
+      # vision-probe.json and then exits non-zero, which used to skip this step
+      # and leave the PREVIOUS, misleading report committed. Run #7's report
+      # said "VISION WITNESS NOT USABLE - 0/136 gold exact" about a model that
+      # had only ever been shown the book's cover; run #8 knew better and could
+      # not say so in the repo. The job still goes red, because a refusal wants
+      # attention - but the committed record must be the latest truth, not the
+      # last thing that happened to exit zero.
       - name: Commit
+        if: always()
         run: |
           set -eo pipefail
           git config user.name  'lectorium-archiver'

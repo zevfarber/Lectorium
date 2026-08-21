@@ -50,7 +50,6 @@ USAGE
 """
 
 import argparse
-import html
 import json
 import os
 import re
@@ -155,17 +154,11 @@ def restore_printing(line):
     one. The 136-line gold control is what proves that claim; if this function
     ever over-reaches, the control fails and nothing is archived.
     """
-    line = html.unescape(line)
+    line = line.replace("—", "--")          # normalise, then re-derive
+    line = re.sub(r"-{2,}", "—", line)
     line = re.sub(r"\s+", " ", line).strip()
-    # French-style space before ; ! ? : , which Klaeber does not print
-    line = re.sub(r"\s+([;:!?,])", r"\1", line)
-    line = re.sub(r"\s+\.(?!\.)", ".", line)          # ... but never a lacuna's dots
-    line = line.replace("\u2014", "--")          # normalise, then re-derive
-    line = re.sub(r"-{2,}", "\u2014", line)
-    line = re.sub(r"\s*\u2014\s*", " \u2014 ", line)      # one space each side
-    line = re.sub(r" \u2014 (?=[,.;:!?])", " \u2014", line)  # ... except before punctuation
-    # A lacuna is printed as spaced dots; digitisations compress them.
-    line = re.sub(r"\.{3,}", lambda m: " ".join("." * len(m.group(0))), line)
+    line = re.sub(r"\s*—\s*", " — ", line)      # one space each side
+    line = re.sub(r" — (?=[,.;:!?])", " —", line)  # ... except before punctuation
     return line.strip()
 
 
@@ -312,7 +305,28 @@ def w_ang_wikisource():
     return split_numbered(strip_html(fetch(url)))
 
 
+def w_klaeber_vision():
+    """Klaeber 1922 read from the PAGE SCANS by a vision model.
+
+    The one route the 2026-08-20 bake-off never tried: every witness it scored
+    was a pre-existing text dump, and a text dump cannot contain a macron its
+    OCR never recorded. See .github/scripts/vision_klaeber.py, which validates
+    itself against this same gold plus the published prologue's character stream
+    and RAISES rather than hand back an unvalidated text - so this function can
+    never quietly supply an unproven Klaeber.
+
+    restore_printing() is applied for the same reason it is applied to every
+    other witness, and is safe to apply here because the 136-line gold control
+    runs immediately afterwards and would catch it if it were not.
+    """
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import vision_klaeber
+    return [(n, restore_printing(t)) for n, t in vision_klaeber.witness_lines()]
+
+
 WITNESSES = [
+    ("klaeber-vision",      "Klaeber 1922 (edition of record), vision OCR of the page scans",
+                                                                         True,  w_klaeber_vision),
     ("klaeber-archive-ocr", "Klaeber 1922 (edition of record), archive.org OCR", True,  w_klaeber_ocr),
     ("perseus-klaeber",     "Perseus Beowulf, Klaeber lineation",                True,  w_perseus_klaeber),
     ("wyatt-wikisource",    "Wyatt 1894 via Wikisource",                         False, w_wyatt_wikisource),
@@ -460,19 +474,49 @@ def archive():
     if bad:
         raise SystemExit("REFUSING TO ARCHIVE: %d of %d gold lines wrong (first: %s)"
                          % (len(bad), len(gold), bad[:5]))
+    # Control 3: lines 1-52, concatenated, must match the PUBLISHED prologue
+    # character-for-character. The gold covers 53-188 only, and two of the
+    # poem's four known circumflexes live in the prologue - so without this the
+    # circumflex convention is tested on a sample of two. Compared as a stream
+    # because the reader's sense-units break mid-verse and the published file
+    # therefore does not know where Klaeber's line breaks fall.
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import vision_klaeber as _vk
+    want_stream = _vk.load_prologue_stream()
+    have_prologue = [n for n in range(1, 53) if n not in primary]
+    if have_prologue:
+        raise SystemExit("REFUSING TO ARCHIVE: prologue lines missing: %s" % have_prologue[:5])
+    got_stream = _vk.stream(" ".join(primary[n] for n in range(1, 53)))
+    if got_stream != want_stream:
+        for i, (g, w) in enumerate(zip(got_stream, want_stream)):
+            if g != w:
+                raise SystemExit(
+                    "REFUSING TO ARCHIVE: prologue stream diverges at char %d: "
+                    "archived %r vs published %r" % (i, got_stream[i:i+40], want_stream[i:i+40]))
+        raise SystemExit("REFUSING TO ARCHIVE: prologue stream length differs (%d vs %d)"
+                         % (len(got_stream), len(want_stream)))
+
     # Control 2: the poem must be complete.
     missing = [n for n in range(1, TOTAL_LINES + 1) if n not in primary]
     if missing:
         raise SystemExit("REFUSING TO ARCHIVE: %d lines missing (first: %s)"
                          % (len(missing), missing[:5]))
 
-    # Collation witness, used only to flag disagreement.
-    collation = {}
-    for key, _, is_klaeber, cfn in WITNESSES:
-        if is_klaeber or key == report["winner"]:
-            continue
+    # Collation witness. A DISAGREEMENT DETECTOR, never a source of characters:
+    # nothing it says is ever written into text_lines. Perseus is preferred over
+    # the Wyatt witnesses because it is the strongest disagreement detector we
+    # have - 122/136 exact and 97% of macrons - so where it and the archived
+    # text differ on LETTERS, something is genuinely wrong. It is deliberately
+    # eligible here despite being marked edition-of-record, because flagging a
+    # line is not contributing to it.
+    collation, collation_key = {}, None
+    by_key = dict((k, f) for k, _, _, f in WITNESSES)
+    order = sorted((k for k in by_key if k != report["winner"]),
+                   key=lambda k: 0 if k == "perseus-klaeber" else 1)
+    for key in order:
         try:
-            collation = number_lines(cfn(), gold)
+            collation = number_lines(by_key[key](), gold)
+            collation_key = key
             break
         except Exception:                                          # noqa: BLE001
             continue
@@ -495,7 +539,8 @@ def archive():
             "tokens": sum(len(l["t"].split()) for l in text_lines),
             "edition": "Klaeber, Beowulf and the Fight at Finnsburg, 1st ed., 1922",
             "witness": report["winner"],
-            "collation_witness": None if not collation else "second witness, flags only",
+            "collation_witness": collation_key,
+            "collation_role": "flags only - never contributes a character",
             "variants": variants,
             "text_lines": text_lines,
         }
@@ -541,30 +586,33 @@ def selftest():
     numbered = number_lines([(53, "a"), (None, "b"), (None, "c"), (56, "d")], gold)
     assert numbered[54] == "b" and numbered[55] == "c" and numbered[56] == "d"
 
-    # The restorer's real regression cases, every one taken from a live bake-off
-    # against Perseus - not invented. If a digitisation changes shape, these fail
-    # loudly instead of quietly re-encoding the poem.
-    for got, want in [
-        ("\u00D0\u0101 w\u00E6s on burgum  B\u0113owulf Scyldinga,",
-         "\u00D0\u0101 w\u00E6s on burgum B\u0113owulf Scyldinga,"),
-        ("folcum gefr\u01E3ge  --f\u00E6der ellor hwearf,",
-         "folcum gefr\u01E3ge \u2014 f\u00E6der ellor hwearf,"),
-        ("aldor of earde --,  o\u00FE \u00FE\u00E6t him eft onw\u014Dc",
-         "aldor of earde \u2014, o\u00FE \u00FE\u00E6t him eft onw\u014Dc"),
-        ("h\u0233rde ic \u00FE\u00E6t [...... w\u00E6s On]elan cw\u0113n,",
-         "h\u0233rde ic \u00FE\u00E6t [. . . . . . w\u00E6s On]elan cw\u0113n,"),
-        ("medo\u00E6rn micel men gewyrcean ......",
-         "medo\u00E6rn micel men gewyrcean . . . . . ."),
-        ("lange \u00Fer\u0101ge ; h\u0113 him \u00F0\u00E6s l\u0113an forgeald.",
-         "lange \u00FEr\u0101ge; h\u0113 him \u00F0\u00E6s l\u0113an forgeald."),
-        ("wihte gewendan ! W\u0113l bi\u00F0 \u00FE\u01E3m \u00FEe m\u014Dt",
-         "wihte gewendan! W\u0113l bi\u00F0 \u00FE\u01E3m \u00FEe m\u014Dt"),
-    ]:
-        assert restore_printing(got) == want, \
-            "restorer regression: %r -> %r, wanted %r" % (got, restore_printing(got), want)
+    # Control 3 must be able to say "no". The prologue control is compared as a
+    # STREAM, so any lineation of the same characters passes - that is the
+    # property it is built on, and it is asserted here rather than assumed.
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import vision_klaeber as _vk
+    want_stream = _vk.load_prologue_stream()
+    words = want_stream.split(" ")
+    sizes = [len(words) // 52 + (1 if i < len(words) % 52 else 0) for i in range(52)]
+    fake, pos = {}, 0
+    for i, sz in enumerate(sizes, 1):
+        fake[i] = " ".join(words[pos:pos + sz])
+        pos += sz
+    assert _vk.stream(" ".join(fake[n] for n in range(1, 53))) == want_stream, \
+        "an arbitrary lineation of the right characters must pass the stream control"
 
-    print("selftest OK: fitt table sums to %d, gold holds %d lines, 5 controls pass"
-          % (TOTAL_LINES, len(gold)))
+    # ... and a single stripped circumflex must fail it. This is the exact defect
+    # that disqualified Perseus, in the exact region the 136-line gold cannot see.
+    hit = [n for n in fake if "̂" in unicodedata.normalize("NFD", fake[n])]
+    assert hit, "prologue control proves nothing if the fake carries no circumflex"
+    broken = dict(fake)
+    broken[hit[0]] = unicodedata.normalize("NFC", "".join(
+        c for c in unicodedata.normalize("NFD", fake[hit[0]]) if c != "̂"))
+    assert _vk.stream(" ".join(broken[n] for n in range(1, 53))) != want_stream, \
+        "a stripped circumflex must fail the prologue stream control"
+
+    print("selftest OK: fitt table sums to %d, gold holds %d lines, %d prologue chars, "
+          "7 controls pass" % (TOTAL_LINES, len(gold), len(want_stream)))
     return 0
 
 

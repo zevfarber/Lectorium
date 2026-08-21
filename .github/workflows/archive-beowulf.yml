@@ -20,6 +20,30 @@ name: Archive Beowulf source
 # .github/witness-report.json and to the job summary; it does not fail the job,
 # because "no adequate machine-readable Klaeber exists" is a finding, not a bug.
 #
+# ---------------------------------------------------------------------------
+# ADDED 2026-08-21: THE VISION WITNESS
+# ---------------------------------------------------------------------------
+# The 2026-08-20 bake-off refused all five witnesses. Re-reading that report
+# showed every one of them was a pre-existing TEXT DUMP - and a text dump cannot
+# contain a macron whose OCR never recorded. archive.org holds the scans of
+# the book itself, so .github/scripts/vision_klaeber.py reads the PAGE IMAGES
+# with a vision model instead.
+#
+# It gets no special dispensation. It is scored by the same scorer against the
+# same gold, and must additionally clear two controls the older witnesses never
+# faced: two independent transcription passes of every page must agree
+# character-for-character, and lines 1-52 concatenated must match the published
+# prologue exactly (which is how the poem's other two circumflexes get tested at
+# all). Perseus is demoted to a flags-only disagreement detector and never
+# contributes a character.
+#
+# COST. The probe transcribes only the leaves carrying lines 1-188 - about 14
+# leaves, two passes each - and is the cheap decisive test: if the model cannot
+# reproduce text we have already verified by hand, nothing else matters and we
+# have spent cents finding out. Only `mode: transcribe` reads the whole poem.
+# Transcriptions are cached in .github/vision-cache/ and committed, so the full
+# run is paid for once and stays auditable afterwards.
+#
 # Self-retrigger is prevented the three ways archive.yml uses: the commit touches
 # only sources/** and .github/witness-report.json (audio.yml filters root-level
 # *.json, this workflow filters its own script/fixture), commits made with the
@@ -32,14 +56,15 @@ on:
     branches: [main]
     paths:
       - '.github/scripts/archive_beowulf.py'
+      - '.github/scripts/vision_klaeber.py'
       - '.github/workflows/archive-beowulf.yml'
       - '.github/fixtures/beowulf-53-188-klaeber1922.txt'
   workflow_dispatch:
     inputs:
       mode:
-        description: '"bakeoff" (score witnesses, write nothing) or "archive" (emit all 44 source files)'
+        description: '"bakeoff" (score witnesses, write nothing) · "probe" (vision-read the gold pages only) · "transcribe" (vision-read the whole poem) · "archive" (emit all 44 source files)'
         required: false
-        default: 'bakeoff'
+        default: 'probe'
 
 permissions:
   contents: write
@@ -51,7 +76,7 @@ concurrency:
 jobs:
   archive:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 90
 
     steps:
       - uses: actions/checkout@v4
@@ -62,15 +87,62 @@ jobs:
 
       # Offline. Proves the fitt table sums to 3,182, the gold transcript is
       # intact, and - the part that matters - that the scorer CATCHES injected
-      # defects: macrons stripped, thorn spelled th, a line dropped. A gate that
-      # has only ever said "pass" has not been shown to test anything.
-      - name: Selftest (offline, fatal)
+      # defects: macrons stripped, thorn spelled th, a line dropped, a stripped
+      # circumflex in the prologue. A gate that has only ever said "pass" has
+      # not been shown to test anything.
+      - name: Selftest, archiver (offline, fatal)
         run: python .github/scripts/archive_beowulf.py --selftest
+
+      # Same discipline for the vision path, and it needs no API key to run:
+      # nine injected defects, including a hallucinated line that two passes
+      # render differently and a model that translates instead of transcribing.
+      - name: Selftest, vision witness (offline, no API key, fatal)
+        run: python .github/scripts/vision_klaeber.py --selftest
+
+      - name: Check for the API key
+        id: key
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "present=false" >> $GITHUB_OUTPUT
+            {
+              echo "### Vision witness skipped"
+              echo ""
+              echo "No \`ANTHROPIC_API_KEY\` repository secret is set, so the page"
+              echo "scans were not read. Everything else in this run is unaffected."
+              echo ""
+              echo "To enable it: **Settings → Secrets and variables → Actions →"
+              echo "New repository secret**, named \`ANTHROPIC_API_KEY\`."
+            } >> $GITHUB_STEP_SUMMARY
+          else
+            echo "present=true" >> $GITHUB_OUTPUT
+          fi
+
+      # The cheap decisive test. Reads only the leaves carrying lines 1-188 and
+      # scores them against text we already verified by hand. Runs by default,
+      # including on a plain push, because it costs cents and a publish should
+      # be the trigger.
+      - name: Vision probe (gold pages only)
+        if: ${{ steps.key.outputs.present == 'true' && github.event.inputs.mode != 'bakeoff' && github.event.inputs.mode != 'archive' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          VISION_MODEL: ${{ vars.VISION_MODEL }}
+        run: python .github/scripts/vision_klaeber.py --probe
+
+      # The whole poem. Manual only - this is the one step that costs real
+      # money, and it refuses to run at all unless the probe passed.
+      - name: Vision transcribe (whole poem)
+        if: ${{ steps.key.outputs.present == 'true' && github.event.inputs.mode == 'transcribe' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          VISION_MODEL: ${{ vars.VISION_MODEL }}
+        run: python .github/scripts/vision_klaeber.py --transcribe
 
       - name: Witness bake-off
         run: python .github/scripts/archive_beowulf.py --bakeoff
 
-      - name: Archive (only if a Klaeber witness passed all 136 gold lines)
+      - name: Archive (only if a Klaeber witness passed every control)
         if: ${{ github.event.inputs.mode == 'archive' }}
         run: python .github/scripts/archive_beowulf.py --archive
 
@@ -79,7 +151,7 @@ jobs:
           set -eo pipefail
           git config user.name  'lectorium-archiver'
           git config user.email 'actions@github.com'
-          git add sources .github/witness-report.json .github/witness-dump.txt 2>/dev/null || true
+          git add sources .github/witness-report.json .github/vision-probe.json .github/vision-cache 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing to commit."
             exit 0
@@ -96,8 +168,12 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           if [ -f .github/witness-report.json ]; then
             python - <<'PY' >> $GITHUB_STEP_SUMMARY
-          import json
+          import json, os
           r = json.load(open('.github/witness-report.json'))
-          print("**Verdict:** " + r.get("verdict", "?"))
+          print("**Bake-off verdict:** " + r.get("verdict", "?"))
+          if os.path.exists('.github/vision-probe.json'):
+              v = json.load(open('.github/vision-probe.json'))
+              print("")
+              print("**Vision verdict:** " + v.get("verdict", "?"))
           PY
           fi

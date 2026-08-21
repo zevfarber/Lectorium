@@ -5,119 +5,14 @@
       "key": "klaeber-vision",
       "description": "Klaeber 1922 (edition of record), vision OCR of the page scans",
       "is_edition_of_record": true,
-      "error": "RuntimeError: no vision probe report; run --probe first",
+      "error": "RuntimeError: vision witness failed its controls: VISION WITNESS NOT USABLE - 0/136 gold exact, prologue stream MISMATCH",
       "usable_as_edition": false
     },
     {
       "key": "klaeber-archive-ocr",
       "description": "Klaeber 1922 (edition of record), archive.org OCR",
       "is_edition_of_record": true,
-      "lines_fetched": 31264,
-      "gold_lines": 136,
-      "matched": 16,
-      "exact": 1,
-      "gold_macrons": 300,
-      "witness_macrons": 0,
-      "macron_ratio": 0.0,
-      "missing_lines": [
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        70,
-        71,
-        74,
-        75
-      ],
-      "sample_mismatches": [
-        {
-          "line": 69,
-          "gold": "medoærn micel men gewyrcean . . . . . .",
-          "witness": "medoaern micel men gewyrcean"
-        },
-        {
-          "line": 73,
-          "gold": "būton folcscare ond feorum gumena.",
-          "witness": "buton folcscare ond feorum gumena."
-        },
-        {
-          "line": 76,
-          "gold": "folcstede frætwan. Him on fyrste gelomp,",
-          "witness": "folcstede fraetwan. Him on fyrste gelomp"
-        },
-        {
-          "line": 95,
-          "gold": "lēoman tō lēohte landbūendum,",
-          "witness": "95leoman to leohte landbuendum,"
-        },
-        {
-          "line": 96,
-          "gold": "ond gefrætwade foldan scēatas",
-          "witness": "ond gefraetwade foldan sceatas"
-        },
-        {
-          "line": 101,
-          "gold": "fyrene fre(m)man fēond on helle;",
-          "witness": "fyrene fre(m)man feond on helle ;"
-        },
-        {
-          "line": 112,
-          "gold": "eotenas ond ylfe ond orcnēâs,",
-          "witness": "eotenas ond ylfe ond orcneas,"
-        },
-        {
-          "line": 135,
-          "gold": "ac ymb āne niht eft gefremede",
-          "witness": "ac ymb ane niht eft gefremede"
-        },
-        {
-          "line": 139,
-          "gold": "gerūmlīcor ræste [sōhte],",
-          "witness": "gerumlicor raeste [sohte],"
-        },
-        {
-          "line": 154,
-          "gold": "singāle sæce; sibbe ne wolde",
-          "witness": "singale saece ; sibbe ne wolde"
-        },
-        {
-          "line": 161,
-          "gold": "seomade ond syrede; sinnihte hēold",
-          "witness": "seomade ond syrede ; sinnihte heold"
-        },
-        {
-          "line": 162,
-          "gold": "mistige mōras; men ne cunnon,",
-          "witness": "mistige moras ; men ne cunnon,"
-        },
-        {
-          "line": 164,
-          "gold": "Swā fela fyrena fēond mancynnes,",
-          "witness": "Swa fela fyrena feond mancynnes,"
-        },
-        {
-          "line": 167,
-          "gold": "sincfāge sel sweartum nihtum; —",
-          "witness": "sincfage sel sweartum nihtum ; —"
-        },
-        {
-          "line": 181,
-          "gold": "dǣda Dēmend, ne wiston hīe Drihten God,",
-          "witness": "daeda Demend, ne wiston hie Drihten God,"
-        }
-      ],
+      "error": "RuntimeError: archive.org unreachable",
       "usable_as_edition": false
     },
     {

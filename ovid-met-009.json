@@ -7,6 +7,10 @@
  "langCode": null,
  "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 fb3fdb1d8a4a3b82. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
  "about": "Io, turned into a heifer and penned under the hundred-eyed watch of Argus, is at last recognised by her father Inachus, whose lament opens this part. Jupiter sends Mercury to kill the guard; disguised as a herdsman, he talks and pipes Argus toward sleep, and the tale he tells to close those eyes — how the nymph Syrinx became the reed pipe he is playing — breaks off unfinished as his listener drifts under. With Argus dead and his hundred eyes set into the peacock's tail, Juno drives Io in madness across the whole world to the Nile, where Jupiter's oath on the Styx wins back her human shape. The episode closes Book I's chain of pursued women; Phaethon follows.",
+ "advisory": {
+  "lede": "This part contains a second pursuit whose end is rape — Pan and Syrinx — and the killing of Argus, beheaded in his sleep.",
+  "more": "Syrinx escapes Pan as Daphne escaped Apollo, by being changed into something that cannot be held; Pan is left holding marsh reeds. Argus's death is told in three explicit lines — the blade, the body thrown from the crag, the blood on the rock — and the part closes with Juno driving Io across the world in terror, a Fury set before her eyes. Lectorium presents the text as written; nothing is softened."
+ },
  "sentences": [
   {
    "t": "“Me miserum!” exclamat pater Inachus inque gementis\ncornibus et niveae pendens cervice iuvencae\n“me miserum!” ingeminat,",
@@ -196,6 +200,7 @@
   },
   {
    "t": "restabat verba referre\net precibus spretis fugisse per avia nympham,\ndonec harenosi placidum Ladonis ad amnem\nvenerit.",
+   "mark": "Mercury's speech breaks off in mid-sentence here: Argus is falling asleep, and the rest of the Syrinx tale is reported at second hand — which is why the units that follow all begin “that…”.",
    "l": "— it remained to report the words, and [to tell] that, with [his] entreaties scorned, the nymph fled through trackless country, until she came to the calm stream of sandy Ladon.",
    "i": "— the words remained to be reported: how the nymph, his pleas spurned, fled through the trackless wilds until she reached the still water of sandy Ladon.",
    "n": "Here Ovid does something famous. The tale breaks off in mid-quotation and finishes in indirect statement — accusative and infinitive (nympham ... fugisse, and later Pana ... tenuisse) instead of Pan's own words — because the listener, Argus, is falling asleep. The syntax itself goes drowsy. precibus spretis is an ablative absolute, a self-contained “with X done” phrase where English wants a clause: “when his pleas had been scorned.” donec ... venerit stands in the subjunctive not because “until” demands it but because the clause sits inside that indirect statement: a subordinate verb under an accusative-and-infinitive goes subjunctive whatever mood it would have carried in direct speech. Ladon is an Arcadian river, harenosi its genitive epithet, “sandy.”",

@@ -184,6 +184,10 @@
   .en.idm { color: var(--idiom-ink); }
   .en .lbl { font-family: system-ui, 'Noto Sans', sans-serif; font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; opacity: .65; margin-right: 6px; }
   .showEN .en { display: block; }
+  /* Editorial marker on a single unit (s.mark) — always visible, never a tap target.
+     Quiet enough to be scenery until it matters. */
+  .umark { font-family: system-ui, 'Noto Sans', sans-serif; font-size: .78rem; font-style: italic;
+           line-height: 1.5; color: var(--muted); margin: 0 0 7px; }
   .note { display: none; background: var(--note-bg); border: 1px solid var(--note-border); border-radius: 8px;
     padding: 8px 12px; margin-top: 7px; font-size: .9rem; line-height: 1.55; color: #6b5d33; }
   .note.open { display: block; }
@@ -3465,6 +3469,17 @@ function buildSentEl(s, i, showLit){
   let aux = div;
   if (vertical) { aux = document.createElement('div'); aux.className = 'vaux'; }
 
+  // Optional editorial marker for one unit (s.mark): a quiet italic line above the
+  // original, for a shift the text makes that the reader would otherwise only feel as
+  // oddness — a speech collapsing into indirect statement, a change of speaker mid-tale.
+  // Not a note: it needs no tap, because it explains the shape of what follows.
+  if (s.mark) {
+    const mk = document.createElement('div');
+    mk.className = 'umark';
+    mk.textContent = s.mark;
+    div.appendChild(mk);
+  }
+
   let lnChip = '';
   if (s.ln) {
     const end = s.ln + (s.t.match(/\n/g) || []).length;
@@ -4350,6 +4365,14 @@ function fillLibrary(selIdx){
     }
     byKey[k].indices.push(i);
   });
+  // Order the texts inside a work by their own place in the work, not by the order they
+  // happened to be published. An entry may carry seq (the part's number in the work);
+  // entries without one keep manifest order behind those that have one, since sort is
+  // stable. This is why the Metamorphoses pilot — published first, but tale 27 — sits
+  // where it belongs rather than at the top.
+  WORKS.forEach(w => w.indices.sort((a, b) =>
+    (MANIFEST[a].seq == null ? 1e9 : MANIFEST[a].seq) -
+    (MANIFEST[b].seq == null ? 1e9 : MANIFEST[b].seq)));
   ws.innerHTML = '';
   const groups = {}, order = [];
   WORKS.forEach((w, wi) => {

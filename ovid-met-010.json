@@ -1,0 +1,594 @@
+{
+ "id": "ovid-met-010",
+ "sourceId": "ovid-met-010",
+ "title": "Phaethon",
+ "titleEn": "Phaethon Asks for the Chariot — Metamorphoses I.747–II.110",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 fb3fdb1d8a4a3b82. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
+ "about": "Io's long ordeal ends in Egypt, where she is worshipped as a goddess and her son Epaphus is acknowledged as Jupiter's; a taunt from Epaphus about Phaethon's parentage is what sets this tale moving. Phaethon forces an oath out of his mother Clymene that the Sun really is his father, then travels east to the palace of the Sun to ask the god himself for proof. His father embraces him, swears by the Styx to grant whatever he asks, and the boy asks to drive the chariot of the sun for one day. The rest of this part is the Sun's long, exact and entirely useless attempt to talk him out of it, ending with the god leading him down to the chariot.",
+ "sentences": [
+  {
+   "t": "Nunc dea linigera colitur celeberrima turba,\nnunc Epaphus magni genitus de semine tandem\ncreditur esse Iovis, perque urbes iuncta parenti\ntempla tenet.",
+   "l": "Now the goddess is worshipped, most thronged-about, by a linen-bearing crowd; now Epaphus is believed to be at last begotten from the seed of great Jove, and through the cities he holds temples joined to his parent's.",
+   "i": "Now she is a goddess, worshipped by throngs in linen; now Epaphus is held to be, at last, the son of great Jove's seed, and city after city has his temples standing beside his mother's.",
+   "n": "Io, chased over the world and turned into a heifer, ends as the Egyptian goddess Isis: the linigera turba, 'linen-bearing throng', are her priests, who wore linen and shaved their bodies. celeberrima is the superlative of celeber, which means 'crowded' quite as much as 'famous'. Epaphus is the Egyptian bull-god Apis; parenti is left deliberately open, though the temples standing beside hers point to Io. Magnus prints nunc, picking up the nunc of the line before; some editions print huic, 'to her', which makes Io the one to whom Epaphus was born.",
+   "p": true,
+   "v": true,
+   "ln": 747
+  },
+  {
+   "t": "Fuit huic animis aequalis et annis\nSole satus Phaethon.",
+   "l": "There was to him one equal in spirit and in years, sown of the Sun — Phaethon.",
+   "i": "He had a match in temper and in age: Phaethon, the Sun's son.",
+   "n": "huic is the dative of possession — 'there was to him' where English says 'he had'. This is one of the constructions you will meet on nearly every page. animis and annis are ablatives of respect, 'equal in respect of spirit, in respect of years', and the near-rhyme of the two words is deliberate. satus, 'sown', with a bare ablative of the father, is Ovid's standing formula for divine paternity; it comes back at 771.",
+   "v": true,
+   "ln": 750
+  },
+  {
+   "t": "Quem quondam magna loquentem\nnec sibi cedentem Phoeboque parente superbum\nnon tulit Inachides,",
+   "l": "And him, once, talking big things and giving way to him in nothing and proud of Phoebus as a parent, the descendant of Inachus did not bear,",
+   "i": "One day Epaphus, Inachus' descendant, could not stomach him — bragging, refusing to give way, swaggering about Phoebus for a father —",
+   "n": "Quem at the head of a sentence is a connecting relative: not 'whom' but 'and him'. Latin keeps a paragraph running on a relative pronoun where English starts a new sentence, and quam, quae, quique will do the same thing throughout. Inachides, 'descendant of Inachus', is Epaphus — Ovid names people by pedigree as often as by name, and expects the reader to keep up. Phoeboque parente is ablative of cause with superbum. sibi, reflexive, points back to Inachides, the subject of non tulit.",
+   "v": true,
+   "ln": 751
+  },
+  {
+   "t": "“matri” que ait “omnia demens\ncredis et es tumidus genitoris imagine falsi.”",
+   "l": "and he says, 'your mother in everything, madman, you believe, and you are swollen with the image of a false father.'",
+   "i": "and said: 'Everything your mother tells you, you swallow, you fool; you are puffed up with the picture of a father who does not exist.'",
+   "n": "credo takes the dative of the person believed (matri) and the accusative of the thing (omnia); the two are flung to opposite ends of the clause. demens is nominative, agreeing with the 'you' inside credis — an insult made into a description of the subject rather than a name flung at him. genitoris imagine falsi is deliberately double-edged: the false picture of a father, and the picture of a false father, and the word order lets both stand.",
+   "v": true,
+   "ln": 753
+  },
+  {
+   "t": "Erubuit Phaethon iramque pudore repressit\net tulit ad Clymenen Epaphi convicia matrem;",
+   "l": "Phaethon blushed, and pressed his anger down with shame, and carried Epaphus' insults to Clymene, his mother;",
+   "i": "Phaethon flushed, and shame held his anger down; he carried Epaphus' taunts to his mother Clymene.",
+   "n": "Clymenen is a Greek accusative singular in -n: Greek names keep their Greek endings all through this poem (Clymenen, Tritona, scorpion). matrem stands in apposition to Clymenen and is held to the very end of the line, which is where Ovid puts the word that turns the sentence — it is to his mother that he goes. Note also that the blush (erubuit) is answered by the shame (pudore) that checks his rage: the same reaction twice, outside and in.",
+   "p": true,
+   "v": true,
+   "ln": 755
+  },
+  {
+   "t": "“quo” que “magis doleas genetrix,” ait “ille ego liber,\nille ferox tacui.",
+   "l": "and 'so that you may grieve the more, mother,' he says, 'I, that free one, I, that fierce one, held my tongue.'",
+   "i": "and said: 'And to make it hurt you the more, mother — I, the free-spoken one, I, the fierce one, said nothing.'",
+   "n": "Here is the quoque trap in its first form. This is quo-que, quo plus the connective -que, 'and in order that', not the adverb quoque, 'also'; the edition's own quotation marks pull the two apart to show it. quo (not ut) is the regular introduction to a purpose clause that contains a comparative — here magis. ille ego ... ille, 'that famous I', is self-dramatizing: Phaethon quotes his own reputation back at himself, and the boast is that he did not answer.",
+   "v": true,
+   "ln": 757
+  },
+  {
+   "t": "Pudet haec opprobria nobis\net dici potuisse et non potuisse refelli.",
+   "l": "It shames [me] that these reproaches both could be spoken to us and could not be refuted.",
+   "i": "The shame of it: that such taunts could be thrown at me, and could not be answered.",
+   "n": "pudet is impersonal — it has no subject noun at all, and the person ashamed would stand in the accusative (here left unexpressed, hence the bracket). What causes the shame is the whole accusative-and-infinitive phrase, haec opprobria ... potuisse. nobis is dative with dici, 'said to us', and is the royal plural for himself that he keeps up through the speech. et ... et is 'both ... and', and potuisse is repeated rather than shared between the two limbs — the repetition is the wound.",
+   "v": true,
+   "ln": 758
+  },
+  {
+   "t": "At tu, si modo sum caelesti stirpe creatus,\nede notam tanti generis meque adsere caelo.”",
+   "l": "But you, if only I am created of heavenly stock, put forth a token of a lineage so great, and claim me for heaven.",
+   "i": "But you — if I really was made of heavenly stock — produce some proof of a descent so great, and claim me for the sky.",
+   "n": "si modo, 'if only, if indeed', is a challenge wearing a condition's clothes. notam is the mark or token that would serve as evidence. adsere caelo is Roman legal language: adserere is to lay formal claim to a person before a court, most famously adserere in libertatem, to claim someone as free. Phaethon is asking his mother to file the claim that he belongs to the sky, and the metaphor of proof and pledges will run through the whole tale.",
+   "v": true,
+   "ln": 760
+  },
+  {
+   "t": "Dixit et inplicuit materno bracchia collo\nperque suum Meropisque caput taedasque sororum\ntraderet oravit veri sibi signa parentis.",
+   "l": "He spoke, and wound his arms about his mother's neck, and by his own head and by Merops' and by his sisters' torches he begged that she hand over to him the signs of his true father.",
+   "i": "He spoke, and threw his arms round his mother's neck, and begged her — by his own life and Merops' and his sisters' wedding torches — to hand him proof of his real father.",
+   "n": "To swear per caput, 'by [someone's] head', is the Roman form of oath: caput is a person's legal existence, so you stake your standing on the truth. Merops is Clymene's mortal husband, the father Phaethon is trying to disown; the oath is cruelly chosen. taedae sororum are wedding torches — the sisters are the Heliades, who will end this tale as poplars weeping amber over his grave. traderet is a subjunctive of indirect command after oravit with ut left out, which verse does freely.",
+   "p": true,
+   "v": true,
+   "ln": 762
+  },
+  {
+   "t": "Ambiguum, Clymene, precibus Phaethontis an ira\nmota magis dicti sibi criminis utraque caelo\nbracchia porrexit spectansque ad lumina solis",
+   "l": "Uncertain whether moved more by Phaethon's prayers or by anger at the charge spoken against her, Clymene stretched both arms toward heaven, and gazing at the lights of the sun",
+   "i": "Whether Phaethon's pleading moved her more, or anger at the slur cast on her, is not clear; Clymene held out both arms to the sky, and looking up into the sun's light",
+   "n": "ambiguum is an adverbial accusative dropped in as a parenthesis — '(it is) uncertain' — governing the double indirect question precibus ... an ira. Clymene here is nominative (Greek nominative in -e; accusative Clymenen at 756), and mota agrees with her; some readers take the name instead as a vocative apostrophe, Ovid turning to speak to her, which is a habit of his. dicti sibi criminis: the crimen is the accusation made against her, that she lied about the boy's father, with sibi the person it was said to. The sentence is left hanging on the participle spectans so the oath can begin in mid-air.",
+   "v": true,
+   "ln": 765
+  },
+  {
+   "t": "“per iubar hoc” inquit “radiis insigne coruscis,\nnate, tibi iuro, quod nos auditque videtque,\nhoc te, quem spectas, hoc te, qui temperat orbem,\nSole satum.",
+   "l": "'By this radiance,' she says, 'marked out with flashing rays, to you I swear, my son — by that which both hears us and sees us — that you were of this one, whom you are gazing at, of this one, who governs the world, of the Sun, sown.",
+   "i": "'By this light,' she said, 'conspicuous with its quivering rays — a light that hears us and sees us — I swear to you, my son: you were fathered by the very one you are looking at, by him who governs the world, by the Sun.",
+   "n": "The oath swears by the object that is also the witness: quod nos auditque videtque, 'which both hears and sees us', makes the sun a juror. Roman oaths call on things that can observe, because perjury has to be seen to be punished. After iuro the construction is accusative-and-infinitive with esse suppressed: te ... Sole satum [esse]. hoc te ... hoc te points twice at the same object, and the crucial trick is that hoc agrees not with te but with Sole, which is held back until the next line — Latin can strand a demonstrative from its noun across a line-end, and the delay here is the whole effect.",
+   "v": true,
+   "ln": 768
+  },
+  {
+   "t": "Si ficta loquor, neget ipse videndum\nse mihi, sitque oculis lux ista novissima nostris.",
+   "l": "If I speak invented things, let him himself refuse to be seen by me, and let this light be the last for our eyes.",
+   "i": "If I am inventing this, let him refuse ever to be looked upon by me, and let this light be the last my eyes see.",
+   "n": "The self-curse is the second half of any serious Roman oath: the swearer names the penalty. neget ... videndum se mihi is a gerundive inside an accusative-and-infinitive, 'let him deny that he is to-be-seen by me', with mihi the dative of agent the gerundive takes. novissima is Latin's ordinary word for 'last' — newest in a series, therefore latest, therefore final — and a reader who hears 'newest' will misread it every time. mihi and nostris are the same person, singular then plural in two lines, which Latin does without embarrassment.",
+   "v": true,
+   "ln": 771
+  },
+  {
+   "t": "Nec longus patrios labor est tibi nosse penates:\nunde oritur, domus est terrae contermina nostrae.",
+   "l": "Nor is it a long labour for you to know your father's household gods: the house from which he rises borders on our own land.",
+   "i": "It is no long journey for you to see your father's house: the home he rises from lies on the border of our own country.",
+   "n": "penates, the household gods of a Roman family, stand by metonymy for the house itself: to know a man's Penates is to have been inside his home. nosse is syncopated for novisse, the perfect infinitive of nosco; since the perfect of 'come to know' means 'know', translate it as a present. unde oritur, 'from where he rises', is a bare relative clause serving as the subject's whole description. Clymene is in Ethiopia, which Ovid places at the eastern edge of the world, so the sunrise is a neighbour.",
+   "v": true,
+   "ln": 773
+  },
+  {
+   "t": "Si modo fert animus, gradere et scitabere ab ipso.”",
+   "l": "If only your spirit carries you, step out, and you will ask him himself.'",
+   "i": "If you have the heart for it, go — and ask him yourself.'",
+   "n": "fert animus is an idiom, 'the mind carries [one] on' — 'if you feel the urge'. scitabere is the alternative second-person singular ending -re for -ris (scitaberis), extremely common in verse and not a different tense or mood; you will meet it again at 97. The future indicative is doing an imperative's work here, side by side with a real imperative (gradere): 'go, and you shall ask'.",
+   "v": true,
+   "ln": 775
+  },
+  {
+   "t": "Emicat extemplo laetus post talia matris\ndicta suae Phaethon et concipit aethera mente,",
+   "l": "He darts out at once, glad, after such words of his mother — Phaethon — and conceives the upper air in his mind,",
+   "i": "Phaethon sprang up on the instant, delighted by his mother's words, and had the sky already in his mind,",
+   "n": "emicat and concipit are historic presents: Ovid slips into the present tense at the moment the story turns and drops back to the perfect when it settles again. The alternation is his pacing, not carelessness, and it is worth feeling rather than flattening. aethera is a Greek accusative of aether. concipit aethera mente, 'takes the sky into his mind', will look grim by the end of the tale: what he conceives is what kills him.",
+   "p": true,
+   "v": true,
+   "ln": 776
+  },
+  {
+   "t": "Aethiopasque suos positosque sub ignibus Indos\nsidereis transit patriosque adit inpiger ortus.",
+   "l": "and his own Ethiopians, and the Indians placed beneath the starry fires, he crosses, and tireless approaches his father's risings.",
+   "i": "and crossed his own Ethiopia and India, which lies under the fires of the stars, and pressed on, tireless, to the place where his father rises.",
+   "n": "ignibus ... sidereis is split across the line-end, the adjective left dangling until the next verse; Ovid does this constantly, and the reader's job is to hold the noun open and wait. ortus, 'risings', is the east, the place of sunrise, and patrios makes it his father's own. Aethiopas is a Greek accusative plural. The geography is poetic rather than surveyed: Ethiopia and India are simply 'where the sun starts'.",
+   "v": true,
+   "ln": 778
+  },
+  {
+   "t": "Regia Solis erat sublimibus alta columnis,\nclara micante auro flammasque imitante pyropo:",
+   "l": "The palace of the Sun was high on lofty columns, bright with glittering gold and with pyropus imitating flames:",
+   "n": "Book II opens in the middle of the tale: the ancient book division cuts the Phaethon story, it does not begin it, and nothing changes here but the number. pyropus (Greek pyr-ops, 'fire-face') is a gold-and-bronze alloy prized for its red glow. micante and imitante are participles in the ablative agreeing with auro and pyropo, the ablative of means for the stuff the brightness is made of. Ovid spends fourteen lines on a palace of light before a boy walks in and asks to drive it: the description is the argument.",
+   "p": true,
+   "v": true,
+   "ln": 1
+  },
+  {
+   "t": "cuius ebur nitidum fastigia summa tegebat,\nargenti bifores radiabant lumine valvae.",
+   "l": "whose gleaming ivory covered the topmost gables; the double doors shone with the light of silver.",
+   "i": "Polished ivory sheathed the topmost gables; the folding doors blazed with the light of silver.",
+   "n": "cuius is a connecting relative in the genitive, 'and its' — again a sentence continued on a pronoun where English would start fresh. fastigia summa are the tops of the pediment, the temple front of a Roman public building: the Sun lives in an official residence, not a house. bifores valvae are folding double doors, the standard grand entrance, and Ovid is about to describe what is carved on them.",
+   "v": true,
+   "ln": 3
+  },
+  {
+   "t": "Materiam superabat opus: nam Mulciber illic\naequora caelarat medias cingentia terras,\nterrarumque orbem, caelumque quod inminet orbi.",
+   "l": "The workmanship surpassed the material: for Mulciber had engraved there the seas girdling the lands in their midst, and the circle of the lands, and the sky which hangs over the circle.",
+   "i": "The craftsmanship outdid the substance: for Vulcan had chased there the seas that ring the lands in the middle, and the round of the earth, and the sky that overhangs the round.",
+   "n": "Materiam superabat opus is a line that circulates on its own: the stuff was precious, the making of it more so — and Ovid means it about his own poem as much as about a pair of doors. Mulciber, 'the softener [of metal]', is a cult title of Vulcan. caelarat is syncopated for caelaverat, pluperfect, a contraction verse takes freely. What follows is an ecphrasis, a set-piece description of a work of art, and what is on the doors is the universe Phaethon is about to set on fire.",
+   "v": true,
+   "ln": 5
+  },
+  {
+   "t": "Caeruleos habet unda deos, Tritona canorum\nProteaque ambiguum, balaenarumque prementem\nAegaeona suis inmania terga lacertis,",
+   "l": "The water holds sea-blue gods: tuneful Triton, and shifting Proteus, and Aegaeon pressing the monstrous backs of whales with his arms,",
+   "i": "The water holds its dark-blue gods: Triton with his horn, Proteus who is never one thing, and Aegaeon crushing the vast backs of whales in his arms.",
+   "n": "Tritona, Protea and Aegaeona are all Greek accusatives in -a; the whole catalogue is spelt Greek because the sea-gods are Greek. Triton is canorus for his conch-trumpet, and Proteus ambiguus because he changes shape at will. Aegaeon is the hundred-handed giant Briareus under his sea-name, and suis lacertis takes for granted that the reader knows how many arms that is. Note the present tense habet in the middle of a description of a carving: the picture stays alive while we look at it.",
+   "v": true,
+   "ln": 8
+  },
+  {
+   "t": "Doridaque et natas, quarum pars nare videtur,\npars in mole sedens virides siccare capillos,\npisce vehi quaedam:",
+   "l": "and Doris and her daughters, of whom a part seem to swim, a part, sitting on a rock, to dry their green hair, certain ones to ride upon a fish:",
+   "i": "and Doris with her daughters — some of them seem to be swimming, some sitting on a rock drying their green hair, some riding on a fish.",
+   "n": "Dorida is another Greek accusative. pars ... pars ... quaedam divides one group three ways, and all three hang on a single videtur planted in the first limb — Latin lends the verb forward, English has to repeat it. nare, siccare and vehi are the infinitives that depend on it; vehi is passive in form, 'to be carried', which is Latin's ordinary way of saying 'ride'. Doris is the wife of Nereus, and her daughters are the fifty Nereids.",
+   "v": true,
+   "ln": 11
+  },
+  {
+   "t": "facies non omnibus una,\nnon diversa tamen, qualem decet esse sororum.",
+   "l": "the face is not one for all, and not different either, such as it is fitting for sisters' faces to be.",
+   "i": "Their faces are not all one face, and not different either — the likeness that sisters ought to have.",
+   "n": "Two lines of exactness that name a problem every painter of the Nereids has: non ... una / non diversa defines by cancelling both extremes. The first clause has no verb written at all and est must be supplied twice over. In the second, decet is impersonal and takes an accusative-and-infinitive: qualem is accusative because it agrees with an unexpressed faciem, the subject of esse, and the genitive sororum depends on that noun — 'such as the face of sisters ought to be'. Latin can compress to this point and English cannot.",
+   "v": true,
+   "ln": 13
+  },
+  {
+   "t": "Terra viros urbesque gerit silvasque ferasque\nfluminaque et nymphas et cetera numina ruris.",
+   "l": "The land bears men and cities and woods and beasts and rivers and nymphs and the rest of the divine powers of the countryside.",
+   "n": "The piled -que ... -que ... et is polysyndeton, and the crowding is exactly the point: the doors are full to the edge. numina ruris, 'the divine powers of the countryside', are the small local gods — fauns, spring-spirits, the presiding spirit of a particular place — not the Olympians. gerit, 'carries, bears', is what a field does with a crop: the earth wears its contents rather than containing them.",
+   "v": true,
+   "ln": 15
+  },
+  {
+   "t": "Haec super imposita est caeli fulgentis imago\nsignaque sex foribus dextris totidemque sinistris.",
+   "l": "Above these was set the image of the blazing sky, and six signs on the right-hand doors and as many on the left.",
+   "i": "Above all this was set the image of the shining heaven, with six signs of the zodiac on the right-hand doors and six on the left.",
+   "n": "haec super is anastrophe — the preposition placed after its object, common in verse and often a signal to slow down. signa are the constellations of the zodiac, twelve of them divided six and six between the leaves of the door. Phaethon will drive through these very signs at 80-83, and Ovid has hung the map on the door before anyone sets out. totidem, 'just as many', saves the counting.",
+   "v": true,
+   "ln": 17
+  },
+  {
+   "t": "Quo simul acclivi Clymeneia limite proles\nvenit et intravit dubitati tecta parentis,",
+   "l": "As soon as by the climbing path the Clymenean offspring came there and entered the halls of the doubted father,",
+   "i": "As soon as Clymene's son had come up the sloping path and entered the house of the father he doubted,",
+   "n": "quo is the connecting relative used as an adverb, 'to which place', i.e. 'there'. simul on its own stands for simul ac, 'as soon as'. Clymeneia proles, 'Clymenean offspring', is the poem's patronymic manner again: it prefers a pedigree to a name. dubitati parentis is compressed almost to violence — the participle means 'the father who has been called into question', and one word carries the whole quarrel that started the tale.",
+   "p": true,
+   "v": true,
+   "ln": 19
+  },
+  {
+   "t": "protinus ad patrios sua fert vestigia vultus\nconsistitque procul: neque enim propiora ferebat\nlumina.",
+   "l": "at once toward his father's face he carries his steps, and halts far off: for he could not bear the light nearer.",
+   "i": "he made straight for his father's face — and stopped a long way short: he could not endure the light any closer.",
+   "n": "fert vestigia, 'carries his footsteps', is Latin's way of making walking a thing done to the feet rather than by them. propiora ... lumina is a comparative used absolutely, 'light nearer than that'. lumina is left stranded at the head of the next line, the emphatic runover Ovid uses to land a point — the light is what stops him. The detail is quiet and merciless: he cannot get close to the fire he means to drive.",
+   "v": true,
+   "ln": 21
+  },
+  {
+   "t": "Purpurea velatus veste sedebat\nin solio Phoebus claris lucente smaragdis.",
+   "l": "Robed in purple raiment he was sitting on a throne — Phoebus — a throne alight with clear emeralds.",
+   "i": "Phoebus sat robed in purple on a throne that glowed with clear emeralds.",
+   "n": "The subject Phoebus is held back until after the verb and the setting; Latin can name the person last, and the delay works like an unveiling. purpurea vestis is the colour of kingship, dyed from murex at ruinous cost — the Sun is dressed as a monarch giving a formal audience. lucente is ablative agreeing with solio, the throne, not with smaragdis, the emeralds that make it shine.",
+   "v": true,
+   "ln": 23
+  },
+  {
+   "t": "A dextra laevaque Dies et Mensis et Annus\nSaeculaque et positae spatiis aequalibus Horae",
+   "l": "On the right and on the left [stood] Day and Month and Year, and the Ages, and the Hours set at equal intervals,",
+   "i": "To right and left stood Day, Month, Year, the Ages, and the Hours placed at equal intervals,",
+   "n": "There is no verb here: stabat arrives only in the next line with Spring, and the reader lends it backwards to this list — the bracketed 'stood' is ours, not Ovid's. These are personified units of time, an allegorical court ranged round the Sun, a type familiar from Roman relief sculpture. positae spatiis aequalibus is the ablative of place without a preposition, and it turns the Hours into the face of a clock.",
+   "v": true,
+   "ln": 25
+  },
+  {
+   "t": "Verque novum stabat cinctum florente corona,\nstabat nuda Aestas et spicea serta gerebat,",
+   "l": "and new Spring was standing, girt with a flowering crown; naked Summer was standing and was wearing garlands of grain-ears;",
+   "i": "New Spring stood there, wreathed in a crown of blossom; Summer stood naked, wearing garlands of wheat-ears;",
+   "n": "cinctum is a perfect participle with an ablative of means, 'encircled with'. The repeated stabat at the head of successive clauses is anaphora, and the repetition does what a carved frieze does: the figures stand in a row, each with one attribute and one posture. spicea serta, garlands of grain-ears, mark the harvest; ver novum is the spring at its beginning, not spring in general.",
+   "v": true,
+   "ln": 27
+  },
+  {
+   "t": "stabat et Autumnus, calcatis sordidus uvis,\net glacialis Hiems, canos hirsuta capillos.",
+   "l": "Autumn too was standing, filthy from trodden grapes, and icy Winter, shaggy as to her white hair.",
+   "i": "Autumn stood there too, stained with trodden grapes, and icy Winter, her white hair unkempt.",
+   "n": "canos ... capillos is the Greek accusative of respect: hirsuta is a feminine nominative describing Hiems, and the accusative says in respect of what she is shaggy — 'bristling as to her white hair'. A passive or middle participle plus an accusative of the part affected is one of Ovid's favourite Greek imports, and once you see it you will see it everywhere; English usually needs 'as to' or a possessive. calcatis uvis is ablative of cause with sordidus: Autumn is dirty from the winepress, where grapes were trodden by foot.",
+   "v": true,
+   "ln": 29
+  },
+  {
+   "t": "Inde loco medius rerum novitate paventem\nSol oculis iuvenem, quibus adspicit omnia, vidit",
+   "l": "Then, midmost in place, the Sun with those eyes, with which he looks at everything, saw the young man trembling at the newness of things,",
+   "i": "Then the Sun, at the centre of it all, saw with the eyes that see everything the boy standing terrified at the strangeness around him,",
+   "n": "The word order is the line's whole meaning: paventem ... iuvenem, the frightened boy, is split wide apart and Sol oculis is planted in the gap, so the god and his eyes physically surround the object they are looking at. rerum novitate is ablative of cause. loco medius, 'central in position', is a nominative adjective doing an adverb's work, which Latin much prefers. Magnus prints Inde, 'then, from there'; some editions print Ipse, 'he himself'.",
+   "v": true,
+   "ln": 31
+  },
+  {
+   "t": "“quae” que “viae tibi causa? quid hac” ait “arce petisti,\nprogenies, Phaethon, haud infitianda parenti?”",
+   "l": "and 'what,' he says, 'is your reason for the journey? what have you sought in this citadel, Phaethon, an offspring not to be disowned by a parent?'",
+   "i": "and said, 'What brings you here? What have you come to this high house to ask for, Phaethon — a child no father would disown?'",
+   "n": "haud infitianda is a gerundive of obligation used as a plain adjective, 'not-to-be-disowned', with parenti as the dative of agent — the gerundive names its doer in the dative, never with a or ab. So the Sun settles the question of paternity in a vocative phrase, before the boy has managed to ask it. hac arce is an ablative of place with no preposition, 'in this citadel', a freedom verse takes constantly; arx is properly a hilltop stronghold.",
+   "v": true,
+   "ln": 33
+  },
+  {
+   "t": "Ille refert “o lux inmensi publica mundi,\nPhoebe pater, si das usum mihi nominis huius\nnec falsa Clymene culpam sub imagine celat,",
+   "l": "He answers: 'O light common to the measureless world, Phoebus, father — if you grant me the use of this name, and Clymene is not hiding a guilt beneath a false appearance,",
+   "i": "He answered: 'Light that the whole measureless world holds in common — Phoebus, father — if you allow me the use of that name, and Clymene is not covering a sin with a false story,",
+   "n": "publica is a Roman legal word for what belongs to the people in common and to no one privately. Calling the Sun lux publica and then claiming him as pater in the next breath is the point of the address, and the boy knows it. usum nominis is legal too: usus is the right to use a thing you do not own. culpa is the standard word for a woman's sexual fault, and the falsa imago is the invented father — he is naming his mother's disgrace out loud as the alternative to his own divinity.",
+   "p": true,
+   "v": true,
+   "ln": 35
+  },
+  {
+   "t": "pignera da, genitor, per quae tua vera propago\ncredar, et hunc animis errorem detrahe nostris.”",
+   "l": "give pledges, father, through which I may be believed your true offshoot, and pull this error away from our mind.'",
+   "i": "give me proof, father, that I may be believed your true offspring, and strip this doubt out of my mind.'",
+   "n": "pignera are legal pledges, security given to guarantee a claim — the word is chosen, and it will be turned back on him at 91. credar is subjunctive in a relative clause of purpose, 'through which I may be believed'. propago is a gardener's word for the layered shoot of a vine, used of a line of descent. nostris is the plural for singular again.",
+   "v": true,
+   "ln": 38
+  },
+  {
+   "t": "Dixerat: at genitor circum caput omne micantes\ndeposuit radios propiusque accedere iussit;",
+   "l": "He had spoken: but the father laid aside the rays glittering all round his whole head, and ordered him to come nearer;",
+   "i": "He finished. His father put off the rays that flashed all round his head, and told him to come closer.",
+   "n": "dixerat, the pluperfect, is Ovid's punctuation mark for the end of a speech: it hands the narrative back. circum caput omne governs micantes ... radios across the line-end — the phrase is held open until radios lands at the head of 41 — and omne agrees with caput, not with the rays. The gesture is the tenderest thing in the scene: the god makes himself approachable by putting down the thing that makes him a god — and the whole tragedy is that the chariot cannot be put down so easily.",
+   "p": true,
+   "v": true,
+   "ln": 40
+  },
+  {
+   "t": "amplexuque dato “nec tu meus esse negari\ndignus es, et Clymene veros” ait “edidit ortus.",
+   "l": "and, an embrace having been given, 'nor are you deserving to be denied to be mine,' he says, 'and Clymene has declared your true origins.",
+   "i": "and, having embraced him: 'You do not deserve to be refused as mine — and Clymene has told the truth about your birth.",
+   "n": "amplexu dato is an ablative absolute: a noun and a participle standing outside the sentence's grammar, 'with an embrace given', where English wants a clause, 'when he had embraced him'. This shape is everywhere in Latin narrative and is best learnt as a shape rather than as a fixed translation. dignus takes a complementary infinitive, and here two infinitives stack up: dignus negari ... esse meus. edidit ortus, 'brought your origins forth', is the verb for a formal declaration of parentage.",
+   "v": true,
+   "ln": 42
+  },
+  {
+   "t": "Quoque minus dubites, quodvis pete munus, ut illud\nme tribuente feras.",
+   "l": "And so that you may doubt the less, ask whatever gift you like, so that you may carry it off with me granting it.",
+   "i": "And to leave you less room for doubt, ask any gift you like, and you shall have it from my hand.",
+   "n": "The quoque trap again, and worth pausing on: this is quo-que, quo plus -que, 'and in order that', because a purpose clause containing a comparative (minus) takes quo rather than ut. Read it as the adverb 'also' and the sentence dissolves. me tribuente is an ablative absolute with a present participle, 'with me bestowing it'. Notice how the offer that destroys the story is made in passing, inside a subordinate clause, as a kindness.",
+   "v": true,
+   "ln": 44
+  },
+  {
+   "t": "Promissis testis adesto\ndis iuranda palus, oculis incognita nostris.”",
+   "l": "As witness to my promises let there be present the marsh to be sworn by for the gods, unknown to our eyes.'",
+   "i": "Let the pool the gods must swear by stand witness to my promise — the one water my eyes have never seen.'",
+   "n": "The marsh is the Styx, the water of the underworld: an oath sworn on it cannot be revoked, not even by Jupiter, and this is the hinge on which the whole tale turns. dis iuranda is a gerundive with dative of agent, 'to-be-sworn-by for the gods'. adesto is the future imperative, the form Roman laws and rituals use — 'be present, and stay so'. oculis incognita nostris is the Sun's quiet point: his light reaches everywhere except there, which is exactly why the oath binds even him.",
+   "v": true,
+   "ln": 45
+  },
+  {
+   "t": "Vix bene desierat, currus rogat ille paternos\ninque diem alipedum ius et moderamen equorum.",
+   "l": "Scarcely had he well finished: the other asks for his father's chariot, and for a day the right and the handling of the wing-footed horses.",
+   "i": "He had hardly finished when the boy asked for his father's chariot, and for one day's right to drive the wing-footed horses.",
+   "n": "vix bene, 'scarcely properly', doubles the adverb for speed: the request treads on the end of the sentence before it. rogat is a historic present set directly against the pluperfect desierat, and the jolt in tense is the jolt in the scene. ius et moderamen, 'the right and the steering', pairs a legal term with a physical one: he asks for authority over the horses and the reins in the same breath. in diem, 'for a day', is made to sound modest, and is not.",
+   "p": true,
+   "v": true,
+   "ln": 47
+  },
+  {
+   "t": "Paenituit iurasse patrem. Qui terque quaterque\nconcutiens inlustre caput “temeraria” dixit\nvox mea facta tua est.",
+   "l": "It repented the father to have sworn. And he, shaking his shining head three times and four, said, 'Reckless has my speech been made by yours.",
+   "i": "The father was sorry he had sworn. Three times, four times he shook his shining head, and said: 'Your words have made mine reckless.",
+   "n": "paenituit is impersonal, with the accusative of the person who feels it (patrem) and an infinitive of what he regrets — Latin puts the regret outside the man and lets it act on him. iurasse is syncopated for iuravisse. qui opening the next sentence is the connecting relative, 'and he'. terque quaterque, 'three times and four', is an epic formula for a gesture of grief. tua is ablative agreeing with an unexpressed voce: 'made rash by your [word]'.",
+   "p": true,
+   "v": true,
+   "ln": 49
+  },
+  {
+   "t": "Utinam promissa liceret\nnon dare! confiteor, solum hoc tibi, nate, negarem.",
+   "l": "Would that it were permitted not to give what was promised! I confess it: this alone, my son, I would refuse you.",
+   "i": "If only I were free not to keep my promise! I admit it: this is the one thing, my son, I would refuse you.",
+   "n": "utinam with the imperfect subjunctive (liceret) is the wish for what is not the case now — a wish made in the knowledge that it is impossible. negarem is imperfect subjunctive too, the second half of a condition whose 'if I could' is never spoken. promissa is a neuter plural participle used as a noun, 'the things promised'. A god is talking about being bound by his own procedure, in the tone of a man reading a contract he signed.",
+   "v": true,
+   "ln": 51
+  },
+  {
+   "t": "Dissuadere licet. Non est tua tuta voluntas.",
+   "l": "To dissuade is permitted. Your wish is not safe.",
+   "i": "Advising against it is still allowed. What you want is not safe.",
+   "n": "licet used absolutely, with a bare infinitive as its subject: 'dissuading is allowed [me]'. These two flat short sentences are the hinge of the whole speech — everything after them is argument. tua ... tuta sets two nearly identical words side by side; Latin puns on sound far more readily than English will tolerate, and the jingle is meant to be heard.",
+   "v": true,
+   "ln": 53
+  },
+  {
+   "t": "Magna petis, Phaethon, et quae nec viribus istis\nmunera conveniant nec tam puerilibus annis.",
+   "l": "Great things you ask, Phaethon, and gifts of a kind to suit neither those powers of yours nor years so boyish.",
+   "i": "You ask great things, Phaethon — gifts that fit neither your strength nor years as young as yours.",
+   "n": "quae ... munera conveniant is a relative clause of characteristic: the subjunctive says 'of such a sort as to suit', not the plain fact 'which do suit'. iste (istis) is the demonstrative of the second person, 'that of yours', and it ranges from neutral to contemptuous; here it is at least cool. conveniant governs the dative, viribus and annis.",
+   "v": true,
+   "ln": 54
+  },
+  {
+   "t": "Sors tua mortalis, non est mortale quod optas.",
+   "l": "Your lot is mortal; not mortal is what you desire.",
+   "i": "Your lot is a mortal's; what you want is not.",
+   "n": "The line is built as a chiasmus round one repeated word: sors tua mortalis / mortale quod optas, with the adjective vaulting the caesura and changing what it describes on the way over. est must be supplied in the first half and is expressed in the second — Latin economizes at the front and pays at the back. This is one of the lines from the poem that circulates on its own.",
+   "v": true,
+   "ln": 56
+  },
+  {
+   "t": "Plus etiam, quam quod superis contingere possit,\nnescius adfectas.",
+   "l": "More even than what could fall to the gods above, you reach for, in ignorance.",
+   "i": "You are reaching, and you do not know it, for more even than the gods above may have.",
+   "n": "quam quod ... possit: the relative with the subjunctive is potential, 'than a thing which could fall to their lot'. contingere is the verb for what happens to someone by lot or luck, and it takes the dative (superis). nescius, 'not knowing', is a nominative adjective where English wants an adverb or a clause — Latin describes the person, not the action, and that difference between the two languages is worth watching for, because it recurs constantly (compare nescius here with contrarius at 73 and medius at 31).",
+   "v": true,
+   "ln": 57
+  },
+  {
+   "t": "Placeat sibi quisque licebit,\nnon tamen ignifero quisquam consistere in axe\nme valet excepto.",
+   "l": "Let each please himself — it will be allowed — yet no one is strong enough to stand upon the fire-bearing axle, myself excepted.",
+   "i": "Let every one of them think what he likes of himself; still, no one but me has the strength to stand on that blazing axle.",
+   "n": "licebit with a bare subjunctive (placeat) is a concession: 'granted that each may please himself', with the future tense doing the granting. me excepto is an ablative absolute, 'with me excepted', planted after the verb so that the exception lands last. axis is strictly the axle, then the chariot, then by extension the sky itself — the word will slide between those senses in the next few lines. ignifer, 'fire-bearing', is the kind of compound adjective epic likes to coin.",
+   "v": true,
+   "ln": 58
+  },
+  {
+   "t": "Vasti quoque rector Olympi,\nqui fera terribili iaculatur fulmina dextra,\nnon agat hos currus: et quid Iove maius habemus?",
+   "l": "The ruler of vast Olympus too, who hurls savage thunderbolts with his terrible right hand, would not drive this chariot — and what have we greater than Jove?",
+   "i": "Even the ruler of vast Olympus, who flings his cruel bolts from that terrible right hand, could not drive this chariot — and what do we possess that is greater than Jove?",
+   "n": "This quoque is the ordinary adverb, 'also, even'; set it beside 44 and 757, where the same letters were quo plus -que. Only the sense of the sentence tells them apart. non agat is a potential subjunctive, 'he would not drive' — softer than a flat indicative and far more damning. iaculatur is deponent: passive in form, active in meaning. Iove is ablative of comparison after maius, the construction that lets Latin dispense with quam. dextra, 'right hand', stands alone as a noun, its manus understood.",
+   "v": true,
+   "ln": 60
+  },
+  {
+   "t": "Ardua prima via est et qua vix mane recentes\nenitantur equi:",
+   "l": "Steep is the first stretch of the road, and one up which, fresh in the morning, the horses barely struggle:",
+   "i": "The first stretch is steep — the horses, fresh as they are in the morning, can barely climb it.",
+   "n": "qua is the relative in the ablative of the route, 'by which way'; enitantur is subjunctive, a relative clause of characteristic again, 'the sort of road that they barely climb'. e-nitor keeps its prefix's force, 'struggle up out of'. recentes, 'fresh', is doing quiet work: they are fresh exactly there, at the start, and the argument is that it gets worse. Here begins the road-description, the most practical and least heeded speech in the poem.",
+   "v": true,
+   "ln": 63
+  },
+  {
+   "t": "medio est altissima caelo,\nunde mare et terras ipsi mihi saepe videre\nfit timor, et pavida trepidat formidine pectus.",
+   "l": "in mid heaven it is highest, from where to look upon sea and lands often becomes a fear even to me myself, and my breast shakes with trembling dread.",
+   "i": "At mid-heaven it is at its highest — and from there it often frightens even me to look down at sea and land, and my heart shakes with a shuddering dread.",
+   "n": "videre fit timor is compressed to the bone: the infinitive is the subject of fit, 'to look becomes a fear'. medio caelo is ablative of place without a preposition, normal in verse. pavida ... formidine is a transferred epithet — the dread is not itself frightened, he is, and the adjective has migrated to the noun. The god's confession of vertigo is the strongest thing in the speech, and it is the part Phaethon does not hear.",
+   "v": true,
+   "ln": 64
+  },
+  {
+   "t": "Ultima prona via est et eget moderamine certo:",
+   "l": "The last stretch of road runs downhill and needs sure handling:",
+   "n": "eget takes the ablative, moderamine: verbs of needing and lacking govern the thing lacked in the ablative, not the accusative. moderamen is the very word Phaethon used at 48 when he asked for the 'handling' of the horses, and the Sun hands it straight back to him as a warning. prona, 'leaning forward', is the standard word for a slope taken downwards.",
+   "v": true,
+   "ln": 67
+  },
+  {
+   "t": "tunc etiam quae me subiectis excipit undis,\nne ferar in praeceps, Tethys solet ipsa vereri.",
+   "l": "then even she who catches me in the waves spread beneath, so that I am not carried headlong — Tethys herself — is accustomed to be afraid.",
+   "i": "Then even Tethys herself, who catches me below in her waters so that I am not swept headlong down, is afraid.",
+   "n": "The relative clause runs ahead of its antecedent: quae ... excipit comes first and the name Tethys arrives only near the end of the second line, so the reader holds an unnamed 'she who' open until it lands. subiectis undis is ablative, 'with her waves put underneath'. ne ferar in praeceps is a negative purpose clause, and in praeceps, 'into the headlong', is an adverbial phrase built from an adjective. Tethys is a Titaness, wife of Ocean, and the western sea where the chariot comes down at day's end.",
+   "v": true,
+   "ln": 68
+  },
+  {
+   "t": "Adde quod adsidua rapitur vertigine caelum\nsideraque alta trahit celerique volumine torquet.",
+   "l": "Add that the sky is snatched round by unceasing whirling, and drags the high stars and twists them in swift revolution.",
+   "n": "adde quod, 'add [the fact] that', is Ovid's ordinary way of stacking one argument on another; quod with the indicative here states a fact rather than a cause. The sky is passive and active in the same sentence — rapitur, it is snatched, then trahit and torquet, it drags and twists. The physics is the ancient model: the whole heaven revolves westward once a day, and the Sun has to travel east through it, against the grain. That collision is what the next sentence is about.",
+   "v": true,
+   "ln": 70
+  },
+  {
+   "t": "Nitor in adversum, nec me, qui cetera, vincit\nimpetus, et rapido contrarius evehor orbi.",
+   "l": "I strain against it, and the rush which conquers all the rest does not conquer me, and I am borne out, running counter, against the swift sphere.",
+   "i": "I push the opposite way; the sweep that carries everything else does not carry me, and I ride out against the racing sky.",
+   "n": "qui cetera has to borrow its verb from the main clause: qui cetera [vincit], 'which conquers the rest'. Latin lends a single verb to two clauses as a matter of course and English has to repeat it. in adversum is a neuter adjective used as a noun, 'into the opposite'. contrarius is again an adjective where English wants an adverb, 'I am carried counter'; rapido ... orbi is the dative it governs.",
+   "v": true,
+   "ln": 72
+  },
+  {
+   "t": "Finge datos currus: quid ages? poterisne rotatis\nobvius ire polis, ne te citus auferat axis?",
+   "l": "Suppose the chariot given: what will you do? Will you be able to go against the wheeling poles, so that the swift axle does not sweep you away?",
+   "i": "Suppose the chariot were yours: what would you do? Could you move against the turning poles, and not be carried off by the racing sky?",
+   "n": "finge datos [esse] currus is the vivid imperative of supposition, 'imagine the chariot given', with esse suppressed inside the accusative-and-infinitive — a suppression so routine that it is worth reading past without pause. The particle -ne on poterisne marks a plain question, one that expects no particular answer, though the god already knows this one. rotatis polis is a dative with obvius, 'facing the wheeling poles'. currus is fourth declension, and plural here for a single chariot, as epic likes to do with vehicles.",
+   "v": true,
+   "ln": 74
+  },
+  {
+   "t": "Forsitan et lucos illic urbesque deorum\nconcipias animo delubraque ditia donis\nesse?",
+   "l": "Perhaps you also conceive in your mind that there are groves there, and cities of the gods, and shrines rich with offerings?",
+   "i": "Perhaps you picture groves up there, and cities of the gods, and shrines rich with offerings?",
+   "n": "forsitan regularly takes the subjunctive (concipias): the mood carries the 'perhaps', so the verb need not be softened a second time in English. The accusative-and-infinitive lucos ... urbes ... delubra ... esse all hangs on concipias, with the infinitive held back to the start of the next line. ditia donis is ablative of respect, 'rich in gifts', a donum being a votive offering left in a temple. The Sun is mocking his son, gently: the sky is not a country with towns in it.",
+   "v": true,
+   "ln": 76
+  },
+  {
+   "t": "per insidias iter est formasque ferarum.",
+   "l": "The journey is through ambushes, and through the shapes of wild beasts.",
+   "n": "One preposition takes two objects of quite different kinds — an abstract noun and a concrete one yoked together, which Latin does far more comfortably than English. The 'wild beasts' are the constellations, about to be listed by name; and the reader may remember that the zodiac was carved on the very doors he walked in through.",
+   "v": true,
+   "ln": 78
+  },
+  {
+   "t": "Utque viam teneas nulloque errore traharis,",
+   "l": "And granted that you keep to the road and are dragged aside by no wandering,",
+   "i": "And even suppose you hold the road and are not dragged off course,",
+   "n": "ut with the subjunctive here is concessive, 'granted that, even supposing' — the same little word that makes purpose clauses and result clauses, and only the sense of the sentence tells you which is meant. Its answering tamen comes at the head of the next line. viam tenere, 'to hold the road', is the plain idiom for staying on course. error is a wandering, not a mistake: the older physical sense is the live one here.",
+   "v": true,
+   "ln": 79
+  },
+  {
+   "t": "per tamen adversi gradieris cornua tauri\nHaemoniosque arcus violentique ora leonis\nsaevaque circuitu curvantem bracchia longo\nscorpion atque aliter curvantem bracchia cancrum.",
+   "l": "still you will go through the horns of the Bull facing you, and the Haemonian bow, and the mouth of the violent Lion, and the Scorpion curving his savage arms in a long circuit, and the Crab curving his arms the other way.",
+   "i": "you will still have to pass the horns of the Bull head-on, the Haemonian bow, the jaws of the raging Lion, the Scorpion bending his cruel claws in a long arc, and the Crab bending his the other way.",
+   "n": "The route is the zodiac: Taurus, Sagittarius, Leo, Scorpio, Cancer. Haemonius means Thessalian, from Haemonia, the land of the centaurs, so the bow belongs to the centaur-archer. adversi tauri, 'the Bull facing you', describes the constellation as it is actually drawn: only the front half of the animal is there. scorpion is a Greek accusative singular in -n. Repeating curvantem bracchia for two different creatures, with aliter, 'the other way', is a small dry joke about how the two sets of claws are figured in the sky.",
+   "v": true,
+   "ln": 80
+  },
+  {
+   "t": "Nec tibi quadrupedes animosos ignibus illis,\nquos in pectore habent, quos ore et naribus efflant,\nin promptu regere est:",
+   "l": "Nor is it at hand for you to steer the four-footed ones, spirited with those fires which they have in their breast, which they breathe out from mouth and nostrils:",
+   "i": "Nor will you find it any easy matter to control the four-footed team, fierce with the fire they carry in their chests and blow out from mouth and nostrils.",
+   "n": "in promptu est, 'is in readiness', is the idiom for 'is easy', taking the dative of the person (tibi) and an infinitive as its subject. ignibus illis is ablative of cause with animosos, and both relative clauses that follow hang on it: the fire is in them and comes out of them. quadrupedes, 'four-footed ones', for horses is epic circumlocution — the poem prefers a description to a name.",
+   "v": true,
+   "ln": 84
+  },
+  {
+   "t": "vix me patiuntur, ubi acres\nincaluere animi, cervixque repugnat habenis.",
+   "l": "they scarcely put up with me, when their keen spirits have grown hot, and the neck fights back against the reins.",
+   "i": "They barely put up with me once their fierce tempers have caught fire, and the neck fights the rein.",
+   "n": "incaluere is -ere for -erunt, the poetic third-person plural perfect: dixere is dixerunt, tenuere is tenuerunt, potuere is potuerunt. It looks exactly like a present infinitive and is not one, and since verse strongly prefers the short form the difference is worth fixing early. habenis is dative with repugnat: compounds in re-, ob- and ad- regularly take the dative of the thing resisted or approached. animi in the plural is 'temper, spirit', not 'minds'.",
+   "v": true,
+   "ln": 86
+  },
+  {
+   "t": "At tu, funesti ne sim tibi muneris auctor,\nnate, cave, dum resque sinit, tua corrige vota.",
+   "l": "But you — that I may not be to you the author of a deadly gift — beware, my son, and while the situation still allows it, correct what you have prayed for.",
+   "i": "But you, my son — take care I am not made the author of a gift that kills you; while there is still time, revise what you are asking for.",
+   "n": "cave with ne and the subjunctive is the ordinary prohibition, 'take care that not'; here the ne-clause has been dragged in front of the verb that governs it, so the warning arrives before the word that licenses it. auctor is the person legally answerable for a transaction, and funestus is what brings death and the pollution that attends a corpse — the god is worrying about liability for his own son's body. res sinit, 'the situation permits', is impersonal and cold.",
+   "v": true,
+   "ln": 88
+  },
+  {
+   "t": "Scilicet ut nostro genitum te sanguine credas,\npignera certa petis?",
+   "l": "So that you may believe yourself begotten of our blood, of course, you are asking for sure pledges?",
+   "i": "So it is proof you want, is it — sure pledges, so that you can believe yourself born of my blood?",
+   "n": "scilicet, literally 'you may know', is almost always ironic in this position: 'oh, naturally'. te ... genitum [esse] is accusative-and-infinitive after credas with esse left out again. nostro sanguine is ablative of origin. The whole force of the sentence is in the answer that follows it: the proof he is demanding has been standing in front of him for eighty lines.",
+   "v": true,
+   "ln": 90
+  },
+  {
+   "t": "do pignera certa timendo\net patrio pater esse metu probor.",
+   "l": "I give sure pledges by fearing, and by a father's fear I am proved to be a father.",
+   "i": "My fear is the sure pledge; a father's dread is what proves me a father.",
+   "n": "timendo is the ablative of the gerund, 'by fearing'; the gerund is a verbal noun, and its ablative is Latin's standard way of saying 'by doing something'. patrio pater is the figure the line exists for: adjective and noun from one root set side by side, so that the fear and the fatherhood are the same word twice over. probor is passive, 'I am proved', and takes the infinitive esse. This is the true answer to the pignera asked for at 38 and again at 91.",
+   "v": true,
+   "ln": 91
+  },
+  {
+   "t": "Adspice vultus\necce meos; utinamque oculos in pectora posses\ninserere et patrias intus deprendere curas!",
+   "l": "Look at my face, look; and would that you could put your eyes into my breast and catch a father's cares inside!",
+   "i": "Look at my face, look at it; and I wish you could put your eyes inside my breast and catch a father's fears at work in there.",
+   "n": "vultus is accusative plural used of one face, as Latin does with features (compare colla for one neck at 100). ecce dropped in between the verb and its object is an interruption from live speech — the god is pointing while he talks. utinam with the imperfect subjunctive is the impossible wish again, exactly as at 51. deprendere is to catch in the act, the verb for surprising a thief or an adulterer: the cares would be taken red-handed.",
+   "v": true,
+   "ln": 92
+  },
+  {
+   "t": "Denique quidquid habet dives, circumspice, mundus,\neque tot ac tantis caeli terraeque marisque\nposce bonis aliquid: nullam patiere repulsam.",
+   "l": "In short, whatever the rich world holds — look round at it — and out of goods so many and so great, of sky and land and sea, ask for something: you will suffer no refusal.",
+   "i": "In short: look round at everything the rich world holds, and out of the goods of sky and earth and sea, so many and so great, ask for something. You will not be refused.",
+   "n": "circumspice is dropped inside the clause that is its own object, between dives and mundus, so that the imperative interrupts the sentence it belongs to — the god is gesturing at the world as he names it. e ... bonis is a partitive ablative with posce, 'ask for something out of the goods', and preposition and noun are two lines apart. patiere is the -re form of patieris, second singular future, as at 775. repulsa is the technical word for defeat at the polls, the rejection a Roman candidate suffered.",
+   "v": true,
+   "ln": 95
+  },
+  {
+   "t": "Deprecor hoc unum, quod vero nomine poena,\nnon honor est: poenam, Phaethon, pro munere poscis.",
+   "l": "This one thing I beg off, which by its true name is a punishment, not an honour: it is a punishment, Phaethon, that you are demanding in place of a gift.",
+   "i": "This one thing I beg you to drop — the thing that, called by its right name, is a punishment and not an honour. It is a punishment, Phaethon, that you are asking for instead of a gift.",
+   "n": "deprecor is not 'pray for' but 'pray away': to beg that something should not happen. vero nomine, 'by its true name', is ablative of respect and is the hinge of the sentence — the god is renaming his son's request in front of him. The repetition poena ... poenam across the colon, nominative then accusative, drags the word out of a definition and into the boy's hands.",
+   "v": true,
+   "ln": 98
+  },
+  {
+   "t": "Quid mea colla tenes blandis, ignare, lacertis?",
+   "l": "Why do you hold my neck with coaxing arms, you who do not understand?",
+   "i": "Why do you hold my neck in those coaxing arms, child, when you have no idea what you are asking?",
+   "n": "colla is plural for one neck, as vultus was for one face. ignare is a vocative, 'you ignorant one', wedged in between the adjective blandis and its noun lacertis: Latin can plant a whole form of address inside a phrase without disturbing it. And the arms are the point — at 762 Phaethon threw exactly these arms round Clymene's neck to get exactly this thing. The gesture works twice, and the second time it kills him.",
+   "v": true,
+   "ln": 100
+  },
+  {
+   "t": "ne dubita, dabitur (Stygias iuravimus undas)\nquodcumque optaris: sed tu sapientius opta.”",
+   "l": "Do not doubt: it will be given — we have sworn by the Stygian waters — whatever you shall have chosen: but you, choose more wisely.'",
+   "i": "Do not doubt it: whatever you choose will be given — I have sworn by the waters of Styx. Only choose more wisely.'",
+   "n": "ne with the imperative (ne dubita) is the older and more elevated prohibition; prose would say noli dubitare. iuravimus is the plural for singular, and the parenthesis is placed where it does the most damage, between the promise and the thing promised. optaris is future perfect, syncopated from optaveris, and exact about sequence: whatever you will have chosen. The speech ends on opta, the very verb it spent sixty lines warning against, now in the imperative.",
+   "v": true,
+   "ln": 101
+  },
+  {
+   "t": "Finierat monitus: dictis tamen ille repugnat\npropositumque premit flagratque cupidine currus.",
+   "l": "He had finished his warnings: still the other fights back against what was said, and presses his purpose, and blazes with desire for the chariot.",
+   "i": "He had come to the end of his warnings; still the boy resisted them, pressed his purpose, and burned with longing for the chariot.",
+   "n": "finierat, pluperfect, closes the speech exactly as dixerat opened the scene at 40: this is Ovid's punctuation for direct speech. dictis is dative with repugnat, the same compound-plus-dative as at 87, where the horses' neck fought the reins — and the echo is not accidental: the boy is behaving like the team he wants to drive. cupidine currus is an objective genitive, 'desire for the chariot', the chariot being what is desired rather than what desires.",
+   "p": true,
+   "v": true,
+   "ln": 103
+  },
+  {
+   "t": "Ergo qua licuit genitor cunctatus ad altos\ndeducit iuvenem, Vulcania munera, currus.",
+   "l": "So the father, having delayed as far as he was allowed, leads the young man down to the high chariot, Vulcan's gift.",
+   "i": "So the father, having put it off as long as he was able, led the boy down to the tall chariot, the work of Vulcan.",
+   "n": "qua licuit, 'as far as it was permitted', is the relative in the ablative used adverbially: he delayed to the exact limit the oath left him, and not a moment past it. deducit is precise — de-ducere is to lead down, and it is also the formal verb for escorting a bride to her new house or settlers to a colony, a ceremonial handing-over. Vulcania munera stands in apposition to currus, plural again for the one chariot. The historic present that carried the last two lines (repugnat, premit, flagrat) runs straight on into deducit, with no change of gear: the scene simply arrives.",
+   "v": true,
+   "ln": 105
+  },
+  {
+   "t": "Aureus axis erat, temo aureus, aurea summae\ncurvatura rotae, radiorum argenteus ordo;",
+   "l": "Golden was the axle, golden the pole, golden the curve of the wheel's rim, and silver the row of the spokes;",
+   "n": "aureus ... aureus ... aurea: the same adjective three times over, opening the first clause, closing the second (aureus axis, then temo aureus, the order turned round), and opening the third. erat is written once and lent to every clause after it. The repetition is the glitter. summae curvatura rotae, 'the curving of the top of the wheel', is the felloe, the outer rim bent round the spokes. radius, here a spoke, is the same word as a ray of the sun — using it of a wheel on the sun's own chariot is the poem making its own pun and leaving it unremarked.",
+   "v": true,
+   "ln": 107
+  },
+  {
+   "t": "per iuga chrysolithi positaeque ex ordine gemmae\nclara repercusso reddebant lumina Phoebo.",
+   "l": "along the yokes chrysolites and gems set in a row were giving back bright light, with Phoebus struck back from them.",
+   "i": "Along the yokes, chrysolites and gems set in rows gave back a bright light as the god's own rays struck off them.",
+   "n": "repercusso ... Phoebo is an ablative absolute doing the work of a whole clause: 'with Phoebus beaten back', that is, as the god's own light rebounded off the stones. Phoebus stands here for his light, god and sunshine being one word, which is why the phrase can be read either as light given back to him or as light made of him. chrysolithus is Greek for 'gold-stone', a yellow-green gem. The set-piece ends where it began, in reflected fire, and the next thing to happen is Dawn opening her doors.",
+   "v": true,
+   "ln": 109
+  }
+ ],
+ "glossaryFile": "metamorphoses-glossary.json"
+}

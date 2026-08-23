@@ -1,0 +1,382 @@
+{
+ "id": "ovid-met-009",
+ "sourceId": "ovid-met-009",
+ "title": "Io. Argus. Syrinx",
+ "titleEn": "The Death of Argus — Metamorphoses I.651–746",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 fb3fdb1d8a4a3b82. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
+ "about": "Io, turned into a heifer and penned under the hundred-eyed watch of Argus, is at last recognised by her father Inachus, whose lament opens this part. Jupiter sends Mercury to kill the guard; disguised as a herdsman, he talks and pipes Argus toward sleep, and the tale he tells to close those eyes — how the nymph Syrinx became the reed pipe he is playing — breaks off unfinished as his listener drifts under. With Argus dead and his hundred eyes set into the peacock's tail, Juno drives Io in madness across the whole world to the Nile, where Jupiter's oath on the Styx wins back her human shape. The episode closes Book I's chain of pursued women; Phaethon follows.",
+ "sentences": [
+  {
+   "t": "“Me miserum!” exclamat pater Inachus inque gementis\ncornibus et niveae pendens cervice iuvencae\n“me miserum!” ingeminat,",
+   "l": "“Me, wretched!” father Inachus exclaims, and, hanging upon the horns of the groaning and upon the neck of the snow-white heifer, “me, wretched!” he redoubles,",
+   "i": "“Oh, wretched me!” cries her father Inachus, and, clinging to the horns and the white neck of the moaning heifer, he cries it a second time: “Wretched me!”",
+   "n": "Me miserum is the accusative of exclamation: a bare accusative standing alone as a cry, with no verb to govern it, so English has to supply an “oh” or a “that I am.” Inachus is a river-god, Io's father. Both adjectives, gementis (“groaning”) and niveae (“snow-white”), are torn away from the noun iuvencae they modify and parked at the far ends of their lines — the single habit of Latin verse the reader will meet most often, and the one worth learning to read across. ingeminat is literally “he doubles it again”: he does not say something further, he says the same thing twice.",
+   "p": true,
+   "v": true,
+   "ln": 651
+  },
+  {
+   "t": "“tune es quaesita per omnes\nnata, mihi terras? tu non inventa reperta\nluctus eras levior.",
+   "l": "“are you the daughter sought by me through all lands? You, not found, were a lighter grief than [you are] found.",
+   "i": "“Are you the daughter I searched for through every land? While you were lost you were the easier grief to bear; now that you are found you are the heavier.",
+   "n": "quaesita ... mihi is a perfect passive participle with a dative of agent (mihi, “by me”) rather than a plus the ablative — regular with participles. The -ne fastened to tu turns the sentence into a question. The second sentence balances the same idea in two participles: inventa (“found,” nominative, describing her) against reperta, an ablative of comparison, “than [you now] found.” English must supply the words in brackets; Latin leaves both the “yet” and the second “you are” to be understood.",
+   "v": true,
+   "ln": 653
+  },
+  {
+   "t": "Retices nec mutua nostris\ndicta refers, alto tantum suspiria ducis\npectore, quodque unum potes, ad mea verba remugis.",
+   "l": "You keep silent, and you do not return words answering to ours; only from a deep breast do you draw sighs, and — the one thing you can [do] — at my words you bellow back.",
+   "i": "You say nothing; you give me no word in answer. All you can do is draw sighs from deep in your chest, and — the one thing left to you — bellow back at what I say.",
+   "n": "mutua ... dicta (“words in exchange”) is split around nostris, “to ours,” i.e. to our words. quodque unum potes is a relative clause dropped in as a parenthesis: quod, “the one thing which,” plus the connective -que. Getting into the habit of peeling the enclitic -que off a word and reading what is underneath — here quod, not quodque — is most of what it takes to read Ovid's connectives. remugis is mugio, “to low,” with re- making it an answer: she can only low back at him.",
+   "v": true,
+   "ln": 655
+  },
+  {
+   "t": "At tibi ego ignarus thalamos taedasque parabam,\nspesque fuit generi mihi prima, secunda nepotum.",
+   "l": "But for you I, unknowing, was preparing bridal-chamber and torches, and my first hope was of a son-in-law, the second of grandchildren.",
+   "i": "And all the while I, knowing nothing, was making ready your marriage-chamber and your wedding torches; my first hope was a son-in-law, my second grandchildren.",
+   "n": "thalamos taedasque, “bedchamber and torches,” is metonymy for a wedding: the bridal procession was lit by pine torches, so taedae alone means “marriage” throughout Latin poetry. generi is the genitive of gener, “son-in-law,” not of genus. ignarus (“not knowing”) is a nominative adjective describing ego, and carries by itself what English would spread over a clause: “while I had no idea.” The imperfect parabam is the tense of an intention still under way when it was overtaken.",
+   "v": true,
+   "ln": 658
+  },
+  {
+   "t": "De grege nunc tibi vir, nunc de grege natus habendus.",
+   "l": "From the herd now for you a husband, now from the herd a son must-be-had.",
+   "i": "Now your husband must come from the herd, and your son from the herd as well.",
+   "n": "habendus [est] is a gerundive of obligation, “must be had,” with tibi as its dative of agent, “by you”; the est is simply left out, as Latin regularly does. The whole line is one savage joke turned twice: de grege stands at both ends of the daughter's future. vir here is “husband,” not merely “man.”",
+   "v": true,
+   "ln": 660
+  },
+  {
+   "t": "Nec finire licet tantos mihi morte dolores,\nsed nocet esse deum, praeclusaque ianua leti\naeternum nostros luctus extendit in aevum?”",
+   "l": "Nor is it permitted to me to end such great sorrows by death, but it does harm to be a god, and the barred-shut door of death stretches out our mourning into an everlasting age?”",
+   "i": "And I am not even allowed to end so great a grief by dying: godhood does me injury, and the door of death, bolted against me, draws my mourning out into an age without end.”",
+   "n": "esse deum is an infinitive serving as the subject of nocet: “to be a god does harm.” Inachus is a river-god and so immortal, which is the whole point of the complaint — divinity denies him the one release a mortal father would have. praeclusa (“shut off in front”) is a perfect passive participle used as an adjective with ianua, and aeternum ... in aevum wraps itself around the words it governs, a favourite Ovidian frame. Magnus punctuates the sentence as a question of indignation, not a statement.",
+   "v": true,
+   "ln": 661
+  },
+  {
+   "t": "Talia maerentem stellatus submovet Argus\nereptamque patri diversa in pascua natam\nabstrahit.",
+   "l": "Him, mourning such things, starry Argus shoves aside, and the daughter, snatched from her father, into pastures apart he drags off.",
+   "i": "Starry Argus drives him off in the middle of such lamentation and hauls the daughter away from her father into pastures apart.",
+   "n": "Talia (“such things”) is the object of maerentem, which is itself accusative and the object of submovet — Latin can make a participle carry a whole clause's worth of meaning where English wants “him as he mourned.” ereptam ... patri: the participle takes a dative of separation, “snatched from her father.” Magnus prints maerentem, so it is the grieving father whom Argus shoves aside; some editions print the dative maerenti, which instead makes Argus take Io away from the mourner. Argus is stellatus, “starred,” because the hundred eyes stand over him like stars; the word returns as stellantibus at 723, of the jewels in the peacock's tail.",
+   "p": true,
+   "v": true,
+   "ln": 664
+  },
+  {
+   "t": "Ipse procul montis sublime cacumen\noccupat, unde sedens partes speculatur in omnes.",
+   "l": "He himself, far off, takes the lofty summit of a mountain, from where, sitting, he watches out into all directions.",
+   "n": "occupat is literally “seizes first, takes possession of”; used of ground it means to take up a position. speculatur is deponent — passive in form, active in meaning, “he watches” — and comes from specula, a lookout post. in omnes partes is split around the verb, so that “in all — he watches — directions” surrounds the watching; the same splitting habit as gementis ... iuvencae at 652.",
+   "v": true,
+   "ln": 666
+  },
+  {
+   "t": "Nec superum rector mala tanta Phoronidos ultra\nferre potest natumque vocat, quem lucida partu\nPleias enixa est, letoque det imperat Argum.",
+   "l": "Nor can the ruler of the gods-above bear the evils of the Phoronid any longer, and he calls his son, whom the shining Pleiad brought forth in birth, and orders that he give Argus over to death.",
+   "i": "The ruler of heaven can endure Io's suffering no longer. He summons his son, the child the shining Pleiad bore, and orders him to hand Argus over to death.",
+   "n": "superum is the older genitive plural of superi (“those above,” the gods), standing for superorum — common in verse. Phoronidos is a Greek genitive of a patronymic: Io as descendant of Phoroneus, son of her father Inachus. The Pleias is Maia, one of the seven Pleiades and mother of Mercury by Jupiter; the son goes unnamed here and will be called by four further names before the episode ends. det imperat is a bare subjunctive after impero, “orders that he give,” with the ut simply omitted. leto is a dative of destination.",
+   "p": true,
+   "v": true,
+   "ln": 668
+  },
+  {
+   "t": "Parva mora est alas pedibus virgamque potenti\nsomniferam sumpsisse manu tegimenque capillis.",
+   "l": "Small delay it is to have taken up wings for his feet, and in his powerful hand the sleep-bringing wand, and a covering for his hair.",
+   "i": "It costs him barely a moment to fit the wings to his feet, take the sleep-bringing wand in his strong hand, and set the cap on his hair.",
+   "n": "parva mora est plus a perfect infinitive is Latin idiom for “it takes him no time at all”; sumpsisse looks at the action as already finished. virgam ... somniferam is split across the line-end around potenti, and potenti ... manu is split in turn around somniferam sumpsisse — two pairs threaded through each other, the arrangement called synchysis. The wand is the caduceus, whose touch brings sleep; the tegimen is the petasos, Mercury's broad travelling hat.",
+   "v": true,
+   "ln": 671
+  },
+  {
+   "t": "Haec ubi disposuit, patria Iove natus ab arce\ndesilit in terras.",
+   "l": "When he had arranged these things, the one born from Jove leaps down from his father's citadel onto the lands.",
+   "i": "These things arranged, the son of Jove springs down from his father's stronghold to earth.",
+   "n": "Iove natus, “born from Jove,” is a periphrasis for Mercury; natus takes the bare ablative of the parent. Ovid names him four separate ways in this part — Iove natus, Atlantiades, deus, Cyllenius — and never once as Mercurius. patria ... ab arce is split again, adjective at one end of the phrase and noun at the other. ubi with the perfect indicative is “when, as soon as”; then disposuit (perfect) gives way to desilit (present), the historic present, which pulls the action up close and speeds it.",
+   "v": true,
+   "ln": 673
+  },
+  {
+   "t": "Illic tegimenque removit\net posuit pennas, tantummodo virga retenta est.",
+   "l": "There he both took off the covering and laid aside the wings; only the wand was kept back.",
+   "n": "The -que on tegimenque pairs with et as a correlative, “both ... and.” posuit is pono in its common poetic sense “lay aside, put down” — the same verb that returns as an imperative at 736, pone metus, “lay aside your fears.” retenta est is passive where English would rather be active: Latin often lets the object become the subject and drops the agent, since we already know who kept it.",
+   "v": true,
+   "ln": 674
+  },
+  {
+   "t": "Hac agit, ut pastor, per devia rura capellas,\ndum venit, adductas et structis cantat avenis.",
+   "l": "With this he drives, as a shepherd does, through pathless fields she-goats gathered up while he came, and on built-together reeds he plays.",
+   "i": "With this he drives she-goats, like a shepherd, through trackless country — goats he had collected on the way — and plays upon his fitted reeds.",
+   "n": "structis ... avenis, literally “with constructed oat-stalks,” is the panpipe: reeds of unequal length fastened side by side — precisely the instrument whose origin the story he is about to tell will explain. Hac is ablative of means, “with this [wand].” adductas (“led along, collected”) agrees with capellas across the intervening clause dum venit; some editions print abductas, “carried off,” which makes the disguised god a rustler rather than a herdsman. The disguise is well chosen: Mercury is god of herds and of theft both.",
+   "v": true,
+   "ln": 676
+  },
+  {
+   "t": "Voce nova captus custos Iunonius “at tu,\nquisquis es, hoc poteras mecum considere saxo,”\nArgus ait,",
+   "l": "Caught by the strange voice, the Junonian watchman — “But you, whoever you are, could sit down with me on this rock,” Argus says —",
+   "i": "The strange music caught Juno's watchman. “You there, whoever you are — you might sit here on this rock with me,” said Argus.",
+   "n": "Iunonius is an adjective made from Iuno: the watchman is Juno's, posted by her. vox of an instrument means its sound, and nova is “strange, unheard-of” as much as “new.” poteras is imperfect where English expects a present or a conditional: Latin uses the past tense of possum as a courtesy, “you could [have all along],” softening what is really an invitation. hoc ... saxo is ablative of place where, with no preposition — normal in verse.",
+   "v": true,
+   "ln": 678
+  },
+  {
+   "t": "“neque enim pecori fecundior ullo\nherba loco est, aptamque vides pastoribus umbram.”",
+   "l": "“for the grass is not in any place more productive for a flock, and you see shade fit for shepherds.”",
+   "i": "“There is no spot where the grass grows richer for a flock, and you can see the shade was made for shepherds.”",
+   "n": "ullo ... loco is ablative of place where, split around the comparative fecundior, which itself takes pecori as a dative of advantage, “richer for a flock.” neque enim, “for ... not,” is a fixed pair: enim can never stand first in its clause, so it always leans back on the word before it. aptam ... umbram frames pastoribus, dative again, this time governed by an adjective.",
+   "v": true,
+   "ln": 680
+  },
+  {
+   "t": "Sedit Atlantiades et euntem multa loquendo\ndetinuit sermone diem iunctisque canendo\nvincere harundinibus servantia lumina temptat.",
+   "l": "The Atlas-born sat down, and by talking of many things held back with conversation the day as it went, and by playing on his joined reeds he tries to overcome the eyes that keep guard.",
+   "i": "Atlas's grandson sat down, and with much talk held back the day as it passed, and by playing on his fastened reeds he tries to conquer those watchful eyes.",
+   "n": "Atlantiades: Mercury is Atlas's grandson through his mother Maia. Greek-style patronymics in -ades are Ovid's regular way of naming a figure by his line rather than his name. loquendo and canendo are ablatives of the gerund, “by talking,” “by playing” — the standard Latin way of saying by what means. euntem ... diem wraps the whole phrase multa loquendo detinuit sermone, so the day is holding the holding-back inside it. Watch the tenses: sedit and detinuit are perfect, then temptat jumps into the present — the narrative slows down and moves in close.",
+   "v": true,
+   "ln": 682
+  },
+  {
+   "t": "Ille tamen pugnat molles evincere somnos\net, quamvis sopor est oculorum parte receptus,\nparte tamen vigilat.",
+   "l": "He, however, fights to conquer the soft sleep, and, although slumber has been let in over a part of his eyes, with a part he nevertheless keeps watch.",
+   "i": "But Argus fights off the soft advance of sleep, and though drowsiness has taken part of his eyes, with the rest he stays awake.",
+   "n": "pugnat with a plain infinitive (“fights to overcome”) is a poetic stretch; prose would want pugnat ut vincat. molles ... somnos is plural for singular, common in verse — “soft sleep,” not “sleeps.” oculorum parte and the answering parte are both ablatives without a preposition, “over one part ... with the other”; the second parte needs no possessive because the first has already supplied it. This is the mechanical problem Mercury has to solve: a hundred eyes that sleep in shifts.",
+   "v": true,
+   "ln": 685
+  },
+  {
+   "t": "Quaerit quoque (namque reperta\nfistula nuper erat), qua sit ratione reperta.",
+   "l": "He asks also — for the pipe had lately been discovered — by what means it was discovered.",
+   "i": "He asks, too — the pipe was a recent invention — how it had been invented.",
+   "n": "quoque here is the adverb, “also.” Keep an eye on this word: Ovid also writes quō-que, the relative pronoun plus -que, “and with which,” and on the page the two are identical — only the sense can decide. qua sit ratione reperta is an indirect question and so takes the subjunctive sit, with the interrogative phrase qua ... ratione split around it. reperta is repeated deliberately from the parenthesis: Ovid picks up his own word and hinges the question on it.",
+   "v": true,
+   "ln": 687
+  },
+  {
+   "t": "Tum deus “Arcadiae gelidis in montibus” inquit\n“inter hamadryadas celeberrima Nonacrinas\nnaias una fuit; nymphae Syringa vocabant.",
+   "l": "Then the god: “In the cold mountains of Arcadia,” he says, “among the Nonacrian hamadryads there was one naiad, the most celebrated; the nymphs used to call her Syrinx.",
+   "i": "Then the god said: “In the chill mountains of Arcadia there was one naiad, the most renowned among the hamadryads of Nonacris; the nymphs called her Syrinx.",
+   "n": "Nonacrinas is from Nonacris, a mountain and town in northern Arcadia — “Arcadian” said by way of a learned proper name instead of the plain adjective, a mannerism Ovid takes from Alexandrian poetry. Hamadryads are tree-nymphs, each bound to her own tree; a naias is a water-nymph, so Syrinx is quietly set apart from the company she is famous among. celeberrima ... una is split from naias across the line-end. inquit is dropped inside the quotation rather than placed before it, as Latin regularly does. Syringa is the Greek accusative of Syrinx. Magnus prints in montibus; some editions print sub, “under the mountains,” i.e. at their foot.",
+   "p": true,
+   "v": true,
+   "ln": 689
+  },
+  {
+   "t": "Non semel et satyros eluserat illa sequentes\net quoscumque deos umbrosaque silva feraxque\nrus habet.",
+   "l": "Not once only had she eluded both the satyrs pursuing her and whatever gods the shadowy wood and the fruitful country hold.",
+   "i": "More than once she had given the slip both to the satyrs who chased her and to whatever gods the shady woods and the teeming fields contain.",
+   "n": "Non semel is litotes — “not once” meaning “many times over.” Latin regularly understates in order to intensify, and the reader should hear the emphasis rather than the arithmetic. et ... et is “both ... and.” quoscumque ... deos is a generalising relative taking the indicative habet, because the fact is asserted, not supposed. The two -que's couple silva and rus as joint subjects of the singular habet: Latin lets a verb agree with the nearer subject alone.",
+   "v": true,
+   "ln": 692
+  },
+  {
+   "t": "Ortygiam studiis ipsaque colebat\nvirginitate deam.",
+   "l": "The Ortygian goddess she cultivated by her pursuits and by her very virginity.",
+   "i": "She worshipped the goddess of Ortygia both in the way she lived and in her virginity itself.",
+   "n": "Ortygiam ... deam is Diana: Ortygia, “quail-island,” is an old name for Delos, where she and Apollo were born, so the goddess is named by her birthplace. The phrase is split across the line-end around the two ablatives of means, studiis and ipsa ... virginitate, which say how she worshipped. ipsa attached to virginitate is emphatic — “her virginity itself,” which is precisely what is now at stake. colo covers both “cultivate” and “worship,” and the double sense is working here.",
+   "v": true,
+   "ln": 694
+  },
+  {
+   "t": "Ritu quoque cincta Dianae\nfalleret et posset credi Latonia, si non\ncorneus huic arcus, si non foret aureus illi.",
+   "l": "Girt too in Diana's fashion, she would deceive and could be believed [to be] Latona's daughter, if this one's bow were not of horn, if that one's were not of gold.",
+   "i": "Dressed in Diana's own style, she would have passed for Latona's daughter — if her own bow had not been horn, and Diana's gold.",
+   "n": "A present contrary-to-fact condition: imperfect subjunctive in both halves (falleret, posset, foret), “she would deceive ... if it were not.” foret is an old alternative for esset. huic and illi are datives of possession — “to this one there is a bow” = “this one's bow” — with huic pointing to the nearer person, Syrinx, and illi to the further, Diana. Latonia, “Latona's daughter,” is Diana named a third distinct way inside three lines. cincta is a perfect passive participle used almost as a middle: she had girded herself.",
+   "v": true,
+   "ln": 695
+  },
+  {
+   "t": "Sic quoque fallebat. Redeuntem colle Lycaeo\nPan videt hanc pinuque caput praecinctus acuta\ntalia verba refert”—",
+   "l": "Even so she was deceiving [them]. Her, returning from the Lycaean hill, Pan sees, and, wreathed as to his head with sharp pine, he brings out such words” —",
+   "i": "Even so she passed for Diana. Pan saw her coming back from Mount Lycaeus, and, his head wreathed with sharp pine, spoke to her like this” —",
+   "n": "caput praecinctus is the Greek accusative of respect: a passive participle keeps an accusative to say in what respect it applies — “girt as to his head,” i.e. with his head wreathed. Latin poets take the construction straight from Greek and Ovid uses it constantly; whenever a passive participle is followed by a bare accusative body-part, read “as to.” Pan's pine crown is his fixed attribute, and Mount Lycaeus in Arcadia is his own mountain. Sic quoque is “in this way too, even so” — quoque the adverb again. fallebat is imperfect: she went on deceiving, over and over.",
+   "v": true,
+   "ln": 698
+  },
+  {
+   "t": "restabat verba referre\net precibus spretis fugisse per avia nympham,\ndonec harenosi placidum Ladonis ad amnem\nvenerit.",
+   "l": "— it remained to report the words, and [to tell] that, with [his] entreaties scorned, the nymph fled through trackless country, until she came to the calm stream of sandy Ladon.",
+   "i": "— the words remained to be reported: how the nymph, his pleas spurned, fled through the trackless wilds until she reached the still water of sandy Ladon.",
+   "n": "Here Ovid does something famous. The tale breaks off in mid-quotation and finishes in indirect statement — accusative and infinitive (nympham ... fugisse, and later Pana ... tenuisse) instead of Pan's own words — because the listener, Argus, is falling asleep. The syntax itself goes drowsy. precibus spretis is an ablative absolute, a self-contained “with X done” phrase where English wants a clause: “when his pleas had been scorned.” donec ... venerit stands in the subjunctive not because “until” demands it but because the clause sits inside that indirect statement: a subordinate verb under an accusative-and-infinitive goes subjunctive whatever mood it would have carried in direct speech. Ladon is an Arcadian river, harenosi its genitive epithet, “sandy.”",
+   "v": true,
+   "ln": 700
+  },
+  {
+   "t": "Hic illam cursum inpedientibus undis,\nut se mutarent liquidas orasse sorores,",
+   "l": "That here she, with the waters blocking her course, begged her liquid sisters that they change her,",
+   "i": "That there, with the water barring her flight, she begged her sisters of the stream to transform her,",
+   "n": "cursum inpedientibus undis is a second ablative absolute in as many units, this one with a present participle: “the waves hindering her course” = “since the water blocked her way.” orasse is the contracted perfect infinitive for oravisse, still part of the indirect statement, with illam as its accusative subject. liquidas ... sorores are the other water-nymphs, sisters of the naiad. ut se mutarent is a substantive clause of purpose after oro, with se referring back to Syrinx, the subject of the begging, not of the changing. Note the edition's spelling inpedientibus, kept as printed.",
+   "v": true,
+   "ln": 703
+  },
+  {
+   "t": "Panaque, cum prensam sibi iam Syringa putaret,\ncorpore pro nymphae calamos tenuisse palustres.",
+   "l": "and that Pan, when he already thought Syrinx caught for himself, held marsh reeds in place of the nymph's body.",
+   "i": "and that Pan, sure by now that he had Syrinx in his grasp, found himself holding marsh reeds instead of the nymph's body.",
+   "n": "Pana is the Greek accusative of Pan, not the Latin Panem — Greek names keep their Greek endings in verse, as Syringa did at 691. prensam [esse] sibi is a further indirect statement folded inside the cum-clause, “that Syrinx had been seized by him,” with sibi a dative of agent. cum ... putaret is circumstantial cum with the subjunctive, “at the very moment when he thought.” The whole reversal is delivered by two words: pro with the ablative, “in place of.”",
+   "v": true,
+   "ln": 705
+  },
+  {
+   "t": "Dumque ibi suspirat, motos in harundine ventos\neffecisse sonum tenuem similemque querenti.",
+   "l": "And that, while he sighs there, the winds stirred in the reed made a thin sound, and one like [that of] someone lamenting.",
+   "i": "And that, as he sighed over them, the breath moving in the reeds made a slender sound, like someone in complaint.",
+   "n": "dum with the present indicative (suspirat) means “while, during the time that” even inside a past narrative — Latin keeps the present here whatever the surrounding tense. similem takes a dative, querenti, “like one lamenting,” a present participle used as a noun. The chain of cause is exact and physical: he sighs, his breath moves in the hollow reed, the reed sounds. The pipe is invented by accident, out of his own disappointment.",
+   "v": true,
+   "ln": 707
+  },
+  {
+   "t": "Arte nova vocisque deum dulcedine captum\n“hoc mihi concilium tecum” dixisse “manebit!“",
+   "l": "That the god, caught by the new art and by the sweetness of the sound, said: “This joining of mine with you will remain!”",
+   "i": "And that the god, taken by the new art and the sweetness of the sound, said: “This bond between us will last.”",
+   "n": "captum agrees with deum, both accusative, because we are still inside the reported tale rather than hearing it spoken. arte nova and dulcedine are ablatives of cause with the participle. mihi is a dative of possession: the bond is his to keep. Magnus prints concilium, “a joining, a coming-together”; some editions print colloquium, “a conversation,” which turns the god's line into a promise of talk rather than of union — a real difference in what he is claiming from her.",
+   "v": true,
+   "ln": 709
+  },
+  {
+   "t": "atque ita disparibus calamis conpagine cerae\ninter se iunctis nomen tenuisse puellae.",
+   "l": "and that thus, with reeds of unequal size joined to one another by a binding of wax, [the instrument] kept the girl's name.",
+   "i": "and that thus the instrument, its reeds of different lengths fastened to each other with wax, kept the girl's name.",
+   "n": "Another ablative absolute, and a long one: disparibus calamis ... inter se iunctis, “unequal reeds joined among themselves,” with conpagine cerae, “by a joint of wax,” lodged inside it. The subject of tenuisse is never stated — Latin lets the pipe be understood from its own description, and English has to supply it, hence the brackets. The point of the whole inset tale is that name: the panpipe is a syrinx, and the girl survives as the word for the thing. The edition's spelling conpagine is kept as printed.",
+   "v": true,
+   "ln": 711
+  },
+  {
+   "t": "Talia dicturus vidit Cyllenius omnes\nsuccubuisse oculos adopertaque lumina somno.",
+   "l": "About to say such things, the Cyllenian saw that all the eyes had sunk down and the lights had been covered over by sleep.",
+   "i": "As he was about to say all this, the Cyllenian saw that every eye had given way and every light lay closed over with sleep.",
+   "n": "dicturus is the future participle, “about to say, on the point of saying” — Latin's compact way of marking an action cut off before it happens; the tale we have just heard is the one he never finished. Cyllenius is Mercury again, from Mount Cyllene in Arcadia where he was born. vidit governs two accusative-and-infinitive clauses, omnes ... succubuisse oculos and adoperta [esse] lumina, with the est of the second dropped as usual. lumina, “lights,” is the poets' word for eyes, and Ovid is about to squeeze it hard.",
+   "p": true,
+   "v": true,
+   "ln": 713
+  },
+  {
+   "t": "Supprimit extemplo vocem firmatque soporem\nlanguida permulcens medicata lumina virga.",
+   "l": "At once he checks his voice and makes the slumber firm, stroking the drooping eyes with his drugged wand.",
+   "n": "firmat soporem is “makes the sleep firm”: he does not send the sleep, he secures it now that it has come. medicata (“drugged, charged with a drug”) is passive in form, but the wand is the giver of the drug, not its receiver — Latin lets a participle carry the power residing in a thing. languida ... lumina wraps permulcens medicata, so that the stroking and the drug sit physically inside the drooping eyes; the word order performs the gesture. The verbs have gone into the historic present for the killing.",
+   "v": true,
+   "ln": 715
+  },
+  {
+   "t": "Nec mora, falcato nutantem vulnerat ense\nqua collo est confine caput, saxoque cruentum\ndeicit et maculat praeruptam sanguine rupem.",
+   "l": "No delay: with a hooked sword he wounds him as he nods, where the head is next to the neck, and from the rock he flings him down bloodied and stains the sheer crag with blood.",
+   "i": "There is no delay: with his hooked blade he strikes the nodding head where it joins the neck, hurls the bloodied body down from the crag, and spatters the sheer rock with blood.",
+   "n": "Nec mora is a bare noun with no verb at all — “and no delay” — a standing Ovidian formula for an action that follows on the instant. falcato ... ense is the harpe, the curved sword of Greek myth, and the phrase wraps nutantem, putting the nodding victim inside the weapon. qua is the relative adverb of place, “where,” and confine (“bordering on”) takes the dative collo. saxo is an ablative of separation with no preposition, “down from the rock.” Ovid gives the anatomy exactly — where the head borders the neck — and does not soften it.",
+   "v": true,
+   "ln": 717
+  },
+  {
+   "t": "Arge, iaces, quodque in tot lumina lumen habebas,\nexstinctum est, centumque oculos nox occupat una.",
+   "l": "Argus, you lie [dead], and the light which you had spread into so many lights has been put out, and one night takes possession of a hundred eyes.",
+   "i": "Argus, you lie dead; the light you carried in so many lights is quenched, and a single night takes all your hundred eyes.",
+   "n": "Apostrophe: Ovid breaks off narrating and turns to speak to Argus directly, with the vocative Arge and the second person iaces, habebas. He reserves this move for figures at the moment of their destruction, and the reader should hear the change from telling about to speaking to. The sentence turns on lumen twice over: the one “light” of life against the plural lumina, the eyes. una is held back to the end of the line and agrees with nox, not with oculos — one night set against a hundred eyes.",
+   "v": true,
+   "ln": 720
+  },
+  {
+   "t": "Excipit hos volucrisque suae Saturnia pennis\ncollocat et gemmis caudam stellantibus inplet.",
+   "l": "Saturn's daughter takes these up and sets them in the feathers of her own bird, and fills the tail with starring jewels.",
+   "i": "Juno gathers them up and sets them in the plumage of her own bird, filling its tail with jewels like stars.",
+   "n": "Saturnia is Juno, “daughter of Saturn” — a divine name given by descent, exactly as Atlantiades was for Mercury. Her bird is the peacock: this is the aetion, the origin-story, of the eyes in the peacock's tail, and Ovid never once says the word “peacock.” gemmis ... stellantibus is split around caudam, so the tail sits literally inside the jewels. stellantibus picks up stellatus, the epithet Argus wore at 664: the stars pass from the watchman to the bird.",
+   "v": true,
+   "ln": 722
+  },
+  {
+   "t": "Protinus exarsit nec tempora distulit irae\nhorriferamque oculis animoque obiecit Erinyn\npaelicis Argolicae",
+   "l": "At once she blazed out, and did not put off the season of her anger, and set a horror-bringing Fury before the eyes and the mind of the Argive rival,",
+   "i": "She blazed up at once and did not defer her anger, but set a Fury of horror before the eyes and the mind of her Argive rival,",
+   "n": "The subject is still Juno, carried over from Saturnia with no pronoun at all — Latin does not repeat what is already understood. tempora ... irae, “the times of her anger,” is plural for singular. Erinys is the Greek name for a Fury, a spirit of vengeance and madness; horriferam, “horror-bringing,” is one of Ovid's compound coinages and is split from its noun across an entire line. paelex is a hard word: the other woman, the rival in a marriage — Juno's view of Io, not the poem's. Argolica because Io is of Argos.",
+   "p": true,
+   "v": true,
+   "ln": 724
+  },
+  {
+   "t": "stimulosque in pectore caecos\ncondidit et profugam per totum terruit orbem.",
+   "l": "and buried unseen goads in her breast, and terrified her, a fugitive, through the whole world.",
+   "i": "and sank hidden goads into her breast, and drove her in terror, a runaway across the whole world.",
+   "n": "caecos here is not “blind” in the sense of sightless but “unseen, hidden” — a standard second sense of caecus, and the point is that the torment has no visible cause. profugam is an adjective doing duty as a noun and serving as the object of terruit, “her, a runaway.” per totum ... orbem is split around the verb once more. Magnus prints terruit, “terrified her”; some editions print exercuit, “harried her, kept her at it,” which makes the pursuit relentless rather than terrifying.",
+   "v": true,
+   "ln": 726
+  },
+  {
+   "t": "Ultimus inmenso restabas, Nile, labori.\nQuem simul ac tetigit,",
+   "l": "Last, Nile, you were remaining for [her] measureless toil. And as soon as she touched it,",
+   "i": "You were the last thing left, Nile, at the end of her measureless wandering. And as soon as she reached you,",
+   "n": "A second apostrophe: Nile is vocative and restabas second person, so Ovid turns from Io to the river itself — and then in the very next word turns back, because Quem is a connecting relative. quem here is et eum, “and it,” opening a new sentence where English wants a pronoun, never a “which”; read every sentence-initial relative in Ovid this way. inmenso ... labori is a dative of the thing left over, and labor here is the wandering itself. The edition's spelling inmenso is kept as printed; simul ac is “as soon as.”",
+   "v": true,
+   "ln": 728
+  },
+  {
+   "t": "positis in margine ripae\nprocubuit genibus resupinoque ardua collo,\nquos potuit solos, tollens ad sidera vultus",
+   "l": "with her knees set on the edge of the bank she sank down, and, reared high with her neck thrown back, lifting to the stars her face — the only thing she could lift —",
+   "i": "she sank down, her knees set on the margin of the bank, and rearing high with her neck thrown back, she lifted toward the stars the one thing she could still lift, her face.",
+   "n": "positis ... genibus is another ablative absolute, its two words pushed to opposite ends of the phrase: “her knees having been set.” ardua (“rearing, steep”) is nominative and describes Io herself, with resupino ... collo an ablative of manner inside it. The relative clause quos potuit solos is pulled inside the phrase vultus belongs to, and solos carries the weight: she is a cow, and her face is the only part of her that can still be raised in prayer. vultus is accusative plural for singular, normal in verse.",
+   "v": true,
+   "ln": 729
+  },
+  {
+   "t": "et gemitu et lacrimis et luctisono mugitu\ncum Iove visa queri finemque orare malorum.",
+   "l": "and with groaning and with tears and with grief-sounding lowing she seemed to make complaint with Jove and to beg an end of her evils.",
+   "i": "and with groans and tears and a grief-sounding bellow she seemed to lay her complaint before Jove and beg an end to her sufferings.",
+   "n": "visa [est] with an infinitive is the personal construction, “she seemed to,” where English is content with “it seemed that she”; the est is dropped. The triple et ... et ... et piles three ablatives of means without a pause. luctisono, “grief-sounding,” is another Ovidian compound made for the moment: her voice is a cow's, so her prayer has to come out as a bellow. queri cum aliquo is “to make one's complaint before someone,” not to quarrel with them. malorum is an objective genitive with finem.",
+   "v": true,
+   "ln": 732
+  },
+  {
+   "t": "Coniugis ille suae conplexus colla lacertis,\nfiniat ut poenas tandem, rogat “in” que “futurum\npone metus” inquit;",
+   "l": "He, having embraced with his arms the neck of his own wife, asks that she end the punishments at last, and “for the time to come,” he says, “lay aside your fears;",
+   "i": "He put his arms around his wife's neck and begged her to end the punishment at last. “For the future,” he said, “put your fears away;",
+   "n": "conplexus is the perfect participle of a deponent verb — passive in form, active in meaning, “having embraced” — and like most deponent participles it keeps its object, colla. coniugis ... suae wraps the whole phrase around conplexus, so that “his own wife's” brackets the embrace. finiat ut is a substantive clause of purpose with the ut pushed behind its verb, a licence verse allows. in futurum, “into the future,” is cut in half by the enclitic -que: the figure is tmesis, a word split around another, and the edition prints the pieces apart. pone is pono again in its sense “lay aside.”",
+   "v": true,
+   "ln": 734
+  },
+  {
+   "t": "“numquam tibi causa doloris\nhaec erit:” et Stygias iubet hoc audire paludes.",
+   "l": "never will she be for you a cause of grief”; and he orders the Stygian marshes to hear this.",
+   "i": "she will never be a cause of pain to you again.” And he calls the marshes of Styx to hear it.",
+   "n": "haec, “this woman,” is the subject and causa the predicate, with tibi a dative of reference, “for you.” The Stygian marshes are the Styx, the underworld river by which the gods swear the one oath they cannot break: to make the Styx hear a promise is to swear it irrevocably, and Ovid conveys the whole solemnity with a single verb, iubet ... audire. iubeo takes an accusative and infinitive (paludes ... audire) where most verbs of ordering take ut with the subjunctive.",
+   "v": true,
+   "ln": 736
+  },
+  {
+   "t": "Ut lenita dea est, vultus capit illa priores\nfitque quod ante fuit:",
+   "l": "When the goddess has been softened, she [Io] takes back her former face and becomes what she was before:",
+   "i": "Once the goddess is appeased, Io takes on her earlier face and becomes what she was before:",
+   "n": "ut with the perfect indicative is “when, as soon as,” not “in order that” — the mood is what tells you which ut you have. dea is Juno, unnamed once more. vultus ... priores is again accusative plural for singular. quod ante fuit, “what she was before,” is a relative clause standing as the predicate of fit; for the moment the whole episode has been driving toward, Ovid uses the plainest words he has and lets them stay plain.",
+   "v": true,
+   "ln": 738
+  },
+  {
+   "t": "fugiunt e corpore saetae,\ncornua decrescunt, fit luminis artior orbis,",
+   "l": "the bristles flee from her body, the horns shrink, the circle of her eye grows narrower,",
+   "n": "The transformation comes as a list of short present-tense clauses, one per feature, with no connectives — asyndeton, which makes the change look simultaneous rather than step-by-step. Ovid's metamorphoses habitually run through the body like this. fugiunt is deliberately violent for hairs falling out: they run away. luminis ... orbis is “the circle of the eye,” lumen for eye again as at 720; a cow's eye is famously large, so its narrowing is the visible sign that she is coming back.",
+   "v": true,
+   "ln": 739
+  },
+  {
+   "t": "contrahitur rictus, redeunt umerique manusque,\nungulaque in quinos dilapsa absumitur ungues:",
+   "l": "the gaping mouth draws together, and shoulders and hands come back, and the hoof, split apart into five nails, is used up:",
+   "i": "the gaping muzzle contracts, shoulders and hands return, and the hoof melts away into five nails and is gone:",
+   "n": "rictus is the open mouth of an animal, the gape — the word for a beast's jaws, not a human mouth. The paired -que ... -que on umerique manusque, “both shoulders and hands,” is an epic mannerism. quinos is a distributive numeral, “five apiece,” where English simply says five; verse often puts distributives where prose would use cardinals. And the Latin hides a pun English cannot keep: ungula, “hoof,” is the diminutive of unguis, “nail,” so the hoof dissolves back into the little nails it was made from.",
+   "v": true,
+   "ln": 741
+  },
+  {
+   "t": "de bove nil superest formae nisi candor in illa.",
+   "l": "of the cow nothing of the shape remains in her except the whiteness.",
+   "n": "superest takes a partitive genitive, formae: “nothing of shape survives.” de bove is “out of the cow,” marking what is left over from the state she is leaving. nil is the shortened form of nihil. candor is dazzling brightness, whiteness — the same whiteness that made her the niveae ... iuvencae her father clung to at 652. Of everything the transformation undoes, the one feature that carries across is the one he had his arms around.",
+   "v": true,
+   "ln": 743
+  },
+  {
+   "t": "Officioque pedum nymphe contenta duorum\nerigitur metuitque loqui, ne more iuvencae\nmugiat, et timide verba intermissa retemptat.",
+   "l": "And the nymph, content with the service of two feet, raises herself upright, and fears to speak, lest in a heifer's manner she low, and timidly tries again the words she had broken off.",
+   "i": "And the nymph, satisfied now with the use of two feet, stands up; she is afraid to speak, in case she lows like a heifer, and shyly tries her interrupted words again.",
+   "n": "nymphe is the Greek nominative, for Latin nympha — the very last naming of her restores what she was. contenta takes an ablative, officio, “content with the service.” metuo with ne and the subjunctive (mugiat) is the regular Latin construction after verbs of fearing, and this ne means “that, lest,” not “not”: fear-clauses invert the sense a beginner expects. verba intermissa are the words broken off when she was changed, earlier in the tale — her speech resumes exactly where it stopped, and the episode ends on a woman timidly testing her own voice.",
+   "v": true,
+   "ln": 744
+  }
+ ],
+ "glossaryFile": "metamorphoses-glossary.json"
+}

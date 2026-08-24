@@ -1,0 +1,455 @@
+{
+ "id": "ovid-met-013",
+ "sourceId": "ovid-met-013",
+ "title": "Callisto",
+ "titleEn": "Callisto — Metamorphoses II.401–530",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 fb3fdb1d8a4a3b82. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
+ "about": "Jupiter, going round heaven to see what the fire has loosened, restores the springs and rivers of his own Arcadia — and there catches sight of a girl who hunts for Diana and has no use for wool or hairdressing. He comes to her wearing Diana's own face, and what follows costs her the goddess's company, her human shape, and any name at all: the poem names her only by where and by whom she comes from — Nonacris, Parrhasia, the house of Lycaon. Watch one word, crimen, travel from the act to the guilt to the naked body that proves it. The end of the part belongs to Juno, who goes down to the sea to ask that the new constellation be kept out of the water.",
+ "advisory": {
+  "lede": "This part contains a rape: Jupiter, in Diana's shape, overpowers a girl who has just greeted him as her goddess.",
+  "more": "Ovid gives the assault itself about three lines, breaking his own sentence open in the middle of it to address Juno directly. He says the girl fought, and says in the same breath that no girl could have won. Everything after it — her silence among the nymphs, her stripping and expulsion by Diana, Juno's insults, her transformation into a bear, her son's spear at her chest — follows from something done to her, and the poem lets the reader see the whole arithmetic. The text is presented unaltered. Juno's words for her, paelex and adultera, are translated at the contempt they carry, because they are Juno's assessment and not the poem's."
+ },
+ "sentences": [
+  {
+   "t": "At pater omnipotens ingentia moenia caeli\ncircuit et ne quid labefactum viribus ignis\ncorruat explorat.",
+   "l": "But the all-powerful father goes round the huge walls of heaven and examines them, lest anything weakened by the forces of the fire collapse.",
+   "i": "But the almighty father makes the circuit of heaven's vast walls and searches them, in case anything loosened by the fire's violence should fall in.",
+   "n": "The part opens in the wreckage of the world-fire that has just ended: the walls of the sky have been scorched and Jupiter is checking them for structural damage, like a landlord after a blaze. 'Explorat' governs the fear-clause 'ne quid ... corruat', which is why English wants 'checks that nothing falls' where the Latin says 'examines lest anything fall'. 'Omnipotens' is not a formula here — it is the first word of the tale about the girl, and it returns at line 505.",
+   "v": true,
+   "ln": 401
+  },
+  {
+   "t": "Quae postquam firma suique\nroboris esse videt terras hominumque labores\nperspicit.",
+   "l": "And when he sees that these are sound and of their own strength, he looks over the lands and the labours of men.",
+   "i": "And once he sees them firm, holding their own strength again, he turns to survey the lands and the works of men.",
+   "n": "'Quae' is a connecting relative — a relative pronoun opening a new sentence, which English renders 'and these', not 'which'. You will meet it constantly in Ovid. 'Sui roboris esse' is a genitive of quality, 'to be of their own strength', that is, restored to what they were. Notice that the survey moves outward and downward, sky first, then lands, then men, and stops in Arcadia.",
+   "v": true,
+   "ln": 403
+  },
+  {
+   "t": "Arcadiae tamen est impensior illi\ncura suae: fontes et nondum audentia labi\nflumina restituit dat terrae gramina, frondes\narboribus, laesasque iubet revirescere silvas.",
+   "l": "Yet more lavish for him is the care of his own Arcadia: he restores the springs and the rivers that do not yet dare to glide, gives grasses to the earth, leaves to the trees, and orders the injured woods to grow green again.",
+   "i": "Yet the care of his own Arcadia weighs heavier with him: he brings back the springs, and the rivers that do not yet dare to run, gives grass to the earth and leaves to the trees, and bids the scorched woods put out green again.",
+   "n": "'Illi' is a dative of reference, the person for whom the care exists — Latin says 'the care is more lavish for him' where English says 'he cares more'. 'Suae' quietly claims the region: Arcadia is his. 'Nondum audentia labi', 'not yet daring to glide', gives the rivers a nerve of their own, and the personification is doing real work — everything in this landscape is still frightened.",
+   "v": true,
+   "ln": 405
+  },
+  {
+   "t": "Dum redit itque frequens, In virgine Nonacrina\nhaesit et accepti caluere sub ossibus ignes.",
+   "l": "While he goes back and forth, again and again, he stuck fast on a Nonacrian maiden, and the fires he had taken in grew hot beneath his bones.",
+   "i": "As he came and went, and came again, he caught on a girl of Nonacris, and the fire he had taken glowed hot under his bones.",
+   "n": "'Caluere' is the poetic third-person plural perfect in -ere for -erunt; it is everywhere in this poem and always means the same as the longer form. 'Haesit' is the ordinary verb for sticking fast, used of the eye and the attention, and it lands with a thud after all that busy repairing. Nonacris is a town and mountain in Arcadia: the girl is identified by her ground, and in the whole of this part she is never given a name.",
+   "v": true,
+   "ln": 409
+  },
+  {
+   "t": "Non erat huius opus lanam mollire trahendo\nnec positu variare comas;",
+   "l": "Hers was not the work of softening wool by drawing it out, nor of varying her hair by its arrangement.",
+   "i": "It was no work of hers to soften wool by spinning it, nor to give her hair changing styles.",
+   "n": "'Huius' is a genitive of possession leaning on 'opus': 'the task of this woman'. Spinning and hairdressing are precisely the two occupations by which a Roman would recognise a respectable woman indoors, so the two negatives place her outside that life before she is described at all. 'Trahendo' is a gerund in the ablative of means — the drawing out of the fibre that is the physical act of spinning.",
+   "v": true,
+   "ln": 411
+  },
+  {
+   "t": "ubi fibula vestem,\nvitta coercuerat neglectos alba capillos,\net modo leve manu iaculum, modo sumpserat arcum,\nmiles erat Phoebes:",
+   "l": "When a clasp had held her dress in place, a white ribbon her uncombed hair, and she had taken up now a light javelin in her hand, now a bow, she was a soldier of Phoebe.",
+   "i": "With a clasp to hold her dress and a white band her careless hair, and a light javelin taken up in her hand one day, a bow the next, she was Phoebe's soldier.",
+   "n": "The verb 'coercuerat' has to serve both the clasp and the ribbon; Latin lends a single verb to two subjects far more freely than English does. 'Neglectos alba capillos' is interlocked word order, the two adjectives and their nouns woven through each other, which is normal in hexameter and untranslatable as such. 'Miles' is a masculine noun and Ovid applies it to her without apology. Phoebe is Diana, the first of five names this part will use for the same goddess.",
+   "v": true,
+   "ln": 412
+  },
+  {
+   "t": "nec Maenalon attigit ulla\ngratior hac Triviae. Sed nulla potentia longa est.",
+   "l": "And no girl more pleasing to Trivia than she ever touched Maenalus. But no power is long.",
+   "i": "And no girl dearer to Trivia than she ever set foot on Maenalus. But no favour lasts long.",
+   "n": "'Hac' is an ablative of comparison after 'gratior' — 'more pleasing than she'. Maenalon keeps its Greek accusative ending, as Greek proper names often do in Latin verse; it is an Arcadian mountain. Trivia, 'she of the three ways', is Diana at the crossroads: a second name for the goddess two lines after Phoebe. The closing half-line is a sententia dropped like a stone, and the 'potentia' in question is the girl's standing as favourite, not any power she wields.",
+   "v": true,
+   "ln": 415
+  },
+  {
+   "t": "Ulterius medio spatium sol altus habebat,\ncum subit illa nemus, quod nulla ceciderat aetas.",
+   "l": "The high sun was holding a space beyond the middle, when she enters a grove which no age had cut.",
+   "i": "The sun stood high, past the mid-point of his course, when she came into a grove that no age had ever felled.",
+   "n": "This is inverted 'cum': the temporal clause carries the real event and the main clause only sets the hour. 'Subit' is a present tense in a past narrative — the historic present, which Ovid slips in and out of to quicken a scene, and it quickens here. 'Quod nulla ceciderat aetas' means the grove has never been logged; an untouched wood is a place where a god may be met, and Ovid is telling you the temperature of the place before anything happens in it.",
+   "p": true,
+   "v": true,
+   "ln": 417
+  },
+  {
+   "t": "Exuit hic umero pharetram lentosque retendit\narcus, inque solo, quod texerat herba, iacebat\net pictam posita pharetram cervice premebat.",
+   "l": "Here she stripped the quiver from her shoulder and unstrung her supple bow, and she was lying on the ground which the grass had covered, and was pressing the painted quiver with her neck laid on it.",
+   "i": "Here she slipped the quiver off her shoulder and unbent her springy bow, and lay on ground the grass had covered, her head pillowed on the painted quiver.",
+   "n": "'Posita cervice' is an ablative absolute — a noun and participle standing free of the sentence's grammar, 'with her neck laid down', where English wants a clause or a phrase like 'her head pillowed'. Watch the tenses turn over: 'exuit' and 'retendit' are perfects, quick and done, then 'iacebat' and 'premebat' are imperfects that spread out and settle. The narrative slows to a stop exactly where Jupiter arrives. 'Retendit' is what you do to a bow to rest it — slacken the string.",
+   "v": true,
+   "ln": 419
+  },
+  {
+   "t": "Iuppiter ut vidit fessam et custode vacantem,\n“hoc certe furtum coniunx mea nesciet” inquit,\n“aut si rescierit sunt o sunt iurgia tanti.”",
+   "l": "When Jupiter saw her tired and empty of a guardian, 'this theft at least my wife will not know of,' he said, 'or if she does find out — they are, oh, they are worth so much, her quarrels.'",
+   "i": "When Jupiter saw her weary and unguarded: 'This bit of thieving my wife will certainly never learn of,' he said, 'and if she does find out — the scolding is worth it, oh, it is worth it.'",
+   "n": "'Custode vacantem' is an ablative of separation: empty of, unattended by. 'Furtum' is theft, and it is his own word for what he is about to do — a piece of self-flattering slang that makes a rape into pilfering. 'Iurgia tanti' is a genitive of value, 'the quarrels are of so great a price', hence 'worth it'. The stammered repetition, 'sunt o sunt', is the sound of a god talking himself over the edge.",
+   "v": true,
+   "ln": 422
+  },
+  {
+   "t": "Protinus induitur faciem cultumque Dianae\natque ait: “O comitum, virgo, pars una mearum,\nin quibus es venata iugis?”",
+   "l": "At once he clothes himself in the face and dress of Diana, and says: 'O maiden, one part of my companions, on what ridges have you been hunting?'",
+   "i": "At once he puts on Diana's face and Diana's habit, and says: 'Maiden — one of my own company — on what ridges have you been hunting?'",
+   "n": "'Induitur faciem' is the construction Greek gave to Latin poetry: a passive verb used reflexively with an accusative of respect, 'he is clothed as to his face'. You will meet it again in veiled and girded and wounded women all through the poem. The disguise he chooses is the one person she would follow anywhere; 'pars una comitum mearum' is the flattery that does the work.",
+   "v": true,
+   "ln": 425
+  },
+  {
+   "t": "De caespite virgo\nse levat et “salve numen, me indice”, dixit\n“audiat ipse licet maius Iove.”",
+   "l": "The maiden lifts herself from the turf and said, 'Hail, divinity greater than Jove, with me as declarer — though he himself may hear it.'",
+   "i": "The girl raises herself from the turf: 'Hail, goddess — greater than Jove, on my word — even though he himself should hear me.'",
+   "n": "'Maius' is neuter because 'numen' is neuter: it is the godhead, not the goddess, that is being called greater. 'Me indice' is an ablative absolute, 'with me as the one who declares it'; Magnus prints 'indice', where some editions print 'iudice', 'with me as judge'. 'Licet' with the subjunctive 'audiat' is concessive: 'though he himself hear'. He is hearing. Ovid lets her say the one thing that will most delight the god standing in front of her.",
+   "v": true,
+   "ln": 427
+  },
+  {
+   "t": "Ridet et audit,\net sibi praeferri se gaudet et oscula iungit\nnec moderata satis nec sic a virgine danda.",
+   "l": "He laughs and hears, and rejoices that he is preferred to himself, and joins kisses on her, neither moderate enough nor such as ought to be given by a maiden.",
+   "i": "He laughs, and listens, and is delighted to be preferred to himself, and fastens kisses on her, not restrained enough, and not the kind a girl would give.",
+   "n": "'Sibi praeferri se' is the joke of the disguise turned into grammar: Jupiter-as-Diana is being ranked above Jupiter, and both pronouns are him. 'A virgine danda' is a gerundive of obligation with the agent in the ablative — kisses 'to be given by a maiden'. The kisses are the first thing that does not fit the costume, and she does not read them.",
+   "v": true,
+   "ln": 429
+  },
+  {
+   "t": "Qua venata foret silva, narrare parantem\nimpedit amplexu, nec se sine crimine prodit.",
+   "l": "As she was making ready to tell in what wood she had been hunting, he blocks her with an embrace, and does not reveal himself without a crime.",
+   "i": "She was setting out to answer, to say in what wood she had hunted; he stops her with an embrace, and gives himself away only by an outrage.",
+   "n": "'Qua ... silva' is an indirect question with the subjunctive 'foret', and the noun is thrown to the far end of its own clause. The last clause is a litotes — a negative standing in for a positive — and it is where the whole tale turns: the way he drops the disguise is itself the crime. 'Crimen' is the charge, the offence, the thing one can be accused of; hold on to the word, because it comes back at 447 and again at 462 meaning something different each time.",
+   "v": true,
+   "ln": 432
+  },
+  {
+   "t": "Illa quidem contra, quantum modo femina possit\n(adspiceres utinam, Saturnia: mitior esses !),\nilla quidem pugnat:",
+   "l": "She indeed, against him, as much as only a woman can — would that you were looking on, Saturnia: you would be gentler! — she indeed fights.",
+   "i": "She fought back, indeed, as far as a woman only can — if only you were watching, Saturnia; you would be the kinder for it — she fought, indeed.",
+   "n": "This is apostrophe: Ovid turns aside from the story to speak directly to Juno, whom he calls Saturnia, Saturn's daughter, and who is not present and will not hear. The interruption physically splits the sentence, so that 'illa quidem' has to begin over again on the far side of it. 'Adspiceres utinam ... esses' is an unreal wish with imperfect subjunctives, of a thing that is not so. 'Quantum modo femina possit' is the pathos in four words: she can do exactly what a woman can do against a god.",
+   "v": true,
+   "ln": 434
+  },
+  {
+   "t": "sed quem superare puella,\nquisve Iovem poterat? —",
+   "l": "But whom could a girl overcome, or who could overcome Jove?",
+   "n": "One verb, 'poterat', serves both halves of the question, and the two halves are chiastic — girl and object, subject and Jove — so that the word order itself closes around her. The question is not consolation and not rhetoric for its own sake: it is the arithmetic of the scene stated once, plainly, and then dropped.",
+   "v": true,
+   "ln": 436
+  },
+  {
+   "t": "Superum petit aethera victor\nIuppiter: huic odio nemus est et conscia silva.",
+   "l": "The conqueror Jupiter seeks the upper air; to her the grove is for a hatred, and the wood that knows.",
+   "i": "Jupiter the victor makes for the high air above; to her the grove is hateful now, and the wood that saw it.",
+   "n": "'Victor' sits at the end of the line, the last word before his name arrives at the start of the next — the vocabulary of a battlefield, given to a god leaving a girl in a wood. 'Huic odio ... est' is the double dative: a dative of the person concerned with a predicative dative of purpose, literally 'is for a hatred to her'. 'Conscia' means knowing-along-with, the word for an accomplice as much as a witness, and Ovid gives it to the trees.",
+   "v": true,
+   "ln": 437
+  },
+  {
+   "t": "Unde pedem referens paene est oblita pharetram\ntollere cum telis et quem suspenderat arcum.",
+   "l": "Carrying her foot back from that place she almost forgot to take up the quiver with its arrows, and the bow which she had hung there.",
+   "i": "Turning back from that place she all but forgot to pick up the quiver and the arrows in it, and the bow she had hung up.",
+   "n": "'Pedem referens' is the ordinary idiom for retreating or turning back — literally carrying the foot back. 'Quem suspenderat arcum' pulls the antecedent inside its own relative clause, which is unremarkable Latin and impossible English. The detail is the point: the weapons she laid down at line 419 in her own character are the things she nearly leaves behind.",
+   "v": true,
+   "ln": 439
+  },
+  {
+   "t": "Ecce, suo comitata choro Dictynna per altum\nMaenalon ingrediens et caede superba ferarum\nadspicit hanc visamque vocat:",
+   "l": "Look — Dictynna, attended by her own troop, walking over high Maenalus and proud with the slaughter of wild beasts, catches sight of her, and having seen her, calls her.",
+   "i": "See now: Dictynna, her band about her, striding over high Maenalus and glorying in her kill, catches sight of her and calls.",
+   "n": "Dictynna, from the Cretan huntress-goddess of the nets, is the fourth name in this part for Diana, after Phoebe, Trivia and Diana herself; Ovid rotates them for the metre and for the pleasure of it. 'Comitata' is the perfect participle of a deponent verb: such participles are normally active in sense, 'having accompanied', but poets use this one passively, and here it is 'accompanied by her own troop'. 'Visam ... vocat' is participle where English wants a verb: sees her, and calls.",
+   "p": true,
+   "v": true,
+   "ln": 441
+  },
+  {
+   "t": "clamata refugit,\net timuit primo, ne Iuppiter esset in illa.",
+   "l": "Called, she fled back, and feared at first that Jupiter might be in her.",
+   "i": "Called, she shrank away, afraid at first that Jupiter was inside that shape.",
+   "n": "'Ne ... esset' is a fear clause, where 'ne' means 'that', not 'that not' — the logic runs from an original wish that the thing should not happen. Everything the disguise did is in this line: from now on any goddess might be him. Ovid does not explain it and does not need to.",
+   "v": true,
+   "ln": 443
+  },
+  {
+   "t": "Sed postquam pariter nymphas incedere vidit,\nsensit abesse dolos numerumque accessit ad harum.",
+   "l": "But after she saw the nymphs walking along beside, she felt that there was no trickery, and joined herself to the number of these.",
+   "i": "But when she saw the nymphs walking alongside her, she knew there was no trap, and came up to join their number.",
+   "n": "'Sensit abesse dolos' is indirect statement: an accusative subject with an infinitive, 'felt the tricks to be absent'. 'Numerum ... ad harum' tucks the preposition between the noun and its genitive, a displacement hexameter permits and prose would not. The proof she reasons from is sound and useless: Jupiter came alone.",
+   "v": true,
+   "ln": 445
+  },
+  {
+   "t": "Heu quam difficile est crimen non prodere vultu!",
+   "l": "Alas, how hard it is not to betray a crime by the face!",
+   "i": "How hard it is, alas, not to let the face give the guilt away!",
+   "n": "The poet steps out of the story to generalise, and the line is built to be quoted on its own. 'Vultu' is a plain ablative of means, by means of the face. Note what the Latin cannot do: 'crimen' is at once the deed, the accusation and the guilt, so it does not have to decide whose crime this is — and the reader, who has watched, knows it was not hers.",
+   "v": true,
+   "ln": 447
+  },
+  {
+   "t": "Vix oculos attollit humo, nec, ut ante solebat,\niuncta deae lateri, nec toto est agmine prima,\nsed silet et laesi dat signa rubore pudoris;",
+   "l": "Scarcely does she lift her eyes from the ground, nor is she, as before she used to be, joined to the goddess's side, nor is she first in the whole column, but she is silent and gives signs of an injured modesty by her blush.",
+   "i": "She barely lifts her eyes from the ground; she is not at the goddess's side as she used to be, nor first in the whole column, but silent — and her blush gives the sign of a modesty wounded.",
+   "n": "'Humo' is an ablative of separation with no preposition, 'from the ground'. 'Iuncta deae lateri' takes the dative after 'iuncta', joined to the side of. The verse demotes her position by position — off the goddess's flank, out of the front of the line — and the participle 'laesi' carries the whole event in one word: her modesty was injured, not surrendered.",
+   "v": true,
+   "ln": 448
+  },
+  {
+   "t": "et nisi quod virgo est poterat sentire Diana\nmille notis culpam; nymphae sensisse feruntur.",
+   "l": "And but for the fact that she is a virgin, Diana could have perceived the fault by a thousand signs; the nymphs are said to have perceived it.",
+   "i": "And had she not been a virgin, Diana could have read the fault from a thousand signs; the nymphs, they say, did read it.",
+   "n": "'Nisi quod' is 'except for the fact that'. The logic is cruel and exact: Diana's own chastity is what keeps her from recognising what she is looking at. 'Poterat sentire' stands in the indicative where English wants 'could have' — Latin regularly leaves verbs of possibility indicative in an unreal clause. 'Feruntur' with an infinitive is 'are said to', Ovid marking a detail as tradition rather than vouching for it himself.",
+   "v": true,
+   "ln": 451
+  },
+  {
+   "t": "Orbe resurgebant lunaria cornua nono,\ncum dea venatu, fraternis languida flammis,\nnacta nemus gelidum, de quo cum murmure labens\nibat et attritas versabat rivus harenas.",
+   "l": "The moon's horns were rising again in a ninth orb, when the goddess, weary from the hunt and from her brother's flames, had come upon a cool grove, out of which a brook was going, gliding with a murmur, and turning the worn sands over.",
+   "i": "The moon's horns were rising for the ninth time when the goddess, weary from the hunt and from her brother's fires, came upon a cool grove, out of which a stream slid away murmuring, rolling the smoothed sand over as it went.",
+   "n": "Nine returns of the crescent do the announcing that the poem never does directly: the girl is nine months pregnant. 'Fraternis flammis' is the sun's heat, Phoebus being Diana's brother — a periphrasis that says 'noon' and reminds you the family is everywhere in this story. 'Nacta' is deponent, active in sense, and its 'est' is left to be understood, which is why the long 'cum' clause seems to have no verb. Magnus prints 'dea' in the first line and 'de' in the third; some editions swap them.",
+   "v": true,
+   "ln": 453
+  },
+  {
+   "t": "Ut loca laudavit, summas pede contigit undas:\nhis quoque laudatis “procul est” ait “arbiter omnis;\nnuda superfusis tingamus corpora lymphis.”",
+   "l": "When she had praised the place, she touched the top of the waters with her foot: these too having been praised, 'every onlooker,' she says, 'is far off; let us dip our naked bodies in the poured-over waters.'",
+   "i": "Having praised the spot she touched the surface of the water with her foot, and praising that too: 'Every witness is far away,' she says. 'Let us wet our bodies bare with the water poured over them.'",
+   "n": "'His quoque laudatis' is another ablative absolute, and here 'quoque' really is the adverb 'also' — worth checking each time, because the same four letters can be 'quo-que', 'and by which', from the relative pronoun. 'Arbiter' is the one who comes to see and then judges; Diana's whole anxiety fits in that noun. 'Tingamus' is a hortatory subjunctive, 'let us dip'.",
+   "v": true,
+   "ln": 457
+  },
+  {
+   "t": "Parrhasis erubuit. Cunctae velamina ponunt:\nuna moras quaerit.",
+   "l": "The Parrhasian girl blushed. All lay their coverings aside: one seeks delays.",
+   "i": "The girl of Parrhasia blushed. All the others put their clothes off; one looks for reasons to wait.",
+   "n": "Parrhasia is another district of Arcadia, and 'Parrhasis' another way of naming her by her ground rather than by her name, which the poem still withholds. The whole sentence is one contrast held in two words, 'cunctae' against 'una', with nothing between them but a colon. 'Moras quaerit' — she hunts for delays, the only hunting left to her.",
+   "v": true,
+   "ln": 460
+  },
+  {
+   "t": "Dubitanti vestis adempta est;\nqua posita nudo patuit cum corpore crimen.",
+   "l": "From her as she hesitated the dress was taken away; and it laid aside, the crime lay open along with her naked body.",
+   "i": "As she hesitated the dress was stripped from her, and once it was off, her guilt lay open along with her naked body.",
+   "n": "'Dubitanti' is a dative of separation with 'adempta est' — Latin takes a thing away 'to' a person. 'Qua posita' is an ablative absolute headed by a connecting relative, 'and this having been laid aside'. And 'crimen' arrives for the third time, having been the act at 433 and the guilt at 447: here it is simply the swollen body, visible, and the word has become a thing you can see.",
+   "v": true,
+   "ln": 461
+  },
+  {
+   "t": "Attonitae manibusque uterum celare volenti\n“i procul hinc” dixit “nec sacros pollue fontes”\nCynthia; deque suo iussit secedere coetu.",
+   "l": "To her, thunderstruck and wanting to hide her womb with her hands, 'go far from here,' said Cynthia, 'and do not defile the sacred springs'; and she ordered her to withdraw from her own company.",
+   "i": "To the stunned girl, trying to cover her belly with her hands, Cynthia said: 'Go, get away from here, and do not foul the sacred springs' — and ordered her out of her company.",
+   "n": "The two datives, 'attonitae' and 'volenti', hang unattached for a line and a half until 'dixit' finally arrives to govern them; the delay is the shock. Cynthia, from Mount Cynthus on Delos where Diana was born, is the fifth name for the goddess in this part. 'Nec pollue' is a negative command with the plain imperative, an old and elevated form beside prose's 'noli polluere'. She is expelled for a thing that was done to her.",
+   "v": true,
+   "ln": 463
+  },
+  {
+   "t": "Senserat hoc olim magni matrona Tonantis\ndistuleratque graves in idonea tempora poenas.",
+   "l": "The wife of the great Thunderer had perceived this long since, and had put off heavy punishments to a fitting time.",
+   "i": "The great Thunderer's wife had known of this long since, and had held her heavy punishment back for a suitable hour.",
+   "n": "Two pluperfects open the paragraph and reach back behind everything you have just read: Juno knew the whole time. 'Matrona' is the exact word for a lawful married woman of standing, and Ovid sets it here deliberately, three lines before the word Juno will use for the girl. 'Tonans', 'Thundering', is used as a title on its own, the way 'the Almighty' is.",
+   "p": true,
+   "v": true,
+   "ln": 466
+  },
+  {
+   "t": "Causa morae nulla est, et iam puer Arcas (id ipsum\nindoluit Iuno) fuerat de paelice natus.",
+   "l": "There is no cause for delay now, and already the boy Arcas — this very thing Juno grieved at — had been born of the mistress.",
+   "i": "Now there is nothing left to wait for: the boy Arcas had already been born of the mistress — and it was that very fact that galled Juno.",
+   "n": "'Paelex' is a married man's kept woman — the other woman, said with contempt. It is Juno's word, arriving in the narration because for one line the narration is looking through her eyes; the English keeps her word rather than neutralising it into 'rival', and stops short of a charge of promiscuity the Latin does not make. What the word conceals is what the reader watched happen at 433: the girl chose nothing. 'Id ipsum indoluit' is an accusative of respect with the verb — she grieved at this very thing, the birth itself, not the act. The present 'est' in a past narrative speeds the line up.",
+   "v": true,
+   "ln": 468
+  },
+  {
+   "t": "Quo simul obvertit saevam cum lumine mentem,\n“scilicet hoc etiam restabat, adultera” dixit,",
+   "l": "As soon as she turned her savage mind that way, and her eye with it, 'so this too was still left over, adulteress,' she said,",
+   "i": "The moment she turned her cruel mind that way, and her eye with it: 'So this was still to come, adulteress,' she said,",
+   "n": "'Quo' is a connecting relative used adverbially, 'and to that' — to the newborn, or to the whole fact of the birth; Ovid does not say which, and a moment later she is speaking to the mother. 'Saevam cum lumine mentem' yokes mind and eye into one movement, so that the look and the intention arrive as a single act. 'Scilicet' is heavily sarcastic, 'of course, naturally'. And 'adultera' is Juno's second insult in four lines: a word that charges the girl with a crime committed upon her.",
+   "v": true,
+   "ln": 470
+  },
+  {
+   "t": "“ut fecunda fores, fieretque iniuria partu\nnota, Iovisque mei testatum dedecus esset.",
+   "l": "'that you should be fruitful, and that the injury should be made known by a birth, and that the disgrace of my Jove should be attested.'",
+   "i": "'that you should breed, and the wrong be published by a birth, and my Jove's shame be put on record.'",
+   "n": "Three clauses of result hanging from 'restabat' in the line before: 'it was still left that ...'. 'Iniuria' is the injury — Juno's injury, in her telling, so the very word for what was done to the girl is turned over to describe what was done to the wife. 'Testatum' and 'nota' both come from the language of witnesses and public proof; Juno's grievance is about the record.",
+   "v": true,
+   "ln": 472
+  },
+  {
+   "t": "Haud impune feres: adimam tibi nempe figuram,\nqua tibi, quaque places nostro, importuna, marito.”",
+   "l": "'You will not carry this off unpunished: I shall take from you, to be sure, that shape by which you please yourself, and by which you please our husband, you nuisance.'",
+   "i": "'You will not get away with it. I shall take from you that shape of yours by which you please yourself — and please our husband, you pest.'",
+   "n": "'Haud impune feres' is a stock threat, literally 'you will not bear it off unpunished'. The doubled relative, 'qua tibi, quaque places', accuses her of vanity as well as of Jupiter: she pleases herself first. But the phrase that carries the wound is 'nostro marito' — 'our husband', not 'mine', the word Juno reaches for when she is at her most furious. 'Importuna' is thrown in as a vocative between the adjective and its noun.",
+   "v": true,
+   "ln": 474
+  },
+  {
+   "t": "Dixit et adversa prensis a fronte capillis\nstravit humi pronam.",
+   "l": "She spoke, and having seized her hair from the front, facing her, laid her flat on the ground, face down.",
+   "i": "She spoke, and catching her by the hair at the front of her head, threw her down flat on her face.",
+   "n": "'Prensis capillis' is one more ablative absolute, and the pile of them in this passage is what gives it its clipped, procedural speed. 'Humi' is a locative, 'on the ground', a survival of an old case that Latin keeps for a handful of nouns. What begins here is a divine punishment, and Ovid stages the opening of it as a street brawl: hair, ground, face down.",
+   "p": true,
+   "v": true,
+   "ln": 476
+  },
+  {
+   "t": "Tendebat bracchia supplex:\nbracchia coeperunt nigris horrescere villis\ncurvarique manus et aduncos crescere in ungues\nofficioque pedum fungi, laudataque quondam\nora Iovi lato fieri deformia rictu.",
+   "l": "She was stretching out her arms in supplication: the arms began to bristle with black shaggy hair, and the hands to curve and to grow into hooked claws and to perform the office of feet, and the mouth once praised by Jove to become misshapen with a wide gape.",
+   "i": "She stretched out her arms in supplication — and the arms began to bristle with coarse black hair, the hands to curve and lengthen into hooked claws and take on the work of feet, and the face Jove once praised to turn hideous with a wide-gaping jaw.",
+   "n": "The whole transformation is told in infinitives depending on one verb, 'coeperunt': nothing acts, everything merely begins to happen to her. 'Bracchia' ends one line and opens the next, the same word arriving human and leaving animal. 'Officio ... fungi' takes the ablative, as that verb always does. 'Laudata quondam Iovi ora' has the dative of the agent with a participle — praised by Jove, which is precisely why she is losing them.",
+   "v": true,
+   "ln": 477
+  },
+  {
+   "t": "Neve preces animos et verba precantia flectant\nposse loqui eripitur; vox iracunda minaxque\nplenaque terroris rauco de gutture fertur.",
+   "l": "And lest prayers and praying words should bend anyone's mind, the power to speak is snatched from her; a voice angry and threatening and full of terror is carried out from her hoarse throat.",
+   "i": "And so that no prayer, no pleading word, should soften anyone, the power of speech is taken from her: what comes out of her hoarse throat is a voice angry, threatening, full of terror.",
+   "n": "'Posse loqui' is an infinitive used as a noun and made the subject of a passive verb: 'the being-able-to-speak is snatched away'. 'Neve ... flectant' is a negative purpose clause, and the purpose is Juno's, slipped into the narration without her name attached. 'Plena terroris' can be the terror the voice puts into others or the terror inside it, and the Latin does not have to choose.",
+   "v": true,
+   "ln": 482
+  },
+  {
+   "t": "Mens antiqua tamen facta quoque mansit in ursa,\nadsiduoque suos gemitu testata dolores\nqualescumque manus ad caelum et sidera tollit\ningratumque Iovem, nequeat cum dicere, sentit.",
+   "l": "Her old mind, however, remained even in the bear she had been made, and, having borne witness to her griefs with unceasing groaning, she lifts such hands as she has to the sky and the stars, and feels Jove ungrateful, though she cannot say so.",
+   "i": "Her old mind stayed with her, bear though she had been made, and, bearing witness to her sorrows with unending groans, she lifts such hands as she has towards the sky and the stars, and knows Jove ungrateful, though she cannot say it.",
+   "n": "Here 'quoque' is the adverb, 'even', with 'facta ... in ursa': even in the bear she had become. 'Qualescumque manus' is the poem flinching — 'hands of whatever kind', because Ovid will not write 'paws'. 'Nequeat cum dicere' is a concessive 'cum' with the subjunctive, buried inside the clause it qualifies. The retained human mind is the standing horror of metamorphosis in this poem: the shape changes and the person does not.",
+   "v": true,
+   "ln": 485
+  },
+  {
+   "t": "A quotiens, sola non ausa quiescere silva,\nante domum quondamque suis erravit in agris!",
+   "l": "Ah, how often, not daring to rest in the lonely wood, did she wander in front of her house and in fields once her own!",
+   "i": "Ah, how often, not daring to rest in the empty wood, she wandered in front of her own house, through fields that had once been hers!",
+   "n": "Another turn out of the narrative into direct exclamation, and it is about to be repeated word for word at the head of the next sentence — anaphora, the same opening used twice to press the reader. 'Ausa' is a deponent participle, active in meaning despite its passive shape. The single adverb 'quondam', 'once', does the work of a whole sentence about dispossession.",
+   "v": true,
+   "ln": 489
+  },
+  {
+   "t": "A quotiens per saxa canum latratibus acta est\nvenatrixque metu venantum territa fugit!",
+   "l": "Ah, how often was she driven over the rocks by the barking of dogs, and, a huntress, fled terrified by fear of hunters!",
+   "i": "Ah, how often was she driven across the rocks by the baying of hounds — the huntress, fleeing in terror of hunters!",
+   "n": "'Venatrix' and 'venantum' are set within four words of each other so that the reader cannot miss the reversal: the huntress is now the quarry, and Latin can put the two forms of the one verb side by side in a way English has to work at. Compare line 415, where she was Phoebe's soldier. 'Latratibus acta est' is a plain ablative of means with a passive verb — she has become the thing that gets acted upon.",
+   "v": true,
+   "ln": 491
+  },
+  {
+   "t": "Saepe feris latuit visis, oblita quid esset,\nursaque conspectos in montibus horruit ursos\npertimuitque lupos, quamvis pater esset in illis.",
+   "l": "Often she hid when wild beasts had been sighted, forgetting what she was, and, a bear, she shuddered at bears caught sight of in the mountains, and was in terror of wolves, although her father was among them.",
+   "i": "Often she hid at the sight of wild beasts, forgetting what she now was; a bear, she shuddered at bears sighted in the mountains, and went in terror of wolves — although her own father was one of them.",
+   "n": "'Feris ... visis' is an ablative absolute, 'wild beasts having been seen'. The last clause assumes a story told in Book I: Lycaon, an Arcadian king, was turned into a wolf by Jupiter for serving him human flesh — and this line says plainly that he is her father, which is why Juno can offer Jupiter 'Lycaon for a father-in-law' at 526. Ovid drops the fact in as an aside and does not explain it, and the joke is about as bleak as he gets.",
+   "v": true,
+   "ln": 493
+  },
+  {
+   "t": "Ecce, Lycaoniae proles, ignara parentis,\nArcas adest, ter quinque fere natalibus actis:",
+   "l": "Look — the offspring of the Lycaonian woman, knowing nothing of his parent, Arcas is at hand, with about thrice five birthdays gone by:",
+   "i": "See now: the child of the Lycaonian girl, knowing nothing of his mother, Arcas is here, some fifteen birthdays behind him.",
+   "n": "'Lycaoniae proles' is Arcas, the offspring of the Lycaonian woman — his mother, Lycaon's daughter — and 'ignara' is feminine because 'proles' is, though it describes a boy. 'Ignara parentis' takes the genitive after an adjective of knowing, and the entire coming scene is built on that one word. 'Ter quinque ... natalibus actis' is an ablative absolute, and Ovid counts in birthdays rather than years, softening the round number with 'fere', 'about'. 'Ecce' turns the reader's head, exactly as it did at 441.",
+   "p": true,
+   "v": true,
+   "ln": 496
+  },
+  {
+   "t": "dumque feras sequitur, dum saltus eligit aptos\nnexilibusque plagis silvas Erymanthidas ambit,\nincidit in matrem;",
+   "l": "and while he follows wild beasts, while he picks out suitable glades and rings the Erymanthian woods with knotted nets, he falls upon his mother.",
+   "i": "and while he is following game, choosing his glades, ringing the Erymanthian woods about with knotted nets, he blunders straight into his mother.",
+   "n": "'Dum' with the present indicative means 'while' even inside a past narrative, and the two 'dum' clauses hold the boy inside an ordinary working day right up to the collision. 'Incidit in' is a physical falling-upon: the accident is in the verb, not in any adverb. Erymanthus is another Arcadian mountain — every place in this tale is his mother's country.",
+   "v": true,
+   "ln": 498
+  },
+  {
+   "t": "quae restitit Arcade viso\net cognoscenti similis fuit.",
+   "l": "And she stood still when Arcas had been seen, and was like one recognising him.",
+   "i": "And she stopped at the sight of Arcas, and looked like someone who knew him.",
+   "n": "'Quae' is a connecting relative, 'and she'. 'Arcade viso' is an ablative absolute where English would rather have 'at the sight of Arcas'. 'Similis' takes the dative, here the participle 'cognoscenti'. Ovid will not say that she knew him — only that she looked like a creature that did — and the reserve is worse than certainty would be.",
+   "v": true,
+   "ln": 500
+  },
+  {
+   "t": "Ille refugit\ninmotosque oculos in se sine fine tenentem\nnescius extimuit propiusque accedere aventi\nvulnifico fuerat fixurus pectora telo.",
+   "l": "He shrank back, and, not knowing, took fright at her holding her unmoving eyes upon him without end, and, as she longed to come nearer, he was on the point of piercing her breast with a wounding weapon.",
+   "i": "He drew back; not knowing her, he took fright at the eyes she held on him, unmoving, endless; and as she longed to come closer he was about to drive a wounding shaft through her breast.",
+   "n": "'Nescius', one adjective, carries the tragedy: he is not cruel, he simply does not know. 'Fuerat fixurus' is a future participle with a past tense of 'esse' — Latin's neat way of saying that an action stood one instant from happening and did not happen. 'Accedere aventi' is a dative of the person affected, the participle standing where English wants 'as she was longing to'.",
+   "v": true,
+   "ln": 501
+  },
+  {
+   "t": "Arcuit omnipotens pariterque ipsosque nefasque\nsustulit, et celeri raptos per inania vento\nimposuit caelo vicinaque sidera fecit.",
+   "l": "The all-powerful one warded it off and took away at once both them and the sacrilege, and, once they had been snatched through the empty air by a swift wind, set them in the sky and made them neighbouring constellations.",
+   "i": "The Almighty held it off and lifted away at once both them and the sacrilege, and, snatching them through the void on a swift wind, set them in heaven and made them neighbouring stars.",
+   "n": "'Sustulit' does double duty on 'ipsos' and 'nefas': it lifts the pair bodily into the sky and abolishes the crime, in the same word — a zeugma that is the whole point of the sentence. 'Nefas' is what is not permitted even to be spoken, here the matricide that almost happened. 'Omnipotens' is the same title the part opened with, back when he was mending the walls of heaven. Magnus prints 'celeri', 'swift'; some editions print 'pariter', 'together'.",
+   "v": true,
+   "ln": 505
+  },
+  {
+   "t": "Intumuit Iuno, postquam inter sidera paelex\nfulsit et ad canam descendit in aequora Tethyn\nOceanumque senem, quorum reverentia movit\nsaepe deos, causamque viae scitantibus infit:",
+   "l": "Juno swelled up, after the mistress shone among the stars, and went down into the waters to white-haired Tethys and old Oceanus, reverence for whom has often moved the gods, and to them, as they asked the cause of her journey, she begins:",
+   "i": "Juno swelled with rage once the mistress was shining among the stars, and went down into the sea to white-haired Tethys and old Oceanus — reverence for whom has often moved the gods — and to them, as they asked the reason for her coming, she begins:",
+   "n": "'Paelex' for the second time; the narration is again speaking in Juno's register, and the translation keeps her word rather than tidying it away. 'Descendit' is a second main verb alongside 'intumuit', not part of the 'postquam' clause: it is Juno who goes down, not the new star. 'Canam Tethyn' has the Greek accusative ending that Latin verse keeps for Greek names. 'Quorum reverentia' is an objective genitive, the reverence felt for them, not the reverence they feel. 'Infit' is an old, ceremonious defective verb meaning 'begins to speak' — Ovid dresses her in full epic costume one word before she opens her mouth.",
+   "p": true,
+   "v": true,
+   "ln": 508
+  },
+  {
+   "t": "“Quaeritis, aetheriis quare regina deorum\nsedibus huc adsim? pro me tenet altera caelum.",
+   "l": "'You ask why I, the queen of the gods, am here away from the seats of the upper air? In place of me another woman holds the sky.'",
+   "i": "'You ask why the queen of the gods is here, out of her seat in the high air? Another woman holds heaven in my place.'",
+   "n": "'Aetheriis ... sedibus' is an ablative of separation, split from its own noun across the line end so that the two words sit at opposite corners of the sentence. 'Adsim' is subjunctive because the question is indirect, reported inside 'quaeritis'. And 'altera' is the plainest word available — 'the other woman' — with nothing decorative about it, which is why it stings.",
+   "p": true,
+   "v": true,
+   "ln": 512
+  },
+  {
+   "t": "Mentiar, obscurum nisi nox cum fecerit orbem,\nnuper honoratas summo, mea vulnera, caelo\nvideritis stellas illic, ubi circulus axem\nultimus extremum spatioque brevissimus ambit.",
+   "l": "'Let me be a liar, unless, when night has made the world dark, you see up there stars lately honoured in the highest sky — my wounds — there where the last circle, and the shortest in its compass, goes round the outermost pole.'",
+   "i": "'Call me a liar if, when night has darkened the world, you do not see up there stars newly honoured in the height of heaven — my wounds — just where the last circle, smallest in its sweep, runs round the very top of the axis.'",
+   "n": "'Mentiar' with 'nisi' is a challenge formula: may I be lying, unless — that is, you will see it, or call me a liar. 'Mea vulnera' stands in apposition to 'stellas': the constellation simply is her injury, no comparison required. The astronomy is precise and load-bearing: a circle drawn close to the celestial pole is small and never dips below the horizon, which is why the demand she is about to make can be made at all.",
+   "v": true,
+   "ln": 514
+  },
+  {
+   "t": "Est vero, cur quis Iunonem laedere nolit\noffensamque tremat, quae prosum sola nocendo?",
+   "l": "'Is there indeed reason why anyone should be unwilling to injure Juno and should tremble at her when she is offended — I, who alone do good by doing harm?'",
+   "i": "'Is there really any reason why a man should shrink from injuring Juno and go in fear of her anger — I, who alone do people good by hurting them?'",
+   "n": "'Prosum ... nocendo' is a gerund in the ablative of means, and the paradox is the whole line: her punishment made the girl a goddess. Magnus punctuates the sentence as a question and prints 'Est vero, cur quis'; some editions print 'et quisquam'. Either way it is sarcasm — nobody has any reason to fear her, since her harm keeps turning out well — and it is the most self-aware thing Juno says.",
+   "v": true,
+   "ln": 518
+  },
+  {
+   "t": "O ego quantum egi! quam vasta potentia nostra est!\nEsse hominem vetui: facta est dea. Sic ego poenas\nsontibus impono, sic est mea magna potestas.",
+   "l": "'Oh, what a thing I have done! how vast our power is! I forbade her to be human: she has been made a goddess. This is how I lay punishments on the guilty, this is how great my power is.'",
+   "i": "'Oh, what a thing I have achieved! How vast our power is! I forbade her to be human — and she is made a goddess. This is how I punish the guilty; this is the greatness of my power.'",
+   "n": "'Esse hominem vetui' — 'veto' with a bare infinitive: three words for an entire metamorphosis, and three more, 'facta est dea', for the result she did not want. The royal plural 'nostra' stands in the same line as the emphatic 'ego', and 'ego' comes again in the next: she is queen and injured wife in one breath and cannot choose. 'Sontibus' means the guilty, and the reader has just watched the girl be guilty of nothing at all.",
+   "v": true,
+   "ln": 520
+  },
+  {
+   "t": "Vindicet antiquam faciem vultusque ferinos\ndetrahat, Argolica quod in ante Phoronide fecit.",
+   "l": "'Let him claim her old shape back, and strip off the beast's features, as before he did in the case of the Argolic daughter of Phoroneus.'",
+   "i": "'Let him claim her old shape back for her, then, and strip the beast's face off her — as he did before with the Argive girl, Phoroneus' daughter.'",
+   "n": "Two jussive subjunctives, conceding bitterly the very thing she expects to happen. 'Phoronis' names a woman of Phoroneus' Argive line: she is Io, whom Jupiter turned into a heifer and afterwards restored, a story told in Book I of this poem. Juno allows her no name of her own, only the family she came from — and it is her second grievance of the same kind in one marriage.",
+   "v": true,
+   "ln": 523
+  },
+  {
+   "t": "Cur non et pulsa ducit Iunone meoque\ncollocat in thalamo socerumque Lycaona sumit?",
+   "l": "'Why does he not, with Juno driven out, marry her as well, and settle her in my own bedchamber, and take Lycaon for a father-in-law?'",
+   "i": "'Why not drive Juno out and marry the girl too, and set her up in my own bedchamber, and take Lycaon for a father-in-law?'",
+   "n": "'Pulsa Iunone' is an ablative absolute in which Juno speaks of herself in the third person, as an object to be evicted. 'Ducit' is the technical verb for a man taking a wife, from 'ducere uxorem', leading her home. The last stroke is the father-in-law: Lycaon, made a wolf for feeding Jupiter human flesh, whose line the girl comes from — so Juno's sarcasm circles back to the wolves of line 495.",
+   "v": true,
+   "ln": 525
+  },
+  {
+   "t": "At vos si laesae tangit contemptus alumnae,\ngurgite caeruleo septem prohibete triones\nsideraque in caelo, stupri mercede, recepta\npellite, ne puro tingatur in aequore paelex.”",
+   "l": "'But you, if the contempt shown to an injured foster-child touches you at all, keep the seven plough-oxen out of your blue-green flood, and drive off stars taken into the sky as the wages of a rape, so that no mistress may be dipped in your clean water.'",
+   "i": "'But you — if the insult to a wronged foster-child touches you at all — keep the seven Oxen out of your dark-blue depths, and drive off those stars taken up into heaven as the price of a rape, so that no mistress may bathe in your pure water.'",
+   "n": "'Septem triones' are the seven plough-oxen, the constellation English calls the Great Bear or the Plough; Juno describes it rather than name it, because naming it would mean saying what it is. 'Alumna', foster-child, is Juno herself: Tethys and Oceanus reared her, and that is the whole force of the appeal. 'Stupri mercede' is exact and appalling — 'stuprum' is the criminal word for the act, 'merces' is a wage, so she calls the girl's ruin a payment received. The tale ends on 'paelex', the word the narration has twice borrowed from Juno and now hears in her own mouth.",
+   "v": true,
+   "ln": 527
+  }
+ ],
+ "glossaryFile": "metamorphoses-glossary.json"
+}

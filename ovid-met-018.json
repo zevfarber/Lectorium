@@ -1,0 +1,547 @@
+{
+ "id": "ovid-met-018",
+ "sourceId": "ovid-met-018",
+ "title": "Cadmus",
+ "titleEn": "Cadmus — Metamorphoses III.1–137",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 fb3fdb1d8a4a3b82. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
+ "about": "Ordered by his father, on pain of exile, to find a girl a god has stolen, Cadmus gives up the search and asks Phoebus where he is to live. The oracle sends him after a cow: where she lies down, he is to build. His men are killed at the spring by the serpent guarding it; he kills the serpent, and a voice from nowhere tells him he too will be looked at, and a serpent. Pallas has him sow its teeth; armed men grow out of the furrows and destroy each other. Five survive to build Thebes, and the poem turns to tell Cadmus how happy he looks.",
+ "advisory": {
+  "lede": "The part opens on the aftermath of an abduction: a god in disguise has carried a girl overseas to rape her, and the narrator's only comment is a joke about how nobody catches Jupiter at his thefts.",
+  "more": "Ovid does not narrate the rape here. It is present in these lines only as its consequences — the god dropping his bull's shape once he has her on Crete, a father sending his son out to search for a daughter he will never find, and a wry aside asking who could ever catch Jupiter at it. Within nine lines the poem has left the girl behind entirely and gone after Cadmus, and that abandonment is part of what the passage is doing: the god's act is treated as a fact of the world, and the cost of it lands on the family sent to look for her. Lectorium presents the text unaltered."
+ },
+ "sentences": [
+  {
+   "t": "Iamque deus posita fallacis imagine tauri\nse confessus erat Dictaeaque rura tenebat,",
+   "l": "And now the god, with the deceiving bull's image laid aside, had confessed himself and was holding the Dictaean fields,",
+   "i": "By now the god had put off the false shape of the bull, admitted who he was, and held the fields of Dicte,",
+   "n": "'posita fallacis imagine tauri' is an ablative absolute — a self-contained 'with X done' phrase where English wants a whole clause; the poem is full of them. The god is Jupiter, who has carried a girl across the sea in the form of a bull, and Dicte is the Cretan mountain, so the landfall is Crete. The object of 'confessus erat' is 'se': what he owns up to is himself, and the disguise falls away with the admission.",
+   "p": true,
+   "v": true,
+   "ln": 1
+  },
+  {
+   "t": "cum pater ignarus Cadmo perquirere raptam\nimperat et poenam, si non invenerit, addit\nexilium, facto pius et sceleratus eodem.",
+   "l": "when the father, knowing nothing, orders Cadmus to search out the stolen girl, and adds a penalty, if he does not find her: exile — by the same deed dutiful and criminal.",
+   "i": "when her father, who knows nothing, orders Cadmus to search out the stolen girl and adds a penalty should he fail to find her: exile — by one and the same act a loving father and a criminal.",
+   "n": "'raptam', 'the seized woman', is a participle standing on its own as a noun, which Latin does constantly and English cannot. The closing phrase is the point of the sentence: 'pius' is the word for doing right by your family, 'sceleratus' for a man who has committed a crime, and Ovid balances the two on 'facto ... eodem', one and the same act.",
+   "v": true,
+   "ln": 3
+  },
+  {
+   "t": "Orbe pererrato (quis enim deprendere possit\nfurta Iovis?) profugus patriamque iramque parentis\nvitat Agenorides Phoebique oracula supplex\nconsulit et, quae sit tellus habitanda, requirit.",
+   "l": "The world having been wandered over — for who could catch out the thefts of Jupiter? — a fugitive, Agenor's son avoids both his homeland and his parent's anger, and as a suppliant consults the oracle of Phoebus and asks what land is to be lived in.",
+   "i": "Having wandered the whole world over — for who could catch Jupiter at his thefts? — Agenor's son becomes a fugitive, avoiding homeland and father's anger alike, and as a suppliant consults the oracle of Phoebus, asking what land he is to make his home.",
+   "n": "'Agenorides' is a patronymic, 'son of Agenor'; across these lines the poem names Cadmus by his father just as often as by his own name, and the patronymic keeps the errand in view. 'furta Iovis', 'Jupiter's thefts', is the standing dry term for the god's affairs, and the parenthesis writes off the whole search in one line. 'quae sit tellus habitanda' is an indirect question built on a gerundive: 'what land is to-be-inhabited'.",
+   "p": true,
+   "v": true,
+   "ln": 6
+  },
+  {
+   "t": "“Bos tibi” Phoebus ait “solis occurret in arvis,\nnullum passa iugum curvique inmunis aratri.",
+   "l": "\"A cow,\" says Phoebus, \"will meet you in lonely fields, one that has suffered no yoke and is exempt from the curved plough.",
+   "i": "\"A cow will meet you,\" Phoebus says, \"in empty fields — one that has borne no yoke and has gone free of the curved plough.",
+   "n": "'solis arvis' is from 'solus', 'alone, deserted', not from 'sol', the sun: fields with nobody in them. 'inmunis' with the genitive means 'having no duty of' — the animal has never worked, and an unworked beast was exactly what ritual required, so the oracle is describing a sacrifice as well as a signpost. Magnus's 'inmunis' for 'immunis' is the edition's own spelling and is kept.",
+   "v": true,
+   "ln": 10
+  },
+  {
+   "t": "Hac duce carpe vias et qua requieverit herba\nmoenia fac condas, Boeotiaque ma vocato.”",
+   "l": "With her as guide take your road, and where she has rested on the grass, see that you found walls, and call it Boeotia.\"",
+   "i": "Take your road with her as guide, and where she settles on the grass, see that you found a city there, and call the land Boeotia.\"",
+   "n": "'Hac duce' is an ablative absolute with no verb in it at all — 'with her as leader' — and 'fac condas' is a brisk colloquial imperative, 'see that you found'; 'vocato' is the future imperative, the form used in laws and oracles, so this is an instruction with the force of statute. The last word before 'vocato' is printed 'ma' in the digitized text Lectorium reads, which is not a Latin word: the digitization is damaged here, and no editor printed it. Other editions read 'illa', 'call that land Boeotia'. Lectorium prints its witness unaltered and tells you where the witness fails. The name hides the cow: Greek 'bous'.",
+   "v": true,
+   "ln": 12
+  },
+  {
+   "t": "Vix bene Castalio Cadmus descenderat antro,",
+   "l": "Scarcely had Cadmus properly come down from the Castalian cave,",
+   "i": "Cadmus had barely come down from the Castalian cave,",
+   "n": "The Castalian spring and its cave are at Delphi, where the oracle has just been given: Cadmus is still on the mountain when the sign arrives. 'Vix bene', 'hardly properly', is stronger than either word on its own — he has not even finished descending.",
+   "v": true,
+   "ln": 14
+  },
+  {
+   "t": "incustoditam lente videt ire iuvencam\nnullum servitii signum cervice gerentem.",
+   "l": "he sees an unguarded heifer going slowly, wearing on her neck no sign of servitude.",
+   "i": "when he sees a heifer walking slowly, with nobody watching her and no mark of service on her neck.",
+   "n": "The pluperfect 'descenderat' hands over to the present 'videt' in mid-sentence. Latin narrative slips into the present to bring an event close, and this poem does it constantly: read the presents as though the thing were happening now, and expect the tense to keep shifting. 'servitii signum' is the yoke-mark the oracle asked about, checked off.",
+   "v": true,
+   "ln": 15
+  },
+  {
+   "t": "Subsequitur pressoque legit vestigia gressu,\nauctoremque viae Phoebum taciturnus adorat.",
+   "l": "He follows behind and picks out her tracks with a checked step, and, silent, worships Phoebus, the author of his road.",
+   "i": "He follows behind, holding his pace back and reading her tracks, and silently does reverence to Phoebus, who set him on this road.",
+   "n": "'presso gressu' — with his step held in, so as not to startle her. 'legit vestigia' uses 'legere', 'to gather, to pick out', the verb that also means 'read': he is picking her prints out of the ground. 'taciturnus' is an adjective doing an adverb's work, which Latin verse prefers — 'he, silent, worships' rather than 'worships silently'.",
+   "v": true,
+   "ln": 17
+  },
+  {
+   "t": "Iam vada Cephisi Panopesque evaserat arva:",
+   "l": "Already he had got past the shallows of Cephisus and the fields of Panope:",
+   "i": "By now he had left behind the fords of the Cephisus and the fields of Panope:",
+   "n": "The Cephisus is the river of Phocis and Panope a town on its course: the line traces a real road running east from Delphi towards Boeotia, and Ovid's readers could have followed it on the ground. 'vada' are the shallows, the places where a river is crossed.",
+   "p": true,
+   "v": true,
+   "ln": 19
+  },
+  {
+   "t": "bos stetit et tollens speciosam cornibus altis\nad caelum frontem mugitibus impulit auras,",
+   "l": "the cow stood still and, raising to the sky her handsome brow with its high horns, struck the air with her lowing,",
+   "i": "the cow stopped, lifted to the sky a brow made handsome by its high horns, and set the air ringing with her lowing;",
+   "n": "'speciosam ... frontem' is split across a line and a half with 'cornibus altis' locked inside it, so the horns sit literally within the brow they belong to. This interlocking is something Latin word order can do and English cannot, and it is worth seeing on the page even when the translation has to undo it.",
+   "v": true,
+   "ln": 20
+  },
+  {
+   "t": "atque ita, respiciens comites sua terga sequentes,\nprocubuit teneraque latus submisit in herba.",
+   "l": "and so, looking back at the companions following her back, she lay down and let her flank sink into the tender grass.",
+   "i": "and then, glancing back at the companions following behind her, she knelt and settled her flank into the soft grass.",
+   "n": "'sua terga' is a plural for one back; verse uses plural body parts freely and English should not copy it. 'procubuit' and 'submisit' give the two stages of a cow lying down, front knees first and then the side — and that second verb is the oracle's condition met.",
+   "v": true,
+   "ln": 22
+  },
+  {
+   "t": "Cadmus agit grates peregrinaeque oscula terrae\nfigit et ignotos montes agrosque salutat.",
+   "l": "Cadmus renders thanks and fixes kisses on the foreign earth and greets the unknown mountains and fields.",
+   "i": "Cadmus gives thanks, presses a kiss on the foreign earth, and salutes mountains and fields he has never seen.",
+   "n": "'oscula figere' is the fixed phrase for planting a kiss, and kissing the ground on arrival was a real gesture. Notice the two adjectives: the land is 'peregrina' and the hills 'ignoti', foreign and unknown at the very moment he claims them.",
+   "v": true,
+   "ln": 24
+  },
+  {
+   "t": "Sacra Iovi facturus erat.",
+   "l": "He was about to perform rites to Jupiter.",
+   "n": "'sacra facere', 'to do the sacred things', is the ordinary Latin for offering sacrifice, and the future participle with 'erat' means he was on the point of it — an act this tale will never let him complete. The god he is about to honour is the one who took the girl he was sent to find.",
+   "v": true,
+   "ln": 26
+  },
+  {
+   "t": "Iubet ire ministros\net petere e vivis libandas fontibus undas.",
+   "l": "He orders his attendants to go and to fetch from living springs water to be poured out.",
+   "i": "He orders his attendants to go and fetch water from a running spring for the libation.",
+   "n": "'vivae undae' means running water: standing water was ritually unfit, so the men have to go to a spring, and going to the spring is what kills them. 'libandas' is a gerundive hung on the noun — 'water to-be-poured' — where English needs a phrase of purpose.",
+   "v": true,
+   "ln": 26
+  },
+  {
+   "t": "Silva vetus stabat, nulla violata securi,\net specus in medio, virgis ac vimine densus,\nefficiens humilem lapidum compagibus arcum,",
+   "l": "An ancient wood stood there, violated by no axe, and a cave in its middle, thick with rods and osier, making a low arch out of joinings of stone,",
+   "i": "An ancient wood stood there, never violated by an axe, and at its centre a cave, dense with saplings and withies, its stones fitted into a low arch,",
+   "n": "'violata' is the word used of sacrilege, not merely of damage: the wood is untouched because cutting it would be a crime, which tells the reader whose ground this is before the serpent has been mentioned. 'lapidum compagibus' says the stones are jointed as though built, though nobody built them.",
+   "p": true,
+   "v": true,
+   "ln": 28
+  },
+  {
+   "t": "uberibus fecundus aquis, ubi conditus antro\nMartius anguis erat, cristis praesignis et auro;",
+   "l": "fertile with abundant waters, where, hidden in the cave, was the serpent of Mars, marked out by crests and by gold;",
+   "i": "rich with abundant water — and there, sunk in the cave, lay the serpent of Mars, marked out by its crests and its gold.",
+   "n": "'Martius anguis': the snake belongs to the war god, which is why killing it will have to be paid for. Crests are a poet's serpent rather than a real one — Latin gives its dragons the crest of a helmet. 'praesignis', 'conspicuous', takes the ablative of what marks the thing out.",
+   "v": true,
+   "ln": 31
+  },
+  {
+   "t": "igne micant oculi, corpus tumet omne venenis,\ntres vibrant linguae, triplici stant ordine dentes.",
+   "l": "his eyes flash with fire, his whole body swells with poisons, three tongues flicker, teeth stand in a triple row.",
+   "i": "Its eyes flash fire, its whole body is swollen with venom, three tongues flicker, the teeth stand in a triple row.",
+   "n": "The tense jumps from 'erat' to four presents in a row, and the description steps out of the story to hold the creature still in front of us. There is not one connecting word in the two lines: the clauses are simply stacked, and the stacking is the effect.",
+   "v": true,
+   "ln": 33
+  },
+  {
+   "t": "Quem postquam Tyria lucum de gente profecti\ninfausto tetigere gradu, demissaque in undas\nurna dedit sonitum, longo caput extulit antro\ncaeruleus serpens horrendaque sibila misit.",
+   "l": "And when the men who had set out from the Tyrian people touched that grove with unlucky step, and the urn let down into the water gave a sound, the dark-blue serpent lifted his head out of the deep cave and sent out horrifying hisses.",
+   "i": "And when the men who had set out from the Tyrian nation set an unlucky foot in that grove, and the urn lowered into the water rang, the blue-black serpent raised its head out of the deep cave and let out a horrifying hiss.",
+   "n": "'Quem ... lucum' is a connecting relative: Latin opens a new sentence with a relative pronoun where English starts fresh — 'and that grove'. 'tetigere' is 'tetigerunt', the short poetic third-plural perfect, and you will meet '-ere' for '-erunt' on nearly every page of this poem. 'infausto gradu', 'with unlucky step', delivers the outcome before anything has happened.",
+   "v": true,
+   "ln": 35
+  },
+  {
+   "t": "Effluxere urnae manibus sanguisque reliquit\ncorpus, et attonitos subitus tremor occupat artus.",
+   "l": "The urns flowed out of their hands and the blood left their body, and a sudden trembling seizes their thunderstruck limbs.",
+   "i": "The urns slipped out of their hands, the blood left their bodies, and a sudden shudder took hold of their thunderstruck limbs.",
+   "n": "'Effluxere' is another '-ere' perfect. 'manibus' is a bare ablative of separation, 'out of their hands', with no preposition to help. 'attonitos' means struck by thunder; Latin had not yet worn that metaphor smooth, and the limbs go rigid as if hit.",
+   "v": true,
+   "ln": 39
+  },
+  {
+   "t": "Ille volubilibus squamosos nexibus orbes\ntorquet et inmensos saltu sinuatur in arcus,",
+   "l": "He twists his scaly circles in rolling knots and springs curving into vast arches,",
+   "i": "It twists its scaly coils into rolling knots and with one spring bends itself into vast arches,",
+   "n": "'volubilibus squamosos nexibus orbes' sets two adjectives and then two nouns interleaved, so the words coil around each other like the thing they describe. 'sinuatur' is passive in form but reflexive in force: it bends itself, nobody bends it.",
+   "v": true,
+   "ln": 41
+  },
+  {
+   "t": "ac media plus parte leves erectus in auras\ndespicit omne nemus, tantoque est corpore, quanto\nsi totum spectes, geminas qui separat arctos.",
+   "l": "and reared into the light air with more than half his length he looks down on the whole wood, and he is of as great a body as that one which separates the twin Bears, if you were to look at the whole of it.",
+   "i": "and reared into the open air with more than half its length, it looks down on the whole wood; its body is as huge as the Serpent that divides the two Bears — if you could ever see the whole of that.",
+   "n": "The comparison is to the constellation Draco, which winds between the Great and the Little Bear. 'si totum spectes', 'if you were to look at the whole of it', is a second-person subjunctive that pulls the reader into the measuring: to take that snake's size you would have to trace its entire winding length across the sky. 'tanto ... quanto' are correlative ablatives of description.",
+   "v": true,
+   "ln": 43
+  },
+  {
+   "t": "Nec mora, Phoenicas, sive illi tela parabant,\nsive fugam, sive ipse timor prohibebat utrumque,\noccupat:",
+   "l": "No delay — the Phoenicians, whether they were preparing weapons, or flight, or fear itself was preventing both, he seizes:",
+   "i": "No delay: he is on the Phoenicians — whether they were reaching for weapons, or for flight, or fear itself forbade them both.",
+   "n": "'Nec mora' is a narrative formula, a full stop that means 'at once'. The object 'Phoenicas' — a Greek accusative plural, which Ovid keeps for Greek names — comes first, and its verb 'occupat' is withheld for two whole lines with three 'sive' clauses in between: the Latin makes the reader wait exactly as long as the men do. The second alternative has no verb of its own and borrows the first one's, 'sive fugam [parabant]'.",
+   "v": true,
+   "ln": 46
+  },
+  {
+   "t": "hos morsu, longis complexibus illos,\nhos necat adfiatu funesti tabe veneni.",
+   "l": "these by a bite, those in long embraces, these he kills by the breath, by the corruption of his deadly venom.",
+   "i": "some with a bite, some in his long embrace, some he kills by breathing on them, with the rot of his deadly venom.",
+   "n": "'hos ... illos ... hos' distributes three ways of dying across a line and a half, and only the last group is given a verb. 'tabes' is the word for the rot of a corpse or of a plague, so the breath does not merely poison, it decays. 'adfiatu' is damage in the digitized text rather than a reading: the same word is printed 'adflatu' elsewhere in this poem, and 'fi' for 'fl' is a misread ligature. Other editions read 'adflati funesta'; on any of them the killing is done by exhaled venom.",
+   "v": true,
+   "ln": 48
+  },
+  {
+   "t": "Fecerat exiguas iam sol altissimus umbras:\nquae mora sit sociis, miratur Agenore natus,\nvestigatque viros.",
+   "l": "The sun at its highest had already made the shadows small: what delay there is for his companions, Agenor's son wonders, and he tracks the men.",
+   "i": "The sun at its height had already shrunk the shadows: Agenor's son wonders what is keeping his companions, and goes tracking them.",
+   "n": "Noon is told by the length of a shadow, the only clock available — and here the clock is quietly measuring how long the men have been dead. 'quae mora sit sociis' is an indirect question with a dative of possession: literally 'what delay is there for his companions'.",
+   "p": true,
+   "v": true,
+   "ln": 50
+  },
+  {
+   "t": "Tegimen derepta leoni\npellis erat,",
+   "l": "His covering was a hide torn from a lion,",
+   "i": "For covering he had a hide stripped off a lion,",
+   "n": "'derepta leoni' puts the thing something is taken from into the dative, where English insists on 'from' — Latin's dative of separation. The lion skin is standing equipment for a hero, and the poem will pick it up again in the middle of the fight and use it as a shield.",
+   "v": true,
+   "ln": 52
+  },
+  {
+   "t": "telum splendenti lancea ferro\net iaculum, teloque animus praestantior omni.",
+   "l": "his weapon a lance with shining iron and a javelin, and a spirit better than every weapon.",
+   "i": "for weapons, a lance with a shining iron head and a javelin — and a courage better than any of them.",
+   "n": "One verb, 'erat', is carrying a whole inventory, and the last item on the list is not equipment at all: courage is catalogued among the metal, which is the joke. 'telo ... omni' is an ablative of comparison after 'praestantior', 'better than'.",
+   "v": true,
+   "ln": 53
+  },
+  {
+   "t": "Ut nemus intravit letataque corpora vidit\nvictoremque supra spatiosi corporis hostem\ntristia sanguinea lambentem vulnera lingua,",
+   "l": "When he entered the wood and saw the slain bodies, and above them the victorious enemy of spacious body licking the sad wounds with a bloody tongue,",
+   "i": "When he entered the wood and saw the slaughtered bodies, and the victorious enemy stretched over them in its great length, licking the pitiful wounds with a bloodied tongue,",
+   "n": "'sanguinea ... lingua' wraps itself around 'lambentem vulnera', so in the word order the wounds are inside the bloody tongue as well as in fact. 'tristia vulnera': 'tristis' is what causes grief, so the wounds are sad in the sense of being fit to be mourned — which is what Cadmus is about to do.",
+   "p": true,
+   "v": true,
+   "ln": 55
+  },
+  {
+   "t": "“aut ultor vestrae, fidissima corpora, mortis,\naut comes” inquit “ero.”",
+   "l": "\"either the avenger of your death, most faithful bodies, or its companion,\" he says, \"I shall be.\"",
+   "i": "\"Most faithful of bodies, I will be either the avenger of your death or its companion,\" he says.",
+   "n": "He addresses his men as 'corpora', 'bodies' — the very word the narrator has just used of them dead, and a strange flat thing to call the friends he is mourning; some editions soften it to 'pectora', 'hearts'. The vow itself is a formula: avenge them or join them, with 'comes', 'companion', carrying the second half.",
+   "v": true,
+   "ln": 58
+  },
+  {
+   "t": "Dixit, dextraque molarem\nsustulit et magnum magno conamine misit.",
+   "l": "He spoke, and with his right hand raised a millstone and, great, sent it with a great effort.",
+   "i": "He spoke, and with his right hand raised a stone the size of a millstone and, huge as it was, hurled it with a huge effort.",
+   "n": "'magnum magno' sets the stone's size against the effort's in two adjacent words, a figure Latin loves; English either keeps it or loses the line. 'molaris' is literally a millstone, the epic word for a rock that takes both arms.",
+   "v": true,
+   "ln": 59
+  },
+  {
+   "t": "Illius impulsu cum turribus ardua celsis\nmoenia mota forent:",
+   "l": "By the shock of that thing high walls with lofty towers would have been shaken:",
+   "i": "That blow would have shaken high walls, towers and all:",
+   "n": "'mota forent' is a past contrary-to-fact: there are no walls here, and the sentence exists only to measure the throw. 'forent' is verse's shorter form of 'essent'.",
+   "v": true,
+   "ln": 61
+  },
+  {
+   "t": "serpens sine vulnere mansit\nloricaeque modo squamis defensus et atrae\nduritia pellis validos cute reppulit ictus.",
+   "l": "the serpent remained without a wound, and defended by scales in the manner of a corslet and by the hardness of his black hide he threw the strong blows back off his skin.",
+   "i": "the serpent came through without a scratch: shielded by its scales as by a corslet, and by the hardness of its black hide, it turned the powerful blows off its skin.",
+   "n": "'loricae modo', 'in the manner of a breastplate', arms the snake like a soldier, and the poem is already thinking about the war that will grow out of its teeth. Three ablatives do three different jobs here: 'squamis' and 'duritia' are what defends him, 'cute' is where the blows come off.",
+   "v": true,
+   "ln": 62
+  },
+  {
+   "t": "At non duritia iaculum quoque vicit eadem:",
+   "l": "But that same hardness did not defeat the javelin as well:",
+   "n": "'quoque' here is the plain adverb 'too', answering the stone that failed — but watch this word in Ovid, because it is often 'quo-que', 'and with which', and not an adverb at all. 'duritia' and its 'eadem' are held apart by everything else in the line, so the sameness only lands on the last word.",
+   "v": true,
+   "ln": 65
+  },
+  {
+   "t": "quod medio lentae spinae curvamine fixum\nconstitit et totum descendit in ilia ferrum.",
+   "l": "and this, fixed in the middle bend of the tough spine, stuck fast, and the whole iron went down into the guts.",
+   "i": "and it lodged in the mid-curve of the pliant spine and held, and the whole iron head went down into the belly.",
+   "n": "'quod' opens the clause as a connecting relative, 'and this'. 'lentus' here is 'pliant, tough' rather than 'slow': the spine gives and does not break, which is exactly why the point catches in it and stays.",
+   "v": true,
+   "ln": 66
+  },
+  {
+   "t": "Ille dolore ferox caput in sua terga retorsit\nvulneraque adspexit fixumque hastile momordit\nidque, ubi vi multa partem labefecit in omnem,\nvix tergo eripuit; ferrum tamen ossibus haesit.",
+   "l": "He, savage with pain, twisted his head back onto his own coils and looked at the wounds and bit the shaft fixed in him, and, when he had worked it loose in every direction with much force, he barely tore it out of his back; the iron, however, stuck in the bones.",
+   "i": "Savage with pain, it twisted its head back over its own body, looked at the wound, bit the shaft standing in it, and, once it had worked the thing loose in every direction with brute force, tore it out of its back — barely; the iron head stayed in the bone.",
+   "n": "The serpent examines its own injury: 'adspexit' is a considering look, and the sequence — look, bite, work loose, pull — is observed animal behaviour set inside a monster. 'vix', 'barely', is placed after everything it qualifies, so the effort is described first and the near-failure comes last.",
+   "v": true,
+   "ln": 68
+  },
+  {
+   "t": "Tum vero, postquam solitas accessit ad iras\ncausa recens, plenis tumuerunt guttura venis,\nspumaque pestiferos circumfluit albida rictus,",
+   "l": "Then indeed, after a fresh cause was added to his accustomed rages, his throat swelled with full veins, and white foam flowed around his plague-bearing jaws,",
+   "i": "Then in earnest: with a fresh grievance added to its habitual rage, its throat swelled, the veins standing full, and white foam ran round its pestilent jaws;",
+   "n": "'accessit ad iras causa recens' puts abstract nouns where English wants a clause: 'a recent cause came to his customary angers'. 'Tum vero' is a signal rather than a time-word — it marks the point at which a scene goes up a level. 'guttura' is one more plural for a single throat.",
+   "p": true,
+   "v": true,
+   "ln": 72
+  },
+  {
+   "t": "terraque rasa sonat squamis, quique halitus exit\nore niger Stygio, vitiatas inficit auras.",
+   "l": "and the earth, scraped by his scales, sounds, and the breath which goes out black from his Stygian mouth taints the spoiled air.",
+   "i": "the ground, scraped by its scales, sounds under it, and the breath that comes out black from that mouth of the Styx poisons air it has already fouled.",
+   "n": "'vitiatas inficit auras' states the result inside the object before the verb has caused it — literally 'taints the spoiled air'. English has to choose between keeping the paradox and unpacking it, and either choice costs something. 'Stygio' hands the snake's mouth to the underworld river in one adjective.",
+   "v": true,
+   "ln": 75
+  },
+  {
+   "t": "Ipse modo inmensum spiris facientibus orbem\ncingitur,",
+   "l": "He himself now is encircled, his coils making an immense ring,",
+   "i": "One moment it is ringed into an immense circle by its own coiling,",
+   "n": "'cingitur' is passive, but the thing doing the encircling is himself: Latin often uses a passive where English wants a reflexive. 'spiris facientibus' is an ablative absolute in the present tense — the coils are making the circle while we watch.",
+   "v": true,
+   "ln": 77
+  },
+  {
+   "t": "interdum longa trabe rectior adstat\nimpete nunc vasto ceu concitus imbribus amnis\nfertur et obstantes proturbat pectore silvas.",
+   "l": "at times he stands up straighter than a long beam, now with a vast rush he is carried like a river driven by rainstorms and shoves aside with his breast the woods that stand in his way.",
+   "i": "the next it stands up straighter than a long beam; and now it comes on in a vast rush, like a river driven by rainstorms, and shoulders aside the trees in its way.",
+   "n": "'modo ... interdum ... nunc' runs the whole repertoire of shapes in four lines. The river comparison is epic simile at its shortest — one word, 'ceu', and one clause — and the line ends with the snake pushing trees down with its chest, which is what a flood does.",
+   "v": true,
+   "ln": 78
+  },
+  {
+   "t": "Cedit Agenorides paulum spolioque leonis\nsustinet incursus instantiaque ora retardat\ncuspide praetenta.",
+   "l": "Agenor's son gives ground a little and with the lion's spoil holds up the charges and slows the pressing jaws with his point held out before him.",
+   "i": "Agenor's son gives ground a little, takes the charges on the lion's spoil, and holds off the pressing jaws with his spear-point thrust out before him.",
+   "n": "The 'spolium leonis' is the hide he was described wearing: the poem re-uses its own equipment, and a covering becomes a shield in the middle of the fight. 'cuspide praetenta' is another ablative absolute, and 'ora', 'mouth', is plural again for one set of jaws.",
+   "v": true,
+   "ln": 81
+  },
+  {
+   "t": "Furit ille et inania duro\nvulnera dat ferro figitque in acumine dentes.",
+   "l": "He rages and gives empty wounds to the hard iron and fixes his teeth in the point.",
+   "i": "It goes into a fury, deals useless wounds against the hard iron, and sinks its teeth into the point.",
+   "n": "'inania vulnera dat ferro' — the wounds are given to the iron: the snake is wounding the weapon, and 'inania', 'empty', measures how much good that does. The dative 'ferro' is the ordinary construction for the person you wound, used here of a spear.",
+   "v": true,
+   "ln": 83
+  },
+  {
+   "t": "Iamque venenifero sanguis manare palato\ncoeperat et virides adspergine tinxerat herbas:",
+   "l": "And already blood had begun to run from the venom-bearing palate and had dyed the green grass with its spattering:",
+   "i": "By now blood had begun to run from that venomous mouth and had stained the green grass with the spray:",
+   "n": "'venenifer', 'venom-bearing', is a compound of the kind Latin coins for verse and hardly uses anywhere else. The two pluperfects put this a step behind the narrative, as a state already reached before we are told of it — and the 'sed' of the next line takes it back again.",
+   "v": true,
+   "ln": 85
+  },
+  {
+   "t": "sed leve vulnus erat, quia se retrahebat ab ictu\nlaesaque colla dabat retro plagamque sedere\ncedendo arcebat nec longius ire sinebat,",
+   "l": "but the wound was slight, because he kept drawing himself back from the stroke and giving his hurt neck backwards and by yielding kept the blow from settling and did not let it go further.",
+   "i": "but the wound was slight, because it kept pulling back from the stroke, giving ground with its injured neck, and by yielding kept the blade from setting, and would not let it go deeper.",
+   "n": "Four imperfects in a row — 'retrahebat, dabat, arcebat, sinebat' — hold the struggle open with nothing settled; the perfect that ends it does not arrive until 'pressit', two lines further down. 'plagam sedere arcebat' is literally 'kept the blow from sitting', that is, from lodging.",
+   "v": true,
+   "ln": 87
+  },
+  {
+   "t": "donec Agenorides coniectum in guttura ferrum\nusque sequens pressit, dum retro quercus eunti\nobstitit, et fixa est pariter cum robore cervix.",
+   "l": "until Agenor's son, following it all the way, pressed the iron thrown into the throat, while an oak stood in the way of the one going backwards, and the neck was pinned equally with the wood.",
+   "i": "until Agenor's son, keeping after it all the way, pressed home the iron he had driven into its throat, until an oak blocked its retreat, and neck and oak were pinned through together.",
+   "n": "'eunti' is a participle in the dative with no noun to lean on — 'to the one going backwards' — so English has to supply the creature. 'fixa est pariter cum robore cervix' nails two things as one thing, 'pariter cum' doing the work of 'together with', and the sentence ends on 'cervix', the neck, exactly where the spear ends.",
+   "v": true,
+   "ln": 90
+  },
+  {
+   "t": "Pondere serpentis curvata est arbor et ima\nparte flagellari gemuit sua robora caudae.",
+   "l": "By the serpent's weight the tree was bent, and it groaned that its own timbers were being whipped by the lowest part of the tail.",
+   "i": "The tree bent under the serpent's weight and groaned to feel its own trunk lashed by the very end of the tail.",
+   "n": "'gemuit ... flagellari' is an accusative-and-infinitive after a verb of sound, which gives the tree something close to a complaint: it groans that its timbers are being whipped. The tail is still beating at the far end while the head is nailed to the trunk.",
+   "v": true,
+   "ln": 93
+  },
+  {
+   "t": "Dum spatium victor victi considerat hostis,\nvox subito audita est; neque erat cognoscere promptum\nunde, sed audita est:",
+   "l": "While the victor considers the size of the conquered enemy, a voice was suddenly heard; and it was not easy to know from where, but it was heard:",
+   "i": "While the victor is taking the measure of the enemy he has beaten, a voice was suddenly heard; where from, there was no telling — but heard it was:",
+   "n": "'victor victi' puts the winner and the beaten side by side in adjacent words — 'victi' belongs with 'hostis' at the line's end — and the prophecy that follows is precisely about that pair changing places. 'audita est' is repeated at the end of the sentence: the poem insists on the fact while refusing to name a speaker.",
+   "p": true,
+   "v": true,
+   "ln": 95
+  },
+  {
+   "t": "“Quid, Agenore nate, peremptum\nserpentem spectas? et tu spectabere serpens.”",
+   "l": "\"Why, son of Agenor, do you look at the slain serpent? You too will be looked at, a serpent.\"",
+   "i": "\"Why do you stand looking at a dead serpent, son of Agenor? You too will be looked at, and a serpent.\"",
+   "n": "'spectas ... spectabere' turns one verb from active to passive, and that turn is the whole threat: the one who looks becomes the thing looked at. 'spectabere' is 'spectaberis', the older second-person passive ending that verse keeps for its shape. The voice gives no name for itself and no date.",
+   "v": true,
+   "ln": 97
+  },
+  {
+   "t": "Ille diu pavidus pariter cum mente colorem\nperdiderat, gelidoque comae terrore rigebant.",
+   "l": "He, long afraid, had lost his colour together with his mind, and his hair was standing stiff with cold terror.",
+   "i": "He stood a long time in fear; he had lost his colour and his wits together, and his hair stood stiff with a cold terror.",
+   "n": "'pariter cum mente colorem perdiderat' yokes two losses to one verb: the face and the mind go in the same instant. 'gelido terrore' is a transferred epithet — the fear is not cold, the man is, and the chill is handed to the hair it stiffens.",
+   "p": true,
+   "v": true,
+   "ln": 99
+  },
+  {
+   "t": "Ecce viri fautrix, superas delapsa per auras,\nPallas adest motaeque iubet supponere terrae\nvipereos dentes, populi incrementa futuri.",
+   "l": "Look — the man's supporter, having glided down through the upper air, Pallas is at hand, and orders him to put the viper's teeth under turned earth, the growths of a future people.",
+   "i": "And look: the man's champion, gliding down through the upper air, Pallas is there, and orders him to set the serpent's teeth under broken ground — the makings of a people to come.",
+   "n": "'fautrix' is the feminine of the word for a backer at the games, someone shouting for one side: Pallas — Minerva, Athena — has taken Cadmus's part against the god whose serpent he has just killed. 'populi incrementa futuri' stands in apposition to 'dentes', so the teeth are named for what they will become before they become it.",
+   "v": true,
+   "ln": 101
+  },
+  {
+   "t": "Paret et, ut presso sulcum patefecit aratro,\nspargit humi iussos, mortalia semina, dentes.",
+   "l": "He obeys, and, when he has opened a furrow with the plough pressed down, he scatters on the ground the teeth he was ordered to, mortal seeds.",
+   "i": "He obeys, and when he has opened a furrow with the plough pressed deep, he scatters on the ground the teeth he was told to — seeds of mortal men.",
+   "n": "'mortalia semina', in apposition to 'dentes', means 'seeds of mortals', and 'mortalis' carries dying inside it, which is most of what these seeds produce. 'iussos ... dentes' hangs the order on the object as a participle where English needs a clause: 'the teeth he had been told to'.",
+   "v": true,
+   "ln": 104
+  },
+  {
+   "t": "Inde (fide maius) glaebae coepere moveri,\nprimaque de sulcis acies apparuit hastae,",
+   "l": "Then — a thing greater than belief — the clods began to move, and first from the furrows the point of a spear appeared,",
+   "i": "Then — past believing — the clods began to stir, and first out of the furrows appeared the point of a spear,",
+   "n": "'fide maius', 'greater than trust', is Ovid's way of holding a marvel at arm's length while still reporting it as fact. 'coepere' is 'coeperunt' again. 'acies hastae' is the spear's edge or point: the first thing up out of the ground is a weapon, not a man.",
+   "p": true,
+   "v": true,
+   "ln": 106
+  },
+  {
+   "t": "tegmina mox capitum picto nutantia cono,\nmox umeri pectusque onerataque bracchia telis\nexsistunt, crescitque seges clipeata virorum.",
+   "l": "then the coverings of heads, nodding with painted cone, then shoulders and chest and arms loaded with weapons stand out, and a shielded crop of men grows.",
+   "i": "then helmets, their painted crests nodding, then shoulders and chest and arms laden with weapons come up, and a shielded harvest of men grows.",
+   "n": "'seges clipeata virorum', 'a shielded crop of men', keeps the farming metaphor the sowing began — 'seges' is standing corn in a field. The one verb 'exsistunt' waits until the whole list is assembled, so the men are built up piece by piece before anything is said to rise.",
+   "v": true,
+   "ln": 108
+  },
+  {
+   "t": "Sic ubi tolluntur festis aulaea theatris,\nsurgere signa solent primumque ostendere vultus,",
+   "l": "So, when the curtains are raised in the theatres on festival days, the figures are accustomed to rise and to show their faces first,",
+   "i": "So, when the curtain goes up in the theatres on festival days, the woven figures rise, showing their faces first,",
+   "n": "Roman theatre curtains were pulled up out of a slot in front of the stage rather than dropped from above, so the figures embroidered on the cloth came into view head first — which is exactly how the armed men come out of the ground. 'signa' are those worked figures.",
+   "v": true,
+   "ln": 111
+  },
+  {
+   "t": "cetera paulatim, placidoque educta tenore\ntota patent imoque pedes in margine ponunt.",
+   "l": "the rest little by little, and drawn up at a calm pace they stand out whole and set their feet on the lowest edge.",
+   "i": "the rest of them by degrees, until, drawn up at an even pace, they stand there entire and plant their feet on the lower hem.",
+   "n": "The simile finishes with the figures' feet arriving at the bottom of the cloth just as the curtain reaches its full height. It is an image taken from stage machinery and dropped into the middle of a myth, and the ordinariness of it — this is simply how curtains worked — is the point.",
+   "v": true,
+   "ln": 113
+  },
+  {
+   "t": "Territus hoste novo Cadmus capere arma parabat:\n“ne cape”, de populo, quem terra creaverat, unus\nexclamat “nec te civilibus insere bellis.”",
+   "l": "Terrified by the new enemy, Cadmus was preparing to take up arms: \"do not take them up,\" one of the people whom the earth had created shouts, \"and do not put yourself into civil wars.\"",
+   "i": "Alarmed at this new enemy, Cadmus was making to take up arms. \"Don't,\" shouts one of the people the earth had created, \"and don't involve yourself in a civil war.\"",
+   "n": "'ne cape' is a prohibition with 'ne' and a bare imperative, the abrupt older form — it sounds like a shout, which is what it is. 'civilibus bellis' is the Roman term for war between fellow citizens: these men are minutes old and already have the word for what they are about to do to each other.",
+   "v": true,
+   "ln": 115
+  },
+  {
+   "t": "Atque ita terrigenis rigido de fratribus unum\ncomminus ense ferit; iaculo cadit eminus ipse.",
+   "l": "And so with a stiff sword he strikes one of his earth-born brothers at close quarters; he himself falls at a distance by a javelin.",
+   "i": "And with that he cuts down one of his earth-born brothers hand to hand with a rigid sword; he himself falls to a javelin thrown from far off.",
+   "n": "'comminus' and 'eminus', hand-to-hand and at a distance, stand at opposite ends of the line, and the man who used the first is killed by the second before the line is over. 'terrigenis ... fratribus', 'earth-born brothers': they are brothers because they came out of the same ground, which is the only family any of them has.",
+   "v": true,
+   "ln": 118
+  },
+  {
+   "t": "Hunc quoque qui leto dederat, non longius illo\nvivit et exspirat modo quas acceperat auras;",
+   "l": "And the one who had given this man too to death does not live longer than he, and breathes out the air he had just now taken in;",
+   "i": "And the man who had put him too to death outlives him by no time at all, and breathes out the air he had drawn in a moment before;",
+   "n": "'leto dare', 'to give to death', is the set phrase for killing. 'modo quas acceperat auras', 'the air which he had just now received', tucks the relative clause inside its own noun phrase, and 'modo', 'a moment ago', is the horror of the line: he has been breathing for seconds.",
+   "v": true,
+   "ln": 120
+  },
+  {
+   "t": "exemploque pari furit omnis turba, suoque\nMarte cadunt subiti per mutua vulnera fratres.",
+   "l": "and by an equal example the whole crowd rages, and by their own war the sudden brothers fall through mutual wounds.",
+   "i": "and the whole crowd goes mad after the same example, and the brothers, sprung up a moment ago, fall by the wounds they deal each other, in a war of their own.",
+   "n": "'suo Marte' means both 'in a battle of their own making' and 'by their own Mars' — Mars is the god whose serpent they were sown from, so the phrase says the war belongs to them and that they belong to him. 'subiti fratres', 'the sudden brothers', is as blunt as it sounds: born and dead inside eight lines.",
+   "v": true,
+   "ln": 122
+  },
+  {
+   "t": "Iamque brevis vitae spatium sortita iuventus\nsanguineam tepido plangebat pectore matrem,",
+   "l": "And now the young men, having drawn by lot the span of a brief life, were beating their bloodied mother with warm breast,",
+   "i": "And now the young men, allotted the span of a brief life, were beating their bloodied mother with breasts still warm,",
+   "n": "'plangere' is the verb for beating the breast in mourning, and the mother being beaten is the earth they came out of: falling on her, they perform her funeral. She is 'sanguineam', bloodied, because of them. 'sortita' is deponent, 'having drawn as their lot' — the length of the life was settled before it started.",
+   "v": true,
+   "ln": 124
+  },
+  {
+   "t": "quinque superstitibus, quorum fuit unus Echion.",
+   "l": "with five surviving, of whom one was Echion.",
+   "i": "five of them surviving, and one of the five was Echion.",
+   "n": "'quinque superstitibus' is one more ablative absolute, hung on the end of the sentence like a note in a margin. Only one of the five is given a name here, which is the poem's way of saying which of them will matter.",
+   "v": true,
+   "ln": 126
+  },
+  {
+   "t": "Is sua iecit humo monitu Tritonidis arma\nfraternaeque fidem pacis petiitque deditque.",
+   "l": "He, at the warning of the Tritonian, threw his weapons on the ground and asked for and gave a pledge of brotherly peace.",
+   "i": "At the Tritonian's prompting he threw his weapons to the ground, and asked for and gave a pledge of peace between brothers.",
+   "n": "'Tritonis', the Tritonian, is Pallas again, named from the water where she was said to have been born; Latin verse likes to name a god from a place. 'petiitque deditque', asked-and-gave with a '-que' on each verb, makes the two halves of a treaty into one action, which is what a treaty is.",
+   "v": true,
+   "ln": 127
+  },
+  {
+   "t": "Hos operis comites habuit Sidonius hospes,\ncum posuit iussam Phoebeis sortibus urbem.",
+   "l": "These the Sidonian stranger had as companions of the work, when he laid down the city ordered by Phoebus's lots.",
+   "i": "These the Sidonian stranger took as partners in the work, when he founded the city that Phoebus's oracle had ordered.",
+   "n": "'Sidonius hospes' names Cadmus by the Phoenician city he came from, and 'hospes' means both guest and stranger: a foreigner founding a town. 'sortes' are the lots by which an oracle gave its answers, so the city is built to a drawn lot. Magnus prints 'iussam', the city commanded; other editions read 'iussus', 'he, having been commanded'.",
+   "p": true,
+   "v": true,
+   "ln": 129
+  },
+  {
+   "t": "Iam stabant Thebae: poteras iam, Cadme, videri\nexsilio felix.",
+   "l": "Now Thebes stood: you could now, Cadmus, seem happy in your exile.",
+   "i": "Now Thebes stood. Now, Cadmus, you could be thought a fortunate man in your exile.",
+   "n": "The poem turns and speaks to Cadmus directly. This is apostrophe, and Ovid keeps the second person up to the end of the part, so the English must keep the 'you' and never slide back into 'he'. 'poteras videri' is imperfect: you could have seemed so then — which is a quiet way of saying you cannot now.",
+   "p": true,
+   "v": true,
+   "ln": 131
+  },
+  {
+   "t": "Soceri tibi Marsque Venusque\ncontigerant:",
+   "l": "Mars and Venus had fallen to you as fathers-in-law:",
+   "i": "Mars and Venus had come to you as parents-in-law:",
+   "n": "'soceri' is the plural of the word for a father-in-law, used loosely of the pair; his wife is their daughter, so the marriage has made him kin to the god whose serpent he killed. 'contigerant' is the verb for what falls to you by luck rather than by effort.",
+   "v": true,
+   "ln": 132
+  },
+  {
+   "t": "huc adde genus de coniuge tanta,\ntot natos natasque et pignera cara nepotes,\nhos quoque iam iuvenes.",
+   "l": "add to this a line from so great a wife, so many sons and daughters and grandchildren, dear pledges, these too already young men.",
+   "i": "add to that a family by so great a wife: so many sons and daughters, and grandchildren, those dear pledges — and these already grown.",
+   "n": "'pignera', 'pledges', is the ordinary Roman word for children: security handed over to the future. 'huc adde', 'add this in', invites the reader to keep the tally quite as much as it does Cadmus, and the whole sentence is an inventory of a happy life — which is what makes the next sentence land.",
+   "v": true,
+   "ln": 133
+  },
+  {
+   "t": "Sed scilicet ultima semper\nexspectanda dies homini est, dicique beatus\nante obitum nemo supremaque funera debet.",
+   "l": "But of course the last day must always be waited for by a man, and no one ought to be called blessed before his death and his final rites.",
+   "i": "But a man's last day must always be waited for, of course; and no one ought to be called blessed before his death and his funeral.",
+   "n": "'exspectanda ... est' is a gerundive of obligation with 'homini' as the dative of the person obliged, 'must be waited for by a man'; some editions read 'hominis', 'a man's last day'. The maxim is an old commonplace — count nobody happy until he is dead — and Ovid sets it directly after the inventory of Cadmus's blessings, which turns a proverb into a threat. 'scilicet' carries a dry edge: 'naturally'.",
+   "v": true,
+   "ln": 135
+  }
+ ],
+ "glossaryFile": "metamorphoses-glossary.json"
+}

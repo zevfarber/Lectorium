@@ -1,0 +1,494 @@
+{
+ "id": "ovid-met-043",
+ "sourceId": "ovid-met-043",
+ "title": "Procne et Philomela",
+ "titleEn": "The Errand to Athens — Metamorphoses VI.412–548",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 fb3fdb1d8a4a3b82. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
+ "about": "The cities round about send condolences, and Athens alone does not — a barbarian army carried over the sea is menacing its walls, and Tereus of Thrace routs it; Pandion gives him his daughter Procne, at a wedding the Furies attend with an owl on the roof. Five years later Procne asks to see her sister, and Tereus sails to Athens to fetch her, and takes fire the moment Philomela walks in. He wins her father over with borrowed words and borrowed tears, carries her home across the sea, drags her into a steading deep in the woods and rapes her. The part ends with her answer to him: a promise to say aloud what he has done, to anyone, to the woods, to the sky. This is the first of the tale's two parts, and the reckoning she promises falls outside these lines.",
+ "advisory": {
+  "lede": "Tereus rapes Philomela in these lines, and the deception that delivers her to him is told at length before it.",
+  "more": "Ovid gives the assault directly: Tereus tells her what he intends and then overpowers her while she calls on her father, her sister and the gods. The poem then stays with her — two similes of caught prey, and a long speech in which she names what has been done to her and swears to make it public. The narrator is not neutral about Tereus. He calls the man's watching a groping done by eye, calls him a barbarian, and says outright that the crime bought him a reputation for family duty. Philomela's own words are harsher, and she uses of herself the term a household would use of a wife's rival. Lectorium presents the text unaltered."
+ },
+ "sentences": [
+  {
+   "t": "Finitimi proceres coeunt, urbesque propinquae\noravere suos ire ad solacia reges,",
+   "l": "The neighbouring chiefs come together, and the nearby cities begged their own kings to go to the consolings,",
+   "i": "The chiefs of the lands round about gathered, and the cities near by begged their own kings to go and pay their condolences —",
+   "n": "`oravere` is the poetic third-plural perfect for `oraverunt`, a form you will meet constantly in this poem; `coeunt` beside it is present, and Ovid runs the two tenses together to hurry the scene along. `ire ad solacia` is 'to go for the consolings', the plural for the several visits. The bereavement being consoled is not named anywhere in these lines; the embassy is only the frame that brings Athens — and Tereus — into view.",
+   "p": true,
+   "v": true,
+   "ln": 412
+  },
+  {
+   "t": "Argosque et Sparte Pelopeiadesque Mycenae\net nondum torvae Calydon invisa Dianae\nOrchomenosque ferax et nobilis aere Corinthus\nMesseneque ferox Patraeque humilesque Cleonae\net Nelea Pylos, neque adhuc Pittheia Troezen,",
+   "l": "and Argos and Sparta and Pelops-descended Mycenae, and Calydon not yet hateful to grim Diana, and fertile Orchomenos and Corinth famed for bronze, and fierce Messene and Patrae and low-lying Cleonae, and Nelean Pylos, and Troezen not yet Pittheus's,",
+   "i": "Argos, Sparta, Mycenae of Pelops' line; Calydon, not yet hated by grim Diana; rich Orchomenos, and Corinth famed for its bronze; warlike Messene, and Patrae, and low-lying Cleonae; and Pylos of Neleus, and Troezen, not yet Pittheus's own —",
+   "n": "A catalogue of Peloponnesian and central Greek cities, each with its standing epithet. Two of them are dated rather than described: Calydon is `nondum`, 'not yet', hateful to Diana — the boar she will send against it has not happened — and Troezen is `neque adhuc`, 'not yet', Pittheus's. `Pelopeiades` and `Nelea` are adjectives built from heroes' names, 'of Pelops', 'of Neleus'. `humiles Cleonae` is about the site: the town lies low, not humble.",
+   "v": true,
+   "ln": 414
+  },
+  {
+   "t": "quaeque urbes aliae bimari clauduntur ab Isthmo\nexteriusque sitae bimari spectantur ab Isthmo.",
+   "l": "and whatever other cities are shut in by the two-sea'd Isthmus, and, lying outside, are looked at from the two-sea'd Isthmus.",
+   "i": "and whatever other cities the Isthmus between two seas encloses, and those that lie beyond it and can be seen from it.",
+   "n": "`quaeque urbes aliae` is a generalizing relative, 'and whatever other cities'. The two lines are deliberately built as near-twins, each closing on `bimari ... ab Isthmo`, so that the phrase divides the Greek world into what the Isthmus of Corinth shuts in and what it merely looks out at. `bimaris`, 'of two seas', is the Isthmus's standing epithet: the Corinthian gulf on one side, the Saronic on the other.",
+   "v": true,
+   "ln": 419
+  },
+  {
+   "t": "Credere quis posset? solae cessastis Athenae.",
+   "l": "Who could believe it? You alone held back, Athens.",
+   "n": "Apostrophe: the narrator turns out of the narrative to address the city directly, and the verb goes into the second person. `cessastis` is syncopated for `cessavistis`, and it is plural because `Athenae` is a plural noun. The reproach is set up only so that the next line can withdraw it.",
+   "v": true,
+   "ln": 421
+  },
+  {
+   "t": "Obstitit officio bellum, subvectaque ponto\nbarbara Mopsopios terrebant agmina muros.",
+   "l": "War stood in the way of the duty, and barbarian columns, carried up over the sea, were terrifying the Mopsopian walls.",
+   "i": "War blocked the courtesy: barbarian columns ferried across the sea were menacing the walls of Athens.",
+   "n": "`officium` is the social obligation of paying a call — the courtesy Athens failed in, not a moral failure. `subvecta ponto` is the participle with an ablative of route, 'carried up over the sea'. `Mopsopios ... muros`: Mopsopius is a learned adjective for Athenian, from Mopsopia, an old name for Attica. Ovid has just used the plain name `Athenae` and reaches at once for the ornamental one.",
+   "v": true,
+   "ln": 422
+  },
+  {
+   "t": "Threicius Tereus haec auxiliaribus armis\nfuderat et clarum vincendo nomen habebat.",
+   "l": "Thracian Tereus had routed these with relieving arms and had a bright name from conquering.",
+   "i": "Tereus of Thrace had scattered them with an allied force and won a shining name by the victory.",
+   "n": "`haec` is neuter plural and picks up `agmina`, the columns of the line before. `vincendo` is the gerund in the ablative, 'by conquering', the means of the fame; `auxiliaribus armis` is 'with relieving arms', an ablative of means — `auxilia` is the Roman word for troops sent as allied reinforcement. This is the first the reader hears of Tereus, and everything said of him here is creditable.",
+   "v": true,
+   "ln": 424
+  },
+  {
+   "t": "Quem sibi Pandion opibusque virisque potentem\net genus a magno ducentem forte Gradivo\nconubio Procnes iunxit.",
+   "l": "And him — powerful in wealth and in men, and drawing his line, as it happened, from great Gradivus — Pandion joined to himself by marriage with Procne.",
+   "i": "And Pandion bound him to his own house by marrying him to Procne: a man strong in wealth and in fighting men, and descended, as it happened, from great Mars.",
+   "n": "Connecting relative: `Quem` opens the sentence and means 'and him'. It is the accusative object of `iunxit` two lines later, and everything in between hangs on it. `sibi ... iunxit` is 'joined to himself', that is, made him his son-in-law; `conubio Procnes` is the ablative of means, 'by marriage with Procne', with the Greek genitive `Procnes`. `Gradivus` is a cult title of Mars, and the descent from the war-god is offered as a credential; `forte`, 'as it happened', does quiet work beside it.",
+   "p": true,
+   "v": true,
+   "ln": 426
+  },
+  {
+   "t": "Non pronuba Iuno,\nnon Hymenaeus adest, non illi Gratia lecto.",
+   "l": "Juno the bride-leader is not there, nor Hymenaeus, nor is any Grace at that bed.",
+   "i": "No Juno of the marriage-rites attends, no Hymen, no Grace stands by that bed.",
+   "n": "Three negatives on one verb — `adest` is singular and does duty for all three subjects — and the powers who ought to be at a wedding are listed only to be denied. `pronuba` is the matron who leads the bride to her husband, and Juno's title in that office; Hymenaeus is the marriage-god whose name is the wedding shout; the Gratiae are the Graces. `illi ... lecto` is the dative that `adest` takes, 'present to that bed'.",
+   "v": true,
+   "ln": 428
+  },
+  {
+   "t": "Eumenides tenuere faces de funere raptas,\nEumenides stravere torum, tectoque profanus\nincubuit bubo thalamique in culmine sedit.",
+   "l": "The Eumenides held torches snatched from a funeral; the Eumenides spread the couch, and an unholy owl settled on the roof and sat on the top of the bridal chamber.",
+   "i": "The Kindly Ones held the torches, and had caught them up from a funeral; the Kindly Ones made the bed; and an unhallowed owl came down on the roof and perched over the bridal chamber.",
+   "n": "`Eumenides`, 'the Kindly Ones', is the propitiatory name Greeks used for the Furies because the true name was dangerous to say — and the euphemism is the point, since these are exactly the wrong powers to have at a wedding. The anaphora (`Eumenides ... Eumenides`) puts them where the bridesmaids should be, holding the wedding torches and spreading the marriage couch, and their torches came off a funeral. `tenuere` and `stravere` are the poetic third-plural perfect again. `profanus` is 'unholy, outside the sacred'; the `bubo`, the eagle-owl, is a bird of ill omen in Roman augury.",
+   "v": true,
+   "ln": 430
+  },
+  {
+   "t": "Hac ave coniuncti Procne Tereusque, parentes\nhac ave sunt facti.",
+   "l": "With this bird Procne and Tereus were joined; with this bird they were made parents.",
+   "i": "Under that bird Procne and Tereus were married; under that bird they became parents.",
+   "n": "`hac ave` opens both halves, framing them. `avis` is both 'bird' and 'omen' — Roman augury reads the future off birds — so 'with this bird' is at the same time 'under this auspice', and the owl of the line before is both at once. The repetition stretches the omen over the whole marriage: the wedding and the birth of the child alike.",
+   "v": true,
+   "ln": 433
+  },
+  {
+   "t": "Gratata est scilicet illis\nThracia, disque ipsi grates egere diemque,\nquaque data est claro Pandione nata tyranno,\nquaque erat ortus Itys, festum iussere vocari.",
+   "l": "Thrace congratulated them, naturally, and they themselves gave thanks to the gods, and both the day on which the daughter born of famous Pandion was given to the king, and the day on which Itys had been born, they ordered to be called a festival.",
+   "i": "Thrace congratulated them, naturally; and they gave thanks to the gods themselves, and ordered two days kept as holidays — the one on which illustrious Pandion's daughter was handed over to the king, and the one on which Itys was born.",
+   "n": "`scilicet`, 'of course', is the narrator's irony: the congratulations are real and wholly misplaced. `egere` and `iussere` are the poetic third-plural perfects. `Pandione nata` is the ablative of origin, 'the one born from Pandion' — Procne named by her father rather than by herself, as she will be again at 520. `claro` is taken here with `Pandione`, which it stands next to; it can equally be taken with `tyranno` at the line's end, framing `Pandione nata` and picking up Tereus's `clarum ... nomen` at 425. `tyrannus` in Latin verse is simply a monarch, most often a foreign one, and carries none of the modern sense. The two feast-days are the wedding and the birth of Itys, and the poem is careful to fix both.",
+   "v": true,
+   "ln": 434
+  },
+  {
+   "t": "Usque adeo latet utilitas.",
+   "l": "So completely does advantage lie hidden.",
+   "i": "So far out of sight lies what is really good for us.",
+   "n": "A one-line sententia closing the paragraph: `usque adeo`, 'to such a degree', with `latet`, 'lies hidden'. `utilitas` is what is advantageous, what serves — and the point is that the Thracians cannot tell a day worth celebrating from a day worth mourning, and are keeping both as holidays.",
+   "v": true,
+   "ln": 438
+  },
+  {
+   "t": "Iam tempora Titan\nquinque per autumnos repetiti duxerat anni,",
+   "l": "Already Titan had led the seasons of the returning year through five autumns,",
+   "i": "By now the Sun had drawn the seasons of the year round again through five autumns,",
+   "n": "`Titan` is the Sun, named by his descent from the Titans, and `duxerat tempora ... anni` makes him the driver of the year's round. `repetiti anni` is a genitive, 'of the year that comes back again'; five autumns are five years. The pluperfect sets a long quiet stretch against the speed of everything that follows.",
+   "v": true,
+   "ln": 438
+  },
+  {
+   "t": "cum blandita viro Procne “si gratia” dixit\n“ulla mea est, vel me visendam mitte sorori,\nvel soror huc veniat!",
+   "l": "when Procne, having coaxed her husband, said: “If any favour of mine exists, either send me to be looked upon by my sister, or let my sister come here!",
+   "i": "when Procne worked on her husband and said: “If I have any credit with you, either send me to my sister so she can see me, or let her come to me.",
+   "n": "`blandita` is the perfect participle of the deponent `blandior` and is active in force — 'having coaxed', not 'having been coaxed'. `si gratia ulla mea est` is literally 'if any favour of mine exists', the idiom for 'if I have any standing with you'. `me visendam mitte sorori` is the gerundive of purpose after `mitto`, 'send me to be looked at', with `sorori` the dative of the agent the gerundive takes — 'by my sister', which in English comes out as 'send me to her'. Magnus prints `visendam`, agreeing with `me`; some editions print `visendae`, agreeing with `sorori`, which turns the sense round — send me to a sister who is to be visited.",
+   "v": true,
+   "ln": 440
+  },
+  {
+   "t": "redituram tempore parvo\npromittes socero: magni mihi muneris instar\ngermanam vidisse dabis.”",
+   "l": "You will promise your father-in-law that she will return in a short time: you will give me, as the equivalent of a great gift, to have seen my sister.”",
+   "i": "You can promise my father she will be back in no time. Letting me see my sister will be as good as any great gift, and it is yours to give.”",
+   "n": "`redituram [esse]` is the future infinitive in indirect statement after `promittes`, with `esse` left out as Latin regularly leaves it. `socero` is Procne's word for her own father: she calls him Tereus's father-in-law, seeing him from her husband's side. `instar` is an indeclinable noun meaning 'the equivalent of', taking the genitive `magni muneris`; the object of `dabis` is the perfect infinitive `germanam vidisse`, 'the having-seen'. The subject of `dabis` is Tereus, and the whole request is shaped to let him feel he is the giver.",
+   "v": true,
+   "ln": 442
+  },
+  {
+   "t": "Iubet ille carinas\nin freta deduci veloque et remige portus\nCecropios intrat Piraeaque litora tangit.",
+   "l": "He orders the keels drawn down into the straits, and with sail and oarsman he enters the Cecropian harbours and touches the Piraean shores.",
+   "i": "He gave the order to run the ships down into the water, and under sail and oar he entered the harbours of Athens and came ashore at Piraeus.",
+   "n": "`deducere navem` is the technical phrase for drawing a ship down the beach into the sea, the opposite of `subducere`; `carina`, the keel, stands for the whole ship. `remige` is a collective singular — one 'oarsman' for the whole bank of them — paired with `velo` as ablatives of means. `Cecropios ... portus`: Cecrops was the first king of Athens, so 'Cecropian' is 'Athenian', and Piraeus is its port. Three finite verbs in three lines (`iubet`, `intrat`, `tangit`): the crossing takes no time at all.",
+   "v": true,
+   "ln": 444
+  },
+  {
+   "t": "Ut primum soceri data copia, dextera dextrae\niungitur, et fausto committitur omine sermo.",
+   "l": "As soon as access to the father-in-law was granted, right hand is joined to right hand, and the talk is begun with a favourable omen.",
+   "i": "The moment he was let in to his father-in-law, right hand was joined to right, and the conversation opened under a lucky sign.",
+   "n": "`data [est] copia`, with the `est` dropped as often; `copia` with the genitive `soceri` is 'the chance of access to him'. `dextera dextrae iungitur` is the formal gesture of guest-friendship and good faith, and the same two hands are clasped again at 494; at 506 Pandion joins Tereus's right hand to Philomela's. `fausto ... omine` is an ablative of attendant circumstance, 'with the omen favourable' — and the reader has been told at 430–432 what the omens for this house are worth.",
+   "p": true,
+   "v": true,
+   "ln": 447
+  },
+  {
+   "t": "Coeperat adventus causam, mandata referre\nconiugis et celeres missae spondere recursus:",
+   "l": "He had begun to relate the reason for his coming, his wife's instructions, and to promise the swift return of her once sent:",
+   "i": "He had begun to set out why he had come, and what his wife had charged him with, and to promise she would be sent straight back —",
+   "n": "`coeperat` is pluperfect, and the tense is the whole trick of the sentence: he *had* begun, and something cuts across it. `mandata coniugis` are Procne's instructions, the errand he carries; `celeres ... recursus` is a poetic plural for one return journey, and `missae` is the genitive of the participle agreeing with an understood 'her', 'of her once sent'. Everything before Magnus's colon is business.",
+   "v": true,
+   "ln": 449
+  },
+  {
+   "t": "ecce venit magno dives Philomela paratu,\ndivitior forma: quales audire solemus\nnaidas et dryadas mediis incedere silvis,\nsi modo des illis cultus similesque paratus.",
+   "l": "behold, Philomela comes, rich in great array, richer in beauty: such as we are used to hear that naiads and dryads walk in the middle of the woods, if only you were to give them dress and array like hers.",
+   "i": "and in comes Philomela, rich in her finery and richer in her beauty — the way we hear that naiads and dryads move through the deep woods, if only you gave them clothes and ornament like hers.",
+   "n": "`dives ... divitior` sets the comparative against the positive within two lines: rich in what she is wearing, richer in what she is. `paratus` is the outfitting and adornment of a great house, and Ovid then makes it the hinge of the comparison, since the nymphs would need exactly that to match her. `quales ... incedere` is indirect statement after `audire solemus`, and `incedere` is the stately walk, not ordinary going. `si modo des` is an ideal condition in the present subjunctive, 'if only you were to give'. The description is the narrator's, in the last moment before Tereus sees her.",
+   "v": true,
+   "ln": 451
+  },
+  {
+   "t": "Non secus exarsit conspecta virgine Tereus,\nquam siquis canis ignem supponat aristis,\naut frondem positasque cremet faenilibus herbas.",
+   "l": "Not otherwise did Tereus blaze up, the girl once seen, than if someone were to put fire under white corn-ears, or were to burn leafage and grasses laid up in haylofts.",
+   "i": "Tereus caught fire at the sight of the girl exactly as a man does who puts a flame under white-ripe corn, or burns dry leaves and stored hay.",
+   "n": "`conspecta virgine` is an ablative absolute — 'with the girl once seen' — where English wants a clause of time or cause. The simile runs on `non secus ... quam si`, 'not otherwise than if', with `supponat` and `cremet` in the subjunctive of comparison. `canus` in `canis aristis` is white in the sense of hoary: corn dried pale for the harvest. Everything in the simile is bone-dry and stored — things that go up at a touch and cannot be put out again. The fire vocabulary runs through the whole passage: `exarsit` here, then `flagrat` (460), `flammas` (466), `facibus` (480), `ignes` (492).",
+   "v": true,
+   "ln": 455
+  },
+  {
+   "t": "Digna quidem facies: sed et hunc innata libido\nexstimulat, pronumque genus regionibus illis\nin venerem est: flagrat vitio gentisque suoque.",
+   "l": "Her beauty was indeed deserving: but inborn lust goads this man too, and the stock in those regions is inclined to sex — he blazes with his people's vice and with his own.",
+   "i": "Her beauty warranted it, certainly — but there is a lust bred in him as well, and the breed in those parts runs to sex: he is on fire with his nation's vice and his own.",
+   "n": "`digna quidem facies` concedes the beauty and then takes the excuse away with `sed et hunc`: the desire was in him already. `innata libido` is lust bred in, not aroused; `exstimulat` is to drive with a goad. `pronum ... in venerem` is 'inclined towards sex', `venus` in its plain sense of sexual appetite, with `regionibus illis` locating the claim. Notice what the narrator does in `vitio gentis`, 'his people's vice': the passage lays part of the blame on Thracians as a race, which is a Roman commonplace about the peoples north of Greece — and then adds `suoque`, 'and his own', so that the man is not let off by it.",
+   "v": true,
+   "ln": 458
+  },
+  {
+   "t": "Impetus est illi comitum corrumpere curam\nnutricisque fidem, nec non ingentibus ipsam\nsollicitare datis totumque impendere regnum,\naut rapere et saevo raptam defendere bello—,",
+   "l": "There is an impulse to him to corrupt the guardianship of her attendants and the loyalty of her nurse, and further to work on the girl herself with enormous gifts and to spend his whole kingdom, or to seize her and defend the seized woman in savage war—",
+   "i": "The urge takes him to buy off the attendants who watch her and the nurse's loyalty, to work on the girl herself with vast presents, to spend his entire kingdom on it — or else to carry her off by force and defend the woman he had seized in a savage war —",
+   "n": "`impetus est illi` is the dative of possession: 'there is an impulse to him', the urge is on him rather than chosen by him. The infinitives `corrumpere`, `sollicitare`, `impendere`, `rapere` and `defendere` all hang on it as the list of what he considers, and the list runs from bribery to abduction without a break. `rapere` is the standing verb for carrying a woman off by force, and `raptam`, 'the seized woman', makes her the object of a war before she is anything else. The dash at the line's end is Magnus's punctuation for a thought cut short.",
+   "v": true,
+   "ln": 461
+  },
+  {
+   "t": "et nihil est quod non effreno captus amore\nausit nec capiunt inclusas pectora flammas.",
+   "l": "and there is nothing that he, caught by unbridled love, would not dare, nor does his breast hold the flames shut inside it.",
+   "i": "and there is nothing he would not dare, taken as he is by a love with no bridle on it; his chest has no room for the flames locked up in it.",
+   "n": "`nihil est quod non ... ausit` is a relative clause of characteristic with the subjunctive: 'there is nothing of such a kind that he would not dare it'. `effreno ... amore` is 'unbridled' — the image is a horse without a bit — and `captus` makes him the one taken, which is how the poem keeps the desire outside his will while leaving the acts inside it. `capiunt` in the next clause means 'hold, have room for', not 'take', so the two senses of `capere` stand a line apart. `pectora` is a poetic plural for the one breast.",
+   "v": true,
+   "ln": 465
+  },
+  {
+   "t": "Iamque moras male fert cupidoque revertitur ore\nad mandata Procnes, et agit sua vota sub illa.",
+   "l": "And now he bears delays badly, and with greedy mouth returns to Procne's instructions, and drives his own prayers under cover of her.",
+   "i": "By now he can hardly stand the delay: he comes back with a greedy mouth to Procne's errand and works his own wishes in under cover of her.",
+   "n": "`male fert` is 'bears badly', the ordinary idiom for cannot stand. `cupido ... ore` is an ablative of manner, and `cupidus` is the word for appetite of every kind: the mouth is greedy before the man has said anything. `sub` here is the preposition of concealment and takes the ablative, so `illa` is feminine singular and cannot be the neuter plural `mandata`: it is Procne herself, or the `causa` of 449, and his own `vota` travel under cover of her. The device of the whole scene is that nothing he says is untrue.",
+   "v": true,
+   "ln": 467
+  },
+  {
+   "t": "Facundum faciebat amor: quotiensque rogabat\nulterius iusto Procnen ita velle ferebat.",
+   "l": "Love was making him eloquent: and as often as he asked further than was right, he kept saying that Procne wanted it so.",
+   "i": "Desire was making him eloquent, and every time he pushed past what was decent he said it was Procne who wanted it.",
+   "n": "The imperfects here are iterative — `faciebat`, `rogabat`, `ferebat` are what he did over and over, not once. `ulterius iusto` is a comparative with the ablative of comparison, 'further than what is right'. `Procnen` is the Greek accusative. `ferebat` is 'kept reporting', the verb for carrying a message, and the report has just enough truth in it to work: Procne does want her sister fetched — what she never asked for is the `ulterius iusto`, and that is what he lays on her.",
+   "v": true,
+   "ln": 469
+  },
+  {
+   "t": "Addidit et lacrimas, tamquam mandasset et illas.",
+   "l": "He added tears as well, as though she had given him those to deliver too.",
+   "n": "`mandasset` is syncopated for `mandavisset`, the pluperfect subjunctive after `tamquam` in an unreal comparison. `et illas`, 'those as well', is feminine and picks up `lacrimas`; what reaches back to the `mandata` of 468 is `mandasset`, so the tears are filed with the rest of the errand, as if weeping were part of the delivery.",
+   "v": true,
+   "ln": 471
+  },
+  {
+   "t": "Pro superi, quantum mortalia pectora caecae\nnoctis habent! ipso sceleris molimine Tereus\ncreditur esse pius laudemque a crimine sumit.",
+   "l": "By the gods above, how much blind night mortal breasts hold! By the very effort of his crime Tereus is believed to be dutiful, and takes praise out of the offence.",
+   "i": "Gods above — what a depth of blind night there is in mortal hearts! By the very machinery of his crime Tereus is taken for a dutiful man, and wins credit out of the offence.",
+   "n": "An exclamation broken into the narrative. `pro superi` is the vocative with the interjection `pro`; `quantum ... caecae noctis` is a partitive genitive, 'how much of blind night'. The night is blind both ways — dark inside the heart, and impossible to see into from outside. `molimen` is the heavy effort of shifting something huge. `pius` is the whole Roman virtue of doing right by family and gods, and `crimen` is the charge, the offence; the sentence is built so the two words trade places.",
+   "v": true,
+   "ln": 472
+  },
+  {
+   "t": "Quid quod idem Philomela cupit patriosque lacertis\nblanda tenens umeros, ut eat visura sororem,\nperque suam contraque suam petit ipsa salutem.",
+   "l": "What of this — that Philomela wants the same thing, and, coaxing, holding her father's shoulders in her arms, she herself asks — that she may go to see her sister — by her own safety and against her own safety.",
+   "i": "And there is more: Philomela wants the same thing. Winding her arms round her father's shoulders and coaxing him to let her go and see her sister, she pleads for it in the name of her own safety — and against it.",
+   "n": "`quid quod` is the idiom for adding a worse item to a list, 'what of the fact that'. `blanda` is an adjective doing adverbial work, 'coaxingly', from the same root as Procne's `blandita` at 440: both sisters get their way the same way. `patrios ... umeros` is the possessive adjective where English wants a genitive. `ut eat visura` puts a future participle inside a purpose clause, 'that she may go to see'. The last line turns on one repeated word: `per suam salutem` is the oath formula, swearing by her own well-being, and `contra suam salutem` says what the swearing is doing.",
+   "v": true,
+   "ln": 475
+  },
+  {
+   "t": "Spectat eam Tereus praecontrectatque videndo\nosculaque et collo circumdata bracchia cernens\nomnia pro stimulis facibusque ciboque furoris\naccipit;",
+   "l": "Tereus watches her and gropes her in advance by looking, and, seeing the kisses and the arms put round her father's neck, takes it all for goads and torches and food for his frenzy;",
+   "i": "Tereus watches her, and gropes her with his eyes before ever touching her; and seeing the kisses, the arms flung round her father's neck, he takes every bit of it as spur and torch and fuel for his frenzy;",
+   "n": "`praecontrectat` appears to be Ovid's own compound. `contrectare` is to handle, to feel over, and it is the ordinary Latin word for groping; the `prae-` makes it 'in advance', before the hands are on her. The verb is the narrator's judgement of what the looking is, and it is not a figure for admiration. `videndo` is the ablative gerund, 'by seeing'. `collo circumdata bracchia` is the participle with a dative, 'arms put round the neck': the affection is a daughter's and he is reading it as something else. `pro stimulis facibusque ciboque` piles three ablatives, three metaphors, on one appetite.",
+   "v": true,
+   "ln": 478
+  },
+  {
+   "t": "et quotiens amplectitur illa parentem,\nesse parens vellet: neque enim minus impius esset.",
+   "l": "and as often as she embraces her father, he would wish to be her father: for he would be no less unholy.",
+   "i": "and every time she embraces her father he would like to be her father — and would be no less unholy a man for it.",
+   "n": "`vellet` and `esset` are imperfect subjunctives, the unreal wish and its consequence: he would want to be her father if he could. `impius` is the formal negative of the `pius` he was credited with at 474 — the failure of the duty owed to family and gods, with its religious half uppermost here. The narrator's point is that the wish is already that failure. `neque enim minus` says that changing places with Pandion would not make the desire innocent: incest is only the other name for it.",
+   "v": true,
+   "ln": 481
+  },
+  {
+   "t": "Vincitur ambarum genitor prece.",
+   "l": "The father is overcome by the prayer of both.",
+   "i": "Their father gives way to the two of them pleading.",
+   "n": "`vincitur` is the verb of military defeat: he is beaten. `ambarum ... prece` makes one singular 'prayer' out of both women — Procne's message and Philomela's arms round his neck arriving as a single thing. `genitor`, the begetter, keeps the family relation in view at the moment it is being used against him.",
+   "v": true,
+   "ln": 483
+  },
+  {
+   "t": "Gaudet agitque\nilla patri grates et successisse duabus\nid putat infelix, quod erit lugubre duabus.",
+   "l": "She rejoices and gives her father thanks, and thinks, unlucky girl, that the thing has succeeded for the two of them which will be a grief to the two of them.",
+   "i": "She was glad, and thanked her father, and thought — poor girl — that the two of them had got what they wanted; and it was the very thing that would put the two of them in mourning.",
+   "n": "`illa` is Philomela. The same dative `duabus`, 'for the two of them', closes both lines, once for the success and once for the grief, so that the couplet ends twice on the same word. `infelix`, 'ill-starred', is dropped in as the narrator's aside about the girl who is doing the thanking. `successisse` is a perfect infinitive in indirect statement after `putat`.",
+   "v": true,
+   "ln": 483
+  },
+  {
+   "t": "Iam labor exiguus Phoebo restabat, equique\npulsabant pedibus spatium declivis Olympi:",
+   "l": "Now a small labour remained for Phoebus, and his horses were beating with their feet the stretch of sloping Olympus:",
+   "i": "Only a little of the day's work was left for the Sun now, and his horses were striking with their hooves the downhill stretch of the sky.",
+   "n": "`labor exiguus ... restabat` takes a dative of the person left with the task: Phoebus the Sun has a short run still to make. `Olympus` stands for the sky, and `declivis`, 'sloping down', puts the chariot on the western half of its course. The two lines say only that it was late afternoon: Ovid times the scene by the sun rather than naming an hour.",
+   "p": true,
+   "v": true,
+   "ln": 486
+  },
+  {
+   "t": "regales epulae mensis et Bacchus in auro\nponitur; hinc placido dantur sua corpora somno.",
+   "l": "royal feasts are set on the tables, and Bacchus in gold; after this their own bodies are given over to peaceful sleep.",
+   "i": "A royal dinner is laid out on the tables, and wine in gold; after that they give their bodies over to quiet sleep.",
+   "n": "`Bacchus` is the god's name standing for the wine, and `in auro` is the gold the cup is made of — two metonymies in three words. `ponitur` is singular although it has two subjects, agreeing with the nearer one, the singular `Bacchus`, which Latin verse allows. Magnus prints `dantur sua corpora somno`, 'their bodies are given to sleep'; some editions print `dant turgida corpora somno`, 'they give their gorged bodies to sleep', which makes the sleepers the subject and puts the weight of the dinner into the line.",
+   "v": true,
+   "ln": 488
+  },
+  {
+   "t": "At rex Odrysius, quamvis secessit, in illa\naestuat, et, repetens faciem motusque manusque,\nqualia vult fingit quae nondum vidit, et ignes\nipse suos nutrit, cura removente soporem.",
+   "l": "But the Odrysian king, although he has withdrawn, seethes for her, and, going back over her face and her movements and her hands, imagines as he wants them the things he has not yet seen, and himself feeds his own fires, his obsession taking sleep away.",
+   "i": "But the Odrysian king, though he had gone off to bed, was seething for her; going back over her face, her movements, her hands, he pictured what he had not yet seen just as he wanted it, and fed his own fires himself, while the obsession kept sleep off him.",
+   "n": "`Odrysius` is 'Thracian', from the Odrysae, the leading Thracian people: the narrator names him by his nation here rather than by his name. `aestuat in illa` is the verb of boiling water and of fever, with `in` marking what the heat is aimed at. `qualia vult fingit quae nondum vidit` is the ugly centre of the sentence — `fingere` is to shape or invent, and what he shapes is her body, unseen, to his own specification. `motus` is plural, the ways she moved. `cura removente soporem` is an ablative absolute, 'with the obsession removing sleep'.",
+   "v": true,
+   "ln": 490
+  },
+  {
+   "t": "Lux erat, et generi dextram complexus euntis\nPandion comitem lacrimis commendat obortis:",
+   "l": "It was daylight, and, having clasped the right hand of his departing son-in-law, Pandion commends his companion to him with tears risen up:",
+   "i": "Day came, and Pandion took the right hand of his son-in-law as he was leaving and commended his travelling companion to him with tears starting:",
+   "n": "`generi ... euntis` is a genitive after `dextram`, 'the hand of his son-in-law as he goes'. The hand-clasp is the gesture of 447; at 506 he will demand the right hands of Tereus and Philomela and join them to each other. `comitem` is a bleak word for Philomela, and it is the narrator's, one line before Pandion speaks: she is handed over as the traveller's companion. `lacrimis ... obortis` is an ablative absolute, `oborior` being the verb used of tears welling up. `complexus` is the perfect participle of the deponent `complector` and is active in force — 'having clasped', not 'having been clasped'.",
+   "v": true,
+   "ln": 494
+  },
+  {
+   "t": "“Hanc ego, care gener, quoniam pia causa coegit\net voluere ambae, voluisti tu quoque, Tereu,\ndo tibi,",
+   "l": "“This girl, dear son-in-law, since a dutiful cause has compelled it and both wished it — you wished it too, Tereus — I give to you,",
+   "i": "“Dear son-in-law, since the reason for it is a loving one, and both of them wanted it, and you wanted it too, Tereus — I give her to you,",
+   "n": "The frame of the sentence is `Hanc ego ... do tibi`, held apart across three lines with the reasons packed inside it: the syntax of a man talking himself into something. `pia causa` is the same `pius` Tereus was falsely credited with at 474. `voluere` is the poetic third-plural perfect. The vocative `Tereu` is the Greek form of the name. And `hanc`, 'this one', not her name — she is being pointed at rather than addressed.",
+   "p": true,
+   "v": true,
+   "ln": 496
+  },
+  {
+   "t": "perque fidem cognataque pectora supplex,\nper superos oro, patrio ut tuearis amore\net mihi sollicitae lenimen dulce senectae\nquam primum (omnis erit nobis mora longa) remittas.",
+   "l": "and by good faith and by hearts of kin, as a suppliant, by the gods above I beg that you guard her with a father's love and send her back to me — the sweet easing of my anxious old age — as soon as may be (every delay will be long for us).",
+   "i": "and on your honour, and on the bond of blood, as a suppliant, and by the gods above I beg you: guard her with a father's love, and send her back to me as soon as you can — any delay will be long to us — for she is the sweet easing of my anxious old age.",
+   "n": "`per ... per ...` is the oath formula twice over, with `oro` held back until the second: he swears by good faith, by the ties of kinship, and by the gods. `supplex` puts a king in the posture of a suppliant before his own son-in-law. `ut tuearis ... remittas` is an indirect command after `oro`, both verbs subjunctive. `patrio ... amore`, 'with a father's love', asks Tereus for the one thing he is furthest from. `lenimen dulce senectae` stands in apposition to the girl he is asking to have back: she is the thing that soothes his old age. The parenthesis is Magnus's.",
+   "v": true,
+   "ln": 498
+  },
+  {
+   "t": "Tu quoque quam primum (satis est procul esse sororem)\nsi pietas ulla est, ad me, Philomela, redito.”",
+   "l": "You too, as soon as may be — it is enough that one sister is far off — if there is any family duty in you, come back to me, Philomela.”",
+   "i": "And you, Philomela — if you have any family duty in you, come back to me as soon as you can. It is enough that one sister is far away.”",
+   "n": "`redito` is a future imperative, 'you shall come back' — the form used for standing orders and legal injunctions, and heavier than a plain `redi`. `si pietas ulla est` brings in the family-duty word for the second time in this short speech (`pia causa` at 496): family feeling is the only hold Pandion has on either of them. `satis est procul esse sororem` is an indirect statement inside the parenthesis, 'that one sister is far away is enough' — he has already lost Procne to Thrace.",
+   "v": true,
+   "ln": 502
+  },
+  {
+   "t": "Mandabat pariterque suae dabat oscula natae,\net lacrimae mites inter mandata cadebant.",
+   "l": "He kept charging them, and at the same time kept giving kisses to his own daughter, and gentle tears kept falling in among the charges.",
+   "i": "He went on with his instructions, kissing his daughter as he gave them, and soft tears kept falling in the gaps between the words.",
+   "n": "Three imperfects in two lines — `mandabat`, `dabat`, `cadebant` — hold the parting open: nothing here is done once. `mites` of tears is 'gentle, mild', and marks these as quiet tears; four lines later he is choking on them. `inter mandata` is literal — the tears fall between the instructions, in the pauses in his speech.",
+   "p": true,
+   "v": true,
+   "ln": 504
+  },
+  {
+   "t": "Utque fide pignus dextras utriusque poposcit\ninter seque datas iunxit natamque nepotemque\nabsentes pro se memori rogat ore salutent;",
+   "l": "And when he had demanded the right hands of both as a pledge of good faith and joined them once given to each other, he asks that they greet for him, with a remembering mouth, his absent daughter and grandson;",
+   "i": "And when he had asked them both for their right hands as a pledge of good faith and joined them once they were given, he asked them to remember to carry his greeting to his daughter and his grandson, who were not there;",
+   "n": "`pignus` is a pledge or security, and the right hand given is the pledge; `utriusque` is the genitive of `uterque`, 'of each of the two', so Tereus and Philomela are bound by it together. `inter se datas` is 'given to one another'. `rogat ... salutent` drops the `ut` before the subjunctive, which Latin allows after verbs of asking. `memori ... ore` is an ablative of manner, 'with a remembering mouth': he is asking them not to forget. The daughter and grandson are Procne and Itys.",
+   "v": true,
+   "ln": 506
+  },
+  {
+   "t": "supremumque vale pleno singultibus ore\nvix dixit timuitque suae praesagia mentis.",
+   "l": "and a last farewell, with his mouth full of sobs, he scarcely said, and he feared the forebodings of his own mind.",
+   "i": "and he could barely get out a last farewell, his mouth full of sobs, and he was afraid of what his own mind was telling him.",
+   "n": "`supremum ... vale` is the word 'farewell' itself as the accusative object of `dixit`. `supremus` is the superlative used of last things and of the dead — the farewell said over a body — and Ovid chooses it here rather than `ultimum`. `pleno singultibus ore` is an ablative of manner, 'with his mouth full of sobs', with `singultibus` the ablative that `plenus` takes beside the genitive. `praesagia mentis` are the forebodings his own mind is producing: what he fears is not the voyage but what he cannot stop himself sensing.",
+   "v": true,
+   "ln": 509
+  },
+  {
+   "t": "Ut semel imposita est pictae Philomela carinae,\nadmotumque fretum remis tellusque repulsa est,\n“vicimus” exclamat, “mecum mea vota feruntur”",
+   "l": "As soon as Philomela had been put aboard the painted ship, and the sea had been brought close by the oars and the land pushed away, “We have won,” he shouts, “my prayers are being carried along with me”",
+   "i": "The moment Philomela was aboard the painted ship, and the oars had pulled the sea closer and shoved the land away, he shouts: “We have won — what I prayed for is sailing with me”",
+   "n": "`imposita est ... carinae` is the dative after a compound verb, 'set onto the keel'; `carina`, the keel, again stands for the ship, and `picta`, painted, is the ordinary decoration of a hull. The middle line inverts the point of view to the rowers': it is the sea that is brought nearer and the land that is shoved off, not the ship that moves. `vicimus` is the plural of a victor, the word of a general's dispatch, used here of a girl whose father has just handed her over. `vota` are things prayed for, and his are aboard.",
+   "p": true,
+   "v": true,
+   "ln": 511
+  },
+  {
+   "t": "exsultatque et vix animo sua gaudia differt\nbarbarus et nusquam lumen detorquet ab illa,",
+   "l": "and he exults, and the barbarian scarcely puts off his joys even in his mind, and nowhere turns his eye away from her,",
+   "i": "and he is exulting; the barbarian can hardly hold his pleasures off even inside his own head, and never once turns his eyes away from her,",
+   "n": "`barbarus` is held back to the head of its line, so that the word naming him lands like a verdict — and it is the narrator's word, the Greek and Roman term for a non-Greek-speaker with all the contempt it carries. It was used of the invading army at 423, and Philomela will throw it at him herself at 533. `vix ... differt` is 'scarcely defers': the pleasure is postponed, not given up, and `animo` says he is not even postponing it in his head. `lumen` is the light of the eye, singular for the pair; `detorquet` is to twist away.",
+   "v": true,
+   "ln": 514
+  },
+  {
+   "t": "non aliter, quam cum pedibus praedator obuncis\ndeposuit nido leporem Iovis ales in alto:\nnulla fuga est capto, spectat sua praemia raptor.",
+   "l": "not otherwise than when the plunderer with hooked feet, the bird of Jove, has set a hare down in a high nest: there is no escape for the captive, and the seizer looks at his prize.",
+   "i": "exactly as when the raptor with the hooked claws, the bird of Jove, has dropped a hare into its high nest: there is no escape for the caught thing, and the seizer looks at his prize.",
+   "n": "`Iovis ales`, 'the bird of Jove', is the eagle, and the word order withholds the name until after `praedator`, 'plunderer', and `pedibus obuncis`, 'with hooked feet' — the creature is described before it is identified. `capto` is a dative of reference, 'for the one caught'. `raptor` is from `rapio`, the verb used of carrying a woman off at 464, so the simile's last word points straight back at Tereus, and `praemia` are the spoils of a hunt or a war. The simile's action is over before it starts: the eagle has already made its catch, and what closes it is a predator looking at what it has already caught — which is exactly what the line before the simile described.",
+   "v": true,
+   "ln": 516
+  },
+  {
+   "t": "Iamque iter effectum, iamque in sua litora fessis\npuppibus exierant, cum rex Pandione natam\nin stabula alta trahit, silvis obscura vetustis,",
+   "l": "And now the journey was done, and now they had come out onto his own shores from the weary ships, when the king drags the daughter of Pandion into a deep steading, dark with ancient woods,",
+   "i": "The voyage was over now, and they had come ashore on his own coast from the worn-out ships — and then the king dragged Pandion's daughter into a steading deep in the woods, dark under old trees,",
+   "n": "`iamque ... iamque` hurries the whole crossing into half a line. `fessis puppibus` transfers the weariness from the crew to the ships. Then the sentence turns on `cum`, and `trahit` is a present tense inside a past narrative — the historic present, which drops the reader into the scene. `Pandione natam` is 'the one born from Pandion' again, as at 436: she is named by her father at the moment her father cannot reach her. `stabula` is a farm building or steading, and `alta` of a building is deep-set rather than lofty; `silvis obscura vetustis` is neuter plural agreeing with it.",
+   "v": true,
+   "ln": 519
+  },
+  {
+   "t": "atque ibi pallentem trepidamque et cuncta timentem\net iam cum lacrimis, ubi sit germana, rogantem\nincludit:",
+   "l": "and there — her, pale and shaking and afraid of everything and by now, in tears, asking where her sister is — he shuts her in:",
+   "i": "and there he shut her in: white-faced, shaking, frightened of everything, in tears by now and asking where her sister was.",
+   "n": "Four terms in a row agreeing with the unnamed 'her' — three participles and an adjective, `pallentem`, `trepidam`, `cuncta timentem`, `rogantem` — and Ovid holds `includit` back to the start of the next line so that the reader is made to wait with her. `cuncta timentem` takes a direct object: fearing all things. `ubi sit germana` is an indirect question with the subjunctive, tucked inside `rogantem`.",
+   "v": true,
+   "ln": 522
+  },
+  {
+   "t": "fassusque nefas et virginem et unam\nvi superat frustra clamato saepe parente,\nsaepe sorore sua, magnis super omnia divis.",
+   "l": "and, having confessed the abomination, he overcomes by force both a virgin and one alone, her father called on in vain over and over, over and over her sister, and above everything the great gods.",
+   "i": "and, having spoken the abomination aloud first, he raped her — a virgin, and by herself — while she called on her father, over and over, for nothing, and on her sister, and above all on the great gods.",
+   "n": "`fateor` is to confess, and `nefas` is what is unspeakable, what religion forbids: he tells her what he is about to do before he does it. `et virginem et unam` is two accusatives sharpening the same object — she is a virgin, and she is alone. `vi superat`, 'overcomes by force', is the plain Latin description of a rape and not a euphemism for one. `frustra clamato saepe parente` is an ablative absolute with the participle put first, 'her father being called on in vain', and the `saepe` repeated at the head of the next line makes the calling go on and on; `sorore` and `divis` continue the same construction. Nothing interrupts, and nothing answers.",
+   "v": true,
+   "ln": 524
+  },
+  {
+   "t": "Illa tremit velut agna pavens, quae saucia cani\nore excussa lupi nondum sibi tuta videtur,",
+   "l": "She trembles like a frightened lamb which, wounded, shaken out of the grey wolf's mouth, does not yet seem safe to herself,",
+   "i": "She was shaking like a terrified lamb that has been wounded and shaken loose from a grey wolf's jaws and still cannot think itself safe,",
+   "n": "The first of two similes, and both are of prey already caught. `saucia`, 'wounded', is the word for a wound taken in battle. `cani ... ore ... lupi` splits the wolf across the line, 'from the grey mouth of the wolf', `canus` being the same hoary white as the ripe corn at 456. `excussa` is 'shaken out', what a dog does to what it has bitten. `sibi tuta videtur` is 'seems safe to herself': what matters is what the animal feels, not what is true — the sentence has moved inside her.",
+   "v": true,
+   "ln": 527
+  },
+  {
+   "t": "utque columba suo madefactis sanguine plumis\nhorret adhuc avidosque timet, quibus haeserat, ungues.",
+   "l": "and like a dove which, its feathers soaked with its own blood, still shudders and fears the greedy talons it had hung from.",
+   "i": "and like a dove with its feathers soaked in its own blood, shuddering still, still afraid of the greedy claws it had been caught on.",
+   "n": "`suo madefactis sanguine plumis` is an ablative absolute of the kind Latin allows when the noun is a part of the subject rather than the subject itself, 'its feathers soaked with its own blood', and `suo` is emphatic — its own and no one else's. `horret` is to bristle and to shudder at once, which suits feathers and fear together. In `quibus haeserat` the relative picks up `ungues`, in the dative-or-ablative that `haereo` takes, 'on which it had stuck'. Both similes leave the creature alive, and neither of them lets it stop being afraid.",
+   "v": true,
+   "ln": 529
+  },
+  {
+   "t": "Mox ubi mens rediit, passos laniata capillos,\nlugenti similis, caesis plangore lacertis,\nintendens palmas “o diris barbare factis,\no crudelis” ait",
+   "l": "Soon, when her mind came back, torn as to her loosened hair, like a woman in mourning, her arms beaten in lamentation, stretching out her open hands she said: “You barbarian, in your dreadful deeds, you cruel man,”",
+   "i": "Presently, when her senses came back, she tore at her fallen hair like a woman at a graveside, her arms bruised with beating, and stretching out her open hands she said: “You barbarian, for the dreadful things you have done — you cruel man —”",
+   "n": "`passos laniata capillos` is the Greek accusative of respect with a middle-voice participle: she is 'torn as to her hair', which is Latin borrowing a Greek way of saying that she has torn her own. `passos` is from `pando`, to spread: hair let down, the mourner's undressed hair. `plangor` is the ritual beating of the arms and breast at a funeral, and `lugenti similis`, 'like a woman in mourning', says outright what the gestures are — she is holding her own funeral. `barbare` is a vocative, and it is the narrator's word from 515 now in her mouth.",
+   "v": true,
+   "ln": 531
+  },
+  {
+   "t": "“nec te mandata parentis\ncum lacrimis movere piis nec cura sororis\nnec mea virginitas nec coniugialia iura!",
+   "l": "“neither my father's charge with its loving tears moved you, nor care for my sister, nor my virginity, nor the rights of marriage!",
+   "i": "“my father's charge to you, and his loving tears, did not move you — nor any thought of my sister, nor my virginity, nor the law of marriage!",
+   "n": "Four subjects on one verb, each with its own `nec`, and the verb is the poetic third-plural perfect `movere` for `moverunt`. `piis`, 'dutiful, loving', is the family word again, attached here to Pandion's tears — the tears of 495 and 505. `coniugialia iura` are the rights of the marriage bond, which is Procne's claim on him: what he has done is adultery as well as rape, and Philomela lists that last.",
+   "v": true,
+   "ln": 534
+  },
+  {
+   "t": "Omnia turbasti: paelex ego facta sororis,\ntu geminus coniunx, hostis mihi debita Procne.",
+   "l": "You have thrown everything into confusion: I have been made my sister's mistress, you a twofold husband, Procne, owed to me, an enemy.",
+   "i": "You have wrecked everything: I am made my sister's mistress, you a husband twice over, and Procne, who was mine by right, an enemy.",
+   "n": "`paelex` is the word for the other woman, a wife's rival in her own house. It is a hostile word, and the hostility here is Philomela's, turned on herself: she has been raped, and she names herself with the term the household would use of her. Lectorium keeps it at that force rather than softening it, and what it conceals is that she chose nothing. `geminus coniunx`, 'a twofold husband', is the same charge from his side; `mihi debita` is 'owed to me', the sister she had a right to, and `hostis` puts her on the far side of a war. The last line has no verb in it at all, and `facta` in the line before has already dropped its `sum`: what is left is a list of new names for everyone in the house.",
+   "v": true,
+   "ln": 537
+  },
+  {
+   "t": "Quin animam hanc, ne quod facinus tibi, perfide, restet,\neripis?",
+   "l": "Why do you not tear out this life, so that no crime is left over for you, faithless man?",
+   "i": "Why not tear this life out of me too, so that no atrocity is left for you, traitor?",
+   "n": "`quin` with the present indicative is 'why not?', an impatient question that is really a demand: she is telling him to kill her. `animam eripere` is to snatch away the breath, the ordinary phrase for killing. `ne quod facinus tibi restet` is a purpose clause, with `quod` standing for `aliquod` as it does after `ne`. `perfide` is the vocative of the man who has broken faith — and the faith in question is the hand he gave her father at 506.",
+   "v": true,
+   "ln": 539
+  },
+  {
+   "t": "atque utinam fecisses ante nefandos\nconcubitus vacuas habuissem criminis umbras.",
+   "l": "And I wish you had done it before the abominable coupling: I would have had a shade empty of the charge.",
+   "i": "And I wish you had done it before that abominable coupling: my ghost would have gone down clean of the charge.",
+   "n": "`utinam fecisses` is the past unfulfilled wish in the pluperfect subjunctive, and `habuissem` is its consequence. `nefandus` is literally 'not to be spoken', the same root as the `nefas` Tereus confessed at 524. `umbras` is a poetic plural for one ghost, the shade she would have taken down with her; `vacuas criminis` is a genitive of separation, 'empty of the charge'. The horror in the line is that she reckons the guilt as hers to carry.",
+   "v": true,
+   "ln": 540
+  },
+  {
+   "t": "Si tamen haec superi cernunt, si numina divum\nsunt aliquid, si non perierunt omnia mecum,\nquandocumque mihi poenas dabis.",
+   "l": "If, however, the gods above see these things, if the powers of the gods are anything, if all things have not perished along with me, at some time you will pay the penalty to me.",
+   "i": "But if the gods above are watching this, if the powers of heaven amount to anything, if everything has not died along with me, then one day you will pay me for it.",
+   "n": "Three conditions in a row, each less confident than the last: `si ... si ... si non perierunt omnia mecum`. `numina divum sunt aliquid` is 'the gods' powers are something', with `aliquid` as a predicate — do they amount to anything at all. `perierunt omnia mecum` says she counts herself as already dead. `poenas dabis` is the idiom for paying a penalty, literally 'you will give punishments', and the dative `mihi` names who is paid: she is promising that the reckoning will be hers.",
+   "v": true,
+   "ln": 542
+  },
+  {
+   "t": "Ipsa pudore\nproiecto tua facta loquar.",
+   "l": "I myself, with shame thrown away, will speak your deeds.",
+   "i": "I will throw my shame down and say what you did.",
+   "n": "`pudore proiecto` is an ablative absolute, 'with modesty flung away'. `pudor` is both her modesty and her disgrace, so throwing it away is exactly the decision to say aloud the thing she has been shamed by. `tua facta loquar` is flat and terrible: 'I will speak your deeds', with no adjective on `facta` and nothing softened.",
+   "v": true,
+   "ln": 544
+  },
+  {
+   "t": "Si copia detur,\nin populos veniam;",
+   "l": "If the chance be given, I shall come out among the peoples;",
+   "i": "If I am given the chance, I will go out among people;",
+   "n": "`si copia detur` is an ideal condition in the present subjunctive, 'if opportunity should be given', answered by a plain future indicative `veniam` — the same `copia`, chance of access, that Tereus was granted at 447. `in populos veniam` is what she means by speaking: coming out among people to say it.",
+   "v": true,
+   "ln": 545
+  },
+  {
+   "t": "si silvis clausa tenebor,\nimplebo silvas et conscia saxa movebo:\naudiet haec aether, et si deus ullus in illo est.”",
+   "l": "if I shall be held shut in by the woods, I will fill the woods and move the rocks that know: the upper air will hear these things, and any god there is in it.”",
+   "i": "if I am penned in these woods, I will fill them with it and set the rocks that know it moving: the sky above will hear it, and whatever god is up there.”",
+   "n": "`clausa tenebor` is a future passive with a participle, 'I shall be kept shut in'. `implebo silvas` gives what she will fill but not what with: `silvas` is the object, and it is the ablative of means that is missing — the missing word is the point, her voice. `conscia saxa` are rocks 'that share the knowledge': `conscius` is the standing word for a witness to a crime, and she is enlisting the landscape as one. `aether` is the upper air, the bright region above the ordinary sky. The last clause is thrown in after the fact — `et si deus ullus in illo est`, 'and if there is any god in it' — and she is not sure that there is.",
+   "v": true,
+   "ln": 546
+  }
+ ],
+ "glossaryFile": "metamorphoses-glossary.json"
+}

@@ -1,0 +1,643 @@
+{
+ "id": "ovid-met-034",
+ "sourceId": "ovid-met-034",
+ "title": "Perseus. Atlas. Andromeda",
+ "titleEn": "The Battle with Phineus — Metamorphoses V.97–249",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 fb3fdb1d8a4a3b82. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
+ "about": "This is the last part of the Perseus story in the poem's fifth book: the wedding-battle in the hall of Andromeda's father, where Phineus, who claims Andromeda for himself, has brought a thousand men against Perseus. The fighting runs through a long catalogue of named deaths - an old man cut down clinging to the altar, whose severed head goes on cursing in the altar-fire; a singer killed for holding a lyre instead of a sword; the richest landowner in Nasamonia mocked over the patch of earth he dies on - until Perseus, backed against a column and outnumbered, raises the head of Medusa and turns two hundred men to stone, one of his own soldiers among them by accident. Phineus begs, is granted the promise that no iron will touch him, and is kept instead as a cringing statue in the bride's father's house. The part then leaves the hall: Perseus enters his ancestral walls and takes them back from the usurper Proetus, and turns Polydectes, king of little Seriphos, to flint for calling the killing of Medusa a lie.",
+ "sentences": [
+  {
+   "t": "Hic quoque Cephenum post regem primus Hodites\nense iacet Clymeni; Prothoenora percutit Hypseus,\nHypsea Lyncides.",
+   "l": "Here too Hodites, first of the Cephenes after the king, lies by Clymenus' sword; Prothoenor Hypseus strikes down, Hypseus the son of Lynceus strikes down.",
+   "i": "Here too fell Hodites, first among the Cephenes after the king himself, by Clymenus' sword; Hypseus struck Prothoenor down, and Perseus, Lynceus' descendant, struck down Hypseus.",
+   "n": "Ovid runs the killings in a chain: the killer of one clause becomes the victim of the next. 'Lyncides', descendant of Lynceus, is one of several patronymics he uses for Perseus instead of the plain name ('Abantiades' at 138 is another); the reader has to keep track. 'iacet' with an ablative of instrument ('ense') is the epic shorthand for a man dead where he fell. Magnus prints 'Hic' ('here'); The Latin Library prints 'Tum' ('then').",
+   "p": true,
+   "v": true,
+   "ln": 97
+  },
+  {
+   "t": "Fuit et grandaevus in illis\nEmathion, aequi cultor timidusque deorum;",
+   "l": "There was among them also the aged Emathion, a cultivator of the right and fearing the gods;",
+   "i": "Among them too was aged Emathion, a keeper of what was right and a god-fearing man;",
+   "n": "'aequi cultor' is literally 'a tiller of the fair' - 'cultor' is the farmer's word turned to moral use, and Latin lets a bare adjective ('aequum', the fair thing) stand as a noun. 'timidus deorum' takes the genitive and means fearing the gods in the reverent sense, not the cowardly one; the same adjective comes back at 224 as an insult.",
+   "v": true,
+   "ln": 99
+  },
+  {
+   "t": "qui, quoniam prohibent anni bellare, loquendo\npugnat et incessit scelerataque devovet arma.",
+   "l": "who, since his years forbid him to make war, fights by speaking, and attacks, and curses the wicked weapons.",
+   "i": "and since his years forbade his fighting, he fought with words instead, going on the attack, calling down curses on those wicked arms.",
+   "n": "The connecting relative 'qui' opens a fresh sentence, which English would begin 'And he'. 'loquendo' is a gerund in the ablative - 'by speaking', the instrument that stands in for the sword he cannot lift. 'devovet' is a technical religious verb, to devote a thing to the gods below and so to curse it; the sacral colouring matters, because he is about to be killed at an altar.",
+   "v": true,
+   "ln": 101
+  },
+  {
+   "t": "Huic Chromis amplexo tremulis altaria palmis\ndecutit ense caput;",
+   "l": "From this man, as he embraced the altars with trembling palms, Chromis strikes the head off with a sword;",
+   "i": "As he clung to the altar with trembling hands, Chromis struck his head off with a sword.",
+   "n": "'Huic ... amplexo' is a dative of the person affected with a participle agreeing with it: Latin says 'strikes the head off to him embracing', where English needs a whole clause. Clinging to an altar is the formal gesture of supplication and asylum, so killing a man there is sacrilege - which is exactly why Ovid stages this death at this spot.",
+   "v": true,
+   "ln": 103
+  },
+  {
+   "t": "quod protinus incidit arae\natque ibi semianimi verba exsecrantia lingua\nedidit, et medios animam exspiravit in ignes.",
+   "l": "which straightway fell onto the altar, and there uttered cursing words with a half-alive tongue, and breathed its life out into the middle of the fires.",
+   "i": "The head fell straight onto the altar, and there, with a tongue still half alive, spoke words of cursing, and breathed its last into the flames.",
+   "n": "'quod' is another connecting relative, picking up 'caput' - English wants 'and it'. Watch the subject: the head, not the man, does the speaking and the dying, and Ovid keeps it grammatically in charge for three lines. 'medios ... in ignes' is wrapped around 'animam exspiravit', the word order pressing the head down into the altar-fire.",
+   "v": true,
+   "ln": 104
+  },
+  {
+   "t": "Hinc gemini fratres Broteasque et caestibus Ammon\ninvicti, vinci si possent caestibus enses,\nPhinea cecidere manu,",
+   "l": "Next the twin brothers, Broteas and Ammon, unconquered with the boxing-thongs - if swords could be conquered by boxing-thongs - fell by Phineus' hand,",
+   "i": "Next the twin brothers Broteas and Ammon, unbeaten with the boxing-strap - if only swords could be beaten by a boxing-strap - fell to Phineus' hand,",
+   "n": "'cecidere' is the poetic third-plural perfect for 'ceciderunt'; this '-ere' ending recurs through the part (see 'subiere' at 200) and is a mark of high style, not a different tense. The joke is made by repeating 'caestibus' unchanged, in the same ablative, two lines running: the thongs that make them unconquerable are exactly what swords cannot be conquered by. A 'caestus' is the weighted leather thong of a boxer, not a padded glove. 'Phinea ... manu' is ablative of means - not that the hand fell, but that they fell by it.",
+   "v": true,
+   "ln": 107
+  },
+  {
+   "t": "Cererisque sacerdos\nAmpycus, albenti velatus tempora vitta.",
+   "l": "and Ceres' priest Ampycus, veiled as to his temples with a white fillet.",
+   "i": "and Ampycus, Ceres' priest, his temples bound with a white woollen band.",
+   "n": "'velatus tempora' is the Greek accusative of respect: the participle is passive and the accusative says in what part - 'veiled as to his temples'. English has no such construction and has to say 'with his temples veiled'. The 'vitta' is the woollen fillet worn by a priest at sacrifice; like Emathion at the altar, Ampycus dies in the middle of a sacred office.",
+   "v": true,
+   "ln": 109
+  },
+  {
+   "t": "Tu quoque, Lampetide, non hos adhibendus ad usus,\nsed qui, pacis opus, citharam cum voce moveres,\niussus eras celebrare dapes festumque canendo.",
+   "l": "You too, son of Lampetus, not to be employed for uses of this kind, but one who - the work of peace - would stir the lyre together with the voice: you had been bidden to grace the banquet and the festival with singing.",
+   "i": "You too, Lampetides - no man to be put to work of this kind, but one who would set lyre and voice going together, a thing of peace: you had been asked to grace the banquet and the holiday with your singing.",
+   "n": "Ovid turns aside from the narrative to address the victim directly ('Tu ... Lampetide' is vocative). This is apostrophe, and he saves it for the deaths he wants felt rather than counted; it returns at 242, but there the address is hostile. 'pacis opus' stands in apposition to the whole clause, 'a thing of peace, that'; 'non adhibendus' is a gerundive of obligation used as a description, 'not to be put to this use'.",
+   "v": true,
+   "ln": 111
+  },
+  {
+   "t": "Quem procul adstantem plectrumque imbelle tenentem\nPettalus inridens “Stygiis cane cetera” dixit\n“manibus” et laevo mucronem tempore fixit.",
+   "l": "Him, as he stood at a distance holding an unwarlike quill, Pettalus mocked, saying: 'Sing the rest to the Stygian' - 'shades' - and fixed his point in his left temple.",
+   "i": "Pettalus jeered at him as he stood off at a distance with his harmless quill: 'Sing the rest to the ghosts of Styx' - and drove his point into his left temple.",
+   "n": "The connecting relative 'Quem' opens the sentence and holds the victim in the accusative for two full lines before the killer's name arrives; the delay is the ambush. 'dixit' is dropped into the middle of the quotation and splits 'Stygiis ... manibus' across it, so the sneer lands in two beats. 'manibus' here is the Manes, the dead, not 'hands'. Magnus prints the killer's name 'Pettalus'; The Latin Library prints 'Pedasus'.",
+   "v": true,
+   "ln": 114
+  },
+  {
+   "t": "Concidit et digitis morientibus ille retemptat\nfila lyrae, casuque fuit miserabile carmen.",
+   "l": "He collapsed, and with dying fingers he plucks again the strings of the lyre, and by his fall the song was a pitiable one.",
+   "i": "He went down, and his dying fingers found the lyre-strings again: as he fell, chance drew a piteous song from them.",
+   "n": "Ovid slips from perfect ('Concidit') to present ('retemptat') and back to perfect ('fuit') inside two lines - the present freezes the moment of the fingers on the strings, and the perfects close it off. 'casu' is ablative, 'by his falling', with the other sense of the word, 'by chance', audible under it. Magnus prints 'fuit', making the song simply be pitiable; The Latin Library prints 'ferit', which has the falling man strike the pitiable song out of the strings.",
+   "v": true,
+   "ln": 117
+  },
+  {
+   "t": "Nec sinit hunc impune ferox cecidisse Lycormas\nraptaque de dextro robusta repagula posti\nossibus inlisit mediae cervicis:",
+   "l": "Nor does fierce Lycormas allow this man to have fallen unpunished, and, the stout bar snatched from the right-hand doorpost, he smashed it into the bones of the middle of his neck:",
+   "i": "Fierce Lycormas would not let that death go unpaid for: he tore the stout bar from the right-hand doorpost and smashed it into the bones in the middle of his neck.",
+   "n": "'sinit ... cecidisse' is a perfect infinitive after 'allow', which English cannot copy: the sense is 'does not allow that he should have fallen unavenged', i.e. does not let the killing stand. 'rapta ... repagula' packs one of two actions into a participle where English wants a second finite verb ('he snatched it and'). The 'repagula' are the wooden bars that hold a double door shut: the battle is now being fought with the fittings of the hall.",
+   "p": true,
+   "v": true,
+   "ln": 119
+  },
+  {
+   "t": "at ille\nprocubuit terrae mactati more iuvenci.",
+   "l": "but he fell forward to the ground in the manner of a slaughtered bullock.",
+   "i": "and down he went, face forward, like a bullock felled for sacrifice.",
+   "n": "'terrae' is a dative of direction, a poetic construction where prose would use 'ad terram'. 'mactati more iuvenci' keeps the sacrilege theme running: 'mactare' is the technical verb for killing a victim at an altar, so the comparison makes this hall's fighting look like a botched sacrifice - which, given where Emathion died, it partly is.",
+   "v": true,
+   "ln": 121
+  },
+  {
+   "t": "Demere temptabat laevi quoque robora postis\nCinyphius Pelates:",
+   "l": "Cinyphian Pelates was trying to take away the timbers of the left-hand post as well:",
+   "n": "'quoque' here is the plain adverb 'also' - matching Lycormas at the right-hand post a moment earlier - and not the other 'quo-que', 'and with which', which is spelled identically and has to be told apart by sense. The Cinyps is a river of Libya; with the Nasamonian and Marmaric names around it, the catalogue is marking this as an African army.",
+   "v": true,
+   "ln": 123
+  },
+  {
+   "t": "temptanti dextera fixa est\ncuspide Marmaridae Corythi lignoque cohaesit.",
+   "l": "to him trying, his right hand was pinned by the spear-point of Marmaric Corythus, and stuck fast to the wood.",
+   "i": "As he tried, the spear-point of Corythus the Marmarid pinned his right hand and nailed it to the wood.",
+   "n": "'temptanti' is another dative of the person affected, and it picks up 'temptabat' from the line before: Latin bridges the two clauses by turning the verb into a participle. The killer is identified by tribe ('Marmaridae', from Marmarica in North Africa) rather than by father, which is the alternative convention of a battle catalogue.",
+   "v": true,
+   "ln": 124
+  },
+  {
+   "t": "Haerenti latus hausit Abas: nec corruit ille,\nsed retinente manum moriens e poste pependit.",
+   "l": "As he hung there, Abas drained his side: nor did he fall down, but, dying, he hung from the post, [the wood] holding his hand.",
+   "i": "While he was pinned there, Abas opened his side; he did not fall, but hung dying from the doorpost, his hand still held fast.",
+   "n": "'latus hausit' - 'haurio' is to draw off liquid, the verb used of drawing water from a well, and Ovid turns it on a wound that scoops the flank open. 'retinente manum' is an ablative absolute with its noun omitted: the thing doing the holding is the post, understood from the line before, so English has to supply it (bracketed here).",
+   "v": true,
+   "ln": 126
+  },
+  {
+   "t": "Sternitur et Menaleus, Perseia castra secutus,\net Nasamoniaci Dorylas ditissimus agri,",
+   "l": "Menaleus too is laid low, having followed Perseus' camp, and Dorylas, richest in Nasamonian land,",
+   "i": "Menaleus goes down too, a man of Perseus' side, and Dorylas, the richest landholder in Nasamonia,",
+   "n": "'Sternitur' is a present passive, and Ovid keeps the historic present running through the catalogue so that the killings arrive rather than recede. 'Perseia castra secutus' means enrolled on Perseus' side, and Ovid marks it because almost every other name here belongs to Phineus. Magnus prints 'Menaleus'; The Latin Library prints 'Melaneus'.",
+   "v": true,
+   "ln": 128
+  },
+  {
+   "t": "dives agri Dorylas, quo non possederat alter\nlatius aut totidem tollebat turis acervos.",
+   "l": "Dorylas, rich in land, than whom no other had possessed more widely, or used to raise as many heaps of incense.",
+   "i": "Dorylas, rich in land - no other man held broader acres, or piled up as many heaps of incense.",
+   "n": "The repetition 'ditissimus agri / dives agri Dorylas' is deliberate: Ovid lingers over the wealth so that the killer's joke about land at 135-136 has something to land on. 'quo' is an ablative of comparison after 'latius', 'more widely than he', with no 'quam' needed. 'turis acervos' are heaps of frankincense, an imported luxury that measures the man's fortune in the way an inventory would.",
+   "v": true,
+   "ln": 130
+  },
+  {
+   "t": "Huius in obliquo missum stetit inguine ferrum:\nletifer ille locus.",
+   "l": "Of him, in the slanting groin, the hurled iron stood fast: that place is death-bringing.",
+   "i": "The flung iron lodged in the slant of his groin - a mortal spot.",
+   "n": "'Huius' (genitive, 'of this man') opens the sentence a long way from the noun it belongs with ('inguine'), a displacement that keeps the victim in view while the weapon travels. 'letifer ille locus' is a nominal sentence with no verb at all - a clipped aside from the poet, the epic equivalent of a surgeon's remark.",
+   "v": true,
+   "ln": 132
+  },
+  {
+   "t": "Quem postquam vulneris auctor\nsingultantem animam et versantem lumina vidit\nBactrius Halcyoneus “hoc, quod premis” inquit, “habeto\nde tot agris terrae” corpusque exsangue reliquit.",
+   "l": "And when the author of the wound, Bactrian Halcyoneus, saw him sobbing out his life and rolling his eyes: 'Have this, which you press, out of so many fields of land,' he says - and left the bloodless body.",
+   "i": "When the man who had dealt the wound, Halcyoneus of Bactria, saw him gasping his life away with his eyes rolling, he said: 'Out of all those acres, keep the piece you are lying on' - and left the body drained.",
+   "n": "'Quem' is again a connecting relative, held as object across two lines until 'vidit' finally takes it. 'singultantem animam' makes a verb of sobbing transitive, 'sobbing out his breath', with 'anima' meaning breath and life at once. The gibe is what the wealth-catalogue was built for: 'hoc, quod premis' is the patch of floor the body covers, handed over as his share of the estate. 'habeto' is the future imperative, the solemn 'thou shalt have' of laws and wills, which makes the mockery sound like a legacy being read out.",
+   "v": true,
+   "ln": 133
+  },
+  {
+   "t": "Torquet in hunc hastam calido de vulnere raptam\nultor Abantiades;",
+   "l": "Against this man the avenging descendant of Abas whirls the spear, snatched out of the warm wound;",
+   "i": "At him the son of Abas, avenging, whirled the spear he had just pulled from the warm wound.",
+   "n": "'Abantiades' is another patronymic for Perseus; Abas belongs to the Argive royal line that the poem returns to at 236-239. 'calido de vulnere raptam' is grim housekeeping - the spear is Halcyoneus' own, the one he has just put through Dorylas' groin: Perseus pulls it out of the wound still warm and sends it back at the man who threw it. 'Torquet' keeps the historic present of the catalogue going.",
+   "p": true,
+   "v": true,
+   "ln": 137
+  },
+  {
+   "t": "media quae nare recepta\ncervice exacta est in partesque eminet ambas.",
+   "l": "which, taken in at the middle of the nose, was driven out through the neck and juts out on both sides.",
+   "i": "It went in at the middle of the nose, was driven out through the neck, and stood out on both sides at once.",
+   "n": "'quae' is a connecting relative inside the sentence, its antecedent 'hastam' in the line before. The two passive verbs track the spear in the order the wound happens - 'recepta' (taken in, at the nose), 'exacta' (driven out, at the neck) - and 'in partes ambas' says the shaft now projects front and back together. Latin's free order lets the words arrive in the sequence of the event.",
+   "v": true,
+   "ln": 138
+  },
+  {
+   "t": "Dumque manum Fortuna iuvat, Clytiumque Claninque,\nmatre satos una, diverso vulnere fudit:",
+   "l": "And while Fortune helps his hand, Clytius and Clanis, sown of one mother, he laid low with different wounds:",
+   "i": "And while Fortune was with his hand, he brought down Clytius and Clanis, sons of one mother, by two different wounds.",
+   "n": "'Dum' with a present ('iuvat') alongside a perfect main verb ('fudit') is ordinary Latin: the 'while' clause stays present whatever the tense around it. 'satos', 'sown', from 'sero', is the standard poetic word for 'begotten' - the farming metaphor again, as with 'cultor' at 100. 'diverso vulnere' promises one wound each and different, and the next two lines itemise them.",
+   "v": true,
+   "ln": 140
+  },
+  {
+   "t": "nam Clytii per utrumque gravis librata lacerto\nfraxinus acta femur, iaculum Clanis ore momordit.",
+   "l": "for the heavy ash, balanced by the arm, was driven through both thighs of Clytius; Clanis bit the javelin with his mouth.",
+   "i": "The heavy ash-shaft, poised in the arm, went through both of Clytius' thighs; Clanis took the javelin in his teeth.",
+   "n": "'fraxinus', the ash tree, stands for the spear made of it, a stock epic substitution of material for object; 'librata' is the technical word for a shaft balanced before the cast. 'ore momordit', 'he bit it with his mouth', is Ovid's savage way of saying the javelin took him through the mouth - the dying man appears to close his teeth on it. Magnus prints 'gravis', making the ash the heavy thing; The Latin Library prints 'gravi', which makes it the arm.",
+   "v": true,
+   "ln": 142
+  },
+  {
+   "t": "Occidit et Celadon Mendesius, occidit Astreus,\nmatre Palaestina, dubio genitore creatus,",
+   "l": "Celadon of Mendes fell too; Astreus fell, made from a Palestinian mother, of an uncertain father,",
+   "i": "Celadon of Mendes fell; Astreus fell, born of a Palestinian mother and no certain father;",
+   "n": "The repeated 'occidit ... occidit' (anaphora) is the drumbeat of the catalogue, and Ovid varies each name with a single identifying tag - a town, a mother, a gift, an office. 'matre Palaestina, dubio genitore' are two ablatives of origin side by side: the mother is known and the father is not, a slur delivered in two words and not commented on.",
+   "v": true,
+   "ln": 144
+  },
+  {
+   "t": "Aethionque sagax quondam ventura videre\n(tunc ave deceptus falsa), regisque Thoactes\narmiger et caeso genitore infamis Agyrtes.",
+   "l": "and Aethion, once shrewd to see things to come (then deceived by a false bird), and Thoactes, the king's armour-bearer, and Agyrtes, infamous for a slaughtered father.",
+   "i": "and Aethion, once keen at reading what was to come - misled this time by a lying bird - and Thoactes, the king's armour-bearer, and Agyrtes, notorious for killing his own father.",
+   "n": "'sagax ... videre' is the poetic infinitive after an adjective, a Greek turn Latin prose would not allow ('shrewd to see'). 'ave ... falsa' is augury: the omen-bird failed him, which is how a seer comes to be dying in a brawl. 'caeso genitore' is an ablative absolute standing in for a whole clause, 'his father having been slaughtered'; Ovid never spells out that Agyrtes struck the blow, but the disgrace is put on him - 'infamis' - and no other reading is open.",
+   "v": true,
+   "ln": 146
+  },
+  {
+   "t": "Plus tamen exhausto superest: namque omnibus unum\nopprimere est animus,",
+   "l": "Yet more remains than has been drained off: for to all there is the intent, to crush one man,",
+   "i": "Yet more are left than have been spent: they are all of one mind, to crush a single man.",
+   "n": "'exhausto' is a neuter participle used as a noun after the comparative, 'more remains than the part drawn off' - the image is of a vessel being emptied. 'omnibus ... est animus' is a dative of possession, 'to all there is a purpose', and the infinitive 'opprimere' is what that purpose contains. Setting 'omnibus' against 'unum' states the whole situation in two words.",
+   "p": true,
+   "v": true,
+   "ln": 149
+  },
+  {
+   "t": "coniurata undique pugnant\nagmina pro causa meritum impugnante fidemque:",
+   "l": "the sworn ranks fight from every side for a cause assailing desert and good faith:",
+   "i": "Sworn together, their ranks close from every side, fighting for a cause that attacks both merit and the given word.",
+   "n": "'pro causa ... impugnante' has the participle governing two accusatives, 'meritum' (what Perseus has earned) and 'fidem' (the pledge her father gave him): the cause is at war with the very things a cause is supposed to defend. Hear the sound-play of 'pugnant ... impugnante' framing the sentence - the fighting and the thing it fights.",
+   "v": true,
+   "ln": 150
+  },
+  {
+   "t": "hac pro parte socer frustra pius et nova coniunx\ncum genetrice favent ululatuque atria complent.",
+   "l": "On this side the father-in-law, dutiful in vain, and the new bride together with her mother take his part, and fill the halls with wailing.",
+   "i": "On this side the bride's father - dutiful to no purpose - and the new bride with her mother are for him, and fill the halls with their wailing.",
+   "n": "'frustra pius' is the sting of the line: 'pius' is the great epic word for the man who does right by kin and gods, and Ovid attaches 'in vain' to it. 'socer' and 'nova coniunx' are Cepheus and Andromeda, named by relation and not by name - a marriage described wholly in kinship terms while it is being fought over. 'ululatus' is the ritual wail of women at a funeral, heard here at a wedding.",
+   "v": true,
+   "ln": 152
+  },
+  {
+   "t": "Sed sonus armorum superat gemitusque cadentum,\npollutosque semel multo Bellona penates\nsanguine perfundit renovataque proelia miscet.",
+   "l": "But the sound of arms overcomes them, and the groans of the falling, and Bellona drenches with much blood the household gods once polluted, and stirs up renewed battles.",
+   "i": "But the din of arms drowns them out, and the groans of the dying; and Bellona drenches with blood in abundance a household already defiled, and sets the fighting going again.",
+   "n": "The 'penates' are the household gods and, by extension, the house itself; a hall where they are blood-spattered is desecrated, not merely damaged. Bellona, the war-goddess, is brought in as the agent so that the battle stops being anyone's decision. 'perfundit' puts the thing drenched in the accusative and the liquid in the ablative, which is why 'sanguine' arrives a whole line after the noun it soaks. Magnus prints 'semel' ('once polluted'); The Latin Library prints 'simul' ('at the same time').",
+   "v": true,
+   "ln": 154
+  },
+  {
+   "t": "Circueunt unum Phineus et mille secuti\nPhinea:",
+   "l": "Phineus and the thousand who follow Phineus surround one man:",
+   "n": "The line encircles its own sense: 'unum', one, is hemmed in between 'Circueunt' and 'mille', and the name 'Phineus' inside one line is answered by 'Phinea' standing first in the next - the word closes round Perseus the way the men do. 'secuti' is a perfect participle used as a noun, 'the followers'.",
+   "v": true,
+   "ln": 157
+  },
+  {
+   "t": "tela volant hiberna grandine plura\npraeter utrumque latus praeterque et lumen et aures.",
+   "l": "Weapons fly, more numerous than winter hail, past each flank and past both eye and ears.",
+   "i": "The missiles fly thicker than winter hail, past either flank, past his eyes and past his ears.",
+   "n": "'hiberna grandine' is an ablative of comparison after 'plura', 'more than winter hail', with no word for 'than' needed. The repeated 'praeter ... praeterque' makes you feel each pass go by. 'lumen' is literally 'light' and stands for the eye by metonymy - the same word returns at 241 for the Gorgon's eyes.",
+   "v": true,
+   "ln": 158
+  },
+  {
+   "t": "Applicat hic umeros ad magnae saxa columnae,\ntutaque terga gerens adversaque in agmina versus\nsustinet instantes.",
+   "l": "This man sets his shoulders to the stones of a great column, and, wearing his back safe and turned toward the ranks in front, holds off those pressing on.",
+   "i": "He set his shoulders against the stone of a great column, and with his back safe and his face to the ranks before him, held off the men crowding in.",
+   "n": "'hic' here is 'this man' (Perseus), not the adverb 'here'; the two are spelled alike and only sense separates them. 'tuta terga gerens' is Latin compression - 'wearing his back safe' - where English needs 'with his back protected'. 'instantes' is a participle standing as a noun, 'the men pressing on', and 'sustinet' is the military word for holding a line.",
+   "v": true,
+   "ln": 160
+  },
+  {
+   "t": "Instabat parte sinistra\nChaonius Molpeus, dextra Nabataeus Echemmon.",
+   "l": "On the left side Chaonian Molpeus was pressing, on the right Nabataean Echemmon.",
+   "n": "Ovid repeats the root across the sentence break ('sustinet instantes / Instabat'), so the general pressure narrows to two named men. The second half of the line has no verb of its own and borrows 'Instabat' from the first - a normal Latin economy that English can imitate here. Magnus prints 'Echemmon'; The Latin Library prints 'Ethemon'.",
+   "v": true,
+   "ln": 162
+  },
+  {
+   "t": "Tigris ut auditis diversa valle duorum\nexstimulata fame mugitibus armentorum\nnescit, utro potius ruat, et ruere ardet utroque,",
+   "l": "As a tigress, when the bellowings of two herds have been heard from separate valleys, goaded by hunger, does not know at which of the two she should rather rush, and burns to rush at both,",
+   "i": "As a tigress, driven by hunger, hearing two herds bellow from separate valleys, cannot tell which way to spring, and burns to spring both ways at once,",
+   "n": "'auditis ... mugitibus' is an ablative absolute wrapped right around the middle of the simile, its noun held back a whole line from its participle - the scattering of the words is the scattering of her attention. 'utro' and 'utroque' are the 'which of two' words, not the 'which of many' ones: the simile is built entirely on twoness. 'ruat' is a deliberative subjunctive inside an indirect question, 'which way she is to rush'.",
+   "v": true,
+   "ln": 164
+  },
+  {
+   "t": "sic dubius Perseus, dextra laevane feratur,\nMolpea traiecti submovit vulnere cruris,\ncontentusque fuga est:",
+   "l": "so Perseus, doubtful whether he should be carried to the right or the left, pushed Molpeus off with a wound of a pierced leg, and was content with the man's flight:",
+   "i": "so Perseus, unsure whether to go right or left, drove Molpeus off with a wound through the leg, and was content to let him run.",
+   "n": "'ut ... sic' closes the epic simile frame that opened at 164; Ovid keeps the shape but compresses it. 'feratur' is another deliberative subjunctive in an indirect question (the '-ne' means 'whether'), matching 'ruat' in the simile - the two men and the animal are put in the same grammar. 'traiecti ... cruris' is a genitive of the wounded part hanging on 'vulnere', literally 'with the wound of a pierced leg'.",
+   "v": true,
+   "ln": 167
+  },
+  {
+   "t": "neque enim dat tempus Echemmon,\nsed furit et, cupiens saltu dare vulnera collo,\nnon circumspectis exactum viribus ensem\nfregit,",
+   "l": "for Echemmon gives no time, but rages, and, desiring to deal wounds to the neck with a leap, broke the driven sword, his strength not having been looked to,",
+   "i": "For Echemmon gave him no time: he came on in a fury, and, eager to land a wound on the neck with a leap, swung with strength he had not measured, and broke the blade.",
+   "n": "'non circumspectis ... viribus' is an ablative absolute with a negative folded in - 'his strength not having been looked round at', i.e. force used without judging it; Latin can negate a whole clause in two words. 'exactum ... ensem' is the sword driven through the swing, and the participle stands a line away from the noun it belongs to. Magnus prints 'saltu', a wound dealt 'with a leap'; The Latin Library prints 'alto', a wound dealt on the neck from above.",
+   "v": true,
+   "ln": 169
+  },
+  {
+   "t": "et extrema percussae parte columnae\nlammina dissiluit dominique in gutture fixa est.",
+   "l": "and at the outermost part of the struck column the blade sprang apart and was fixed in its owner's throat.",
+   "i": "Striking the far edge of the column, the blade flew apart, and a piece of it lodged in its owner's throat.",
+   "n": "'percussae ... columnae' is a genitive split apart around 'parte': the words are as broken as the sword. 'dominus', used of the man holding the weapon, is the ordinary word for the master of a slave - the blade turns on its owner, and the joke of the sentence is in that noun.",
+   "v": true,
+   "ln": 172
+  },
+  {
+   "t": "Non tamen ad letum causas satis illa valentes\nplaga dedit:",
+   "l": "Yet that stroke did not give causes strong enough for death:",
+   "i": "Yet the blow gave no cause strong enough to kill him.",
+   "n": "'illa ... plaga' is split by three words and the line-end, the subject held back so that you learn only at the turn what it was that failed to kill him. 'causas ... valentes' is the vocabulary of a doctor or a lawyer, 'sufficient grounds', applied to a wound; Ovid likes a clinical register in the middle of carnage, and it is the same instinct as 'letifer ille locus' at 133.",
+   "v": true,
+   "ln": 174
+  },
+  {
+   "t": "trepidum Perseus et inermia frustra\nbracchia tendentem Cyllenide confodit harpe.",
+   "l": "Perseus ran him through, trembling and stretching out his unarmed arms in vain, with the Cyllenian hooked sword.",
+   "i": "Perseus ran him through with the Cyllenian sickle-sword as he shook and stretched out his empty arms for nothing.",
+   "n": "'harpe' is the curved sickle-sword, a Greek loanword kept in Greek shape (ablative 'harpe'); 'Cyllenide' marks it as Mercury's, Cyllene in Arcadia being the god's birthplace. 'trepidum ... tendentem' are two accusatives describing the same victim, and they are wrapped around the killer's name, so that the man's panic surrounds Perseus in the word order.",
+   "v": true,
+   "ln": 175
+  },
+  {
+   "t": "Verum ubi virtutem turbae succumbere vidit,\n“auxilium” Perseus “quoniam sic cogitis ipsi”\ndixit “ab hoste petam.",
+   "l": "But when he saw courage giving way to the crowd: 'Help,' said Perseus, 'since you yourselves force it so, I shall seek from my enemy.'",
+   "i": "But when he saw courage going under to sheer numbers: 'Since you force me to it yourselves,' said Perseus, 'I shall look for help from my enemy.'",
+   "n": "'virtutem ... succumbere' is an accusative and infinitive after 'vidit', the ordinary Latin way of reporting what someone perceived. The sentence of the speech is cut into three pieces by 'Perseus' and 'dixit', so that the two words that matter fall at the ends of their phrases: 'auxilium ... ab hoste'. The enemy meant is Medusa, dead and carried in his hand - an enemy he brought with him.",
+   "p": true,
+   "v": true,
+   "ln": 177
+  },
+  {
+   "t": "Vultus avertite vestros,\nsiquis amicus adest!” et Gorgonis extulit ora.",
+   "l": "'Turn away your faces, if any friend is present!' - and he lifted out the Gorgon's face.",
+   "i": "'Turn your faces away, if any friend of mine is here!' - and he raised the Gorgon's head.",
+   "n": "'siquis' is the edition's one-word spelling of 'si quis'; after 'si' the indefinite 'quis' means 'any', not 'who'. 'ora' is a plural used of a single face, a poetic plural Ovid uses constantly (see 217, 248). The warning doubles as the stage direction for everything that follows: whoever does not look away is about to become furniture.",
+   "v": true,
+   "ln": 179
+  },
+  {
+   "t": "“Quaere alium, tua quem moveant miracula” dixit\nThescelus;",
+   "l": "'Look for someone else whom your marvels may move,' said Thescelus;",
+   "n": "'quem moveant' is a relative clause of characteristic, in the subjunctive: 'someone of the sort your wonders would move'. That mood is what makes the line a sneer rather than a request - he is describing a type of person he is not. 'miracula', 'marvels', is how Perseus' enemies speak of his powers - conjuring tricks, nothing more - and Eryx will say the same thing again at 197 with 'magica arma'.",
+   "v": true,
+   "ln": 181
+  },
+  {
+   "t": "utque manu iaculum fatale parabat\nmittere, in hoc haesit signum de marmore gestu.",
+   "l": "and as he was preparing to send the fatal javelin with his hand, he stuck fast in this gesture, an image of marble.",
+   "i": "and as he was making ready to launch the fatal javelin, he froze in that very gesture, a marble statue.",
+   "n": "'fatale' does double work: the javelin is death-dealing and it is also 'of fate' - and it never leaves his hand. 'signum de marmore' is the sculptor's phrase, 'de' with the material out of which a statue is made, so the man is described in workshop vocabulary at the instant he stops being a man. 'in hoc ... gestu' brackets the line, the gesture closing round him.",
+   "v": true,
+   "ln": 182
+  },
+  {
+   "t": "Proximus huic Ampyx animi plenissima magni\npectora Lyncidae gladio petit;",
+   "l": "Next to him Ampyx makes for the breast of the Lyncid, fullest of great spirit, with his sword;",
+   "i": "Next to him, Ampyx went with his sword for the breast of Lynceus' heir, that heart so full of greatness.",
+   "n": "'animi ... magni' is a genitive depending on 'plenissima', and the phrase is spread over a line and a half around 'pectora' - the praise of Perseus is wrapped round the target it describes. 'petit' with the accusative of the part aimed at is the fencing word, 'goes for'. 'Lyncidae' is Perseus by patronymic again, as at 99. This Ampyx is not the priest Ampycus killed at 110.",
+   "v": true,
+   "ln": 184
+  },
+  {
+   "t": "inque petendo\ndextera deriguit nec citra mota nec ultra est.",
+   "l": "and in the very going-for, his right hand stiffened, and was moved neither this side nor beyond.",
+   "i": "and in the act of going for him, his right hand stiffened, moving neither forward nor back.",
+   "n": "'in petendo' is a gerund in the ablative governed by 'in', 'in the act of aiming' - Latin's way of putting a whole verb inside a preposition. 'citra ... ultra' are 'on this side' and 'beyond', a pair that covers the entire range of possible motion, so the hand is fixed at the exact instant of the thrust and in no direction at all.",
+   "v": true,
+   "ln": 185
+  },
+  {
+   "t": "At Nileus, qui se genitum septemplice Nilo\nementitus erat, clipeo quoque flumina septem\nargento partim, partim caelaverat auro,",
+   "l": "But Nileus, who had falsely claimed that he was begotten by sevenfold Nile, and had engraved the seven streams on his shield too, partly in silver, partly in gold,",
+   "i": "But Nileus, who had falsely claimed that sevenfold Nile had fathered him, and had chased the seven streams on his shield as well, partly in silver, partly in gold,",
+   "n": "'ementitus erat' is deponent - passive in form, active in meaning - and the 'e-' prefix makes it a lie told outright rather than an honest mistake. 'se genitum [esse]' is an accusative and infinitive with the verb 'to be' left out, which is standard. 'septemplice Nilo' is the seven-mouthed Nile of the Delta, and the shield repeats the boast in metal; 'quoque' here is the adverb 'also', not 'and with which'.",
+   "v": true,
+   "ln": 187
+  },
+  {
+   "t": "“adspice” ait, “Perseu, nostrae primordia gentis:\nmagna feres tacitas solacia mortis ad umbras,\na tanto cecidisse viro”:",
+   "l": "'Look,' he says, 'Perseus, at the beginnings of our race: you will carry great consolations for your death down to the silent shades - to have fallen by so great a man':",
+   "i": "'Look, Perseus,' he said, 'at the origins of my line. You will carry a great consolation for your death down to the silent shades: that you fell to so great a man.'",
+   "n": "'nostrae ... gentis' is a plural 'our' used of himself alone, the boaster's royal we. 'tacitas ... ad umbras' holds the adjective a line away from its noun, the silence spread across the whole distance. The infinitive 'cecidisse' stands in apposition to 'solacia': the consolation is not about the fact, it is the fact.",
+   "v": true,
+   "ln": 190
+  },
+  {
+   "t": "pars ultima vocis\nin medio suppressa sono est, adapertaque velle\nora loqui credas, nec sunt ea pervia verbis.",
+   "l": "the last part of his voice was choked off in mid-sound, and you would believe that the opened mouth wished to speak, and it is not passable to words.",
+   "i": "The last of his voice was cut off in mid-sound; you would think the parted lips were trying to speak, but there is no way through them for words.",
+   "n": "'credas' is a potential subjunctive addressed to the reader, 'you would think' - a way of putting you at the scene without saying so, and one of Ovid's favourite devices for a transformation. 'pervia' is the road-word, 'passable, giving a way through': the mouth is stone, and words cannot get out of it. 'ea' refers back to 'ora', the poetic plural for one mouth.",
+   "v": true,
+   "ln": 192
+  },
+  {
+   "t": "Increpat hos “vitio” que “animi, non viribus” inquit\n“Gorgoneis torpetis” Eryx:",
+   "l": "And Eryx rebukes these men: 'By a fault of spirit,' he says, 'and not by Gorgon powers, are you numb':",
+   "i": "Eryx rounded on them: 'It is a failure of nerve, not any Gorgon's power, that has you standing there stiff.'",
+   "n": "The connective '-que' is cut off from 'vitio' by the quotation and left hanging in mid-line: the little word belongs to the narrative and the words on either side of it to the speech, so Latin can interleave the two in a way English cannot reproduce. 'torpetis' is a numbness of the body and of the courage at once, which is precisely the accusation. 'viribus Gorgoneis' is ablative of means - he denies the cause, not the effect standing in front of him.",
+   "p": true,
+   "v": true,
+   "ln": 195
+  },
+  {
+   "t": "“incurrite mecum\net prosternite humi iuvenem magica arma moventem!”",
+   "l": "'charge with me, and lay flat on the ground the young man who wields magic arms!'",
+   "i": "'Charge with me, and put the young man who fights with conjuring flat on the ground!'",
+   "n": "'humi' is a locative, 'on the ground', one of the small closed set of nouns that keep the old case ('domi' at home, 'ruri' in the country). 'magica arma moventem' is Eryx's contemptuous name for the head of Medusa - stage magic rather than a weapon. The contempt is his and is rendered at his pitch; the poem does not share it, and the next line answers him.",
+   "v": true,
+   "ln": 196
+  },
+  {
+   "t": "Incursurus erat: tenuit vestigia tellus,\ninmotusque silex armataque mansit imago.",
+   "l": "He was about to charge: the earth held his footsteps, and he remained an unmoving flint and an armed likeness.",
+   "i": "He was on the point of charging: the ground held his feet fast, and he stayed there, unmoving flint, an image in armour.",
+   "n": "'Incursurus erat' is the future participle with 'to be', 'was going to charge', which is exactly the form for an act cut off at the threshold. 'tenuit vestigia tellus' makes the ground the agent, and the change begins at the feet. 'imago' is the word for a portrait or a death-mask, so the sentence's last word quietly buries him.",
+   "v": true,
+   "ln": 198
+  },
+  {
+   "t": "Hi tamen ex merito poenas subiere;",
+   "l": "These men, however, underwent their punishment deservedly;",
+   "i": "These men at least got what they had earned.",
+   "n": "'subiere' is the poetic third-plural perfect for 'subierunt', the same '-ere' ending as 'cecidere' at 109 - a metrical convenience and a mark of elevated style, not a different tense. 'poenas subire' is the fixed idiom for undergoing a penalty, and 'ex merito' says the sentence fits the crime. The clause exists to set up the one case that follows, where it did not.",
+   "p": true,
+   "v": true,
+   "ln": 200
+  },
+  {
+   "t": "sed unus\nmiles erat Persei, pro quo dum pugnat, Aconteus,\nGorgone conspecta saxo concrevit oborto.",
+   "l": "but there was one soldier of Perseus, Aconteus, and while he fights for him, with the Gorgon caught sight of, he hardened, stone having risen over him.",
+   "i": "But there was one soldier on Perseus' own side, Aconteus, who, fighting for him, caught sight of the Gorgon and stiffened, with the stone rising over him.",
+   "n": "Two ablative absolutes stand in a single line: 'Gorgone conspecta' (the Gorgon having been seen) and 'saxo oborto' (stone having risen up); Latin stacks them where English needs two clauses. 'oborto' is the verb used of things welling up - tears, mist - so the stone is described as rising over him rather than being applied to him. He is on Perseus' side: the head does not know its friends, and Ovid puts the exception immediately after the word 'deservedly'.",
+   "v": true,
+   "ln": 200
+  },
+  {
+   "t": "Quem ratus Astyages etiamnum vivere, longo\nense ferit: sonuit tinnitibus ensis acutis.",
+   "l": "Astyages, thinking that he was still alive, strikes him with a long sword: the sword rang with sharp ringings.",
+   "i": "Astyages, thinking him still alive, struck at him with a long sword; the blade rang out with a shrill note.",
+   "n": "'Quem' is a connecting relative again, doing duty as object of both 'ratus ... vivere' and 'ferit'. 'ratus' is the perfect participle of a deponent with present force, 'thinking', not 'having thought'. 'sonuit tinnitibus ... acutis' doubles the verb with a noun from the same idea, 'rang with ringings', and the line's own clatter of s and t does the rest of the work.",
+   "v": true,
+   "ln": 203
+  },
+  {
+   "t": "Dum stupet Astyages, naturam traxit eandem,\nmarmoreoque manet vultus mirantis in ore.",
+   "l": "While Astyages stands amazed, he drew on the same nature, and the expression of a man wondering remains on his marble face.",
+   "i": "While Astyages stood there astonished, he took on the same nature, and the marble face keeps the look of a man in wonder.",
+   "n": "'Dum' with the present beside a perfect main verb once more (see 140): Latin holds the 'while' clause in the present on principle. 'naturam traxit eandem', 'drew on the same nature', uses 'natura' in its physical sense, the stuff a thing is made of. 'vultus ... in ore' separates the expression ('vultus') from the face that carries it ('os'), a distinction English blurs; here the expression outlasts the man wearing it.",
+   "v": true,
+   "ln": 205
+  },
+  {
+   "t": "Nomina longa mora est media de plebe virorum\ndicere:",
+   "l": "It is a long delay to speak the names of the men from the middle of the crowd:",
+   "i": "To give the names of the men from the common ranks would take too long.",
+   "n": "'longa mora est' with an infinitive is the standard formula of praeteritio - the poet announces that he will not list them, and by announcing it lists the fact of them. 'media de plebe' is the language of social rank, 'the common run', applied to a battlefield: the named dead have had their lines, and the rest are about to get a number instead.",
+   "p": true,
+   "v": true,
+   "ln": 207
+  },
+  {
+   "t": "bis centum restabant corpora pugnae,\nGorgone bis centum riguerunt corpora visa.",
+   "l": "twice a hundred bodies were remaining for the fight; twice a hundred bodies stiffened, the Gorgon having been seen.",
+   "i": "Two hundred bodies were left to the fight; two hundred bodies stiffened at the sight of the Gorgon.",
+   "n": "The two lines are built as a matched pair - same numeral, same noun, same position, a verb of remaining answered by a verb of stiffening - so that the arithmetic itself is the horror. 'Gorgone ... visa' is one more ablative absolute; they come thick through this whole stretch of the battle. 'pugnae' is a dative of purpose, 'for the fight'.",
+   "v": true,
+   "ln": 208
+  },
+  {
+   "t": "Paenitet iniusti tunc denique Phinea belli.\nSed quid agat?",
+   "l": "Then at last it repents Phineus of his unjust war. But what is he to do?",
+   "i": "Only then does Phineus repent of his unjust war. But what is he to do?",
+   "n": "'paenitet' is impersonal: the person who feels the regret goes in the accusative ('Phinea') and the thing regretted in the genitive ('iniusti belli'), so Latin literally says 'it regrets Phineus of the war' - the feeling happens to him rather than being done by him. 'quid agat' is a deliberative subjunctive in a question, 'what is he to do?', the same mood as 'ruat' in the tigress simile.",
+   "p": true,
+   "v": true,
+   "ln": 210
+  },
+  {
+   "t": "simulacra videt diversa figuris\nagnoscitque suos et nomine quemque vocatum\nposcit opem, credensque parum sibi proxima tangit\ncorpora: marmor erant.",
+   "l": "he sees the images, differing in their postures, and recognises his own men, and, each one called by name, he demands help of him, and, believing too little, he touches the bodies nearest to him: they were marble.",
+   "i": "He sees the statues, each in a different attitude; he recognises his own men, calls each one by name and begs him for help; and, still not believing, touches the bodies nearest him: they were marble.",
+   "n": "'nomine quemque vocatum / poscit opem' uses the double accusative of 'posco', the person asked and the thing asked for at once ('demands each man for help'), which English has to split into 'asks him for'. 'credens parum' is 'believing insufficiently', and the touch is the test that his belief fails. The tenses swing into the present for the frantic movement and drop to a flat imperfect for the verdict: 'marmor erant', 'they were marble'.",
+   "v": true,
+   "ln": 211
+  },
+  {
+   "t": "Avertitur, atque ita supplex\nconfessasque manus obliquaque bracchia tendens,\n“vincis” ait, “Perseu.",
+   "l": "He turns away, and so, a suppliant, stretching out confessing hands and slantwise arms, 'You win,' he says, 'Perseus.'",
+   "i": "He turns away, and then, as a suppliant, stretching out hands that admit defeat and arms held aside, says: 'You win, Perseus.'",
+   "n": "'confessas manus' is hands that confess - an adjective belonging to the man, moved onto the part of him he is holding out. The arms are 'obliqua', turned aside, because he dare not face the direction he is begging toward: supplication and terror are performed in the same gesture. 'supplex' is the formal word for a man who has placed himself under another's protection, which is a legal position and not only an attitude.",
+   "v": true,
+   "ln": 214
+  },
+  {
+   "t": "Remove tua monstra tuaeque\nsaxificos vultus, quaecumque ea, tolle Medusae,\ntolle, precor.",
+   "l": "'Take away your monsters, and the stone-making face of your Medusa, whatever those things are, take it away, take it away, I beg.'",
+   "i": "'Take your horrors away - the stone-making face of that Medusa of yours, whatever she is; take it away, take it away, I beg you.'",
+   "n": "'saxificos', 'stone-making', is a compound adjective of a kind Latin builds sparingly and Ovid enjoys minting; 'colubriferi' at 241 is its match. The doubled 'tolle ... tolle' with 'precor' between is the sound of panic in the word order, and 'quaecumque ea' is a man refusing to name the thing he is afraid of. Magnus prints 'quaecumque ea' ('whatever those things are'); The Latin Library prints 'quaecumque est', which makes it Medusa herself he will not name.",
+   "v": true,
+   "ln": 216
+  },
+  {
+   "t": "Non nos odium regnique cupido\ncompulit ad bellum: pro coniuge movimus arma.",
+   "l": "'Neither hatred nor desire of the kingdom drove us to war: for a wife we set arms moving.'",
+   "i": "'It was not hatred, nor greed for the throne, that drove us to war: we took up arms for a bride.'",
+   "n": "'odium ... cupido' are two subjects with a singular verb ('compulit'), which Latin allows freely when they are felt as one motive. 'pro coniuge' is the claim itself: 'coniunx' is the word for a spouse of either sex, and Phineus uses it of a woman who is not his - the same word the poem used of Andromeda on Perseus' side at 152. He is arguing his case in a noun.",
+   "v": true,
+   "ln": 218
+  },
+  {
+   "t": "Causa fuit meritis melior tua, tempore nostra.",
+   "l": "'Your cause was the better in deserts, ours in time.'",
+   "i": "'In merit your claim was the better; in time, ours.'",
+   "n": "A balanced antithesis with the verb used once for both halves: 'meritis' and 'tempore' are ablatives of respect ('better in respect of desert, in respect of time'), and 'tua ... nostra' agree with a 'causa' that has to be understood again in the second half. Phineus concedes the right and keeps the priority - a lawyer's distinction offered as a plea for his life.",
+   "v": true,
+   "ln": 220
+  },
+  {
+   "t": "Non cessisse piget. Nihil, o fortissime, praeter\nhanc animam concede mihi: tua cetera sunto.”",
+   "l": "'It irks me not to have given way. Grant me nothing, bravest one, except this life: let the rest be yours.'",
+   "i": "'I am sorry now that I did not give way. Grant me nothing, bravest of men, but this life of mine: let all the rest be yours.'",
+   "n": "'piget' is impersonal like 'paenitet' at 210, and its subject is the perfect infinitive 'cessisse': what irks is the not-having-yielded. 'sunto' is the future imperative in its legal register, the form used in statutes - Phineus is drafting his own terms of surrender. The word order pushes 'hanc animam' across the line break so that the single thing he asks for stands alone at the start of its line.",
+   "v": true,
+   "ln": 221
+  },
+  {
+   "t": "Talia dicenti neque eum, quem voce rogabat\nrespicere audenti “quod” ait, “timidissime Phineu,",
+   "l": "To him saying such things, and not daring to look back at the man he was entreating with his voice: 'What,' he says, 'most cowardly Phineus,",
+   "i": "To him, as he said all this without daring to look at the man he was begging, the answer came: 'What I can grant you, most cowardly Phineus -",
+   "n": "'dicenti ... audenti' are two datives describing Phineus and framing the sentence, and the subject who answers is never named at all - the reply is delivered to a man who will not turn round. 'respicere' is 'to look back at', which is the one act his fear forbids and the reason he is still alive. 'timidissime' is the superlative of the same 'timidus' that praised Emathion at 100 for his fear of the gods: the word is neutral and the contempt is entirely in the context.",
+   "p": true,
+   "v": true,
+   "ln": 223
+  },
+  {
+   "t": "et possum tribuisse et magnum est munus inerti,\n(pone metum) tribuam: nullo violabere ferro.",
+   "l": "both what I can grant, and what is a great gift to a coward - put fear aside - I shall grant: you will be violated by no iron.'",
+   "i": "'- what I can grant, and what is a great gift to a coward - that I shall grant. Put your fear aside: no iron shall touch you.'",
+   "n": "The 'quod' from the line before governs this whole clause, 'what I can grant ... that I shall grant', with the correlative pair 'et ... et' meaning 'both ... and'. 'tribuisse', a perfect infinitive where English expects a present, is a metrical convenience common in verse and not a change of time. 'violabere' is the alternative second-person passive ending, '-re' for '-ris'. The promise is exact, and the trap is in its exactness: iron is named, and only iron.",
+   "v": true,
+   "ln": 225
+  },
+  {
+   "t": "Quin etiam mansura dabo monimenta per aevum,\ninque domo soceri semper spectabere nostri,\nut mea se sponsi soletur imagine coniunx?”",
+   "l": "'Why, I shall even give monuments that will remain through the age, and in the house of our father-in-law you will always be looked at, so that my wife may console herself with the image of her betrothed.'",
+   "i": "'More than that: I shall give you a memorial to last through the ages. You will stand on show for ever in my father-in-law's house, so that my wife may console herself with the likeness of the man she was promised to.'",
+   "n": "'mansura' is a future participle used as an adjective, 'going to remain', the standard word of epitaphs and monuments. The cruelty is in 'sponsi': a 'sponsus' is the man a woman is formally contracted to marry, so Perseus is handing Andromeda a statue of the fiance she did not marry and calling it a consolation. He says 'soceri ... nostri', 'our father-in-law', which settles in one word whose household this now is. Magnus closes the speech with a question mark: 'Quin etiam ... dabo ...?' can be read as a mock question, 'why should I not even give you a monument?', which is how the taunt sounds; the translations give it as the statement it amounts to.",
+   "v": true,
+   "ln": 227
+  },
+  {
+   "t": "Dixit et in partem Phorcynida transtulit illam,\nad quam se trepido Phineus obverterat ore.",
+   "l": "He spoke, and carried the daughter of Phorcys across to that side toward which Phineus had turned himself with frightened face.",
+   "i": "He spoke, and moved the daughter of Phorcys round to the side towards which Phineus had turned his frightened face.",
+   "n": "'Phorcynida' is a Greek patronymic accusative - Medusa as daughter of the sea-god Phorcys - and Ovid names her by her father rather than by her name at the exact moment she is being handled as an object. 'ad quam' is a connecting relative doing the work of 'and toward it'. The sentence is two flat perfects side by side, 'Dixit ... transtulit': no rhetoric at all for the act itself.",
+   "p": true,
+   "v": true,
+   "ln": 230
+  },
+  {
+   "t": "Tunc quoque conanti sua vertere lumina cervix\nderiguit, saxoque oculorum induruit umor.",
+   "l": "Then too, as he tried to turn his own eyes away, his neck stiffened, and the moisture of his eyes hardened into stone.",
+   "i": "Even then, as he tried to turn his own eyes aside, his neck stiffened, and the wet of his eyes hardened to stone.",
+   "n": "'conanti' is a dative of the person affected once more: Latin says the neck stiffened 'to him trying'. 'saxo' is ablative of the result as much as the means - hardened by stone and into it. 'oculorum umor', the eye's moisture, is the softest thing in a body, and Ovid names it last so that the petrification finishes at the wettest point.",
+   "v": true,
+   "ln": 232
+  },
+  {
+   "t": "Sed tamen os timidum vultusque in marmore supplex\nsubmissaeque manus faciesque obnoxia mansit.",
+   "l": "But still the frightened mouth, and in the marble the suppliant expression, and the lowered hands, and the submissive face remained.",
+   "i": "Yet the frightened mouth remained, and in the marble the suppliant expression, the lowered hands, the servile face.",
+   "n": "Four subjects piled up with '-que ... -que ... -que' (polysyndeton) and held by a single verb, 'mansit', at the very end: a whole cringe listed out and then fixed by one word. 'obnoxia' is the strong term - liable, at another's mercy, servile - and it is the last adjective Phineus gets. This is the monument promised at 227, described exactly.",
+   "v": true,
+   "ln": 234
+  },
+  {
+   "t": "Victor Abantiades patrios cum coniuge muros\nintrat et inmeriti vindex ultorque parentis\nadgreditur Proetum:",
+   "l": "The victorious descendant of Abas enters his ancestral walls with his wife, and as claimant and avenger of an undeserving forefather attacks Proetus:",
+   "i": "Victorious, the son of Abas enters his ancestral city with his wife, and as champion and avenger of a grandfather who deserved better, goes against Proetus.",
+   "n": "'patrios ... muros' is Argos, the city of the line that the patronymic 'Abantiades' comes from - the name at 138 pays off here. 'vindex ultorque' is a formal pairing out of law and religion: the one who claims a right back, and the one who exacts the penalty for its loss. 'parens' covers a grandfather as well as a father, and the man called 'undeserving' is Acrisius.",
+   "p": true,
+   "v": true,
+   "ln": 236
+  },
+  {
+   "t": "nam fratre per arma fugato\nAcrisioneas Proetus possederat arces.",
+   "l": "for, his brother having been put to flight by arms, Proetus had taken possession of the Acrisian citadel.",
+   "i": "For Proetus had driven his brother out by force of arms and taken possession of the citadel of Acrisius.",
+   "n": "'fratre ... fugato' is another ablative absolute, carrying an entire back-story in three words. 'Acrisioneas ... arces' turns a personal name into an adjective where English would use a possessive - 'the Acrisian heights' for 'Acrisius' stronghold'. The pluperfect 'possederat' places the usurpation before the arrival, so the reader is told why Perseus attacks only after he has attacked.",
+   "v": true,
+   "ln": 238
+  },
+  {
+   "t": "Sed nec ope armorum, nec, quam male ceperat, arce\ntorva colubriferi superavit lumina monstri.",
+   "l": "But neither by the help of arms, nor by the citadel which he had wickedly taken, did he overcome the grim eyes of the snake-bearing monster.",
+   "n": "The relative clause 'quam male ceperat' is planted inside the phrase belonging to its own antecedent ('arce'), so the theft is stated in the middle of the thing stolen. 'colubriferi', 'snake-bearing', is another minted compound to set beside 'saxificos' at 217; Ovid coins them freely for this episode. 'lumina' is 'eyes' by way of 'lights' again (see 159).",
+   "v": true,
+   "ln": 240
+  },
+  {
+   "t": "Te tamen, o parvae rector, Polydecta, Seriphi,\nnec iuvenis virtus per tot spectata labores\nnec mala mollierant,",
+   "l": "You, however, ruler of little Seriphos, Polydectes - neither the young man's courage, proved through so many labours, nor his hardships had softened you.",
+   "i": "You, though, Polydectes, lord of little Seriphos - neither the young man's courage, tested through so many labours, nor his hardships had softened you.",
+   "n": "This is apostrophe again (see 111), but turned the other way: Ovid addresses the king in order to accuse him rather than to mourn him. 'parvae ... Seriphi' wraps the vocative 'Polydecta' inside the island's name, and 'small' is a judgement as much as a measurement. 'spectata' is the assayer's word, used of metal put to the test, and so of a courage proved rather than merely displayed.",
+   "p": true,
+   "v": true,
+   "ln": 242
+  },
+  {
+   "t": "sed inexorabile durus\nexerces odium, nec iniqua finis in ira est.",
+   "l": "but, hard, you keep up an unappeasable hatred, and there is no end to your unjust anger.",
+   "i": "Instead, hard man, you keep an implacable hatred going, and there is no end to your unjust rage.",
+   "n": "'exerces' is present and second person, so the accusation is made face to face and in the here and now, while everything around it is past. 'exercere odium' is to practise or work a hatred - a verb of drill and cultivation, so the hatred is something kept in training. 'iniqua ... ira' wraps round the core of the last clause, the adjective waiting two words for the noun it belongs to.",
+   "v": true,
+   "ln": 244
+  },
+  {
+   "t": "Detrectas etiam laudem fictamque Medusae\narguis esse necem.",
+   "l": "You even disparage his glory, and you allege the killing of Medusa to be a fiction.",
+   "n": "'arguis ... esse' is an accusative and infinitive after a verb of asserting, 'you argue the death to be invented'. 'fictam' stands at the head of its clause a whole line before the noun it agrees with ('necem'), so the charge of fraud arrives first and the thing charged only afterwards. 'detrectare' is the word for refusing military service and for running a thing down - belittling treated as a form of desertion.",
+   "v": true,
+   "ln": 246
+  },
+  {
+   "t": "“Dabimus tibi pignera veri.\nParcite luminibus!”",
+   "l": "'We shall give you pledges of the truth. Spare your eyes!'",
+   "n": "'pignera' are pledges in the legal sense, the security a man puts up to back a claim: answering a charge of lying, Perseus reaches for the vocabulary of a court. 'Dabimus' is a plural used by a single speaker, matching that formality. 'Parcite luminibus' repeats the warning of 179, now addressed to his friends alone; 'parco' takes the dative, so the eyes are what the sparing is done for.",
+   "v": true,
+   "ln": 247
+  },
+  {
+   "t": "Perseus ait oraque regis\nore Medusaeo silicem sine sanguine fecit.",
+   "l": "Perseus says, and with a Medusan face he made the face of the king into flint, without blood.",
+   "i": "So Perseus said, and with Medusa's face turned the king's face to flint, without a drop of blood.",
+   "n": "'ora ... ore' sets the two faces side by side in the same shape of word - the king's face undone by a face. 'silicem fecit' is a double accusative, 'made it flint', the ordinary construction with 'facio' when one thing is turned into another. 'sine sanguine' is the last judgement of the part: after a hundred and fifty lines of blood, the killing that closes it spills none, and that is what makes it colder than the battle.",
+   "v": true,
+   "ln": 248
+  }
+ ],
+ "glossaryFile": "metamorphoses-glossary.json"
+}

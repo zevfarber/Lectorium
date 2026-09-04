@@ -1,0 +1,580 @@
+{
+ "id": "ovid-met-046",
+ "sourceId": "ovid-met-046",
+ "title": "Iason et Medea",
+ "titleEn": "Jason and Medea — Metamorphoses VII.1–158",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 fb3fdb1d8a4a3b82. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Pronunciation follows reconstructed Classical (restored) Latin.",
+ "about": "The Argo reaches Colchis, and Aeetes sets Jason a price for the Golden Fleece: to yoke two fire-breathing bulls, sow a serpent’s teeth, and face the armed men that come up out of the furrows. The king’s daughter Medea, struck with love at the sight of Jason, argues both sides of her case against herself at length before going to Hecate’s altars, where she meets him, takes his sworn oath, and gives him her drugs. He performs the tasks unhurt while she watches in terror; the part ends with the guardian dragon drugged asleep, the Fleece taken, and Medea carried off to Iolcus as a second spoil.",
+ "glossaryFile": "metamorphoses-glossary.json",
+ "sentences": [
+  {
+   "t": "Iamque fretum Minyae Pagasaea puppe secabant,\nperpetuaque trahens inopem sub nocte senectam\nPhineus visus erat,",
+   "l": "And now the Minyae were cutting the strait with the Pagasaean ship, and Phineus had been seen dragging his helpless old age under unending night,",
+   "i": "And now the Minyans were cleaving the sea in their Pagasaean ship, and Phineus had come into view, dragging out a destitute old age under night without end,",
+   "n": "Minyae is a standing name for the Argonauts, and the Pagasaea puppis is the Argo, named from Pagasae, the Thessalian port she was built at. Phineus is the blind seer the crew put in at: sub nocte, “under night”, is his blindness as much as his misery. visus erat is passive, “had been seen”, i.e. he had come into their sight along the way.",
+   "v": true,
+   "ln": 1,
+   "p": true
+  },
+  {
+   "t": "iuvenesque Aquilone creati\nvirgineas volucres miseri senis ore fugarant,",
+   "l": "and the youths begotten by Aquilo had put the maiden-birds to flight from the wretched old man’s mouth,",
+   "i": "and the sons of the North Wind had driven the maiden-faced birds away from the poor old man’s very mouth,",
+   "n": "The iuvenes Aquilone creati are Zetes and Calais, sons of the north wind; the virgineae volucres are the Harpies, birds with girls’ faces, who fouled and snatched Phineus’s food. fugarant is shortened from fugaverant, “they had put to flight” — a metrical convenience, not a different tense.",
+   "v": true,
+   "ln": 3
+  },
+  {
+   "t": "multaque perpessi claro sub Iasone tandem\ncontigerant rapidas limosi Phasidos undas.",
+   "l": "and having endured many things, under famous Jason at last they had reached the swift waters of muddy Phasis.",
+   "i": "and having borne much, under Jason’s famed command they had at last reached the racing waters of the muddy Phasis.",
+   "n": "perpessi is the perfect participle of the deponent perpetior: passive in form, active in sense, “having endured”. Phasidos is a Greek genitive of Phasis, the river of Colchis at the far end of the Black Sea — journey’s end for the Argo.",
+   "v": true,
+   "ln": 5
+  },
+  {
+   "t": "Dumque adeunt regem Phrixeaque vellera poscunt\nlexque datur Minyis magnorum horrenda laborum,",
+   "l": "And while they approach the king and demand the fleece of Phrixus, and a condition of great labours, dreadful, is given to the Minyae,",
+   "i": "And while they come before the king and ask for the fleece of Phrixus, and a condition is laid on the Minyans — dreadful, of mighty labours —",
+   "n": "The vellera Phrixea are the Golden Fleece: Phrixus fled to Colchis on the golden ram and hung its fleece up there. lex here is a term or condition imposed, not a statute; horrenda, “to be shuddered at”, is a gerundive doing the work of an adjective with lex, and magnorum laborum tells what the condition consists of.",
+   "v": true,
+   "ln": 7
+  },
+  {
+   "t": "concipit interea validos Aeetias ignes\net luctata diu, postquam ratione furorem\nvincere non poterat,",
+   "l": "meanwhile the daughter of Aeetes conceives strong fires, and having struggled long, after she could not conquer her frenzy by reason,",
+   "i": "meanwhile the daughter of Aeetes catches a mighty fire; and after a long struggle, when she could not master her frenzy by reasoning,",
+   "n": "Aeetias, “daughter of Aeetes”, is Medea: Ovid names her by her father before he lets her speak her own name. ignes, “fires”, is the standing metaphor for being in love. luctata is the deponent participle of luctor, active in sense, “having struggled”; ratione is ablative of means.",
+   "v": true,
+   "ln": 9
+  },
+  {
+   "t": "“frustra Medea, repugnas:\nnescio quis deus obstat” ait; “mirumque, nisi hoc est,\naut aliquid certe simile huic, quod amare vocatur.",
+   "l": "“in vain, Medea, you fight back: some god or other stands in your way,” she says; “and it is a marvel, unless this is — or at any rate something like this — the thing which is called loving.",
+   "i": "“You resist for nothing, Medea: some god is standing in your way,” she says; “and it will be a wonder if this is not, or at least something very like it, the thing men call love.",
+   "n": "nescio quis has hardened into a single indefinite pronoun, “some one or other”, and does not govern a question. mirum, nisi hoc est is an idiom of guarded assertion: “it would be a marvel if this were not it”, that is, this must be it. Medea addresses herself by name and in the second person; through the speech she moves back and forth between that and the first person, and rounds on herself by name again at its close.",
+   "v": true,
+   "ln": 11
+  },
+  {
+   "t": "Nam cur iussa patris nimium mihi dura videntur?\nSunt quoque dura nimis.",
+   "l": "For why do my father’s orders seem too harsh to me? They are indeed too harsh.",
+   "i": "For why do my father’s commands seem too harsh to me? They are too harsh, in fact.",
+   "n": "quoque here is the adverb, “indeed, also”: she raises her own objection and at once concedes it. Watch for the other quoque in Latin, which is quo plus -que, “and by which”, and has nothing to do with “also”. iussa patris are the tasks Aeetes has just set Jason.",
+   "v": true,
+   "ln": 14
+  },
+  {
+   "t": "Cur, quem modo denique vidi,\nne pereat, timeo? quae tanti causa timoris?",
+   "l": "Why do I fear, lest the man whom just now at last I saw should perish? what is the cause of so great a fear?",
+   "i": "Why do I dread that the man I have only just now set eyes on may die? what is the cause of so great a fear?",
+   "n": "timeo ne with the subjunctive is fear that something will happen: “I am afraid that he may perish”. The relative clause quem modo denique vidi sits inside that fear clause, its antecedent left unexpressed. tanti is an adjective agreeing with timoris: “of so great a fear”.",
+   "v": true,
+   "ln": 15
+  },
+  {
+   "t": "Excute virgineo conceptas pectore flammas,\nsi potes, infelix! — Si possem, sanior essem.",
+   "l": "Shake out the flames conceived in your maiden breast, if you can, unhappy girl! — If I could, I should be saner.",
+   "i": "Shake out the flames your girl’s heart has caught, if you can, poor wretch! — If I could, I would be in my right mind.",
+   "n": "The dash marks the turn in a self-address: she orders herself in the imperative, excute, then answers herself in a present unreal condition, si possem ... essem. The two imperfect subjunctives say plainly that she cannot. virgineo pectore is ablative of place with conceptas.",
+   "v": true,
+   "ln": 17
+  },
+  {
+   "t": "Sed trahit invitam nova vis, aliudque cupido,\nmens aliud suadet.",
+   "l": "But a new force drags me unwilling, and desire urges one thing, the mind another.",
+   "i": "But a new power drags me against my will; desire counsels one thing, the mind another.",
+   "n": "aliud ... aliud in balanced clauses is “one thing ... another thing”. invitam is feminine accusative agreeing with an unexpressed me, the object of trahit: Latin drops the pronoun and lets the adjective carry both the person and her sex.",
+   "v": true,
+   "ln": 19
+  },
+  {
+   "t": "Video meliora proboque,\ndeteriora sequor.",
+   "l": "I see the better and approve it; the worse I follow.",
+   "i": "I see what is better and give it my assent — and follow what is worse.",
+   "n": "The neuter plural comparatives meliora and deteriora stand as nouns, “the better things”, “the worse things”. Nothing joins the two halves — no “but”, no “yet”; the bare juxtaposition is the whole force of it.",
+   "v": true,
+   "ln": 20
+  },
+  {
+   "t": "Quid in hospite, regia virgo,\nureris et thalamos alieni concipis orbis?\nHaec quoque terra potest, quod ames, dare.",
+   "l": "Why for a stranger, royal maiden, are you burned, and do you conceive a marriage of an alien world? This land too can give what you may love.",
+   "i": "Why do you burn for a stranger, princess, and dream of a wedding in a world not your own? This land too can give you something to love.",
+   "n": "ureris is passive, “you are set alight”, the standing metaphor for falling in love; in hospite is “in the case of a stranger”, that is, for him. quod ames is a relative clause of characteristic with the subjunctive: “something of a kind for you to love”. Here quoque is again the adverb, “also”.",
+   "v": true,
+   "ln": 21
+  },
+  {
+   "t": "Vivat an ille\noccidat, in dis est. Vivat tamen! idque precari\nvel sine amore licet: quid enim commisit Iason?",
+   "l": "Whether he live or die is in the gods’ hands. Yet let him live! and that it is permitted to pray for even without love: for what wrong has Jason committed?",
+   "i": "Whether he lives or dies rests with the gods. Yet let him live! One may pray for that much even without love: what, after all, has Jason done wrong?",
+   "n": "vivat an ... occidat is an indirect double question in the subjunctive, “whether he is to live or die”, and the whole question is the subject of est. The second vivat is a wish, a jussive subjunctive. commisit is the verb of committing an offence, its object scelus left to be supplied.",
+   "v": true,
+   "ln": 23
+  },
+  {
+   "t": "Quem, nisi crudelem, non tangat Iasonis aetas\net genus et virtus? Quem non, ut cetera desint,\nore movere potest?",
+   "l": "Whom, unless a cruel man, would Jason’s youth not touch, and his birth and his courage? Whom, granted the rest were missing, could he not move by his face?",
+   "i": "Who but a cruel man would not be touched by Jason’s youth, his birth, his courage? Whom could he not move by his face alone, even if all the rest were wanting?",
+   "n": "tangat is a potential subjunctive in a rhetorical question, “whom would it not touch?” ut cetera desint is concessive, “granted that everything else is missing”. ore is ablative of means from os: his face, not his mouth.",
+   "v": true,
+   "ln": 26
+  },
+  {
+   "t": "Certe mea pectora movit.\nAt nisi opem tulero, taurorum adflabitur ore\nconcurretque suae segeti, tellure creatis\nhostibus, aut avido dabitur fera praeda draconi.",
+   "l": "Certainly he has moved my heart. But unless I bring help, he will be breathed upon by the mouth of the bulls, and will clash with his own crop, with enemies created out of the earth, or he will be given as savage prey to the greedy serpent.",
+   "i": "He has certainly moved my heart. But unless I bring help, the bulls’ mouths will breathe their fire on him; he will run against his own harvest, enemies bred out of the earth; or he will be given as wild prey to the greedy dragon.",
+   "n": "tulero is a future perfect in the protasis where English says a plain present: “unless I bring help”. suae segeti is Medea’s grim joke — Jason must sow the teeth and then fight what comes up. hostibus is dative in apposition to segeti, both governed by concurret, and tellure is ablative of origin with creatis, “brought into being from the earth”. fera praeda is predicative with dabitur: given as prey.",
+   "v": true,
+   "ln": 28
+  },
+  {
+   "t": "Hoc ego si patiar, tum me de tigride natam,\ntum ferrum et scopulos gestare in corde fatebor.",
+   "l": "If I allow this, then I shall confess that I was born of a tigress, then that I carry iron and rocks in my heart.",
+   "i": "If I let that happen, I shall be admitting that a tigress bore me, that I carry iron and stone in my heart.",
+   "n": "fatebor governs two accusative-and-infinitive clauses in parallel, me ... natam with esse understood, and me gestare with the pronoun carried over: “that I was born”, “that I carry”. de tigride, “out of a tigress”, is the ancient charge of inhuman hardness.",
+   "v": true,
+   "ln": 32
+  },
+  {
+   "t": "Cur non et specto pereuntem oculosque videndo\nconscelero? Cur non tauros exhortor in illum\nterrigenasque feros insopitumque draconem?",
+   "l": "Why do I not even watch him perishing, and defile my eyes by looking? Why do I not urge the bulls on against him, and the fierce earth-born men and the unsleeping dragon?",
+   "i": "Why not watch him die as well, and pollute my eyes with the looking? Why not set the bulls on him, and the savage earth-born, and the dragon that never sleeps?",
+   "n": "videndo is a gerund in the ablative, the means of the defilement: “by seeing”. et here is “even”, not “and”, and belongs with specto. exhortor in illum is to urge on against him. insopitum, “not lulled to sleep”, points ahead: the dragon is put to sleep at the close of this part.",
+   "v": true,
+   "ln": 34
+  },
+  {
+   "t": "Di meliora velint. Quamquam non ista precanda,\nsed facienda mihi. —",
+   "l": "May the gods wish better things. And yet these things are not to be prayed for by me, but to be done. —",
+   "i": "May the gods will better than that. And yet these are not things for me to pray for, but to do. —",
+   "n": "Di meliora velint is a formula of aversion, its verb a wish-subjunctive: “may the gods will better things”. precanda and facienda are gerundives with mihi as dative of agent, “not to be prayed for by me, but to be done”. meliora picks up the meliora she admitted seeing a few lines earlier.",
+   "v": true,
+   "ln": 37
+  },
+  {
+   "t": "Prodamne ego regna parentis,\natque ope nescio quis servabitur advena nostra,\nut per me sospes sine me det lintea ventis\nvirque sit alterius, poenae Medea relinquar?",
+   "l": "Am I to betray my father’s kingdom, and shall some stranger or other be saved by my help, so that, safe through me, without me he may give his sails to the winds, and be another woman’s husband, and I, Medea, be left for punishment?",
+   "i": "Am I to betray my father’s kingdom, and have some stranger or other saved by my aid, so that, brought through safe by me, he can spread his sails without me, become another woman’s husband — and I, Medea, be left for punishment?",
+   "n": "Prodamne is a deliberative subjunctive with the question particle -ne attached: “am I to betray?” The ut clause of result runs on through three verbs, det, sit and relinquar. per me sospes sine me is a deliberate jingle, “safe through me, without me”; poenae is dative, “left for punishment”.",
+   "v": true,
+   "ln": 38
+  },
+  {
+   "t": "Si facere hoc aliamve potest praeponere nobis,\noccidat ingratus.",
+   "l": "If he can do this, or set another woman before me, let him die, the ungrateful man.",
+   "i": "If he is capable of that, of preferring another woman to me — let him die, the ingrate.",
+   "n": "nobis is the plural used of a single self, “before me”; she does the same with meriti nostri just below. occidat is a jussive subjunctive, “let him die”, and ingratus stands alone as its subject, which gives the adjective the force of a name flung at him.",
+   "v": true,
+   "ln": 42
+  },
+  {
+   "t": "Sed non is vultus in illo,\nnon ea nobilitas animo est, ea gratia formae,\nut timeam fraudem meritique oblivia nostri.",
+   "l": "But there is not such a face in him, not such nobility in his spirit, such grace of form, that I should fear treachery and a forgetting of my service.",
+   "i": "But his face is not of that kind, nor the nobility of his spirit, nor the charm of his looks, that I should fear betrayal and a service forgotten.",
+   "n": "is ... ea ... ea are correlatives looking forward to the ut clause of result with timeam: “not such ... that I should fear”. oblivia is a poetic plural taking the objective genitive meriti nostri, “a forgetting of my good turn”.",
+   "v": true,
+   "ln": 43
+  },
+  {
+   "t": "Et dabit ante fidem, cogamque in foedera testes\nesse deos.",
+   "l": "And he will give his pledge beforehand, and I shall compel the gods to be witnesses to the compact.",
+   "i": "And he will give his word first, and I shall force the gods to stand witness to the bargain.",
+   "n": "dare fidem is the formula for giving a pledge. cogam ... testes esse deos is accusative and infinitive after cogam, “I shall compel the gods to be witnesses”; in foedera is “for the compact”. She is already thinking in legal terms, and will be again when Jason swears.",
+   "v": true,
+   "ln": 46
+  },
+  {
+   "t": "Quid tuta times? accingere et omnem\npelle moram:",
+   "l": "Why do you fear, safe as you are? Gird yourself and drive off all delay:",
+   "i": "Why be afraid, when you are safe? Arm yourself and put every delay to flight:",
+   "n": "tuta is a feminine nominative adjective doing the work of an English clause, “you, being safe”. accingere is the passive imperative of accingo used of oneself, “gird yourself” — the form is identical with the present infinitive and is not one.",
+   "v": true,
+   "ln": 47
+  },
+  {
+   "t": "tibi se semper debebit Iason,\nte face sollemni iunget sibi, perque Pelasgas\nservatrix urbes matrum celebrabere turba.",
+   "l": "Jason will owe himself to you always, he will join you to himself by the solemn torch, and through the Pelasgian cities you will be celebrated as saviour by a throng of mothers.",
+   "i": "Jason will owe you himself for ever; he will bind you to him with the marriage torch; and through the cities of Greece a throng of mothers will sing you as their deliverer.",
+   "n": "face sollemni is the wedding torch, the ceremony standing for the marriage. servatrix is the feminine agent noun, “she who saves”, in predicative agreement with the subject; celebrabere is the alternative second-person passive ending -re for -ris, “you will be celebrated”. Pelasgus is an old poetic word for Greek.",
+   "v": true,
+   "ln": 48
+  },
+  {
+   "t": "Ergo ego germanam fratremque patremque deosque\net natale solum, ventis ablata, relinquam?",
+   "l": "Shall I then leave my sister and brother and father and gods and native soil, carried off by the winds?",
+   "i": "So shall I leave sister and brother and father and gods and the soil of my birth, swept away on the wind?",
+   "n": "The piled -que ... -que ... -que turns the list into an inventory of everything she has. ablata is the perfect participle of aufero, passive, “carried off”, with ventis as ablative of means. The sister is Chalciope, the brother the infant of the next line.",
+   "v": true,
+   "ln": 51
+  },
+  {
+   "t": "Nempe pater saevus, nempe est mea barbara tellus,\nfrater adhuc infans: stant mecum vota sororis,\nmaximus intra me deus est.",
+   "l": "To be sure, my father is savage, to be sure my land is barbarous, my brother still an infant: my sister’s prayers stand with me, the greatest god is within me.",
+   "i": "Well then: my father is cruel, my country barbarous, my brother still a baby; my sister’s prayers are on my side, and the greatest of gods is inside me.",
+   "n": "Medea answers her own list item by item, the verb est supplied for pater saevus and frater adhuc infans. She calls her own country barbara — the Greek word for what is not Greek, in the mouth of a Colchian princess, and Ovid will use it of her himself later in this part. The greatest god within her is Love.",
+   "v": true,
+   "ln": 53
+  },
+  {
+   "t": "Non magna relinquam,\nmagna sequar: titulum servatae pubis Achivae\nnotitiamque loci melioris et oppida, quorum\nhic quoque fama viget, cultusque artesque locorum;",
+   "l": "I shall not be leaving great things, I shall be following great things: the credit of the Achaean young manhood saved, and acquaintance with a better place, and towns whose fame is strong even here, and the culture and arts of those regions;",
+   "i": "It is nothing great I leave; it is great things I go after — the name of having saved the young men of Greece, knowledge of a better country, towns whose fame is strong even here, the civilisation and arts of those places;",
+   "n": "titulum servatae pubis Achivae packs a whole clause into a participle phrase: “the credit of the Greek young manhood having been saved”. hic quoque, “even here”, means in Colchis, at the edge of the world. Magnus prints loci, “of a place”; some editions print soli, “of a soil”, that is, of a better country.",
+   "v": true,
+   "ln": 55
+  },
+  {
+   "t": "quemque ego cum rebus, quas totus possidet orbis,\nAesoniden mutasse velim;",
+   "l": "and the son of Aeson, whom I would wish to have taken in exchange for the goods which the whole world possesses;",
+   "i": "and Aeson’s son, whom I would take in exchange for everything the whole world owns;",
+   "n": "quemque is a connecting relative, quem plus -que: it amounts to “and him” and joins a new clause where English would begin a fresh sentence. mutare aliquid cum re is to exchange one thing for another — she would hand over the world’s wealth and take Jason. mutasse is shortened from mutavisse, and velim is a potential subjunctive, “I would wish”.",
+   "v": true,
+   "ln": 59
+  },
+  {
+   "t": "quo coniuge felix\net dis cara ferar et vertice sidera tangam.",
+   "l": "with whom as husband I shall be spoken of as happy and dear to the gods, and shall touch the stars with the crown of my head.",
+   "i": "with him for husband I shall be called happy and dear to the gods, and shall touch the stars with the top of my head.",
+   "n": "quo coniuge is an ablative absolute of the kind made of two nouns with no participle: “he being husband”. ferar is passive, “I shall be reported”, with felix and cara as predicates agreeing with the feminine subject. vertice sidera tangam is the standing image of happiness raised sky-high.",
+   "v": true,
+   "ln": 60
+  },
+  {
+   "t": "Quid, quod nescio qui mediis concurrere in undis\ndicuntur montes, ratibusque inimica Charybdis\nnunc sorbere fretum, nunc reddere, cinctaque saevis\nScylla rapax canibus Siculo latrare profundo?",
+   "l": "What of the fact that some mountains or other are said to run together in the midst of the waves, and Charybdis, hostile to ships, now to swallow the sea, now to give it back, and ravening Scylla, girt with savage dogs, to bark in the Sicilian deep?",
+   "i": "And what of this — that mountains, they say, come crashing together out in mid-sea; that Charybdis, the enemy of ships, now gulps the water down and now spits it back; that greedy Scylla, girded with savage dogs, bays in the Sicilian deep?",
+   "n": "Quid, quod ... introduces a fresh point: “what of the fact that ...?” dicuntur is a personal passive with the nominative and infinitive — montes ... dicuntur concurrere, “mountains are said to run together” — and it carries the later infinitives sorbere, reddere and latrare as well. The clashing mountains are the Symplegades at the mouth of the Black Sea; cincta saevis canibus is ablative, the ring of dogs at Scylla’s waist.",
+   "v": true,
+   "ln": 62
+  },
+  {
+   "t": "Nempe tenens, quod amo, gremioque in Iasonis haerens\nper freta longa ferar: nihil illum amplexa verebor\naut, siquid metuam, metuam de coniuge solo. —",
+   "l": "Surely, holding what I love and clinging in Jason’s lap, I shall be carried over long seas: embracing him I shall fear nothing, or, if I should fear anything, I shall fear it for my husband alone. —",
+   "i": "Why, holding what I love and clinging in Jason’s arms, I shall be carried over the long seas; with my arms round him I shall be afraid of nothing — or if I am afraid of anything, it will be for my husband alone. —",
+   "n": "amplexa is the deponent participle of amplector, active in sense, “having embraced”, with illum as its object and nihil as the object of verebor. metuam appears twice over: first subjunctive in the indefinite condition siquid metuam, then future indicative. de coniuge is “on account of my husband”, the thing feared for.",
+   "v": true,
+   "ln": 66
+  },
+  {
+   "t": "Coniugiumne vocas speciosaque nomina culpae\nimponis, Medea, tuae?",
+   "l": "Do you call it marriage, and do you lay fair-seeming names on your own guilt, Medea?",
+   "i": "Marriage, do you call it? Are you putting handsome names on your own guilt, Medea?",
+   "n": "The turn is sudden: she has talked herself into it, and now rounds on herself by name, exactly as she opened. speciosa nomina are names that look well — the respectable words she has been using, coniugium among them. Magnus prints vocas, “do you call it”; some editions print putas, “do you think it”.",
+   "v": true,
+   "ln": 69
+  },
+  {
+   "t": "Quin adspice, quantum\nadgrediare nefas, et, dum licet, effuge crimen.”",
+   "l": "Nay rather, look at how great a wickedness you are moving towards, and, while you may, flee the crime.”",
+   "i": "No — look at the size of the sin you are taking on, and while you still can, run from the crime.”",
+   "n": "Quin with an imperative is a particle of urging: “come now, look”. adgrediare is the deponent adgredior in the second person, in an indirect question after adspice — quantum ... nefas adgrediare, “how great a wrong you are approaching”; the -re ending is again the alternative for -ris.",
+   "v": true,
+   "ln": 70
+  },
+  {
+   "t": "Dixit, et ante oculos rectum pietasque pudorque\nconstiterant, et victa dabat iam terga Cupido.",
+   "l": "She spoke, and before her eyes right and duty and shame had taken their stand, and Cupid was already giving his beaten back.",
+   "i": "So she spoke, and right and duty and decency had planted themselves before her eyes, and Cupid, defeated, was already turning tail.",
+   "n": "terga dare is the military idiom for turning tail: to give one’s back to the enemy and run. victa is neuter plural agreeing with terga, not with the masculine Cupido — it is the back that is called beaten, and the defeat reaches the god through it. The pluperfect constiterant has the three of them already in position when she finishes speaking. pietas is duty owed to father and country — the very thing she has been arguing herself out of.",
+   "v": true,
+   "ln": 72,
+   "p": true
+  },
+  {
+   "t": "Ibat ad antiquas Hecates Perseidos aras,\nquas nemus umbrosum secretaque silva tegebat.",
+   "l": "She was going to the ancient altars of Hecate, daughter of Perses, which a shady grove and a secluded wood covered.",
+   "i": "She was on her way to the ancient altars of Hecate, Perses’ daughter, hidden by a shadowy grove and a wood set apart.",
+   "n": "Perseidos is a Greek genitive, “daughter of Perses”, the Titan. Hecate is the goddess of magic, and Medea her priestess: the altars are where a spell-working princess would naturally be walking. The imperfect ibat holds her in mid-journey, which is where the next line catches her.",
+   "v": true,
+   "ln": 74,
+   "p": true
+  },
+  {
+   "t": "Et iam fortis erat pulsusque resederat ardor,\ncum videt Aesoniden exstinctaque flamma reluxit.",
+   "l": "And now she was strong, and the passion, driven off, had settled, when she sees the son of Aeson, and the extinguished flame blazed up again.",
+   "i": "And now she was strong; the passion had been driven off and had sunk down — when she sees Aeson’s son, and the flame that had gone out blazed up again.",
+   "n": "This is the inverted cum construction: the long clause gives the setting and the cum clause springs the event, with the verb switched to the present videt to make it immediate. exstincta flamma is a participle with its noun standing as the subject of reluxit, “the put-out flame blazed again” — not an absolute construction.",
+   "v": true,
+   "ln": 76
+  },
+  {
+   "t": "Erubuere genae, totoque recanduit ore,",
+   "l": "Her cheeks blushed, and she glowed hot again over her whole face,",
+   "i": "Her cheeks flushed red, and the heat came back over all her face,",
+   "n": "erubuere is the poetic third-person plural perfect in -ere for -erunt, “they blushed”; it is easy to mistake for an infinitive, and there are several more of them in this part. toto ore is ablative of place, “over the whole face”, and the re- of recanduit matches the re- of reluxit just before: everything here happens again.",
+   "v": true,
+   "ln": 78
+  },
+  {
+   "t": "utque solet ventis alimenta adsumere quaeque\nparva sub inducta latuit scintilla favilla\ncrescere et in veteres agitata resurgere vires,",
+   "l": "and as every small spark that has lain hidden under a covering of ash is accustomed to take nourishment from the winds, and to grow, and, stirred, to rise again into its old strength,",
+   "i": "and as a small spark that has been lying hidden under a coating of ash will take food from the wind and grow, and, once stirred, rise back to its former strength,",
+   "n": "The word order is knotted; straightened out it runs quaeque parva scintilla, quae latuit sub inducta favilla, solet adsumere ... crescere ... resurgere. quaeque is “each, every”, agreeing with scintilla, and sub inducta favilla is “under ash drawn over it”. utque here opens a simile, and the answering sic comes in the next unit.",
+   "v": true,
+   "ln": 79
+  },
+  {
+   "t": "sic iam lentus amor, iam quem languere putares,\nut vidit iuvenem, specie praesentis inarsit.",
+   "l": "so the love now slow, which now you would have thought was drooping, as soon as it saw the young man, caught fire at the sight of him there before her.",
+   "i": "so the love, now gone slack, that you would have said was dying, the moment it saw the young man, blazed at the sight of him standing there.",
+   "n": "putares is a potential subjunctive with an indefinite “you”: “you would have thought”. The subject of vidit is left out; the nearest nominative is amor, so it is most naturally the love itself that does the seeing, though it can be taken of Medea. specie praesentis is ablative of cause, “at the look of him being present”.",
+   "v": true,
+   "ln": 82
+  },
+  {
+   "t": "Et casu solito formosior Aesone natus\nilla luce fuit: posses ignoscere amanti.",
+   "l": "And by chance the son of Aeson was handsomer than usual on that day: you could forgive a woman in love.",
+   "i": "And as it happened, Aeson’s son was better looking than usual that day; one could forgive a girl for loving him.",
+   "n": "Aesone natus, “born from Aeson”, is one of Ovid’s ways of naming Jason. illa luce is ablative of time, “on that day”. posses is again a potential subjunctive with an indefinite “you”, and amanti is a participle used as a noun in the dative after ignoscere, “to the one in love”. Ovid steps in for a moment on Medea’s side.",
+   "v": true,
+   "ln": 84
+  },
+  {
+   "t": "Spectat et in vultu veluti tum denique viso\nlumina fixa tenet nec se mortalia demens\nora videre putat, nec se declinat ab illo.",
+   "l": "She gazes, and on his face, as though only then at last seen, she holds her eyes fixed, and out of her senses does not think that she is looking at mortal features, and does not turn herself away from him.",
+   "i": "She stares, and keeps her eyes fixed on a face she might be seeing for the first time; out of her senses, she does not believe the features she is looking at are mortal, and cannot turn away from him.",
+   "n": "veluti tum denique viso is a participle agreeing with vultu, “as if seen only then for the first time”. se ... videre is accusative and infinitive after putat, “that she is seeing”, with mortalia ora as its object. demens is nominative and describes her, not her opinion.",
+   "v": true,
+   "ln": 86
+  },
+  {
+   "t": "Ut vero coepitque loqui dextramque prehendit\nhospes et auxilium submissa voce rogavit\npromisitque torum, lacrimis ait illa profusis:",
+   "l": "But when the stranger both began to speak and took her right hand and asked for help in a lowered voice and promised marriage, she says, her tears having been poured out:",
+   "i": "But when the stranger began to speak, took her right hand, asked her help in a lowered voice and promised marriage, she said, with her tears bursting out:",
+   "n": "Ut here is temporal, “when”, and four perfect verbs hang on it in a row: he speaks, takes her hand, asks, promises. torum, the marriage bed, stands for marriage itself. lacrimis ... profusis is an ablative absolute, a noun with a perfect participle belonging to no other clause: “her tears having been poured forth”.",
+   "v": true,
+   "ln": 89,
+   "p": true
+  },
+  {
+   "t": "“Quid faciam, video (non ignorantia veri\ndecipiet, sed amor): servabere munere nostro;\nservatus promissa dato.”",
+   "l": "“What I am doing, I see (it is not ignorance of the truth that will deceive me, but love): you will be saved by my service; once saved, give what you promised.”",
+   "i": "“I see what I am doing — it is not ignorance of the truth that will deceive me, but love. You will be saved by my service; and saved, deliver what you promised.”",
+   "n": "Quid faciam is an indirect question with the subjunctive after video, “what I am doing”. servabere is again the -re form of the second-person passive, “you will be saved”. dato is the future imperative, the form used in laws and contracts, “you are to give”: she is setting terms, and the terms are what the rest of her story turns on.",
+   "v": true,
+   "ln": 92
+  },
+  {
+   "t": "Per sacra triformis\nille deae, lucoque foret quod numen in illo,\nperque patrem soceri cernentem cuncta futuri\neventusque suos et tanta pericula iurat.",
+   "l": "He swears by the rites of the three-formed goddess, and by whatever divine power there was in that grove, and by the all-seeing father of his father-in-law to be, and by his own outcomes and by such great dangers.",
+   "i": "He swears by the rites of the three-shaped goddess, by whatever power dwelt in that grove, by the all-seeing father of the man who was to be his father-in-law, and by his own fortunes and the great dangers before him.",
+   "n": "The three-formed goddess is Hecate, worshipped in three shapes at once. lucoque foret quod numen in illo is a relative clause in the subjunctive of the general kind, “whatever divine power there might be in that grove”. The father of the future father-in-law is the Sun, since Aeetes is the Sun’s son — the god who sees everything is made witness to this particular promise.",
+   "v": true,
+   "ln": 94
+  },
+  {
+   "t": "Creditus accepit cantatas protinus herbas\nedidicitque usum, laetusque in tecta recessit.",
+   "l": "Believed, he received at once the enchanted herbs and learned their use thoroughly, and glad withdrew into the house.",
+   "i": "He was believed; at once he took the enchanted herbs, learned their use by heart, and went back indoors glad.",
+   "n": "Creditus is a perfect passive participle used of the person, “having been believed”, doing in one word what English needs a clause for. cantatas herbas are herbs sung over: cano is the verb behind carmen, “spell”. edidicit has the ed- of learning a thing right through.",
+   "v": true,
+   "ln": 98
+  },
+  {
+   "t": "Postera depulerat stellas aurora micantes:\nconveniunt populi sacrum Mavortis in arvum\nconsistuntque iugis.",
+   "l": "The next dawn had driven off the glittering stars: the peoples come together onto the field sacred to Mavors and take their stand on the ridges.",
+   "i": "Next day’s dawn had driven the glittering stars away; the people gather on the field sacred to Mars and take their places on the high ground.",
+   "n": "Mavors is the old form of Mars, and the field where the trial is to be held is consecrated to him. iugis is ablative of place with no preposition, “on the ridges”: the rising ground round the field serves the crowd as seating.",
+   "v": true,
+   "ln": 100,
+   "p": true
+  },
+  {
+   "t": "Medio rex ipse resedit\nagmine purpureus sceptroque insignis eburno.",
+   "l": "In the middle of the throng the king himself sat down, purple-clad and marked out by his ivory sceptre.",
+   "i": "In the middle of the gathering the king himself took his seat, robed in purple and conspicuous with his ivory sceptre.",
+   "n": "medio ... agmine is pulled apart across the line break, the ablative of place straddling the verse end. purpureus is a single adjective doing the work of a robe, “in purple”. insignis takes the ablative sceptro eburno, “marked out by”.",
+   "v": true,
+   "ln": 102
+  },
+  {
+   "t": "Ecce adamanteis Vulcanum naribus efflant\naeripedes tauri, tactaeque vaporibus herbae\nardent;",
+   "l": "See — the bronze-footed bulls breathe Vulcan out through nostrils of adamant, and the grasses, touched by their hot blasts, burn;",
+   "i": "Look: the bronze-hoofed bulls blow fire from nostrils of adamant, and the grass their scorching breath touches goes up in flame;",
+   "n": "Vulcanum is the god’s name used for the element he owns: fire. adamanteis naribus is ablative of means, adamas being the unbreakable metal of poetry. tactae ... herbae is a participle with its noun as the subject of ardent, not an absolute construction.",
+   "v": true,
+   "ln": 104
+  },
+  {
+   "t": "utque solent pleni resonare camini,\naut ubi terrena silices fornace soluti\nconcipiunt ignem liquidarum adspergine aquarum,\npectora sic intus clausas volventia flammas\ngutturaque usta sonant.",
+   "l": "and as furnaces at the full are accustomed to roar, or when flints melted in an earthen kiln take fire at the sprinkling of clear water, so their chests, rolling the flames shut inside them, and their scorched throats resound.",
+   "i": "and as furnaces at full blast roar, or as burnt lime melted in an earthen kiln catches fire when clear water is sprinkled on it, so their chests, churning the flames shut inside, and their burnt throats sound.",
+   "n": "A second simile on ut ... sic, this one with two halves before the answer. silices ... soluti are limestone burnt in the kiln: quicklime hisses and heats violently when water is thrown on it, which is the whole point of the comparison. adspergine is ablative of cause; volventia is a present participle agreeing with pectora, the neuter plural subject of sonant.",
+   "v": true,
+   "ln": 106
+  },
+  {
+   "t": "Tamen illis Aesone natus\nobvius it.",
+   "l": "Nevertheless the son of Aeson goes to meet them.",
+   "i": "Even so, Aeson’s son goes out to meet them.",
+   "n": "illis is dative with obvius, “in the way of them”. Everything since the bulls came out has stood in the present tense and it holds here: after a four-line simile the sentence is barely two words long, and that abruptness is the whole of his stepping forward.",
+   "v": true,
+   "ln": 110
+  },
+  {
+   "t": "Vertere truces venientis ad ora\nterribiles vultus praefixaque cornua ferro,\npulvereumque solum pede pulsavere bisulco\nfumificisque locum mugitibus impleverunt.",
+   "l": "They turned their savage, terrible faces towards the face of the man coming on, and their horns tipped with iron, and struck the dusty ground with cloven hoof and filled the place with smoking bellowings.",
+   "i": "They swung their savage, terrible heads towards the face of the man walking up, and their iron-tipped horns; they struck the dusty ground with cloven hoof and filled the place with smoky bellowing.",
+   "n": "vertere and pulsavere are the poetic -ere third-person plural perfect, “they turned”, “they struck”, standing in the same sentence as the full form impleverunt. truces and terribiles both agree with vultus; the subject, the bulls, is carried over from the line before. venientis is the genitive singular of the participle, “of the man coming on”, with ora.",
+   "v": true,
+   "ln": 111
+  },
+  {
+   "t": "Deriguere metu Minyae: subit ille, nec ignes\nsentit anhelatos (tantum medicamina possunt),",
+   "l": "The Minyae stiffened with fear: he goes up, and does not feel the panted fires (so much can drugs do),",
+   "i": "The Minyans froze with fear; he walks up and does not feel the fire they pant out — such is the power of drugs —",
+   "n": "Deriguere is another -ere perfect, “they went stiff”, with metu as ablative of cause. ignes ... anhelatos is split by its own verb, the noun standing at the end of one line and the participle following sentit at the start of the next. tantum ... possunt is “drugs have that much power”, Ovid answering the reader’s objection before it is made.",
+   "v": true,
+   "ln": 115
+  },
+  {
+   "t": "pendulaque audaci mulcet palearia dextra,\nsuppositosque iugo pondus grave cogit aratri\nducere et insuetum ferro proscindere campum.",
+   "l": "and he strokes their hanging dewlaps with a bold right hand, and them, set under the yoke, he compels to draw the heavy weight of the plough and to cleave a field unused to iron.",
+   "i": "and with a bold right hand he strokes their hanging dewlaps; he sets them under the yoke and forces them to draw the plough’s heavy weight and break open a field that has never known iron.",
+   "n": "suppositos, “placed beneath”, agrees with the unexpressed object of cogit, the bulls, and that object then serves as accusative subject of the two infinitives ducere and proscindere. ferro is dative with insuetum, “unaccustomed to the iron”. The whole miracle is described in the vocabulary of ordinary ploughing.",
+   "v": true,
+   "ln": 117
+  },
+  {
+   "t": "Mirantur Colchi, Minyae clamoribus augent\nadiciuntque animos.",
+   "l": "The Colchians marvel; the Minyae with their shouting raise his spirit and add to it.",
+   "i": "The Colchians look on amazed; the Minyans with their shouting lift his courage and add to it.",
+   "n": "augent and adiciunt share the one object, animos, a poetic plural for a single man’s spirit; clamoribus is ablative of means. Ovid sets the two watching nations against each other before the sowing begins.",
+   "v": true,
+   "ln": 120,
+   "p": true
+  },
+  {
+   "t": "Galea tum sumit aena\nvipereos dentes et aratos spargit in agros.",
+   "l": "Then from a bronze helmet he takes the serpent’s teeth and scatters them over the ploughed fields.",
+   "i": "Then from a bronze helmet he takes the snake’s teeth and scatters them across the ploughed land.",
+   "n": "galea aena is ablative of source with no preposition, “out of the bronze helmet”. The vipereos dentes are the sowing-seed of armed men in the old story, kept from a killed serpent; aratos agros picks up the ploughing just done, so that the field is ready in the same breath.",
+   "v": true,
+   "ln": 121
+  },
+  {
+   "t": "Semina mollit humus valido praetincta veneno,\net crescunt fiuntque sati nova corpora dentes.",
+   "l": "The soil softens the seeds, steeped beforehand in strong poison, and the sown teeth grow and become new bodies.",
+   "i": "The soil softens the seed, already steeped in strong venom, and the sown teeth swell and turn into new bodies.",
+   "n": "praetincta agrees with semina, “the seeds, dipped beforehand”, the drug being Medea’s work. sati is the participle of sero, “sown”, agreeing with dentes, and nova corpora is a predicate after fiunt: the teeth become bodies.",
+   "v": true,
+   "ln": 123
+  },
+  {
+   "t": "Utque hominis speciem materna sumit in alvo\nperque suos intus numeros componitur infans,\nnec nisi maturus communes exit in auras,",
+   "l": "And as an infant takes on the form of a man in its mother’s belly and is put together inside through its own proper parts, and does not come out into the common air unless full-grown,",
+   "i": "And as an unborn child takes on human shape in its mother’s womb and is assembled inside, part by proper part, and does not come out into the air we all breathe until it is ready,",
+   "n": "A third simile on ut ... sic. per suos numeros is “through its own due measures”, each part in its proper proportion; componitur is passive, “is put together”. communes auras, “the air common to all”, is a standing phrase for the world outside the womb.",
+   "v": true,
+   "ln": 125
+  },
+  {
+   "t": "sic ubi visceribus gravidae telluris imago\neffecta est hominis, feto consurgit in arvo,\nquodque magis mirum est, simul edita concutit arma.",
+   "l": "so, when in the vitals of the pregnant earth the image of a man has been finished, it rises up in the teeming field, and — what is more of a marvel — the moment it is brought forth it clashes its weapons.",
+   "i": "so when in the womb of the pregnant earth a man’s shape has been finished, it stands up in the fertile field, and — stranger still — the moment it is brought forth it clashes its weapons.",
+   "n": "The simile closes on its own terms: the earth has viscera and is gravida, “pregnant”, exactly as the mother had an alvus. quodque magis mirum est is a connecting relative used parenthetically, “and what is more of a marvel”. edita is the verb used of a mother’s delivering — the field gives birth armed.",
+   "v": true,
+   "ln": 128
+  },
+  {
+   "t": "Quos ubi viderunt praeacutae cuspidis hastas\nin caput Haemonii iuvenis torquere parantes,\ndemisere metu vultumque animumque Pelasgi.",
+   "l": "And when the Pelasgians saw them making ready to hurl spears of sharpened point at the head of the Haemonian youth, they let fall in fear their faces and their spirit.",
+   "i": "And when the Pelasgians saw them making ready to hurl their needle-pointed spears at the head of the young Haemonian, in fear they let both face and courage drop.",
+   "n": "Quos is a connecting relative opening the sentence, “and them”, the earth-born men, object of viderunt. Haemonius is Thessalian, from Haemonia, the old name of Jason’s country. demisere is the -ere perfect again, and it governs two objects at once, one of them physical and one not: they let their faces fall and their courage with them.",
+   "v": true,
+   "ln": 131
+  },
+  {
+   "t": "Ipsa quoque extimuit, quae tutum fecerat illum;\nutque peti vidit iuvenem tot ab hostibus unum,\npalluit et subito sine sanguine frigida sedit;",
+   "l": "She too took fright, she who had made him safe; and when she saw the young man, one man, attacked by so many enemies, she went pale and suddenly sat cold, without blood;",
+   "i": "She too was terrified, the very woman who had made him safe; and when she saw the young man, one against so many enemies, she turned pale and sat suddenly cold and bloodless;",
+   "n": "Here quoque is the adverb “too”. The relative clause quae tutum fecerat illum carries a concession: she of all people should have had nothing to fear. peti is a present passive infinitive in indirect statement after vidit, “that he was being attacked”, and unum set against tot is the point of the line: one man, that many.",
+   "v": true,
+   "ln": 134
+  },
+  {
+   "t": "neve parum valeant a se data gramina, carmen\nauxiliare canit secretasque advocat artes.",
+   "l": "and lest the herbs given by her should have too little power, she sings a helping spell and calls up her secret arts.",
+   "i": "and so that the herbs she had given should not fall short in strength, she sings a spell to reinforce them and summons her hidden arts.",
+   "n": "neve ... valeant is a negative purpose clause, “and so that they may not be of too little strength”; parum valere is to be insufficiently strong. a se data gramina uses the reflexive se of the subject of the main verb, Medea herself. canit is the verb that carmen, “spell”, is built from: the spell is sung, not said.",
+   "v": true,
+   "ln": 137
+  },
+  {
+   "t": "Ille gravem medios silicem iaculatus in hostes\na se depulsum Martem convertit in ipsos.",
+   "l": "He, having hurled a heavy stone into the middle of the enemy, turned the war-god, driven off from himself, against them.",
+   "i": "He flung a heavy stone into the middle of the enemy, and so turned the fighting away from himself and against them.",
+   "n": "iaculatus is a deponent perfect participle, active in sense, “having hurled”. medios ... in hostes is “into the midst of the enemy”, the adjective doing the work of the English noun “middle”. Martem is a god’s name used for what he governs, the fighting, as Vulcanum was used for fire above.",
+   "v": true,
+   "ln": 139
+  },
+  {
+   "t": "Terrigenae pereunt per mutua vulnera fratres\ncivilique cadunt acie.",
+   "l": "The earth-born brothers perish through wounds given to each other and fall in a battle of citizens.",
+   "i": "The earth-born brothers die of wounds they deal one another and fall in a war among themselves.",
+   "n": "They are fratres, brothers, because they came out of the same ground in the same moment; mutua vulnera are wounds exchanged, each for each. civili acie is the Roman phrase for the worst kind of war, laid here on men a minute old.",
+   "v": true,
+   "ln": 141
+  },
+  {
+   "t": "Gratantur Achivi\nvictoremque tenent avidisque amplexibus haerent.",
+   "l": "The Achaeans offer their congratulation, and hold the victor, and cling to him with greedy embraces.",
+   "i": "The Greeks crowd round to congratulate him, take hold of the victor and cling to him in hungry embraces.",
+   "n": "Gratantur is deponent, active in sense, “they offer congratulation”: it is congratulating, not thanking — the thanking is a different verb and comes a few lines below, at agis grates. avidis amplexibus is ablative of manner, “with grasping embraces” — and it sets up the next lines, where the one person with most right to embrace him may not.",
+   "v": true,
+   "ln": 142
+  },
+  {
+   "t": "Tu quoque victorem complecti, barbara, velles:\nobstitit incepto pudor.",
+   "l": "You too would have wished to embrace the victor, barbarian girl: shame stood in the way of the attempt.",
+   "i": "You too would have liked to embrace the victor, barbarian girl; shame blocked the impulse.",
+   "n": "Ovid turns from the story to speak straight at Medea — apostrophe, the address of a character in the middle of narrating her. barbara is his word for her, the Greek term for anyone not Greek, and it is the word she used of her own country in her speech. velles is an unreal imperfect subjunctive, “you would have wanted”; incepto is dative with obstitit. quoque here is once more the adverb.",
+   "v": true,
+   "ln": 144
+  },
+  {
+   "t": "At complexa fuisses\nsed te, ne faceres, tenuit reverentia famae.",
+   "l": "But you would have embraced him, yet regard for your good name held you back, that you should not do it.",
+   "i": "And you would have embraced him — only regard for your good name held you back from doing it.",
+   "n": "complexa fuisses is the pluperfect subjunctive of the deponent complector, formed with fuisses rather than esses: an unreal past, “you would have embraced him”. ne faceres depends on the verb of hindering tenuit, “held you back from doing it”. Magnus prints no stop at the end of the line after fuisses; Lectorium prints its witness unaltered.",
+   "v": true,
+   "ln": 145
+  },
+  {
+   "t": "Quod licet, adfectu tacito laetaris agisque\ncarminibus grates et dis auctoribus horum.",
+   "l": "So far as is allowed, you rejoice with silent feeling, and you render thanks to your spells and to the gods who gave them.",
+   "i": "You take the joy you are allowed, in silence, and give thanks to your spells and to the gods behind them.",
+   "n": "Quod licet stands loose at the head of the sentence, “so far as is allowed”. agere grates is the formula for rendering thanks, with the dative carminibus and dis; auctoribus horum agrees with dis, “the gods, the authors of these things”. Ovid is still speaking to her, and will hand her back to the narrative in the next paragraph.",
+   "v": true,
+   "ln": 147
+  },
+  {
+   "t": "Pervigilem superest herbis sopire draconem,\nqui crista linguisque tribus praesignis et uncis\ndentibus horrendus custos erat arboris aureae.",
+   "l": "It remains to put the ever-wakeful dragon to sleep with herbs, which, conspicuous for its crest and three tongues and dreadful with hooked teeth, was the guardian of the golden tree.",
+   "i": "What is left is to put the sleepless dragon to sleep with herbs — the creature which, conspicuous for its crest and its three tongues, horrible with hooked teeth, was the guardian of the golden tree.",
+   "n": "superest takes the infinitive sopire as its subject: “to lull the dragon asleep is what remains”. praesignis governs the ablatives crista linguisque tribus, and horrendus the ablative uncis dentibus. The arbor aurea is the tree the Fleece hangs on, and pervigilem, “wakeful right through”, answers the insopitum of Medea’s speech.",
+   "v": true,
+   "ln": 149,
+   "p": true
+  },
+  {
+   "t": "Hunc postquam sparsit Lethaei gramine suci\nverbaque ter dixit placidos facientia somnos,\nquae mare turbatum, quae concita flumina sistunt,\nsomnus in ignotos oculos sibi venit,",
+   "l": "After he had sprinkled this creature with the herb of Lethean juice and three times spoken the words that make peaceful sleep, words which stop a troubled sea, which stop rushing rivers, sleep came into eyes unknown to it,",
+   "i": "After he had sprinkled the creature with a herb of Lethe’s juice and three times spoken the words that bring quiet sleep — words that halt a troubled sea, that halt rivers in spate — sleep came into eyes that had never known it,",
+   "n": "Lethaeus is “of Lethe”, the underworld river of forgetting. ter, three times, is the ritual number for a spell. The repeated quae is emphasis inside one relative clause, both objects hanging on the single verb sistunt. sibi is reflexive to somnus, the subject: the eyes were strangers to sleep, because this dragon had never slept.",
+   "v": true,
+   "ln": 152
+  },
+  {
+   "t": "et auro\nheros Aesonius potitur spolioque superbus\nmuneris auctorem secum, spolia altera, portans\nvictor Iolciacos tetigit cum coniuge portus.",
+   "l": "and the Aesonian hero takes possession of the gold, and proud with his spoil, carrying with him the giver of the gift, a second spoil, as victor he reached the harbours of Iolcus with his wife.",
+   "i": "and the hero, Aeson’s son, takes the gold; and proud of his spoil, carrying with him the giver of the gift — a second spoil — he came in victory to the harbours of Iolcus with his wife.",
+   "n": "potitur is deponent, active in sense, and takes the ablative auro, “gains possession of the gold”. muneris auctorem is Medea, and spolia altera sets her in apposition as plunder in her own right — Ovid’s last word on the bargain she made. Iolcus in Thessaly is where the Argo set out from, so the voyage ends where it began.",
+   "v": true,
+   "ln": 155
+  }
+ ]
+}

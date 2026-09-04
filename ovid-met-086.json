@@ -1,0 +1,642 @@
+{
+ "id": "ovid-met-086",
+ "sourceId": "ovid-met-086",
+ "title": "Ceyx et Alcyone. Somnus",
+ "titleEn": "The Voyage of Ceyx and the Storm — Metamorphoses XI.410–582",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 8719b7d375018d4f. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
+ "about": "Troubled by his brother's fate and by portents, Ceyx resolves to cross the sea and consult the oracle of the Clarian god, the road to Delphi having been closed by Phorbas and his Phlegyans. Alcyone begs him not to go, or else to take her with him; he refuses both, swears to be back before the moon has twice filled her circle, and she says goodbye and collapses before the ship is rowed out and she watches it out of sight. At sea, toward nightfall, a storm builds and takes the ship apart: the helmsman admits he does not know what to order, the hull opens, and the tenth wave comes down on her like a soldier over a wall. Ceyx, holding the splinters, calls on his father-in-law and his father and speaks Alcyone's name into the water until a wave closes over his head, while at home she counts the nights, lays out the clothes he is to wear, and prays at Juno's altars for a husband who is no longer anyone.",
+ "sentences": [
+  {
+   "t": "Interea fratrisque sui fratremque secutis\nanxia prodigiis turbatus pectora Ceyx,\nconsulat ut sacras, hominum oblectamina, sortes,\nad Clarium parat ire deum;",
+   "l": "Meanwhile Ceyx, troubled as to his anxious breast both by his brother's affair and by the portents that had followed his brother, prepares to go to the Clarian god, that he may consult the sacred lots, men's delights;",
+   "i": "Meanwhile Ceyx, his anxious heart shaken by what had happened to his brother and by the portents that came after him, makes ready to go to the god of Claros, to consult the sacred oracle, that delight of mankind;",
+   "n": "turbatus … anxia pectora is the Greek accusative of respect after a passive participle — “troubled as to his anxious breast” — which English turns round into “his anxious heart shaken”; pectora is a poetic plural for the one breast. The genitive fratris sui has no noun of its own and a word such as “fate” or “case” has to be supplied for it, while the second half of the cause is the ablative prodigiis with its participle secutis, “the portents that followed his brother”. consulat ut is a purpose clause with ut held back to second place in its own clause. hominum oblectamina, “men's delights”, stands in apposition to sortes: the oracle is named as the thing people comfort themselves with. ad Clarium … deum names Apollo by his shrine at Claros and not by name.",
+   "p": true,
+   "v": true,
+   "ln": 410
+  },
+  {
+   "t": "nam templa profanus\ninvia cum Phlegyis faciebat Delphica Phorbas.",
+   "l": "for unhallowed Phorbas, together with the Phlegyans, was making the Delphic temple unapproachable.",
+   "i": "for Phorbas, an unholy man, and his Phlegyans were making the temple at Delphi impossible to reach.",
+   "n": "profanus is literally “in front of the shrine”, outside it, and so unhallowed — the opposite of what a man coming to a temple must be; it is nominative with Phorbas, whose name is held to the very last word of the sentence. templa Delphica is a poetic plural for the one temple, and adjective and noun are split across the line-break, with profanus, invia cum Phlegyis and faciebat standing between them. invia faciebat is a double accusative, “was making the temple impassable”, and it is the reason Ceyx goes to Claros instead. The imperfect faciebat gives the state of affairs standing behind the decision.",
+   "v": true,
+   "ln": 413
+  },
+  {
+   "t": "Consilii tamen ante sui, fidissima, certam\nte facit, Alcyone;",
+   "l": "But first he makes you certain of his plan, most faithful one, Alcyone;",
+   "i": "But first he tells you his plan, most faithful of wives, Alcyone;",
+   "n": "Ovid turns aside from the story and speaks to his character directly — te facit, “he makes you”, with the vocatives fidissima and Alcyone. This is apostrophe, and it is how the poem stands close to the person about to be hurt. certum facere aliquem with a genitive, here consilii sui, is the idiom for informing a person of something, “to make someone sure of”. tamen ante, “yet beforehand”, sets this against the preparation just described.",
+   "p": true,
+   "v": true,
+   "ln": 415
+  },
+  {
+   "t": "cui protinus intima frigus\nossa receperunt, buxoque simillimus ora\npallor obit, lacrimisque genae maduere profusis.",
+   "l": "and her inmost bones at once took the cold in, and a pallor most like boxwood went over her face, and her cheeks grew wet with poured-out tears.",
+   "i": "and at once the chill went into her inmost bones; a pallor like boxwood spread across her face, and her cheeks were wet with streaming tears.",
+   "n": "cui is a connecting relative and a dative of the person concerned, “and for her”. intima ossa receperunt frigus turns the English round: the bones take the cold in, rather than the cold entering the bones. buxo simillimus is a dative of comparison after a superlative — box is the pale yellow-white wood Latin uses for the colour of a drained face. ora is the plain accusative object of obit, “a pallor goes over her face”, and not an accusative of respect. maduere is the poetic third-plural perfect for maduerunt; the full ending stands in the line just above it in receperunt at 417, and maduere is the only shortened one in this part. lacrimis … profusis is an ablative of means with genae maduere standing between the two words.",
+   "v": true,
+   "ln": 416
+  },
+  {
+   "t": "Ter conata loqui ter fletibus ora rigavit,\nsingultuque pias interrumpente querellas\n“quae mea culpa tuam,” dixit “carissime, mentem\nvertit?",
+   "l": "Three times having tried to speak, three times she wetted her face with weeping, and, with a sob breaking in on her loving complaints, “What fault of mine,” she said, “dearest, has turned your mind?",
+   "i": "Three times she tried to speak, and three times she wet her face with weeping; then, sobs breaking into her loving complaints, she said: “What fault of mine, dearest, has turned your mind?",
+   "n": "conata is the deponent participle of conor, active in sense though passive in form, “having tried”. The doubled ter … ter counts the failures rather than describing them. singultu … interrumpente is an ablative absolute with a present participle, “with a sob breaking in”, where English wants a clause. pias querellas are complaints that are not reproaches: pius is the word for the loyalty owed inside a family, so her complaint is a dutiful one. The vocative carissime is set inside the quotation after dixit, so that the address cuts her own question in two.",
+   "v": true,
+   "ln": 419
+  },
+  {
+   "t": "Ubi est quae cura mei prior esse solebat?",
+   "l": "Where is that care of me which used to come first?",
+   "i": "Where is the care for me that always used to come first?",
+   "n": "cura mei has the objective genitive of the pronoun, “care concerning me”, not “my care”. prior is “earlier, ahead of the rest”, and with esse solebat, “used to be”, it says that she came before everything else. quae … solebat is a relative clause with its antecedent cura drawn inside it, a common arrangement in verse.",
+   "v": true,
+   "ln": 422
+  },
+  {
+   "t": "Iam potes Alcyone securus abesse relicta?",
+   "l": "Can you now be away free of care, with Alcyone left behind?",
+   "i": "Can you be away now and not care, with Alcyone left behind?",
+   "n": "Alcyone relicta is an ablative absolute, “with Alcyone left behind”, and she uses her own name where English would say “me”, setting herself at arm's length. securus is se-curus, “without care”, and it answers the cura of the line before: the very thing she has just asked after is what he is now free of. This question and the two that follow at 424 all open with iam, “now”, driving at the change in him.",
+   "v": true,
+   "ln": 423
+  },
+  {
+   "t": "Iam via longa placet? Iam sum tibi carior absens?",
+   "l": "Now does a long journey please you? Now am I dearer to you absent?",
+   "i": "Does a long journey please you now? Am I dearer to you now that I am away?",
+   "n": "absens is a nominative participle agreeing with the subject of sum, “I, being absent”, where English needs a clause, “now that I am away”. carior takes the dative tibi. The repeated iam opens each half of the line, and the second question turns the first one bitter.",
+   "v": true,
+   "ln": 424
+  },
+  {
+   "t": "At, puto, per terras iter est, tantumque dolebo,\nnon etiam metuam, curaeque timore carebunt.",
+   "l": "But, I suppose, the journey is over land, and I shall only grieve, I shall not fear as well, and my cares will be free of dread.",
+   "i": "But of course — the journey is by land, is it? Then I shall only grieve, and not be afraid as well, and my worries will have no dread in them.",
+   "n": "puto is thrown in as a parenthesis and is bitterly ironic: she says what she knows is not so, in order to knock it down in the next line. tantum … non etiam is “only … not also”, and the two futures dolebo and metuam divide grief from fear — she will grant herself the first and is denied the second. careo takes the ablative of the thing lacked, timore.",
+   "v": true,
+   "ln": 425
+  },
+  {
+   "t": "Aequora me terrent et ponti tristis imago:",
+   "l": "The seas terrify me, and the grim look of the deep:",
+   "i": "The open water terrifies me, and the grim face of the sea:",
+   "n": "aequora, the level waters, and pontus, the open deep, are two words for the same sea, and she uses both in the one line. imago is the look a thing presents, its appearance, and tristis is “grim, forbidding” — the sea's face rather than its temper. The colon is the edition's, and the two things she has actually seen follow it.",
+   "v": true,
+   "ln": 427
+  },
+  {
+   "t": "et laceras nuper tabulas in litore vidi,\net saepe in tumulis sine corpore nomina legi.",
+   "l": "and lately I saw torn planks on the shore, and often I have read names on tombs without a body.",
+   "i": "and lately I saw broken planks on the beach, and often I have read names on tombs that hold no body.",
+   "n": "sine corpore belongs with tumulis: the empty tomb raised for a man lost at sea, his name cut in stone with nothing under it. The two clauses are built alike, each opening with et and closing with a first-person perfect, vidi and legi, so that the evidence comes in a pair. nuper and saepe set one recent sight against a lifetime's habit.",
+   "v": true,
+   "ln": 428
+  },
+  {
+   "t": "Neve tuum fallax animum fiducia tangat,\nquod socer Hippotades tibi sit, qui carcere fortes\ncontineat ventos et, cum velit, aequora placet!",
+   "l": "And let no deceiving confidence touch your mind, because Hippotades is a father-in-law to you, who keeps the strong winds shut in a prison and, when he wishes, calms the seas!",
+   "i": "And do not let a false confidence touch you because Hippotades is your father-in-law — he who keeps the strong winds locked up and quiets the sea when he pleases!",
+   "n": "neve … tangat is a negative wish in the subjunctive, “and let not”. The quod-clause gives the ground of the confidence, and sit is subjunctive because the reason is the one she imagines him relying on, not one she states in her own person. Hippotades is a patronymic, “son of Hippotes”, for Aeolus, keeper of the winds — and her own father, so she is arguing against her family's power. placet here is not the familiar placet from placeo, “it pleases”, but the present subjunctive of placo, “to calm”, with aequora as its object; contineat beside it is subjunctive in the same descriptive relative clause. carcere is an ablative of place, and the winds are spoken of throughout as prisoners.",
+   "v": true,
+   "ln": 430
+  },
+  {
+   "t": "Cum semel emissi tenuerunt aequora venti,\nnil illis vetitum est, incommendataque tellus\nomnis et omne fretum est.",
+   "l": "When once the winds, let loose, have taken hold of the seas, nothing is forbidden them, and every land and every sea is left unentrusted.",
+   "i": "Once the winds are let out and have taken hold of the open water, nothing is forbidden them: every land and every sea is left with no one charged to protect it.",
+   "n": "tenuerunt is a perfect inside a cum-clause with semel, “when once they have taken”, of a thing that has happened before and will happen again. emissi is the perfect passive participle, “sent out”, of winds released from the prison of the line before. incommendata is built on commendo, “entrust to someone's keeping”: land and sea are un-entrusted, with nobody charged to look after them. incommendata agrees with the nearer tellus and has to be taken again with omne fretum; omnis and omne stand on either side of et, and the single est serves both subjects.",
+   "v": true,
+   "ln": 433
+  },
+  {
+   "t": "Caeli quoque nubila vexant\nexcutiuntque feri rutilos concursibus ignes.",
+   "l": "The clouds of the sky too they harry, and, wild, they shake out red fires by their collisions.",
+   "i": "They harry the clouds of the sky as well, and in their wild collisions they strike out red fire.",
+   "n": "quoque here is the plain adverb “also”, not quo with the enclitic -que — a trap worth watching in this poem. feri is nominative plural of the winds, “wild ones”, standing next to the verb; some editions print feris, which would make the collisions fierce and leave the winds unqualified. concursibus is an ablative of means, the winds running together, and excutio is “shake out”, as sparks are shaken from a thing struck. rutilos ignes is the red fire of lightning.",
+   "v": true,
+   "ln": 435
+  },
+  {
+   "t": "Quo magis hos novi (nam novi et saepe paterna\nparva domo vidi), magis hos reor esse timendos.",
+   "l": "By how much the more I know these winds — for I do know them, and often, small, saw them in my father's house — by so much the more do I think them to be feared.",
+   "i": "The better I know these winds — and I do know them; I often saw them as a little girl in my father's house — the more I think they are to be feared.",
+   "n": "quo magis … magis is “the more … the more”, the ablative of measure quo answering the second magis. parva is nominative and agrees with the speaker, so the smallness is her own age and not the house: English has to say “as a little girl”. paterna domo is an ablative of place with no preposition. timendos is a gerundive inside indirect statement after reor, “that they are to be feared”. Magnus prints hos in both places, “these winds”; some editions print hoc in the second, which would make it “I think this the more to be feared”.",
+   "v": true,
+   "ln": 437
+  },
+  {
+   "t": "Quod tua si flecti precibus sententia nullis,\ncare, potest, coniunx, nimiumque es certus eundi,\nme quoque tolle simul.",
+   "l": "But if your resolve can be bent by no prayers, dear husband, and you are too sure of going, take me along as well.",
+   "i": "But if no prayer of mine can bend your mind, dear husband, and you are all too set on going, then take me with you.",
+   "n": "quod at the head is the loose connecting “but as to that”, not a relative pronoun, and si follows inside it. flecti is a passive infinitive with potest, “can be bent”, and precibus nullis is the ablative of what fails to bend it. The two vocatives care and coniunx are pulled apart with potest standing between them, and both are held back into the line after the clause has begun. certus eundi is an adjective with the genitive of the gerund, “sure of going”, that is, fixed on it. tolle is the imperative of tollo, “lift, take up”, the ordinary word for taking a passenger aboard.",
+   "v": true,
+   "ln": 439
+  },
+  {
+   "t": "Certe iactabimur una,\nnec nisi quae patiar, metuam: pariterque feremus,\nquidquid erit, pariter super aequora lata feremur.”",
+   "l": "At least we shall be tossed together, and I shall fear nothing but what I suffer: and we shall bear alike, whatever there will be, alike we shall be borne over the wide seas.”",
+   "i": "At least we shall be tossed about together, and I shall fear nothing but what I am actually suffering; we shall bear it alike, whatever comes, and alike be borne over the wide sea.”",
+   "n": "nec nisi quae patiar metuam is “I shall fear nothing except the things I suffer”, and patiar is deponent, its one form serving both the future indicative and the present subjunctive; beside the futures iactabimur, metuam and feremur it is most naturally the future, so that what she will actually undergo leaves no room for dread of what is not yet there. The two closing lines set one verb against itself — feremus, “we shall carry”, active, closing 442, and feremur, “we shall be carried”, passive, closing 443 — with pariter placed before each, so that the sharing is said twice and the second time it is the sea that does the carrying.",
+   "v": true,
+   "ln": 441
+  },
+  {
+   "t": "Talibus Aeolidis dictis lacrimisque movetur\nsidereus coniunx: neque enim minor ignis in ipso est.",
+   "l": "By such words and tears of the daughter of Aeolus the starry husband is moved: for the fire in him himself is no less.",
+   "i": "The star-born husband is moved by such words and such tears from Aeolus's daughter: the fire in him is no smaller.",
+   "n": "Aeolidis is a Greek patronymic genitive, “of the daughter of Aeolus”, naming Alcyone by her father just as Hippotades named him by his. sidereus, “of the stars”, is the epithet given the husband and marks his kinship with the light of the sky. talibus dictis lacrimisque is an ablative of means with the passive movetur. neque enim is “for … not”, with enim standing second in its clause as it must; ignis is the fire of love, and in ipso, “in the man himself”, insists that the feeling is not one-sided.",
+   "p": true,
+   "v": true,
+   "ln": 444
+  },
+  {
+   "t": "Sed neque propositos pelagi dimittere cursus,\nnec vult Alcyonen in partem adhibere pericli,\nmultaque respondit timidum solantia pectus.",
+   "l": "But he is willing neither to give up the courses over the sea he has set himself, nor to take Alcyone into a share of the danger, and he answered many things that comfort her frightened breast.",
+   "i": "But he will neither give up the sea-crossing he has planned nor take Alcyone into a share of the danger, and he answered with much that would comfort her frightened heart.",
+   "n": "One vult serves both infinitives, dimittere and adhibere, and it stands only in the second of the two clauses. in partem pericli adhibere is “bring in to a share of the danger”, the phrase for admitting a person to a portion of anything. Alcyonen is a Greek accusative in -en. multa is the neuter plural object of respondit and solantia a present participle agreeing with it, “many things comforting …”, with timidum pectus for the participle's own object. The present vult and the perfect respondit stand side by side, the one holding his settled mind, the other the act of answering.",
+   "v": true,
+   "ln": 446
+  },
+  {
+   "t": "Non tamen idcirco causam probat;",
+   "l": "Yet not for that does he get his case approved;",
+   "i": "Even so, he does not win his case;",
+   "n": "probat here is “makes acceptable, gets approved”, not “proves”: his reasons do not carry her. idcirco, “on that account”, looks back to the comforting words just given, and non tamen denies them their effect before the clause is out.",
+   "v": true,
+   "ln": 449
+  },
+  {
+   "t": "addidit illis\nhoc quoque lenimen, quo solo flexit amantem:",
+   "l": "he added to those things this soothing too, by which alone he bent the loving woman:",
+   "i": "he added one softening to the rest, and by that alone he bent the woman who loved him:",
+   "n": "illis is dative, “to those things”, the comforting words of the line before. quoque is again the adverb, “as well”. lenimen is a noun built on lenio, “soften”: the thing that soothes, here the promise that follows. quo solo is an ablative of means with an emphatic solo, “by this alone”, and it concedes that everything before it had failed. amantem is a participle used as a noun, “the loving one”, so that she is named by her love and not by her name.",
+   "v": true,
+   "ln": 449
+  },
+  {
+   "t": "“Longa quidem est nobis omnis mora:",
+   "l": "“Long indeed is every delay to us:",
+   "i": "“Every delay is long to us, I grant you:",
+   "n": "nobis is a dative of the person judging, “long in our reckoning”. quidem grants her point in order to turn it, and the sed that answers it opens the second half of the line. omnis mora, “every delay”, is wide enough to take in the two months he is about to name.",
+   "v": true,
+   "ln": 451
+  },
+  {
+   "t": "sed tibi iuro\nper patrios ignes, si me modo fata remittant,\nante reversurum, quam luna bis impleat orbem.”",
+   "l": "but I swear to you by my father's fires, if only the fates let me go, that I shall return before the moon twice fills her circle.”",
+   "i": "but I swear to you by my father's fires that, if only the fates let me go, I shall be back before the moon has twice filled out her circle.”",
+   "n": "iuro takes the accusative and infinitive, with the accusative me left out: reversurum [esse], “that I shall return”, a future infinitive. per patrios ignes is the formula of an oath sworn by a thing, and the fires are his father's — the light in the sky he is descended from. si … remittant is the subjunctive of a wished-for condition, “if only they should send me back”, with modo, “only”, softening it further. ante … quam is antequam split in two, with reversurum standing between them, and impleat is subjunctive because the moment is looked forward to rather than dated. The moon filling her circle twice is two months.",
+   "v": true,
+   "ln": 451
+  },
+  {
+   "t": "His ubi promissis spes est admota recursus,\nprotinus eductam navalibus aequore tingi\narmarique suis pinum iubet armamentis.",
+   "l": "When by these promises hope of his running back was brought near, at once he orders the pine, led out from the ship-sheds, to be dipped in the water and armed with its own tackle.",
+   "i": "When these promises had brought the hope of his return within reach, he at once ordered the ship led out of the sheds, dipped in the water and rigged with all her own gear.",
+   "n": "spes admota est is “hope was moved up close”, a thing brought within reach rather than a feeling. recursus is a genitive, “of a running back”. pinum, “pine”, is the ship named from the timber she is built of, and this part uses the trick again and again — pinus, puppis, carina, ratis, all standing for the whole ship. iubet governs two passive infinitives, tingi and armari, with pinum as their common subject, and the noun itself waits until the second of them. navalibus is the ablative of the ship-sheds. Magnus prints tingi and armari; some editions print tingui and aptari, “to be fitted out”, which puts the stress on fitting rather than on arming.",
+   "p": true,
+   "v": true,
+   "ln": 454
+  },
+  {
+   "t": "Qua rursus visa, veluti praesaga futuri,\nhorruit Alcyone lacrimasque emisit obortas\namplexusque dedit, tristique miserrima tandem\nore “vale” dixit conlapsaque corpore toto est.",
+   "l": "And when this was seen again, Alcyone shuddered, like one foreknowing what was to come, and let go the tears that had risen, and gave embraces, and at last, most wretched, with a sad mouth said “farewell”, and collapsed with her whole body.",
+   "i": "At the sight of the ship again Alcyone shuddered, like someone who knew what was coming; she let the risen tears go, and put her arms round him, and at last, in her misery, said “goodbye” with a grieving mouth, and collapsed, her whole body going down at once.",
+   "n": "Qua … visa is an ablative absolute built on a connecting relative, “and when this had been seen”, the qua reaching back to the pine of the line before. praesaga futuri is “foreknowing of what is to be”, an adjective with the genitive of a future participle used as a noun. obortas is the perfect participle of oborior, “rise up”, of tears that have welled; emisit obortas puts the welling before the letting go. conlapsa keeps the edition's unassimilated spelling, conl- for coll-. corpore toto is an ablative of the whole extent, “with her whole body”, which is what the literal prints: she does not sink by degrees but goes down all at once.",
+   "v": true,
+   "ln": 457
+  },
+  {
+   "t": "Ast iuvenes, quaerente moras Ceyce, reducunt\nordinibus geminis ad fortia pectora remos\naequalique ictu scindunt freta.",
+   "l": "But the young men, with Ceyx seeking delays, draw the oars back in twin rows to their strong chests, and with an even stroke split the straits.",
+   "i": "But the young men — Ceyx meanwhile looking for reasons to wait — pull the oars back to their strong chests in double banks, and split the water with an even stroke.",
+   "n": "Ast is an old form of at, “but”. quaerente moras Ceyce is an ablative absolute with a present participle, “Ceyx seeking delays”, and it says in three words what he wanted: the crew's speed is set against his hanging back, and Ceyce is a Greek ablative. ordinibus geminis is the two banks of oars, an ablative of manner. reducunt ad pectora is the pull of the stroke itself, the oar drawn in to the body. aequali ictu, “with equal beat”, is what makes a crew one thing.",
+   "p": true,
+   "v": true,
+   "ln": 461
+  },
+  {
+   "t": "Sustulit illa\numentes oculos, stantemque in puppe relicta\nconcussaque manu dantem sibi signa maritum\nprima videt redditque notas;",
+   "l": "She raised her wet eyes, and is the first to see her husband, standing on the stern left behind and giving her signs with a shaken hand, and she gives signs back;",
+   "i": "She lifted her wet eyes and was the first to see her husband standing on the stern as it drew away, waving his hand to signal to her — and she signalled back;",
+   "n": "The two participles stantem and dantem both agree with maritum, which is held to the end of its own line, so that the standing and the waving arrive before the man. concussa manu is ablative and works as the means of the signalling. prima is nominative and agrees with the subject, “she, first”, not an adverb attached to the verb. notas are the answering marks, and reddit is “gives back”, the exchange made in one word. Magnus prints puppe relicta, the stern left behind; some editions print puppe recurva, “the curved stern”, which describes the ship instead of the parting. For prima some editions print prona, “leaning forward”.",
+   "v": true,
+   "ln": 463
+  },
+  {
+   "t": "ubi terra recessit\nlongius atque oculi nequeunt cognoscere vultus,\ndum licet, insequitur fugientem lumine pinum.",
+   "l": "when the land had drawn back further off and her eyes cannot make out his face, while it is allowed, she follows the fleeing pine with her sight.",
+   "i": "When the land had fallen further behind and her eyes could no longer make out his face, she followed the fleeing ship with her eyes as long as she could.",
+   "n": "The perfect recessit and the present nequeunt stand in the one clause, the narrative slipping into the present tense as the distance opens; it stays there for the lines that follow. lumine is an ablative of means, and lumen, “light”, is the ordinary poetic word for the eye that does the looking. fugientem … pinum is the ship again named from her timber, with the participle split from her noun by lumine. dum licet, “while it is permitted”, is thrown in as a limit on the whole action: the looking lasts exactly as long as it can.",
+   "v": true,
+   "ln": 466
+  },
+  {
+   "t": "Haec quoque ut haud poterat, spatio submota, videri,\nvela tamen spectat summo fluitantia malo;",
+   "l": "When this too could not be seen, drawn off by the distance, she watches the sails nevertheless, floating at the top of the mast;",
+   "i": "When even the ship could no longer be seen, carried off by the distance, she still watched the sails streaming at the masthead;",
+   "n": "ut here is temporal, “when”, and the same ut opens the next sentence in the same sense. quoque is the adverb, “too”. spatio submota is a participle with an ablative of cause, “drawn away by the distance”, agreeing with haec, the ship. summo malo is “at the top of the mast”, the adjective doing the work of an English noun. The imperfect poterat and the present spectat divide what has stopped from what she goes on doing.",
+   "v": true,
+   "ln": 469
+  },
+  {
+   "t": "ut nec vela videt, vacuum petit anxia lectum\nseque toro ponit;",
+   "l": "when she sees not even the sails, anxious she seeks the empty bed and lays herself on the couch;",
+   "i": "when she could not see even the sails, she went in her distress to the empty bed and laid herself down on it;",
+   "n": "The whole passage is built in steps, each opening with a temporal ubi or ut and each taking one more thing away: the land, then the ship, then the sails, then nothing. anxia is nominative with the subject and English turns it into a phrase, “in her distress”; it is the word that stood of his troubled breast at 411, and it has crossed over to her. se ponit is reflexive, “places herself”, where English says “lay down”. vacuum lectum, the empty bed, is the first of the things that will not let her forget.",
+   "v": true,
+   "ln": 471
+  },
+  {
+   "t": "renovat lectusque locusque\nAlcyonae lacrimas et, quae pars, admonet, absit.",
+   "l": "the bed and the place renew Alcyone's tears and warn her what part of her is away.",
+   "i": "the bed and the place bring Alcyone's tears back, and remind her what part of her is missing.",
+   "n": "lectusque locusque is the doubled enclitic, “both the bed and the place”, two subjects for the singular renovat. Alcyonae is the Latin genitive of a name the poem elsewhere declines in Greek — Alcyonen at 447 and again at 567. quae pars … absit is an indirect question in the subjunctive, and admonet, the verb that governs it, is set down inside it between its own words. pars is not a piece of the bed but a piece of her: the one gone away is counted as part of the person left behind. Magnus prints locusque, “and the place”; some editions print torusque, which gives “the bed and the couch” and loses the empty side of it.",
+   "v": true,
+   "ln": 472
+  },
+  {
+   "t": "Portibus exierant, et moverat aura rudentes:",
+   "l": "They had gone out from the harbour, and the breeze had stirred the ropes:",
+   "i": "They had cleared the harbour, and the breeze had begun to work in the rigging:",
+   "n": "Portibus is an ablative of separation with no preposition, and the plural is poetic for the one harbour. Both verbs are pluperfect, exierant and moverat, so that the whole scene at sea is already accomplished before the account of it starts. rudentes are the ropes of the rigging, and they are where the wind is felt first.",
+   "p": true,
+   "v": true,
+   "ln": 474
+  },
+  {
+   "t": "obvertit lateri pendentes navita remos\ncornuaque in summa locat arbore totaque malo\ncarbasa deducit venientesque accipit auras.",
+   "l": "the sailor turns the hanging oars in to the side, and sets the yard-arms at the top of the tree, and draws the whole canvas down at the mast, and takes in the coming breezes.",
+   "i": "the crew turn the hanging oars in against the side, set the yards at the masthead, let the whole sail down at the mast, and take the wind as it comes.",
+   "n": "navita is the poetic form of nauta, a singular standing for the whole crew, which the idiomatic makes plural. cornua, “horns”, are the yard-arms at the ends of the spar. arbor, “tree”, is one word for the mast and malus the other, and both stand in the same line, 476. tota … carbasa is a poetic neuter plural for the one sail: tota is neuter plural and cannot go with the masculine malo, so the “whole” belongs to the canvas and not to the mast; the adjective stands next to last in 476 and the noun opens 477. deducit is “draws down”, of canvas let out from the yard. Four present verbs in three lines put the whole business of making sail into one movement.",
+   "v": true,
+   "ln": 475
+  },
+  {
+   "t": "Aut minus, aut certe medium non amplius aequor\npuppe secabatur, longeque erat utraque tellus,\ncum mare sub noctem tumidis albescere coepit\nfluctibus et praeceps spirare valentius eurus.",
+   "l": "Either less, or at any rate not more than the middle of the sea was being cut by the stern, and each land was far off, when toward night the sea began to whiten with swelling waves and the headlong east wind to blow more strongly.",
+   "i": "The middle of the sea, or something less than it and certainly no more, was being cut by the stern; each shore was far off; when toward nightfall the sea began to whiten with swelling waves and the headlong east wind to blow harder.",
+   "n": "aut minus, aut … non amplius is a careful double measuring, two ways of saying “no further than halfway”, and it fixes the ship exactly where neither land can be reached. puppe, the stern, stands for the whole ship, and secabatur is passive: the sea is what is being cut. utraque tellus is “each land”, the one behind and the one ahead. sub noctem is “toward night”, of a time coming on. One coepit serves both infinitives, albescere and spirare, which stand a line apart. eurus is the east wind; praeceps, “headlong”, is what it is given for its own; the winds before this have been fortes at 431 and feri at 436, but none of them named.",
+   "v": true,
+   "ln": 478
+  },
+  {
+   "t": "“Ardua iamdudum demittite cornua” rector\nclamat “et antemnis totum subnectite velum.”",
+   "l": "“Let the high yard-arms down, and long since,” the helmsman shouts, “and tie the whole sail up under the spars.”",
+   "i": "“Get the high yards down — it should have been done long ago,” the helmsman shouts, “and lash the whole sail up under the spars.”",
+   "n": "iamdudum with an imperative is Latin's way of saying the thing ought to have been done already, “this long while now”: the reproach is inside the order. demittite and subnectite are plain plural imperatives, shouted at the crew. rector is the man who steers, and the word for his office comes only after the first half of the order is out. antemnis is a dative with subnectite, “tie up under to the spars”: the sail is gathered and made fast so that the wind has nothing to take hold of.",
+   "v": true,
+   "ln": 482
+  },
+  {
+   "t": "Hic iubet: impediunt adversae iussa procellae,\nnec sinit audiri vocem fragor aequoris ullam.",
+   "l": "This man orders: contrary squalls hinder the orders, and the crash of the sea does not let any voice be heard.",
+   "i": "That is his order; the squalls come against it and block it, and the roar of the sea lets no voice be heard at all.",
+   "n": "Hic iubet is two words set off by a colon against the rest of the line, which undoes them. adversae is both “opposing” and “coming head-on”, so the squalls hinder the order in the plain physical way, by blowing the words back down the deck. audiri is a passive infinitive after sinit, “does not allow to be heard”, with vocem … ullam for its subject, the adjective torn from its noun and held to the line's end. fragor is the noise of a thing breaking, used here of the sea itself.",
+   "v": true,
+   "ln": 484
+  },
+  {
+   "t": "Sponte tamen properant alii subducere remos,\npars munire latus, pars ventis vela negare.",
+   "l": "Of their own accord, all the same, some hurry to draw the oars in, part to make the side fast, part to refuse the sails to the winds.",
+   "i": "Even so, of their own accord, some hurry to get the oars in, some to secure the ship's side, some to keep the sails from the wind.",
+   "n": "sponte is “by their own impulse”, and it answers the order that could not be heard: the crew do the right thing untold. properant governs all three infinitives, subducere, munire and negare, though it stands only in the first clause. alii … pars … pars divides the crew three ways and passes from a plural to a singular noun without troubling about it. ventis vela negare, “to deny the sails to the winds”, is the Latin turn where English says “take in sail”.",
+   "v": true,
+   "ln": 486
+  },
+  {
+   "t": "Egerit hic fluctus aequorque refundit in aequor,\nhic rapit antemnas.",
+   "l": "This man bails out the waves and pours sea back into sea, this one snatches at the spars.",
+   "i": "One man bails the water out and pours sea back into sea; another grabs at the spars.",
+   "n": "hic … hic is “one man … another”, and the same trick of counting men off is used again and multiplied at 539–540. egerit is from egero, “carry out”, the word for bailing a boat. aequor refundit in aequor sets the same noun on either side of the verb: what he throws overboard is sea, and it goes back into sea. rapit is “snatches”, of a man grabbing at a spar to hold it, or to hold on.",
+   "v": true,
+   "ln": 488
+  },
+  {
+   "t": "Quae dum sine lege geruntur,\naspera crescit hiems, omnique e parte feroces\nbella gerunt venti fretaque indignantia miscent.",
+   "l": "While these things are being done without rule, the rough storm grows, and from every quarter the fierce winds wage wars and mix the indignant straits.",
+   "i": "While all this goes on without order, the storm grows rougher, and from every quarter the fierce winds wage their wars and churn the outraged water.",
+   "n": "Quae is a connecting relative opening its own clause, “and these things”. sine lege is “without law”, of work done in no order and to no plan. The same verb stands twice in three lines, geruntur at 489 of the men's scrambling and gerunt at 491 of the winds' war — the one passive and aimless, the other active and deliberate. indignantia is the present participle of indignor, “take a thing ill”, given to the water: the sea resents what is being done to it. omni e parte has the preposition standing between the adjective and its noun.",
+   "v": true,
+   "ln": 489
+  },
+  {
+   "t": "Ipse pavet nec se, qui sit status, ipse fatetur\nscire ratis rector, nec, quid iubeatve velitve:",
+   "l": "He himself is afraid, and the ship's helmsman himself admits that he does not know what the state of things is, nor what he is to order or to want:",
+   "i": "The ship's own master is afraid, and admits himself that he does not know how things stand, nor what to order or even what to want:",
+   "n": "ipse stands twice in the one line, once at its head and once before the verb, and the second is what makes the admission cost something: the man whose trade this is says it. ratis rector is held over to the next line, so that the fear arrives before the office. qui sit status and quid iubeat velitve are indirect questions in the subjunctive; se scire is the accusative and infinitive governed by fatetur, which is deponent — passive in form, active in sense. iubeat and velit are deliberative in force: not what he does order, but what he is to order. Magnus prints velitve, “or wish”; some editions print vetetve, “or forbid”, which would pair ordering with forbidding instead of putting the failure inside his own will.",
+   "p": true,
+   "v": true,
+   "ln": 492
+  },
+  {
+   "t": "tanta mali moles tantoque potentior arte est.",
+   "l": "so great is the mass of the evil, and by so much more powerful than skill.",
+   "i": "so great is the bulk of the disaster, and by so much stronger than any skill.",
+   "n": "moles is the word for a great dead weight — a pile, a mound, a mole built out into the sea — so the storm is measured as a mass and not as a noise. tanta … tanto plays the adjective against the ablative of measure, “so great … greater by so much”. potentior arte is a comparative with the ablative of comparison, and ars is the helmsman's own craft, the thing he has just confessed is no use. One est serves both halves of the line.",
+   "v": true,
+   "ln": 494
+  },
+  {
+   "t": "Quippe sonant clamore viri, stridore rudentes,\nundarum incursu gravis unda, tonitribus aether.",
+   "l": "For indeed the men sound with shouting, the ropes with creaking, the heavy wave with the charge of waves, the upper air with thunders.",
+   "i": "For the men are loud with shouting, the ropes with creaking, the heavy wave with the charge of other waves, the sky with thunder.",
+   "n": "One verb, sonant, serves four subjects, and each subject has its own ablative of the noise it makes: clamore, stridore, incursu, tonitribus. The four stand with no connective between them at all — asyndeton — so the sounds pile up instead of following one another. gravis unda is the heavy water itself, made to sound by undarum incursu, the running-together of other waves. aether is the upper air, and it comes last and highest of the four.",
+   "v": true,
+   "ln": 495
+  },
+  {
+   "t": "Fluctibus erigitur caelumque aequare videtur\npontus et inductas adspergine tangere nubes;",
+   "l": "The deep is raised up by its waves and seems to make itself level with the sky and to touch with its spray the clouds drawn over it;",
+   "i": "The sea is heaved up by its own waves and seems to come level with the sky and to touch the overdrawn clouds with its spray;",
+   "n": "erigitur is passive, “is raised up”, though what raises it is its own fluctibus, an ablative of means. The subject pontus is held back to the head of 498, after the passive verb and after videtur, so that the sea is described before it is named. aequare is “to make equal”, with caelum for its object: the sea does not merely rise toward the sky, it levels itself with it. inductas is the perfect participle of induco, of cloud drawn over like a covering. The edition keeps the unassimilated adsp- in adspergine.",
+   "v": true,
+   "ln": 497
+  },
+  {
+   "t": "et modo, cum fulvas ex imo vertit harenas,\nconcolor est illis, Stygia modo nigrior unda,\nsternitur interdum spumisque sonantibus albet.",
+   "l": "and now, when it turns the tawny sands up from the bottom, it is of one colour with them; now blacker than the water of Styx; sometimes it is laid flat and whitens with sounding foam.",
+   "i": "and now, when it turns the yellow sand up from the bottom, it takes the sand's own colour; now it is blacker than the water of Styx; and at times it lies flat and goes white with sounding foam.",
+   "n": "The three states are marked off by modo … modo … interdum, “now … now … at times”, and the sea changes colour three times in three lines. concolor takes the dative illis, “of one colour with those”, the sands just named. Stygia … unda is an ablative of comparison after nigrior, the black water of the underworld river. sternitur is passive, “is laid flat”, the verb used of things thrown down and spread out. spumis sonantibus is an ablative of means, and albet is a plain verb of colour, “is white”.",
+   "v": true,
+   "ln": 499
+  },
+  {
+   "t": "Ipsa quoque his agitur vicibus Trachinia puppis,\net nunc sublimis veluti de vertice montis\ndespicere in valles imumque Acheronta videtur,\nnunc, ubi demissam curvum circumstetit aequor,\nsuspicere inferno summum de gurgite caelum.",
+   "l": "The Trachinian ship herself too is driven through these changes, and now, on high, she seems to look down as from a mountain's peak into valleys and to the bottom of Acheron; now, when the curving water has stood round her where she is let down, to look up from a pit of the underworld at the top of the sky.",
+   "i": "The ship out of Trachis herself is driven through the same changes: now, lifted high, she seems to be looking down as from a mountain peak into valleys and to the bottom of Acheron; and now, when the curving water has closed round her where she has dropped, to be looking up from a pit of hell at the very top of the sky.",
+   "n": "quoque is again the adverb, “too”, and Ipsa sets the ship beside the sea whose changes have just been counted out. agitur is passive, “is driven”, and his vicibus is an ablative of the turns she is put through — the word looks straight forward to the nunc … nunc that follows. Trachinia names the ship by the place she comes from, and puppis, properly the stern, is once more the whole ship. One videtur serves both infinitives, despicere and suspicere, and the second waits until the last line of the sentence. The two verbs are built on the same stem with opposite prefixes, de- down and sus- up, and each is given its own de-phrase to match, de vertice montis against de gurgite. demissam is accusative, agreeing with the ship, and is the object of circumstetit: the water has taken up its position all round her where she has been let down. Acheronta is a Greek accusative of the underworld river, and imum makes it the lowest point there is; summum caelum answers it at the other end.",
+   "p": true,
+   "v": true,
+   "ln": 502
+  },
+  {
+   "t": "Saepe dat ingentem fluctu latus icta fragorem\nnec levius pulsata sonat, quam ferreus olim\ncum laceras aries ballistave concutit arces.",
+   "l": "Often, struck as to her side by a wave, she gives a huge crash, and, beaten, sounds no more lightly than when at times an iron ram or a ballista shakes a battered citadel.",
+   "i": "Again and again, struck in the side by a wave, she gives out a huge crash, and under the beating sounds no less loud than an iron ram or a ballista shaking a battered citadel.",
+   "n": "latus icta is a Greek accusative of respect after a passive participle, “struck as to her side”, where English says “struck in the side”; fluctu is the ablative of what strikes her. pulsata is a second passive participle of the same ship. The comparison is with siege engines — aries is the battering ram, called ferreus from its iron head, and the ballista is the machine that throws — and laceras arces are walls already torn, so that what is compared is the noise of a place giving way. The ship is a besieged town from here on: the siege is taken up again at 525–532 and again at 535–536.",
+   "v": true,
+   "ln": 507
+  },
+  {
+   "t": "Utque solent sumptis incursu viribus ire\npectore in arma feri protentaque tela leones,\nsic ubi se ventis admiserat unda coortis,\nibat in arma ratis multoque erat altior illis.",
+   "l": "And as fierce lions are used to go, with their strength gathered in the charge, breast-first into weapons and levelled spears, so, when the wave had let itself go, the winds having risen, it went at the ship's armament and was much higher than it.",
+   "i": "And as fierce lions will charge, gathering their strength as they run, breast-first into weapons and levelled spears, so the wave, once the winds had risen and it had let itself go, came at the ship's armament and rose far above it.",
+   "n": "sumptis … viribus is an ablative absolute, “with strength taken up”, and incursu is the ablative of what takes it up, the run itself. feri … leones are the subject of solent and are split wide apart, the adjective in the middle of its line and the noun at the end of it. se admiserat is reflexive, “had let itself go”, of a thing given its head. ventis coortis is a second ablative absolute, “with the winds risen”. arma here are the ship's own defences, the gear she was armed with at 456; Magnus prints arma in both places, and some editions read alta in the second, “the high parts”, which would send the wave at her height instead of at her armament.",
+   "v": true,
+   "ln": 510
+  },
+  {
+   "t": "Iamque labant cunei, spoliataque tegmine cerae\nrima patet praebetque viam letalibus undis.",
+   "l": "And now the wedges give way, and the seam, stripped of its covering of wax, stands open and offers a road to the deadly waters.",
+   "i": "And now the wedges work loose, and a seam, stripped of its coat of wax, gapes open and offers the deadly water a road in.",
+   "n": "cunei are the wedges driven into a ship's joints to hold her planking tight, and labant is “totter, work loose”. spoliata tegmine is a participle with an ablative of separation, “robbed of its covering”, and cerae is the wax used to caulk the seams. rima, the crack itself, is the subject of both patet and praebet. viam praebere with the dative undis is “offer a road to”, said of the sea as it would be said of an army let inside a city — the siege language again.",
+   "p": true,
+   "v": true,
+   "ln": 514
+  },
+  {
+   "t": "Ecce cadunt largi resolutis nubibus imbres,\ninque fretum credas totum descendere caelum,\ninque plagas caeli tumefactum adscendere pontum.",
+   "l": "See — the rains fall in plenty from the loosened clouds, and you would believe the whole sky was coming down into the sea, and the swollen deep going up into the tracts of the sky.",
+   "i": "And now the rain comes down in floods from the loosened clouds; you would think the whole sky was coming down into the sea, and the swollen sea going up into the tracts of the sky.",
+   "n": "resolutis nubibus is an ablative absolute, “with the clouds undone”, of cloud let loose into rain. credas is a potential subjunctive with an indefinite “you”, “one would believe”. The two lines are built to match — each opens with in and the enclitic -que, each ends with the noun that does the moving, caelum and pontum — and the two nouns cross over, sky going down and sea going up, so that the pair says in its shape what it says in its words. tumefactum, “made to swell”, agrees with pontum. The edition keeps the unassimilated adsc- in adscendere.",
+   "v": true,
+   "ln": 516
+  },
+  {
+   "t": "Vela madent nimbis, et cum caelestibus undis\naequoreae miscentur aquae;",
+   "l": "The sails are soaked with rain-storms, and the waters of the sea are mixed with the waters of heaven;",
+   "i": "The sails are soaked with rain, and the sea's water is mixed with the water of the sky;",
+   "n": "nimbis is an ablative of means with madent, “are wet with”. caelestibus undis and aequoreae aquae are two ways of saying water, one from above and one from below; the heavenly water stands at the head of the phrase and the sea's own has its noun split from its adjective by miscentur; the verb is passive, so neither of them does the mixing. The line does with two nouns what the two lines before it did with sky and sea.",
+   "v": true,
+   "ln": 519
+  },
+  {
+   "t": "caret ignibus aether,\ncaecaque nox premitur tenebris hiemisque suisque.",
+   "l": "the upper air is without its fires, and the blind night is pressed down by darknesses both the storm's and its own.",
+   "i": "the sky has lost its fires, and the blind night is weighed down by two darknesses, the storm's and its own.",
+   "n": "careo takes the ablative of the thing lacked, ignibus — the stars, which had lit the sky and now do not. caeca nox is night called blind, not because it cannot see but because nothing can be seen in it — the word turned round from the one who is blind to what does the blinding. premitur is passive, “is pressed down”, of a weight laid on from above. hiemisque suisque is the doubled enclitic on two genitives, “both the storm's and its own”, and tenebris has to be taken twice over, once with each.",
+   "v": true,
+   "ln": 520
+  },
+  {
+   "t": "Discutiunt tamen has praebentque micantia lumen\nfulmina:",
+   "l": "Yet the flashing lightnings scatter these darknesses and hold out a light:",
+   "i": "Yet the flickering lightning breaks that darkness up and holds out a light:",
+   "n": "has looks back to the tenebrae of the line before. The subject fulmina is held over to the head of 523, after both its verbs, so that the scattering and the light arrive before the thing that does them. micantia is neuter plural and agrees with fulmina, not with the singular lumen: it is the lightnings that flash, and the light they hold out is the object of praebent.",
+   "v": true,
+   "ln": 522
+  },
+  {
+   "t": "fulmineis ardescunt ignibus ignes.",
+   "l": "fires take fire from the fires of the thunderbolt.",
+   "i": "fire catches from the fire of the thunderbolt.",
+   "n": "The line turns on one word twice and on its own adjective as well: fulmineis ignibus is the ablative of means, the fire of the lightning, and ignes the subject, the fire that is kindled. ardescunt is inceptive, “begin to burn, catch”, the -sc- ending marking a state coming on. Magnus prints ignes; some editions print imbres, which would set the rains alight instead of fire and take the strangeness out of the line.",
+   "v": true,
+   "ln": 523
+  },
+  {
+   "t": "Dat quoque iam saltus intra cava texta carinae\nfluctus;",
+   "l": "Now the wave gives its leaps too inside the hollow woven work of the keel;",
+   "i": "Now the water is leaping inside the hollow frame of the hull as well;",
+   "n": "dare saltus is “to give leaps”, a noun and verb where English has one verb, “to leap”. quoque is the adverb, “too”, adding the inside of the ship to the outside. cava texta is the “hollow weaving” of the hull, the planking spoken of as a woven thing. The subject fluctus is held over to the first word of the next line, so that the leap is described before it is named.",
+   "p": true,
+   "v": true,
+   "ln": 524
+  },
+  {
+   "t": "et ut miles, numero praestantior omni,\ncum saepe adsiluit defensae moenibus urbis,\nspe potitur tandem laudisque accensus amore\ninter mille viros murum tamen occupat unus,\nsic, ubi pulsarunt noviens latera ardua fluctus,\nvastius insurgens decimae ruit impetus undae;",
+   "l": "and as a soldier, better than the whole number of them, when he has often leapt at the walls of a defended city, gets at last what he hoped for and, fired with love of praise, alone among a thousand men takes the wall, so, when the waves had beaten nine times at her high sides, the charge of the tenth wave rushes on, rising more hugely;",
+   "i": "and as a soldier, better than all the rest of them, having leapt again and again at the walls of a defended city, gets at last what he hoped for and, fired by love of praise, takes the wall alone among a thousand men — so, when the waves had struck nine times at her high sides, the charge of the tenth wave comes on, rising bigger than the rest;",
+   "n": "numero praestantior omni is a comparative with an ablative of comparison, “better than the whole number of them”. adsiluit keeps the edition's unassimilated adsil-, and the compound is “leap at”: it is the same movement the wave was given in dat saltus at 524. potitur takes the ablative spe, “gets possession of his hope”. unus stands last in its line and is emphatic, one man alone, set against inter mille viros. pulsarunt is a syncopated perfect for pulsaverunt. noviens and decimae count the waves out, nine beaten off and the tenth carrying the wall, and impetus, the word for a soldier's charge, is what the tenth wave is given.",
+   "v": true,
+   "ln": 525
+  },
+  {
+   "t": "nec prius absistit fessam oppugnare carinam,\nquam velut in captae descendat moenia navis.",
+   "l": "and it does not leave off assaulting the weary hull before it goes down, as it were, into the walls of a captured ship.",
+   "i": "and it does not give up its assault on the weary hull until it comes down into the walls, as it were, of a ship now taken.",
+   "n": "nec prius … quam is “not before”, the two halves split across the line-end, and descendat is subjunctive because what is named is the end aimed at and not a date. oppugnare is the technical word for assaulting a fortified place, and absistit takes it as a plain infinitive. captae … navis is a genitive with moenia, and the metaphor is carried through to the end: the ship has walls, and she has been taken.",
+   "v": true,
+   "ln": 531
+  },
+  {
+   "t": "Pars igitur temptabat adhuc invadere pinum,\npars maris intus erat.",
+   "l": "Part of the sea, then, was still trying to get into the pine; part was inside.",
+   "i": "So part of the sea was still trying to force its way into the ship; part of it was already inside.",
+   "n": "The two pars clauses divide the sea itself and not the crew: the genitive maris stands in the second half and governs both. igitur draws the conclusion out of the simile just finished. invadere is another military word, “go in against”, used of an assault. pinum is once more the ship named from her timber, the same word as at 456 and 468.",
+   "v": true,
+   "ln": 533
+  },
+  {
+   "t": "Trepidant haud segnius omnes,\nquam solet urbs, aliis murum fodientibus extra\natque aliis murum, trepidare, tenentibus intus.",
+   "l": "All are in a panic no less than a city is used to be, when some are digging at the wall outside and others, inside, are holding it.",
+   "i": "They are all in no less a panic than a city, when some are undermining the wall from outside and others are holding it from within.",
+   "n": "haud segnius … quam is “no more sluggishly than”, that is, “no less than”. The verb of the comparison, trepidare, is held back into 536 and set down inside the second of the two ablative absolutes it belongs after, between aliis murum and tenentibus intus, so that it stands in the middle of the clause it governs. The two absolutes are matched, each with aliis and murum, and differ only in the participle and in extra against intus. Magnus prints segnius; some editions print setius, a different adverb to the same purpose.",
+   "v": true,
+   "ln": 534
+  },
+  {
+   "t": "Deficit ars animique cadunt, totidemque videntur,\nquot veniunt fluctus, ruere atque inrumpere mortes.",
+   "l": "Skill fails and courage falls, and as many deaths seem to rush on and break in as there are waves that come.",
+   "i": "Skill fails, courage falls, and there seem to be as many deaths rushing on and breaking in as there are waves coming.",
+   "n": "ars is the helmsman's craft again, the thing already beaten by the storm's mass at 494. animi is plural, “spirits”, and cadunt is the verb English uses of them too. totidem … quot is “just as many … as”, and the quot-clause is set down inside the sentence, between totidem videntur and the two infinitives they govern. mortes is plural and countable here — one death for every wave that comes — and it is the counting that makes it terrible.",
+   "v": true,
+   "ln": 537
+  },
+  {
+   "t": "Non tenet hic lacrimas, stupet hic, vocat ille beatos,\nfunera quos maneant:",
+   "l": "One man does not hold back his tears, one is stunned, another calls those blessed whom funerals await:",
+   "i": "One man cannot hold his tears back, one stands stunned, another calls those men blessed who have a funeral waiting for them:",
+   "n": "hic … hic … ille counts three men off, as hic … hic counted two at 488–489. maneant is subjunctive in a relative clause of the characterising kind, “men of the sort a funeral awaits”. funera is plural because the men envied are plural — a funeral apiece. What is envied is burial itself, and the envy looks back to the tombs with no body under them at 429.",
+   "v": true,
+   "ln": 539
+  },
+  {
+   "t": "hic votis numen adorat\nbracchiaque ad caelum, quod non videt, inrita tollens\nposcit opem, subeunt illi fraterque parensque,\nhuic cum pignoribus domus et quodcumque relictum est.",
+   "l": "this one worships a divine power with vows and, lifting toward the sky, which he cannot see, arms that get nothing, asks for help; up to that man come his brother and his father, to this one his house with the pledges in it and whatever he has left behind.",
+   "i": "one man prays to a god with vows and, lifting toward a sky he cannot see arms that will get nothing, begs for help; into one man's mind come his brother and his father, into another's his house, the children in it, and everything he left behind.",
+   "n": "inrita is accusative and agrees with bracchia, not with the prayer: it is the arms that get nothing, and the adjective stands where the failure is felt. quod non videt is thrown in between caelum and the participle tollens, so the prayer is aimed at a place already blotted out. subeunt with the dative illi is “come up to”, of things rising into a person's mind. pignora are “pledges” and the word is regularly used of children, the securities a marriage gives. The datives illi and huic divide the men as hic and ille had divided them in the lines before, and the second half has no verb of its own: subeunt must be taken again.",
+   "v": true,
+   "ln": 540
+  },
+  {
+   "t": "Alcyone Ceyca movet, Ceycis in ore\nnulla nisi Alcyone est;",
+   "l": "Alcyone moves Ceyx; in the mouth of Ceyx there is no woman but Alcyone;",
+   "i": "It is Alcyone who moves Ceyx; in Ceyx's mouth there is no woman but Alcyone;",
+   "n": "Ceyca is a Greek accusative and Ceycis a Greek genitive of the same name, and the two stand on either side of movet in 544, with the name Alcyone opening 544 and standing again at its clause's close in 545, just before est: four words of two names hold the whole sentence. in ore is “on his lips”, of what a man keeps saying. nulla is feminine, “no woman”, and the noun it would agree with is simply left out.",
+   "v": true,
+   "ln": 544
+  },
+  {
+   "t": "et cum desideret unam,\ngaudet abesse tamen.",
+   "l": "and although he longs for her alone, he is glad, all the same, that she is away.",
+   "i": "and though she is the one thing he wants, he is glad all the same that she is not here.",
+   "n": "cum with the subjunctive desideret is concessive, “although he longs”, and the tamen of the next clause answers it. unam is feminine and stands alone, “the one woman”. gaudet takes the plain infinitive abesse with no subject expressed, and the subject to be supplied is not the man but Alcyone: he is glad that she is elsewhere. Three words hold both halves of his feeling at once.",
+   "v": true,
+   "ln": 545
+  },
+  {
+   "t": "Patriae quoque vellet ad oras\nrespicere inque domum supremos vertere vultus,\nverum ubi sit, nescit;",
+   "l": "He would have wished, too, to look back toward his native shores and to turn his last looks toward home, but where it is he does not know;",
+   "i": "He would have liked, too, to look back toward his own shores and turn his last gaze toward home — but he does not know where it is;",
+   "n": "vellet is an imperfect subjunctive of a wish that cannot be had, “he would have wished”. quoque is again the adverb, “also”. supremos vultus, “last looks”, is the adjective used of the last things a man does before death, and it says what he does not yet say himself. ubi sit is an indirect question in the subjunctive after nescit, and what he cannot find is not the house but the direction — which way home lies.",
+   "v": true,
+   "ln": 546
+  },
+  {
+   "t": "tanta vertigine pontus\nfervet, et inducta piceis e nubibus umbra\nomne latet caelum, duplicataque noctis imago est.",
+   "l": "the sea boils in so great a whirling, and, with a shadow drawn over out of pitch-black clouds, the whole sky lies hidden, and the look of night is doubled.",
+   "i": "the sea boils in such a whirl, and with a shadow drawn over it out of pitch-black cloud the whole sky is hidden, and night's own face is doubled.",
+   "n": "tanta vertigine is an ablative of manner, “with so great a spinning”, and fervet is the verb for water boiling. inducta … umbra is an ablative absolute, “with a shadow drawn over”, and induco is the verb already used of the clouds at 498. omne caelum is the subject of latet, which is intransitive: the sky does not hide anything, it is itself out of sight. imago is again the look a thing presents, as at 427, and duplicata says the storm's darkness has been laid on top of night's.",
+   "v": true,
+   "ln": 548
+  },
+  {
+   "t": "Frangitur incursu nimbosi turbinis arbor,\nfrangitur et regimen, spoliisque animosa superstes\nunda, velut victrix, sinuataque despicit undas,\nnec levius, quam siquis Athon Pindumve revulsos\nsede sua totos in apertum everterit aequor,\npraecipitata cadit pariterque et pondere et ictu\nmergit in ima ratem;",
+   "l": "The mast is broken by the charge of a rainy whirlwind; the steering-gear is broken too; and a wave, proud of its spoils and standing over them, like a victor, and curved into a hollow, looks down on the waves, and, no more lightly than if someone were to tear Athos or Pindus whole from their own seat and overturn them into the open sea, it falls headlong and by weight and blow alike sinks the ship to the bottom;",
+   "i": "The mast is broken by the charge of a rainy whirlwind; the steering-gear is broken too; and a wave, proud of its spoils and standing over them like a victor, arches and looks down on the other waves, and, no more lightly than if a man were to wrench Athos or Pindus whole out of their seat and overturn them into the open sea, falls headlong and sinks the ship to the bottom by weight and blow together;",
+   "n": "frangitur stands first in two lines running, the same verb for the mast and for the steering-gear, and the repetition is the force of it. spoliis is an ablative with animosa, “high-spirited because of its spoils”, and superstes is “standing over”, the word for what is left on top of what has fallen. sinuata is a passive participle, “curved into a hollow”, of a wave arching before it breaks. siquis … everterit is a perfect subjunctive in an imagined condition, and Athon is a Greek accusative of the mountain. revulsos sede sua is “torn away from their own seat”, an ablative of separation. pariter et … et is “both alike”, dividing the two things that sink her, the dead weight and the blow.",
+   "p": true,
+   "v": true,
+   "ln": 551
+  },
+  {
+   "t": "cum qua pars magna virorum,\ngurgite pressa gravi neque in aera reddita, fato\nfuncta suo est:",
+   "l": "and with her a great part of the men, pressed down by the heavy flood and not given back to the air, discharged their own fate:",
+   "i": "and with her a great part of the men, held under by the heavy water and never given back to the air, met the fate that was theirs:",
+   "n": "cum qua is a connecting relative, “and with which”. pars is singular and takes the singular functa est although it means a number of men, so English has to make it plural. fungor is deponent, active in sense though passive in form, and takes an ablative: fato fungi is the set phrase for discharging one's allotted fate, that is, for dying. in aera is a Greek accusative of aer, and reddita, “given back”, names the thing that does not happen — they go under and do not come up. gurgite pressa gravi has the adjective split from its noun by the participle.",
+   "v": true,
+   "ln": 557
+  },
+  {
+   "t": "alii partes et membra carinae\ntrunca tenent:",
+   "l": "others hold pieces and broken limbs of the hull:",
+   "i": "others hold on to pieces and broken parts of the hull:",
+   "n": "trunca is neuter plural agreeing with membra, and it stands at the head of the next line, far from its noun. membra, “limbs”, is used of a ship's timbers, so the wreck is spoken of as a body pulled apart. alii answers the pars magna of the sentence before: some are drowned, the rest are holding wood.",
+   "v": true,
+   "ln": 559
+  },
+  {
+   "t": "tenet ipse manu, qua sceptra solebat,\nfragmina navigii Ceyx socerumque patremque\ninvocat heu! frustra.",
+   "l": "Ceyx himself holds fragments of the ship in the hand with which he used to hold a sceptre, and calls on his father-in-law and his father — alas, in vain.",
+   "i": "Ceyx himself is holding splinters of the ship in the hand that used to hold a sceptre, and calls on his father-in-law and his father — for nothing, alas.",
+   "n": "tenet is repeated at once from the line before, first of the other men and then of the king, and his name waits until the middle of 561. qua sceptra solebat leaves its infinitive out, tenere being supplied from the tenet just used: “with which he was accustomed [to hold] a sceptre”. socerum is Aeolus, the father-in-law of 431 whose power over the winds Alcyone told him not to trust, and patrem the father by whose fires he swore at 452. heu is the poet's own cry, dropped into the middle of the sentence, and frustra answers both prayers at once.",
+   "v": true,
+   "ln": 560
+  },
+  {
+   "t": "Sed plurima nantis in ore\nAlcyone coniunx:",
+   "l": "But most of all on the mouth of the swimming man is Alcyone his wife:",
+   "i": "But the name most on the swimmer's lips is Alcyone, his wife:",
+   "n": "nantis is the present participle of no, “swim”, in the genitive: “of him as he swims”. The sentence has no verb at all — est must be supplied — and in ore is the same phrase used of him at 544, so that what was true on the ship is still true in the water. plurima is nominative feminine and agrees with Alcyone, though English wants an adverb out of it: she is “most” on his lips, that is, oftenest.",
+   "v": true,
+   "ln": 562
+  },
+  {
+   "t": "illam meminitque refertque,\nillius ante oculos ut agant sua corpora fluctus,\noptat et exanimis manibus tumuletur amicis.",
+   "l": "her he remembers and brings back, and he prays that the waves may drive his body before her eyes and that, lifeless, he may be entombed by friendly hands.",
+   "i": "he remembers her and calls her back, and prays that the waves may carry his body before her eyes, and that, dead, he may be given a grave by friendly hands.",
+   "n": "illam and illius stand in two lines running, the second of them opening 564, the same pronoun in two cases, and the name itself does not come back until 567. refert is “brings back”, of a name brought back to the mouth. Both subjunctives, agant and tumuletur, hang on optat, which is set down between them, and ut is postponed to fourth place in its own clause. exanimis is nominative, agreeing with the subject of tumuletur: he asks for burial as a corpse and knows it. sua corpora is a poetic plural for his one body. What he prays for is exactly what the men at 539–540 were envied for having.",
+   "v": true,
+   "ln": 563
+  },
+  {
+   "t": "Dum natat, absentem, quotiens sinit hiscere fluctus,\nnominat Alcyonen ipsisque inmurmurat undis.",
+   "l": "While he swims, as often as the wave lets him open his mouth, he names Alcyone, who is not there, and murmurs into the very waves.",
+   "i": "As he swims, as often as the water lets him open his mouth, he speaks the name of Alcyone, who is not there, and murmurs it into the waves themselves.",
+   "n": "absentem is accusative and agrees with Alcyonen, but the two are split across the line-end, so the reader has “the absent one” before the name. Alcyonen is a Greek accusative in -en. hiscere is “to gape, to open the mouth”, and sinit governs it with the subject left to be supplied. inmurmurat keeps the edition's unassimilated inm- for imm-, and the compound takes the dative undis: he murmurs into the waves, which are the only ear he has.",
+   "v": true,
+   "ln": 566
+  },
+  {
+   "t": "Ecce super medios fluctus niger arcus aquarum\nfrangitur et rupta mersum caput obruit unda.",
+   "l": "See — over the middle of the waves a black arch of waters breaks, and the burst wave buries his sunken head.",
+   "i": "And now, right over the waves, a black arch of water breaks, and the burst wave buries his head under.",
+   "n": "arcus aquarum is the arch of the wave, curved as the sinuata unda was at 553, and niger takes up the blackness the sea was given at 500. frangitur opens a line for the third time in this part, after the mast and the steering-gear at 551–552; here it is the wave itself that breaks. rupta agrees with unda, the nominative subject of obruit — the wave, burst by its own fall, is what buries the head; some take rupta unda instead as an ablative absolute, “with the wave burst”, leaving arcus as the subject. mersum caput is “his sunken head”, the participle doing the drowning before obruit does it again.",
+   "v": true,
+   "ln": 568
+  },
+  {
+   "t": "Lucifer obscurus nec quem cognoscere posses\nilla luce fuit, quoniamque excedere caelo\nnon licuit, densis texit sua nubibus ora.",
+   "l": "The Morning Star was dim, and not one you could have recognised, in that day's light, and since leaving the sky was not permitted him, he covered his own face with thick clouds.",
+   "i": "The Morning Star was dim that day, and not one you would have known; and since he was not allowed to leave the sky, he covered his face with thick cloud.",
+   "n": "nec quem cognoscere posses is a relative clause with a potential subjunctive and an indefinite “you”, “such as you could not have recognised”, the negative carried into it from outside. illa luce is an ablative of time, “on that daylight”, that is, on that day. excedere caelo has an ablative of separation, and non licuit is impersonal, with the dative of the person left for English to supply: leaving was not permitted him. sua ora, “his own face”, is a poetic plural, and texit is the plainest verb there is for it — he covers himself up rather than mourns.",
+   "p": true,
+   "v": true,
+   "ln": 570
+  },
+  {
+   "t": "Aeolis interea tantorum ignara malorum\ndinumerat noctes, et iam, quas induat ille\nfestinat vestes, iam quas, ubi venerit ille,\nipsa gerat, reditusque sibi promittit inanes.",
+   "l": "Meanwhile the daughter of Aeolus, knowing nothing of such great evils, counts off the nights, and now she hurries on the clothes that he is to put on, now those that she herself is to wear when he has come, and promises herself returns that are empty.",
+   "i": "Meanwhile Aeolus's daughter, knowing nothing of such disasters, counts off the nights; now she hurries on the clothes he is to put on, now those she will wear herself when he comes; and she promises herself a homecoming that is nothing.",
+   "n": "Aeolis is a Greek patronymic in the nominative, “the daughter of Aeolus”, matching the genitive Aeolidis at 444. ignara takes the genitive of what is not known, tantorum malorum. The relative clauses quas induat and quas ipsa gerat are subjunctive because the wearing is still to come, and the first is set ahead of the one noun vestes that they share while the second follows it. venerit is a future perfect. reditus is a poetic plural, and inanes is held to the last word of the sentence: it is the poem's word for what she promises herself, not hers.",
+   "p": true,
+   "v": true,
+   "ln": 573
+  },
+  {
+   "t": "Omnibus illa quidem superis pia tura ferebat,\nante tamen cunctos Iunonis templa colebat\nproque viro, qui nullus erat, veniebat ad aras\nutque foret sospes coniunx suus utque rediret,\noptabat, nullamque sibi praeferret;",
+   "l": "She indeed used to bring dutiful incense to all the gods above, yet before all of them she used to tend the temples of Juno, and for her husband, who was no one, she used to come to the altars, and she used to pray that her husband might be safe and that he might come back, and that he might prefer no woman to her;",
+   "i": "She brought her dutiful incense to all the gods above, but before all the rest she tended the temples of Juno; and for her husband, who was nobody now, she kept coming to the altars, and praying that he might be safe and come home, and that he might put no other woman before her;",
+   "n": "qui nullus erat is as bare as Latin can make it — “who was no one” — and the poem drops it into the middle of a sentence about her devotions, saying in three words what she does not know. The four imperfects ferebat, colebat, veniebat and optabat make the whole of it a habit and not an occasion. The two ut-clauses with foret and rediret depend on optabat, which stands only after them, and a third clause, praeferret, follows with no ut of its own. foret is an old form of esset. nullam is feminine, “no woman”.",
+   "v": true,
+   "ln": 577
+  },
+  {
+   "t": "at illi\nhoc de tot votis poterat contingere solum.",
+   "l": "but of so many prayers this alone could fall to her.",
+   "i": "but out of so many prayers this was the only one that could come to her.",
+   "n": "illi is a dative of the person concerned with contingere, “fall to her lot”, a verb used of a thing falling out as one would have it. hoc and solum stand at the two ends of 582, and together they point back to the last of the three prayers, that he should prefer no other woman to her. The imperfect poterat leaves the reader to work out which prayer is meant and why it, and it only, could be granted.",
+   "v": true,
+   "ln": 581
+  }
+ ],
+ "glossaryFile": "metamorphoses-glossary.json"
+}

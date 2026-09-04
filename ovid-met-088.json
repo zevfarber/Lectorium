@@ -1,0 +1,220 @@
+{
+ "id": "ovid-met-088",
+ "sourceId": "ovid-met-088",
+ "title": "Aesacos",
+ "titleEn": "Aesacus and Hesperie — Metamorphoses XI.749–795",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 8719b7d375018d4f. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
+ "about": "An old man watching birds fly joined over the wide straits praises a love kept whole to the end; the next man, or perhaps the same one, points to another sea-bird beside them, a long-throated diver, and gives its pedigree: Ilus, Assaracus, Ganymede, old Laomedon, Priam — the bird was Hector's brother, Aesacus, born in secret under Ida. He hated the city and the court, and on her father's bank he caught sight of the nymph Hesperie, whom he had hunted often through the woods; she ran from him, and while she ran a snake in the grass grazed her foot and killed her. Aesacus threw himself from a cliff into the sea, but Tethys pitied him and caught him and covered him with feathers, so that the death he wanted was refused him. The tale closes on the bird he became, thin and long-necked, diving without end at a death it cannot reach.",
+ "advisory": {
+  "lede": "At XI.767–777 Aesacus pursues the nymph Hesperie — a hunt he has carried on often through the woods before the lines that show her, and presses here while she runs from him in fear — a pursuit whose evident end is rape; she dies fleeing it.",
+  "more": "The Latin does not soften the chase and the translation does not either. Hesperie has been hunted for often through all the woods before the line that first shows her; she runs the instant she is seen, and the poem gives the two of them the shapes of a hind before a wolf and a river duck before a hawk. He presses her hard — celeremque metu celer urget amore, she quick with fear and he quick with love — and the one word he uses afterwards for what he was after is vincere, to win, to get the better of her. A snake lying in the grass grazes her foot as she runs, and she dies of it; he says himself that the cause was his. That he never overtakes her does not change what the chase was, and neither does a death that came from somewhere else: the pursuit is the thing named here. Lectorium presents the text unaltered."
+ },
+ "sentences": [
+  {
+   "t": "Hos aliquis senior iunctim freta lata volantes\nspectat et ad finem servatos laudat amores;",
+   "l": "These, flying joined together over the wide straits, some older man watches, and he praises loves kept safe to the end;",
+   "i": "Some old man watches them flying side by side over the wide straits, and praises a love kept whole to the end;",
+   "n": "aliquis senior is indefinite, “some older man”: neither he nor the speaker who takes up the tale at 751 is ever named or placed. Hos ... volantes is the accusative object of spectat, and the two words stand at opposite ends of the line with everything else between them; freta lata is a second accusative, of the space flown over. ad finem servatos amores, “loves kept safe to the end”, has the participle doing the work of an English relative clause.",
+   "p": true,
+   "v": true,
+   "ln": 749
+  },
+  {
+   "t": "proximus, aut idem, si fors tulit, “hic quoque,” dixit\n“quem mare carpentem substrictaque crura gerentem\nadspicis” (ostendens spatiosum in guttura mergum),\n“regia progenies:",
+   "l": "The next man, or the same one, if chance brought it so, said: “This one too, which you see cropping the sea and carrying its legs drawn up tight” (pointing out a diving bird, roomy in the throat) “is royal stock:",
+   "i": "The next man — or the same one, as chance had it — said: “This one too, the bird you see skimming the sea with its legs tucked up tight” (pointing to a long-throated diver) “comes of royal blood:",
+   "n": "hic quoque here is the plain adverb, “this one too”, and not the trap quō-que, “and with which”, which is spelt the same way. regia progenies is a predicate with est left out, the commonest of Latin's ellipses. carpentem is carpo used of moving over a stretch of ground or water, plucking one's way along it; substricta crura is the plain accusative object of gerentem, not an accusative of respect. spatiosum in guttura is in with the accusative marking the extent to which the bird is roomy, and guttura is a poetic plural for the one throat. mergus, the diving bird, is named here for the first time and explained only in the last line of the tale.",
+   "v": true,
+   "ln": 751
+  },
+  {
+   "t": "sunt si descendere ad ipsum\nordine perpetuo quaeris, sunt huius origo\nIlus et Assaracus raptusque Iovi Ganymedes\nLaomedonque senex Priamusque novissima Troiae\ntempora sortitus.",
+   "l": "they are — if you seek to come down in unbroken order to this one himself, they are this bird's origin — Ilus and Assaracus and Ganymede snatched away for Jupiter, and old Laomedon, and Priam, who drew by lot the last days of Troy.",
+   "i": "his line — if you want to trace it down unbroken to this bird itself, here is what he comes of — is Ilus and Assaracus, and Ganymede carried off for Jupiter, and old Laomedon, and Priam, whose lot was the last days of Troy.",
+   "n": "sunt is said twice, once before the if-clause and once after it, the speaker starting the list, breaking off to allow the question, and starting it again; origo is a singular predicate for a whole string of plural subjects, “these men are his source”. raptus Iovi has the dative of the person the boy was snatched for. sortitus is the perfect participle of the deponent sortior, passive in form and active in sense, “having drawn as his lot”, and novissima tempora is the last stretch of time, not the newest. Magnus prints sunt at the head of 754; some editions print et, which makes the whole a plain “and if you ask”, with no doubling.",
+   "v": true,
+   "ln": 754
+  },
+  {
+   "t": "Frater fuit Hectoris iste:",
+   "l": "That one was Hector's brother:",
+   "i": "That bird was a brother of Hector:",
+   "n": "iste points at the creature in front of the two men, and the past tense fuit is used of a thing standing there alive — the whole turn of the tale is in the mismatch. The colon opens the explanation, and Latin puts the name Hectoris in the middle of the sentence, between the two words that matter, frater and iste.",
+   "v": true,
+   "ln": 758
+  },
+  {
+   "t": "qui nisi sensisset prima nova fata iuventa,\nforsitan inferius non Hectore nomen haberet,\nquamvis est illum proles enixa Dymantis,\nAesacon umbrosa furtim peperisse sub Ida\nfertur Alexirhoe, Granico nata bicorni.",
+   "l": "and he, if he had not felt a strange fate in his first youth, would perhaps have a name not lower than Hector's — although it was Dymas's daughter who bore that one, while Alexirhoe, born of two-horned Granicus, is said to have brought forth Aesacus in secret under shady Ida.",
+   "i": "If he had not met a strange death while still in his first youth, his name might stand no lower than Hector's — though it was Dymas's daughter who bore Hector, while Aesacus, the story goes, was born in secret under the shadow of Ida to Alexirhoe, the daughter of two-horned Granicus.",
+   "n": "qui opens the sentence as a connecting relative, “and he”, not a relative clause hanging on iste. The condition is contrary to fact: nisi sensisset is pluperfect subjunctive for what did not happen, and haberet imperfect subjunctive for what would be true now — the name he would have. inferius non Hectore is a comparative with a bare ablative of comparison and no quam. quamvis stands here with the indicative est enixa, where the concessive normally takes the subjunctive. illum is Hector, the man just named, and not Aesacus: proles Dymantis, “Dymas's child”, is Hecuba, Priam's wife, named only through her father, so the concession is one of birth — Hector borne by the king's wife, Aesacus borne, and only by report (fertur), to a river-god's daughter in secret on the mountain. The two accusatives illum and Aesacon stand in the same place in their clauses, and the flat indicative est enixa is set against the reported fertur. Aesacon is a Greek accusative in -on, and bicornis is the standing epithet of a river-god, whose head is figured with a bull's horns. The first four feet of 761 are all spondees, with the only dactyl in the fifth.",
+   "v": true,
+   "ln": 759
+  },
+  {
+   "t": "Oderat hic urbes nitidaque remotus ab aula\nsecretos montes et inambitiosa colebat\nrura nec Iliacos coetus nisi rarus adibat.",
+   "l": "This one hated cities and, withdrawn from the gleaming court, used to haunt secluded mountains and unambitious countryside, and did not come to the gatherings of Ilium except seldom.",
+   "i": "He hated cities. He kept clear of the shining palace and lived among lonely mountains and in a countryside free of ambition, and he came to the assemblies at Ilium only rarely.",
+   "n": "Oderat is the pluperfect of odi, a verb that has no present at all: the pluperfect carries the plain sense “he hated”. remotus is a perfect passive participle used of himself, “having withdrawn”, with ab aula the place he had drawn back from. inambitiosa is a negative compound on ambitio, the canvassing for office done in a city, so the fields are “unambitious” in the sense that no one there is running for anything. rarus is a predicative adjective where English wants an adverb: he came, and he was rare in coming.",
+   "p": true,
+   "v": true,
+   "ln": 764
+  },
+  {
+   "t": "Non agreste tamen nec inexpugnabile amori\npectus habens silvas captatam saepe per omnes\nadspicit Hesperien patria Cebrenida ripa\niniectos umeris siccantem sole capillos.",
+   "l": "Yet having a heart neither boorish nor unstormable by love, he catches sight of Hesperie, often hunted for through all the woods, on her father's bank, the daughter of Cebren, drying in the sun the hair flung over her shoulders.",
+   "i": "Still, the heart he had was neither a countryman's nor proof against love: he catches sight of Hesperie — he had hunted her often through all the woods — on her father's own bank, Cebren's daughter, drying her loose hair over her shoulders in the sun.",
+   "n": "agreste and inexpugnabile are both neuter and agree with pectus, and inexpugnabile is a siege word — a heart that cannot be stormed — with the dative amori of the force that cannot storm it. captatam is the perfect passive participle of capto, the frequentative of capio, so not “caught” but “hunted for, tried for, over and over”; saepe per omnes silvas says how often it had been done, and done before the line that first shows her. Cebrenis is a Greek patronymic and Cebrenida its accusative: Cebren is a river, and patria ripa is his own bank, so she is standing at her father's side. iniectos umeris capillos is the plain accusative object of siccantem, hair thrown over the shoulders.",
+   "v": true,
+   "ln": 767
+  },
+  {
+   "t": "Visa fugit nymphe, veluti perterrita fulvum\ncerva lupum longeque lacu deprensa relicto\naccipitrem fluvialis anas;",
+   "l": "Seen, the nymph flees, just as a hind, terrified, flees the tawny wolf, and a river duck, caught far off with her pool left behind, flees the hawk;",
+   "i": "The moment she is seen she runs — as a terrified hind runs from the tawny wolf, or a river duck, caught out far from the pool she has left, from the hawk;",
+   "n": "Visa is a perfect passive participle agreeing with nymphe, “having been seen”, and being seen is the whole of the reason she runs; nymphe keeps its Greek nominative in -e. One verb, fugit, serves all three subjects, and with lupum and accipitrem it is transitive — in Latin you flee a thing, with no preposition. The words of the first simile are interlocked, perterrita fulvum cerva lupum, the two adjectives first and the two nouns after them, and the line-break falls between the pairs: the adjectives close 771 and cerva lupum open 772, hind and wolf side by side. lacu relicto is an ablative absolute, “with her pool left behind”, a self-contained phrase where English wants a clause.",
+   "v": true,
+   "ln": 771
+  },
+  {
+   "t": "quam Troius heros\ninsequitur celeremque metu celer urget amore:",
+   "l": "And her the Trojan hero pursues, and, swift himself with love, presses her, swift with fear:",
+   "i": "And the Trojan hero goes after her, and bears down on her — she quick with fear, he quick with love:",
+   "n": "quam is a connecting relative opening its own sentence, “and her”, not a relative clause attached to what came before. celerem and celer are the same adjective twice in one line, once of her and once of him, each with its own ablative of cause, metu and amore, so the two run at one speed for opposite reasons. urget is “presses hard, bears down on”. Troius heros names him by his city: the name Aesacus stood at 762 and does not come back until 791.",
+   "v": true,
+   "ln": 773
+  },
+  {
+   "t": "ecce latens herba coluber fugientis adunco\ndente pedem strinxit virusque in corpore liquit;",
+   "l": "look — a snake, lurking in the grass, grazed with its hooked fang the foot of her as she fled, and left its poison in her body;",
+   "i": "and then — a snake lying hidden in the grass grazed the fleeing girl's foot with its curved fang and left its venom in her body;",
+   "n": "ecce pulls the reader up to the moment. latens herba is a present participle with a bare ablative of place, “lurking in the grass”. fugientis is a present participle in the genitive standing alone for the girl, “of her as she fled”, and it hangs on pedem. stringo is to brush or scrape a surface, so strinxit is a graze and not a bite: the wound is slight, and the virus left behind is what kills. The narrative has been running in the present — fugit, insequitur, urget — and drops here into the perfects strinxit and liquit for the one stroke that changes everything.",
+   "v": true,
+   "ln": 775
+  },
+  {
+   "t": "cum vita suppressa fuga est:",
+   "l": "Along with her life her flight was checked:",
+   "i": "Her running was stopped, and her life with it:",
+   "n": "cum vita is the preposition with the ablative, “together with her life”, and fuga is the subject of suppressa est: the running and the living are cut off by one stroke. (cum can be read as the conjunction “when” instead, with vita for its subject and fuga an ablative — “when her life was crushed out by her flight” — but that makes her running the thing that killed her, where the line before makes it the venom, and it leaves the clause waiting for a main verb on the far side of the colon. The edition's punctuation, a semicolon before and a colon after, lets these words stand as a sentence of their own, which is why the preposition is taken here.) supprimo is to press down and check a thing in motion, and it answers the urget of 774 — what he was pressing is now pressed flat.",
+   "v": true,
+   "ln": 777
+  },
+  {
+   "t": "amplectitur amens\nexanimem clamatque “piget, piget esse secutum!",
+   "l": "Out of his mind he embraces the lifeless girl and cries: “It sickens me, it sickens me to have followed her!",
+   "i": "Beside himself he takes the lifeless body in his arms and cries out: “It sickens me, it sickens me, that I gave chase!",
+   "n": "amens is a- and mens, “out of one's mind”. exanimem, “breathed out of”, is left with no noun at all and stands for the girl. piget is impersonal — “it disgusts, it grieves” — with the accusative of the person it works on left unexpressed, and the doubling piget, piget is the whole of his self-reproach. esse secutum is the perfect infinitive of the deponent sequor, active in sense though passive in form, with its subject accusative me likewise left out.",
+   "v": true,
+   "ln": 777
+  },
+  {
+   "t": "Sed non hoc timui, neque erat mihi vincere tanti.",
+   "l": "But this I did not fear, nor was winning worth so much to me.",
+   "i": "But this was not the thing I was afraid of, and winning was never worth so much to me.",
+   "n": "tanti is a genitive of value with erat, “was of so much worth”, and the infinitive vincere is the subject of it, with mihi the dative of the person for whom. hoc is her death, the outcome he says he had not reckoned on. vinco is the word of a contest — beating an opponent, getting the better of her — and it is the only word he gives for what he was after.",
+   "v": true,
+   "ln": 779
+  },
+  {
+   "t": "Perdidimus miseram nos te duo:",
+   "l": "We two have destroyed you, poor girl:",
+   "i": "The two of us have destroyed you, poor girl:",
+   "n": "nos duo stands in apposition to the subject already inside perdidimus, “we destroyed — we two”, and the two are not named until the words after the colon. miseram te puts the adjective in front of the pronoun. The plural verb takes the snake in as a fellow-agent, and the next clause divides the guilt between them, unequally.",
+   "v": true,
+   "ln": 780
+  },
+  {
+   "t": "vulnus ab angue,\na me causa data est.",
+   "l": "the wound was given by the snake, the cause by me.",
+   "i": "the wound came from the snake, the cause from me.",
+   "n": "One verb serves both halves and stands only in the second. Strictly it serves only its own: data agrees with the feminine causa, and the neuter vulnus needs datum supplied. ab angue and a me are ablatives of the agent with a passive verb, each with its preposition because each agent is alive. The two phrases are set crosswise, noun then agent, agent then noun.",
+   "v": true,
+   "ln": 780
+  },
+  {
+   "t": "Ego sum sceleratior illo,\nqui tibi morte mea mortis solacia mittam.”",
+   "l": "I am more wicked than he, I who by my own death shall send you the consolations of death.”",
+   "i": "I am the more wicked of the two — and by my own death I shall send you the comfort of a death.”",
+   "n": "illo is an ablative of comparison after sceleratior, with no quam: the snake. morte mea mortis is the same noun twice in one line and in two cases, his death and hers — what he means to send is made out of the very thing he is sorry for. mittam can be read as a future indicative, “I shall send”, or as a subjunctive in a relative clause of purpose, “to send you”; the literal takes the future. Magnus prints Ego sum ... qui; some editions print sim ... ni, which turns the flat claim into a conditional one — I should be the more wicked of the two, unless my own death makes it up to you.",
+   "v": true,
+   "ln": 781
+  },
+  {
+   "t": "Dixit et e scopulo, quem rauca subederat unda,\ndecidit in pontum.",
+   "l": "He spoke, and from a rock which the hoarse wave had eaten away beneath, he fell down into the sea.",
+   "i": "He said it, and dropped from a cliff the hoarse water had eaten out underneath, down into the sea.",
+   "n": "subederat is sub- and edo, “had eaten away from below”: the sea has undercut the very rock he goes from. rauca, “hoarse”, is carried over from the noise to the water that makes it. decidit is from decĭdo, de plus cado, “fall down”, not decīdo, de plus caedo, “cut off”: the -ci- is short, and the line opens with it as a dactyl, dēcidit. Magnus prints decidit; some editions print se dedit, “gave himself to the sea”, which states outright what the fall here leaves to be understood.",
+   "p": true,
+   "v": true,
+   "ln": 783
+  },
+  {
+   "t": "Tethys miserata cadentem\nmolliter excepit nantemque per aequora pennis\ntexit, et optatae non est data copia mortis.",
+   "l": "Tethys, taking pity on him as he fell, caught him softly and covered him with feathers as he swam over the level water, and no chance of the death he wanted was granted.",
+   "i": "Tethys pitied him as he fell, caught him gently, and covered him with feathers as he swam out over the open water: the death he had prayed for was not allowed him.",
+   "n": "miserata is the perfect participle of the deponent miseror, passive in form and active in sense, with cadentem for its object. excipio is the verb for catching a thing on its way down. texit is from tego, “cover”, and the feathers are the first sign of the change: nothing in these lines calls him a bird, and the reader is told what he is wearing before anything is said about what he has become. optatae mortis is a genitive with copia, “the chance at the death he had wished for”, and non est data refuses it flatly.",
+   "v": true,
+   "ln": 784
+  },
+  {
+   "t": "Indignatur amans invitum vivere cogi\nobstarique animae misera de sede volenti\nexire.",
+   "l": "The lover takes it hard that he is forced, unwilling, to live, and that a bar is set against his soul, which wants to go out from its wretched seat.",
+   "i": "The lover cannot bear it that he is kept alive against his will, and that his soul is held back when it wants to leave its miserable lodging.",
+   "n": "Two passive infinitives stand in indirect statement after indignatur: cogi, “to be forced”, with invitum agreeing with an accusative subject se that is never written, and obstari, which is impersonal — obsto governs a dative and has no personal passive, so the Latin says “it is obstructed, for the soul”. That dative, animae ... volenti, is split around the whole phrase misera de sede, and volenti waits at the line's end for its infinitive exire at the head of the next. sedes is where a soul lodges, the body, and misera makes it a poor lodging.",
+   "v": true,
+   "ln": 787
+  },
+  {
+   "t": "Utque novas umeris adsumpserat alas,\nsubvolat atque iterum corpus super aequora mittit.",
+   "l": "And as soon as he had taken new wings upon his shoulders, he flies up and again sends his body out over the level water.",
+   "i": "And as soon as he had taken the new wings on his shoulders, he flies up and throws his body out over the water a second time.",
+   "n": "ut with the pluperfect indicative adsumpserat is “as soon as”, and the -que fastened to it joins this sentence to the one before. adsumpserat keeps the edition's unassimilated ads- for ass-. umeris is the dative of the place the wings are taken on at, and novas alas is all the announcement the change gets after the feathers of 786 — no line of the change itself calls him a bird, and the tale never names him one again after the mergus the speaker pointed at in 753. corpus super aequora mittit does in half a line what 783–784 did in a whole sentence, and iterum counts it as the second time.",
+   "v": true,
+   "ln": 789
+  },
+  {
+   "t": "Pluma levat casus:",
+   "l": "Plumage makes his falls light:",
+   "i": "The feathers take the weight out of his falls:",
+   "n": "Pluma is a collective singular, the whole plumage said with the word for one feather. casus is the accusative plural of the fourth-declension casus, “falls”, built on the same cado that gave cadentem at 784. levat is “makes light”, and the lightness is precisely what defeats him: a body that will not go down cannot drown.",
+   "v": true,
+   "ln": 791
+  },
+  {
+   "t": "furit Aesacos inque profundum\npronus abit letique viam sine fine retemptat.",
+   "l": "Aesacus rages, and goes head-down into the deep, and tries the road of death over and over without end.",
+   "i": "Aesacus goes wild with it: down he goes head-first into the deep, and tries the road to death again and again, with no end to it.",
+   "n": "Aesacos keeps its Greek nominative in -os; inque is in with the enclitic -que. pronus is “tilted forward, head down”, a predicative adjective describing the manner of the going rather than a clause of its own. re-temptat is “tries again”, and sine fine puts the trying past counting, so the tale leaves him in an action that does not finish.",
+   "v": true,
+   "ln": 791
+  },
+  {
+   "t": "Fecit amor maciem:",
+   "l": "Love made his leanness:",
+   "i": "Love made him thin:",
+   "n": "maciem is a bare accusative noun where English wants an adjective — Latin makes the thinness a thing that was made. The whole aetiology is packed into three words, verb, cause and result, and everything after the colon is the body that came of it.",
+   "v": true,
+   "ln": 793
+  },
+  {
+   "t": "longa internodia crurum,\nlonga manet cervix, caput est a corpore longe;",
+   "l": "long are the spaces between the joints of his legs, long his neck stays, his head is far from his body;",
+   "i": "the stretches between the joints of his legs are long, his neck stays long, his head is a long way off from his body;",
+   "n": "The same word stands three times over, twice as the adjective longa and the third time as the adverb longe, and it lengthens the sentence as it lengthens the bird. The first clause has no verb at all, est being left out; manet, “stays”, carries the second and makes the shape permanent. internodia are the stretches between joint and joint, a word borrowed from the stem of a plant. crurum, the genitive plural of crus, picks up the substricta crura of 752, the drawn-up legs the speaker had pointed at.",
+   "v": true,
+   "ln": 793
+  },
+  {
+   "t": "aequor amat nomenque manet, quia mergitur, illi.”",
+   "l": "He loves the level water, and a name stays with him, because he is dipped under.”",
+   "i": "He loves the open water, and a name has stayed with him, because he goes under.”",
+   "n": "The name is mergus, the bird pointed at back at 753, and the line gives it without ever saying it: mergitur, “he is dipped”, is the verb the noun is built on, and the reader is left to put the two together. illi is a dative of the person a thing stays for. manet is the same verb as in the line before, where it was the neck that stayed: first a shape lasts, then a name. Magnus prints manet; some editions print tenet, “he holds a name”, which would break the pairing with the manet just above.",
+   "v": true,
+   "ln": 795
+  }
+ ],
+ "glossaryFile": "metamorphoses-glossary.json"
+}

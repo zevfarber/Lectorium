@@ -1,0 +1,483 @@
+{
+ "id": "ovid-met-052",
+ "sourceId": "ovid-met-052",
+ "title": "Aeacus. Pestilentia. Myrmidones",
+ "titleEn": "The Plague and the Ants — Metamorphoses VII.552–660",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 fb3fdb1d8a4a3b82. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
+ "about": "A king tells a listener standing beside him how a plague took his people: it moves from the farms into the city, kills the physicians who tend the sick, drops the sacrificial bulls at the altar before the knife touches them, and leaves the dead unburied, unwept, and fought over for room on the pyres. Seeing no cause and no help anywhere, he prays to Jupiter, whom he calls his father by Aegina daughter of Asopus, either to give his people back or to bury him with them. Thunder answers; a file of grain-carrying ants is crossing an oak sacred to Jupiter nearby; and out of a dream of those ants come the men he names Myrmidons, to whom he hands the emptied city and the emptied fields.",
+ "advisory": "These lines stay for a long stretch with the bodies of people dying of plague — the scorched insides, the swollen tongue and gaping mouth, bodies that can bear no covering, eyes turning in a last movement, the dead lying wherever the eye falls and flung down before the altars — and the text is presented unaltered.",
+ "sentences": [
+  {
+   "t": "Pervenit ad miseros damno graviore colonos\npestis et in magnae dominatur moenibus urbis.",
+   "l": "The pestilence reaches the wretched country-folk with heavier harm, and holds mastery within the walls of the great city.",
+   "i": "The plague came on to the country people, with worse harm than before, and took the great city's walls for its own.",
+   "n": "`coloni` are the farmers who work the land, not townsmen: the sickness moves from the fields inward. `dominatur` is deponent — passive in form, active in force, so the plague itself does the ruling. `Pervenit` is spelled the same in the present and the perfect, and either reading stands here.",
+   "p": true,
+   "v": true,
+   "ln": 552
+  },
+  {
+   "t": "Viscera torrentur primo, flammaeque latentis\nindicium rubor est et ductus anhelitus ingens.",
+   "l": "The inward parts are scorched first, and the sign of the hidden flame is a redness and a huge drawn breath.",
+   "i": "The insides burn first; the fire hidden in them shows itself in a flush of the skin and in great dragging breaths.",
+   "n": "`viscera` is wider than the English word — everything under the skin, flesh as well as organs. `ductus` is the participle of `duco`: the breath is drawn, hauled in. Magnus prints `ingens`, 'huge'; some editions print `igni`, 'by the fire'.",
+   "v": true,
+   "ln": 554
+  },
+  {
+   "t": "Aspera lingua tumet, tepidisque arentia ventis\nora patent, auraeque graves captantur hiatu.",
+   "l": "The rough tongue swells, and mouths parched by the warm winds stand open, and the heavy air is snatched at with an open jaw.",
+   "i": "The tongue goes rough and swollen; mouths dried by the warm wind hang open, and the air, thick and heavy itself, is gulped at.",
+   "n": "`captantur` is passive: the air is the thing snatched at, not the snatcher. `graves` of air means close and unwholesome — the very thing they gasp for is part of the sickness. `hiatu` is the gape of an open mouth.",
+   "v": true,
+   "ln": 556
+  },
+  {
+   "t": "Non stratum, non ulla pati velamina possunt,\ndura sed in terra ponunt praecordia;",
+   "l": "They can endure neither bedding nor any coverings, but lay their breasts down on the hard earth.",
+   "i": "They can bear no bedding and no covering of any kind; they press their chests against the hard ground.",
+   "n": "`praecordia` is the region under the breastbone, held to be the seat of heat and of feeling — they put it to the ground for the coolness. `pati` here is simply 'to put up with'.",
+   "v": true,
+   "ln": 558
+  },
+  {
+   "t": "nec fit\ncorpus humo gelidum, sed humus de corpore fervet.",
+   "l": "and the body does not become cold from the ground, but the ground grows hot from the body.",
+   "i": "and the ground does not cool the body; the body sets the ground alight.",
+   "n": "The line is built on a reversal: `corpus ... gelidum` against `humus ... fervet`, with `humo` and `de corpore` changing places across it. `fit` is 'becomes'.",
+   "v": true,
+   "ln": 559
+  },
+  {
+   "t": "Nec moderator adest, inque ipsos saeva medentes\nerumpit clades, obsuntque auctoribus artes:",
+   "l": "Nor is there anyone to hold it in check, and the savage havoc bursts out against the healers themselves, and their arts do harm to those who practise them.",
+   "i": "No one can check it: the cruel destruction breaks out on the physicians themselves, and their skills destroy the men who use them.",
+   "n": "`moderator` is one who keeps a thing within bounds, not one who governs. `medentes` is a participle doing duty as a noun, 'those healing' — the doctors. `auctoribus` names them again as the ones who bring the arts to bear, and `obsum` takes the dative of whom it harms.",
+   "v": true,
+   "ln": 561
+  },
+  {
+   "t": "quo propior quisque est servitque fidelius aegro,\nin partem leti citius venit.",
+   "l": "the nearer each man is, and the more faithfully he serves the sick man, the sooner he comes into a share of death.",
+   "i": "the closer a man stands to the sick, and the more faithfully he tends them, the sooner he takes his own share of the dying.",
+   "n": "`quo ... citius` is the Latin 'the more ... the more' pattern: an ablative `quo` with a comparative, answered by a second comparative. `in partem leti venit` is the language of inheritance — he comes into a portion, as an heir comes into his.",
+   "v": true,
+   "ln": 563
+  },
+  {
+   "t": "Utque salutis\nspes abiit finemque vident in funere morbi,\nindulgent animis et nulla, quid utile, cura est:\nutile enim nihil est.",
+   "l": "And when hope of safety has gone and they see the end of the sickness lying in death, they give rein to their own impulses, and there is no care for what is useful: for nothing is useful.",
+   "i": "And once hope of coming through has gone, and they can see that the illness ends only in death, they give way to whatever they feel; no one asks what would help, for nothing helps.",
+   "n": "`salus` is coming through alive, not salvation. `indulgent animis` takes the dative — they yield to their own minds. `quid utile` is a small indirect question tucked inside `nulla ... cura est`: no care about what is useful.",
+   "v": true,
+   "ln": 564
+  },
+  {
+   "t": "Passim positoque pudore\nfontibus et fluviis puteisque capacibus haerent,\nnec sitis est exstincta prius quam vita bibendo.",
+   "l": "Everywhere, with shame laid aside, they cling to springs and rivers and capacious wells, and their thirst is not put out by drinking sooner than their life is.",
+   "i": "Everywhere, past shame, they hang over springs and rivers and the wide mouths of wells; the drinking puts out the life before it puts out the thirst.",
+   "n": "`positoque pudore` is an ablative absolute — 'shame having been set down' — where English wants a clause. The last line works `exstincta` two ways at once: a thirst is quenched, a life is extinguished, and the life goes first.",
+   "v": true,
+   "ln": 567
+  },
+  {
+   "t": "Inde graves multi nequeunt consurgere et ipsis\ninmoriuntur aquis: aliquis tamen haurit et illas.",
+   "l": "Then many, grown heavy, cannot get up again and die in the very waters; yet someone drinks even those.",
+   "i": "Then many, too heavy now to rise, cannot get up, and die in the water itself — and still someone drinks from it.",
+   "n": "`inmoriuntur` keeps the edition's spelling and is deponent: passive in form, but they do the dying. The compound verb takes the dative `ipsis ... aquis`, rendered here 'in the very waters'. `et illas` is 'those too' — water with a body in it.",
+   "v": true,
+   "ln": 570
+  },
+  {
+   "t": "Tantaque sunt miseris invisi taedia lecti:\nprosiliunt, aut si prohibent consistere vires,\ncorpora devolvunt in humum:",
+   "l": "And so great, for the wretched, is their loathing of the hated bed: they leap out, or, if their strength forbids them to stand, they roll their bodies down onto the ground.",
+   "i": "The sickbed becomes so hateful to them that they spring out of it — or, if they have not the strength to stand, tip themselves out onto the floor.",
+   "n": "`miseris` is the dative of the people concerned: the loathing is theirs. `invisus` here is 'hated', not 'unseen'. `vires` in the plural is bodily strength.",
+   "v": true,
+   "ln": 572
+  },
+  {
+   "t": "fugiuntque penates\nquisque suos, sua cuique domus funesta videtur,\net quia causa latet, locus est in crimine parvus",
+   "l": "and each man flees his own household gods; to each his own house looks deadly, and, because the cause lies hidden, the cramped place stands accused.",
+   "i": "and every man runs from his own hearth; each one's house looks lethal to him, and since no one can see the cause, it is the narrow place itself that takes the blame.",
+   "n": "`penates` are the gods of the household store, and so the home itself: to flee your Penates is to flee your house. `esse in crimine` is a standing idiom, 'to be under accusation'. The line-end is unsettled. Magnus prints `parvus`, agreeing with `locus`: the confined space of the house is what gets blamed, which is why they run out of it. He prints no stop after it, although the sentence has to close there. Some editions instead read `partim`, which is not another word for the same slot but the first word of the sentence that follows — 'some' of the sick, answered by 'others' two lines further on. The text is given here exactly as the edition prints it.",
+   "v": true,
+   "ln": 574
+  },
+  {
+   "t": "Semianimes errare viis, dum stare valebant,\nadspiceres, flentes alios terraque iacentes\nlassaque versantes supremo lumina motu:",
+   "l": "You would have seen half-alive men wandering the streets, while they had strength to stand, and others weeping and lying on the ground and turning their weary eyes in a last movement.",
+   "i": "You would have seen men half alive drifting through the streets as long as they could keep their feet, and others on the ground, weeping, rolling their tired eyes one last time.",
+   "n": "`adspiceres` is a potential subjunctive turned on the reader — 'you would have seen' — and it governs the infinitive `errare` and the participles after it. `semianimes` is 'half-souled'. `lumina` for eyes is the ordinary poetic word, the lights of the face.",
+   "v": true,
+   "ln": 577
+  },
+  {
+   "t": "membraque pendentis tendunt ad sidera caeli,\nhic illic, ubi mors deprenderat, exhalantes.",
+   "l": "and they stretch their limbs toward the stars of the overhanging sky, breathing their last here and there, wherever death had caught them.",
+   "i": "and they reach their arms up to the stars of the sky hanging above them, breathing their lives out wherever death happened to overtake them.",
+   "n": "`pendentis` is a genitive singular going with `caeli` — the sky that hangs over, the old picture of a vault overhead. `exhalantes` is 'breathing out', used on its own for breathing out the last breath. `deprendo` is to catch someone in the act, wherever he stands.",
+   "v": true,
+   "ln": 580
+  },
+  {
+   "t": "Quid mihi tunc animi fuit?",
+   "l": "What state of mind was mine then?",
+   "i": "And what was I feeling then?",
+   "n": "`quid animi` is a partitive genitive, 'what of mind', and `mihi ... fuit` is the dative of possession, 'was to me': together, what frame of mind was mine. The speaker breaks off the description to ask the question of himself.",
+   "v": true,
+   "ln": 582
+  },
+  {
+   "t": "an quod debuit esse,\nut vitam odissem et cuperem pars esse meorum?",
+   "l": "Or what it ought to have been — that I should hate life and long to be a part of my own people?",
+   "i": "Or was it what it had to be: that I hated my life and wanted to be one of my own?",
+   "n": "The `ut` clause explains what the state of mind was, with `odissem` and `cuperem` in the subjunctive. `odi` exists only in perfect forms with present sense, so `odissem` means 'I hated'. With everyone around him dying, to be 'a part of his own' is to be among the dead.",
+   "v": true,
+   "ln": 582
+  },
+  {
+   "t": "Quo se cumque acies oculorum flexerat, illic\nvulgus erat stratum,",
+   "l": "Wherever the line of my eyes had turned itself, there the crowd lay laid low,",
+   "i": "Wherever I turned my eyes, there the people lay strewn on the ground,",
+   "n": "`quo ... cumque` is `quocumque` split in two, a licence verse takes freely: 'wherever'. `acies oculorum` is the eyes' keen line of sight. `se flexerat` is reflexive — the gaze bends itself.",
+   "v": true,
+   "ln": 584
+  },
+  {
+   "t": "veluti cum putria motis\npoma cadunt ramis agitataque ilice glandes.",
+   "l": "just as when rotten fruit falls from shaken branches, and acorns from a holm-oak that has been shaken.",
+   "i": "as windfall fruit drops from shaken branches, and acorns off a holm oak when it is shaken.",
+   "n": "`motis ... ramis` and `agitata ilice` are ablatives of the thing from which the fall happens. `poma` covers tree-fruit generally, not apples only. The `ilex` is the evergreen holm-oak, and it puts a tree in the reader's eye some way before the oak that matters.",
+   "v": true,
+   "ln": 585
+  },
+  {
+   "t": "Templa vides contra gradibus sublimia longis:\nIuppiter illa tenet.",
+   "l": "You see the temple opposite, raised high on long flights of steps: Jupiter holds it.",
+   "i": "There, facing us, you can see the temple lifted high on its long stair: it belongs to Jupiter.",
+   "n": "The speaker is telling all this to someone standing with him, and points at what is in front of them both, so these present tenses are real and not narrative. `templa` is a plural form used of one temple, common in verse. `tenet` of a god means the place is his.",
+   "p": true,
+   "v": true,
+   "ln": 587
+  },
+  {
+   "t": "Quis non altaribus illis\ninrita tura dedit?",
+   "l": "Who did not give useless incense to those altars?",
+   "i": "Who did not lay incense on those altars — and lay it for nothing?",
+   "n": "`inrita` (the edition's spelling for `irrita`) runs ahead of the story: the incense was not useless when it was offered, it turned out useless. `altaribus` is the dative of what the offering was given to.",
+   "v": true,
+   "ln": 588
+  },
+  {
+   "t": "Quotiens pro coniuge coniunx,\npro gnato genitor dum verba precantia dicit,\nnon exoratis animam finivit in aris,\ninque manu turis pars inconsumpta reperta est!",
+   "l": "How often, for a spouse a spouse, for a son a father, while saying the words of prayer, ended his life at altars that had not been won over, and in the hand a part of the incense was found unburnt!",
+   "i": "How often, while one spouse was praying for the other, or a father for his son, the words were still going when life ended at altars that had granted nothing — and there in the hand was the incense not yet burnt!",
+   "n": "`exoro` is to obtain a thing by asking, so `non exoratis ... in aris` are altars that granted nothing. `coniunx` serves for either husband or wife, and Ovid sets the word against itself. `gnato` is an old spelling of `nato`, 'son'. The unburnt incense is the point: the prayer was cut off in the middle of itself.",
+   "v": true,
+   "ln": 589
+  },
+  {
+   "t": "Admoti quotiens templis, dum vota sacerdos\nconcipit et fundit purum inter cornua vinum,\nhaud exspectato ceciderunt vulnere tauri!",
+   "l": "How often did bulls, led up to the temples, fall with the blow never waited for, while the priest was framing the vows and pouring the pure wine between their horns!",
+   "i": "How often the bulls, led up to the temple, went down before the knife ever touched them, while the priest was still setting out the vow and pouring the unmixed wine between their horns!",
+   "n": "`vota concipere` is the technical phrase for setting a vow out in its proper words. Wine poured between the horns belonged to the ritual before the killing stroke. `haud exspectato ... vulnere` is an ablative absolute — the wound not having been waited for — so the animal drops before the blow that should have killed it.",
+   "v": true,
+   "ln": 593
+  },
+  {
+   "t": "Ipse ego sacra Iovi pro me patriaque tribusque\ncum facerem natis, mugitus victima diros\nedidit",
+   "l": "When I myself was making the rites to Jupiter for myself and my country and my three sons, the victim gave out dreadful bellowings,",
+   "i": "Once, while I was making offering to Jupiter for myself, my country and my three sons, the beast let out a terrible bellowing,",
+   "n": "`sacra facere` is the ordinary phrase for performing a sacrifice. `tribus ... natis` is 'my three sons', with numeral and noun pulled apart across the line-end, a normal freedom in verse. `victima` is the animal chosen for the altar, as against the man making the offering.",
+   "v": true,
+   "ln": 596
+  },
+  {
+   "t": "et subito conlapsa sine ictibus ullis\nexiguo tinxit subiectos sanguine cultros.",
+   "l": "and, suddenly collapsing without any blows, stained the knives held beneath it with scant blood.",
+   "i": "and, going down all at once with no blow struck, wetted the knives held under it with only a thin trickle of blood.",
+   "n": "`conlapsa` keeps the edition's spelling and comes from a deponent verb, so it is active in force — the victim has collapsed, it has not been felled. `subiectos ... cultros` are the knives held underneath to take the blood. The blood is scant because the beast is already sick.",
+   "v": true,
+   "ln": 598
+  },
+  {
+   "t": "Exta quoque aegra notas veri monitusque deorum\nperdiderant: tristes penetrant ad viscera morbi.",
+   "l": "The sick entrails too had lost the marks of the truth and the warnings of the gods: the grim diseases reach right through to the inward parts.",
+   "i": "The organs came out diseased as well, and had lost the marks by which truth and the gods' warnings are read: the sickness goes all the way in.",
+   "n": "`exta` are the organs a diviner reads after a sacrifice; a sound set gives readable signs and these give none, so the gods can no longer be consulted at all. `notas veri` is 'marks of the true', the genitive of what the marks show. Here `quoque` is the plain adverb, 'also'.",
+   "v": true,
+   "ln": 600
+  },
+  {
+   "t": "Ante sacros vidi proiecta cadavera postes,\nante ipsas, quo mors foret invidiosior, aras.",
+   "l": "Before the sacred doorposts I saw corpses flung down, before the very altars, so that death might carry the more ill-will.",
+   "i": "I saw bodies thrown down before the temple doors, before the altars themselves, so that the dying should be the harder to answer for.",
+   "n": "`quo` with a comparative introduces a clause of purpose: 'so that ... the more'. `invidiosus` is what stirs up ill-will, so the place of dying is chosen to lay the blame where it will be seen. `foret` is an old form of `esset`.",
+   "v": true,
+   "ln": 602
+  },
+  {
+   "t": "Pars animam laqueo claudunt mortisque timorem\nmorte fugant ultroque vocant venientia fata.",
+   "l": "Some shut off their breath with a noose, and drive out the fear of death by death, and of their own accord call on the fates that are coming.",
+   "i": "Some closed their own throats with a rope, driving out the fear of death by dying, and going of their own will to meet the end that was on its way.",
+   "n": "`pars ... claudunt` is a singular collective noun with a plural verb, ordinary Latin when the sense is 'some of them'. `ultro` is 'unprompted, without being pushed'. `venientia fata` are deaths already on the road: the point is that they hurried what was coming anyway.",
+   "v": true,
+   "ln": 604
+  },
+  {
+   "t": "Corpora missa neci nullis de more feruntur\nfuneribus: neque enim capiebant funera portae.",
+   "l": "The bodies given over to death are carried out with no funerals in the customary way: for the gates had no room for the funerals.",
+   "i": "Bodies given up to death are carried out without the customary rites — the city gates could not hold so many funeral processions.",
+   "n": "`de more` is 'according to custom', attached to the funerals that are not being held. `funus` means both the rite and the procession that walks it, and the second use turns on the crowd at the gates. `capiebant` here is 'had room for'.",
+   "v": true,
+   "ln": 606
+  },
+  {
+   "t": "Aut inhumata premunt terras aut dantur in altos\nindotata rogos.",
+   "l": "Either, unburied, they weigh down the ground, or they are given, undowered, to high pyres.",
+   "i": "They either lie unburied, pressing the ground, or go onto high pyres with nothing given them.",
+   "n": "`indotata` is the word for a bride who brings no dowry, turned here on a corpse burnt without the gifts a funeral owes it. `premunt terras` is the standard way of saying a body lies on the ground instead of under it.",
+   "v": true,
+   "ln": 608
+  },
+  {
+   "t": "Et iam reverentia nulla est,\ndeque rogis pugnant alienisque ignibus ardent.",
+   "l": "And by now there is no reverence left, and they fight over the pyres, and the dead are alight on fires that belong to others.",
+   "i": "By now nothing is held sacred: they fight over the pyres, and the dead burn on fires built for someone else.",
+   "n": "`de rogis pugnant` uses `de` of what a fight is about. `ardent` is intransitive, 'are alight': it is the dead who burn, not the men fighting. `alieni ignes` are fires raised for another man's body.",
+   "v": true,
+   "ln": 609
+  },
+  {
+   "t": "Qui lacriment, desunt; indefletaeque vagantur\nmatrumque nuruumque animae iuvenumque senumque:",
+   "l": "There are none who might weep; and unwept there wander the souls of mothers and of sons' wives, of young men and of old,",
+   "i": "There is no one left to do the weeping, and the souls drift unmourned — mothers and young wives, the young men and the old,",
+   "n": "`qui lacriment` is a relative clause with the subjunctive: people of the sort who would weep — the usual way of saying there is nobody to do a thing. `nurus` is a son's wife. The piled `-que ... -que` endings make a list that will not stop. Magnus prints `matrum ... nuruum`, 'of mothers and sons' wives'; some editions print `natorum ... patrum`, 'of sons and fathers'.",
+   "v": true,
+   "ln": 611
+  },
+  {
+   "t": "nec locus in tumulos, nec sufficit arbor in ignes.",
+   "l": "and there is not room enough for burial mounds, nor tree enough for the fires.",
+   "i": "There is no ground left for graves and no timber left for the fires.",
+   "n": "`in tumulos` and `in ignes` are 'for the making of' — ground to raise mounds with, wood to build fires with. `arbor` is singular for the whole stock of standing timber. `sufficit` is felt in the first clause as well as the second.",
+   "v": true,
+   "ln": 613
+  },
+  {
+   "t": "Attonitus tanto miserarum turbine rerum,\n“Iuppiter o!” dixi “si te non falsa loquuntur\ndicta sub amplexus Aeginae Asopidos isse,",
+   "l": "Struck senseless by so great a whirlwind of wretched things, 'Jupiter, oh!' I said, 'if reports that are not false say that you went into the embrace of Aegina, daughter of Asopus,",
+   "i": "Struck helpless by so great a storm of misery, 'Jupiter!' I said, 'if the stories that tell how you came to the arms of Aegina, Asopus' daughter, are not lies,",
+   "n": "`attonitus` is 'thunder-struck', and it is chosen a line before a prayer to the god of the thunderbolt. `Asopidos` is a Greek genitive, 'daughter of Asopus', a river-god; the nymph Aegina beside it is the mother the speaker claims. `sub amplexus ... isse` is 'to have gone under the embraces', a plain way of saying he took her to bed.",
+   "p": true,
+   "v": true,
+   "ln": 614
+  },
+  {
+   "t": "nec te, magne pater, nostri pudet esse parentem,\naut mihi redde meos aut me quoque conde sepulcro.”",
+   "l": "and if it does not shame you, great father, to be my parent, either give me back my own, or lay me too in a tomb.'",
+   "i": "and if you are not ashamed, great father, to be called my father, then either give me my people back or put me in the ground with them.'",
+   "n": "`pudet` is impersonal, so the literal has to supply an 'it': the person ashamed stands in the accusative, `te`, and what would shame him is the infinitive `esse parentem`. `nostri` is the genitive going with `parentem` — 'parent of us' — and the plural stands for 'me', so it is his own paternity he is putting to the god. The `si` of the previous clause still governs this one.",
+   "v": true,
+   "ln": 617
+  },
+  {
+   "t": "Ille notam fulgore dedit tonitruque secundo.",
+   "l": "He gave a sign with a flash and with favouring thunder.",
+   "i": "He answered with a flash of lightning and a peal of thunder that meant yes.",
+   "n": "`secundus` is 'following', and so 'favourable' — the word used of a wind behind a ship, here of thunder that comes after a prayer and agrees with it. Thunder was Jupiter's own way of answering.",
+   "v": true,
+   "ln": 619
+  },
+  {
+   "t": "“Accipio, sintque ista, precor, felicia mentis\nsigna tuae” dixi. “Quod das mihi, pigneror omen.”",
+   "l": "'I accept it, and may those things be, I pray, lucky signs of your mind,' I said. 'The omen that you give me, I claim as a pledge.'",
+   "i": "'I take it,' I said, 'and may that be, I pray, a sign of good will in your mind. The omen you give me I hold as a promise.'",
+   "n": "`pigneror` is deponent and means to take a thing as security — he is holding the god to the sign as to a pledge given. `quod das mihi ... omen` puts the noun inside its own relative clause, which is normal Latin: 'the omen which you give me'. `felix` of a sign means favourable.",
+   "v": true,
+   "ln": 620
+  },
+  {
+   "t": "Forte fuit iuxta patulis rarissima ramis\nsacra Iovi quercus de semine Dodonaeo:",
+   "l": "By chance there stood close by, very open with its spreading branches, an oak sacred to Jupiter, from Dodonaean seed:",
+   "i": "Close by, as it happened, there stood an oak sacred to Jupiter, its wide limbs thinly spread, grown from a Dodonaean acorn:",
+   "n": "`rarus` is 'thinly set', so the branches stand well apart rather than crowding — an old tree with air between its limbs. Dodona in Epirus held Jupiter's oracle, where the god was understood to answer through the sound of oak leaves, so a tree of that stock is a tree that can speak.",
+   "p": true,
+   "v": true,
+   "ln": 622
+  },
+  {
+   "t": "hic nos frugilegas adspeximus agmine longo\ngrande onus exiguo formicas ore gerentes\nrugosoque suum servantes cortice callem.",
+   "l": "here we caught sight of grain-gathering ants in a long column, carrying a great load in a tiny mouth and keeping to their own track on the wrinkled bark.",
+   "i": "there we noticed grain-gathering ants in a long file, each carrying a load huge for the mouth that held it, and holding to their own path along the wrinkled bark.",
+   "n": "`frugilegas` is a compound made for the line — 'harvest-gathering'. `grande onus exiguo ... ore` sets the size of the load against the size of the mouth by laying the two adjectives side by side before either noun arrives. `callis` is a beaten track, the word used of a path worn by cattle.",
+   "v": true,
+   "ln": 624
+  },
+  {
+   "t": "Dum numerum miror, “totidem, pater optime” dixi,\n“tu mihi da cives et inania moenia supple.”",
+   "l": "While I am wondering at their number, 'just so many, best of fathers,' I said, 'give me for citizens, and fill up the empty walls.'",
+   "i": "While I stood marvelling at their number — 'Give me,' I said, 'best of fathers, that many citizens, and fill my empty walls.'",
+   "n": "`dum` with a present verb where English wants a past: 'while I was wondering'. `totidem` is 'just that many', pointing at the ants in front of him. `inania moenia` are walls with nothing inside them; `inanis` is the word for an empty vessel.",
+   "v": true,
+   "ln": 627
+  },
+  {
+   "t": "Intremuit ramisque sonum sine flamine motis\nalta dedit quercus.",
+   "l": "The tall oak trembled and, its branches moved with no breath of wind, gave out a sound.",
+   "i": "The tall oak shuddered and made a sound, its branches stirred though there was no wind to stir them.",
+   "n": "`ramis ... motis` is an ablative absolute, 'the branches having been moved', and `sine flamine` is what turns it into a portent: nothing moved them. `flamen` here is a blast of wind, not the priest spelled the same way.",
+   "v": true,
+   "ln": 629
+  },
+  {
+   "t": "Pavido mihi membra timore\nhorruerant, stabantque comae.",
+   "l": "To me in my fright the limbs had bristled with fear, and my hair stood up.",
+   "i": "I was terrified: my body shivered all over and my hair stood on end.",
+   "n": "`pavido` can be taken with `mihi`, 'to me in my fright', or with `timore` across the line-end, 'with quaking fear'; either way it is the man who is afraid, and the dative `mihi` does the work of 'my' with `membra`. `horreo` is to bristle — used of hair, of a field of spears, and of a body in a chill.",
+   "v": true,
+   "ln": 630
+  },
+  {
+   "t": "Tamen oscula terrae\nroboribusque dedi;",
+   "l": "Still, I gave kisses to the earth and to the oak-wood;",
+   "i": "All the same I kissed the ground and the tree;",
+   "n": "`oscula dare` with the dative is the ordinary way of saying 'kiss'. `robur` is oak specifically, and from there both oak timber and strength; the plural here is the trunk and limbs of this one tree.",
+   "v": true,
+   "ln": 631
+  },
+  {
+   "t": "nec me sperare fatebar:\nsperabam tamen atque animo mea vota fovebam.",
+   "l": "and I would not admit that I was hoping: yet I was hoping, and in my heart I kept my prayers warm.",
+   "i": "and I would not admit even to myself that I hoped — but I did hope, and nursed the wish quietly.",
+   "n": "`me sperare` is an accusative and infinitive after `fatebar`: 'I did not confess myself to be hoping'. `foveo` is to keep warm — of a bird over eggs, of a wound kept warm — so the vows are being brooded on rather than merely held.",
+   "v": true,
+   "ln": 632
+  },
+  {
+   "t": "Nox subit, et curis exercita corpora somnus\noccupat:",
+   "l": "Night comes on, and sleep takes hold of bodies worn out by cares:",
+   "i": "Night came up, and sleep took the bodies that the day's cares had worn through:",
+   "n": "`subit` is 'comes up from below' — night rises in Latin rather than falling. `exercita` is from `exerceo`, 'kept hard at work', so the cares have been working the bodies over. `occupo` is to seize first, to take possession.",
+   "p": true,
+   "v": true,
+   "ln": 634
+  },
+  {
+   "t": "ante oculos eadem mihi quercus adesse\net ramos totidem totidemque animalia ramis\nferre suis visa est pariterque tremiscere motu\ngraniferumque agmen subiectis spargere in arvis;",
+   "l": "the same oak seemed to me to stand before my eyes, and to carry just as many branches and just as many creatures on its branches, and to shiver with the same movement, and to scatter the grain-carrying column over the fields beneath;",
+   "i": "the same oak seemed to stand before my eyes, carrying the same branches and the same creatures on them, shaking with the same tremor, and scattering the grain-bearing column over the fields below;",
+   "n": "`visa est` is the passive of `video` in its everyday sense, 'seemed', and the whole string of infinitives that follows — `adesse`, `ferre`, `tremiscere`, `spargere` — hangs from that single verb. `totidem` twice over picks up the word he used of the ants at line 627. `graniferum agmen` is a military word for a column on the march, put to the ants.",
+   "v": true,
+   "ln": 635
+  },
+  {
+   "t": "crescere quod subito et maius maiusque videri\nac se tollere humo rectoque adsistere trunco",
+   "l": "and that it suddenly grew and seemed bigger and bigger and lifted itself from the ground and stood up on an upright trunk,",
+   "i": "and that all at once the column grew, and looked bigger and bigger, and raised itself off the ground and stood upright on its own stem,",
+   "n": "`quod` is the column of the line before, taken up as a neuter subject for the infinitives that follow, since `agmen` is neuter. `recto ... trunco` is an ablative of description; `truncus` is a tree's stem, used here of a body standing on its legs, so the oak is still in the picture as the ants leave it.",
+   "v": true,
+   "ln": 639
+  },
+  {
+   "t": "et maciem numerumque pedum nigrumque colorem\nponere et humanam membris inducere formam.",
+   "l": "and laid aside its thinness and the number of its feet and its black colour, and drew human shape over its limbs.",
+   "i": "and put off its thinness, its many legs and its blackness, and drew a human shape over its limbs.",
+   "n": "`ponere` is 'to lay down, put off', the verb for taking off clothes or armour, so the change is described as an undressing. `inducere` is 'to draw over', as a covering is drawn across a thing: the human form comes on like a skin.",
+   "v": true,
+   "ln": 641
+  },
+  {
+   "t": "Somnus abit: damno vigilans mea visa querorque\nin superis opis esse nihil.",
+   "l": "Sleep goes: awake, I condemn what I saw, and complain that there is no help in the gods above.",
+   "i": "Sleep left me, and awake I passed sentence on my own dream, complaining that there was no help to be had from the gods.",
+   "n": "`damno` here is the verb 'I condemn', not the noun `damnum` — he is passing sentence on the dream for having raised a hope. `opis` is a partitive genitive after `nihil`, 'nothing of help'. `queror` is deponent, so he does the complaining.",
+   "v": true,
+   "ln": 643
+  },
+  {
+   "t": "At in aedibus ingens\nmurmur erat, vocesque hominum exaudire videbar\niam mihi desuetas.",
+   "l": "But in the house there was a great murmuring, and I seemed to be hearing the voices of men, by now grown strange to me.",
+   "i": "But there was a great murmur through the house, and I seemed to hear human voices — a sound I had lost the habit of.",
+   "n": "`videbar` is again the passive of `video` in the sense 'I seemed'. `desuetas` agrees with `voces`: the voices are what he has fallen out of the habit of, with `mihi` as the person concerned. `exaudire` is to catch a sound clearly, often from a distance.",
+   "v": true,
+   "ln": 644
+  },
+  {
+   "t": "Dum suspicor has quoque somni\nesse, venit Telamon properus, foribusque reclusis",
+   "l": "While I suspect that these too belong to a dream, Telamon comes in haste, and, the doors thrown open,",
+   "i": "While I was still supposing these too were part of the dream, Telamon came in a hurry, threw the doors open, and",
+   "n": "`somni esse` is a genitive of belonging — to be a dream's property, to be part of it. `recludo` means to open, not to close: the `re-` undoes the shutting. `foribus ... reclusis` is an ablative absolute.",
+   "v": true,
+   "ln": 646
+  },
+  {
+   "t": "“speque fideque, pater” dixit, “maiora videbis:\negredere!”",
+   "l": "'Greater than hope and than belief, father,' he said, 'you will see: come out!'",
+   "i": "'Father,' he said, 'you will see things past hoping for and past believing. Come outside!'",
+   "n": "`speque fideque` are ablatives of comparison after `maiora`, 'greater than hope and than trust'. `maiora` is a neuter plural doing duty as a noun, 'greater things'. `egredere` is a deponent imperative — passive in form, an order in force.",
+   "v": true,
+   "ln": 648
+  },
+  {
+   "t": "Egredior, qualesque in imagine somni\nvisus eram vidisse viros, ex ordine tales\nadspicio noscoque. Adeunt regemque salutant.",
+   "l": "I go out, and such men as I had seemed to see in the vision of my sleep, just such I look upon and recognise, in their order. They come up and greet their king.",
+   "i": "I went out, and the men I had seemed to see in the dream I now looked at and knew again, in the same file. They came up and greeted their king.",
+   "n": "`quales ... tales` is the Latin 'such as ... just such' pair, holding the dream and the waking sight side by side in one sentence. `ex ordine` keeps the ants' file in view. He calls himself `regem`, 'the king', in the third person, standing outside himself for the moment of the salute.",
+   "v": true,
+   "ln": 649
+  },
+  {
+   "t": "Vota Iovi solvo populisque recentibus urbem\npartior et vacuos priscis cultoribus agros,",
+   "l": "I pay my vows to Jupiter and share out the city among the new peoples, and the fields left empty of their former tillers,",
+   "i": "I paid what I had vowed to Jupiter, and shared out the city among the new people, and the fields emptied of the men who used to work them,",
+   "n": "`vota solvere` is the fixed phrase for discharging a vow: you 'loosen' it by paying what was promised. `vacuos priscis cultoribus` is an ablative of separation, 'empty of their old tillers'. `partior` is deponent, so he does the dividing.",
+   "v": true,
+   "ln": 652
+  },
+  {
+   "t": "Myrmidonasque voco, nec origine nomina fraudo.",
+   "l": "and I call them Myrmidons, and do not cheat the names of their origin.",
+   "i": "and I call them Myrmidons — a name I do not rob of the origin it came from.",
+   "n": "The name works through Greek: *myrmex* is an ant, so what they were is kept inside what they are called. `fraudo` takes the person or thing cheated in the accusative and what it is cheated of in the ablative. `Myrmidonas` is a Greek accusative plural.",
+   "v": true,
+   "ln": 654
+  },
+  {
+   "t": "Corpora vidisti; mores quos ante gerebant,\nnunc quoque habent:",
+   "l": "You have seen their bodies; the ways they bore before, they have now as well:",
+   "i": "You have seen what they look like; the character they had before they still have:",
+   "n": "`mores` are settled habits of behaviour, a person's way of going on. `gerebant` is the verb for wearing a character as one wears a garment — the same word used of bearing arms. `quoque` here is the plain adverb, 'also'.",
+   "v": true,
+   "ln": 655
+  },
+  {
+   "t": "parcum genus est patiensque laborum\nquaesitique tenax et quod quaesita reservet.",
+   "l": "it is a sparing race, and enduring of hardships, and tight-fisted with what it has got, and of a kind to keep what it has got.",
+   "i": "they are a thrifty people, hard-wearing under labour, holding tight to what they have won and keeping what they have won.",
+   "n": "`patiens laborum` and `quaesiti tenax` both take the genitive: adjectives of enduring and of holding govern what is endured and held. `quod ... reservet` is a relative clause with the subjunctive describing a kind — 'of such a sort as to keep'. `quaesiti` and `quaesita` are the same participle twice over, 'what has been sought and got'.",
+   "v": true,
+   "ln": 656
+  },
+  {
+   "t": "Hi te ad bella pares annis animisque sequentur,",
+   "l": "These men, matched in years and in spirit, will follow you to the wars,",
+   "i": "These men, well matched in years and in courage, will follow you to war,",
+   "n": "`pares` agrees with `hi` and takes the ablatives `annis animisque` — matched in respect of age and of spirit; whether with one another or with the man he is speaking to, the Latin does not say. `animi` in the plural is courage rather than souls.",
+   "v": true,
+   "ln": 658
+  },
+  {
+   "t": "cum primum qui te feliciter attulit, eurus”\n(eurus enim attulerat) “fuerit mutatus in austros.”",
+   "l": "as soon as the east wind, which brought you here in good fortune (for it was the east wind that had brought him), shall have been changed into south winds.'",
+   "i": "as soon as the east wind that brought you here so luckily — for it was indeed the east wind that had brought him — has turned into a southerly.'",
+   "n": "The bracket is the narrator's own voice cutting in on the king's speech for half a line to confirm what he says, then stepping out again. `cum primum` is 'as soon as', and `fuerit mutatus` is a future perfect: the change has to be complete before they can sail. `Eurus` is the east wind, `Auster` the south, so the wind that carried the guest in must reverse before it will carry him out.",
+   "v": true,
+   "ln": 659
+  }
+ ],
+ "glossaryFile": "metamorphoses-glossary.json"
+}

@@ -1,0 +1,253 @@
+{
+ "id": "ovid-met-091",
+ "sourceId": "ovid-met-091",
+ "title": "Caeneus",
+ "titleEn": "Nestor Remembers Caeneus — Metamorphoses XII.146–209",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 8719b7d375018d4f. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
+ "about": "The fighting breaks off, both sides lay down their arms, and at the feast that follows Achilles' sacrifice the Greek captains talk of battles, and above all of Cygnus, whose body no weapon could enter. Nestor caps their marvel with an older one: Caeneus of Perrhaebia, who took a thousand wounds unhurt and had been born a woman. Pressed by Achilles to tell it, he begins with the girl Caenis, raped by Neptune on a deserted shore, and with what she then asked of the god.",
+ "advisory": {
+  "lede": "Neptune rapes Caenis, and the change of sex that follows is what she asks for afterwards.",
+  "more": "At XII.195–203 Nestor tells how Caenis, walking a deserted stretch of shore, was raped by the god of the sea; how the god then offered her any wish she liked, free of refusal; and how she asked not to be a woman any more, so that nothing of the kind could ever be done to her again. The Latin states the rape in its ordinary idiom for it, vim pati, “to suffer violence”; the literal translation keeps that idiom and the idiomatic one says plainly what it means. Nestor twice marks the whole episode as hearsay. Lectorium presents the passage unaltered."
+ },
+ "sentences": [
+  {
+   "t": "Hic labor, haec requiem multorum pugna dierum\nattulit, et positis pars utraque substitit armis.",
+   "l": "This toil, this fighting of many days, brought rest, and, with arms laid aside, each of the two sides came to a halt.",
+   "i": "This labour, this battle that had run for days, brought a rest, and both sides laid down their arms and stopped.",
+   "n": "positis armis is an ablative absolute — a noun and participle standing free of the main clause, “arms having been laid aside”; you will meet this constantly. Note the order in the first line: the object requiem is set inside the second subject phrase, between haec and pugna, and the verb attulit is held back to the head of the next line, so both subjects are in place before anything happens to them.",
+   "p": true,
+   "v": true,
+   "ln": 146
+  },
+  {
+   "t": "Dumque vigil Phrygios servat custodia muros\net vigil Argolicas servat custodia fossas,\nfesta dies aderat, qua Cygni victor Achilles\nPallada mactatae placabat sanguine vaccae.",
+   "l": "And while a wakeful watch guards the Phrygian walls, and a wakeful watch guards the Argolic ditches, a feast-day was at hand, on which Achilles, victor over Cygnus, was appeasing Pallas with the blood of a slaughtered cow.",
+   "i": "And while a sleepless guard keeps the Phrygian walls, and a sleepless guard keeps the Greek trenches, a feast day came round, on which Achilles, the man who had beaten Cygnus, was placating Pallas with the blood of a slaughtered cow.",
+   "n": "dum takes the present indicative (servat) even inside past narrative, for something going on at the same time as the main action — English wants “was guarding”, Latin says “guards”. The two halves of the sentence repeat the frame vigil ... servat custodia word for word, changing only the wall and the ditch. Cygni victor is an objective genitive, “victor over Cygnus”, not “Cygnus's victor”. Pallada is a Greek accusative ending, kept from Greek along with the name.",
+   "v": true,
+   "ln": 148
+  },
+  {
+   "t": "Cuius ut inposuit prosecta calentibus aris\net dis acceptus penetravit in aethera nidor,\nsacra tulere suam, pars est data cetera mensis.",
+   "l": "And when he had laid her cut portions on the hot altars, and the savour, welcome to the gods, had made its way into the upper air, the rites took their own; the remaining part was given to the tables.",
+   "i": "When he had laid the cut portions on the hot altars, and the smell of them, welcome to the gods, had risen into the sky, the sacrifice had taken its share; the rest went to the tables.",
+   "n": "Cuius is a connecting relative: a relative pronoun opening a new sentence, where English says “and her” — it looks back to the cow of the line before. Watch for it: a relative pronoun standing first in a Latin sentence is usually this connective and not the head of a real relative clause. tulere is tulerunt: the poetic third-person plural perfect in -ēre, which you will see again and again; it is not an infinitive. suam has no noun of its own — partem is to be supplied, and pars duly turns up in the next clause.",
+   "v": true,
+   "ln": 152
+  },
+  {
+   "t": "Discubuere toris proceres et corpora tosta\ncarne replent vinoque levant curasque sitimque.",
+   "l": "The chiefs reclined at the couches, and they fill their bodies with roasted meat and with wine lighten both cares and thirst.",
+   "i": "The chieftains took their places on the couches; they fill up on roast meat, and with wine they take the edge off both worry and thirst.",
+   "n": "discubuere is again discubuerunt. The tense then jumps: a perfect (they reclined) followed by two presents, replent and levant — the historic present, Latin's way of pulling a past scene into the here and now, and it alternates with the perfect throughout this part. tosta could in form agree with corpora, but the sense fixes it to carne: the meat is roasted, not the diners. -que ... -que on curasque sitimque is the poets' “both ... and”.",
+   "v": true,
+   "ln": 155
+  },
+  {
+   "t": "Non illos citharae, non illos carmina vocum\nlongave multifori delectat tibia buxi,\nsed noctem sermone trahunt, virtusque loquendi\nmateria est:",
+   "l": "Not lyres, not songs of voices, nor the long pipe of many-holed boxwood delights them, but they draw the night out with talk, and courage is the matter of their speaking:",
+   "i": "No lyre, no singing voices, no long pipe of boxwood drilled with holes gives them any pleasure; instead they spin the night out in talk, and courage is what they talk about:",
+   "n": "Three subjects, two of them plural, and a singular verb: delectat is drawn to the nearest and last of them, tibia. buxi, “of boxwood”, names the pipe by the wood it is cut from. loquendi is a gerund in the genitive, “of speaking”, where English would rather have a noun — “the subject of their conversation”. The colon printed here opens the list of what they say.",
+   "v": true,
+   "ln": 157
+  },
+  {
+   "t": "pugnas referunt hostisque suasque,\ninque vices adita atque exhausta pericula saepe\ncommemorare iuvat,—",
+   "l": "they tell over battles, the enemy's and their own, and in turn it pleases them to recall often the dangers gone into and drained to the bottom—",
+   "i": "they tell over the battles, the enemy's and their own, and each in his turn is glad to go back over the dangers he walked into and got through to the end—",
+   "n": "hostis is a genitive singular, “of the enemy”, paired with the possessive adjective suas — Latin mixes the two constructions freely. iuvat is impersonal and takes the infinitive commemorare: “it pleases [them] to recall”. adita and exhausta are both neuter plural, agreeing with pericula; exhaurire is literally “to drain dry”, so a danger is something you go into and empty out. The dash printed after iuvat marks the turn from the feast to the narrator's own aside.",
+   "v": true,
+   "ln": 160
+  },
+  {
+   "t": "quid enim loqueretur Achilles,\naut quid apud magnum potius loquerentur Achillem?",
+   "l": "for what should Achilles be speaking of, or what should they rather be speaking of in the presence of great Achilles?",
+   "i": "for what else would Achilles talk about, or what would they sooner talk about with great Achilles sitting there?",
+   "n": "Two deliberative subjunctives, loqueretur and loquerentur — the subjunctive of “what is one to say?”, in the imperfect because the scene is past. This is the poet's own rhetorical question, not an address to anyone. The name closes both lines and changes case as it goes: Achilles the subject at the end of the first, Achillem the object of apud at the end of the second.",
+   "v": true,
+   "ln": 162
+  },
+  {
+   "t": "Proxima praecipue domito victoria Cygno\nin sermone fuit.",
+   "l": "The nearest victory especially, with Cygnus subdued, was in their talk.",
+   "i": "The latest victory of all, the beating of Cygnus, was what the talk kept coming back to.",
+   "n": "domito Cygno is another ablative absolute — “Cygnus having been subdued” — here doing the work of a noun phrase English would build with “over”. proxima is “nearest” in time: the most recent, since it happened only in the previous episode.",
+   "v": true,
+   "ln": 164
+  },
+  {
+   "t": "Visum mirabile cunctis,\nquod iuvenis corpus nullo penetrabile telo\ninvictumque a vulnere erat ferrumque terebat.",
+   "l": "It seemed marvellous to all, that the young man's body was penetrable by no weapon and unbeaten by wound, and wore iron away.",
+   "i": "They all found it a marvel that the young man's body could be pierced by no weapon and beaten by no wound, and that it blunted the iron itself.",
+   "n": "No est is printed with visum; the copula is simply left out, as Latin often leaves it out. quod here means “in that, the fact that”, and takes the indicative (erat, terebat) because the fact is a real one. nullo telo is an ablative of means with penetrabile. Magnus prints iuvenis, the genitive, “the young man's body”; some editions print iuveni, a dative, which would give “the young man had a body that ...”.",
+   "v": true,
+   "ln": 165
+  },
+  {
+   "t": "Hoc ipse Aeacides, hoc mirabantur Achivi,\ncum sic Nestor ait:",
+   "l": "At this the descendant of Aeacus himself, at this the Achaeans were marvelling, when Nestor speaks thus:",
+   "i": "Achilles himself wondered at it, and the Greeks wondered at it — and then Nestor spoke:",
+   "n": "Aeacides is a patronymic in -ides, “of the line of Aeacus”; here it means Achilles, whose father Peleus was Aeacus' son. mirabantur is deponent — passive in form, active in sense — and takes hoc as a plain accusative object, though English has to say “wondered at”. The repeated hoc ... hoc is the same anaphora as the non illos ... non illos above. The cum-clause carries the new event rather than the background, and ait is another historic present amid the imperfects.",
+   "p": true,
+   "v": true,
+   "ln": 168
+  },
+  {
+   "t": "“Vestro fuit unicus aevo\ncontemptor ferri nulloque forabilis ictu\nCygnus.",
+   "l": "“In your age the one man who despised iron, and pierceable by no stroke, was Cygnus.",
+   "i": "“In your generation there was one man alone who could hold iron in contempt, whom no blow could pierce: Cygnus.",
+   "n": "contemptor is an agent noun with an objective genitive, ferri — Latin builds a noun (“a despiser of iron”) where English wants a verb (“who despised iron”). forabilis takes an ablative of means, nullo ictu. The whole predicate runs for two lines before the subject arrives: Cygnus is held back to the first word of the third line, so the marvel is described before it is named.",
+   "v": true,
+   "ln": 169
+  },
+  {
+   "t": "At ipse olim patientem vulnera mille\ncorpore non laeso Perrhaebum Caenea vidi,\nCaenea Perrhaebum, qui factis inclitus Othryn\nincoluit;",
+   "l": "But I myself once saw, enduring a thousand wounds with his body unhurt, Perrhaebian Caeneus — Caeneus the Perrhaebian, who, renowned for his deeds, dwelt on Othrys;",
+   "i": "But I myself once saw Caeneus of Perrhaebia take a thousand wounds without a mark on his body — Caeneus of Perrhaebia, who lived on Othrys and was famous for what he had done;",
+   "n": "The name and its adjective are turned about across the line-break: Perrhaebum Caenea stands just before vidi at the end of one line, and Caenea Perrhaebum opens the next, so the pair comes back reversed — a chiasmus that lets Nestor say the name twice without repeating himself. Caenea and Othryn are Greek accusative endings, like Pallada above; both are plain objects, Caenea of vidi and Othryn of incoluit. corpore non laeso is an ablative absolute again; factis is an ablative of respect, “famous in respect of his deeds”. Perrhaebia is a district in the north of Thessaly, and Othrys the mountain range along Thessaly's southern edge — both Thessalian, but at opposite ends of it.",
+   "v": true,
+   "ln": 171
+  },
+  {
+   "t": "quoque id mirum magis esset in illo,\nfemina natus erat.”",
+   "l": "and — that this might be the more astonishing in him — he had been born a woman.”",
+   "i": "and, to make the wonder of it greater still, he had been born a woman.”",
+   "n": "The trap: quoque here is not the adverb “also”. It is quō plus -que — the ablative quō that goes with a comparative (magis) inside a purpose clause, so “and in order that this might be the more remarkable”. Whenever quoque sits next to a comparative and a subjunctive, test it this way first. And note the grammar of the last three words: natus is the masculine participle while femina is feminine, because the person being described is by now a man — the Latin makes the sentence carry both at once.",
+   "v": true,
+   "ln": 174
+  },
+  {
+   "t": "Monstri novitate feruntur\nquisquis adest, narretque rogant. Quos inter Achilles:",
+   "l": "By the strangeness of the marvel they are carried away, whoever is present, and they ask that he tell it. And among them Achilles:",
+   "i": "The strangeness of the marvel carries away everyone there, and they ask him to tell it. Among them Achilles says:",
+   "n": "feruntur is plural but its subject quisquis adest is singular — Latin follows the sense (“everyone there”) rather than the form. narret is a bare subjunctive after rogant, with no ut: the ordinary way of reporting a request. Quos inter is a connecting relative again (“and among them”), with the preposition put after its pronoun instead of before. Magnus prints feruntur, “are carried away”; some editions print moventur, “are moved”.",
+   "v": true,
+   "ln": 175
+  },
+  {
+   "t": "“Dic age! nam cunctis eadem est audire voluntas,\no facunde senex, aevi prudentia nostri,",
+   "l": "“Speak, come now! for to all there is the same wish, to hear — o eloquent old man, wisdom of our age,",
+   "i": "“Go on, tell it! We all want the same thing, to hear it — eloquent old man, the wisdom of our age,",
+   "n": "age is not the noun but the imperative of agere used as a prod, “come on”, reinforcing dic. cunctis with est is a dative of possession: literally “to all there is one wish”, i.e. “everyone has the same wish”. audire hangs on voluntas to say what the wish is for. In the second line the vocative phrase wraps itself round its own noun — aevi ... nostri stands on either side of prudentia, all within the one line.",
+   "v": true,
+   "ln": 177
+  },
+  {
+   "t": "quis fuerit Caeneus, cur in contraria versus,\nqua tibi militia, cuius certamine pugnae\ncognitus, a quo sit victus, si victus ab ullo est.”",
+   "l": "who Caeneus was, why he was turned into the opposite, in what campaign he became known to you, in the contest of what battle, by whom he was conquered, if he was conquered by anyone at all.”",
+   "i": "who Caeneus was, why he was turned into his opposite, in what campaign you came to know him, in what pitched fight, and who beat him — if anyone ever did.”",
+   "n": "A string of indirect questions, all of them hanging on audire two lines back, and all with the subjunctive (fuerit, sit ... cognitus, sit victus); sit has to be supplied for both versus and cognitus. in contraria is neuter plural, “into the opposite things” — the phrase names neither sex, and the translation should not name them for it; every gendered word in the question is masculine — versus, cognitus, and victus twice — so Achilles is already speaking of Caeneus as a man throughout. The last clause switches to the indicative, si victus ... est: Achilles doubts out loud that it ever happened at all.",
+   "v": true,
+   "ln": 179
+  },
+  {
+   "t": "Tum senior: “Quamvis obstet mihi tarda vetustas,\nmultaque me fugiant primis spectata sub annis,\nplura tamen memini.",
+   "l": "Then the elder: “Although sluggish old age stands in my way, and many things, looked upon in my earliest years, escape me, still I remember more.",
+   "i": "Then the old man: “Slow old age is in my way, and much that I saw in my earliest years gets away from me — still, I remember more.",
+   "n": "quamvis takes the subjunctive for a concession, and governs both obstet and fugiant. spectata is a passive participle agreeing with multa: the things were looked at, and it is they that do the fleeing — Latin makes the memories the runaways and the old man their pursuer. plura is a comparative with nothing expressed to compare it to: more than the many that escape him.",
+   "p": true,
+   "v": true,
+   "ln": 182
+  },
+  {
+   "t": "Nec, quae magis haereat ulla\npectore res nostro est inter bellique domique\nacta tot.",
+   "l": "Nor is there any thing, among so many deeds done both in war and at home, which clings more in this breast of mine.",
+   "i": "And of all the things done in war and at home, there is nothing that has stuck with me more.",
+   "n": "haereat is subjunctive because the relative clause describes a kind, not a fact: “any such thing as would cling more”. belli and domi are old locatives, “in war” and “at home”, joined by the doubled -que. Two hyperbata to unpick: pectore ... nostro stands on either side of res within its line, and the noun acta that inter governs is held over to the head of the next line, three words after the preposition.",
+   "v": true,
+   "ln": 184
+  },
+  {
+   "t": "Ac siquem potuit spatiosa senectus\nspectatorem operum multorum reddere, vixi\nannos bis centum; nunc tertia vivitur aetas.",
+   "l": "And if a spacious old age has been able to make anyone a beholder of many works, I have lived two hundred years; now a third lifetime is being lived out.",
+   "i": "And if a long old age can make a man a witness of many things, then I have lived two hundred years; now the third age of my life is being lived.",
+   "n": "reddere takes a double accusative, quem and spectatorem: “to make someone a beholder”. spatiosa is “roomy”, of extent, and here of extent in time. vivitur is not impersonal: aetas is its nominative subject, so the third lifetime is what “is being lived”, with the liver left unnamed — Latin can put an ordinarily intransitive verb into the passive like this, and the effect is that Nestor's age is stated as something happening rather than something he does.",
+   "v": true,
+   "ln": 186
+  },
+  {
+   "t": "Clara decore fuit proles Elateia Caenis,\nThessalidum virgo pulcherrima, perque propinquas\nperque tuas urbes (tibi enim popularis, Achille),\nmultorum frustra votis optata procorum.",
+   "l": "Famous for beauty was Caenis, the child of Elatus, the loveliest maiden of the women of Thessaly, and through the neighbouring cities and through your cities — for she was a fellow-countrywoman to you, Achilles — desired in vain by the prayers of many suitors.",
+   "i": "Caenis, Elatus' daughter, was famous for her beauty, the loveliest girl in Thessaly, and through the towns round about and through your own towns — she was a countrywoman of yours, Achilles — many suitors longed for her and prayed for her, in vain.",
+   "n": "decore is an ablative of respect, “famous in point of beauty”; Thessalidum is a partitive genitive with the superlative, “most beautiful of the Thessalian women”. perque ... perque repeats for emphasis, as non illos ... non illos did earlier. popularis takes the dative tibi, “a fellow-townswoman to you”, and the parenthesis has no verb printed at all. optata has no verb of its own either: it reaches back three lines to pick up fuit. Nestor is not turning aside to an absent person here — Achilles is his listener, sitting in front of him.",
+   "p": true,
+   "v": true,
+   "ln": 189
+  },
+  {
+   "t": "Temptasset Peleus thalamos quoque forsitan illos,\nsed iam aut contigerant illi conubia matris,\naut fuerant promissa, tuae.",
+   "l": "Peleus too would perhaps have attempted those marriage-chambers, but by then either the wedlock of the mother had already fallen to him, or it had been promised — your mother's.",
+   "i": "Peleus would perhaps have made a bid for that marriage too, but by then he had already got your mother's hand, or been promised it.",
+   "n": "Temptasset is the syncopated form of temptavisset, a pluperfect subjunctive: with forsitan it makes a past that never happened, “would have tried”. Here quoque really is the ordinary adverb “too” — worth setting beside the quoque of the earlier line, which was quō-que. thalamos is literally the bedchamber, standing for the marriage. illi is a dative of the man the marriage falls to. And tuae is stranded: it agrees with matris at the end of the previous line, but is left to the far side of a whole clause and a whole line-break.",
+   "v": true,
+   "ln": 193
+  },
+  {
+   "t": "Nec Caenis in ullos\ndenupsit thalamos secretaque litora carpens\naequorei vim passa dei est (ita fama ferebat),",
+   "l": "And Caenis married into no marriage-chamber, and, making her way along lonely shores, she suffered violence from the god of the sea (so report had it),",
+   "i": "And Caenis never married into any man's bed; and as she was walking a deserted stretch of shore, the sea god raped her — so the story went —",
+   "n": "vim pati, “to suffer violence”, is the ordinary Latin expression for being raped: flat, idiomatic and unmetaphorical, and not a euphemism — it is simply how Latin names the act. The literal keeps the Latin's own words; the idiomatic says what the idiom means, since “suffered violence” alone tells an English reader nothing. denubere is used of the woman marrying, of her going veiled to another house. carpere with a place means to make one's way over it. The phrase for the god, aequorei ... dei, is split open round vim passa within the line, so that he stands on either side of what he does. The parenthesis is Nestor's disclaimer: he marks the whole thing as hearsay, and will do it again in three lines.",
+   "v": true,
+   "ln": 195
+  },
+  {
+   "t": "utque novae Veneris Neptunus gaudia cepit,\n“sint tua vota licet” dixit “secura repulsae:",
+   "l": "and when Neptune had taken the joys of this new love, he said “Your prayers may be secure from refusal:",
+   "i": "and when Neptune had taken his pleasure in this new love, he said, “Whatever you pray for, you will not be refused:",
+   "n": "Venus is the goddess's name used for the act itself — the ordinary metonymy. licet with the subjunctive sint is granting, not conceding: “it is allowed that your prayers be ...”. secura takes a genitive of the thing one is safe from, repulsae, a “rebuff”. The word for it a line later is gaudia, “joys” — and it is Nestor's word in the narration, not Neptune's, since the god's own speech begins only at sint. The Latin sets gaudia one line after vim and says nothing about the distance between them.",
+   "v": true,
+   "ln": 198
+  },
+  {
+   "t": "elige, quid voveas!” (eadem hoc quoque fama ferebat).",
+   "l": "choose what you would pray for!” (the same report told this too).",
+   "i": "choose what you want to ask for!” — this too the same story reported.",
+   "n": "elige governs an indirect question, so voveas is subjunctive: “choose what you are to pray for”. Here quoque is once more the plain adverb, “too”. The formula fama ferebat comes back word for word from three lines above: Nestor puts the disclaimer on either side of the god's offer, and will not vouch for any of it.",
+   "v": true,
+   "ln": 200
+  },
+  {
+   "t": "“Magnum” Caenis ait “facit haec iniuria votum;",
+   "l": "“Great,” Caenis says, “this wrong makes my prayer;",
+   "i": "“What was done to me,” Caenis said, “makes my prayer a great one;",
+   "n": "magnum is a predicative accusative, the complement of facit — “makes the prayer great” — and it is thrown to the very front, ahead even of the words that say who is speaking, so the first thing heard is the size of what she is about to ask. iniuria is the wrong done to a person, not an abstract injustice: it points back to the previous lines. ait is another historic present.",
+   "v": true,
+   "ln": 201
+  },
+  {
+   "t": "tale pati iam posse nihil; da, femina ne sim:",
+   "l": "to be able to suffer nothing of the kind any more; grant it, that I be not a woman:",
+   "i": "that I should never be able to suffer anything of the kind again; grant me this — that I not be a woman:",
+   "n": "posse stands in apposition to votum at the end of the line before: the infinitive is the content of the prayer, carried over the line-end. nihil and tale agree, and are split apart by pati iam posse within the line, so that the whole phrase closes on nihil. da takes a substantive clause with ne and no ut. What she asks for is not revenge and not manhood: it is negative, that she not be the kind of person this can be done to.",
+   "v": true,
+   "ln": 202
+  },
+  {
+   "t": "omnia praestiteris.” Graviore novissima dixit\nverba sono, poteratque viri vox illa videri,\nsicut erat;",
+   "l": "you will have furnished everything.” The last words she said with a heavier sound, and that voice could seem a man's, as it in fact was;",
+   "i": "and you will have given me everything.” Her last words came out at a lower pitch, and the voice could pass for a man's — which is what it was;",
+   "n": "praestiteris is future perfect: “you will have granted” — the Latin idiom for “that will be the whole of it”. novissima means last, not newest. gravis of a sound is low in pitch, and two phrases are interlocked across the line-break: Graviore novissima dixit / verba sono runs adjective, adjective, verb, noun, noun, so that graviore sono and novissima verba are each split by the line-end and threaded through one another. sicut erat drops the confirmation in as an aside, mid-sentence: the change has already happened while she was still speaking.",
+   "v": true,
+   "ln": 203
+  },
+  {
+   "t": "nam iam voto deus aequoris alti\nadnuerat dederatque super, ne saucius ullis\nvulneribus fieri ferrove occumbere posset.",
+   "l": "for the god of the deep sea had already nodded assent to her prayer, and had given over and above that he could not be made wounded by any wounds nor fall by iron.",
+   "i": "for the god of the deep sea had already granted her prayer, and had given more besides: that no wound could ever leave him hurt, and no blade bring him down.",
+   "n": "adnuere takes a dative of the thing agreed to, voto — the god's assent is a nod. super here is an adverb, “on top of that”, not a preposition. saucius is masculine: the grammar has changed with the person, exactly as natus did in the earlier line, and the change is complete before Nestor announces it. Magnus prints ne, introducing the clause as a purpose (“so that he could not”); some editions print nec.",
+   "v": true,
+   "ln": 205
+  },
+  {
+   "t": "Munere laetus abit studiisque virilibus aevum\nexigit Atracides Peneiaque arva pererrat.",
+   "l": "Glad in the gift he goes off, and Atracides drives his lifetime out in manly pursuits and wanders over the Peneian fields.",
+   "i": "Glad of the gift he goes; and the man of Atrax lives his years out in men's pursuits and ranges the fields of the Peneus.",
+   "n": "laetus takes an ablative of cause, munere, “glad because of the gift”. It is masculine, the third masculine form in a row after natus and saucius, and the poem no longer marks the change at all. Atracides names Caeneus from Atrax in Thessaly, as Peneia arva names the plains of the Thessalian river Peneus — the same country the girl was called loveliest in. aevum exigere is to drive a lifetime through to its end. The three verbs abit, exigit, pererrat are all present after the pluperfects of the previous sentence.",
+   "v": true,
+   "ln": 208
+  }
+ ],
+ "glossaryFile": "metamorphoses-glossary.json"
+}

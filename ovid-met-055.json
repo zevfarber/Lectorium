@@ -1,0 +1,638 @@
+{
+ "id": "ovid-met-055",
+ "sourceId": "ovid-met-055",
+ "title": "Nisus et Scylla",
+ "titleEn": "Scylla and the Purple Lock — Metamorphoses VIII.1–151",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 fb3fdb1d8a4a3b82. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
+ "about": "The part opens with a fair wind carrying the sons of Aeacus and Cephalus home; then Minos lays waste the Lelegeian coast and besieges the city of Alcathous, held by Nisus, in whose white hair a single purple lock grows that guarantees his kingdom. From a tower whose stones ring because Apollo once laid his lyre on them, Nisus's daughter Scylla watches the besieging king, falls in love with him, argues herself through a long soliloquy into cutting the lock from her sleeping father, and carries it to Minos, who recoils, curses her and sails. She follows the ships into the water, and father and daughter both end as birds. The tale is complete in this part.",
+ "sentences": [
+  {
+   "t": "Iam nitidum retegente diem noctisque fugante\ntempora Lucifero cadit eurus, et umida surgunt\nnubila:",
+   "l": "Now, with Lucifer uncovering the shining day and putting to flight the hours of night, the east wind drops, and moist clouds rise:",
+   "i": "Now, as the Morning Star uncovers the bright day and drives off the hours of night, the east wind falls and wet clouds come up:",
+   "n": "The part opens on an ablative absolute, a self-contained “with X doing Y” phrase where English wants a clause: Lucifero is the ablative noun and retegente and fugante are its two participles. Notice that the noun is held back into the second line, after both participles have gone by. Lucifer is the morning star, the light-bearer. It returns repeatedly in this part; it is flagged here and only nudged afterwards.",
+   "p": true,
+   "v": true,
+   "ln": 1
+  },
+  {
+   "t": "dant placidi cursum redeuntibus austri\nAeacidis Cephaloque, quibus feliciter acti\nante exspectatum portus tenuere petitos.",
+   "l": "the gentle south winds give a course to the returning Aeacidae and to Cephalus, and driven prosperously by them they reached, before what was expected, the harbours they were making for.",
+   "i": "the south winds blow kindly and give the returning sons of Aeacus, and Cephalus, their passage; carried well, they made the harbour they were bound for sooner than anyone had looked for.",
+   "n": "tenuere is tenuerunt, the poetic third-plural perfect in -ere, which verse uses freely because it suits the metre; the same form returns at odere in line 116. quibus is an ablative of means picking up the winds, and acti, “driven”, agrees with the men and not with the winds. ante exspectatum is a neuter participle used as a noun, “before the expected [moment]”. Aeacides means “descendant of Aeacus”, so the plural names the men of that house sailing home with Cephalus.",
+   "v": true,
+   "ln": 3
+  },
+  {
+   "t": "Interea Minos Lelegeia litora vastat\npraetemptatque sui vires Mavortis in urbe\nAlcathoi, quam Nisus habet,",
+   "l": "Meanwhile Minos lays waste the Lelegeian shores and tries out beforehand the strength of his own war-god on the city of Alcathous, which Nisus holds,",
+   "i": "Meanwhile Minos is ravaging the Lelegeian coast, testing in advance what his own war-god can do against the city of Alcathous, which Nisus holds,",
+   "n": "Mavors is an old name for Mars, and sui vires Mavortis is “the strength of his own Mars”, that is, of his own war-making: the poem puts the god's name where we would put the fighting. praetemptat has the force of trying something out before the real attempt. The Leleges were reckoned an old people of this coast, and Alcathous the city's founder; both names are here only to place the war.",
+   "p": true,
+   "v": true,
+   "ln": 6
+  },
+  {
+   "t": "cui splendidus ostro\ninter honoratos medioque in vertice canos\ncrinis inhaerebat, magni fiducia regni.",
+   "l": "to whom a lock, splendid with purple, clung among the honoured white hairs and in the middle of his crown, the guarantee of a great kingdom.",
+   "i": "on whose head, among the honoured white hairs at the very crown, there clung a lock splendid with purple: the guarantee that his kingdom would stand.",
+   "n": "cui is a dative of possession: Latin says “to whom the lock clung” where English says “whose hair had a lock in it”. crinis is singular against the plural canos: one lock among the white hairs. splendidus ostro means shining with the purple of the murex, and this colour runs right through the part: purpureus of Minos in the saddle at line 33, purpura at 80, purpureum crinem at 93. fiducia stands in apposition to crinis, so the lock does not merely secure the kingdom, it is the kingdom's assurance.",
+   "v": true,
+   "ln": 8
+  },
+  {
+   "t": "Sexta resurgebant orientis cornua lunae,\net pendebat adhuc belli fortuna:",
+   "l": "The sixth horns of the rising moon were coming up again, and the fortune of the war still hung in doubt:",
+   "i": "The horns of a rising moon were coming round for the sixth time, and the war's fortune still hung undecided:",
+   "n": "cornua lunae are the tips of the crescent, so a sixth new moon puts the siege in its sixth month. resurgebant and pendebat are imperfects that hold the action open; the historic present in the next line will snap it into the foreground.",
+   "p": true,
+   "v": true,
+   "ln": 11
+  },
+  {
+   "t": "diuque\ninter utrumque volat dubiis Victoria pennis.",
+   "l": "and for a long time Victory flies between the two on uncertain wings.",
+   "i": "and for a long time Victory hovers between the two on wings that will not settle.",
+   "n": "volat is a historic present set directly against the imperfects before it: Ovid alternates the two tenses to speed and slow the narrative, and the switch here is what makes the hovering visible. dubiis pennis, “on doubting wings”, gives the goddess the state of mind of the armies underneath her.",
+   "v": true,
+   "ln": 12
+  },
+  {
+   "t": "Regia turris erat vocalibus addita muris,\nin quibus auratam proles Letoia fertur\ndeposuisse lyram: saxo sonus eius inhaesit.",
+   "l": "There was a royal tower joined to singing walls, on which the offspring of Leto is said to have laid down his gilded lyre: the sound of it stuck fast in the stone.",
+   "i": "There was a royal tower set into walls that could sing, walls on which Leto's son is said to have laid his gilded lyre; the sound of it stayed in the stone.",
+   "n": "proles Letoia is Apollo, named by his mother. fertur deposuisse is the nominative-and-infinitive: the subject stands in the nominative and English has to say “is said to have laid down”. vocalibus muris, “voice-bearing walls”, is left unexplained until the clause that follows: they sing because the lyre's sound stayed in them. inhaesit, “stuck fast”, is the same verb used of the lock clinging to Nisus at line 10.",
+   "p": true,
+   "v": true,
+   "ln": 14
+  },
+  {
+   "t": "Saepe illuc solita est ascendere filia Nisi\net petere exiguo resonantia saxa lapillo,\ntum cum pax esset:",
+   "l": "Often the daughter of Nisus was accustomed to climb up there and to strike the resounding stones with a tiny pebble, back when there was peace:",
+   "i": "She used to climb up there often, the daughter of Nisus, and set the stones ringing with a little pebble, back when there was peace:",
+   "n": "petere, usually “make for” or “attack”, here means simply to strike: she throws the pebble at the wall to make it answer. exiguo lapillo is an ablative of means, and the smallness of it against the great sound is the point. cum pax esset has the subjunctive because the clause gives the standing circumstances of a repeated habit, not one dated moment.",
+   "v": true,
+   "ln": 17
+  },
+  {
+   "t": "bello quoque saepe solebat\nspectare ex illa rigidi certamina Martis.",
+   "l": "in war too she was often accustomed to watch from that tower the contests of unbending Mars.",
+   "i": "and in wartime too she would often watch from it the struggles of hard-set Mars.",
+   "n": "quoque here is the plain adverb “also, too”. It is worth saying so, because the identical letters can also be quo-que, “and by which”, and the two must not be confused. rigidi Martis again puts the god's name where the fighting is meant, as at line 7. bello is an ablative of time, “in time of war”, answering tum cum pax esset in the line before.",
+   "v": true,
+   "ln": 19
+  },
+  {
+   "t": "Iamque mora belli procerum quoque nomina norat\narmaque equosque habitusque Cydonaeasque pharetras.",
+   "l": "And by now, through the war's delay, she knew even the names of the chieftains, and their arms and horses and dress and Cydonean quivers.",
+   "i": "By now, in the war's long wait, she had learnt even the leaders' names, their arms, their horses, their dress, their Cydonean quivers.",
+   "n": "norat is a syncopated noverat. The perfect of nosco means “I have come to know”, so its pluperfect means simply “she knew”. mora belli is an ablative of cause: the delay is what gave her the time. Four -que endings piled into one line list without ever pausing, which is how the line comes to sound like a girl reciting. Cydonea is “of Cydonia”, a city of Crete, so the quivers are the besiegers' own.",
+   "v": true,
+   "ln": 21
+  },
+  {
+   "t": "Noverat ante alios faciem ducis Europaei,\nplus etiam, quam nosse sat est.",
+   "l": "She had come to know, before all others, the face of the leader, Europa's son, more, even, than is enough to know.",
+   "i": "One face she had learnt before all the rest, the face of Europa's son, the commander, and more of it, even, than it is any good to know.",
+   "n": "ducis Europaei is “of the leader, the son of Europa”, naming Minos by his mother. Scylla will deny that very descent to his face at lines 122 to 125. nosse is a syncopated novisse. The half-line turns the verb of the sentence back on itself: she knew his face, and then she knew it too well. It is one of the lines of this part most often quoted on its own.",
+   "v": true,
+   "ln": 23
+  },
+  {
+   "t": "Hac iudice Minos,\nseu caput abdiderat cristata casside pennis,\nin galea formosus erat;",
+   "l": "With her as judge, Minos, whether he had hidden his head in a helmet crested with plumes, was handsome in the helmet;",
+   "i": "By her judging, Minos, if he had put his head inside a plumed and crested helmet, was handsome in the helmet;",
+   "n": "Hac iudice is an ablative absolute with no verb at all in it, only a pronoun and a noun: “she being the judge”. cristata casside pennis has pennis as an ablative of means with the participle, the helmet crested with plumes. seu ... seu, “whether ... or”, pairs this sentence with the next, and both of them arrive at the same verdict.",
+   "v": true,
+   "ln": 24
+  },
+  {
+   "t": "seu sumpserat aere\nfulgentem clipeum, clipeum sumpsisse decebat.",
+   "l": "or if he had taken up a shield gleaming with bronze, to have taken up the shield became him.",
+   "i": "or if he had taken up a shield agleam with bronze, then taking up a shield was what became him.",
+   "n": "decebat is impersonal, with the infinitive sumpsisse standing as its subject and no accusative of the person expressed: “to have taken up the shield was becoming”, so English has to supply “him”. clipeum is repeated in the same case in successive halves of the line, so that the shield becomes the only thing there is to say about him.",
+   "v": true,
+   "ln": 26
+  },
+  {
+   "t": "Torserat adductis hastilia lenta lacertis:\nlaudabat virgo iunctam cum viribus artem.",
+   "l": "He had hurled supple spear-shafts with arms drawn back: the girl praised the skill joined with strength.",
+   "i": "He had thrown pliant spears with his arms drawn back, and the girl praised the craft of it, joined to the force.",
+   "n": "adductis lacertis is an ablative of means with a participle attached, “with arms drawn back”. It is not an ablative absolute, since the arms are the instrument of the very verb they stand beside. lenta of a shaft means tough and springy, not slow. The pluperfect torserat set against the imperfect laudabat puts one completed throw against her repeated watching.",
+   "v": true,
+   "ln": 28
+  },
+  {
+   "t": "Imposito calamo patulos sinuaverat arcus:\nsic Phoebum sumptis iurabat stare sagittis.",
+   "l": "With the arrow laid on, he had bent the wide bow into a curve: so, she swore, Phoebus stood, with his arrows taken up.",
+   "i": "With the arrow set to the string he had drawn the broad bow into its curve, and so Phoebus stood, she swore, with his arrows in his hand.",
+   "n": "Imposito calamo and sumptis sagittis are ablative absolutes, one at each end of the sentence. iurabat governs the accusative and infinitive Phoebum stare: she swears that Apollo stands so. calamus is the reed of the shaft standing for the arrow, and patulos arcus is a plural for a single bow, which Latin verse does freely.",
+   "v": true,
+   "ln": 30
+  },
+  {
+   "t": "Cum vero faciem dempto nudaverat aere\npurpureusque albi stratis insignia pictis\nterga premebat equi spumantiaque ora regebat,",
+   "l": "But when he had bared his face, the bronze taken off, and, purple, was pressing the back of a white horse, conspicuous with embroidered coverings, and was governing its foaming mouth,",
+   "i": "But when he had taken off the bronze and bared his face, and sat in purple on the back of a white horse, a back made splendid with worked cloths, and held its foaming mouth in hand,",
+   "n": "dempto aere is an ablative absolute, and aes, “the bronze”, is the helmet named by its metal. purpureus is nominative and belongs to Minos himself: the rider is the purple thing. That is the story's own colour word, standing between the lock that is splendidus ostro at line 8 and the purpureum crinem Scylla hands over at 93. insignia agrees with terga, the horse's back made conspicuous by the stratis pictis, its embroidered cloths.",
+   "v": true,
+   "ln": 32
+  },
+  {
+   "t": "vix sua, vix sanae virgo Niseia compos\nmentis erat.",
+   "l": "scarcely her own, scarcely in command of a sound mind, was the Nisean girl.",
+   "i": "The girl of Nisus's house was barely her own any longer, barely in command of a sound mind.",
+   "n": "compos takes the genitive sanae mentis, “in possession of a sound mind”. vix sua is taken here as a predicate in its own right, “scarcely her own”, scarcely belonging to herself; the words can instead be read with sua drawn into compos as well, and the difference is one of weight rather than of sense. The choice has been made rather than left open. Niseia virgo names her by her father, which is the whole of her trouble.",
+   "v": true,
+   "ln": 35
+  },
+  {
+   "t": "Felix iaculum, quod tangeret ille,\nquaeque manu premeret, felicia frena vocabat.",
+   "l": "She called happy the javelin that he might touch, and the reins that he might press in his hand she called happy reins.",
+   "i": "The javelin he touched she called a happy javelin; the reins he closed his hand on, happy reins.",
+   "n": "tangeret and premeret are subjunctive because the relative clauses are generalising: whatever he touched, any time he touched it. quaeque frena is the noun pulled inside its own relative clause, which English cannot copy, so the literal above unpacks it. felix and felicia stand at the two ends of the sentence and the two objects hang between them.",
+   "v": true,
+   "ln": 36
+  },
+  {
+   "t": "Impetus est illi, liceat modo, ferre per agmen\nvirgineos hostile gradus,",
+   "l": "There is an impulse in her, if only it were allowed, to carry her maiden steps through the hostile line,",
+   "i": "The urge takes her, if only she were let, to walk her girl's steps straight through the enemy ranks,",
+   "n": "impetus est illi is a dative of possession, as cui was at line 8: Latin puts the impulse beside her rather than inside her. liceat modo is a wish dropped in parenthetically, “only let it be permitted”. virgineos gradus is split so that hostile stands between the two words: her steps are surrounded by the enemy in the word order before they are in the story.",
+   "v": true,
+   "ln": 38
+  },
+  {
+   "t": "est impetus illi\nturribus e summis in Gnosia mittere corpus\ncastra, vel aeratas hosti recludere portas,\nvel siquid Minos aliud velit.",
+   "l": "there is an impulse in her to send her body from the topmost towers into the Gnosian camp, or to unbar the bronze-bound gates to the enemy, or anything else, should Minos want it.",
+   "i": "the urge takes her to throw herself from the top of the towers into the Cnossian camp, or open the bronze gates to the enemy, or whatever else Minos might want.",
+   "n": "The clause repeats impetus est illi with the words turned round, est impetus illi, which is how the same thought keeps arriving. Gnosius is “of Cnossus”, Minos's own city, so Gnosia castra is simply the Cretan camp. velit is a subjunctive of what is only imagined: she has stopped listing and is holding out a blank.",
+   "v": true,
+   "ln": 39
+  },
+  {
+   "t": "Utque sedebat\ncandida Dictaei spectans tentoria regis,\n“laeter,” ait “doleamne geri lacrimabile bellum,\nin dubio est.",
+   "l": "And as she sat gazing at the white tents of the Dictaean king, “Whether I should rejoice,” she says, “or grieve that a war to be wept over is being waged, is in doubt.",
+   "i": "And as she sat watching the white tents of the Dictaean king: “Whether to be glad,” she says, “or to grieve that a war worth weeping for is being fought, I cannot tell.",
+   "n": "candida agrees with tentoria across the width of the line. Dictaeus, “of Dicte”, a mountain of Crete, is another way of saying Cretan. laeter and doleam are deliberative subjunctives in a double indirect question, with the -ne attached only to the second of the pair. geri bellum is an accusative and infinitive depending on doleam. This begins a speech of some forty lines in which she argues herself into the crime, and the argument reverses more than once before it ends.",
+   "v": true,
+   "ln": 42
+  },
+  {
+   "t": "Doleo, quod Minos hostis amanti est:\nsed nisi bella forent, numquam mihi cognitus esset.",
+   "l": "I grieve that Minos is an enemy to a woman in love: but if there were not wars, he would never have been known to me.",
+   "i": "It grieves me that Minos is the enemy of a woman who loves him; but if there were no war, I should never have come to know him at all.",
+   "n": "amanti is the present participle of amo used as a noun in the dative, “to one who loves”. She means herself, and says it at arm's length. nisi bella forent, esset is a condition contrary to fact; forent is an old form of essent; the same old formation returns as forem at line 72 and as foret at line 76. Two lines in, and the argument has already turned against itself.",
+   "v": true,
+   "ln": 45
+  },
+  {
+   "t": "Me tamen accepta poterat deponere bellum\nobside, me comitem, me pacis pignus haberet.",
+   "l": "Yet with me received as a hostage he could lay the war down; he could have me as companion, me as the pledge of peace.",
+   "i": "Yet if he took me as a hostage he could lay the war down, have me for a companion, me for the pledge of the peace.",
+   "n": "The first me is ablative and belongs inside the ablative absolute me accepta obside, “with me received as hostage”, whose noun obside is held back to the start of the next line. The two following me are accusatives, objects of haberet: three identical syllables, one in a different case from the others. poterat is an indicative where English wants “could”, since Latin states the past possibility as a fact.",
+   "v": true,
+   "ln": 47
+  },
+  {
+   "t": "Si quae te peperit, talis, pulcherrime rerum,\nqualis es ipsa fuit, merito deus arsit in illa.",
+   "l": "If she who bore you was herself such as you are, most beautiful of things, the god burned for her deservedly.",
+   "i": "If the woman who bore you was herself what you are, loveliest of all things there are, then the god had good reason to burn for her.",
+   "n": "talis and qualis are the correlative pair, “such as”, with the verb fuit held to the end. pulcherrime rerum is a superlative with a partitive genitive so wide that it means “of everything there is”. The god is Jupiter and the woman Europa, and Scylla will turn round and call this same story a lie at lines 122 to 125. Magnus prints rerum; some editions print regum, “of kings”.",
+   "v": true,
+   "ln": 49
+  },
+  {
+   "t": "O ego ter felix, si pennis lapsa per auras\nGnosiaci possem castris insistere regis\nfassaque me flammasque meas, qua dote, rogarem,\nvellet emi! tantum patrias ne posceret arces.",
+   "l": "O thrice happy I, if, having glided on wings through the airs, I could take my stand in the camp of the Gnosian king, and, having confessed myself and my flames, could ask with what dowry he would wish to be bought, only let him not demand my father's citadels.",
+   "i": "How happy I would be, three times over, if I could glide on wings through the air and stand in the Cnossian king's camp, and confess myself and this fire in me, and ask what dowry he would want to be bought with, only let him not ask for my father's towers.",
+   "n": "lapsa and fassa are deponent participles, passive in form and active in meaning: “having glided”, “having confessed”. flammas is the fire of love, so confessing “myself and my flames” makes the two one admission. qua dote vellet emi is an indirect question inside rogarem, and emi is a passive infinitive, “to be bought”: the language of purchase is hers, not the poem's. tantum ne posceret is a wish with ne. She has already named, and excluded, the one thing she will in fact hand over.",
+   "v": true,
+   "ln": 51
+  },
+  {
+   "t": "Nam pereant potius sperata cubilia, quam sim\nproditione potens! —",
+   "l": "For let the longed-for bed perish sooner than that I should be powerful through betrayal!",
+   "i": "Sooner let the bed I hope for come to nothing than that betrayal should be what makes me strong!",
+   "n": "pereant quam sim is potius quam with two subjunctives, “let it perish rather than that I be”. sperata cubilia is a plural for a single marriage bed. potens returns at the close of the speech, where the purple is to make her voti mei potentem at line 80: the same adjective, and by then she has chosen exactly the power she refuses here.",
+   "v": true,
+   "ln": 55
+  },
+  {
+   "t": "Quamvis saepe utile vinci\nvictoris placidi fecit clementia multis:",
+   "l": "Although often the clemency of a gentle victor has made being conquered useful to many:",
+   "i": "And yet a mild conqueror's mercy has often made it worth a people's while to be beaten:",
+   "n": "vinci is a passive infinitive standing as the subject of fecit, with utile as its predicate: “has made to-be-conquered a useful thing”. multis is a dative of the people it was useful to. Magnus prints a dash before this clause, marking the swerve: she has begun arguing the other side to herself.",
+   "v": true,
+   "ln": 56
+  },
+  {
+   "t": "iusta gerit certe pro nato bella perempto\net causaque valet causamque tenentibus armis,",
+   "l": "he wages just wars, certainly, on behalf of his son who was killed, and he is strong both in his cause and in the arms that hold that cause,",
+   "i": "His wars are just, certainly; he fights for a murdered son, and he has the strength of his cause and of the arms that keep hold of it,",
+   "n": "valet takes two ablatives, causa and armis; the second causam is accusative, the object of tenentibus, so the same noun stands twice in one line in two different cases: the cause, and the weapons that maintain the cause. pro nato perempto is the killed son whose death Minos is avenging; these lines do not name him. perimo is the strong verb for a killing, and it will come back in Scylla's own mouth at line 129.",
+   "v": true,
+   "ln": 58
+  },
+  {
+   "t": "et, puto, vincemur. Quis enim manet exitus urbem,\ncum suus haec illi reserabit moenia Mavors\net non noster amor?",
+   "l": "and, I think, we shall be conquered. For what outcome awaits the city, when his own war-god, and not our love, will unbar these walls to him?",
+   "i": "and we shall be beaten, I think. What end is waiting for the city, when it is his own war-god, and not my love, that is going to open these walls to him?",
+   "n": "suus is reflexive and looks to illi, the dative of the person concerned: “his own Mars”. Mavors is the war-god standing for the fighting, as at line 7, and as Mars does at line 20. noster amor is a plural for “my love”, which Latin uses freely of a single speaker. The text of these two lines varies: some editions print at for et, qui si for Quis enim, cur for cum, and reseret mea for reserabit, which turns the sentence into “why should his war-god unbar my walls?”; Magnus's reading is what is printed here.",
+   "v": true,
+   "ln": 60
+  },
+  {
+   "t": "Melius sine caede moraque\nimpensaque sui poterit superare cruoris.",
+   "l": "Better will he be able to prevail without slaughter and delay and the outlay of his own blood.",
+   "i": "He could win better without killing, without delay, without spending his own blood.",
+   "n": "superare here is intransitive, “come out on top”, with no object at all. impensa cruoris is the language of money, the outlay or expense of blood, with sui agreeing with cruoris and meaning his own. She is offering Minos a cheaper victory, and pricing it as she goes.",
+   "v": true,
+   "ln": 62
+  },
+  {
+   "t": "Non metuam certe, ne quis tua pectora, Minos,\nvulneret imprudens.",
+   "l": "I shall not fear, certainly, that anyone should wound your breast unknowing, Minos.",
+   "i": "One thing I shall certainly not fear: that anyone should wound your breast without knowing whose it was, Minos.",
+   "n": "After a verb of fearing, ne means “that”, not “lest not”: metuam ne vulneret is “I fear that he may wound”. quis after ne is aliquis, “anyone”. imprudens is nominative and describes the striker, not the wound: a man who does not realise what he is looking at. pectora is a poetic plural for one breast.",
+   "v": true,
+   "ln": 64
+  },
+  {
+   "t": "Quis enim tam durus, ut in te\ndirigere inmitem non inscius audeat hastam?",
+   "l": "For who is so hard that, not unknowing, he would dare to aim a pitiless spear at you?",
+   "i": "For who is hard enough, once he knows you, to dare level a pitiless spear at you?",
+   "n": "tam durus, ut audeat is a result clause: so hard that he would dare. non inscius is understatement by double negative, “not unaware”, meaning fully conscious whom he faces. inmitem is separated from hastam by the whole of the verb, so that the pitilessness stands alone in the middle of the line.",
+   "v": true,
+   "ln": 65
+  },
+  {
+   "t": "Coepta placent, et stat sententia tradere mecum\ndotalem patriam finemque imponere bello.",
+   "l": "What has been begun pleases me, and the resolve stands, to hand over, along with me, my fatherland as a dowry, and to put an end to the war.",
+   "i": "What I have begun pleases me, and my mind is made up: to hand over my country as a dowry, and myself with it, and make an end of the war.",
+   "n": "stat sententia, “the decision stands”, is completed by the two infinitives tradere and imponere. Coepta is a neuter plural participle used as a noun, “the things begun”. dotalem patriam turns the country into a dowry, and mecum places her inside the same transaction as the land: the arithmetic of the phrase is the coldest thing in the speech.",
+   "v": true,
+   "ln": 67
+  },
+  {
+   "t": "Verum velle parum est! Aditus custodia servat\nclaustraque portarum genitor tenet:",
+   "l": "But to wish is too little! A guard keeps the entrances, and my father holds the bars of the gates:",
+   "i": "But wishing is not enough. A guard holds the approaches, and my father keeps the gate-bars:",
+   "n": "velle is an infinitive standing as the subject of est, with parum, “too little”, as its predicate. custodia is the abstract noun for the watch that is set, standing for the men who keep it, and genitor is the formal word for a father as the one who begot. The half-line is a hinge of the speech and is quoted on its own.",
+   "v": true,
+   "ln": 69
+  },
+  {
+   "t": "hunc ego solum\ninfelix timeo, solus mea vota moratur.",
+   "l": "him alone I, unhappy, fear; he alone delays my prayers.",
+   "i": "Him alone I fear, wretch that I am; he alone stands in the way of what I want.",
+   "n": "infelix is nominative and agrees with the “I” inside timeo: Latin hangs an adjective on an unexpressed subject without difficulty. solum is accusative with hunc and solus nominative with the father, the same word twice in two cases, one on each side of the line's break. vota are the things prayed for, not the praying.",
+   "v": true,
+   "ln": 70
+  },
+  {
+   "t": "Di facerent, sine patre forem! —",
+   "l": "Would that the gods might bring it about, that I were without a father!",
+   "i": "If only the gods would make it so, that I had no father!",
+   "n": "Di facerent is an optative subjunctive with no utinam to introduce it, which verse allows: “would that the gods might do it”. forem is the same old formation met as forent at line 46, here in the first person singular: it stands for essem. What she is wishing away is a living man, and the dash Magnus prints after it marks her hearing herself say it.",
+   "v": true,
+   "ln": 72
+  },
+  {
+   "t": "Sibi quisque profecto\nest deus: ignavis precibus Fortuna repugnat.",
+   "l": "Each person is surely a god to himself: Fortune fights against cowardly prayers.",
+   "i": "Each man, assuredly, is his own god: Fortune sets herself against prayers made without nerve.",
+   "n": "sibi is a dative of the person concerned, “to himself”, and ignavis precibus a dative governed by repugnat, which means to fight back against. ignavus is the word for a man with no fight in him, so the prayers are not merely idle but craven. The two clauses together are the maxim that licenses what she does next, and the second of them is quoted on its own.",
+   "v": true,
+   "ln": 72
+  },
+  {
+   "t": "Altera iamdudum succensa cupidine tanto\nperdere gauderet quodcumque obstaret amori.",
+   "l": "Another woman, long since set alight by so great a desire, would take pleasure in destroying whatever stood in the way of her love.",
+   "i": "Another woman, long since set alight by a desire this size, would be glad to destroy whatever stood in her love's way.",
+   "n": "Altera means “some other woman”, and the whole sentence is a contrary-to-fact comparison of herself with an imagined rival. gauderet is a potential subjunctive and obstaret is subjunctive by attraction inside it. succensa is a perfect passive participle: she is the thing set on fire, not the one who set it. amori is a dative with obstaret, which means to stand in the way of.",
+   "v": true,
+   "ln": 74
+  },
+  {
+   "t": "Et cur ulla foret me fortior? Ire per ignes\net gladios ausim.",
+   "l": "And why should any other woman be braver than I? I would dare to go through fires and swords.",
+   "i": "And why should any other woman have more courage than I have? I would dare to walk through fire and swords.",
+   "n": "foret stands for esset, the third appearance of this old formation in the speech, after forent at line 46 and forem at line 72. ausim is an old subjunctive of audeo that survives in verse, used here as a potential, “I would dare”. fortior is a comparative with me as its ablative of comparison, “braver than I”.",
+   "v": true,
+   "ln": 76
+  },
+  {
+   "t": "Nec in hoc tamen ignibus ullis\naut gladiis opus est: opus est mihi crine paterno.",
+   "l": "Yet in this there is no need of any fires or swords: I have need of my father's lock.",
+   "i": "And yet for this no fires and no swords are needed: what I need is my father's lock.",
+   "n": "opus est takes an ablative of the thing needed and a dative of the person needing it: ignibus and gladiis in the first half, crine paterno and mihi in the second. The construction is repeated across the colon so that the two halves balance and the second cancels the first. crine paterno is the purple lock of line 8, named here for the first time in her own mouth.",
+   "v": true,
+   "ln": 77
+  },
+  {
+   "t": "Illa mihi est auro pretiosior, illa beatam\npurpura me votique mei factura potentem.”",
+   "l": "That is more precious to me than gold, that purple is going to make me blessed and mistress of my own prayer.”",
+   "i": "It is worth more to me than gold: that purple is going to make me a blessed woman and give me the thing I prayed for.”",
+   "n": "Both instances of illa are feminine and neither can look back to crine, which is masculine; they look forward instead to purpura at the start of the next line, the purple itself. auro is an ablative of comparison with pretiosior. factura is a future participle with est understood, “is going to make”. voti mei potentem takes up proditione potens from line 56, where she had refused to be made powerful in exactly this way: the speech ends by granting what its middle rejected.",
+   "v": true,
+   "ln": 79
+  },
+  {
+   "t": "Talia dicenti curarum maxima nutrix\nnox intervenit, tenebrisque audacia crevit.",
+   "l": "Upon her saying such things, night, the greatest nurse of cares, came between, and with the darkness her boldness grew.",
+   "i": "As she was saying all this, night came between, the great nurse of cares, and in the dark her boldness grew.",
+   "n": "Talia dicenti is a dative participle governed by intervenit, which takes the person it interrupts in the dative: night comes in upon her as she speaks. curarum maxima nutrix is in apposition to nox and stands before it, so the reader meets the nurse before the night she belongs to. tenebris is an ablative of attendant circumstance, and crevit is a perfect: by the time the line ends it has already happened.",
+   "p": true,
+   "v": true,
+   "ln": 81
+  },
+  {
+   "t": "Prima quies aderat, qua curis fessa diurnis\npectora somnus habet:",
+   "l": "The first rest was at hand, in which sleep holds hearts wearied by the day's cares:",
+   "i": "The first sleep of the night had come, when sleep takes hold of hearts worn out by the day's cares:",
+   "n": "qua is an ablative of time, “at which”, taking up quies. curis diurnis is an ablative of cause with fessa, and pectora is the accusative object of habet: sleep is the subject and the tired hearts are what it holds. The line is a quiet formula of narrative time, laid down immediately before the worst act in the part.",
+   "v": true,
+   "ln": 83
+  },
+  {
+   "t": "thalamos taciturna paternos\nintrat et (heu facinus!) fatali nata parentem\ncrine suum spoliat",
+   "l": "silent she enters her father's bedchamber and, alas the outrage!, the daughter strips her own parent of the fated lock,",
+   "i": "In silence she goes into her father's bedchamber and, what a thing to do, the daughter robs her own father of the lock that held his fate,",
+   "n": "spoliat takes the accusative of the person robbed and the ablative of the thing taken: parentem, crine. fatali crine is split across the line-end, and fatalis means both “destined” and “fate-carrying”: the lock is his fate, and she is about to carry it out of the house. heu facinus is an exclamatory accusative and it is the poem's own voice breaking into the sentence, not Scylla's. taciturna is nominative and describes her, not the room. nata and parentem, daughter and parent, are set next to each other at the end of one line, and the verb of robbing arrives only in the next.",
+   "v": true,
+   "ln": 84
+  },
+  {
+   "t": "praedaque potita nefanda\nfert secum spolium celeris progressaque porta\nper medios hostes (meriti fiducia tanta est)\npervenit ad regem.",
+   "l": "and having got possession of the unspeakable plunder she carries the spoil away with her, and swift, having gone out through the gate, through the middle of the enemy, so great is her confidence in what she has earned, she reaches the king.",
+   "i": "and once the unspeakable plunder is in her hands she carries the spoil off with her, and quick through the gate and straight through the middle of the enemy, so sure is she of what she has earned, she comes to the king.",
+   "n": "potita is a deponent participle, active in sense, and potior takes the ablative: praeda nefanda. celeris is the nominative feminine of the third-declension adjective celer, describing her as she goes; it is not a genitive of anything. meriti fiducia tanta est is a parenthesis in the poem's voice, and meritum, a service that has earned its reward, is the word Scylla herself will use at lines 108 and 140. Some editions omit line 87 entirely; the sentence still stands without it, but then she never carries the spoil, she only arrives.",
+   "v": true,
+   "ln": 86
+  },
+  {
+   "t": "Quem sic adfata paventem est:",
+   "l": "And him, trembling, she addressed thus:",
+   "i": "And she spoke to him, trembling as he was, in these words:",
+   "n": "Quem is a connecting relative: a relative pronoun opening a new sentence where English says “and him”. Ovid uses it to keep the narrative running without a conjunction, and it comes again as Quam at line 145. adfata est is the deponent adfor, and paventem is pushed inside the two halves of the verb, so that the king's fear stands in the middle of her speaking. Magnus's spelling is adfata, not affata, and is kept.",
+   "v": true,
+   "ln": 89
+  },
+  {
+   "t": "“Suasit amor facinus. Proles ego regia Nisi\nScylla tibi trado patriaeque meosque penates.",
+   "l": "“Love urged the crime. I, Scylla, the royal offspring of Nisus, hand over to you my fatherland's household gods and my own.",
+   "i": "“Love talked me into the crime. I am Scylla, Nisus's royal daughter, and I hand over to you my country's household gods and my own.",
+   "n": "Suasit amor facinus is three words and the whole confession: the verb of persuading, the thing that persuaded, and the plain word for an outrage. facinus is not a soft word and the literal keeps it. The Penates are the household gods, and by extension the house or the state itself, so handing them over is handing over the city. patriae is a genitive with penates and meos an adjective on the same noun: her country's gods and hers, in one phrase and one act.",
+   "p": true,
+   "v": true,
+   "ln": 90
+  },
+  {
+   "t": "Praemia nulla peto nisi te. Cape pignus amoris\npurpureum crinem,",
+   "l": "I ask no rewards except you. Take the pledge of my love, the purple lock,",
+   "i": "I ask no reward but you. Take this pledge of my love, the purple lock,",
+   "n": "purpureum crinem is in apposition to pignus: the lock is the pledge. This is the colour word's fourth appearance in the part, after splendidus ostro of the lock at line 8, purpureus of Minos in the saddle at 33 and purpura at 80. Praemia is a plural for one reward, and nisi te makes the single exception the whole price.",
+   "v": true,
+   "ln": 92
+  },
+  {
+   "t": "nec me nunc tradere crinem,\nsed patrium tibi crede caput.”",
+   "l": "and believe that I am now handing over not a lock, but my father's head.”",
+   "i": "and take it that what I hand you now is not a lock but my father's head.”",
+   "n": "crede governs an accusative and infinitive, me tradere, with the negative and positive halves, nec and sed, set inside it. caput is a head and also a life, so patrium caput is both the head the lock grew on and the man's existence. She says it as a boast, and the literal does not soften it.",
+   "v": true,
+   "ln": 93
+  },
+  {
+   "t": "Scelerataque dextra\nmunera porrexit. Minos porrecta refugit\nturbatusque novi respondit imagine facti:",
+   "l": "And with her guilty right hand she held out the gift. Minos shrank back from what was held out and, thrown into confusion by the image of the strange deed, he answered:",
+   "i": "And she held the gift out in her guilty right hand. Minos recoiled from what was held out and, shaken by the look of a deed like nothing he knew, answered:",
+   "n": "porrexit and porrecta are the same verb twice, the second time as a neuter plural participle used as a noun, “the things held out”: what she offers is named only by his refusal of it. Scelerata dextra is an ablative of means and munera a plural for one gift. novus here means unheard-of rather than new, and imagine is an ablative of cause with turbatus.",
+   "v": true,
+   "ln": 94
+  },
+  {
+   "t": "“Di te summoveant, o nostri infamia saecli,\norbe suo, tellusque tibi pontusque negetur.",
+   "l": "“May the gods take you away from their own world, O disgrace of our age, and may earth and sea be denied to you.",
+   "i": "“May the gods drive you off the face of their own world, you scandal of our age; may land and sea both be refused you.",
+   "n": "summoveant and negetur are optative subjunctives, curses cast in the form of wishes. orbe suo is an ablative of separation held back to the start of the next line, so the curse lands a line after it is launched. infamia is not a mild word: it is public disgrace, and Minos does not say she has it, he says she is it. saecli is a syncopated saeculi.",
+   "v": true,
+   "ln": 97
+  },
+  {
+   "t": "Certe ego non patiar Iovis incunabula, Creten,\nqui meus est orbis, tantum contingere monstrum.”",
+   "l": "Certainly I shall not allow so great a monster to touch the cradle of Jupiter, Crete, which is my world.”",
+   "i": "One thing is certain: I shall not let a monstrosity this size set foot on Jupiter's cradle, on Crete, which is my own world.”",
+   "n": "patiar governs the accusative and infinitive monstrum contingere, and the subject monstrum is held back to the very last word of the speech. Creten keeps its Greek accusative singular ending -en. The relative qui takes the gender of orbis, the noun inside its own clause, rather than of Creten. monstrum said of a person means a thing against nature; it is his word for her and both layers keep it. Iovis incunabula, “Jupiter's cradle”, rests on the story that the god was born and hidden on Crete.",
+   "v": true,
+   "ln": 99
+  },
+  {
+   "t": "Dixit, et ut leges captis iustissimus auctor\nhostibus imposuit, classis retinacula solvi\niussit et aeratas impelli remige puppes.",
+   "l": "He spoke, and when, a most just framer of laws, he had imposed laws on the captured enemy, he ordered the fleet's cables to be loosed and the bronze-bound sterns to be driven on by the oarsman.",
+   "i": "He spoke; and when he had laid down laws for the beaten enemy, most just of lawgivers, he ordered the fleet's cables cast off and the bronze-clad ships driven out under oar.",
+   "n": "ut with the perfect indicative imposuit means simply “when”. captis hostibus is a dative with imposuit and is split around iustissimus auctor, which stands in apposition to the subject: the poem gives Minos that title in the same sentence in which it records what he has just refused. solvi and impelli are passive infinitives after iussit. remige is a singular standing for the whole body of rowers.",
+   "p": true,
+   "v": true,
+   "ln": 101
+  },
+  {
+   "t": "Scylla freto postquam deductas nare carinas\nnec praestare ducem sceleris sibi praemia vidit,",
+   "l": "After Scylla saw that the launched keels were swimming on the strait, and that the leader was not granting her the rewards of her crime,",
+   "i": "When Scylla saw the launched hulls swimming out on the water, and the commander not paying her the reward her crime had earned,",
+   "n": "postquam vidit governs two accusative-and-infinitive clauses, nare and praestare: she sees both that they swim and that he does not pay. carinae are keels standing for whole ships, and deductas is the technical word for hauling a hull down into the water. praemia sceleris, the rewards of the crime, is her own accounting, kept unchanged from line 92.",
+   "p": true,
+   "v": true,
+   "ln": 104
+  },
+  {
+   "t": "consumptis precibus violentam transit in iram,\nintendensque manus, passis furibunda capillis,",
+   "l": "her prayers used up, she passes over into violent anger, and stretching out her hands, raving, with her hair let loose,",
+   "i": "with her pleading spent, she goes over into violent rage, and flinging out her hands, wild, her hair loose,",
+   "n": "consumptis precibus and passis capillis are two ablative absolutes, one at each end of the sentence. passis is from pando, “spread out, let loose”, not from patior, “suffer”: the forms fall together and it is the hair that is unbound, not the woman enduring. transit is a historic present, and furibunda is nominative, describing her.",
+   "v": true,
+   "ln": 106
+  },
+  {
+   "t": "“quo fugis” exclamat, “meritorum auctore relicta,\no patriae praelate meae, praelate parenti?",
+   "l": "“Where are you fleeing to,” she cries, “with the author of the services left behind, O you preferred to my fatherland, preferred to my father?",
+   "i": "“Where are you running to,” she cries, “leaving behind the woman who earned it all for you, you whom I set above my country, above my father?",
+   "n": "meritorum auctore relicta is an ablative absolute in which she is the auctor, the one who brought the services about. praelate is the vocative of a perfect passive participle used as a form of address, “O you who were preferred”, with the datives patriae and parenti after it. The word stands twice, at the break of the line and at its end, and what it measures each time is what she gave away.",
+   "v": true,
+   "ln": 108
+  },
+  {
+   "t": "Quo fugis, inmitis? cuius victoria nostrum\net scelus et meritum est.",
+   "l": "Where are you fleeing to, pitiless one? You, whose victory is both my crime and my service.",
+   "i": "Where are you running, you pitiless man? You whose victory is at once my crime and my service to you.",
+   "n": "cuius is a connecting relative attaching to the vocative inmitis, so English has to say “you, whose victory”. nostrum is a plural for “my”, agreeing with scelus and understood again with meritum. One act carries two names and she gives both inside a single line: what she did to the city, and what she did for him.",
+   "v": true,
+   "ln": 110
+  },
+  {
+   "t": "Nec te data munera, nec te\nnoster amor movit, nec quod spes omnis in unum\nte mea congesta est?",
+   "l": "Did the gifts given not move you, nor our love, nor the fact that all my hope was heaped upon you alone?",
+   "i": "Did the gifts I gave not move you? nor my love? nor that all my hope was piled on you and no one else?",
+   "n": "movit is singular although three things are its subject, which Latin allows when they are felt as one weight. The third subject is the whole quod-clause: “nor the fact that”. in unum te is split, so that “one” arrives before the pronoun it belongs to. congesta est is the verb for heaping goods together in one place, and she uses it of her hope.",
+   "v": true,
+   "ln": 111
+  },
+  {
+   "t": "Nam quo deserta revertar?\nIn patriam? Superata iacet.",
+   "l": "For where am I, deserted, to go back to? To my fatherland? It lies conquered.",
+   "i": "For where am I to go back to, left like this? Home? It lies beaten.",
+   "n": "revertar is a deliberative subjunctive: not “where shall I return” but “where am I to return”. deserta is nominative and describes her. Two words, Superata iacet, dispose of the city, and from here to line 116 her questions come in fragments, because she is not waiting for the answers.",
+   "v": true,
+   "ln": 113
+  },
+  {
+   "t": "Sed finge manere:\nproditione mea clausa est mihi. Patris ad ora?\nQuem tibi donavi!",
+   "l": "But suppose it stands: it has been closed to me by my own betrayal. To my father's face? Whom I gave away to you!",
+   "i": "But suppose it were still standing: my own betrayal has shut it against me. To my father, then? The father I made a present of to you!",
+   "n": "finge takes a bare infinitive, manere: “imagine it to remain”. clausa est mihi has the dative of the person shut out. Patris ad ora has no verb of its own and revertar has to be carried down from line 113. Quem is the relative picking up patris, and donavi is the verb of making someone a present of something; at line 91 she had used trado, “I hand over”, of the same act.",
+   "v": true,
+   "ln": 114
+  },
+  {
+   "t": "Cives odere merentem,\nfinitimi exemplum metuunt: exponimur orbae,\nterrarum nobis ut Crete sola pateret.",
+   "l": "My citizens hate me, and I deserve it; the neighbouring peoples fear the example: I am cast out and bereft, so that of all lands Crete alone should lie open to me.",
+   "i": "My own people hate me, and have every right to; the peoples round about are frightened by the example. I am put out of doors with nothing, so that of the whole earth only Crete should be open to me.",
+   "n": "odere is oderunt, the third-plural perfect in -ere already met at tenuere in line 5. odi is a perfect with present meaning, so it is “they hate”, not “they hated”. merentem is a participle agreeing with the unexpressed “me”: she grants the justice of it in one word. exponimur and orbae are plurals for one person, and exponere is the word used of putting an unwanted child outside to die. terrarum is a partitive genitive with sola, and ut pateret is a purpose clause in the imperfect, looking back to the moment she chose. The metre of line 118 asks for ut to count long before the Cr- of Crete, which verse allows before a Greek name beginning with two consonants; both witnesses print ut, and nothing here is altered.",
+   "v": true,
+   "ln": 116
+  },
+  {
+   "t": "Hac quoque si prohibes et nos, ingrate, relinquis,\nnon genetrix Europa tibi ea, sed inhospita Syrtis,\nArmeniae tigres austroque agitata Charybdis.",
+   "l": "If you shut me out from this too and leave me, ungrateful man, Europa is not that mother of yours, but the inhospitable Syrtis, Armenian tigresses, and Charybdis stirred by the south wind.",
+   "i": "If you keep me out of this too and leave me behind, ungrateful as you are, then that mother of yours is no Europa, but the Syrtis that takes nobody in, tigresses of Armenia, Charybdis churned by the south wind.",
+   "n": "Hac is an ablative of separation with prohibes, “from this”, meaning Crete. quoque here is again the adverb “too”, not quo-que. nos is a plural for “me”. The Syrtis is the shoal-water off the African coast and Charybdis the whirlpool that swallows ships, so the three things she names are places and animals that take in nothing living. Magnus prints tibi ea, a demonstrative agreeing with genetrix and no verb expressed, so English has to supply “is”; some editions print est.",
+   "v": true,
+   "ln": 119
+  },
+  {
+   "t": "Nec Iove tu natus, nec mater imagine tauri\nducta tua est (generis falsa est ea fabula !):",
+   "l": "Nor were you born of Jupiter, nor was your mother beguiled by the semblance of a bull (that story of your descent is false):",
+   "i": "Nor were you Jupiter's son, nor was your mother taken in by the shape of a bull; that pedigree of yours is a lie:",
+   "n": "Iove is an ablative of origin with natus, the ordinary Latin way of naming a father. imagine tauri is an ablative of means with ducta, the verb for leading someone on. generis is a genitive with fabula, “the story about your birth”. She is denying the very descent she flattered him with at lines 49 and 50, where the god burned for the woman who bore him. The edition prints a space before the exclamation mark in fabula !; the spacing is the edition's own and is kept unaltered.",
+   "v": true,
+   "ln": 122
+  },
+  {
+   "t": "verus\net ferus et captus nullius amore iuvencae,\nqui te progenuit, taurus fuit.",
+   "l": "a real one, and a savage one, and one caught by love for no heifer, the one that begot you, was a bull.",
+   "i": "The thing that fathered you was a bull, a real one, a savage one, and one that was in love with no cow.",
+   "n": "The subject taurus is held to the very end, with three adjectives waiting for it and the relative clause qui te progenuit standing in between; the literal keeps that order as far as English will bear it. captus nullius amore iuvencae is the sting: a bull that wanted no cow is a bull that wanted a woman. She is fusing the bull of Europa with the bull of Pasiphae, whom she names at line 136, and the taunt is deliberately impossible, since Pasiphae is his wife and not his mother. It is abuse, not genealogy, and it is translated at that pitch.",
+   "v": true,
+   "ln": 123
+  },
+  {
+   "t": "Exige poenas,\nNise pater! gaudete malis, modo prodita, nostris\nmoenia! nam fateor, merui et sum digna perire.",
+   "l": "Exact your punishment, father Nisus! Rejoice in my sufferings, walls just now betrayed! For I confess it: I have deserved it, and I am worthy to die.",
+   "i": "Exact the penalty, father Nisus! Take your pleasure in my sufferings, walls I betrayed only this moment! For I admit it: I earned this, and I deserve to die.",
+   "n": "Both imperatives are aimed at what cannot hear her, a father far off and a circuit of walls: turning aside to address them is her own rhetoric, and it arrives at the point where her argument has run out. malis nostris is an ablative with gaudete, split around modo prodita. digna takes a plain infinitive, perire, a construction verse allows where prose would say digna quae periret. She uses the hard words of herself and neither layer softens them.",
+   "v": true,
+   "ln": 125
+  },
+  {
+   "t": "Sed tamen ex illis aliquis, quos impia laesi,\nme perimat.",
+   "l": "But still, let some one of those whom I, unholy, have harmed destroy me.",
+   "i": "But let it be one of those I wronged, in my wickedness, who destroys me.",
+   "n": "perimat is a jussive subjunctive, “let him destroy”, and it is the same verb Ovid used of Minos's killed son at perempto in line 58. impia is nominative and belongs to the “I” inside laesi: she calls herself the impious one, and impius means specifically an offender against the bonds of family and country, which are the two bonds she has broken.",
+   "v": true,
+   "ln": 128
+  },
+  {
+   "t": "Cur, qui vicisti crimine nostro,\ninsequeris crimen?",
+   "l": "Why do you, who conquered by my crime, prosecute the crime?",
+   "i": "Why do you, who won by my crime, punish the crime?",
+   "n": "insequor is deponent and means to go after someone, in pursuit or at law. crimine and crimen are the same noun in two cases inside one line: the crime he used and the crime he punishes are one thing, and the case-endings are all that separate them. The relative clause qui vicisti has a second-person verb because its antecedent is “you”.",
+   "v": true,
+   "ln": 129
+  },
+  {
+   "t": "Scelus hoc patriaeque patrique,\nofficium tibi sit.",
+   "l": "Let this be a crime towards my fatherland and my father, a service towards you.",
+   "i": "Let it be a crime against my country and my father, and a service done for you.",
+   "n": "sit is jussive. patriae, patri and tibi are all datives of the person concerned, and the sentence sets one noun against the other across them: scelus on one side, officium on the other, with the act itself unchanged in the middle. officium is the word for a duty performed for someone, the return that is owed.",
+   "v": true,
+   "ln": 130
+  },
+  {
+   "t": "Te vere coniuge digna est,\nquae torvum ligno decepit adultera taurum\ndiscordemque utero fetum tulit.",
+   "l": "Worthy of you as a husband, truly, is the adulteress who tricked the grim bull with wood and carried in her womb an offspring at war with itself.",
+   "i": "The woman who truly deserves you for a husband is the adulteress who cheated the grim bull with a thing of wood and carried in her womb a creature at war with itself.",
+   "n": "te coniuge is an ablative with digna, “worthy of you as husband”. adultera is Scylla's word and it is an accusation, not a description; both layers keep it hard. The woman is Pasiphae, named at line 136; the wood is the hollow cow she had herself put inside; the discors fetus is the Minotaur, discors because its two natures do not agree. torvum is separated from taurum by the whole verb, which leaves the grimness standing on its own.",
+   "v": true,
+   "ln": 131
+  },
+  {
+   "t": "Ecquid ad aures\nperveniunt mea dicta tuas? An inania venti\nverba ferunt idemque tuas, ingrate, carinas?",
+   "l": "Do my words reach your ears at all? Or do the winds carry my words away empty, and the same winds your ships, ungrateful man?",
+   "i": "Do my words reach your ears at all? Or do the winds carry off my words as so much emptiness, the same winds that carry your ships, ungrateful man?",
+   "n": "Ecquid is an adverbial accusative introducing a question that expects the answer no: “at all?”. ad aures tuas is split across the line-end with the possessive left until last. idem is the nominative plural of the same winds, and ferunt does double duty, taking both the words and the ships as objects: one verb, two things blown away together, and that is the whole of the joke.",
+   "v": true,
+   "ln": 133
+  },
+  {
+   "t": "Iam iam Pasiphaen non est mirabile taurum\npraeposuisse tibi: tu plus feritatis habebas.",
+   "l": "Now, now it is no wonder that Pasiphae preferred a bull to you: you had more of wildness in you.",
+   "i": "Now, now there is nothing to wonder at in Pasiphae's preferring a bull to you: you had more of the beast about you.",
+   "n": "Pasiphaen keeps its Greek accusative singular ending -en and is the subject accusative of the infinitive praeposuisse after non est mirabile. plus feritatis is a partitive genitive, “more of wildness”. The taunt closes the one begun at line 122: she gave him a bull for a father, and now gives the bull his wife's preference. These two lines are quoted on their own.",
+   "v": true,
+   "ln": 136
+  },
+  {
+   "t": "Me miseram! properare iubet, divulsaque remis\nunda sonat; mecumque simul mea terra recedit.",
+   "l": "Wretched me! he orders them to hurry, and the water, torn apart by the oars, sounds; and along with me my own land draws back.",
+   "i": "Wretch that I am! He gives the order to hurry, and the water sounds as the oars tear it open; and my own land is pulling away, together with me.",
+   "n": "Me miseram is an accusative of exclamation. iubet has no expressed object: he tells the rowers to hurry. divulsa remis unda is a participle with its ablative of means, and sonat puts the noise in the present tense. mecum simul mea terra recedit is taken here from the departing ship's point of view: Minos is leaving behind, at one and the same moment, both her and the country she gave him. The line can also be read as her land withdrawing from her, though she is still on the shore and does not enter the water until line 142; the choice has been made here rather than left open.",
+   "v": true,
+   "ln": 138
+  },
+  {
+   "t": "Nil agis, o frustra meritorum oblite meorum:\ninsequar invitum, puppimque amplexa recurvam\nper freta longa trahar.”",
+   "l": "You accomplish nothing, O you who have forgotten my services to no purpose: I shall follow you against your will, and, having taken hold of the curved stern, I shall be dragged over the long seas.”",
+   "i": "You are wasting your effort, you who forget my services and gain nothing by forgetting: I shall follow you whether you will or not, and with my arms round the curved stern I shall be dragged the long seas over.”",
+   "n": "Nil agis is an idiom, “you are getting nowhere”. oblite is the vocative of the deponent participle of obliviscor and takes the genitive meritorum meorum. invitum is accusative and agrees with the unexpressed “you”: it is he who is unwilling, not she. amplexa is another deponent participle with active meaning, and trahar is a future passive; she is planning to be the thing dragged.",
+   "v": true,
+   "ln": 140
+  },
+  {
+   "t": "Vix dixerat, insilit undis\nconsequiturque rates, faciente cupidine vires,\nGnosiacaeque haeret comes invidiosa carinae.",
+   "l": "Scarcely had she spoken: she leaps into the waves and overtakes the ships, desire making her strength, and she clings to the Gnosian keel, a companion nobody wants.",
+   "i": "She had barely finished: she leaps into the water, comes up with the ships, desire supplying the strength, and clings to the Cnossian hull, a companion nobody would want.",
+   "n": "The pluperfect dixerat gives way at once to the historic presents insilit, consequitur and haeret, so the sentence gets faster as she does. faciente cupidine vires is an ablative absolute. haeret takes the dative carinae, and it is the simple form of the verb used of the lock clinging to Nisus at line 10: the daughter now clings as the hair once did. invidiosa is the passive sense of the adjective, a thing that draws ill will, so she is resented rather than envious.",
+   "v": true,
+   "ln": 142
+  },
+  {
+   "t": "Quam pater ut vidit (nam iam pendebat in aura\net modo factus erat fulvis haliaeetus alis),\nibat, ut haerentem rostro laceraret adunco.",
+   "l": "And when her father saw her, for by now he was hanging in the air and had just been made a sea-eagle with tawny wings, he was coming on, to tear at her as she clung, with his hooked beak.",
+   "i": "And when her father saw her, by now he was hanging in the air, only just turned into a tawny-winged sea-eagle, he came on to tear at her where she clung, with his hooked beak.",
+   "n": "Quam is the connecting relative again, as Quem was at line 89. The transformation is reported inside a parenthesis and in the pluperfect, factus erat: it has already happened somewhere off the page, and the poem never shows it. haliaeetus is the Greek word for the sea-eagle or osprey, taken over into Latin unchanged. ut laceraret is a purpose clause after ibat, and adunco is separated from rostro by the whole verb.",
+   "p": true,
+   "v": true,
+   "ln": 145
+  },
+  {
+   "t": "Illa metu puppim dimisit, et aura cadentem\nsustinuisse levis, ne tangeret aequora, visa est.",
+   "l": "In fear she let go of the stern, and a light breeze seemed to have held her up as she fell, so that she should not touch the waters.",
+   "i": "In fear she let go of the stern, and a light breeze seemed to hold her as she fell, so that she should not touch the water.",
+   "n": "visa est sustinuisse is the nominative and infinitive: the breeze is the subject and English has to say “seemed to have held”. aura is cut off from its adjective levis by the whole intervening clause, which leaves the lightness hanging at a distance from the thing that is light. ne tangeret is a negative purpose clause. The word visa is doing quiet work: something seemed to hold her, and the next line says it was not a breeze.",
+   "v": true,
+   "ln": 148
+  },
+  {
+   "t": "Pluma fuit: plumis in avem mutata vocatur\nciris, et a tonso est hoc nomen adepta capillo.",
+   "l": "It was a feather: changed by feathers into a bird she is called Ciris, and she got this name from the shorn hair.",
+   "i": "It was a feather. Turned into a bird by her own feathers, she is called Ciris, and she took the name from the lock that was shorn away.",
+   "n": "Pluma fuit is two words correcting the whole of the line before it: it was never a breeze. adepta est is deponent, active in meaning, and is split apart by hoc nomen. The bird's name ciris is Greek, and Ovid points at the etymology himself with a tonso capillo, “from the shorn hair”, since the Greek verb for shearing is keiro. The lock that began the story ends as the name of a bird. Magnus prints Pluma fuit: plumis; some editions print Pluma subit: palmis, which makes the feather come up rather than simply be, and turns her into a bird by her palms rather than by her feathers.",
+   "v": true,
+   "ln": 150
+  }
+ ],
+ "glossaryFile": "metamorphoses-glossary.json"
+}

@@ -1,0 +1,570 @@
+{
+ "id": "ovid-met-063",
+ "sourceId": "ovid-met-063",
+ "title": "Achelous et Hercules",
+ "titleEn": "Three Shapes and the Broken Horn — Metamorphoses IX.1–97",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 8719b7d375018d4f. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
+ "about": "Neptune’s son asks the river Achelous why he groans and why his forehead is maimed, and the river tells it himself: how he and Hercules both asked Deianira’s father for her, how he taunted Hercules with his mother’s adultery, and how he was beaten in three shapes — as a man, as a snake, and as a bull, the last of which cost him a horn. The Naiads hallow the broken horn, filled with fruit and blossom, and Good Plenty is rich by it; at daybreak the guests leave and the river hides his maimed head in his own water.",
+ "sentences": [
+  {
+   "t": "Quae gemitus truncaeque deo Neptunius heros\ncausa rogat frontis,",
+   "l": "What the cause is of his groaning and of his broken brow, the Neptunian hero asks of the god,",
+   "i": "The hero born of Neptune asks the god what the cause is of his groaning and of his broken brow,",
+   "n": "Neptunius heros names Theseus by his divine father — the poem counts him Neptune’s son. Quae … causa is an indirect question with its verb left out, “what the cause is”, and the two words are prised apart across the line-end: gemitus and truncae stand between them, and frontis does not arrive until the second line. Deo is a dative where prose would put the person asked in the accusative: rogo normally takes two accusatives, one of the person and one of the thing.",
+   "p": true,
+   "v": true,
+   "ln": 1
+  },
+  {
+   "t": "cum sic Calydonius amnis\ncoepit inornatos redimitus harundine crines:",
+   "l": "when the Calydonian river thus began, bound as to his unkempt hair with reed:",
+   "i": "when the river of Calydon began, his uncombed hair bound about with reed:",
+   "n": "Redimitus is a passive participle with inornatos … crines as a Greek accusative of respect — “bound as to his hair” — a construction Latin verse takes over from Greek, and one you will meet constantly in this poem. Calydonius amnis is the Achelous, which runs past Calydon in Aetolia, so the river is named by the land he waters. Magnus prints cum here; some editions print cui, which would make the line “to whom the Calydonian river thus began”.",
+   "v": true,
+   "ln": 2
+  },
+  {
+   "t": "“Triste petis munus.",
+   "l": "A grim gift you ask for.",
+   "i": "It is a bleak favour you are asking of me.",
+   "n": "Munus is both a service performed for someone and the gift that comes of it, and both senses are working: Theseus has asked, and the telling will cost the teller. Triste stands first in its sentence for weight, and petis takes over the asking from rogat at 2: what Theseus put as a question the river calls a gift demanded of him.",
+   "p": true,
+   "v": true,
+   "ln": 4
+  },
+  {
+   "t": "Quis enim sua proelia victus\ncommemorare velit?",
+   "l": "For who, once beaten, would wish to recount his own battles?",
+   "i": "For what beaten man would care to tell over his own fights?",
+   "n": "Velit is a potential subjunctive — “would wish”, not “wishes” — the mood for a question about what anyone might do. Victus is a perfect passive participle standing alone for the person, “a man who has been beaten”, and sua is the reflexive possessive pointing back to the indefinite quis.",
+   "v": true,
+   "ln": 4
+  },
+  {
+   "t": "Referam tamen ordine.",
+   "l": "Still, I shall tell it in order.",
+   "n": "Referam is a future indicative, the flat promise that opens an inset narrative. Ordine is a bare ablative of manner, the standing phrase for “in sequence”, and it is a promise the speaker keeps: what follows runs from the wooing to the horn without a jump.",
+   "v": true,
+   "ln": 5
+  },
+  {
+   "t": "Nec tam\nturpe fuit vinci, quam contendisse decorum est,",
+   "l": "Nor was it so shameful to be beaten as it is honourable to have made the fight,",
+   "i": "It was not so shameful a thing to be beaten as it is an honourable one to have fought at all,",
+   "n": "Tam … quam sets up a comparison between two infinitives, vinci and contendisse, each the subject of a neuter adjective (turpe, decorum) with the verb “to be”; vinci is a present infinitive, “to be beaten”, and contendisse a perfect, “to have fought”. The tenses do the argument: fuit is past and est is present, so the shame is over and the credit is still standing.",
+   "v": true,
+   "ln": 5
+  },
+  {
+   "t": "magnaque dat nobis tantus solacia victor.",
+   "l": "and so great a victor gives us great consolations.",
+   "i": "and a conqueror of that stature gives us great consolation.",
+   "n": "Nobis is the plural used of a single speaker, and Achelous will do it again with nostro at 61. Magna … solacia and tantus … victor are interlocked, each pair straddling the other, so the greatness of the comfort and the greatness of the conqueror are wound around one another — the word order is the argument.",
+   "v": true,
+   "ln": 7
+  },
+  {
+   "t": "Nomine siqua suo fando pervenit ad aures\nDeianira tuas—",
+   "l": "If any Deianira has come by report, under her own name, to those ears of yours —",
+   "i": "If ever the name Deianira has reached your ears in the telling —",
+   "n": "Siqua is si qua, “if any”, and the noun it belongs to is dragged over the line-end so that Deianira arrives a whole line after the word that introduces her, and splits tuas from aures on the way. Fando is the ablative of the gerund of for, and “by speaking” is the fixed Latin idiom for hearsay. The dash is the edition’s: the sentence breaks off, the if-clause never gets its main clause, and the speaker starts again with a description of her.",
+   "v": true,
+   "ln": 8
+  },
+  {
+   "t": "quondam pulcherrima virgo\nmultorumque fuit spes invidiosa procorum.",
+   "l": "she was once a most beautiful maiden, and the envy-stirring hope of many suitors.",
+   "i": "she was once the loveliest of girls, and the hope of many suitors — a hope that set them envying one another.",
+   "n": "Invidiosa is active in force and a false friend: not “envious” but “provoking envy”. Spes is a predicate noun, so the girl herself is called the hope, not the object of it, and multorum … procorum frames the line around it.",
+   "v": true,
+   "ln": 9
+  },
+  {
+   "t": "Cum quibus ut soceri domus est intrata petiti,",
+   "l": "When, together with them, the house of the father-in-law we were all after had been entered,",
+   "i": "When we all went in together to the house of the father-in-law we were after,",
+   "n": "Cum quibus is a connecting relative — “and with these”, the suitors of the line before — pulled out in front of ut, the conjunction of the clause it belongs to. Ut here is temporal, “when”, with the perfect indicative, not a purpose or result conjunction. Domus est intrata is a passive with no agent expressed, which lets the crowd of suitors be swallowed by the verb; soceri … petiti wraps the line around it.",
+   "v": true,
+   "ln": 11
+  },
+  {
+   "t": "“accipe me generum,” dixi “Parthaone nate:”\ndixit et Alcides.",
+   "l": "“Take me as your son-in-law,” I said, “you who were born of Parthaon”: and Alcides said it too.",
+   "i": "“Take me for your son-in-law, son of Parthaon,” I said — and Hercules said it too.",
+   "n": "Generum is a predicate accusative after accipe: “take me as”. Parthaone nate is a vocative participle with an ablative of origin, “born from Parthaon” — Oeneus, Deianira’s father, was Parthaon’s son, so the suitor addresses him by his grandfather. Alcides names Hercules from Alceus, his grandfather in turn; the poem calls him Alcides again at 51 and Tirynthius at 66. Et here is “too”, and the point of it is that the two suits were made in the same words.",
+   "v": true,
+   "ln": 12
+  },
+  {
+   "t": "Alii cessere duobus.",
+   "l": "The others gave way before the two.",
+   "i": "The rest of them stood aside for the two of us.",
+   "n": "Cessere is cesserunt, the poetic third-plural perfect in -ere, which verse prefers for its shorter ending; you will meet it constantly. Cedo takes the dative of the person given way to, hence duobus.",
+   "v": true,
+   "ln": 13
+  },
+  {
+   "t": "Ille Iovem socerum dare se famamque laborum\net superata suae referebat iussa novercae.",
+   "l": "He kept telling how he was offering Jupiter as a father-in-law, and the fame of his labours, and his stepmother’s commands overcome.",
+   "i": "He kept setting out what he brought: Jupiter for a father-in-law, the renown of his labours, and his stepmother’s orders all beaten.",
+   "n": "Referebat introduces an indirect statement, se … dare, with three objects hung on the one infinitive. The third of them, superata … iussa, is a noun with a perfect participle where English wants a clause — “the fact that the commands had been overcome” — one of the commonest Latin economies. The stepmother is Juno: Hercules is Jupiter’s son by Alcmena, and Juno, as Jupiter’s wife, is behind the labours imposed on him.",
+   "v": true,
+   "ln": 14
+  },
+  {
+   "t": "Contra ego “turpe deum mortali cedere” dixi\n(nondum erat ille deus),",
+   "l": "In answer I said, “it is a disgrace for a god to yield to a mortal” (he was not yet a god),",
+   "i": "I said back to him, “It is a disgrace for a god to give way to a mortal” — he was not a god yet —",
+   "n": "Turpe … cedere: the infinitive is the subject of an unexpressed est, deum is the accusative subject of that infinitive, and mortali the dative that cedo requires. The parenthesis is not part of what he said at the time but the narrator’s aside to his listener, conceding the one fact that made the taunt fair: Hercules was still mortal when it was thrown.",
+   "v": true,
+   "ln": 16
+  },
+  {
+   "t": "“regem me cernis aquarum\ncursibus obliquis inter tua regna fluentum.",
+   "l": "“you behold me king of the waters that flow with slanting courses among your realms.",
+   "i": "“in me you see the king of the waters that wind their slanting way through your own kingdom.",
+   "n": "Regem me cernis is a double accusative with cerno — you see me as king. Fluentum is the contracted genitive plural of fluentium, the present participle of fluo, agreeing with aquarum; verse regularly clips -ium to -um in such forms. Cursibus obliquis is an ablative of manner: a river’s meanders. He is speaking to Oeneus, whose Calydon the Achelous borders, and the boast is that his kingdom lies inside his host’s.",
+   "v": true,
+   "ln": 17
+  },
+  {
+   "t": "Nec gener externis hospes tibi missus ab oris,\nsed popularis ero et rerum pars una tuarum.",
+   "l": "Nor shall I be a son-in-law sent to you as a stranger from foreign shores, but I shall be a countryman and one part of your own holdings.",
+   "i": "I shall not be a son-in-law sent you as a stranger out of foreign coasts, but a man of your own country, and one part of what is yours.",
+   "n": "One verb, ero, has to serve both halves of the sentence and is left out of the first — an ellipsis English cannot copy. Hospes means both guest and foreigner, and here it is the foreignness that carries the sneer at his rival, the wanderer. Res in the plural is property and holdings, so rerum pars una tuarum is not a compliment but a fact of geography: the river runs through the land.",
+   "v": true,
+   "ln": 19
+  },
+  {
+   "t": "Tantum ne noceat, quod me nec regia Iuno\nodit et omnis abest iussorum poena laborum.",
+   "l": "Only let it not tell against me, that royal Juno does not hate me and that all punishment of commanded labours is absent.",
+   "i": "Only let this not be held against me — that royal Juno does not hate me, and that no punishment of ordered labours hangs on me.",
+   "n": "Ne noceat is a jussive subjunctive with ne, “let it not do harm”, and its subject is the whole quod clause that follows: quod introduces a statement of fact and keeps the indicative (odit, abest). The wit is that both of Hercules’s boasts at 14–15 are turned inside out — the labours were a punishment, and Juno’s hatred is the mark of the bastard.",
+   "v": true,
+   "ln": 21
+  },
+  {
+   "t": "Nam, quo te iactas, Alcmena nate, creatum,\nIuppiter aut falsus pater est, aut crimine verus.",
+   "l": "For Jupiter, from whom you boast that you were begotten, son of Alcmena, is either a false father or a true one by way of a crime.",
+   "i": "For Jupiter, whom you boast you were begotten by, son of Alcmena, is either your father falsely or truly your father by way of a crime.",
+   "n": "Quo … creatum is an indirect statement inside a relative clause, with the infinitive esse dropped as usual: “that you were created from him”. The antecedent Iuppiter is postponed to the head of the next line, so the boast arrives before the name it hangs on. Crimine is an ablative of the means by which he is a true father, and the insult is complete in the address itself: he is called Alcmena nate, son of his mother, by a speaker arguing that the father is a fiction.",
+   "v": true,
+   "ln": 23
+  },
+  {
+   "t": "Matris adulterio patrem petis.",
+   "l": "By your mother’s adultery you lay claim to a father.",
+   "i": "It is by way of your mother’s adultery that you come by a father.",
+   "n": "Adulterio is an ablative of means, and adulterium is the harsh legal word, not a euphemism: it is Achelous’s word for Alcmena in the middle of a quarrel, not the poem’s verdict, and by the usual telling Jupiter came to her disguised as her own husband. Petis is the verb of going after something and claiming it, the same verb used of Theseus’s asking at 4 and of the father-in-law courted at 11.",
+   "v": true,
+   "ln": 25
+  },
+  {
+   "t": "Elige, fictum\nesse Iovem malis, an te per dedecus ortum.”",
+   "l": "Choose: whether you would rather that Jupiter is an invention, or that you were born by way of a disgrace.”",
+   "i": "Take your choice which you would rather have: that Jupiter is a fiction, or that you came into the world out of a disgrace.”",
+   "n": "An imperative followed by an indirect double question: the first limb has no marker at all and an alone introduces the second, where prose would write utrum … an. Malis is the present subjunctive of malo, “you would prefer”, and both limbs are indirect statements (fictum esse Iovem; te … ortum, with esse dropped again). The dilemma is airtight by design — either no god fathered him, or his mother was shamed — and it is the last thing said before the fight.",
+   "v": true,
+   "ln": 25
+  },
+  {
+   "t": "Talia dicentem iamdudum lumine torvo\nspectat et accensae non fortiter imperat irae\nverbaque tot reddit:",
+   "l": "Me, saying such things, he has been watching this long while with a grim eye, and he masters his kindled anger not bravely, and gives back just so many words:",
+   "i": "All this while he has been watching me as I said it, with a grim look; he keeps his kindled anger under no very brave control, and gives back just these few words:",
+   "n": "Spectat is a historic present, and with iamdudum it has the force English gives with “has been watching”: the looking has been going on through the whole speech. Talia dicentem has no pronoun with it — the participle alone stands for the object, and because Achelous is telling the story it means “me, as I spoke”. Impero takes the dative of what is commanded, accensae … irae, and non fortiter is understatement for the opposite: he controlled it badly.",
+   "p": true,
+   "v": true,
+   "ln": 27
+  },
+  {
+   "t": "“Melior mihi dextera lingua.",
+   "l": "“My right hand is better than my tongue.",
+   "i": "“My right hand serves me better than my tongue does.",
+   "n": "Lingua is an ablative of comparison after the comparative melior, so no quam is needed; mihi is a dative of possession, “the right hand I have”. Four words answer a speech many times their length, and the asymmetry is the characterisation.",
+   "v": true,
+   "ln": 29
+  },
+  {
+   "t": "Dummodo pugnando superem, tu vince loquendo,”",
+   "l": "Provided I win by fighting, you conquer by speaking,”",
+   "i": "So long as I win by fighting, you are welcome to the victory in talk,”",
+   "n": "Dummodo takes the subjunctive in a clause of proviso, “on condition that”. Pugnando and loquendo are ablatives of the gerund — “by fighting”, “by speaking” — and each is planted at the end of its own clause so that the two ways of winning face each other across the line. Vince is an imperative used to concede rather than to order: not a command but a grant.",
+   "v": true,
+   "ln": 30
+  },
+  {
+   "t": "congrediturque ferox.",
+   "l": "and fierce he closes with me.",
+   "i": "and he closes with me in a fury.",
+   "n": "Congredior is deponent — passive in form, active in meaning — and it is the technical verb for joining battle. Ferox is a nominative adjective doing adverbial work, which Latin prefers to an adverb where the quality belongs to the man and not only to the act. The -que ties the grappling straight onto the last word of his speech: he is on top of his opponent before the sentence ends.",
+   "v": true,
+   "ln": 31
+  },
+  {
+   "t": "Puduit modo magna locutum\ncedere:",
+   "l": "It shamed me, having just talked big, to give way:",
+   "i": "Having just talked so big, I was ashamed to back down:",
+   "n": "Pudet is impersonal — “it causes shame” — and the person ashamed goes in the accusative, here left unexpressed but recoverable from locutum, an accusative participle agreeing with the missing me. Loquor is deponent, passive in form and active in meaning, so locutum is “having spoken”, and magna loqui is the fixed idiom for talking big.",
+   "v": true,
+   "ln": 31
+  },
+  {
+   "t": "reieci viridem de corpore vestem",
+   "l": "I threw back the green garment from my body",
+   "i": "I flung the green robe back off my body",
+   "n": "The river-god’s clothing is green because the colour is his own substance: he is the water he wears. Reicio is to throw a thing back over the shoulder, the ordinary gesture for stripping to wrestle. De corpore is planted between viridem and vestem, the standing verse habit of framing a phrase around the words that depend on it.",
+   "v": true,
+   "ln": 32
+  },
+  {
+   "t": "bracchiaque opposui tenuique a pectore varas\nin statione manus et pugnae membra paravi.",
+   "l": "and I set my arms against him, and held my hands, splayed outward, away from my chest at their post, and made my limbs ready for the fight.",
+   "i": "I put my arms up, held my hands out from my chest, turned outward and on guard, and set my whole body for the fight.",
+   "n": "This is the wrestler’s stance described in technical words: varas is “bent outward”, and in statione is the soldier’s word for a sentry post, transferred to the hands. Pugnae is a dative of purpose with paravi, “made ready for the fight”. Three perfect verbs come in the order the movements come; the first and the last take their objects in front of them (bracchia … opposui, membra paravi), while tenui holds manus back to the next line.",
+   "v": true,
+   "ln": 33
+  },
+  {
+   "t": "Ille cavis hausto spargit me pulvere palmis\ninque vicem fulvae tactu flavescit harenae.",
+   "l": "He, with dust scooped up in his hollowed palms, sprinkles me with it, and in his turn goes yellow at the touch of the tawny sand.",
+   "i": "He scoops up dust in his cupped palms and showers me with it, and in his turn goes yellow at the touch of the tawny sand.",
+   "n": "Hausto agrees with pulvere, which is the ablative of means with spargit — “sprinkles me with dust” — and cavis palmis is a second ablative telling how the dust was taken up; the phrase has the shape of a self-contained absolute but is not one, because the dust is the instrument of the main verb. Flavesco is an inchoative verb in -sco: not “is yellow” but “begins to turn yellow”. Wrestlers oiled themselves and then dusted, so the sand takes and holds.",
+   "v": true,
+   "ln": 35
+  },
+  {
+   "t": "Et modo cervicem, modo crura micantia captat,\naut captare putes,",
+   "l": "And now he makes for my neck, now for my flashing legs, or you would think he was making for them,",
+   "i": "Now he grabs for my neck, now for my flickering legs — or you would think he was grabbing,",
+   "n": "Modo … modo is the standing pair for alternation, “now … now”. Capto is the frequentative of capio and does not mean “seizes” but “keeps making a grab at”, which is why the next clause can take it back. Putes is a potential subjunctive with an indefinite “you”, and it turns the whole line into a feint: the grabs were not real. Magnus prints crura micantia, “flashing legs”; some editions read modo ilia, “now at my flanks”.",
+   "v": true,
+   "ln": 37
+  },
+  {
+   "t": "omnique a parte lacessit.",
+   "l": "and from every side he provokes me.",
+   "i": "and he harries me from every quarter.",
+   "n": "Lacesso is the verb for provoking and harassing an enemy rather than closing with him, so it belongs with the feints of the line before, not with a hold. The preposition a stands between the adjective omni and its noun parte, a displacement verse allows freely.",
+   "v": true,
+   "ln": 38
+  },
+  {
+   "t": "Me mea defendit gravitas frustraque petebar,",
+   "l": "My own heaviness defended me, and I was attacked to no purpose,",
+   "i": "My own weight was my defence, and the attacks on me came to nothing,",
+   "n": "Gravitas is weight and dignity at once, and both are meant of a river-god who is telling this story about himself. Petebar is imperfect passive, the tense of an attempt made over and over. The line closes itself: Me mea at the head, the enemy’s effort at the tail, and the defence in between.",
+   "v": true,
+   "ln": 39
+  },
+  {
+   "t": "haud secus ac moles, quam magno murmure fluctus\noppugnant:",
+   "l": "not otherwise than a mass of stone, which the waves assault with a great roar:",
+   "i": "just as with a breakwater that the waves assault with a great roar:",
+   "n": "Haud secus ac, “not otherwise than”, is the formula that opens a simile, and the double negative is simply the idiom; English says “just as”. Moles is a mass of masonry, a mole or breakwater, not a shapeless heap. Quam is the object of oppugnant. The comparison is chosen against the speaker: the water-god is likened to the thing built to stand against water.",
+   "v": true,
+   "ln": 40
+  },
+  {
+   "t": "manet illa suoque est pondere tuta.",
+   "l": "it stays, and is safe by its own weight.",
+   "i": "it stands where it is, kept safe by its own weight.",
+   "n": "Illa points back to moles. Pondere is an ablative of cause with the adjective tuta — the weight is what makes it safe — and it restates in one word the gravitas of 39, now transferred from the man to the stone.",
+   "v": true,
+   "ln": 41
+  },
+  {
+   "t": "Digredimur paulum rursusque ad bella coimus,\ninque gradu stetimus, certi non cedere;",
+   "l": "We part a little, and come together again for the fighting, and we stood in our stance, resolved not to give way;",
+   "i": "We drew apart a little, then closed for the fight again, and stood our ground, each set on not giving way;",
+   "n": "Digredimur and coimus are historic presents and then stetimus swings back into the perfect inside the same sentence: the alternation of tenses is Ovid’s ordinary way of quickening and slowing a narrative, and it runs through the whole wrestling scene. Digredior is deponent, passive in form and active in meaning. Certi non cedere is an adjective taking a plain infinitive, a poetic construction where prose would use a genitive gerund or a clause; in gradu is the fighter’s word for a stance.",
+   "v": true,
+   "ln": 42
+  },
+  {
+   "t": "eratque\ncum pede pes iunctus, totoque ego pectore pronus\net digitos digitis et frontem fronte premebam.",
+   "l": "and foot was joined with foot, and I, leaning forward with my whole chest, was pressing fingers with fingers and forehead with forehead.",
+   "i": "and foot was locked against foot, and I, thrown forward with all my chest, kept pressing finger against finger and forehead against forehead.",
+   "n": "The words do what the bodies do: cum pede pes, digitos digitis, frontem fronte each set the same noun beside itself in two different cases, so the locking is audible before it is described. Pronus is a predicative adjective agreeing with ego, which English has to unfold into a clause, “as I leaned forward”. Premebam is imperfect: the pressure does not stop.",
+   "v": true,
+   "ln": 43
+  },
+  {
+   "t": "Non aliter vidi fortes concurrere tauros,\ncum pretium pugnae toto nitidissima saltu\nexpetitur coniunx:",
+   "l": "Not otherwise have I seen strong bulls run at each other, when the sleekest mate in the whole woodland pasture is sought as the prize of the fight:",
+   "i": "Just so I have seen strong bulls charge one another, when the sleekest cow in the whole pasture is the prize sought in the fight:",
+   "n": "Non aliter is the same understatement as haud secus at 40, and this is the second simile within seven lines. Saltus is a wooded upland pasture, not a leap — a false friend worth fixing here. Coniunx is used of an animal, “mate”, and nitidissima is the superlative of the shine of a well-fed hide; pretium pugnae stands in apposition, “as the prize of the fight”.",
+   "v": true,
+   "ln": 46
+  },
+  {
+   "t": "spectant armenta paventque\nnescia, quem maneat tanti victoria regni.",
+   "l": "the herds look on and are afraid, not knowing whom the victory of so great a kingdom awaits.",
+   "i": "the herd looks on and trembles, not knowing which of the two the mastery of so great a kingdom will fall to.",
+   "n": "Armenta is a neuter plural with plural verbs, and nescia is the neuter plural adjective agreeing with it. Quem maneat is an indirect question with the subjunctive, and maneo is transitive here: “to await someone”. Giving the cattle a regnum quietly points the simile back at the wrestlers, one of whom called himself a king at 17.",
+   "v": true,
+   "ln": 48
+  },
+  {
+   "t": "Ter sine profectu voluit nitentia contra\nreicere Alcides a se mea pectora;",
+   "l": "Three times without gain Alcides wanted to force my chest, straining against him, back from himself;",
+   "i": "Three times, and with nothing gained, Alcides tried to force my chest, straining against him, away from him;",
+   "n": "Volo with an infinitive is often “tried to” rather than “wished to”, and sine profectu — “without progress” — settles it here. Nitentia is a present participle agreeing with the neuter plural pectora; contra is an adverb, “against him”, not a preposition with an object. The word order buries reicere Alcides a se inside the phrase nitentia … mea pectora, so the grip is described by the syntax as much as by the words.",
+   "v": true,
+   "ln": 50
+  },
+  {
+   "t": "quarto\nexcutit amplexus adductaque bracchia solvit,",
+   "l": "at the fourth he shakes off my embraces and loosens my drawn-tight arms,",
+   "i": "at the fourth he shakes my hold off and breaks my locked arms apart,",
+   "n": "Quarto is an ablative of time with a word for the attempt left to be supplied, “at the fourth”; ter … quarto is the epic pattern of three failures and success at the fourth. Adducta is the participle of adduco used of a rope or a bowstring pulled taut. The tense changes here from the perfect voluit to the presents excutit and solvit — the decisive moment is the one the poem makes you watch.",
+   "v": true,
+   "ln": 51
+  },
+  {
+   "t": "inpulsumque manu (certum est mihi vera fateri)\nprotinus avertit tergoque onerosus inhaesit.",
+   "l": "and having shoved me with his hand (I am resolved to confess the truth), he turned me away on the spot and clung to my back, a weight on it.",
+   "i": "and with one shove of his hand — I am determined to tell the truth — he spun me round there and then and hung on my back, a dead weight.",
+   "n": "Inpulsum is a perfect passive participle agreeing with an unexpressed me, which is also the object of avertit — the same trick as dicentem at 27. The edition prints the unassimilated inp- for imp- here and at 56 and 71, and we keep the spelling as printed. Certum est mihi is “it is settled for me” with the dative of the person and an infinitive; the parenthesis is the narrator vouching for his own defeat, which is a bid for credit. Onerosus is another nominative adjective doing adverbial work, like ferox at 31.",
+   "v": true,
+   "ln": 53
+  },
+  {
+   "t": "Siqua fides neque ficta mihi nunc gloria voce\nquaeritur, inposito pressus mihi monte videbar.",
+   "l": "If there is any credence, and no invented glory is being sought by my voice now, I seemed to myself crushed by a mountain laid on me.",
+   "i": "If you will believe me, and I am not manufacturing glory for myself as I speak, it seemed to me a mountain had been laid on me and was crushing me.",
+   "n": "Siqua fides is elliptical, with the verb left out: “if [there is] any belief”. Inposito … monte is the ablative of means with pressus — crushed by a mountain — with the participle inposito attached to that same ablative; it has the look of a self-standing absolute phrase but the mountain is the instrument of the crushing. The one mihi does double duty — the dative inposito governs, “laid on me”, and the dative videbar wants, “I seemed to myself” — so English has to say it twice where the Latin says it once.",
+   "v": true,
+   "ln": 55
+  },
+  {
+   "t": "Vix tamen inserui sudore fluentia multo\nbracchia, vix solvi duros a corpore nexus:",
+   "l": "Barely, even so, did I work in my arms, streaming with much sweat, barely did I loosen the hard knots from my body:",
+   "i": "Even so, I barely got my arms in, running with sweat, barely worked the hard grip loose from my body:",
+   "n": "Vix … vix is anaphora, and both verbs are perfect: the struggle took time and then was over. Fluentia is a present participle agreeing with bracchia and taking sudore … multo as the ablative of what they run with. Nexus is the wrestling word for a lock or grip, and inserui is “I got in between” — the arms have to be worked into a gap that is not there.",
+   "v": true,
+   "ln": 57
+  },
+  {
+   "t": "instat anhelanti prohibetque resumere vires,",
+   "l": "He presses hard on me as I gasp, and stops me from taking my strength back,",
+   "i": "He bears down on me while I gasp for breath, and will not let me get my strength back,",
+   "n": "Anhelanti is a dative participle with no noun of its own — “on [me] panting” — insto taking the dative of the person pressed; the participle stands for the person exactly as the accusatives dicentem at 27 and inpulsum at 53 did. Prohibet with a bare infinitive is poetic, where prose prefers ne or quominus with a subjunctive.",
+   "v": true,
+   "ln": 59
+  },
+  {
+   "t": "et cervice mea potitur.",
+   "l": "and he takes possession of my neck.",
+   "i": "and he gets my neck into his hands.",
+   "n": "Potior is deponent — passive in form, active in meaning — and it takes the ablative of the thing got hold of, cervice mea, like utor and fruor. It is the verb used of taking a town or a throne, so the neck is spoken of as a possession seized.",
+   "v": true,
+   "ln": 60
+  },
+  {
+   "t": "Tum denique tellus\npressa genu nostro est, et harenas ore momordi.",
+   "l": "Then at last the earth was pressed by my knee, and I bit the sand with my mouth.",
+   "i": "Then at last the ground took the press of my knee, and I bit into the sand.",
+   "n": "Pressa … est is a passive with genu nostro as the ablative of means, so the fall is reported from the ground’s side rather than the wrestler’s. Nostro is the plural for a single speaker again, as nobis was at 7. Biting the ground is the old epic image for a man going down, and Ovid puts it at the end of the human phase of the fight.",
+   "v": true,
+   "ln": 60
+  },
+  {
+   "t": "Inferior virtute meas divertor ad artes,\nelaborque viro longum formatus in anguem.",
+   "l": "Lower in strength, I turn aside to my own arts, and slip away from the man, shaped into a long snake.",
+   "i": "The weaker in strength, I turn aside to my own arts, and slip out of the man’s grip, shaped into a long serpent.",
+   "n": "Virtute is an ablative of respect with the comparative inferior, “lower as to strength”. Divertor and elabor are both deponent, passive in form and active in meaning, and viro is an ablative of separation with elabor, “away from the man”. Formatus in anguem — a passive participle with in and the accusative — names the shape entered rather than the shape left, and in with the accusative does the same work again at 64, sinuavi … in orbes.",
+   "p": true,
+   "v": true,
+   "ln": 62
+  },
+  {
+   "t": "Qui postquam flexos sinuavi corpus in orbes\ncumque fero movi linguam stridore bisulcam,",
+   "l": "And when I, in that shape, had curved my body into bent coils and moved my forked tongue with a fierce hiss,",
+   "i": "And when, in that shape, I had wound my body into curving coils and flicked my forked tongue with a fierce hiss,",
+   "n": "Qui is a connecting relative opening the sentence — “and I, being that snake” — and because its antecedent is the speaker himself it takes first-person verbs, sinuavi and movi, which is startling the first time you meet it. Sinuo with in and the accusative repeats the shape of formatus in anguem in the line above. Bisulcam, “two-furrowed”, is the standing epithet of a snake’s tongue, and it is held back to the line’s end away from linguam.",
+   "v": true,
+   "ln": 64
+  },
+  {
+   "t": "risit et inludens nostras Tirynthius artes\n“cunarum labor est angues superare mearum,”\ndixit",
+   "l": "the Tirynthian laughed and, making a mock of my arts, said, “To overcome snakes is my cradle’s labour,”",
+   "i": "the Tirynthian laughed, and making a game of my arts he said, “Beating snakes is the work of my cradle,”",
+   "n": "Tirynthius names Hercules from Tiryns, the city he served from; the poem has already called him Alcides at 13 and 51 and addressed him as Alcmena nate at 23, and naming one man several ways is normal epic practice. Superare is the subject of est, an infinitive standing as a noun. Labor is the technical word for one of his Labours, and the joke is that strangling snakes does not even count as one: Juno sent two of them into his cradle and he killed them there.",
+   "v": true,
+   "ln": 66
+  },
+  {
+   "t": "“et ut vincas alios, Acheloe, dracones,\npars quota Lernaeae serpens eris unus echidnae?",
+   "l": "“and granted that you beat other serpents, Achelous, what fraction of the Lernaean viper will you be, one snake by yourself?",
+   "i": "“and suppose you do beat other serpents, Achelous — what fraction of the viper of Lerna will you make, a single snake?",
+   "n": "Ut vincas is concessive with the subjunctive, “granted that you conquer”. Pars quota is an idiom of contempt — literally “the how-manyeth part?” — asking what small fraction of a thing something amounts to. Echidna is the Greek word for a viper and here names the Hydra of Lerna; Acheloe is a Greek vocative ending, kept in Latin as Greek names regularly keep theirs. Unus is predicative and emphatic: one snake, against what the next lines describe.",
+   "v": true,
+   "ln": 68
+  },
+  {
+   "t": "Vulneribus fecunda suis erat illa,",
+   "l": "She was fertile by her own wounds,",
+   "i": "Her own wounds were what made her fruitful,",
+   "n": "Fecunda takes the ablative of the thing a person or creature is rich in, here vulneribus suis. Illa picks up the echidna of the line before. The whole paradox of the Hydra is in the one phrase: what would kill another body is what makes hers breed.",
+   "v": true,
+   "ln": 70
+  },
+  {
+   "t": "nec ullum\nde centum numero caput est inpune recisum,\nquin gemino cervix herede valentior esset.",
+   "l": "and not one head out of the count of a hundred was cut off without cost, but that the neck was the stronger by a twin heir.",
+   "i": "and no head of all the hundred was ever struck off without cost: the neck came back the stronger for a pair of heirs.",
+   "n": "Quin with the subjunctive after a negative is the standing idiom for a consequence that never once failed to follow: “it never happened without …”. Inpune is “without paying for it”, and the edition prints inp- for imp- here as at 53 and 56. Herede, “heir”, is the wit of the passage — each severed head leaves successors — and gemino … herede is the ablative of the measure by which the neck is valentior.",
+   "v": true,
+   "ln": 70
+  },
+  {
+   "t": "Hanc ego ramosam natis e caede colubris\ncrescentemque malo domui domitamque reclusi.",
+   "l": "Her, branching with snakes born of her own butchery and growing by the harm done her, I mastered, and once mastered I laid her open.",
+   "i": "Her — branching with snakes born out of her own butchery, growing by the very damage done her — I mastered, and once she was mastered I laid her open.",
+   "n": "Natis e caede colubris is the ablative that goes with ramosam, “branching with snakes”, and natis agrees with colubris; the phrase looks self-contained but depends on the adjective, so it is not standing free. Malo is an ablative of means with crescentem, the second paradox in two lines. Domui … domitam sets a verb beside its own participle, a figure Latin likes for a thing done thoroughly, and reclusi is the verb for laying a body open with a blade — the sense here is disputed, but the plain meaning of recludo — to unclose, to open up — carries it.",
+   "v": true,
+   "ln": 73
+  },
+  {
+   "t": "Quid fore te credas, falsum qui versus in anguem\narma aliena moves, quem forma precaria celat?”",
+   "l": "What do you suppose will become of you, who, turned into a counterfeit snake, wield weapons not your own, and whom a shape held on sufferance hides?”",
+   "i": "What do you suppose will become of you, then — twisted into a counterfeit snake, handling weapons that are not yours, hidden by a shape you hold only on loan?”",
+   "n": "Fore is the future infinitive of sum, the short form of futurum esse, in indirect statement after credas: “that you will be”. Credas is a potential subjunctive, “would you think”; some editions print the indicative credis, “do you think”. Versus is the perfect participle of verto, not the noun. Precarius is a word from law: held only at another’s pleasure and revocable at will, which is exactly what a borrowed shape is.",
+   "v": true,
+   "ln": 75
+  },
+  {
+   "t": "Dixerat, et summo digitorum vincula collo\ninicit:",
+   "l": "He had spoken, and he throws the fetters of his fingers on the top of my neck:",
+   "i": "He had finished, and he claps the shackle of his fingers on the top of my neck:",
+   "n": "Dixerat is the pluperfect used as an epic formula to close a speech, and the present inicit leaps straight out of it. Inicio takes the dative of what a thing is thrown onto, summo … collo; summus with a noun means the top part of the thing, so this is the top of the neck and not a superlative. Vincula digitorum calls the fingers chains, which is the first sign that the wrestling has turned into a throttling.",
+   "p": true,
+   "v": true,
+   "ln": 77
+  },
+  {
+   "t": "angebar ceu guttura forcipe pressus,",
+   "l": "I was being throttled, as though crushed as to my throat with a pair of tongs,",
+   "i": "I was being strangled, as if my throat were crushed in a pair of tongs,",
+   "n": "Guttura is a Greek accusative of respect after the passive participle pressus — “squeezed as to the throat” — the same construction as redimitus … crines at 3, and it will come again at 81. Ceu is the poetic “as if”, and the verb of its clause is left out. Angebar is imperfect: the throttling goes on for as long as the sentence does.",
+   "v": true,
+   "ln": 78
+  },
+  {
+   "t": "pollicibusque meas pugnabam evellere fauces.",
+   "l": "and with my thumbs I was fighting to tear my own gullet free.",
+   "i": "and I was fighting with my thumbs to wrench my own throat loose.",
+   "n": "Pugno with a bare infinitive, “fight to do”, is poetic; prose would use ut and a subjunctive. Pollicibus is most plainly the ablative of the instrument: his own thumbs, worked in under the grip. It can be read instead as an ablative of separation with evellere, the throat torn away from his opponent’s thumbs; both layers here take the first. Fauces is a plural noun for the gullet, and meas insists that what he is having to wrench loose is part of himself.",
+   "v": true,
+   "ln": 79
+  },
+  {
+   "t": "Sic quoque devicto restabat tertia tauri\nforma trucis:",
+   "l": "Beaten in this way too, I still had a third form left, that of a savage bull:",
+   "i": "Beaten in that shape as well, I still had a third form left me, the shape of a savage bull:",
+   "n": "Devicto is a dative participle with no noun expressed, “for me, thus utterly beaten”, and resto takes the dative of the person to whom a thing is left — the same bare-participle trick as anhelanti at 59. Quoque here is the plain adverb “also”, not the que attached to a form of qui, which is the trap this word sets. Tauri … trucis is a genitive split around forma.",
+   "v": true,
+   "ln": 80
+  },
+  {
+   "t": "tauro mutatus membra rebello.",
+   "l": "changed as to my limbs for a bull’s, I take up the war again.",
+   "i": "with my limbs changed into a bull’s, I renew the fight.",
+   "n": "Membra is a Greek accusative of respect after the passive participle mutatus, as guttura was at 78: “changed as to my limbs”. Tauro is the ablative that muto takes for the thing given in exchange, so the phrase is strictly “exchanged for a bull”. Rebello is “I make war again” — the prefix does the work of a whole clause.",
+   "v": true,
+   "ln": 81
+  },
+  {
+   "t": "Induit ille toris a laeva parte lacertos,",
+   "l": "He slips his arms over my neck-muscles from the left side,",
+   "i": "From my left he slides his arms over the great muscles of my neck,",
+   "n": "Induo is the verb for putting on a garment, with the accusative of the thing put on and the dative of what it is drawn over: here the arms are the sleeve and toris, the bull’s neck-muscles, are the arm. A laeva parte is tactical — he takes the bull from the side, away from the horns. Ille marks the change of subject from the first-person rebello of the line before.",
+   "v": true,
+   "ln": 82
+  },
+  {
+   "t": "admissumque trahens sequitur depressaque dura\ncornua figit humo",
+   "l": "and, dragging me as I charged at full career, he goes with me, and drives my forced-down horns into the hard ground,",
+   "i": "and as I break into a charge he goes with me, hauling, and drives my horns down into the hard ground,",
+   "n": "Admissum is the participle used of a horse given its head at full gallop, and it agrees with an unexpressed me — a participle standing alone for the object again, as at 27 and 53. Trahens … sequitur is the whole of the technique: he does not meet the charge but goes with it and drags. Dura … humo is an ablative of place with no preposition, normal in verse, and figo is the verb for driving in a stake.",
+   "v": true,
+   "ln": 83
+  },
+  {
+   "t": "meque alta sternit harena.",
+   "l": "and lays me out in the deep sand.",
+   "i": "and stretches me out flat in the deep sand.",
+   "n": "Sterno is the verb for laying a body flat, and it is the ordinary word for a wrestler’s throw and for a killing alike. Alta … harena is another ablative of place without a preposition. The chain of -que endings across 83 and 84 — admissumque, depressaque, meque — puts three actions into one breath, which is the pace of the throw itself.",
+   "v": true,
+   "ln": 84
+  },
+  {
+   "t": "Nec satis hoc fuerat:",
+   "l": "Nor had this been enough:",
+   "i": "And even that was not enough:",
+   "n": "Fuerat is pluperfect where English says “was”: Latin looks back at this moment from the one that follows, so the tense itself says that something worse is coming. Satis is an indeclinable adverb used here as a predicate with hoc.",
+   "v": true,
+   "ln": 85
+  },
+  {
+   "t": "rigidum fera dextera cornu\ndum tenet, infregit truncaque a fronte revellit.",
+   "l": "while his savage right hand holds my stiff horn, it broke it and tore it away from my mutilated brow.",
+   "i": "while his brutal right hand had hold of my stiff horn, it snapped it off and wrenched it from my maimed forehead.",
+   "n": "Dum with the present indicative inside a past narrative is standard Latin, and English has to put the verb into the past: “while he was holding”. The conjunction is postponed to fifth place in its own clause, which verse allows and prose does not. Fera is the adjective of a wild beast applied to a man’s hand — the speaker’s word for his opponent, at the moment of the mutilation. Trunca … a fronte answers truncae … frontis at 1–2: the broken brow Theseus asked about at the start is explained here.",
+   "v": true,
+   "ln": 85
+  },
+  {
+   "t": "Naides hoc, pomis et odoro flore repletum,\nsacrarunt, divesque meo Bona Copia cornu est.”",
+   "l": "The Naiads made this holy, filled full with fruits and fragrant blossom, and Good Plenty is rich by my horn.”",
+   "i": "The Naiads made it holy, heaped with fruit and sweet-smelling blossom, and Good Plenty is rich by my horn.”",
+   "n": "Sacrarunt is the syncopated perfect for sacraverunt, a contraction verse makes freely in the third-plural. Repletum takes the ablative of what a thing is filled with, pomis et odoro flore. Bona Copia is Plenty personified as a goddess, and meo … cornu is the ablative with dives of the thing one is rich in. The last word Achelous speaks of himself is his own loss turned into somebody else’s wealth — the horn of the defeated river is the horn of plenty.",
+   "v": true,
+   "ln": 87
+  },
+  {
+   "t": "Dixerat, et nymphe ritu succincta Dianae,\nuna ministrarum, fusis utrimque capillis,",
+   "l": "He had spoken, and a nymph, girt up in Diana’s fashion, one of the attendants, with her hair poured loose on either side,",
+   "i": "He had finished, and a nymph, her dress caught up in Diana’s fashion, one of the attendants, with her hair poured loose on either side,",
+   "n": "Dixerat closes this speech exactly as it closed Hercules’s at 77, so one word ends the taunt inside the story and then the story itself. Nymphe is the Greek nominative singular kept as Greek, beside the Latin form nympha. Succincta is a participle used of clothing gathered up at the waist, and ritu Dianae, “after Diana’s manner”, means hitched for running. Fusis utrimque capillis is an ablative absolute, a self-contained phrase with no grammatical link to the sentence, where English wants a clause or a “with”.",
+   "p": true,
+   "v": true,
+   "ln": 89
+  },
+  {
+   "t": "incessit totumque tulit praedivite cornu\nautumnum et mensas, felicia poma, secundas.",
+   "l": "came in and carried, in that exceedingly rich horn, the whole of autumn and second tables, fruits of a fruitful year.",
+   "i": "came in, and in that overflowing horn she carried the whole of autumn — the dessert course, the good fruit of the season.",
+   "n": "Totum … autumnum is split around the whole of a line and lands as the first word of the next, so the horn is said to hold a season and not a basket. Mensae secundae, “second tables”, is the Roman name for the dessert course, and felicia poma stands in apposition to it: felix of a tree means fruit-bearing, and of the fruit the fertility it comes of, not “happy”. Praedivite carries an intensifying prae-, “exceedingly rich”, picking up dives from the line the speech ended on at 88.",
+   "v": true,
+   "ln": 91
+  },
+  {
+   "t": "Lux subit, et primo feriente cacumina sole\ndiscedunt iuvenes:",
+   "l": "Daylight comes up, and, with the first sun striking the hilltops, the young men leave:",
+   "i": "Day comes on, and with the first sunlight striking the peaks the young men take their leave:",
+   "n": "Primo feriente cacumina sole is an ablative absolute built on a present participle and keeping its own object, cacumina — “with the sun striking the summits” — where English wants a clause. Subit is “comes up from below”, the light climbing out of the ground. The iuvenes are the guests who have been listening, and Lux subit is how the poem tells us the story has taken the night.",
+   "v": true,
+   "ln": 93
+  },
+  {
+   "t": "neque enim dum flumina pacem\net placidos habeant lapsus totaeque residant,\nopperiuntur, aquae.",
+   "l": "for they do not wait until the streams should have peace and quiet gliding, and the waters should all settle back.",
+   "i": "for they do not wait for the streams to come to peace and a quiet flow, and for the waters to fall wholly back.",
+   "n": "Dum with the subjunctive means “until”, with the sense of waiting for a thing to happen, and that is what separates it from the dum with the indicative at 86. Opperior is deponent, passive in form and active in meaning. Aquae is held back past its own verb and past the main verb to be the last word of the sentence, so what the sentence closes on is the flood the guests will not wait out.",
+   "v": true,
+   "ln": 94
+  },
+  {
+   "t": "Vultus Achelous agrestes\net lacerum cornu mediis caput abdidit undis.",
+   "l": "Achelous hid his country face, and his head, torn as to its horn, in the middle of the water.",
+   "i": "Achelous hid his rough countryman’s face, and his head, maimed of its horn, in the middle of the water.",
+   "n": "Cornu is an ablative of respect with lacerum, “mangled as to the horn”. Medius agreeing with a noun means the middle of that thing, so mediis undis is “the middle of the waves”, not “the middle waves”. Agrestes is the word for what belongs to the fields, and it makes the river-god a countryman at the moment he goes under; the last thing said of him is the wound, lacerum, and the horn that is no longer his.",
+   "v": true,
+   "ln": 96
+  }
+ ],
+ "glossaryFile": "metamorphoses-glossary.json"
+}

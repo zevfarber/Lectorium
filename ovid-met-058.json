@@ -1,0 +1,528 @@
+{
+ "id": "ovid-met-058",
+ "sourceId": "ovid-met-058",
+ "title": "Aper Calydonius. Meleager",
+ "titleEn": "The Calydonian Boar — Metamorphoses VIII.260–402",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 fb3fdb1d8a4a3b82. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
+ "about": "Diana, left out when Oeneus of Calydon made his harvest offerings to every other god, sends a monstrous boar against his fields. Calydon appeals to Theseus, and Meleager gathers a picked band of heroes, set out in a long catalogue of names; among them is a huntress from Tegea whom these lines never call by name, and whom Meleager falls in love with on sight. The hunt goes badly: spears miss, a hamstrung man goes down, Nestor takes to a tree, and the huntress draws the first blood, which shames the men into throwing wildly. These lines end with Ancaeus, who boasted that a man's weapons beat a woman's, killed by the boar in mid-stroke.",
+ "sentences": [
+  {
+   "t": "Iamque fatigatum tellus Aetnaea tenebat\nDaedalon, et sumptis pro supplice Cocalus armis\nmitis habebatur,",
+   "l": "And already the Aetnaean land was holding Daedalus, worn out, and Cocalus, arms having been taken up on behalf of a suppliant, was accounted merciful,",
+   "i": "By now the land of Aetna held a weary Daedalus, and Cocalus, who had taken up arms on behalf of a suppliant, was reckoned a merciful man,",
+   "n": "Daedalon keeps its Greek accusative ending -on instead of Latin -um; Greek names do this all through these lines (Meleagron 270, Hippalmon and Pelagona 360). sumptis ... armis is an ablative absolute, a self-contained “with X done” phrase that English usually turns into a clause — it will recur constantly here. tellus Aetnaea is Sicily, named from its mountain.",
+   "p": true,
+   "v": true,
+   "ln": 260
+  },
+  {
+   "t": "iam lamentabile Athenae\npendere desierant Thesea laude tributum.",
+   "l": "already Athens had ceased to pay, by Theseus' renown, the tribute that was to be wept for.",
+   "i": "and Athens, thanks to Theseus, had already stopped paying the tribute it had wept over.",
+   "n": "Thesea is the adjective Theseus, -a, -um agreeing with laude, not the name in an oblique case: “by Thesean glory”, that is, through what Theseus did. The lamentabile tributum is the tribute of young Athenians shipped to Crete, and the adjective does the mourning for it. Athenae is plural in form, as Latin city-names often are.",
+   "v": true,
+   "ln": 262
+  },
+  {
+   "t": "Templa coronantur, bellatricemque Minervam\ncum Iove disque vocant aliis, quos sanguine voto\nmuneribusque datis et acerris turis honorant.",
+   "l": "The temples are wreathed, and they summon warlike Minerva along with Jupiter and the other gods, whom they honour with vowed blood and with gifts given and with caskets of incense.",
+   "i": "The temples are garlanded; they call on Minerva the warrior together with Jupiter and the rest, and honour them with the blood they had vowed, with gifts, and with caskets of incense.",
+   "n": "bellatrix is a noun, “woman warrior”, pressed into service as an adjective for Minerva. sanguine voto is the blood of victims promised in a vow, now that the danger is past and the vow falls due. An acerra is the box incense was kept in; the three ablatives all answer “with what”.",
+   "v": true,
+   "ln": 264
+  },
+  {
+   "t": "Sparserat Argolicas nomen vaga fama per urbes\nTheseos, et populi, quos dives Achaia cepit,\nhuius opem magnis imploravere periclis.",
+   "l": "Wandering rumour had scattered the name of Theseus through the Argolic cities, and the peoples whom rich Achaia holds implored his help in great perils.",
+   "i": "Rumour, always on the move, had spread Theseus' name through the cities of Argos, and the peoples rich Achaia holds within her begged his help in their great dangers.",
+   "n": "Theseos is the Greek genitive of the name, held back to the start of the next line and away from nomen — verse regularly parts a noun from what depends on it. imploravere is imploraverunt: -ere for -erunt is the poetic third-plural perfect, and it is everywhere in this part (coiere 300, venere 331, rapuere 361, erubuere 388). periclis is periculis, syncopated for the metre.",
+   "p": true,
+   "v": true,
+   "ln": 267
+  },
+  {
+   "t": "Huius opem Calydon, quamvis Meleagron haberet,\nsollicita supplex petiit prece.",
+   "l": "His help Calydon, although it had Meleager, sought as a suppliant with anxious prayer.",
+   "i": "Calydon, though it had a Meleager of its own, came as a suppliant and begged his help with an anxious prayer.",
+   "n": "huius opem opens this unit exactly as it closed the last, and the repetition is the point: Calydon too has to send away for a stranger. quamvis takes the subjunctive haberet, conceding the fact it cannot deny. Meleagron is another Greek accusative (261).",
+   "v": true,
+   "ln": 270
+  },
+  {
+   "t": "Causa petendi\nsus erat, infestae famulus vindexque Dianae.",
+   "l": "The cause of the seeking was a boar, the servant and avenger of Diana in her hostility.",
+   "i": "The reason for the appeal was a boar, servant and avenger of an angry Diana.",
+   "n": "petendi is a gerund in the genitive, “of seeking”, depending on causa. infestae Dianae belongs to both famulus and vindex; infestus is “set against, hostile”, and the next lines say what she was hostile about.",
+   "v": true,
+   "ln": 271
+  },
+  {
+   "t": "Oenea namque ferunt pleni successibus anni\nprimitias frugum Cereri, sua vina Lyaeo,\nPalladios flavae latices libasse Minervae.",
+   "l": "For they say that Oeneus offered to Ceres the first-fruits of the crops of a year full of successes, to Lyaeus its own wine, to golden-haired Minerva the liquid of Pallas.",
+   "i": "For the story goes that Oeneus, after a year full of increase, poured out to Ceres the first-fruits of the harvest, to Lyaeus the year's own wine, and to golden-haired Minerva the liquid that is Pallas's own.",
+   "n": "ferunt, “they say”, governs an accusative and infinitive: Oenea ... libasse, and libasse is libavisse, syncopated. Each god gets what is theirs — Ceres the grain, Lyaeus (a title of Bacchus, “the Loosener”) the wine, and Minerva the Palladii latices, olive oil, the olive being her tree. flavus is her standing epithet.",
+   "p": true,
+   "v": true,
+   "ln": 273
+  },
+  {
+   "t": "Coeptus ab agricolis superos pervenit ad omnes\nambitiosus honor;",
+   "l": "Begun by the farmers, the ambitious honour reached all the gods above;",
+   "i": "The honour, begun among the farmers, went round to every god above;",
+   "n": "ambitiosus still has its root sense here: from ambire, “to go round”, so an honour that canvasses everybody in turn. Latin puts a bare participle, coeptus, where English wants a relative clause.",
+   "v": true,
+   "ln": 276
+  },
+  {
+   "t": "solas sine ture relictas\npraeteritae cessasse ferunt Latoidos aras.",
+   "l": "the altars alone of the passed-over daughter of Latona, they say, stood idle, left without incense.",
+   "i": "Only the altars of Leto's daughter stood idle, they say, left with no incense: she was the one passed over.",
+   "n": "praeteritae is genitive singular agreeing with Latoidos, not with aras, which would need praeteritas: it is the goddess who is passed over, and her altars that stand idle in consequence. Latoidos is a Greek genitive, “of Leto's daughter” — Diana named by her mother, as she is again at 394 by another such title. cessasse is cessavisse, syncopated like libasse at 275. ferunt again takes an accusative and infinitive, aras ... cessasse.",
+   "v": true,
+   "ln": 277
+  },
+  {
+   "t": "Tangit et ira deos. “At non impune feremus,\nquaeque inhonoratae, non et dicemur inultae”\ninquit,",
+   "l": "Anger touches gods too. “But we shall not bear it unpunished, and we who are unhonoured shall not also be called unavenged,” she says,",
+   "i": "Gods too are touched by anger. “But we shall not take this unpunished,” she says; “dishonoured we are — we shall not be called unavenged as well.”",
+   "n": "et is the adverb “too” in both places: anger touches gods as well as men, and Diana will not be unavenged as well as unhonoured. She speaks of herself in the plural — feremus, dicemur, and the feminine plurals inhonoratae and inultae — the grand plural of an affronted deity. quaeque is quae + que, “and we who”.",
+   "v": true,
+   "ln": 279
+  },
+  {
+   "t": "et Oeneos ultorem spreta per agros\nmisit aprum, quanto maiores herbida tauros\nnon habet Epiros, sed habent Sicula arva minores.",
+   "l": "and, slighted, she sent an avenger through Oeneus' fields, a boar — than which grassy Epirus has no larger bulls, while Sicilian fields have smaller.",
+   "i": "and, slighted, she sent an avenger through Oeneus' fields: a boar beside which the bulls of grassy Epirus are no bigger, and the bulls of Sicily's fields are smaller still.",
+   "n": "quanto is an ablative of measure of difference with maiores, “greater by how much”, not an ablative of comparison — the thing compared to is the boar, left to be understood: Epirus, famous for its cattle, has none bigger, and Sicily's are smaller. Oeneos is a Greek accusative plural of the adjective Oeneus, “Oeneus' own”; some editions print Olenios, which would make the fields those of Olenus, a town, rather than of the king. spreta, “she, slighted”, is one participle carrying the whole grievance.",
+   "v": true,
+   "ln": 281
+  },
+  {
+   "t": "Sanguine et igne micant oculi, riget horrida cervix,\net sactae similes rigidis hastilibus horrent\nstantque velut vallum, velut alta hastilia saetae",
+   "l": "His eyes flash with blood and fire, his rough neck stands stiff, and bristles like stiff spear-shafts bristle up and stand like a palisade, like tall spear-shafts, the bristles.",
+   "i": "His eyes flash blood and fire; his rough neck stands rigid; his bristles rise like stiff spear-shafts and stand like a stockade, like tall spears — those bristles.",
+   "n": "The edition prints sactae here, which is not a Latin word and cannot be made into one; the sense needs saetae, “bristles”, which is exactly the word line 286 ends with, and the second witness reads setae at this point. The text is given unaltered. The two lines are also a doublet, two versions of one verse standing side by side: the second witness has no line 286 at all, so some editions print only one of the pair, and the edition prints no stop at the end of 286 either. horrida and horrent are the same root, so the neck bristles and then the bristles bristle.",
+   "v": true,
+   "ln": 284
+  },
+  {
+   "t": "fervida cum rauco latos stridore per armos\nspuma fluit, dentes aequantur dentibus Indis,\nfulmen ab ore venit, frondes adflatibus ardent.",
+   "l": "Scalding foam flows over his broad shoulders with a hoarse hissing, his tusks are matched with Indian tusks, lightning comes from his mouth, the leaves burn at his breathings.",
+   "i": "Scalding foam runs across his broad shoulders with a hoarse hiss; his tusks are a match for the tusks of India; lightning comes out of his mouth; leaves catch fire in his breath.",
+   "n": "dentes Indi are elephants' tusks: ivory came from India, so the comparison reaches for the largest tusks a Roman could name. cum ... stridore is an ablative of manner doing an adverb's work; cum keeps its place because the noun carries an adjective, rauco. adflatibus, “by his breathings”, keeps the edition's adf- spelling. The four clauses are set end to end with no connectives, which is what gives the description its speed.",
+   "v": true,
+   "ln": 287
+  },
+  {
+   "t": "Is modo crescentes segetes proculcat in herba,\nnunc matura metit fleturi vota coloni\net Cererem in spicis intercipit.",
+   "l": "He at one moment tramples the growing crops in the blade, now mows down the ripe prayers of a farmer who will weep for them, and cuts off Ceres in the ear.",
+   "i": "Now he tramples the corn still growing in the blade, now he mows down the ripened prayers of a farmer who will weep for them, and cuts the grain off in the ear.",
+   "n": "modo ... nunc is “at one time ... at another”. vota, the prayers, stand for the crop that was prayed for; fleturi is a future participle, so the farmer is “about to weep” and the poem tells you so before he does. Cererem is the goddess's name put for her gift, standing grain.",
+   "v": true,
+   "ln": 290
+  },
+  {
+   "t": "Area frustra\net frustra exspectant promissas horrea messes.",
+   "l": "In vain the threshing-floor and in vain the granaries wait for the harvests promised them.",
+   "i": "The threshing-floor waits in vain, and in vain the barns wait for the harvest they were promised.",
+   "n": "The repeated frustra straddles the line-break and lands hard at the start of 293. An area is the beaten floor where grain was threshed, horrea the store-buildings; the two subjects share one plural verb, exspectant.",
+   "v": true,
+   "ln": 292
+  },
+  {
+   "t": "Sternuntur gravidi longo cum palmite fetus\nbacaque cum ramis semper frondentis olivae.",
+   "l": "The heavy clusters are laid low along with the long vine-shoot, and the berry along with the branches of the ever-leafing olive.",
+   "i": "The heavy grape-clusters go down, long vine-shoot and all, and the berry with the boughs of the olive that is never bare.",
+   "n": "fetus is what a plant bears, here the grapes; a palmes is the shoot that carries them. cum with the ablative twice over: the fruit does not fall alone but with the wood it grew on. semper frondentis olivae is the Latin way of saying evergreen.",
+   "v": true,
+   "ln": 294
+  },
+  {
+   "t": "Saevit et in pecudes: non has pastorve canisve,\nnon armenta truces possunt defendere tauri.",
+   "l": "He rages against the flocks too: neither shepherd nor dog can defend these, nor can the fierce bulls defend the herds.",
+   "i": "He turns his fury on the livestock as well: no shepherd, no dog can protect the sheep, and the fierce bulls cannot protect the cattle.",
+   "n": "et is the adverb “too” again (279). The enclitic -ve ... -ve is “either ... or”. pecudes are the small stock and armenta the cattle, and the line pairs each kind with the protection that fails it.",
+   "v": true,
+   "ln": 296
+  },
+  {
+   "t": "Diffugiunt populi nec se nisi moenibus urbis\nesse putant tutos, donec Meleagros et una\nlecta manus iuvenum coiere cupidine laudis:",
+   "l": "The peoples scatter in flight and do not think themselves safe except within the walls of the city, until Meleager and, together with him, a picked band of young men came together out of desire for glory:",
+   "i": "The country people scatter, and think themselves safe nowhere but inside the city walls — until Meleager, and with him a picked band of young men, came together in their hunger for glory:",
+   "n": "una is the adverb “together”, not the numeral. coiere is coierunt (269). cupidine laudis is an ablative of cause: what brings them out is not the danger but the credit. donec here takes the indicative, stating a plain fact of sequence.",
+   "p": true,
+   "v": true,
+   "ln": 298
+  },
+  {
+   "t": "Tyndaridae gemini, spectatus caestibus alter,\nalter equo, primaeque ratis molitor Iason,\net cum Pirithoo, felix concordia, Theseus;",
+   "l": "the twin sons of Tyndareus, the one distinguished with the boxing-gloves, the other with the horse; and Jason, contriver of the first ship; and, with Pirithous — a fortunate concord — Theseus;",
+   "i": "the twin sons of Tyndareus, one of them famed for the boxing-glove, the other for horsemanship; Jason, who contrived the first ship; and Theseus, with Pirithous — a fortunate friendship;",
+   "n": "The catalogue of heroes runs from here to 317: naming the men who came is epic's way of showing what an undertaking is worth. Tyndaridae is a patronymic, “sons of Tyndareus”, the twins whom 372 calls not yet stars of heaven. A caestus is the weighted thong a boxer bound round his hands. felix concordia is thrown in as an apposition to the whole pairing, the poem's own aside.",
+   "v": true,
+   "ln": 301
+  },
+  {
+   "t": "et duo Thestiadae prolesque Aphareia, Lynceus\net velox Idas, et iam non femina Caeneus\nLeucippusque ferox iaculoque insignis Acastus",
+   "l": "and the two sons of Thestius, and the offspring of Aphareus, Lynceus and swift Idas; and Caeneus, now no longer a woman; and fierce Leucippus, and Acastus distinguished with the javelin;",
+   "i": "and the two sons of Thestius; and Aphareus' offspring, Lynceus and swift Idas; Caeneus, a woman no longer; fierce Leucippus; Acastus, famous with the javelin;",
+   "n": "Thestiadae and proles Aphareia both name men by their father, the ordinary courtesy of a catalogue. iam non femina Caeneus puts a whole story into three words: Caeneus was born a girl and was changed into a man. The -que piled on -que down the list is what makes a catalogue sound like a crowd.",
+   "v": true,
+   "ln": 304
+  },
+  {
+   "t": "Hippothousque Dryasque et cretus Amyntore Phoenix,\nActoridaeque pares et missus ab Elide Phyleus.",
+   "l": "and Hippothous and Dryas, and Phoenix sprung from Amyntor, and the well-matched sons of Actor, and Phyleus sent from Elis.",
+   "i": "and Hippothous and Dryas; Phoenix, sprung from Amyntor; the two well-matched sons of Actor; and Phyleus, sent from Elis.",
+   "n": "cretus takes a bare ablative of origin, “sprung from Amyntor”; the same construction returns at 363 as Hippocoonte satus. pares, “matched”, makes the two sons of Actor a single item in the list rather than two. Elis lies in the western Peloponnese.",
+   "v": true,
+   "ln": 307
+  },
+  {
+   "t": "Nec Telamon aberat magnique creator Achillis\ncumque Pheretiade et Hyanteo Iolao\nimpiger Eurytion, et cursu invictus Echion,",
+   "l": "Nor was Telamon absent, nor the begetter of great Achilles; and, along with the son of Pheres and Hyantean Iolaus, tireless Eurytion, and Echion unbeaten in running,",
+   "i": "Telamon was not missing either, nor the father of great Achilles; and with the son of Pheres and Iolaus of Boeotia came tireless Eurytion, and Echion, unbeaten in the foot-race,",
+   "n": "nec ... aberat is litotes, a denial standing in for a strong positive. magni creator Achillis names Peleus by his son rather than by himself; his own name comes at 380. Pheretiades is Admetus, son of Pheres, and Hyanteus means Boeotian, from the Hyantes, an old people of that country.",
+   "v": true,
+   "ln": 309
+  },
+  {
+   "t": "Naryciusque Lelex Panopeusque Hyleusque feroxque\nHippasus et primis etiamnum Nestor in annis,",
+   "l": "and Lelex of Naryx and Panopeus and Hyleus and fierce Hippasus and Nestor, still in his first years,",
+   "i": "and Lelex of Naryx, and Panopeus, and Hyleus, and fierce Hippasus, and Nestor, still in his earliest years,",
+   "n": "feroxque is left hanging at the end of 312 and finds its noun, Hippasus, at the head of 313; the enjambment keeps the list moving. primis in annis is worth registering: Nestor is a young man here, and the boar very nearly kills him at 365-368.",
+   "v": true,
+   "ln": 312
+  },
+  {
+   "t": "et quos Hippocoon antiquis misit Amyclis,\nPenelopaeque socer cum Parrhasio Ancaeo,",
+   "l": "and those whom Hippocoon sent from ancient Amyclae, and the father-in-law of Penelope along with Parrhasian Ancaeus,",
+   "i": "and the men Hippocoon sent from ancient Amyclae; and Penelope's father-in-law, together with Ancaeus of Parrhasia;",
+   "n": "Amyclis is a bare ablative of place from which, without a preposition, which is normal with town names. Penelopae socer is Laertes, named again by a relation instead of by name. Parrhasius means Arcadian, and this Ancaeus is the man who dies at 399-402.",
+   "v": true,
+   "ln": 314
+  },
+  {
+   "t": "Ampycidesque sagax et adhuc a coniuge tutus\nOeclides, nemorisque decus Tegeaea Lycaei.",
+   "l": "and the shrewd son of Ampycus, and the son of Oecles, as yet safe from his wife, and the glory of the Lycaean grove, the girl of Tegea.",
+   "i": "and the shrewd son of Ampycus; and the son of Oecles, safe from his wife for the present; and the pride of the Lycaean woodland, the girl from Tegea.",
+   "n": "Ampycides is the seer Mopsus, who prays at 350. Oeclides is Amphiaraus, and adhuc a coniuge tutus is a grim aside: his wife would be bribed to send him to his death, and adhuc, “as yet”, does all the work. The girl of Tegea is Atalanta, whom these lines never name; Lycaeus is a mountain in Arcadia, so both phrases place her by her country.",
+   "v": true,
+   "ln": 316
+  },
+  {
+   "t": "Rasilis huic summam mordebat fibula vestem,\ncrinis erat simplex, nodum conlectus in unum.",
+   "l": "A smooth brooch was biting the top of her dress for her, her hair was plain, gathered into a single knot.",
+   "i": "A polished brooch caught the top edge of her dress; her hair was unadorned, gathered into one knot.",
+   "n": "huic is a dative of the person concerned, which English turns into a possessive, “her dress”. summam vestem is “the top of the dress”: the adjective names a part rather than a quality, the same idiom as summum corpus at 382. conlectus keeps the edition's conl- spelling.",
+   "v": true,
+   "ln": 318
+  },
+  {
+   "t": "Ex umero pendens resonabat eburnea laevo\ntelorum custos, arcum quoque laeva tenebat.",
+   "l": "Hanging from her left shoulder, the ivory keeper of her weapons rang, and her left hand held a bow as well.",
+   "i": "The ivory keeper of her arrows hung from her left shoulder and rattled, and her left hand held a bow too.",
+   "n": "telorum custos is a riddling way of saying quiver, and eburnea, “ivory”, is feminine to agree with custos. quoque here is the adverb “also” — but it is worth watching, because the same letters can be quo + que, “and by which”, and only the sentence tells them apart. laevo ... laeva: shoulder and hand, both on the left, which leaves the right free.",
+   "v": true,
+   "ln": 320
+  },
+  {
+   "t": "Talis erat cultu; facies, quam dicere vere\nvirgineam in puero, puerilem in virgine possis.",
+   "l": "Such she was in her turnout; a face which you could truly call girlish in a boy, boyish in a girl.",
+   "i": "Such was her turnout; and a face you could honestly call a girl's in a boy, or a boy's in a girl.",
+   "n": "cultu is an ablative of respect, “in respect of dress”. possis is a potential subjunctive with an indefinite “you”, which puts the reader where the onlookers are. The line is built as a chiasmus, girlish-boy, boyish-girl, and the balance is the whole description.",
+   "v": true,
+   "ln": 322
+  },
+  {
+   "t": "Hanc pariter vidit, pariter Calydonius heros\noptavit renuente deo flammasque latentes\nhausit",
+   "l": "Her the Calydonian hero saw and in the same moment desired, with a god refusing, and he drank in hidden flames",
+   "i": "The Calydonian hero saw her and wanted her in the same instant — a god forbidding it — and drank down a hidden fire",
+   "n": "pariter ... pariter: the seeing and the wanting are one act, not two. renuente deo is an ablative absolute (261) — a god shakes his head, and the love is refused before it has begun. hausit, “drank in”, comes back at 371 of a wound. The Calydonian hero is Meleager (299).",
+   "v": true,
+   "ln": 324
+  },
+  {
+   "t": "et “o felix, siquem dignabitur” inquit\n“ista virum.”",
+   "l": "and he said, “O happy — if that girl there shall think any man worthy.”",
+   "i": "and said, “Happy the man — if that girl there thinks any man worth her.”",
+   "n": "felix has no noun to agree with: the sentence breaks off, which is why the English needs a dash. siquem is si quem, “if any”, and quem ... virum is the object of dignabitur, a deponent verb, active in meaning: “she will deem worthy”. ista is the demonstrative that points at someone standing at a distance from the speaker.",
+   "v": true,
+   "ln": 326
+  },
+  {
+   "t": "Nec plura sinit tempusque pudorque\ndicere: maius opus magni certaminis urget.",
+   "l": "Neither the moment nor shame lets him say more: a greater task, of a great contest, presses.",
+   "i": "Neither the moment nor his modesty lets him say more: the greater business of a great contest presses on him.",
+   "n": "tempusque pudorque, “both the moment and his shame”, is the doubled -que that verse likes and prose avoids. maius opus magni certaminis sets a comparative next to a positive of the same adjective, so the love-scene is measured against the hunt and comes off the smaller of the two.",
+   "v": true,
+   "ln": 327
+  },
+  {
+   "t": "Silva frequens trabibus, quam nulla ceciderat aetas,\nincipit a plano devexaque prospicit arva.",
+   "l": "A wood crowded with timber, which no age had cut down, begins from the level ground and, sloping, looks out over the fields.",
+   "i": "A wood thick with timber, which no generation had ever felled, begins at the level ground and, running downhill, looks out over the ploughland.",
+   "n": "frequens takes an ablative of what a place is thick with. trabes is properly a beam, so the wood is described by what it would yield if anyone had touched it. aetas, “an age”, is made the agent that fells trees. devexa agrees with silva and does an adverb's work.",
+   "p": true,
+   "v": true,
+   "ln": 329
+  },
+  {
+   "t": "Quo postquam venere viri, pars retia tendunt,\nvincula pars adimunt canibus, pars pressa sequuntur\nsigna pedum cupiuntque suum reperire periclum.",
+   "l": "After the men came there, some stretch nets, some take the leashes off the dogs, some follow the pressed marks of feet and want to find their own danger.",
+   "i": "When the men had reached it, some spread the nets, some slip the leashes off the dogs, some follow the tracks pressed into the ground, wanting to find the danger that is theirs.",
+   "n": "venere is venerunt (269). pars ... pars ... pars is singular in form but takes plural verbs: Latin agrees with the sense, a group of people, not with the word. suum periclum is deliberately odd — the danger they are hunting for is their own, and the phrase does not settle whether that means their share of it or the thing that will kill them.",
+   "v": true,
+   "ln": 331
+  },
+  {
+   "t": "Concava vallis erat, quo se demittere rivi\nadsuerant pluvialis aquae:",
+   "l": "There was a hollow valley, to which the streams of rain-water had grown used to let themselves down:",
+   "i": "There was a hollow valley where the runnels of rainwater used to come down:",
+   "n": "quo is the relative adverb, “to which place”. adsuerant is adsueverant, syncopated as libasse was at 275 and cessasse at 278, and it takes the infinitive demittere; se demittere is a reflexive where English goes intransitive, the water letting itself down, that is, running down.",
+   "v": true,
+   "ln": 334
+  },
+  {
+   "t": "tenet ima lacunae\nlenta salix ulvaeque leves iuncique palustres\nviminaque et longa parvae sub harundine cannae.",
+   "l": "the pliant willow holds the bottom of the pool, and light sedges and marsh rushes and osiers and small canes under a tall reed.",
+   "i": "The floor of the basin is held by pliant willow, by light sedge, by marsh rushes, osiers, and small canes under the tall reed.",
+   "n": "ima lacunae is an adjective used as a noun with a genitive, “the lowest parts of the hollow”, where English says “the bottom of”. The singular verb tenet governs the whole string of subjects, agreeing with the first of them. The plants are named exactly, and the exactness matters: this is cover a boar can lie up in.",
+   "v": true,
+   "ln": 335
+  },
+  {
+   "t": "Hinc aper excitus medios violentus in hostes\nfertur, ut excussis elisi nubibus ignes.",
+   "l": "From here the boar, roused out, is carried violently into the midst of his enemies, like the fires struck out when the clouds have been dashed together.",
+   "i": "Out of this the boar breaks and drives violently into the thick of his enemies, like the lightning struck out when clouds are dashed together.",
+   "n": "fertur is passive in form but middle in force: he is not carried, he carries himself. medios in hostes puts the adjective where English wants a noun, “into the middle of”. excussis nubibus is another ablative absolute (261), and the simile is the standard ancient account of lightning, fire squeezed out of colliding cloud.",
+   "v": true,
+   "ln": 338
+  },
+  {
+   "t": "Sternitur incursu nemus et propulsa fragorem\nsilva dat.",
+   "l": "The grove is laid flat by his charge, and the wood, shoved aside, gives a crash.",
+   "i": "The grove goes flat under his charge, and the trees, thrust aside, give out a crash.",
+   "n": "incursu is an ablative of means. fragorem dat is Latin's habit of pairing a colourless verb with a strong noun where English has a single verb: “gives a crash” for “crashes”. propulsa agrees with silva.",
+   "v": true,
+   "ln": 340
+  },
+  {
+   "t": "Exclamant iuvenes praetentaque forti\ntela tenent dextra lato vibrantia ferro.",
+   "l": "The young men shout out and hold their weapons held out in a strong right hand, quivering with broad iron.",
+   "i": "The young men shout, and hold their spears levelled in a strong right hand, the broad iron shivering.",
+   "n": "praetenta and vibrantia both belong to tela, and the words are interleaved — praetentaque forti / tela tenent dextra — so that each adjective sits beside the wrong noun and the sentence has to be untangled. This interlocking is normal in Latin verse and worth getting used to early. lato ferro is an ablative of respect with vibrantia: the weapons quiver as to their broad blade.",
+   "v": true,
+   "ln": 341
+  },
+  {
+   "t": "Ille ruit spargitque canes, ut quisque furenti\nobstat, et obliquo latrantes dissipat ictu.",
+   "l": "He rushes and scatters the dogs, as each stands in the way of him raging, and breaks up the barking ones with a slanting stroke.",
+   "i": "He charges and scatters the dogs as each one gets in the way of his fury, and breaks up the baying pack with a sidelong stroke.",
+   "n": "furenti is a dative with obstat, “stands in the way of him as he rages”. ut quisque, “as each one”, distributes the action across the pack. latrantes, “the barking ones”, is a participle standing in for a noun, and obliquo ictu is the sideways sweep of the tusk, which is how a boar actually fights.",
+   "v": true,
+   "ln": 343
+  },
+  {
+   "t": "Cuspis Echionio primum contorta lacerto\nvana fuit truncoque dedit leve vulnus acerno.",
+   "l": "The spear-point first whirled from Echion's arm was in vain, and gave a light wound to a maple trunk.",
+   "i": "The first spear-point, whirled from Echion's arm, was wasted, and gave a maple trunk a slight wound.",
+   "n": "Echionio is the adjective made from Echion, the runner of 311. contorta is from contorqueo, used of a shaft whirled round before it is let go, and lacerto, the upper arm, is the ablative of what threw it. leve vulnus of a tree is a small joke: the wound-vocabulary of epic spent on wood.",
+   "p": true,
+   "v": true,
+   "ln": 345
+  },
+  {
+   "t": "Proxima, si nimiis mittentis viribus usa\nnon foret, in tergo visa est haesura petito:\nlongius it. Auctor teli Pagasaeus Iason.",
+   "l": "The next, if it had not used too much of the thrower's strength, seemed likely to stick in the back that was aimed at: it goes too far. The author of the spear was Pagasaean Jason.",
+   "i": "The next, if it had not had too much of the thrower's strength behind it, looked certain to lodge in the back it was aimed at: it flies too far. The spear was Jason's, of Pagasae.",
+   "n": "usa is from the deponent utor, active in meaning, and takes the ablative viribus. non foret stands for non esset in a condition contrary to fact, and petito is passive, the back that was aimed at rather than the spear doing the aiming. visa est haesura, “seemed about to stick”, uses a future participle to carry an outcome that never happened. Pagasae in Thessaly is where the first ship was built, so the epithet points back to 302.",
+   "v": true,
+   "ln": 347
+  },
+  {
+   "t": "“Phoebe,” ait Ampycides “si te coluique coloque,\nda mihi quod petitur certo contingere telo!”",
+   "l": "“Phoebus,” says the son of Ampycus, “if I both have worshipped you and do worship you, grant me to reach what is aimed at with a sure weapon!”",
+   "i": "“Phoebus,” says Ampycus' son, “if I have worshipped you and worship you still, grant me to reach what I aim at with a sure spear!”",
+   "n": "coluique coloque, a perfect and a present joined by -que ... -que, is the standard shape of a Roman prayer: the god is reminded of a record and of a present habit before he is asked for anything. da mihi ... contingere puts an infinitive where prose would use ut with a subjunctive. Ampycides is Mopsus, listed at 316.",
+   "v": true,
+   "ln": 350
+  },
+  {
+   "t": "Qua potuit, precibus deus adnuit: ictus ab illo est,\nsed sine vulnere, aper; ferrum Diana volanti\nabstulerat iaculo: lignum sine acumine venit.",
+   "l": "So far as he could, the god nodded assent to the prayers: the boar was struck by him, but without a wound; Diana had taken the iron away from the flying javelin: the wood arrived without a point.",
+   "i": "So far as he was able, the god granted the prayer: the boar was hit by him — but not wounded. Diana had taken the iron off the javelin in flight: the shaft arrived pointless.",
+   "n": "qua potuit, “so far as he could”, is the whole theology of the moment: Apollo can answer a prayer only as far as his sister allows. adnuit is the nod that grants a request. volanti ... iaculo is a dative of the thing deprived, the javelin the iron was taken from. lignum sine acumine lands the joke on the last three words of the sentence.",
+   "v": true,
+   "ln": 352
+  },
+  {
+   "t": "Ira feri mota est, nec fulmine lenius arsit:\nemicat ex oculis, spirat quoque pectore flamma.",
+   "l": "The wild beast's anger was set moving, and it blazed no more gently than a thunderbolt: flame flashes out from his eyes, flame breathes also from his chest.",
+   "i": "The beast's rage was set going, and burned no more gently than lightning: fire flashes from his eyes, fire breathes from his chest as well.",
+   "n": "fulmine is an ablative of comparison with lenius. flamma is the one subject of both emicat and spirat, so English has to supply the noun a second time. quoque is the adverb again (321).",
+   "p": true,
+   "v": true,
+   "ln": 355
+  },
+  {
+   "t": "Utque volat moles adducto concita nervo,\ncum petit aut muros aut plenas milite turres,",
+   "l": "And as a mass flies, set going by the drawn-back sinew, when it makes for either walls or towers full of soldiery,",
+   "i": "And as the stone flies, launched by the drawn torsion-rope, when it is aimed at walls or at towers packed with soldiers,",
+   "n": "moles is the missile-stone of a siege engine and nervus the twisted rope that drives it; adducto ... nervo is the ablative of means governed by concita, the drawn rope that sets the mass going, and adducto is attached to nervo as an ordinary adjective — it is not an absolute phrase, because the participle concita in the main clause takes the ablative as its instrument. milite is a collective singular, “soldiery”, where English needs a plural. This ut is answered by sic in the next line, so the two halves of the simile straddle the break between units.",
+   "v": true,
+   "ln": 357
+  },
+  {
+   "t": "in iuvenes certo sic impete vulnificus sus\nfertur et Hippalmon Pelagonaque, dextra tuentes\ncornua, prosternit; socii rapuere iacentes.",
+   "l": "so with unswerving impetus the wound-dealing boar is carried against the young men and lays low Hippalmus and Pelagon, who were guarding the right wing; their comrades snatched them up as they lay.",
+   "i": "so, with the same unerring rush, the wound-dealing boar drives at the young men and brings down Hippalmus and Pelagon, who were holding the right wing; their comrades caught them up where they lay.",
+   "n": "impete is a rare ablative of impes, a by-form of impetus, taken for the metre. vulnificus, “wound-making”, is a manufactured compound of the sort epic likes; two more follow at 376 and 391. cornua is the military word for the wings of a battle-line, lent here to a line of hunters. Hippalmon and Pelagona keep Greek accusative endings (261), and rapuere is rapuerunt (269).",
+   "v": true,
+   "ln": 359
+  },
+  {
+   "t": "At non letiferos effugit Enaesimus ictus,\nHippocoonte satus: trepidantem et terga parantem\nvertere succiso liquerunt poplite nervi.",
+   "l": "But Enaesimus, sprung from Hippocoon, did not escape the death-bearing strokes: as he trembled and was making ready to turn his back, his sinews failed him, the hamstring cut through.",
+   "i": "But Enaesimus, Hippocoon's son, did not escape the death-dealing strokes: as he shook and was making ready to turn his back, his sinews gave under him, the hamstring severed.",
+   "n": "Hippocoonte satus is the ablative of origin again (307). terga vertere, “to turn the backs”, is the ordinary Latin for running away. succiso poplite is an ablative absolute (261) and it is anatomically exact: the poples is the hollow behind the knee, and cutting it is precisely what drops a man in mid-stride. liquerunt is from linquo, “left”, hence “failed”.",
+   "v": true,
+   "ln": 362
+  },
+  {
+   "t": "Forsitan et Pylius citra Troiana perisset\ntempora: sed sumpto posita conamine ab hasta\narboris insiluit, quae stabat proxima, ramis\ndespexitque, loco tutus, quem fugerat hostem.",
+   "l": "Perhaps the man of Pylos too would have perished on this side of the times of Troy: but, his spring taken from the spear he had planted, he leapt onto the branches of a tree which stood nearest, and, safe in his place, looked down on the enemy he had run from.",
+   "i": "The man of Pylos, too, might have died short of the years of Troy; but he planted his spear, took his spring from it, and leapt into the branches of the nearest tree, and from that safe place looked down at the enemy he had run from.",
+   "n": "Pylius is Nestor, the young man of 313; citra Troiana tempora, “short of the Trojan seasons”, means dying before the war he is famous for. perisset is a pluperfect subjunctive of what did not in fact happen. sumpto ... conamine is an ablative absolute (261), and posita ab hasta names the spear already set in the ground. In quem fugerat hostem the noun has been pulled inside its own relative clause.",
+   "p": true,
+   "v": true,
+   "ln": 365
+  },
+  {
+   "t": "Dentibus ille ferox in querno stipite tritis\ninminet exitio fidensque recentibus armis\nEurytidae magni rostro femur hausit adunco.",
+   "l": "That fierce one, his tusks ground down on an oak stump, looms bent on destruction, and, trusting his freshly-edged weapons, scooped out the thigh of great Eurytus' son with his hooked snout.",
+   "i": "The fierce beast, his tusks ground sharp on an oak stump, looms bent on their destruction, and, trusting the weapons he has just re-edged, gouged open the thigh of great Eurytus' son with his hooked snout.",
+   "n": "dentibus ... tritis is an ablative absolute (261); the tusks are called arma, weapons, and recentibus means newly sharpened, not new. inminet takes the dative exitio, and the dative names what he looms towards: he is bent on the killing, not hanging over it. hausit is the verb of drawing water up, used of a wound that scoops flesh out — the same verb that took Meleager's hidden flames at 326. Eurytides is “son of Eurytus”: the man is given here by a relation and not by his own name, as Peleus was by his son at 309 and Laertes by his daughter-in-law at 315.",
+   "p": true,
+   "v": true,
+   "ln": 369
+  },
+  {
+   "t": "At gemini, nondum caelestia sidera, fratres,\nambo conspicui, nive candidioribus ambo\nvectabantur equis, ambo vibrata per auras\nhastarum tremulo quatiebant spicula motu.",
+   "l": "But the twin brothers, not yet stars of heaven, both of them conspicuous, were both being carried on horses whiter than snow, both were shaking, with a quivering motion, the points of their spears brandished through the air.",
+   "i": "But the twin brothers — not yet constellations — both of them conspicuous, were both mounted on horses whiter than snow, and both kept shaking the spear-points they levelled through the air with a quivering play of the hand.",
+   "n": "ambo three times over in four lines is the figure that makes the pair inseparable — twice in 373, again in 374. These are the sons of Tyndareus from 301, and nondum caelestia sidera is an apposition that tells you where they end up. nive is an ablative of comparison with candidioribus. After the perfects of the preceding lines the imperfects vectabantur and quatiebant slow everything down to watch them.",
+   "p": true,
+   "v": true,
+   "ln": 372
+  },
+  {
+   "t": "Vulnera fecissent, nisi saetiger inter opacas\nnec iaculis isset nec equo loca pervia silvas.",
+   "l": "They would have made wounds, had the bristle-bearer not gone in among the shady woods, places passable neither for javelins nor for a horse.",
+   "i": "They would have wounded him, had the bristled beast not gone off into the shadowy woods, ground where neither javelin nor horse could pass.",
+   "n": "A condition contrary to fact in past time, nisi ... isset with fecissent, the same shape as si ... non foret at 347; the perisset of 365 is the unreal past without any protasis at all. saetiger, “bristle-bearer”, is a compound of the kind noted at 359, and it picks up the saetae of 285-286. loca pervia stands in apposition to silvas, and the datives iaculis and equo say what the ground is passable for.",
+   "v": true,
+   "ln": 376
+  },
+  {
+   "t": "Persequitur Telamon studioque incautus eundi\npronus ab arborea cecidit radice retentus.",
+   "l": "Telamon pursues, and, made careless by his eagerness of going, fell forward, caught by a tree-root.",
+   "i": "Telamon goes after him, and, made careless by his eagerness to get on, was caught by a tree-root and fell headlong.",
+   "n": "eundi is the genitive gerund of eo, “of going”, depending on studio, and studio is an ablative of cause. pronus, “face forward”, is a predicate adjective doing an adverb's work. Telamon was listed at 309.",
+   "v": true,
+   "ln": 378
+  },
+  {
+   "t": "Dum levat hunc Peleus, celerem Tegeaea sagittam\nimposuit nervo sinuatoque expulit arcu.",
+   "l": "While Peleus is lifting him, the girl of Tegea set a swift arrow to the string and drove it out from the bent bow.",
+   "i": "While Peleus was helping him up, the girl from Tegea set a swift arrow to the string and sent it away off the bent bow.",
+   "n": "dum with a present tense of past action is standard Latin: the literal keeps the Latin's present, levat, where the idiomatic puts it into the past that English wants beside the perfects imposuit and expulit. Peleus is the man called the begetter of great Achilles at 309, and Tegeaea is the huntress of 317. nervo is a dative with imposuit, and sinuato ... arcu an ablative of the bow it left.",
+   "p": true,
+   "v": true,
+   "ln": 380
+  },
+  {
+   "t": "Fixa sub aure feri summum destrinxit harundo\ncorpus et exiguo rubefecit sanguine saetas.",
+   "l": "The reed, planted under the beast's ear, grazed the top of his body and reddened the bristles with a little blood.",
+   "i": "The shaft lodged under the beast's ear, grazed the surface of his body, and reddened the bristles with a thin trickle of blood.",
+   "n": "harundo, a reed, is the arrow named from what it is made of; the same word was a growing plant at 337. summum corpus is “the surface of the body”, summus naming a part again (318). rubefecit is a made verb, “to make red”, and exiguo sanguine measures how little there is of it: the first blood of the hunt is a scratch.",
+   "v": true,
+   "ln": 382
+  },
+  {
+   "t": "Nec tamen illa sui successu laetior ictus,\nquam Meleagros erat.",
+   "l": "And yet she was not gladder at the success of her own stroke than Meleager was.",
+   "n": "The comparative laetior with quam denies that her pleasure outran his, which leaves his at least the equal of hers — a statement about him, not about the hunt. sui ... ictus is a genitive split across the whole line by successu.",
+   "v": true,
+   "ln": 384
+  },
+  {
+   "t": "Primus vidisse putatur\net primus sociis visum ostendisse cruorem\net “meritum” dixisse “feres virtutis honorem.”",
+   "l": "He is thought to have been the first to see, and the first to show his comrades the blood he had seen, and to have said, “You shall carry off the honour your courage has earned.”",
+   "i": "He is thought to have been the first to see it, the first to show the blood to his comrades when he had seen it, and the first to say: “You shall have the honour your courage has earned.”",
+   "n": "putatur takes a nominative and infinitive: Latin says “he is thought to have seen” with the subject in the nominative, where English can also say “it is thought that he saw”. visum cruorem is “the blood once seen”, a participle where English wants a clause. meritum ... honorem wraps the whole quotation, with virtutis shut inside it.",
+   "v": true,
+   "ln": 385
+  },
+  {
+   "t": "Erubuere viri seque exhortantur et addunt\ncum clamore animos iaciuntque sine ordine tela:",
+   "l": "The men blushed and urge one another on and add courage with shouting and throw their weapons without order:",
+   "i": "The men reddened, urge each other on, add courage with a shout, and throw their spears with no order at all:",
+   "n": "erubuere is erubuerunt (269), and then the verbs turn present: the perfect states the blush, the presents make the scramble happen in front of you. se ... exhortantur is the reflexive used for “one another”. What they are ashamed of is that a woman drew the first blood (382-383).",
+   "v": true,
+   "ln": 388
+  },
+  {
+   "t": "turba nocet iactis et, quos petit, impedit ictus.",
+   "l": "the crowd does harm to what is thrown, and gets in the way of the very blows it is aiming at.",
+   "i": "their own numbers spoil the throwing, and get in the way of the very hits they are after.",
+   "n": "noceo takes the dative, so iactis is “to the things thrown”, a participle used as a noun. In quos petit ... ictus the noun has again been drawn inside its own relative clause (368). The line is a closed epigram and works as a remark about crowds in general as well as about this one.",
+   "v": true,
+   "ln": 390
+  },
+  {
+   "t": "Ecce furens contra sua fata bipennifer Arcas\n“discite, femineis quid tela virilia praestent,\no iuvenes, operique meo concedite!” dixit.",
+   "l": "See — the double-axe-bearing Arcadian, raging against his own destiny: “Learn, young men, what a man's weapons are worth beyond a woman's, and give way to my work!” he said.",
+   "i": "And look: the Arcadian with the double axe, raging against his own fate — “Learn, young men, how far a man's weapons outdo a woman's, and leave the work to me!” he said.",
+   "n": "bipennifer, “two-axe-bearing”, is another manufactured compound (359). contra sua fata is the narrator stepping in front of the speech to say how it ends. praestent takes the dative femineis, with tela to be supplied: manly weapons stand out beyond womanly ones. concedite operi meo is the same dative construction, “give way to”.",
+   "p": true,
+   "v": true,
+   "ln": 391
+  },
+  {
+   "t": "“Ipsa suis licet hunc Latonia protegat armis,\ninvita tamen hunc perimet mea dextra Diana.”",
+   "l": "“Though Latona's daughter herself protect him with her own weapons, my right hand will destroy him even so, Diana unwilling.”",
+   "i": "“Let Leto's daughter herself shield him with her own arms — my right hand will kill him even so, and Diana against it.”",
+   "n": "licet is the concessive “granted that”, taking the subjunctive protegat. invita ... Diana is an ablative absolute (261), “with Diana unwilling”. He names the same goddess twice in two lines, once by her mother and once outright: Latonia here, as she was Latois at 278. The boast is made against the very deity whose creature the boar is (272) and who loosed it on these fields (281-282).",
+   "v": true,
+   "ln": 394
+  },
+  {
+   "t": "Talia magniloquo tumidus memoraverat ore\nancipitemque manu tollens utraque securim\ninstiterat digitis, primos suspensus in artus.",
+   "l": "Such things he had recounted, swollen with pride, with a big-talking mouth, and, lifting the two-edged axe with each hand, he had risen on his toes, poised on the fronts of his feet.",
+   "i": "So he had spoken, swollen with pride, in his big-talking way; and lifting the two-headed axe in both hands he had risen on his toes, poised on the balls of his feet.",
+   "n": "The two pluperfects, memoraverat and institerat, hold him at the top of his stroke and make everything that comes next arrive too late. magniloquo is a compound like bipennifer (391). manu ... utraque is “with each hand”, so with both at once. Magnus prints primos ... in artus, poised on the fore parts of his feet; some editions read pronos ... in ictus, leaning forward into the blow.",
+   "v": true,
+   "ln": 396
+  },
+  {
+   "t": "Occupat audentem, quaque est via proxima leto,\nsumma ferus geminos direxit ad inguina dentes.",
+   "l": "The beast forestalls him as he dares it, and where the way to death is nearest, aimed his twin tusks at the top of the groin.",
+   "i": "The beast got in first while he was still daring it, and where the road to death is shortest he aimed his two tusks straight at the upper groin.",
+   "n": "occupat is the technical word for getting there first, and it takes audentem, “the man daring it”, a participle used for a noun. leto is a dative with proxima, the way “nearest to death”. summa ... inguina is summus naming a part again (318, 382). The line explains its own anatomy: quaque est via proxima leto says why the groin and not anywhere else, and direxit keeps the stroke at the moment of aim — what it does is at 401.",
+   "v": true,
+   "ln": 399
+  },
+  {
+   "t": "Concidit Ancaeus glomerataque sanguine multo\nviscera lapsa fluunt: madefacta est terra cruore.",
+   "l": "Ancaeus collapsed, and his entrails, balled together with much blood, slipped out and pour away: the ground was soaked with gore.",
+   "i": "Ancaeus went down, and his entrails, clotted with a great deal of blood, slipped out and spill: the ground was soaked through with gore.",
+   "n": "He is named only now, at the moment he dies: at 391 he was “the Arcadian”, and he was listed at 315 among the rest. glomerata, “rolled into a ball”, and lapsa fluunt keep the process in view rather than the result. Latin distinguishes sanguis, blood in the body, from cruor, blood that has been shed, and the sentence ends on the second.",
+   "v": true,
+   "ln": 401
+  }
+ ],
+ "glossaryFile": "metamorphoses-glossary.json"
+}

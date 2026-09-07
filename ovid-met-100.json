@@ -1,0 +1,355 @@
+{
+ "id": "ovid-met-100",
+ "sourceId": "ovid-met-100",
+ "title": "Hecuba",
+ "titleEn": "Hecuba's Grief and Revenge — Metamorphoses XIII.494–575",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 8719b7d375018d4f. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
+ "about": "Over her dead daughter Hecuba turns her lament on Achilles, who took so many of her sons and who, dead and buried, has taken this child too. Dragged off a captive and promised to Penelope as a gift, she counts what is left her: one son, Polydorus, given over to an Ismarian king. Then she goes down to the shore for water to wash the girl's wounds and finds Polydorus' body cast up on the shore, torn with huge wounds. Her grief turns to rage: she lures his killer to a private place with a story of hidden gold and puts out his eyes with her own hands. Pelted by his people with spears and stones, she snaps at a flung stone and barks when she tries to speak; the place still stands and takes its name from what happened.",
+ "sentences": [
+  {
+   "t": "“Nata, tuae (quid enim superest?) dolor ultime matris,\nnata, iaces,",
+   "l": "Daughter, your mother's last grief — for what indeed is left? — daughter, you lie,",
+   "i": "Daughter, your mother's last sorrow — for what else is left me? — daughter, you lie there dead,",
+   "n": "The lament opens on a vocative, ‘nata’ “daughter”, and ‘dolor ultime … matris’ “last grief of your mother” is a second vocative in apposition to it: Hecuba addresses the dead girl as her grief itself. The parenthesis ‘quid enim superest?’ cuts in between ‘tuae’ and the noun it agrees with, ‘matris’ — ordinary Latin word-order freedom, not a defect. ‘iaces’ is the regular verb of a body lying fallen.",
+   "p": true,
+   "v": true,
+   "ln": 494
+  },
+  {
+   "t": "videoque tuum, mea vulnera, pectus,\net ne perdiderim quemquam sine caede meorum,\ntu quoque vulnus habes!",
+   "l": "and I see your breast — my wounds — and, so that I might not have lost any one of my own without a killing, you too have a wound!",
+   "i": "and I see your breast, which is my own wounding; and so that not one of my own should be lost to me without bloodshed, you too have your wound!",
+   "n": "‘mea vulnera’ “my wounds” stands in apposition to ‘tuum … pectus’ “your breast”: the girl's wound is the mother's. ‘ne perdiderim’ is a perfect subjunctive in a purpose clause, bitterly turned — the point of the wound is that no child of hers should be lost without a killing; ‘quemquam … meorum’ is “any one of my people”. Magnus prints ‘pectus’ “breast” and ‘et’; some editions read ‘vulnus’ “wound” and ‘en’ “look”.",
+   "v": true,
+   "ln": 495
+  },
+  {
+   "t": "At te, quia femina, rebar\na ferro tutam:",
+   "l": "But you, because a woman, I supposed safe from the sword:",
+   "i": "But you — because you were a woman — I thought safe from the sword:",
+   "n": "‘rebar’ is the imperfect of the deponent ‘reor’ “think, suppose”: passive in form, active in meaning, and the literal renders it actively. ‘te … tutam’ is accusative in indirect statement with ‘esse’ left out, “that you were safe”. ‘quia femina’ has no verb either: “because [you were] a woman”.",
+   "v": true,
+   "ln": 497
+  },
+  {
+   "t": "cecidisti et femina ferro,\ntotque tuos idem fratres, te perdidit idem,\nexitium Troiae nostrique orbator, Achilles.",
+   "l": "you have fallen, a woman too, by the sword, and so many brothers of yours the same man destroyed, you the same destroyed — the ruin of Troy and the bereaver of us, Achilles.",
+   "i": "and you have fallen by the sword, woman though you were; the same man destroyed so many of your brothers, the same destroyed you — the ruin of Troy, the man who left us childless: Achilles.",
+   "n": "The verb ‘perdidit’ “destroyed” serves both halves of the pair, and ‘idem’ “the same man” is repeated in the two halves of line 499, the second time at the line's end. The name it belongs to, ‘Achilles’, is withheld to the last word of 500, after two appositional phrases. ‘orbator’ is an agent-noun from ‘orbare’ “to bereave, leave childless” — the one who made them childless.",
+   "v": true,
+   "ln": 498
+  },
+  {
+   "t": "At postquam cecidit Paridis Phoebique sagittis,\n“nunc certe,” dixi, “non est metuendus Achilles!rsquo;",
+   "l": "But after he fell by the arrows of Paris and of Phoebus, “now at least,” I said, “Achilles is not to be feared!”",
+   "i": "But after he himself fell to the arrows of Paris and Phoebus, “now, surely,” I said, “Achilles need not be feared!”",
+   "n": "‘metuendus’ is a gerundive, “needing to be feared”, and with ‘est’ makes the passive periphrastic “he is to be feared”. ‘Paridis Phoebique’ are two genitives on the one ablative ‘sagittis’ “by the arrows”: the arrows are the man's and the god's together. At the end of 502 the archived text carries the letters ‘rsquo;’ immediately after ‘Achilles!’, standing where the close of Hecuba's quoted words belongs; the second witness has nothing at that point. Those letters are the tail of the character entity for a right single quotation mark, its opening ampersand gone — markup rather than Latin — and these files cannot say at what stage of the copying it entered. Lectorium ships the archive unaltered.",
+   "v": true,
+   "ln": 501
+  },
+  {
+   "t": "Nunc quoque mi metuendus erat: cinis ipse sepulti\nin genus hoc saevit,",
+   "l": "Even now he was to be feared by me: the very ash of the buried man rages against this stock,",
+   "i": "Even now he was one for me to fear: the very ashes of the buried man rage against our line,",
+   "n": "‘mi’ is a shortened ‘mihi’, dative of agent with the gerundive ‘metuendus’ — the regular construction, “he was to be feared by me”. ‘quoque’ here is the adverb “also, even”, not the ablative ‘quō-que’ “and with which”, which the same spelling can be. ‘sepulti’ is a perfect participle used as a noun, “of the buried man”.",
+   "v": true,
+   "ln": 503
+  },
+  {
+   "t": "tumulo quoque sensimus hostem.\nAeacidae fecunda fui!",
+   "l": "in the tomb too we have felt the enemy. For the descendant of Aeacus I was fruitful!",
+   "i": "even from the grave we have felt our enemy. It was for Achilles that I was fruitful!",
+   "n": "‘Aeacidae’ is a patronymic, “descendant of Aeacus”, that is Achilles, named already at 500 and 502 — and it is dative: she bore her children for him, to be killed by him. ‘tumulo’ is ablative, “in the tomb”, and answers ‘sepulti’ in the line before. The two exclamations are the bitterest turn of the lament: her fertility served her enemy.",
+   "v": true,
+   "ln": 504
+  },
+  {
+   "t": "Iacet Ilion ingens,\neventuque gravi finita est publica clades, —\nsed finita tamen;",
+   "l": "Great Ilion lies low, and by a grievous outcome the public disaster has been ended — but ended nonetheless;",
+   "i": "Mighty Ilion lies in ruins, and the general catastrophe has been brought to an end by a grievous outcome — but brought to an end all the same;",
+   "n": "‘Ilion’ is the Greek neuter form of the city's name, with ‘ingens’ agreeing with it. ‘eventu … gravi’ is ablative of means, “by a grievous outcome”. The edition's em dash marks the turn, and the repeated ‘finita’ is the hinge: everyone else's suffering has at least stopped, and the next clause takes that back for Hecuba alone.",
+   "v": true,
+   "ln": 505
+  },
+  {
+   "t": "soli mihi Pergama restant,\nin cursuque meus dolor est:",
+   "l": "for me alone Pergama remain, and my grief is in its course:",
+   "i": "for me alone Troy's citadel still stands, and my grief is still running its course:",
+   "n": "‘soli’ is dative agreeing with ‘mihi’, “for me alone”. ‘Pergama’ is neuter plural, the citadel of Troy, and takes the plural verb ‘restant’: for Hecuba the fall has not finished happening. ‘in cursu’ is the idiom of something still under way, “in mid-course”.",
+   "v": true,
+   "ln": 507
+  },
+  {
+   "t": "modo maxima rerum,\ntot generis natisque potens nuribusque viroque,\nnunc trahor exul, inops, tumulis avulsa meorum,\nPenelopae munus;",
+   "l": "lately the greatest of things, powerful in lineage, in so many sons and sons' wives, and in a husband, now I am dragged off an exile, destitute, torn from the tombs of my own, Penelope's present;",
+   "i": "a moment ago the greatest thing in the world, strong in my line, in so many sons and sons' wives, and in a husband — now I am dragged off an exile and a beggar, torn from my own people's graves, a present for Penelope;",
+   "n": "‘modo … nunc’ “a moment ago … now” frames the whole antithesis. ‘maxima rerum’ is a superlative with a partitive genitive, “greatest of things”, feminine and so said of herself. ‘potens’ takes the genitive ‘generis’ and then the ablatives ‘natis’, ‘nuribus’, ‘viro’; ‘tot’ “so many” stands next to ‘generis’ but is most easily read with the plurals that follow it. ‘avulsa’ is a perfect participle agreeing with the “I” of ‘trahor’, “torn away”. ‘Penelopae’ can be read as genitive or as dative and comes to much the same thing: Hecuba is the present Penelope is to be given.",
+   "v": true,
+   "ln": 508
+  },
+  {
+   "t": "quae me data pensa trahentem\nmatribus ostendens Ithacis “haec Hectoris illa est\nclara parens, haec est” dicet “Priameia coniunx!”",
+   "l": "and she, showing me — drawing out the wool given me — to the Ithacan mothers, will say “this is that famous parent of Hector, this is” — “Priam's wife!”",
+   "i": "and she, displaying me to the matrons of Ithaca as I spin the wool she has set me, will say: “this is Hector's famous mother, this is Priam's wife!”",
+   "n": "‘quae’ opening the clause is a connecting relative — “and she”, of Penelope — where English begins a new sentence. ‘pensa’ are the weighed-out portions of wool handed to a slave woman to spin, and ‘data’ marks them as allotted to her. ‘Priameia’ is a Greek-formed adjective from Priam's name, “Priam's”. The speaking verb ‘dicet’ is placed inside the quotation, between its two halves.",
+   "v": true,
+   "ln": 511
+  },
+  {
+   "t": "Postque tot amissos tu nunc, quae sola levabas\nmaternos luctus, hostilia busta piasti!",
+   "l": "And after so many lost, you now, who alone were lightening a mother's mournings, have made expiation to the enemy's pyre!",
+   "i": "And after so many lost, you now — you who alone were easing a mother's grief — have appeased an enemy's tomb!",
+   "n": "‘piasti’ is a syncopated perfect for ‘piavisti’, from ‘piare’ “to appease with an offering”; the edition keeps such shortened forms and they are not misprints. ‘busta’ is neuter plural, the burning-place and so the tomb, and ‘hostilia’ makes it the enemy's. ‘levabas’ is imperfect, of what she used to do again and again.",
+   "v": true,
+   "ln": 514
+  },
+  {
+   "t": "Inferias hosti peperi! Quo ferrea resto?\nQuidve moror? Quo me servas, annosa senectus?",
+   "l": "For the enemy I have borne offerings to the dead! To what end do I, made of iron, remain? Or why do I delay? For what do you keep me, long-yeared old age?",
+   "i": "I gave birth to grave-offerings for my enemy! To what end do I hold out, hard as iron? Why do I linger? What are you keeping me for, my long old age?",
+   "n": "‘inferiae’ are the offerings made to the dead at a tomb, and ‘peperi’ is the verb of giving birth: her children were the offerings she bore. ‘ferrea’ is nominative feminine agreeing with the “I” of ‘resto’, of her endurance rather than her weapons. ‘Quo’ in both questions is “to what end”, not “where”. ‘annosa senectus’ is vocative: she turns and addresses her own old age.",
+   "v": true,
+   "ln": 516
+  },
+  {
+   "t": "Quo, di crudeles, nisi uti nova funera cernam,\nvivacem differtis anum?",
+   "l": "To what end, cruel gods, unless that I may see new deaths, do you put off the long-lived old woman?",
+   "i": "To what end, cruel gods — unless it is so that I may see fresh funerals — do you keep postponing an old woman who will not die?",
+   "n": "‘uti’ is an older spelling of ‘ut’, introducing a purpose clause with the subjunctive ‘cernam’ “that I may see”. ‘differtis’ “you put off” takes the old woman herself as its object: the gods keep deferring her. ‘vivacem … anum’ is split around the verb in 519, and ‘vivax’ is “long-living, tenacious of life”. ‘funera’ are funerals and so deaths.",
+   "v": true,
+   "ln": 518
+  },
+  {
+   "t": "Quis posse putaret\nfelicem Priamum post diruta Pergama dici?",
+   "l": "Who would think that Priam could be called fortunate after Pergama destroyed?",
+   "i": "Who would have thought that Priam could be called fortunate, after the citadel was thrown down?",
+   "n": "‘putaret’ is an imperfect subjunctive in a question that expects no answer, “who would think…?”. ‘Priamum … posse … dici’ is accusative and infinitive after it, with the passive infinitive ‘dici’ “to be called”. ‘post diruta Pergama’ is the common Latin turn where a participle carries what English makes a clause: “after Pergama destroyed” for “after Pergama had been thrown down”.",
+   "v": true,
+   "ln": 519
+  },
+  {
+   "t": "Felix morte sua est, nec te, mea nata, peremptam\nadspicit et vitam pariter regnumque reliquit.",
+   "l": "He is fortunate in his own death, and he does not look upon you, my daughter, killed, and he left life and kingdom together.",
+   "i": "He is fortunate in his own death: he does not see you, my daughter, put to death, and he left his life and his kingdom at one stroke.",
+   "n": "‘Felix’ picks up ‘felicem’, the first word of the line before, and answers the question with the fact. ‘morte sua’ is ablative of respect, “fortunate in respect of his own death”. ‘peremptam’ is a perfect participle agreeing with ‘te’, “you, having been killed”, where English wants a clause. ‘pariter’ “at the same time” makes the two losses, life and kingship, a single act.",
+   "v": true,
+   "ln": 521
+  },
+  {
+   "t": "At, puto, funeribus dotabere, regia virgo,\ncondeturque tuum monumentis corpus avitis.",
+   "l": "But, I suppose, you will be dowered with funeral rites, royal maiden, and your body will be laid in ancestral monuments.",
+   "i": "But no doubt you will have a funeral for your dowry, royal maiden, and your body will be laid away in your forefathers' tomb.",
+   "n": "‘puto’ “I suppose” is bitter irony, and the next sentence denies both promises. ‘dotabere’ is the alternative second-person singular future passive for ‘dotaberis’, common in verse. ‘dotare’ is to give a dowry: instead of a bride's dowry, funeral rites. In 524 ‘tuum … corpus’ and ‘monumentis … avitis’ are interlocked, each adjective held apart from its noun.",
+   "v": true,
+   "ln": 523
+  },
+  {
+   "t": "Non haec est fortuna domus: tibi munera matris\ncontingent fletus peregrinaeque haustus harenae!",
+   "l": "This is not the fortune of our house: to you as a mother's gifts there will fall weepings and scoopings of foreign sand!",
+   "i": "This is not our house's fortune now: what will come to you as a mother's gifts are tears and handfuls of foreign sand!",
+   "n": "‘contingent’ is the future of ‘contingo’ in its idiom “fall to one's lot”, and its subjects are ‘fletus’ “weepings” and ‘haustus’ “scoopings-up”, both fourth-declension nominative plurals; ‘munera matris’ “a mother's gifts” stands in apposition to them. ‘peregrinae … harenae’ is genitive with ‘haustus’: the burial rite will be a handful of sand thrown on a shore that is not home.",
+   "v": true,
+   "ln": 525
+  },
+  {
+   "t": "Omnia perdidimus: superest, cur vivere tempus\nin breve sustineam,",
+   "l": "We have lost everything: there survives one for whose sake I should bear to live for a short time,",
+   "i": "We have lost everything; one is left, and for his sake I bear to live a little while yet:",
+   "n": "‘superest’ “there survives, one is left” has its subject held back to 530, the last line of the sentence, where the name ‘Polydorus’ finally comes. ‘cur … sustineam’ is a subjunctive clause of reason, “for which I should hold out”, and ‘vivere’ depends on ‘sustineam’, “I bear to live”. ‘tempus in breve’ puts the noun before its preposition and is split across the line-end between 527 and 528.",
+   "v": true,
+   "ln": 527
+  },
+  {
+   "t": "proles gratissima matri,\nnunc solus, quondam minimus de stirpe virili,\nhas datus Ismario regi Polydorus in oras.",
+   "l": "offspring most dear to his mother, now the only one, once the youngest of the male stock, given to the Ismarian king to these shores, Polydorus.",
+   "i": "the child dearest to his mother, now the only one left, once the youngest of the male line: Polydorus, handed over to the Ismarian king and sent to these shores.",
+   "n": "This whole pile of phrases is in apposition to the subject of ‘superest’ in 527, and the name ‘Polydorus’ is withheld until 530, the last line of the sentence. ‘minimus’ is “youngest” of children as much as “smallest”. ‘Ismario regi’ is dative with ‘datus’ — Ismarus is a Thracian mountain, so the Ismarian king is the king of Thrace, whose people are called ‘Threiciis’ at 537 and named outright as ‘Thracum gens’ at 565. ‘has … in oras’ holds the demonstrative five words apart from the noun it agrees with, ‘oras’, with the preposition ‘in’ standing immediately before that noun.",
+   "v": true,
+   "ln": 528
+  },
+  {
+   "t": "Quid moror interea crudelia vulnera lymphis\nabluere et sparsos inmiti sanguine vultus?”",
+   "l": "Why meanwhile do I delay to wash the cruel wounds with water, and the face sprinkled with pitiless blood?”",
+   "i": "But why, meanwhile, do I put off washing these cruel wounds with water, and the face spattered with merciless blood?”",
+   "n": "‘moror’ with an infinitive is “I delay to do”. ‘lymphis’ is ablative of means, ‘lympha’ being the poetic word for clear water. ‘sparsos … vultus’ is a second object of ‘abluere’, with ‘inmiti sanguine’ ablative: the blood is called pitiless, a quality of the killers carried over to the thing they spilt. ‘inmiti’ keeps the edition's older unassimilated spelling for ‘immiti’ and is not damage. The closing quotation mark ends Hecuba's speech.",
+   "v": true,
+   "ln": 531
+  },
+  {
+   "t": "Dixit et ad litus passu processit anili,\nalbentes lacerata comas.",
+   "l": "She spoke, and to the shore she went forward with an old woman's step, torn as to her whitening hair.",
+   "i": "She spoke, and went down to the shore with an old woman's step, tearing her white hair as she went.",
+   "n": "‘albentes lacerata comas’ is the Greek accusative of respect: ‘lacerata’ is a passive participle agreeing with Hecuba, while ‘comas’ “hair” stands in the accusative — “torn as to her hair”, which English turns into “tearing her hair”. It is a Greek construction Latin verse borrows, used of hair, dress and wounds. ‘passu … anili’ is ablative of manner, “with an old woman's step”.",
+   "p": true,
+   "v": true,
+   "ln": 533
+  },
+  {
+   "t": "“Date, Troades, urnam”\ndixerat infelix, liquidas hauriret ut undas:",
+   "l": "“Give an urn, Trojan women,” the unhappy woman had said, that she might draw the clear waters:",
+   "i": "“Trojan women, give me an urn,” the unlucky woman had said, so that she might draw clear water:",
+   "n": "‘Troades’ is a Greek nominative plural, “Trojan women”, here used as a vocative. ‘dixerat’ is pluperfect, stepping back a moment behind the narrative. ‘ut’ is postponed inside its own clause — ‘liquidas hauriret ut undas’ for ‘ut liquidas undas hauriret’ — which verse does freely, and ‘hauriret’ is imperfect subjunctive of purpose.",
+   "v": true,
+   "ln": 534
+  },
+  {
+   "t": "adspicit eiectum Polydori in litore corpus\nfactaque Threiciis ingentia vulnera telis!",
+   "l": "she sees the body of Polydorus cast out on the shore, and the huge wounds made by Thracian weapons!",
+   "i": "she sees Polydorus' body flung up on the shore, and the huge wounds that Thracian weapons had made!",
+   "n": "‘adspicit’ is a historic present: the narrative switches into the present at the moment of the discovery. ‘adsp-’ is the edition's older unassimilated spelling for ‘asp-’. ‘eiectum … corpus’ wraps around the genitive and the prepositional phrase, and ‘eicere’ is the regular verb of the sea throwing a body ashore. ‘facta … telis’ is a perfect participle with ablative of means, “made by weapons”.",
+   "v": true,
+   "ln": 536
+  },
+  {
+   "t": "Troades exclamant: obmutuit illa dolore,\net pariter vocem lacrimasque introrsus obortas\ndevorat ipse dolor,",
+   "l": "The Trojan women cry out: she fell dumb with grief, and grief itself devours alike her voice and the tears risen up within,",
+   "i": "The Trojan women cry out; she was struck dumb with grief, and grief itself swallows both her voice and the tears that had welled up inside her,",
+   "n": "The contrast is the point: the women shout, and ‘illa’ “she” makes no sound. ‘obmutuit’ is a perfect among presents, one completed act inside the running narrative. ‘ipse dolor’ “grief itself” is the subject of ‘devorat’ and ‘vocem lacrimasque’ its objects — her grief eats her own voice. ‘obortas’ is a perfect participle agreeing with ‘lacrimas’, “having risen up”, with ‘introrsus’ “inwardly”.",
+   "v": true,
+   "ln": 538
+  },
+  {
+   "t": "duroque simillima saxo\ntorpet et adversa figit modo lumina terra,\ninterdum torvos sustollit ad aethera vultus,",
+   "l": "and, most like hard stone, she is numb, and now fixes her eyes on the ground facing her, at times lifts her grim face to the upper air,",
+   "i": "and, like a piece of hard rock, she stands rigid; now she fixes her eyes on the ground before her, now lifts her fierce face to the sky,",
+   "n": "‘simillima’ is the superlative of ‘similis’ and takes the dative ‘duro … saxo’, “most like hard stone”. ‘adversa … terra’ is ablative, the ground that faces her, with ‘figit … lumina’ “she fixes her eyes”. ‘lumina’ is “lights” used for “eyes”, a word that will matter again at 561 and 564. ‘modo … interdum’ “now … at other times” marks the alternation.",
+   "v": true,
+   "ln": 540
+  },
+  {
+   "t": "nunc positi spectat vultum, nunc vulnera nati\nvulnera praecipue, seque armat et instruit iram.”",
+   "l": "now she looks at the face of the laid-out boy, now the wounds of her son — the wounds above all — and she arms herself and draws up her anger.”",
+   "i": "now she looks at the laid-out boy's face, now at her son's wounds — the wounds above all — and she arms herself and marshals her rage.”",
+   "n": "‘positi’ is a participle used as a noun, of a body laid out for burial. The repetition ‘vulnera nati’ / ‘vulnera praecipue’ across the line-end holds the reader on the wounds, which are what turn the grief into rage. ‘instruit’ is a military word, of drawing troops up in order, and pairs with ‘armat’. Magnus prints ‘iram’, the object of ‘instruit’; some editions print ‘ira’, ablative, “arms herself with anger”. The archived edition also prints a closing quotation mark after ‘iram’ although no speech is open in these lines, and Lectorium ships it as printed.",
+   "v": true,
+   "ln": 543
+  },
+  {
+   "t": "Qua simul exarsit, tamquam regina maneret,\nulcisci statuit poenaeque in imagine tota est,",
+   "l": "And as soon as she blazed with it, as though she remained a queen, she resolved to take vengeance, and is wholly in the picture of the punishment,",
+   "i": "And the moment it flared in her, she resolved on revenge, as though she were still a queen, and she is wholly taken up with the picture of the punishment,",
+   "n": "‘Qua’ is a connecting relative in the ablative — “and with this”, picking up ‘iram’, the last word of the sentence before — where English starts a new sentence. ‘tamquam regina maneret’ is a clause of comparison with the imperfect subjunctive, “as though she were still a queen”: she has no power left, only the bearing. ‘ulcisci’ is a deponent infinitive after ‘statuit’, active in meaning. ‘in imagine tota est’ is idiom: she is entirely inside the mental picture of the revenge.",
+   "p": true,
+   "v": true,
+   "ln": 545
+  },
+  {
+   "t": "utque furit catulo lactente orbata leaena\nsignaque nacta pedum sequitur, quem non videt, hostem,",
+   "l": "and as a lioness rages, bereft of her suckling cub, and, having come upon the prints of his feet, follows the enemy, whom she does not see,",
+   "i": "and as a lioness rages when her suckling cub is taken from her, and, once she has found the footprints, follows the enemy she cannot see,",
+   "n": "The simile opens with ‘ut’ and is answered by ‘sic’ “so” at the head of 549. ‘catulo lactente orbata’ is ablative with ‘orbata’, “bereft of her still-suckling cub”, and ‘orbata’ answers ‘orbator’, used of Achilles at 500. ‘nacta’ is the perfect participle of the deponent ‘nanciscor’ “come upon, obtain”, active in sense. ‘quem non videt’ is a relative clause set between ‘sequitur’ and its object ‘hostem’, so that it stands before the antecedent it refers to: “follows the enemy, whom she does not see”.",
+   "v": true,
+   "ln": 547
+  },
+  {
+   "t": "sic Hecube, postquam cum luctu miscuit iram,\nnon oblita animorum, annorum oblita suorum,",
+   "l": "so Hecuba, after she mixed anger with her mourning, not forgetful of her spirit, forgetful of her own years,",
+   "i": "so Hecuba, once she had mixed rage into her grief, remembering her courage and forgetting her years,",
+   "n": "‘Hecube’ is the Greek nominative in ‘-e’, which the edition keeps rather than latinising to ‘Hecuba’. ‘oblita’ is the perfect participle of the deponent ‘obliviscor’ “forget”, active in sense, and takes the genitive: ‘animorum’ “of her spirit”, plural for courage, and ‘annorum’ “of her years”. Line 550 turns on the near-identity of the two words and reverses the order of participle and genitive between its two halves.",
+   "v": true,
+   "ln": 549
+  },
+  {
+   "t": "vadit ad artificem dirae, Polymestora, caedis\nconloquiumque petit: nam se monstrare relictum\nvelle latens illi, quod nato redderet, aurum.",
+   "l": "she goes to the contriver of the dread murder, Polymestor, and seeks a conversation: for that she wished to show him gold left hidden, which she might give back to her son.",
+   "i": "she goes to the contriver of that dreadful murder, Polymestor, and asks for a private word: she wanted, she said, to show him gold left hidden away, gold she might hand on to her son.",
+   "n": "‘Polymestora’ is a Greek accusative in ‘-a’, set inside the phrase ‘artificem dirae … caedis’ “the craftsman of the dreadful murder”; ‘artifex’ is the word for a maker or contriver, and it is bitter here. ‘nam se … velle’ is accusative and infinitive with no verb of saying expressed, so “for (she said) that she wished”. ‘quod nato redderet’ is subjunctive because it lies inside her reported words, and it carries purpose — gold “which she might give back to her son” — and she has already seen that son's body at 536.",
+   "v": true,
+   "ln": 551
+  },
+  {
+   "t": "Credidit Odrysius praedaeque adsuetus amore\nin secreta venit.",
+   "l": "The Odrysian believed her, and, accustomed to the love of plunder, came into a hidden place.",
+   "i": "The Odrysian believed her, and, habituated to his love of plunder, came to a secret place.",
+   "n": "‘Odrysius’ “the Odrysian” names Polymestor by his people, the Odrysae being a Thracian nation, and stands as a noun, subject of ‘credidit’. ‘adsuetus’ takes the ablative ‘amore’, “accustomed to a love of plunder”; ‘adsu-’ is the edition's older unassimilated spelling for ‘assu-’. ‘in secreta’ is a neuter plural adjective used as a noun, literally “into secret places”, which English says in the singular.",
+   "p": true,
+   "v": true,
+   "ln": 554
+  },
+  {
+   "t": "Tum blando callidus ore\n“tolle moras, Hecube,” dixit, “da munera nato!",
+   "l": "Then the crafty man with coaxing mouth said, “take away delays, Hecuba, give the gifts to your son!",
+   "i": "Then the sly man said, with a coaxing mouth: “away with delay, Hecuba — give the gift to your son!",
+   "n": "‘callidus’ “crafty” is the narrator's word, not Polymestor's, and it is set beside ‘blando … ore’ “with coaxing mouth” so that the reader hears the flattery as a lie before it is spoken. ‘tolle moras’ is an idiom, literally “lift the delays away”. ‘nato’ is dative, “to your son” — and by 551 he is named the contriver of the boy's murder.",
+   "v": true,
+   "ln": 555
+  },
+  {
+   "t": "Omne fore illius quod das, quod et ante dedisti,\nper superos iuro.”",
+   "l": "That all will be his, what you give and what you gave before too, I swear by the gods above.”",
+   "i": "All of it will be his, what you give now and what you gave before — I swear it by the gods above.”",
+   "n": "‘fore’ is the alternative future infinitive for ‘futurum esse’, in accusative and infinitive after ‘iuro’ “I swear”, and the whole oath is placed before the verb that governs it. ‘illius’ is the genitive of ‘ille’, “his”, of the son. ‘superos’ is “the ones above”, an adjective used as a noun for the gods. The oath is doubly false: he has the earlier gold already and the boy is dead.",
+   "v": true,
+   "ln": 557
+  },
+  {
+   "t": "Spectat truculenta loquentem\nfalsaque iurantem tumidaque exaestuat ira",
+   "l": "Grim, she watches him speaking and swearing false things, and boils up with swelling anger",
+   "i": "She watches him grimly as he speaks and swears his lies, and boils over with swelling rage",
+   "n": "‘truculenta’ is a nominative adjective describing Hecuba as she watches, which English turns into an adverb, “grimly”. ‘loquentem’ and ‘iurantem’ are participles standing as the object of ‘spectat’, “watches him speaking … swearing”, and ‘falsa’ is neuter plural, “false things”. ‘tumida … ira’ is ablative with ‘exaestuat’, a verb of water boiling up.",
+   "v": true,
+   "ln": 558
+  },
+  {
+   "t": "atque ita correpto captivarum agmina matrum\ninvocat et digitos in perfida lumina condit\nexpellitque genis oculos (facit ira nocentem)",
+   "l": "and so, with him seized, she calls upon the bands of captive mothers, and buries her fingers in his treacherous eyes and drives the eyeballs out of their sockets (anger makes her a doer of harm)",
+   "i": "and so, once he is seized, she calls up the crowds of captive mothers, and sinks her fingers into his treacherous eyes and forces the eyeballs from their sockets — rage makes her one who does harm —",
+   "n": "‘correpto’ is a perfect passive participle in the ablative with nothing expressed for it to agree with — ‘agmina’ belongs to ‘invocat’ as its object — so it stands as an ablative absolute on its own, “with him seized”, and the person seized has to be supplied from 558–559, where the man speaking and swearing falsely is Polymestor. ‘perfida lumina’ “treacherous eyes” carries the man's treachery over to the part of him she attacks. ‘genis’ is ablative of separation, “out of the sockets”. The parenthesis is the narrator's aside: Magnus prints ‘nocentem’, “anger makes her one who does harm”, where some editions print ‘potentem’, “anger makes her strong”.",
+   "v": true,
+   "ln": 560
+  },
+  {
+   "t": "immergitque manus, foedataque sanguine sonti\nnon lumen (neque enim superest), loca luminis haurit.",
+   "l": "and she plunges her hands in, and, befouled with the guilty blood, she scoops out not the eye — for none is left — but the places of the eye.",
+   "i": "and she plunges her hands in, and, fouled with the guilty man's blood, she scoops out not the eye — for none remains — but the sockets where the eye had been.",
+   "n": "‘foedata’ is a perfect participle agreeing with Hecuba, “befouled”. ‘sanguine sonti’ is “guilty blood”, the blood called guilty because the man is; ‘sons’ is the legal word for a guilty party. The correction ‘non lumen … loca luminis’ is the whole point of the sentence: there is nothing left to take out, so she takes out the place. ‘haurit’ is the verb of drawing water from a well, and it picks up ‘hauriret’ at 535, the purpose clause of her asking for an urn at 534.",
+   "v": true,
+   "ln": 563
+  },
+  {
+   "t": "Clade sui Thracum gens inritata tyranni\nTroada telorum lapidumque incessere iactu\ncoepit.",
+   "l": "The nation of the Thracians, provoked by the disaster of their own tyrant, began to assail the Trojan woman with a throwing of spears and stones.",
+   "i": "The Thracian people, roused by the calamity of their own king, began to attack the Trojan woman with a hail of spears and stones.",
+   "n": "‘Troada’ is a Greek accusative singular, “the Trojan woman” — Hecuba named by her city rather than by her name. ‘clade sui … tyranni’ is ablative of cause with ‘inritata’, and ‘sui’ stands four words before ‘tyranni’, which closes line 565. ‘incessere’ here is the present infinitive after ‘coepit’, “began to assail”, not the poetic third-plural perfect in ‘-ere’ that the same ending can mark. ‘iactu’ is ablative of means with the two genitives ‘telorum lapidumque’ depending on it.",
+   "p": true,
+   "v": true,
+   "ln": 565
+  },
+  {
+   "t": "At haec missum rauco cum murmure saxum\nmorsibus insequitur, rictuque in verba parato\nlatravit, conata loqui:",
+   "l": "But she pursues with bites the stone thrown with a hoarse growl, and, with her gape made ready for words, she barked, having tried to speak:",
+   "i": "But she snaps with her teeth at the stone flung with a hoarse growl, and, with her jaws set for words, she barked when she tried to speak:",
+   "n": "The transformation is not announced in these lines; it arrives inside the verbs. ‘morsibus insequitur’ “pursues with bites” and ‘latravit’ “barked” are the first signs that she is a dog. ‘rauco cum murmure’ stands beside ‘missum … saxum’ and may be taken with the throwing of the stone or with her own growling as she snaps at it; the Latin does not decide. ‘rictus’ is the open gape of an animal's mouth, and ‘conata’ is the perfect participle of the deponent ‘conor’, active in sense, “having tried”.",
+   "v": true,
+   "ln": 567
+  },
+  {
+   "t": "locus exstat et ex re\nnomen habet, veterumque diu memor illa malorum\ntum quoque Sithonios ululavit maesta per agros.",
+   "l": "the place still stands and has its name from the thing, and she, long mindful of her old ills, then too howled in mourning through the Sithonian fields.",
+   "i": "the place is still there and takes its name from what happened; and she, remembering her old sufferings long afterwards, howled in her grief even then through the Sithonian fields.",
+   "n": "‘exstat’ keeps the edition's older spelling with ‘-xst-’. The poem gives the aetiology and pointedly withholds the name — ‘ex re nomen habet’ “it has its name from the event” — and leaves the reader to supply it. ‘memor’ takes the genitive ‘veterum … malorum’, “mindful of old ills”, with adjective and noun split around it. ‘Sithonios’ is another name for Thracian, and ‘maesta’ is a nominative adjective doing adverbial work, “in mourning”.",
+   "v": true,
+   "ln": 569
+  },
+  {
+   "t": "illius Troasque suos hostesque Pelasgos,\nillius fortuna deos quoque moverat omnes,",
+   "l": "her fortune had moved the Trojan women, her own people, and her enemies the Pelasgians; her fortune had moved all the gods too,",
+   "i": "her fate had moved the women of Troy, her own people, and the Pelasgian Greeks who were her enemies; it had moved all the gods as well,",
+   "n": "Lines 572 and 573 begin with the same word, ‘illius’ “hers”, and the single verb ‘moverat’ in 573 serves both: the noun ‘fortuna’ appears only in the second line and is read back into the first. ‘Troas’ is a Greek accusative plural, “the Trojan women”; ‘suos’ makes them her own people, and ‘hostes … Pelasgos’ sets the Greeks against them, ‘Pelasgi’ being an old name for them. The archived edition opens the new sentence at 572 with a lowercase ‘illius’ after the full stop at the end of 571; Lectorium ships it as printed.",
+   "v": true,
+   "ln": 572
+  },
+  {
+   "t": "sic omnes, ut et ipsa Iovis coniunxque sororque\neventus Hecubam meruisse negaverit illos.",
+   "l": "all of them so far that even she herself, the wife and sister of Jupiter, denied that Hecuba had deserved those outcomes.",
+   "i": "moved them so far that even Jupiter's own wife and sister denied that Hecuba had deserved such an end.",
+   "n": "‘sic … ut’ with the subjunctive ‘negaverit’ is a result clause, “so far that she denied”. ‘Iovis coniunxque sororque’ is Juno, named by her titles as Jupiter's wife and sister and not by her name; she was Troy's chief enemy, which is what makes the concession the close of the tale. ‘Hecubam … meruisse … illos’ is accusative and infinitive after ‘negaverit’, and ‘eventus’ is a fourth-declension accusative plural picking up ‘eventu’ from 506. Magnus prints the Latin accusative ‘Hecubam’; some editions print the Greek ‘Hecaben’.",
+   "v": true,
+   "ln": 574
+  }
+ ],
+ "glossaryFile": "metamorphoses-glossary.json",
+ "advisory": null
+}

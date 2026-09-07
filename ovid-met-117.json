@@ -1,0 +1,510 @@
+{
+ "id": "ovid-met-117",
+ "sourceId": "ovid-met-117",
+ "title": "Pythagoras",
+ "titleEn": "The Teaching of Pythagoras — Metamorphoses XV.60–198",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 8719b7d375018d4f. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
+ "about": "A Samian exile, self-banished out of hatred of tyranny, settles here and gives out to silent and marvelling gatherings the first beginnings of the world, the causes of things, and whatever else lies hidden. He is the first to denounce the eating of flesh, and his speech opens with the earth's bloodless plenty, the golden age that never stained its lips with blood, the ingratitude of taking an axe to the plough-ox, and the sacrificial victim that hears the prayer and sees the grain laid on its own brow without knowing what is coming. Then he turns from diet to doctrine: souls do not die but pass from body to body, and he himself remembers having been Euphorbus at Troy and recognising his own shield in Juno's temple at Argos. All things change and nothing perishes; time runs on like a river in which wave drives wave, and neither the night sky nor the sun nor the moon keeps one look from hour to hour.",
+ "sentences": [
+  {
+   "t": "Vir fuit hic, ortu Samius, sed fugerat una\net Samon et dominos odioque tyrannidis exsul\nsponte erat,",
+   "l": "A man there was here, Samian by his birth, but he had fled at one and the same time both Samos and its masters, and out of hatred of tyranny he was an exile of his own will,",
+   "i": "There was a man here, a Samian by birth; but he had fled both Samos and its masters together, and of his own accord had made himself an exile out of hatred of tyranny,",
+   "n": "Samon is the Greek accusative of Samos, kept in its Greek shape as Latin verse regularly keeps Greek names; you will meet more of these. ortu is an ablative of respect, “as to his birth”. odio is ablative of cause and sponte ablative of manner, both hanging on the plain exsul erat, “he was an exile”, which Latin says with a noun where English wants a verb.",
+   "v": true,
+   "ln": 60
+  },
+  {
+   "t": "isque, licet caeli regione remotos,\nmente deos adiit et quae natura negabat\nvisibus humanis, oculis ea pectoris hausit,",
+   "l": "and he — though they were far off in the region of the sky — approached the gods with his mind, and what nature was denying to human sight, those things he drank in with the eyes of the breast,",
+   "i": "and he approached the gods with his mind, remote though they were in their quarter of the sky; and what nature denied to human eyesight, that he drank in with the eyes of the heart,",
+   "n": "licet caeli regione remotos is concessive with its verb left unexpressed; remotos is accusative because it agrees with deos, the object of adiit: “although they were far off”. quae natura negabat ... ea is the common verse order in which the relative clause runs ahead of the pronoun that answers it; English has to put “what” first and “that” second. hausit, “drained, drank in”, is a perfect against the imperfect negabat.",
+   "v": true,
+   "ln": 62
+  },
+  {
+   "t": "cumque animo et vigili perspexerat omnia cura,\nin medium discenda dabat coetusque silentum\ndictaque mirantum magni primordia mundi\net rerum causas et, quid natura, docebat,",
+   "l": "and when he had looked through all things with his mind and with watchful care, he gave them out into the midst to be learned, and he taught gatherings of men keeping silence and marvelling at his words the first beginnings of the great world and the causes of things, and what nature is,",
+   "i": "and when he had searched everything out with his mind and with vigilant care, he set it forth in public to be learned; and to gatherings that kept silence and marvelled at his words he taught the first beginnings of the great world, and the causes of things, and what nature is,",
+   "n": "discenda is a gerundive, “things to be learned”, the object of dabat. docebat takes two accusatives at once, the people taught (coetus) and the matter taught (primordia, causas): Latin allows this with docere where English needs “teach somebody something”. silentum and mirantum are genitive plurals of the participles, “of men keeping silence and marvelling”, with dicta as the object of mirantum.",
+   "v": true,
+   "ln": 65
+  },
+  {
+   "t": "quid deus, unde nives, quae fulminis esset origo,\nIuppiter an venti discussa nube tonarent,\nquid quateret terras, qua sidera lege mearent —\net quodcumque latet;",
+   "l": "what a god is, whence the snows, what the origin of the lightning was, whether Jupiter or the winds thundered when the cloud had been shattered, what shook the lands, by what law the stars travelled — and whatever lies hidden;",
+   "i": "what a god is, where the snows come from, what the origin of the thunderbolt was, whether it is Jupiter that thunders or the winds when a cloud is burst apart, what shakes the earth, by what law the stars move — and whatever else lies hidden;",
+   "n": "The string of indirect questions carries on from docebat, and their verbs stand in the subjunctive (esset, tonarent, quateret, mearent) because they are reported rather than asked. discussa nube is an ablative absolute — a noun and a participle boxed off on their own, “with the cloud shattered”, where English wants a clause; the construction is everywhere in this poem and will only be nudged at hereafter. latet, by contrast, is indicative: quodcumque latet is not a question but a plain relative, “whatever lies hidden”.",
+   "v": true,
+   "ln": 69
+  },
+  {
+   "t": "primusque animalia mensis\narguit imponi, primus quoque talibus ora\ndocta quidem solvit, sed non et credita, verbis:",
+   "l": "and he was the first to charge that animals were set upon the tables, the first also to open lips learned indeed, but not believed as well, in words such as these:",
+   "i": "and he was the first to denounce the setting of animals on the table, and the first, too, to open lips that were learned indeed but were not therefore believed, in words like these:",
+   "n": "primus ... primus, “first ... first”, is predicative: Latin says “he first charged” where English says “he was the first to charge”. arguit takes an accusative and infinitive, animalia imponi, “that animals were being placed”. docta and credita are neuter plurals agreeing with ora, “lips”, not with verbis. Watch quoque: here it is the adverb “also”, but the same six letters can be quo + -que, “and by which”, and the trap is worth remembering.",
+   "v": true,
+   "ln": 72
+  },
+  {
+   "t": "“Parcite, mortales, dapibus temerare nefandis\ncorpora!",
+   "l": "“Forbear, mortals, to defile your bodies with unspeakable feasts!",
+   "i": "“Leave off, mortals, profaning your bodies with abominable banquets!",
+   "n": "The speech opens and is not closed again within this part. parcere with an infinitive means “forbear to”, “leave off doing”, not “spare” a person; the construction is the whole force of the line. dapibus ... nefandis is ablative of means, and nefandus is literally “not to be spoken of”, the word Latin keeps for what religion forbids. corpora is held back to the head of the next line for the shock of it.",
+   "p": true,
+   "v": true,
+   "ln": 75
+  },
+  {
+   "t": "Sunt fruges, sunt deducentia ramos\npondere poma suo tumidaeque in vitibus uvae,\nsunt herbae dulces, sunt quae mitescere flamma\nmollirique queant;",
+   "l": "There are grain-crops, there are apples drawing the branches down with their own weight, and swelling grapes upon the vines; there are sweet herbs, there are things that can grow mellow by flame and be softened;",
+   "i": "There is grain; there are apples that bend the boughs down with their own weight, and grapes swelling on the vines; there are sweet green things, and others that can grow mellow in the fire and be made soft;",
+   "n": "Four times sunt stands first in its clause: the anaphora is the argument, a list of what is already there for the taking. deducentia is a present participle agreeing with poma and governing ramos. sunt quae ... queant, “there are things such as can”, uses the subjunctive because the clause describes a kind rather than points at particular apples; mitescere is active and molliri passive, both hanging on queant.",
+   "v": true,
+   "ln": 76
+  },
+  {
+   "t": "nec vobis lacteus umor\neripitur, nec mella thymi redolentia flore:",
+   "l": "nor is the milky liquid torn away from you, nor honey fragrant with the flower of thyme:",
+   "i": "nor is the milky liquid wrested from you, nor honey breathing the scent of the thyme-blossom:",
+   "n": "vobis is a dative of separation with eripitur — Latin takes the thing away “to” the loser where English says “from”. lacteus umor, “the milky liquid”, is a deliberate periphrasis for milk, keeping the diet abstract and bloodless. redolentia is a neuter plural participle agreeing with mella, honey, which Latin has as a plural.",
+   "v": true,
+   "ln": 79
+  },
+  {
+   "t": "prodiga divitias alimentaque mitia tellus\nsuggerit atque epulas sine caede et sanguine praebet.",
+   "l": "lavish, the earth heaps up riches and gentle nourishment and furnishes banquets without slaughter and blood.",
+   "i": "the earth is lavish: she piles up riches and kindly food, and sets out feasts without slaughter or blood.",
+   "n": "prodiga stands first and is predicative, “the earth, lavish as she is”. mitia of food means “mild, unbloody”, the opposite of the flesh-diet under attack. sine caede et sanguine is one idea in two nouns, slaughter-and-blood, and the phrase is the hinge on which the whole speech turns.",
+   "v": true,
+   "ln": 81
+  },
+  {
+   "t": "Carne ferae sedant ieiunia, nec tamen omnes:\nquippe equus et pecudes armentaque gramine vivunt.",
+   "l": "With flesh wild beasts settle their hungers, and yet not all of them: since indeed the horse and the flocks and the herds live on grass.",
+   "i": "Wild beasts stay their hunger with flesh — and yet not all of them: the horse, the flocks and the herds live on grass.",
+   "n": "ieiunia, literally “fastings”, is a plural for a singular and means the pangs, not the abstinence. carne and gramine are both ablatives of means. quippe introduces the ground for the exception just made, “for of course”.",
+   "v": true,
+   "ln": 83
+  },
+  {
+   "t": "At quibus ingenium est inmansuetumque ferumque,\nArmeniae tigres iracundique leones\ncumque lupis ursi, dapibus cum sanguine gaudent.",
+   "l": "But those to whom there is a nature untamed and wild — Armenian tigers and wrathful lions, and bears together with wolves — take joy in feasts with blood.",
+   "i": "But those whose nature is untamed and savage — Armenian tigers, angry lions, bears along with wolves — take their pleasure in bloody feasts.",
+   "n": "quibus ingenium est is the dative of the possessor: Latin says “to whom there is a nature” for “whose nature is”. The relative has no antecedent expressed, so it supplies its own, “those to whom”. The doubled -que in inmansuetumque ferumque links the pair as “both ... and”. Armeniae is a stock geographical epithet for tigers and says nothing about the people of Armenia.",
+   "v": true,
+   "ln": 85
+  },
+  {
+   "t": "Heu quantum scelus est in viscera viscera condi\ncongestoque avidum pinguescere corpore corpus\nalteriusque animantem animantis vivere leto!",
+   "l": "Alas, how great a wickedness it is for flesh to be buried in flesh, for a greedy body to grow fat on a body heaped into it, and for a living thing to live by the death of another living thing!",
+   "i": "Alas, what wickedness it is — flesh laid away inside flesh, a greedy body fattening on a body crammed into it, one living creature living by another living creature's death!",
+   "n": "Three accusative-and-infinitive phrases (viscera condi, corpus pinguescere, animantem vivere) are together the subject of scelus est, “it is a crime that ...”. The argument is carried by the repetition: viscera beside viscera, corpus beside corpore, animantem beside animantis, the same word in two cases so that eater and eaten are made the same thing. congesto ... corpore is an ablative of means with pinguescere, not an ablative absolute — it is the body one grows fat on. The second witness reads animans for animantem, which would leave vivere without an accusative subject.",
+   "v": true,
+   "ln": 88
+  },
+  {
+   "t": "Scilicet in tantis opibus, quas optima matrum\nterra parit, nil te nisi tristia mandere saevo\nvulnera dente iuvat ritusque referre Cyclopum,",
+   "l": "Doubtless, amid riches so great, which the earth, best of mothers, brings forth, nothing delights you but to chew grim wounds with a savage tooth and to bring back the practices of the Cyclopes,",
+   "i": "So then, amid riches so great, which the earth, best of mothers, brings forth, nothing pleases you but to grind up grim wounds with a savage tooth and to bring back the ways of the Cyclopes;",
+   "n": "scilicet, “doubtless”, is sarcastic and sets the tone of the whole question. nil is the subject of iuvat and te its object, “nothing delights you”, with the infinitives mandere and referre standing after nisi as the one thing that does. optima matrum is a partitive genitive, “best of mothers”. tristia vulnera, “grim wounds”, is the meat itself, named as the injury that made it. The Cyclopes of legend ate human flesh, which is what makes the comparison an insult.",
+   "v": true,
+   "ln": 91
+  },
+  {
+   "t": "nec, nisi perdideris alium, placare voracis\net male morati poteris ieiunia ventris?",
+   "l": "and, unless you shall have destroyed some other creature, you will not be able to appease the hungers of your voracious and ill-mannered belly?",
+   "i": "and unless you have destroyed some other creature, you cannot quiet the hunger of that greedy, ill-mannered belly of yours?",
+   "n": "perdideris is a future perfect in the protasis, the ordinary Latin way of saying “unless you first do X” about the future. morati here is not from moror, “delay”, but the adjective moratus from mos, “manners”: male moratus is “badly behaved”, and it is the belly, not the man, that is given the character. ieiunia repeats the word from line 83, closing the argument on itself.",
+   "v": true,
+   "ln": 94
+  },
+  {
+   "t": "At vetus illa aetas, cui fecimus aurea nomen,\nfetibus arboreis et, quas humus educat, herbis\nfortunata fuit nec polluit ora cruore.",
+   "l": "But that old age, for which we have made the name “golden”, was blessed with the fruits of trees and with the plants which the ground brings up, and did not pollute its lips with gore.",
+   "i": "But that ancient age, to which we have given the name of Gold, was happy in the fruit of trees and in the plants the soil sends up, and did not stain its lips with gore.",
+   "n": "cui fecimus ... nomen is “we made a name for it”, with the dative; aurea is nominative feminine, pulled into agreement with aetas rather than with the neuter nomen, which is how Latin often handles a name quoted inside a sentence. fetibus and herbis are ablatives with fortunata, “blessed in”. educat is present indicative of educare, first conjugation, not a subjunctive.",
+   "p": true,
+   "v": true,
+   "ln": 96
+  },
+  {
+   "t": "Tunc et aves tutae movere per aera pennas,\net lepus impavidus mediis erravit in arvis,\nnec sua credulitas piscem suspenderat hamo:",
+   "l": "Then the birds too, safe, moved their feathers through the air, and the hare wandered fearless in the middle of the fields, nor had its own trustfulness hung the fish upon the hook:",
+   "i": "Then birds too moved their wings through the air in safety, and the hare strayed unafraid in the open fields, and its own trustfulness had not hung the fish upon the hook:",
+   "n": "movere is movērunt, the poetic third-person plural perfect in -ēre; verse uses it constantly for the metre and it will be met again in this speech. tutae and impavidus are adjectives where English wants adverbs, “safely”, “fearlessly”. sua credulitas makes the fish's own trust the agent of its death, which is the cruellest way of putting it.",
+   "v": true,
+   "ln": 99
+  },
+  {
+   "t": "cuncta sine insidiis nullamque timentia fraudem\nplenaque pacis erant.",
+   "l": "all things were without ambush, and fearing no treachery, and full of peace.",
+   "i": "everything lived free of ambush, fearing no treachery, and full of peace.",
+   "n": "timentia and plena are neuter plural, standing as predicates beside the prepositional phrase sine insidiis, so that a participle, an adjective and a phrase are all yoked to the one verb erant. plenus takes the genitive, pacis.",
+   "v": true,
+   "ln": 102
+  },
+  {
+   "t": "Postquam non utilis auctor\nvictibus invidit, quisquis fuit ille, deorum\ncorporeasque dapes avidam demersit in alvum,\nfecit iter sceleri,",
+   "l": "After an instigator of no good grudged us our foods — whoever of the gods he was — and sank fleshly feasts into the greedy belly, he made a road for crime,",
+   "i": "After some instigator of no good — whichever of the gods it was — grudged us our food, and buried feasts of flesh in the greedy belly, he opened a road for crime;",
+   "n": "invidere takes the dative of the thing begrudged, victibus. auctor at the end of 103 waits for its genitive deorum at the end of 104, across the verb and the parenthesis quisquis fuit ille. corporeas dapes is “feasts made of body”, an ugly phrase on purpose. sceleri is dative with fecit iter, “made a road for”. The second witness reads leonum, “of the lions”, for deorum, which would make the first flesh-eater a beast rather than a god.",
+   "v": true,
+   "ln": 103
+  },
+  {
+   "t": "primoque e caede ferarum\nincaluisse potest maculatum sanguine ferrum\n(idque satis fuerat),",
+   "l": "and from the first slaughter of wild beasts the iron, stained with blood, may have grown warm (and that had been enough),",
+   "i": "and it may be that the blade first grew warm from the killing of wild beasts, stained with their blood — and that would have been enough —",
+   "n": "potest incaluisse is the present of posse with a perfect infinitive: not “is able to have”, but “it may be that it did”, a guess about the past. maculatum sanguine agrees with ferrum. fuerat is a plain pluperfect indicative where English reaches for “would have been enough”; Latin prefers the indicative for what was in fact sufficient and was not accepted as such.",
+   "v": true,
+   "ln": 106
+  },
+  {
+   "t": "nostrumque petentia letum\ncorpora missa neci salva pietate fatemur:",
+   "l": "and we confess that bodies seeking our own destruction were sent to slaughter with piety unharmed:",
+   "i": "and we admit that creatures which sought our own death were sent to their killing without wrong done to piety:",
+   "n": "petentia is a present participle agreeing with corpora and governing letum, “seeking our death”. corpora missa [esse] neci is the accusative and infinitive after fatemur, with neci a dative of the end, “sent for slaughter”. salva pietate is an ablative absolute made of a noun and an adjective with no participle at all, “piety being unharmed”.",
+   "v": true,
+   "ln": 108
+  },
+  {
+   "t": "sed quam danda neci, tam non epulanda fuerunt.",
+   "l": "but in the measure that they had to be given over to death, in that measure they were not to be feasted upon.",
+   "i": "but though they had to be put to death, they were not for that reason to be eaten.",
+   "n": "quam ... tam is the correlative pair, “as much as ... so much”, used here to concede one thing and refuse another. danda and epulanda are gerundives of obligation with fuerunt. epulari is deponent — passive in form, active in meaning — yet its gerundive is passive like any other, so epulanda is “to be feasted upon”, not “to feast”.",
+   "v": true,
+   "ln": 110
+  },
+  {
+   "t": "Longius inde nefas abiit, et prima putatur\nhostia sus meruisse mori, quia semina pando\neruerit rostro spemque interceperit anni.",
+   "l": "From there the abomination went further, and the sow is thought to have deserved to die as the first sacrificial victim, because she had rooted up the seeds with her bent snout and cut short the year's hope.",
+   "i": "From there the sacrilege went further: the sow is held to have been the first victim to deserve death, because she rooted the seed out with her curved snout and cut off the hope of the year.",
+   "n": "putatur takes a nominative and infinitive, sus ... meruisse mori, “the sow is thought to have deserved to die”, with prima hostia predicative. The verbs of the quia clause, eruerit and interceperit, are subjunctive because the reason is the one people gave, reported and not vouched for by the speaker — who plainly does not accept it.",
+   "p": true,
+   "v": true,
+   "ln": 111
+  },
+  {
+   "t": "Vite caper morsa Bacchi mactatus ad aras\ndicitur ultoris; nocuit sua culpa duobus!",
+   "l": "The goat, a vine having been gnawed, is said to have been slaughtered at the altars of avenging Bacchus; their own fault harmed the two of them!",
+   "i": "The goat, for gnawing a vine, is said to have been slaughtered at the altars of Bacchus the avenger; its own fault harmed them both!",
+   "n": "vite morsa is another ablative absolute. The genitive Bacchi stands in the middle of 114 and its adjective ultoris only in 115, second word, behind dicitur, so the god's title arrives a line after his name. duobus, dative with nocuit, means the two beasts just named, the sow and the goat. The second witness reads mactandus ... ducitur, “is led to be sacrificed”, turning a finished killing into one about to happen.",
+   "v": true,
+   "ln": 114
+  },
+  {
+   "t": "Quid meruistis oves, placidum pecus, inque tuendos\nnatum homines, pleno quae fertis in ubere nectar,\nmollia quae nobis vestras velamina lanas\npraebetis vitaque magis quam morte iuvatis?",
+   "l": "What have you deserved, sheep, a peaceable flock, and born for the guarding of men, you who carry nectar in a full udder, who furnish us your wool as soft coverings, and who help us by your life more than by your death?",
+   "i": "What have you done to deserve it, sheep — a gentle flock, born to look after mankind — you who carry nectar in a swollen udder, who give us your wool for soft clothing, and who serve us more by living than by dying?",
+   "n": "The speaker turns aside and addresses the animals themselves: this is apostrophe, and the change of person is the pressure of the argument. in tuendos homines natum is a gerundive after in expressing purpose, “born for the guarding of men”: tuendos agrees with homines, which makes men the ones tended and the sheep the tenders, not the other way about. natum is neuter, agreeing with pecus, but the relatives quae and the verbs fertis, praebetis, iuvatis are feminine plural and second person, reaching back past pecus to oves — sense wins over strict agreement. lanas is set beside velamina as a second accusative, “your wool as soft coverings”.",
+   "v": true,
+   "ln": 116
+  },
+  {
+   "t": "Quid meruere boves, animal sine fraude dolisque,\ninnocuum, simplex, natum tolerare labores?",
+   "l": "What have oxen deserved, a creature without deceit and without guile, harmless, plain, born to endure toils?",
+   "i": "What have oxen deserved — a beast without fraud or trickery, harmless and simple, born to bear hard labour?",
+   "n": "meruere is meruerunt again, the same poetic perfect as movere in 99. animal is singular in apposition to the plural boves, treating the ox as a kind rather than a herd. natum tolerare uses a bare infinitive for purpose after natum, a verse liberty where prose would want ad tolerandos labores or ut toleraret.",
+   "v": true,
+   "ln": 120
+  },
+  {
+   "t": "Inmemor est demum nec frugum munere dignus,\nqui potuit curvi dempto modo pondere aratri\nruricolam mactare suum,",
+   "l": "Forgetful indeed is he, and not worthy of the gift of the crops, who could, the weight of the curved plough only just lifted off, slaughter his own field-hand,",
+   "i": "Ungrateful indeed is the man, and unworthy of the gift of the harvest, who could butcher his own farmhand with the weight of the curved plough only just lifted from him,",
+   "n": "inmemor is “forgetful”, and forgetful of a kindness is what Latin means by ungrateful; demum here is intensive, “indeed”, not the temporal “at last”. dignus takes the ablative, frugum munere. dempto modo pondere aratri is an ablative absolute with modo as the adverb “only just”, fixing the killing to the moment the day's work ends. ruricolam suum calls the ox the man's own tiller of the soil — the metaphor is the argument, and it returns at 142.",
+   "v": true,
+   "ln": 122
+  },
+  {
+   "t": "qui trita labore\nilla, quibus totiens durum renovaverat arvum,\ntot dederat messes, percussit colla securi.",
+   "l": "who struck with the axe those necks, worn away by toil, with which he had so often renewed the hard field and had given so many harvests.",
+   "i": "who took the axe to those necks, worn out with labour, with which he had broken the hard field anew so many times and brought in so many harvests.",
+   "n": "The phrase trita ... illa ... colla is spread over three lines — trita near the end of 124, illa at the head of 125, colla in 126 — with the relative clause quibus ... arvum planted inside it. The subject of renovaverat and dederat is still qui, the farmer: he did it by means of those necks (quibus, ablative of means). securi is likewise ablative of means.",
+   "v": true,
+   "ln": 124
+  },
+  {
+   "t": "Nec satis est, quod tale nefas committitur:",
+   "l": "Nor is it enough that such an abomination is committed:",
+   "i": "It is not enough that such a sacrilege is done:",
+   "n": "quod with the indicative here is the “fact that” clause, the thing that is not enough. nefas is the strongest word available: what divine law forbids, the unspeakable.",
+   "p": true,
+   "v": true,
+   "ln": 127
+  },
+  {
+   "t": "ipsos\ninscripsere deos sceleri, numenque supernum\ncaede laboriferi credunt gaudere iuvenci.",
+   "l": "they have written the gods themselves upon the crime, and they believe that the power on high rejoices in the slaughter of the labour-bearing bullock.",
+   "i": "they have set the gods' own names to the crime, and they believe that the power above delights in the killing of the hard-working young ox.",
+   "n": "inscripsere is inscripserunt, the poetic perfect again. inscribere takes a dative of what the name is written against, sceleri, as one enters a charge. numen supernum ... gaudere is an accusative and infinitive after credunt. The genitive laboriferi ... iuvenci is wrapped around credunt gaudere inside line 129, so the ox's toil and the god's pleasure sit in the same breath.",
+   "v": true,
+   "ln": 127
+  },
+  {
+   "t": "Victima labe carens et praestantissima forma\n(nam placuisse nocet) vittis insignis et auro\nsistitur ante aras",
+   "l": "The victim, lacking blemish and most excellent in form (for having pleased is what harms it), marked out with fillets and with gold, is set before the altars",
+   "i": "The victim, without blemish and outstanding in form — for it is having pleased that does it harm — conspicuous with fillets and with gold, is stationed before the altars",
+   "n": "carens takes the ablative, labe; praestantissima forma is an ablative of respect, “finest as to shape”. nam placuisse nocet has a perfect infinitive as its subject, “to have given pleasure does harm” — the beast is chosen because it is beautiful. vittae are the woollen bands that mark a beast as already consecrated, and the gold is the ornament that goes with them.",
+   "v": true,
+   "ln": 130
+  },
+  {
+   "t": "auditque ignara precantem\nimponique suae videt inter cornua fronti,\nquas coluit, fruges percussaque sanguine cultros\ninficit in liquida praevisos forsitan unda.",
+   "l": "and, knowing nothing, hears the man praying, and sees placed upon its own brow between its horns the grain which it tended, and, struck, stains with blood the knives which it had perhaps seen beforehand in the clear water.",
+   "i": "and hears, all unknowing, the man at his prayer, and sees the grain it tended itself laid on its brow between its horns; then, struck, it stains with its blood the knives it had perhaps caught sight of beforehand in the clear water.",
+   "n": "ignara and percussa are feminine, agreeing with victima, and each does the work of an English clause: “not knowing what is coming”, “once it has been struck”. imponi ... fruges is an accusative and infinitive after videt, with the relative quas coluit cut in ahead of its own antecedent fruges. The grain is the meal scattered on the victim's head before the blow — grain the ox itself helped to grow. forsitan qualifies praevisos, not inficit: the knives may or may not have been seen mirrored in the water.",
+   "v": true,
+   "ln": 132
+  },
+  {
+   "t": "Protinus ereptas viventi pectore fibras\ninspiciunt mentesque deum scrutantur in illis:",
+   "l": "At once they examine the fibres torn out from the still-living breast, and they search the minds of the gods in them:",
+   "i": "At once they scrutinise the organs torn from the breast while it is still living, and search out in them the purposes of the gods:",
+   "n": "deum is deorum, the shortened genitive plural that verse keeps for convenience; do not read it as the accusative singular. viventi pectore is an ablative of separation with ereptas. fibrae are the lobes of the liver and the other organs that the diviner reads, and inspiciunt has no expressed subject: it is the sacrificers, “they”, as with inscripsere and credunt just above.",
+   "v": true,
+   "ln": 136
+  },
+  {
+   "t": "unde (fames homini vetitorum tanta ciborum!)\naudetis vesci, genus o mortale?",
+   "l": "from which — so great is a man's hunger for forbidden foods! — do you dare to feed, O mortal race?",
+   "i": "and from these you dare to eat — such is the hunger a man has for forbidden food — O race of mortals?",
+   "n": "unde, “from which”, points back to the entrails just handled. vesci is a deponent infinitive, active in sense though passive in form. The parenthesis is an exclamation with no verb, and homini is a dative of the possessor, “the hunger a man has”. In genus o mortale the interjection stands inside the vocative phrase instead of before it, a verse arrangement.",
+   "v": true,
+   "ln": 138
+  },
+  {
+   "t": "Quod, oro,\nne facite, et monitis animos advertite nostris!",
+   "l": "Do not, I beg, do that, and turn your minds to my warnings!",
+   "i": "Do not do it, I beg you, and give heed to my warnings!",
+   "n": "Quod is a connecting relative — a relative pronoun opening a new sentence where English uses “and that” or simply “it”; you will meet it constantly. ne facite forbids with ne and the plain imperative, an old and poetic turn where prose would say noli facere. nostris is a plural for a singular, “my”.",
+   "v": true,
+   "ln": 139
+  },
+  {
+   "t": "Cumque boum dabitis caesorum membra palato,\nmandere vos vestros scite et sentite colonos.",
+   "l": "And when you shall give the limbs of slaughtered oxen to your palate, know and feel that you are chewing your own farm-workers.",
+   "i": "And when you set the limbs of slaughtered oxen before your palate, know it and feel it: you are grinding up your own farmhands.",
+   "n": "dabitis is future and scite et sentite are imperatives, so the Latin sets the eating and the command to understand it side by side. mandere vos ... colonos is one accusative and infinitive serving both imperatives. colonos, “tillers, farm-workers”, picks up ruricolam suum from 124 and shuts the argument: the animal and the man who eats it did the same work.",
+   "v": true,
+   "ln": 141
+  },
+  {
+   "t": "Et quoniam deus ora movet, sequar ora moventem\nrite deum Delphosque meos ipsumque recludam\naethera et augustae reserabo oracula mentis.",
+   "l": "And since a god moves my lips, I shall follow duly the god who moves them, and I shall open up my own Delphi and the upper air itself, and unbar the oracles of a majestic mind.",
+   "i": "And since a god stirs my lips, I shall duly follow that god who stirs them; I shall throw open my own Delphi and the heavens themselves, and unlock the oracles of an exalted mind.",
+   "n": "ora stands twice in 143, first as the object of movet, then as the object of the participle moventem; the participle at the end of 143 waits for its noun deum in 144, with rite pushed in between. Delphos meos claims the god's own oracle for the speaker's own mouth, and augustae mentis is his own mind called august.",
+   "p": true,
+   "v": true,
+   "ln": 143
+  },
+  {
+   "t": "Magna nec ingeniis investigata priorum\nquaeque diu latuere, canam;",
+   "l": "Great things, and things not tracked out by the talents of earlier men, and things which long lay hidden, I shall sing;",
+   "i": "Great matters, never tracked down by the wits of earlier men, things long hidden, I shall sing;",
+   "n": "Magna is a neuter plural adjective used as a noun, the object of canam, with investigata agreeing with it; the relative clause quaeque ... latuere adds a second object. Latin can do without a noun where English wants “things”. latuere is latuerunt, the same poetic perfect already met at 99, 120 and 128.",
+   "v": true,
+   "ln": 146
+  },
+  {
+   "t": "iuvat ire per alta\nastra, iuvat terris et inerti sede relicta\nnube vehi validique umeris insistere Atlantis",
+   "l": "it is a delight to go among the high stars, a delight, the earth and its sluggish seat left behind, to be carried on a cloud and to stand upon the shoulders of mighty Atlas",
+   "i": "there is joy in travelling among the high stars, joy in leaving the earth and its dull dwelling behind, riding upon a cloud and taking one's stand on the shoulders of mighty Atlas",
+   "n": "iuvat is impersonal, “it is a pleasure”, with the infinitives as its subject. terris et inerti sede relicta is an ablative absolute in which the participle relicta is singular and feminine, agreeing with the nearer noun sede while terris hangs on it too. vehi is passive, “to be carried”, and insistere takes the dative umeris.",
+   "v": true,
+   "ln": 147
+  },
+  {
+   "t": "palantesque homines passim ac rationis egentes\ndespectare procul trepidosque obitumque timentes\nsic exhortari seriemque evolvere fati:",
+   "l": "and to look down from far off on men straying everywhere and in want of reason, and so to exhort them, trembling and fearing their end, and to unroll the sequence of fate:",
+   "i": "and to look down from far off on men straying everywhere for want of reason, and so to urge them on, frightened as they are and dreading their end, and to unroll the ordered course of fate:",
+   "n": "palantes, egentes, trepidos and timentes are all accusative plurals agreeing with homines and carried by despectare and exhortari. egere takes the genitive, rationis. obitum is the object of the participle timentes. evolvere is the word for unrolling a book-scroll, so fate is read out rather than merely told.",
+   "v": true,
+   "ln": 150
+  },
+  {
+   "t": "O genus attonitum gelidae formidine mortis,\nquid Styga, quid manes et nomina vana timetis,\nmateriem vatum, falsique pericula mundi?",
+   "l": "O race thunderstruck by the dread of chill death, why do you fear the Styx, why the shades and hollow names, the raw material of poets, and the perils of a false world?",
+   "i": "O race stunned by terror of cold death, why do you fear the Styx, why the shades and empty names — matter for poets, and the dangers of a world that is not there?",
+   "n": "Styga is a Greek accusative of Styx, kept in its Greek shape. attonitum is literally “thunderstruck”. The genitive gelidae ... mortis is wrapped around formidine inside line 153. materiem is in apposition to nomina vana, and falsi mundi is the underworld called false because on this doctrine it is not there at all. The second witness reads falsi terricula, “the bugbears of a false world”, which makes the fears childish rather than merely unreal.",
+   "p": true,
+   "v": true,
+   "ln": 153
+  },
+  {
+   "t": "Corpora, sive rogus flamma, seu tabe vetustas\nabstulerit, mala posse pati non ulla putetis!",
+   "l": "Bodies — whether the pyre with its flame, or age with its decay, shall have carried them off — believe that they can suffer no evils at all!",
+   "i": "As for your bodies — whether the pyre with its flame or the wasting of years has carried them off — believe that they can suffer nothing bad whatever!",
+   "n": "Corpora stands first and does double duty: it is the object of abstulerit and at the same time the accusative subject of posse pati after putetis. abstulerit is a future perfect covering either fate. putetis is a subjunctive used as a command, and the negative sits on ulla rather than on the verb: “believe that they can suffer not any evils”.",
+   "v": true,
+   "ln": 156
+  },
+  {
+   "t": "Morte carent animae, semperque priore relicta\nsede novis domibus vivunt habitantque receptae.",
+   "l": "Souls are without death, and always, the former dwelling left behind, they live in new homes and inhabit them, taken in.",
+   "i": "Souls do not die; always, when the former seat has been left behind, they live in new houses and make their home there, welcomed in.",
+   "n": "carere takes the ablative, morte. priore relicta sede is another ablative absolute. receptae is a perfect passive participle, feminine plural with animae, and it is placed last so that the soul's welcome into a new body closes the sentence.",
+   "v": true,
+   "ln": 158
+  },
+  {
+   "t": "Ipse ego (nam memini) Troiani tempore belli\nPanthoides Euphorbus eram, cui pectore quondam\nhaesit in adverso gravis hasta minoris Atridae:",
+   "l": "I myself (for I remember) was, at the time of the Trojan war, Euphorbus son of Panthous, in whose breast, facing the blow, the heavy spear of the younger son of Atreus once lodged:",
+   "i": "I myself — for I remember it — was, at the time of the Trojan war, Euphorbus the son of Panthous, in whose breast, turned toward the blow, the heavy spear of the younger son of Atreus once stuck fast:",
+   "n": "Panthoides is a Greek patronymic, “son of Panthous”. cui is a dative of the person concerned with haesit, where English says “in whose”. pectore in adverso means the front of the chest, so the wound was taken face-on and not in flight — the detail is a point of honour. minoris Atridae is the younger son of Atreus, that is Menelaus.",
+   "v": true,
+   "ln": 160
+  },
+  {
+   "t": "cognovi clipeum, laevae gestamina nostrae,\nnuper Abanteis templo Iunonis in Argis.",
+   "l": "I recognised the shield, what my own left arm carried, lately in the temple of Juno in Abantean Argos.",
+   "i": "I recognised the shield, the burden my left arm once bore, not long ago in Juno's temple at Argos of the Abantes.",
+   "n": "gestamina is a neuter plural in apposition to clipeum, “the thing carried”, with laevae nostrae a genitive and nostrae standing for meae. Abanteis is a decorative epithet naming Argos from Abas, its legendary king; the point of the line is the recognition, not the geography.",
+   "v": true,
+   "ln": 163
+  },
+  {
+   "t": "Omnia mutantur, nihil interit:",
+   "l": "All things are changed, nothing perishes:",
+   "i": "All things change; nothing perishes:",
+   "n": "mutantur is passive in form, and the literal keeps that passive; but the sense is the middle one, things undergoing change rather than being changed by somebody, which is why the idiomatic has “change”. interit is from intereo, “go to nothing”. The two clauses are set side by side with no connective at all, and the bareness is the point — this is the doctrine stated as a rule.",
+   "p": true,
+   "v": true,
+   "ln": 165
+  },
+  {
+   "t": "errat et illinc\nhuc venit, hinc illuc, et quoslibet occupat artus\nspiritus eque feris humana in corpora transit\ninque feras noster nec tempore deperit ullo;",
+   "l": "the spirit wanders and comes hither from there, thither from here, and takes possession of whatever limbs it will, and passes out of wild beasts into human bodies, and ours into wild beasts, and perishes at no time;",
+   "i": "the spirit wanders, coming here from there and there from here, and takes possession of any limbs it pleases; it passes out of beasts into human bodies and ours into beasts, and at no time does it perish;",
+   "n": "The subject spiritus is held back until the head of 167, so that three verbs (errat, venit, occupat) run on before the reader is told what does the wandering. quoslibet artus is “any limbs you like”. eque is the preposition e with the enclitic -que, “and out of”. noster agrees with spiritus and means the human spirit, matching feris on the other side of the exchange.",
+   "v": true,
+   "ln": 165
+  },
+  {
+   "t": "utque novis facilis signatur cera figuris\nnec manet ut fuerat nec formas servat easdem,\nsed tamen ipsa eadem est:",
+   "l": "and as pliant wax is stamped with new figures and does not stay as it had been nor keep the same shapes, but is nevertheless itself the same:",
+   "i": "and as soft wax is stamped with new figures and does not stay as it was, nor keeps the same shapes, yet is the very same wax:",
+   "n": "facilis of wax means “yielding, easy to work”. novis figuris is an ablative of means with signatur. ut fuerat is a pluperfect indicative, “as it had been”, marking the state before the new stamp. ipsa eadem is feminine, agreeing with cera, and answers to the sic that follows.",
+   "v": true,
+   "ln": 169
+  },
+  {
+   "t": "animam sic semper eandem\nesse, sed in varias doceo migrare figuras.",
+   "l": "so I teach that the soul is always the same, but migrates into varied shapes.",
+   "i": "so, I teach, the soul is always the same, though it passes into shapes of many kinds.",
+   "n": "animam ... esse ... migrare is an accusative and infinitive after doceo, and the sic answers the utque that opened the wax comparison. eandem agrees with animam, and figuras answers figuris in 169, closing the image on the word it began with.",
+   "v": true,
+   "ln": 171
+  },
+  {
+   "t": "Ergo, ne pietas sit victa cupidine ventris,\nparcite, vaticinor, cognatas caede nefanda\nexturbare animas, nec sanguine sanguis alatur!",
+   "l": "Therefore, lest piety be overcome by the belly's craving, forbear — I prophesy — to drive kindred souls out by abominable slaughter, and let not blood be nourished by blood!",
+   "i": "Therefore, that piety be not overcome by the belly's craving, leave off — this is my prophecy — driving kindred souls out with abominable slaughter, and let not blood be fed upon blood!",
+   "n": "parcite with the infinitive exturbare is the same construction that opened the speech at 75, and the same verb: the argument has come round. ne ... sit victa is a negative purpose clause. cognatas animas, “kindred souls”, is the whole doctrine in two words, and it is what makes the slaughter nefanda. alatur is a jussive subjunctive, a command in the third person.",
+   "v": true,
+   "ln": 173
+  },
+  {
+   "t": "Et quoniam magno feror aequore plenaque ventis\nvela dedi:",
+   "l": "And since I am borne upon a great sea and have set my sails, full of the winds:",
+   "i": "And since I am carried out upon a great sea and have spread my sails, filled with wind:",
+   "n": "The sentence is never finished: the quoniam clause gets no main clause of its own, and the edition's colon marks the leap straight into the doctrine. The image is the standard one of a poet putting out into a large subject. plenaque ventis at the end of 176 is separated from its noun vela at the head of 177; ventis is ablative with plena, “full of winds”, and vela dare is the set phrase for putting to sea.",
+   "p": true,
+   "v": true,
+   "ln": 176
+  },
+  {
+   "t": "nihil est toto, quod perstet, in orbe.",
+   "l": "there is nothing in the whole world that stands fast.",
+   "i": "in the whole world there is nothing that holds its ground.",
+   "n": "quod perstet is a relative clause of characteristic after nihil est, and the subjunctive is what makes it “nothing of a kind that stands fast” rather than a statement about one particular thing. toto ... in orbe is wrapped around the relative clause.",
+   "v": true,
+   "ln": 177
+  },
+  {
+   "t": "Cuncta fluunt, omnisque vagans formatur imago;",
+   "l": "All things flow, and every image is shaped as a thing that wanders;",
+   "i": "All things are in flux, and every shape is formed on the move;",
+   "n": "cuncta fluunt states the doctrine in two words, as omnia mutantur did at 165. vagans is predicative with imago: the shape is not merely given a form, it is given a form already on the move. imago here is outward shape or appearance, not a reflection.",
+   "v": true,
+   "ln": 178
+  },
+  {
+   "t": "ipsa quoque adsiduo labuntur tempora motu,\nnon secus ac flumen, neque enim consistere flumen\nnec levis hora potest,",
+   "l": "The times themselves also glide with unceasing motion, not otherwise than a river; for neither can a river stand still nor the swift hour,",
+   "i": "The times themselves, too, slip by in ceaseless motion, no differently from a river; for a river cannot stand still, and neither can the fleeting hour,",
+   "n": "quoque here is the adverb “also”, not quo with -que. labuntur is deponent, active in sense. adsiduo motu is the edition's spelling and an ablative of manner. non secus ac is “not otherwise than”, introducing the comparison the rest of the passage will work out.",
+   "v": true,
+   "ln": 179
+  },
+  {
+   "t": "sed ut unda impellitur unda\nurgeturque eadem veniente urgetque priorem,",
+   "l": "but as a wave is driven on by a wave, and the same wave is pressed by the one coming and presses the one before,",
+   "i": "but as wave is driven on by wave, and the same wave is pressed by the one behind and presses the one in front,",
+   "n": "unda impellitur unda puts the same word in the nominative and the ablative on either side of its verb, so that the pusher and the pushed cannot be told apart — the figure is the thought. eadem is nominative feminine with unda and is the subject of both urgetur and urget. veniente is an ablative of the participle used of the following wave. The metre settles the form: the second foot needs a short syllable exactly where the a of eadem falls, so this is the nominative eadem and not the ablative, whose a is long. The second witness reads prior for eadem, which shifts the subject to the wave in front.",
+   "v": true,
+   "ln": 181
+  },
+  {
+   "t": "tempora sic fugiunt pariter pariterque sequuntur\net nova sunt semper;",
+   "l": "so the times flee alike and alike follow, and are always new;",
+   "i": "so the times flee and follow together, and are new for ever;",
+   "n": "sic answers the ut of 181 and turns the wave into the hour. pariter pariterque, repeated back to back, makes fleeing and following one motion rather than two. tempora is the same word as in 179, holding the whole period together.",
+   "v": true,
+   "ln": 183
+  },
+  {
+   "t": "nam quod fuit ante, relictum est,\nfitque quod haud fuerat, momentaque cuncta novantur.",
+   "l": "for what was before has been left behind, and what had not been comes to be, and all moments are made new.",
+   "i": "for what was before is left behind, and what had not been comes into being, and every moment is renewed.",
+   "n": "quod fuit ante and quod haud fuerat are two relative clauses used as nouns, balanced as the subjects of relictum est and fit; the tenses do the work, perfect against pluperfect. novantur is passive, “are made new”, closing the sentence on the same idea as nova sunt in 184.",
+   "v": true,
+   "ln": 184
+  },
+  {
+   "t": "Cernis et emensas in lucem tendere noctes,\net iubar hoc nitidum nigrae succedere nocti.",
+   "l": "You see too that the nights, having measured themselves out, stretch on into the light, and that this shining brightness comes in after black night.",
+   "i": "You see, too, how the nights when they are run out reach on into the light, and how this bright radiance takes the place of black night.",
+   "n": "Cernis takes two accusative-and-infinitive phrases, noctes tendere and iubar succedere. emensas is the perfect participle of the deponent emetior; of nights it means “having measured themselves out”, that is having run their course. succedere takes the dative, nocti.",
+   "p": true,
+   "v": true,
+   "ln": 186
+  },
+  {
+   "t": "Nec color est idem caelo, cum lassa quiete\ncuncta iacent media, cumque albo Lucifer exit\nclarus equo rursusque alius, cum praevia lucis\ntradendum Phoebo Pallantias inficit orbem.",
+   "l": "Nor is the colour the same for the sky when all things lie weary in the middle of their rest, and when Lucifer comes forth bright on his white horse, and another again when Pallantias, the forerunner of the light, tinges the round world that must be handed over to Phoebus.",
+   "i": "Nor has the sky one colour when all things lie weary at the heart of their rest, and when the Morning Star comes out bright on his white horse, and another again when the daughter of Pallas, herald of the light, stains the round world that is to be given over to Phoebus.",
+   "n": "caelo is a dative of reference, “for the sky”. Two pairs interlock across the line-end: quiete at the close of 188 waits for its adjective media in 189, while lassa, also in 188, agrees with cuncta in 189; and albo in 189 waits for its noun equo in 190. praevia takes the genitive lucis. Pallantias is Dawn, named as the descendant of Pallas. tradendum is a gerundive with orbem, the circle of the world “due to be handed over” to the Sun as the day begins.",
+   "v": true,
+   "ln": 188
+  },
+  {
+   "t": "Ipse dei clipeus, terra cum tollitur ima,\nmane rubet, terraque, rubet cum conditur ima,\ncandidus in summo est,",
+   "l": "The god's own shield, when it is lifted from the lowest earth, reddens in the morning, and it reddens when it is buried in the lowest earth, but at the top of the sky it is white,",
+   "i": "The god's own shield reddens in the morning, when it is raised from the earth's rim, and reddens again when it sinks into the earth's rim; but at the height it is white,",
+   "n": "dei clipeus is the sun's disc called the shield of the god. The ablative phrase terra ... ima is split around its own clause twice over, cum tollitur in 192 and cum conditur in 193, and cum is postponed inside its own clause both times. mane is the adverb “in the morning”.",
+   "v": true,
+   "ln": 192
+  },
+  {
+   "t": "melior natura quod illic\naetheris est terraeque procul contagia fugit.",
+   "l": "because there the nature of the upper air is better, and it flees far off the contagions of the earth.",
+   "i": "because there the substance of the upper air is better, and being far off it escapes the defilements of earth.",
+   "n": "quod here is the conjunction “because”, not the relative, and it is postponed to third place in its own clause, behind melior natura. aetheris is the genitive with natura and stands at the head of 195, away from its noun in 194. The subject of fugit is that better nature of the upper air.",
+   "v": true,
+   "ln": 194
+  },
+  {
+   "t": "Nec par aut eadem nocturnae forma Dianae\nesse potest umquam, semperque hodierna sequente,\nsi crescit, minor est, maior, si contrahit orbem.",
+   "l": "Nor can the shape of Diana of the night ever be equal or the same, and today's is always smaller than the one that follows, if she is growing; greater, if she draws in her disc.",
+   "i": "Nor can night's Diana ever hold one equal, unchanging shape: today's is always less than the next day's if she is waxing, and greater if she is drawing her circle in.",
+   "n": "The genitive nocturnae ... Dianae is wrapped around forma inside 196; Diana of the night is the moon. par and eadem are not the same claim — the one is equal in size, the other identical in shape. hodierna and sequente are feminine with forma understood, and sequente is an ablative of comparison after minor. With maior the verb est is left out and has to be supplied.",
+   "v": true,
+   "ln": 196
+  }
+ ],
+ "glossaryFile": "metamorphoses-glossary.json"
+}

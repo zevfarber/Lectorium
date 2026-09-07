@@ -1,0 +1,357 @@
+{
+ "id": "ovid-met-111",
+ "sourceId": "ovid-met-111",
+ "title": "Diomedis socii. Oleaster",
+ "titleEn": "The Companions of Diomedes; the Wild Olive — Metamorphoses XIV.441–526",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 8719b7d375018d4f. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
+ "about": "Macareus has finished his tale, and the poem lays Aeneas' nurse Caieta under a two-line epitaph before running through the whole war in Latium in a dozen lines. Turnus sends Venulus to ask Diomedes for help; Diomedes refuses and explains why — the storm that broke the Greek fleet on the way home, the penalty Venus still exacts for an old wound (the spear-wound Diomedes gave her in the fighting at Troy), and the loss of his companions, who became birds when Acmon defied the goddess and the rest of them rounded on him for it. On the way back Venulus passes caves that nymphs once held, where an Apulian shepherd jeered at their dancing until a tree closed over his throat and the bitterness of his tongue passed into the berries of the wild olive.",
+ "advisory": {
+  "lede": "Half a line of this part refers to Ajax's rape of Cassandra, seized from the virgin goddess Minerva at the sack of Troy, and the poem treats it as the crime for which the whole Greek fleet was punished.",
+  "more": "Ovid gives it half a line — a virgine virgine rapta, “a maiden seized from the maiden” — and in that half-line names nobody: the goddess is only “the maiden”, Cassandra only “a maiden”, and Ajax only “the Narycian hero”. The Latin verb is rapere, which covers carrying off and rape alike; what fixes the sense is the doubling, a virgin taken from the virgin, and the next line, which says he spread over everyone the punishment he alone deserved. That is what the assault sets going in the speech: the storm, the wreck on Caphereus, and the drowned men Diomedes says he now calls fortunate. His own exile and the loss of his companions the speech lays elsewhere, at Venus' door, for a spear-wound he gave her at Troy. Lectorium presents the text unaltered, as written, and the note at that line says plainly what happened."
+ },
+ "sentences": [
+  {
+   "t": "Finierat Macareus.",
+   "l": "Macareus had finished.",
+   "n": "A pluperfect, finierat, closes the long inset speech this part inherits: Ovid ends a nested narrative in two words and starts the next sentence inside the same line. The verb is finio, “to bring to an end”, with the speaker as its subject rather than the tale — Latin says “Macareus had finished”, leaving what he finished to be understood.",
+   "p": true,
+   "v": true,
+   "ln": 441
+  },
+  {
+   "t": "Urnaque Aeneia nutrix\ncondita marmoreo tumulo breve carmen habebat:",
+   "l": "And the Aenean nurse, buried in an urn in a marble tomb, had a short poem:",
+   "i": "And the nurse of Aeneas, laid in an urn in a marble tomb, carried a short inscription:",
+   "n": "condita is nominative and agrees with nutrix, the nurse herself; urna and marmoreo tumulo are both ablatives of place with it, “buried in an urn, in a marble tomb”. Aeneia is an adjective, “Aenean”, not a genitive — Latin names Aeneas here only through the epithet. carmen is not a song but the verse epitaph that follows: a carmen is anything in metre, and an inscription in two hexameters counts. Magnus prints marmoreo, so the tomb is the marble one; some editions print marmorea, which makes it the urn.",
+   "v": true,
+   "ln": 441
+  },
+  {
+   "t": "HIC ME CAIETAM NOTAE PIETATIS ALUMNUS\nEREPTAM ARGOLICO QUO DEBUIT IGNE CREMAVIT.",
+   "l": "Here me, Caieta, snatched from Argolic fire, the nursling of known devotion burned with the fire he owed.",
+   "i": "Here her foster-son, whose devotion is famous, burned me, Caieta — saved from the fire of the Greeks — with the fire that was my due.",
+   "n": "The epigram turns on one word doing double duty: igne stands only once in 444 and serves both ereptam Argolico [igne], “snatched from Argive fire”, that is Troy burning, and quo debuit igne cremavit, “burned me with the fire he owed”, that is the pyre a foster-son owes his nurse. alumnus is the nursling, Aeneas himself, and notae pietatis is a genitive of description attached to him. debuit is the verb of a debt, so the second fire is a duty discharged rather than a cruelty. Magnus prints the two lines in capitals throughout, the edition's way of showing an inscription; that is not damage in the text.",
+   "v": true,
+   "ln": 443
+  },
+  {
+   "t": "Solvitur herboso religatus ab aggere funis,\net procul insidias infamataeque relinquunt\ntecta deae lucosque petunt, ubi nubilus umbra\nin mare cum flava prorumpit Thybris harena;",
+   "l": "The rope, tied fast from the grassy bank, is loosed, and far off they leave behind the ambushes and the ill-famed halls of the goddess, and make for the groves where the Tiber, clouded with shade, bursts into the sea with its yellow sand;",
+   "i": "The cable moored to the grassy bank is cast off, and they leave far behind the treachery and the ill-famed house of the goddess, and make for the woods where the Tiber, dark with shade, breaks into the sea with its yellow sand;",
+   "n": "solvitur … funis is passive with the mooring rope as its subject, and religatus ab aggere is Latin's way round: the rope is tied back from the bank where English ties the ship to it. The goddess of the infamataeque tecta is Circe, whose story the speech just ended has been telling; insidias, plural, is her wiles. nubilus umbra is “clouded by shade”, umbra an ablative of cause with the adjective — the river runs dark under the trees while it still carries its yellow silt, flava harena. prorumpit, “breaks forward”, is the river's own violence at the mouth.",
+   "v": true,
+   "ln": 445
+  },
+  {
+   "t": "Faunigenaeque domo potitur nataque Latini,\nnon sine Marte tamen:",
+   "l": "And he gains possession of the house of the Faun-born and of the daughter of Latinus, not without Mars, however:",
+   "i": "And he wins the house of Faunus' son and the daughter of Latinus — though not without war:",
+   "n": "The subject is Aeneas, who is not named until 456: the poem carries him from sentence to sentence on the verb alone. potitur governs the ablative, so domo and nata are both ablatives, “gains possession of the house and of the daughter”; nataque is ablative, not nominative: the final -a must be long for the line to scan, and the nominative would have it short. Faunigenae, “the Faun-born”, is Latinus, son of Faunus, and his daughter is Lavinia. non sine Marte is the god's name standing for the war itself.",
+   "v": true,
+   "ln": 449
+  },
+  {
+   "t": "bellum cum gente feroci\nsuscipitur, pactaque furit pro coniuge Turnus.",
+   "l": "war with a fierce people is taken up, and Turnus rages for the bride pledged to him.",
+   "i": "war is taken up with a fierce race, and Turnus rages for the wife promised him.",
+   "n": "suscipitur is passive with no agent named, so the war simply “is taken up” and nobody is said to start it. pacta coniuge is the perfect participle of paciscor used as an adjective, “the wife contracted for”: Lavinia had been promised to Turnus before Aeneas came, and pro coniuge is “on behalf of” her, the ground of his fury. furit is the strong word for madness, not anger.",
+   "v": true,
+   "ln": 450
+  },
+  {
+   "t": "Concurrit Latio Tyrrhenia tota, diuque\nardua sollicitis victoria quaeritur armis.",
+   "l": "All Tyrrhenia clashes with Latium, and for a long time a steep victory is sought with anxious arms.",
+   "i": "All Etruria closes with Latium, and for a long time a victory hard to win is sought by anxious arms.",
+   "n": "concurrit takes the dative Latio — it is the regular verb for armies meeting, so “clashes with Latium”; the dative could also be read as motion towards, “runs together to Latium”, and the compressed line does not decide it. Tyrrhenia is Etruria, the Etruscan country. ardua victoria is the metaphor of a height to be climbed, a victory up a slope. sollicitis armis moves the anxiety of the men onto their weapons, the figure grammarians call a transferred epithet.",
+   "v": true,
+   "ln": 452
+  },
+  {
+   "t": "Auget uterque suas externo robore vires,\net multi Rutulos, multi Troiana tuentur\ncastra.",
+   "l": "Each of the two increases its own strength with foreign muscle, and many protect the Rutulians, many the Trojan camp.",
+   "i": "Each side builds up its forces with outside strength, and many take the Rutulians' part, many the Trojan camp's.",
+   "n": "uterque, “each of the two”, keeps the war to two parties and takes a singular verb. robur is literally hard oak, hence “strength, muscle”, and externo robore is the manpower brought in from outside. tuentur is “protect, support”, and multi … multi balances its two objects inside 455, Rutulos against Troiana. The sentence then ends on castra, standing first in 456, so the adjective waits a line for its noun.",
+   "p": true,
+   "v": true,
+   "ln": 454
+  },
+  {
+   "t": "Neque Aeneas Euandri ad moenia frustra,\nat Venulus frustra profugi Diomedis ad urbem\nvenerat:",
+   "l": "Nor had Aeneas come in vain to the walls of Evander, but Venulus in vain to the city of the exiled Diomedes:",
+   "i": "Aeneas had not gone in vain to Evander's walls; Venulus had gone in vain to the city of Diomedes the exile:",
+   "n": "One verb, the pluperfect venerat at the head of 458, serves both halves, and the balance turns on frustra repeated — “not in vain … in vain”. Evander is the Arcadian settler on the site of Rome, to whom Aeneas goes for help; Venulus is Turnus' envoy. profugus is “driven from home”, the word for a man who never went back: Diomedes did not return to Argos after Troy, which the speech below explains.",
+   "v": true,
+   "ln": 456
+  },
+  {
+   "t": "ille quidem sub Iapyge maxima Dauno\nmoenia condiderat dotaliaque arva tenebat.",
+   "l": "he indeed, under Iapygian Daunus, had founded very great walls and held fields given as a dowry.",
+   "i": "he for his part had founded great walls under Daunus of Iapygia, and held lands that had come to him as a dowry.",
+   "n": "ille quidem marks the change of subject to Diomedes and concedes the fact before the refusal comes. sub Dauno, “under Daunus”, means inside his kingdom and under his protection; Daunus is the Apulian king whose daughter Diomedes married, so the dotalia arva are her dowry — the word returns at 510-511, where he says how little of it he holds. Iapyx is the old name for the heel of Italy, and the same adjective comes back at 510.",
+   "v": true,
+   "ln": 458
+  },
+  {
+   "t": "Sed Venulus Turni postquam mandata peregit\nauxilium petiit, vires Aetolius heros\nexcusat:",
+   "l": "But after Venulus had carried through Turnus' commissions and had sought help, the Aetolian hero excuses his strength:",
+   "i": "But when Venulus had delivered Turnus' message and asked for help, the Aetolian hero pleads that his forces cannot serve:",
+   "n": "postquam is postponed, standing after Venulus Turni instead of opening its own clause — verse moves conjunctions freely, and the clause is “after Venulus carried out Turnus' instructions”. mandata is “things entrusted”, an envoy's brief. vires excusat is the idiom of pleading inability: he offers his want of strength as his excuse, and excusat in the present pivots the narrative into his speech. Aetolius heros is Diomedes named by descent — his father Tydeus came from Aetolia — as he will be named Oenides at 512.",
+   "v": true,
+   "ln": 460
+  },
+  {
+   "t": "nec se aut soceri committere pugnae\nvelle sui populos, aut quos e gente suorum\narmet habere ullos,",
+   "l": "that he neither wishes to commit to battle the peoples of his own father-in-law, nor has any men, out of the race of his own people, whom he might arm,",
+   "i": "he is unwilling, he says, to throw his father-in-law's peoples into the fighting, and of his own countrymen he has none left to arm,",
+   "n": "Accusative and infinitive after excusat: se … velle … habere, “that he does not wish … nor has”, with nec doing the negating for both limbs and aut … aut dividing them. The socer is Daunus, whose land is not his to spend. quos armet is a relative clause of characteristic in the subjunctive, “any of a kind that he might arm” — not men he refuses to arm, but men he does not have. Latin reports the refusal without a verb of saying; English has to supply “he says”.",
+   "v": true,
+   "ln": 462
+  },
+  {
+   "t": "“neve haec commenta putetis,\nadmonitu quamquam luctus renoventur amari\nperpetiar memorare tamen.",
+   "l": "“and lest you think these things inventions, although by the reminding bitter griefs are renewed, I shall endure nevertheless to recount them.",
+   "i": "“And so that you do not take this for invention — though the recollection reopens bitter grief — I will bear to tell it all the same.",
+   "n": "The speech turns from indirect to direct inside 464, at Magnus' quotation mark, with no verb of speaking to mark the change. neve is et ne and opens a negative purpose clause with the subjunctive putetis, “and so that you may not think”, which is why both layers say “lest” and “so that you do not” rather than “do not”; putetis is second person plural, so Diomedes now addresses his visitors face to face. commenta is “things devised”, a made-up story. quamquam stands second in its line, inside its own clause, and takes the subjunctive renoventur, which verse allows where prose would use the indicative. perpetiar is the future of perpetior, “I shall endure to”, so the telling is itself something to be borne.",
+   "v": true,
+   "ln": 464
+  },
+  {
+   "t": "Postquam alta cremata est\nIlion et Danaas paverunt Pergama flammas,\nNaryciusque heros, a virgine virgine rapta,\nquam meruit poenam solus, digessit in omnes,",
+   "l": "After lofty Ilion was burned and Pergama fed the Danaan flames, and the Narycian hero, a maiden having been seized from the maiden, spread over all the punishment which he alone had deserved,",
+   "i": "After high Ilium was burned and the towers of Troy fed the flames of the Greeks, and the hero of Naryx — a maiden torn from the maiden goddess — spread over everyone the punishment he alone had earned,",
+   "n": "Three clauses hang from the one postquam. Ilion is the Greek form of the city's name and takes feminine agreement here, alta … cremata est; the second witness prints the feminine Ilios. Pergama, neuter plural, is the citadel of Troy, and paverunt makes the burning city the fodder of the Greek fire. a virgine virgine rapta puts the same word twice in the same case for two different women: a virgine is “from the maiden”, Minerva, and virgine rapta is an ablative absolute, “a maiden having been seized” — Cassandra, dragged from the goddess' image by Ajax son of Oileus, from Naryx in Locris, and raped there. rapere covers carrying off and rape alike, and Latin does not distinguish them here. digessit in omnes, “he distributed it over all”, makes one man's crime the whole fleet's sentence.",
+   "v": true,
+   "ln": 466
+  },
+  {
+   "t": "spargimur et ventis inimica per aequora rapti\nfulmina, noctem, imbres, iram caelique marisque\nperpetimur Danai cumulumque Capherea cladis.",
+   "l": "we are scattered, and, snatched by winds across hostile seas, we Danaans endure lightning-bolts, night, rains, the wrath of both sky and sea, and Caphereus, the heaping-up of our disaster.",
+   "i": "we are scattered, and, swept by the winds across hostile waters, we Greeks endure lightning, darkness, rain, the anger of sky and sea alike, and Caphereus to crown the wreck.",
+   "n": "The main clause arrives at last, in the historic present: spargimur … perpetimur, with Danai standing in apposition to the “we” inside the verbs. rapti picks up rapta from 468 with the same participle in a different sense — there a girl seized, here men swept off course. caelique marisque is the doubled -que, “both … and”, a pairing verse likes. cumulum … cladis, “the heap of the disaster”, is in apposition to Capherea, the Greek accusative of Caphereus: the headland of Euboea where the returning fleet was wrecked on rocks by false beacons.",
+   "v": true,
+   "ln": 470
+  },
+  {
+   "t": "Neve morer referens tristes ex ordine casus,\nGraecia tum potuit Priamo quoque flenda videri.",
+   "l": "And not to delay by recounting sad misfortunes in order — Greece then could seem a thing to be wept for, to Priam too.",
+   "i": "And not to hold you by telling the disasters one after another: Greece then could have seemed, even to Priam, a thing to weep over.",
+   "n": "neve morer is a subjunctive of purpose used as a formula for cutting a narrative short, “and so that I may not delay you”; ex ordine is “in sequence”, one item after another. flenda is a gerundive, “needing to be wept for”, and Priamo can be taken with it as the dative of the agent, “to be wept for by Priam”, or with videri, “seem to Priam” — the line carries both and loses nothing either way. The point is the reversal: the king whose city the Greeks burned would have pitied the Greeks.",
+   "v": true,
+   "ln": 473
+  },
+  {
+   "t": "Me tamen armiferae servatum cura Minervae\nfluctibus eripuit, patriis sed rursus ab agris\npellor, et antiquo memores de vulnere poenas\nexigit alma Venus,",
+   "l": "Me, however, saved, the care of arms-bearing Minerva snatched out of the waves; but from my father's fields I am driven again, and kindly Venus exacts penalties mindful of the old wound,",
+   "i": "Me, though, the care of Minerva the arms-bearer preserved and plucked from the waves; but I am driven from my father's fields once more, and gracious Venus exacts a penalty that remembers an old wound,",
+   "n": "servatum agrees with me and does the work of a second verb: “saved, she snatched me from the waves”. armifera, “arms-bearing”, is a compound epithet of Minerva, Diomedes' patron in the fighting at Troy. pellor is present and passive with no agent, “I am driven”, which leaves the exile as a state rather than an act. memores poenas is a transferred epithet — the penalties are called mindful because the goddess is; the antiquum vulnus is the spear-wound Diomedes gave Venus in the fighting at Troy, and alma, “nourishing, kindly”, is pointed against what she is doing here.",
+   "v": true,
+   "ln": 475
+  },
+  {
+   "t": "tantosque per alta labores\naequora sustinui, tantos terrestribus armis,",
+   "l": "and I have borne toils so great over the deep seas, so great with arms on land,",
+   "i": "and I have borne such hardships on the high seas, and as many under arms on land,",
+   "n": "tantos … tantos are set side by side without a connective, sea against land, and the second has no verb of its own but borrows sustinui. terrestribus armis is an ablative of means, “by arms on land”, matching per alta aequora for the sea. per alta … aequora is pulled apart by the line-end, with labores standing between the adjective and its noun and aequora opening 479. This unit is cut at a comma: the Latin period runs from 475 to the full stop at 482 with no internal terminal stop to cut at.",
+   "v": true,
+   "ln": 478
+  },
+  {
+   "t": "ut mihi felices sint illi saepe vocati,\nquos communis hiems importunusque Caphereus\nmersit aquis, vellemque horum pars una fuissem.",
+   "l": "so that those men have often been called fortunate by me, whom the common storm and pitiless Caphereus sank in the waters, and I could wish I had been one part of them.",
+   "i": "so that I have often called them fortunate — the men whom the storm we all shared, and merciless Caphereus, drowned — and I could wish I had been one of their number.",
+   "n": "A result clause: ut … sint vocati, perfect subjunctive passive, with mihi as the dative of the agent, “have been called by me”. communis hiems is the storm shared by the whole fleet, and importunus is “affording no harbour, merciless”. vellem is the imperfect subjunctive of a wish that cannot be granted, “I could wish”, and fuissem, pluperfect, sets the impossible wish in the past. pars una horum, “one part of these”, is the Latin way of saying “one of their number”.",
+   "v": true,
+   "ln": 480
+  },
+  {
+   "t": "Ultima iam passi comites belloque fretoque\ndeficiunt finemque rogant erroris,",
+   "l": "My companions, having by now suffered the last things both in war and in the strait, fail and ask an end of the wandering,",
+   "i": "My companions, having by then suffered the worst that war and sea could do, give out and beg an end to the wandering,",
+   "n": "ultima passi is “having suffered the last things”, that is the utmost, from the deponent patior — the same verb compounded in perpetiar at 466 and perpetimur at 472. belloque fretoque is the doubled -que again, pairing the two spheres, with fretum the sea as a strait or channel. deficiunt is intransitive, “they fail, give out”, of strength at its end. error is the wandering itself, the homeward drifting, not a mistake. This unit is cut at a comma, before the at that turns to Acmon.",
+   "p": true,
+   "v": true,
+   "ln": 483
+  },
+  {
+   "t": "at Acmon\nfervidus ingenio, tum vero et cladibus asper,\n“quid superest, quod iam patientia nostra recuset\nferre, viri?” dixit;",
+   "l": "but Acmon, hot in his nature, and then indeed made harsh by the disasters too, said, “What is left, men, which our endurance may now refuse to bear?”",
+   "i": "but Acmon, hot-tempered by nature and by then made savage by their losses as well, said: “What is left, men, that our endurance could now refuse to bear?”",
+   "n": "ingenio is an ablative of respect, hot “as to his temper”, and asper is the hardness of a thing rubbed rough — the disasters have coarsened him on top of what he already was, which is what tum vero et adds. recuset is subjunctive in a relative clause of characteristic, “of a kind our endurance might refuse”. The vocative viri is held back to the very end of the question, after the infinitive ferre that the relative clause had been waiting for. Magnus prints nostra, “our endurance”; the second witness prints vestra, “yours”, which turns the taunt on his companions instead of joining him to them.",
+   "v": true,
+   "ln": 484
+  },
+  {
+   "t": "“quid habet Cytherea, quod ultra\n(velle puta!) faciat?",
+   "l": "“What has the Cytherean, which further — suppose she wants to! — she might do?",
+   "i": "“What has Venus left that she could do beyond this — grant that she wants to!",
+   "n": "Magnus re-opens the quotation after dixit, inside 487, so the speech continues without a second verb of speaking. Cytherea is Venus, named from the island of Cythera off which she came ashore. quod … faciat is another relative clause of characteristic, “anything of a kind she might do”. velle puta is an imperative parenthesis, “imagine her willing it”, conceding the goddess her malice while denying her the power to use it; the brackets are the edition's.",
+   "v": true,
+   "ln": 487
+  },
+  {
+   "t": "Nam dum peiora timentur,\nest locus in vulnus:",
+   "l": "For while worse things are feared, there is room for a wound:",
+   "i": "For while there is worse to fear, there is still room to be hurt:",
+   "n": "dum with the present indicative timentur is “so long as”, of a state that continues. est locus in vulnus, with in and the accusative, is “there is space for a wound” — room left in a man for harm still to be done to him. Magnus prints in vulnus; the second witness prints in vota, “there is room for prayers”, which turns the sentence from injury to hope and reverses what the next clause answers.",
+   "v": true,
+   "ln": 488
+  },
+  {
+   "t": "sors autem ubi pessima rerum,\nsub pedibus timor est securaque summa malorum.",
+   "l": "but when the lot of things is worst, fear is under foot and the summit of evils is free from care.",
+   "i": "but where fortune is at its worst, fear lies underfoot, and the height of misery has nothing left to dread.",
+   "n": "The verb is left out of the ubi clause — sors … pessima rerum [est] — an ellipse English has to fill in. securus is literally “without care”, the exact opposite of the anxiety just named, and summa malorum is the topmost point of evils, so the worst place is also the safest. sub pedibus timor est makes fear a thing trodden underfoot rather than felt.",
+   "v": true,
+   "ln": 489
+  },
+  {
+   "t": "Audiat ipsa licet, et, quod facit, oderit omnes\nsub Diomede viros, odium tamen illius omnes\nspernimus:",
+   "l": "Though she herself may hear, and may hate — which she does — all the men under Diomedes, still we all spurn her hatred:",
+   "i": "Let her hear it herself; let her hate — as she does — every man under Diomedes: we all spurn that hatred of hers anyway:",
+   "n": "licet with the subjunctive is a concession, “granted that she hears”, and both audiat and oderit depend on it; oderit is the perfect of odi, a verb whose perfect has present meaning, so it is “she hates”. quod facit is Acmon's parenthesis conceding that the hatred is real. omnes stands at the end of both 491 and 492, accusative the first time with viros, nominative the second, “we all”. Magnus prints et, quod facit; the second witness prints licet ut, which makes the clause concessive instead of parenthetic.",
+   "v": true,
+   "ln": 491
+  },
+  {
+   "t": "et magno stat magna potentia nobis!”",
+   "l": "and great power stands at a great price for us!”",
+   "i": "and her great power costs us dear!”",
+   "n": "stat with the ablative of price magno is the commercial idiom for costing, and nobis is the dative of the people who pay. magno and magna stand on either side of the verb, the price answering the power. Magnus prints et; the second witness prints haud magno, which reverses the sense to “her great power costs us little” — defiance instead of the bitter reckoning.",
+   "v": true,
+   "ln": 493
+  },
+  {
+   "t": "Talibus iratam Venerem Pleuronius Acmon\ninstimulat verbis stimulisque resuscitat iram.",
+   "l": "With such words Pleuronian Acmon goads the angered Venus, and with goads wakes her wrath up again.",
+   "i": "With words like these Acmon of Pleuron pricks Venus, angry already, and with his prodding rouses her anger afresh.",
+   "n": "instimulat and stimulis put the same root in the same line as verb and as noun, the goad and the goading. iratam is already true of Venus before he speaks: she is angry, and he re-lights it, which is what resuscitat means, to raise up again. Pleuronius is from Pleuron in Aetolia, Diomedes' ancestral country, the same descent that gave Aetolius heros at 461. Talibus … verbis is split by the line-end, the adjective opening 494 and the noun standing second in 495. Magnus prints iratam, so Venus is angry before Acmon opens his mouth; the second witness prints inritans, a participle agreeing with Acmon, which makes him provoke an anger the line has not yet granted her. Magnus prints stimulisque, “and with goads”; the second witness prints veteremque, which makes the wrath itself old rather than the prodding new.",
+   "p": true,
+   "v": true,
+   "ln": 494
+  },
+  {
+   "t": "Dicta placent paucis: numeri maioris amici\nAcmona corripimus;",
+   "l": "The words please few: we friends, of the greater number, round on Acmon;",
+   "i": "His words please few: the greater part of us, his friends, round on Acmon;",
+   "n": "numeri maioris is a genitive of description attached to amici, “friends of the greater number”, that is most of us. corripere is “to snatch up”, and so “to round on, rebuke sharply”. placent paucis puts the few who liked it in the dative. The speaker is still Diomedes, and the plural corripimus counts him in.",
+   "v": true,
+   "ln": 496
+  },
+  {
+   "t": "cui respondere volenti\nvox pariter vocisque via est tenuata,",
+   "l": "and for him, wishing to answer, at once the voice and the voice's road were thinned,",
+   "i": "and as he was wanting to answer, his voice and the passage of his voice alike were drawn thin,",
+   "n": "cui is a connecting relative opening the clause, “and for him”, a dative of the person affected, with volenti agreeing with it, “wishing to answer”. vocis via, “the road of the voice”, is the throat. The verb est tenuata is singular although it has two subjects, vox and via, agreeing with the nearer; English cannot show that, since two subjects there force a plural verb. The change begins in the middle of the sentence, while he is still trying to speak, and the rest of it never gets said.",
+   "v": true,
+   "ln": 497
+  },
+  {
+   "t": "comaeque\nin plumas abeunt, plumis nova colla teguntur\npectoraque et tergum, maiores bracchia pennas\naccipiunt, cubitusque leves sinuatur in alas.",
+   "l": "and the hairs go off into feathers, with feathers the new necks are covered, and the breasts and the back; the arms receive larger feathers, and the elbow is curved into light wings.",
+   "i": "and his hair passes into down; with down the new neck is clothed, and the breast and the back; the arms take longer feathers, and the elbow bends into light wings.",
+   "n": "abeunt in with the accusative, “go off into”, is the plain Latin for a change of substance. plumae are the soft feathers and pennae the long ones of the wing, and the sentence uses each in its place. colla, pectora are poetic plurals for one man's neck and breast, as often in verse. bracchia is the neuter plural subject of accipiunt, and cubitus, singular, stands for both elbows; sinuatur is passive, “is bent into a curve”, so the man does none of it himself.",
+   "v": true,
+   "ln": 498
+  },
+  {
+   "t": "Magna pedis digitos pars occupat, oraque cornu\nindurata rigent finemque in acumine ponunt.",
+   "l": "A great part takes possession of the toes of the foot, and the mouths, hardened with horn, stiffen and set their end in a point.",
+   "i": "A broad expanse takes over the toes of the foot, and the mouth, hardened to horn, stiffens and runs out into a point.",
+   "n": "The words are interlocked and can be split two ways. Taking pedis with digitos, “the toes of the foot”, leaves magna pars with nothing to depend on and the reader must supply it: the natural supply is a spread of skin taking over the toes, the webbing of a water-bird, which fits the comparison with swans at 509, and that is the reading the English follows. Taking pedis with pars instead gives “a great part of the foot takes over the toes”, the foot turning almost wholly into toe. The line does not decide between them. cornu is an ablative of means with indurata, “hardened with horn”, the matter a beak is made of. finem in acumine ponunt, “they place their end in a point”, is the beak described without the word for it, and ora is another poetic plural for one man's mouth.",
+   "v": true,
+   "ln": 502
+  },
+  {
+   "t": "Hunc Lycus, hunc Idas et cum Rhexenore Nycteus,\nhunc miratur Abas:",
+   "l": "At him Lycus, at him Idas and, with Rhexenor, Nycteus, at him Abas wonders:",
+   "i": "Lycus stares at him, and Idas, and Nycteus with Rhexenor, and Abas stares:",
+   "n": "hunc is repeated three times, at the head of 504, again after Lycus, and again at the head of 505, the stare passing from man to man. miratur is singular although four names have gone before, agreeing with the nearest, Abas. mirari takes a plain accusative, “to wonder at”, so the man is the direct object of their astonishment.",
+   "v": true,
+   "ln": 504
+  },
+  {
+   "t": "et dum mirantur, eandem\naccipiunt faciem, numerusque ex agmine maior\nsubvolat et remos plausis circumvolat alis.",
+   "l": "and while they wonder, they take on the same appearance, and a greater number out of the column flies up and flies round the oars with wings beaten.",
+   "i": "and while they are staring they take the same shape, and the greater part of the company flies up and wheels about the oars on beating wings.",
+   "n": "dum with the present indicative is “while”, of the staring still going on when the change catches them: they are punished in the act of condemning him. eandem … faciem is divided by the line-end, the adjective closing 505 and the noun standing second in 506. plausis … alis is an ablative absolute doing the work of an English participle, “with wings beaten”. remos, the oars, keeps the men in their ships while the rest of them is already in the air.",
+   "v": true,
+   "ln": 505
+  },
+  {
+   "t": "Si volucrum quae sit dubiarum forma, requiris,\nut non cygnorum, sic albis proxima cygnis.",
+   "l": "If you ask what the shape of the doubtful birds may be — as it is not of swans, so it is nearest to white swans.",
+   "i": "If you ask what these uncertain birds look like: not swans' shape, but nearest of all to white swans.",
+   "n": "requiris is addressed to Venulus, the listener, and Diomedes answers a question that has not been asked. dubiarum, “doubtful”, means birds hard to place: the poem declines to name the species, and the second witness prints subitarum, “sudden”, which describes their making instead of their kind. ut non … sic is the correlative pair, “as not … so”. proxima agrees with the understood forma and takes the dative albis cygnis.",
+   "v": true,
+   "ln": 508
+  },
+  {
+   "t": "Vix equidem has sedes et Iapygis arida Dauni\narva gener teneo minima cum parte meorum.”",
+   "l": "Scarcely indeed do I, a son-in-law, hold these seats and the dry fields of Iapygian Daunus, with the smallest part of my own men.”",
+   "i": "Barely, in truth, do I hold this place and the parched fields of Daunus of Iapygia — a son-in-law, and with the merest handful of my own men.”",
+   "n": "gener stands in apposition to the “I” inside teneo: he holds the land only as Daunus' son-in-law, not as its king. arida arva answers the dotalia arva of 459 — the same fields, now called dry. minima cum parte meorum closes the speech on the thing it was told to explain: the men who are not there are the birds. equidem is the emphatic “for my part, indeed”, and vix at the head of the line carries the weight of the refusal.",
+   "v": true,
+   "ln": 510
+  },
+  {
+   "t": "Hactenus Oenides.",
+   "l": "Thus far the son of Oeneus.",
+   "i": "So far the son of Oeneus.",
+   "n": "A sentence with no verb: hactenus, “up to this point”, and a name, and the speech is over. The part opened the same way at 441 with Finierat Macareus, and both sentences end inside their line. Oenides is a patronymic in form, “son of Oeneus”, but Oeneus was Diomedes' grandfather — the ending is used of a descendant, not strictly of a son.",
+   "p": true,
+   "v": true,
+   "ln": 512
+  },
+  {
+   "t": "Venulus Calydonia regna\nPeucetiosque sinus Messapiaque arva relinquit.",
+   "l": "Venulus leaves the Calydonian realms and the Peucetian bays and the Messapian fields.",
+   "i": "Venulus leaves the Calydonian kingdom, the bays of Peucetia and the fields of Messapia.",
+   "n": "Calydonia regna names Diomedes' Italian kingdom by his ancestors' Aetolian city, Calydon, the same naming by descent as Aetolius heros at 461 and Oenides at 512. Peucetia and Messapia are districts of the Italian heel: three place-adjectives in a row, Calydonia in 512, Peucetios and Messapia in 513. relinquit is singular with all three objects, and the accumulation is the journey itself.",
+   "v": true,
+   "ln": 512
+  },
+  {
+   "t": "In quibus antra videt, quae multa nubila silva\net levibus cannis manantia semicaper Pan\nnunc tenet, at quodam tenuerunt tempore nymphae.",
+   "l": "In which he sees caves, which, clouded by much woodland and running with light reeds, half-goat Pan now holds, but which at a certain time nymphs held.",
+   "i": "In them he sees caves which half-goat Pan holds now, dark under thick woodland and trickling among slender reeds — though once the nymphs held them.",
+   "n": "In quibus is a connecting relative, “and in these”, carrying the sentence over from the place-names before it. nubila is “clouded” used of shade and not of sky: the wood darkens the caves. manantia is of water running, with levibus cannis an ablative of the reeds it runs among; the second witness prints latitantia, which makes the caves hide among the reeds rather than drip. semicaper, “half-goat”, is a compound adjective for Pan. nunc tenet … tenuerunt sets present against perfect, the god now where the nymphs were.",
+   "v": true,
+   "ln": 514
+  },
+  {
+   "t": "Apulus has illa pastor regione fugatas\nterruit et primo subita formidine movit,\nmox, ubi mens rediit et contempsere sequentem,\nad numerum motis pedibus duxere choreas.",
+   "l": "An Apulian shepherd frightened them into flight out of that region, and at first moved them with sudden dread; soon, when their mind came back and they scorned the one following, they led dances with feet moved to the beat.",
+   "i": "An Apulian shepherd frightened the nymphs out of that region and at first set them running in sudden dread; then, when their wits came back and they despised their pursuer, they danced in step, their feet moving to the measure.",
+   "n": "fugatas is proleptic: the participle states the result of terruit and not a flight that happened first, so the English has to say “frightened them into flight” — a past participle in English (“them, put to flight, he frightened”) would put the fleeing before the fright, which is the one thing the Latin does not mean. illa regione is an ablative of separation, “out of that region”. contempsere and duxere are the poetic third-plural perfects for contempserunt and duxerunt, in consecutive lines here, beside the full tenuerunt at 516. motis pedibus is an ablative absolute, “with feet moved”, and ad numerum is “to the beat”. mens rediit is their presence of mind returning, not their courage.",
+   "v": true,
+   "ln": 517
+  },
+  {
+   "t": "Improbat has pastor, saltuque imitatus agresti\naddidit obscenis convicia rustica dictis,\nnec prius os tacuit, quam guttura condidit arbor:",
+   "l": "The shepherd finds fault with them, and, having mimicked them with a rustic leap, added country abuse to obscene words, nor did his mouth fall silent before a tree buried his throat:",
+   "i": "The shepherd jeers at them and, mimicking them with a boorish caper, added peasant abuse to filthy talk; nor did his mouth fall silent until a tree closed over his throat:",
+   "n": "improbat is present and addidit perfect inside one sentence — the sneering stands in the present, what came of it in the past. imitatus is from the deponent imitor and is active in sense, “having mimicked”, with saltu agresti the means. nec prius … quam, “not before … than”, is one idiom split in two: the mouth stopped only when the tree took the throat. condidit is “buried, closed over”, the same verb used of Caieta buried at 442 and of founding walls at 459.",
+   "v": true,
+   "ln": 521
+  },
+  {
+   "t": "arbore enim sucoque licet cognoscere mores;",
+   "l": "for by the tree and by its sap it is permitted to know his character;",
+   "i": "for the tree and its sap let you know the man;",
+   "n": "licet with an infinitive and no subject expressed is “it is permitted to”, which English turns into “you can”. arbore and suco are ablatives of means, the evidence by which the knowing is done. mores, plural, is a man's whole set of habits and temper, not one trait. Magnus prints the ablative arbore; the second witness prints the nominative arbor and adds est, which makes the tree the subject instead of the means.",
+   "v": true,
+   "ln": 524
+  },
+  {
+   "t": "quippe notam linguae bacis oleaster amaris\nexhibet: asperitas verborum cessit in illas.",
+   "l": "for indeed the wild olive shows the mark of his tongue in bitter berries: the harshness of his words passed into them.",
+   "i": "for the wild olive carries the sign of his tongue in its bitter berries: the harshness of his words has gone into them.",
+   "n": "quippe, “for indeed”, gives the proof of the line before it. notam linguae, “the mark of the tongue”, makes the berries the surviving evidence of his speech, and bacis amaris is the ablative of the thing the mark is shown by, which English turns into “in bitter berries”. cessit in illas, “passed into them”, has illas feminine, pointing back to the berries; asperitas is the roughness of a surface used of a taste and of a manner of speaking at once. The oleaster is the wild olive, whose fruit is bitter where the cultivated olive's is not, and that bitterness is what the story is told to explain.",
+   "v": true,
+   "ln": 525
+  }
+ ],
+ "glossaryFile": "metamorphoses-glossary.json"
+}

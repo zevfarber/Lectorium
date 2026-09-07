@@ -1,0 +1,598 @@
+{
+ "id": "ovid-met-114",
+ "sourceId": "ovid-met-114",
+ "title": "Pomona et Vertumnus. Anaxarete",
+ "titleEn": "Pomona and Vertumnus; Anaxarete — Metamorphoses XIV.609–771",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 8719b7d375018d4f. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
+ "about": "Ovid runs quickly down the line of Alban kings from Ascanius to Proca, then stops at Pomona, a wood-nymph who cares for nothing but her orchard and bars it against the country folk for fear of their violence. Vertumnus, who can take any shape, courts her in one disguise after another and at last as an old woman, arguing the case for marriage from an elm and its vine and telling her how Anaxarete of Salamis was turned to stone for driving her suitor Iphis to hang himself at her door. The speech fails; the god drops the disguise, makes ready to use force, and finds the sight of him has done what the arguments could not.",
+ "advisory": {
+  "lede": "Pomona shuts herself away for fear of being raped by the men and gods of the countryside, and at the end of the tale Vertumnus, whose courtship in disguise has failed, makes ready to take her by force — force the same line then says was not needed.",
+  "more": "Pomona keeps her orchard shut and forbids every approach by men because she fears the violence of the country folk (635–636), and the satyrs, the Pans, Silenus and the god who frightens thieves off with sickle and groin are catalogued as so many would-be rapists, everything they did aimed at possessing her (637–641). Vertumnus is set among them as the one who loved most and fared no better. His courtship works by disguise: he enters the garden as an old woman, kisses her, argues at length for marriage, and tells her a story told expressly so that she may fear the more (695–697). When none of it works he resumes his own shape and makes ready to use force (770); the same line sets that force aside as not needed, and the tale ends one line later with the nymph taken by the sight of him and the wound felt on both sides — a happy ending on the poem's own terms, arriving one line after the readiness for force. Nothing in these lines returns to what that readiness meant. Lectorium presents the text unaltered, as written, and the notes say plainly what the Latin says."
+ },
+ "sentences": [
+  {
+   "t": "Inde sub Ascanii dicione binominis Alba\nresque Latina fuit. Succedit Silvius illi.",
+   "l": "Thereupon under the sway of Ascanius were two-named Alba and the Latin state. Silvius succeeds to him.",
+   "i": "After that, Alba of the double name and the Latin state lay under Ascanius' sway. Silvius succeeds him.",
+   "n": "Ovid runs down the line of Alban kings. “Binominis” names Alba Longa by its two-part name. “Dicione” is the ablative of the rare noun “dicio”, “sway, jurisdiction”. The singular “fuit” serves a compound subject, “Alba” and “res Latina”. “Succedit” is a historic present, and the tense will keep shifting between present and perfect all through the list.",
+   "p": true,
+   "v": true,
+   "ln": 609
+  },
+  {
+   "t": "Quo satus antiquo tenuit repetita Latinus\nnomina cum sceptro. Clarus subit Alba Latinum.",
+   "l": "Sprung from him of old, Latinus held names taken up again, along with the sceptre. Bright Alba follows Latinus.",
+   "i": "Born of that ancient line, Latinus bore a name revived from before, and the sceptre with it. Illustrious Alba follows Latinus.",
+   "n": "“Quo” is a connecting relative — “and from him”. “Satus” is the perfect participle of “sero”, “sown, begotten”, with an ablative of origin. “Repetita nomina” is a poetic plural for a single name: this Latinus bears again the name of an earlier Latinus, and “cum sceptro” yokes the name to the kingship. “Subit” means “comes up next, follows”, and takes the accusative “Latinum”. “Clarus” is masculine, so this Alba is the king of that name, not the city called “Alba” at 609. Where “antiquo” attaches is not certain from the line alone; the literal keeps it with “quo”, “from him of old”.",
+   "v": true,
+   "ln": 611
+  },
+  {
+   "t": "Epytus ex illo est; post hunc Capetusque Capysque,\nsed Capys ante fuit.",
+   "l": "From him is Epytus; after this one Capetus and Capys, but Capys came before.",
+   "i": "From him comes Epytus; after him Capetus and Capys — but Capys was the earlier.",
+   "n": "“Est” carries the sense “is sprung” from the run of the list, and the verb has to be supplied again for “Capetusque Capysque”, where the doubled -que couples the two names. Ovid then corrects his own order: “sed Capys ante fuit”, “but Capys came first”. “Hunc” points back to Epytus.",
+   "v": true,
+   "ln": 613
+  },
+  {
+   "t": "Regnum Tiberinus ab illis\ncepit et in Tusci demersus fluminis undis\nnomina fecit aquae;",
+   "l": "Tiberinus took the kingship from them and, sunk in the waves of the Tuscan river, gave names to the water.",
+   "i": "Tiberinus took the throne after them and, drowned in the waters of the Etruscan river, gave the stream its name.",
+   "n": "“Demersus” is a perfect passive participle, “having been sunk”, not a deponent: Tiberinus drowned, and the river took his name — the Tiber. “Nomina” is again a poetic plural for one name. “Tusci” and “fluminis” are a genitive split around “demersus”, with “undis” following.",
+   "v": true,
+   "ln": 614
+  },
+  {
+   "t": "de quo Remulusque feroxque\nAcrota sunt geniti.",
+   "l": "From whom Remulus and fierce Acrota were begotten.",
+   "i": "From him were born Remulus and fierce Acrota.",
+   "n": "“De quo” is a connecting relative — “and from him”. “Sunt geniti” is the perfect passive of “gigno”. The two -que's couple the brothers, and “ferox” stands at the end of 616 while its noun “Acrota” opens 617.",
+   "v": true,
+   "ln": 616
+  },
+  {
+   "t": "Remulus maturior annis\nfulmineo periit, imitator fulminis, ictu.",
+   "l": "Remulus, the riper in years, perished by a lightning stroke — an imitator of lightning.",
+   "i": "Remulus, the elder of the two, died by a stroke of lightning: he had played at lightning himself.",
+   "n": "“Maturior annis” is a comparative with an ablative of respect, “riper in respect of years” — the elder brother. “Fulmineo … ictu” is an ablative of means with its adjective at the head of 618 and its noun at the end, and “imitator fulminis” standing between them. Ovid gives the whole story in three words: Remulus aped Jupiter's thunderbolt and a real one struck him.",
+   "v": true,
+   "ln": 617
+  },
+  {
+   "t": "Fratre suo sceptrum moderatior Acrota forti\ntradit Aventino, qui, quo regnarat, eodem\nmonte iacet positus tribuitque vocabula monti.",
+   "l": "Acrota, more temperate than his own bold brother, hands the sceptre to Aventinus, who lies laid on the same hill on which he had reigned, and gave his name to the hill.",
+   "i": "Acrota, a steadier man than his headstrong brother, passes the sceptre to Aventinus, who lies buried on the very hill he had ruled from, and gave the hill its name.",
+   "n": "“Fratre suo … forti” is an ablative of comparison after “moderatior”, and the phrase is split across the whole of 619, four words between the noun and its adjective. “Regnarat” is syncopated for “regnaverat”; the relative clause “quo regnarat” stands before its own antecedent, and that antecedent phrase is then split across the line-end, “eodem” closing 620 and “monte” opening 621. “Positus” is “laid out, buried”. “Tribuit” can be present or perfect; the literal takes it as perfect, the naming being already done, beside the historic present “tradit”. This is Ovid's aetiology for the name of the Aventine, one of the hills of Rome.",
+   "v": true,
+   "ln": 619
+  },
+  {
+   "t": "Iamque Palatinae summam Proca gentis habebat.",
+   "l": "And now Proca held the sovereignty of the Palatine race.",
+   "i": "And by now Proca held sovereign power over the Palatine people.",
+   "n": "“Summam” is a noun made from the adjective, “the highest place, sovereignty”, and “gentis” depends on it. “Palatinae … gentis” names the Alban line by the Roman hill its descendants will hold. “Habebat” is imperfect, keeping the reign open while the poem turns aside to Pomona and does not come back to it.",
+   "p": true,
+   "v": true,
+   "ln": 622
+  },
+  {
+   "t": "Rege sub hoc Pomona fuit, qua nulla Latinas\ninter hamadryadas coluit sollertius hortos\nnec fuit arborei studiosior altera fetus.",
+   "l": "Under this king was Pomona, than whom none among the Latin hamadryads tended gardens more skilfully, nor was another more zealous for the fruit of trees.",
+   "i": "In this king's reign lived Pomona; no hamadryad in Latium tended a garden more skilfully than she, and none was more devoted to the trees' increase.",
+   "n": "“Qua” is an ablative of comparison after “nulla” — “than whom none”. “Latinas inter hamadryadas” puts the preposition between adjective and noun, a normal poetic inversion. Hamadryads are tree-nymphs, each bound to the life of her own tree. “Sollertius” is the comparative adverb of “sollers”, “skilful”, and “studiosior … fetus” takes an objective genitive, “more eager for the crop”.",
+   "v": true,
+   "ln": 623
+  },
+  {
+   "t": "Unde tenet nomen: non silvas illa nec amnes,\nrus amat et ramos felicia poma ferentes.",
+   "l": "Whence she holds her name: not woods she, nor streams — she loves the countryside and boughs bearing plenteous fruit.",
+   "i": "From that she has her name: not woods for her, nor rivers — she loves the tilled land and boughs that carry rich fruit.",
+   "n": "“Unde tenet nomen” points at “pomum”, “fruit”, inside “Pomona”: the name is the etymology, and the Latin word does work a translation cannot. “Non silvas illa nec amnes” has no verb of its own; “amat” in the next line serves both halves. “Felicia” of fruit means “fruitful, abundant”, not “happy”.",
+   "v": true,
+   "ln": 626
+  },
+  {
+   "t": "Nec iaculo gravis est, sed adunca dextera falce,\nqua modo luxuriem premit et spatiantia passim\nbracchia compescit, fisso modo cortice lignum\ninserit et sucos alieno praestat alumno;",
+   "l": "Nor is her right hand weighted with a javelin, but with a hooked pruning-knife, with which now she checks the rank growth and curbs the arms straying everywhere, now, the bark split, inserts wood and supplies sap to a nursling not its own;",
+   "i": "Her right hand is burdened with no javelin but with a curved pruning-hook: with it she now cuts back the rank growth and reins in the branches sprawling every way, now splits the bark, sets a graft in it, and feeds sap to a foster-child not its own.",
+   "n": "“Gravis est” with the ablative is “weighed down with”; “adunca … falce” is the hook that answers the javelin. “Modo … modo” is “now … now”. “Fisso … cortice” is an ablative absolute, “the bark having been split” — the first of several in this part. “Bracchia” of a tree are its limbs, and “alumno”, “nursling, foster-child”, keeps the metaphor going: the grafted shoot is fed by a stock that did not father it.",
+   "v": true,
+   "ln": 628
+  },
+  {
+   "t": "nec sentire sitim patitur bibulaeque recurvas\nradicis fibras labentibus inrigat undis:",
+   "l": "nor does she allow them to feel thirst, and she waters the curling fibres of the drinking root with gliding waters:",
+   "i": "nor does she let them go thirsty; she floods the curved fibres of the drinking root with running water.",
+   "n": "“Patitur” takes the infinitive “sentire” with its object unexpressed — the trees, carried over from the last unit. “Bibulae … radicis” is a genitive with “fibras”, and “bibulae”, “drinking, absorbent”, is transferred from what the root does to the root itself. “Labentibus … undis” is an ablative of means. The edition spells the verb “inrigat”, unassimilated, and it is kept.",
+   "v": true,
+   "ln": 632
+  },
+  {
+   "t": "hic amor, hoc studium; veneris quoque nulla cupido est.",
+   "l": "This is her love, this her pursuit; of Venus too there is no desire.",
+   "i": "This is her love, this her passion; for Venus she has no desire at all.",
+   "n": "Two verbless clauses — “est” is left out twice and then supplied for the third. “Studium” is “eager pursuit, devotion”, the noun behind “studiosior” at 625. “Veneris … cupido” is an objective genitive, “desire for love-making”. “Quoque” here is the plain adverb “too”, not the ablative “quo” with -que; the two are worth telling apart in Ovid, and this part contains one clear case of the other kind. The line closes the portrait, and the whole tale turns on its last clause.",
+   "v": true,
+   "ln": 634
+  },
+  {
+   "t": "Vim tamen agrestum metuens pomaria claudit\nintus et accessus prohibet refugitque viriles.",
+   "l": "Fearing, however, the force of the country-folk, she shuts herself in within her orchards and forbids and flees male approaches.",
+   "i": "Fearing violence from the men of the fields, though, she shuts herself inside her orchards and bars all approach by men, and shuns it.",
+   "n": "“Vim” is “force, violence”, and here plainly sexual violence: the fear of it is what shuts the gate. “Agrestum” is the genitive plural of “agrestis”, “countryman”. “Intus” goes with “claudit” — she shuts herself inside. “Accessus … viriles” is accusative plural, “men's approaches”, with the adjective held back to the end of 636, after both verbs.",
+   "p": true,
+   "v": true,
+   "ln": 635
+  },
+  {
+   "t": "Quid non et satyri, saltatibus apta iuventus,\nfecere et pinu praecincti cornua Panes\nSilenusque, suis semper iuvenalior annis,\nquique deus fures vel falce vel inguine terret,\nut poterentur ea?",
+   "l": "What did the satyrs not do — a young company fit for dancing — and the Pans girt about their horns with pine, and Silenus, always more youthful than his years, and the god who frightens thieves with either sickle or groin, that they might possess her?",
+   "i": "What did they not attempt — the satyrs, a tribe made for dancing; the Pans with pine wreathed about their horns; Silenus, forever younger than his years; and the god who scares thieves off with his sickle or his groin — that they might possess her?",
+   "n": "“Fecere” is “fecerunt”, the poetic third-plural perfect in -ere; it will come again in this part. “Iuventus” is a collective noun, a band of the young, standing in apposition to “satyri”. “Praecincti … cornua” is a passive participle with a Greek accusative of respect — “girt as to their horns”, that is, with pine wreathed round them. “Poterentur” is from the deponent “potior”, which takes the ablative “ea”; used of a woman it means sexual possession, so the catalogue of woodland gods is a catalogue of would-be rapists. The god of the last line is Priapus, given by his sickle and his phallus and not named. Some editions read “Silvanusque” for “Silenusque”, which puts a different woodland god in the list.",
+   "v": true,
+   "ln": 637
+  },
+  {
+   "t": "Sed enim superabat amando\nhos quoque Vertumnus neque erat felicior illis.",
+   "l": "But indeed Vertumnus surpassed these too in loving, and yet was no more fortunate than they.",
+   "i": "But Vertumnus outdid even these in loving — and was no luckier than they.",
+   "n": "“Sed enim” is “but indeed”, marking the turn from the crowd to the real suitor. “Amando” is an ablative gerund of respect, “in loving”. “Quoque” is again the plain adverb. “Illis” is an ablative of comparison after “felicior”. Vertumnus is the god of the turning year and of change; the tale never explains his name, it demonstrates it.",
+   "v": true,
+   "ln": 641
+  },
+  {
+   "t": "O quotiens habitu duri messoris aristas\ncorbe tulit verique fuit messoris imago!",
+   "l": "O how often, in the dress of a hard reaper, did he carry ears of grain in a basket, and was the very image of a true reaper!",
+   "i": "How often, in the get-up of a rough harvester, he carried ears of corn in a basket and was the very picture of a real one!",
+   "n": "“Habitu” is an ablative of manner, “in the guise of”. “Duri” of a labourer is “hardened, tough”, not “cruel”. “Corbe” is an ablative of means, and the genitive “veri … messoris” depends on “imago”. “Messoris” twice inside two lines is the point: the disguise cannot be told from the thing. The exclamatory “O quotiens” opens a run of disguises that goes on to 651.",
+   "v": true,
+   "ln": 643
+  },
+  {
+   "t": "Tempora saepe gerens faeno religata recenti\ndesectum poterat gramen versasse videri;",
+   "l": "Often, wearing his temples bound with fresh hay, he could seem to have tossed the mown grass;",
+   "i": "Often, with his temples bound in fresh hay, he might have been taken for a man who had just turned the cut grass.",
+   "n": "“Tempora … religata” is the accusative object of “gerens”, with the participle “religata” agreeing: “wearing his temples bound”. The same accusative serves at 654, after “redimitus”, as a Greek accusative of respect; here “gerens” supplies a governing verb, so it is a plain object. “Faeno … recenti” is an ablative of means. “Versasse” is syncopated for “versavisse”, a perfect infinitive, so what he seems to have done is already finished. “Poterat … videri” is imperfect, holding the habit open.",
+   "v": true,
+   "ln": 645
+  },
+  {
+   "t": "saepe manu stimulos rigida portabat, ut illum\niurasses fessos modo disiunxisse iuvencos.",
+   "l": "often he carried goads in a stiff hand, so that you would have sworn that he had just unyoked weary bullocks.",
+   "i": "often he carried an ox-goad in a hardened hand, so that you would have sworn he had just unyoked his tired steers.",
+   "n": "“Manu … rigida” is ablative, the hand stiff with work. “Ut … iurasses” is a result clause with a pluperfect subjunctive, syncopated for “iuravisses”, in the indefinite second person: “you would have sworn” pulls the reader into the scene. “Disiunxisse” is a perfect infinitive in indirect statement with “illum”. Some editions read “iurares”, imperfect, “you would swear”.",
+   "v": true,
+   "ln": 647
+  },
+  {
+   "t": "Falce data frondator erat vitisque putator;\ninduerat scalas: lecturum poma putares;",
+   "l": "A pruning-hook given him, he was a leaf-cutter and a pruner of the vine; he had put on a ladder: you would suppose he was going to pick fruit;",
+   "i": "Give him a pruning-hook and he was a lopper of leaves and a trimmer of vines; he had shouldered a ladder — you would take him for a man off to pick fruit.",
+   "n": "“Falce data” is an ablative absolute, “a hook having been given”. “Induerat scalas” is deliberately odd: “induo” is “put on” as one puts on clothes, so the ladder is worn like a garment. “Lecturum” is a future participle in indirect statement after “putares”, with “eum” unexpressed — “that he would pick fruit”. “Putares” is the same indefinite second person as “iurasses” two lines before, at 648.",
+   "v": true,
+   "ln": 649
+  },
+  {
+   "t": "miles erat gladio, piscator harundine sumpta.",
+   "l": "He was a soldier by a sword, a fisherman, a rod having been taken up.",
+   "i": "With a sword he was a soldier; with a rod taken up, a fisherman.",
+   "n": "Two ablatives doing different work in one line: “gladio” is a plain ablative of means, while “harundine sumpta” is an ablative absolute, “the rod having been taken up”. “Harundo” is the reed of a fishing-rod. The line closes the catalogue with its tightest example — one verb and two trades.",
+   "v": true,
+   "ln": 651
+  },
+  {
+   "t": "Denique per multas aditum sibi saepe figuras\nrepperit, ut caperet spectatae gaudia formae.",
+   "l": "In short, through many shapes he often found himself an approach, so that he might take the joys of the beauty he had gazed on.",
+   "i": "In short, through many shapes he often found his way in, to seize the delight of the beauty he had watched.",
+   "n": "“Aditum sibi … repperit” is “found an entry for himself”, with a dative of advantage. “Ut caperet” is a purpose clause. “Spectatae … formae” is a genitive with “gaudia”, the participle meaning “gazed at, looked upon”: she has been watched before she is approached. “Capere gaudia” of a woman's beauty is not an innocent phrase — it reaches for possession, as “poterentur” did at 641.",
+   "p": true,
+   "v": true,
+   "ln": 652
+  },
+  {
+   "t": "Ille etiam picta redimitus tempora mitra,\ninnitens baculo, positis per tempora canis,\nadsimulavit anum cultosque intravit in hortos\npomaque mirata est “tanto” que “potentior!” inquit,",
+   "l": "He even — his temples wreathed in a painted turban, leaning on a staff, grey hairs set along his temples — counterfeited an old woman, and entered the tended gardens, and marvelled at the fruit, and said, “and so much the more powerful are you!”",
+   "i": "He even wrapped his temples in a painted turban, leaned on a staff, laid grey hair along his brow, played an old woman and went into the well-kept garden; and, as the old woman, he marvelled at the fruit and said, “and you are more powerful by as much again!”",
+   "n": "“Redimitus tempora” is a Greek accusative of respect after a passive participle — “wreathed as to his temples”. “Positis … canis” is an ablative absolute, “grey hairs having been laid on”. Then the grammar changes sex: “mirata est”, a deponent perfect, is feminine, because the disguise has taken hold and Ovid lets the form follow the old woman rather than the god. “Potentior” is a nominative singular and so cannot agree with the neuter plural “poma”: the compliment jumps from the fruit to Pomona herself, with “es” unexpressed, and “tanto” is an ablative of measure of difference reckoned against the fruit just praised. That she is the one praised is settled by “laudatae” at 658, “to her who had been praised”. The edition prints the exclamation broken open — “tanto” que “potentior!” — with the enclitic -que standing outside both pairs of quotation marks, though the sense wants one phrase, “tantoque potentior”, “and so much the more powerful”. The text is given here exactly as printed. “Tempora” stands twice, in 654 and again in 655.",
+   "v": true,
+   "ln": 654
+  },
+  {
+   "t": "paucaque laudatae dedit oscula, qualia numquam\nvera dedisset anus, glaebaque incurva resedit\nsuspiciens pandos autumni pondere ramos.",
+   "l": "and gave a few kisses to the praised one, such as a true old woman would never have given, and sat down bent on a clod, looking up at the boughs bowed with autumn's weight.",
+   "i": "and gave the girl he had praised a few kisses, such as no real old woman would ever have given; then sat down hunched on a clod of earth, gazing up at boughs bent under the weight of autumn.",
+   "n": "“Laudatae” is a dative participle standing in for a noun, “to her who had been praised”. “Qualia … dedisset” is a comparative clause with a pluperfect subjunctive, unreal: no true old woman would have kissed like that, and the kisses give the disguise away to the reader if not to Pomona. “Glaeba” is an ablative of place where, with no preposition. “Incurva” is feminine nominative, agreeing with the god as the old woman he is playing, and “pandos … ramos” answers it — the bent body and the bent boughs in one picture. “Pondere” is an ablative of cause.",
+   "v": true,
+   "ln": 658
+  },
+  {
+   "t": "Ulmus erat contra speciosa nitentibus uvis:",
+   "l": "An elm stood opposite, showy with gleaming grapes:",
+   "i": "Across from her stood an elm, splendid with gleaming clusters.",
+   "n": "“Contra” is here an adverb, “over against, opposite”, not a preposition. “Nitentibus uvis” is an ablative of respect with “speciosa”. Vines were trained up elms in Italian planting, so the grapes on this elm are the vine's and not the tree's — and the whole speech that follows is built on that arrangement.",
+   "p": true,
+   "v": true,
+   "ln": 661
+  },
+  {
+   "t": "quam socia postquam pariter cum vite probavit,\n“at si staret” ait “caelebs sine palmite truncus,\nnil praeter frondes, quare peteretur, haberet;",
+   "l": "and when she had approved it equally along with its partner vine, “but if the trunk stood unwedded, without a vine-shoot,” she says, “it would have nothing beyond leaves, for which it might be sought;",
+   "i": "and when she had praised it, and the vine that shared it just as much, “but if that trunk stood unmarried, without its shoot,” she said, “it would have nothing but leaves to be wanted for;",
+   "n": "“Quam” is a connecting relative — “and when she had approved it”. “Socia … cum vite” is an ablative with “cum”, the vine called the elm's partner. The quotation begins inside the line and “ait” sits inside the quotation, where Latin habitually puts the verb of speaking. “Si staret … haberet” is a present unreal condition, both verbs imperfect subjunctive. “Caelebs”, “unwedded”, is used of a tree carrying no vine, and it is the metaphor the whole speech runs on. “Quare peteretur” is a relative clause of characteristic — “of a kind for which it might be sought”.",
+   "v": true,
+   "ln": 662
+  },
+  {
+   "t": "haec quoque, quae iuncta est, vitis requiescit in illo:\nsi non nupta foret, terrae acclinata iaceret.",
+   "l": "this vine too, which has been joined to it, rests upon it: if she were not married, she would lie leaning on the ground.",
+   "i": "and this vine, joined to it, leans its weight upon it: were she unwed, she would lie sprawled along the ground.",
+   "n": "“Iuncta est” and “nupta foret” are both marriage words used of a plant: “iungere” of joining in wedlock, “nubere” of a bride. “Terrae” is a dative with “acclinata”, “leaned against the earth”, and “foret” stands for “esset”. “Illo” is masculine and looks back to “truncus” at 663, not to “ulmus”, which is feminine; some editions print “ulmo” here instead.",
+   "v": true,
+   "ln": 665
+  },
+  {
+   "t": "Tu tamen exemplo non tangeris arboris huius\nconcubitusque fugis nec te coniungere curas.",
+   "l": "You, however, are not touched by the example of this tree, and you flee couplings and do not care to join yourself.",
+   "i": "You, though, are unmoved by this tree's example: you flee from coupling and have no wish to be joined.",
+   "n": "“Tangeris” is second-person passive, “are touched”, with “exemplo” ablative of means. “Concubitus” is accusative plural, the lying-together of marriage, and the word is blunter than “marriage”: the speech is arguing for a bed, not for a ceremony. “Te coniungere” is the reflexive with an infinitive after “curas” — “you take no care to join yourself”.",
+   "v": true,
+   "ln": 667
+  },
+  {
+   "t": "Atque utinam velles! Helene non pluribus esset\nsollicitata procis nec quae Lapitheia movit\nproelia nec coniunx nimium tardantis Ulixei.",
+   "l": "And would that you were willing! Helen would not have been courted by more suitors, nor she who stirred the Lapith battles, nor the wife of too-long-delaying Ulysses.",
+   "i": "And would that you were willing! Helen would not have been courted by more suitors, nor she who set off the battle of the Lapiths, nor the wife of Ulysses, who tarried far too long.",
+   "n": "“Utinam velles” is a wish for a present that is not so, with an imperfect subjunctive. “Esset sollicitata” is a pluperfect passive subjunctive standing as the conclusion of a condition whose “if” clause is left to be understood: had she been willing, she would have had more suitors than these three. The three are Helen, then Hippodame — given only as “she who stirred the Lapith battles” — and then Penelope, given only as Ulysses' wife. “Lapitheia” is a Greek adjectival form, and “Ulixei” a Greek genitive.",
+   "v": true,
+   "ln": 669
+  },
+  {
+   "t": "Nunc quoque, cum fugias averserisque petentes,\nmille viri cupiunt et semideique deique\net quaecumque tenent Albanos numina montes.",
+   "l": "Now too, though you flee and turn away those who seek you, a thousand men desire you, and demigods and gods, and whatever divinities hold the Alban hills.",
+   "i": "Even now, when you run and turn your suitors away, a thousand men want you, and demigods and gods, and every power that holds the Alban hills.",
+   "n": "“Cum fugias averserisque” is concessive with the subjunctive, “although you flee”. “Averseris” is present subjunctive of the deponent “aversor”, “turn away from, repulse”, matching “fugias” — not a perfect: both verbs describe what she is doing now. “Petentes” is a participle used as a noun, “those who court her”. “Quoque” is the adverb again. “Numina” is neuter plural with “quaecumque”, and “Albanos … montes” is the object of “tenent” — the Alban hills, the country of this whole passage.",
+   "v": true,
+   "ln": 672
+  },
+  {
+   "t": "Sed tu, si sapies, si te bene iungere anumque\nhanc audire voles, quae te plus omnibus illis,\nplus quam credis, amo, vulgares reice taedas\nVertumnumque tori socium tibi selige!",
+   "l": "But you, if you will be wise, if you will wish to join yourself well and to hear this old woman, who love you more than all those, more than you believe — reject the common marriage-torches and choose Vertumnus for yourself as partner of your bed!",
+   "i": "But you, if you have any sense, if you will make a good match and listen to this old woman — who loves you more than all of them, and more than you think — refuse the common torches and take Vertumnus for the partner of your bed!",
+   "n": "The two “si” clauses have future indicatives, “if you shall be wise … shall wish”, where English uses a present. “Anum hanc audire” has the speaker pointing at herself, the pronoun doing the work of “me”. “Quae … amo” is a relative clause with a first-person verb, following the sense of the speaker rather than the case of “anum”. “Taedae”, the wedding torches, stand for marriage itself, and “vulgares” makes them the common run of it. “Reice” and “selige” are imperatives, and “tori socium” stands in apposition to “Vertumnum”.",
+   "v": true,
+   "ln": 675
+  },
+  {
+   "t": "pro quo\nme quoque pignus habes (neque enim sibi notior ille est,\nquam mihi);",
+   "l": "for whom you have me too as a pledge (for he is not better known to himself than to me);",
+   "i": "and on his behalf you have me too as surety — he is no better known to himself than he is to me.",
+   "n": "“Pro quo” is a connecting relative, “and on his behalf”. “Me … pignus habes” is a double accusative, “you have me as a guarantee”. “Notior … sibi … quam mihi” is a comparative with two datives, known to himself and known to me. The boast is exactly true and exactly a lie, since the speaker is Vertumnus. Some editions read the imperative “habe”, “take me as your pledge”.",
+   "v": true,
+   "ln": 678
+  },
+  {
+   "t": "nec passim toto vagus errat in orbe:\nhaec loca magna colit;",
+   "l": "nor does he wander roaming over the whole world: these great places he tends;",
+   "i": "nor does he stray all over the world at random: these are the lands he keeps to.",
+   "n": "“Vagus” is an adjective doing an adverb's work with “errat” — “wanders as a rover”. “Toto … in orbe” is an ablative of place. “Colit” of a god is “haunts, dwells in”, and of a gardener “tends”; both senses are live for Vertumnus, and the tale needs both. The edition prints “haec loca magna colit”, “these great places”; some editions print “sola”, “these places alone”, which sharpens the contrast with “toto in orbe”.",
+   "v": true,
+   "ln": 680
+  },
+  {
+   "t": "nec, uti pars magna procorum,\nquam modo vidit, amat:",
+   "l": "nor, as the great part of suitors do, does he love the woman he has just now seen:",
+   "i": "nor does he, like most suitors, love whichever girl he has just laid eyes on.",
+   "n": "“Uti” is the older form of “ut”, “as”. “Pars magna procorum” is the subject of an “amat” that is not written, supplied from the main verb. “Quam modo vidit” is the object of “amat” with its antecedent left out — “the one whom he has just seen”. “Modo” here is “just now”; the same adverb was doing quite different work at 629 and 630, where “modo … modo” meant “now … now”.",
+   "v": true,
+   "ln": 681
+  },
+  {
+   "t": "tu primus et ultimus illi\nardor eris, solique suos tibi devovet annos.",
+   "l": "you will be his first and last passion, and to you alone he vows his years.",
+   "i": "you will be his first love and his last, and he pledges his years to you alone.",
+   "n": "“Illi” is a dative of the person concerned with “ardor eris” — “you will be a burning for him”. “Ardor” is the fire of love standing for the person who kindles it. “Soli … tibi” is a dative with “devovet”, the adjective separated from its pronoun by “suos”. “Devovet” is strong: “vows, dedicates as by an oath”.",
+   "v": true,
+   "ln": 682
+  },
+  {
+   "t": "Adde, quod est iuvenis, quod naturale decoris\nmunus habet formasque apte fingetur in omnes,\net quod erit iussus, iubeas licet omnia, fiet.",
+   "l": "Add that he is young, that he has a natural gift of beauty, and will be shaped aptly into all forms, and that what he shall be bidden — though you bid everything — he will become.",
+   "i": "Add that he is young, that beauty is his by nature, and that he can be moulded neatly into any shape at all; and whatever he is ordered to be, though you order everything, that he will become.",
+   "n": "“Adde quod” is “add the fact that”, with the indicative. “Naturale decoris munus” is “a natural gift of comeliness”, the genitive defining the gift. “Fingetur” is future passive, “will be moulded”, and it is the tale's own joke: the shape-changer offers to be shaped by her. “Iubeas licet omnia” is concessive, “licet” taking a subjunctive — “though you should command everything”. “Quod erit iussus” is a relative clause serving as the predicate of “fiet”: what he shall have been ordered, that he will become.",
+   "v": true,
+   "ln": 684
+  },
+  {
+   "t": "Quid quod amatis idem? quod, quae tibi poma coluntur,\nprimus habet laetaque tenet tua munera dextra?",
+   "l": "What of the fact that you love the same thing? that the fruit which is grown for you, he has first, and holds your gifts in a glad right hand?",
+   "i": "And what of this — that the two of you love the same things? that the fruit grown for you, he has first, and holds your gifts in a glad hand?",
+   "n": "“Quid quod …?” is a rhetorical formula, “what of the fact that …?”, and the second “quod” hangs on the same formula. “Amatis” is second person plural, taking Vertumnus and Pomona together in one verb. “Quae tibi poma coluntur” is passive with a dative of advantage, “the fruit that is tended for you”. “Laeta … dextra” is ablative, the adjective transferred from the man to his hand.",
+   "v": true,
+   "ln": 687
+  },
+  {
+   "t": "Sed neque iam fetus desiderat arbore demptos,\nnec, quas hortus alit, cum sucis mitibus herbas,\nnec quicquam, nisi te;",
+   "l": "But he does not now long for the fruits plucked from the tree, nor for the plants which the garden feeds, with their mild juices, nor for anything, except you;",
+   "i": "But it is no longer the fruit picked from the tree that he wants, nor the herbs the garden feeds with their mild juices, nor anything at all — except you.",
+   "n": "“Arbore demptos” is an ablative of separation with the participle, “taken from the tree”. “Quas hortus alit” stands before its antecedent “herbas”, which is held to the end of 690, after the phrase “cum sucis mitibus”. The “neque” and the two “nec”s climb — fruit, herbs, anything — and land on “nisi te”. “Mitibus” of juices is “mild, mellow”.",
+   "v": true,
+   "ln": 689
+  },
+  {
+   "t": "miserere ardentis et ipsum,\nquod petit, ore meo praesentem crede precari\nultoresque deos et pectora dura perosam\nIdalien memoremque time Rhamnusidis iram!",
+   "l": "have pity on one burning, and believe that he himself, present, is begging through my mouth for what he seeks; and fear the avenging gods, and the Idalian goddess who loathes hard hearts, and the mindful anger of the Rhamnusian.",
+   "i": "Pity a man on fire, and believe that he himself is here, pleading through my mouth for what he asks; and fear the avenging gods, and the goddess of Idalium, who hates hard hearts, and the unforgetting anger of the goddess of Rhamnus.",
+   "n": "“Miserere” is the imperative of the deponent “misereor”, which takes a genitive: “ardentis”, “of one on fire”. “Ipsum … praesentem … precari” is indirect statement after “crede” — he is present and pleading, which is the plain truth, and only Pomona does not know it. “Ore meo” is an ablative of means. “Perosam” is a perfect participle with active force, “having come to hate”, agreeing with “Idalien”, a Greek accusative: Venus, from her cult at Idalium in Cyprus. “Rhamnusidis” is Nemesis, from Rhamnus in Attica, and “memorem … iram” is the anger that does not forget. Some editions read “qui petit”, “who seeks”, where this one has “quod petit”, “what he seeks”.",
+   "v": true,
+   "ln": 691
+  },
+  {
+   "t": "Quoque magis timeas (etenim mihi multa vetustas\nscire dedit), referam tota notissima Cypro\nfacta, quibus flecti facile et mitescere possis.",
+   "l": "And that you may fear the more (for length of years has given me much to know), I shall relate deeds most famous in all Cyprus, by which you may easily be bent and grow gentle.",
+   "i": "And so that you may fear the more — long years have given me much to know — I shall tell you deeds famous through the whole of Cyprus, by which you may easily be bent and softened.",
+   "n": "“Quoque” here is not the adverb “also”: it is “quo” with -que, the ablative “quo” that introduces a purpose clause containing a comparative — “and in order that you may fear the more”. This is the trap the two spellings set, and 695 is the one place in this part where the word is not the adverb. “Vetustas … dedit scire” is “age has given me to know”, an infinitive after “do” in the poetic construction. “Tota … Cypro” is an ablative of place, and “notissima” a superlative agreeing with “facta”. “Flecti” is passive, “to be bent”, and “mitescere” intransitive, “to grow soft”.",
+   "p": true,
+   "v": true,
+   "ln": 695
+  },
+  {
+   "t": "Viderat a veteris generosam sanguine Teucri\nIphis Anaxareten, humili de stirpe creatus,\nviderat et totis perceperat ossibus aestum",
+   "l": "Iphis, begotten of a humble stock, had seen Anaxarete, noble from the blood of ancient Teucer — had seen her, and had taken the fever into all his bones",
+   "i": "Iphis, of humble stock, had seen Anaxarete, high-born from the blood of old Teucer — had seen her, and had taken the fever into all his bones",
+   "n": "“Viderat” stands at the head of 698 and again at the head of 700, and the repetition is the psychology of the moment: the seeing and the burning are one act. “A veteris … sanguine Teucri” is “from the blood of ancient Teucer”, the founder of Salamis, the genitive split around “generosam sanguine”. “Humili de stirpe creatus” is set against it — her descent given first, his second, and the distance between them is the story. “Totis … ossibus” is ablative, “in all his bones”, and “aestum” is the heat of love. The unit ends without punctuation because the period runs on: the cut falls at the -que of “luctatusque”, which joins the next clause.",
+   "p": true,
+   "v": true,
+   "ln": 698
+  },
+  {
+   "t": "luctatusque diu, postquam ratione furorem\nvincere non potuit, supplex ad limina venit",
+   "l": "and having struggled long, after he could not conquer the madness by reason, he came a suppliant to her threshold",
+   "i": "and after long struggle, when reason could not master the madness, he came to her door as a suppliant",
+   "n": "“Luctatus” is a deponent perfect participle with active sense, “having wrestled”. “Postquam … non potuit” takes the perfect indicative, as “postquam” regularly does. “Ratione” is an ablative of means. “Supplex” is a nominative used almost as a noun, “as a suppliant”, and it puts Iphis in the posture of a man at an altar: the door is treated as a shrine, and the garlands and the lament will keep that up. The unit again ends unpunctuated, cut at the “et” that opens the next clause.",
+   "v": true,
+   "ln": 701
+  },
+  {
+   "t": "et modo nutrici miserum confessus amorem,\nne sibi dura foret, per spes oravit alumnae,",
+   "l": "and now, having confessed his wretched love to the nurse, he begged her by the hopes she had of her nursling not to be hard to him,",
+   "i": "and now, having owned his wretched love to her nurse, begged her by all her hopes for her nursling not to be harsh to him;",
+   "n": "“Modo … et modo”, at 703 and again at 705, marks two of his attempts. “Nutrici” is a dative with “confessus”, the deponent participle active in sense. “Ne sibi dura foret” is the clause of entreaty after “oravit”, with “foret” for “esset” and “sibi” reflexive back to Iphis; the subject of “foret” is not written, and the nurse is the nearer candidate, though the plea passes through her to Anaxarete. “Per spes … alumnae” is the formula of swearing by what the hearer holds dear.",
+   "v": true,
+   "ln": 703
+  },
+  {
+   "t": "et modo de multis blanditus cuique ministris\nsollicita petiit propensum voce favorem;",
+   "l": "and now, having coaxed each one of her many servants, he sought their inclined favour with anxious voice;",
+   "i": "and now, flattering each of her many servants in turn, he begged their goodwill in an anxious voice.",
+   "n": "“Blanditus” is another deponent participle with active force, “having coaxed”, taking the dative “cuique … ministris”. “De multis” is partitive with “cuique”, “each one out of the many”. “Propensum … favorem” is favour inclined towards him, from “propendeo”. “Sollicita … voce” is an ablative of manner, and the adjective belongs by rights to the man rather than to his voice.",
+   "v": true,
+   "ln": 705
+  },
+  {
+   "t": "saepe ferenda dedit blandis sua verba tabellis,\ninterdum madidas lacrimarum rore coronas\npostibus intendit posuitque in limine duro\nmolle latus tristisque serae convicia fecit.",
+   "l": "often he gave his words to coaxing tablets to be carried; sometimes he fastened to the doorposts garlands wet with the dew of tears, and laid his soft side on the hard threshold, and made sad reproaches at the bar.",
+   "i": "often he gave his words to wooing tablets to carry; sometimes he hung on the doorposts garlands soaked with the dew of his tears, laid his soft body on the hard threshold, and railed sadly at the bolted door.",
+   "n": "“Ferenda” is a gerundive of purpose after “dedit”, “gave to be carried”. “Tabellis” are the waxed writing-tablets of a love-letter, and “blandis” is transferred from the writer to them. “Madidas … rore” is an ablative of means with the genitive “lacrimarum” inside it: garlands wet with a dew that is tears. “Molle latus” against “limine duro” is the contrast the passage is built on — the soft body and the hard door, and behind them the soft lover and the hard woman. “Serae … convicia” is abuse aimed at the door-bar, the genitive marking its target: this is the shut-out lover's lament, a set piece of Latin love poetry.",
+   "v": true,
+   "ln": 707
+  },
+  {
+   "t": "Saevior illa freto surgente cadentibus Haedis,\ndurior et ferro, quod Noricus excoquit ignis,\net saxo, quod adhuc vivum radice tenetur,\nspernit et inridet factisque inmitibus addit\nverba superba ferox et spe quoque fraudat amantem.",
+   "l": "She, fiercer than the sea rising when the Kids are setting, and harder than iron which Noric fire smelts, and than rock which is still held living by its root, scorns and mocks him, and to unkind deeds adds proud words, ferocious, and cheats her lover of hope as well.",
+   "i": "Crueller than the sea that rises as the Kids go down, harder than the iron that Noric furnaces smelt, harder than living rock still gripped by its bed, she scorns him and laughs at him; fierce, she adds proud words to unkind acts, and robs her lover even of hope.",
+   "n": "Three ablatives of comparison run in a row — “freto”, “ferro”, “saxo” — each with a clause hung on it, and the main verbs do not arrive until 714. “Cadentibus Haedis” is an ablative absolute: the Kids, two stars in Auriga, set in stormy autumn weather. “Noricus … ignis” is the ironworking of Noricum, whose steel was proverbial. “Vivum” of stone means “live”, still in its native bed and never quarried. “Quoque” is the adverb: hope is taken from him on top of everything else. “Fraudat” takes an accusative of the person and an ablative of what is withheld. This unit runs five lines because the period carries no terminal stop before 715, and a shorter unit would have to cut inside the string of comparisons.",
+   "v": true,
+   "ln": 711
+  },
+  {
+   "t": "Non tulit impatiens longi tormenta doloris\nIphis et ante fores haec verba novissima dixit:",
+   "l": "Iphis, unable to bear it, did not endure the torments of long grief, and before her doors spoke these last words:",
+   "i": "Iphis could bear no more; he did not endure the torment of long grief, and before her doors spoke these last words:",
+   "n": "“Impatiens” and “non tulit” say the same thing twice over, and the doubling is the point: the endurance and the end of it in one line. “Longi … doloris” is a genitive with “tormenta”. “Novissima” is the Latin idiom for “last”, literally “newest”, the superlative of “novus” used of what comes last in a series. The subject “Iphis” is held back to the head of 717, after the whole first clause has run.",
+   "p": true,
+   "v": true,
+   "ln": 716
+  },
+  {
+   "t": "“Vincis, Anaxarete, neque erunt tibi taedia tandem\nulla ferenda mei:",
+   "l": "“You win, Anaxarete, and there will be at last no wearinesses of me for you to bear:",
+   "i": "“You win, Anaxarete; at last you will have no weariness of me to endure.",
+   "n": "“Vincis” is a present indicative used as a concession, “you win”. “Taedia … ferenda” is a gerundive of obligation with the dative “tibi”, “weariness to be borne by you”. “Mei” is the genitive of “ego”, and it is objective — the weariness he causes her. “Tandem”, “at last”, is set at the end of 718, a line away from the gerundive it belongs with.",
+   "p": true,
+   "v": true,
+   "ln": 718
+  },
+  {
+   "t": "laetos molire triumphos\net Paeana voca nitidaque incingere lauru!",
+   "l": "set about glad triumphs, and call on Paean, and gird yourself with shining laurel!",
+   "i": "set your glad triumph in motion, call on Paean, and wreathe yourself in gleaming laurel!",
+   "n": "Three imperatives together. “Molire” is the deponent “molior”, “set in motion, work at”. “Paeana” is a Greek accusative: Paean is the cry of victory addressed to Apollo. “Incingere” is a passive imperative used as a middle — “gird yourself”, not “be girded” — with “nitida … lauru”, an ablative of the fourth-declension “laurus”. The laurel and the triumph make her the victorious general and Iphis the beaten enemy, and that is the bitterness the speech runs on.",
+   "v": true,
+   "ln": 719
+  },
+  {
+   "t": "Vincis enim, moriorque libens: age, ferrea, gaude!",
+   "l": "For you win, and I die willingly: come, iron woman, rejoice!",
+   "i": "For you win, and I die willingly. Come then, woman of iron, be glad!",
+   "n": "“Vincis” is repeated from 718 and frames the opening of the speech. “Libens” is a nominative adjective where English wants an adverb, “willingly, gladly”. “Age” is the interjection “come now”. “Ferrea” takes up “durior … ferro” from 712 and turns the narrator's comparison into the lover's insult; it is his word for her, and the literal keeps its edge.",
+   "v": true,
+   "ln": 721
+  },
+  {
+   "t": "Certe aliquid laudare mei cogeris amoris,\nquo tibi sim gratus, meritumque fatebere nostrum",
+   "l": "Surely you will be forced to praise something of my love, wherein I may be pleasing to you, and you will confess my desert",
+   "i": "Surely you will be compelled to praise something in my love — some point where I please you — and will admit what I deserved",
+   "n": "“Aliquid … mei … amoris” is a partitive genitive split across 722, with “amoris” at the line-end. “Quo … sim gratus” is a relative clause of characteristic in the subjunctive, “of a sort by which I am pleasing to you”. “Fatebere” is the second-person future of the deponent “fateor”, with the older ending -re for -ris. “Meritum … nostrum” is “my desert”, the plural “nostrum” for “meum”, a common poetic substitution. The edition prints no stop at the end of 723 and then begins 724 with a capital “Non”; the sense requires a full stop after “nostrum”. The text is given here exactly as printed.",
+   "v": true,
+   "ln": 722
+  },
+  {
+   "t": "Non tamen ante tui curam fugisse memento,\nquam vitam, geminaque simul mihi luce carendum est.",
+   "l": "Remember, however, that I did not let go the care of you sooner than my life, and that I must be without both lights at once.",
+   "i": "Remember, though, that I did not give up my care for you any sooner than my life, and that I must do without both lights at once.",
+   "n": "“Memento” is the future imperative of “memini”, “remember”, taking an indirect statement — “fugisse”, “that I fled from”. “Ante … quam” is split across the line-end, “ante” at 724 and “quam” opening 725, with “vitam” after it. “Tui” is the objective genitive of the pronoun, “care for you”. “Gemina … luce” is the ablative required by the impersonal gerundive “carendum est”, which governs the thing lacked; the two lights are the daylight and the sight of her, and going without both is one loss. Some editions read “excessisse”, “to have gone out from”, where this one has “fugisse”.",
+   "v": true,
+   "ln": 724
+  },
+  {
+   "t": "Nec tibi fama mei ventura est nuntia leti:",
+   "l": "Nor will rumour come to you as the messenger of my death:",
+   "i": "No rumour will come to you as the herald of my death.",
+   "n": "“Fama … nuntia” is a nominative in apposition, “rumour, as messenger”. “Mei … leti” is a genitive with “nuntia”, split around “ventura est nuntia”. “Ventura est” is the future active periphrastic, “is going to come”. “Letum” is the high poetic word for death, not the plain “mors”.",
+   "v": true,
+   "ln": 726
+  },
+  {
+   "t": "ipse ego, ne dubites, adero praesensque videbor,\ncorpore ut exanimi crudelia lumina pascas.",
+   "l": "I myself, so that you may not doubt it, will be there, and will be seen present, so that you may feed your cruel eyes on a lifeless body.",
+   "i": "I myself — never doubt it — will be there, and will be seen in person, so that you may feed your cruel eyes on a lifeless body.",
+   "n": "“Ipse ego” is emphatic, “I in person”. “Ne dubites” is a parenthetic negative command in the subjunctive. “Adero” is the future of “adsum”, the verb used of a god being present at a rite, and that use sharpens the threat. “Ut … pascas” is a purpose clause, and “corpore … exanimi” is the ablative that “pascas” takes for what feeds. “Crudelia lumina”, “cruel eyes”, are hers, and the adjective is his verdict on them.",
+   "v": true,
+   "ln": 727
+  },
+  {
+   "t": "Si tamen, o superi, mortalia facta videtis,\neste mei memores (nihil ultra lingua precari\nsustinet) et longo facite ut narremur in aevo,\net, quae dempsistis vitae, date tempora famae!”",
+   "l": "If, however, o gods above, you see the deeds of mortals, be mindful of me (my tongue has the heart to pray for nothing further) and grant that we be told of through a long age, and the time you have taken from my life, give to my fame!”",
+   "i": "If you gods above see what mortals do, then keep me in mind — my tongue can bear to ask no more — and grant that I be spoken of down a long age; and the years you have taken from my life, give them to my fame!”",
+   "n": "“Este” is the plural imperative of “sum”, and “memores” takes the genitive “mei”. “Facite ut narremur” is a command followed by a substantive clause, “bring it about that we are told of”, the plural again standing for the singular. “Longo … in aevo” is an ablative of time. “Quae dempsistis vitae” has a dative of separation, “which you have taken from my life”, and the relative clause is thrown in front of the clause it belongs to, its antecedent “tempora” held back until after the imperative “date”. The prayer asks for fame in place of life, and the poem in which it is spoken is the answer to it.",
+   "v": true,
+   "ln": 729
+  },
+  {
+   "t": "Dixit, et ad postes ornatos saepe coronis\numentes oculos et pallida bracchia tollens,\ncum foribus laquei religaret vincula summis,\n“haec tibi serta placent, crudelis et impia?” dixit,",
+   "l": "He spoke, and, lifting his wet eyes and pale arms to the doorposts often adorned with garlands, when he was fastening the bonds of a noose to the top of the door, said, “do these wreaths please you, cruel and unholy woman?”",
+   "i": "He spoke; and lifting his wet eyes and pale arms to the doorposts he had so often decked with garlands, as he was tying the cords of a noose to the top of the door, he said, “do these wreaths please you, cruel and godless woman?”",
+   "n": "“Dixit” stands at the head of 733 and again at the end of 736, closing a frame around the address. “Ornatos saepe coronis” looks back to the garlands he hung at 708 and 709. “Umentes oculos et pallida bracchia” are the objects of “tollens”. “Cum … religaret” is a temporal clause with the imperfect subjunctive, the tying going on while he speaks. “Foribus … summis” is a dative with “religaret”, “to the top of the doors”. “Serta” is the word for a garland, and he uses it of the noose: he is hanging a last offering at the shrine his own lament has made of her door. “Crudelis et impia” are vocatives. The unit ends on the comma after the second “dixit”, at the joint before the -que that opens the next clause.",
+   "p": true,
+   "v": true,
+   "ln": 733
+  },
+  {
+   "t": "inseruitque caput, sed tum quoque versus ad illam,\natque onus infelix elisa fauce pependit.",
+   "l": "and he put in his head, but even then turned toward her, and hung, an unhappy weight, his throat crushed.",
+   "i": "and he put his head through — even then turned toward her — and hung, a wretched weight, his throat crushed shut.",
+   "n": "“Versus” is the perfect participle of “verto” used as a middle, “having turned himself”, nominative with the subject. “Quoque” is the adverb, “even then”. “Onus infelix” is a nominative in apposition to the subject: in two words the man has become a thing that hangs. “Elisa fauce” is an ablative absolute, “his throat having been crushed out”. The death is given a single line and no more.",
+   "v": true,
+   "ln": 737
+  },
+  {
+   "t": "icta pedum motu trepidantem et multa timentem\nvisa dedisse sonum est adapertaque ianua factum\nprodidit.",
+   "l": "Struck by the movement of feet, it seemed to have given a trembling and much-fearing sound, and the door, thrown open, betrayed the deed.",
+   "i": "Struck by the movement of his feet, the door seemed to have given out a sound that shook and feared much; and, thrown open, it betrayed what had been done.",
+   "n": "The subject of “icta” and of “visa … est” is not written until “ianua” arrives in 740, where it also serves its own clause. “Trepidantem et multa timentem” are accusative participles agreeing with “sonum”, which follows them in 740: the sound itself trembles and is afraid, the terror carried over from the household to the noise the door makes. “Multa” is an internal accusative with “timentem”, “fearing many things”. “Visa … est dedisse” is a personal passive with a perfect infinitive, where English says “it seemed that”. The edition begins this sentence, and a new paragraph, with a lower-case “icta”, after the full stop that closes 738; the sense requires a capital, and the text is given here exactly as printed. Some editions read “trepidantum aperire iubentem” in 739, which gives the trembling to the household rather than to the sound.",
+   "p": true,
+   "v": true,
+   "ln": 739
+  },
+  {
+   "t": "Exclamant famuli frustraque levatum\n(nam pater occiderat) referunt ad limina matris;",
+   "l": "The servants cry out, and, having lifted him in vain, they carry him back to his mother's threshold (for his father had died);",
+   "i": "The servants cry out and lift him down — too late — and carry him back to his mother's door, for his father was dead.",
+   "n": "“Exclamant” and “referunt” are historic presents beside the pluperfect “occiderat”, and the shift of tense is Ovid's usual way of quickening a scene. “Levatum” is a perfect passive participle used as a noun, “him, lifted down”, with “frustra” attached: they lift him down too late. The parenthesis explains why the body goes to the mother — the father who would have received it is gone. “Limina” answers the “limen” of Anaxarete's door at 709: he is carried from one threshold to another.",
+   "v": true,
+   "ln": 741
+  },
+  {
+   "t": "accipit illa sinu complexaque frigida nati\nmembra sui postquam miserarum verba parentum\nedidit et matrum miserarum facta peregit,",
+   "l": "She takes him in her lap, and, having embraced the cold limbs of her son, after she had uttered the words of wretched parents and gone through the deeds of wretched mothers,",
+   "i": "She takes him to her breast; and having clasped the cold limbs of her son, when she had said what wretched parents say and done what wretched mothers do,",
+   "n": "“Sinu” is an ablative of place, “in her lap, at her breast”. “Complexa” is a deponent participle with active force. “Frigida nati / membra sui” interlocks across the line-end: the adjective “frigida” and the genitive “nati” close 743, and their partners “membra” and “sui” open 744. “Postquam … edidit … peregit” is a temporal clause with perfect indicatives, tucked inside the main sentence between “accipit” at 743 and “ducebat” at 746. “Verba parentum” and “facta matrum” treat mourning as a script that grief performs, and Ovid names the formulae without quoting them. The edition prints the feminine “miserarum” in both 744 and 745, so the parents of 744 are mothers too and the two lines say nearly the same thing twice; some editions print “miserorum” in 744, “of wretched parents” without regard to sex, which removes the repetition.",
+   "v": true,
+   "ln": 743
+  },
+  {
+   "t": "funera ducebat mediam lacrimosa per urbem\nluridaque arsuro portabat membra feretro.",
+   "l": "weeping, she was leading the funeral through the middle of the city, and carrying the livid limbs on a bier that would burn.",
+   "i": "she led the funeral through the middle of the city, weeping, and carried the livid body on a bier that was to burn.",
+   "n": "“Ducebat” and “portabat” are imperfects, holding the procession open so that the next scene can catch it in motion. “Lacrimosa” is a nominative adjective where English wants an adverb, “in tears”. “Mediam … per urbem” puts the preposition inside the phrase. “Arsuro … feretro” is a future participle in the ablative: the bier is “about to burn”, that is, it is already the pyre. “Lurida” is the greenish-yellow of a corpse, a colour word rather than a word for horror.",
+   "v": true,
+   "ln": 746
+  },
+  {
+   "t": "Forte viae vicina domus, qua flebilis ibat\npompa, fuit, duraeque sonus plangoris ad aures\nvenit Anaxaretae, quam iam deus ultor agebat:",
+   "l": "By chance there was a house near the road along which the weeping procession went, and the sound of beating came to the hard ears of Anaxarete, whom now an avenging god was driving:",
+   "i": "It happened that a house stood close to the road the mourning procession took, and the sound of the beaten breasts reached the hard ears of Anaxarete, whom by now an avenging god was driving on.",
+   "n": "“Viae” is a dative with “vicina”, “neighbouring to the road”. “Qua” is the adverbial relative, “by which way”. “Durae … ad aures” has “durae” transferred from the woman to her ears. She was “durior … ferro” at 712 and her breast will be “duro” at 758; the adjective is what the tale finally turns her into. “Plangoris” is the noun of ritual mourning, the beating of the breast. “Deus ultor” is left unnamed; Venus and Nemesis were both named at 694, and the poem lets the reader choose.",
+   "p": true,
+   "v": true,
+   "ln": 748
+  },
+  {
+   "t": "mota “tamen videamus” ait “miserabile funus”\net patulis iniit tectum sublime fenestris;",
+   "l": "Moved, she says, “let us look, all the same, at the pitiable funeral”, and went up into a high room with wide windows;",
+   "i": "Moved, she said, “let us look at the pitiful funeral, even so,” and went up into a high room with wide windows.",
+   "n": "“Mota” is a perfect passive participle, “having been moved”, and it is the one motion of feeling the poem allows her — undone four lines later, when she tries to move her feet and cannot. “Videamus” is a hortatory subjunctive. “Tamen”, “all the same”, concedes something against her own hardness: she will look in spite of herself. “Patulis … fenestris” is an ablative of description with “tectum sublime”, the high room defined by its open windows. “Iniit” is the perfect of “ineo”, “went into”.",
+   "v": true,
+   "ln": 751
+  },
+  {
+   "t": "vixque bene impositum lecto prospexerat Iphin,\nderiguere oculi, calidusque e corpore sanguis\ninducto pallore fugit,",
+   "l": "and scarcely had she looked well upon Iphis, laid on the bier, when her eyes stiffened, and the warm blood fled from her body, a pallor drawn over it,",
+   "i": "and hardly had she looked properly at Iphis, laid out on the bier, when her eyes went rigid, and the warm blood fled her body as pallor spread over it;",
+   "n": "“Vix … prospexerat” with no “cum” is the idiom of sudden reversal — “scarcely had she … when” — the second clause simply following. “Impositum lecto” is a participle with a dative, “laid on the couch”, that is, the bier. “Deriguere” is the poetic third-plural perfect for “deriguerunt”, the same -ere ending as “fecere” at 638. “Inducto pallore” is an ablative absolute, “a pallor having been drawn over”. The stiffening starts at the eyes, which is where the looking was. The unit is cut at the comma after “fugit”, at the -que that joins the next clause.",
+   "v": true,
+   "ln": 753
+  },
+  {
+   "t": "conataque retro\nferre pedes haesit, conata avertere vultus\nhoc quoque non potuit, paulatimque occupat artus,\nquod fuit in duro iam pridem pectore, saxum.",
+   "l": "and having tried to carry her feet backwards she stuck fast; having tried to turn away her face, this too she could not do; and little by little the stone, which had long been in her hard breast, takes over her limbs.",
+   "i": "and trying to draw her feet back she stuck fast; trying to turn her face away, this too she could not do; and little by little the stone that had long been in her hard breast takes over her limbs.",
+   "n": "“Conata … conata” is the deponent participle twice, active in sense, “having tried”. “Haesit” is perfect, and then “occupat” turns to the present as the change begins: the transformation happens in front of the reader. “Quoque” is the adverb. “Saxum” is the subject of “occupat” and is held back to the very last word of 758, after its own relative clause — the stone reaches the end of the sentence as it reaches the end of her. “In duro … pectore” makes literal the metaphor of 712 and 749: she was called hard, and now she is stone.",
+   "v": true,
+   "ln": 755
+  },
+  {
+   "t": "Neve ea ficta putes, dominae sub imagine signum\nservat adhuc Salamis:",
+   "l": "And lest you think these things made up, Salamis keeps to this day a statue under the likeness of its mistress:",
+   "i": "And lest you think this invented, Salamis still keeps a statue in the likeness of its lady.",
+   "n": "“Neve … putes” is a negative purpose clause continuing the argument — the old woman is proving a point to a hearer. “Ficta” is “fashioned, made up”, from “fingo”, the same verb used of Vertumnus being moulded at 685. “Sub imagine” is the idiom for a statue representing someone. “Adhuc” is “still, to this day”, appealing to a monument the hearer could go and see: the aetiology is offered as the proof.",
+   "v": true,
+   "ln": 759
+  },
+  {
+   "t": "Veneris quoque nomine templum\nProspicientis habet. —",
+   "l": "It has too a temple under the name of Venus the Gazer-Out.",
+   "i": "It has a temple too in the name of Venus who Looks Out.",
+   "n": "“Quoque” is the adverb. “Veneris … Prospicientis” is a genitive with a participle used as a cult-title, and the participle is held over to open 761, a line away from “Veneris”. “Prospiciens” means “looking out, looking down from a height”, which is exactly what Anaxarete was doing when she was turned to stone; the cult-name and the tale explain each other.",
+   "v": true,
+   "ln": 760
+  },
+  {
+   "t": "Quorum memor, o mea, lentos\npone, precor, fastus et amanti iungere, nymphe.",
+   "l": "— Mindful of these things, o my nymph, put aside your slow disdain, I beg, and be joined to one who loves you.",
+   "i": "— Remember all this, my nymph: lay aside your stubborn scorn, I beg you, and be joined to a man who loves you.",
+   "n": "The edition marks the return from the inset tale to the garden with a dash. “Quorum memor” takes the genitive, as “mei memores” did at 730. “Lentos … fastus” is accusative plural: “lentus” of a person courted is “slow to yield, unmoved”, and “fastus” is haughty disdain. “Iungere” is a passive imperative used as a middle, “join yourself”, with the dative “amanti” — the same verb the argument from the elm and the vine turned on at 665. “Nymphe” is a Greek vocative.",
+   "v": true,
+   "ln": 761
+  },
+  {
+   "t": "Sic tibi nil vernum nascentia frigus adurat\npoma nec excutiant rapidi florentia venti!'",
+   "l": "So may the spring frost in no way scorch your fruit as it forms, nor rushing winds shake off your blossom!",
+   "i": "And so may the spring frost never blight your setting fruit, nor tearing winds strip off your blossom!",
+   "n": "“Sic … adurat” is the formula of a conditional blessing: do as I ask, and so may this good follow. Both verbs are present subjunctives of wish. “Nascentia … poma” is fruit at the moment of setting, and “florentia” is neuter accusative, the blossoming parts, object of “excutiant”. “Nil” is an adverbial accusative, “in no way”, not an adjective agreeing with “frigus”; some editions read “nec” here. “Adurat” is “scorch, burn”, used of frost as it is of fire. The speech ends on the one argument that can reach a goddess of orchards. The edition closes this long speech with a single mark, ' , rather than the double closing mark it uses for speech at 657, 732, 736 and 751.",
+   "v": true,
+   "ln": 763
+  },
+  {
+   "t": "Haec ubi nequiquam formae deus aptus anili\nedidit, in iuvenem rediit et anilia demit\ninstrumenta sibi talisque apparuit illi,\nqualis ubi oppositas nitidissima solis imago\nevicit nubes nullaque obstante reluxit,",
+   "l": "When the god, fitted to an old woman's shape, had uttered these things in vain, he returned into a young man and took off from himself the old woman's trappings, and appeared to her such as the sun's most shining image is when it has overcome the clouds set against it and shone out again with nothing in the way,",
+   "i": "When the god, fitted into an old woman's shape, had said all this to no purpose, he went back into a young man and stripped off his old woman's gear, and appeared to her as the sun's bright disc appears when it has beaten the clouds that stood against it and blazes out with nothing in the way,",
+   "n": "“Formae … anili” is a dative with “aptus”, “fitted to the shape of an old woman”. “Nequiquam”, “in vain”, is the verdict on the whole speech, and it is set before the verb it governs. “Anilia … instrumenta” is the old woman's equipment — the turban, the staff and the grey hair of 654 and 655; “demit sibi” is a dative of separation, “takes off from himself”. “Talis … qualis” is the correlative pair that carries the simile, “qualis” opening 768. “Oppositas” waits a line for its noun “nubes”, which follows the verb “evicit” at the head of 769. “Nulla obstante” is an ablative absolute with no noun expressed, “nothing standing in the way”, “nulla” agreeing with an understood “re”. The unit runs five lines and ends on a comma because the simile has no internal stop; the cut falls where the simile ends and the main narrative resumes.",
+   "p": true,
+   "v": true,
+   "ln": 765
+  },
+  {
+   "t": "vimque parat: sed vi non est opus, inque figura\ncapta dei nymphe est et mutua vulnera sensit.",
+   "l": "and he makes ready force: but there is no need of force, and the nymph was captured by the god's shape and felt wounds in return.",
+   "i": "and he makes ready to use force. But force was not needed: the nymph was taken by the god's form, and felt the wound in her turn.",
+   "n": "“Vim parat” is “he prepares violence”, and the noun is the same “vim” that Pomona feared from the country folk at 635, now on the god's side of the wall. “Opus est” is impersonal with the ablative, “there is need of”. “In figura … capta … est” is the passive of “capio”, “was taken, captivated”, with “figura” ablative and “dei” genitive: it is the shape he has just put on that takes her. “Mutua vulnera” is the wound of love returned, a plural for the singular, and it is the tale's last word for what has happened to her. The rape does not take place; the readiness for it is stated and set aside inside 770 itself, and nothing in these lines goes back to it.",
+   "v": true,
+   "ln": 770
+  }
+ ],
+ "glossaryFile": "metamorphoses-glossary.json"
+}

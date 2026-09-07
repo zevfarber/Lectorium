@@ -1,0 +1,502 @@
+{
+ "id": "ovid-met-110",
+ "sourceId": "ovid-met-110",
+ "title": "Picus et Canens",
+ "titleEn": "Picus and Canens — Metamorphoses XIV.320–440",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 8719b7d375018d4f. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
+ "about": "Picus is an Italian king, a son of Saturn, sought by every wood- and water-nymph in Latium and in love with one alone: Canens, the daughter of Janus, whose singing moves woods, rocks and rivers. Circe sees him out hunting, wants him, and strips him of his horse and his escort with a phantom boar and a conjured fog; when he refuses her she turns him into a woodpecker, and turns the men who come looking for him into beasts. Canens searches for six days and nights, and on the bank of the Tiber sings herself away into the air, leaving her name behind on the place. The whole story is a tale within a tale: it closes at line 434, and the man who heard it takes over for the last six lines to say why he stayed behind on this coast.",
+ "sentences": [
+  {
+   "t": "Picus in Ausoniis, proles Saturnia terris\nrex fuit, utilium bello studiosus equorum;",
+   "l": "Picus in the Ausonian lands, Saturnian offspring, was king, keen on horses useful for war;",
+   "i": "Picus was king in the lands of Ausonia, a child of Saturn's line, and a great fancier of horses fit for war;",
+   "n": "Ausonia is a poetic name for Italy. proles Saturnia stands in apposition to Picus and gives an Italian king a divine descent. The genitive equorum depends on studiosus, “keen on”, and utilium takes the dative bello, “useful for war”.",
+   "p": true,
+   "v": true,
+   "ln": 320
+  },
+  {
+   "t": "forma viro, quam cernis, erat:",
+   "l": "There was to the man a beauty which you discern:",
+   "i": "The man's beauty was the one you are looking at:",
+   "n": "Dative of possession: forma viro erat is literally “beauty was to the man”, where English says “the man had beauty”. quam cernis, “which you are looking at”, shows that a likeness of Picus is standing in front of the person being told the story — the ficta imago named in the next line.",
+   "v": true,
+   "ln": 322
+  },
+  {
+   "t": "licet ipse decorem\nadspicias fictaque probes ab imagine veram.",
+   "l": "you may yourself look at his comeliness and judge the true one from the fashioned likeness.",
+   "i": "you are free to look at his good looks for yourself and take the true beauty from the sculpted one.",
+   "n": "licet with the subjunctives adspicias and probes is permissive, “you are free to”. veram is feminine and picks up formam from the line before: the real beauty as against the ficta imago, the made likeness. Some editions print verum, neuter, “judge the truth from the fashioned likeness”; the archived edition prints veram.",
+   "v": true,
+   "ln": 322
+  },
+  {
+   "t": "Par animus formae;",
+   "l": "His spirit was equal to his beauty;",
+   "i": "His spirit matched his looks;",
+   "n": "The verb is left out — Latin drops est freely in a clipped sentence of this shape. formae is dative after par, “equal to”.",
+   "v": true,
+   "ln": 324
+  },
+  {
+   "t": "nec adhuc spectasse per annos\nquinquennem poterat Graia quater Elide pugnam.",
+   "l": "and he was not yet able to have watched, through the years, four times in Greek Elis the five-yearly contest.",
+   "i": "and he had not yet lived to see the games in Greek Elis come round four times.",
+   "n": "spectasse is the syncopated perfect infinitive for spectavisse. Elis in the Peloponnese held the Olympic games, called quinquennis because the Romans counted inclusively: every fifth year by their reckoning is every fourth by ours. quater, four times, therefore makes him a young man still — four celebrations of a festival that comes round every fourth year reach back some sixteen years, and it is the Latin's own four-times-five that lies behind the round “not yet twenty”. A wholly indirect way of giving a man's age.",
+   "v": true,
+   "ln": 324
+  },
+  {
+   "t": "Ille suos dryadas Latiis in montibus ortas\nverterat in vultus,",
+   "l": "He had turned to his own face the dryads sprung on the Latin mountains,",
+   "i": "He had turned the heads of the wood-nymphs born on the hills of Latium,",
+   "n": "in vultus suos verterat is “had turned them towards his own face” — Picus is the subject and the nymphs are the object, so the Latin says that he turned them rather than that they fell in love with him. ortas is the perfect participle of orior, “risen, born”, agreeing with dryadas, which keeps its Greek accusative plural ending, -as for -es.",
+   "v": true,
+   "ln": 326
+  },
+  {
+   "t": "illum fontana petebant\nnumina, naiades, quas Albula, quasque Numici,\nquas Anienis aquae cursuque brevissimus Almo\nNarve tulit praeceps et opacae Farfarus umbrae,",
+   "l": "him the powers of the springs sought, the naiads whom Albula, and whom the waters of Numicius and of the Anio, and Almo shortest in course, or headlong Nar and Farfarus of shady shade brought forth,",
+   "i": "the spirits of the springs went after him, the naiads that Albula bore, and the waters of Numicius and of the Anio, and Almo with the shortest course of all, or headlong Nar and Farfarus of the dark shade,",
+   "n": "A catalogue of the rivers of Latium, each fathering its own nymphs. aquae, “the waters”, is nominative plural and carries the two genitives Numici and Anienis, so those two rivers are named through their waters while Albula, Almo, Nar and Farfarus stand as subjects in their own right. Albula is the Tiber's old name; the Numicius is the stream of Aeneas's death; the Anio comes down to the Tiber above Rome; the Almo is a short brook at the city wall; the Nar runs sulphurous and fast; opacae umbrae is a genitive of quality hung on Farfarus. tulit stays singular though several rivers are named, taking each in turn.",
+   "v": true,
+   "ln": 327
+  },
+  {
+   "t": "quaeque colunt Scythicae stagnum nemorale Dianae\nfinitimosque lacus;",
+   "l": "and those who inhabit the woodland pool of Scythian Diana and the neighbouring lakes;",
+   "i": "and those that haunt the wooded pool of Scythian Diana and the lakes about it;",
+   "n": "Scythicae Dianae is Diana as worshipped at Nemi in the Alban hills, whose rite was said to have been carried there from the Tauric Chersonese — hence “Scythian”. stagnum nemorale is the lake of Nemi in its crater of woods. The connecting -que on quaeque hooks this relative clause on to the string of them before it.",
+   "v": true,
+   "ln": 331
+  },
+  {
+   "t": "spretis tamen omnibus unam\nille colit nymphen, quam quondam in colle Palati\ndicitur Ionio peperisse Venilia Iano.",
+   "l": "yet, all of them having been scorned, he courts one nymph, whom once on the hill of the Palatine Venilia is said to have borne to Ionian Janus.",
+   "i": "yet he scorned them all and courted one nymph alone, the one Venilia is said to have borne long ago on the Palatine hill to Ionian Janus.",
+   "n": "spretis omnibus is an ablative absolute — a self-contained “with all of them scorned” where English wants a clause. The construction is everywhere in Latin verse and is worth learning by sight. colit of a lover is “pays court to”. nymphen keeps its Greek accusative ending. dicitur ... peperisse is a personal passive, “she is said to have borne”. The archived edition calls Janus Ionio; other editions print ancipiti, “two-headed”, which suits the god's two faces.",
+   "v": true,
+   "ln": 332
+  },
+  {
+   "t": "Haec ubi nubilibus primum maturuit annis,\npraeposito cunctis Laurenti tradita Pico est,\nrara quidem facie, sed rarior arte canendi,\nunde Canens dicta est:",
+   "l": "When she first ripened in marriageable years, she was handed over to Laurentine Picus, preferred above all, rare indeed in face, but rarer in the art of singing, whence she was called Canens:",
+   "i": "As soon as she came ripe for marriage she was given to Picus of Laurentum, chosen before every other — rare in her face, but rarer in her art of song, which is where her name came from, Canens, the Singing One:",
+   "n": "nubilibus annis, an ablative of time, is “in marriageable years”, from nubere, the verb used of a woman marrying. tradita est is the ordinary word for handing a bride over. Pico is dative after tradita, and cunctis dative after praeposito, “preferred to all”. Canens is simply the present participle of cano, “singing”, used as a name: in Latin the name and the description are the same word, which no English name of hers could be.",
+   "v": true,
+   "ln": 335
+  },
+  {
+   "t": "silvas et saxa movere\net mulcere feras et flumina longa morari\nore suo volucresque vagas retinere solebat.",
+   "l": "with her mouth she was accustomed to move woods and rocks, and to soothe wild beasts, and to hold up long rivers, and to keep back wandering birds.",
+   "i": "her voice could move woods and rocks, gentle wild animals, hold up the long rivers and stop birds in mid-flight.",
+   "n": "solebat governs four infinitives strung on et: movere, mulcere, morari, retinere. ore suo, “with her own mouth”, is held back to the last line and then explains all four at once. longa of the rivers is transferred — it is their course that is long, and morari is “make them linger”. These are the powers ancient myth gives to the singing of Orpheus.",
+   "v": true,
+   "ln": 338
+  },
+  {
+   "t": "Quae dum feminea modulatur carmina voce,\nexierat tecto Laurentes Picus in agros,\nindigenas fixurus apros,",
+   "l": "And she, while she modulates songs with a womanly voice — Picus had gone out from the house into the Laurentine fields, about to spear the native boars,",
+   "i": "While she was shaping her songs in a woman's voice, Picus had gone out from the house into the fields of Laurentum, meaning to spear the boars of the place,",
+   "n": "Quae is a connecting relative opening the sentence — “and she”, not “who”. dum with the present modulatur is the regular way of saying “while” of past action, even though the main verb exierat is pluperfect: the tense of dum does not follow the main clause. fixurus is a future participle of purpose, “intending to spear”, where English needs an infinitive clause.",
+   "p": true,
+   "v": true,
+   "ln": 341
+  },
+  {
+   "t": "tergumque premebat\nacris equi, laevaque hastilia bina ferebat,\npoeniceam fulvo chlamydem contractus ab auro.",
+   "l": "and he was pressing the back of a keen horse, and in his left he was carrying two spear-shafts, gathered as to his crimson cloak by tawny gold.",
+   "i": "he was astride a mettlesome horse, carrying a pair of spears in his left hand, his crimson cloak caught up at the shoulder with tawny gold.",
+   "n": "poeniceam chlamydem is a Greek accusative of respect after the passive participle contractus: he is “gathered together with respect to his cloak”, which is to say the cloak is pinned on him. English cannot say it that way round, so the idiomatic line turns it over. laeva is an ablative with manu left out, “with the left hand”. The chlamys is a Greek riding cloak fastened at the shoulder, and the pin itself comes back at line 394.",
+   "v": true,
+   "ln": 343
+  },
+  {
+   "t": "Venerat in silvas et filia Solis easdem,\nutque novas legeret fecundis collibus herbas,\nnomine dicta suo Circaea reliquerat arva.",
+   "l": "The daughter of the Sun too had come into those same woods, and, so that she might pick fresh herbs on the fruitful hills, she had left the Circean fields named by her own name.",
+   "i": "The Sun's daughter had come into those same woods as well: to gather fresh herbs on the rich hillsides she had left the Circean fields that carry her name.",
+   "n": "filia Solis, “the daughter of the Sun”, is Circe; her name reaches this part first as the adjective Circaea in the next line but one, and in her own mouth at line 376. ut with the subjunctive legeret is a purpose clause. Circaea arva is the promontory of Circeii on the coast of Latium, and nomine dicta suo says outright that the place is named after her — the first of the several naming-aetiologies this part is built out of.",
+   "p": true,
+   "v": true,
+   "ln": 346
+  },
+  {
+   "t": "Quae simul ac iuvenem, virgultis abdita, vidit,\nobstipuit:",
+   "l": "And she, as soon as she saw the youth, hidden in the thickets, was struck dumb:",
+   "i": "The moment she saw the young man — she was hidden in the brush — she was stunned:",
+   "n": "Quae is again the connecting relative, “and she”. simul ac is “as soon as”. abdita, “hidden”, is nominative and so describes Circe, not Picus, though it stands next to iuvenem: Latin lets a participle sit far from its noun, and it is case, not position, that settles who is hiding. obstipuit is strong — to be struck dumb and rooted where one stands.",
+   "v": true,
+   "ln": 349
+  },
+  {
+   "t": "cecidere manu, quas legerat, herbae,\nflammaque per totas visa est errare medullas.",
+   "l": "the herbs which she had picked fell from her hand, and a flame was seen to wander through all her marrow.",
+   "i": "the herbs she had picked fell out of her hand, and a flame seemed to run through the whole of her marrow.",
+   "n": "cecidere is the poetic third-person plural perfect for ceciderunt; this -ere ending for -erunt is standard in Latin hexameter and comes again in this part at traxere (393), exsiluere (406) and dixere (434). manu is an ablative of separation, “from her hand”. medullae, the marrow inside the bones, is where Latin puts the burn of desire — and the same word returns at line 431 for the melting of Canens.",
+   "v": true,
+   "ln": 350
+  },
+  {
+   "t": "Ut primum valido mentem conlegit ab aestu,\nquid cuperet, fassura fuit:",
+   "l": "As soon as she gathered her mind back from the strong heat, she was going to confess what she desired:",
+   "i": "The moment she collected herself out of that violent heat, she was on the point of confessing what she wanted:",
+   "n": "Ut primum is “as soon as”. conlegit keeps the archived edition's unassimilated spelling for collegit. fassura fuit is a future participle with fuit, an active periphrastic in past time: “she was going to confess” — and the “was going to” is exactly what leaves room for the thing that stops her in the next line. quid cuperet is an indirect question, hence the subjunctive.",
+   "v": true,
+   "ln": 352
+  },
+  {
+   "t": "ne posset adire,\ncursus equi fecit circumfususque satelles.",
+   "l": "that she could not approach, the course of the horse and the retinue poured round about brought about.",
+   "i": "what kept her from getting near him was the horse's speed and the escort crowded round.",
+   "n": "fecit ne posset is “brought it about that she could not”. The ne clause is put first so that the obstacle itself lands at the end. satelles is singular but collective, the bodyguard taken as one body; circumfusus, “poured round”, is from fundo and is the regular participle for a crowd surrounding somebody.",
+   "v": true,
+   "ln": 353
+  },
+  {
+   "t": "“Non” ait “effugies, vento rapiare licebit,\nsi modo me novi, si non evanuit omnis\nherbarum virtus et non mea carmina fallunt.”",
+   "l": "“You will not,” she says, “escape, though you be snatched away by the wind, if only I know myself, if all the power of herbs has not vanished away and my spells do not fail.”",
+   "i": "“You will not escape me,” she says, “though the wind should carry you off — if only I know myself, if the herbs have not lost all their power and my spells do not play me false.”",
+   "n": "The speech is broken by ait, the ordinary way of marking direct address in verse. vento rapiare licebit is concessive: licebit with the present subjunctive rapiare (for rapiaris) means “granted that you be carried off by the wind”, not “you will be permitted”. si modo, “if only”, opens the first condition, that she knows herself; a second si follows carrying two more, and those two are put in the negative — that the power of herbs has not vanished and that her spells do not fail. Where the archived edition has et non mea carmina fallunt, other editions print nec me mea carmina fallunt, “and my spells do not deceive me”.",
+   "v": true,
+   "ln": 355
+  },
+  {
+   "t": "Dixit et effigiem, nullo cum corpore, falsi\nfinxit apri praeterque oculos transcurrere regis\niussit et in densum trabibus nemus ire videri,\nplurima qua silva est et equo loca pervia non sunt.",
+   "l": "She spoke, and shaped the likeness, with no body, of a false boar, and ordered it to run past the eyes of the king and to seem to go into a grove dense with tree-trunks, where the wood is thickest and the ground is not passable for a horse.",
+   "i": "She spoke, and made the likeness of a boar that was not there, with nothing inside it, and ordered it to run across the king's line of sight and to seem to make for a wood thick with trunks, where the timber stands heaviest and no horse can get through.",
+   "n": "falsi apri is a genitive broken apart: falsi stands at the end of 358 and its noun apri comes only after the verb finxit in 359. nullo cum corpore has the preposition wedged between adjective and noun, an ordinary poetic inversion. iussit governs two infinitives, transcurrere and ire videri; videri, “to seem”, is passive in form and keeps the phantom a thing that only appears to move. pervia takes the dative equo, “passable for a horse”.",
+   "p": true,
+   "v": true,
+   "ln": 358
+  },
+  {
+   "t": "Haud mora:",
+   "l": "No delay:",
+   "n": "A two-word sentence with no verb at all — Latin narrative uses this to snap the pace before an action.",
+   "v": true,
+   "ln": 362
+  },
+  {
+   "t": "continuo praedae petit inscius umbram\nPicus equique celer spumantia terga relinquit\nspemque sequens vanam silva pedes errat in alta.",
+   "l": "at once, unknowing, Picus makes for the shadow of the prey, and swift leaves the foaming back of the horse, and, following an empty hope, on foot wanders in the deep wood.",
+   "i": "at once Picus, suspecting nothing, goes after the shadow of his quarry, quits the horse's foaming back at a run, and, chasing an empty hope, wanders on foot in the deep wood.",
+   "n": "praedae umbram is “the shadow of the prey”, and umbra is doing two jobs: the phantom Circe made, and the shade of the wood he is drawn into. celer is a nominative adjective doing adverbial work, “swift” for “swiftly”, a poetic habit worth expecting. pedes is the noun for a man on foot, nominative singular, not the plural of pes: he has come off the horse.",
+   "v": true,
+   "ln": 362
+  },
+  {
+   "t": "Concipit illa preces et verba precantia dicit\nignotosque deos ignoto carmine adorat,\nquo solet et niveae vultum confundere Lunae\net patrio capiti bibulas subtexere nubes.",
+   "l": "She frames prayers and speaks praying words and worships unknown gods with an unknown chant, with which she is accustomed both to confound the face of snowy Luna and to weave drinking clouds beneath her father's head.",
+   "i": "She frames her prayers and speaks the words of prayer, and worships unknown gods with an unknown spell — the spell she uses to blur the face of the white moon and to draw thirsty clouds across her own father's head.",
+   "n": "concipit of a prayer is a term out of Roman religion: to frame a formula in its set words. ignotos ... ignoto puts the one adjective on the gods and on the chant alike — gods nobody else knows, in words nobody else knows. quo is an ablative of means picking up carmine from the line before. patrio capiti is the Sun's own head, since Circe is his daughter, and bibulas, “drinking”, of clouds means clouds that soak the light up. Where the archived edition has verba precantia, other editions print verba venefica, “witch's words”.",
+   "v": true,
+   "ln": 365
+  },
+  {
+   "t": "Tum quoque cantato densetur carmine caelum,\net nebulas exhalat humus, caecisque vagantur\nlimitibus comites, et abest custodia regis.",
+   "l": "Then too the sky is thickened by the sung spell, and the ground breathes out mists, and the companions wander on blind paths, and the king's guard is away.",
+   "i": "Then too the sky thickens under the chanted spell, the ground breathes out fog, the companions stray on paths they cannot see, and the king is left unguarded.",
+   "n": "cantato carmine is an ablative with a perfect participle, “by the spell once sung”, doing the work English gives to a clause. quoque here is the adverb “also” and not the ablative quo with -que attached — a trap Latin verse sets often enough to be worth checking every time. caecis limitibus, “blind paths”, is transferred: it is the men who cannot see, and a limes is a track marking a boundary through open country. The four clauses strung on et let the fog arrive in stages.",
+   "v": true,
+   "ln": 369
+  },
+  {
+   "t": "Nacta locum tempusque “per, o, tua lumina” dixit,\n“quae mea ceperunt, perque hanc, pulcherrime, formam,",
+   "l": "Having got place and time, she said “by, oh, your eyes, which have taken mine, and by this beauty, most beautiful one,",
+   "i": "Having got her place and her moment, she said: “By your eyes — oh! — which have captured mine, and by this beauty of yours, loveliest of men,",
+   "n": "Nacta is the perfect participle of the deponent nanciscor and is active in sense, “having obtained”. per ... perque is the formula of an oath or an entreaty, “by”; the interjection o wedged inside per, o, tua lumina is a mark of high feeling. lumina, “lights”, is the standing poetic word for eyes, and mea is “my eyes”, with lumina understood. pulcherrime is a vocative.",
+   "v": true,
+   "ln": 372
+  },
+  {
+   "t": "quae facit, ut supplex tibi sim dea, consule nostris\nignibus et socerum, qui pervidet omnia, Solem\naccipe, nec durus Titanida despice Circen!”",
+   "l": "which brings it about that I, a goddess, am a suppliant to you, have regard for my fires and receive as father-in-law the Sun, who sees through all things, and do not, hard, look down on the Titaness Circe!”",
+   "i": "which makes me, a goddess, your suppliant — think of the fire in me, and take the Sun, who sees everything, for your father-in-law, and do not be hard and look down on Circe the Titaness!”",
+   "n": "facit ut with the subjunctive sim is “brings it about that”. supplex ... dea sets the two words against one another: a goddess in a beggar's posture. consule takes the dative nostris ignibus, “have regard for”, and the ignes are the fires of love. socerum ... Solem is a predicate accusative with accipe, “receive the Sun as father-in-law” — that is, marry me. durus is a nominative adjective used adverbially with despice. Titanida and Circen both carry Greek accusative endings; Titanida marks her descent from the Titans through her father the Sun, and she is called Titania at 382 and again at 438.",
+   "v": true,
+   "ln": 374
+  },
+  {
+   "t": "Dixerat.",
+   "l": "She had spoken.",
+   "n": "A one-word pluperfect sentence, the epic formula for closing a speech; the pluperfect puts the words behind us before the answer starts.",
+   "p": true,
+   "v": true,
+   "ln": 377
+  },
+  {
+   "t": "Ille ferox ipsamque precesque relinquit\net “quaecumque es” ait, “non sum tuus:",
+   "l": "He, fierce, leaves both her very self and her prayers, and says “whoever you are, I am not yours:",
+   "i": "Fiercely he turns his back on her and on her prayers, and says: “Whoever you are, I am not yours:",
+   "n": "ipsamque precesque is a double -que, “both ... and”, a Greek-flavoured construction the poets like; ipsam, “her very self”, is set beside her prayers as though both were things a man could walk away from. ferox is nominative and adverbial in force. quaecumque es, “whoever you are”, is a flat refusal to be impressed by a goddess who has just given her name. Where the archived edition has relinquit, other editions print repellit, “drives off”.",
+   "v": true,
+   "ln": 377
+  },
+  {
+   "t": "altera captum\nme tenet et teneat per longum, comprecor, aevum!",
+   "l": "another woman holds me taken, and may she hold me, I pray, through a long age!",
+   "i": "another woman holds me captive, and I pray she may hold me all my life long!",
+   "n": "captum me tenet is “holds me taken”, the perfect participle doing what English does with an adjective. teneat is a jussive subjunctive set directly against the indicative tenet: the same verb twice, first as fact and then as wish. comprecor is thrown in parenthetically, “I pray”.",
+   "v": true,
+   "ln": 378
+  },
+  {
+   "t": "Nec venere externa socialia foedera laedam,\ndum mihi Ianigenam servabunt fata Canentem!”",
+   "l": "Nor will I wound the bonds of wedlock with an outside love, while the fates preserve for me Janus-born Canens!”",
+   "i": "Nor will I break my marriage bond with a stranger's love, so long as the fates keep Janus-born Canens for me!”",
+   "n": "venere externa is an ablative, venus in its common sense of sexual love, with externa, “from outside”, meaning outside the marriage. socialia foedera is the marriage covenant, and foedus is the word for a treaty between states — Latin uses it of a marriage without apology. Ianigenam, “Janus-born”, is a compound of the kind Latin builds freely for verse. dum with the future servabunt is “so long as”.",
+   "v": true,
+   "ln": 380
+  },
+  {
+   "t": "Saepe retemptatis precibus Titania frustra\n“non impune feres, neque” ait “reddere Canenti,\nlaesaque quid faciat, quid amans, quid femina disces.”",
+   "l": "The Titaness, her prayers often tried again in vain, “you will not carry it off unpunished, nor,” she says, “will you learn to give yourself back to Canens, and what a woman wronged may do, what a woman in love, what a woman,",
+   "i": "Often the Titaness renewed her pleading, and to no purpose; “You will not get away with this,” she says, “nor will you learn how to give yourself back to Canens, and you will learn what a woman wronged can do, what a woman in love, what a woman,",
+   "n": "retemptatis precibus is an ablative absolute, “her prayers having been tried again”. ait, thrown into the middle of the quotation, is the ordinary verse way of tagging speech, and it comes again in the next line, just after rebus. disces, at the end of the third line, does double duty: it governs the infinitive reddere — “nor will you learn to give yourself back to Canens”, with te, “yourself”, left to be understood as Latin freely leaves it — and it governs the three quid clauses, which are indirect questions. Those three climb by taking things away: wronged, in love, and at last simply a woman. On where this speech in fact ends, see the note on the next line.",
+   "v": true,
+   "ln": 382
+  },
+  {
+   "t": "rebus, ait, sed amans et laesa et femina Circe.",
+   "l": "by the facts,” she says, “but Circe is in love and wronged and a woman.”",
+   "i": "and learn it from what happens,” she says, “but Circe is in love, and wronged, and a woman.”",
+   "n": "The archived text carries a fault here. It closes the quotation with a full stop and a closing mark at the end of the line before, which leaves rebus standing at the head of this line with nothing to depend on. rebus is an ablative of means governed by disces in the line above — “you will learn by the facts” — so the speech must run on to Circe at the end of this line, and it is there that the quotation should close. The second witness reads at est et where the archived edition has ait sed, giving “but Circe is both in love and wronged and a woman”. The text is printed here exactly as archived; nothing has been repaired.",
+   "v": true,
+   "ln": 385
+  },
+  {
+   "t": "Tum bis ad occasum, bis se convertit ad ortus,\nter iuvenem baculo tetigit, tria carmina dixit.",
+   "l": "Then twice to the setting, twice she turned herself to the risings, three times she touched the youth with her staff, spoke three spells.",
+   "i": "Then she turned herself twice to the west, twice to the east, touched the young man three times with her staff, and said three spells.",
+   "n": "Ritual numbers: twice each way, then three times over. se convertit is reflexive and serves both bis phrases although it is written only with the second. occasum and ortus are the sun's setting and rising, so west and east, and the archived edition has the singular against the plural. The three clauses run with no connective at all, which makes the rite sound quick and mechanical.",
+   "p": true,
+   "v": true,
+   "ln": 386
+  },
+  {
+   "t": "Ille fugit, sed se solito velocius ipse\ncurrere miratur:",
+   "l": "He flees, but he himself wonders that he runs faster than usual:",
+   "i": "He runs — and is astonished to find himself running faster than he used to:",
+   "n": "solito velocius is a comparative with an ablative of comparison, “faster than what is customary”. miratur takes the accusative and infinitive se currere, an indirect statement: he marvels that he is running. fugit and miratur are historic presents, and they bring the moment close after the plain perfects of the line before.",
+   "v": true,
+   "ln": 388
+  },
+  {
+   "t": "pennas in corpore vidit,\nseque novam subito Latiis accedere silvis\nindignatus avem duro fera robora rostro\nfigit et iratus longis dat vulnera ramis.",
+   "l": "he saw feathers on his body, and, indignant that he was suddenly being added to the Latin woods as a new bird, he drives his hard beak into the wild oaks and in anger deals wounds to the long branches.",
+   "i": "he saw feathers on his body, and, outraged that he was suddenly joining the woods of Latium as a new bird, he drove his hard beak into the tough oak and in his fury gashed the long boughs.",
+   "n": "indignatus governs the accusative and infinitive se accedere, “indignant that he was joining”; novam avem is in apposition to se and is feminine because avis is, though the bird is a man. accedere takes the dative silvis, “to be added to the woods”. robur is both the oak and its hardness, and fera robora is set against duro rostro inside the same line. The bird is the woodpecker, which in Latin is picus — his own name.",
+   "v": true,
+   "ln": 389
+  },
+  {
+   "t": "Purpureum chlamydis pennae traxere colorem,\nfibula quod fuerat vestemque momorderat aurum,\npluma fit, et fulvo cervix praecingitur auro,",
+   "l": "The feathers took on the crimson colour of the cloak; the gold which had been a brooch and had bitten the garment becomes down, and the neck is girded round with tawny gold,",
+   "i": "The feathers drew the crimson of the cloak into themselves; the gold that had been a brooch and had bitten the cloth turns to plumage, and a band of tawny gold circles the neck,",
+   "n": "traxere is the poetic perfect for traxerunt. quod ... aurum is a relative clause with its antecedent inside it — “the gold, which had been a brooch” — and the relative word comes before the noun it belongs to. momorderat, “had bitten”, is the reduplicated perfect of mordeo and is the ordinary Latin verb for a clasp gripping cloth. fit is present among pluperfects, so the change happens in front of us.",
+   "v": true,
+   "ln": 393
+  },
+  {
+   "t": "nec quicquam antiquum Pico nisi nomina restat.",
+   "l": "and nothing of the old remains to Picus except the name.",
+   "i": "and nothing of what he was is left to Picus but his name.",
+   "n": "Pico is a dative of possession with restat, “remains to Picus”. nomina is a poetic plural for a single name; verse uses the plural of nomen freely where prose would not. The line states the aetiology flatly: the man is gone, and the word picus, the woodpecker, is what is left of him.",
+   "v": true,
+   "ln": 396
+  },
+  {
+   "t": "Interea comites, clamato saepe per agros\nnequiquam Pico nullaque in parte reperto,",
+   "l": "Meanwhile the companions, Picus having been shouted for often through the fields in vain and found in no place,",
+   "i": "Meanwhile the companions, having shouted for Picus again and again through the fields to no purpose, and found him nowhere,",
+   "n": "Two ablative absolutes hang on one noun: clamato ... Pico and, with Pico understood again, ... reperto. Latin can put both participles on the same ablative, and English has to make a clause out of each. clamare with a person is “to call for, to shout for”. nequiquam, “to no purpose”, stands at the head of its own line, where it takes the weight.",
+   "p": true,
+   "v": true,
+   "ln": 397
+  },
+  {
+   "t": "inveniunt Circen (nam iam tenuaverat auras\npassaque erat nebulas ventis ac sole recludi)",
+   "l": "they find Circe (for by now she had thinned the air and had allowed the mists to be unclosed by winds and by sun)",
+   "i": "they find Circe — by now she had thinned the air and let the winds and the sun break the fog open —",
+   "n": "Circen is a Greek accusative. The parenthesis explains how the men can see her at all: the mist of line 370 has been let go. patior takes an infinitive here — passa erat ... recludi, “had allowed to be unclosed” — with recludi passive and ventis ac sole instrumental ablatives.",
+   "v": true,
+   "ln": 399
+  },
+  {
+   "t": "criminibusque premunt veris regemque reposcunt\nvimque ferunt saevisque parant incessere telis.",
+   "l": "and they press her with true charges and demand back their king, and bring force, and prepare to attack with savage weapons.",
+   "i": "and they press her hard with charges that are true, demand their king back, offer violence, and make ready to come at her with cruel weapons.",
+   "n": "criminibus ... veris is emphatic: the charges are true, and the narrator says so outright rather than leaving the reader to judge. vim ferre is “to offer violence”. incessere takes the instrumental ablative saevis telis. Four clauses hung on -que in two lines make the crowd's advance sound like one continuous movement.",
+   "v": true,
+   "ln": 401
+  },
+  {
+   "t": "Illa nocens spargit virus sucosque veneni\net Noctem noctisque deos Ereboque chaoque\nconvocat et longis Hecaten ululatibus orat:",
+   "l": "She, guilty, scatters poison and the juices of venom, and calls together Night and the gods of night out of Erebus and out of Chaos, and entreats Hecate with long howlings:",
+   "i": "Guilty as she is, she scatters poison and the juices of venom, calls Night and the gods of night together out of Erebus and Chaos, and with long howls entreats Hecate:",
+   "n": "nocens is “guilty”, and it answers criminibus ... veris at line 401, where the charges were already granted to be true. Erebo and chao are ablatives of the place from which, with no preposition, as verse allows. Hecaten is a Greek accusative; Hecate is the goddess of crossroads and of witchcraft, and so the natural power for Circe to call. ululatibus is the word for ritual howling, not ordinary crying.",
+   "p": true,
+   "v": true,
+   "ln": 403
+  },
+  {
+   "t": "exsiluere loco (dictu mirabile) silvae,\ningemuitque solum, vicinaque palluit arbor,\nsparsaque sanguineis maduerunt pabula guttis,",
+   "l": "the woods leapt out of their place (marvellous to say), and the ground groaned, and the tree near by went pale, and the sprinkled pastures grew wet with drops of blood,",
+   "i": "the woods leapt from their place — a marvel to tell — the ground groaned, the tree near by turned white, and the pasture where the drops fell was wet with blood,",
+   "n": "exsiluere and maduerunt put the two forms of the same tense side by side, the poetic -ere and the full -erunt. dictu is a supine in the ablative after mirabile, the construction English keeps intact in “marvellous to say”. loco is an ablative of separation without a preposition. These are the standard signs of a magical working: the earth groaning, the pallor, the blood.",
+   "v": true,
+   "ln": 406
+  },
+  {
+   "t": "et lapides visi mugitus edere raucos,\net latrare canes et humus serpentibus atris\nsqualere et tenues animae volitare videntur.",
+   "l": "and stones were seen to give out hoarse bellowings, and dogs to bark, and the ground to be foul with black snakes, and thin souls seem to flit.",
+   "i": "and stones were seen to give out hoarse bellowing, and dogs to bark, and the ground to crawl with black snakes, and thin ghosts seem to be flitting about.",
+   "n": "visi (sunt) and videntur govern a chain of infinitives: edere, latrare, squalere, volitare. The switch from the perfect visi to the present videntur inside one sentence pulls the reader into the present of the horror. squalere is “to be rough, foul, matted”, said here of ground writhing with snakes. tenues animae are the insubstantial dead. Where the archived edition ends the line with videntur, other editions print silentum, “of the silent ones”, which names the dead outright and leaves visi to govern the whole list.",
+   "v": true,
+   "ln": 409
+  },
+  {
+   "t": "Attonitum monstris vulgus pavet:",
+   "l": "The crowd, thunderstruck by the portents, is afraid:",
+   "i": "The crowd, thunderstruck by these portents, is terrified:",
+   "n": "attonitum is literally “thunder-struck”, from tono, and monstris is an ablative of cause. vulgus is a neuter singular collective, so the participle and the verb stay singular where English wants a plural.",
+   "v": true,
+   "ln": 412
+  },
+  {
+   "t": "illa paventis\nora venenata tetigit mirantia virga,",
+   "l": "she touched with her poisoned wand the wondering faces of the frightened crowd,",
+   "i": "she touched their faces, frightened and staring, with her poisoned wand,",
+   "n": "paventis is a genitive singular participle agreeing with vulgus, the collective noun that stands earlier in this same line 412: “the faces of the frightened crowd”. The ending -is is also the old accusative plural of such participles, but there is no masculine or feminine plural noun here for it to agree with — ora, the only accusative in sight, is neuter — so the genitive is the reading that works. venenata ... virga is an ablative of instrument with tetigit mirantia driven in between adjective and noun, so that the wand closes the line.",
+   "v": true,
+   "ln": 412
+  },
+  {
+   "t": "cuius ab attactu variarum monstra ferarum\nin iuvenes veniunt:",
+   "l": "from the touch of which the monstrous shapes of various wild beasts come upon the young men:",
+   "i": "and at its touch the shapes of all sorts of wild beasts come over the young men:",
+   "n": "cuius points back to the virga that closes the line before: “from the touch of which”, which English is happier saying as “and at its touch”. attactus is a rare fourth-declension noun for a touch. monstra keeps its root sense of a thing unnatural to look at, and picks up monstris from line 412. in iuvenes veniunt, “come into the young men”, describes the change from outside: the beast-shapes arrive on them rather than the men turning into beasts.",
+   "v": true,
+   "ln": 414
+  },
+  {
+   "t": "nulli sua mansit imago.",
+   "l": "to none did his own shape remain.",
+   "i": "not one of them kept the shape he had.",
+   "n": "nulli is a dative of possession with mansit: “his own form did not stay with anybody”. imago is the same word used at line 323 of the sculpted likeness of Picus — there the copy of a shape, here the shape a man loses.",
+   "v": true,
+   "ln": 415
+  },
+  {
+   "t": "Sparserat occiduus Tartessia litora Phoebus,",
+   "l": "The setting Phoebus had sprinkled the Tartessian shores,",
+   "i": "The sinking sun had spread its light over the shores of Tartessus,",
+   "n": "Tartessus lay on the Atlantic coast of Spain, at the western edge of the known world, so the line means only that the sun had gone down. occiduus is an adjective, “setting”, where English wants a participle, and sparserat of light is “had scattered, had spattered”. Phoebus is the Sun — Circe's own father, the Sol she offered Picus as a father-in-law at line 375.",
+   "p": true,
+   "v": true,
+   "ln": 416
+  },
+  {
+   "t": "et frustra coniunx oculis animoque Canentis\nexspectatus erat:",
+   "l": "and in vain had the husband been awaited by the eyes and by the heart of Canens:",
+   "i": "and Canens had waited for her husband, with her eyes and with her heart, in vain:",
+   "n": "coniunx serves for either spouse and is “husband” here: it is Picus. oculis animoque are instrumental ablatives with the passive exspectatus erat — she watched with the one and waited with the other. Canentis is the genitive of the participle-name Canens.",
+   "v": true,
+   "ln": 417
+  },
+  {
+   "t": "famuli populusque per omnes\ndiscurrunt silvas atque obvia lumina portant;",
+   "l": "the servants and the people run about through all the woods and carry lights to meet him;",
+   "i": "the household and the people scatter through all the woods and carry torches out to meet him;",
+   "n": "per omnes ... silvas is broken by the line-end: omnes closes 418 and silvas follows the verb discurrunt in 419. discurrunt is “run off in different directions”. obvia lumina are lights carried out to meet somebody — obvius is “in the way of, to meet” — and the phrase carries the hope that he will walk into the light.",
+   "v": true,
+   "ln": 418
+  },
+  {
+   "t": "nec satis est nymphae flere et lacerare capillos\net dare plangorem (facit et tamen omnia) seque\nproripit ac Latios errat vesana per agros.",
+   "l": "nor is it enough for the nymph to weep and to tear her hair and to give lamentation (and yet she does all of it), and she flings herself forth and wanders out of her mind through the Latian fields.",
+   "i": "and it is not enough for the nymph to weep and tear her hair and beat her breast — she does all of it, even so — and she flings herself out of doors and roams the fields of Latium out of her mind.",
+   "n": "nymphae is a dative with satis est, “enough for her”. plangorem dare is the formal language of mourning: plangere is to beat the breast and the head, and the noun is the sound of it. The parenthesis facit et tamen omnia concedes that she performs every rite — the point being that the rites are not enough. seque proripit is reflexive, “tears herself away”. vesana is a nominative adjective doing adverbial work with errat.",
+   "v": true,
+   "ln": 420
+  },
+  {
+   "t": "Sex illam noctes, tetidem redeuntia solis\nlumina viderunt inopem somnique cibique\nper iuga, per valles, qua fors ducebat, euntem.",
+   "l": "Six nights, and as many returning lights of the sun, saw her going, destitute of sleep and of food, over ridges, through valleys, where chance was leading.",
+   "i": "Six nights and as many returns of the sun's light saw her going without sleep or food over ridge and through valley, wherever chance led her.",
+   "n": "The archived text prints tetidem, which is not a Latin word; the reading is totidem, “just as many”, and the second witness has it. The text is given here exactly as archived and nothing has been repaired. inopem takes two genitives, somni and cibi, “without sleep or food”. euntem is the accusative present participle of eo agreeing with illam and depending on viderunt: they saw her going. Making the nights and the days the subject leaves time itself watching her.",
+   "v": true,
+   "ln": 423
+  },
+  {
+   "t": "Ultimus adspexit Thybris luctuque viaque\nfessam et iam longa ponentem corpora ripa.",
+   "l": "Last of all the Tiber looked upon her, wearied with grief and with the road and now laying down her body on the long bank.",
+   "i": "The Tiber was the last to look on her, worn out with grief and with travelling and laying herself down at last on the long bank.",
+   "n": "Thybris is the Greek form of the Tiber's name. ultimus is a nominative adjective standing in for an adverb, “last of all”. luctu ... viaque are ablatives of cause with fessam. corpora is a poetic plural for one body, and longa ripa an ablative of place with no preposition.",
+   "p": true,
+   "v": true,
+   "ln": 426
+  },
+  {
+   "t": "Illic cum lacrimis ipso modulata dolore\nverba sono tenui maerens fundebat, ut olim\ncarmina iam moriens canit exequialia cygnus.",
+   "l": "There, mourning, with tears, she was pouring out words modulated by grief itself in a thin sound, as at times the swan, now dying, sings funeral songs.",
+   "i": "There, weeping, she poured out words that grief itself had set to music, in a thin thread of sound, as the swan sings its funeral song when it is already dying.",
+   "n": "modulata is the perfect participle of the deponent modulor used with passive force — the words are “tuned” by grief — and ipso dolore is an instrumental ablative, grief itself doing the composing. The same verb was used of her singing at line 341, so even her last utterance is still song. olim in a simile of this shape is “at times”, not “once”, and canit is the timeless present of a general truth: the swan does it whenever it dies. The idea that the swan sings as it dies is fixed ancient natural history, believed then and untrue. exequialia, from exsequiae, a funeral procession, is a rare adjective.",
+   "v": true,
+   "ln": 428
+  },
+  {
+   "t": "Luctibus extremis teneras liquefacta medullas\ntabuit inque leves paulatim evanuit auras;",
+   "l": "Melted as to her tender marrow by the last griefs, she wasted away and little by little vanished into the light airs;",
+   "i": "Her tender marrow melted by that last grief, she wasted away and little by little vanished into the light air;",
+   "n": "teneras medullas is a Greek accusative of respect after the passive participle liquefacta — “melted with respect to her tender marrow” — which English can only turn round. The same medullae were where the flame ran in Circe at line 351: the fire there and the melting here are the one image used twice, once for desire and once for grief. tabuit is from tabesco, to waste away by degrees. Where the archived edition reads luctibus extremis teneras, other editions print luctibus extremum tenues, “melted at the last as to her thin marrow”.",
+   "v": true,
+   "ln": 431
+  },
+  {
+   "t": "fama tamen signata loco est, quem rite Canentem\nnomine de nymphae veteres dixere Camenae.”",
+   "l": "yet the story was marked upon the place, which the ancient Camenae rightly called Canens from the nymph's name.”",
+   "i": "yet the story was set upon the place, which the old Camenae fittingly called Canens after the nymph's name.”",
+   "n": "signata est of a story is “stamped, set as a mark”. quem is masculine, agreeing with locum, and Canentem is the accusative of the name used as a predicate: they called the place Canens. The Camenae were the Italian goddesses of song, later identified with the Muses, and veteres keeps them the old native ones. dixere is the poetic perfect for dixerunt. The closing mark here shuts the tale within the tale: the man who heard it takes over at line 435, and his own speech is closed by the second mark at line 440.",
+   "v": true,
+   "ln": 433
+  },
+  {
+   "t": "Talia multa mihi longum narrata per annum\nvisaque sunt.",
+   "l": "Many such things were told to me and seen by me through a long year.",
+   "i": "Many such things were told me, and seen by me, over that long year.",
+   "n": "mihi serves both participles: a dative with narrata, “told to me”, and a dative of the agent with the passive visa, “seen by me”. longum per annum is “through a long year”, the year of the stay that ends at line 437 when they are ordered back to sea. The speaker changes here — the tale is over and the man who heard it is talking.",
+   "p": true,
+   "v": true,
+   "ln": 435
+  },
+  {
+   "t": "Resides et desuetudine tardi\nrursus inire fretum, rursus dare vela iubemur.",
+   "l": "Sluggish and slow from disuse, we are ordered to enter the strait again, again to give sails.",
+   "i": "Idle and slow from long disuse, we are ordered to take to the sea again, to make sail again.",
+   "n": "resides, from resideo, is “sitting still, gone slack”; desuetudine is an ablative of cause, the unfitness of men who have not sailed for a year. iubemur is a personal passive taking the infinitives inire and dare directly, “we are ordered to”. vela dare, “to give sails to the wind”, is the standing idiom for setting sail. The repeated rursus opens each half of line 437 and drives it.",
+   "v": true,
+   "ln": 436
+  },
+  {
+   "t": "Ancipitesque vias et iter Titania vastum\ndixerat et saevi restare pericula ponti.",
+   "l": "And the Titaness had said that doubtful ways and a vast journey and the perils of the savage sea remained.",
+   "i": "And the Titaness had told them that uncertain courses, a vast voyage, and the dangers of a cruel sea were still to come.",
+   "n": "dixerat governs an accusative and infinitive: vias, iter and pericula are the subjects and restare the infinitive, “that ways, a journey and dangers remained”. Titania is Circe again, named by her Titan descent as at line 382. The connecting -que on Ancipitesque joins the sentence to the one before. The infinitive restare is held back into the second line, after two of its three subjects have already gone by.",
+   "v": true,
+   "ln": 438
+  },
+  {
+   "t": "Pertimui, fateor, nactusque hoc litus adhaesi.”",
+   "l": "I took great fright, I confess, and having got this shore I stuck fast.”",
+   "i": "I was thoroughly frightened, I admit it, and once I had reached this shore I stayed.”",
+   "n": "The per- on pertimui is intensive: not merely afraid but frightened through and through. fateor is parenthetical, “I confess”, and the admission of cowardice is what it is there for. nactus is the deponent participle with active sense again, as at line 372. adhaesi is blunt and physical, “I stuck to it”, where a grander speaker would have said he settled. The closing mark ends the whole speech.",
+   "v": true,
+   "ln": 440
+  }
+ ],
+ "glossaryFile": "metamorphoses-glossary.json"
+}

@@ -1,0 +1,516 @@
+{
+ "id": "ovid-met-118",
+ "sourceId": "ovid-met-118",
+ "title": "Pythagoras",
+ "titleEn": "The Seasons, the Elements, and Waters That Change — Metamorphoses XV.199–334",
+ "language": "Latin",
+ "langCode": null,
+ "source": "P. Ovidius Naso, Metamorphoses, ed. Hugo Magnus (Gotha: F.A. Perthes), public domain; TEI from PerseusDL/canonical-latinLit phi0959.phi006.perseus-lat2, sha256 8719b7d375018d4f. Collated against The Latin Library (cltk mirror) as a disagreement detector only. Original spelling kept. Pronunciation convention: reconstructed Classical (restored) Latin, applied consistently. All translations were made fresh from the Latin for Lectorium.",
+ "about": "A speaker in mid-argument presses the claim that nothing keeps its shape: the year runs through four seasons that copy the four ages of a human life, and the human body is remade the same way — seed in the womb, an infant on all fours, a young man strong and swift, then Milon weeping over his slack arms and Helen, at her mirror, asking herself why she was twice carried off. He turns to the four elements, which pass into one another and back again, and argues that nothing in the whole world perishes: what we call being born and dying is only beginning and ceasing to be something else. The rest is evidence — sea where the firmest land had been, sea shells lying far from any sea and an old anchor on mountain tops, Achaean cities under water, a mound near Troezen swelled up by trapped wind, and rivers and springs that vanish underground, turn salt, coat what they touch in marble, or leave a drinker raving.",
+ "sentences": [
+  {
+   "t": "Quid? non in species succedere quattuor annum\nadspicis, aetatis peragentem imitamina nostrae?",
+   "l": "What? Do you not see the year pass into four forms, carrying through the imitations of our own age?",
+   "i": "Well? Do you not see the year move on into four shapes, acting out the likeness of our own span of life?",
+   "n": "The part opens in the middle of a speech: *Quid?* is a rhetorical shove at the listener, “what about this?”, and three of them punctuate this stretch (199, 285, 308). *adspicis* governs an accusative and infinitive, *annum succedere*, “that the year passes on”, with *peragentem* agreeing with *annum*. The edition's *adsp-* spelling is kept as printed. *imitamina*, “imitations”, is a rare word.",
+   "p": true,
+   "v": true,
+   "ln": 199
+  },
+  {
+   "t": "Nam tener ac lactens puerique simillimus aevo\nvere novo est:",
+   "l": "For it is tender and milk-fed and most like a boy in age, in the new spring:",
+   "i": "For in the new spring the year is soft and suckling, as like a child in its years as can be:",
+   "n": "*tener*, *lactens* and *simillimus* are all predicates of *annus*, the year; *lactens* is “still at the breast”. *puerique simillimus aevo* takes *aevo* as an ablative of respect, “most like a boy in respect of age”. *vere novo* is an ablative of time, the new-come spring.",
+   "v": true,
+   "ln": 201
+  },
+  {
+   "t": "tunc herba nitens et roboris expers\nturget et insolida est et spe delectat agrestes.",
+   "l": "then the gleaming blade, having no part in hardness, swells and is unfirm and delights the countrymen with hope.",
+   "i": "then the glossy young grass, with no strength in it, swells and stands unfirm, and gladdens the farmers with hope.",
+   "n": "*expers* takes the genitive, here *roboris*, “having no share of hardness”. *insolida* is a negative compound, “not solid”. *agrestes* are country people, farmers. Magnus prints *nitens*, “gleaming”; some editions print *recens*, “fresh”.",
+   "v": true,
+   "ln": 202
+  },
+  {
+   "t": "Omnia tunc florent, florumque coloribus almus\nludit ager, neque adhuc virtus in frondibus ulla est.",
+   "l": "All things flower then, and with the colours of flowers the nourishing field plays, nor is there yet any strength in the leaves.",
+   "i": "Everything is in bloom then, and the kindly field plays with the colours of its flowers; but there is no strength yet in the foliage.",
+   "n": "*almus*, “nourishing, kindly”, and *ludit*, “plays”, treat the field as a living thing. *virtus* here is physical strength, the vigour of a growing plant, not moral excellence — the false friend to watch in this line.",
+   "v": true,
+   "ln": 204
+  },
+  {
+   "t": "Transit in aestatem post ver robustior annus\nfitque valens iuvenis:",
+   "l": "The year, sturdier, passes after spring into summer and becomes a vigorous young man:",
+   "i": "After spring the year grows sturdier, passes into summer, and turns into a strong young man:",
+   "n": "*robustior* is a comparative used absolutely, “sturdier than it was”. Because *annus* is masculine, the year can be a *iuvenis*, a young man, without strain.",
+   "v": true,
+   "ln": 206
+  },
+  {
+   "t": "neque enim robustior aetas\nulla nec uberior, nec quae magis ardeat, ulla est.",
+   "l": "for there is no age sturdier, nor any richer, nor any of a kind to burn more hotly.",
+   "i": "for no time of life is stronger, or fuller, or burns hotter.",
+   "n": "*ulla* stands twice in 208, opening the line and again just before *est*. *quae magis ardeat* is a relative clause of characteristic — hence the subjunctive *ardeat* — “any of such a kind as to burn more”.",
+   "v": true,
+   "ln": 207
+  },
+  {
+   "t": "Excipit autumnus, posito fervore iuventae\nmaturus mitisque, inter iuvenemque senemque\ntemperie medius, sparsus quoque tempora canis.",
+   "l": "Autumn takes over, ripe and mild, the fever of youth laid aside, midway in temper between young man and old, sprinkled also as to his temples with grey.",
+   "i": "Autumn follows, ripe and mild, the heat of youth put off, halfway in temper between a young man and an old one, with grey scattered too at his temples.",
+   "n": "Two patterns worth flagging on their first appearance here. *posito fervore iuventae* is an ablative absolute, a self-contained “with X done” phrase where English wants a clause. *sparsus ... tempora* is a Greek accusative of respect after a passive participle: “sprinkled as to his temples”, with *canis* an ablative of *cani*, “grey hairs”.",
+   "v": true,
+   "ln": 209
+  },
+  {
+   "t": "Inde senilis hiems tremulo venit horrida passu,\naut spoliata suos, aut quos habet, alba capillos.",
+   "l": "Then aged winter comes, shuddering, with trembling step, either despoiled as to her own hairs, or, as to those she has, white.",
+   "i": "Then comes winter, old and shivering, on a trembling step, either robbed of her hair or white in what hair she has.",
+   "n": "*hiems* is feminine, which is why *horrida*, *spoliata* and *alba* are all feminine. *capillos* is again the accusative of respect (as at 211), shared by both *spoliata* and *alba*: “stripped as to her hairs”, “white as to those she has”. *horrida* covers both bristling and shuddering.",
+   "v": true,
+   "ln": 212
+  },
+  {
+   "t": "Nostra quoque ipsorum semper requieque sine ulla\ncorpora vertuntur, nec, quod fuimusve sumusve,\ncras erimus;",
+   "l": "Our own bodies too are always changed, and without any rest, nor shall we be tomorrow what we were or what we are;",
+   "i": "Our own bodies too are always being changed, with no pause at all; nor tomorrow shall we be what we have been or what we are;",
+   "n": "*nostra ipsorum* — the genitive *ipsorum* stiffens the possessive, “of us ourselves”. *vertuntur* is passive, “are turned”. *-ve ... -ve* are enclitics, “either ... or”. *quoque* here is the plain adverb “also”, not *quo-que*, “and by which” — a distinction worth watching in this speech, where the word recurs.",
+   "p": true,
+   "v": true,
+   "ln": 214
+  },
+  {
+   "t": "fuit illa dies, qua semina tantum\nspesque hominum primae matrisque habitavimus alvo.",
+   "l": "there was that day on which, only seeds and the first hopes of men, we dwelt in a mother's womb.",
+   "i": "there was a day when we were nothing but seed and the first hope of a human being, and lived in a mother's belly.",
+   "n": "*semina* and *spes primae* stand in apposition to the subject of *habitavimus*: “we, as mere seeds and first hopes, dwelt”. *illa dies* is feminine, as *dies* often is of one particular day. Magnus prints *matrisque habitavimus alvo*; some editions print *matris latitavimus alvo*, “we lay hidden in a mother's womb”.",
+   "v": true,
+   "ln": 216
+  },
+  {
+   "t": "Artifices natura manus admovit et angi\ncorpora visceribus distentae condita matris\nnoluit eque domo vacuas emisit in auras.",
+   "l": "Nature applied her craftsman hands, and did not wish the bodies hidden in the vitals of the swollen mother to be cramped, and sent them out from that home into the empty air.",
+   "i": "Nature laid her shaping hands on us; she would not have those bodies, stowed away in the swollen mother's insides, be pinched for room, and sent them out of that house into the open air.",
+   "n": "*angi* is a present passive infinitive, “to be cramped”, with *corpora* as its accusative subject after *noluit*. *distentae ... matris* is a genitive with *visceribus*, “in the vitals of the distended mother”. *eque* is *e* plus *-que*, “and out of”.",
+   "v": true,
+   "ln": 218
+  },
+  {
+   "t": "Editus in lucem iacuit sine viribus infans;",
+   "l": "Brought forth into the light, the infant lay without strength;",
+   "i": "Delivered into the light, the baby lay there with no strength in him;",
+   "n": "*editus* is the perfect passive participle of *edo*, “put forth, bring to birth”. *infans* is literally “not speaking”.",
+   "v": true,
+   "ln": 221
+  },
+  {
+   "t": "mox quadrupes rituque tulit sua membra ferarum,\npaulatimque tremens et nondum poplite firmo\nconstitit adiutis aliquo conamine nervis.",
+   "l": "soon, four-footed, he carried his limbs after the manner of wild beasts, and little by little, trembling and not yet firm in the knee, he stood up, his sinews helped by some effort.",
+   "i": "soon he went on all fours and moved his limbs the way animals do; and bit by bit, shaking and still unsteady at the knee, he stood upright, his muscles helped along by some exertion.",
+   "n": "*quadrupes* is nominative and describes the child himself, “on all fours”. *ritu ferarum* is an ablative of manner, “in the fashion of wild animals”. *adiutis ... nervis* is another ablative absolute (as at 209).",
+   "v": true,
+   "ln": 222
+  },
+  {
+   "t": "Inde valens veloxque fuit spatiumque iuventae\ntransit et emeritis medii quoque temporis annis\nlabitur occiduae per iter declive senectae.",
+   "l": "Then he was strong and swift, and passes through the span of youth, and, the years of the middle time also served out, slides down the sloping road of setting old age.",
+   "i": "Then he was strong and quick; he passes through the stretch of youth and, the years of middle life discharged as well, slips down the falling path of an old age drawing to its setting.",
+   "n": "The perfect *fuit* gives way to the presents *transit* and *labitur* — the alternation speeds the passage up as the life shortens. *emeritis ... annis* is an ablative absolute built on a military word, *emereor*, “serve out one's term”. *occiduae* is from *occido*, used of the sun going down.",
+   "v": true,
+   "ln": 225
+  },
+  {
+   "t": "Subruit haec aevi demoliturque prioris\nrobora, fletque Milon senior, cum spectat inanes\n(illos, qui fuerant solidorum mole tororum\nHerculeis similes!) fluidos pendere lacertos;",
+   "l": "This undermines and pulls down the strength of the earlier age, and Milon, grown old, weeps when he watches his arms — those which had been, in the mass of their solid muscle, like Hercules's! — hang empty and flabby;",
+   "i": "Old age undermines and tears down the strength of earlier years, and Milon weeps in his old age when he looks at his arms hanging slack and empty — the very arms that once, in the bulk of their packed muscle, matched Hercules's!",
+   "n": "*haec*, feminine, is most naturally taken as old age, picked up from *senectae* in 227. The adjectives of *lacertos* are split apart by the parenthesis: *inanes* closes 229, while *fluidos* and *lacertos* stand in 231, with the exclamation between them; the literal keeps the parenthesis in the edition's place, while the idiomatic moves it to the end. *Milon* is the athlete Milo of Croton; *tororum* is “muscles, brawn”.",
+   "v": true,
+   "ln": 228
+  },
+  {
+   "t": "Flet quoque, ut in speculo rugas adspexit aniles,\nTyndaris et secum, cur sit bis rapta, requirit.",
+   "l": "The daughter of Tyndareus weeps too, when she has caught sight of an old woman's wrinkles in the mirror, and asks herself why she was twice carried off.",
+   "i": "Tyndareus's daughter weeps as well, once she has seen an old woman's wrinkles in the glass, and asks herself why she was twice carried off.",
+   "n": "*Tyndaris*, “daughter of Tyndareus”, is Helen, named by patronymic and never by name here. *ut* with the perfect indicative *adspexit* means “when, as soon as”. *cur sit bis rapta* is an indirect question after *requirit*, which is why the verb is subjunctive; *rapta* is from *rapio*, “seize, snatch away”, the verb used of carrying a woman off.",
+   "v": true,
+   "ln": 232
+  },
+  {
+   "t": "Tempus edax rerum, tuque, invidiosa vetustas,\nomnia destruitis, vitiataque dentibus aevi\npaulatim lenta consumitis omnia morte.",
+   "l": "Time, devourer of things, and you, envious antiquity, you destroy all things, and, spoiled by the teeth of the age, all things you consume little by little with a lingering death.",
+   "i": "Time, that eats things up, and you, envious antiquity — between you, you destroy everything; and what the teeth of the years have gnawed you finish off, bit by bit, with a slow death.",
+   "n": "An apostrophe: the speaker breaks off his argument to address Time and *vetustas* directly. Both verbs, *destruitis* and *consumitis*, are second person plural, taking in both of them. *edax* is an adjective governing the genitive *rerum*, “devouring of things”. *omnia* is used twice, opening 235 and standing again in 236.",
+   "v": true,
+   "ln": 234
+  },
+  {
+   "t": "Haec quoque non perstant, quae nos elementa vocamus,\nquasque vices peragant, (animos adhibete!) docebo.",
+   "l": "These too do not stand fast, the things which we call elements, and what turns they run through — give me your minds! — I shall teach.",
+   "i": "These do not hold either, the things we call the elements; and what changes they pass through — pay attention now! — I will show you.",
+   "n": "*quas ... vices peragant* is an indirect question governed by *docebo*, hence the subjunctive *peragant*; *vices* are “turns, alternations”. *animos adhibete* is a plural imperative thrown at the listeners, and the edition sets it off in parentheses.",
+   "p": true,
+   "v": true,
+   "ln": 237
+  },
+  {
+   "t": "Quattuor aeternus genitalia corpora mundus\ncontinet;",
+   "l": "The eternal world holds four begetting bodies;",
+   "i": "The everlasting universe contains four generative substances;",
+   "n": "*corpora* here are elemental substances, not bodies in the human sense, and *genitalia* means “that beget”. The word order of 239 sets *aeternus* second and its noun *mundus* last, with *genitalia corpora* held between them.",
+   "v": true,
+   "ln": 239
+  },
+  {
+   "t": "ex illis duo sunt onerosa suoque\npondere in inferius, tellus atque unda, feruntur,\net totidem gravitate carent nulloque premente\nalta petunt, aer atque aere purior ignis.",
+   "l": "of these two are heavy and are carried by their own weight into the lower — earth and water — and just as many lack weight and, with nothing pressing them, seek the heights: air, and fire purer than air.",
+   "i": "Two of them are heavy and are carried downward by their own weight — earth and water; and just as many have no weight and, with nothing pressing on them, make for the heights: air, and fire, which is purer than air.",
+   "n": "*in inferius* uses the neuter comparative as a noun, “into the lower place”. *nullo premente* is an ablative absolute (as at 209). *aere* is an ablative of comparison after *purior*. *totidem*, “just as many”, means two.",
+   "v": true,
+   "ln": 240
+  },
+  {
+   "t": "Quae quamquam spatio distant, tamen omnia fiunt\nex ipsis et in ipsa cadunt,",
+   "l": "And these, although they stand apart in space, yet all things come to be out of them and fall back into them,",
+   "i": "And these, though they stand apart in space, are still what everything comes out of and what everything falls back into,",
+   "n": "*Quae* is a connecting relative opening the sentence — “and these” rather than “which”; it takes up the four elements. *quamquam* here has the indicative *distant*. The subject of *fiunt* and *cadunt* is *omnia*, not *quae*.",
+   "v": true,
+   "ln": 244
+  },
+  {
+   "t": "resolutaque tellus\nin liquidas rarescit aquas, tenuatus in auras\naeraque umor abit, dempto quoque pondere rursus\nin superos aer tenuissimus emicat ignes.",
+   "l": "and earth, dissolved, thins out into flowing waters; moisture, made fine, goes off into breezes and air; and, its weight taken away as well, air at its thinnest darts up again into the fires above.",
+   "i": "Earth breaks down and rarefies into running water; water is thinned and passes off into breeze and air; and air, once its weight is gone too, flashes up at its finest into the fires overhead.",
+   "n": "A chain of three participial phrases: *resoluta* with *tellus*, *tenuatus* with *umor*, and the ablative absolute *dempto ... pondere*. *umor* is the subject of *abit*. Line 248 is framed by the phrase it belongs to, *in superos* at its start and *ignes* at its end, with the subject and verb inside.",
+   "v": true,
+   "ln": 245
+  },
+  {
+   "t": "Inde retro redeunt, idemque retexitur ordo;",
+   "l": "From there they come back the other way, and the same order is unwoven;",
+   "i": "From there they return in reverse, and the same sequence is unravelled;",
+   "n": "*retexitur* is passive, from *retexo*, “unweave” — the image is of a web being undone thread by thread, which is exactly the shape of the argument here.",
+   "v": true,
+   "ln": 249
+  },
+  {
+   "t": "ignis enim densum spissatus in aera transit,\nhic in aquas, tellus glomerata cogitur unda.",
+   "l": "for fire, thickened, passes into dense air, this into waters, and earth, rolled into a mass, is pressed together out of water.",
+   "i": "for fire is condensed and turns into dense air, air into water, and earth, balled together, is compacted out of water.",
+   "n": "*hic* is masculine and picks up *aer*, with *transit* carried over. *unda* is an ablative of source, “out of water”. *cogitur* is passive, from *cogo*, literally “drive together”, the verb used of milk curdling.",
+   "v": true,
+   "ln": 250
+  },
+  {
+   "t": "Nec species sua cuique manet, rerumque novatrix\nex aliis alias reddit natura figuras:",
+   "l": "Nor does its own form remain to each thing, and nature, renewer of things, gives back other shapes out of others:",
+   "i": "Nothing keeps the form it has, and nature, who makes things new, gives one shape back out of another:",
+   "n": "*cuique* is a dative of reference, “for each thing”. *novatrix* is a feminine agent noun, “she who makes new”, matching *natura*. *ex aliis alias* is the same adjective twice over in different cases, “other shapes out of others”.",
+   "p": true,
+   "v": true,
+   "ln": 252
+  },
+  {
+   "t": "nec perit in toto quicquam, mihi credite, mundo,\nsed variat faciemque novat, nascique vocatur\nincipere esse aliud, quam quod fuit ante, morique\ndesinere illud idem.",
+   "l": "and nothing perishes in the whole world — believe me — but it varies and makes its face new; and to be born is called beginning to be something other than what it was before, and to die, ceasing to be that same thing.",
+   "i": "and nothing in the whole world perishes — take my word for it — but it alters and renews its look; and what we call being born is beginning to be something other than what one was before, and dying is leaving off being that same thing.",
+   "n": "*vocatur* is passive, “is called”, and its subjects are the infinitives *nasci* and *mori*, with *incipere* and *desinere* as the predicate: “to be born is called to begin”. *variat* is intransitive here. *mihi credite* is a plural imperative to the listeners, as *animos adhibete* was at 238.",
+   "v": true,
+   "ln": 254
+  },
+  {
+   "t": "Cum sint huc forsitan illa,\nhaec translata illuc, summa tamen omnia constant.",
+   "l": "Although those things have perhaps been carried across to here, these to there, yet in the total all things stand unchanged.",
+   "i": "Though that has perhaps been shifted over here and this over there, the whole still comes out the same.",
+   "n": "*cum ... sint translata* is a concessive *cum* with the subjunctive, “although”; *forsitan* hedges it. *summa* is best taken as an ablative of respect with *constant*, “stand firm in the sum”, and *omnia* is its subject.",
+   "v": true,
+   "ln": 257
+  },
+  {
+   "t": "Nil equidem durare diu sub imagine eadem\ncrediderim:",
+   "l": "Nothing, for my part, would I believe endures long under the same appearance:",
+   "i": "For my own part I would not believe that anything lasts long under one and the same appearance:",
+   "n": "*crediderim* is a perfect subjunctive used potentially, “I would believe”, and *nil* negates the whole statement. *sub imagine* is “under the appearance”, of a thing keeping one look.",
+   "v": true,
+   "ln": 259
+  },
+  {
+   "t": "sic ad ferrum venistis ab auro,\nsaecula, sic totiens versa est fortuna locorum.",
+   "l": "so you came to iron from gold, you ages; so often has the fortune of places been overturned.",
+   "i": "so you ages have come down from gold to iron; so many times has the fortune of places been turned about.",
+   "n": "A second apostrophe (as at 234): *venistis* is second person plural, and its vocative *saecula* is held back to open 261. *fortuna locorum* is the standing luck of places, and the point turns the argument towards the physical examples that follow.",
+   "v": true,
+   "ln": 260
+  },
+  {
+   "t": "Vidi ego, quod fuerat quondam solidissima tellus,\nesse fretum, vidi factas ex aequore terras:",
+   "l": "I myself have seen what had once been the most solid land be sea; I have seen lands made out of the level water:",
+   "i": "I have seen with my own eyes what was once the firmest ground become open water; I have seen land made out of the sea:",
+   "n": "Two accusative-and-infinitive constructions hang on *vidi*, the first with a whole relative clause, *quod fuerat ... tellus*, as its accusative subject. *aequor* is “the level thing”, the standard word for the sea's surface. *ego* is added beside a verb that already carries its person, for weight.",
+   "v": true,
+   "ln": 262
+  },
+  {
+   "t": "et procul a pelago conchae iacuere marinae,\net vetus inventa est in montibus ancora summis.",
+   "l": "and sea shells have lain far from the deep, and an old anchor was found on the highest mountains.",
+   "i": "and sea shells have lain far from any sea, and an old anchor has been found on mountain tops.",
+   "n": "*iacuere* is *iacuerunt*, the poetic third-plural perfect — the first of several in this part (283, 289, 332). *summis montibus* uses the adjective where English wants a noun, “the tops of the mountains”.",
+   "v": true,
+   "ln": 264
+  },
+  {
+   "t": "Quodque fuit campus, vallem decursus aquarum\nfecit, et eluvie mons est deductus in aequor,\neque paludosa siccis humus aret harenis,\nquaeque sitim tulerant, stagnata paludibus ument.",
+   "l": "And what was a plain, the running-down of waters has made a valley, and by a washing-away a mountain has been brought down into the sea, and out of marshy ground the soil is parched with dry sands, and the places which had borne thirst are wet, turned to standing pools by marshes.",
+   "i": "What was flat ground the run-off of water has turned into a valley; a flood has carried a mountain down into the sea; land that was marsh is baked dry under sand; and places that once endured drought lie wet under standing water.",
+   "n": "*quodque fuit campus* is a relative clause serving as the object of *fecit*, “and that which was a plain”. *eluvie* is an ablative of means from *eluvies*, a washing-away. *e ... paludosa* puts the preposition with an adjective standing alone for the former state; *paludosa* is feminine ablative singular, agreeing with an unexpressed noun of the kind *humo*. *stagnata* agrees with *quae*, “turned into standing water”.",
+   "v": true,
+   "ln": 266
+  },
+  {
+   "t": "Hic fontes natura novos emisit, at illic\nclausit, et antiquis tam multa tremoribus orbis\nflumina prosiliunt aut excaecata residunt.",
+   "l": "Here nature has let out new springs, but there has closed them, and at the world's ancient tremblings so many rivers leap forth or, blinded, settle back down.",
+   "i": "In one place nature has opened new springs, in another shut them; and in the world's old earthquakes so many rivers spring out, or are stopped up and sink away.",
+   "n": "*hic ... at illic* sets one place against another. *tremoribus* is an ablative, with the genitive *orbis* attached to it: the shakings of the earth. *excaecata* is literally “blinded”, used of a channel stopped up so that nothing can pass. Magnus prints *antiquis tam multa tremoribus*; some editions print *aut imis commota tremoribus*, “stirred by tremors from the depths”, and for *excaecata* some print *exsiccata*, “dried up”.",
+   "v": true,
+   "ln": 270
+  },
+  {
+   "t": "Sic ubi terreno Lycus est epotus hiatu,\nexsistit procul hinc alioque renascitur ore:",
+   "l": "So, when the Lycus has been drunk down by an earthy chasm, it rises up far from here and is born again at another mouth:",
+   "i": "So the Lycus, once swallowed by a gap in the ground, comes up far from there and is born again at a different mouth:",
+   "n": "*epotus* is “drunk right up”, the *e-* intensifying. *ore* is a river's mouth, its outlet. This *Sic* opens a run of named rivers — Lycus, Erasinus, Caicus, Amenanus, Anigros, Hypanis — before the paragraph turns to islands and cities.",
+   "p": true,
+   "v": true,
+   "ln": 273
+  },
+  {
+   "t": "Sic modo combibitur, tecto modo gurgite lapsus\nredditur Argolicis ingens Erasinus in arvis,\net Mysum, capitisque sui ripaeque prioris\npaenituisse ferunt, alia nunc ire Caicum;",
+   "l": "So the great Erasinus is now swallowed up, now, having slipped along with its channel covered, is given back in the Argolic fields; and they say that the Mysian Caicus repented of its own source and its earlier bank, and now goes by another way;",
+   "i": "So the great Erasinus is now drunk down, now — after gliding along out of sight — given back in the fields of Argos; and they say the Mysian Caicus came to regret its own spring and its old bank, and now runs elsewhere;",
+   "n": "*modo ... modo* is “at one time ... at another”. *paenituisse* is the impersonal *paenitet* in the infinitive after *ferunt*, with the accusative of the person, *Mysum ... Caicum*, and the genitive of the thing regretted, *capitis sui ripaeque prioris*. *alia* is an ablative with *via* left unexpressed, “by another way”.",
+   "v": true,
+   "ln": 275
+  },
+  {
+   "t": "nec non Sicanias volvens Amenanus harenas\nnunc fluit, interdum suppressis fontibus aret.",
+   "l": "and no less the Amenanus, rolling Sicanian sands, now flows, and at times, its springs pressed back, is dry.",
+   "i": "and the Amenanus too, rolling Sicilian sand along, at one time flows and at another runs dry when its springs are choked off.",
+   "n": "*nec non* is an emphatic “and indeed”, litotes for “and no less”. *suppressis fontibus* is an ablative absolute (as at 224). *Sicanias* is “Sicanian”, of Sicily.",
+   "v": true,
+   "ln": 279
+  },
+  {
+   "t": "Ante bibebatur, nunc, quas contingere nolis,\nfundit Anigros aquas, postquam, nisi vatibus omnis\neripienda fides, illic lavere bimembres\nvulnera, clavigeri quae fecerat Herculis arcus.",
+   "l": "Formerly it was drunk from; now the Anigros pours out waters which you would not want to touch, after — unless all credit is to be torn away from the poets — the two-membered ones washed there the wounds which the bow of club-bearing Hercules had made.",
+   "i": "Once you could drink from it; now the Anigros pours out water you would not care to touch, ever since the twy-formed Centaurs washed in it the wounds made by the bow of Hercules the club-bearer — unless the poets are to be believed in nothing at all.",
+   "n": "*bibebatur* is passive and impersonal in effect, “there was drinking”. *quas contingere nolis* has a potential subjunctive and a generalising second person, “which one would not wish to touch”. *nisi ... eripienda fides* is a gerundive of obligation, the speaker's way of hedging a tall story. *lavere* is *laverunt* (as at 264). *bimembres*, “two-membered”, names the Centaurs by their double nature.",
+   "v": true,
+   "ln": 281
+  },
+  {
+   "t": "Quid? non et Scythicis Hypanis de montibus ortus,\nqui fuerat dulcis, salibus vitiatur amaris?",
+   "l": "What? Is not the Hypanis too, sprung from the Scythian mountains, which had been sweet, spoiled with bitter salts?",
+   "i": "And what of the Hypanis, risen in the Scythian mountains? It was sweet once, and now it is spoiled with bitter salt.",
+   "n": "*Quid?* again, the second of the three in this part (199, 285, 308). *ortus* is the perfect participle of the deponent *orior* and is active in sense, “having risen”. *salibus amaris* is an ablative of means, the plural of *sal*.",
+   "v": true,
+   "ln": 285
+  },
+  {
+   "t": "Fluctibus ambitae fuerant Antissa Pharosque\net Phoenissa Tyros, quarum nunc insula nulla est.",
+   "l": "Antissa and Pharos and Phoenician Tyre had been ringed by the waves; of these none is now an island.",
+   "i": "Antissa, Pharos and Phoenician Tyre were once ringed round by the sea; not one of them is an island now.",
+   "n": "*ambitae fuerant* is a pluperfect passive formed with *fuerant* rather than *erant*, which pushes the state further back. *quarum ... nulla* is a partitive genitive, “none of which”.",
+   "v": true,
+   "ln": 287
+  },
+  {
+   "t": "Leucada continuam veteres habuere coloni:\nnunc freta circueunt.",
+   "l": "The old settlers held Leucas continuous: now channels run round it.",
+   "i": "The early settlers knew Leucas as still joined on; now the sea goes round it.",
+   "n": "*habuere* is *habuerunt* (as at 264), and *continuam* is predicative with it, “held it as continuous”, that is, still joined to the mainland. *freta* is a neuter plural subject, straits or channels.",
+   "v": true,
+   "ln": 289
+  },
+  {
+   "t": "Zancle quoque iuncta fuisse\ndicitur Italiae, donec confinia pontus\nabstulit et media tellurem reppulit unda.",
+   "l": "Zancle too is said to have been joined to Italy, until the sea carried off their shared borders and pushed the land back with water in the middle.",
+   "i": "Zancle too is said to have been attached to Italy, until the sea carried away the ground they shared and drove the land back, putting water between.",
+   "n": "*dicitur ... fuisse* is a personal passive taking an infinitive, “is said to have been”. *confinia* is a neuter plural, the borders two things hold in common. *media ... unda* is an ablative, “with the water in between”.",
+   "v": true,
+   "ln": 290
+  },
+  {
+   "t": "Si quaeras Helicen et Burin, Achaidas urbes,\ninvenies sub aquis, et adhuc ostendere nautae\ninclinata solent cum moenibus oppida mersis.",
+   "l": "If you should look for Helice and Buris, Achaean cities, you will find them under the waters, and sailors are still accustomed to point out the leaning towns with their walls sunk.",
+   "i": "Look for Helice and Buris, the Achaean cities, and you will find them under water; sailors still point out the tilted towns with their drowned walls.",
+   "n": "*si quaeras ... invenies* pairs a present subjunctive in the if-clause with a future indicative in the main clause, “should you look ... you will find”; the second person is general, anyone at all. *Achaidas* is a Greek accusative plural. *cum moenibus mersis* is an ablative phrase attached to *oppida*.",
+   "v": true,
+   "ln": 293
+  },
+  {
+   "t": "Est prope Pittheam tumulus Troezena, sine ullis\narduus arboribus, quondam planissima campi\narea, nunc tumulus;",
+   "l": "There is near Pittheus's Troezen a mound, steep, without any trees, once the flattest ground of a plain, now a mound;",
+   "i": "Near Pittheus's Troezen there is a mound, steep and bare of trees, once the flattest stretch of open ground, now a hill;",
+   "n": "*Pittheam ... Troezena* is a Greek accusative after *prope*, and the adjective is formed from the name Pittheus. *area* is level ground, a cleared space. *tumulus* is used twice, in 296 and again as the last word of the sentence in 298, so that the description ends on the word it started from.",
+   "v": true,
+   "ln": 296
+  },
+  {
+   "t": "nam (res horrenda relatu!)\nvis fera ventorum, caecis inclusa cavernis,",
+   "l": "for — a thing dreadful in the telling! — the wild force of the winds, shut up in blind caves,",
+   "i": "for — and it is a horror to tell — the savage force of the winds, shut up in blind caverns,",
+   "n": "*relatu* is a supine in the ablative with *horrenda*, “dreadful in the telling”. *caecis* of caves means lightless and without an opening. The sentence begun here does not reach its main verb until *tumefecit* in 303, which is why this unit stops at a comma rather than a stop.",
+   "v": true,
+   "ln": 298
+  },
+  {
+   "t": "exspirare aliqua cupiens luctataque frustra\nliberiore frui caelo, cum carcere rima\nnulla foret toto nec pervia flatibus esset,",
+   "l": "wanting to breathe itself out somewhere and having struggled in vain to enjoy a freer sky, since there was no crack in the whole prison, nor was it passable for the blasts,",
+   "i": "wanting to get its breath out somewhere, and struggling for nothing to enjoy a freer sky, since there was no crack anywhere in that prison and no way through for the gusts,",
+   "n": "*aliqua* is an adverbial ablative, “by some way, somewhere”. *luctata* is the perfect participle of the deponent *luctor* and is active in sense, agreeing with *vis*. *frui* takes the ablative, *liberiore ... caelo*. *cum ... foret ... esset* is causal *cum* with the subjunctive, *foret* being the older form of *esset*. Some editions omit line 301 altogether.",
+   "v": true,
+   "ln": 300
+  },
+  {
+   "t": "extentam tumefecit humum, ceu spiritus oris\ntendere vesicam solet aut derepta bicorni\nterga capro;",
+   "l": "it swelled the stretched ground up, as the breath of the mouth is accustomed to stretch a bladder, or the hide stripped off a two-horned goat;",
+   "i": "it made the ground swell out and stretch, the way breath from the mouth will stretch a bladder, or a skin flayed off a two-horned goat;",
+   "n": "*extentam* is probably proleptic: the swelling is what stretches the ground, so the adjective states the result rather than a prior condition. *ceu* introduces the simile, “just as”. *derepta ... terga* is a neuter plural for a single hide, with *bicorni ... capro* a dative of separation, “stripped from a two-horned goat”.",
+   "v": true,
+   "ln": 303
+  },
+  {
+   "t": "tumor ille loci permansit et alti\ncollis habet speciem longoque induruit aevo.",
+   "l": "that swelling of the place stayed on, and has the appearance of a high hill, and has hardened with long age.",
+   "i": "That swelling of the ground stayed where it was; it has the look of a high hill, and it has grown hard over long ages.",
+   "n": "*induruit* is the perfect of *induresco*, an inceptive verb, “grew hard”, and it is active and intransitive. *longo ... aevo* is an ablative of means or of duration, “by long age”.",
+   "v": true,
+   "ln": 305
+  },
+  {
+   "t": "Plurima cum subeant audita et cognita nobis,\npauca super referam.",
+   "l": "Although very many come up, heard and known by us, I shall report a few besides.",
+   "i": "Though a great many come to mind, things I have heard and things I know, I will report just a few more.",
+   "n": "*cum ... subeant* is concessive *cum* with the subjunctive, as at 257. *subeant* is “come up”, of things rising into the mind. *nobis* is a dative of the agent with the participles *audita* and *cognita*. *super* here is the adverb “besides, in addition”, not the preposition.",
+   "p": true,
+   "v": true,
+   "ln": 307
+  },
+  {
+   "t": "Quid? non et lympha figuras\ndatque capitque novas?",
+   "l": "What? Does not water also both give and take new forms?",
+   "i": "And what of water? Does it not both give new forms and take them on?",
+   "n": "The third and last *Quid?* of this part (199, 285, 308). *-que ... -que* on *dat* and *capit* is “both ... and”. *lympha* is clear running water, and *figuras* here are the shapes or properties it confers and acquires.",
+   "v": true,
+   "ln": 308
+  },
+  {
+   "t": "Medio tua, corniger Ammon,\nunda die gelida est, ortuque obituque calescit.",
+   "l": "At mid day your water, horn-bearing Ammon, is cold, and at rising and at setting it grows warm.",
+   "i": "At midday your water, horned Ammon, is icy, and it warms at sunrise and sunset.",
+   "n": "A third apostrophe (after 234 and 260-261): Ammon is addressed in the vocative, *corniger Ammon*. The ablative of time is split across the line-end, *Medio* standing in 309 and *die* in 310, with the vocative between them. *ortuque obituque* are the sun's rising and setting.",
+   "v": true,
+   "ln": 309
+  },
+  {
+   "t": "Admotis Athamanas aquis accendere lignum\nnarratur, minimos cum luna recessit in orbes.",
+   "l": "It is related that the Athamanians kindle wood with waters brought near, when the moon has drawn back into its smallest circles.",
+   "i": "The Athamanians, so the story goes, set wood alight by putting water to it, when the moon has waned to its smallest.",
+   "n": "*narratur* is an impersonal passive, “it is told”, governing the accusative and infinitive *Athamanas ... accendere*. *admotis aquis* is an ablative absolute (as at 280). *minimos ... in orbes* describes the waning moon; *Athamanas* is a Greek accusative plural.",
+   "v": true,
+   "ln": 311
+  },
+  {
+   "t": "Flumen habent Cicones, quod potum saxea reddit\nviscera, quod tactis inducit marmora rebus.",
+   "l": "The Cicones have a river which, drunk, makes the innards stony, which draws marble over the things it has touched.",
+   "i": "The Cicones have a river that turns the guts to stone when it is drunk, and lays a coat of marble over whatever it touches.",
+   "n": "*potum* is a perfect passive participle agreeing with *quod*, “which, once drunk”. *saxea* is predicative with *reddit*, “renders stony”, and *viscera* is held over to open 314. *inducit marmora ... rebus* is *induco*, “draw over”, with a dative of the thing covered.",
+   "v": true,
+   "ln": 313
+  },
+  {
+   "t": "Crathis et huic Sybaris, nostris conterminus oris\nelectro similes faciunt auroque capillos.",
+   "l": "The Crathis, and the Sybaris neighbouring it, bordering on our own shores, make the hair like amber and gold.",
+   "i": "The Crathis, and the Sybaris beside it, on the borders of our own coasts, make hair the colour of amber and gold.",
+   "n": "*conterminus* governs the dative, here both *huic*, the Crathis, and *nostris ... oris*, “our own shores”. *electro similes ... capillos* is a predicate with *faciunt*, “make the hair like amber”; *electrum* is amber.",
+   "v": true,
+   "ln": 315
+  },
+  {
+   "t": "Quodque magis mirum est, sunt qui non corpora tantum,\nverum animos etiam valeant mutare liquores.",
+   "l": "And what is more wonderful, there are waters which have the power to change not bodies only, but minds as well.",
+   "i": "And, more remarkable still, there are waters with the power to alter not just bodies but minds.",
+   "n": "*sunt qui ... valeant* is a relative clause of characteristic — the subjunctive again, as at 208 — “there are such as have the power”. *non ... tantum, verum ... etiam* is “not only ... but also”. The antecedent *liquores* is held back to the very end of 318, after its own relative clause.",
+   "p": true,
+   "v": true,
+   "ln": 317
+  },
+  {
+   "t": "Cui non audita est obscenae Salmacis undae\nAethiopesque lacus?",
+   "l": "To whom has Salmacis of the foul water not been heard of, and the Aethiopian lakes?",
+   "i": "Who has not heard of Salmacis and her foul water, and of the Ethiopian lakes?",
+   "n": "*cui* is a dative of the agent with the perfect passive *audita est*, “by whom has it not been heard”. *obscenae ... undae* is a genitive of description with *Salmacis*; *obscenus* carries both “filthy” and “ill-omened”, and the two layers keep the harder sense. *Aethiopes* is a Greek nominative plural adjective agreeing with *lacus*.",
+   "v": true,
+   "ln": 319
+  },
+  {
+   "t": "Quos siquis faucibus hausit,\naut furit, aut patitur mirum gravitate soporem.",
+   "l": "If anyone has drained these down with his throat, he either raves or suffers a sleep marvellous in its heaviness.",
+   "i": "Anyone who gulps these down either goes mad or falls into a sleep of astonishing depth.",
+   "n": "*Quos* is a connecting relative taking up *lacus* from earlier in the same line, and it is the object of *hausit* inside the if-clause. *faucibus* is an ablative, “by way of the throat”. *gravitate* is an ablative of respect with *mirum*, “astonishing in its weight”.",
+   "v": true,
+   "ln": 320
+  },
+  {
+   "t": "Clitorio quicumque sitim de fonte levavit,\nvina fugit gaudetque meris abstemius undis,\nseu vis est in aqua calido contraria vino,",
+   "l": "Whoever has eased his thirst from the Clitorian spring flees wines and, taking none, rejoices in unmixed waters, whether there is a force in the water opposed to heating wine,",
+   "i": "Anyone who has quenched his thirst at the spring of Clitor keeps clear of wine and, drinking none, is glad of plain water — either because there is a power in the water that works against the heat of wine,",
+   "n": "*abstemius*, “taking no wine”, is a nominative adjective doing the work of an adverb. *meris ... undis* turns onto water the adjective normally used of wine drunk neat, which is the joke. *contraria* takes the dative, *calido ... vino*. *seu* here begins the first of two explanations, answered by *sive* in 325 — which is why this unit stops at a comma.",
+   "v": true,
+   "ln": 322
+  },
+  {
+   "t": "sive, quod indigenae memorant, Amythaone natus,\nProetidas attonitas postquam per carmen et herbas\neripuit furiis, purgamina mentis in illas\nmisit aquas odiumque meri permansit in undis.",
+   "l": "or — as the people of the place relate — the one born of Amythaon, after he had snatched the stricken daughters of Proetus out of their frenzies by chant and by herbs, threw the cleansings of their minds into those waters, and a hatred of unmixed wine stayed on in the water.",
+   "i": "or else, as the locals tell it, the son of Amythaon, once he had pulled Proetus's frenzied daughters out of their madness with spell and herb, threw the washings of their minds into that water, and a loathing of neat wine has stayed in it since.",
+   "n": "*Amythaone* is an ablative of origin with *natus*, “born from Amythaon”. *Proetidas attonitas* is a Greek accusative plural patronymic, “the daughters of Proetus”, with *attonitus* literally “thunderstruck”. *purgamina* is what is scoured off, treated here as a physical residue that could be thrown into water. *meri* picks up *meris* from 323.",
+   "v": true,
+   "ln": 325
+  },
+  {
+   "t": "Huic fluit effectu dispar Lyncestius amnis;",
+   "l": "Unlike this one in its effect flows the Lyncestian river;",
+   "i": "The Lyncestian river runs with the opposite effect;",
+   "n": "*dispar* takes the dative *huic*, the Clitorian spring, and *effectu* is an ablative of respect, “unlike in its effect”.",
+   "v": true,
+   "ln": 329
+  },
+  {
+   "t": "quem quicumque parum moderato gutture traxit,\nhaud aliter titubat, quam si mera vina bibisset.",
+   "l": "and whoever has drawn it in with a throat too little controlled staggers no otherwise than if he had drunk unmixed wine.",
+   "i": "and anyone who takes it in without much control of his gullet reels exactly as though he had been drinking neat wine.",
+   "n": "*quem* is a connecting relative picking up *amnis* from the line before, and it is the object of *traxit*. *parum moderato gutture* is an ablative, “with an insufficiently restrained throat”. *haud aliter ... quam si ... bibisset* is a comparison with the pluperfect subjunctive, “no otherwise than if he had drunk”. *mera vina* answers *meri* at 328.",
+   "v": true,
+   "ln": 330
+  },
+  {
+   "t": "Est locus Arcadiae (Pheneum dixere priores),\nambiguis suspectus aquis, quas nocte timeto:",
+   "l": "There is a place of Arcadia — earlier men called it Pheneus — suspect for its double waters, which you are to fear by night:",
+   "i": "There is a spot in Arcadia — men of old called it Pheneus — mistrusted for its two-faced water: fear it by night:",
+   "n": "*dixere* is *dixerunt* (as at 264, 283 and 289). *Arcadiae* is a genitive with *locus*. *ambiguis ... aquis* is an ablative of cause with *suspectus*, “suspect on account of”, and *ambiguus* is “going both ways”. *timeto* is a future imperative, the form used in laws and precepts, “you shall fear”.",
+   "v": true,
+   "ln": 332
+  },
+  {
+   "t": "nocte nocent potae, sine noxa luce bibuntur.",
+   "l": "by night they do harm when drunk; without harm they are drunk by daylight.",
+   "i": "drunk at night they do harm; drunk by day they do none.",
+   "n": "*potae* is a perfect participle agreeing with the waters, carried over from *quas* in 333, and *bibuntur* is passive. The line runs on a jingle of like sounds — *nocte*, *nocent*, *noxa* — with the two halves set against each other, night against daylight.",
+   "v": true,
+   "ln": 334
+  }
+ ],
+ "glossaryFile": "metamorphoses-glossary.json"
+}

@@ -1,0 +1,38 @@
+{
+ "story": "maitre-chat",
+ "model": "faster-whisper small int8 (cpu)",
+ "threshold": 0.34,
+ "cpcRange": [
+  0.03,
+  0.14
+ ],
+ "units": 72,
+ "generated": "2026-09-11T12:10:51Z",
+ "status": "residue",
+ "rerolled": [
+  39,
+  41,
+  68
+ ],
+ "failed": [
+  {
+   "wer": 0.368,
+   "cpc": 0.0731,
+   "heard": "L'Aîné et le Moulin, le second Hulal, Anne et le plus jeune nuque le chat.",
+   "fail": true,
+   "i": 3,
+   "rerolls": 3,
+   "said": "L’aîné eut le Moulin, le second eut l’Âne, et le plus jeune n’eut que le Chat."
+  },
+  {
+   "wer": 0.353,
+   "cpc": 0.063,
+   "heard": "et lorsque deux pèrdricks y furent entrés, il tira les cordons et les pritoutes deux.",
+   "fail": true,
+   "i": 21,
+   "rerolls": 3,
+   "said": "et lors que deux Perdrix y furent entrées, il tira les cordons, et les prit toutes deux."
+  }
+ ],
+ "residuePct": 2.78
+}

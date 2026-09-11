@@ -1,0 +1,28 @@
+{
+ "story": "barbe-bleue",
+ "model": "faster-whisper small int8 (cpu)",
+ "threshold": 0.34,
+ "cpcRange": [
+  0.03,
+  0.14
+ ],
+ "units": 88,
+ "generated": "2026-09-11T11:29:44Z",
+ "status": "residue",
+ "rerolled": [
+  35,
+  75
+ ],
+ "failed": [
+  {
+   "wer": 0.375,
+   "cpc": 0.0636,
+   "heard": "La pauvre femme descendit, et à la se jeter à ses pieds tout éploré, et tout échevelé.",
+   "fail": true,
+   "i": 67,
+   "rerolls": 3,
+   "said": "La pauvre femme descendit, et alla se jeter à ses pieds toute éplorée et toute échevelée :"
+  }
+ ],
+ "residuePct": 1.14
+}

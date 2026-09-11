@@ -38,6 +38,17 @@ Usage:
   python archive_perrault.py --fixture        offline fixture test only
   python archive_perrault.py                  archive (skips when all nine are archived)
   python archive_perrault.py --force          re-archive even if all nine exist
+  python archive_perrault.py --replay sources/perrault-raw
+                                              offline replay of the committed raw pages (writes nothing)
+
+REPAIR OF 2026-09-11 (after the first live run failed, as designed): the extractor dropped bare text
+between blocks (all of Le Maistre Chat's prose) and treated layout tables as furniture (the MORALITES
+of Riquet and Le petit Poucet, and the verse in the dedication); invisible indentation spacers leaked
+into verse; titles set over several centred lines were not recognised; a MORALITE and its verse in one
+centred block were not split; and witness B was looked up through a red link. The walker now keeps
+every character of visible text, a new fatal coverage control proves it, raw pages carry .meta.json
+and .proofread.json, witness B uses existing pages only (falling back to the 1902 edition), and a
+failed fetch is a logged control failure rather than an exception.
 """
 import argparse, collections, difflib, hashlib, json, os, re, sys, time, unicodedata
 
@@ -46,6 +57,9 @@ WIKI = "https://fr.wikisource.org/wiki/"
 A_ROOT = "Histoires ou Contes du temps pass\u00e9 (1697)/Original"
 A_PREFIXES = ["Histoires ou Contes du temps pass\u00e9 (1697)", "Histoires ou contes du temps pass\u00e9 (1697)"]
 B_ROOT = "\u0152uvres choisies de Charles Perrault, \u00e9dition 1826"
+# Witness B is check-only. The 1826 edition comes first; a tale it lacks as an existing page is collated
+# against the 1902 Casterman edition instead, and the log and the source file say which was used.
+B_ROOTS = [B_ROOT, "Contes de Perrault (\u00e9d. 1902)"]
 UA = "LectoriumArchiver/1.0 (https://github.com/zevfarber/Lectorium; reading-companion source archive)"
 MIN_INTERVAL = 1.0
 MAX_ATTEMPTS = 6
@@ -79,12 +93,6 @@ INVENTORY = ("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 HEADING_RE = re.compile(r"^(AUTRE\s+)?MORALIT[E\u00c9]S?\s*\.?$", re.I)
 SUBTITLE_RE = re.compile(r"^(CONTE|CONTES)\s*\.?$", re.I)
 BR = "\u241f"
-
-DROP_SELECTOR = (".ws-noexport, .noprint, table, sup, style, script, .catlinks, .mw-editsection, "
-                 ".reflist, .references, #toc, .toc, .pagenum, .ws-pagenum, [class*=pagenum], "
-                 "#headertemplate, .headertemplate, .ws-header, #footertemplate, .footertemplate, "
-                 ".ws-footer, #subpages, .mw-empty-elt, .prp-pages-output > .pagenum")
-BLOCKY = {"p", "div", "center", "blockquote", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "dl", "table", "poem"}
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -182,13 +190,20 @@ def clean_ws(s):
     return re.sub(r"[\s\u00a0\u202f\u2009\u2007]+", " ", s).strip()
 
 
-def block_text(el):
-    from bs4 import BeautifulSoup
-    frag = BeautifulSoup(str(el), "lxml")
-    for br in frag.find_all("br"):
-        br.replace_with(BR)
-    lines = [clean_ws(x) for x in frag.get_text().split(BR)]
-    return [x for x in lines if x]
+DROP_SELECTOR = (".ws-noexport, .noprint, sup.reference, style, script, .catlinks, .mw-editsection, "
+                 ".reflist, .references, #toc, .toc, .pagenum, .ws-pagenum, [class*=pagenum], "
+                 "#headertemplate, .headertemplate, .ws-header, #subheader, #footertemplate, .footertemplate, "
+                 ".ws-footer, #subpages, .mw-empty-elt, figure, img")
+# Furniture that is expected to carry words; anything else removed with words is logged by name.
+EXPECTED_FURNITURE = ("headertemplate", "subheader", "ws-data", "footertemplate", "modernisations",
+                      "small .ws-noexport")
+HIDDEN_STYLE_RE = re.compile(r"visibility\s*:\s*hidden|display\s*:\s*none", re.I)
+HEADINGS = {"h1", "h2", "h3", "h4", "h5", "h6"}
+BLOCKY = {"p", "div", "center", "blockquote", "ul", "ol", "li", "dl", "dd", "dt", "table", "tbody", "thead",
+          "tfoot", "tr", "td", "th", "poem", "figure"} | HEADINGS
+TITLE_TAGS = {"div", "center"} | HEADINGS
+FIN_RE = re.compile(r"^FIN\s*\.?$")
+BLANK = "␀"
 
 
 def is_poem(el):
@@ -200,75 +215,208 @@ def has_blocky_child(el):
     return any(getattr(c, "name", None) in BLOCKY for c in el.descendants)
 
 
-def extract(html):
-    """[{'kind':'p'|'v'|'h', 'lines':[...]}] in document order, furniture removed."""
-    from bs4 import BeautifulSoup
+def _lines(nodes):
+    """Text of a run of nodes, split at <br> and at nested block boundaries. '' marks a blank line."""
+    from bs4 import NavigableString, Comment
+    parts = []
+
+    def rec(n):
+        if isinstance(n, Comment):
+            return
+        if isinstance(n, NavigableString):
+            parts.append(str(n)); return
+        if n.name == "br":
+            parts.append(BR); return
+        blocky = n.name in BLOCKY
+        if blocky:
+            parts.append(BR)
+        for c in n.children:
+            rec(c)
+        if blocky:
+            parts.append(BR)
+    for n in nodes:
+        rec(n)
+    raw = "".join(parts).split(BR)
+    lines = [clean_ws(x) for x in raw]
+    # trim leading and trailing blanks; keep internal blanks (a stanza or section separator)
+    while lines and not lines[0]:
+        lines.pop(0)
+    while lines and not lines[-1]:
+        lines.pop()
+    return lines
+
+
+def prepare(html):
+    """The page body with furniture and invisible elements removed. Returns (root, removed-notes)."""
+    from bs4 import BeautifulSoup, Comment
     soup = BeautifulSoup(html or "", "lxml")
-    root = soup.select_one(".mw-parser-output") or soup
+    root = soup.select_one(".mw-parser-output") or soup.body or soup
+    for c in root.find_all(string=lambda s: isinstance(s, Comment)):
+        c.extract()
+    removed = []
     for el in root.select(DROP_SELECTOR):
+        if getattr(el, "decomposed", False):
+            continue
+        words = 0 if el.name in ("style", "script") else len(WORD_RE.findall(el.get_text(" ")))
+        ident = " ".join([el.name or ""] + (["#" + el.get("id")] if el.get("id") else []) + ["." + c for c in (el.get("class") or [])])
+        if words > 3 and not any(x in ident for x in EXPECTED_FURNITURE):
+            removed.append("%s (%d words): %s" % (ident, words, clean_ws(el.get_text(" "))[:80]))
         el.decompose()
+    for el in root.find_all(style=HIDDEN_STYLE_RE):
+        if getattr(el, "decomposed", False):
+            continue
+        el.decompose()
+    return root, removed
+
+
+def extract(html, _drop_hook=None):
+    """[{'kind':'p'|'br'|'v'|'h', 'lines':[...], 'tag':..., 'gap':bool}] in document order.
+
+    Every character of visible text lands in exactly one item: bare text between blocks becomes its
+    own item, and tables are layout, not furniture. `gap` is True when a blank separator (an empty
+    paragraph, a spacer div or a blank line) stands between this item and the previous one; a page
+    break alone is not a gap. The coverage control proves nothing was lost.
+    """
+    from bs4 import NavigableString, Comment
+    root, _ = prepare(html)
     out = []
+    state = {"gap": False}
+
+    def emit(kind, lines, tag):
+        if _drop_hook and _drop_hook(lines):
+            return
+        if not any(lines):
+            state["gap"] = True
+            return
+        group, first = [], True
+        for ln in lines + [""]:
+            if ln:
+                group.append(ln); continue
+            if group:
+                k = kind if kind in ("v", "h") else ("br" if len(group) > 1 else "p")
+                out.append({"kind": k, "lines": group, "tag": tag, "gap": state["gap"] or not first})
+                state["gap"] = False
+                group, first = [], False
+            else:
+                state["gap"] = True
+
+    def flush(run):
+        if not run:
+            return
+        lines = _lines(run)
+        if not any(lines):
+            # an empty inline run (whitespace, or the empty wrapper a page number leaves behind) is
+            # not a separator; a bare <br> between blocks is
+            if any(getattr(n, "name", None) == "br" for n in run):
+                state["gap"] = True
+            return
+        emit("p", lines, "#text")
 
     def walk(node):
-        for ch in node.find_all(recursive=False):
+        run = []
+        for ch in list(node.children):
+            if isinstance(ch, Comment):
+                continue
+            if isinstance(ch, NavigableString) or ch.name not in BLOCKY:
+                run.append(ch); continue
+            flush(run); run = []
             if is_poem(ch):
-                lines = block_text(ch)
-                if lines:
-                    out.append({"kind": "v", "lines": lines, "tag": ch.name})
-                continue
-            if ch.name in ("h1", "h2", "h3", "h4", "h5", "h6"):
-                lines = block_text(ch)
-                if lines:
-                    out.append({"kind": "h", "lines": [" ".join(lines)], "tag": ch.name})
-                continue
-            if ch.name in ("p", "div", "center", "blockquote") and not has_blocky_child(ch):
-                lines = block_text(ch)
-                if lines:
-                    out.append({"kind": "br" if len(lines) > 1 else "p", "lines": lines, "tag": ch.name})
-                continue
-            walk(ch)
+                emit("v", _lines([ch]), ch.name)
+            elif ch.name in HEADINGS:
+                lines = [x for x in _lines([ch]) if x]
+                emit("h", [" ".join(lines)] if lines else [], ch.name)
+            elif has_blocky_child(ch):
+                walk(ch)
+            else:
+                emit("p", _lines([ch]), ch.name)
+        flush(run)
     walk(root)
     return out
 
 
-def structure(raw, text_patterns, sid):
-    """Title, then blocks with p/v/heading. Returns (title, blocks, notes)."""
+def coverage(html, items):
+    """Fatal control: the visible text of the page, whitespace ignored, equals the items' text."""
+    root, removed = prepare(html)
+    page = re.sub(r"\s+", "", root.get_text(""))
+    got = re.sub(r"\s+", "", "".join("".join(it["lines"]) for it in items))
+    if page == got:
+        return None, removed
+    k = 0
+    while k < min(len(page), len(got)) and page[k] == got[k]:
+        k += 1
+    return ("extraction differs from the page's visible text at character %d of %d: page …%s… extracted …%s…"
+            % (k, len(page), page[max(0, k - 30):k + 30], got[max(0, k - 30):k + 30])), removed
+
+
+def join_prose(lines, notes):
+    out = lines[0]
+    for ln in lines[1:]:
+        if re.search(r"[" + WORD_CLASS + r"]-$", out):
+            notes.append("a line ending in a hyphen joined without a space: %r" % (out[-20:] + ln[:20]))
+            out += ln
+        else:
+            out += " " + ln
+    return out
+
+
+def structure(raw, text_patterns, sid, witness_b=False):
+    """Title, then blocks with p/v/heading. Returns (title, printed, blocks, notes)."""
     notes = []
     items = list(raw)
-    title = None
-    # the printed title: the first short block whose folded text matches the text's patterns
-    for k, it in enumerate(items[:6]):
+    parts, k = [], 0
+    while k < len(items) and len(parts) < 5:
+        it = items[k]
         txt = " ".join(it["lines"])
-        if len(txt.split()) <= 14 and any(re.search(p, fold(txt)) for p in text_patterns):
-            title = txt
-            notes.append("title block %d dropped from the text: %r" % (k, txt))
-            for j in range(k):
-                notes.append("block before the title dropped: %r" % " ".join(items[j]["lines"])[:120])
-            items = items[k + 1:]
+        if (it["tag"] in TITLE_TAGS and it["kind"] != "v" and len(WORD_RE.findall(txt)) <= 8
+                and not SUBTITLE_RE.match(txt) and not HEADING_RE.match(txt)):
+            parts.append(txt); k += 1
+        else:
             break
-    if title is None:
-        notes.append("NO TITLE BLOCK FOUND in the first 6 blocks")
+    title = printed = None
+    if parts and any(re.search(p, fold(" ".join(parts))) for p in text_patterns):
+        printed = " ".join(parts)
+        title = re.sub(r"\s*\.\s*$", "", printed)
+        notes.append("title block(s) %s dropped from the text: %r" % (list(range(k)), parts))
+        items = items[k:]
+    else:
+        if not witness_b:
+            notes.append("NO TITLE FOUND: leading title-like blocks %r" % parts)
     while items and SUBTITLE_RE.match(" ".join(items[0]["lines"])):
         notes.append("subtitle dropped: %r" % " ".join(items[0]["lines"]))
         items = items[1:]
+    if items and FIN_RE.match(" ".join(items[-1]["lines"])):
+        notes.append("closing %r dropped from the text" % " ".join(items[-1]["lines"]))
+        items = items[:-1]
     blocks = []
     in_moral = False
     for it in items:
-        txt = " ".join(it["lines"])
-        if HEADING_RE.match(txt):
-            blocks.append({"text": txt, "heading": True, "p": True})
-            in_moral = True
-            continue
-        if it["kind"] == "v" or (it["kind"] == "br" and in_moral):
-            blocks.append({"text": "\n".join(it["lines"]), "v": True})
-        elif it["kind"] == "br":
-            notes.append("line breaks inside a prose block joined with spaces: %r" % txt[:80])
-            blocks.append({"text": txt, "p": True})
-        else:
-            blocks.append({"text": txt, "p": True})
-    printed = title
-    if title:
-        title = re.sub(r"\s*\.\s*$", "", title)
+        groups, cur = [], []
+        for ln in it["lines"]:
+            if HEADING_RE.match(ln):
+                if cur:
+                    groups.append(("lines", cur)); cur = []
+                groups.append(("heading", ln))
+            else:
+                cur.append(ln)
+        if cur:
+            groups.append(("lines", cur))
+        for gi, (what, val) in enumerate(groups):
+            if what == "heading":
+                blocks.append({"text": val, "heading": True, "p": True})
+                in_moral = True
+                continue
+            gap = it["gap"] if gi == 0 else True
+            if it["kind"] == "v" or in_moral:
+                text = "\n".join(val)
+                if blocks and blocks[-1].get("v") and not gap:
+                    notes.append("verse continued across a page break merged into one block: %r" % val[0][:50])
+                    blocks[-1]["text"] += "\n" + text
+                else:
+                    blocks.append({"text": text, "v": True})
+            else:
+                if len(val) > 1:
+                    notes.append("line breaks inside a prose block joined: %r" % " ".join(val)[:80])
+                blocks.append({"text": join_prose(val, notes), "p": True})
     return title, printed, blocks, notes
 
 
@@ -361,30 +509,26 @@ def ctl_collation(sid, a_blocks, b_blocks):
 
 # ----------------------------------------------------------------------------- discovery
 def discover(api):
+    """Witness-A and witness-B pages. Only pages that exist count (allpages lists existing pages; a
+    root page's links can be red links, so links are logged but never chosen)."""
     titles = set()
     for pre in A_PREFIXES:
         for q in api.query({"list": "allpages", "apprefix": pre + "/", "apnamespace": 0, "aplimit": "max"}):
             titles.update(p["title"] for p in q.get("allpages", []))
-    try:
-        root = api.parse(A_ROOT, "links")
-        titles.update(l["title"] for l in root.get("links", []) if l.get("ns") == 0)
-    except Exception as e:  # noqa: BLE001
-        log("discovery: the root page %r could not be parsed: %s" % (A_ROOT, e))
     a_cands = sorted(t for t in titles if "/original" in t.lower() and t != A_ROOT)
-    b_titles = set()
-    for q in api.query({"list": "allpages", "apprefix": B_ROOT + "/", "apnamespace": 0, "aplimit": "max"}):
-        b_titles.update(p["title"] for p in q.get("allpages", []))
-    try:
-        root = api.parse(B_ROOT, "links")
-        b_titles.update(l["title"] for l in root.get("links", []) if l.get("ns") == 0 and l["title"].startswith(B_ROOT + "/"))
-    except Exception as e:  # noqa: BLE001
-        log("discovery: the root page %r could not be parsed: %s" % (B_ROOT, e))
-    log("discovery: %d candidate witness-A page(s) under /Original:" % len(a_cands))
+    log("discovery: %d existing witness-A page(s) under /Original:" % len(a_cands))
     for t in a_cands:
         log("   A  %s" % t)
-    log("discovery: %d witness-B page(s):" % len(b_titles))
-    for t in sorted(b_titles):
-        log("   B  %s" % t)
+    b_by_root = {}
+    for broot in B_ROOTS:
+        bt = set()
+        for q in api.query({"list": "allpages", "apprefix": broot + "/", "apnamespace": 0, "aplimit": "max"}):
+            bt.update(p["title"] for p in q.get("allpages", []))
+        b_by_root[broot] = bt
+        log("discovery: %d existing witness-B page(s) under %s" % (len(bt), broot))
+        for t in sorted(bt):
+            if not t.rsplit("/", 1)[-1].lower().startswith("remarque"):
+                log("   B  %s" % t)
     fails, amap, bmap = [], {}, {}
     for seq, sid, pats in TEXTS:
         hits = [t for t in a_cands if classify(t, pats) and not classify(t, ENTIER)]
@@ -392,12 +536,24 @@ def discover(api):
             fails.append("discovery: %s matches %d witness-A page(s): %s" % (sid, len(hits), hits))
         else:
             amap[sid] = hits[0]
-        if seq != 1:
-            bh = [t for t in b_titles if classify(t, pats)]
-            if len(bh) != 1:
-                fails.append("discovery: %s matches %d witness-B page(s): %s" % (sid, len(bh), bh))
-            else:
-                bmap[sid] = bh[0]
+        if seq == 1:
+            continue
+        chosen = None
+        for broot in B_ROOTS:
+            bh = sorted(t for t in b_by_root[broot] if classify(t, pats))
+            if len(bh) == 1:
+                chosen = bh[0]
+                if broot != B_ROOTS[0]:
+                    log("discovery: %s has no page in %s; witness B falls back to %s" % (sid, B_ROOTS[0], chosen))
+                break
+            if len(bh) > 1:
+                fails.append("discovery: %s matches %d witness-B page(s) in %s: %s" % (sid, len(bh), broot, bh))
+                chosen = False
+                break
+        if chosen:
+            bmap[sid] = chosen
+        elif chosen is None:
+            fails.append("discovery: %s has no existing witness-B page in any of %s" % (sid, B_ROOTS))
     ent = [t for t in a_cands if classify(t, ENTIER)]
     if len(ent) != 1:
         fails.append("discovery: Texte entier matches %d page(s): %s" % (len(ent), ent))
@@ -420,11 +576,25 @@ def safe_name(title):
     return re.sub(r"[^A-Za-z0-9]+", "_", fold(title))[:90]
 
 
-def run(api, out_dir, raw_dir, texts=TEXTS, write=True):
-    """Returns (passed, results). Writes source files only when every control passes."""
+def entier_blocks(items):
+    """Texte entier items rendered with the same joins the per-text blocks use."""
+    out = []
+    for it in items:
+        if it["kind"] == "v":
+            out.append({"text": "\n".join(it["lines"])})
+        else:
+            out.append({"text": join_prose(it["lines"], [])})
+    return out
+
+
+def run(api, out_dir, raw_dir, texts=TEXTS, write=True, fixed_discovery=None):
+    """Returns (passed, results, fails). Writes source files only when every control passes."""
     all_fails = []
     controls = collections.defaultdict(list)
-    fails, amap, bmap, entier = discover(api)
+    if fixed_discovery:
+        fails, amap, bmap, entier = fixed_discovery
+    else:
+        fails, amap, bmap, entier = discover(api)
     all_fails += fails
     for f in fails:
         log("FAIL " + f)
@@ -437,38 +607,67 @@ def run(api, out_dir, raw_dir, texts=TEXTS, write=True):
         p = api.parse(title)
         if raw_dir:
             os.makedirs(raw_dir, exist_ok=True)
-            open(os.path.join(raw_dir, safe_name(title) + ".html"), "w", encoding="utf-8").write(p.get("text") or "")
-            open(os.path.join(raw_dir, safe_name(title) + ".wikitext"), "w", encoding="utf-8").write(p.get("wikitext") or "")
+            base = os.path.join(raw_dir, safe_name(title))
+            open(base + ".html", "w", encoding="utf-8").write(p.get("text") or "")
+            open(base + ".wikitext", "w", encoding="utf-8").write(p.get("wikitext") or "")
+            meta = {k: p.get(k) for k in ("title", "revid", "templates")}
+            meta["requested"] = title
+            open(base + ".meta.json", "w", encoding="utf-8").write(json.dumps(meta, ensure_ascii=False, indent=1))
         return p
 
     for seq, sid, pats in wanted:
         if sid not in amap:
             continue
-        page = fetch(amap[sid])
-        raw = extract(page.get("text"))
+        f = []
+        try:
+            page = fetch(amap[sid])
+        except Exception as e:  # noqa: BLE001
+            f.append("%s: witness-A page %r could not be fetched: %s" % (sid, amap[sid], e))
+            for x in f:
+                log("FAIL " + x)
+            all_fails += f
+            continue
+        html = page.get("text")
+        raw = extract(html)
+        cov, removed = coverage(html, raw)
         title, printed, blocks, notes = structure(raw, pats, sid)
         log("")
         log("== %s  %s  (revid %s)" % (sid, amap[sid], page.get("revid")))
         log("   printed title: %r; %d block(s): %d prose, %d verse, %d heading"
             % (printed, len(blocks), sum(1 for b in blocks if b.get("p") and not b.get("heading")),
                sum(1 for b in blocks if b.get("v")), sum(1 for b in blocks if b.get("heading"))))
+        for r in removed:
+            log("   removed as furniture: " + r)
         for n in notes:
             log("   note: " + n)
-        for b in (blocks if len(blocks) <= 6 else blocks[:3] + ["\u2026"] + blocks[-3:]):
-            log("   | " + (b if isinstance(b, str) else ("[%s] %s" % ("v" if b.get("v") else "h" if b.get("heading") else "p", b["text"].replace("\n", " / ")[:140]))))
-        f = []
+        for b in blocks:
+            t = b["text"].replace("\n", " / ")
+            log("   | [%s] %s" % ("v" if b.get("v") else "h" if b.get("heading") else "p",
+                                  t if len(t) <= 150 else t[:90] + " … " + t[-50:]))
+        if cov:
+            f.append("%s: coverage: %s" % (sid, cov))
+        else:
+            controls[sid].append("PASS coverage: every character of the page's visible text is in the title, "
+                                 "a dropped subtitle or closing, or a block")
         if title is None:
             f.append("%s: no printed title found" % sid)
         if not blocks or sum(len(WORD_RE.findall(b["text"])) for b in blocks) < 80:
             f.append("%s: extraction implausibly short" % sid)
+        if seq != 1 and not any(b.get("heading") for b in blocks):
+            f.append("%s: no MORALITÉ heading found in the text" % sid)
         bad = sorted({c for b in blocks for c in b["text"] if c not in INVENTORY and c not in " \n"})
         if bad:
             f.append("%s: characters outside the declared inventory: %s"
                      % (sid, ", ".join("%r U+%04X %s" % (c, ord(c), unicodedata.name(c, "?")) for c in bad)))
         else:
             controls[sid].append("PASS inventory: every character of the text is in the declared inventory")
-        pages, levels = proofread_levels(api, page.get("templates") or [])
         clause = None
+        pages = []
+        try:
+            pages, levels = proofread_levels(api, page.get("templates") or [])
+        except Exception as e:  # noqa: BLE001
+            f.append("%s: proofread levels could not be read: %s" % (sid, e))
+            levels = {}
         if pages:
             low = {p: q for p, q in levels.items() if q is None or q < 3}
             if low:
@@ -477,9 +676,12 @@ def run(api, out_dir, raw_dir, texts=TEXTS, write=True):
             else:
                 hist = collections.Counter(levels.values())
                 controls[sid].append("PASS proofread: %d transcluded scan page(s), quality %s"
-                                     % (len(pages), ", ".join("%s\u00d7%d" % (k, v) for k, v in sorted(hist.items()))))
-        else:
-            clause = "La transcription de ce texte n\u2019est pas rattach\u00e9e \u00e0 des pages de fac-simil\u00e9 relues sur Wikisource."
+                                     % (len(pages), ", ".join("%s×%d" % (k, v) for k, v in sorted(hist.items()))))
+            if raw_dir:
+                open(os.path.join(raw_dir, safe_name(amap[sid]) + ".proofread.json"), "w", encoding="utf-8").write(
+                    json.dumps(levels, ensure_ascii=False, indent=1))
+        elif not any("proofread levels" in x for x in f):
+            clause = "La transcription de ce texte n’est pas rattachée à des pages de fac-similé relues sur Wikisource."
             controls[sid].append("PASS proofread: not scan-backed (no Page: transclusion); recorded in sourceClause")
         for x in f:
             log("FAIL " + x)
@@ -490,34 +692,45 @@ def run(api, out_dir, raw_dir, texts=TEXTS, write=True):
 
     # Texte entier, token for token
     if entier and results:
-        page = fetch(entier)
-        raw = extract(page.get("text"))
-        eblocks = []
-        for it in raw:
-            txt = " ".join(it["lines"])
-            eblocks.append({"text": "\n".join(it["lines"]) if it["kind"] in ("v", "br") else txt})
-        order = [(sid, results[sid]["blocks"]) for _, sid, _ in wanted if sid in results]
-        f, gaps = ctl_entier(order, eblocks)
-        log("")
-        log("== Texte entier  %s  (revid %s): %d block(s)" % (entier, page.get("revid"), len(eblocks)))
-        for g in gaps:
-            log("   between texts: " + g)
+        try:
+            page = fetch(entier)
+            html = page.get("text")
+            raw = extract(html)
+            cov, _ = coverage(html, raw)
+            order = [(sid, results[sid]["blocks"]) for _, sid, _ in wanted if sid in results]
+            f, gaps = ctl_entier(order, entier_blocks(raw))
+            if cov:
+                f.append("Texte entier coverage: %s" % cov)
+            log("")
+            log("== Texte entier  %s  (revid %s): %d item(s)" % (entier, page.get("revid"), len(raw)))
+            for g in gaps:
+                log("   between texts: " + g)
+        except Exception as e:  # noqa: BLE001
+            order, f = [], ["Texte entier %r could not be fetched: %s" % (entier, e)]
         for x in f:
             log("FAIL entier " + x)
         all_fails += f
         for sid, _ in order:
-            if not any(sid + ":" in x for x in f):
+            if not any(x.startswith(sid + ":") or "Texte entier coverage" in x for x in f):
                 controls[sid].append("PASS entier: the body extracted from its own page occurs contiguously, "
                                      "in book order, token for token, in %s" % entier)
 
-    # collation against witness B
+    # collation against witness B. Every B page is fetched and saved before any B control runs, so a
+    # failing run still leaves the raw pages a repair needs.
+    bpages = {}
     for seq, sid, pats in wanted:
-        if seq == 1 or sid not in results:
+        if seq == 1 or sid not in results or sid not in bmap:
             continue
-        if sid not in bmap:
+        try:
+            bpages[sid] = fetch(bmap[sid])
+        except Exception as e:  # noqa: BLE001
+            x = "collation %s: witness-B page %r could not be fetched: %s" % (sid, bmap[sid], e)
+            log("FAIL " + x); all_fails.append(x)
+    for seq, sid, pats in wanted:
+        if sid not in bpages:
             continue
-        bp = fetch(bmap[sid])
-        _, _, bblocks, bnotes = structure(extract(bp.get("text")), pats, sid)
+        bp = bpages[sid]
+        _, _, bblocks, bnotes = structure(extract(bp.get("text")), pats, sid, witness_b=True)
         f, runs, ratio = ctl_collation(sid, results[sid]["blocks"], bblocks)
         results[sid]["collation"] = {"witnessB": bmap[sid], "revidB": bp.get("revid"), "ratio": ratio,
                                      "unmatchedRunsOver5Words": runs}
@@ -529,12 +742,17 @@ def run(api, out_dir, raw_dir, texts=TEXTS, write=True):
             log("FAIL collation " + x)
         all_fails += f
         if not f:
-            controls[sid].append("PASS collation: MORALIT\u00c9 headings A %d \u2265 B %d; no stretch over 40 words in B missing "
-                                 "from A; %d unmatched run(s) over 5 words listed (similarity %.3f)"
+            controls[sid].append("PASS collation: MORALITÉ headings A %d ≥ B %d; no stretch over 40 words in B missing "
+                                 "from A; %d unmatched run(s) over 5 words listed (similarity %.3f; witness B %s)"
                                  % (sum(1 for b in results[sid]["blocks"] if b.get("heading")),
-                                    sum(1 for b in bblocks if b.get("heading")), len(runs), ratio))
+                                    sum(1 for b in bblocks if b.get("heading")), len(runs), ratio, bmap[sid]))
     if 1 in {s for s, _, _ in wanted} and "perrault-a-mademoiselle" in results:
         controls["perrault-a-mademoiselle"].append("PASS collation: not applicable (witness B does not print the dedication)")
+    for seq, sid, _ in wanted:
+        if seq != 1 and sid in results and not any(c.startswith("PASS collation") for c in controls[sid]) \
+                and not any(("collation " + sid) in x or x.startswith("discovery: " + sid) for x in all_fails):
+            x = "collation %s: no witness-B collation ran" % sid
+            log("FAIL " + x); all_fails.append(x)
 
     passed = not all_fails and len(results) == len(wanted)
     if passed and write:
@@ -552,7 +770,11 @@ def run(api, out_dir, raw_dir, texts=TEXTS, write=True):
                    "inventory": INVENTORY,
                    "normalisation": ["runs of whitespace, including no-break and thin spaces, collapsed to one space",
                                      "soft hyphens and zero-width characters removed",
-                                     "the printed title and any CONTE subtitle removed from blocks and kept in title"],
+                                     "invisible indentation spacers (visibility:hidden) removed",
+                                     "the printed title (possibly over several lines) and any CONTE subtitle removed from blocks and kept in title",
+                                     "a closing FIN. removed",
+                                     "a prose line ending in a hyphen joined to the next line without a space",
+                                     "verse continued across a page break kept in one block"],
                    "extractionNotes": r["notes"],
                    "collation": r.get("collation"),
                    "controls": ["PASS fixture: offline fixture test with injected defects"] + ["PASS discovery"] + controls[sid],
@@ -595,13 +817,32 @@ def _fixture_pages():
                   "Le vieil habit, qui entendoit ce discours, mais qui n'en fit pas semblant, luy dit d'un air pos\u00e9 & serieux : Ne vous affligez point, mon maistre, vous n'avez qu'\u00e0 me donner un sac, & vous verrez que vous n'estes pas si mal partag\u00e9 que vous croyez."]
     moral = ["MORALIT\u00c9.", "Quelque grand que soit l'avantage\nDe jo\u00fcir d'un riche heritage\nVenant \u00e0 nous de pere en fils,\nAux jeunes gens pour l'ordinaire,\nL'industrie & le s\u00e7avoir faire\nValent mieux que des biens acquis."]
 
-    def html(title, paras, moral_lines, pagenum=True):
+    def html(title, paras, moral_lines, pagenum=True, real=False):
+        """real=True reproduces markup met on the live 1697 pages (2026-09-11): a title over several
+        centred divs, a paragraph as bare text with no <p>, invisible indentation spacers, and a
+        MORALITE set inside a layout table whose verse continues across a page break."""
         h = ['<div class="mw-parser-output"><div id="headertemplate" class="ws-noexport">Header noise</div>']
-        h.append('<div style="text-align:center"><span style="font-size:120%%">%s</span></div>' % title)
+        if real:
+            first, _, rest = title.partition(" OU ")
+            h.append('<p><span><span class="pagenum ws-pagenum" id="2"></span></span></p><figure><img src="x.png"/></figure><p><br/></p>')
+            h.append('<div style="text-align:center; font-size:120%%;">%s</div><div style="text-align:center;">OU %s</div><p><br/></p>' % (first, rest))
+        else:
+            h.append('<div style="text-align:center"><span style="font-size:120%%">%s</span></div>' % title)
         for k, p in enumerate(paras):
             pn = '<span class="pagenum ws-pagenum" id="%d">%d</span>' % (k + 3, k + 3) if pagenum else ""
-            h.append("<p>%s%s</p>" % (pn, p.replace("&", "&amp;")))
-        if moral_lines:
+            if real and k == 0:
+                h.append("\n%s%s\n" % (p.replace("&", "&amp;").replace(" ", " <span>" + pn + "</span>", 1), ""))
+            else:
+                h.append("<p>%s%s</p>" % (pn, p.replace("&", "&amp;")))
+        if moral_lines and real:
+            lines = moral_lines[1].replace("&", "&amp;").split("\n")
+            spacer = '<span style="visibility:hidden; color:transparent;"><i>Qu</i></span>'
+            h.append('<p><br/></p><center><table><tbody><tr><td align="center"><p><br/><span style="font-size:120%%">%s</span><br/> <br/>' % moral_lines[0])
+            h.append("<br/>\n".join("<i>%s</i>" % ln for ln in lines[:3]))
+            h.append('<br/>&#32;<span><span class="pagenum ws-pagenum" id="9"></span></span>')
+            h.append("<br/>\n".join(spacer + "<i>%s</i>" % ln for ln in lines[3:]))
+            h.append("</p></td></tr></tbody></table></center>")
+        elif moral_lines:
             h.append('<div style="text-align:center">%s</div>' % moral_lines[0])
             h.append('<div class="poem"><p>%s</p></div>' % "<br />\n".join(moral_lines[1].replace("&", "&amp;").split("\n")))
         h.append("</div>")
@@ -612,7 +853,7 @@ def _fixture_pages():
     A_ENT = A_ROOT + "/Texte entier"
     B_TALE = B_ROOT + "/Le Ma\u00eetre Chat ou le Chat bott\u00e9"
     ded_html = html(ded[0], ded[1:], None)
-    tale_html = html("LE MAISTRE CHAT, OU LE CHAT BOTT\u00c9.", tale_prose, moral)
+    tale_html = html("LE MAISTRE CHAT, OU LE CHAT BOTT\u00c9.", tale_prose, moral, real=True)
     ent_html = '<div class="mw-parser-output"><p>HISTOIRES OU CONTES DU TEMPS PASS\u00c9.</p>' + \
         ded_html.replace('<div class="mw-parser-output">', "<div>") + tale_html.replace('<div class="mw-parser-output">', "<div>") + "</div>"
     b_prose = [p.replace("estoit", "\u00e9tait").replace("avoit", "avait").replace("&", "et") for p in tale_prose]
@@ -659,7 +900,8 @@ def fixture_test():
                     and tale["blocks"][0]["text"].startswith("Il estoit une fois")
                     and "Header noise" not in json.dumps(res, ensure_ascii=False)
                     and not re.search(r"\b3Il\b|^\d", tale["blocks"][0]["text"])
-                    and res["perrault-a-mademoiselle"]["blocks"][-1]["text"] == "P. DARMANCOUR.")
+                    and res["perrault-a-mademoiselle"]["blocks"][-1]["text"] == "P. DARMANCOUR."
+                    and "QuAux" not in tale["blocks"][4]["text"] and "Aux jeunes gens" in tale["blocks"][4]["text"])
         print("fixture control: %s" % ("PASS" if shape_ok else "FAIL"))
         if not shape_ok:
             print("\n".join(LOG[-40:])); print(fails)
@@ -691,7 +933,18 @@ def fixture_test():
             pages[dup] = pages[n["A_TALE"]]
 
         def title_missing(pages, allpages, n, prose):
-            pages[n["A_TALE"]]["text"] = pages[n["A_TALE"]]["text"].replace("LE MAISTRE CHAT, OU LE CHAT BOTT\u00c9.", "")
+            t = pages[n["A_TALE"]]["text"].replace(">LE MAISTRE CHAT,<", "><").replace(">OU LE CHAT BOTT\u00c9.<", "><")
+            pages[n["A_TALE"]]["text"] = t
+
+        def walker_drops_a_block(pages, allpages, n, prose):
+            pass   # the defect is injected into extract() itself, below
+
+        def no_moral_heading(pages, allpages, n, prose):
+            for k in (n["A_TALE"], n["A_ENT"]):
+                pages[k]["text"] = pages[k]["text"].replace(">MORALIT\u00c9.<", "><")
+
+        def b_only_a_red_link(pages, allpages, n, prose):
+            allpages.remove(n["B_TALE"])
 
         cases = [
             ("Texte entier missing a word", drop_word_in_entier, None, "entier"),
@@ -701,9 +954,18 @@ def fixture_test():
             ("A missing a 40+ word stretch", a_missing_run, None, "missing from witness A"),
             ("two pages match one text", ambiguous, None, "discovery"),
             ("no printed title", title_missing, None, "no printed title"),
+            ("extractor loses a paragraph", walker_drops_a_block, None, "coverage"),
+            ("MORALIT\u00c9 heading missing in A", no_moral_heading, None, "no MORALIT\u00c9 heading"),
+            ("B page is only a red link", b_only_a_red_link, None, "no existing witness-B page"),
         ]
         for name, fn, q, expect in cases:
-            passed, _, fails = attempt(fn, q)
+            real_extract = globals()["extract"]
+            if fn is walker_drops_a_block:
+                globals()["extract"] = lambda h, _d=None: real_extract(h, _drop_hook=lambda lines: any("L'aisn" in x for x in lines))
+            try:
+                passed, _, fails = attempt(fn, q)
+            finally:
+                globals()["extract"] = real_extract
             caught = (not passed) and any(expect in x for x in fails)
             print("  %-34s %s" % (name, "caught" if caught else "MISSED  %s" % fails))
             ok &= caught
@@ -714,14 +976,59 @@ def fixture_test():
     return ok
 
 
+# ----------------------------------------------------------------------------- replay
+class RawApi:
+    """Replays a committed raw archive (sources/perrault-raw/ plus the discovery lists in
+    sources/perrault-archive-log.txt) with no network, so an extractor repair can be proved offline
+    against the real pages before it is landed. Diagnostic only: a replay never writes sources."""
+
+    def __init__(self, raw_dir, log_path):
+        self.raw_dir = raw_dir
+        self.listed = []
+        for line in open(log_path, encoding="utf-8"):
+            m = re.match(r"^   [AB]  (.+)$", line.rstrip("\n"))
+            if m:
+                self.listed.append(m.group(1))
+        self.levels = {}
+        for f in os.listdir(raw_dir):
+            if f.endswith(".proofread.json"):
+                self.levels.update(json.load(open(os.path.join(raw_dir, f), encoding="utf-8")))
+
+    def parse(self, page, props=None):
+        base = os.path.join(self.raw_dir, safe_name(page))
+        if not os.path.exists(base + ".html"):
+            raise RuntimeError("not in the raw archive: %r" % page)
+        meta = json.load(open(base + ".meta.json", encoding="utf-8")) if os.path.exists(base + ".meta.json") else {}
+        return {"title": page, "text": open(base + ".html", encoding="utf-8").read(),
+                "wikitext": open(base + ".wikitext", encoding="utf-8").read() if os.path.exists(base + ".wikitext") else "",
+                "revid": meta.get("revid", "replay"), "templates": meta.get("templates") or []}
+
+    def query(self, params):
+        if params.get("list") == "allpages":
+            pre = params["apprefix"]
+            return [{"allpages": [{"title": t} for t in self.listed if t.startswith(pre)]}]
+        if params.get("prop") == "proofread":
+            return [{"pages": [{"title": t, "proofread": {"quality": self.levels.get(t)}} for t in params["titles"].split("|")]}]
+        return [{}]
+
+
 # ----------------------------------------------------------------------------- main
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--fixture", action="store_true")
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--replay", metavar="RAW_DIR", help="offline replay of a committed raw archive (diagnostic, writes nothing)")
     a = ap.parse_args()
     if a.fixture:
         sys.exit(0 if fixture_test() else 1)
+    if a.replay:
+        if not fixture_test():
+            sys.exit(1)
+        log_path = os.path.join(os.path.dirname(os.path.abspath(a.replay)), "perrault-archive-log.txt")
+        LOG.clear()
+        passed, _, fails = run(RawApi(a.replay, log_path), None, None, write=False)
+        print("REPLAY (diagnostic only, nothing written): %d failure(s)" % len(fails))
+        sys.exit(0 if passed else 1)
     root = repo_root()
     out_dir = os.path.join(root, "sources")
     log_path = os.path.join(out_dir, "perrault-archive-log.txt")

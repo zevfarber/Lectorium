@@ -7,7 +7,8 @@ model. Each clip is transcribed with faster-whisper and compared with the text t
 voice was asked to read (`say` when present, otherwise `t`).
 
   * word error rate against the spoken text, with substitutions and deletions of
-    declared proper nouns forgiven (Riquet, Darmancour ... are not dictionary words);
+    the story's declared proper nouns forgiven (its `sayNames` list, written by
+    assemble_perrault.py: Riquet, Darmancour ... are not dictionary words);
   * seconds per character, which catches a clip cut short or padded with silence;
   * a clip over the threshold is re-synthesized, up to three times. Chirp renders a
     different take every time, so a re-roll usually fixes a truncated or garbled clip.
@@ -21,12 +22,15 @@ and re-lands the story.
 This script never fails the job. Only stories with a string `say` or `wordClips: true`
 are checked; every other story is skipped before anything is imported.
 
+The script reads nothing but the story file and its audio directory (changed 2026-09-11;
+the first version read .github/tools/*-speech-map.json, a file that grows every batch).
+
 Usage:
   python3 audio_qc.py --needs <id>   exit 0 if the story is checked (the workflow installs
                                      faster-whisper only then), 1 otherwise
   python3 audio_qc.py <id>           run the check, write audio/<id>/qc.json
 """
-import glob, json, os, re, sys, time, unicodedata
+import json, os, re, sys, time, unicodedata
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 MODEL = "small"
@@ -52,11 +56,12 @@ def words(text):
     return re.findall(r"[a-z\u00e0-\u00f6\u00f8-\u00ff\u0153\u00e6]+", text)
 
 
-def proper_nouns():
+def proper_nouns(story):
+    """Reference words the check forgives: the story's own `sayNames`, lowercased and split
+    the way words() splits text."""
     out = set()
-    for f in glob.glob(os.path.join(HERE, "..", "tools", "*-speech-map.json")):
-        d = json.load(open(f, encoding="utf-8"))
-        out.update(w.lower() for w in (d.get("properNouns") or []))
+    for w in story.get("sayNames") or []:
+        out.update(words(w))
     return out
 
 
@@ -112,7 +117,7 @@ def main():
     key = os.environ.get("GOOGLE_TTS_KEY", "")
     lang = (story.get("langCode") or "fr-FR").split("-")[0]
     model = WhisperModel(MODEL, device="cpu", compute_type="int8")
-    forgive = proper_nouns()
+    forgive = proper_nouns(story)
 
     def score(path, text):
         segs, _ = model.transcribe(path, language=lang, beam_size=1, vad_filter=False)

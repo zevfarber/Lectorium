@@ -134,19 +134,21 @@ def build_word_clips(sid, story, adir, cfg, key):
     """audio/<id>/w/<n>.mp3 + words.json for a story with wordClips: true.
 
     Keys are the reader's own glossary keys (wordKey of each WORD_RE token of `t`). A key is
-    spoken as the modern form the sentence's `say` gives that token, or as the token itself;
-    elided one-letter forms (l, qu, d ...) take the full reading declared in the speech map's
-    `wordClipReadings`. Numbers already assigned in words.json are kept, so a re-issue never
-    renumbers (and never re-synthesizes) a clip whose text did not change.
+    spoken as the story's own `wordSay` gives it, or as the key itself. `wordSay` is written by
+    assemble_perrault.py and holds only the keys whose spoken form differs: 1697 spellings
+    (estoit -> etait) and elided fragments (l -> le, qu -> que). Nothing outside the story file
+    is read, so a new batch never needs a change here. Numbers already assigned in words.json
+    are kept, so a re-issue never renumbers (and never re-synthesizes) a clip whose text did
+    not change.
     """
     import align_wordref as AW   # same directory; shares the reader-mirroring tokenizer
-    readings = AW.speech_tables()["wordClipReadings"]
+    say_for = story.get("wordSay") or {}
     spoken_for = {}
     for s in story["sentences"]:
-        for tok, sp in AW.token_pairs(s):
+        for tok in AW.WORD_RE.findall(s["t"]):
             k = AW.word_key(tok)
             if k not in spoken_for:
-                spoken_for[k] = readings.get(k) or readings.get(sp.lower()) or sp
+                spoken_for[k] = say_for.get(k) or k
     wdir = adir + "/w"
     os.makedirs(wdir, exist_ok=True)
     wf, wtf = adir + "/words.json", wdir + "/texts.json"

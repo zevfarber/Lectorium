@@ -11,7 +11,8 @@ reuses and never changes. Two differences from align_dtw.py:
 2. THE CLIP SPEAKS `say`, THE PAGE SHOWS `t`. A string `say` has the same WORD_RE tokens
    as `t`, in order, each identical or modernised (estoit -> etait), except that a printed
    symbol which is spoken but is not a word (`&` -> "et") adds one spoken token. Those
-   symbols are declared in the `symbols` section of .github/tools/*-speech-map.json. The
+   symbols are the SYMBOLS table below, a property of the orthography rather than of any
+   batch (tools_french.py refuses a speech map whose `symbols` disagree with it). The
    aligner times the spoken sequence and then folds each symbol's time into the previous
    word (or into the next word when the symbol opens the sentence), so align.json carries
    exactly one [start, end] per WORD_RE token of `t`, which is what the reader highlights.
@@ -20,9 +21,13 @@ If a sentence's `say` does not line up with `t` that way (the gate tools_french.
 refuses such files, so this should never happen), the sentence is aligned against the
 tokens of `t` with the espeak reference and the problem is logged.
 
+This script reads nothing but the story file and its audio directory: no data file that
+grows batch by batch, so a new batch never needs a change under .github (changed
+2026-09-11; the first version read .github/tools/*-speech-map.json).
+
 Usage: python3 align_wordref.py <story-id> [audio_dir]
 """
-import glob, json, os, re, sys
+import json, os, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -40,25 +45,13 @@ def word_key(w):
     return re.sub('[\u180B-\u180E]', '', re.sub(r'[\[\]()]', '', w)).lower()
 
 
-_TABLES = None
-
-
-def speech_tables():
-    """Merge the `symbols` and `wordClipReadings` sections of every tools/*-speech-map.json."""
-    global _TABLES
-    if _TABLES is None:
-        t = {"symbols": {}, "wordClipReadings": {}}
-        for f in sorted(glob.glob(os.path.join(HERE, "..", "tools", "*-speech-map.json"))):
-            d = json.load(open(f, encoding="utf-8"))
-            for sec in t:
-                t[sec].update(d.get(sec) or {})
-        _TABLES = t
-    return _TABLES
+# Printed characters that the voice speaks but that are not WORD_RE tokens.
+SYMBOLS = {"&": "et"}
 
 
 def spoken_sequence(s):
     """[('w', token) | ('sym', char)] in the order they occur in `t`."""
-    syms = speech_tables()["symbols"]
+    syms = SYMBOLS
     if not syms:
         return [("w", m.group(0)) for m in WORD_RE.finditer(s["t"])]
     pat = re.compile(WORD_PAT + "|[" + "".join(re.escape(c) for c in syms) + "]")

@@ -1,0 +1,71 @@
+{
+ "id": "perrault-a-mademoiselle",
+ "seq": 1,
+ "title": "A MADEMOISELLE",
+ "titlePrinted": "A MADEMOISELLE",
+ "witness": {
+  "page": "Histoires ou Contes du temps passé (1697)/Original/A Mademoiselle",
+  "revid": 5418404,
+  "url": "https://fr.wikisource.org/wiki/Histoires_ou_Contes_du_temps_passé_(1697)/Original/A_Mademoiselle",
+  "scanPages": 6
+ },
+ "witnessB": null,
+ "blocks": [
+  {
+   "text": "MADEMOISELLE,",
+   "p": true
+  },
+  {
+   "text": "On ne trouvera pas étrange qu’un enfant ait pris plaisir à composer les Contes de ce Recueil ; mais on s’étonnera qu’il ait eu la hardiesse de vous les presenter. Cependant, MADEMOISELLE, quelque disproportion qu’il y ait entre la simplicité de ces Recits & les lumieres de votre esprit, si on examine bien ces Contes, on verra que je ne suis pas aussi blamable que je le parois d’abord. Ils renferment tous une morale trés-sensée, & qui se découvre plus ou moins, selon le degré de pénetration de ceux qui les lisent ; d’ailleurs, comme rien ne marque tant la vaste estenduë d’un esprit, que de pouvoir s’élever en même temps aux plus grandes choses, & s’abaisser aux plus petites ; on ne sera point surpris que la même Princesse à qui la nature & l’éducation ont rendu familier ce qu’il y a de plus élevé ne dédaigne pas de prendre plaisir à de semblables bagatelles. Il est vray que ces Contes donnent une image de ce qui se passe dans les moindres Familles, où la loüable impatience d’instruire les enfans fait imaginer des Histoires dépourveuës de raison, pour s’accommoder à ces mêmes enfans, qui n’en ont pas encore ; mais à qui convient-il mieux de connoître comment vivent les Peuples, qu’aux Personnes que le Ciel destine à les conduire ? Le desir de cette connoissance a poussé des Heros, & même des Heros de vostre Race, jusque dans des huttes & des cabanes, pour y voir de prés, & par eux-mêmes, ce qui s’y passoit de plus particulier, cette connoissance leur ayant paru nécessaire pour leur parfaite instruction. Quoi qu’il en soit, MADEMOISELLE,",
+   "p": true
+  },
+  {
+   "text": "Pouvois-je mieux choisir pour rendre vrai-semblable\nCe que la Fable a d’incroyable ?\nEt jamais Fée, au tems jadis,\nFit-elle à jeune Créature\nPlus de dons, & de dons exquis,\nQue vous en a fait la Nature ?",
+   "v": true
+  },
+  {
+   "text": "Je suis avec un trés profond respect,",
+   "p": true
+  },
+  {
+   "text": "MADEMOISELLE,",
+   "p": true
+  },
+  {
+   "text": "De Vôtre Altesse Royale,",
+   "p": true
+  },
+  {
+   "text": "Le trés-humble & trés-obeissant serviteur. P. Darmancour.",
+   "p": true
+  }
+ ],
+ "tokens": 334,
+ "inventory": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzàâäçéèêëîïôöùûüÿœæÀÂÄÇÉÈÊËÎÏÔÖÙÛÜŸŒÆſ0123456789.,;:!?'’«»()[]-–—…&*",
+ "normalisation": [
+  "runs of whitespace, including no-break and thin spaces, collapsed to one space",
+  "soft hyphens and zero-width characters removed",
+  "invisible indentation spacers (visibility:hidden) removed",
+  "the printed title (possibly over several lines) and any CONTE subtitle removed from blocks and kept in title",
+  "a closing FIN. removed",
+  "a prose line ending in a hyphen joined to the next line without a space",
+  "verse continued across a page break kept in one block"
+ ],
+ "extractionNotes": [
+  "title block(s) [0] dropped from the text: ['A MADEMOISELLE']",
+  "line breaks inside a prose block joined: 'Le trés-humble & trés- obeissant serviteur. P. Darmancour.'",
+  "a line ending in a hyphen joined without a space: ' trés-humble & trés-obeissant serviteur.'"
+ ],
+ "collation": null,
+ "controls": [
+  "PASS fixture: offline fixture test with injected defects",
+  "PASS discovery",
+  "PASS coverage: every character of the page's visible text is in the title, a dropped subtitle or closing, or a block",
+  "PASS inventory: every character of the text is in the declared inventory",
+  "PASS proofread: 6 transcluded scan page(s), quality 4×6",
+  "PASS entier: the body extracted from its own page occurs contiguously, in book order, token for token, in Histoires ou Contes du temps passé (1697)/Original/Texte entier",
+  "PASS collation: not applicable (witness B does not print the dedication)"
+ ],
+ "archivedAt": "2026-09-11T07:56:54Z",
+ "archiverSha256": "66f4ad2395071ddb9234314a999077b93f0d449d9e8b9718da2f93c9df3d190f"
+}

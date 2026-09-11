@@ -1,0 +1,665 @@
+{
+ "id": "maitre-chat",
+ "title": "LE MAISTRE CHAT OU LE CHAT BOTTÉ",
+ "titleEn": "The Master Cat, or Puss in Boots",
+ "language": "French",
+ "langCode": "fr-FR",
+ "work": "Histoires ou contes du temps passé",
+ "workEn": "Tales of Times Past (Perrault)",
+ "part": "The Master Cat, or Puss in Boots",
+ "source": "Charles Perrault, « LE MAISTRE CHAT OU LE CHAT BOTTÉ », dans Histoires ou contes du temps passé. Avec des Moralitez (Paris, Claude Barbin, 1697) ; texte de l’édition originale d’après la transcription de Wikisource, orthographe de 1697 conservée. Prononciation : français standard moderne ; les graphies de 1697 sont lues selon l’usage moderne.",
+ "about": "The fifth tale in Perrault’s book follows a miller’s youngest son, left nothing but a cat, and the Cat who, once given a sack and a pair of boots, lies, flatters and threatens his way to a title, a castle and a royal marriage for his master. No one in it is punished for trickery, and the two verse morals that close it praise ingenuity over inherited wealth and then allow that fine clothes and good looks help too. The 1697 spelling is kept throughout, and the notes explain the court life the Cat moves through, from bows and coaches to the officers of a king’s wardrobe.",
+ "wordClips": true,
+ "wordSay": {
+  "abondament": "abondamment",
+  "aisné": "aîné",
+  "alez": "allez",
+  "allast": "allât",
+  "alloit": "allait",
+  "aperçuë": "aperçue",
+  "appartenoient": "appartenaient",
+  "appellés": "appelés",
+  "aprés": "après",
+  "asne": "âne",
+  "auroient": "auraient",
+  "aussi-tost": "aussitôt",
+  "aussitost": "aussitôt",
+  "avoient": "avaient",
+  "avoit": "avait",
+  "avoüa": "avoua",
+  "avoüe": "avoue",
+  "baignoit": "baignait",
+  "bastimens": "bâtiments",
+  "beu": "bu",
+  "bien-tost": "bientôt",
+  "blez": "blés",
+  "brousailles": "broussailles",
+  "c": "ce",
+  "cachez": "cachés",
+  "cachoit": "cachait",
+  "carosse": "carrosse",
+  "chasteau": "château",
+  "colation": "collation",
+  "commençoit": "commençait",
+  "conseilloit": "conseillait",
+  "cry": "cri",
+  "d": "de",
+  "desespera": "désespéra",
+  "devoient": "devaient",
+  "devoit": "devait",
+  "disoit": "disait",
+  "disoit-il": "disait-il",
+  "drosle": "drôle",
+  "dés": "dès",
+  "elephant": "éléphant",
+  "enfans": "enfants",
+  "entendoit": "entendait",
+  "entrerent": "entrèrent",
+  "environent": "environnent",
+  "estant": "étant",
+  "estendant": "étendant",
+  "estoient": "étaient",
+  "estoit": "était",
+  "estonné": "étonné",
+  "estre": "être",
+  "esté": "été",
+  "faisoit": "faisait",
+  "faucheux": "faucheurs",
+  "fauchoient": "fauchaient",
+  "fourer": "fourrer",
+  "freres": "frères",
+  "fust": "fût",
+  "goûtieres": "gouttières",
+  "heritage": "héritage",
+  "honnestement": "honnêtement",
+  "indifferens": "indifférents",
+  "j": "je",
+  "jetta": "jeta",
+  "jetté": "jeté",
+  "l": "le",
+  "lasserons": "laiterons",
+  "luy": "lui",
+  "lyon": "lion",
+  "m": "me",
+  "maistre": "maître",
+  "meusnier": "meunier",
+  "meûnier": "meunier",
+  "misere": "misère",
+  "misericorde": "miséricorde",
+  "montast": "montât",
+  "montoit": "montait",
+  "montreray": "montrerai",
+  "mourans": "mourants",
+  "n": "ne",
+  "noye": "noie",
+  "ny": "ni",
+  "passoit": "passait",
+  "pasté": "pâté",
+  "pendoit": "pendait",
+  "pere": "père",
+  "peril": "péril",
+  "plait": "plaît",
+  "plustost": "plutôt",
+  "portiere": "portière",
+  "possedoit": "possédait",
+  "pouvoit": "pouvait",
+  "premiere": "première",
+  "preparer": "préparer",
+  "presenter": "présenter",
+  "proye": "proie",
+  "prés": "près",
+  "qu": "que",
+  "qualitez": "qualités",
+  "querir": "quérir",
+  "quoy": "quoi",
+  "quoyqu": "quoiqu",
+  "qvelque": "quelque",
+  "receut": "reçut",
+  "reconnoissant": "reconnaissant",
+  "relevoient": "relevaient",
+  "rencontroit": "rencontrait",
+  "repondit": "répondit",
+  "retiroit": "retirait",
+  "reverence": "révérence",
+  "riviere": "rivière",
+  "roy": "roi",
+  "réjoüit": "réjouit",
+  "réprit": "reprit",
+  "réverence": "révérence",
+  "réverences": "révérences",
+  "s": "se",
+  "sale": "salle",
+  "seray": "serai",
+  "serieux": "sérieux",
+  "seroit": "serait",
+  "sçachant": "sachant",
+  "sçaurois": "saurais",
+  "sçavoir": "savoir",
+  "sçavoit": "savait",
+  "sçeut": "sut",
+  "teste": "tête",
+  "toûjours": "toujours",
+  "trouverent": "trouvèrent",
+  "vallent": "valent",
+  "valoient": "valaient",
+  "venoit": "venait",
+  "venuë": "venue",
+  "verez": "verrez",
+  "veu": "vu",
+  "viste": "vite",
+  "vn": "un",
+  "vostre": "votre",
+  "voylà": "voilà",
+  "voyoit": "voyait",
+  "vray": "vrai",
+  "éfrayé": "effrayé"
+ },
+ "sayNames": [
+  "Carabas",
+  "Jour"
+ ],
+ "glossaryFile": "perrault-glossary.json",
+ "sentences": [
+  {
+   "p": true,
+   "t": "Vn Meusnier ne laissa pour tout biens à trois enfans qu’il avoit, que son Moulin, son Asne, & son Chat.",
+   "say": "Un Meunier ne laissa pour tout biens à trois enfants qu’il avait, que son Moulin, son Âne, et son Chat.",
+   "l": "A Miller left, for all his goods, to three children that he had, nothing but his Mill, his Donkey, and his Cat.",
+   "i": "All that a miller left to his three children was his mill, his donkey and his cat.",
+   "n": "«laissa» is the passé simple of «laisser» ‘to leave’: the passé simple is the literary past tense in which the tale is told, and English renders it with an ordinary past. «ne … que» is ‘nothing but, only’. «Vn» is «Un»: in large capitals printers of the period still set V for U, and the witness keeps it. The 1697 spellings here are «Meusnier» (modern «meunier» ‘miller’), «enfans» («enfants»), «Asne» («âne» ‘donkey’, with an s where modern French has a circumflex) and «avoit» («avait», the imperfect in «-oit»). «pour tout biens» sets a singular «tout» before a plural noun; the sense is ‘for all his goods, by way of an estate’, but whether the reading should be «tous biens» or «tout bien» is not certain, and Lectorium prints its witness unaltered."
+  },
+  {
+   "t": "Les partages furent bien tôt faits, ny le Notaire, ny le Procureur n’y furent point appellés.",
+   "say": "Les partages furent bien tôt faits, ni le Notaire, ni le Procureur n’y furent point appelés.",
+   "l": "The shares were very soon made; neither the Notary nor the Attorney was called in to it at all.",
+   "i": "The estate was quickly divided; neither notary nor attorney was called in.",
+   "n": "«furent … faits» is the passé simple of «estre» with a participle, a passive: ‘were made’. «bien tôt» is ‘very soon’ in two words (modern «bientôt»); the very next line spells it «bien-tost». «ny … ny» is «ni … ni» ‘neither … nor’, with the 1697 y for i, and «point» is a stronger ‘not’. A notary drew up deeds and inventories, and a «procureur» was an attorney who acted for clients before the courts; in a larger estate both would have been called in, and paid. «appellés» is the older spelling of «appelés» ‘called’."
+  },
+  {
+   "t": "Ils auroient eu bien-tost mangé tout le pauvre patrimoine.",
+   "say": "Ils auraient eu bientôt mangé tout le pauvre patrimoine.",
+   "l": "They would very soon have eaten up all the poor patrimony.",
+   "i": "They would soon have eaten up the whole of that meagre inheritance.",
+   "n": "«Ils» is the notary and the attorney: had they been called in, their fees would soon have swallowed the little inheritance. «auroient eu … mangé» is a double compound tense, ‘would have had eaten’, which stresses how quickly the thing would have been over; English says ‘would soon have eaten up’. «auroient» is the 1697 spelling of «auraient»."
+  },
+  {
+   "t": "L’aisné eut le Moulin, le second eut l’Asne, & le plus jeune n’eut que le Chat.",
+   "say": "L’aîné eut le Moulin, le second eut l’Âne, et le plus jeune n’eut que le Chat.",
+   "l": "The eldest had the Mill, the second had the Donkey, and the youngest had only the Cat.",
+   "i": "The eldest got the mill, the second the donkey, and the youngest nothing but the cat.",
+   "n": "«eut», the passé simple of «avoir», is ‘had’ in the sense ‘got, received’, and «n’eut que» is ‘had nothing but’. «L’aisné» is «l’aîné» ‘the eldest’, with the s before a consonant that modern French replaces with a circumflex."
+  },
+  {
+   "t": "Ce dernier ne pouvoit se consoler d’avoir un si pauvre lot :",
+   "say": "Ce dernier ne pouvait se consoler d’avoir un si pauvre lot :",
+   "l": "This last one could not console himself for having so poor a lot:",
+   "i": "The youngest could not get over having so poor a share.",
+   "n": "«Ce dernier» ‘this last one’ is the youngest son. «pouvoit» (modern «pouvait») is the imperfect, ‘could’, telling of a state that went on. «lot» is ‘share, portion’, as in a share-out by lots. The colon introduces what he said."
+  },
+  {
+   "t": "Mes freres, disoit-il, pourront gagner leur vie honnestement en se mettant ensemble ;",
+   "say": "Mes frères, disait-il, pourront gagner leur vie honnêtement en se mettant ensemble ;",
+   "l": "My brothers, he was saying, will be able to earn their living decently by putting themselves together;",
+   "i": "My brothers, he said, can make a decent living by joining forces;",
+   "n": "«freres» is «frères» ‘brothers’, printed without the accent. «disoit-il» (modern «disait-il») ‘he was saying’ is set into the speech as its tag. «honnestement», modern «honnêtement», means less ‘honestly’ than ‘decently, respectably’: in 1697 «honneste» describes what befits a decent person’s station. «en se mettant ensemble» ‘by putting themselves together’ is by pooling the mill and the donkey."
+  },
+  {
+   "t": "pour moi, lors que j’aurai mangé mon chat, & que je me seray fait un manchon de sa peau, il faudra que je meure de faim.",
+   "say": "pour moi, lors que j’aurai mangé mon chat, et que je me serai fait un manchon de sa peau, il faudra que je meure de faim.",
+   "l": "as for me, when I shall have eaten my cat, and when I shall have made myself a muff of his skin, it will be necessary that I die of hunger.",
+   "i": "as for me, once I have eaten my cat and made myself a muff out of his skin, I shall have nothing left but to die of hunger.",
+   "n": "«lors que» is modern «lorsque» ‘when’. «j’aurai mangé» and «je me seray fait» are future perfects, ‘I shall have eaten’, ‘I shall have made myself’ («seray» is the 1697 spelling of «serai»). A «manchon» is a muff, a tube of fur to keep the hands warm, carried by men as well as women in the 1690s. «il faudra que je meure» is ‘it will be necessary that I die’, with «meure» in the present subjunctive after «il faut que»."
+  },
+  {
+   "t": "Le Chat qui entendoit ce discours, mais qui n’en fit pas semblant, luy dit d’un air posé & serieux, ne vous affligés point, mon maistre, vous n’avez qu’à me donner un Sac, & me faire faire une paire de Bottes pour aller dans les brousailles,",
+   "say": "Le Chat qui entendait ce discours, mais qui n’en fit pas semblant, lui dit d’un air posé et sérieux, ne vous affligés point, mon maître, vous n’avez qu’à me donner un Sac, et me faire faire une paire de Bottes pour aller dans les broussailles,",
+   "l": "The Cat, who was hearing this speech, but who made no show of it, said to him with a composed and serious air: do not grieve yourself at all, my master, you have only to give me a Sack, and to have made for me a pair of Boots for going into the brushwood,",
+   "i": "The Cat, who heard all this but let nothing show, said to him with a calm and serious air, Do not distress yourself, my master; you need only give me a sack and have a pair of boots made for me to go into the undergrowth,",
+   "n": "«entendoit» is ‘heard, was hearing’: «entendre» is ‘to hear’. «n’en fit pas semblant» is ‘made no show of it’, from «faire semblant» ‘to pretend’: he let nothing show that he had heard. «luy» is «lui» ‘to him’, and «mon maistre» is ‘my master’, «maistre» being the 1697 spelling of «maître». «ne vous affligés point» (modern «affligez») is ‘do not grieve’. «vous n’avez qu’à» is ‘you have only to’, and «me faire faire» is literally ‘to make make for me’, that is, to have boots made. The Cat says «vous» to his master, as a servant would; the English is ‘you’. «brousailles» is modern «broussailles» ‘brushwood, scrub’."
+  },
+  {
+   "t": "& vous verez que vous n’êtes pas si mal partagé que vous croyez.",
+   "say": "et vous verrez que vous n’êtes pas si mal partagé que vous croyez.",
+   "l": "and you will see that you are not so badly portioned as you believe.",
+   "i": "and you will see that you have not come off as badly as you think.",
+   "n": "«verez» is the future of «voir», modern «verrez», printed with one r. «mal partagé» is ‘badly served in the share-out’, from «partager» ‘to divide’, the verb behind the «partages» of the second sentence."
+  },
+  {
+   "t": "Quoique le maistre du chat ne fit pas grand fond là-dessus, il lui avoit veu faire tant de tours de souplesse, pour prendre des Rats & des Souris ; comme quand il se pendoit par les pieds, ou qu’il se cachoit dans la farine pour faire le mort, qu’il ne desespera pas d’en estre secouru dans sa misere.",
+   "say": "Quoique le maître du chat ne fit pas grand fond là-dessus, il lui avait vu faire tant de tours de souplesse, pour prendre des Rats et des Souris ; comme quand il se pendait par les pieds, ou qu’il se cachait dans la farine pour faire le mort, qu’il ne désespéra pas d’en être secouru dans sa misère.",
+   "l": "Although the master of the cat did not set great store by that, he had seen him do so many tricks of suppleness to catch Rats and Mice, as when he hung himself up by the feet, or when he hid himself in the flour to play dead, that he did not despair of being helped by him in his misery.",
+   "i": "Although the Cat’s master did not put much faith in this, he had seen him play so many nimble tricks to catch rats and mice, hanging by his feet, for instance, or hiding in the flour to play dead, that he did not despair of getting some help from him in his distress.",
+   "n": "«Quoique» ‘although’ takes the subjunctive, so «fit» stands for the imperfect subjunctive «fît», printed without its circumflex; the imperfect subjunctive is a formal tense of written French, and English gives it a plain past. «faire fond sur» is ‘to count on, set store by’. «il lui avoit veu faire» is ‘he had seen him do’ («veu» is the 1697 spelling of «vu»). «tant de … qu’il ne desespera pas» is ‘so many … that he did not despair’, and in «d’en estre secouru» ‘of being helped by him’ «en» stands for the cat and «estre» is «être». «faire le mort» is ‘to play dead’, and «misere» is ‘destitution’ more than ‘unhappiness’."
+  },
+  {
+   "t": "Lors que le chat eut ce qu’il avoit demandé, il se botta bravement ;",
+   "say": "Lors que le chat eut ce qu’il avait demandé, il se botta bravement ;",
+   "l": "When the Cat had what he had asked for, he booted himself boldly;",
+   "i": "When the Cat had got what he had asked for, he pulled on his boots in fine style;",
+   "n": "«il se botta» ‘he booted himself’ is ‘he put on his boots’, from «botte» ‘boot’: this is the booted Cat of the title, «le Chat botté». «bravement» is doubtful here: in 1697 «brave» could mean ‘bold’ and also ‘finely turned out’, and the adverb may carry either sense or both; no one English word keeps the pair, so the literal line takes the first and the idiomatic line the second. «eut» is the passé simple, ‘had’."
+  },
+  {
+   "t": "& mettant son sac à son cou, il en prit les cordons avec ses deux pattes de devant, & s’en alla dans une garenne où il y avoit grand nombre de lapins.",
+   "say": "et mettant son sac à son cou, il en prit les cordons avec ses deux pattes de devant, et s’en alla dans une garenne où il y avait grand nombre de lapins.",
+   "l": "and putting his sack at his neck, he took the cords of it with his two front paws, and went off into a warren where there were a great number of rabbits.",
+   "i": "and, hanging his sack round his neck and holding its drawstrings in his two front paws, he went off to a warren where there were a great many rabbits.",
+   "n": "«mettant son sac à son cou» is ‘putting his sack at his neck’, hanging it there. In «il en prit les cordons» ‘he took its cords’, the drawstrings, «en» ‘of it’ stands for the sack. «s’en alla» is the passé simple of «s’en aller» ‘to go off’. A «garenne» is a warren, ground where rabbits were kept and bred for the hunt; in France the right to keep one belonged to a lord. «il y avoit» is ‘there were’, literally ‘there there-had’."
+  },
+  {
+   "t": "Il mit du son & des lasserons dans son sac,",
+   "say": "Il mit du son et des laiterons dans son sac,",
+   "l": "He put some bran and some sow-thistles in his sack,",
+   "n": "«son» here is ‘bran’, the husks of grain, not the possessive ‘his’. «lasserons» appear to be sow-thistles, a weed rabbits relish, in an older form of the word modern French writes «laiterons». «mit» is the passé simple of «mettre» ‘to put’."
+  },
+  {
+   "t": "& s’estendant comme s’il eut esté mort, il attendit que quelque jeune lapin, peu instruit encore des ruses de ce monde, vint se fourer dans son sac pour manger ce qu’il y avoit mis.",
+   "say": "et s’étendant comme s’il eut été mort, il attendit que quelque jeune lapin, peu instruit encore des ruses de ce monde, vint se fourrer dans son sac pour manger ce qu’il y avait mis.",
+   "l": "and stretching himself out as if he had been dead, he waited until some young rabbit, little instructed yet in the wiles of this world, should come to stuff himself into his sack to eat what he had put there.",
+   "i": "and, stretching out as if he were dead, he waited for some young rabbit, not yet versed in the wiles of this world, to come and push its way into his sack to eat what he had put in it.",
+   "n": "«s’estendant» is modern «s’étendant» ‘stretching himself out’. «comme s’il eut esté mort» is ‘as if he had been dead’, with «eut esté» standing for the pluperfect subjunctive «eût été», printed without the circumflex. In «il attendit que … vint» ‘he waited until … should come’, «vint» is the imperfect subjunctive «vînt», again printed without its accent. «se fourer» (modern «se fourrer») is ‘to push oneself into’, a homely word. «instruit des ruses de ce monde» is ‘schooled in the wiles of this world’."
+  },
+  {
+   "t": "À peine fut-il couché, qu’il eut contentement ;",
+   "l": "Hardly was he lying down when he had satisfaction;",
+   "i": "No sooner had he lain down than he got what he wanted:",
+   "n": "«À peine fut-il couché, qu’il eut contentement» is ‘hardly was he lying down when he had satisfaction’: «à peine … que» is ‘hardly … when, no sooner … than’, with subject and verb inverted after «à peine». «contentement» is ‘satisfaction, what one wished for’."
+  },
+  {
+   "t": "un jeune étourdi de lapin entra dans son sac, & le maistre chat tirant aussitost les cordons le prit & le tua sans misericorde.",
+   "say": "un jeune étourdi de lapin entra dans son sac, et le maître chat tirant aussitôt les cordons le prit et le tua sans miséricorde.",
+   "l": "a young scatterbrain of a rabbit went into his sack, and the Master Cat, pulling at once the cords, took him and killed him without mercy.",
+   "i": "a heedless young rabbit went into his sack, and the Master Cat, pulling the drawstrings tight at once, caught him and killed him without mercy.",
+   "n": "«un jeune étourdi de lapin» ‘a young scatterbrain of a rabbit’ uses «de» to attach a word of character to the creature it describes. «le maistre chat» ‘the master cat’ gives him the title of the tale, «Maistre», the 1697 spelling of «maître» ‘master’, a title of standing set before the name of a craftsman or a man of law. «aussitost» is «aussitôt» ‘at once’, and «misericorde» is «miséricorde» ‘mercy’."
+  },
+  {
+   "t": "Tout glorieux de sa proye, il s’en alla chez le Roy & demanda à luy parler.",
+   "say": "Tout glorieux de sa proie, il s’en alla chez le Roi et demanda à lui parler.",
+   "l": "All proud of his prey, he went off to the King’s and asked to speak to him.",
+   "i": "Very proud of his catch, he went off to the King and asked to speak with him.",
+   "n": "«glorieux» in 1697 is ‘proud, pleased with oneself’, not ‘glorious’. «proye» and «Roy» are 1697 spellings of «proie» ‘prey’ and «roi» ‘king’, and «chez le Roy» is ‘to the King’s’, to where the King lives. «demanda à luy parler» is ‘asked to speak to him’."
+  },
+  {
+   "t": "On le fit monter à l’Appartement de sa Majesté, où estant entré il fit une grande reverence au Roy,",
+   "say": "On le fit monter à l’Appartement de sa Majesté, où étant entré il fit une grande révérence au Roi,",
+   "l": "They made him go up to the Apartment of his Majesty, where, having entered, he made a great bow to the King,",
+   "i": "He was shown up to His Majesty’s apartments, where, on entering, he made the King a deep bow",
+   "n": "«On le fit monter» is ‘one made him go up’: «on» with «faire» and an infinitive, ‘he was taken up’. The «Appartement» of a king is his suite of rooms. «estant entré» is ‘having entered’ («estant» is «étant»). A «reverence» (modern «révérence») is the formal bow of court etiquette, and «une grande reverence» a deep one."
+  },
+  {
+   "t": "& luy dit, voylà, Sire, un Lapin de Garenne que Monsieur le Marquis de Carabas (c’estoit le nom qu’il lui prit en gré de donner à son Maistre,) m’a chargé de vous presenter de sa part.",
+   "say": "et lui dit, voilà, Sire, un Lapin de Garenne que Monsieur le Marquis de Carabas (c’était le nom qu’il lui prit en gré de donner à son Maître,) m’a chargé de vous présenter de sa part.",
+   "l": "and said to him: here, Sire, is a Rabbit of Warren that Monsieur the Marquis de Carabas (that was the name it took his fancy to give to his Master) has charged me to present to you on his behalf.",
+   "i": "and said to him, Here, Sire, is a warren rabbit which my lord the Marquis de Carabas (such was the name he had taken a fancy to giving his master) has bidden me present to you on his behalf.",
+   "n": "«voylà» (modern «voilà», from «voi là» ‘see there’) presents the gift: ‘here is’. «Sire» is the form of address reserved for a king. A «Lapin de Garenne» is a warren rabbit, a wild one, the better game. «Monsieur le Marquis» is how one spoke of or to a nobleman of that rank, ‘my lord the Marquis’; a marquis ranked above a count and below a duke. «Carabas» is the Cat’s invention, and what, if anything, the name was meant to suggest is not known. «c’estoit le nom qu’il lui prit en gré de donner» is ‘that was the name it took his fancy to give’, from «prendre en gré» ‘to take a liking to’; the witness sets a comma inside the bracket. «m’a chargé de» is ‘has charged me to’, and «de sa part» ‘on his behalf’. The Cat says «vous» to the King."
+  },
+  {
+   "t": "Dis, à ton Maistre, répondit le Roy, que je le remercie, & qu’il me fait plaisir.",
+   "say": "Dis, à ton Maître, répondit le Roi, que je le remercie, et qu’il me fait plaisir.",
+   "l": "Tell your Master, answered the King, that I thank him, and that he does me pleasure.",
+   "i": "Tell your master, the King replied, that I thank him, and that he does me a kindness.",
+   "n": "The King answers the Cat with «tu» («Dis», «ton Maistre»), as a master speaks to a servant, while the Cat says «vous» to him; both are ‘you’ in the English. «il me fait plaisir» is ‘he does me a pleasure’: the gift is welcome. The comma after «Dis» is the printer’s."
+  },
+  {
+   "t": "Une autre fois il alla se cacher dans un blé tenant toûjours son sac ouvert,",
+   "say": "Une autre fois il alla se cacher dans un blé tenant toujours son sac ouvert,",
+   "l": "Another time he went to hide himself in a wheat-field, holding still his sack open,",
+   "i": "Another time he went and hid in a field of wheat, keeping his sack open all the while,",
+   "n": "«un blé» is ‘a wheat’, a field of standing grain. «toûjours», modern «toujours», here means ‘all the while, still’ rather than ‘always’; the witness prints it with a circumflex on the u. «alla se cacher» is ‘went to hide’."
+  },
+  {
+   "t": "& lors que deux Perdrix y furent entrées, il tira les cordons, & les prit toutes deux.",
+   "say": "et lors que deux Perdrix y furent entrées, il tira les cordons, et les prit toutes deux.",
+   "l": "and when two Partridges had gone in there, he pulled the cords, and took them both.",
+   "i": "and when two partridges had gone in, he pulled the drawstrings and caught them both.",
+   "n": "«lors que deux Perdrix y furent entrées» is ‘when two partridges had gone in there’: «furent entrées» is the past anterior, the tense of an action completed just before another in a passé simple narrative, and the participle is feminine to agree with «Perdrix». «y» ‘there’ is the sack. «toutes deux» is ‘both’."
+  },
+  {
+   "t": "Il alla ensuite les presenter au Roy, comme il avoit fait le Lapin de garenne.",
+   "say": "Il alla ensuite les présenter au Roi, comme il avait fait le Lapin de garenne.",
+   "l": "He went afterwards to present them to the King, as he had done [with] the Rabbit of warren.",
+   "i": "Then he went and presented them to the King, as he had done with the warren rabbit.",
+   "n": "«comme il avoit fait le Lapin de garenne» is ‘as he had done the warren rabbit’: «faire» stands in for «presenter», and the bracketed ‘with’ is supplied because English ‘do’ cannot take that object. «ensuite» is ‘then, next’."
+  },
+  {
+   "t": "Le Roy receut encore avec plaisir les deux Perdrix, & luy fit donner pour boire.",
+   "say": "Le Roi reçut encore avec plaisir les deux Perdrix, et lui fit donner pour boire.",
+   "l": "The King received again with pleasure the two Partridges, and had [something] given to him for drinking.",
+   "i": "Once again the King received the two partridges with pleasure, and had something given to the Cat for his trouble.",
+   "n": "«receut» is the 1697 spelling of «reçut» ‘received’, the passé simple of «recevoir». «luy fit donner pour boire» is ‘had [something] given him for drinking’: «pour boire» is drink-money, a tip for a servant or a messenger (modern «pourboire»), and the bracket supplies the object English needs."
+  },
+  {
+   "t": "Le chat continua ainsi pendant deux ou trois moi à porter de temps-en-temps au Roy du Gibier de la chasse de son Maistre.",
+   "say": "Le chat continua ainsi pendant deux ou trois moi à porter de temps-en-temps au Roi du Gibier de la chasse de son Maître.",
+   "l": "The Cat continued thus for two or three months to carry from time to time to the King some Game from the hunting of his Master.",
+   "i": "In this way the Cat went on for two or three months, bringing the King game from time to time from his master’s hunting.",
+   "n": "The witness prints «moi» ‘me’ where the sense requires «mois» ‘months’; Lectorium prints its witness unaltered and translates ‘months’. «de temps-en-temps» is ‘from time to time’, hyphenated in the witness. «Gibier» is game, and «de la chasse de son Maistre» ‘from his master’s hunting’: the Cat presents what he catches as his master’s bag."
+  },
+  {
+   "t": "Un jour qu’il sçeut que le Roy devoit aller à la promenade sur le bord de la riviere avec sa fille ; la plus belle Princesse du monde, il dit à son Maistre, si vous voulez suivre mon conseil, vostre fortune est faite :",
+   "say": "Un jour qu’il sut que le Roi devait aller à la promenade sur le bord de la rivière avec sa fille ; la plus belle Princesse du monde, il dit à son Maître, si vous voulez suivre mon conseil, votre fortune est faite :",
+   "l": "One day that he knew that the King was to go on an outing along the bank of the river with his daughter, the most beautiful Princess in the world, he said to his Master: if you will follow my counsel, your fortune is made:",
+   "i": "One day, when he found out that the King was to take a drive along the riverbank with his daughter, the most beautiful princess in the world, he said to his master, If you will take my advice, your fortune is made.",
+   "n": "«sçeut» is ‘found out, came to know’, the passé simple of «sçavoir» (modern «sut»), with the 1697 «sç». «devoit aller à la promenade» is ‘was to go on an outing’; a «promenade» was any outing taken for pleasure, on foot, on horseback or by coach, and this one, as the tale soon shows, is taken in the King’s coach, so the idiomatic line says ‘drive’. The witness puts a semicolon after «sa fille» where the sense runs straight on, ‘his daughter, the most beautiful princess in the world’. «vostre» is «votre», and «vostre fortune est faite» is ‘your fortune is made’."
+  },
+  {
+   "t": "vous n’avez qu’à vous baigner dans la riviere à l’endroit que je vous montreray, & ensuite me laisser faire.",
+   "say": "vous n’avez qu’à vous baigner dans la rivière à l’endroit que je vous montrerai, et ensuite me laisser faire.",
+   "l": "you have only to bathe yourself in the river at the place that I shall show you, and then let me act.",
+   "i": "you need only bathe in the river at the spot I shall show you, and then leave the rest to me.",
+   "n": "«vous n’avez qu’à» is ‘you have only to’, as the Cat said before. «montreray» is the 1697 spelling of «montrerai» ‘I shall show’. «me laisser faire» is ‘to let me do [it]’, to leave the rest to me."
+  },
+  {
+   "t": "Le Marquis de Carabas fit ce que son chat luy conseilloit, sans sçavoir à quoy cela seroit bon.",
+   "say": "Le Marquis de Carabas fit ce que son chat lui conseillait, sans savoir à quoi cela serait bon.",
+   "l": "The Marquis de Carabas did what his cat counselled him, without knowing for what that would be good.",
+   "i": "The Marquis de Carabas did as his cat advised, without knowing what good it would do.",
+   "n": "From here the narrator too calls the youngest son «le Marquis de Carabas». «conseilloit» is modern «conseillait» ‘advised’. «sans sçavoir à quoy cela seroit bon» is ‘without knowing what that would be good for’, with «quoy» for «quoi» and «seroit» for «serait». The «sç» of «sçavoir» was a scholarly spelling meant to recall Latin «scire» ‘to know’, though the verb in fact comes from Latin «sapere»."
+  },
+  {
+   "t": "Dans le temps qu’il se baignoit, le Roy vint à passer,",
+   "say": "Dans le temps qu’il se baignait, le Roi vint à passer,",
+   "l": "In the time that he was bathing, the King came to pass by,",
+   "i": "While he was bathing, the King happened to pass by,",
+   "n": "«Dans le temps qu’il se baignoit» is ‘at the time when he was bathing’, that is, ‘while’. «vint à passer» ‘came to pass by’ is ‘happened to pass’: «venir à» with an infinitive marks what happens by chance. «baignoit» is modern «baignait»."
+  },
+  {
+   "t": "& le Chat se mit à crier de toute sa force : au secours, au secours, voilà Monsieur le Marquis de Carabas qui se noye.",
+   "say": "et le Chat se mit à crier de toute sa force : au secours, au secours, voilà Monsieur le Marquis de Carabas qui se noie.",
+   "l": "and the Cat set himself to shout with all his strength: help, help, there is Monsieur the Marquis de Carabas who is drowning.",
+   "i": "and the Cat began to shout at the top of his voice, Help! Help! My lord the Marquis de Carabas is drowning!",
+   "n": "«se mit à crier» ‘set himself to shout’ is ‘began to shout’, and «de toute sa force» is ‘with all his strength’. «au secours» is the cry ‘help!’, and «voilà … qui se noye» is ‘there is … who is drowning’ («se noye» is modern «se noie»). The witness spells «voilà» here with an i, where the Cat’s first speech had «voylà»."
+  },
+  {
+   "t": "À ce cry le Roy mit la teste à la portiere,",
+   "say": "À ce cri le Roi mit la tête à la portière,",
+   "l": "At this cry the King put his head to the carriage door,",
+   "i": "At this cry the King put his head out of the carriage window,",
+   "n": "«cry» and «teste» are 1697 spellings of «cri» ‘cry’ and «tête» ‘head’. The «portiere» is the door of a coach, and it is through its window that the King puts out his head; the idiomatic line says ‘window’ for that reason."
+  },
+  {
+   "t": "& reconnoissant le Chat qui luy avoit apporté tant de fois du Gibier, il ordonna à ses Gardes qu’on allast viste au secours de Monsieur le Marquis de Carabas.",
+   "say": "et reconnaissant le Chat qui lui avait apporté tant de fois du Gibier, il ordonna à ses Gardes qu’on allât vite au secours de Monsieur le Marquis de Carabas.",
+   "l": "and recognising the Cat who had brought him so many times some Game, he ordered his Guards that one should go quickly to the help of Monsieur the Marquis de Carabas.",
+   "i": "and, recognising the Cat who had so often brought him game, he ordered his guards to go at once to the rescue of my lord the Marquis de Carabas.",
+   "n": "«reconnoissant» is «reconnaissant» ‘recognising’. «il ordonna à ses Gardes qu’on allast viste» is ‘he ordered his Guards that one should go quickly’: «allast» is the imperfect subjunctive «allât», and «viste» is «vite» ‘quickly’. The King rides out with an escort of guards."
+  },
+  {
+   "t": "Pendant qu’on retiroit le pauvre Marquis de la riviere, le Chat s’approcha du Carosse, & dit au Roy que dans le temps que son Maistre se baignoit, il estoit venu des Voleurs qui avoient emporté ses habits, quoyqu’il eût crié au voleur de toute sa force ;",
+   "say": "Pendant qu’on retirait le pauvre Marquis de la rivière, le Chat s’approcha du Carrosse, et dit au Roi que dans le temps que son Maître se baignait, il était venu des Voleurs qui avaient emporté ses habits, quoiqu’il eût crié au voleur de toute sa force ;",
+   "l": "While one was pulling the poor Marquis out of the river, the Cat approached the Coach, and said to the King that in the time that his Master was bathing, there had come some Thieves who had carried off his clothes, although he had cried thief with all his strength;",
+   "i": "While they were pulling the poor Marquis out of the river, the Cat went up to the coach and told the King that while his master was bathing, some thieves had come and carried off his clothes, though he had shouted thief with all his might;",
+   "n": "«retiroit» is «retirait» ‘was pulling out’, and «Carosse» is the 1697 spelling of «carrosse» ‘coach’. «il estoit venu des Voleurs» is impersonal, ‘there had come some thieves’. «quoyqu’il eût crié» ‘although he had cried’ is a pluperfect subjunctive after «quoique», this time printed with its circumflex, and «crier au voleur» is ‘to cry thief’, to raise the alarm."
+  },
+  {
+   "t": "le drosle les avoit cachez sous une grosse pierre.",
+   "say": "le drôle les avait cachés sous une grosse pierre.",
+   "l": "the rascal had hidden them under a big stone.",
+   "i": "the rogue had hidden them under a great stone.",
+   "n": "«le drosle» (modern «le drôle») is ‘the rascal, the rogue’, a noun here, not the adjective ‘funny’; the rogue is the Cat himself, and the narrator tells the truth behind the lie. «cachez» is the 1697 spelling of «cachés» ‘hidden’."
+  },
+  {
+   "t": "Le Roy ordonna aussi-tost aux Officiers de sa Garde robe d’aller querir un de ses plus beaux habits pour Monsieur le Marquis de Carabas.",
+   "say": "Le Roi ordonna aussitôt aux Officiers de sa Garde robe d’aller quérir un de ses plus beaux habits pour Monsieur le Marquis de Carabas.",
+   "l": "The King ordered at once the Officers of his Wardrobe to go fetch one of his most beautiful suits for Monsieur the Marquis de Carabas.",
+   "i": "The King at once ordered the officers of his Wardrobe to go and fetch one of his finest suits of clothes for my lord the Marquis de Carabas.",
+   "n": "«aussi-tost» is yet another spelling of «aussitôt» ‘at once’. The «Officiers de sa Garde robe» are the officers of the King’s Wardrobe, the department of a royal household that kept the King’s clothes. «querir» (modern «quérir», now rare) is ‘to fetch’, and an «habit» is a suit of clothes."
+  },
+  {
+   "t": "Le Roy luy fit mille caresses,",
+   "say": "Le Roi lui fit mille caresses,",
+   "l": "The King made him a thousand caresses,",
+   "i": "The King showered him with marks of favour,",
+   "n": "«caresses» in 1697 are warm courtesies, words and attentions of favour, rather than touch. «mille» ‘a thousand’ is the ordinary exaggeration."
+  },
+  {
+   "t": "& comme les beaux habits qu’on venoit de luy donner relevoient sa bonne mine (car il estoit beau, & bien fait de sa personne) la fille du Roy le trouva fort à son gré,",
+   "say": "et comme les beaux habits qu’on venait de lui donner relevaient sa bonne mine (car il était beau, et bien fait de sa personne) la fille du Roi le trouva fort à son gré,",
+   "l": "and as the fine clothes that one had just given him set off his good looks (for he was handsome, and well made of his person), the daughter of the King found him very much to her liking,",
+   "i": "and since the fine clothes he had just been given set off his good looks (for he was handsome and well built), the King’s daughter found him very much to her taste,",
+   "n": "«qu’on venoit de luy donner» is ‘that one had just given him’: «venir de» with an infinitive is ‘to have just’. «relevoient sa bonne mine» is ‘set off his good looks’, «mine» being bearing and appearance together. «bien fait de sa personne» ‘well made of his person’ is ‘well built’, and «fort à son gré» ‘very much to her liking’, with «fort» ‘very’."
+  },
+  {
+   "t": "& le Comte de Carabas ne luy eut pas jetté deux ou trois regards fort respectueux, & un peu tendres, qu’elle en devint amoureuse à la folie.",
+   "say": "et le Comte de Carabas ne lui eut pas jeté deux ou trois regards fort respectueux, et un peu tendres, qu’elle en devint amoureuse à la folie.",
+   "l": "and the Count de Carabas had not cast her two or three looks, very respectful and a little tender, before she became enamoured of him to madness.",
+   "i": "and the Count de Carabas had not cast more than two or three very respectful and slightly tender glances her way before she fell madly in love with him.",
+   "n": "The witness calls him «le Comte de Carabas» ‘the Count’, the only time in the tale he is not the Marquis; it may be a slip of the author or the printer, and Lectorium prints its witness unaltered and translates what is printed. «ne luy eut pas jetté … qu’elle en devint amoureuse» is ‘had not cast her … before she fell in love with him’: «ne … pas … que» with the past anterior «eut jetté» (modern «jeté») is ‘no sooner … than’. «à la folie» is ‘to madness’, madly."
+  },
+  {
+   "t": "Le Roi voulut qu’il montast dans son Carosse & qu’il fust de la promenade :",
+   "say": "Le Roi voulut qu’il montât dans son Carrosse et qu’il fût de la promenade :",
+   "l": "The King wanted that he should get up into his Coach and that he should be of the outing:",
+   "i": "The King insisted that he get into his coach and join the drive.",
+   "n": "«Roi» is spelled with an i here and «Roy» almost everywhere else. In «voulut qu’il montast … & qu’il fust de la promenade» ‘wanted that he should get in … and be of the outing’, «montast» and «fust» are the imperfect subjunctives «montât» and «fût», and «estre de» is ‘to be one of, to join’."
+  },
+  {
+   "t": "Le Chat ravi de voir que son dessein commençoit à réussir, prit les devants,",
+   "say": "Le Chat ravi de voir que son dessein commençait à réussir, prit les devants,",
+   "l": "The Cat, delighted to see that his design was beginning to succeed, took the lead,",
+   "i": "The Cat, delighted to see his plan beginning to work, went on ahead,",
+   "n": "«ravi» is ‘delighted’, and «dessein» is ‘plan, design’ (not «dessin» ‘drawing’). «prit les devants» ‘took the fronts’ is ‘went on ahead’. «commençoit» is modern «commençait»."
+  },
+  {
+   "t": "& ayant rencontré des Paysans qui fauchoient un Pré, il leur dit, bonnes gens qui fauchez, si vous ne dites au Roy que le pré que vous fauchez appartient à Monsieur le Marquis de Carabas, vous serez tous hachez menu comme chair à pasté.",
+   "say": "et ayant rencontré des Paysans qui fauchaient un Pré, il leur dit, bonnes gens qui fauchez, si vous ne dites au Roi que le pré que vous fauchez appartient à Monsieur le Marquis de Carabas, vous serez tous hachez menu comme chair à pâté.",
+   "l": "and having met some Peasants who were mowing a Meadow, he said to them: good people who are mowing, if you do not say to the King that the meadow that you are mowing belongs to Monsieur the Marquis de Carabas, you will all be chopped small like meat for a pie.",
+   "i": "and, coming upon some peasants mowing a meadow, he said to them, Good people, you who are mowing, if you do not tell the King that the meadow you are mowing belongs to my lord the Marquis de Carabas, you shall all be chopped up as fine as meat for a pie.",
+   "n": "«bonnes gens» ‘good people’ is how one addressed country folk. «si vous ne dites» ‘if you do not say’ uses «ne» alone, without «pas», as the older language often does after «si». «hachez menu comme chair à pasté» is ‘chopped small like meat for a pie’: a «pasté» (modern «pâté») was a pie of minced meat in a crust, and «hachez» is «hachés». «qui fauchez» ‘who are mowing’ agrees with the plural «vous» the Cat is addressing."
+  },
+  {
+   "t": "Le Roy ne manqua pas à demander aux Faucheux à qui estoit ce Pré qu’ils fauchoient.",
+   "say": "Le Roi ne manqua pas à demander aux Faucheurs à qui était ce Pré qu’ils fauchaient.",
+   "l": "The King did not fail to ask the Mowers to whom was this Meadow that they were mowing.",
+   "i": "The King did not fail to ask the mowers whose meadow it was that they were mowing.",
+   "n": "«ne manqua pas à demander» is ‘did not fail to ask’, where modern French says «manquer de». «Faucheux» is an older, popular form of «faucheurs» ‘mowers’. «à qui estoit ce Pré» is ‘whose was this meadow’, literally ‘to whom was’."
+  },
+  {
+   "t": "C’est à Monsieur le Marquis de Carabas, dirent-ils tous ensemble, car la menace du Chat leur avoit fait peur.",
+   "say": "C’est à Monsieur le Marquis de Carabas, dirent-ils tous ensemble, car la menace du Chat leur avait fait peur.",
+   "l": "It is to Monsieur the Marquis de Carabas, they said all together, for the threat of the Cat had made them fear.",
+   "i": "It belongs to my lord the Marquis de Carabas, they all said together, for the Cat’s threat had frightened them.",
+   "n": "«C’est à» ‘it is to’ is ‘it belongs to’. «dirent-ils tous ensemble» is ‘they said all together’, in the passé simple. «leur avoit fait peur» ‘had made them fear’ is ‘had frightened them’."
+  },
+  {
+   "t": "Vous avez là un bel heritage, dit le Roy, au Marquis de Carabas. Vous voyez, Sire, repondit le Marquis, c’est un pré qui ne manque point de rapporter abondament toutes les années.",
+   "say": "Vous avez là un bel héritage, dit le Roi, au Marquis de Carabas. Vous voyez, Sire, répondit le Marquis, c’est un pré qui ne manque point de rapporter abondamment toutes les années.",
+   "l": "You have there a fine inheritance, said the King to the Marquis de Carabas. You see, Sire, answered the Marquis, it is a meadow that does not fail at all to yield abundantly every year.",
+   "i": "That is a fine inheritance you have there, said the King to the Marquis de Carabas. As you see, Sire, replied the Marquis, it is a meadow that never fails to yield a rich crop year after year.",
+   "n": "«Vous avez là» is ‘you have there’, and «un bel heritage» ‘a fine inheritance’, a word the first Moralité takes up («bel» is «beau» before a vowel, and «heritage» is modern «héritage»). The comma after «dit le Roy» is the witness’s. «Vous voyez» ‘you see’ opens the Marquis’s first speech since his lament, and he plays along. «ne manque point de rapporter» is ‘never fails to yield’, «abondament» is modern «abondamment», and «toutes les années» ‘all the years’ is ‘every year’. «repondit» lacks the accent of «répondit» elsewhere."
+  },
+  {
+   "t": "Le maistre Chat qui alloit toûjours devant, rencontra des Moissonneurs, & leur dit, Bonnes gens qui moissonnez, si vous ne dites que tous ces blez appartiennent à Monsieur le Marquis de Carabas, vous serez tous hachez menu comme chair à pasté.",
+   "say": "Le maître Chat qui allait toujours devant, rencontra des Moissonneurs, et leur dit, Bonnes gens qui moissonnez, si vous ne dites que tous ces blés appartiennent à Monsieur le Marquis de Carabas, vous serez tous hachez menu comme chair à pâté.",
+   "l": "The Master Cat, who was going still ahead, met some Reapers, and said to them: Good people who are reaping, if you do not say that all these wheat-fields belong to Monsieur the Marquis de Carabas, you will all be chopped small like meat for a pie.",
+   "i": "The Master Cat, still going on ahead, came upon some reapers and said to them, Good people, you who are reaping, if you do not say that all these fields of wheat belong to my lord the Marquis de Carabas, you shall all be chopped up as fine as meat for a pie.",
+   "n": "The Cat repeats his threat almost word for word, with the reapers and their wheat in place of the mowers and their meadow, and this time without «au Roy». «Moissonneurs» are reapers, cutting the grain harvest, and «blez» (the 1697 spelling of «blés», printed «blés» in the next sentence) are fields of standing wheat. «alloit» is «allait» ‘was going’, and «toûjours» is again ‘still’."
+  },
+  {
+   "t": "Le Roy qui passa un moment aprés, voulut sçavoir à qui appartenoient tous les blés qu’il voyoit.",
+   "say": "Le Roi qui passa un moment après, voulut savoir à qui appartenaient tous les blés qu’il voyait.",
+   "l": "The King, who passed a moment after, wanted to know to whom belonged all the wheat-fields that he was seeing.",
+   "i": "The King, passing by a moment later, wished to know whose were all the fields of wheat he could see.",
+   "n": "«aprés» is «après» ‘after’, with the accent the witness uses. «voulut sçavoir» is ‘wanted to know’, and «appartenoient» and «voyoit» are the 1697 spellings of «appartenaient» ‘belonged’ and «voyait» ‘saw, was seeing’."
+  },
+  {
+   "t": "C’est à Monsieur le Marquis de Carabas, répondirent les Moissonneurs, & le Roy s’en réjoüit encore avec le Marquis.",
+   "say": "C’est à Monsieur le Marquis de Carabas, répondirent les Moissonneurs, et le Roi s’en réjouit encore avec le Marquis.",
+   "l": "It is to Monsieur the Marquis de Carabas, answered the Reapers, and the King rejoiced about it again with the Marquis.",
+   "i": "They belong to my lord the Marquis de Carabas, answered the reapers, and once again the King congratulated the Marquis.",
+   "n": "«s’en réjoüit … avec le Marquis» is ‘rejoiced over it with the Marquis’, that is, congratulated him. The diaeresis in «réjoüit» (modern «réjouit») is a printer’s mark of the period, probably meant to show that the u is a vowel and not a v."
+  },
+  {
+   "t": "Le Chat qui alloit devant le Carosse, disoit toûjours la même chose à tous ceux qu’il rencontroit ;",
+   "say": "Le Chat qui allait devant le Carrosse, disait toujours la même chose à tous ceux qu’il rencontrait ;",
+   "l": "The Cat, who was going before the Coach, was saying always the same thing to all those whom he met;",
+   "i": "The Cat, going on ahead of the coach, said the same thing to everyone he met,",
+   "n": "«alloit» and «disoit» are imperfects of continuing action, ‘was going’, ‘kept saying’, and «rencontroit» is modern «rencontrait» ‘met’. «tous ceux qu’il rencontroit» is ‘all those whom he met’."
+  },
+  {
+   "t": "& le Roy estoit estonné des grands biens de Monsieur le Marquis de Carabas.",
+   "say": "et le Roi était étonné des grands biens de Monsieur le Marquis de Carabas.",
+   "l": "and the King was astonished at the great possessions of Monsieur the Marquis de Carabas.",
+   "i": "and the King was amazed at the vast possessions of my lord the Marquis de Carabas.",
+   "n": "«estonné», modern «étonné», was a stronger word in 1697 than now: ‘astounded’ more than ‘surprised’. «biens» ‘goods, possessions’ is the word of the tale’s first sentence, where the miller’s «biens» were a mill, a donkey and a cat."
+  },
+  {
+   "t": "Le maistre Chat arriva enfin dans un beau Château dont le Maistre estoit un Ogre, le plus riche qu’on ait jamais veu, car toutes les terres par où le Roy avoit passé estoient de la dépendance de ce Chasteau :",
+   "say": "Le maître Chat arriva enfin dans un beau Château dont le Maître était un Ogre, le plus riche qu’on ait jamais vu, car toutes les terres par où le Roi avait passé étaient de la dépendance de ce Château :",
+   "l": "The Master Cat arrived at last at a fine Castle of which the Master was an Ogre, the richest that one has ever seen, for all the lands through which the King had passed were of the dependency of this Castle:",
+   "i": "At last the Master Cat came to a fine castle whose lord was an Ogre, the richest ever seen, for all the lands the King had passed through belonged to this castle’s domain.",
+   "n": "«Château» and «Chasteau», the modern and the older spelling, both stand in this one sentence. An «Ogre» is the giant of the tales who eats human flesh; this tale says nothing of that, only of his wealth and his power to change shape. «dont le Maistre» ‘of which the master’ is the lord of the castle. «le plus riche qu’on ait jamais veu» ‘the richest one has ever seen’ puts «ait» in the subjunctive after a superlative. Lands «de la dépendance de ce Chasteau» were held from the castle, part of its lordship."
+  },
+  {
+   "t": "le Chat qui eut soin de s’informer qui estoit cet Ogre, & ce qu’il sçavoit faire, demanda à luy parler, disant qu’il n’avoit pas voulu passer si prés de son Chasteau, sans avoir l’honneur de luy faire la réverence.",
+   "say": "le Chat qui eut soin de s’informer qui était cet Ogre, et ce qu’il savait faire, demanda à lui parler, disant qu’il n’avait pas voulu passer si près de son Château, sans avoir l’honneur de lui faire la révérence.",
+   "l": "the Cat, who had taken care to inform himself who this Ogre was, and what he knew how to do, asked to speak to him, saying that he had not wished to pass so near his Castle without having the honour of making him his bow.",
+   "i": "the Cat, who had taken care to find out who this Ogre was and what he could do, asked to speak with him, saying that he had not wished to pass so close to his castle without having the honour of paying him his respects.",
+   "n": "«eut soin de s’informer» is ‘took care to find out’, and «ce qu’il sçavoit faire» ‘what he knew how to do’ is what he could do. «prés» is «près» ‘near’. «faire la réverence» is ‘to make one’s bow’, to pay one’s respects: the Cat speaks the language of a courtier making a call."
+  },
+  {
+   "t": "L’Ogre le receut aussi civilement que le peut un Ogre, & le fit reposer.",
+   "say": "L’Ogre le reçut aussi civilement que le peut un Ogre, et le fit reposer.",
+   "l": "The Ogre received him as civilly as an Ogre can, and made him rest.",
+   "i": "The Ogre received him as civilly as an Ogre can, and bade him rest.",
+   "n": "«aussi civilement que le peut un Ogre» ‘as civilly as an Ogre can [do] it’ inverts subject and verb after «que», and the present tense makes it a general truth about ogres. «civilement» belongs to the vocabulary of polite manners, «civilité» being courtesy. «le fit reposer» ‘made him rest’ is ‘had him rest’, as a host does."
+  },
+  {
+   "t": "On m’a assuré, dit le Chat, que vous aviez le don de vous changer en toute sorte d’Animaux, que vous pouviez par exemple vous transformer en Lyon, en Elephant ;",
+   "say": "On m’a assuré, dit le Chat, que vous aviez le don de vous changer en toute sorte d’Animaux, que vous pouviez par exemple vous transformer en Lion, en Éléphant ;",
+   "l": "One has assured me, said the Cat, that you had the gift of changing yourself into every sort of Animal, that you could, for example, transform yourself into a Lion, into an Elephant;",
+   "i": "I have been assured, said the Cat, that you have the gift of changing yourself into any kind of animal; that you could, for instance, turn yourself into a lion, or an elephant.",
+   "n": "«On m’a assuré» ‘one has assured me’ is ‘I have been assured’. «aviez» and «pouviez» are imperfects because the report is framed in the past; English is free to say ‘have’ and ‘could’. «Lyon» is the 1697 spelling of «lion». The Cat and the Ogre say «vous» to each other throughout."
+  },
+  {
+   "t": "cela est vray, répondit l’Ogre brusquement, & pour vous le montrer, vous m’alez voir devenir Lyon.",
+   "say": "cela est vrai, répondit l’Ogre brusquement, et pour vous le montrer, vous m’allez voir devenir Lion.",
+   "l": "that is true, answered the Ogre abruptly, and to show it to you, you are going to see me become Lion.",
+   "i": "That is true, the Ogre answered gruffly, and to show you, you shall see me turn into a lion.",
+   "n": "«vray» is «vrai» ‘true’, and «brusquement» is ‘abruptly, gruffly’. «vous m’alez voir devenir Lyon» is ‘you are going to see me become lion’: the pronoun «m’» comes before «alez» (modern «allez», printed with one l), the usual order in 1697, where modern French says «vous allez me voir», and «Lyon» has no article."
+  },
+  {
+   "t": "Le Chat fut si éfrayé de voir un Lyon devant luy, qu’il gagna aussi-tost les goûtieres, non sans peine & sans peril, à cause de ses bottes qui ne valoient rien pour marcher sur les tuiles.",
+   "say": "Le Chat fut si effrayé de voir un Lion devant lui, qu’il gagna aussitôt les gouttières, non sans peine et sans péril, à cause de ses bottes qui ne valaient rien pour marcher sur les tuiles.",
+   "l": "The Cat was so frightened to see a Lion before him that he gained at once the gutters, not without trouble and without peril, because of his boots, which were worth nothing for walking on the tiles.",
+   "i": "The Cat was so frightened at seeing a lion in front of him that he at once reached the gutters of the roof, not without difficulty and danger, because of his boots, which were no good for walking on tiles.",
+   "n": "«éfrayé» is «effrayé» ‘frightened’. «gagna … les goûtieres» is ‘made it to the gutters’, «gagner» meaning ‘to reach’, and «goûtieres» is the 1697 spelling of «gouttières», the gutters along the edge of a roof. «non sans peine & sans peril» is ‘not without trouble and danger’. His boots «ne valoient rien pour marcher sur les tuiles», ‘were worth nothing for walking on the tiles’."
+  },
+  {
+   "t": "Quelque temps aprés le Chat ayant veu que l’Ogre avoit quitté sa premiere forme, descendit, & avoüa qu’il avoit eu bien peur.",
+   "say": "Quelque temps après le Chat ayant vu que l’Ogre avait quitté sa première forme, descendit, et avoua qu’il avait eu bien peur.",
+   "l": "Some time after, the Cat, having seen that the Ogre had left his first form, came down, and avowed that he had had great fear.",
+   "i": "Some time later, seeing that the Ogre had given up his first shape, the Cat came down and confessed that he had been badly frightened.",
+   "n": "«ayant veu» is ‘having seen’, and «quitté sa premiere forme» ‘left his first form’, given up the lion’s shape. «avoüa» is «avoua» ‘confessed’, printed with the same diaeresis as «réjoüit». «avoir bien peur» is ‘to be very afraid’, literally ‘to have well fear’."
+  },
+  {
+   "t": "On m’a assuré encore, dit le Chat, mais je ne sçaurois le croire, que vous aviez aussi le pouvoir de prendre la forme des plus petits Animaux, par exemple, de vous changer en un rat, en une souris ;",
+   "say": "On m’a assuré encore, dit le Chat, mais je ne saurais le croire, que vous aviez aussi le pouvoir de prendre la forme des plus petits Animaux, par exemple, de vous changer en un rat, en une souris ;",
+   "l": "One has assured me also, said the Cat, but I could not believe it, that you had also the power to take the form of the smallest Animals, for example, to change yourself into a rat, into a mouse;",
+   "i": "I have also been assured, said the Cat, though I cannot believe it, that you have the power as well to take the shape of the very smallest animals, to change yourself, for instance, into a rat or a mouse;",
+   "n": "«je ne sçaurois le croire» is ‘I could not believe it’: «savoir» in the conditional with «ne» alone is a polite way of saying ‘cannot’ («sçaurois» is modern «saurais»). The Cat’s flattery now takes the form of doubt."
+  },
+  {
+   "t": "je vous avoüe que je tiens cela tout à fait impossible.",
+   "say": "je vous avoue que je tiens cela tout à fait impossible.",
+   "l": "I avow to you that I hold that altogether impossible.",
+   "i": "I confess I consider that quite impossible.",
+   "n": "«je vous avoüe que» is ‘I confess to you that’. «je tiens cela tout à fait impossible» is ‘I hold that altogether impossible’, «tenir» with an adjective meaning ‘to consider’."
+  },
+  {
+   "t": "Impossible ? réprit l’Ogre, vous allez voir, & en même temps il se changea en une souris qui se mit à courir sur le plancher.",
+   "say": "Impossible ? reprit l’Ogre, vous allez voir, et en même temps il se changea en une souris qui se mit à courir sur le plancher.",
+   "l": "Impossible? rejoined the Ogre, you are going to see, and at the same time he changed himself into a mouse, which set itself to run on the floor.",
+   "i": "Impossible? retorted the Ogre. You shall see; and in the same instant he changed himself into a mouse, which began to run about the floor.",
+   "n": "«réprit» is «reprit» ‘rejoined’, printed with an accent modern French does not use. «vous allez voir» ‘you are going to see’ is spelled here with two l. «en même temps» ‘in the same time’ is ‘at that very moment’, and «se mit à courir» is ‘began to run’."
+  },
+  {
+   "t": "Le chat ne l’eut pas plustost aperçuë, qu’il se jetta dessus, & la mangea.",
+   "say": "Le chat ne l’eut pas plutôt aperçue, qu’il se jeta dessus, et la mangea.",
+   "l": "The Cat had no sooner perceived it than he threw himself upon it, and ate it.",
+   "i": "No sooner had the Cat caught sight of it than he pounced on it and ate it.",
+   "n": "«ne l’eut pas plustost aperçuë, qu’il se jetta dessus» is ‘had no sooner seen it than he threw himself on it’: «ne … pas plustost … que» is ‘no sooner … than’, with «plustost» for «plus tôt». «aperçuë» agrees with «l’», the mouse, which is feminine in French, and «jetta» is «jeta». «dessus» is ‘on top of it’."
+  },
+  {
+   "t": "Cependant le Roy qui vit en passant le beau Chasteau de l’Ogre, voulut entrer dedans.",
+   "say": "Cependant le Roi qui vit en passant le beau Château de l’Ogre, voulut entrer dedans.",
+   "l": "Meanwhile the King, who saw in passing the fine Castle of the Ogre, wanted to go in inside.",
+   "i": "Meanwhile the King, seeing the Ogre’s fine castle as he passed, wished to go in.",
+   "n": "«Cependant» here has its older sense ‘meanwhile’, not the modern ‘however’. «vit en passant» is ‘saw in passing’, and «entrer dedans» ‘go in inside’ is a doubling the French of the time allowed itself."
+  },
+  {
+   "t": "Le Chat qui entendit le bruit du Carosse qui passoit sur le pont levis, courut au-devant, & dit au Roy : Vostre Majesté soit la bien venuë dans le Chasteau de Monsieur le Marquis de Carabas.",
+   "say": "Le Chat qui entendit le bruit du Carrosse qui passait sur le pont levis, courut au-devant, et dit au Roi : Votre Majesté soit la bien venue dans le Château de Monsieur le Marquis de Carabas.",
+   "l": "The Cat, who heard the noise of the Coach that was passing over the drawbridge, ran out ahead, and said to the King: may Your Majesty be the welcome one in the Castle of Monsieur the Marquis de Carabas.",
+   "i": "The Cat, hearing the rumble of the coach crossing the drawbridge, ran out to meet it and said to the King, Welcome, Your Majesty, to the castle of my lord the Marquis de Carabas.",
+   "n": "«pont levis» (modern «pont-levis») is a drawbridge, and «courut au-devant» is ‘ran out to meet it’. «Vostre Majesté soit la bien venuë» is ‘may Your Majesty be welcome’: «soit» is a subjunctive of wish, and «bien venuë» (modern «bienvenue») is feminine to agree with «Majesté». The castle whose welcome the Cat offers belonged, a moment ago, to the Ogre he has just eaten."
+  },
+  {
+   "t": "Comment Monsieur le Marquis, s’écria le Roy, ce Chasteau est encore à vous, il ne se peut rien de plus beau que cette cour & que tous ces Bastimens qui l’environent ; voyons les dedans s’il vous plait.",
+   "say": "Comment Monsieur le Marquis, s’écria le Roi, ce Château est encore à vous, il ne se peut rien de plus beau que cette cour et que tous ces Bâtiments qui l’environnent ; voyons les dedans s’il vous plaît.",
+   "l": "What, Monsieur the Marquis, cried the King, this Castle is also yours! there cannot be anything more beautiful than this courtyard and than all these Buildings that surround it; let us see the inside, if you please.",
+   "i": "What, my lord Marquis, the King exclaimed, this castle is yours too? Nothing could be finer than this courtyard and all the buildings around it. Let us see the inside, if you please.",
+   "n": "«Comment» is the exclamation ‘What!’. «ce Chasteau est encore à vous» is ‘this castle is also yours’, with «encore» meaning ‘as well, besides’, not ‘still’. «il ne se peut rien de plus beau» is ‘nothing more beautiful can be’. «Bastimens» is «bâtiments» ‘buildings’, and «environent» is «environnent» ‘surround’. «voyons les dedans» ‘let us see the insides’ uses «dedans» as a noun, the interior, and «plait» is «plaît»."
+  },
+  {
+   "t": "Le Marquis donna la main à la jeune Princesse,",
+   "l": "The Marquis gave his hand to the young Princess,",
+   "i": "The Marquis gave the young princess his hand,",
+   "n": "«donna la main à la jeune Princesse» is ‘gave his hand to the young Princess’: he offered her his hand to lead her in, a courtesy a gentleman owed a lady, and here nothing more than that."
+  },
+  {
+   "t": "& suivant le Roy qui montoit le premier, ils entrerent dans une grande Sale où ils trouverent une magnifique colation que l’Ogre avoit fait preparer pour ses amis qui le devoient venir voir ce même jour-là, mais qui n’avoient pas osé entrer, sçachant que le Roy y estoit.",
+   "say": "et suivant le Roi qui montait le premier, ils entrèrent dans une grande Salle où ils trouvèrent une magnifique collation que l’Ogre avait fait préparer pour ses amis qui le devaient venir voir ce même jour-là, mais qui n’avaient pas osé entrer, sachant que le Roi y était.",
+   "l": "and following the King, who was going up first, they entered into a great Hall, where they found a magnificent collation that the Ogre had had prepared for his friends, who were to come to see him that same day, but who had not dared to enter, knowing that the King was there.",
+   "i": "and, following the King, who led the way up, they entered a great hall, where they found a magnificent spread of refreshments that the Ogre had had made ready for his friends, who were to come and see him that very day but had not dared to come in, knowing that the King was there.",
+   "n": "«montoit le premier» is ‘was going up first’, ahead of the others as his rank required. «Sale» is «salle» ‘hall’. A «colation» (modern «collation») was a light meal set out between the regular meals, often cold dishes, fruit and sweetmeats. «avoit fait preparer» is ‘had had prepared’, and «le devoient venir voir» ‘were to come and see him’ sets «le» before «devoient», the 1697 order. «entrerent» and «trouverent» are passés simples, and «sçachant» is «sachant» ‘knowing’."
+  },
+  {
+   "t": "Le Roy charmé des bonnes qualitez de Monsieur le Marquis de Carabas, de même que sa fille qui en estoit folle ; & voyant les grands biens qu’il possedoit, luy dit, aprés avoir beu cinq ou six coups, il ne tiendra qu’à vous Monsieur le Marquis que vous ne soyez mon gendre.",
+   "say": "Le Roi charmé des bonnes qualités de Monsieur le Marquis de Carabas, de même que sa fille qui en était folle ; et voyant les grands biens qu’il possédait, lui dit, après avoir bu cinq ou six coups, il ne tiendra qu’à vous Monsieur le Marquis que vous ne soyez mon gendre.",
+   "l": "The King, charmed by the good qualities of Monsieur the Marquis de Carabas, just like his daughter, who was mad about him, and seeing the great possessions that he possessed, said to him, after having drunk five or six draughts: it will rest only with you, Monsieur the Marquis, that you be my son-in-law.",
+   "i": "The King was charmed by the fine qualities of my lord the Marquis de Carabas, as was his daughter, who was mad about him; and, seeing the great wealth he possessed, he said to him after five or six glasses, It rests with you alone, my lord Marquis, to become my son-in-law.",
+   "n": "«charmé» is stronger than today’s ‘charmed’, keeping something of «charme» ‘spell’: ‘enchanted’. «qualitez» is «qualités», and «de même que sa fille qui en estoit folle» is ‘just like his daughter, who was mad about him’; the witness sets a semicolon after «folle» inside what is one long subject. «beu» is «bu» ‘drunk’, and «cinq ou six coups» are five or six draughts of wine. «il ne tiendra qu’à vous … que vous ne soyez mon gendre» is ‘it will rest only with you that you be my son-in-law’: «il ne tient qu’à» is ‘it depends only on’, and the «ne» before the subjunctive «soyez» adds no negation, as often after such phrases."
+  },
+  {
+   "t": "Le Marquis faisant de grandes réverences accepta l’honneur que luy faisoit le Roy ; & dés le même jour épousa la princesse.",
+   "say": "Le Marquis faisant de grandes révérences accepta l’honneur que lui faisait le Roi ; et dès le même jour épousa la princesse.",
+   "l": "The Marquis, making great bows, accepted the honour that the King was doing him; and that very same day married the princess.",
+   "i": "The Marquis, bowing low again and again, accepted the honour the King did him, and that very day he married the princess.",
+   "n": "«faisant de grandes réverences» is ‘making great bows’, as courtesy to a king required. In «l’honneur que luy faisoit le Roy» ‘the honour that the King was doing him’ the subject follows the verb. «dés le même jour» is ‘that very same day’, «dés» being «dès» ‘from, as early as’, and «épousa» is the passé simple ‘married’."
+  },
+  {
+   "t": "Le Chat devint grand Seigneur, & ne courut plus aprés les souris, que pour se divertir.",
+   "say": "Le Chat devint grand Seigneur, et ne courut plus après les souris, que pour se divertir.",
+   "l": "The Cat became a great Lord, and no longer ran after mice, except to amuse himself.",
+   "i": "The Cat became a great lord, and never again chased mice except for his own amusement.",
+   "n": "«grand Seigneur» is ‘a great lord’, a nobleman of high rank. «ne courut plus … que pour se divertir» is ‘no longer ran … except to amuse himself’: «ne … plus … que» is ‘no more … but’, and «se divertir» is ‘to amuse oneself’."
+  },
+  {
+   "p": true,
+   "t": "MORALITÉ.",
+   "l": "MORAL",
+   "n": "«Moralité» is ‘moral’: each tale in the book ends with a moral in verse, and this one has two. The book’s own title promises them, «Avec des Moralitez»."
+  },
+  {
+   "v": true,
+   "t": "QVelque grand que soit l’avantage,\nDe jouir d’un riche heritage\nVenant à nous de pere en fils,\nAux jeunes gens pour l’ordinaire,\nL’industrie & le sçavoir faire,\nVallent mieux que des biens acquis.",
+   "say": "Quelque grand que soit l’avantage,\nDe jouir d’un riche héritage,\nVenant à nous de père en fils,\nAux jeunes gens pour l’ordinaire,\nL’industrie et le savoir faire,\nValent mieux que des biens acquis.",
+   "l": "However great may be the advantage\nOf enjoying a rich inheritance\nComing to us from father to son,\nTo young people, as a rule,\nIndustry and know-how\nAre worth more than acquired goods.",
+   "i": "However great the advantage may be\nOf enjoying a rich inheritance\nPassed down to us from father to son,\nFor the young, as a general rule,\nResourcefulness and practical skill\nAre worth more than riches ready-made.",
+   "n": "«QVelque grand que soit l’avantage» is ‘however great the advantage may be’: «quelque … que» takes the subjunctive «soit», and the witness prints «QV», a large capital with V for U, as at the tale’s opening. «jouir de» is ‘to enjoy, to have the use of’, and «pour l’ordinaire» is ‘as a rule’. «industrie» in 1697 is ‘ingenuity, resourcefulness’, not manufacturing, and «le sçavoir faire» (modern «savoir-faire») is ‘the knowing how to do’, practical skill; the Cat has both. «Vallent» is «valent» ‘are worth’, printed with two l. «biens acquis» ‘acquired goods’ are possessions already in hand, such as an inheritance brings."
+  },
+  {
+   "p": true,
+   "t": "Autre Moralité.",
+   "l": "ANOTHER MORAL"
+  },
+  {
+   "v": true,
+   "t": "SI le fils d’un Meûnier tant de vitesse,\nGagne le cœur d’une Princesse\nEt s’en fait regarder avec des yeux mourans,\nC’est que l’habit, la mine & la jeunesse,\nPour inspirer de la tendresse,\nN’en sont pas des moyens toûjours indifferens.",
+   "say": "SI le fils d’un Meunier tant de vitesse,\nGagne le cœur d’une Princesse,\nEt s’en fait regarder avec des yeux mourants,\nC’est que l’habit, la mine et la jeunesse,\nPour inspirer de la tendresse,\nN’en sont pas des moyens toujours indifférents.",
+   "l": "If the son of a Miller [with] so much speed,\nWins the heart of a Princess\nAnd makes himself be looked at by her with dying eyes,\nIt is that clothes, looks and youth,\nFor inspiring tenderness,\nAre not always indifferent means to it.",
+   "i": "If a miller’s son, with such speed,\nWins the heart of a princess\nAnd makes her look at him with languishing eyes,\nIt is because fine clothes, good looks and youth,\nWhen it comes to stirring tender feelings,\nAre means that do not always count for nothing.",
+   "n": "In the first line «tant de vitesse» ‘so much speed’ stands without a preposition where the grammar wants «avec» ‘with’ or «en» ‘in’; the bracket in the literal line supplies ‘with’. Whether the 1697 printer or the transcription lost a word is not certain, and Lectorium prints its witness unaltered. «Meûnier» is «meunier» ‘miller’, its circumflex standing for the s of «Meusnier» at the tale’s start. «s’en fait regarder avec des yeux mourans» is ‘makes himself be looked at by her with dying eyes’: «yeux mourans» (modern «mourants») are the languishing looks of love, a stock phrase of gallant verse, and «en» is ‘by her’. «l’habit, la mine & la jeunesse» ‘dress, looks and youth’ recall the King’s fine clothes and the son’s «bonne mine». «N’en sont pas des moyens toûjours indifferens» is ‘are not always indifferent means of it’, that is, they count for something; «indifferens» is «indifférents»."
+  }
+ ]
+}

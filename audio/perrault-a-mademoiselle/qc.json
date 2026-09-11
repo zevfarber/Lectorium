@@ -1,0 +1,18 @@
+{
+ "story": "perrault-a-mademoiselle",
+ "model": "faster-whisper small int8 (cpu)",
+ "threshold": 0.34,
+ "cpcRange": [
+  0.03,
+  0.14
+ ],
+ "units": 17,
+ "generated": "2026-09-11T10:10:57Z",
+ "status": "clean",
+ "rerolled": [
+  2,
+  16
+ ],
+ "failed": [],
+ "residuePct": 0.0
+}

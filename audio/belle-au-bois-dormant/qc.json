@@ -1,0 +1,47 @@
+{
+ "story": "belle-au-bois-dormant",
+ "model": "faster-whisper small int8 (cpu)",
+ "threshold": 0.34,
+ "cpcRange": [
+  0.03,
+  0.14
+ ],
+ "units": 126,
+ "generated": "2026-09-11T09:57:54Z",
+ "status": "residue",
+ "rerolled": [
+  35,
+  56,
+  66
+ ],
+ "failed": [
+  {
+   "wer": 0.364,
+   "cpc": 0.0583,
+   "heard": "Cependant les faits commencent à faire leur don à la princesse.",
+   "fail": true,
+   "i": 10,
+   "rerolls": 3,
+   "said": "Cependant les Fées commencèrent à faire leurs dons à la Princesse."
+  },
+  {
+   "wer": 0.35,
+   "cpc": 0.0578,
+   "heard": "Il reconnut pourtant bien au nez bourgeonné et à la phase vermeille des Suisses qu'ils aient naît et t'est condormi.",
+   "fail": true,
+   "i": 56,
+   "rerolls": 3,
+   "said": "Il reconnut pourtant bien au nez bourgeonné et à la face vermeille des Suisses, qu’ils n’étaient qu’endormis,"
+  },
+  {
+   "wer": 0.4,
+   "cpc": 0.0627,
+   "heard": "Ces discours furent mal rangés, ils ont plus d'avantage, peu d'éloquence, beaucoup d'amour.",
+   "fail": true,
+   "i": 66,
+   "rerolls": 3,
+   "said": "Ses discours furent mal rangez, ils en plurent davantage, peu d’éloquence, beaucoup d’amour :"
+  }
+ ],
+ "residuePct": 2.38
+}

@@ -1,0 +1,20 @@
+{
+ "work": "Histoires ou contes du temps pass\u00e9",
+ "note": "Context-free readings for the spoken layer (say). `map`: lowercased 1697 form -> modern form, one WORD_RE token each; proposed by glossers, checked by reviewers and by the speech-lexicon gate (hunspell fr_FR plus properNouns). `symbols`: printed characters that are spoken but are not WORD_RE tokens. `wordClipReadings`: how a glossary key that is an elided fragment is read in its own word clip. See claude/french-perrault-conventions.md \u00a73.",
+ "symbols": {
+  "&": "et"
+ },
+ "wordClipReadings": {
+  "c": "ce",
+  "d": "de",
+  "j": "je",
+  "l": "le",
+  "m": "me",
+  "n": "ne",
+  "qu": "que",
+  "s": "se",
+  "t": "te"
+ },
+ "properNouns": [],
+ "map": {}
+}

@@ -1,0 +1,103 @@
+name: Archive Perrault sources
+
+# Fetches Charles Perrault's Histoires ou contes du temps passe (1697) from fr.wikisource.org
+# and commits sources/perrault-NN-source.json, one per text (the dedication and eight tales).
+#
+# Why a runner: the Cowork sandbox cannot reach Wikisource. Written 2026-09-10 by the Perrault
+# infrastructure firing; see claude/perrault-runbook.md, Step A.
+#
+# Controls, all fatal and all run before any source file is written (the script's docstring has
+# the detail): the offline fixture test with injected defects; discovery shape; each text against
+# the Texte entier page, token for token; Page-namespace proofreading level; the declared
+# character inventory; completeness collation against the 1826 OEuvres choisies.
+#
+# WHAT IS COMMITTED EVEN WHEN THE RUN FAILS: sources/perrault-archive-log.txt and the raw pages
+# under sources/perrault-raw/. The next production firing reads the log, repairs the extractor
+# once and re-lands it. Source files are written only on a full PASS.
+#
+# Self-retrigger is prevented as in archive.yml: the push filter matches only this workflow and
+# its script, commits made with GITHUB_TOKEN start no workflow runs, and the commit says
+# [skip ci]. The commit touches sources/** only, which audio.yml's filter does not match.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/scripts/archive_perrault.py'
+      - '.github/workflows/archive-perrault.yml'
+  schedule:
+    # 00:47 UTC daily. Idempotent: once all nine sources exist with passing controls the script
+    # exits at once and nothing is committed.
+    - cron: '47 0 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Re-archive even if all nine sources exist'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: archive-perrault
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install --quiet beautifulsoup4 lxml requests
+
+      - name: Fixture test (offline, no network)
+        run: python .github/scripts/archive_perrault.py --fixture
+
+      - name: Archive (controls run first and are fatal)
+        id: archive
+        env:
+          FORCE: ${{ github.event.inputs.force || 'false' }}
+        run: |
+          set -o pipefail
+          ARGS=""
+          if [ "$FORCE" = "true" ]; then ARGS="--force"; fi
+          python .github/scripts/archive_perrault.py $ARGS
+
+      - name: Commit sources, log and raw pages
+        if: always()
+        run: |
+          set -eo pipefail
+          git config user.name  'lectorium-archiver'
+          git config user.email 'actions@github.com'
+          for f in sources/perrault-*-source.json sources/perrault-archive-log.txt sources/perrault-raw; do
+            if [ -e "$f" ]; then git add "$f"; fi
+          done
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+            exit 0
+          fi
+          N=$(git diff --cached --name-only | wc -l | tr -d ' ')
+          git commit -m "Archive Perrault 1697 sources: ${{ steps.archive.outcome }} ($N file(s)) [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            if git push; then echo "pushed on attempt $attempt"; exit 0; fi
+            git pull --rebase origin main || { echo "rebase failed; refusing to force"; exit 1; }
+            sleep $((attempt * 5))
+          done
+          exit 1
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Perrault 1697 source archive" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Archive step: ${{ steps.archive.outcome }}" >> $GITHUB_STEP_SUMMARY
+          echo "Sources on disk: $(ls sources/perrault-*-source.json 2>/dev/null | wc -l | tr -d ' ') of 9" >> $GITHUB_STEP_SUMMARY
+          tail -n 3 sources/perrault-archive-log.txt >> $GITHUB_STEP_SUMMARY 2>/dev/null || true

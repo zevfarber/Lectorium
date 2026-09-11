@@ -14,6 +14,17 @@ Rate limiting: Chirp-HD voices have a modest requests-per-minute quota, so long
 tales (e.g. 56 sentences) burst past it and get HTTP 429. We throttle between
 clips and back off (honouring Retry-After) on 429/5xx.
 
+Spoken layer and word clips (added 2026-09-10 for Perrault's 1697 text):
+  * a sentence whose `say` is a STRING is synthesized from `say` instead of `t`
+    (the page shows the printed spelling, the voice reads the modern one). An
+    ARRAY-valued `say` (the Egyptian readable-reading layer) is not a spoken
+    string and is ignored here exactly as before;
+  * a story carrying `wordClips: true` also gets audio/<id>/w/<n>.mp3 for every
+    glossary key its text uses, plus words.json ({key: n}) for the reader's popup;
+  * stories with a string `say` or `wordClips: true` align with align_wordref.py
+    and get the listening check (audio_qc.py). Every other story takes exactly the
+    old path: same spoken strings, same texts.json, same align_dtw.py call.
+
 Usage: python3 build_audio.py <story-id>
 Env:   GOOGLE_TTS_KEY  (Google Cloud TTS API key, from Actions secret)
 """
@@ -102,6 +113,65 @@ def synth_with_retry(text, cfg, key):
     raise last_err
 
 
+def spoken_text(s):
+    """The string the voice reads for one sentence.
+
+    `say` counts only when it is a non-empty STRING. For every story without one this is
+    byte-for-byte the expression build_audio has always used: s["t"].replace("\n", " ").strip().
+    """
+    say = s.get("say")
+    src = say if isinstance(say, str) and say.strip() else s["t"]
+    return src.replace("\n", " ").strip()
+
+
+def new_regime(story):
+    """True for stories that use the spoken layer or word clips (Perrault onward)."""
+    return bool(story.get("wordClips") is True
+                or any(isinstance(s.get("say"), str) for s in story["sentences"]))
+
+
+def build_word_clips(sid, story, adir, cfg, key):
+    """audio/<id>/w/<n>.mp3 + words.json for a story with wordClips: true.
+
+    Keys are the reader's own glossary keys (wordKey of each WORD_RE token of `t`). A key is
+    spoken as the modern form the sentence's `say` gives that token, or as the token itself;
+    elided one-letter forms (l, qu, d ...) take the full reading declared in the speech map's
+    `wordClipReadings`. Numbers already assigned in words.json are kept, so a re-issue never
+    renumbers (and never re-synthesizes) a clip whose text did not change.
+    """
+    import align_wordref as AW   # same directory; shares the reader-mirroring tokenizer
+    readings = AW.speech_tables()["wordClipReadings"]
+    spoken_for = {}
+    for s in story["sentences"]:
+        for tok, sp in AW.token_pairs(s):
+            k = AW.word_key(tok)
+            if k not in spoken_for:
+                spoken_for[k] = readings.get(k) or readings.get(sp.lower()) or sp
+    wdir = adir + "/w"
+    os.makedirs(wdir, exist_ok=True)
+    wf, wtf = adir + "/words.json", wdir + "/texts.json"
+    words = json.load(open(wf, encoding="utf-8")) if os.path.exists(wf) else {}
+    wtexts = json.load(open(wtf, encoding="utf-8")) if os.path.exists(wtf) else {}
+    nxt = max([int(n) for n in words.values()] + [-1]) + 1
+    made = 0
+    for k in sorted(spoken_for):
+        if k not in words:
+            words[k] = nxt
+            nxt += 1
+        n = str(words[k])
+        path = "%s/%s.mp3" % (wdir, n)
+        text = spoken_for[k]
+        if os.path.exists(path) and os.path.getsize(path) > 0 and wtexts.get(n) == text:
+            continue
+        open(path, "wb").write(synth_with_retry(text, cfg, key))
+        wtexts[n] = text
+        made += 1
+        time.sleep(THROTTLE_S)
+    json.dump(words, open(wf, "w", encoding="utf-8"), ensure_ascii=False, indent=1, sort_keys=True)
+    json.dump(wtexts, open(wtf, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print("word clips: %d written of %d keys for %s" % (made, len(spoken_for), sid))
+
+
 def main():
     sid = sys.argv[1]
     story = json.load(open(sid + ".json", encoding="utf-8"))
@@ -132,18 +202,20 @@ def main():
             prev_texts = json.load(open(tf, encoding="utf-8"))
         except Exception:
             prev_texts = {}
-    else:
+    elif not new_regime(story):
         # Clips that predate this cache are grandfathered in: record what they say now rather
         # than resynthesizing a whole corpus to establish a baseline we already trust.
         prev_texts = {str(i): s["t"].replace("\n", " ").strip()
                       for i, s in enumerate(story["sentences"])
                       if os.path.exists("%s/%d.mp3" % (adir, i))}
+    # A new-regime story is never grandfathered: its text (or its spoken layer) has just been
+    # re-issued, so an old clip with no recorded text is exactly the clip that must not be trusted.
 
     made = restaled = 0
     texts = {}
     for i, s in enumerate(story["sentences"]):
         path = "%s/%d.mp3" % (adir, i)
-        text = s["t"].replace("\n", " ").strip()
+        text = spoken_text(s)
         texts[str(i)] = text
         fresh = os.path.exists(path) and os.path.getsize(path) > 0
         if fresh and prev_texts.get(str(i)) == text:
@@ -160,8 +232,21 @@ def main():
 
     env = dict(os.environ)
     env["ESPEAK_VOICE"] = cfg["espeak"]
+    if not new_regime(story):
+        subprocess.run(
+            ["python3", ".github/scripts/align_dtw.py", sid],
+            check=True, env=env,
+        )
+        return
+
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    if story.get("wordClips") is True:
+        build_word_clips(sid, story, adir, cfg, key)
+    # The listening check re-rolls bad clips BEFORE alignment, so timings are taken from the
+    # clip that ships. It never fails the job: its findings go to audio/<id>/qc.json.
+    subprocess.run(["python3", ".github/scripts/audio_qc.py", sid], check=False, env=env)
     subprocess.run(
-        ["python3", ".github/scripts/align_dtw.py", sid],
+        ["python3", ".github/scripts/align_wordref.py", sid],
         check=True, env=env,
     )
 

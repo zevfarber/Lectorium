@@ -5,6 +5,11 @@ name: Build audio
 # align.json back to main. Runs on a GitHub-hosted runner because the Cowork
 # sandbox cannot reach Google TTS; the runner has open internet.
 #
+# Stories with a spoken layer (a string `say`) or `wordClips: true` (Perrault
+# onward) also get word clips (audio/<id>/w/ + words.json), the listening check
+# (qc.json) and word-clip-referenced alignment. Every other story takes exactly
+# the old path.
+#
 # Self-retrigger is prevented three ways: (1) the path filter is root-level
 # *.json only, so the audio/** commit does not match; (2) commits made with the
 # built-in GITHUB_TOKEN do not trigger further workflow runs; (3) [skip ci] on
@@ -66,6 +71,11 @@ jobs:
           set -e
           for id in ${{ steps.targets.outputs.ids }}; do
             echo "::group::build audio for $id"
+            # The listening check (audio_qc.py) runs only for stories with a spoken layer or
+            # word clips (Perrault onward); its speech-recognition model is installed only then.
+            if python3 .github/scripts/audio_qc.py --needs "$id"; then
+              python3 -m pip install --quiet faster-whisper || echo "faster-whisper install failed; qc.json will say so"
+            fi
             python3 .github/scripts/build_audio.py "$id"
             echo "::endgroup::"
           done

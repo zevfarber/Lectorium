@@ -1,0 +1,50 @@
+{
+ "story": "cendrillon",
+ "model": "faster-whisper small int8 (cpu)",
+ "threshold": 0.34,
+ "cpcRange": [
+  0.03,
+  0.14
+ ],
+ "units": 110,
+ "generated": "2026-09-13T20:14:11Z",
+ "status": "residue",
+ "rerolled": [
+  9,
+  18,
+  58,
+  60,
+  89,
+  92
+ ],
+ "failed": [
+  {
+   "wer": 0.35,
+   "cpc": 0.0697,
+   "heard": "Le fils du roi l'a mis à la place la plus honorable, et ensuite l'a pris pour la menée danser.",
+   "fail": true,
+   "i": 55,
+   "rerolls": 3,
+   "said": "Le Fils du Roi la mit à la place la plus honorable, et ensuite la prit pour la mener danser :"
+  },
+  {
+   "wer": 0.545,
+   "cpc": 0.0621,
+   "heard": "Lorsqu'elle causait ainsi, Sandrillon entendit sonner 11h15.",
+   "fail": true,
+   "i": 60,
+   "rerolls": 3,
+   "said": "Lorsqu’elles causaient ainsi, Cendrillon entendit sonner onze heures trois quarts ;"
+  },
+  {
+   "wer": 0.353,
+   "cpc": 0.0723,
+   "heard": "On commença à aller seiller au princesse, ensuite au duchesse et à toute la cour, mais inutilement.",
+   "fail": true,
+   "i": 89,
+   "rerolls": 3,
+   "said": "On commença à l’essayer aux Princesses, ensuite aux Duchesses, et à toute la Cour, mais inutilement :"
+  }
+ ],
+ "residuePct": 2.73
+}

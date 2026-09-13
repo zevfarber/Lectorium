@@ -1,0 +1,25 @@
+{
+ "story": "riquet-a-la-houppe",
+ "model": "faster-whisper small int8 (cpu)",
+ "threshold": 0.34,
+ "cpcRange": [
+  0.03,
+  0.14
+ ],
+ "units": 94,
+ "generated": "2026-09-13T20:46:38Z",
+ "status": "residue",
+ "rerolled": [],
+ "failed": [
+  {
+   "wer": 0.417,
+   "cpc": 0.0736,
+   "heard": "Il est vrai aussi que leur défaut augmente beaucoup avec Neil, Hage.",
+   "fail": true,
+   "i": 16,
+   "rerolls": 3,
+   "said": "Il est vrai aussi que leurs défauts augmentèrent beaucoup avec l’âge."
+  }
+ ],
+ "residuePct": 1.06
+}

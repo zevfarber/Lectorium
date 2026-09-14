@@ -26,7 +26,8 @@ these rules, and anything you cannot decide goes into `QUESTIONS.md` rather than
 Cut the part's text out of `source-1800.txt` using the exact `opens` and `ends` strings from
 `parts.json`; whitespace-normalise; check the word count and sha256 against `parts.json`. If they
 do not match, stop and write the discrepancy to `QUESTIONS.md` — never draft from a text you have
-not verified.
+not verified. Whenever a run stops without publishing, delete its own claim file in the same
+commit as the LOG/QUESTIONS entry, so the next run can take the part.
 
 ## 2. Draft
 

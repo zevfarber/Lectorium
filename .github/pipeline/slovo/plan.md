@@ -9,7 +9,7 @@ whole text with nothing left over (verified 2026-09-14).
 |---|---|---|---|---|---|---|
 | 0 | — | Proem — Boyan the bard | Не лѣполи ны бяшетъ… | …Княземъ славу рокотаху. | 106 | **live** (`slovo-proem.json`, with audio) |
 | 1 | I | The campaign & the eclipse | Почнемъ же, братіе… | …ищучи себѣ чти, а Князю славы. | 389 | **live** (`slovo-part1.json`, 21 units, text only) |
-| 2 | II | The two days of battle | Съ заранія въ пяткъ потопташа… | …отъ тебе Яръ Туре Всеволоде. | 224 | to do |
+| 2 | II | The two days of battle | Съ заранія въ пяткъ потопташа… | …отъ тебе Яръ Туре Всеволоде. | 224 | **live** (`slovo-part2.json`, 15 units, text only) |
 | 3 | III | The old wars & the fall | Кая раны дорога, братіе… | …а сами полегоша за землю Рускую. | 254 | to do |
 | 4 | IV | Rus' mourns | Ничить трава жалощами… | …а веселіе пониче. | 291 | to do |
 | 5 | V | Svyatoslav's dream & the Golden Word | А Святъславь мутенъ сонъ видѣ… | …Се ли створисте моей сребреней сѣдинѣ! | 245 | to do |

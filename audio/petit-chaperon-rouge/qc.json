@@ -1,0 +1,27 @@
+{
+ "story": "petit-chaperon-rouge",
+ "model": "faster-whisper small int8 (cpu)",
+ "threshold": 0.34,
+ "cpcRange": [
+  0.03,
+  0.14
+ ],
+ "units": 40,
+ "generated": "2026-09-14T11:37:20Z",
+ "status": "residue",
+ "rerolled": [
+  35
+ ],
+ "failed": [
+  {
+   "wer": 0.5,
+   "cpc": 0.0713,
+   "heard": "Tire la cheviette, la bobinet tchéra.",
+   "fail": true,
+   "i": 24,
+   "rerolls": 3,
+   "said": "tire la chevillette, la bobinette cherra."
+  }
+ ],
+ "residuePct": 2.5
+}

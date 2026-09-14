@@ -1,0 +1,67 @@
+{
+ "story": "petit-poucet",
+ "model": "faster-whisper small int8 (cpu)",
+ "threshold": 0.34,
+ "cpcRange": [
+  0.03,
+  0.14
+ ],
+ "units": 167,
+ "generated": "2026-09-14T12:16:32Z",
+ "status": "residue",
+ "rerolled": [
+  82,
+  103,
+  106,
+  107,
+  124
+ ],
+ "failed": [
+  {
+   "wer": 0.545,
+   "cpc": 0.0647,
+   "heard": "Il survente une grosse pluie qui l'éperce à jusqu'au zô.",
+   "fail": true,
+   "i": 63,
+   "rerolls": 3,
+   "said": "Il survint une grosse pluie qui les perça jusqu’aux os ;"
+  },
+  {
+   "wer": 0.4,
+   "cpc": 0.0694,
+   "heard": "Aussitôt sa femme l'est fit cacher sous le lit et à la ouvrir la porte.",
+   "fail": true,
+   "i": 82,
+   "rerolls": 3,
+   "said": "Aussi tôt sa femme les fit cacher sous le lit et alla ouvrir la porte."
+  },
+  {
+   "wer": 0.417,
+   "cpc": 0.0652,
+   "heard": "L'œuvre avait cette fille qui haine, était encore que des enfants.",
+   "fail": true,
+   "i": 103,
+   "rerolls": 3,
+   "said": "L’Ogre avait sept filles qui n’étaient encore que des enfants."
+  },
+  {
+   "wer": 0.571,
+   "cpc": 0.0623,
+   "heard": "Elzen était pas encore fort méchante.",
+   "fail": true,
+   "i": 106,
+   "rerolls": 3,
+   "said": "Elles n’étaient pas encore fort méchantes ;"
+  },
+  {
+   "wer": 0.444,
+   "cpc": 0.0672,
+   "heard": "Il crure son conseil et gagne-er vite la maison.",
+   "fail": true,
+   "i": 140,
+   "rerolls": 3,
+   "said": "Ils crurent son conseil, et gagnèrent vite la maison."
+  }
+ ],
+ "residuePct": 2.99
+}

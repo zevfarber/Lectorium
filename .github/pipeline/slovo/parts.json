@@ -99,5 +99,6 @@
    "chars": 585,
    "sha256": "6d1ce0320acc0eb0bbda68093f77e8b6e40a9620f85854d3d0942ecfa2f64af0"
   }
- ]
+ ],
+ "_note": "chars/sha256 are computed on the whitespace-normalised source (all runs of whitespace collapsed to one space), exactly as validate_slovo.py extracts a part."
 }

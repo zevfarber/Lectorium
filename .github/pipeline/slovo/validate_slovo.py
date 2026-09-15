@@ -58,11 +58,11 @@ def main():
     sents = story.get('sentences', [])
     gate('sentences non-empty', bool(sents))
     gate('every sentence has t/tr/l', all(all(k in s and isinstance(s[k], str) and s[k].strip() for k in ('t', 'tr', 'l')) for s in sents))
-    gate('first sentence starts a paragraph', bool(sents) and sents[0].get('p') is True)
 
     # gate 2: concat against the source part
     parts = json.load(open(os.path.join(HERE, 'parts.json'), encoding='utf-8'))['parts']
-    src = norm(open(os.path.join(HERE, 'source-1800.txt'), encoding='utf-8').read())
+    raw_source = open(os.path.join(HERE, 'source-1800.txt'), encoding='utf-8').read()
+    src = norm(raw_source)
     m = re.search(r'slovo-part(\d+)$', story.get('id', ''))
     pn = int(m.group(1)) if m else (0 if story.get('id') == 'slovo-proem' else None)
     gate('id names a part', pn is not None, story.get('id', ''))
@@ -78,6 +78,29 @@ def main():
             detail = 'first difference at char %d: story %r vs source %r' % (k, cat[max(0, k-30):k+30], seg[max(0, k-30):k+30])
         gate('concat t == source part %d' % pn, same, detail)
         gate('word count matches parts.json', len(cat.split()) == p['words'], '%d vs %d' % (len(cat.split()), p['words']))
+
+        # gate 3: p:true marks exactly the sentences that open a real source paragraph
+        # (the 1800 edition has 7 paragraphs by blank line; several parts — a part is a
+        # narrower cut than a paragraph — sit entirely inside one paragraph and correctly
+        # carry no p:true at all, so "first sentence always starts a paragraph" is false
+        # in general; only true source paragraph-start offsets get marked).
+        raw_paras = re.split(r'\n\s*\n', raw_source.strip())
+        para_starts, para_pos = set(), 0
+        for rp in raw_paras:
+            npara = norm(rp)
+            idx = src.find(npara, para_pos)
+            para_starts.add(idx)
+            para_pos = idx + len(npara)
+        cur, offs = i, []
+        for s in sents:
+            st = norm(s['t'])
+            off = src.find(st, cur)
+            offs.append(off)
+            cur = off + len(st) if off != -1 else cur
+        expected = [off in para_starts for off in offs]
+        actual = [s.get('p') is True for s in sents]
+        gate('p marks exactly the sentences that open a source paragraph', expected == actual,
+             'expected %s vs actual %s' % (expected, actual))
 
     # gate 4: glossary coverage under the reader's tokenizer
     gl = story.get('glossary', {})

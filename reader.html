@@ -418,6 +418,9 @@
     line-height:1.1; writing-mode:vertical-lr; height:2.1em; min-width:44px; }
   table.abc td.abcn { font-family:system-ui,'Noto Sans',sans-serif; font-size:.76rem; color:var(--muted);
     text-align:left; line-height:1.35; max-width:280px; }
+  table.abc.dn td.f { writing-mode:horizontal-tb; height:auto; font-family:'Noto Serif Devanagari','Noto Sans Devanagari','Nirmala UI','Kohinoor Devanagari','Devanagari Sangam MN','Mangal',serif;
+    font-size:1.5rem; line-height:1.5; font-style:normal; min-width:40px; }
+  table.abc.dn td.f .from { display:block; font-size:.62rem; color:var(--muted); font-family:system-ui,'Noto Sans',sans-serif; line-height:1.1; }
   @media (max-width:560px){ table.abc td.abcn { display:none; } }
   .abcNote { font-family:system-ui,'Noto Sans',sans-serif; font-size:.8rem; color:#6b5d33;
     background:var(--note-bg); border:1px solid var(--note-border); border-radius:8px;
@@ -3147,6 +3150,94 @@ const MONGOL_ALPHABET = {
 };
 SIGN_GLOSSARIES["mongol"] = { type: "alphabet", groups: MONGOL_ALPHABET };
 
+/* ---- the Devanagari alphabet (script: "devanagari") ----
+   A grammar-book chart of the syllabic alphabet as Sanskrit uses it: every consonant letter
+   carries an inherent short a; the other vowels are written as marks around it; a vowel with
+   no consonant has its own full letter; two consonants with no vowel between fuse into one
+   conjunct sign. Registered in SIGN_GLOSSARIES so the shared 📜 button logic picks it up. */
+const DEVANAGARI_ALPHABET = {
+  vowels: [
+    ["अ","","a","short a, as in 'but'; every consonant letter contains it unless a mark says otherwise"],
+    ["आ","ा","ā","long, as in 'father' — a stroke after the consonant"],
+    ["इ","ि","i","short i — the mark is written BEFORE the consonant it follows in sound (कि ki)"],
+    ["ई","ी","ī","long ī — after the consonant"],
+    ["उ","ु","u","short u — hooked below"],
+    ["ऊ","ू","ū","long ū — below"],
+    ["ऋ","ृ","ṛ","a vowel r, pronounced ri in India today"],
+    ["ॠ","ॄ","ṝ","long vowel r — rare (pitṝn 'fathers')"],
+    ["ऌ","ॢ","ḷ","a vowel l — vanishingly rare"],
+    ["ए","े","e","always long, as in 'they' — a stroke above"],
+    ["ऐ","ै","ai","as in 'aisle' — two strokes above"],
+    ["ओ","ो","o","always long, as in 'go' — ā-stroke plus a stroke above"],
+    ["औ","ौ","au","as in 'how'"]
+  ],
+  consonants: [
+    ["velars — back of the throat", [["क","ka"],["ख","kha"],["ग","ga"],["घ","gha"],["ङ","ṅa"]]],
+    ["palatals", [["च","ca"],["छ","cha"],["ज","ja"],["झ","jha"],["ञ","ña"]]],
+    ["retroflex — tongue curled back", [["ट","ṭa"],["ठ","ṭha"],["ड","ḍa"],["ढ","ḍha"],["ण","ṇa"]]],
+    ["dentals — tongue on the teeth", [["त","ta"],["थ","tha"],["द","da"],["ध","dha"],["न","na"]]],
+    ["labials", [["प","pa"],["फ","pha"],["ब","ba"],["भ","bha"],["म","ma"]]],
+    ["semivowels", [["य","ya"],["र","ra"],["ल","la"],["व","va"]]],
+    ["sibilants and h", [["श","śa"],["ष","ṣa"],["स","sa"],["ह","ha"]]]
+  ],
+  marks: [
+    ["ं","ṃ  (anusvāra)","a dot above: nasalises the vowel, or stands for the nasal of the next consonant's class (संजय saṃjaya)"],
+    ["ः","ḥ  (visarga)","two dots after: a breath at the end of a word (युयुत्सवः yuyutsavaḥ); it becomes o, r, s or ś when the next word begins (see the readings)"],
+    ["ँ","~  (candrabindu)","moon-and-dot: a nasalised vowel — rare in the Gītā"],
+    ["्","(virāma)","a stroke below: this consonant has NO vowel (अब्रवीत् abravīt); at a word's end only — inside a word the consonants fuse instead"],
+    ["ऽ","'  (avagraha)","a lost initial a-: तुमुलोऽभवत् tumulo 'bhavat is tumulaḥ + abhavat"],
+    ["।","|  (daṇḍa)","end of a half-verse; ॥ (double daṇḍa) ends the verse"]
+  ],
+  conjuncts: [
+    ["क्ष","kṣa","k + ṣ — one sign that looks like neither (क्षेत्रे kṣetre)"],
+    ["ज्ञ","jña","j + ñ — the other unguessable one (संज्ञार्थं saṃjñārtham)"],
+    ["त्र","tra","t + r — an r after a consonant is a small hook below"],
+    ["र्म","rma","r BEFORE a consonant is a hook above the following letter (धर्म dharma)"],
+    ["श्च","śca","ś + c, as in पाण्डवाश्चैव (pāṇḍavāḥ + ca + eva)"],
+    ["द्ध","ddha","d + dh stacked (युद्धे yuddhe)"],
+    ["ष्ट","ṣṭa","ṣ + ṭ (धृष्टकेतु dhṛṣṭaketu)"],
+    ["स्त्र","stra","three consonants: s + t + r (शस्त्र śastra)"]
+  ]
+};
+SIGN_GLOSSARIES["devanagari"] = { type: "alphabet", groups: DEVANAGARI_ALPHABET };
+
+function renderDevanagariAlphabet(sg){
+  const a = sg.groups;
+  let h = '<div class="abcNote">Read a Devanagari word as a chain of syllables. Each consonant letter '
+    + 'is a consonant + <b>a</b>; a mark around it swaps the a for another vowel; a stroke beneath (क् = k with no vowel) '
+    + 'removes it. Two consonants with nothing between them fuse into one <b>conjunct</b> sign. '
+    + 'Words that end in a consonant are written joined to the next word, which is why a line can '
+    + 'look like one long word — the reading beneath each word in the text pulls them apart.</div>';
+  h += '<div class="smGroup"><h4>Vowels — full letter (word-initial) · mark on क</h4><table class="abc dn">'
+     + '<tr><th>sound</th><th>letter</th><th>with क</th><th class="abcn" style="text-align:left">notes</th></tr>';
+  a.vowels.forEach(([v, m, snd, note]) => {
+    h += '<tr><td class="snd">' + escapeHtml(snd) + '</td><td class="f">' + escapeHtml(v) + '</td>'
+       + '<td class="f">' + escapeHtml('क' + m) + '<span class="from">' + escapeHtml('k' + snd) + '</span></td>'
+       + '<td class="abcn">' + escapeHtml(note) + '</td></tr>';
+  });
+  h += '</table></div>';
+  h += '<div class="smGroup"><h4>Consonants — in the traditional grid (each row: unvoiced, aspirated, voiced, voiced aspirated, nasal)</h4><table class="abc dn">';
+  a.consonants.forEach(([label, row]) => {
+    h += '<tr><td class="abcn" style="white-space:nowrap">' + escapeHtml(label) + '</td>';
+    row.forEach(([ch, snd]) => { h += '<td class="f">' + escapeHtml(ch) + '<span class="from">' + escapeHtml(snd) + '</span></td>'; });
+    for (let k = row.length; k < 5; k++) h += '<td></td>';
+    h += '</tr>';
+  });
+  h += '</table></div>';
+  h += '<div class="smGroup"><h4>Marks and punctuation</h4><table class="abc dn">';
+  a.marks.forEach(([ch, snd, note]) => {
+    h += '<tr><td class="f">' + escapeHtml(ch === '्' || ch === 'ं' || ch === 'ः' || ch === 'ँ' ? 'क' + ch : ch) + '</td>'
+       + '<td class="snd">' + escapeHtml(snd) + '</td><td class="abcn" style="max-width:none">' + escapeHtml(note) + '</td></tr>';
+  });
+  h += '</table></div>';
+  h += '<div class="smGroup"><h4>Conjuncts — how two consonants become one sign</h4><table class="abc dn">';
+  a.conjuncts.forEach(([ch, snd, note]) => {
+    h += '<tr><td class="f">' + escapeHtml(ch) + '</td><td class="snd">' + escapeHtml(snd) + '</td>'
+       + '<td class="abcn" style="max-width:none">' + escapeHtml(note) + '</td></tr>';
+  });
+  return h + '</table></div>';
+}
+
 function signGlossaryFor(st){ return (st && st.script && SIGN_GLOSSARIES[st.script]) || null; }
 
 /* Dispatch: linear per-glyph interlinear, or "as written" quadrat blocking.
@@ -3357,6 +3448,13 @@ function openSigns(){
     $('smSub').innerHTML = 'Each letter changes shape by position: <b>initial · medial · final</b>. '
       + 'Letters connect like joined-up handwriting, written top to bottom.';
     $('smBody').innerHTML = renderMongolAlphabet(sg);
+    $('signModal').classList.add('open');
+    return;
+  }
+  if (story.script === 'devanagari'){
+    $('smTitle').textContent = 'The Devanagari alphabet';
+    $('smSub').innerHTML = 'A syllabic alphabet: consonant letters carry a built-in <b>a</b>; the other vowels are marks written around them. Transliteration in IAST, as under the words in the text.';
+    $('smBody').innerHTML = renderDevanagariAlphabet(sg);
     $('signModal').classList.add('open');
     return;
   }
@@ -4604,8 +4702,8 @@ function loadStory(s){
   if (sb){
     sb.style.display = signGlossaryFor(s) ? '' : 'none';
     sb.textContent = (s.script === 'ethiopic') ? '📜 Fidäl'
-                   : (s.script === 'mongol')   ? '📜 Alphabet' : '📜 Signs';
-    sb.title = (s.script === 'mongol')
+                   : (s.script === 'mongol' || s.script === 'devanagari') ? '📜 Alphabet' : '📜 Signs';
+    sb.title = (s.script === 'mongol' || s.script === 'devanagari')
       ? 'Alphabet reference — every letter in its initial, medial and final shapes'
       : 'Sign reference — the alphabet and the classifiers';
   }

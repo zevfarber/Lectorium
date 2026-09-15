@@ -11,9 +11,8 @@
  "script": "devanagari",
  "numbering": "stanza",
  "provisional": true,
- "draftNote": "Pilot chapter (2026-09-15): first Sanskrit text in Lectorium and first use of the words model for an alphabetic script, to prove the sandhi-split reading layer. Chapters 2–18 to follow by scheduled runs once the presentation is approved.",
- "source": "Text: the received (vulgate) text of the Bhagavadgītā, Mahābhārata 6.23–40, as read by Śaṅkara's commentary. Devanagari from Sanskrit Wikisource (भगवद्गीता/अर्जुनविषादयोगः), collated verse by verse against the GRETIL e-text of the Bhagavadgītā with Śaṅkara's commentary (input Gaudiya Grantha Mandira); the four discrepancies are adjudicated in the notes (1.8, 1.22, 1.44; 1.5 and 1.15 differ only in anusvāra vs. class nasal). Collation against a pre-1930 printed edition is still to be done and is noted as pending. Transliteration: IAST. The reading under each word gives the words with sandhi undone and compound members hyphenated, in the manner of the traditional pada-pāṭha. Pronunciation convention: classical Sanskrit as described in Whitney's Sanskrit Grammar (1889), the standard recitation pronunciation; no audio yet. Translations made fresh from the Sanskrit with Monier-Williams (1899) and Apte (1890); no modern translation consulted.",
- "about": "The Bhagavadgītā, 'the Song of the Lord', is a dialogue of seven hundred verses set into the Mahābhārata at the moment before the great battle of Kurukṣetra. Chapter 1 is the frame: the blind king Dhṛtarāṣṭra asks his minister Sañjaya what is happening on the field; Sañjaya reports Duryodhana's nervous survey of the two armies, the blowing of the war-conches, and Arjuna's request to be driven between the lines to see whom he must fight. Seeing teachers, uncles, cousins and friends on both sides, Arjuna is overcome, lays down his bow and refuses to fight. His despair is the question the rest of the poem answers. The chapter is nearly all names and kinship terms; its value for the reader is that it teaches the two things every Sanskrit page needs first — how words fuse at their edges (sandhi) and how compounds are read backwards from their last member — on the simplest possible content.",
+ "draftNote": "Prepared by the Lectorium pipeline from the vulgate text, with a drafting pass, a reviewing pass and a mechanical gate; a printed-edition collation and audio are still to come. Use ⚑ correction on any verse to report a problem.",
+ "source": "Text: the received (vulgate) text of the Bhagavadgītā, Mahābhārata 6.23–40, as read by Śaṅkara's commentary. Devanagari from Sanskrit Wikisource (भगवद्गीता/अर्जुनविषादयोगः), collated verse by verse against the GRETIL romanized text based on the BORI critical edition (input Tokunaga, rev. J. Smith); every verse where the two differ carries a note giving the BORI reading, and every correction to the Wikisource text is named in its note. Collation against a pre-1930 printed edition is still to be done. Transliteration: IAST. The reading under each word gives the words with sandhi undone and compound members hyphenated, in the manner of the traditional pada-pāṭha. Pronunciation convention: classical Sanskrit as described in Whitney's Sanskrit Grammar (1889); no audio yet. Translations made fresh from the Sanskrit with Monier-Williams (1899), Apte (1890) and Śaṅkara's commentary for the traditional sense; no modern translation consulted.",
  "sentences": [
   {
    "p": true,
@@ -5913,7 +5912,7 @@
    ],
    "l": "by pity supreme overcome, despairing, this he spoke: 'Having seen this own-people, Kṛṣṇa, wanting-to-fight, drawn-up,",
    "i": "he was overcome by deep pity and said in despair: 'Krishna, seeing my own people here, drawn up and eager for battle,",
-   "n": "Kṛpayā parayāviṣṭaḥ: 'entered by supreme pity' — āviṣṭa, from ā-viś 'enter', is the word for being possessed, as by a spirit; the emotion takes Arjuna over. Viṣīdan 'sinking, despairing' gives the chapter its traditional title, Arjuna-viṣāda-yoga, 'the yoga of Arjuna's despair'. Svajana, 'own-people', is the key word of the chapter: not 'the enemy' but 'my own'."
+   "n": "Kṛpayā parayāviṣṭaḥ: 'entered by supreme pity' — āviṣṭa, from ā-viś 'enter', is the word for being possessed, as by a spirit; the emotion takes Arjuna over. Viṣīdan 'sinking, despairing' gives the chapter its traditional title, Arjuna-viṣāda-yoga, 'the yoga of Arjuna's despair'. Svajana, 'own-people', is the key word of the chapter: not 'the enemy' but 'my own'. The BORI critical text reads the plural here, dṛṣṭvemān svajanān ... yuyutsūn samavasthitān, 'seeing these kinsmen of mine drawn up'; the vulgate's singular svajanam is a collective."
   },
   {
    "ln": 29,
@@ -7449,7 +7448,7 @@
    ],
    "l": "Teachers, fathers, sons, and likewise grandfathers, maternal-uncles, fathers-in-law, grandsons, brothers-in-law, and kinsmen likewise.",
    "i": "Teachers, fathers, sons and grandfathers, uncles, fathers-in-law, grandsons, brothers-in-law and kinsmen —",
-   "n": "The same kin-list as verse 26, now in the nominative, as the subject of the sentence that runs through verse 35: these are the ones Arjuna will not kill. Two words are new: śyāla 'wife's brother' and saṃbandhin 'relative by marriage'. Putrās tathaiva: putrāḥ + tathā + eva, with -āḥ becoming -ās before t-."
+   "n": "The same kin-list as verse 26, now in the nominative, as the subject of the sentence that runs through verse 35: these are the ones Arjuna will not kill. Two words are new: śyāla 'wife's brother' and saṃbandhin 'relative by marriage'. Putrās tathaiva: putrāḥ + tathā + eva, with -āḥ becoming -ās before t-. BORI spells syālāḥ for śyālāḥ, a spelling variant of the same word."
   },
   {
    "ln": 35,
@@ -8127,7 +8126,7 @@
    ],
    "l": "Therefore we are not entitled to kill the sons of Dhṛtarāṣṭra, our own kinsmen; for our own people having killed, how could we be happy, O Mādhava?",
    "i": "So it is not right for us to kill Dhṛtarāṣṭra's sons, our own relations. How could we be happy, Mādhava, after killing our own people?",
-   "n": "Nārhāḥ is na + arhāḥ, 'not entitled, not right': arha with an infinitive (hantum) is how Sanskrit says 'ought to'. Syāma is the optative, 'we might be' — the mood of what could or should happen, which the whole speech is written in. Svabāndhavān and svajanam: the prefix sva- 'own' twice in one verse."
+   "n": "Nārhāḥ is na + arhāḥ, 'not entitled, not right': arha with an infinitive (hantum) is how Sanskrit says 'ought to'. Syāma is the optative, 'we might be' — the mood of what could or should happen, which the whole speech is written in. Svabāndhavān and svajanam: the prefix sva- 'own' twice in one verse. BORI reads sabāndhavān, 'together with their kinsmen', where the vulgate's svabāndhavān makes the Kauravas themselves 'our own kinsmen'."
   },
   {
    "ln": 38,
@@ -10565,5 +10564,6 @@
   "सशरं": "sa-śaram — sa — with (prefix); śara — arrow (saśaram: 'together with the arrow', acc. sg.)",
   "चापं": "cāpam — cāpa — bow (acc. sg.)",
   "शोकसंविग्नमानसः": "śoka-saṃvigna-mānasaḥ — śoka — grief; saṃvigna — agitated, shaken (past participle of sam-vij); mānasa — mind (nom. sg. bahuvrīhi: 'his mind shaken by grief')"
- }
+ },
+ "about": "The Bhagavadgītā, 'the Song of the Lord', is a dialogue of seven hundred verses set into the Mahābhārata at the moment before the great battle of Kurukṣetra. Chapter 1 is the frame: the blind king Dhṛtarāṣṭra asks his minister Sañjaya what is happening on the field; Sañjaya reports Duryodhana's nervous survey of the two armies, the blowing of the war-conches, and Arjuna's request to be driven between the lines to see whom he must fight. Seeing teachers, uncles, cousins and friends on both sides, Arjuna is overcome, lays down his bow and refuses to fight. His despair is the question the rest of the poem answers. The chapter is nearly all names and kinship terms; its value for the reader is that it teaches the two things every Sanskrit page needs first — how words fuse at their edges (sandhi) and how compounds are read backwards from their last member — on the simplest possible content."
 }

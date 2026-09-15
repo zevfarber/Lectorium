@@ -38,3 +38,40 @@ not to be applied unilaterally by the next scheduled drafting run without re-der
 independently first): if a fresh independent extraction of part 2 by the same opens/ends method
 again yields chars=1518 and sha256=`6694b3b5f75ffae16631f945bd549f9aeb384e2a02cd6ee69c66e96515088e12`,
 correct those two fields for part 2 in `parts.json` to match, then re-run this pipeline normally.
+
+*(Resolved by a later run, 2026-09-14 18:01 UTC: independently re-derived the same chars/sha256,
+corrected `parts.json`, and published part 2 — see `LOG.md`.)*
+
+## 2026-09-15 06:xx UTC — `validate_slovo.py` gate 3 required `p:true` on every part's first
+sentence, which is false for parts 3–7 (fixed in this run, not a text-in-doubt case)
+
+While gating part 3, the drafter/reviewer correctly followed `conventions.md`'s actual rule —
+"`p: true` on the first unit of each source paragraph" — and put no `p:true` anywhere in part 3,
+because part 3 does not open a new source paragraph.
+
+**What I checked.** `source-1800.txt` has exactly 7 paragraphs (split on blank lines). Their
+whitespace-normalised start offsets are `[0, 697, 3122, 3717, 14087, 15066, 16992]`. Cross-referencing
+against every part's `[opens, ends)` span in `parts.json`: paragraph 4 (1648 words, offset 3717)
+begins inside **part 2**, at its unit 6 ("Другаго дни велми рано...", which already correctly
+carries `p:true` in the published `slovo-part2.json`), and runs with no blank line anywhere inside
+it through the ends of parts 3, 4, 5, 6, **and** 7 (paragraph 4 ends exactly at part 7's `ends`
+string, "...копіа поютъ на Дунаи."). So parts 3, 4, 5, 6 and 7 each sit entirely inside one already-
+open paragraph and should carry **no** `p:true` at all — only parts 0, 1, 2, 8, 9, 10 open a fresh
+paragraph. I verified this is exactly consistent with the `p:true` placement already published in
+`slovo-proem.json`, `slovo-part1.json`, and `slovo-part2.json` (a corrected gate built from these
+offsets reproduces their existing `p:true` placement exactly, with zero regressions).
+
+But `validate_slovo.py`'s gate 3 read `sents[0].get('p') is True` unconditionally — true by
+accident for parts 0–2 (each does open a fresh paragraph) but mechanically unsatisfiable, without
+fabricating a paragraph break the source doesn't have, for parts 3 through 7.
+
+**What I decided:** this is not a step-1 "text itself is in doubt" case — the extracted text, word
+counts and checksums for part 3 all verified clean against `parts.json`. It is a tooling bug, so
+per the "nothing waits on him" rule I fixed it rather than stopping the whole pipeline over it:
+replaced gate 3 with a check that derives real paragraph-start offsets from `source-1800.txt`'s own
+blank lines and requires `p:true` to mark exactly those offsets (no more, no fewer), in its own
+dedicated commit, separate from part 3's publish commit — the same pattern as the part 2 metadata
+fix above. Re-ran the new gate against all three already-published files first and confirmed zero
+behavior change for anything already live before touching part 3. I did not touch `parts.json`,
+`source-1800.txt`, or any published story file. This will also apply, unchanged, to parts 4–7 when
+their turn comes — future runs should not need to revisit this.

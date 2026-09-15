@@ -293,6 +293,14 @@
   body[data-script="chinese"] .tr { font-size: .76rem; letter-spacing: 0; }
   body[data-script="chinese"] .stack.punct .gl { font-size: 1.5rem; }
   body[data-script="chinese"] .de.words { gap: 10px 6px; }
+  /* Devanagari (Sanskrit, words model): a Devanagari serif, a little larger than the Latin body, with
+     generous line-height for the stacked vowel signs; the sandhi-split reading sits beneath each word. */
+  body[data-script="devanagari"] .gl, body[data-script="devanagari"] .storySub .tOrig, body[data-script="devanagari"] #popW {
+    font-family: 'Noto Serif Devanagari', 'Noto Sans Devanagari', 'Nirmala UI', 'Kohinoor Devanagari', 'Devanagari Sangam MN', 'Mangal', serif;
+    font-size: 1.55rem; line-height: 1.6; font-style: normal; }
+  body[data-script="devanagari"] .tr { font-size: .8rem; letter-spacing: 0; }
+  body[data-script="devanagari"] .stack.punct .gl { font-size: 1.3rem; opacity: .6; }
+  body[data-script="devanagari"] .de.words { gap: 8px 10px; }
   /* Ancient Greek (polytonic): Georgia renders the varia (grave) series U+1F70–1F7D with a detached
      accent; Palatino Linotype / Cambria carry full correctly-composed polytonic. Scoped to Greek stories. */
   body[data-script="greek"] .de, body[data-script="greek"] .note, body[data-script="greek"] .en,
@@ -628,7 +636,10 @@ const WORD_CLASS = 'A-Za-zÀ-ÖØ-öø-ÿ\\u0100-\\u024F\\u0300-\\u036F\\u1E00-\
   /* Arabic: letters, tatweel and the tashkil marks, which are PART of the word — a token
      must carry its own vowels or the bare-script view would have nothing to strip.
      Deliberately excludes U+0600-061F (honorific/marks), U+0660-066D (digits, punctuation). */
-  + '\\u0620-\\u065F\\u0670-\\u06D3\\u06D5-\\u06ED';
+  + '\\u0620-\\u065F\\u0670-\\u06D3\\u06D5-\\u06ED'
+  /* Devanagari (Sanskrit): letters, vowel signs, virama, anusvara/visarga/candrabindu, avagraha — the
+     fused sandhi-word is one token; the words model carries the split reading. Excludes ।॥ and digits. */
+  + '\\u0900-\\u0963\\u0971-\\u097F';
 /* Han characters: no spaces are written, and in Classical Chinese the character IS the word,
    so each one tokenizes on its own (a run must NOT collapse into a single token). */
 const HAN_CLASS = '\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uF900-\\uFAFF';

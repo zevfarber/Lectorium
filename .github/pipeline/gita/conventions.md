@@ -2,15 +2,20 @@
 
 ## Text
 - The received (vulgate) text, as read by Śaṅkara's commentary: Mahābhārata 6.23–40, 18 chapters, 700 verses.
-- Two independent witnesses are collated for every chapter before drafting: the Devanagari of
-  Sanskrit Wikisource (भगवद्गीता/<chapter name>) and the IAST of the GRETIL e-text "Bhagavadgītā with
-  Śaṅkara's commentary" (bhgsbh_u.htm; chapters 1–17 — chapter 18 needs another witness).
-  Discrepancies are adjudicated by the Śaṅkara reading where his gloss shows it, otherwise by the
-  common printed vulgate, and every real variant gets a note. Orthographic differences (anusvāra vs
-  class nasal, e.g. पुङ्गव/puṃgava) are not variants. Collation against a pre-1930 printed edition
-  is still pending and is stated as pending in `source`.
-- Chapter 1 adjudications: 1.8 saumadattis tathaiva ca (not saumadattir jayadrathaḥ); 1.22
-  nirīkṣe (Wikisource misprint nirikṣe corrected); 1.44 narake 'niyatam (Śaṅkara), variant niyatam noted.
+- Two independent witnesses, both in `source/`, are collated for every chapter before drafting:
+  `wikisource-chNN.txt`, the Devanagari of Sanskrit Wikisource (the vulgate), which is the text we
+  print, and `bori-iast.txt`, the GRETIL romanized text based on the BORI critical edition (input
+  Tokunaga, rev. J. Smith) — all 700 verses, one uniform witness. `gita_lib.collate(NN)` lists the
+  differences: `orth` (anusvāra vs class nasal, candrabindu, sandhi written or not) is nothing;
+  `VAR` is either a Wikisource misprint — corrected in `source/corrections.json`, each correction
+  named in its verse's note — or a real vulgate/BORI variant, listed per chapter in `parts.json`
+  as `variantsVsBORI`; the note of such a verse states the BORI reading. The vulgate is the base
+  text throughout; the BORI reading is never adopted, only reported. Collation against a pre-1930
+  printed edition is still pending and is stated as pending in `source`.
+- Adjudicated so far (all in `corrections.json`): 1.22 nirīkṣe; 5.5 sa paśyati (stray colon);
+  5.8 śṛṇvan; 16.19 krūrān. Real variants: 1.28, 1.34, 1.37, 2.5, 2.26, 3.2, 3.8, 6.7, 6.41, 8.7,
+  11.16, 11.20–22, 11.32, 12.18, 13.20, 14.18, 14.25, 16.4, 16.13, 17.6, 18.25, 18.28, 18.43, 18.44,
+  18.51, 18.66, 18.68 (see `parts.json`).
 
 ## Unit and layout
 - One verse = one unit: `ln` = verse number, `v: true`, `t` = the two half-verse lines joined by
@@ -48,8 +53,36 @@
 - Sole-source rule: draft from the Sanskrit with Monier-Williams (1899) and Apte (1890) and, for
   the traditional sense, Śaṅkara's commentary. No modern translation is opened. Famous verses get
   house renderings decided before drafting: 2.47, 4.7–8, 11.32, 18.66 (to be set when their chapters
-  are reached) and are echo-scanned against Edgerton, Zaehner, Miller, Easwaran, Prabhupada at
-  validation.
+  are reached) and are echo-scanned at validation (`validate_gita.py` carries a short red-flag list).
+
+## House renderings — use as written when the chapter is reached
+- 2.47 l: "In action alone is your entitlement, never in its fruits; do not let the fruit of
+  action be your motive, and let there be no attachment of yours to inaction." i: "Your claim is to
+  the action itself, never to what comes of it. Do not act for the sake of results, and do not
+  cling to not acting either."
+- 4.7 l: "Whenever indeed of dharma a fading comes to be, O Bhārata, a rising-up of adharma —
+  then I send forth myself." i: "Whenever dharma wanes, Bhārata, and its opposite rises, I bring
+  myself forth."
+- 4.8 l: "For the rescue of the good and for the destruction of evil-doers, for the purpose of
+  establishing dharma, I come to be age after age." i: "To rescue the good, to destroy those who do
+  evil, and to set dharma firmly in place, I am born in every age."
+- 11.32 l: "Time I am, world-destruction-making, grown-great, here set-in-motion to gather in the
+  worlds; even without you, all these warriors standing in the opposing ranks will not be." i: "I
+  am Time, grown vast, the wrecker of worlds, at work here to gather the worlds in. Even without
+  you, none of the warriors drawn up in the facing lines will survive." (kāla is Time; the famous
+  'Death' is a translator's choice we do not follow.)
+- 18.66 l: "All dharmas having abandoned, to me alone as refuge come; I you from all evils will
+  free — do not grieve." i: "Let go of every duty and come to me as your one refuge. I will free
+  you from all evil; do not grieve."
+
+## Speaker lines
+- धृतराष्ट्र उवाच / सञ्जय उवाच / अर्जुन उवाच are two tokens; श्रीभगवानुवाच is written as one token on
+  Wikisource and is kept as one word with three morphs (śrī, bhagavat, vac); its literal is "The
+  Blessed Lord said". `build_gita.py` generates all speaker units; the drafter does not write them.
+
+## Drafts folder
+- `drafts/chNN/words.txt`, `trans.txt`, `about.txt` are committed with the chapter so a later run
+  can rebuild or correct it. Their formats are documented at the top of `build_gita.py`.
 
 ## Glossary
 - The story's `glossary` is keyed on the Devanagari token exactly as written (for the tutor's
@@ -57,7 +90,7 @@
   `reading — lemma — gloss; lemma — gloss`. A shared work-level glossary keyed on lemmas can come
   when several chapters exist.
 
-## Validation (build.py does all of this and stops on failure)
+## Validation (build_gita.py and validate_gita.py do all of this and stop on failure)
 - The Devanagari tokens of the words, joined with spaces, equal the Wikisource lines exactly
   (after the adjudicated corrections, each of which is named in a note).
 - Every verse has l; i unless equal to l; every word has a reading and at least one morph;

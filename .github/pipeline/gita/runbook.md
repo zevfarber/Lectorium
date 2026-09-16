@@ -16,8 +16,10 @@ your first commit — they were superseded by `drafts/ch01/`, `source/` and `bui
 `git pull`. Read `plan.md`: the first chapter whose status is `todo` and that has no live claim
 in `claims/` is yours. A claim file older than 6 hours is stale — delete it and take the chapter.
 Write `claims/chNN.md` (one line: date, "drafting"), commit and push it to `main` before drafting,
-so a concurrent run takes the next chapter. If all 18 are published, append a DONE line to
-`LOG.md` and stop.
+so a concurrent run takes the next chapter. If all 18 are published, the text phase is finished:
+append a DONE line to `LOG.md`, create the empty marker file `.github/pipeline/gita/DONE`, commit
+and push those two changes, and stop. The marker is what tells the shared routine to skip this
+work from then on (see `.github/pipeline/README.md`, "The queue").
 
 ## 1. Verify the text you will draft from
 `python3 -c "import gita_lib as g; print(g.sha(g.chapter_text(NN)))"` must equal the chapter's
@@ -26,6 +28,9 @@ so a concurrent run takes the next chapter. If all 18 are published, append a DO
 write what you found to `QUESTIONS.md`, release the claim, and stop without drafting.
 
 ## 2. Draft — three roles, each a separate subagent with only the files named
+The drafter and the reviewer run on the strongest model available (the routine's own model); the
+glosser runs on Sonnet (`model: "sonnet"` in the Agent call) — its work is mechanical and the
+cheaper model does it as well.
 Create `drafts/chNN/` with `words.txt`, `trans.txt`, `about.txt` in the formats described at the
 top of `build_gita.py` (copy the shape of `drafts/ch01/`).
 

@@ -14,8 +14,10 @@ these rules, and anything you cannot decide goes into `QUESTIONS.md` rather than
 2. Derive the state from the repository, never from memory or from the LOG alone: the published
    Slovo parts are the `slovo-part<N>.json` files present in the root **and** registered in
    `stories.json`. The next part is the lowest N in 2…10 that is not published. If parts 2–10 are
-   all published, append a `DONE` line to `LOG.md`, commit and push that one line, and stop — do
-   not draft anything.
+   all published, the poem's text phase is finished: append a `DONE` line to `LOG.md`, create the
+   empty marker file `.github/pipeline/slovo/DONE`, commit and push those two changes, and stop —
+   do not draft anything. The marker is what tells the shared routine to skip this work from then
+   on (see `.github/pipeline/README.md`, "The queue").
 3. Claim: create `.github/pipeline/slovo/claims/part<N>.md` with the UTC time and your session
    id, commit and push it before drafting. If a claim file for that part already exists and is
    less than 4 hours old, another run holds it — take the next unpublished part instead, or stop
@@ -31,7 +33,9 @@ commit as the LOG/QUESTIONS entry, so the next run can take the part.
 
 ## 2. Draft
 
-Work as a small team with the Agent tool, all agents on the strongest model available:
+Work as a small team with the Agent tool. The drafter and the reviewer run on the strongest model
+available (the routine's own model); the glosser runs on Sonnet (`model: "sonnet"` in the Agent
+call) — its work is mechanical and the cheaper model does it as well:
 
 - **Drafter** — segments into sense-units at the 1800 punctuation, writes `t` (verbatim), `tr`,
   `l`, `i`, `n` for every unit, following `conventions.md` and the two models exactly.

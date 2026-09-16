@@ -27,6 +27,27 @@ Rules that apply to every run, whatever the work:
 5. Audio for modern languages is built by `.github/workflows/audio.yml` on the runner when a root
    `*.json` is pushed; ancient-language audio is a separate phase per work.
 
+## The queue — one routine for every work, forever
+
+There is one routine, *Lectorium — text pipeline*, for all works. It does not know which text it is
+working on until it reads `queue.txt` in this folder: one work-folder name per line, in the order
+the owner wants them produced (blank lines and lines starting with `#` are ignored). A work is
+finished when its folder contains an empty file named `DONE`, which the work's own runbook creates
+when the last part is published.
+
+What a run does first, before reading anything else:
+
+    git pull
+    for each name in .github/pipeline/queue.txt, in order:
+        if .github/pipeline/<name>/DONE does not exist → this is the work; open its runbook.md and follow it
+    if every listed work has a DONE marker → stop at once
+
+Stopping at once means: no other file read, no commit, no LOG line, no message to anyone. An idle
+firing must cost almost nothing, because the routine keeps its schedule while the owner is between
+texts, and only the queue decides whether there is work. Adding a text to Lectorium is: put its
+folder here (source, parts, conventions, runbook, validator), add its name to `queue.txt`, and
+delete any stale `DONE`. Nothing about the routine itself changes.
+
 The laptop's old five-minute "auto-publish" task (OneDrive master → repository) has been retired in
 favour of this model; the repository is the master now.
 

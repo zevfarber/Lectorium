@@ -1,5 +1,11 @@
 # Slovo pipeline — open questions
 
+## 2026-09-16 19:40 UTC — pre-existing glossary typo in published part 6, not fixed there (not this run's part to re-issue)
+
+While glossing part 7, the glosser reused part 6's `бологомъ` glossary entry verbatim per convention (same word, same sense, "not for good, inauspiciously" — it recurs in part 6's «а древо не бологомъ листвіе срони» and part 7's «Немизѣ кровави брезѣ не бологомъ бяхуть посѣяни»). Part 6's own published entry has a typo: `"боlogo — good, weal ..."` mixes Cyrillic «бо» with the Latin letters «logo» where it should read «болого» throughout in Cyrillic. I corrected this in part 7's own glossary (`"болого — good, weal ..."`) but left `slovo-part6.json` untouched, since a run never re-issues an already-published part.
+
+**Decided:** leave `slovo-part6.json` as published; note it here for whoever next has occasion to touch part 6 (or the owner, if he wants a one-line fix pushed directly — it does not affect gate-passing, coverage, or meaning, only the printed lemma spelling in that one glossary entry).
+
 ## 2026-09-16 07:16 UTC — process note, not a text-in-doubt case: an agent prompt paraphrased the source text instead of quoting it, and the drafter caught and corrected it
 
 When claiming part 5, I extracted and verified its text against `source-1800.txt`/`parts.json` myself first (clean match, as always). But when I then wrote the drafting sub-agent's prompt, I retyped the segment from memory/summary rather than pasting the verified extraction, and introduced real errors (wrong word forms, an invented sentence, a duplicated phrase not in the source). The drafter agent independently re-extracted part 5 from the authoritative `source-1800.txt` using the same opens/ends method as `validate_slovo.py`, noticed the mismatch, flagged it clearly, and used the correct source throughout — nothing wrong was drafted. `validate_slovo.py`'s gate 2 (concat `t` == source) would have caught this even if the drafter hadn't, since it re-derives the segment from `source-1800.txt` independently rather than trusting the prompt.

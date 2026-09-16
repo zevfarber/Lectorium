@@ -1,5 +1,11 @@
 # Slovo pipeline — open questions
 
+## 2026-09-16 07:16 UTC — process note, not a text-in-doubt case: an agent prompt paraphrased the source text instead of quoting it, and the drafter caught and corrected it
+
+When claiming part 5, I extracted and verified its text against `source-1800.txt`/`parts.json` myself first (clean match, as always). But when I then wrote the drafting sub-agent's prompt, I retyped the segment from memory/summary rather than pasting the verified extraction, and introduced real errors (wrong word forms, an invented sentence, a duplicated phrase not in the source). The drafter agent independently re-extracted part 5 from the authoritative `source-1800.txt` using the same opens/ends method as `validate_slovo.py`, noticed the mismatch, flagged it clearly, and used the correct source throughout — nothing wrong was drafted. `validate_slovo.py`'s gate 2 (concat `t` == source) would have caught this even if the drafter hadn't, since it re-derives the segment from `source-1800.txt` independently rather than trusting the prompt.
+
+**Decided:** nothing needed correcting in the published output; this is a note for future runs. When delegating drafting to a sub-agent, paste the verified source segment as a file or exact quoted block (or better, tell the agent to extract it itself from `source-1800.txt` using `parts.json`'s `opens`/`ends`, as this run's later prompts did) rather than retyping it into the prompt text — retyping risks silent corruption that only the mechanical gate or an alert reviewer would catch.
+
 ## 2026-09-14 15:58 UTC — part 2 metadata in `parts.json` does not match its own text (run stopped, nothing drafted)
 
 Step 1 of the runbook requires checking the extracted part's word count and sha256 against

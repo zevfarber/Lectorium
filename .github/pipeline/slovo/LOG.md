@@ -14,3 +14,5 @@ Nothing drafted, nothing published, no other files touched. Details in QUESTIONS
 2026-09-16 01:11 UTC · part 4 · 13 units, 216 glossary keys · 2 review passes. Fixed a false grammar claim, a wrong glossary lemma, 3 case-label errors. Echo-checked grass/tree opening, women's lament, Kobyak battle, saddle-exchange — clean. вступилъ/обида mismatch, жиръ kept flagged, not emended.
 
 2026-09-16 07:16 UTC · part 5 · 15 units, 193 glossary keys · 2 review passes + fixes. Echo-checked Golden Word opening, dream imagery, closing line (reworded) — clean. Fixed dual/plural glossary errors, a false Sharukan-death claim, a Хинова part6/7 mislabel. Dense dark-places passage.
+
+2026-09-16 13:30 UTC · part 6 · 30 units, 273 glossary keys · 2 review passes + fixes. Echo-checked Golden Word continuation, Volga/Don hyperbole, Chaga/Koshchei price line, prince roll-call, refrain, "six-winged ones" — clean. Fixed 6 defects: false dual claim, wrong part1 cross-ref, misquoted refrain spelling, 2 silently-resolved cruxes, self-contradictory note.

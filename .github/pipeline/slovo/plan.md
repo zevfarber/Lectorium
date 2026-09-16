@@ -13,7 +13,7 @@ whole text with nothing left over (verified 2026-09-14).
 | 3 | III | The old wars & the fall | Кая раны дорога, братіе… | …а сами полегоша за землю Рускую. | 254 | **live** (`slovo-part3.json`, 14 units, text only) |
 | 4 | IV | Rus' mourns | Ничить трава жалощами… | …а веселіе пониче. | 291 | **live** (`slovo-part4.json`, 13 units, text only) |
 | 5 | V | Svyatoslav's dream & the Golden Word | А Святъславь мутенъ сонъ видѣ… | …Се ли створисте моей сребреней сѣдинѣ! | 245 | **live** (`slovo-part5.json`, 15 units, text only) |
-| 6 | VI | The appeal to the princes | А уже не вижду власти сильнаго… | …за раны Игоревы буего Святъславлича. | 397 | to do |
+| 6 | VI | The appeal to the princes | А уже не вижду власти сильнаго… | …за раны Игоревы буего Святъславлича. | 397 | **live** (`slovo-part6.json`, 30 units, text only) |
 | 7 | VII | Vseslav of Polotsk | Уже бо Сула не течетъ… | …копіа поютъ на Дунаи. | 322 | to do |
 | 8 | VIII | Yaroslavna's Lament | Ярославнынъ гласъ слышитъ… | …тугою имъ тули затче. | 156 | to do |
 | 9 | IX | Igor's escape | Прысну море полунощи… | …бити въ полѣ Половецкомъ. | 301 | to do |

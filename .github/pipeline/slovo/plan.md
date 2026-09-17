@@ -17,7 +17,7 @@ whole text with nothing left over (verified 2026-09-14).
 | 7 | VII | Vseslav of Polotsk | Уже бо Сула не течетъ… | …копіа поютъ на Дунаи. | 322 | **live** (`slovo-part7.json`, 19 units, text only) |
 | 8 | VIII | Yaroslavna's Lament | Ярославнынъ гласъ слышитъ… | …тугою имъ тули затче. | 156 | **live** (`slovo-part8.json`, 11 units, text only) |
 | 9 | IX | Igor's escape | Прысну море полунощи… | …бити въ полѣ Половецкомъ. | 301 | **live** (`slovo-part9.json`, 22 units, text only) |
-| 10 | X | The return & praise | Рекъ Боянъ и ходы… | …а дружинѣ Аминь. | 90 | to do |
+| 10 | X | The return & praise | Рекъ Боянъ и ходы… | …а дружинѣ Аминь. | 90 | **live** (`slovo-part10.json`, 10 units, text only) |
 
 Part 6 ends at the **third** «за раны Игоревы буего Свят(ъ)славлича» — the one spelled with ъ,
 after the Ingvar/Vsevolod/Mstislavichi appeal. The two earlier ones (Rurik and David; Yaroslav of

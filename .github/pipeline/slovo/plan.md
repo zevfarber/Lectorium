@@ -16,7 +16,7 @@ whole text with nothing left over (verified 2026-09-14).
 | 6 | VI | The appeal to the princes | А уже не вижду власти сильнаго… | …за раны Игоревы буего Святъславлича. | 397 | **live** (`slovo-part6.json`, 30 units, text only) |
 | 7 | VII | Vseslav of Polotsk | Уже бо Сула не течетъ… | …копіа поютъ на Дунаи. | 322 | **live** (`slovo-part7.json`, 19 units, text only) |
 | 8 | VIII | Yaroslavna's Lament | Ярославнынъ гласъ слышитъ… | …тугою имъ тули затче. | 156 | **live** (`slovo-part8.json`, 11 units, text only) |
-| 9 | IX | Igor's escape | Прысну море полунощи… | …бити въ полѣ Половецкомъ. | 301 | to do |
+| 9 | IX | Igor's escape | Прысну море полунощи… | …бити въ полѣ Половецкомъ. | 301 | **live** (`slovo-part9.json`, 22 units, text only) |
 | 10 | X | The return & praise | Рекъ Боянъ и ходы… | …а дружинѣ Аминь. | 90 | to do |
 
 Part 6 ends at the **third** «за раны Игоревы буего Свят(ъ)славлича» — the one spelled with ъ,

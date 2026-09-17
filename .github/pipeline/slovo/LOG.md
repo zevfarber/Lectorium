@@ -24,3 +24,5 @@ Nothing drafted, nothing published, no other files touched. Details in QUESTIONS
 2026-09-17 07:22 UTC · part 9 · 22 units, 222 glossary keys · 2 review passes + fixes. Echo-checked "Игорь спитъ, Игорь бдитъ" triad, Donets/Igor dialogue, Gzak-Konchak riddle — clean (recall-based, no verbatim matches to known renderings). Pass 1 fixed a l/i polarity contradiction (unit "Не тако ли... Стугна"), merged 3 speech-tags wrongly split from their quotes at a colon, 2 mixed-script tr typos.
 
 2026-09-17 13:05 UTC · part 10 (final) · 10 units, 76 glossary keys · 2 review passes + fixes. Echo-checked return/Pirogoshcha/toast/Amen lines, reworked toast & lands/towns i. Fixed grammar labels, content drift, cross-ref, stripped process-asides from n. Text phase complete; DONE for next run.
+
+2026-09-17 18:41 UTC · orientation only. Parts 0-10 all confirmed live in root and registered in stories.json; no leftover claim markers. Created DONE marker; queue moves on to the next work.

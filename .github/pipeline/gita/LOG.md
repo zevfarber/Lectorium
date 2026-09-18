@@ -25,3 +25,22 @@ guṇa glosses at 3.20 lacking the untranslated-term convention wording, one pur
 "a person" present at its other two occurrences). build_gita.py and validate_gita.py both PASS (16 benign
 sandhi-boundary warnings, same class as chapters 1 and 2). No corrections.json entries and no house
 renderings apply to this chapter. Added to stories.json after gita-ch02.
+
+2026-09-18 · chapter 4 (Jñānakarmasaṃnyāsayoga) · unattended run · 42 verses, 317 glossary keys · source
+verified (sha256 matched parts.json; collate found only benign orth differences, no VAR — no
+variantsVsBORI and no corrections.json entries for this chapter). Drafted in three parallel batches
+(verses 1-14, 15-28, 29-42) after a first single-batch attempt hit the drafter's own output-token limit;
+house renderings for 4.7-8 used verbatim. Reviewed in two passes (pass 1: a wrong root for vīta at 4.10
+(vī → vi-i), an untranslated "māyā" at 4.6 that should have been Englished, and six stale bare
+verse-number cross-references that actually meant an earlier chapter — "verse 20/3/32/15" corrected to
+"3.20/3.3/3.32/3.15", one instance of the last caught only on a re-check of the same note; pass 2: a
+second leftover untranslated "māyā" in words.txt's morph gloss at 4.6, a siddhi/phala conflation at 4.12
+mistranslating "success" as "fruit", and a false claim that moha opened the ch.1 dialogue at 2.1, when
+that verse actually names kṛpā and viṣāda — corrected to cite 2.63's krodha-chain instead). Glossed on
+Sonnet (five real fixes: karman/pra-vac/sam-bhū/budh gloss-wording drift against their other occurrences,
+and prāṇa glossed four different ways across verses 27/29/30 including a self-contradiction within one
+line at 4.29 — all standardized to "the outward, upward breath"; a suggestion to add parenthetical form
+tags to ~45 bare-particle glosses was not applied, since ch01 already glosses particles like ca/tu/hi
+bare throughout and validate_gita.py does not require it — declining rather than inventing a stricter
+convention). build_gita.py and validate_gita.py both PASS (10 benign sandhi-boundary warnings, same class
+as chapters 1-3). Added to stories.json after gita-ch03.

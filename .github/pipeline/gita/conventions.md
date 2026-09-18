@@ -41,7 +41,9 @@
 - Proper names stay untranslated in `l` and `i`; epithets are translated in `l` on first use
   ("Lord-of-the-senses") and given as the name in `i` (Kṛṣṇa), the meaning going in the gloss.
 - Untranslated terms in `i`: dharma (when it means the cosmic/social order; "law" when it is
-  kula-dharma), yoga, brahman, the three guṇas. Everything else is translated.
+  kula-dharma), yoga, brahman, the three guṇas, sāṃkhya (named in 2.39 as yoga's structural
+  counterpart, and again from 3.3 on as one of the poem's two named paths — not "analysis" or
+  "reasoned discernment"). Everything else is translated.
 
 ## Translations and notes
 - `l`: structurally transparent; hyphenate the compounds as in the reading; keep the Sanskrit

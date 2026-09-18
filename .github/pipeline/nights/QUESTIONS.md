@@ -60,6 +60,38 @@ Open decisions the rules do not settle. A run writes the question and what it de
   of non-sequitur, revisit whether something is systematically being mis-rendered at this spot in
   the scan.
 
+- **Faint header numerals, PDF pages 74-76 (run 2026-09-18, pp. 71-78).** PDF 71/72/73/77's
+  printed header numerals were crisp and read unambiguously "٥١"/"٥٢"/"٥٣"/"٥٧" (three independent
+  correction-pass agents and a dedicated pixel-level comparison against the confirmed "٤٣" glyph
+  from PDF 63, all agreeing). PDF 74-76's numerals are genuinely faint on the scan itself (confirmed
+  by re-rendering at up to 1200 dpi via a tight PDF-coordinate clip — more resolution did not
+  recover more detail, so this is print/ink wear on the original page, not a rendering artifact).
+  One correction-pass agent misread PDF 75's numeral as "٤٨" in passing while excluding the running
+  header; decided meanwhile this was a simple misread of a low-legibility glyph, not a real
+  anomaly, because: (1) the surrounding pages 71-73 and 77 are unambiguous and strictly sequential;
+  (2) the faint glyphs on 74-76, compared shape-by-shape against the confirmed "٥" (hook + loop,
+  no stem) and "٤" (hook + long stem) reference forms, match the "٥" tens-digit shape consistently;
+  (3) page 76 visibly opens a new tale ("حكاية الحمال و الثلث بنات", The Porter and the Three
+  Ladies) — a sensible ~13-page transition point after the Ensorcelled Prince tale, not the kind of
+  place a duplicate-leaf or skipped-page anomaly (like PDF 48-49) would be expected; (4) every page
+  join in the batch, including the join to the previous archive, reads as continuous text with no
+  gap. No archive or plan.md change beyond the ordinary batch entry. If a later run finds another
+  anomaly nearby, revisit whether PDF 74-76 specifically need re-scanning.
+
+- **Section heading vs. running header, PDF page 76 (run 2026-09-18, pp. 71-78).** This edition's
+  running header (tale title + page number, small type, always excluded) can be hard to
+  distinguish from a genuine section-heading body line (larger type, marked "h": true in the
+  archive) when the heading happens to fall at the very top of a fresh page — the geometric line
+  detector cannot tell them apart by position alone in that case. On p. 76 (opening "حكاية الحمال و
+  الثلث بنات"), pass 1 dropped the heading entirely as if it were only the running header (21
+  lines); pass 2 caught it as a real printed line and archived it (22 lines, h:true). Decided:
+  checked band1.png directly — the heading is printed in the same size/weight as the tale-title
+  headings on pp. 71/73/77 (which sit mid-page, unambiguously not headers), confirming it is a
+  genuine body line, and it is now archived as P56L01, h:true. **Future runs: when a tale opens at
+  the very top of a page, check the band image for a second, larger title line below the small
+  running header before excluding anything — do not trust the line detector's header/body split at
+  a tale boundary.**
+
 - **Elliptical join, printed p. 43→44 (PDF 63→64, run 2026-09-18 pp. 63-70).** p. 43's last
   line ends "...و دخل من الدهاليز الى وسط القصر فاذا" ("...and he entered through the corridors
   to the middle of the palace, and behold—") and p. 44 opens "يجد فيه اثاثا غير انه مفروش

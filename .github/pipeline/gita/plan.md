@@ -5,7 +5,7 @@ One chapter per run, in order. `status` here mirrors `parts.json`; a run updates
 | ch | title | verses | status |
 |---|---|---|---|
 | 1 | Arjunaviṣādayoga — Arjuna's Despair | 47 | published (pilot, 2026-09-15) |
-| 2 | Sāṅkhyayoga — The Yoga of Knowledge | 72 | todo |
+| 2 | Sāṅkhyayoga — The Yoga of Knowledge | 72 | published (2026-09-18) |
 | 3 | Karmayoga — The Yoga of Action | 43 | todo |
 | 4 | Jñānakarmasaṃnyāsayoga — Knowledge, Action and Renunciation | 42 | todo |
 | 5 | Karmasaṃnyāsayoga — The Renunciation of Action | 29 | todo |

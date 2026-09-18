@@ -22,15 +22,17 @@ scan anomaly turns up later in the volume.
 | done (2026-09-17, unattended) | 39–46 | 21–28 | `archive/pp021-028.json` | fisherman-and-jinni tale continues; frame's poem, second sheikh's tale opens (King Yunan and the physician Duban) |
 | done (2026-09-17, unattended) | 47, 50–54 (48–49 excluded, duplicate leaves) | 29–34 | `archive/pp029-034.json` | King Yunan and Duban tale ends (Duban's execution scene); the Sindbad-the-falconer frame opens and runs to the ghouleh encounter and prince's prayer |
 | done (2026-09-17/18, unattended) | 55–62 | 35–42 | `archive/pp035-042.json` | Duban is executed and his poisoned book kills King Yunan; the fisherman-and-jinni frame resumes and closes (the jinni is freed and departs); the Tale of the Enchanted Prince opens: the four colored fish, the black slave rising from the palace wall |
-| next | 63–70 | 43–50 (tentative) | `archive/pp043-050.json` | printed = PDF − 20 until told otherwise; verify PDF 63's header reads "٤٣" before trusting this |
+| done (2026-09-18, unattended) | 63–70 | 43–50 | `archive/pp043-050.json` | printed = PDF − 20 confirmed (PDF 63 header read "٤٣"); continues the Tale of the Ensorcelled Prince inside the frame "قصة البركة والسمكات الملونة": the sultan questions his army and vizier about the pond, then hears the young man's (half-marble) account of his wife's enchantment — catching her with her lover under a dome, wounding him, her curse turning the city to the pond/fish and him to stone; verse laments continue at the batch's end |
+| next | 71–78 | 51–58 (tentative) | `archive/pp051-058.json` | printed = PDF − 20 until told otherwise; verify PDF 71's header reads "٥١" before trusting this |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 62 (archive ends at printed p. 42). Pages remaining: ~876 PDF pages
-(approximate, pending the corrected offset holding). Lines archived: 877. calc.traineddata last
-retrained 2026-09-17 (+89 lines from pp. 29-32, prose only; pp. 33-34 excluded from training —
-their line crops don't map 1:1 to printed lines, see LOG). Next retrain when lines archived pass
-900 (877 now — due next run).
+**Last PDF page done: 70 (archive ends at printed p. 50). Pages remaining: ~868 PDF pages
+(approximate, pending the corrected offset holding). Lines archived: 1052. calc.traineddata last
+successfully retrained 2026-09-17 (still the committed model — the 2026-09-18 retrain attempt
+regressed on held-out pages and was discarded, see LOG). 113 new verified line pairs (pp. 43,
+45-48; pp. 44/49/50 excluded, crops don't map 1:1) added to `tools/lines/` for the next attempt.
+Next retrain attempt due when lines archived pass 1250.
 
 ## Phase 2 — reading edition (not yet scheduled)
 

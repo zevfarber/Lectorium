@@ -59,3 +59,21 @@ Open decisions the rules do not settle. A run writes the question and what it de
   If a future run finds a clean referent for "التمساح" nearby, or another instance of this kind
   of non-sequitur, revisit whether something is systematically being mis-rendered at this spot in
   the scan.
+
+- **Elliptical join, printed p. 43→44 (PDF 63→64, run 2026-09-18 pp. 63-70).** p. 43's last
+  line ends "...و دخل من الدهاليز الى وسط القصر فاذا" ("...and he entered through the corridors
+  to the middle of the palace, and behold—") and p. 44 opens "يجد فيه اثاثا غير انه مفروش
+  بالحرير..." ("he finds furnishings in it, though it was carpeted with silk..."). The
+  adjudicator flagged this as wanting a subject and negator between "فاذا" and "يجد" (e.g.
+  "فاذا هو لا يجد") that isn't there. Decided meanwhile: checked both page ends directly against
+  the 300dpi scan (not just the crops/bands) — the bottom of PDF 63 ends right at "فا" plus an
+  illegible/smudged mark at the very page margin (no room for a further line), and the top of
+  PDF 64 begins immediately after the running header with no line above "يجد" — so there is no
+  additional printed line hiding at this boundary; the crop tool's page-63 gate flag ("24
+  expected") was a false signal caused by its header-stripper failing on that one page (the
+  title+page-number crop got counted as a body line — both correction passes correctly excluded
+  it as instructed, so the archived 23-line count is right). Transcribed the join as printed
+  (elliptical, like the p17→18 and p54→55 precedents) rather than treating it as evidence of a
+  lost line. The final word of p. 43 ("فاذا") and the reading "يجد" (vs. "يوجد") on p. 44 are
+  themselves only medium-confidence per the adjudicator — worth a second look if a cleaner scan
+  of PDF page 63's bottom margin ever turns up.

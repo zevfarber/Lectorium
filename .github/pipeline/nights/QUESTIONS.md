@@ -36,3 +36,26 @@ Open decisions the rules do not settle. A run writes the question and what it de
   automatically, so the correction agents or the batch-planning step should sanity-check the
   first page's header against the expected printed number before transcribing a full batch, in
   case a further scan anomaly (another duplicate, or a missing leaf) appears later in the volume.
+
+- **PDF page 55's header numeral, and two rough page joins (run 2026-09-17/18, pp. 55-62).**
+  Before transcribing, PDF 55's printed-page numeral had a partial ink dropout: it read as an
+  open crescent shape matching neither the confirmed "٤" (which has a descending stem) nor the
+  confirmed "٥" (a closed loop) cleanly. Decided meanwhile: rendered both PDF 54 and PDF 55 at
+  150dpi and diffed them pixel-by-pixel — mean difference 17.5/255, i.e. clearly different pages,
+  not a duplicate leaf like the 48-49 case — and confirmed PDF 56-62 read "36"-"42" cleanly in
+  sequence, so PDF 55 = printed 35 by elimination (offset printed = PDF-20 continues to hold).
+  Separately, the adjudicator flagged two joins as not reading smoothly: (1) archive
+  pp029-034.json's last line ends "...فقال له الملك احضرتك لاقتلك واعلم" and this batch's P35L01
+  begins "روحك فتعجب الحكيم دوبان..." — "واعلم" wants an object clause that never comes; (2)
+  P35L20 ends "...هذا جزائي منك تجازيني مجازاة" and P36L01 opens "التمساح قال الملك وما..." (lit.
+  "the crocodile said..."), which has no connection to the surrounding Duban/Yunan narrative — no
+  crocodile appears anywhere in this tale. For both: no PDF page is missing or duplicated (the
+  header sequence 54-62 is complete and continuous, confirmed above), and both pass1 and pass2
+  independently transcribed "التمساح" from the image with no prompting toward that reading, so
+  three independent reads agree on the letterforms actually printed. Decided meanwhile: left both
+  joins exactly as printed rather than emending — Middle Arabic prose in this edition is not
+  always grammatically tidy (precedent: the p17→18 join, 2026-09-16) and "التمساح" may be a
+  printer's error or a period idiom not yet recognised; do not silently correct it if it recurs.
+  If a future run finds a clean referent for "التمساح" nearby, or another instance of this kind
+  of non-sequitur, revisit whether something is systematically being mis-rendered at this spot in
+  the scan.

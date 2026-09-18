@@ -21,14 +21,16 @@ scan anomaly turns up later in the volume.
 | done (2026-09-16, unattended) | 31–38 | 13–20 | `archive/pp013-020.json` | Third Sheikh's tale; ends at the frame's return to the merchant/jinni |
 | done (2026-09-17, unattended) | 39–46 | 21–28 | `archive/pp021-028.json` | fisherman-and-jinni tale continues; frame's poem, second sheikh's tale opens (King Yunan and the physician Duban) |
 | done (2026-09-17, unattended) | 47, 50–54 (48–49 excluded, duplicate leaves) | 29–34 | `archive/pp029-034.json` | King Yunan and Duban tale ends (Duban's execution scene); the Sindbad-the-falconer frame opens and runs to the ghouleh encounter and prince's prayer |
-| next | 55–62 | 35–42 | `archive/pp035-042.json` | printed = PDF − 20 until told otherwise; verify PDF 55's header reads "٣٥" before trusting this |
+| done (2026-09-17/18, unattended) | 55–62 | 35–42 | `archive/pp035-042.json` | Duban is executed and his poisoned book kills King Yunan; the fisherman-and-jinni frame resumes and closes (the jinni is freed and departs); the Tale of the Enchanted Prince opens: the four colored fish, the black slave rising from the palace wall |
+| next | 63–70 | 43–50 (tentative) | `archive/pp043-050.json` | printed = PDF − 20 until told otherwise; verify PDF 63's header reads "٤٣" before trusting this |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 54 (archive ends at printed p. 34). Pages remaining: ~884 (approximate,
-pending the corrected offset holding). Lines archived: 700. calc.traineddata last retrained
-2026-09-17 (+89 lines from pp. 29-32, prose only; pp. 33-34 excluded from training — their line
-crops don't map 1:1 to printed lines, see LOG). Next retrain when lines archived pass 900.
+**Last PDF page done: 62 (archive ends at printed p. 42). Pages remaining: ~876 PDF pages
+(approximate, pending the corrected offset holding). Lines archived: 877. calc.traineddata last
+retrained 2026-09-17 (+89 lines from pp. 29-32, prose only; pp. 33-34 excluded from training —
+their line crops don't map 1:1 to printed lines, see LOG). Next retrain when lines archived pass
+900 (877 now — due next run).
 
 ## Phase 2 — reading edition (not yet scheduled)
 

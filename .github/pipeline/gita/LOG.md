@@ -44,3 +44,28 @@ tags to ~45 bare-particle glosses was not applied, since ch01 already glosses pa
 bare throughout and validate_gita.py does not require it — declining rather than inventing a stricter
 convention). build_gita.py and validate_gita.py both PASS (10 benign sandhi-boundary warnings, same class
 as chapters 1-3). Added to stories.json after gita-ch03.
+
+2026-09-18 · chapter 5 (Karmasaṃnyāsayoga) · unattended run · 29 verses, 217 glossary keys · source
+verified (sha256 matched parts.json; collate found only one benign orth difference at 5.3, no VAR — no
+variantsVsBORI for this chapter). Two adjudicated corrections applied and named in their verses' notes:
+5.5 (stray ASCII colon: स: पश्यति → स पश्यति) and 5.8 (misprint श्रृण्वन् → शृण्वन्). Drafted, reviewed in
+two passes (pass 1: wrong root for अश्नन् at 5.8 (ad → aś, distinct from the other aś at 5.21), an
+unhyphenated compound reading at 5.18 (śvapāke → śva-pāke), an inconsistent su- hyphenation at 5.1
+(su-niścitam → suniścitam, matching the chapter's own nir-/a- prefix practice), a duplicated relative
+pronoun in 5.10's literal, a stray capitalized "the Lord" at 5.14 that should read the self per the
+note's own gloss of prabhuḥ, and an incomplete note at 5.26 missing Śaṅkara's "on both sides (living or
+dead)" sense of abhitaḥ; pass 2: a wrong participle count at 5.9 (twelve → thirteen), a swapped
+cross-reference at 5.9 (3.28/4.12 citations reversed), a false verbatim-echo claim at 5.10 (3.30 does not
+actually read "brahmaṇi ādhāya karmāṇi"), a miscited intra-chapter reference at 5.11 that was actually
+4.21, an overclaimed recurrence of the compound apunarāvṛtti at 5.17 (the idea recurs, the compound does
+not), an agent/action-noun mix-up for पाक at 5.18 (cooker → cooking), and an about.txt gap skipping the
+brahmanirvāṇa sequence at 5.24-26). Glossed on Sonnet (five real fixes: ātman's "self, mind" vs "self"
+and indriya's "sense-organ" vs "sense" — the latter inconsistent even within one token at 5.9 — both
+unified; buddhi's "intellect" vs "intellect, understanding" unified to the fuller form; sukha's lemma
+wrongly cited as the inflected "sukham" at 5.3 and 5.13, corrected to the stem "sukha", and duḥkha's
+gloss wording unified; Kṛṣṇa's only appearance, at 5.1, given no identifying gloss, fixed. A suggestion to
+add real dictionary content to the bare "yoga — yoga" / "brahman — brahman (kept untranslated)" /
+"sāṃkhya — sāṃkhya" glosses was not applied: checked against chapters 1-4 and found to be the chapter-1
+practice already carried through every published chapter, not a chapter-5 defect — declining rather than
+inventing a stricter convention). build_gita.py and validate_gita.py both PASS (5 benign sandhi-boundary
+warnings, same class as chapters 1-4). Added to stories.json after gita-ch04.

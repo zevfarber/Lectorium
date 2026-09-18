@@ -8,7 +8,7 @@ One chapter per run, in order. `status` here mirrors `parts.json`; a run updates
 | 2 | Sāṅkhyayoga — The Yoga of Knowledge | 72 | published (2026-09-18) |
 | 3 | Karmayoga — The Yoga of Action | 43 | published (2026-09-18) |
 | 4 | Jñānakarmasaṃnyāsayoga — Knowledge, Action and Renunciation | 42 | published (2026-09-18) |
-| 5 | Karmasaṃnyāsayoga — The Renunciation of Action | 29 | todo |
+| 5 | Karmasaṃnyāsayoga — The Renunciation of Action | 29 | published (2026-09-18) |
 | 6 | Ātmasaṃyamayoga — The Yoga of Self-Restraint | 47 | todo |
 | 7 | Jñānavijñānayoga — Knowledge and Discernment | 30 | todo |
 | 8 | Akṣarabrahmayoga — The Imperishable Brahman | 28 | todo |

@@ -141,3 +141,50 @@ Open decisions the rules do not settle. A run writes the question and what it de
   and the gate both treat prose as categorically unpointed, and zooming into the scan left the
   mark itself ambiguous (a wavy stroke more consistent with a decorative/press-specific fatha
   rendering than a genuine hamza or madda hook). Archived as bare "الذ".
+
+- **Both passes agreeing on a detached prefixed و (run 2026-09-19 pp. 87-94).** In every prior
+  run, a detached-waw slip ("و قال" for "وقال") was always one pass's error, caught by
+  disagreement with the other. This run, on 4 of the 8 pages, one specific pass (not
+  consistently pass1 or pass2) detached و on ~15-20 words at once; separately, 26 lines had
+  *both* passes independently write the same detached و, which diff_passes.py cannot flag
+  since it only reports disagreements. Decided: checked several instances directly against the
+  scan — و is one of the Arabic letters that never ligatures forward, so it always shows a
+  small visual gap before the next letter whether or not there is an actual printed word-space,
+  and conventions.md's rule ("a prefixed و is attached to its word") has no exception for و
+  used as a bare conjunction. Resolved all disputed instances programmatically (regex-normalize
+  `\bو \S` to attached, plus Persian ک to Arabic ك) without invoking the adjudicator, then
+  re-swept the *entire* archived batch with the same regex after gating to catch the
+  undisputed-but-still-wrong 26 lines. **Future runs: run this sweep on every batch before
+  publishing, not just on disputed words — it costs nothing, and this run shows agreement
+  between passes is not sufficient evidence of correctness for this specific slip.**
+- **Kashida-stretched "شعر" transcribed as dashed letters (P71L13/PDF p.91, run 2026-09-19
+  pp. 87-94).** Pass 1 read the verse-introducer word as three separate letters joined by
+  em-dashes ("ش — ع — ر"); pass 2 read it as the plain word with a trailing alif ("شعرا"); the
+  adjudicator, given both readings and the same kashida-is-not-a-space instruction used
+  elsewhere in this run, still sided with pass 1's dashes. Decided meanwhile: rendered the band
+  image at 2x directly — the three letters are joined by one continuous kashida stroke with no
+  gaps and no separate marks, and the line ends at ر with no alif — so the true reading is the
+  plain word "شعر" (no dashes, no trailing alif), overriding the adjudicator. Archived as
+  "شعر". The same word occurs cleanly (no dispute) elsewhere in this batch (P73L14, "ثم يقول
+  شعر"), supporting this reading. **Future runs: a dash-separated single-consonant sequence
+  from one pass is itself a signal to check for kashida-stretching before trusting either
+  pass's reading, even after adjudication.**
+- **apply_verdicts.py's hardcoded PDF-18 offset (recurring since run 2026-09-17 pp. 47-54, most
+  recently run 2026-09-19 pp. 87-94).** The committed tool still assumes printed = PDF-18
+  throughout; every run since the pp. 47-54 offset discovery has worked around this with a
+  locally-patched copy (never committing the change, since the runbook's gate step expects
+  `git diff --stat` to show only the archive plus claim/LOG/plan). The offset has now held for
+  6 consecutive runs (PDF 50 through PDF 94). Left the tool as-is again this run, consistent
+  with precedent and the gate's scope rule, but flagging in case Zev would rather have the
+  constant fixed properly (or made a configurable argument) now that it is clearly not a
+  one-off anomaly.
+- **apply_verdicts.py cannot express a word-reorder verdict (P67L22/PDF p.87, run 2026-09-19
+  pp. 87-94).** The two passes disagreed on word order ("باذنك ندخل" vs "ندخل باذنك"); the
+  adjudicator ruled pass 2's order correct via two separate word-level verdicts (insert "ندخل"
+  at one position, delete pass 1's "ندخل" at the other). The tool's verdict application is a
+  simple text-replace, so it only executed the deletion half and silently dropped the word
+  entirely, leaving a double space. Caught by a post-apply scan for double spaces and fixed by
+  hand. **Future runs: when an adjudicator verdict describes a word moving rather than being
+  substituted, apply it by hand rather than trusting apply_verdicts.py, and it's worth scanning
+  the finished archive for doubled spaces (a `  ` regex) as a general check for this failure
+  mode.**

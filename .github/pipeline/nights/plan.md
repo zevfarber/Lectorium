@@ -24,16 +24,17 @@ scan anomaly turns up later in the volume.
 | done (2026-09-17/18, unattended) | 55–62 | 35–42 | `archive/pp035-042.json` | Duban is executed and his poisoned book kills King Yunan; the fisherman-and-jinni frame resumes and closes (the jinni is freed and departs); the Tale of the Enchanted Prince opens: the four colored fish, the black slave rising from the palace wall |
 | done (2026-09-18, unattended) | 63–70 | 43–50 | `archive/pp043-050.json` | printed = PDF − 20 confirmed (PDF 63 header read "٤٣"); continues the Tale of the Ensorcelled Prince inside the frame "قصة البركة والسمكات الملونة": the sultan questions his army and vizier about the pond, then hears the young man's (half-marble) account of his wife's enchantment — catching her with her lover under a dome, wounding him, her curse turning the city to the pond/fish and him to stone; verse laments continue at the batch's end |
 | done (2026-09-18, unattended) | 71–78 | 51–58 | `archive/pp051-058.json` | printed = PDF − 20 confirmed (PDF 71/72/73/77 headers read "٥١"/"٥٢"/"٥٣"/"٥٧"; PDF 74-76's numerals were faint/worn but the sequence and narrative both confirm no anomaly); the Tale of the Ensorcelled Prince concludes (his account of the sorceress's rage, the frame closes) and "حكاية الحمال و الثلث بنات" (The Porter and the Three Ladies) opens on p. 56 — its heading was dropped by the line detector and recovered from the band as an h:true line |
-| next | 79–86 | 59–66 (tentative) | `archive/pp059-066.json` | printed = PDF − 20 until told otherwise; verify PDF 79's header before trusting this |
+| done (2026-09-18/19, unattended) | 79–86 | 59–66 | `archive/pp059-066.json` | printed = PDF − 20 confirmed (PDF 79/86 headers read "٥٩"/"٦٦"); "حكاية الحمال و الثلث بنات" continues: the porter drinks with the three ladies, reciting verse between rounds; both correction passes and the line detector dropped a verse-introducer line at the very end of p. 59 ("يقول شعر") and the two-line verse it introduces at the top of p. 60 — recovered by checking the scan directly, see LOG |
+| next | 87–94 | 67–74 (tentative) | `archive/pp067-074.json` | printed = PDF − 20 until told otherwise; verify PDF 87's header before trusting this |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 78 (archive ends at printed p. 58). Pages remaining: ~860 PDF pages
-(approximate, pending the corrected offset holding). Lines archived: 1230. calc.traineddata last
-successfully retrained 2026-09-17 (still the committed model — the 2026-09-18 retrain attempt
-regressed on held-out pages and was discarded, see LOG). 113 new verified line pairs (pp. 43,
-45-48; pp. 44/49/50 excluded, crops don't map 1:1) sit in `tools/lines/` awaiting the next attempt.
-Next retrain attempt due when lines archived pass 1250 (close — next run should trigger it).
+**Last PDF page done: 86 (archive ends at printed p. 66). Pages remaining: ~852 PDF pages
+(approximate, pending the corrected offset holding). Lines archived: 1397. calc.traineddata
+retrained 2026-09-19 with 91 new verified line pairs (pp. 63-66, all four pages clean 1:1
+crop-to-line matches); verified against held-out pages not used in training (printed pp. 40 and
+55): combined CER 9.74%→9.31%, not a regression, so committed. tools/lines/ now holds pairs for
+pp. 13-19, 29-32, 43, 45-48, 63-66. Next retrain attempt due when lines archived pass 1600.
 
 ## Phase 2 — reading edition (not yet scheduled)
 

@@ -109,3 +109,35 @@ Open decisions the rules do not settle. A run writes the question and what it de
   lost line. The final word of p. 43 ("فاذا") and the reading "يجد" (vs. "يوجد") on p. 44 are
   themselves only medium-confidence per the adjudicator — worth a second look if a cleaner scan
   of PDF page 63's bottom margin ever turns up.
+
+- **Dropped verse-introducer + verse across the p.59→60 join (PDF 81→82, run 2026-09-18/19
+  pp. 79-86).** Both correction passes on p. 59 ended at "...و شكر و شرب و انشد" ("...and he
+  thanked her, and drank, and recited"), and both passes on p. 60 started directly with unrelated
+  prose ("ثم تقدم الى صاحبة المحل..."). The adjudicator flagged the join as reading elliptically
+  (a recited verse implied but never given). Decided meanwhile: rendered both page bottoms/tops
+  fresh at 300dpi rather than trusting the crops/bands alone. p. 59's true last line is a
+  verse-introducer, "يقول شعر", printed in the same widely-kashida-spaced style as other
+  "[یقول] شعر" headings in this book (e.g. p. 61/62 of this same batch) — it sits just below the
+  last line the automatic line detector found, so it fell inside band3's crop but had too little
+  ink to register as its own detected line, and neither pass noticed it. p. 60 then genuinely
+  opens with the two-line verse this heading introduces, "هاتها بالله هات * من كوس مترعات" /
+  "واسقني منها بكاس * انها ماء الحياة", printed after the page's running header/title and before
+  the prose both passes had transcribed as line 1 — again below the detector's threshold on both
+  passes. This is the same failure mode as the "قيل شعر" drops on earlier pages, just landing at a
+  page *boundary* rather than mid-page, which is why the gate's double-pitch-gap check (looks for
+  a gap *between* two detected lines) never caught it. Recovered both by direct inspection and
+  inserted by hand (p. 59 line 18; p. 60 lines 1-2, v:true) before applying verdicts. **Future
+  runs: when a page's last transcribed line ends in "و انشد"/"و انشد يقول" or similar with no
+  verse following, and/or the next page's first line is prose immediately after the running
+  header, render both page ends at full resolution and check for a dropped heading/verse — don't
+  rely on the crops or bands alone, since a line with mostly kashida and few ink pixels can fall
+  below both the line detector's and the bands' effective coverage at a page edge.**
+
+- **Stray printed vowel mark on a prose word (P62L18, run 2026-09-18/19 pp. 79-86).** One of the
+  correction passes read a fatha-like mark over the alif and a shadda+kasra under the ذ of
+  "الذ" in "في الذ عيش" ("in the most delightful life") and kept them (transcribing "أَلَذِّ"),
+  reasoning that a single word can carry a printed mark inside an otherwise-bare prose line.
+  Decided meanwhile, same as the P16L11 precedent: dropped the marks regardless — conventions.md
+  and the gate both treat prose as categorically unpointed, and zooming into the scan left the
+  mark itself ambiguous (a wavy stroke more consistent with a decorative/press-specific fatha
+  rendering than a genuine hamza or madda hook). Archived as bare "الذ".

@@ -90,3 +90,26 @@ particles; the homophonous but etymologically distinct aś "eat" and aś "obtain
 "exist", cited under one lemma spelling) were left as is — correct as written, not chapter defects.
 build_gita.py and validate_gita.py both PASS (24 benign sandhi-boundary warnings, same class as chapters
 1-5). Added to stories.json after gita-ch05.
+
+2026-09-19 · chapter 7 (Jñānavijñānayoga) · unattended run · 30 verses, 243 glossary keys · source verified
+(sha256 matched parts.json; collate found only two benign orth differences at 7.27-28, no VAR — matching
+the empty variantsVsBORI list). No corrections.json entries apply to this chapter. Drafted, reviewed in
+two passes (pass 1: v.1 युञ्जन्मदाश्रयः and v.23 मद्भक्ता both mis-derived with the compound stem mat-
+instead of mad- before a vowel/voiced consonant — cf. ch01's mad-arthe; v.14's गुणमयी reading missing its
+compound hyphen against v.13's own guṇa-mayaiḥ; v.27's epithet lemma Parantapa left lowercase against
+convention; v.30's adhibhūta/adhidaiva/adhiyajña left untranslated in L/I though none are on the
+untranslated-term list, inconsistent with v.29's own adhyātma. Pass 2: a leftover "mat-āśraya" in v.1's
+āśraya morph note not updated when its sibling entry was fixed in pass 1; three false "first occurs in
+this chapter" epithet-novelty claims at v.7 (Dhanaṃjaya), v.11 (Bharatarṣabha) and v.27 (Bhārata,
+Parantapa) — all three epithets already used in earlier chapters; v.8's claim that the self-manifestation
+catalogue's "I am" is "made explicit only once, in prabhāsmi" — false, asmi recurs explicitly through
+vv.9-11 too). Glossed on Sonnet (a name re-identification at v.10's पार्थ, repeating v.1's full etymology
+instead of a brief nudge, fixed; a garbled sandhi note and a dropped gloss word at v.20's प्रपद्यन्तेऽन्य-
+देवताः, fixed; minor wording-consistency polishes — para's "beyond, higher"/"higher, supreme" split
+unified, bhaj's "to worship"/"to worship, revere" split unified, yathā/tathā given the "(adverb)" tag
+every other adverb in the chapter carries, and māyā's one-off inline "(Monier-Williams)" citation dropped
+to match the plain-gloss style used at its other three occurrences). ā-sthā's two distinct renderings
+across v.18 (āsthitaḥ, 'grounded in') and v.20 (āsthāya, 'having adopted [a rule]') were left as is —
+genuinely different senses of the same root given their different objects, not a chapter defect. build_
+gita.py and validate_gita.py both PASS (16 benign sandhi-boundary warnings, same class as chapters 1-6).
+Added to stories.json after gita-ch06.

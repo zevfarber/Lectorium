@@ -69,3 +69,24 @@ add real dictionary content to the bare "yoga — yoga" / "brahman — brahman (
 practice already carried through every published chapter, not a chapter-5 defect — declining rather than
 inventing a stricter convention). build_gita.py and validate_gita.py both PASS (5 benign sandhi-boundary
 warnings, same class as chapters 1-4). Added to stories.json after gita-ch04.
+
+2026-09-19 · chapter 6 (Ātmasaṃyamayoga) · unattended run · 47 verses, 338 glossary keys · source
+verified (sha256 matched parts.json; collate found the two variantsVsBORI already listed — 6.7
+mānāpamānayoḥ/BORI mānāvamānayoḥ, 6.41 lokān/BORI llokān — plus one benign orth difference at 6.13, no
+unlisted VAR). No corrections.json entries apply to this chapter. Drafted, reviewed in two passes (pass
+1: a lengthened-vowel sandhi error at 6.1, niragniḥ mis-derived as nirāgniḥ; a matching visarga-vs-r
+sandhi error at 6.47, antarātmanā mis-derived with antaḥ- instead of antar-; a stray an-/a- prefix typo
+on the lemma for anirviṇṇa at 6.23; an untranslated-term slip at 6.27 where rajas was Englished as
+"passion" in L and I against convention; an unflagged "the mind's" added to 6.33's literal where the
+Sanskrit names only "fickleness" without indriya/manas; pass 2: one leftover instance of the same
+6.1 nirāgniḥ/niragniḥ error, left uncorrected in the note's own trailing sandhi gloss after the main fix).
+Glossed on Sonnet (name identification: kuru-nandana at 6.43, the chapter's only vocative epithet without
+an "addressed to Arjuna" gloss, fixed; the yuj root standardized to one core gloss, "to yoke, join,
+discipline (oneself)", across nine occurrences that had each been worded differently; three minor
+wording-consistency polishes — vi-naś given its verb sense to match the file's noun-in-parens pattern,
+sukha's "ease" occurrence restored to "happiness, ease", ātman's two "self, mind" occurrences unified to
+"self"). Two harmless lemma-citation quirks (kim vs. kim-cit for the distinct -cana/-cit indefinite
+particles; the homophonous but etymologically distinct aś "eat" and aś "obtain", and vid "know" and vid
+"exist", cited under one lemma spelling) were left as is — correct as written, not chapter defects.
+build_gita.py and validate_gita.py both PASS (24 benign sandhi-boundary warnings, same class as chapters
+1-5). Added to stories.json after gita-ch05.

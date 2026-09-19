@@ -139,3 +139,29 @@ night'; brahma-vidaḥ's brahman member missing its 'kept untranslated' tag, add
 sandhi note at 8.19 aligned to the file's own -i+ā-→-yā- notation). build_gita.py and validate_gita.py
 both PASS (8 benign sandhi-boundary warnings, same class as chapters 1-7). Added to stories.json after
 gita-ch07.
+
+2026-09-19 · chapter 9 (Rājavidyārājaguhyayoga) · unattended run · 34 verses, 273 glossary keys · source
+verified (sha256 matched parts.json; collate found only one benign orth difference at 9.3, no VAR — no
+variantsVsBORI and no corrections.json entries for this chapter). Verse 20's सुरेन्द्रलोक-/मश्नन्ति print-line
+word-split (sura-indra-lokam aśnanti) handled on the ch02 v6 jijīviṣāmaḥ/te 'vasthitāḥ precedent. Reviewed
+in two passes (pass 1: prakṛti falsely claimed as an untranslated-list term at 9.7; -vat at 9.9 mislabeled
+a comparative suffix instead of the adverbial/similative one; sūyate at 9.10 wrongly called passive despite
+governing an accusative object; pṛthaktvena at 9.15 mistranslated "as many", the meaning of bahudhā later
+in the same line; two spurious vowel-sandhi claims at 9.16 for consonant-final aham; a stale "verse 15"
+citation at 9.22 for a yoga occurrence that verse doesn't have; trayī-dharma at 9.21 translated in I but
+left untranslated in L, resolved by treating it like kula-dharma (a named body of observance) and
+translating both; मां dropped from L at 9.20 despite appearing in both Sanskrit and I; a long-vs-short-a
+instrumental-ending confusion at 9.24 tattvena; प्रति जानीहि at 9.31 re-analyzed as the compound verb
+prati-jñā rather than adverb+bare-verb; pass 2: dharma silently translated "righteous" at 9.31's
+dharma-ātmā, a second undocumented deviation from the untranslated-dharma rule, fixed to keep dharma
+visible; brāhmaṇāḥ at 9.33 left as a bare transliteration against the ch02 house rendering "brahmin" and
+this verse's own vaiśya/śūdra translations; a false 6.30 cross-reference at 9.14, corrected to 8.14's
+nitya-yuktasya yoginaḥ; an overclaimed "verse 14" recurrence of ananya-manasaḥ at 9.13, which only recurs
+at 22 and 30; plus polish: fourteen "stem is ā, not a" notes reworded to name the actual -āḥ nom. pl.
+ending; V17's dhātā deduplicated from V18's bhartā [both were "sustainer"]; about.txt's catalog-verse count
+corrected from two to three; a misattributed 7.23 quotation at 9.25 reworded as this verse's own phrasing).
+Glossed on Sonnet (ten consistency fixes: six bare "aham — I" entries missing their nom. sg. case label in
+the "I am X" run of verses 16-19 and 24; a mokṣyase gloss at 9.28 restored to match verse 1's format;
+teṣu/mat-sthāni/tu/me/bhaj/aś/bhūta/ātman wording drift unified across their repeated occurrences).
+build_gita.py and validate_gita.py both PASS (4 benign sandhi-boundary warnings, same class as chapters
+1-8). Added to stories.json after gita-ch08.

@@ -12,7 +12,7 @@ One chapter per run, in order. `status` here mirrors `parts.json`; a run updates
 | 6 | Ātmasaṃyamayoga — The Yoga of Self-Restraint | 47 | published (2026-09-19) |
 | 7 | Jñānavijñānayoga — Knowledge and Discernment | 30 | published (2026-09-19) |
 | 8 | Akṣarabrahmayoga — The Imperishable Brahman | 28 | published (2026-09-19) |
-| 9 | Rājavidyārājaguhyayoga — The Royal Knowledge, the Royal Secret | 34 | todo |
+| 9 | Rājavidyārājaguhyayoga — The Royal Knowledge, the Royal Secret | 34 | published (2026-09-19) |
 | 10 | Vibhūtiyoga — The Divine Manifestations | 42 | todo |
 | 11 | Viśvarūpadarśanayoga — The Vision of the Cosmic Form | 55 | todo |
 | 12 | Bhaktiyoga — The Yoga of Devotion | 20 | todo |

@@ -188,3 +188,39 @@ Open decisions the rules do not settle. A run writes the question and what it de
   substituted, apply it by hand rather than trusting apply_verdicts.py, and it's worth scanning
   the finished archive for doubled spaces (a `  ` regex) as a general check for this failure
   mode.**
+
+- **Running header switches mid-page with no heading line, PDF p.101/printed p.81 (run
+  2026-09-19 pp. 95-102).** The running header changes from "حكاية القرندلي الاول" (First
+  Qalandar) to "حكاية القرندلي الثاني" (Second Qalandar) partway through this batch, but the
+  body text on that page is still the first qalandar's own narration (he is recounting how he
+  met the second and third qalandars — no change of speaker, no printed section heading).
+  Decided: this is unlike the earlier tale-opening cases (e.g. p.56's "حكاية الحمال" heading)
+  where a genuine larger-type heading line marks a new tale; here the header simply anticipates
+  content later on the page or in the next few pages. Treated as ordinary running-header
+  behaviour, not transcribed, no h:true line added. If a future run finds the header/content
+  mismatch persists oddly or a genuine heading is dropped nearby, revisit.
+
+- **Doubled printed و across a page break, PDF p.100→p.101 (printed p.80→p.81, run 2026-09-19
+  pp. 95-102).** p.80's last line ends on a lone, clearly detached "و" at the right margin; p.81's
+  first line begins "وخليفة" (itself a separately-printed و attached to خليفة). Read together the
+  passage would want a single "و" joining two titles ("امير المؤمنين وخليفة رب العالمين" =
+  "Commander of the Faithful and Caliph, Lord of the Worlds"), but as printed there are two.
+  Checked both page images directly at 300dpi: no catchword line exists below p.80's last line
+  (the trailing و is part of the body line itself, not a separate catchword), and no line is
+  missing or duplicated in the header-number sequence. Decided meanwhile: transcribed both و's
+  exactly as printed rather than merging them, per the p17→18/p54→55/p43→44 precedent of leaving
+  ungrammatical-looking but genuinely printed joins as-is. If this doubled-conjunction-at-a-page-
+  break pattern recurs, it may be a period/press convention worth a rule of its own.
+
+- **Correction agent used "best-effort" vocalization instead of re-verifying printed marks,
+  PDF p.98 (run 2026-09-19 pp. 95-102).** One of the two independent correction passes for this
+  verse-heavy page reported reconstructing tashkil for two "well-known" epigrams from memory of
+  the classical text rather than confirming every mark against the crop, reasoning that the
+  underlying poems were recognisable. This is exactly the kind of silent normalization the
+  two-pass/adjudication design exists to catch, and it did: flagged specifically for the
+  adjudicator, who re-verified the page's verse diacritics from the images and corrected several
+  (صِبْتَ not صَبَتْ، تَنْعَى not تُدْعَى، الْأُسْلِ not الْاُسْدِ، and confirmed pass 1's
+  "فَكَانُوهَا وَلَكِنْ" refrain over pass 2's "فَكَانُوا" as the actually-printed reading).
+  **Future runs: if a correction agent's own report admits reconstructing text from a "well-known"
+  or "classical" source rather than the image, treat that page's marks as unverified regardless of
+  which pass it was and call it out explicitly to the adjudicator, as done here.**

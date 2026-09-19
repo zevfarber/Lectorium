@@ -113,3 +113,29 @@ across v.18 (āsthitaḥ, 'grounded in') and v.20 (āsthāya, 'having adopted [a
 genuinely different senses of the same root given their different objects, not a chapter defect. build_
 gita.py and validate_gita.py both PASS (16 benign sandhi-boundary warnings, same class as chapters 1-6).
 Added to stories.json after gita-ch06.
+
+2026-09-19 · chapter 8 (Akṣarabrahmayoga) · unattended run · 28 verses, 219 glossary keys · source verified
+(sha256 matched parts.json; collate found the one variantsVsBORI already listed — 8.7 vulgate asaṃśayam
+[adverbial 'without doubt'] vs BORI asaṃśayaḥ [nominative 'there is no doubt'] — no unlisted VAR, no
+corrections.json entries for this chapter). Chapter opens with Arjuna's five questions on brahman,
+adhyātma, karma, adhibhūta, adhidaiva and adhiyajña (echoing 7.29-30) and Kṛṣṇa's answers at 8.3-4; per
+convention only brahman stays untranslated, so adhyātma/adhibhūta/adhidaiva/adhiyajña were given fresh
+English renderings ('the individual self' / 'material existence' / 'the divine order' / 'the lord of
+sacrifice') matched word-for-word between question and answer, and akṣara ('the imperishable', its
+akṣaram-as-syllable sense at 8.13 flagged as distinct) was kept consistent at every later recurrence.
+Drafted, reviewed in two passes (pass 1: a wrong sandhi rule at 8.1 tadbrahma [-t+b- stated as unchanged,
+actually -d b-]; a wrongly cased यं at 8.6 [nom./acc. given, both tokens are acc. only]; a false 7.21
+cross-reference [cited taṃ tam, the chapter actually pairs tasya tasya]; अर्पित at 8.7 lemmatized under its
+own inflected form instead of the causative root ā-ṛ; परं/परमं [para vs. parama, distinct headwords]
+conflated at 8.8/8.10/8.28; 8.12's प्राणम् wrongly attached to āsthitaḥ instead of ādhāya, against the
+verse's own already-correct L/I; an unhyphenated rātry-āgame at 8.18-19 against the chapter's own
+ahar-āgame practice; pass 2: Pārtha/Kaunteya left untranslated in L throughout against convention and
+ch07's own practice [now 'O son of Pṛthā'/'O son of Kuntī' in L, bare name kept in I]; a duplicated
+'ordainer' gloss at 8.9 papering over anuśāsitāram vs dhātāram; an ambiguous 8.3 L letting 'supreme' read
+as modifying brahman rather than akṣaram; 'yoga' silently dropped from 8.8's I). Glossed on Sonnet (four
+wording-consistency fixes: bhāva's 'state, existence' vs 'state, being' split unified; ā-gam's 'to come,
+arrive' vs 'to come' split unified and a truncated 'at the coming of' restored to 'at the coming of
+night'; brahma-vidaḥ's brahman member missing its 'kept untranslated' tag, added; a stray un-hyphenated
+sandhi note at 8.19 aligned to the file's own -i+ā-→-yā- notation). build_gita.py and validate_gita.py
+both PASS (8 benign sandhi-boundary warnings, same class as chapters 1-7). Added to stories.json after
+gita-ch07.

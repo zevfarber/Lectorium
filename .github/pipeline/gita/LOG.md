@@ -201,3 +201,34 @@ tag, two missing "'me'" translations on accusative aham entries, two stray-comma
 glosses, and two reordering/wording fixes unifying "hi" to the chapter's established "for, indeed"
 phrasing). build_gita.py and validate_gita.py both PASS (15 benign sandhi-boundary warnings, same class as
 chapters 1-9). Added to stories.json after gita-ch09.
+
+2026-09-20 · chapter 11 (Viśvarūpadarśanayoga) · unattended run · 55 verses, 482 glossary keys ·
+source verified (sha256 matched parts.json; collate found the five listed variantsVsBORI as VAR
+[11.16, 11.20, 11.21, 11.22, 11.32] plus two benign orth diffs at 11.25/11.29, no corrections.json
+entries for this chapter). Longest chapter drafted so far and the first with substantial triṣṭubh
+(4-line) content — verses 1-14 and 51-55 are anuṣṭubh, 15-50 triṣṭubh — so drafting was split into
+six verse-range batches (1-14, 15-24, 25-34, 35-40, 41-46, 47-55), each a separate subagent, matching
+ch10's precedent of splitting outsized chapters. Eight pāda-crossing hyphen-splits (compound/sandhi
+words the Wikisource print breaks across a line: 11.15, 17, 19, 29, 30, 38, 46, 48), each drafted per
+the ch09 v.20 precedent (leftover consonant opens the continuation token's reading). Verse 11.32 uses
+the chapter's mandated house rendering ("Time I am...") verbatim. Reviewed in two passes: pass 1 (14
+fixes: three untranslated vocatives in L against the ch08/ch10 convention [Pārtha ×2, Guḍākeśa] and
+four more [Keśava, Hṛṣīkeśa, Acyuta, Janārdana] with etymology drift from ch10's settled renderings;
+Savyasācin's L/I roles reversed; kirīṭin and jagannivāsa/deveśa worded two ways across their repeated
+occurrences; a words.txt reading-field bug at 11.45 [deveśa given fused, not sandhi-undone]; and the
+11.48 hyphen-split bug [continuation token's reading wrongly opened with restored visarga ḥ instead of
+the literal leftover consonant r — a genuine sandhi error, not just a WARN, since दानैः + न sandhis to
+dānair na, visarga-before-voiced-consonant, not a bare restored visarga] — this last one also flagged
+directly by validate_gita.py's own opening-letter check); pass 2 confirmed all 14 landed and found four
+more: adhyātma (v.1) wrongly left untranslated in I against ch.8's own settled rendering "the individual
+self"; v.9 missing its I line entirely; परं at v.18 mislemmatized "parama" instead of "para" [same
+headword-conflation bug ch.8's review caught]; and prasīda worded three ways across v.25/31/45. Glossed
+on Sonnet: six lemma-citation splits unified (tvam wrongly cited "tvad" at five non-compound forms, tad
+wrongly cited "tat" at three, kecit's two occurrences under different lemmas, Brahmā cited once as
+"brahman"); a dozen gloss-wording drifts unified across batches (parama, para, viśva, namas, hi, avyaya,
+akṣara, Viṣṇu, gadin); a real grammar error (मे at v.18 mislabeled instr. sg., corrected to gen. sg.,
+genitive-of-agent); two off-meaning eva glosses ("already", "again" — neither is a sense of eva) fixed to
+match the chapter's own dozen correct occurrences; and Kṛṣṇa/Arjuna, cited as bare lemmas nowhere
+identified despite every other proper name in the file carrying an identifying gloss, given one each on
+first occurrence. build_gita.py and validate_gita.py both PASS (6 benign sandhi-boundary warnings, same
+class as chapters 1-10). Added to stories.json after gita-ch10.

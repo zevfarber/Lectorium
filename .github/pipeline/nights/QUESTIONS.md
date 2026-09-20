@@ -278,3 +278,40 @@ Open decisions the rules do not settle. A run writes the question and what it de
   normally have needs per-instance verification, not blanket acceptance — Middle Arabic spelling
   variance and genuine print wear can look identical to a font-wide substitution but usually
   isn't.**
+
+- **Night 0's pilot overlap falls mid-archived-line, not at a line boundary (run 2026-09-20/21,
+  publishing nights-frame-02).** `publish-runbook.md` says to begin the new text "at the word
+  after" the pilot's last sentence, but `validate_night.py`'s `--from`/`--to` only accept whole
+  archive line refs and pull the *entire* line's tokens for the bare-strip check. The pilot's
+  last word (اسمعه) falls at the 10th of 14 tokens on P03L18; the other 4 (`فقال له يا اخي`) open
+  the new content. Decided: used `--from P03L18` (the only line-granular choice that includes the
+  new words at all) and added one extra lead-in sense-unit at the very start of nights-frame-02
+  covering the archived line's first 10 tokens — reusing nights-frame-01's own last two sentences'
+  translation verbatim (word-for-word identical Arabic, confirmed programmatically) rather than
+  re-translating already-published text. The lead-in's note tells the reader this opens
+  mid-exchange, continuing directly from the pilot. **Future runs: if another Night 0-style pilot
+  overlap ever recurs, or any future unit's start/end falls mid-line, the same pattern applies —
+  extend to the nearest line boundary and add a small lead-in/trailing unit reusing the
+  overlapping text's already-published translation, rather than trying to make the validator
+  accept a partial line (it can't).**
+- **Two slice-drafting agents mis-tokenized a word at their slice boundary (run 2026-09-20/21,
+  publishing nights-frame-02).** Drafting this unit in 8 parallel slices, one agent split the
+  archive's single fused token `اويومين` (P07L21) into two words `او يومين`, and a different agent
+  fused the archive's two separate tokens `و` / `كرامة` (split across the P10L06→P10L07 line
+  break) into one word `وكرامة`. Both were plausible-looking calls in isolation (matching normal
+  Arabic word-division) but broke the mechanical bare-strip identity against the archive, which
+  preserves the print's own token boundaries exactly. Caught by a full programmatic diff of the
+  concatenated draft against the archive before assembling the story file (not by the two
+  drafting agents' own self-reported validation, which each checked only its own slice and so
+  didn't have the neighbouring context to catch the boundary error), then fixed by hand at the
+  token level, re-verified, and only then run through `validate_night.py`. **Future runs: a
+  slice-agent's own "verified against the archive" claim covers only its own slice; always
+  reconcatenate every slice's tokens across the whole unit and diff against the archive
+  start-to-finish before trusting the gate to catch a boundary-straddling mistake, since
+  validate_night.py's own diagnostic only reports the *first* mismatch and a shift-by-one at slice
+  N's end can otherwise masquerade as wall-to-wall corruption in slices N+1 onward.**
+- **Two of this run's 113 sense units needed the deflowering/killing formula and the coercion
+  scene translated at full frankness (no new decision — flagging for continuity).** Both episodes
+  read plainly in both layers, matching the pilot's own established register; the review pass
+  spot-checked both explicitly. No open question, just confirming the "never bowdlerize" rule was
+  exercised, not merely stated, on this run.

@@ -48,8 +48,8 @@ repository is the state, never this table. Run it rather than trusting what is w
 
 | unit | archive range | state |
 |---|---|---|
-| frame, part 1 (pilot) | printed pp. 1–3 | published 2026-08-02, inline glossary (migrate on the first phase-2 run) |
-| frame, part 2 | P03L01–P10L09 | to publish — starts after the pilot's last sentence, not at P03L01 |
+| frame, part 1 (pilot) | printed pp. 1–3 | published 2026-08-02, now via glossaryFile (migrated 2026-09-20/21) |
+| frame, part 2 | P03L18(w11)–P10L09 | published 2026-09-20/21, 114 sense units (incl. one lead-in unit reusing the pilot's own last two sentences to cover the archived line P03L18 straddles — see QUESTIONS.md); created nights-glossary.json |
 | Night 1 | P10L10–P14L08 | to publish |
 | Night 2 | P14L09–P20L10 | to publish |
 | Night 3 | P20L11–P25L11 | to publish |
@@ -66,9 +66,9 @@ in five.
 
 ### Open items for phase 2
 
-1. **The shared glossary does not exist yet.** The first publishing run creates
-   `nights-glossary.json` from the pilot's 421 inline entries and switches `nights-frame-01.json`
-   to `glossaryFile`. Every night after that merges into it.
+1. **Done 2026-09-20/21.** `nights-glossary.json` now exists (1331 entries: the pilot's 421 plus
+   910 new from frame, part 2) and `nights-frame-01.json` carries `glossaryFile` instead of its
+   old inline `glossary`. Every night after this one merges into the shared file.
 2. **Arabic audio has never been confirmed to work.** `ar-XA` was added to the audio Action's
    voice map on 2026-08-02 with an empty voice name; it did not commit clips for the pilot and no
    one has read the run log since (the sandbox cannot reach `api.github.com`). Publish text

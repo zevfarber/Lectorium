@@ -315,3 +315,53 @@ Open decisions the rules do not settle. A run writes the question and what it de
   read plainly in both layers, matching the pilot's own established register; the review pass
   spot-checked both explicitly. No open question, just confirming the "never bowdlerize" rule was
   exercised, not merely stated, on this run.
+- **Arabic audio may no longer be "never confirmed to work" — found while publishing Night 1
+  (run 2026-09-20/21), not acted on.** Commit `2ecd88a1` ("Audio: build clips + align.json for
+  nights-frame-01 nights-frame-02", 2026-09-20 ~22:42 UTC, just before this run) shows the
+  `ar-XA` audio Action actually ran and built clips for both existing files:
+  `nights-frame-01.json` already carries `"audio": "audio/nights-frame-01"`, and
+  `audio/nights-frame-02/` has 117 clips on disk — but `nights-frame-02.json` itself was never
+  updated with the `audio` field, so the site isn't serving them for that story. This run left
+  both alone (fixing `nights-frame-02.json` is outside a publishing run's one-file scope; chasing
+  audio is explicitly out of scope per `reading-conventions.md`) and published Night 1 without
+  `audio` too, per the same rule. **Decided meanwhile:** nothing changed about this run's own
+  output. **For the owner or a dedicated pass:** check whether the clips are actually correct
+  (voice, alignment), wire up `nights-frame-02.json`'s missing field, and decide whether audio
+  should now be added going forward (or backfilled to Night 1) rather than treating `ar-XA` as
+  still broken.
+- **A real vocalization error caught by the whole-night review pass, not by the gate (run
+  2026-09-20/21, publishing Night 1).** At P12L14 ("مثل ماقتلت ولدي وحشاشة كبدي"), the slice-3
+  drafting agent vocalized the fused rasm ماقتلت as 1cs مَاقَتَلْتُ ("as I killed") and translated
+  it as the jinni confessing to killing his own son — but the parallel accusation at P10L15
+  (same words, drafted independently by slice 1) correctly reads it as 2ms مَاقَتَلْتَ ("as you
+  killed"), i.e. the jinni accusing the merchant. The bare-strip gate cannot catch this class of
+  error (unvocalized rasm is identical either way; only the diacritics differ, and the gate
+  strips diacritics before comparing). Caught by the review agent cross-checking the two
+  occurrences' glossary entries against each other and against narrative sense. **Future runs:**
+  the gate proves nothing was added or dropped, not that ambiguous unvocalized forms (a common
+  class: 1cs vs 2ms perfect verbs, in particular) were read correctly — the whole-night review
+  pass earns its keep here and should keep explicitly cross-checking repeated/parallel phrasing
+  against itself, not just against style rules.
+- **New pipeline gotcha found by the review pass: combining-mark codepoint order, not just
+  precomposed-vs-combining hamza (run 2026-09-20/21, publishing Night 1).** Independently-drafted
+  slices sometimes ordered a word's short-vowel and hamza combining marks differently (e.g.
+  hamza-below before its vowel instead of after) — invisible to the eye, and it doesn't break the
+  bare-strip gate (which just strips all combining marks), but it silently breaks *exact* glossary
+  key matching: the same word can fail to match itself across slices, or fail to match an already
+  existing shared-glossary key, purely on mark order. The review agent canonicalized combining-mark
+  order (by Unicode combining class, never touching base letters or the 8 legitimate precomposed
+  hamzas) across all "t" fields and glossary keys before merging, and this caught real would-be
+  duplicate entries. **Future runs:** worth doing this canonicalization as a matter of course before
+  any glossary merge, the same way the hamza-encoding rule already gets an explicit check.
+- **Residual uncertain readings in Night 1, left as translated pending a second opinion (nobody
+  waiting on these, recorded for completeness):** فَسَأَتُ (P13L03) appears to drop a root letter
+  outright rather than just an alif/hamza-seat, read as a colloquial contraction of سَأَلْتُ; اِيتِنِي
+  (P13L09/13/15, "bring me!") prints with no hamza indication at all rather than the usual bare-alif
+  seat — two independent drafting agents (slices 4 and 5) converged on the same reading
+  unprompted, which is reassuring but not certain; the sheikh's line "ما دينك الا دين عظيم" plausibly
+  puns between دين = "debt" (echoing the merchant's literal debts) and a colloquial extended sense
+  "affair, predicament" — vocalized identically either way and flagged rather than resolved;
+  زَرْزُورِيَّةٌ ("dapple/starling-colored", describing the third sheikh's mule) was glossed by
+  inference from the زرزور (starling) root rather than a confirmed lexicon citation. None of these
+  affect the gate or the bare text; a Lane's-Lexicon check on زرزورية and فسأت would be the most
+  useful next step if anyone has time.

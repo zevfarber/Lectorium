@@ -50,7 +50,7 @@ repository is the state, never this table. Run it rather than trusting what is w
 |---|---|---|
 | frame, part 1 (pilot) | printed pp. 1–3 | published 2026-08-02, now via glossaryFile (migrated 2026-09-20/21) |
 | frame, part 2 | P03L18(w11)–P10L09 | published 2026-09-20/21, 114 sense units (incl. one lead-in unit reusing the pilot's own last two sentences to cover the archived line P03L18 straddles — see QUESTIONS.md); created nights-glossary.json |
-| Night 1 | P10L10–P14L08 | to publish |
+| Night 1 | P10L10–P14L08 | published 2026-09-20/21, 71 sense units; 505 new glossary entries |
 | Night 2 | P14L09–P20L10 | to publish |
 | Night 3 | P20L11–P25L11 | to publish |
 | Night 4 | P25L12–P30L09 | to publish |
@@ -69,11 +69,18 @@ in five.
 1. **Done 2026-09-20/21.** `nights-glossary.json` now exists (1331 entries: the pilot's 421 plus
    910 new from frame, part 2) and `nights-frame-01.json` carries `glossaryFile` instead of its
    old inline `glossary`. Every night after this one merges into the shared file.
-2. **Arabic audio has never been confirmed to work.** `ar-XA` was added to the audio Action's
-   voice map on 2026-08-02 with an empty voice name; it did not commit clips for the pilot and no
-   one has read the run log since (the sandbox cannot reach `api.github.com`). Publish text
-   without an `audio` field; one pass adds audio to every night at once when it is fixed. Likely
-   causes: the empty-name resolution path, or espeak-ng lacking an Arabic voice on the runner.
+2. **Arabic audio status changed 2026-09-20/21 — needs a look, not yet acted on by this run.**
+   Previously "never confirmed to work" (see prior wording, kept in git history). But the commit
+   `2ecd88a1` ("Audio: build clips + align.json for nights-frame-01 nights-frame-02", 2026-09-20
+   ~22:42 UTC, just before this run started) shows the Action *did* build clips for both files:
+   `audio/nights-frame-01/` (`nights-frame-01.json` already carries `"audio":
+   "audio/nights-frame-01"`) and `audio/nights-frame-02/` (117 clips exist on disk, but
+   `nights-frame-02.json` itself is still missing the `audio` field — never wired up). This run
+   left it alone per `reading-conventions.md`'s "do not spend a run chasing it" and published
+   Night 1 without an `audio` field too, per the same rule and because touching `nights-frame-02`
+   is out of a publishing run's scope (one night per run). See `QUESTIONS.md` for the full note.
+   Worth a dedicated pass: confirm the clips are correct, wire up `nights-frame-02.json`'s missing
+   field, and decide whether new nights should get `audio` going forward.
 3. **The owner has never signed off on the pilot** (the phase 1 exit gate, open since August). He
    reads Arabic well enough to catch gross error, not to audit translation quality. Worth his eyes
    on the first night published under this pipeline.

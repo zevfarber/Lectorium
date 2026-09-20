@@ -15,7 +15,7 @@ One chapter per run, in order. `status` here mirrors `parts.json`; a run updates
 | 9 | Rājavidyārājaguhyayoga — The Royal Knowledge, the Royal Secret | 34 | published (2026-09-19) |
 | 10 | Vibhūtiyoga — The Divine Manifestations | 42 | published (2026-09-20) |
 | 11 | Viśvarūpadarśanayoga — The Vision of the Cosmic Form | 55 | published (2026-09-20) |
-| 12 | Bhaktiyoga — The Yoga of Devotion | 20 | todo |
+| 12 | Bhaktiyoga — The Yoga of Devotion | 20 | published (2026-09-20) |
 | 13 | Kṣetrakṣetrajñavibhāgayoga — The Field and the Knower of the Field | 34 | todo |
 | 14 | Guṇatrayavibhāgayoga — The Three Qualities | 27 | todo |
 | 15 | Puruṣottamayoga — The Supreme Person | 20 | todo |

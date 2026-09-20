@@ -232,3 +232,32 @@ match the chapter's own dozen correct occurrences; and Kṛṣṇa/Arjuna, cited
 identified despite every other proper name in the file carrying an identifying gloss, given one each on
 first occurrence. build_gita.py and validate_gita.py both PASS (6 benign sandhi-boundary warnings, same
 class as chapters 1-10). Added to stories.json after gita-ch10.
+
+2026-09-20 · chapter 12 (Bhaktiyoga) · unattended run · 20 verses, 146 glossary keys · source
+verified (sha256 matched parts.json; collate found the one listed variantsVsBORI [12.18, vulgate
+mānāpamānayoḥ vs. BORI mānāvamānayoḥ, both meaning "honor and dishonor/disrespect"] as VAR, no
+corrections.json entries for this chapter). All 20 verses anuṣṭubh; drafted in one pass (no
+verse-range splitting needed, unlike the longer chapters 10-11). Reviewed in two passes: pass 1
+(8 fixes: v.2's मे wrongly labeled instrumental instead of genitive-of-agent-with-mataḥ; a wrongly
+imported "alone" in v.2's L with no eva in the Sanskrit; v.5's तेषाम् mislabeled gen. sg. instead of
+gen. pl.; "yoga" silently translated "discipline" in four spots against the untranslated-terms
+convention [v.6 I, v.9 I, v.11 L, v.11 I] — the same bug class LOG.md records for chapters 8 and 10;
+v.16's अनपेक्षः lemma wrongly cited the feminine noun apekṣā instead of the adjectival stem
+an-apekṣa, which cannot yield a masculine nominative; v.14's note overstating the yaḥ...saḥ refrain
+as spanning "every verse through 19" when verses 18-19 do not contain that construction, narrowed to
+its true span of 14-17; an unwarranted "instead" imported into v.1's I where the Sanskrit's ye ca api
+has no adversative तु, unlike v.3/v.6's genuine ye tu; and a stray apostrophe in v.4's note); pass 2
+confirmed all 8 landed cleanly with no collateral damage, did an independent fresh full-chapter pass,
+and caught one residual instance of the same "yoga → discipline" bug surviving in v.11's own note
+(fixed) plus two non-blocking style notes (the ch.1-6-era "yoga, discipline" gloss style vs. chapters
+7-11's "kept untranslated" self-reminder tag — left as-is, matching this chapter's own gloss
+precedent; and parts.json's stale words:183 vs. the build's actual 186, a metadata field validate_gita.py
+doesn't check). Glossed on Sonnet: three residual gloss-wording drifts for repeated words unified
+(sama "equal, even" at v.4 realigned to the chapter's own "equal, the same" used at vv.13,18,19;
+ud-vij's two occurrences two lines apart in v.15's own pair worded "to be agitated" vs. "to be
+disturbed", unified to the latter; bhaktimat's two occurrences worded in reversed order, "possessing
+devotion, devoted" at v.17 vs. "devoted, possessing devotion" at v.19, unified to the latter); no
+mislabeled case/number bugs found elsewhere in the file (teṣām/te/tad and yoga/yogin lemma citations,
+Pārtha/Dhanaṃjaya epithet identification, and bhakta/bhakti/bhaktimat core translation all checked
+clean). build_gita.py and validate_gita.py both PASS (4 benign sandhi-boundary warnings, same class
+as chapters 1-11). Added to stories.json after gita-ch11.

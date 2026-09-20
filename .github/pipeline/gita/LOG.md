@@ -261,3 +261,55 @@ mislabeled case/number bugs found elsewhere in the file (teṣām/te/tad and yog
 Pārtha/Dhanaṃjaya epithet identification, and bhakta/bhakti/bhaktimat core translation all checked
 clean). build_gita.py and validate_gita.py both PASS (4 benign sandhi-boundary warnings, same class
 as chapters 1-11). Added to stories.json after gita-ch11.
+
+2026-09-20 · chapter 13 (Kṣetrakṣetrajñavibhāgayoga, "The Field and the Knower of the Field") ·
+unattended run · 34 verses, 235 glossary keys · source verified (sha256 matched parts.json; collate
+found the one listed variantsVsBORI [13.20, vulgate kāryakaraṇakartṛtve "instrument" vs. BORI
+kāryakāraṇakartṛtve "cause"] as VAR, no corrections.json entries for this chapter). Kṛṣṇa speaks the
+whole chapter unprompted (one speaker line only, at v.1); prakṛti, puruṣa, kṣetra, kṣetrajña and
+bhakti translated throughout ("nature", "the Person", "the field", "the knower of the field",
+"devotion") per established practice from chapters 7-9 and the standing bhakti decision in this
+file's QUESTIONS.md, never left untranslated. Drafted in one pass, all 34 verses anuṣṭubh. Reviewed
+in two passes: pass 1 (8 fixes — a missing ZWNJ in v.21's भुङ्क्ते token vs. the raw source file;
+Kaunteya and Bhārata left untranslated at their v.1/v.2 first occurrences against the
+epithets-translated-on-first-use convention; v.12's note overstating the vulgate/BORI word-division
+difference [anādi mat-paraṃ vs. anādimat paraṃ] as making "much the same" sense when it in fact drops
+or keeps an explicit reference to Kṛṣṇa; two sandhi notes at vv.13/25 mischaracterizing an optional
+Pāṇinian visarga-retention-before-ś rule [vā śari, 8.3.36] as if it were the unrelated obligatory
+stop-assimilation rule seen at vv.3-4; a spurious compound-hyphen in v.24's L, "by-Sāṃkhya-yoga",
+where words.txt itself already keeps sāṃkhyena and yogena as two separate instrumentals; and a real
+syntactic misparse in v.30, वित्तारं wrongly read as a second object of line 1's anupaśyati rather
+than — correctly — an accusative in apposition with brahma, both governed by line 2's own verb
+saṃpadyate, "attains to, becomes" + acc.). Pass 2 independently confirmed all 8 pass-1 fixes landed
+(and, checking v.30 from first principles rather than trusting pass 1, confirmed saṃpadyate + acc.
+is itself sound dictionary-attested Sanskrit, not merely what pass 1 proposed), then found four more
+on a fresh full-chapter read: "yoga" silently translated "discipline" at vv.10/24 against the
+untranslated-terms convention — the same recurring bug class this LOG already records for chapters
+8, 10 and 12 — now also inconsistent with v.24 L's own pass-1 fix; an arithmetic slip in v.5's note
+claiming "twenty-three items so far" when the verse's own list (5+1+1+1+11+5) already completes the
+Sāṃkhya 24-tattva tally, contradicting v.6's own correct framing of its items as modifications, not
+further tattvas; v.13's note misattributing its Vedic parallel to the puruṣa-sūkta (RV 10.90, which
+opens quite differently) when the verse is in fact an almost word-for-word citation of Śvetāśvatara
+Upaniṣad 3.16 (the Viśvakarman-hymn/RV 10.81.3 parallel is real but secondary); and v.31's L breaking
+the same epithet-nudge convention by translating Kaunteya's second occurrence instead of leaving it
+bare as the nudge, exactly as already fixed for Bhārata at v.33. One process-consistency point raised
+by pass 2 — v.12's word-division difference is letter-identical between the two witnesses, so by
+convention's own "orth is nothing" rule it isn't a parts.json-tracked variantsVsBORI entry the way
+v.20 is, even though the note is right to flag its real sense-difference — was left as a note-only
+observation rather than added to parts.json, and is recorded in QUESTIONS.md for whoever next reviews
+the variant-tracking convention. All pass-1 and pass-2 fixes applied and re-verified (tiling against
+gita_lib's ZWNJ/ZWJ-stripped canonical text still exact after every edit — pass 1's ZWNJ insertion
+into v.21's token was itself reverted, since gita_lib.read_wikisource strips ZWNJ/ZWJ as
+normalization and build_gita.py's own tiling check requires the token without it, a gotcha specific
+to this chapter's one ZWNJ-bearing source line). Glossed on Sonnet: 8 high-confidence gloss-wording
+fixes (jñeya's gerundive gloss unified to "to be known"; bhūta unified to "being" without the
+unexplained "being, creature" variant; vac unified to "to say, call"; bhuj's agent-noun entry
+restructured to lead with the infinitive, matching house style; yoga given its dictionary gloss at
+its two bare v.24 occurrences instead of standing undefined; sāṃkhya's v.24 entry brought into line
+with its established chapters-5 gloss, "sāṃkhya, kept untranslated"; brahman's three occurrences given
+the established "brahman, the absolute (kept untranslated per convention)" gloss from chapters 2-3
+instead of standing as a bare undefined "brahman — brahman"; sarvataḥ's triple v.13 occurrence
+unified) plus 6 moderate consistency fixes (samāsa, vikāra, kṛ, three sthā-compound participle
+entries, and four agent-noun/habitual-adjective entries all restructured to lead with the root's
+infinitive per house style). build_gita.py and validate_gita.py both PASS (12 benign sandhi-boundary
+warnings, same class as chapters 1-12). Added to stories.json after gita-ch12.

@@ -16,7 +16,7 @@ One chapter per run, in order. `status` here mirrors `parts.json`; a run updates
 | 10 | Vibhūtiyoga — The Divine Manifestations | 42 | published (2026-09-20) |
 | 11 | Viśvarūpadarśanayoga — The Vision of the Cosmic Form | 55 | published (2026-09-20) |
 | 12 | Bhaktiyoga — The Yoga of Devotion | 20 | published (2026-09-20) |
-| 13 | Kṣetrakṣetrajñavibhāgayoga — The Field and the Knower of the Field | 34 | todo |
+| 13 | Kṣetrakṣetrajñavibhāgayoga — The Field and the Knower of the Field | 34 | published (2026-09-20) |
 | 14 | Guṇatrayavibhāgayoga — The Three Qualities | 27 | todo |
 | 15 | Puruṣottamayoga — The Supreme Person | 20 | todo |
 | 16 | Daivāsurasampadvibhāgayoga — Divine and Demonic Natures | 24 | todo |

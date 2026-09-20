@@ -5,11 +5,29 @@ repository owner (Zev) set it up and is not present during runs; he does not rea
 decision here is yours within these rules, and anything you cannot decide goes into `QUESTIONS.md`.
 
 **What this pipeline produces:** the verified Arabic text of Macnaghten's *Alif Laila* (Calcutta
-1839), page by page, as page archives in `archive/`. It does **not** translate or build story
-files — that is a later phase (see `plan.md`). The transcription is the expensive, blocking part
-of the Nights; get the text right first.
+1839), page by page, as page archives in `archive/` — **and**, from those archives, the readable
+nights the site actually serves. Two jobs, one firing each; step 0 chooses.
 
-## 0. Orientation (every run)
+## 0. Which job this run does
+
+Changed 2026-09-18. Transcription alone builds an archive nobody can read, and at eight pages a
+run the unreadable backlog grew faster than anyone would ever clear it. The owner's rule now: the
+reading edition never falls more than about one night behind the transcription.
+
+So, after `git pull` and before anything else:
+
+    python3 tools/nights_index.py --next
+
+- **It prints a unit** → a complete night is sitting unpublished. **Publish it**: stop reading
+  this file and follow `publish-runbook.md` instead.
+- **It prints nothing** → every complete night is published. **Transcribe** the next eight pages:
+  continue with 0.1 below.
+
+That is the whole decision, and it is self-regulating: eight pages yield about one and a half
+nights, so transcription proceeds at roughly two runs in five and the backlog stays at a night or
+so. Nothing here needs the owner, and the ratio needs no tuning.
+
+## 0.1 Orientation (a transcribing run)
 
 1. `git pull`. Read `.github/pipeline/README.md`, this file, `conventions.md`, `plan.md`,
    `LOG.md` and `QUESTIONS.md` (if present). Do **not** read the archives in full; open one
@@ -115,7 +133,10 @@ verdicts · tokens (pass 1 / pass 2 / adjudication) · anything a person should 
 characters. `QUESTIONS.md`: decisions the rules do not settle, with what you decided meanwhile.
 Do not send email, do not use Google Drive, do not create, change or disable any routine.
 
-## What a run never does
+## What a transcribing run never does
+
+*(A publishing run has its own list at the end of `publish-runbook.md`; it is the one kind of run
+allowed to write a story file and `stories.json`.)*
 
 Transcribes more than eight pages; touches `reader.html`, `index.html`, `stories.json`, audio,
 any story file, or another work's files; edits `source/`; consults a modern edition or

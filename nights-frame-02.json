@@ -1,0 +1,834 @@
+{
+ "id": "nights-frame-02",
+ "title": "حكاية ملك شهريار واخيه",
+ "titleEn": "The Tale of King Shahriyar and His Brother, continued",
+ "language": "Arabic",
+ "langCode": "ar-XA",
+ "script": "arabic",
+ "rtl": true,
+ "trStyle": "line",
+ "work": "الف ليلة وليلة",
+ "workEn": "The Thousand and One Nights",
+ "part": "The frame story, continued (printed pp. 3–10)",
+ "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 3–10 (continuing directly from nights-frame-01, whose text this picks up immediately after), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the project’s own two-pass-plus-adjudication pipeline; the edition’s own OCR is unusable. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition’s — and the alphabet button strips it back to the bare rasm exactly as Macnaghten prints it. Romanization is simplified IJMES. Spelling, including the edition’s Middle Arabic forms, is preserved unaltered.",
+ "about": "Every printed edition of the Nights, this one included, belongs to the late Egyptian recension (ZER) — an eighteenth-century expansion padded out to a literal 1001 nights by absorbing whatever was to hand. No printed edition is a medieval text; the medieval witness is the Syrian branch. Macnaghten also regularized the language toward Classical Arabic here and there, so some of the original Middle Arabic texture is a nineteenth-century retrofit. Where the text’s own grammar is non-Classical it has been vocalized as it stands and flagged in the notes, not quietly repaired. The tale is frank about sex and violence and is translated that way.",
+ "glossaryFile": "nights-glossary.json",
+ "sentences": [
+  {
+   "t": "لَوْنِي فَقَالَ لَهُ أَخْبِرْنِي أَوَّلًا بِتَغَيُّرِ لَوْنِكَ وَضَعْفِكَ حَتَّى أَسْمَعَهُ",
+   "tr": "lawnī — fa-qāla lahu akhbirnī awwalan bi-taghayyuri lawnika wa-ḍaʿfika ḥattā asmaʿah",
+   "l": "…my colour.’ So he said to him: ‘Inform me first of the changing of your colour and your weakness, that I may hear it.’",
+   "i": "…my colour,’ he said. ‘Tell me first,’ he said, ‘how your colour came to change and your body came to fail; let me hear that much.’",
+   "n": "This night's text picks up mid-exchange, continuing directly on from the sentence that closes the frame's opening passage published separately: the two brother-kings, Shahriyār and Shāhzamān, are speaking of why each looks so haggard. ḥattā here is purposive rather than temporal — with the following subjunctive asmaʿa it means 'so that I may hear', not 'until I hear'."
+  },
+  {
+   "t": "فَقَالَ لَهُ يَا أَخِي اعْلَمْ أَنِّي لَمَّا أَرْسَلَتَ وَزِيرَكَ إِلَيَّ يَطْلُبُنِي لِلْحُضُورِ بَيْنَ يَدَيْكَ جَهَّزْتُ حَالِي",
+   "tr": "fa-qāla lahu yā akhī iʿlam annī lammā arsalta wazīraka ilayya yaṭlubunī li-al-ḥuḍūri bayna yadayka jahhaztu ḥālī",
+   "l": "So he said to him: O my brother, know that when you sent your vizier to me, seeking me for the presence between your hands, I made ready my state.",
+   "i": "He answered him: O my brother, know that when you sent your vizier to me to summon me into your presence, I made myself ready.",
+   "n": "بَيْنَ يَدَيْكَ, literally 'between your two hands,' is the standing idiom for 'before you, in your presence.' يَطْلُبُنِي is a circumstantial clause describing the vizier's errand as he came — 'seeking me,' i.e. sent to fetch me.",
+   "p": true
+  },
+  {
+   "t": "وَقَدْ بَرَزْتُ بَرَّ مَدِينَتِي ثُمَّ إِنِّي تَذَكَّرْتُ الْخَرَزَةَ الَّتِي أَعْطَيْتُهَا لَكَ فِي قَصْرِي فَرَجَعْتُ إِلَى قَصْرِي",
+   "tr": "wa-qad baraztu barra madīnatī thumma innī tadhakkartu al-kharazata allatī aʿṭaytuhā laka fī qaṣrī fa-rajaʿtu ilā qaṣrī",
+   "l": "And I had already gone forth outside my city; then indeed I remembered the bead-necklace that I give to you, in my palace; so I returned to my palace.",
+   "i": "I had scarcely quitted my city when I recalled the bead-necklace I meant to give you, which I had left behind in my palace; so I turned back to my palace.",
+   "n": "بَرَّ here is the old adverbial use of بَرّ, 'open country, the outside,' governing مَدِينَتِي as an iḍāfa: 'outside of my city.' أَعْطَيْتُهَا is a perfect tense for an act not yet carried out — best read as a performative perfect, 'I hereby give it to you,' the same tense Arabic uses for a gift or sale pronounced on the spot, rather than as a report of something already done."
+  },
+  {
+   "t": "فَوَجَدْتُ زَوْجَتِي مَعَهَا عَبْدٌ أَسْوَدُ وَهُوَ نَائِمٌ فِي فِرَاشِي فَقَتَلْتُهُمَا وَجِئْتُ إِلَيْكَ وَأَنَا مُتَفَكِّرٌ فِي هَذَا الْأَمْرِ",
+   "tr": "fa-wajadtu zawjatī maʿahā ʿabdun aswadu wa-huwa nāʾimun fī firāshī fa-qataltuhumā wa-jiʾtu ilayka wa-anā mutafakkirun fī hādhā al-amri",
+   "l": "So I found my wife — with her a black slave, he sleeping in my bed — so I killed the two of them, and I came to you while I was reflecting on this matter.",
+   "i": "There I found my wife, a black slave beside her, asleep in my very bed; so I killed them both and came to you turning the matter over in my mind.",
+   "n": "زَوْجَتِي مَعَهَا عَبْدٌ أَسْوَدُ places the slave in a circumstantial clause of its own — 'with her a black slave' — rather than as a direct object of 'found'; the sentence lays out the scene piece by piece, as he came upon it."
+  },
+  {
+   "t": "فَهَذَا سَبَبُ تَغَيُّرِ لَوْنِي وَضَعْفِي وَأَمَّا رَدُّ لَوْنِي فَاعْفُ عَنِّي أَنْ أَذْكُرَهُ لَكَ",
+   "tr": "fa-hādhā sababu taghayyuri lawnī wa-ḍaʿfī wa-ammā raddu lawnī fa-iʿfu ʿannī an adhkurahu laka",
+   "l": "So this is the cause of the changing of my colour and my weakness; but as for the giving-back of my colour, excuse me from [the fact] that I should relate it to you.",
+   "i": "This, then, is the cause of my altered colour and my weakness; but as for how my colour came back to me, spare me the telling of it.",
+   "n": "أَنْ أَذْكُرَهُ stands for a fuller مِنْ أَنْ أَذْكُرَهُ, 'from my mentioning it' — the preposition is dropped here, as sometimes happens after عفا عن in this style; you will meet the fuller form later, مِنْ إِخْبَارِي لَكَ."
+  },
+  {
+   "t": "فَلَمَّا سَمِعَ أَخُوهُ كَلَامَهُ قَٰلَ لَهُ أَقْسَمْتُ عَلَيْكَ بِالْلَّهِ إِلَّا مَا أَخْبَرْتَنِي عَنْ رَدِّ لَوْنِكَ",
+   "tr": "fa-lammā samiʿa akhūhu kalāmahu qāla lahu aqsamtu ʿalayka bi-Allāhi illā mā akhbartanī ʿan raddi lawnika",
+   "l": "And when his brother heard his words, he said to him: I have sworn upon you, by God, unless you tell me of the giving-back of your colour.",
+   "i": "And when his brother heard him say this, he said to him: I adjure you, by God, you must tell me how your colour came back.",
+   "n": "أَقْسَمْتُ عَلَيْكَ … إِلَّا مَا is an oath of insistence: 'I have sworn upon you — nothing will do except that you tell me,' i.e. an emphatic charge, 'you must tell me.' The edition again spells qāla defectively, قل, pointed here with the dagger alif as before."
+  },
+  {
+   "t": "فَأَخْبَرَهُ جَمِيعَ مَا رَآهُ فَقَالَ شَهْرِيَارُ لِأَخِيهِ شَاهْزَمَانَ مُرَادِي أَنْظُرَ بِعَيْنِي",
+   "tr": "fa-akhbarahu jamīʿa mā raʾāhu fa-qāla Shahriyāru li-akhīhi Shāhzamāna murādī anẓura bi-ʿaynī",
+   "l": "So he told him all that he had seen. Then Shahriyar said to his brother Shahzaman: My desire is that I see with my own eye.",
+   "i": "So he told him everything he had seen. Then Shahriyar said to his brother Shahzaman: What I wish is to see it for myself.",
+   "n": "أَنْظُرَ is a subjunctive standing for أَنْ أَنْظُرَ, the particle dropped after مُرَادِي just as it was dropped after لَعَلَّ earlier in the tale.",
+   "p": true
+  },
+  {
+   "t": "فَقَالَ لَهُ أَخُوهُ شَاهْزَمَانُ اجْعَلْ أَنَّكَ مُسَافِرٌ لِلصَّيْدِ وَالْقَنْصِ وَاخْتَفِ عِنْدِي وَأَنْتَ تُشَاهِدُ ذَلِكَ وَتَتَحَقَّقُهُ عِيَانًا",
+   "tr": "fa-qāla lahu akhūhu Shāhzamānu ijʿal annaka musāfirun li-al-ṣaydi wa-al-qanṣi wa-ikhtafi ʿindī wa-anta tushāhidu dhālika wa-tataḥaqqaquhu ʿiyānan",
+   "l": "Then his brother Shahzaman said to him: Make out that you are a traveler for the hunt and the chase, and hide with me, while you watch that and verify it with your own eyes.",
+   "i": "His brother Shahzaman said to him: Give out that you are setting off to hunt and course game, and hide yourself with me, so that you may see it and be certain of it for yourself."
+  },
+  {
+   "t": "فَنَادَى الْمَلِكُ مِنْ سَاعَتِهِ بِالسَّفَرِ فَخَرَجَتِ الْعَسَاكِرُ وَالْخِيَامُ إِلَى ظَاهِرِ الْمَدِينَةِ وَخَرَجَ الْمَلِكُ",
+   "tr": "fa-nādā al-maliku min sāʿatihi bi-al-safari fa-kharajati al-ʿasākiru wa-al-khiyāmu ilā ẓāhiri al-madīnati wa-kharaja al-maliku",
+   "l": "Then the king proclaimed, from his hour, the journey; so the troops and the tents went out to the outskirts of the city, and the king went out.",
+   "i": "Then and there the king gave the order for departure; so the troops and the tents went out to the edge of the city, and the king himself set out."
+  },
+  {
+   "t": "ثُمَّ إِنَّهُ جَلَسَ فِي الْخِيَامِ وَقَالَ لِغِلْمَانِهِ لَا يَدْخُلْ عَلَيَّ أَحَدٌ",
+   "tr": "thumma innahu jalasa fī al-khiyāmi wa-qāla li-ghilmānihi lā yadkhul ʿalayya aḥadun",
+   "l": "Then indeed he sat in the tents, and said to his servants: Let no one come in to me.",
+   "i": "Then he sat down in the tents and said to his attendants: Let no one come in to me."
+  },
+  {
+   "t": "ثُمَّ إِنَّهُ تَنَكَّرَ وَخَرَجَ مُخْتَفِيًا إِلَى الْقَصْرِ الَّذِي فِيهِ أَخُوهُ وَجَلَسَ فِي الشُبَّاكِ الْمُطِلِّ عَلَى الْبُسْتَانِ سَاعَةً مِنَ الزَّمَانِ",
+   "tr": "thumma innahu tanakkara wa-kharaja mukhtafiyan ilā al-qaṣri alladhī fīhi akhūhu wa-jalasa fī al-shubbāki al-muṭilli ʿalā al-bustāni sāʿatan mina al-zamāni",
+   "l": "Then indeed he disguised himself and went out secretly to the palace in which was his brother, and sat at the window overlooking the garden, for an hour of time.",
+   "i": "Then he disguised himself and slipped away unseen to the palace where his brother was lodged, and sat down at the window that looked out over the garden, for the space of an hour.",
+   "n": "This is Shahriyar going to spy on the very garden the reader has already glimpsed through Shahzaman's eyes — now he will watch it for himself.",
+   "p": true
+  },
+  {
+   "t": "إِلَّا وَالْجَوَارِي وَسِتُّهُمْ دَخَلُوا مَعَ الْعَبِيدِ وَفَعَلُوا كَمَا قَٰلَ أَخُوهُ إِلَى أَذَانِ الْعَصْرِ قَالَ",
+   "tr": "illā wa-al-jawārī wa-sittuhum dakhalū maʿa al-ʿabīdi wa-faʿalū kamā qāla akhūhu ilā adhāni al-ʿaṣri qāla",
+   "l": "He had sat but an hour when, behold, the slave-girls and their mistress came in together with the slaves, and did as his brother had said, until the call to the afternoon prayer. He said —",
+   "i": "He had scarcely sat an hour when, behold, the handmaidens and their mistress came in among the slaves and did just as his brother had told him, until the call to afternoon prayer. Thus it is told —",
+   "n": "إِلَّا وَ here does the work of a dropped مَا … إِلَّا وَ, 'no sooner had he sat than, behold …' — the same abrupt turn met earlier as وَإِذَا بِـ. سِتُّهُمْ, 'their lady,' uses the colloquial سِتّ for the Classical سَيِّدَة; it stands for the brother's wife, walking among her women as in the earlier telling. The bare قَالَ at the end is the storyteller's own resumptive tag, bridging back from the flashback to third-person narration; it is not a further speech, and it opens onto what the text goes on to say, beyond this excerpt."
+  },
+  {
+   "t": "فَلَمَّا رَأَى الْمَلِكُ شَهْرِيَارُ ذَلِكَ الْأَمْرَ طَارَ عَقْلُهُ مِنْ رَأْسِهِ وَقَالَ لِأَخِيهِ شَاهْزَمَانَ",
+   "tr": "fa-lammā raʾā al-maliku Shahriyāru dhālika al-amra ṭāra ʿaqluhu min raʾsihi wa-qāla li-akhīhi Shāhzamāna",
+   "l": "And when King Shahriyar saw that thing, his mind flew from his head, and he said to his brother Shahzaman:",
+   "i": "When King Shahriyar beheld that sight, his wits flew from his head, and he said to his brother Shahzaman:",
+   "n": "طَارَ عَقْلُهُ مِنْ رَأْسِهِ, 'his mind flew from his head,' is a stock idiom for being overcome with shock — compare اسْوَدَّتِ الدُّنْيَا فِي وَجْهِهِ earlier in the tale, a different image for the same experience, now undergone a second time. The edition again prints رأس without its hamza seat (راسه); it is supplied here as a combining mark.",
+   "p": true
+  },
+  {
+   "t": "قُمْ بِنَا نُسَافِرْ عَلَى حَالِنَا وَلَا لَنَا حَاجَةٌ بِالْمُلْكِ حَتَّى نَنْظُرَ أَحَدًا جَرَى لَهُ مِثْلُنَا وَإِلَّا مَوْتُنَا خَيْرٌ مِنْ حَيَاتِنَا قَٰلَ",
+   "tr": "qum binā nusāfir ʿalā ḥālinā wa-lā lanā ḥājatun bi-al-mulki ḥattā nanẓura aḥadan jarā lahu mithlunā wa-illā mawtunā khayrun min ḥayātinā qāla",
+   "l": "Arise, let us travel as we are; we have no need of the kingdom, until we see someone [to whom] the like of us has happened; and if not, our death is better than our life. He said —",
+   "i": "Come, let us be gone just as we stand; we have no need of the kingdom, until we find one who has suffered as we have; and if we do not, then death is better for us than life. So he said —",
+   "n": "قُمْ بِنَا, literally 'rise with us,' is the standing call to be off at once. عَلَى حَالِنَا, 'upon our state,' means 'just as we are,' without preparation. The closing قَٰلَ, again spelled defectively, trails off into what the text goes on to say, beyond this excerpt."
+  },
+  {
+   "t": "ثُمَّ إِنَّهُمَا خَرَجَا مِنْ بَابِ سِرِّ الْقَصْرِ مُسَافِرَيْنِ أَيَّامًا وَلَيَالِيَ إِلَى أَنْ وَصَلَا إِلَى شَجَرَةٍ فِي وَسَطِ مَرْجَةٍ وَعَيْنِ مَاءٍ بِجَانِبِ الْبَحْرِ الْمَالِحِ",
+   "tr": "thumma innahumā kharajā min bābi sirri al-qaṣri musāfirayni ayyāman wa-layāliya ilā an waṣalā ilā shajaratin fī wasaṭi marjatin wa-ʿayni māʾin bi-jānibi al-baḥri al-māliḥ",
+   "l": "Then indeed the two of them went out from the gate of the secret of the palace, traveling days and nights, until they arrived at a tree in the middle of a meadow, and a spring of water beside the salt sea.",
+   "i": "Then out the two of them went, by the palace's postern gate, journeying by day and by night, until they came to a tree in the midst of a meadow, and a spring of water beside the salt sea.",
+   "n": "بَابِ سِرِّ الْقَصْرِ, literally 'the gate of the secret of the palace', is a postern — a private door for slipping out unseen. ثُمَّ إِنَّهُمَا repeats the narrative formula met before (ثُمَّ إِنَّهُ, 'then indeed he…'), now in the dual: it is Shahriyar and Shahzaman traveling together.",
+   "p": true
+  },
+  {
+   "t": "فَشَرِبَا مِنْ تِلْكَ الْعَيْنِ وَجَلَسَا يَسْتَرِيحَانِ",
+   "tr": "fa-sharibā min tilka al-ʿayni wa-jalasā yastarīḥān",
+   "l": "So they drank from that spring and sat resting.",
+   "i": "So they drank from the spring and sat down to rest."
+  },
+  {
+   "t": "فَلَمَّا كَانَ بَعْدَ سَاعَةٍ مَضَتْ مِنَ النَّهَارِ وَإِذَا هُمْ بِالْبَحْرِ قَدْ هَاجَ وَصَعِدَ مِنْهُ عَمُودٌ أَسْوَدُ صَاعِدًا إِلَى السَّمَاءِ وَهُوَ قَاصِدٌ تِلْكَ الْمَرْجَةَ",
+   "tr": "fa-lammā kāna baʿda sāʿatin maḍat mina al-nahāri wa-idhā hum bi-al-baḥri qad hāja wa-ṣaʿida minhu ʿamūdun aswadu ṣāʿidan ilā al-samāʾi wa-huwa qāṣidun tilka al-marjata",
+   "l": "And when it was after an hour that had passed of the day, and behold, they were at the sea — it had surged, and there had risen from it a black column, rising toward the sky, it making for that meadow.",
+   "i": "And when an hour of the day had gone by, all at once the sea before them surged, and a black column rose out of it, mounting into the sky and heading straight for that meadow.",
+   "n": "وَإِذَا هُمْ بِالْبَحْرِ is the fixed 'and lo, there they were, at X' construction — a sudden turn given from the viewpoint of the two brothers themselves (compare وَإِذَا بِبَابِ الْقَصْرِ in the opening night). هُمْ is plural though only the two brothers are meant; the text is loose about dual and plural agreement here, as it is elsewhere in this prose."
+  },
+  {
+   "t": "قَالَ فَلَمَّا رَأَيَا ذَلِكَ خَافَا وَطَلَعَا إِلَى أَعْلَى الشَّجَرَةِ وَكَانَتْ عَالِيَةً يَنْظُرَانِ مَا ذَا يَكُونُ الْخَبَرُ",
+   "tr": "qāla fa-lammā raʾayā dhālika khāfā wa-ṭalaʿā ilā aʿlā al-shajarati wa-kānat ʿāliyatan yanẓurāni mā dhā yakūnu al-khabaru",
+   "l": "He said: and when the two of them saw that, they were afraid, and they climbed to the top of the tree — and it was tall — watching to see what the matter would be.",
+   "i": "So the tale goes: when the two of them saw this, they took fright and climbed to the top of the tree, which was a tall one, watching to see what would come of it.",
+   "n": "قَالَ opens the sentence with no subject and introduces no quotation — the storyteller's own bare 'so it is told', marking a fresh turn in the narration rather than reported speech. It recurs this way below, sometimes in the defective spelling قل."
+  },
+  {
+   "t": "وَإِذَا بِجِنِّيٍّ طَوِيلِ الْقَامَةِ عَرِيضِ الْهَامَةِ وَاسِعِ الصَّدْرِ وَعَلَى رَأْسِهِ صُنْدُوقٌ فَطَلَعَ إِلَى الْبَرِّ وَأَتَى إِلَى الشَّجَرَةِ الَّتِي هُمَا فَوْقَهَا وَجَلَسَ تَحْتَهَا",
+   "tr": "wa-idhā bi-jinniyyin ṭawīli al-qāmati ʿarīḍi al-hāmati wāsiʿi al-ṣadri wa-ʿalā raʾsihi ṣundūqun fa-ṭalaʿa ilā al-barri wa-atā ilā al-shajarati allatī humā fawqahā wa-jalasa taḥtahā",
+   "l": "And behold, a jinni — tall of stature, broad of pate, wide of chest — and upon his head a box; and he came up onto the shore, and came to the tree which the two of them were above, and sat beneath it.",
+   "i": "And lo, a jinni appeared — tall of stature, broad-headed, deep-chested — with a box upon his head. He climbed out onto the shore and made his way to the very tree the two of them were perched in, and sat down beneath it.",
+   "n": "طَوِيلِ الْقَامَةِ عَرِيضِ الْهَامَةِ وَاسِعِ الصَّدْرِ is a chain of iḍāfa phrases ('tall of stature', 'broad of pate', 'wide of chest'), all genitive because they describe the indefinite جِنِّيّ after بِـ — the standard way this prose builds up a physical description limb by limb.",
+   "p": true
+  },
+  {
+   "t": "وَفَتَحَ الصُّنْدُوقَ وَأَخْرَجَ مِنْهُ عُلْبَةً ثُمَّ فَتَحَهَا فَخَرَجَتْ مِنْهَا صَبِيَّةٌ بِقَامَةٍ هَيْفَاءَ بَهِيَّةٍ كَأَنَّهَا شَمْسٌ مُضِيئَةٌ",
+   "tr": "wa-fataḥa al-ṣundūqa wa-akhraja minhu ʿulbatan thumma fataḥahā fa-kharajat minhā ṣabiyyatun bi-qāmatin hayfāʾa bahiyyatin kaʾannahā shamsun muḍīʾatun",
+   "l": "And he opened the box and took out from it a casket; then he opened it, and there came out from it a girl, with a figure slender and radiant, as though she were a shining sun.",
+   "i": "He opened the box and drew from it a casket; and when he opened that in turn, out stepped a girl, slender and radiant of figure, as if she were a sun in splendor.",
+   "n": "كَأَنَّهَا is printed in the edition as كانها, without its hamza seat — spelled exactly as the verb 'she was' would be. It is read here as the comparative particle (kaʾanna + hā, 'as though she'), which the sense requires, and the hamza is supplied as a combining mark accordingly."
+  },
+  {
+   "t": "كَمَا قَالَ وَأَحْسَنَ الشَّاعِرُ عَطِيَّةُ",
+   "tr": "kamā qāla wa-aḥsana al-shāʿiru ʿAṭiyyatu",
+   "l": "As the poet 'Atiyya said, and did well —",
+   "i": "as the poet 'Atiyya so aptly put it —",
+   "n": "أَحْسَنَ, 'he did well', is an exclamatory perfect folded into the formula that introduces the quoted verse: 'as the poet ʿAṭiyya said — and said it well.'"
+  },
+  {
+   "t": "اَشْرَقَتْ فِيْ الدُّجى فَلَاحَ النَّهَارْ * وَاَنَارَتْ مِنْ فَوْقِهَا الْاَشْجَارْ\nمِنْ سَنَاهَا الشُّمُوْسُ تُشْرِقُ لَمَّا * تَتَجَلَّى وَتَبْدُوْ تَخْجَلُ الْاَقْمَارْ\nتَسْجُدُ الْكَائِنَاتُ بَيْنَ يَدَيْهَا * حِينَ تَبْدُو وَتَهْتِكُ الْاَسْتَارْ\nوَاِذَا اَوْمَضَتْ بُرُوقُ حِمَاهَا * اَهْطَلَتْ بِالْمَدَامِعِ الْاَمْطَارْ",
+   "tr": "ashraqat fī al-dujā fa-lāḥa al-nahār * wa-anārat min fawqihā al-ashjār\nmin sanāhā al-shumūsu tushriqu lammā * tatajallā wa-tabdū takhjalu al-aqmār\ntasjudu al-kāʾinātu bayna yadayhā * ḥīna tabdū wa-tahtiku al-astār\nwa-idhā awmaḍat burūqu ḥimāhā * ahṭalat bi-al-madāmiʿi al-amṭār",
+   "l": "She shone forth in the darkness, and the day gleamed; * and the trees were lit up from above her.\nFrom her radiance the suns would shine, whenever * she becomes manifest and shows herself, the moons are put to shame.\nThe created things bow down between her hands, * when she appears, and rends the veils.\nAnd when the lightning-flashes of her sanctuary gleam, * the rains pour down as tears.",
+   "i": "She shone out in the darkness, and the very day grew bright; and the trees themselves took their light from above her.\nBefore her radiance the suns would blaze, and whenever she stands revealed and shows her face, the moons hang their heads for shame.\nAll created things bow down before her, when she appears, and tears away the veils.\nAnd when the lightning of her presence flashes, the very rains fall as tears.",
+   "n": "This poem keeps the edition's own vocalization and pausal spellings (النَّهَارْ, الْاَشْجَارْ, and so on end in a bare sukūn rather than case endings, as verse read in pause does) and its rhyme throughout on -ār. حِمَاهَا, 'her protected precinct', is the standing term in Arabic love poetry for the beloved's camp or domain; its lightning is a stock figure for a flashing glance or smile, answered by the lover's tears as rain.",
+   "v": true
+  },
+  {
+   "t": "قَٰلَ فَلَمَّا نَظَرَ إِلَيْهَا الْجِنِّيُّ قَٰلَ يَا سِتَّ الْحَرَائِرِ يَا مَنْ قَدِ اخْتَطَفَتْكِ لَيْلَةَ عُرْسِكِ أُرِيدُ أَنَامُ قَلِيلًا",
+   "tr": "qāla fa-lammā naẓara ilayhā al-jinniyyu qāla yā sitta al-ḥarāʾiri yā man qadi ikhtaṭafatki laylata ʿursiki urīdu anāmu qalīlan",
+   "l": "He said — and when the jinni looked at her he said — 'O mistress of the noblewomen, O you whom your wedding-night snatched away: I wish [that] I sleep a little.'",
+   "i": "So the tale goes: when the jinni looked upon her he said, 'O queen among noblewomen, O you whom the very night of your wedding stole away — I mean to sleep a while.'",
+   "n": "The edition prints قل for قال twice here, pointed with a dagger alif as before, so the letters stand as printed while the word still reads qāla. اخْتَطَفَتْكِ takes لَيْلَةَ عُرْسِكِ, 'the night of your wedding', as its grammatical subject — a personification: it is the wedding-night itself, not the jinni, that is said to have 'snatched you away'. أُرِيدُ أَنَامُ drops the subordinator أَنْ that Classical usage would insert before the second verb (أُرِيدُ أَنْ أَنَامَ); the plain indicative is left standing, as this text often does.",
+   "p": true
+  },
+  {
+   "t": "ثُمَّ إِنَّ الْجِنِّيَّ جَعَلَ رَأْسَهُ عَلَى رُكْبَةِ الصَّبِيَّةِ وَنَامَ",
+   "tr": "thumma inna al-jinniyya jaʿala raʾsahu ʿalā rukbati al-ṣabiyyati wa-nāma",
+   "l": "Then indeed the jinni put his head upon the knee of the girl, and slept.",
+   "i": "Then the jinni laid his head upon the girl's knee, and slept.",
+   "n": "Here ثُمَّ إِنَّ takes a full noun, الْجِنِّيَّ, as its subject in the accusative, rather than the bound pronoun of ثُمَّ إِنَّهُ seen earlier — the same connective, just spelled out."
+  },
+  {
+   "t": "فَرَفَعَتِ الصَّبِيَّةُ رَأْسَهَا إِلَى أَعْلَى الشَّجَرَةِ فَرَأَتِ الْمَلِكَيْنِ وَهُمَا فَوْقَ تِلْكَ الشَّجَرَةِ",
+   "tr": "fa-rafaʿati al-ṣabiyyatu raʾsahā ilā aʿlā al-shajarati fa-raʾati al-malikayni wa-humā fawqa tilka al-shajara",
+   "l": "Then the girl raised her head to the top of the tree, and she saw the two kings, they [being] above that tree.",
+   "i": "Then the girl lifted her head toward the top of the tree, and there above it she caught sight of the two kings.",
+   "p": true
+  },
+  {
+   "t": "فَشَالَتْ رَأْسَ الْجِنِّيِّ مِنْ عَلَى رُكْبَتِهَا وَوَضَعَتْهَا عَلَى الْأَرْضِ وَوَقَفَتْ تَحْتَ الشَّجَرَةِ",
+   "tr": "fa-shālat raʾsa al-jinniyyi min ʿalā rukbatihā wa-waḍaʿathā ʿalā al-arḍi wa-waqafat taḥta al-shajara",
+   "l": "Then she lifted the jinni's head from off her knee and put it on the ground, and stood beneath the tree.",
+   "i": "She lifted the jinni's head from her lap, laid it upon the ground, and stood beneath the tree.",
+   "n": "The pronoun in وَوَضَعَتْهَا ('and she put it') is feminine, though رَأْس ('head') is grammatically masculine — a loose agreement this narrative Arabic allows without comment. شَالَتْ, 'lifted, hoisted,' is the colloquial verb (shāla/yashīlu) rather than the more formal رَفَعَتْ used a moment before for her own head."
+  },
+  {
+   "t": "وَقَالَتْ لَهُمَا بِالْإِشَارَةِ اِنْزِلَا وَلَا تَخَافَا مِنَ الْعِفْرِيتِ",
+   "tr": "wa-qālat lahumā bi-al-ishārati inzilā wa-lā takhāfā mina al-ʿifrīt",
+   "l": "And she said to them, by gesture: 'Come down, and do not fear the ifrit.'",
+   "i": "And she signaled to them: 'Climb down, and have no fear of the ifrit.'"
+  },
+  {
+   "t": "فَقَالَا لَهَا بِاللَّهِ عَلَيْكِ اِعْفِي عَنَّا مِنْ هَذَا الْأَمْرِ",
+   "tr": "fa-qālā lahā bi-Allāhi ʿalayki iʿfī ʿannā min hādhā al-amr",
+   "l": "So the two of them said to her: 'By God, upon you — excuse us from this matter.'",
+   "i": "But the two of them said to her: 'For God's sake, spare us this business.'",
+   "n": "بِاللَّهِ عَلَيْكِ, 'by God, upon you,' is a fixed formula of urgent entreaty; عَلَيْكِ carries the feminine ending because it addresses her."
+  },
+  {
+   "t": "فَقَالَتْ لَهُمَا إِنْ لَمْ تَنْزِلَا نَبَّهْتُ عَلَيْكُمَا الْعِفْرِيتَ يَقْتُلُكُمَا شَرَّ قَتْلَةٍ",
+   "tr": "fa-qālat lahumā in lam tanzilā nabbahtu ʿalaykumā al-ʿifrīta yaqtulukumā sharra qatla",
+   "l": "Then she said to them: 'If you two do not come down, I will rouse the ifrit against you two — he will kill you both the worst of killings.'",
+   "i": "Then she said to them: 'If you do not come down, I shall wake the ifrit upon you, and he will kill you both the vilest of deaths.'"
+  },
+  {
+   "t": "فَخَافَا وَنَزَلَا إِلَيْهَا فَقَامَتْ لَهُمَا وَقَالَتِ اِرْصَعَا عَنِيفًا وَإِلَّا أُنَبِّهُ لَكُمَا الْعِفْرِيتَ",
+   "tr": "fa-khāfā wa-nazalā ilayhā fa-qāmat lahumā wa-qālati irṣaʿā ʿanīfan wa-illā unabbihu lakumā al-ʿifrīt",
+   "l": "So the two of them feared, and came down to her; and she rose before them and said: 'Swive [me] forcefully, or else I will rouse the ifrit against you two.'",
+   "i": "So, afraid, the two of them came down to her; and she rose before them and said: 'Take me hard and rough — or I shall wake the ifrit upon you.'",
+   "n": "اِرْصَعَا is obscure: no dictionary attests the root ر-ص-ع in a sexual sense, and it may be a colloquial or corrupted form. Context leaves no doubt what she is ordering, so it is translated for its plain force rather than passed over — compare the equally obscure وَرِحَاق earlier in the frame story."
+  },
+  {
+   "t": "فَمِنْ خَوْفِهِ قَالَ الْمَلِكُ شَهْرِيَارُ لِأَخِيهِ الْمَلِكِ شَاهْزَمَانَ يَا أَخِي افْعَلْ مَا أَمَرْتُكَ بِهِ",
+   "tr": "fa-min khawfihi qāla al-maliku Shahriyāru li-akhīhi al-maliki Shāhzamāna yā akhī ifʿal mā amartuka bih",
+   "l": "So out of his fear, King Shahriyar said to his brother King Shahzaman: 'O my brother, do what I commanded you [to do].'",
+   "i": "So, in his fear, King Shahriyar said to his brother King Shahzaman: 'O my brother, do as I commanded you.'",
+   "p": true
+  },
+  {
+   "t": "فَقَالَ لَمْ أَفْعَلْ افْعَلْ أَنْتَ قَبْلِي وَأَخَذَا يَتَغَامَزَانِ عَلَى نَيْكِهَا",
+   "tr": "fa-qāla lam afʿal ifʿal anta qablī wa-akhadhā yataghāmazāni ʿalā naykihā",
+   "l": "So he said: 'I have not done [it] — you do it before me.' And the two of them began winking at one another about having sex with her.",
+   "i": "But he answered: 'Not I — you go first.' And the two of them fell to winking at each other over which should have her.",
+   "n": "لَمْ أَفْعَلْ, literally 'I did not do,' is used here with the force of a flat refusal, 'I will not' — a colloquial-leaning use of lam that recurs in this narrative."
+  },
+  {
+   "t": "فَقَالَتْ لَهُمَا مَا لِي أَرَاكُمَا تَتَغَامَزَانِ فَإِنْ لَمْ تَتَقَدَّمَا وَتَفْعَلَا نَبَّهْتُ لَكُمَا الْعِفْرِيتَ",
+   "tr": "fa-qālat lahumā mā lī arākumā tataghāmazāni fa-in lam tataqaddamā wa-tafʿalā nabbahtu lakumā al-ʿifrīt",
+   "l": "Then she said to them: 'What is it with me, that I see you two winking at one another? If you two do not come forward and do [it], I will rouse the ifrit against you.'",
+   "i": "Then she said to them: 'Why is it that I see you two winking at each other? If you do not step forward and do it, I will wake the ifrit upon you.'"
+  },
+  {
+   "t": "فَمِنْ خَوْفِهِمَا مِنَ الْجِنِّيِّ اسْتَقْفَاهَا الِاثْنَانِ",
+   "tr": "fa-min khawfihimā mina al-jinniyyi istaqfāhā al-ithnān",
+   "l": "So out of their fear of the jinni, the two of them followed her, one after the other.",
+   "i": "So, in their fear of the jinni, the two of them took her each in his turn.",
+   "n": "اِسْتَقْفَى, 'to follow after,' is used here as an idiom of taking one's turn — the two of them, one after the other, do with her what she has demanded."
+  },
+  {
+   "t": "فَلَمَّا فَرَغَا قَالَتْ لَهُمَا أَفِيقَا وَأَخْرَجَتْ لَهُمَا مِنْ جَيْبِهَا كِيسًا وَأَخْرَجَتْ لَهُمَا مِنْهُ عِقْدًا فِيهِ خَمْسُمِائَةٍ وَسَبْعِينَ خَاتَمًا",
+   "tr": "fa-lammā faraghā qālat lahumā afīqā wa-akhrajat lahumā min jaybihā kīsan wa-akhrajat lahumā minhu ʿiqdan fīhi khamsumiʾatin wa-sabʿīna khātamā",
+   "l": "And when the two of them had finished, she said to them: 'Recover yourselves.' And she brought out for them from her bosom a purse, and brought out for them from it a string [of rings], in which were five hundred and seventy rings.",
+   "i": "When they had finished, she said to them: 'Come to yourselves.' Then she drew from her bosom a purse, and from it a string strung with five hundred and seventy rings.",
+   "n": "سَبْعِينَ keeps the oblique ending as the edition spells it, where a strict grammar would call for the nominative سَبْعُونَ here; the numeral phrase is treated as fixed and vocalized as printed rather than corrected."
+  },
+  {
+   "t": "فَقَالَتْ لَهُمَا أَتَدْرُونَ مَا هَؤُلَاءِ فَقَالَا لَا نَدْرِي فَقَالَتْ لَهُمَا أَصْحَابُ الْخَوَاتِمِ كُلُّهُمْ نَاكُونِي عَلَى قَرْنِ هَذَا الْعِفْرِيتِ",
+   "tr": "fa-qālat lahumā a-tadrūna mā hāʾulāʾi fa-qālā lā nadrī fa-qālat lahumā aṣḥābu al-khawātimi kulluhum nākūnī ʿalā qarni hādhā al-ʿifrīt",
+   "l": "Then she said to them: 'Do you know what these are?' They said: 'We do not know.' She said to them: 'The owners of these rings — every one of them had sex with me upon this ifrit's horn.'",
+   "i": "Then she asked them: 'Do you know what these are?' They said, 'We do not.' She told them: 'Every owner of these rings has had me, right under this ifrit's very horn.'",
+   "n": "قَرْن, 'horn,' is puzzling applied to the ifrit; the sense seems to be 'in his very presence, right under his nose' — every one of these couplings took place while he slept on undisturbed beside her.",
+   "p": true
+  },
+  {
+   "t": "فَأَعْطِيَانِي خَاتَمَيْكُمَا الِاثْنَيْنِ الْأَخَوَيْنِ فَأَعْطَاهَا مِنْ أَيْدِيهِمَا خَاتَمَيْنِ",
+   "tr": "fa-aʿṭiyānī khātamaykumā al-ithnayni al-akhawayni fa-aʿṭāhā min aydīhimā khātamayn",
+   "l": "'So give me your two rings, you two brothers.' So he/they gave her, from their two hands, two rings.",
+   "i": "'Give me your two rings, then, brothers both.' And they handed her, from their own hands, two rings.",
+   "n": "فَأَعْطَاهَا is spelled as a singular verb ('he gave her') though مِنْ أَيْدِيهِمَا, 'from their two hands,' makes plain that both brothers are meant — the same loose number agreement seen elsewhere in this narrative."
+  },
+  {
+   "t": "فَقَالَتْ لَهُمَا إِنَّ هَذَا الْعِفْرِيتَ قَدِ اخْتَطَفَنِي لَيْلَةَ عُرْسِي",
+   "tr": "fa-qālat lahumā inna hādhā al-ʿifrīta qadi ikhtaṭafanī laylata ʿursī",
+   "l": "Then she said to them: 'Indeed, this ifrit snatched me away on the night of my wedding.'",
+   "i": "Then she told them: 'This ifrit carried me off on my very wedding night.'",
+   "p": true
+  },
+  {
+   "t": "ثُمَّ إِنَّهُ وَضَعَنِي فِي عُلْبَةٍ وَجَعَلَ الْعُلْبَةَ دَاخِلَ الصُّنْدُوقِ وَرَمَى عَلَى الصُّنْدُوقِ سَبْعَةَ أَقْفَالٍ جَلِيٍّ",
+   "tr": "thumma innahu waḍaʿanī fī ʿulbatin wa-jaʿala al-ʿulbata dākhila al-ṣundūqi wa-ramā ʿalā al-ṣundūqi sabʿata aqfālin jaliyy",
+   "l": "Then indeed he put me into a casket, and put the casket inside a chest, and cast upon the chest seven clear locks.",
+   "i": "Then he shut me up in a casket, set the casket inside a chest, and cast upon the chest seven bright padlocks.",
+   "n": "جَلِيّ, 'clear, bright,' stays masculine singular rather than agreeing with the plural أَقْفَال as strict grammar would want — it reads as describing the set of locks' gleam as a whole."
+  },
+  {
+   "t": "وَجَعَلَنِي فِي قَاعِ الْبَحْرِ الْعَجَّاجِ الْمُتَلَاطِمِ بِالْأَمْوَاجِ وَلَمْ يَعْلَمْ أَنَّ الْمَرْأَةَ مِنَّا إِذَا أَرَادَتْ شَيًا لَمْ يَغْلِبْهَا شَيٌ كَمَا قَالَ بَعْضُهُمْ",
+   "tr": "wa-jaʿalanī fī qāʿi al-baḥri al-ʿajjāji al-mutalāṭimi bi-al-amwāji wa-lam yaʿlam anna al-marʾata minnā idhā arādat shayan lam yaghlibhā shayun kamā qāla baʿḍuhum",
+   "l": "And put me at the bottom of the roaring sea, surging with waves; and he did not know that a woman among us, when she wants a thing, nothing can overcome her — as one of them has said.",
+   "i": "And sank me to the bottom of the roaring, wave-tossed sea — never knowing that when a woman among us sets her heart on a thing, nothing on earth can master her, as one of the poets has said.",
+   "n": "شَيًا and شَيٌ both stand for شَيْئًا / شَيْءٌ, 'a thing': the edition drops the root's final hamza outright, not merely its seat-letter, a further step along the same road as يَأْكُل and فَان. Both are vocalized here as printed rather than restored to the full classical spelling."
+  },
+  {
+   "t": "اَوَمَا تَرَى لِاِبْلِيسَ آدَمْ * خُرُوجَهُ مِنْ اَجْلِهِنْ",
+   "tr": "awa-mā tarā li-Iblīsa Ādam * khurūjahu min ajlihinn",
+   "l": "Do you not see — for Iblis, Adam: his going-out was on account of them [women]?",
+   "i": "Do you not see how Adam's banishment, to Iblis's gain, was on account of women?",
+   "n": "The couplet alludes to Adam's expulsion from Paradise on account of Eve: Iblis got his victory over Adam through a woman.",
+   "p": true,
+   "v": true
+  },
+  {
+   "t": "وَقَالَ بَعْضُهُمْ",
+   "tr": "wa-qāla baʿḍuhum",
+   "l": "And another of them said:"
+  },
+  {
+   "t": "وَبِكَ اِنَّ الْمَلَامَ يَقْوِي الْمَلُومَا * لَيْسَ جُرْمِي كَمَا نَشَأْتُ عَظِيمَا\nاِنْ اَكُنْ عَاشِقًا فَلَمْ آتِ اِلَّا * مَا اَتَتْهُ الرِّجَالُ قَبْلِي قَدِيمَا\nاِنَّمَا يَكْثُرُ التَّعَجُّبُ مِمَّنْ * كَانَ مِنْ فِتْنَةِ النِّسَاءِ سَلِيمَا",
+   "tr": "wa-bika inna al-malāma yaqwī al-malūmā * laysa jurmī kamā nashaʾtu ʿaẓīmā\nin akun ʿāshiqan fa-lam āti illā * mā atat-hu al-rijālu qablī qadīmā\ninnamā yakthuru al-taʿajjubu mimman * kāna min fitnati al-nisāʾi salīmā",
+   "l": "And because of you, indeed blame grows strong against the blamed one; my crime is not, as I have grown, a great one.\nIf I am a lover, I have done nothing but what the men before me did of old.\nWonder only grows greater at him who has remained untouched by the temptation of women.",
+   "i": "Through you does reproach only grow fiercer against the one reproached — yet my fault, for all my years, is no great thing.\nIf I am indeed a lover, I have done no more than men have done before me since times long past.\nThe true wonder, rather, is at him who has come away unscathed by the seduction of women.",
+   "n": "The speaker turns to address his beloved directly (بِكَ, 'through you') before the poem opens out into a general maxim: it is no shame to love, since every man before him has loved too — the real marvel would be a man untouched by women altogether.",
+   "v": true
+  },
+  {
+   "t": "فَلَمَّا سَمِعَا الْمَلِكَانِ مِنْهَا هَذَا الْكَلَامَ تَعَجَّبَا غَايَةَ الْعَجَبِ وَقَالَ بَعْضُهُمَا بَعْضًا إِذَا كَانَ هَذَا عِفْرِيتًا وَجَرَى لَهُ أَعْظَمُ مِمَّا جَرَى عَلَيْنَا وَهَذَا شِي لَمْ يَجْرِ لِأَحَدٍ",
+   "tr": "fa-lammā samiʿā al-malikāni minhā hādhā al-kalāma taʿajjabā ghāyata al-ʿajabi wa-qāla baʿḍuhumā baʿḍan idhā kāna hādhā ʿifrītan wa-jarā lahu aʿẓamu mimmā jarā ʿalaynā wa-hādhā shī lam yajri li-aḥadin",
+   "l": "And when the two kings heard from her this speech, the two of them marveled to the utmost of amazement, and one of them said to the other: ‘If this is a demon, and there has befallen him greater than what has befallen us — and this is a thing that has not befallen anyone.’",
+   "i": "When the two kings heard this from her, they marveled beyond measure, and each said to the other: ‘If this is merely a jinni, and what befell him is greater than what befell us, then this is a thing that has befallen no one else.’",
+   "n": "The two kings' 'greater than what befell us' looks back to the episode of the woman kept by a jinni that immediately precedes this passage in the frame tale. بَعْضُهُمَا بَعْضًا drops the expected lām you would expect after qāla (Classical baʿḍuhumā li-baʿḍin, 'one of them to the other'); the accusative stands in for it, a Middle Arabic looseness you will meet again. شِي is the colloquial word for 'a thing' (compare Levantine shī), printed here without the hamza-seat of Classical شَيْء; it is vocalized as pronounced rather than repaired to the Classical spelling.",
+   "p": true
+  },
+  {
+   "t": "ثُمَّ إِنَّهُمَا انْصَرَفَا مِنْ سَاعَتِهِمَا عَنْهَا وَرَجَعَا إِلَى مَدِينَةِ الْمَلِكِ شَهْرِيَارَ فَدَخَلَ قَصْرَهُ وَرَمَى عُنُقَ زَوْجَتِهِ وَالْجَوَارِيَ وَالْعَبِيدَ",
+   "tr": "thumma innahumā inṣarafā min sāʿatihimā ʿanhā wa-rajaʿā ilā madīnati al-maliki Shahriyāra fa-dakhala qaṣrahu wa-ramā ʿunuqa zawjatihi wa-al-jawāriya wa-al-ʿabīda",
+   "l": "Then the two of them withdrew at once from her and returned to the city of King Shahriyar; and he entered his palace and cast off the neck of his wife, and the slave-girls, and the slaves.",
+   "i": "Then the two of them departed from her that very hour and made their way back to the city of King Shahriyar. He went into his palace and struck off the head of his wife, and of the slave-girls, and of the slaves.",
+   "n": "مِنْ سَاعَتِهِمَا, literally 'from their hour', is the same fixed idiom for immediacy met earlier as مِنْ وَقْتِهِ وَسَاعَتِهِ — here simply put in the dual. رَمَى عُنُقَ, literally 'cast the neck of', is this text's idiom for beheading; render it as 'struck off the head of'."
+  },
+  {
+   "t": "وَكَانَ الْمَلِكُ شَهْرِيَارُ كُلَّ لَيْلَةٍ يَأْخُذُ بِنْتًا بِكْرًا يَأْخُذُ وَجْهَهَا ثُمَّ يَقْتُلُهَا مُدَّةَ ثَلَٰثِ سَنَوَاتٍ",
+   "tr": "wa-kāna al-maliku Shahriyāru kulla laylatin yaʾkhudhu bintan bikran yaʾkhudhu wajhahā thumma yaqtuluhā muddata thalāthi sanawātin",
+   "l": "And King Shahriyar used to take, every night, a virgin girl — he would take her face, then kill her — for the space of three years.",
+   "i": "Now King Shahriyar, every night, would take a virgin girl, take her maidenhead, and then put her to death — and so it went for three years.",
+   "n": "يَأْخُذُ وَجْهَهَا literally says 'he would take her face'; the phrase is not attested elsewhere with that sense, and the reading given here — 'take her maidenhead' — is the contextually obvious one (deflower her before killing her) rather than a certain lexical fact. It is vocalized as printed rather than emended. ثَلٰثِ carries a dagger alif for the same reason قَٰلَ does later in this passage: the edition prints ثلث without the medial alif of Classical ثَلَاث, and the dagger alif restores the reading while keeping the printed consonants intact."
+  },
+  {
+   "t": "فَضَجَّ النَّاسُ وَهَرَبُوا بِبَنَاتِهِمْ وَلَمْ يَبْقَ فِي تِلْكَ الْمَدِينَةِ بِنْتًا تَتَحَمَّلُ الْوَطْيَ",
+   "tr": "fa-ḍajja al-nāsu wa-harabū bi-banātihim wa-lam yabqa fī tilka al-madīnati bintan tataḥammalu al-waṭya",
+   "l": "So the people clamored, and fled with their daughters, and there did not remain, in that city, a girl who could bear the intercourse.",
+   "i": "Then the people cried out in uproar and fled with their daughters, until there was not left in that city a single girl who could endure intercourse with him.",
+   "n": "الْوَطْيَ prints يـ where Classical spelling has a hamza, الْوَطْء (coitus); this is the same kind of hamza-to-yāʾ shift already seen in words like زَايِدٌ in this text tradition, and it is kept as printed rather than restored to the Classical form.",
+   "p": true
+  },
+  {
+   "t": "ثُمَّ إِنَّ الْمَلِكَ أَمَرَ الْوَزِيرَ أَنْ يَأْتِيَهُ بِبِنْتٍ عَلَى جَرْيِ عَادَتِهِ فَخَرَجَ الْوَزِيرُ وَفَتَّشَ فَلَمْ يَجِدْ بِنْتًا",
+   "tr": "thumma inna al-malika amara al-wazīra an yaʾtiyahu bi-bintin ʿalā jaryi ʿādatihi fa-kharaja al-wazīru wa-fattasha fa-lam yajid bintan",
+   "l": "Then indeed the king commanded the vizier that he should bring him a girl, according to the course of his custom; so the vizier went out and searched, but did not find a girl.",
+   "i": "Then the king commanded his vizier to bring him a girl, as was his wont; so the vizier went forth and searched, but found no girl to be had.",
+   "n": "عَلَى جَرْيِ عَادَتِهِ, literally 'according to the running of his custom', is simply this text's way of saying 'as was his custom'; you will meet the same turn of phrase again."
+  },
+  {
+   "t": "فَتَوَجَّهَ إِلَى مَنْزِلِهِ وَهُوَ مَغْبُونٌ مَقْهُورٌ خَائِفٌ عَلَى نَفْسِهِ مِنَ الْمَلِكِ",
+   "tr": "fa-tawajjaha ilā manzilihi wa-huwa maghbūnun maqhūrun khāʾifun ʿalā nafsihi mina al-maliki",
+   "l": "So he turned toward his house, he being cheated, overpowered, fearful for himself of the king.",
+   "i": "So he made his way home, cheated of his purpose, cast down, and fearful for his own life before the king.",
+   "n": "The three participles مَغْبُونٌ مَقْهُورٌ خَائِفٌ pile up as circumstantial predicates of هُوَ, the same intensifying habit already met as doubled verbal nouns (غَايَةَ الْفَرَحِ) — here it is three participles in a row instead."
+  },
+  {
+   "t": "قَالَ وَكَانَ وَزِيرُ الْمَلِكِ لَهُ بِنْتَانِ الْكَبِيرَةُ اسْمُهَا شَهْرَزَادُ وَالصَّغِيرَةُ اسْمُهَا دُنْيَازَادُ",
+   "tr": "qāla wa-kāna wazīru al-maliki lahu bintāni al-kabīratu ismuhā Shahrazādu wa-al-ṣaghīratu ismuhā Dunyāzādu",
+   "l": "He said (thus it is told): And the king's vizier had two daughters — the elder, her name was Shahrazad; and the younger, her name was Dunyazad.",
+   "i": "So it is told: the king's vizier had two daughters — the elder named Shahrazad, and the younger named Dunyazad.",
+   "n": "This bare قَالَ is the storyteller's own voice breaking in, with no named subject, marking a shift to a new thread of the tale, much as ثُمَّ إِنَّهُ does elsewhere; render it simply as 'so it is told' or leave it silent. بِنْتَانِ … الْكَبِيرَةُ … وَالصَّغِيرَةُ is topic-and-comment twice over, once for each daughter, exactly as with Shāh Zamān earlier in the frame story.",
+   "p": true
+  },
+  {
+   "t": "وَكَانَتِ الْكَبِيرَةُ قَدْ قَرَأَتِ الْكُتُبَ وَالتَّوَارِيخَ وَسِيَرَ الْمُلُوكِ الْمُتَقَدِّمِينَ وَأَخْبَارَ الْأُمَمِ الْمَاضِينَ",
+   "tr": "wa-kānati al-kabīratu qad qaraʾati al-kutuba wa-al-tawārīkha wa-siyara al-mulūki al-mutaqaddimīna wa-akhbāra al-umami al-māḍīna",
+   "l": "And the elder had read the books, and the histories, and the biographies of the kings of former times, and the accounts of the bygone nations.",
+   "i": "The elder had read widely in books, in histories, in the lives of kings of old, and in the annals of nations long past.",
+   "n": "This description echoes the frame's own opening doxology, where سِيَرَ الْأَوَّلِينَ صَارَتْ عِبْرَةً لِلْآخِرِينَ — Shahrazad is built up as exactly the kind of reader that opening commended."
+  },
+  {
+   "t": "قِيلَ أَنَّهَا جَمَعَتْ أَلْفَ كِتَابٍ مِنْ كُتُبِ التَّوَارِيخِ الْمُتَعَلِّقَةِ بِالْأُمَمِ السَّالِفَةِ وَالْمُلُوكِ الْخَالِيَةِ وَالشُّعَرَاءِ",
+   "tr": "qīla annahā jamaʿat alfa kitābin min kutubi al-tawārīkhi al-mutaʿalliqati bi-al-umami al-sālifati wa-al-mulūki al-khāliyati wa-al-shuʿarāʾi",
+   "l": "It was said that she had gathered a thousand books, of the books of histories relating to the bygone nations, and the past kings, and the poets.",
+   "i": "It is said she had amassed a thousand volumes — books of history concerning nations gone by, kings long departed, and poets.",
+   "n": "أَلْفَ كِتَابٍ echoes the book's own أَلْفَ لَيْلَةٍ from its opening — a thousand books answering a thousand nights."
+  },
+  {
+   "t": "فَقَالَتْ لِأَبِيهَا مَا لِي أَرَاكَ مَغْبُونًا حَامِلَ الْهَمِّ وَالْأَحْزَانِ وَقَدْ قَالَ بَعْضُهُمْ فِى الْمَعْنَى",
+   "tr": "fa-qālat li-abīhā mā lī arāka maghbūnan ḥāmila al-hammi wa-al-aḥzāni wa-qad qāla baʿḍuhum fī al-maʿnā",
+   "l": "Then she said to her father: What is it with me — I see you cheated, bearing worry and griefs? And indeed someone has said, on this theme:",
+   "i": "Then she said to her father: What ails me, that I see you thus cheated, weighed down with worry and grief? And indeed it has been said, on this very theme:",
+   "n": "مَا لِي أَرَاكَ, literally 'what is to me that I see you', is the same idiom of concerned address met earlier as مَا لَكَ between the two royal brothers; here Shahrazad puts it to her own father. حَامِلَ الْهَمِّ, 'bearing the worry', is an accusative of circumstance describing him as she sees him.",
+   "p": true
+  },
+  {
+   "t": "قُلْ لِمَنْ يَحْمِلُ هَمًّا * اِنَّ هَمًّا لَا يَدُومُ\nمِثْلُ مَا تَفْنَى الْمَسَرَّه * هَكَذَا تَفْنَى الْهُمُومُ",
+   "tr": "qul li-man yaḥmilu hamman * inna hamman lā yadūmu\nmithlu mā tafnā al-masarrah * hākadhā tafnā al-humūmu",
+   "l": "Say to whoever carries a worry: indeed a worry does not last.\nJust as gladness perishes, so likewise do worries perish.",
+   "i": "Say to him who bears a care: no care endures forever —\neven as gladness must fade away, so too, in its season, sorrow fades.",
+   "n": "The couplet's sajʿ falls on -ūmu at the end of each line (yadūmu / al-humūmu); the '*' marks the edition's own division between the two hemistichs of each line. تَفْنَى ('perishes, passes away') is repeated across both hemistichs of the second line, holding joy and sorrow up as equally transient.",
+   "v": true
+  },
+  {
+   "t": "قَٰلَ فَلَمَّا سَمِعَ الْوَزِيرُ مِنِ ابْنَتِهِ هَذَا الْكَلَامَ حَكَى لَهَا مَا جَرَى لَهُ مِنَ الْأَوَّلِ إِلَى الْآخِرِ مَعَ الْمَلِكِ",
+   "tr": "qāla fa-lammā samiʿa al-wazīru mini ibnatihi hādhā al-kalāma ḥakā lahā mā jarā lahu mina al-awwali ilā al-ākhiri maʿa al-maliki",
+   "l": "He said. — And when the vizier heard from his daughter this speech, he related to her what had befallen him, from the first to the last, with the king.",
+   "i": "So it was said. Then, when the vizier heard this speech from his daughter, he told her all that had passed between him and the king, from first to last.",
+   "n": "This قَٰلَ repeats, bare, the same 'he said' that introduced the verse (وَقَدْ قَالَ بَعْضُهُم above) — printed, like it, without its alif (قل) and pointed here with a dagger alif for the same reason. Whether it is meant to close the citation of the poem or is simply the storyteller's tag resuming the prose is not certain from the text alone; it is kept and translated literally rather than silently dropped."
+  },
+  {
+   "t": "فَقَالَتْ لَهُ بِاللَّهِ يَا أَبَتِ زَوِّجْنِي هَذَا الْمَلِكَ فَإِمَّا أَنْ أَعِيشَ وَإِمَّا أَنْ أَكُونَ فِدًي لِأَوْلَادِ الْمُسْلِمِينَ وَخَلَاصِهِمْ مِنْ بَيْنَ يَدَيْهِ",
+   "tr": "fa-qālat lahu bi-Allāhi yā abati zawwijnī hādhā al-malika fa-immā an aʿīsha wa-immā an akūna fidan li-awlādi al-muslimīna wa-khalāṣihim min bayni yadayhi",
+   "l": "Then she said to him: By God, O my father, marry me to this king; then either I shall live, or I shall be a ransom for the children of the Muslims, and their deliverance from between his two hands.",
+   "i": "Then she said to him: By God, my father, give me in marriage to this king. Either I shall live, or I shall be a ransom for the children of the Muslims, and win their deliverance from his hands.",
+   "n": "يَا أَبَتِ is the old vocative form of 'my father' — the ت stands in for the possessive يَ and is itself vowelled, not a feminine ending; it is worth learning to recognize rather than mistaking for a fault in the text. مِنْ بَيْنِ يَدَيْهِ, literally 'from between his two hands', is a common idiom for 'from before him, from his power' — here, saving the other girls of the city from the king's murderous custom.",
+   "p": true
+  },
+  {
+   "t": "فَقَالَ لَهَا بِاللَّهِ عَلَيْكِ لَا تُخَاطِرِي بِنَفْسِكِ أَبَدًا فَقَالَتْ لَهُ لَابُدَّ مِنْ ذَلِكَ",
+   "tr": "fa-qāla lahā bi-Allāhi ʿalayki lā tukhāṭirī bi-nafsiki abadan fa-qālat lahu lā budda min dhālika",
+   "l": "So he said to her: By God upon you, do not risk yourself, ever! Then she said to him: There is no escaping that.",
+   "i": "Then he said to her: I charge you by God, never put yourself at such risk! But she answered him: It must be so.",
+   "n": "لَابُدَّ مِنْ, literally 'there is no escape from', is the ordinary way of saying something is unavoidable or must be done; the edition prints it as one word, لابد, without a space."
+  },
+  {
+   "t": "فَقَالَ أَخْشَى عَلَيْكِ أَنْ يَتِمَّ لَكِ مَا تَمَّ عَلَى الْحِمَارِ وَالثَّوْرِ مَعَ صَاحِبِ الزَّرْعِ",
+   "tr": "fa-qāla akhshā ʿalayki an yatimma laki mā tamma ʿalā al-ḥimāri wa-al-thawri maʿa ṣāḥibi al-zarʿi",
+   "l": "Then he said: I fear for you that there may be completed for you what was completed upon the donkey and the ox, with the owner of the crop.",
+   "i": "Then he said: I fear that what happened to the donkey and the ox, with the owner of the field, may happen to you as well.",
+   "n": "يَتِمَّ لَكِ مَا تَمَّ, literally 'that there be completed for you what was completed', uses تَمَّ ('to be completed, to come to pass') as this text's word for a fate being fulfilled. The fable of the donkey, the ox, and the farmer that the father now goes on to tell is a tale-within-the-tale continuing past the edge of this excerpt."
+  },
+  {
+   "t": "فَقَالَتْ لَهُ وَمَا الَّذِي جَرَى",
+   "tr": "fa-qālat lahu wa-mā alladhī jarā",
+   "l": "Then she said to him: And what is it that happened?",
+   "i": "Then she said to him: And what was it that happened?",
+   "n": "الَّذِي جَرَى, 'that which happened', is Shahrazad's prompt for her father's fable, which follows immediately beyond the edge of this excerpt.",
+   "p": true
+  },
+  {
+   "t": "حِكَايَةُ الثَّوْرِ مَعَ الْحِمَارِ",
+   "tr": "ḥikāyatu al-thawri maʿa al-ḥimār",
+   "l": "The tale of the bull, with the donkey.",
+   "i": "The Tale of the Bull and the Donkey",
+   "p": true
+  },
+  {
+   "t": "قَٰلَ اِعْلَمِي يَا ابْنَتِي أَنَّهُ كَانَ لِبَعْضِ التُّجَّارِ أَمْوَالٌ وَمَواشٍ وَكَانَ لَهُ زَوْجَةٌ وَأَوْلَادٌ وَكَانَ اللَّهُ تَعَالَى أَعْطَاهُ مَعْرِفَةَ لُغَاتِ أَلْسُنِ الْحَيَوَانَاتِ وَالطُّيُورِ",
+   "tr": "qāla iʿlamī yā bnatī annahu kāna li-baʿḍi al-tujjāri amwālun wa-mawāshin wa-kāna lahu zawjatun wa-awlādun wa-kāna Allāhu taʿālā aʿṭāhu maʿrifata lughāti alsuni al-ḥayawānāti wa-al-ṭuyūr",
+   "l": "He said: Know, O my daughter, that there was to one of the merchants riches and livestock; and he had a wife and children; and God — exalted is He — had given him knowledge of the languages of the tongues of the animals and the birds.",
+   "i": "He said: Know, my daughter, that there was once a certain merchant who possessed wealth and livestock. He had a wife and children, and God — exalted is He — had granted him the gift of understanding the speech of animals and birds.",
+   "n": "The print here reads السن, which looks like 'the tooth'; but it is almost certainly أَلْسُن, 'tongues' (a plural of لسان), used without the article as the middle link of the chain لُغَاتِ أَلْسُنِ الْحَيَوَانَاتِ, 'the languages of the tongues of the animals' — a word-initial hamza looks identical to the article's own alif in unpointed script, which is what produces the apparent 'السن'. This gift of understanding animal speech is what makes the fable that follows possible.",
+   "p": true
+  },
+  {
+   "t": "وَكَانَ مَسْكَنُ ذَلِكَ التَّاجِرِ الْأَرْيَافَ وَكَانَ عِنْدَهُ فِي دَارِهِ حِمَارٌ وَثَوْرٌ",
+   "tr": "wa-kāna maskanu dhālika al-tājiri al-aryāfa wa-kāna ʿindahu fī dārihi ḥimārun wa-thawr",
+   "l": "And the dwelling of that merchant was the countryside; and he had, in his house, a donkey and a bull.",
+   "i": "That merchant's home was in the countryside, and in his house he kept a donkey and a bull."
+  },
+  {
+   "t": "فَأَتَى يَوْمًا الثَّوْرُ إِلَى مَكَانِ الْحِمَارِ فَوَجَدَهُ مَكْنُوسًا مَرْشُوشًا وَفِي مِعْلَفِهِ شَعِيرٌ مُغَرْبَلٌ وَتِبْنٌ مُغَرْبَلٌ وَهُوَ رَاقِدٌ مُسْتَرِيحٌ",
+   "tr": "fa-atā yawman al-thawru ilā makāni al-ḥimāri fa-wajadahu maknūsan marshūshan wa-fī miʿlafihi shaʿīrun mughrabalun wa-tibnun mughrabalun wa-huwa rāqidun mustarīḥ",
+   "l": "So the bull came one day to the place of the donkey, and found him swept, sprinkled, and in his manger sifted barley and sifted straw, and he lying down at ease.",
+   "i": "One day the ox came to the donkey's stall, and found it swept and sprinkled, sifted barley and sifted straw in the manger, and the donkey himself lying at his ease."
+  },
+  {
+   "t": "وَفِي بَعْضِ الْأَوْقَاتِ يَرْكَبُهُ صَاحِبُهُ لِحَاجَةٍ تَعْرِضُ لَهُ وَيَرْجِعُ عَلَى حَالِهِ",
+   "tr": "wa-fī baʿḍi al-awqāti yarkabuhu ṣāḥibuhu li-ḥājatin taʿriḍu lahu wa-yarjiʿu ʿalā ḥālih",
+   "l": "And at some times his master rides him, for a need that presents itself to him, and he returns to his state.",
+   "i": "And now and then his master would ride him, when some need arose, and bring him back to his accustomed ease."
+  },
+  {
+   "t": "فَلَمَّا كَانَ فِي بَعْضِ الْأَيَّامِ سَمِعَ التَّاجِرُ الثَّوْرَ وَهُوَ يَقُولُ لِلْحِمَارِ",
+   "tr": "fa-lammā kāna fī baʿḍi al-ayyāmi samiʿa al-tājiru al-thawra wa-huwa yaqūlu li-al-ḥimār",
+   "l": "And when it was, on one of the days, the merchant heard the bull, while he was saying to the donkey:",
+   "i": "Now on a certain day the merchant overheard the ox saying to the donkey:",
+   "p": true
+  },
+  {
+   "t": "هَنِيًّا لَكَ ذَلِكَ أَنَا تَعْبَانُ وَأَنْتَ مُسْتَرِيحٌ تَأْكُلُ الشَّعِيرَ مُغَرْبَلًا وَيَخْدُمُكَ وَفِي بَعْضِ الْأَوْقَاتِ يَرْكَبُكَ وَيَرْجِعُ وَأَنَا دَائِمًا لِلْحَرْثِ وَالطَّحِينِ",
+   "tr": "haniyyan laka dhālika anā taʿbānu wa-anta mustarīḥun taʾkulu al-shaʿīra mughrabalan wa-yakhdumuka wa-fī baʿḍi al-awqāti yarkabuka wa-yarjiʿu wa-anā dāʾiman li-al-ḥarthi wa-al-ṭaḥīn",
+   "l": "Good may it do you, that! I am weary and you are at ease, eating the barley sifted, and he serves you, and at some times he rides you and returns; while I am always for the ploughing and the flour.",
+   "i": "Much good may it do you! Here am I worn with toil while you take your ease, eating your barley sifted, waited on, and now and then ridden out and brought home again — while I am forever at the plough and the mill.",
+   "n": "هَنِيًّا لَكَ ذَلِكَ is a fixed envious exclamation, 'good may that do you' — sarcastic rather than kindly meant here. وَالطَّحِينِ, literally 'and the flour', stands for the milling itself: the ox does the grinding as well as the ploughing, so the word for the product is used for the labour."
+  },
+  {
+   "t": "فَقَالَ لَهُ الْحِمَارُ لَمَّا تَخْرُجُ إِلَى الْغَيْطِ وَيَجْعَلُونَ عَلَى رَقَبَتِكَ النِّيرَ فَارْقُدْ وَلَوْ ضَرَبُوكَ لَا تَقُمْ",
+   "tr": "fa-qāla lahu al-ḥimāru lammā takhruju ilā al-ghayṭi wa-yajʿalūna ʿalā raqabatika al-nīra fa-irqud wa-law ḍarabūka lā taqum",
+   "l": "So the donkey said to him: When you go out to the field and they put upon your neck the yoke, then lie down; and even if they beat you, do not rise.",
+   "i": "The donkey said to him: When you are taken out to the field and they set the yoke upon your neck, lie yourself down; and even should they beat you, do not get up.",
+   "n": "لَمَّا with an imperfect verb (تَخْرُجُ) for a future/habitual 'when' is a recurring Middle Arabic usage in this text — Classical grammar would expect lammā only with a perfect, looking backward. الْغَيْطِ, 'the field', is the everyday (originally Egyptian colloquial) word for cultivated land, where Classical prose would more often say الحقل."
+  },
+  {
+   "t": "وَقُمْ وَارْقُدْ وَلَمَّا يَرْجِعُونَ بِكَ وَيُوضَعُونَ لَكَ الْفُولُ فَلَا تَأْكُلْهُ كَأَنَّكَ ضَعِيفٌ وَامْتَنِعْ مِنَ الْأَكْلِ وَالشُّرْبِ",
+   "tr": "wa-qumi irqud wa-lammā yarjiʿūna bika wa-yūḍaʿūna laka al-fūlu fa-lā taʾkulhu ka-annaka ḍaʿīfun wa-mtaniʿ mina al-akli wa-al-shurb",
+   "l": "And rise, [and] lie down; and when they bring you back and the beans are put down for you, do not eat it, as though you were weak; and abstain from eating and drinking.",
+   "i": "Get up if you must, and drop down again at once; and when they bring you back and set the beans before you, touch none of it, as though you were too feeble; refuse both food and drink.",
+   "n": "وَيُوضَعُونَ, 'and [they] are put down', is a genuine passive (يُوضَعُ regularly keeps the weak first radical و that the active يَضَعُ drops) but it carries a plural ending although its stated subject, الْفُولُ 'the beans', is singular — the verb is agreeing with the unstated plural hand that does the placing rather than with its grammatical subject, much as وَأَحَبُّوهُ أَهْلُ بِلَادِهِ does elsewhere in this frame story."
+  },
+  {
+   "t": "يَوْمًا أَوْيَوْمَيْنِ أَوْ ثَلٰثَةً فَتَسْتَرِيحُ مِنَ التَّعَبِ وَالْجَهْدِ قَٰلَ وَكَانَ التَّاجِرُ يَسْمَعُ كَلَامَهُمَا",
+   "tr": "yawman aw yawmayni aw thalāthatan fa-tastarīḥu mina al-taʿabi wa-al-jahdi qāla wa-kāna al-tājiru yasmaʿu kalāmahumā",
+   "l": "A day, or two days, or three, that you may rest from the fatigue and the toil. He said: And the merchant was hearing their talk.",
+   "i": "A day, or two, or three — that you may have rest from your weariness and toil.' He [the storyteller] said: Now the merchant was listening to it all.",
+   "n": "This قَالَ is not the donkey speaking — it is the vizier's own narrating voice, breaking back in to resume the frame after the donkey's long speech, the way ثُمَّ إِنَّهُ does elsewhere. ثلثة prints without its middle alif (for ثلاثة), the same kind of defective spelling as قل for قال, and is pointed here the same way, with a dagger alif."
+  },
+  {
+   "t": "فَلَمَّا جَاءَ السَّوَّاقُ إِلَى الثَّوْرِ بِعَشَاءِهِ أَكَلَ مِنْهُ شَيْأً يَسِيرًا",
+   "tr": "fa-lammā jāʾa al-sawwāqu ilā al-thawri bi-ʿashāʾihi akala minhu shayʾan yasīrā",
+   "l": "And when the drover came to the bull with his evening-feed, he ate a little of it.",
+   "i": "Now when the drover came to the ox with his evening feed, he ate but a little of it.",
+   "p": true
+  },
+  {
+   "t": "وَأَصْبَحَ السَّوَّاقُ يَأْخُذُ الثَّوْرَ إِلَى الْحَرْثِ فَوَجَادَهُ ضَعِيفًا فَحَزِنَ عَلَيْهِ وَقَٰلَ هَذَا سَبَبُ أَنَّهُ مَا قَدَرَ أَمْسِ يَشْغُلُ",
+   "tr": "wa-aṣbaḥa al-sawwāqu yaʾkhudhu al-thawra ilā al-ḥarthi fa-wajadahu ḍaʿīfan fa-ḥazina ʿalayhi wa-qāla hādhā sababu annahu mā qadara amsi yashghul",
+   "l": "And in the morning the drover was taking the bull to the ploughing, and found him weak; so he grieved over him and said: This is the reason he was not able yesterday to work.",
+   "i": "In the morning the drover led the ox out to the ploughing and found him feeble; and he was grieved for him and said: 'This is why he could not work yesterday.'",
+   "n": "فوجاده prints an extra alif not found in the identical phrase فوجده three lines earlier (both simply 'and he found him'); it is read the same way, وَجَدَهُ — most likely a plene spelling of the short vowel rather than a different word."
+  },
+  {
+   "t": "ثُمَّ جَاءَ إِلَى التَّاجِرِ وَقَٰلَ لَهُ يَا مَوْلَايَ إِنَّ الثَّوْرَ مُتَقَصِّرٌ لَمْ يَأْكُلْ هَذِهِ اللَّيْلَةَ الْعَلَفَ وَلَا ذَاقَ مِنْهُ شَيْأً وَقَدْ عَرَفَ التَّاجِرُ الْأَمْرَ",
+   "tr": "thumma jāʾa ilā al-tājiri wa-qāla lahu yā mawlāya inna al-thawra mutaqaṣṣirun lam yaʾkul hādhihi al-laylata al-ʿalafa wa-lā dhāqa minhu shayʾan wa-qad ʿarafa al-tājiru al-amr",
+   "l": "Then he came to the merchant and said to him: O my master, the bull is failing; he has not eaten, this night, the fodder, nor tasted any of it. And the merchant already knew the matter.",
+   "i": "Then he went to the merchant and said to him: 'My master, the ox is off his feed; this night he has not touched the fodder, nor tasted a morsel of it.' But the merchant already knew what lay behind it.",
+   "n": "Since the merchant understands the speech of animals, he alone among the household already knows the true reason — the donkey's advice, overheard the night before."
+  },
+  {
+   "t": "فَقَالَ اِمْضِ وَخُذِ الْحِمَارَ وَحَرْثُهُ مَكَانَهُ الْيَوْمَ كُلَّهُ قَالَ فَلَمَّا رَجَعَ آخِرَ النَّهَارِ بَعْدَ مَا حَرَثَهُ الْيَوْمَ كُلَّهُ",
+   "tr": "fa-qāla imḍi wa-khudhi al-ḥimāra wa-ḥarthuhu makānahu al-yawma kullahu qāla fa-lammā rajaʿa ākhira al-nahāri baʿda mā ḥarathahu al-yawma kullah",
+   "l": "So he said: Go, and take the donkey — his ploughing [shall be] in his place, the whole day. He said: And when he returned at the end of the day, after he had ploughed it the whole day,",
+   "i": "So he said: 'Go, take the donkey, and let him plough in the ox's place today, the whole day long.' He [the storyteller] said: And when he came back at day's end, having ploughed the whole day through,",
+   "n": "وحرثه here is a noun, not a verb — 'and his ploughing (shall be) in his stead', a nominal command with no imperative of its own. Three words later, حرثه is a plain verb, 'he ploughed it': the same four letters read two different ways depending on what the sentence needs, one of them a fitting small irony, since it is precisely the donkey's own ploughing that is now at issue."
+  },
+  {
+   "t": "شَكَرَهُ الثَّوْرُ عَلَى تَفَضُّلَاتِهِ الَّتِي أَرَاحَهُ مِنَ التَّعَبِ فِي ذَلِكَ الْيَوْمِ فَلَمْ يَرُدَّ عَلَيْهِ الْحِمَارُ جَوَابًا وَنَدِمَ شِدَّةَ النَّدَمِ",
+   "tr": "shakarahu al-thawru ʿalā tafaḍḍulātihi allatī arāḥahu mina al-taʿabi fī dhālika al-yawmi fa-lam yarudda ʿalayhi al-ḥimāru jawāban wa-nadima shiddata al-nadam",
+   "l": "The bull thanked him for his favors, which had given him rest from the toil on that day; but the donkey returned him no answer, and repented with the utmost of regret.",
+   "i": "The ox thanked him for the kindness that had spared him the toil that day; but the donkey gave him no reply, and was left to repent most bitterly.",
+   "n": "أَرَاحَهُ is masculine although its antecedent, تَفَضُّلَاتِهِ 'his favors', is a feminine plural — the same loose agreement with non-human plurals seen elsewhere in this text. The donkey's silence closes the fable on its irony: the trick that won him an easy day has cost him his place at the plough for good."
+  },
+  {
+   "t": "فَلَمَّاكَانَ ثَانِيَ يَوْمٍ جَاءَ الزَّرَّاعُ وَأَخَذَ الْحِمَارَ وَحَرَثَهُ إِلَى آخِرِ النَّهَارِ فَمَا رَجَعَ الْحِمَارُ إِلَّا مَسْلُوخَ الرَّقَبَةِ مَيِّتًا مِنَ التَّعَبِ",
+   "tr": "fa-lammā kāna thāniya yawmin jāʾa al-zarrāʿu wa-akhadha al-ḥimāra wa-ḥarathahu ilā ākhiri al-nahāri fa-mā rajaʿa al-ḥimāru illā maslūkha al-raqabati mayyitan mina al-taʿab",
+   "l": "And when it was the second day, the ploughman came and took the donkey and plowed him until the end of the day; and the donkey did not return except flayed-of-neck, dead from the exhaustion.",
+   "i": "When the next day came, the ploughman came and took the donkey and worked him at the plow till evening; and the donkey came back only with his neck skinned raw, dead with fatigue.",
+   "n": "The edition prints فلما and كان run together with no space (فلماكان); that is kept here exactly as printed and simply read as the ordinary fa-lammā kāna. مَسْلُوخَ الرَّقَبَةِ, literally \"flayed-of-neck,\" is a passive participle in construct with its logical object — a common Arabic way of describing a condition of the body, better English \"his neck skinned raw.\" This is the donkey's own earlier trick (feigning the ox sick so the ox alone would be spared labor) turned back on him: he is the one now worked to death.",
+   "p": true
+  },
+  {
+   "t": "فَتَأَمَّلَهُ الثَّوْرُ فَشَكَرَهُ وَمَدَحَهُ فَقَالَ لَهُ الْحِمَارُ كُنْتُ قَاعِدًا بِطُولِي فَمَا خَلَّانِي فُضُولِي ثُمَّ قَالَ اعْلَمْ أَنِّي لَكَ نَاصِحٌ",
+   "tr": "fa-taʾammalahu al-thawru fa-shakarahu wa-madaḥahu fa-qāla lahu al-ḥimāru kuntu qāʿidan bi-ṭūlī fa-mā khallānī fuḍūlī thumma qāla iʿlam annī laka nāṣiḥ",
+   "l": "So the ox regarded him closely, and thanked him and praised him. And the donkey said to him: 'I was sitting at my ease, but my meddling would not leave me be.' Then he said: 'Know that I am to you a sincere-advisor.'",
+   "i": "The ox looked him over, and gave him thanks and praise. Then the donkey said to him: 'I was sitting there quietly enough, minding my own business — but my own meddling would not let me rest.' Then he said: 'Know that I mean you well.'",
+   "n": "بِطُولِي فَمَا خَلَّانِي فُضُولِي is close to a still-living colloquial idiom: \"I was sitting there at my ease [lit. \"by my whole length\"], but my nosiness would not leave me [alone].\" The donkey is owning up to the meddling that got him worked half to death in the previous unit."
+  },
+  {
+   "t": "وَقَدْ سَمِعْتُ أُسْتَاذَنَا يَقُولُ إِنْ لَمْ يَقُمِ الثَّوْرُ مِنْ مَوْضِعِهِ أَعْطُوهُ لِلْجَزَّارِ يَذْبَحُهُ وَيَعْمَلُ جِلْدَهُ قِطَعًا",
+   "tr": "wa-qad samiʿtu ustādhanā yaqūlu in lam yaqumi al-thawru min mawḍiʿihi aʿṭūhu li-al-jazzāri yadhbaḥuhu wa-yaʿmalu jildahu qiṭaʿ",
+   "l": "'And I have heard our master saying: if the ox does not rise from his place, give him to the butcher — he slaughters him and makes his hide (into) pieces.'",
+   "i": "'For I have heard our master say: if the ox will not get up from where he lies, hand him over to the butcher, who will slaughter him and cut his hide into pieces.'",
+   "n": "أَعْطُوهُ, a plural imperative, stands as the unmarked result of the إِنْ-clause (\"if he doesn't rise ... give him over\") — this text often lets one command follow a condition without a connecting particle."
+  },
+  {
+   "t": "وَأَنَا خَائِفٌ عَلَيْكَ وَقَدْ نَصَحْتُكَ وَالسَّلَامُ قَالَ فَلَمَّا سَمِعَ الثَّوْرُ كَلَامَ الْحِمَارِ شَكَرَهُ وَقَٰلَ بُكْرَهْ أَسْرَحُ مَعَهُمْ",
+   "tr": "wa-anā khāʾifun ʿalayka wa-qad naṣaḥtuka wa-al-salāmu qāla fa-lammā samiʿa al-thawru kalāma al-ḥimāri shakarahu wa-qāla bukrah asraḥu maʿahum",
+   "l": "'And I am fearful for you, and I have advised you — and that is all.' He (the teller) said: then when the ox heard the donkey's speech, he thanked him, and said: 'Tomorrow morning I will go out to pasture with them.'",
+   "i": "'I am afraid for you, and I have given you my counsel — and there's an end of it.' So the tale goes on: when the ox heard what the donkey told him, he thanked him, and said, 'Tomorrow I will go out with the rest of them.'",
+   "n": "وَالسَّلَامُ here is simply the donkey's own sign-off, \"and that's all, full stop\" — not the famous obedience-formula بِالسَّمْعِ وَالطَّاعَةِ, which is a different fixed phrase entirely. The bare قَالَ that opens the second half is the teller's own narrating voice, resuming after the donkey's speech closes. The edition spells قال defectively, without its alif (قل); it is pointed here with a dagger alif (قَٰلَ) so the printed consonants are kept exactly while the word still reads qāla — the same device used earlier in the frame story for the same spelling. بكره, \"tomorrow morning,\" is likewise printed with plain ه where the expected spelling is بكرة with tāʾ marbūṭa; kept as printed."
+  },
+  {
+   "t": "ثُمَّ إِنَّ الثَّوْرَ أَكَلَ عَلَفَهُ بِتَمَامِهِ حَتَّى لَحَسَ الْمِذْوَدَ بِلِسَانِهِ وَكُلُّ ذَلِكَ وَصَاحِبُهُمْ يَسْمَعُ كَلَامَهُمْ",
+   "tr": "thumma inna al-thawra akala ʿalafahu bi-tamāmihi ḥattā laḥasa al-midhwada bi-lisānihi wa-kullu dhālika wa-ṣāḥibuhum yasmaʿu kalāmahum",
+   "l": "Then indeed the ox ate his fodder in its entirety, until he licked the manger with his tongue — and all that (while) their master was hearing their speech.",
+   "i": "Then the ox ate all his fodder to the last of it, until he had licked the manger clean with his tongue — and all the while, their master was listening to what they said.",
+   "n": "وَكُلُّ ذَلِكَ وَصَاحِبُهُمْ يَسْمَعُ is a hāl (circumstantial) clause built as a plain nominal sentence: \"and all that — their master (was) hearing it,\" i.e. \"and all the while, their master was listening.\""
+  },
+  {
+   "t": "فَلَمَّا طَلَعَ النَّهَارُ خَرَجَ التَّاجِرُ وَزَوْجَتُهُ إِلَى دَارِ الْبَقَرِ وَجَلَسَا فَجَاءَ السَّوَّاقُ وَأَخَذَ الثَّوْرَ وَخَرَجَ",
+   "tr": "fa-lammā ṭalaʿa al-nahāru kharaja al-tājiru wa-zawjatuhu ilā dāri al-baqari wa-jalasā fa-jāʾa al-sawwāqu wa-akhadha al-thawra wa-kharaj",
+   "l": "And when day rose, the merchant and his wife went out to the house of the cattle, and the two of them sat down. Then the drover came, and took the ox, and went out.",
+   "i": "When morning came, the merchant and his wife went out to the byre and sat themselves down; and the drover came, took the ox, and led him out.",
+   "p": true
+  },
+  {
+   "t": "فَلَمَّا رَأَى الثَّوْرُ أُسْتَاذَهُ طَرْطَرَ ذَيْلَهُ وَضَرَطَ وَبَرْطَعَ فَضَحِكَ التَّاجِرُ حَتَّى اسْتَلْقَى عَلَى قَفَاهُ",
+   "tr": "fa-lammā raʾā al-thawru ustādhahu ṭarṭara dhaylahu wa-ḍaraṭa wa-barṭaʿa fa-ḍaḥika al-tājiru ḥattā istalqā ʿalā qafāh",
+   "l": "And when the ox saw his master, he flicked his tail, and farted, and pranced about; so the merchant laughed until he fell back on the nape of his neck.",
+   "i": "And when the ox caught sight of his master, he whisked his tail, let out a fart, and went capering about — and the merchant burst out laughing until he toppled over backward.",
+   "n": "طَرْطَرَ and بَرْطَعَ are both quadriliteral verbs of the expressive, almost onomatopoeic kind this comic register favours — \"to whisk/flick\" and \"to caper, frisk about.\" اسْتَلْقَى عَلَى قَفَاهُ, literally \"lay back on his nape,\" is the idiom for helpless laughter, as English says \"fell over backward laughing.\""
+  },
+  {
+   "t": "فَقَالَتْ لَهُ زَوْجَتُهُ مِنْ أَيِّ شِي تَضْحَكُ فَقَالَ لَهَا سِرٌّ رَأَيْتُهُ وَسَمِعْتُهُ وَلَا أَقْدِرُ أَبُوحُ بِهِ فَأَمُوتَ",
+   "tr": "fa-qālat lahu zawjatuhu min ayyi shī taḍḥaku fa-qāla lahā sirrun raʾaytuhu wa-samiʿtuhu wa-lā aqdiru abūḥu bihi fa-amūt",
+   "l": "His wife said to him: 'At what thing are you laughing?' He said to her: 'A secret I saw it and heard it, and I am not able (that) I disclose it, or I would die.'",
+   "i": "His wife said to him: 'What is it that makes you laugh so?' He answered her: 'It is a secret I both saw and heard — and I cannot tell it, or it would be the death of me.'",
+   "n": "شِي prints the word for \"thing\" without its hamza (Classical شَيْء) — a colloquial spelling, still how the word is said in Egyptian Arabic today, and kept here as printed rather than restored to شَيْءٍ. لَا أَقْدِرُ أَبُوحُ, \"I am not able (I) disclose,\" drops the أَنْ a careful Classical style would insert before the second verb; the sense is unaffected.",
+   "p": true
+  },
+  {
+   "t": "فَقَالَتْ لَهُ لَابُدَّ أَنْ تُخْبِرَنِي بِهِ وَبِسَبَبِ ضَحِكِكَ وَلَوْ كُنْتَ تَمُوتُ فَقَالَ لَهَا مَا أَقْدِرُ أَنْ أُبِيحَ بِهِ خَوْفًا مِنَ الْمَوْتِ",
+   "tr": "fa-qālat lahu lā budda an tukhbirinī bihi wa-bi-sababi ḍaḥikika wa-law kunta tamūtu fa-qāla lahā mā aqdiru an ubīḥa bihi khawfan mina al-mawt",
+   "l": "She said to him: 'There is no escape (from) that you inform me of it, and of the cause of your laughing — even if you were to die.' He said to her: 'I am not able that I disclose it, for fear of death.'",
+   "i": "She said to him: 'You must tell me — both it, and the reason for your laughing — though it should cost you your life.' He answered her: 'I dare not disclose it, for fear of death.'",
+   "n": "The edition prints لا and بد run together (لابد), kept as printed. The verb changes measure between units: أَبُوحُ (measure I, بَاحَ) in the previous unit and أُبِيحَ (measure IV, أَبَاحَ) here — both mean simply \"to let out, disclose\" a secret, and the text moves between them without any apparent difference of sense."
+  },
+  {
+   "t": "فَقَالَتْ لَهُ أَنْتَ مَا تَضْحَكُ إِلَّا عَلَيَّ ثُمَّ إِنَّهَا لَمْ تَزَلْ تُلِحُّ عَلَيْهِ وَتَلِجُّ عَلَيْهِ إِلَى أَنْ غُلِبَ مِنْهَا وَضَجِرَ",
+   "tr": "fa-qālat lahu anta mā taḍḥaku illā ʿalayya thumma innahā lam tazal tuliḥḥu ʿalayhi wa-talijju ʿalayhi ilā an ghuliba minhā wa-ḍajir",
+   "l": "She said to him: 'You are laughing at none but me.' Then indeed she did not cease pressing him and importuning him, until he was overcome by her and grew weary.",
+   "i": "She said to him: 'You are laughing at no one but me.' And she gave him no peace, pressing and importuning him, until at last he could hold out no longer and grew weary of it.",
+   "n": "تُلِحُّ and تَلِجُّ, \"she presses/insists\" and \"she persists stubbornly,\" are a near-synonym pair the prose likes to lean on for emphasis. غُلِبَ مِنْهَا, \"he was overcome by her,\" uses مِنْ rather than Classical بِ to mark the passive agent — a loose Middle Arabic usage rather than an error."
+  },
+  {
+   "t": "فَأَحْضَرَ أَوْلَادَهُ وَأَرْسَلَ أَحْضِرِ الْقَاضِيَ وَالشُّهُودَ وَأَرَادَ أَنْ يُوصِيَ وَيُبِيحَ لَهَا بِالسِّرِّ وَيَمُوتَ لِأَنَّهُ كَانَ يُحِبُّهَا مَحَبَّةً عَظِيمَةً وَهِيَ بِنْتُ عَمِّهِ وَأُمُّ أَوْلَادِهِ",
+   "tr": "fa-aḥḍara awlādahu wa-arsala aḥḍiri al-qāḍiya wa-al-shuhūda wa-arāda an yūṣiya wa-yubīḥa lahā bi-al-sirri wa-yamūta li-annahu kāna yuḥibbuhā maḥabbatan ʿaẓīmatan wa-hiya bintu ʿammihi wa-ummu awlādih",
+   "l": "So he summoned his children, and sent, '(you,) bring the judge and the witnesses!' and wished that he make-his-testament and disclose to her the secret and die — because he loved her a-great-love, and she was the daughter of his paternal-uncle and the mother of his children.",
+   "i": "So he called for his children, and sent word: 'Bring the judge and the witnesses!' — meaning to make his will, tell her the secret, and die, for he loved her greatly: she was his cousin, his uncle's daughter, and the mother of his children.",
+   "n": "وَأَرْسَلَ أَحْضِرِ الْقَاضِيَ, literally \"and he sent, 'bring the judge!'\", drops the \"he said\" that would normally introduce the quoted order — the imperative أَحْضِرِ follows straight on أَرْسَلَ as the message itself. بِنْتُ عَمِّهِ, \"his paternal uncle's daughter,\" names an ordinary and approved match in this world, not a coincidence of the plot.",
+   "p": true
+  },
+  {
+   "t": "وَقَدْ كَانَ عُمِّرَ مِنَ الْعُمُرِ مِأْيَةً وَعِشْرِينَ سَنَةً",
+   "tr": "wa-qad kāna ʿummira mina al-ʿumuri miʾyatan wa-ʿishrīna sanah",
+   "l": "And he had been granted-length-of-life, of the lifetime, a hundred and twenty years.",
+   "i": "And by now he had lived to the age of a hundred and twenty years.",
+   "n": "كَانَ عُمِّرَ, \"he had been made-to-live-long,\" is the pluperfect of the passive عُمِّرَ (measure II of عَمَرَ, \"to be granted a long life\") — a stock way the Nights marks a character's great age, generally just before a death or a will, as here. The word for \"hundred\" is printed مأية, with the hamza sitting on the alif rather than on the ya as in the ordinary spelling مِائَة/مِئَة; the letters are kept exactly as printed and read as the familiar word for \"a hundred.\""
+  },
+  {
+   "t": "ثُمَّ إِنَّهُ أَرْسَلَ أَحْضَرَ جَمِيعَ أَهْلِهَا وَأَهْلَ جَارَتِهِ وَقَالَ لَهُمْ عَلَيَّ حِكَايَةٌ وَإِنَّهُ مَتَى قَٰلَ لِأَحَدٍ عَلَى سِرِّهِ مَاتَ",
+   "tr": "thumma innahu arsala aḥḍara jamīʿa ahlihā wa-ahla jāratihi wa-qāla lahum ʿalayya ḥikāyatun wa-innahu matā qāla li-aḥadin ʿalā sirrihi māta",
+   "l": "Then indeed he sent, had-brought all her people and the people of his neighbor, and said to them: upon-me a story; and indeed whenever he tells to anyone about his secret, he dies.",
+   "i": "Then he sent and had all her family, and his neighbor's family besides, brought before him, and said to them: I have a tale to tell — and it is such that whenever he tells anyone his secret, he dies.",
+   "n": "أَرْسَلَ أَحْضَرَ strings two verbs of sending in sequence, \"he sent, had brought\" — Classical prose would more likely subordinate the second (\"sent so that X be brought\"); here they simply run together. عَلَيَّ حِكَايَةٌ is an idiom of possession or obligation (as in \"ʿalayya dayn\", \"I owe a debt\") pressed into service for \"I have a story.\" The \"he\" of the closing clause is not named here — it is the storyteller of the tale-within-the-tale the merchant is about to relate, bound by a condition of secrecy on pain of death, as the frame established earlier in the story.",
+   "p": true
+  },
+  {
+   "t": "فَقَالَ لَهَا جَمِيعُ مَنْ حَضَرَهَا بِاللَّهِ عَلَيْكِ اتْرُكِي هَذَا الْأَمْرَ لِئَلَّا يَمُوتَ زَوْجُكِ أَبُو أَوْلَادِكِ",
+   "tr": "fa-qāla lahā jamīʿu man ḥaḍarahā bi-Allāhi ʿalayki utrukī hādhā al-amra li-allā yamūta zawjuki abū awlādiki",
+   "l": "So all who were present with her said to her: by God upon you, leave this matter, lest your husband, the father of your children, die.",
+   "i": "Then all who were there with her said to her: for God's sake, give up this matter, lest your husband, the father of your children, die.",
+   "n": "بِاللَّهِ عَلَيْكِ, literally \"by God upon you,\" is the fixed formula of adjuration — \"I beg you, for God's sake.\" أَبُو أَوْلَادِكِ stands in apposition to زَوْجُكِ, driving home exactly what she stands to lose."
+  },
+  {
+   "t": "فَقَالَتْ لَهُمْ مَا أَرْجِعُ عَنْهُ حَتَّى يَقُولَ لِي وَأَدَعَهُ يَمُوتُ فَسَكَتُوا عَنْهَا",
+   "tr": "fa-qālat lahum mā arjiʿu ʿanhu ḥattā yaqūla lī wa-adaʿahu yamūtu fa-sakatū ʿanhā",
+   "l": "So she said to them: I do not turn back from it until he tells me — and I leave him, he dies. So they fell silent about her.",
+   "i": "But she said to them: I will not give this up until he tells me — though it cost him his life. So they said no more to her.",
+   "n": "مَا أَرْجِعُ negates the imperfect with mā rather than Classical lam, the same colloquial-leaning usage already noted earlier in the frame story for مَا فَارَقْتُ. The exact force of وَأَدَعَهُ يَمُوتُ is not fully certain: it reads most naturally as \"even if I let him die\" — a measure of her stubbornness — but the compressed run of clauses could as easily mean \"until he tells me, or else I let him die.\" Both are kept open here; the translation follows the first."
+  },
+  {
+   "t": "ثُمَّ إِنَّ التَّاجِرَ قَامَ مِنْ عِنْدِهِمْ وَتَوَجَّهَ إِلَى دَارِ الدَّوَابِّ يَتَوَضَّى وَيَرْجِعُ يَقُولُ لَهُمْ وَيَمُوتُ",
+   "tr": "thumma inna al-tājira qāma min ʿindihim wa-tawajjaha ilā dāri al-dawābbi yatawaḍḍā wa-yarjiʿu yaqūlu lahum wa-yamūtu",
+   "l": "Then indeed the merchant rose from among them and made his way to the house of the beasts, to perform his ablution and return, telling them, and dying.",
+   "i": "Then the merchant rose up from among them and made his way to the stable, meaning to wash, and come back and tell them, and die.",
+   "n": "يَتَوَضَّى is printed without its usual final hamza — تَوَضَّأَ regularly ends tawaḍḍaʾa; here it is spelled as though a final-weak verb, tawaḍḍā, a colloquial reduction still heard in spoken Arabic. دَارُ الدَّوَابِّ, \"the house of the beasts,\" is the stable — the one place he can be alone before he tells his wife the fatal secret."
+  },
+  {
+   "t": "وَكَانَ عِنْدَهُ دِيكٌ وَتَحْتَهُ خَمْسُونَ دَجَاجَةً وَكَانَ عِنْدَهُ كَلْبٌ فَسَمِعَ التَّاجِرُ الْكَلْبَ وَهُوَ يُنَادِي وَيَسُبُّ الدِّيكَ وَيَقُولُ لَهُ أَنْتَ فَرْحَانُ وَأُسْتَاذُنَا رَائِحٌ يَمُوتُ",
+   "tr": "wa-kāna ʿindahu dīkun wa-taḥtahu khamsūna dajājatan wa-kāna ʿindahu kalbun fa-samiʿa al-tājiru al-kalba wa-huwa yunādī wa-yasubbu al-dīka wa-yaqūlu lahu anta farḥānu wa-ustādhunā rāʾiḥun yamūtu",
+   "l": "And there was with him a rooster, and under him fifty hens, and there was with him a dog. And the merchant heard the dog, while it was calling out and cursing the rooster and saying to him: you are joyful, while our master is going to die.",
+   "i": "Now he had a rooster, with fifty hens under him, and he had a dog besides. And the merchant heard the dog, calling out and cursing the rooster, saying to him: you are merry, while our master is going to his death.",
+   "n": "رَائِحٌ يَمُوتُ, literally \"going, he dies,\" is the same construction — \"going to\" plus a plain verb for the near future — that survives today in spoken Arabic (\"rāyiḥ yimūt\"); it is not a coincidence of this old text but the ancestor of the modern idiom. تَحْتَهُ, \"under him,\" is the standing idiom for hens kept under a rooster's charge.",
+   "p": true
+  },
+  {
+   "t": "فَقَالَ الدِّيكُ لِلْكَلْبِ وَكَيْفَ ذَلِكَ الْأَمْرُ فَأَعَادَ الْكَلْبُ عَلَى الدِّيكِ الْقِصَّةَ",
+   "tr": "fa-qāla al-dīku li-al-kalbi wa-kayfa dhālika al-amru fa-aʿāda al-kalbu ʿalā al-dīki al-qiṣṣata",
+   "l": "So the rooster said to the dog: and how is that matter? So the dog repeated to the rooster the story.",
+   "i": "The rooster said to the dog: and how is that? So the dog told the rooster the whole story again.",
+   "n": "أَعَادَ عَلَى, \"repeated upon,\" is simply \"recounted to, told again.\""
+  },
+  {
+   "t": "فَقَالَ الدِّيكُ وَاللَّهِ إِنَّ أُسْتَاذَنَا قَلِيلُ الْعَقْلِ إِنَّ لِي خَمْسِينَ زَوْجَةً أُرَاضِي هَذِهِ وَأُصَالِحُ هَذِهِ",
+   "tr": "fa-qāla al-dīku wa-Allāhi inna ustādhanā qalīlu al-ʿaqli inna lī khamsīna zawjatan urāḍī hādhihi wa-uṣāliḥu hādhihi",
+   "l": "So the rooster said: by God, indeed our master is scant of wit — indeed to me are fifty wives; I please this one and I make peace with that one.",
+   "i": "The rooster said: by God, our master is a fool. I myself have fifty wives — I keep this one content, and make my peace with that one.",
+   "n": "The two إِنَّ-clauses run one after the other with no connective, a brisk feature of this oral style; the second reads as a fresh, emphatic assertion rather than a subordinate one."
+  },
+  {
+   "t": "وَأُسْتَاذُنَا مَا لَهُ إِلَّا فَرْدُ زَوْجَةٍ وَلَا يَعْرِفُ يَسُوسُ أَمْرَهُ مَعَهَا",
+   "tr": "wa-ustādhunā mā lahu illā fardu zawjatin wa-lā yaʿrifu yasūsu amrahu maʿahā",
+   "l": "While our master — there is not to him except a single wife, and he does not know he manages his affair with her.",
+   "i": "While our master has but a single wife, and does not even know how to manage his affair with her.",
+   "n": "يَعْرِفُ يَسُوسُ strings two finite verbs together with no linking particle, where Classical prose would insert أَنْ (\"know how to manage\") — a colloquial complementation pattern worth noting when you meet it again."
+  },
+  {
+   "t": "مَا لَهُ لَمْ يَأْخُذْ لَهَا مِنْ عِيدَانِ التُّوتِ وَيَدْخُلْ إِلَى خِزَانَةٍ وَيَضْرِبْهَا حَتَّى تَمُوتَ أَوْ تَتُوبَ وَلَا تَعُودَ تَسْأَلُهُ عَنْ شَيْ",
+   "tr": "mā lahu lam yaʾkhudh lahā min ʿīdāni al-tūti wa-yadkhul ilā khizānatin wa-yaḍribhā ḥattā tamūta aw tatūba wa-lā taʿūda tasʾaluhu ʿan shay",
+   "l": "What is it with him, he does not take for her some of the mulberry rods, and go into a closet, and beat her, until she dies or repents, and does not go back to asking him about anything.",
+   "i": "What is wrong with him, that he does not take a few mulberry switches for her, go with her into a closet, and beat her until she either dies or repents, and never goes back to questioning him about anything?",
+   "n": "شَيْ is the edition's colloquial spelling of شَيْءٍ, \"anything,\" dropping its final hamza entirely — the same reduced form still heard in spoken Arabic; it is left exactly as printed rather than restored. عِيدَانُ التُّوتِ, \"mulberry rods,\" are switches meant for beating."
+  },
+  {
+   "t": "قَالَ فَلَمَّا سَمِعَ التَّاجِرُ كَلَامَ الدِّيكِ وَهُوَ يُخَاطِبُ الْكَلْبَ",
+   "tr": "qāla fa-lammā samiʿa al-tājiru kalāma al-dīki wa-huwa yukhāṭibu al-kalba",
+   "l": "He said: and when the merchant heard the speech of the rooster, while it was addressing the dog —",
+   "i": "He said: now when the merchant heard the rooster's words, as it spoke to the dog —",
+   "n": "This قَالَ is the narrator's own voice resuming — a bare \"he said\" marking a turn in the telling, not a new speaker inside the fable. The clause it opens is completed only in the next unit."
+  },
+  {
+   "t": "قَالَ الْوَزِيرُ لِابْنَتِهِ شَهْرَزَادَ أَفْعَلُ مَعَكِ مِثْلَ مَا فَعَلَ التَّاجِرُ بِزَوْجَتِهِ",
+   "tr": "qāla al-wazīru li-ibnatihi Shahrazāda afʿalu maʿaki mithla mā faʿala al-tājiru bi-zawjatihi",
+   "l": "The vizier said to his daughter Shahrazad: I do with you the like of what the merchant did with his wife.",
+   "i": "The vizier said to his daughter Shahrazad: I will do to you as the merchant did to his wife.",
+   "n": "أَفْعَلُ is first person, \"I will do,\" not the imperative — the vizier is not commanding her but warning her what he himself intends, if she will not be turned aside.",
+   "p": true
+  },
+  {
+   "t": "فَقَالَتْ لَهُ وَمَا فَعَلَ قَالَ دَخَلَ بِهَا إِلَى الْخِزَانَةِ ثُمَّ بَعْدَ مَا قَطَعَ عَلَيْهَا مِنْ عِيدَانِ التُّوتِ وَخَبَأَهُمْ دَاخِلَ الْخِزَانَةِ دَخَلَ الْخِزَانَةَ",
+   "tr": "fa-qālat lahu wa-mā faʿala qāla dakhala bihā ilā al-khizānati thumma baʿda mā qaṭaʿa ʿalayhā min ʿīdāni al-tūti wa-khabaʾahum dākhila al-khizānati dakhala al-khizānata",
+   "l": "So she said to him: and what did he do? He said: he entered with her into the closet. Then, after he had cut against her some of the mulberry rods and hidden them inside the closet, he entered the closet.",
+   "i": "She said to him: and what did he do? He said: he took her into the closet. Then, after he had cut some mulberry rods for use against her and hidden them inside the closet, he went into the closet.",
+   "n": "عَلَيْهَا here is best read as \"for use against her\" — the rods he cuts are meant for the beating to come, and he prepares and hides them beforehand."
+  },
+  {
+   "t": "وَقَٰلَ لَهَا تَعَالَى حَتَّى أَقُولَ لَكِ دَاخِلَ الْخِزَانَةِ وَأَمُوتَ وَلَا يَنْظُرَنِي أَحَدٌ فَدَخَلَتْ مَعَهُ",
+   "tr": "wa-qāla lahā taʿālā ḥattā aqūla laki dākhila al-khizānati wa-amūta wa-lā yanẓuranī aḥadun fa-dakhalat maʿahu",
+   "l": "And he said to her: come, so that I may tell you, inside the closet, and I may die and let no one see me. So she entered with him.",
+   "i": "And he said to her: come, that I may tell you inside the closet, and die there where no one can see me. So she went in with him.",
+   "n": "This is his ruse: he frames it as needing privacy to die unseen once he has told her — the very fate the opening premise attached to telling anyone the secret at all. The edition again prints قل for قال here, pointed with the dagger alif as before."
+  },
+  {
+   "t": "ثُمَّ إِنَّهُ قَفَلَ بَابَ الْخِزَانَةِ عَلَيْهَا وَنَزَلَ عَلَيْهَا بِالضَّرْبِ إِلَى أَنْ أُغْمِيَ عَلَيْهَا فَقَالَتْ لَهُ تُبْتُ",
+   "tr": "thumma innahu qafala bāba al-khizānati ʿalayhā wa-nazala ʿalayhā bi-al-ḍarbi ilā an ughmiya ʿalayhā fa-qālat lahu tubtu",
+   "l": "Then indeed he locked the door of the closet upon her, and came down upon her with the beating, until she was overcome. So she said to him: I repent.",
+   "i": "Then he locked the closet door upon her, and fell upon her with blows, until she swooned. Then she said to him: I repent!",
+   "n": "نَزَلَ عَلَيْهَا بِالضَّرْبِ, literally \"came down upon her with the beating,\" is the standing idiom for setting upon someone violently. أُغْمِيَ عَلَيْهَا, passive, \"she was overcome,\" is the ordinary way of saying that someone fainted.",
+   "p": true
+  },
+  {
+   "t": "ثُمَّ إِنَّهَا بَاسَتْ يَدَيْهِ وَرِجْلَيْهِ وَتَابَتْ وَخَرَجَتْ هِيَ وَإِيَّاهُ وَفَرِحُوا الْجَمَاعَةُ وَأَهْلُهَا وَقَعَدُوا فِي أَسَرِّ الْأَحْوَالِ إِلَى الْمَمَاتِ",
+   "tr": "thumma innahā bāsat yadayhi wa-rijlayhi wa-tābat wa-kharajat hiya wa-iyyāhu wa-fariḥū al-jamāʿatu wa-ahluhā wa-qaʿadū fī asarri al-aḥwāli ilā al-mamāt",
+   "l": "Then indeed she kissed his two hands and his two feet, and repented, and went out, she and he together; and the company and her people rejoiced, and they settled into the happiest of states until death.",
+   "i": "Then she kissed his hands and his feet, and repented, and the two of them came out together; and the company and her people rejoiced, and they lived on in the happiest of conditions until death.",
+   "n": "فِي أَسَرِّ الْأَحْوَالِ, \"in the happiest of states,\" is a fixed idiom of contentment, closing the fable on its own formulaic note, the Arabic equivalent of \"and they lived happily ever after.\""
+  },
+  {
+   "t": "قَالَ فَلَمَّا سَمِعَتِ ابْنَةُ الْوَزِيرِ مَقَالَةَ أَبِيهَا قَالَتْ لَهُ لَابُدَّ مِنْ ذَلِكَ",
+   "tr": "qāla fa-lammā samiʿati ibnatu al-wazīri maqālata abīhā qālat lahu lā budda min dhālik",
+   "l": "He said: and when the vizier's daughter heard her father's speech, she said to him: there is no escape from that.",
+   "i": "He said: now when the vizier's daughter heard her father's words, she said to him: there is no help for it.",
+   "n": "لَا بُدَّ مِنْ ذَلِكَ, \"there is no escape from that,\" is Shahrazad's flat refusal to be turned aside — the cautionary tale has failed to move her, and the frame story moves on regardless.",
+   "p": true
+  },
+  {
+   "t": "فَجَهَّزَهَا وَطَلَعَ إِلَى الْمَلِكِ شَهْرِيَارَ",
+   "tr": "fa-jahhazahā wa-ṭalaʿa ilā al-maliki Shahriyāra",
+   "l": "So he made her ready, and went up to King Shahriyar.",
+   "i": "So he made her ready and brought her in to King Shahriyar.",
+   "n": "طَلَعَ إِلَى here carries the sense of 'went in to (a person)', much as دَخَلَ عَلَى does elsewhere in this text. The subject is Shahrazad's father the vizier, and 'her' is Shahrazad herself, about to be given to the king.",
+   "p": true
+  },
+  {
+   "t": "وَكَانَتْ قَدْ أَوْصَتْ أُخْتَهَا الصَّغِيرَةَ وَقَالَتْ لَهَا إِذَا تَوَجَّهْتُ عِنْدَ الْمَلِكِ أُرْسِلُ أَطْلُبُكِ",
+   "tr": "wa-kānat qad awṣat ukhtahā al-ṣaghīrata wa-qālat lahā idhā tawajjahtu ʿinda al-maliki ursilu aṭlubuki",
+   "l": "And she had instructed her younger sister, and said to her: ‘When I have gone to the king, I send — I summon you.’",
+   "i": "Now she had already charged her younger sister beforehand, telling her: ‘When I am taken in to the king, I will send for you.’",
+   "n": "كَانَتْ قَدْ أَوْصَتْ is a pluperfect, marking a flashback: the story steps back to explain an arrangement made before Shahrazad ever entered the king's chamber. The speaker is Shahrazad; أُرْسِلُ أَطْلُبُكِ strings two first-person verbs together with no conjunction — literally 'I send, I summon you' — the ordinary way this prose says 'I will send for you.'"
+  },
+  {
+   "t": "فَإِذَا جِئْتِ إِلَى عِنْدِي وَرَأَيْتِ الْمَلِكَ قَضَى حَاجَتَهُ مِنِّي تَقُولِي يَا أُخْتِي حَدِّثِينِي حَدِيثًا وَكَلَامًا نَقْطَعُ بِهِ اللَّيْلَ وَالسَّهَرَ",
+   "tr": "fa-idhā jiʾti ilā ʿindī wa-raʾayti al-malika qaḍā ḥājatahu minnī taqūlī yā ukhtī ḥaddithīnī ḥadīthan wa-kalāman naqṭaʿu bihi al-layla wa-al-sahara",
+   "l": "Then if you come to me, and you see the king has finished his need of me, you say: ‘O my sister, tell me a story and talk, that we may cut off by it the night and the wakefulness.’",
+   "i": "Then, once you have come to me and seen that the king has had his will of me, say: ‘O my sister, tell me some tale or discourse, that we may while away the night and its sleeplessness.’",
+   "n": "قَضَى حَاجَتَهُ مِنِّي, 'he finished his need of me', is the Arabic's own euphemism for the consummation of the marriage; the translation keeps it exactly as indirect as the original. تَقُولِي, without its final nūn, functions here as the command that answers the conditional — 'you are to say' — not a plain statement of fact."
+  },
+  {
+   "t": "وَأَنَا أُحَدِّثُكِ حَدِيثًا يَكُونُ فِيهِ إِنْ شَاءَ اللَّهُ تَعَالَى الْخَلَاصُ",
+   "tr": "wa-anā uḥaddithuki ḥadīthan yakūnu fīhi in shāʾa Allāhu taʿālā al-khalāṣu",
+   "l": "And I — I will tell you a story in which will be, God willing, the deliverance.",
+   "i": "And I shall tell you a tale in which, God willing, our deliverance will lie.",
+   "n": "يَكُونُ فِيهِ ... الْخَلَاصُ inverts the usual word order (predicate before subject) for emphasis: literally 'in it will be — the deliverance'. The line states outright, this early, what the whole frame story is building toward."
+  },
+  {
+   "t": "ثُمَّ إِنَّ أَبَاهَا الْوَزِيرَ طَلَعَ بِهَا إِلَى الْمَلِكِ",
+   "tr": "thumma inna abāhā al-wazīra ṭalaʿa bihā ilā al-maliki",
+   "l": "Then indeed her father the vizier went up with her to the king.",
+   "i": "Then her father the vizier brought her in to the king.",
+   "p": true
+  },
+  {
+   "t": "فَلَمَّا رَآهُ فَرِحَ وَقَٰلَ أَتَيْتَ بِحَاجَتِي فَقَالَ نَعَمْ وَأَرَادَ أَنْ يَدْخُلَ عَلَيْهَا فَبَكَتْ",
+   "tr": "fa-lammā raʾāhu fariḥa wa-qāla atayta bi-ḥājatī fa-qāla naʿam wa-arāda an yadkhula ʿalayhā fa-bakat",
+   "l": "And when he saw him, he rejoiced, and said: ‘You have brought my need.’ And he said: ‘Yes.’ And he wished to go in to her, and she wept.",
+   "i": "When he saw him he rejoiced, and said, ‘Have you brought me what I wanted?’ ‘Yes,’ he answered. And he made to go in to her — and she wept.",
+   "n": "'He' and 'him' are the king and the vizier. رَآهُ is spelled bare in the edition, راه, so the hamza is supplied here as a combining mark over the alif rather than the precomposed آ used for the same word earlier in the frame story. وَقَٰلَ is likewise the edition's defective spelling قل for قَالَ, pointed with a dagger alif as before. أَتَيْتَ بِحَاجَتِي carries no interrogative particle, but the reply نَعَمْ shows it is meant as a question. يَدْخُلَ عَلَيْهَا, 'to go in to her', is the same euphemism for consummation met above."
+  },
+  {
+   "t": "فَقَالَ لَهَا مَالَكِ فَقَالَتْ أَيُّهَا الْمَلِكُ إِنَّ لِي أُخْتًا صَغِيرَةً وَأُرِيدُ أَنْ أُوَدِّعَهَا",
+   "tr": "fa-qāla lahā mā laki fa-qālat ayyuhā al-maliku inna lī ukhtan ṣaghīratan wa-urīdu an uwaddiʿahā",
+   "l": "So he said to her: ‘What is with you?’ So she said: ‘O King, indeed I have a young sister, and I want that I bid her farewell.’",
+   "i": "So he said to her, ‘What ails you?’ And she said, ‘O King, I have a young sister, and I wish to take my leave of her.’",
+   "n": "This is the first move of the very stratagem Shahrazad laid out to her sister above: asking to see her once more is how she gets her into the room."
+  },
+  {
+   "t": "فَأَرْسَلَ الْمَلِكُ إِلَيْهَا فَجَاءَتْ إِلَى أُخْتِهَا وَعَانَقَتْهَا وَجَلَسَتْ تَحْتَ السَّرِيرِ فَقَامَ الْمَلِكُ وَأَخَذَ بَكَارَتَهَا",
+   "tr": "fa-arsala al-maliku ilayhā fa-jāʾat ilā ukhtihā wa-ʿānaqathā wa-jalasat taḥta al-sarīri fa-qāma al-maliku wa-akhadha bakāratahā",
+   "l": "So the king sent for her, and she came to her sister and embraced her, and sat beneath the bed. Then the king arose and took her virginity.",
+   "i": "So the king sent for her; and she came in to her sister and embraced her, and sat down beneath the bed. Then the king arose and took her maidenhead.",
+   "n": "The pronouns need untangling: the king sends for Dunyazad, the younger sister; she comes in to Shahrazad, embraces her, and hides beneath the bed exactly as arranged, so that once the king is done she can raise the request for a story. بَكَارَتَهَا, 'her virginity', is Shahrazad's; the sentence is as plain in the Arabic as it is kept here.",
+   "p": true
+  },
+  {
+   "t": "وَجَلَسُوا يَتَحَدَّثُونَ فَقَالَتْ لَهَا أُخْتُهَا الصَّغِيرَةُ بِاللَّهِ عَلَيْكِ يَا أُخْتِي حَدِّثِينَا حَدِيثًا نَقْطَعُ بِهِ سَهَرَ لَيْلَتِنَا",
+   "tr": "wa-jalasū yataḥaddathūna fa-qālat lahā ukhtuhā al-ṣaghīratu bi-llāhi ʿalayki yā ukhtī ḥaddithīnā ḥadīthan naqṭaʿu bihi sahara laylatinā",
+   "l": "And they sat conversing. So her younger sister said to her: ‘By God upon you, O my sister, tell us a story, that we may cut off by it the wakefulness of our night.’",
+   "i": "And the three of them sat talking; and her younger sister said to her: ‘I adjure you by God, O my sister, tell us a tale, that we may while away the wakefulness of our night.’",
+   "n": "بِاللَّهِ عَلَيْكِ is a fixed formula of urgent entreaty, 'I beg you by God', not a literal oath sworn about the person addressed. This request is the hinge the whole book turns on: it is what lets Shahrazad begin telling stories at all."
+  },
+  {
+   "t": "فَقَالَتْ حُبًّا وَ كَرَامَةً إِنْ أَذِنَ لِي الْمَلِكُ الْمُهَذَّبُ",
+   "tr": "fa-qālat ḥubban wa-karāmatan in adhina lī al-maliku al-muhadhdhabu",
+   "l": "So she said: ‘Lovingly and honorably — if the courteous king permits me.’",
+   "i": "And she said, ‘Gladly, and with all my heart — if the gracious King will give me leave.’",
+   "n": "حُبًّا وَكَرَامَةً, literally 'with love and with honor', is a set doublet still current today for a willing 'gladly, of course' — not two separate feelings but a single idiom."
+  },
+  {
+   "t": "فَلَمَّا سَمِعَ الْمَلِكُ مِنْهُمَا ذَلِكَ وَكَانَ قَلِقًا فَرِحَ لِسَمَاعِ الْحَدِيثِ فَأَذِنَ لَهَا",
+   "tr": "fa-lammā samiʿa al-maliku minhumā dhālika wa-kāna qaliqan fariḥa li-samāʿi al-ḥadīthi fa-adhina lahā",
+   "l": "And when the king heard that from the two of them — and he had been restless — he rejoiced at the hearing of the story, and he permitted her.",
+   "i": "And when the king heard this from the two of them — for he had been sleepless himself — he was glad at the thought of a tale to hear, and gave her leave.",
+   "n": "وَكَانَ قَلِقًا is a parenthetical aside explaining his gladness: he too had been lying awake, so a story is welcome for his own sake, not merely granted as a favor."
+  },
+  {
+   "t": "حِكَايَةُ التَّاجِرِ وَالْجِنِّيِّ",
+   "tr": "ḥikāyatu al-tājiri wa-al-jinniyyi",
+   "l": "The Tale of the Merchant and the Jinni.",
+   "n": "This heading marks the start of the first tale Shahrazad tells — the story-within-the-story this whole frame has been building toward.",
+   "p": true
+  }
+ ]
+}

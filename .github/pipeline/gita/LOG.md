@@ -165,3 +165,39 @@ the "I am X" run of verses 16-19 and 24; a mokṣyase gloss at 9.28 restored to 
 teṣu/mat-sthāni/tu/me/bhaj/aś/bhūta/ātman wording drift unified across their repeated occurrences).
 build_gita.py and validate_gita.py both PASS (4 benign sandhi-boundary warnings, same class as chapters
 1-8). Added to stories.json after gita-ch08.
+
+2026-09-20 · chapter 10 (Vibhūtiyoga) · unattended run · 42 verses, 347 glossary keys · source verified
+(sha256 matched parts.json; collate found only two benign orth differences at 10.33/10.40, no VAR — no
+variantsVsBORI and no corrections.json entries for this chapter). This is the vibhūti catalog chapter
+(vv.20-39, "of category X, I am Y" identifications across gods, natural phenomena, sages, animals, rivers,
+mountains, virtues and abstractions) so drafting was split into three verse-range batches (1-14, 15-28,
+29-42), each a separate subagent, after a first whole-chapter drafting attempt failed by exceeding its
+output-token budget composing all 42 verses at once — a lesson for any future outsized chapter (18's 78
+verses will need the same split). Reviewed in two passes (pass 1: a wrong cross-reference at 10.17 citing
+10.9 for an avagraha pattern that verse doesn't have; a subject/object reversal in 10.17's L, translating
+Kṛṣṇa as the one meditating rather than the one meditated upon; a wrong lemma at 10.23 [rākṣasa for the
+actual s-stem rakṣas]; a false "already named at 10.6" claim at 10.25 [10.6 only gives the sages' number,
+names none]; a missed a+a→ā vowel-fusion sandhi at 10.27 narādhipam wrongly called "no change"; a
+misattributed rendering at 10.32 [conflating the Sanskrit's own svabhāva gloss with the actually-fixed
+ch.8 English rendering "the individual self," and L/I not matching that precedent]; all seven feminine
+nouns at 10.34 mislabeled "subject" instead of "predicate"; two false "not yet seen"/"new pattern" sandhi
+claims at 10.36 and 10.39 that both recur from 10.6 and 10.14 respectively; a wrong cross-reference at
+10.40 [cf. 10.4 instead of 10.3]; five vocative epithets [10.14 Keśava, 10.18 Janārdana, 10.20 Guḍākeśa,
+10.24 Pārtha, 10.40 Parantapa] left as bare names in L against the chapter's own established practice and
+the ch.8-fixed convention of translating vocatives in L; a wrong lemma at 10.14 [vi-akta for the actual
+-i-stem vi-akti]; and inconsistent nom.-subject case tags on catalog "aham" entries, the same lapse ch.9's
+review recorded fixing; pass 2, after verifying all pass-1 fixes landed correctly: I mishandling the
+chapter's own opening vocative at 10.1 [substituting the real name "Arjuna" plus an added English adjective
+for the bare epithet Mahābāho, directly against the pattern pass 1 had just established two lines later];
+the vocative Kuruśreṣṭha silently dropped from 10.19's I; "yoga" silently dropped from 10.10's I despite
+buddhi-yoga being named as untranslated in its own note — the same bug class ch.8's review caught; two
+tokens [10.25 bhṛguḥ+aham, 10.30 mṛgendraḥ+aham] missing a whole "aham" morph entry, not just its case
+tag; a stray wrong lemma "idad" for idam at 10.42; plus two convention-compliance fixes beyond the pass-1
+list — makara and dvandva at 10.31/10.33 translated into English, since neither is on the chapter's
+sanctioned untranslated-terms list — and a register normalization unifying three "among X" catalog lines
+[vv.24,27,28] to the chapter's dominant "of X" phrasing, a residual seam from the three-way batch draft).
+Glossed on Sonnet (seven consistency fixes, all in the "aham" and "hi" gloss families: a missing ", subject"
+tag, two missing "'me'" translations on accusative aham entries, two stray-comma fixes on enclitic "me"
+glosses, and two reordering/wording fixes unifying "hi" to the chapter's established "for, indeed"
+phrasing). build_gita.py and validate_gita.py both PASS (15 benign sandhi-boundary warnings, same class as
+chapters 1-9). Added to stories.json after gita-ch09.

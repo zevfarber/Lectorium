@@ -124,6 +124,31 @@
   .translit { font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: .9rem;
     color: var(--muted); margin-top: 3px; white-space: pre-line; letter-spacing: .01em; font-style: italic; }
   body.hidetr .translit { display: none; }
+  /* scansion overlay (Scansion button; units carrying sc): each syllable is a small column,
+     its quantity mark centred above it; feet 2–6 open with a hairline; ‖ marks the main pause */
+  .de.scan { line-height: 2.5; }
+  .de.scan .w { white-space: nowrap; }
+  .syl { display: inline-block; text-align: center; line-height: 1.15; vertical-align: baseline; }
+  /* the marks are drawn, not typed: ⏑ and ‖ are missing from many phone fonts, and drawn shapes look the same everywhere */
+  .sylm { display: block; height: .52em; line-height: 0; color: var(--muted); user-select: none; -webkit-user-select: none; }
+  .sylm::before { content: ''; display: block; margin: 0 auto; box-sizing: border-box; }
+  [data-q="L"] > .sylm::before { width: .6em; height: 0; border-top: .09em solid currentColor; position: relative; top: .3em; }
+  [data-q="S"] > .sylm::before { width: .5em; height: .27em; border: .09em solid currentColor; border-top: 0; border-radius: 0 0 .5em .5em; position: relative; top: .1em; }
+  [data-q="X"] > .sylm::before { width: .5em; height: .5em; background:
+      linear-gradient(45deg, transparent 44%, currentColor 44%, currentColor 56%, transparent 56%),
+      linear-gradient(-45deg, transparent 44%, currentColor 44%, currentColor 56%, transparent 56%); }
+  .syl[data-f] { position: relative; padding-left: .12em; }
+  .syl[data-f]::before { content: ''; position: absolute; left: .01em; top: .1em; bottom: .1em; border-left: 1px solid var(--muted); opacity: .55; }
+  .w > .syl[data-f]:first-child { padding-left: 0; margin-left: .16em; }
+  .w > .syl[data-f]:first-child::before { left: -.21em; }
+  .scaes { display: inline-block; width: .2em; height: .95em; margin: 0 .1em 0 .32em; vertical-align: -.12em; box-sizing: border-box;
+    border-left: .08em solid var(--muted); border-right: .08em solid var(--muted); user-select: none; -webkit-user-select: none; }
+  .scanLegend .lg { display: inline-block; width: .9em; vertical-align: .05em; }
+  .scanLegend .lg .sylm { height: .6em; }
+  .scanLegend .lgf { display: inline-block; height: .95em; border-left: 1px solid var(--muted); opacity: .55; vertical-align: -.12em; margin: 0 .3em 0 .2em; }
+  .scanLegend .scaes { margin: 0 .3em 0 .1em; }
+  .scanLegend { color: var(--muted); font-size: .78rem; margin: -10px 0 18px; letter-spacing: .01em;
+    font-family: system-ui, 'Noto Sans', sans-serif; }
 
   /* ---- right-to-left scripts (Arabic; later Hebrew, Syriac): story.rtl = true ----
      Only the ORIGINAL runs right-to-left. The translations, note and apparatus stay LTR,
@@ -470,6 +495,7 @@
   <span id="enGroup" class="readGroup" style="display:inline-flex"><button id="enBtn" title="Show English side by side">English</button><span id="enSeg" class="spellSeg" style="display:none"><button data-ep="idiom" title="Natural English — how you'd actually say it">natural</button><button data-ep="lit" title="Literal English — mirrors the original's structure">literal</button></span></span>
   <button id="plainBtn" title="Plain letters — þ, ð → th, æ → ae, length marks hidden" style="display:none">þ→th</button>
   <span id="readGroup" class="readGroup" style="display:none"><button id="trBtn" title="Transcription — show or hide the letters under each glyph">Transcription</button><span id="spellSeg" class="spellSeg"><button data-sp="sch" title="Scholarly transliteration (ꜥnḫ)">ꜥnḫ</button><button data-sp="read" title="Readable spelling (ankh)">ankh</button></span></span>
+  <button id="scanBtn" title="Scansion — long (–) and short (⏑) syllables, the six feet of each line, and the main pause (‖)" style="display:none">Scansion</button>
   <button id="signsBtn" title="Sign reference — the alphabet and the classifiers" style="display:none">📜 Signs</button>
   <button id="quadBtn" title="As written — show the signs blocked into quadrats as on the papyrus" style="display:none">▦ As written</button>
   <span class="spacer"></span>
@@ -482,6 +508,7 @@
   <h1 class="storyTitle" id="stTitle"></h1>
   <div class="storySub" id="stSub"></div>
   <div class="storyLangLine" id="stLang" style="display:none"></div>
+  <div class="scanLegend" id="scanLegend" style="display:none"><span class="lg" data-q="L"><span class="sylm"></span></span>long · <span class="lg" data-q="S"><span class="sylm"></span></span>short · <span class="lg" data-q="X"><span class="sylm"></span></span>last syllable, long or short · <span class="lgf"></span>foot · <span class="scaes"></span>main pause</div>
   <div class="draftBar" id="stDraft" style="display:none"></div>
   <details class="advisory" id="advisoryBox" style="display:none">
     <summary id="advisoryLede"></summary>
@@ -735,13 +762,59 @@ function simplifyConfig(story){
   return null;
 }
 
-function tokenize(text){
+/* ---- scansion (optional per-unit data: s.sc = one string per word token, WORD_RE order) ----
+   String = syllables, each: optional foot digit 1–6 (on the syllable that opens the foot), the
+   letters, then one mark: – long, ⏑ short, × final/indifferent. A trailing ‖ = main caesura after
+   this word. A token with no mark (elided δ) stays plain text. Display only — off by default. */
+let showScan = false;
+try { showScan = localStorage.getItem('showScan') === '1'; } catch(e) {}
+const scanWarned = new WeakSet();
+/* validate + parse a unit's sc against its text; null (and one console.warn) if it doesn't fit */
+function scanParse(text, sc){
+  if (!Array.isArray(sc) || !sc.length) return null;
+  const toks = text.match(WORD_RE) || [];
+  let bad = (sc.length !== toks.length) ? 'sc has ' + sc.length + ' strings for ' + toks.length + ' words' : '';
+  const out = [];
+  for (let k = 0; !bad && k < toks.length; k++){
+    const str = String(sc[k]);
+    if (str.replace(/[1-6\u2013\u23D1\u00D7\u2016]/g, '').normalize('NFC') !== toks[k].normalize('NFC')) { bad = 'sc[' + k + '] "' + str + '" ≠ "' + toks[k] + '"'; break; }
+    const caes = str.endsWith('\u2016');
+    const body = str.replace(/\u2016/g, '');
+    const parts = []; let last = 0, mm;
+    const re = /([1-6])?([^1-6\u2013\u23D1\u00D7]+)([\u2013\u23D1\u00D7])/g;
+    while ((mm = re.exec(body))) { parts.push({ f: mm[1] || '', t: mm[2], m: mm[3] }); last = re.lastIndex; }
+    const rest = body.slice(last).replace(/[1-6]/g, '');
+    if (rest) parts.push({ t: rest });
+    out.push({ parts, caes });
+  }
+  if (bad) {
+    if (!scanWarned.has(sc)) { scanWarned.add(sc); console.warn('Scansion skipped for a unit — ' + bad); }
+    return null;
+  }
+  return out;
+}
+function tokenize(text, scan){
   // wrap letter-sequences (incl. hyphenated words and Klaeber-style eorl[as], aldor(lē)ase) in clickable spans
+  // scan (optional): the unit's parsed scansion from scanParse — syllable columns inside each word
   let wi = -1;
-  return text.replace(WORD_RE, m => {
+  const html = text.replace(WORD_RE, m => {
     wi++;
+    const sw = scan && scan[wi];
+    if (sw) {
+      const fold = x => simplifyNow() ? activeSimplify.fn(x) : x;
+      const Q = { '\u2013': 'L', '\u23D1': 'S', '\u00D7': 'X' };
+      // data-pw keeps the popup's headword clean (textContent now carries the marks)
+      return '<span class="w" data-w="' + wordKey(m) + '" data-wi="' + wi + '" data-pw="' + escapeHtml(fold(m)) + '">'
+        + sw.parts.map(p => p.m
+            ? '<span class="syl" data-q="' + Q[p.m] + '"' + (p.f && p.f !== '1' ? ' data-f="' + p.f + '"' : '') + '>'
+              + '<span class="sylm" aria-hidden="true"></span>' + fold(p.t) + '</span>'
+            : fold(p.t)).join('')
+        + '</span>' + (sw.caes ? '<span class="scaes" aria-hidden="true"></span>' : '');
+    }
     return '<span class="w" data-w="' + wordKey(m) + '" data-wi="' + wi + '">' + (simplifyNow() ? activeSimplify.fn(m) : m) + '</span>';
   });
+  // the pause mark goes after any punctuation that hugs the word (μοῦσα, ‖ not μοῦσα ‖,)
+  return scan ? html.replace(/(<span class="scaes"[^>]*><\/span>)([^\s<]+)/g, '$2$1') : html;
 }
 
 /* ---- app-level, per-script SIGN GLOSSARY (shared across every text in a script) ----
@@ -3667,7 +3740,9 @@ function buildSentEl(s, i, showLit){
       if (story.dir) de.setAttribute('dir', story.dir);
       de.innerHTML = lnChip + buildStacks(s);
     } else {
-      de.innerHTML = lnChip + tokenize(s.t);
+      const scan = (showScan && s.sc) ? scanParse(s.t, s.sc) : null;
+      de.innerHTML = lnChip + tokenize(s.t, scan);
+      if (scan) de.classList.add('scan');
     }
     if (vertical) de.classList.add('vert');
     div.appendChild(de);
@@ -4448,6 +4523,21 @@ $('quadBtn').onclick = () => {
   if (focusedIdx >= 0) focusSent(focusedIdx, false);
 };
 
+/* Scansion toggle (app-wide, default off), shown only for stories whose units carry sc */
+function applyScan(){
+  const has = !!(story && story.sentences.some(x => Array.isArray(x.sc) && x.sc.length));
+  const b = $('scanBtn');
+  if (b) { b.style.display = has ? '' : 'none'; b.classList.toggle('active', showScan); }
+  const lg = $('scanLegend'); if (lg) lg.style.display = (has && showScan) ? '' : 'none';
+}
+$('scanBtn').onclick = () => {
+  showScan = !showScan;
+  try { localStorage.setItem('showScan', showScan ? '1' : '0'); } catch(e) {}
+  applyScan();
+  render();
+  if (focusedIdx >= 0) focusSent(focusedIdx, false);
+};
+
 /* Transcription toggle (app-wide), shown only for stories that carry tr.
    Two independent saved settings, because they are two different things with opposite
    sensible defaults: letters under each glyph (Egyptian, cuneiform…) are ON by default —
@@ -4748,6 +4838,7 @@ function loadStory(s){
   updateQuadBtn();
   loadTrPref();   // glyph-transcription and romanization-line prefs are saved separately
   applyTr();
+  applyScan();
   hidePop();
   render();
   let pos = 0;

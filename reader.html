@@ -418,6 +418,8 @@
     line-height:1.1; writing-mode:vertical-lr; height:2.1em; min-width:44px; }
   table.abc td.abcn { font-family:system-ui,'Noto Sans',sans-serif; font-size:.76rem; color:var(--muted);
     text-align:left; line-height:1.35; max-width:280px; }
+  table.abc.ar td.f { font-family:'Amiri','Scheherazade New','Noto Naskh Arabic',serif; font-size:1.7rem; line-height:2; direction:rtl; }
+  table.abc.ar td.f .from { display:block; font-size:.62rem; color:var(--muted); font-family:system-ui,'Noto Sans',sans-serif; direction:ltr; }
   table.abc.dn td.f { writing-mode:horizontal-tb; height:auto; font-family:'Noto Serif Devanagari','Noto Sans Devanagari','Nirmala UI','Kohinoor Devanagari','Devanagari Sangam MN','Mangal',serif;
     font-size:1.5rem; line-height:1.5; font-style:normal; min-width:40px; }
   table.abc.dn td.f .from { display:block; font-size:.62rem; color:var(--muted); font-family:system-ui,'Noto Sans',sans-serif; line-height:1.1; }
@@ -746,6 +748,7 @@ function tokenize(text){
    The alphabet (uniliterals) is seeded in full; other signs grow as texts introduce them.
    A story selects its script via story.script. Roles come from the story data, not here. */
 const SIGN_GLOSSARIES = {
+ "arabic": {letters:[["\u02bealif","\u0627","\u0101 / \u02be","long \u0101, and the seat for hamza"],["b\u0101\u02be","\u0628","b",""],["t\u0101\u02be","\u062a","t",""],["th\u0101\u02be","\u062b","th","as in think"],["j\u012bm","\u062c","j",""],["\u1e25\u0101\u02be","\u062d","\u1e25","breathy h, from the throat"],["kh\u0101\u02be","\u062e","kh","as in Bach"],["d\u0101l","\u062f","d","never joins to the left"],["dh\u0101l","\u0630","dh","as in this; never joins left"],["r\u0101\u02be","\u0631","r","never joins left"],["z\u0101y","\u0632","z","never joins left"],["s\u012bn","\u0633","s",""],["sh\u012bn","\u0634","sh",""],["\u1e63\u0101d","\u0635","\u1e63","emphatic s"],["\u1e0d\u0101d","\u0636","\u1e0d","emphatic d"],["\u1e6d\u0101\u02be","\u0637","\u1e6d","emphatic t"],["\u1e93\u0101\u02be","\u0638","\u1e93","emphatic dh"],["\u02bfayn","\u0639","\u02bf","a constriction in the throat, not a vowel"],["ghayn","\u063a","gh","like a French r"],["f\u0101\u02be","\u0641","f",""],["q\u0101f","\u0642","q","k made far back"],["k\u0101f","\u0643","k",""],["l\u0101m","\u0644","l",""],["m\u012bm","\u0645","m",""],["n\u016bn","\u0646","n",""],["h\u0101\u02be","\u0647","h",""],["w\u0101w","\u0648","w / \u016b","consonant w, or long \u016b; never joins left"],["y\u0101\u02be","\u064a","y / \u012b","consonant y, or long \u012b"]],marks:[["fat\u1e25a","\u0628\u064e","a","short a, written above"],["kasra","\u0628\u0650","i","short i, written below"],["\u1e0damma","\u0628\u064f","u","short u, written above"],["suk\u016bn","\u0628\u0652","\u2014","this letter carries no vowel"],["shadda","\u0628\u0651","bb","doubles the letter"],["tanw\u012bn","\u0628\u064b \u0628\u064d \u0628\u064c","an / in / un","the indefinite endings"],["madda","\u0622","\u0101","\u02bealif + \u0101 at the start of a word"],["dagger \u02bealif","\u0647\u0670","\u0101","long \u0101 written small (h\u0101dh\u0101)"],["hamza","\u0621","\u02be","the glottal catch; over or under its seat"]],special:[["t\u0101\u02be marb\u016b\u0163a","\u0629","a / at","the feminine ending; -at before a following noun"],["\u02bealif maq\u1e63\u016bra","\u0649","\u0101","final \u0101 written like y\u0101\u02be without dots"],["l\u0101m-\u02bealif","\u0644\u0627","l\u0101","the one ligature you must know"]]},
  "ethiopic": {orders:["ä", "u", "i", "a", "e", "ə", "o"],rows:[{cons:"h",cells:[{g:"ሀ",r:"hä"},{g:"ሁ",r:"hu"},{g:"ሂ",r:"hi"},{g:"ሃ",r:"ha"},{g:"ሄ",r:"he"},{g:"ህ",r:"hə"},{g:"ሆ",r:"ho"}]},{cons:"l",cells:[{g:"ለ",r:"lä"},{g:"ሉ",r:"lu"},{g:"ሊ",r:"li"},{g:"ላ",r:"la"},{g:"ሌ",r:"le"},{g:"ል",r:"lə"},{g:"ሎ",r:"lo"}]},{cons:"ḥ",cells:[{g:"ሐ",r:"ḥä"},{g:"ሑ",r:"ḥu"},{g:"ሒ",r:"ḥi"},{g:"ሓ",r:"ḥa"},{g:"ሔ",r:"ḥe"},{g:"ሕ",r:"ḥə"},{g:"ሖ",r:"ḥo"}]},{cons:"m",cells:[{g:"መ",r:"mä"},{g:"ሙ",r:"mu"},{g:"ሚ",r:"mi"},{g:"ማ",r:"ma"},{g:"ሜ",r:"me"},{g:"ም",r:"mə"},{g:"ሞ",r:"mo"}]},{cons:"ś",cells:[{g:"ሠ",r:"śä"},{g:"ሡ",r:"śu"},{g:"ሢ",r:"śi"},{g:"ሣ",r:"śa"},{g:"ሤ",r:"śe"},{g:"ሥ",r:"śə"},{g:"ሦ",r:"śo"}]},{cons:"r",cells:[{g:"ረ",r:"rä"},{g:"ሩ",r:"ru"},{g:"ሪ",r:"ri"},{g:"ራ",r:"ra"},{g:"ሬ",r:"re"},{g:"ር",r:"rə"},{g:"ሮ",r:"ro"}]},{cons:"s",cells:[{g:"ሰ",r:"sä"},{g:"ሱ",r:"su"},{g:"ሲ",r:"si"},{g:"ሳ",r:"sa"},{g:"ሴ",r:"se"},{g:"ስ",r:"sə"},{g:"ሶ",r:"so"}]},{cons:"q",cells:[{g:"ቀ",r:"qä"},{g:"ቁ",r:"qu"},{g:"ቂ",r:"qi"},{g:"ቃ",r:"qa"},{g:"ቄ",r:"qe"},{g:"ቅ",r:"qə"},{g:"ቆ",r:"qo"}]},{cons:"b",cells:[{g:"በ",r:"bä"},{g:"ቡ",r:"bu"},{g:"ቢ",r:"bi"},{g:"ባ",r:"ba"},{g:"ቤ",r:"be"},{g:"ብ",r:"bə"},{g:"ቦ",r:"bo"}]},{cons:"t",cells:[{g:"ተ",r:"tä"},{g:"ቱ",r:"tu"},{g:"ቲ",r:"ti"},{g:"ታ",r:"ta"},{g:"ቴ",r:"te"},{g:"ት",r:"tə"},{g:"ቶ",r:"to"}]},{cons:"ḫ",cells:[{g:"ኀ",r:"ḫä"},{g:"ኁ",r:"ḫu"},{g:"ኂ",r:"ḫi"},{g:"ኃ",r:"ḫa"},{g:"ኄ",r:"ḫe"},{g:"ኅ",r:"ḫə"},{g:"ኆ",r:"ḫo"}]},{cons:"n",cells:[{g:"ነ",r:"nä"},{g:"ኑ",r:"nu"},{g:"ኒ",r:"ni"},{g:"ና",r:"na"},{g:"ኔ",r:"ne"},{g:"ን",r:"nə"},{g:"ኖ",r:"no"}]},{cons:"ʾ",cells:[{g:"አ",r:"ʾä"},{g:"ኡ",r:"ʾu"},{g:"ኢ",r:"ʾi"},{g:"ኣ",r:"ʾa"},{g:"ኤ",r:"ʾe"},{g:"እ",r:"ʾə"},{g:"ኦ",r:"ʾo"}]},{cons:"k",cells:[{g:"ከ",r:"kä"},{g:"ኩ",r:"ku"},{g:"ኪ",r:"ki"},{g:"ካ",r:"ka"},{g:"ኬ",r:"ke"},{g:"ክ",r:"kə"},{g:"ኮ",r:"ko"}]},{cons:"w",cells:[{g:"ወ",r:"wä"},{g:"ዉ",r:"wu"},{g:"ዊ",r:"wi"},{g:"ዋ",r:"wa"},{g:"ዌ",r:"we"},{g:"ው",r:"wə"},{g:"ዎ",r:"wo"}]},{cons:"ʿ",cells:[{g:"ዐ",r:"ʿä"},{g:"ዑ",r:"ʿu"},{g:"ዒ",r:"ʿi"},{g:"ዓ",r:"ʿa"},{g:"ዔ",r:"ʿe"},{g:"ዕ",r:"ʿə"},{g:"ዖ",r:"ʿo"}]},{cons:"z",cells:[{g:"ዘ",r:"zä"},{g:"ዙ",r:"zu"},{g:"ዚ",r:"zi"},{g:"ዛ",r:"za"},{g:"ዜ",r:"ze"},{g:"ዝ",r:"zə"},{g:"ዞ",r:"zo"}]},{cons:"y",cells:[{g:"የ",r:"yä"},{g:"ዩ",r:"yu"},{g:"ዪ",r:"yi"},{g:"ያ",r:"ya"},{g:"ዬ",r:"ye"},{g:"ይ",r:"yə"},{g:"ዮ",r:"yo"}]},{cons:"d",cells:[{g:"ደ",r:"dä"},{g:"ዱ",r:"du"},{g:"ዲ",r:"di"},{g:"ዳ",r:"da"},{g:"ዴ",r:"de"},{g:"ድ",r:"də"},{g:"ዶ",r:"do"}]},{cons:"g",cells:[{g:"ገ",r:"gä"},{g:"ጉ",r:"gu"},{g:"ጊ",r:"gi"},{g:"ጋ",r:"ga"},{g:"ጌ",r:"ge"},{g:"ግ",r:"gə"},{g:"ጎ",r:"go"}]},{cons:"ṭ",cells:[{g:"ጠ",r:"ṭä"},{g:"ጡ",r:"ṭu"},{g:"ጢ",r:"ṭi"},{g:"ጣ",r:"ṭa"},{g:"ጤ",r:"ṭe"},{g:"ጥ",r:"ṭə"},{g:"ጦ",r:"ṭo"}]},{cons:"ṗ",cells:[{g:"ጰ",r:"ṗä"},{g:"ጱ",r:"ṗu"},{g:"ጲ",r:"ṗi"},{g:"ጳ",r:"ṗa"},{g:"ጴ",r:"ṗe"},{g:"ጵ",r:"ṗə"},{g:"ጶ",r:"ṗo"}]},{cons:"ṣ",cells:[{g:"ጸ",r:"ṣä"},{g:"ጹ",r:"ṣu"},{g:"ጺ",r:"ṣi"},{g:"ጻ",r:"ṣa"},{g:"ጼ",r:"ṣe"},{g:"ጽ",r:"ṣə"},{g:"ጾ",r:"ṣo"}]},{cons:"ṣ́",cells:[{g:"ፀ",r:"ṣ́ä"},{g:"ፁ",r:"ṣ́u"},{g:"ፂ",r:"ṣ́i"},{g:"ፃ",r:"ṣ́a"},{g:"ፄ",r:"ṣ́e"},{g:"ፅ",r:"ṣ́ə"},{g:"ፆ",r:"ṣ́o"}]},{cons:"f",cells:[{g:"ፈ",r:"fä"},{g:"ፉ",r:"fu"},{g:"ፊ",r:"fi"},{g:"ፋ",r:"fa"},{g:"ፌ",r:"fe"},{g:"ፍ",r:"fə"},{g:"ፎ",r:"fo"}]},{cons:"p",cells:[{g:"ፐ",r:"pä"},{g:"ፑ",r:"pu"},{g:"ፒ",r:"pi"},{g:"ፓ",r:"pa"},{g:"ፔ",r:"pe"},{g:"ፕ",r:"pə"},{g:"ፖ",r:"po"}]}]},
  "ugaritic": {
  "ALPA": {
@@ -3201,6 +3204,32 @@ const DEVANAGARI_ALPHABET = {
 };
 SIGN_GLOSSARIES["devanagari"] = { type: "alphabet", groups: DEVANAGARI_ALPHABET };
 
+function renderArabicAlphabet(sg){
+  const Z = '\u200D';
+  const row = (nm, g, v, note, joined) => '<tr><td class="snd">' + escapeHtml(nm) + '</td><td class="f">' + escapeHtml(g) + '</td>'
+    + (joined ? '<td class="f">' + escapeHtml(g + Z) + '\u00a0 ' + escapeHtml(Z + g + Z) + '\u00a0 ' + escapeHtml(Z + g) + '</td>' : '')
+    + '<td class="snd">' + escapeHtml(v) + '</td><td class="abcn">' + escapeHtml(note) + '</td></tr>';
+  let h = '<div class="abcNote">Arabic is written right to left, and the letters join up like handwriting: '
+    + 'most change shape depending on where they stand in the word. Six of them (\u0627 \u062f \u0630 \u0631 \u0632 \u0648) never join to the letter on their left, '
+    + 'which is why words break into little clusters. Only the consonants and long vowels are printed; '
+    + 'the short-vowel marks in this edition are <b>ours</b>, added so the text can be read aloud \u2014 the '
+    + '<b>\u0670 bare</b> button takes them away again and leaves exactly what Macnaghten printed. '
+    + 'The letters under each sentence follow simplified IJMES.</div>';
+  h += '<div class="smGroup"><h4>The letters \u2014 on its own \u00b7 start \u00b7 middle \u00b7 end</h4><table class="abc ar">'
+     + '<tr><th>name</th><th>letter</th><th>joined</th><th>value</th><th class="abcn" style="text-align:left">notes</th></tr>';
+  sg.letters.forEach(a => { h += row(a[0], a[1], a[2], a[3], true); });
+  h += '</table></div>';
+  h += '<div class="smGroup"><h4>The marks \u2014 shown on \u0628 b</h4><table class="abc ar">'
+     + '<tr><th>name</th><th>mark</th><th>value</th><th class="abcn" style="text-align:left">notes</th></tr>';
+  sg.marks.forEach(a => { h += row(a[0], a[1], a[2], a[3], false); });
+  h += '</table></div>';
+  h += '<div class="smGroup"><h4>Three you meet at once</h4><table class="abc ar">'
+     + '<tr><th>name</th><th>form</th><th>value</th><th class="abcn" style="text-align:left">notes</th></tr>';
+  sg.special.forEach(a => { h += row(a[0], a[1], a[2], a[3], false); });
+  h += '</table></div>';
+  return h;
+}
+
 function renderDevanagariAlphabet(sg){
   const a = sg.groups;
   let h = '<div class="abcNote">Read a Devanagari word as a chain of syllables. Each consonant letter '
@@ -3448,6 +3477,13 @@ function openSigns(){
     $('smSub').innerHTML = 'Each letter changes shape by position: <b>initial · medial · final</b>. '
       + 'Letters connect like joined-up handwriting, written top to bottom.';
     $('smBody').innerHTML = renderMongolAlphabet(sg);
+    $('signModal').classList.add('open');
+    return;
+  }
+  if (story.script === 'arabic'){
+    $('smTitle').textContent = 'The Arabic alphabet';
+    $('smSub').innerHTML = 'Right to left, and the letters join. The short-vowel marks are editorial \u2014 ours, not the 1839 edition\u2019s.';
+    $('smBody').innerHTML = renderArabicAlphabet(sg);
     $('signModal').classList.add('open');
     return;
   }
@@ -4436,9 +4472,9 @@ function applyTr(){
   const tb = $('trBtn');
   tb.classList.toggle('active', !hideTr);
   const line = !!(story && story.trStyle === 'line');
-  tb.textContent = line ? 'Roman letters' : 'Transcription';
+  tb.textContent = 'Transcription';
   tb.title = line
-    ? 'Roman letters — show or hide the romanized line under each sentence'
+    ? 'Transcription — show or hide the transcription line under each sentence'
     : 'Transcription — show or hide the letters under each glyph';
   const say = !!(activeSimplify && activeSimplify.mode === 'say');
   const seg = $('spellSeg');
@@ -4702,8 +4738,8 @@ function loadStory(s){
   if (sb){
     sb.style.display = signGlossaryFor(s) ? '' : 'none';
     sb.textContent = (s.script === 'ethiopic') ? '📜 Fidäl'
-                   : (s.script === 'mongol' || s.script === 'devanagari') ? '📜 Alphabet' : '📜 Signs';
-    sb.title = (s.script === 'mongol' || s.script === 'devanagari')
+                   : (s.script === 'mongol' || s.script === 'devanagari' || s.script === 'arabic') ? '📜 Alphabet' : '📜 Signs';
+    sb.title = (s.script === 'mongol' || s.script === 'devanagari' || s.script === 'arabic')
       ? 'Alphabet reference — every letter in its initial, medial and final shapes'
       : 'Sign reference — the alphabet and the classifiers';
   }

@@ -27,21 +27,23 @@ scan anomaly turns up later in the volume.
 | done (2026-09-18/19, unattended) | 79–86 | 59–66 | `archive/pp059-066.json` | printed = PDF − 20 confirmed (PDF 79/86 headers read "٥٩"/"٦٦"); "حكاية الحمال و الثلث بنات" continues: the porter drinks with the three ladies, reciting verse between rounds; both correction passes and the line detector dropped a verse-introducer line at the very end of p. 59 ("يقول شعر") and the two-line verse it introduces at the top of p. 60 — recovered by checking the scan directly, see LOG |
 | done (2026-09-19, unattended) | 87–94 | 67–74 | `archive/pp067-074.json` | printed = PDF − 20 confirmed (PDF 87 header read "٦٧"); "حكاية الحمال و الثلث بنات" continues to its end: the caliph, Jafar and Masrur are admitted disguised as merchants, the porter and the three ladies with their two black bitches, then the three qalandars arrive and the door-condition is set; a long verse block (two ghazals) interrupts the ladies' story; the tale closes with the qalandars' framing story beginning (the first qalandar's account opens) |
 | done (2026-09-19, unattended) | 95–102 | 75–82 | `archive/pp075-082.json` | printed = PDF − 20 confirmed (PDF 95 header read "٧٥"); "حكاية القرندلي الاول" (Tale of the First Qalandar) continues throughout; the running header switches to "حكاية القرندلي الثاني" (Second Qalandar) mid-page-101 with no separate heading body line — the first qalandar's own narration (recounting how he met the other two) continues seamlessly across that switch |
-| next | 103–110 | 83–90 (tentative) | | printed = PDF − 20 until told otherwise; verify PDF 103's header before trusting this |
+| done (2026-09-19/20, unattended) | 103–110 | 83–90 | `archive/pp083-090.json` | printed = PDF − 20 confirmed (PDF 103 header read "٨٣"); "حكاية القرندلي الثاني" (Second Qalandar) frame continues: the woodcutter's cave/treasure tale, a captive lady kept by an ifrit underground, the porter's-tale-style seduction and punishment scene, then a new tale opens on p. 90 ("قصة المحسود والحاسد", The Envied and the Envier) |
+| next | 111–118 | 91–98 (tentative) | | printed = PDF − 20 until told otherwise; verify PDF 111's header before trusting this |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 102 (archive ends at printed p. 82). Pages remaining: ~836 PDF pages
-(approximate, pending the corrected offset holding). Lines archived: 1753. Retrain attempted
-2026-09-19 (pp. 95-102 batch, past the 1600-line trigger): 68 new verified line pairs from pp.
-76, 80, 82 (all three pages clean 1:1 crop-to-line matches; pp. 75, 77, 78, 79, 81 excluded —
-header-strip failures or merged/dropped crops don't map 1:1); lstmtraining ran clean (1500 iter,
-train BCER 10.75%) but the resulting model scored *worse* than the currently-committed one on the
-same two held-out pages used before (printed pp. 40 and 55, not used in any training so far):
-combined CER 9.28%→10.28% — discarded per "never commit a model that made the draft worse";
-committed the verified line pairs only, kept the existing calc.traineddata. tools/lines/ now
-holds pairs for pp. 13-19, 29-32, 43, 45-48, 63-66, 76, 80, 82. Next retrain attempt whenever the
-batch composition looks more favourable (lines archived now 1753, next trigger at 1800).
+**Last PDF page done: 110 (archive ends at printed p. 90). Pages remaining: ~828 PDF pages
+(approximate, pending the corrected offset holding). Lines archived: 1930. Retrain attempted
+2026-09-19/20 (pp. 103-110 batch, past the 1800-line trigger): 105 new verified line pairs from
+pp. 84, 85, 86, 89, 90 (all five pages clean 1:1 crop-to-line matches, verse/heading lines
+excluded; pp. 83, 87, 88 excluded — dropped/merged crops don't map 1:1); lstmtraining ran clean
+(1500 iter, train BCER 10.70%) and this time the resulting model was *not worse* on the same two
+held-out pages used in prior attempts (printed pp. 40 and 55, never trained on): combined CER
+8.80%→8.64%, a small improvement — committed per "never commit a model that made the draft
+worse" (this is the first improvement since the pp. 59-66 retrain; the two immediately prior
+attempts were discarded as regressions). tools/lines/ now holds pairs for pp. 13-19, 29-32, 43,
+45-48, 63-66, 76, 80, 82, 84-86, 89-90. Next retrain attempt whenever the batch composition looks
+more favourable (lines archived now 1930, next trigger at 2000).
 
 ## Phase 2 — reading edition (not yet scheduled)
 

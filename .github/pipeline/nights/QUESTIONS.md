@@ -224,3 +224,57 @@ Open decisions the rules do not settle. A run writes the question and what it de
   **Future runs: if a correction agent's own report admits reconstructing text from a "well-known"
   or "classical" source rather than the image, treat that page's marks as unverified regardless of
   which pass it was and call it out explicitly to the adjudicator, as done here.**
+
+- **New printed punctuation mark, PDF p.110/printed p.90 (run 2026-09-19/20, pp. 103-110).** Both
+  independent correction passes noticed small ink marks in the prose — a dot sitting above a short
+  comma-like hook, in the word-gap after certain words — that are not part of any letter's normal
+  shape and are not tashkeel (they sit between words, not over a letter). This is the first time
+  any mark beyond the edition's "( )" and the "—" end-of-line filler has turned up in the archive.
+  Decided: transcribe this recurring mark as "؛" (Arabic semicolon) wherever it appears clearly
+  separated from letter shapes at a plausible clause-pause position (confirmed at four spots on
+  this page: P90L01, P90L04 ×2, P90L13). The adjudicator's own summary recommendation agreed with
+  this, but two of its four individual line-verdicts inconsistently dropped the mark anyway —
+  caught by re-inspecting the page directly and restored to match the other two. **Future runs:
+  watch for this mark on other pages (it may simply not have been noticed before now, rather than
+  being new to this page specifically) and transcribe it as "؛" on the same evidence — a dot+hook
+  shape distinct from any letter, sitting in the word-gap, not reproducible as ordinary ink noise
+  since it recurs at plausible pause points.** Not yet added to conventions.md pending a second
+  occurrence elsewhere in the volume to confirm the convention is real and not page-specific.
+
+- **Adjudicator silently normalized a printed dotless فى to modern في without checking the image
+  (PDF p.110/printed p.90, run 2026-09-19/20 pp. 103-110).** Two disputes (P90L02, P90L04) pitted
+  pass1's dotless "فى" against pass2's dotted "في"; the adjudicator's verdicts marked both "low"
+  confidence with the note "kept pass2's standard modern spelling" — i.e. it defaulted to the
+  modern form without actually verifying the glyph, which is exactly the kind of silent
+  normalization conventions.md's ى/ي rule exists to prevent. Checked directly: at 2.2x zoom, line
+  2 shows the print using BOTH spellings on the very same line — a clearly dotted "في" right after
+  "رجلان" and a clearly dotless "فى" after "ساكنين" a few words later — so this is not a
+  transcriber error to normalize away in either direction, just an inconsistently-set 1839 press.
+  Line 4's disputed instance is also dotless at zoom. Reverted both to pass1's dotless reading.
+  **Future runs: a "kept the standard/modern spelling" note on a low-confidence verdict is a red
+  flag by itself — it means the adjudicator didn't actually look, not that the reading is settled;
+  re-check any such verdict against the image before trusting it, especially for ى/ي and ة/ه.**
+
+- **apply_verdicts.py silently drops word-insertion verdicts (empty pass-1 text), a second tool
+  gap beyond the already-known word-reorder issue (run 2026-09-19/20 pp. 103-110).** The tool's
+  apply loop only acts on a verdict when `v['pass1']` is truthy, so any verdict resolving a
+  word pass 1 omitted entirely (pass1 text `""`, a genuine gap rather than a substitution) is
+  silently skipped with no warning — found 3 cases this run (PDF p105 "يوم"/"لك" at a missing-word
+  join, PDF p108's verse "أَنِّي") that would have shipped as silent text loss if not caught by an
+  explicit post-apply audit of every verdict with empty pass-1 text. Applied all three by hand.
+  **Future runs: after apply_verdicts.py runs, grep verdicts.json for entries where `pass1` is
+  empty/falsy but `verdict` is non-empty, and apply each by hand — the tool will not do it and
+  will not tell you it skipped anything.**
+
+- **Page-specific لام/دال ascender confusion is not uniform, PDF p.109/printed p.89 (run
+  2026-09-19/20 pp. 103-110).** Pass 1's agent reported that this page's print consistently shows
+  a tall لام ascender where classical spelling expects a shallow دال curve (e.g. "قل" for "قد"),
+  and normalized several instances on that claim, citing a cross-check against confirmed لام/دال
+  shapes elsewhere on the page. The adjudicator re-checked each disputed instance individually
+  rather than trusting the blanket claim, and found it did NOT hold uniformly: two of three
+  disputed "وقل"/"وقد" spots are genuinely دال (pass2 correct), while "يبعل" (not "يبعد") is
+  genuinely لام (pass1 correct) — a real letterform, not a page-wide font substitution. **Future
+  runs: a correction pass's claim that a whole page uses one glyph shape for a letter it doesn't
+  normally have needs per-instance verification, not blanket acceptance — Middle Arabic spelling
+  variance and genuine print wear can look identical to a font-wide substitution but usually
+  isn't.**

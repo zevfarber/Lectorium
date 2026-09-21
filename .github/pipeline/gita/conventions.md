@@ -77,6 +77,16 @@
   free — do not grieve." i: "Let go of every duty and come to me as your one refuge. I will free
   you from all evil; do not grieve."
 
+## House renderings of recurring terms
+- puruṣottama (8.1, 10.15, 11.3 as a vocative; 15.18–19 as Kṛṣṇa's own title): "Supreme Person",
+  capitalized, in both `l` and `i`, wherever the compound occurs, so the reader can see it is one
+  word. (para/parama puruṣa stays "supreme … Person" with a lowercase adjective, and 15.17's
+  uttamaḥ puruṣaḥ stays "the highest Person".) Whether Arjuna's vocatives already mean the title of
+  15.18 or are the epic's ordinary honorific "best of men" is left open, and the question is stated
+  in the word's own gloss at each occurrence, not settled in the translation. Decided by the owner
+  2026-09-21: normalize, and where a rendering hides a real ambiguity, put the ambiguity in the
+  glossary entry.
+
 ## Speaker lines
 - धृतराष्ट्र उवाच / सञ्जय उवाच / अर्जुन उवाच are two tokens; श्रीभगवानुवाच is written as one token on
   Wikisource and is kept as one word with three morphs (śrī, bhagavat, vac); its literal is "The

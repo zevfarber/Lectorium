@@ -35,6 +35,14 @@ turns up (a search across chapters 1-12's existing variantsVsBORI entries for an
 word-division-only case was not attempted this run).
 
 ## puruṣottama — "supreme Person" or "the Supreme Person"? (raised drafting chapter 15, 2026-09-21)
+**RESOLVED 2026-09-21 (owner's decision, applied in an attended Cowork session).** House rendering:
+"Supreme Person", capitalized, in `l` and `i` at every occurrence; chapters 8 (v.1), 10 (v.15) and
+11 (v.3) conformed in their drafts and rebuilt (all PASS); the two possible senses of Arjuna's
+vocative are stated in the word's gloss at 8.1, 10.15, 11.3 and 15.18. See `conventions.md`,
+"House renderings of recurring terms". The general rule the owner gave with it: normalize a
+recurring term, and where one rendering hides a real ambiguity, put the ambiguity in the glossary
+entry. The original note follows for the record.
+
 Chapters 8 (v.1) and 10 (v.15) render puruṣottama, addressed to Kṛṣṇa as a vocative epithet, as
 lowercase "supreme Person" in their idiomatic lines. Chapter 15 (v.18, v.19), where puruṣottama
 becomes Kṛṣṇa's own declared identity and gives the chapter its name, was drafted and reviewed as

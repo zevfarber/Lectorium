@@ -431,3 +431,12 @@ occurrence, for parity. sattva's two special, non-guṇa senses (v.3 "one's own 
 polysemy distinct from the ordinary guṇa sense, per the reviewer's confirmation. build_gita.py and
 validate_gita.py both PASS (5 benign sandhi-boundary warnings, same class as chapters 1-16). Added to
 stories.json after gita-ch16.
+
+## 2026-09-21 (attended, Cowork) — puruṣottama normalized across chapters 8, 10, 11, 15
+Owner's decision on the QUESTIONS.md item raised by chapter 15. "Supreme Person" is now the one
+rendering in `l` and `i` at 8.1, 10.15, 11.3 (15.18–19 already had it). The uttama gloss at each
+occurrence states the open question (honorific "best of men" vs. the title of 15.18). Edited in
+drafts/ch08, ch10, ch11 (trans.txt, words.txt) and drafts/ch15/words.txt; all four chapters rebuilt
+with build_gita.py and PASS validate_gita.py with their previous warning counts. Before editing,
+rebuilding 8, 10 and 11 from their drafts reproduced the published files byte for byte. House
+rendering recorded in conventions.md.

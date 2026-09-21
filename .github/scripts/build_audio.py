@@ -39,7 +39,7 @@ VOICES = {
     # Arabic: the stated convention is a Modern Standard Arabic reading of the classical
     # text, so a real voice exists. Name left empty on first run so resolve_voice() picks
     # deterministically and writes it to audio/<id>/voice.txt; pin it here afterwards.
-    "ar-XA": {"name": "", "lang": "ar-XA", "espeak": "ar"},
+    "ar-XA": {"name": "ar-XA-Chirp3-HD-Achernar", "lang": "ar-XA", "espeak": "ar"},   # resolved 2026-09-20, pinned 2026-09-21
 }
 
 VOICES_URL = "https://texttospeech.googleapis.com/v1/voices"

@@ -11,7 +11,10 @@ Glossaries, stories.json, and non-Latin-TTS texts are skipped.
 
 Writes `ids=<space separated>` to $GITHUB_OUTPUT.
 """
-import json, os, subprocess
+import json, os, subprocess, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from wordre import sent_tokens
 
 VOICE_LANGS = {"de-DE", "fr-FR", "zh-CN", "ar-XA"}   # keep in sync with build_audio.py VOICES
 
@@ -84,10 +87,11 @@ def stale_alignment():
             al = json.load(open(ap, encoding="utf-8"))
         except Exception:
             continue
+        # Every story is checked, not only words-model ones: on 2026-09-20 the Arabic Nights
+        # shipped with an empty timing list for every sentence, and a words-only check could
+        # not see it. sent_tokens() is the reader's own splitter (wordre.py).
         for i, s in enumerate(story["sentences"]):
-            want = len(s["words"]) if s.get("words") else None
-            if want is None:
-                continue
+            want = len(sent_tokens(s))
             if len(al.get(str(i), [])) != want:
                 print("stale alignment: %s sentence %d has %d timings for %d units"
                       % (sid, i, len(al.get(str(i), [])), want))

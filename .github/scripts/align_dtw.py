@@ -13,8 +13,11 @@ import numpy as np, librosa
 from collections import defaultdict
 
 SR=16000; HOP=160
-WORD_CLASS='A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ'                    # matches reader.html WORD_RE (Latin)
-WORD_RE=re.compile('['+WORD_CLASS+']+(?:[-\\[\\]()]['+WORD_CLASS+']+)*')
+# The word splitter lives in wordre.py, shared with pick_targets.py, and mirrors reader.html.
+# This file once had its own Latin-only copy; Arabic sentences then had "no words" and every
+# timing list came back empty (2026-09-20, the Nights). Never reintroduce a local copy.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from wordre import WORD_RE, sent_tokens
 VOICE=os.environ.get("ESPEAK_VOICE","de")           # 'de' German, 'fr' French, etc.
 
 def load(p): 
@@ -29,19 +32,6 @@ def espeak_word(w):
 def mfcc(y):
     m=librosa.feature.mfcc(y=y,sr=SR,n_mfcc=13,hop_length=HOP,n_fft=400)
     return np.vstack([m,librosa.feature.delta(m)])
-
-def sent_tokens(s):
-    """One token per unit the reader can highlight and seek to.
-
-    Words-model stories (Han, hieroglyphs, cuneiform) carry an explicit `words` array, and
-    their .word[data-wi] indices are positions in THAT array, not WORD_RE matches — so the
-    timings must be built from it or karaoke lands on the wrong unit. Punctuation glyphs are
-    dropped: written, but not spoken.
-    """
-    if s.get("words"):
-        return ["".join(g.get("s","") for g in w.get("glyphs",[]) if g.get("role") != "punct")
-                for w in s["words"]]
-    return WORD_RE.findall(s["t"])
 
 def align_sentence(mp3,toks):
     y=load(mp3); D=len(y)/SR
@@ -76,9 +66,13 @@ def main():
         try: arr,_=align_sentence("%s/%d.mp3"%(adir,i),toks)
         except Exception as e: arr=[]; bad.append((i,str(e)))
         if len(arr)!=len(toks): bad.append((i,"len %d!=tok %d"%(len(arr),len(toks))))
+        if not toks and any(ch.isalpha() for ch in s.get("t","")):
+            bad.append((i,"sentence has letters but the word splitter found no words"))
         out[str(i)]=arr
         if i%12==0: print("aligned",i,"/",len(story["sentences"])); sys.stdout.flush()
     json.dump(out,open("%s/align.json"%adir,"w",encoding="utf-8"),ensure_ascii=False)
     print("DONE",len(out),"sentences,",sum(len(v) for v in out.values()),"timings; issues:",bad or "none")
+    if story["sentences"] and not any(out.values()):
+        raise SystemExit("align_dtw: no timings at all for %s — refusing to pass silently" % sid)
 
 if __name__=="__main__": main()

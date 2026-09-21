@@ -113,6 +113,70 @@ def synth_with_retry(text, cfg, key):
     raise last_err
 
 
+def http_error_body(e):
+    try:
+        return e.read().decode("utf-8", "replace")[:600]
+    except Exception:  # noqa: BLE001
+        return ""
+
+
+def fallback_pieces(s, text):
+    """How to cut one unit into several requests when the voice refuses it whole.
+
+    A verse unit is cut at its own line breaks; anything else into runs of at most 25 words.
+    """
+    say = s.get("say")
+    src = say if isinstance(say, str) and say.strip() else s["t"]
+    lines = [ln.strip() for ln in src.split("\n") if ln.strip()]
+    if len(lines) > 1:
+        return lines
+    words = text.split()
+    return [" ".join(words[k:k + 25]) for k in range(0, len(words), 25)]
+
+
+def concat_mp3(chunks):
+    """Join several MP3 clips into one with ffmpeg (re-encoded, so the duration is honest)."""
+    import tempfile
+    with tempfile.TemporaryDirectory() as td:
+        names = []
+        for k, b in enumerate(chunks):
+            fn = os.path.join(td, "%d.mp3" % k)
+            open(fn, "wb").write(b)
+            names.append(fn)
+        lst = os.path.join(td, "list.txt")
+        open(lst, "w").write("".join("file '%s'\n" % n for n in names))
+        out = os.path.join(td, "out.mp3")
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst,
+                        "-c:a", "libmp3lame", "-q:a", "4", out], check=True)
+        return open(out, "rb").read()
+
+
+def synth_sentence(i, s, text, cfg, key):
+    """One clip for one unit. If the voice rejects the whole text (HTTP 400), speak it in pieces.
+
+    WHY. Chirp HD voices refuse a request containing a "sentence" that is too long, and they
+    find sentences by punctuation. An eight-line Arabic poem printed without any (Night 1,
+    unit 9, 2026-09-20) is one 100-word sentence to them; the request came back 400, the job
+    died on it, and the whole night got no audio. The recorded text (texts.json) is unchanged
+    by this: it is still the unit's full text, so the cache behaves exactly as before.
+    """
+    try:
+        return synth_with_retry(text, cfg, key)
+    except urllib.error.HTTPError as e:
+        if e.code != 400:
+            raise
+        print("  TTS 400 for sentence %d (%d bytes): %s" % (i, len(text.encode("utf-8")), http_error_body(e)))
+        pieces = fallback_pieces(s, text)
+        if len(pieces) < 2:
+            raise
+        print("  speaking sentence %d in %d pieces instead" % (i, len(pieces)))
+        chunks = []
+        for piece in pieces:
+            chunks.append(synth_with_retry(piece, cfg, key))
+            time.sleep(THROTTLE_S)
+        return concat_mp3(chunks)
+
+
 def spoken_text(s):
     """The string the voice reads for one sentence.
 
@@ -225,7 +289,7 @@ def main():
         if fresh:
             restaled += 1
             print("  text changed for sentence %d — resynthesizing" % i)
-        open(path, "wb").write(synth_with_retry(text, cfg, key))
+        open(path, "wb").write(synth_sentence(i, s, text, cfg, key))
         made += 1
         time.sleep(THROTTLE_S)
     json.dump(texts, open(tf, "w", encoding="utf-8"), ensure_ascii=False, indent=1)

@@ -366,3 +366,37 @@ A pre-existing cross-chapter inconsistency was noticed but left untouched, out o
 scope: puruṣottama is capitalized "the Supreme Person" here (matching "the Person"/"the
 Perishable"/"the Imperishable"), while chapters 8 and 10 render the same term lowercase, "supreme
 Person" — recorded in QUESTIONS.md for whoever next reviews cross-chapter capitalization.
+
+2026-09-21 · chapter 16 (Daivāsurasampadvibhāgayoga, Divine and Demonic Natures) · unattended run ·
+24 verses, 173 glossary keys · source verified (sha256 matched parts.json; collation against BORI
+showed exactly the two VAR entries parts.json declares — 16.4, 16.13 — plus one orth-class difference
+at 16.12; corrections.json's 16.19 krūrān fix already baked into the verified text). Drafted the
+divine/demonic catalogs of vv.1-5, the extended description of the demonic nature in vv.6-20
+(the godless-cosmos view, the interior monologue of the self-aggrandizing egotist in vv.13-15, and
+the "hurled into demonic wombs" close), and the threefold-gate-of-hell teaching of vv.21-24; sampad
+translated "endowment, inheritance" throughout (not on the untranslated-terms list), yoga (16.1) kept
+untranslated per convention, no house-rendering verses fall in this chapter. Reviewed in two passes:
+pass 1 found six factual/completeness corrections (16.5's sampad-vimokṣāya voicing wrongly called
+"no visible sandhi change" when -t does audibly voice to -d before v-; 16.5's mā śucaḥ note
+misidentifying 2.11's aśocyān anvaśocas tvam, a different indicative construction, as the same
+prohibitive used here and at 18.66; two incomplete visarga notes at 16.6 and 16.11 left unstated
+where the pattern was already flagged elsewhere in the chapter; 16.13's prāpsye lemmatized as the
+bare root āp instead of pra-āp, against the prefix-carrying convention already followed at 16.23's
+ava-āp; 16.2's aloluptvam's irregular loss of lolupa's stem-final -a before -tva left unremarked)
+plus one translation-consistency fix (16.4's I line rendering darpa "arrogance" against "pride"
+everywhere else in the chapter) and one lemma-convention fix (16.2). Pass 2 found two further errors
+(16.5's second sampadam wrongly said to be governed by the copula asi rather than by the participle
+abhijātaḥ, as verses 3-4 already correctly have it; 16.14's note on the verse's three occurrences of
+aham garbling their sequence and wrongly treating the un-elided second aham aham as if it shared the
+same -aḥ+a- sandhi as the other two) plus one optional polish (16.3's "point for point" overstating
+how closely the 26-item divine catalog and 6-item demonic catalog actually correspond). All fixes
+applied and re-verified (tiling still exact after every edit). Glossed on Sonnet: aham's gloss
+normalized to "I" at five occurrences that had drifted into case-inflected glosses ("my", "by me");
+eva, gati, dambha, darpa, māna and sampad unified across their recurring occurrences; vyavasthiti's
+two distinct-looking glosses at vv.1 and 24 cross-referenced; verse 7's noun pravṛtti relemmatized
+apart from verse 10's verb pra-vṛt, which had wrongly shared one lemma string with an incompatible
+gloss; anya's lemma citation unified (verse 8 had cited "anyat"); as's gloss unified to "to be, to
+exist". Para's two legitimate senses ("other" vs. "highest, supreme") and the shared "vid" lemma
+covering two distinct dictionary roots were considered and left as intentional, context-disambiguated
+polysemy rather than errors. build_gita.py and validate_gita.py both PASS (6 benign sandhi-boundary
+warnings, same class as chapters 1-15). Added to stories.json after gita-ch15.

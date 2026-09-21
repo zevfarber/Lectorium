@@ -69,18 +69,13 @@ in five.
 1. **Done 2026-09-20/21.** `nights-glossary.json` now exists (1331 entries: the pilot's 421 plus
    910 new from frame, part 2) and `nights-frame-01.json` carries `glossaryFile` instead of its
    old inline `glossary`. Every night after this one merges into the shared file.
-2. **Arabic audio status changed 2026-09-20/21 — needs a look, not yet acted on by this run.**
-   Previously "never confirmed to work" (see prior wording, kept in git history). But the commit
-   `2ecd88a1` ("Audio: build clips + align.json for nights-frame-01 nights-frame-02", 2026-09-20
-   ~22:42 UTC, just before this run started) shows the Action *did* build clips for both files:
-   `audio/nights-frame-01/` (`nights-frame-01.json` already carries `"audio":
-   "audio/nights-frame-01"`) and `audio/nights-frame-02/` (117 clips exist on disk, but
-   `nights-frame-02.json` itself is still missing the `audio` field — never wired up). This run
-   left it alone per `reading-conventions.md`'s "do not spend a run chasing it" and published
-   Night 1 without an `audio` field too, per the same rule and because touching `nights-frame-02`
-   is out of a publishing run's scope (one night per run). See `QUESTIONS.md` for the full note.
-   Worth a dedicated pass: confirm the clips are correct, wire up `nights-frame-02.json`'s missing
-   field, and decide whether new nights should get `audio` going forward.
+2. **Done 2026-09-21 (attended, Cowork).** Arabic audio is on. The Action had been building the
+   clips all along, but with an empty word-timing list for every sentence: the aligner's word
+   splitter was a Latin-only copy of the reader's and found no words in Arabic. Fixed by one
+   shared splitter (`.github/scripts/wordre.py`), a check that re-times any story whose timings
+   do not match its words, and a loud failure when a story gets no timings at all. The voice is
+   pinned (`ar-XA-Chirp3-HD-Achernar`). `nights-frame-02`, `nights-01` and `nights-02` now carry
+   `audio`, and every new night carries it from publication (`publish-runbook.md` §6).
 3. **The owner has never signed off on the pilot** (the phase 1 exit gate, open since August). He
    reads Arabic well enough to catch gross error, not to audit translation quality. Worth his eyes
    on the first night published under this pipeline.

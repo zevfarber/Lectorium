@@ -118,8 +118,16 @@ simply what the Arabic says.
 
 ## Audio
 
-Prepared clips are the shipped experience for every text, and Arabic TTS is good, but the `ar-XA`
-Action has **never been confirmed to produce clips** — it did not commit them for the pilot and
-nobody has read the run log since (see `plan.md`, open items). So: publish the text without
-audio, leave `audio` out of the story file, and do not spend a run chasing it. When the Action is
-fixed, one pass adds audio to every published night at once.
+Prepared clips are the shipped experience for every text. For the Nights they work as of
+2026-09-21: the audio Action synthesizes one clip per sense unit with the pinned voice
+`ar-XA-Chirp3-HD-Achernar` (a Modern Standard Arabic reading of the vocalised text) and writes the
+word timings. So every story file carries `"audio": "audio/<id>"` from the moment it is published.
+The Action starts by itself when the story file reaches main and commits `audio/<id>/` some
+minutes later (up to an hour for a long night); until then Listen is silent for that night, which
+is accepted. A publishing run writes the field and stops there — it never touches `audio/`, never
+waits for the clips, and never spends time checking them.
+
+(History: until 2026-09-21 the nights were published without the field. The clips had in fact been
+built, but every word-timing list was empty, because the aligner's word splitter knew no Arabic
+letters. That is fixed in `.github/scripts/wordre.py`, and the published nights were switched on in
+one pass that day.)

@@ -90,8 +90,11 @@ the LOG.
 
 Write `nights-<NN>.json` (or `nights-frame-02.json`) at the repository root, with the metadata
 `reading-conventions.md` specifies — `source`, `about`, `work`, `workEn`, `part`, `rtl`,
-`script`, `trStyle`, `langCode`, `glossaryFile`. No `audio` field: the Arabic audio Action has
-never been confirmed (see `plan.md`), and chasing it is not this run's job.
+`script`, `trStyle`, `langCode`, `glossaryFile` — and `"audio": "audio/<id>"` (for example
+`"audio": "audio/nights-03"`), placed after `trStyle` as in the published nights. Write the field
+and nothing more: the repository's audio Action builds the clips and word timings by itself once
+the story file lands on main (see `reading-conventions.md`, Audio). Never create or edit anything
+under `audio/`.
 
 Add the entry to `stories.json`, beside the other nights: `id`, `title`, `titleEn`, `language`,
 `work`, `workEn`, `part`, `file`.

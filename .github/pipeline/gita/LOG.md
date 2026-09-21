@@ -313,3 +313,23 @@ unified) plus 6 moderate consistency fixes (samāsa, vikāra, kṛ, three sthā-
 entries, and four agent-noun/habitual-adjective entries all restructured to lead with the root's
 infinitive per house style). build_gita.py and validate_gita.py both PASS (12 benign sandhi-boundary
 warnings, same class as chapters 1-12). Added to stories.json after gita-ch12.
+
+2026-09-21 · chapter 14 (Guṇatrayavibhāgayoga, The Three Qualities) · unattended run · 27 verses, 196
+glossary keys · source verified (sha256 and collation both matched parts.json's variantsVsBORI list —
+14.18 and 14.25 — before drafting; no corrections.json entries for this chapter). Drafted, reviewed in
+two passes: pass 1 found five grammar/morph errors (14.4 महद्योनिरहं wrongly analyzed as an adjective
+independently agreeing in gender with the feminine yoniḥ rather than as the compound mahad-yoniḥ,
+reading and morph corrected to the compound analysis; 14.7 and 14.8's rajaḥ/tamaḥ mislabeled nominative
+subjects of viddhi's double-accusative construction instead of accusative objects; 14.10's first-half
+rajaḥ/tamaḥ mislabeled nominative instead of accusative objects of abhibhūya, inconsistent with the
+verse's own correctly-analyzed second half; 14.24's bahuvrīhi compound tulya-nindā-ātma-saṃstutiḥ
+mislabeled feminine instead of masculine, agreeing with dhīraḥ) plus one register polish at 14.25.
+Pass 2 re-verified all pass-1 fixes (sound) and found two further errors (14.23's āsīnaḥ given the
+wrong root, ā-sad instead of ās; 14.27's śāśvatasya given the wrong gender, neuter instead of masculine
+agreeing with dharmasya) plus one minor ellipsis-note tidy at 14.11. Glossed on Sonnet: names correctly
+identified on first occurrence throughout; nine gloss-wording consistency fixes (upa-jan, jan, bhū,
+dehin, pramāda, sukha, duḥkha, vi-vṛdh unified across their recurring occurrences in the chapter);
+para's adjectival ("supreme, highest") vs. substantivized ("the beyond") senses at v.1 and v.19 and
+tulya's minor truncation on repeat left as-is, both judged genuine sense-splits or harmless shortening
+rather than errors. build_gita.py and validate_gita.py both PASS (7 benign sandhi-boundary warnings,
+same class as chapters 1-13). Added to stories.json after gita-ch13.

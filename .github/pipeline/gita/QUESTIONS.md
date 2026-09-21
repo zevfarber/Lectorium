@@ -33,3 +33,17 @@ deliberate call on whether the collation convention should be extended to flag w
 differences that change traditional sense even when no letters differ, the next time such a case
 turns up (a search across chapters 1-12's existing variantsVsBORI entries for any similar
 word-division-only case was not attempted this run).
+
+## puruṣottama — "supreme Person" or "the Supreme Person"? (raised drafting chapter 15, 2026-09-21)
+Chapters 8 (v.1) and 10 (v.15) render puruṣottama, addressed to Kṛṣṇa as a vocative epithet, as
+lowercase "supreme Person" in their idiomatic lines. Chapter 15 (v.18, v.19), where puruṣottama
+becomes Kṛṣṇa's own declared identity and gives the chapter its name, was drafted and reviewed as
+capitalized "the Supreme Person", to match this pipeline's existing capitalization of the chapter's
+other technical terms — "the Person" (puruṣa), "the Perishable" (kṣara), "the Imperishable" (akṣara)
+— all proper-noun-like renderings of a fixed philosophical term. Decided meanwhile: left chapter 15 as
+capitalized and did not touch chapters 8 or 10, since reconciling three chapters' wording is outside
+one chapter's own run and chapters 8/10's lowercase form was each individually reviewed and passed at
+the time. Worth a deliberate call on which capitalization is the house style, with a follow-up pass to
+conform chapters 8 and 10 if "the Supreme Person" (capitalized) is chosen — noting chapter 11 already
+renders the same term differently again ("highest of beings"), a third variant also outside this
+chapter's scope to fix.

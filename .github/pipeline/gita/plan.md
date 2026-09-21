@@ -18,7 +18,7 @@ One chapter per run, in order. `status` here mirrors `parts.json`; a run updates
 | 12 | Bhaktiyoga — The Yoga of Devotion | 20 | published (2026-09-20) |
 | 13 | Kṣetrakṣetrajñavibhāgayoga — The Field and the Knower of the Field | 34 | published (2026-09-20) |
 | 14 | Guṇatrayavibhāgayoga — The Three Qualities | 27 | published (2026-09-21) |
-| 15 | Puruṣottamayoga — The Supreme Person | 20 | todo |
+| 15 | Puruṣottamayoga — The Supreme Person | 20 | published (2026-09-21) |
 | 16 | Daivāsurasampadvibhāgayoga — Divine and Demonic Natures | 24 | todo |
 | 17 | Śraddhātrayavibhāgayoga — The Three Kinds of Faith | 28 | todo |
 | 18 | Mokṣasaṃnyāsayoga — Liberation and Renunciation | 78 | todo |

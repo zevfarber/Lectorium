@@ -333,3 +333,36 @@ para's adjectival ("supreme, highest") vs. substantivized ("the beyond") senses 
 tulya's minor truncation on repeat left as-is, both judged genuine sense-splits or harmless shortening
 rather than errors. build_gita.py and validate_gita.py both PASS (7 benign sandhi-boundary warnings,
 same class as chapters 1-13). Added to stories.json after gita-ch13.
+
+2026-09-21 · chapter 15 (Puruṣottamayoga, The Supreme Person) · unattended run · 20 verses, 169
+glossary keys · source verified (sha256 matched parts.json; collation against BORI showed only one
+orth-class difference, no VAR entries, matching parts.json's empty variantsVsBORI list; no
+corrections.json entries for this chapter). Drafted (the inverted-aśvattha-tree cosmology of vv.1-5,
+the individual jīva of vv.7-11, Kṛṣṇa's identification with nature's powers in vv.12-15, and the
+kṣara/akṣara/puruṣottama doctrine of vv.16-20); puruṣa translated "the Person" and puruṣottama "the
+Supreme Person" per the precedent already set at chapters 8, 10-11 and 13, kṣara/akṣara translated
+"the Perishable"/"the Imperishable" per the precedent at chapters 8 and 11. Two authentic pāda-break
+word-splits in the transmitted text (v.3/4's सुविरूढमूल-/मसङ्गशस्त्रेण and v.5's
+सुखदुःखसंज्ञै-/र्गच्छन्त्यमूढाः) were reproduced as given and flagged in their notes as not misprints.
+Reviewed in two passes: pass 1 found five wrong or self-contradictory cross-references/citations (a
+false "exactly as 13.5" parallel at v.7, a vowel/consonant mislabeling of the vimūḍhāḥ elision at
+v.10, a false "recurs at verse 18" sandhi claim at v.16, two wrong verse numbers for quoted Sanskrit
+at v.20, an overstated 10.10-11 parallel at v.15), an L/I subject-predicate contradiction each at v.1
+and v.16, a capitalization mismatch at v.17, an un-hyphenated internal vowel fusion at v.15's
+वेदान्तकृद्वेदविदेव, and an unclear L at v.9. Pass 2 re-verified all pass-1 fixes (sound, including
+against the actual cited verses' Sanskrit) and found four further errors: v.1's aśvattham wrongly
+tagged neuter instead of masculine in two entries (contradicting this same chapter's own correct v.3
+tagging), a fabricated quotation misattributed to 13.17 at v.15 (13.17 reads hṛdi sarvasya viṣṭhitam,
+not sarvasya ca hṛdi sthitam), a wrong cross-reference at v.15 citing 10.10-11 for smṛti when only
+10.34 actually names it, and a lemma-consistency violation at v.12 citing "gata" as its own lemma
+instead of the root gam already used for the same participle at v.4 and v.6. All fixes applied and
+re-verified (tiling still exact after every edit). Glossed on Sonnet: two occurrences of yat ("to
+strive") unified in v.11, and puruṣa's gloss at its two puruṣa-uttama occurrences (v.18, v.19)
+corrected from a generic "a person" to the chapter's established technical gloss "the Person",
+matching every other occurrence in the chapter; Bhārata (v.19, v.20), na/ca/tad/yad/vid/bhū and
+guṇa/kṣara/akṣara all confirmed already consistent. build_gita.py and validate_gita.py both PASS (11
+benign sandhi-boundary warnings, same class as chapters 1-14). Added to stories.json after gita-ch14.
+A pre-existing cross-chapter inconsistency was noticed but left untouched, out of this chapter's
+scope: puruṣottama is capitalized "the Supreme Person" here (matching "the Person"/"the
+Perishable"/"the Imperishable"), while chapters 8 and 10 render the same term lowercase, "supreme
+Person" — recorded in QUESTIONS.md for whoever next reviews cross-chapter capitalization.

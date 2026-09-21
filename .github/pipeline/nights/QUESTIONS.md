@@ -365,3 +365,67 @@ Open decisions the rules do not settle. A run writes the question and what it de
   inference from the زرزور (starling) root rather than a confirmed lexicon citation. None of these
   affect the gate or the bare text; a Lane's-Lexicon check on زرزورية and فسأت would be the most
   useful next step if anyone has time.
+- **Systematic hamza-encoding error, caught before gating, run 2026-09-21 publishing Night 2 — a
+  pipeline gotcha future prompts should guard against explicitly.** All 5 disjoint drafting agents
+  independently used precomposed hamza-on-alif/waw/ya (أ إ ؤ ئ) for editorially-supplied hamzas,
+  instead of the required combining-mark encoding (base letter as the archive prints it, plus
+  combining U+0654 above / U+0655 below) — hundreds of instances (e.g. "ان"→"أن" instead of
+  "اٴن", "الى"→"إلى" instead of "اٍلى"). This is exactly the "looks like a bug" trap
+  `reading-conventions.md` already warns about, but the drafting prompt's own restatement of the
+  rule was apparently not concrete enough to stop 5-for-5 agents getting it wrong. Caught only
+  because the final merge script diffed the assembled text's bare-strip tokens against the archive
+  word-for-word before gating (as `validate_night.py` itself does) rather than trusting the agents'
+  own self-reported verification. Fixed mechanically: every precomposed hamza letter was decomposed
+  to (base letter appropriate to the archive's own printed seat) + (any interposed short-vowel/
+  sukun marks, unchanged) + (the correct combining hamza mark), which is a lossless, deterministic
+  transform once you know which base letter the archive prints at that position — 316 words fixed
+  this way, verified to reproduce the archive exactly, token for token, afterward. A future
+  publishing run's drafting prompt should probably show a worked before/after example of this exact
+  transform (not just cite the codepoints), and the orchestrating run should always re-derive the
+  bare-strip diff itself after merging slices rather than accepting each agent's self-report at
+  face value.
+- **One archived line-wrap artifact required manual rejoining, run 2026-09-21 (Night 2).** The
+  archive fuses "فلما" and "كان" into one line-final token "فلماكان" (P14L19, a compositor
+  spacing slip, not a Middle Arabic form) — one drafting agent correctly read it as two words but
+  wrote them with a space, which the gate's token-for-token check would have rejected; fixed by
+  rejoining them into one unspaced vocalised token (فَلَمَّاكَانَ) to mirror the archive's own
+  (accidental) fusion, per "spelling is preserved unaltered."
+- **Night 2 content uncertainties, left as translated/vocalised pending a second opinion (nobody
+  waiting on these, recorded for completeness).** حَنَّ قَابُهُ (P14L12) is almost certainly
+  قَلْبُهُ ("his heart [softened]") with the lām dropped — a probable compositor's slip, pointed to
+  fit the printed letters rather than corrected. غَابَةَ الْعَجَبِ (P14L17/P15L02) likely
+  misprints غَايَةَ الْعَجَبِ ("the utmost of wonder"), a bā'/yā' confusion — same treatment.
+  هَذَا مُقَدَّرُوهَا (P16L21) matches no recognized word (مقدورها, "its fated lot," with ر/و
+  transposed, is the likely intended form) — vocalised as printed. فَقَامَ فِعْلٌ (P17L04-05) is
+  opaque as printed; read loosely as "so, in the end, I agreed," a guess rather than a restoration.
+  الْمُسْفَرَ (P17L16, "وجهزنا المسفر") is read as an obscure non-Classical noun for "the
+  journey's preparations/gear" with no confirmed parallel found. تَهَبُ لِي ثُلُثَ ذَنْبِهِ
+  (P16L05) reads ذَنْب as "guilt" (paralleling the دَم/"blood" of the same bargain elsewhere in
+  this frame) rather than ذَنَب "tail," which the two dogs might otherwise suggest but cannot
+  sensibly mean here. وَهُوَ الذَّاهِبُ الْآخَرُ (P16L18) reads الذهب as الذَّاهِب ("the other
+  one to travel," the same medial-alif-dropping spelling as ثلاثة elsewhere in this text) rather
+  than as "the gold" (nonsensical for a brother); note this glossary entry folds to the same bare
+  skeleton as any future entry for the ordinary word "gold" would — a genuine homograph in the
+  underlying rasm, not a glossing error, worth remembering if a later night's fallback lookup ever
+  looks wrong for that skeleton. فَتَعَلَّتْ بِهِمْ (P18L23) is read as "she prevailed over them"
+  (root ع-ل-و) though a scribal slip for فَفَعَلَتْ ("she did [it] to them") is equally plausible.
+  تَخَالُصَهُمْ (P19L01, "their release") has a grammatical role that is not fully certain from
+  context. وَقٰلَ لَهَا هَذَا عَجِيبٌ (P20L01) is read with the JINNI as speaker (marvelling at
+  the mule and addressing her, since she cannot answer in speech) and the following وَقُلْتُ as the
+  sheikh resuming his own narration — the unpointed original would also allow a less coherent
+  imperative reading. أَنْتَ طَالِبٌ (P19L21) is grammatically loose as the predicate of تَصِيرُ;
+  translated by evident sense rather than regularised.
+- **Pre-existing glossary issues found while drafting Night 2, not this night's to fix but worth a
+  look.** `nights-glossary.json`'s entry for وَلَّى was wrong ("to turn away, decline, depart") and
+  has been corrected in this run to "to appoint, install in office," per Night 1's own note on the
+  identical idiom وَلَّى وَعَزَلَ ("appointed and dismissed") — a clear case of "the existing entry
+  is actually wrong," fixed deliberately per the glossary rule. Left untouched, flagged for a future
+  pass: the entry for وَجْهَهَا bakes in a one-off euphemistic reading ("her maidenhead") that does
+  not fit this night's own plainly literal use of the same vocalised form (a daughter covering her
+  actual face); the entry for مَا characterises mā + perfect negation as "a Middle Arabic usage
+  where Classical prose has lam," when mā + perfect is itself good Classical Arabic (e.g. Qur'anic
+  mā kadhaba al-fu'ād); the entry for أَرْسَلَتَ ("you sent," 2ms) appears mis-vowelled — a 2ms
+  perfect of form IV should have sukūn on the lām (أَرْسَلْتَ); and the entry for اَمَا
+  (interrogative "did I not…?") shares a bare skeleton with this night's own أَمَّا ("as for…"),
+  so a reader relying on the bare-fold fallback for the latter would currently see the wrong gloss.
+  None of these affect this night's own gate.

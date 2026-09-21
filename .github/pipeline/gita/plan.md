@@ -20,7 +20,7 @@ One chapter per run, in order. `status` here mirrors `parts.json`; a run updates
 | 14 | Guṇatrayavibhāgayoga — The Three Qualities | 27 | published (2026-09-21) |
 | 15 | Puruṣottamayoga — The Supreme Person | 20 | published (2026-09-21) |
 | 16 | Daivāsurasampadvibhāgayoga — Divine and Demonic Natures | 24 | published (2026-09-21) |
-| 17 | Śraddhātrayavibhāgayoga — The Three Kinds of Faith | 28 | todo |
+| 17 | Śraddhātrayavibhāgayoga — The Three Kinds of Faith | 28 | published (2026-09-21) |
 | 18 | Mokṣasaṃnyāsayoga — Liberation and Renunciation | 78 | todo |
 
 Later phases (not for the chapter runs): collation against a pre-1930 printed edition; audio

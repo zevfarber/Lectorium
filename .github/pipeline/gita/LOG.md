@@ -400,3 +400,34 @@ exist". Para's two legitimate senses ("other" vs. "highest, supreme") and the sh
 covering two distinct dictionary roots were considered and left as intentional, context-disambiguated
 polysemy rather than errors. build_gita.py and validate_gita.py both PASS (6 benign sandhi-boundary
 warnings, same class as chapters 1-15). Added to stories.json after gita-ch15.
+
+2026-09-21 · chapter 17, Śraddhātrayavibhāgayoga (The Three Kinds of Faith) · 28 verses, 206 glossary
+keys. Source verified: sha256 matched parts.json, collate(17) returned only the expected 17.6 VAR (the
+sole listed variantsVsBORI entry) plus one benign 17.25 orth diff; no corrections.json entries for this
+chapter. Drafted the chapter's threefold-faith framework (v.1-3), the sattva/rajas/tamas catalogs of
+worshippers, foods, sacrifices, austerities and gifts (v.4-22), and the closing oṃ-tat-sat passage
+(v.23-28) on the threefold name of brahman and the sat/asat distinction; śraddhā translated "faith"
+throughout per convention (not on the untranslated-terms list), brahman kept untranslated at its two
+occurrences (17.23-24), no house-rendering verses fall in this chapter. Reviewed in two passes: pass 1
+found a lemma-naming error (17.13's a-dakṣiṇam mislemmatized as the feminine noun "a-dakṣiṇā" instead of
+the adjective "a-dakṣiṇa"), a translation cross-wire (17.9's I line swapped "pungent"/"bitter" against
+what L and the morphs assign to kaṭu vs. tīkṣṇa), and a missing participle-root tag (17.26's praśaste
+lacking "(past participle of pra-śaṃs)", inconsistent with the chapter's own pattern for participle
+lemmas). Pass 2 found three further errors: 17.25's gerund an-abhisaṃdhāya lemmatized as its own
+inflected surface form rather than the root abhi-sam-dhā (breaking the pattern already followed by the
+same verb's un-negated instance two verses earlier); 17.27's note misidentifying the antecedent of
+tad-arthīyaṃ karma as verse 25's mokṣa rather than the verse's own nearer yajña/tapas/dāna triad; and
+17.16's manaḥ prasādaḥ mislabeled "gen./nom." when manaḥ (an -as-stem) has no genitive form and is
+functioning attributively as a nominative. All fixes applied and re-verified (tiling still exact after
+every edit). Glossed on Sonnet: sāttvika/rājasa/tāmasa's guṇa-adjective gloss wording unified to
+"belonging to X" (one outlier at v.2 had used "of the nature of X"); dāna's gloss unified to plain
+"giving" across 8 occurrences that had drifted between "giving", "a gift" and "giving, a gift"; yajña's
+one "a sacrifice" outlier (v.23) unified to "sacrifice"; the quoted-term instances of sat (v.26-27, the
+sad-iti/sat-śabda citations) unified to "'sat'", distinct from and left unmerged with v.26's ordinary-
+word sense "being, existing, real"; oṃ's second occurrence (v.24) restored the "first of brahman's three
+names" identification already carried at its first occurrence and already extended to tat's second
+occurrence, for parity. sattva's two special, non-guṇa senses (v.3 "one's own being, disposition", v.8
+"vitality, vigor, strength of mind") each occur once and were left as intentional, explicitly-flagged
+polysemy distinct from the ordinary guṇa sense, per the reviewer's confirmation. build_gita.py and
+validate_gita.py both PASS (5 benign sandhi-boundary warnings, same class as chapters 1-16). Added to
+stories.json after gita-ch16.

@@ -4697,7 +4697,12 @@ async function ensureGlossary(s){
   if (shared === undefined) {
     try {
       const r = await fetch(s.glossaryFile, { cache: 'no-cache' });
-      shared = r.ok ? ((await r.json()).glossary || null) : null;
+      /* Two shapes are in the library: {work, language, note, glossary:{…}} and a bare {word: gloss} map
+         (nights-glossary.json, daodejing-glossary.json). Accept both. Until 2026-09-21 only the first was
+         read, so every word of the Nights said "not in glossary yet" although its entry existed. */
+      const j = r.ok ? await r.json() : null;
+      shared = !j || typeof j !== 'object' ? null
+             : (j.glossary && typeof j.glossary === 'object') ? j.glossary : j;
     } catch(e) { shared = null; }
     SHARED_GLOSS[s.glossaryFile] = shared;
   }

@@ -1,0 +1,690 @@
+{
+ "id": "nights-03",
+ "title": "حِكَايَةُ الصَّيَّادِ",
+ "titleEn": "The Story of the Fisherman",
+ "language": "Arabic",
+ "langCode": "ar-XA",
+ "script": "arabic",
+ "rtl": true,
+ "trStyle": "line",
+ "audio": "audio/nights-03",
+ "work": "الف ليلة وليلة",
+ "workEn": "The Thousand and One Nights",
+ "part": "Night 3 (printed pp. 20–25)",
+ "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 20–25, transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the project’s own two-pass-plus-adjudication pipeline; the edition’s own OCR is unusable. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition’s — and the alphabet button strips it back to the bare rasm exactly as Macnaghten prints it. Romanization is simplified IJMES. Spelling, including the edition’s Middle Arabic forms and its occasional compositor’s slips, is preserved unaltered; a few genuinely obscure or corrupt-looking forms are vocalized by evident sense and flagged in the notes rather than silently repaired. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized automatically once this file is published, with word-by-word timing generated the same way.",
+ "about": "This night closes the frame's third-sheikh sequence — the jinni, won over, pardons the rest of the condemned merchant's life outright, and the sheikhs part ways — then opens the Story of the Fisherman: an old, poor fisherman who casts his net only four times a day pulls up, in turn, a dead donkey, a jar of sand, and a heap of broken pottery, before his fourth cast brings a sealed copper jar stamped with Solomon's seal. Opening it releases a rebellious jinni whom Solomon once imprisoned there, and who now, after long ages awaiting rescue, has resolved to kill whoever finally frees him; the night breaks off as the fisherman, having talked the efrit into naming his own death, turns the tables with a challenge sworn on Solomon's own Greatest Name. As with every printed edition of the Nights, this one belongs to the late Egyptian recension (ZER) — an eighteenth-century expansion padded out to a literal 1001 nights; no printed edition is a medieval text, and Macnaghten regularized the language toward Classical Arabic here and there, so some of the original Middle Arabic texture is a nineteenth-century retrofit. The tale is frank about violence and mortal threat, and is translated that way.",
+ "glossaryFile": "nights-glossary.json",
+ "sentences": [
+  {
+   "t": "فَلَمَّا كَانَتِ اللَّيْلَةُ الثَّالِثَةُ قَالَتْ لَهَا أُخْتُهَا دُنْيَازَادُ يَا أُخْتِي أَتِمِّي لَنَا حَدِيثَكِ",
+   "tr": "fa-lammā kānati al-laylatu al-thālithatu qālat lahā ukhtuhā Dunyāzādu yā ukhtī atimmī lanā ḥadīthaki",
+   "l": "And when the third night was, her sister Dunyazad said to her: O my sister, complete for us your story.",
+   "i": "And when the third night came, her sister Dunyazad said to her, 'O my sister, finish your story for us.'",
+   "n": "This is the night's own opening formula (fa-lammā kānat al-layla...), repeated with the ordinal changed each night. كَانَتْ here is a \"complete\" verb meaning \"occurred, came to pass,\" not a copula, so اللَّيْلَةُ الثَّالِثَةُ stands as its subject with no separate predicate stated."
+  },
+  {
+   "t": "فَقَالَتْ حَبًّا وَكَرَامَةً بَلَغَنِي أَيُّهَا الْمَلِكُ السَّعِيدُ أَنَّ الشَّيْخَ الثَّالِثَ قَالَ لِلْجِنِّيِّ حِكَايَةً أَعْجَبَ مِنَ الْحِكَايَتَيْنِ",
+   "tr": "fa-qālat ḥabban wa-karāmatan balaghanī ayyuhā al-maliku al-saʿīdu anna al-shaykha al-thālitha qāla li-al-jinniyyi ḥikāyatan aʿjaba mina al-ḥikāyatayni",
+   "l": "So she said: With love and honor. It has reached me, O fortunate king, that the third sheikh told the jinni a tale more-wondrous than the two tales.",
+   "i": "So she said, 'Gladly, and with honor.' It has reached me, O fortunate king, that the third sheikh told the jinni a tale stranger still than the first two.",
+   "n": "حَبًّا وَكَرَامَةً, 'with love and with honor,' is a fixed formula of willing assent — Shahrazad's stock reply whenever asked to go on. بَلَغَنِي أَيُّهَا الْمَلِكُ السَّعِيدُ...أَنَّ is the standard formula opening a tale, with أَنَّ complementing 'it has reached me that...'"
+  },
+  {
+   "t": "فَتَعَجَّبَ الْجِنِّيُّ غَايَةَ الْعَجَبِ وَاهْتَزَّ مِنَ الطَّرَبِ",
+   "tr": "fa-taʿajjaba al-jinniyyu ghāyata al-ʿajabi wa-ihtazza mina al-ṭarabi",
+   "l": "So the jinni was amazed to the utmost of wonder, and shook from the rapture.",
+   "i": "The jinni was utterly amazed, and trembled with delight.",
+   "n": "غَايَةَ الْعَجَبِ, literally 'to the extremity of wonder,' is an accusative of degree — a common way to intensify a verb without an adverb."
+  },
+  {
+   "t": "وَقَالَ قَدْ وَهَبْتُ لَكَ بَاقِيَ جِنَايَتِهِ وَأَطْلَقْتُهُ لَكُمْ",
+   "tr": "wa-qāla qad wahabtu laka bāqiya jināyatihi wa-aṭlaqtuhu lakum",
+   "l": "And he said: I have granted you the remainder of his crime, and I have released him for you (pl.).",
+   "i": "And he said, 'I have granted you what remained of his penalty, and set him free for your sakes.'",
+   "n": "جِنَايَتِهِ, 'his crime,' is the merchant's forfeited life, which the jinni had sworn earlier in the frame to take; بَاقِيَ, 'the remainder of,' recalls that each sheikh's tale had already bought back a third of that debt."
+  },
+  {
+   "t": "فَأَقْبَلَ التَّاجِرُ عَلَى الشُّيُوخِ وَشَكَرَهُمْ وَهَنَّوْهُ بِالسَّلَامَةِ",
+   "tr": "fa-aqbala al-tājiru ʿalā al-shuyūkhi wa-shakarahum wa-hannawhu bi-al-salāmati",
+   "l": "So the merchant turned to the sheikhs and thanked them, and they congratulated him on the safety.",
+   "i": "The merchant then turned to the sheikhs and thanked them, and they wished him joy of his deliverance.",
+   "n": "The subject shifts silently from the merchant (شَكَرَهُمْ, 'he thanked them') to the sheikhs (هَنَّوْهُ, 'they congratulated him') without a new pronoun stated, as is normal in this terse narrative style. هَنَّوْهُ is a Form II verb from a root spelled here with wāw (هنو) rather than the more familiar hamza-spelling هنأ, kept as the edition prints it."
+  },
+  {
+   "t": "وَرَجَعَ كُلُّ وَاحِدٍ إِلَى بَلَدِهِ",
+   "tr": "wa-rajaʿa kullu wāḥidin ilā baladihi",
+   "l": "And each one returned to his country."
+  },
+  {
+   "t": "وَمَا هَذَا بِأَعْجَبَ مِنْ حِكَايَةِ الصَّيَّادِ",
+   "tr": "wa-mā hādhā bi-aʿjaba min ḥikāyati al-ṣayyādi",
+   "l": "And this is not more-wondrous than the story of the fisherman.",
+   "n": "Shahrazad's own bridging remark, closing the frame-tale of the merchant and the jinni before the heading that follows opens a new story."
+  },
+  {
+   "t": "حِكَايَةُ الصَّيَّادِ",
+   "tr": "ḥikāyatu al-ṣayyādi",
+   "l": "The Story of the Fisherman",
+   "n": "This is a section heading the edition itself prints as its own line, marking the start of a new tale within Shahrazad's telling — not a line spoken by any character.",
+   "h": true,
+   "r": true,
+   "p": true
+  },
+  {
+   "t": "قَالَ وَكَيْفَ ذَلِكَ",
+   "tr": "qāla wa-kayfa dhālika",
+   "l": "He said, 'And how was that?'",
+   "n": "The king's brief question resumes the frame immediately after the heading, prompting Shahrazad to begin the new tale.",
+   "p": true
+  },
+  {
+   "t": "قَالَتْ أَيُّهَا الْمَلِكُ السَّعِيدُ إِنَّهُ كَانَ رَجُلًا صَيَّادًا وَكَانَ طَاعِنًا فِي السِّنِّ وَلَهُ زَوْجَةٌ وَثَلٰثَةُ أَوْلَادٍ وَهُوَ فَقِيرُ الْحَالِ",
+   "tr": "qālat ayyuhā al-maliku al-saʿīdu innahu kāna rajulan ṣayyādan wa-kāna ṭāʿinan fī al-sinni wa-lahu zawjatun wa-thalāthatu awlādin wa-huwa faqīru al-ḥāli",
+   "l": "She said: O fortunate king, indeed he was a man, a fisherman, and he was advanced in the tooth, and he had a wife and three children, and he (was) poor of the state.",
+   "i": "She said: O fortunate king, there was once a man, a fisherman, well on in years; he had a wife and three children, and he was poor in circumstance.",
+   "n": "طَاعِنًا فِي السِّنِّ, literally 'thrusting into the tooth,' is the fixed idiom for being advanced in years — worth flagging here since it may recur. Note إِنَّهُ here opens fresh narration after قالت, unlike the أَنَّهُ of the next unit, which genuinely completes 'it was his custom that...'"
+  },
+  {
+   "t": "وَكَانَ مِنْ عَادَتِهِ أَنَّهُ يَرْمِي شَبَكَتَهُ كُلَّ يَوْمٍ أَرْبَعَ مَرَّاتٍ لَا غَيْرُ",
+   "tr": "wa-kāna min ʿādatihi annahu yarmī shabakatahu kulla yawmin arbaʿa marrātin lā ghayru",
+   "l": "And it was from his custom that he casts his net every day four times, no more.",
+   "i": "It was his custom to cast his net four times a day, and no more.",
+   "n": "لَا غَيْرُ, literally 'nothing else,' is a fixed tail-phrase meaning simply 'only, no more.'"
+  },
+  {
+   "t": "ثُمَّ إِنَّهُ خَرَجَ يَوْمًا مِنْ بَعْضِ الْأَيَّامِ فِي وَقْتِ الظُّهْرِ وَأَتَى إِلَى شَاطِئِ الْبَحْرِ وَحَطَّ مَقْعَدَتَهُ وَشَمَّرَ قَمِيصَهُ",
+   "tr": "thumma innahu kharaja yawman min baʿḍi al-ayyāmi fī waqti al-ẓuhri wa-atā ilā shāṭiʾi al-baḥri wa-ḥaṭṭa maqʿadatahu wa-shammara qamīṣahu",
+   "l": "Then he went out one day, from some of the days, at the time of noon, and came to the shore of the sea, and set down his gear, and rolled up his shirt.",
+   "i": "Then one day he went out at noontide, came to the seashore, set down his gear, and rolled up his shirt.",
+   "n": "يَوْمًا مِنْ بَعْضِ الْأَيَّامِ, literally 'a day from some of the days,' is a stock way of saying simply 'one day' — the first of several such padded phrases in this tale. مَقْعَدَتَهُ literally means 'his seat, his place of sitting'; it is rendered here by sense as his gear or stool, since no single common English word for a fisherman's tackle is a safe literal match. ثُمَّ إِنَّهُ is the same narrative connective used in the frame's opening ('then, thereupon'), not real emphasis."
+  },
+  {
+   "t": "وَخَاضَ فِي الْبَحْرِ وَطَرَحَ شَبَكَتَهُ وَصَبَرَ إِلَى أَنِ اسْتَقَرَّتْ فِي الْمَاءِ وَجَمَعَ خِيطَانَهَا",
+   "tr": "wa-khāḍa fī al-baḥri wa-ṭaraḥa shabakatahu wa-ṣabara ilā ani istaqarrat fī al-māʾi wa-jamaʿa khīṭānahā",
+   "l": "And he waded into the sea, and cast his net, and waited until it settled in the water, and gathered its cords.",
+   "i": "He waded into the sea, cast his net, and waited until it had settled in the water, then gathered in its cords.",
+   "n": "خِيطَانَهَا, 'its cords,' are the net's draw-strings, gathered here to close and haul it in."
+  },
+  {
+   "t": "فَوَجَدَهَا ثَقُلَتْ فَجَذَبَهَا فَلَمْ يَقْدِرْ عَلَى ذَلِكَ",
+   "tr": "fa-wajadahā thaqulat fa-jadhabahā fa-lam yaqdir ʿalā dhālika",
+   "l": "And he found it (had) become heavy, so he pulled it, but he was not able to that.",
+   "i": "He found it grown heavy, pulled at it, but could not manage it."
+  },
+  {
+   "t": "فَجَاءَ بِالطَّرَفِ لِلْبَرِّ وَدَقَّ وَتَدًا وَرَبَطَهَا",
+   "tr": "fa-jāʾa bi-al-ṭarafi li-al-barri wa-daqqa watadan wa-rabaṭahā",
+   "l": "So he came with the end (of the rope) to the shore, and drove in a stake, and tied it."
+  },
+  {
+   "t": "وَتَعَرَّى وَغَطَسَ فِي الْمَاءِ حَوْلَ الشَّبَكَةِ وَمَازَالَ يُعَاقِرُ حَتَّى أَطْلَعَهَا",
+   "tr": "wa-taʿarrā wa-ghaṭasa fī al-māʾi ḥawla al-shabakati wa-mā zāla yuʿāqiru ḥattā aṭlaʿahā",
+   "l": "And he stripped, and plunged into the water around the net, and did not cease to contend, until he brought it up.",
+   "i": "He stripped and plunged into the water around the net, and kept struggling with it until he had raised it up.",
+   "n": "مَا زَالَ + a present-tense verb is the standard construction for 'kept on doing'; here it is printed fused as one word, وَمَازَالَ. يُعَاقِرُ carries the sense 'to contend, wrestle with' here, not its more familiar sense 'to be addicted to (wine).'"
+  },
+  {
+   "t": "فَفَرِحَ وَطَلَعَ وَلَبِسَ ثِيَابَهُ وَأَتَى إِلَى الشَّبَكَةِ",
+   "tr": "fa-fariḥa wa-ṭalaʿa wa-labisa thiyābahu wa-atā ilā al-shabakati",
+   "l": "So he rejoiced, and came up, and put on his clothes, and came to the net.",
+   "i": "He rejoiced, climbed out, dressed himself, and went to the net."
+  },
+  {
+   "t": "فَوَجَلَ فِيهَا حِمَارًا مَيِّتًا وَقَدْ خَرَقَ الشَّبَكَةَ",
+   "tr": "fa-wajala fīhā ḥimāran mayyitan wa-qad kharaqa al-shabakata",
+   "l": "And he found in it a dead donkey, and it had torn the net.",
+   "i": "And in it he found a dead donkey, which had torn the net.",
+   "n": "فَوَجَلَ prints و-ج-ل where sense requires وَجَدَ, 'he found' — a non-standard spelling kept as printed rather than silently corrected to the expected root."
+  },
+  {
+   "t": "فَلَمَّا رَأَى ذَلِكَ حَزِنَ وَقَالَ لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ الْعَلِيِّ الْعَظِيمِ",
+   "tr": "fa-lammā raʾā dhālika ḥazina wa-qāla lā ḥawla wa-lā quwwata illā bi-llāhi al-ʿaliyyi al-ʿaẓīmi",
+   "l": "And when he saw that, he grieved, and said: There (is) no power and no strength except in God, the High, the Great.",
+   "i": "When he saw that, he was grieved, and said, 'There is no power and no strength save in God, the Most High, the Most Great.'",
+   "n": "A traditional Islamic exclamation of resignation in the face of misfortune, still in everyday use."
+  },
+  {
+   "t": "ثُمَّ إِنَّ الصَّيَّادَ قَالَ إِنَّ هَذَا الرِّزْقَ عَجِيبٌ وَأَنْشَدَ يَقُولُ",
+   "tr": "thumma inna al-ṣayyāda qāla inna hādhā al-rizqa ʿajībun wa-anshada yaqūlu",
+   "l": "Then indeed the fisherman said: Indeed this the provision (is) strange. And he recited, saying:",
+   "i": "Then the fisherman said, 'This catch is a strange business indeed!' And he recited these lines:",
+   "n": "الرِّزْق, 'provision, daily sustenance,' stands here for whatever the sea has brought him — his catch or fortune for the night; the verse he recites follows in the next unit of the archive."
+  },
+  {
+   "t": "يَا خَائِضًا فِي ظَلَامِ اللَّيْلِ وَالْهَلَكَهْ * انْصُرْ عَنَاكَ فَلَيْسَ الرِّزْقُ بِالْحَرَكَهْ\nاَمَا تَرَى الْبَحْرَ وَالصَّيَّادَ مُنْتَصِبًا * لِرِزْقِهِ وَنُجُومُ اللَّيْلِ مُتَبِّكَهْ\nقَدْ خَاضَ فِي وَسْطِهِ وَالْمَوْجُ يَلْطِمُهُ * وَعَيْنُهُ لَمْ تَزَلْ فِي كَلِّ الشَّبَكَهْ\nحَتَّى اِذَا بَاتَ مَسْرُورًا بِلَيْلَتِهِ * بِالْحُوتِ قَدْ شَقَّ سَفُودُ الرَّدَى حَنَكَهْ\nابْتَاعَهُ مِنْهُ مَنْ قَدْ بَاتَ لَيْلَتَهُ * سَالِمٌ مِنَ الْبَرْدِ فِي خَيْرٍ مِنَ الْبَرَكَهْ\nسُبْحَانَ رَبِّي يُعْطِي ذَا وَيَحْرِمُ ذَا * هَذَا يَصِيدُ وَهَذَا يَاكُلُ السَّمَكَهْ",
+   "tr": "yā khāʾiḍan fī ẓalāmi al-layli wa-al-halakah * unṣur ʿanāka fa-laysa al-rizqu bi-al-ḥarakah\namā tarā al-baḥra wa-al-ṣayyāda muntaṣiban * li-rizqihi wa-nujūmu al-layli mutabbikah\nqad khāḍa fī wasṭihi wa-al-mawju yalṭimuhu * wa-ʿaynuhu lam tazal fī kalli al-shabakah\nḥattā idhā bāta masrūran bi-laylatihi * bi-al-ḥūti qad shaqqa safūdu al-radā ḥanakah\nibtāʿahu minhu man qad bāta laylatahu * sālimun mina al-bardi fī khayrin mina al-barakah\nsubḥāna rabbī yuʿṭī dhā wa-yaḥrimu dhā * hādhā yaṣīdu wa-hādhā yaʾkulu al-samakah",
+   "l": "O one-wading in-the-darkness of-the-night and-the-perdition * Help your-toil, for the-provision is-not by-the-exertion\nDo-you-not see the-sea and-the-fisherman standing-erect * for-his-provision, while-stars-of the-night are-crowded\nIndeed he-has-waded into its-midst while-the-wave buffets-him * and-his-eye has-not-ceased (to be fixed) on all-of the-net\nUntil when he-spent-the-night rejoicing in-his-night('s catch) * with-the-fish — indeed the-spit-of destruction has-already-split its-jaw\nOne-who spent his-night bought-it from-him, * safe from-the-cold, in good from-the-abundance\nGlory-be-to my-Lord: He-gives this-one and-deprives that-one * this-one hunts, and-this-one eats the-fish",
+   "i": "O you who wade through the darkness of night and peril, give some ease to your toil — for one's bread does not come by mere exertion.\nDo you not see the sea, and the fisherman standing there for his living, while the stars of night crowd the sky above him?\nHe has waded into its depths while the waves buffet him, and his eye never leaves the net.\nUntil, when he passes the night rejoicing over his catch, the spit of death has already pierced that very fish's jaw.\nIt is bought from him by one who has spent his night safe from the cold, in comfort and plenty.\nGlory to my Lord, who gives to one and withholds from another: this one does the fishing, and that one eats the fish.",
+   "n": "Fully pointed by the edition itself, unlike most of this slice's prose. سَفُود (“safūd”) is a butcher's iron roasting-spit — the dark point of line 4 is that the very fish the fisherman rejoices over is already, in effect, skewered for someone else's table, confirmed by line 5, where another man, warm and comfortable, buys it from him. مُتَبِّكَهْ (“mutabbikah,” l.2) matches no known root in this shape; the sense wanted is “crowded/jumbled together,” and the likeliest explanation is a printer's transposition of مُرْتَبِكَة (“murtabikah,” entangled, from ر-ب-ك), reproduced here exactly as Macnaghten prints it. كَلِّ (l.3) is likewise printed with fatḥa where one expects كُلِّ (“all/every”) — kept as pointed, read with the ordinary sense.",
+   "v": true
+  },
+  {
+   "t": "ثُمَّ قَالَ هَيَا لَا بَلْ مِنْ كَرَامَةٍ إِنْ شَاءَ اللَّهُ تَعَالَى وَأَنْشَدَ يَقُولُ",
+   "tr": "thumma qāla hayā — lā bal min karāmatin in shāʾa Allāhu taʿālā wa-anshada yaqūlu",
+   "l": "Then he-said, 'Hayā — no, rather out-of an-honor, if God Most-High wills,' and-he-recited, saying:",
+   "i": "Then he said, 'Enough of that — no, it is rather a mark of grace, God willing,' and recited, saying:",
+   "n": "هَيَا (“hayā”) is obscure: no other occurrence in the archive fixes its sense, and there is no way to resolve it with confidence. It is vocalised here as printed, by evident sense, and read as an exclamatory interjection — something like colloquial “hayya,” “come now!/enough!” — the likeliest candidate; it could equally be a corrupt or dialectal spelling of another word. “Then he said … and recited, saying:” is this narrator's standing formula for introducing a quoted poem; it recurs at units 27, 31 and 37."
+  },
+  {
+   "t": "وَاِذَا بُلِيتَ بِعُسْرَةٍ فَالْبَسْ لَهَا * صَبْرَ الْكَرِيمِ فَاِنَّ ذَلِكَ اَحْزَمُ\nلَا تَشْكُوَنَّ اِلَى الْعِبَادِ فَاِنَّمَا * تَشْكُوا الرَّحِيمَ اِلَى الَّذِي لَا يَرْحَمُ",
+   "tr": "wa-idhā buliyta biʿusratin fa-albis lahā * ṣabra al-karīmi fa-inna dhālika aḥzamu\nlā tashkuwanna ilā al-ʿibādi fa-innamā * tashkū al-raḥīma ilā alladhī lā yarḥamu",
+   "l": "And-when you-are-afflicted with-a-hardship, then-clothe (yourself) with-it * (with) the-patience-of the-noble-one, for indeed that is-more-prudent\nDo-not complain-at-all to the-servants (of God), for-rather * you-would-be-complaining-of the-Merciful-One to him-who does-not show-mercy",
+   "i": "When hardship befalls you, meet it with the patience of the noble-hearted, for that is the wiser course. Do not carry your complaint to mere creatures, for in doing so you would only be complaining of the Merciful One to one who shows no mercy at all.",
+   "n": "A well-known proverb-couplet: since God alone is truly merciful, complaining of one's lot to a fellow creature (الْعِبَاد, lit. “the servants,” i.e. God's other servants) gains nothing — it is complaining about the Merciful to someone with no mercy to give.",
+   "v": true
+  },
+  {
+   "t": "ثُمَّ خَلَّصَهُ مِنَ الشَّبَكَةِ وَعَصَرَهَا فَلَمَّا فَرَغَ مِنْ عَصْرِهَا نَشَرَهَا وَخَاضَ الْبَحْرَ",
+   "tr": "thumma khallaṣahu mina al-shabakati wa-ʿaṣarahā fa-lammā faragha min ʿaṣrihā nasharahā wa-khāḍa al-baḥra",
+   "l": "Then he-freed-it from the-net and-wrung-it-out; then-when he-finished from wringing-it-out, he-spread-it-out and-waded (into) the-sea.",
+   "i": "Then he freed it from the net and wrung the net dry; and when he had finished wringing it, he spread it out and waded into the sea.",
+   "n": "“It” (خَلَّصَهُ, masc.) is the dead donkey his net brought up on the earlier cast, told in the previous slice; the “it” that follows (عَصَرَهَا, fem.) is the net itself, wrung dry before the next cast."
+  },
+  {
+   "t": "وَقَالَ بِسْمِ اللَّهِ وَطَرَحَهَا وَصَبَرَ عَلَيْهَا حَتَّى اسْتَقَرَّتْ فَثَقُلَتْ وَرَسَخَتْ أَكْثَرَ مِنَ الْأَوَّلِ",
+   "tr": "wa-qāla bismi Allāhi wa-ṭaraḥahā wa-ṣabara ʿalayhā ḥattā istaqarrat fa-thaqulat wa-rasakhat akthara mina al-awwali",
+   "l": "And-he-said, 'In-the-name of-God,' and-cast-it, and-was-patient over-it until it-settled; so-it-became-heavy and-lodged-fast, more than the-first(-time).",
+   "i": "And he said, 'In the name of God,' cast it, and waited patiently until it had settled; and it grew heavier and lodged faster than the first time.",
+   "n": "بِسْمِ اللَّهِ (“in the name of God”) is the basmala, spoken before beginning an action; the fisherman says it before each of his four casts (again at unit 35)."
+  },
+  {
+   "t": "فَظَنَّ أَنَّهُ سَمَكٌ فَرَبَطَ الشَّبَكَةَ وَتَعَرَّى وَنَزَلَ وَغَطَسَ إِلَى أَنْ خَلَّصَهَا",
+   "tr": "fa-ẓanna annahu samakun fa-rabaṭa al-shabakata wa-taʿarrā wa-nazala wa-ghaṭasa ilā an khallaṣahā",
+   "l": "So-he-supposed (that) it (was) fish; so-he-made-fast the-net, and-stripped, and-went-down, and-dove, until he-freed-it.",
+   "i": "He supposed it must be fish, so he made the net fast, stripped, went down, and dove until he had freed it."
+  },
+  {
+   "t": "وَعَاقَرَ إِلَى أَنْ طَلَّعَهَا عَلَى الْبَرِّ فَوَجَدَ فِيهَا زِيرًا كَبِيرًا وَهُوَ مَلْآنُ رَمْلٍ وَطِينٍ",
+   "tr": "wa-ʿāqara ilā an ṭallaʿahā ʿalā al-barri fa-wajada fīhā zīran kabīran wa-huwa malʾānu ramlin wa-ṭīnin",
+   "l": "And-he-struggled-on until he-brought-it-up onto the-shore; and-he-found in-it a-jar, large, and-it (was) full-of sand and-mud.",
+   "i": "He struggled on until he had hauled it up onto the shore, and found in it a great jar, full of sand and mud.",
+   "n": "زِير (“zīr”) is a large squat earthenware storage-jar, the standard household vessel for water or grain; مَلْآن (“malʾān,” full) takes a bare genitive complement (“full ‹of› sand and mud”) rather than a preposition."
+  },
+  {
+   "t": "فَلَمَّا رَأَى ذَلِكَ تَأَسَّفَ وَأَنْشَدَ يَقُولُ",
+   "tr": "fa-lammā raʾā dhālika taʾassafa wa-anshada yaqūlu",
+   "l": "Then when he saw that, he grieved, and recited, saying:"
+  },
+  {
+   "t": "خَرَجْتُ أَطْلُبُ رِزْقِي * وَجَدْتُ رِزْقِي نَوْفِي\nكَمْ جَاهِلٍ فِي الثُّرَيَّا * وَعَالِمٍ فِي الثَّرَى مَخْفِي",
+   "tr": "kharajtu aṭlubu rizqī * wajadtu rizqī nawfī\nkam jāhilin fī al-thurayyā * wa-ʿālimin fī al-tharā makhfī",
+   "l": "I-went-out seeking my-provision * I-found my-provision (to be) my-full-measure\nHow-many an-ignorant-one (there is) amid the-Pleiades * and-a-learned-one, in-the-dust, hidden",
+   "i": "I went out to seek my livelihood, and found that my livelihood was already my full portion. How many a fool sits among the Pleiades, while a scholar lies hidden in the dust!",
+   "n": "نَوْفِي (“nawfī”) is uncertain: read here from the root ن-و-ف (“nawf,” excess/abundance), giving “I found my provision (to be) my full measure” — fitting the poem's bitter irony (a jar of mud counted as his ‘full share’) — but no other attestation confirms this reading. The couplet turns on a pun between الثُّرَيَّا (“al-thurayyā,” the Pleiades, standing for high station) and الثَّرَى (“al-tharā,” the dust/earth, standing for lowliness) — near-homophones classical Arabic often pairs for exactly this proverb about undeserved fortune.",
+   "v": true
+  },
+  {
+   "t": "ثُمَّ إِنَّهُ رَمَى الزِّيرَ وَعَصَرَ شَبَكَتَهُ، وَنَظَّفَهَا وَاسْتَغْفَرَ اللَّهَ تَعَالَى",
+   "tr": "thumma innahu ramā al-zīra wa-ʿaṣara shabakatahu, wa-naẓẓafahā wa-istaghfara Allāha taʿālā",
+   "l": "Then indeed-he threw the-jar and-wrung-out his-net, and-cleaned-it and-asked-forgiveness-of God Most-High.",
+   "i": "Then he tossed the jar aside and wrung out his net, cleaned it, and asked God Most High's forgiveness.",
+   "n": "The comma after شَبَكَتَهُ is print punctuation in the edition itself (rare in this text) and is kept here as furniture, not a word. Asking forgiveness after venting his frustration in verse is a pious reflex, not an admission of real fault."
+  },
+  {
+   "t": "وَعَادَ إِلَى الْبَحْرِ ثَالِثَ مَرَّةٍ وَرَمَى الشَّبَكَةَ وَصَبَرَ عَلَيْهَا حَتَّى اسْتَقَرَّتْ وَجَذَبَهَا",
+   "tr": "wa-ʿāda ilā al-baḥri thālitha marratin wa-ramā al-shabakata wa-ṣabara ʿalayhā ḥattā istaqarrat wa-jadhabahā",
+   "l": "And-he-returned to the-sea a-third time, and-cast the-net, and-was-patient over-it until it-settled, and-pulled-it.",
+   "i": "And he went back to the sea a third time, cast the net, and waited patiently until it had settled, then hauled it in."
+  },
+  {
+   "t": "فَوَجَدَ فِيهَا شَقَافًا وَقَوَارِيرَ وَعِظَامًا فَاغْتَاظَ جِدًّا وَبَكَى وَأَنْشَدَ يَقُولُ",
+   "tr": "fa-wajada fīhā shaqāfan wa-qawārīra wa-ʿiẓāman fa-ightāẓa jiddan wa-bakā wa-anshada yaqūlu",
+   "l": "And-he-found in-it potsherds and-bottles and-bones; so-he-became-enraged greatly, and-wept, and-recited, saying:",
+   "i": "And he found in it potsherds, bottles, and bones; so he flew into a rage, wept, and recited, saying:",
+   "n": "شَقَاف (spelled with the long ا, rather than the more usual شَقَف) are broken shards of pottery; along with the bottles and bones, this second haul of rubbish escalates the futility of the first (a jar of sand and mud) before the fourth cast finally brings up the copper jar, in the next slice."
+  },
+  {
+   "t": "هُوَ الرِّزْقُ لَا حَلٌّ لَدَيْكَ وَلَا رَبْطُ * وَلَا أَدَبٌ يُعْطِيكَ رِزْقًا وَلَا خَطَأُ\nوَلَا الْحَظُّ وَالْأَرْزَاقُ إِلَّا مُقَسَّمُ * فَأَرْضٌ بِهَا خِصْبٌ وَأَرْضٌ بِهَا قَحْطُ\nتُحِيطُ صُرُوفُ الدَّهْرِ كُلَّ مُهَذَّبٍ * وَتَرْفَعُ مَنْ لَا يَسْتَحِقُّ لَهُ الْخَطُّ\nفَيَا مَوْتُ زُرْ اِنَّ الْحَيَوةَ ذَمِيمَةٌ * اِذَا انْحَطَّتِ الْبَازَاتُ وَارْتَفَعَ الْبَطُّ\nفَلَا عَجَبًا إِنْ كُنْتَ عَايَنْتَ فَاضِلًا * فَقِيرًا وَذَا نَقْصٍ بِلَهْ وَلَتُهُ يَسْطُو\nفَطَيْرٌ يَطُوفُ الْأَرْضَ شَرْقًا وَمَغْرِبًا * وَآخَرُ يُعْطَى الطَّيِّبَاتِ وَلَا يَخْطُو",
+   "tr": "huwa al-rizqu lā ḥallun ladayka wa-lā rabṭu * wa-lā adabun yuʿṭīka rizqan wa-lā khaṭaʾu\nwa-lā al-ḥaẓẓu wa-al-arzāqu illā muqassamu * fa-arḍun bihā khiṣbun wa-arḍun bihā qaḥṭu\ntuḥīṭu ṣurūfu al-dahri kulla muhadhdhabin * wa-tarfaʿu man lā yastaḥiqqu lahu al-khaṭṭu\nfa-yā mawtu zur inna al-ḥayāta dhamīmatun * idhā inḥaṭṭati al-bāzātu wa-irtafaʿa al-baṭṭu\nfa-lā ʿajaban in kunta ʿāyanta fāḍilan * faqīran wa-dhā naqṣin bilah wa-latuhu yasṭū\nfa-ṭayrun yaṭūfu al-arḍa sharqan wa-maghriban * wa-ākharu yuʿṭā al-ṭayyibāti wa-lā yakhṭū",
+   "l": "It (is) the-provision: there-is neither untying with-you nor tying, * nor (does) refinement give-you provision, nor (does) error (take-it-away).\nNor (is) fortune and-the-provisions anything but apportioned: * for-a-land has-in-it fertility, and-a-land has-in-it drought.\nThe-turns of-time encompass every refined-one, * and-raise-up (one) who does-not deserve that the-rank (be) his.\nSo-O death, pay-a-visit! Indeed life is-blameworthy, * when the-falcons sink-down and-the-ducks rise-up.\nSo (it is) no wonder, if you-have witnessed a-man-of-excellence, * poor, and-one-possessed-of a-defect [uncertain: ‘foolish’?] — his-sway prevails.\nFor-a-bird roams the-earth, east and-west, * while-another is-given the-good-things and-does-not (even) step.",
+   "i": "Such is fortune: you can neither loose it nor bind it; no refinement wins you your bread, and no fault costs you it. Luck, like every portion, is nothing but a thing allotted — one land lies fertile, another lies parched. Time's turns close in on every man of breeding, and raise up one who has earned no claim to rank at all. So come, O Death, and pay your visit — for life itself is a vile thing, when the falcons are brought low and the ducks are raised on high. Small wonder, then, if you have seen with your own eyes a worthy man reduced to poverty, while some base fool's sway runs unchecked. One bird wears itself out roaming the earth from east to west, while another is given every good thing and never takes a step.",
+   "n": "بِلَهْ وَلَتُهُ (l.5) resists a confident reading: the vocalisation as printed gives “bilah walatuhu,” and the likeliest sense — “a foolish man, whose sway/dominion (a metrical contraction of وِلَايَتُهُ) prevails” — is offered here without full confidence; the line may be corrupt. الْبَازَاتُ / الْبَطُّ (falcons/ducks, l.4) is a stock image for the noble brought low and the common man raised up — the same point the whole poem makes about undeserved fortune. الْحَيَوةَ is the older spelling of الْحَيَاة with wāw for the long ā (as in الصَّلَوة elsewhere in this pipeline); the wāw is silent.",
+   "v": true
+  },
+  {
+   "t": "ثُمَّ إِنَّهُ رَفَعَ رَأْسَهُ إِلَى السَّمَاءِ وَقَالَ اللَّهُمَّ إِنَّكَ تَعْلَمُ أَنِّي لَمْ أَرْمِ شَبَكَتِي كُلَّ يَوْمٍ إِلَّا أَرْبَعَ مَرَّاتٍ",
+   "tr": "thumma innahu rafaʿa raʾsahu ilā al-samāʾi wa-qāla Allāhumma innaka taʿlamu annī lam armi shabakatī kulla yawmin illā arbaʿa marrātin",
+   "l": "Then indeed-he raised his-head to the-sky and-said, 'O-God, indeed-You know that-I have-not thrown my-net any day except four times.'",
+   "i": "Then he raised his head to the sky and said, 'O God, You know that I never cast my net more than four times in a day.'",
+   "n": "اللَّهُمَّ (“Allāhumma,” O God) is the special vocative form of God's name, used only in direct address/prayer, with the extra -umma taking the place of the usual vocative يَا."
+  },
+  {
+   "t": "وَقَدْ رَمَيْتُ ثَلَاثًا وَلَمْ يَأْتِنِي شَيْءٌ فَارْزُقْنِي اللَّهُمَّ فِي هَذِهِ الْمَرَّةِ بِرِزْقِي",
+   "tr": "wa-qad ramaytu thalāthan wa-lam yaʾtinī shayʾun fa-urzuqnī Allāhumma fī hādhihi al-marrati bi-rizqī",
+   "l": "And-I-have indeed cast three-times, and-nothing has-come to-me; so-grant-me-provision, O-God, in this the-turn, with-my-due.",
+   "i": "I have already cast three times and nothing has come to me; so grant me, O God, my provision this time."
+  },
+  {
+   "t": "ثُمَّ إِنَّهُ سَمَّى اللَّهَ وَرَمَى الشَّبَكَةَ فِي الْبَحْرِ وَصَبَرَ إِلَى أَنِ اسْتَقَرَّتْ",
+   "tr": "thumma innahu sammā Allāha wa-ramā al-shabakata fī al-baḥri wa-ṣabara ilā ani istaqarrat",
+   "l": "Then indeed-he invoked-the-name-of God, and-cast the-net into the-sea, and-was-patient until it-settled.",
+   "i": "Then he said God's name, cast the net into the sea, and waited patiently until it settled."
+  },
+  {
+   "t": "وَجَذَبَهَا فَلَمْ يُطِقْ جَذْبَهَا وَإِذَا بِهَا اشْتَبَكَتْ فِي الْأَرْضِ",
+   "tr": "wa-jadhabahā fa-lam yuṭiq jadhbahā wa-idhā bihā ishtabakat fī al-arḍi",
+   "l": "And-he-pulled-it, but-he-was-not-able (to do) its-pulling; and-behold, with-it — it-had-become-entangled in the-ground.",
+   "i": "And he pulled at it, but could not draw it in; and behold, it had caught fast in the ground.",
+   "n": "اشْتَبَكَتْ (“ishtabakat,” became entangled) shares its root with الشَّبَكَة (“the net”) itself — the net is, in a sense, netted."
+  },
+  {
+   "t": "فَقَالَ لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ ثُمَّ أَنْشَدَ يَقُولُ",
+   "tr": "fa-qāla lā ḥawla wa-lā quwwata illā bi-Allāhi thumma anshada yaqūlu",
+   "l": "And-he-said, 'There-is-no power and-no strength except with-God'; then he-recited, saying:",
+   "i": "And he said, 'There is no power nor strength save in God'; then he recited, saying:",
+   "n": "The same ḥawqala recited a few lines earlier, at a like moment of frustration."
+  },
+  {
+   "t": "أُفٍّ لِلدُّنْيَا إِذَا كَانَتْ كَذَا * أَنَا فِيهَا فِي بَلَاءٍ وَأَذَى\nإِنْ صَفَا عَيْشُ امْرِئٍ فِي صُبْحِهَا * جَرَعَتْهُ مُمْسِيًا كَأْسَ الرَّدَى\nوَلَقَدْ كُنْتُ إِذَا مَا قِيلَ مَنْ * أَنْعَمُ الْعَالَمِ عَيْشًا قِيلَ ذَا",
+   "tr": "uffin li-al-dunyā idhā kānat kadhā * anā fīhā fī balāʾin wa-adhā\nin ṣafā ʿayshu imriʾin fī ṣubḥihā * jaraʿathu mumsiyan kaʾsa al-radā\nwa-laqad kuntu idhā mā qīla man * anʿamu al-ʿālami ʿayshan qīla dhā",
+   "l": "Fie on-the-world, when it-is thus! * I (am) in-it, in affliction and-harm,\nIf the-life of-a-man is-clear in-its-morning, * it-makes-him-drink, at-evening, the-cup of-destruction,\nAnd-indeed I-was — whenever it-was-said, 'Who (is) * the-most-thriving-of the-world in-living?' — it-was-said, '(It is) this-one.'",
+   "i": "Shame on this world, when it behaves so! I live in it amid affliction and harm. If a man's life is untroubled in its morning, the world makes him drain the cup of death by evening. And there was a time when, if it were asked, ‘Who lives most blessed in all the world?’ the answer given was, ‘This man’ — meaning myself.",
+   "n": "كَأْسَ الرَّدَى (“the cup of destruction/death”) is a stock image for a fatal reversal, drunk like a cup handed to a guest. The poem turns on the same reversal-of-fortune theme as the rest of the night: the speaker was once named the most fortunate man alive, and now finds himself the opposite.",
+   "v": true
+  },
+  {
+   "t": "وَتَعَرَّى وَغَطَسَ عَلَيْهَا وَصَارَ يُجَاهِدُ فِيهَا إِلَى أَنْ طَلَعَتْ عَلَى الْبَرِّ",
+   "tr": "wa-taʿarrā wa-ghaṭasa ʿalayhā wa-ṣāra yujāhidu fīhā ilā an ṭalaʿat ʿalā al-barri",
+   "l": "And-he-stripped and-dove upon-it, and-became (one) striving with-it, until it-came-up onto the-shore.",
+   "i": "And he stripped, dove down to it, and struggled with it until it rose up onto the shore."
+  },
+  {
+   "t": "وَفَتَحَ الشَّبَكَةَ فَوَجَدَ فِيهَا قُمْقُمَ نُحَاسٍ أَصْفَرَ مَلْأٰنَ وَفَمُهُ مَخْتُومٌ بِرَصَاصٍ",
+   "tr": "wa-fataḥa al-shabakata fa-wajada fīhā qumquma nuḥāsin aṣfara malʾāna wa-famuhu makhtūmun bi-raṣāṣ",
+   "l": "And he opened the net, and found in it a jar of copper, yellow, full, its mouth sealed with lead.",
+   "i": "He opened the net and found in it a jar of yellow copper, sealed at the mouth with lead.",
+   "n": "قمقم (qumqum) is a narrow-necked flask or jar — the vessel type traditionally imagined as able to imprison a jinni."
+  },
+  {
+   "t": "عَلَيْهِ طَبْعُ خَاتَمِ سَيِّدِنَا سُلَيْمَانَ بْنِ دَاوُدَ عَلَيْهِمَا السَّلَامُ",
+   "tr": "ʿalayhi ṭabʿu khātami sayyidinā Sulaymāna bni Dāwuda ʿalayhimā al-salām",
+   "l": "Upon it (was the) imprint (of the) seal (of) our-lord Solomon son (of) David — upon-them-both (be) the peace.",
+   "i": "Upon it was stamped the seal of our lord Solomon, son of David — peace be upon them both.",
+   "n": "The ‘Seal of Solomon’ (خاتم سليمان) is the legendary signet ring by which Solomon commanded the jinn. A jar closed with its imprint is proof that whatever is inside was shut in by Solomon himself — which is exactly what leads the efrit, a few lines below, to mistake the fisherman for the prophet returned to life."
+  },
+  {
+   "t": "فَلَمَّا رَآهُ الصَّيَّادُ فَرِحَ وَقَالَ هٰذَا أَبِيعُهُ فِي سُوقِ النُّحَاسِ فَإِنَّهُ يُسَاوِي عَشَرَةَ دَنَانِيرَ ذَهَبٍ",
+   "tr": "fa-lammā raʾāhu al-ṣayyādu fariḥa wa-qāla hādhā abīʿuhu fī sūqi al-nuḥāsi fa-innahu yusāwī ʿasharata danānīra dhahab",
+   "l": "And-when saw-him the-fisherman, he-rejoiced and-said, ‘This I-shall-sell-it in (the) market (of) the-copper, for-indeed-it is-worth ten dinars (of) gold.’",
+   "i": "When the fisherman saw it, he rejoiced and said, ‘This I shall sell in the copper market, for it is worth ten gold dinars.’",
+   "n": "دينار (dinar) is itself a loanword, ultimately from the Roman denarius by way of Byzantine and Persian coinage."
+  },
+  {
+   "t": "ثُمَّ إِنَّهُ حَرَّكَهُ فَوَجَدَهُ ثَقِيلًا وَوَجَدَهُ مَسْدُودًا",
+   "tr": "thumma innahu ḥarrakahu fa-wajadahu thaqīlan wa-wajadahu masdūdā",
+   "l": "Then he moved-it and-found-it heavy, and-found-it stopped-up.",
+   "i": "Then he shook it and found it heavy, and found it sealed fast.",
+   "n": "ثُمَّ إِنَّهُ again — the same stock connective noted earlier this night, moving the narrative forward rather than marking real emphasis."
+  },
+  {
+   "t": "فَقَالَ فِي نَفْسِهِ يَا تَرَى أَيْشْ فِي هٰذَا الْقُمْقُمِ أَفْتَحُهُ وَأَنْظُرُ مَا فِيهِ وَبَعْدَهُ أَبِيعُهُ",
+   "tr": "fa-qāla fī nafsihi yā tarā aysh fī hādhā al-qumqumi aftaḥuhu wa-anẓuru mā fīhi wa-baʿdahu abīʿuh",
+   "l": "And-he-said in himself, ‘I-wonder — what (is) in this the-jar? I-shall-open-it and-I-shall-look (at) what (is) in-it, and-after-it I-shall-sell-it.’",
+   "i": "He said to himself, ‘I wonder what is in this jar. Let me open it and see what is inside, and afterward I shall sell it.’",
+   "n": "يا ترى (‘O, do you see’) is a fixed exclamation of wonder, not literal address; ايش (‘what’) is a colloquial contraction of أيّ شيء common in Middle Arabic and still current in spoken Arabic today."
+  },
+  {
+   "t": "ثُمَّ إِنَّهُ أَخْرَجَ سِكِّينًا وَعَالَجَ فِي الرَّصَاصِ إِلَى أَنْ فَكَّهُ مِنَ الْقُمْقُمِ",
+   "tr": "thumma innahu akhraja sikkīnan wa-ʿālaja fī al-raṣāṣi ilā an fakkahu mina al-qumqum",
+   "l": "Then he took-out a-knife and-worked at the-lead until he-loosened-it from the-jar.",
+   "i": "Then he drew out a knife and worked at the lead until he had freed it from the jar."
+  },
+  {
+   "t": "وَحَطَّهُ إِلَى جَانِبِ الْأَرْضِ وَهَزَّهُ لِيَنْكَبَّ مَا فِيهِ فَلَمْ يَنْزِلْ مِنْهُ شَيْءٌ",
+   "tr": "wa-ḥaṭṭahu ilā jānibi al-arḍi wa-hazzahu li-yankabba mā fīhi fa-lam yanzil minhu shayʾ",
+   "l": "And-he-set-it-down beside the-ground and-shook-it so-that-it-might-pour-out what (was) in-it, but not did-come-down from-it (a) thing.",
+   "i": "He set it down upon the ground and shook it, so that whatever was inside might spill out, but nothing at all came down from it."
+  },
+  {
+   "t": "فَتَعَجَّبَ غَايَةَ الْعَجَبِ ثُمَّ إِنَّهُ خَرَجَ مِنَ الْقُمْقُمِ دُخَانٌ",
+   "tr": "fa-taʿajjaba ghāyata al-ʿajabi thumma innahu kharaja mina al-qumqumi dukhān",
+   "l": "And-he-marveled (the) utmost (of) the-wonder; then, he — (there) came-out from the-jar smoke,",
+   "i": "He marveled exceedingly. Then smoke came pouring out of the jar,",
+   "n": "The same intensifying accusative-of-degree construction (غاية العجب, 'the utmost of wonder') used earlier this night."
+  },
+  {
+   "t": "صَعَدَ إِلَى عَنَانِ السَّمَاءِ وَمَشَى عَلَى وَجْهِ الْأَرْضِ",
+   "tr": "ṣaʿada ilā ʿanāni al-samāʾi wa-mashā ʿalā wajhi al-arḍ",
+   "l": "It-rose to (the) canopy (of) the-sky and-walked upon (the) face (of) the-ground.",
+   "i": "rising to the vault of heaven and walking upon the face of the earth.",
+   "n": "عنان السماء (‘the vault of heaven’) is a set idiom for the height of the sky."
+  },
+  {
+   "t": "وَبَعْدَ ذٰلِكَ تَكَامَلَ الدُّخَانُ وَاِجْتَمَعَ وَاِلْتَمَّ وَاِنْتَفَضَ فَصَارَ عِفْرِينًا",
+   "tr": "wa-baʿda dhālika takāmala al-dukhānu wa-ijtamaʿa wa-iltamma wa-intafaḍa fa-ṣāra ʿifrīnā",
+   "l": "And-after that, the-smoke became-complete and-gathered and-became-whole and-shook-itself, and-it-became an-efrit,",
+   "i": "and after that the smoke drew itself together, gathered, grew whole, and gave a shudder, and became an efrit —",
+   "n": "عفرينا, printed here with ن, is most likely a genuine variant of the more familiar عفريت (‘efrit’), the standard word for a powerful, malevolent jinni; Lane records several augmented forms of the root (عِفْر, عِفْرِية, عِفْريت) and this may be another. It is vocalized here as printed rather than emended."
+  },
+  {
+   "t": "رَأْسُهُ فِي السَّحَابِ وَرِجْلَاهُ فِي التُّرَابِ",
+   "tr": "raʾsuhu fī al-saḥābi wa-rijlāhu fī al-turāb",
+   "l": "His-head (was) in the-cloud, and-his-two-legs (were) in the-dust.",
+   "i": "His head was in the clouds, and his feet were in the dust."
+  },
+  {
+   "t": "بِرَأْسٍ كَالْقُبَّةِ بِأَيْدٍ كَالْمَدَارِي بِرِجْلَيْنِ كَالسَّوارِي بِفَمٍ كَالْمَغَارِ وَأَسْنَانٌ كَالْحِجَارَةِ وَمَنَاخِيرُ كَالْإِبْرِيقِ وَعَيْنَيْنِ كَأَنَّهُمَا سِرَاجَيْنِ أَعْبَسُ أَغْلَسُ",
+   "tr": "bi-raʾsin ka-al-qubbati bi-aydin ka-al-madārī bi-rijlayni ka-al-sawārī bi-famin ka-al-maghāri wa-asnānun ka-al-ḥijārati wa-manākhīru ka-al-ibrīqi wa-ʿaynayni ka-annahumā sirājayni aʿbasu aghlas",
+   "l": "With a head like the dome, with hands like the winnowing-forks, with two legs like the pillars, with a mouth like the cavern, and teeth like the stones, and nostrils like the ewer, and two eyes as though they were two lamps — scowling, glowering.",
+   "i": "His head was like a dome, his hands like winnowing-forks, his legs like pillars, his mouth like a cavern, his teeth like stones, his nostrils flaring like the spout of a ewer, and his eyes like two lamps — grim and glowering.",
+   "n": "This whole clause is one cumulative chain of similes describing the efrit’s monstrous size, a set-piece used throughout the Nights whenever a jinni first appears in full form. مداري (for the more usual مذاري, ‘winnowing-forks’) shows a dāl where other copies have dhāl — a common confusion between the two letters — or possibly reflects the related word مِدْرًى, a long pronged comb or goad; either way the image is of long spreading prongs. إبريق (‘ewer’) is itself a loanword, probably from Persian; the point of the comparison is its long spout, echoed in the efrit’s flaring nostrils."
+  },
+  {
+   "t": "فَلَمَّا رَأَى الصَّيَّادُ ذٰلِكَ الْعِفْرِيتَ اِرْتَعَدَتْ فَرَائِصُهُ وَتَشَبَّكَتْ أَسْنَانُهُ وَنَشِفَ رِيقُهُ وَعَمِيَ عَنْ طَرِيقِهِ",
+   "tr": "fa-lammā raʾā al-ṣayyādu dhālika al-ʿifrīta irtaʿadat farāʾiṣuhu wa-tashabbakat asnānuhu wa-nashifa rīquhu wa-ʿamiya ʿan ṭarīqih",
+   "l": "And-when saw the-fisherman that the-efrit, trembled his-flanks and-locked-together his-teeth and-dried-up his-saliva and-he-went-blind as-to his-way.",
+   "i": "When the fisherman saw that efrit, his sides shook, his teeth clenched together, his mouth went dry, and he lost all sense of where he was.",
+   "n": "فرائص (the flank-muscles near the heart said to visibly tremble with fear) is a stock Classical Arabic idiom for terror, preserved here in ارتعدت فرائصه, ‘his flanks shook.’"
+  },
+  {
+   "t": "فَلَمَّا رَآهُ الْعِفْرِيتُ قَالَ لَا إِلٰهَ إِلَّا اللّهُ سُلَيْمَانُ نَبِيُّ اللّهِ",
+   "tr": "fa-lammā raʾāhu al-ʿifrītu qāla lā ilāha illā Allāhu Sulaymānu nabiyyu Allāh",
+   "l": "And-when saw-him the-efrit, he-said, ‘No god except God — Solomon, prophet (of) God!’",
+   "i": "When the efrit saw him, he cried out, ‘There is no god but God — Solomon, prophet of God!’",
+   "n": "The efrit, finding a man standing over the very jar Solomon once sealed, at first takes him for Solomon himself, returned alive — hence this cry of astonishment. It is not a settled belief that survives the next few lines: two units on, the fisherman corrects him, and the efrit accepts the correction at once."
+  },
+  {
+   "t": "ثُمَّ قَالَ الْعِفْرِيتُ يَا نَبِيَّ اللّهِ لَا تَقْتُلْنِي فَإِنِّي لَا عُدْتُ أُخَالِفُ لَكَ قَوْلًا وَلَا أَعْصِي لَكَ أَمْرًا",
+   "tr": "thumma qāla al-ʿifrītu yā nabiyya Allāhi lā taqtulnī fa-innī lā ʿudtu ukhālifu laka qawlan wa-lā aʿṣī laka amrā",
+   "l": "Then said the-efrit, ‘O prophet (of) God, do-not kill-me, for-indeed-I shall-not return (to) oppose to-you a-word, nor disobey to-you a-command.’",
+   "i": "Then the efrit said, ‘O prophet of God, do not kill me — never again will I contradict a word of yours or disobey a command of yours.’"
+  },
+  {
+   "t": "فَقَالَ لَهُ الصَّيَّادُ أَيُّهَا الْمَارِدُ نَقُولُ سُلَيْمَانُ نَبِيُّ اللّهِ وَسُلَيْمَانُ مَاتَ مِنْ مُدَّةِ أَلْفِ وَثَمَانِمِأْيَةِ سَنَةٍ وَنَحْنُ فِي آخِرِ الزَّمَانِ",
+   "tr": "fa-qāla lahu al-ṣayyādu ayyuhā al-māridu naqūlu Sulaymānu nabiyyu Allāhi wa-Sulaymānu māta min muddati alfi wa-thamānimiʾyati sanatin wa-naḥnu fī ākhiri al-zamān",
+   "l": "And-said to-him the-fisherman, ‘O rebellious-one, we-say (indeed) Solomon (is) prophet (of) God; but-Solomon died since a-period (of) a-thousand and-eight-hundred year, and-we (are) in (the) last (of) the-age.’",
+   "i": "The fisherman said to him, ‘O rebellious one — yes, we do say Solomon is the prophet of God, but Solomon died some eighteen hundred years ago, and we are living in the latter days.’",
+   "n": "ثمانمئة (‘eight hundred’) is spelled here with an extra glide before the ة, closer to the colloquial pronunciation miyya than to the classical miʾa — a small window onto the spoken register behind the written text."
+  },
+  {
+   "t": "فَمَا قِصَّتُكَ وَمَا حَدِيثُكَ وَمَا سَبَبُ دُخُولِكَ فِي هٰذَا الْقُمْقُمِ",
+   "tr": "fa-mā qiṣṣatuka wa-mā ḥadīthuka wa-mā sababu dukhūlika fī hādhā al-qumqum",
+   "l": "So-what (is) your-story, and-what (is) your-account, and-what (is the) cause (of) your-entering into this the-jar?",
+   "i": "So what is your story, and what is your history, and what was the reason for your entering this jar?"
+  },
+  {
+   "t": "قَالَ فَلَمَّا سَمِعَ الْمَارِدُ كَلَامَ الصَّيَّادِ قَالَ لَا إِلٰهَ إِلَّا اللّهُ أَبْشِرْ يَا صَيَّادُ",
+   "tr": "qāla fa-lammā samiʿa al-māridu kalāma al-ṣayyādi qāla lā ilāha illā Allāhu abshir yā ṣayyādu",
+   "l": "He-said: ‘And-when heard the-rebellious-one (the) speech (of) the-fisherman, he-said, “No god except God — rejoice, O fisherman!”’",
+   "i": "He said: When the rebellious one heard the fisherman’s words, he said, ‘There is no god but God! Rejoice, O fisherman!’"
+  },
+  {
+   "t": "فَقَالَ الصَّيَّادُ بِمَا ذَا تُبَشِّرُنِي فَقَالَ بِقَتْلِكَ فِي هٰذِهِ السَّاعَةِ شَرَّ قِتْلَةٍ",
+   "tr": "fa-qāla al-ṣayyādu bi-mā dhā tubashshirunī fa-qāla bi-qatlika fī hādhihi al-sāʿati sharra qitlah",
+   "l": "And-said the-fisherman, ‘With-what do-you-give-me-glad-tidings?’ And-he-said, ‘With-your-killing, in this the-hour, (the) worst (of) a-killing.’",
+   "i": "The fisherman said, ‘What good news do you bring me?’ He said, ‘That you are to be killed, this very hour, in the worst possible way.’",
+   "n": "The efrit’s ‘Rejoice!’ in the line before is bitter irony: the ‘good news’ he brings the fisherman is a sentence of death."
+  },
+  {
+   "t": "قَالَ الصَّيَّادُ تَسْتَأْهِلُ عَلَى هٰذِهِ الْبِشَارَةِ يَا قَيِّمَ الْعَفَارِيتِ بِزَوَالِ السِّتْرِ عَنْكَ",
+   "tr": "qāla al-ṣayyādu tastaʾhilu ʿalā hādhihi al-bishārati yā qayyima al-ʿafārīti bi-zawāli al-sitri ʿank",
+   "l": "Said the-fisherman, ‘You-deserve, for this the-glad-tiding, O keeper (of) the-efrits, the-departure (of) the-covering from-you.’",
+   "i": "The fisherman said, ‘You deserve, for such news as that, O chief of the efrits, to have your own luck stripped from you!’",
+   "n": "زوال الستر (‘the departure of the veil/covering’) is an idiom for protection or good fortune running out, i.e. being exposed to ruin; the fisherman turns the efrit’s death-threat back on him as a curse."
+  },
+  {
+   "t": "يَا بَعِيدُ لِأَيِّ شَيْءٍ تَقْتُلُنِي وَأَيُّ شَيْءٍ يُوجِبُ قَتْلِي",
+   "tr": "yā baʿīdu li-ayyi shayʾin taqtulunī wa-ayyu shayʾin yūjibu qatlī",
+   "l": "O far-one, for-what thing do-you-kill-me, and-what thing necessitates my-killing?",
+   "i": "You wretch — what is it for, your killing me? What could possibly call for my death?",
+   "n": "يَا بَعِيدُ is a scornful, incredulous form of address (‘you far one!’, i.e. ‘you outlandish creature’), not a literal description of distance; the fisherman is registering shock, not commenting on geography."
+  },
+  {
+   "t": "وَقَدْ خَلَّصْتُكَ مِنَ الْقُمْقُمِ وَنَجَّيْتُكَ مِنْ قَرَارِ الْبَحْرِ وَطَلَعْتُ بِكَ إِلَى الْبَرِّ",
+   "tr": "wa-qad khallaṣtuka mina al-qumqumi wa-najjaytuka min qarāri al-baḥri wa-ṭalaʿtu bika ilā al-barri",
+   "l": "And-I-have freed-you from the-jar, and-I-rescued-you from (the) bottom (of) the-sea, and-I-brought-you-up to the-shore.",
+   "i": "And here I have freed you from the jar, saved you from the bottom of the sea, and brought you up onto dry land."
+  },
+  {
+   "t": "فَقَالَ الْعِفْرِيتُ تَمَنَّ عَلَيَّ أَيَّ مَوْتَةٍ تَمُوتُ بِهَا وَأَيَّ قِتْلَةٍ تُقْتَلُ بِهَا",
+   "tr": "fa-qāla al-ʿifrītu tamanna ʿalayya ayya mawtatin tamūtu bihā wa-ayya qitlatin tuqtalu bihā",
+   "l": "So-he-said, the-efrit: wish upon-me which death you-die by-it, and-which killing you-are-killed by-it.",
+   "i": "The efrit said, “Choose, then — name for me the death you would die, and the manner in which you would be killed.”",
+   "n": "تَمَنَّ عَلَيَّ ('wish upon me', i.e. 'name your wish to me / choose') is the efrit's mock-courteous offer of a chosen death; the fisherman turns the same phrase back on him later in this exchange."
+  },
+  {
+   "t": "فَقَالَ الصَّيَّادُ مَا ذَنْبِي وَمَا جَزَائِي مِنْكَ",
+   "tr": "fa-qāla al-ṣayyādu mā dhanbī wa-mā jazāʾī minka",
+   "l": "So-he-said, the-fisherman: what (is) my-sin, and-what (is) my-recompense from-you?",
+   "i": "The fisherman said, “What is my crime, and what is my reward from you, for this?”"
+  },
+  {
+   "t": "قَٰلَ الْعِفْرِيتُ اسْمَعْ حِكَايَتِي يَا صَيَّادُ",
+   "tr": "qāla al-ʿifrītu ismaʿ ḥikāyatī yā ṣayyādu",
+   "l": "He-said, the-efrit: listen-to my-story, O fisherman.",
+   "n": "قَٰلَ prints defectively as قل (no alif); the edition regularly drops the medial long vowel in قال — pointed here with the dagger alif (ٰ) that marks the elision without adding a letter. Watch for this spelling again."
+  },
+  {
+   "t": "قَٰلَ الصَّيَّادُ قُلْ وَأَوْجِزْ فِي الْكَلَامِ فَإِنَّ رُوحِي وَصَلَتْ إِلَى أَنْفِي",
+   "tr": "qāla al-ṣayyādu qul wa-awjiz fī al-kalāmi fa-inna rūḥī waṣalat ilā anfī",
+   "l": "He-said, the-fisherman: say (it), and-be-brief in the-speech, for indeed my-soul has-reached to my-nose.",
+   "i": "The fisherman said, “Speak, then, and be brief about it — my soul has all but reached my nose!”",
+   "n": "“مy soul has reached my nose” is an idiom of extremity — being at the very last gasp, worn out with dread or impatience; compare the more common ‘reached the throat/collarbones’."
+  },
+  {
+   "t": "فَقَالَ اعْلَمْ يَا صَيَّادُ إِنِّي مِنَ الْجِنِّ الْمَارِقِينَ",
+   "tr": "fa-qāla iʿlam yā ṣayyādu innī mina al-jinni al-māriqīna",
+   "l": "So-he-said: know, O fisherman, indeed-I (am) of the-jinn the-rebellious-ones.",
+   "i": "He said, “Know, fisherman, that I am one of the jinn who broke away in rebellion.”"
+  },
+  {
+   "t": "وَقَدْ عَصَيْتُ سُلَيْمَانَ بْنَ دَاوُدَ عَلَيْهِمَا السَّلَامُ أَنَا وَصَخْرٌ الْجِنِّيُّ",
+   "tr": "wa-qad ʿaṣaytu sulaymāna bna dāwuda ʿalayhimā al-salāmu anā wa-ṣakhrun al-jinniyyu",
+   "l": "And-I-have disobeyed Solomon son (of) David — peace be-upon-them-both — I and-Sakhr the-jinni.",
+   "i": "For I once defied Solomon son of David, peace be upon them both — I, together with Sakhr the jinni.",
+   "n": "صَخْرٌ الْجِنِّيُّ is the jinni of Solomonic legend said to have impersonated the king; his appearance here signals that the speaker belongs to that same old company of rebel jinn."
+  },
+  {
+   "t": "فَأَرْسَلَ لِي وَزِيرَهُ أَٰصِفَ بْنَ بَرْخِيَا فَأَتَى بِي كَرْهًا وَقَادَنِي وَأَنَا ذَلِيلٌ عَلَى رَغْمِ أَنْفِي",
+   "tr": "fa-arsala lī wazīrahu āṣifa bna barkhiyā fa-atā bī karhan wa-qādanī wa-anā dhalīlun ʿalā raghmi anfī",
+   "l": "So-he-sent to-me his-vizier Asaf son (of) Barkhiya, and-he-came with-me by-compulsion and-he-led-me, and-I (was) humbled, upon (the) spite (of) my-nose.",
+   "i": "So he sent his vizier Asaf, son of Barkhiya, against me; the man brought me in by force and led me off, humbled, in spite of myself.",
+   "n": "عَلَى رَغْمِ أَنْفِهِ, literally ‘in spite of his nose,’ is the standard idiom for being made to do something wholly against one's will. آصِفَ بْنَ بَرْخِيَا is Solomon's legendary vizier; the edition prints his name with a plain alif, so the long initial ā- is restored editorially with the dagger alif alongside the hamza."
+  },
+  {
+   "t": "وَأَوْقَفَنِي بَيْنَ يَدَيْهِ فَلَمَّا رَآنِي سُلَيْمَانُ اسْتَعَاذَ مِنِّي",
+   "tr": "wa-awqafanī bayna yadayhi fa-lammā raʾānī sulaymānu istaʿādha minnī",
+   "l": "And-he-made-me-stand between his-two-hands (i.e. before him); and-when he-saw-me, Solomon sought-refuge from-me.",
+   "i": "He set me standing before him, and the moment Solomon saw me, he sought refuge in God against me."
+  },
+  {
+   "t": "وَأَعْرَضَ عَلَيَّ الْإِيمَانَ وَالدَّخُولَ تَحْتَ طَاعَتِهِ فَأَبَيْتُ",
+   "tr": "wa-aʿraḍa ʿalayya al-īmāna wa-al-dukhūla taḥta ṭāʿatihi fa-abaytu",
+   "l": "And-he-presented upon-me the-faith and-the-entering under his-obedience, but-I-refused.",
+   "i": "He pressed the faith upon me, and submission to his authority, but I refused."
+  },
+  {
+   "t": "فَدَعَا بِهَذَا الْقُمْقُمِ وَحَبَسَنِي فِيهِ وَخَتَمَ عَلَيَّ بِالرَّصَاصِ",
+   "tr": "fa-daʿā bihādhā al-qumqumi wa-ḥabasanī fīhi wa-khatama ʿalayya bi-al-raṣāṣi",
+   "l": "So-he-called for-this the-jar, and-he-imprisoned-me in-it, and-he-sealed upon-me with-the-lead.",
+   "i": "He called for this very jar, shut me up inside it, and sealed it over me with lead."
+  },
+  {
+   "t": "وَطَبَعَهُ بِالْاسْمِ الْأَعْظَمِ وَأَمَرَ الْجِنَّ فَاحْتَمَلُونِي وَأَلْقَوْنِي فِي وَسَطِ الْبَحْرِ",
+   "tr": "wa-ṭabaʿahu bi-al-ismi al-aʿẓami wa-amara al-jinna fa-iḥtamalūnī wa-alqawnī fī wasaṭi al-baḥri",
+   "l": "And-he-stamped-it with-the-Name the-Greatest, and-he-commanded the-jinn, so-they-carried-me and-they-threw-me in (the) middle (of) the-sea.",
+   "i": "He stamped it with the Greatest Name, and commanded the jinn, who took me up and cast me into the middle of the sea."
+  },
+  {
+   "t": "فَأَقَمْتُ مِائَهَ عَامٍ وَقُلْتُ فِي قَلْبِي كُلُّ مَنْ خَلَّصَنِي أَغْنَيْتُهُ إِلَى الْأَبَدِ",
+   "tr": "fa-aqamtu miʾata ʿāmin wa-qultu fī qalbī kullu man khallaṣanī aghnaytuhu ilā al-abadi",
+   "l": "So-I-remained a-hundred (of) a-year, and-I-said in my-heart: every-one who frees-me, I-will-enrich-him to the-forever.",
+   "i": "So I remained a hundred years, and I said to myself, ‘Whoever frees me, I will make him rich for as long as he lives.’",
+   "n": "The edition spells مائة (‘a hundred’) as مايه throughout this passage — the hamza-bearing يا for standard ئا, and a plain ه where classical spelling has ة. This Middle Arabic ductus for the numeral is preserved as printed rather than normalised; it recurs at idx 74 and 76."
+  },
+  {
+   "t": "فَمَرَّتْ مِائَهُ عَامٍ وَلَمْ يُخَلِّصْنِي أَحَدٌ وَدَخَلْتُ عَلَى مِائَهٍ أُخْرَى",
+   "tr": "fa-marrat miʾatu ʿāmin wa-lam yukhalliṣnī aḥadun wa-dakhaltu ʿalā miʾatin ukhrā",
+   "l": "So-passed a-hundred (of) a-year, and-not did-free-me anyone, and-I-entered upon a-hundred, another.",
+   "i": "A hundred years passed, and no one freed me, and I began upon another hundred."
+  },
+  {
+   "t": "فَقُلْتُ كُلُّ مَنْ خَلَّصَنِي فَتَحْتُ لَهُ كُنُوزَ الْأَرْضِ فَمَا خَلَّصَنِي أَحَدٌ",
+   "tr": "fa-qultu kullu man khallaṣanī fataḥtu lahu kunūza al-arḍi fa-mā khallaṣanī aḥadun",
+   "l": "So-I-said: everyone who frees-me, I-open for-him (the) treasures (of) the-earth — but-not did-free-me anyone.",
+   "i": "So I said, ‘Whoever frees me, I will open to him the treasures of the earth’ — but no one freed me."
+  },
+  {
+   "t": "فَمَرَّ عَلَيَّ أَرْبَعُمِائَهِ عَامٍ أَٰخَرَ فَقُلْتُ كُلُّ مَنْ خَلَّصَنِي أَقْضِي لَهُ ثَلَاثَ حَاجَاتٍ فَلَمْ يُخَلِّصْنِي أَحَدٌ",
+   "tr": "fa-marra ʿalayya arbaʿumiʾati ʿāmin ākhara fa-qultu kullu man khallaṣanī aqḍī lahu thalātha ḥājātin fa-lam yukhalliṣnī aḥadun",
+   "l": "So-passed upon-me four-hundred (of) a-year, other, and-I-said: everyone who frees-me, I-fulfill for-him three needs — but-not did-free-me anyone.",
+   "i": "Another four hundred years passed over me, and I said, ‘Whoever frees me, I will grant him three wishes’ — but still no one freed me."
+  },
+  {
+   "t": "فَغَضِبْتُ غَضَبًا شَدِيدًا وَقُلْتُ فِي نَفْسِي كُلُّ مَنْ خَلَّصَنِي فِي هَذِهِ السَّاعَةِ قَتَلْتُهُ",
+   "tr": "fa-ghaḍibtu ghaḍaban shadīdan wa-qultu fī nafsī kullu man khallaṣanī fī hādhihi al-sāʿati qataltuhu",
+   "l": "So-I-became-angry a-severe anger, and-I-said in myself: everyone who frees-me in this the-hour, I-kill-him.",
+   "i": "I flew into a violent rage, and I said to myself, ‘Whoever frees me at this hour — him I will kill.’"
+  },
+  {
+   "t": "وَمَنَّيْتُهُ كَيْفَ يَمُوتُ وَهَا أَنْتَ قَدْ خَلَّصْتَنِي وَمَنَّيْتُكَ كَيْفَ تَمُوتُ",
+   "tr": "wa-mannaytuhu kayfa yamūtu wa-hā anta qad khallaṣtanī wa-mannaytuka kayfa tamūtu",
+   "l": "And-I-granted-him-the-choice how he-dies; and-now you, you-have freed-me, so-I-grant-you-the-choice how you-die.",
+   "i": "And I would let him choose how he died. Now here you are — you have freed me, so I grant you the same: choose how you shall die."
+  },
+  {
+   "t": "فَلَمَّا سَمِعَ الصَّيَّادُ كَلَامَ الْعِفْرِيتِ قَالَ يَا لَلَّهِ الْعَجَبُ أَنَا مَا جِئْتُ أُخَلِّصَكَ إِلَّا فِي هَذِهِ الْأَيَّامِ",
+   "tr": "fa-lammā samiʿa al-ṣayyādu kalāma al-ʿifrīti qāla yā lallahi al-ʿajabu anā mā jiʾtu ukhalliṣuka illā fī hādhihi al-ayyāmi",
+   "l": "So-when he-heard, the-fisherman, (the) speech (of) the-efrit, he-said: O by-God, the-wonder! I not did-I-come I-free-you except in these the-days.",
+   "i": "When the fisherman heard the efrit's words, he said, “Good God, what a wonder! Why, I only came to free you these very days!”"
+  },
+  {
+   "t": "ثُمَّ قَالَ الصَّيَّادُ لِلْعِفْرِيتِ اعْفُ عَنْ قَتْلِي يَعْفُ اللَّهُ عَنْ قَتْلِكَ",
+   "tr": "thumma qāla al-ṣayyādu li-al-ʿifrīti uʿfu ʿan qatlī yaʿfu Allāhu ʿan qatlik",
+   "l": "Then the fisherman said to the efrit: 'Forgive [me] concerning my killing; God will forgive [you] concerning your killing.'",
+   "i": "Then the fisherman said to the efrit: 'Spare my life, and God will spare yours.'",
+   "n": "The imperative followed directly by a jussive (uʿfu … yaʿfu, with no connecting 'and') is the standard way this prose states an implicit condition: 'forgive my killing, [and, if you do,] God will forgive yours.' You will meet this jussive-as-response-to-a-request pattern again in the next unit."
+  },
+  {
+   "t": "وَلَا تُهْلِكْنِي يُسَلِّطِ اللَّهُ عَلَيْكَ مَنْ يُهْلِكُكَ",
+   "tr": "wa-lā tuhliknī yusalliṭi Allāhu ʿalayka man yuhlikuk",
+   "l": "And do not destroy me; God will give power over you to one who will destroy you.",
+   "i": "And do not kill me, or God will set over you one who will destroy you.",
+   "n": "The same construction as the previous unit: a negative command answered by a jussive verb, 'do not do X, [or] Y will follow.'"
+  },
+  {
+   "t": "فَقَالَ الْمَارِدُ لَابُدَّ مِنْ قَتْلِكَ",
+   "tr": "fa-qāla al-māridu lā budda min qatlik",
+   "l": "So the rebellious one said: 'There is no escape from your killing.'",
+   "i": "The rebellious one said: 'There is no escape — you must die.'",
+   "n": "الْمَارِدُ, 'the rebellious one, giant', is used here as a plain synonym for الْعِفْرِيتُ, 'the efrit' — both simply mean a powerful jinni, without a technical distinction in this text."
+  },
+  {
+   "t": "فَتَمَنَّ عَلَيَّ أَيَّ مَوْتَةٍ تَمُوتُهَا",
+   "tr": "fa-tamanna ʿalayya ayya mawtatin tamūtuhā",
+   "l": "So make your wish known to me: whichever death you shall die it.",
+   "i": "So tell me — choose whatever manner of death you would die.",
+   "n": "The same 'choose your own death' offer the efrit himself made moments before, now turned back on him."
+  },
+  {
+   "t": "فَلَمَّا تَحَقَّقَ ذَلِكَ مِنْهُ الصَّيَّادُ رَاجَعَ الْعِفْرِيتَ وَقَالَ اعْفُ عَنِّي إِكْرَامًا",
+   "tr": "fa-lammā taḥaqqaqa dhālika minhu al-ṣayyādu rājaʿa al-ʿifrīta wa-qāla uʿfu ʿannī ikrāman",
+   "l": "And when the fisherman had made certain of that from him, he appealed to the efrit once more and said: 'Forgive me, as an act of generosity.'",
+   "i": "When the fisherman was certain of this from him, he turned to the efrit once more and said: 'Forgive me, out of generosity.'"
+  },
+  {
+   "t": "فَقَالَ الْعِفْرِيتُ لَمَّا أَعْتَقْتُكَ وَأَنَا مَا أَقْتُلُكَ إِلَّا لِأَجْلِ مَا خَلَّصْتَنِي",
+   "tr": "fa-qāla al-ʿifrītu lammā aʿtaqtuka wa-anā mā aqtuluka illā li-ajli mā khallaṣtanī",
+   "l": "Then the efrit said: since you freed me — yet I do not kill you except for that you freed me.",
+   "i": "Then the efrit said: 'It was you who set me free — and it is for that very reason, and no other, that I mean to kill you.'",
+   "n": "The printed rasm اعتقتك is unambiguous on its own consonants: أَعْتَقْتُكَ, 'I freed you' (1st-person subject -tu, 2nd-person object -ka) — but this inverts the logic the passage needs, since the efrit is explaining why he kills the very man who freed him from the jar (the second verb of this same sentence, خَلَّصْتَنِي, 'you delivered me', is grammatically sound and gives the true sense). This is almost certainly a compositor's slip, a swapped pronoun suffix. It is vocalized here exactly as printed, but translated by evident sense: the efrit kills the fisherman precisely BECAUSE the fisherman freed him — the same bitter logic that Umm ʿĀmir's proverb states two units on."
+  },
+  {
+   "t": "فَقَالَ لَهُ الصَّيَّادُ يَا شَيْخَ الْعَفَارِيتِ أَصْنَعُ مَعَكَ مَلِيًّا تُقَابِلُنِي بِالْقَبِيحِ",
+   "tr": "fa-qāla lahu al-ṣayyādu yā shaykha al-ʿafārīti aṣnaʿu maʿaka maliyyan tuqābilunī bi-al-qabīḥ",
+   "l": "So the fisherman said to him: 'O chief of the efrits, I do with you a good turn — you meet me with foulness.'",
+   "i": "The fisherman said to him: 'O chief of the efrits — I have done you a kindness, and you repay me with wickedness!'",
+   "n": "مَلِيًّا ordinarily means 'for a long while' or '(one) of substance', neither of which parses cleanly here; the phrase is most likely a non-standard variant of the common idiom اصنع معك جميلا / معروفا, 'to do someone a fine turn.' Its exact sense is uncertain; it is translated here by evident sense as a reproach for an unrewarded kindness."
+  },
+  {
+   "t": "وَلَكِنْ لَمْ يَكْذِبِ الْمَثَلُ حَيْثُ قَالَ هَذَا الشِّعْرَ",
+   "tr": "wa-lākin lam yakdhibi al-mathalu ḥaythu qāla hādhā al-shiʿr",
+   "l": "But the proverb was not proven false, in that this verse says:",
+   "i": "And indeed the old proverb held true, as the following verse has it:"
+  },
+  {
+   "t": "وَمَنْ يَفْعَلِ الْمَعْرُوفَ مَعَ غَيْرِ اَهْلِهِ * يُجَازَى كَمَا يُجَازَى مُجِيرُ اُمِّ عَامِرِ",
+   "tr": "wa-man yafʿali al-maʿrūfa maʿa ghayri ahlihi * yujāzā kamā yujāzā mujīru Ummi ʿĀmirin",
+   "l": "And whoever does the kindness with other than its people (with one not fit for it) * is repaid as the protector of Umm ʿĀmir was repaid.",
+   "i": "Whoever does a kindness to one unworthy of it will be repaid as was the man who gave shelter to Umm ʿĀmir.",
+   "n": "“Umm ʿĀmir” (‘the mother of ʿĀmir’) is a traditional Arabic byname for the hyena, recorded as such in the old lexicons (the kind of general lexical fact Lane's Arabic-English Lexicon preserves), not a coinage of any modern translation. The proverb behind this verse tells of a man who gave the hyena shelter or freed it from a trap, only to be killed by the very animal he had helped — مُجِير, 'one who grants protection', is from أَجَارَ, 'to give quarter, to protect'. The point mirrors, almost exactly, the efrit's own reasoning two units earlier: gratitude answered with betrayal.",
+   "v": true
+  },
+  {
+   "t": "فَلَمَّا سَمِعَ الْعِفْرِيتُ كَلَامَهُ قَالَ لَهُ لَا تُطِلْ فَلَابُدَّ مِنْ مَوْتِكَ",
+   "tr": "fa-lammā samiʿa al-ʿifrītu kalāmahu qāla lahu lā tuṭil fa-lā budda min mawtik",
+   "l": "And when the efrit heard his words, he said to him: 'Do not prolong [this]; there is no escape from your death.'",
+   "i": "When the efrit heard what he said, he told him: 'Enough delay — you must die.'"
+  },
+  {
+   "t": "فَقَالَ الصَّيَّادُ هَذَا جِنِّيٌّ وَأَنَا إِنْسِيٌّ وَقَدْ أَعْطَانِيَ اللَّهُ عَقْلًا كَامِلًا",
+   "tr": "fa-qāla al-ṣayyādu hādhā jinniyyun wa-anā insiyyun wa-qad aʿṭāniya Allāhu ʿaqlan kāmilan",
+   "l": "So the fisherman said: 'This is a jinnī, and I am a human, and God has given me a complete mind.'",
+   "i": "The fisherman said: 'This is a jinni, and I am a man — and God has granted me a mind entire.'"
+  },
+  {
+   "t": "وَهَا أَنَا أُدَبِّرُ فِي هَلَاكِهِ بِحِيلَتِي وَبِعَقْلِي وَهُوَ يُدَبِّرُ بِمَكْرِهِ وَخُبْثِهِ",
+   "tr": "wa-hā anā udabbiru fī halākihi bi-ḥīlatī wa-bi-ʿaqlī wa-huwa yudabbiru bi-makrihi wa-khubthih",
+   "l": "And here I am, scheming in his destruction with my stratagem and with my wit, while he schemes with his cunning and his malice.",
+   "i": "And here I am contriving his destruction with my wit and my cunning, while he plots with his guile and his malice."
+  },
+  {
+   "t": "ثُمَّ قَالَ لِلْعِفْرِيتِ لَابُدَّ مِنْ قَتْلِي",
+   "tr": "thumma qāla li-al-ʿifrīti lā budda min qatlī",
+   "l": "Then he said to the efrit: 'There is no escape from my killing.'",
+   "i": "Then he said to the efrit: 'Is there truly no escape from my death?'",
+   "n": "No interrogative particle is written, but the efrit's answer in the next unit ('Yes') shows the line is meant as a question — a statement standing in for a question, as this narrative style sometimes allows."
+  },
+  {
+   "t": "قَالَ نَعَمْ",
+   "tr": "qāla naʿam",
+   "l": "He said: 'Yes.'"
+  },
+  {
+   "t": "فَقَالَ لَهُ بِالِاسْمِ الْأَعْظَمِ الْمَنْقُوشِ عَلَى خَاتَمِ سُلَيْمَانَ بْنِ دَاوُدَ عَلَيْهِمَا السَّلَامُ أَسْأَلُكَ عَنْ شَيٍ وَتُصَدِّقُنِي فِيهِ",
+   "tr": "fa-qāla lahu bi-al-ismi al-aʿẓami al-manqūshi ʿalā khātami Sulaymāna bni Dāwūda ʿalayhimā al-salāmu asʾaluka ʿan shayin wa-tuṣaddiqunī fīhi",
+   "l": "So he said to him: 'By the Greatest Name engraved upon the seal of Solomon son of David — upon the two of them be peace — I ask you about a thing, and you shall confirm the truth of it to me.'",
+   "i": "Then he said to him: 'By the Greatest Name graven upon the seal of Solomon, son of David — peace be upon them both — answer me truly about one thing.'",
+   "n": "The ‘Greatest Name’ (al-ism al-aʿẓam) is the supreme, secret Name of God by which Solomon was traditionally said to command the jinn; invoking it here binds the efrit to answer truthfully, as his visible fright in the next unit confirms. The edition prints شي with no hamza letter at all (not merely the hamza sign, but the whole seat) — a colloquial spelling of شَيْء, 'thing'; it is vocalized here on its two printed letters alone and read as shayin."
+  },
+  {
+   "t": "قَالَ نَعَمْ",
+   "tr": "qāla naʿam",
+   "l": "He said: 'Yes.'"
+  },
+  {
+   "t": "ثُمَّ إِنَّ الْعِفْرِيتَ لَمَّا سَمِعَ ذِكْرَ الِاسْمِ الْأَعْظَمِ اضْطَرَبَ وَاهْتَزَّ وَقَالَ لَهُ سَلْ وَأَوْجِزْ",
+   "tr": "thumma inna al-ʿifrīta lammā samiʿa dhikra al-ismi al-aʿẓami iḍṭaraba wa-ihtazza wa-qāla lahu sal wa-awjiz",
+   "l": "Then indeed the efrit, when he heard mention of the Greatest Name, was thrown into turmoil and shook, and said to him: 'Ask, and be brief.'",
+   "i": "Then the efrit, on hearing the Greatest Name spoken, was seized with turmoil and trembled, and said to him: 'Ask, and be quick about it.'",
+   "n": "سَلْ is the irregular imperative of سَأَلَ, 'to ask' — the medial hamza is simply dropped, unlike the regular imperative pattern. The efrit's visible terror confirms that the fisherman's stratagem, invoking Solomon's own Name, has taken hold."
+  },
+  {
+   "t": "فَقَالَ لَهُ أَنْتَ كُنْتَ فِي هَذَا الْقُمْقُمِ وَالْقُمْقُمُ لَا يَسَعُ يَدَكَ وَلَا رِجْلَكَ فَكَيْفَ يَسَعُكَ",
+   "tr": "fa-qāla lahu anta kunta fī hādhā al-qumqumi wa-al-qumqumu lā yasaʿu yadaka wa-lā rijlaka fa-kayfa yasaʿuk",
+   "l": "So he said to him: 'You were in this jar — and the jar does not hold your hand, nor your foot — so how could it hold you?'",
+   "i": "Then he said to him: 'You were inside this jar? Why, the jar could not hold so much as your hand or your foot — how then could it hold you?'",
+   "n": "قُمْقُم is the narrow-necked flask or jar used, in tales like this one, to imprison a jinni once it has been sealed with Solomon's seal."
+  },
+  {
+   "t": "فَقَالَ لَهُ الْعِفْرِيتُ وَأَنْتَ لَا تُصَدِّقُ أَنَّنِي كُنْتُ فِيهِ",
+   "tr": "fa-qāla lahu al-ʿifrītu wa-anta lā tuṣaddiqu annanī kuntu fīhi",
+   "l": "So the efrit said to him: 'And you do not believe that I was in it?'",
+   "i": "The efrit said to him: 'And do you not believe that I was truly inside it?'"
+  },
+  {
+   "t": "فَقَالَ الصَّيَّادُ لَا أُصَدِّقُكَ أَبَدًا حَتَّى أَنْظُرَكَ بِعَيْنِي",
+   "tr": "fa-qāla al-ṣayyādu lā uṣaddiquka abadan ḥattā anẓuraka bi-ʿaynī",
+   "l": "So the fisherman said: 'I will not believe you ever, until I see you with my own eye.'",
+   "i": "The fisherman said: 'I will never believe you, until I see it with my own eyes.'",
+   "n": "بِعَيْنِي, literally 'with my eye' (singular), is idiomatic for 'with my own eyes' — Arabic regularly uses the singular where English wants a plural."
+  },
+  {
+   "t": "فَأَدْرَكَ شَهْرَزَادَ الصَّبَاحُ فَسَكَتَتْ عَنِ الْكَلَامِ الْمُبَاحِ",
+   "tr": "fa-adraka Shahrazāda al-ṣabāḥu fa-sakatat ʿani al-kalāmi al-mubāḥi",
+   "l": "And dawn overtook Shahrazad, and she fell silent from the permitted speech.",
+   "i": "But dawn overtook Shahrazad, and she fell silent, leaving unsaid what she still had leave to tell.",
+   "n": "The same formula that closes every night of the frame story (see Night One's own note for its fuller sense)."
+  }
+ ]
+}

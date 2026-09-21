@@ -4216,10 +4216,14 @@ function toggleTry(i){
 
 /* ---------- word popup ---------- */
 let popWord = '', popKey = '', wordAudio = null, wordClips = null;
+let popSent = -1, popWi = -1, sliceTimer = null;   // where the tapped word sits: sentence index, word index
 function showPop(wEl){
   document.querySelectorAll('.wsel').forEach(e => e.classList.remove('wsel'));
   wEl.classList.add('wsel');
   popWord = wEl.dataset.pw || wEl.textContent;
+  const sEl = wEl.closest('.sent');
+  popSent = sEl && sEl.dataset.i !== undefined ? +sEl.dataset.i : -1;
+  popWi = wEl.dataset.wi !== undefined ? +wEl.dataset.wi : -1;
   const key = wEl.dataset.w || popWord.toLowerCase();
   const gloss = glossFor(key);
   $('popW').textContent = popWord;
@@ -4229,7 +4233,7 @@ function showPop(wEl){
   // story ships one; fall back to browser TTS only where a langCode exists.
   popKey = key;
   const hasWordClip = !!(story.audio && wordClips && wordClips[key] !== undefined);
-  $('popSay').style.display = $('popSlow').style.display = (story.langCode || hasWordClip) ? '' : 'none';
+  $('popSay').style.display = $('popSlow').style.display = (story.langCode || hasWordClip || wordSlice()) ? '' : 'none';
   positionPop(wEl);
 }
 function hidePop(){
@@ -4258,10 +4262,38 @@ function positionPop(el){
 }
 const POP_LABELS = { popSay: '🔊 Say it', popSlow: '🐢 Slowly' };
 function resetPopBtns(){ for (const id in POP_LABELS) { const b = $(id); if (b) b.textContent = POP_LABELS[id]; } }
-function stopWordAudio(){ if (wordAudio) wordAudio.pause(); resetPopBtns(); }
+function stopWordAudio(){ if (sliceTimer) { clearInterval(sliceTimer); sliceTimer = null; } if (wordAudio) wordAudio.pause(); resetPopBtns(); }
+/* The tapped word's own stretch of its sentence clip: [start, end] from align.json, or null.
+   WHY. "Say it" falls back to the browser's voice, and a device may simply have none for the
+   language — a Windows laptop with English and Hebrew voices said nothing at all for the Arabic
+   Nights (2026-09-21). The sentence clip already holds the word in the text's own voice, and the
+   word timings say where. Used only when the story ships no per-word clip AND the browser has no
+   voice for the language, so nothing changes where "Say it" already worked. */
+function wordSlice(){
+  if (!story || !story.audio || !wordTimes || popSent < 0 || popWi < 0) return null;
+  const arr = wordTimes[popSent], t = arr && arr[popWi];
+  return (t && t.length === 2 && t[1] >= t[0]) ? t : null;
+}
+function playWordSlice(t, rate, btn){
+  if (!wordAudio) wordAudio = new Audio();
+  stopWordAudio();
+  const a = wordAudio, from = Math.max(0, t[0] - 0.05), to = Math.max(t[1], t[0] + 0.3) + 0.06;
+  const src = audioSrc(popSent);
+  const start = () => {
+    try { a.currentTime = from; } catch(_){}
+    a.playbackRate = rate < 0.7 ? 0.6 : 1;
+    a.play().catch(()=>{});
+    sliceTimer = setInterval(() => { if (a.paused || a.currentTime >= to) stopWordAudio(); }, 15);
+  };
+  a.onended = stopWordAudio;
+  if (a.src && a.src.endsWith(src) && a.readyState >= 1) start();
+  else { a.src = src; a.addEventListener('loadedmetadata', start, { once: true }); a.load(); }
+  if (btn) btn.textContent = '⏹ Stop';
+}
 /* play a word's OWN isolated clip (audio/<id>/w/<n>.mp3) — clean, no boundary bleed */
 function playWordClip(n, rate, btn){
   if (!wordAudio) wordAudio = new Audio();
+  if (sliceTimer) { clearInterval(sliceTimer); sliceTimer = null; }
   wordAudio.pause();
   wordAudio.onended = resetPopBtns;
   wordAudio.src = story.audio.replace(/\/+$/,'') + '/w/' + n + '.mp3';
@@ -4277,6 +4309,8 @@ function speakPop(rate, btn){
   // the word's own isolated clip wins when the story ships per-word audio
   const n = (story.audio && wordClips) ? wordClips[popKey] : undefined;
   if (n !== undefined) { playWordClip(n, rate, btn); return; }
+  const sl = wordSlice();
+  if (sl && !bestVoice(story.langCode)) { playWordSlice(sl, rate, btn); return; }   // no browser voice for this language
   const started = speak(popWord, rate, resetPopBtns);
   if (started && btn) btn.textContent = '⏹ Stop';
 }

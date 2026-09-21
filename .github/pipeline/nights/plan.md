@@ -52,7 +52,7 @@ repository is the state, never this table. Run it rather than trusting what is w
 | frame, part 2 | P03L18(w11)–P10L09 | published 2026-09-20/21, 114 sense units (incl. one lead-in unit reusing the pilot's own last two sentences to cover the archived line P03L18 straddles — see QUESTIONS.md); created nights-glossary.json |
 | Night 1 | P10L10–P14L08 | published 2026-09-20/21, 71 sense units; 505 new glossary entries |
 | Night 2 | P14L09–P20L10 | published 2026-09-21, 184 sense units; 587 new glossary entries |
-| Night 3 | P20L11–P25L11 | to publish |
+| Night 3 | P20L11–P25L11 | published 2026-09-21, 101 sense units; 514 new glossary entries |
 | Night 4 | P25L12–P30L09 | to publish |
 | Night 5 | P30L10–P38L01 | to publish |
 | Night 6 | P38L02–P41L17 | to publish |

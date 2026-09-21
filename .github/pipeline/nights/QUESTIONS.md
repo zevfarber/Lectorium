@@ -429,3 +429,60 @@ Open decisions the rules do not settle. A run writes the question and what it de
   (interrogative "did I not…?") shares a bare skeleton with this night's own أَمَّا ("as for…"),
   so a reader relying on the bare-fold fallback for the latter would currently see the wrong gloss.
   None of these affect this night's own gate.
+- **Rubric display flag used for the first time, publishing Night 3 (2026-09-21).** The edition's
+  own section heading at P20L17 (حكاية الصياد, transcribed with `"h": true`) is rendered in
+  `nights-03.json` as its own sense unit with both `"r": true` (rubric styling — a CSS class
+  reader.html already defines, `.sent.rubric`, but which no published night had ever actually set)
+  and `"p": true` (paragraph start). The one earlier precedent, `nights-frame-02.json`'s heading
+  for حِكَايَةُ التَّاجِرِ وَالْجِنِّيِّ, used only `"p": true`, leaving the heading in the
+  ordinary text color. Reading reader.html's own code, `"r"` exists for exactly this case and
+  seems like the more complete, intended rendering (distinct color for a section title, like a
+  chapter heading) rather than an oversight to imitate. Decided to set both flags on Night 3's own
+  heading rather than match the frame's incomplete precedent. **Not touched:** whether
+  `nights-frame-02.json`'s own heading should retroactively gain `"r": true` too, for visual
+  consistency across the library — that file is out of this run's scope (a publishing run may
+  touch only its own night), and it is a purely cosmetic question with no gate impact. Worth a
+  look if anyone reads the two side by side and finds the inconsistency jarring.
+- **Likely compositor's slip, publishing Night 3 (2026-09-21): P24L19's اعتقتك.** The efrit's line
+  "فقال العفريت لما اعتقتك وانا ما اقتلك الا لاجل ما خلصتني" prints اعتقتك unambiguously, on its
+  bare consonants alone (not just an unvocalized ambiguity), as أَعْتَقْتُكَ — "I freed you"
+  (1st-person subject, 2nd-person object). This inverts the logic the passage plainly needs: the
+  efrit is explaining why he now kills the very man who just freed *him* from the jar (the
+  sentence's own second verb, خَلَّصْتَنِي, "you delivered me," is grammatically sound and gives
+  the true sense, and the logic — killing your rescuer precisely because he rescued you — is the
+  same bitter point the Umm ʿĀmir proverb makes two units later). This reads as the same class of
+  error already on record for other nights (a swapped pronoun/object suffix, compare Night 2's
+  حَنَّ قَابُهُ for قَلْبُهُ). Per the rule, the archive was not touched: اعتقتك is vocalized
+  exactly as printed (أَعْتَقْتُكَ) in `nights-03.json`, but the translation renders the sentence
+  by evident sense (the efrit kills him *because* he was freed), with a note explaining the
+  discrepancy for the reader. Flagging here in case a future pass over the page image itself wants
+  to double-check whether the print truly shows ك rather than a hard-to-distinguish ني.
+- **Style seams found by the whole-night review pass, publishing Night 3 (2026-09-21), left
+  unfixed this run — not correctness issues, logged for a future normalization pass.** (1) The
+  `tr` layer shows a systemic split: roughly the first two of five drafting slices (idx 0-39)
+  consistently transliterate a sentence-final word's short case/mood vowel in full (waṣl style,
+  e.g. `al-arḍi`), while roughly the last three slices (idx 40-100) mostly drop it (waqf/pausal
+  style, e.g. `al-qumqum`), with a handful of exceptions in both directions. Both styles are
+  linguistically defensible on their own, but mixed within one file it is a visible seam. (2) The
+  literal (`l`) layer shows a three-way shift in dialogue-reporting convention across the same
+  five slices: natural word order with bare-colon speech (idx 0-19) → heavily hyphenated,
+  Arabic-word-order calque with quotation marks (idx 20-79) → natural word order with quotation
+  marks (idx 80-100). Read closely at all four slice-boundary seams (idx 19/20, 39/40, 59/60,
+  79/80) for narrative continuity — no dropped content or repetition at the story level, so these
+  two items are presentational only. Recommend a future pass pick one `tr` vowel convention
+  (probably always-full, matching the "complete tashkīl" ethos) and one `l`-layer dialogue
+  convention, and normalize retroactively; not attempted this run given the number of individual
+  units it would touch and the risk of introducing a real error while chasing a style fix under an
+  unattended run's own time budget.
+- **Several individually-uncertain readings in Night 3, translated by evident sense and flagged in
+  their own notes (nobody waiting on these, recorded for completeness).** فَوَجَلَ (P21L04, "he
+  found," expected root و-ج-د) is a non-standard spelling kept as printed. هَيَا (P21L13, an
+  interjection before "لا بل من كرامة") has no confident resolution. عِفْرِينًا (P23L10, with ن
+  rather than the usual عفريت) is read as a genuine variant form Lane records related augmented
+  roots for (عِفْر, عِفْرِيَة). بِزَوَالِ السِّتْرِ عَنْكَ (P23L21, the fisherman's curse back at
+  the efrit) is translated as an idiom for ill fortune/exposure, not confidently sourced. مَلِيًّا
+  in "أَصْنَعُ مَعَكَ مَلِيًّا" (P24L21) does not parse cleanly against its ordinary senses
+  ("a long while" / "one of substance") and is read as a non-standard variant of the "do a good
+  turn" idiom. شَيٍ (P25L08, "a thing") prints with no hamza seat at all, not just a missing hamza
+  sign — a colloquial spelling, vocalized on its two printed letters alone. None of these affect
+  the gate.

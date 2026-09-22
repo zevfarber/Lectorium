@@ -123,3 +123,122 @@ hanging for odyssey-003.
 One thing for the next part to carry forward: the drafter's weak spot here was the augment, six of the
 thirteen errors being forms called "unaugmented" that in fact carry the augment, four of them inside
 compounds (ἔμισγον, ἐπέχευε, παρενήνεον, ὤλετο, ἔφαντ’, ἐμισγόμεθ’). Worth a standing check.
+
+## Pass 3 — glossary (`gloss.json`)
+
+Every entry was read against the line or lines where its form actually stands in `units.json`, and
+against the unit's own note where there is one: all **479** new entries and all **15** entries under
+`__broaden__`, not a sample. Thirteen entries were changed; the rest stand.
+
+### Mechanical checks that passed
+
+- **Coverage is exact.** The 479 keys are precisely the 479 forms in `novel-forms.json` — none
+  missing, none invented — and the 15 `__broaden__` keys are all in `known-forms.json`. Every one of
+  the 494 keys is found in this part's `t` (case-folded), so no entry describes a form that is not here.
+- **No key collides with the shipped glossary.** None of the 479 new keys already stands in
+  `odyssey-glossary.json`, so the merge adds and never overwrites.
+- **All 15 broadenings begin with the old entry character for character**, followed by ` · ` and the
+  new reading. Checked by string comparison against `odyssey-glossary.json`, not by eye. Nothing was
+  dropped or reworded: e.g. `περὶ` still carries the whole of "περί — around, about; prep. + gen.:
+  ’superior to, beyond’; also as adv.: ’exceedingly, surpassingly’" before the new plain sense.
+- **Format**: every entry is `<lemma> — <meaning>; <parse>` (the four bare particles `ἄν`, `κ`, `κεν`,
+  `σφι` have no parse to give and carry no semicolon, as the shipped glossary's own particle entries
+  do); keys all lowercased; typographic ’ throughout, no ASCII apostrophe, no backtick, no double
+  quote anywhere; longest entry 227 characters, all under 230.
+- **No entry is pinned to a line.** No entry contains a line number, and after the one fix below none
+  says "here" except the four whose meaning *is* ’here’ (τόδε, ἐνθάδ, ἥδ, ὧδε).
+- **Homographs.** All five are real and both readings occur in this part: `τοι` (enclitic dative at
+  170, 179 · particle at 155, 200, 203), `ἦ` (affirming 155 · interrogative 158 · = ἤ in ἠέ … ἦ 175),
+  `ἦλθον` (3 pl. 144 · 1 sg. 194), `εἰς` (prep. 172 · 2 sg. of εἰμί 170, 207), `πόσιν` (the new
+  ’drink’ at 191, beside the inherited ’husband’). `καλὸν` likewise carries adjective (131) and
+  adverbial accusative (155). None is padding.
+- **Disputed meanings are owned**, and the list is right for this part: αἴθωνα (of iron the sense is
+  disputed), γλαυκῶπιν (sense uncertain), δαΐφρονος (δαῆναι or δάϊς), οἴνοπα (colour unsettled),
+  πεσσοῖσι (game unidentified), ἀκαχμένον (formation obscure), παλλὰς (origin unknown), ἀναθήματα
+  (not yet ’votive offering’), βλάπτουσι and κατάλεξον (not yet the later senses).
+
+### Changes made
+
+Each is a single scoped edit to one entry's string; nothing else in the file moved.
+
+1. **δῶ** · the entry read "indeclinable epic noun, **here** acc. sg.: ’to our house’" — the one
+   entry pinned to its context, both in the forbidden word "here" and in a gloss (’to our house’)
+   that only fits ἡμέτερον δῶ at 176. → "δῶ — house, home; indeclinable epic noun (= δῶμα), used as
+   nom./acc. sg."
+2. **τά** · lemma wrong. τά is a form of ὁ, ἡ, τό used relatively, not a form of ὅς, ἥ, ὅ (whose
+   neuter plural is ἅ). conventions.md says so outright ("the article is a pronoun … τοί can be
+   relative"), the unit note at 97 says so ("τά is the article-form used as a relative"), and the
+   shipped glossary lemmatises τοὶ, τόν, τῷ exactly this way. → relemmatised under ὁ, ἡ, τό with
+   "also relative: ’which’". The bare "(accented τά)" was replaced by the reason for the accent, the
+   enclitic μιν that follows.
+3. **τοῖσίν** · the same lemma error (τοῖσιν is not a form of ὅς, ἥ, ὅ). → relemmatised under
+   ὁ, ἡ, τό, "also relative: ’with whom’", keeping the correct note on the accent before enclitic τε.
+4. **τελέεσθαι** · parsed "pres. inf. mid." It is the **future** middle infinitive: it depends on
+   ὀίω at 201, and the unit's own note calls it "the uncontracted future middle infinitive". →
+   "fut. inf. mid., epic uncontracted (= Attic τελεῖσθαι)".
+5. **ῥινοῖσι** · gender wrong: ῥινός is feminine in Homer (LSJ ἡ ῥινός). → "fem. dat. pl."
+6. **ἔδουσιν** · parsed "pres. 3 pl., … **unaugmented**" — a present cannot be unaugmented. The same
+   slip the drafter kept making on past tenses, now the mirror image. → "pres. 3 pl., from the epic
+   present ἔδω (= Attic ἐσθίουσι)".
+7. **μέν** · "(accented μέν when not followed in its phrase by another word)" is not why the acute
+   stands at 127. It stands because the next word is the enclitic ῥ’. → "(the acute μέν is kept
+   before a following enclitic; elsewhere μὲν)".
+8. **τί** (`__broaden__`) · the new half said the indefinite is "(accented τί after οὐ … γάρ)". The
+   accent at 173 comes from the enclitic σε that follows τι, not from what precedes it — every other
+   entry in the file states this correctly. → "(accented τί before an enclitic)". The old entry's
+   text is untouched, and the whole is 219 characters.
+9. **πευθοίαθ** · "epic -αθ(ε)" invents an ending. The ending is the epic -ατο for -ντο; -αθ’ is that
+   ending elided before οἱ and aspirated by its rough breathing, as the unit note says. → "epic -ατο
+   for -ντο, elided and aspirated (πευθοίαθ’ = πευθοίατο)".
+10. **εἴρηαι** · no tense given ("subj. 2 sg. mid."). It is the present subjunctive of εἴρομαι
+    (the aorist would be ἔρηαι, without the εἰ-). → "pres. subj. 2 sg. mid., uncontracted
+    (= Attic ἔρῃ)".
+11. **κρειῶν** · "epic **uncontracted**" is the wrong label: κρεάων is the uncontracted genitive
+    plural, κρεῶν the contracted one, and κρειῶν is κρεῶν with ει for ε (Monro §105). → "epic κρειῶν
+    with ει for ε (= Attic κρεῶν)". **Left for the owner:** the note at 141 in `units.json` says
+    "uncontracted" too. `units.json` is out of this pass's scope and was not touched, but the note
+    and the entry now disagree and the note is the one that is wrong.
+12. **χρυσοῖό** · the entry explained the added acute but not the form: it is the epic genitive in
+    -οιο, which every comparable entry in the file (ἀνέμοιο, ἀργυρέοιο, προθύροιο, ποτοῖο, ὑψηλοῖο)
+    names. → "gen. sg., epic -οιο (= Attic χρυσοῦ), accented on the ultima before the enclitic τε".
+13. **εἴ** · "(accented εἴ, e.g. before an enclitic **or πέρ**)" implies περ is not an enclitic; it
+    is, which is why the file's own πέρ entry explains *its* accent by a following enclitic. →
+    "(accented εἴ before a following enclitic, περ among them)".
+
+### Considered and left as it stands
+
+1. **κρέα** · "neut. acc. pl., uncontracted (= Attic κρέα contr.)" reads oddly, since the two are
+   spelled alike. It is nevertheless a real point — the Homeric plural is two short syllables (at 112
+   κρέα scans ⏑⏑, with δὲ long before κρ), the Attic one contracted — so it is left.
+2. **ταμίη, γρηῦς, ξεῖνος, πνοιή, κεῖνος, ἑξείης** and the like are lemmatised on the epic headword
+   with the Attic given, not on the Attic headword LSJ files them under. That is the house practice
+   (conventions.md's own model is `ἔμμεναι` → "εἰμί … epic (= Attic εἶναι)"), it is what Autenrieth
+   and Cunliffe do, and the shipped glossary already has `αἴης` → αἶα. Consistent, so left.
+3. **ἕντο** is lemmatised ἵημι, not ἐξίημι, with "in tmesis with ἐξ" in the parse. Defensible either
+   way: the preverb stands apart in the line and has its own broadened entry under ἐξ. Left.
+4. **Collocations inside parses** — αὐλείου "(οὐδοῦ ἐπ’ αὐλείου …)", κακὸν "inner acc. with μόρον",
+   πολλά "(agreeing with ἔγχεα)", οἷσιν "(agreeing with δώμασιν)", ἀρχῆς "(ἐξ ἀρχῆς …)". These name a
+   phrase, not a line, and they are what makes the parse checkable; conventions.md's own model entry
+   for τὸν does the same with ’him’. Left, but they are the edge of the rule.
+5. **ἀναβήμεναι** "go up (from the coast inland)" was checked against 210 (ἐς Τροίην) and against the
+   pass-2 decision on that unit's note, which accepted the same LSJ/Cunliffe sense. Left.
+6. **ὥς** (`__broaden__`) · the new reading ’how’ is right for 205, but the accent on ὥς there is
+   thrown back by the enclitic κε and is not the accent of ὥς ’thus’ that the shipped `ὡς` entry
+   contrasts. The broadening gives the reading without explaining the accent. Not wrong, and the
+   entry is near the length limit; left.
+7. **βρῶσίν, ὅττεό** carry an acute from a following enclitic that the entry does not explain,
+   where χρυσοῖό, ἐσθῆτός, τοῖσίν, κεῖνόν, ἐγώ and πέρ all do. An inconsistency in helpfulness, not
+   an error. Left.
+8. **ἴδον** is parsed "aor. 1 sg." (its use at 212) though the form is also the epic 3 pl. Only the
+   first-person use occurs in this part, and the entry is parsed in context as the runbook asks.
+   Left; a later part that has the 3 pl. will broaden it.
+9. **ὀβριμοπάτρη** is glossed ’of the mighty father’ without a doubt flag. Unlike ἀργεϊφόντης the
+   compound is transparent (ὄβριμος + πατήρ) and no caution is owed. Left.
+
+### Verdict
+
+**`gloss.json` is ready to merge into `odyssey-glossary.json` at build time.** The 479 new entries
+add no key that already exists, and the 15 broadenings preserve their old entries whole, so the
+merge is additive in both directions, as conventions.md requires. The one thing the owner should
+know is item 11 above: the note at 141 in `units.json` still calls κρειῶν "uncontracted", and that
+note, not the glossary entry, is now the inaccurate one.

@@ -534,6 +534,10 @@ Open decisions the rules do not settle. A run writes the question and what it de
   says it verified" claim about hamza encoding specifically should never be trusted without an
   independent mechanical recheck — visual inspection cannot catch this class of error at all.
   Worth adding a line to the drafting prompt/runbook making this failure mode explicit.
+  **Acted on 2026-09-22 (owner's instruction):** the check is now a script, not a claim.
+  `tools/check_slice.py` runs the bare-strip identity on each slice as it returns, repairs the
+  hamza/split/join classes mechanically with `--fix`, and reports anything else; publish-runbook.md
+  4a makes it a condition of merging a slice, and drafters are no longer asked to verify anything.
 - **Publishing Night 5: the archive prints a bare "و" as its own space-separated token before its
   host word at roughly 22 points across P30L10–P38L01** (e.g. "و هو", "و قال", "و قتله", "و اطلبه"),
   far more than the single instance Night 4's QUESTIONS entry flagged. Per the bare-strip rule the

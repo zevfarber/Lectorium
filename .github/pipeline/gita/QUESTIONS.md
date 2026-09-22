@@ -58,6 +58,11 @@ chapter's scope to fix.
 
 ## brahma-karma (18.42) — brāhmaṇa's duty, or the untranslated metaphysical brahman? (raised
 ## drafting chapter 18, 2026-09-22)
+**RESOLVED 2026-09-22 (owner's decision).** "The brahmin's duty", matching the other three varṇa
+verses; the published 18.42 already reads so and stands. Recorded in `conventions.md` ("Untranslated
+terms" and "House renderings of recurring terms") so no later drafter has to rediscover it. The
+original note follows for the record.
+
 conventions.md keeps brahman untranslated wherever it names the cosmic absolute (its usual sense
 at every prior occurrence, e.g. chapters 2-3, 8, 13, 17). 18.42's brahma-karma is different: in
 context it stands beside 18.43's kṣatra-karma and 18.44's vaiśya-karma/śūdra-karma, naming the
@@ -72,6 +77,10 @@ brāhmaṇa, so a future chapter's drafter does not have to independently redisc
 
 ## 18.78 dhruvā — modifying nītiḥ alone, or the whole preceding list? (raised drafting chapter 18,
 ## 2026-09-22)
+**RESOLVED 2026-09-22 (owner's decision).** Leave dhruvā ambiguous, as drafted: the translation does
+not pick a reading and the note states both. Recorded in `conventions.md`, "House renderings of
+recurring terms". The original note follows for the record.
+
 The Gītā's closing verse names śrīḥ, vijayaḥ, bhūtiḥ and nītiḥ (mama, "mine") wherever Kṛṣṇa and
 Arjuna are, and adds dhruvā, "certain, firm" — grammatically feminine singular, which agrees with
 the nearest noun nītiḥ but could as plausibly be read (per the verse's own rhetorical shape) as

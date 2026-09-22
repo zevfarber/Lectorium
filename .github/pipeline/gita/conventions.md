@@ -44,6 +44,10 @@
   kula-dharma), yoga, brahman, the three guṇas, sāṃkhya (named in 2.39 as yoga's structural
   counterpart, and again from 3.3 on as one of the poem's two named paths — not "analysis" or
   "reasoned discernment"). Everything else is translated.
+  brahma- as the bound first member of a compound can stand for brāhmaṇa, the brahmin, not the
+  metaphysical brahman: brahma-karma at 18.42 is "the brahmin's duty", matching the kṣatra-,
+  vaiśya- and śūdra-karma of 18.43–44 (owner's decision 2026-09-22). Say in the gloss which sense
+  is meant whenever brahma- is a compound member.
 
 ## Translations and notes
 - `l`: structurally transparent; hyphenate the compounds as in the reading; keep the Sanskrit
@@ -86,6 +90,12 @@
   in the word's own gloss at each occurrence, not settled in the translation. Decided by the owner
   2026-09-21: normalize, and where a rendering hides a real ambiguity, put the ambiguity in the
   glossary entry.
+- brahma-karma (18.42): "the brahmin's duty" — see "Untranslated terms" above. Decided by the owner
+  2026-09-22.
+- dhruvā (18.78): deliberately left open between "certain policy" (agreeing with the nearest noun,
+  nītiḥ) and "certain" for the whole list śrī–vijaya–bhūti–nīti. The translation keeps the
+  ambiguity and the note states it; do not resolve it in a later pass. Decided by the owner
+  2026-09-22.
 
 ## Speaker lines
 - धृतराष्ट्र उवाच / सञ्जय उवाच / अर्जुन उवाच are two tokens; श्रीभगवानुवाच is written as one token on

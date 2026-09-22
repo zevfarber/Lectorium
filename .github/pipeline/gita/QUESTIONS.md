@@ -55,3 +55,28 @@ the time. Worth a deliberate call on which capitalization is the house style, wi
 conform chapters 8 and 10 if "the Supreme Person" (capitalized) is chosen — noting chapter 11 already
 renders the same term differently again ("highest of beings"), a third variant also outside this
 chapter's scope to fix.
+
+## brahma-karma (18.42) — brāhmaṇa's duty, or the untranslated metaphysical brahman? (raised
+## drafting chapter 18, 2026-09-22)
+conventions.md keeps brahman untranslated wherever it names the cosmic absolute (its usual sense
+at every prior occurrence, e.g. chapters 2-3, 8, 13, 17). 18.42's brahma-karma is different: in
+context it stands beside 18.43's kṣatra-karma and 18.44's vaiśya-karma/śūdra-karma, naming the
+brahmin's own caste-duty (short for brāhmaṇa-karma), not a claim about brahman-the-absolute.
+Decided meanwhile: rendered "the brahmin's duty" to match the parallel construction, with the
+departure from the blanket untranslated-brahman rule flagged explicitly in both the word's gloss
+and the verse's note, rather than left implicit or silently generalized into a new exception.
+Worth the owner's eyes since it is the one case in 18 chapters where "brahma-" as a compound
+member does not mean brahman itself; if this reading is endorsed, it may be worth a one-line
+addition to conventions.md's untranslated-terms section noting brahma- as a bound member can name
+brāhmaṇa, so a future chapter's drafter does not have to independently rediscover it.
+
+## 18.78 dhruvā — modifying nītiḥ alone, or the whole preceding list? (raised drafting chapter 18,
+## 2026-09-22)
+The Gītā's closing verse names śrīḥ, vijayaḥ, bhūtiḥ and nītiḥ (mama, "mine") wherever Kṛṣṇa and
+Arjuna are, and adds dhruvā, "certain, firm" — grammatically feminine singular, which agrees with
+the nearest noun nītiḥ but could as plausibly be read (per the verse's own rhetorical shape) as
+applying to the whole quartet. Decided meanwhile: left the ambiguity open in the note rather than
+silently picking a reading, per the pipeline's standing practice of surfacing real ambiguities in
+the note instead of resolving them in the translation (cf. the puruṣottama vocative question at
+8.1/10.15/11.3 before it was settled). No action needed unless the owner wants a firm reading
+recorded as house style for this, the poem's final verse.

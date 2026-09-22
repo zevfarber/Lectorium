@@ -440,3 +440,40 @@ drafts/ch08, ch10, ch11 (trans.txt, words.txt) and drafts/ch15/words.txt; all fo
 with build_gita.py and PASS validate_gita.py with their previous warning counts. Before editing,
 rebuilding 8, 10 and 11 from their drafts reproduced the published files byte for byte. House
 rendering recorded in conventions.md.
+
+2026-09-22 · chapter 18 (Mokṣasaṃnyāsayoga, Liberation and Renunciation) · unattended run · 78
+verses (the longest chapter and the last of the 18), 561 glossary keys, 741 word tokens · source
+verified (sha256 matched parts.json; collate(18) returned exactly the seven listed variantsVsBORI
+as VAR — 18.25, 18.28, 18.43, 18.44, 18.51, 18.66, 18.68 — plus four benign orth differences at
+18.17/18.41/18.71/18.73; no corrections.json entries for this chapter). Drafted whole (78 verses
+in one pass, no verse-range split needed): saṃnyāsa/tyāga distinguished and sorted by guṇa
+(vv.1-12), the five factors of action and the Sāṃkhya doctrine of the five-factor analysis
+(vv.13-18), the guṇa-classified triads of knowledge/action/agent then intellect/steadiness/
+happiness (vv.19-39), the four-varṇa duty verses (vv.41-44, two of which — 18.43, 18.44 — are
+variant verses), the path through one's own duty and disciplined intellect to liberation and
+surrender (vv.45-66, closing on the house-rendered 18.66), the teaching's transmission and
+confidentiality (vv.67-71), and the closing exchange — Arjuna's declaration and Sañjaya's own
+testimony (vv.72-78). House rendering for 18.66 used verbatim. Reviewed in two passes: found and
+fixed two errors (a stray copy-pasted sandhi note at v.17's भावो token wrongly citing the
+following word's initial letter as bh- instead of the actual unaspirated b-, and an overstated
+"nearly word for word" claim at v.47's note about the line it shares with 3.35, which checked
+byte-for-byte identical against drafts/ch03/words.txt and was reworded accordingly); extensive
+further cross-checking (all ~60 sandhi-annotation notes against their actual next tokens, all
+seven variant-verse notes against the live BORI text, the guṇa-triad and four-varṇa stretches for
+internal consistency, and several cross-chapter citations: 18.47↔3.35, 18.49↔2.57/5.10,
+18.52↔6.10, 18.59↔2.9, 18.37↔17.16) turned up nothing further — an unusually clean draft. Two
+judgment calls recorded for the owner's attention in QUESTIONS.md: 18.42's brahma-karma rendered
+as short for brāhmaṇa ("the brahmin's duty") rather than the untranslated metaphysical brahman, to
+match the parallel kṣatra-/vaiśya-/śūdra-karma of 18.43-44; and 18.78's dhruvā left open as
+modifying either nītiḥ alone or the whole preceding list, per the convention of surfacing real
+ambiguities rather than silently resolving them. Glossed on Sonnet: 36 gloss-wording consistency
+fixes, the largest being karman (drifted across "action" / "action, duty" / "duty" — unified to
+"action", 12 occurrences), kartṛ ("agent, doer" variants unified to "the agent, the doer", 7
+occurrences) and dhṛti (six different wordings for the term this chapter's own vv.33-36 define a
+threefold typology of — unified to "steadfastness, firmness, resolve", 9 occurrences), plus ten
+missing "kept untranslated per convention" tags on scattered guṇa/yoga/dharma/sattva/tamas
+occurrences (bookkeeping only — none of these terms were ever mistranslated). All proper names
+confirmed identified on first occurrence. build_gita.py and validate_gita.py both PASS (16 benign
+sandhi-boundary warnings, same class as chapters 1-17). Added to stories.json after gita-ch17.
+The Bhagavadgītā's 18-chapter text phase is now fully drafted; parts.json and plan.md both show
+all 18 chapters published.

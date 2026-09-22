@@ -63,14 +63,42 @@ Use the Agent tool, `general-purpose`, over **disjoint slices** of the sense uni
 units each, four or five agents. Disjoint slices are what stop the glosses from diverging; the
 pilot's overlapping drafters produced 61 conflicting entries and every one had to be swept.
 
+Cut the slices on archived-line boundaries and record each slice's `--from` and `--to` refs
+before you launch it: the check in 4a needs them.
+
 Give every agent, in its prompt, the full text of `reading-conventions.md` and its own slice.
 Each returns, for each sense unit: `t` (vocalised), `tr`, `l`, `i` (omit where the literal is
 already natural), `n` (only where genuinely useful), plus a glossary entry for every word form in
-its slice.
+its slice. Have it write its result to a file (`/tmp/slice<N>.json`, sentences plus glossary)
+rather than only into its reply — the file is what gets checked.
+
+**Do not ask an agent to verify its own slice, and give no weight to a claim that it did.** On
+Night 5 all five agents reported "verified mechanically, zero mismatches" and 1224 of 1798 tokens
+were wrong: precomposed hamza is indistinguishable from the correct encoding to anyone reading
+the text, model or human. Tell the agents the encoding rule; do not tell them to check it. The
+check is yours, and it is a script:
+
+### 4a. Check every slice by script, the moment it comes back
+
+    python3 tools/check_slice.py /tmp/slice<N>.json --from <REF> --to <REF>
+
+It runs the bare-strip identity on that slice alone against the archived lines. If it prints
+`RESULT FAIL` with "mechanically repairable", run it again with `--fix`: it rewrites precomposed
+hamza to the combining form wherever the edition prints the bare letter, puts the archive's own
+spaces back where a drafter fused the stray `و` (or a line-break split) into its host word, joins
+what a drafter split, and carries the same fixes into the slice's glossary keys. Anything it
+cannot repair — a wrong, missing or extra word — it lists as `FAIL token N`; that is a drafting
+error, and you fix it by hand against the archive (never by re-reading the scan, never from
+memory). Any glossary key it had to split is printed under `WARN`; rewrite those two meanings.
+
+A slice goes into the night only after `check_slice.py` prints `RESULT PASS` on it. No
+exceptions, and no "the agent said it was fine".
 
 Then **one review agent over the whole night**: register consistency (the you/your rule, the
-`al-` rule), the hamza encoding, glosses that disagree across slice boundaries, and a copyright
-echo check against the two known traps in `reading-conventions.md`. It reports; you apply.
+`al-` rule), glosses that disagree across slice boundaries, and a copyright echo check against
+the two known traps in `reading-conventions.md`. It reports; you apply. It does **not** check
+the hamza encoding — the script already has, and a reviewer will sooner or later recommend NFC
+in good faith. The full-night gate in step 7 is the second, independent run of the same check.
 
 ## 5. The shared glossary
 
@@ -104,9 +132,11 @@ Add the entry to `stories.json`, beside the other nights: `id`, `title`, `titleE
     python3 tools/validate_night.py ../../../nights-<NN>.json --from <start> --to <end>
 
 must print `RESULT PASS`. The check that matters is the bare-strip identity: the vocalised text,
-with the combining marks removed, must equal the archive token for token. A failure there is
-almost always a precomposed hamza — fix the word. **Never run NFC over the file to make it pass**;
-that breaks every Arabic text in the library.
+with the combining marks removed, must equal the archive token for token. If every slice passed
+4a this should pass first time; a failure here means a slice was merged without its check, or an
+edit after 4a introduced a precomposed hamza — fix the word (`check_slice.py --fix` works on the
+assembled file too, with the night's own `--from`/`--to`). **Never run NFC over the file to make
+it pass**; that breaks every Arabic text in the library.
 
 `git diff --stat` must show only: the new story file, `stories.json`, `nights-glossary.json`, and
 your own pipeline files (claim, LOG, plan). Never `reader.html`, never `index.html`, never
@@ -129,7 +159,8 @@ settle, with what you decided meanwhile. Nothing waits on the owner.
 
 ## What a publishing run never does
 
-Publishes more than one night; changes a letter of the archive; touches `reader.html`,
+Publishes more than one night; merges a slice that `check_slice.py` has not passed; takes an
+agent's word that it checked its own text; changes a letter of the archive; touches `reader.html`,
 `index.html`, audio, or another work's files; opens a modern translation of the Nights for
 wording; runs NFC over an Arabic file; sends email; uses Google Drive; creates, changes or
 disables a routine.

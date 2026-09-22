@@ -99,3 +99,105 @@ The three errors were a false claim about where words stand in the verse (230), 
 - ἤρατ’ (240) needs a lemma decision in the glossary (refusal 13).
 - The open parses at 268, 270 and 222 should stay open in the glossary entries.
 - The 266 line is a registered fixed rendering whose `i` changed at review. Any later recurrence must use "All of them would meet a swift doom and a bitter marriage."
+
+## Pass 2 — glossary (`gloss.json`)
+
+I read every entry against the line or lines where its form stands in `units.json`, and against that unit's note where it has one. That covers all **361** new entries and all **17** under `__broaden__`, not a sample. I changed twenty entries (18 new, 2 broadenings), and the rest stand. For the broadenings I checked against the shipped text of `odyssey-glossary.json` by string comparison, not against the glosser's report.
+
+### Mechanical checks that passed
+
+- **Coverage is exact** (checked by script). The 361 keys are precisely the 361 forms in `novel-forms.json`: none is missing and none is invented. All 17 `__broaden__` keys are in `known-forms.json` and in the shipped glossary. None of the 361 new keys already stands in `odyssey-glossary.json`, so the merge adds and never overwrites.
+- **All 17 broadenings begin with the shipped entry character for character**, then ` · ` and the new reading. I checked this with `new.startswith(old + ' · ')` against `odyssey-glossary.json` at HEAD, and re-checked it after my two edits. After the build, all 952 old keys are still present, and each of the 17 changed values still starts with its old text.
+- **Format** (checked by script, before and after my edits):
+  - every entry matches `^\S.* — \S`
+  - there are no backticks, ASCII apostrophes or double quotes
+  - keys are lowercased
+  - the longest entry is 228 characters (the ὥς broadening), and every entry is at or under 230
+  - after the fix to ἤρατ’ below, no entry carries a line number
+  - "here" appears only in the meaning 'this here' of ὅδε (τάδε, ὅδ’), the same allowance as the 002 review
+- **Article and pronoun lemmas are right.** τὸ and the broadened τὰ and ὅ are all under ὁ, ἡ, τό, including ὅ used as a relative (254, 300). No article-form is filed under ὅς, ἥ, ὅ.
+- **The possessive is kept apart from the relative.** οἷς, ᾗσι and ᾧ are possessive. ἑόν and ἑοῖς are under ἑός. The broadening of ὃς adds the demonstrative 'he' of 286, and that reading does occur there.
+- **Every homograph claim has both readings in this part:**
+  - καλόν: masc. at 301, neut. at 312
+  - ὃς: relative or possessive (shipped), plus the demonstrative at 286
+  - ὅ: pronoun (shipped), plus the relative at 254 and 300
+  - ὄφρ’: purpose (shipped), plus temporal at 233
+  - ὡς: ὡς with ὄφελον at 217
+  - ὥς: 'as' before τε at 227 and 308
+  - ὣς: postpositive 'like' at 320
+  - τίς: the indefinite at 282
+  - κλέος: accusative at 240 and 283
+  - τοῖον: at 223
+  - ἐμόν: at 251
+  - παρ’: with the genitive at 259
+  - τὰ πρῶτ’: at 257
+  - εἰ δ’ ἄγε: at 271
+  - ἐπί: adverbial at 273 and 291
+  - κεῖται: at 267
+  - αὐτῶν: at 308
+- **Augment and tense labels agree with pass 1's hand derivation in every case.** No present or future is called "unaugmented".
+- **The open parses stay open**, as pass 1 asked. ἀποτίσεται and ἀπώσεαι both say "the form does not decide". ἀνόπαια lists all four ancient readings. ἀμύμων, εἰλαπίνη (derivation), πεπνυμένος (link with πνέω), Δουλίχιον (location) and Ἐφύρη (which town) each state their uncertainty.
+
+### Changes made
+
+**error** means a wrong lemma, parse or fact. **minor** means inexact, over-reaching, pinned to context, or inconsistent with the rest of the file.
+
+| form | sev | what was wrong | what I did |
+|---|---|---|---|
+| δολόμητιν | error | Parsed "fem. acc. sg." It agrees with Αἴγισθον at 300, which is masculine. | "masc. acc. sg." |
+| καλόν | error | The second reading said "neut. **nom.** sg., predicative, of the gift". At 312 καλόν agrees with δῶρον, the object of ἔχων at 311, so it is accusative and attributive. | "· also neut. acc. sg., agreeing with a neuter noun (of a gift: τιμῆεν, μάλα καλόν …)" |
+| οὐκ | error | "form before a smooth **or rough** breathing". Before a rough breathing the form is οὐχ. | "form before a vowel with smooth breathing (οὐχ before a rough breathing)" |
+| ἤρατ’ | error | The lemma ἄρνυμαι is not LSJ's filing. ἄρνυμαι supplies only the present and imperfect. The first aorist middle ἠράμην/ἤρατο, 'won for oneself', is filed under ἀείρω/αἴρω (middle 'win, gain'). The shipped glossary already lemmatises ἀείρας as ἀείρω. The entry also carried a line reference ("ἀρνύμενος at 1.5"), which the runbook forbids. | "ἀείρω — lift, raise (Attic αἴρω); mid. win, gain for oneself; aor. mid. 3 sg., augmented, elided (ἤρατ’ = ἤρατο): ’won’; in sense the aorist of ἄρνυμαι ’win’, under which some lexica file it". This keeps pass 1's point that the lemma is disputed without overclaiming. The unit note at 239 claims only the sense ("the sense is that of ἀρνύμενος at 1.5"), so it still holds and was not touched. |
+| αἰὲν | minor | "ν-movable form". αἰέν is an epic by-form, not αἰεί with a movable ν. | "adv., epic by-form αἰέν (Attic ἀεί)" |
+| αὐτόν | minor | "’him(self)’". At its only occurrence (251, με … καὶ αὐτόν) it reinforces a first-person pronoun. | "’himself’, or reinforcing a pronoun of any person (με … καὶ αὐτόν ’me myself as well’)" |
+| οὐκί | minor | Glossed "’or not’". The 'or' belongs to ἦε. | "’not’ (ἦε καὶ οὐκί ’or not’)" |
+| φράζεσθαι | minor | "used as imperative". That is true at 294, but at 269 the infinitive depends on ἄνωγα. | "pres. inf. mid.: ’to consider’; also used as an imperative" |
+| οἷα | minor | "neut. nom./acc. pl. used as conj.". At 313 οἷα is the object of διδοῦσι, a relative. | "neut. acc. pl., relative: ’such (things) as’" |
+| οἰχομένοιο | minor | The epic genitive was not named. Every other -οιο entry in the file names it. | adds "epic -οιο (= Attic -ου)" |
+| χερσίν | minor | "epic -σίν". χερσί(ν) is also the Attic form. | "fem. dat. pl., ν-movable", matching the shipped χερσὶν |
+| ἔστων | minor | "epic". ἔστων is the Attic 3 pl. imperative too. | "epic" dropped |
+| κτερεΐξαι | minor | Lemma misspelt "κτερείζω" (no diaeresis). | "κτερεΐζω (= κτερίζω)", LSJ's headword |
+| ἐφύρης | minor | "which one is meant **here**". This pins the entry to one passage. | "name of several towns, not always identifiable" |
+| κατελεύσομαι | minor | "(from the house to the shore)" was the sense of 303 only. | "go down, come down (e.g. from a house to the shore)" |
+| κατέρυκε | minor | Quoted "μή κατέρυκε" with an acute on μή before a word. | "(with μή: ’stop holding back’)" |
+| ὅππως | minor | "+ subj.". At 270 the verb is ἀπώσεαι, which the entry for it (and the note) leave open between future and subjunctive. | "with κε + subj. (or fut.)" |
+| ἤ | minor | Only 'or'. At 268 ἤ κεν … ἦε is 'whether … or', as the note says. | adds "ἤ … ἦε ’whether … or’" |
+| καλὸν (`__broaden__`) | minor | The new reading "also as direct object: ’a fine one’" gave no parse. The old entry offers masc. acc. or adverbial neut., and neither fits 318. | new half → "· also neut. acc. sg. used as a noun, direct object: ’a fine one’ (μάλα καλὸν ἑλών)". The old text is untouched, and the entry is 227 characters. |
+| ὥς (`__broaden__`) | minor | The new half read "· or, before τε, unaccented ὡς ’as’". Read in isolation it looked like a claim that the form is unaccented. | "· or ὡς ’as’, accented before enclitic τε" (228 characters). The old text is untouched. |
+
+**Totals: 20 edits: 4 error, 16 minor.** All of them are in `gloss.json`. `units.json` was not touched in this pass.
+
+### τῷ (239): the inferential sense is not broadened, and this is a known gap
+
+At 239 τῷ is 'in that case, therefore', the inferential use of the dative. The shipped entry covers the pronoun ('to him'), the relative ('in which') and the instrumental relative ('with which'), but not this use. That entry is already **227 characters**. The shortest honest addition, " · also ’therefore’" (18 characters), would make it 245. Even a bare " · ’therefore’" would make it 241. The runbook caps every entry "under 230 characters", and additions-only forbids trimming the old text to make room.
+
+I found a loophole and did not use it. `build_odyssey.py` length-checks only new entries, not broadenings, so a longer τῷ would build. It would still break the runbook's rule, and I would not use the builder's gap to get round the house limit.
+
+The gap is one of completeness, not coverage: τῷ has a valid entry, and at 320 (τῷ δ’ ἐνὶ θυμῷ, 'in him') the shipped pronoun reading fits exactly. The unit note at 239 ("τῷ is 'in that case, therefore'") is a true statement about the line. It makes no claim about the glossary, so it does not overclaim and was left. **For the owner:** a reader who taps τῷ at 239 gets the pronoun and relative readings and has to rely on the note for the sense 'therefore'. Closing that gap needs a decision above this pipeline: either a higher cap for heavily used forms, or permission to compact an old entry.
+
+### Considered and left as it stands
+
+1. **πεπνυμένος** is lemmatised on πέπνυμαι, where LSJ files the form under πνέω. That is Autenrieth's headword, and the entry is honest that the link with πνέω is uncertain. It is the same house practice that 002's review accepted (epic headword with the relation stated). Left.
+2. **τλαίης** is lemmatised "τλῆναι (defective, root τλα-)", not LSJ's τλάω. The meaning and parse are right, and the headword is Autenrieth's. Left.
+3. **κτέρεα** is lemmatised as the plural κτέρεα, not κτέρας. LSJ gives κτέρεα 'funeral honours' its own entry. Left.
+4. **ἐπί** (`__broaden__`) gives only the adverbial reading for 273 and 291. Pass 1 listed ἐπί among the forms whose notes "state both readings", but the notes at 272 and 289 in fact commit to the adverb. The broadening agrees with them. Left.
+5. **ἔεδνα** is "wedding gifts, bridal gifts" without the suitor-versus-family question the note at 277 raises. The gloss is neutral between the two views, and the dispute is about this passage, not about the word's meaning. Left.
+6. **Ἅρπυιαι** is "the Harpies … personified". The note stresses that the edition prints a common noun. The entry's own wording ("snatching storm-winds personified as beings") says the same thing. Left.
+7. **τὸ** has "(τὸ πάροιθεν ’that which was before’)", which is stiffer than the note's 'before'. It is not wrong, since it shows the pronoun at work. Left.
+8. **ASCII "..."** appears in ὄφελον, παιδὸς, πατρίδα, ἔκ, τοῖος and the ὅ and ὡς broadenings. The shipped glossary uses both "..." and "…" (ποῖόν, τε), and neither the build nor conventions.md forbids it. Left.
+9. **κῆρ** has "(φίλον κῆρ ’in his own heart’)", where 310 is 'your own heart'. "his" is the usual lexicon placeholder, and ᾗσι and ᾧ do the same. Left.
+
+### Build and gate
+
+`python3 build_odyssey.py odyssey-003` printed `BUILT odyssey-003: 65 units, 112 lines, 361 new glossary forms (1313 total), 17 broadened` and `scansion lines needing a person or the reviewer: none`. `python3 validate_odyssey.py odyssey-003` printed **`PASS — odyssey-003: 65 units, 112 lines, glossary 1313`** with **no WARN lines**.
+
+I independently checked the built `odyssey-003.json`:
+- `“`/`”` counts are 6/6 in `l` and 6/6 in `i`, matching pass 1's six speeches.
+- All 65 units carry a note, at 51–119 words.
+- The one note over 110 words is 227 (119 words), lengthened at pass 1 to state the ὥς τε alternative. That is inside the validator's hard band (20–130), so it produced no WARN, and I left it.
+
+### Verdict
+
+**`gloss.json` was ready to merge after the 20 edits above, and it has now been merged.** The merge is additive in both directions: 361 new keys, none colliding, and 17 broadenings that keep their old text whole. The owner should know about two things:
+- **τῷ at 239.** The inferential 'therefore' is missing from the glossary because the 230-character cap blocks it (see above).
+- **ἤρατ’.** It is now lemmatised under ἀείρω, with ἄρνυμαι named as the verb it serves in sense.

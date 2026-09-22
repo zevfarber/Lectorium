@@ -39,6 +39,11 @@ words: الآخرين، بجزائر، دائمين، رآة، رآه، رأى،
 faith, because decomposed hamza looks like an encoding defect. It would silently break the bare
 state on every Arabic text in the library. `tools/validate_night.py` is the thing that decides.
 
+Nobody can see this defect — the two encodings render identically — so nobody is asked to look
+for it. The orchestrator runs `tools/check_slice.py` on every drafting slice as it comes back
+(publish-runbook.md 4a) and the night gate re-runs the same identity on the whole file. A
+drafter's report that it "verified" its hamza encoding is not evidence and is not requested.
+
 **Defective spellings take the dagger alif.** Where the edition prints قل for قال, point it with
 U+0670: it reads correctly, preserves the rasm, and strips cleanly.
 

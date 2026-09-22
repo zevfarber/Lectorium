@@ -486,3 +486,35 @@ Open decisions the rules do not settle. A run writes the question and what it de
   turn" idiom. شَيٍ (P25L08, "a thing") prints with no hamza seat at all, not just a missing hamza
   sign — a colloquial spelling, vocalized on its two printed letters alone. None of these affect
   the gate.
+- **Publishing Night 4 (2026-09-21/22): a legacy glossary-key inconsistency found, not touched.**
+  The shared glossary already carries two keys for the same preposition: `إِلَى` (with the
+  combining hamza U+0655, per the house rule, and used by nearly every night since) and a lone
+  `اِلَى` (no hamza mark at all), the latter's own gloss noting it was "printed without the hamza
+  sign" — apparently a one-off decision from the pilot, before the hamza-encoding rule was fully
+  settled. Night 4's new entries all use the standard `إِلَى` form; the stray `اِلَى` key was left
+  as-is (touching `nights-frame-01.json`, which uses it, is out of this run's scope) but is worth
+  a dedicated cleanup pass: either retire the unmarked key in favor of the marked one, or confirm
+  the pilot's specific occurrence genuinely differs and document why.
+- **Publishing Night 4: an archive line-break artifact, worked around rather than fixed.** At the
+  P29L02/P29L03 boundary the archive tokenizes "والانعام" ("and the bounty") as two separate
+  tokens — a lone `و` ending one printed line, `الانعام` starting the next — rather than as the
+  single glued word Arabic orthography requires. This has the shape of the "detached wāw" defect
+  the transcription LOG mentions catching and reattaching several times elsewhere (e.g. p.19,
+  p.51); this particular instance apparently weathered phase 1's two-pass-plus-adjudication
+  unflagged. Per the publishing runbook, the archive itself was not touched; the published
+  vocalised text instead reproduces the same two-token split (a visible mid-word space in
+  `nights-04.json`) so the bare-strip gate matches token-for-token. Worth a transcription-side
+  look at whether this is a genuine detached-wāw miss that should be corrected in the archive
+  proper, which would let Night 4's text rejoin the word normally.
+- **Several individually-uncertain readings in Night 4, translated by evident sense and flagged in
+  their own notes (recorded for completeness, nobody waiting on these).** "ورمق البارد كمه وحضم"
+  (P26L03) resists confident parsing on either البارد or حضم (neither confirmed against
+  Lane/Hava); vocalized and translated by best-effort sense. "نبرئني" (P27L09) is printed with an
+  initial ن where the dialogue plainly wants a 2nd-person verb ("will you cure me?"); kept as
+  printed. "دون" (P30L03) almost certainly truncates "دوبان" (Duban), most likely a compositor's
+  dropped syllable; kept as printed rather than silently expanded. "غايه الغرب" (P30L01) sits
+  oddly beside "غايه الاكرام" a few words earlier; no confident emendation offered. "دبنارا"
+  (P29L02, for "دينارا"/dinars) and "ملى" (P29L05, for "مدى") both read as probable printer's
+  letter-substitutions, reproduced exactly as printed. "سرت"/"سرى" (P28L03) disagree in gender for
+  the same subject الدواء within a few words of each other; both vocalized as printed rather than
+  harmonized. None of these affect the gate.

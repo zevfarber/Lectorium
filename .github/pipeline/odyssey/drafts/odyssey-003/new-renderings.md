@@ -81,7 +81,7 @@ It is a whole line, and its second half closes the speech at 305 in the same Eng
 
 | Greek | `l` | `i` | avoided on purpose |
 |---|---|---|---|
-| πάντες κ’ ὠκύμοροί τε γενοίατο πικρόγαμοί τε (266) | "all of them would become swift-doomed and bitter-wedded" | "They would all find a swift doom and a bitter marriage" | "short-lived" (loses μόρος), "rue their wooing" |
+| πάντες κ’ ὠκύμοροί τε γενοίατο πικρόγαμοί τε (266) | "all of them would become swift-doomed and bitter-wedded" | "All of them would meet a swift doom and a bitter marriage" | "short-lived" (loses μόρος), "rue their wooing", "would all find …" (the verb and frame of the familiar published versions; changed at review) |
 
 This whole-line curse on the suitors is likely to return. The literal layer keeps both compounds hyphenated.
 

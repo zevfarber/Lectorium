@@ -574,3 +574,46 @@ Open decisions the rules do not settle. A run writes the question and what it de
   is vocalized on its ordinary sense rather than a suspected corruption of زَهَا, "to be
   resplendent", which would pun with the following كَزَهْرِ. اِبْرِطِيلٍ (P36L09, "a bribe") is
   read as a colloquial/dialectal spelling of Classical بِرْطِيل. None of these affect the gate.
+- **check_slice.py's align() can corrupt a legitimate precomposed hamza when the same word also
+  needs a detached-waw line-split fix (run 2026-09-22, publishing Night 6).** One drafting agent
+  wrote وَالْتَأَمَ ("and it closed up") fusing the line-break's detached وَ onto التأم — but
+  التأم's own تأم root carries a hamza the *edition itself prints* (precomposed, kept per the
+  rules). check_slice.py's fused-token branch always calls decomposed() on the whole word before
+  trying to split it against the archive's two tokens ("و" + "التأم"); decomposed() blindly maps
+  precomposed أ to a base-alif+combining-hamza sequence even when that أ was already correct, and
+  bare()'s strip regex then deletes the resulting combining mark entirely (it's in the same
+  diacritic range as tashkīl) — so the fused-match check compares against a hamza-less string and
+  fails, leaving the word unfixed and desyncing every following token in the diff (a single failed
+  word produced ~75 cascading FAIL lines). Decided meanwhile: fixed by hand — rewrote the word as
+  وَ الْتَأَمَ (space at the archive's own line-break boundary, precomposed hamza in التأم
+  preserved), matching the "wa- as its own printed token" precedent already established for Night
+  5. **Future runs / whoever next touches check_slice.py:** the align() fused-branch should try
+  the *undecomposed* word against the archive concatenation first (db = bare(w), not
+  bare(decomposed(w))) and only fall back to decomposed() if that fails — right now it always
+  decomposes first, which is correct for a word that needs a hamza *added* but wrong for a word
+  that already has the archive's own precomposed hamza and merely needs re-splitting at a line
+  break. Not fixed this run (publishing runs don't touch tools/ per scope; flagging for whoever
+  next works on the script).
+- **One slice "corrected" the edition's defective قل to full قَالَ instead of the house dagger-alif
+  convention (run 2026-09-22, publishing Night 6).** P40L02/03 prints قل for قال (the same
+  recurring defective spelling as every other قل in this text, e.g. Night 1-3's own instances).
+  The drafting agent for that slice spelled it قَالَ (full alif, matching the archive's *other*,
+  differently-spelled فقال two lines earlier) rather than قَٰلَ (dagger alif over the qāf,
+  preserving the two-letter rasm) — caught by the gate's bare-strip check, since قَالَ strips to
+  "قال" (3 letters) not "قل" (2). Fixed by hand to match the established convention (see
+  nights-01/02/03's own instances of the same defective spelling) and renamed the glossary key to
+  match. **Future drafting prompts:** the worked example given to agents shows the *rule* for
+  dagger alif but not a concrete before/after transform the way the hamza rule now gets one —
+  worth adding one, since this is the same class of "looks right, isn't" mistake as the hamza trap.
+- **Two genuinely uncertain readings in Night 6, left flagged rather than resolved (nobody waiting
+  on these, recorded for completeness).** عَائِكَة (P38L08-09, "امانة مع عائكة") does not match any
+  confirmed word in Lane or Hava; read on its printed letters as if a proper name (ʿĀʾika) in a
+  proverb about a kindness repaid, but the fisherman's own in-story reply ("what did I ever do
+  with ʿĀʾika?") suggests it may already have been unclear at the story level, not just to this
+  pipeline — worth a second look if the phrase recurs elsewhere in the volume. The second
+  fish-verse's وَاِنْ هَجَرْتُمْ قَدْ فَانَا تَدْفَيْنَا (P41L16) differs from the first verse's
+  parallel وَاِنْ هَجَرْتِ فَاَنَا قَدْ تَهَافَيْنَا (P40L21) in both person/number (هَجَرْتِ vs
+  هَجَرْتُمْ) and the final rhyme word (تَهَافَيْنَا "we would have perished/rushed together" vs
+  تَدْفَيْنَا, which does not parse as cleanly) — reproduced exactly as the archive prints it
+  (already pointed, not re-derived), translated by the same general sense as the first verse, and
+  flagged as a probable compositor's rearrangement rather than silently normalized to match.

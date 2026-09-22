@@ -477,3 +477,7 @@ confirmed identified on first occurrence. build_gita.py and validate_gita.py bot
 sandhi-boundary warnings, same class as chapters 1-17). Added to stories.json after gita-ch17.
 The Bhagavadgītā's 18-chapter text phase is now fully drafted; parts.json and plan.md both show
 all 18 chapters published.
+
+2026-09-22 · DONE · routine run confirmed all 18 chapters show `published` in both `parts.json`
+and `plan.md`, no live claim in `claims/`; created the `DONE` marker per runbook.md §0b. The gita
+work is finished and the queue routine will skip it from now on.

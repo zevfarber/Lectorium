@@ -54,7 +54,7 @@ repository is the state, never this table. Run it rather than trusting what is w
 | Night 2 | P14L09–P20L10 | published 2026-09-21, 184 sense units; 587 new glossary entries |
 | Night 3 | P20L11–P25L11 | published 2026-09-21, 101 sense units; 514 new glossary entries |
 | Night 4 | P25L12–P30L09 | published 2026-09-21/22, 117 sense units; 488 new glossary entries |
-| Night 5 | P30L10–P38L01 | to publish |
+| Night 5 | P30L10–P38L01 | published 2026-09-22, 179 sense units; 648 new glossary entries |
 | Night 6 | P38L02–P41L17 | to publish |
 | Night 7 | P41L18–P48L19 | to publish |
 | Night 8 | P48L20– … | incomplete — its tail is unread; transcription continues past it |

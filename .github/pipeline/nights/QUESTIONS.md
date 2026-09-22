@@ -518,3 +518,55 @@ Open decisions the rules do not settle. A run writes the question and what it de
   letter-substitutions, reproduced exactly as printed. "سرت"/"سرى" (P28L03) disagree in gender for
   the same subject الدواء within a few words of each other; both vocalized as printed rather than
   harmonized. None of these affect the gate.
+- **Publishing Night 5: drafting agents' own "verified mechanically" claims did not hold up, and
+  the run had to redo the hamza encoding wholesale before the gate would pass.** All five drafting
+  agents reported checking the bare-strip identity themselves and finding zero mismatches; on
+  reconstruction, the whole night in fact had 1224 of 1798 tokens wrong, because every agent had
+  vocalized hamza with the ordinary precomposed letters (أ إ ؤ ئ) — which look identical to the
+  correct combining-mark encoding in any terminal or editor, so a human or model eyeballing the
+  text cannot tell them apart, and only look different at the codepoint level tools/validate_night.py
+  actually checks. Fixed by token-aligning every sentence against the real archive text and
+  rewriting each mismatched word programmatically (273 word-level hamza fixes, 22 places where a
+  word had to be split back into two — see next item — plus the same correction propagated into
+  new glossary keys, since a duplicated word could legitimately need different fixes at two
+  positions where the edition itself spells it two different ways, e.g. "ابرأك" vs "ابراك" for
+  "he cured you", both real, both kept distinct). Net: the gate passed clean, but a "the agent
+  says it verified" claim about hamza encoding specifically should never be trusted without an
+  independent mechanical recheck — visual inspection cannot catch this class of error at all.
+  Worth adding a line to the drafting prompt/runbook making this failure mode explicit.
+- **Publishing Night 5: the archive prints a bare "و" as its own space-separated token before its
+  host word at roughly 22 points across P30L10–P38L01** (e.g. "و هو", "و قال", "و قتله", "و اطلبه"),
+  far more than the single instance Night 4's QUESTIONS entry flagged. Per the bare-strip rule the
+  published text must reproduce this exactly rather than joining the proclitic the way ordinary
+  Arabic orthography would, so nights-05.json keeps a handful of sentences with a visible mid-word
+  space (e.g. "وَ قَالَ", "وَ اطْلُبْهُ") to match; the corresponding glossary entries were split
+  into two (the bare وَ plus the following word on its own) wherever this happens, rather than one
+  fused key, so glossary coverage still resolves. Given how frequent this is turning out to be
+  across nights, it looks like a real, recurring transcription-pipeline artifact (not a one-off)
+  and is worth a dedicated pass on the phase-1 side to see whether it is a systematic OCR/line-join
+  defect that should be fixed in the archive itself.
+- **Two genuinely uncertain readings in Night 5, flagged for the transcription side rather than
+  silently resolved.** اِنْشَلَّ (P37L15-16, "...حاق في الدواء انشل الحكيم دوبان يقول") is form VII
+  of ش-ل-ل ("to become paralysed"), which does not fit as the verb governing "the sage Duban...
+  saying" that follows; this tale elsewhere introduces recited verse with وَأَنْشَدَ...يَقُولُ, and
+  انشل/انشد differ by only their last letter (ل vs د), so it is read and translated as أَنْشَدَ
+  ("he recited") while the letters are reproduced exactly as printed. لا ابقاك (P38L01, closing
+  "...وانت ايها العفريت لو ابقيتني لا ابقاك الله") is printed with a word-space, which read
+  literally negates ("God did not spare you") — but the parallel sentence three words earlier
+  fuses the identical law...la- construction as one word (لابقاه = لَأَبْقَاهُ, "He would have
+  spared him"), and this line is generally read as its positive mirror ("had you spared me, God
+  would have spared you"). Published as the literal negated reading, per "the images are the only
+  authority" and not silently emending; worth checking the scan directly for whether that space is
+  really there, since the two readings are opposite in polarity. Neither affects the gate.
+- **Several individually-uncertain readings in Night 5, translated by evident sense and flagged in
+  their own notes (recorded for completeness, nobody waiting on these).** أَمِيرُ الرَّخَةِ
+  (P30L20, an officer announcing the hunt) has no confirmed sense for الرخة in Lane or Hava.
+  قَيَالَةٍ (P31L10, "the hour of ___") is read as a Middle Arabic/dialectal form of قَيْلُولَة,
+  "midday rest". النَّفْطَ (P31L14, describing the poison dripping from the tree) may be a ف/ق
+  misprint for النُّقْطَة, "the drop". مَاذَا ذَا (P31L04, a doubled interrogative) is kept as
+  printed, likely dittography. سِلْسِلَة (P37L02, "a chain in which was some powder") is an odd
+  vessel for powder, possibly a compositor's error for a word like سُلَّة, "basket". حَارَ
+  الدِّيوَانُ (P36L23, "the council-hall was dazzled/bewildered like the flower of the garden")
+  is vocalized on its ordinary sense rather than a suspected corruption of زَهَا, "to be
+  resplendent", which would pun with the following كَزَهْرِ. اِبْرِطِيلٍ (P36L09, "a bribe") is
+  read as a colloquial/dialectal spelling of Classical بِرْطِيل. None of these affect the gate.

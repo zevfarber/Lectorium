@@ -87,3 +87,26 @@ Calypso), and its review caught the drafter's new-renderings.md row wrongly desc
 ἐυπλόκαμος itself out of the table, since it has not actually recurred and promoting a once-used word on
 suspicion alone is not what the table is for; flagged here in case the owner wants it added pre-emptively,
 or wants a standing rule for when a used-once epithet earns a table entry.
+
+## Published glossary entry for εἰδομένη mislabelled "pres. part." (raised at odyssey-007, 2026-09-23)
+The shipped `odyssey-glossary.json` entry for εἰδομένη (from an earlier part) calls it a present participle
+of εἴδομαι. At 2.268 (Μέντορι εἰδομένη, of Athena's disguise as Mentor) it is used as an aorist: Autenrieth's
+*Homeric Dictionary* lists the aorist system of εἴδομαι as "aor. εἰσάμην, part. εἰσάμενος, also εἰδόμενος" —
+the -όμενος spelling doing double duty as the aorist participle in Homer, not a separate present form. This
+is the same class of problem as the already-flagged ἔβη entry (odyssey-005, 2026-09-23): an existing
+published entry that looks wrong, but the additions-only rule has no provision for a straight fix, only a
+broadening. odyssey-007 broadened it (old entry whole, plus " · " and the aorist reading), which records the
+correct sense for a reader without contradicting the shipped text. Flagged here alongside ἔβη for the same
+owner decision: whether a wrong published entry should ever be correctable in place, not just appended to.
+
+## περὶ and τί broadenings compressed to a bare tag by the 230-character cap (raised at odyssey-007, 2026-09-23)
+odyssey-007 needed to broaden the shipped entries for περὶ (2.244, περὶ δαιτί, "over/for a feast") and τί
+(2.303, μή τί τοι ἄλλο... κακὸν, indefinite used adjectivally) to cover uses their existing entries didn't
+carry. Both shipped entries were already at 217–219 characters, leaving only 4 characters of headroom before
+the 230-char cap; nothing informative fits in 4 characters, and the additions-only rule forbids shortening
+the existing text to make room. The broadenings shipped as bare tags ("· + dat." for περὶ, "· adj." for τί)
+— technically correct (real, distinct uses, confirmed against the actual line) but not self-explanatory on
+their own the way a normal entry is. Same underlying tension as τῷ's (odyssey-003) and ἔβη's (odyssey-005)
+entries above: the 230-char cap and the additions-only rule can jointly make a correct broadening
+unreadable. Left as shipped; flagged here in case the owner wants the per-entry cap raised for heavily-used
+forms, as τῷ's entry already asked.

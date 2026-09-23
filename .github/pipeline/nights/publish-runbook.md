@@ -54,6 +54,8 @@ Cut the lines into sense units — sentences, not lines. A unit usually spans se
 lines; keep the printed line's words in printed order and drop the line breaks. Where the archive
 marks verse (`"v": true`), the sense unit is the verse block: set `"v": true`, keep the ` * `
 hemistich separator, and put the line breaks back as `\n`. Do not flatten verse into prose.
+Verse `t` is **copied from the archive as printed** — the edition points its verse, and that
+pointing is final (`reading-conventions.md`, "Verse is copied, not vocalised").
 
 Expect roughly 30–60 sense units for a night of ~120 archived lines.
 
@@ -67,8 +69,12 @@ Cut the slices on archived-line boundaries and record each slice's `--from` and 
 before you launch it: the check in 4a needs them.
 
 Give every agent, in its prompt, the full text of `reading-conventions.md` and its own slice.
-Each returns, for each sense unit: `t` (vocalised), `tr`, `l`, `i` (omit where the literal is
-already natural), `n` (only where genuinely useful), plus a glossary entry for every word form in
+**Say in the prompt, in these words: "Verse lines are copied from the archive exactly as given,
+marks and all; vocalise only verse words that arrive with no marks at all. Prose you vocalise
+fully."** Never tell an agent to supply full tashkīl on its whole slice — on Night 8 that
+instruction made every agent re-point printed verse.
+Each returns, for each sense unit: `t` (vocalised prose; verse as printed), `tr`, `l`, `i` (omit
+where the literal is already natural), `n` (only where genuinely useful), plus a glossary entry for every word form in
 its slice. Have it write its result to a file (`/tmp/slice<N>.json`, sentences plus glossary)
 rather than only into its reply — the file is what gets checked.
 
@@ -87,7 +93,10 @@ It runs the bare-strip identity on that slice alone against the archived lines. 
 hamza to the combining form wherever the edition prints the bare letter, puts the archive's own
 spaces back where a drafter fused the stray `و` (or a line-break split) into its host word, joins
 what a drafter split, and carries the same fixes into the slice's glossary keys. Anything it
-cannot repair — a wrong, missing or extra word — it lists as `FAIL token N`; that is a drafting
+cannot repair — a wrong, missing or extra word — it lists as `FAIL token N`. It also compares
+every pointed verse word with the archive codepoint for codepoint (`FAIL ... verse word(s)
+re-vocalised`); `--fix` puts the archive's word back and renames the matching glossary key.
+A wrong, missing or extra word is a drafting
 error, and you fix it by hand against the archive (never by re-reading the scan, never from
 memory). Any glossary key it had to split is printed under `WARN`; rewrite those two meanings.
 
@@ -131,7 +140,8 @@ Add the entry to `stories.json`, beside the other nights: `id`, `title`, `titleE
 
     python3 tools/validate_night.py ../../../nights-<NN>.json --from <start> --to <end>
 
-must print `RESULT PASS`. The check that matters is the bare-strip identity: the vocalised text,
+must print `RESULT PASS`. It also checks that pointed verse is exactly as printed (repair: `check_slice.py
+--fix`, as below). The check that matters most is the bare-strip identity: the vocalised text,
 with the combining marks removed, must equal the archive token for token. If every slice passed
 4a this should pass first time; a failure here means a slice was merged without its check, or an
 edit after 4a introduced a precomposed hamza — fix the word (`check_slice.py --fix` works on the
@@ -159,7 +169,8 @@ settle, with what you decided meanwhile. Nothing waits on the owner.
 
 ## What a publishing run never does
 
-Publishes more than one night; merges a slice that `check_slice.py` has not passed; takes an
+Publishes more than one night; merges a slice that `check_slice.py` has not passed; re-points
+the edition's printed verse; takes an
 agent's word that it checked its own text; changes a letter of the archive; touches `reader.html`,
 `index.html`, audio, or another work's files; opens a modern translation of the Nights for
 wording; runs NFC over an Arabic file; sends email; uses Google Drive; creates, changes or

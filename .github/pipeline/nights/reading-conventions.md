@@ -22,6 +22,22 @@ to exactly what Macnaghten prints, so the apparatus retracts as the reader grows
 Where the text's own grammar is non-Classical, **vocalise what the text actually says** and note
 it. Do not repair Middle Arabic into Classical by way of the pointing.
 
+### Verse is copied, not vocalised
+
+The edition **does** point its verse, and the archive keeps those marks exactly as printed. So a
+verse line's archived text is already final: copy every pointed verse word from the archive
+character for character — no added vowels, no added or re-encoded hamza, no "corrected" iʿrāb.
+The only things that are yours in a verse block are the joins (` * ` between hemistichs, `\n`
+between lines). The single exception is a verse word the archive leaves **bare**: that one you
+vocalise, like prose. If a printed vowel looks wrong, keep it and say so in `n`.
+
+This is checked by script, not by eye: `check_slice.py` and `validate_night.py` compare every
+pointed verse word with the archive codepoint for codepoint, and `check_slice.py --fix` puts the
+archive's word back. (Added 2026-09-23. On Night 8 drafters re-pointed printed verse, in three
+places rewriting the archive's combining hamza as precomposed أ/إ; on Night 4 they had added
+hamza the edition does not print. Both strip to the same letters, so the bare-strip check could
+not see it.)
+
 ### Hamza encoding — load-bearing, and it looks like a bug
 
 The bare state strips U+064B–U+065F, U+0670 and U+06D6–U+06ED, and the result **must** equal the

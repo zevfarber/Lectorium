@@ -58,7 +58,7 @@ repository is the state, never this table. Run it rather than trusting what is w
 | Night 6 | P38L02–P41L17 | published 2026-09-22, 69 sense units; 377 new glossary entries |
 | Night 7 | P41L18–P48L19 | published 2026-09-23, 155 sense units; 721 new glossary entries |
 | Night 8 | P48L20–P54L08 | published 2026-09-23, 108 sense units (7 verse); 547 new glossary entries |
-| Night 9 | P54L09–P64L21 | complete, unpublished — next in the publishing queue (transcription itself has moved well past it; run `tools/nights_index.py` for the current table) |
+| Night 9 | P54L09–P64L21 | published 2026-09-23, 200 sense units (29 verse); 1019 new glossary entries |
 
 A night runs 84–163 archived lines (about 5½ printed pages), so eight transcribed pages yield
 roughly one and a half nights. Eight units are waiting as of 2026-09-18, so the next several

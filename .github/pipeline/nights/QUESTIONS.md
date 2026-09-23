@@ -620,3 +620,48 @@ Open decisions the rules do not settle. A run writes the question and what it de
 
 - **Drafting agents re-vocalizing already-pointed verse words, invisible to check_slice.py (run 2026-09-23, publishing Night 8).** `conventions.md` states Calcutta II's verse is transcribed with its own printed marks ("nothing is normalised, repaired, vocalised or emended"), so a verse line's archived `t` is already the final, authoritative vocalisation — there is nothing for a drafting agent to add, unlike prose. The drafting prompts for this night did not make that distinction explicit and instead told agents to supply full tashkīl on their whole slice; several agents dutifully re-vocalized already-marked verse words — in three of the night's 7 verse blocks this took the specific form of rewriting the archive's own correctly-encoded combining-mark hamza (ا + U+0654/0655) as precomposed أ/إ, i.e. exactly the hamza trap, just applied to text that was already correct. Because both encodings strip to the same bare alif, `check_slice.py` and `validate_night.py`'s bare-strip identity cannot catch this — it passed clean both times. Caught only by a manual word-for-word diff of each verse sentence against the raw archive. Decided meanwhile: rebuilt all 7 verse blocks word-by-word, keeping the archive's own word (marks and all) wherever it carried any diacritic at all, and accepting a drafting agent's vocalisation only for a word genuinely bare in the archive (Night 8 had exactly one such case: the second hemistich of P53L01, plus a handful of unmarked final consonants in P53L02 that were left as the archive has them, not "completed" with an inferred sukūn). **Future runs / whoever next touches the publish-runbook or its prompts:** the drafting prompt should say explicitly that verse `t` is copied from the archive verbatim (only the hemistich " * " / line "\n" joins are the agent's own work) and is never re-vocalized, the same way the runbook already says the consonantal text is never touched — this should also fold into a verse-specific check in `check_slice.py`/`validate_night.py` (e.g. flag any verse-flagged sentence whose word skeleton, WITH diacritics, differs from the archive on a word the archive already marks) so this class of bug is caught mechanically rather than by hand next time.
   **Acted on 2026-09-23 (attended session, at the owner's request).** The drafting prompt now carries a fixed verse sentence (publish-runbook.md step 4) and reading-conventions.md has a section "Verse is copied, not vocalised". `check_slice.py` and `validate_night.py` now compare every pointed verse word with the archive codepoint for codepoint; `check_slice.py --fix` puts the archive's word back. Run over every published night: Nights 1, 3, 5, 6, 7, 8 clean; Night 4 had 4 verse words with a hamza the edition does not print (P28L12 اَبَا, اَبَى; P28L13 اَنْوَارُهُ; P28L15 اَوْلَيْتَنِي) — restored to the archive's words in nights-04.json; nothing else in the file changed. Closed.
+
+- **`check_slice.py`'s `decomposed()` step corrupts an already-correct precomposed hamza during
+  fused-word repair (found 2026-09-23, publishing Night 9).** `align()`'s fused-word branch (a
+  drafter wrongly glued a detached و onto its host word) calls `decomposed(w)` on the *whole*
+  candidate word before testing whether it splits cleanly against the archive. `decomposed()`
+  unconditionally rewrites every precomposed hamza character (أ/إ/ؤ/ئ/آ) into the decomposed
+  combining form, with no check for whether the word's hamza was already correct as printed. For
+  a word that is *only* wrongly fused (no hamza problem at all) this is harmless, since the
+  rewritten and original hamza strip to the same bare letter either way — except when the word's
+  hamza is one of the cases reading-conventions.md says to keep *precomposed*, because the edition
+  itself prints it that way (e.g. خزائن in this night, one of the pilot's own seven listed
+  exceptions). There, `decomposed()` turns ئ into a *different* bare letter after stripping (ي
+  instead of ئ, since bare() strips the combining hamza mark U+0654 but not the standalone letter
+  ئ), so the split-match against the archive silently fails and align() falls through to
+  `problems.append(...)` instead of repairing — and because align() still advances both cursors
+  by one on a problem, every token after that point in the slice is now off-by-one and reads as a
+  cascade of unrelated "FAIL token N" mismatches, even though the only real defect is the one
+  fused word. Root-caused this run by hand-tracing `align()`/`decomposed()`/`bare()` against a
+  failing slice (see LOG); worked around by manually splitting the one culprit word before
+  re-running `--fix`, which then cleaned up the rest once the cursors resynced. Not fixed in
+  `tools/` this run (publishing runs don't touch `tools/`, and the gate's scope rule — `git diff
+  --stat` shows only the archive/story files plus pipeline records — held even for an attended
+  fix in the Night 8 verse case above, so this should go through the same kind of dedicated pass,
+  not get folded into a publishing run's diff). **Whoever next touches `check_slice.py`:** the fix
+  is to only call `decomposed()` on the *specific sub-piece* that fails a direct match, after the
+  split points are already known — or, simpler, to try the fused-match first with `w` as printed
+  and fall back to `decomposed(w)` only if that specific attempt fails — rather than decomposing
+  the whole candidate word unconditionally up front. Worth a regression test using خزائن or a
+  similar precomposed-hamza-plus-fusion case, since the two-encodings-render-identically problem
+  that makes the *drafting* side of this trap invisible also made it easy to overlook on the
+  *tooling* side.
+- **A word can be both a genuine detached-waw error at one position and genuinely archive-fused
+  at another position, in the same night (found 2026-09-23, publishing Night 9).** When hand-
+  repairing the cascade above, and separately when cleaning up `check_slice.py --fix`'s glossary
+  WARNs on two other slices, the fix was applied by renaming the glossary key for *every* instance
+  of a bare word form (e.g. وقالت، وفي، وتجردت) from its fused spelling to its split spelling —
+  without checking whether some other occurrence of that same bare form elsewhere in the slice was
+  *correctly* fused as printed (the archive is not internally consistent about spacing this
+  conjunction, occurrence by occurrence). This orphaned the glossary key for the still-fused
+  occurrences, caught only at the final `validate_night.py` gate's glossary-coverage check (5
+  words: وصارت، وتجردت، ولعبت، وأشارت — each verified against the raw archive line before being
+  restored as its own glossary entry alongside the already-corrected split form). **Future runs:**
+  after any manual or scripted glossary key rename during slice-fixing, re-run the missing/extra
+  key diff against the *actual* text before moving on, rather than trusting that a bare-form
+  rename is safe everywhere it appears.

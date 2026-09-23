@@ -69,3 +69,21 @@ phrasing, but conventions.md's "translated every time, the same way" rule for st
 matching 1.385's wording exactly, since it shipped first and governs under "first ratified rendering
 wins". Left as drafted rather than reopening the already-built odyssey-005; flagged here for the owner or
 a future part to reconcile if ὑψαγόρη(ς) recurs again.
+
+## ASCII vs. typographic apostrophe in `l`/`i`/`n` (restated at odyssey-006, 2026-09-23)
+Still unresolved (raised at odyssey-005): odyssey-006 mixes both marks internally (about 320 ASCII, 21
+typographic instances), following odyssey-005's own precedent of not normalising case-by-case. The
+question from odyssey-005 stands: whether the owner wants one mark fixed as the house rule across the
+whole corpus, in which case every part shipped so far (001–005, and now 006) would need a reconciliation
+pass.
+
+## ἐυπλόκαμος never promoted to the house-renderings table (raised at odyssey-006, 2026-09-23)
+Calypso's epithet ἐυπλόκαμος ("fine-plaited", odyssey-001, 1.86) is exactly the kind of recurring
+noun-epithet formula the house table exists to fix, but it was never added when odyssey-001 was drafted
+(the pilot predates the table's current form) and has not recurred since. odyssey-006 drafted a related
+but distinct word, ἐυπλοκαμῖδες ("fair-tressed", of a different referent — the Achaean women of old, not
+Calypso), and its review caught the drafter's new-renderings.md row wrongly describing ἐυπλόκαμος as
+"already fixed in the house table" (corrected to just cite where it appears). Decided meanwhile: left
+ἐυπλόκαμος itself out of the table, since it has not actually recurred and promoting a once-used word on
+suspicion alone is not what the table is for; flagged here in case the owner wants it added pre-emptively,
+or wants a standing rule for when a used-once epithet earns a table entry.

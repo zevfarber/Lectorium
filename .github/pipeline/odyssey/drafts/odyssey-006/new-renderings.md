@@ -4,7 +4,7 @@ Format matches conventions.md's fixed table: Greek | `l` | `i` | avoided on purp
 
 | Greek | `l` | `i` | avoided on purpose |
 |---|---|---|---|
-| ἐυπλοκαμῖδες (of the Achaean women of old, 2.119) | "fair-tressed" | "fair-tressed" | "well-braided", "lovely-haired" — kept parallel to, but distinct from, the fixed ἐυπλόκαμος "fine-plaited" in the house table, since ἐυπλοκαμῖδες is a separate nominal formation (women characterized by their locks), not the same word |
+| ἐυπλοκαμῖδες (of the Achaean women of old, 2.119) | "fair-tressed" | "fair-tressed" | "well-braided", "lovely-haired" — kept parallel to, but distinct from, ἐυπλόκαμος "fine-plaited" (Calypso's epithet, odyssey-001 1.86; not itself yet in the house table), since ἐυπλοκαμῖδες is a separate nominal formation (women characterized by their locks), not the same word |
 | ἐυστέφανος (of Mycene, 2.120) | "fair-crowned" | "fair-crowned" | "well-garlanded", "crowned with flowers" |
 | ἐυδείελος (of Ithaca, 2.167) | "clear-seen" | "clear-seen" | "sunny", "far-seen", "visible from afar" — the ancient etymologies conflict (from δείελος "evening" or from δῆλος "visible"); kept literal and flagged as disputed in the note |
 | εὐρύοπα Ζεύς (2.146) | "far-thundering Zeus" | "Zeus who thunders from afar" | "wide-voiced Zeus", "far-seeing Zeus" — the second element (from ὄψ "voice" or "eye/face") is disputed; the traditional gloss "loud/far-thundering" is followed and the doubt is noted |

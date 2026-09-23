@@ -56,7 +56,7 @@ repository is the state, never this table. Run it rather than trusting what is w
 | Night 4 | P25L12–P30L09 | published 2026-09-21/22, 117 sense units; 488 new glossary entries |
 | Night 5 | P30L10–P38L01 | published 2026-09-22, 179 sense units; 648 new glossary entries |
 | Night 6 | P38L02–P41L17 | published 2026-09-22, 69 sense units; 377 new glossary entries |
-| Night 7 | P41L18–P48L19 | to publish |
+| Night 7 | P41L18–P48L19 | published 2026-09-23, 155 sense units; 721 new glossary entries |
 | Night 8 | P48L20– … | incomplete — its tail is unread; transcription continues past it |
 
 A night runs 84–163 archived lines (about 5½ printed pages), so eight transcribed pages yield

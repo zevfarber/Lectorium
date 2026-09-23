@@ -24,3 +24,18 @@ awkwardly with its use here. Some commentators take οἱ δέ as the suitors in
 second caveat in an already-double-hedged note would overload it, and left the unit committed to the
 majority reading without flagging the alternative in the note itself. Decided meanwhile: left as is;
 flagged here in case a future part's cross-reference or the owner's own reading disagrees.
+
+## How strictly to read "a note asserts nothing about the rest of the poem that this part cannot show" (raised at odyssey-004, 2026-09-23)
+Read strictly, this conventions.md rule would bar any note that reaches outside its own part's line range
+at all — including broad, low-risk background framing ("πεπνυμένος is Telemachus's fixed epithet
+throughout the poem", "Antinous is named here for the first time in the poem", "the book closes, as it
+opened, with a figure lying awake"). odyssey-004's reviewer found about a dozen such notes and fixed only
+the three highest-risk ones: one that was an outright factual error (a note at 1.339 attributed the
+Ethiopians'-feast scene, 1.22–26, to Zeus; it is Poseidon), and two that made specific, checkable claims
+this part cannot verify (a note quoting a line from outside the part, 1.28; a "found only here in Homer"
+hapax claim). The dozen broad thematic/background references were left in place. Decided meanwhile: the
+narrower reading — bar unverifiable or specific claims (quoted text, exclusivity claims, misattributable
+facts), allow broad thematic framing that gives the notes tutorial value — governs going forward, since
+odyssey-001's own model notes already use this kind of broad framing (e.g. "νόστος 'homecoming' appears
+here for the first time"). Flagged here in case the owner wants the line drawn tighter; future parts'
+reviewers should apply this same narrower reading unless he says otherwise.

@@ -105,7 +105,8 @@ exceptions, and no "the agent said it was fine".
 
 Then **one review agent over the whole night**: register consistency (the you/your rule, the
 `al-` rule), glosses that disagree across slice boundaries, and a copyright echo check against
-the two known traps in `reading-conventions.md`. It reports; you apply. It does **not** check
+the two known traps in `reading-conventions.md`, and every glossary entry
+that names a بِـ, لِـ or كَـ says what that prefix does in this night's sentence. It reports; you apply. It does **not** check
 the hamza encoding — the script already has, and a reviewer will sooner or later recommend NFC
 in good faith. The full-night gate in step 7 is the second, independent run of the same check.
 

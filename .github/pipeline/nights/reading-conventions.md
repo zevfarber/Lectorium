@@ -102,6 +102,15 @@ Arabic glues proclitics and enclitics onto the orthographic word, so entries are
 
     "وبالبيت": "و + بِـ + الـ + بَيْت — bayt, house (m.); 'and in the house'"
 
+**Every prefix you name, you explain.** بِـ, لِـ and كَـ carry meaning, and it changes with
+what governs them, so the entry has to say what the prefix does *here*: either in the parts
+("bi-, with (prep.) + …") or in the quoted English ('and in the house'). "gen. after بِـ" alone
+names the prefix without explaining it. Say so when the verb chooses the preposition (أَتَى بِـ
+"bring", أَمَرَ بِـ "command", أَيْقَنَ بِـ "be certain of", مَرَّ بِـ "pass by"), and when the بِـ
+follows إِذَا of surprise it only marks what appears (وَإِذَا بِغَزَالَةٍ "and behold, a gazelle").
+The whole-night review agent checks this. (Added 2026-09-23: 68 entries through Night 8 split
+off a بِـ or لِـ and left it unexplained; all were rewritten that day.)
+
 **Keys stay vocalised** — that is what distinguishes كَتَبَ from كُتِبَ. The reader falls back to
 the bare skeleton when an exact key misses, so a single absent fatḥa can never orphan a word.
 

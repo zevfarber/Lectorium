@@ -11,6 +11,12 @@ Four mechanical checks, in order of how badly they bite:
    also what catches precomposed hamza (أ إ آ ؤ ئ), which does NOT strip back to the bare rasm
    and would silently break the reader's "bare" toggle. Never "fix" a failure here by running
    NFC over the file — that breaks every Arabic text in the library. Fix the word.
+1b. VERSE AS PRINTED. Where the archived line is verse and the archive word already carries
+   marks, the story's word must be the archive's word codepoint for codepoint: Calcutta II
+   points its verse, and that pointing is final. Catches what 1 cannot — a drafter re-pointing
+   printed verse, or writing its combining hamza as precomposed أ/إ, or adding a hamza the
+   edition does not print (all strip to the same letters). Added 2026-09-23 after Night 8.
+   Repair with check_slice.py --fix on the assembled file.
 2. GLOSSARY COVERAGE. Every word form in every sentence resolves in the shared glossary, with
    the reader's own diacritic-insensitive fallback allowed. Must be 100%.
 3. SHAPE. Required fields present; rtl/script/langCode as the Arabic texts use them; l on every
@@ -61,6 +67,26 @@ def archive_tokens(first_ref, last_ref):
                 inside = True
             if inside:
                 out.extend(tokens(line.get("t", "")))
+            if line["ref"] == last_ref and inside:
+                return out
+    return out
+
+
+def archive_verse_marked(first_ref, last_ref):
+    """Parallel to archive_tokens(): (marked word, ref) for a pointed verse word, else None."""
+    out, inside = [], False
+    for name in sorted(os.listdir(ARCHIVE)):
+        if not (name.startswith("pp") and name.endswith(".json")):
+            continue
+        with open(os.path.join(ARCHIVE, name), encoding="utf-8") as fh:
+            doc = json.load(fh)
+        for line in doc["lines"]:
+            if line["ref"] == first_ref:
+                inside = True
+            if inside:
+                verse = bool(line.get("v"))
+                for w in WORD.findall(FURNITURE.sub(" ", line.get("t", ""))):
+                    out.append((w, line["ref"]) if verse and w != bare(w) else None)
             if line["ref"] == last_ref and inside:
                 return out
     return out
@@ -131,6 +157,21 @@ def main():
                 where, len(story_toks), len(arch_toks),
                 arch_toks[where] if where < len(arch_toks) else "(end)",
                 story_toks[where] if where < len(story_toks) else "(end)"))
+
+    # --- 1b. verse as printed ---------------------------------------------------------
+    if arch_toks and story_toks == arch_toks:
+        story_words = []
+        for s in sents:
+            story_words.extend(WORD.findall(FURNITURE.sub(" ", s.get("t", ""))))
+        marked = archive_verse_marked(first, last)
+        vbad = [(m[1], w, m[0]) for w, m in zip(story_words, marked)
+                if m is not None and w != m[0]]
+        if vbad:
+            fails.append(
+                "VERSE RE-VOCALISED: %d pointed verse word(s) differ from the edition, e.g. %s. "
+                "Verse t is copied from the archive as printed; run check_slice.py --fix on this "
+                "file with the night's --from/--to." % (len(vbad), "; ".join(
+                    "%s %r (archive %r)" % v for v in vbad[:4])))
 
     # --- 2. glossary coverage --------------------------------------------------------
     if os.path.exists(GLOSSARY):

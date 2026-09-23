@@ -25,6 +25,13 @@ What --fix repairs, mechanically and only where the archive proves the repair ri
     stray "و " before its host word, or a word split across a page-line break): a space is
     put back at the archive's boundary, inside the vocalised word;
   * two words the drafter split that the archive prints as one: joined.
+  * a VERSE word the drafter re-vocalised: where the archived line is verse ("v": true) and
+    the archive word already carries marks, the edition's own pointing is final, so the
+    slice's word must be the archive's word codepoint for codepoint. --fix puts the archive's
+    word back. (Added 2026-09-23: on Night 8 drafters re-pointed printed verse, in three places
+    rewriting the archive's combining hamza as precomposed أ/إ; on Night 4 they added hamza the
+    edition does not print. Both strip to the same bare letters, so the identity above cannot
+    see it.) A verse word the archive leaves bare is the drafter's to vocalise.
 Every other mismatch — a changed, missing or extra word — is reported and left alone: that is
 a drafting error the orchestrator has to look at, not an encoding slip.
 
@@ -89,6 +96,49 @@ def archive_tokens(first_ref, last_ref):
             if line["ref"] == last_ref and inside:
                 return out
     return out
+
+
+def archive_verse_marked(first_ref, last_ref):
+    """One entry per archive token, parallel to archive_tokens(): the archive's own marked
+    word where the line is verse and the word carries marks, else None."""
+    out, inside = [], False
+    for name in sorted(os.listdir(ARCHIVE)):
+        if not (name.startswith("pp") and name.endswith(".json")):
+            continue
+        with open(os.path.join(ARCHIVE, name), encoding="utf-8") as fh:
+            doc = json.load(fh)
+        for line in doc["lines"]:
+            if line["ref"] == first_ref:
+                inside = True
+            if inside:
+                verse = bool(line.get("v"))
+                for w in WORD.findall(FURNITURE.sub(" ", line.get("t", ""))):
+                    out.append((w, line["ref"]) if verse and w != bare(w) else None)
+            if line["ref"] == last_ref and inside:
+                return out
+    return out
+
+
+def verse_pass(fixed, marked):
+    """Put the archive's own word back wherever a printed-and-pointed verse word differs.
+    `fixed` is align()'s output (spaces mark splits, "" marks joined slots). Returns
+    (new_fixed, diffs) with diffs as (ref, slice_word, archive_word)."""
+    out, diffs, j = [], [], 0
+    for w in fixed:
+        if w == "":
+            out.append(w)
+            continue
+        new = []
+        for p in w.split(" "):
+            m = marked[j] if j < len(marked) else None
+            if m is not None and p != m[0] and bare(decomposed(p)) == bare(m[0]):
+                diffs.append((m[1], p, m[0]))
+                new.append(m[0])
+            else:
+                new.append(p)
+            j += 1
+        out.append(" ".join(new))
+    return out, diffs
 
 
 def decomposed(w):
@@ -202,9 +252,17 @@ def main():
     for s in sents:
         story_words.extend(words(s.get("t", "")))
     fixed, problems, fixes = align(story_words, arch)
+    vdiffs = []
+    if not problems:
+        fixed, vdiffs = verse_pass(fixed, archive_verse_marked(first, last))
     changed = [(o, n) for o, n in zip(story_words, fixed) if o != n]
+    if vdiffs and not fix:
+        print("FAIL  %d verse word(s) re-vocalised — the edition's printed pointing is final in "
+              "verse; rerun with --fix to put the archive's words back" % len(vdiffs))
+        for ref, o, n in vdiffs[:6]:
+            print("      %s  %r -> %r" % (ref, o, n))
 
-    if changed and not fix:
+    if changed and not fix and len(changed) > len(vdiffs):
         print("FAIL  %d word(s) do not strip back to the archive but are mechanically repairable "
               "(hamza %d, split %d, join %d) — rerun with --fix"
               % (len(changed), fixes["hamza"], fixes["split"], fixes["join"]))
@@ -214,8 +272,8 @@ def main():
                   and o != n and len(o) != len(n) else ""))
     if changed and fix:
         apply_to_sentences(sents, fixed)
-        print("FIXED %d word(s): hamza %d, split %d, join %d"
-              % (len(changed), fixes["hamza"], fixes["split"], fixes["join"]))
+        print("FIXED %d word(s): hamza %d, split %d, join %d, verse %d"
+              % (len(changed), fixes["hamza"], fixes["split"], fixes["join"], len(vdiffs)))
         if gloss is not None:
             remap = {}
             for o, n in changed:
@@ -245,6 +303,8 @@ def main():
         fixed2, problems, _ = align(story_words, arch)
         if [bare(w) for w in fixed2] != [bare(w) for w in story_words]:
             problems.append("internal: repair did not converge — report this")
+        elif not problems and verse_pass(fixed2, archive_verse_marked(first, last))[1]:
+            problems.append("internal: verse repair did not converge — report this")
 
     for p in problems:
         print("FAIL  " + p)

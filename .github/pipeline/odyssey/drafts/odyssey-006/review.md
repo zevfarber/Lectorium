@@ -2,17 +2,23 @@
 
 Reviewed against `conventions.md`, `packet.md`, `new-renderings.md`, and the relevant units of the
 published `odyssey-003/units.json`, `odyssey-004/units.json` and `odyssey-005/units.json` (all lines
-this part claims as repeats, plus the odyssey-005 closing-unit model for an open speech). `gloss.json`
-does not exist yet, so this run is Pass 1 (translation) only, done twice as the runbook requires: a
-first structural/mechanical pass, then a second sense/wording pass. **63 units, all read.** I verified
-by script that the concatenated `t` reproduces `packet.md` exactly (no `t` was touched) and, after my
-edits, that every `l`'s `\n` count equals its `t`'s and no `i` contains `\n`.
+this part claims as repeats, plus the odyssey-005 closing-unit model for an open speech). At the time
+of this first run `gloss.json` did not yet exist, so that run was Pass 1 (translation) only, done twice
+as the runbook requires: a first structural/mechanical pass, then a second sense/wording pass. **63
+units, all read.** I verified by script that the concatenated `t` reproduces `packet.md` exactly (no
+`t` was touched) and, after my edits, that every `l`'s `\n` count equals its `t`'s and no `i` contains
+`\n`.
 
-**28 findings, 26 units edited** (27 field changes: 3 `l`, 24 `n`; two units — 2.122 and 2.196 — each
-bundle two findings into a single note edit). No `t` field was touched. Severity: **0 error, 9 moderate,
-19 minor** (see tables below; the two mandated mechanical newline defects are counted as moderate, since
-each broke the build's tiling check). Seven further findings were considered and refused, listed at the
-end, with reasons.
+**Pass 2 (glossary)** was done in a second session, once the glosser had produced `gloss.json` (252
+novel-form entries + 8 broadenings). See the "Pass 2: glossary" section near the end of this file for
+that pass's findings; the combined severity counts below cover both passes.
+
+**Combined (Pass 1 + Pass 2): 30 findings, 26 `units.json` edits + 2 `gloss.json` edits** (27
+`units.json` field changes: 3 `l`, 24 `n`; two units — 2.122 and 2.196 — each bundle two findings into
+a single note edit). No `t` field was touched. Severity: **0 error, 11 moderate, 19 minor** (see tables
+below; the two mandated mechanical newline defects are counted as moderate, since each broke the
+build's tiling check). Eight further findings were considered and refused or left as a noted
+uncertainty, listed at the end of each pass's section, with reasons.
 
 ## Mechanical (given; verified and fixed)
 
@@ -163,3 +169,101 @@ Re-verified after both fixes: every unit's `l` now has exactly the same `\n` cou
    promoted to the house-renderings table despite being exactly the kind of recurring-type epithet the
    table exists for — worth a maintainer decision on whether to add it now that a cognate word
    (ἐυπλοκαμῖδες) has drawn attention to it.
+
+## Pass 2: glossary
+
+Done once the glosser produced `drafts/odyssey-006/gloss.json` (252 novel-form entries + 8
+`__broaden__` entries). I checked **all 252 novel entries** — lemma, meaning and parse — against how
+each form is actually used in `units.json`'s `t` fields (case/number/gender agreement with the noun or
+construction it belongs to; person/number/tense/mood/voice agreement with its subject and syntax),
+cross-checking `packet.md` for line context where useful. I also checked all 8 broadenings for the
+additions-only rule, and specifically cross-checked the two disputed-meaning forms the glosser flagged
+(εὐρύοπα, ἐυδείελον) against `conventions.md` and `new-renderings.md`.
+
+**2 novel entries corrected** in `gloss.json`. No `t`, `l`, `i`, `n` field in `units.json` was touched
+in this pass (out of scope). All 8 broadenings verified clean. Both disputed forms confirmed consistent
+across all three sources.
+
+### Changes to `gloss.json`
+
+| Form | Field | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| ἔειπε | value | moderate | Labelled "epic reduplicated form (= εἶπε)". This is not reduplication (which repeats the stem's initial consonant + vowel, as πιφαύσκω genuinely does — correctly labelled "reduplicated" elsewhere in this same file). ἔειπε is simply the regular augment ἐ- prefixed to a root that itself begins with ει- (εἰπ-), left uncontracted in epic where Attic contracts ἐ+ει → εἶπε — the same phenomenon already correctly identified for μετέειπε/προσέειπεν in odyssey-005's own review. | Reworded to "epic uncontracted, augment ἐ- kept before the root's own ει- (= Attic εἶπε)". |
+| εἰσανέβαινον | value | moderate | Labelled "unaugmented". Checked the actual spelling: εἰσ-αν-έ-βαινον shows the α of the preverb ἀνα- elided before a following vowel — which only happens because the augment ἐ- is there to elide it against. The genuinely unaugmented compound would be "εἰσαναβαινον" (α unelided, no augment). So the word as spelled is augmented, not unaugmented — the reverse of the Pass-1 ἐπήλυθον case (checked and left alone below), where the epic form really does lack the augment Attic shows. | Reworded to "augmented (εἰσ-αν-έ-βαινον; the α of ἀνα- elides before the augment)". |
+
+### Pass 2: broadenings — verified clean
+
+All 8 `__broaden__` entries (πάρος, πολλά, ἂν, ἄπο, ἅπαντα, περικαλλέα, ὄφρα, ὅ) checked programmatically
+and by hand: each keeps the existing `known-forms.json` entry's text whole and verbatim as a prefix,
+followed by ` · ` and new material only. Two of the eight (ὄφρα, ὅ) already carried an earlier
+broadening's ` · ` inside the old text itself, which on a first pass looked like a mismatch; re-checked
+by confirming the new value starts with the old value's full text as a literal substring, which both do.
+No broadening needed a fix.
+
+### Pass 2: the two disputed-meaning forms — cross-checked
+
+- **εὐρύοπα** (2.146, of Zeus). `gloss.json`: "literal sense disputed ('wide-voiced' or 'far-seeing')".
+  `new-renderings.md`: same two readings (from ὄψ 'voice' or 'eye/face'), "far-thundering" kept as the
+  traditional English gloss with the doubt noted. `units.json`'s own note (2.146): "its literal sense is
+  disputed and its rendering is fixed in new-renderings.md." All three agree; parse (masc. nom. sg. in
+  short -α) checked against its actual use modifying Ζεύς, nominative, correct. No change needed.
+- **ἐυδείελον** (2.166–167, of Ithaca). `gloss.json`: "exact sense disputed (perhaps 'clear-seen')".
+  `new-renderings.md`: the fuller version of the same dispute (from δείελος 'evening' or δῆλος
+  'visible'), "clear-seen" kept as the literal rendering. `units.json`'s note (2.166): "a stock epithet
+  of Ithaca whose exact sense is disputed, is fixed in new-renderings.md." All three agree; parse (fem.
+  acc. sg., agreeing with Ἰθάκην) checked and correct. No change needed.
+
+### Pass 2: verified and confirmed without change (representative sample)
+
+Given the volume (252 entries), most were straightforward correct dictionary-form + case/number/gender
+or person/tense/mood/voice entries, checked one by one against their line. A few points worth recording
+explicitly because they looked, on first glance, like they might repeat a Pass-1-style error but turned
+out correct on checking:
+
+- **ἐπήλυθον** (2.107), "unaugmented aorist of ἐπέρχομαι (Attic ἐπῆλθον)": genuinely correct — this is a
+  separate epic thematic formation (ἤλυθον) from the root aorist ἦλθον/ἐπῆλθον, not the same stem with
+  or without an augment, so the epic form really does lack the augment the Attic form shows. Contrast
+  with εἰσανέβαινον above, which is a single verb's imperfect either with or without its augment, and
+  is augmented as spelled. Left alone.
+- **ἐπεπείθετο** (2.103): `gloss.json` labels it "plpf. 3 sg. with impf. sense", correctly and
+  explicitly naming the tense as pluperfect — confirming the Pass-1 finding that `units.json`'s own
+  note (which describes the same morphology without naming the tense) is accurate, just less explicit.
+  No inconsistency between the two files.
+- **πιφαυσκόμενος** (2.162), "reduplicated": genuinely correct (πι- + φαυσκ-, true consonant+vowel
+  reduplication) — confirmed by contrast with the ἔειπε fix above, which is not reduplication at all.
+- **σύ** (2.182, ὡς καὶ σὺ καταφθίσθαι … ὤφελες): parsed as nominative. Checked against the
+  ὤφελες-plus-infinitive idiom (the standard construction for an unfulfilled wish), where the emphatic
+  pronoun is coreferential with — not a separate accusative subject of — the infinitive, so the
+  nominative is correct, not an error.
+- **ἀκράαντον** (2.202, μυθέαι ἀκράαντον): parsed as fem. acc. sg. Checked against ἥν (2.201, feminine
+  accusative relative referring to θεοπροπίης and serving as the object of μυθέαι): ἀκράαντον is a
+  predicate accusative agreeing with that same object. Correct.
+- **χρήματα** (2.203): parsed "neut. nom./acc. pl." — here it is nominative, subject of the passive
+  βεβρώσεται; the entry's dual listing correctly covers this without committing to only one case.
+
+### Pass 2: findings considered and refused (or left as an uncertainty)
+
+- **κεχολωμένον** (2.185), flagged by the reviewer as an uncertain lemma choice between χολόω and
+  χολόομαι. Resolved at publish-time review: LSJ's headword for this family is the active χολόω ("make
+  angry"), with the passive χολόομαι/χολοῦμαι ("be angry, be wroth") given as a subsection under it, not
+  as its own independent headword. `gloss.json`'s entry was corrected from "χολόομαι — be angry, be
+  enraged; ..." to "χολόω — make angry; pass. be angry, enraged; ..." (parse unchanged: perf. pass. part.
+  masc. acc. sg.).
+- **Lemma choices generally** (e.g. καταφθίσθαι under καταφθίνω rather than a hypothetical καταφθίω,
+  εἴρω (A) distinguished from εἴρομαι, ἐρέω glossed as the epic future of εἶπον rather than under a
+  separate present stem). Checked against Autenrieth/LSJ-style practice for these familiar Homeric
+  suppletive and by-form verbs and found defensible and standard; left unchanged.
+- **The parse "masc./neut." or "nom./acc." given for forms that are structurally ambiguous but
+  contextually resolvable** (e.g. αἰετὼ dual, ἅ neut. nom./acc. pl., χρήματα nom./acc. pl.). Checked each
+  against its actual syntactic role in the line and found the entry's broader label still accurate and
+  not misleading; left as is rather than narrowing to a single case where the dual/neuter form is
+  genuinely identical in both cases.
+
+### Pass 2: structural checks
+
+- 252 novel entries in `gloss.json`, matching `novel-forms.json`'s 252 keys one for one (checked by
+  script). 8 `__broaden__` entries.
+- No entry contains an ASCII apostrophe or backtick; English glosses inside entries use the typographic
+  ’ throughout, consistent with conventions.md's glossary-entry rule (unlike the mixed practice in
+  `l`/`i`/`n`, which is a separate, already-flagged question).
+- JSON re-validated after edits; both novel- and broadening-entry counts unchanged (252 / 8).

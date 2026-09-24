@@ -53,7 +53,8 @@ for the stretch plus the citation: `The Gods in Council (1.1–95)`. Arabic book
   drops or varies them.
 - Proper names in English take their familiar forms (Odysseus, Calypso, Aegisthus, Athena, Zeus,
   Poseidon, Orestes, Hermes, Polyphemus, Ithaca, Ogygia, Cronus, Penelope, Nestor, Menelaus, Ilus son
-  of Mermerus, Ephyra, Dulichium, Same, Zacynthus, Pylos, Sparta; the Harpies — Murray prints ἅρπυιαι
+  of Mermerus, Ephyra, Dulichium, Same, Zacynthus, Pylos, Sparta, Patroclus, Antilochus, Priam,
+  Diomedes, Idomeneus, Philoctetes; the Harpies — Murray prints ἅρπυιαι
   as a common noun, but the English capitalises it and the note explains it as "snatchers", the
   storm-winds). `tr` carries the Greek form.
 - Never bowdlerize.
@@ -226,6 +227,18 @@ Words whose meaning is not actually known are **said to be unknown** in the note
 | ἐρικυδέα δαῖτα (3.66) | "a glorious feast" | "a glorious feast" | "splendid", "sumptuous", "rich feast" |
 | ὦ Νέστορ Νηληϊάδη, μέγα κῦδος Ἀχαιῶν (whole-line vocative address, 3.79) | "O Nestor, son of Neleus, great glory of the Achaeans," | "Nestor, son of Neleus, great glory of the Achaeans," | "Neleides", "pride of the Achaeans", "great boast of the Achaeans" |
 | ἀλλ’ εὖ μοι κατάλεξον ὅπως ἤντησας ὀπωπῆς (whole line, 3.97) | "but recount to me well how you came upon the sight." | "but tell me plainly how you came to see it." | "tell me truly" (that is ἐτήτυμον), "recount it exactly" (reserved for ἀτρεκέως κατάλεξον in the fixed ἀλλ’ ἄγε μοι τόδε εἰπέ line) |
+| ἀρήιος (3.109, 3.167) | "warlike" | "warlike" | "war-loving", "martial" (too Latinate) |
+| ἀτάσθαλα (3.207, adj./subst., distinct lemma from the already-fixed noun ἀτασθαλίαι) | "wanton deeds" / "wanton things" | "wanton deeds" | "reckless", "outrageous acts" — kept to echo the fixed ἀτασθαλίαι "wanton-follies" |
+| λυγρός (3.132 λυγρὸν νόστον, 3.194 λυγρὸν ὄλεθρον) | "grievous" | "grievous" | "baneful", "woeful", "miserable" |
+| θεσπέσιος of a sound (3.150 ἠχῇ θεσπεσίῃ; cf. the already-fixed θεσπεσίην … χάριν) | "wondrous" | "wondrous" | "divine", "prodigious", "supernatural" |
+| Ἀτρεΐδῃ Ἀγαμέμνονι (3.156, 3.164; cf. Ἀτρεΐδῃσι 3.136, Ἀτρεΐδην alone 3.193) | "Atreus' son Agamemnon" | "Agamemnon, son of Atreus" | "the son of Atreus" alone when the name Agamemnon is also given |
+| Ἀτρεΐδης / Ἀτρεΐδην used alone as a name-substitute (3.193) | "the son of Atreus" | "the son of Atreus" | naming him "Agamemnon" outright where the Greek withholds the name |
+| Τυδέος υἱός / Τυδεΐδης (periphrasis and patronymic for Diomedes) | "the son of Tydeus" | "the son of Tydeus" | naming him "Diomedes" where the Greek uses the periphrasis alone |
+| ἱππόδαμος applied to a figure other than Nestor (3.181, of Diomedes) | "horse-taming" | "tamer of horses" | keeps the wording already fixed for Νέστωρ ἱππόδαμος, now reused for its plain adjectival sense |
+| μεγάθυμος (3.189, of Achilles) | "great-hearted" | "great-hearted" | "great-souled", "high-spirited" |
+| φαίδιμος (3.189, "φαίδιμος υἱός") | "glorious" | "glorious" | "shining", "splendid" (reserved for ἀγλαός) |
+| ἀγλαός (3.190, "Ποιάντιον ἀγλαὸν υἱόν") | "splendid" | "splendid" | "glorious" (reserved for φαίδιμος), "radiant" |
+| ποιμένι λαῶν ("shepherd of the people", 3.156) | "shepherd of the people" | "shepherd of the people" | "shepherd of hosts", "leader of men" |
 
 ## Glossary entries
 

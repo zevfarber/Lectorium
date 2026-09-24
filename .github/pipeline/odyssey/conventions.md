@@ -206,6 +206,10 @@ Words whose meaning is not actually known are **said to be unknown** in the note
 | πατρώιος ἑταῖρος / πατρώιοι ἑταῖροι ("a companion / companions from [someone's] father's day", of Mentor and Halitherses) | "a companion from his father's day" (sg.) / "his father's own companions" (pl.) | "a companion of his father's day" | "hereditary companion" (reserved for the already-fixed πατρώιος ξεῖνος), "family friend", "an old friend of his father's" |
 | πολιὴ ἅλς (of the sea) | "the grey sea" | "the grey sea" | "hoary" (archaic-sounding), "silvery", "foam-flecked" (adds imagery not in the Greek) |
 | ἐπ’ ἠεροειδέα πόντον | "over the misty-looking sea" | "over the misty-looking sea" | "murky", "dark", "hazy" (ἠεροειδής is built directly on ἀήρ 'mist, haze', and the literal 'looking like mist' is kept) |
+| διογενής (of Odysseus) | "Zeus-sprung" | "Zeus-born" | "godlike" (reserved for ἀντίθεος), "heavenly" (reserved for δῖος), "divine" (reserved for θεῖος), "godlike in form" (reserved for θεοειδής) |
+| ἱερὴ ἲς Τηλεμάχοιο (periphrasis) | "the sacred force of Telemachus" | "the strong, sacred figure of Telemachus" | naturalising it to a bare epithet-plus-name ("mighty Telemachus"), which would erase the periphrasis Homer uses in place of the bare name — the same device as βίη Ἡρακληείη for Heracles |
+| ἀθανάτοισι θεοῖς αἰειγενέτῃσιν | "the immortal gods who are forever-born" | "the immortal, everlasting gods" | folding it into the already-fixed θεοὶ αἰὲν ἐόντες "the gods who are forever" — that formula is built on ἐόντες 'being', this one on γίγνομαι 'be born', and the two are kept as distinct literal renderings |
+| ἔνθ’ αὖτ’ ἄλλ’ ἐνόησε θεά, γλαυκῶπις Ἀθήνη (whole-line formula) | "Then again another thing devised the goddess, gleaming-eyed Athena." | "Then, in her turn, the goddess, gleaming-eyed Athena, thought of something else." | "conceived a new plan" (loses the plain sense of ἄλλο "another thing," not specifically a "plan"), "had another idea" (too casual for the register) |
 
 ## Glossary entries
 

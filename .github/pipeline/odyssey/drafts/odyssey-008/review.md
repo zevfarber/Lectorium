@@ -201,3 +201,224 @@ Most significant fix: the complete absence of opening/closing quotation marks ac
 all 7 speeches in the part — a systemic, part-wide omission that would have shipped
 every quoted speech in this part unmarked in the English layers, directly contravening
 conventions.md.
+
+## Review pass 2 (glossary)
+
+Reviewer pass over `gloss.json` (290 novel entries + 25 broadenings) against `units.json`
+(the pass-1-reviewed translation), `novel-forms.json`/`known-forms.json`, and the actually
+shipped `odyssey-glossary.json`, plus a final whole-part sanity re-check of `units.json`.
+Same severity vocabulary as pass 1.
+
+### Verifications performed first (all passed)
+
+- **Every one of the 290 novel-form keys** occurs as an actual token (elision-stripped,
+  case-insensitive) somewhere in `units.json`'s `t` fields — checked programmatically,
+  zero misses. The 290 keys also match `novel-forms.json` exactly (no extra, none missing),
+  and none overlaps `known-forms.json`.
+- **Apostrophe style in `gloss.json`**: zero ASCII `'` or backtick anywhere in any of the
+  290 novel entries or the 25 broadenings — all English glosses use the typographic ’
+  only, as `conventions.md`'s Glossary-entries section requires. (Checked separately that
+  `units.json`'s own `l`/`i`/`n` fields use the *ASCII* apostrophe for English glosses and
+  possessives, 652 times, with only 3 incidental typographic ’ where a bare elided Greek
+  form is quoted inside a note — this is `units.json`'s own long-established, different
+  convention from the glossary's, consistent throughout the file and not something pass 1
+  or this pass needed to touch.)
+- **Entry length**: none of the 290 novel entries exceeds 230 characters. Three of the 25
+  *broadened* entries do (τηλεμάχοιο 235, ἂν 379, ἦ 292 chars) — but this is structural,
+  not a drafting fault: the rule requires the old text be kept whole and only appended to,
+  and the shipped ἂν entry was **already** 250 characters (over 230) before this part's
+  broadening ever touched it. Noted, not actioned (old text may never be edited).
+
+### The 7 flagged homographs (task step 2) — all confirmed genuine, none invented
+
+Identified as the two-joined-readings entries where the two readings are genuinely
+different grammatical/lexical facts (not just the same lemma+case turning up with a new
+referent, which is what most of the 25 broadenings are): **ἂν** (modal particle ἄν, both
+subjunctive/future and unreal-conditional uses, vs. = ἀνά as a tmesis preverb standing
+apart from its verb), **ἐν** (plain preposition/adverb vs. tmesis preverb), **μετ**
+(preposition μετά vs. tmesis preverb), **ποτὶ** (tmesis preverb ποτί vs. plain
+preposition), **ἥ** (relative pronoun vs. ὁ/ἡ/τό personal-demonstrative 'she'), **ἦ**
+(affirming/interrogative particle vs. the verb ἠμί 'say, 3 sg.'), and **ἴσθι** (novel
+entry, not a broadening: imperative of οἶδα 'know!' vs. identical imperative of εἰμί
+'be!'). Checked each against its actual line(s):
+- ἂν: tmesis confirmed at 416 (ἀν … βαῖνε = ἀνέβαινε) and 419 (ἂν … βάντες = ἀναβάντες);
+  the particle uses are the ordinary Homeric κε(ν)/ἄν pattern `conventions.md` already
+  documents. Real, not invented.
+- ἐν: tmesis confirmed at 330 (ἐν … βάλῃ = ἐμβάλῃ) and 354 (ἐν … χεῦον = ἔγχεον). Real.
+- μετ: tmesis confirmed at 406 (μετ’ … βαῖνε = μετέβαινε), matching the unit's own note.
+  Real.
+- ποτὶ: tmesis (old, shipped) vs. the plain preposition at 342 (ἑξείης ποτὶ τοῖχον
+  ἀρηρότες, 'against the wall', no verb to construe with). Real, and this is exactly the
+  same preposition/tmesis-preverb ambiguity as ἂν/ἐν/μετ — not a fabricated distinction.
+- ἥ: the relative-vs-personal-pronoun ambiguity is explicitly named in `conventions.md`'s
+  grammar list ("the 'article' is a pronoun... τοί can be relative"; "Possessive ὅς, ἥ,
+  ὅν... easily mistaken for the relative"). Confirmed at 434 (παννυχίη μέν ῥ’ ἥ γε καὶ ἠῶ
+  πεῖρε κέλευθον — ἥ γε is 'she' the ship, not a relative; there is no antecedent clause
+  for a relative reading). Real.
+- ἦ: confirmed at 321, the part's very first word (ἦ ῥα, καὶ ἐκ χειρὸς χεῖρα σπάσατ’
+  Ἀντινόοιο — unit's own note already correctly identifies this as unaugmented ἠμί, 'said'
+  closing the previous part's speech). This is one of the best-known Homeric homographs.
+  Real.
+- ἴσθι: confirmed at 356 (αὐτὴ δ’ οἴη ἴσθι) — the unit's own note (left alone by pass 1)
+  already discusses exactly this ambiguity and settles it in favor of οἶδα by the parallel
+  at 412. The gloss entry states both readings correctly and flags which one applies here.
+  Real, well-known formal syncretism, not invented.
+
+None of the 7 is a fabricated distinction; all match documented Homeric grammar and all
+match their actual line(s) in this part.
+
+### Finding 1 — `ναιεταόντων` mislabeled "diectasis" (should be "uncontracted") — **major**
+
+`gloss.json`'s entry read: "ναιετάω — ...; pres. part. gen. pl., **epic diectasis** (=
+Attic ναιετώντων)". Diectasis (the example `conventions.md` itself gives is αἰτιόωνται) is
+the *artificial* Homeric "stretching apart" of a vowel sequence that was **already**
+contracted at an earlier stage of the language, and it is visibly recognizable by a
+resulting **-όω-** spelling (compare this part's own genuinely-diectasis `σκιόωντό`,
+correctly labeled). `ναιεταόντων`, by contrast, spells the sequence **-αο-**
+(ναιετα-όντων), exactly the ordinary, plain uncontracted present-participle stem +
+ending that Homer freely uses for -άω/-έω verbs throughout this part (compare the
+correctly-labeled `ὑπερηνορεόντων`, `φορέουσι`, `ᾔτεε`, all "epic uncontracted," no
+diectasis claim). The unit's own note at 399 (`ln:399`) already calls the phrase
+"an uncontracted genitive phrase" — `gloss.json`'s "diectasis" contradicts the unit note
+it is glossing. This is the same class of error the task flagged as a recurring drafter
+weakness (cf. pass 1's augment mislabelings) applied to a different grammatical category.
+**Fixed**: changed "epic diectasis" to "epic uncontracted" in `gloss.json`.
+
+### Finding 2 — `ἀκραῆ` claimed "uncontracted" without support — **moderate**
+
+The entry read "ἀκραής — ...; masc. acc. sg., uncontracted". Genuine Homeric "uncontracted"
+σ-stem (-ής/-ές) adjective accusatives show visible hiatus (two separate vowel letters,
+e.g. ἀκηδέα), because the σ-stem contraction of -εσα → -εα → -η is optionally left open by
+the epic tradition the same way -έω/-άω verb contractions are. But the actual attested
+spelling here, `ἀκραῆ` (a hapax legomenon, occurring only at this line), already shows the
+single contracted vowel -ῆ, identical to the Attic form given as the point of comparison —
+there is no visible hiatus to call "uncontracted," and I could not confirm a genuine
+alternate uncontracted Homeric form for this specific (rare) word. Since the claim is
+unsupported by the word's own spelling, I removed it rather than assert a different,
+equally unverifiable claim. **Fixed**: entry now reads "ἀκραής — blowing keen and fresh
+(of wind); masc. acc. sg." with no contraction claim. Flagged moderate rather than major
+because the underlying case/gender/number parse was already correct and the translation
+was never affected — only the grammatical side-note was unsupported.
+
+### Finding 3 — `ἀφορμηθέντος` mislabeled "genitive absolute" — **moderate**
+
+The entry called this "genitive absolute (unexpressed subject 'I')." A true genitive
+absolute is a participial clause grammatically detachable from the rest of the sentence,
+with its own subject unconnected to any other constituent (e.g. this part's own, correctly
+labeled, `ἰούσης` at 428: νηὸς ἰούσης, 'as the ship went', freestanding from the wave that
+is the main clause's subject). `ἀφορμηθέντος` at 375 is different: it is the direct
+genitive complement of ἀκοῦσαι ('hear'), the regular Greek construction where a verb of
+perception takes a genitive participle for the person perceived doing something ('hear
+[me] having set out') — removing it would leave ἀκοῦσαι without its content, so it is not
+grammatically free-standing and the label "absolute" does not apply, even though the
+case/tense/voice/number parse and the 'unexpressed subject "I"' identification (matching
+the unit's own first-person reading, correct given this is Telemachus's own speech about
+himself) were all already right. **Fixed**: reworded to "genitive participle governed by
+ἀκοῦσαι (verb of perception + gen. participle), unexpressed subject 'I'," and softened the
+gloss translation from 'when I have set out' to 'that I have set out' to match the
+perception-verb construction rather than a temporal clause.
+
+### Finding 4 — the οἶδ' broadening (task step 3): **glosser's claim confirmed, not overturned**
+
+The shipped `odyssey-glossary.json` entry for `οἶδ` reads "οἶδα — know; perf. 1 sg., elided
+(οἶδ’ = οἶδα)" — a first-person-only parse. This part's sole occurrence is at 332 (`τίς δ’
+οἶδ’, εἴ κε καὶ αὐτὸς ἰὼν κοίλης ἐπὶ νηὸς...`), where οἶδ(ε) agrees with the interrogative
+subject τίς, 'who' — grammatically **third singular**, not first: the unit's own note
+already says so explicitly ("τίς δ' οἶδ(ε) is a common Homeric turn, 'and who knows...'.
+οἶδε is a perfect with present force, 'knows'"). The glosser's broadening — adding "· also
+perf. 3 sg. (identical elided form): 'he/she knows' (τίς δ' οἶδ(ε) 'who knows')" — is
+therefore correct: the shipped entry's 1st-sg.-only parse genuinely does not cover this
+part's usage, and the fix genuinely supplies the missing 3rd-sg. reading rather than
+duplicating the old one. **No change needed**; the glosser's "real person mismatch" claim
+is upheld.
+
+### The 25 broadenings (task step 4): all verified byte-for-byte against the shipped file
+
+Programmatically compared every one of the 25 `__broaden__` entries' leading portion
+against the corresponding key's actual value in `odyssey-glossary.json`'s `glossary`
+object (not the top level of that file, which holds only metadata — `work`, `workEn`,
+`language`, `note`, `glossary`). **All 25 old-text portions are byte-for-byte identical**
+to the shipped text, with exactly ` · also...` appended in each case and nothing else
+touched — including the three cases (ἂν, ἐν, ἦ) where the *shipped* entry itself already
+contained an internal ` · also` clause from an earlier part's broadening, which the new
+broadening correctly preserved in full before appending its own further clause.
+
+Also confirmed each new reading is a genuine, distinct usage actually attested in this
+part's `units.json` (not a restatement of what the old entry already covers): αἰνῶς
+(intensifier with ἵεται, 327) · αὐτὴν (intensive infinitive-subject, 375) · αὐτῆς (plain
+gen. with ἄγχι, 417) · αὐτῇ (anaphoric 'it' with ἐν, of the ship, 389) · εὐρύκλει
+(nominative apposition, not vocative, 345) · θεοῦ (gen. with ἄνευ, 372) · θεῖον (neut.
+acc. agreeing with ποτόν, 341) · κατήλυθον (3 pl., of Telemachus and Athena, 407, vs. the
+shipped 1 sg.) · κῦμα (acc. after κατά, 429, vs. the shipped nom.) · μέλαιναν (agreeing
+with νῆα, 430) · μέσον (attributive with ἱστίον, 427) · μετ (tmesis, 406) · οἶδ (see
+Finding 4) · ποτὶ (plain preposition, 342) · πρίν (+ temporal clause, 374) ·
+τηλεμάχοιο (plain possessive in the ἱερὴ ἲς periphrasis, 409) · φίλοι (vocative address,
+410) · ἂν, ἐν, ἥ, ἦ, μετ, ποτὶ (tmesis/homograph readings, see above) · ἔπλετο (aorist
+force, 364, vs. the shipped present force) · ἦρχε ('led the way' absolute, 416, vs. the
+shipped 'began' + gen.) · ἱστὸν ('mast', 424, vs. the shipped 'loom') · ᾤχετο (durative
+'went about', 383, vs. the shipped punctual 'had gone'). Every one checks out as real and
+non-duplicative.
+
+### Sampled deep review of the 290 novel entries
+
+Given the volume, every entry was checked programmatically for occurrence, apostrophe
+style and length (all pass, see above), and a substantial sample — all entries touching
+tmesis, augment, contraction/diectasis, genitive absolutes, person/number syncretism, and
+gender-agreement claims, plus roughly 60 further entries chosen across the part — was
+checked by hand against the actual line(s) and against the unit's own note where one
+exists. Aside from Findings 1–3 above, no wrong lemma, wrong gender, wrong tense/mood, or
+parse-vs-line mismatch was found. Specifically checked and confirmed correct: the
+tmesis set (βάλῃ/βάντες/βαῖν’/βαῖνε and the ἀν/ἐν/μετ/ποτί broadenings above), the
+principal-part choices for defective/irregular verbs (ἀνώγει, ἐνείκῃ, ἵεται, φάν, ἕστασαν,
+ἀπόληται), the -σκε iterative (εἴπεσκε), the numerals and directional-suffix nouns
+(δώδεκα, εἴκοσι, οἴκαδε, θαλαμόνδε, σπάρτηθεν, τηλόθι), and the gender-agreement claims on
+epithets governed by hyperbaton (εὐρύν/θάλαμον at 337–338, ἡδύν at 349, ἀκραῆ/Ζέφυρον at
+420–421 aside from the contraction note fixed above).
+
+### Final whole-part sanity pass on `units.json` (task step 5)
+
+- **Quotation-mark balance**: re-confirmed programmatically. Both `l` and `i`, concatenated
+  across all 71 units, contain exactly 7 `“` and 7 `”` each, matching the part's 7 `mark`
+  cues one-for-one (325, 332, 349, 363, 372, 402, 410). No unmatched or missing quote.
+- **`t`-tiling**: re-confirmed programmatically against `packet.md`'s 114-line block
+  (whitespace-normalized): the two texts are character-identical, 4,231 characters each.
+  The 15 `p: true` flags match `packet.md`'s 15 `¶` marks exactly, in the same order.
+  (Same result pass 1 already reported; re-run independently here as the task asked.)
+- **Spot check of 10 further units** not named individually anywhere in pass 1's findings
+  or "considered" list (ln 322, 337, 344, 355, 367, 383, 392, 406, 418, 430): read `t`,
+  `l`, `i` and `n` for each. No stray or missing quotation marks (none of these fall at a
+  speech boundary, and none carries one), no `l`/`i` mistranslation against `t`, and notes
+  consistent with the Greek. No issues found; no edits needed.
+
+### Considered and explicitly not acted on
+
+- **The three near-230-character broadened entries** (τηλεμάχοιο 235, ἂν 379, ἦ 292 chars)
+  — a structural consequence of the additive-only broadening rule, already present before
+  this part's edit in the shipped ἂν entry (250 chars pre-broadening); cannot be fixed
+  without editing old text, which is forbidden. Not actioned.
+- **ἐυκνήμιδες labeled "masc. nom. pl."** at 402: ἐυκνήμις is technically a two-termination
+  compound adjective (built on the fem. noun κνημίς) that never distinguishes a separate
+  feminine form; "masc. nom. pl." is a defensible simplification for its use here
+  (agreeing with the masculine ἑταῖροι) rather than an error. Not actioned.
+- **ἐπιστεφέας/ἐϋρραφέεσσι "uncontracted" labels**: rechecked against the diectasis
+  question raised by Finding 1 — these are genuine uncontracted epic datives/accusatives
+  (-έεσσι, -έας) of σ-stem/ές-stem adjectives, a different and unproblematic case from
+  either the diectasis or the ἀκραῆ situations. Confirmed correct, left alone.
+
+## Totals (pass 2)
+
+- **error**: 0
+- **major**: 1 (`ναιεταόντων` mislabeled diectasis instead of uncontracted, contradicting
+  the unit's own note)
+- **moderate**: 2 (`ἀκραῆ`'s unsupported "uncontracted" claim; `ἀφορμηθέντος`'s "genitive
+  absolute" mislabel for what is actually a verb-of-perception genitive complement)
+- **minor**: 0
+- **confirmed, not overturned**: 1 (the οἶδ' broadening — glosser's "real person mismatch"
+  claim is correct)
+- **considered, not actioned**: 3 (see list above)
+- **broadenings verified byte-for-byte against the shipped glossary**: 25 / 25, all clean
+- **homographs verified as genuine, non-invented grammatical facts**: 7 / 7
+
+No corrections were needed in `units.json`; all fixes for this pass were made in
+`gloss.json`. The glossary and the translation are both, as far as this review can
+determine, ready for build/validate.

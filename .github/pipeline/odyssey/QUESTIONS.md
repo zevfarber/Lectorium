@@ -110,3 +110,19 @@ their own the way a normal entry is. Same underlying tension as τῷ's (odyssey
 entries above: the 230-char cap and the additions-only rule can jointly make a correct broadening
 unreadable. Left as shipped; flagged here in case the owner wants the per-entry cap raised for heavily-used
 forms, as τῷ's entry already asked.
+
+## Published rendering of Πεισηνορίδαο (odyssey-004, 1.428) is grammatically backwards — carried into odyssey-008 by the repeated-line rule (raised at odyssey-008, 2026-09-24)
+The line "Εὐρύκλει’, Ὦπος θυγάτηρ Πεισηνορίδαο" (Eurycleia, Ops' daughter, [descendant] of Peisenor) was
+first published in odyssey-004 (1.428) and recurs word-for-word in odyssey-008 (2.347). Its shipped `l`
+there reads "...Peisenor's grandson" — but the patronymic Πεισηνορίδαο agrees with Ὦψ, not with Εὐρύκλεια:
+the sense is that Ops was Peisenor's son, making Eurycleia his granddaughter, and "grandson" is the wrong
+word regardless of whose descent is meant. The shipped `i` for the same line already reads correctly
+("daughter of Ops son of Peisenor"), so only `l` is wrong. odyssey-008's repeated-line rule requires reusing
+odyssey-004's shipped `l`/`i` verbatim for this line, so the error was carried over rather than corrected;
+odyssey-008's own unit (2.345) states the discrepancy plainly in its note, and its new-renderings.md flags
+it for the reviewer. This is the same class of problem as the already-flagged ἔβη (odyssey-005) and εἰδομένη
+(odyssey-007) glossary entries, except here the wrong text is in a published unit's `l` rather than in the
+glossary, so even the additions-only broadening mechanism doesn't apply — there is currently no mechanism at
+all for correcting a published unit's English once shipped. Decided meanwhile: left as shipped in both
+odyssey-004 and odyssey-008; flagged here for an owner decision on whether and how a published unit may ever
+be corrected in place.

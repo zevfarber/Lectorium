@@ -239,6 +239,9 @@ Words whose meaning is not actually known are **said to be unknown** in the note
 | φαίδιμος (3.189, "φαίδιμος υἱός") | "glorious" | "glorious" | "shining", "splendid" (reserved for ἀγλαός) |
 | ἀγλαός (3.190, "Ποιάντιον ἀγλαὸν υἱόν") | "splendid" | "splendid" | "glorious" (reserved for φαίδιμος), "radiant" |
 | ποιμένι λαῶν ("shepherd of the people", 3.156) | "shepherd of the people" | "shepherd of the people" | "shepherd of hosts", "leader of men" |
+| βοὴν ἀγαθός (of Menelaus, 3.311) | "good at the war-cry" | "good at the war-cry" | "loud in the war-cry", "valiant", "brave" (loses the specific βοή 'battle-shout' image) |
+| πολύχρυσος (of Mycenae, 3.305) | "rich in gold" | "rich in gold" | "golden", "gold-rich", "wealthy" |
+| κυανόπρῳρος / κυανοπρῳρείους (of ships, 3.299) | "dark-prowed" | "dark-prowed" | "blue-prowed", "black-prowed", "dark-blue-prowed" |
 
 ## Glossary entries
 

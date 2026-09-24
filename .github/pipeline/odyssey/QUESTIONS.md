@@ -141,3 +141,12 @@ The neut. acc. sg. of τις is τι, not τινα; τινα is masc./fem. acc. 
 masc./fem. acc. sg. reading anyway (ὅν τινα 3.16, ἥν τινα 3.18) and broadened the entry, which leaves the wrong
 first label in place under the additions-only rule. This is the same kind of problem as ἔβη (odyssey-005) and εἰδομένη
 (odyssey-007).
+
+## Two broadenings blocked by the glossary's 230-character cap (odyssey-011, 2026-09-24)
+κακὸν (nom.-subject-of-a-personal-verb sense at 3.306, κακὸν ἤλυθε) and ὃ (plain neuter relative "which"
+referring to a thing at 3.273) both needed a broadened glossary entry this part, but their existing shipped
+entries are already 225–329 characters long, so any compliant broadening (old text kept verbatim + new
+reading appended) would exceed the 230-character cap. Same tension as τῷ (odyssey-003) and περὶ/τί
+(odyssey-007). Decided meanwhile: left both shipped entries untouched rather than violate the cap; the two
+readings needed in this part are covered correctly in the units' own notes instead. Flagged for the owner —
+whether the cap should be raised, or a broadening allowed to omit the oldest reading when space is tight.

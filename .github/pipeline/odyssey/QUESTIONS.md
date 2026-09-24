@@ -126,3 +126,18 @@ glossary, so even the additions-only broadening mechanism doesn't apply — ther
 all for correcting a published unit's English once shipped. Decided meanwhile: left as shipped in both
 odyssey-004 and odyssey-008; flagged here for an owner decision on whether and how a published unit may ever
 be corrected in place.
+
+## Shipped note on θεοῖο at 2.406 (odyssey-008) says "grammatically masculine because she is disguised as Mentor" (raised at odyssey-009, 2026-09-24)
+3.30 repeats 2.406 word for word (ὁ δ’ ἔπειτα μετ’ ἴχνια βαῖνε θεοῖο.), and odyssey-009 reuses its shipped `l`/`i`
+exactly. The notes disagree: odyssey-008's says θεοῖο is "grammatically masculine because she is disguised as
+Mentor, a man"; odyssey-009's says θεός is a noun Homer uses of goddesses as well as gods. The -οιο genitive
+does not show gender at all, and the narrator, not Telemachus, is speaking, so there is nothing that makes the
+word masculine. odyssey-009's note is the defensible one and stands. The shipped glossary entry θεοῖο ("masc. gen.
+sg.") has the same slant. Decided meanwhile: both left as shipped (additions-only, and there is no way to correct
+a published note). Flagged for the owner.
+
+## Shipped glossary entry τινα mislabelled "neut. acc. sg." (raised at odyssey-009, 2026-09-24)
+The neut. acc. sg. of τις is τι, not τινα; τινα is masc./fem. acc. sg. (or neut. pl.). odyssey-009 needed the
+masc./fem. acc. sg. reading anyway (ὅν τινα 3.16, ἥν τινα 3.18) and broadened the entry, which leaves the wrong
+first label in place under the additions-only rule. This is the same kind of problem as ἔβη (odyssey-005) and εἰδομένη
+(odyssey-007).

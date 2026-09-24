@@ -14,7 +14,7 @@ Format matches conventions.md's fixed table: Greek | `l` | `i` | avoided on purp
 | ζείδωρος ἄρουρα (3.3) | "the grain-giving plough-land" | "the grain-giving plough-land" (+ note: ancient alternative "life-giving") | "life-giving earth" (silently picks the minority etymology), "fruitful earth", "bountiful soil" |
 | νηῦς ἐίση (3.10, genitive νηὸς ἐίσης) | "the well-balanced ship" | "the well-balanced ship" (+ note: sense uncertain) | "trim", "shapely", "evenly-built" |
 | θοὴ νηῦς μέλαινα (3.61, θοῇ σὺν νηὶ μελαίνῃ) | "swift black ship" | "swift black ship" | "fast dark ship", "sable ship"; θοός keeps the table's νηῦς θοή "swift ship", and the pairing follows odyssey-008's shipped "the swift black ship" (2.430) |
-| δέπας ἀμφικύπελλον (3.63) | "the fair double cup" (with καλόν) | "the fine double cup" (+ note: "double cup" vs "two-handled", disputed) | "two-handled cup" (silently picks one side), "goblet" (reserved for ἄλεισον, 3.50/53) |
+| δέπας ἀμφικύπελλον (3.63) | "double cup" (3.63 has καλόν too: "the fair double cup") | "double cup" (3.63: "the fine double cup"; + note: "double cup" vs "two-handled", disputed) | "two-handled cup" (silently picks one side), "goblet" (reserved for ἄλεισον, 3.50/53) |
 | ὑγρὰ κέλευθα (3.71) | "the watery ways" | "the watery ways" | "the sea-lanes", "the paths of the sea", "the wet ways" |
 | μελιηδὴς οἶνος (3.46) | "honey-sweet wine" | "honey-sweet wine" | "mellow wine", "wine sweet as honey"; the plain ἡδὺς οἶνος (3.51) is "sweet wine" |
 | ἐρικυδέα δαῖτα (3.66) | "a glorious feast" | "a glorious feast" | "splendid", "sumptuous", "rich feast" |

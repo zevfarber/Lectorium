@@ -150,3 +150,31 @@ reading appended) would exceed the 230-character cap. Same tension as τῷ (ody
 (odyssey-007). Decided meanwhile: left both shipped entries untouched rather than violate the cap; the two
 readings needed in this part are covered correctly in the units' own notes instead. Flagged for the owner —
 whether the cap should be raised, or a broadening allowed to omit the oldest reading when space is tight.
+
+## Two more broadenings blocked by the glossary's 230-character cap (odyssey-012, 2026-09-25)
+κακόν (predicative "base, cowardly" of a person, 3.375, οὔ σε ἔολπα κακὸν καὶ ἄναλκιν ἔσεσθαι) and
+Τηλεμάχοιο (a plain possessive genitive without periphrasis, 3.364, μεγαθύμου Τηλεμάχοιο) both needed a
+broadened glossary entry this part, but the shipped entries are already 329 and 235 characters
+respectively — both already over the 230-character cap before anything is added, so no compliant
+broadening is possible at all. Same recurring tension as τῷ (odyssey-003), περὶ/τί (odyssey-007) and
+κακὸν/ὃ (odyssey-011) above. Decided meanwhile: left both shipped entries untouched; the readings needed
+here are covered in the units' own notes instead.
+
+## Two published glossary entries carry augment errors, found while reviewing odyssey-012 (2026-09-25)
+Both are shipped entries that this part's review could not fix in place under the additions-only rule:
+- **ὤιξεν** (odyssey-011's shipped entry) is labelled "unaugmented", but οἰ- → ὠι- is itself the augment
+  (the corresponding unit's own note at 3.392, this part, states this correctly for the same form).
+- **ἔκ** (published earlier) glosses one of its senses as "= ἐξωνόμαζε", but the separated verb in tmesis
+  (ἔκ … ὀνόμαζεν) carries no augment at all — the augmented form would be ἐξονόμαζε, not ἐξωνόμαζε.
+Same class of problem as the already-flagged ἔβη (odyssey-005), εἰδομένη (odyssey-007), τινα (odyssey-009)
+and Πεισηνορίδαο's `l` (odyssey-008): a wrong published entry with no mechanism to correct it in place,
+only to broaden around it. Flagged for the owner alongside those.
+
+## Live inconsistency in how δῖος/δῖα is rendered for a place, found while reviewing odyssey-012 (2026-09-25)
+odyssey-012 renders Λακεδαίμονα δῖαν (3.326) as "heavenly Lacedaemon" in both `l` and `i`, consistent with
+the house table's general practice for δῖος/δῖα ("heavenly-one of goddesses", "heavenly" of Odysseus).
+odyssey-010, however, already shipped ἅλα δῖαν (3.153, a different noun, same adjective) as "heavenly
+brine" in `l` but "bright salt sea" in `i` — the two English layers disagree with each other there, and
+"bright" is not this part's own choice for the word. Decided meanwhile: odyssey-012 follows the table's
+general "heavenly" pattern and does not retroactively touch odyssey-010's shipped text. Flagged for the
+owner as a cross-part consistency question, not urgent.

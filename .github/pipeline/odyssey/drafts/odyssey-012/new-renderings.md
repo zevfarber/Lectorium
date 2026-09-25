@@ -4,7 +4,7 @@ Formulas and epithets used in this part that are not yet in the table in `conven
 
 | Greek | `l` | `i` | avoided on purpose |
 |---|---|---|---|
-| τοῖσι δὲ καὶ μετέειπε θεά, γλαυκῶπις Ἀθήνη (whole-line speech introduction, 3.330) | "And among them also spoke the goddess, gleaming-eyed Athena:" | "And the goddess, gleaming-eyed Athena, also spoke among them:" | "addressed" (reserved for προσέειπε/προσέφη), "answered" (reserved for ἠμείβετο); μετέειπε keeps the table's "spoke among" (see the ἀγορήσατο καὶ μετέειπε row) |
+| τοῖσι δὲ καὶ μετέειπε θεά, γλαυκῶπις Ἀθήνη (whole-line speech introduction, 3.330) | "And among them spoke also the goddess, gleaming-eyed Athena:" | "And among them the goddess, gleaming-eyed Athena, spoke up as well:" | "addressed" (reserved for προσέειπε/προσέφη), "answered" (reserved for ἠμείβετο); μετέειπε keeps the table's "spoke among" (see the ἀγορήσατο καὶ μετέειπε row); the opening τοῖσι δὲ καὶ μετέειπε follows the English shipped at 2.157 (odyssey-006, of Halitherses) — wording aligned at review |
 | ἦ ῥα (speech-closing, ἦ from ἠμί; 3.337) | "He/She spoke" | "So he/she said" | "Thus he spoke" / "So he spoke" (reserved for ὣς φάτο / ὣς ἔφατο); follows the wording shipped at 2.321 |
 | Διὸς θυγάτηρ (of Athena, 3.337, 3.378) | "the daughter of Zeus" | "the daughter of Zeus" | "Zeus' girl", "child of Zeus"; the same English as the table's κούρη Διός, since both nouns mean 'daughter' here |
 | Παλλὰς Ἀθήνη (line-end name, 3.385) | "Pallas Athena" | "Pallas Athena" (+ note once: meaning of Παλλάς disputed) | "Athena Pallas", "the maiden Athena"; the form shipped at 1.125, 2.405, 3.29 |
@@ -24,8 +24,8 @@ Formulas and epithets used in this part that are not yet in the table in `conven
 | οἶνος ἡδύποτος (3.391) | "sweet-to-drink wine" | "wine sweet to drink" | "sweet wine" (reserved for ἡδὺς οἶνος), "honey-sweet" (reserved for μελιηδής), "mellow", "delicious" |
 | ἀγακλυτός (of halls, 3.388) | "renowned" | "renowned" | "far-famed" (shipped for τηλεκλυτός at 1.30), "glorious" (reserved for φαίδιμος), "famous" (keep for κλυτός) |
 | ὁ γέρων / ὁ γεραιός (narrator's name for Nestor, 3.373, 3.390, 3.393) | "the old man" | "the old man" | "the old king", "the aged one", "the elder"; γεραίτερος (comparative) is "older" |
-| ὑπ’ αἰθούσῃ ἐριδούπῳ (3.399) | "beneath the echoing portico" | "under the echoing portico" | "loud-thundering", "resounding colonnade", "the porch" (αἴθουσα is the roofed portico) |
-| τρητοῖς ἐν λεχέεσσιν (3.399) | "on a pierced bedstead" | "on a corded bedstead" (+ note: frame bored for the cords) | "carved bed", "inlaid bed", "fretted bed" (τρητός is 'bored, pierced') |
+| ὑπ’ αἰθούσῃ ἐριδούπῳ (3.399) | "beneath the loud-echoing portico" | "under the loud-echoing portico" | "loud-thundering", "resounding colonnade", "the porch" (αἴθουσα is the roofed portico) |
+| τρητοῖς ἐν λεχέεσσιν (3.399; cf. παρὰ τρητοῖσι λέχεσσι, 1.440) | "on a bored bedstead" | "on a corded bedstead" (+ note: frame bored for the cords) — both layers follow the wording already shipped at 1.440 (odyssey-004) | "carved bed", "inlaid bed", "fretted bed" (τρητός is 'bored, pierced') |
 | ἐυμμελίης (of Peisistratus, 3.400) | "of the good ash-spear" | "of the good ash-spear" | "good spearman", "skilled with the spear", "of the ashen spear" (drop ἐυ-) |
 | ὄρχαμος ἀνδρῶν (3.400) | "chief of men" | "chief of men" | "leader of men" (kept apart from ἡγήτωρ 'leader' and ποιμὴν λαῶν), "lord of men" (ἄναξ ἀνδρῶν will need "lord") |
 | δόμου ὑψηλοῖο (3.402; shipped at 1.126 as "the high house") | "the high house" | "the high house" | "lofty palace", "tall house" |
@@ -33,4 +33,5 @@ Formulas and epithets used in this part that are not yet in the table in `conven
 | ἄνασσα (vocative ἄνασσ’ to a goddess, 3.380) | "queen" | "queen" | "lady" (keep for δέσποινα / πότνια), "mistress" |
 | εὐρυμέτωπος (of cattle, 3.382) | "broad-browed" | "broad-browed" / "broad of brow" | "wide-faced", "broad-fronted" |
 | φήνη (bird, 3.372) | "a sea-eagle" | "a sea-eagle" (+ note: species unknown — sea-eagle, osprey, lammergeier proposed) | "vulture", "osprey" as if certain |
-| Λακεδαίμων δῖα (3.326) | "heavenly Lacedaemon" | "heavenly Lacedaemon" | "bright", "divine" (reserved for θεῖος), "glorious"; δῖος keeps the table's "heavenly" for places too |
+| Λακεδαίμων δῖα (3.326) | "heavenly Lacedaemon" | "heavenly Lacedaemon" | "bright", "divine" (reserved for θεῖος), "glorious"; δῖος keeps the table's "heavenly" for places too; note the live inconsistency that odyssey-010 shipped ἅλα δῖαν (3.153) as "heavenly brine" in `l` but "bright salt sea" in `i` — left as shipped, flagged at review |
+| κακκείοντες ἔβαν οἶκόνδε ἕκαστος (half-line, 3.396; shipped at 1.424) | "to lie down going, each one went to his own house" | "each went off home to bed" | "went to rest", "retired to their homes"; wording follows 1.424 (odyssey-004) — added at review |

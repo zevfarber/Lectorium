@@ -678,6 +678,11 @@ Open decisions the rules do not settle. A run writes the question and what it de
   passage, not a one-off — worth a transcribing run (which is allowed to touch `tools/`) picking
   up the one-line fix described above rather than leaving each publishing run to route around it
   by hand.
+  **Fixed 2026-09-25 (attended session, at the owner's request).** `--text` now reads each
+  archived line's full record and carries `"v": true` wherever the archive sets it; the table,
+  `--next` and the night boundaries are unchanged (output checked identical). Checked on Nights 1,
+  5 and 12: 8, 20 and 10 verse lines now tagged, text identical. Publishing runs can use `--text`
+  as the runbook says. Closed.
 
 - **Ambiguous grammatical person on `اِحْتَاجَ`, P82L19 (publishing Night 12).** بِمَا احْتَاجَ إِلَيْهِ
   ("with what was needed"/"with what he needed") is printed with the unambiguous 3ms perfect

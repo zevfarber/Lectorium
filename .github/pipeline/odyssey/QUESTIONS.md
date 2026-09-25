@@ -178,3 +178,29 @@ brine" in `l` but "bright salt sea" in `i` — the two English layers disagree w
 "bright" is not this part's own choice for the word. Decided meanwhile: odyssey-012 follows the table's
 general "heavenly" pattern and does not retroactively touch odyssey-010's shipped text. Flagged for the
 owner as a cross-part consistency question, not urgent.
+
+## περικαλλέα broadening blocked by the glossary's 230-character cap (odyssey-013, 2026-09-25)
+odyssey-013 uses περικαλλέα as masc. acc. sg. at 3.481 (περικαλλέα δίφρον, δίφρος being masculine), but
+the shipped entry (already 223 characters, from an earlier part) labels the form only "fem. acc. sg." and
+"neut. nom./acc. pl." Since περικαλλής is a two-termination adjective, the masc. and fem. acc. sg. are
+spelled identically, so the actual form printed is not in question — only the gender label is incomplete.
+The shortest honest addition (" · masc.") would take the entry to 240 characters, over the cap, and a
+bare "· masc" at exactly 230 would read like a typo. Decided meanwhile: left the shipped entry unbroadened;
+this part's own unit at 3.481 makes no gender claim, so no reader is misled, only unaided by the glossary
+entry itself. Same recurring tension as τῷ (odyssey-003), περὶ/τί (odyssey-007), κακὸν/ὃ (odyssey-011) and
+κακόν/Τηλεμάχοιο (odyssey-012) above — an owner decision on raising the cap or relaxing the additions-only
+rule for heavily-used forms would close all of these at once.
+
+## Three more published glossary entries carry errors, found while reviewing odyssey-013's glossary (2026-09-25)
+None of these could be fixed in place under the additions-only rule, only broadened around:
+- **κατεβήσετο** (not itself in this part, but checked while reviewing a related form) is labelled
+  "unaugmented", but κατ-ε-βήσετο carries the regular augment.
+- **σκιόωντό**'s shipped entry gives its Attic equivalent as "ἐσκιοῦντο"; the correct Attic form is
+  ἐσκιῶντο (a plain accentuation slip, not a morphology error, but still wrong as printed).
+- **χερσὶ**'s shipped entry glosses it "(= Attic χερσίν)", implying χερσί itself is not Attic; in fact
+  χερσί is equally good Attic, and the only difference from χερσίν is the movable ν before a vowel or
+  pause.
+Same class of problem as the already-flagged ἔβη (odyssey-005), εἰδομένη (odyssey-007), τινα (odyssey-009),
+Πεισηνορίδαο's `l` (odyssey-008), ὤιξεν and ἔκ (odyssey-012), and κεχάροιτο (broadened this part, but the
+old "perf. opt., potential" label it had to keep whole is itself wrong for the purpose clause at 3.438).
+Flagged for the owner alongside those, as the list of uncorrectable published errors keeps growing.

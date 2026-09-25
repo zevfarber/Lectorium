@@ -189,3 +189,137 @@ substantive was removed.
 - **Published error found in passing, not fixable here:** odyssey-004's note at 1.424 calls ἔβαν
   "the unaugmented aorist of βαίνω". It is augmented (ἔ-βαν = ἔβησαν). This draft's note at 396
   is correct. Worth a line in QUESTIONS.md.
+
+## Pass 2 (glossary)
+
+Checked all 170 novel entries and all 9 broadenings in `gloss.json` against the line each form
+comes from. Edits were made by script (load, change named keys, write back, same `indent=1`
+layout). After the write, every entry passed these checks: no ASCII ' or backtick, 230 chars or
+fewer, and every `__broaden__` value starts with the exact `known-forms.json` text followed by
+` · `. The last check was done character for character by `startswith`. All 9 original
+broadenings passed it too. `units.json` was not changed. I cross-checked every note that makes
+a grammatical claim (augment, tmesis, contraction, homograph) against the glossary. After the
+fixes below, none contradicts the glossary except the two shipped entries under "For
+QUESTIONS.md".
+
+Totals: **0 error, 0 major, 17 moderate, 52 minor.** That is 64 novel entries rewritten, 2
+broadenings corrected, and 3 broadenings added.
+
+### Changes made — moderate
+
+1. **ὀνόμαζεν · gloss · moderate.** "= ἐξωνόμαζεν" put back an augment the verb doesn't have.
+   ὀνόμαζεν is unaugmented (Attic ὠνόμαζε). This is the same slip pass 1 fixed in the 390 note.
+   The entry now says "impf. 3 sg., unaugmented (= Attic ὠνόμαζε); with ἐκ in tmesis … ’called
+   by name’". This agrees with the 374 note (ἐξονόμαζεν).
+2. **ἀνὰ (broadening) · gloss · moderate.** Same error: "ἀνὰ … κέρασσεν = ἀνεκέρασσεν". Changed
+   the appended reading to "(ἀνὰ … κέρασσεν, from ἀνακεράννυμι ’mix up’)". The old text is
+   intact.
+3. **νέον (broadening) · gloss · moderate.** At 367, οὔ τι νέον γε agrees with χρεῖος, which is
+   the subject of ὀφέλλεται. So the form is nominative, not "neut. acc. sg.". The appended
+   reading is now "neut. nom./acc. sg., ’new’ (οὔ τι νέον …, of a debt)".
+4. **κνέφας · gloss · moderate.** Parsed as "neut. acc. sg." But in ἐπὶ κνέφας ἦλθε (329) it is
+   the subject. Now "neut. nom./acc. sg.".
+5. **ζώω · gloss · moderate.** "Epic uncontracted (= Attic ζῶ)" is false. ζώω is a separate
+   epic stem, not an uncontracted ζάω. The form can also be indicative. Now "ζώω (Attic ζάω) —
+   live, be alive; pres. indic. or subj. 1 sg. (= Attic ζῶ)". The lemma matches the shipped ζώει.
+6. **δεπάεσσι · gloss · moderate.** "(= Attic -άεσσι/-ασι)": -άεσσι is not Attic. Now "(= Attic
+   δέπασι)".
+7. **κεράασθε · gloss · moderate.** It was called "uncontracted" and "distended" at once, and it
+   gave the Attic with the wrong accent (κεράσθε). The form is distended from contracted κερᾶσθε,
+   and it can be indicative as well as imperative. Now "κεράννυμι (epic pres. κεράω) … pres.
+   imper. or indic. mid. 2 pl., with distended vowel (= contracted κερᾶσθε)". This matches the
+   332 note.
+8. **καταλέξεται · gloss · moderate.** The lemma "καταλέγομαι" is not an LSJ headword. Now
+   "καταλέγω — lay down; mid. lie down (from λέγω ’lay’ …; distinct from καταλέγω ’recount’)".
+   I added "(epic aor. subj. has the same form)" to keep the entry general, following the shipped
+   καταλέξω ("fut. 1 sg. or aor. subj. 1 sg.").
+9. **λεξαίμην · gloss · moderate.** The lemma "λέχομαι" is not an LSJ headword. It is λέγω ’lay’,
+   mid. ’lie down’. I dropped "potential", which belongs to κε in the line and not to the form.
+10. **πάρα · gloss · moderate.** It was lemmatised as πάρειμι with "pres. 3 sg./pl.". LSJ puts
+    πάρα = πάρεστι/πάρεισι under παρά, and the shipped πάρ also uses παρά. There is also a
+    genuine homograph: παρά in anastrophe after its noun. Now "παρά — beside; πάρα (accent drawn
+    back) stands for πάρεστι/πάρεισι … · also prep. placed after its noun (anastrophe)".
+11. **πόρσυνε · gloss · moderate.** It was labelled "impf." only, with the gloss ’was making
+    ready’. The imperfect and the liquid aorist of πορσύνω are spelled alike, and the 403 note
+    rightly says "past form". Now "impf. or aor. 3 sg. (the forms coincide), unaugmented".
+12. **ἵκετο · gloss · moderate.** The entry was tied to this line's metre ("a metrically
+    lengthened ι shows the augment"). An entry has to hold for the form everywhere, and ἵκετο
+    with a short ι would be unaugmented. Rewritten as a general statement: long ι by metre means
+    augmented, short means unaugmented. The augment analysis (ῑ in augmented tenses of ἱκνέομαι)
+    is unchanged and still agrees with pass 1's fix to the 368 note.
+13. **ἵκοντο · gloss · moderate.** Same problem the other way round ("unaugmented (short ι,
+    unlike augmented ἵκετο)"). Rewritten in the same general form. It agrees with the 388 note.
+14. **καύκωνας · gloss · moderate.** "Location and identity not otherwise specified in Homer" is
+    a claim about the rest of the poems, and it is doubtful (the Iliad names Caucones among the
+    Trojan allies). Cut to "Καύκωνες — the Caucones, a people; masc. acc. pl.".
+15. **τοῖον · `__broaden__` (new) · moderate.** The glosser said this could not fit under the cap.
+    It does. The old entry is 198 chars; with " · also ’so’, qualifying an adj." added it is
+    **230**. That is the μέγα τοῖον sense at 321, 'so great', which the old adverbial 'in such a
+    way' does not give.
+16. **ὄφρ · `__broaden__` (new) · moderate.** Also said not to fit, and it does. The old entry is
+    199 chars; with " · also ’while’ + ἄν and subj." added it is **229**. That is ὄφρ’ ἂν … ζώω
+    at 353. The old entry had temporal ὄφρ’ only with the indicative.
+17. **ὅπως · `__broaden__` (new) · moderate.** Also said not to fit, and it does. The old entry is
+    209 chars; with " · also ’when’ = ὅτε" added it is **229**. That is the temporal use at 373
+    (LSJ cites the line). The old entry already has 'how', so both readings the 373 note offers
+    are now present.
+
+### Changes made — minor (52)
+
+- **Lemma or label precision (8).** αἰδοίῃ lemma accent (αἰδοίος → αἰδοῖος). ἵληθι headword
+  order (ἵλημι, mid. ἵλαμαι; Autenrieth and Cunliffe give ἵλημι). ἐπαρξάμενοι (headword ἐπάρχω,
+  mid. ἐπάρχομαι). φάγωσιν ("root ἐφαγ-" → "aor. ἔφαγον"; it also gave a present κατεσθίωσιν as
+  the equivalent of an aorist). καθεῦδε ("unaugmented" → "no augment shown …", aligned with pass
+  1's hedged 402 note). ἔφησθα ("epic ending" while also calling ἔφησθα Attic → "the old ending
+  -σθα (Attic ἔφησθα or ἔφης)"). φήνῃ (added lammergeier to the proposed species, matching the
+  371 note; still "species uncertain"). αὐδησάσης (dropped "governed by ἔκλυον").
+- **Genuine homographs added with " · " (3).** ἐχόντων (· also pres. imper. 3 pl.). ἡγεμόνευε
+  (· also pres. imper. 2 sg.; "augment not visible on ἡ-" added rather than any
+  augmented/unaugmented claim). ῥέξω (fut. 1 sg. or aor. subj. 1 sg.).
+- **Entries pinned to this passage, made general to the form (41).** βοῦν, γεραιός, γλώσσας,
+  δεινόν (it also said πέλαγος was "understood", but the noun is expressed at 321), εὐρυμέτωπον,
+  θάμβος, θαρσύνω, κάρτος, κίοιτε, καλά, κοίτοιο, κρήδεμνον ("here transferred"), λέχος, νέῳ,
+  παίδων, σοῖς, σοῖσιν, τάμνετε, τρητοῖς, τό, φάος, φιλότητι, χρεῖός, ἀγακλυτὰ, ἀλάλησο,
+  ἀποσφήλωσιν, ἄλλοις, ἄνασσ, ἐμὰ, ἐνεύδειν, ἐριδούπῳ, ἐσθλόν, ἑνδεκάτῳ, ἔλθῃς, ἔλποιτό, ἔλυσε,
+  ἔπιον (aor. 1 sg. or 3 pl.), ἰκριόφιν (-φι serving as gen. or dat.), ὀλίγον, ὀλύμπια, ὅσον.
+  Each had either "agreeing with X" or "(construction) here", or gave only the one case/gender
+  of this line where the form is ambiguous (e.g. σοῖσιν "neut." only, ἐσθλόν "neut. acc." only).
+
+### Augment labels re-derived (no change needed)
+
+βάλλον, θαύμαζεν, κέρασσεν, κεράσσατο, κοίμησε, νώμησαν, σπεῖσάν (all unaugmented, each ≠ its
+ἐ- form); κατέρυκε broadening (unaugmented, augmented would be κατήρυκε); ἐπέλειβον, κατέλεξας,
+ἤγαγεν, ἤθελε, ἔδυ, ἔλυσε, ἐτίμα, ἔκλυε (augmented); ἱέσθην (augment invisible, no claim made);
+εἰλήλουθεν (perfect, no augment question). All correct.
+
+### Findings considered and refused
+
+- **δῖαν broadening unnecessary?** The old entry's 'heavenly, divine, illustrious; fem. acc.
+  sg.' already covers Λακεδαίμονα δῖαν in meaning and parse. The appended place-name reading is
+  not needed, but it is true and under the cap, so I left it.
+- **ὁμηλικίη broadening** ("predicated of a plural subject") against the 363 note's "in
+  apposition to πάντες". Refused as a contradiction: the two describe the same construction.
+- **ἰδόντας lemmatised under ὁράω** rather than LSJ's εἶδον. Kept, because the shipped ἴδεν uses
+  ὁράω and consistency within the glossary decides it.
+- **ἔκλυε / ἔκλυον "aor."** (LSJ also treats ἔκλυον as an impf. with aorist force). Kept, to match
+  the shipped ἔκλυον.
+- **αὐτόετες headword** (LSJ may print αὐτοετές). Not changed: I couldn't confirm the LSJ accent
+  from the permitted sources with confidence, and the entry is otherwise right.
+- **ἦνις** is "a year old, yearling (of a calf); rare word, precise sense not certain". That is
+  correct as it stands (Cunliffe queries it too) and agrees with the 382 note.
+- **βάλλον / ἐπέλειβον as 1 sg.** too. Not added: the homograph (impf. 1 sg.) is trivially
+  regular, and the entry is not wrong for the form.
+
+### For QUESTIONS.md (cannot be fixed here — shipped entries are additions-only)
+
+- **κακὸν** is already **329 chars** in the shipped glossary, over the 230 cap before anything is
+  added. At 375 it is predicative 'base, cowardly'. Adding that is impossible without replacing
+  the entry. Genuinely blocked.
+- **Τηλεμάχοιο** is already **235 chars**, also over the cap. Its use at 364 (gen. after
+  ὁμηλικίη) is arguably covered by "plain possessive gen.". Genuinely blocked either way.
+- **τοῖον, ὄφρ’ and ὅπως were not blocked**: they are broadened above (230 / 229 / 229).
+- **ὤιξεν** is shipped as "aor. 3 sg., unaugmented". That is wrong: οἰ- → ὠι- is the augment,
+  which the 390 note correctly says. Shipped entry error, needs a decision.
+- **ἔκ** is shipped with "(ἔκ … ὀνόμαζε = ἐξωνόμαζε)". This restores an augment the separated
+  verb doesn't have (should be ἐξονόμαζε). The same class of error was fixed in this part's
+  ὀνόμαζεν and ἀνά.

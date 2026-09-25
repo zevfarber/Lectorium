@@ -757,3 +757,19 @@ Open decisions the rules do not settle. A run writes the question and what it de
   reattached after gating, per precedent. Consistent with the standing observation that this is a
   systematic habit of the drafting/correction agents rather than a one-off, and worth the same
   periodic regex sweep on every future batch regardless of dispute count.
+
+- **Night 13 (published 2026-09-25): "الفرنجي الثاني" ("the second Frank") where "العفريت" (the
+  efrit) is contextually expected, P86L03.** The archive (already gated PASS at transcription,
+  pp083-090.json) reads "...قال للصبية يا سيدتي لها رقصت القبة رقصا قويا الا والاقطار قد اظلمت..."
+  introduced by "ان الفرنجي الثاني قال للصبية" — but every surrounding sentence is plainly about
+  the efrit Jirjīs returning to the vault, and "العفريت" is what the next few lines actually call
+  him. No modern edition was consulted to resolve this (out of scope for this pipeline), so it is
+  translated literally as printed ("the second Frank[ish man]") with a note flagging the oddity,
+  per the no-repair rule — decided meanwhile: treat it as the same referent as "العفريت" a few
+  sentences later, since nothing else in the passage introduces a second character. Worth a look
+  by anyone with access to another independent transcription/edition of this passage, since it
+  reads like either a compositor's slip in the original print or (less likely, since the
+  transcription pipeline's two-pass-plus-adjudication already checked this page) a transcription
+  artifact — but the pipeline has no way to distinguish those without consulting another source,
+  which the rules forbid for wording. Left as printed in nights-13.json's sentence 1 note; not
+  escalated further since nothing here blocks publication and the owner does not read code.

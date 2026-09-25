@@ -83,3 +83,132 @@ python3 -c "import json; json.load(open('drafts/odyssey-014/units.json'))"
 Result: **parses successfully, no errors.** (Also re-verified after every edit in this pass, and again
 in a final check: 56 units, all `t`/`l` newline counts match, all `i` fields newline-free, no unit's
 `t` exceeds 5 lines, all `v: true`.)
+
+# Review — odyssey-014, pass 2 (glossary)
+
+Reviewed `gloss.json` (259 novel entries + `__broaden__` block of 6) against `conventions.md`'s
+"Glossary entries" and "Homeric Greek for a reader who knows some Attic" sections, `units.json`'s `t`
+fields (every word checked in its actual line, not just against the glosser's own parse label), and
+`novel-forms.json`/`known-forms.json` for coverage and spelling. Method: every one of the 259 novel
+keys was matched by hand against its occurrence(s) in `units.json`'s `t` (script-assisted lookup,
+human-verified line by line), with special attention to every past-tense (aorist/imperfect/pluperfect)
+verb's augment claim, since that is this project's most common error. A full pass was also made over
+every `known-forms.json` entry that recurs more than once in this part's `t` fields, to sanity-check
+the glosser's judgment on which known forms needed broadening and which didn't.
+
+## Changes made
+
+| Form | Severity | What was wrong | Fix |
+|---|---|---|---|
+| `τὼ` (`__broaden__`, new clause) | major | The added sense claimed τὼ at 4.59 (τὼ καὶ δεικνύμενος προσέφη ξανθὸς Μενέλαος·) is "dat. dual." But πρόσφημι/προσέφη takes the **accusative** of the person addressed in Homer (the same government already fixed in conventions.md's house table for τὸν δ’ αὖτε προσέειπε, τὸν/τὴν δ’ ἠμείβετ’ ἔπειτα, etc. — all accusative objects of speaking-verbs rendered with English "to X"). τὼ here is accusative dual (object of προσέφη), syncretic with the nominative dual already covered by the base entry, not a distinct dative form; the dative dual of ὁ ἡ τό is τοῖν, a form that does not occur in this part. English "spoke **to** the two of them" reflects the verb's sense, not a Greek dative. | Changed "dat. dual" to "acc. dual, object of a verb of address," keeping the example unchanged. |
+| `βάντες` (`__broaden__`, new clause) | minor | The added sense for the plain (non-tmesis) use at 4.48 (ἔς ῥ’ ἀσαμίνθους βάντες ἐυξέστας λούσαντο) described it as "+acc. of place entered," which reads as if βαίνω itself governs a bare accusative here. The accusative ἀσαμίνθους is actually governed by the preposition ἐς, not directly by the participle. | Reworded to "+ ἐς and acc. of place entered" for precision. |
+
+Both fixes keep the pre-existing (`known-forms.json`) text of each entry byte-for-byte unchanged, as
+required; only the newly-added clause after ` · ` was touched. Re-verified after editing: both
+entries still contain their old text verbatim, and both are still well under 230 characters (188 and
+174 respectively, up from 180 and 145).
+
+## The 6 broadenings — verified individually
+
+| Form | (a) old text preserved verbatim | (b) broadening actually needed | (c) new reading accurate | (d) under 230 chars |
+|---|---|---|---|---|
+| `βάντες` | yes | yes — old entry only covered the tmesis (ἀνὰ … βάντες = ἀναβάντες) sense; 4.48's βάντες has no preverb at all | yes, after the fix above | yes (188) |
+| `κοίλην` | yes | yes — old entry only covered the "standing epithet of ships" sense; 4.1's κοίλην Λακεδαίμονα is geographic, not naval | yes — "hollow" of a valley/land ringed by hills is the standard reading of κοίλη applied to a region, and matches the `l` rendering "hollow Lacedaemon" already shipped in `units.json` | yes (140) |
+| `κρείων` | yes | yes — old entry only covered the "epithet of kings" sense; 4.22 applies it to a household steward, Eteoneus | yes — matches `units.json`'s own note at ln 22 verbatim in substance ("here honors the chief steward of the household rather than a king") | yes (181) |
+| `τὼ` | yes | yes — old entry only covered the nominative dual (4.20); 4.59 is a distinct (accusative) case use | yes, after the fix above | yes (174) |
+| `ἀτρεΐδην` | yes | yes — old entry was pinned to Agamemnon ("here of Agamemnon"); 4.51 applies the same patronymic to Menelaus | yes — matches `units.json`'s ln 49 note, which explicitly calls out the parallel to the house-fixed Ἀτρεΐδῃ Ἀγαμέμνονι pattern | yes (143) |
+| `νῶι` | yes | yes — old entry only covered the accusative dual (μετὰ νῶι); 4.33's νῶι … ἱκόμεθ’ is nominative dual, subject of the verb | yes — ἐγώ's dual νώ/νῶι is syncretic for nom./acc., matching the base entry's own syncretism note for other duals in this part | yes (145) |
+
+## Augment audit (all past-tense verb entries)
+
+Every novel entry parsed as aorist, imperfect, or pluperfect was checked by hand against the actual
+spelling in `units.json`'s `t` and, where available, against that unit's already-reviewed `n` field
+(pass 1 ground truth). All augment/no-augment claims were found correct:
+
+- **Correctly augmented** (ἐ- visible, or revealed by a compound's elided vowel, or α→η/ο→ω
+  lengthening): διέσσυτο, εἰσῆγον, κατέδησαν, κατένευσε, προσεφώνεε, ἐδίνευον, ἐμέλπετο, ἐμόγησε(ν),
+  ἐξετέλειον, ἔβαλον, ἔκλιναν, ἔλειπε, ἔμιξαν, ἔφαινον, ἠγαγόμην, ἠλώμην, ἤγετο, ἤρατο, ὑπέσχετο.
+- **Correctly unaugmented** (reduplicated root aorist, root aorist of a vowel-stem verb retaining its
+  short vowel, or a bare present/mid.-pass. imperfect with no ἐ-): βάλον, δαίνυντο, κέκλετο, λούσαντο,
+  λοῦσαν, λῦσαν, ξύνετο, πάρθεσαν, πέλεν, πέμπε(ν), χρῖσαν, ἄνασσεν, ἔλων, ἰδόντες (participle, never
+  augments), ἱκόμεθ’, ἱκόμην, ἴδετο, φάθ’.
+- No novel entry mislabels a present-tense form as "unaugmented" (the error class conventions.md and
+  pass 1 both flag); `θῆσθαι`, `ναίειν`, etc. are correctly given no augment language at all, since
+  they are present infinitives.
+
+One near-miss considered and **not** changed: `ἔπεφνεν` ("θείνω — strike, slay; aor. 3 sg., root
+aorist ἔπεφνον, reduplicated stem πεφν-...") does not explicitly say "augmented," even though the
+initial ἐ- in ἔπεφνον is in fact an augment layered onto the reduplicated stem (Smyth §509), not
+just reduplication. This matches `units.json`'s own ln 90 note for the same word, which likewise
+omits the augment label — so the glossary entry is consistent with already-reviewed ground truth
+rather than introducing a new inconsistency. Left unchanged; flagged here for the next pass in case
+the note itself is ever revisited.
+
+## Coverage and format
+
+- `novel-forms.json` has 259 keys; `gloss.json` has exactly 259 non-`__broaden__` entries; the two key
+  sets are identical (no gaps, no extras).
+- All 6 `__broaden__` keys exist in `known-forms.json` and are spelled identically.
+- Every one of the 259 novel keys was located as an actual token in `units.json`'s `t` fields (no
+  orphan entries glossing a form that doesn't occur in this part's Greek).
+- Automated check of all 259 + 6 entries: shape `^\S.* — \S`, no ASCII apostrophe, no backtick, length
+  < 230 chars, key == key.lower() — **zero violations** (checked before and after the two fixes above).
+
+## Disputed/unknown words (item 6)
+
+- `κητώεσσαν`: "full of ravines, hollows (disputed: some ancients connected it with κῆτος 'sea-monster';
+  exact sense uncertain)" — matches `units.json`'s own hedge at ln 1 and the tone of conventions.md's
+  worked list of honestly-flagged unknowns. No change.
+- `τηλύγετος`: "late-born (or, on another view, tenderly loved, darling — meaning disputed, no
+  etymology certain)" — matches `units.json`'s ln 10 note almost verbatim. No change.
+- `ἐρεμβοὺς`: "the Erembians, a people of disputed/unknown identity (perhaps Arabs; the name itself may
+  be corrupt)" — matches `units.json`'s ln 84 note. No change.
+
+All three hedge honestly rather than asserting false confidence; none was altered.
+
+## known-forms.json spot check (item 9)
+
+Every `known-forms.json` key that recurs more than once in this part's `t` fields (~90 forms: function
+words, particles, the pronoun ὁ/ἡ/τό in its various cases, proper names, etc.) was checked line by line
+for whether a second, distinct sense appears that the existing single-sense entry doesn't cover. All
+were found to genuinely share one grammatical sense across their occurrences in this part (e.g. ὣς at
+4.15/32/37/65/93 — the postpositive-comparative use at 4.32, "πάϊς ὥς," is already covered by the base
+entry's second clause; οἱ, τε, γε, δέ, καί, κατά, παρά, τοῦ, τὸν, ἐν, ἐπεί etc. all check out the same
+way). No missed broadening was found among the words sampled. This does not constitute a check of all
+325 known-forms entries — words appearing only once in this part were not re-examined, since a single
+occurrence cannot itself motivate a broadening.
+
+## Findings considered but refused
+
+- No lemma errors found: every one of the 259 entries' first element was checked against LSJ's actual
+  headword (not an inflected form given as if it were the citation form). The one case that looks
+  unusual at first glance, `εἴπ’` → "εἶπον (aor. of λέγω/φημί)," is correct as given: εἶπον is a
+  genuinely separate, suppletive LSJ headword (not merely "the aorist of λέγω" folded under that
+  present-tense entry the way, e.g., πάθεν correctly sits under πάσχω), so citing it directly, with the
+  cross-reference, is the right call, not the "aorist given as lemma" bug.
+- `ἦσθα` ("εἰμί — be; impf. 2 sg.: 'you were'") carries no augment note, though the η is in fact the
+  augmented/lengthened grade of ἐσ-θα. Considered flagging this as a completeness gap (parallel to the
+  α→η notes given elsewhere for ἤγετο, ἠγαγόμην, etc.), but εἰμί's imperfect is a suppletive, highly
+  irregular paradigm with no unaugmented Homeric by-form in play here (unlike ἄγω/ἀλάομαι, where the
+  augmented/unaugmented contrast is live and meaningful in this very part), and no existing entry in
+  either `known-forms.json` or `novel-forms.json` sets a precedent either way for εἰμί's past tenses.
+  Left unchanged rather than invent a new house convention unilaterally.
+- The two separate keys `αὐτούς` (acute, at a pause: κατ’ αὐτούς,) and `αὐτοὺς` (grave, mid-clause: e.g.
+  αὐτοὺς δ’ εἰσῆγον) look at first like a possible duplicate, but conventions.md requires keys to be
+  "exactly as printed," and grave vs. acute is a real, printed difference in the accented Greek text.
+  Correctly kept as two entries. No change.
+- No blocked broadenings: I found no known-forms.json usage in this part that needed broadening but
+  couldn't fit under 230 characters, so nothing needs to go in QUESTIONS.md on that account.
+
+## Glossary JSON validity
+
+Ran from `/home/user/Lectorium/.github/pipeline/odyssey`:
+
+```
+python3 -c "import json; json.load(open('drafts/odyssey-014/gloss.json'))"
+```
+
+Result: **parses successfully, no errors.** Re-checked after the two edits above: 259 novel entries
+(exact match to `novel-forms.json`'s 259 keys), `__broaden__` still has all 6 original keys, all 6
+broadened entries still contain their `known-forms.json` predecessor text byte-for-byte, and the full
+format sweep (shape, apostrophe, backtick, length, lowercase key) still reports zero violations.

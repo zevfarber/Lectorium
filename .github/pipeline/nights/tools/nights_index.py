@@ -52,6 +52,25 @@ def load_lines():
     return out
 
 
+def load_records():
+    """Every archived line in printed order as its full record — ref, t, and the verse flag
+    "v" where the archive sets it. --text must hand drafters this, not load_lines()'s bare
+    (ref, text) pairs: until 2026-09-25 it dropped "v", so drafters could not see which lines
+    were verse (found publishing Nights 11 and 12)."""
+    out = []
+    for name in sorted(os.listdir(ARCHIVE)):
+        if not (name.startswith("pp") and name.endswith(".json")):
+            continue
+        with open(os.path.join(ARCHIVE, name), encoding="utf-8") as fh:
+            doc = json.load(fh)
+        for line in doc["lines"]:
+            rec = {"ref": line["ref"], "t": line.get("t", "")}
+            if line.get("v"):
+                rec["v"] = True
+            out.append(rec)
+    return out
+
+
 def find_markers(lines):
     """Character-offset search over the joined text, mapped back to line indexes."""
     text_parts, owner = [], []
@@ -128,13 +147,13 @@ def main():
         if nt is None:
             print("no such night: %d" % want, file=sys.stderr)
             return 2
-        lines, inside, out = load_lines(), False, []
-        for ref, t in lines:
-            if ref == nt["start"]:
+        inside, out = False, []
+        for rec in load_records():
+            if rec["ref"] == nt["start"]:
                 inside = True
             if inside:
-                out.append({"ref": ref, "t": t})
-            if ref == nt["end"]:
+                out.append(rec)
+            if rec["ref"] == nt["end"]:
                 break
         print(json.dumps({"unit": nt, "lines": out}, ensure_ascii=False, indent=1))
         return 0

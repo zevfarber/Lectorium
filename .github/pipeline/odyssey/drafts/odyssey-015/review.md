@@ -193,3 +193,92 @@ Result: **parses successfully, no errors.** Re-verified after every edit and aga
 units, all `t`/`l` newline counts match, all `i` fields newline-free, no unit's `t` exceeds 4 lines,
 all `v: true`, exactly 10 `p: true` flags matching packet.md's paragraph marks, exactly 6 `mark` fields
 each on the correct unit, and exactly 6 matched “/” pairs across the file's six speeches.
+
+## Review pass 2 (glossary)
+
+Checked every one of `gloss.json`'s 207 novel-form entries and all 3 `__broaden__` entries against
+their actual occurrence(s) in `units.json`'s `t` fields (every key form located by script, all 207
+found at least once, several — αἰγυπτίῃς, δοιοὺς, εἴσ, εἵνεκ, θήβῃς, φυλὼ, ἀτρεΐδη, ἄντ, ἵμερον,
+ὀφθαλμοῖιν, πορφυρέην, χλαῖναν, ἀργύρεον — checked at every occurrence, not just the first). Lemma,
+meaning, parse (done from morphology first, not from the entry's own claim), augment/no-augment
+status, and entry shape were all checked. Also read the master glossary's stored text for the 3
+broadened keys and byte-compared it against the new entries.
+
+### Fixes made
+
+| Form | Severity | What was wrong | Fix |
+|---|---|---|---|
+| αἰγυπτίῃς | error | Parsed "fem. dat. sg.", but the word agrees with Θήβῃς at the same line, which is itself (correctly, in its own entry) "fem. dat. pl."; Θῆβαι is a plural-only place name and Αἰγυπτίῃς must share its number | Changed to "fem. dat. pl., agreeing with Θήβῃς" |
+| βεβυσμένον | error | Parsed "neut. acc. sg.", but the participle agrees with τόν (masc. acc. sg., referring back to τάλαρον 'the basket', masculine) two lines earlier — the -ον spelling is genuinely ambiguous between masc. acc. sg. and neut. nom./acc. sg., but the antecedent in this line is unambiguously masculine | Changed to "masc. acc. sg. (agreeing with τόν, the basket)" |
+| ἔφην | error (augment) | Parsed "impf. 1 sg., unaugmented" — but the word is spelled with the syllabic augment ἐ- prefixed to the consonant-initial stem φη- (ἔφην, not *φην); this is the augmented form, not the unaugmented one | Changed to "impf. 1 sg., augmented, ἐ- before the consonant-initial stem φη-" |
+| ἵκεθ’ | moderate (augment) | Parsed flatly as "unaugmented" — but ἱκνέομαι's root is ι-initial, so a Homeric temporal augment (short ι → long ι) is orthographically invisible; pass 1's own review of `units.json` explicitly considered this exact form and concluded the augment status is indeterminate from spelling alone, declining to call it either way. The glossary entry asserted a certainty pass 1 had already, correctly, declined to assert | Removed the "unaugmented" claim; reworded to "elided (ἵκεθ’ = ἵκετο); augment orthographically indeterminate, ι-initial stem" |
+| κεκράαντο | moderate | Described the ending as "epic -ατο (= Attic ἐκέκραντο)" — but the word as spelled ends -αντο (κεκρά-αντο), not -ατο; the epic peculiarity here is an extra, uncontracted stem vowel (diectasis, the same phenomenon already correctly named elsewhere in this file for εὐχετόωνται and μυθεόμην), not a different plural ending. As written, the entry's own stated ending didn't match the very word it was glossing | Reworded to "epic diectasis (uncontracted stem vowel) = Attic ἐκέκραντο", dropping the inaccurate "-ατο" ending claim |
+| θήβῃς | moderate (shape) | Entry read "Θῆβαι — Thebes (here Egyptian Thebes); …" — "here" is expressly barred by conventions.md's shape rule (general to the form, never pinned to a line/occurrence) | Reworded to "Θῆβαι — Thebes, Egyptian or Boeotian by context; …", keeping the useful disambiguation without "here" |
+| νάσσα | moderate (shape) | Entry read "ναίω — dwell; here causative, settle, …" — same "here" violation | Reworded to "ναίω — dwell; also causative, settle, give a home to; …" |
+
+No other entries needed a change. In particular, the words pass 1 flagged as vocabulary the drafter's
+own notes had been shaky on — σαόφρων (ln158, "self-possessed, temperate, of sound mind; adj.,
+masc./fem. nom. sg., epic by-form (= Attic σώφρων)"), ἀρίγνωτος (ln206, correctly a nominative predicate
+adjective agreeing with γόνος, matching pass 1's own fix to the unit note), θυώδεος (ln120, correctly
+"genitive in -εος (uncontracted, Attic -ους)", matching pass 1's fix), γέρας (ln197, correctly neut.
+nom. sg.), κυνώπιδος (ln144, correctly fem. gen. sg. agreeing with ἐμεῖο) and ἔναι (ln125, correctly an
+imperfect of ναίω) — were all individually re-derived from the actual line and found correct as they
+stand (νάσσα's fix above is a shape issue only, not a grammar error).
+
+### Augment/no-augment audit (the project's flagged recurring weak spot)
+
+All 11 entries in the file that make an explicit augment/no-augment claim were checked against the
+actual spelling of the word in its line, from first principles:
+
+- **Correct as written:** διέκρινεν (augment hidden behind the elided preverb, δι’ ἔκρινεν), εἶβε
+  (unaugmented — the diphthongal stem εἰβ- shows no separate augment vowel), κλαῖε (unaugmented, =
+  ἔκλαιε), νόησε (unaugmented, = ἐνόησε), πόρε (unaugmented, defective aorist), φέρεν (unaugmented, =
+  ἔφερε), ἀμφεκάλυψεν (augmented, ἀμφι+ἔκάλυψεν), ἐέλδετο (unaugmented — the ἐε- is inherited
+  reduplication of the present stem, not a second augment layer), ὥρμαινε (augmented, ο→ω).
+- **Wrong, fixed:** ἔφην (claimed unaugmented; is augmented — see table above).
+- **Overclaimed, fixed:** ἵκεθ’ (claimed unaugmented; genuinely indeterminate — see table above).
+
+No entry incorrectly applies augment language to a present, participle, subjunctive, optative,
+imperative or infinitive form; all of those (ἀκούσας, ἀγαγὼν, ἐκγεγαυῖα, ἐλθόντα, ἐξαλαπάξας,
+ἐάσειε, ἐξερέοιτο, πειρήσαιτο, ἐπικλώσῃ, ἐπίσπῃ, θάνῃσι, ἐπιμνησαίμεθα, ἐρέοιμεν, ἀλάλκοιεν, ῥέξειε,
+πίθοιό, χευάντων, and the rest) correctly carry no augment claim at all.
+
+### The three broadenings
+
+All three checked against `/home/user/Lectorium/odyssey-glossary.json` (read directly, not from
+memory) with a byte-level containment check (Python `in`), not eyeballed:
+
+| Key | Old text contained whole? | New reading real and distinct? |
+|---|---|---|
+| τοῦ | Yes | Yes — τοῦ occurs twice in this part (ln158, ln189); the demonstrative/pronoun sense ("of him, that one") the master already has is used at ln189 (τοῦ ὅ γ’ ἐπιμνησθεὶς, "of him," i.e. Antilochus); the relative sense the broadening adds ("whose, of whom") is the genuinely different construction at ln158 (τοῦ νῶι θεοῦ ὣς τερπόμεθ’ αὐδῇ, "whose voice we delight in," τοῦ agreeing with the antecedent σέθεν/Menelaus) |
+| ὑφ | Yes | Yes — both occurrences of ὑφ’ in this part (ln113, ln183) are the tmesis idiom ὑφ’ … ὦρσε = ὑπῶρσε, distinct from the plain governing-a-case sense already in the master; there is no plain-preposition use of ὑφ’ anywhere in this part, so the addition is necessary, not decorative |
+| ἐφ | Yes | Yes — the one occurrence (ln212, χερσὶ δ’ ἐφ’ ὕδωρ) is ἐπί + dative with anastrophe ("over the hands"), genuinely distinct from the master's accusative-governing sense; correctly identified as anastrophe (χερσί, dative, precedes and is governed by the postposed ἐφ’) |
+
+All three broadenings held up exactly as written; no correction needed to any of them.
+
+### Missed-broadening check (item 10)
+
+Beyond the vocabulary pass 1 flagged (checked above, all correct), spot-checked the part's other
+recurring or structurally significant words against both this file's own novel entries and the master
+glossary for a sense used here that neither one covers. Found nothing that should have been a
+broadening and wasn't. In particular: κατὰ φρένα καὶ κατὰ θυμόν, ὣς φάτο/ἔφατ’, διοτρεφές,
+πεπνυμένος-type words, and the reply-formula vocabulary are all either house-fixed epithets (not
+glossary matter) or forms already given their own correct novel entries in this same file. No addition
+made to `__broaden__` beyond the 3 already present.
+
+### Entry-shape sweep (item 8)
+
+Scripted check of all 207 novel entries for: non-whitespace start, literal " — " before the meaning,
+"; " before the parse, only the typographic ’ (no ASCII apostrophe, no backtick), length ≤230
+characters, and no "here"/"in this part"/line-number language. Found and fixed the two "here"
+violations above (θήβῃς, νάσσα); nothing else failed. No homograph (" · "-joined) entries exist among
+the 207 novel forms, only among the 3 broadenings, all three of which were checked under item 9 above.
+
+### JSON validity (glossary)
+
+```
+python3 -c "import json; json.load(open('.github/pipeline/odyssey/drafts/odyssey-015/gloss.json'))"
+```
+
+Result: parses successfully. 207 novel keys and the 3-entry `__broaden__` object both intact and
+unchanged in count after all edits.

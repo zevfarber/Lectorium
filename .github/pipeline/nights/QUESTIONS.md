@@ -684,3 +684,71 @@ Open decisions the rules do not settle. A run writes the question and what it de
   consonant skeleton (rules out a 1cs reading, which would need a final ت). Kept as 3ms, read as
   an impersonal relative clause ("what was needed") rather than assuming the narrator misspoke;
   flagged in the sentence's own note rather than silently resolved.
+
+- **A genuine scan-corruption defect, PDF page 114 / printed p. 94 (run 2026-09-25, transcribing
+  pp. 111-118).** `nights_ocr.py`'s automatic line detector returned only 1 "body line" for PDF
+  page 114 (all other 7 pages in the batch detected normally), and rendering the page at any DPI
+  via three independent tools (`pdftoppm`/poppler, PyMuPDF, `mutool`) all reproduced an identical
+  chaotic "shredded"/checkerboard visual artifact over a large area of the frame. Traced to the
+  page's embedded image objects directly with `pikepdf`: the page composites a full-page JPXDecode
+  (JPEG2000) color background (`fzImg1`) with a JBIG2Decode 1-bit `SMask` acting as the text/ink
+  layer. Extracting and decoding *both* streams independently (`pdfimages`, `jbig2dec -e`) showed
+  the *same* chaotic pattern occupying the *same* region in both — independently-encoded formats
+  sharing an identical defect geometry rules out a single codec's decode bug and points to damage
+  in the master scan image both streams were derived from. The affected region turned out to sit
+  entirely in the exterior background/book-cover area *outside* the actual printed leaf (confirmed
+  by checking, at several rows, that no real ink extended into it — a verse-couplet block on this
+  page that looked "indented" at first glance was cross-checked against a second couplet on the
+  same page with an identical right-margin start, showing the indent is this page's own
+  block-quote layout for its calligraphy specimens, not lost text). Decided meanwhile: cropped the
+  exterior region out (`x < 1290`, `y > 460` on the 1619×2804 render) before generating this page's
+  `band1-3.png` (plus a `band3_bottom.png` for the last two lines near the frame edge), so the
+  correction-pass agents worked from clean, complete images with an explicit note explaining why no
+  `lineNN.png` crops existed for this page; both independent passes converged on the same 17-line
+  reading with only ordinary-rate disagreements, and both page joins into/out of p.94 read
+  continuous — corroborating that nothing was actually lost. **Future runs:** if `nights_ocr.py`
+  reports a wildly low body-line count on an otherwise-normal page, don't assume the batch is
+  unrecoverable or stop the run — render the page with 2-3 different tools first (identical output
+  across tools rules out a rendering bug and points to the source PDF itself); if the artifact
+  region turns out to be entirely outside the actual leaf (checkable by comparing against a clean
+  neighboring page's known text/margin extent), the fix is just a manual pre-crop before band
+  generation, not a lost-text situation. `raw.githubusercontent.com` (used here to re-fetch
+  `arabest.traineddata` for an unrelated retrain attempt) and other GitHub-hosted raw-content hosts
+  are reachable through this environment's network policy even though most external hosts are not
+  — worth knowing if a future run wants to verify a suspect local PDF chunk against a fresh copy,
+  though archive.org itself was NOT reachable when tried (403 from the outbound proxy), so a
+  genuinely corrupted *source* chunk (unlike this run's exterior-only defect) cannot currently be
+  re-verified against the original archive.org scan from within this environment.
+
+- **`apply_verdicts.py`'s two known verdict-application gaps both recurred this run (2026-09-25,
+  pp. 111-118): the silently-dropped word-insertion verdict (empty `pass1` text) and, new to this
+  run, a matched pair of one insertion + one deletion verdict on the same disputed hemistich-break
+  mark that between them left a bare double space.** Five insertion verdicts had empty `pass1`
+  text this run (p112 "ما", p114 "بنه"/"ش"/the "*" hemistich mark, p118 "ابلق") and all five were
+  silently skipped by `apply_verdicts.py` exactly as the pp.103-110 run's QUESTIONS entry
+  describes; caught by the same by-hand audit that entry recommends (grep `verdicts.json` for
+  falsy `pass1` with a non-empty `verdict`) and inserted by hand into the assembled archive after
+  `apply_verdicts.py` ran, not before (the tool has no insert-into-already-applied-text path, so
+  this was a direct string edit against the output archive). The hemistich-mark case (P94L14) was
+  a genuine word-reorder in miniature: the adjudicator moved the `*` divider from between
+  "وحكمت"/"فينا" to between "بالفراق"/"وحكمت", expressed as a deletion verdict (`pass1: '*',
+  verdict: ''`) plus an insertion verdict (`pass1: '', verdict: '*'`) at the same line — the
+  deletion applied via the tool's ordinary substring-replace and left a double space where the `*`
+  had been, and the insertion was silently dropped per the bug above, so the line needed both a
+  double-space collapse and a hand-inserted `*` at the correct position. **Future runs:** after
+  `apply_verdicts.py` runs, in addition to the existing empty-`pass1` grep, also grep the finished
+  archive for `'  '` (double space) as a general symptom of *either* known bug (a dropped insertion
+  or an applied deletion) rather than assuming a double space always means the reorder case
+  specifically — this run's single double-space hit only revealed the deletion half of a paired
+  insert/delete; a batch with double spaces but no matching low/medium-confidence hemistich note
+  nearby would need the same manual detective work the pp.87-94 run's word-reorder case describes.
+
+- **A detached prefixed-و that both independent passes agreed on again recurred, entirely within
+  page 114's later companion page 118 / printed p. 98 (run 2026-09-25, pp. 111-118).** As in the
+  pp.87-94 and later runs, `diff_passes.py` cannot flag a detached-waw slip both passes made
+  identically, since it only reports *disagreements*. This run's proactive full-archive `\bو \S`
+  sweep (now standard per the pp.95-102 run's process note) found 18 such lines, all but one on
+  PDF p.118/printed p.98 alone (the page with the shape-shifting sorcery duel) — swept and
+  reattached after gating, per precedent. Consistent with the standing observation that this is a
+  systematic habit of the drafting/correction agents rather than a one-off, and worth the same
+  periodic regex sweep on every future batch regardless of dispute count.

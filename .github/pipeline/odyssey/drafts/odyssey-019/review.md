@@ -152,3 +152,102 @@ cross-reference slips or notes over-claiming knowledge of the rest of the poem. 
 house-epithet compliance elsewhere, and new-renderings choices all held up under direct checking
 against the Greek and against conventions.md. No `t` field needed to change; no unit boundaries
 needed to move.
+
+## Review pass 2 (glossary)
+
+Checked `gloss.json` (169 top-level novel-form entries + 24 `__broaden__` entries) against every
+occurrence of the form in `units.json`, against `novel-forms.json`/`known-forms.json` for coverage
+and for the old-entry-preserved-verbatim rule, and against `conventions.md`'s glossary-entry and
+formatting rules. Coverage, key spelling, apostrophe/backtick usage, the `lemma — meaning; parse`
+shape, and the 230-character cap (checked against `build_odyssey.py`'s actual gate, which applies
+that cap only to top-level `add` entries, not to `__broaden__`) were all verified programmatically:
+no missing or extra top-level keys, no top-level redefinition of an already-known form, every
+`__broaden__` key present in `known-forms.json` with its old entry preserved character for character
+before ` · `, no formatting violations anywhere.
+
+### Changes made
+
+1. **κεκράανται · high · wrong person/number.** Entry read "perf. pass. 3 sg." for
+   χρυσῷ δ’ ἐπὶ χείλεα κεκράανται (615). The ending -νται (here epic-lengthened, κεκράανται =
+   κέκρανται) is the 3rd-plural perfect middle/passive ending, not 3rd singular — and this very
+   glossary already gets this right one entry over, for κεκλίαται ("perf. pass.-in-form 3 pl.,
+   Ionic -αται = Attic κέκλινται"), an exactly parallel formation. χείλεα (neut. pl., "the rims") is
+   the subject the plural verb agrees with; Murray's own 1919 rendering ("the rims thereof are
+   finished [with gold]") confirms the rims, not the bowl, are the grammatical subject. Fixed to
+   "perf. pass. 3 pl., epic diectasis (= κέκρανται): ’are finished, wrought’ (of metalwork, agreeing
+   with neut. pl. χείλεα)".
+
+2. **`__broaden__`/χείλεα · high · wrong case, and unnecessary.** The broadened entry added "also
+   neut. acc. pl. ... object of ἐπί (+ acc.): ἐπὶ χείλεα ’upon its rims’" — but per the κεκράανται fix
+   above, χείλεα here is the nominative-plural *subject* of the passive verb, not an accusative
+   object of ἐπί (which functions as a bare adverb in this line, not a preposition governing χείλεα).
+   The existing, unmodified entry for χείλεα already reads "neut. nom. pl., epic uncontracted" — i.e.
+   it already covers this exact case/number with no change needed. Removed the erroneous broadening
+   entirely rather than rewrite it, since the old entry alone is correct and sufficient; broadening
+   with a wrong case would have put an error into the permanent glossary.
+
+3. **λωτὸς · minor · note oversteps the part (same defect pass 1 fixed in the unit's own note).** The
+   entry said "not the exotic plant elsewhere in Homer," asserting something about other parts of the
+   poem this draft cannot show — the identical problem pass 1 already corrected in this unit's `n`
+   field (review.md change #11 above), and the same caution `new-renderings.md` states explicitly for
+   this exact word. The glossary entry still had the overreach. Reworded to "here read as a kind of
+   clover or trefoil grazed by horses, the ordinary sense in a pastoral list," dropping the
+   elsewhere-in-the-poem claim, matching the corrected unit note.
+
+4. **εὐρύχορον · minor · illustrative example cites a form that isn't in the text.** The entry's
+   parenthetical was "(Ἦλιν εὐρύχορον ’spacious Elis’)" — but Ἦλιν (accusative -ιν) cannot elide (it
+   ends in a consonant), while the actual line has "Ἤλιδ’ ἐς εὐρύχορον" (634), an elided vowel-final
+   accusative Ἤλιδα. The two are different accusative formations of Ἦλις; only Ἤλιδα appears in this
+   part, and only Ἤλιδα is capable of producing the elision printed here. Fixed the parenthetical to
+   "(Ἤλιδ’ ἐς εὐρύχορον ’to spacious Elis’)" so the illustration matches a form that can actually occur
+   as written.
+
+### Findings considered and rejected
+
+- **`__broaden__`/ξανθὸς: extending an epithet to a new referent, with no new case/mood/tense.** The
+  old entry's own text commits to "standing epithet of Menelaus" specifically; used of Rhadamanthus
+  (561/564) it is the same grammar and the same sense but a genuinely different referent than what the
+  old entry states, so broadening (rather than a silent, undocumented stretch of a referent-specific
+  entry) is the right call, not a redundant restatement. No change.
+
+- **`__broaden__`/ἱπποβότοιο: same case/number as the old entry, different implied gender/noun and a
+  different syntactic role (genitive of comparison vs. the old entry's plain descriptive genitive).**
+  ἱππόβοτος is a 2-termination adjective, so the form itself cannot mark masc/fem/neut differently —
+  but the syntactic function here (governed by ἐπήρατος in a comparison, 606) is not what the old,
+  unqualified "neut. gen. sg." entry describes, and matches the unit's own note ("ἐπήρατος ... takes
+  the genitive of comparison"). Kept as a legitimate broadening. No change.
+
+- **`__broaden__`/ἔργον: same case (nom. sg.) as one sense already in the old entry.** The old entry's
+  nom. sg. sense is specifically "subject of an impersonal verb"; the new sense (615) is a bare
+  appositive naming tag with no verb at all ("ἔργον δ’ Ἡφαίστοιο," elliptical for "[it is] the work of
+  Hephaestus") — a different syntactic environment, not a restatement. No change.
+
+- **Known form ὃ (613, δώσω ὃ κάλλιστον): existing entry's illustrative gloss says "referring to a
+  person," but here ὃ refers to a gift (a thing).** The entry's core information — lemma ὅς/ἥ/ὅ,
+  meaning "who, which," neut. nom./acc. sg. — does cover a neuter relative referring to a thing; the
+  "referring to a person" aside is an example, not an exhaustive restriction, and Homer regularly uses
+  the same form both ways. Not narrow enough to require a broadened entry. No change.
+
+- **Length of `__broaden__` entries.** Nine broadened entries exceed 230 characters (up to 383).
+  Checked `build_odyssey.py` directly: the `len(e)>230` gate in the "bad glossary entry shape" check
+  applies only to `add.items()` (the top-level, new-form entries), never to `broaden.items()`, which
+  is checked only for containing the old entry verbatim. All top-level entries are comfortably under
+  230 characters. Not a build-blocking issue and not a convention violation; no change.
+
+- **All other entries and broadenings**, checked individually against every line where the form
+  occurs: lemma, case/number/gender, tense/mood/voice/person, and stated meaning all held up,
+  including the trickier ones (δήομεν's short-vowel-subjunctive-as-future, κτεῖνεν's aorist-with-
+  future-force — both already vetted this way in pass 1 — κιχήσεαι, ὑποφθάμενος, the τι/τάφου/φαίδιμος/
+  ὀνόμαζε/ὅθ homograph broadenings, and the case-and-gender-sensitive ᾧ/κρῖ/κῆρ/δάκρυ/μῆλα/αὐτῆς/κεν/
+  κεῖται broadenings). No further changes.
+
+### Overall verdict
+
+Two real errors (κεκράανται's person/number, and the resulting wrong-case χείλεα broadening it had
+motivated) have been fixed, plus two minor overreach/citation issues (λωτὸς, εὐρύχορον). All are now
+corrected in `gloss.json`; nothing else in the file needs to change. Coverage between
+`novel-forms.json`, `known-forms.json`, and `gloss.json` is exact, every `__broaden__` entry keeps its
+old text verbatim, and all formatting rules (lowercase keys, typographic ’, entry shape, the 230-char
+cap where it actually applies) check out. Combined with pass 1's clean verdict on `units.json`, this
+part is ready to build: run `python3 build_odyssey.py odyssey-019` then
+`python3 validate_odyssey.py odyssey-019`.

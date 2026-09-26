@@ -70,6 +70,7 @@ repository is the state, never this table. Run it rather than trusting what is w
 | Night 11 | P73L19–P79L11 | published 2026-09-24, 104 sense units (13 verse in 4 blocks); 469 new glossary entries |
 | Night 12 | P79L12–P86L01 | published 2026-09-24, 147 sense units (6 verse blocks, 10 verse lines); 604 new glossary entries |
 | Night 13 | P86L02–P98L02 | published 2026-09-25, 241 sense units (11 verse blocks); 984 new glossary entries |
+| Night 14 | P98L03–P105L02 | published 2026-09-26, 90 sense units (1 verse block, 8 lines); 610 new glossary entries |
 
 A night runs 84–224 archived lines (about 5½ printed pages), so eight transcribed pages yield
 roughly one and a half nights. Eight units are waiting as of 2026-09-18, so the next several

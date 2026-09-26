@@ -179,3 +179,81 @@ fully validate), so I did not fix odyssey-014.json. I wrote it up as a new entry
 `QUESTIONS.md` ("odyssey-014's last unit still lacks its closing ", even though odyssey-015
 confirms the speech ends there..."), following the file's existing format, with the exact fix
 odyssey-014.json would need spelled out for whoever picks it up.
+
+## Review pass 2 — gloss.json
+
+The glosser has now run. This pass reads `gloss.json`'s 213 novel-form entries and 18
+`__broaden__` entries against `units.json` (ground truth for use-in-context),
+`known-forms.json` (ground truth for the pre-broadening text), and `odyssey-glossary.json`
+(ground truth for coverage). Checked, in order: mechanical format on every entry (by script);
+every `__broaden__` value contains its `known-forms.json` original verbatim (by script); full
+coverage of every word-form token in `units.json` against `odyssey-glossary.json` ∪ gloss.json's
+novel keys (by script, exhaustive — all 503 distinct tokens in the part, not a sample); every
+augment/no-augment claim in the novel entries, checked against which forms they are attached to
+and against the actual spelling; all 11 novel keys that recur more than once in the part,
+checked at every occurrence for parse consistency; all 18 `__broaden__` entries, checked line by
+line against their new sense's actual case/number use; and a further hand-checked sample of
+about 27 additional single-occurrence novel entries spread across nominal cases, participles,
+subjunctives and rare compounds.
+
+**One fix made:**
+
+1. **`συνήντετο` · wrong augment claim · fixed.** The entry read "impf. 3 sg. mid.,
+   unaugmented, + dat.: 'she met (me)'". The word (ln 367, ἥ μ’ οἴῳ ἔρροντι συνήντετο νόσφιν
+   ἑταίρων) is a compound of σύν + a verb with an α-initial stem (ἀντάω/ἀντέω); the surface
+   form carries η where an unaugmented form would keep α (συν-αντ-ετο). η in that position is
+   exactly the mark of augmentation (ε + α > η), the identical pattern this same gloss file
+   correctly applies elsewhere to distinguish augmented from unaugmented forms of an
+   α-initial verb: compare its own entries for `ἄγον` ("unaugmented (= ἦγον)") and `ἀμείβετο`
+   ("unaugmented" — this part's own bare-α form, as against the well-known augmented ἠμείβετο of
+   the reply-formula fixed in `conventions.md`). Since `συνήντετο` shows the η, not the α, it is
+   the augmented form, and the entry had it backwards. Fixed to: "impf. 3 sg. mid., augmented
+   (ε+α > η), + dat.: 'she met (me)'". (Tense — impf. vs. an old thematic aorist middle reading,
+   which some Homeric grammars also allow for this exact form — was left as given; ancient and
+   modern treatments disagree on it, and nothing here can settle it, but the augment/no-augment
+   claim is independently checkable from the spelling and was simply wrong.)
+
+**Checked and found correct (no changes):**
+
+- **Coverage, exhaustively.** Every one of the 503 distinct word-forms appearing anywhere in
+  `units.json`'s `t` fields is covered by either `odyssey-glossary.json` (4,559 entries) or
+  gloss.json's 213 novel keys. Zero gaps. (This was run as a full pass, not a spot sample, since
+  it is mechanical; the ~15–20-word sample the runbook asks for is folded into this exhaustive
+  check — it includes tiny particles like `γ`, `κ`, `ῥ`, `θ`, multi-syllable compounds like
+  `κρατερόφρονος`, `φαινομένηφιν`, `ὠκύμοροί`, proper names, and every form on both ends of the
+  part.)
+- **All 18 `__broaden__` entries.** Every one's old text is preserved verbatim (script-checked)
+  and every new reading genuinely reflects a distinct case/number/sense actually attested in this
+  part's usage, not hedging: e.g. `τρεῖς` (pre-existing entry only nom.; this part uses it twice,
+  both times acc., agreeing with ἑταίρους — new acc. reading added, correctly); `κακόν`/`ἀγαθόν`
+  (pre-existing entries acc.; here both are nom., subjects of the impersonal passive τέτυκται —
+  new nom. reading added, correctly); `ἤια` (pre-existing entry only the noun, acc. pl.; this
+  part uses it once as the noun's nom. pl. subject of κατέφθιτο, and once, at a different line,
+  as an unrelated verb form, impf. 1 sg. of εἶμι — both new readings added, correctly, and kept
+  apart from each other); `ἰχθυόεντα` (pre-existing entry only the neut. pl. reading with
+  κέλευθα; every occurrence in this part instead agrees with the masc. acc. sg. πόντον — new
+  reading added, correctly); `οἷσι` (pre-existing entry only the possessive; this part's use
+  agrees with πεποίθεα + dat. as the plain relative, "in whom" — new reading added, correctly).
+  No broadened entry was found to be unneeded padding or a false homograph.
+- **Every augment/no-augment claim in the 213 novel entries** (12 of them, one now fixed) is on
+  an indicative verb form — none is pinned to a participle, infinitive or adjective, so the
+  mistake pass 1 caught once in `units.json` (calling νεηγενέας/γαλαθηνούς "unaugmented", when
+  they are adjectives) is not repeated anywhere in `gloss.json`.
+- **All 11 novel keys occurring more than once in the part** (`γέροντος`, `γίγνονται`,
+  `κατευνηθέντα`, `μεμαῶτα`, `νημερτὴς`, `προσέειπον`, `ἀμείβετο`, `ἅλιος`, `ἐλεύσεαι`,
+  `ἐφάμην`, `ἴδησθε`) — the parse given holds at every one of their occurrences, not just the
+  first found.
+- **All "= Attic ..." equivalence claims** (22 of them) in the novel entries — each checked
+  against the standard epic/Attic correspondences (`-οισι(ν)` = `-οις`, `-οιο` = `-ου`, uncontracted
+  `-εαι` = contracted `-ῃ`, `-έμεν(αι)` = `-εῖν`, etc.) and found accurate.
+- **Homographs**: no novel-form entry contains a ` · `-joined double reading (that device is used
+  only inside `__broaden__` in this file), so there was nothing among the 213 to test for
+  hedging; the 18 `__broaden__` homographs are covered above.
+- A hand-checked sample of ~27 further single-occurrence entries spanning nominal case
+  agreement (`ἀθανάτους`, `ἀνάλκιδες`, `πάσας`, `ἁθρόαι`, `ὑποδμώς`, `φιλομηλεΐδῃ`, `οἴῳ`, …),
+  participles of every voice (`ἐξαναδῦσαι`, `ἀποπνείουσαι`, `προϊδὼν`, `στᾶσα`, `λοχησάμενος`,
+  `ἀγαγοῦσα`, `κοιμήσασα`, `ἐσσύμενόν`), and other verb moods/tenses (`μεμνῆσθαι`, `πεποίθεα`,
+  `κατερύκομαι`, `πεδάᾳ`, `πεμπάσσεται`, `φαινομένηφιν`, `χαλέπτει`, `ἐπάλαισεν`) — all matched
+  their line's actual case relations.
+
+`gloss.json` is ready to build after this one fix.

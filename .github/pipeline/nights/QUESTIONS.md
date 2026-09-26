@@ -773,3 +773,19 @@ Open decisions the rules do not settle. A run writes the question and what it de
   artifact — but the pipeline has no way to distinguish those without consulting another source,
   which the rules forbid for wording. Left as printed in nights-13.json's sentence 1 note; not
   escalated further since nothing here blocks publication and the owner does not read code.
+
+- **A non-dictionary word kept as printed, P99L01 and P99L05 (transcribing pp. 119-126,
+  2026-09-26): "تلارت" where "تدارت" ("[a grain] scattered/rolled about") would be the
+  sense-fitting word.** Context: "ذلك الحب حتى لم يترك ولا حبة فبالامر المقدر تلارت حبة في ..."
+  (the rooster picks up every grain of pomegranate seed the ifrit's fire scattered, but by fate
+  one grain rolls/scatters out of reach — the grain Sitt al-Husn later becomes to fight the ifrit's
+  fish-form). Both independent transcription passes and the adjudicator read the second letter as
+  an unambiguous tall-stroke lam, not the low dal-hook seen elsewhere on the same page (e.g. in
+  الدخان) — a genuine letterform difference confirmed by zoom on both instances, not just a
+  low-confidence guess. "تلارت" is not a standard root; left as printed rather than "corrected" to
+  "تدارت", per the no-repair rule — this is very likely a compositor's slip in the original 1839
+  print (a single dal/lam mistake repeated because the compositor set both occurrences from the
+  same mental read, or copied one from the other), since both occurrences on the page share the
+  identical error. Worth a look if anyone ever has access to another edition of this passage, but
+  not escalated further since the reading is unambiguous from the scan itself and nothing here
+  blocks the archive gate.

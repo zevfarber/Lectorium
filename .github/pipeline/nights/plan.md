@@ -29,17 +29,17 @@ scan anomaly turns up later in the volume.
 | done (2026-09-19, unattended) | 95–102 | 75–82 | `archive/pp075-082.json` | Tale of the First Qalandar continues: meeting the second and third qalandars, the mutilation, the caliph's tribute-party ambushed |
 | done (2026-09-19/20, unattended) | 103–110 | 83–90 | `archive/pp083-090.json` | Tale of the Second Qalandar continues (the woodcutter, the captive lady, the ifrit); frame closes and "قصة المحسود والحاسد" (The Envied and the Envier) opens at the very end |
 | done (2026-09-25, unattended) | 111–118 | 91–98 | `archive/pp091-098.json` | The Envied and the Envier concludes (the envier's dust-spell turns the envied into an ape; the envier is spared and rewarded regardless); the ape ships out, is caught writing, and a florilegium of five pen-style verse couplets (Ruqʿa, Rayhani, Thuluth, Naskh, Tumar) is presented to a king on printed p. 94 (PDF page 114 only — see QUESTIONS.md for a scan-corruption artifact on that page's exterior, confirmed not to affect the printed text); the ape (really the ensorcelled prince Antimarus's son) is fêted, beats the king at chess, and is unmasked by the princess Sitt al-Husn, who battles the jinni Jirjis in a shape-shifting duel (lion/serpent, eagle/scorpion, black cat/wolf, worm-eaten pomegranate/rooster) that is still underway as the batch ends |
+| done (2026-09-26, unattended) | 119–126 | 99–106 | `archive/pp099-106.json` | The shape-shifting duel between Sitt al-Husn and the jinni Jirjis ends with both burned to ash by a stray fire-grain; the second qalandar (freed from the ape-spell too late) tells the rest of his own tale — the pardoned lover's ifrit-brother burning half his face, the Qalandar fleeing and shaving his own beard — then the frame closes and the third qalandar opens his tale: his father's death, the fated princess in the mountain vault, the bronze horseman talisman he strikes early, the sea-voyage, the magnetic mountain that wrecks his ship, and (per a dream-messenger's instructions) the underground vault, the bow of brass, and the ten days adrift on the enchanted skiff that ends the batch |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 118 (archive ends at printed p. 98). Pages remaining: ~820 PDF pages
-(approximate, pending the corrected offset holding). Lines archived: 2096. calc.traineddata last
-successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-25 retrain attempt,
-from 46 new verified line pairs added this run (pp. 91, 93 only — the two pages of this batch with
-clean, unmerged 1:1 line detection; pp. 92, 94-98 excluded for merged/dropped crops or verse),
-regressed on the two held-out pages (combined CER 7.3%→8.2%) and was discarded, see LOG). The 46
-new verified line pairs are committed in `tools/lines/` for the next attempt. Next retrain attempt
-due when lines archived pass 2200.
+**Last PDF page done: 126 (archive ends at printed p. 106). Pages remaining: ~812 PDF pages
+(approximate, pending the corrected offset holding). Lines archived: 2279. calc.traineddata last
+successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 retrain attempt,
+from 161 new verified line pairs added this run (pp. 119-121, 123-126; p. 122 excluded, its verse
+block's crop merges three printed lines into one), regressed on the two held-out pages (combined
+CER 8.64%→10.40%) and was discarded, see LOG). The 161 new verified line pairs are committed in
+`tools/lines/` for the next attempt. Next retrain attempt due when lines archived pass 2400.
 
 ## Phase 2 — the reading edition (live since 2026-09-18, same routine)
 

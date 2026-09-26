@@ -257,3 +257,25 @@ subjunctives and rare compounds.
   their line's actual case relations.
 
 `gloss.json` is ready to build after this one fix.
+
+## Build-time fix (outside the drafter/reviewer roles)
+
+The first `build_odyssey.py` run built clean, but `validate_odyssey.py` then failed rule 6 (a
+repeated line must repeat its earlier published English byte for byte): units at 4.383 and 4.399
+carry the fixed formula "τοιγὰρ ἐγώ τοι, ξεῖνε, μάλ’ ἀτρεκέως ἀγορεύσω" already published at 3.214
+(odyssey-003, spoken there by Telemachus at the top level, with a double “ … ” mark) — but here the
+same line is spoken by Eidothea, nested inside Menelaus's own still-open frame speech, so the draft
+had (reasonably) given it a single ‘ mark instead, to match its real nesting depth. The validator
+does not know about nesting and requires an exact string match, so it failed both units.
+
+Resolved the same way odyssey-014's log records for a comparable terminal-punctuation/quote-mark
+mismatch: kept the shipped wording byte for byte, including its double quotation mark, at both
+383 and 399, and added a sentence to each unit's note explaining that the mark is reused as
+published even though the speech is itself nested. To avoid a visibly mismatched “…’ pair, the
+closing mark of Eidothea's first speech (391, which is original text, not itself a repeated line)
+was changed from single ’ to double ” to pair correctly with 383's forced “; a note was added there
+too, cross-referencing 383. Eidothea's third speech (opened at 399) is left open past the part's
+end like Menelaus's own frame, so it needs no closing mark here. Rebuilt (after reverting the
+glossary/manifest files the first build had already written) and validated clean: PASS, with the
+expected WARN (3 opening vs. 1 closing “ ” marks in both layers — Menelaus's frame and Eidothea's
+third speech both genuinely run past this part's end).

@@ -233,3 +233,15 @@ risks side effects this run cannot fully validate — so it is flagged here for 
 fixed, the change belongs on odyssey-014.json's last unit (ln 110): add a closing " to the end of both
 `l` and `i`, and add a sentence to its note recording that the mark was added later, once odyssey-015
 confirmed the speech's end — the same repair just made to odyssey-016.json this run.
+
+## τ (elided τε) broadening blocked by the glossary's 230-character cap (odyssey-017, 2026-09-26)
+odyssey-017 uses τ at 397 (ἀργαλέος γάρ τ’ ἐστὶ θεὸς βροτῷ ἀνδρὶ δαμῆναι) as the "epic τε" marking a
+general truth in a gnomic statement outside a relative clause — a sense the shipped entry does not
+state. The shipped entry is already 226 characters (it covers plain connective τε, epic τε marking a
+standing fact, an ἐπεὶ-τοι reading, and an expressive τε in questions), leaving no room to add even the
+shortest compliant broadening without exceeding the 230-character cap. Same recurring tension as τῷ
+(odyssey-003), περὶ/τί (odyssey-007), κακὸν/ὃ (odyssey-011), κακόν/Τηλεμάχοιο (odyssey-012) and
+περικαλλέα (odyssey-013) above. Decided meanwhile: left the shipped entry unbroadened; this part's own
+unit at 397 states the gnomic-τε sense correctly in its own note, so no reader is misled, only unaided
+by the glossary entry itself. An owner decision on raising the cap, or relaxing the additions-only rule
+for the glossary's most heavily-used forms, would close this whole recurring class of question at once.

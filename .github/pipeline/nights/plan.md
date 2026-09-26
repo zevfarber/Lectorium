@@ -30,16 +30,19 @@ scan anomaly turns up later in the volume.
 | done (2026-09-19/20, unattended) | 103–110 | 83–90 | `archive/pp083-090.json` | Tale of the Second Qalandar continues (the woodcutter, the captive lady, the ifrit); frame closes and "قصة المحسود والحاسد" (The Envied and the Envier) opens at the very end |
 | done (2026-09-25, unattended) | 111–118 | 91–98 | `archive/pp091-098.json` | The Envied and the Envier concludes (the envier's dust-spell turns the envied into an ape; the envier is spared and rewarded regardless); the ape ships out, is caught writing, and a florilegium of five pen-style verse couplets (Ruqʿa, Rayhani, Thuluth, Naskh, Tumar) is presented to a king on printed p. 94 (PDF page 114 only — see QUESTIONS.md for a scan-corruption artifact on that page's exterior, confirmed not to affect the printed text); the ape (really the ensorcelled prince Antimarus's son) is fêted, beats the king at chess, and is unmasked by the princess Sitt al-Husn, who battles the jinni Jirjis in a shape-shifting duel (lion/serpent, eagle/scorpion, black cat/wolf, worm-eaten pomegranate/rooster) that is still underway as the batch ends |
 | done (2026-09-26, unattended) | 119–126 | 99–106 | `archive/pp099-106.json` | The shape-shifting duel between Sitt al-Husn and the jinni Jirjis ends with both burned to ash by a stray fire-grain; the second qalandar (freed from the ape-spell too late) tells the rest of his own tale — the pardoned lover's ifrit-brother burning half his face, the Qalandar fleeing and shaving his own beard — then the frame closes and the third qalandar opens his tale: his father's death, the fated princess in the mountain vault, the bronze horseman talisman he strikes early, the sea-voyage, the magnetic mountain that wrecks his ship, and (per a dream-messenger's instructions) the underground vault, the bow of brass, and the ten days adrift on the enchanted skiff that ends the batch |
+| done (2026-09-26, unattended) | 127–134 | 107–114 | `archive/pp107-114.json` | The Third Qalandar's tale opens: grieving slaves burying a boy alive on his father's death (feared the shock would kill him), the shroud-wrapped return home, the old man's collapse, and (as the batch ends) his sea-voyage and shipwreck at another magnetic-mountain-like hazard, taking refuge in a strange palace |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 126 (archive ends at printed p. 106). Pages remaining: ~812 PDF pages
-(approximate, pending the corrected offset holding). Lines archived: 2279. calc.traineddata last
-successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 retrain attempt,
-from 161 new verified line pairs added this run (pp. 119-121, 123-126; p. 122 excluded, its verse
-block's crop merges three printed lines into one), regressed on the two held-out pages (combined
-CER 8.64%→10.40%) and was discarded, see LOG). The 161 new verified line pairs are committed in
-`tools/lines/` for the next attempt. Next retrain attempt due when lines archived pass 2400.
+**Last PDF page done: 134 (archive ends at printed p. 114). Pages remaining: ~804 PDF pages
+(approximate, pending the corrected offset holding). Lines archived: 2455. calc.traineddata last
+successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
+attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt this run, from 140 new
+verified line pairs (pp. 127-131, 133-134 prose only, verse/heading excluded; p. 132 excluded, its
+dropped-and-recovered line breaks the 1:1 crop-to-line mapping), also came out slightly worse on the
+same two held-out pages (combined CER 8.64%→8.72%) and was discarded, see LOG). The 140 new verified
+line pairs are committed in `tools/lines/` for the next attempt (301 new pairs now waiting across the
+last two discarded attempts). Next retrain attempt due when lines archived pass 2600.
 
 ## Phase 2 — the reading edition (live since 2026-09-18, same routine)
 

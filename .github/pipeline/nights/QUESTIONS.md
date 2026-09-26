@@ -808,3 +808,58 @@ Open decisions the rules do not settle. A run writes the question and what it de
   the key unresolved, extended it in place to name both senses and let context decide — the first
   genuine homograph collision hit in this glossary. Worth a look if the reader's glossary lookup
   ever needs to disambiguate homographs more visibly than one entry that just lists both meanings.
+
+- **A second confirmed لام/دال compositor substitution page, P111 (PDF 131, run 2026-09-26 pp.
+  127-134) — and an adjudicator error caught before finalizing.** Five words on this one page
+  (P111L02 twice, L08, L12, L17) were disputed between a pass reading the classically-expected دال
+  (بعد، العبيد، وقد) and a pass reading a literal لام (بعل، العبيل، وقل), the same failure mode
+  first documented at PDF p109/printed p.89 (run 2026-09-19/20, see above) where the adjudicator
+  found the "uniform لام" claim did NOT hold up under direct zoom. This time the adjudicator went
+  the other way — sided with the classically-expected دال at all five spots as "required by sense"
+  — without re-zooming the crops itself. Direct pixel-level inspection (this run, before finalizing)
+  of all five spots found the same tall-ascender لام shape at every one, unambiguous and consistent
+  with the confirmed لام reference shape elsewhere on the same page (e.g. "ولده") — the print
+  genuinely reads بعل، العبيل، وقل throughout this page, not a mix. The five verdicts were
+  overridden back to the literal لام reading directly in the applied archive (P111L02, L08, L12,
+  L17) per the no-repair rule; pass 2's original transcription, not the adjudicator's, was correct
+  here. **Standing note for future runs, updated:** this لام-for-دال substitution is a real,
+  recurring feature of specific pages in this edition (at least PDF pp. 109 and 131 so far) but is
+  NOT safe to assume uniform even within one page (p109's case) or to resolve by "which reading
+  makes sense" (p131's case) — the only reliable method found so far is direct zoom against a
+  confirmed لام/دال letterform pair on the same page.
+
+- **Unpointed verse on PDF pp. 131-133 (printed pp. 111-113, run 2026-09-26 pp. 127-134).** Every
+  verse block on these three consecutive pages was independently transcribed bare (no tashkil) by
+  both correction passes and confirmed by the adjudicator at direct zoom — genuinely printed
+  without vowel marks, unlike every other verse block archived so far in this edition (which the
+  edition otherwise points consistently, per conventions.md). Hamza, madda and shadda (consonantal
+  marks, not vowel pointing) are still present where printed on these same lines. One drafting
+  agent on PDF p131 initially filled in a full "best-effort classical" vocalization instead of
+  reading the page (a real rule violation, caught and the page fully re-transcribed before
+  adjudication — see the LOG line for this run). Decided meanwhile: archived as genuinely bare,
+  matching what two independent re-checks plus the adjudicator agree is printed. Worth the owner's
+  eye, and worth checking whether this bare stretch continues past printed p.114 or is a
+  localized feature of this one gathering.
+
+- **Rough page join, printed p.107→p.108 (PDF 127→128, run 2026-09-26 pp. 127-134).** p.107 ends
+  "...وهو وحده فلما رآني اصفر" ("...and he was alone; then when he saw me, [he] turned pale") and
+  p.108 opens with a word both passes read differently (pass1 "اونه", pass2 "انه") before "فسلمت
+  عليه" ("so I greeted him"). Neither reading bridges cleanly with "اصفر" (turned pale), which
+  wants a following noun (e.g. "لونه", "his colour/complexion" — "اصفر لونه" = "his colour turned
+  pale" is the ordinary idiom, and would make the whole join read cleanly into "فسلمت عليه"
+  immediately after). Direct zoom on the crop (this run) was inconclusive: the disputed word's
+  first letter shows a tall vertical stroke that could be أ/ا (supporting "انه"/"اونه" as
+  transcribed) or the ascender of a connecting لام (supporting "لونه"), and the crop is faint at
+  exactly that spot. Decided meanwhile: left the adjudicator's medium-confidence "اونه" as applied
+  (P108L01) rather than substitute a guessed "لونه" neither pass actually read off the page — per
+  the freeze-and-ask rule, recording the join concern here instead of silently emending. Worth a
+  fresh look at the original high-resolution scan (not just this run's crop) if the reading matters
+  later, e.g. for the reading-edition pass over this stretch.
+
+- **Second retrain attempt this run, discarded (run 2026-09-26 pp. 127-134).** See plan.md and
+  LOG for the numbers. Two consecutive retrain attempts (this run's and the prior pp.119-126 run's)
+  have now both regressed on the same two held-out pages; 301 verified line pairs from both
+  attempts are committed in `tools/lines/` waiting for the next try. Nothing to decide here yet,
+  but if a third consecutive attempt also regresses, worth reconsidering the retrain recipe itself
+  (iteration count, learning rate, or the held-out pages) rather than continuing to accumulate
+  discarded attempts unchanged.

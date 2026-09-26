@@ -98,3 +98,137 @@ odyssey-003.json (already-shipped repeated lines). `t` was never touched; all fi
 Given the size of the draft, the glossary file (`gloss.json`) was not produced yet at review time and
 so was not cross-checked here (the runbook has the reviewer's second pass read `gloss.json` once the
 glosser has run). Scansion is listed as "none" flagged in the packet; no hand-scansion was needed.
+
+## Glossary pass (second review pass, reads `gloss.json`)
+
+**Coverage: exhaustive.** Every one of the 201 forms in `novel-forms.json` has exactly one entry in
+`gloss.json` (no missing, no extra/unused keys) — checked by exact set comparison. All 18
+`__broaden__` keys are themselves present in `known-forms.json`, so none is an accidental duplicate of
+a form that should have been novel. Every novel key was also confirmed to actually occur, at least
+once, in this part's `units.json` text (tokenised match, elision-stripped), and no novel key was
+found with zero occurrences.
+
+### Fix made
+
+| Form | What was wrong | What was done |
+|---|---|---|
+| `παρῆσθα` (497) | The entry read "impf. 2 sg., epic ending -σθα", claiming -σθα is a distinctively epic verb ending. This is false: ἦσθα (2 sg. impf. of εἰμί, which παρῆσθα is built on) is the ordinary form in Attic too, not epic-only — the genuinely epic-only phenomenon is the different ending -ῃσθα that extends a subjunctive -ῃς (as in ἐθέλῃσθα, cited in this same part's own unit note at 4.497). This is the identical error the first review pass already caught and corrected in `units.json`'s note for this same word/line — the glosser reintroduced it independently in `gloss.json`. | Rewrote the entry to: "πάρειμι (πάρα + εἰμί) — be present, be there; impf. 2 sg. (ἦσθα, ordinary also in Attic, not a distinctively epic ending — contrast the genuinely epic subjunctive ending -ῃσθα, as in ἐθέλῃσθα): ’you were present’" (212 chars, typographic ’ only). |
+
+### Broadenings (`__broaden__`): all 18 verified
+
+For every one of `αὐτοῦ, βάλεν, εὐρέα, μέγας, μή, μὴ, ὄφρα, ὅν, πολλὰ, πρίν, πᾶσαν, ἀγροῦ, ἀεικέα,
+ἀμφὶ, ἀπείρονα, ἐνιαυτόν, ἰόντες, ὡς`, fetched the currently-published entry from
+`odyssey-glossary.json`'s `glossary` object and confirmed by exact string comparison that the shipped
+old entry is reproduced byte-for-byte, unshortened, as a prefix of the new broadened value (all 18
+pass). For each, also checked the appended new reading against this part's actual line(s):
+
+- All 18 new readings correctly describe a genuinely different use from the one(s) already covered by
+  the old entry (different case, e.g. `εὐρέα` masc. acc. sg. vs. the old entry's neut. acc. pl.;
+  different construction, e.g. `ἀγροῦ` as a plain dependent genitive vs. the old entry's `ἐπ’ ἀγροῦ`
+  idiom; different clause type, e.g. `ὄφρα` + optative in secondary sequence vs. the old entry's
+  subjunctive/indicative uses; a genuinely different sense supplied by context, e.g. `ἰόντες`
+  "departing" vs. the old entry's "coming"), so none is a duplicate of sense the old entry already
+  carried — each broadening was necessary.
+- Spot-checked case/number assignments against the actual line: `πολλὰ` (522) is correctly identified
+  as neut. nom. pl. (subject of the middle `χέοντ(ο)`, "many tears were streaming"), not the old
+  entry's accusative/adverbial use; `ὅν` (524) is correctly identified as the plain relative pronoun
+  ("whom Aegisthus had stationed"), not confused with the possessive ὅς/ἥ/ὅν — exactly the confusion
+  this pipeline is warned to watch for.
+- `πρίν`'s broadening adds only the `τὸ πρίν` "formerly" sense (needed because this part's line 516
+  spells the word with the acute accent `πρίν`, not the grave `πρὶν` that already has its own separate,
+  correct entry with that same sense) — not a duplicate of the already-published `πρίν γ’ ὅτ’ ἄν`
+  example, which this part's line 477 also uses but which the old entry already covered untouched.
+
+### Augment claims: every one re-derived from scratch, none wrong
+
+Checked all 21 "augmented"/"unaugmented" claims in `gloss.json` against the underlying verb's actual
+principal parts, independent of the label given: `γίγνετο, δάμεν, κύνει, λέγε, λίπομεν, μεῖνε, ναῖε,
+πίεν, στρέψαν, τεῖρε, φύλασσε, φῆ, ἀνήγαγε, ἀνίαζ’, ἔκβαλε, ἔκταθεν, ἔκφυγε, ἔμπεσε, ἔναιε, ἔνεικε,
+ὄλεσσε`. All are correct, including the two contrasted forms of the same verb in the same sentence at
+516–517 (`ναῖε` unaugmented / `ἔναιε` augmented, of Thyestes' and then Aegisthus' dwelling there — a
+nice deliberate-looking contrast, correctly labelled both ways) and the compound `ἀνήγαγε` (534),
+correctly labelled augmented (the η is a real lengthening augment of ἄγω's stem, not a spelling
+accident) where every sibling compound aorist in this file (ἔκβαλε, ἔκφυγε, ἔμπεσε) is correctly
+unaugmented. `ἔκταθεν`'s and `ἔνεικε`'s hedges ("its augment status is left undescribed", "whether
+this form has lost an augment is uncertain") assert nothing false and were left alone.
+
+### Lemma correctness
+
+- Genuine homograph: `λέκτο` (450, 453) is correctly split, joined by ` · `, between λέγω "count" and
+  λέχομαι "lie down" — LSJ genuinely files these as different headwords, and the units.json note
+  independently flags the identical-form coincidence as deliberate wordplay, not an error.
+- `παριών` (526, "go past, pass by", from εἶμι) is correctly kept apart from πάρειμι "be present" (the
+  entry for `παρῆσθα`, from εἰμί) even though both compounds are spelled πάρειμι in the dictionary — a
+  genuine two-root homograph, correctly disambiguated.
+- Possessive vs. relative ὅς, ἥ, ὅν: checked every occurrence of a ὅς-family form in this part (ἥ 435,
+  ὅς 468, ἣν 480, ἧς 487, ἣν 519, ὅν 524, οἵ 536) against its actual grammatical function. All are
+  already correctly covered by their existing (pre-broadened) known-forms entries except `ὅν`, which
+  needed and got the broadening above; in particular the two possessive ὅς uses in this part (ἧς 487,
+  "his own ship"; ἣν 519, "his own fatherland") are both correctly matched to the possessive sense of
+  their entries, not the relative one.
+- Defective/compound-verb lemma choices checked against real LSJ practice: `κατέπεφνεν` is correctly
+  filed under the defective simple verb πέφνω (LSJ has no separate headword "καταπέφνω", since πέφνω
+  never occurs as an independent form outside this and similar compounds); `ἔσχετο` (tmesis
+  ὑπὸ...ἔσχετο) is correctly filed under ὑπισχνέομαι, not ἔχω; `ἐξεσάωσε` is correctly filed as its own
+  compound headword ἐκσαόω (= ἐκσῴζω), consistent with how this same file treats other genuine
+  univerbated compounds (ἀνάγω, ἐκβάλλω, ἐπιλανθάνομαι) as their own lemmas, distinct from true tmesis
+  (ἀπὸ...ἔσχισεν, ὑπὸ...ἔσχετο, ἀμφὶ...βάλλομεν), which is correctly filed under the simple verb instead.
+- No genitive in -οιο/-αο/-εω or dative in -ῃσι/-οισι/-εσσι was found mistied to its Attic equivalent;
+  all such entries in this part (αἰγύπτοιο, ποταμοῖο, ἀτρεΐδεω; γυρῇσίν, θεοῖσι, μεγάλῃσι, πέτρῃσιν,
+  στιβαρῇσιν, δολιχηρέτμοισι, ψαμάθοισι, ἵπποισιν, ὄχεσφιν) give the correct Attic correspondent.
+- No diectasis forms occur in this part; none is wrongly claimed.
+
+### Multi-occurrence forms: all consistent across every occurrence
+
+`θεοῖσι` (472, 477), `λέκτο` (450, 453 — the deliberate homograph), `τετληότι` (447, 459), `φωκάων`
+(435, 441), `ἀάσθη` (502/503, 508/509) and `ἔκφυγε` (502, 512) were each checked at every occurrence in
+the part; each entry's case/number/gender/tense/voice is correct for all of its occurrences, not just
+the first.
+
+### Format
+
+No entry (novel or broadened) contains an ASCII apostrophe, a backtick, or a straight double quote —
+checked by scanning every value in the file; all use typographic ’ only. All 201 novel entries are
+comfortably under 230 characters. Six broadened entries (`αὐτοῦ` 261, `εὐρέα` 249, `ὄφρα` 414, `ὅν`
+270, `πρίν` 410, `ὡς` 600 chars) exceed 230 once the old entry is kept whole and the new reading
+appended — see "Considered and refused" below; this is not something this pass could fix without
+violating the never-shorten-the-old-entry rule.
+
+### Considered and refused
+
+- **Six broadened entries over the 230-character limit** (`αὐτοῦ`, `εὐρέα`, `ὄφρα`, `ὅν`, `πρίν`,
+  `ὡς`). The instructions require the old entry to be kept "whole", "unchanged", never shortened, and
+  several of these old entries (esp. `ὡς` and `πρίν`, which had already accumulated multiple `· also`
+  clauses from earlier parts) are themselves already at or near 230 characters before any new reading
+  is appended. A check of the currently published `odyssey-glossary.json` shows this is already a
+  systemic, accepted pattern for heavily-reused function words: 16 published entries already exceed
+  230 characters (`ὡς` itself already stood at 444 chars before this part's addition, `πρίν` at 300,
+  `ὄφρα` at 294). Since shortening the old entry is expressly forbidden and the new material added
+  here is itself minimal and necessary, these six were left as broadened rather than "fixed" by
+  trimming inherited content.
+- **`βάλλομεν` (454, "ἀμφὶ δὲ χεῖρας βάλλομεν") labelled plain "pres. 1 pl." with no tense-ambiguity
+  hedge.** Thematic verbs' unaugmented imperfect 1 pl. is spelled identically to the present
+  (`ἐβάλλομεν` unaugmented → `βάλλομεν`), exactly the ambiguity this same file's `μένομεν` and `ἔχομεν`
+  entries explicitly flag ("the form itself does not distinguish tense"). I considered adding the same
+  hedge here, but the immediately preceding verb in the same clause, `ἰάχοντες`, is an unambiguous
+  present participle, and Homer's vivid "historic present" in a rush-and-grapple scene is a recognised
+  stylistic device; a genuine present read is at least as defensible here as an unaugmented imperfect,
+  so I left the entry as is rather than assert an ambiguity I could not confirm is actually intended,
+  unlike the μένομεν/ἔχομεν cases where the surrounding durative sense (waiting, holding on) more
+  clearly favours the imperfect reading.
+- **`δάμεν` (495) lemmatised as δαμάζω while this same part's known-forms.json entry for the sibling
+  form `δάμη` (499, same root aorist paradigm) is lemmatised as δάμνημι.** Real LSJ practice files the
+  root aorist passive forms (δάμη, δάμεν, δαμῆναι) under δαμάζω, with δάμνημι cross-referenced as a
+  present-stem-only poetic byform, so `δάμεν`'s lemma looks like the more defensible choice of the two
+  and `δάμη`'s the outlier. `δάμη`, however, is an already-published known-forms entry from an earlier
+  part, not something this file created or can rewrite ("never rewrite an existing entry otherwise");
+  I flag the inconsistency here but leave both entries untouched, since `δάμεν`'s own entry is correct
+  on its own terms and `δάμη`'s use in this part matches its existing (if debatably mis-lemmatised)
+  entry.
+- **`ἀνίαζ’` (460) decodes its elision to the bare unaugmented form (`ἀνίαζ’ = ἀνίαζε`) rather than
+  giving the augmented equivalent the way sibling augment entries do (e.g. `κύνει`'s "= ἐκύνει").** This
+  is a stylistic difference in what the parenthetical shows, not a factual error — the "unaugmented"
+  claim itself is correct (the augmented form would be ἠνίαζε, with η- lengthening the initial ἀ-) — so
+  it was left alone.
+
+No other parse, lemma, augment claim, or broadening in `gloss.json` was found to be wrong.

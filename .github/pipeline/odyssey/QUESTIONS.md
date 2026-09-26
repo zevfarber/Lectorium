@@ -204,3 +204,32 @@ Same class of problem as the already-flagged ἔβη (odyssey-005), εἰδομ�
 Πεισηνορίδαο's `l` (odyssey-008), ὤιξεν and ἔκ (odyssey-012), and κεχάροιτο (broadened this part, but the
 old "perf. opt., potential" label it had to keep whole is itself wrong for the purpose clause at 3.438).
 Flagged for the owner alongside those, as the list of uncorrectable published errors keeps growing.
+
+## odyssey-014's last unit still lacks its closing ", even though odyssey-015 confirms the speech ends there — the same boundary bug just found and fixed at odyssey-016/017 (found while reviewing odyssey-017, 2026-09-26)
+odyssey-014 (4.1–112) ends with Menelaus's own long speech to Telemachus and Peisistratus still running;
+its last unit (ln 110, 4.110–112, "ὀδύρονταί νύ που αὐτὸν ... Τηλέμαχός θ᾽, ὃν ἔλειπε νέον γεγαῶτ᾽ ἐνὶ
+οἴκῳ.") ships with no closing " on either `l` or `i`, and its own note says plainly that the speech
+"does NOT close here... this one does not close within 4.1–112." But odyssey-015's very first unit (ln
+113, ὣς φάτο, τῷ δ᾽ ἄρα πατρὸς ὑφ᾽ ἵμερον ὦρσε γόοιο — plain narration) has its own note stating the
+opposite: that this line "confirms that Menelaus's own long speech, left open at the end of odyssey-014
+... has now finished." So by odyssey-015's own account, the speech odyssey-014 left unclosed does end
+at the 014/015 boundary — yet no unit in either file was ever given the closing " for it: odyssey-014's
+last unit still lacks it, and odyssey-015 never reopens the quotation to close it either, since it opens
+with narration, not quoted speech.
+
+This is exactly the same bug independently found and fixed this run at the odyssey-016/017 boundary (see
+odyssey-017's `review.md` and the LOG.md entry for odyssey-017): a speech genuinely ends at a part
+boundary, but the closing mark was never actually placed on any unit. Worth noting: odyssey-016's own
+shipped note, before this run's fix, had cited this very 014/015 case as its precedent, saying its own
+open speech would stay open "exactly as odyssey-014's last open speech was closed only in odyssey-015" —
+but that citation is itself inaccurate in the strict textual sense, since (as this entry shows) no
+closing " was ever added anywhere for the 014/015 case; the speech's *end* was confirmed in prose, in
+odyssey-015's note, but the mark itself was never supplied. odyssey-016's note has been corrected as part
+of this run's fix to no longer repeat that inaccurate citation.
+
+Decided meanwhile: left odyssey-014.json untouched. Fixing it is out of scope for this run — odyssey-017
+only revealed the parallel case at its own boundary, and touching an unrelated already-published part
+risks side effects this run cannot fully validate — so it is flagged here for the owner instead. If
+fixed, the change belongs on odyssey-014.json's last unit (ln 110): add a closing " to the end of both
+`l` and `i`, and add a sentence to its note recording that the mark was added later, once odyssey-015
+confirmed the speech's end — the same repair just made to odyssey-016.json this run.

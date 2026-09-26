@@ -789,3 +789,22 @@ Open decisions the rules do not settle. A run writes the question and what it de
   identical error. Worth a look if anyone ever has access to another edition of this passage, but
   not escalated further since the reading is unambiguous from the scan itself and nothing here
   blocks the archive gate.
+
+- **Night 14 (published 2026-09-26): title convention for a night whose text straddles two
+  separate tales.** Every night published so far has stayed within one tale, so `title`/`titleEn`
+  could just name that tale (adding ", continued" in English when picking up mid-tale). Night 14
+  is the first exception: it finishes the Second Qalandar's tale (53 of its 90 sense units) and
+  opens the Third's (the remaining 37) in the same night, with no clean tale-boundary between
+  nights. Decided meanwhile: titled it "خِتَامُ حِكَايَةِ الْقَرَنْدَلِيِّ الثَّانِي وَبِدَايَةُ حِكَايَةِ
+  الْقَرَنْدَلِيِّ الثَّالِثِ" / "The End of the Second Qalandar's Tale, and the Beginning of the
+  Third's", naming both rather than picking one. No rule in `reading-conventions.md` covers this
+  case; worth the owner's eye if he wants a different convention for future nights that split
+  across tales the same way (this text has several more embedded tales coming, so it will recur).
+
+- **Night 14: `زَادَ` extended to a two-sense homograph entry in `nights-glossary.json`.** The
+  shared entry only covered the verb sense ("zāda, to increase"). This night's own occurrence
+  (P103L09, "زاد شهر كامل", "a whole month's provisions") is the unrelated noun "zād, provisions"
+  in its bare/indeterminate form. Rather than overwrite the existing entry (forbidden) or leave
+  the key unresolved, extended it in place to name both senses and let context decide — the first
+  genuine homograph collision hit in this glossary. Worth a look if the reader's glossary lookup
+  ever needs to disambiguate homographs more visibly than one entry that just lists both meanings.

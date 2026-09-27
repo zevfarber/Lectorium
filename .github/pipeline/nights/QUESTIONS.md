@@ -863,3 +863,24 @@ Open decisions the rules do not settle. A run writes the question and what it de
   but if a third consecutive attempt also regresses, worth reconsidering the retrain recipe itself
   (iteration count, learning rate, or the held-out pages) rather than continuing to accumulate
   discarded attempts unchanged.
+
+- **2026-09-27, publishing run: `nights_index.py`'s marker regex had a false positive that split
+  Night 15 in two and mislabeled every night after it.** `--next` first reported "night 15" as
+  P105L03-P108L08 (72 lines) and a "night 16" as P108L09-P110L14 (52 lines). Checked the archive
+  directly: P108L08-09 reads "...فاصبح والدي في صريخ و بكاء فلما كانت الليلة القابلة علقت والدتي
+  بي..." ("...then when the following night came, my mother conceived me...") — the young man's
+  own backstory using "the following night" in ordinary narration, not the frame's own
+  night-formula (no قالت/قال/قلت tag follows "القابلة", unlike every genuine marker; confirmed by
+  grepping all 16 "كانت الليلة" hits in the whole archive — every real one is immediately followed
+  by a form of قال, this false one by علقت). `ORDINAL MISMATCH` never fired because `ORDINALS`
+  only covers nights 1-10 and the check is skipped past that. Real boundary, confirmed against the
+  standard end-of-night formula at P110L13-14 ("...وادرك شهرزاد الصباح فسكتت عن الكلام المباح")
+  immediately followed by the genuine Night 16 opening at P110L15 ("فلما كانت الليلة السادسة عشر
+  قال بلغني..."): Night 15 is P105L03-P110L14 (124 lines), Night 16 (not yet complete) starts at
+  P110L15. Decided and done: fixed `tools/nights_index.py`'s `MARKER` regex to require the
+  narrator's tag word immediately after the ordinal (also fixing the two-word "عشر" teen ordinals,
+  which the old single-word capture would have broken this same tag requirement against); re-ran
+  against the whole archive and every night 1-14's already-published boundary reproduced exactly
+  (see `nights_index.py`'s plain table), so the fix is not disturbing settled history, only this
+  and later nights. Published Night 15 using the corrected P105L03-P110L14 range. Worth the
+  owner's eyes if he ever audits the tool, but nothing here needed him to proceed.

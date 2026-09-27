@@ -30,7 +30,13 @@ ARCHIVE = os.path.join(NIGHTS, "archive")
 
 # The opening formula. ال is optionally dropped/attached in this edition's spelling, and the
 # ordinal itself is not parsed for numbering — order of appearance is what numbers a night.
-MARKER = re.compile(r"كانت\s+الليلة\s+(\S+)")
+# The narrator's tag (قالت / قال / قلت, this edition's spelling of the feminine varies) must
+# follow immediately: found 2026-09-27 publishing what --next called "night 16", printed pp.
+# 107-114 ("...فلما كانت الليلة القابلة علقت والدتي بي...", the young man's own backstory
+# saying "the following night" — no tag follows, and it is not a frame-formula ordinal at all)
+# — see QUESTIONS.md. Without the tag requirement this false marker split one real night into
+# two and mislabeled every night after it.
+MARKER = re.compile(r"كانت\s+الليلة\s+(\S+(?:\s+عشر)?)\s+(?:قالت|قال|قلت)\b")
 FIRST = re.compile(r"الليلة\s+الاولى\s+قالت")
 
 ORDINALS = [

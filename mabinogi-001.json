@@ -1,0 +1,677 @@
+{
+ "id": "mabinogi-001",
+ "sourceId": "mabinogi-001",
+ "title": "Pwyll Pendeuic Dyuet",
+ "titleEn": "Pwyll, Prince of Dyfed — Pwyll and Arawn exchange kingdoms",
+ "work": "Pedeir Keinc y Mabinogi",
+ "workEn": "The Four Branches of the Mabinogi",
+ "part": "Pwyll and Arawn exchange kingdoms",
+ "group": "First Branch: Pwyll",
+ "language": "Middle Welsh",
+ "langCode": null,
+ "source": "Pedeir Keinc y Mabinogi, First Branch, from the White Book of Rhydderch (NLW Peniarth 4, c. 1350) as printed in J. Gwenogvryn Evans, The White Book Mabinogion (Pwllheli, 1907), columns 1–13; public domain. Readings are the manuscript's as Evans prints them, checked against the page images; word division, punctuation, capitals and the quotation marks round speech are editorial. One word is supplied where the scribe left a gap marked with a caret (wreic, from the Red Book), and the note says so; where the Red Book has more than the White Book, the White Book is followed and the note reports the difference. Pronunciation: the manuscript spelling read with the sounds of Welsh c. 1300 — u = /ʉ/ as a vowel and /v/ as a consonant, y = /ɨ/ in a final syllable and /ə/ elsewhere, w = /u/ or /w/, c and k = /k/, final -t -c -p = /d g b/, d = /d/ or /ð/ as the modern word decides, ll and rh voiceless, ch = /x/, stress on the penult; an admitted convention. No prepared audio yet. All translations were made fresh from the Welsh for Lectorium.",
+ "about": "Pwyll, prince of Dyfed, goes hunting in Glyn Cuch and drives another man's hounds off a stag to feed his own. The huntsman is Arawn, a king of Annwfn, and the discourtesy must be paid for. Arawn proposes the price: the two will exchange shapes and kingdoms for a year, and at the year's end Pwyll, in Arawn's form, will meet Arawn's rival Hafgan at a ford and strike him once, and only once. Pwyll keeps the bargain to the letter — including, every night of the year, turning his back on Arawn's queen. He kills Hafgan with a single blow, unites the two kingdoms, and the two kings meet again and take back their own shapes. Arawn learns from his wife what Pwyll did not do; Pwyll learns from his noblemen how well Arawn ruled. The episode ends by explaining the name Pwyll carries from then on: Pwyll Penn Annwfn, Head of Annwfn.",
+ "glossaryFile": "mabinogi-glossary.json",
+ "sentences": [
+  {
+   "t": "Pwyll Pendeuic Dyuet a oed yn arglwyd ar seith cantref Dyuet.",
+   "l": "Pwyll Prince of-Dyfed, it-was-that was as lord over seven cantrefs of-Dyfed.",
+   "i": "Pwyll, Prince of Dyfed, was lord over the seven cantrefs of Dyfed.",
+   "n": "The first sentence shows the tale's ordinary word order: the subject comes first, then the particle a, then the verb (a oed 'was'). Nothing is being stressed; this is simply how Middle Welsh narrative prose puts a sentence together, and you will see it constantly. yn arglwyd 'as lord' is the predicative yn; it causes soft mutation, but arglwyd begins with a vowel, so nothing shows. A cantref ('hundred townships', cant + tref) was the main administrative division of medieval Wales; Dyfed is the south-west.",
+   "p": true
+  },
+  {
+   "t": "A threigylgweith yd oed yn Arberth, prif lys idaw, a dyuot yn y uryt ac yn y uedwl uynet y hela.",
+   "l": "And one-time he-was in Arberth, chief court to-him, and coming into his mind and into his thought to-go to hunt.",
+   "i": "And once he was at Arberth, his chief court, and it came into his mind and his thought to go hunting.",
+   "n": "A threigylgweith is a (and) + treigylgweith 'one time, once' with spirant mutation t > th after a. yd oed is 'he was' with the preverbal particle yd, used when the sentence opens with something other than the subject. prif lys idaw 'a chief court to him' is the Welsh way of saying 'his chief court'. a dyuot 'and coming' is a verbal noun standing in for a finite verb — the tale narrates whole chains of events this way. y uryt and y uedwl are 'his mind' and 'his thought' with soft mutation after y 'his' (bryt, medwl); uynet is mynet 'go', soft-mutated as the subject of dyuot."
+  },
+  {
+   "t": "Sef kyueir o'y gyuoeth a uynnei y hela, Glynn Cuch.",
+   "l": "That-is the region of his realm that he-wanted to hunt, Glyn Cuch.",
+   "i": "The part of his realm he wanted to hunt was Glyn Cuch.",
+   "n": "Sef is 'it is (this)': it introduces the answer to an implied question — which part? — and you will meet it often. o'y is o 'of' + y 'his' (the manuscript writes them together as oy). a uynnei is the relative particle a with the imperfect of mynnu 'want', soft-mutated m > u (= f). Glyn Cuch is the valley of the river Cuch, on the border of Dyfed."
+  },
+  {
+   "t": "Ac ef a gychwynnwys y nos honno o Arberth, ac a doeth hyt ym Penn Llwyn Diarwya, ac yno y bu y nos honno.",
+   "l": "And he it-was-that set-out that night from Arberth, and that came as-far-as to Penn Llwyn Diarwya, and there he-was that night.",
+   "i": "And he set out that night from Arberth and came as far as Penn Llwyn Diarwya, and there he spent the night.",
+   "n": "ef a gychwynnwys 'he set out': subject first, then a, then the verb, soft-mutated (kychwynnwys > gychwynnwys). The ending -wys is the old third-person singular preterite, modern -odd. y nos honno 'that night' — honno is the feminine 'that'. hyt ym 'as far as in' is the usual way of saying 'right to'. Penn Llwyn Diarwya, 'the head of Diarwya grove', is otherwise unknown."
+  },
+  {
+   "t": "A thrannoeth yn ieuengtit y dyd kyuodi a oruc, a dyuot y Lynn Cuch i ellwng e gwn dan y coet.",
+   "l": "And next-day in the youth of the day, rising he-did, and coming to Glyn Cuch to loose his hounds under the wood.",
+   "i": "And the next day, in the young part of the day, he rose and came to Glyn Cuch to loose his hounds in the wood.",
+   "n": "kyuodi a oruc 'rising he did' is the other great narrative pattern: a verbal noun, then a, then a form of gwneuthur 'do' (oruc is its preterite, with the initial g dropped after a). It means simply 'he rose'. yn ieuengtit y dyd, 'in the youth of the day', is early morning. y Lynn Cuch: Glynn loses its g after y 'to'. e gwn is 'his dogs': e for y 'his', and cwn soft-mutated, c > g. i ellwng is i for y 'to' + ellwng 'loose'."
+  },
+  {
+   "t": "A chanu y gorn a dechreu dygyuor yr hela, a cherdet yn ol y cwn, ac ymgolli a'y gydymdeithon.",
+   "l": "And sounding his horn and beginning to-muster the hunt, and going after the hounds, and losing-himself from his companions.",
+   "i": "He sounded his horn, began to muster the hunt, went after the hounds, and lost his companions.",
+   "n": "Four verbal nouns in a row, each 'and …ing', with no finite verb at all; the reader supplies 'he'. a chanu, a cherdet show the spirant mutation after a (canu, cerdet). ymgolli 'lose oneself' has the reflexive prefix ym-; a'y is a 'with' + y 'his'. gydymdeithon 'companions' is soft-mutated after y."
+  },
+  {
+   "t": "Ac ual y byd yn ymwarandaw a llef yr erchwys, ef a glywei llef erchwys arall, ac nit oedynt unllef, a hynny yn dyuot yn erbyn y erchwys ef.",
+   "l": "And as he-is listening to the cry of the pack, he it-was-that heard the cry of another pack, and they-were-not of-one-cry, and that coming against his pack.",
+   "i": "And as he was listening to the cry of the pack, he heard the cry of another pack, and they did not sound alike, and this one was coming towards his own pack.",
+   "n": "ual y byd 'as he is': a present tense in the middle of a past narrative, common in this tale for a vivid moment. ymwarandaw a 'listen to' takes a. erchwys is the pack of hounds as a body, as against cwn 'the dogs'. unllef 'one cry' is a compound adjective: the two packs did not give the same cry. y erchwys ef 'his pack' — the ef after the noun makes the 'his' explicit."
+  },
+  {
+   "t": "Ac ef a welei lannerch yn y coet o uaes guastat; ac ual yd oed y erchwys ef yn ymgael ac ystlys y llannerch, ef a welei carw o ulaen yr erchwys arall.",
+   "l": "And he it-was-that saw a clearing in the wood of level field; and as his pack was meeting with the edge of the clearing, he it-was-that saw a stag in-front-of the other pack.",
+   "i": "And he saw a clearing in the wood, a level field; and as his pack reached the edge of the clearing, he saw a stag ahead of the other pack.",
+   "n": "ef a welei 'he saw': the imperfect of gwelet with soft mutation after a; the imperfect is the tense of things going on while something else happens. lannerch for llannerch, soft-mutated as the object of the verb. o uaes guastat 'of level field' describes the clearing. ymgael ac 'meet with' — ac is the preposition a 'with' before a vowel. o ulaen 'in front of' (blaen 'front')."
+  },
+  {
+   "t": "A pharth a pherued y llannerch, llyma yr erchwys a oed yn y ol yn ymordiwes ac ef, ac yn y uwrw y'r llawr.",
+   "l": "And towards the middle of the clearing, behold the pack that was after it overtaking it, and throwing it to the ground.",
+   "i": "And towards the middle of the clearing, the pack that was after it caught up with it and brought it to the ground.",
+   "n": "a pharth: spirant mutation after a 'and'. parth a 'towards' ends in the preposition a 'with', which gives the same mutation: a pherued (perued 'middle'). llyma 'behold, here is' throws the scene before your eyes. yn y ol 'in its track', after it. ymordiwes ac 'overtake' takes a/ac like ymgael. yn y uwrw 'in its throwing' = throwing it: the object of a verbal noun is expressed as a possessive (y 'its') before it, with soft mutation (bwrw > uwrw). y'r llawr 'to the ground'."
+  },
+  {
+   "t": "Ac yna edrych ohonaw ef ar liw yr erchwys, heb hanbwyllaw edrych ar y carw.",
+   "l": "And then looking by-him at the colour of the pack, without taking-thought to-look at the stag.",
+   "i": "And then he looked at the colour of the pack, without troubling to look at the stag.",
+   "n": "edrych ohonaw ef 'looking of him' = he looked: when a verbal noun carries the narrative, its subject can be marked with o 'of' (ohonaw 'of him', the conjugated preposition). heb + verbal noun is 'without …ing'. hanbwyllaw is a rare word; its sense here, 'take thought, trouble', is inferred from the context rather than certainly known.",
+   "p": true
+  },
+  {
+   "t": "Ac o'r a welsei ef o helgwn y byt, ny welsei cwn un lliw ac wynt.",
+   "l": "And of-all that he-had-seen of hunting-dogs of the world, he-had-not-seen dogs of-one colour with them.",
+   "i": "And of all the hunting dogs in the world he had seen, he had never seen dogs of the same colour as these.",
+   "n": "o'r a welsei 'of what he had seen' — the article yr with the relative a makes 'that which'; it recurs throughout the tale. welsei is the pluperfect ('had seen'), a tense modern Welsh has lost; note the -sei ending. helgwn is hel 'hunt' + cwn, 'hunting dogs' (singular helgi). un lliw ac wynt 'of one colour with them' = the same colour as they."
+  },
+  {
+   "t": "Sef lliw oed arnunt, claerwyn llathreit, ac eu clusteu yn gochyon.",
+   "l": "That-is the colour that-was on-them: bright-white shining, and their ears red.",
+   "i": "This was their colour: a shining bright white, and their ears red.",
+   "n": "Sef again, answering 'what colour?'. oed arnunt 'was on them' — colour, like clothing, is 'on' a creature in Welsh. claerwyn is claer 'bright' + gwyn 'white'. eu clusteu yn gochyon 'their ears (being) red': the yn + adjective marks a state; gochyon is the plural of coch, soft-mutated. White hounds with red ears are the hounds of Annwfn in Welsh tradition — the first sign of whose pack this is."
+  },
+  {
+   "t": "Ac ual y llathrei wynnet y cwn, y llathrei cochet y clusteu.",
+   "l": "And as shone the whiteness of the dogs, so shone the redness of the ears.",
+   "i": "And as the whiteness of the dogs shone, so shone the redness of their ears.",
+   "n": "A balanced pair: ual y … y … 'as … so …'. wynnet and cochet are abstract nouns, 'whiteness', 'redness', formed with the ending -et (gwynnet, cochet); the first is written wynnet, with soft mutation after the verb — Middle Welsh sometimes lenites a subject in that position, though cochet in the balancing clause does not."
+  },
+  {
+   "t": "Ac ar hynny at y cwn y doeth ef, a gyrru yr erchwys a ladyssei y carw e ymdeith, a llithyaw y erchwys e hunan ar y carw.",
+   "l": "And at that to the dogs he came, and driving the pack that had-killed the stag away, and feeding his pack itself on the stag.",
+   "i": "And with that he came up to the dogs, drove off the pack that had killed the stag, and set his own pack to feed on the stag.",
+   "n": "Ac ar hynny 'and at that, thereupon' opens many sentences. at y cwn y doeth ef: the adverbial phrase comes first, so the verb takes the particle y, not a. a ladyssei 'that had killed' is another pluperfect. e ymdeith 'away' (ymdeith 'journey'). llithyaw is to feed dogs, specifically to let hounds eat of the kill — the reward that ends a hunt — and taking it for one's own pack from another's kill is the offence the whole episode turns on. e hunan 'itself'."
+  },
+  {
+   "t": "Ac ual y byd yn llithiau y cwn, ef a welei uarchauc yn dyuot yn ol yr erchwys y ar uarch erchlas mawr; a chorn canu am y uynwgyl, a gwisc o urethyn llwyt tei amdanaw yn wisc hela.",
+   "l": "And as he-is feeding the dogs, he it-was-that saw a horseman coming after the pack on a big dapple-grey horse; and a hunting-horn about his neck, and a garment of grey house-cloth about him as hunting-dress.",
+   "i": "And as he was feeding the dogs he saw a horseman coming after the pack on a big dapple-grey horse, with a hunting horn about his neck and a garment of grey homespun on him as his hunting dress.",
+   "n": "uarchauc is marchawc 'horseman' soft-mutated as the object of welei. y ar 'from upon' is the Welsh for 'on (horseback)'. erchlas is a compound colour word, 'dapple-grey' or 'dun-grey'; its exact shade is not certain. am y uynwgyl 'about his neck' (mynwgyl). tei after brethyn llwyt 'grey cloth' is obscure — perhaps tei 'houses', giving 'house-cloth, homespun'; editors have not settled it. yn wisc hela 'as a hunting dress': yn with soft mutation (gwisc > wisc).",
+   "p": true
+  },
+  {
+   "t": "Ac ar hynny y marchawc a doeth attaw ef, a dywedut ual hynn wrthaw, “A unben,” heb ef, “mi a wnn pwy wyt ti, ac ny chyuarchaf i well it.”",
+   "l": "And at that the horseman it-was-that came to-him, and saying like this to-him: “O chieftain,” said he, “I it-is-that know who you-are, and I-do-not-greet you.”",
+   "i": "And with that the horseman came up to him and said to him: “Chieftain,” he said, “I know who you are, and I do not greet you.”",
+   "n": "heb ef 'said he' is the tale's usual way of tagging speech, and it sits inside the speech, after the first words; heb is a defective verb used for nothing else. A unben: A is the vocative particle, unben 'chieftain' (un 'one' + penn 'head'). mi a wnn 'I know' — gwnn, soft-mutated after a. kyuarch gwell 'greet' is literally 'to ask better', to wish someone well; ny chyuarchaf shows the spirant mutation after ny 'not'."
+  },
+  {
+   "t": "“Ie,” heb ef, “ac atuyd y mae arnat o anryded ual nas dylyei.”",
+   "l": "“Yes,” said he, “and perhaps there-is on-you of rank such that it-would-not-require-it.”",
+   "i": "“Yes,” he said, “and perhaps you have such rank that it does not call for one.”",
+   "n": "Ie is 'yes' — it answers by assent to what was said, and here Pwyll uses it to take up the other's words. atuyd 'perhaps' (literally 'it will be'). y mae arnat o anryded 'there is on you of rank' — rank, like colour, is 'on' a person. nas is ny 'not' + the infixed pronoun 's 'it': 'such that it (your rank) would not require it (a greeting)'. Pwyll's reply is dry: perhaps you are too grand to greet me."
+  },
+  {
+   "t": "“Dioer,” heb ef, “nyt teilygdawt uy anryded a'm etteil am hynny.”",
+   "l": "“Assuredly,” said he, “it-is-not the worthiness of my rank that holds-me-back about that.”",
+   "i": "“Indeed,” he said, “it is not the worthiness of my rank that keeps me from it.”",
+   "n": "Dioer is an oath, 'assuredly, God knows' (a worn-down Duw a wyr 'God knows'). nyt teilygdawt … a'm etteil: nyt negates the fronted noun phrase, and a'm is the relative a with the infixed object pronoun 'm 'me' — 'that holds me back'. etteil is the present of attal 'hold back'."
+  },
+  {
+   "t": "“A unben,” heb ynteu, “beth amgen?”",
+   "l": "“O chieftain,” said he-for-his-part, “what else?”",
+   "i": "“Chieftain,” he said, “what then?”",
+   "n": "ynteu is the conjunctive form of ef 'he': it marks a change of speaker, 'he for his part', and heb ynteu is how the tale hands the dialogue back and forth. beth amgen 'what other (thing)?'."
+  },
+  {
+   "t": "“Y rof i a Duw,” hep ynteu, “dy anwybot dy hun a'th ansyberwyt.”",
+   "l": "“Between me and God,” said he-for-his-part, “your ignorance yourself and your un-courtesy.”",
+   "i": "“Between me and God,” he said, “your own ignorance and your discourtesy.”",
+   "n": "y rof i a Duw 'between me and God' is a solemn oath; rof is the preposition rwng 'between' conjugated for 'me', with the echoing i, and the y before it is the preposition 'in'. hep is a spelling of heb. dy anwybot dy hun 'your ignorance yourself' = your own ignorance. a'th is a 'and' + th 'your'; ansyberwyt is an- 'un-' + syberwyt 'courtesy' (syber 'courteous')."
+  },
+  {
+   "t": "“Pa ansyberwyt, unben, a weleist ti arnaf i?”",
+   "l": "“What un-courtesy, chieftain, did-you-see on-me?”",
+   "i": "“What discourtesy, chieftain, have you seen in me?”",
+   "n": "Pa 'what?' before a noun. a weleist ti 'that you saw' — the preterite second person, with ti added for emphasis; arnaf i 'on me', the conjugated preposition ar with the echoing pronoun i."
+  },
+  {
+   "t": "“Ny weleis ansyberwyt uwy ar wr,” hep ef, “no gyrru yr erchwys a ladyssei y carw e ymdeith, a llithiau dy erchwys dy hun arnaw; hynny,” hep ef, “ansyberwyt oed: a chyn nyt ymdialwyf a thi, y rof i a Duw,” hep ef, “mi a wnaf o anglot itt guerth can carw.”",
+   "l": "“I-have-not-seen un-courtesy greater on a man,” said he, “than driving the pack that had-killed the stag away, and feeding your pack your-own on-it; that,” said he, “was un-courtesy: and though I-do-not-avenge-myself on you, between me and God,” said he, “I it-is-that will-make of dishonour to-you the worth of a hundred stags.”",
+   "i": "“I have never seen greater discourtesy in a man,” he said, “than driving off the pack that had killed the stag and feeding your own pack on it. That,” he said, “was discourtesy; and though I will not take revenge on you, between me and God,” he said, “I will do you dishonour to the value of a hundred stags.”",
+   "n": "uwy 'greater' (mwy, soft-mutated). no 'than' before a verbal noun. hynny … ansyberwyt oed 'that … was discourtesy': subject, then predicate, and oed closes the clause. a chyn nyt ymdialwyf 'and though I do not avenge myself' — kyn 'though' with spirant mutation after a, and ymdialwyf a present subjunctive. o anglot itt 'of dishonour to you' — anglot is an- + clot 'fame'. guerth can carw 'the worth of a hundred stags' — can is cant 'hundred' before a noun; the dishonour is priced like a fine."
+  },
+  {
+   "t": "“A unbenn,” hep ef, “o gwneuthum gam, mi a brynaf dy gerennyd.”",
+   "l": "“O chieftain,” said he, “if I-did wrong, I it-is-that will-buy your friendship.”",
+   "i": "“Chieftain,” he said, “if I have done wrong, I will buy your friendship.”",
+   "n": "o 'if' with the preterite gwneuthum 'I did'. cam 'wrong' is soft-mutated to gam as the object. prynu 'buy' — dy gerennyd 'your friendship' (kerennyd soft-mutated after dy). To 'buy' friendship is to make amends by payment, the language of compensation."
+  },
+  {
+   "t": "“Pa delw,” hep ynteu, “y pryny di?”",
+   "l": "“What manner,” said he-for-his-part, “will-you-buy?”",
+   "i": "“In what way,” he said, “will you buy it?”",
+   "n": "Pa delw 'what form, in what manner?' — delw is 'image, form'. y pryny di 'do you buy' with the particle y after the question phrase; the future and present are one tense here."
+  },
+  {
+   "t": "“Vrth ual y bo dy anryded, ac ny wnn i pwy wyt ti.”",
+   "l": "“According as may-be your rank, and I-do-not-know who you-are.”",
+   "i": "“According to your rank — and I do not know who you are.”",
+   "n": "Vrth ual 'according as' (wrth); y bo is the present subjunctive of bot 'be', used because the rank is not yet known. ny wnn i 'I do not know' (gwnn, soft-mutated after ny: the g is lost). Pwyll's answer is proper: compensation depends on the rank of the wronged party, so he must know it."
+  },
+  {
+   "t": "“Brenhin corunawc wyf i yn y wlat yd hanwyf oheni.”",
+   "l": "“A crowned king am I in the land that I-come from-it.”",
+   "i": "“I am a crowned king in the land I come from.”",
+   "n": "Predicate first: Brenhin corunawc wyf i 'a crowned king am I'. y wlat 'the land' with soft mutation of gwlat after the feminine article. yd hanwyf oheni 'that I come from it': hanuot 'be descended, come from' — the relative clause ends with the conjugated preposition oheni 'from it', because Welsh keeps the preposition at the end and points it back with a pronoun."
+  },
+  {
+   "t": "“Arglwyd,” heb ynteu, “dyd da itt; a pha wlat yd hanwyt titheu oheni?”",
+   "l": "“Lord,” said he-for-his-part, “good day to-you; and what land do-you-come from-it?”",
+   "i": "“Lord,” he said, “good day to you; and what land do you come from?”",
+   "n": "Now that he knows he is speaking to a king, Pwyll gives the greeting he was refused: dyd da itt 'good day to you'. pha wlat 'what land?' — pa causes soft mutation of gwlat, and itself takes the spirant after a. hanwyt is the second person, titheu the conjunctive 'you (for your part)'."
+  },
+  {
+   "t": "“O Annwuyn,” heb ynteu. “Arawn urenhin Annwuyn wyf i.”",
+   "l": "“From Annwfn,” said he-for-his-part. “Arawn king of-Annwfn am I.”",
+   "i": "“From Annwfn,” he said. “I am Arawn, king of Annwfn.”",
+   "n": "Annwuyn (modern Annwfn, Annwn) is the realm Arawn rules; it lies alongside this world, and Pwyll reached it by riding into the wrong valley. urenhin is brenhin soft-mutated after the name in apposition. The name Arawn is of unknown meaning."
+  },
+  {
+   "t": "“Arglwyd,” heb ynteu, “pa furyf y caf i dy gerennyd di?”",
+   "l": "“Lord,” said he-for-his-part, “what manner shall-I-get your friendship?”",
+   "i": "“Lord,” he said, “how may I win your friendship?”",
+   "n": "pa furyf 'what form, how?' — furyf is ffuryf 'form'; ff does not mutate, and the scribe writes a single f for it here, as often. caf is 'I get' from caffael; dy gerennyd di 'your friendship' with the reinforcing di after the noun."
+  },
+  {
+   "t": "“Llyma wyd y kyffy,” heb ynteu. “Gwr yssyd gyuerbyn y gyuoeth a'm kyuoeth inheu yn ryuelu arnaf yn wastat. Sef yw hwnnw, Hafgan urenhin o Annwuyn. Ac yr guaret gormes hwnnw y arnaf (a hynny a elly yn haut) y keffy uy gherennyd.”",
+   "l": "“Here-is the way you-will-get-it,” said he-for-his-part. “A man who-is opposite his realm to my realm mine, warring on-me constantly. That-is who that-one-is: Hafgan king from Annwfn. And for removing that oppression from-on-me (and that you-can easily), you-will-get my friendship.”",
+   "i": "“This is how you will get it,” he said. “There is a man whose realm lies over against mine, and he is forever making war on me. He is Hafgan, a king from Annwfn. Rid me of that oppression — and you can do it easily — and you will have my friendship.”",
+   "n": "Llyma wyd 'here is the manner' (gwyd). y kyffy 'you will get it' — keffy/kyffy is the second person of caffael. yssyd is the relative form of 'is': gwr yssyd 'a man who is'. gyuerbyn 'opposite, over against'. a'm kyuoeth inheu 'with my realm, mine' — the a is the preposition that kyuerbyn takes, and the conjunctive inheu insists on the contrast. yn ryuelu arnaf 'warring on me'. Sef yw hwnnw 'that is who he is'. Hafgan means 'summer-white' (haf + can). guaret 'deliver, remove'; y arnaf 'from upon me'. a hynny a elly yn haut 'and that you can easily' is a parenthesis. uy gherennyd is kerennyd with nasal mutation after uy 'my'."
+  },
+  {
+   "t": "“Minnheu a wnaf hynny,” heb ynteu, “yn llawen. A manac ditheu y mi pa furyf y gallwyf hynny.”",
+   "l": "“I-for-my-part it-is-that will-do that,” said he-for-his-part, “gladly. And show you-for-your-part to me what manner I-may-be-able that.”",
+   "i": "“I will do that,” he said, “gladly. And show me how I can do it.”",
+   "n": "Minnheu is the conjunctive form of mi, 'I for my part' — Pwyll answering Arawn's inheu. yn llawen 'gladly'. manac is the imperative of menegi 'show, tell'; ditheu the conjunctive 'you' again. y gallwyf 'that I may be able' is a present subjunctive, since the doing is still hypothetical."
+  },
+  {
+   "t": "“Managaf,” heb ynteu. “Llyna ual y gelly; mi a wnaf a thi gedymdeithas gadarn. Sef ual y gwnaf, mi a'th rodaf di y'm lle i yn Annwuyn, ac a rodaf y wreic deccaf a weleist eiroet y gyscu gyt a thi beunoeth, a'm pryt innheu a'm ansawd arnat ti, hyt na bo na guas ystauell, na swydawc, na dyn arall o'r a'm canlynwys i yroet, a wyppo na bo miui uych ti.",
+   "l": "“I-will-show,” said he-for-his-part. “There-is how you-can; I it-is-that will-make with you a firm fellowship. That-is how I-will-do: I it-is-that will-put you in my place in Annwfn, and will-give the fairest woman you-ever-saw to sleep with you every-night, and my form mine and my appearance on you, so-that there-be neither chamber-servant, nor officer, nor any-other man of-those that have-followed me ever, who may-know that it-is-not I that-you-are.",
+   "i": "“I will,” he said. “This is how you can. I will make a firm fellowship with you. This is what I will do: I will put you in my place in Annwfn, and give you the fairest woman you ever saw to sleep with you each night, and my form and appearance on you, so that no chamber-servant, no officer, no other man who has ever followed me shall know that you are not I.",
+   "n": "Llyna ual y gelly 'there is how you can' (gelly from gallu). gedymdeithas is kedymdeithas 'fellowship', soft-mutated as the object of the verb; gadarn (cadarn 'strong') mutates after the feminine noun. mi a'th rodaf di 'I will put you' — 'th is the infixed object 'you', and di repeats it after the verb. y'm lle i 'in my place'. y wreic deccaf a weleist eiroet 'the fairest woman you ever saw': teccaf is the superlative of tec, soft-mutated after the feminine noun. a'm pryt innheu a'm ansawd 'and my form and my appearance' — the pair pryt ac ansawd is the tale's phrase for a person's whole outward look. hyt na bo 'so that there be not' with the subjunctive bo. o'r a'm canlynwys i 'of those that have followed me'. a wyppo 'who may know' (subjunctive of gwybot); na bo miui uych ti 'that it is not I that you are' — a knot of a clause: 'that you are not myself'."
+  },
+  {
+   "t": "A hynny,” heb ef, “hyt ym penn y ulwydyn o'r dyd auory. An kynnadyl yna yn y lle hon.”",
+   "l": "And that,” said he, “until the end of the year from the day tomorrow. Our meeting then in this place.”",
+   "i": "And that,” he said, “until a year from tomorrow. We meet then, here in this place.”",
+   "n": "hyt ym penn y ulwydyn 'until the head of the year' = for a year; ulwydyn is blwydyn soft-mutated after the feminine article. o'r dyd auory 'from the day tomorrow' — the year runs from tomorrow. An kynnadyl 'our meeting' — an is 'our' (modern ein), kynnadyl 'appointed meeting'. yn y lle hon 'in this place'; lle is here treated as feminine (hon), as it sometimes is in Middle Welsh."
+  },
+  {
+   "t": "“Ie,” heb ynteu, “kyt bwyf i yno hyt ympenn y ulwydyn, pa gyuarwyd a uyd ymi o ymgael a'r gwr a dywedy di?”",
+   "l": "“Yes,” said he-for-his-part, “though I-be there until the-end of the year, what guidance will-be to-me to meet with the man that you-speak-of?”",
+   "i": "“Yes,” he said, “though I be there until the year's end, what guidance shall I have for meeting the man you speak of?”",
+   "n": "kyt bwyf 'though I be' — kyt 'although' takes the subjunctive bwyf. ympenn is written as one word here. kyuarwyd 'guidance, direction' (soft-mutated after pa); a uyd ymi 'that will be to me' = that I shall have. ymgael a 'meet with'. a dywedy di 'that you speak of'."
+  },
+  {
+   "t": "“Blwydyn,” heb ef, “y heno, y mae oet y rof i ac ef, ar y ryt. A byd di i'm rith yno,” heb ef, “ac un dyrnaut a rodych di idaw ef; ny byd byw ef o hwnnw. A chyt archo ef yti rodi yr eil, na dyro, yr a ymbilio a thi. Yr a rodwn i idau ef hagen, kystal a chynt yd ymladei a mi drannoeth.”",
+   "l": "“A year,” said he, “from tonight, there-is an appointment between me and him, at the ford. And be you in my shape there,” said he, “and one blow you-are-to-give to-him; he-will-not-be alive from that. And though he-ask of-you to-give the second, do-not-give, for-all that he-may-beg of you. For-all that I-would-give to-him however, as-well as before he-would-fight with me the-next-day.”",
+   "i": "“A year from tonight,” he said, “he and I have an appointment at the ford. Be there in my shape,” he said, “and give him a single blow; he will not survive it. And though he asks you to give a second, do not, however much he begs you. However many I gave him, he would fight me the next day as well as before.”",
+   "n": "Blwydyn y heno 'a year tonight' = a year from tonight. oet 'appointed time, tryst'. y rof i ac ef 'between me and him'. i'm rith 'in my shape' — rith is 'form, guise'; yn + 'm. un dyrnaut a rodych di 'one blow you are to give' (rodych, subjunctive of rodi 'give'). ny byd byw ef o hwnnw 'he will not be alive from that'. chyt archo 'though he ask' (kyt with spirant mutation after a; archo subjunctive of erchi). na dyro is the negative imperative 'do not give'. yr a 'for all that, however much' — twice. kystal a chynt 'as well as before'; ymladei is the imperfect, 'he would fight'."
+  },
+  {
+   "t": "“Ie,” heb y Pwyll, “beth a wnaf i y'm kyuoeth?”",
+   "l": "“Yes,” said Pwyll, “what shall-I-do about my realm?”",
+   "i": "“Yes,” said Pwyll, “and what shall I do about my realm?”",
+   "n": "heb y Pwyll: after heb a proper name takes the article y, 'said the Pwyll' — a Middle Welsh habit with no force in English. y'm kyuoeth 'in/for my realm'."
+  },
+  {
+   "t": "“Mi a baraf,” hep yr Arawn, “na bo i'th gyuoeth na gwr na gwreic a wyppo na bo tidi wwyf i. A miui a af i'th le di.”",
+   "l": "“I it-is-that will-cause,” said Arawn, “that there-be-not in your realm neither man nor woman who may-know that it-is-not you that-I-am. And I it-is-that will-go into your place.”",
+   "i": "“I will see to it,” said Arawn, “that there is neither man nor woman in your realm who knows that I am not you. And I will go in your place.”",
+   "n": "peri 'cause' — baraf is its first person, soft-mutated after a: 'I will cause that …'. heb yr Arawn, the article again before the name. i'th gyuoeth 'in your realm'. na bo tidi wwyf i 'that it is not you that I am': tidi is the emphatic 'you', wwyf a spelling of wyf 'I am'. miui is the emphatic 'I'; a af 'will go' (af, first person of mynet)."
+  },
+  {
+   "t": "“Yn llawenn,” hep y Pwyll, “a miui a af ragof.”",
+   "l": "“Gladly,” said Pwyll, “and I it-is-that will-go before-me.”",
+   "i": "“Gladly,” said Pwyll, “and I will be on my way.”",
+   "n": "a af ragof 'I will go before me' = I will go on my way, set off; rac 'before' conjugated for 'me'. yn llawenn — the tale writes single and double consonants freely (llawen, llawenn)."
+  },
+  {
+   "t": "“Dilesteir uyd dy hynt ac ny russya dim ragot, yny delych y'm kyuoeth i: a mi a uydaf hebryngyat arnat.”",
+   "l": "“Unhindered will-be your way and nothing will-obstruct before-you, until you-come to my realm: and I it-is-that will-be a guide over-you.”",
+   "i": "“Your way will be unhindered and nothing will obstruct you until you come to my realm; and I will be your guide.”",
+   "n": "Dilesteir 'unhindered' (di- 'un-' + llesteir 'hindrance'), predicate first before uyd 'will be'. russya 'obstructs', dim ragot 'nothing before you'. yny delych 'until you come' — yny 'until' takes the subjunctive delych of dyuot. hebryngyat 'one who escorts, a guide'; arnat 'over you'."
+  },
+  {
+   "t": "Ef a'y hebryghaud yny welas y llys a'r kyuanned.",
+   "l": "He it-was-that escorted-him until he-saw the court and the dwelling-place.",
+   "i": "He escorted him until he saw the court and the dwelling-place.",
+   "n": "a'y hebryghaud 'escorted him': the object 'y (him) is infixed between the particle a and the verb. The ending -awd/-aud is another old third-person preterite beside -wys. yny welas 'until he saw' — this yny takes the indicative when the event is past. kyuanned is 'habitation, dwellings' as a whole.",
+   "p": true
+  },
+  {
+   "t": "“Llyna,” hep ef, “y llys a'r kyuoeth i'th uedyant. A chyrch y llys. Nit oes yndi nep ni'th adnappo; ac wrth ual y guelych y guassanaeth yndi, yd adnabydy uoes y llys.”",
+   "l": "“There,” said he, “the court and the realm into your possession. And make-for the court. There-is-not in-it anyone who-does-not-know-you; and according as you-see the service in-it, you-will-know the custom of the court.”",
+   "i": "“There,” he said, “are the court and the realm, in your possession. Go to the court. There is no one in it who will not know you; and as you watch the service in it, you will learn the court's ways.”",
+   "n": "i'th uedyant 'into your possession' (medyant soft-mutated after 'th). A chyrch: the imperative of kyrchu 'make for', with spirant mutation after a. Nit oes yndi nep 'there is not in it anyone' — the existential nit oes. ni'th adnappo 'who does not know you' is a negative relative with the infixed object and the subjunctive of adnabot. uoes is moes 'custom, manner', soft-mutated as object; the manuscript has the e added above the line by the scribe. Notice the switch to the feminine yndi 'in it': llys is feminine."
+  },
+  {
+   "t": "Kyrchu y llys a oruc ynteu.",
+   "l": "Making-for the court he-did, he-for-his-part.",
+   "i": "So he went to the court.",
+   "n": "Verbal noun + a oruc again: 'go to the court he did'. ynteu marks the change of actor back to Pwyll."
+  },
+  {
+   "t": "Ac yn y llys ef a welei hundyeu ac yneuadeu, ac ysteuyll, a'r ardurn teccaf a welsei neb o adeiladeu.",
+   "l": "And in the court he it-was-that saw sleeping-chambers and halls, and rooms, and the fairest adornment anyone had-seen of buildings.",
+   "i": "And in the court he saw sleeping chambers and halls and rooms, and the finest array of buildings anyone had ever seen.",
+   "n": "hundyeu 'sleeping-chambers' (hun 'sleep' + ty 'house', plural); yneuadeu 'halls' (neuad); ysteuyll 'rooms' (ystauell). a'r ardurn teccaf a welsei neb 'and the fairest adornment anyone had seen' — neb means 'anyone' in this kind of clause. o adeiladeu 'of buildings'."
+  },
+  {
+   "t": "Ac y'r neuad y gyrchwys y diarchenu.",
+   "l": "And to the hall he-made-his-way to take-off-his-boots.",
+   "i": "And he went to the hall to take off his boots.",
+   "n": "y'r neuad y gyrchwys 'to the hall he went': adverb first, so the particle is y and the verb (kyrchwys) is soft-mutated. diarchenu, literally 'un-shoe', is taking off boots and riding gear on arrival, the first service a guest received."
+  },
+  {
+   "t": "Ef a doeth makwyueit a gueisson ieueinc y diarchenu, a phaup ual y delynt kyuarch guell a wneynt idaw.",
+   "l": "There came squires and young lads to un-boot-him, and everyone as they-came, greeting they-would-do to-him.",
+   "i": "Squires and young lads came to take off his boots, and every one of them as he came greeted him.",
+   "n": "Ef a doeth makwyueit 'there came squires' — this ef is a dummy subject like 'there', and the verb stays singular before the plural noun. makwyueit is the plural of makwy 'squire' (from Old French); gueisson ieueinc 'young lads' (gwas, ieuanc). a phaup ual y delynt 'and everyone as they came' (delynt, imperfect subjunctive). kyuarch guell a wneynt idaw 'greeting they would do to him' — gwneuthur as the auxiliary again."
+  },
+  {
+   "t": "Deu uarchauc a doeth i waret i wisc hela y amdanaw, ac y wiscaw eurwisc o bali amdanaw.",
+   "l": "Two horsemen it-was-that came to take his hunting-dress from about-him, and to dress a gold-garment of brocade about-him.",
+   "i": "Two horsemen came to take his hunting dress off him and to dress him in a gold garment of brocade.",
+   "n": "Deu uarchauc 'two horsemen' — deu takes soft mutation (marchawc). i waret 'to take off' (gwaret 'remove'); i wisc hela 'his hunting dress' with i for y 'his'. y amdanaw 'from about him' — clothing is 'about' a person. eurwisc is eur 'gold' + gwisc; bali is a rich silk brocade, a word from Old French paile."
+  },
+  {
+   "t": "A'r neuad a gyweirwyt.",
+   "l": "And the hall was-made-ready.",
+   "i": "And the hall was made ready.",
+   "n": "gyweirwyt is the impersonal preterite of kyweiraw 'set in order', ending -wyt: 'there was a making-ready of the hall'. Welsh uses the impersonal where English uses a passive.",
+   "p": true
+  },
+  {
+   "t": "Llyma y guelei ef teulu ac yniueroed, a'r niuer hardaf a chyweiraf o'r a welsei neb yn dyuot y mywn, a'r urenhines y gyt ac wynt, yn deccaf gwreic o'r a welsei neb, ac eurwisc amdanei o bali llathreit.",
+   "l": "Behold, he-saw a household-troop and hosts, and the handsomest and best-arrayed company of-all that anyone had-seen, coming in, and the queen together with them, the fairest woman of-all that anyone had-seen, and a gold-garment about-her of shining brocade.",
+   "i": "There he saw the warband and the companies come in, the handsomest and best-arrayed company anyone had ever seen, and the queen with them, the fairest woman anyone had ever seen, wearing a gold garment of shining brocade.",
+   "n": "teulu is the lord's warband, his household troop — the word later came to mean 'family'. yniueroed 'hosts, companies' (plural of niuer). hardaf a chyweiraf are superlatives, 'handsomest and best-arrayed'. o'r a welsei neb 'of all that anyone had seen' — the tale's favourite superlative formula, three times in two sentences. urenhines is brenhines 'queen' soft-mutated after the article. amdanei 'about her', feminine."
+  },
+  {
+   "t": "Ac ar hynny, e ymolchi yd aethant, a chyrchu y bordeu a orugant, ac eisted a wnaethant ual hynn — y urenhines o'r neill parth idaw ef, a'r iarll, debygei ef, o'r parth arall.",
+   "l": "And at that, to wash they-went, and making-for the tables they-did, and sitting they-did like this — the queen on the one side to-him, and the earl, he-supposed, on the other side.",
+   "i": "And then they went to wash, and took their places at the tables, and sat like this: the queen on one side of him, and the earl, as he supposed, on the other.",
+   "n": "e ymolchi yd aethant 'to wash they went'; washing before the meal was the rule. a orugant and a wnaethant are both 'they did' — orugant is the older preterite of gwneuthur, wnaethant the newer, side by side in one sentence. o'r neill parth … o'r parth arall 'on the one side … on the other side'. iarll 'earl' is a borrowing from Norse/English jarl; debygei ef 'he supposed' — Pwyll is guessing at the identity of the man beside him."
+  },
+  {
+   "t": "A dechreu ymdidan a wnaeth ef a'r urenhines.",
+   "l": "And beginning conversation he-did with the queen.",
+   "i": "And he began to talk with the queen.",
+   "n": "ymdidan 'converse, conversation' is the word the tale uses for any talk; it comes back several times for the talk between the king and queen. a'r 'with the'."
+  },
+  {
+   "t": "Ac o'r a welsei eiryoet wrth ymdidan a hi, dissymlaf gwreic a bonedigeidaf i hannwyt a'y hymdidan oed.",
+   "l": "And of-all that he-had-seen ever, by conversing with her, the most-unaffected woman and the most-noble her nature and her conversation was.",
+   "i": "And of all the women he had ever seen, judging by his talk with her, she was the most natural in manner and the most noble in nature and conversation.",
+   "n": "wrth ymdidan a hi 'by conversing with her' — wrth 'by, as judged by'. dissymlaf is the superlative of dissyml, whose sense here is debated — 'unaffected, natural' or 'gracious, refined'; 'most unaffected' is the reading taken; bonedigeidaf of bonedigeid 'noble, well-born'. i hannwyt 'her nature' — the h is added after the feminine 'her' before a vowel (annwyt); the same in a'y hymdidan."
+  },
+  {
+   "t": "A threulaw a wnaethant bwyt a llynn a cherdeu a chyuedach.",
+   "l": "And spending they-did food and drink and songs and carousing.",
+   "i": "And they passed the time with food and drink, songs and carousing.",
+   "n": "treulaw 'spend, pass (time)', with spirant mutation after a; its objects follow: bwyt a llynn 'food and drink', cherdeu 'songs' (kerdeu), chyuedach 'carousing, a drinking-feast' (kyuedach)."
+  },
+  {
+   "t": "O'r a welsei o holl lyssoed y dayar, llyna y llys diwallaf o uwyt a llynn, ac eur lestri, a theyrndlysseu.",
+   "l": "Of-all that he-had-seen of all the courts of the earth, there-was the court best-supplied with food and drink, and gold vessels, and royal-jewels.",
+   "i": "Of all the courts on earth he had seen, this was the court best furnished with food and drink, gold vessels and royal treasures.",
+   "n": "lyssoed is the plural of llys, soft-mutated after holl 'all'. diwallaf 'most abundantly supplied' (diwall 'lacking nothing'). eur lestri 'gold vessels'; theyrndlysseu is teyrn 'king' + tlysseu 'jewels', with spirant mutation after a."
+  },
+  {
+   "t": "Amser a doeth udunt e uynet e gyscu, ac y gyscu yd aethant, ef a'r urenhines.",
+   "l": "Time it-was-that came to-them to go to sleep, and to sleep they-went, he and the queen.",
+   "i": "The time came for them to go to bed, and to bed they went, he and the queen.",
+   "n": "Amser a doeth udunt 'time came to them'; udunt 'to them'. e uynet e gyscu 'to go to sleep' — e for y, and mynet and kyscu both soft-mutated after it. y gyscu yd aethant 'to sleep they went', the adverb-first order.",
+   "p": true
+  },
+  {
+   "t": "Y gyt ac yd aethant yn y guely ymchwelut e weneb at yr erchwyn a oruc ef, a'y geuyn attei hitheu.",
+   "l": "As-soon as they-went into the bed, turning his face to the bed's-edge he-did, and his back to-her, she-for-her-part.",
+   "i": "As soon as they got into bed he turned his face to the edge of the bed and his back to her.",
+   "n": "Y gyt ac 'as soon as' (literally 'together with that'). ymchwelut 'turn' with the a oruc auxiliary. e weneb 'his face' (gwyneb soft-mutated after 'his', spelt weneb). erchwyn is the outer edge or side of a bed. a'y geuyn attei 'and his back to her' (keuyn); hitheu the conjunctive 'she', pointing the contrast."
+  },
+  {
+   "t": "O hynny hyt trannoeth, ny dywot ef wrthi hi un geir.",
+   "l": "From that until the-next-day, he-did-not-say to-her one word.",
+   "i": "From then until the next morning he did not say a single word to her.",
+   "n": "ny dywot 'he did not say' — dywot is the preterite of dywedut. wrthi hi 'to her'. un geir 'one word' — geir is the Middle Welsh spelling of gair; un mutates only feminine nouns, and gair is masculine, so the g stands."
+  },
+  {
+   "t": "Trannoeth, tirionwch ac ymdidan hygar a uu y ryngthunt.",
+   "l": "The-next-day, tenderness and affectionate conversation it-was-that was between-them.",
+   "i": "The next day there was tenderness and affectionate talk between them.",
+   "n": "tirionwch 'gentleness, tenderness'; hygar 'lovable, affectionate'. a uu 'was' — bu, the preterite of bot, soft-mutated after a. y ryngthunt 'between them' (rwng conjugated)."
+  },
+  {
+   "t": "Peth bynnac o garueidrwyd a wei y rungthunt y dyd, ni bu unnos hyt ym pen y ulwydyn amgen noc a uu y nos gyntaf.",
+   "l": "Whatever of affection there-might-be between-them in the day, there-was-not one-night until the end of the year other than what was the first night.",
+   "i": "Whatever affection there was between them by day, not one night until the year's end was any different from the first.",
+   "n": "Peth bynnac 'whatever'. garueidrwyd 'affection, fondness' (carueidrwyd soft-mutated after o). a wei 'that might be' — an imperfect subjunctive of bot. ni bu unnos 'there was not one night' (un + nos). amgen noc a uu 'other than what was' — noc is 'than' before a vowel."
+  },
+  {
+   "t": "Treulaw y ulwydyn a wnaeth trwy hela, a cherdeu, a chyuedach, a charueidrwyd, ac ymdidan a chedymdeithon, hyt y nos yd oet y gyfranc.",
+   "l": "Spending the year he-did through hunting, and songs, and carousing, and affection, and conversation with companions, until the night that-was the appointment of the encounter.",
+   "i": "He passed the year in hunting, song and carousing, in affection and in talk with companions, until the night appointed for the encounter.",
+   "n": "The year is summed up in one sentence of verbal nouns: treulaw … a wnaeth 'spend he did'. Each item takes the spirant mutation after a: cherdeu, chyuedach, charueidrwyd, chedymdeithon. hyt y nos yd oet y gyfranc 'until the night that was the appointment of the encounter' — oet may be the noun 'appointment' or a spelling of oed 'was'; either way kyfranc is a meeting, and in particular a fight.",
+   "p": true
+  },
+  {
+   "t": "Yn oet y nos honno, kystal y doi y gof y'r dyn eithaf yn yr holl gyuoeth yr oet.",
+   "l": "At the appointment of that night, as-well came into mind to the farthest man in the whole realm the appointment.",
+   "i": "When that night came, the appointment was as much in the mind of the remotest man in the whole realm as in anyone's.",
+   "n": "kystal y doi y gof 'as well came to memory' — doi is an imperfect of dyuot 'come'; y gof 'to mind' (cof). y'r dyn eithaf 'to the farthest man'. The sentence compares the remotest subject with the king himself, and the White Book breaks off the comparison after yr oet; the Red Book completes it with 'ac idaw ynteu', 'as to him himself', which is what the sense requires."
+  },
+  {
+   "t": "Ac ynteu a doeth i'r oet, a guyrda y gyuoeth y gyt ac ef.",
+   "l": "And he-for-his-part it-was-that came to the appointment, and the noblemen of his realm together with him.",
+   "i": "And he came to the appointment, with the noblemen of his realm.",
+   "n": "ynteu 'he for his part' — the king, as against the ordinary subject just mentioned. guyrda is gwyr 'men' + da 'good', the nobles of the realm; y gyuoeth 'of his realm'."
+  },
+  {
+   "t": "Ac y gyt ac y doeth i'r ryt, marchawc a gyuodes y uynyd, ac a dywot wal hynn:",
+   "l": "And as-soon as he came to the ford, a horseman it-was-that rose up, and that spoke like this:",
+   "i": "And as soon as he came to the ford, a horseman rose up and spoke as follows:",
+   "n": "y gyt ac y doeth 'as soon as he came'. a gyuodes y uynyd 'rose up' — kyuodi, and y uynyd 'upward' (mynyd 'mountain'). wal hynn is the manuscript's spelling of ual hynn 'like this' — the scribe wrote w for u here."
+  },
+  {
+   "t": "“A wyrda,” heb ef, “ymwerendewch yn da. Y rwng y deu wrenhin y mae yr oet hwnn, a hynny y rwng y deu gorff wylldeu. A fob un o honunt yssyd hawlwr ar y gilyd, a hynny am dir a dayar. A ssegur y digaun pawb o honawch uot, eithyr gadu y ryngthunt wylldeu.”",
+   "l": "“O noblemen,” said he, “listen well. Between the two kings is this appointment, and that between their two bodies both-of-them. And each one of-them is a claimant against the other, and that about land and earth. And idle can each of-you be, except leaving-it between-them both.”",
+   "i": "“Noblemen,” he said, “listen well. This appointment is between the two kings, and between their two persons alone. Each of them has a claim against the other, and that for land and territory. Every one of you may stand aside and leave it between the two of them.”",
+   "n": "A wyrda, the vocative with soft mutation (gwyrda). ymwerendewch is an imperative plural, 'listen'. y deu wrenhin 'the two kings' (brenhin after deu); y deu gorff wylldeu 'their two bodies, both of them' — corff mutates after deu, and wylldeu (ylldeu) means 'both'. hawlwr is 'claimant' (hawl 'claim'); ar y gilyd 'on the other'. A fob un 'and each one' — the spirant mutation of pob after a 'and', written f for ph. ssegur 'idle, free'; y digaun pawb o honawch uot 'each of you can be'. eithyr gadu 'except to leave'."
+  },
+  {
+   "t": "Ac ar hynny y deu urenhin a nessayssant y gyt am perued y ryt e ymgyuaruot.",
+   "l": "And at that the two kings it-was-that approached together at the middle of the ford to meet-each-other.",
+   "i": "And with that the two kings closed with each other in the middle of the ford.",
+   "n": "nessayssant 'they drew near' (nessau), the plural preterite in -ssant. am perued y ryt 'about the middle of the ford'. e ymgyuaruot 'to meet each other' — ym- reflexive again."
+  },
+  {
+   "t": "Ac ar y gossot kyntaf, y gwr a oed yn lle Arawn, a ossodes ar Hafgan ym perued bogel y daryan yny hyllt yn deu hanner, ac yny dyrr yr arueu oll, ac yny uyd Hafgan hyt y ureich a'e paladyr dros pedrein y uarch y'r llawr, ac angheuawl dyrnawt yndaw ynteu.",
+   "l": "And at the first onset, the man who was in the place of Arawn, it-was-that struck at Hafgan in the middle of the boss of his shield so-that it-splits in two halves, and so-that the armour all breaks, and so-that Hafgan is the length of his arm and his spear over the crupper of his horse to the ground, and a deadly blow in-him, he-for-his-part.",
+   "i": "And at the first onset the man who was in Arawn's place struck Hafgan in the very centre of his shield-boss, so that it split in two, all his armour broke, and Hafgan went the length of his arm and spear over his horse's crupper to the ground, with a mortal wound in him.",
+   "n": "y gwr a oed yn lle Arawn 'the man who was in Arawn's place' — the tale never says 'Pwyll' during the fight. gossot 'onset, attack'; a ossodes 'struck' (gossodes soft-mutated after a). bogel y daryan 'the boss of his shield' (tarian). yny hyllt … yny dyrr … yny uyd: three present-tense verbs after yny 'so that', a vivid sequence — 'it splits, it breaks, he is'. hyt y ureich a'e paladyr 'the length of his arm and his spear' — paladyr is a spear-shaft. pedrein 'crupper, hindquarters'. angheuawl dyrnawt 'a deadly blow' (angheu 'death')."
+  },
+  {
+   "t": "“A unben,” heb yr Hafgan, “pa dylyet a oed iti ar uy angheu i? Nit yttoydwn i yn holi dim i ti. Ni wydwn achos it heuyt y'm llad i; ac yr Duw,” heb ef, “canys dechreueist uy llad, gorffen.”",
+   "l": "“O chieftain,” said Hafgan, “what right was to-you on my death? I-was-not claiming anything from you. I-did-not-know a cause to-you either to kill me; and for God,” said he, “since you-have-begun my killing, finish.”",
+   "i": "“Chieftain,” said Hafgan, “what right had you to my death? I was claiming nothing from you. I knew of no reason for you to kill me either. And for God's sake,” he said, “since you have begun to kill me, finish it.”",
+   "n": "pa dylyet a oed iti 'what right was there to you' — dylyet is a legal due or claim. yttoydwn 'I was' is an old first-person imperfect of bot. holi 'claim, demand'. Ni wydwn 'I did not know' (gwybot). y'm llad i 'to my killing' = to kill me: the object of the verbal noun as a possessive again. yr Duw 'for God('s sake)'. canys 'since'. gorffen is the imperative, 'finish'."
+  },
+  {
+   "t": "“A unbenn,” heb ynteu, “ef a eill uot yn ediuar gennyf gwneuthur a wneuthum itt. Keis a'th lado; ni ladaf i di.”",
+   "l": "“O chieftain,” said he-for-his-part, “it may be a-matter-of-regret with-me doing what I-did to-you. Seek who may-kill-you; I-will-not-kill you.”",
+   "i": "“Chieftain,” he said, “I may come to regret what I have done to you. Seek someone to kill you; I will not.”",
+   "n": "ef a eill uot 'it may be' — eill from gallu, and ef the dummy subject. yn ediuar gennyf 'a regret with me' = I regret. gwneuthur a wneuthum itt 'doing what I did to you'. Keis a'th lado 'seek who may kill you': the imperative keis, and a'th lado a relative with the infixed 'th and the subjunctive of llad. Pwyll keeps to Arawn's instruction: one blow, and no second."
+  },
+  {
+   "t": "“Vy ngwyrda kywir,” heb yr Hafgan, “dygwch ui odyma: neut teruynedic angheu y mi. Nit oes ansawd y mi y'ch kynnal chwi bellach.”",
+   "l": "“My faithful noblemen,” said Hafgan, “carry me from-here: death is-determined for me. There-is-not means for me to maintain you further.”",
+   "i": "“My faithful noblemen,” said Hafgan, “carry me away from here. My death is certain. I have no means to maintain you any longer.”",
+   "n": "Vy ngwyrda 'my noblemen' — the nasal mutation after uy 'my' (gwyrda > ngwyrda). dygwch is the plural imperative of dwyn 'carry'. neut teruynedic angheu y mi 'it is a determined death for me' — neut is an affirmative particle, 'it is the case that'. ansawd here is 'means, condition'; y'ch kynnal chwi 'to maintain you' — the lord's duty to his men, which he can no longer perform."
+  },
+  {
+   "t": "“Vy ngwyrda innheu,” heb y gwr a oed yn lle Arawn, “kymerwch ych kyuarwyd, a gwybydwch pwy a dylyo bot yn wyr ymi.”",
+   "l": "“My noblemen for-my-part,” said the man who was in the place of Arawn, “take your guidance, and know who ought to-be men to-me.”",
+   "i": "“My noblemen,” said the man who was in Arawn's place, “take counsel, and find out who ought to be my men.”",
+   "n": "innheu after uy ngwyrda: 'my noblemen, for my part', answering Hafgan's. kymerwch and gwybydwch are plural imperatives. kyuarwyd here is 'guidance, information'. pwy a dylyo bot yn wyr ymi 'who ought to be men to me' — dylyo subjunctive; yn wyr 'as men', gwyr soft-mutated after yn."
+  },
+  {
+   "t": "“Arglwyd,” heb y gwyrda, “pawb a'y dyly, canyt oes urenhin ar holl Annwuyn namyn ti.”",
+   "l": "“Lord,” said the noblemen, “everyone owes-it, since there-is-not a king over all Annwfn but you.”",
+   "i": "“Lord,” said the noblemen, “everyone owes it, for there is no king over all Annwfn but you.”",
+   "n": "pawb a'y dyly 'everyone owes it' — dylyu 'owe, be bound to', with the infixed object 'y. canyt oes 'since there is not' (canys + nit). namyn 'except, but'."
+  },
+  {
+   "t": "“Ie,” heb ynteu, “a del yn waredauc, iawn yw gymryt. Ar ny del yn uuyd, kymmeller o nerth cledyueu.”",
+   "l": "“Yes,” said he-for-his-part, “whoever may-come submissively, right it-is to-receive. And-whoever does-not-come obediently, let-him-be-compelled by force of swords.”",
+   "i": "“Yes,” he said, “whoever comes in submission, it is right to receive him. And whoever does not come in obedience, let him be compelled by force of arms.”",
+   "n": "a del 'whoever may come' (del, subjunctive of dyuot); yn waredauc 'submissively' (gwaredawc). iawn yw gymryt 'right it is to receive' — the Red Book adds y before gymryt, 'to receive him'; the White Book reads as printed. Ar ny del 'and whoever does not come' — ar is a 'and' + the relative yr. kymmeller is an impersonal subjunctive, 'let there be compelling'. cledyueu 'swords' (cledyf)."
+  },
+  {
+   "t": "Ac ar hynny, kymryt gwrogaeth y gwyr a dechreu guereskynn y wlat.",
+   "l": "And at that, taking the homage of the men and beginning to-conquer the land.",
+   "i": "And with that he received the men's homage and began to subdue the land.",
+   "n": "Two verbal nouns and no finite verb: kymryt gwrogaeth 'taking homage' — gwrogaeth is the homage a man (gwr) does to his lord — and dechreu guereskynn 'beginning to conquer'. y wlat is gwlat soft-mutated after the feminine article."
+  },
+  {
+   "t": "Ac erbyn hanner dyd drannoeth, yd oed yn y uedyant y dwy dyrnas.",
+   "l": "And by mid day the-next-day, there-were in his possession the two kingdoms.",
+   "i": "And by midday the next day the two kingdoms were in his possession.",
+   "n": "erbyn 'by (a time)'. yd oed yn y uedyant 'were in his possession' — oed is singular though the subject is plural, as is usual when the verb comes first. y dwy dyrnas 'the two kingdoms': dwy is the feminine 'two', and teyrnas mutates after it."
+  },
+  {
+   "t": "Ac ar hynny, ef a gerdwys parth a'y gynnadyl, ac a doeth y Lynn Cuch.",
+   "l": "And at that, he it-was-that went towards his meeting-place, and that came to Glyn Cuch.",
+   "i": "And with that he set off for his meeting place and came to Glyn Cuch.",
+   "n": "a gerdwys 'went' (kerdet, preterite in -wys, soft-mutated). parth a'y gynnadyl 'towards his appointed meeting' (kynnadyl). y Lynn Cuch: Glynn loses its g after y 'to', as at the start.",
+   "p": true
+  },
+  {
+   "t": "A phan doeth yno, yd oed Arawn urenhin Annwuyn yn y erbyn.",
+   "l": "And when he-came there, was Arawn king of-Annwfn in his meeting.",
+   "i": "And when he came there, Arawn king of Annwfn was there to meet him.",
+   "n": "A phan 'and when' (pan, spirant after a). yn y erbyn 'in his meeting' = to meet him, waiting for him; erbyn 'against, to meet'."
+  },
+  {
+   "t": "Llawen uu pob un wrth y gilid o honunt.",
+   "l": "Glad was each one towards the other of them.",
+   "i": "Each was glad to see the other.",
+   "n": "Llawen uu 'glad was' — the adjective first, then bu soft-mutated (uu). pob un … o honunt 'each one of them'; wrth y gilid 'towards the other' — gilid (cilydd) is 'fellow, the other one'."
+  },
+  {
+   "t": "“Ie,” heb yr Arawn, “Duw a dalo itt dy gydymdeithas; mi a'y kygleu.”",
+   "l": "“Yes,” said Arawn, “God may-he-repay to-you your fellowship; I it-is-that have-heard-it.”",
+   "i": "“Yes,” said Arawn, “may God repay you for your fellowship. I have heard of it.”",
+   "n": "Duw a dalo itt 'may God repay you' — talu 'pay', subjunctive dalo, soft-mutated after a; a blessing formula. dy gydymdeithas 'your fellowship' (kydymdeithas). mi a'y kygleu 'I have heard it' — kygleu (kigleu) is an old perfect of klybot 'hear', with the infixed 'y 'it'. Arawn already knows what happened at the ford."
+  },
+  {
+   "t": "“Ie,” heb ynteu, “pan delych dy hun i'th wlat, ti a wely a wneuthum i yrot ti.”",
+   "l": "“Yes,” said he-for-his-part, “when you-come yourself to your land, you it-is-that will-see what I-did for you.”",
+   "i": "“Yes,” he said, “when you come home to your own land, you will see what I have done for you.”",
+   "n": "pan delych 'when you come' — pan with the subjunctive for a future time. dy hun 'yourself'. i'th wlat 'to your land' (gwlat after 'th). ti a wely 'you will see' (gwely, second person of gwelet). a wneuthum i yrot ti 'what I did for you' — yr 'for' conjugated, yrot."
+  },
+  {
+   "t": "“A wnaethost,” heb ef, “yrof i, Duw a'y talo itt.”",
+   "l": "“What you-have-done,” said he, “for me, God may-he-repay-it to-you.”",
+   "i": "“What you have done for me,” he said, “may God repay you for it.”",
+   "n": "A wnaethost 'what you did' (gwneuthur, second person preterite). yrof i 'for me'. Duw a'y talo itt — the same blessing, now with 'y 'it' infixed: 'may God repay it to you'."
+  },
+  {
+   "t": "Yna y rodes Arawn y furuf, a'y drych e hun y Pwyll, Pendeuic Dyuet, ac y kymerth ynteu y furuf e hun a'y drych.",
+   "l": "Then gave Arawn his form, and his appearance own to Pwyll, Prince of-Dyfed, and took he-for-his-part his form own and his appearance.",
+   "i": "Then Arawn gave Pwyll, Prince of Dyfed, his own form and appearance, and took back his own form and appearance himself.",
+   "n": "Yna y rodes 'then gave' — adverb first, particle y, verb unmutated after y. y furuf 'his form' (ffuryf; ff does not mutate, the single f is the scribe's spelling); a'y drych 'and his appearance' (drych 'aspect, look'). e hun 'own'. y kymerth ynteu 'he took, for his part' — kymerth is an old preterite of kymryt, without the -wys ending.",
+   "p": true
+  },
+  {
+   "t": "Ac y kerdaud Arawn racdaw parth a'y lys y Annwuyn, ac y bu digrif ganthaw ymwlet a'y eniuer ac a'y deulu, canis rywelsei ef.",
+   "l": "And went Arawn before-him towards his court in Annwfn, and it-was pleasant with-him to-see his host and his household-troop, since he-had-seen-them.",
+   "i": "And Arawn went on his way to his court in Annwfn, and it was a pleasure to him to see his company and his warband, since it was a while since he had seen them.",
+   "n": "y kerdaud 'went' — the preterite in -awd (kerdet). racdaw 'before him' = on his way. y bu digrif ganthaw 'it was pleasant with him' = he took pleasure. ymwlet is the manuscript's spelling of ymwelet 'see, visit' — a letter has dropped. eniuer 'host, company'; deulu (teulu) soft-mutated after 'y. canis rywelsei ef 'since he had seen them' — the ry- before the pluperfect marks completed action; the White Book stops here, and the Red Book adds 'wy ys blwydyn', 'them for a year', that is, not for a year."
+  },
+  {
+   "t": "Wynteu hagen ni wybuyssynt i eisseu ef, ac ni bu newydach ganthunt y dyuodyat no chynt.",
+   "l": "They however had-not-known his absence, and it-was-not newer with-them his coming than before.",
+   "i": "They however had not known he was gone, and his coming was no more of a novelty to them than before.",
+   "n": "Wynteu 'they for their part'; hagen 'however'. ni wybuyssynt 'they had not known' — pluperfect plural of gwybot in -ssynt. i eisseu ef 'his lack, his absence' (i for y 'his'). newydach 'newer, more novel' — a comparative of newyd. no chynt 'than before' (kynt with spirant mutation after no)."
+  },
+  {
+   "t": "Y dyd hwnnw a dreulwys trwy digrifwch a llywenyd, ac eisted ac ymdidan a'y wreic ac a'y wyrda.",
+   "l": "That day he-spent through amusement and joy, and sitting and conversing with his wife and with his noblemen.",
+   "i": "He spent that day in amusement and gladness, sitting and talking with his wife and his noblemen.",
+   "n": "Y dyd hwnnw a dreulwys 'that day he spent' — the object first, then a, then the verb (treulwys soft-mutated); hwnnw is the masculine 'that'. digrifwch 'amusement, pleasure'; llywenyd 'joy'. a'y wreic 'with his wife' (gwreic)."
+  },
+  {
+   "t": "A phan uu amserach kymryt hun no chyuedach, y gyscu yd aethant.",
+   "l": "And when it-was more-timely to-take sleep than carousing, to sleep they-went.",
+   "i": "And when it was more time for sleep than for carousing, to bed they went.",
+   "n": "amserach 'more timely', a comparative of amser 'time'. kymryt hun 'take sleep'; no chyuedach 'than carousing' (kyuedach after no)."
+  },
+  {
+   "t": "Y vely a gyrchwys, a'y vreic a aeth attaw.",
+   "l": "His bed he-made-for, and his wife it-was-that went to-him.",
+   "i": "He went to his bed, and his wife came to him.",
+   "n": "Y vely 'his bed' — gwely soft-mutated after 'his', spelt with v; a gyrchwys 'he made for'. a'y vreic 'and his wife' (gwreic), a aeth attaw 'went to him'.",
+   "p": true
+  },
+  {
+   "t": "Kyntaf y gwnaeth ef ymdidan a'y wreic, ac ymyrru ar digriwwch serchawl a charyat arnei.",
+   "l": "First he-did conversation with his wife, and applying-himself to amorous amusement and love on-her.",
+   "i": "First he talked with his wife, and then turned to amorous pleasure and love with her.",
+   "n": "Kyntaf 'first', adverb first with particle y. ymyrru ar 'apply oneself to, meddle with'. digriwwch is a spelling of digrifwch; serchawl 'amorous' (serch 'love'); charyat 'love' (karyat, spirant after a). wreic is supplied: the White Book scribe left a gap after a'y, marked with a caret, and the Red Book has wreic."
+  },
+  {
+   "t": "A hynny ny ordifnassei hi ys blwydyn, a hynny a uedylywys hi.",
+   "l": "And that she-had-not-been-accustomed-to for a year, and that it-was-that she-pondered.",
+   "i": "And she had not been used to that for a year, and she pondered it.",
+   "n": "ordifnassei 'had been accustomed to' (gordifnu), pluperfect, soft-mutated after ny in this spelling. ys blwydyn 'for a year' — ys is 'it is', so 'it is a year (that …)'. a hynny a uedylywys hi 'and that she pondered' — medylyaw 'think', preterite; the object hynny comes first."
+  },
+  {
+   "t": "“Oy a Duw,” heb hi, “pa amgen uedwl yssyd yndaw ef heno noc ar a uu yr blwydyn y heno?”",
+   "l": "“Oh God,” said she, “what different mind is in-him tonight than what has-been for-the year to tonight?”",
+   "i": "“Oh God,” she said, “what a different mind is in him tonight from what has been in him for a year to this night!”",
+   "n": "Oy a Duw 'oh God': Oy is an exclamation, a the vocative particle. pa amgen uedwl 'what different mind' (medwl soft-mutated after amgen). yssyd yndaw ef 'is in him'. noc ar a uu 'than what has been' — ar is the article yr doing the work of 'that which', and a uu 'that was'. yr blwydyn y heno 'for the year to tonight'. She is speaking to herself."
+  },
+  {
+   "t": "A medylyaw a wnaeth yn hir.",
+   "l": "And thinking she-did for-a-long-time.",
+   "i": "And she thought for a long time.",
+   "n": "medylyaw a wnaeth 'think she did' — the same auxiliary pattern with a woman as subject; Welsh does not mark it. yn hir 'for long'."
+  },
+  {
+   "t": "A guedy y medwl hwnnw, duhunaw a wnaeth ef, a farabyl a dywot ef wrthi hi, a'r eil, a'r trydyt; ac attep ny chauas ef genthi hi yn hynny.",
+   "l": "And after that thought, waking he-did, and a word it-was-that he-said to-her, and the second, and the third; and an answer he-did-not-get from-her in that.",
+   "i": "And after that thought, he woke, and said a word to her, and a second, and a third; and he got no answer from her to any of it.",
+   "n": "guedy 'after' (gwedy). duhunaw 'wake' with the a wnaeth auxiliary. farabyl 'a word, an utterance' — parabyl with the spirant mutation after a 'and', written f for ph. a'r eil, a'r trydyt 'and the second and the third' — ordinal numbers. ny chauas 'he did not get' (cauas, preterite of caffael, spirant after ny). genthi hi 'from her'."
+  },
+  {
+   "t": "“Pa achaws,” heb ynteu, “na dywedy di wrthyf i?”",
+   "l": "“What cause,” said he-for-his-part, “that you-do-not-speak to me?”",
+   "i": "“Why,” he said, “will you not speak to me?”",
+   "n": "Pa achaws 'what cause' = why. na dywedy di 'that you do not say' — the negative na in a subordinate clause. wrthyf i 'to me'."
+  },
+  {
+   "t": "“Dywedaf wrthyt,” heb hi, “na dywedeis ys blwydyn y gymmeint yn y kyfryw le a hwnn.”",
+   "l": "“I-say to-you,” said she, “that I-have-not-said for a year as-much in such a place as this.”",
+   "i": "“I tell you,” she said, “that for a year I have not said this much in a place like this.”",
+   "n": "Dywedaf wrthyt 'I say to you'. na dywedeis 'that I have not said' (preterite first person). y gymmeint 'as much' (kymmeint soft-mutated). yn y kyfryw le a hwnn 'in such a place as this' — kyfryw 'such', le is lle soft-mutated after it, a hwnn 'as this one'. She means: in bed."
+  },
+  {
+   "t": "“Paham?” heb ef. “Ys glut a beth yd ymdidanyssam ni.”",
+   "l": "“Why?” said he. “It-is a persistent thing that we-have-conversed.”",
+   "i": "“Why?” he said. “We have talked together constantly.”",
+   "n": "Paham 'why?' (pa + am 'for what'). Ys glut a beth 'it is a persistent thing' — ys 'it is', glut 'persistent, constant', and a beth 'of a thing', an idiom for 'a very … thing'. yd ymdidanyssam ni 'that we conversed' — the plural preterite in -ssam. He is thinking of the daytime talk; she is not."
+  },
+  {
+   "t": "“Meuyl im,” heb hi, “yr blwydyn y neithwyr o'r pan elem yn nyblyc yn dillat guely, na digrifwch, nac ymdidan, nac ymchwelut a honot dy wyneb attaf i — yn chwaethach a uei uwy no hynny o'r bu y rom ni.”",
+   "l": "“Shame to-me,” said she, “for-the year to last-night, from when we-went into the fold of the bed-clothes, neither amusement, nor conversation, nor turning of-you your face to me — much-less what might-be more than that, of what has-been between us.”",
+   "i": "“Shame on me,” she said, “if for a year to last night, from the moment we were wrapped in the bedclothes, there has been any pleasure or talk, or your even turning your face to me — let alone anything more than that between us.”",
+   "n": "Meuyl im 'shame to me' — an oath by one's own shame: 'shame on me if …', and what follows is what she swears did not happen. yr blwydyn y neithwyr 'for the year to last night'. o'r pan elem 'from when we went' (elem, imperfect of mynet). yn nyblyc yn dillat guely 'in the fold in bedclothes' — plyc 'fold' with nasal mutation after yn 'in'. na … nac … nac 'neither … nor … nor'. a honot 'of you' — the manuscript writes a for o here (ohonot). yn chwaethach 'much less, let alone'. a uei uwy no hynny 'what might be more than that'; o'r bu y rom ni 'of what was between us' (rom, rwng conjugated for 'us')."
+  },
+  {
+   "t": "Ac yna y medylywys ef, “Oy a Arglwyd Duw,” heb ef, “cadarn a ungwr y gydymdeithas, a diffleeis, a geueis i yn gedymdeith.” Ac yna y dywot ef wrth y wreic:",
+   "l": "And then he-thought, “Oh Lord God,” said he, “strong of-one-man in his fellowship, and unfailing, that I-have-got as a companion.” And then he-said to his wife:",
+   "i": "And then he thought: “Oh Lord God,” he said, “what a man, firm and unfailing in his fellowship, I have found for a companion.” And then he said to his wife:",
+   "n": "y medylywys ef 'he thought' — the thought is then quoted with heb ef like speech. cadarn a ungwr 'strong the one-man' — an exclamation: 'how strong a man!' (un + gwr). y gydymdeithas 'his fellowship'. diffleeis 'unfailing, staunch' — the exact form and sense are uncertain; editors take it as dif- 'un-' + a word for 'fail'. a geueis i yn gedymdeith 'that I got as a companion' (keueis, preterite of caffael; kedymdeith). Arawn now understands what Pwyll's back to the queen meant."
+  },
+  {
+   "t": "“Arglwydes,” heb ef, “na chapla di uiui. Y rof i a Duw,” heb ynteu, “ni chyskeis inheu gyt a thi, yr blwydyn y neithwyr, ac ni orwedeis.”",
+   "l": "“Lady,” said he, “do-not-blame you me. Between me and God,” said he-for-his-part, “I-did-not-sleep, I-for-my-part, with you, for-the year to last-night, and I-did-not-lie-down.”",
+   "i": "“Lady,” he said, “do not blame me. Between me and God,” he said, “I have not slept with you for a year until last night, nor lain with you.”",
+   "n": "Arglwydes 'lady', the feminine of arglwyd. na chapla di uiui 'do not blame me' — the negative imperative with spirant mutation (kablu 'blame'), and uiui the emphatic 'me' (miui). ni chyskeis inheu 'I did not sleep, for my part' (kyscu); gyt a thi 'together with you'. ni orwedeis 'I did not lie down' (gorwed). He tells her the truth, in his own person, without yet saying who it was."
+  },
+  {
+   "t": "Ac yna menegi y holl gyfranc a wnaeth idi.",
+   "l": "And then telling the whole story he-did to-her.",
+   "i": "And then he told her the whole story.",
+   "n": "menegi 'tell, relate' with a wnaeth. y holl gyfranc 'the whole story' — kyfranc here in its other sense, 'adventure, tale', not 'fight'. idi 'to her'."
+  },
+  {
+   "t": "“I Duw y dygaf uy nghyffes,” heb hitheu, “gauael gadarn a geueist ar gedyndeith yn herwyd ymlad a frouedigaeth y gorff, a chadw kywirdeb wrthyt titheu.”",
+   "l": "“To God I-bring my confession,” said she-for-her-part, “a firm hold you-got on a companion in-respect-of fighting and testing of the body, and keeping faithfulness towards you yourself.”",
+   "i": "“I confess to God,” she said, “that you have got a firm hold on a companion, in fighting and in trial of the body, and in keeping faith with you.”",
+   "n": "I Duw y dygaf uy nghyffes 'to God I bring my confession' — a solemn way of affirming; nghyffes is kyffes with nasal mutation after uy. gauael gadarn 'a firm hold' (gafael; cadarn soft-mutated after the feminine noun). ar gedyndeith 'on a companion' — the scribe wrote gedyndeith for gedymdeith. yn herwyd 'in respect of'. frouedigaeth 'testing' — prouedigaeth with the spirant mutation after a 'and', written f for ph; y gorff 'of the body' (corff). kywirdeb 'faithfulness'; titheu 'you for your part'."
+  },
+  {
+   "t": "“Arglwydes,” heb ef, “sef ar y medwl hwnnw yd oedwn inheu, tra deweis wrthyt ti.”",
+   "l": "“Lady,” said he, “that-is on that thought I-was, I-for-my-part, while I-was-silent to you.”",
+   "i": "“Lady,” he said, “that is just what I was thinking while I kept silent with you.”",
+   "n": "sef ar y medwl hwnnw yd oedwn 'it is on that thought that I was' — sef pointing at what he was thinking. tra deweis 'while I was silent' — tewi 'be silent', preterite; the manuscript has a mark after tra that Evans prints as an asterisk."
+  },
+  {
+   "t": "“Diryued oed hynny,” heb hitheu.",
+   "l": "“No-wonder was that,” said she-for-her-part.",
+   "i": "“No wonder,” she said.",
+   "n": "Diryued 'no wonder' (di- 'un-' + ryued 'wonder'), predicate first before oed."
+  },
+  {
+   "t": "Ynteu Pwyll, Pendeuic Dyuet, a doeth y gyuoeth ac y wlat.",
+   "l": "He-for-his-part, Pwyll, Prince of-Dyfed, it-was-that came to his realm and his land.",
+   "i": "Pwyll, Prince of Dyfed, for his part, came to his realm and his land.",
+   "n": "Ynteu Pwyll 'Pwyll for his part' — the tale turns from one king to the other with the conjunctive pronoun. y gyuoeth ac y wlat 'to his realm and his land': y is 'to' and the second y 'his' is absorbed — gyuoeth and wlat show the mutation of 'his'.",
+   "p": true
+  },
+  {
+   "t": "A dechreu ymouyn a gwyrda y wlat, beth a uuassei y arglwydiaeth ef arnunt hwy y ulwydyn honno y wrth ryuuassei kynn no hynny.",
+   "l": "And beginning to-ask of the noblemen of the land, what had-been his lordship over-them that year compared-with what-had-been before that.",
+   "i": "And he began to ask the noblemen of the land what his rule over them had been like that year, compared with what it had been before.",
+   "n": "ymouyn a 'ask, inquire of'. beth a uuassei 'what had been' — the pluperfect of bot (buassei, soft-mutated after a). y arglwydiaeth ef 'his lordship'; arnunt hwy 'over them'. y wrth 'compared with' (literally 'from beside'). ryuuassei 'had been' with the perfective ry-. kynn no hynny 'before that'."
+  },
+  {
+   "t": "“Arglwyd,” heb wy, “ny bu gystal dy wybot; ny buost gyn hygaret guas ditheu; ny bu gyn hawsset gennyt titheu treulaw dy da; ny bu well dy dosparth eiroet no'r ulwydyn honn.”",
+   "l": "“Lord,” said they, “there-was-not so-good your discernment; you-were-not so lovable a lad, you-for-your-part; there-was-not so easy with-you, you-for-your-part, spending your goods; there-was-not better your governance ever than this year.”",
+   "i": "“Lord,” they said, “your judgement was never so good; you were never so amiable a man; you were never so ready to spend your wealth; your rule was never better than this year.”",
+   "n": "heb wy 'said they'. Four parallel clauses with ny bu 'was not' and an equative: gystal 'as good' (kystal), gyn hygaret 'as lovable' (kyn + hygar with the equative -et), gyn hawsset 'as easy' (hawd). gwybot here is 'knowledge, discernment' as a noun. guas 'lad, young man' is affectionate; ditheu, titheu 'you for your part'. dosparth 'governance, order'. no'r ulwydyn honn 'than this year' — honn, the feminine 'this'."
+  },
+  {
+   "t": "“Y rof i a Duw,” heb ynteu, “ys iawn a beth iwch chwi, diolwch y'r gwr a uu y gyt a chwi, a llyna y gyfranc ual y bu” — a'e datkanu oll o Pwyll.",
+   "l": "“Between me and God,” said he-for-his-part, “it-is a right thing for you, to-thank the man who was together with you, and there-is the story as it was” — and its telling all by Pwyll.",
+   "i": "“Between me and God,” he said, “it is only right that you should thank the man who was with you, and here is the story as it happened” — and Pwyll told it all.",
+   "n": "ys iawn a beth 'it is a right thing' — the same a beth idiom as ys glut a beth. iwch chwi 'to you (plural)'. diolwch y'r gwr 'thank the man'. a llyna y gyfranc ual y bu 'and there is the story as it was'. a'e datkanu oll o Pwyll 'and its telling all by Pwyll' — the verbal noun with its object as possessive ('e = 'y 'its'), and o Pwyll marking who did it."
+  },
+  {
+   "t": "“Ie, Arglwyd,” heb wy, “diolwch y Duw caffael o honot y gydymdeithas honno; a'r arglwydiaeth a gaussam ninheu y ulwydyn honno, nys attygy y gennym, ot gwnn.”",
+   "l": "“Yes, Lord,” said they, “thanks to God for getting by-you that fellowship; and the lordship that we-got, we-for-our-part, that year, you-will-not-withdraw-it from-us, if I-know.”",
+   "i": "“Yes, Lord,” they said, “thanks be to God that you have won that fellowship; and the rule we had that year — you will not take it back from us, I trust.”",
+   "n": "diolwch y Duw 'thanks to God'. caffael o honot 'getting by you' — the verbal noun with o marking the doer, as with edrych ohonaw earlier. a gaussam ninheu 'that we got, for our part' (caffael, preterite plural caussam; ninheu the conjunctive 'we'). nys attygy 'you will not withdraw it' — ny + 's 'it' + attygy, from attygu 'take back, withdraw'; y gennym 'from us'. ot gwnn 'if I know' = as far as I know, I trust."
+  },
+  {
+   "t": "“Nac attygaf, y rof i a Duw,” heb ynteu Pwyll.",
+   "l": "“I-will-not-withdraw-it, between me and God,” said he-for-his-part Pwyll.",
+   "i": "“I will not, between me and God,” said Pwyll.",
+   "n": "Nac attygaf 'I will not withdraw' — nac is the negative used in answering, and the verb is repeated because Welsh has no bare 'no'. heb ynteu Pwyll: the conjunctive pronoun and the name together."
+  },
+  {
+   "t": "Ac o hynny allan, dechreu cadarnhau kedymdeithas y ryngthunt, ac anuon o pop un y gilid meirch a milgwn a hebogeu a fob gyfryw dlws, o'r a debygei bob un digrifhau medwl y gilid o honaw.",
+   "l": "And from that onward, beginning to-strengthen the fellowship between-them, and sending by each one to the other horses and greyhounds and hawks and every kind-of treasure, of-those that each one supposed to-please the mind of the other by-it.",
+   "i": "And from then on the fellowship between them grew firmer, and each sent the other horses and greyhounds and hawks and every kind of treasure that he thought would please the other's mind.",
+   "n": "o hynny allan 'from that out' = from then on. cadarnhau 'strengthen' (cadarn). anuon o pop un y gilid 'sending by each one to the other'. meirch 'horses' (plural of march), milgwn 'greyhounds' (mil + cwn), hebogeu 'hawks' — the gifts of kings. a fob gyfryw dlws 'and every kind of treasure' — pob with the spirant after a 'and' (written f), then kyfryw and tlws soft-mutated. o'r a debygei bob un 'of those that each one supposed'; digrifhau medwl y gilid o honaw 'to please the other's mind by it'.",
+   "p": true
+  },
+  {
+   "t": "Ac o achaws i drigiant ef y ulwydyn honno yn Annwuyn, a gwledychu o honaw yno mor lwydannus, a dwyn y dwy dyrnas yn un drwy y dewred ef a'y uilwraeth, y diffygywys y enw ef ar Pwyll, Pendeuic Dyuet, ac y gelwit Pwyll Penn Annwuyn o hynny allan.",
+   "l": "And because of his dwelling that year in Annwfn, and ruling by-him there so prosperously, and bringing the two kingdoms into one through his valour and his prowess, there-fell-away his name from Pwyll, Prince of-Dyfed, and he-was-called Pwyll Head of-Annwfn from that onward.",
+   "i": "And because he had dwelt that year in Annwfn, and ruled there so prosperously, and brought the two kingdoms into one by his valour and his prowess, his name fell away from Pwyll, Prince of Dyfed, and from then on he was called Pwyll, Head of Annwfn.",
+   "n": "o achaws 'because of'. i drigiant ef 'his dwelling' (trigiant). gwledychu o honaw 'ruling by him'; mor lwydannus 'so prosperously' (llwydannus, soft-mutated after mor). dwyn y dwy dyrnas yn un 'bringing the two kingdoms into one'. dewred 'valour', uilwraeth 'prowess, soldiership' (milwraeth). y diffygywys y enw ef 'his name failed, fell away' — diffygyaw 'fail, cease'. y gelwit 'he was called' — the impersonal imperfect in -it. Penn Annwuyn 'Head of Annwfn' is the name the episode ends by giving him, and the closing sentence says why."
+  }
+ ]
+}

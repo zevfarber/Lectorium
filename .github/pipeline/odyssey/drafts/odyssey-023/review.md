@@ -64,3 +64,91 @@
   - 5.168: ἵκηαι for ἵκηται, so "you" for "he".
 
   Each adjustment is faithful to the Greek.
+
+## Review pass 2
+
+**Blocking issues: none.** I did not touch `units.json` in this pass, so every `t` is byte-identical to HEAD. I found no problem with `t` or unit boundaries. I also ran the build's glossary checks against the edited `gloss.json` without writing anything. Nothing redefines an existing form, nothing lies outside this part, every broadening keeps its old entry whole, and no form is missing.
+
+### Glossary: corrections to new entries (10)
+
+| Form | Severity | What was wrong | What I did |
+|---|---|---|---|
+| τοσσόνδε | MINOR | The lemma was given as τόσος. LSJ lemmatises the -δε compound as τοσόσδε. | Lemma → "τοσόσδε (epic τοσσόσδε, …)". The rest is unchanged. |
+| παρεξελθεῖν | MINOR | "(Attic παρελθεῖν with extra preverb)" wrongly implies that παρεξέρχομαι is a non-Attic stand-in. The compound exists in Attic as well. | → "(παρα- + ἐξ- + ἐλθεῖν)". |
+| δακρυόφιν | MINOR | It was parsed as "pl.". The -φι(ν) suffix does not mark number. | → "neut. gen./abl. with the epic suffix -φιν (number not marked)". |
+| πῆξαι | MINOR | The entry gave only the infinitive-as-imperative reading. The unit's note, as fixed in pass 1, also allows the identical aor. mid. imper. 2 sg. | Added "(or aor. mid. imper. 2 sg., the same form)", so the entry and the note agree. |
+| πέλασσε | MINOR | The parse left out that the form is unaugmented and has epic σσ. The house practice, as with μάχοντο and μίγη, is to flag both. | → "aor. 3 sg., unaugmented, epic σσ (= Attic ἐπέλασε)". |
+| ἀλίτοντο | MINOR | The augment is missing, but this was not flagged. | → "aor. mid. 3 pl., unaugmented (= ἠλίτοντο)". |
+| ῥίγησεν (5.116, 5.171) | MINOR | The augment is missing, but this was not flagged. | Added "unaugmented (= ἐρρίγησεν)". |
+| ἀποπέμψω | MINOR | The gloss "’I will send you away’" pinned the entry to line 161, which breaks the rule that an entry is general to its form. | → "’I will send away’". |
+| ἱερά | MINOR | The lemma was given as ἱερόν. LSJ lemmatises the word as ἱερός. | → "ἱερός (neut. as noun ἱερόν)". |
+| ἠνώγειν | NOTE | This entry says plupf. The existing published ἠνώγει entry says impf. for the same tense. | Added "(= ἠνώγει, often labelled impf.)" so that a reader comparing the two is not confused. |
+
+### Glossary: broadenings (10 new, and 1 extended)
+
+The glosser checked only the forms it could see needed a new sense. I checked every known form in the part against its actual line or lines. Each of the entries below is a published entry that fails a real use in this part. In each case the old text is kept whole and the new reading is appended after " · ".
+
+- **ἀκτῆς (5.151). MAJOR.** The only published entry is ἀκτή "grain, meal", and it explicitly calls that "a homonym of ἀκτή ’shore’". Here ἐπ’ ἀκτῆς is "on the shore". I added the ‘shore’ reading. The same gap already shipped at 5.82 in odyssey-022.
+- **ἐθελούσῃ (5.155). MAJOR.** The published gloss is "’unwilling’ (οὐκ ἐθελούσῃ)". Here the word is un-negated and means the opposite, "she willing" (οὐκ ἐθέλων ἐθελούσῃ). I added "without a negative: ’willing’".
+- **ἀνώγει (5.139). MAJOR.** The published entry says "impf. 3 sg. ’was bidding’". Here the verb is paired with the present ἐποτρύνει and is itself a present, as the unit's note says. I added "pres. 3 sg. … ’bids’".
+- **ἄπυστος (5.127). MAJOR.** The published entry gives only the passive sense, "unheard of". Here the sense is active, "without tidings": Zeus was not long uninformed. LSJ cites this very line for the active sense, and the `l` and the note both use it. I added the active reading.
+- **ἀργαλέον (5.175). MINOR.** The published parse is "neut. nom. sg., impersonal predicate governing an inf.". Here the word is a neuter accusative agreeing with λαῖτμα, as the note says. I added that reading.
+- **θεά (5.173, 5.178). MINOR.** The published entry says "nom. sg.". Both uses here are vocative. I added "voc. sg. (same form)". The glossary already marks vocatives elsewhere (φίλε, τέκνον).
+- **θεοί (5.118, 5.129). MINOR.** The published entry says "nom. pl.". Both uses here are vocative. I added "voc. pl.". I left θεὰ (5.97) and θεοὶ (5.122) alone, because a nominative reading is defensible there.
+- **ὅττι (5.112). MINOR.** The published entry is "whoever, whatever". It does not cover the superlative idiom ὅττι τάχιστα, "as quickly as possible", which appears here for the first time. I added the idiom.
+- **ἐποιχομένη (5.124). MINOR.** The published sense is "go to and fro at, ply (the loom)". Here the word means "come upon, assail", with her shafts; the `l` has "assailing" and the `i` has "came upon him". I added that sense.
+- **αὐτῇ (5.189, 5.190). MINOR.** The published entry gives "’for herself’" and "’in it’". Here the word reinforces a first-person pronoun (ἐμοί περ αὐτῇ, μοι αὐτῇ), so the sense is "myself". I added that reading.
+- **μή (5.147), extending the glosser's broadening. MINOR.** The glosser correctly added μή + fut. inf. for 5.179/187. But the fear clause at 5.147, μή πώς … χαλεπήνῃ, takes the subjunctive after a primary verb, and the old entry covers only "the optative in secondary sequence". I appended "’lest’ with the subj. after a primary verb".
+
+**The glosser's own 6 broadenings are confirmed as warranted and correct.**
+- **αὐτῆς:** ἐπ’ αὐτῆς 5.163 is governed by a preposition, and the old entry says "governed by a noun".
+- **τὸν:** τὸν μῦθον 5.98 and 5.183 is adjectival.
+- **ἧος:** at 5.123 it means "until" with an indicative past terminus.
+- **ὅτε:** 5.189 has the optative, "if ever".
+- **μή:** 5.179 and 5.187 have μή + fut. inf. after swearing.
+- **πέρι:** ἄστυ πέρι 5.106 is a preposition in anastrophe with the accusative.
+
+### Glossary: checked and confirmed (NOTE)
+
+- **All 152 new entries.** I checked each against every occurrence in the 49 units. Apart from the rows above, every lemma, parse, meaning and Attic equivalent is correct, including the forms that occur twice (κεραυνῷ, ἀργῆτι, βουλευσέμεν, παρεῖναι, κατειβ-). The entry shape is correct. No entry has an ASCII apostrophe, a backtick or a straight quote, and none is longer than 230 characters.
+- **Other known forms.** These cover their uses here and were left alone:
+  - τὸ at 5.175 and 5.185; ὅς at 5.128 and 5.185
+  - ᾧ, οἷς and ἣν as possessives; οἶον and οἷον
+  - ἐπὶ at 5.175, as an adverb or in tmesis; πάρα; ἔνι; περὶ + gen. at 5.130
+  - ὅτ’ and ὁπότ’; τις, τι and τί; τοι as both pronoun and particle
+  - ἤματα; ὕδωρ as nom. and acc.; κακὸν
+- **Left as they stand (not wrong enough to broaden):**
+  - ὥς at 5.164 is a purpose clause without κε, but the entry's ‘so that’ still conveys it.
+  - μευ at 5.170 is a gen. of comparison, but "gen. sg." is still true.
+  - ἐυπλόκαμος has a parenthesis "(Calypso’s standing epithet)" though it is used of Demeter at 5.125, and its gloss "fair-tressed" differs from the table's "fine-plaited". That is harmless to this part and flagged for fold-in.
+
+### Translation
+
+**No translation corrections were needed.** I re-verified each of pass 1's changes against the Greek and all ten are correct:
+
+- **5.112 `i` (the MAJOR fix).** ἠνώγειν is a pluperfect used as a simple past, so "He bade" is correct, and `l`, `i` and the note now agree.
+- **5.99 note.** Correct.
+- **5.123 note.** "ἧος is the epic form of Attic ἕως" is correct.
+- **5.157 note.** Correct.
+- **5.163 note.** Correct, and now matched by the πῆξαι entry.
+- **5.166.** "all you could desire" is correct. No published repeat is involved.
+- **5.177 note.** Correct.
+- **5.188–189.** The verbs are now consistent across the part. No published repeat is involved.
+- **5.135 note.** Correct.
+- **new-renderings.md flag.** Correct.
+
+I also checked the following, and all of it holds:
+- **Line breaks.** Every unit has the same number of `\n` in `l` as in `t`, and no `i` contains `\n`.
+- **Quotation marks.** There are 6 “ and 6 ” in `l`, and the same in `i`. They open at units 0, 13, 26, 34, 41 and 45 and close at 11, 24, 26, 39, 43 and 48. The `mark` tags sit on the opening units.
+- **Internal repeat.** 5.110–111 (unit 9) and 5.133–134 (unit 19) have identical `l` and `i`.
+- **The 8 published repeated lines.** 5.115, 5.117, 5.142, 5.144, 5.157, 5.158, 5.172 and 5.181 still reproduce the shipped wording line for line. The only changes are the forced punctuation, pronoun and gender adjustments pass 1 recorded.
+- **House-renderings table.** Every fixed formula still matches its row, re-checked against the table:
+  - δῖα θεάων, ἔπεα πτερόεντα προσηύδα, τὴν δ’ αὖτε προσέειπε
+  - διάκτορος and ἀργεϊφόντης, the masculine ὣς ἄρα φωνήσας ἀπέβη, ὣς φάτο (he and she)
+  - οἶνοψ πόντος, ἀτρύγετος, νηῦς θοή, νηῦς ἐίση
+  - ἐπ’ ἠεροειδέα πόντον, ἐν σπέσσι γλαφυροῖσι, ἤματα πάντα, μεγαλήτωρ
+  - δῖος, and the κατέρεξεν gesture formula
+- **Grammatical labels in the notes.** All are true of the form in its line, and no note contradicts its own `l` or `i`. A few cosmetic differences remain, and each is within the note's own scope: 5.152 note "flowing away" against `l` "ebbing away"; 5.129 note "is at my side" against `l` "be beside me"; the 5.97 note allows either case for θεά.
+- **5.141 `i` (NOTE).** The `i` contains an ASCII apostrophe ("the sea's broad back"). It reproduces the shipped wording of 5.142's repeat verbatim, and the same string has already shipped in four parts, so it stays. It is flagged for a global typographic sweep.
+
+**Build readiness: clean.** Run `python3 build_odyssey.py odyssey-023`, then `python3 validate_odyssey.py odyssey-023`.

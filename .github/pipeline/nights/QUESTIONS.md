@@ -169,15 +169,17 @@ Open decisions the rules do not settle. A run writes the question and what it de
   شعر"), supporting this reading. **Future runs: a dash-separated single-consonant sequence
   from one pass is itself a signal to check for kashida-stretching before trusting either
   pass's reading, even after adjudication.**
-- **apply_verdicts.py's hardcoded PDF-18 offset (recurring since run 2026-09-17 pp. 47-54, most
-  recently run 2026-09-19 pp. 87-94).** The committed tool still assumes printed = PDF-18
-  throughout; every run since the pp. 47-54 offset discovery has worked around this with a
-  locally-patched copy (never committing the change, since the runbook's gate step expects
+- **apply_verdicts.py's hardcoded PDF-18 offset (recurring since run 2026-09-17 pp. 47-54, still
+  recurring as of run 2026-09-27 pp. 135-142).** The committed tool still assumes printed =
+  PDF-18 throughout; every run since the pp. 47-54 offset discovery has worked around this with
+  a locally-patched copy (never committing the change, since the runbook's gate step expects
   `git diff --stat` to show only the archive plus claim/LOG/plan). The offset has now held for
-  6 consecutive runs (PDF 50 through PDF 94). Left the tool as-is again this run, consistent
-  with precedent and the gate's scope rule, but flagging in case Zev would rather have the
-  constant fixed properly (or made a configurable argument) now that it is clearly not a
-  one-off anomaly.
+  every run from PDF 50 through PDF 142 (confirmed again this run by the p.135 header read,
+  "١١٥"), roughly a dozen runs and counting. Left the tool as-is again this run, consistent with
+  precedent and the gate's scope rule (the patch lives only in a `/tmp` copy, never touching the
+  repo), but this is well past "one-off anomaly" at this point — worth Zev fixing the constant
+  properly (or making it a `--offset` argument like `nights_ocr.py` already has) rather than
+  every future run re-discovering and re-patching the same line.
 - **apply_verdicts.py cannot express a word-reorder verdict (P67L22/PDF p.87, run 2026-09-19
   pp. 87-94).** The two passes disagreed on word order ("باذنك ندخل" vs "ندخل باذنك"); the
   adjudicator ruled pass 2's order correct via two separate word-level verdicts (insert "ندخل"
@@ -884,3 +886,20 @@ Open decisions the rules do not settle. A run writes the question and what it de
   (see `nights_index.py`'s plain table), so the fix is not disturbing settled history, only this
   and later nights. Published Night 15 using the corrected P105L03-P110L14 range. Worth the
   owner's eyes if he ever audits the tool, but nothing here needed him to proceed.
+
+- **Third consecutive retrain regression, and no committed CER-scoring script (run 2026-09-27,
+  pp. 135-142).** No `tools/` script measures held-out CER; each retraining run has written its
+  own throwaway comparison. This run's from-scratch Levenshtein-CER script gave a baseline
+  (committed model) of 9.86% combined on the same two held-out pages (printed 40, 55) that
+  earlier runs reported as 8.64%/8.72% — the direction of the regression this run found (9.86%→
+  10.79%, discarded) is unambiguous regardless, since both numbers came from the same script on
+  the same two models, but the absolute numbers are not comparable across runs and next run's
+  measurement won't be comparable to this one either. Decided meanwhile: reported this run's own
+  numbers rather than force a match to the old ones. Also, this is the third discarded retrain
+  attempt in a row (pp. 119-126, 127-134, now 135-142), with 435 verified line pairs now waiting
+  unused — per the standing note two entries up in plan.md, worth reconsidering the retrain
+  recipe itself (iteration count 1500, learning rate 0.0005, or the two held-out pages, one of
+  which — printed p. 40 — has gotten worse in the last two attempts specifically) before a
+  fourth attempt just repeats the pattern. Committing a small `tools/score_cer.py` (fixed
+  held-out pages, one consistent metric) would also stop each run from re-deriving its own
+  ad hoc comparison.

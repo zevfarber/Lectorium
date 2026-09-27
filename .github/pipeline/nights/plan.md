@@ -31,18 +31,27 @@ scan anomaly turns up later in the volume.
 | done (2026-09-25, unattended) | 111–118 | 91–98 | `archive/pp091-098.json` | The Envied and the Envier concludes (the envier's dust-spell turns the envied into an ape; the envier is spared and rewarded regardless); the ape ships out, is caught writing, and a florilegium of five pen-style verse couplets (Ruqʿa, Rayhani, Thuluth, Naskh, Tumar) is presented to a king on printed p. 94 (PDF page 114 only — see QUESTIONS.md for a scan-corruption artifact on that page's exterior, confirmed not to affect the printed text); the ape (really the ensorcelled prince Antimarus's son) is fêted, beats the king at chess, and is unmasked by the princess Sitt al-Husn, who battles the jinni Jirjis in a shape-shifting duel (lion/serpent, eagle/scorpion, black cat/wolf, worm-eaten pomegranate/rooster) that is still underway as the batch ends |
 | done (2026-09-26, unattended) | 119–126 | 99–106 | `archive/pp099-106.json` | The shape-shifting duel between Sitt al-Husn and the jinni Jirjis ends with both burned to ash by a stray fire-grain; the second qalandar (freed from the ape-spell too late) tells the rest of his own tale — the pardoned lover's ifrit-brother burning half his face, the Qalandar fleeing and shaving his own beard — then the frame closes and the third qalandar opens his tale: his father's death, the fated princess in the mountain vault, the bronze horseman talisman he strikes early, the sea-voyage, the magnetic mountain that wrecks his ship, and (per a dream-messenger's instructions) the underground vault, the bow of brass, and the ten days adrift on the enchanted skiff that ends the batch |
 | done (2026-09-26, unattended) | 127–134 | 107–114 | `archive/pp107-114.json` | The Third Qalandar's tale opens: grieving slaves burying a boy alive on his father's death (feared the shock would kill him), the shroud-wrapped return home, the old man's collapse, and (as the batch ends) his sea-voyage and shipwreck at another magnetic-mountain-like hazard, taking refuge in a strange palace |
+| done (2026-09-27, unattended) | 135–142 | 115–122 | `archive/pp115-122.json` | The Third Qalandar finishes his own tale: the sheepskin-and-Roc-bird flight to a mountain, a year with forty palace maidens, the forbidden fortieth chamber opened, the black jinn-horse ridden and struck, flown to a rooftop where an unseen hand blinds his right eye and casts him out to join (and be rejected by) the ten one-eyed young men; the frame closes at dawn (P121L08-09) and Night 17 opens with the eldest of the two beaten-dog sisters telling her own tale to the caliph: three sisters inherit and marry, their husbands squander the dowries and abandon them, the two elder sisters return destitute and are sheltered by the youngest (the narrator), and the three set out together by ship, which loses its course, as the batch ends |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 134 (archive ends at printed p. 114). Pages remaining: ~804 PDF pages
-(approximate, pending the corrected offset holding). Lines archived: 2455. calc.traineddata last
+**Last PDF page done: 142 (archive ends at printed p. 122). Pages remaining: ~796 PDF pages
+(approximate, pending the corrected offset holding). Lines archived: 2632. calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
-attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt this run, from 140 new
+attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new
 verified line pairs (pp. 127-131, 133-134 prose only, verse/heading excluded; p. 132 excluded, its
 dropped-and-recovered line breaks the 1:1 crop-to-line mapping), also came out slightly worse on the
-same two held-out pages (combined CER 8.64%→8.72%) and was discarded, see LOG). The 140 new verified
-line pairs are committed in `tools/lines/` for the next attempt (301 new pairs now waiting across the
-last two discarded attempts). Next retrain attempt due when lines archived pass 2600.
+same two held-out pages (combined CER 8.64%→8.72%) and was discarded, see LOG). A third consecutive
+attempt (2026-09-27, this run), from 134 new verified line pairs (pp. 115, 118-122 prose only,
+verse/heading excluded; pp. 116-117 excluded, their dropped-and-recovered detector lines break the
+1:1 crop-to-line mapping) on top of the 301 pairs already waiting (1108 total training pairs),
+again regressed on the same two held-out printed pages (40, 55) and was discarded — see LOG for the
+CER numbers and a methodology caveat (no committed scoring script exists; this run's from-scratch
+CER measurement doesn't reproduce the exact prior runs' baseline number, though the regression
+direction is unambiguous). The 134 new verified line pairs are committed in `tools/lines/` for the
+next attempt (435 new pairs now waiting across three discarded attempts — worth reconsidering the
+retrain recipe itself before a fourth, per the standing note in QUESTIONS.md). Next retrain attempt
+due when lines archived pass 2800.
 
 ## Phase 2 — the reading edition (live since 2026-09-18, same routine)
 

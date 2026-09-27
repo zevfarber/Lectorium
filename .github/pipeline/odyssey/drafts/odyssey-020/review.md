@@ -100,3 +100,95 @@ below).
 
 Ready to hand to the glosser. The glossary cross-check itself is deferred, per the runbook, until
 `gloss.json` exists.
+
+## Pass 2 — glossary cross-check
+
+`gloss.json` now exists (191 plain entries + `"__broaden__"` with 3 entries). Checked:
+
+- Every key in `novel-forms.json` has exactly one entry in `gloss.json` and vice versa (191 = 191,
+  no extras, no omissions).
+- Every one of the 191 keys occurs literally in `units.json`'s `t` fields (script-checked; none
+  missing).
+- For every entry, read its occurrence(s) in `t`/`l`/`i`/`n` and checked the stated case/number/
+  gender/tense/mood/voice/person actually fits how the word functions in that line, not just in
+  isolation — 187 of 191 check out clean. 4 do not (below).
+- The 3 `"__broaden__"` entries (τίνες, ἔσχετο, ῥέξας): for each, confirmed against
+  `/home/user/Lectorium/odyssey-glossary.json` that the old entry's text is preserved **verbatim**
+  as a prefix, followed by `" · "` and the new reading (script-checked byte-for-byte). Also checked
+  that the new reading is the sense actually needed at this part's occurrence, not a plausible but
+  unneeded addition:
+  - τίνες (4.642, τίνες ... κοῦροι) — new reading is "interrog. adj. + noun ... 'what'"; the line's
+    τίνες genuinely agrees with κοῦροι as an interrogative adjective ("what young men"), a use the
+    old entry (predicate uses of the pronoun) did not cover. Correct addition.
+  - ἔσχετο (4.705, θαλερὴ ... ἔσχετο φωνή) — new reading is ἔχω/ἴσχω "was checked"; the line's
+    ἔσχετο is exactly this (a checked voice), distinct from the old entry's ὑπισχνέομαι "promised" —
+    a genuine homograph, correctly split. Correct addition.
+  - ῥέξας (4.690, οὔτε τινὰ ῥέξας ἐξαίσιον) — new reading is the general "do, act (to someone)," not
+    the old entry's sacrificial sense; the line has no sacrifice in view. Correct addition.
+  All three: pass.
+- Format spot-check (task asked for ~15; in practice every entry was read while checking its parse
+  against the line, so all 191 were covered, not just a sample): no backtick anywhere; no ASCII
+  apostrophe anywhere (script-checked across all 191 + 3 broadened); every entry matches the
+  `lemma — meaning; parse` shape (em-dash then semicolon present); all entries under 230 characters
+  (longest is well short of the cap); all keys lowercased as required. One entry breaks the *content*
+  side of the format rule though — see ἀέκοντος below.
+
+### Problems found in `gloss.json` (not edited — per the runbook, `gloss.json` is the glosser's file)
+
+1. **`ἐπεύθετο` — wrong tense, contradicts the reviewer's own pass-1 correction (high).**
+   Entry: `"πεύθομαι (epic = πυνθάνομαι) — learn, inquire, get wind of; aor. mid. 3 sg. ἐπεύθετο, augmented"`.
+   This is the same word pass 1 already corrected in `units.json`'s note at 4.677: "ἐπεύθετο is an
+   **imperfect** (middle) of πεύθομαι, a Homeric present by-form of πυνθάνομαι ... (describing his
+   overhearing as it went on, not a completed act)," citing Cunliffe/Autenrieth. The glossary entry
+   now says the opposite: aorist. It is also internally wrong on the merits: πυνθάνομαι's aorist is
+   the distinct stem πυθ- (ἐπυθόμην/πυθόμην, 3 sg ἐπύθετο); the -ευ- stem seen in ἐπεύθετο belongs
+   only to the present/imperfect system πεύθομαι. The entry's own parenthetical "ἐπεύθετο, augmented"
+   is also odd phrasing for what it calls an aorist. `gloss.json` and `units.json` now flatly disagree
+   about this form's tense — a build-blocking inconsistency for anyone who reads both. Needs
+   correcting to imperfect before build.
+
+2. **`πλεῖστον` — wrong case for its occurrence (medium).**
+   Entry: `"πολύς — much, many; superl. πλεῖστος, neut. acc. sg., agreeing with κακόν: ’greatest, most’"`.
+   Its only occurrence is 4.697, αἲ γὰρ δή, βασίλεια, τόδε πλεῖστον κακὸν εἴη — a copular wish with
+   εἴη ("would that this were..."), where τόδε is the nominative subject and κακὸν (with πλεῖστον
+   agreeing) is a predicate nominative, not an accusative object. Nothing in this sentence takes an
+   accusative. The same file gets the parallel construction right two lines earlier: `χαλεπόν κεν
+   ἀνήνασθαι δόσιν εἴη` (4.651) is correctly glossed "neut. nom. sg., impersonal predicate" for the
+   very same κεν ... εἴη predicate pattern — which is why this one case label reads as a slip rather
+   than a defensible choice. Should be "nom." (or "nom./acc." hedged, though nom. alone is accurate
+   here since the accusative reading has no home in this sentence).
+
+3. **`θέσθε` — claims a 2nd-singular reading that does not exist (low).**
+   Entry: `"τίθημι — put, place; aor. mid. 2 sg./pl., unaugmented (= ἔθεσθε): ’you put (in your minds)’"`.
+   τίθημι's aorist middle 2 sg is ἔθου (imperative θοῦ); 2 pl is ἔθεσθε (imperative θέσθε). θέσθε is
+   unambiguously 2nd-plural only, by either analysis (unaugmented indicative or imperative) — there
+   is no accidental syncretism with a 2 sg form the way there is for many neuter nom./acc. pairs. Its
+   one occurrence, 4.729 (οὐδ’ ὑμεῖς περ ἐνὶ φρεσὶ θέσθε ἑκάστη), is indeed 2 pl (ὑμεῖς ... ἑκάστη,
+   "each of you"), so the line itself is read correctly by the drafter/reviewer; the flaw is only in
+   the glossary's general statement of the form, which should drop "sg./" and read "aor. mid. 2 pl.".
+
+4. **`ἀέκοντος` — entry text says "here," pinning a general entry to this part's referent (low,
+   format/content compliance).**
+   Entry: `"ἄκων (ἀέκων) — unwilling; masc. gen. sg., idiom βίῃ ἀέκοντος ’by force, against (his/your)
+   will’ (gen. loosely agreeing with the person, here σε)"`. The runbook requires glossary entries to
+   be "general to the form, never pinned to a line, no line numbers, no 'here'." The parenthetical
+   "here σε" ties the entry to this part's specific addressee (Noemon, 4.646) instead of describing
+   the idiom in general terms (contrast the `νημερτές` entry a few lines above it, which keeps its
+   own parallel note fully general and moves the line-specific detail — "of Proteus" — out to
+   `units.json` where it belongs). Should read without "here," e.g. "(gen. loosely agreeing with the
+   person addressed)".
+
+No other entries showed a parse that misdescribes its occurrence(s), a formatting violation, a stray
+backtick or ASCII apostrophe, an over-length entry, or a missing homograph split. The three
+`__broaden__` entries are all correct and each preserves its old entry text verbatim.
+
+### Status of the draft package
+
+**Not yet ready for `build_odyssey.py`.** `units.json` stands as reviewed (pass 1 + pass 2 above; no
+new `units.json` problems found in this glossary cross-check). `gloss.json` carries one high-severity
+error (ἐπεύθετο's tense, which directly contradicts a correction already made in `units.json`) and
+three lower-severity ones (πλεῖστον's case, θέσθε's spurious 2 sg., ἀέκοντος's "here"). These are the
+glosser's file to fix, per the runbook and per this run's instructions; none has been edited here.
+Once the glosser corrects the four entries above (as plain-key edits, not `__broaden__`, since none
+of them involves broadening an existing published entry — all four are first appearances of these
+forms), the package should be ready to build.

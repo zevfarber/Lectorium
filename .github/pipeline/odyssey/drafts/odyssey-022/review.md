@@ -44,3 +44,150 @@ Format per line: **5.N · field · severity · what was wrong · what I did**
 - **Quotation marks**: all four marked speeches (Athena 5.7, Zeus 5.22, Zeus-to-Hermes 5.29, Calypso 5.87) open with “ in both `l` and `i`; three close correctly within this part (5.20, 5.27, 5.41); Calypso's closes at 5.91 after the fix above. No stray quotation marks elsewhere.
 - **New house renderings** (new-renderings.md): all ten new entries plus the μεγαλήτωρ extension were checked against the existing table's method and "avoided on purpose" pattern — all are literal, non-anachronistic, and correctly kept apart from adjacent fixed formulas (e.g. ἰοειδής kept distinct from the other three sea-colour epithets, δάκρυα λείβων kept distinct from δάκρυ χέων). No changes needed; new-renderings.md itself required no edits.
 - **Scansion**: packet.md flags none; did a sanity read-through and found nothing metrically irregular worth a note.
+
+---
+
+## Pass 2 (reviewer, second pass)
+
+Format per line: **form/line · field · severity · what was wrong · what I did**
+
+### The ἤλυθεν question (resolved)
+
+Pass 1 flagged this explicitly. Resolution: **ἤλυθεν is augmented**, not unaugmented.
+
+The verb ἔρχομαι is suppletive in the aorist, with two parallel Homeric stems, ἐλθ- and the
+longer ἐλυθ- (built with an epenthetic -υ-, compare μολεῖν-type root extensions). Both stems begin
+with short ε; under the regular temporal augment, ε lengthens to η, giving ἦλθον from ἐλθ- and
+ἤλυθον from ἐλυθ-. This is exactly the same mechanism pass 1 already correctly diagnosed for
+ὤρνυθ’ (ο→ω) and ἦσθε (ε→η) elsewhere in this same part — an epic-looking long vowel that is in
+fact the ordinary augment, not a sign of its absence. The bare, unaugmented stem shows only in
+non-indicative forms that take no augment at all (infinitive ἐλθεῖν, participle ἐλθών, subjunctive
+ἔλθῃ), never as a rival indicative *ἔλυθον with short ε.
+
+This is also settled by the pipeline's own precedent: the shared glossary (`odyssey-glossary.json`)
+already carries an entry for the sibling form **ἤλυθον**, from an earlier part, reading in full:
+"ἔρχομαι — come, go; aor. 1 sg., **augmented**, epic root ἐλυθ- with epenthetic -υ- (= Attic
+ἦλθον)." Since ἤλυθεν (3 sg.) and ἤλυθον (1 sg.) are the same tense-stem, they must share the same
+augment status, and the glossary has already ratified "augmented" for this stem. odyssey-022's own
+unit note (line 76–77) claimed the opposite ("ἤλυθεν is an unaugmented aorist..."), contradicting
+that published precedent.
+
+1. **5.77 · units.json `n` (ln=76 unit) · high (grammar, contradicts published precedent)** — Changed
+   "ἤλυθεν is an unaugmented aorist of ἔρχομαι on the epic root ἐλυθ- (Attic ἦλθεν)" to state it is
+   **augmented**, spelled out the ε→η mechanism, cross-referenced it to the two augment cases pass 1
+   already fixed in this same part (ὤρνυθ’, ἦσθε), and named ἦλθεν as the Attic equivalent, itself
+   also augmented from the parallel shorter root ἐλθ- (whose bare stem shows in ἐλθεῖν/ἐλθών).
+
+### Changes made — units.json
+
+2. **5.33–36 · `n` · medium (notes must not assert unshown poem content)** — The note for the unit
+   spanning lines 33–36 ("σχεδίη πολυδέσμου... Φαιήκων...") ended by describing the raft as "what
+   Odysseus will build **in the part that follows**" — an assertion about a specific future part's
+   content, on the same footing as the two forward-looking claims pass 1 already removed elsewhere
+   in this part (the Hermes-Psychopompos aside at 5.47, and "as indeed proves true" at 5.89–90).
+   Reworded to ground the raft strictly in what this part's own text already shows — Zeus's own
+   speech, two lines earlier, already says Odysseus will cross the sea on it — without asserting who
+   builds it or when. Left the adjacent, separate clause about ἐρίβωλος/ἀγχίθεοι being "fixed for
+   their frequent recurrence through the following books" alone: that is a translation-methodology
+   remark, not a plot disclosure, and matches the pattern already used throughout conventions.md's
+   own house-rendering rows (e.g. the τανύπεπλος and Ἀτρυτώνη entries).
+
+### Changes made — gloss.json
+
+Per the runbook, this pass checked every one of the 166 novel-form entries against the actual
+line(s) where the form occurs in units.json (script-assisted: every novel key was matched against
+its unit's `t`, cross-checked for lemma, case/number/gender, and construction). 162 of 166 checked
+out cleanly. Four had real problems:
+
+3. **αἰδοῖός (5.88) · gloss.json · medium (grammar mislabel)** — Entry read "masc. nom. sg., **used
+   as voc.** addressing Hermes." The printed form is unambiguously nominative (2nd-decl. -ος, not
+   the distinct vocative -ε that this same adjective would show, e.g. contrast the genuinely
+   vocative χρυσόρραπι three words earlier in the very same speech, correctly parsed as voc. in its
+   own entry). αἰδοῖός τε φίλος τε is a predicate nominative agreeing with the implied "you" (the
+   subject of the finite verb εἰλήλουθας, "you have come... honored and dear"), not a vocative
+   substitute (contrast the genuine nominative-for-vocative idiom conventions.md documents elsewhere
+   for bare ὦ φίλος, which stands *in place of* an addressee's name — that is not what is happening
+   here, since Hermes is already addressed by name and vocative-epithet in the same clause). Reworded
+   to "predicate adj. agreeing with the implied 'you' (subject of εἰλήλουθας), not itself a vocative
+   form."
+4. **γλαφυροῖο (5.68) · gloss.json · medium (grammar/gender)** — Entry read "masc. gen. sg." only.
+   γλαφυρός is a 3-termination adjective (masc./neut. -οιο vs. distinct fem. -ῆς, 1st-decl.), and in
+   this line it modifies the neuter noun σπείους (περὶ σπείους γλαφυροῖο) — a gender the old label
+   omitted, while the fem. reading it left open is actually the one -οιο can *never* represent.
+   Corrected to "masc./neut. gen. sg. (here with the neut. σπείους)."
+5. **θύου (5.60) · gloss.json · medium (grammar)** — Entry read "masc./neut. gen. sg." θύον is a
+   plain, fixed-gender neuter noun (τό θύον), not an adjective with a genuinely ambiguous form — a
+   noun does not have two possible genders the way a 2nd/3rd-declension adjective's syncretic
+   genitive singular can. Corrected to "neut. gen. sg."
+6. **ἐπιβὰς (5.50) · gloss.json · high (grammar, contradicts the line it glosses)** — Entry stated
+   the participle takes "+ gen.," ἐπιβαίνω's usual construction (LSJ: c. gen., "mount, get upon").
+   But in this very line (Πιερίην δ’ ἐπιβὰς ἐξ αἰθέρος ἔμπεσε πόντῳ·) its complement, Πιερίην, is
+   accusative — correctly identified as such in the separate, adjacent "πιερίην" entry ("fem. acc.
+   sg."), so the two entries flatly contradicted each other. This accusative-of-the-goal construction
+   with ἐπιβαίνω ("reach, arrive at," rather than the more usual "set foot on" + gen.) is a
+   recognized, if less common, Homeric usage (LSJ s.v. ἐπιβαίνω). Reworded to "usually + gen., but
+   here + acc. (Πιερίην), an epic extension meaning 'reach, arrive at'," so the entry no longer
+   claims a construction the line itself does not show.
+
+### Findings considered but not acted on
+
+- **`__broaden__` entries exceeding 230 characters** — 5 of the 7 broadened entries (κεῖται, τι,
+  τετελεσμένον, περὶ, τῇ) exceed 230 characters (up to 572 for περὶ) once the new material from this
+  part is appended. Checked `build_odyssey.py` directly: its shape check
+  (`re.match(r'^\S.* — \S',e) or '`' in e or "'" in e or len(e)>230`) is applied only to `add.items()`
+  (novel-form entries); the loop over `broaden.items()` checks only that `g[f] not in e` (the old
+  entry is contained verbatim in the new one) and nothing else. This is evidently deliberate: a
+  broadened entry accumulates senses additively over many parts across the whole poem and cannot be
+  held to a per-part length cap the way a single new entry can. All 7 broaden entries were verified
+  (scripted, byte-for-byte) to contain their exact current `odyssey-glossary.json` text as a literal
+  substring, immediately followed by " · " and new material — never paraphrased, reordered or
+  shortened. No fix made; flagging only so a future conventions.md revision can state the length
+  exemption explicitly rather than leaving it implicit in the build script.
+- **δαιομένων (5.61), genitive plural** — agrees with the two singular genitives κέδρου and θύου
+  (line 60) taken together as a notional plural ("as the two of them were burning"), a normal
+  Homeric/Greek pattern for a predicate following coordinated singular nouns. Not an error.
+- **τῇσίν (5.67), μάκαρες (5.7), χρυσόρραπι (5.87), ἑρμεία (5.29, 5.87)** — all vocative/nominative
+  cases checked individually against their lines; all correctly parsed (μάκαρες's plural
+  vocative and nominative are formally identical, so "nom. pl." is not an error the way singular
+  αἰδοῖός was).
+- **Remaining 162 novel-form entries** — lemma, case, number, gender, tense/mood/voice and any
+  stated construction were checked one by one against the unit(s) in which the form actually occurs
+  (script-matched line-by-line; see method above). No further errors found. In particular: διάκτορος,
+  ἀργεϊφόντης, σκῶπές and κορῶναι are all honestly flagged as disputed/unknown in their gloss.json
+  entries, consistent with both conventions.md's list of such words and units.json's own notes; θύου
+  is likewise flagged as an uncertain identification (the gender fix above is separate from, and
+  does not touch, that honesty flag).
+- **Novel-form key set vs. `novel-forms.json`** — scripted, exact match both ways: no key in
+  `novel-forms.json` is missing from `gloss.json`, and no key in `gloss.json` is absent from
+  `novel-forms.json` (which would make the build refuse it as an unneeded extra form).
+- **Full re-run of the build's own structural checks** — reproduced `build_odyssey.py`'s tiling loop,
+  per-unit checks (`v` present, `l`/`i`/`n` non-empty, `l` line count = `t` line count, no `\n` in
+  `i`, ≤5 lines per unit, terminal-mark-or-comma ending) and its glossary checks (no missing forms,
+  no unneeded extras, no redefinitions of existing keys, every `__broaden__` entry containing its old
+  text) directly against the post-edit files. All pass cleanly.
+- **The apparent missing inter-unit space at mid-line cuts** (e.g. 5.6, 5.15, 5.19, 5.27, 5.58, 5.61,
+  5.73, 5.77, 5.88, 5.89) — my first reconstruction pass flagged these as "mismatches" against
+  packet.md's printed lines, since neither unit's `t` contains the single space that separates the
+  two clauses on the printed line. Checked against `build_odyssey.py`'s own tiling algorithm and
+  against already-published odyssey-001 (e.g. its line 26, "ἔνθ’ ὅ γ’ ἐτέρπετο δαιτὶ παρήμενος·" /
+  "οἱ δὲ δὴ ἄλλοι..."): the build explicitly consumes exactly one intervening space character between
+  consecutive same-line units without requiring either unit's `t` to contain it. This is the
+  established, correct pipeline convention, not a defect — no action taken.
+
+## Summary of Pass 2 changes
+
+- units.json: 2 changes (1 high — the ἤλυθεν augment fix, resolving pass 1's flagged question; 1
+  medium — trimmed an unshown-content assertion at 5.33–36). No `t` field touched.
+- gloss.json: 4 changes, all to the parse/construction portion of an entry (1 high — ἐπιβὰς's
+  contradicted construction; 3 medium — αἰδοῖός's case/function mislabel, γλαφυροῖο's and θύου's
+  incomplete/wrong gender labels). No entry's meaning, house-rendering wording, or disputed/unknown
+  flag was changed.
+
+## Still uncertain — nothing rises to a QUESTIONS.md-worthy flag
+
+Everything found in this pass had a confident, sourced resolution (the ἤλυθεν question above is the
+one pass 1 explicitly deferred, and it is now settled by the pipeline's own published ἤλυθον entry).
+Pass 1's own remaining open items (5.27's mid-line ano teleia punctuation, 5.90's "ordained vs.
+possible" reading of τετελεσμένον ἐστίν, and the σκῶπες/κορῶναι/θύον species uncertainties) are
+already correctly flagged in the unit notes and in new-renderings.md's own QUESTIONS section; this
+pass re-checked each and found nothing to add or change. No new item is being sent to QUESTIONS.md.

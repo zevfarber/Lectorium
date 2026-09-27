@@ -245,3 +245,16 @@ shortest compliant broadening without exceeding the 230-character cap. Same recu
 unit at 397 states the gnomic-τε sense correctly in its own note, so no reader is misled, only unaided
 by the glossary entry itself. An owner decision on raising the cap, or relaxing the additions-only rule
 for the glossary's most heavily-used forms, would close this whole recurring class of question at once.
+
+## πωλέ(ο) at 4.810–811: present or imperfect? (odyssey-021, 2026-09-27)
+Penelope's dream-speech to the phantom has "οὔ τι πάρος γε / πωλέ’, ἐπεὶ μάλα πολλὸν ἀπόπροθι δώματα
+ναίεις·" — "πωλέ(ο)" is an elided form of πωλέομαι, "come habitually, frequent, visit." Both review
+passes independently checked LSJ, Autenrieth, Cunliffe and Monro for whether the uncontracted epic form
+here is better parsed as a present ("you do not [habitually] come here before now") or an imperfect
+("you were not coming here before now") and could not close it out from the lexica alone — the
+uncontracted -έο- shape is compatible with either reading once elided, and the sense is nearly identical
+either way. The shipped note commits to "imperfect of πωλέομαι." Decided meanwhile: left as drafted;
+flagged twice across the two review passes without being resolved, so it is raised here rather than
+silently left as a single reviewer's unchecked call. Closing this needs either a person with a fuller
+grammar (Monro §67 or similar on epic -έομαι contract verbs) or a decision that either tense is
+acceptable and the note need not commit to one.

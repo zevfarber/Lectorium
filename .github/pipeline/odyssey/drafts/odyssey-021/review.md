@@ -229,3 +229,114 @@ but parallel rows.
   these looked wrong, but none could be fully closed out without material outside this part.
 - **Decided and recorded as a new house convention**: ὣς φάτο tracks natural gender; "So she
   spoke" is now the fixed fem. counterpart of "So he spoke," proposed as a new table row.
+
+## Pass 2 — glossary cross-check
+
+Checked all 177 top-level (novel) entries and all 12 `__broaden__` entries in `gloss.json` against
+every actual occurrence of that word-form in `units.json`'s `t` fields (768 word-form tokens, 534
+distinct lowercased forms across the part's 62 units), against the corresponding `l`/`i`, against
+packet.md's Greek, and against `odyssey-glossary.json`'s existing 5,333-entry shared glossary for
+coverage. 2 corrections made to `gloss.json`; `units.json` untouched this pass (no genuine
+translation error surfaced by the cross-check).
+
+### Corrections made
+
+1. **`ἀπαμειβόμενον`** (used at ln 824 and 835, `τὴν δ’ ἀπαμειβόμενον προσέφη εἴδωλον ἀμαυρόν·`) —
+   wrong case. The drafted entry read "pres. part. neut. **acc.** sg., agreeing with the neuter
+   εἴδωλον." But εἴδωλον is the *subject* of προσέφη (nominative), and the participle necessarily
+   agrees with it in that same case; τήν nearby is a separate word, the accusative object ("her").
+   Since neuter nominative and accusative singular are spelled identically (`-ον`), the drafter
+   appears to have borrowed the case label from the nearby τήν rather than checking what case
+   εἴδωλον is actually in. This directly undercuts the very point units.json's own note at ln824
+   makes ("agreeing grammatically with the neuter εἴδωλον rather than with τήν") — the note gets the
+   *antecedent* right but the glossary entry then mislabels its *case*. Fixed to "pres. part. neut.
+   **nom.** sg., agreeing with the neuter εἴδωλον (not the nearby accusative τήν, a distinct word)."
+
+2. **`ὄνειρον`** (used at ln840/841, `ὥς οἱ ἐναργὲς ὄνειρον ἐπέσσυτο νυκτὸς ἀμολγῷ`) — wrong
+   lemma/case combination. The drafted entry read "ὄνειρος — dream; **masc. acc.** sg." But ὄνειρον
+   here is the grammatical subject of the intransitive ἐπέσσυτο ("a dream came upon her"), and the
+   adjective agreeing with it is the explicitly **neuter** ἐναργές (not the masculine ἐναργής) —
+   proof the noun is the Homeric neuter by-form ὄνειρον, τό, not an accusative of the masculine
+   ὄνειρος. A "masc. acc. sg." reading would leave the clause with no subject at all. Fixed to
+   "ὄνειρος — dream (Homeric also has the neut. by-form ὄνειρον, τό, beside the masc.); neut.
+   nom./acc. sg."
+
+Both were genuine grammar errors of exactly the kind this pass is meant to catch (a parse that
+doesn't survive checking against the actual line), not judgment calls.
+
+### Coverage check — complete
+
+Every one of the part's 534 distinct word-forms was cross-referenced against gloss.json's 177
+top-level keys, its 12 `__broaden__` keys, and `odyssey-glossary.json`'s shared glossary. Result:
+**0 gaps** — 177 forms land in gloss.json's top level, 12 more via `__broaden__`, and the remaining
+345 are already in the shared file. Spot-checked ~15 of the shared-glossary forms this part
+actually uses for the two specific failure modes named in the brief:
+- **Article-pronouns** (τόν, τήν, τοῦ, τῆς, τῷ, τά, τὰ, οἱ, μιν, σφ, τε, τις, τι, τοι) — all already
+  glossed as pronouns ("he, him, of him, to them," etc.), never as "the." No leakage found.
+- **Possessive vs. relative ὅς, ἥ, ὅν** (ὅς, ὅ, ἥ, ὅν, ὃ, ᾗ) — the shared entry for ὅς itself
+  already carries both readings, joined by " · ", exactly as required; none of gloss.json's own 189
+  entries touch this word-family, so no action was needed there.
+No edits were needed to the shared file (out of scope for this pass in any case, and not warranted).
+
+### `__broaden__` entries — all 12 verified sound
+
+For every one of ἴσαν, τῇ, μῦθον, ὑπὸ, ἵν, βασίλεια, γενέσθαι, ἧος, ἱστόν, ὥς, ὡς, αὐτῷ: ran a
+byte-for-byte substring check confirming the shipped `odyssey-glossary.json` entry text is a full
+verbatim prefix of the new broadened text (mechanical, not eyeballed) — all 12 passed. Also
+confirmed the specific Greek example quoted in each new "· also …" clause is a real occurrence
+inside *this* part's own units, not a hypothetical: ἴσαν→772, τῇ→847, μῦθον→776–777, ὑπὸ→790,
+ἵν→821, βασίλεια→770, γενέσθαι→747, ἧος→799–801, ἱστόν→781, ὥς→841, ὡς→749, αὐτῷ→822 — all 12
+matched. No broaden-entry problems found.
+
+### Formatting sweep — clean
+
+Mechanically checked every one of the 189 entries for ASCII apostrophes (`'`), backticks, the
+required " — " separator, the 230-character cap on non-broaden entries, and line-pinning language
+("here"/"in this line"/digit line-citations). Zero real violations. A handful match a naive
+substring search for "here" (νοτίῳ, νύμφα, πόρον, τροποῖς) or contain "here" as a substring of an
+unrelated word ("thereafter," "where") — all use "here" the same way the existing shared glossary
+already does dozens of times (κείρετ, ἰδυῖα, ἴσθι, etc.): "here" meaning "in this technical/
+figurative sense," general to the *form*, never "at this line." None are violations. Longest entry
+is 148 characters (ἀμολγῷ), well under the cap.
+
+### Meaning-vs-translation cross-check
+
+Checked all 189 entries' stated senses against how the relevant unit's `l`/`i` actually renders the
+word. No contradictions beyond the two case errors above, and neither of those affected the
+translation itself — both words were already rendered correctly in `l`/`i` despite the mislabeled
+case in the glossary note.
+
+### Judgment call carried forward from pass 1 — still open
+
+**πωλέ(ο)** (ln810/811, `πωλέ’, ἐπεὶ μάλα πολλὸν ἀπόπροθι δώματα ναίεις·`). Pass 1 flagged the
+tense of this form (imperfect vs. present) as unresolved from LSJ/Autenrieth/Cunliffe alone. I
+re-examined it and could not close it out either: the elided single-ε spelling is compatible in
+principle with either a present 2 sg. (πωλέ(εαι), contracting/eliding) or an imperfect 2 sg.
+(πωλέ(εο)) reading, and neither this part's Greek nor its translation (tense-neutral: "you have
+never come before") disambiguates it. Left gloss.json's entry as drafted ("impf. mid. 2 sg."),
+since it is at least internally consistent with units.json's own note at ln810 and not contradicted
+by `l`/`i`. Flagging again for QUESTIONS.md — this is now the second pass to leave it open; it
+needs a person (or a live LSJ/Cunliffe check this pipeline's sole-source rule doesn't otherwise
+allow) to close.
+
+### Other judgment calls reviewed — left unchanged
+
+- **κάκου governed by κεκακωμένον** (ln754) — a genitive of cause/material with a perfect passive
+  participle, exactly matching units.json's own note. Consistent with attested Homeric usage of
+  κακόω; not an error.
+- Re-checked that gloss.json's entries for forms pass 1 corrected in the *notes* (ἤνεικαν, ἔβαν,
+  ἔειπεν, ἤλυθες, ᾔδε, ὀίω) agree with pass 1's corrected readings rather than the original drafts'
+  errors — all consistent (the glossary was evidently drafted after pass 1's note fixes landed).
+
+## Pass 2 summary
+
+- **gloss.json entries corrected: 2** (`ἀπαμειβόμενον`, `ὄνειρον` — both a wrong grammatical case
+  that contradicted the actual line's syntax).
+- **Coverage: complete.** No gaps between units.json's 534 distinct word-forms and {gloss.json's
+  189 entries} ∪ {odyssey-glossary.json's 5,333 shared entries}.
+- **`__broaden__` entries: all 12 verified sound** (verbatim containment confirmed mechanically;
+  every new reading tied to a real occurrence in this part).
+- **Formatting: clean** — no ASCII apostrophes, no backticks, em-dash separator used throughout, all
+  top-level entries under the 230-character cap, no line-pinning language.
+- **Left for QUESTIONS.md:** the πωλέ(ο) tense ambiguity at 810/811 (present vs. imperfect), now
+  flagged for the second time across two review passes.

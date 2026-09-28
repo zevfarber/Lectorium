@@ -226,3 +226,167 @@ the forced literal rendering of the Greek, and hard to avoid, it was left alone 
 4. Glossary: the ἐλάαν entry should add the future-infinitive sense.
 5. Past notes differ on ἷξον ("unaugmented" at 4.1, neutral at 3.495). Recommend the neutral wording
    poem-wide.
+
+## Review, pass 2 (glossary)
+
+Reviewer pass 2 of 2. I edited `gloss.json` and two `n` fields in `units.json`. No `t`, `l`, `i`, `mark` or
+`p` was touched. `units.json` still has 60 units, each `l` has the same line count as its `t`, and no `i`
+has a line break.
+
+**Gloss changes: 40 novel entries substantively edited, about 29 more changed only to normalise the
+quotation marks, and all 12 broadenings reviewed (11 kept, 1 dropped).** By severity (counting entries): error
+10 (9 novel entries and the πάρα broadening) · moderate 15 (11 novel entries and the θεὸς, ἐλάαν, ὄφρ and
+ἔπ broadenings) · minor 26 (20 novel entries and 6 broadenings), plus the quotation-mark normalisation. Units: 2 note edits, both minor.
+
+### Mechanical checks
+
+- **Coverage.** There are 186 keys in `novel-forms.json` and 186 in `gloss.json`. None is missing, none is
+  extra, and none is already in `odyssey-glossary.json`, so nothing redefines a shipped form ✓.
+- **Cap.** Every novel entry was under 230 characters as drafted. Seven broadenings were over the cap:
+  θεὸς 330, ὄφρ 351, χαῖρε 267, πάρα 262, ἐλάαν 258, ἦρχε 244, μετὰ 237. All were fixed (see below).
+- **Quotation marks.** No ASCII apostrophes or backticks were found. The glosser quoted English as ‘…’, but
+  conventions.md specifies ’ … ’ for glossary English, which about 2,190 shipped entries use (about 125
+  use ‘). The shipped halves of the broadenings already use ’…’, so each merged entry mixed the two
+  styles. → All of this part's entries were normalised to ’…’ (minor).
+- **Line pinning.** Twelve entries said "here", or named this passage's context ("of Penelope",
+  "agreeing with δένδρεα", "not the sense used here", "elsewhere in this part"). Six more gave a
+  single-context use as the parse, such as "dative of circumstance" or "genitive of comparison: ’than that
+  woman’". → All were generalised (minor): βάλετ, δοῦρα, κάλους, πεῖραρ, ἄμαξαν, ἄρκτον, ἐφάνη, ᾖα, ῥινὸν,
+  αὖα, βροτός, γλαφυρὸν, κείνης, κύμασι, κύματος, πολέμῳ, φυήν, μέγεθός, λούσασα, ἱμειρόμενός.
+
+### Parse errors (checked against the line where each form occurs)
+
+- **286 μετεβούλευσαν · error.** The entry said "aor. 3 pl., unaugmented", but μετ-ε-βούλευσαν has the
+  augment inside the compound. → "augmented inside the compound".
+- **260 ἐνέδησεν · error.** The entry said "unaugmented", but ἐν-έ-δησεν is augmented (the unaugmented form
+  would be ἐνδῆσε). → Corrected.
+- **263 πέμπ’ · error.** The entry said "aor. 3 sg.", but πέμπε is on the present stem, so it is
+  imperfect. The aorist would be πέμψε. The shipped πέμπε entry also says impf. → Corrected.
+- **248 ἄρασσεν · error.** The entry said "aor. 3 sg.", but the present stem is ἀρασσ- and the aorist
+  would be ἄραξε. → "impf. 3 sg., unaugmented (= Attic ἤρασσε)".
+- **252 θαμέσι · error.** The entry said "masc./fem.", but the feminine is θαμειαί (θαμειῇσι). The form
+  agrees with σταμῖνες, which is masculine. → "masc. dat. pl."
+- **252 σταμίνεσσι · error.** Same problem: "masc./fem." → "masc.". I also relemmatised it to LSJ's
+  σταμίν.
+- **198 ἷζεν, 245 ἴθυνεν, 270 ἰθύνετο · error (pass-1 item c).** All three entries said "unaugmented".
+  Pass 1 had already removed exactly this claim from the notes, because the ι is long and the augment
+  cannot be seen. So the glossary contradicted the corrected notes. → The augment label was dropped from
+  all three, to match the notes.
+- **261 κατείρυσεν · moderate.** The entry said "unaugmented". With the εἰρυ- stem the augment cannot be
+  verified, the same case as ἷζεν. → Neutral wording: "on the lengthened stem εἰρυ- beside ἐρυ-".
+
+### Entries corrected (moderate)
+
+- **240 περίκηλα.** The lemma was given as the neuter plural itself. → LSJ's lemma is περίκηλος.
+- **234/254 ἄρμενον.** The entry said "perf./intrans. aor. part.", which is muddled. → "sync. aor. mid.
+  part.", masc. acc. (234) or neut. acc. (254).
+- **218 βροτός, 211 χερείων, 239 οὐρανομήκης, 194 γλαφυρὸν.** Each gave only the gender the form has in
+  this part, although the key is general. → The full range of genders is now given.
+- **268 ἀπήμονά.** The entry gave only "harmless". → It now gives both of LSJ's senses: harmless (doing no
+  harm) and unharmed, safe. This bears on the ἀπήμων flag below.
+- **210/219 ἐέλδεαι, ἐέλδομαι.** The lemma was printed as "ἔελδομαι", which is a mis-accented form, and
+  the entry gave "= Attic ἐέλδῃ", but Attic has no such verb. → Lemma "ἐέλδομαι (= ἔλδομαι)", with "Attic
+  ending -ῃ".
+- **281 ῥινὸν.** The entry asserted "masc.", but ῥινός is usually feminine and ῥινόν does not settle the
+  gender. → "acc. sg." with no gender claim, keeping the hedge that the sense was disputed in antiquity.
+
+### Entries adjusted (minor)
+
+- **260 ὑπέρας.** "Swinging the sail" → "swinging the yard", to match the note.
+- **245 στάθμην.** "Chalk-line" was more specific than LSJ. → "carpenter’s line or rule".
+- **233 μεγαλήτορι.** Aligned with the shipped μεγαλήτορα entry.
+
+### Technical and star vocabulary: checked and left as drafted
+
+The following entries were checked and are sound and properly hedged:
+
+- **Raft-building:** πέλεκυς (234 note), σκέπαρνον (adze, shape uncertain), τέρετρα (augers), γόμφοισιν
+  (pegs, bolts), ἁρμονίῃσιν (device uncertain), ἴκρια (note), ἐπηγκενίδεσσι (uncertain), ἱστός (note),
+  ἐπίκριον (yard), πηδαλίῳ, ῥίπεσσι and οἰσυΐνῃσι (osier, uncertain), κάλους (now "perhaps halyard"),
+  στειλειὸν, τορνώσεται (short-vowel aorist subjunctive ✓), τεκτοσυνάων.
+- **Stars and navigation:** πληιάδας, βοώτην, ἄρκτον / ἄμαξαν, ὠρίωνα, ὠκεανοῖο, λοετρῶν
+  (uncontracted λουτρῶν ✓), δύοντα, δοκεύει, στρέφεται, ἄμμορός.
+
+All other parses were verified against their lines. Examples: τερπέσθην (impf. 3 dual ✓), τετέλεστο,
+ἔθηκαν, τώ, ἀνιὼν, ἄνωγε, ῥαίῃσι (pres. subj. with -ῃσι ✓), χώεο.
+
+### The 12 broadenings
+
+Each old entry was confirmed byte for byte as the opening of the new entry. Each new reading was checked
+against its line.
+
+- **θεὸς (194) · moderate.** The added feminine use is genuine: θεὸς ἠδὲ καὶ ἀνήρ is Calypso and
+  Odysseus. The entry was 330 characters, over the cap. → The addition was compressed to "· also of a
+  goddess (θεός is common gender)". The entry is now 226.
+- **θεοῖο (193) · minor.** The reading is genuine. The "(Calypso)" pin was dropped; the same half-line
+  serves Athena at 2.406 and 3.30.
+- **πάθον (223) · minor.** The 1 sg. reading is genuine ("I suffered"). The "of Odysseus" pin was
+  dropped.
+- **ἐλάαν (290) · moderate (pass-1 item b).** The glosser did add the future infinitive, and it is correct:
+  LSJ cites this line. But it glossed the infinitive as "’I will drive’", which is really φημι's
+  construction, and the entry was 258 characters. → "· also, same spelling, fut. inf. (Attic ἐλᾶν):
+  ’to be going to drive’, told apart only by context". The entry is now 225.
+- **ὄφρ (255) · moderate. Dropped.** The shipped entry is already 229 characters, so no addition can stay
+  under the cap without cutting the old text, which the additions-only rule forbids. The reading itself is
+  genuine: purpose with the optative after a past tense (ὄφρ’ ἰθύνοι). The unit note already explains
+  that construction. → This is the same recurring cap-and-additions-only conflict that QUESTIONS.md
+  records at odyssey-003, 007, 011, 012, 013 and 017. **For QUESTIONS.md.**
+- **ἦρχε (237) · minor.** The ἄρχω + gen. ὁδοῖο reading is genuine. It was compressed from 244 to 207
+  characters.
+- **μετὰ (224) · minor.** The adverbial "besides" is genuine. It was compressed from 237 to 187 characters,
+  and the "let this too be added" example was cut, since it echoed the wording pass 1 removed as
+  Murray-like.
+- **πρὸς (255) · clean.** Only the example was trimmed.
+- **πάρα (196) · error.** The addition misquoted the line as "πάρα … ἐτίθει" and called the verb τίθει.
+  Murray prints ἐτίθει πάρα, with the preverb after an augmented verb. It was also over the cap at 262.
+  → "· also adv. after its verb (anastrophe): ἐτίθει πάρα ’set beside’ (= παρετίθει)". The entry is now
+  220.
+- **χαῖρε (205) · minor.** The farewell use is genuine. It was compressed from 267 to 219 characters.
+- **ἔπ (251) · moderate.** The glossed sense "’so wide besides’" was invented, and it was hedged only with
+  "perhaps not the ἔπεστι sense". The verb is ποιήσατ’, so the ἔπεστι reading is plainly ruled out. → "·
+  also adverbial ἔπ’ with no ἔπεστι sense (τόσσον ἔπ’ εὐρεῖαν), exact force debated". This matches the
+  note.
+- **ἔκβαλε (244) · clean.** "Fell, cut down" is genuine.
+
+The final result is 11 broadenings, all under the cap and all containing their old entries whole.
+build_odyssey.py's `g[f] in e` check holds for every one.
+
+### The ᾖα homograph (266)
+
+The sense used at 266 is provisions (ἐν δὲ καὶ ᾖα κωρύκῳ), and it is correctly placed first. But the
+entry's " · also" tail said "not the sense used here", which pins the entry to a line. → The entry was
+rebuilt on the pattern of the shipped ἤια entry: "ᾖα (contracted ἤια) — provisions for a journey; neut.
+nom./acc. pl. · also a different word, impf. 1 sg. of εἶμι ’go’: ’I was going’, unrelated to this noun".
+It is joined by " · " as conventions.md requires, and it is 156 characters.
+
+### Final sweep of units.json
+
+- **226 · n · minor.** "It is their last night" is not true, because four nights of building follow
+  before he sails on the fifth day, and the part cannot show it anyway. → "It is the night before the
+  building begins: at dawn she gives him the tools."
+- **269 · n · minor.** "where it most often stands" is a claim about the whole poem. → "as πολύτλας
+  δῖος Ὀδυσσεύς did at 5.171" (table row 378).
+- **5.261 note (pass-1 item a).** "ἅλα δῖαν keeps δῖος ‘heavenly’ for places too" matches `l` and `i`
+  (both "the heavenly brine") and contradicts nothing. The row-274 update remains a publish-time edit.
+- **Short notes.** None of the notes is under 20 words, and none is inadequate.
+- **Units pass 1 did not touch.** I checked 192, 198, 201, 203, 208, 211, 219, 221, 228, 230, 234, 241,
+  244, 246, 247, 254, 255, 260, 265, 267, 269, 270, 271, 274, 276, 282, 283b, 284 and 286. Every `l`/`i`
+  pair agrees in sense and in its fixed renderings, and every note agrees with the gloss.
+- **Capital letters after a semicolon** at 223, 268 and 281 were left alone. Shipped parts do this too
+  (107 of 444 cases).
+
+### For QUESTIONS.md (orchestrator)
+
+1. **ὄφρ broadening blocked by the 230-character cap.** The shipped entry is 229 characters. This is the
+   same recurring class as the τῷ, περὶ/τί, κακὸν/ὃ, περικαλλέα and τ items.
+2. **Pass-1 items (d) are confirmed worth flagging.** Row 281 ἤματα πάντα has its `l`/`i` columns reversed
+   against the shipped 4.592. Row "οὖρος ἀπήμων" avoids "safe", but 4.519 shipped "a safe return" and the
+   shipped ἀπήμων entry reads "unharmed, safe". The glossary now carries both senses, so the lexical side
+   is consistent. The house-table tension is not resolved.
+3. **Shipped ἷζε entry, found in passing.** It reads "aor. 3 sg. (root form), unaugmented". Homeric ἷζε
+   is normally the imperfect of ἵζω, and "unaugmented" cannot be verified with a long ι. The entry is
+   outside this part and was not edited.
+4. **Row 274 "heavenly brine" (pass-1 item a).** This still stands.
+
+**Ready to build:** yes. The gate checks all pass: coverage, entry shape and cap, and each broadening
+containing its old entry whole. Only the four QUESTIONS.md items above remain.

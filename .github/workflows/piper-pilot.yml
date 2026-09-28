@@ -1,0 +1,44 @@
+name: Piper pilot (Greek, free voice)
+
+# Pilot only, 2026-09-29: reads the given Greek stories with the free Piper voice from the same
+# IPA pins used for Google, into audio-pilot/piper/, for a side-by-side listen. Dispatch only.
+
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: 'Story ids, space separated'
+        required: true
+        default: 'odyssey-001 aesop-001'
+      voice:
+        description: 'Piper voice'
+        required: true
+        default: 'de_DE-thorsten-high'
+
+permissions:
+  contents: write
+
+jobs:
+  piper:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          python3 -m pip install --quiet piper-tts numpy
+          python3 -m piper.download_voices --download-dir voices "${{ github.event.inputs.voice }}"
+      - name: Synthesize
+        run: python3 .github/scripts/piper_pilot.py "voices/${{ github.event.inputs.voice }}.onnx" ${{ github.event.inputs.ids }}
+      - name: Commit
+        run: |
+          git config user.name "lectorium-audio-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add audio-pilot/
+          git diff --cached --quiet && exit 0
+          git commit -m "Piper pilot clips for ${{ github.event.inputs.ids }} [skip ci]"
+          for a in 1 2 3 4 5; do git push && exit 0; git pull --rebase origin main; sleep $((a*5)); done
+          exit 1

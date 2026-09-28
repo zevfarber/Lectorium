@@ -290,3 +290,39 @@ the ἀπήμων glossary entry itself to state both senses ("harmless" and "un
 picking one. Flagged here in case the owner wants the house table's wording made explicitly consistent
 across the two entries, or judges the current split (justified by what the adjective actually modifies)
 sufficient as is.
+
+## Three items from odyssey-025 (5.291–387, 2026-09-28), left for the owner
+
+**1. A repeated published unit whose English carries a quotation mark that does not fit its new
+position.** 5.302 (τὰ δὲ δὴ νῦν πάντα τελεῖται.) is word-for-word the published unit at 2.176, which
+ends a speech and so ends with a closing ” in both `l` and `i`. Here the half-line falls in the middle
+of Odysseus's own speech (5.299–312), where a stray ” would be wrong. Decided meanwhile: the drafter
+joined 5.300–302 into one three-line unit ending at the 302 full stop, so the repeated wording is reused
+for part of a larger unit rather than shipped as its own unit carrying the mismatched quotation mark —
+within the existing rule ("where only a line inside your unit repeats, reuse the published wording for
+that line as far as your sentence allows"), and within the 5-line-span and terminal-punctuation limits.
+Both review passes independently judged this sound. The underlying case — a repeated whole-line or
+half-line unit whose shipped English happens to carry a speech-boundary mark — will recur as more of the
+poem ships; an owner decision on a standing rule (e.g. the validator ignoring “ ” when comparing repeated
+units, as the drafter suggested) would close this class of question rather than relying on a joinable
+unit boundary being available every time.
+
+**2. The 230-character glossary cap collided with the additions-only rule again, on two forms in heavy
+use: ὃ and ὑπό.** Both already had entries near or over the cap in the shared glossary (225 and 368
+characters respectively — ὑπό's is a pre-existing outlier, already over 230 before this part touched it).
+This part needs ὃ broadened to cover a plain personal-pronoun use (not just the relative) and ὑπό
+broadened to cover ὑπό + genitive (this part has three instances; the shipped entry covered only + dat./
+acc.). Decided meanwhile: both were broadened anyway, past the cap, because leaving them unbroadened
+would make the entry actively wrong for this part's use (not merely incomplete, as in the τῷ/τ/ὄφρ' cases
+above) — a reader relying on the entry alone for ὑπό + gen. or plain ὃ would be misled, not just
+unaided. `build_odyssey.py` does not enforce the cap on `__broaden__` values (only on new top-level
+entries), so this did not block the build. Same recurring class as the τῷ/τ/ὄφρ' items above; noted here
+because this is the first time the cap was knowingly exceeded rather than the entry left unbroadened.
+
+**3. Whether to fix "[Name] speaks to himself/herself" as the standard `mark` wording for a speech a
+character makes to their own heart.** This part has three such speeches (Odysseus twice, Poseidon once);
+review pass 1 made all three read "… speaks to himself", matching odyssey-024's 5.286 mark, the one
+earlier example of the pattern. `mark` strings are presentational only and not checked by the build, so
+this is a style question rather than a correctness one. Flagged in case the owner wants the wording
+written into conventions.md's "The two English layers" section so future parts don't have to rediscover
+the precedent by searching earlier drafts.

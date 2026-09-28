@@ -242,6 +242,13 @@ def main():
     sid = sys.argv[1]
     story = json.load(open(sid + ".json", encoding="utf-8"))
     lc = story.get("langCode")
+    # Languages with no voice of their own are read by a carrier voice under per-word IPA pins
+    # (build_pinned.py, 2026-09-28). Their langCode stays null, so they never reach VOICES.
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import build_pinned
+    if not lc and story.get("language") in build_pinned.PINNED:
+        build_pinned.main()
+        return
     if lc not in VOICES:
         raise SystemExit("No voice configured for langCode %r (story %s)" % (lc, sid))
     cfg = dict(VOICES[lc])

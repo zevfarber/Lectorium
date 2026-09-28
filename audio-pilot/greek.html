@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Greek voices — pilot</title>
+<style>
+:root{--bg:#faf8f3;--fg:#222;--muted:#6b665c;--line:#e3ddd0;--accent:#7a5c2e}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1b19;--fg:#ece8df;--muted:#a39d90;--line:#35322c;--accent:#d2ac6a}}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.5 Georgia,serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 60px}
+h1{font-size:1.5rem;margin:0 0 4px}.sub{color:var(--muted);margin:0 0 20px}
+.tabs button{font:inherit;padding:6px 14px;margin:0 6px 16px 0;border:1px solid var(--line);background:none;color:var(--fg);border-radius:6px;cursor:pointer}
+.tabs button.on{border-color:var(--accent);color:var(--accent)}
+.u{border-top:1px solid var(--line);padding:12px 0}.g{font-size:1.15rem;white-space:pre-line}
+.tr{color:var(--muted);font-size:.9rem;white-space:pre-line;margin:2px 0 8px}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.row span{width:74px;color:var(--muted);font-size:.85rem}
+audio{height:32px;max-width:100%;flex:1;min-width:200px}
+</style></head><body><main>
+<h1>Two voices for reconstructed Attic</h1>
+<p class="sub">Voice A is Google's (paid past a monthly free allowance). Voice B is Piper (free). Both read the same sounds. Pick the one you prefer.</p>
+<div class="tabs"><button data-id="odyssey-001" class="on">Odyssey 1.1–95</button><button data-id="aesop-001">Aesop, fable 1</button></div>
+<div id="list"></div>
+</main><script>
+async function show(id){
+  document.querySelectorAll('.tabs button').forEach(b=>b.classList.toggle('on',b.dataset.id===id));
+  const L=document.getElementById('list'); L.textContent='Loading…';
+  const s=await fetch('../'+id+'.json').then(r=>r.json());
+  L.innerHTML='';
+  s.sentences.forEach((u,i)=>{
+    const d=document.createElement('div');d.className='u';
+    d.innerHTML='<div class="g"></div><div class="tr"></div>'+
+      '<div class="row"><span>Voice A</span><audio controls preload="none" src="../audio/'+id+'/'+i+'.mp3"></audio></div>'+
+      '<div class="row"><span>Voice B</span><audio controls preload="none" src="piper/'+id+'/'+i+'.mp3"></audio></div>';
+    d.querySelector('.g').textContent=u.t; d.querySelector('.tr').textContent=u.tr||'';
+    L.appendChild(d);
+  });
+}
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>show(b.dataset.id));
+show('odyssey-001');
+</script></body></html>

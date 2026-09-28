@@ -84,3 +84,67 @@ position after a full stop, one a/an typo) or note-accuracy fixes (two cross-ref
 one grammar-label correction, one confusing phrasing, one scansion re-diagnosis). No mistranslation,
 bowdlerization, epithet-table violation, or repeated-line drift survived to publish uncorrected. The
 four repeated-line units and both scansion-flagged lines were checked by hand and are now accurate.
+
+## Reviewer pass 2 — gloss.json
+
+Checked all 242 entries (233 novel-form + 9 broadened) against `units.json`, `novel-forms.json`,
+`known-forms.json`, and `odyssey-glossary.json`, per `runbook.md`'s instruction that the second pass
+reads `gloss.json` and checks every parse against the line.
+
+**Correctness edits: 15 entries.**
+- Wrong case/gender fixed against actual usage in this part (the entry claimed an ambiguous
+  "X/Y" case-or-gender that the line does not actually show, or the outright wrong one):
+  `πηγῷ` (masc. → neut., agreeing with the neuter κῦμα — this was a real gender error, not just an
+  unneeded hedge), `ῥόθιον` (acc. → nom., agreeing with κῦμα, subject of βέβρυχεν — real case error),
+  `κῆτος` (dropped a false "nom./acc." hedge to acc., the case actually used), `δάσκιον` (dropped
+  "neut." — agrees only with the feminine ὕλην here), `δυσπονέος` (dropped "neut." — agrees only with
+  masc. καμάτοιο), `σά` (dropped "nom." — object of ἱκάνω, acc. only), `σκέπας` (acc. → nom., subject
+  of ἦν), `ἁρπάξαν` (dropped "acc." — agrees with κῦμα, nominative subject), `ὀστέ` (dropped "acc." —
+  subject of the passive ἀράχθη), `ῥῖγος` (dropped "acc." — subject of μεθείη), `ἐρευγόμενον` (dropped
+  "acc." — agrees with κῦμα, subject of ῥόχθει).
+- `ἀσπάσιον`: reworded "used predicatively/adverbially" (a hedge covering two different
+  constructions) to "predicate agreeing with τόν," the construction actually used here.
+- Two build-blocking format bugs, not just style: `αὔοι`, `δοάσσατο`, and `κεκαφηότα` had no
+  `lemma — meaning` shape at all (no em dash), which fails `build_odyssey.py`'s own entry-shape
+  check and would have made the build refuse; reworded all three into the required shape while
+  keeping the same hedged, non-committal content. `πηγῷ` (241 chars) and the gender fix pushed it
+  further; trimmed to 167 chars.
+- Structural bug: the 9 broadened entries (`βάλῃ`, `μέγ`, `τί`, `τρίτον`, `χεῦ`, `ἄναξ`, `ὑπ`, `ὑπὸ`,
+  `ὡς`) were sitting as ordinary top-level keys, not under the `"__broaden__"` key
+  `build_odyssey.py` requires (`add=...; broaden=add.pop('__broaden__',{})`) — as shipped, the build
+  would have died at `gloss.json redefines an existing form` on the first one. Moved all 9 into a
+  `"__broaden__"` object; their content was not touched. Diffed each against
+  `odyssey-glossary.json`'s current entry for the same key: all 9 preserve the old entry text
+  byte-for-byte before the added `" · "` reading, and the new reading in each is itself accurate
+  against the line it was added for (checked `βάλῃ`, `μέγ`, `τί`, `τρίτον`, `χεῦ`, `ἄναξ`, `ὑπ`, `ὑπὸ`
+  all against their lines in `units.json`). No content changes needed there.
+
+**Format trims: 60 entries.** Went through every entry; found 81 with a parenthetical quoting this
+part's own line text as illustration (mostly `(Greek phrase ’English translation’)`), plus a handful
+using the word "here" or "this simile"/"only here" to point at a specific spot. Removed the
+line-pinned material from all of them: for a single-sense entry this usually meant dropping the
+parenthetical outright (it added nothing beyond what "lemma — meaning; parse" already said); for a
+few (`λεῖος`, `φυλάσσω`, `στόμα`, `ὄχοι`, `πολιοῖο`) the parenthetical was rewritten to state the
+real general fact (a construction, a fixed formula, a polysemy) without quoting this line's inflected
+wording. Kept the handful of parentheticals that are genuinely general — etymology (`ἀγχιβαθὴς`,
+`πολύλλιστον`), a named recurring idiom (`σπέρμα`, `ἠῶθι πρό`, `τί πάθω`), or a plain
+"agreeing with X" grammatical note (`θρασειάων`, `πεφυῶτας`, `ἀέντων`, `ἐκβαίνοντα`) — since those
+describe the form itself, not this occurrence. Fixed explicit "here"/"this simile"/"only here"
+wording in `δύσετ`, `ἀμφιτρίτη`, `ἀράχθη`, `ἄχνῃ`, `ἐνιπάς`, `ἐπαμοιβαδίς`, `λάιγγες`, `πάνθ` to
+general phrasing.
+
+**Disputed forms — left genuinely open, on purpose.** `πηγῷ`/`κύματι πηγῷ`, `λίθακι`, `κεκαφηότα`,
+and `αὔοι` (the four this part's `units.json` itself flags as disputed) all already hedged properly
+("disputed," "no certainty is possible," "perhaps," "not fully understood") and were kept that way —
+only `πηγῷ`'s gender label and `κεκαφηότα`'s entry shape needed fixing, not their hedging. `κλυτὸς`
+was left unchanged even though one of its two occurrences in this part (κλυτὸς Ἀμφιτρίτη, a feminine
+noun) takes the masculine form: this is a real, attested Homeric formula (a frozen epithet used
+without regard to the noun's grammatical gender, already discussed in this part's own `n` at 5.422),
+not an error in the entry — "masc. nom. sg." correctly describes the form itself.
+
+**Validation.** `python3 -c "import json; json.load(open('gloss.json'))"` passes. All 233 novel
+entries now match `^\S.* — \S`, contain no backtick or ASCII apostrophe, and are ≤230 characters
+(`πηγῷ` was the only one over, now 167). All 9 `__broaden__` entries were confirmed to contain their
+`odyssey-glossary.json` counterpart's text byte-for-byte as a prefix. Coverage double-checked: every
+form in `novel-forms.json` has exactly one top-level entry, and no gloss.json key exists outside that
+list.

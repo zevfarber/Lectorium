@@ -391,10 +391,24 @@ Words whose meaning is not actually known are **said to be unknown** in the note
 | κάμμορε (vocative address, 5.160) | "Ill-fated one" | "Ill-fated man" | "wretch", "poor fool", "unlucky one", "unhappy man" (κάμμορος = κατάμορος, built on μόρος "portion"); shares its English with the already-fixed δύσμορος "ill-fated" (1.49, 2.351) — accepted as near-synonyms, both built on μόρος |
 | νῆες ἐῖσαι ὠκύποροι (5.175–176) | "well-balanced ships, swift-faring" | "well-balanced, swift-faring ships" | "sea-going", "fast-sailing", "quick-passaged"; ὠκύς keeps the table's "swift", ἐῖσαι keeps the table's "well-balanced" (sense of ἐῖσαι itself uncertain, flagged since 3.10) |
 | πρόφρων (of a willing helper, 5.143; shipped at 2.230 as "ready-minded"), with the epic feminine πρόφρασσα (5.161) | "ready-minded" | "with a ready mind" | "gladly", "eagerly", "kindly" (lose φρήν), "wholeheartedly" |
+| διογενὲς Λαερτιάδη, πολυμήχαν’ Ὀδυσσεῦ (whole-line vocative address to Odysseus, 5.203) | "Zeus-sprung son of Laertes, many-devising Odysseus," | "Zeus-born son of Laertes, Odysseus, man of many devices," | "Laertiades" (a transliteration, not a translation), "resourceful" (turned down in the table's πολυμήχανος row), "godlike" (reserved for ἀντίθεος); each word keeps its own fixed table rendering (διογενής, πολυμήχανος), and only the patronymic is new |
+| τὴν δ’ ἀπαμειβόμενος προσέφη πολύμητις Ὀδυσσεύς (whole-line reply-formula, 5.214) | "Her answering addressed many-wiled Odysseus:" | "In answer Odysseus of many wiles said to her:" | "answered" (reserved for ἠμείβετο), "resourceful" / "of many devices" (reserved for πολυμήχανος, which Calypso uses of him eleven lines earlier at 5.203; the two epithets are kept apart); built on the table's τὴν δ’ ἀπαμειβόμενος προσέφη and πολύμητις rows |
+| πότνα θεά (vocative address to a goddess, 5.215) | "Lady goddess" | "Lady goddess" | "Queen" (reserved for ἄνασσα), "Mistress", "Honoured goddess", "Great goddess"; πότνα is the short vocative of πότνια, shipped as "lady" (πότνια νύμφη "the lady nymph", 1.14; πότνια Ἥρη "the lady Hera", 4.513) |
+| κρείων ἐνοσίχθων (of Poseidon, 5.282) | "the lord earth-shaker" | "the lord earth-shaker" | "the mighty earth-shaker", "the ruling earth-shaker"; κρείων keeps the "lord" shipped for κρείων Ἐτεωνεύς (4.22), and ἐνοσίχθων keeps the table's "earth-shaker" |
+| κινήσας δὲ κάρη προτὶ ὃν μυθήσατο θυμόν (whole-line introduction to a speech made to oneself, 5.285) | "and, shaking his head, he spoke to his own heart:" | "and shaking his head he spoke to his own heart:" | "said to himself" (drops θυμός), "tossing his head", "nodding" (κινέω is 'move, shake'), "spirit" for θυμός (θυμός is "heart", as in ὃν κατὰ θυμόν 1.4) |
+| μέλας οἶνος (5.265, μέλανος οἴνοιο) | "dark wine" | "dark wine" | "black wine" (misleading in English, though μέλας is "black" of ships in θοὴ νηῦς μέλαινα), "red wine" (a modern category), "ruddy"; kept apart from the table's αἶθοψ οἶνος "the fire-faced wine" |
+| ὄρεα σκιόεντα (5.279) | "the shadowy mountains" | "the shadowy mountains" | "shady mountains" (suggests shade-trees), "dim", "dark mountains" (loses σκιά 'shadow') |
+| οὖρος ἀπήμων τε λιαρός τε (5.268, οὖρον … ἀπήμονά τε λιαρόν τε) | "a fair wind, harmless and warm" | "a fair wind, harmless and warm" | "gentle", "soft", "balmy" (λιαρός is 'warm, mild'), "safe" (drops πῆμα, which ἀπήμων shares with the oath-line μή τί μοι αὐτῷ πῆμα κακὸν βουλευσέμεν ἄλλο); οὖρος keeps the shipped "fair wind" |
+| φορτὶς εὐρεῖα (5.250, νηὸς … φορτίδος εὐρείης) | "a broad freighter" | "a broad freighter" | "merchantman" (period-specific), "cargo-boat", "trading-vessel"; φορτίς is from φόρτος 'cargo' |
 
 χειρί τέ μιν κατέρεξεν ἔπος τ’ ἔφατ’ ἔκ τ’ ὀνόμαζεν (4.610, fixed with a male subject) now also covers a female
 subject (Calypso, 5.181): the English pronoun tracks the speaker's sex ("stroked him with her hand"), exactly as
 the ὣς φάτο row already does.
+
+ἅλα δῖαν (5.261, μοχλοῖσιν δ’ ἄρα τήν γε κατείρυσεν εἰς ἅλα δῖαν): from odyssey-024 on, δῖος applied to the sea
+keeps "heavenly" in *both* `l` and `i`, per row 274 above. This is not a retroactive fix: 3.153 keeps its shipped
+"heavenly brine" / "bright salt sea", and 4.577 keeps its shipped "bright sea" in `i` — both left as shipped, the
+inconsistency already noted at row 274.
 
 ## Glossary entries
 

@@ -258,3 +258,35 @@ flagged twice across the two review passes without being resolved, so it is rais
 silently left as a single reviewer's unchecked call. Closing this needs either a person with a fuller
 grammar (Monro §67 or similar on epic -έομαι contract verbs) or a decision that either tense is
 acceptable and the note need not commit to one.
+
+## Three items from odyssey-024 (5.192–290, 2026-09-28), left for the owner
+
+**1. ὄφρ' broadening blocked by the glossary's 230-character cap.** This part's 5.237 (δῶκε δ’ ἔπειτα
+σκέπαρνον ἐύξοον· ἦρχε δ’ ὁδοῖο) uses ὄφρ' at 5.255 (πρὸς δ’ ἄρα πηδάλιον ποιήσατο, ὄφρ’ ἰθύνοι) in a
+purpose clause with the optative in secondary sequence — a sense the shipped entry does not state. The
+shipped entry is already at 229 characters, leaving no room for a compliant addition. Same recurring
+tension as τῷ (odyssey-003), περὶ/τί (odyssey-007), κακὸν/ὃ (odyssey-011), κακόν/Τηλεμάχοιο
+(odyssey-012), περικαλλέα (odyssey-013) and τ (odyssey-017) above. Decided meanwhile: left the shipped
+entry unbroadened; this part's own unit states the sense correctly in its own note.
+
+**2. conventions.md's house-table row for ἤματα πάντα (4.592) has `l` and `i` reversed against what
+actually shipped.** The row reads `l` "all your days", `i` "for all your days". But odyssey-019.json's
+own unit at ln 590 (which contains 4.592) actually ships `l` "...remembering me for all your days" (the
+"for" is in `l`) and `i` "...remember me all your days" (no "for" — checked directly against the shipped
+file, not just the table). So the table's two columns are transposed relative to the real, already-published
+English. Found by odyssey-024's review pass 1 while checking an unrelated recurrence of πάντα. Decided
+meanwhile: left both the table and odyssey-019.json untouched — fixing the table is a one-line edit with
+no risk, but the discrepancy is flagged here rather than silently corrected, since it touches a claim
+about already-published wording and this run's scope is odyssey-024 alone.
+
+**3. "harmless" (this part's new οὖρος ἀπήμων τε λιαρός τε row) sits oddly next to the already-shipped
+"a safe return" for νόστος ἀπήμων (4.519) and the shipped glossary entry for ἀπήμων itself, which already
+gives "unharmed, safe".** The new-renderings row for 5.268 deliberately avoided "safe" (reasoning: it
+drops the shared πῆμα-root link to the nearby oath-line μή τί μοι αὐτῷ πῆμα κακὸν βουλευσέμεν ἄλλο), but
+that leaves the same Greek adjective ἀπήμων rendered two different ways in the same poem depending on
+what it modifies — "safe" of a return, "harmless" of a wind. Both are defensible individually (a wind
+can hardly be called "safe" in English the way a homecoming can), and review pass 2 accordingly broadened
+the ἀπήμων glossary entry itself to state both senses ("harmless" and "unharmed, safe") rather than
+picking one. Flagged here in case the owner wants the house table's wording made explicitly consistent
+across the two entries, or judges the current split (justified by what the adjective actually modifies)
+sufficient as is.

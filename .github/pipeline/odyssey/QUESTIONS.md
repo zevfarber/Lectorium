@@ -326,3 +326,5 @@ earlier example of the pattern. `mark` strings are presentational only and not c
 this is a style question rather than a correctness one. Flagged in case the owner wants the wording
 written into conventions.md's "The two English layers" section so future parts don't have to rediscover
 the precedent by searching earlier drafts.
+
+**odyssey-028 (6.110–222).** (1) 6.168 `i` renders γύναι as "lady"; the table reserves "lady" for δέσποινα/πότνια, and the reviewer read that as not covering γύναι. Decided meanwhile: kept "lady". If the owner wants it strict, change to "woman". (2) The ἐέδνοισι βρίσας row could add to its "avoided" cell that the object of βρίσας is σε (the note in 6.158 already says so).

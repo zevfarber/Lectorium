@@ -1,0 +1,17 @@
+# New renderings chosen in odyssey-028 (Odyssey 6.110–222)
+
+| Greek | `l` | `i` | avoided on purpose |
+|---|---|---|---|
+| ἐυῶπις (6.113, 6.142, κούρην ἐυώπιδα) | "fair-eyed" | "fair-eyed" | "bright-eyed", "beautiful-eyed", "well-eyed"; ἐύ- is "fair" as in ἐυστέφανος, and the word is kept apart from γλαυκῶπις "gleaming-eyed" |
+| τὸν δ’ αὖ Ναυσικάα λευκώλενος ἀντίον ηὔδα (6.186, reply-formula: name + epithet + ἀντίον ηὔδα; the same shape as the fixed τὴν/τὸν δ’ αὖ Τηλέμαχος πεπνυμένος ἀντίον ηὔδα) | "To him in turn white-armed Nausicaa spoke, face to face:" | "Then white-armed Nausicaa spoke to him in turn, face to face:" | "answered" (reserved for ἠμείβετο), "addressed" (reserved for προσέειπε / προσέφη) |
+| δή ῥα τότ’ ἀμφιπόλοισι μετηύδα δῖος Ὀδυσσεύς (whole-line speech introduction, 6.217) | "Then indeed among the attendants spoke heavenly Odysseus:" | "Then heavenly Odysseus spoke among the attendants:" | "answered" (reserved for ἠμείβετο), "addressed" (reserved for προσέειπε / προσέφη); μετηύδα keeps "spoke among", as fixed for τῇς δ’ ἁδινὸν γοόωσα μετηύδα Πηνελόπεια |
+| ὀρεσίτροφος (of a lion, 6.130) | "mountain-nurtured" | "mountain-nurtured" | "mountain-bred" (loses τρέφω "nourish"; keep for a different compound), "reared on the mountains", "mountain-fed" |
+| μήδεα φωτός (6.129, "the genitals of the man"; a distinct lemma from μήδεα "counsels" in πεπνυμένα μήδεα εἰδώς) | "the genitals of the man" | "his genitals" | "his nakedness", "his private parts" (bowdlerizing or euphemistic), "counsels" (that is the other word) |
+| γουνοῦμαί σε, ἄνασσα (6.149, formal opening of a supplication) | "I beseech you at your knees, queen" | "I entreat you, queen" | "I clasp your knees" (Odysseus has decided not to touch them, 6.145–147; the note explains that the knee is only in the verb), "I implore you", "I kneel to you" |
+| ἐέδνοισι βρίσας (6.159, "having outweighed with bridal gifts") | "having outweighed you with bridal gifts" | "outweighs his rivals with bridal gifts" | "loading you with gifts" (reverses who gives to whom), "buying you", "paying the bride-price" (the ἕεδνα are the suitor's gifts; the verb is βρίθω "be heavy") |
+| δόρυ (6.167, of the palm's stem, ἐκ δόρυ γαίης) | "trunk" | "trunk" | "spear", "shaft" (both lose the tree), "timber" |
+| δαίμων (6.172, ἐνθάδε κάββαλε δαίμων, an unnamed divine power) | "a power" | "some power" | "a god" (reserved for θεός), "spirit", "demon", "fortune", "fate" (reserved for μοῖρα / πότμος) |
+| κακὰ κήδεα (6.165) | "evil sorrows" | "evil sorrows" | "evil cares", "grievous" (reserved for λυγρός / ἀργαλέος), "troubles" alone |
+| διερὸς βροτός (6.201; meaning of διερός uncertain) | "a living mortal" | "no living mortal" (+ note: 'living' is the traditional guess; 'wet', 'lively' also proposed) | "an active mortal", "a quick mortal", "a wet mortal" (each silently picks one guess) |
+| πολύκλυστος (of the sea, 6.204) | "much-washed" (of the open-sea) | "wave-washed" | "stormy", "surging", "tossing", "much-tossed" |
+| πρὸς γὰρ Διός εἰσιν ἅπαντες / ξεῖνοί τε πτωχοί τε, δόσις δ’ ὀλίγη τε φίλη τε (two-line saying, 6.207–208) | "for from Zeus are all / strangers and beggars, and a gift is small and dear." | "for all strangers and beggars are from Zeus, and a small gift is welcome." | "under Zeus's protection" (turns πρός into an interpretation), "poor men" for πτωχοί (kept "beggars"), "a gift small but cherished" |

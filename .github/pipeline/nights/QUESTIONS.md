@@ -947,3 +947,82 @@ Open decisions the rules do not settle. A run writes the question and what it de
   `--fix`, not just trust its own PASS — and `check_slice.py`'s remap logic is worth hardening
   (e.g. only remap a glossary key when every occurrence of that surface form in the slice changed
   the same way) if this recurs.
+
+- **Verse pointing stops mid-poem, crossing the p.125→p.126 page break (run 2026-09-28,
+  pp. 143-150).** The poem describing the young man's beauty is printed pointed (fatha/kasra/damma
+  visible, e.g. "زحلُ السوادِ") on P125L12-22, but its last six lines, P126L01-06, continuing the
+  same poem on the next page, are printed with no vowel marks at all — confirmed both by direct
+  pixel-level inspection this run (adjudicator) and by the fact that the two correction passes,
+  reading independently, converged on the same bare reading for P126 without prompting. This is a
+  new variant of the already-documented pp.131-133 unpointed-verse anomaly (see the 2026-09-26
+  entry above): there, three whole consecutive pages were unpointed; here, the loss of pointing
+  happens abruptly mid-poem, exactly at a page turn. Decided: archived exactly as printed (pointed
+  through P125L22, bare from P126L01), per the "photograph, not an edition" rule — no marks were
+  invented to make the poem's vocalization consistent across the page break. Also on this same
+  page, pass 2 independently claimed P130L19-20 (a different, later poem) WAS fully pointed, flatly
+  contradicting pass 1's and the adjudicator's reading of no marks at all there; the adjudicator's
+  own direct re-inspection sided with "unpointed," and pass 2's vocalized version looked
+  reconstructed from memory rather than read off the page — the same failure mode already on
+  record (run 2026-09-19, PDF p.98) for an agent supplying "well-known" tashkil instead of checking
+  the image. **Future runs: unpointed verse in this edition is not confined to the pp.131-133
+  gathering — it recurs at least twice more by PDF p.150, and can start or stop mid-poem at a page
+  break. Treat any correction agent's claim of full vocalization on a verse block already flagged
+  bare by another pass or a prior run as suspect by default, and re-verify at zoom rather than
+  trust it.**
+
+- **Adjudicator's stated reasoning for a hemistich-divider placement was wrong; caught by direct
+  pixel measurement, not by trusting the report (run 2026-09-28, pp. 143-150).** Two verse lines
+  (P126L01-02) needed a hemistich " * " divider inserted — pass 1 had recorded the caesura only as
+  an ordinary-looking double space, with no literal "*", so `apply_verdicts.py`'s known
+  empty-pass1-text gap (documented since run 2026-09-19/20) silently dropped both insertion
+  verdicts, same as every time before. Applying them by hand, the adjudicator's own note for
+  P126L01 said the widest gap sat "right after قامته," but a column-wise ink-density measurement
+  of the actual line image showed the single widest gap (120px, roughly double any ordinary
+  inter-word gap on the same line) sits one word later, after التي — which is also exactly where
+  pass 1's own double space already was. For P126L02 the adjudicator's verdict didn't specify a
+  position at all (pass 1's double space there was, on the same pixel check, in the WRONG place —
+  the true widest gap fell one word earlier, between حركاته and وسكونه, confirmed by the same
+  120px-wide gap recurring at nearly the same horizontal column position across both lines, i.e.
+  the typesetting aligns the caesura column down the page). Placed both dividers by direct
+  measurement rather than by the adjudicator's description or pass 1's inherited spacing. **Future
+  runs: a subagent's prose description of "the wider gap is here, not there" is worth checking
+  against an actual pixel measurement of the line crop before trusting it for anything as precise
+  as a hemistich boundary — inter-word gaps in this typeface vary enough (16-90px is ordinary) that
+  eyeballing at 2x zoom is not reliable for picking out the one true ~120px caesura from an
+  merely-larger-than-usual ordinary gap.**
+
+- **`tools/lines/` is keyed by PDF page number, not printed page number — nearly corrupted 12
+  pre-existing pairs this run by assuming otherwise (run 2026-09-28, pp. 143-150, caught before
+  committing).** Building this run's retrain pairs, `pNNN_LL.png`/`.gt.txt` were first written
+  using the printed page number (123-130, this batch's own printed range) — `git status` showed
+  most of the "new" files as **modified**, not untracked, which is what caught it: the existing
+  `p123_01.gt.txt` held content ("اعجب واغرب وهي سبب لحلق ذقني...") that is actually archived at
+  `P103L01`, i.e. printed p. 103 = PDF p. 123 (103+20). The established naming has always been the
+  **PDF** page number (confirmed against `p135_01.gt.txt`, which holds printed p. 115's own text —
+  115+20=135), not the printed one, and this run's own two new batches of numbers (`123-130`
+  printed vs. `143-150` PDF) happened to collide with real pre-existing pairs from the pp.099-106/
+  pp.107-114 retrain batches. Reverted every modified file with `git checkout --` before writing
+  anything, then rewrote all 134 pairs under the correct `p143_*`.. `p150_*` names with zero
+  collisions. **Future runs: `tools/lines/pNNN_LL` is always the PDF page number — never the
+  printed page number the rest of a transcribing run otherwise works in — and `git status` after
+  writing new pairs (expecting all `??`, zero `M`) is a cheap, effective check that the numbering
+  wasn't mixed up, worth doing as a matter of course before committing.**
+
+- **Fourth retrain attempt deliberately held, not attempted (run 2026-09-28, pp. 143-150).** Lines
+  archived passed 2800 (the plan.md-noted next-retrain trigger) with this batch. Per the standing
+  note left by the previous three consecutive discarded attempts (pp.119-126, pp.127-134,
+  pp.135-142, all regressing on the same two held-out pages with the same unchanged recipe: 1500
+  iterations, lr 0.0005, `arabest.traineddata` base), decided meanwhile not to spend a fourth cycle
+  repeating the identical recipe on identical held-out pages, since nothing about the setup would
+  give a fourth attempt better odds than the previous three. Committed this run's own 134 new
+  verified prose-only line pairs to `tools/lines/` regardless (569 pairs now waiting across four
+  runs since the last successful retrain), so nothing is lost if a future run or the owner does
+  revisit the recipe. **Not done, flagged for whoever next attempts a retrain:** try a materially
+  different iteration count (1500 iterations at ~10% train BCER each time suggests undertraining,
+  not overtraining — worth trying e.g. 3000-4000 before assuming the corpus itself is the limit);
+  commit a small `tools/score_cer.py` (fixed held-out pages, one Levenshtein-based metric) so every
+  attempt's numbers are comparable to the last, which no committed tool currently provides (each of
+  the last three runs wrote its own throwaway comparison, and the numbers are not consistent with
+  each other per the 2026-09-27 LOG entry); and consider whether printed p. 40 specifically (the
+  held-out page that has gotten worse in the last two attempts) should be swapped for a different
+  held-out page, in case it is an outlier rather than representative.

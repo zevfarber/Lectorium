@@ -32,11 +32,12 @@ scan anomaly turns up later in the volume.
 | done (2026-09-26, unattended) | 119–126 | 99–106 | `archive/pp099-106.json` | The shape-shifting duel between Sitt al-Husn and the jinni Jirjis ends with both burned to ash by a stray fire-grain; the second qalandar (freed from the ape-spell too late) tells the rest of his own tale — the pardoned lover's ifrit-brother burning half his face, the Qalandar fleeing and shaving his own beard — then the frame closes and the third qalandar opens his tale: his father's death, the fated princess in the mountain vault, the bronze horseman talisman he strikes early, the sea-voyage, the magnetic mountain that wrecks his ship, and (per a dream-messenger's instructions) the underground vault, the bow of brass, and the ten days adrift on the enchanted skiff that ends the batch |
 | done (2026-09-26, unattended) | 127–134 | 107–114 | `archive/pp107-114.json` | The Third Qalandar's tale opens: grieving slaves burying a boy alive on his father's death (feared the shock would kill him), the shroud-wrapped return home, the old man's collapse, and (as the batch ends) his sea-voyage and shipwreck at another magnetic-mountain-like hazard, taking refuge in a strange palace |
 | done (2026-09-27, unattended) | 135–142 | 115–122 | `archive/pp115-122.json` | The Third Qalandar finishes his own tale: the sheepskin-and-Roc-bird flight to a mountain, a year with forty palace maidens, the forbidden fortieth chamber opened, the black jinn-horse ridden and struck, flown to a rooftop where an unseen hand blinds his right eye and casts him out to join (and be rejected by) the ten one-eyed young men; the frame closes at dawn (P121L08-09) and Night 17 opens with the eldest of the two beaten-dog sisters telling her own tale to the caliph: three sisters inherit and marry, their husbands squander the dowries and abandon them, the two elder sisters return destitute and are sheltered by the youngest (the narrator), and the three set out together by ship, which loses its course, as the batch ends |
+| done (2026-09-28, unattended) | 143–150 | 123–130 | `archive/pp123-130.json` | The eldest sister's own tale continues: the ship anchors at a city whose people are all turned to black stone; a surviving young man recites a poem describing his own beauty (verse, printed pointed on p.125 but running unpointed once it crosses onto p.126 — see QUESTIONS.md); the frame closes at a night boundary (P127L23→P128L01) and the narration shifts into "قال صاحب الحكاية" — the second of the two beaten-dog sisters begins explaining her own scars to the caliph (a shipwreck, an inheritance, a spendthrift husband's death, then an old woman's ruse leading to her own tale, cut off as the batch ends) |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 142 (archive ends at printed p. 122). Pages remaining: ~796 PDF pages
-(approximate, pending the corrected offset holding). Lines archived: 2632. calc.traineddata last
+**Last PDF page done: 150 (archive ends at printed p. 130). Pages remaining: ~788 PDF pages
+(approximate, pending the corrected offset holding). Lines archived: 2813. calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new
 verified line pairs (pp. 127-131, 133-134 prose only, verse/heading excluded; p. 132 excluded, its
@@ -51,7 +52,14 @@ CER measurement doesn't reproduce the exact prior runs' baseline number, though 
 direction is unambiguous). The 134 new verified line pairs are committed in `tools/lines/` for the
 next attempt (435 new pairs now waiting across three discarded attempts — worth reconsidering the
 retrain recipe itself before a fourth, per the standing note in QUESTIONS.md). Next retrain attempt
-due when lines archived pass 2800.
+due when lines archived pass 2800 — **held this run (2026-09-28, pp.143-150), on purpose:** lines
+archived just passed 2800, but per the standing note above (three consecutive discarded attempts,
+same unchanged recipe: 1500 iterations, lr 0.0005, same two held-out pages), a fourth blind repeat
+was judged unlikely to do anything but burn a cycle. Committed this run's own 134 new verified
+prose pairs (pp. 123-124, 127-129 in full, p. 130 lines 1-18/21-22 only — verse and the
+dropped-and-recovered lines on pp. 125-126 excluded) on top of the 435 already waiting (569 total
+now waiting across four runs), but did not attempt a retrain. See QUESTIONS.md for the reasoning
+and what a future attempt should change before trying again.
 
 ## Phase 2 — the reading edition (live since 2026-09-18, same routine)
 

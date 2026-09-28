@@ -903,3 +903,47 @@ Open decisions the rules do not settle. A run writes the question and what it de
   fourth attempt just repeats the pattern. Committing a small `tools/score_cer.py` (fixed
   held-out pages, one consistent metric) would also stop each run from re-deriving its own
   ad hoc comparison.
+
+- **2026-09-27/28, publishing run (nights-16): duplicate glossary keys differing only in
+  combining-mark canonical order.** The whole-night review agent found that at least four very
+  common word forms — أَنْ, إِلَى, أَنَا, إِلَّا — exist in the assembled night's (and, after
+  merging, the shared) glossary under two distinct string keys apiece: same letters, same marks,
+  but the hamza-combining-mark (U+0654) and an adjacent short-vowel mark are ordered differently
+  between the two spellings, so they are byte-for-byte different keys that render pixel-identical.
+  This traces back to the "t" field text itself (different drafting agents, or the same agent at
+  different points, wrote the same word's marks in a different internal order), which is out of
+  scope for a glossary-only review pass to touch (fixing it means editing already-gated "t" text).
+  Decided meanwhile: left it alone rather than touch "t" outside its own gate. This is not a
+  reader-facing defect today — `validate_night.py`'s glossary-coverage check and the reader's own
+  lookup both fall back to the diacritic-insensitive bare-skeleton match on an exact-key miss
+  (reading-conventions.md: "a single absent fatḥa can never orphan a word"), and that fallback
+  strips exactly the marks whose *order* differs here, so both spellings still resolve. But it
+  does mean the shared glossary is quietly carrying duplicate entries for some of the corpus's
+  most common words, and a future night could plausibly hit a case the bare-skeleton fallback
+  doesn't cover cleanly. Worth a dedicated pass some day: normalize combining-mark order (NOT full
+  NFC — canonical *reordering* of combining marks only, never precomposition, so hamza stays
+  decomposed as the house rule requires) across `nights-glossary.json` and, ideally, catch it at
+  the source by having `check_slice.py` canonicalize mark order as part of its existing hamza
+  repair pass, rather than leaving it to accumulate night by night.
+
+- **Same run: check_slice.py's `--fix` remap can silently drop a still-valid glossary key when
+  the same surface form covers two different join/split cases in one slice.** On slice A
+  (وَلَطَمَ) and slice G (وَ + قَالَ/قَالَتْ/قُلْتُ and مَا + جَرَى), the same fused surface form
+  appeared twice in one slice: once where the archive itself prints it fused (a valid glossary
+  key, unchanged) and once where the archive prints it as two separate tokens (needing the
+  fix's split/join repair). `--fix`'s glossary remap processes every *old* key present in the
+  glossary and rewrites it according to the *first* changed occurrence it finds, which silently
+  destroys the still-valid fused-form entry even though the sentences still contain that literal
+  fused surface form elsewhere. In slice G this additionally produced a bogus empty-string
+  glossary key (from a join case whose second half's remap target was `""`). Neither defect
+  shows up in `check_slice.py`'s own PASS result, since that tool only checks bare-strip identity
+  of the *sentence* text, never glossary coverage. Caught this run only because the orchestrator
+  ran an explicit extra coverage sweep (every word form in every "t" resolves in that slice's own
+  glossary) on all 7 slices before assembling, not just the ones `check_slice.py` had flagged;
+  fixed by hand in both cases (restored the dropped fused-form key with its own correct gloss,
+  removed the bogus empty key). Decided meanwhile: no code change to `check_slice.py` this run
+  (the fix is correct for the common case and only breaks on this fairly rare double-occurrence
+  pattern), but future orchestrators should keep running that coverage sweep on every slice after
+  `--fix`, not just trust its own PASS — and `check_slice.py`'s remap logic is worth hardening
+  (e.g. only remap a glossary key when every occurrence of that surface form in the slice changed
+  the same way) if this recurs.

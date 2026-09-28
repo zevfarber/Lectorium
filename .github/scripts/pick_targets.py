@@ -17,6 +17,10 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from wordre import sent_tokens
 
 VOICE_LANGS = {"de-DE", "fr-FR", "zh-CN", "ar-XA"}   # keep in sync with build_audio.py VOICES
+# Languages read by a carrier voice under IPA pins (build_pinned.py PINNED). A language goes in
+# PINNED_AUTO once its pilot reading is approved; before that only an explicit dispatch builds it.
+PINNED_AUTO = set()
+_DISPATCH_OK = set()
 
 
 def story_id(path):
@@ -29,7 +33,10 @@ def story_id(path):
     if not d.get("sentences"):
         return None
     if d.get("langCode") not in VOICE_LANGS:
-        return None
+        # Pinned-voice languages (build_pinned.py): picked on push, "missing" and the stale
+        # check only once the language is in PINNED_AUTO; a dispatch by id always builds.
+        if d.get("langCode") or d.get("language") not in (PINNED_AUTO | _DISPATCH_OK):
+            return None
     return d.get("id") or None
 
 
@@ -139,6 +146,7 @@ def main():
         ids.extend(missing_audio())
         print("dispatch 'missing': %d story/ies have no clips yet" % len(ids))
     elif dispatch:
+        _DISPATCH_OK.add("Ancient Greek")
         name = dispatch[:-5] if dispatch.endswith(".json") else dispatch
         fn = name + ".json"
         if os.path.exists(fn):

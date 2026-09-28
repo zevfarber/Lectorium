@@ -1026,3 +1026,6 @@ Open decisions the rules do not settle. A run writes the question and what it de
   each other per the 2026-09-27 LOG entry); and consider whether printed p. 40 specifically (the
   held-out page that has gotten worse in the last two attempts) should be swapped for a different
   held-out page, in case it is an outlier rather than representative.
+
+- **p157->p158 join (run 2026-09-29, PDF 157-158).** P137L23 ends 'واحضر قضيبا من' with printed catchword 'ع' under it, but P138L01 begins 'فترجل ونزل به'. The catchword does not match; the bands show no missing line on either page. Decided meanwhile: archived exactly as printed, nothing inserted (probable printer's catchword slip or omitted word in the edition).
+- **Shadda in prose (same run).** The print shows a shadda on وسّطها (P137L11) and عليّ (P137L21); the gate forbids marks in prose, so both are archived bare. If marks-in-prose should be kept, the validator needs a rule.

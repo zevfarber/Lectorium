@@ -40,3 +40,32 @@ Quotation marks: “ on the first unit and ” on the last of each speech in bot
 - 79 · i "Her mother also gave": "also" and "her" are inferences from the change of subject already stated in the note. Refused.
 
 Second pass (gloss.json parse check) still to do.
+
+## Pass 2 (glossary)
+
+Checked: 219 novel keys = 219 gloss keys (no missing, no extras, none already in odyssey-glossary.json); 25 `__broaden__` entries, each = the published entry whole (byte-for-byte prefix against odyssey-glossary.json) + ` · ` + new reading; every parse against its line; length under 230 (only the broadened κεν and ὡς, and αὐτῇ/καλὸν, run over, as the published prefix already does); typographic ’ only in new text; no line numbers or "here"; article-forms as pronouns; no possessive ὅς needed. 20 entries edited (by script, format kept).
+
+Changes (form · wrong · done):
+- λάιγγας · lemma λάιξ (that is the adverb) · λάιγξ.
+- ἕδος, ἀσφαλὲς · "nom." only, but both stand in the acc.+inf. after φασί · nom./acc.
+- ἐπότρυνον · "imper. 2 sg." with no tense · aor. imper. (a pres. imper. would be ἐπότρυνε); impf. 1 sg./3 pl. added as homograph.
+- ἔγειρε · tense undecided and imper. omitted · indic. 3 sg. unaugmented, aor. or impf. (Attic ἤγειρε serves both), plus pres. imper. 2 sg.
+- νόει · pres. imper. 2 sg. homograph added.
+- περιμήκετον · lemma περιμήκης, but the form is from περιμήκετος (LSJ lists both) · fixed.
+- ἠλάκατα · lemma ἠλακάτη (fem. distaff) with a neut. parse · lemma is the neut. pl. ἠλάκατα, cf. ἠλακάτη.
+- ξύμβλητο · "= συνεβλήτο" · athematic aor., Attic συνεβάλετο.
+- σεῦαν · Attic equivalent given as ἔσευαν · ἔσσευαν.
+- παίζουσι · "dat.-type ending without ν" (nonsense) · plain pres. 3 pl.
+- ἐδείματο, ἐκέκλετο · "epic (form)" merely repeated the key · trimmed (ἐκέκλετο keeps "epic").
+- ἀτάρ · "epic … = Attic ἀλλά, δέ" · poetic conj., = αὐτάρ.
+- φαινομένηφι, ἄγωνται, βουλεύειν · line-pinned glosses ("as (dawn) appears", "as their bride", cognate acc. βουλάς) · made general.
+
+Uncertain ones, stated honestly:
+- ἀρημένος · LSJ/Cunliffe agree on the sense (worn down, distressed) but not the verb; the entry now says it is Homeric, shaped like a perf. pass., verb and derivation uncertain, perh. tied to ἀρή "harm".
+- ὑπερτερίη · a part of a wagon; "cover or upper frame" is ancient guesswork; kept hedged, with the ὑπέρτερος note.
+- ἀλφηστάων · the published ἀλφηστῇσιν says "bread-eating"; kept that and added the disputed ἀλφεῖν "earn" reading. Sense disputed.
+- ἔγειρε · aor. vs impf. cannot be settled from the form; both stated.
+- ἀριγνώτη · lemma ἀριγνώτος left as drafted; I could not confirm from memory whether LSJ lemmatises it ἀρίγνωτος (accent) or ἀριγνώς; owner to check if a lexicon is at hand.
+- ξύμβλητο (athematic aor.) and περιμήκετον are from memory of LSJ/Cunliffe, moderately confident.
+
+Not fixable here: published τὰς has ASCII-style ‘ (U+2018) in "‘them, those’"; it is inside the old entry, which must stay byte-identical, so the broadened entry keeps it.

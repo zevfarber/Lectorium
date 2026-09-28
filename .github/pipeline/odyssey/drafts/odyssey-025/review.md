@@ -28,10 +28,7 @@ By item: error 3 (wrong augment/tense labels at 291, 295, 365) · moderate 6 (37
   - Poseidon: 377 → 379.
 - **Scansion flags.** The packet reports none ("## Scansion flags / none"), and the scanner confirms it. No
   hand-scansion was needed.
-- **gloss.json.** It does not exist yet, because the Glosser has not run. The gloss check in pass 2 is
-  therefore **not done**. It must be done when `gloss.json` lands. In particular, check that the entries
-  for σύναγεν (impf.), ἔπεσον (augmented), ὥρμαινε (augmented) and ἀλόω (diectasis) agree with the
-  corrected notes below.
+- **gloss.json.** It did not exist at the time of the units review. It was checked afterwards: see "Second pass: gloss.json" at the end.
 
 ## Repeated lines, checked against the shipped files
 
@@ -254,5 +251,80 @@ silent meaning-check only, and the rule is the same one the odyssey-024 review a
    fixing it in `conventions.md`, next to the `mark` rule.
 3. κρήδεμνον: "head-veil" from here on. Shipped 1.334 "veil" and 4.623 "fair-veiled" stand as shipped, and
    the row now records them.
-4. The glossary stage (not yet run) must parse σύναγεν as an imperfect, ἔπεσον as augmented, ὥρμαινε as
-   augmented, ὀρόθυνεν as an aorist and ἀλόω as diectasis. The reviewer's pass-2 gloss check is still owed.
+4. Two broadenings go over the 230-character cap only because the shipped entries are already long: ὃ
+   (225) and ὑπὸ (368). This is the same recurring conflict between the cap and the additions-only rule.
+   See "Second pass: gloss.json".
+
+## Second pass: gloss.json
+
+The Glosser wrote 180 new entries (one for every key in `novel-forms.json`, none missing, none extra, none
+already in `odyssey-glossary.json`) and 31 broadenings. I checked every parse against the line.
+
+**Mechanical checks.** Every new entry uses the " — " separator and has no backtick and no ASCII
+apostrophe. Every new entry is under 230 characters. Every broadening contains its old entry word for word,
+and a dry run of `build_odyssey.py`'s glossary step passes: full form coverage, shape, the cap, and the
+broadening test.
+
+**The five grammar points from the units review:**
+
+| Form | Result |
+|---|---|
+| σύναγεν | already correct: impf. 3 sg., unaugmented (= Attic συνῆγεν) |
+| ὀρόθυνεν | already correct: aor. 3 sg., unaugmented |
+| ἀλόω | already correct: ἀλάεο contracted and then drawn out to ἀλόω |
+| ὥρμαινε | a known form; the shipped entry already says "impf., augmented (ο→ω)", so no broadening is needed |
+| ἔπεσον | correctly "augmented", but lemmatised as συμπίπτω — **fixed** (below) |
+
+**The four disputed words.** αἰθρηγενέτης, αἴθυια and Αἰγαί already stated their uncertainty. αὐδήεσσα and
+ὀνόσσεσθαι were **fixed**: see the table below.
+
+### Changes to new entries
+
+Items marked (general) were rewritten because a glossary entry must fit the form wherever it occurs, not
+only this line.
+
+| Form | Severity | What was wrong | Now |
+|---|---|---|---|
+| ἔπεσον | error | lemmatised as συμπίπτω; elsewhere the same form means plain "fell" | lemma πίπτω, "aor. 1 sg. or 3 pl., augmented", with the σὺν … ἔπεσον tmesis as a second reading |
+| διεσκέδασ | error | called "unaugmented", but δι-ε-σκέδασε has the augment inside the compound | "augmented inside the compound" |
+| καθῖζε | moderate | called "aor., unaugmented (= ἐκάθιζε)", which contradicts itself, since ἐκάθιζε is an imperfect; with long ι the augment cannot be seen (the same point as ἷζεν in the odyssey-024 review) | neutral: "impf. or aor.; the augment cannot be seen" |
+| εἶπε | moderate | called "grave, mid-clause form"; the word is circumflexed, not grave | "without ν-movable" |
+| αὐδήεσσα | moderate | lemma given as the feminine form itself | LSJ's αὐδήεις, with the ancient explanation and a note that the exact force is debated, matching the unit note |
+| ὀνόσσεσθαι | moderate | said "here" (pinned to the line) | both readings kept, stated generally, matching the unit note |
+| λίμνης, σπεῖρον, σῶς, πρὸ | minor (general) | said "here" | generalised to fit the form anywhere |
+| ἔλαχον | minor (general) | parse too narrow for the form | "aor. 1 sg. or 3 pl." |
+| δούρατ, τέλος, δέος, σπεῖρον | minor (general) | parse too narrow for the form | "nom./acc." |
+| μεγάλου | minor (general) | parse too narrow for the form | "masc./neut." |
+| ἐπεσσύμενον, ἄμβροτον | minor (general) | parse too narrow for the form | full range of genders |
+| καρφαλέων, κλυτὰ, πικρήν, πολλὴ, κυλίνδων, χαλκήρεα, ἐλθοῦσα, ἀλώμενον, μισγομένων | minor (general) | said "agreeing with [a noun in this line]" | that clause removed |
+
+About 130 other entries were spot-checked against their lines and are sound. Among them: all the
+unaugmented-past labels (κάλυψε, κελάρυζεν, πέσε, τάνυσσεν, ἔλασεν, ἰδόμην, εἴξασκε, προβάλεσκε), ἔαξεν
+(ϝ-augment), ὀρώρει, εἵμαρτο, ἔμμορε, μιγήῃς, ἐφάψεαι, ἀρήρῃ, ἀνσχεθέειν, ἐλλάβετ, κέληθ, ἠΐων (with the
+homograph noted), and ὠδύσατ.
+
+### Broadenings: 31 received, 25 kept
+
+- **Dropped (6): αὐτῆς, περὶ, τί, τῷ, ἐπὶ, ὅτ.** Each addition either repeated a reading the old entry
+  already covers (αὐτῆς "it" of the raft; περί + dat. and tmesis; τί "what" and indefinite "anything";
+  ἐπί as adverb), or it would have pushed an entry that is already at or over the cap well past 230. The
+  largest case was περὶ, which would have grown from 572 to 794 characters. τῷ ("then, in that case") and
+  ὅτ’ (simile ὡς ὅτε) are real extra readings, but the unit notes at 311 and 328 carry them. This follows
+  the odyssey-024 handling of ὄφρ.
+- **Compressed (6):**
+  - κῦμα: was 271 characters.
+  - ὅτι: was 266.
+  - τῶν: the addition had a stray doubled ’.
+  - νέων: now an explicit "a different word, νέω ’swim’", in place of the extra em dash.
+  - ὑπὸ: + gen.
+  - ὃ: pronoun "he".
+- **Over the cap (2): ὃ and ὑπὸ,** only because the shipped entries are already 225 and 368 characters.
+  They were kept because otherwise the entry would be wrong for this part's form: ὑπό is marked
+  "+ dat./acc." only, and ὃ is marked relative only. The build does not cap broadenings, so this does not
+  fail the build. It is a QUESTIONS.md item alongside the recurring cap conflict.
+- **Kept as drafted (19):** αὐτόν, γένηται, δεινὸν, διὰ, δώματ, εἰς, εἵματα, κάρη, κύματ, μὲν, πάσας,
+  πρὸς, σὺν, τέ, φέρεσθαι, ἂμ, ἄλλ, ἄρ, and βαῖνε (βαῖνε lightly trimmed). Each adds a reading that
+  really occurs in this part.
+  - The shipped κύματ entry uses ‘…’ rather than ’…’. That is old text and was left alone.
+
+**Ready to build:** yes. Both dry runs pass: the units checks and the glossary checks.

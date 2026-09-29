@@ -328,3 +328,5 @@ written into conventions.md's "The two English layers" section so future parts d
 the precedent by searching earlier drafts.
 
 **odyssey-028 (6.110–222).** (1) 6.168 `i` renders γύναι as "lady"; the table reserves "lady" for δέσποινα/πότνια, and the reviewer read that as not covering γύναι. Decided meanwhile: kept "lady". If the owner wants it strict, change to "woman". (2) The ἐέδνοισι βρίσας row could add to its "avoided" cell that the object of βρίσας is σε (the note in 6.158 already says so).
+
+**odyssey-031 (7.133–239).** (1) ἀγακλειτὰς ἑκατόμβας (7.202) is "renowned hecatombs", following the table's ἀγακλυτός row; odyssey-009 (3.59) shipped "glorious hecatomb" for the same phrase and was left as shipped. Change either if the owner wants them uniform. (2) Shipped glossary entries not touched (additions-only rule): ἷζε is called an aorist (the imperfect is more likely), and ἠέρα is called masculine (feminine in Homer); the 7.170 note was made neutral so the site does not contradict itself. (3) ξεινίσσομεν (190), ἐπιβήσετε and σπείσομεν carry hedged future/short-vowel-subjunctive parses.

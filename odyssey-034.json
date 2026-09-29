@@ -1,496 +1,1405 @@
 {
+ "id": "odyssey-034",
+ "sourceId": "odyssey-034",
  "title": "Ἀέθλια καὶ ὄνειδος",
  "titleEn": "The Games and the Taunt — Odyssey 8.97–194",
+ "work": "Ὀδύσσεια",
+ "workEn": "The Odyssey (Homer)",
  "part": "The Games and the Taunt (8.97–194)",
+ "language": "Ancient Greek",
+ "langCode": null,
+ "source": "Homer, The Odyssey, Greek text of A. T. Murray (Loeb Classical Library; London: Heinemann, New York: Putnam, 1919), public domain; TEI from PerseusDL/canonical-greekLit tlg0012.tlg002.perseus-grc2, sha256 7d7ffafb6c51f8c2. Text as printed: Murray sets no quotation marks round speeches, and none are added. Pronunciation: reconstructed Attic, after W. S. Allen, Vox Graeca — an admitted convention; Homer's own pronunciation was older and is not recoverable in detail. Romanization: standard classical transliteration (ē/ō; th/ph/ch; y for υ, u in diphthongs; h = rough breathing; ēi/āi/ōi for iota subscript; ï for a separately sounded ι; accents omitted). Scansion: made by program from the text and checked; it shows one defensible reading of each line, and the notes say where a line is irregular. All translations were made fresh from the Greek for Lectorium.",
  "about": "Alcinous proposes that, after the feast and the song, the Phaeacians go out and try their skill in the contests, so that the stranger may tell his friends at home how they excel. The company goes to the place of assembly, and a long list of young men come forward, among them the three sons of Alcinous. They run, wrestle, leap, throw the discus and box, and Clytoneus, Euryalus, Amphialus, Elatreus and Laodamas each excel in one event. Laodamas then proposes that they ask the stranger whether he knows any contest, and, at Euryalus’ urging, he invites Odysseus to take part. Odysseus answers that sorrows weigh on him more than any contest, and Euryalus taunts him as a merchant, not an athlete. Odysseus rebukes him, saying that gifts of form and of speech are shared out unevenly among men, and that Euryalus has beauty but no mind. He then takes up a discus larger than any the Phaeacians use and hurls it past every mark, while they cower. The part ends as Athena, made like a man, sets the boundary-marks and begins to speak.",
+ "trStyle": "line",
+ "script": "greek",
+ "glossaryFile": "odyssey-glossary.json",
  "sentences": [
   {
    "t": "κέκλυτε, Φαιήκων ἡγήτορες ἠδὲ μέδοντες.",
+   "tr": "keklyte, Phaiēkōn hēgētores ēde medontes.",
    "l": "“Hear me, leaders and lords of the Phaeacians.",
    "i": "“Hear me, leaders and lords of the Phaeacians.",
    "n": "The speaker is Alcinous, of whom 8.96 said that he spoke among the Phaeacians. κέκλυτε is the imperative of κλύω 'hear', a reduplicated aorist form that takes the genitive of what is heard, with 'me' left unsaid. Φαιήκων ἡγήτορες ἠδὲ μέδοντες is a vocative, 'leaders and lords of the Phaeacians', with the genitive plural in -ων and ἠδέ 'and'; the phrase is the house rendering wherever it recurs. The same line begins Alcinous' speeches at 7.186 and 8.26.",
-   "p": true,
    "mark": "Alcinous speaks",
+   "p": true,
    "v": true,
-   "ln": 97
+   "ln": 97,
+   "sc": [
+    "1κέ–κλυ⏑τε⏑",
+    "2Φαι–ή–3κων–‖",
+    "ἡ–4γή–το⏑ρες⏑",
+    "5ἠ–δὲ⏑",
+    "μέ⏑6δον–τες×"
+   ]
   },
   {
    "t": "ἤδη μὲν δαιτὸς κεκορήμεθα θυμὸν ἐίσης\nφόρμιγγός θ’, ἣ δαιτὶ συνήορός ἐστι θαλείῃ·",
+   "tr": "ēdē men daitos kekorēmetha thymon eisēs\nphormingos th’, hē daiti synēoros esti thaleiēi·",
    "l": "Already indeed of the feast we have had our fill in heart, the equal one,\nand of the lyre, which is a companion to the abundant feast;",
    "i": "We have had our fill, in heart, of the equally shared feast and of the lyre, which is the companion of the abundant feast;",
    "n": "κεκορήμεθα is the perfect passive of κορέννυμι 'satisfy, sate', so 'we have been sated', with the genitives δαιτός and φόρμιγγος (verbs of filling and satisfying take the genitive of what fills), and θυμόν an accusative of respect, 'in heart'. ἐίσης is the adjective 'equal, even', said of a feast at which every guest has an equal share; it stands last in the clause, after θυμόν, and the rendering used for it here is 'the equal feast'. ἣ is the relative pronoun, feminine to agree with φόρμιγγος, not the possessive ὅς. συνήορος means 'joined to, a companion of', with the dative δαιτί, and θαλείῃ is the dative of θάλεια, 'abundant', the stock epithet of the feast. θ’ is τε 'and'.",
    "v": true,
-   "ln": 98
+   "ln": 98,
+   "sc": [
+    "1ἤ–δη–",
+    "2μὲν–",
+    "δαι–3τὸς–‖",
+    "κε⏑κο⏑4ρή–με⏑θα⏑",
+    "5θυ–μὸν⏑",
+    "ἐ⏑6ί–σης×",
+    "1φόρ–μιγ–2γός–",
+    "θ",
+    "ἣ–",
+    "3δαι–τὶ⏑‖",
+    "συ⏑4νή–ο⏑ρός⏑",
+    "5ἐσ–τι⏑",
+    "θα⏑6λεί–ῃ×"
+   ]
   },
   {
    "t": "νῦν δ’ ἐξέλθωμεν καὶ ἀέθλων πειρηθῶμεν\nπάντων, ὥς χ’ ὁ ξεῖνος ἐνίσπῃ οἷσι φίλοισιν\nοἴκαδε νοστήσας, ὅσσον περιγιγνόμεθ’ ἄλλων\nπύξ τε παλαιμοσύνῃ τε καὶ ἅλμασιν ἠδὲ πόδεσσιν.",
+   "tr": "nyn d’ exelthōmen kai aethlōn peirēthōmen\npantōn, hōs ch’ ho xeinos enispēi hoisi philoisin\noikade nostēsas, hosson perigignometh’ allōn\npyx te palaimosynēi te kai halmasin ēde podessin.",
    "l": "now let us go out, and make trial of the contests,\nof all of them, so that the stranger may tell his own dear ones\nwhen he has returned home, how much we surpass others\nin boxing and wrestling and in leaps and with our feet.”",
    "i": "But now let us go out and put all the contests to the test, so that the stranger may tell his own dear ones, when he has returned home, how far we surpass others in boxing and wrestling and leaping and running.”",
    "n": "ἐξέλθωμεν and πειρηθῶμεν are hortative subjunctives, 'let us go out', 'let us make trial', and πειρηθῶμεν takes the genitive ἀέθλων πάντων, 'of all the contests'. ἀέθλων is the genitive plural of ἄεθλον / ἆθλον, 'contest'; the house rendering is 'contest' every time, and the epic ἄεθλον, ἀέθλια, ἄθλων, ἀέθλους that follow are the same word in different metrical spellings. ὥς is the accented adverb 'so that, thus', and with χ’ (κε) and the aorist subjunctive ἐνίσπῃ (ἐνέπω 'tell') it opens a purpose clause. οἷσι φίλοισιν has the possessive ὅς, ἥ, ὅν, 'his own', not the relative, in a dative plural in -οισι(ν): 'to his own dear ones'. οἴκαδε 'homeward' carries the suffix -δε of direction. νοστήσας is the aorist participle of νοστέω 'come home', from νόστος 'homecoming'. περιγιγνόμεθ’ is 'we surpass', with the genitive ἄλλων. πύξ 'with the fist' means boxing; the next datives, παλαιμοσύνῃ 'in wrestling', ἅλμασιν 'in leaps' (ἅλμα), and πόδεσσιν 'with the feet', that is, in running, show the dative plural in -εσσι(ν) and -ασιν.",
    "v": true,
-   "ln": 100
+   "ln": 100,
+   "sc": [
+    "1νῦν–",
+    "δ",
+    "ἐ–2ξέλ–θω–3μεν–‖",
+    "καὶ⏑",
+    "ἀ⏑4έ–θλων–",
+    "5πει–ρη–6θῶ–μεν×",
+    "1πάν–των–",
+    "2ὥς–",
+    "χ",
+    "ὁ–",
+    "3ξεῖ–νος⏑‖",
+    "ἐ⏑4νίσ–πῃ–",
+    "5οἷ–σι⏑",
+    "φί⏑6λοι–σιν×",
+    "1οἴ–κα⏑δε⏑",
+    "2νοσ–τή–3σας–‖",
+    "ὅσ–4σον–",
+    "πε⏑ρι⏑5γι–γνό⏑μεθ⏑",
+    "6ἄλ–λων×",
+    "1πύξ–",
+    "τε⏑",
+    "πα⏑2λαι–μο⏑σύ⏑3νῃ–",
+    "τε⏑‖",
+    "καὶ⏑",
+    "4ἅλ–μα⏑σιν⏑",
+    "5ἠ–δὲ⏑",
+    "πό⏑6δεσ–σιν×"
+   ]
   },
   {
    "t": "ὣς ἄρα φωνήσας ἡγήσατο, τοὶ δ’ ἅμ’ ἕποντο.",
+   "tr": "hōs ara phōnēsas hēgēsato, toi d’ ham’ heponto.",
    "l": "So then having spoken, he led the way, and they together followed.",
    "i": "So he spoke, and led the way, and they followed along together.",
    "n": "A stock line for 'he spoke, and led, and they followed', and it already stands at 2.413; here the leader is Alcinous. φωνήσας is the aorist participle of φωνέω 'speak', and ἡγήσατο the aorist of ἡγέομαι 'lead the way'. τοί is the article used as a pronoun, 'they', which is how Homer uses ὁ, ἡ, τό and τοί much of the time. ἕποντο is the imperfect middle of ἕπομαι 'follow' without the augment (Attic εἵποντο); ἅμ’ is ἅμα 'together'.",
    "p": true,
    "v": true,
-   "ln": 104
+   "ln": 104,
+   "sc": [
+    "1ὣς–",
+    "ἄ⏑ρα⏑",
+    "2φω–νή–3σας–‖",
+    "ἡ–4γή–σα⏑το⏑",
+    "5τοὶ–",
+    "δ",
+    "ἅμ⏑",
+    "ἕ⏑6πον–το×"
+   ]
   },
   {
    "t": "κὰδ δ’ ἐκ πασσαλόφι κρέμασεν φόρμιγγα λίγειαν,\nΔημοδόκου δ’ ἕλε χεῖρα καὶ ἔξαγεν ἐκ μεγάροιο\nκῆρυξ·",
+   "tr": "kad d’ ek passalophi kremasen phorminga ligeian,\nDēmodokou d’ hele cheira kai exagen ek megaroio\nkēryx·",
    "l": "And down from a peg he hung the clear-sounding lyre,\nand of Demodocus he took the hand and led him out of the hall,\nthe herald;",
    "i": "The herald hung the clear-sounding lyre from a peg, took Demodocus by the hand, and led him out of the hall;",
    "n": "Demodocus is the blind singer who sang in the earlier part. κὰδ … κρέμασεν is tmesis: the preverb κατά (κάδ before δ) stands apart from its verb, and together they mean 'hung down'; Homer often lets a preverb float free like this. πασσαλόφι has the suffix -φι, which marks place or source: ἐκ πασσαλόφι, 'from a peg'. The first line already stands at 8.67. Δημοδόκου … χεῖρα is 'Demodocus' hand', in the genitive of the person whose hand is taken, so 'took him by the hand'. ἕλε and ἔξαγεν are past tenses without the augment (Attic εἷλε, ἐξῆγεν): Homer often leaves it out. μεγάροιο is a genitive in -οιο (Attic -ου). The subject κῆρυξ 'the herald' is held back to the end of the unit, after its verbs.",
    "v": true,
-   "ln": 105
+   "ln": 105,
+   "sc": [
+    "1κὰδ–",
+    "δ",
+    "ἐκ–",
+    "2πασ–σα⏑λό⏑3φι–‖",
+    "κρέ⏑μα⏑4σεν–",
+    "φόρ–5μιγ–γα⏑",
+    "λί⏑6γει–αν×",
+    "1Δη–μο⏑δό⏑2κου–",
+    "δ",
+    "ἕ⏑λε⏑",
+    "3χεῖ–ρα⏑‖",
+    "καὶ⏑",
+    "4ἔ–ξα⏑γεν⏑",
+    "5ἐκ–",
+    "με⏑γά⏑6ροι–ο×",
+    "1κῆ–ρυξ–"
+   ]
   },
   {
    "t": "ἦρχε δὲ τῷ αὐτὴν ὁδὸν ἥν περ οἱ ἄλλοι\nΦαιήκων οἱ ἄριστοι, ἀέθλια θαυμανέοντες.",
+   "tr": "ērche de tōi autēn hodon hēn per hoi alloi\nPhaiēkōn hoi aristoi, aethlia thaumaneontes.",
    "l": "and he led the way for him, on the very road that the others,\nthe best of the Phaeacians, went, marvelling at the contests.",
    "i": "and led him along the very road that the others, the best of the Phaeacians, were taking, marvelling at the contests.",
    "n": "ἦρχε is the imperfect of ἄρχω 'lead the way', with the dative τῷ 'for him' (τῷ, the article as a pronoun, is Demodocus). αὐτὴν ὁδὸν ἥν περ is 'the very road that', ἥν being the relative and περ an intensifier, and the verb of the second clause, 'went', is left unsaid and supplied from the sense. θαυμανέοντες is an uncontracted participle (-εοντες) of the verb for 'wonder at', with the object ἀέθλια. ἀέθλια is the plural of ἀέθλιον, which can mean the contests or the prizes at stake; 'the contests' suits the sense here, and the same word runs through the part.",
    "v": true,
-   "ln": 107
+   "ln": 107,
+   "sc": [
+    "2ἦρ–χε⏑",
+    "δὲ⏑",
+    "3τῷ–‖",
+    "αὐ–4τὴν–",
+    "ὁ⏑δὸν⏑",
+    "5ἥν–",
+    "περ⏑",
+    "οἱ⏑",
+    "6ἄλ–λοι×",
+    "1Φαι–ή–2κων–",
+    "οἱ⏑",
+    "ἄ⏑3ρισ–τοι⏑‖",
+    "ἀ⏑4έ–θλι⏑α⏑",
+    "5θαυ–μα⏑νέ⏑6ον–τες×"
+   ]
   },
   {
    "t": "βὰν δ’ ἴμεν εἰς ἀγορήν, ἅμα δ’ ἕσπετο πουλὺς ὅμιλος,\nμυρίοι·",
+   "tr": "ban d’ imen eis agorēn, hama d’ hespeto poulys homilos,\nmyrioi·",
    "l": "And they set out to go to the assembly, and together followed a great throng,\ncountless;",
    "i": "They set out for the assembly, and a great throng followed along with them, countless in number;",
    "n": "βὰν … ἴμεν is the plural of βῆ δ’ ἴμεν, 'set out to go': βάν is the aorist 3 pl. of βαίνω (Attic ἔβησαν) without the augment, and ἴμεν the epic infinitive of εἶμι 'go'. ἕσπετο is the aorist of ἕπομαι 'follow', with the augment run together with the stem σπ-. πουλύς is Ionic πολύς 'great, numerous', and ὅμιλος 'throng' is singular, while μυρίοι is plural, 'countless', in agreement with the sense, not the number. μυρίος literally means 'ten thousand', and here stands for 'numberless'.",
    "v": true,
-   "ln": 109
+   "ln": 109,
+   "sc": [
+    "1βὰν–",
+    "δ",
+    "ἴ⏑μεν⏑",
+    "2εἰς–",
+    "ἀ⏑γο⏑3ρήν–‖",
+    "ἅ⏑μα⏑",
+    "δ",
+    "4ἕσ–πε⏑το⏑",
+    "5που–λὺς⏑",
+    "ὅ⏑6μι–λος×",
+    "1μυ–ρί⏑οι⏑"
+   ]
   },
   {
    "t": "ἂν δ’ ἵσταντο νέοι πολλοί τε καὶ ἐσθλοί.",
+   "tr": "an d’ histanto neoi polloi te kai esthloi.",
    "l": "and up stood young men, many and good.",
    "i": "and many young men, good ones, stood up.",
    "n": "ἂν δ’ ἵσταντο is tmesis: ἀνά, cut to ἂν before δ’, stands apart from ἵσταντο, so the verb is 'stood up'. The imperfect middle of ἵστημι has the plural ending -αντο. The same ἂν δ’ … returns at 8.115, with the verb left to be supplied, and at 8.118, where the verb ἔσταν is given. νέοι are 'young men', and πολλοί τε καὶ ἐσθλοί is 'many and good'; ἐσθλός is 'good' in the house rendering.",
    "v": true,
-   "ln": 110
+   "ln": 110,
+   "sc": [
+    "2ἂν–",
+    "δ",
+    "ἵσ–3ταν–το⏑‖",
+    "νέ⏑4οι–",
+    "πολ–5λοί–",
+    "τε⏑",
+    "καὶ⏑",
+    "6ἐσ–θλοί×"
+   ]
   },
   {
    "t": "ὦρτο μὲν Ἀκρόνεώς τε καὶ Ὠκύαλος καὶ Ἐλατρεύς,\nΝαυτεύς τε Πρυμνεύς τε καὶ Ἀγχίαλος καὶ Ἐρετμεύς,\nΠοντεύς τε Πρωρεύς τε, Θόων Ἀναβησίνεώς τε\nἈμφίαλός θ’, υἱὸς Πολυνήου Τεκτονίδαο·",
+   "tr": "ōrto men Akroneōs te kai Ōkyalos kai Elatreus,\nNauteus te Prymneus te kai Anchialos kai Eretmeus,\nPonteus te Prōreus te, Thoōn Anabēsineōs te\nAmphialos th’, huios Polynēou Tektonidao·",
    "l": "Rose up Acroneus and Ocyalus and Elatreus,\nNauteus and Prymneus and Anchialus and Eretmeus,\nPonteus and Proreus, Thoon and Anabesineus,\nand Amphialus, the son of Polyneus, Tecton’s son;",
    "i": "Up rose Acroneus, Ocyalus and Elatreus, Nauteus and Prymneus, Anchialus and Eretmeus, Ponteus and Proreus, Thoon and Anabesineus, and Amphialus, son of Polyneus, who was the son of Tecton;",
    "n": "A roll-call of young Phaeacian men. Most of the names are made from the words of a seafaring people and can be read in their parts: Ὠκύαλος 'swift at sea' (ὠκύς and ἅλς), Ἐρετμεύς from ἐρετμόν 'oar', Ἐλατρεύς from ἐλαύνω 'row', Πρωρεύς from πρῴρα 'prow', Πρυμνεύς from πρύμνη 'stern', Ναυτεύς from ναῦς 'ship', Ποντεύς from πόντος 'open sea', Ἀγχίαλος 'near the sea', Ἀμφίαλος 'sea-girt', and Πολύνηος 'of many ships'. The English keeps them as names. ὦρτο is the aorist middle 3 sg. of ὄρνυμι, 'rose', and the single verb stands before the whole list, agreeing with the first name. μὲν … τε καὶ … τε are joined lists. In υἱὸς Πολυνήου Τεκτονίδαο, 'son of Polyneus, Tecton's son', Πολυνήου is a genitive and Τεκτονίδαο is a patronymic in -ίδης, with the genitive in -αο (Attic -ου).",
    "v": true,
-   "ln": 111
+   "ln": 111,
+   "sc": [
+    "1ὦρ–το⏑",
+    "μὲν⏑",
+    "2Ἀ–κρό⏑νε⏑3ώς–",
+    "τε⏑‖",
+    "καὶ⏑",
+    "4Ὠ–κύ⏑α⏑5λος–",
+    "καὶ⏑",
+    "Ἐ⏑6λα–τρεύς×",
+    "1Ναυ–τεύς–",
+    "2τε–",
+    "Πρυμ–3νεύς–",
+    "τε⏑‖",
+    "καὶ⏑",
+    "4Ἀγ–χί⏑α⏑5λος–",
+    "καὶ⏑",
+    "Ἐ⏑6ρε–τμεύς×",
+    "1Πον–τεύς–",
+    "2τε–",
+    "Πρω–3ρεύς–",
+    "τε⏑‖",
+    "Θό⏑4ων–",
+    "Ἀ⏑να⏑5βη–σί⏑νε⏑6ώς–",
+    "τε×",
+    "1Ἀμ–φί⏑α⏑2λός–",
+    "θ",
+    "υἱ–3ὸς–‖",
+    "Πο⏑λυ⏑4νή–ου–",
+    "5Τεκ–το⏑νί⏑6δα–ο×"
+   ]
   },
   {
    "t": "ἂν δὲ καὶ Εὐρύαλος, βροτολοιγῷ ἶσος Ἄρηϊ,\nΝαυβολίδης, ὃς ἄριστος ἔην εἶδός τε δέμας τε\nπάντων Φαιήκων μετ’ ἀμύμονα Λαοδάμαντα.",
+   "tr": "an de kai Euryalos, brotoloigōi isos Arēï,\nNaubolidēs, hos aristos eēn eidos te demas te\npantōn Phaiēkōn met’ amymona Laodamanta.",
    "l": "and up also Euryalus, to mortal-ruining Ares equal,\nNaubolus’ son, who was best in form and in body\nof all the Phaeacians after blameless Laodamas.",
    "i": "And up also stood Euryalus, the equal of Ares, the ruin of mortals, the son of Naubolus, who was the best in form and in body of all the Phaeacians after blameless Laodamas.",
    "n": "ἂν δὲ καὶ Εὐρύαλος 'and up (stood) also Euryalus' takes its verb from the tmesis at 8.110. βροτολοιγῷ … Ἄρηϊ is a dative with ἶσος 'equal to', and βροτολοιγός is βροτός 'mortal' plus λοιγός 'ruin', so 'the ruin of mortals'. Ναυβολίδης is a patronymic in -ίδης, 'son of Naubolus'. ἔην is Homer's ἦν 'was'; εἶδός τε δέμας τε are accusatives of respect, 'in form and in body'; μετά with the accusative means 'next after' in rank. ἀμύμων, the stock epithet of Laodamas, Alcinous and Clytoneus in this part, is translated 'blameless' every time; its actual meaning is not known, and 'blameless' is the traditional guess.",
    "v": true,
-   "ln": 115
+   "ln": 115,
+   "sc": [
+    "1ἂν–",
+    "δὲ⏑",
+    "καὶ⏑",
+    "2Εὐ–ρύ⏑α⏑3λος–‖",
+    "βρο⏑το⏑4λοι–γῷ–",
+    "5ἶ–σος⏑",
+    "Ἄ⏑6ρη–ϊ×",
+    "1Ναυ–βο⏑λί⏑2δης–",
+    "ὃς⏑",
+    "ἄ⏑3ρισ–τος⏑‖",
+    "ἔ⏑4ην–",
+    "εἶ–5δός–",
+    "τε⏑",
+    "δέ⏑6μας–",
+    "τε×",
+    "1πάν–των–",
+    "2Φαι–ή–3κων–‖",
+    "μετ⏑",
+    "ἀ⏑4μύ–μο⏑να⏑",
+    "5Λα–ο⏑δά⏑6μαν–τα×"
+   ]
   },
   {
    "t": "ἂν δ’ ἔσταν τρεῖς παῖδες ἀμύμονος Ἀλκινόοιο,\nΛαοδάμας θ’ Ἅλιός τε καὶ ἀντίθεος Κλυτόνηος.",
+   "tr": "an d’ estan treis paides amymonos Alkinooio,\nLaodamas th’ Halios te kai antitheos Klytonēos.",
    "l": "And up stood the three sons of blameless Alcinous,\nLaodamas and Halius and godlike Clytoneus.",
    "i": "And the three sons of blameless Alcinous stood up: Laodamas and Halius and godlike Clytoneus.",
    "n": "ἂν δ’ ἔσταν is tmesis again, 'stood up', and ἔσταν is the aorist 3 pl. of ἵστημι in its intransitive sense, 'they stood', the ending -αν for Attic -ησαν. ἀμύμονος Ἀλκινόοιο has the stock epithet 'blameless' (see the note at 8.117) and a genitive in -οιο. ἀντίθεος is the stock 'godlike', translated the same way each time, from ἀντί 'equal to' plus θεός. Λαοδάμας θ’ is Λαοδάμας τε, with elision.",
    "v": true,
-   "ln": 118
+   "ln": 118,
+   "sc": [
+    "1ἂν–",
+    "δ",
+    "ἔσ–2ταν–",
+    "τρεῖς–",
+    "3παῖ–δες⏑‖",
+    "ἀ⏑4μύ–μο⏑νος⏑",
+    "5Ἀλ–κι⏑νό⏑6οι–ο×",
+    "1Λα–ο⏑δά⏑2μας–",
+    "θ",
+    "Ἅ⏑λι⏑3ός–",
+    "τε⏑‖",
+    "καὶ⏑",
+    "4ἀν–τί⏑θε⏑5ος–",
+    "Κλυ⏑τό⏑6νη–ος×"
+   ]
   },
   {
    "t": "οἱ δ’ ἦ τοι πρῶτον μὲν ἐπειρήσαντο πόδεσσι.",
+   "tr": "hoi d’ ē toi prōton men epeirēsanto podessi.",
    "l": "And they indeed first made trial with their feet.",
    "i": "First of all they put themselves to the test on foot.",
    "n": "ἦ τοι is an emphatic 'indeed, truly'. πρῶτον μέν 'first' is answered by οἱ δέ 'and they' at 8.126, where the second contest begins. ἐπειρήσαντο is the aorist middle of πειράω 'try, make trial', here without an object: 'they tried themselves'. πόδεσσι is a dative in -εσσι(ν), 'with the feet', that is, in a running race.",
    "v": true,
-   "ln": 120
+   "ln": 120,
+   "sc": [
+    "1οἱ–",
+    "δ",
+    "ἦ–",
+    "2τοι–",
+    "πρῶ–3τον–",
+    "μὲν⏑‖",
+    "ἐ⏑4πει–ρή–5σαν–το⏑",
+    "πό⏑6δεσ–σι×"
+   ]
   },
   {
    "t": "τοῖσι δ’ ἀπὸ νύσσης τέτατο δρόμος·",
+   "tr": "toisi d’ apo nyssēs tetato dromos·",
    "l": "And for them from the post the course was stretched out;",
    "i": "The course stretched out for them from the post;",
    "n": "τοῖσι is a dative in -οισι(ν), 'for them'. νύσσα is a post that marks one end of a course; the word itself does not settle whether the runners start from it or turn round it, so the translation says only 'the post'. τέτατο is the pluperfect passive of τείνω 'stretch', without the augment: 'had been stretched out, lay stretched'. δρόμος is 'running, the course'.",
    "v": true,
-   "ln": 121
+   "ln": 121,
+   "sc": [
+    "1τοῖ–σι⏑",
+    "δ",
+    "ἀ⏑2πὸ–",
+    "νύσ–3σης–‖",
+    "τέ⏑τα⏑4το–",
+    "δρό⏑μος⏑"
+   ]
   },
   {
    "t": "οἱ δ’ ἅμα πάντες\nκαρπαλίμως ἐπέτοντο κονίοντες πεδίοιο·",
+   "tr": "hoi d’ hama pantes\nkarpalimōs epetonto koniontes pedioio·",
    "l": "and they all together\nswiftly flew along, raising dust over the plain;",
    "i": "and they all flew along swiftly together, raising the dust over the plain;",
    "n": "ἐπέτοντο is the imperfect middle of πέτομαι 'fly', a common image for speed, and καρπαλίμως is 'swiftly'. κονίοντες is the participle of κονίω 'raise dust' (κόνις 'dust'). πεδίοιο is a genitive in -οιο, of the ground covered: 'over the plain'.",
    "v": true,
-   "ln": 121
+   "ln": 121,
+   "sc": [
+    "5οἱ–",
+    "δ",
+    "ἅ⏑μα⏑",
+    "6πάν–τες×",
+    "1καρ–πα⏑λί⏑2μως–",
+    "ἐ⏑πέ⏑3τον–το⏑‖",
+    "κο⏑4νί–ον–5τες–",
+    "πε⏑δί⏑6οι–ο×"
+   ]
   },
   {
    "t": "τῶν δὲ θέειν ὄχ’ ἄριστος ἔην Κλυτόνηος ἀμύμων·",
+   "tr": "tōn de theein och’ aristos eēn Klytonēos amymōn·",
    "l": "and of them at running by far the best was blameless Clytoneus;",
    "i": "and of them all blameless Clytoneus was by far the best at running;",
    "n": "τῶν is a partitive genitive, 'of them'. θέειν is the uncontracted infinitive of θέω 'run' (Attic θεῖν), a limiting infinitive: 'best at running'. ὄχ’ is ὄχα 'by far', which goes with a superlative. ἔην is Homer's ἦν 'was'. ἀμύμων is the stock 'blameless' again (note at 8.117).",
    "v": true,
-   "ln": 123
+   "ln": 123,
+   "sc": [
+    "1τῶν–",
+    "δὲ⏑",
+    "θέ⏑2ειν–",
+    "ὄχ⏑",
+    "ἄ⏑3ρισ–τος⏑‖",
+    "ἔ⏑4ην–",
+    "Κλυ⏑τό⏑5νη–ος⏑",
+    "ἀ⏑6μύ–μων×"
+   ]
   },
   {
    "t": "ὅσσον τ’ ἐν νειῷ οὖρον πέλει ἡμιόνοιιν,\nτόσσον ὑπεκπροθέων λαοὺς ἵκεθ’, οἱ δ’ ἐλίποντο.",
+   "tr": "hosson t’ en neiōi ouron pelei hēmionoiin,\ntosson hypekprotheōn laous hiketh’, hoi d’ eliponto.",
    "l": "As much as in fallow land the furrow-stretch of two mules is,\nso much, running out ahead, he reached the people, and they were left behind.",
    "i": "By as much as the furrow-stretch of a pair of mules in fallow land, by so much he ran out ahead and reached the crowd, and the others were left behind.",
    "n": "ὅσσον … τόσσον is 'as much as … so much', a comparison of distance. οὖρον is a measure taken from ploughing, understood as the stretch of furrow that a pair of mules ploughs in one go; the exact length is not known. νειῷ is the dative of νειός 'fallow field'. ἡμιόνοιιν has the dual ending -οιιν, 'of the two mules', a pair. ὑπεκπροθέων is the participle of a compound of θέω 'run': 'running out ahead from under (the others)'. ἵκεθ’ is ἵκετο 'reached', and λαούς is 'the people', the crowd. ἐλίποντο is the aorist middle of λείπω, 'were left behind'.",
    "v": true,
-   "ln": 124
+   "ln": 124,
+   "sc": [
+    "1ὅσ–σον–",
+    "τ",
+    "2ἐν–",
+    "νει–3ῷ–‖",
+    "οὖ–4ρον–",
+    "πέ⏑λει⏑",
+    "5ἡ–μι⏑ό⏑6νοι–ιν×",
+    "1τόσ–σον⏑",
+    "ὑ⏑2πεκ–προ⏑θέ⏑3ων–‖",
+    "λα–4οὺς–",
+    "ἵ⏑κεθ⏑",
+    "5οἱ–",
+    "δ",
+    "ἐ⏑λί⏑6πον–το×"
+   ]
   },
   {
    "t": "οἱ δὲ παλαιμοσύνης ἀλεγεινῆς πειρήσαντο·",
+   "tr": "hoi de palaimosynēs alegeinēs peirēsanto·",
    "l": "And they made trial of grievous wrestling;",
    "i": "Next they tried themselves at the grievous wrestling;",
    "n": "πειρήσαντο is the aorist middle of πειράω 'try', the same verb as ἐπειρήσαντο at 8.120 with no augment, and it takes the genitive παλαιμοσύνης ἀλεγεινῆς, 'of grievous wrestling'. παλαιμοσύνη is the word for wrestling that appeared at 8.103. ἀλεγεινός is 'grievous, painful', the epithet the house renders 'grievous'.",
    "v": true,
-   "ln": 126
+   "ln": 126,
+   "sc": [
+    "1οἱ–",
+    "δὲ⏑",
+    "πα⏑2λαι–μο⏑σύ⏑3νης–‖",
+    "ἀ⏑λε⏑4γει–νῆς–",
+    "5πει–ρή–6σαν–το×"
+   ]
   },
   {
    "t": "τῇ δ’ αὖτ’ Εὐρύαλος ἀπεκαίνυτο πάντας ἀρίστους.",
+   "tr": "tēi d’ aut’ Euryalos apekainyto pantas aristous.",
    "l": "and in this again Euryalus surpassed all the best.",
    "i": "and in this event Euryalus in his turn outdid all the best.",
    "n": "τῇ is the dative feminine of the article used as a demonstrative, 'in this' (contest), and αὖτ’ is αὖτε 'again, in turn'. ἀπεκαίνυτο is the imperfect of ἀποκαίνυμαι 'surpass, excel', a rare verb, with the accusative πάντας ἀρίστους, 'all the best'.",
    "v": true,
-   "ln": 127
+   "ln": 127,
+   "sc": [
+    "1τῇ–",
+    "δ",
+    "αὖτ–",
+    "2Εὐ–ρύ⏑α⏑3λος–‖",
+    "ἀ⏑πε⏑4καί–νυ⏑το⏑",
+    "5πάν–τας⏑",
+    "ἀ⏑6ρίσ–τους×"
+   ]
   },
   {
    "t": "ἅλματι δ’ Ἀμφίαλος πάντων προφερέστατος ἦεν·",
+   "tr": "halmati d’ Amphialos pantōn propherestatos ēen·",
    "l": "and in leaping Amphialus was the foremost of all;",
    "i": "and at leaping Amphialus was the foremost of them all;",
    "n": "ἅλματι is a dative of respect, 'in the leap' (ἅλμα, as ἅλμασιν at 8.103). προφερέστατος is a superlative, 'most outstanding', belonging to the verb προφέρω 'bring forward, surpass'. ἦεν is Homer's ἦν 'was'.",
    "v": true,
-   "ln": 128
+   "ln": 128,
+   "sc": [
+    "1ἅλ–μα⏑τι⏑",
+    "δ",
+    "2Ἀμ–φί⏑α⏑3λος–‖",
+    "πάν–4των–",
+    "προ⏑φε⏑5ρέσ–τα⏑τος⏑",
+    "6ἦ–εν×"
+   ]
   },
   {
    "t": "δίσκῳ δ’ αὖ πάντων πολὺ φέρτατος ἦεν Ἐλατρεύς,\nπὺξ δ’ αὖ Λαοδάμας, ἀγαθὸς πάϊς Ἀλκινόοιο.",
+   "tr": "diskōi d’ au pantōn poly phertatos ēen Elatreus,\npyx d’ au Laodamas, agathos païs Alkinooio.",
    "l": "and with the discus, again, of all by far the best was Elatreus,\nand with the fist, again, Laodamas, the good son of Alcinous.",
    "i": "In the discus Elatreus was by far the best of all, and in boxing again Laodamas, the good son of Alcinous.",
    "n": "δίσκῳ is a dative, 'with the discus', and πὺξ is 'with the fist' as at 8.103; the verb 'was' is carried over from the first line into the second. φέρτατος is the superlative of φέρτερος 'stronger, better', hence 'best'. πάϊς is Homer's πάῖς 'child', here 'son', and ἀγαθὸς πάϊς Ἀλκινόοιο, 'the good son of Alcinous', has a genitive in -οιο and is rendered the same way each time it recurs (8.143).",
    "v": true,
-   "ln": 129
+   "ln": 129,
+   "sc": [
+    "1δίσ–κῳ–",
+    "δ",
+    "2αὖ–",
+    "πάν–3των–‖",
+    "πο⏑λὺ⏑",
+    "4φέρ–τα⏑τος⏑",
+    "5ἦ–εν⏑",
+    "Ἐ⏑6λα–τρεύς×",
+    "1πὺξ–",
+    "δ",
+    "αὖ–",
+    "2Λα–ο⏑δά⏑3μας–‖",
+    "ἀ⏑γα⏑4θὸς–",
+    "πά⏑ϊς⏑",
+    "5Ἀλ–κι⏑νό⏑6οι–ο×"
+   ]
   },
   {
    "t": "αὐτὰρ ἐπεὶ δὴ πάντες ἐτέρφθησαν φρέν’ ἀέθλοις,\nτοῖς ἄρα Λαοδάμας μετέφη πάϊς Ἀλκινόοιο·",
+   "tr": "autar epei dē pantes eterphthēsan phren’ aethlois,\ntois ara Laodamas metephē païs Alkinooio·",
    "l": "But when all had been delighted in their minds with the contests,\namong them then spoke Laodamas, Alcinous’ son:",
    "i": "But when they had all been delighted in their minds by the contests, Laodamas, son of Alcinous, spoke among them:",
    "n": "ἐτέρφθησαν is the aorist passive of τέρπω 'delight', so 'were delighted', with φρέν’ (φρένα) an accusative of respect, 'in their minds', and the dative ἀέθλοις 'by the contests'. τοῖς is the article as a pronoun, 'among them', and ἄρα 'then'. μετέφη is the aorist of μετάφημι 'speak among'. Laodamas, one of the three sons named at 8.118–119, is the speaker of the speech that follows.",
    "v": true,
-   "ln": 131
+   "ln": 131,
+   "sc": [
+    "1αὐ–τὰρ⏑",
+    "ἐ⏑2πεὶ–",
+    "δὴ–",
+    "3πάν–τες⏑‖",
+    "ἐ⏑4τέρ–φθη–5σαν–",
+    "φρέν⏑",
+    "ἀ⏑6έ–θλοις×",
+    "1τοῖς–",
+    "ἄ⏑ρα⏑",
+    "2Λα–ο⏑δά⏑3μας–‖",
+    "με⏑τέ⏑4φη–",
+    "πά⏑ϊς⏑",
+    "5Ἀλ–κι⏑νό⏑6οι–ο×"
+   ]
   },
   {
    "t": "δεῦτε, φίλοι, τὸν ξεῖνον ἐρώμεθα εἴ τιν’ ἄεθλον\nοἶδέ τε καὶ δεδάηκε.",
+   "tr": "deute, philoi, ton xeinon erōmetha ei tin’ aethlon\noide te kai dedaēke.",
    "l": "“Come here, friends, let us ask the stranger whether any contest\nhe knows and has learned.",
    "i": "“Come, friends, let us ask the stranger whether he knows any contest and has learned it.",
    "n": "δεῦτε is a plural call, 'come here', and ἐρώμεθα is a hortative subjunctive, 'let us ask' (aorist subjunctive of ἔρομαι, aorist ἠρόμην), with τὸν ξεῖνον 'the stranger' as object. εἰ is 'whether', beginning an indirect question. ἄεθλον is the same word as ἀέθλων (see 8.100), 'contest'. οἶδε 'he knows' and δεδάηκε 'he has learned' are perfects, the second a Homeric perfect of a verb of learning. The stranger is Odysseus, not yet named in this part.",
-   "p": true,
    "mark": "Laodamas speaks",
+   "p": true,
    "v": true,
-   "ln": 133
+   "ln": 133,
+   "sc": [
+    "1δεῦ–τε⏑",
+    "φί⏑2λοι–",
+    "τὸν–",
+    "3ξεῖ–νον⏑‖",
+    "ἐ⏑4ρώ–με⏑θα⏑",
+    "5εἴ–",
+    "τιν⏑",
+    "ἄ⏑6ε–θλον×",
+    "1οἶ–δέ⏑",
+    "τε⏑",
+    "2καὶ–",
+    "δε⏑δά⏑3η–κε⏑‖"
+   ]
   },
   {
    "t": "φυήν γε μὲν οὐ κακός ἐστι,\nμηρούς τε κνήμας τε καὶ ἄμφω χεῖρας ὕπερθεν\nαὐχένα τε στιβαρὸν μέγα τε σθένος·",
+   "tr": "phyēn ge men ou kakos esti,\nmērous te knēmas te kai amphō cheiras hyperthen\nauchena te stibaron mega te sthenos·",
    "l": "In stature indeed he is not bad,\nin thighs and calves and both hands above,\nin sturdy neck and great strength;",
    "i": "In stature, at least, he is no poor man: his thighs and his calves, and both his arms above them, his sturdy neck and his great strength;",
    "n": "φυήν … οὐ κακός ἐστι is a litotes, 'not bad' meaning 'very fine'. φυήν is an accusative of respect, 'in stature', and the accusatives that follow (μηρούς, κνήμας, χεῖρας, αὐχένα, σθένος) are more of the same, listing what makes him fine. χεῖρας ὕπερθεν means 'the hands above (the legs)', the upper body; χείρ can be 'hand' or 'arm', and English 'arms' fits the picture. στιβαρόν 'sturdy' is the same word as the στιβαρῆς of 8.189. γε μέν marks a step in the argument, 'indeed, certainly'.",
    "v": true,
-   "ln": 134
+   "ln": 134,
+   "sc": [
+    "φυ⏑4ήν–",
+    "γε⏑",
+    "μὲν⏑",
+    "5οὐ–",
+    "κα⏑κός⏑",
+    "6ἐσ–τι×",
+    "1μη–ρούς–",
+    "2τε–",
+    "κνή–3μας–",
+    "τε⏑‖",
+    "καὶ⏑",
+    "4ἄμ–φω–",
+    "5χεῖ–ρας⏑",
+    "ὕ⏑6περ–θεν×",
+    "1αὐ–χέ⏑να⏑",
+    "2τε–",
+    "στι⏑βα⏑3ρὸν–‖",
+    "μέ⏑γα⏑",
+    "4τε–",
+    "σθέ⏑νος⏑"
+   ]
   },
   {
    "t": "οὐδέ τι ἥβης\nδεύεται, ἀλλὰ κακοῖσι συνέρρηκται πολέεσσιν·",
+   "tr": "oude ti hēbēs\ndeuetai, alla kakoisi synerrēktai poleessin·",
    "l": "and nothing of youth\ndoes he lack, but by many evils he has been broken;",
    "i": "and he lacks nothing of youthful vigour, but he has been broken by many misfortunes;",
    "n": "οὐδέ τι is 'and not at all', and δεύεται is the middle of δεύομαι 'lack, be in want of', with the genitive ἥβης 'of youth', that is, of youthful vigour. συνέρρηκται is the perfect passive of συρρήγνυμι 'break up, shatter', 'has been broken (down)'. κακοῖσι … πολέεσσιν are datives in -οισι and -εσσι(ν); κακά here is the noun 'evils, hardships', not the adjective 'bad' of the previous unit.",
    "v": true,
-   "ln": 136
+   "ln": 136,
+   "sc": [
+    "5οὐ–δέ⏑",
+    "τι⏑",
+    "6ἥ–βης×",
+    "1δεύ–ε⏑ται⏑",
+    "2ἀλ–λὰ⏑",
+    "κα⏑3κοῖ–σι⏑‖",
+    "συ⏑4νέρ–ρηκ–5ται–",
+    "πο⏑λέ⏑6εσ–σιν×"
+   ]
   },
   {
    "t": "οὐ γὰρ ἐγώ γέ τί φημι κακώτερον ἄλλο θαλάσσης\nἄνδρα γε συγχεῦαι, εἰ καὶ μάλα καρτερὸς εἴη.",
+   "tr": "ou gar egō ge ti phēmi kakōteron allo thalassēs\nandra ge syncheuai, ei kai mala karteros eiē.",
    "l": "for I, for my part, say nothing else is worse than the sea\nfor confounding a man, even if he be very strong.”",
    "i": "For I say that nothing else is worse than the sea for undoing a man, even one who is very strong.”",
    "n": "οὐ … τί φημι is 'I say that … nothing': the negative belongs to the reported statement. κακώτερον is the comparative of κακός, with the genitive of comparison θαλάσσης, 'than the sea'. συγχεῦαι is the epic aorist infinitive of συγχέω 'pour together, confound' (Attic συγχέαι), 'to undo, to throw into ruin', with ἄνδρα as its object. εἰ καὶ μάλα καρτερὸς εἴη is an optative, 'even if he were very strong'. γάρ 'for' backs up the claim about the 'many evils' of the line before with a general remark about the sea.",
    "v": true,
-   "ln": 138
+   "ln": 138,
+   "sc": [
+    "1οὐ–",
+    "γὰρ⏑",
+    "ἐ⏑2γώ–",
+    "γέ⏑",
+    "τί⏑",
+    "3φη–μι⏑‖",
+    "κα⏑4κώ–τε⏑ρον⏑",
+    "5ἄλ–λο⏑",
+    "θα⏑6λάσ–σης×",
+    "1ἄν–δρα⏑",
+    "γε⏑",
+    "2συγ–χεῦ–3αι–‖",
+    "εἰ–",
+    "4καὶ–",
+    "μά⏑λα⏑",
+    "5καρ–τε⏑ρὸς⏑",
+    "6εἴ–η×"
+   ]
   },
   {
    "t": "τὸν δ’ αὖτ’ Εὐρύαλος ἀπαμείβετο φώνησέν τε·",
+   "tr": "ton d’ aut’ Euryalos apameibeto phōnēsen te·",
    "l": "Him then in turn answered Euryalus, and spoke:",
    "i": "Then Euryalus answered him in turn, and spoke:",
    "n": "The reply-formula that Alcinous has at 7.298 and 7.308, with a different name. τόν is the article as a pronoun, 'him', and αὖτ’ is αὖτε 'again, in turn'. ἀπαμείβετο is the imperfect of ἀπαμείβομαι 'answer', and φώνησεν the aorist of φωνέω 'speak'; the τε joins the two verbs. Euryalus was named at 8.115. His words are two lines.",
    "p": true,
    "v": true,
-   "ln": 140
+   "ln": 140,
+   "sc": [
+    "1τὸν–",
+    "δ",
+    "αὖτ–",
+    "2Εὐ–ρύ⏑α⏑3λος–‖",
+    "ἀ⏑πα⏑4μεί–βε⏑το⏑",
+    "5φώ–νη–6σέν–",
+    "τε×"
+   ]
   },
   {
    "t": "Λαοδάμα, μάλα τοῦτο ἔπος κατὰ μοῖραν ἔειπες.",
+   "tr": "Laodama, mala touto epos kata moiran eeipes.",
    "l": "“Laodamas, this word you have spoken very much according to what is fitting.",
    "i": "“Laodamas, you have spoken this word very much as is fitting.",
    "n": "κατὰ μοῖραν is 'according to what is fitting, as is fitting', literally 'according to portion'. ἔειπες is Homer's aorist 'you said' (Attic εἶπες), the augment standing before a stem that once began with a digamma. μάλα is 'very', and τοῦτο ἔπος 'this word' is Laodamas' speech.",
    "mark": "Euryalus answers",
    "v": true,
-   "ln": 141
+   "ln": 141,
+   "sc": [
+    "1Λα–ο⏑δά⏑2μα–",
+    "μά⏑λα⏑",
+    "3τοῦ–το⏑‖",
+    "ἔ⏑4πος–",
+    "κα⏑τὰ⏑",
+    "5μοῖ–ραν⏑",
+    "ἔ⏑6ει–πες×"
+   ]
   },
   {
    "t": "αὐτὸς νῦν προκάλεσσαι ἰὼν καὶ πέφραδε μῦθον.",
+   "tr": "autos nyn prokalessai iōn kai pephrade mython.",
    "l": "Yourself now challenge him, going, and declare the word.”",
    "i": "Go now yourself and challenge him, and put your word to him.”",
    "n": "προκάλεσσαι is the aorist imperative middle of προκαλέομαι 'challenge, call out', and πέφραδε is a reduplicated aorist imperative of φράζω 'declare, tell'. ἰών 'going' (the participle of εἶμι) with a command means 'go and': the pair is 'go and challenge'. αὐτός 'yourself' puts the task on Laodamas. Unstated is the stranger: he is the object of προκάλεσσαι and the one to whom the word is declared.",
    "v": true,
-   "ln": 142
+   "ln": 142,
+   "sc": [
+    "1αὐ–τὸς–",
+    "2νῦν–",
+    "προ⏑κά⏑3λεσ–σαι⏑‖",
+    "ἰ⏑4ὼν–",
+    "καὶ–",
+    "5πέ–φρα⏑δε⏑",
+    "6μῦ–θον×"
+   ]
   },
   {
    "t": "αὐτὰρ ἐπεὶ τό γ’ ἄκουσ’ ἀγαθὸς πάϊς Ἀλκινόοιο,\nστῆ ῥ’ ἐς μέσσον ἰὼν καὶ Ὀδυσσῆα προσέειπε·",
+   "tr": "autar epei to g’ akous’ agathos païs Alkinooio,\nstē rh’ es messon iōn kai Odyssēa proseeipe·",
    "l": "But when the good son of Alcinous heard that,\nhe stood then in the middle, going there, and addressed Odysseus:",
    "i": "When the good son of Alcinous heard this, he went into the middle and stood there, and addressed Odysseus:",
    "n": "Laodamas is the ἀγαθὸς πάϊς Ἀλκινόοιο of 8.130. τό γ’ is the article as a pronoun, 'that', and ἄκουσ’ is ἄκουσε(ν) 'heard'. στῆ ῥ’ is ἔστη ῥα: στῆ is the aorist of ἵστημι, 'stood', with no augment, and ῥ’ is the particle ῥα 'then'. ἰών 'going' (the participle of εἶμι) goes with ἐς μέσσον 'into the middle'. Ὀδυσσῆα is the accusative of Ὀδυσσεύς, and this is the first time in the part that his name is given; before it he has been 'the stranger'. προσέειπε is the aorist of προσεῖπον 'address'.",
    "p": true,
    "v": true,
-   "ln": 143
+   "ln": 143,
+   "sc": [
+    "1αὐ–τὰρ⏑",
+    "ἐ⏑2πεὶ–",
+    "τό⏑",
+    "γ",
+    "ἄ⏑3κουσ–‖",
+    "ἀ⏑γα⏑4θὸς–",
+    "πά⏑ϊς⏑",
+    "5Ἀλ–κι⏑νό⏑6οι–ο×",
+    "1στῆ–",
+    "ῥ",
+    "ἐς–",
+    "2μέσ–σον⏑",
+    "ἰ⏑3ὼν–‖",
+    "καὶ⏑",
+    "Ὀ⏑4δυσ–σῆ–5α–",
+    "προ⏑σέ⏑6ει–πε×"
+   ]
   },
   {
    "t": "δεῦρ’ ἄγε καὶ σύ, ξεῖνε πάτερ, πείρησαι ἀέθλων,\nεἴ τινά που δεδάηκας·",
+   "tr": "deur’ age kai sy, xeine pater, peirēsai aethlōn,\nei tina pou dedaēkas·",
    "l": "“Hither, come, you too, stranger, father, make trial of the contests,\nif any you have learned, I suppose;",
    "i": "“Come here, you too, stranger, father, and make trial of the contests, if you have learned any, I suppose;",
    "n": "δεῦρ’ ἄγε 'come here, come now' runs two calls together. ξεῖνε πάτερ, 'stranger, father', is a respectful address to an older man and claims no kinship. πείρησαι is the aorist imperative middle of πειράω 'make trial', with the genitive ἀέθλων. εἰ … δεδάηκας 'if you have learned any' picks up the words of 8.134, and που 'I suppose, perhaps' softens the supposition.",
    "mark": "Laodamas speaks again",
    "v": true,
-   "ln": 145
+   "ln": 145,
+   "sc": [
+    "1δεῦρ–",
+    "ἄ⏑γε⏑",
+    "2καὶ–",
+    "σύ–",
+    "3ξεῖ–νε⏑‖",
+    "πά⏑4τερ–",
+    "πεί–5ρη–σαι⏑",
+    "ἀ⏑6έ–θλων×",
+    "1εἴ–",
+    "τι⏑νά⏑",
+    "2που–",
+    "δε⏑δά⏑3η–κας⏑‖"
+   ]
   },
   {
    "t": "ἔοικε δέ σ’ ἴδμεν ἀέθλους·",
+   "tr": "eoike de s’ idmen aethlous·",
    "l": "and it seems that you know contests;",
    "i": "and it seems likely that you know contests;",
    "n": "ἔοικε is impersonal here, 'it seems, it is likely', with σ’ (σε) 'you' as the subject of the infinitive ἴδμεν, Homer's form of εἰδέναι 'to know' (from οἶδα). ἀέθλους is the accusative plural of ἄεθλος, another spelling of the 'contests' word (see 8.100).",
    "v": true,
-   "ln": 146
+   "ln": 146,
+   "sc": [
+    "ἔ⏑4οι–κε⏑",
+    "δέ⏑",
+    "σ",
+    "5ἴ–δμεν⏑",
+    "ἀ⏑6έ–θλους×"
+   ]
   },
   {
    "t": "οὐ μὲν γὰρ μεῖζον κλέος ἀνέρος ὄφρα κ’ ἔῃσιν,\nἤ ὅ τι ποσσίν τε ῥέξῃ καὶ χερσὶν ἑῇσιν.",
+   "tr": "ou men gar meizon kleos aneros ophra k’ eēisin,\nē ho ti possin te rhexēi kai chersin heēisin.",
    "l": "for there is not indeed a greater glory of a man, as long as he lives,\nthan what he does with his feet and with his own hands.",
    "i": "For there is no greater glory for a man, as long as he lives, than what he achieves with his feet and his own hands.",
    "n": "οὐ μὲν γάρ is 'for surely not'. κλέος ἀνέρος is 'the glory of a man', with the epic genitive ἀνέρος of ἀνήρ. ὄφρα κ’ ἔῃσιν is 'as long as he lives', ἔῃσιν being the epic subjunctive of εἰμί. ἤ ὅ τι is ἢ ὅ τι, 'than what', and ῥέξῃ is the aorist subjunctive of ῥέζω 'do, accomplish'. ποσσίν and χερσίν are datives; ἑῇσιν is the dative plural in -ῃσιν of the possessive ἑός, 'his own', not a pronoun 'him'.",
    "v": true,
-   "ln": 147
+   "ln": 147,
+   "sc": [
+    "1οὐ–",
+    "μὲν–",
+    "2γὰρ–",
+    "μεῖ–3ζον–‖",
+    "κλέ⏑ος⏑",
+    "4ἀ–νέ⏑ρος⏑",
+    "5ὄ–φρα⏑",
+    "κ",
+    "ἔ⏑6ῃ–σιν×",
+    "1ἤ–",
+    "ὅ⏑",
+    "τι⏑",
+    "2ποσ–σίν–",
+    "3τε–‖",
+    "ῥέ–4ξῃ–",
+    "καὶ–",
+    "5χερ–σὶν⏑",
+    "ἑ⏑6ῇ–σιν×"
+   ]
   },
   {
    "t": "ἀλλ’ ἄγε πείρησαι, σκέδασον δ’ ἀπὸ κήδεα θυμοῦ.",
+   "tr": "all’ age peirēsai, skedason d’ apo kēdea thymou.",
    "l": "But come, make trial, and scatter the sorrows away from your heart.",
    "i": "Come now, make trial, and scatter the sorrows from your heart.",
    "n": "σκέδασον is the aorist imperative of σκεδάννυμι 'scatter'. ἀπὸ … θυμοῦ is 'away from the heart', with ἀπό placed before its noun. κήδεα is 'sorrows, cares', and Odysseus takes the word up at 8.154. In the imperative 'scatter the sorrows' Laodamas is hinting that the stranger is grieving.",
    "v": true,
-   "ln": 149
+   "ln": 149,
+   "sc": [
+    "1ἀλλ–",
+    "ἄ⏑γε⏑",
+    "2πεί–ρη–3σαι–‖",
+    "σκέ⏑δα⏑4σον–",
+    "δ",
+    "ἀ⏑πὸ⏑",
+    "5κή–δε⏑α⏑",
+    "6θυ–μοῦ×"
+   ]
   },
   {
    "t": "σοὶ δ’ ὁδὸς οὐκέτι δηρὸν ἀπέσσεται, ἀλλά τοι ἤδη\nνηῦς τε κατείρυσται καὶ ἐπαρτέες εἰσὶν ἑταῖροι.",
+   "tr": "soi d’ hodos ouketi dēron apessetai, alla toi ēdē\nnēus te kateirystai kai epartees eisin hetairoi.",
    "l": "And for you the road no longer for long will be far off, but already for you\nthe ship has been drawn down, and your companions are ready.”",
    "i": "Your journey will not be far off much longer: the ship has already been drawn down for you, and your companions are ready.”",
    "n": "ὁδός is 'road, journey'. ἀπέσσεται is the epic future of ἄπειμι 'be away, be far off', with the double σ, and with οὐκέτι δηρόν it means the journey home is no longer far off. τοι is the dative of σύ, 'for you'. κατείρυσται is the perfect passive of κατερύω 'drag down', the verb for launching a ship into the water. ἐπαρτέες is the adjective 'ready', agreeing with ἑταῖροι 'companions'.",
    "v": true,
-   "ln": 150
+   "ln": 150,
+   "sc": [
+    "1σοὶ–",
+    "δ",
+    "ὁ⏑δὸς⏑",
+    "2οὐ–κέ⏑τι⏑",
+    "3δη–ρὸν⏑‖",
+    "ἀ⏑4πέσ–σε⏑ται⏑",
+    "5ἀλ–λά⏑",
+    "τοι⏑",
+    "6ἤ–δη×",
+    "1νηῦς–",
+    "τε⏑",
+    "κα⏑2τεί–ρυσ–3ται–‖",
+    "καὶ⏑",
+    "ἐ⏑4παρ–τέ⏑ες⏑",
+    "5εἰ–σὶν⏑",
+    "ἑ⏑6ταῖ–ροι×"
+   ]
   },
   {
    "t": "τὸν δ’ ἀπαμειβόμενος προσέφη πολύμητις Ὀδυσσεύς·",
+   "tr": "ton d’ apameibomenos prosephē polymētis Odysseus·",
    "l": "Him answering addressed many-wiled Odysseus:",
    "i": "In answer Odysseus of many wiles said to him:",
    "n": "The reply-formula for Odysseus, the same as at 7.207 and 7.302 (the feminine form τὴν δ’ … stands at 5.214). τόν is the article as a pronoun, 'him'. ἀπαμειβόμενος is the participle of ἀπαμείβομαι 'answer', and προσέφη the aorist of πρόσφημι 'address'. πολύμητις is the stock epithet 'many-wiled' (of many wiles), from πολύς 'much' and μῆτις 'cunning intelligence', kept apart from πολυμήχανος.",
    "p": true,
    "v": true,
-   "ln": 152
+   "ln": 152,
+   "sc": [
+    "1τὸν–",
+    "δ",
+    "ἀ⏑πα⏑2μει–βό⏑με⏑3νος–‖",
+    "προ⏑σέ⏑4φη–",
+    "πο⏑λύ⏑5μη–τις⏑",
+    "Ὀ⏑6δυσ–σεύς×"
+   ]
   },
   {
    "t": "Λαοδάμα, τί με ταῦτα κελεύετε κερτομέοντες;",
+   "tr": "Laodama, ti me tauta keleuete kertomeontes;",
    "l": "“Laodamas, why do you urge these things on me, mocking me?",
    "i": "“Laodamas, why do you urge these things on me, mocking me?",
    "n": "τί … ταῦτα 'why these things': the question is rhetorical. κελεύετε is a second person plural, 'you (all)', though one man has been addressed. κερτομέοντες is the uncontracted participle of κερτομέω 'mock, taunt', and Odysseus says outright that he takes Laodamas' invitation as a taunt.",
    "mark": "Odysseus answers",
    "v": true,
-   "ln": 153
+   "ln": 153,
+   "sc": [
+    "1Λα–ο⏑δά⏑2μα–",
+    "τί⏑",
+    "με⏑",
+    "3ταῦ–τα⏑‖",
+    "κε⏑4λεύ–ε⏑τε⏑",
+    "5κερ–το⏑μέ⏑6ον–τες×"
+   ]
   },
   {
    "t": "κήδεά μοι καὶ μᾶλλον ἐνὶ φρεσὶν ἤ περ ἄεθλοι,\nὃς πρὶν μὲν μάλα πολλὰ πάθον καὶ πολλὰ μόγησα,\nνῦν δὲ μεθ’ ὑμετέρῃ ἀγορῇ νόστοιο χατίζων\nἧμαι, λισσόμενος βασιλῆά τε πάντα τε δῆμον.",
+   "tr": "kēdea moi kai mallon eni phresin ē per aethloi,\nhos prin men mala polla pathon kai polla mogēsa,\nnyn de meth’ hymeterēi agorēi nostoio chatizōn\nhēmai, lissomenos basilēa te panta te dēmon.",
    "l": "Sorrows for me are, even more, in my mind than contests are,\nI who before very many things suffered and many toiled through,\nand now among your assembly, longing for homecoming,\nsit, entreating both the king and all the people.”",
    "i": "Sorrows are on my mind more than contests are, I who suffered a great deal before this, and toiled through much, and now sit in your assembly, longing to get home, and entreating the king and all the people.”",
    "n": "The sentence hangs on μοι, 'for me': the relative ὅς 'I who' in 155 is in the nominative, taking up that μοι, and is the ordinary relative here, not the possessive. κήδεα is the 'sorrows' of 8.149. ἤ περ is 'than indeed', and ἄεθλοι is the nominative plural, 'contests'. πάθον is the aorist of πάσχω 'suffer' without the augment (Attic ἔπαθον), and μόγησα the aorist of μογέω 'toil'. μεθ’ ὑμετέρῃ ἀγορῇ is 'among your assembly', ὑμετέρῃ being a dative of the possessive 'your' (plural). νόστοιο χατίζων 'longing for homecoming': χατίζω 'be in need of, long for' takes the genitive, here in -οιο. ἧμαι 'I sit' is the verb whose participle ἥμενος stood at 8.93. λισσόμενος is 'entreating' (λίσσομαι), with two accusatives, βασιλῆα in Ionic -ῆα and δῆμον 'people'. The 'king' is Alcinous.",
    "v": true,
-   "ln": 154
+   "ln": 154,
+   "sc": [
+    "1κή–δε⏑ά⏑",
+    "2μοι–",
+    "καὶ–",
+    "3μᾶλ–λον⏑‖",
+    "ἐ⏑4νὶ–",
+    "φρε⏑σὶν⏑",
+    "5ἤ–",
+    "περ⏑",
+    "ἄ⏑6ε–θλοι×",
+    "1ὃς–",
+    "πρὶν–",
+    "2μὲν–",
+    "μά⏑λα⏑",
+    "3πολ–λὰ⏑‖",
+    "πά⏑4θον–",
+    "καὶ–",
+    "5πολ–λὰ⏑",
+    "μό⏑6γη–σα×",
+    "1νῦν–",
+    "δὲ⏑",
+    "μεθ⏑",
+    "2ὑ–με⏑τέ⏑3ρῃ–‖",
+    "ἀ⏑γο⏑4ρῇ–",
+    "νόσ–5τοι–ο⏑",
+    "χα⏑6τί–ζων×",
+    "1ἧ–μαι–",
+    "2λισ–σό⏑με⏑3νος–‖",
+    "βα⏑σι⏑4λῆ–ά⏑",
+    "τε⏑",
+    "5πάν–τα⏑",
+    "τε⏑",
+    "6δῆ–μον×"
+   ]
   },
   {
    "t": "τὸν δ’ αὖτ’ Εὐρύαλος ἀπαμείβετο νείκεσέ τ’ ἄντην·",
+   "tr": "ton d’ aut’ Euryalos apameibeto neikese t’ antēn·",
    "l": "Him then in turn answered Euryalus, and reviled him to his face:",
    "i": "Then Euryalus answered him in turn, and reviled him to his face:",
    "n": "The formula of 8.140 with one change, νείκεσέ τ’ ἄντην in place of φώνησέν τε. νείκεσε is the aorist of νεικέω 'quarrel with, revile', and ἄντην is an adverb, 'face to face, openly', so 'reviled him to his face'. The τε joins ἀπαμείβετο and νείκεσε. Euryalus is answering Odysseus, whom τόν 'him' points to.",
    "p": true,
    "v": true,
-   "ln": 158
+   "ln": 158,
+   "sc": [
+    "1τὸν–",
+    "δ",
+    "αὖτ–",
+    "2Εὐ–ρύ⏑α⏑3λος–‖",
+    "ἀ⏑πα⏑4μεί–βε⏑το⏑",
+    "5νεί–κε⏑σέ⏑",
+    "τ",
+    "6ἄν–την×"
+   ]
   },
   {
    "t": "οὐ γάρ σ’ οὐδέ, ξεῖνε, δαήμονι φωτὶ ἐίσκω\nἄθλων, οἷά τε πολλὰ μετ’ ἀνθρώποισι πέλονται,",
+   "tr": "ou gar s’ oude, xeine, daēmoni phōti eiskō\nathlōn, hoia te polla met’ anthrōpoisi pelontai,",
    "l": "“For I do not at all liken you, stranger, to a knowing man\nin contests, such as many are among men,",
    "i": "“For I do not take you, stranger, for a man skilled in any of the many kinds of contest there are among men,",
    "n": "οὐ … οὐδέ: the doubled negative strengthens, 'not at all'. ἐίσκω is 'I liken, I take you to be', with the dative δαήμονι φωτί 'a knowing man' (δαήμων 'skilled', φώς 'man') and the genitive ἄθλων, 'in contests', the same word as ἀέθλων in a shorter spelling. οἷά τε πολλὰ … πέλονται is 'such as are many', with epic τε, and πέλονται is 'are'. The sentence runs on; the contrast begins with ἀλλά in the next unit.",
    "mark": "Euryalus speaks again",
    "v": true,
-   "ln": 159
+   "ln": 159,
+   "sc": [
+    "1οὐ–",
+    "γάρ–",
+    "σ",
+    "2οὐ–δέ–",
+    "3ξεῖ–νε⏑‖",
+    "δα⏑4ή–μο⏑νι⏑",
+    "5φω–τὶ⏑",
+    "ἐ⏑6ίσ–κω×",
+    "1ἄ–θλων–",
+    "2οἷ–ά⏑",
+    "τε⏑",
+    "3πολ–λὰ⏑‖",
+    "μετ⏑",
+    "4ἀν–θρώ–5ποι–σι⏑",
+    "πέ⏑6λον–ται×"
+   ]
   },
   {
    "t": "ἀλλὰ τῷ, ὅς θ’ ἅμα νηὶ πολυκλήιδι θαμίζων,\nἀρχὸς ναυτάων οἵ τε πρηκτῆρες ἔασιν,\nφόρτου τε μνήμων καὶ ἐπίσκοπος ᾖσιν ὁδαίων\nκερδέων θ’ ἁρπαλέων·",
+   "tr": "alla tōi, hos th’ hama nēi polyklēidi thamizōn,\narchos nautaōn hoi te prēktēres easin,\nphortou te mnēmōn kai episkopos ēisin hodaiōn\nkerdeōn th’ harpaleōn·",
    "l": "but to one who, with a many-thwarted ship frequenting,\nis a leader of sailors, who are men of business,\nof cargo mindful and overseer of the wares for the road\nand of greedy gains;",
    "i": "but to a man who goes to and fro with a ship of many thwarts as leader of sailors who are traders, mindful of his cargo, and overseer of the wares he carries and of his greedy gains;",
    "n": "τῷ is the dative of the article as a pronoun, 'to him', with the relative ὅς θ’ … following it (τε is epic). θαμίζων is the participle of θαμίζω 'come often, frequent', and πολυκλήιδι is 'many-thwarted', from κληΐς 'thwart, rowing-bench', so the picture is of a merchant captain and his ship. ἀρχός is 'leader, captain', and πρηκτῆρες 'doers of business, traders'; ἔασιν is epic for εἰσί. μνήμων 'mindful of' takes the genitive φόρτου 'cargo'. ἐπίσκοπος is 'overseer, one who looks over'. ᾖσιν is the epic subjunctive 3 sg. of εἰμί, 'may be'. ὁδαίων is a word whose sense is not known for certain; it is taken to mean wares 'for the road', the goods of a voyage. κερδέων is the genitive plural of κέρδος 'gain, profit', in its uncontracted form, and ἁρπαλέων 'greedy'.",
    "v": true,
-   "ln": 161
+   "ln": 161,
+   "sc": [
+    "1ἀλ–λὰ⏑",
+    "τῷ⏑",
+    "2ὅς–",
+    "θ",
+    "ἅ⏑μα⏑",
+    "3νη–ὶ⏑‖",
+    "πο⏑4λυ–κλή–5ι–δι⏑",
+    "θα⏑6μί–ζων×",
+    "1ἀρ–χὸς–",
+    "2ναυ–τά–3ων–",
+    "οἵ–",
+    "4τε–‖",
+    "πρηκ–5τῆ–ρες⏑",
+    "ἔ⏑6α–σιν×",
+    "1φόρ–του–",
+    "2τε–",
+    "μνή–3μων–‖",
+    "καὶ⏑",
+    "ἐ⏑4πίσ–κο⏑πος⏑",
+    "5ᾖ–σιν⏑",
+    "ὁ⏑6δαί–ων×",
+    "1κερ–δέων–",
+    "θ",
+    "2ἁρ–πα⏑λέ⏑3ων–‖"
+   ]
   },
   {
    "t": "οὐδ’ ἀθλητῆρι ἔοικας.",
+   "tr": "oud’ athlētēri eoikas.",
    "l": "and you do not look like an athlete.”",
    "i": "and you do not look like an athlete.”",
    "n": "οὐδ’ is 'and not', and ἀθλητῆρι is the dative with ἔοικας 'you look like, you resemble', the same verb as ἔοικε at 8.146. ἀθλητήρ is 'contestant, athlete', from ἆθλον, the 'contest' word. The insult is complete: a merchant, not a sportsman.",
    "v": true,
-   "ln": 164
+   "ln": 164,
+   "sc": [
+    "οὐδ–",
+    "4ἀ–θλη–5τῆ–ρι⏑",
+    "ἔ⏑6οι–κας×"
+   ]
   },
   {
    "t": "τὸν δ’ ἄρ’ ὑπόδρα ἰδὼν προσέφη πολύμητις Ὀδυσσεύς·",
+   "tr": "ton d’ ar’ hypodra idōn prosephē polymētis Odysseus·",
    "l": "Him then with a scowl looking addressed many-wiled Odysseus:",
    "i": "Then Odysseus of many wiles, looking at him with a scowl, spoke to him:",
    "n": "τόν is 'him', the article as a pronoun; ἄρ’ 'then' marks the reply; ἰδών is the aorist participle of ὁράω 'look', and προσέφη the aorist of πρόσφημι 'address'. ὑπόδρα is an adverb of looking, 'with a scowl'; the ancient explanation is 'from under the brows', and the derivation is not certain. The formula is new; the epithet πολύμητις is as at 8.152.",
    "p": true,
    "v": true,
-   "ln": 165
+   "ln": 165,
+   "sc": [
+    "1τὸν–",
+    "δ",
+    "ἄρ⏑",
+    "ὑ⏑2πό–δρα⏑",
+    "ἰ⏑3δὼν–‖",
+    "προ⏑σέ⏑4φη–",
+    "πο⏑λύ⏑5μη–τις⏑",
+    "Ὀ⏑6δυσ–σεύς×"
+   ]
   },
   {
    "t": "ξεῖν’, οὐ καλὸν ἔειπες·",
+   "tr": "xein’, ou kalon eeipes·",
    "l": "“Stranger, you have not spoken well;",
    "i": "“Stranger, you have not spoken well;",
    "n": "ξεῖν’ is ξεῖνε with elision, 'stranger'. οὐ καλὸν ἔειπες is 'you did not speak well', ἔειπες being the aorist of 8.141, where Euryalus told Laodamas that his words were κατὰ μοῖραν; Odysseus says the opposite of Euryalus' own words.",
    "mark": "Odysseus speaks again",
    "v": true,
-   "ln": 166
+   "ln": 166,
+   "sc": [
+    "1ξεῖν–",
+    "οὐ–",
+    "2κα–λὸν⏑",
+    "ἔ⏑3ει–πες⏑‖"
+   ]
   },
   {
    "t": "ἀτασθάλῳ ἀνδρὶ ἔοικας.",
+   "tr": "atasthalōi andri eoikas.",
    "l": "you are like a wanton man.",
    "i": "you are like a wanton man.",
    "n": "ἀτασθάλῳ is the adjective from the root of ἀτασθαλίαι 'wanton follies', so 'wanton'. ἔοικας with the dative ἀνδρί 'you are like a man' is the verb of Euryalus' own last words, ἀθλητῆρι ἔοικας (8.164), turned back on him.",
    "v": true,
-   "ln": 166
+   "ln": 166,
+   "sc": [
+    "ἀ⏑4τασ–θά⏑λῳ⏑",
+    "5ἀν–δρὶ⏑",
+    "ἔ⏑6οι–κας×"
+   ]
   },
   {
    "t": "οὕτως οὐ πάντεσσι θεοὶ χαρίεντα διδοῦσιν\nἀνδράσιν, οὔτε φυὴν οὔτ’ ἂρ φρένας οὔτ’ ἀγορητύν.",
+   "tr": "houtōs ou pantessi theoi charienta didousin\nandrasin, oute phyēn out’ ar phrenas out’ agorētyn.",
    "l": "Thus not to all do the gods give graceful things\nto men, neither stature nor then mind nor eloquence.",
    "i": "So the gods do not give every graceful gift to all men, neither stature, nor mind, nor eloquence.",
    "n": "οὕτως 'thus, so' points ahead to the illustration that follows. πάντεσσι is a dative in -εσσι(ν), agreeing with ἀνδράσιν; διδοῦσιν is 'give'. χαρίεντα is 'graceful, pleasing things' (from χάρις 'grace'), a neuter plural used as a noun. The three accusatives that follow are φυήν 'stature' (as at 8.134), φρένας 'mind' and ἀγορητύν 'the gift of speaking in assembly' (from ἀγορή), and ἂρ is ἄρα, a particle 'then'.",
    "v": true,
-   "ln": 167
+   "ln": 167,
+   "sc": [
+    "1οὕ–τως–",
+    "2οὐ–",
+    "πάν–3τεσ–σι⏑‖",
+    "θε⏑4οὶ–",
+    "χα⏑ρί⏑5εν–τα⏑",
+    "δι⏑6δοῦ–σιν×",
+    "1ἀν–δρά⏑σιν⏑",
+    "2οὔ–τε⏑",
+    "φυ⏑3ὴν–‖",
+    "οὔτ–",
+    "4ἂρ–",
+    "φρέ⏑νας⏑",
+    "5οὔτ–",
+    "ἀ⏑γο⏑6ρη–τύν×"
+   ]
   },
   {
    "t": "ἄλλος μὲν γάρ τ’ εἶδος ἀκιδνότερος πέλει ἀνήρ,\nἀλλὰ θεὸς μορφὴν ἔπεσι στέφει, οἱ δέ τ’ ἐς αὐτὸν\nτερπόμενοι λεύσσουσιν·",
+   "tr": "allos men gar t’ eidos akidnoteros pelei anēr,\nalla theos morphēn epesi stephei, hoi de t’ es auton\nterpomenoi leussousin·",
    "l": "For one man is slighter in form,\nbut a god crowns his shape with words, and they, at him,\ntaking delight, look;",
    "i": "For one man is slighter in form, but a god crowns his shape with words, and people look at him with delight;",
    "n": "γάρ τ’ introduces a general truth, with epic τε. ἄλλος μέν here answers ἄλλος δέ at 8.174: 'one man … another'. ἀκιδνότερος is the comparative of ἀκιδνός 'slight, feeble, insignificant', with εἶδος an accusative of respect, 'in form'. ἔπεσι is a dative, 'with words' (ἔπος), and στέφει is 'crowns, wreathes': the picture is of words set on his form like a garland. μορφή is 'shape'. οἱ δέ τ’ ἐς αὐτὸν … λεύσσουσιν: οἱ 'they', the article as a pronoun, ἐς αὐτόν 'at him', τερπόμενοι 'taking delight', λεύσσουσιν 'they look'.",
    "v": true,
-   "ln": 169
+   "ln": 169,
+   "sc": [
+    "1ἄλ–λος–",
+    "2μὲν–",
+    "γάρ–",
+    "τ",
+    "3εἶ–δος⏑‖",
+    "ἀ⏑4κι–δνό⏑τε⏑5ρος–",
+    "πέ⏑λει⏑",
+    "6ἀ–νήρ×",
+    "1ἀλ–λὰ⏑",
+    "θε⏑2ὸς–",
+    "μορ–3φὴν–‖",
+    "ἔ⏑πε⏑4σι–",
+    "στέ⏑φει⏑",
+    "5οἱ–",
+    "δέ⏑",
+    "τ",
+    "ἐς⏑",
+    "6αὐ–τὸν×",
+    "1τερ–πό⏑με⏑2νοι–",
+    "λεύσ–3σου–σιν⏑‖"
+   ]
   },
   {
    "t": "ὁ δ’ ἀσφαλέως ἀγορεύει\nαἰδοῖ μειλιχίῃ, μετὰ δὲ πρέπει ἀγρομένοισιν,\nἐρχόμενον δ’ ἀνὰ ἄστυ θεὸν ὣς εἰσορόωσιν.",
+   "tr": "ho d’ asphaleōs agoreuei\naidoi meilichiēi, meta de prepei agromenoisin,\nerchomenon d’ ana asty theon hōs eisoroōsin.",
    "l": "and he speaks securely,\nwith gentle modesty, and is conspicuous among those assembling,\nand him coming through the city they look at like a god.",
    "i": "and he speaks with sureness and gentle modesty, and stands out among those who gather, and as he goes through the city they look at him as at a god.",
    "n": "ὁ δ’ is 'and he', the article as a pronoun, taking up the man of the previous unit. ἀσφαλέως is 'securely, without stumbling'. αἰδοῖ μειλιχίῃ are datives, 'with gentle modesty' (αἰδώς 'modesty, reverence', μειλίχιος 'gentle'). μετά … πρέπει is 'stands out among', with the dative ἀγρομένοισιν, the aorist participle (a shortened form) of ἀγείρω 'gather'. ἐρχόμενον … εἰσορόωσιν: 'they look at him as he goes', the participle being in the accusative as the object, and εἰσορόωσιν the uncontracted εἰσορῶσιν. θεὸν ὣς is ὡς θεόν, 'like a god', with the words in the other order and the accent shifted.",
    "v": true,
-   "ln": 171
+   "ln": 171,
+   "sc": [
+    "ὁ⏑",
+    "δ",
+    "4ἀσ–φα⏑λέ⏑5ως–",
+    "ἀ⏑γο⏑6ρεύ–ει×",
+    "1αἰ–δοῖ–",
+    "2μει–λι⏑χί⏑3ῃ–‖",
+    "με⏑τὰ⏑",
+    "4δὲ–",
+    "πρέ⏑πει⏑",
+    "5ἀ–γρο⏑μέ⏑6νοι–σιν×",
+    "1ἐρ–χό⏑με⏑2νον–",
+    "δ",
+    "ἀ⏑νὰ⏑",
+    "3ἄσ–τυ⏑‖",
+    "θε⏑4ὸν–",
+    "ὣς–",
+    "5εἰ–σο⏑ρό⏑6ω–σιν×"
+   ]
   },
   {
    "t": "ἄλλος δ’ αὖ εἶδος μὲν ἀλίγκιος ἀθανάτοισιν,\nἀλλ’ οὔ οἱ χάρις ἀμφιπεριστέφεται ἐπέεσσιν,\nὡς καὶ σοὶ εἶδος μὲν ἀριπρεπές, οὐδέ κεν ἄλλως\nοὐδὲ θεὸς τεύξειε, νόον δ’ ἀποφώλιός ἐσσι.",
+   "tr": "allos d’ au eidos men alinkios athanatoisin,\nall’ ou hoi charis amphiperistephetai epeessin,\nhōs kai soi eidos men ariprepes, oude ken allōs\noude theos teuxeie, noon d’ apophōlios essi.",
    "l": "And another in turn is like the immortals in form,\nbut for him grace is not crowned all around his words,\nas also for you the form is very conspicuous, and not otherwise\nwould even a god fashion it, but in mind you are empty.",
    "i": "But another again is like the immortals in form, yet no grace is set as a crown around his words. So it is with you: your form is very striking, and not even a god could fashion it otherwise, but in mind you are empty.",
    "n": "ἄλλος δ’ αὖ 'and another again' answers ἄλλος μέν of 8.169. ἀλίγκιος 'like' is a variant of ἐναλίγκιος, with the dative ἀθανάτοισιν 'the immortals'. οἱ 'to him' is the dative of the pronoun, not the article. ἀμφιπεριστέφεται is the passive of ἀμφιπεριστέφω, 'is crowned all around', the same verb as στέφει at 8.170. ὡς καὶ σοί is 'as also for you'. ἀριπρεπές is 'very conspicuous', from the intensive ἀρι- and πρέπω 'stand out' (as πρέπει at 8.172). οὐδέ κεν ἄλλως / οὐδὲ θεὸς τεύξειε: κεν with the optative is a potential, 'not even a god could fashion it otherwise' (τεύχω 'make'). νόον is an accusative of respect, 'in mind'. ἀποφώλιος 'empty, worthless' has a sense taken from context and ancient glosses; its origin is not known. ἐσσί is the epic form of εἶ 'you are'.",
    "v": true,
-   "ln": 174
+   "ln": 174,
+   "sc": [
+    "1ἄλ–λος–",
+    "δ",
+    "2αὖ–",
+    "εἶ–3δος–",
+    "μὲν⏑‖",
+    "ἀ⏑4λίγ–κι⏑ος⏑",
+    "5ἀ–θα⏑νά⏑6τοι–σιν×",
+    "1ἀλλ–",
+    "οὔ–",
+    "2οἱ–",
+    "χά⏑ρις⏑",
+    "3ἀμ–φι⏑πε⏑4ρισ–τέ⏑φε⏑5ται–",
+    "ἐ⏑πέ⏑6εσ–σιν×",
+    "1ὡς–",
+    "καὶ–",
+    "2σοὶ–",
+    "εἶ–3δος–",
+    "μὲν⏑‖",
+    "ἀ⏑4ρι–πρε⏑πές⏑",
+    "5οὐ–δέ⏑",
+    "κεν⏑",
+    "6ἄλ–λως×",
+    "1οὐ–δὲ⏑",
+    "θε⏑2ὸς–",
+    "τεύ–3ξει–ε⏑‖",
+    "νό⏑4ον–",
+    "δ",
+    "ἀ⏑πο⏑5φώ–λι⏑ός⏑",
+    "6ἐσ–σι×"
+   ]
   },
   {
    "t": "ὤρινάς μοι θυμὸν ἐνὶ στήθεσσι φίλοισιν\nεἰπὼν οὐ κατὰ κόσμον.",
+   "tr": "ōrinas moi thymon eni stēthessi philoisin\neipōn ou kata kosmon.",
    "l": "You have stirred up for me the heart in my dear breast\nby speaking not in proper order.",
    "i": "You have stirred up the heart in my breast by speaking so improperly.",
    "n": "ὤρινας is the aorist of ὀρίνω 'stir up, rouse', with the augment. μοι is a dative of interest, 'in me, for me'. στήθεσσι is a dative plural in -εσσι(ν) (Attic στήθεσι), a plural for one breast, and φίλοισιν 'dear' is 'my own'; the English of l keeps 'dear' and i drops it, as elsewhere. εἰπών is the aorist participle 'having spoken', and κατὰ κόσμον means 'in due order, properly', so οὐ κατὰ κόσμον is 'improperly'.",
    "v": true,
-   "ln": 178
+   "ln": 178,
+   "sc": [
+    "1ὤ–ρι–2νάς–",
+    "μοι–",
+    "3θυ–μὸν⏑‖",
+    "ἐ⏑4νὶ–",
+    "στή–5θεσ–σι⏑",
+    "φί⏑6λοι–σιν×",
+    "1εἰ–πὼν–",
+    "2οὐ–",
+    "κα⏑τὰ⏑",
+    "3κόσ–μον⏑‖"
+   ]
   },
   {
    "t": "ἐγὼ δ’ οὐ νῆις ἀέθλων,\nὡς σύ γε μυθεῖαι, ἀλλ’ ἐν πρώτοισιν ὀίω\nἔμμεναι, ὄφρ’ ἥβῃ τε πεποίθεα χερσί τ’ ἐμῇσι.",
+   "tr": "egō d’ ou nēis aethlōn,\nhōs sy ge mytheiai, all’ en prōtoisin oiō\nemmenai, ophr’ hēbēi te pepoithea chersi t’ emēisi.",
    "l": "And I am not ignorant of contests,\nas you say, but among the first I think\nI was, while in youth and in my own hands I trusted.",
    "i": "But I am not unversed in contests, as you claim; I believe I was among the first, so long as I trusted in my youth and in my own hands.",
    "n": "ἐγὼ δ’ is an emphatic 'but I', set against σύ 'you' in the next line. νῆις is 'ignorant of, unversed in' (a negative νη- with the root of οἶδα), with the genitive ἀέθλων. μυθεῖαι is the epic second person singular middle of μυθέομαι, 'you say' (Attic μυθῇ). ὀίω is 'I think, suppose', and ἔμμεναι is the epic infinitive of εἰμί (Attic εἶναι); the sense of 'I was' comes from the rest of the sentence, in the past. ὄφρ’ … πεποίθεα is 'while I trusted': πεποίθεα is a pluperfect of πείθω (perfect πέποιθα 'trust') used like an imperfect, with the datives ἥβῃ 'in youth' and χερσί … ἐμῇσι 'in my hands', ἐμῇσι being a dative plural in -ῃσι of ἐμός 'my own'.",
    "v": true,
-   "ln": 179
+   "ln": 179,
+   "sc": [
+    "ἐ⏑4γὼ–",
+    "δ",
+    "οὐ–",
+    "5νῆ–ις⏑",
+    "ἀ⏑6έ–θλων×",
+    "1ὡς–",
+    "σύ⏑",
+    "γε⏑",
+    "2μυ–θεῖ–3αι–‖",
+    "ἀλλ–",
+    "4ἐν–",
+    "πρώ–5τοι–σιν⏑",
+    "ὀ⏑6ί–ω×",
+    "1ἔμ–με⏑ναι⏑",
+    "2ὄφρ–",
+    "ἥ–3βῃ–",
+    "τε⏑‖",
+    "πε⏑4ποί–θε⏑α⏑",
+    "5χερ–σί⏑",
+    "τ",
+    "ἐ⏑6μῇ–σι×"
+   ]
   },
   {
    "t": "νῦν δ’ ἔχομαι κακότητι καὶ ἄλγεσι·",
+   "tr": "nyn d’ echomai kakotēti kai algesi·",
    "l": "And now I am held by misery and pains;",
    "i": "But now I am held fast by misery and pains;",
    "n": "ἔχομαι is the middle of ἔχω 'hold', so 'I am held, gripped', with the datives κακότητι 'misery' (κακότης 'evil state') and ἄλγεσι 'pains'. νῦν δέ 'but now' sets the present against the past of the last unit (ὄφρα … πεποίθεα).",
    "v": true,
-   "ln": 182
+   "ln": 182,
+   "sc": [
+    "1νῦν–",
+    "δ",
+    "ἔ⏑χο⏑2μαι–",
+    "κα⏑κό⏑3τη–τι⏑‖",
+    "καὶ⏑",
+    "4ἄλ–γε⏑σι⏑"
+   ]
   },
   {
    "t": "πολλὰ γὰρ ἔτλην\nἀνδρῶν τε πτολέμους ἀλεγεινά τε κύματα πείρων.",
+   "tr": "polla gar etlēn\nandrōn te ptolemous alegeina te kymata peirōn.",
    "l": "for many things I endured,\nthe wars of men and grievous waves passing through.",
    "i": "for I endured much, making my way through the wars of men and the grievous waves.",
    "n": "ἔτλην is the aorist of τλάω 'endure', 'I endured'. πείρων is the participle of πείρω 'pierce, pass through', with both πτολέμους and κύματα as objects: 'going through the wars and the waves'. This is a different verb from πειράω 'try', which gives πειρήσομ’ in the next line. πτολέμους is the epic πτόλεμος for πόλεμος 'war'. ἀλεγεινά is 'grievous', and the sea here recalls the 'sea' that Laodamas named at 8.138.",
    "v": true,
-   "ln": 182
+   "ln": 182,
+   "sc": [
+    "5πολ–λὰ⏑",
+    "γὰρ⏑",
+    "6ἔ–τλην×",
+    "1ἀν–δρῶν–",
+    "2τε–",
+    "πτο⏑λέ⏑3μους–‖",
+    "ἀ⏑λε⏑4γει–νά⏑",
+    "τε⏑",
+    "5κύ–μα⏑τα⏑",
+    "6πεί–ρων×"
+   ]
   },
   {
    "t": "ἀλλὰ καὶ ὥς, κακὰ πολλὰ παθών, πειρήσομ’ ἀέθλων·",
+   "tr": "alla kai hōs, kaka polla pathōn, peirēsom’ aethlōn·",
    "l": "But even so, many evils having suffered, I will make trial of the contests;",
    "i": "But even so, though I have suffered many evils, I will make trial of the contests;",
    "n": "ἀλλὰ καὶ ὥς is 'but even so' (ὥς, accented, is the adverb 'thus'). παθών is the aorist participle of πάσχω 'suffer'. πειρήσομ’ is πειρήσομαι, the future of πειράω 'try', with the genitive ἀέθλων as at 8.126. Odysseus is stung into taking part, and 'even so' concedes his troubles.",
    "v": true,
-   "ln": 184
+   "ln": 184,
+   "sc": [
+    "1ἀλ–λὰ⏑",
+    "καὶ⏑",
+    "2ὥς–",
+    "κα⏑κὰ⏑",
+    "3πολ–λὰ⏑‖",
+    "πα⏑4θών–",
+    "πει–5ρή–σομ⏑",
+    "ἀ⏑6έ–θλων×"
+   ]
   },
   {
    "t": "θυμοδακὴς γὰρ μῦθος, ἐπώτρυνας δέ με εἰπών.",
+   "tr": "thymodakēs gar mythos, epōtrynas de me eipōn.",
    "l": "for heart-biting is the word, and you have spurred me on by speaking.”",
    "i": "for your word bites the heart, and by speaking you have spurred me on.”",
    "n": "θυμοδακής is 'heart-biting, stinging', from θυμός 'heart' and δάκνω 'bite'; μῦθος is 'word, speech'. ἐπώτρυνας is the aorist of ἐποτρύνω 'urge on, spur', and εἰπών the aorist participle 'by speaking', as at 8.178.",
    "v": true,
-   "ln": 185
+   "ln": 185,
+   "sc": [
+    "1θυ–μο⏑δα⏑2κὴς–",
+    "γὰρ–",
+    "3μῦ–θος⏑‖",
+    "ἐ⏑4πώ–τρυ–5νας–",
+    "δέ⏑",
+    "με⏑",
+    "6εἰ–πών×"
+   ]
   },
   {
    "t": "ἦ ῥα καὶ αὐτῷ φάρει ἀναΐξας λάβε δίσκον\nμείζονα καὶ πάχετον, στιβαρώτερον οὐκ ὀλίγον περ\nἢ οἵῳ Φαίηκες ἐδίσκεον ἀλλήλοισι.",
+   "tr": "ē rha kai autōi pharei anaïxas labe diskon\nmeizona kai pacheton, stibarōteron ouk oligon per\nē hoiōi Phaiēkes ediskeon allēloisi.",
    "l": "He spoke, and in the cloak itself leaping up took a discus\ngreater and thick, sturdier by no little\nthan that with which the Phaeacians threw the discus at one another.",
    "i": "So he said, and leapt up, cloak and all, and took a discus larger and thick, and by no little sturdier than the kind the Phaeacians threw to one another.",
    "n": "ἦ ῥα is the speech-closing 'he spoke' (ἦ from an old verb of saying, and the particle ῥα 'then'), and καί joins it to the action. αὐτῷ φάρει is 'with the cloak itself': he did not take it off, so 'cloak and all'. ἀναΐξας is the aorist participle of ἀναΐσσω 'leap up'. δίσκον is a discus, a disc of stone (see λίθος at 8.190), and the adjectives that follow, μείζονα, πάχετον 'thick', στιβαρώτερον 'sturdier' (comparative of στιβαρός), all describe it; οὐκ ὀλίγον περ 'by no little' is an accusative of degree. ἢ οἵῳ is 'than that (kind) with which', and ἐδίσκεον, the uncontracted imperfect of δισκέω, 'they were throwing the discus'. Φαίηκες is the nominative plural of Φαίηξ, with the accent on αί, where Φαιήκων at 8.97 has it on ή.",
    "p": true,
    "v": true,
-   "ln": 186
+   "ln": 186,
+   "sc": [
+    "1ἦ–",
+    "ῥα⏑",
+    "καὶ⏑",
+    "2αὐ–τῷ–",
+    "3φά–ρει⏑‖",
+    "ἀ⏑4να–ΐ–5ξας–",
+    "λά⏑βε⏑",
+    "6δίσ–κον×",
+    "1μεί–ζο⏑να⏑",
+    "2καὶ–",
+    "πά⏑χε⏑3τον–‖",
+    "στι⏑βα⏑4ρώ–τε⏑ρον⏑",
+    "5οὐκ–",
+    "ὀ⏑λί⏑6γον–",
+    "περ×",
+    "1ἢ–",
+    "οἵ–2ῳ–",
+    "Φαί–3η–κες⏑‖",
+    "ἐ⏑4δίσ–κε⏑ον⏑",
+    "5ἀλ–λή–6λοι–σι×"
+   ]
   },
   {
    "t": "τόν ῥα περιστρέψας ἧκε στιβαρῆς ἀπὸ χειρός,\nβόμβησεν δὲ λίθος·",
+   "tr": "ton rha peristrepsas hēke stibarēs apo cheiros,\nbombēsen de lithos·",
    "l": "That, whirling it round, he let fly from his sturdy hand,\nand the stone hummed;",
    "i": "He whirled it round and let it fly from his sturdy hand, and the stone hummed;",
    "n": "τόν ῥα is 'it', the discus, with the article as a pronoun. περιστρέψας is the aorist participle of περιστρέφω 'whirl round', and ἧκε the aorist of ἵημι 'let go, hurl'. στιβαρῆς ἀπὸ χειρός is 'from his sturdy hand'. βόμβησεν is an echoing word, 'hummed, whirred' (from βόμβος), and λίθος is 'stone', which is what a discus is here.",
    "v": true,
-   "ln": 189
+   "ln": 189,
+   "sc": [
+    "1τόν–",
+    "ῥα⏑",
+    "πε⏑2ρισ–τρέ–3ψας–‖",
+    "ἧ–4κε–",
+    "στι⏑βα⏑5ρῆς–",
+    "ἀ⏑πὸ⏑",
+    "6χει–ρός×",
+    "1βόμ–βη–2σεν–",
+    "δὲ⏑",
+    "λί⏑3θος–‖"
+   ]
   },
   {
    "t": "κατὰ δ’ ἔπτηξαν ποτὶ γαίῃ\nΦαίηκες δολιχήρετμοι, ναυσίκλυτοι ἄνδρες,\nλᾶος ὑπὸ ῥιπῆς·",
+   "tr": "kata d’ eptēxan poti gaiēi\nPhaiēkes dolichēretmoi, nausiklytoi andres,\nlaos hypo rhipēs·",
    "l": "and down they cowered to the ground,\nthe long-oared Phaeacians, ship-famous men,\nunder the rush of the stone;",
    "i": "and the long-oared Phaeacians, men famous for their ships, cowered down to the ground under the rush of the stone;",
    "n": "κατὰ … ἔπτηξαν is tmesis: κατά stands apart from its verb, and together they are 'cowered down' (the aorist of πτήσσω 'crouch, cower'). ποτί is Homer's πρός, and γαίῃ a dative, 'to the ground'. δολιχήρετμοι 'long-oared' (δολιχός 'long', ἐρετμόν 'oar') and ναυσίκλυτοι 'ship-famous' are standing epithets of the Phaeacians as seafarers, and are translated the same way each time. λᾶος is the genitive of λᾶας 'stone', and ῥιπῆς is 'rush, sweep'; ὑπό with the genitive gives the cause, 'from under, because of'.",
    "v": true,
-   "ln": 190
+   "ln": 190,
+   "sc": [
+    "κα⏑τὰ⏑",
+    "δ",
+    "4ἔπ–τη–5ξαν–",
+    "πο⏑τὶ⏑",
+    "6γαί–ῃ×",
+    "1Φαί–η–2κες–",
+    "δο⏑λι⏑3χή–ρε–4τμοι–‖",
+    "ναυ–5σί–κλυ⏑τοι⏑",
+    "6ἄν–δρες×",
+    "1λᾶ–ος⏑",
+    "ὑ⏑2πὸ–",
+    "ῥι–3πῆς–‖"
+   ]
   },
   {
    "t": "ὁ δ’ ὑπέρπτατο σήματα πάντων\nῥίμφα θέων ἀπὸ χειρός.",
+   "tr": "ho d’ hyperptato sēmata pantōn\nrhimpha theōn apo cheiros.",
    "l": "and it flew past the marks of all,\nlightly running from his hand.",
    "i": "and it flew past the marks of them all, speeding lightly from his hand.",
    "n": "ὁ δ’ is 'and it', the article as a pronoun, and it is the stone, not Odysseus. ὑπέρπτατο is the aorist of ὑπερπέτομαι 'fly over, fly past', with no augment. σήματα are 'marks', here the marks left by the other throws, and πάντων 'of all' is their genitive. ῥίμφα is 'lightly, swiftly', and θέων is the participle of θέω 'run', used here of the stone, 'running' for 'speeding'.",
    "v": true,
-   "ln": 192
+   "ln": 192,
+   "sc": [
+    "ὁ⏑",
+    "δ",
+    "ὑ⏑4πέρ–πτα⏑το⏑",
+    "5σή–μα⏑τα⏑",
+    "6πάν–των×",
+    "1ῥίμ–φα⏑",
+    "θέ⏑2ων–",
+    "ἀ⏑πὸ⏑",
+    "3χει–ρός⏑‖"
+   ]
   },
   {
    "t": "ἔθηκε δὲ τέρματ’ Ἀθήνη\nἀνδρὶ δέμας ἐικυῖα, ἔπος τ’ ἔφατ’ ἔκ τ’ ὀνόμαζεν·",
+   "tr": "ethēke de termat’ Athēnē\nandri demas eikuia, epos t’ ephat’ ek t’ onomazen·",
    "l": "and set the boundary-marks Athena,\nlike to a man in body, and spoke a word and called him by name:",
    "i": "and Athena, made like a man in body, set the boundary-marks, and spoke, calling him by name:",
    "n": "Athena, who has not been named in this part until now, is present here in the likeness of a man. ἔθηκε is the aorist of τίθημι 'set, place', and τέρματα are 'boundary-marks, limits' (τέρμα 'end'); the words do not say what the marks are for, and the translation says no more. ἀνδρὶ δέμας ἐικυῖα is 'like a man in body': ἐικυῖα is the feminine perfect participle of ἔοικα, with the dative ἀνδρί, and δέμας an accusative of respect. ἔπος τ’ ἔφατ’ ἔκ τ’ ὀνόμαζεν is a stock closing: ἔφατ’ is ἔφατο 'she spoke', and ἔκ … ὀνόμαζεν is tmesis, 'called by name'. Her words come next.",
    "v": true,
-   "ln": 193
+   "ln": 193,
+   "sc": [
+    "ἔ⏑4θη–κε⏑",
+    "δὲ⏑",
+    "5τέρ–ματ⏑",
+    "Ἀ⏑6θή–νη×",
+    "1ἀν–δρὶ⏑",
+    "δέ⏑2μας–",
+    "ἐ⏑ι⏑3κυῖ–α⏑‖",
+    "ἔ⏑4πος–",
+    "τ",
+    "ἔ⏑φατ⏑",
+    "5ἔκ–",
+    "τ",
+    "ὀ⏑νό⏑6μα–ζεν×"
+   ]
   }
  ]
 }

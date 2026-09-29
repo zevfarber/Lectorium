@@ -498,6 +498,19 @@ Words whose meaning is not actually known are **said to be unknown** in the note
 | διερὸς βροτός (6.201; meaning of διερός uncertain) | "a living mortal" | "no living mortal" (+ note: 'living' is the traditional guess; 'wet', 'lively' also proposed) | "an active mortal", "a quick mortal", "a wet mortal" (each silently picks one guess) |
 | πολύκλυστος (of the sea, 6.204) | "much-washed" (of the open-sea) | "wave-washed" | "stormy", "surging", "tossing", "much-tossed" |
 | πρὸς γὰρ Διός εἰσιν ἅπαντες / ξεῖνοί τε πτωχοί τε, δόσις δ’ ὀλίγη τε φίλη τε (two-line saying, 6.207–208) | "for from Zeus are all / strangers and beggars, and a gift is small and dear." | "for all strangers and beggars are from Zeus, and a small gift is welcome." | "under Zeus's protection" (turns πρός into an interpretation), "poor men" for πτωχοί (kept "beggars"), "a gift small but cherished" |
+| ὣς ἔφαθ’, αἱ δ’ ἄρα τῆς μάλα μὲν κλύον ἠδ’ ἐπίθοντο (feminine speaker and hearers, 6.247; masc. line already fixed at 3.477) | "So she spoke, and they then readily heard her and obeyed," | "So she spoke, and they listened to her readily and obeyed," | "heeded", "hearkened", "did as she said"; ὣς ἔφαθ’ keeps the table's "So … spoke" |
+| αὐτὰρ Ναυσικάα λευκώλενος ἄλλ’ ἐνόησεν (6.251) | "But white-armed Nausicaa devised another thing:" | "But white-armed Nausicaa thought of something else:" | "had another plan", "had a new idea"; built on the fixed αὐτὰρ Ἀθηναίη κούρη Διὸς ἄλλ’ ἐνόησεν |
+| κρατερώνυχας (of mules, 6.253) | "strong-hoofed" | "strong-hoofed" | "strong-clawed", "stout-hoofed", "sturdy" |
+| ἀμφιέλισσαι (of ships, 6.264) | "both-sides-curving" | "curved on both sides" (+ note: sense disputed, 'rowed on both sides' also guessed) | "curved at both ends" or "double-ended" (silently picks one guess), "rounded", "shapely" |
+| ἐπίστιον (6.265) | "a slip" | "a slip of his own" (+ note: sense only approximately known) | "a home", "a hearth", "a berth" (each picks a guess) |
+| Ποσιδήιον (neuter adj. as noun, 6.266) | "sanctuary of Poseidon" | "the sanctuary of Poseidon" | "temple" (no building is named), "shrine", "Poseidon's grove" |
+| ὑπερφίαλος (6.274) | "overweening" | "overweening" | "arrogant", "insolent", "haughty"; kept apart from ὑπερηνορέοντες "overbearing" |
+| ἱμάσθλη (6.320) | "lash" | "the lash" | "whip" (reserved for μάστιξ, 6.316), "goad", "scourge" |
+| ἀεικέλιος (6.242) | "unseemly" | "unseemly" | "ugly", "shabby", "unsightly" (drop the sense of what is not fitting); follows ἀεικέα πότμον "an unseemly doom" |
+| πολυάρητος (6.280) | "much-prayed-for" | "much prayed to" | "much-desired" (drops ἀρή "prayer"), "often invoked" |
+| ἐπιζαφελῶς (6.330) | "furiously" | "furiously" | "unceasingly" (kept for the different word ἀσπερχές, 1.20), "greatly", "vehemently" |
+| πατροκασίγνητος (6.330) | "father’s brother" | "her father’s brother" | "uncle" (loses the compound's plain sense), "Poseidon" (the Greek withholds the name) |
+| στίλβων (6.237) | "glistening" | "glistening" | "gleaming" (reserved for γλαυκῶπις), "shining" (reserved for φαεινός), "sparkling" |
 
 χειρί τέ μιν κατέρεξεν ἔπος τ’ ἔφατ’ ἔκ τ’ ὀνόμαζεν (4.610, fixed with a male subject) now also covers a female
 subject (Calypso, 5.181): the English pronoun tracks the speaker's sex ("stroked him with her hand"), exactly as

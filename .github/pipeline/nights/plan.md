@@ -35,10 +35,11 @@ scan anomaly turns up later in the volume.
 | done (2026-09-28, unattended) | 143–150 | 123–130 | `archive/pp123-130.json` | The eldest sister's own tale continues: the ship anchors at a city whose people are all turned to black stone; a surviving young man recites a poem describing his own beauty (verse, printed pointed on p.125 but running unpointed once it crosses onto p.126 — see QUESTIONS.md); the frame closes at a night boundary (P127L23→P128L01) and the narration shifts into "قال صاحب الحكاية" — the second of the two beaten-dog sisters begins explaining her own scars to the caliph (a shipwreck, an inheritance, a spendthrift husband's death, then an old woman's ruse leading to her own tale, cut off as the batch ends) |
 | done (2026-09-28/29, unattended) | 151–158 | 131–138 | `archive/pp131-138.json` | The second beaten-dog sister's own account continues: the old woman's ruse, the lover's beating, the sister's servitude and her scarring by the husband's slaves (a night-boundary verse introducer on p.136, verse on pp.131, 133, 137); ends mid-beating at the batch's end |
 | done (2026-09-29, unattended) | 159–166 | 139–146 | `archive/pp139-146.json` | Continues the beaten-dog sisters' frame (page joins read continuously; content summary not written this run) |
+| done (2026-09-29/30, unattended) | 167–174 | 147–154 | `archive/pp147-154.json` | Continues the sisters' frame; night 20 begins inline on PDF p167 (printed p147); all 7 joins continuous |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 166 (archive ends at printed p. 146). Pages remaining: ~780 PDF pages
+**Last PDF page done: 174 (archive ends at printed p. 154). Pages remaining: ~764 PDF pages
 (approximate, pending the corrected offset holding). Lines archived: 3169. calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new

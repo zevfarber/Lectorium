@@ -335,3 +335,19 @@ the precedent by searching earlier drafts.
 - περικλυτός (8.83) is rendered "far-famed" in `l` and `i`, following 1.325 (l "far-famed", i "famous" there), although the table reserves "far-famed" for τηλεκλυτός and "famous" for κλυτός. Decided meanwhile: shipped as is. Owner to ratify, or align later.
 - ὣς εἰποῦσ’ (8.15) rendered "So having spoken" / "So she spoke, and" after the row for ὣς εἰπών; no separate table row added.
 - Source archive prints μέδοντες, with a comma at 8.26 but none at 7.186; odyssey-031's `t` is faithful to the archive. No action.
+
+## 2026-09-29 · odyssey-036 (8.292–386) — stopped at the gate, nothing published
+
+The part is drafted, glossed and reviewed twice (`drafts/odyssey-036/`, `review.md`: 0 high, 20 medium,
+46 low) and builds, but `validate_odyssey.py` fails check 6 at **8.384**: "σέβας μ’ ἔχει εἰσορόωντα." has the
+same Greek as odyssey-010 line 123 and so must carry that unit's shipped English ("…as I gaze on you").
+The "you" is true only of 3.123 (Nestor looking at Telemachus); here Odysseus watches the dancers, so
+the draft's true English ("awe takes hold of me as I look on.”") is rejected. Joining 8.384 to the unit
+before it would break the rule that a unit ends at the ano teleia (383 ends in ·), so it was not done.
+Not decided by the run (editing a published part is outside the runbook). Options:
+(a) recommended — correct odyssey-010 line 123 to drop "you" (and its note/tr as needed), after which
+036 validates as it stands; (b) accept the shipped "you" here; (c) let the validator ignore an object
+pronoun difference / allow a per-unit exception. The claim is released; the next run will re-take 036
+and, if the draft is still in `drafts/odyssey-036/`, can rebuild from it once the decision is made.
+Second point: 8.367 περικλυτός — the conventions table says "very famous", but the identical half-line
+shipped at 8.83 (odyssey-033) as "far-famed"; the draft follows the shipped part. Which wins?

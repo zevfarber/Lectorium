@@ -13,7 +13,7 @@
 | δωτῆρες ἑάων / δῶτορ ἑάων (8.325, 8.335) | "givers of good things" / "giver of good things" | same | "givers of blessings", "bounteous", "givers of all good" |
 | φιλομμειδὴς Ἀφροδίτη (8.362) | "smile-loving Aphrodite" | "smile-loving Aphrodite" | "laughter-loving", "sweet-smiling", "of the sweet smile" (φιλο- + μειδάω 'smile') |
 | χρυσέη Ἀφροδίτη (8.337, 8.342) | "golden Aphrodite" | "golden Aphrodite" | "gilded", "shining" (reserved for φαεινός) |
-| κλυτοεργός (of Hephaestus, 8.345) | "famous-in-works" | "famous for his works" | "renowned craftsman", "of famous craft" (kept apart from κλυτοτέχνης "famous in craft") |
+| κλυτοεργός (of Hephaestus, 8.345) | "famous in works" | "famous for his works" | "renowned craftsman", "of famous craft" (kept apart from κλυτοτέχνης "famous in craft") |
 | ἀίδηλος (of Ares, 8.309; formation uncertain) | "destroying" | "destructive" (+ note: uncertain; 'making unseen' is the guessed origin) | "unseen", "baleful", "hateful" (each silently picks a different guess) |
 | ἀρτίπος (8.310) | "sound-of-foot" | "sound of foot" | "fleet-footed", "sure-footed", "well-footed" |
 | ἠπεδανός (8.311) | "infirm" | "infirm" | "feeble" (already used for λευγαλέος of persons), "crippled", "weakly" |
@@ -21,6 +21,6 @@
 | χαλκοβατὲς δῶ (8.321; floor or threshold, disputed) | "the bronze-floored house" | "the house with the bronze floor" (+ note: 'floor' or 'threshold' disputed) | "bronze-threshold", "the bronze-founded house" (silently picks one) |
 | πουλυβότειρα (of the earth, 8.378) | "much-nourishing" | "that feeds so many" | "all-nourishing", "fertile", "giver of many" |
 | ἀριδείκετος (8.382) | "most conspicuous" | "most distinguished" | "most glorious" (reserved for φαίδιμος), "renowned" (reserved for ἀγακλυτός), "far-famed" |
-| κρείων (voc. κρεῖον, of Alcinous, 8.382) | "lord" | "my lord" | "king", "ruler" (βασιλεύς / ἄναξ are kept apart) |
+| κρείων (voc. κρεῖον, of Alcinous, 8.382) | "lord" | "my lord" | "king" (reserved for βασιλεύς), "ruler"; κρείων keeps the "lord" shipped for κρείων Ἐτεωνεύς (4.22) and the table's "lord" for ἄναξ — the two words are told apart by context, not by rendering |
 | μοιχάγρια (8.332) | "the adultery-fine" | "the adulterer's fine" | "the penalty", "compensation" (drop the μοιχός element) |
-| ἄσβεστος γέλως (8.326) | "unquenchable laughter" | "laughter that nothing could put out" | "uncontrollable laughter", "endless laughter" (lose the fire-image) |
+| ἄσβεστος γέλως (8.326) | "unquenchable laughter" | "laughter that would never go out" | "uncontrollable laughter", "endless laughter" (lose the fire-image); i follows the table's ἄσβεστον κλέος "fame that would never go out" |

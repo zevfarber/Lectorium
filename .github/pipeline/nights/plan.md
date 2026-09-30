@@ -98,6 +98,7 @@ repository is the state, never this table. Run it rather than trusting what is w
 | Night 16 | P110L15–P121L09 | published 2026-09-27/28, 213 sense units (10 verse blocks), drafted in 7 disjoint slices + 1 whole-night review; 909 new glossary entries (10731→11640), 6 pre-existing shared entries merged into multi-sense entries, 522 collisions left as the shared file's existing wording |
 | Night 17 | P121L10–P127L23 | published 2026-09-28, 104 sense units (2 verse blocks), drafted in 7 disjoint slices + 1 whole-night review; 572 new glossary entries (11640→12212), 3 shared entries' prefix explanations amended (وَبِمَا, بِكُمْ, بِاللَّهِ), 499 collisions left as the shared file's wording |
 | Night 18 | P128L01–P139L06 | published 2026-09-29, 176 sense units (7 verse blocks), 5 disjoint slices + 1 whole-night review; 842 new glossary entries (12212→13054), 763 collisions left as the shared file's wording |
+| Night 19 | P139L07–P147L03 | published 2026-09-30, 152 sense units (4 verse), 6 disjoint slices + 1 whole-night review; 543 new glossary entries (13054→13597), 614 collisions left as the shared file's wording |
 
 A night runs 84–224 archived lines (about 5½ printed pages), so eight transcribed pages yield
 roughly one and a half nights. Eight units are waiting as of 2026-09-18, so the next several

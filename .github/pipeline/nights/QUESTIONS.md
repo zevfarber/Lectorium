@@ -1029,3 +1029,5 @@ Open decisions the rules do not settle. A run writes the question and what it de
 
 - **p157->p158 join (run 2026-09-29, PDF 157-158).** P137L23 ends 'واحضر قضيبا من' with printed catchword 'ع' under it, but P138L01 begins 'فترجل ونزل به'. The catchword does not match; the bands show no missing line on either page. Decided meanwhile: archived exactly as printed, nothing inserted (probable printer's catchword slip or omitted word in the edition).
 - **Shadda in prose (same run).** The print shows a shadda on وسّطها (P137L11) and عليّ (P137L21); the gate forbids marks in prose, so both are archived bare. If marks-in-prose should be kept, the validator needs a rule.
+
+- 2026-09-30, nights-19: sentence 72 (`حَتَّى إِنِّي أُحْضِرَهُ`) — note says indicative, pointing is subjunctive. Left as is; fix the note or the pointing on a later pass.

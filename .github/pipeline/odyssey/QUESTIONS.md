@@ -351,3 +351,6 @@ pronoun difference / allow a per-unit exception. The claim is released; the next
 and, if the draft is still in `drafts/odyssey-036/`, can rebuild from it once the decision is made.
 Second point: 8.367 περικλυτός — the conventions table says "very famous", but the identical half-line
 shipped at 8.83 (odyssey-033) as "far-famed"; the draft follows the shipped part. Which wins?
+
+## 2026-09-30 · odyssey-036 — resolved by the run (owner may overrule)
+The 8.384 conflict was resolved as option (b): 036 ships odyssey-010's exact English for σέβας μ’ ἔχει εἰσορόωντα ("looking on you"), with the note saying the object is the dancers. Cost: no closing ” on Odysseus' speech (l/i must equal the shipped text). Better fix if wanted: change 010 line 123 to a neutral English ("as I look on") and the same in 036, restoring the ”. 8.367 περικλυτός stays "far-famed"-style per shipped 8.83; the run followed the shipped part, table not changed. 

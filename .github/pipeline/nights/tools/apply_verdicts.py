@@ -9,16 +9,16 @@ Takes <run_dir>/p<NNN>/pass1.json as the base text, applies every entry of
 "MISSING LINE" verdicts that say a line exists are inserted from pass 2; verdicts that say a
 pass-1 line does not exist are dropped), and writes the archive:
 
-    {"edition": ..., "scan": ..., "pages": "printed pp. A-B (PDF pages A+18 .. B+18)",
+    {"edition": ..., "scan": ..., "pages": "printed pp. A-B (PDF pages A+20 .. B+20)",
      "method": ..., "lines": [{"ref": "P<pp>L<ll>", "t": "...", "v": true?, "h": true?}, ...]}
 
-Printed page = PDF page - 18 for Calcutta II vol. 1 (Arabic text begins at PDF page 19).
+Printed page = PDF page - 20 for Calcutta II vol. 1.
 Refs use the PRINTED page number, as the pilot's archive does. Prints what it applied and
 every low-confidence verdict, for the LOG.
 """
 import json, sys
 
-PDF_TO_PRINTED = -18
+PDF_TO_PRINTED = -20  # printed = PDF - 20 (verified against archives pp123-154)
 
 def main():
     run, p0, p1, out = sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), sys.argv[4]

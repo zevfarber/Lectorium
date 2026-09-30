@@ -8,12 +8,14 @@ Honest limits of the carrier, stated once in each text's `source`:
   α ι υ count as long only where the text shows it (circumflex, iota subscript); unmarked they read short;
 - ει merges with ε as [e], ου is [u];
 - geminate consonants are read single;
-- ASPIRATES: φ θ χ read [pʰ tʰ kʰ] if the voice accepts ʰ (ASP), else fall back to p t k.
+- ASPIRATES: φ θ χ are written stop + full [h] (ph th kh). The voice REJECTS the ʰ diacritic outright —
+  every word containing it came back as the fallback text (found 2026-09-29: 120/120 aspirated words in
+  odyssey-001) — and [h] is what Allen's reconstruction describes anyway.
 """
 import unicodedata as U, re, sys, json
 ROUGH='̔'; SMOOTH='̓'; ISUB='ͅ'; DIA='̈'
 ACUTE='́'; GRAVE='̀'; CIRC='͂'; MAC='̄'; BREVE='̆'
-ASP = 'ʰ'           # set to '' if the voice rejects it
+ASP = 'h'           # NOT 'ʰ': the de-DE voice rejects the diacritic and the whole word falls back
 VOW=set('αεηιουω')
 def segs(w):
     out=[]

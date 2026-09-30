@@ -51,8 +51,15 @@ def synth_ssml(ssml, cfg, key, attempts=6):
     raise last
 
 
+_ROMAN = str.maketrans({"ˈ": "", "ʰ": "h", "ŋ": "ng", "ɛ": "e", "ɔ": "o", "ʏ": "y", "ɪ": "i",
+                        "ʊ": "u", "ː": "", "j": "i"})
+
+
 def ph(ipa):
-    return '<phoneme alphabet="ipa" ph="%s">x</phoneme>' % escape(ipa, {'"': "&quot;"})
+    # The inner text is what the voice reads if it rejects the IPA (it did so for every string with ʰ,
+    # and read the old placeholder "x" as the letter — "ex"). A rough romanization is the safer fallback.
+    return '<phoneme alphabet="ipa" ph="%s">%s</phoneme>' % (escape(ipa, {'"': "&quot;"}),
+                                                            escape(ipa.translate(_ROMAN)))
 
 
 def sentence_ssml(t, G):

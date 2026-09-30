@@ -39,8 +39,8 @@ scan anomaly turns up later in the volume.
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 174 (archive ends at printed p. 154). Pages remaining: ~764 PDF pages
-(approximate, pending the corrected offset holding). Lines archived: 3169. calc.traineddata last
+**Last PDF page done: 182 (archive ends at printed p. 162). Pages remaining: ~756 PDF pages
+(approximate, pending the corrected offset holding). Lines archived: 3337. calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new
 verified line pairs (pp. 127-131, 133-134 prose only, verse/heading excluded; p. 132 excluded, its

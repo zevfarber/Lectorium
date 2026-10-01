@@ -1,0 +1,21 @@
+# odyssey-044 — new renderings (rows in the format of the conventions table)
+
+| Greek | `l` | `i` | avoided on purpose |
+|---|---|---|---|
+| πτολιπόρθιος (of Odysseus; Ὀδυσσῆα πτολιπόρθιον 9.504, 9.530; the sack of Troy is ἔπερσεν "sacked", 1.2) | "Odysseus the city-sacking" | "Odysseus, sacker of cities" | "destroyer of cities", "city-waster", "city-sacker" (one word, hides the πτολι- 'city' + πέρθω 'sack' shape), "razer of towns" |
+| Ζεὺς κελαινεφής (9.552, Ζηνὶ κελαινεφέι) | "Zeus dark-clouded" | "Zeus of the dark clouds" | "storm-cloud Zeus", "black-clouded", "Zeus of the thunderclouds"; kept apart from νεφεληγερέτα "cloud-gatherer" |
+| ὣς ἐφάμην, ὁ δέ μ’ οἰμώξας ἠμείβετο μύθῳ· (whole line, 9.506; a third reply-formula built on ἠμείβετο) | "So I spoke, and he, groaning, answered me with a word:" | "So I spoke, and he groaned and answered me:" | "So I said" (the i of the προσέειπεν formula; the ἀμείβετο formula keeps "So I spoke", as the row for 9.272), "answered me with a groan", folding it into the already-fixed ὣς ἐφάμην, ὁ δέ μ’ αὐτίκ’ ἀμειβόμενος προσέειπεν (that is ἀμειβόμενος προσέειπεν, not ἠμείβετο μύθῳ) |
+| κλῦθι, Ποσείδαον γαιήοχε κυανοχαῖτα (whole line, 9.528) | "Hear, Poseidon earth-holder, dark-haired one," | "Hear me, Poseidon, earth-holder, dark-haired one;" | "Hear my prayer", "blue-maned", "dark-maned", "Poseidon, holder of the earth" (the house γαιήοχος "earth-holder", κυανοχαίτης "dark-haired") |
+| ὣς ἔφατ’ εὐχόμενος, τοῦ δ’ ἔκλυε κυανοχαίτης (whole line, 9.536; first half is the table's "So he spoke, praying," / "So he prayed,") | "So he spoke, praying, and him heard the dark-haired one." | "So he prayed, and the dark-haired god heard him." | "the blue-haired god", "the dark-maned one" |
+| ὣς φάσαν (9.500; plural of ὣς φάτο) | "So they spoke" | "So they spoke" | "Thus they said", "So they said" (keep one form, as for ὣς φάτο) |
+| ἀνάλκις (9.475, ἀνάλκιδος ἀνδρός; ἄλκη 'defensive strength, might', 9.514 μεγάλην ἐπιειμένον ἀλκήν) | "without might" | "without might" | "cowardly" (an Aegisthus-word already shipped at 11.309), "weakling" (shipped at 17.333), "unwarlike"; ἄλκη keeps "might", ἄλκιμος stays "strong, valiant" as shipped |
+| θέσφατα (9.507, παλαίφατα θέσφαθ’; plural noun) | "god-declared things" (with παλαίφατα "long-ago-spoken") | "prophecies" (+ "spoken long ago") | "oracles", "decrees", "fate"; follows the table's θέσφατόν ἐστι "it is god-declared / it is decreed" for the root |
+| ἀπέλεθρος (9.538, ἶν’ ἀπέλεθρον) | "measureless" | "measureless" | "immense" (reserved for ἀθέσφατος), "boundless" (reserved for ἀπείρων), "vast"; the word may be built on πέλεθρον, a measure of length, but the formation is not certain |
+| ἀρνειός (9.550) | "ram" | "a ram" | "male lamb", "wether" |
+| ἐυκνήμιδες ἑταῖροι (9.550) | "well-greaved companions" | "well-greaved companions" | "well-armoured", "bronze-greaved"; extends the table's ἐυκνήμιδες Ἀχαιοί "well-greaved Achaeans" to the companions |
+| ἐκλύσθη δὲ θάλασσα κατερχομένης ὑπὸ πέτρης· (whole line, 9.484 = 9.541) | "and the sea was washed up in a surge beneath the descending rock;" | "and the sea surged up beneath the falling rock;" | "the sea heaved", "the sea boiled up" |
+| τυτθόν, ἐδεύησεν δ’ οἰήιον ἄκρον ἱκέσθαι (9.483 = 9.540) | "a little way, and it fell short of reaching the tip of the steering-oar" | "a little way … and it fell short of reaching the tip of the steering-oar" | "missed the rudder by a hair", "the end of the tiller" (οἰήιον is the handle of the steering-oar; it is not a 'rudder') |
+| θέμωσε δὲ χέρσον ἱκέσθαι (9.486, 9.542; sense of θεμόω not known) | "and forced it to reach dry land" | "and forced it to reach dry land" (+ note: sense of θέμωσε not known; 'forced, drove' from context) | "and drove it to the shore", "and made it reach" (each silently picks a sense) |
+| ἄκικυς (9.515; derivation not known) | "feeble" | "feeble" (+ note: derivation not known) | "weak" (reserved for ἠπεδανός / ἀνάλκις), "powerless" |
+| ἐρίηρες ἑταῖροι (9.555) | "trusty companions" | "trusty companions" | already the table's row; no change |
+| ἀλλ’ ὅτε δὴ δὶς τόσσον ἅλα πρήσσοντες ἀπῆμεν (9.491) | "But when twice so much of the salt-sea making-our-way we were away," | "But when we had gone twice as far over the sea," | "when we were twice as far out", "twice the distance" |

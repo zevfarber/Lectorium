@@ -37,10 +37,11 @@ scan anomaly turns up later in the volume.
 | done (2026-09-29, unattended) | 159–166 | 139–146 | `archive/pp139-146.json` | Continues the beaten-dog sisters' frame (page joins read continuously; content summary not written this run) |
 | done (2026-09-29/30, unattended) | 167–174 | 147–154 | `archive/pp147-154.json` | Continues the sisters' frame; night 20 begins inline on PDF p167 (printed p147); all 7 joins continuous |
 | done (2026-10-01, unattended) | 191–198 | 171–178 | `archive/pp171-178.json` | Continues night 20 (Badr al-Din / the bridal chamber, the hunchback and ifrit) into the following nights; night 23 label on p. 176; all 7 joins continuous |
+| done (2026-10-01, unattended) | 199–206 | 179–186 | `archive/pp179-186.json` | Continues the nights narrative (Badr al-Din / Shams al-Din material; verse on pp. 179–180, 184–185); all 7 joins continuous |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 190 (archive ends at printed p. 170). Pages remaining: ~748 PDF pages
+**Last PDF page done: 206 (archive ends at printed p. 186). Pages remaining: ~732 PDF pages
 (approximate, pending the corrected offset holding). Lines archived: 3514. calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new

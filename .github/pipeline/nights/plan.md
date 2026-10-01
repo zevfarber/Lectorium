@@ -38,6 +38,7 @@ scan anomaly turns up later in the volume.
 | done (2026-09-29/30, unattended) | 167–174 | 147–154 | `archive/pp147-154.json` | Continues the sisters' frame; night 20 begins inline on PDF p167 (printed p147); all 7 joins continuous |
 | done (2026-10-01, unattended) | 191–198 | 171–178 | `archive/pp171-178.json` | Continues night 20 (Badr al-Din / the bridal chamber, the hunchback and ifrit) into the following nights; night 23 label on p. 176; all 7 joins continuous |
 | done (2026-10-01, unattended) | 199–206 | 179–186 | `archive/pp179-186.json` | Continues the nights narrative (Badr al-Din / Shams al-Din material; verse on pp. 179–180, 184–185); all 7 joins continuous |
+| done (2026-10-01, unattended) | 207–214 | 187–194 | `archive/pp187-194.json` | Continues the Badr al-Din / Shams al-Din narrative (night 24 heading on p. 189; verse on pp. 187–188, 194); all 7 joins plus 186→187 continuous |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 

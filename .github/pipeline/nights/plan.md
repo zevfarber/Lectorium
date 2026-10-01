@@ -36,6 +36,7 @@ scan anomaly turns up later in the volume.
 | done (2026-09-28/29, unattended) | 151–158 | 131–138 | `archive/pp131-138.json` | The second beaten-dog sister's own account continues: the old woman's ruse, the lover's beating, the sister's servitude and her scarring by the husband's slaves (a night-boundary verse introducer on p.136, verse on pp.131, 133, 137); ends mid-beating at the batch's end |
 | done (2026-09-29, unattended) | 159–166 | 139–146 | `archive/pp139-146.json` | Continues the beaten-dog sisters' frame (page joins read continuously; content summary not written this run) |
 | done (2026-09-29/30, unattended) | 167–174 | 147–154 | `archive/pp147-154.json` | Continues the sisters' frame; night 20 begins inline on PDF p167 (printed p147); all 7 joins continuous |
+| done (2026-10-01, unattended) | 191–198 | 171–178 | `archive/pp171-178.json` | Continues night 20 (Badr al-Din / the bridal chamber, the hunchback and ifrit) into the following nights; night 23 label on p. 176; all 7 joins continuous |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 

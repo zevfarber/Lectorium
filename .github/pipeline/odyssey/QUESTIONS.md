@@ -385,3 +385,8 @@ odyssey-050 (2026-10-01): reviewer found two sense-unit cuts that miss a raised 
 2. Repeated reply-formula at 11.435, 462, 477, 504 carries the shipped English "So she spoke, and I answered her" (validator forces identical English), which is wrong for speakers Agamemnon/Achilles; notes tell the reader to read "he … him". Possible one-off fix at odyssey-017 wording.
 3. 11.463 first unit and 464 use “ ” (forced by validator, matching 4.492/4.837 shipped top-level) though inside the open outer speech they should be ‘ ’.
 4. New renderings (18 rows) added to conventions.md; νήπιος "infant" at 11.449 is context-specific.
+
+## odyssey-057 (2026-10-02)
+1. 12.28 θυμὸς ἀγήνωρ: the line is shipped in odyssey-044 as "lordly heart"/"proud hearts", the table says "manly spirit"/"proud spirit"; the validator forces the shipped wording. Owner may reconcile.
+2. προσέλεκτο (12.34) is rendered "lay down beside", with the note and glossary saying some take it as "converse with"; sense not certain.
+3. 26 new renderings added to conventions.md; several (e.g. ἄωροι and κύνες at 12.89 and 12.96, said to be unknown) are hedged in the notes. Circe’s second speech is left open at 12.100 and continues into odyssey-058.

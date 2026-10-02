@@ -390,3 +390,6 @@ odyssey-050 (2026-10-01): reviewer found two sense-unit cuts that miss a raised 
 1. 12.28 θυμὸς ἀγήνωρ: the line is shipped in odyssey-044 as "lordly heart"/"proud hearts", the table says "manly spirit"/"proud spirit"; the validator forces the shipped wording. Owner may reconcile.
 2. προσέλεκτο (12.34) is rendered "lay down beside", with the note and glossary saying some take it as "converse with"; sense not certain.
 3. 26 new renderings added to conventions.md; several (e.g. ἄωροι and κύνες at 12.89 and 12.96, said to be unknown) are hedged in the notes. Circe’s second speech is left open at 12.100 and continues into odyssey-058.
+
+## 2026-10-02 · odyssey-059 — quotation-mark drift (for owner)
+conventions.md, runbook and validate_odyssey.py require “ ” for speech. Parts 001–039 ship “ ”, but 040–058 use ‘ ’. Part 059 follows the written rule (“ ”) and no other part was touched. Decide: convert 040–058 to “ ”, or amend conventions, runbook and validator to ‘ ’. Nothing waits on this.

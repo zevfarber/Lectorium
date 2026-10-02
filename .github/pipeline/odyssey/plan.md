@@ -1,6 +1,6 @@
 # Odyssey — plan
 
-58 of 119 parts published. Parts end only where Murray begins a paragraph.
+59 of 119 parts published. Parts end only where Murray begins a paragraph.
 
 | part | cite | lines | status |
 |---|---|---|---|
@@ -62,7 +62,7 @@
 | odyssey-056 | 11.538–640 | 103 | published |
 | odyssey-057 | 12.1–100 | 100 | published |
 | odyssey-058 | 12.101–191 | 91 | published |
-| odyssey-059 | 12.192–278 | 87 | todo |
+| odyssey-059 | 12.192–278 | 87 | published |
 | odyssey-060 | 12.279–370 | 92 | todo |
 | odyssey-061 | 12.371–453 | 83 | todo |
 | odyssey-062 | 13.1–112 | 112 | todo |

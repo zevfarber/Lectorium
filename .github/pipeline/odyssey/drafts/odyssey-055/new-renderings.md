@@ -17,4 +17,4 @@
 | ἄκληρος (11.490, ἀνδρὶ παρ’ ἀκλήρῳ) | "a man without allotment" | "a landless man" | "poor man", "needy"; ἀ- + κλῆρος "lot, plot of land" |
 | ἐπιμίξ (11.537; rare adverb) | "in confusion" | "in confusion" | "indiscriminately", "pell-mell", "in a mêlée" (all more specific than the root μίγνυμι "mix") |
 | Κήτειοι (11.521; a people, not otherwise known) | "Ceteians" | "Ceteian" | "Cetaeans", "Ketians"; the note says who they were is not known |
-| παραυδάω (11.488, παραύδα) | "speak soothingly" | "soothe" | "console" (the note gives it as a sense), "persuade", "talk round" |
+| παραυδάω (11.488, παραύδα) | "speak soothingly" | "talk soothingly" | "soothe" and "try to soothe" (the second adds a conative sense the present imperative does not carry), "console" (the note gives it as a sense), "persuade", "talk round" |

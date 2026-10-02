@@ -379,3 +379,9 @@ odyssey-050 (2026-10-01): reviewer found two sense-unit cuts that miss a raised 
 1. Unit boundary at 11.373: Murray’s raised point falls after ἀθέσφατος, but the unit cut places that word at the start of the next unit, so its English and note sit there (review.md says what to restore if the single word is moved into the previous unit’s `t`). Shipped as cut.
 2. Quotation scheme: the Alcinous/Arete interruption (11.333–377) is narrator’s voice, so the outer speech opened at 9.2 is closed at 11.332 and reopened at 11.378; no earlier part had this. Decided meanwhile: as stated. Owner may prefer another convention.
 3. New renderings chosen in this part (see the rows added to conventions.md): ἁγνὴ Περσεφόνεια "pure Persephone", ἱεράων Ἀθηνάων "sacred Athens", κύντερον, ἔρανος "contribution-feast", among about 90. Several edge close to existing rows; owner to prune.
+
+## odyssey-055 (2026-10-02)
+1. odyssey-054's last unit (ends 11.434) lacks the closing ’ of Agamemnon's single-quoted speech opened at 11.405; the speech ends there (055 begins with Odysseus answering). Not fixed here (other part's file). Owner/next maintenance run may add ’ to odyssey-054.
+2. Repeated reply-formula at 11.435, 462, 477, 504 carries the shipped English "So she spoke, and I answered her" (validator forces identical English), which is wrong for speakers Agamemnon/Achilles; notes tell the reader to read "he … him". Possible one-off fix at odyssey-017 wording.
+3. 11.463 first unit and 464 use “ ” (forced by validator, matching 4.492/4.837 shipped top-level) though inside the open outer speech they should be ‘ ’.
+4. New renderings (18 rows) added to conventions.md; νήπιος "infant" at 11.449 is context-specific.

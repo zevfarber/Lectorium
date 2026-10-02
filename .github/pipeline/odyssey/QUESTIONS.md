@@ -374,3 +374,8 @@ odyssey-050 (2026-10-01): reviewer found two sense-unit cuts that miss a raised 
 1. Line 138 (`ὣς ἔφατ’, αὐτὰρ ἐγώ μιν ἀμειβόμενος προσέειπον·`) is shipped as "So she spoke…" (odyssey-017); in 11.138 Tiresias speaks, so "she/her" is wrong. validate_odyssey.py check 6 forces identical English for identical lines. Decided meanwhile: kept, the note says so. Same issue as 11.79.
 2. Conventions table vs shipped parts disagree on ῥήγεα ("blankets" vs "rugs") and δόλος ("trick" vs "guile"); this part followed the shipped parts. Existing glossary entries for ἔβη and ἔγνω wrongly say "unaugmented"/"no augment"; additions-only rule left them.
 3. Shipped odyssey-007 and odyssey-016 render βουλήν τε νόον τε differently; this part follows odyssey-016.
+
+## 2026-10-02 · odyssey-054
+1. Unit boundary at 11.373: Murray’s raised point falls after ἀθέσφατος, but the unit cut places that word at the start of the next unit, so its English and note sit there (review.md says what to restore if the single word is moved into the previous unit’s `t`). Shipped as cut.
+2. Quotation scheme: the Alcinous/Arete interruption (11.333–377) is narrator’s voice, so the outer speech opened at 9.2 is closed at 11.332 and reopened at 11.378; no earlier part had this. Decided meanwhile: as stated. Owner may prefer another convention.
+3. New renderings chosen in this part (see the rows added to conventions.md): ἁγνὴ Περσεφόνεια "pure Persephone", ἱεράων Ἀθηνάων "sacred Athens", κύντερον, ἔρανος "contribution-feast", among about 90. Several edge close to existing rows; owner to prune.

@@ -725,6 +725,95 @@ Words whose meaning is not actually known are **said to be unknown** in the note
 | καταλοφάδεια (10.169) | "across-the-neck" | "slung across my neck" | "on my back", "over my shoulders" (ἐπ’ ὤμου "on the shoulder" is separate, 170) |
 | ματίη (10.79) | "foolishness" | "foolishness" | "folly" (reserved for ἀφραδίη, "folly"/"follies"), "wanton folly" (ἀτασθαλίαι) |
 | ἀλεγεινός (10.78, εἰρεσίης ἀλεγεινῆς) | "grievous" | "grievous" | follows the shipped "grievous" for ἀλεγεινός (odyssey-034) |
+| ἁγνὴ Περσεφόνεια (11.386) | "pure Persephone" | "pure Persephone" | "noble" (ἀγαυή, shipped of her in odyssey-053), "holy" (reserved for ἠγάθεος), "chaste"; follows the table's Ἄρτεμις ἁγνή "the pure" |
+| ἱεράων Ἀθηνάων (11.323, of the city) | "sacred Athens" | "sacred Athens" | "holy Athens" (reserved for ἠγάθεος; the shipped "holy citadel" is a one-off for ἱερὸν πτολίεθρον), "hallowed" |
+| Δίῃ ἐν ἀμφιρύτῃ (11.325) | "in flowed-around Dia" | "in Dia, with the sea running all round it" | "washed on every side by the sea" (the draft; the same adjective is shipped in `i` as "with the sea running all round it" at 1.50 and 1.198), "sea-girt" (reserved for ἀμφίαλος), "wave-washed" (reserved for πολύκλυστος), "surrounded by the sea" |
+| Διονύσου μαρτυρίῃσιν (11.325, plural noun) | "on Dionysus’ testimony" | "on the testimony of Dionysus" | "by the witness of", "as Dionysus bore witness" (the Greek does not say what he testified) |
+| ἀπόνητο (11.324, ἦγε μέν, οὐδ’ ἀπόνητο) | "had no enjoyment of her" | "had no enjoyment of her" | "had no joy of her" (the draft; a stock phrase that may be remembered rather than built from ἀπονίναμαι "have profit or enjoyment of"), "had no profit of her", "got nothing from her" |
+| χρυσὸν φίλου ἀνδρὸς ἐδέξατο τιμήεντα (11.327; genitive of price) | "gold for her dear husband accepted, precious" | "accepted precious gold as the price of her dear husband" | "gold from her husband" (reverses the sense of the genitive), "valuable gold" |
+| στυγερός (11.326, στυγερὴν … Ἐριφύλην) | "hateful" | "hateful" | "odious", "loathsome", "hated"; follows the table’s στυγεροὶ ἐπέεσσιν "hateful words" |
+| πρὶν γάρ κεν καὶ νὺξ φθῖτ’ ἄμβροτος (11.330) | "for sooner would even the night perish, deathless." | "for even the night, deathless though it is, would be spent before I finished." | "immortal night" (ἄμβροτος is "deathless", reserved against ἀθάνατος), "the night would end" |
+| ἀκὴν ἐγένοντο σιωπῇ … κηληθμῷ δ’ ἔσχοντο (11.333–334; first half shipped) | "and were held by a spell" | "held in a spell" | "bewitched", "charmed into stillness", "held captive"; κηληθμός is "spell" |
+| μέγαρα σκιόεντα (11.334) | "the shadowy halls" | "the shadowy halls" | "dim", "shady" (suggests shade-trees); follows the table’s ὄρεα σκιόεντα |
+| φρένας ἔνδον ἐίσας (11.337) | "the wits within, well-balanced" | "the well-balanced mind within" | "equal", "fair", "even-tempered"; ἐίσας keeps the table’s "well-balanced" (sense uncertain, as flagged at 3.10) |
+| ξεῖνος δ’ αὖτ’ ἐμός ἐστιν (11.338; ξεῖνος of the host–guest bond) | "And a guest-friend, moreover, mine he is" | "Moreover he is my guest-friend" | "my stranger" (the draft; the table gives "guest-friend" for ξεῖνος of the bond, and 1.417 ξεῖνος δ’ οὗτος ἐμός and 8.208 ξεῖνος γάρ μοι ὅδ’ ἐστί ship "guest-friend"), "my guest", "my friend" |
+| ἕκαστος δ’ ἔμμορε τιμῆς (11.338) | "each has a share of honour" | "each of you has a share of honour" | "his due of honour", "honours him" |
+| κολούετε (11.340) | "curtail" | "cut short" | "stint", "reduce", "withhold" |
+| χρηίζοντι (11.340) | "to one so in need" | "for a man in such need" | "who asks for it", "wanting" |
+| θεῶν ἰότητι (11.341) and κακῆς ἰότητι (11.384) | "by the gods’ will" / "through the evil will" | "by the will of the gods" / "through the evil will of a woman" | "by the favour of the gods", "by the gods’ grace", "wickedness" (ἰότης is will, one word throughout) |
+| ἀπὸ σκοποῦ οὐδ’ ἀπὸ δόξης (11.344) | "wide of the mark nor away from opinion" | "wide of the mark, or at odds with what we think" (+ note: ἀπὸ δόξης could be "against expectation") | "off target", "contrary to reason" |
+| βασίλεια περίφρων (11.345) | "the queen, circumspect" | "the circumspect queen" | "wise queen", "prudent queen" (reserved for πεπνυμένος); keeps the table’s περίφρων "circumspect" |
+| ἔργον τε ἔπος τε (11.346) | "both deed and word" | "both action and word" | "word and deed" (reverses the Greek order), "act and speech" |
+| τοῖσι δὲ καὶ μετέειπε γέρων ἥρως Ἐχένηος (11.342) | "And among them spoke also the old hero Echeneus," | "And among them the old hero Echeneus spoke up as well," | "addressed", "answered"; follows the table’s τοῖσι δὲ καὶ μετέειπε θεά … and the shipped γέρων ἥρως Ἐχένηος (7.155) |
+| τοῦ γὰρ κράτος ἔστ’ ἐνὶ δήμῳ (11.353; τοῦ points back to the speaker; δῆμος as in the table, "land") | "for of him the power is in the land" | "for the power in the land is mine" | "among the people" (the draft; the table keeps "land" for δῆμος and "people" for λαός), "for it is I who hold power" (adds a cleft emphasis), "for he has power over the people" (loses the first person), "authority", "might" |
+| δωτίνη (11.352, πᾶσαν δωτίνην) | "the whole gift" | "the whole gift" | "present", "bounty", "all his gifts" (δῶρα is the plural "gifts") |
+| πομπὴ … μελήσει (11.332, 11.352; different lines, same verb) | "my escort will be a care to" (332) / "the escort will be a care to" (352) | "my escort will be the concern of" (332) / "his escort will be the care of" (352) | "the sending-off will be seen to", "the conveyance will be arranged"; follows the table’s πομπή "escort" |
+| τλήτω · τλαίης · ἔτλη (11.350, 11.376, 11.425) | "let him endure" · "you were to bring yourself" · "she brought herself" | "let him bring himself" · "you could bring yourself" · "she did not bring herself" | "dare" (keep for θαρσέω), "have the heart to"; τλάω is "endure, bring oneself to" throughout, as in the table’s πολύτλας "much-enduring" |
+| καί κεν πολὺ κέρδιον εἴη (11.358) | "much better it would be" | "far better" | "more profitable" (the note gives the sense), "much more to my advantage"; follows the table’s κέρδιον "better" |
+| πλειοτέρῃ σὺν χειρί (11.359) | "with a fuller hand" | "with a fuller hand" | "with more in my hands", "richer"; the image is kept and the note explains it |
+| αἰδοιότερος καὶ φίλτερος (11.360) | "more revered and dearer" | "the more revered, and dearer" | "more honoured and beloved" (αἰδοῖος is "revered" as in the table’s αἰδοίοισιν "revered suppliants"; "honored and dear" belongs to the welcome-formula αἰδοῖός τε φίλος τε) |
+| ἠπεροπῆα … καὶ ἐπίκλοπον (11.364) | "a deceiver and a thievish one" | "a deceiver and a trickster" | "a cheat and a liar", "a liar and a thief" (ἐπίκλοπος is "thievish, sly"; ψεύδεα carries the lying) |
+| γαῖα μέλαινα (11.365) | "the dark earth" | "the dark earth" | "black earth" (μέλας is "black" of ships and, in `l`, of night, but "dark" of wine, water and wave; the earth is kept with the latter), "the black soil" |
+| πολυσπερέες ἄνθρωποι (11.365) | "men widely scattered" | "men scattered far and wide" | "teeming", "numerous" (loses σπείρω "scatter") |
+| ψεύδεα … ἀρτύνοντας (11.366) | "fashioning lies" | "who fashion lies" | "inventing", "weaving", "plotting" (δόλον ὑφαίνειν is "weave a trick") |
+| μορφὴ ἐπέων (11.367) | "a shape of words" | "your words have a shapely grace" | "beauty of speech", "eloquence" |
+| φρένες ἐσθλαί (11.367) | "good wits" | "good sense" | "noble mind", "sound heart"; ἐσθλός is "good" throughout, as in ἐσθλὸς ἑταῖρος |
+| ἐπισταμένως (11.368) | "skilfully" | "skilfully" | "knowingly", "expertly", "with knowledge" |
+| ἀθέσφατος (11.373, of the night) | "immense" | "immense" (+ note: sense uncertain) | "endless", "boundless" (reserved for ἀπείρων), "vast"; same word, same rendering as the table’s ἀθέσφατος |
+| θέσκελα ἔργα (11.374; meaning unknown) | "marvellous deeds" | "marvellous deeds" (+ note: meaning of θέσκελος not known) | "wondrous deeds" (reserved for θεσπέσιος), "god-wrought deeds", "godlike" (silently picks one guess) |
+| ἐς ἠῶ δῖαν (11.375) | "to heavenly dawn" | "until heavenly dawn" | "bright dawn", "divine dawn" (reserved for θεῖος); δῖος keeps the table’s "heavenly" |
+| ὥρη μὲν πολέων μύθων, ὥρη δὲ καὶ ὕπνου (11.379) | "a time for many tales, and a time too for sleep" | "there is a time for many tales, and a time also for sleep" | "an hour", "a season"; μῦθος is "tale" here, "talk" in μύθων ἤρχετο |
+| φθονέοιμι (11.381) | "would begrudge" | "would not begrudge" | "refuse", "forbid", "envy"; shares its stem with the table’s ἐπιφθονέω "grudge / begrudge" |
+| οἰκτρός (comparative 11.381, superlative 11.412, 11.421) | "more pitiable" · "most pitiable" | "more pitiable" · "most pitiable" | "piteous", "pitiful" (reserved for λευγαλέος), "wretched" (δύστηνος), "sad"; the table’s ἐλεεινός (8.530) is also "pitiable", the two words (ἔλεος "pity", οἶκτος "lament") told apart by context |
+| στονόεσσα ἀυτή (11.383) | "groan-filled battle-cry" | "groan-filled battle-cry" | "groaning din", "tearful", "mournful"; στονόεις is built on στόνος "groan" |
+| ἄλλυδις ἄλλῃ (11.385) | "this way and that" | "this way and that" | "hither and thither", "in all directions" |
+| γυναικῶν θηλυτεράων (11.386, 11.434) | "of women, the female ones" | "of the women" (11.386) / "women" (11.434) | "of the weaker sex", "womanly"; θηλυτέρων is a comparative in form only |
+| ψυχὴ Ἀγαμέμνονος Ἀτρεΐδαο (11.387) | "the soul of Agamemnon, Atreus’ son" | "the soul of Agamemnon, son of Atreus" | "the shade of", "the ghost of" (reserved for σκιαί and εἴδωλον); follows the table’s Ἀτρεΐδῃ Ἀγαμέμνονι |
+| ἀχνυμένη (11.388) | "grieving" | "grieving" | "sorrowing", "mourning", "troubled" |
+| ἀγηγέραθ’ (11.388) | "were gathered" | "were gathered" | "assembled", "crowded" |
+| οἴκῳ ἐν Αἰγίσθοιο (11.389) | "in the house of Aegisthus" | "in the house of Aegisthus" | "Aegisthus’ hall", "his hall"; no epithet is given to Aegisthus here |
+| λιγέως (of weeping, 11.391) | "clearly" | "in a clear voice" | "shrilly", "loudly", "bitterly"; follows the table’s λιγέως "clearly / in a clear voice" |
+| κατὰ δάκρυον εἴβων (11.391) | "an abundant tear letting fall" | "letting abundant tears fall" | "shedding" (reserved for χέων), "pouring" (reserved for λείβων), "weeping"; θαλερὸν δάκρυον keeps the table’s "abundant" |
+| πιτνὰς εἰς ἐμὲ χεῖρας (11.392) | "spreading his hands toward me" | "spreading out his hands toward me" | "stretching out", "holding out" (keep for ὀρέγομαι ὀρέξασθαι) |
+| ὀρέξασθαι μενεαίνων (11.392) | "to reach, eager" | "straining to reach me" | "longing to embrace", "desperate to", "furious" |
+| ἲς ἔμπεδος οὐδέ τι κῖκυς (11.393; κῖκυς a rare noun) | "firm force, nor any vigour" | "firm strength or vigour" | "steady strength", "power", "might" (reserved for κράτος); ἲς keeps "force" in `l` as in ἱερὴ ἲς |
+| γναμπτοῖσι μέλεσσι (11.394) | "pliant limbs" | "supple limbs" | "bending", "curved", "strong"; γναμπτός is "bent, supple" |
+| Ἀτρεΐδη κύδιστε, ἄναξ ἀνδρῶν Ἀγάμεμνον (11.397) | "Atreus’ son, most glorious, lord of men, Agamemnon," | "Son of Atreus, most glorious Agamemnon, lord of men," | "most famous", "noblest" for κύδιστε; keeps the table’s Ἀτρεΐδη … and ἄναξ ἀνδρῶν Ἀγαμέμνων "lord of men" |
+| ἦε σέ γ’ ἐν νήεσσι Ποσειδάων ἐδάμασσεν (11.399; the sea-question) | "Was it that you in the ships Poseidon subdued," | "Was it Poseidon who overcame you among your ships," | "struck down", "killed", "destroyed"; ἐδάμασσεν keeps the shipped "subdued" / "overcame" of 11.398 |
+| ἀμέγαρτον ἀυτμήν (11.400; meaning uncertain) | "the unenviable blast" | "a dreadful blast" (+ note: traditionally "not to be envied", so "dreadful"; sense uncertain) | "pitiless", "merciless", "unrelenting" (each picks one guess), "cruel breath" |
+| ἀργαλέων ἀνέμων (11.400) | "of grievous winds" | "of grievous winds" | "harsh", "baneful", "fierce"; ἀργαλέος keeps the table’s "grievous" |
+| ἀνάρσιοι ἄνδρες (11.401) | "hostile men" | "hostile men" | follows the table’s ἀνάρσιοι ἄνδρες (10.459) |
+| ἐδηλήσαντ’ ἐπὶ χέρσου (11.401) | "harmed you on dry land" | "harmed you on dry land" | "hurt", "wounded", "injured"; χέρσος is "dry land" as the opposite of the sea |
+| βοῦς περιταμνόμενον (11.402) | "cutting off cattle" | "driving off cattle" | "raiding", "rustling", "cutting out" |
+| περὶ πτόλιος μαχεούμενον ἠδὲ γυναικῶν (11.403) | "fighting for a city and for women" | "fighting for a city and for women" | "defending", "for their wives"; περί with the genitive is "for, about" |
+| οὔτ’ ἐμέ γ’ … οὔτε μ’ (11.406–408) | "neither me … nor …" | "Poseidon did not … nor did hostile men …" | "it was not … that", "neither … nor" in `i` (kept for the Greek order in `l` only) |
+| θάνατόν τε μόρον τε (11.409) | "both death and doom" | "death and doom" | follows the table’s row for 9.61, the same two nouns; the draft’s "death and portion" / "death and an allotted end" clashed with it (the note glosses μόρος as the allotted portion) |
+| ἔκτα σὺν οὐλομένῃ ἀλόχῳ (11.410) | "killed me, with (my) ruinous wife" | "killed me with my ruinous wife" | "accursed", "cursed" (the draft; the table’s φάρμακον οὐλόμενον is "the ruinous drug" and lists "accursed" as avoided), "baneful" (reserved for ὀλοφώια); οὐλόμενος is a curse-word, which the note says once |
+| οἶκόνδε καλέσσας (11.410) | "having called me to his house" | "after calling me to his house" | "invited me home", "summoned" |
+| δειπνίσσας (11.411; second half of the line shipped in odyssey-018) | "having feasted me" | "feasting me" | "given me dinner", "entertained"; the shipped wording of ὥς τίς τε κατέκτανε βοῦν ἐπὶ φάτνῃ is kept |
+| ὣς θάνον οἰκτίστῳ θανάτῳ (11.412) | "So I died by a most pitiable death" | "So I died, by a most pitiable death" | "a most wretched death", "a sad end" |
+| νωλεμέως κτείνοντο (11.413) | "unceasingly were being killed" | "were slaughtered without pause" | "relentlessly", "one after another", "were cut down" |
+| ἀφνειοῦ ἀνδρὸς μέγα δυναμένοιο (11.414) | "of a rich man, greatly powerful" | "of a rich and powerful man" | "of a wealthy lord", "of a mighty man" (reserved for ἴφθιμος) |
+| ἢ γάμῳ ἢ ἐράνῳ ἢ εἰλαπίνῃ τεθαλυίῃ (11.415) | "at a wedding, or a meal of shared contributions, or a flourishing banquet" | "at a wedding, or a meal where each man brings his share, or a flourishing banquet" | "contribution-feast", "club-feast", "picnic" for ἔρανος (the shipped 1.226 is "meal of shared contributions" / "meal where each man brings his share"); "abundant" for τεθαλυῖα (the draft; τεθαλυῖα is shipped "flourishing" at 6.293 and 11.192, and the table keeps "abundant" for θάλεια / θαλερός), "glorious", "rich" |
+| κρατερὴ ὑσμίνη (11.417) | "strong battle" | "strong battle" | "mighty" (reserved for ἴφθιμος), "fierce" (kept for ἄγριος), "hard" (reserved for tasks), "stern" |
+| μουνὰξ κτεινομένων (11.417) | "of men killed singly" | "men killed one by one" | "in single combat" (that is μονομαχία, a later word), "alone" |
+| κρητῆρα … τραπέζας τε πληθούσας (11.419) | "the mixing-bowl and the tables, full" | "the mixing-bowl and the laden tables" | "overflowing", "crowded", "heaped"; κρητήρ keeps "mixing-bowl" as shipped |
+| δάπεδον δ’ ἅπαν αἵματι θῦεν (11.420) | "the whole floor seethed with blood" | "the whole floor seethed with blood" | "ran with blood", "swam in blood", "was awash" (θύω is "rush, seethe") |
+| Κασσάνδρης, τὴν κτεῖνε Κλυταιμνήστρη δολόμητις (11.422) | "Cassandra, whom killed Clytemnestra of guileful counsel" | "Cassandra, whom Clytemnestra of guileful counsel killed" | "crafty", "treacherous", "wily" for δολόμητις; built like the table’s Αἴγισθος δολόμητις "of guileful counsel"; Κλυταιμνήστρη keeps the shipped "Clytemnestra" |
+| βάλλον ἀποθνήσκων περὶ φασγάνῳ (11.424) | "kept casting them, dying, around the sword" | "dying around the sword, lifted my hands and let them fall" | "pierced by the sword" (the Greek says only "around"), "on the sword"; the note leaves the picture open |
+| κυνῶπις (11.424) | "dog-faced" | "the shameless one" | follows the table’s κυνῶπις "dog-faced" / "shameless" |
+| χερσὶ κατ’ ὀφθαλμοὺς ἑλέειν σύν τε στόμ’ ἐρεῖσαι (11.426) | "to close my eyes and to press my mouth together" | "to close my eyes … or to press my mouth shut" | "to lay hands on", "to shut my lids and jaws"; the note gives κατὰ … ἑλέειν as "take down over" |
+| αἰνότερον καὶ κύντερον (11.427) | "more fearsome and more dog-like" | "more fearsome or more shameless" | "more terrible", "more dreadful" (reserved for δεινός), "more bitch-like" (turned down at κυνῶπις); αἰνός keeps "fearsome" as the table’s αἰνὰ πέλωρα |
+| ἔργον ἀεικές (11.429) | "an unseemly one" | "an unseemly deed" | "shameful", "disgraceful", "ugly"; follows the table’s ἀεικέα πότμον "an unseemly doom" |
+| κουριδίῳ πόσει (11.430) | "to her wedded husband" | "her wedded husband" | "her lawful husband", "her young husband", "her husband of her youth" |
+| τεύξασα φόνον (11.430; cf. τεύξας θάνατον, 11.409) | "contriving … slaughter" | "contriving the murder of" | "making", "bringing about", "plotting"; τεύχω is "contrive" in both lines |
+| ἀσπάσιος παίδεσσιν ἰδὲ δμώεσσιν ἐμοῖσιν (11.431) | "welcome to my children and to my servants" | "a welcome sight to my children and my servants" | "gladly received by", "dear to"; follows the table’s ἀσπάσιος "a welcome sight" |
+| ἔφην (11.430, ἦ τοι ἔφην γε) | "I said" | "I had supposed" | "I thought" in `l`, "I swore"; φημί is "say" in `l` throughout, and "suppose" is allowed in `i` where a thought is reported |
+| ἔξοχα λυγρὰ ἰδυῖα (11.432) | "knowing outstandingly grievous things" | "who knew grievous things beyond all others" | "skilled in evil", "versed in cruelty", "knowing wicked things"; ἰδυῖα keeps "knowing", as in the table’s κεδνὰ ἰδυῖα |
+| κατ’ αἶσχος ἔχευε (11.433) | "for herself shame poured down" | "poured shame down upon herself" | "heaped disgrace", "cast shame"; follows the table’s θεσπεσίην … χάριν κατέχευεν "poured-down" |
+| ἐσσομένῃσιν ὀπίσσω θηλυτέρῃσι γυναιξί (11.433–434) | "those yet to be, hereafter, female women" | "women yet to come" | "future women", "women of times to come"; ἐσσόμενοι keeps the table’s "those yet to come" |
+| ἥ κ’ ἐυεργὸς ἔῃσιν (11.434) | "whichever may be well-working" | "the one who does well" | "virtuous", "upright" (each fixes a moral sense the word may not carry), "good worker"; ἐυεργός is kept distinct from ἐυεργής "well-made" (9.202) |
+| Names in 11.321–434 | Phaedra, Procris, Ariadne, Minos, Theseus, Crete, Athens, Artemis, Dia, Dionysus, Maera, Clymene, Eriphyle, Arete, Echeneus, Alcinous, Ilios, Persephone, Agamemnon, Atreus, Aegisthus, Poseidon, Laertes, Priam, Cassandra, Clytemnestra, Hades | same | "Phaidra", "Prokris", "Klytaimnestra", "Kassandra", "Eriphyle" as "Eriphyl" etc.; the familiar Latinised forms, as for the other names in the table |
 
 χειρί τέ μιν κατέρεξεν ἔπος τ’ ἔφατ’ ἔκ τ’ ὀνόμαζεν (4.610, fixed with a male subject) now also covers a female
 subject (Calypso, 5.181): the English pronoun tracks the speaker's sex ("stroked him with her hand"), exactly as

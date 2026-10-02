@@ -39,10 +39,11 @@ scan anomaly turns up later in the volume.
 | done (2026-10-01, unattended) | 191–198 | 171–178 | `archive/pp171-178.json` | Continues night 20 (Badr al-Din / the bridal chamber, the hunchback and ifrit) into the following nights; night 23 label on p. 176; all 7 joins continuous |
 | done (2026-10-01, unattended) | 199–206 | 179–186 | `archive/pp179-186.json` | Continues the nights narrative (Badr al-Din / Shams al-Din material; verse on pp. 179–180, 184–185); all 7 joins continuous |
 | done (2026-10-01, unattended) | 207–214 | 187–194 | `archive/pp187-194.json` | Continues the Badr al-Din / Shams al-Din narrative (night 24 heading on p. 189; verse on pp. 187–188, 194); all 7 joins plus 186→187 continuous |
+| done (2026-10-02, unattended) | 215–222 | 195–202 | `archive/pp195-202.json` | Continues the Badr al-Din / Shams al-Din narrative (verse on pp. 195–196, 198–200; night 25 label on p. 199); all joins continuous incl. 194→195 (200→201 abrupt but no line missing) |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 206 (archive ends at printed p. 186). Pages remaining: ~732 PDF pages
+**Last PDF page done: 222 (archive ends at printed p. 202). Pages remaining: ~732 PDF pages
 (approximate, pending the corrected offset holding). Lines archived: 3514. calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new

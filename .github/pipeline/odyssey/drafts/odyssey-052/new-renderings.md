@@ -21,22 +21,22 @@
 | ἐάω (11.147, ἐᾷς … ἴμεν) | "allow" | "allow" | "let" alone, "permit" |
 | ἀριφραδής (11.126) | "very plain" | "very plain" | "clear" alone (loses the intensive ἀρι-), "manifest" (reserved for ἐναργής) |
 | ἐννοσίγαιος (bare, 11.102) | "the earth-shaker" | "the earth-shaker" | "Poseidon" (the Greek withholds the name); a bare form of the table's κλυτὸς ἐννοσίγαιος |
-| ὣς φαμένη ψυχή (11.150, the soul of Tiresias, grammatically fem.) | "So saying, the soul" | "With these words the soul" | "she" for Tiresias (the feminine is the noun's gender) |
+| ὣς φαμένη ψυχή (11.150, the soul of Tiresias, grammatically fem.) | "So saying, the soul" | "So speaking, the soul" | "she" for Tiresias (the feminine is the noun's gender); "With these words" (listed as avoided for ὣς ἄρα φωνήσασ’; kept apart so the two formulas stay distinct) |
 | κατὰ θέσφατ’ ἔλεξεν (11.151, tmesis for κατέλεξεν) | "the prophecies he had recounted" | "he had recounted his prophecies" | "had spoken his oracles" (loses κατα- "recount in full") |
 | ζωὸς ἐών (11.156) · τὸν ἐόντα (11.144) | "being alive" · "being the one I am" | "while still alive" · "for who I am" | "living" alone |
 | κὴρ θανάτοιο (11.171) | "death-spirit" | "spirit of the death that lays men at length" | "fate" (reserved for μοῖρα), "doom" (reserved for πότμος), "death-fate"; κήρ is a power of death |
 | νοῦσος (11.172, 11.200) | "sickness" | "sickness" | "disease", "illness", "plague" |
 | ἐύσκοπος ἰοχέαιρα (of Artemis, 11.198) | "the keen-sighted arrow-pourer" | "the keen-sighted one who showers her arrows" | "far-seeing", "sharp-eyed" (kept for ἐύσκοπος as in the table's "keen-sighted Argeïphontes"), "huntress" |
 | γέρας (11.175, 11.184) | "prize" | "prize of honour" | "honour" alone, "right", "estate" (reserved for τέμενος) |
-| μνηστὴ ἄλοχος (11.177) | "wooed wife" | "wedded wife" | "betrothed", "bride", "wooed" in `i` (reads as if she were still being courted) |
-| ἔμπεδα φυλάσσει (11.178) | "securely guards" | "keeps … safe" | "firmly holds", "unshaken" |
+| μνηστὴ ἄλοχος (11.177; shipped at 1.35 in odyssey-001) | "wedded wife" | "wedded wife" | "wooed wife" (the literal sense goes in the note), "betrothed", "bride" |
+| ἔμπεδα φυλάσσει (11.178; shipped at 2.226 in odyssey-007) | "keeps all things steadfast" | "keeps everything secure" | "securely guards", "keeps … safe" (both vary the shipped wording), "firmly holds", "unshaken" |
 | πότνια μήτηρ (11.180) | "the lady mother" | "my lady mother" | "revered mother", "queen mother" (reserved for ἄνασσα); follows πότνια νύμφη "the lady nymph" |
 | ὣς ἐφάμην, ἡ δ’ αὐτίκ’ ἀμείβετο πότνια μήτηρ (11.180, whole line, feminine counterpart of the table's ὣς ἐφάμην, ὁ δέ μ’ αὐτίκ’ ἀμειβόμενος προσέειπεν) | "So I spoke, and she then at once answered, the lady mother:" | "So I said, and my lady mother answered me at once:" | "addressed" (reserved for προσέειπε / προσέφη); `i` "So I said" follows the shipped reply-formulas |
 | ὀιζυρός (11.182, of nights and days) | "sorrowful" | "sorrowful" | "wretched" (reserved for δύστηνος), "miserable" (reserved for δειλός), "woeful" |
 | δικασπόλος (11.186) | "justice-tending" | "who dispenses justice" | "judge", "magistrate", "lawgiver" |
 | τεμένεα νέμεται (11.185) | "enjoys the domains" | "enjoys your domains" | "manages the estates", "tends the lands" |
 | χαλεπὸν γῆρας (11.196) | "harsh old age" | "harsh old age" | "grievous" (reserved for λυγρός / ἀργαλέος), "hard" (reserved for tasks), "heavy" |
-| ἀλωὴ οἰνόπεδος (11.193) | "wine-ground vineyard" | "the vineyard" | "wine-bearing", "wine-land" (οἰνόπεδος alone is not otherwise rendered) |
+| ἀλωῆς οἰνοπέδοιο (11.193; shipped at 2.191 in odyssey-002) | "the vineyard plot" | "the vineyard plot" | "wine-ground vineyard", "wine-bearing", "wine-land"; the note gives οἰνόπεδος as "wine-ground", as at 2.191, and κατὰ γουνόν as "on the rising ground", as shipped |
 | ἀγανοφροσύνη (11.203) | "gentleness of mind" | "gentleness of mind" | "gentle-mindedness" (“-minded” is reserved for the -φρων epithets of persons), "kindliness" |
 | τηκεδὼν στυγερή (11.201) | "hateful wasting" | "hateful wasting" | "wretched", "melting away" |
 | θυμός of the life that leaves the body (11.201, 11.203) | "life" | "life" | "heart", "spirit"; follows the table's ἀπὸ δ’ ἔπτατο θυμός "his life flew away" |
@@ -46,6 +46,6 @@
 
 ## Flag for review
 
-- **11.138 (`ὣς ἔφατ’, αὐτὰρ ἐγώ μιν ἀμειβόμενος προσέειπον·`)**: the shipped English of the line (odyssey-017, 375) is "So she spoke, and I answered her and said", correct for Anticleia at 11.163 but wrong at 11.138, where the speaker is Tiresias (masculine). The units copy the shipped `l` and `i` verbatim, as the validator requires, and the note says the Greek does not mark the speaker's sex. If the validator allows, 11.138 should read "So he spoke, and I answered him and said" (`i`) / "So he spoke, and I then, answering him, addressed him:" (`l`), following the table's rule that the pronoun alone tracks the speaker.
+- **11.138 (`ὣς ἔφατ’, αὐτὰρ ἐγώ μιν ἀμειβόμενος προσέειπον·`)**: the shipped English of the line (odyssey-017, 375) is "So she spoke, and I answered her and said", correct for Anticleia at 11.163 but wrong at 11.138, where the speaker is Tiresias (masculine). The validator (check 6) forces the shipped English, so the unit keeps it, and the note says plainly that "she" is wrong here and what the line means ("So he spoke, and I answered him and said"). Open for the owner: if the shipped line is ever made gender-neutral or split by speaker, 11.138 should read "So he spoke, and I then, answering him, addressed him:" (`l`) / "So he spoke, and I answered him and said:" (`i`).
 - **11.140 and 11.170**: both are the table's whole-line formula, copied verbatim.
 - **Murray's numbering**: no irregularity in 11.100–209; the packet has 110 lines.

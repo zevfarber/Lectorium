@@ -369,3 +369,8 @@ odyssey-050 (2026-10-01): reviewer found two sense-unit cuts that miss a raised 
 ## 2026-10-01 · odyssey-051
 1. Line 79 (`ὣς ἔφατ’, αὐτὰρ ἐγώ μιν ἀμειβόμενος προσέειπον·`) is shipped as "So she spoke, and I answered her and said:" (odyssey-017). In 11.79 the speaker is Elpenor, so "she/her" is wrong; validate_odyssey.py check 6 forces identical English for identical Greek and has no exemption. Decided meanwhile: kept the shipped English and the note says the Greek is gender-neutral (as 044 and 047 do). Needs an owner decision: a gender-neutral rendering for this formula everywhere, or a validator exemption.
 2. Line 56 reuses the shipped "and I spoke to him and addressed him with winged words" (odyssey-019); the conventions table row for ἔπεα πτερόεντα προσηύδα says "spoke winged words", and "addressed" is reserved for προσέειπε/προσέφη. Decided meanwhile: kept the shipped wording (repeated-line rule). Owner to decide which the table keeps.
+
+## 2026-10-02 · odyssey-052
+1. Line 138 (`ὣς ἔφατ’, αὐτὰρ ἐγώ μιν ἀμειβόμενος προσέειπον·`) is shipped as "So she spoke…" (odyssey-017); in 11.138 Tiresias speaks, so "she/her" is wrong. validate_odyssey.py check 6 forces identical English for identical lines. Decided meanwhile: kept, the note says so. Same issue as 11.79.
+2. Conventions table vs shipped parts disagree on ῥήγεα ("blankets" vs "rugs") and δόλος ("trick" vs "guile"); this part followed the shipped parts. Existing glossary entries for ἔβη and ἔγνω wrongly say "unaugmented"/"no augment"; additions-only rule left them.
+3. Shipped odyssey-007 and odyssey-016 render βουλήν τε νόον τε differently; this part follows odyssey-016.

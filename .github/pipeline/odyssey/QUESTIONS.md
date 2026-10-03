@@ -393,3 +393,8 @@ odyssey-050 (2026-10-01): reviewer found two sense-unit cuts that miss a raised 
 
 ## 2026-10-02 · odyssey-059 — quotation-mark drift (for owner)
 conventions.md, runbook and validate_odyssey.py require “ ” for speech. Parts 001–039 ship “ ”, but 040–058 use ‘ ’. Part 059 follows the written rule (“ ”) and no other part was touched. Decide: convert 040–058 to “ ”, or amend conventions, runbook and validator to ‘ ’. Nothing waits on this.
+
+## odyssey-060 (2026-10-03)
+1. Unit 340–342 spans a full stop after 340 (ἑταῖροι.). Splitting makes 340 identical in Greek to odyssey-047's unit, and the validator then forces that unit's ‘…’ English onto it, clashing with the opening “. Merged as in 059 at 271. Owner may relax the validator rule and split.
+2. δαίμων at 12.295 is "some power" (table row 6.172); shipped 10.165 says "a god". Owner may reconcile.
+3. Several words said to be unknown/uncertain in notes: νήδυμος, λαρός, τρίχα νυκτός, θοός with night, ἀμφιέλισσα.

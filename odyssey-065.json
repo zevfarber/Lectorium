@@ -1,531 +1,1534 @@
 {
+ "id": "odyssey-065",
+ "sourceId": "odyssey-065",
  "title": "Ἰθάκη φανερὰ καὶ ὁ γέρων Ὀδυσσεύς",
  "titleEn": "Ithaca Revealed and Odysseus Disguised — Odyssey 13.329–440",
+ "work": "Ὀδύσσεια",
+ "workEn": "The Odyssey (Homer)",
  "part": "Ithaca Revealed and Odysseus Disguised (13.329–440)",
+ "language": "Ancient Greek",
+ "langCode": null,
+ "source": "Homer, The Odyssey, Greek text of A. T. Murray (Loeb Classical Library; London: Heinemann, New York: Putnam, 1919), public domain; TEI from PerseusDL/canonical-greekLit tlg0012.tlg002.perseus-grc2, sha256 7d7ffafb6c51f8c2. Text as printed: Murray sets no quotation marks round speeches, and none are added. Pronunciation: reconstructed Attic, after W. S. Allen, Vox Graeca — an admitted convention; Homer's own pronunciation was older and is not recoverable in detail. Romanization: standard classical transliteration (ē/ō; th/ph/ch; y for υ, u in diphthongs; h = rough breathing; ēi/āi/ōi for iota subscript; ï for a separately sounded ι; accents omitted). Scansion: made by program from the text and checked; it shows one defensible reading of each line, and the notes say where a line is irregular. All translations were made fresh from the Greek for Lectorium.",
  "about": "Athena answers Odysseus’s suspicion that she is mocking him: she cannot leave him, she says, because he is ready of speech, quick-witted and sound-minded; any other man, she says, would have hurried home to his wife, but he wants first to put Penelope to the test. She tells him why she kept away from Poseidon, her father’s brother, and then shows him the harbour of Phorcys, the olive, the cave of the Naiads and Mount Neriton, scattering the mist from the land. Odysseus kisses the earth and prays to the nymphs, and the two of them hide the Phaeacian gifts in the cave and sit under the olive to plan the suitors’ deaths. Athena tells of the suitors’ three years in his hall, Penelope’s false promises, and the ambush laid for Telemachus on his way home from Sparta. Then she withers his skin, takes his hair, dims his eyes and dresses him as a beggar in rags with a staff and a torn wallet, and sends him to the swineherd while she goes to Sparta.",
+ "trStyle": "line",
+ "script": "greek",
+ "glossaryFile": "odyssey-glossary.json",
  "sentences": [
   {
    "t": "τὸν δ’ ἠμείβετ’ ἔπειτα θεὰ γλαυκῶπις Ἀθήνη·",
+   "tr": "ton d’ ēmeibet’ epeita thea glaukōpis Athēnē·",
    "l": "Him then answered the goddess, gleaming-eyed Athena:",
    "i": "Then the goddess, gleaming-eyed Athena, answered him:",
    "n": "A whole-line reply-formula. τὸν δ’ is ‘him’, ἠμείβετ’ the imperfect of ἀμείβομαι ‘answer’, and ἔπειτα ‘then’. γλαυκῶπις, ‘gleaming-eyed’, is Athena’s stock epithet (γλαυκός ‘gleaming’ + ὤψ ‘eye’), and it is translated each time it comes; the exact colour that γλαυκός names is not certain. She is answering Odysseus’s doubt that she is telling the truth about Ithaca.",
    "p": true,
    "v": true,
-   "ln": 329
+   "ln": 329,
+   "sc": [
+    "1τὸν–",
+    "δ",
+    "ἠ–2μεί–βετ⏑",
+    "ἔ⏑3πει–τα⏑‖",
+    "θε⏑4ὰ–",
+    "γλαυ–5κῶ–πις⏑",
+    "Ἀ⏑6θή–νη×"
+   ]
   },
   {
    "t": "αἰεί τοι τοιοῦτον ἐνὶ στήθεσσι νόημα·",
+   "tr": "aiei toi toiouton eni stēthessi noēma·",
    "l": "“Always in you such a thought in your breast;",
    "i": "“You always have such a thought in your breast;",
    "n": "She is answering his suspicion that she is mocking him, and she begins with his habit of mind. αἰεί is ‘always’, τοι ‘to you’ (here ‘in you’), and τοιοῦτον νόημα ‘such a thought’. ἐνὶ στήθεσσι is ‘in the breast’: ἐνί is a longer form of ἐν, and the dative plural in -εσσι is Homer’s (Attic στήθεσι).",
    "mark": "Athena answers",
    "v": true,
-   "ln": 330
+   "ln": 330,
+   "sc": [
+    "1αἰ–εί–",
+    "2τοι–",
+    "τοι–3οῦ–τον⏑‖",
+    "ἐ⏑4νὶ–",
+    "στή–5θεσ–σι⏑",
+    "νό⏑6η–μα×"
+   ]
   },
   {
    "t": "τῷ σε καὶ οὐ δύναμαι προλιπεῖν δύστηνον ἐόντα,\nοὕνεκ’ ἐπητής ἐσσι καὶ ἀγχίνοος καὶ ἐχέφρων.",
+   "tr": "tōi se kai ou dynamai prolipein dystēnon eonta,\nhounek’ epētēs essi kai anchinoos kai echephrōn.",
    "l": "Therefore you too I am not able to leave, wretched though you are,\nbecause you are ready of speech and quick-witted and sound-minded.",
    "i": "That is why I cannot leave you, wretched though you are: you are ready of speech, quick-witted and sound-minded.",
    "n": "The reason she gives for staying is a list of three qualities, which fills line 332. τῷ is an old instrumental of the pronoun, ‘therefore’; σε is the object of προλιπεῖν ‘leave behind’, and δύστηνον ἐόντα ‘being wretched’ agrees with it (ἐόντα is Homer’s ὄντα). οὕνεκ’ is οὕνεκα ‘because’, and ἐσσι is Homer’s ‘you are’ (Attic εἶ). The meaning of ἐπητής is not certain: ‘ready of speech’ (taking it from ἔπος ‘word’) is the guess followed here, and ‘kindly, gracious’ is the other. ἀγχίνοος is ‘quick-witted’ (ἄγχι ‘near’ + νόος ‘mind’), and ἐχέφρων is ‘sound-minded’ (ἔχω + φρήν).",
    "v": true,
-   "ln": 331
+   "ln": 331,
+   "sc": [
+    "1τῷ–",
+    "σε⏑",
+    "καὶ⏑",
+    "2οὐ–",
+    "δύ⏑να⏑3μαι–‖",
+    "προ⏑λι⏑4πεῖν–",
+    "δύσ–5τη–νον⏑",
+    "ἐ⏑6όν–τα×",
+    "1οὕ–νεκ⏑",
+    "ἐ⏑2πη–τής–",
+    "3ἐσ–σι⏑‖",
+    "καὶ⏑",
+    "4ἀγ–χί⏑νο⏑5ος–",
+    "καὶ⏑",
+    "ἐ⏑6χέ–φρων×"
+   ]
   },
   {
    "t": "ἀσπασίως γάρ κ’ ἄλλος ἀνὴρ ἀλαλήμενος ἐλθὼν\nἵετ’ ἐνὶ μεγάροις ἰδέειν παῖδάς τ’ ἄλοχόν τε·",
+   "tr": "aspasiōs gar k’ allos anēr alalēmenos elthōn\nhiet’ eni megarois ideein paidas t’ alochon te·",
    "l": "For gladly another man, a wanderer having come,\nwould be eager, in his halls, to see children and wife;",
    "i": "Any other man, coming home from his wanderings, would be eager with joy to see his children and his wife in his halls;",
    "n": "She sets Odysseus against the ordinary returning traveller. γάρ gives the reason for what she has just said, and κ’ is κε(ν), which is Attic ἄν. ἵετ’ is the imperfect middle of ἵημι (middle ἵεμαι) ‘press on, be eager’, and the infinitive ἰδέειν is an uncontracted ‘to see’. ἀλαλήμενος is the perfect participle of ἀλάομαι ‘wander’, and ἀσπασίως, ‘gladly’, is an adverb from ἀσπάσιος ‘welcome’. ἐνὶ μεγάροις is ‘in the halls’, with the dative plural in -οις.",
    "v": true,
-   "ln": 333
+   "ln": 333,
+   "sc": [
+    "1ἀσ–πα⏑σί⏑2ως–",
+    "γάρ–",
+    "κ",
+    "3ἄλ–λος⏑‖",
+    "ἀ⏑4νὴρ–",
+    "ἀ⏑λα⏑5λή–με⏑νος⏑",
+    "6ἐλ–θὼν×",
+    "1ἵ–ετ⏑",
+    "ἐ⏑2νὶ–",
+    "με⏑γά⏑3ροις–‖",
+    "ἰ⏑δέ⏑4ειν–",
+    "παῖ–5δάς–",
+    "τ",
+    "ἄ⏑λο⏑6χόν–",
+    "τε×"
+   ]
   },
   {
    "t": "σοὶ δ’ οὔ πω φίλον ἐστὶ δαήμεναι οὐδὲ πυθέσθαι,\nπρίν γ’ ἔτι σῆς ἀλόχου πειρήσεαι, ἥ τέ τοι αὔτως\nἧσται ἐνὶ μεγάροισιν, ὀϊζυραὶ δέ οἱ αἰεὶ\nφθίνουσιν νύκτες τε καὶ ἤματα δάκρυ χεούσῃ.",
+   "tr": "soi d’ ou pō philon esti daēmenai oude pythesthai,\nprin g’ eti sēs alochou peirēseai, hē te toi autōs\nhēstai eni megaroisin, oïzyrai de hoi aiei\nphthinousin nyktes te kai ēmata dakry cheousēi.",
    "l": "but to you it is not yet dear to learn or to inquire,\nbefore yet of your wife you make trial, who for you just so\nsits in the halls, and sorrowful for her always\nwaste away the nights and the days, a tear shedding.",
    "i": "But you do not yet wish to learn or to ask, until you first make trial of your wife, who simply sits in your halls, while for her the nights and days are always sorrowful, and wear away as she sheds tears.",
    "n": "σοὶ δ’ turns to Odysseus: ‘but for you’. φίλον ἐστί, ‘is dear’, takes two infinitives, δαήμεναι ‘to find out’ (aorist, in -ήμεναι) and πυθέσθαι ‘to inquire’. πρίν γ’ ἔτι with πειρήσεαι (πειράω ‘make trial of’, with the genitive σῆς ἀλόχου ‘your wife’; the form is a short-vowel aorist subjunctive or a future) means ‘until you have put your wife to the test’. ἥ τέ τοι: ἥ is the relative ‘who’, τε the epic particle, and τοι ‘for you’. αὔτως is ‘just so, simply’, and ἧσται the third singular of ἧμαι ‘sit’. χεούσῃ is the dative participle of χέω ‘pour, shed’, agreeing with οἱ ‘for her’. The last line and a half, from ὀϊζυραὶ δέ, repeat words heard elsewhere in the poem, and they carry the same English here.",
    "v": true,
-   "ln": 335
+   "ln": 335,
+   "sc": [
+    "1σοὶ–",
+    "δ",
+    "οὔ–",
+    "2πω–",
+    "φί⏑λον⏑",
+    "3ἐσ–τὶ⏑‖",
+    "δα⏑4ή–με⏑ναι⏑",
+    "5οὐ–δὲ⏑",
+    "πυ⏑6θέσ–θαι×",
+    "1πρίν–",
+    "γ",
+    "ἔ⏑τι⏑",
+    "2σῆς–",
+    "ἀ⏑λό⏑3χου–‖",
+    "πει–4ρή–σε⏑αι⏑",
+    "5ἥ–",
+    "τέ⏑",
+    "τοι⏑",
+    "6αὔ–τως×",
+    "1ἧσ–ται⏑",
+    "ἐ⏑2νὶ–",
+    "με⏑γά⏑3ροι–σιν⏑‖",
+    "ὀ⏑4ϊ–ζυ–5ραὶ–",
+    "δέ⏑",
+    "οἱ⏑",
+    "6αἰ–εὶ×",
+    "1φθί–νου–2σιν–",
+    "νύκ–3τες–",
+    "τε⏑‖",
+    "καὶ⏑",
+    "4ἤ–μα⏑τα⏑",
+    "5δά–κρυ⏑",
+    "χε⏑6ού–σῃ×"
+   ]
   },
   {
    "t": "αὐτὰρ ἐγὼ τὸ μὲν οὔ ποτ’ ἀπίστεον, ἀλλ’ ἐνὶ θυμῷ\nᾔδε’, ὃ νοστήσεις ὀλέσας ἄπο πάντας ἑταίρους·",
+   "tr": "autar egō to men ou pot’ apisteon, all’ eni thymōi\nēide’, ho nostēseis olesas apo pantas hetairous·",
    "l": "But I this indeed never disbelieved, but in my heart\nknew that you would come home, having lost all your companions;",
    "i": "But I never doubted this, and in my heart I knew that you would come home, after losing all your companions;",
    "n": "Athena now says that she herself never lost faith in his homecoming. ἀπίστεον is the uncontracted imperfect of ἀπιστέω ‘disbelieve’, with τὸ μέν ‘this’ as its object. ᾔδε’ is ᾔδεα, the pluperfect of οἶδα, used as a past ‘I knew’, with the final vowel elided. ὅ is here the neuter relative used as ‘that’ (Attic ὅτι). νοστήσεις is the future of νοστέω ‘come home’, and ὀλέσας ἄπο is tmesis for ἀπολέσας ‘having lost’.",
    "v": true,
-   "ln": 339
+   "ln": 339,
+   "sc": [
+    "1αὐ–τὰρ⏑",
+    "ἐ⏑2γὼ–",
+    "τὸ⏑",
+    "μὲν⏑",
+    "3οὔ–",
+    "ποτ⏑‖",
+    "ἀ⏑4πίσ–τε⏑ον⏑",
+    "5ἀλλ–",
+    "ἐ⏑νὶ⏑",
+    "6θυ–μῷ×",
+    "1ᾔ–δε⏑",
+    "ὃ⏑",
+    "2νοσ–τή–3σεις–‖",
+    "ὀ⏑λέ⏑4σας–",
+    "ἄ⏑πο⏑",
+    "5πάν–τας⏑",
+    "ἑ⏑6ταί–ρους×"
+   ]
   },
   {
    "t": "ἀλλά τοι οὐκ ἐθέλησα Ποσειδάωνι μάχεσθαι\nπατροκασιγνήτῳ, ὅς τοι κότον ἔνθετο θυμῷ,\nχωόμενος ὅτι οἱ υἱὸν φίλον ἐξαλάωσας.",
+   "tr": "alla toi ouk ethelēsa Poseidaōni machesthai\npatrokasignētōi, hos toi koton entheto thymōi,\nchōomenos hoti hoi huion philon exalaōsas.",
    "l": "But I was not willing to fight against Poseidon,\nmy father’s brother, who against you resentment has put in his heart,\nenraged because his dear son you blinded.",
    "i": "But I did not wish to fight against Poseidon, my father’s brother, who has set resentment in his heart against you, angry because you blinded his dear son.",
    "n": "She explains why she stayed away. ἀλλά returns to the thought of lines 339–340: she knew, and yet she kept off. Ποσειδάωνι is the dative after μάχεσθαι ‘fight’, and πατροκασιγνήτῳ, ‘father’s brother’, agrees with it; she is called Zeus’s daughter at 359 and 371. ὅς is the relative ‘who’, ἔνθετο is the aorist middle of ἐντίθημι ‘put in’, without augment, and κότον is ‘resentment’. χωόμενος is the participle of χώομαι ‘be enraged’, and ἐξαλάωσας is the aorist of ἐξαλαόω ‘blind’. The last line repeats a line heard elsewhere in the poem, and it carries the same English here.",
    "v": true,
-   "ln": 341
+   "ln": 341,
+   "sc": [
+    "1ἀλ–λά⏑",
+    "τοι⏑",
+    "2οὐκ–",
+    "ἐ⏑θέ⏑3λη–σα⏑‖",
+    "Πο⏑4σει–δά–5ω–νι⏑",
+    "μά⏑6χεσ–θαι×",
+    "1πα–τρο⏑κα⏑2σι–γνή–3τῳ–‖",
+    "ὅς–",
+    "4τοι–",
+    "κό⏑τον⏑",
+    "5ἔν–θε⏑το⏑",
+    "6θυ–μῷ×",
+    "1χω–ό⏑με⏑2νος–",
+    "ὅ⏑τι⏑",
+    "3οἱ–‖",
+    "υἱ–4ὸν–",
+    "φί⏑λον⏑",
+    "5ἐ–ξα⏑λά⏑6ω–σας×"
+   ]
   },
   {
    "t": "ἀλλ’ ἄγε τοι δείξω Ἰθάκης ἕδος, ὄφρα πεποίθῃς.",
+   "tr": "all’ age toi deixō Ithakēs hedos, ophra pepoithēis.",
    "l": "But come, to you I will show the seat of Ithaca, so that you may trust.",
    "i": "But come, I will show you the site of Ithaca, so that you may be convinced.",
    "n": "ἀλλ’ ἄγε, ‘but come’, opens a new move, and τοι is ‘to you’. δείξω is the future of δείκνυμι ‘show’. ἕδος is ‘seat, abiding-place’, here the place where the land lies. πεποίθῃς is the perfect subjunctive of πείθομαι (perfect πέποιθα ‘I trust, am persuaded’), and the perfect has a present sense: ‘may be convinced’.",
    "v": true,
-   "ln": 344
+   "ln": 344,
+   "sc": [
+    "1ἀλλ–",
+    "ἄ⏑γε⏑",
+    "2τοι–",
+    "δεί–3ξω–‖",
+    "Ἰ⏑θά⏑4κης–",
+    "ἕ⏑δος⏑",
+    "5ὄ–φρα⏑",
+    "πε⏑6ποί–θῃς×"
+   ]
   },
   {
    "t": "Φόρκυνος μὲν ὅδ’ ἐστὶ λιμήν, ἁλίοιο γέροντος,\nἥδε δ’ ἐπὶ κρατὸς λιμένος τανύφυλλος ἐλαίη·",
+   "tr": "Phorkynos men hod’ esti limēn, halioio gerontos,\nhēde d’ epi kratos limenos tanyphyllos elaiē·",
    "l": "Of Phorcys this is the harbour, of the old man of the sea,\nand this, at the head of the harbour, a long-leaved olive;",
    "i": "This is the harbour of Phorcys, the old man of the sea, and this, at the head of the harbour, is a long-leaved olive;",
    "n": "Athena now points out the landmarks one by one. ὅδ’ is ‘this here’ (masculine, for the harbour λιμήν), and ἥδε is the same word in the feminine, for the olive ἐλαίη. Φόρκυνος is the genitive of Φόρκυς ‘Phorcys’, who is named by the epithet ἁλίοιο γέροντος ‘the old man of the sea’ (ἅλιος ‘of the sea’, with the genitive in -οιο). μέν looks to the δέ of the next line. ἐπὶ κρατὸς λιμένος is ‘at the head of the harbour’, with κρατός the genitive of κάρη ‘head’. τανύφυλλος is ‘long-leaved’.",
    "v": true,
-   "ln": 345
+   "ln": 345,
+   "sc": [
+    "1Φόρ–κυ–2νος–",
+    "μὲν⏑",
+    "ὅδ⏑",
+    "3ἐσ–τὶ⏑‖",
+    "λι⏑4μήν–",
+    "ἁ⏑λί⏑5οι–ο⏑",
+    "γέ⏑6ρον–τος×",
+    "1ἥ–δε⏑",
+    "δ",
+    "ἐ⏑2πὶ–",
+    "κρα–3τὸς–‖",
+    "λι⏑μέ⏑4νος–",
+    "τα⏑νύ⏑5φυλ–λος⏑",
+    "ἐ⏑6λαί–η×"
+   ]
   },
   {
    "t": "ἀγχόθι δ’ αὐτῆς ἄντρον ἐπήρατον ἠεροειδές,\nἱρὸν νυμφάων, αἳ νηϊάδες καλέονται·",
+   "tr": "anchothi d’ autēs antron epēraton ēeroeides,\nhiron nymphaōn, hai nēïades kaleontai·",
    "l": "and near it a lovely cave, misty-looking,\nsacred to the nymphs who are called Naiads;",
    "i": "and near it is a lovely, misty-looking cave sacred to the nymphs who are called Naiads;",
    "n": "The second landmark is the cave. ἀγχόθι is ‘nearby’ (ἄγχι ‘near’ + the place-suffix -θι), and αὐτῆς is ‘it’, the olive. ἐπήρατον ‘lovely’ and ἠεροειδές ‘misty-looking’ (ἠήρ ‘mist’ + -ειδής ‘looking like’) both describe ἄντρον ‘cave’. ἱρόν is the Ionic form of ἱερόν ‘sacred’, and takes the genitive νυμφάων ‘of the nymphs’ (the plural ending -άων is Attic -ῶν). αἳ … καλέονται is the uncontracted ‘who are called’, and νηϊάδες, ‘Naiads’, is the name of the water-nymphs. These two lines repeat lines heard elsewhere in the poem, and they carry the same English here.",
    "v": true,
-   "ln": 347
+   "ln": 347,
+   "sc": [
+    "1ἀγ–χό⏑θι⏑",
+    "δ",
+    "2αὐ–τῆς–",
+    "3ἄν–τρον⏑‖",
+    "ἐ⏑4πή–ρα⏑τον⏑",
+    "5ἠ–ε⏑ρο⏑6ει–δές×",
+    "1ἱ–ρὸν–",
+    "2νυμ–φά–3ων–‖",
+    "αἳ–",
+    "4νη–ϊ⏑ά⏑5δες–",
+    "κα⏑λέ⏑6ον–ται×"
+   ]
   },
   {
    "t": "τοῦτο δέ τοι σπέος ἐστὶ κατηρεφές, ἔνθα σὺ πολλὰς\nἔρδεσκες νύμφῃσι τεληέσσας ἑκατόμβας·",
+   "tr": "touto de toi speos esti katērephes, entha sy pollas\nerdeskes nymphēisi telēessas hekatombas·",
    "l": "And this to you is the cave, roofed-over, where you many\nused to offer to the nymphs complete hecatombs;",
    "i": "And this is the roofed-over cave where you used to offer the nymphs many complete hecatombs;",
    "n": "She points to the cave where he used to make offerings. τοῦτο is ‘this’, with τοι ‘to you’, and κατηρεφές is ‘roofed over’ (κατά + ἐρέφω ‘roof’). ἔρδεσκες is the iterative imperfect of ἔρδω ‘do, perform (a sacrifice)’: the suffix -σκ- gives the sense ‘used to’, and the verb has no augment. νύμφῃσι is the dative plural of νύμφη. τεληέσσας ἑκατόμβας, ‘complete hecatombs’, is the whole offering, ‘brought to completion’; a hecatomb (ἑκατόν ‘hundred’ + βοῦς ‘ox’) is a great sacrifice, nominally of a hundred oxen.",
    "v": true,
-   "ln": 349
+   "ln": 349,
+   "sc": [
+    "1τοῦ–το⏑",
+    "δέ⏑",
+    "2τοι–",
+    "σπέ⏑ος⏑",
+    "3ἐσ–τὶ⏑‖",
+    "κα⏑4τη–ρε⏑φές⏑",
+    "5ἔν–θα⏑",
+    "σὺ⏑",
+    "6πολ–λὰς×",
+    "1ἔρ–δεσ–2κες–",
+    "νύμ–3φῃ–σι⏑‖",
+    "τε⏑4λη–έσ–5σας–",
+    "ἑ⏑κα⏑6τόμ–βας×"
+   ]
   },
   {
    "t": "τοῦτο δὲ Νήριτόν ἐστιν ὄρος καταειμένον ὕλῃ.",
+   "tr": "touto de Nēriton estin oros kataeimenon hylēi.",
    "l": "And this is Neriton, a mountain clothed in forest.”",
    "i": "And this is Neriton, a mountain clothed in forest.”",
    "n": "Her list of landmarks ends with the mountain. τοῦτο is ‘this’, and Νήριτον ὄρος is ‘the mountain Neriton’. καταειμένον is the perfect passive participle of καθέννυμι ‘clothe’, so ‘clothed in’, and ὕλῃ ‘forest, woodland’ is the dative of what it is clothed in. Athena’s speech ends here, at the full stop.",
    "v": true,
-   "ln": 351
+   "ln": 351,
+   "sc": [
+    "1τοῦ–το⏑",
+    "δὲ⏑",
+    "2Νή–ρι⏑τόν⏑",
+    "3ἐσ–τιν⏑‖",
+    "ὄ⏑4ρος–",
+    "κα⏑τα⏑5ει–μέ⏑νον⏑",
+    "6ὕ–λῃ×"
+   ]
   },
   {
    "t": "ὣς εἰποῦσα θεὰ σκέδασ’ ἠέρα, εἴσατο δὲ χθών·",
+   "tr": "hōs eipousa thea skedas’ ēera, eisato de chthōn·",
    "l": "So having spoken, the goddess scattered the mist, and the land appeared;",
    "i": "So the goddess spoke, and scattered the mist, and the land appeared;",
    "n": "ὣς εἰποῦσα, ‘having so spoken’, is the aorist participle of εἶπον, and it closes the speech. σκέδασ’ is σκέδασε, the aorist of σκεδάννυμι ‘scatter’, without augment, and ἠέρα is the accusative of ἠήρ ‘mist’: the mist that Athena poured round him earlier in the book (13.189), which has kept him from knowing his own land. εἴσατο is the aorist middle of εἴδομαι, here ‘show itself, appear’, and χθών is ‘land’.",
    "p": true,
    "v": true,
-   "ln": 352
+   "ln": 352,
+   "sc": [
+    "1ὣς–",
+    "εἰ–2ποῦ–σα⏑",
+    "θε⏑3ὰ–‖",
+    "σκέ⏑δασ⏑",
+    "4ἠ–έ⏑ρα⏑",
+    "5εἴ–σα⏑το⏑",
+    "6δὲ–",
+    "χθών×"
+   ]
   },
   {
    "t": "γήθησέν τ’ ἄρ’ ἔπειτα πολύτλας δῖος Ὀδυσσεύς,\nχαίρων ᾗ γαίῃ, κύσε δὲ ζείδωρον ἄρουραν.",
+   "tr": "gēthēsen t’ ar’ epeita polytlas dios Odysseus,\nchairōn hēi gaiēi, kyse de zeidōron arouran.",
    "l": "and rejoiced then, much-enduring, heavenly Odysseus,\nrejoicing in his own land, and kissed the grain-giving plough-land.",
    "i": "Then much-enduring, heavenly Odysseus was glad, and, rejoicing in his own land, kissed the grain-giving plough-land.",
    "n": "γήθησε is the aorist of γηθέω ‘be glad’, τ’ ἄρ’ are particles that join this to what came before, and ἔπειτα is ‘then’. πολύτλας δῖος Ὀδυσσεύς is a standing name-formula: πολύτλας is ‘much-enduring’ (πολύς + the root τλα- ‘bear, endure’) and δῖος ‘heavenly’. ᾗ is the possessive ‘his own’ (dative feminine, agreeing with γαίῃ), not the relative. κύσε is the aorist of κυνέω ‘kiss’, without augment. ζείδωρον ἄρουραν, ‘grain-giving plough-land’, is a formula from ζειά ‘spelt’ (a grain) and δίδωμι ‘give’; an ancient alternative reads the first part as ‘life’, giving ‘life-giving’.",
    "v": true,
-   "ln": 353
+   "ln": 353,
+   "sc": [
+    "1γή–θη–2σέν–",
+    "τ",
+    "ἄρ⏑",
+    "ἔ⏑3πει–τα⏑‖",
+    "πο⏑4λύ–τλας–",
+    "5δῖ–ος⏑",
+    "Ὀ⏑6δυσ–σεύς×",
+    "1χαί–ρων–",
+    "2ᾗ–",
+    "γαί–3ῃ–‖",
+    "κύ⏑σε⏑",
+    "4δὲ–",
+    "ζεί–5δω–ρον⏑",
+    "ἄ⏑6ρου–ραν×"
+   ]
   },
   {
    "t": "αὐτίκα δὲ νύμφῃς ἠρήσατο, χεῖρας ἀνασχών·",
+   "tr": "autika de nymphēis ērēsato, cheiras anaschōn·",
    "l": "And at once to the nymphs he prayed, his hands raising:",
    "i": "And at once he prayed to the nymphs, raising his hands:",
    "n": "A speech-introduction. ἠρήσατο is the aorist middle of ἀράομαι ‘pray’, and ἀνασχών the aorist participle of ἀνέχω ‘hold up’. νύμφῃς is the dative plural of νύμφη, a short form of νύμφῃσι (350).",
    "v": true,
-   "ln": 355
+   "ln": 355,
+   "sc": [
+    "1αὐ–τί⏑κα⏑",
+    "2δὲ–",
+    "νύμ–3φῃς–‖",
+    "ἠ–4ρή–σα⏑το⏑",
+    "5χεῖ–ρας⏑",
+    "ἀ⏑6νασ–χών×"
+   ]
   },
   {
    "t": "νύμφαι νηϊάδες, κοῦραι Διός, οὔ ποτ’ ἐγώ γε\nὄψεσθ’ ὔμμ’ ἐφάμην·",
+   "tr": "nymphai nēïades, kourai Dios, ou pot’ egō ge\nopsesth’ ymm’ ephamēn·",
    "l": "“Nymphs, Naiads, daughters of Zeus, never I\nshould see you, I said;",
    "i": "“Nymphs, Naiads, daughters of Zeus, I never thought that I should see you;",
    "n": "His prayer opens with three titles for the nymphs, all vocative: νύμφαι, νηϊάδες ‘Naiads’ (see 348) and κοῦραι Διός ‘daughters of Zeus’. ὄψεσθ’ is ὄψεσθαι, the future infinitive of ὁράω ‘see’; ὔμμ’ is ὔμμε, Homer’s ‘you’ (plural accusative, Attic ὑμᾶς); and ἐφάμην is the imperfect middle of φημί ‘say’, which here covers ‘I thought’. οὔ ποτ’ ἐγώ γε is ‘never I, at least’.",
-   "p": true,
    "mark": "Odysseus prays",
+   "p": true,
    "v": true,
-   "ln": 356
+   "ln": 356,
+   "sc": [
+    "1νύμ–φαι–",
+    "2νη–ϊ⏑ά⏑3δες–‖",
+    "κοῦ–4ραι–",
+    "Δι⏑ός⏑",
+    "5οὔ–",
+    "ποτ⏑",
+    "ἐ⏑6γώ–",
+    "γε×",
+    "1ὄ–ψεσθ–",
+    "2ὔμμ–",
+    "ἐ⏑φά⏑3μην–‖"
+   ]
   },
   {
    "t": "νῦν δ’ εὐχωλῇς ἀγανῇσι\nχαίρετ’·",
+   "tr": "nyn d’ euchōlēis aganēisi\nchairet’·",
    "l": "but now with gentle prayers\nbe glad;",
    "i": "but now be glad of my gentle prayers;",
    "n": "νῦν δ’, ‘but now’, sets his present gratitude against the despair of the line before. εὐχωλῇς ἀγανῇσι is ‘with gentle prayers’: εὐχωλή is ‘prayer, vow’, and both words are datives plural (εὐχωλῇς is the shorter form, ἀγανῇσι the full -ῃσι). χαίρετ’ is χαίρετε, the plural imperative of χαίρω ‘be glad’; used to greet someone, it is followed here by the dative of what gives the joy.",
    "v": true,
-   "ln": 357
+   "ln": 357,
+   "sc": [
+    "νῦν–",
+    "δ",
+    "4εὐ–χω–5λῇς–",
+    "ἀ⏑γα⏑6νῇ–σι×",
+    "1χαί–ρετ⏑"
+   ]
   },
   {
    "t": "ἀτὰρ καὶ δῶρα διδώσομεν, ὡς τὸ πάρος περ,\nαἴ κεν ἐᾷ πρόφρων με Διὸς θυγάτηρ ἀγελείη\nαὐτόν τε ζώειν καί μοι φίλον υἱὸν ἀέξῃ.",
+   "tr": "atar kai dōra didōsomen, hōs to paros per,\nai ken eāi prophrōn me Dios thygatēr ageleiē\nauton te zōein kai moi philon huion aexēi.",
    "l": "but also gifts we shall give, as before indeed,\nif ready-minded the daughter of Zeus, the spoil-driver, permits\nme myself to live and my dear son makes grow.”",
    "i": "But we shall also give gifts, as in the past, if the daughter of Zeus, the driver of spoil, with a ready mind lets me live and makes my dear son grow.”",
    "n": "ἀτάρ, ‘but, and yet’, adds a promise to the greeting. διδώσομεν is the first plural future of δίδωμι ‘give’ (Attic δώσομεν). αἴ κεν is the epic εἰ ἄν ‘if’, with ἐᾷ the subjunctive of ἐάω ‘allow’, ζώειν the infinitive ‘to live’ (Attic ζῆν), and ἀέξῃ the subjunctive of ἀέξω ‘make grow’. πρόφρων is ‘ready-minded’. Διὸς θυγάτηρ ἀγελείη is Athena, who is not named: ἀγελείη is her epithet, probably from ἄγω ‘drive’ and λεία ‘booty’, so ‘driver of spoil’, though the sense is not certain. The speech ends at the full stop.",
    "v": true,
-   "ln": 358
+   "ln": 358,
+   "sc": [
+    "ἀ⏑2τὰρ–",
+    "καὶ–",
+    "3δῶ–ρα⏑‖",
+    "δι⏑4δώ–σο⏑μεν⏑",
+    "5ὡς–",
+    "τὸ⏑",
+    "πά⏑6ρος–",
+    "περ×",
+    "1αἴ–",
+    "κεν⏑",
+    "ἐ⏑2ᾷ–",
+    "πρό–3φρων–",
+    "με⏑‖",
+    "Δι⏑4ὸς–",
+    "θυ⏑γά⏑5τηρ–",
+    "ἀ⏑γε⏑6λεί–η×",
+    "1αὐ–τόν–",
+    "2τε–",
+    "ζώ–3ειν–‖",
+    "καί–",
+    "4μοι–",
+    "φί⏑λον⏑",
+    "5υἱ–ὸν⏑",
+    "ἀ⏑6έ–ξῃ×"
+   ]
   },
   {
    "t": "τὸν δ’ αὖτε προσέειπε θεὰ γλαυκῶπις Ἀθήνη·",
+   "tr": "ton d’ aute proseeipe thea glaukōpis Athēnē·",
    "l": "Him then in turn addressed the goddess, gleaming-eyed Athena:",
    "i": "Then the goddess, gleaming-eyed Athena, spoke to him in turn:",
    "n": "A whole-line reply-formula. τὸν δ’ is ‘him’, αὖτε ‘in turn, again’, and προσέειπε ‘addressed’, the aorist of πρός + εἶπον. Athena answers his prayer.",
    "p": true,
    "v": true,
-   "ln": 361
+   "ln": 361,
+   "sc": [
+    "1τὸν–",
+    "δ",
+    "αὖ–2τε–",
+    "προ⏑σέ⏑3ει–πε⏑‖",
+    "θε⏑4ὰ–",
+    "γλαυ–5κῶ–πις⏑",
+    "Ἀ⏑6θή–νη×"
+   ]
   },
   {
    "t": "θάρσει, μή τοι ταῦτα μετὰ φρεσὶ σῇσι μελόντων.",
+   "tr": "tharsei, mē toi tauta meta phresi sēisi melontōn.",
    "l": "“Take courage, let not these things be a care to you in your mind.",
    "i": "“Take courage; do not let these things weigh on your mind.",
    "n": "θάρσει is the imperative of θαρσέω ‘take courage’. μή … μελόντων is a prohibition in the third person: μελόντων is the plural imperative of μέλω ‘be a care to’, so ‘let them not be a concern’. τοι is ‘to you’, and σῇσι is the possessive σός in the epic dative plural -ῃσι, agreeing with φρεσί ‘in the mind’.",
    "mark": "Athena answers",
    "v": true,
-   "ln": 362
+   "ln": 362,
+   "sc": [
+    "1θάρ–σει–",
+    "2μή–",
+    "τοι–",
+    "3ταῦ–τα⏑‖",
+    "με⏑4τὰ–",
+    "φρε⏑σὶ⏑",
+    "5σῇ–σι⏑",
+    "με⏑6λόν–των×"
+   ]
   },
   {
    "t": "ἀλλὰ χρήματα μὲν μυχῷ ἄντρου θεσπεσίοιο\nθείμεν αὐτίκα νῦν, ἵνα περ τάδε τοι σόα μίμνῃ·",
+   "tr": "alla chrēmata men mychōi antrou thespesioio\ntheimen autika nyn, hina per tade toi soa mimnēi·",
    "l": "But the goods in the innermost part of the wondrous cave\nlet us put at once now, so that these things for you safe may remain;",
    "i": "But let us put the goods away at once, now, in the innermost part of the wondrous cave, so that they may stay safe for you;",
    "n": "χρήματα, ‘goods’, are the Phaeacian gifts (named at 369). The μέν looks to the αὐτοὶ δέ of the next line: first the goods, then ‘ourselves’. μυχῷ is the dative of μυχός ‘innermost part’, with ἄντρου θεσπεσίοιο ‘of the wondrous cave’. θείμεν is the first plural of the aorist of τίθημι, either the optative (Attic θεῖμεν) or a shortened form of the subjunctive θείομεν; either way it is an exhortation, ‘let us put’. ἵνα περ, ‘so that indeed’, takes the subjunctive μίμνῃ; σόα is the neuter plural of σόος ‘safe’ (Attic σῶς).",
    "v": true,
-   "ln": 363
+   "ln": 363,
+   "sc": [
+    "1ἀλ–λὰ–",
+    "2χρή–μα⏑τα⏑",
+    "3μὲν–‖",
+    "μυ⏑χῷ⏑",
+    "4ἄν–τρου–",
+    "5θεσ–πε⏑σί⏑6οι–ο×",
+    "1θεί–μεν–",
+    "2αὐ–τί⏑κα⏑",
+    "3νῦν–‖",
+    "ἵ⏑να⏑",
+    "4περ–",
+    "τά⏑δε⏑",
+    "5τοι–",
+    "σό⏑α⏑",
+    "6μίμ–νῃ×"
+   ]
   },
   {
    "t": "αὐτοὶ δὲ φραζώμεθ’ ὅπως ὄχ’ ἄριστα γένηται.",
+   "tr": "autoi de phrazōmeth’ hopōs och’ arista genētai.",
    "l": "and ourselves let us consider how it may turn out by far best.”",
    "i": "and let us ourselves think how it may turn out best of all.”",
    "n": "αὐτοὶ δέ answers the μέν of 363. φραζώμεθ’ is the subjunctive of φράζομαι ‘consider, plan’, used as an exhortation. ὄχ’ is ὄχα ‘by far’, which goes with the superlative ἄριστα ‘best’; γένηται is ‘may come about’. Athena’s speech ends here.",
    "v": true,
-   "ln": 365
+   "ln": 365,
+   "sc": [
+    "1αὐ–τοὶ–",
+    "2δὲ–",
+    "φρα–3ζώ–μεθ⏑‖",
+    "ὅ⏑4πως–",
+    "ὄχ⏑",
+    "ἄ⏑5ρισ–τα⏑",
+    "γέ⏑6νη–ται×"
+   ]
   },
   {
    "t": "ὣς εἰποῦσα θεὰ δῦνε σπέος ἠεροειδές,\nμαιομένη κευθμῶνας ἀνὰ σπέος·",
+   "tr": "hōs eipousa thea dyne speos ēeroeides,\nmaiomenē keuthmōnas ana speos·",
    "l": "So having spoken, the goddess went into the misty-looking cave,\nsearching out the hiding-places throughout the cave;",
    "i": "So the goddess spoke, and went into the misty-looking cave, searching out its recesses all through it;",
    "n": "The opening repeats 352, and again it closes a speech. δῦνε is a past tense of δύω ‘enter’ without augment, and takes the accusative σπέος ‘cave’. ἠεροειδές is the same ‘misty-looking’ as at 347. μαιομένη is the participle of μαίομαι ‘search out’, and κευθμῶνας are ‘hiding-places, recesses’ (from κεύθω ‘hide’); ἀνά with the accusative is ‘up and down, throughout’.",
    "p": true,
    "v": true,
-   "ln": 366
+   "ln": 366,
+   "sc": [
+    "1ὣς–",
+    "εἰ–2ποῦ–σα⏑",
+    "θε⏑3ὰ–‖",
+    "δῦ–4νε–",
+    "σπέ⏑ος⏑",
+    "5ἠ–ε⏑ρο⏑6ει–δές×",
+    "1μαι–ο⏑μέ⏑2νη–",
+    "κευ–3θμῶ–νας⏑‖",
+    "ἀ⏑4νὰ–",
+    "σπέ⏑ος⏑"
+   ]
   },
   {
    "t": "αὐτὰρ Ὀδυσσεὺς\nἆσσον πάντ’ ἐφόρει, χρυσὸν καὶ ἀτειρέα χαλκὸν\nεἵματά τ’ εὐποίητα, τά οἱ Φαίηκες ἔδωκαν.",
+   "tr": "autar Odysseus\nasson pant’ ephorei, chryson kai ateirea chalkon\nheimata t’ eupoiēta, ta hoi Phaiēkes edōkan.",
    "l": "but Odysseus\nkept carrying everything nearer, the gold and the unwearied bronze\nand clothes well-made, which the Phaeacians gave him.",
    "i": "while Odysseus kept carrying everything nearer, the gold and the unwearied bronze and the well-made clothes that the Phaeacians gave him.",
    "n": "αὐτάρ contrasts his work with hers: she searches, he carries. ἐφόρει is the imperfect of φορέω ‘carry’, ‘kept carrying’, and ἆσσον ‘nearer’ is a comparative adverb (ἄγχι ‘near’). The Phaeacian gifts are listed as gold, bronze and clothes. ἀτειρέα is the accusative of ἀτειρής ‘unwearied, not worn down’ (ἀ- + τείρω ‘wear down’). εἵματα is ‘clothes’, εὐποίητα ‘well-made’, and τά is the relative ‘which’ (neuter plural), with οἱ ‘to him’.",
    "v": true,
-   "ln": 367
+   "ln": 367,
+   "sc": [
+    "5αὐ–τὰρ⏑",
+    "Ὀ⏑6δυσ–σεὺς×",
+    "1ἆσ–σον–",
+    "2πάντ–",
+    "ἐ⏑φό⏑3ρει–‖",
+    "χρυ–4σὸν–",
+    "καὶ⏑",
+    "ἀ⏑5τει–ρέ⏑α⏑",
+    "6χαλ–κὸν×",
+    "1εἵ–μα⏑τά⏑",
+    "τ",
+    "2εὐ–ποί–3η–τα⏑‖",
+    "τά⏑",
+    "4οἱ–",
+    "Φαί–5η–κες⏑",
+    "ἔ⏑6δω–καν×"
+   ]
   },
   {
    "t": "καὶ τὰ μὲν εὖ κατέθηκε, λίθον δ’ ἐπέθηκε θύρῃσι\nΠαλλὰς Ἀθηναίη, κούρη Διὸς αἰγιόχοιο.",
+   "tr": "kai ta men eu katethēke, lithon d’ epethēke thyrēisi\nPallas Athēnaiē, kourē Dios aigiochoio.",
    "l": "And these well she laid away, and a stone set upon the doors\nPallas Athena, the daughter of aegis-bearing Zeus.",
    "i": "And Pallas Athena, the daughter of aegis-bearing Zeus, laid them away well and set a stone against the door.",
    "n": "The subject of both verbs is held back to line 371, so τὰ μέν ‘these things’ and κατέθηκε ‘laid away’ (the aorist of κατατίθημι) come before we learn who acts. ἐπέθηκε is the aorist of ἐπιτίθημι ‘put upon’, and θύρῃσι is a dative plural, ‘doors’; Greek often uses the plural for a single entrance. αἰγιόχοιο, ‘aegis-bearing’, is the epithet of Zeus; the exact sense of the compound is disputed.",
    "v": true,
-   "ln": 370
+   "ln": 370,
+   "sc": [
+    "1καὶ–",
+    "τὰ⏑",
+    "μὲν⏑",
+    "2εὖ–",
+    "κα⏑τέ⏑3θη–κε⏑‖",
+    "λί⏑4θον–",
+    "δ",
+    "ἐ⏑πέ⏑5θη–κε⏑",
+    "θύ⏑6ρῃ–σι×",
+    "1Παλ–λὰς⏑",
+    "Ἀ⏑2θη–ναί–3η–‖",
+    "κού–4ρη–",
+    "Δι⏑ὸς⏑",
+    "5αἰ–γι⏑ό⏑6χοι–ο×"
+   ]
   },
   {
    "t": "τὼ δὲ καθεζομένω ἱερῆς παρὰ πυθμέν’ ἐλαίης\nφραζέσθην μνηστῆρσιν ὑπερφιάλοισιν ὄλεθρον.",
+   "tr": "tō de kathezomenō hierēs para pythmen’ elaiēs\nphrazesthēn mnēstērsin hyperphialoisin olethron.",
    "l": "And the two, sitting down beside the trunk of the sacred olive,\nplanned for the overweening suitors destruction.",
    "i": "The two sat down by the trunk of the sacred olive and planned destruction for the overweening suitors.",
    "n": "τώ is the dual of the pronoun, ‘the two of them’ (Athena and Odysseus), and the dual runs on through the sentence: καθεζομένω is the dual participle of καθέζομαι ‘sit down’, and φραζέσθην the dual imperfect of φράζομαι ‘plan, devise’. πυθμένα is the accusative of πυθμήν ‘base, root-stock’ after παρά. ἱερῆς is ‘sacred’. μνηστῆρσιν is the dative plural of μνηστήρ ‘suitor’, and ὑπερφιάλοισιν ‘overweening’ is the epithet that goes with it.",
    "v": true,
-   "ln": 372
+   "ln": 372,
+   "sc": [
+    "1τὼ–",
+    "δὲ⏑",
+    "κα⏑2θε–ζο⏑μέ⏑3νω–‖",
+    "ἱ⏑ε⏑4ρῆς–",
+    "πα⏑ρὰ⏑",
+    "5πυ–θμέν⏑",
+    "ἐ⏑6λαί–ης×",
+    "1φρα–ζέσ–2θην–",
+    "μνησ–3τῆρ–σιν⏑‖",
+    "ὑ⏑4περ–φι⏑ά⏑5λοι–σιν⏑",
+    "ὄ⏑6λε–θρον×"
+   ]
   },
   {
    "t": "τοῖσι δὲ μύθων ἦρχε θεὰ γλαυκῶπις Ἀθήνη·",
+   "tr": "toisi de mythōn ērche thea glaukōpis Athēnē·",
    "l": "And among them of speeches made-beginning the goddess, gleaming-eyed Athena:",
    "i": "The goddess, gleaming-eyed Athena, was the first to speak among them:",
    "n": "A whole-line speech introduction. τοῖσι δέ is ‘and among them’ (the two who sit there), and μύθων ἦρχε is ‘began the speeches’: ἄρχω takes the genitive of what is begun, and μύθων is the genitive plural of μῦθος ‘speech’. It is Athena who begins the talk.",
    "v": true,
-   "ln": 374
+   "ln": 374,
+   "sc": [
+    "1τοῖ–σι⏑",
+    "δὲ⏑",
+    "2μύ–θων–",
+    "3ἦρ–χε⏑‖",
+    "θε⏑4ὰ–",
+    "γλαυ–5κῶ–πις⏑",
+    "Ἀ⏑6θή–νη×"
+   ]
   },
   {
    "t": "διογενὲς Λαερτιάδη, πολυμήχαν’ Ὀδυσσεῦ,\nφράζευ ὅπως μνηστῆρσιν ἀναιδέσι χεῖρας ἐφήσεις,\nοἳ δή τοι τρίετες μέγαρον κάτα κοιρανέουσι,\nμνώμενοι ἀντιθέην ἄλοχον καὶ ἕδνα διδόντες·",
+   "tr": "diogenes Laertiadē, polymēchan’ Odysseu,\nphrazeu hopōs mnēstērsin anaidesi cheiras ephēseis,\nhoi dē toi trietes megaron kata koiraneousi,\nmnōmenoi antitheēn alochon kai hedna didontes·",
    "l": "“Zeus-sprung son of Laertes, many-devising Odysseus,\nconsider how on the shameless suitors your hands you will lay,\nwho indeed for three years through your hall play the lord,\nwooing your godlike wife and bridal gifts giving;",
    "i": "“Zeus-born son of Laertes, Odysseus, man of many devices, think how you will lay hands on the shameless suitors, who have for three years now been lording it in your hall, wooing your godlike wife and offering her bridal gifts;",
    "n": "The first line is a vocative address with three parts: διογενές ‘Zeus-sprung’, Λαερτιάδη ‘son of Laertes’ (a patronymic), and πολυμήχανε ‘many-devising’. φράζευ is the imperative of φράζομαι ‘consider’, with ὅπως and the future ἐφήσεις: χεῖρας ἐφιέναι is ‘lay hands on’, that is, attack. ἀναιδέσι is ‘shameless’. κοιρανέουσι is the uncontracted κοιρανέω ‘act as lord’ (from κοίρανος ‘ruler’), and μέγαρον κάτα is κατὰ μέγαρον, the preposition set after its noun. τρίετες, ‘for three years’, is an adjective used for the time. In the last line, μνώμενοι is ‘wooing’, ἀντιθέην ‘godlike’ and ἕδνα ‘bridal gifts’. The last line repeats a line heard elsewhere in the poem, and it carries the same English here.",
-   "p": true,
    "mark": "Athena speaks",
+   "p": true,
    "v": true,
-   "ln": 375
+   "ln": 375,
+   "sc": [
+    "1δι–ο⏑γε⏑2νὲς–",
+    "Λα–3ερ–τι⏑ά⏑4δη–‖",
+    "πο⏑λυ⏑5μή–χαν⏑",
+    "Ὀ⏑6δυσ–σεῦ×",
+    "1φρά–ζευ⏑",
+    "ὅ⏑2πως–",
+    "μνησ–3τῆρ–σιν⏑‖",
+    "ἀ⏑4ναι–δέ⏑σι⏑",
+    "5χεῖ–ρας⏑",
+    "ἐ⏑6φή–σεις×",
+    "1οἳ–",
+    "δή–",
+    "2τοι–",
+    "τρί⏑ε⏑3τες–‖",
+    "μέ⏑γα⏑4ρον–",
+    "κά⏑τα⏑",
+    "5κοι–ρα⏑νέ⏑6ου–σι×",
+    "1μνώ–με⏑νοι⏑",
+    "2ἀν–τι⏑θέ⏑3ην–‖",
+    "ἄ⏑λο⏑4χον–",
+    "καὶ–",
+    "5ἕ–δνα⏑",
+    "δι⏑6δόν–τες×"
+   ]
   },
   {
    "t": "ἡ δὲ σὸν αἰεὶ νόστον ὀδυρομένη κατὰ θυμὸν\nπάντας μέν ῥ’ ἔλπει καὶ ὑπίσχεται ἀνδρὶ ἑκάστῳ,\nἀγγελίας προϊεῖσα, νόος δέ οἱ ἄλλα μενοινᾷ.",
+   "tr": "hē de son aiei noston odyromenē kata thymon\npantas men rh’ elpei kai hypischetai andri hekastōi,\nangelias proïeisa, noos de hoi alla menoināi.",
    "l": "but she, your homecoming always lamenting in her heart,\nall of them she keeps in hope, and makes promises to each man,\nsending out messages, but her mind intends other things.”",
    "i": "But she, always lamenting your return in her heart, keeps all of them hoping and makes promises to each man, sending out messages, but her mind is set on other things.”",
    "n": "ἡ δέ, ‘but she’, is Penelope, the ἄλοχος of 378. She is not named. ὀδυρομένη is ‘lamenting’, with νόστον ‘return’ as its object. The last two lines are a standing description of Penelope: ἔλπει is ‘makes them hope’ (a causative of ἔλπω), ὑπίσχεται ‘promises’, ἀγγελίας προϊεῖσα ‘sending out messages’ (προΐημι ‘send forward’), and the final clause sets her νόος ‘mind’ against her words: ἄλλα μενοινᾷ, ‘intends other things’ (μενοινάω ‘have in mind’). Athena’s speech ends here. The last two lines repeat a line pair heard elsewhere in the poem, and they carry the same English here.",
    "v": true,
-   "ln": 379
+   "ln": 379,
+   "sc": [
+    "1ἡ–",
+    "δὲ⏑",
+    "σὸν⏑",
+    "2αἰ–εὶ–",
+    "3νόσ–τον⏑‖",
+    "ὀ⏑4δυ–ρο⏑μέ⏑5νη–",
+    "κα⏑τὰ⏑",
+    "6θυ–μὸν×",
+    "1πάν–τας–",
+    "2μέν–",
+    "ῥ",
+    "ἔλ–3πει–‖",
+    "καὶ⏑",
+    "ὑ⏑4πίσ–χε⏑ται⏑",
+    "5ἀν–δρὶ⏑",
+    "ἑ⏑6κάσ–τῳ×",
+    "1ἀγ–γε⏑λί⏑2ας–",
+    "προ⏑ϊ⏑3εῖ–σα⏑‖",
+    "νό⏑4ος–",
+    "δέ⏑",
+    "οἱ⏑",
+    "5ἄλ–λα⏑",
+    "με⏑6νοι–νᾷ×"
+   ]
   },
   {
    "t": "τὴν δ’ ἀπαμειβόμενος προσέφη πολύμητις Ὀδυσσεύς·",
+   "tr": "tēn d’ apameibomenos prosephē polymētis Odysseus·",
    "l": "Her answering addressed many-wiled Odysseus:",
    "i": "In answer Odysseus of many wiles said to her:",
    "n": "A whole-line reply-formula. τὴν δ’ is ‘her’, ἀπαμειβόμενος ‘answering’, and προσέφη ‘said to’, the aorist of πρόσφημι. πολύμητις, ‘many-wiled’, is Odysseus’s epithet, built on πολύς and μῆτις ‘cunning’.",
    "p": true,
    "v": true,
-   "ln": 382
+   "ln": 382,
+   "sc": [
+    "1τὴν–",
+    "δ",
+    "ἀ⏑πα⏑2μει–βό⏑με⏑3νος–‖",
+    "προ⏑σέ⏑4φη–",
+    "πο⏑λύ⏑5μη–τις⏑",
+    "Ὀ⏑6δυσ–σεύς×"
+   ]
   },
   {
    "t": "ὢ πόποι, ἦ μάλα δὴ Ἀγαμέμνονος Ἀτρεΐδαο\nφθίσεσθαι κακὸν οἶτον ἐνὶ μεγάροισιν ἔμελλον,\nεἰ μή μοι σὺ ἕκαστα, θεά, κατὰ μοῖραν ἔειπες.",
+   "tr": "ō popoi, ē mala dē Agamemnonos Atreïdao\nphthisesthai kakon oiton eni megaroisin emellon,\nei mē moi sy hekasta, thea, kata moiran eeipes.",
    "l": "“Ah! Truly indeed of Agamemnon, Atreus’ son,\nan evil fate to perish in my halls I was about to,\nif you had not, goddess, told me each thing according to what is fitting.",
    "i": "“Ah, I was surely about to die in my halls the evil death of Agamemnon, son of Atreus, if you, goddess, had not told me everything as was fitting.",
    "n": "The grammar of the first two lines is unusual: the genitive Ἀγαμέμνονος Ἀτρεΐδαο depends on κακὸν οἶτον ‘evil fate’ (οἶτος ‘doom’), which is the object of φθίσεσθαι, a future infinitive. ‘To perish the evil fate of Agamemnon’ means to die as Agamemnon died, and ἐνὶ μεγάροισιν puts the death in Odysseus’s own halls. ὢ πόποι is a cry of dismay, ‘Ah’, and ἦ μάλα δή means ‘truly indeed’. ἔμελλον ‘I was about to’ takes the future infinitive. The condition εἰ μή … ἔειπες is contrary to fact: ἔειπες is Homer’s augmented aorist of εἶπον, and κατὰ μοῖραν is ‘according to what is fitting’, literally ‘according to portion’. ἕκαστα is ‘each thing’.",
    "mark": "Odysseus answers",
    "v": true,
-   "ln": 383
+   "ln": 383,
+   "sc": [
+    "1ὢ–",
+    "πό⏑ποι⏑",
+    "2ἦ–",
+    "μά⏑λα⏑",
+    "3δὴ–‖",
+    "Ἀ⏑γα⏑4μέμ–νο⏑νος⏑",
+    "5Ἀ–τρε⏑ΐ⏑6δα–ο×",
+    "1φθί–σεσ–2θαι–",
+    "κα⏑κὸν⏑",
+    "3οἶ–τον⏑‖",
+    "ἐ⏑4νὶ–",
+    "με⏑γά⏑5ροι–σιν⏑",
+    "ἔ⏑6μελ–λον×",
+    "1εἰ–",
+    "μή–",
+    "2μοι–",
+    "σὺ⏑",
+    "ἕ⏑3κασ–τα⏑‖",
+    "θε⏑4ά–",
+    "κα⏑τὰ⏑",
+    "5μοῖ–ραν⏑",
+    "ἔ⏑6ει–πες×"
+   ]
   },
   {
    "t": "ἀλλ’ ἄγε μῆτιν ὕφηνον, ὅπως ἀποτίσομαι αὐτούς·",
+   "tr": "all’ age mētin hyphēnon, hopōs apotisomai autous·",
    "l": "But come, a plan weave, how I shall exact payment from them;",
    "i": "But come, weave a plan for how I shall exact payment from them;",
    "n": "ἀλλ’ ἄγε is ‘but come’, as at 344. ὕφηνον is the aorist imperative of ὑφαίνω ‘weave’, and ‘weave a plan’ is an image for contriving one: μῆτις is ‘plan, cunning’. ὅπως ἀποτίσομαι is ‘how I shall pay back’, the future middle of ἀποτίνω ‘pay off, exact payment’, and αὐτούς, ‘them’, is the suitors.",
    "v": true,
-   "ln": 386
+   "ln": 386,
+   "sc": [
+    "1ἀλλ–",
+    "ἄ⏑γε⏑",
+    "2μῆ–τιν⏑",
+    "ὕ⏑3φη–νον⏑‖",
+    "ὅ⏑4πως–",
+    "ἀ⏑πο⏑5τί–σο⏑μαι⏑",
+    "6αὐ–τούς×"
+   ]
   },
   {
    "t": "πὰρ δέ μοι αὐτὴ στῆθι, μένος πολυθαρσὲς ἐνεῖσα,\nοἷον ὅτε Τροίης λύομεν λιπαρὰ κρήδεμνα.",
+   "tr": "par de moi autē stēthi, menos polytharses eneisa,\nhoion hote Troiēs lyomen lipara krēdemna.",
    "l": "and beside me yourself stand, putting into me much-daring strength,\nsuch as when we were loosing Troy’s sleek head-veils.",
    "i": "and stand beside me yourself, putting into me strength of great daring, such as when we were loosening Troy’s sleek head-veils.",
    "n": "πὰρ is παρά, with the last vowel lost, and πὰρ δέ μοι is ‘and beside me’. στῆθι is the aorist imperative of ἵστημι ‘stand’. ἐνεῖσα is the aorist participle of ἐνίημι ‘put into’. μένος is ‘strength’ and πολυθαρσές ‘of much daring’ (θάρσος ‘courage’); οἷον ὅτε is ‘such as when’. Τροίης λύομεν λιπαρὰ κρήδεμνα is a figure: κρήδεμνα are head-veils, and the loosing of a city’s veils is the stripping of its walls and towers; λιπαρά is ‘sleek, glistening’. Τροίης is the Ionic genitive.",
    "v": true,
-   "ln": 387
+   "ln": 387,
+   "sc": [
+    "1πὰρ–",
+    "δέ⏑",
+    "μοι⏑",
+    "2αὐ–τὴ–",
+    "3στῆ–θι⏑‖",
+    "μέ⏑4νος–",
+    "πο⏑λυ⏑5θαρ–σὲς⏑",
+    "ἐ⏑6νεῖ–σα×",
+    "1οἷ–ον⏑",
+    "ὅ⏑2τε–",
+    "Τροί–3ης–‖",
+    "λύ⏑ο⏑4μεν–",
+    "λι⏑πα⏑5ρὰ–",
+    "κρή–6δεμ–να×"
+   ]
   },
   {
    "t": "αἴ κέ μοι ὣς μεμαυῖα παρασταίης, γλαυκῶπι,\nκαί κε τριηκοσίοισιν ἐγὼν ἄνδρεσσι μαχοίμην\nσὺν σοί, πότνα θεά, ὅτε μοι πρόφρασσ’ ἐπαρήγοις.",
+   "tr": "ai ke moi hōs memauia parastaiēs, glaukōpi,\nkai ke triēkosioisin egōn andressi machoimēn\nsyn soi, potna thea, hote moi prophrass’ eparēgois.",
    "l": "If to me so eager you would stand beside, gleaming-eyed one,\neven against three hundred men I would fight\nwith you, lady goddess, whenever to me ready-minded you would help.”",
    "i": "If you would stand beside me as eager as that, gleaming-eyed one, I would fight even against three hundred men, with you, lady goddess, whenever you would help me with a ready mind.”",
    "n": "αἴ κε is the epic εἰ ἄν ‘if’, with the optative παρασταίης ‘you were to stand beside’; the main clause is a potential, καί κε … μαχοίμην ‘I would fight’. μεμαυῖα is the feminine perfect participle of μέμονα ‘be eager’, and ὣς is ‘thus’. γλαυκῶπι is the vocative of γλαυκῶπις, and πότνα θεά is ‘lady goddess’. τριηκοσίοισιν is the dative plural ‘three hundred’ (Attic τριακοσίοις) and ἄνδρεσσι the dative plural of ἀνήρ; μάχομαι takes the dative, ‘fight against’. πρόφρασσα is the feminine of πρόφρων ‘ready-minded’, and ἐπαρήγοις is the optative of ἐπαρήγω ‘help’. The speech ends at the full stop.",
    "v": true,
-   "ln": 389
+   "ln": 389,
+   "sc": [
+    "1αἴ–",
+    "κέ⏑",
+    "μοι⏑",
+    "2ὣς–",
+    "με⏑μα⏑3υῖ–α⏑‖",
+    "πα⏑4ρασ–ταί–5ης–",
+    "γλαυ–6κῶ–πι×",
+    "1καί–",
+    "κε⏑",
+    "τρι⏑2η–κο⏑σί⏑3οι–σιν⏑‖",
+    "ἐ⏑4γὼν–",
+    "ἄν–5δρεσ–σι⏑",
+    "μα⏑6χοί–μην×",
+    "1σὺν–",
+    "σοί–",
+    "2πό–τνα⏑",
+    "θε⏑3ά–‖",
+    "ὅ⏑τε⏑",
+    "4μοι–",
+    "πρό–5φρασσ–",
+    "ἐ⏑πα⏑6ρή–γοις×"
+   ]
   },
   {
    "t": "τὸν δ’ ἠμείβετ’ ἔπειτα θεὰ γλαυκῶπις Ἀθήνη·",
+   "tr": "ton d’ ēmeibet’ epeita thea glaukōpis Athēnē·",
    "l": "Him then answered the goddess, gleaming-eyed Athena:",
    "i": "Then the goddess, gleaming-eyed Athena, answered him:",
    "n": "The same reply-formula as at 329, with the same English. Athena now answers his request for her help, and the formula again names her in full, with her epithet.",
    "p": true,
    "v": true,
-   "ln": 392
+   "ln": 392,
+   "sc": [
+    "1τὸν–",
+    "δ",
+    "ἠ–2μεί–βετ⏑",
+    "ἔ⏑3πει–τα⏑‖",
+    "θε⏑4ὰ–",
+    "γλαυ–5κῶ–πις⏑",
+    "Ἀ⏑6θή–νη×"
+   ]
   },
   {
    "t": "καὶ λίην τοι ἐγώ γε παρέσσομαι, οὐδέ με λήσεις,\nὁππότε κεν δὴ ταῦτα πενώμεθα·",
+   "tr": "kai liēn toi egō ge paressomai, oude me lēseis,\nhoppote ken dē tauta penōmetha·",
    "l": "“Indeed, to be sure, I will be by your side, nor will you escape my notice,\nwhenever we shall busy ourselves with these things;",
    "i": "“Indeed I will be at your side, and you will not escape my notice, whenever we busy ourselves with these matters;",
    "n": "καὶ λίην is ‘indeed, very much’, with τοι ‘to you’ and ἐγώ γε ‘I at least’: she grants his request. παρέσσομαι is the future of πάρειμι ‘be beside’, with a doubled σ. λήσεις is the future of λανθάνω ‘escape the notice of’, so οὐδέ με λήσεις is ‘nor will you escape me’, a promise of watchfulness. ὁππότε κεν … πενώμεθα is a ‘whenever’ clause with the subjunctive of πένομαι ‘labour at, busy oneself with’; the work is the dealing with the suitors.",
    "mark": "Athena answers",
    "v": true,
-   "ln": 393
+   "ln": 393,
+   "sc": [
+    "1καὶ–",
+    "λί–2ην–",
+    "τοι⏑",
+    "ἐ⏑3γώ–",
+    "γε⏑‖",
+    "πα⏑4ρέσ–σο⏑μαι⏑",
+    "5οὐ–δέ⏑",
+    "με⏑",
+    "6λή–σεις×",
+    "1ὁπ–πό⏑τε⏑",
+    "2κεν–",
+    "δὴ–",
+    "3ταῦ–τα⏑‖",
+    "πε⏑4νώ–με⏑θα⏑"
+   ]
   },
   {
    "t": "καί τιν’ ὀΐω\nαἵματί τ’ ἐγκεφάλῳ τε παλαξέμεν ἄσπετον οὖδας\nἀνδρῶν μνηστήρων, οἵ τοι βίοτον κατέδουσιν.",
+   "tr": "kai tin’ oïō\nhaimati t’ enkephalōi te palaxemen aspeton oudas\nandrōn mnēstērōn, hoi toi bioton katedousin.",
    "l": "and some, I think,\nwith blood and brains will spatter the boundless floor\nof the men, the suitors, who eat up your livelihood.",
    "i": "And I think that some of the suitors, who are eating up your livelihood, will spatter the boundless floor with blood and brains.",
    "n": "καί τιν’ ὀΐω … παλαξέμεν is ‘and I think that some will spatter’. ὀΐω takes an accusative and a future infinitive, and τινα is the subject, qualified by the partitive genitive ἀνδρῶν μνηστήρων ‘of the men, the suitors’ in the last line. παλαξέμεν is the future infinitive of παλάσσω ‘spatter’, with the Homeric ending -έμεν (Attic -ειν); αἵματι and ἐγκεφάλῳ are datives of means. ἄσπετον, ‘boundless’, literally means ‘not to be told’, and οὖδας is the floor or ground of the hall. The relative clause οἵ τοι βίοτον κατέδουσιν is ‘who eat up your livelihood’ (κατέδουσιν is the present of κατέδω, the epic form of κατεσθίω).",
    "v": true,
-   "ln": 394
+   "ln": 394,
+   "sc": [
+    "5καί–",
+    "τιν⏑",
+    "ὀ⏑6ΐ–ω×",
+    "1αἵ–μα⏑τί⏑",
+    "τ",
+    "2ἐγ–κε⏑φά⏑3λῳ–",
+    "τε⏑‖",
+    "πα⏑4λα–ξέ⏑μεν⏑",
+    "5ἄσ–πε⏑τον⏑",
+    "6οὖ–δας×",
+    "1ἀν–δρῶν–",
+    "2μνησ–τή–3ρων–‖",
+    "οἵ–",
+    "4τοι–",
+    "βί⏑ο⏑5τον–",
+    "κα⏑τέ⏑6δου–σιν×"
+   ]
   },
   {
    "t": "ἀλλ’ ἄγε σ’ ἄγνωστον τεύξω πάντεσσι βροτοῖσι·",
+   "tr": "all’ age s’ agnōston teuxō pantessi brotoisi·",
    "l": "But come, you unknown I will make to all mortals;",
    "i": "But come, I will make you unrecognisable to all mortals;",
    "n": "ἀλλ’ ἄγε is ‘but come’ again. σ’ is σε, and ἄγνωστον, ‘unknown’, is the predicate (ἀ- + γνωστός), so τεύξω, ‘I will make’, the future of τεύχω, gives ‘I will make you unrecognisable’. πάντεσσι βροτοῖσι is a dative plural with the epic ending -εσσι.",
    "v": true,
-   "ln": 397
+   "ln": 397,
+   "sc": [
+    "1ἀλλ–",
+    "ἄ⏑γε⏑",
+    "σ",
+    "2ἄ–γνωσ–3τον–‖",
+    "τεύ–4ξω–",
+    "πάν–5τεσ–σι⏑",
+    "βρο⏑6τοῖ–σι×"
+   ]
   },
   {
    "t": "κάρψω μὲν χρόα καλὸν ἐνὶ γναμπτοῖσι μέλεσσι,\nξανθὰς δ’ ἐκ κεφαλῆς ὀλέσω τρίχας, ἀμφὶ δὲ λαῖφος\nἕσσω ὅ κε στυγέῃσιν ἰδὼν ἄνθρωπον ἔχοντα,",
+   "tr": "karpsō men chroa kalon eni gnamptoisi melessi,\nxanthas d’ ek kephalēs olesō trichas, amphi de laiphos\nhessō ho ke stygeēisin idōn anthrōpon echonta,",
    "l": "your fair skin I will wither on your pliant limbs,\nand from your head the fair hairs I will destroy, and about you a tattered cloth\nI will put, which one would loathe on seeing a man have it on,",
    "i": "I will wither the fair skin on your supple limbs, destroy the fair hair on your head, and put about you a rag that anyone would loathe to see on a man,",
    "n": "Athena lists what she will do, in the future tense, and the changes are carried out nearly in the same words at 430–433. κάρψω is the future of κάρφω ‘wither, shrivel’, and χρόα is the accusative of χρώς ‘skin’. γναμπτοῖσι μέλεσσι is ‘pliant limbs’ (γναμπτός is ‘bent, supple’). ξανθάς is ‘fair’ of hair. ὀλέσω is the future of ὄλλυμι ‘destroy’. ἀμφὶ … ἕσσω is tmesis for ‘I will clothe about’, the future of ἕννυμι. λαῖφος is ‘a tattered cloth’ (the word can also name a sail). ὅ is the neuter relative ‘which’, and κε στυγέῃσιν is the subjunctive of στυγέω ‘loathe’ with κε, ‘anyone would loathe’. The sentence runs on to the next unit, cut at the comma because it would otherwise pass four lines.",
    "v": true,
-   "ln": 398
+   "ln": 398,
+   "sc": [
+    "1κάρ–ψω–",
+    "2μὲν–",
+    "χρό⏑α⏑",
+    "3κα–λὸν⏑‖",
+    "ἐ⏑4νὶ–",
+    "γναμ–5πτοῖ–σι⏑",
+    "μέ⏑6λεσ–σι×",
+    "1ξαν–θὰς–",
+    "δ",
+    "2ἐκ–",
+    "κε⏑φα⏑3λῆς–‖",
+    "ὀ⏑λέ⏑4σω–",
+    "τρί⏑χας⏑",
+    "5ἀμ–φὶ⏑",
+    "δὲ⏑",
+    "6λαῖ–φος×",
+    "1ἕσ–σω⏑",
+    "ὅ⏑",
+    "2κε–",
+    "στυ⏑γέ⏑3ῃ–σιν⏑‖",
+    "ἰ⏑4δὼν–",
+    "ἄν–5θρω–πον⏑",
+    "ἔ⏑6χον–τα×"
+   ]
   },
   {
    "t": "κνυζώσω δέ τοι ὄσσε πάρος περικαλλέ’ ἐόντε,\nὡς ἂν ἀεικέλιος πᾶσι μνηστῆρσι φανήῃς\nσῇ τ’ ἀλόχῳ καὶ παιδί, τὸν ἐν μεγάροισιν ἔλειπες.",
+   "tr": "knyzōsō de toi osse paros perikalle’ eonte,\nhōs an aeikelios pasi mnēstērsi phanēēis\nsēi t’ alochōi kai paidi, ton en megaroisin eleipes.",
    "l": "and I will dim your eyes, which were before very fair,\nso that you may appear unseemly to all the suitors\nand to your wife and to your son, whom you left in the halls.",
    "i": "and I will dim your eyes, which were very fair before, so that you will look unseemly to all the suitors, and to your wife and to your son, whom you left in the halls.",
    "n": "κνυζώσω is ‘I will dim’, a rare verb (it comes again at 433), and its sense is taken from the context: to make the eyes dull. ὄσσε is a dual, ‘the two eyes’, and so is ἐόντε: ‘your eyes that were very fair before’ (πάρος ‘before’, περικαλλέ’ ‘very fair’). ὡς ἂν with the subjunctive φανήῃς, the aorist passive of φαίνομαι, gives purpose: ‘so that you may appear’. ἀεικέλιος, ‘unseemly’, agrees with the ‘you’ of the verb. τόν is a relative pronoun, ‘whom’, referring to παιδί, and ἔλειπες is the imperfect of λείπω ‘leave behind’.",
    "v": true,
-   "ln": 401
+   "ln": 401,
+   "sc": [
+    "1κνυ–ζώ–2σω–",
+    "δέ⏑",
+    "τοι⏑",
+    "3ὄσ–σε⏑‖",
+    "πά⏑4ρος–",
+    "πε⏑ρι⏑5καλ–λέ⏑",
+    "ἐ⏑6όν–τε×",
+    "1ὡς–",
+    "ἂν⏑",
+    "ἀ⏑2ει–κέ⏑λι⏑3ος–‖",
+    "πᾶ–4σι–",
+    "μνησ–5τῆρ–σι⏑",
+    "φα⏑6νή–ῃς×",
+    "1σῇ–",
+    "τ",
+    "ἀ⏑λό⏑2χῳ–",
+    "καὶ–",
+    "3παι–δί⏑‖",
+    "τὸν⏑",
+    "4ἐν–",
+    "με⏑γά⏑5ροι–σιν⏑",
+    "ἔ⏑6λει–πες×"
+   ]
   },
   {
    "t": "αὐτὸς δὲ πρώτιστα συβώτην εἰσαφικέσθαι,\nὅς τοι ὑῶν ἐπίουρος, ὁμῶς δέ τοι ἤπια οἶδε,\nπαῖδά τε σὸν φιλέει καὶ ἐχέφρονα Πηνελόπειαν.",
+   "tr": "autos de prōtista sybōtēn eisaphikesthai,\nhos toi hyōn epiouros, homōs de toi ēpia oide,\npaida te son phileei kai echephrona Pēnelopeian.",
    "l": "and you yourself, first of all, to the swineherd go,\nwho is guardian of the swine, and likewise kindly things knows for you,\nand your son he loves, and sound-minded Penelope.",
    "i": "And you yourself must first of all go to the swineherd, who watches over the swine, is likewise kindly disposed to you, and loves your son and sound-minded Penelope.",
    "n": "αὐτὸς δέ, ‘and you yourself’, begins her instructions for what he is to do. The infinitive εἰσαφικέσθαι, the aorist of εἰσαφικνέομαι ‘come to’, stands for an imperative, ‘go to’. The swineherd, συβώτης, is not named here. ὑῶν is the genitive plural of ὗς ‘pig’, and ἐπίουρος is ‘guardian, overseer’. ὁμῶς is ‘likewise’, and ἤπια οἶδε, ‘knows kindly things’, is an idiom for ‘has kindly thoughts’. φιλέει is the uncontracted φιλεῖ ‘loves’, and ἐχέφρονα Πηνελόπειαν is ‘sound-minded Penelope’.",
    "v": true,
-   "ln": 404
+   "ln": 404,
+   "sc": [
+    "1αὐ–τὸς–",
+    "2δὲ–",
+    "πρώ–3τισ–τα⏑‖",
+    "συ⏑4βώ–την–",
+    "5εἰ–σα⏑φι⏑6κέσ–θαι×",
+    "1ὅς–",
+    "τοι⏑",
+    "ὑ⏑2ῶν–",
+    "ἐ⏑πί⏑3ου–ρος⏑‖",
+    "ὁ⏑4μῶς–",
+    "δέ⏑",
+    "τοι⏑",
+    "5ἤ–πι⏑α⏑",
+    "6οἶ–δε×",
+    "1παῖ–δά⏑",
+    "τε⏑",
+    "2σὸν–",
+    "φι⏑λέ⏑3ει–‖",
+    "καὶ⏑",
+    "ἐ⏑4χέ–φρο⏑να⏑",
+    "5Πη–νε⏑λό⏑6πει–αν×"
+   ]
   },
   {
    "t": "δήεις τόν γε σύεσσι παρήμενον·",
+   "tr": "dēeis ton ge syessi parēmenon·",
    "l": "You will find him sitting by his swine;",
    "i": "You will find him sitting beside his swine;",
    "n": "δήεις is a rare future, ‘you will find’, and τόν γε is ‘him, that one’. σύεσσι is the dative plural of σῦς ‘pig’, the same word as ὗς, whose plural ὑῶν stands in 405, and παρήμενον is the participle of πάρημαι ‘sit beside’: he is watching them.",
    "v": true,
-   "ln": 407
+   "ln": 407,
+   "sc": [
+    "1δή–εις–",
+    "2τόν–",
+    "γε⏑",
+    "σύ⏑3εσ–σι⏑‖",
+    "πα⏑4ρή–με⏑νον⏑"
+   ]
   },
   {
    "t": "αἱ δὲ νέμονται\nπὰρ Κόρακος πέτρῃ ἐπί τε κρήνῃ Ἀρεθούσῃ,\nἔσθουσαι βάλανον μενοεικέα καὶ μέλαν ὕδωρ\nπίνουσαι, τά θ’ ὕεσσι τρέφει τεθαλυῖαν ἀλοιφήν.",
+   "tr": "hai de nemontai\npar Korakos petrēi epi te krēnēi Arethousēi,\nesthousai balanon menoeikea kai melan hydōr\npinousai, ta th’ hyessi trephei tethaluian aloiphēn.",
    "l": "and they pasture\nbeside the rock of Corax and by the spring Arethusa,\neating satisfying mast and dark water\ndrinking, which for swine nourish a flourishing fat.",
    "i": "and they graze beside the rock of Corax and by the spring Arethusa, eating satisfying mast and drinking dark water, the things that make flourishing fat grow on swine.",
    "n": "αἱ δέ is ‘and they’, the swine. νέμονται is the middle of νέμω ‘graze’. Κόρακος πέτρῃ is ‘the rock of Corax’ (πὰρ is παρά), and Ἀρεθούσῃ is the name of the spring: both are names, and κόραξ also means ‘raven’. ἔσθουσαι and πίνουσαι are feminine participles of ἔσθω ‘eat’ and πίνω ‘drink’, agreeing with αἱ; ἔσθουσαι takes βάλανον ‘mast’ (acorns and the like) with μενοεικέα ‘satisfying’, and πίνουσαι takes μέλαν ὕδωρ ‘dark water’, the two objects joined by καί across the line break. τά θ’ is τά τε, the neuter relative ‘which things’ with the epic τε, which marks a general truth. τρέφει ‘nourishes’ is singular after a neuter plural, and τεθαλυῖαν, ‘flourishing’, is the perfect participle of θάλλω ‘bloom’, applied to ἀλοιφήν ‘fat’.",
    "v": true,
-   "ln": 407
+   "ln": 407,
+   "sc": [
+    "5αἱ–",
+    "δὲ⏑",
+    "νέ⏑6μον–ται×",
+    "1πὰρ–",
+    "Κό⏑ρα⏑2κος–",
+    "πέ–3τρῃ–‖",
+    "ἐ⏑πί⏑",
+    "4τε–",
+    "κρή–5νῃ–",
+    "Ἀ⏑ρε⏑6θού–σῃ×",
+    "1ἔσ–θου–2σαι–",
+    "βά⏑λα⏑3νον–‖",
+    "με⏑νο⏑4ει–κέ⏑α⏑",
+    "5καὶ–",
+    "μέ⏑λαν⏑",
+    "6ὕ–δωρ×",
+    "1πί–νου–2σαι–",
+    "τά⏑",
+    "θ",
+    "ὕ⏑3εσ–σι⏑‖",
+    "τρέ⏑4φει–",
+    "τε⏑θα⏑5λυῖ–αν⏑",
+    "ἀ⏑6λοι–φήν×"
+   ]
   },
   {
    "t": "ἔνθα μένειν καὶ πάντα παρήμενος ἐξερέεσθαι,\nὄφρ’ ἂν ἐγὼν ἔλθω Σπάρτην ἐς καλλιγύναικα\nΤηλέμαχον καλέουσα, τεὸν φίλον υἱόν, Ὀδυσσεῦ·",
+   "tr": "entha menein kai panta parēmenos exereesthai,\nophr’ an egōn elthō Spartēn es kalligynaika\nTēlemachon kaleousa, teon philon huion, Odysseu·",
    "l": "There to stay, and, sitting by him, to ask about everything,\nuntil I go to Sparta of the fair women\nto call Telemachus, your dear son, Odysseus;",
    "i": "Stay there, sit beside him and ask him about everything, until I go to Sparta of the fair women to call Telemachus, your dear son, Odysseus;",
    "n": "ἔνθα is ‘there’, at the swineherd’s. μένειν and ἐξερέεσθαι, the infinitive of ἐξερέομαι ‘inquire thoroughly’, are infinitives standing for commands, as at 404, and παρήμενος ‘sitting beside’ agrees with the ‘you’ of the commands. ὄφρ’ ἂν with the subjunctive ἔλθω means ‘until I go’. Σπάρτην ἐς is ‘to Sparta’, the preposition set after its noun, and καλλιγύναικα is ‘of the fair women’ (καλλι- ‘fair’ + γυνή ‘woman’). καλέουσα is the uncontracted feminine participle of καλέω ‘call, summon’, giving purpose: Athena is the speaker. τεόν is σόν ‘your’.",
    "v": true,
-   "ln": 411
+   "ln": 411,
+   "sc": [
+    "1ἔν–θα⏑",
+    "μέ⏑2νειν–",
+    "καὶ–",
+    "3πάν–τα⏑‖",
+    "πα⏑4ρή–με⏑νος⏑",
+    "5ἐ–ξε⏑ρέ⏑6εσ–θαι×",
+    "1ὄφρ–",
+    "ἂν⏑",
+    "ἐ⏑2γὼν–",
+    "ἔλ–3θω–‖",
+    "Σπάρ–4την–",
+    "ἐς–",
+    "5καλ–λι⏑γύ⏑6ναι–κα×",
+    "1Τη–λέ⏑μα⏑2χον–",
+    "κα⏑λέ⏑3ου–σα⏑‖",
+    "τε⏑4ὸν–",
+    "φί⏑λον⏑",
+    "5υἱ–όν⏑",
+    "Ὀ⏑6δυσ–σεῦ×"
+   ]
   },
   {
    "t": "ὅς τοι ἐς εὐρύχορον Λακεδαίμονα πὰρ Μενέλαον\nᾤχετο πευσόμενος μετὰ σὸν κλέος, εἴ που ἔτ’ εἴης.",
+   "tr": "hos toi es eurychoron Lakedaimona par Menelaon\nōicheto peusomenos meta son kleos, ei pou et’ eiēs.",
    "l": "who to Lacedaemon of wide dancing-grounds, to Menelaus,\nhas gone, to learn after your fame, if anywhere you still were.”",
    "i": "He has gone to spacious Lacedaemon, to Menelaus, to find out about you, whether you were still alive somewhere.”",
    "n": "ὅς is the relative ‘who’ and points back to Telemachus in 413; τοι is ‘to you’ (your son). ᾤχετο is the imperfect of οἴχομαι ‘be gone’, which English renders ‘has gone’. εὐρύχορον, ‘of wide dancing-grounds’ (χορός ‘dancing-place’), is an epithet of Lacedaemon, and πὰρ Μενέλαον is ‘to Menelaus’. πευσόμενος is the future participle of πεύθομαι ‘learn’, giving purpose. μετὰ σὸν κλέος, literally ‘after your fame’, means ‘in search of news of you’. εἴ που ἔτ’ εἴης is an optative in an indirect question: ‘whether you were still anywhere’, that is, alive. Athena’s speech ends here.",
    "v": true,
-   "ln": 414
+   "ln": 414,
+   "sc": [
+    "1ὅς–",
+    "τοι⏑",
+    "ἐς⏑",
+    "2εὐ–ρύ⏑χο⏑3ρον–‖",
+    "Λα⏑κε⏑4δαί–μο⏑να⏑",
+    "5πὰρ–",
+    "Με⏑νέ⏑6λα–ον×",
+    "1ᾤ–χε⏑το⏑",
+    "2πευ–σό⏑με⏑3νος–‖",
+    "με⏑τὰ⏑",
+    "4σὸν–",
+    "κλέ⏑ος⏑",
+    "5εἴ–",
+    "που⏑",
+    "ἔτ⏑",
+    "6εἴ–ης×"
+   ]
   },
   {
    "t": "τὴν δ’ ἀπαμειβόμενος προσέφη πολύμητις Ὀδυσσεύς·",
+   "tr": "tēn d’ apameibomenos prosephē polymētis Odysseus·",
    "l": "Her answering addressed many-wiled Odysseus:",
    "i": "In answer Odysseus of many wiles said to her:",
    "n": "The same reply-formula as at 382, with the same English: Odysseus answers Athena once more, and the epithet πολύμητις ‘many-wiled’ comes round with it.",
    "p": true,
    "v": true,
-   "ln": 416
+   "ln": 416,
+   "sc": [
+    "1τὴν–",
+    "δ",
+    "ἀ⏑πα⏑2μει–βό⏑με⏑3νος–‖",
+    "προ⏑σέ⏑4φη–",
+    "πο⏑λύ⏑5μη–τις⏑",
+    "Ὀ⏑6δυσ–σεύς×"
+   ]
   },
   {
    "t": "τίπτε τ’ ἄρ’ οὔ οἱ ἔειπες, ἐνὶ φρεσὶ πάντα ἰδυῖα;",
+   "tr": "tipte t’ ar’ ou hoi eeipes, eni phresi panta iduia;",
    "l": "“Why ever then not to him did you tell it, in your mind all things knowing?",
    "i": "“Why then did you not tell him, when you know everything in your mind?",
    "n": "The question is a reproach. τίπτε is τί ποτε ‘why ever’, τ’ ἄρ’ a pair of particles, and οἱ ‘to him’ (Telemachus). ἔειπες is the same aorist as at 385. ἰδυῖα is the feminine perfect participle of οἶδα ‘know’, and πάντα is ‘all things’: Athena knows everything, so she could have told him.",
    "mark": "Odysseus answers",
    "v": true,
-   "ln": 417
+   "ln": 417,
+   "sc": [
+    "1τίπ–τε⏑",
+    "τ",
+    "ἄρ⏑",
+    "2οὔ–",
+    "οἱ⏑",
+    "ἔ⏑3ει–πες⏑‖",
+    "ἐ⏑4νὶ–",
+    "φρε⏑σὶ⏑",
+    "5πάν–τα⏑",
+    "ἰ⏑6δυῖ–α×"
+   ]
   },
   {
    "t": "ἦ ἵνα που καὶ κεῖνος ἀλώμενος ἄλγεα πάσχῃ\nπόντον ἐπ’ ἀτρύγετον·",
+   "tr": "ē hina pou kai keinos alōmenos algea paschēi\nponton ep’ atrygeton·",
    "l": "Was it that perhaps he too, wandering, might suffer pains\nover the unharvested open-sea;",
    "i": "Was it so that perhaps he too, wandering, should suffer pains over the sea that yields no harvest;",
    "n": "ἦ ἵνα, ‘was it so that’, asks about purpose, with the subjunctive πάσχῃ ‘he may suffer’; που softens it (‘perhaps’), and καὶ κεῖνος is ‘he too’, since Odysseus has been wandering. ἀλώμενος is the participle of ἀλάομαι ‘wander’. ἄλγεα πάσχῃ is ‘suffer pains’. The meaning of ἀτρύγετος is not known: the old gloss is ‘unharvested’ (ἀ- + τρυγάω ‘harvest’), hence ‘barren’. The unit ends at the ano teleia, but the question runs on in the next.",
    "v": true,
-   "ln": 418
+   "ln": 418,
+   "sc": [
+    "1ἦ–",
+    "ἵ⏑να⏑",
+    "2που–",
+    "καὶ–",
+    "3κεῖ–νος⏑‖",
+    "ἀ⏑4λώ–με⏑νος⏑",
+    "5ἄλ–γε⏑α⏑",
+    "6πάσ–χῃ×",
+    "1πόν–τον⏑",
+    "ἐπ⏑",
+    "2ἀ–τρύ⏑γε⏑3τον–‖"
+   ]
   },
   {
    "t": "βίοτον δέ οἱ ἄλλοι ἔδουσι;",
+   "tr": "bioton de hoi alloi edousi;",
    "l": "and his livelihood others eat?”",
    "i": "while others eat his livelihood?”",
    "n": "βίοτον δέ οἱ ἄλλοι ἔδουσι completes the question: οἱ is ‘his’ (a dative of possession), and ἔδουσι is the present of ἔδω ‘eat’. Odysseus’s speech ends at the question mark.",
    "v": true,
-   "ln": 419
+   "ln": 419,
+   "sc": [
+    "βί⏑ο⏑4τον–",
+    "δέ⏑",
+    "οἱ⏑",
+    "5ἄλ–λοι⏑",
+    "ἔ⏑6δου–σι×"
+   ]
   },
   {
    "t": "τὸν δ’ ἠμείβετ’ ἔπειτα θεὰ γλαυκῶπις Ἀθήνη·",
+   "tr": "ton d’ ēmeibet’ epeita thea glaukōpis Athēnē·",
    "l": "Him then answered the goddess, gleaming-eyed Athena:",
    "i": "Then the goddess, gleaming-eyed Athena, answered him:",
    "n": "The same reply-formula as at 329 and 392, with the same English. Athena answers Odysseus’s question about Telemachus, and the formula again names her in full.",
    "v": true,
-   "ln": 420
+   "ln": 420,
+   "sc": [
+    "1τὸν–",
+    "δ",
+    "ἠ–2μεί–βετ⏑",
+    "ἔ⏑3πει–τα⏑‖",
+    "θε⏑4ὰ–",
+    "γλαυ–5κῶ–πις⏑",
+    "Ἀ⏑6θή–νη×"
+   ]
   },
   {
    "t": "μὴ δή τοι κεῖνός γε λίην ἐνθύμιος ἔστω.",
+   "tr": "mē dē toi keinos ge liēn enthymios estō.",
    "l": "“Do not, then, let that man be too much on your heart.",
    "i": "“Do not let that man weigh too heavily on your heart.",
    "n": "μὴ δή τοι … ἔστω is a prohibition in the third person: ‘let him not be’. κεῖνος is that man, Telemachus, and λίην is ‘too much’. ἐνθύμιος, from ἐν + θυμός ‘heart’, is ‘on one’s heart, a matter of concern’.",
    "mark": "Athena answers",
    "v": true,
-   "ln": 421
+   "ln": 421,
+   "sc": [
+    "1μὴ–",
+    "δή–",
+    "2τοι–",
+    "κεῖ–3νός–",
+    "γε⏑‖",
+    "λί⏑4ην–",
+    "ἐν–5θύ–μι⏑ος⏑",
+    "6ἔσ–τω×"
+   ]
   },
   {
    "t": "αὐτή μιν πόμπευον, ἵνα κλέος ἐσθλὸν ἄροιτο\nκεῖσ’ ἐλθών·",
+   "tr": "autē min pompeuon, hina kleos esthlon aroito\nkeis’ elthōn·",
    "l": "I myself was escorting him, so that good fame he might win\nhaving gone there;",
    "i": "I myself was escorting him, so that he might win a good name by going there;",
    "n": "αὐτή is ‘I myself’ (feminine, since Athena speaks). πόμπευον is the imperfect of πομπεύω ‘escort, conduct’. ἵνα with the optative ἄροιτο, the aorist middle of ἄρνυμαι ‘win, gain’, gives purpose after a past tense. κλέος ἐσθλόν is ‘good fame’, and κεῖσ’ is κεῖσε ‘to that place’; ἐλθών is ‘having gone’. The journey itself is how he is to win the name.",
    "v": true,
-   "ln": 422
+   "ln": 422,
+   "sc": [
+    "1αὐ–τή–",
+    "2μιν–",
+    "πόμ–3πευ–ον⏑‖",
+    "ἵ⏑4να–",
+    "κλέ⏑ος⏑",
+    "5ἐσ–θλὸν⏑",
+    "ἄ⏑6ροι–το×",
+    "1κεῖσ–",
+    "ἐλ–2θών–"
+   ]
   },
   {
    "t": "ἀτὰρ οὔ τιν’ ἔχει πόνον, ἀλλὰ ἕκηλος\nἧσται ἐν Ἀτρεΐδαο δόμοις, παρὰ δ’ ἄσπετα κεῖται.",
+   "tr": "atar ou tin’ echei ponon, alla hekēlos\nhēstai en Atreïdao domois, para d’ aspeta keitai.",
    "l": "but no trouble does he have, but at ease\nhe sits in the house of Atreus’ son, and beside him boundless things lie.",
    "i": "but he has no trouble; he sits at ease in the house of the son of Atreus, and boundless things lie beside him.",
    "n": "ἀτάρ, ‘but’, answers the worry Odysseus voiced at 418–419. οὔ τιν’ ἔχει πόνον is ‘he has no trouble at all’, and ἕκηλος is ‘at ease’. ἧσται is the third singular of ἧμαι ‘sit’. Ἀτρεΐδαο δόμοις, ‘in the house of the son of Atreus’, is Menelaus’s house: the Greek gives only the patronymic. παρὰ δ’ ἄσπετα κεῖται is ‘and boundless things lie beside him’: παρά is adverbial, the neuter plural ἄσπετα takes a singular verb as neuter plurals often do, and the Greek does not say what the things are.",
    "v": true,
-   "ln": 423
+   "ln": 423,
+   "sc": [
+    "ἀ⏑τὰρ⏑",
+    "3οὔ–‖",
+    "τιν⏑",
+    "ἔ⏑4χει–",
+    "πό⏑νον⏑",
+    "5ἀλ–λὰ⏑",
+    "ἕ⏑6κη–λος×",
+    "1ἧσ–ται⏑",
+    "ἐν⏑",
+    "2Ἀ–τρε⏑ΐ⏑3δα–ο⏑‖",
+    "δό⏑4μοις–",
+    "πα⏑ρὰ⏑",
+    "δ",
+    "5ἄσ–πε⏑τα⏑",
+    "6κεῖ–ται×"
+   ]
   },
   {
    "t": "ἦ μέν μιν λοχόωσι νέοι σὺν νηῒ μελαίνῃ,\nἱέμενοι κτεῖναι, πρὶν πατρίδα γαῖαν ἱκέσθαι·",
+   "tr": "ē men min lochoōsi neoi syn nēï melainēi,\nhiemenoi kteinai, prin patrida gaian hikesthai·",
    "l": "Truly, they lie in ambush for him, young men, with a black ship,\neager to kill him before he reaches his fatherland;",
    "i": "Truly, young men are lying in ambush for him with a black ship, eager to kill him before he reaches his native land;",
    "n": "ἦ μέν is ‘truly’, and it brings in the danger. λοχόωσι is the uncontracted λοχῶσι from λοχάω ‘lie in ambush for’, with μιν ‘him’ as its object. νέοι, ‘young men’, are the suitors, and σὺν νηῒ μελαίνῃ is ‘with a black ship’. ἱέμενοι is the participle of ἵεμαι ‘be eager’, κτεῖναι the aorist infinitive of κτείνω ‘kill’, and πρίν with the infinitive ἱκέσθαι, the aorist of ἱκνέομαι ‘reach’, is ‘before reaching’. The second line is one heard elsewhere in the poem, and it carries the same English here.",
    "v": true,
-   "ln": 425
+   "ln": 425,
+   "sc": [
+    "1ἦ–",
+    "μέν–",
+    "2μιν–",
+    "λο⏑χό⏑3ω–σι⏑‖",
+    "νέ⏑4οι–",
+    "σὺν–",
+    "5νη–ῒ⏑",
+    "με⏑6λαί–νῃ×",
+    "1ἱ–έ⏑με⏑2νοι–",
+    "κτεῖ–3ναι–‖",
+    "πρὶν–",
+    "4πα–τρί⏑δα⏑",
+    "5γαῖ–αν⏑",
+    "ἱ⏑6κέσ–θαι×"
+   ]
   },
   {
    "t": "ἀλλὰ τά γ’ οὐκ ὀΐω, πρὶν καί τινα γαῖα καθέξει\nἀνδρῶν μνηστήρων, οἵ τοι βίοτον κατέδουσιν.",
+   "tr": "alla ta g’ ouk oïō, prin kai tina gaia kathexei\nandrōn mnēstērōn, hoi toi bioton katedousin.",
    "l": "But that I do not think will be, before the earth will hold down some\nof the men, the suitors, who eat up your livelihood.”",
    "i": "But I do not think that will happen before the earth holds down some of the suitors who are eating up your livelihood.”",
    "n": "τά γ’, ‘that, at least’, is the ambush: she does not think (οὐκ ὀΐω) it will come about. πρίν takes the future indicative καθέξει here (Attic would use the subjunctive with ἄν): ‘before the earth will hold …’. καθέξει is the future of κατέχω ‘hold down, cover’, γαῖα is the subject, and καί is a light ‘even’ that the English leaves out: before that happens, some of the suitors will lie in the ground. The last line repeats 396 word for word. Athena’s speech ends at the full stop.",
    "v": true,
-   "ln": 427
+   "ln": 427,
+   "sc": [
+    "1ἀλ–λὰ⏑",
+    "τά⏑",
+    "γ",
+    "2οὐκ–",
+    "ὀ⏑ΐ⏑3ω–‖",
+    "πρὶν–",
+    "4καί–",
+    "τι⏑να⏑",
+    "5γαῖ–α⏑",
+    "κα⏑6θέ–ξει×",
+    "1ἀν–δρῶν–",
+    "2μνησ–τή–3ρων–‖",
+    "οἵ–",
+    "4τοι–",
+    "βί⏑ο⏑5τον–",
+    "κα⏑τέ⏑6δου–σιν×"
+   ]
   },
   {
    "t": "ὣς ἄρα μιν φαμένη ῥάβδῳ ἐπεμάσσατ’ Ἀθήνη.",
+   "tr": "hōs ara min phamenē rhabdōi epemassat’ Athēnē.",
    "l": "So then, saying it, with a wand touched him Athena.",
    "i": "So Athena spoke, and touched him with her wand.",
    "n": "ὣς ἄρα … φαμένη, ‘so then saying’, is the middle participle of φημί, and it closes the speech as ὣς εἰποῦσα did at 352 and 366. ῥάβδῳ is the dative of ῥάβδος ‘wand’, and ἐπεμάσσατ’ is ἐπεμάσσατο, the aorist middle of ἐπιμάσσομαι ‘touch, stroke’. The touch works the change described in the next lines.",
    "p": true,
    "v": true,
-   "ln": 429
+   "ln": 429,
+   "sc": [
+    "1ὣς–",
+    "ἄ⏑ρα⏑",
+    "2μιν–",
+    "φα⏑μέ⏑3νη–‖",
+    "ῥάβ–4δῳ–",
+    "ἐ⏑πε⏑5μάσ–σατ⏑",
+    "Ἀ⏑6θή–νη×"
+   ]
   },
   {
    "t": "κάρψεν μὲν χρόα καλὸν ἐνὶ γναμπτοῖσι μέλεσσι,\nξανθὰς δ’ ἐκ κεφαλῆς ὄλεσε τρίχας, ἀμφὶ δὲ δέρμα\nπάντεσσιν μελέεσσι παλαιοῦ θῆκε γέροντος,\nκνύζωσεν δέ οἱ ὄσσε πάρος περικαλλέ’ ἐόντε·",
+   "tr": "karpsen men chroa kalon eni gnamptoisi melessi,\nxanthas d’ ek kephalēs olese trichas, amphi de derma\npantessin meleessi palaiou thēke gerontos,\nknyzōsen de hoi osse paros perikalle’ eonte·",
    "l": "She withered the fair skin on his pliant limbs,\nand the fair hairs from his head destroyed, and about\nall his limbs the skin of an aged old man put,\nand dimmed his eyes, which were before very fair;",
    "i": "She withered the fair skin on his supple limbs, destroyed the fair hair on his head, put the skin of a very old man about all his limbs, and dimmed his eyes, which had been very fair before;",
    "n": "These lines carry out, in the past tense and nearly in the same words, what she promised at 398–401: κάρψεν for κάρψω, ὄλεσε for ὀλέσω, κνύζωσεν for κνυζώσω. κάρψεν and ὄλεσε are aorists without augment, and Athena is the understood subject. ἀμφὶ … θῆκε is tmesis for ‘put around’ (θῆκε is the aorist of τίθημι); δέρμα ‘skin’ is its object, and παλαιοῦ γέροντος is ‘of an aged old man’ (παλαιός ‘old, aged’ strengthens γέρων). πάντεσσιν μελέεσσι is a dative plural, ‘on all his limbs’. ὄσσε and ἐόντε are duals, as at 401.",
    "v": true,
-   "ln": 430
+   "ln": 430,
+   "sc": [
+    "1κάρ–ψεν–",
+    "2μὲν–",
+    "χρό⏑α⏑",
+    "3κα–λὸν⏑‖",
+    "ἐ⏑4νὶ–",
+    "γναμ–5πτοῖ–σι⏑",
+    "μέ⏑6λεσ–σι×",
+    "1ξαν–θὰς–",
+    "δ",
+    "2ἐκ–",
+    "κε⏑φα⏑3λῆς–‖",
+    "ὄ⏑λε⏑4σε–",
+    "τρί⏑χας⏑",
+    "5ἀμ–φὶ⏑",
+    "δὲ⏑",
+    "6δέρ–μα×",
+    "1πάν–τεσ–2σιν–",
+    "με⏑λέ⏑3εσ–σι⏑‖",
+    "πα⏑4λαι–οῦ–",
+    "5θῆ–κε⏑",
+    "γέ⏑6ρον–τος×",
+    "1κνύ–ζω–2σεν–",
+    "δέ⏑",
+    "οἱ⏑",
+    "3ὄσ–σε⏑‖",
+    "πά⏑4ρος–",
+    "πε⏑ρι⏑5καλ–λέ⏑",
+    "ἐ⏑6όν–τε×"
+   ]
   },
   {
    "t": "ἀμφὶ δέ μιν ῥάκος ἄλλο κακὸν βάλεν ἠδὲ χιτῶνα,\nῥωγαλέα ῥυπόωντα, κακῷ μεμορυγμένα καπνῷ·",
+   "tr": "amphi de min rhakos allo kakon balen ēde chitōna,\nrhōgalea rhypoōnta, kakōi memorygmena kapnōi·",
    "l": "and about him another evil rag she threw, and a tunic,\ntorn, filthy, befouled with evil smoke;",
    "i": "About him she threw another vile rag and a tunic, torn and filthy, grimed with foul smoke;",
    "n": "ἀμφὶ δέ μιν … βάλεν is ‘and about him she threw’, another tmesis; βάλεν is the aorist of βάλλω without augment. ῥάκος is ‘rag’, ἄλλο ‘another’ (besides the skin), and χιτῶνα ‘tunic’. The neuter plurals ῥωγαλέα ‘torn’ and ῥυπόωντα ‘filthy’ (uncontracted, from ῥυπάω) describe both garments. μεμορυγμένα is the perfect passive participle of μορύσσω ‘befoul’, and κακῷ καπνῷ is ‘with evil smoke’.",
    "v": true,
-   "ln": 434
+   "ln": 434,
+   "sc": [
+    "1ἀμ–φὶ⏑",
+    "δέ⏑",
+    "2μιν–",
+    "ῥά⏑κος⏑",
+    "3ἄλ–λο⏑‖",
+    "κα⏑4κὸν–",
+    "βά⏑λεν⏑",
+    "5ἠ–δὲ⏑",
+    "χι⏑6τῶ–να×",
+    "1ῥω–γα⏑λέ⏑2α–",
+    "ῥυ⏑πό⏑3ων–τα⏑‖",
+    "κα⏑4κῷ–",
+    "με⏑μο⏑5ρυ–γμέ⏑να⏑",
+    "6κα–πνῷ×"
+   ]
   },
   {
    "t": "ἀμφὶ δέ μιν μέγα δέρμα ταχείης ἕσσ’ ἐλάφοιο,\nψιλόν·",
+   "tr": "amphi de min mega derma tacheiēs hess’ elaphoio,\npsilon·",
    "l": "and about him a great skin of a swift deer she put on,\nstripped bare;",
    "i": "and about him she put a great, bare skin of a swift deer;",
    "n": "ἀμφὶ δέ μιν … ἕσσ’ is ‘and about him she clothed (put on)’: ἕσσ’ is ἕσσε, the aorist of ἕννυμι, with both the person (μιν) and the thing (δέρμα) in the accusative. ταχείης ‘swift’ is feminine and agrees with ἐλάφοιο, the genitive of ἔλαφος ‘deer’. ψιλόν, ‘bare’, agrees with δέρμα; it presumably means stripped of hair, but the Greek says only ‘bare’. The unit ends at the ano teleia in mid-line.",
    "v": true,
-   "ln": 436
+   "ln": 436,
+   "sc": [
+    "1ἀμ–φὶ⏑",
+    "δέ⏑",
+    "2μιν–",
+    "μέ⏑γα⏑",
+    "3δέρ–μα⏑‖",
+    "τα⏑4χεί–ης–",
+    "5ἕσσ–",
+    "ἐ⏑λά⏑6φοι–ο×",
+    "1ψι–λόν–"
+   ]
   },
   {
    "t": "δῶκε δέ οἱ σκῆπτρον καὶ ἀεικέα πήρην,\nπυκνὰ ῥωγαλέην·",
+   "tr": "dōke de hoi skēptron kai aeikea pērēn,\npykna rhōgaleēn·",
    "l": "and she gave him a staff and an unseemly wallet,\nthickly torn;",
    "i": "and she gave him a staff and an unseemly wallet, torn in many places;",
    "n": "δῶκε is the aorist of δίδωμι without augment, and οἱ is ‘to him’. σκῆπτρον is ‘staff’ (the word can also name a king’s sceptre, but here it is something to lean on). πήρη is ‘wallet’, a bag for carrying food, and ἀεικέα is ‘unseemly’. πυκνά is an adverb, ‘thickly, in many places’, and goes with ῥωγαλέην ‘torn’. The ano teleia falls in mid-line.",
    "v": true,
-   "ln": 437
+   "ln": 437,
+   "sc": [
+    "2δῶ–κε⏑",
+    "δέ⏑",
+    "3οἱ–‖",
+    "σκῆπ–4τρον–",
+    "καὶ⏑",
+    "ἀ⏑5ει–κέ⏑α⏑",
+    "6πή–ρην×",
+    "1πυ–κνὰ–",
+    "2ῥω–γα⏑λέ⏑3ην–‖"
+   ]
   },
   {
    "t": "ἐν δὲ στρόφος ἦεν ἀορτήρ.",
+   "tr": "en de strophos ēen aortēr.",
    "l": "and on it a twisted cord was, for a strap.",
    "i": "and on it was a twisted cord to serve as a strap.",
    "n": "ἐν δέ is the adverb ‘and on it’, pointing to the wallet. στρόφος is ‘twisted cord, rope’ (from στρέφω ‘twist’), and ἀορτήρ is ‘strap’ for hanging a bag from the shoulder; the two nouns stand together, so the cord was the strap. ἦεν is Homer’s ἦν ‘was’.",
    "v": true,
-   "ln": 438
+   "ln": 438,
+   "sc": [
+    "ἐν–",
+    "4δὲ–",
+    "στρό⏑φος⏑",
+    "5ἦ–εν⏑",
+    "ἀ⏑6ορ–τήρ×"
+   ]
   },
   {
    "t": "τώ γ’ ὣς βουλεύσαντε διέτμαγεν.",
+   "tr": "tō g’ hōs bouleusante dietmagen.",
    "l": "Those two, having thus planned, parted.",
    "i": "Having made their plan, the two parted.",
    "n": "τώ γ’ is the dual ‘those two’ (Athena and Odysseus), and βουλεύσαντε is the dual aorist participle of βουλεύω ‘plan’; ὣς, ‘thus’, points back to the plan just laid. διέτμαγεν is an aorist of διατμήγω ‘cut apart, part’, a third person form agreeing with the dual subject. The full stop falls inside the line.",
    "p": true,
    "v": true,
-   "ln": 439
+   "ln": 439,
+   "sc": [
+    "1τώ–",
+    "γ",
+    "ὣς–",
+    "2βου–λεύ–3σαν–τε⏑‖",
+    "δι⏑4έ–τμα⏑γεν⏑"
+   ]
   },
   {
    "t": "ἡ μὲν ἔπειτα\nἐς Λακεδαίμονα δῖαν ἔβη μετὰ παῖδ’ Ὀδυσῆος.",
+   "tr": "hē men epeita\nes Lakedaimona dian ebē meta paid’ Odysēos.",
    "l": "She then\nto heavenly Lacedaemon went, after the son of Odysseus.",
    "i": "She then went to heavenly Lacedaemon, in search of the son of Odysseus.",
    "n": "ἡ μέν is ‘she, for her part’, Athena (ἡ is the pronoun, not the article). δῖαν is an epithet of Lacedaemon, ‘heavenly’. ἔβη is the aorist of βαίνω ‘go’, and μετὰ παῖδα with the accusative means ‘after’, here ‘in search of’. Ὀδυσῆος is the genitive of Ὀδυσσεύς with one σ, beside the double-σ forms elsewhere in this part (Ὀδυσσεύς, Ὀδυσσεῦ); the variants serve the metre.",
    "v": true,
-   "ln": 439
+   "ln": 439,
+   "sc": [
+    "5ἡ–",
+    "μὲν⏑",
+    "ἔ⏑6πει–τα×",
+    "1ἐς–",
+    "Λα⏑κε⏑2δαί–μο⏑να⏑",
+    "3δῖ–αν⏑‖",
+    "ἔ⏑4βη–",
+    "με⏑τὰ⏑",
+    "5παῖδ–",
+    "Ὀ⏑δυ⏑6σῆ–ος×"
+   ]
   }
  ]
 }

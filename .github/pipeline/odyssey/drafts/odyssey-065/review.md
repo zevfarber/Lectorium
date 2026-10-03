@@ -51,3 +51,53 @@ Method: every grammatical label in every note checked against the form in its li
 - **`i` at 370 "against the door"** for the plural θύρῃσι: the note says Greek uses the plural for a single entrance. Kept.
 - **Remembered English in `i`**: read every `i` for phrases that arrive whole ("take courage", "weigh on your mind", "lording it", "at your side", "in search of"); each is built from the case relations and the table rows, none matches a distinctive modern rendering I can identify, and nothing was changed on this ground.
 - **Note lengths**: after the edits only the note at 407 (αἱ δὲ νέμονται, 124 words) and 335 (126) approach the 130-word warn threshold; neither exceeds it.
+
+## Pass 2
+
+Method: units.json re-read afresh, unit by unit, including every edit pass 1 made (none of pass 1's edits introduced a new error in the Greek-to-`l` or `l`-to-`i` relation; the one regression found was a table clash that pass 1 left in place, γναμπτός, below). Every grammatical label in every note re-checked against the form and line; quotation marks and `mark`/`p` re-counted by script (eight speeches, each opened once and closed once, ¶ marks match the packet); line division of `l` against `t` checked by script (equal in all 63 units); repeats checked against the published parts by a 3-word n-gram search over odyssey-001..064 (not only the lines the packet flags); every `l`/`i` choice with a Greek word in a table row (conventions.md) compared with that row. Then every entry of gloss.json checked against its line(s), and the `__broaden__` entries checked by script to begin with the old entry whole, then ` · `. `t` untouched (asserted equal before and after). No major findings.
+
+### Changes made (by script, on `units.json` and `gloss.json`)
+
+| Line · field | Severity | What was wrong | What was done |
+|---|---|---|---|
+| 398, 430 · `l` | moderate | γναμπτοῖσι μέλεσσι rendered `l` "supple limbs"; the table row (11.394) fixes `l` "pliant limbs", `i` "supple limbs", and odyssey-054 ships "pliant limbs" in `l`. `i` was right. | `l` now "pliant limbs" at both places. |
+| 398 · n | minor | Gloss "supple limbs" followed the `i`, not the `l`. "Carried out in the same words at 430–433" is too strong (λαῖφος/δέρμα, ἕσσω/θῆκε differ; the 430 note already says "nearly"). | Note: "‘pliant limbs’ (γναμπτός is ‘bent, supple’)"; "carried out nearly in the same words". |
+| 422 · n | moderate | Note derived ἄροιτο from ἀείρομαι; the form is the aorist optative of ἄρνυμαι (ἀρέσθαι), which is also what gloss.json says. Note and glossary contradicted each other. | Note: "the aorist middle of ἄρνυμαι ‘win, gain’". |
+| 363 · n, gloss θείμεν | moderate | Note and gloss called θείμεν "the aorist optative … used as an exhortation". The printed form is the optative shape (Attic θεῖμεν), but an exhortation in the first person is normally a subjunctive, and θείμεν can be a shortened θείομεν (the scanner needs a lengthening licence on μεν only on the optative reading). A single parse was stated as certain. | Note: "either the optative (Attic θεῖμεν) or a shortened form of the subjunctive θείομεν; either way it is an exhortation". Gloss: "aor. 1 pl., optative (Attic θεῖμεν) or shortened subjunctive θείομεν; used as an exhortation". No metrical claim made. |
+| 335 · n | minor | "with the future πειρήσεαι … ‘before’": the form can be a short-vowel aorist subjunctive after πρίν (the glosser's first parse) or a future; note and gloss disagreed, and the `i` has "until". | Note: "πρίν γ’ ἔτι with πειρήσεαι (…; the form is a short-vowel aorist subjunctive or a future) means ‘until …’" (126 → 128 words after trimming two phrases). Gloss already lists both readings. |
+| 423 · n | minor | "ἀτάρ answers the worry of the line before": the line before (422) states the purpose of the journey; the worry is Odysseus's at 418–419. | "answers the worry Odysseus voiced at 418–419". |
+| 407 (δήεις) · n | minor | "the same word as ὗς in 405": 405 has ὑῶν, not ὗς. | "the same word as ὗς, whose plural ὑῶν stands in 405". |
+| 389 · n | minor | "ὥς is ‘thus’": the line has ὣς. | Corrected to ὣς. |
+| 427 · n | minor | "καί is ‘even’" while neither `l` nor `i` shows it (pass 1 fixed the note but left the reader to look for the word). | "καί is a light ‘even’ that the English leaves out". |
+| 333 · `i` | minor | `i` "glad and eager" for ἀσπασίως … ἵετο; the table row for ἀσπασίως fixes `i` "with joy" (`l` "gladly" was right). | `i` "would be eager with joy to see …". |
+| 383 · `i` | minor | ἕκαστα rendered `i` "each thing"; table row has `i` "everything"/"every detail" (`l` "each thing" is right). | `i` "had not told me everything as was fitting". |
+| gloss αἵματί | moderate | "epic -ι (= αἵματι with the final ι long)": there is no epic variant here; αἵματι is the ordinary dative, and the accent is the enclitic τ’'s. | "accent from the following enclitic τ’". |
+| gloss φραζέσθην | moderate | "· also pres. imper. 3 dual": the 3 dual imperative is -έσθων; -έσθην is only the imperfect (also the 2 dual). Not a real homograph. | Removed the false second reading; entry now the imperfect 3 dual only (agrees with the note). |
+| gloss παλαξέμεν | moderate | "’to be spattered’": passive, but the infinitive is active ("will spatter the floor with blood"; the note says so). | "’to spatter’ with dat. of the stain". |
+| gloss χαίρετ | moderate | Parse given as ’farewell’; the unit (and the table, χαῖρε with a dative) has "be glad" with a dative of what gives joy. | "’be glad’, with dat. of what gives joy; also a parting word ’farewell’". |
+| gloss ἀρεθούσῃ | minor | "epic -ῃ (= Attic -ᾳ)": after σ the Attic dative is also -ῃ; no dialect difference. | Dropped the false equivalence. |
+| gloss κόρακος | moderate | "Κόραξ is also the name of the rock, ’Raven Rock’": the unit, note and table row render the name ("rock of Corax") and reject "Raven Rock". | "in Κόρακος πέτρη it is a name (’the rock of Corax’), the same word as κόραξ ’raven’". |
+| gloss μάχεσθαι, μελέεσσι | minor | The word "here" in the entry. | Removed ("+ dat."; "with the stem vowel kept (μελε-)"). |
+| gloss κνυζώσω, κνύζωσεν | minor | Meaning given flat; the note says the verb is rare and the sense is taken from context. | Added "(rare; sense from context)". |
+| gloss γήθησέν | minor | "accent shifted": the accent is added, not shifted. | "extra accent from the enclitic τ’". |
+| gloss λαῖφος | minor | "sail" (the other standing sense, in the note) missing. | "(also sail)". |
+| gloss μελόντων | minor | "= Attic μελέτωσαν" implies the -όντων form is un-Attic; both are Attic. | "(also μελέτωσαν)". |
+| gloss πεποίθῃς, τεθαλυῖαν, ψιλόν | minor | "’you may be sure’" (unit: "be convinced"); "abundant" (reserved in the table for θαλερή); "(of hair)" asserts what the note says the Greek does not. | "’you may be convinced’"; "’thriving, flourishing’"; "bare, stripped". |
+| `__broaden__` αὔτως | minor | New reading "’idly’" where the note and `l`/`i` say "just so, simply". | "’simply, idly, without more ado’". |
+| `__broaden__` γέροντος | minor | Old entry names the epithet of Proteus only; ἁλίοιο γέροντος here is Phorcys. | Added " · also ἁλίοιο γέροντος of Phorcys, the same epithet …". |
+| `__broaden__` κευθμῶνας (new key) | minor | Old entry's quoted use is the pigs' "pens, sties"; this part's use is the cave's "hiding-places, recesses" (the lemma covers it but no reading shows it). | Added: old entry whole, " · also ’hiding-places, recesses’ of a cave (…)". |
+
+### Gloss entries checked and left as they are
+
+All 125 novel entries were read against the line(s) they stand in (parse true, lemma right, under 230 characters, typographic ’ only, no line numbers, no "here" after the fixes above, Attic equivalents named for the Homeric forms, article-forms as pronouns, homographs joined by " · "). Points that look wrong and are not: ἕσσ "unaugmented" (ἕσσε is the unaugmented *ϝέσσε; the augmented form is εἷσε); στυγέῃσιν "3 sg." (-ῃσιν is the Homeric 3 sg. subjunctive, not 3 pl.); πειρήσεαι (both readings listed, now agreed with the note); τεύξω, ἀποτίσομαι, ὀλέσω, ἐᾷ (second reading listed); καθέξει "fut." (the πρίν entry in `__broaden__` lists "+ fut. indic." with this very line). The other `__broaden__` entries begin with the old entry whole and their new readings are true of their lines (αἱ of the swine, αὐτή "I myself", αὐτῆς of the olive, γένηται after ὅπως, δόμοις plural for one house, κε/κέ + opt., κακῷ of smoke, κατηρεφές of a cave, μαχοίμην potential, μενοεικέα, νηϊάδες/νύμφαι/κοῦραι vocative, παῖδά "son", περικαλλέ dual, πρίν/πρὶν, πυκνὰ adverbial, τοιοῦτον, τρέφει, ἀεικέα, ἀλόχου + gen., ἄσπετον, ἐπί + dat., ἠεροειδές, ὄρος). The known forms (413) were read against their uses; the existing entries cover them (κεν/κε/ὄφρ’/ὡς/ὅπως/ὅτε/αὐτός/ὅ/τοι entries all list the construction used here).
+
+### Findings considered and refused
+
+- **Dropped τοι (341 ἀλλά τοι, 377 οἳ δή τοι, 405 ὅς τοι, 421 μὴ δή τοι)** in `l`/`i`: the word is ethic dative or particle; the glossary entry says the two are not easy to keep apart, and shipped units leave it untranslated where it adds nothing. Not changed.
+- **333 κ’ … ἵετ’, "would be eager"** (κε with the imperfect is a past or present unreal): `l`/`i` read as the present-unreal and the about says "would have hurried"; the English is acceptable for either. Not changed.
+- **394–396, `l` "floor / of the men, the suitors"** can be read as "the floor of the men": the note gives the partitive with τινα, and `l` keeps the Greek order. Same ground as pass 1's refusals on word order. Not changed.
+- **387–388 note "a figure … walls and towers"** is stated flat; it is the standing ancient reading, the table row says the same, and the note names the figure. Left.
+- **362 / 421 "weigh on your mind / heart"** (two different Greek words, same English verb): the English phrases are built from the case relations and neither is a distinctive remembered rendering. Left.
+- **351 / 360 / 415 etc. closing marks**: counted by script; each speech has exactly one “ and one ”.
+- **Metre**: no flags in the packet; the scanner run by pass 1 stands. θείμεν (364) is the only line whose scansion depends on the parse; no metrical sentence added, since no note claims one.
+- **New-renderings.md**: no row added or changed; the pass-2 `l`/`i` edits follow existing table rows (γναμπτός 11.394, ἀσπασίως 8.450, ἕκαστα 12.16) and need no new row.

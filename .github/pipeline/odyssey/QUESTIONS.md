@@ -398,3 +398,7 @@ conventions.md, runbook and validate_odyssey.py require “ ” for speech. Part
 1. Unit 340–342 spans a full stop after 340 (ἑταῖροι.). Splitting makes 340 identical in Greek to odyssey-047's unit, and the validator then forces that unit's ‘…’ English onto it, clashing with the opening “. Merged as in 059 at 271. Owner may relax the validator rule and split.
 2. δαίμων at 12.295 is "some power" (table row 6.172); shipped 10.165 says "a god". Owner may reconcile.
 3. Several words said to be unknown/uncertain in notes: νήδυμος, λαρός, τρίχα νυκτός, θοός with night, ἀμφιέλισσα.
+
+## odyssey-061 (2026-10-03)
+1. Closing ” at 12.453 closes the tale of books 9–12 (opened 9.2, reopened 11.378), giving 3 open / 4 close marks and a validator WARN. Same nested “ ” scheme as 059/060 (see the 059 quotation-mark note).
+2. 12.423 ἐπίτονος: line is metrically irregular as transmitted; noted in the unit. Several new renderings (μακρός tall/long, ἄμυδις) are context-split; see conventions.md rows.

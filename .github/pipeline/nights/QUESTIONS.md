@@ -1034,3 +1034,5 @@ Open decisions the rules do not settle. A run writes the question and what it de
 
 - **p222->p223 join (run 2026-10-02, PDF 223-230).** P202 ends with 'ربع دينار' and P203L01 begins 'فما علمتني واعطتني اياه'; reads elliptical, a clause may be missing. Not verified against the p222 image this run. Decided meanwhile: archived exactly as printed.
 - **Runbook offset.** nights/runbook.md still says printed page = PDF − 18; the archives use −20 (tool output agrees). Left runbook unchanged.
+
+- **Marks in prose (run 2026-10-03, PDF 249).** P229L14 (اف) and P229L17 (وعب) carry printed damma/kasra/shadda; the gate forbids marks in prose, so archived bare (same as the earlier shadda note).

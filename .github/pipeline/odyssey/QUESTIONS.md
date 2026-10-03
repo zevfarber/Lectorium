@@ -407,3 +407,6 @@ conventions.md, runbook and validate_odyssey.py require “ ” for speech. Part
 1. Eumaeus' speech opens at 14.80 and runs past 14.108 into odyssey-067 (no closing ” here; validator WARN is expected). Same “ ” scheme as 059–065.
 2. Line 99 (καταλέξω) is forced by the validator to odyssey-009's English ("I will tell you all of it"); the unit's note was adjusted to match.
 3. Uncertain words flagged in notes: ὑλακόμωροι, ὄπις, περίδρομος, περισκέπτῳ, ἀμφικεάσσας, ἰονθάς, μετασπών; χοίρε’ read as "piglet meat".
+
+## odyssey-066 lacks a closing quotation mark (found in the odyssey-067 run, 2026-10-03)
+Eumaeus’ speech (opened at 14.80) ends at 14.108 (`ἀποπέμπω.`); 14.109 `ὣς φάθ’` is narration. 066’s last unit (ln 107) has no closing ” in `l` or `i`, and its notes and log say the speech “runs on into 067”, which is wrong. Not changed in this run (published part; scope is one part). Fix: add ” to the end of `l` and `i` of that unit in odyssey-066.json (and its drafts/units.json) and correct the LOG line. Meanwhile 067 opens without a mark, which is correct.

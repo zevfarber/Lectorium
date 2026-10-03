@@ -402,3 +402,8 @@ conventions.md, runbook and validate_odyssey.py require “ ” for speech. Part
 ## odyssey-061 (2026-10-03)
 1. Closing ” at 12.453 closes the tale of books 9–12 (opened 9.2, reopened 11.378), giving 3 open / 4 close marks and a validator WARN. Same nested “ ” scheme as 059/060 (see the 059 quotation-mark note).
 2. 12.423 ἐπίτονος: line is metrically irregular as transmitted; noted in the unit. Several new renderings (μακρός tall/long, ἄμυδις) are context-split; see conventions.md rows.
+
+## odyssey-066 (2026-10-03)
+1. Eumaeus' speech opens at 14.80 and runs past 14.108 into odyssey-067 (no closing ” here; validator WARN is expected). Same “ ” scheme as 059–065.
+2. Line 99 (καταλέξω) is forced by the validator to odyssey-009's English ("I will tell you all of it"); the unit's note was adjusted to match.
+3. Uncertain words flagged in notes: ὑλακόμωροι, ὄπις, περίδρομος, περισκέπτῳ, ἀμφικεάσσας, ἰονθάς, μετασπών; χοίρε’ read as "piglet meat".

@@ -1060,3 +1060,5 @@ Open decisions the rules do not settle. A run writes the question and what it de
   (4) **Unpointed verse** (pp. 111–113, p. 126, and later) is vocalised editorially in the reading
   edition, with the block's `n` saying the print has no marks there (reading-conventions.md).
   (5) The Night 14 titling question above is RESOLVED by (2).
+
+- **Night 20 review (2026-10-04).** Shared-glossary entries from earlier nights that read wrongly for this night were NOT overwritten: بَعْلًا (entry says misprint of بَعْدًا; here it is 'husband', sentences 61/105), الْأَوَّلِ, حِينٍ, أَنْ (stray 'after yanbaghī'), and several بِـ entries (بِذَلِكَ, بِأَرْضِ, بِثَلَٰثَةِ, بِالْأُمُورِ, بِإِحْضَارِ) whose prefix explanation does not fit; the keys can carry only one meaning, so a deliberate sweep is needed. Also p.148 'حكاية الوزير نور الدين…' mid-line heading is kept as its own sentence; Night 20 part label names both tales.

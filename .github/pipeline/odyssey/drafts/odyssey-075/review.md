@@ -82,3 +82,66 @@ Totals: **error 7 · minor 16 · scansion note 1 · refused/kept 12**
 12. Remembered English in `i`: none detected; every distinctive phrase (“chief of men”, “of many wiles”, “trinkets”, “rogues”,
     “a raw old age”, “immense”) is a house row, and the rest was rebuilt from the case relations. Greek → `l` word by word
     done for all 59 units; l ↔ i agree in sense and force except the points above.
+
+## Pass 2 (fresh re-check of units.json; every parse in gloss.json checked against its line)
+
+`t` untouched (all 59 identical before and after; `l` line divisions, `ln`, `p`, `mark` and quotation marks re-checked and unchanged).
+Re-read all 59 units fresh: Greek → `l` → `i`, every grammatical claim in every note, `ln` against the packet, `p` against the packet's ¶,
+`mark` on each speech's first unit, and the nesting of “ ” / ‘ ’ (Eumaeus's “ from 390 stays open into odyssey-076; inner speeches 425–429,
+431–433, 435–436, 440–453 all closed). Pass 1's edits were checked and none introduced an error.
+
+Totals: **units.json 8 edits (error 0 · minor 8) · gloss.json 7 novel entries corrected, 2 `__broaden__` entries added · refused/kept 10**
+
+### Changes: units.json
+
+| line · field | severity | what was wrong | what done |
+|---|---|---|---|
+| 366 · i | minor | “took countless gifts”: the Greek μυρί’ ἕλοντο is “numberless things” (l says so); “gifts” is not in the Greek | “took countless things” |
+| 366 · n | minor | “the bride-price is understood from the context” asserted what the text does not say | “the Greek says only 'countless things', probably bride-gifts, but it does not say so” |
+| 361 · n | minor | pass 1's added gloss used typographic ‘mighty’; every other gloss in the part's notes uses ASCII single quotes | 'mighty' |
+| 409 · n | minor | “ἀγανός 'gentle' says that the death is sudden and painless” overclaims a sense the word does not carry | “suggests that the death is gentle (traditionally sudden and painless)” |
+| 430 · n | minor | τὴν δ’ αὖτε προσέειπεν called “the feminine counterpart” of the formula at 351 (it differs by the case-form τήν, an addressed woman, not by gender of the speaker) | “the formula of 351 with τήν, for a woman addressed” |
+| 437 · n | minor | “the formula ὣς φάτο for a woman speaker”: ὣς ἔφαθ’ is not specific to women | “the usual closing formula for a speech, here after a woman's”; ἔφαθ’ is ἔφατο elided before the rough breathing of οἱ |
+| 438 · n | minor | “here 'answering' only in the sense that she replies to the oath”: nobody has just addressed her; the oath is not a speech | “no one has just spoken to her, so ἀμείβετο means only that she speaks on” |
+| 446 · n | minor | “'full' (a relative of πλήρης) 'full'”: the gloss ‘full’ stood twice (pass 1 edit) | second ‘full’ removed |
+
+### Changes: gloss.json, novel entries (7)
+
+| form | what was wrong | what done |
+|---|---|---|
+| μείλιχον | “neut. nom. sg.”: in οὐ μείλιχον ἔστιν ἀκοῦσαι it is the object of ἀκοῦσαι | “neut. acc. sg., object of ἀκοῦσαι” |
+| λάθρη | “dat. fem. of λάθρη” was circular; lemma given as the Attic dative | lemma λάθρα; “adv., epic/Ionic λάθρη (= Attic λάθρᾳ), originally a dative” |
+| πολυπαίπαλοι | meaning given as “very cunning, crafty” with no flag, though the word's sense is not known (and “cunning” is reserved in the table); the part's note says it is uncertain | “very artful, crafty (sense uncertain, a traditional guess)” |
+| τροπαὶ | “(of the sun, solstices)” states as fact what the note calls uncertain | “(of the sun; sense disputed)” |
+| εὐεργὸς | meaning stated without the doubt (skilled or upright) that the note records | “well-working, skilled or perhaps upright (sense disputed)” |
+| ἀθέσφατοι | “immense, boundless” differs from the shipped ἀθέσφατος entries (“immense … traditional gloss, uncertain”) and drops the flag; “boundless” is reserved for ἀπείρων | “immense, beyond telling (traditional gloss, uncertain)” |
+| κτιμένῃ | “Eumaeus' foster-sister”: she is Anticleia's youngest child, i.e. Odysseus's sister (363–364) | “Odysseus’ sister, Laertes’ youngest daughter” |
+
+### Changes: gloss.json, `__broaden__` (2 added; the 16 existing ones checked and all stand)
+
+| form | gap in the shipped entry | added (old entry kept whole, then “ · ”) |
+|---|---|---|
+| μετὰ (400) | the unit and note read it as the adverb ‘afterwards’ (μετὰ γάρ τε καὶ ἄλγεσι τέρπεται ἀνήρ); shipped entry has only “besides, in addition” and “among them” | adverb ‘afterwards’; notes that some take it as ‘among’ with ἄλγεσι |
+| πρὶν (394) | πρὶν ὥρη has a bare noun, no infinitive, finite verb or subjunctive; none of the shipped readings covers it | “with a bare noun, the verb understood: ‘before’ (πρὶν ὥρη ‘before it is time’)” |
+
+The 16 existing `__broaden__` entries were each checked against their line: every one begins with the shipped entry unchanged, every new reading
+is true of the form where it stands (e.g. κακὸν nom. subject of ἔμπεσεν at 375; χατέουσιν finite at 376, not the participle; ἔλθοι indirect
+question at 423; φίλα object at 360; εὔχεται ‘prays’ at 353 but ‘claims’ at 425 is εὔχομαι, a separate key). Other novel entries were
+checked parse by parse and left (e.g. κτήσιος, ἐπιφράσσετ’, ἀποφθιμένη, καταλέχθαι, ἐπαληθῇ, μνωομένω, ἀνακτορίῃσιν, πλείη). All novel entries
+are under 230 characters (longest 125), use only ’ , contain no line numbers and no “here”. Known-form entries with a gap were not rewritten; the
+other ~380 known forms were each read against their occurrence and the shipped entry covers the use.
+
+### Considered and refused (pass 2)
+
+1. 424 i “her father’s” / l “of her father”: the Greek πατρός is bare, and in context it may be Eumaeus's father's house the woman points to (she
+   then says she is from Sidon). The note already says the Greek does not say whose; the English is the shipped repeat and the validator
+   requires it identical. Kept; worth a line in LOG.md as an ambiguity inherited from odyssey-046.
+2. 432 ἴδῃ: pass 1 and the shipped entry read it as middle 2 sg. (‘that you may see’); an active 3 sg. would make no sense after ἕποιο. Kept.
+3. 364 scansion note: re-scanned by hand (15 syllables, θυ- lengthened in the first long place); pass 1's sentence stands.
+4. 392 and 395 ἀθέσφατος / θυμός: house rows (“immense”; “spirit” beside κραδίη, row 8.204) followed; kept.
+5. 358 `l` “so may not die whoever …” for ὡς μὴ θάνοι ὅς τις: stiff but follows the Greek order and the optative of wish; `i` carries the sense. Kept.
+6. 408 ἐπὶ … πέλεται as tmesis: could equally be an adverb ἐπί; the note says only that the preverb stands apart, which is true either way. Kept.
+7. 363 `n` ἀχέουσά περ ἔμπης etc.: fine; the stray ἐκείνη reading of κείνη kept.
+8. 400 μετά: note already gives both readings; only the glossary lacked the adverb (fixed above).
+9. 423 `n` “The subject is the Phoenician of the previous unit”: “someone” at 420 is not named, so ‘the Phoenician’ is the right level of claim. Kept.
+10. 369 `l` “very fine” placed after “that woman”: follows the Greek order of καλὰ μάλ’; `i` is clear. Kept.

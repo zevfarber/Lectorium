@@ -18,8 +18,12 @@ run, and a run that publishes does not also transcribe.
 not re-derive the boundaries by eye. If it prints nothing, there is no complete unpublished
 night — you should not be in this runbook; go back to `runbook.md` step 0.
 
-If the table prints `ORDINAL MISMATCH`, a night formula was missed or wrongly detected. Publish
-nothing past it: record it in `QUESTIONS.md` with what you found, and transcribe instead.
+If the table prints `ORDINAL MISMATCH`, or `--next` prints `MISMATCH at night …` on stderr, a night
+formula was missed or wrongly detected (the tool parses every ordinal to a number and checks it
+against the night's position; it also refuses any unit over 400 lines). Publish nothing past it:
+record it in `QUESTIONS.md` with what you found, and transcribe instead. (2026-10-04: for five
+days `--next` printed nothing because the ordinal pattern did not know الحادية والعشرون; Nights
+20–29 sat complete and unpublished while every firing transcribed. Fixed in `nights_index.py`.)
 
 **Night 0 (`nights-frame-02`) is a special case.** It is the frame material between the pilot and
 Night 1, and it overlaps the pilot. Read `nights-frame-01.json`'s last sentence, strip its
@@ -55,7 +59,10 @@ lines; keep the printed line's words in printed order and drop the line breaks. 
 marks verse (`"v": true`), the sense unit is the verse block: set `"v": true`, keep the ` * `
 hemistich separator, and put the line breaks back as `\n`. Do not flatten verse into prose.
 Verse `t` is **copied from the archive as printed** — the edition points its verse, and that
-pointing is final (`reading-conventions.md`, "Verse is copied, not vocalised").
+pointing is final (`reading-conventions.md`, "Verse is copied, not vocalised"). Where the
+edition leaves a verse line or a whole block **unpointed** (it does, from printed p. 111 on, in
+stretches), vocalise it editorially like prose and say in `n` that the print has no marks there —
+the owner's ruling of 2026-10-04.
 
 Expect roughly 30–60 sense units for a night of ~120 archived lines.
 
@@ -136,6 +143,16 @@ under `audio/`.
 
 Add the entry to `stories.json`, beside the other nights: `id`, `title`, `titleEn`, `language`,
 `work`, `workEn`, `part`, `file`.
+
+**`part` is the line the library shows, and it is the only thing a reader sees before opening the
+night**, so it carries the night number and the tale's English name, nothing else — no page
+ranges (they live in `source`): `Night 20 · The Three Apples, continued`. Use the same `part` in
+the story file. A night that finishes one tale and begins another names both, in that order:
+`Night 14 · The Second Qalandar's Tale ends / The Third Qalandar's Tale begins`. Keep the tale
+name short and stable across nights — the name the tale's own heading gives it, not a summary of
+what happens — and add `, continued` when a night picks a tale up mid-way. The frame story is
+`Prologue · King Shahriyār and His Brother`. Decided by the owner 2026-10-04; the 21 earlier
+entries were relabelled that day.
 
 ## 7. Gate
 

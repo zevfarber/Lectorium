@@ -1,0 +1,36 @@
+name: Scan Latin verse
+
+# Added 2026-10-04: fills the Scansion overlay (`sc`) on every Latin hexameter story — Ovid's
+# Metamorphoses now, Virgil later — with .github/scripts/scan_latin.py. Dispatch only; re-run after
+# new Latin verse lands. Units with a line that fits no hexameter get no `sc` (listed in the report).
+
+on:
+  workflow_dispatch:
+    inputs:
+      files:
+        description: 'Story files (shell glob)'
+        required: true
+        default: 'ovid-met-*.json pyramus-thisbe.json'
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Scan
+        run: python3 .github/scripts/scan_latin.py ${{ github.event.inputs.files }} --write --report .github/pipeline/latin-scan-report.txt
+      - name: Commit
+        run: |
+          git config user.name "lectorium-scan-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A -- '*.json' .github/pipeline/latin-scan-report.txt
+          git diff --cached --quiet && exit 0
+          git commit -m "Latin scansion: sc for ${{ github.event.inputs.files }}"
+          for a in 1 2 3 4 5; do git push && exit 0; git pull --rebase origin main; sleep $((a*5)); done
+          exit 1

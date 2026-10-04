@@ -422,3 +422,10 @@ Eumaeus’ speech (opened at 14.80) ends at 14.108 (`ἀποπέμπω.`); 14.10
 2. 15.56 ὣς ἔφατ’ (Peisistratus) repeats 10.541 and must carry the shipped "So she spoke" (validator forces identical English); the note tells the reader to read "he". Same remedy as odyssey-055 item 2. Owner may fix the wording at 10.541.
 3. ὑπερφιάλους at 15.12 is "overbearing", repeating shipped 3.315 (odyssey-012), against the table's "overweening" (rows 6.274, 9.106) which keeps "overbearing" for ὑπερηνορέοντες. Left as shipped; owner may reconcile.
 4. Menelaus's speech is closed with ” at 15.85 (the Greek reads as complete and a paragraph break follows). If 072 continues it, remove that ”.
+
+## odyssey-074 (2026-10-04)
+1. Theoclymenus’ speech ends at 15.264 (`πόθι τοι πόλις ἠδὲ τοκῆες;`), but the validator forces this unit to repeat shipped odyssey-002/048/067 English exactly, which has no closing ”. So the ” is omitted on this unit (note says so); validator WARN 7 open / 6 close is expected. Same remedy as odyssey-055 item 2. Owner may fix by adding ” in the shipped units’ rule or accept.
+2. κῆρα μέλαιναν (15.275) is “death-fate” per the later table rows; shipped 007 and 011 read “death and black doom”. Owner may reconcile.
+3. ἐσσυμένως “eagerly”, φιλήσεαι “welcomed”, σίτου “food” (vs shipped 9.8 “bread and meats”): kept as drafted; see review.md.
+4. The note at 15.260 is 141 words (band 25–110), left as it carries the speech-continuation explanation.
+5. The LOG line above was written from the draft’s `about`; the unit-level details are in drafts/odyssey-074/drafter-notes.md and review.md (17 drafter open points).

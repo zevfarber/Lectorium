@@ -51,3 +51,53 @@ Mechanical checks run: l and `t` have the same number of lines in every unit and
 - **15.264a note on εἶς / εἰς.** The edition prints εἶς; the note is clumsy but not false. Kept.
 - **Glossary.** `known-forms.json` and `novel-forms.json` are outside this pass; the form ὑπαλευάμενος in the novel list is unchanged by the lemma correction in the note.
 - Title Φυγὰς καὶ πτωχός ("Exile and Beggar"), English name, `v`, `ln` of every unit, and the placement of all mid-line cuts (273, 278, 281, 286, 288, 302, 311, 327, 333, 335) checked and kept.
+
+# Pass 2 of 2 (fresh adversarial pass, including gloss.json)
+
+Order followed: note labels, claims and cross-references; Greek to `l` word by word; `l` against `i`; remembered English in `i`; quotation marks (last unit of /home/user/Lectorium/odyssey-073.json checked again: no mark, and it says the opening mark of Theoclymenus's speech is printed in this part, as 260 does); house renderings and repeated lines against the packet and against every shipped part odyssey-001…073 (by a run-matching script, not by the packet: every unit and every half-line of three or more words shared with a shipped unit was listed and compared); pass 1's 24 changes re-read for new errors (none found; the 15.296 full stops, "Epeans", "news", "rival", ὕβρις "insolence", and the 264b `l` all agree with the shipped parts). `t` untouched (asserted unit by unit against the pre-pass copy; the units' `t` joined, whitespace-normalised, still equal packet lines 260–350). No `tr`/`sc` in the file. Edits applied by script (asserted single-occurrence replacement, `ensure_ascii=False, indent=1`). 26 changes in all: 0 high, 6 medium, 20 low (10 rows in units.json touching 11 fields, 16 forms in gloss.json; see tables). Whole-unit repeats (264a, 264b, 265, 266, 279, 287–288a, 296, 341 pair) re-verified identical to the shipped `l` and `i` apart from the opening/closing quotation mark. `new-renderings.md` updated (15.325 row).
+
+## Changes: units.json
+
+| line | field | sev | what was wrong | what I did |
+|---|---|---|---|---|
+| 15.260 | l | medium | κιχάνω is "come upon" in `l` wherever shipped (064 line 228, the same half-line ὦ φίλ’, ἐπεί σε … κιχάνω τῷδ’ ἐνὶ χώρῳ: "since you first I come upon in this place"; 073 ἐκίχανεν "came upon"); the draft had "find you" in `l`. | "since sacrificing I come upon you in this place". `i` keeps "find" as in 064. |
+| 15.347–350 | l, i | medium | "in the halls of Hades" for εἰν Ἀΐδαο δόμοισι; the same half-line is shipped at 021 (line 831, "in the house of Hades" in both layers) and 053 (line 210, "Hades’ (house)"). | "in the house of Hades" in both layers. |
+| 15.282 | l | low | ἐδέξατο is "received" in `l` in every shipped part (002 line 120 for this very phrase ἐδέξατο χάλκεον ἔγχος, 026, 037, 067, 072); the draft had "took". | "from him he received the bronze spear". `i` ("took … from him") kept, as in 067 and 072. |
+| 15.325 | l | low | The speech-introduction was built from the shipped τὸν δὲ μέγ’ ὀχθήσας προσέφη (014 line 30, 017 line 332: "Him then, greatly vexed, addressed …"), but opened "And him". | "Him then, greatly vexed, you addressed, Eumaeus the swineherd:"; row in new-renderings.md changed. |
+| 15.326 | i | low | νόημα in the half-line ἐνὶ φρεσὶ τοῦτο νόημα ἔπλετο is "notion" in the shipped `i` (008 line 363). | "why has this notion come into your mind?" |
+| 15.333 | l | low | σίτου καὶ κρειῶν is "food and meats" in the shipped `l` (039 line 7, 070 line 454); the draft had "meat". `i` ("food and meat", as 070) kept. | "with food and meats and wine are weighed down." |
+| 15.269 | l | low | πευσόμενος πατρὸς δὴν οἰχομένοιο is "to learn of … father, long gone" at 003 line 280. | "to learn of my father, long gone." |
+| 15.272 (unit 9) | n | low | "κατακτάς … in its epic form (Attic κατακτείνας)": the form is the short-stem (athematic) aorist participle, and the gloss says κατακτανών; the note and gloss disagreed. | "the short-stem aorist participle of κατακτείνω 'kill' (the Attic equivalent is κατακτανών)". |
+| 15.329 | n | low | The explanation said "outrage" after pass 1 had made both layers "insolence". | "insolence and violence". |
+| 15.331 | n | low | λιπαρός glossed "sleek, glossy": "glossy" is on the table's avoided list for this word. | "'sleek' (as if rubbed with oil)". |
+
+## Changes: gloss.json
+
+| form | sev | what was wrong | what I did |
+|---|---|---|---|
+| δρηστοσύνῃ | medium | "Ionic η (= Attic -α)": false; nouns in -σύνη keep η in Attic. | removed the claim. |
+| πλαγκτοσύνης | medium | "Ionic η" for the same reason. | removed. |
+| κοτύλην | medium | "Ionic η (= Attic -α)": Attic κοτύλη has η after λ. | removed. |
+| ἄλη | medium | "Ionic η": Attic ἄλη has η after λ. | removed. |
+| __broaden__ τῶν | low | The known entry has "of them", article-like and distributive uses only; 15.329 (τῶν ὕβρις τε βίη τε … ἵκει) is relative "of whom, whose", which the note itself says. | broadened: old entry whole + " · also relative ὅς, ἥ, ὅ: gen. pl. ’of whom, whose’ (…)". |
+| __broaden__ ὑπὲρ | low | the new reading's gloss was "by the sacrifices and the god", against `l` "by a power". | ’by the sacrifices and a power’. |
+| __broaden__ ἀγαθοῖσι | low | "the good (masters)": nothing in the line says masters. | "(men of rank)", as the note. |
+| __broaden__ μοι | low | the example quoted ’who are mine’ and glossed it ’who are with me’. | ’who are mine’. |
+| ἀνιᾶται | low | quoted ’is vexed’; "vexed" is kept for ὀχθέω, the unit has "distressed". | ’is distressed’. |
+| κατατρύχω | low | quoted ’so that I not wear out’ (not English). | ’so that I may not wear out’. |
+| ἐπαιγίζοντα, δανὰ | low | the notes say the sense is uncertain; the entries did not. | "(sense uncertain)" added. |
+| ὄπασσον, τάνυσεν, βοεῦσι | low | ὄπασσον had no Attic equivalent; τάνυσεν missed "unaugmented"; βοεῦσι gave "(= Attic βοεῦσι)", the same form (the shipped βοεῦσιν entry has none). | "(= Attic ὄπασον)"; "epic, unaugmented"; equivalent removed. |
+
+Every one of the 88 new entries and 17 broadened entries was read against each line where the form stands (parse, case, agreement, the sense used in the line); entries not named above are right. The 17 `__broaden__` entries each begin with the shipped entry whole (checked against odyssey-glossary.json itself, not only known-forms.json); the new entries are all under 230 characters with typographic ’ only, no line numbers, no "here". The known forms were also checked against their uses here (about 300 forms): the only use not covered was τῶν (above).
+
+## Findings considered and refused
+
+- **15.275 κῆρα μέλαιναν.** The same half-line θάνατον καὶ κῆρα μέλαιναν is shipped at 007 (line 283) and 011 (line 241) as "death and black doom" in both layers, while 058 line 156 has "death and the death-spirit". The table's own rows (κὴρ θανάτοιο, "doom" reserved for πότμος; ἔκφυγε κῆρα "escaped death-fate") were written after 007 and 011 and govern the later parts; the draft follows them ("black death-fate" / "the black spirit of death"). Left; the shipped parts 007 and 011 are the ones out of line, for the owner.
+- **15.288 ἐσσυμένως "eagerly".** Shipped `l` elsewhere is "hurriedly" / "hastily" (039, 069); the known glossary entry reads "hastily, eagerly" and "eagerly" is a sense of the participle (cf. ἐσσύμενον "eager", 017). Kept.
+- **15.281 φιλήσεαι "welcomed".** Shipped 002 line 123 has "befriended"/"treated as a friend" for the same form, but the table row for φιλέω of a host is "welcomes" and φιλέοι 15.305 is the same verb; the contexts differ (a promise of entertainment, not a greeting). Kept.
+- **15.317 σφίσιν "among them".** The broadened entry says "not reflexive"; the suitors are also the subject of ἐθέλοιεν, so a reflexive reading is possible; the rendering is the same either way. Kept.
+- **15.272 τοι "you see".** The note takes τοι as the particle; the known entry says the two are not easy to keep apart; the rendering "you see" is harmless. Kept.
+- **15.280 ἐΐσης note "it means 'even, equal'".** Slightly self-contradictory beside "sense not certain", but not false (the root sense is stated, the application to a ship is what is uncertain). Kept.
+- **15.267 note "the next unit goes further" / εἴ ποτ’ ἔην.** Reading is defensible. Kept.
+- **Pass 1's refusals** (open points 2, 4, 5, 6, 8–11, 13, 14; 15.333 σίτου καὶ κρειῶν beyond the `l` plural now aligned; 15.276 νύ; 15.343) re-examined; no reason found to reverse any.
+- No metrical flag in the packet; none scanned by hand.

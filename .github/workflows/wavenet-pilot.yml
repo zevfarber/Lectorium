@@ -1,0 +1,41 @@
+name: WaveNet pilot (Greek, Google WaveNet voice)
+
+# Pilot only, 2026-10-04: re-speaks the existing Greek pins (audio/<id>/texts.json) with a Google
+# WaveNet voice into audio-pilot/wavenet/, for a side-by-side listen with Voice A. Dispatch only.
+
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: 'Story ids, space separated'
+        required: true
+        default: 'odyssey-001 aesop-001'
+      voice:
+        description: 'Google WaveNet voice'
+        required: true
+        default: 'de-DE-Wavenet-B'
+
+permissions:
+  contents: write
+
+jobs:
+  wavenet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Synthesize
+        env:
+          GOOGLE_TTS_KEY: ${{ secrets.GOOGLE_TTS_KEY }}
+        run: python3 .github/scripts/wavenet_pilot.py "${{ github.event.inputs.voice }}" ${{ github.event.inputs.ids }}
+      - name: Commit
+        run: |
+          git config user.name "lectorium-audio-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add audio-pilot/
+          git diff --cached --quiet && exit 0
+          git commit -m "WaveNet pilot clips for ${{ github.event.inputs.ids }} [skip ci]"
+          for a in 1 2 3 4 5; do git push && exit 0; git pull --rebase origin main; sleep $((a*5)); done
+          exit 1

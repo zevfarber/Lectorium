@@ -8,7 +8,10 @@ language and reader conventions recorded in the project doc `arabic-nights-conve
 William Hay Macnaghten, ed., *The Alif Laila, or Book of the Thousand Nights and One Night*,
 vol. 1, Calcutta 1839 ("Calcutta II"). Public domain. The scan is archive.org
 `aliflailaorbooko01macn`, 300 ppi, 938 PDF pages; the Arabic text begins at PDF page 19 =
-printed page 1, so **printed page = PDF page − 18**. The archive.org OCR is unusable; the page
+printed page 1, so **printed page = PDF page − 18** up to PDF page 47 — the scan then carries two
+duplicate leaves (PDF 48–49 repeat printed pp. 28–29), so **from PDF page 50 on, printed page =
+PDF page − 20**; read each page's own printed header number rather than trusting either formula
+(see QUESTIONS.md, 2026-09-17). The archive.org OCR is unusable; the page
 images are the only source. Every printed edition of the Nights is the late Egyptian recension
 (ZER), not a medieval text; that is stated to the reader in the translation phase, not here.
 
@@ -21,8 +24,15 @@ Nothing is normalised, repaired, vocalised or emended.
 
 ## Transcription rules (the same ones every prompt states)
 
-- **Prose is the bare rasm**: no vowel marks, no sukūn, no shadda, no tanwīn — the edition
-  prints none, and the reader app's "bare" state is defined as the archive text.
+- **Prose is the bare rasm, plus whatever mark the print itself puts there.** The edition prints
+  its prose essentially unpointed, so almost every prose line has no vowel marks, no sukūn, no
+  shadda, no tanwīn. But now and then it does set a mark on a prose word (a shadda on عليّ or
+  وسّطها, a damma or kasra on a short word), and **those are transcribed as printed** — the owner's
+  ruling of 2026-10-04: the archive records every mark the print has. A mark on a prose word is
+  kept only when it is unmistakable on the image; a faint or doubtful one goes to the adjudicator
+  like any other dispute, and ink noise is not a mark. (Until 2026-10-04 the rule stripped every
+  mark from prose; the words so stripped are listed in QUESTIONS.md for a transcribing run to
+  restore from the images.) The gate warns on marked prose words so the run can confirm each one.
 - **Verse is transcribed with its printed marks.** Calcutta II points its verse. Two hemistichs
   per line, right one first, separated by ` * `. Marks are recorded as printed even where faint;
   a doubtful mark goes to the adjudicator, not to a guess.

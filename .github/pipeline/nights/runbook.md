@@ -21,7 +21,14 @@ So, after `git pull` and before anything else:
 - **It prints a unit** → a complete night is sitting unpublished. **Publish it**: stop reading
   this file and follow `publish-runbook.md` instead.
 - **It prints nothing** → every complete night is published. **Transcribe** the next eight pages:
-  continue with 0.1 below.
+  continue with 0.1 below. But first look at the plain table (`nights_index.py` with no flag): if
+  the last complete night is far behind the last archived page — more than two nights' worth of
+  pages, say 20 — the tool is failing to see a night formula, not telling you there is nothing
+  to publish. Record it in `QUESTIONS.md` with the formula it missed and transcribe this run,
+  but say so plainly in the LOG. (2026-10-04: `--next` printed nothing for five days because the
+  ordinal pattern did not know الحادية والعشرون; ten complete nights waited while every
+  firing transcribed.) If it prints `MISMATCH at night …` on stderr, same thing: record and
+  transcribe, publish nothing.
 
 That is the whole decision, and it is self-regulating: eight pages yield about one and a half
 nights, so transcription proceeds at roughly two runs in five and the backlog stays at a night or
@@ -96,7 +103,9 @@ replaced by `/tmp/run`; tell it the page range so it reads every page join. It w
 `/tmp/run/verdicts.json`.
 
 **Apply** — `python3 tools/apply_verdicts.py /tmp/run <first> <last> archive/pp<A>-<B>.json`
-where A and B are the **printed** page numbers (PDF page − 18), zero-padded to three digits. Read
+where A and B are the **printed** page numbers (PDF page − 20 from PDF page 50 on — the scan has two
+duplicate leaves at PDF 48–49; − 18 before that; `apply_verdicts.py` uses − 20 since 2026-09-30 —
+and always confirmed against the page's own printed header number), zero-padded to three digits. Read
 its output: any `JOIN NOTE` that reports a broken join means a line is missing somewhere — find it
 in the bands, fix `pass1.json` by hand from the image, and re-apply. Low-confidence verdicts go in
 the LOG line.

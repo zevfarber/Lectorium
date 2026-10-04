@@ -20,10 +20,43 @@ sys.path.insert(0, HERE)
 import align_wordref as AW
 
 PINNED = {
-    "Ancient Greek": {"module": "greek_g2p", "voice": "de-DE-Neural2-D", "lang": "de-DE",
+    # Voice switched 2026-10-04 from de-DE-Neural2-D to de-DE-Wavenet-B: Zev compared them by ear and
+    # could not tell them apart, and WaveNet's free allowance is 4M characters a month against 1M.
+    # The pilot clips already built with Neural2 (aesop-001, odyssey-001) are kept.
+    "Ancient Greek": {"module": "greek_g2p", "voice": "de-DE-Wavenet-B", "lang": "de-DE",
                       "rate": 0.9, "espeak": "grc"},
 }
 TTS_URL = "https://texttospeech.googleapis.com/v1/text:synthesize"
+
+# MONTHLY FREE ALLOWANCE GUARD (2026-10-04). Zev's rule: audio stays inside Google's free monthly
+# characters; nothing may run up a bill. Every character this module sends is counted in
+# audio/_tts-usage.json (committed with the clips; the build-audio job runs one at a time, so the
+# count is exact), and a story that would cross the cap is skipped, not half-built. A skipped story
+# has no align.json, so the daily "missing" sweep picks it up again next month.
+USAGE_FILE = "audio/_tts-usage.json"
+MONTHLY_CAP = {"Wavenet": 3600000, "Neural2": 900000}   # Google free tiers: 4M and 1M, with margin
+
+
+def _family(voice):
+    return next((f for f in MONTHLY_CAP if f in voice), voice)
+
+
+def _usage():
+    try:
+        return json.load(open(USAGE_FILE, encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        return {}
+
+
+def _charge(voice, n):
+    u = _usage(); m = time.strftime("%Y-%m", time.gmtime())
+    fam = u.setdefault(_family(voice), {}); fam[m] = fam.get(m, 0) + n
+    os.makedirs(os.path.dirname(USAGE_FILE), exist_ok=True)
+    json.dump(u, open(USAGE_FILE, "w", encoding="utf-8"), indent=1, sort_keys=True)
+
+
+def used_this_month(voice):
+    return _usage().get(_family(voice), {}).get(time.strftime("%Y-%m", time.gmtime()), 0)
 THROTTLE_S = 0.25
 ELISION = "’᾽'ʼ᾿"
 # printed punctuation -> what the carrier voice sees (pauses only)
@@ -40,7 +73,9 @@ def synth_ssml(ssml, cfg, key, attempts=6):
                                      headers={"Content-Type": "application/json"})
         try:
             with urllib.request.urlopen(req, timeout=90) as r:
-                return base64.b64decode(json.load(r)["audioContent"])
+                audio = base64.b64decode(json.load(r)["audioContent"])
+            _charge(cfg["voice"], len(ssml))
+            return audio
         except urllib.error.HTTPError as e:
             last = e
             if e.code == 429 or 500 <= e.code < 600:
@@ -108,6 +143,16 @@ def main():
 
     tf = adir + "/texts.json"
     prev = json.load(open(tf, encoding="utf-8")) if os.path.exists(tf) else {}
+
+    # Free-allowance guard: estimate this story (sentence clips, plus word clips at about the same
+    # again, measured on the pilots) and skip it whole if it would cross the month's cap.
+    need = sum(len(sentence_ssml(s["t"], G)) for i, s in enumerate(story["sentences"])
+               if prev.get(str(i)) != sentence_ssml(s["t"], G))
+    cap = MONTHLY_CAP.get(_family(cfg["voice"]))
+    if cap and need and used_this_month(cfg["voice"]) + int(need * 2.2) > cap:
+        print("FREE ALLOWANCE: %s needs ~%d characters; %d of %d already used this month. Skipped "
+              "until next month." % (sid, int(need * 2.2), used_this_month(cfg["voice"]), cap))
+        return
     texts, made = {}, 0
     for i, s in enumerate(story["sentences"]):
         ssml = sentence_ssml(s["t"], G)

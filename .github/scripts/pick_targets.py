@@ -19,7 +19,7 @@ from wordre import sent_tokens
 VOICE_LANGS = {"de-DE", "fr-FR", "zh-CN", "ar-XA"}   # keep in sync with build_audio.py VOICES
 # Languages read by a carrier voice under IPA pins (build_pinned.py PINNED). A language goes in
 # PINNED_AUTO once its pilot reading is approved; before that only an explicit dispatch builds it.
-PINNED_AUTO = set()
+PINNED_AUTO = {"Ancient Greek"}   # approved by ear 2026-10-04 (WaveNet voice)
 _DISPATCH_OK = set()
 
 
@@ -62,6 +62,7 @@ def changed_root_jsons():
 # entire corpus in a single job. Backfill a few per run instead: it converges over a handful of
 # pushes and no run is ever large.
 BASELINE_BACKFILL_PER_RUN = 4
+MISSING_PER_RUN = 40   # stories per "missing" sweep (2026-10-04: the Greek backfill runs daily)
 
 
 def stale_alignment():
@@ -145,6 +146,8 @@ def main():
     if dispatch.lower() == "missing":
         ids.extend(missing_audio())
         print("dispatch 'missing': %d story/ies have no clips yet" % len(ids))
+        # One job may run at most 6 hours. A daily scheduled sweep takes a slice; the rest wait.
+        ids = ids[:MISSING_PER_RUN]
     elif dispatch:
         _DISPATCH_OK.add("Ancient Greek")
         name = dispatch[:-5] if dispatch.endswith(".json") else dispatch

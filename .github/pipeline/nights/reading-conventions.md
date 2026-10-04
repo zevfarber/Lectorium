@@ -22,6 +22,11 @@ to exactly what Macnaghten prints, so the apparatus retracts as the reader grows
 Where the text's own grammar is non-Classical, **vocalise what the text actually says** and note
 it. Do not repair Middle Arabic into Classical by way of the pointing.
 
+Now and then the edition does put a mark on a prose word — a shadda on عليّ, a damma or kasra on a
+short word — and since 2026-10-04 the archive keeps those marks (the owner's ruling: the archive
+records every mark the print has). Where the archived prose word carries a mark, your vocalised
+word carries the same mark in the same place; you add the rest around it.
+
 ### Verse is copied, not vocalised
 
 The edition **does** point its verse, and the archive keeps those marks exactly as printed. So a
@@ -30,6 +35,12 @@ character for character — no added vowels, no added or re-encoded hamza, no "c
 The only things that are yours in a verse block are the joins (` * ` between hemistichs, `\n`
 between lines). The single exception is a verse word the archive leaves **bare**: that one you
 vocalise, like prose. If a printed vowel looks wrong, keep it and say so in `n`.
+
+From printed p. 111 on the edition sometimes leaves whole verse lines or blocks unpointed (pp.
+111–113; p. 126 mid-poem; more later). Those you vocalise editorially, every word, as you would
+prose — the owner's ruling of 2026-10-04 — and the block's `n` says that the print has no marks
+there, so the reader knows the pointing is ours. The script checks are unaffected: they compare
+only words the archive itself marks.
 
 This is checked by script, not by eye: `check_slice.py` and `validate_night.py` compare every
 pointed verse word with the archive codepoint for codepoint, and `check_slice.py --fix` puts the
@@ -132,8 +143,14 @@ nights; that **no printed edition is a medieval text**; and that Macnaghten regu
 language here and there, so some Middle Arabic texture is a nineteenth-century retrofit. Honesty
 is a feature, not a disclaimer to bury.
 
-`work`/`workEn`/`part` — الف ليلة وليلة / The Thousand and One Nights / "Night 3", so the library
-groups the nights together. `rtl: true`, `script: "arabic"`, `langCode: "ar-XA"`.
+`work`/`workEn`/`part` — الف ليلة وليلة / The Thousand and One Nights / `Night 3 · The Fisherman`,
+so the library groups the nights together. **`part` is the line the reader sees in the library**,
+and a night number alone tells nobody what is in it, so `part` is the night number, a middle dot,
+and the tale's short English name: `Night 6 · The Fisherman, continued`; a night that ends one
+tale and begins the next names both, `Night 14 · The Second Qalandar's Tale ends / The Third
+Qalandar's Tale begins`; the frame story is `Prologue · King Shahriyār and His Brother`. No page
+ranges in `part` — they belong in `source`. The same string goes in `stories.json`. (Owner's
+ruling, 2026-10-04.) `rtl: true`, `script: "arabic"`, `langCode: "ar-XA"`.
 
 ## Copyright
 

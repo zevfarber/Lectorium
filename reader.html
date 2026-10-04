@@ -4372,7 +4372,7 @@ document.addEventListener('click', (ev) => {
 });
 
 /* ---------- beta service: invite codes, tutor relay, notes, reading counts ---------- */
-const SERVICE_URL = '';   // set when the beta service is deployed; empty = those features stay hidden
+const SERVICE_URL = 'https://lectorium-beta.lectorium.workers.dev';   // set when the beta service is deployed; empty = those features stay hidden
 function inviteCode(){ try { return localStorage.getItem('inviteCode') || ''; } catch(e){ return ''; } }
 function svcPost(path, body, keepalive){
   return fetch(SERVICE_URL + path, { method: 'POST', headers: { 'content-type': 'application/json' },

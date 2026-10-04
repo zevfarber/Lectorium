@@ -21,6 +21,10 @@ on:
     paths:
       - '*.json'
       - '.github/scripts/**'
+  # Daily sweep (added 2026-10-04): records stories that have no audio yet, 40 a run, so the Greek
+  # backfill finishes by itself inside the monthly free allowance (build_pinned.py stops at the cap).
+  schedule:
+    - cron: '17 3 * * *'
   workflow_dispatch:
     inputs:
       id:
@@ -59,7 +63,7 @@ jobs:
       - name: Pick target stories
         id: targets
         env:
-          DISPATCH_ID: ${{ github.event.inputs.id }}
+          DISPATCH_ID: ${{ github.event_name == 'schedule' && 'missing' || github.event.inputs.id }}
           BEFORE_SHA: ${{ github.event.before }}
         run: python3 .github/scripts/pick_targets.py
 

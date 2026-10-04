@@ -4,6 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lectorium</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#faf7f2">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-title" content="Lectorium">
+<meta name="apple-mobile-web-app-capable" content="yes">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Egyptian+Hieroglyphs&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Anatolian+Hieroglyphs&display=swap" rel="stylesheet">
@@ -461,6 +466,12 @@
   .fixSend { background:var(--accent-soft); font-weight:600; }
   .fixMsg { font-size:.8rem; color:var(--muted); }
   .smCell.cdet .cgl { color:#6b4a9e; }
+  .wlList { margin: 0 0 14px 18px; padding: 0; line-height: 1.5; }
+  .wlCode { border:1px solid var(--border); border-radius:10px; padding:10px 12px; margin-bottom:14px; font-size:.9rem; }
+  .wlRow { display:flex; gap:8px; align-items:center; margin-top:8px; flex-wrap:wrap; }
+  .wlRow input { font: inherit; padding:6px 8px; border:1px solid var(--border); border-radius:8px; max-width:200px; }
+  .wlSmall { font-size:.78rem; margin-top:8px; color: var(--muted); }
+  .audioBadge { display:inline-block; font-family: system-ui, sans-serif; font-size:.6rem; font-weight:600; color: var(--muted); border:1px solid var(--border); border-radius:999px; padding:1px 7px; vertical-align: middle; }
   .draftBadge { display: inline-block; font-family: system-ui, 'Noto Sans', sans-serif; font-size: .6rem; font-weight: 600;
     text-transform: uppercase; letter-spacing: .08em; color: #8a5300; background: #fbe6c0;
     border: 1px solid #e8c986; border-radius: 999px; padding: 2px 9px; vertical-align: middle; margin-left: 12px; }
@@ -500,7 +511,9 @@
   <button id="quadBtn" title="As written — show the signs blocked into quadrats as on the papyrus" style="display:none">▦ As written</button>
   <span class="spacer"></span>
   <span id="rateWrap">🔊 <input type="range" id="rate" min="0.4" max="1.2" step="0.05" value="0.92" title="Speech speed"></span>
-  <button id="tutorBtn" title="In-app tutor — API key & spending">🎓 Tutor</button>
+  <button id="aboutBtn" title="About Lectorium and your invite code">ⓘ</button>
+  <button id="feedbackBtn" title="Send a note to the project" style="display:none">✉ Feedback</button>
+  <button id="tutorBtn" title="In-app tutor — invite code or API key">🎓 Tutor</button>
 </header>
 
 <main>
@@ -538,7 +551,9 @@
     </div>
   </details>
   <div id="tutorSetup">
-    <b>🎓 In-app tutor</b> — answers questions about the focused sentence using Claude (Haiku). It runs on your own Anthropic API key, pay-per-use: a typical question costs a fraction of a cent.
+    <b>🎓 In-app tutor</b> — answers questions about the focused sentence using Claude (Haiku).
+    <div id="codeRow" style="margin:8px 0;display:none">Beta readers: the tutor comes with your invite code. <input id="codeIn2" type="text" placeholder="Invite code" style="max-width:180px"> <button id="codeSave2">Use code</button></div>
+    <div class="dim">Or run it on your own Anthropic API key, pay-per-use: a typical question costs a fraction of a cent.</div>
     <div style="margin:8px 0">
       <input id="anthKey" type="password" placeholder="Paste your Anthropic API key (sk-ant-…)">
     </div>
@@ -569,6 +584,35 @@
   </div>
 </div>
 
+<div id="welcomeModal" class="signModal">
+  <div class="smBox">
+    <button class="pclose" onclick="closeWelcome()">✕</button>
+    <h3 class="smTitle">Welcome to Lectorium</h3>
+    <div class="smSub">Read the world's classic and sacred texts in the languages they were written in, whatever your level.</div>
+    <ul class="wlList">
+      <li>Tap any word to see what it means.</li>
+      <li>Each sentence has a literal translation that follows the original, and a natural one. Switch between them as you read.</li>
+      <li>🔊 reads a sentence aloud. 🎓 Ask puts a question about it to the reading tutor.</li>
+      <li>⚑ correction sends us an error, so it is fixed for every reader.</li>
+    </ul>
+    <div id="wlCodeBox" class="wlCode" style="display:none">
+      <b>Beta readers:</b> enter the invite code from your invitation. It turns on the tutor and lets your notes reach us.
+      <div class="wlRow"><input id="codeIn" type="text" placeholder="Invite code" autocomplete="off"><button id="codeSave" class="fixSend">Enter code</button></div>
+      <div id="codeMsg" class="fixMsg"></div>
+      <div class="dim wlSmall">During the beta we count which texts each invite code opens and how far it reads, to see what works. Nothing else is recorded.</div>
+    </div>
+    <div class="wlRow"><button class="fixSend" onclick="closeWelcome()">Open the library</button></div>
+  </div>
+</div>
+<div id="feedbackModal" class="signModal">
+  <div class="smBox">
+    <button class="pclose" onclick="closeFeedback()">✕</button>
+    <h3 class="smTitle">Send a note</h3>
+    <div class="smSub">Anything at all: what you enjoyed, what confused you, what you wish it did, which text you would like to read next.</div>
+    <textarea id="fbText" class="fixText" placeholder="Your note…"></textarea>
+    <div class="fixBtns"><button id="fbSend" class="fixSend">Send</button><span id="fbMsg" class="fixMsg"></span></div>
+  </div>
+</div>
 <div id="fixModal" class="signModal">
   <div class="smBox">
     <button class="pclose" onclick="closeFix()">✕</button>
@@ -3621,11 +3665,19 @@ function openCorrection(i){
     '<span class="fixOrigE">' + escapeHtml(en) + '</span></div>' +
     '<textarea id="fixText" class="fixText" placeholder="What’s wrong, and what should it say? (a word gloss, the translation, the transliteration…)"></textarea>' +
     '<div class="fixBtns">' +
-      '<button id="fixIssue" class="fixSend">Open a GitHub issue ↗</button>' +
+      (SERVICE_URL ? '<button id="fixSendSvc" class="fixSend">Send</button>' : '') +
+      '<button id="fixIssue" class="' + (SERVICE_URL ? 'fixCopy' : 'fixSend') + '">Open a GitHub issue ↗</button>' +
       '<button id="fixCopy" class="fixCopy">Copy report</button>' +
       '<span id="fixMsg" class="fixMsg"></span>' +
     '</div>';
   const build = () => report + ($('fixText').value || '').trim();
+  if (SERVICE_URL) $('fixSendSvc').onclick = async () => {
+    if (!($('fixText').value || '').trim()) { $('fixMsg').textContent = 'Write the correction first.'; return; }
+    $('fixMsg').textContent = 'Sending…';
+    try { await svcPost('/report', { code: inviteCode(), kind: 'correction', story: story.id, sentence: i + 1, body: build() });
+          $('fixMsg').textContent = 'Sent. Thank you.'; }
+    catch(e) { $('fixMsg').textContent = 'Could not send: ' + e.message; }
+  };
   $('fixIssue').onclick = () => {
     const url = 'https://github.com/' + CORRECTION_REPO + '/issues/new?title=' +
       encodeURIComponent('Correction: ' + ref) + '&body=' + encodeURIComponent(build());
@@ -3796,7 +3848,8 @@ function render(){
   const origTitle = story.titleRead || story.title || '';
   const cite = story.khm ? 'Grimm ' + story.khm + ' · ' : '';
   $('stTitle').innerHTML = escapeHtml(cite + enTitle)
-    + (story.provisional ? ' <span class="draftBadge">draft · being built</span>' : '');
+    + (story.provisional ? ' <span class="draftBadge">draft · being built</span>' : '')
+    + (story.audio ? '' : ' <span class="audioBadge">audio in preparation</span>');
   const sub = $('stSub');
   if (sub) {
     const oScript = story.title || '', oRead = story.titleRead || '';
@@ -3877,6 +3930,7 @@ function escapeHtml(t){ const d = document.createElement('div'); d.textContent =
 function focusSent(i, scroll){
   document.querySelectorAll('.sent.focused').forEach(el => el.classList.remove('focused'));
   focusedIdx = i;
+  if (i > visitFurthest) visitFurthest = i;
   const el = sentEl(i);
   if (!el) return;
   el.classList.add('focused');
@@ -4317,6 +4371,57 @@ document.addEventListener('click', (ev) => {
   if (!ev.target.closest('#pop') && !ev.target.closest('.w') && !ev.target.closest('.stack')) hidePop();
 });
 
+/* ---------- beta service: invite codes, tutor relay, notes, reading counts ---------- */
+const SERVICE_URL = '';   // set when the beta service is deployed; empty = those features stay hidden
+function inviteCode(){ try { return localStorage.getItem('inviteCode') || ''; } catch(e){ return ''; } }
+function svcPost(path, body, keepalive){
+  return fetch(SERVICE_URL + path, { method: 'POST', headers: { 'content-type': 'application/json' },
+    body: JSON.stringify(body), keepalive: !!keepalive })
+    .then(r => r.json().catch(() => ({})).then(d => { if (!r.ok) throw new Error(d.error || ('Service error ' + r.status)); return d; }));
+}
+async function saveCode(raw, msgEl){
+  const c = String(raw || '').trim().toUpperCase();
+  if (!c) return false;
+  if (msgEl) msgEl.textContent = 'Checking…';
+  try {
+    const d = await svcPost('/code', { code: c });
+    if (!d.ok) { if (msgEl) msgEl.textContent = 'That code is not recognised. Please check the invitation.'; return false; }
+    try { localStorage.setItem('inviteCode', c); } catch(e) {}
+    if (msgEl) msgEl.textContent = 'Welcome' + (d.name ? ', ' + d.name : '') + '. The tutor is on.';
+    updateSpendInfo();
+    return true;
+  } catch(e) { if (msgEl) msgEl.textContent = 'Could not reach the service. Please try again in a moment.'; return false; }
+}
+function openWelcome(){ $('welcomeModal').classList.add('open');
+  const c = inviteCode(); if (c && $('codeIn')) { $('codeIn').value = c; $('codeMsg').textContent = 'Your code is saved.'; } }
+function closeWelcome(){ $('welcomeModal').classList.remove('open'); try { localStorage.setItem('welcomed', '1'); } catch(e) {} }
+function openFeedback(){ $('fbMsg').textContent = ''; $('feedbackModal').classList.add('open'); setTimeout(() => $('fbText').focus(), 30); }
+function closeFeedback(){ $('feedbackModal').classList.remove('open'); }
+$('aboutBtn').onclick = openWelcome;
+$('feedbackBtn').onclick = openFeedback;
+$('fbSend').onclick = async () => {
+  const t = $('fbText').value.trim(); if (!t) return;
+  $('fbMsg').textContent = 'Sending…';
+  try { await svcPost('/report', { code: inviteCode(), kind: 'feedback', story: story ? story.id : '', body: t });
+        $('fbText').value = ''; $('fbMsg').textContent = 'Sent. Thank you.'; }
+  catch(e) { $('fbMsg').textContent = 'Could not send: ' + e.message; }
+};
+if (SERVICE_URL) {
+  $('wlCodeBox').style.display = ''; $('codeRow').style.display = ''; $('feedbackBtn').style.display = '';
+  $('codeSave').onclick = () => saveCode($('codeIn').value, $('codeMsg'));
+  $('codeSave2').onclick = () => saveCode($('codeIn2').value, $('spendInfo'));
+}
+try { if (!localStorage.getItem('welcomed')) setTimeout(openWelcome, 400); } catch(e) {}
+/* reading counts: per invite code, which text and how far — sent when leaving a text */
+let visitFurthest = -1;
+function sendVisit(){
+  if (!SERVICE_URL || !story || !story.id || visitFurthest < 0) return;
+  svcPost('/visit', { code: inviteCode(), story: story.id, furthest: visitFurthest + 1,
+    total: (story.sentences || []).length }, true).catch(() => {});
+}
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') sendVisit(); });
+if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(() => {});
+
 /* ---------- in-app tutor (Claude API, token-diet by design) ---------- */
 const TUTOR_MODEL = 'claude-haiku-4-5';
 const COST_IN = 0.0001, COST_OUT = 0.0005;   // cents per token (Haiku 4.5: $1 / $5 per MTok)
@@ -4333,11 +4438,12 @@ function addSpend(u){
 function fmtCents(c){ return c >= 100 ? '$' + (c / 100).toFixed(2) : c.toFixed(c < 1 ? 2 : 1) + '¢'; }
 function updateSpendInfo(){
   const el = $('spendInfo'); if (!el) return;
-  el.textContent = tutorKey() ? ('Key saved ✓ · spent so far on this device: ' + fmtCents(spendCents())) : 'No key saved yet.';
+  el.textContent = tutorKey() ? ('Key saved ✓ · spent so far on this device: ' + fmtCents(spendCents()))
+    : (SERVICE_URL && inviteCode()) ? ('Invite code ' + inviteCode() + ' ✓ · the tutor is on.') : 'No code or key saved yet.';
 }
 function tutorErrMsg(e){
   return e.message === 'NOKEY'
-    ? 'No API key saved — click 🎓 Tutor in the top bar to set one up.'
+    ? (SERVICE_URL ? 'Enter your invite code to use the tutor — click 🎓 Tutor in the top bar.' : 'No API key saved — click 🎓 Tutor in the top bar to set one up.')
     : 'Tutor error: ' + e.message;
 }
 $('tutorBtn').onclick = () => { $('tutorSetup').classList.toggle('open'); updateSpendInfo(); };
@@ -4373,6 +4479,10 @@ const CHECK_SYSTEM = 'You judge a reader\'s English translation of one sentence 
 
 async function callClaude(system, messages, maxTok){
   const key = tutorKey();
+  if (!key && SERVICE_URL && inviteCode()) {
+    const d = await svcPost('/tutor', { code: inviteCode(), mode: system === CHECK_SYSTEM ? 'check' : 'ask', messages: messages, max_tokens: maxTok });
+    return { text: d.text || '', cost: 0 };
+  }
   if (!key) { $('tutorSetup').classList.add('open'); updateSpendInfo(); throw new Error('NOKEY'); }
   const r = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
@@ -4805,6 +4915,8 @@ function probeAudio(s){
 }
 
 function loadStory(s){
+  if (story && story !== s) sendVisit();
+  visitFurthest = 0;
   try { document.body.setAttribute('data-script', s.script || ''); } catch(e){}
   try { document.body.setAttribute('data-font', s.font || ''); } catch(e){}
   // vertical-text story: flips the word popup to its upright presentation

@@ -15,7 +15,7 @@ h1{font-size:1.5rem;margin:0 0 4px}.sub{color:var(--muted);margin:0 0 20px}
 audio{height:32px;max-width:100%;flex:1;min-width:200px}
 </style></head><body><main>
 <h1>Two voices for reconstructed Attic</h1>
-<p class="sub">Voice A is Google's (paid past a monthly free allowance). Voice B is Piper (free). Both read the same sounds. Pick the one you prefer.</p>
+<p class="sub">Voice A is Google's Neural2 (free for 1 million characters a month). Voice C is Google's WaveNet (free for 4 million a month). Voice B is Piper (free). All read the same sounds.</p>
 <div class="tabs"><button data-id="odyssey-001" class="on">Odyssey 1.1–95</button><button data-id="aesop-001">Aesop, fable 1</button></div>
 <div id="list"></div>
 </main><script>
@@ -28,6 +28,7 @@ async function show(id){
     const d=document.createElement('div');d.className='u';
     d.innerHTML='<div class="g"></div><div class="tr"></div>'+
       '<div class="row"><span>Voice A</span><audio controls preload="none" src="../audio/'+id+'/'+i+'.mp3"></audio></div>'+
+      '<div class="row"><span>Voice C</span><audio controls preload="none" src="wavenet/'+id+'/'+i+'.mp3"></audio></div>'+
       '<div class="row"><span>Voice B</span><audio controls preload="none" src="piper/'+id+'/'+i+'.mp3"></audio></div>';
     d.querySelector('.g').textContent=u.t; d.querySelector('.tr').textContent=u.tr||'';
     L.appendChild(d);

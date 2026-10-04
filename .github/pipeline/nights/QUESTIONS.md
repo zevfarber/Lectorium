@@ -1036,3 +1036,27 @@ Open decisions the rules do not settle. A run writes the question and what it de
 - **Runbook offset.** nights/runbook.md still says printed page = PDF − 18; the archives use −20 (tool output agrees). Left runbook unchanged.
 
 - **Marks in prose (run 2026-10-03, PDF 249).** P229L14 (اف) and P229L17 (وعب) carry printed damma/kasra/shadda; the gate forbids marks in prose, so archived bare (same as the earlier shadda note).
+
+- **2026-10-04 (attended session, the owner's rulings and one bug).** (1) **Publishing had stopped
+  since Night 19 (2026-09-30).** `nights_index.py`'s ordinal pattern allowed one word plus an
+  optional عشر, so الحادية والعشرون (Night 21) and every compound ordinal after it was never
+  found; Night 20 never became "complete", `--next` printed nothing, and twelve firings in a row
+  transcribed (archive now to printed p. 242) while Nights 20–29 sat complete and unpublished.
+  Night 30's formula is الموفية للثلثين, which the old pattern would have matched — so the
+  next firing would have published Nights 20–29 as one "Night 20". Fixed: the pattern takes one
+  to four words before the tag, every ordinal is parsed to a number (units, teens, و-compounds,
+  tens, الموفية للـ…, بعد المائة) and checked against the night's position, and `--next` refuses
+  to publish past a MISMATCH or a unit over 400 lines. Verified against all 30 archived formulas.
+  Runbook step 0 now says a long unpublished stretch is a missed formula, not nothing to do.
+  (2) **Library labels.** `part` is `Night N · <tale>`, no page ranges; split nights name both
+  tales (`… ends / … begins`); the frame is `Prologue · …`. The 21 published entries were
+  relabelled in `stories.json`; the story files' own `part` fields still carry the old strings
+  and may be aligned in a later pass (the library reads `stories.json`).
+  (3) **Marks on prose words.** The archive now keeps a mark the print clearly sets on a prose
+  word (conventions.md, prompts, gate = WARN). Words stripped under the old rule, to be restored
+  from the images by a transcribing run that has the pages open, or by a dedicated pass: P16L11
+  عليّ, P62L18 أَلَذِّ (as read), P137L11 وسّطها, P137L21 عليّ, P145L02 علىّ, P211L19 اليّ,
+  P229L14 اف and P229L17 وعب (damma/kasra/shadda as printed). Not urgent; nothing waits on it.
+  (4) **Unpointed verse** (pp. 111–113, p. 126, and later) is vocalised editorially in the reading
+  edition, with the block's `n` saying the print has no marks there (reading-conventions.md).
+  (5) The Night 14 titling question above is RESOLVED by (2).

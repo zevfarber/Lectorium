@@ -416,3 +416,9 @@ Eumaeus’ speech (opened at 14.80) ends at 14.108 (`ἀποπέμπω.`); 14.10
 2. μαψιδίως now “without cause” at 14.365 (as 7.309); “heedlessly” (2.56) and “at random” (3.72, 9.253) remain as shipped. Owner may reconcile.
 3. Old glossary entry φοίτων says “uncontracted”, which looks wrong; entries can only be broadened, so left.
 4. Uncertain words flagged in notes: ἐφόλκαιον (unknown), εὐδειέλου, θύρηθ’.
+
+## odyssey-071 (2026-10-04)
+1. 15.12/13 unit boundary: Murray's ano teleia stands after ὑπερφιάλους inside line 12, but the draft cuts at the end of line 12 (no stop there). Fix needs a `t` change (move `ὑπερφιάλους·` into the first unit, start the second at `μή τοι κατὰ πάντα φάγωσι`, `ln` 12); the validator does not check it. Reviewer could not touch `t`; the note and the commas at the join were made true meanwhile.
+2. 15.56 ὣς ἔφατ’ (Peisistratus) repeats 10.541 and must carry the shipped "So she spoke" (validator forces identical English); the note tells the reader to read "he". Same remedy as odyssey-055 item 2. Owner may fix the wording at 10.541.
+3. ὑπερφιάλους at 15.12 is "overbearing", repeating shipped 3.315 (odyssey-012), against the table's "overweening" (rows 6.274, 9.106) which keeps "overbearing" for ὑπερηνορέοντες. Left as shipped; owner may reconcile.
+4. Menelaus's speech is closed with ” at 15.85 (the Greek reads as complete and a paragraph break follows). If 072 continues it, remove that ”.

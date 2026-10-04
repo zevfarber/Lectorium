@@ -6,10 +6,12 @@ validate_archive.py — the gate a Nights page archive must pass before it is pu
 
 Checks: JSON parses; every line has a non-empty "t" and a ref P<pp>L<ll>; refs are in order and
 line numbers are contiguous within a page; pages are contiguous and follow the previous archive
-(--prev); no Latin letters or digits inside Arabic lines (a common agent slip); no vowel marks in
-a prose line (only lines marked v may carry tashkil); no precomposed alif-hamza/madda in a verse
-line that has none in the print is NOT checkable here — that is the adjudicator's job; the
-page joins (last words of page N + first words of N+1) are printed for the adjudicator to read.
+(--prev); no Latin letters or digits inside Arabic lines (a common agent slip); vowel marks in a
+prose line are listed as WARN, not failed (since 2026-10-04 the archive keeps a mark the print
+itself sets on a prose word; the run confirms each listed word against the image); no precomposed
+alif-hamza/madda in a verse line that has none in the print is NOT checkable here — that is the
+adjudicator's job; the page joins (last words of page N + first words of N+1) are printed for the
+adjudicator to read.
 Exit 0 and RESULT PASS, or exit 1 with the failures listed.
 """
 import json, re, sys, unicodedata
@@ -18,7 +20,7 @@ MARKS = set('ًٌٍَُِّْٰ')
 
 def main():
     path = sys.argv[1]; prev = sys.argv[sys.argv.index('--prev') + 1] if '--prev' in sys.argv else None
-    fails = []
+    fails, warns = [], []
     try:
         d = json.load(open(path, encoding='utf-8'))
     except Exception as e:
@@ -40,7 +42,8 @@ def main():
         if not t.strip(): fails.append(f'{ref}: empty text')
         if re.search(r'[A-Za-z0-9]', t): fails.append(f'{ref}: Latin letters/digits in text')
         if not L.get('v') and not L.get('h') and any(c in MARKS for c in t):
-            fails.append(f'{ref}: vowel marks in a prose line (only v lines carry tashkil)')
+            marked = [w for w in t.split() if any(c in MARKS for c in w)]
+            warns.append(f'{ref}: marks on prose word(s) {" ".join(marked)} — keep only if clearly printed')
     if prev:
         pd = json.load(open(prev, encoding='utf-8'))
         pprev = max(int(re.match(r'P(-?\d+)', L['ref']).group(1)) for L in pd['lines'])
@@ -53,9 +56,10 @@ def main():
     ps = sorted(byp)
     for a, b in zip(ps, ps[1:]):
         print(f'  p{a}->p{b}: {" ".join(byp[a][-1].split()[-4:])}  ||  {" ".join(byp[b][0].split()[:4])}')
+    for w in warns: print('WARN', w)
     if fails:
-        print('RESULT FAIL'); [print('  -', f) for f in fails]; sys.exit(1)
-    print(f'RESULT PASS  ({len(lines)} lines, printed pp. {ps[0]}-{ps[-1]})')
+        print('RESULT FAIL'); [print(' -', f) for f in fails]; sys.exit(1)
+    print(f'RESULT PASS ({len(lines)} lines, printed pp. {ps[0]}-{ps[-1]})')
 
 if __name__ == '__main__':
     main()

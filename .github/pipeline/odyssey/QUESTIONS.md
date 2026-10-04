@@ -410,3 +410,9 @@ conventions.md, runbook and validate_odyssey.py require “ ” for speech. Part
 
 ## odyssey-066 lacks a closing quotation mark (found in the odyssey-067 run, 2026-10-03)
 Eumaeus’ speech (opened at 14.80) ends at 14.108 (`ἀποπέμπω.`); 14.109 `ὣς φάθ’` is narration. 066’s last unit (ln 107) has no closing ” in `l` or `i`, and its notes and log say the speech “runs on into 067”, which is wrong. Not changed in this run (published part; scope is one part). Fix: add ” to the end of `l` and `i` of that unit in odyssey-066.json (and its drafts/units.json) and correct the LOG line. Meanwhile 067 opens without a mark, which is correct.
+
+## odyssey-069 (2026-10-04)
+1. Validator WARN 4 open / 5 close quotation marks is expected: the Cretan’s speech opened at 14.191 (067) and closes at 14.359.
+2. μαψιδίως now “without cause” at 14.365 (as 7.309); “heedlessly” (2.56) and “at random” (3.72, 9.253) remain as shipped. Owner may reconcile.
+3. Old glossary entry φοίτων says “uncontracted”, which looks wrong; entries can only be broadened, so left.
+4. Uncertain words flagged in notes: ἐφόλκαιον (unknown), εὐδειέλου, θύρηθ’.

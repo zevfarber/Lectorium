@@ -17,6 +17,7 @@
      (Windows' Mongolian Baiti is only the offline fallback in the stack). -->
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mongolian&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew:wght@400;600&display=swap" rel="stylesheet">
 <style>
 
   /* Old Babylonian cuneiform webfonts by Sylvie Vanséveren (hethport.uni-wuerzburg.de/cuneifont/),
@@ -173,6 +174,13 @@
   body[data-script="arabic"] #popW {
     font-family: 'Amiri', 'Scheherazade New', 'Noto Naskh Arabic', 'Times New Roman', serif; }
   body[data-script="arabic"] #popW { font-size: 1.9rem; line-height: 1.9; direction: rtl; }
+  /* Hebrew (Mishnah, Bible): pointed text needs a font whose niqqud sits cleanly; the vowel points
+     hang below the line, so it wants nearly as much leading as Arabic. */
+  body[data-script="hebrew"] .de.rtl,
+  body[data-script="hebrew"] #popW {
+    font-family: 'Noto Serif Hebrew', 'SBL Hebrew', 'Ezra SIL', 'Times New Roman', serif; }
+  body[data-script="hebrew"] .de.rtl { font-size: 1.55rem; line-height: 2.05; }
+  body[data-script="hebrew"] #popW { font-size: 1.9rem; line-height: 1.8; direction: rtl; }
 
   /* ---- vertical-text mode (Classical Mongolian): story.vertical = true ----
      The sentence stays a card in the page's normal downward flow; inside it the
@@ -714,7 +722,11 @@ const WORD_CLASS = 'A-Za-zÀ-ÖØ-öø-ÿ\\u0100-\\u024F\\u0300-\\u036F\\u1E00-\
   + '\\u0620-\\u065F\\u0670-\\u06D3\\u06D5-\\u06ED'
   /* Devanagari (Sanskrit): letters, vowel signs, virama, anusvara/visarga/candrabindu, avagraha — the
      fused sandhi-word is one token; the words model carries the split reading. Excludes ।॥ and digits. */
-  + '\\u0900-\\u0963\\u0971-\\u097F';
+  + '\\u0900-\\u0963\\u0971-\\u097F'
+  /* Hebrew: letters, the vowel points and accents (part of the word, so the bare-script view can strip
+     them), and geresh/gershayim, which mark abbreviations INSIDE a word (או׳ = אומר). Deliberately
+     excludes maqaf U+05BE, paseq U+05C0 and sof pasuq U+05C3, which separate words. */
+  + '\\u0591-\\u05BD\\u05BF\\u05C1\\u05C2\\u05C4\\u05C5\\u05C7\\u05D0-\\u05EA\\u05F0-\\u05F4';
 /* Han characters: no spaces are written, and in Classical Chinese the character IS the word,
    so each one tokenizes on its own (a run must NOT collapse into a single token). */
 const HAN_CLASS = '\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uF900-\\uFAFF';
@@ -769,6 +781,8 @@ function plainLettersON(s){
    letterform toward English, here we REMOVE our own editorial help and hand the reader the
    page as it actually was. The vocalized state is the assisted one. */
 function bareLettersAR(s){ return s.replace(/[\u064B-\u065F\u0670\u06D6-\u06ED]/g, ''); }
+/* Hebrew: strip vowel points, dagesh, shin/sin dots and accents — the consonantal text as most Hebrew is written */
+function bareLettersHE(s){ return s.replace(/[\u0591-\u05BD\u05BF\u05C1\u05C2\u05C4\u05C5\u05C7]/g, ''); }
 
 /* ---- "simplify script" capability (one toolbar slot, shown only where useful) ----
    Each text can offer a friendlier rendering of its script. The toggle appears
@@ -793,6 +807,11 @@ function simplifyConfig(story){
     return { label: 'ٰ bare', title: 'Bare script — hide the editorial vowel points and read the rasm as the edition prints it',
              labelOn: 'ٰ vowels', titleOn: 'Vocalized — put the editorial tashkīl back',
              stateKey: 'bareAR', fn: bareLettersAR };
+  // Hebrew: the same single job — the manuscript's vowel points on, or the bare consonantal text.
+  if ((story.language && /hebrew/i.test(story.language)) || story.script === 'hebrew')
+    return { label: 'ב bare', title: 'Bare script — hide the vowel points and read the consonants alone',
+             labelOn: 'בָּ points', titleOn: 'Pointed — put the vowel points back',
+             stateKey: 'bareHE', fn: bareLettersHE };
   // Old Norse: same þ/ð/æ letterforms plus the nasal vowel ǫ and the ligature œ; keep acute length marks.
   if ((story.language && /norse/i.test(story.language)) || /[ǫœǪŒ]/.test(txt))
     return { label: 'þ→th', title: 'Plain letters — þ→th, ð→d, æ→ae, ǫ→o, œ→oe (accents kept)', fn: plainLettersON };

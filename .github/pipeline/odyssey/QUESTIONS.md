@@ -435,3 +435,8 @@ Eumaeus’ speech (opened at 14.80) ends at 14.108 (`ἀποπέμπω.`); 14.10
 2. The validator forced repeated-line English at 471, 481, 552. At 481 the shipped English ends with a closing ”, which is wrong mid-speech, so the unit was merged with 482–483 to change its extent. Same class of problem as odyssey-055 item 2.
 3. ἤχθετο (457, “was loaded”) is a traditional guess; flagged in note and glossary.
 4. Five notes are outside the 25–110 word band (kept for the explanations they carry); new-renderings rows added to conventions.md.
+
+## odyssey-077 (2026-10-05)
+1. Validate step 6 forces the published ‘ ’ on the repeated 16.37–39 (shipped 11.181/052) rather than “ ”, so Eumaeus's speech there uses ‘…’; the note says so. Owner may let step 6 compare after mapping ‘’ to “”.
+2. ὀϊζυραὶ (16.38) is printed with diaeresis by Murray here but without at 11.182; left as printed.
+3. τηλύγετος is "late-born" (shipped 4.11), not "only, cherished"; the drafted new-rendering row was dropped.

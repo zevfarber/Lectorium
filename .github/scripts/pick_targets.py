@@ -19,8 +19,34 @@ from wordre import sent_tokens
 VOICE_LANGS = {"de-DE", "fr-FR", "zh-CN", "ar-XA"}   # keep in sync with build_audio.py VOICES
 # Languages read by a carrier voice under IPA pins (build_pinned.py PINNED). A language goes in
 # PINNED_AUTO once its pilot reading is approved; before that only an explicit dispatch builds it.
-PINNED_AUTO = {"Ancient Greek"}   # approved by ear 2026-10-04 (WaveNet voice)
+PINNED_AUTO = {"Ancient Greek",     # approved by ear 2026-10-04 (WaveNet voice)
+               "Latin",             # approved by ear 2026-10-04 (audio-pilot/latin.html, Voice A)
+               "Old East Slavic"}   # the proem's hand method (July 2026), automatic from 2026-10-04
 _DISPATCH_OK = set()
+
+# Order of the daily "missing" sweep (2026-10-04). Audio must stay inside Google's free monthly
+# allowance, which holds only part of the backlog each month, so the sweep takes stories in the order
+# Zev asked for them ("Odyssey first"); anything not listed comes after, alphabetically.
+MISSING_PRIORITY = ["odyssey-", "slovo-", "aesop-", "ovid-met-", "pyramus-thisbe"]
+# Works whose new parts are built the moment they are pushed, ahead of the sweep (Zev, 2026-10-04).
+BUILD_ON_PUSH = ("odyssey-",)
+
+
+def _priority(sid):
+    return next((n for n, p in enumerate(MISSING_PRIORITY) if sid.startswith(p)), len(MISSING_PRIORITY))
+
+
+def _pinned_new(path, sid):
+    """A pinned-voice story with no audio yet: left to the daily sweep, so the monthly allowance is
+    spent in priority order rather than on whatever was pushed first. Corrections to a story that
+    already has audio are still rebuilt on push."""
+    try:
+        d = json.load(open(path, encoding="utf-8"))
+    except Exception:
+        return False
+    return (not d.get("langCode") and d.get("language") in PINNED_AUTO
+            and not sid.startswith(BUILD_ON_PUSH)
+            and not os.path.exists(os.path.join("audio", sid, "align.json")))
 
 
 def story_id(path):
@@ -63,6 +89,7 @@ def changed_root_jsons():
 # pushes and no run is ever large.
 BASELINE_BACKFILL_PER_RUN = 4
 MISSING_PER_RUN = 40   # stories per "missing" sweep (2026-10-04: the Greek backfill runs daily)
+GREEK_ALONGSIDE = 10   # of those, kept for Greek stories further down the order (see main)
 
 
 def stale_alignment():
@@ -137,7 +164,7 @@ def missing_audio():
             continue
         if not os.path.exists(os.path.join("audio", sid, "align.json")):
             out.append(sid)
-    return out
+    return sorted(out, key=lambda x: (_priority(x), x))
 
 
 def main():
@@ -147,9 +174,14 @@ def main():
         ids.extend(missing_audio())
         print("dispatch 'missing': %d story/ies have no clips yet" % len(ids))
         # One job may run at most 6 hours. A daily scheduled sweep takes a slice; the rest wait.
-        ids = ids[:MISSING_PER_RUN]
+        # Greek has a second free pool (Neural2) that Latin and Russian cannot use, so a few Greek
+        # stories ride along every day even while the Latin backlog is ahead of them in the order.
+        head = ids[:MISSING_PER_RUN - GREEK_ALONGSIDE]
+        # (With the Odyssey first the head is Greek already; the rule matters once Latin leads.)
+        greek = [x for x in ids[len(head):] if x.startswith(("aesop-", "odyssey-"))][:GREEK_ALONGSIDE]
+        ids = head + greek
     elif dispatch:
-        _DISPATCH_OK.add("Ancient Greek")
+        _DISPATCH_OK.update(PINNED_AUTO)
         name = dispatch[:-5] if dispatch.endswith(".json") else dispatch
         fn = name + ".json"
         if os.path.exists(fn):
@@ -160,11 +192,13 @@ def main():
         for f in changed_root_jsons():
             if os.path.exists(f):
                 sid = story_id(f)
-                if sid:
+                if sid and _pinned_new(f, sid):
+                    print("%s: new, left to the daily sweep (priority order)" % sid)
+                elif sid:
                     ids.append(sid)
         ids.extend(stale_alignment())
 
-    ids = sorted(set(ids))
+    ids = sorted(set(ids), key=lambda x: (_priority(x), x))
     gh_out = os.environ.get("GITHUB_OUTPUT")
     if gh_out:
         with open(gh_out, "a") as g:

@@ -58,4 +58,4 @@ Counts: **4 high** (3 fully fixed, 1 half fixed), **5 medium**, **10 low**; 19 c
 - **Unit 47 `l` "of those who hold the wide heaven" against the new row's "who hold the wide heaven".** The added "of those" renders τις θεός … τοί (one of those who); the formula words are the row's. Left.
 - **Unit 7 repeats 1.245–248 with `l`/`i` identical though `t` lacks a final ν in κοιρανέουσι.** The letters-only key differs, so check 6 does not bind it, and reusing the shipped English is what the rule asks for; the note states the difference. Left.
 
-Pass 2 (gloss.json parses against the lines) still to do.
+Pass 2 (gloss.json parses checked against the lines, 2026-10-05 second run): ἦσθ’ (141, impf. 3 sg. of ἧμαι) and φάο (168, pres. imper. mid. of φημί) correct; ἕσσο (199) entry reworded to “plpf. mid./pass. 2 sg., epic” (the earlier “= ἕσσο for ἔσσο” was meaningless). Unit 48 `t` restored to end with the full stop after ἡμέων (source corrected, see QUESTIONS.md); its note no longer says Murray prints none.

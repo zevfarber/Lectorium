@@ -448,3 +448,6 @@ Eumaeus’ speech (opened at 14.80) ends at 14.108 (`ἀποπέμπω.`); 14.10
 
 ## 2026-10-05 (second run) · odyssey-078 — still blocked, claim released
 Re-ran `build_odyssey.py odyssey-078` on the kept draft: still refuses with "unit 47 (line 184): does not end at punctuation" (16.185 has no stop in the pinned source). I did not loosen the gate or edit the pinned source unattended. Every later run will hit the same block until the owner picks option (a) or (b) above; the pipeline cannot advance past 078 meanwhile.
+
+## 2026-10-05 · odyssey-078 — resolved
+Owner chose option (b): a full stop was added after ἡμέων at 16.185 in `source/odyssey-murray1919.json` and the sha256 of odyssey-078 updated in `parts.json` (no other part contains that line). The build and validator then PASS and 078 is published. The `packet.py` half-line-repeat gap (item 3 above) is still open.

@@ -144,7 +144,12 @@ def request(text, word_re):
             sub = []
             for c in carrier(p).split():               # лѣполи -> two carrier words, лепо ли
                 pc = plain(c)
-                pins[pc.lower()] = carrier_ipa(c)
+                ip = carrier_ipa(c)
+                # A vowelless carrier (в, с, к from въ, съ, къ) gets no pin: Google rejects a custom
+                # pronunciation with no vowel (run #288, 2026-10-05: "phrases are invalid: в, с").
+                # The voice reads it as the ordinary Russian proclitic, joined to the next word.
+                if any(ch in "aeiouɨ" for ch in ip):
+                    pins[pc.lower()] = ip
                 sub.append(pc)
             pc = " ".join(sub)
             parts.append(pc if not p[:1].isupper() else pc[:1].upper() + pc[1:])

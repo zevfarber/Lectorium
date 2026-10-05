@@ -429,3 +429,9 @@ Eumaeus’ speech (opened at 14.80) ends at 14.108 (`ἀποπέμπω.`); 14.10
 3. ἐσσυμένως “eagerly”, φιλήσεαι “welcomed”, σίτου “food” (vs shipped 9.8 “bread and meats”): kept as drafted; see review.md.
 4. The note at 15.260 is 141 words (band 25–110), left as it carries the speech-continuation explanation.
 5. The LOG line above was written from the draft’s `about`; the unit-level details are in drafts/odyssey-074/drafter-notes.md and review.md (17 drafter open points).
+
+## odyssey-076 (2026-10-05)
+1. κληΐς (15.549) is “rowing-benches” here; conventions table row says “thwarts” and shipped 062 and 073 have “oarlocks” in `i`. Owner should pick one rendering.
+2. The validator forced repeated-line English at 471, 481, 552. At 481 the shipped English ends with a closing ”, which is wrong mid-speech, so the unit was merged with 482–483 to change its extent. Same class of problem as odyssey-055 item 2.
+3. ἤχθετο (457, “was loaded”) is a traditional guess; flagged in note and glossary.
+4. Five notes are outside the 25–110 word band (kept for the explanations they carry); new-renderings rows added to conventions.md.

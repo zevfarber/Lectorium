@@ -1,0 +1,26 @@
+| Greek | `l` | `i` | avoided on purpose |
+|---|---|---|---|
+| ἡ μὲν ἄρ’ ὣς ἀγόρευεν, ὁ δ’ ᾤχετο … (17.589; speech-closing formula with a plain imperfect, distinct from ὣς φάτο) | "She, then, so was speaking, and he went off, …" | "She spoke in this way, and … went off …" | "So she spoke" (reserved for ὣς φάτο / ὣς ἔφατο), "Thus she spoke"; ἀγόρευεν keeps the imperfect "was speaking" in `l` |
+| τὸν δ’ ὑπὲρ οὐδοῦ βάντα προσηύδα Πηνελόπεια (17.575; variant of the table's τὸν δὲ κατ’ οὐδοῦ βάντα προσηύδα Πηνελόπεια, with ὑπέρ "over") | "And him, as he stepped over the threshold, Penelope addressed:" | "And Penelope spoke to him as he stepped over the threshold:" | "answered" (reserved for ἠμείβετο), "stood on the threshold" (the table's `i` for κατ’ οὐδοῦ; here ὑπέρ says "over") |
+| δείελον ἦμαρ (17.606, ἐπήλυθε δείελον ἦμαρ) | "the evening day" | "the evening of the day" | "late afternoon", "dusk", "nightfall"; δείελος is "late afternoon, evening"; the day-noun ἦμαρ stays in `l`, as in νόστιμον ἦμαρ "the homecoming day" |
+| δειελιάω, aor. part. δειελιήσας (17.599) | "having taken your evening meal" | "once you have had your evening meal" (+ note: exact sense not certain; "having spent the evening" also given) | "having dined" (δεῖπνον is "meal"), "having supped" (δόρπον is "supper"), "having spent the afternoon" (each silently picks one sense) |
+| ἄφρων (17.586, οὐκ ἄφρων ὁ ξεῖνος) | "without sense" | "without sense" | "foolish" and "fool" (reserved for νήπιος), "senseless" (reserved for ἀφραδής), "witless" (reserved for ἀνοήμων), "-minded" words (reserved for the -φρων epithets of persons) |
+| αἰδοῖος of a man who feels shame (17.578, κακὸς δ’ αἰδοῖος ἀλήτης; the table's αἰδοῖος is "revered") | "shamefaced" | "shamefaced" | "revered" (the table's sense of αἰδοῖος, which does not fit a beggar), "modest", "bashful", "respectable"; the note says the word is built on αἰδώς and here means the man who feels shame |
+| θυμὸς ἐΰφρων (17.531) | "the heart is cheerful" | "their hearts are cheerful" | "kindly" (kept for ἐϋφρονέων "with kindly intent"), "glad-hearted", "well-minded" ("-minded" is reserved for the -φρων epithets of persons); θυμός keeps "heart" |
+| ἑψιάομαι, 3 pl. imper. ἑψιαάσθων (17.530) | "let them amuse themselves" | "let them amuse themselves" | "let them play", "let them sport", "let them make merry" (each says more or less than the verb) |
+| ἀκήρατος (17.532, κτήματ’ ἀκήρατα) | "untouched" | "untouched" | "unspoiled", "undamaged", "unharmed" (reserved for ἀπήμων of persons) |
+| ἄμοτον (17.520, ἄμοτον μεμάασιν ἀκουέμεν; same word as the table's ἄμοτον τανύοντο, 6.83, where the table keeps "unceasingly" for `l` and "strained on without pause") | "unceasingly" | "without ceasing" (+ note: sense of ἄμοτον not known; "unceasingly" is the traditional guess) | "insatiably", "eagerly", "greatly" (each silently picks one guess) |
+| ἔπεα ἱμερόεντα βροτοῖσι (17.519) | "words full of longing for mortals" | "words full of longing for mortals" | "lovely words", "desirable words", "words that charm mortals"; ἱμερόεις keeps "full of longing" as in the table's ἱμερόεις γόος |
+| ἐξαίσιος (17.577, τινά … ἐξαίσιον) | "outrageous" | "outrageous" (+ note: could be read as an adverb, "excessively") | "unseemly" (reserved for ἀεικής / ἀεικέλιος), "monstrous", "violent"; built on ἐξ + αἶσα "portion" |
+| ἐπαρκέω (17.568, τό γ’ ἐπήρκεσεν) | "ward off" | "ward off" | "avert", "help against", "prevent"; follows the table's ἀμύνω "ward off" (ἀρὴν ἀπὸ οἴκου ἀμῦναι) |
+| ὁμὴν ὀϊζύν (17.563) | "the same distress" | "the same distress" | "shared misery", "common woe"; ὁμός keeps "the same", ὀϊζύς the table's "distress" |
+| ὑποδείδια (17.564) | "I fear" | "I fear" | "I am afraid of", "I dread" (the shorter form is kept; a perfect with present sense) |
+| ἀλυσκάζω (17.581, ὕβριν ἀλυσκάζων) | "avoiding" | "shunning" | "fleeing" (reserved for φεύγω / ἀποδιδράσκω), "dodging", "evading"; the verb is the frequentative of ἀλύσκω "avoid" |
+| οὐκ ἀτελὴς θάνατος (17.546) | "death … not unfulfilled" | "death would not fail of its fulfilment" | "unaccomplished", "fruitless death", "death without end"; ἀτελής is "unfulfilled", the litotes is kept and explained in the note |
+| δαιτυμών, gen. pl. δαιτυμόνων (17.605) | "banqueters" | "banqueters" | "feasters", "guests", "diners"; δαίς "feast" is kept as the root |
+| κειμήλια (17.527) | "treasures" | "treasures" | "heirlooms", "valuables", "goods" (kept for κτήματα / χρήματα) |
+| κτήματα (17.532) | "possessions" | "possessions" | "goods" (kept for χρήματα), "wealth", "property" |
+| στεῦται (17.525; στεῦμαι "claim, declare") | "he declares" | "he claims" | "he swears", "he boasts" (each says more); the verb takes the infinitive ἀκοῦσαι "to have heard" |
+| προπροκυλινδόμενος (17.525) | "rolling-himself-onward" | "rolling on and on" | "wandering", "driven about" (lose κυλίνδω "roll"), "tumbling about" |
+| οἰκῆες (17.533) | "household servants" | "servants" (or "household servants") | "slaves", "thralls", "kinsmen"; οἰκῆες is "members of the household", kept apart from δμῶες / δμῳαί "servants / maids" in `i` by the added "household" |
+| μηχανάομαι of wanton deeds (17.588, ἀτάσθαλα μηχανόωνται) | "devise wanton things" | "devise such wanton deeds" | "plot", "contrive"; keeps the table's ἀτάσθαλα "wanton deeds" / "wanton things" and μηχανάομαι "devise" |

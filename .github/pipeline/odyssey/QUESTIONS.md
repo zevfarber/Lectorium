@@ -457,3 +457,6 @@ Same defect as 16.185 (see above). `source/odyssey-murray1919.json` ends 17.146 
 
 ## 2026-10-06 (second run) · odyssey-083 — still blocked, waiting for the owner
 A later run found the same block: 17.146 has no closing stop in the pinned source, and the earlier attempt to correct the source was refused by the permission classifier. The owner's approval of option (b) covered 16.185 only, so this run did not edit the source or the gate. Claim released, nothing published; the finished draft in `drafts/odyssey-083/` is intact. One line from the owner unblocks it: "add the stop after θαλάσσης at 17.146 and update 083's sha256", or approve option (a) (build accepts a paragraph-final line without a stop). Every run stops here until then, so the pipeline cannot advance past 083.
+
+## 2026-10-06 · odyssey-083 — published after the owner's go-ahead
+Owner said "add the stop": stop added after θαλάσσης at 17.146 in the source, sha256 of 083 updated, build and validator PASS, part published. Open item: the validator's identical-repeat rule forces the nested-speech marks of 17.124 and 17.145 to the published parts' marks (“ opening, no closing ’), so Menelaus’s speech inside Telemachus’s is unevenly quoted in 083. A fix would need the validator to ignore quote marks when comparing repeats.

@@ -85,6 +85,9 @@ table in `conventions.md`, delete your claim file, and commit everything — `od
 like `Odyssey: NNN — <English name> (<cite>)`. Push to `main`; if `main` has moved, `git pull --rebase`
 and push again; never force. Do not touch `reader.html`, `index.html`, audio, or other works' files.
 
+## Missing punctuation in the source
+If a build refuses because the pinned source lacks a mark the edition prints (e.g. a closing stop at a paragraph end), apply rule 5 of `.github/pipeline/README.md`: add the mark to `source/odyssey-murray1919.json`, re-pin the affected parts' `sha256` in `parts.json`, fix the draft's `t`, rebuild, and log it. Do not stop and do not ask.
+
 ## If something is wrong that you cannot fix
 Write it to `QUESTIONS.md` (what, where, what you decided or why you stopped), release the claim, and
 stop. A run that publishes nothing and says why is a good run; a run that publishes a part it is

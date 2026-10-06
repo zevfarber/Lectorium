@@ -24,7 +24,15 @@ Rules that apply to every run, whatever the work:
 4. The owner is not present. Decisions go in `QUESTIONS.md` with what was decided meanwhile;
    nothing waits on him. A run never sends email, never uses Google Drive, and never creates,
    changes or disables a routine.
-5. Audio for modern languages is built by `.github/workflows/audio.yml` on the runner when a root
+5. **Missing punctuation in the pinned source is corrected by the run, without asking.** If the
+   source drops a stop, comma or other mark that the printed edition has (or that an already-published
+   part prints for the same line), the run adds it to the source file, updates the `sha256` of every
+   part containing that line in `parts.json`, makes the draft's `t` match, and carries on. Limits:
+   punctuation only, never a letter, accent or word; one mark per place; nothing else in the source
+   changes. Record each correction (work, line, mark added, parts re-pinned) in the work's `LOG.md`.
+   The owner approved this on 2026-10-06 (first cases: Odyssey 16.185 and 17.146); the run does not
+   need to ask, and does not need to stop. A defect that is not punctuation still goes to `QUESTIONS.md`.
+6. Audio for modern languages is built by `.github/workflows/audio.yml` on the runner when a root
    `*.json` is pushed; ancient-language audio is a separate phase per work.
 
 ## The queue — one routine for every work, forever

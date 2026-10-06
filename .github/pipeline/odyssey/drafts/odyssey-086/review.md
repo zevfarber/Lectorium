@@ -57,3 +57,51 @@ Severity: high = wrong Greek-to-English or a note claiming something false that 
 ## Outside this part (not edited)
 
 odyssey-085, last unit (ln 407, lines 407–408), has no closing ” and its note says "Antinous’s speech runs on into the next part". It does not: 409 (ὣς ἄρ’ ἔφη) is narration after the speech, so the speech ends at 408 and that unit should close it. The runbook forbids editing another part’s files, so this is recorded here; whoever owns 085 (already published) should add ” to its `l` and `i` and correct the note. Part 086 does not depend on it (its first unit carries no quotation mark and its note now says the speech ended at 408).
+
+# Review, pass 2 — odyssey-086 (Odyssey 17.409–507)
+
+Reviewer: pass 2, redone from scratch on the already-edited `units.json`, and extended to every entry of `gloss.json` (98 novel entries, 14 `__broaden__` entries, and the known-form entries for the forms of this part, read against the lines). No modern translation consulted. `t` untouched (checked by script: every `t` identical before and after); `ln`, `p`, `mark`, `v` untouched. All edits by script. Whole-unit repeats (431, 434, 435, 436, 439, 440, 477, 482, 498) re-checked against the published units: `l` and `i` identical. Quotation marks re-checked unit by unit (`l` and `i` agree; every opening on a `mark` unit, every closing on the last unit of its speech).
+
+Totals, pass 2: 22 changes (0 high, 8 medium, 14 low) — 3 in `units.json`, 19 in `gloss.json`; 0 scansion flags (none in the packet).
+
+## Changes made (pass 2)
+
+| Line | Field | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| 466 | l | low | δ’ of ἂψ δ’ ὅ γ’ left out of `l`. | `l` now begins "And back, then, he". |
+| 468–469 | n | medium | Cross-reference false: said line 469 is 7.186; the published unit of odyssey-031 begins at 7.186 with κέκλυτε … μέδοντες, so 469 (ὄφρ’ εἴπω …) is 7.187. | "7.187". |
+| 458 | n | medium | Called ἐχολώσατο "the aorist of χολόω"; the form is the aorist middle of χολόομαι (the glossary lemma). | "the aorist middle of χολόομαι". |
+| 463 | gloss πρυμνότατον | medium | Parse said "(with νῶτον)", but νῶτον is neuter and the unit’s own note takes it with ὦμον, as πρυμνὸν ὦμον at 504. | "masc. acc. sg., agreeing with ὦμον: ’at its very base’". |
+| 425 | gloss πολυπλάγκτοισιν | medium | Meaning "much-wandering": contradicts the house rendering (wandering is kept for ἀλάομαι / ἀλητεύω; πλάζω is "straying", "roaming") and the unit’s own `l`. | "much-straying, far-roaming (from πλάζω ’drive astray’)". |
+| 449 | gloss ὥς (broaden) | medium | The accented ὥς entry had no exclamatory reading; 449 is exclamatory ὥς before the enclitic τις. | Added "also exclamatory, ’how’, accented before the enclitic τις". |
+| 464 | gloss βέλος (broaden) | medium | Entry says "neut. acc. sg."; in βέλος Ἀντινόοιο it is the subject of σφῆλεν, nominative. | Added the nominative reading. |
+| 433 | gloss νήπια (broaden) | medium | Existing entry parses νήπια τέκνα as nom. pl.; in ἄγον … νήπια τέκνα it is accusative (the existing entry is not rewritten). | Added "also neut. acc. pl., attributive, object of ἄγον". |
+| 443 | gloss ἄνασσεν (broaden) | medium | Entry says "+ dat."; Κύπρου ἶφι ἄνασσεν takes the genitive. | Added "also + gen." |
+| 460, 483 | gloss καλὰ, κάλ (broaden) | low | Entries give only the adjectival use (κάλ: "agreeing with ἱερά"); both lines use the adverb. | Added "also adverbial neut. acc. pl.: ’well, finely’" to each. |
+| 462, 473, 504 | gloss βάλε (broaden) | low | Entry only "throw, cast; ’cast’"; the lines use it of a blow that lands. | Added "also ’hit, strike’". |
+| 421 | gloss ἔλθοι (broaden, new part) | low | Example (ὁποῖος ἔοι … ἔλθοι) put the clause wrongly; the general relative is ὅτευ κεχρημένος ἔλθοι. | New part corrected: ’whatever he might come in need of’ (ὅτευ κεχρημένος ἔλθοι). |
+| 419 | gloss δόσκον | low | "(= ἐδίδουν ἄν)": the iterative takes no ἄν. | "(= Attic ἐδίδουν)". |
+| 413 | gloss γεύσεσθαι | low | Quoted sense ’to try, to put to the proof’ is not the sense in the line (taste of a gift). | ’to taste, to partake of’. |
+| 418 | gloss κλείω | low | "pres. 1 sg." only; with κε the form may be subjunctive (the unit’s note says so). | "pres. indic. or subj. 1 sg." |
+| 444 | gloss ἵκω | low | Quoted ’I have come’ only; the form is a present. | ’I come, I have come’. |
+| 456 | gloss ἀποπροελὼν | low | "= Attic ἀποπροελών" names the same form; the Attic verb is ἀφαιρέω. | "Attic ἀφελών". |
+| 472 | gloss ἀργεννῇς | low | Attic equivalent not named. | Added "Attic -αῖς". (Flagged doubt: the form is a dative plural fem. in -ῇς beside ὀΐεσσιν; the parse stands.) |
+| 490 | gloss βλεφάροιϊν | low | Flat "gen. dual" while the unit’s note says "probably a dual". | "neut. gen., probably dual". (Flagged doubt: a genitive after ἐκ is right.) |
+| 455 | gloss ἐπιστάτῃ | low | Stated "a dependant or suppliant" as the meaning. | "one who stands by (cf. ἐφίστημι); perhaps a dependant or suppliant at one’s door, exact sense uncertain". |
+| 484 | gloss οὐλόμεν | low | Led with "accursed" (turned down in new-renderings.md) and quoted ’you wretch!’ where `i` has "you ruinous man". | "ruinous, destructive … also a curse-word"; ’you ruinous one!’ |
+
+## Findings considered and refused (pass 2)
+
+- Glosser’s flagged ἔσθι’ (478): ἔσθιε elided, imperative of ἔσθω / ἐσθίω ‘eat’; the alternative ἴσθι ‘be’ would not be elided and would double καθήμενος. Entry right. Left.
+- ὤριστος (416): ὁ ἄριστος by crasis, matched by ὁ κάκιστος in the line before. Entry right. Left.
+- κιχείη (476): aorist optative of ἔκιχον with the athematic ending; the subject is τέλος (‘may the end overtake Antinous’), as the entry’s quote has it. Left.
+- ἐΰπλείην (466): fem. acc. sg. of ἐΰπλειος, agrees with πήρην. Left.
+- λώϊον (417): the entry parses it as neut. acc. sg. of λώϊος used as a noun; consistent with the note’s ‘better of food’. Left.
+- οὐλομένης (474), known entry says "perf. part."; not rewritten (the novel οὐλόμεν entry says only "part.", which holds for either).
+- 456 `i` "could not bring yourself" for οὔ τί μοι ἔτλης: οὔ τι ‘at all’ is not spelled out; `l` has "in no way". Left as a defensible English.
+- 478–480 `i` "by a foot or a hand" for ἢ ποδὸς ἢ καὶ χειρός: καί (‘even’) not carried; `l` has it. Left.
+- 484 `i` "is perhaps here" for πού: kept from pass 1 (a drafter’s call).
+- 409/462, 465/491, 468, 469, 477, 482, 498: repeated English consistent with the earlier units (checked by script).
+- Gloss entries read and found right as they stand: all other novel entries (αἰτίζων, βασιλείης, βλήεται, βλημένου, γαστέρος, … ἀχρημοσύνη, ἐΰθρονον, ἔοι, ἔπεχεν, ὑπέφηνε, ὦμον etc.), and the other __broaden__ additions (βάλεν, βάλοι, δαιτὸς, δόμεναι, μνηστῆρες, περὶ, στῆθ, ἀφνειὸν, ἅλα, ἔναιον, ἠέ, ἠῶ, ὁ), each checked against the line it serves. Known-form entries for the other forms of the part were read against their lines; the gaps listed above are the only ones found.
+- Scansion: none flagged; nothing added.
+- Note for the owner of odyssey-085 (pass 1’s finding about its last unit lacking ” and saying the speech runs on) stands; it still cannot be edited here.

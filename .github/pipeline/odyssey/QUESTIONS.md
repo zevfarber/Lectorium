@@ -460,3 +460,6 @@ A later run found the same block: 17.146 has no closing stop in the pinned sourc
 
 ## 2026-10-06 · odyssey-083 — published after the owner's go-ahead
 Owner said "add the stop": stop added after θαλάσσης at 17.146 in the source, sha256 of 083 updated, build and validator PASS, part published. Open item: the validator's identical-repeat rule forces the nested-speech marks of 17.124 and 17.145 to the published parts' marks (“ opening, no closing ’), so Menelaus’s speech inside Telemachus’s is unevenly quoted in 083. A fix would need the validator to ignore quote marks when comparing repeats.
+
+## 2026-10-06 · odyssey-086 — defect in published odyssey-085 (not fixed, out of scope)
+The last unit of odyssey-085 (ln 407, lines 407–408) has no closing ” on `l`/`i`, and its note says Antinous's speech runs on into the next part. 17.409 (ὣς ἄρ’ ἔφη) is narration, so the speech ends at 408. 086 does not depend on it. Fix: add ” to that unit's `l` and `i` in odyssey-085.json (and drafts) and correct the note. Also: ὑπερηνορεόντων is "overweening" in published odyssey-008/021 against the house table's "overbearing" (validator forces the copy); ἐπιστάτης (17.455) rendered "dependant" as a guess from the root.

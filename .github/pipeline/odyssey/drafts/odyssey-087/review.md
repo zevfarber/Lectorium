@@ -143,3 +143,131 @@ needs no change. The source and `t` were left as they are.
 14. **ἡ μὲν ἄρ’ ὣς ἀγόρευεν row against the table's ἡ μὲν ἄρ’ ὣς εἰποῦσ’ (15.43, "She, indeed, then so having
     spoken").** The new row has δέ answering μέν ("she … and he"), so no "indeed" is wanted; the two rows are
     kept apart on purpose by their verbs. Kept.
+
+---
+
+# odyssey-087 — review, pass 2 (17.508–606)
+
+Second reviewer, working fresh from conventions.md (house table searched by stem for every word of the part,
+glossary and notes sections), packet.md, units.json, new-renderings.md, gloss.json, novel-forms.json,
+known-forms.json, odyssey-glossary.json (old entries for every `__broaden__` key) and the published parts
+odyssey-001 to -086 in the repository root (every line of the part compared mechanically with every published line
+by word windows, then read). `t` was not touched (checked by script: all 75 `t` identical before and after; the
+17.512 `t`, which ends without the ano teleia, is left as it is). Edits made to units.json and gloss.json in place by
+script (diff: 10 changed lines in each file, nothing else). Build and validator were not run.
+
+Totals: 17 changes (0 high, 3 medium, 14 low); 14 findings considered and refused; 1 observation for the run
+owner (534 `t`, below).
+
+## Changes
+
+Line · field · severity · what was wrong · what was done
+
+1. 583 · l, n · medium · `l` "And indeed for you yourself thus it is much finer" for καὶ δὲ σοὶ ὧδ’ αὐτῇ πολὺ
+   κάλλιον; the same half-line is shipped twice as "And also for you yourself …" (odyssey-027 lines 39 and 60,
+   both with the note ‘and also, moreover’). A repeated line gets the same English. · `l` now "And also for you
+   yourself thus it is much finer, O queen,"; note now ‘and also, moreover’.
+2. ἔρχεό · gloss · medium · "accent thrown back by a following enclitic" is the wrong direction: ἔρχεο (a
+   proparoxytone) takes an extra acute on its last syllable before the enclitic μοι; nothing is thrown back. ·
+   now "extra acute on the last syllable from the following enclitic".
+3. θέλγοιτό · gloss · medium · same false claim ("accent thrown back by the enclitic"); the printed acute on the
+   ultima is the one the enclitic κε brings. · now "extra acute on the last syllable from the enclitic κε".
+4. 589 · l, n (+ new-renderings.md) · low · `l` "so was speaking" for ἡ μὲν ἄρ’ ὣς ἀγόρευεν; the same hemistich
+   (ἀγόρευε) is shipped as "She, then, so spoke" (odyssey-086 line 505), first ratified rendering wins; pass 1's
+   new row had fixed the divergent "was speaking". · `l` "She, then, so spoke, and he went off, …"; note gloss
+   ‘spoke’ (imperfect named); the new-renderings.md row rewritten to say "was speaking" is withdrawn and why.
+   `i` unchanged.
+5. 524 · l, i · low · the repeated half-line ἔνθεν δὴ νῦν δεῦρο τόδ’ is shipped (odyssey-086 line 444) as "From
+   there indeed now here to this place …" / "From there I have now come to this place"; ours had "now to here, to
+   this place" and "come here, to this place". · `l` "From there indeed now here to this place he came, suffering
+   woes,"; `i` "From there he has now come to this place, suffering woes, rolling on and on;".
+6. 511 · i · low · "a man who has roamed far" for πολυπλάγκτῳ; the table row πολύπλαγκτος (17.425) fixes `i`
+   "far-roaming". · "for he looks like a far-roaming man.”"
+7. 539 · i · low · "his own fatherland" for πατρίδα γαῖαν, which carries no possessive in the line (the table row
+   gives "his own" only where the line has ἥν/ἑήν; ᾧ παιδί two words later is the line's "own"). · "his
+   fatherland" (`l` already so).
+8. 541 · n · low · note called ἔπταρεν the aorist of πταίρω while the gloss lemma is πτάρνυμαι. · note now "πταίρω
+   (also πτάρνυμαι)".
+9. 545 · n · low · same for ἐπέπταρε: note ἐπιπταίρω, gloss ἐπιπτάρνυμαι. · note now "ἐπιπταίρω (also
+   ἐπιπτάρνυμαι)".
+10. ἑψιαάσθων · gloss · low · "(= Attic ἑψιάσθωσαν)"; the contracted equivalent of the form is ἑψιάσθων (-σθων is the
+    Attic 3 pl. imperative ending too). · "(= Attic ἑψιάσθων)".
+11. ἐπέπταρε · gloss · low · "unmarked ending -ε" says nothing (the point is the absent movable ν beside ἔπταρεν). ·
+    "without the movable ν (cf. ἔπταρεν)".
+12. δειελιήσας · gloss · low · "sup … ’having supped’" fixed a sense the note and new row call uncertain, and "having
+    supped" is the avoided rendering. · "take the evening meal (sense inferred from δείελος ’evening’; ’spend the
+    evening’ also given) … ’having taken the evening meal’".
+13. πολυπλάγκτῳ · gloss · low · "masc. dat. sg." though the form is masc./neut. · "masc./neut. dat. sg.".
+14. ἀκήρατα · gloss · low · "neut. nom. pl." though the form is also acc. pl. (the glossary writes nom./acc. for
+    such forms, e.g. ἄλλο, καλά). · "neut. nom./acc. pl.".
+15. ἀτελὴς · gloss · low · "masc. nom. sg." though the form is masc./fem. · "masc./fem. nom. sg.".
+16. ἐΰφρων · gloss · low · same. · "masc./fem. nom. sg.".
+17. αἰδοῖος · __broaden__ · low · the new reading's example translated αἰδοῖος ἀλήτης "a bashful vagrant", while the
+    house rendering (new row, `l` and `i`) is "shamefaced". · example now ’a shamefaced vagrant’. Old entry kept
+    whole.
+
+## Checked and found correct
+
+- Every note's grammatical labels and positional claims against the line (cases, numbers, tenses, moods,
+  "next line", "two lines later", "next unit", "line 529 / 508 / 514 / 522 / 543 / 551 / 570 / 594 / 599 / 602–603"
+  cross-references): no error beyond items 8–9. Possessive ᾧ (539) and the relatives ἣν (517), τῶν (557, 565), τοὺς
+  (596), ὅς (559) are labelled correctly and the article-forms are called pronouns or "article-like" in the
+  notes.
+- Quotation marks, by script: “ on the first unit and ” on the last unit of all eleven speeches in both `l` and
+  `i`, no others; `mark` exactly on those eleven first units, all with the right speaks/answers; `p` on the 15 ¶
+  units; no ASCII quote, backtick or double quote anywhere in `l`, `i`, `n`; `l` line count equals `t` line
+  count in every unit; no `\n` in any `i`.
+- Whole-unit reuse, by script against all published parts: 528, 537 (`τὰ δὲ πολλὰ κατάνεται.`), 548, 560, 585,
+  598 and 599 (`ἔσσεται οὕτως, ἄττα·`) have `l` and `i` identical to every published occurrence (17.537 and
+  17.599 included). Line-level reuse (534–537, 542, 551/574, 552, 564, 591, 602–604) matches the published
+  English line for line, apart from the gender or tense adaptations (she for he) pass 1 recorded and items 1, 4, 5.
+- gloss.json: all 66 forms are in novel-forms.json and none is already in odyssey-glossary.json; all entries
+  are under 230 characters, ’ only, no digits as line numbers, no "here"; the one homograph (ἄπειμι) has both
+  readings joined by " · ". Each `__broaden__` value begins with the old entry whole (checked against
+  odyssey-glossary.json, character for character) followed by " · "; the new reading is true of the line it
+  cites in every one of the eleven (αἰδοῖος, αὐτῶν, γενέσθαι, κ, κε, κήδεά, κεῖνα, κρήτῃ, νημερτέα, πλεῖον,
+  ὑπερηνορεόντων). The old κρήτῃ entry has U+2018 ‘ in it; it is the existing entry and must stay whole.
+- Known forms whose existing entry I checked against their use here and found already covering it: τῶν and τοὺς
+  as relatives, τοι (dative and particle), ὅ (= ὅτι), ὁ/οἱ/ἡ, ᾧ and ὅνδε (possessive), ἑ, κέ/κε/κ’ in all their uses
+  except those broadened, ἦ, τί/τι, ἠέ/ἢ, αὐτῇ (with σοί), ἔπ’, πόσιος.
+
+## Findings considered and refused
+
+1. **κῆρας "death-fates" / "spirits of death" (546) against the shipped "death and the fates" (odyssey-008 line
+   349, odyssey-025 line 385).** Kept. The later table rows κῆρα μέλαιναν, θάνατον καὶ κῆρα (16.169) and ἔκφυγε
+   κῆρα fix "death-fate" in `l` and "spirit of death" in `i` for κήρ; the shipped parts predate them. Conflict
+   between the two is for the run owner, not for this part.
+2. **γνώῃ gloss ’she may recognise’ pins the sex of the subject.** Kept: the quoted English in an entry is an
+   illustration of the parse (cf. εἰρέσθω ’let her ask’), not a line reference; it names no line.
+3. **χαλεπῶν "masc. gen. pl."** Kept: it is the agreement actually seen with μνηστήρων; the glossary
+   gives the gender of the noun an adjective agrees with (cf. ἀθανάτοισι "masc. dat. pl."), and only items 13–16 (ambiguity of case or
+   gender within the form) were treated as errors.
+4. **κέ has no "+ subj. in the protasis after εἰ" reading (556, εἰ δέ κέ σε γνώῃ).** Kept: the entry has "after εἴ"
+   and "after αἴ" for the same construction; the unaccented εἰ changes nothing about κέ.
+5. **τὰ δὲ πολλά (537) has no "article-like with an adjective" reading in τὰ.** Kept: covered by "’these things’";
+   the unit is a published one whose glossing already stands.
+6. **μοι (545 ὅ μοι υἱὸς) has no possessive reading.** Kept: "dat. of the person affected, ’from my …’" is the same
+   construction.
+7. **ἀνεδέγμεθ "aor. 1 pl."** Kept: the glossary writes "aor. 1 sg." for first person throughout (ἱκέτευσα,
+   ἔρυξα); the entry itself says athematic.
+8. **ἐξολέσειε "(-σειε = -σαι)".** Kept: the ending -σειε is Attic too, but the entry only says the two endings are
+   one optative; no false claim.
+9. **ἐρέωμαι without a tense.** Kept: pres./aor. is not decided for the epic subjunctive of ἔρομαι (εἴρομαι) and
+   the known entry for the same verb says nothing either.
+10. **ἔρυξα not marked "unaugmented".** Kept: for ἐρύκω the augment cannot be told from the stem (ἔρυξα may be
+    ἔ-ρυξα or unaugmented), and the unit note does not claim either.
+11. **νημερτέα broaden: "neut. acc. pl. as adv./predicative" against the old "used as a noun".** Kept: with πάντ’
+    as object of ἐνέποντα the word is not a noun; pass 1's reading stands and the old entry is whole inside.
+12. **Notes call τὰ in 537 "the article with a neuter plural".** Kept: it describes the article-like use of the
+    pronoun-form with πολλά, which is how the glossary words it.
+13. **αὐτῶν broaden "their own with no possessive expressed" overlapping the old "our own … no other possessive".**
+    Kept: different person and a different line; the old entry is whole and the new reading is its own.
+14. **μηχανόωνται "devise" (587) against the shipped "contrive" (odyssey-010, -011, -021).** Kept: the
+    table's μηχανάομαι "devise" (rows 14.340, 16.169) and the recent shipped parts (077, 078, 086) all say "devise".
+
+## Observation for the run owner (not an edit)
+
+- 17.534: the packet prints the published unit's `t` with ὄις (odyssey-005 line 55) while the archive text of this
+  part prints ὄϊς (with the diaeresis, 17.535). Because of that one character the unit is not a whole-unit
+  repeat for the validator's identity check; its `l` and `i` are nevertheless word for word the published ones,
+  as checked. `t` was not touched.

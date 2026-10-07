@@ -1,0 +1,17 @@
+# New renderings — odyssey-091 (18.320–428)
+
+| Greek | `l` | `i` | avoided on purpose |
+|---|---|---|---|
+| ξεῖνε τάλαν (18.327, vocative of τάλας, contemptuous) | "Stranger, sorry soul" | "Stranger, you sorry creature" | "wretched" (reserved for δύστηνος), "miserable" (δειλός), "poor fool" (κάμμορε), "poor man", "unhappy"; τάλας is from the root of τλῆναι "endure", and the pity in it is the speaker's scorn |
+| ἥ ῥ’ Ὀδυσῆ’ ἐνένιπεν ὀνειδείοις ἐπέεσσιν (whole-line speech introduction, 18.326; ἐνένιπεν as at 18.321) | "She then Odysseus rebuked with words of reproach:" | "She rebuked Odysseus with words of reproach:" | "addressed" (reserved for προσέειπε / προσέφη), "answered" (reserved for ἠμείβετο), "taunted" or "with taunts" (κερτομέων, κερτομίοισι), "insulting words", "reproachful words" (the adjective is kept as a noun phrase: ὄνειδος is "reproach") |
+| τὴν δ’ ἄρ’ ὑπόδρα ἰδὼν προσέφη πολύμητις Ὀδυσσεύς (whole-line reply-formula, 18.337; feminine hearer, the counterpart of the table’s τὸν δ’ ἄρ’ ὑπόδρα ἰδών line) | "Her then with a scowl looking addressed many-wiled Odysseus:" | "Then Odysseus of many wiles, looking at her with a scowl, spoke to her:" | "answered" (reserved for ἠμείβετο); kept on the table’s pattern, with only the pronoun and the hearer changed |
+| ὃ καὶ μεταμώνια βάζεις (half-line, 18.332 = 18.392) | "on which account also empty things you speak." | "which is why you talk such empty nonsense." | "idle words", "vain words" (the adjective is "empty"), "windy" (the derivation is only the usual one, μετά + ἄνεμος), "babble" |
+| λώβη θυμαλγής (18.347, λώβης … θυμαλγέος) | "heart-paining insult" | "insult that pained the heart" | "outrage" (the shipped `i` of ὑπερβασίη), "mockery", "painful abuse"; θυμαλγής keeps the table’s "heart-paining" (ἔπος θυμαλγές) |
+| ἀπηνής (18.381, νόος … ἀπηνής) | "unkind" | "unkind" | "harsh" (reserved for χαλεπός), "cruel" (σχέτλιος), "pitiless" (νηλεής), "unfeeling" (turned down at ἀναιδής), "stern" |
+| εὐκαμπής (of a sickle, 18.368, δρέπανον … εὐκαμπές) | "well-bent" | "finely curved" | "well-curved", "crooked", "sharp"; εὖ and κάμπτω "bend", kept parallel to the table’s ἐϋγνάμπτοις "well-bent" |
+| ἑαδότα μῦθον ἔειπε (half-line speech-closing formula, 18.422; ὣς φάτο, τοῖσι δὲ πᾶσιν ἑαδότα μῦθον ἔειπε) | "So he spoke, and to them all a pleasing speech he uttered." | "So he spoke, and what he said pleased them all." | "welcome", "agreeable" (say more than ἁνδάνω "please"), "a word they liked"; μῦθον ἔειπε keeps the table’s εἶπέ τε μῦθον "uttered a speech" |
+| βάν ῥ’ ἴμεναι κείοντες ἑὰ πρὸς δώμαθ’ ἕκαστος (whole-line close of a feast, 18.428) | "they set out to go, wishing to lie down, to their own houses, each one." | "they set out for their own houses, each to go to bed." | "went off to rest", "went home to sleep" (lose κείοντες, the desiderative "wishing to lie down"); built on the table’s βάν ῥ’ ἴμεν "they set out to go" and κακκείοντες ἔβαν οἶκόνδε ἕκαστος |
+| οἰνοχόος (18.396, 18.418) | "wine-pourer" | "the cupbearer" | "butler", "steward", "server", "wine-steward" |
+| Μούλιος ἥρως (18.423) | "Mulius the hero" | "Mulius the hero" | "Moulios", "Mulios"; the familiar Latinised form, as for the other names, and ἥρως keeps the table’s "the hero" |
+
+Applied, not new: αἴθων of oxen (18.372) keeps the table’s "fire-bright" in both layers, though "tawny" would suit beasts better; the note says once that of animals the word usually means a glowing red-brown.

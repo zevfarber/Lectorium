@@ -118,3 +118,51 @@ Recommended action (for the building run, not done here): add `.` after `δῶρ
 - The packet missed one repeated line (249 = 11.337, odyssey-054), which the half-line-repeat gap in packet.py explains; found by a line-level scan of all published parts.
 - Five notes carried a false grammatical label or a form not in the line (217, 261, 272, 304, 306); the `l`/`i` layers were sound on those lines.
 - Unit 217's note is at 129 words, one under the validator's cap.
+
+## Pass 2 (gloss.json, and a second reading of units.json)
+
+Scope: all 90 novel entries and 9 broadened entries of gloss.json against the line and against the notes as corrected in Pass 1; every one of the 450 known forms read against its use in this part to see whether the existing entry covers it; entry format (`—` shape, under 230 characters, typographic ’ only, no backtick, no line numbers, no "here"); every `__broaden__` entry checked as old entry whole + ` · ` + new reading. A coverage script finds no form of the part without an entry, no novel entry that is not in the part, no redefinition of an existing form. units.json was read once more in full; nothing further needed changing (no pass-2 edits to units.json, `t` untouched).
+
+Counts: **0 high, 4 medium, 10 low** changes in gloss.json (5 new broadenings among them).
+
+### Changes in gloss.json
+
+**Medium**
+
+| Form | What was wrong | What was done |
+|---|---|---|
+| ἴασον | "obscure epithet of Ἄργος (Peloponnesian Argos)": states as fact an identification the note (rightly) calls uncertain ("the Peloponnese or Greece in general"). | "obscure epithet of Ἄργος (meaning not certain)". |
+| κληῗσιν (broadened) | Existing entry covers only thwart/rowing-bench (also thole-pin, key, bar); this part uses it for the hook or clasp of a brooch. | Old entry whole + " · also hook, clasp of a brooch: ’hooks’ (κληῗσιν ἐϋγνάμπτοις ’well-bent hooks’)". |
+| πάροιθε (broadened) | Existing entry is "adv. of place" only; the part uses it of time (τὸ πάροιθε, "formerly") — and the new τὸ broadening points at it. | Old entry whole + " · also of time: ’formerly, before’ (τὸ πάροιθε)". |
+| νοῆσαι (broadened) | Existing entry: "to glimpse, to notice"; this part has it as "think of, think out" (πεπνυμένα πάντα νοῆσαι). | Old entry whole + " · also ’think out, think of’ (πεπνυμένα πάντα νοῆσαι ’to think of all prudent things’)". |
+
+**Low**
+
+| Form | What was wrong | What was done |
+|---|---|---|
+| ἐϋγνάμπτοις | "epic -οις": -οις is the ordinary dative ending (Attic too). | Dropped the claim. |
+| ἐνώμας | "iterative": the form is a plain contracted imperfect (the note says "a repeated action", not an iterative formation). | Dropped "iterative". |
+| ἐπέσσευεν | "(= ἐπέσευεν)": not an Attic form of anything; the doubled σ is that of the aorist ἔσσευα. | "epic form with doubled σ (aor. ἔσσευα of σεύω)". Agrees with the note's "aorist". |
+| εὐρυδάμαντι | "one of Penelope’s suitors": the part shows him among the Achaeans who send gifts, which is what the note says. | "one of the suitors". |
+| μορόεντα, τρίγληνα | ", of earrings": pins a context into an entry that must be general to the form. | Removed from both. |
+| μέγεθος | "’to your stature’": pins the possessive of one line. | "’to stature’". |
+| ἐθέλωσιν | "ἤν = εἰ + ἄν" where the known-forms entry for ἤν says ἐάν. | "ἤν = ἐάν". |
+| νεμεσσῶμαι (broadened) | Existing entry says "+ dat."; the part has the person in the accusative with an infinitive. | Old entry whole + " · also + acc. of the person and an infinitive: ’resent (you) for …’ (οὔ σε νεμεσσῶμαι κεχολῶσθαι)". |
+| δέμας (broadened) | Existing entry: "accusative of respect"; at this line it is a direct object (or in apposition) after εἶδός τε. | Old entry whole + " · also neut. acc. sg., direct object or in apposition: ’body’ (εἶδός τε δέμας τε ’form and body’)". |
+| τὸ (broadening by the drafter) | The new reading was glossed "’formerly’ (τὸ πάροιθε ’as before’)", two renderings at once. | Example now reads ’in former times’; old entry still whole. |
+
+### Checked and correct (no change)
+
+- Parses against the corrected notes: ἔκριναν (aor. 3 pl., with κε, general relative; the κε broadening says so), ἐπέσσευεν (aor.), ἀνέσει (future, or short-vowel subjunctive; the note and entry both say so), δέξασθ’ and γήμασθ’ (infinitives δέξασθαι, γήμασθαι, elided, used as imperatives; the entry for δέξασθ’ also says "not a plural δέξασθε"), ἕσπερον (known entry: masc. acc. sg.; the note makes it the accusative subject of the infinitive in tmesis), ἀπηύρα (known entry "aor. 3 sg., unaugmented", consistent with the note's person-in-genitive), δαινύατ’ (opt. 3 pl. mid.), λελῦτο (perf. opt. 3 sg. pass., "usual view"), ἐερμένον (masc. acc. sg., agreeing with ὅρμον, which the known entry gives as masc.), μορόεντα and τρίγληνα (neut. acc. pl., sense uncertain, said to be so), ἴδοιεν, πάθοι, φαίη, πέλοιτο, νεύοιεν, φαείνοιεν, ἀμφιπολεύοι (moods and tenses all match the notes).
+- Εὐρυδάμας and Πείσανδρος "a suitor": supportable from the part (the Achaeans who send gifts after Antinous' proposal are the suitors, 18.290–301), and both entries say no more.
+- The other 9 broadened entries are all old entry whole + " · " + a new reading, and each new reading is true of its use: γυναικῶν (περίεσσι γυναικῶν), κε (οἵ κε … ἔκριναν), μίμνειν (transitive "wait for"), τὰ (τὰ χέρεια), τὸ (τὸ πάροιθε), βίῃ (dative of respect), θέλγε (impf. 3 sg., unaugmented), ἐθέλωσι (general relative without κε), χρύσεον (masc. acc., with ὅρμον).
+- Format: all entries under 230 characters, typographic ’ only, no backtick, no line numbers, no "here". Entries that give an example phrase (αἰνὸν ἄχος, ὅπῃ οἱ νόστος, κρίνω … οἵ κε) quote it as an illustration of the form, not as a pin to a line, as the existing glossary does.
+- Known forms read against their use in the part (450): existing entries cover the use in every other case (checked especially: ἐπί/ἐπὶ in tmesis, ὄφρα + opt., ἵνα "where", κάτα/κατά in tmesis, ὅς κ’, τῷ "therefore" and "him", τοι, φώς "man", ἠῶ as object of "wait for", βασίλεια nom., οὐλομένης, ἀπηύρα).
+
+### Refused
+
+- λελῦτο "perf. opt." and ἀνέσει "fut., or short-vowel subjunctive": both are the usual views with the doubt stated; nothing firmer can be said from LSJ/Monro alone. Kept.
+- ὁμοιΐου "(= ὅμοιος)": the equation is the lexicon's, and the entry says "sense disputed". Kept.
+- ἴσθμιον "neck-band, necklace": the note says "something worn at the neck"; consistent. Kept.
+- δαινύατ’ lemma δαίνυμαι (not δαίνυμι): the middle is the form used; the note names δαίνυμι as a heading. Kept.
+- οὐλομένης (known entry "accursed, destructive, ruinous"): the unit renders "ruined"; the entry's gloss list allows it and the new-renderings row explains the choice. Not broadened.

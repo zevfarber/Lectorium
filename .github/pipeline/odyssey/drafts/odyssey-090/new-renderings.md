@@ -1,0 +1,27 @@
+# New renderings — odyssey-090 (Odyssey 18.215–319)
+
+| Greek | `l` | `i` | avoided on purpose |
+|---|---|---|---|
+| Εὐρύμαχος δ’ ἐπέεσσι προσηύδα Πηνελόπειαν (whole-line speech introduction, 18.244; name + ἐπέεσσι προσηύδα) | "and Eurymachus with words spoke to Penelope:" | "and Eurymachus spoke to Penelope:" | "answered" (reserved for ἠμείβετο), "addressed" (reserved for προσέειπε / προσέφη); προσηύδα keeps "spoke to", as in the table's καὶ τότε δή μ’ ἐπέεσσι προσηύδα πότνια Κίρκη |
+| τὸν δ’ ἠμείβετ’ ἔπειτα περίφρων Πηνελόπεια (whole-line reply-formula, 18.250) | "Him then answered circumspect Penelope:" | "Then circumspect Penelope answered him:" | "wise Penelope", "prudent Penelope" (reserved for πεπνυμένος); built on the table's τὸν/τὴν δ’ ἠμείβετ’ ἔπειτα and περίφρων Πηνελόπεια |
+| ὣς φάτο, γήθησεν δὲ πολύτλας δῖος Ὀδυσσεύς (18.281; the shipped line, with ὣς φάτο of a woman speaking) | "So she spoke, and rejoiced much-enduring, heavenly Odysseus," | "So she spoke, and much-enduring, heavenly Odysseus rejoiced," | "was glad" (keeps γήθησεν "rejoiced"); the shipped wording of odyssey-032 with "she" for the speaker |
+| τὴν δ’ αὖτ’ Ἀντίνοος προσέφη, Εὐπείθεος υἱός (reply-formula, feminine object, 18.284; the table has the masculine τὸν δ’ αὖτ’) | "Her then in turn addressed Antinous, Eupeithes’ son:" | "Then Antinous, son of Eupeithes, spoke to her in turn:" | "answered" (reserved for τὸν/τὴν δ’ ἠμείβετ’ ἔπειτα) |
+| αὐτὰρ ὁ τῇσιν / αὐτὸς διογενὴς μετέφη πολύμητις Ὀδυσσεύς (two-line speech introduction across 18.311–312) | "but he, to them / himself, Zeus-sprung, spoke among them, many-wiled Odysseus:" | "Then Odysseus himself, Zeus-born, of many wiles, spoke among them:" | "addressed" (reserved for προσέφη), "godlike" (reserved for ἀντίθεος); builds on the table's μετέφη "spoke among", διογενής "Zeus-sprung / Zeus-born" and πολύμητις "many-wiled / of many wiles" |
+| τοῖσι δὲ τερπομένοισι μέλας ἐπὶ ἕσπερος ἦλθεν (18.306) | "And to them taking their pleasure dark evening came on." | "As they took their pleasure, dark evening came on them." | "night fell" (ἕσπερος is evening, not νύξ), "black" for μέλας, "dusk" |
+| ὠκύποδες ἵπποι (18.263, ἵππων ὠκυπόδων) | "swift-footed horses" | "swift-footed horses" | "fleet-footed", "swift horses" (that is ὠκέες ἵπποι, which has no -ποδ-); extends the table's ὠκύς "swift" |
+| ἀλλότριος φώς (18.219) | "a foreign man" | "a foreign man" | follows the table row (16.102) |
+| φρένες ἔμπεδοι · φρένες ἐναίσιμοι (18.215, 18.220) | "wits firm" · "wits fitting" | "wits firm" · "wits fitting" | "steady", "sound" (for ἔμπεδοι); "right", "reasonable", "sensible" (for ἐναίσιμοι; ἐναίσιμος keeps the αἶσα family, "fitting", as in the table's αἴσιμα · ἐναίσιμον) |
+| ἥβης μέτρον ἱκάνεις (18.217) | "reaching the measure of youth" | "coming to the measure of youth" | follows the table row (11.317) "the measure of youth" |
+| ποικίλον πέπλον (18.292–293, of a robe) | "intricate" | "intricately worked" | "many-coloured", "embroidered" (each picks one kind of pattern), "inlaid" (reserved for wood and metal); extends the table's ποικίλος δεσμός "intricate" |
+| κληῒς ἐϋγνάμπτη (18.294, κληῗσιν ἐϋγνάμπτοις) | "well-bent hooks" | "well-bent hooks" | "well-curved", "finely bent"; ἐύ- is "well" here as in ἐυκτιμένη "well-built", not "fair" |
+| πολυδαίδαλος (18.295, ὅρμον … πολυδαίδαλον) | "much-wrought" | "of elaborate work" | "much-adorned", "cunningly wrought" (cunning is reserved for μῆτις / δόλος words), "intricate" (reserved for ποικίλος) |
+| τρίγληνα μορόεντα (18.298; both words uncertain in meaning) | "three-eyed, mulberry-like" | "with three drops, mulberry-like" (+ note: sense not certain) | "three-stoned", "berry-shaped" (each silently picks one guess) |
+| ὁμοίιος πόλεμος (18.264, ὁμοιΐου πολέμοιο; sense uncertain) | "even-handed war" | "even-handed war" (+ note: sense not certain) | "equal", "impartial", "common war" (each fixes one reading) |
+| λαμπτῆρες (18.307) | "braziers" | "braziers" | "torches" (reserved for δαΐδες), "lamps", "lanterns" |
+| δαΐδες (18.310; the table has αἰθομένας δαΐδας "burning torches") | "torches" | "torches" | "brands", "pine-torches" |
+| ὑπερώϊα (plural, 18.302; the table has ὑπερώϊον "an upper room") | "the upper rooms" | "her upper rooms" | "upper chambers" (kept for θάλαμος-type words), "attic" |
+| ἠλάκατα στροφαλίζετε (18.315) | "the yarn spin" | "spin your yarn" | "twirl the spindles" (ἠλάκατα is yarn in the table, 17.97), "turn the distaffs" |
+| αἰδοίη βασίλεια (18.314) | "the revered queen" | "the revered queen" | "honoured", "modest" (as in the table's αἰδοίη ταμίη "a revered housekeeper"); "queen" kept for βασίλεια |
+| ἀγλαὰ δῶρα (18.279) | "splendid gifts" | "splendid gifts" | "lovely", "glorious" (reserved for φαίδιμος); follows the table's ἀγλαός "splendid" |
+| ἄλλο δ’ ἄρ’ ἄλλος δῶρον Ἀχαιῶν καλὸν ἔνεικεν (18.301) | "And another gift another of the Achaeans, a fine one, brought." | "And each of the other Achaeans brought a different fine gift." | "one after another", "in his turn" (drop the paired ἄλλο … ἄλλος) |
+| πολυτλήμων (18.319, of Odysseus himself) | "much-enduring" | "I have very great endurance" | keeps the τλῆναι family of the table's πολύτλας "much-enduring"; "long-suffering" (turned down there) |

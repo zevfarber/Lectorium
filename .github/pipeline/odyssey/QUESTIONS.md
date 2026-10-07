@@ -469,3 +469,5 @@ The last unit of odyssey-085 (ln 407, lines 407–408) has no closing ” on `l`
 2. odyssey-093's last unit (line 202) lacks the closing ” on `l` and `i`; the Cretan speech that opens at 19.165 ends at 202. Not fixed (out of scope).
 3. κτήματα: the table row for 17.532 says "possessions"; the published odyssey-069 (14.321, repeated at 19.293) says "goods". 094 follows the published wording.
 4. 19.230 scans as ambiguous (two equal readings, both needing ordinary synizesis and correption); judged regular, no note added.
+5. odyssey-095, unit 310–311: same Greek as the published odyssey-076 unit, whose English ends with ”. The validator's repeat-unit rule requires identical l/i, so the stray closing ” is kept although Penelope's speech continues to 334. Options: let the validator ignore quotation marks when comparing repeats, or fold 310–312 into one unit. Left as is.
+6. odyssey-095: library conflict on λέβης: the table (15.84) says "cauldron", published odyssey-002 and -013 say "basin". 095 follows the table.

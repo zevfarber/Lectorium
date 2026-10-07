@@ -1,0 +1,2 @@
+| νῆες κορωνίσιν / νηυσὶ κορωνίσιν (19.182, 19.193; κορωνίς 'curved') | "curved ships" | "curved ships" | "beaked", "crook-beaked" (read the crow-word into the ship), "hollow" (reserved for κοῖλος, as in the table's κοίλῃς ἐνὶ νηυσίν), "crooked"; the same adjective in the noun-phrase νηυσὶ κορωνίσιν Ἴλιον εἴσω, kept identical at both lines |
+| δῖοι Ἀχαιοί (19.199) | "the heavenly Achaeans" | "the heavenly Achaeans" | "divine" (reserved for θεῖος), "noble", "brilliant", "goodly"; δῖος keeps the table's "heavenly" in the plural, as for places and for Odysseus |

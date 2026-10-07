@@ -463,3 +463,9 @@ Owner said "add the stop": stop added after θαλάσσης at 17.146 in the so
 
 ## 2026-10-06 · odyssey-086 — defect in published odyssey-085 (not fixed, out of scope)
 The last unit of odyssey-085 (ln 407, lines 407–408) has no closing ” on `l`/`i`, and its note says Antinous's speech runs on into the next part. 17.409 (ὣς ἄρ’ ἔφη) is narration, so the speech ends at 408. 086 does not depend on it. Fix: add ” to that unit's `l` and `i` in odyssey-085.json (and drafts) and correct the note. Also: ὑπερηνορεόντων is "overweening" in published odyssey-008/021 against the house table's "overbearing" (validator forces the copy); ἐπιστάτης (17.455) rendered "dependant" as a guess from the root.
+
+## 2026-10-07 · odyssey-094 — open items (none blocks publication)
+1. Source line 19.251 ends with a full stop ("γόοιο.") where 19.213 (same words) has a comma and the sense runs on into 252 (καὶ τότε…). Not a missing mark, so rule 5 was not applied; the source is unchanged and the unit ends at the full stop. Murray's printed text very likely has a comma; a one-mark substitution would need re-pinning 094's sha256.
+2. odyssey-093's last unit (line 202) lacks the closing ” on `l` and `i`; the Cretan speech that opens at 19.165 ends at 202. Not fixed (out of scope).
+3. κτήματα: the table row for 17.532 says "possessions"; the published odyssey-069 (14.321, repeated at 19.293) says "goods". 094 follows the published wording.
+4. 19.230 scans as ambiguous (two equal readings, both needing ordinary synizesis and correption); judged regular, no note added.

@@ -873,6 +873,13 @@ inconsistency already noted at row 274.
 | κεκοτηότι θυμῷ (19.71; perfect participle of κοτέω; cf. κοτεσσάμενος "bearing a grudge") | "with a grudge-bearing heart" | "with a heart full of resentment" | "angry heart", "bitter heart" (lose κότος 'resentment'); θυμός keeps "heart" |
 | ὃ σῇ κεφαλῇ ἀναμάξεις (19.92; ἀναμάσσω "wipe off") | "which on your own head you will wipe off" | "which you will wipe off on your own head" (+ note: the guilt is a stain wiped onto the head) | "you will pay for", "for which you will answer" (lose the image, as in ἕρκος ὀδόντων) |
 | Names in 19.1–103 | Icmalius, Melantho, Eurynome, Eurycleia, Telemachus, Penelope, Athena (Pallas), Artemis, Aphrodite, Apollo, Zeus, Cronus (Κρονίων), Odysseus | same | "Ikmalios", "Melantheus", "Eurynomê"; the familiar Latinised forms, as for the other names in the table |
+| πολυκλύστῳ πόντῳ (19.277; πολύκλυστος "much-washed by waves") | "the much-washed open-sea" | "the wave-washed sea" | "much-surging", "stormy", "wave-tossed" |
+| οὐλοκάρηνος (19.246; of Eurybates; the cloak's οὔλην at 19.225 takes the χλαῖναι οὖλαι row, "thick") | "woolly-headed" | "woolly-haired" | "curly-headed" |
+| λάω / λάε / λάων (19.229–230; meaning not known; ancient guesses 'gaze at', 'grip') | "gripping" | "gripping" (+ note: meaning not known) | "gazing at" stated as fact |
+| τερμιόεις (19.242; uncertain sense, from τέρμα) | "with a border" | "bordered" (+ note: sense uncertain) | "fringed" |
+| δίπλαξ · διπλῆν (19.241, 19.226) | "a double cloak" · "double" | same | "folded" |
+| Κακοΐλιον οὐκ ὀνομαστήν (19.260) | "Evil-Ilium, not to be named" | "Evil-Ilium, a place not to be named" | "Ill-Ilium" |
+| Names in 19.203–307 | Eurybates, Thesprotians, Pheidon, Dulichium, Dodona, Thrinacia, Helios, Phaeacians | same | Latinised forms other than those the table already uses |
 
 ## Glossary entries
 

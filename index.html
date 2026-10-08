@@ -804,13 +804,11 @@ function simplifyConfig(story){
   // which the old three-rung ladder made unreachable. Own state key: Arabic vowels and Old
   // English plain letters are different ideas and must not share a saved setting.
   if ((story.language && /arabic/i.test(story.language)) || story.script === 'arabic')
-    return { label: 'ٰ bare', title: 'Bare script — hide the editorial vowel points and read the rasm as the edition prints it',
-             labelOn: 'ٰ vowels', titleOn: 'Vocalized — put the editorial tashkīl back',
+    return { vowels: true, title: 'Vowels — show or hide the editorial vowel points (tashkīl); off shows the rasm as the edition prints it',
              stateKey: 'bareAR', fn: bareLettersAR };
   // Hebrew: the same single job — the manuscript's vowel points on, or the bare consonantal text.
   if ((story.language && /hebrew/i.test(story.language)) || story.script === 'hebrew')
-    return { label: 'ב bare', title: 'Bare script — hide the vowel points and read the consonants alone',
-             labelOn: 'בָּ points', titleOn: 'Pointed — put the vowel points back',
+    return { vowels: true, title: 'Vowels — show or hide the vowel points (nikkud)',
              stateKey: 'bareHE', fn: bareLettersHE };
   // Old Norse: same þ/ð/æ letterforms plus the nasal vowel ǫ and the ligature œ; keep acute length marks.
   if ((story.language && /norse/i.test(story.language)) || /[ǫœǪŒ]/.test(txt))
@@ -4661,6 +4659,9 @@ function plainStateKey(){ return (activeSimplify && activeSimplify.stateKey) || 
    label keep their single label and just show pressed/unpressed. */
 function updatePlainBtn(){
   const pb = $('plainBtn'); if (!pb || !activeSimplify) return;
+  if (activeSimplify.vowels) {          // an on/off switch like Transcription: lit = vowels shown
+    pb.textContent = 'Vowels'; pb.title = activeSimplify.title; pb.classList.toggle('active', !plainMode); return;
+  }
   pb.textContent = (plainMode && activeSimplify.labelOn) ? activeSimplify.labelOn : activeSimplify.label;
   pb.title = (plainMode && activeSimplify.titleOn) ? activeSimplify.titleOn : activeSimplify.title;
   pb.classList.toggle('active', plainMode);

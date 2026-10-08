@@ -24,6 +24,9 @@ WORD_CLASS = (
     'ؠ-ٰٟ-ۓە-ۭ'
     # Devanagari: letters, vowel signs, virama, anusvara/visarga, avagraha; not danda or digits.
     'ऀ-ॣॱ-ॿ'
+    # Hebrew: letters, vowel points and accents (part of the word), geresh/gershayim (abbreviations);
+    # not maqaf U+05BE, paseq U+05C0, sof pasuq U+05C3. Mirrors reader.html (2026-10-08).
+    '\u0591-\u05BD\u05BF\u05C1\u05C2\u05C4\u05C5\u05C7\u05D0-\u05EA\u05F0-\u05F4'
 )
 HAN_CLASS = '㐀-䶿一-鿿豈-﫿'
 WORD_RE = re.compile('[' + HAN_CLASS + ']|[' + WORD_CLASS + ']+(?:[-\\[\\]()][' + WORD_CLASS + ']+)*')

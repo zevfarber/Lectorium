@@ -16,7 +16,7 @@ import json, os, subprocess, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from wordre import sent_tokens
 
-VOICE_LANGS = {"de-DE", "fr-FR", "zh-CN", "ar-XA"}   # keep in sync with build_audio.py VOICES
+VOICE_LANGS = {"de-DE", "fr-FR", "zh-CN", "ar-XA", "he-IL"}   # keep in sync with build_audio.py VOICES
 # Languages read by a carrier voice under IPA pins (build_pinned.py PINNED). A language goes in
 # PINNED_AUTO once its pilot reading is approved; before that only an explicit dispatch builds it.
 PINNED_AUTO = {"Ancient Greek",     # approved by ear 2026-10-04 (WaveNet voice)

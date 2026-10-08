@@ -51,6 +51,13 @@ def spoken_text(s):
 
 
 def words(text):
+    if re.search("[\u05D0-\u05EA]", text):
+        # Hebrew: compare consonant skeletons. Whisper writes unpointed, usually plene Hebrew; the
+        # text is pointed and often defective, so drop points, geresh, final forms and the matres
+        # vav/yod before counting word errors (2026-10-08).
+        text = re.sub("[\u0591-\u05C7\u05F3\u05F4'\"]", "", text).replace("-", " ")
+        text = text.translate(str.maketrans("ךםןףץ", "כמנפצ"))
+        return [w for w in (re.sub("[וי]", "", x) for x in re.findall("[\u05D0-\u05EA]+", text)) if w]
     text = unicodedata.normalize("NFC", text.lower())
     text = re.sub(r"[\u2019'`\-\u2013\u2014]", " ", text)
     return re.findall(r"[a-z\u00e0-\u00f6\u00f8-\u00ff\u0153\u00e6]+", text)

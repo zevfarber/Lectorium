@@ -40,6 +40,9 @@ VOICES = {
     # text, so a real voice exists. Name left empty on first run so resolve_voice() picks
     # deterministically and writes it to audio/<id>/voice.txt; pin it here afterwards.
     "ar-XA": {"name": "ar-XA-Chirp3-HD-Achernar", "lang": "ar-XA", "espeak": "ar"},   # resolved 2026-09-20, pinned 2026-09-21
+    # Hebrew (Pirkei Avot, 2026-10-08): Modern Israeli reading of the pointed text. Name left empty so
+    # the first run resolves it deterministically and writes audio/<id>/voice.txt; pin it afterwards.
+    "he-IL": {"name": "", "lang": "he-IL", "espeak": "he"},
 }
 
 VOICES_URL = "https://texttospeech.googleapis.com/v1/voices"

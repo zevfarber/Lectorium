@@ -477,3 +477,10 @@ The last unit of odyssey-085 (ln 407, lines 407–408) has no closing ” on `l`
 
 ## 2026-10-08 · odyssey-097 — resolved
 The 19.582 stop was added under README rule 5 (see LOG.md); odyssey-097 is published. The block recorded on 2026-10-07 no longer applies.
+
+## 2026-10-08 · odyssey-100 — open items (none blocks publication)
+1. Line 200 (`ἀτὰρ μὲν νῦν γε κακοῖς ἔχεαι πολέεσσι.`) repeats odyssey-089; the validator's repeat rule forces a closing ” on it although Philoetius's speech continues to 225 (same issue as odyssey-095 item 5). Kept, with a sentence in the note.
+2. The 20.261 half-line `καί μιν πρὸς μῦθον ἔειπεν`: new-renderings row says “and to him a speech he said:”, but published odyssey-021/071/086/098 each render it differently; one of the four should become the house wording.
+3. 227 ἄφρων: the table says “senseless”; shipped odyssey-028 has “foolish”. 100 follows 028.
+4. 250–251 ἱερεύω: 100 uses “slaughtering” (table, and seven other parts); odyssey-083's `l` says “sacrificing”.
+5. 284 λώβης θυμαλγέος: “insult” follows the row for 18.347; the 19.373 row for λώβη alone turns “insult” down.

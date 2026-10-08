@@ -42,7 +42,7 @@ VOICES = {
     "ar-XA": {"name": "ar-XA-Chirp3-HD-Achernar", "lang": "ar-XA", "espeak": "ar"},   # resolved 2026-09-20, pinned 2026-09-21
     # Hebrew (Pirkei Avot, 2026-10-08): Modern Israeli reading of the pointed text. Name left empty so
     # the first run resolves it deterministically and writes audio/<id>/voice.txt; pin it afterwards.
-    "he-IL": {"name": "", "lang": "he-IL", "espeak": "he",
+    "he-IL": {"name": "he-IL-Chirp3-HD-Achernar", "lang": "he-IL", "espeak": "he",   # pinned 2026-10-08
               "candidates": ["he-IL-Chirp3-HD-Achernar", "he-IL-Wavenet-A", "he-IL-Standard-A"]},
 }
 

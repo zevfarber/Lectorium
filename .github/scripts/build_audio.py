@@ -42,7 +42,8 @@ VOICES = {
     "ar-XA": {"name": "ar-XA-Chirp3-HD-Achernar", "lang": "ar-XA", "espeak": "ar"},   # resolved 2026-09-20, pinned 2026-09-21
     # Hebrew (Pirkei Avot, 2026-10-08): Modern Israeli reading of the pointed text. Name left empty so
     # the first run resolves it deterministically and writes audio/<id>/voice.txt; pin it afterwards.
-    "he-IL": {"name": "", "lang": "he-IL", "espeak": "he"},
+    "he-IL": {"name": "", "lang": "he-IL", "espeak": "he",
+              "candidates": ["he-IL-Chirp3-HD-Achernar", "he-IL-Wavenet-A", "he-IL-Standard-A"]},
 }
 
 VOICES_URL = "https://texttospeech.googleapis.com/v1/voices"
@@ -58,8 +59,21 @@ def resolve_voice(cfg, key):
     if cfg.get("name"):
         return cfg["name"]
     url = "%s?languageCode=%s&key=%s" % (VOICES_URL, cfg["lang"], key)
-    with urllib.request.urlopen(url, timeout=60) as r:
-        voices = json.load(r).get("voices", [])
+    try:
+        with urllib.request.urlopen(url, timeout=60) as r:
+            voices = json.load(r).get("voices", [])
+    except urllib.error.HTTPError as e:
+        # The key may be allowed to synthesize but not to list voices (403 seen 2026-10-08).
+        # Then try the configured candidates in order and keep the first one that speaks.
+        print("voice list refused (%s); trying candidates" % e.code)
+        for cand in cfg.get("candidates", []):
+            try:
+                synth("\u05e9\u05c1\u05b8\u05dc\u05d5\u05b9\u05dd" if cfg["lang"].startswith("he") else "test", dict(cfg, name=cand), key)
+                print("resolved voice for %s: %s (by test synthesis)" % (cfg["lang"], cand))
+                return cand
+            except Exception as e2:
+                print("  %s: not usable (%s)" % (cand, e2))
+        raise
     if not voices:
         raise SystemExit("No TTS voices offered for %s" % cfg["lang"])
 

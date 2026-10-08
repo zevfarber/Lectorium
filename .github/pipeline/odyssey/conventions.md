@@ -2217,3 +2217,25 @@ the reviewing agent and recorded. The reader shows it only when the Scansion tog
 | ἐπαοιδή (19.457, ἐπαοιδῇ δ’ αἷμα κελαινὸν ἔσχεθον) | "incantation" | "incantation" | "charm" (reserved for the root of ἀκήλητος, κηλέω), "spell" (kept for κηληθμός), "song", "chant"; ἐπᾴδω is 'sing over' |
 | κνήμη (19.469) | "shin" | "shin" | "calf" (the fleshy back of the lower leg), "leg", "foot" (that is πούς); κνήμη is the lower leg between knee and ankle |
 | μειλίχιος (19.415 ἔπεσσι μειλιχίοισι; every shipped use but one — odyssey-028, -034, -042, -044, -046, -049, -050, -059, -079, -090 — has "gentle"; replaces the table row for 11.552, whose `l` and `i` "soothing" are changed to "gentle") | "gentle" | "gentle" | "soothing" (the one outlier, 11.552 in odyssey-056, left as shipped; "soothing" stays for παραυδάω, 11.488), "honeyed" (μελιηδής), "soft" (reserved for μαλακός), "kind" |
+| χλωρηῒς ἀηδών (19.518, with Πανδαρέου κούρη "the daughter of Pandareus") | "the green nightingale" | "the green nightingale" | "green-hued", "of the green leaves" (each picks one reading); colour of bird or leafy haunt is disputed, so plain "green" |
+| ἀδινὸν κῆρ (19.516) | "thronging heart" | "thronging heart" | "heavy", "throbbing"; extends μῆλ’ ἁδινά "thronging sheep" |
+| μελιηδὴς ὕπνος (19.551) | "honey-sweet sleep" | "honey-sweet sleep" | "sweet sleep" (kept for γλυκερὸς ὕπνος, ἡδὺς ὕπνος); extends μελιηδὴς οἶνος |
+| αἰετὸς ἀγκυλοχείλης (19.538) | "a great eagle, hook-beaked" | "hook-beaked" | "crook-beaked", "curved-lipped"; ἀγκύλος + χεῖλος |
+| ἀμενηνὰ ὄνειρα (19.562) | "powerless dreams" | "powerless dreams" | "feeble" (reserved for ἄκικυς); follows ἀμενηνὰ κάρηνα |
+| ἀκριτόμυθοι (19.560, of dreams) | "indistinct-of-speech" | "indistinct in what they say" | "of confused speech", "babbling"; ἄκριτος + μῦθος |
+| ἀμήχανοι (19.560, of dreams) | "helpless" | "helpless" | "baffling" (withdrawn at review; the 19.363 row stands) |
+| δυσώνυμος ἠώς (19.571) | "ill-named" | "an ill-named dawn" | "ill-omened", "of evil name"; δυσ- + ὄνομα |
+| νήπιος (19.530, of the boy Telemachus) | "child" | "a child" | "infant" (a baby), "foolish" (adults); third sense, a young person |
+| χαλίφρων (19.530) | "light-minded" | "thoughtless" | "-minded" in `l` follows the -φρων epithets |
+| ἀπερείσια ἕδνα (19.529) | "unstinted bridal gifts" | "unstinted bridal gifts" | "immense" (reserved for ἀθέσφατος), "boundless", "measureless", "limitless", "countless", "endless"; ἕδνα follows μυρία ἕδνα |
+| ἀμέτρητον πένθος (19.512) | "grief immeasurable" | "grief past all measure" | ἀμέτρητος from μετρέω |
+| κουρίδιον δῶμα (19.580) | "wedded" | "house of my marriage" | follows κουρίδιῳ πόσει "wedded husband" |
+| δρυόχοι (19.574) | "ship-props" | "ship-props" | "oak-holders", transliteration; meaning uncertain, traditional gloss (said in the note) |
+| ὕπαρ / ὄναρ (19.547) | "waking sight" / "dream" | "waking sight" / "dream" | ὕπαρ is a thing seen awake |
+| πριστὸς ἐλέφας / ξεστὰ κέρα (19.564, 566) | "sawn ivory" / "polished horn" | "sawn ivory" / "polished horn" | ξεστός follows ξέω "polish"; the gates of dreams |
+| μοῖρα sg. (19.592) | "a portion" | "a portion" | "fate" (reserved), "lot"; extends plural μοῖρα "portions" |
+| θνητοῖσιν (19.593) | "mortal men" | "mortal men" | "mortals" (reserved for βροτοί) |
+| αἰνὸν ὄνειρον (19.568) | "fearsome dream" | "fearsome dream" | applies the αἰνός "fearsome" row |
+| ὣς εἰποῦσ’ ἀνέβαιν’ ὑπερώϊα σιγαλόεντα (19.600) | "So having spoken she went up to the glossy upper rooms," | "So she spoke, and went up to her glossy upper rooms," | built from ὣς εἰπών, ὑπερώϊα, σιγαλόεις |
+| ἔπος … ἔν περ ὀνείρῳ (19.541, 581) | "even in a dream" | "even in a dream" | kept identical in both lines |
+| ἐφήσω (19.550, 576) | "will lay" / "shall lay" | "bring … on" (doom) / "set" (contest) | one `l` rendering, `i` by sense |

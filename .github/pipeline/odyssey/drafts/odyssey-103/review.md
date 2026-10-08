@@ -51,3 +51,44 @@ Counts (table rows): high 2, medium 9, low 12.
 - Quotation marks: “ in `l` and `i` on the units at 102, 131, 141, 152, 168, 176, 193, 200 (first unit of each speech, each with `mark`) and ” on the units at 114, 134, 141, 161, 174, 179, 198, 202; no speech is open at the end of the part (205 introduces a speech that opens the next part, as its note says). Checked.
 - Scansion: no flags in the packet; rescanned all 106 lines, only "spondaic fifth" (113, 121, 124, 147, 149, 160, 189, 193), an ordinary hexameter licence; no note needed.
 - gloss.json does not yet exist; the parse check of pass two should include the πειρήσεται, ἐνένιπεν, ἐτάνυσσε, ἀνώγει and ὅνδε points above.
+
+---
+
+# Pass two (units.json re-read against the Greek; every gloss.json entry parsed against its lines)
+
+Edited `units.json` and `gloss.json` in place by script; `t` untouched (all 60 `t` identical before and after). Severity scale as in pass one.
+
+## Changes
+
+| line / form | field | sev | what was wrong | what was done |
+|---|---|---|---|---|
+| νημερτέ’ (205) | gloss.json | medium | Parsed "neut. acc. pl. (= νημερτέα), adverbial: truly, unerringly", but it agrees with the masc. sg. νόον (νημερτέα is the masc. acc. sg. of the -ής adjective); the unit's own note and `i` ("their unerring minds") take it as an adjective. | Entry now: masc. acc. sg., elided (νημερτέ’ = νημερτέα): ’unerring’. |
+| ὅνδε (204) | gloss.json `__broaden__` | medium | The broadening added "’this his own’; the sense ’to’ lies in δόμονδε", a second reading that contradicts the unit's note and `l`/`i` ("his own house"); the existing entry already covers ὅνδε δόμονδε exactly, so no broadening was needed. | Removed the `__broaden__` entry for ὅνδε. |
+| ἔνεικε (178, 183) | gloss.json `__broaden__` | medium | Missing broadening: the known entry gives only "aor. 3 sg." (indicative), but at 178 ἔνεικε is the aorist imperative (the note at 181 says so). | Added: old entry whole + " · also aor. imper. 2 sg.: ’bring!’ (ἐκ … ἔνεικε ’bring out!’)". |
+| αἴνου (110) | gloss.json | low | Gave "tale, story, talk" only; the unit's note and `l`/`i` use the sense ’praise’. | "αἶνος — tale, story, praise; masc. gen. sg." |
+| οἴνοπος (144) | gloss.json | low | "epic Οἴνοπος" implied a Homeric by-form; Οἴνοπος is simply the regular genitive of Οἴνοψ. | "masc. gen. sg. (Οἴνοπος)". |
+| 134 | `n` | low | "comparative of πρόφερος": no such adjective; the lemma (and the gloss) is προφερής. | "comparative of προφερής". |
+| 172 | `n` | low | "the sense is ‘archer’" stated flatly, while the glossary (rightly) records the sense of ῥυτήρ as disputed (‘protector’ elsewhere). | "the sense is taken here as ‘archer’". |
+| 190 | `n` | low | "μετά with the accusative means ‘in pursuit of’": over-reads μετὰ τοὺς … ἤλυθε (the glossary has ‘after’). | "means ‘after’ here". |
+| new-renderings.md, Ζεῦ πάτερ row | `l` column | low | Row said "Zeus father, would that …"; the unit (and shipped 'Father Zeus') has "Father Zeus, would that …". Would have entered the table wrong. | Row corrected to "Father Zeus, …". |
+| new-renderings.md, νεμεσσάω row | `i` column | low | Row said "I resent"; the unit's `i` at 169 is "I am resentful". | Row corrected. |
+
+Counts of pass-two changes: high 0, medium 3, low 7.
+
+## Checked and found correct (no change)
+
+- Every other novel entry (about 95) parsed against each line where the form occurs: lemma, meaning, case, number, tense, mood, voice, person. All under 230 characters, typographic ’ only, no line numbers, no "here", none pinned to a line. Digits in entries are person numbers (1 sg. etc.), not line numbers.
+- The other 12 broadenings: each is the known entry whole (checked by string prefix against known-forms.json) + " · " + one new reading, and each new reading is true of the line cited (αὐτὸν 196, βίης 185, θέτ’ 119, κε 162, οἴῳ 146, οἷόν 173, πειρήσεται 159, τίθει 177, τανύσσαι 171, χώρου 142, ἀνέγνω 205, ἄρ 166, ὅτ’ 116, ῥυτῆρα 173). The pass-one point on πειρήσεται is carried out.
+- Known forms read against the part (411 keys; all 411 tokens covered, no form missing from novel or known): the only gap found was ἔνεικε. In particular the existing entries already cover πρὶν (150 ’before that, sooner’), αὐτῆς (109 ’Ithaca itself’), τῷ (184 ’therefore, and so’), τοί (172 particle), ἔλθοι (162 relative with κε), ἦ (194, 197 ’or’), ὅτε (133 subj., general), τὸ τέταρτον (128), τοῦ (113, 142 article-like).
+- Units: re-read all 60 against the Greek. Labels in notes, l/i, speech marks (“ on the first unit and ” on the last of each of the 8 speeches, in both `l` and `i`; `mark` on each first unit), `p` flags (all 15 ¶ lines), whole-unit and part-line repeats against the packet (101, 106, 130, 133, 139, 140, 143, 162, 166, 167, 187, 199, 201, 202, 204: wording identical or consistently reused), cross-references (21.73, 21.84 "two men", 21.96–97, 133 from odyssey-077, 138, 203) all verified against the published parts. No further errors.
+
+## Findings considered and refused
+
+- ἷζε (145) is recorded as "aor. 3 sg., ’sat down’"; here the sense is a habitual ’sat’ and the form could equally be taken as imperfect. The headword and the form-class are not wrong, only the gloss ’sat down’ is a little narrow; not broadened.
+- βίης (126, after μεθῆκε): the existing "gen. of separation with σχέσθαι" covers it; no extra reading added.
+- ὅπως (198, + pres. indic., indirect question): the existing entry (’how’ after a verb of telling; + pres. indic. ’in whatever way’) covers it closely enough.
+- ὤμοιϊν (118): the glossary calls it dual, the unit's note says only "epic form … old ending -οιϊν"; not contradictory, so left.
+- Unit at 198, `l` "Tell me how …" adds "me" that the Greek lacks: the supplied indirect object is natural and the new-renderings row records it on purpose; no change.
+- Unit at 131: ἦ … ἠέ as a double question although Murray has a full stop: stays as pass one decided.
+- Unit at 125 note "repeat those of 21.96–97": checked, true (odyssey-102 ln 96).
+- ὁμαρτήσαντες, θυοσκόος and the other "rare word" entries: meanings are glossed as the lexica give them, and the uncertain ones say so; no change.

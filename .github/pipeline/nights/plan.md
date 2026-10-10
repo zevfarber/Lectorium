@@ -41,7 +41,7 @@ scan anomaly turns up later in the volume.
 | done (2026-10-01, unattended) | 207–214 | 187–194 | `archive/pp187-194.json` | Continues the Badr al-Din / Shams al-Din narrative (night 24 heading on p. 189; verse on pp. 187–188, 194); all 7 joins plus 186→187 continuous |
 | done (2026-10-02, unattended) | 215–222 | 195–202 | `archive/pp195-202.json` | Continues the Badr al-Din / Shams al-Din narrative (verse on pp. 195–196, 198–200; night 25 label on p. 199); all joins continuous incl. 194→195 (200→201 abrupt but no line missing) |
 | done (2026-10-03, unattended) | 247–254 | 227–234 | `archive/pp227-234.json` | Continues the narrative (night heading p. 232, verse on pp. 228, 230, 234); all joins continuous incl. 226→227 |
-| done (2026-10-10, unattended) | 287–294 | 267–274 | `archive/pp267-274.json` | Night 33 and on (barber's brothers; the sixth brother): all 7 joins continuous |
+| done (2026-10-10, unattended) | 287–294 | 267–274 | `archive/pp267-274.json` | Continues Night 33 (heading at P266L09); content summary not written this run; all 7 joins continuous |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 

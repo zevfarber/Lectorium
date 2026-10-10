@@ -497,3 +497,7 @@ permission classifier, so it was NOT applied. Nothing was built or published. Th
 `drafts/odyssey-113/` (units.json, gloss.json, review.md, new-renderings.md) is committed so the next run can resume:
 apply the rule-5 correction, `python3 build_odyssey.py odyssey-113`, validate, publish. Log the correction in LOG.md.
 Decision meanwhile: none needed from the owner beyond whether the run environment may edit the pinned source.
+
+## 2026-10-10 · odyssey-115 (24.1–105) — stopped at the build: missing stop at 24.70
+Source 24.70 `πολὺς δ’ ὀρυμαγδὸς ὀρώρει` has no closing mark; the build refuses ("unit 40 (line 70): does not end at punctuation"). README rule 5 covers it (add `.` to `source/odyssey-murray1919.json`, re-pin the sha256 of odyssey-115 in `parts.json`, make unit 40's `t` end with `.`). In this run the edit to the pinned source was blocked by the session's permission classifier, so it was NOT applied. Line 94 ends in a comma (vocative Ἀχιλλεῦ) and is accepted by the build as is. Drafter's output is saved in `drafts/odyssey-115/` (units.json 58 units, new-renderings.md); the REVIEWER (two passes) and GLOSSER have NOT yet been run, and nothing was built or published. Next run: apply the correction, run reviewer and glosser per runbook step 2, build, validate, publish. Log the correction in LOG.md.
+Decision meanwhile: none needed from the owner beyond whether the run environment may edit the pinned source.

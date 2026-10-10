@@ -1,481 +1,1396 @@
 {
+ "id": "odyssey-115",
+ "sourceId": "odyssey-115",
  "title": "Ἀσφοδελὸς λειμών",
  "titleEn": "The Asphodel Meadow — Odyssey 24.1–105",
+ "work": "Ὀδύσσεια",
+ "workEn": "The Odyssey (Homer)",
  "part": "The Asphodel Meadow (24.1–105)",
+ "language": "Ancient Greek",
+ "langCode": null,
+ "source": "Homer, The Odyssey, Greek text of A. T. Murray (Loeb Classical Library; London: Heinemann, New York: Putnam, 1919), public domain; TEI from PerseusDL/canonical-greekLit tlg0012.tlg002.perseus-grc2, sha256 7d7ffafb6c51f8c2. Text as printed: Murray sets no quotation marks round speeches, and none are added. Pronunciation: reconstructed Attic, after W. S. Allen, Vox Graeca — an admitted convention; Homer's own pronunciation was older and is not recoverable in detail. Romanization: standard classical transliteration (ē/ō; th/ph/ch; y for υ, u in diphthongs; h = rough breathing; ēi/āi/ōi for iota subscript; ï for a separately sounded ι; accents omitted). Scansion: made by program from the text and checked; it shows one defensible reading of each line, and the notes say where a line is irregular. All translations were made fresh from the Greek for Lectorium.",
  "about": "The book opens in the world of the dead. Hermes calls up the souls of the suitors and leads them, squeaking like bats, down past the streams of Oceanus and the gates of the Sun to the asphodel meadow, where they find Achilles, Patroclus, Antilochus and Ajax. Agamemnon’s soul comes up with the others who died with him in the house of Aegisthus. Achilles greets him and mourns that he did not die at Troy in honour. Agamemnon answers by describing the funeral of Achilles: the fight over his body, Nestor’s check on the panicking Greeks, the sea-goddesses’ lament, the burning, the golden jar, the tomb on the headland, and the prizes his mother set out. He ends with his own wretched death at home. Hermes arrives with the suitors’ souls, and Agamemnon recognises Amphimedon and speaks to him.",
+ "trStyle": "line",
+ "script": "greek",
+ "glossaryFile": "odyssey-glossary.json",
  "sentences": [
   {
    "t": "Ἑρμῆς δὲ ψυχὰς Κυλλήνιος ἐξεκαλεῖτο\nἀνδρῶν μνηστήρων·",
+   "tr": "Hermēs de psychas Kyllēnios exekaleito\nandrōn mnēstērōn·",
    "l": "And Hermes of Cyllene the souls was calling-out\nof the men, the suitors;",
    "i": "Meanwhile Hermes of Cyllene was calling out the souls of the suitors.",
    "n": "This book opens in the world of the dead: the men killed in the hall of Odysseus are being summoned below. ψυχή is the soul, the breath of life that leaves a body at death and goes on as a faint image; for the dead it is rendered ‘soul’ throughout. Κυλλήνιος means ‘of Cyllene’ and is a name-epithet of Hermes. ἐξεκαλεῖτο is the imperfect middle of ἐκκαλέω ‘call out’, ‘was calling out’, an action going on while the scene is set. ἀνδρῶν μνηστήρων is ‘of the men, the suitors’: two genitives side by side, with μνηστήρων explaining ἀνδρῶν and both depending on ψυχάς. δέ is only the connective that picks the story up again.",
    "p": true,
    "v": true,
-   "ln": 1
+   "ln": 1,
+   "sc": [
+    "1Ἑρ–μῆς–",
+    "2δὲ–",
+    "ψυ–3χὰς–‖",
+    "Κυλ–4λή–νι⏑ος⏑",
+    "5ἐ–ξε⏑κα⏑6λεῖ–το×",
+    "1ἀν–δρῶν–",
+    "2μνησ–τή–3ρων–‖"
+   ]
   },
   {
    "t": "ἔχε δὲ ῥάβδον μετὰ χερσὶν\nκαλὴν χρυσείην, τῇ τ’ ἀνδρῶν ὄμματα θέλγει\nὧν ἐθέλει, τοὺς δ’ αὖτε καὶ ὑπνώοντας ἐγείρει·",
+   "tr": "eche de rhabdon meta chersin\nkalēn chryseiēn, tēi t’ andrōn ommata thelgei\nhōn ethelei, tous d’ aute kai hypnōontas egeirei·",
    "l": "And he held a wand in his hands,\nfine, golden, with which the eyes of men he charms,\nof whomever he wishes, and others again, even sleeping, he wakes;",
    "i": "He held in his hands a fine golden wand, with which he charms the eyes of whatever men he wishes, and wakes others again even out of sleep.",
    "n": "ἔχε is the imperfect of ἔχω, ‘he was holding’, and the verbs θέλγει and ἐγείρει that follow are presents: the clause with τε describes what the wand always does, not only on this journey. μετὰ χερσίν is ‘in his hands’, χερσίν being the dative plural of χείρ. καλὴν χρυσείην are two adjectives agreeing with ῥάβδον, ‘fine, golden’. τῇ τε is ‘with which’, the article used as a relative pronoun, with the epic particle τε. ὧν ἐθέλει is ‘of whomever he wishes’: the relative stands in the genitive to match ἀνδρῶν, though as the object of ἐθέλει it would be an accusative. τοὺς δ’ αὖτε, ‘and others again’, is the pronoun, not the article. ὑπνώοντας is ‘sleeping’, from ὑπνώω, a by-form of ὑπνόω.",
    "v": true,
-   "ln": 2
+   "ln": 2,
+   "sc": [
+    "ἔ⏑χε⏑",
+    "4δὲ–",
+    "ῥάβ–5δον–",
+    "με⏑τὰ⏑",
+    "6χερ–σὶν×",
+    "1κα–λὴν–",
+    "2χρυ–σεί–3ην–‖",
+    "τῇ–",
+    "τ",
+    "4ἀν–δρῶν–",
+    "5ὄμ–μα⏑τα⏑",
+    "6θέλ–γει×",
+    "1ὧν–",
+    "ἐ⏑θέ⏑2λει–",
+    "τοὺς–",
+    "δ",
+    "3αὖ–τε⏑‖",
+    "καὶ⏑",
+    "4ὑ–πνώ–5ον–τας⏑",
+    "ἐ⏑6γεί–ρει×"
+   ]
   },
   {
    "t": "τῇ ῥ’ ἄγε κινήσας, ταὶ δὲ τρίζουσαι ἕποντο.",
+   "tr": "tēi rh’ age kinēsas, tai de trizousai heponto.",
    "l": "With this he led them, having stirred them, and they, squeaking, followed.",
    "i": "With it he stirred them and led them on, and they followed, squeaking.",
    "n": "ἄγε looks like the imperative ‘come!’ but here it is ἦγε, the imperfect ‘he was leading’, without the augment; the context (a statement about Hermes and his wand) shows which it is. τῇ is the dative of the old demonstrative (the later article), not a relative here: ‘with this’, picking up ῥάβδον. ῥ’ is ῥα, a particle of lively narration that is hard to translate. κινήσας is the aorist participle of κινέω, ‘having set in motion’, so ‘having stirred them’. ταί is the pronoun ‘they’ (the feminine plural of the old demonstrative: Attic αἱ). τρίζουσαι means ‘squeaking’, the thin high sound Homer gives to the souls. ἕποντο is the imperfect of ἕπομαι ‘follow’, also without augment.",
    "v": true,
-   "ln": 5
+   "ln": 5,
+   "sc": [
+    "1τῇ–",
+    "ῥ",
+    "ἄ⏑γε⏑",
+    "2κι–νή–3σας–‖",
+    "ταὶ–",
+    "4δὲ–",
+    "τρί–5ζου–σαι⏑",
+    "ἕ⏑6πον–το×"
+   ]
   },
   {
    "t": "ὡς δ’ ὅτε νυκτερίδες μυχῷ ἄντρου θεσπεσίοιο\nτρίζουσαι ποτέονται, ἐπεί κέ τις ἀποπέσῃσιν\nὁρμαθοῦ ἐκ πέτρης, ἀνά τ’ ἀλλήλῃσιν ἔχονται,\nὣς αἱ τετριγυῖαι ἅμ’ ἤϊσαν·",
+   "tr": "hōs d’ hote nykterides mychōi antrou thespesioio\ntrizousai poteontai, epei ke tis apopesēisin\nhormathou ek petrēs, ana t’ allēlēisin echontai,\nhōs hai tetriguiai ham’ ēïsan·",
    "l": "And as when bats in the innermost-recess of a wondrous cave\nsqueaking flutter, whenever one has fallen off\nfrom the chain, from the rock, and to one another they cling,\nso they, squeaking, went along together;",
    "i": "As bats in the inmost corner of a wondrous cave flutter about squeaking whenever one has dropped off the chain from the rock, and cling to one another, so the souls went along together, squeaking.",
    "n": "ὡς δ’ ὅτε, ‘and as when’, opens a simile and ὣς in line 9 closes it, ‘so’; the comparison runs three lines and a half. μυχῷ is a locative dative, ‘in the inmost recess’. θεσπεσίοιο is the genitive in -οιο of θεσπέσιος, ‘wondrous’. ποτέονται is uncontracted ποτῶνται from ποτάομαι ‘flutter, fly about’. ἐπεί κε with the aorist subjunctive ἀποπέσῃσιν says ‘whenever one has fallen off’, a general condition. ὁρμαθός is a chain or string, here the bats hanging in a row from the rock. ἀνά … ἔχονται is tmesis (the preverb separated from its verb): ‘they hold on to one another’; ἀλλήλῃσιν is a feminine dative plural, since νυκτερίδες is feminine. τετριγυῖαι is the perfect participle of τρίζω, the same verb as τρίζουσαι, so the souls make the bats’ sound. ἤϊσαν is the imperfect of εἶμι ‘go’; ἅμ’ is ἅμα ‘together’.",
    "v": true,
-   "ln": 6
+   "ln": 6,
+   "sc": [
+    "1ὡς–",
+    "δ",
+    "ὅ⏑τε⏑",
+    "2νυκ–τε⏑ρί⏑3δες–‖",
+    "μυ⏑χῷ⏑",
+    "4ἄν–τρου–",
+    "5θεσ–πε⏑σί⏑6οι–ο×",
+    "1τρί–ζου–2σαι–",
+    "πο⏑τέ⏑3ον–ται⏑‖",
+    "ἐ⏑4πεί–",
+    "κέ⏑",
+    "τις⏑",
+    "5ἀ–πο⏑πέ⏑6σῃ–σιν×",
+    "1ὁρ–μα⏑θοῦ⏑",
+    "2ἐκ–",
+    "πέ–3τρης–‖",
+    "ἀ⏑νά⏑",
+    "τ",
+    "4ἀλ–λή–5λῃ–σιν⏑",
+    "ἔ⏑6χον–ται×",
+    "1ὣς–",
+    "αἱ–",
+    "2τε–τρι–3γυῖ–αι⏑‖",
+    "ἅμ⏑",
+    "4ἤ–ϊ⏑σαν⏑"
+   ]
   },
   {
    "t": "ἦρχε δ’ ἄρα σφιν\nἙρμείας ἀκάκητα κατ’ εὐρώεντα κέλευθα.",
+   "tr": "ērche d’ ara sphin\nHermeias akakēta kat’ eurōenta keleutha.",
    "l": "and so for them led the way\nHermes, Akakêta, down the dank ways.",
    "i": "Hermes the Harmless led the way for them down the dank ways.",
    "n": "ἦρχε is ‘led the way’ and σφιν is σφισιν ‘for them’; ἄρα marks the sentence as following from what came before. Ἑρμείας is the epic form of Ἑρμῆς. ἀκάκητα is an epithet of Hermes in the nominative with the epic ending -α (as in ἱππότα). Its meaning is not known. The ancients took it as ‘giver of no harm’ from ἀ- and κακός, and ‘the Harmless’ follows that guess; it is a guess only. εὐρώεντα is ‘dank’ or ‘mouldy’ (from εὐρώς ‘mould’). κατά with the accusative κέλευθα is ‘down along the ways’.",
    "v": true,
-   "ln": 9
+   "ln": 9,
+   "sc": [
+    "5ἦρ–χε⏑",
+    "δ",
+    "ἄ⏑6ρα–",
+    "σφιν×",
+    "1Ἑρ–μεί–2ας–",
+    "ἀ⏑κά⏑3κη–τα⏑‖",
+    "κατ⏑",
+    "4εὐ–ρώ–5εν–τα⏑",
+    "κέ⏑6λευ–θα×"
+   ]
   },
   {
    "t": "πὰρ δ’ ἴσαν Ὠκεανοῦ τε ῥοὰς καὶ Λευκάδα πέτρην,\nἠδὲ παρ’ Ἠελίοιο πύλας καὶ δῆμον ὀνείρων\nἤϊσαν·",
+   "tr": "par d’ isan Ōkeanou te rhoas kai Leukada petrēn,\nēde par’ Ēelioio pylas kai dēmon oneirōn\nēïsan·",
    "l": "And past the streams of Oceanus they went, and the White Rock,\nand past the gates of the Sun and the land of dreams\nthey went;",
    "i": "They went past the streams of Oceanus and the White Rock, and past the gates of the Sun and the land of dreams, and so they went on.",
    "n": "πὰρ is παρά ‘past, along’ with its final vowel dropped. ἴσαν and ἤϊσαν (the last word of the unit, taking up the verb again after the long list) are both ‘they went’: ἴσαν is the shortened form of the imperfect of εἶμι beside ἤϊσαν. Ὠκεανοῦ ῥοάς is ‘the streams of Oceanus’, the river that Homer sets around the world’s edge. Λευκάδα is the feminine adjective ‘white’, so Λευκάδα πέτρην is ‘the White Rock’; where it lies is not stated. Ἠελίοιο is the genitive of Ἠέλιος ‘the Sun’. δῆμον ὀνείρων is the ‘land of dreams’, δῆμος as ‘land’ in the house rendering, dreams being pictured as a people. ἠδέ is ‘and’. The accusatives after παρά are the things passed.",
    "v": true,
-   "ln": 11
+   "ln": 11,
+   "sc": [
+    "1πὰρ–",
+    "δ",
+    "ἴ⏑σαν⏑",
+    "2Ὠ–κε⏑α⏑3νοῦ–",
+    "τε⏑‖",
+    "ῥο⏑4ὰς–",
+    "καὶ–",
+    "5Λευ–κά⏑δα⏑",
+    "6πέ–τρην×",
+    "1ἠ–δὲ⏑",
+    "παρ⏑",
+    "2Ἠ–ε⏑λί⏑3οι–ο⏑‖",
+    "πύ⏑4λας–",
+    "καὶ–",
+    "5δῆ–μον⏑",
+    "ὀ⏑6νεί–ρων×",
+    "1ἤ–ϊ⏑σαν⏑"
+   ]
   },
   {
    "t": "αἶψα δ’ ἵκοντο κατ’ ἀσφοδελὸν λειμῶνα,\nἔνθα τε ναίουσι ψυχαί, εἴδωλα καμόντων.",
+   "tr": "aipsa d’ hikonto kat’ asphodelon leimōna,\nentha te naiousi psychai, eidōla kamontōn.",
    "l": "and quickly they came along the asphodel meadow,\nwhere dwell the souls, phantoms of those who have toiled.",
    "i": "Quickly they came to the asphodel meadow, where the souls live, the phantoms of those who have finished toiling.",
    "n": "ἵκοντο is an aorist of ἱκνέομαι ‘arrive’, without the augment. αἶψα is ‘quickly’. ἀσφοδελός is asphodel, a plant; the meadow of asphodel is the dwelling of the dead. ἔνθα τε is ‘where’, with epic τε. ψυχαί, εἴδωλα is apposition: the souls are phantoms, εἴδωλον being an image or likeness. καμόντων is the genitive plural of the aorist participle of κάμνω ‘toil, grow weary’: ‘of those who have toiled’, a gentle word for the dead. Note the present tense ναίουσι, ‘dwell’, stating the permanent fact.",
    "v": true,
-   "ln": 13
+   "ln": 13,
+   "sc": [
+    "2αἶ–ψα⏑",
+    "δ",
+    "ἵ⏑3κον–το⏑‖",
+    "κατ⏑",
+    "4ἀσ–φο⏑δε⏑5λὸν–",
+    "λει–6μῶ–να×",
+    "1ἔν–θα⏑",
+    "τε⏑",
+    "2ναί–ου–3σι–‖",
+    "ψυ–4χαί–",
+    "εἴ–5δω–λα⏑",
+    "κα⏑6μόν–των×"
+   ]
   },
   {
    "t": "εὗρον δὲ ψυχὴν Πηληϊάδεω Ἀχιλῆος\nκαὶ Πατροκλῆος καὶ ἀμύμονος Ἀντιλόχοιο\nΑἴαντός θ’, ὃς ἄριστος ἔην εἶδός τε δέμας τε\nτῶν ἄλλων Δαναῶν μετ’ ἀμύμονα Πηλεΐωνα.",
+   "tr": "heuron de psychēn Pēlēïadeō Achilēos\nkai Patroklēos kai amymonos Antilochoio\nAiantos th’, hos aristos eēn eidos te demas te\ntōn allōn Danaōn met’ amymona Pēleïōna.",
    "l": "And they found the soul of Achilles, Peleus’ son,\nand of Patroclus and of blameless Antilochus,\nand of Ajax, who was best in form and in body\nof the other Danaans, after the blameless son of Peleus.",
    "i": "They found the soul of Achilles, son of Peleus, and of Patroclus, and of blameless Antilochus, and of Ajax, who was the best in form and build of the other Greeks, after the blameless son of Peleus.",
    "n": "εὗρον is the aorist ‘they found’; the subject is Hermes and the souls he leads. Πηληϊάδεω Ἀχιλῆος is ‘Achilles, son of Peleus’: Πηληϊάδεω is the genitive in -εω of the patronymic Πηληϊάδης. Πατροκλῆος and Ἀντιλόχοιο are further genitives, all depending on ψυχήν: the soul of Achilles, and of Patroclus, and of the rest. The epithet ἀμύμων is always translated ‘blameless’; its real sense is not known, and it is used of heroes whatever their deeds. ἔην is the epic imperfect ‘was’. εἶδός τε δέμας τε are accusatives of respect: best ‘in form and in build’. μετά with the accusative here means ‘next after’. Πηλεΐωνα is another patronymic, ‘the son of Peleus’, standing for Achilles by name-substitution. Δαναῶν is the genitive of Δαναοί, rendered ‘Danaans’ in the literal layer and ‘Greeks’ in the idiomatic one.",
    "v": true,
-   "ln": 15
+   "ln": 15,
+   "sc": [
+    "1εὗ–ρον–",
+    "2δὲ–",
+    "ψυ–3χὴν–‖",
+    "Πη–4λη–ϊ⏑ά⏑5δεω–",
+    "Ἀ⏑χι⏑6λῆ–ος×",
+    "1καὶ–",
+    "Πα–2τρο–κλῆ–3ος–‖",
+    "καὶ⏑",
+    "ἀ⏑4μύ–μο⏑νος⏑",
+    "5Ἀν–τι⏑λό⏑6χοι–ο×",
+    "1Αἴ–αν–2τός–",
+    "θ",
+    "ὃς⏑",
+    "ἄ⏑3ρισ–τος⏑‖",
+    "ἔ⏑4ην–",
+    "εἶ–5δός–",
+    "τε⏑",
+    "δέ⏑6μας–",
+    "τε×",
+    "1τῶν–",
+    "ἄλ–2λων–",
+    "Δα⏑να⏑3ῶν–‖",
+    "μετ⏑",
+    "ἀ⏑4μύ–μο⏑να⏑",
+    "5Πη–λε⏑ΐ⏑6ω–να×"
+   ]
   },
   {
    "t": "ὣς οἱ μὲν περὶ κεῖνον ὁμίλεον·",
+   "tr": "hōs hoi men peri keinon homileon·",
    "l": "So these around that man were keeping company;",
    "i": "So these kept company about him;",
    "n": "ὣς οἱ μέν, ‘so these’, is answered by δέ at the next unit: ‘these … but close by came …’. οἱ is the demonstrative pronoun, ‘these’, the souls just named. κεῖνον is ἐκεῖνον, ‘that man’, Achilles, the one they gather about. ὁμίλεον is the uncontracted imperfect of ὁμιλέω ‘be in company with’, which Attic would contract to ὡμίλουν.",
    "p": true,
    "v": true,
-   "ln": 19
+   "ln": 19,
+   "sc": [
+    "1ὣς–",
+    "οἱ–",
+    "2μὲν–",
+    "πε⏑ρὶ⏑",
+    "3κεῖ–νον⏑‖",
+    "ὁ⏑4μί–λε⏑ον⏑"
+   ]
   },
   {
    "t": "ἀγχίμολον δὲ\nἤλυθ’ ἔπι ψυχὴ Ἀγαμέμνονος Ἀτρεΐδαο\nἀχνυμένη·",
+   "tr": "anchimolon de\nēlyth’ epi psychē Agamemnonos Atreïdao\nachnymenē·",
    "l": "and close by\ncame next the soul of Agamemnon, Atreus’ son,\ngrieving;",
    "i": "and close by there came next the soul of Agamemnon, son of Atreus, grieving;",
    "n": "ἀγχίμολον is an adverb, ‘near, close by’. ἤλυθ’ is ἤλυθε, a poetic aorist of ἔρχομαι. ἔπι is the adverb ἐπί with its accent thrown back, ‘thereupon, next’. Ἀτρεΐδαο is a genitive in -αο of a first-declension masculine; Ἀγαμέμνονος Ἀτρεΐδαο is ‘Agamemnon, the son of Atreus’. ἀχνυμένη is the present participle of ἄχνυμαι ‘grieve’, feminine to agree with ψυχή.",
    "v": true,
-   "ln": 19
+   "ln": 19,
+   "sc": [
+    "5ἀγ–χί⏑μο⏑6λον–",
+    "δὲ×",
+    "1ἤ–λυθ⏑",
+    "ἔ⏑2πι–",
+    "ψυ–3χὴ–‖",
+    "Ἀ⏑γα⏑4μέμ–νο⏑νος⏑",
+    "5Ἀ–τρε⏑ΐ⏑6δα–ο×",
+    "1ἀ–χνυ⏑μέ⏑2νη–"
+   ]
   },
   {
    "t": "περὶ δ’ ἄλλαι ἀγηγέραθ’, ὅσσαι ἅμ’ αὐτῷ\nοἴκῳ ἐν Αἰγίσθοιο θάνον καὶ πότμον ἐπέσπον.",
+   "tr": "peri d’ allai agēgerath’, hossai ham’ autōi\noikōi en Aigisthoio thanon kai potmon epespon.",
    "l": "and around (him) the other (souls) were gathered, as many as with him\nin the house of Aegisthus died and met their doom.",
    "i": "and around him were gathered the other souls, all who had died with him in the house of Aegisthus and met their doom.",
    "n": "ἀγηγέραθ’ is ἀγηγέρατο, a pluperfect passive of ἀγείρω ‘gather’ with the Ionic ending -ατο; the τ has become θ before the rough breathing of ὅσσαι. ἄλλαι and ὅσσαι are feminine because they agree with ψυχαί understood. αὐτῷ is ‘with him’, Agamemnon. θάνον is an unaugmented aorist, ‘died’. πότμον ἐπέσπον is ‘met their doom’: ἐφέπω with πότμος, a fixed phrase for dying; πότμος is the lot or doom that falls to a man. The house of Aegisthus is where Agamemnon’s companions were killed with him.",
    "v": true,
-   "ln": 21
+   "ln": 21,
+   "sc": [
+    "πε⏑ρὶ⏑",
+    "δ",
+    "3ἄλ–λαι⏑‖",
+    "ἀ⏑4γη–γέ⏑ραθ⏑",
+    "5ὅσ–σαι⏑",
+    "ἅμ⏑",
+    "6αὐ–τῷ×",
+    "1οἴ–κῳ⏑",
+    "ἐν⏑",
+    "2Αἰ–γίσ–3θοι–ο⏑‖",
+    "θά⏑4νον–",
+    "καὶ–",
+    "5πό–τμον⏑",
+    "ἐ⏑6πέσ–πον×"
+   ]
   },
   {
    "t": "τὸν προτέρη ψυχὴ προσεφώνεε Πηλεΐωνος·",
+   "tr": "ton proterē psychē prosephōnee Pēleïōnos·",
    "l": "Him first the soul of the son of Peleus spoke to:",
    "i": "The soul of the son of Peleus spoke to him first:",
    "n": "τόν is the pronoun ‘him’, Agamemnon. προσεφώνεε is the uncontracted imperfect of προσφωνέω ‘speak to’, taking the accusative τόν; it is rendered ‘spoke to’, not ‘addressed’ (the English of προσέειπε and προσέφη). προτέρη is a comparative, ‘earlier, first of two’: Achilles’ soul was in the meadow before Agamemnon’s arrived and is the first to speak. Πηλεΐωνος is the genitive of Πηλεΐων ‘son of Peleus’, the name-substitute for Achilles, as in line 18. The line is a whole-line formula that introduces a speech.",
    "v": true,
-   "ln": 23
+   "ln": 23,
+   "sc": [
+    "1τὸν–",
+    "προ⏑τέ⏑2ρη–",
+    "ψυ–3χὴ–‖",
+    "προ⏑σε⏑4φώ–νε⏑ε⏑",
+    "5Πη–λε⏑ΐ⏑6ω–νος×"
+   ]
   },
   {
    "t": "Ἀτρεΐδη, περὶ μέν σ’ ἔφαμεν Διὶ τερπικεραύνῳ\nἀνδρῶν ἡρώων φίλον ἔμμεναι ἤματα πάντα,\nοὕνεκα πολλοῖσίν τε καὶ ἰφθίμοισιν ἄνασσες\nδήμῳ ἔνι Τρώων, ὅθι πάσχομεν ἄλγε’ Ἀχαιοί.",
+   "tr": "Atreïdē, peri men s’ ephamen Dii terpikeraunōi\nandrōn hērōōn philon emmenai ēmata panta,\nhouneka polloisin te kai iphthimoisin anasses\ndēmōi eni Trōōn, hothi paschomen alge’ Achaioi.",
    "l": "“Son of Atreus, exceedingly we said you to bolt-delighting Zeus\nof men, of heroes, dear to be, all the days,\nbecause over many and mighty men you ruled\nin the land of the Trojans, where we Achaeans suffered pains.",
    "i": "“Son of Atreus, we always said that you were dearer to Zeus, who delights in the thunderbolt, than any other of the heroes, because you ruled over many mighty men in the land of the Trojans, where we Achaeans suffered our pains.",
    "n": "Ἀτρεΐδη is the vocative of Ἀτρεΐδης ‘son of Atreus’, Agamemnon. περί is an adverb, ‘beyond, above’, and ἀνδρῶν ἡρώων is a genitive of comparison: dear above all other men, heroes. σε … φίλον ἔμμεναι is an accusative with infinitive after ἔφαμεν; ἔμμεναι is the epic infinitive of εἰμί. Διὶ τερπικεραύνῳ is ‘bolt-delighting Zeus’, from τέρπω ‘delight’ and κεραυνός ‘thunderbolt’; Διί is dative of the person to whom one is dear. ἤματα πάντα is ‘all the days’, that is ‘always’. πολλοῖσι τε καὶ ἰφθίμοισι is a dative with ἄνασσες, ‘you ruled over’. ἴφθιμος is ‘mighty’. δήμῳ ἔνι Τρώων has ἔνι as ἐν after its noun, and δῆμος is ‘land’ in the house rendering. πάσχομεν is a present where English needs the past; ἄλγε’ is ἄλγεα.",
+   "mark": "Achilles speaks",
    "p": true,
    "v": true,
    "ln": 24,
-   "mark": "Achilles speaks"
+   "sc": [
+    "1Ἀ–τρε⏑ΐ⏑2δη–",
+    "πε⏑ρὶ⏑",
+    "3μέν–",
+    "σ‖",
+    "ἔ⏑φα⏑4μεν–",
+    "Δι⏑ὶ⏑",
+    "5τερ–πι⏑κε⏑6ραύ–νῳ×",
+    "1ἀν–δρῶν–",
+    "2ἡ–ρώ–3ων–‖",
+    "φί⏑λον⏑",
+    "4ἔμ–με⏑ναι⏑",
+    "5ἤ–μα⏑τα⏑",
+    "6πάν–τα×",
+    "1οὕ–νε⏑κα⏑",
+    "2πολ–λοῖ–3σίν–",
+    "τε⏑‖",
+    "καὶ⏑",
+    "4ἰφ–θί–5μοι–σιν⏑",
+    "ἄ⏑6νασ–σες×",
+    "1δή–μῳ⏑",
+    "ἔ⏑2νι–",
+    "Τρώ–3ων–‖",
+    "ὅ⏑θι⏑",
+    "4πάσ–χο⏑μεν⏑",
+    "5ἄλ–γε⏑",
+    "Ἀ⏑6χαι–οί×"
+   ]
   },
   {
    "t": "ἦ τ’ ἄρα καὶ σοὶ πρῶϊ παραστήσεσθαι ἔμελλεν\nμοῖρ’ ὀλοή, τὴν οὔ τις ἀλεύεται ὅς κε γένηται.",
+   "tr": "ē t’ ara kai soi prōï parastēsesthai emellen\nmoir’ oloē, tēn ou tis aleuetai hos ke genētai.",
    "l": "Truly then even to you early to stand-by was bound\nthe deadly fate, which no one avoids who is born.",
    "i": "Indeed, to you too, and early, the deadly fate was bound to come, the fate that no one avoids, whoever is born.",
    "n": "ἦ τε ἄρα is an emphatic ‘truly, then’. παραστήσεσθαι is the future infinitive middle of παρίστημι, ‘to stand beside’: the fate was to take its place at your side. ἔμελλεν, ‘was bound, was destined’, takes the future infinitive. πρῶϊ is ‘early’, Attic πρῴ: Achilles means that death came to Agamemnon too, and not late in life. μοῖρ’ is μοῖρα elided; μοῖρα ὀλοή is ‘the deadly fate’. τήν is the pronoun used as a relative, ‘which’. ἀλεύεται is ‘avoids’, from ἀλέομαι, and ὅς κε γένηται, with κε and the aorist subjunctive, is a general statement: ‘whoever is born’.",
    "v": true,
-   "ln": 28
+   "ln": 28,
+   "sc": [
+    "1ἦ–",
+    "τ",
+    "ἄ⏑ρα⏑",
+    "2καὶ–",
+    "σοὶ–",
+    "3πρῶ–ϊ⏑‖",
+    "πα⏑4ρασ–τή–5σεσ–θαι⏑",
+    "ἔ⏑6μελ–λεν×",
+    "1μοῖρ–",
+    "ὀ⏑λο⏑2ή–",
+    "τὴν–",
+    "3οὔ–",
+    "τις⏑‖",
+    "ἀ⏑4λεύ–ε⏑ται⏑",
+    "5ὅς–",
+    "κε⏑",
+    "γέ⏑6νη–ται×"
+   ]
   },
   {
    "t": "ὡς ὄφελες τιμῆς ἀπονήμενος, ἧς περ ἄνασσες,\nδήμῳ ἔνι Τρώων θάνατον καὶ πότμον ἐπισπεῖν·",
+   "tr": "hōs opheles timēs aponēmenos, hēs per anasses,\ndēmōi eni Trōōn thanaton kai potmon epispein·",
    "l": "Would that you, having had the benefit of the honour of which you were lord,\nin the land of the Trojans had met death and doom;",
    "i": "If only you had met death and your doom in the land of the Trojans, still enjoying the honour that you held as lord!",
    "n": "ὡς ὄφελες with an infinitive expresses a wish that cannot now be fulfilled: ‘would that you had …’, literally ‘you ought to have …’. ἀπονήμενος is the aorist middle participle of ἀπονίναμαι ‘have the benefit of’, taking the genitive τιμῆς, the honour that belonged to Agamemnon as king. ἧς περ ἄνασσες is a relative clause, ‘of which you were lord’; περ is emphatic. θάνατον καὶ πότμον ἐπισπεῖν, ‘to meet death and doom’, echoes θάνον καὶ πότμον ἐπέσπον in line 22, with the noun θάνατον for the verb ‘died’ and ἐπισπεῖν the infinitive of ἐπέσπον. δήμῳ ἔνι Τρώων repeats line 27.",
    "v": true,
-   "ln": 30
+   "ln": 30,
+   "sc": [
+    "1ὡς–",
+    "ὄ⏑φε⏑2λες–",
+    "τι–3μῆς–‖",
+    "ἀ⏑πο⏑4νή–με⏑νος⏑",
+    "5ἧς–",
+    "περ⏑",
+    "ἄ⏑6νασ–σες×",
+    "1δή–μῳ⏑",
+    "ἔ⏑2νι–",
+    "Τρώ–3ων–‖",
+    "θά⏑να⏑4τον–",
+    "καὶ–",
+    "5πό–τμον⏑",
+    "ἐ⏑6πισ–πεῖν×"
+   ]
   },
   {
    "t": "τῷ κέν τοι τύμβον μὲν ἐποίησαν Παναχαιοί,\nἠδέ κε καὶ σῷ παιδὶ μέγα κλέος ἤρα’ ὀπίσσω·",
+   "tr": "tōi ken toi tymbon men epoiēsan Panachaioi,\nēde ke kai sōi paidi mega kleos ēra’ opissō·",
    "l": "Then for you a tomb the Achaeans all together would have made,\nand for your son too great fame you would have won for afterwards;",
    "i": "Then all the Achaeans would have built you a tomb, and you would have won great fame for your son as well, in time to come;",
    "n": "τῷ is ‘then, in that case’. κε with the aorist ἐποίησαν makes a statement about what would have happened: ‘would have made’. τοι is σοι, ‘for you’. Παναχαιοί, one word, is rendered ‘the Achaeans all together’ in the literal layer and ‘all the Achaeans’ in the idiomatic one. ἠδέ … καὶ continues, ‘and also’. κλέος is ‘fame’, and ὀπίσσω is ‘afterwards, in time to come’. ἤρα’ is ἤραο, the 2nd person singular aorist middle of ἄρνυμαι ‘win, gain’, with its final vowel elided: ‘you would have won’, Agamemnon winning fame for his son while the Achaeans make the tomb.",
    "v": true,
-   "ln": 32
+   "ln": 32,
+   "sc": [
+    "1τῷ–",
+    "κέν–",
+    "2τοι–",
+    "τύμ–3βον–",
+    "μὲν⏑‖",
+    "ἐ⏑4ποί–η–5σαν–",
+    "Πα⏑να⏑6χαι–οί×",
+    "1ἠ–δέ⏑",
+    "κε⏑",
+    "2καὶ–",
+    "σῷ–",
+    "3παι–δὶ⏑‖",
+    "μέ⏑4γα–",
+    "κλέ⏑ος⏑",
+    "5ἤ–ρα⏑",
+    "ὀ⏑6πίσ–σω×"
+   ]
   },
   {
    "t": "νῦν δ’ ἄρα σ’ οἰκτίστῳ θανάτῳ εἵμαρτο ἁλῶναι.",
+   "tr": "nyn d’ ara s’ oiktistōi thanatōi heimarto halōnai.",
    "l": "But now by a most pitiable death it was fated for you to be taken.”",
    "i": "But as it was, you were fated to be caught by a most pitiable death.”",
    "n": "νῦν δ’ ἄρα is ‘but now, as it turned out’. οἰκτίστῳ is the superlative of οἰκτρός ‘pitiable’, rendered ‘most pitiable’. εἵμαρτο is the pluperfect passive of μείρομαι ‘receive as a share’: ‘it had been allotted’; it takes the infinitive, ‘it was allotted that you should …’. ἁλῶναι is the aorist infinitive of ἁλίσκομαι ‘be taken, be caught’, passive in sense. θανάτῳ is a dative of instrument or means.",
    "v": true,
-   "ln": 34
+   "ln": 34,
+   "sc": [
+    "1νῦν–",
+    "δ",
+    "ἄ⏑ρα⏑",
+    "σ",
+    "2οἰκ–τίσ–3τῳ–‖",
+    "θα⏑νά⏑4τῳ–",
+    "εἵ–5μαρ–το⏑",
+    "ἁ⏑6λῶ–ναι×"
+   ]
   },
   {
    "t": "τὸν δ’ αὖτε ψυχὴ προσεφώνεεν Ἀτρείδαο·",
+   "tr": "ton d’ aute psychē prosephōneen Atreidao·",
    "l": "Him in turn the soul of Atreus’ son spoke to:",
    "i": "The soul of the son of Atreus spoke to him in turn:",
    "n": "αὖτε is ‘in turn’ and marks that the speaker has changed. προσεφώνεεν is the same verb as in line 23, here with the movable -ν. Ἀτρείδαο is a genitive in -αο, ‘of the son of Atreus’, Agamemnon; it is spelled here without the diaeresis that Ἀτρεΐδαο has in line 20, but is the same word. The line is a whole-line formula of reply.",
    "v": true,
-   "ln": 35
+   "ln": 35,
+   "sc": [
+    "1τὸν–",
+    "δ",
+    "αὖ–2τε–",
+    "ψυ–3χὴ–‖",
+    "προ⏑σε⏑4φώ–νε⏑εν⏑",
+    "5Ἀ–τρεί–6δα–ο×"
+   ]
   },
   {
    "t": "ὄλβιε Πηλέος υἱέ, θεοῖς ἐπιείκελ’ Ἀχιλλεῦ,\nὃς θάνες ἐν Τροίῃ ἑκὰς Ἄργεος·",
+   "tr": "olbie Pēleos huie, theois epieikel’ Achilleu,\nhos thanes en Troiēi hekas Argeos·",
    "l": "“Prosperous son of Peleus, resembling the gods, Achilles,\nwho died at Troy far from Argos;",
    "i": "“Prosperous son of Peleus, Achilles, like the gods, you who died at Troy far from Argos;",
    "n": "Agamemnon now answers. ὄλβιε and ἐπιείκελε are vocatives. ὄλβιος is rendered ‘prosperous’ as always, here of the lot Agamemnon goes on to describe as honoured, and θεοῖς ἐπιείκελος is ‘resembling the gods’, the adjective governing the dative θεοῖς. Πηλέος υἱέ is ‘son of Peleus’, Πηλέος being the genitive of Πηλεύς. ὃς θάνες is ‘you who died’: the relative looks back to the ‘you’ of the vocative, and θάνες is the unaugmented aorist. ἑκὰς Ἄργεος is ‘far from Argos’, ἑκάς taking the genitive.",
+   "mark": "Agamemnon answers",
    "v": true,
    "ln": 36,
-   "mark": "Agamemnon answers"
+   "sc": [
+    "1ὄλ–βι⏑ε⏑",
+    "2Πη–λέ⏑ος⏑",
+    "3υἱ–έ⏑‖",
+    "θε⏑4οῖς–",
+    "ἐ⏑πι⏑5εί–κελ⏑",
+    "Ἀ⏑6χιλ–λεῦ×",
+    "1ὃς–",
+    "θά⏑νες⏑",
+    "2ἐν–",
+    "Τροί–3ῃ–‖",
+    "ἑ⏑κὰς⏑",
+    "4Ἄρ–γε⏑ος⏑"
+   ]
   },
   {
    "t": "ἀμφὶ δέ σ’ ἄλλοι\nκτείνοντο Τρώων καὶ Ἀχαιῶν υἷες ἄριστοι,\nμαρνάμενοι περὶ σεῖο·",
+   "tr": "amphi de s’ alloi\nkteinonto Trōōn kai Achaiōn huies aristoi,\nmarnamenoi peri seio·",
    "l": "and around you others\nwere being killed, of Trojans and of Achaeans the sons, the best,\nfighting over you;",
    "i": "and around you others were being killed, the best sons of the Trojans and the Achaeans, fighting over you;",
    "n": "ἀμφὶ δέ σ’ is ‘and around you’. κτείνοντο is the passive imperfect, ‘were being killed’. υἷες is the epic nominative plural of υἱός, and υἷες Τρώων καὶ Ἀχαιῶν is a periphrasis for the men of each army; ἄριστοι, ‘best’, agrees with it. μαρνάμενοι is the participle of μάρναμαι ‘fight’. σεῖο is the epic genitive of σύ, governed by περί: ‘over you’, that is, for your body.",
    "v": true,
-   "ln": 37
+   "ln": 37,
+   "sc": [
+    "5ἀμ–φὶ⏑",
+    "δέ⏑",
+    "σ",
+    "6ἄλ–λοι×",
+    "1κτεί–νον–2το–",
+    "Τρώ–3ων–‖",
+    "καὶ⏑",
+    "Ἀ⏑4χαι–ῶν–",
+    "5υἷ–ες⏑",
+    "ἄ⏑6ρισ–τοι×",
+    "1μαρ–νά⏑με⏑2νοι–",
+    "πε⏑ρὶ⏑",
+    "3σεῖ–ο⏑‖"
+   ]
   },
   {
    "t": "σὺ δ’ ἐν στροφάλιγγι κονίης\nκεῖσο μέγας μεγαλωστί, λελασμένος ἱπποσυνάων.",
+   "tr": "sy d’ en strophalingi koniēs\nkeiso megas megalōsti, lelasmenos hipposynaōn.",
    "l": "but you in the whirl of dust\nlay, great in your greatness, forgetful of your horsemanship.",
    "i": "while you lay in the whirl of dust, stretched out at full length, forgetful of your horsemanship.",
    "n": "The sentence turns on σύ δέ: ‘but you’, set against the living fighters of the previous unit. στροφάλιγγι is the dative of στρόφαλιγξ ‘whirl, eddy’, and κονίης is the Ionic genitive of κονία ‘dust’. κεῖσο is the imperfect of κεῖμαι, ‘you lay’, without augment. μέγας μεγαλωστί puts the adjective beside an adverb of the same root, ‘great in your greatness’: a body stretched out at huge length. λελασμένος is the perfect participle of λανθάνομαι ‘forget’. ἱπποσύναι are the skills of the horseman and charioteer, the genitive plural ἱπποσυνάων having the ending -άων.",
    "v": true,
-   "ln": 39
+   "ln": 39,
+   "sc": [
+    "σὺ⏑",
+    "δ",
+    "4ἐν–",
+    "στρο⏑φά⏑5λιγ–γι⏑",
+    "κο⏑6νί–ης×",
+    "1κεῖ–σο⏑",
+    "μέ⏑2γας–",
+    "με⏑γα⏑3λωσ–τί⏑‖",
+    "λε⏑4λασ–μέ⏑νος⏑",
+    "5ἱπ–πο⏑συ⏑6νά–ων×"
+   ]
   },
   {
    "t": "ἡμεῖς δὲ πρόπαν ἦμαρ ἐμαρνάμεθ’·",
+   "tr": "hēmeis de propan ēmar emarnameth’·",
    "l": "and we the whole day long were fighting;",
    "i": "We fought on through the whole day;",
    "n": "ἡμεῖς δέ, ‘and we’, contrasts with σύ in the last line. πρόπαν ἦμαρ is an accusative of time, ‘the whole day through’. ἐμαρνάμεθ’ is the imperfect of μάρναμαι with the final -α dropped.",
    "v": true,
-   "ln": 41
+   "ln": 41,
+   "sc": [
+    "1ἡ–μεῖς–",
+    "2δὲ–",
+    "πρό⏑παν⏑",
+    "3ἦ–μαρ⏑‖",
+    "ἐ⏑4μαρ–νά⏑μεθ⏑"
+   ]
   },
   {
    "t": "οὐδέ κε πάμπαν\nπαυσάμεθα πτολέμου, εἰ μὴ Ζεὺς λαίλαπι παῦσεν.",
+   "tr": "oude ke pampan\npausametha ptolemou, ei mē Zeus lailapi pausen.",
    "l": "and not at all would we\nhave ceased from the war, if Zeus had not stopped (it) with a squall.",
    "i": "and we would never have stopped fighting, had Zeus not put a stop to it with a squall.",
    "n": "οὐδέ κε … παυσάμεθα, with κε and the aorist, is ‘we would not have stopped’; εἰ μὴ … παῦσεν is the condition, ‘if Zeus had not stopped (it)’, the aorist παῦσεν lacking the augment and having no stated object. πάμπαν is ‘altogether’, strengthening the negative. πτολέμου is the genitive of πόλεμος with the epic π-τ, after the verb of ceasing. λαίλαπι is the dative of λαῖλαψ ‘squall’, instrumental.",
    "v": true,
-   "ln": 41
+   "ln": 41,
+   "sc": [
+    "5οὐ–δέ⏑",
+    "κε⏑",
+    "6πάμ–παν×",
+    "1παυ–σά⏑με⏑2θα–",
+    "πτο⏑λέ⏑3μου–‖",
+    "εἰ–",
+    "4μὴ–",
+    "Ζεὺς–",
+    "5λαί–λα⏑πι⏑",
+    "6παῦ–σεν×"
+   ]
   },
   {
    "t": "αὐτὰρ ἐπεί σ’ ἐπὶ νῆας ἐνείκαμεν ἐκ πολέμοιο,\nκάτθεμεν ἐν λεχέεσσι, καθήραντες χρόα καλὸν\nὕδατί τε λιαρῷ καὶ ἀλείφατι·",
+   "tr": "autar epei s’ epi nēas eneikamen ek polemoio,\nkatthemen en lecheessi, kathērantes chroa kalon\nhydati te liarōi kai aleiphati·",
    "l": "But when we had carried you to the ships out of the war,\nwe laid you on a bier, having cleansed your fine skin\nwith warm water and with oil;",
    "i": "But when we had carried you out of the war to the ships, we laid you on a bier, after washing your fine skin with warm water and oil;",
    "n": "ἐνείκαμεν is the aorist of φέρω ‘carry’ in its Ionic form. κάτθεμεν is κατέθεμεν ‘we laid down’ with the vowel lost between κατ- and -θεμεν (the accent drawn back). λέχος is properly a bed or couch, here a bier. καθήραντες is the aorist participle of καθαίρω ‘cleanse’. χρόα is the accusative of χρώς ‘skin, flesh’, and καλόν is ‘fine’. ὕδατι λιαρῷ is ‘warm water’, λιαρός meaning ‘warm, mild’. ἀλείφατι is the dative of ἄλειφαρ ‘oil’, used for rubbing the body. ὕδατί τε … καὶ ἀλείφατι joins the two means.",
    "v": true,
-   "ln": 43
+   "ln": 43,
+   "sc": [
+    "1αὐ–τὰρ⏑",
+    "ἐ⏑2πεί–",
+    "σ",
+    "ἐ⏑πὶ⏑",
+    "3νῆ–ας⏑‖",
+    "ἐ⏑4νεί–κα⏑μεν⏑",
+    "5ἐκ–",
+    "πο⏑λέ⏑6μοι–ο×",
+    "1κάτ–θε⏑μεν⏑",
+    "2ἐν–",
+    "λε⏑χέ⏑3εσ–σι⏑‖",
+    "κα⏑4θή–ραν–5τες–",
+    "χρό⏑α⏑",
+    "6κα–λὸν×",
+    "1ὕ–δα⏑τί⏑",
+    "2τε–",
+    "λι⏑α⏑3ρῷ–‖",
+    "καὶ⏑",
+    "ἀ⏑4λεί–φα⏑τι⏑"
+   ]
   },
   {
    "t": "πολλὰ δέ σ’ ἀμφὶ\nδάκρυα θερμὰ χέον Δαναοὶ κείροντό τε χαίτας.",
+   "tr": "polla de s’ amphi\ndakrya therma cheon Danaoi keironto te chaitas.",
    "l": "and many around you\nhot tears shed the Danaans and cut their hair.",
    "i": "and around you the Greeks shed many hot tears and cut off their hair.",
    "n": "πολλά agrees with δάκρυα: ‘many tears’. θερμά is ‘hot’, not λιαρά ‘warm’ as in the previous line. χέον is the unaugmented imperfect of χέω ‘pour out’, so δάκρυα … χέον is ‘shed tears’, Danaans being the Greek army. κείροντο is the middle imperfect of κείρω ‘cut’: they cut off their own hair as a sign of mourning, κείροντό τε χαίτας. ἀμφί is an adverb here, ‘around’, going with σε.",
    "v": true,
-   "ln": 45
+   "ln": 45,
+   "sc": [
+    "5πολ–λὰ⏑",
+    "δέ⏑",
+    "σ",
+    "6ἀμ–φὶ×",
+    "1δά–κρυ⏑α⏑",
+    "2θερ–μὰ⏑",
+    "χέ⏑3ον–‖",
+    "Δα⏑να⏑4οὶ–",
+    "κεί–5ρον–τό⏑",
+    "τε⏑",
+    "6χαί–τας×"
+   ]
   },
   {
    "t": "μήτηρ δ’ ἐξ ἁλὸς ἦλθε σὺν ἀθανάτῃς ἁλίῃσιν\nἀγγελίης ἀΐουσα·",
+   "tr": "mētēr d’ ex halos ēlthe syn athanatēis haliēisin\nangeliēs aïousa·",
    "l": "And your mother out of the sea came with the immortal sea-ones,\nhearing the news;",
    "i": "Your mother came out of the sea with the immortal goddesses of the sea, when she heard the news;",
    "n": "μήτηρ is Achilles’ mother; she is not named here. ἐξ ἁλός is ‘out of the sea’, the genitive of ἅλς. ἀθανάτῃς ἁλίῃσιν is a dative plural in the shortened feminine ending -ῃς (for -ῃσι), ‘with the immortal sea-ones’, that is the immortal goddesses of the sea (the English of the idiomatic layer): ἁλίη is a feminine adjective ‘of the sea’ used as a noun. ἀγγελίης is the genitive of ἀγγελίη ‘news, report’, which ἀΐουσα ‘hearing’ takes as its object.",
    "v": true,
-   "ln": 47
+   "ln": 47,
+   "sc": [
+    "1μή–τηρ–",
+    "δ",
+    "2ἐξ–",
+    "ἁ⏑λὸς⏑",
+    "3ἦλ–θε⏑‖",
+    "σὺν⏑",
+    "4ἀ–θα⏑νά⏑5τῃς–",
+    "ἁ⏑λί⏑6ῃ–σιν×",
+    "1ἀγ–γε⏑λί⏑2ης–",
+    "ἀ⏑ΐ⏑3ου–σα⏑‖"
+   ]
   },
   {
    "t": "βοὴ δ’ ἐπὶ πόντον ὀρώρει\nθεσπεσίη, ὑπὸ δὲ τρόμος ἔλλαβε πάντας Ἀχαιούς·",
+   "tr": "boē d’ epi ponton orōrei\nthespesiē, hypo de tromos ellabe pantas Achaious·",
    "l": "and a cry over the sea had risen,\nwondrous, and beneath it trembling seized all the Achaeans;",
    "i": "and a wondrous cry rose over the sea, and trembling seized all the Achaeans;",
    "n": "ὀρώρει is the pluperfect of ὄρνυμι with the sense ‘had risen, was up’; the same form appears in line 70. βοή is a cry or shout, and θεσπεσίη ‘wondrous’ agrees with it. ὑπὸ δέ … ἔλλαβε is tmesis, the preverb ὑπό separated from the verb ἔλλαβε, with λ doubled for the metre (ἔλαβε). τρόμος is ‘trembling’ and Ἀχαιούς its object.",
    "v": true,
-   "ln": 48
+   "ln": 48,
+   "sc": [
+    "βο⏑4ὴ–",
+    "δ",
+    "ἐ⏑πὶ⏑",
+    "5πόν–τον⏑",
+    "ὀ⏑6ρώ–ρει×",
+    "1θεσ–πε⏑σί⏑2η–",
+    "ὑ⏑πὸ⏑",
+    "3δὲ–‖",
+    "τρό⏑μος⏑",
+    "4ἔλ–λα⏑βε⏑",
+    "5πάν–τας⏑",
+    "Ἀ⏑6χαι–ούς×"
+   ]
   },
   {
    "t": "καί νύ κ’ ἀναΐξαντες ἔβαν κοίλας ἐπὶ νῆας,\nεἰ μὴ ἀνὴρ κατέρυκε παλαιά τε πολλά τε εἰδώς,\nΝέστωρ, οὗ καὶ πρόσθεν ἀρίστη φαίνετο βουλή·",
+   "tr": "kai ny k’ anaïxantes eban koilas epi nēas,\nei mē anēr kateryke palaia te polla te eidōs,\nNestōr, hou kai prosthen aristē phaineto boulē·",
    "l": "and now they would have gone, having sprung up, to the hollow ships,\nif a man had not held them back, knowing things old and many,\nNestor, whose counsel earlier too appeared best;",
    "i": "and in that moment they would have sprung up and gone to the hollow ships, had a man not held them back who knew things old and many: Nestor, whose counsel had also seemed best before.",
    "n": "καὶ νύ κε is ‘and now … would’, with the aorist ἔβαν (the epic 3rd plural aorist of βαίνω, Attic ἔβησαν): ‘they would have gone’. ἀναΐξαντες is the aorist participle of ἀναΐσσω ‘spring up’. κοίλας νῆας is the formula ‘hollow ships’. εἰ μή with κατέρυκε (imperfect of κατερύκω ‘hold back’) is the condition. παλαιά τε πολλά τε εἰδώς is ‘knowing things both old and many’, εἰδώς being the perfect participle of οἶδα. Νέστωρ stands in apposition to ἀνήρ. οὗ is the relative ‘whose’; καὶ πρόσθεν is ‘even before’. ἀρίστη βουλή is ‘the best counsel’, and φαίνετο ‘appeared’ is the imperfect of the middle of φαίνω.",
    "v": true,
-   "ln": 50
+   "ln": 50,
+   "sc": [
+    "1καί–",
+    "νύ⏑",
+    "κ",
+    "ἀ⏑2να–ΐ–3ξαν–τες⏑‖",
+    "ἔ⏑4βαν–",
+    "κοί–5λας–",
+    "ἐ⏑πὶ⏑",
+    "6νῆ–ας×",
+    "1εἰ–",
+    "μὴ⏑",
+    "ἀ⏑2νὴρ–",
+    "κα⏑τέ⏑3ρυ–κε⏑‖",
+    "πα⏑4λαι–ά⏑",
+    "τε⏑",
+    "5πολ–λά⏑",
+    "τε⏑",
+    "6εἰ–δώς×",
+    "1Νέσ–τωρ–",
+    "2οὗ–",
+    "καὶ–",
+    "3πρόσ–θεν⏑‖",
+    "ἀ⏑4ρίσ–τη–",
+    "5φαί–νε⏑το⏑",
+    "6βου–λή×"
+   ]
   },
   {
    "t": "ὅ σφιν ἐϋφρονέων ἀγορήσατο καὶ μετέειπεν·",
+   "tr": "ho sphin eÿphroneōn agorēsato kai meteeipen·",
    "l": "he, well-disposed in mind toward them, addressed-the-assembly and spoke among them:",
    "i": "with kindly intent toward them he addressed the assembly and spoke among them:",
    "n": "ὅ is the pronoun ‘he’, Nestor. σφιν is σφισιν ‘to them’. ἐϋφρονέων is the uncontracted participle of εὖ φρονέω, ‘thinking kindly’. ἀγορήσατο is the aorist middle of ἀγοράομαι ‘address the assembly’; μετέειπεν is ‘spoke among them’, with μετά ‘among’ and the verb εἶπον; the two verbs together are a whole-line formula introducing a speech. A new speech starts inside Agamemnon’s, so the next lines carry single quotation marks.",
    "v": true,
-   "ln": 53
+   "ln": 53,
+   "sc": [
+    "1ὅ–",
+    "σφιν⏑",
+    "ἐ⏑2ϋ–φρο⏑νέ⏑3ων–‖",
+    "ἀ⏑γο⏑4ρή–σα⏑το⏑",
+    "5καὶ–",
+    "με⏑τέ⏑6ει–πεν×"
+   ]
   },
   {
    "t": "ἴσχεσθ’, Ἀργεῖοι, μὴ φεύγετε, κοῦροι Ἀχαιῶν·",
+   "tr": "ischesth’, Argeioi, mē pheugete, kouroi Achaiōn·",
    "l": "‘Hold back, Argives, do not flee, young men of the Achaeans;",
    "i": "‘Hold back, Argives, do not flee, young men of the Achaeans;",
    "n": "ἴσχεσθ’ is the present imperative middle of ἴσχω, ‘hold yourselves back’; μὴ φεύγετε is the present imperative with μή, ‘stop fleeing, do not flee’. Ἀργεῖοι and Ἀχαιῶν name the same Greeks; this part also has Ἀργείων in lines 62 and 81 and Ἀχαιοί in line 57 for the same men. κοῦροι is ‘young men’. The speech is very short, three lines in all.",
+   "mark": "Nestor speaks",
    "p": true,
    "v": true,
    "ln": 54,
-   "mark": "Nestor speaks"
+   "sc": [
+    "1ἴσ–χεσθ–",
+    "2Ἀρ–γεῖ–3οι–‖",
+    "μὴ–",
+    "4φεύ–γε⏑τε⏑",
+    "5κοῦ–ροι⏑",
+    "Ἀ⏑6χαι–ῶν×"
+   ]
   },
   {
    "t": "μήτηρ ἐξ ἁλὸς ἥδε σὺν ἀθανάτῃς ἁλίῃσιν\nἔρχεται, οὗ παιδὸς τεθνηότος ἀντιόωσα.",
+   "tr": "mētēr ex halos hēde syn athanatēis haliēisin\nerchetai, hou paidos tethnēotos antioōsa.",
    "l": "this mother out of the sea with the immortal sea-ones\nis coming, to meet her own dead son.’",
    "i": "here is his mother coming out of the sea with the immortal goddesses of the sea, to meet her own dead son.’",
    "n": "ἥδε is ‘this one here’; the speaker points at Thetis as she comes. The line repeats the words of line 47, μήτηρ … ἐξ ἁλός … σὺν ἀθανάτῃς ἁλίῃσιν, and they are translated the same way. ἔρχεται is the present, ‘is coming’. οὗ is the genitive of the reflexive pronoun, ‘her own’, and it goes with παιδός. τεθνηότος is the genitive of the perfect participle of θνήσκω, ‘dead’. ἀντιόωσα is ἀντιῶσα with the vowel stretched out (diectasis): ἀντιάω ‘go to meet’ takes the genitive.",
    "v": true,
-   "ln": 55
+   "ln": 55,
+   "sc": [
+    "1μή–τηρ–",
+    "2ἐξ–",
+    "ἁ⏑λὸς⏑",
+    "3ἥ–δε⏑‖",
+    "σὺν⏑",
+    "4ἀ–θα⏑νά⏑5τῃς–",
+    "ἁ⏑λί⏑6ῃ–σιν×",
+    "1ἔρ–χε⏑ται⏑",
+    "2οὗ–",
+    "παι–3δὸς–‖",
+    "τε–4θνη–ό⏑τος⏑",
+    "5ἀν–τι⏑ό⏑6ω–σα×"
+   ]
   },
   {
    "t": "ὣς ἔφαθ’, οἱ δ’ ἔσχοντο φόβου μεγάθυμοι Ἀχαιοί·",
+   "tr": "hōs ephath’, hoi d’ eschonto phobou megathymoi Achaioi·",
    "l": "So he spoke, and they held back from flight, the great-hearted Achaeans;",
    "i": "So he spoke, and the great-hearted Achaeans stopped short of flight;",
    "n": "ὣς ἔφαθ’ is the formula that closes a speech, ἔφαθ’ being ἔφατο with the τ turned to θ before the rough breathing of the next word. ἔσχοντο is the aorist middle of ἔχω, ‘held themselves back’, with the genitive φόβου: φόβος is the fear that makes men run, so ‘flight’. μεγάθυμοι is ‘great-hearted’. Agamemnon is still speaking, and the inner speech of Nestor has ended.",
    "p": true,
    "v": true,
-   "ln": 57
+   "ln": 57,
+   "sc": [
+    "1ὣς–",
+    "ἔ⏑φαθ⏑",
+    "2οἱ–",
+    "δ",
+    "ἔσ–3χον–το⏑‖",
+    "φό⏑4βου–",
+    "με⏑γά⏑5θυ–μοι⏑",
+    "Ἀ⏑6χαι–οί×"
+   ]
   },
   {
    "t": "ἀμφὶ δέ σ’ ἔστησαν κοῦραι ἁλίοιο γέροντος\nοἴκτρ’ ὀλοφυρόμεναι, περὶ δ’ ἄμβροτα εἵματα ἕσσαν.",
+   "tr": "amphi de s’ estēsan kourai halioio gerontos\noiktr’ olophyromenai, peri d’ ambrota heimata hessan.",
    "l": "And around you stood the daughters of the old man of the sea,\npitiably lamenting, and about you deathless garments they put.",
    "i": "Around you stood the daughters of the old man of the sea, lamenting piteously, and they put deathless garments about you.",
    "n": "ἔστησαν is the aorist of ἵστημι, here intransitive: ‘took their stand’. κοῦραι followed by the genitive of a parent means ‘daughters’. ἁλίοιο γέροντος is ‘the old man of the sea’, a sea-god who is not named here. οἴκτρ’ is οἴκτρα, a neuter plural used as an adverb, ‘pitiably’. ὀλοφυρόμεναι is ‘lamenting’. περὶ δ’ … ἕσσαν is tmesis for περιέσσαν, with ἕσσαν the aorist of ἕννυμι ‘clothe’. ἄμβροτα, ‘deathless’, is the house rendering of ἄμβροτος, and εἵματα is ‘garments’.",
    "v": true,
-   "ln": 58
+   "ln": 58,
+   "sc": [
+    "1ἀμ–φὶ⏑",
+    "δέ⏑",
+    "σ",
+    "2ἔσ–τη–3σαν–‖",
+    "κοῦ–4ραι–",
+    "ἁ⏑λί⏑5οι–ο⏑",
+    "γέ⏑6ρον–τος×",
+    "1οἴκτρ–",
+    "ὀ⏑λο⏑2φυ–ρό⏑με⏑3ναι–‖",
+    "πε⏑ρὶ⏑",
+    "δ",
+    "4ἄμ–βρο⏑τα⏑",
+    "5εἵ–μα⏑τα⏑",
+    "6ἕσ–σαν×"
+   ]
   },
   {
    "t": "Μοῦσαι δ’ ἐννέα πᾶσαι ἀμειβόμεναι ὀπὶ καλῇ\nθρήνεον·",
+   "tr": "Mousai d’ ennea pasai ameibomenai opi kalēi\nthrēneon·",
    "l": "And the Muses, nine, all of them, answering each other with a fine voice,\nsang the dirge;",
    "i": "And all nine of the Muses, answering one another in a fine voice, sang the dirge;",
    "n": "Μοῦσαι δ’ ἐννέα πᾶσαι is ‘the Muses, nine in all’. ἀμειβόμεναι is the participle of ἀμείβομαι, here ‘answering one another in turn’. ὀπί is the dative of ὄψ ‘voice’. θρήνεον is the imperfect of θρηνέω, ‘sing a dirge’, from θρῆνος ‘dirge’, with the uncontracted ending (Attic ἐθρήνουν).",
    "v": true,
-   "ln": 60
+   "ln": 60,
+   "sc": [
+    "1Μοῦ–σαι–",
+    "δ",
+    "2ἐν–νέ⏑α⏑",
+    "3πᾶ–σαι⏑‖",
+    "ἀ⏑4μει–βό⏑με⏑5ναι–",
+    "ὀ⏑πὶ⏑",
+    "6κα–λῇ×",
+    "1θρή–νε⏑ον⏑"
+   ]
   },
   {
    "t": "ἔνθα κεν οὔ τιν’ ἀδάκρυτόν γ’ ἐνόησας\nἈργείων·",
+   "tr": "entha ken ou tin’ adakryton g’ enoēsas\nArgeiōn·",
    "l": "there you would not have noticed\nany of the Argives tearless;",
    "i": "there you would not have noticed a single one of the Argives without tears;",
    "n": "ἔνθα is ‘there’. ἔνθα κεν … ἐνόησας is a statement about what would have happened to any observer: ‘you would have noticed’. οὔ τιν’ … ἀδάκρυτον is ‘no one tearless’: the negative and the adjective together are a strong way of saying ‘everyone wept’. ἀδάκρυτον is formed from δάκρυ ‘tear’ with the negative prefix ἀ-. Ἀργείων is a partitive genitive.",
    "v": true,
-   "ln": 61
+   "ln": 61,
+   "sc": [
+    "2ἔν–θα⏑",
+    "κεν⏑",
+    "3οὔ–‖",
+    "τιν⏑",
+    "ἀ⏑4δά–κρυ–5τόν–",
+    "γ",
+    "ἐ⏑νό⏑6η–σας×",
+    "1Ἀρ–γεί–2ων–"
+   ]
   },
   {
    "t": "τοῖον γὰρ ὑπώρορε Μοῦσα λίγεια.",
+   "tr": "toion gar hypōrore Mousa ligeia.",
    "l": "for such the clear-sounding Muse stirred up.",
    "i": "for the clear-sounding Muse stirred up such a feeling in them.",
    "n": "τοῖον is ‘such’ with no noun beside it; the sense supplied in the English is the feeling of grief and tears. ὑπώρορε is a reduplicated aorist of ὑπορνύναι ‘rouse from beneath’, so ‘she stirred up’. Μοῦσα is singular after Μοῦσαι in line 60, as if the whole company were one. λίγεια is ‘clear-sounding’, the epithet of a clear musical note, here said of the Muse’s song.",
    "v": true,
-   "ln": 62
+   "ln": 62,
+   "sc": [
+    "τοῖ–3ον–",
+    "γὰρ⏑‖",
+    "ὑ⏑4πώ–ρο⏑ρε⏑",
+    "5Μοῦ–σα⏑",
+    "λί⏑6γει–α×"
+   ]
   },
   {
    "t": "ἑπτὰ δὲ καὶ δέκα μέν σε ὁμῶς νύκτας τε καὶ ἦμαρ\nκλαίομεν ἀθάνατοί τε θεοὶ θνητοί τ’ ἄνθρωποι·",
+   "tr": "hepta de kai deka men se homōs nyktas te kai ēmar\nklaiomen athanatoi te theoi thnētoi t’ anthrōpoi·",
    "l": "And seventeen nights and days alike we mourned you,\nboth immortal gods and mortal men;",
    "i": "And for seventeen nights and days alike we mourned you, immortal gods and mortal men together;",
    "n": "ἑπτὰ δὲ καὶ δέκα is ‘seventeen’, the numbers set out in the order of the words. νύκτας and ἦμαρ are accusatives of duration, ‘for … nights and day’. ὁμῶς is ‘alike, equally’. κλαίομεν is the imperfect of κλαίω ‘weep’, so ‘we wept for you, we mourned’. ἀθάνατοί τε θεοὶ θνητοί τ’ ἄνθρωποι is the completeness formula ‘gods and men’; θνητοί is ‘mortal’. μέν, which stands after δέκα, is answered by δ’ in ὀκτωκαιδεκάτῃ δ’ in the next unit: seventeen days of mourning, but on the eighteenth the burning.",
    "v": true,
-   "ln": 63
+   "ln": 63,
+   "sc": [
+    "1ἑπ–τὰ⏑",
+    "δὲ⏑",
+    "2καὶ–",
+    "δέ⏑κα⏑",
+    "3μέν–",
+    "σε⏑‖",
+    "ὁ⏑4μῶς–",
+    "νύκ–5τας–",
+    "τε⏑",
+    "καὶ⏑",
+    "6ἦ–μαρ×",
+    "1κλαί–ο⏑μεν⏑",
+    "2ἀ–θά⏑να⏑3τοί–",
+    "τε⏑‖",
+    "θε⏑4οὶ–",
+    "θνη–5τοί–",
+    "τ",
+    "ἄν–6θρω–ποι×"
+   ]
   },
   {
    "t": "ὀκτωκαιδεκάτῃ δ’ ἔδομεν πυρί, πολλὰ δέ σ’ ἀμφὶ\nμῆλα κατεκτάνομεν μάλα πίονα καὶ ἕλικας βοῦς.",
+   "tr": "oktōkaidekatēi d’ edomen pyri, polla de s’ amphi\nmēla katektanomen mala piona kai helikas bous.",
    "l": "and on the eighteenth we gave (you) to the fire, and many around you\nflocks we slaughtered, very fat, and crumple-horned cattle.",
    "i": "and on the eighteenth day we gave you to the fire, and around you we slaughtered many very fat flocks and cattle with crumpled horns.",
    "n": "ὀκτωκαιδεκάτῃ is ‘on the eighteenth’, with ‘day’ understood. ἔδομεν πυρί is ‘we gave (you) to the fire’, ἔδομεν being the aorist of δίδωμι with the usual object missing. πολλά … μῆλα is ‘many flocks’, and ἀμφί is again an adverb, ‘around (you)’. κατεκτάνομεν is the aorist of κατακτείνω ‘slay’. μάλα πίονα is ‘very fat’, πίων being the adjective. ἕλικας βοῦς is ‘cattle with crumpled horns’: ἕλιξ means ‘twisted, bent’, here of the horns.",
    "v": true,
-   "ln": 65
+   "ln": 65,
+   "sc": [
+    "1ὀκ–τω–2και–δε⏑κά⏑3τῃ–",
+    "δ‖",
+    "ἔ⏑δο⏑4μεν–",
+    "πυ⏑ρί⏑",
+    "5πολ–λὰ⏑",
+    "δέ⏑",
+    "σ",
+    "6ἀμ–φὶ×",
+    "1μῆ–λα⏑",
+    "κα⏑2τεκ–τά⏑νο⏑3μεν–‖",
+    "μά⏑λα⏑",
+    "4πί–ο⏑να⏑",
+    "5καὶ–",
+    "ἕ⏑λι⏑6κας–",
+    "βοῦς×"
+   ]
   },
   {
    "t": "καίεο δ’ ἔν τ’ ἐσθῆτι θεῶν καὶ ἀλείφατι πολλῷ\nκαὶ μέλιτι γλυκερῷ·",
+   "tr": "kaieo d’ en t’ esthēti theōn kai aleiphati pollōi\nkai meliti glykerōi·",
    "l": "and you burned in the garment of the gods and in much oil\nand in sweet honey;",
    "i": "and you burned in the clothing of the gods, in much oil and sweet honey;",
    "n": "καίεο is the imperfect passive of καίω with the old ending -εο and no augment: ‘you were burning’. ἐσθῆτι θεῶν is ‘the clothing of the gods’, presumably the deathless garments put about him in line 59. ἀλείφατι πολλῷ is ‘with much oil’, and μέλιτι γλυκερῷ is ‘with sweet honey’. All three are datives of means or circumstance.",
    "v": true,
-   "ln": 67
+   "ln": 67,
+   "sc": [
+    "1καί–ε⏑ο⏑",
+    "δ",
+    "2ἔν–",
+    "τ",
+    "ἐσ–3θῆ–τι⏑‖",
+    "θε⏑4ῶν–",
+    "καὶ⏑",
+    "ἀ⏑5λεί–φα⏑τι⏑",
+    "6πολ–λῷ×",
+    "1καὶ–",
+    "μέ⏑λι⏑2τι–",
+    "γλυ⏑κε⏑3ρῷ–‖"
+   ]
   },
   {
    "t": "πολλοὶ δ’ ἥρωες Ἀχαιοὶ\nτεύχεσιν ἐρρώσαντο πυρὴν πέρι καιομένοιο,\nπεζοί θ’ ἱππῆές τε·",
+   "tr": "polloi d’ hērōes Achaioi\nteuchesin errōsanto pyrēn peri kaiomenoio,\npezoi th’ hippēes te·",
    "l": "and many Achaean heroes\nmoved vigorously in arms around the pyre of (you) burning,\nboth on foot and horsemen;",
    "i": "and many Achaean heroes, in their armour, moved vigorously around the pyre as you burned, both on foot and mounted;",
    "n": "πολλοὶ ἥρωες Ἀχαιοί is ‘many Achaean heroes’. τεύχεσιν is ‘in armour’, a dative of means, from τεύχεα. ἐρρώσαντο is the aorist of ῥώομαι ‘move with speed and force, rush about’, the ρ doubling after the augment. πυρὴν πέρι has πέρι as περί after its noun. καιομένοιο is a genitive participle, ‘burning’, with no noun beside it: it agrees with the ‘you’ of the speech, so ‘the pyre of you burning’. πεζοί θ’ ἱππῆές τε is ‘both foot and horse’: ἱππῆες is the uncontracted nominative plural (Attic ἱππεῖς).",
    "v": true,
-   "ln": 68
+   "ln": 68,
+   "sc": [
+    "πολ–4λοὶ–",
+    "δ",
+    "ἥ–5ρω–ες⏑",
+    "Ἀ⏑6χαι–οὶ×",
+    "1τεύ–χε⏑σιν⏑",
+    "2ἐρ–ρώ–3σαν–το⏑‖",
+    "πυ⏑4ρὴν–",
+    "πέ⏑ρι⏑",
+    "5και–ο⏑μέ⏑6νοι–ο×",
+    "1πε–ζοί–",
+    "θ",
+    "2ἱπ–πῆ–3ές–",
+    "τε⏑‖"
+   ]
   },
   {
    "t": "πολὺς δ’ ὀρυμαγδὸς ὀρώρει.",
+   "tr": "polys d’ orymagdos orōrei.",
    "l": "and a great din had risen.",
    "i": "and a great din rose.",
    "n": "ὀρυμαγδός is a din or uproar, here of the warriors. ὀρώρει is the same pluperfect as in line 48.",
    "v": true,
-   "ln": 70
+   "ln": 70,
+   "sc": [
+    "πο⏑4λὺς–",
+    "δ",
+    "ὀ⏑ρυ⏑5μαγ–δὸς⏑",
+    "ὀ⏑6ρώ–ρει×"
+   ]
   },
   {
    "t": "αὐτὰρ ἐπεὶ δή σε φλὸξ ἤνυσεν Ἡφαίστοιο,\nἠῶθεν δή τοι λέγομεν λεύκ’ ὀστέ’, Ἀχιλλεῦ,\nοἴνῳ ἐν ἀκρήτῳ καὶ ἀλείφατι·",
+   "tr": "autar epei dē se phlox ēnysen Hēphaistoio,\nēōthen dē toi legomen leuk’ oste’, Achilleu,\noinōi en akrētōi kai aleiphati·",
    "l": "But when the flame of Hephaestus had finished you off,\nat dawn then we gathered your white bones, Achilles,\nin unmixed wine and oil;",
    "i": "But when the flame of Hephaestus had made an end of you, at dawn we gathered your white bones, Achilles, in unmixed wine and oil;",
    "n": "φλὸξ Ἡφαίστοιο is ‘the flame of Hephaestus’: the god of fire stands for the fire itself. ἤνυσεν is the aorist of ἀνύω ‘finish off’, with the augment ἤ-. ἠῶθεν is ‘at dawn’, -θεν giving the sense ‘from, at’. τοι is σοι, ‘your’ or ‘for you’. λέγομεν is the imperfect of λέγω ‘gather’ with no augment. λεύκ’ ὀστέ’ is λευκὰ ὀστέα, with the uncontracted neuter plural (Attic ὀστᾶ). ἀκρήτῳ is ‘unmixed’, of wine not watered. οἴνῳ ἐν ἀκρήτῳ has ἐν between noun and adjective.",
    "v": true,
-   "ln": 71
+   "ln": 71,
+   "sc": [
+    "1αὐ–τὰρ⏑",
+    "ἐ⏑2πεὶ–",
+    "δή–",
+    "3σε–‖",
+    "φλὸξ–",
+    "4ἤ–νυ⏑σεν⏑",
+    "5Ἡ–φαίσ–6τοι–ο×",
+    "1ἠ–ῶ–2θεν–",
+    "δή–",
+    "3τοι–‖",
+    "λέ⏑γο⏑4μεν–",
+    "λεύκ–",
+    "5ὀσ–τέ⏑",
+    "Ἀ⏑6χιλ–λεῦ×",
+    "1οἴ–νῳ⏑",
+    "ἐν⏑",
+    "2ἀ–κρή–3τῳ–‖",
+    "καὶ⏑",
+    "ἀ⏑4λεί–φα⏑τι⏑"
+   ]
   },
   {
    "t": "δῶκε δὲ μήτηρ\nχρύσεον ἀμφιφορῆα·",
+   "tr": "dōke de mētēr\nchryseon amphiphorēa·",
    "l": "and your mother gave\nan amphora of gold;",
    "i": "and your mother gave a golden jar;",
    "n": "δῶκε is the unaugmented aorist of δίδωμι, ‘gave’. μήτηρ is Achilles’ mother, who came out of the sea in line 47. χρύσεον is the uncontracted adjective ‘of gold’ (Attic χρυσοῦν). ἀμφιφορεύς, accusative ἀμφιφορῆα, is a two-handled jar, rendered ‘amphora’ in the literal layer and ‘jar’ in the idiomatic.",
    "v": true,
-   "ln": 73
+   "ln": 73,
+   "sc": [
+    "5δῶ–κε⏑",
+    "δὲ⏑",
+    "6μή–τηρ×",
+    "1χρύ–σε⏑ον⏑",
+    "2ἀμ–φι⏑φο⏑3ρῆ–α⏑‖"
+   ]
   },
   {
    "t": "Διωνύσοιο δὲ δῶρον\nφάσκ’ ἔμεναι, ἔργον δὲ περικλυτοῦ Ἡφαίστοιο.",
+   "tr": "Diōnysoio de dōron\nphask’ emenai, ergon de periklytou Hēphaistoio.",
    "l": "and a gift of Dionysus\nshe said it was, and the work of very-famous Hephaestus.",
    "i": "She said it was a gift of Dionysus and the work of very famous Hephaestus.",
    "n": "φάσκ’ is the imperfect φάσκε of φάσκω ‘say, declare’, its subject the mother. ἔμεναι is the epic infinitive of εἰμί, ‘to be’. Διωνύσοιο is the genitive in -οιο of Διώνυσος. ἔργον Ἡφαίστοιο, ‘the work of Hephaestus’, marks a thing as the finest craft. περικλυτός is the epithet translated ‘very famous’.",
    "v": true,
-   "ln": 74
+   "ln": 74,
+   "sc": [
+    "Δι⏑4ω–νύ–5σοι–ο⏑",
+    "δὲ⏑",
+    "6δῶ–ρον×",
+    "1φάσκ–",
+    "ἔ⏑με⏑2ναι–",
+    "ἔρ–3γον–",
+    "δὲ⏑‖",
+    "πε⏑4ρι–κλυ⏑τοῦ⏑",
+    "5Ἡ–φαίσ–6τοι–ο×"
+   ]
   },
   {
    "t": "ἐν τῷ τοι κεῖται λεύκ’ ὀστέα, φαίδιμ’ Ἀχιλλεῦ,\nμίγδα δὲ Πατρόκλοιο Μενοιτιάδαο θανόντος,\nχωρὶς δ’ Ἀντιλόχοιο, τὸν ἔξοχα τῖες ἁπάντων\nτῶν ἄλλων ἑτάρων, μετὰ Πάτροκλόν γε θανόντα.",
+   "tr": "en tōi toi keitai leuk’ ostea, phaidim’ Achilleu,\nmigda de Patrokloio Menoitiadao thanontos,\nchōris d’ Antilochoio, ton exocha ties hapantōn\ntōn allōn hetarōn, meta Patroklon ge thanonta.",
    "l": "In it for you lie your white bones, glorious Achilles,\nmingled with those of Patroclus, Menoetius’ son, who died,\nand apart those of Antilochus, whom you honoured beyond measure of all\nthe other companions, after Patroclus, who had died.",
    "i": "In it lie your white bones, glorious Achilles, mingled with those of Patroclus, son of Menoetius, who died, and apart from them those of Antilochus, whom you honoured beyond all your other companions, after Patroclus was dead.",
    "n": "ἐν τῷ is ‘in it’, the jar. τοι is σοι, ‘your’. κεῖται is singular though its subject ὀστέα is a neuter plural, which Greek allows. φαίδιμος is ‘glorious’, as in the house rendering. μίγδα is ‘mingled’. Πατρόκλοιο Μενοιτιάδαο θανόντος is a genitive group, ‘of Patroclus, son of Menoetius, dead’, depending on ‘bones’. τὸν ἔξοχα τῖες is ‘whom you honoured beyond measure’: τῖες is the imperfect of τίω ‘honour’, and ἔξοχα is the adverb ‘beyond measure’ (the house rendering). ἁπάντων τῶν ἄλλων ἑτάρων is ‘of all the other companions’, the genitive of comparison. μετά with the accusative Πάτροκλον … θανόντα means ‘after Patroclus, once dead’; γε stresses it.",
    "v": true,
-   "ln": 76
+   "ln": 76,
+   "sc": [
+    "1ἐν–",
+    "τῷ–",
+    "2τοι–",
+    "κεῖ–3ται–‖",
+    "λεύκ–",
+    "4ὀσ–τέ⏑α⏑",
+    "5φαί–διμ⏑",
+    "Ἀ⏑6χιλ–λεῦ×",
+    "1μίγ–δα⏑",
+    "δὲ⏑",
+    "2Πα–τρό–3κλοι–ο⏑‖",
+    "Με⏑4νοι–τι⏑ά⏑5δα–ο⏑",
+    "θα⏑6νόν–τος×",
+    "1χω–ρὶς–",
+    "δ",
+    "2Ἀν–τι⏑λό⏑3χοι–ο⏑‖",
+    "τὸν⏑",
+    "4ἔ–ξο⏑χα⏑",
+    "5τῖ–ες⏑",
+    "ἁ⏑6πάν–των×",
+    "1τῶν–",
+    "ἄλ–2λων–",
+    "ἑ⏑τά⏑3ρων–‖",
+    "με⏑τὰ⏑",
+    "4Πά–τρο–5κλόν–",
+    "γε⏑",
+    "θα⏑6νόν–τα×"
+   ]
   },
   {
    "t": "ἀμφ’ αὐτοῖσι δ’ ἔπειτα μέγαν καὶ ἀμύμονα τύμβον\nχεύαμεν Ἀργείων ἱερὸς στρατὸς αἰχμητάων\nἀκτῇ ἔπι προὐχούσῃ, ἐπὶ πλατεῖ Ἑλλησπόντῳ,",
+   "tr": "amph’ autoisi d’ epeita megan kai amymona tymbon\ncheuamen Argeiōn hieros stratos aichmētaōn\naktēi epi prouchousēi, epi platei Hellēspontōi,",
    "l": "And around them then a great and blameless tomb\nwe heaped up, the sacred host of the Argive spearmen,\non a jutting headland, on the broad Hellespont,",
    "i": "Around them we then heaped up a great and blameless tomb, we the sacred host of the Argive spearmen, on a jutting headland by the broad Hellespont,",
    "n": "ἀμφ’ αὐτοῖσι is ‘around them’, the bones in the jar. τύμβος is a mound heaped over the dead, and the verb χεύαμεν, the aorist of χέω, means ‘pour out, heap up’. ἀμύμονα keeps its standing translation ‘blameless’, even though a tomb has no blame to speak of. Ἀργείων … αἰχμητάων is a genitive plural in -άων of αἰχμητής ‘spearman’. ἱερὸς στρατός, ‘sacred host’ (ἱερός is ‘sacred’), is in apposition to the ‘we’ of χεύαμεν. ἀκτῇ ἔπι προὐχούσῃ is ‘on a headland jutting out’: ἔπι stands after its noun, and προὐχούσῃ is the participle of προέχω with the vowels merged. The sentence is cut at its comma because it would otherwise run five lines.",
    "v": true,
-   "ln": 80
+   "ln": 80,
+   "sc": [
+    "1ἀμφ–",
+    "αὐ–2τοῖ–σι⏑",
+    "δ",
+    "ἔ⏑3πει–τα⏑‖",
+    "μέ⏑4γαν–",
+    "καὶ⏑",
+    "ἀ⏑5μύ–μο⏑να⏑",
+    "6τύμ–βον×",
+    "1χεύ–α⏑μεν⏑",
+    "2Ἀρ–γεί–3ων–‖",
+    "ἱ⏑ε⏑4ρὸς–",
+    "στρα⏑τὸς⏑",
+    "5αἰ–χμη–6τά–ων×",
+    "1ἀκ–τῇ⏑",
+    "ἔ⏑2πι–",
+    "προὐ–3χού–σῃ⏑‖",
+    "ἐ⏑4πὶ–",
+    "πλα⏑τεῖ⏑",
+    "5Ἑλ–λησ–6πόν–τῳ×"
+   ]
   },
   {
    "t": "ὥς κεν τηλεφανὴς ἐκ ποντόφιν ἀνδράσιν εἴη\nτοῖς οἳ νῦν γεγάασι καὶ οἳ μετόπισθεν ἔσονται.",
+   "tr": "hōs ken tēlephanēs ek pontophin andrasin eiē\ntois hoi nyn gegaasi kai hoi metopisthen esontai.",
    "l": "so that visible from afar from the sea it might be to men\nwho now are born and who hereafter shall be.",
    "i": "so that it might be seen from far off, from the sea, by men who are alive now and by those who will be hereafter.",
    "n": "ὥς κεν with the optative εἴη is a purpose clause, ‘so that it might be’. τηλεφανής is ‘seen from afar’. ποντόφιν is ‘from the sea’: the ending -φιν marks place from which or at which. ἀνδράσιν is the dative of the people who see it. τοῖς οἳ νῦν γεγάασι is ‘to those who are now born’, γεγάασι being the perfect of γίγνομαι, ‘have been born, are living’; καὶ οἳ μετόπισθεν ἔσονται, ‘and those who will be after’.",
    "v": true,
-   "ln": 83
+   "ln": 83,
+   "sc": [
+    "1ὥς–",
+    "κεν–",
+    "2τη–λε⏑φα⏑3νὴς–‖",
+    "ἐκ–",
+    "4πον–τό⏑φιν⏑",
+    "5ἀν–δρά⏑σιν⏑",
+    "6εἴ–η×",
+    "1τοῖς–",
+    "οἳ–",
+    "2νῦν–",
+    "γε⏑γά⏑3α–σι⏑‖",
+    "καὶ⏑",
+    "4οἳ–",
+    "με⏑τό⏑5πισ–θεν⏑",
+    "ἔ⏑6σον–ται×"
+   ]
   },
   {
    "t": "μήτηρ δ’ αἰτήσασα θεοὺς περικαλλέ’ ἄεθλα\nθῆκε μέσῳ ἐν ἀγῶνι ἀριστήεσσιν Ἀχαιῶν.",
+   "tr": "mētēr d’ aitēsasa theous perikalle’ aethla\nthēke mesōi en agōni aristēessin Achaiōn.",
    "l": "And your mother, having asked the gods for very fair contest-prizes,\nset (them) in the midst of the gathering for the best of the Achaeans.",
    "i": "Your mother asked the gods for very fair contest-prizes and set them in the midst of the gathering for the best of the Achaeans.",
    "n": "αἰτήσασα is the aorist participle of αἰτέω ‘ask’, with two accusatives: θεούς the ones asked, and περικαλλέ’ ἄεθλα the thing asked for. ἄεθλον is a contest and also what is won in it; here it is the prize, and in line 89 it is the contest. περικαλλής is ‘very fair’. ἀγών is ‘gathering’, the place where the Greeks assemble. μέσῳ ἐν ἀγῶνι is ‘in the midst of the gathering’, with μέσῳ agreeing with ἀγῶνι. ἀριστήεσσιν is the dative plural of ἀριστεύς ‘best man’, with the long ending -ήεσσιν.",
    "v": true,
-   "ln": 85
+   "ln": 85,
+   "sc": [
+    "1μή–τηρ–",
+    "δ",
+    "2αἰ–τή–3σα–σα⏑‖",
+    "θε⏑4οὺς–",
+    "πε⏑ρι⏑5καλ–λέ⏑",
+    "ἄ⏑6ε–θλα×",
+    "1θῆ–κε⏑",
+    "μέ⏑2σῳ–",
+    "ἐν⏑",
+    "ἀ⏑3γῶ–νι⏑‖",
+    "ἀ⏑4ρισ–τή–5εσ–σιν⏑",
+    "Ἀ⏑6χαι–ῶν×"
+   ]
   },
   {
    "t": "ἤδη μὲν πολέων τάφῳ ἀνδρῶν ἀντεβόλησας\nἡρώων, ὅτε κέν ποτ’ ἀποφθιμένου βασιλῆος\nζώννυνταί τε νέοι καὶ ἐπεντύνονται ἄεθλα·",
+   "tr": "ēdē men poleōn taphōi andrōn antebolēsas\nhērōōn, hote ken pot’ apophthimenou basilēos\nzōnnyntai te neoi kai epentynontai aethla·",
    "l": "Already at the burial of many men you have been present,\nof heroes, whenever once a king has died\nthe young men gird themselves and make ready the contests;",
    "i": "You have already attended the funerals of many men who were heroes, when a king has died and the young men gird themselves and make ready the contests;",
    "n": "ἤδη μέν is ‘already’. ἀντεβόλησας is the aorist of ἀντιβολέω ‘meet, take part in’, with the dative τάφῳ ‘funeral’; the genitive πολέων ἀνδρῶν ἡρώων says whose. ὅτε κέν ποτε with a participle in the genitive, ἀποφθιμένου βασιλῆος, is ‘whenever a king has died’. ζώννυνται is the middle of ζώννυμι ‘gird’, the young men putting on the belt for the contests. ἐπεντύνονται is ‘make ready’, and ἄεθλα here are the contests themselves.",
    "v": true,
-   "ln": 87
+   "ln": 87,
+   "sc": [
+    "1ἤ–δη–",
+    "2μὲν–",
+    "πο⏑λέ⏑3ων–‖",
+    "τά⏑φῳ⏑",
+    "4ἀν–δρῶν–",
+    "5ἀν–τε⏑βό⏑6λη–σας×",
+    "1ἡ–ρώ–2ων–",
+    "ὅ⏑τε⏑",
+    "3κέν–",
+    "ποτ⏑‖",
+    "ἀ⏑4ποφ–θι⏑μέ⏑5νου–",
+    "βα⏑σι⏑6λῆ–ος×",
+    "1ζών–νυν–2ταί–",
+    "τε⏑",
+    "νέ⏑3οι–‖",
+    "καὶ⏑",
+    "ἐ⏑4πεν–τύ–5νον–ται⏑",
+    "ἄ⏑6ε–θλα×"
+   ]
   },
   {
    "t": "ἀλλά κε κεῖνα μάλιστα ἰδὼν θηήσαο θυμῷ,\nοἷ’ ἐπὶ σοὶ κατέθηκε θεὰ περικαλλέ’ ἄεθλα,\nἀργυρόπεζα Θέτις·",
+   "tr": "alla ke keina malista idōn thēēsao thymōi,\nhoi’ epi soi katethēke thea perikalle’ aethla,\nargyropeza Thetis·",
    "l": "but those you would most of all have wondered at in your heart on seeing,\nsuch as upon you set down the goddess, very fair contest-prizes,\nsilver-footed Thetis;",
    "i": "but you would have marvelled most of all at the sight of those, such very fair contest-prizes as the goddess set out in your honour, silver-footed Thetis;",
    "n": "ἀλλά κε … θηήσαο is ‘but you would have marvelled’, the aorist of θηέομαι ‘gaze at in wonder’ with κε, a statement of what would have happened. κεῖνα is ‘those’, the prizes. ἰδών is ‘on seeing’. οἷα … ἄεθλα is ‘such prizes as’. ἐπὶ σοί is ‘in your honour’ or ‘for you’. κατέθηκε is the aorist of κατατίθημι ‘set down’. Θέτις is the goddess named for the first time in this part. ἀργυρόπεζα is the epithet ‘silver-footed’, πέζα being ‘foot’, in the nominative with the ending -α.",
    "v": true,
-   "ln": 90
+   "ln": 90,
+   "sc": [
+    "1ἀλ–λά⏑",
+    "κε⏑",
+    "2κεῖ–να⏑",
+    "μά⏑3λισ–τα⏑‖",
+    "ἰ⏑4δὼν–",
+    "θη–5ή–σα⏑ο⏑",
+    "6θυ–μῷ×",
+    "1οἷ–",
+    "ἐ⏑πὶ⏑",
+    "2σοὶ–",
+    "κα⏑τέ⏑3θη–κε⏑‖",
+    "θε⏑4ὰ–",
+    "πε⏑ρι⏑5καλ–λέ⏑",
+    "ἄ⏑6ε–θλα×",
+    "1ἀρ–γυ⏑ρό⏑2πε–ζα⏑",
+    "Θέ⏑3τις–‖"
+   ]
   },
   {
    "t": "μάλα γὰρ φίλος ἦσθα θεοῖσιν.",
+   "tr": "mala gar philos ēstha theoisin.",
    "l": "for very dear you were to the gods.",
    "i": "for you were very dear to the gods.",
    "n": "μάλα γάρ gives the reason: μάλα is ‘very’ and γάρ ‘for’. φίλος … θεοῖσιν is ‘dear to the gods’ with a dative. ἦσθα is the imperfect of εἰμί, ‘you were’. The same adjective φίλον was used of Agamemnon and Zeus in line 25.",
    "v": true,
-   "ln": 92
+   "ln": 92,
+   "sc": [
+    "μά⏑λα⏑",
+    "4γὰρ–",
+    "φί⏑λος⏑",
+    "5ἦσ–θα⏑",
+    "θε⏑6οῖ–σιν×"
+   ]
   },
   {
    "t": "ὣς σὺ μὲν οὐδὲ θανὼν ὄνομ’ ὤλεσας, ἀλλά τοι αἰεὶ\nπάντας ἐπ’ ἀνθρώπους κλέος ἔσσεται ἐσθλόν, Ἀχιλλεῦ,",
+   "tr": "hōs sy men oude thanōn onom’ ōlesas, alla toi aiei\npantas ep’ anthrōpous kleos essetai esthlon, Achilleu,",
    "l": "So you not even dead lost your name, but for you always\namong all men fame there shall be, good, Achilles.",
    "i": "So even in death you did not lose your name, but a good name will always be yours among all men, Achilles.",
    "n": "ὣς σὺ μέν is ‘so you, indeed’. οὐδὲ θανών is ‘not even dead’, ὄνομ’ ὤλεσας ‘you lost your name’: ὤλεσας is the aorist of ὄλλυμι. τοι is σοι. κλέος ἐσθλόν is the house phrase ‘good fame’, rendered ‘a good name’ in prose. Greek repeats the idea of name and fame without discomfort. πάντας ἐπ’ ἀνθρώπους is ‘among all men’. ἔσσεται is ἔσται.",
    "v": true,
-   "ln": 93
+   "ln": 93,
+   "sc": [
+    "1ὣς–",
+    "σὺ⏑",
+    "μὲν⏑",
+    "2οὐ–δὲ⏑",
+    "θα⏑3νὼν–‖",
+    "ὄ⏑νομ⏑",
+    "4ὤ–λε⏑σας⏑",
+    "5ἀλ–λά⏑",
+    "τοι⏑",
+    "6αἰ–εὶ×",
+    "1πάν–τας⏑",
+    "ἐπ⏑",
+    "2ἀν–θρώ–3πους–‖",
+    "κλέ⏑ος⏑",
+    "4ἔσ–σε⏑ται⏑",
+    "5ἐσ–θλόν⏑",
+    "Ἀ⏑6χιλ–λεῦ×"
+   ]
   },
   {
    "t": "αὐτὰρ ἐμοὶ τί τόδ’ ἦδος, ἐπεὶ πόλεμον τολύπευσα;",
+   "tr": "autar emoi ti tod’ ēdos, epei polemon tolypeusa;",
    "l": "But for me what is this pleasure, since the war I have wound up?",
    "i": "But what pleasure is this to me, now that I have wound up the war?",
    "n": "αὐτάρ is ‘but’. ἐμοί is the dative ‘to me’, and ἦδος is a noun, ‘pleasure, joy’; τόδ’ ἦδος is ‘this pleasure’. ἐπεί is ‘since’. τολύπευσα is the aorist of τολυπεύω, which means to wind wool into balls, and then to work something through to its end, so ‘I have wound up the war’, that is brought it to its end. The Greek question mark (;) ends the unit.",
    "v": true,
-   "ln": 95
+   "ln": 95,
+   "sc": [
+    "1αὐ–τὰρ⏑",
+    "ἐ⏑2μοὶ–",
+    "τί⏑",
+    "τόδ⏑",
+    "3ἦ–δος⏑‖",
+    "ἐ⏑4πεὶ–",
+    "πό⏑λε⏑5μον–",
+    "το⏑λύ⏑6πευ–σα×"
+   ]
   },
   {
    "t": "ἐν νόστῳ γάρ μοι Ζεὺς μήσατο λυγρὸν ὄλεθρον\nΑἰγίσθου ὑπὸ χερσὶ καὶ οὐλομένης ἀλόχοιο.",
+   "tr": "en nostōi gar moi Zeus mēsato lygron olethron\nAigisthou hypo chersi kai oulomenēs alochoio.",
    "l": "For on my homecoming for me Zeus devised a grievous destruction\nby the hands of Aegisthus and of my ruinous wife.”",
    "i": "For on my homecoming Zeus devised a grievous destruction for me, at the hands of Aegisthus and my ruinous wife.”",
    "n": "ἐν νόστῳ is ‘on my homecoming’; νόστος is the journey home. μοι is ‘for me’, and μήσατο the aorist middle of μήδομαι ‘devise, plan’. λυγρόν is ‘grievous’, and ὄλεθρον is ‘destruction’. Αἰγίσθου ὑπὸ χερσί is ‘at the hands of Aegisthus’: ὑπό takes the dative χερσί, and Αἰγίσθου is the genitive depending on it. οὐλομένης is the participle of the aorist of ὄλλυμι used as an adjective, ‘ruinous’, here of Agamemnon’s wife, left unnamed; ἀλόχοιο is the genitive in -οιο of ἄλοχος ‘wife’. The sentence closes Agamemnon’s speech.",
    "v": true,
-   "ln": 96
+   "ln": 96,
+   "sc": [
+    "1ἐν–",
+    "νόσ–2τῳ–",
+    "γάρ–",
+    "3μοι–‖",
+    "Ζεὺς–",
+    "4μή–σα⏑το⏑",
+    "5λυ–γρὸν⏑",
+    "ὄ⏑6λε–θρον×",
+    "1Αἰ–γίσ–2θου–",
+    "ὑ⏑πὸ⏑",
+    "3χερ–σὶ⏑‖",
+    "καὶ⏑",
+    "4οὐ–λο⏑μέ⏑5νης–",
+    "ἀ⏑λό⏑6χοι–ο×"
+   ]
   },
   {
    "t": "ὣς οἱ μὲν τοιαῦτα πρὸς ἀλλήλους ἀγόρευον,\nἀγχίμολον δέ σφ’ ἦλθε διάκτορος ἀργεϊφόντης,\nψυχὰς μνηστήρων κατάγων Ὀδυσῆϊ δαμέντων,\nτὼ δ’ ἄρα θαμβήσαντ’ ἰθὺς κίον, ὡς ἐσιδέσθην.",
+   "tr": "hōs hoi men toiauta pros allēlous agoreuon,\nanchimolon de sph’ ēlthe diaktoros argeïphontēs,\npsychas mnēstērōn katagōn Odysēï damentōn,\ntō d’ ara thambēsant’ ithys kion, hōs esidesthēn.",
    "l": "So they, such things to one another were saying,\nand close by came to them the guide, Argeïphontes,\nleading down the souls of the suitors, overpowered by Odysseus,\nand the two, astonished, went straight on, when they saw (them).",
    "i": "So they talked in this way with one another, and close by came the guide, the slayer of Argus, leading down the souls of the suitors, who had been overpowered by Odysseus; and the two of them, astonished, went straight up when they saw them.",
    "n": "τοιαῦτα … ἀγόρευον is ‘were saying such things’; ἀγόρευον is the imperfect of ἀγορεύω. σφ’ is σφι, ‘to them’, elided. διάκτορος is rendered ‘the guide’ and its meaning is not known. ἀργεϊφόντης is traditionally ‘slayer of Argus’, but the meaning is disputed. κατάγων is ‘leading down’. Ὀδυσῆϊ δαμέντων is a dative of the doer with the passive aorist participle: ‘overpowered by Odysseus’. τὼ is the dual ‘the two’, Agamemnon and Achilles, and θαμβήσαντ’ (aorist participle, elided from -τε) and ἐσιδέσθην (aorist, with the dual ending -σθην) are dual forms too; κίον (from κίω ‘go’) has the shape of the plural, so the dual subject here takes a plural verb. ἰθύς is ‘straight’. ὡς is ‘when’.",
    "p": true,
    "v": true,
-   "ln": 98
+   "ln": 98,
+   "sc": [
+    "1ὣς–",
+    "οἱ–",
+    "2μὲν–",
+    "τοι–3αῦ–τα⏑‖",
+    "πρὸς⏑",
+    "4ἀλ–λή–5λους–",
+    "ἀ⏑γό⏑6ρευ–ον×",
+    "1ἀγ–χί⏑μο⏑2λον–",
+    "δέ–",
+    "σφ",
+    "3ἦλ–θε⏑‖",
+    "δι⏑4άκ–το⏑ρος⏑",
+    "5ἀρ–γε⏑ϊ⏑6φόν–της×",
+    "1ψυ–χὰς–",
+    "2μνησ–τή–3ρων–‖",
+    "κα⏑τά⏑4γων–",
+    "Ὀ⏑δυ⏑5σῆ–ϊ⏑",
+    "δα⏑6μέν–των×",
+    "1τὼ–",
+    "δ",
+    "ἄ⏑ρα⏑",
+    "2θαμ–βή–3σαντ–‖",
+    "ἰ–4θὺς–",
+    "κί⏑ον⏑",
+    "5ὡς–",
+    "ἐ⏑σι⏑6δέσ–θην×"
+   ]
   },
   {
    "t": "ἔγνω δὲ ψυχὴ Ἀγαμέμνονος Ἀτρεΐδαο\nπαῖδα φίλον Μελανῆος, ἀγακλυτὸν Ἀμφιμέδοντα·",
+   "tr": "egnō de psychē Agamemnonos Atreïdao\npaida philon Melanēos, agaklyton Amphimedonta·",
    "l": "And the soul of Agamemnon, Atreus’ son, recognized\nthe dear son of Melaneus, the renowned Amphimedon;",
    "i": "And the soul of Agamemnon, son of Atreus, recognized the dear son of Melaneus, the renowned Amphimedon;",
    "n": "ἔγνω is the aorist of γιγνώσκω, ‘recognized’, and ψυχὴ Ἀγαμέμνονος Ἀτρεΐδαο is the subject, set after the verb. παῖδα φίλον is ‘dear son’, φίλος being ‘dear’. Μελανῆος is the genitive of Μελανεύς. ἀγακλυτός is ‘renowned’ (ἀγα- strengthens κλυτός ‘heard of, famous’). Ἀμφιμέδοντα is the name in apposition to παῖδα, both objects of ἔγνω.",
    "v": true,
-   "ln": 102
+   "ln": 102,
+   "sc": [
+    "1ἔ–γνω–",
+    "2δὲ–",
+    "ψυ–3χὴ–‖",
+    "Ἀ⏑γα⏑4μέμ–νο⏑νος⏑",
+    "5Ἀ–τρε⏑ΐ⏑6δα–ο×",
+    "1παῖ–δα⏑",
+    "φί⏑2λον–",
+    "Με⏑λα⏑3νῆ–ος⏑‖",
+    "ἀ⏑4γα–κλυ⏑τὸν⏑",
+    "5Ἀμ–φι⏑μέ⏑6δον–τα×"
+   ]
   },
   {
    "t": "ξεῖνος γάρ οἱ ἔην Ἰθάκῃ ἔνι οἰκία ναίων.",
+   "tr": "xeinos gar hoi eēn Ithakēi eni oikia naiōn.",
    "l": "for a guest-friend to him he was, in Ithaca dwelling in a house.",
    "i": "for he had been a guest-friend to him, living in a house in Ithaca.",
    "n": "The line explains the recognition. ξεῖνος is a guest-friend: a man bound to another by the exchange of hospitality, whichever of them is the host. οἱ is ‘to him’, Agamemnon, and ἔην is the epic imperfect ‘was’. Ἰθάκῃ ἔνι has ἔνι as ἐνί, ‘in’, placed after its noun. οἰκία ναίων is ‘living in a house’, οἰκία being a neuter plural ‘dwelling’. The participle ναίων agrees with ξεῖνος, the subject, who is Amphimedon.",
    "v": true,
-   "ln": 104
+   "ln": 104,
+   "sc": [
+    "1ξεῖ–νος–",
+    "2γάρ–",
+    "οἱ⏑",
+    "ἔ⏑3ην–‖",
+    "Ἰ⏑θά⏑4κῃ–",
+    "ἔ⏑νι⏑",
+    "5οἰ–κί⏑α⏑",
+    "6ναί–ων×"
+   ]
   },
   {
    "t": "τὸν προτέρη ψυχὴ προσεφώνεεν Ἀτρεΐδαο·",
+   "tr": "ton proterē psychē prosephōneen Atreïdao·",
    "l": "Him first the soul of Atreus’ son spoke to:",
    "i": "The soul of the son of Atreus spoke to him first:",
    "n": "The line is the same formula as line 23 with a different speaker: τόν is Amphimedon, and προτέρη, ‘first’, says that Agamemnon speaks before the other. The speech that this line introduces begins in the next part, so no quotation mark is opened here.",
    "v": true,
-   "ln": 105
+   "ln": 105,
+   "sc": [
+    "1τὸν–",
+    "προ⏑τέ⏑2ρη–",
+    "ψυ–3χὴ–‖",
+    "προ⏑σε⏑4φώ–νε⏑εν⏑",
+    "5Ἀ–τρε⏑ΐ⏑6δα–ο×"
+   ]
   }
  ]
 }

@@ -484,3 +484,6 @@ The 19.582 stop was added under README rule 5 (see LOG.md); odyssey-097 is publi
 3. 227 ἄφρων: the table says “senseless”; shipped odyssey-028 has “foolish”. 100 follows 028.
 4. 250–251 ἱερεύω: 100 uses “slaughtering” (table, and seven other parts); odyssey-083's `l` says “sacrificing”.
 5. 284 λώβης θυμαλγέος: “insult” follows the row for 18.347; the 19.373 row for λώβη alone turns “insult” down.
+
+## 2026-10-10 · odyssey-110 (22.398–501) — stopped at the build: 22.430 lacks its closing mark
+Draft, review (two passes) and gloss are complete and kept in `drafts/odyssey-110/` (units.json 61 units, gloss.json, review.md, new-renderings.md), NOT built or published. `build_odyssey.py` refuses: "unit 19 (line 430): does not end at punctuation". Source 22.430 `τὴν δ’ ἀπαμειβόμενος προσέφη πολύμητις Ὀδυσσεύς` has no stop (22.490 and odyssey-024 print `·`). README rule 5 covers it (add `·` to `source/odyssey-murray1919.json`, re-pin the sha256 of odyssey-110 in `parts.json`, rebuild, validate, publish), but this run's permission classifier denied the edit to the shared source file, so it stopped. Next step: apply rule 5 as above and continue from step 3 of the runbook using the saved drafts (do not re-run packet.py/redraft). Claim released.

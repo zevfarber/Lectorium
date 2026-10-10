@@ -2645,3 +2645,27 @@ the reviewing agent and recorded. The reader shows it only when the Scansion tog
 | κίχλαι · πέλειαι (22.468) | "thrushes" · "doves" | "thrushes" · "doves" | "larks", "pigeons" |
 | ἀμφιχέομαι (22.498, ἀμφεχέοντο) | "poured themselves around" | "threw themselves round" | "embraced", "crowded round" |
 | νεμεσσητόν (22.489) | "a thing to resent" | "a thing to resent" | "improper", "shameful"; follows the table's νεμεσσάω "felt resentment at" |
+| καὶ τότ’ ἄρ’ ἣν ἄλοχον προσέφη πολύμητις Ὀδυσσεύς (whole-line speech introduction, 23.247) | "And then indeed his own wife he addressed, many-wiled Odysseus:" | "Then Odysseus of many wiles said to his own wife:" | "answered" (reserved for ἠμείβετο); "resourceful" (reserved for πολυμήχανος); ἣν ἄλοχον is the possessive ὅς, so "his own wife", not "the wife"; built on the table's τὴν δ’ ἀπαμειβόμενος προσέφη πολύμητις Ὀδυσσεύς |
+| ἄλοχον θυμαρέα (23.232; with the fixed κεδνὰ ἰδυῖαν) | "holding his wife, heart-fitting, the one wise and trusty" | "who suited his heart, trusty and wise" | "dear", "beloved" (reserved for φίλος), "pleasing" alone; θυμαρής is θυμός + the root of ἀραρίσκω "fit", and keeps the "heart-fitting" shipped for the staff at 17.199 |
+| ἀσπάσιοι (of persons, 23.238, ἀσπάσιοι δ’ ἐπέβαν γαίης) | "glad" | "glad" | "welcome" (kept for ἀσπάσιος / ἀσπαστός of the thing welcomed, γῆ ἀσπάσιος, πόσις ἀσπαστός at 23.233 and 23.239), "gladly" (reserved for ἀσπασίως) |
+| κακότητα φυγόντες (23.238) | "having escaped misfortune" | "having escaped misfortune" | "evil", "wickedness" (κακότης also means badness; here it is ill fortune), "disaster" |
+| ἄτη (23.223, of Helen) | "bewilderment" | "bewilderment" | "ruin" (shipped at 12.372, a different use), "folly" (reserved for ἀτασθαλίαι), "blindness" (kept for ἀάομαι); follows the shipped 21.296–302 |
+| ῥοδοδάκτυλος Ἠώς (23.241, half-line, apart from the whole-line ἠριγένεια formula) | "rose-fingered Dawn" | "rose-fingered Dawn" | "rosy-fingered", "Dawn with her rose-red fingers"; follows the wording of the whole-line row |
+| οὐρανὸν εὐρὺν ἔχουσι (23.280, after ἀθανάτοισι θεοῖσι; the line already stands in odyssey-018) | "who hold the wide sky" | "who hold the broad heaven" | "the wide heaven" in `i` (the wording of the table's 16.183 row, which differs from the line shipped in odyssey-018); the earlier shipped wording is kept here, as the packet requires, and the discrepancy is left as shipped |
+| χώομαι · σκύζομαι (23.209, 23.213) | "be incensed" (χώεο) · "be angry" (σκύζευ) | "be incensed" · "be angry" | collapsing the two into one word; "be wroth", "rage" (too strong), "be vexed" (reserved for ὀχθέω) |
+| πυκινὸς θάλαμος (23.229) | "the solid chamber" | "the solid chamber" | "close-built", "thick-walled", "strong-built"; follows the table's πυκινὸς δόμος and πυκινὸν λέχος "solid" |
+| κολλητὰς … θύρας, πυκινῶς ἀραρυίας (23.194) | "close-joined doors, closely fitted" | "close-joined doors, tightly fitted" | "glued doors" (loses the sense of joinery), "well-fitted" (reserved for ἐυήρης) |
+| ἀσκητός · ἀσκέω (23.189 ἀσκητῷ; 23.198 ἀσκήσας) | "artfully-fashioned" · "having fashioned" | "artfully fashioned" · "fashioning" | "well-wrought" (reserved for τετυγμένος / τέτυκται), "polished" (reserved for ξέω), "exercised"; ἀσκέω is "work with art" |
+| ἑρμῖν’ (23.198, ἑρμῖνα) · τέρετρον (23.198) | "bedpost" · "auger" | "bedpost" · "auger" | "bed-leg", "bed-frame", "post" alone · "drill", "gimlet" |
+| φοίνικι (23.201, dative of φοῖνιξ, of the dye) | "crimson" | "crimson" | "purple" (kept plain for πορφύρεος), "red", "scarlet" |
+| ἐν περάτῃ (23.243) | "at the far edge" | "at the far edge of the world" (+ note: the Greek does not say of what) | "at the end of the world", "on the horizon", "in the west" |
+| ὠκύποδες ἵπποι (23.245, ὠκύποδας) | "swift-footed" | "swift-footed" | "fleet-footed", "quick-footed"; ὠκύς keeps the table's "swift" |
+| πῶλοι (of the horses of Dawn, 23.246) | "colts" | "colts" | "foals" (kept for the compound ἐύπωλος, "of the fine foals"), "steeds" |
+| πείρατ’ ἀέθλων (23.248) | "the limits of trials" | "the limit of all our trials" | "the end of the contests", "the ends of the labours" (ἄεθλος keeps "trial" of Odysseus's toils, as at 11.622 and in odyssey-001) |
+| ἀμέτρητος πόνος (23.249) | "an unmeasured toil" | "an unmeasured toil" | "immense", "endless", "boundless" (reserved for ἀπείρων / ἀπείρονα) |
+| χαλεπός (of a toil, 23.250) | "hard" | "hard" | "harsh" (reserved for persons and for χαλεπὸν γῆρας); follows the table's χαλεπὸν ὀρύσσειν "hard" |
+| ἐπισταμένῳ (23.185, "for one skilled") | "skilled" | "skilful" | "knowing", "expert"; follows the table's ἐπισταμένως "skilfully" |
+| λέκτρονδε (23.254) | "to bed" | "to bed" | "to the bed" (reserved for λέχος), "to the couch" (reserved for εὐνή), "to our chamber" |
+| ἀρημένον (23.283, of Odysseus in old age; derivation uncertain) | "worn down" | "worn out" (+ note: old participle of uncertain derivation) | "afflicted", "burdened", "weary"; each silently picks one guess |
+| ἐλπωρή · ὑπάλυξις (23.287) | "hope" · "escape" | "hope" · "escape" | "expectation", "chance" · "avoidance", "relief" |
+| ἄρειον (23.286, of γῆρας) | "better" | "better" | "braver", "stronger" (the word is the comparative of ἀγαθός), "kinder" |

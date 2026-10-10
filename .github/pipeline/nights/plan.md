@@ -41,11 +41,12 @@ scan anomaly turns up later in the volume.
 | done (2026-10-01, unattended) | 207–214 | 187–194 | `archive/pp187-194.json` | Continues the Badr al-Din / Shams al-Din narrative (night 24 heading on p. 189; verse on pp. 187–188, 194); all 7 joins plus 186→187 continuous |
 | done (2026-10-02, unattended) | 215–222 | 195–202 | `archive/pp195-202.json` | Continues the Badr al-Din / Shams al-Din narrative (verse on pp. 195–196, 198–200; night 25 label on p. 199); all joins continuous incl. 194→195 (200→201 abrupt but no line missing) |
 | done (2026-10-03, unattended) | 247–254 | 227–234 | `archive/pp227-234.json` | Continues the narrative (night heading p. 232, verse on pp. 228, 230, 234); all joins continuous incl. 226→227 |
+| done (2026-10-10, unattended) | 287–294 | 267–274 | `archive/pp267-274.json` | Night 33 and on (barber's brothers; the sixth brother): all 7 joins continuous |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 286 (archive ends at printed p. 266). Pages remaining: ~660 PDF pages
-(approximate, pending the corrected offset holding). Lines archived: 4963. calc.traineddata last
+**Last PDF page done: 294 (archive ends at printed p. 274). Pages remaining: ~644 PDF pages
+(approximate, pending the corrected offset holding). Lines archived: 5147. calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new
 verified line pairs (pp. 127-131, 133-134 prose only, verse/heading excluded; p. 132 excluded, its

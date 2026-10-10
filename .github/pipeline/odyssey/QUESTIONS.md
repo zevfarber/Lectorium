@@ -487,3 +487,13 @@ The 19.582 stop was added under README rule 5 (see LOG.md); odyssey-097 is publi
 
 ## 2026-10-10 · odyssey-110 (22.398–501) — stopped at the build: 22.430 lacks its closing mark
 Draft, review (two passes) and gloss are complete and kept in `drafts/odyssey-110/` (units.json 61 units, gloss.json, review.md, new-renderings.md), NOT built or published. `build_odyssey.py` refuses: "unit 19 (line 430): does not end at punctuation". Source 22.430 `τὴν δ’ ἀπαμειβόμενος προσέφη πολύμητις Ὀδυσσεύς` has no stop (22.490 and odyssey-024 print `·`). README rule 5 covers it (add `·` to `source/odyssey-murray1919.json`, re-pin the sha256 of odyssey-110 in `parts.json`, rebuild, validate, publish), but this run's permission classifier denied the edit to the shared source file, so it stopped. Next step: apply rule 5 as above and continue from step 3 of the runbook using the saved drafts (do not re-run packet.py/redraft). Claim released.
+
+## 2026-10-10 · odyssey-113 (23.183–287) — stopped at the build: missing stop at 23.247
+The source line 247 (`καὶ τότ’ ἄρ’ ἣν ἄλοχον προσέφη πολύμητις Ὀδυσσεύς`) has no closing mark; the build refuses
+("unit 33 (line 247): does not end at punctuation"). README rule 5 covers this (add `·`, as the published parts print this
+formula; re-pin the sha256 of odyssey-113 in `parts.json`; make unit 33's `t` end with `·`; drop the note sentence "The archive
+prints no stop…" from that unit). In this run the edit to `source/odyssey-murray1919.json` was blocked by the session's
+permission classifier, so it was NOT applied. Nothing was built or published. The fully drafted and two-pass-reviewed
+`drafts/odyssey-113/` (units.json, gloss.json, review.md, new-renderings.md) is committed so the next run can resume:
+apply the rule-5 correction, `python3 build_odyssey.py odyssey-113`, validate, publish. Log the correction in LOG.md.
+Decision meanwhile: none needed from the owner beyond whether the run environment may edit the pinned source.

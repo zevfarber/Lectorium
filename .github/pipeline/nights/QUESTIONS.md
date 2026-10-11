@@ -1068,3 +1068,5 @@ Open decisions the rules do not settle. A run writes the question and what it de
 - **Night 32 review (2026-10-09).** 713 glossary keys shared with earlier nights carry different wording in the Night 32 drafts; NOT overwritten (existing keys kept, deliberate reconciliation left for later). Table shows 'ORDINAL MISMATCH' at Night 33 (الثلثة والثلثون) only because its tail is not yet transcribed; nothing published past Night 32.
 
 - **Night 33 ordinal (2026-10-10).** The earlier "MISMATCH at Night 33" was not only the unread tail: nights_index.py did not know the alif-less spelling الثلثة. Added ثلثه/ثلاثه to UNITS; --next now offers Night 33. Decided meanwhile: nothing else changed. p300→p301 join repeats قد; kept as printed.
+
+- **Night 34 (2026-10-11).** Review also asked that the `l` layer of the last third of the night (from "the youth had not known…") drop the hyphens that join every proclitic ("And-she-said", "the-shouting"), as the earlier slices do; and that quote marks in `i`/`n` be normalised to curly. Not done this run (risk of mechanical damage). Decided meanwhile: published as is; a later tidy pass could do both.

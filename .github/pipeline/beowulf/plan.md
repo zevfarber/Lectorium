@@ -1,13 +1,13 @@
 # Beowulf — plan
 
-3 of 44 parts published. One part per fitt, as Klaeber numbers them.
+4 of 44 parts published. One part per fitt, as Klaeber numbers them.
 
 | part | fitt | lines | status |
 |---|---|---|---|
 | beowulf-prologue | Prologue · Scyld’s Ship-Funeral | 1–52 | published |
 | beowulf-fitt-01 | I · The Building of Heorot | 53–114 | published |
 | beowulf-fitt-02 | II · Twelve Winters of Grendel | 115–188 | published |
-| beowulf-fitt-03 | III · Beowulf Sets Sail | 189–257 | todo |
+| beowulf-fitt-03 | III · Beowulf Sets Sail | 189–257 | published |
 | beowulf-fitt-04 | IV · An Answer on the Shore | 258–319 | todo |
 | beowulf-fitt-05 | V · At Heorot’s Door | 320–370 | todo |
 | beowulf-fitt-06 | VI · Beowulf’s Vow | 371–455 | todo |

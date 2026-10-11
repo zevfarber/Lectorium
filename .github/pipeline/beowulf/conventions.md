@@ -73,3 +73,4 @@ apparatus gives it and it matters for the sense.
 
 | form | l | i | first used |
 |---|---|---|---|
+| meþelwordum / maþelode | speech-words (`l`) | asked in formal words (`i`) | beowulf-fitt-03 line 236 |

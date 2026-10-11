@@ -1,0 +1,7 @@
+| νώροπα χαλκόν (24.467, 24.500; meaning of νώροψ not known, traditional gloss "flashing") | "the flashing bronze" | "the flashing bronze" (+ note: meaning not known) | "gleaming" (reserved for γλαυκῶπις), "shining" (φαεινός), "bright" (ἀργής), "dazzling" (each silently picks one guess) |
+| χαλκοπαρῄου (24.523, κόρυθος διὰ χαλκοπαρῄου) | "bronze-cheeked" | "bronze-cheeked" | "bronze-faced", "with bronze cheek-pieces" (explains instead of translating); the note says the cheek-pieces are the likely reference |
+| ὑψιπετήεις αἰετός (24.538) | "high-flying" | "high-flying" | "soaring", "lofty-flying", "high-soaring" |
+| σίτοιο μελίφρονος (24.489; extends the table's μελίφρων οἶνος) | "honey-hearted food" | "heart-sweetening food" (+ note: sense uncertain) | "honey-sweet" (reserved for μελιηδής), "sweet food", "honeyed" |
+| ἀφροσύναι (24.457, ἀφροσυνάων) | "senseless acts" | "senseless acts" | "follies" (reserved for ἀφραδίη), "folly" (ἀτασθαλίαι), "mindless" (ἀφραδής is "senseless") ; the noun ἀφροσύνη is built on ἄφρων (shipped "senseless") |
+| ἀναγκαῖοι πολεμισταί (24.499) | "warriors of compulsion" | "fighters by necessity" | "forced warriors", "reluctant fighters"; follows the table's δμῶες ἀναγκαῖοι "servants of compulsion" |
+| ἀριστῆος (24.460, ἀνδρὸς ἀριστῆος) | "of a man most excellent" | "of a man among the best" | "chieftain", "champion"; follows the table's ἀριστῆες "the best men" |

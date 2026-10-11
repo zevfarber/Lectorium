@@ -44,7 +44,7 @@ scan anomaly turns up later in the volume.
 | done (2026-10-10, unattended) | 287–294 | 267–274 | `archive/pp267-274.json` | Continues Night 33 (heading at P266L09); content summary not written this run; all 7 joins continuous |
 | done (2026-10-10, unattended) | 295–302 | 275–282 | `archive/pp275-282.json` | Completes Night 33 (to P276L14); Night 34 heading at P276L15; all 7 joins continuous |
 | done (2026-10-11, unattended) | 303–310 | 283–290 | `archive/pp283-290.json` | Completes Night 34 (to P283L23); Night 35 begins P284L01 (night label as h line); all 7 joins continuous |
-| done (2026-10-11, unattended) | 311–318 | 291–298 | `archive/pp291-298.json` | Night 35 continues (Badr al-Din and the wazir; verse P295); Night 36 label inline P294; all 7 joins continuous |
+| done (2026-10-11, unattended) | 311–318 | 291–298 | `archive/pp291-298.json` | Night 35 continues (Badr al-Din and the wazir; verse P295); Night 36 label inline P296L12; all 7 joins continuous |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 

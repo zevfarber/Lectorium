@@ -3614,10 +3614,42 @@ function abcRows(rows){
 }
 function renderMongolAlphabet(sg){
   const a = (sg && sg.groups) || MONGOL_ALPHABET;
-  let h = '<div class="abcNote">The script leaves some sounds looking identical — <b>o/u</b>, '
-        + '<b>ö/ü</b>, <b>t/d</b>, medial <b>a/e</b>, and <b>q/k</b>, <b>γ/g</b> share their shapes. '
-        + 'That is normal: the reading comes from knowing the word, and the transcription line '
-        + 'beneath each sentence carries the resolved reading for you.</div>';
+  let h = '<div class="abcNote">'
+    + '<b>Where it comes from.</b> The Mongols took this alphabet from the Uyghurs in the early 1200s; '
+    + 'tradition credits a Uyghur scribe in Chinggis Qan’s service with teaching it. The Uyghurs had it '
+    + 'from the Sogdians of Central Asia, and the Sogdians from Aramaic, so its distant cousins are the '
+    + 'Hebrew and Arabic alphabets. Somewhere along the way a right-to-left script was turned on its side: '
+    + 'each line now runs <b>top to bottom</b>, and the lines follow one another <b>from left to right</b>.'
+    + '<br><br><b>How a word is built.</b> The letters of a word hang from one vertical stem, joined like '
+    + 'handwriting, and each letter takes a different shape at the <b>start</b>, in the <b>middle</b> and at '
+    + 'the <b>end</b> of a word (the three columns below). Read a word down its stem: the strokes to the left '
+    + 'are the “teeth” and loops that tell the letters apart, and a dot or two beside a tooth marks n or γ.'
+    + '<br><br><b>One shape, two sounds.</b> The script writes some sounds alike: <b>o/u</b>, <b>ö/ü</b>, '
+    + '<b>t/d</b>, and in the middle of a word <b>a/e</b>. Mongolian vowel harmony helps: a word has either '
+    + 'back vowels (a o u) or front vowels (e ö ü) throughout, and the same letter is read <b>q</b> or <b>γ</b> '
+    + 'in a back-vowel word, <b>k</b> or <b>g</b> in a front-vowel word. Readers of the script settle the rest by '
+    + 'knowing the word, and the romanized line beside each passage carries that reading for you.'
+    + '<br><br><b>Small separate pieces.</b> Case endings such as -un “of”, -i (object) and -dur “at” are often '
+    + 'written as little words of their own just after the word they belong to. Tap one for its gloss.'
+    + '<br><br><b>Its later life.</b> The same alphabet wrote Mongolian for eight centuries: the Buddhist '
+    + 'scriptures, chronicles, an Ilkhan\u2019s letter to the king of France, and the Manchu alphabet was made from it in '
+    + '1599. In Inner Mongolia it is the everyday script today; in Mongolia, Cyrillic replaced it in the 1940s, '
+    + 'and the traditional script has been coming back into schools and official use.'
+    + '</div>';
+  // worked example: one word spelled letter by letter, each letter in its positional shape
+  const ex = [['ᠴ', 'č', 'start'], ['ᠢ', 'i', 'middle'], ['ᠩ', 'ng', 'middle'],
+              ['ᠭ', 'g', 'middle'], ['ᠢ', 'i', 'middle'], ['ᠰ', 's', 'end']];
+  h += '<div class="smGroup"><h4>Spelling a word: Činggis</h4><table class="abc"><tr>';
+  ex.forEach(([ch, , pos]) => {
+    const f = pos === 'start' ? ch + MONGOL_ZWJ : pos === 'end' ? MONGOL_ZWJ + ch : MONGOL_ZWJ + ch + MONGOL_ZWJ;
+    h += '<td class="f">' + escapeHtml(f) + '</td>';
+  });
+  h += '<td class="snd" style="padding:0 8px">=</td><td class="f">ᠴᠢᠩᠭᠢᠰ</td></tr><tr>';
+  ex.forEach(([, snd]) => { h += '<td class="snd">' + escapeHtml(snd) + '</td>'; });
+  h += '<td></td><td class="snd">Činggis</td></tr></table>'
+     + '<div class="abcn" style="max-width:none;margin-top:6px">Six letters on one stem: č at the start, '
+     + 'four middle shapes, and the final s with its tail. In the text it runs top to bottom, as here each '
+     + 'letter does.</div></div>';
   h += '<div class="smGroup"><h4>Vowels</h4>' + abcRows(a.vowels) + '</div>';
   h += '<div class="smGroup"><h4>Consonants</h4>' + abcRows(a.consonants) + '</div>';
   h += '<div class="smGroup"><h4>Foreign-word letters</h4>' + abcRows(a.foreign) + '</div>';

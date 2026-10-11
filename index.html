@@ -3522,7 +3522,13 @@ function showWordPop(wordEl){
     g += '</div>';
   }
   $('popG').innerHTML = g;
-  $('popSay').style.display = $('popSlow').style.display = story.langCode ? '' : 'none';
+  /* Say it for words-model texts read by a carrier voice (Akkadian, 2026-10-11): the word's own clip
+     (words.json is keyed by the lowercased reading), else its stretch of the sentence clip. */
+  popSent = +se.dataset.i; popWi = +wordEl.dataset.wi;
+  popWord = w.say || w.reading || '';
+  popKey = wordKey(w.say || '');
+  const hasWordClip = !!(story.audio && wordClips && popKey && wordClips[popKey] !== undefined);
+  $('popSay').style.display = $('popSlow').style.display = (story.langCode || hasWordClip || wordSlice()) ? '' : 'none';
   positionPop(wordEl);
 }
 

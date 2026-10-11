@@ -40,6 +40,14 @@ PINNED = {
     # Google's customPronunciations (slovo_g2p.py; stress lexicon .github/pipeline/slovo/audio-lexicon.json).
     "Old East Slavic": {"module": "slovo_g2p", "voice": "ru-RU-Wavenet-A", "lang": "ru-RU",
                         "rate": 0.92, "espeak": "ru", "custom": True},
+    # Akkadian (Laws of Hammurabi), added 2026-10-11: conventional reconstructed Old Babylonian
+    # (akkadian_g2p.py). Zev auditioned German, American English, French, Arabic and Hebrew carriers and
+    # chose the German voice "for now" (Voice A, de-DE-Neural2-D, rate 0.85). Akkadian stories are
+    # words-model: `t` is cuneiform and each words[i].say is the reading, so the module builds the SSML
+    # from the words and align_wordref.py times one span per word.
+    "Akkadian (Old Babylonian)": {"module": "akkadian_g2p", "voice": "de-DE-Neural2-D", "lang": "de-DE",
+                                  "voices": ["de-DE-Neural2-D", "de-DE-Wavenet-B"],
+                                  "rate": 0.85, "espeak": "de"},
 }
 TTS_URL = "https://texttospeech.googleapis.com/v1/text:synthesize"
 # customPronunciations (per-word IPA over plain text) is a v1beta1 field; the proem was made with it.
@@ -186,7 +194,10 @@ def word_inputs(story, G, cfg):
         ipas = {k: G.ipa(tok) for k, tok in keys.items()}
         if cfg.get("custom"):
             return {k: (ipas[k], _custom_input(keys[k], G)) for k in keys}
-    return {k: (ip, {"ssml": "<speak>" + ph(ip) + "</speak>"}) for k, ip in ipas.items()}
+    # A word clip whose IPA holds a space (an Akkadian reading of two words, "adi ḫamšīšu") gets one
+    # <phoneme> per word; for every single-word pin this is the same SSML as before.
+    return {k: (ip, {"ssml": "<speak>" + " ".join(ph(x) for x in ip.split()) + "</speak>"})
+            for k, ip in ipas.items()}
 
 
 def shared_word_clips(voice):

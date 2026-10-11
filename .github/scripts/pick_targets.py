@@ -21,7 +21,8 @@ VOICE_LANGS = {"de-DE", "fr-FR", "zh-CN", "ar-XA", "he-IL"}   # keep in sync wit
 # PINNED_AUTO once its pilot reading is approved; before that only an explicit dispatch builds it.
 PINNED_AUTO = {"Ancient Greek",     # approved by ear 2026-10-04 (WaveNet voice)
                "Latin",             # approved by ear 2026-10-04 (audio-pilot/latin.html, Voice A)
-               "Old East Slavic"}   # the proem's hand method (July 2026), automatic from 2026-10-04
+               "Old East Slavic",   # the proem's hand method (July 2026), automatic from 2026-10-04
+               "Akkadian (Old Babylonian)"}   # German carrier chosen by ear 2026-10-11 (Hammurabi)
 _DISPATCH_OK = set()
 
 # Order of the daily "missing" sweep (2026-10-04). Audio must stay inside Google's free monthly
@@ -29,7 +30,7 @@ _DISPATCH_OK = set()
 # Zev asked for them ("Odyssey first"); anything not listed comes after, alphabetically.
 MISSING_PRIORITY = ["odyssey-", "slovo-", "aesop-", "ovid-met-", "pyramus-thisbe"]
 # Works whose new parts are built the moment they are pushed, ahead of the sweep (Zev, 2026-10-04).
-BUILD_ON_PUSH = ("odyssey-",)
+BUILD_ON_PUSH = ("odyssey-", "hammurabi-")   # Hammurabi added 2026-10-11
 
 
 def _priority(sid):

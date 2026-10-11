@@ -155,7 +155,31 @@ def main():
         return out, D
 
     out, bad = {}, []
+    # Words-model texts read by a carrier voice (Akkadian, 2026-10-11): the page shows signs, the
+    # reader highlights .word[data-wi] by position in words[], and each words[i].say is what the voice
+    # said. One span per word, referenced by that word's clip (words.json keyed by word_key(say)).
+    # Gated on langCode null, so the Chinese texts (words-model, langCode zh-CN) are untouched.
+    words_model = not story.get("langCode")
     for i, s in enumerate(story["sentences"]):
+        if words_model and s.get("words"):
+            ws = s["words"]
+            spoken = [(j, (w.get("say") or "").strip()) for j, w in enumerate(ws)]
+            spoken = [(j, w) for j, w in spoken if w]
+            try:
+                arr, D = align("%s/%d.mp3" % (adir, i), [("w", w, w) for _, w in spoken])
+            except Exception as e:  # noqa: BLE001
+                arr = []; bad.append((i, str(e)))
+            got = {j: span for (j, _), span in zip(spoken, arr)}
+            timings, last = [], 0.0
+            for j in range(len(ws)):
+                if j in got:
+                    timings.append(list(got[j])); last = got[j][1]
+                else:
+                    timings.append([last, last])     # a word with no reading: a zero-length span
+            out[str(i)] = timings
+            if i % 12 == 0:
+                print("aligned", i, "/", len(story["sentences"])); sys.stdout.flush()
+            continue
         tt = WORD_RE.findall(s["t"])
         seq, sp, ok = lined_up(s)
         if ok:

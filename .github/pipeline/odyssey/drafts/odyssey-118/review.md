@@ -77,3 +77,77 @@ All whole-unit repeats (330, 356, 406 reply formula; 357; 372; 383; 399; 412) we
 - The house table and the shipped parts disagree on the singular ἀμφίπολος ("handmaid" in -002, -004, -015; "attendant" in -113; the table row for the plural is "attendants" and lists "handmaidens" as avoided). This part follows the majority singular "handmaid"; the owner may want one rule. Nothing here blocks the build.
 - Whether the Sicel handmaid of 366 is the old Sicel woman of 389 (and 24.211) is left open in the notes, as the Greek leaves it open.
 - `gloss.json` does not exist yet, so the glossary parses are for pass 2.
+
+
+# Pass 2
+
+Method: the whole review was re-run on the current `units.json` (notes first, then Greek → `l`, `l` ↔ `i`, remembered English, quotation marks, repeats), and every parse in `gloss.json` (all 95 novel entries and all 12 `__broaden__` entries) was checked against its line(s). The known-forms list (459 entries) was also read against the part for uses the existing entries do not cover. `units.json` and `gloss.json` were edited in place by script (exact-match, one hit each); `t` was compared before and after and is unchanged (64 units). Every novel entry is under 230 characters (longest 139), none has an ASCII apostrophe or a backtick, and every broadened entry begins with the existing glossary entry whole. No modern translation was opened or recalled; metre was checked with `scan_hexameter.py`.
+
+Counts of changes by severity: **high 0, medium 8, low 23** (31 in all: 17 in `units.json`, 14 in `gloss.json`). `new-renderings.md` needed no change (no rendering in it altered; the two `l` changes below are not rows of it). Findings refused or left: 9.
+
+## Changes to units.json
+
+| Line · unit | Field | Sev. | What was wrong | What was done |
+|---|---|---|---|---|
+| 328 | n | medium | Quoted "εἰ μὲν δή γε", but γε stands after Ὀδυσεύς in the line; and called Ὀδυσεύς a "predicate", though it is a nominative in apposition (with ἐμὸς πάϊς) to the "you" inside ἱκάνεις. | Quotes εἰ μὲν δή; says Ὀδυσεύς (γε stressing it) and ἐμὸς πάϊς are in apposition to the subject of ἱκάνεις. |
+| 328 | n | low | πεποίθω "the perfect subjunctive of πείθομαι": the perfect is πέποιθα. | "subjunctive of the perfect πέποιθα (middle πείθομαι)". |
+| 338 | l | low | "told me each": the Greek has no pronoun. | "you named and told each." |
+| 341 | n | low | Reported two "usual guesses" for διατρύγιος (a claim about scholarship that cannot be checked here). | Removed; keeps "uncertain" and the build from διά + τρύγη. |
+| 347 (1st unit) | n | low | "Attic ἔβαλε" for the tmesis compound. | "Attic ἀμφέβαλε" (as at 367). |
+| 347 (2nd unit) | n | low | Pass 1 had written "close to himself"; "close" is not in ποτί, and `l`/`i` say "toward"/"to himself". | "‘to himself’, οἷ the third-person pronoun (here reflexive) after ποτί, the epic form of πρός". |
+| 353 | n | low | "the Κεφαλλῆνες are the wider people to whom they belong": the lines do not say the Ithacans belong to them. | "named again at 377 and 429". |
+| 362 | n | medium | Called ἵκοντο "an unaugmented aorist". The scanner needs the ι long in this line, which the known-forms entry for ἵκοντο gives as the sign of the augmented form. | "a past tense of ἱκνέομαι; the metre makes its first syllable long here, so it may well be augmented (the spelling cannot show it)". Hedged because a long ι also belongs to the present stem ἵκω, so this is not certain. |
+| 367 (2nd unit) | n | low | "θῆκεν ἰδέσθαι is ‘made him (to look)’": garbled, the same fault pass 1 corrected at 373. | "‘made (him taller and stouter) to look upon’, the infinitive of respect". |
+| 372 | n | low | "the speech-introduction formula for Odysseus" implies the line belongs to him alone. | "the winged-words speech-introduction; here the speaker is Odysseus". |
+| 379 | n | low | ἐφεστάμεναι given as "the infinitive of ἐφίστημι", tense not stated. | "the epic perfect infinitive (Attic ἐφεστάναι) … ‘stand by’". The -άμεναι form with short α is the perfect (aorist would be ἐπιστῆναι / epic -στήμεναι). |
+| 394 | n | medium | Said Odysseus speaks "to Dolius and through him to his sons" (an assertion), gave no parse, and left ἀπεκλελάθεσθε unanalysed. | Parse stated (reduplicated aorist middle of ἐκλανθάνομαι with an extra preverb ἀπο-, force unknown; imperative because it is coordinate with ἵζ’ and has no augment); the plural takes in the sons, who all stand amazed at 391. |
+| 415 | n | low | ἀΐοντες called "uncontracted"; ἀΐω has no contracted form. | "the participle of ἀΐω ‘hear’ (Attic ἀκούω)". |
+| 417 | n | low | ἕκαστοι "the men of each family" stated as fact. | "‘each party’ (presumably the kin of each dead man)". |
+| 417 | n | low | "handed to the fishermen who sail them" overstates ἁλιεῦσι. | "presumably handed to the fishermen to be carried". |
+| 421 | l, n | low | `l` "before them" for τοῖσιν δ’ … μετέειπε; the published odyssey-033 (same shape, Alcinous) has "to them". | `l` "to them Eupeithes up stood and spoke among them:"; note "‘to them’, the assembly; μετέειπε adds ‘among’". |
+| 423 | n | low | "some ancient readers took it as ‘unbearable’": cannot be checked from the repository or the Greek. | "traditionally ‘not to be forgotten’ (as if from λανθάνομαι), and its root is uncertain". |
+
+## Changes to gloss.json
+
+Settling the doubts:
+
+- **ἀπεκλελάθεσθε.** Parsed from the grammar: ἀπ(ο)-ἐκ-λε-λάθ-εσθε. The reduplicated stem -λελαθ- with the thematic ending -εσθε is the reduplicated second aorist, as in ἐκλελάθοιτο and ἐκλελάθωντ’ already in the glossary under ἐκλανθάνομαι. It is not a perfect middle (that would be -λέλησθε, cf. the shipped λελασμένος). There is no augment, and it is coordinate with the imperative ἵζ’, so the mood is imperative; an aorist indicative would have shown an augment after the preverbs. The glosser's lemma "ἀπεκλανθάνομαι" is not one I can confirm; the entry now uses ἐκλανθάνομαι and says the force of the further ἀπο- is unknown. (Entry: "ἐκλανθάνομαι (with a further preverb ἀπο-, force unknown) — forget utterly (+ gen.); reduplicated aor. imper. mid. 2 pl.")
+- **ἐφεστάμεναι.** Perfect infinitive, intransitive ("stand by"): the short-α -άμεναι form is the perfect (cf. the shipped ἐφεστάμεν "perf. inf."), Attic ἐφεστάναι. The glosser had no tense.
+- **οὖλέ.** The glosser's lemma "οὖλος / οὔλω" named a verb I cannot confirm. Rewritten as οὖλος (?) with "a greeting ‘be well’", saying that it is unknown whether the form is an imperative of a verb ‘be hale’ or the vocative of the adjective, and that the lemma is unknown. The adjective is already in the glossary (οὖλον "whole, entire").
+- **προΐεις.** Left unchanged: imperfect 2 sg. of προΐημι is right (a past narrative; the Attic imperfect 2 sg. is the same form; compare the shipped προΐειν, προΐει).
+
+| Key | Sev. | What was wrong | What was done |
+|---|---|---|---|
+| ἀπεκλελάθεσθε | medium | Unconfirmable lemma; "aor. 2 imper." without saying why. | See above. |
+| ἐφεστάμεναι | medium | No tense. | "perf. inf." |
+| οὖλέ | medium | Invented a verb lemma; claimed more than is known. | See above. |
+| φθέωσι | medium | "= Attic φθάσωσι": that is the sigmatic aorist; φθέωσι is the epic subjunctive of the root aorist ἔφθην (Attic φθῶσι). | "root aor. subj. 3 pl., epic uncontracted (= Attic φθῶσι)". |
+| δολίος (broaden) | medium | The known entry gives only "Dolius, father of Melantho"; this part uses the nominative of the old Dolius who comes in with his sons (386, 397, 408). | Broadened: old entry whole + " · also the old Dolius who comes in from the fields with his sons and greets Odysseus (the household slave of Δολίον); masc. nom. sg." |
+| ἀναγνόντος | low | "(gen. absolute)": the participle agrees with the genitive τοῦ of the previous clause, as the note says. | "agreeing with τοῦ ’his’". |
+| νόστησας | low | The form has no augment; entry said nothing. | "unaugmented (= ἐνόστησας)". |
+| τεθηπότες | low | Gave a present θήπω that cannot be confirmed. | Lemma τέθηπα, "no present in use". |
+| πεποίθω | low | Filed under the middle πείθομαι only. | πείθω, perf. πέποιθα (mid. πείθομαι). |
+| σικελή | low | "agreeing with ἀμφίπολος and γρηῦς": only γρηῦς is in this form's line (the other is the grave-accent key). | "agreeing with a noun (γρηῦς)". |
+| ἐϋκτιμένην | low | "here of tilled ground": "here" and a line pin. | "said of a town or house, and of a tilled plot". |
+| νήρικον | low | "a town on a headland" says more than the line. | "a fortified place on the mainland coast (called a ’headland of the mainland’)". |
+| ποτὶ (broaden) | low | Known entry has + dat. only ’against’ and ’on’; the line has ποτὶ οἷ "to himself". | Broadened: old entry whole + " · also + dat., ’to’ a person: ποτὶ οἷ ’to himself’". |
+| ὁππότε (broaden) | low | Known entry has + opt. only of what may happen in time to come; the part has it of what recurs. | Broadened: old entry whole + " · also + opt., of what recurs: ’whenever’ (ὁππότε … ἐπιβρίσειαν ’whenever … press down’)". |
+
+Every other novel entry was checked against its line and left (including δώσειν, ζωέμεν, θάμβευς, κάλεσσεν, κερῶντάς, μολών, ὀδυσεῦς "gen. sg., single σ", ἐγήθεις, ἐπιβρίσειαν, ὄσσα). All twelve glosser broadenings were checked: each begins with the existing entry whole and the added reading is the one the line needs (εἷλον, μεγαλήτορα, πάρος, περὶ, τί, φράσαι, ἀλλάων, ἀνὰ, ἂν, ἐϋκτίμενον, ἡδὺ, ἰδέσθαι); they exceed 230 characters only because the old entry must be kept whole.
+
+## Findings considered and refused or left
+
+1. Broadened entries over 230 characters (πάρος 505, περὶ 1038, τί 1409 …): left, because the rule is "old entry whole, plus ‘ · ’ and the new reading"; the 230 limit was applied to the novel entries.
+2. The old entry for ἰδέσθαι, kept whole inside its broadening, uses ‘ ’ rather than ’ ’: not rewritten, since existing entries are never rewritten.
+3. 333 `l` "my mother’s dear one" for μητρὸς φίλον (noun-like where φίλον agrees with πατέρ’): left; the note and `i` ("my mother’s dear father") are right and `l` reads as an apposition.
+4. 400 `i` "who longed for it so much": the Greek has no object for ἐελδομένοισι; left as natural English (the same as `l` "longing very much").
+5. Spondaic-fifth flags: `scan_hexameter.py` reports "spondaic fifth" (not UNRESOLVED) at 327, 331 and 405; the packet lists no flagged line and no note was added, since the scanner explains each as a licence it has fitted.
+6. 345 `l` "and then" for αὐτοῦ against `i` "at once": a published-formula difference left as in pass 1.
+7. Quotation marks re-checked: every opening “ is on a first unit with a `mark`, every ” on a last unit, none inside a speech; units 1, 28 and 45/46 are one-unit or two-unit speeches; the closing ” at 437 stands (see pass 1: line 438 is narration).
+8. Repeated lines re-run against all published parts by normalised text: the whole-unit repeats (330, 356, 406, 357, 372) are identical; line-level repeats (367–368, 383, 384–385, 412, 421, 403, 408) follow the published wording, except 421 `l`, now corrected.
+9. 427 `i` "led away" for ἄγων: left; "away" is the sense of leading a force out to war and no extra claim is made.
+
+## Unresolved
+
+- Whether ἵκοντο (362) is augmented cannot be decided from the spelling; the note now says the metre makes the first syllable long and that the form may be augmented.
+- The force of ἀπο- in ἀπεκλελάθεσθε and the form and lemma of οὖλε remain unknown and are labelled so in the notes and the glossary.

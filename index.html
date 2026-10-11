@@ -81,6 +81,24 @@
   .storySub .tRead { color: var(--muted); font-style: italic; }
   .storySub .tSep { color: var(--muted); margin: 0 .5em; }
   .storyMeta { color: var(--muted); font-size: .85rem; font-family: system-ui, 'Noto Sans', sans-serif; margin-bottom: 24px; }
+  /* ---- artifact photographs (story.images): the object the text is written on ----
+     Shown under the title so the reader meets the stone before the transcription.
+     Images are Wikimedia Commons files, served by Commons itself (Special:FilePath),
+     each with its photographer and licence; a tap opens the Commons file page. */
+  .artifactFigs { display: flex; gap: 14px; flex-wrap: wrap; margin: 4px 0 22px; }
+  .artifactFigs figure { margin: 0; flex: 0 1 auto; max-width: 340px; }
+  .artifactFigs a.figImg { display: block; line-height: 0; }
+  .artifactFigs img { height: 230px; width: auto; max-width: 100%; object-fit: contain;
+    border-radius: 8px; border: 1px solid var(--border); background: var(--panel); }
+  .artifactFigs figcaption { font-family: system-ui, 'Noto Sans', sans-serif; font-size: .78rem;
+    line-height: 1.45; color: var(--muted); margin-top: 6px; }
+  .artifactFigs .figCredit { display: block; font-size: .7rem; opacity: .8; margin-top: 2px; }
+  .artifactFigs .figCredit a { color: inherit; }
+  @media (max-width: 700px) {
+    .artifactFigs figure { max-width: calc(50% - 7px); }
+    .artifactFigs img { height: 170px; }
+    .artifactFigs figure:only-child { max-width: 100%; }
+  }
   #aboutBody .aboutAbout { margin-bottom: 10px; }
   #aboutBody .aboutSource { color: var(--muted); }
   #aboutBody .aboutLbl { font-weight: 600; }
@@ -213,6 +231,9 @@
     .sent.vsent { display: block; }     /* phone: the apparatus stacks below the block */
     .de.vert { max-width: 100%; max-inline-size: min(11em, 44vh); max-height: min(11em, 44vh); }
   }
+  /* a vertical unit marked v:true keeps its source lineation: each \n in t starts a new
+     column, so an inscription's lines stay the stone's lines (an over-long line still wraps) */
+  .sent.verse .de.vert { white-space: pre-line; font-style: normal; padding-left: 0; }
   .de.vert .w { border-radius: 4px; cursor: pointer; }
   .de.vert .w:hover { background: var(--accent-soft); }
   .de.vert .w.wsel { background: var(--accent); color: #fff; }
@@ -530,6 +551,7 @@
   <div class="storyLangLine" id="stLang" style="display:none"></div>
   <div class="scanLegend" id="scanLegend" style="display:none"><span class="lg" data-q="L"><span class="sylm"></span></span>long · <span class="lg" data-q="S"><span class="sylm"></span></span>short · <span class="lg" data-q="X"><span class="sylm"></span></span>last syllable, long or short · <span class="lgf"></span>foot · <span class="scaes"></span>main pause</div>
   <div class="draftBar" id="stDraft" style="display:none"></div>
+  <div class="artifactFigs" id="stFigs" style="display:none"></div>
   <details class="advisory" id="advisoryBox" style="display:none">
     <summary id="advisoryLede"></summary>
     <div class="advMore" id="advisoryMore"></div>
@@ -3934,6 +3956,7 @@ function render(){
     }
     aboutBox.style.display = (story.about || story.source) ? '' : 'none';
   }
+  renderArtifactFigs();
   const dr = $('stDraft');
   if (dr) {
     const prov = !!story.provisional;
@@ -3948,6 +3971,37 @@ function render(){
 }
 
 function escapeHtml(t){ const d = document.createElement('div'); d.textContent = t; return d.innerHTML; }
+
+/* Artifact photographs. story.images = [{ file, caption, author, license, licenseUrl, alt }]
+   (story.image, a single object, is accepted too). `file` is a Wikimedia Commons file name:
+   the picture is served by Commons at a modest width and links to its Commons page, where
+   the full-resolution file and licence live. A local `src` may be given instead of `file`. */
+function renderArtifactFigs(){
+  const box = $('stFigs'); if (!box) return;
+  const list = story.images || (story.image ? [story.image] : []);
+  box.innerHTML = '';
+  box.style.display = list.length ? '' : 'none';
+  for (const im of list) {
+    const fileEnc = im.file ? encodeURIComponent(im.file.replace(/ /g, '_')) : '';
+    const src = im.src || ('https://commons.wikimedia.org/wiki/Special:FilePath/' + fileEnc + '?width=640');
+    const href = im.href || (im.file ? 'https://commons.wikimedia.org/wiki/File:' + fileEnc : src);
+    const fig = document.createElement('figure');
+    let credit = '';
+    if (im.author || im.license) {
+      const lic = im.license ? (im.licenseUrl
+        ? '<a href="' + escapeHtml(im.licenseUrl) + '" target="_blank" rel="noopener">' + escapeHtml(im.license) + '</a>'
+        : escapeHtml(im.license)) : '';
+      credit = '<span class="figCredit">Photo' + (im.author ? ': ' + escapeHtml(im.author) : '')
+        + (lic ? ' · ' + lic : '') + (im.file ? ' · Wikimedia Commons' : '') + '</span>';
+    }
+    fig.innerHTML = '<a class="figImg" href="' + escapeHtml(href) + '" target="_blank" rel="noopener">'
+      + '<img loading="lazy" src="' + escapeHtml(src) + '" alt="' + escapeHtml(im.alt || im.caption || '') + '"></a>'
+      + '<figcaption>' + escapeHtml(im.caption || '') + credit + '</figcaption>';
+    // a photo that fails to load takes its caption with it rather than leaving a broken frame
+    fig.querySelector('img').addEventListener('error', () => { fig.remove(); if (!box.children.length) box.style.display = 'none'; });
+    box.appendChild(fig);
+  }
+}
 
 /* ---------- interactions ---------- */
 function focusSent(i, scroll){

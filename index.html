@@ -3644,12 +3644,13 @@ function renderMongolAlphabet(sg){
     const f = pos === 'start' ? ch + MONGOL_ZWJ : pos === 'end' ? MONGOL_ZWJ + ch : MONGOL_ZWJ + ch + MONGOL_ZWJ;
     h += '<td class="f">' + escapeHtml(f) + '</td>';
   });
-  h += '<td class="snd" style="padding:0 8px">=</td><td class="f">ᠴᠢᠩᠭᠢᠰ</td></tr><tr>';
+  h += '<td class="snd" style="padding:0 8px">=</td>'
+     + '<td class="f" rowspan="2" style="height:5.4em;vertical-align:top;padding-left:10px">ᠴᠢᠩᠭᠢᠰ</td></tr><tr>';
   ex.forEach(([, snd]) => { h += '<td class="snd">' + escapeHtml(snd) + '</td>'; });
-  h += '<td></td><td class="snd">Činggis</td></tr></table>'
-     + '<div class="abcn" style="max-width:none;margin-top:6px">Six letters on one stem: č at the start, '
-     + 'four middle shapes, and the final s with its tail. In the text it runs top to bottom, as here each '
-     + 'letter does.</div></div>';
+  h += '<td></td></tr></table>'
+     + '<div style="font-family:system-ui,\'Noto Sans\',sans-serif;font-size:.8rem;line-height:1.5;color:var(--muted);margin-top:6px">'
+     + 'Six letters on one stem, read downward: č at the start, '
+     + 'four middle shapes, and the final s with its tail. On the right, the same letters joined as they appear in the text.</div></div>';
   h += '<div class="smGroup"><h4>Vowels</h4>' + abcRows(a.vowels) + '</div>';
   h += '<div class="smGroup"><h4>Consonants</h4>' + abcRows(a.consonants) + '</div>';
   h += '<div class="smGroup"><h4>Foreign-word letters</h4>' + abcRows(a.foreign) + '</div>';

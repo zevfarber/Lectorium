@@ -47,7 +47,10 @@ PINNED = {
     # from the words and align_wordref.py times one span per word.
     "Akkadian (Old Babylonian)": {"module": "akkadian_g2p", "voice": "de-DE-Neural2-D", "lang": "de-DE",
                                   "voices": ["de-DE-Neural2-D", "de-DE-Wavenet-B"],
-                                  "rate": 0.85, "espeak": "de"},
+                                  "rate": 0.85, "espeak": "de",
+                                  # Zev, 2026-10-11: pay to voice the live Hammurabi parts now (about $2)
+                                  # rather than wait for the free allowance; this month only.
+                                  "over_cap_month": "2026-10"},
 }
 TTS_URL = "https://texttospeech.googleapis.com/v1/text:synthesize"
 # customPronunciations (per-word IPA over plain text) is a v1beta1 field; the proem was made with it.
@@ -277,7 +280,8 @@ def main():
         cfg["voice"] = v
         need = estimate(story, G, cfg, adir)
         cap = MONTHLY_CAP.get(_family(v))
-        if not (cap and need and used_this_month(v) + need > cap):
+        paid_ok = cfg.get("over_cap_month") == time.strftime("%Y-%m", time.gmtime())
+        if paid_ok or not (cap and need and used_this_month(v) + need > cap):
             break
         print("FREE ALLOWANCE: %s needs ~%d characters in %s; %d of %d already used this month."
               % (sid, need, v, used_this_month(v), cap))

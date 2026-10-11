@@ -105,7 +105,11 @@ def synth(text, cfg, key):
         headers={"Content-Type": "application/json"},
     )
     with urllib.request.urlopen(req, timeout=90) as r:
-        return base64.b64decode(json.load(r)["audioContent"])
+        audio = base64.b64decode(json.load(r)["audioContent"])
+    # Count every character sent, for the monthly budget (build_pinned.py, 2026-10-11).
+    import build_pinned
+    build_pinned._charge(cfg["name"], len(text))
+    return audio
 
 
 def synth_with_retry(text, cfg, key):
@@ -300,6 +304,14 @@ def main():
                       if os.path.exists("%s/%d.mp3" % (adir, i))}
     # A new-regime story is never grandfathered: its text (or its spoken layer) has just been
     # re-issued, so an old clip with no recorded text is exactly the clip that must not be trusted.
+
+    # Monthly budget (2026-10-11): skip, don't half-build, a story that would pass it.
+    need = sum(len(spoken_text(s)) for i, s in enumerate(story["sentences"])
+               if prev_texts.get(str(i)) != spoken_text(s)
+               or not os.path.exists("%s/%d.mp3" % (adir, i)))
+    if need and build_pinned.month_cost(cfg["name"], need) > build_pinned.MONTHLY_BUDGET_USD:
+        build_pinned.block(sid, cfg["name"], need)
+        return
 
     made = restaled = 0
     texts = {}

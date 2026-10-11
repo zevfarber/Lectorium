@@ -47,26 +47,33 @@ PINNED = {
     # from the words and align_wordref.py times one span per word.
     "Akkadian (Old Babylonian)": {"module": "akkadian_g2p", "voice": "de-DE-Neural2-D", "lang": "de-DE",
                                   "voices": ["de-DE-Neural2-D", "de-DE-Wavenet-B"],
-                                  "rate": 0.85, "espeak": "de",
-                                  # Zev, 2026-10-11: pay to voice the live Hammurabi parts now (about $2)
-                                  # rather than wait for the free allowance; this month only.
-                                  "over_cap_month": "2026-10"},
+                                  "rate": 0.85, "espeak": "de"},
 }
 TTS_URL = "https://texttospeech.googleapis.com/v1/text:synthesize"
 # customPronunciations (per-word IPA over plain text) is a v1beta1 field; the proem was made with it.
 TTS_URL_BETA = "https://texttospeech.googleapis.com/v1beta1/text:synthesize"
 
-# MONTHLY FREE ALLOWANCE GUARD (2026-10-04). Zev's rule: audio stays inside Google's free monthly
-# characters; nothing may run up a bill. Every character this module sends is counted in
-# audio/_tts-usage.json (committed with the clips; the build-audio job runs one at a time, so the
-# count is exact), and a story that would cross the cap is skipped, not half-built. A skipped story
-# has no align.json, so the daily "missing" sweep picks it up again next month.
+# MONTHLY BUDGET (2026-10-11; replaces the free-allowance guard of 2026-10-04). Zev's rule now:
+# everything in the queue gets audio, and paying is fine, up to US$10 a month across all voices. Every
+# character sent to Google (here and in build_audio.py) is counted in audio/_tts-usage.json, which is
+# committed with the clips (the build-audio job runs one at a time, so the count is exact). Google's
+# free tier is used first; past it, characters are priced below. A story whose voicing would take the
+# month past the budget is skipped, not half-built, and recorded under "blocked"; the daily budget
+# check (a scheduled task) tells Zev, who decides whether to raise the budget or pause. A skipped story
+# has no align.json, so the daily "missing" sweep picks it up again once there is room.
 USAGE_FILE = "audio/_tts-usage.json"
-MONTHLY_CAP = {"Wavenet": 3600000, "Neural2": 900000}   # Google free tiers: 4M and 1M, with margin
+FAMILIES = ("Chirp", "Neural2", "Wavenet", "Standard")
+FREE_CHARS = {"Chirp": 1000000, "Neural2": 1000000, "Wavenet": 4000000, "Standard": 4000000}
+USD_PER_MILLION = {"Chirp": 30.0, "Neural2": 16.0, "Wavenet": 16.0, "Standard": 4.0}
+MONTHLY_BUDGET_USD = 10.0
 
 
 def _family(voice):
-    return next((f for f in MONTHLY_CAP if f in voice), voice)
+    return next((f for f in FAMILIES if f in voice), voice)
+
+
+def _month():
+    return time.strftime("%Y-%m", time.gmtime())
 
 
 def _usage():
@@ -84,7 +91,27 @@ def _charge(voice, n):
 
 
 def used_this_month(voice):
-    return _usage().get(_family(voice), {}).get(time.strftime("%Y-%m", time.gmtime()), 0)
+    return _usage().get(_family(voice), {}).get(_month(), 0)
+
+
+def month_cost(extra_voice=None, extra=0):
+    """US$ this month beyond Google's free tiers, optionally with `extra` characters in `extra_voice`."""
+    u, m, total = _usage(), _month(), 0.0
+    for f in FAMILIES:
+        used = u.get(f, {}).get(m, 0) + (extra if extra_voice and _family(extra_voice) == f else 0)
+        total += max(0, used - FREE_CHARS[f]) * USD_PER_MILLION[f] / 1e6
+    return round(total, 2)
+
+
+def block(sid, voice, need):
+    """Record a story skipped for the budget, so the daily budget check can report it."""
+    u, m = _usage(), _month()
+    b = u.setdefault("blocked", {}).setdefault(m, {})
+    b[sid] = {"voice": voice, "chars": need, "would_cost_usd": month_cost(voice, need)}
+    os.makedirs(os.path.dirname(USAGE_FILE), exist_ok=True)
+    json.dump(u, open(USAGE_FILE, "w", encoding="utf-8"), indent=1, sort_keys=True)
+    print("BUDGET: %s skipped; voicing it would bring this month to US$%.2f (budget US$%.2f)"
+          % (sid, month_cost(voice, need), MONTHLY_BUDGET_USD))
 THROTTLE_S = 0.25
 ELISION = "’᾽'ʼ᾿"
 # printed punctuation -> what the carrier voice sees (pauses only)
@@ -271,22 +298,21 @@ def main():
         print("hand-made reading kept as it is; baseline recorded for %s" % sid)
         return
 
-    # Voice: the one this story was begun in, else the first voice whose free allowance still holds it.
+    # Voice: the one this story was begun in; else, of the language's voices, the one that costs least
+    # this month (free tier first). Skipped if even that would pass the monthly budget.
     vf = adir + "/voice.txt"
     begun = open(vf).read().strip() if os.path.exists(vf) else ""
     choices = [begun] if begun else cfg.get("voices", [cfg["voice"]])
     cfg = dict(cfg)
+    priced = []
     for v in choices:
         cfg["voice"] = v
         need = estimate(story, G, cfg, adir)
-        cap = MONTHLY_CAP.get(_family(v))
-        paid_ok = cfg.get("over_cap_month") == time.strftime("%Y-%m", time.gmtime())
-        if paid_ok or not (cap and need and used_this_month(v) + need > cap):
-            break
-        print("FREE ALLOWANCE: %s needs ~%d characters in %s; %d of %d already used this month."
-              % (sid, need, v, used_this_month(v), cap))
-    else:
-        print("Skipped until next month: %s" % sid)
+        priced.append((month_cost(v, need), choices.index(v), v, need))
+    cost, _, v, need = min(priced)
+    cfg["voice"] = v
+    if need and cost > MONTHLY_BUDGET_USD:
+        block(sid, v, need)
         return
     os.makedirs(adir + "/w", exist_ok=True)
 

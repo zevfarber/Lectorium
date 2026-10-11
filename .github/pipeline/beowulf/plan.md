@@ -1,6 +1,6 @@
 # Beowulf — plan
 
-5 of 44 parts published. One part per fitt, as Klaeber numbers them.
+6 of 44 parts published. One part per fitt, as Klaeber numbers them.
 
 | part | fitt | lines | status |
 |---|---|---|---|
@@ -9,7 +9,7 @@
 | beowulf-fitt-02 | II · Twelve Winters of Grendel | 115–188 | published |
 | beowulf-fitt-03 | III · Beowulf Sets Sail | 189–257 | published |
 | beowulf-fitt-04 | IV · An Answer on the Shore | 258–319 | published |
-| beowulf-fitt-05 | V · At Heorot’s Door | 320–370 | todo |
+| beowulf-fitt-05 | V · At Heorot’s Door | 320–370 | published |
 | beowulf-fitt-06 | VI · Beowulf’s Vow | 371–455 | todo |
 | beowulf-fitt-07 | VII · Hrothgar’s Welcome | 456–498 | todo |
 | beowulf-fitt-08 | VIII · Unferth’s Challenge | 499–558 | todo |

@@ -97,7 +97,7 @@ def ipa(word, inv='de'):
 CARDINAL = {'1': 'ištēn', '2': 'šinā', '3': 'šalāš', '4': 'erbe', '5': 'ḫamiš', '6': 'šeššet',
             '10': 'ešer', '12': 'šinšer', '20': 'ešrā', '30': 'šalāšā', '60': 'šūšum'}
 MULT = {'2': 'šinīšu', '3': 'šalāšīšu', '5': 'ḫamšīšu', '6': 'šeššīšu', '10': 'ešrīšu',
-        '12': 'šinšerīšu', '30': 'šalāšīšu'}
+        '12': 'šinšerīšu', '30': 'šalāšāšu'}
 
 def spoken_words(say):
     """A word's `say` -> list of speakable words: split on spaces and hyphens, numerals spelled out."""

@@ -377,6 +377,22 @@
   .tr { font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-size: .72rem; color: var(--muted); letter-spacing: .02em; }
   /* sounded-signs mode: a logogram showing its in-language value instead of its citation label */
   .tr.lval { color: var(--accent); font-weight: 600; font-style: italic; }
+  /* sign-names mode: the sign's own name under it, in small caps-like monospace so it reads as a label */
+  .tr.sname { font-family: 'Noto Sans Mono', ui-monospace, Consolas, monospace; font-size: .66rem; letter-spacing: .01em; color: var(--ink); }
+  /* cuneiform: a hairline between the signs of a word, so each sign's extent is visible */
+  body[data-script="cuneiform"] .word .stack + .stack { border-left: 1px dotted var(--border); border-radius: 0; }
+  /* word popup, cuneiform: three layers — the signs, the transliteration, the pronunciation */
+  #popW .pwSigns { display: flex; flex-wrap: wrap; gap: 0; margin: 2px 26px 6px 0; }
+  #popW .pwSign { display: inline-flex; flex-direction: column; align-items: center; padding: 2px 6px; border-left: 1px dotted var(--border); }
+  #popW .pwSign:first-child { border-left: 0; padding-left: 0; }
+  #popW .pwSign .pwg { font-size: 1.7rem; line-height: 1.5; font-weight: 400; }
+  #popW .pwSign .pwl { font-family: 'Noto Sans Mono', ui-monospace, Consolas, monospace; font-size: .68rem; font-weight: 400; color: var(--ink); }
+  #popW .pwSign.det .pwg, #popW .pwSign.det .pwl { color: #7a4fa0; }
+  #popW .pwRow { display: grid; grid-template-columns: 8.2em 1fr; align-items: baseline; column-gap: 8px;
+    font-family: system-ui, -apple-system, 'Noto Sans', sans-serif; font-weight: 400; font-size: .9rem; margin-top: 2px; }
+  #popW .pwRow .pwk { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+  #popW .pwRow .pwv { font-family: Georgia, 'Noto Serif', serif; }
+  #popW .pwRow.say .pwv { font-weight: 700; font-size: 1.1rem; }
   /* a line division on the stone (register break), as recorded in the source corpus */
   .lbrk { color: var(--muted); opacity: .5; font-size: .85em; margin: 0 1px; align-self: center; cursor: help; user-select: none; }
   .word .lbrk { align-self: flex-end; padding-bottom: 6px; }
@@ -781,6 +797,14 @@ try { plainMode = localStorage.getItem('plainLetters') === '1'; } catch(e) {}
 /* three-state glyph scripts (Luwian etc.): sounded-signs mode — logograms show their value, not their label */
 let valMode = false;
 try { valMode = localStorage.getItem('valMode') === '1'; } catch(e) {}
+/* Akkadian cuneiform: sign-names mode — each glyph shows WHICH sign it is (DU, U₂, ŠÀ), as distinct
+   from the transliteration (what value it has in this word: du, u₂, A.ŠÀ). 2026-10-11. */
+let nameMode = false;
+try { nameMode = localStorage.getItem('nameMode') === '1'; } catch(e) {}
+function signLabel(g){
+  const e = (signGlossaryFor(story) || {})[g.sign];
+  return (e && e.label) || g.sign || '';
+}
 let quadMode = false;
 try { quadMode = localStorage.getItem('quadMode') === '1'; } catch(e) {}
 function plainLetters(s){
@@ -1161,7 +1185,8 @@ const SIGN_GLOSSARIES = {
    "diĝir (as det. {d})",
    "Akkadian: Anum (the sky-god, the bare sign), ilum “god”"
   ],
-  "note": "Also the divine determinative {d} before gods' names. In the Hammurabi text the bare sign is the god Anum."
+  "note": "Also the divine determinative {d} before gods' names. In the Hammurabi text the bare sign is the god Anum.",
+  "label": "AN"
  },
  "NAM": {
   "glyph": "𒉆",
@@ -1171,7 +1196,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "Akkadian: nam"
-  ]
+  ],
+  "label": "NAM"
  },
  "LUGAL": {
   "glyph": "𒈗",
@@ -1181,14 +1207,16 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "Akkadian value šarrum “king”"
-  ]
+  ],
+  "label": "LUGAL"
  },
  "TA": {
   "glyph": "𒋫",
   "name": "ta (ablative 'from')",
   "type": "syllabogram",
   "sound": "ta",
-  "determines": null
+  "determines": null,
+  "label": "TA"
  },
  "E": {
   "glyph": "𒂊",
@@ -1201,7 +1229,8 @@ const SIGN_GLOSSARIES = {
    "e₃",
    "è",
    "Akkadian: e"
-  ]
+  ],
+  "label": "E"
  },
  "NE": {
   "glyph": "𒉈",
@@ -1215,7 +1244,8 @@ const SIGN_GLOSSARIES = {
    "bil",
    "dè — in A.GA.NE (Agade)",
    "bí"
-  ]
+  ],
+  "label": "NE"
  },
  "A": {
   "glyph": "𒀀",
@@ -1227,7 +1257,8 @@ const SIGN_GLOSSARIES = {
    "Akkadian: a",
    "A.ŠÀ = eqlum “field”",
    "plural marker with ḪI (Harper reads ḪI+A as ZUN, §35)"
-  ]
+  ],
+  "label": "A"
  },
  "BA": {
   "glyph": "𒁀",
@@ -1237,7 +1268,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "Akkadian: ba"
-  ]
+  ],
+  "label": "BA"
  },
  "NUN": {
   "glyph": "𒉣",
@@ -1249,7 +1281,8 @@ const SIGN_GLOSSARIES = {
    "nun",
    "eridu (with KI)",
    "Akkadian: nun"
-  ]
+  ],
+  "label": "NUN"
  },
  "KI": {
   "glyph": "𒆠",
@@ -1260,7 +1293,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "ki 'place/earth'",
    "Akkadian: ki, qi₂; also the syllable ki in words"
-  ]
+  ],
+  "label": "KI"
  },
  "LU": {
   "glyph": "𒇻",
@@ -1274,7 +1308,8 @@ const SIGN_GLOSSARIES = {
    "as logogram UDU — “sheep”, Akkadian immerum",
    "lū “or; let …”",
    "ṣēnum “sheep, flock” (§35)"
-  ]
+  ],
+  "label": "LU"
  },
  "LA": {
   "glyph": "𒆷",
@@ -1284,7 +1319,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "Akkadian: la"
-  ]
+  ],
+  "label": "LA"
  },
  "GAR": {
   "glyph": "𒃻",
@@ -1298,7 +1334,8 @@ const SIGN_GLOSSARIES = {
    "qar — in qar-ra-dum “warrior”",
    "GAR/NINDA — “bread, portion”",
    "ŠA.GA (Harper) / NÍG.GA = makkūrum “property” (§6)"
-  ]
+  ],
+  "label": "GAR"
  },
  "MU": {
   "glyph": "𒈬",
@@ -1309,7 +1346,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "Akkadian: mu",
    "MU = šattum “year”: MU III{kam} “the third year” (§30)"
-  ]
+  ],
+  "label": "MU"
  },
  "NI": {
   "glyph": "𒉌",
@@ -1321,7 +1359,8 @@ const SIGN_GLOSSARIES = {
    "ni",
    "ì",
    "Akkadian: ni, li₂, ì"
-  ]
+  ],
+  "label": "NI"
  },
  "AK": {
   "glyph": "𒀝",
@@ -1333,7 +1372,8 @@ const SIGN_GLOSSARIES = {
    "ak",
    "aĝ₂",
    "aq"
-  ]
+  ],
+  "label": "AK"
  },
  "IB": {
   "glyph": "𒅁",
@@ -1344,7 +1384,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "Akkadian: ib, ip",
    "the god Uraš of Dilbat ({d}IB)"
-  ]
+  ],
+  "label": "IB"
  },
  "BI": {
   "glyph": "𒁉",
@@ -1354,7 +1395,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "Akkadian: bi, bé, pi₂"
-  ]
+  ],
+  "label": "BI"
  },
  "RU": {
   "glyph": "𒊒",
@@ -1366,7 +1408,8 @@ const SIGN_GLOSSARIES = {
    "ru",
    "šub",
    "Akkadian: ru"
-  ]
+  ],
+  "label": "RU"
  },
  "DU": {
   "glyph": "𒁺",
@@ -1381,7 +1424,8 @@ const SIGN_GLOSSARIES = {
    "rá",
    "DU — “to go, stand”"
   ],
-  "note": "Polyvalent motion verb: ĝen 'go', gub 'stand / set up'."
+  "note": "Polyvalent motion verb: ĝen 'go', gub 'stand / set up'.",
+  "label": "DU"
  },
  "EN": {
   "glyph": "𒂗",
@@ -1391,7 +1435,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "Akkadian: en; EN = bēlum “lord”; EN.LÍL = the god Enlil"
-  ]
+  ],
+  "label": "EN"
  },
  "ME": {
   "glyph": "𒈨",
@@ -1401,7 +1446,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "Akkadian: me"
-  ]
+  ],
+  "label": "ME"
  },
  "LU2": {
   "glyph": "𒇽",
@@ -1413,7 +1459,8 @@ const SIGN_GLOSSARIES = {
    "lù",
    "lú",
    "determinative before persons: {amēlu}agram “hireling” (§26, §33)"
-  ]
+  ],
+  "label": "LU₂"
  },
  "NA": {
   "glyph": "𒈾",
@@ -1423,7 +1470,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "Akkadian: na"
-  ]
+  ],
+  "label": "NA"
  },
  "GAL": {
   "glyph": "𒃲",
@@ -1433,7 +1481,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "GAL — “great”; GAL.GAL “the great (gods)”; GAL.BÚR = ušumgallum “dragon”; gál"
-  ]
+  ],
+  "label": "GAL"
  },
  "TUR": {
   "glyph": "𒌉",
@@ -1447,7 +1496,8 @@ const SIGN_GLOSSARIES = {
    "as DUMU — “son”, Akkadian mārum",
    "DUMU — mār “son”",
    "DUMU+ti = mārtum “daughter” (§38–39)"
-  ]
+  ],
+  "label": "TUR"
  },
  "ZI": {
   "glyph": "𒍣",
@@ -1457,7 +1507,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "Akkadian: ṣi, ṣe"
-  ]
+  ],
+  "label": "ZI"
  },
  "PA": {
   "glyph": "𒉺",
@@ -1471,7 +1522,8 @@ const SIGN_GLOSSARIES = {
    "Akkadian: pa",
    "PA.LU = SIPA “shepherd” (rēʾûm); PA.AL = šabra (in Mashkan-shabri)",
    "PA.PA — the captain (Harper keeps the signs; modern: ša ḫaṭṭātim) §33–34"
-  ]
+  ],
+  "label": "PA"
  },
  "RA": {
   "glyph": "𒊏",
@@ -1481,7 +1533,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "Akkadian: ra"
-  ]
+  ],
+  "label": "RA"
  },
  "URU": {
   "glyph": "𒌷",
@@ -1497,7 +1550,8 @@ const SIGN_GLOSSARIES = {
    "unu — Harper’s UNU.KI (Uruk) and UD.UNU.KI (Larsa); modern editions read UNUG",
    "as det. {uru} before city names",
    "ri₂"
-  ]
+  ],
+  "label": "URU"
  },
  "ESZ": {
   "glyph": "𒌍",
@@ -1505,7 +1559,8 @@ const SIGN_GLOSSARIES = {
   "type": "syllabogram",
   "sound": "eš",
   "determines": null,
-  "note": "The plural element in -me-eš; the U-U-U sign."
+  "note": "The plural element in -me-eš; the U-U-U sign.",
+  "label": "EŠ"
  },
  "A2": {
   "glyph": "𒀉",
@@ -1515,7 +1570,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "Akkadian: id, it (ni-bi-it)"
-  ]
+  ],
+  "label": "A₂"
  },
  "IGI": {
   "glyph": "𒅆",
@@ -1528,7 +1584,8 @@ const SIGN_GLOSSARIES = {
    "lim (in Alulim)",
    "Akkadian: ši; Sumerian igi “eye”"
   ],
-  "note": "The 'eye' sign; in Alulim it carries the value lim (Langdon's 'REC 229')."
+  "note": "The 'eye' sign; in Alulim it carries the value lim (Langdon's 'REC 229').",
+  "label": "IGI"
  },
  "EZENxBAD": {
   "glyph": "𒂦",
@@ -1539,14 +1596,16 @@ const SIGN_GLOSSARIES = {
   "note": "EZEN containing BAD; with DUB spells bàd₃ 'wall / fortress' in Bad-tibira.",
   "values": [
    "in Dur-ilu{ki} (Der), “Fortress of the god”"
-  ]
+  ],
+  "label": "EZEN×BAD"
  },
  "DUB": {
   "glyph": "𒁾",
   "name": "dub (second sign of bàd₃)",
   "type": "syllabogram",
   "sound": "dub",
-  "determines": null
+  "determines": null,
+  "label": "DUB"
  },
  "NAGAR": {
   "glyph": "𒉄",
@@ -1559,7 +1618,8 @@ const SIGN_GLOSSARIES = {
    "tibira",
    "agru “hired man” — Harper’s own sign-list value; modern editions read the word as ḪUN.GÁ (§26, §33)"
   ],
-  "note": "Craftsman sign; read tibira 'metalworker' in Bad-tibira."
+  "note": "Craftsman sign; read tibira 'metalworker' in Bad-tibira.",
+  "label": "NAGAR"
  },
  "ESH2": {
   "glyph": "𒂠",
@@ -1571,7 +1631,8 @@ const SIGN_GLOSSARIES = {
    "šè",
    "šú"
   ],
-  "note": "The EŠ₂ sign — the postposition 'to / towards'."
+  "note": "The EŠ₂ sign — the postposition 'to / towards'.",
+  "label": "EŠ₂"
  },
  "UD": {
   "glyph": "𒌓",
@@ -1587,7 +1648,8 @@ const SIGN_GLOSSARIES = {
    "ūmu “day” (UD-mi-šu “daily”)",
    "tam — in tam-karum = tamkārum (§32)"
   ],
-  "note": "First sign of Sippar (UD.KIB.NUN)."
+  "note": "First sign of Sippar (UD.KIB.NUN).",
+  "label": "UD"
  },
  "KIB": {
   "glyph": "𒄒",
@@ -1598,7 +1660,8 @@ const SIGN_GLOSSARIES = {
   "note": "Second sign of Sippar; drawn as two crossed GIŠ signs.",
   "values": [
    "kib — the sign of UD.KIB.NUN (Sippar) and the Euphrates"
-  ]
+  ],
+  "label": "KIB"
  },
  "SU": {
   "glyph": "𒋢",
@@ -1609,7 +1672,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "su",
    "SU — “flesh”"
-  ]
+  ],
+  "label": "SU"
  },
  "KUR": {
   "glyph": "𒆳",
@@ -1622,7 +1686,8 @@ const SIGN_GLOSSARIES = {
    "land, mountain",
    "KUR — “mountain, land”; É.KUR = Ekur, Enlil’s temple",
    "mat, šad"
-  ]
+  ],
+  "label": "KUR"
  },
  "DUR2": {
   "glyph": "𒂉",
@@ -1633,7 +1698,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "dúr",
    "tuš"
-  ]
+  ],
+  "label": "DUR₂"
  },
  "MA": {
   "glyph": "𒈠",
@@ -1643,7 +1709,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "Akkadian: ma"
-  ]
+  ],
+  "label": "MA"
  },
  "UR2": {
   "glyph": "𒌫",
@@ -1651,14 +1718,16 @@ const SIGN_GLOSSARIES = {
   "type": "syllabogram",
   "sound": "úr",
   "determines": null,
-  "note": "In a-ma-ru ba-úr-ra-ta 'the Flood swept over'."
+  "note": "In a-ma-ru ba-úr-ra-ta 'the Flood swept over'.",
+  "label": "UR₂"
  },
  "EGIR": {
   "glyph": "𒂕",
   "name": "after, behind (egir)",
   "type": "logogram",
   "sound": "egir",
-  "determines": null
+  "determines": null,
+  "label": "EGIR"
  },
  "DISH": {
   "glyph": "𒁹",
@@ -1669,7 +1738,8 @@ const SIGN_GLOSSARIES = {
   "note": "A single upright wedge; stacked up to nine for 1–9.",
   "values": [
    "1 — I MA.NA “one mina” (§24)"
-  ]
+  ],
+  "label": "1"
  },
  "U": {
   "glyph": "𒌋",
@@ -1680,7 +1750,8 @@ const SIGN_GLOSSARIES = {
   "note": "A corner wedge; up to five of them make 10–50.",
   "values": [
    "the numeral 10: adi 10-šu “tenfold” (§8)"
-  ]
+  ],
+  "label": "10"
  },
  "GESH2": {
   "glyph": "𒐕",
@@ -1688,7 +1759,8 @@ const SIGN_GLOSSARIES = {
   "type": "numeral",
   "sound": "60",
   "determines": null,
-  "note": "The base of the whole system (60 = ten u)."
+  "note": "The base of the whole system (60 = ten u).",
+  "label": "60"
  },
  "GESHU": {
   "glyph": "𒐞",
@@ -1696,7 +1768,8 @@ const SIGN_GLOSSARIES = {
   "type": "numeral",
   "sound": "600",
   "determines": null,
-  "note": "Ten geš."
+  "note": "Ten geš.",
+  "label": "600"
  },
  "SHAR2": {
   "glyph": "𒊹",
@@ -1704,7 +1777,8 @@ const SIGN_GLOSSARIES = {
   "type": "numeral",
   "sound": "3,600",
   "determines": null,
-  "note": "60 × 60; the working unit for the giant reign-lengths. Two-to-nine šar₂ are drawn as ONE clustered sign (e.g. the eight-šar₂ diamond-cluster = 28,800)."
+  "note": "60 × 60; the working unit for the giant reign-lengths. Two-to-nine šar₂ are drawn as ONE clustered sign (e.g. the eight-šar₂ diamond-cluster = 28,800).",
+  "label": "3600"
  },
  "SHARU": {
   "glyph": "𒐬",
@@ -1712,7 +1786,8 @@ const SIGN_GLOSSARIES = {
   "type": "numeral",
   "sound": "36,000",
   "determines": null,
-  "note": "Ten šar₂, folded into a single sign (a šar₂ with the '10' mark inside). So 64,800 = one šar'u + eight šar₂ = 36,000 + 28,800."
+  "note": "Ten šar₂, folded into a single sign (a šar₂ with the '10' mark inside). So 64,800 = one šar'u + eight šar₂ = 36,000 + 28,800.",
+  "label": "36000"
  },
  "SHARGAL": {
   "glyph": "𒐲",
@@ -1720,7 +1795,8 @@ const SIGN_GLOSSARIES = {
   "type": "numeral",
   "sound": "216,000",
   "determines": null,
-  "note": "The 'great šar₂' (60³ = sixty šar₂) — the next power up, used only in the grand total 241,200."
+  "note": "The 'great šar₂' (60³ = sixty šar₂) — the next power up, used only in the grand total 241,200.",
+  "label": "216000"
  },
  "I": {
   "glyph": "𒄿",
@@ -1730,7 +1806,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "i"
-  ]
+  ],
+  "label": "I"
  },
  "BAD": {
   "glyph": "𒁁",
@@ -1743,7 +1820,8 @@ const SIGN_GLOSSARIES = {
    "bad",
    "bat",
    "til"
-  ]
+  ],
+  "label": "BAD"
  },
  "EL": {
   "glyph": "𒂖",
@@ -1753,7 +1831,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "el"
-  ]
+  ],
+  "label": "EL"
  },
  "SHA": {
   "glyph": "𒊭",
@@ -1763,7 +1842,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "ša"
-  ]
+  ],
+  "label": "ŠA"
  },
  "U3": {
   "glyph": "𒅇",
@@ -1773,7 +1853,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "ù (u₃) — the conjunction “and”"
-  ]
+  ],
+  "label": "U₃"
  },
  "IR": {
   "glyph": "𒅕",
@@ -1784,7 +1865,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "ir",
    "er"
-  ]
+  ],
+  "label": "IR"
  },
  "DIM": {
   "glyph": "𒁴",
@@ -1796,7 +1878,8 @@ const SIGN_GLOSSARIES = {
    "tim",
    "dim",
    "ṭim"
-  ]
+  ],
+  "label": "DIM"
  },
  "AD": {
   "glyph": "𒀜",
@@ -1808,7 +1891,8 @@ const SIGN_GLOSSARIES = {
    "ad",
    "at",
    "aṭ"
-  ]
+  ],
+  "label": "AD"
  },
  "KALAM": {
   "glyph": "𒌦",
@@ -1819,7 +1903,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "KALAM — Sumerian “land”, read mātum in Akkadian",
    "un"
-  ]
+  ],
+  "label": "KALAM"
  },
  "AMAR": {
   "glyph": "𒀫",
@@ -1829,7 +1914,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "AMAR — “calf”; with UTU spells Marduk (AMAR.UTU, “calf of the Sun”)"
-  ]
+  ],
+  "label": "AMAR"
  },
  "RI": {
   "glyph": "𒊑",
@@ -1841,7 +1927,8 @@ const SIGN_GLOSSARIES = {
    "ri",
    "re",
    "tal"
-  ]
+  ],
+  "label": "RI"
  },
  "ESH": {
   "glyph": "𒌍",
@@ -1853,7 +1940,8 @@ const SIGN_GLOSSARIES = {
    "eš",
    "30 — three Winkelhaken",
    "the numeral 30: adi 30-šu “thirtyfold” (§8)"
-  ]
+  ],
+  "label": "EŠ"
  },
  "TI": {
   "glyph": "𒋾",
@@ -1865,7 +1953,8 @@ const SIGN_GLOSSARIES = {
    "ti",
    "ṭi",
    "TI — “arrow”, also “life” (Sumerian ti(l))"
-  ]
+  ],
+  "label": "TI"
  },
  "IM": {
   "glyph": "𒅎",
@@ -1878,7 +1967,8 @@ const SIGN_GLOSSARIES = {
    "em",
    "IM — also “clay, storm”",
    "as logogram: {d}IM = Adad, the storm-god; {uru}IM{ki} = Karkar"
-  ]
+  ],
+  "label": "IM"
  },
  "KISH": {
   "glyph": "𒆧",
@@ -1891,7 +1981,8 @@ const SIGN_GLOSSARIES = {
    "ner (Harper) — {uru}NER.KI = Kish",
    "keš₃ — the city of Mama (Harper read Kish)",
    "É.NER.NU.GAL = Ekishnugal, Sin’s temple at Ur"
-  ]
+  ],
+  "label": "KIŠ"
  },
  "TAG": {
   "glyph": "𒋳",
@@ -1904,7 +1995,8 @@ const SIGN_GLOSSARIES = {
    "tag",
    "tak",
    "šum — in šum-ma “if”, the word that opens every law"
-  ]
+  ],
+  "label": "TAG"
  },
  "IN": {
   "glyph": "𒅔",
@@ -1914,7 +2006,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "in"
-  ]
+  ],
+  "label": "IN"
  },
  "GI4": {
   "glyph": "𒄄",
@@ -1925,7 +2018,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "gi₄",
    "ge₄"
-  ]
+  ],
+  "label": "GI₄"
  },
  "U2": {
   "glyph": "𒌑",
@@ -1936,7 +2030,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "u₂ — the commonest writing of vowel u in Old Babylonian",
    "Sumerian ú “plant”"
-  ]
+  ],
+  "label": "U₂"
  },
  "SAR": {
   "glyph": "𒊬",
@@ -1948,7 +2043,8 @@ const SIGN_GLOSSARIES = {
    "šar",
    "SAR — Sumerian “garden / to write”",
    "{giš}SAR (KIRI₆) = kirûm “orchard” (§27 on)"
-  ]
+  ],
+  "label": "SAR"
  },
  "SHU": {
   "glyph": "𒋗",
@@ -1960,7 +2056,8 @@ const SIGN_GLOSSARIES = {
    "šu",
    "ŠU — “hand”",
    "ŠU.ḪA = bāʾirum “fisher” (§26–41)"
-  ]
+  ],
+  "label": "ŠU"
  },
  "KA2": {
   "glyph": "𒆍",
@@ -1971,7 +2068,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "KA₂ — “gate”; opens KA₂.DINGIR.RA “Babylon”, Bāb-ilim “gate of the god”",
    "KÁ.GAL = abullum, the city gate (§15)"
-  ]
+  ],
+  "label": "KA₂"
  },
  "TE": {
   "glyph": "𒋼",
@@ -1982,7 +2080,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "te",
    "ṭe₄"
-  ]
+  ],
+  "label": "TE"
  },
  "LI": {
   "glyph": "𒇷",
@@ -1993,7 +2092,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "li",
    "le"
-  ]
+  ],
+  "label": "LI"
  },
  "DA": {
   "glyph": "𒁕",
@@ -2004,7 +2104,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "da",
    "ṭa"
-  ]
+  ],
+  "label": "DA"
  },
  "HA": {
   "glyph": "𒄩",
@@ -2016,7 +2117,8 @@ const SIGN_GLOSSARIES = {
    "ḫa",
    "ḪA — “fish”",
    "second sign of ŠU.ḪA = bāʾirum “fisher”"
-  ]
+  ],
+  "label": "ḪA"
  },
  "AM": {
   "glyph": "𒄠",
@@ -2027,7 +2129,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "am",
    "AM — “wild bull” (GUD×KUR)"
-  ]
+  ],
+  "label": "AM"
  },
  "AH": {
   "glyph": "𒄴",
@@ -2038,7 +2141,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "aḫ, eḫ, iḫ, uḫ",
    "a’ — carries the glottal stop (ʾ) in words like na-a’-dam"
-  ]
+  ],
+  "label": "AḪ"
  },
  "DAM": {
   "glyph": "𒁮",
@@ -2051,7 +2155,8 @@ const SIGN_GLOSSARIES = {
    "DAM — “spouse”",
    "DAM.GÀR = tamkārum “merchant” (§40)",
    "dam — “spouse”"
-  ]
+  ],
+  "label": "DAM"
  },
  "IA": {
   "glyph": "𒅀",
@@ -2061,7 +2166,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "ia (i+a ligature) — the sound y"
-  ]
+  ],
+  "label": "IA"
  },
  "GA": {
   "glyph": "𒂵",
@@ -2072,7 +2178,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "ga",
    "qa₂"
-  ]
+  ],
+  "label": "GA"
  },
  "UL": {
   "glyph": "𒌌",
@@ -2082,7 +2189,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "ul"
-  ]
+  ],
+  "label": "UL"
  },
  "HU": {
   "glyph": "𒄷",
@@ -2093,7 +2201,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "ḫu",
    "MUŠEN — “bird” (as det.)"
-  ]
+  ],
+  "label": "ḪU"
  },
  "KAL": {
   "glyph": "𒆗",
@@ -2106,7 +2215,8 @@ const SIGN_GLOSSARIES = {
    "kal, KAL — “mighty, precious”",
    "LAMMA — the lamassu guardian spirit",
    "dan — “strong”"
-  ]
+  ],
+  "label": "KAL"
  },
  "SAG": {
   "glyph": "𒊕",
@@ -2117,7 +2227,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "SAG — “head”; SAG.GI₆ “the black-headed” = mankind",
    "sag"
-  ]
+  ],
+  "label": "SAG"
  },
  "MI": {
   "glyph": "𒈪",
@@ -2128,7 +2239,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "mi",
    "gi₆ / gig₂ — “black, night”; second sign of SAG.GI₆"
-  ]
+  ],
+  "label": "MI"
  },
  "PI": {
   "glyph": "𒉿",
@@ -2141,7 +2253,8 @@ const SIGN_GLOSSARIES = {
    "wi",
    "wu",
    "pi — one sign for all the w-syllables"
-  ]
+  ],
+  "label": "PI"
  },
  "TU": {
   "glyph": "𒌅",
@@ -2152,7 +2265,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "tu",
    "ṭu₂"
-  ]
+  ],
+  "label": "TU"
  },
  "UB": {
   "glyph": "𒌒",
@@ -2163,7 +2277,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "ub",
    "up"
-  ]
+  ],
+  "label": "UB"
  },
  "BU": {
   "glyph": "𒁍",
@@ -2174,7 +2289,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "bu",
    "pu"
-  ]
+  ],
+  "label": "BU"
  },
  "KU": {
   "glyph": "𒆪",
@@ -2186,7 +2302,8 @@ const SIGN_GLOSSARIES = {
    "ku",
    "qu₂",
    "KU — “to lie down”"
-  ]
+  ],
+  "label": "KU"
  },
  "UR": {
   "glyph": "𒌨",
@@ -2197,7 +2314,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "ur",
    "UR — “dog”"
-  ]
+  ],
+  "label": "UR"
  },
  "NU": {
   "glyph": "𒉡",
@@ -2209,7 +2327,8 @@ const SIGN_GLOSSARIES = {
    "nu",
    "Sumerian nu “not”",
    "NU.TUR — the lieutenant (modern: laputtûm) §33–34"
-  ]
+  ],
+  "label": "NU"
  },
  "UM": {
   "glyph": "𒌝",
@@ -2219,7 +2338,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "um"
-  ]
+  ],
+  "label": "UM"
  },
  "KID": {
   "glyph": "𒆤",
@@ -2230,7 +2350,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "lil₂ — in {d}EN.LÍL “Enlil”",
    "kid"
-  ]
+  ],
+  "label": "KID"
  },
  "ISH": {
   "glyph": "𒅖",
@@ -2241,7 +2362,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "iš",
    "Akkadian: iš, uš₅"
-  ]
+  ],
+  "label": "IŠ"
  },
  "IGIGUNU": {
   "glyph": "𒅊",
@@ -2252,7 +2374,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "ši — the IGI sign with extra strokes (gunû); Harper writes ši(g)",
    "sig₇"
-  ]
+  ],
+  "label": "IGI-gunû"
  },
  "LUH": {
   "glyph": "𒈛",
@@ -2262,7 +2385,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "luḫ; ŠU.LUḪ = šuluḫḫu “purification-rites”"
-  ]
+  ],
+  "label": "LUḪ"
  },
  "ZU": {
   "glyph": "𒍪",
@@ -2273,7 +2397,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "zu",
    "ZU — “to know”; in É.ZU.AB (E-abzu) and EN.ZU (Sin)"
-  ]
+  ],
+  "label": "ZU"
  },
  "AB": {
   "glyph": "𒀊",
@@ -2285,7 +2410,8 @@ const SIGN_GLOSSARIES = {
    "ab",
    "ap",
    "AB — “window”; in É.ZU.AB and ŠEŠ.AB (Ur)"
-  ]
+  ],
+  "label": "AB"
  },
  "GISH": {
   "glyph": "𒄑",
@@ -2296,7 +2422,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "iz, is, iṣ",
    "GIŠ — “wood, tree”; GIŠ.DAR = Ištar (old writing)"
-  ]
+  ],
+  "label": "GIŠ"
  },
  "IL2": {
   "glyph": "𒅍",
@@ -2306,7 +2433,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "íl — in É.SAG.ÍL.LA (Esagila)"
-  ]
+  ],
+  "label": "IL₂"
  },
  "IL": {
   "glyph": "𒅋",
@@ -2316,7 +2444,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "il"
-  ]
+  ],
+  "label": "IL"
  },
  "KUL": {
   "glyph": "𒆰",
@@ -2326,7 +2455,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "NUMUN — “seed”; Akkadian zērum (Harper: zêr, ZIR)"
-  ]
+  ],
+  "label": "KUL"
  },
  "SHESH": {
   "glyph": "𒋀",
@@ -2336,7 +2466,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "ŠEŠ — “brother”; opens ŠEŠ.AB (Ur)"
-  ]
+  ],
+  "label": "ŠEŠ"
  },
  "USH": {
   "glyph": "𒍑",
@@ -2349,7 +2480,8 @@ const SIGN_GLOSSARIES = {
    "nit (Harper, in nit-ra-ru-šu)",
    "second sign of AGA₃.ÚS = rēdûm “soldier”",
    "uš, nit"
-  ]
+  ],
+  "label": "UŠ"
  },
  "GUM": {
   "glyph": "𒄣",
@@ -2360,7 +2492,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "qum",
    "kum"
-  ]
+  ],
+  "label": "GUM"
  },
  "BIL": {
   "glyph": "𒉋",
@@ -2370,7 +2503,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "bil — the NE sign with extra strokes; in ba-bil “bringer”"
-  ]
+  ],
+  "label": "BIL"
  },
  "GAN": {
   "glyph": "𒃶",
@@ -2381,7 +2515,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "gan",
    "ḫé — in ḪÉ.GÁL ḫegallum “abundance”; also the syllable in Da-gan"
-  ]
+  ],
+  "label": "GAN"
  },
  "SUHUSH": {
   "glyph": "𒁽",
@@ -2391,7 +2526,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "SUḪUŠ — “foundation”, Akkadian išdum (Harper: išid)"
-  ]
+  ],
+  "label": "SUḪUŠ"
  },
  "GU": {
   "glyph": "𒄖",
@@ -2402,7 +2538,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "gu",
    "{giš}GU.ZA = kussûm “chair, seat of office” (§5)"
-  ]
+  ],
+  "label": "GU"
  },
  "MUSH3": {
   "glyph": "𒈹",
@@ -2413,7 +2550,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "{d}INANNA — the goddess Ishtar (Harper reads Nanâ)",
    "muš₃"
-  ]
+  ],
+  "label": "MUŠ₃"
  },
  "TUG2": {
   "glyph": "𒌆",
@@ -2424,7 +2562,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "dul₃ — in AN.DUL₃ ṣalūlum “protective canopy”",
    "túg — “cloth, garment”"
-  ]
+  ],
+  "label": "TUG₂"
  },
  "TUM": {
   "glyph": "𒌈",
@@ -2435,7 +2574,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "tum",
    "dum"
-  ]
+  ],
+  "label": "TUM"
  },
  "BUR2": {
   "glyph": "𒁔",
@@ -2445,7 +2585,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "búr — GAL.BÚR = ušumgallum, the dragon"
-  ]
+  ],
+  "label": "BUR₂"
  },
  "LUM": {
   "glyph": "𒈝",
@@ -2455,7 +2596,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "lum"
-  ]
+  ],
+  "label": "LUM"
  },
  "GA2": {
   "glyph": "𒂷",
@@ -2465,7 +2607,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "ma₃/mal — in {d}za-ma₃-ma₃ (Zamama) and MAL.KA.A (Malka/Malgium)"
-  ]
+  ],
+  "label": "GA₂"
  },
  "HAR": {
   "glyph": "𒄯",
@@ -2475,7 +2618,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "ḫar/ḫur — in ḪAR.SAG.KALAM.MA (Hursag-kalama, “Mountain of the Land”)"
-  ]
+  ],
+  "label": "ḪAR"
  },
  "KISAL": {
   "glyph": "𒆦",
@@ -2485,7 +2629,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "KISAL — “courtyard”, Akkadian kisallum"
-  ]
+  ],
+  "label": "KISAL"
  },
  "GU2": {
   "glyph": "𒄘",
@@ -2495,7 +2640,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "gú/tig — opens TIG.GAB.A (Cutha)"
-  ]
+  ],
+  "label": "GU₂"
  },
  "GABA": {
   "glyph": "𒃮",
@@ -2506,7 +2652,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "gab — in TIG.GAB.A (Cutha)",
    "GABA — “breast”; modern editions read du₈ here"
-  ]
+  ],
+  "label": "GABA"
  },
  "SHID": {
   "glyph": "𒋃",
@@ -2517,7 +2664,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "šid — Harper’s ŠID.LAM (the Meslam) and É.MIŠ.MIŠ (Emishmish)",
    "modern reading: mes"
-  ]
+  ],
+  "label": "ŠID"
  },
  "KA": {
   "glyph": "𒅗",
@@ -2528,7 +2676,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "KA — “mouth”; ina pī mātim “in the mouth of the land”",
    "ka (syllable)"
-  ]
+  ],
+  "label": "KA"
  },
  "AR": {
   "glyph": "𒅈",
@@ -2538,7 +2687,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "ar — the AR sign (IGI+RI)"
-  ]
+  ],
+  "label": "AR"
  },
  "GIR2": {
   "glyph": "𒄈",
@@ -2549,7 +2699,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "gír",
    "kir — in kir-bu-um (qerbum “within”); opens GIR.SU (Girsu)"
-  ]
+  ],
+  "label": "GIR₂"
  },
  "SHIR": {
   "glyph": "𒋓",
@@ -2559,7 +2710,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "šir — opens ŠIR.PUR.LA (Lagash)"
-  ]
+  ],
+  "label": "ŠIR"
  },
  "BUR": {
   "glyph": "𒁓",
@@ -2570,7 +2722,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "bur",
    "pur — in ŠIR.PUR.LA (Lagash)"
-  ]
+  ],
+  "label": "BUR"
  },
  "NIN": {
   "glyph": "𒎏",
@@ -2580,7 +2733,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "NIN — “lady/lord”; in NIN.TU (Nintu) and NIN.A.ZU (Ninazu)"
-  ]
+  ],
+  "label": "NIN"
  },
  "DI": {
   "glyph": "𒁲",
@@ -2592,7 +2746,8 @@ const SIGN_GLOSSARIES = {
    "di",
    "ṭi",
    "DI — “judgment” (salīmum)"
-  ]
+  ],
+  "label": "DI"
  },
  "GI": {
   "glyph": "𒄀",
@@ -2603,7 +2758,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "gi",
    "GI — “reed”"
-  ]
+  ],
+  "label": "GI"
  },
  "AL": {
   "glyph": "𒀠",
@@ -2613,7 +2769,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "al"
-  ]
+  ],
+  "label": "AL"
  },
  "MASH": {
   "glyph": "𒈦",
@@ -2623,7 +2780,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "maš — in É.UL.MAŠ (Eulmash) and MAŠ.KAN (Mashkan-)"
-  ]
+  ],
+  "label": "MAŠ"
  },
  "GAN2": {
   "glyph": "𒃷",
@@ -2634,7 +2792,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "kan — in MAŠ.KAN.PA.AL (Mashkan-shabri)",
    "GAN₂ — “field”"
-  ]
+  ],
+  "label": "GAN₂"
  },
  "AZ": {
   "glyph": "𒊍",
@@ -2644,7 +2803,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "az — the lion-sign with ZA inside"
-  ]
+  ],
+  "label": "AZ"
  },
  "SI": {
   "glyph": "𒋛",
@@ -2655,7 +2815,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "si",
    "SI — “horn”"
-  ]
+  ],
+  "label": "SI"
  },
  "SA": {
   "glyph": "𒊓",
@@ -2665,7 +2826,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "sa"
-  ]
+  ],
+  "label": "SA"
  },
  "SHE": {
   "glyph": "𒊺",
@@ -2676,7 +2838,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "še",
    "ŠE — “barley, grain”"
-  ]
+  ],
+  "label": "ŠE"
  },
  "IG": {
   "glyph": "𒅅",
@@ -2688,7 +2851,8 @@ const SIGN_GLOSSARIES = {
    "ig",
    "ik",
    "iq"
-  ]
+  ],
+  "label": "IG"
  },
  "TAB": {
   "glyph": "𒋰",
@@ -2699,7 +2863,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "tab",
    "TAB — “to double, twin”"
-  ]
+  ],
+  "label": "TAB"
  },
  "GAM": {
   "glyph": "𒃵",
@@ -2709,7 +2874,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "gam — in mu-gam-me-ir “who heaps up”"
-  ]
+  ],
+  "label": "GAM"
  },
  "DAR": {
   "glyph": "𒁯",
@@ -2719,7 +2885,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "dar/tár — GIŠ.DAR = Ištar (the old writing iš₈-tár; Harper: Anunit)"
-  ]
+  ],
+  "label": "DAR"
  },
  "NIM": {
   "glyph": "𒉏",
@@ -2730,7 +2897,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "nim",
    "NIM — “high; Elam”"
-  ]
+  ],
+  "label": "NIM"
  },
  "LAM": {
   "glyph": "𒇴",
@@ -2740,7 +2908,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "lam — in ŠID.LAM, the Meslam temple"
-  ]
+  ],
+  "label": "LAM"
  },
  "ENGUR": {
   "glyph": "𒇉",
@@ -2751,7 +2920,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "with A before river-names: {íd}, the river-marker (A.ENGUR = ÍD)",
    "with {d}: the divine River (ÍD), judge of the ordeal in §2"
-  ]
+  ],
+  "label": "ENGUR"
  },
  "ZA": {
   "glyph": "𒍝",
@@ -2762,7 +2932,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "za",
    "ṣa"
-  ]
+  ],
+  "label": "ZA"
  },
  "HI": {
   "glyph": "𒄭",
@@ -2774,7 +2945,8 @@ const SIGN_GLOSSARIES = {
    "ḫi",
    "ḪI — “to mix”",
    "with A: plural marker of LID.GUD(.ḪI.A), Harper’s ZUN (§35)"
-  ]
+  ],
+  "label": "ḪI"
  },
  "AS": {
   "glyph": "𒀸",
@@ -2786,7 +2958,8 @@ const SIGN_GLOSSARIES = {
    "aš",
    "dil — in DIL.BAT (Dilbat)",
    "the simplest sign: one horizontal wedge"
-  ]
+  ],
+  "label": "AŠ"
  },
  "MAH": {
   "glyph": "𒈤",
@@ -2796,7 +2969,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "MAḪ — “exalted”; in É.GAL.MAḪ and É.MAḪ"
-  ]
+  ],
+  "label": "MAḪ"
  },
  "KAR": {
   "glyph": "𒋽",
@@ -2808,7 +2982,8 @@ const SIGN_GLOSSARIES = {
    "KAR (the TE sign with extra strokes) — karûm “grain-heap”",
    "kar (syllable) — in iz-za-kar “he declared” (zakārum)",
    "karum — in tam-karum = tamkārum “merchant” (§32)"
-  ]
+  ],
+  "label": "KAR"
  },
  "SAL": {
   "glyph": "𒊩",
@@ -2820,7 +2995,8 @@ const SIGN_GLOSSARIES = {
    "ṣal — in ṣal-tum (Harper’s “warrior of Dagan”)",
    "SAL/MUNUS — “woman”",
    "§40: Harper reads SAL alone as aššatum “wife” (?); modern editions read nadītum, the priestess"
-  ]
+  ],
+  "label": "SAL"
  },
  "E2": {
   "glyph": "𒂍",
@@ -2832,7 +3008,8 @@ const SIGN_GLOSSARIES = {
    "É — “house, temple”; opens every temple name",
    "Akkadian bītum",
    "É.GAL-lum = ekallum “palace” (§32)"
-  ]
+  ],
+  "label": "E₂"
  },
  "BAR": {
   "glyph": "𒁇",
@@ -2842,7 +3019,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "bar — in Bar-zi-ba (Borsippa)"
-  ]
+  ],
+  "label": "BAR"
  },
  "NINNU": {
   "glyph": "𒐐",
@@ -2852,7 +3030,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "50 — É.50 = Eninnu, “House Fifty”, Ningirsu’s temple"
-  ]
+  ],
+  "label": "50"
  },
  "KU3": {
   "glyph": "𒆬",
@@ -2863,7 +3042,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "KÙ — “pure, precious”; KÙ.BABBAR = kaspum “silver”, KÙ.GI = ḫurāṣum “gold”",
    "KÙ.BABBAR = kaspum “silver”: kaspi-šu, kaspim (§35–41)"
-  ]
+  ],
+  "label": "KU₃"
  },
  "GUD": {
   "glyph": "𒄞",
@@ -2873,7 +3053,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "GU₄ — “ox”, Akkadian alpum"
-  ]
+  ],
+  "label": "GUD"
  },
  "ARAD": {
   "glyph": "𒀴",
@@ -2883,7 +3064,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "ARAD — “slave, servant”, Akkadian wardum"
-  ]
+  ],
+  "label": "ARAD"
  },
  "ANSHE": {
   "glyph": "𒀲",
@@ -2893,7 +3075,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "ANŠE — “donkey”, Akkadian imērum"
-  ]
+  ],
+  "label": "ANŠE"
  },
  "SHUBUR": {
   "glyph": "𒋚",
@@ -2903,7 +3086,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "ŠAḪ (šubur) — “pig”, Akkadian šaḫûm"
-  ]
+  ],
+  "label": "ŠUBUR"
  },
  "MA2": {
   "glyph": "𒈣",
@@ -2913,7 +3097,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "MÁ — “boat”, Akkadian eleppum"
-  ]
+  ],
+  "label": "MA₂"
  },
  "KAK": {
   "glyph": "𒆕",
@@ -2923,7 +3108,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "KAK/GAG — “peg, nail”; MAŠ.EN.KAK = muškēnum, the commoner"
-  ]
+  ],
+  "label": "KAK"
  },
  "MIN": {
   "glyph": "𒈫",
@@ -2934,7 +3120,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "2; with U: the numeral 12 (adi 12-šu “twelvefold”)",
    "2 — II GÍN “two shekels” (§17)"
-  ]
+  ],
+  "label": "2"
  },
  "IA5": {
   "glyph": "𒐊",
@@ -2944,7 +3131,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "5 — adi 5-šu “up to five times over” (§12)"
-  ]
+  ],
+  "label": "5"
  },
  "SHESH6": {
   "glyph": "𒐋",
@@ -2954,7 +3142,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "6 — ITI VI{kam} “the sixth month” (§13)"
-  ]
+  ],
+  "label": "6"
  },
  "ITI": {
   "glyph": "𒌗",
@@ -2964,7 +3153,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "ITI — “month”, Akkadian warḫum: the UD “day” sign with 30 inside — a month of days"
-  ]
+  ],
+  "label": "ITI"
  },
  "KAM": {
   "glyph": "𒄰",
@@ -2974,7 +3164,8 @@ const SIGN_GLOSSARIES = {
   "determines": "ordinal numbers — VI{kam} “the sixth”",
   "values": [
    "after a numeral, makes it an ordinal: VI{kam} “the sixth”"
-  ]
+  ],
+  "label": "KAM"
  },
  "GIN2": {
   "glyph": "𒂇",
@@ -2985,7 +3176,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "GÍN — “shekel”, Akkadian šiqlum: the basic weight of silver, about 8.3 g",
    "aga₃ — first sign of AGA₃.ÚS, Harper’s rid ṣâbê = rēdûm “soldier” (§26–41)"
-  ]
+  ],
+  "label": "GIN₂"
  },
  "SHA3": {
   "glyph": "𒊮",
@@ -2996,7 +3188,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "A.ŠÀ = eqlum “field” — the fief-land of §§26–41",
    "ŠÀ — “heart, interior”"
-  ]
+  ],
+  "label": "ŠA₃"
  },
  "AB2": {
   "glyph": "𒀖",
@@ -3006,7 +3199,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "ÁB — “cow”; opens Harper’s LID.GUD.ZUN = liātum “cattle” (§35)"
-  ]
+  ],
+  "label": "AB₂"
  },
  "ERIN2": {
   "glyph": "𒂟",
@@ -3016,7 +3210,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "ERIM — “troops”: ṣāb nisḫātim “struck-off troops” (§33)"
-  ]
+  ],
+  "label": "ERIN₂"
  },
  "GAR3": {
   "glyph": "𒃼",
@@ -3026,7 +3221,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "second sign of DAM.GÀR = tamkārum “merchant” (§40)"
-  ]
+  ],
+  "label": "GAR₃"
  },
  "GUN": {
   "glyph": "𒄙",
@@ -3036,7 +3232,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "GUN — biltum “yield, tribute”: nāši biltim “the rent-payer” (§37–38)"
-  ]
+  ],
+  "label": "GUN"
  },
  "GUR": {
   "glyph": "𒄥",
@@ -3046,7 +3243,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "gur — in i-gur-ma “he hired” (§26)"
-  ]
+  ],
+  "label": "GUR"
  },
  "KASKAL": {
   "glyph": "𒆜",
@@ -3056,7 +3254,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "KASKAL — “road, campaign”: ḫarrān šarrim (§33); elsewhere spelled ḫar-ra-an"
-  ]
+  ],
+  "label": "KASKAL"
  },
  "THREE": {
   "glyph": "𒐈",
@@ -3066,7 +3265,8 @@ const SIGN_GLOSSARIES = {
   "determines": null,
   "values": [
    "3 — MU III{kam} “the third year” (§30)"
-  ]
+  ],
+  "label": "3"
  },
  "TIM": {
   "glyph": "𒁴",
@@ -3077,7 +3277,8 @@ const SIGN_GLOSSARIES = {
   "values": [
    "tim — in ni-is-ḫa-tim, bi-il-tim, ni-ip-la-tim",
    "dim"
-  ]
+  ],
+  "label": "DIM"
  }
 },
  "Egyptian hieroglyphs": {
@@ -3504,7 +3705,10 @@ function buildGlyphLinear(s, readable){
       if (g.nl) inner += LBRK;
       const role = g.role || 'phon';
       let sub, title = '';
-      if (role === 'det') {
+      if (nameMode && story.script === 'cuneiform') {
+        sub = '<span class="tr sname">' + escapeHtml(signLabel(g)) + '</span>';
+        if (role === 'det') title = ' title="determinative — unpronounced"';
+      } else if (role === 'det') {
         const d = (sg[g.sign] && sg[g.sign].determines) || '';
         title = ' title="' + escapeHtml('determinative — unpronounced; classifies: ' + d) + '"';
         sub = '<span class="tr"> </span>';   // no letters — the purple glyph marks it; blank keeps the glyph row level
@@ -3530,7 +3734,21 @@ function showWordPop(wordEl){
   if (!w) return;
   const sg = signGlossaryFor(story) || {};
   popWord = '';
-  $('popW').textContent = w.reading || '';
+  if (story.script === 'cuneiform') {
+    // three layers: the signs (each glyph with its sign name), the transliteration, the pronunciation
+    let sgn = '<div class="pwSigns">';
+    (w.glyphs || []).forEach(x => {
+      const det = (x.role || '') === 'det';
+      sgn += '<span class="pwSign' + (det ? ' det' : '') + '"' + (det ? ' title="determinative — unpronounced"' : '') + '><span class="pwg">'
+           + escapeHtml(x.s || '') + '</span><span class="pwl">' + escapeHtml(signLabel(x)) + '</span></span>';
+    });
+    sgn += '</div>';
+    $('popW').innerHTML = sgn
+      + '<div class="pwRow"><span class="pwk">transliteration</span><span class="pwv">' + escapeHtml(w.reading || '') + '</span></div>'
+      + (w.say ? '<div class="pwRow say"><span class="pwk">said</span><span class="pwv">' + escapeHtml(w.say) + '</span></div>' : '');
+  } else {
+    $('popW').textContent = w.reading || '';
+  }
   let g = '<div class="pmorph">';
   (w.morph || []).forEach(m => { g += '<span class="pm"><span class="pmk">' + escapeHtml(m.lemma) + '</span> — ' + escapeHtml(m.gloss || '') + '</span>'; });
   g += '</div>';
@@ -4811,7 +5029,7 @@ function loadTrPref(){
 loadTrPref();
 function updateSpellSeg(){
   const seg = $('spellSeg'); if (!seg) return;
-  const st = plainMode ? 'read' : (valMode ? 'val' : 'sch');
+  const st = plainMode ? 'read' : (nameMode ? 'name' : (valMode ? 'val' : 'sch'));
   seg.querySelectorAll('button[data-sp]').forEach(b => b.classList.toggle('active', b.dataset.sp === st));
 }
 function applyTr(){
@@ -4834,7 +5052,9 @@ $('spellSeg').addEventListener('click', (ev) => {
   const b = ev.target.closest('button[data-sp]'); if (!b) return;
   plainMode = (b.dataset.sp === 'read');
   valMode = (b.dataset.sp === 'val');
-  try { localStorage.setItem('egReadable', plainMode ? '1' : '0'); localStorage.setItem('valMode', valMode ? '1' : '0'); } catch(e) {}
+  nameMode = (b.dataset.sp === 'name');
+  try { localStorage.setItem('egReadable', plainMode ? '1' : '0'); localStorage.setItem('valMode', valMode ? '1' : '0');
+        localStorage.setItem('nameMode', nameMode ? '1' : '0'); } catch(e) {}
   updateSpellSeg();
   render();
   if (focusedIdx >= 0) focusSent(focusedIdx, false);
@@ -5058,7 +5278,14 @@ function loadStory(s){
     // Two-state ꜥnḫ|ankh for scripts without them (Egyptian).
     const hasVals = s.sentences.some(x => (x.words || []).some(w => (w.glyphs || []).some(gl => gl.val)));
     const sseg = $('spellSeg');
-    if (sseg) sseg.innerHTML = hasVals
+    // Akkadian cuneiform (logograms with values): signs | transliteration | words —
+    // which sign each glyph is; what it reads as in this word; how the word is said.
+    const akk = hasVals && s.script === 'cuneiform';
+    if (sseg) sseg.innerHTML = akk
+      ? '<button data-sp="name" title="Signs — the name of each sign (DU, U₂, ŠÀ), whatever it stands for in this word">signs</button>'
+        + '<button data-sp="sch" title="Transliteration — what each sign reads as here: syllables lowercase (a-du), Sumerian word-signs in capitals (A.ŠÀ)">transliteration</button>'
+        + '<button data-sp="read" title="Words — the word as it is pronounced (adi šinšerīšu)">words</button>'
+      : hasVals
       ? '<button data-sp="sch" title="Scholarly sign labels — logograms shown by their citation names (CAPUT)">signs</button>'
         + '<button data-sp="val" title="Sounded signs — each logogram shows its value in the language (ziti); signs whose reading is unknown keep their labels">sounds</button>'
         + '<button data-sp="read" title="Readable words — the interpreted word beneath each written word (Azzattiwadas)">words</button>'
@@ -5073,7 +5300,9 @@ function loadStory(s){
             + '<button data-sp="read" title="Readable spelling — plain vowels, no diacritics (Geez)">Geez</button>'
           : '<button data-sp="sch" title="Scholarly transliteration (ꜥnḫ)">ꜥnḫ</button>'
             + '<button data-sp="read" title="Readable spelling (ankh)">ankh</button>');
-    if (!hasVals) valMode = false;
+    if (!hasVals || akk) valMode = false;
+    if (!akk) nameMode = false;
+    else { try { nameMode = localStorage.getItem('nameMode') === '1'; } catch(e) {} }
     if (rg) rg.style.display = 'inline-flex';
     pb.style.display = 'none';
   } else {

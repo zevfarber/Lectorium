@@ -43,11 +43,12 @@ scan anomaly turns up later in the volume.
 | done (2026-10-03, unattended) | 247–254 | 227–234 | `archive/pp227-234.json` | Continues the narrative (night heading p. 232, verse on pp. 228, 230, 234); all joins continuous incl. 226→227 |
 | done (2026-10-10, unattended) | 287–294 | 267–274 | `archive/pp267-274.json` | Continues Night 33 (heading at P266L09); content summary not written this run; all 7 joins continuous |
 | done (2026-10-10, unattended) | 295–302 | 275–282 | `archive/pp275-282.json` | Completes Night 33 (to P276L14); Night 34 heading at P276L15; all 7 joins continuous |
+| done (2026-10-11, unattended) | 303–310 | 283–290 | `archive/pp283-290.json` | Completes Night 34 (to P283L23); Night 35 begins P284L01 (night label as h line); all 7 joins continuous |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 302 (archive ends at printed p. 282). Pages remaining: ~636 PDF pages
-(approximate, pending the corrected offset holding). Lines archived: 5147. calc.traineddata last
+**Last PDF page done: 310 (archive ends at printed p. 290). Pages remaining: ~636 PDF pages
+(approximate, pending the corrected offset holding). Lines archived: 5323. calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new
 verified line pairs (pp. 127-131, 133-134 prose only, verse/heading excluded; p. 132 excluded, its

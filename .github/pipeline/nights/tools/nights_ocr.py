@@ -19,8 +19,9 @@ For every PDF page it:
   4. writes <out>/pNN/lineLL.png (2x crops for the correction agent), <out>/pNN/draft.json
      ({"line": n, "ocr": "..."}), and <out>/gate.json with the per-page line counts.
 
-The OCR output is a DRAFT (measured ~85–90 % characters, ~50–60 % words exact on the pilot
-pages). The correction agent reads each line crop against its draft line and writes the
+The OCR output is a DRAFT. Tesseract: ~85–90 % characters, ~50–60 % words exact on the pilot
+pages. With --vision (Cloud Vision drafts fetched ahead by vision_draft.py on GitHub Actions,
+from 2026-10-11): ~95 % characters, ~88 % words exact on the same pages. The correction agent reads each line crop against its draft line and writes the
 transcription; see nights-ocr-experiment.md for the prompt and the measured cost.
 
 Requires: pdftoppm (poppler), tesseract 5 with ara/arabest/calc traineddata, opencv, numpy.
@@ -90,7 +91,12 @@ def main():
     ap.add_argument('--model', default='calc'); ap.add_argument('--expect-lines', type=int, default=23)
     ap.add_argument('--keep-ocr-crops', action='store_true', help='also keep the 1x crops (ocrNN.png) for model retraining')
     ap.add_argument('--offset', type=int, default=0, help='absolute PDF page number of page 1 of --pdf, minus 1 (chunked scans)')
+    ap.add_argument('--vision', default='', help='folder of Cloud Vision drafts (vision/p<ppp>.json, made by vision_draft.py --fetch); '
+                    'a page that has one gets its draft from Vision instead of Tesseract')
     a = ap.parse_args()
+    if a.vision:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import vision_draft
     p0, p1 = (int(x) for x in a.pages.split('-')) if '-' in a.pages else (int(a.pages),) * 2
     os.makedirs(a.out, exist_ok=True)
     gate = {}
@@ -100,13 +106,15 @@ def main():
         page = page + a.offset            # absolute page number from here on
         d = os.path.join(a.out, f'p{page:03d}'); os.makedirs(d, exist_ok=True)
         draft = []
+        pj = vision_draft.load_page(a.vision, page) if a.vision else None
+        vlines = vision_draft.lines_for(pj, body, flat.shape) if pj else None
         for i, (y0, y1) in enumerate(body, 1):
             c = flat[max(0, y0 - 16):min(flat.shape[0], y1 + 16), :]
             c = cv2.copyMakeBorder(c, 30, 30, 40, 40, cv2.BORDER_CONSTANT, value=255)
             one = os.path.join(d, f'_ocr{i:02d}.png'); cv2.imwrite(one, c)
             big = cv2.resize(c, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
             cv2.imwrite(os.path.join(d, f'line{i:02d}.png'), big)
-            draft.append({'line': i, 'ocr': ocr_line(one, a.tessdata, a.model)})
+            draft.append({'line': i, 'ocr': vlines[i - 1] if vlines else ocr_line(one, a.tessdata, a.model)})
             if a.keep_ocr_crops: os.rename(one, os.path.join(d, f'ocr{i:02d}.png'))
             else: os.remove(one)
         json.dump(draft, open(os.path.join(d, 'draft.json'), 'w'), ensure_ascii=False, indent=1)
@@ -131,7 +139,7 @@ def main():
         ok = not big and len(body) <= a.expect_lines
         gate[page] = {'header_lines': len(header), 'body_lines': len(body), 'pitch': pitch,
                       'suspect_gap_after_line': big, 'ok': ok}
-        print(f'page {page}: header {len(header)}, body {len(body)}, pitch {pitch:.0f}',
+        print(f'page {page}: header {len(header)}, body {len(body)}, pitch {pitch:.0f}, draft {"vision" if vlines else "tesseract"}',
               '' if ok else f'  <-- GATE: double-pitch gap after line(s) {big} — a line may be missing')
     json.dump(gate, open(os.path.join(a.out, 'gate.json'), 'w'), indent=1)
     if not all(v['ok'] for v in gate.values()): sys.exit(2)

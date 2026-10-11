@@ -1,0 +1,48 @@
+name: Nights Vision drafts
+
+# Fetches Google Cloud Vision drafts for the next pages of the Nights scan, ahead of the
+# transcription routine, and commits them to .github/pipeline/nights/vision/. Runs here
+# because the routine's sandbox cannot reach Google. Uses the same key as the audio build
+# (secret GOOGLE_TTS_KEY; Cloud Vision was added to that key's allowed APIs 2026-10-11).
+# Cost: Google's first 1,000 pages a month are free; vision_draft.py stops at 900.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/pipeline/nights/tools/vision_draft.py'
+      - '.github/pipeline/nights/vision/request.txt'
+      - '.github/workflows/nights-vision.yml'
+  schedule:
+    - cron: '41 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nights-vision
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python3 -m pip install --quiet pymupdf
+      - name: Fetch Vision drafts
+        env:
+          GOOGLE_TTS_KEY: ${{ secrets.GOOGLE_TTS_KEY }}
+        run: python3 .github/pipeline/nights/tools/vision_draft.py --fetch
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/pipeline/nights/vision
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -q -m "Nights: Vision drafts fetched [skip ci]"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done
+          exit 1

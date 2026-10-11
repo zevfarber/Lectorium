@@ -78,7 +78,17 @@ A–B. Pass `--offset A-1` so output folders carry absolute page numbers. A batc
 chunks is run as two calls into the same `--out` folder.
 
     python3 tools/nights_ocr.py --pdf source/calcutta2-vol1-p001-050.pdf --pages 31-38 --offset 0 \
-        --out /tmp/run --tessdata tools/td --model calc
+        --out /tmp/run --tessdata tools/td --model calc --vision vision
+
+**The Vision draft (from 2026-10-11).** `vision/p<ppp>.json` holds Google Cloud Vision's reading of
+each page, fetched ahead of you once a day by the GitHub workflow *Nights Vision drafts*
+(`tools/vision_draft.py --fetch`; this sandbox cannot reach Google, the runner can). With
+`--vision vision`, every page that has one gets its draft from Vision (about 88–90 % of words exact,
+against 50–60 % for Tesseract); each printed page line says `draft vision` or `draft tesseract`.
+A batch whose pages all have Vision drafts does not need Tesseract installed at all, so skip the
+model build and the apt step for it. If any page of the batch lacks one, the fetch has fallen
+behind: use Tesseract for those pages as before and say so in the LOG. Never edit `vision/`;
+it is the workflow's.
 
 Read its output. A line `<-- GATE` means a double-pitch gap: a line may have been dropped by the
 detector. That is not a stop — the page bands cover it — but note the page for the adjudicator.

@@ -90,7 +90,7 @@ def fetch(a):
     want = list(range(y + 1, min(LAST_PDF_PAGE, y + AHEAD) + 1))
     req = os.path.join(VDIR, 'request.txt')
     if os.path.exists(req):
-        for tok in re.findall(r'\d+(?:-\d+)?', open(req).read()):
+        for tok in re.findall(r'\d+(?:-\d+)?', re.sub(r'#.*', '', open(req).read())):
             lo, hi = (int(x) for x in tok.split('-')) if '-' in tok else (int(tok),) * 2
             want += list(range(lo, hi + 1))
     want = sorted({p for p in want if not os.path.exists(os.path.join(VDIR, f'p{p:03d}.json'))})

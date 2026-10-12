@@ -2054,5 +2054,27 @@
   "status": 200,
   "bytes": 11350,
   "sha256": "a5e9c6c962e94a27269f5e1dec903f83886c2eefa40b44aebeed2697a77cb014"
+ },
+ {
+  "url": "https://en.wikipedia.org/w/index.php?title=List+of+Luwian+hieroglyphs&action=raw",
+  "dest": ".github/pipeline/azatiwada/source/ref/wikipedia-list-of-luwian-hieroglyphs.wiki",
+  "at": "2026-10-12T08:01:38Z",
+  "status": 404
+ },
+ {
+  "url": "https://www.unicode.org/L2/L2012/12213-n4282-anatolian.pdf",
+  "dest": ".github/pipeline/azatiwada/source/ref/unicode-n4282-anatolian.pdf",
+  "at": "2026-10-12T08:01:39Z",
+  "status": 200,
+  "bytes": 2015776,
+  "sha256": "61c3cc981247b37e0cf30b4f39d2fcf5db83578bf70ba9090db6859cb4097b37"
+ },
+ {
+  "url": "https://www.unicode.org/Public/UCD/latest/ucd/NamesList.txt",
+  "dest": ".github/pipeline/azatiwada/source/ref/NamesList.txt",
+  "at": "2026-10-12T08:01:41Z",
+  "status": 200,
+  "bytes": 2113504,
+  "sha256": "e0732f7cb47a08ee2186c83a18a91ae277126e8099b53c432b4c3e32488dac9b"
  }
 ]

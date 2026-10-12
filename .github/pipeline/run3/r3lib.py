@@ -11,7 +11,7 @@ Each work lives in .github/pipeline/<work>/ with:
 
 This module holds what every work shares. Python standard library only.
 """
-import hashlib, importlib.util, json, os, re, sys, time, unicodedata
+import calendar, glob, hashlib, importlib.util, json, os, re, sys, time, unicodedata
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 PIPE = os.path.dirname(HERE)                      # .github/pipeline
@@ -33,10 +33,19 @@ def jload(p):
 
 
 def jdump(obj, p, indent=1):
+    """Write JSON with one-space indent, keeping the file's own trailing-newline habit (no churn)."""
+    nl = True
+    if os.path.exists(p):
+        with open(p, 'rb') as f:
+            f.seek(0, 2)
+            if f.tell():
+                f.seek(-1, 2)
+                nl = f.read(1) == b'\n'
     tmp = p + '.tmp'
     with open(tmp, 'w', encoding='utf-8') as f:
         json.dump(obj, f, ensure_ascii=False, indent=indent)
-        f.write('\n')
+        if nl:
+            f.write('\n')
     os.replace(tmp, p)
 
 
@@ -100,7 +109,7 @@ def live_claim(work, pid):
     m = re.search(r'(\d{4}-\d\d-\d\dT\d\d:\d\d)', txt)
     if not m:
         return True
-    t = time.mktime(time.strptime(m.group(1), '%Y-%m-%dT%H:%M')) - time.timezone
+    t = calendar.timegm(time.strptime(m.group(1), '%Y-%m-%dT%H:%M'))      # claims are written in UTC
     return (time.time() - t) / 3600 < CLAIM_STALE_HOURS
 
 
@@ -109,7 +118,7 @@ def next_part(work):
     action is 'establish' (a scan-based part whose text is not yet established) or 'draft'."""
     cfg = work_cfg(work)
     for p in parts_doc(work)['parts']:
-        if p.get('status') == 'published':
+        if p.get('status') in ('published', 'blocked'):
             continue
         if live_claim(work, p['id']):
             continue
@@ -134,6 +143,25 @@ def first_lemma(entry):
     return entry.split(' — ', 1)[0].strip()
 
 
+def ordered_story_files(work):
+    """The work's published story files in reading order (the pilots first, then parts.json order) — so that a
+    later part's broadened glossary entry overrides an earlier part's narrower one when glossaries are merged."""
+    ids = list(work_cfg(work).get('publishedBefore', [])) + [p['id'] for p in parts_doc(work)['parts']]
+    out = []
+    for i in ids:
+        f = os.path.join(ROOT, i + '.json')
+        if os.path.exists(f) and f not in out:
+            out.append(f)
+    return out
+
+
+def merged_inline_glossary(work):
+    g = {}
+    for f in ordered_story_files(work):
+        g.update(jload(f).get('glossary', {}))
+    return g
+
+
 # ---------------------------------------------------------------- manifest
 def manifest_insert(work, pid, entry):
     """Insert/replace the stories.json entry for pid right after the previous part of this work."""
@@ -145,6 +173,11 @@ def manifest_insert(work, pid, entry):
     prior = set(order[:order.index(pid)]) | set(work_cfg(work).get('publishedBefore', []))
     idx = [k for k, e in enumerate(st) if e.get('id') in prior]
     pos = (max(idx) + 1) if idx else len(st)
+    first = next((e for e in st if e.get('id') in set(work_cfg(work).get('publishedBefore', []))), None)
+    if first:                         # the library groups by language + work: keep them identical to the pilot's
+        for k in ('language', 'work', 'workEn'):
+            if k in first:
+                entry[k] = first[k]
     st.insert(pos, entry)
     jdump(M, mp)
 

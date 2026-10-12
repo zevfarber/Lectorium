@@ -48,10 +48,7 @@ def packet(p):
 def assemble(p, units, gloss):
     cfg = R.work_cfg('king-list')
     S = C.signs()
-    G = {}
-    for f in sorted(os.listdir(R.ROOT)):
-        if f.startswith('king-list-') and f.endswith('.json'):
-            G.update(R.jload(os.path.join(R.ROOT, f)).get('glossary', {}))
+    G = R.merged_inline_glossary('king-list')
     G.update({k: v for k, v in gloss.items() if v and k != '__broaden__'})
     G.update(gloss.get('__broaden__', {}))
     sents, problems = [], []

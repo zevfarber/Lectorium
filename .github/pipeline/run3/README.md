@@ -19,7 +19,7 @@ Order: Hammurabi → Kebra Nagast → Secret History → Mabinogi → Cid → Az
 
 How a firing works: `RUNBOOK.md`. Tools: `r3.py` (next / claim / establish-packet / pin / packet / build /
 validate / publish / done / plan), `r3lib.py`, `cun.py` (cuneiform), `signs.py` (adds a sign to a shared sign
-glossary and its copy embedded in the reader), `page.py` (renders a scanned page), `fetch_run3.py` +
+glossary and its copy embedded in the reader), `page.py` (renders a scanned page); and `../../scripts/fetch_run3.py` +
 `../../workflows/fetch-run3.yml` (the runner fetches public-domain sources listed in `fetch-requests.json`,
 since Claude's cloud sessions cannot reach archive.org or Wikisource).
 

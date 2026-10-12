@@ -76,10 +76,7 @@ def packet(p):
 def assemble(p, units, gloss):
     cfg = R.work_cfg('azatiwada')
     S = signs()
-    G = {}
-    for f in sorted(os.listdir(R.ROOT)):
-        if f.startswith('azatiwada-') and f.endswith('.json'):
-            G.update(R.jload(os.path.join(R.ROOT, f)).get('glossary', {}))
+    G = R.merged_inline_glossary('azatiwada')
     G.update({k: v for k, v in gloss.items() if v and k != '__broaden__'})
     G.update(gloss.get('__broaden__', {}))
     sents, problems = [], []
@@ -96,6 +93,8 @@ def assemble(p, units, gloss):
                 ng = {'s': ''.join(S[x]['glyph'] for x in keys), 'role': g['role'], 'tr': g['tr'], 'sign': keys[0]}
                 if len(keys) > 1:
                     ng['keys'] = keys
+                if 'val' in g:                         # a logogram's in-language value: drives signs | sounds | words
+                    ng['val'] = g['val']
                 for f in ('nl', 'damaged'):
                     if g.get(f):
                         ng[f] = g[f]
@@ -152,5 +151,8 @@ def validate(p, story):
             for m in w['morph']:
                 if not m['gloss']:
                     errs.append(f'unit {k} word {j}: lemma {m["lemma"]!r} has no gloss')
+            for g in w['glyphs']:
+                if g['role'] == 'log' and g.get('sign') != 'DAMAGED' and 'val' not in g:
+                    warns.append(f'unit {k} word {j}: logogram {g["tr"]} has no val (its Luwian value; the pilot gives one wherever it is known)')
     e2, w2 = R.words_checks(story, S)
     return errs + e2, warns + w2

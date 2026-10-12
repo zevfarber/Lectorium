@@ -103,6 +103,10 @@ def glyph_checks(story, S):
             for m in w['morph']:
                 if not m['gloss']:
                     errs.append(f'unit {k} word {j}: lemma {m["lemma"]!r} has no gloss')
-        if not isinstance(s.get('ln'), int):
+        if 'ln' in s and not isinstance(s['ln'], int):
             errs.append(f'unit {k}: ln must be an integer')
+        if story.get('numbering') == 'line' and not isinstance(s.get('ln'), int):
+            errs.append(f'unit {k}: needs ln (the line number)')
+        if story.get('numbering') == 'clause' and s.get('p') and not isinstance(s.get('ln'), int):
+            errs.append(f'unit {k}: the first unit of a law needs ln (the law number)')
     return errs, warns

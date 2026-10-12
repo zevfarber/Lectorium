@@ -28,7 +28,9 @@ COR have no verifiable sign → the ▢ placeholder (DAMAGED) with a note; `x` a
 ## Script model (as the pilot)
 Roles: `phon` syllabogram; `log` logogram (Latin caps); `det` determinative (in parentheses in ACLT; ^I = the
 personal-name marker A383A; LITUUS A378 before Azatiwada's name); `comp` phonetic complement (ACLT does not
-mark it — the drafter decides, as the pilot did: logogram + syllabic ending). A ligature or compound (wa/i+ra/i,
+mark it — the drafter decides, as the pilot did: logogram + syllabic ending). Every logogram whose Luwian value is
+known carries `val` (as in the pilot: CAPUT → ziti, TONITRUS → Tarhu): it drives the reader's signs | sounds |
+words toggle. A ligature or compound (wa/i+ra/i,
 OMNIS.MI, PES₂.PES₂) is ONE glyph with several keys. Word dividers and sign reversals are not reproduced;
 ACLT's logogram quotation marks “ ” are dropped, as in the pilot. Lost signs: the DAMAGED placeholder ▢ (sign key
 `DAMAGED`), tr "[…]" or the corpus's restored value with "?"; partly damaged signs keep their key and the note
@@ -55,8 +57,9 @@ Iron Age Luwian values (z = ts, h = a rasped kh). `langCode: null`. No voice cho
 - Parts: §22–§37 (the conquests and the safe roads, with the spindle clause), §38–§58 (the city and its god;
   the damaged and missing clauses), §59–§75 (the curses).
 - §42, §43, §46 (absent in both copies) are gap units with `"absent": true`, like the pilot's §17.
-- New parts use the verified keys. The pilot uses keys N4282 does not support for SUPER (A270 → A070, §8–10),
+- New parts use the verified keys; the 38 new signs they need were added to signs-anatolian.json (and the
+  reader's embedded copy) at setup. The pilot uses keys N4282 does not support for SUPER (A270 → A070, §8–10),
   tu (A088 → A089, §20) and INFRA (A056 → A057, §21); the first Azatiwada firing corrects those five glyphs in
-  `azatiwada-luwian.json` (keys and characters, after adding the signs with signs.py) and logs it. The pilot's
+  `azatiwada-luwian.json` (keys and characters) and logs it. The pilot's
   §17 note ("survives only in the other copy") is not supported by ACLT; the same firing rewords it to say the
   clause is not preserved in either copy as the corpus gives them.

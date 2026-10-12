@@ -149,11 +149,7 @@ def forms_of_text(txt):
 
 
 def published_glossary():
-    g = {}
-    for f in sorted(glob.glob(os.path.join(R.ROOT, 'kebra-nagast-*.json'))):
-        d = R.jload(f)
-        g.update(d.get('glossary', {}))
-    return g
+    return R.merged_inline_glossary('kebra-nagast')
 
 
 def forms(p):
@@ -234,7 +230,7 @@ def assemble(p, units, gloss):
         sents.append(s)
     used = {w for s in sents for w in split_words(s['t'])}
     story = dict(cfg['header'])
-    story.update({'id': p['id'], 'title': units.get('title') or cfg['titleBase'],
+    story.update({'id': p['id'], 'title': units.get('title') or cfg['titleBase'], 'draftNote': cfg['draftNote'],
                   'titleEn': units['titleEn'], 'work': cfg['header'].get('work'), 'part': units['part'],
                   'source': cfg['sourceStatement'].replace('{cite}', p['cite']),
                   'about': units.get('about', ''), 'sentences': sents,

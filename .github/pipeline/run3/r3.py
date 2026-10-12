@@ -10,6 +10,8 @@
     python3 r3.py build   <work> <id>      drafts/<id>/units.json (+ gloss.json) -> the story file, glossary, manifest
     python3 r3.py validate <work> <id>     must print PASS
     python3 r3.py publish <work> <id>      status published, plan.md, claim released
+    python3 r3.py block   <work> <id> "<reason>"   a part that cannot be done unattended: status blocked
+                                           (skipped by `next`), reason in QUESTIONS.md, claim released
     python3 r3.py done    <work>           last part published -> DONE marker + LOG line
     python3 r3.py plan    <work>
 Every command refuses, changing nothing, when something is wrong.
@@ -36,11 +38,16 @@ def cmd_next():
             continue
         p, action = R.next_part(w)
         if p is None:
-            unpublished = [q['id'] for q in R.parts_doc(w)['parts'] if q.get('status') != 'published']
-            if unpublished:
-                print(f'WORK {w}\nBUSY every unpublished part is under a live claim: {", ".join(unpublished)} — stop')
-            else:
-                print(f'WORK {w}\nCOMPLETE run: python3 r3.py done {w}')
+            parts = R.parts_doc(w)['parts']
+            blocked = [q['id'] for q in parts if q.get('status') == 'blocked']
+            claimed = [q['id'] for q in parts if q.get('status') not in ('published', 'blocked')]
+            if claimed:
+                print(f'WORK {w}\nBUSY every remaining part is under a live claim: {", ".join(claimed)} — stop')
+                return
+            if blocked:
+                print(f'SKIP {w}: only blocked parts are left ({", ".join(blocked)}) — see its QUESTIONS.md; going on')
+                continue
+            print(f'WORK {w}\nCOMPLETE run: python3 ../run3/r3.py done {w}')
             return
         print(f'WORK {w}\nPART {p["id"]}\nACTION {action}\nNAME {p.get("name", "")}')
         return
@@ -171,7 +178,38 @@ def cmd_validate(work, pid):
     sys.exit(0 if not errs else 1)
 
 
+def cmd_block(work, pid, *reason):
+    doc = R.parts_doc(work)
+    p = next((q for q in doc['parts'] if q['id'] == pid), None)
+    if p is None:
+        R.die(pid, 'is not in parts.json')
+    p['status'] = 'blocked'
+    p['blocked'] = ' '.join(reason) or 'see QUESTIONS.md'
+    R.save_parts(work, doc)
+    with open(os.path.join(R.PIPE, work, 'QUESTIONS.md'), 'a', encoding='utf-8') as f:
+        f.write(f'- {time.strftime("%Y-%m-%d")} · {pid} · BLOCKED: {p["blocked"]} · Decided meanwhile: the part is skipped '
+                f'by later firings; the owner (or a session with him) resolves it and sets its status back to todo.\n')
+    cmd_plan(work)
+    cmd_release(work, pid)
+    print('BLOCKED', pid)
+
+
 def cmd_publish(work, pid):
+    H = R.hooks(work)
+    cfg = R.work_cfg(work)
+    q = R.part(work, pid)
+    sp = os.path.join(R.ROOT, q['file'])
+    if not os.path.exists(sp):
+        R.die('not built yet')
+    story = R.jload(sp)
+    errs, _ = R.common_checks(story, q, cfg)
+    errs += H.validate(q, story)[0]
+    if not any(e.get('id') == pid for e in R.jload(os.path.join(R.ROOT, 'stories.json'))['stories']):
+        errs.append('no manifest entry')
+    if errs:
+        for e in errs[:20]:
+            print('  ERROR', e)
+        R.die('the part does not validate; not published')
     doc = R.parts_doc(work)
     p = next(q for q in doc['parts'] if q['id'] == pid)
     p['status'] = 'published'

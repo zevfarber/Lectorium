@@ -57,6 +57,8 @@ def slice_source(p):
 
 # ------------------------------------------------------------------ establishment (gap parts)
 def establish_packet(p):
+    if p['kind'] != 'gap':
+        R.die(p['id'], 'is a stele part: its text is already pinned (Harper); nothing to establish')
     w = os.path.join(HERE, 'source', 'witnesses')
     return f"""# Establish — {p['id']}: {p['name']}
 
@@ -167,16 +169,15 @@ def packet(p):
 def assemble(p, units, gloss):
     cfg = R.work_cfg('hammurabi')
     S = C.signs()
-    G = {}
-    for f in sorted(os.listdir(R.ROOT)):
-        if f.startswith('hammurabi-') and f.endswith('.json'):
-            G.update(R.jload(os.path.join(R.ROOT, f)).get('glossary', {}))
+    G = R.merged_inline_glossary('hammurabi')
     G.update({k: v for k, v in gloss.items() if v and k != '__broaden__'})
     G.update(gloss.get('__broaden__', {}))
     sents, problems = [], []
     for k, u in enumerate(units['sentences']):
         words = C.fill_words(u, S, G, k, problems)
-        s = {'t': C.build_t(words), 'l': u['l'], 'ln': u['ln'], 'words': words}
+        s = {'t': C.build_t(words), 'l': u['l'], 'words': words}
+        if 'ln' in u:                                  # the first unit of each law (or every epilogue unit)
+            s['ln'] = u['ln']
         for f in ('i', 'n', 'p'):
             if u.get(f):
                 s[f] = u[f]
@@ -202,26 +203,27 @@ def assemble(p, units, gloss):
 def validate(p, story):
     errs, warns = list(story.pop('_problems', [])), []
     sents = story['sentences']
-    # line coverage
-    got = []
+    # line coverage: units take the part's stele lines in order; a unit may run on into the next column
+    want = [(l['col'], l['ln']) for l in stele_lines(p)] if p['kind'] == 'stele' else []
+    got, pos = [], 0
     for k, s in enumerate(sents):
-        col, line = s.get('col'), s.get('line')
         n = s['t'].count('\n') + 1 if s['t'] else 0
         if p['kind'] == 'stele':
+            col, line = s.get('col'), s.get('line')
             if col is None or line is None:
                 errs.append(f'unit {k}: needs col and line (its first stele line)')
                 continue
-            got += [(col, line + i) for i in range(n)]
+            if pos < len(want) and (col, line) != want[pos]:
+                errs.append(f'unit {k}: starts at {col} {line}, but the next stele line is {want[pos][0]} {want[pos][1]}')
+            got += want[pos:pos + n]
+            pos += n
         if p['kind'] == 'gap' and not (s.get('w') and s.get('ref')):
             errs.append(f'unit {k}: a gap unit must name its witness ("w") and its place on that tablet ("ref")')
         if p['kind'] == 'gap' and s.get('w') and s['w'] not in (s.get('n') or ''):
-            errs.append(f'unit {k}: its note must name the tablet it comes from ({s["w"]})')
+            errs.append(f'unit {k}: its note must contain the witness siglum exactly as written in "w" ({s["w"]})')
     if p['kind'] == 'stele':
-        want = [(l['col'], l['ln']) for l in stele_lines(p)]
-        if got != want:
-            i = next((k for k in range(min(len(got), len(want))) if got[k] != want[k]), min(len(got), len(want)))
-            errs.append(f'units cover {len(got)} stele lines, the part has {len(want)}; first mismatch at position {i}: '
-                        f'units {got[i] if i < len(got) else None} vs Harper {want[i] if i < len(want) else None}')
+        if pos != len(want):
+            errs.append(f'units cover {pos} stele lines, the part has {len(want)}')
         else:
             report, bad = [], 0
             flat = [x for s in sents for x in C.lines_tr(s)]
@@ -259,4 +261,16 @@ def validate(p, story):
         missing = [r for r in want if r not in have]
         if missing:
             errs.append(f'established passages not drafted: {missing[:8]}')
+        est = {u['ref']: u.get('lines', []) for law in d['laws'] for u in law['units'] if not u.get('lost')}
+        drafted = {}
+        for s in sents:
+            if s.get('ref') in est:
+                drafted.setdefault(s['ref'], []).extend(C.lines_tr(s))
+        for ref, lines in drafted.items():
+            if len(lines) != len(est[ref]):
+                errs.append(f'{ref}: {len(lines)} written lines drafted, the established text has {len(est[ref])}')
+                continue
+            for ours, theirs in zip(lines, est[ref]):
+                if C.ratio(ours, theirs) < 0.7:
+                    warns.append(f'{ref}: ours {ours!r} vs established {theirs!r} — confirm on the autograph')
     return errs, warns

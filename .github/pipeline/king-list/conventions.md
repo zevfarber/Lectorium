@@ -10,7 +10,7 @@ are general to cuneiform, and the published pilot `king-list-antediluvian.json` 
   with Langdon's restorations, damage and footnote remarks per line); page images in `source/pages/`
   (transliteration pp. 8–21 = langdon1923_0013–0026.jpg; Plates I–IV = langdon1923_0042–0045.jpg).
 - PD aids: Prince, *Materials for a Sumerian Lexicon* (1908); Delitzsch, *Sumerisches Glossar* (1914); Deimel's
-  sign list. Modern editions (ETCSL, Jacobsen 1939, MZL) may be consulted silently for sign identity only.
+  sign list. Modern sign lists (Borger's MZL, Labat) may be consulted silently to identify a sign on the plate — sign pages only, never an edition's translation or running text.
 - Readings are 1923-vintage: keep Langdon's reading as the base, flag the modern understanding in the note.
 
 ## Data model (as the pilot; see also ../hammurabi/conventions.md for the glyph contract)
@@ -24,7 +24,7 @@ Langdon's accents are NOT converted by arithmetic: map each value by its sign (h
 
 ## Lines and damage
 - Langdon's restorations [ ] are kept in `reading` (brackets) and their glyphs shipped; the note says what is
-  restored. A wholly lost line is a gap unit `{"lost": true, …}` with one LACUNA glyph (add once with signs.py:
+  restored. A wholly lost line is a gap unit `{"lost": true, …}` with one LACUNA glyph (if it is not already in signs-cuneiform.json, add it once with signs.py:
   `add cuneiform LACUNA 'WHITE SQUARE WITH ROUNDED CORNERS' '{"name": "a lost stretch of text", "type": "marker",
   "sound": null, "determines": null, "values": [], "label": "[…]"}'`). Col. V 1–10 is one lost entry.
 - Langdon's printed misprints (IV 6 mam-lugal-bi; V 21, VII 24 ka-an-sīg; VII 14 bagín; V 16 -šú-ba-gín): the

@@ -27,7 +27,9 @@ for). Writes `drafts/<id>/units.json`:
    ]}]}
 ```
 A multi-sign Sumerogram carries the whole Akkadian value on its first glyph and `"val": ""` on the others
-(as `AGA₃.ÚS` = rēdûm in hammurabi-laws-26-41). `p: true` on the first unit of each law. The epilogue parts use `ln` = the stele line and no `p` except at a
+(as `AGA₃.ÚS` = rēdûm in hammurabi-laws-26-41). `p: true` and `ln` (the law number) on the FIRST unit of each
+law only — a long law's later units carry neither, as in the published parts. `col`/`line` on every unit: its
+first stele line; units take the stele lines in order, and a unit may run on into the next column. The epilogue parts use `ln` = the stele line and no `p` except at a
 new paragraph of sense. `title`/`titleRead` are made by the build from the first two words.
 
 **Glosser** gets `units.json`, the list of lemmas used that are not in an earlier part's glossary (compute it
@@ -44,9 +46,11 @@ confirm each on the plate, they are mostly logograms Harper writes as the Akkadi
 First firing: ACTION establish — follow `drafts/<id>/establish.md` (written by `R3 establish-packet`).
 It establishes the WHOLE erased section into `source/established/hammurabi-gap-a.json` and `-gap-b.json`
 and pins both. Drafting firings then work as for the stele, with these differences: each unit carries
-`"w": "<siglum>"` and `"ref": "<the established unit's ref>"` instead of col/line, its note names the tablet
-in plain words, a lost stretch is a gap unit (one word `{"reading": "[…]", "say": "…", "glyphs": [{"sign":
-"LACUNA", ...}]}` — add the LACUNA pseudo-sign once with signs.py: `add cuneiform LACUNA 'WHITE SQUARE WITH
+`"w": "<siglum>"` and `"ref": "<the established unit's ref>"` instead of col/line (and `ln` = Ungnad's law number
+on the first unit of each law), its note names the tablet in plain words AND contains the siglum exactly as
+written in `w` (the validator checks it), a unit's written lines match the established lines of its ref one for
+one, a lost stretch is a gap unit (one word `{"reading": "[…]", "say": "…", "glyphs": [{"sign":
+"LACUNA", ...}]}` — if signs-cuneiform.json has no LACUNA key yet, add the pseudo-sign once with signs.py: `add cuneiform LACUNA 'WHITE SQUARE WITH
 ROUNDED CORNERS' '{"name": "a lost stretch of text", "type": "marker", "sound": null, "determines": null,
 "values": [], "label": "[…]"}'`), and the `about` says the stele is erased here.
 

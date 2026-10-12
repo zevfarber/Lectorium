@@ -97,6 +97,8 @@ def assemble(p, units, gloss):
     for k, u in enumerate(units['sentences']):
         n = len(u.get('words', []))
         ws = words[pos:pos + n]
+        if not u.get('t'):
+            u['t'] = '(missing t)'
         built = []
         for src, du in zip(ws, u.get('words', [])):
             han = strip_fvs(src['han'])
@@ -119,7 +121,7 @@ def assemble(p, units, gloss):
                   'titleEn': units['titleEn'], 'part': units['part'],
                   'glossaryFile': 'secret-history-glossary.json',
                   'source': cfg['sourceStatement'].replace('{cite}', f'§§{p["from"]}–{p["to"]}'),
-                  'about': units.get('about', ''), 'provisional': True,
+                  'about': units.get('about') or cfg['aboutDefault'], 'provisional': True,
                   'draftNote': cfg.get('draftNote', ''), 'sentences': sents})
     for k in ('about', 'draftNote'):
         if not story[k]:

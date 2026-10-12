@@ -16,6 +16,8 @@ Run every command from the work's folder, `.github/pipeline/<work>/`; `R3` below
 - `WORK <w>` + `COMPLETE` — every part of <w> is published: run `R3 done <w>`, commit and push the DONE
   marker and the LOG line, and stop. The next firing moves to the next work by itself.
 - `WORK <w>` + `BUSY` — another firing holds a live claim on every remaining part: stop.
+- `SKIP <w>` lines — a work whose only remaining parts are blocked is passed over (its blocked parts wait for the
+  owner); the answer that follows is this firing's job.
 - `WORK <w>`, `PART <id>`, `ACTION establish|draft` — this firing's job. Read `<w>/conventions.md` and
   `<w>/runbook.md` now.
 
@@ -30,8 +32,8 @@ Follow it — the page image is the authority for every letter. Write the establ
 (lines corrected, readings unsure), release the claim (`R3 release <w> <id>`), commit everything, push, stop.
 
 ## 1b. ACTION draft
-`R3 packet <w> <id>` — refuses if the pinned source no longer matches the sha256 in `parts.json` (write what
-you found to QUESTIONS.md, release the claim, stop). It writes `drafts/<id>/packet.md` and, for most
+`R3 packet <w> <id>` — refuses if the pinned source no longer matches the sha256 in `parts.json` (follow
+"If something is wrong" below). It writes `drafts/<id>/packet.md` and, for most
 works, `novel-forms.json` / `known-forms.json`.
 
 ## 2. Draft — three roles, each a separate subagent with only the files named
@@ -68,10 +70,10 @@ For cuneiform and Luwian works a sign missing from the shared sign glossary is a
 in `index.html` / `reader.html` — the only change a run may make to those two files). `python3
 ../run3/signs.py check` must print "in sync" before you commit.
 If the build or the validator cannot be satisfied: `git checkout -- .` from the repository root (and remove
-any new untracked story file), write the problem to QUESTIONS.md, release the claim, stop.
+any new untracked story file), then follow "If something is wrong" below.
 
 ## 4. Publish
-`R3 publish <w> <id>` (status published, plan.md, claim released). Append one line to `LOG.md` (date, part,
+`R3 publish <w> <id>` (re-validates; status published, plan.md, claim released). Append one line to `LOG.md` (date, part,
 cite, units, new glossary forms, review findings by severity, anything notable). Copy any new house
 renderings into conventions.md. Commit everything — the story file, the glossary, `stories.json`,
 `drafts/<id>/`, the pipeline records (and the sign glossary + index.html + reader.html if signs.py added
@@ -83,7 +85,14 @@ language has a settled voice (Akkadian does; see `run3/README.md`), within the $
 build or edit audio.
 
 ## If something is wrong that you cannot fix
-Write it to QUESTIONS.md (what, where, what you decided or why you stopped), release the claim, and stop.
+Nothing survives a firing unless it is pushed. So:
+- a problem only this firing hit (a tool failed, the work ran out of time, a draft would not validate but could
+  next time): write it to QUESTIONS.md (what, where, what you decided or why you stopped), release the claim
+  (`R3 release <w> <id>`), commit QUESTIONS.md, LOG.md and the claim removal, push, stop;
+- a problem the next firing would hit again (the pinned source is wrong, a page is unreadable, a sign has no
+  Unicode character, the conventions do not say what to do): `R3 block <w> <id> "<one-line reason>"` — it marks
+  the part blocked so later firings go on to the next part, writes the reason to QUESTIONS.md and releases the
+  claim — then add the detail to QUESTIONS.md, commit, push, stop.
 A run that publishes nothing and says why is a good run; a run that publishes a part it is unsure of is not.
 Never send email, never use Google Drive, never create, change or disable a routine. Never touch another
 work's files, `queue.txt`, or anything outside `.github/pipeline/<w>/`, the work's story and glossary files,

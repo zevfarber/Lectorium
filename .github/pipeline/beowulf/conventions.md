@@ -85,3 +85,6 @@ carrier and its limits. Do not edit it by hand in a part; change it in `beowulf_
 | meþelwordum / maþelode | speech-words (`l`) | asked in formal words (`i`) | beowulf-fitt-03 line 236 |
 | Weard maþelode (verb; same row) | spoke in speech-words (`l`) | spoke in formal words (`i`) | beowulf-fitt-04 line 286 |
 | Fæder alwalda | Father all-ruler (`l`) | the Father, ruler of all (`i`) | beowulf-fitt-04 line 316 |
+| mānscaða | crime-scather (`l`) | wicked marauder (`i`) | beowulf-fitt-11 line 712 |
+| fyrena hyrde | keeper of crimes (`l`) | keeper of wickedness (`i`) | beowulf-fitt-11 line 750 |
+| Godes andsacan | God's adversary (`l`) | God's enemy (`i`) | beowulf-fitt-11 line 786 |

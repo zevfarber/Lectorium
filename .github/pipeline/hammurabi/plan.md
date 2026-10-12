@@ -6,8 +6,8 @@
 |---|---|---|---|
 | hammurabi-laws-42-51 | Field and tenant | Col. xii 63 – xiv 66 | published |
 | hammurabi-laws-52-65 | Crops, debts and the date-orchard | Col. xv 1 – xvi 77 | published |
-| hammurabi-gap-a | The erased columns I — houses and neighbours (from the duplicate tablets) | the section chiselled off the stele (after §65), from duplicate tablets | todo |
-| hammurabi-gap-b | The erased columns II — merchants and loans (from the Nippur tablet) | the section chiselled off the stele (before §100), from the Nippur tablet | todo |
+| hammurabi-gap-a | The erased columns I — houses and neighbours (from the duplicate tablets) | the section chiselled off the stele (after §65), from duplicate tablets | established |
+| hammurabi-gap-b | The erased columns II — merchants and loans (from the Nippur tablet) | the section chiselled off the stele (before §100), from the Nippur tablet | established |
 | hammurabi-laws-100-111 | Merchant and agent; the tavern-keeper | Col. xvii 1 – xviii 49 | todo |
 | hammurabi-laws-112-126 | Carriage, debt-hostages and deposits | Col. xviii 50 – xxi 24 | todo |
 | hammurabi-laws-127-140 | Slander, marriage, adultery and divorce | Col. xxi 25 – xxiii 32 | todo |

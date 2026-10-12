@@ -1,0 +1,254 @@
+{
+ "witnesses": {
+  "Susa-I": "Scheil's Fragment I from Susa (Old Babylonian duplicate of the code, Délégation en Perse X, p. 81 ff.), as transliterated in Kohler & Ungnad, Hammurabi's Gesetz II (1909) pp. 33–35; signs in Ungnad, Keilschrifttexte der Gesetze Hammurapis (1909)",
+  "Susa-II": "Scheil's Fragment II from Susa (Old Babylonian duplicate, Délégation en Perse X, p. 83), col. I, as in Kohler & Ungnad II pp. 35–36",
+  "Rm277": "Kuyunjik tablet Rm. 277 (Assyrian copy of the code), cols. I and III, as in Kohler & Ungnad II pp. 33–35",
+  "DT81": "Kuyunjik tablet DT 81 (Assyrian copy of the code), col. II and col. III, as in Kohler & Ungnad II pp. 35–36"
+ },
+ "notation": "Notation: Kohler–Ungnad 1909 / Cuq 1918 syllabic transliteration, q for their ḳ, plain š/ṣ/ṭ/ḫ. [ ] = broken or restored by the editor and NOT adopted as signs (the drafter reads the autograph/plate); (?) = the editor's doubt; ⟨ ⟩ = signs of that line taken from a different tablet than the line's witness (the Assyrian copy named in the unit's note), as Kohler–Ungnad print them in italics; ga = the GA sign read qa.",
+ "laws": [
+  {
+   "law": 66,
+   "approx": false,
+   "units": [
+    {
+     "w": "Susa-I",
+     "ref": "Susa-I col. II = stele col. XVII 2–24 (the old-Babylonian copy; Kohler–Ungnad p. 34)",
+     "lines": [
+      "šum-ma a-wi-lum",
+      "kaspam it-ti tamkarim il-ki-ma",
+      "tamkar-šu",
+      "i-si-ir-šu-ma",
+      "mi-im-ma ša na-da-nim",
+      "la i-ba-aš-ši-šum",
+      "kirâ-šu iš-tu tar-ki-ib-tim",
+      "a-na tamkarim",
+      "id-di-in-ma",
+      "suluppî ma-la i-na kirîm",
+      "ib-ba-aš-šu-u",
+      "a-na kaspi-ka",
+      "ta-ba-al ik-bi-šum",
+      "tamkarum šu-u",
+      "u-ul im-ma-gar",
+      "suluppî ša i-na kirîm",
+      "ib-ba-aš-šu-u",
+      "be-el kirîm-ma",
+      "i-li-ki-ma",
+      "kaspam u ṣibat-zu",
+      "ša pi tup-pi-šu",
+      "tamkaram i-ip-pa-al-ma",
+      "suluppî wa-at-ru-tim"
+     ],
+     "lost": false
+    },
+    {
+     "w": "Rm277",
+     "ref": "Rm. 277 col. I = stele col. XVII 25–28 (Assyrian copy; the Susa tablet is broken here; Kohler–Ungnad p. 34, italic)",
+     "lines": [
+      "ša i-na kirîm",
+      "ib-ba-aš-šu-u",
+      "be-el kirîm-ma",
+      "i-l[i-ki]"
+     ],
+     "lost": false
+    }
+   ]
+  },
+  {
+   "law": 67,
+   "approx": false,
+   "units": [
+    {
+     "w": "Rm277",
+     "ref": "Rm. 277 col. I = stele col. XVII 29–32 (only the opening of the law survives; Kohler–Ungnad p. 34, italic)",
+     "lines": [
+      "šum-ma a-[wi-lum]",
+      "bîtam i-ip[-pi-eš-ma]",
+      "te-ḫu-šu [. . . . . .]",
+      "ša [. . . . . . . . .]"
+     ],
+     "lost": false
+    },
+    {
+     "w": "Susa-I",
+     "ref": "Susa-I col. II end / col. III: the rest of this law and the laws up to XVIII 3 (Ungnad: 'Hier einzuschieben Col. III von Fragment I, ergänzt durch Col. II von DT 81') — not given by Kohler–Ungnad",
+     "lines": [],
+     "lost": true
+    }
+   ]
+  },
+  {
+   "law": 70,
+   "approx": true,
+   "units": [
+    {
+     "w": "Susa-I",
+     "ref": "Susa-I col. III = stele col. XVIII 3 (only the end of one line: [. . i-na]-di-[iš]-šum 'they will give him'; Kohler–Ungnad p. 34, 'cca. 70')",
+     "lines": [
+      "[. . i-na]-di-[iš]-šum"
+     ],
+     "lost": false
+    }
+   ]
+  },
+  {
+   "law": 71,
+   "approx": true,
+   "units": [
+    {
+     "w": "Susa-I",
+     "ref": "Susa-I col. III, completed from DT 81 col. II = stele col. XVIII 4–17 (⟨ ⟩ = DT 81; Kohler–Ungnad p. 35, 'cca. 71')",
+     "lines": [
+      "šum-ma še'am kaspam u bi-ša-am",
+      "a-na bît il-ki-im",
+      "ša bît i-te-⟨šu⟩",
+      "ša i-ša-am-⟨mu⟩",
+      "i-na-ad-di-⟨in⟩",
+      "i-na ⟨mi-im-ma⟩",
+      "ša id-⟨di-nu⟩",
+      "i-te-⟨el-li⟩",
+      "bîtum a-na [be-li]-⟨šu i-ta-ar⟩",
+      "šum-ma ⟨bîtum šu-u⟩",
+      "il-kam ⟨la i-šu⟩",
+      "⟨i-ša-am⟩",
+      "a-na bî⟨tim⟩ šu-a-ti",
+      "še'am kaspam u bi-⟨ša-am⟩ i-na-ad-di-[in]"
+     ],
+     "lost": false
+    }
+   ]
+  },
+  {
+   "law": 72,
+   "approx": true,
+   "units": [
+    {
+     "w": "Susa-I",
+     "ref": "Susa-I col. III = stele col. XVIII 18–24 (broken; Kohler–Ungnad p. 35, 'cca. 72'; the restorations in his right-hand column are conjectural)",
+     "lines": [
+      "šum-ma a-wi-[lum]",
+      "ni-[. . . . . . . .]",
+      "ba-lum i-[te-šu(?)] i-te-[pu-uš](?)",
+      "i-na bît [ra-ma-ni-šu(?)]",
+      "i-te-[ip-pu-uš]",
+      "a-na [bît i-te-šu](?)",
+      "[u-ul . . . . . . . .]"
+     ],
+     "lost": false
+    },
+    {
+     "w": "Susa-I",
+     "ref": "stele col. XVIII 25–34 (about ten lines between §cca. 72 and §cca. 73: not given by Kohler–Ungnad — 'kleine Lücke')",
+     "lines": [],
+     "lost": true
+    }
+   ]
+  },
+  {
+   "law": 73,
+   "approx": true,
+   "units": [
+    {
+     "w": "Rm277",
+     "ref": "Rm. 277 col. III = stele col. XVIII 35–40 (Assyrian copy; italic in Kohler–Ungnad p. 35, 'cca. 73'; the law is only a few word-beginnings)",
+     "lines": [
+      "na[. . . . . . .]",
+      "be-el [bîtim . . . .]",
+      "šum-ma bi-[. . . .]",
+      "be-el [bîtim]",
+      "mi-im-ma [ša . . .]",
+      "i-r[i-a-ab]"
+     ],
+     "lost": false
+    }
+   ]
+  },
+  {
+   "law": 74,
+   "approx": true,
+   "units": [
+    {
+     "w": "Rm277",
+     "ref": "Rm. 277 col. III = stele col. XVIII 41–42 (two broken line-beginnings; Kohler–Ungnad p. 35, 'cca. 74')",
+     "lines": [
+      "šum-ma [. . . .]",
+      "u-[. . . . . . .]"
+     ],
+     "lost": false
+    },
+    {
+     "w": "Susa-I",
+     "ref": "stele col. XVIII 43–49 (a gap before Fragment II; Kohler–Ungnad: 'Es folgt eine Lücke')",
+     "lines": [],
+     "lost": true
+    }
+   ]
+  },
+  {
+   "law": 76,
+   "approx": true,
+   "units": [
+    {
+     "w": "Susa-II",
+     "ref": "Susa-II col. I = stele col. XVIII 50–63 (Scheil's Fragment II; Kohler–Ungnad p. 35–36, 'cca. 76'; speech: '… you have crossed over … from your house … to the owner of the field')",
+     "lines": [
+      "[. . . . . . . .]",
+      "na-ba-al-ka-at(?)-ka",
+      "da(?)-ni-in",
+      "iš(?)-tu bi-ti-ka",
+      "uš(?)-ba-la-ka-tu-nim",
+      "[a]-na be-e[l ni]-di-tim",
+      "[n]i-di-it-ka e-pu-uš",
+      "[iš-t]u ni-di-ti-ka",
+      "[bi(?)]-ti i-pa-al-la-šu-nim",
+      "[. . .]-am",
+      "[. . .]-am iš-ku-un",
+      "[. .] i-na na-ba-[al-]ka-tim",
+      "[. . . . .]-kum",
+      "[kasp]am(?)"
+     ],
+     "lost": false
+    }
+   ]
+  },
+  {
+   "law": 78,
+   "approx": true,
+   "units": [
+    {
+     "w": "DT81",
+     "ref": "DT 81 col. III = stele col. XIX 25–42 (Assyrian copy, entirely restored in italics by Kohler–Ungnad p. 36, 'cca. 78' — the Old Babylonian copy is lost here; he cautions that the restorations are partly doubtful)",
+     "lines": [
+      "a-wi-lum aš-bu-u[m]",
+      "kasap kiṣri-[šu]",
+      "ga-am-ra-[am]",
+      "ša ša-na-[at]",
+      "a-na be-el [bîtim]",
+      "id-di-[in-ma]",
+      "be-el bîtim a-na wa-[aš-ša-bi-im]",
+      "i-na ûmi-šu",
+      "la ma-lu-tim wa-ṣ[a-am]",
+      "ik-ta-[bi]",
+      "be-el bîtim a[š-šum]",
+      "wa-aš-ša-[ba-am]",
+      "i-na ûmi-[šu]",
+      "la ma-lu-[tim]",
+      "i-na bîti-šu u-[še-ṣu-u]",
+      "i-na kaspim ša wa-aš-ša[-bu-um]",
+      "id-di-[nu-šum]",
+      "[i-te-el-li]"
+     ],
+     "lost": false
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "The whole of stele cols. XVII 33 – XXIII (about seven columns in all, ≈ §§ 67–99): the stele is erased here and Kohler–Ungnad's duplicates cover only the stretches printed above.",
+  "Stele col. XVIII 3, 25–34, 43–49: lines between the surviving pieces; not given in the edition.",
+  "Between §cca. 74 and §cca. 76 and between §cca. 76 and §cca. 78 (Ungnad: 'Es folgt eine Lücke' / 'Nach einer Lücke folgt Col. III von DT 81'): lost; no law numbers are assigned. §75 and §77 are therefore not represented.",
+  "Susa Fragment II, col. II: only a few line-beginnings survive (bît[ . . . ], i[ . . . ], a[ . . . ], kaspum[ . . . ], ga[ . . . ], ša(?)[ . . . ]) — too little to form a unit.",
+  "K 8321 (Meissner, Beiträge zur Assyriologie III 521): a fragment of doubtful place (words as ù tar-ru[…], ANŠU.EDIN.NA = parûm, muzaîrum…, tamkarum, alpum…) — not placed, not used.",
+  "Line numbers and the order of the pieces are Ungnad's; the 'cca.' law numbers are his approximations."
+ ]
+}

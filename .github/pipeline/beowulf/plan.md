@@ -1,6 +1,6 @@
 # Beowulf — plan
 
-8 of 44 parts published. One part per fitt, as Klaeber numbers them.
+9 of 44 parts published. One part per fitt, as Klaeber numbers them.
 
 | part | fitt | lines | status |
 |---|---|---|---|
@@ -12,7 +12,7 @@
 | beowulf-fitt-05 | V · At Heorot’s Door | 320–370 | published |
 | beowulf-fitt-06 | VI · Beowulf’s Vow | 371–455 | published |
 | beowulf-fitt-07 | VII · Hrothgar’s Welcome | 456–498 | published |
-| beowulf-fitt-08 | VIII · Unferth’s Challenge | 499–558 | todo |
+| beowulf-fitt-08 | VIII · Unferth’s Challenge | 499–558 | published |
 | beowulf-fitt-09 | IX · Sea-Monsters and the Queen’s Cup | 559–661 | todo |
 | beowulf-fitt-10 | X · The Watch in the Hall | 662–709 | todo |
 | beowulf-fitt-11 | XI · Grendel Comes to Heorot | 710–790 | todo |

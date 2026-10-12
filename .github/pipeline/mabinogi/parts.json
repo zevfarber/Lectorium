@@ -1,0 +1,332 @@
+{
+ "work": "Pedeir Keinc y Mabinogi (the Four Branches of the Mabinogi)",
+ "edition": "White Book of Rhydderch (NLW Peniarth 4, c. 1350), as printed diplomatically in J. Gwenogvryn Evans, The White Book Mabinogion (Pwllheli, 1907), cols 1–111 (Pwyll 1–38, Branwen 38–61, Manawydan 61–81, Math 81–111); scan: archive.org whitebookofmabin00evan, PDF pp. 33–88 (col c is on PDF page (c+65)//2, odd c = left column).",
+ "notes": [
+  "opening/closing are in Evans's spelling and word division, with his sorts rendered per the conventions (6→w, r-rotunda→r, dotted y→y, long s→s; raised letters written raised). They are read off the page images.",
+  "words = word count of the matching stretch of the cy.wikisource witness (Williams-shaped word division, close to ours: the pilot's 2,198 established words against 2,204 there).",
+  "disagreements: OCR (letter-normalised) vs witness, counted cmp.py-style as non-equal alignment runs inside the part; 'glyph' = known misreadings of Evans's sorts (f for long s, i/l, j for y, a/i/^ for r-rotunda, etc.), resolvable without the image; 'loss' = single letter missing/added in the OCR, glance at the image; 'check' = everything else, must be checked on the image. Worklists in drafts/<id>-diffs.txt."
+ ],
+ "parts": [
+  {
+   "id": "mabinogi-002",
+   "seq": 2,
+   "group": "First Branch: Pwyll",
+   "part": "The rider at the mound of Arberth",
+   "evans_cols": "12–19",
+   "pdf_pages": "38–42",
+   "opening": "Athreigylgueith yd oed yn arberth priflys idaw",
+   "closing": "tric yn iach achoffa gywiraw dy edewit aᶜ eymdeith yd af i.",
+   "words": 1248,
+   "disagreements": {
+    "total_cmp": 124,
+    "glyph": 97,
+    "loss": 10,
+    "check": 17
+   },
+   "issues": [
+    "Col 16, line 12 (PDF p. 40): Evans prints a blank space in the line 'Arglwyd heb [space] allu' – a White Book defect. Red Book (Rhŷs & Evans 1905): 'arglwyd heb ef nyt oes allu'. The sense requires 'nyt oes' (and the speech tag 'ef'): supply from the Red Book and say so in the note, per the conventions — decision on how much to supply (see REPORT).",
+    "Col 14 line 1 (PDF p. 39, image checked): Evans prints 'na thygyei idaw idaw / y hymlit' – a scribal dittography of idaw (the witness has one). Decision: keep as written with a note (conventions: readable slips stay), or print once."
+   ],
+   "cite": "Evans cols 12–19",
+   "name": "The rider at the mound of Arberth",
+   "file": "mabinogi-002.json",
+   "status": "todo",
+   "establish": true
+  },
+  {
+   "id": "mabinogi-003",
+   "seq": 3,
+   "group": "First Branch: Pwyll",
+   "part": "Gwawl and the bag",
+   "evans_cols": "19–27",
+   "pdf_pages": "42–46",
+   "opening": "Aguahanu awnaethont achyrchu awnaeth ef parth ae teulu ae niuer.",
+   "closing": "Ay uelly ymynny di arglwyd heb yr heueyd. uelly yrof aduw heb ypwyll.",
+   "words": 1703,
+   "disagreements": {
+    "total_cmp": 174,
+    "glyph": 144,
+    "loss": 11,
+    "check": 19
+   },
+   "issues": [],
+   "cite": "Evans cols 19–27",
+   "name": "Gwawl and the bag",
+   "file": "mabinogi-003.json",
+   "status": "todo",
+   "establish": true
+  },
+  {
+   "id": "mabinogi-004",
+   "seq": 4,
+   "group": "First Branch: Pwyll",
+   "part": "Rhiannon's lost son",
+   "evans_cols": "27–38",
+   "pdf_pages": "46–51",
+   "opening": "Wynt agerdassant trannoeth parth adyuet a llys arberth agyrchyssant",
+   "closing": "Ac yuelly y teruyna y geing hon yma or mabynnogyon.",
+   "words": 2463,
+   "disagreements": {
+    "total_cmp": 262,
+    "glyph": 207,
+    "loss": 24,
+    "check": 31
+   },
+   "issues": [],
+   "cite": "Evans cols 27–38",
+   "name": "Rhiannon's lost son",
+   "file": "mabinogi-004.json",
+   "status": "todo",
+   "establish": true
+  },
+  {
+   "id": "mabinogi-005",
+   "seq": 5,
+   "group": "Second Branch: Branwen",
+   "part": "Branwen given to Matholwch",
+   "evans_cols": "38–47",
+   "pdf_pages": "51–56",
+   "opening": "Bendigeiduran uab llyr aoed urenhin coronawc ar yr ynys hon",
+   "closing": "ac yn cadarnhau y uann y bythont o wyr ac arueu goreu awelas neb.",
+   "words": 2134,
+   "disagreements": {
+    "total_cmp": 243,
+    "glyph": 185,
+    "loss": 26,
+    "check": 32
+   },
+   "issues": [
+    "Col 38 opening: the 3-line drop capital B is not in the OCR (OCR begins 'Endigeiduran')."
+   ],
+   "cite": "Evans cols 38–47",
+   "name": "Branwen given to Matholwch",
+   "file": "mabinogi-005.json",
+   "status": "todo",
+   "establish": true
+  },
+  {
+   "id": "mabinogi-006",
+   "seq": 6,
+   "group": "Second Branch: Branwen",
+   "part": "Branwen's starling and the house in Ireland",
+   "evans_cols": "47–55",
+   "pdf_pages": "56–60",
+   "opening": "Dilit ymdidan awnaethant y nos honno tra uu da ganthunt",
+   "closing": "ac yd ystynnwyt y urenhinaeth yr mab.",
+   "words": 1691,
+   "disagreements": {
+    "total_cmp": 212,
+    "glyph": 168,
+    "loss": 17,
+    "check": 27
+   },
+   "issues": [
+    "Col 54 lines 15–16 (PDF p. 59): short line 'adaw hwnnw adodi' and a space in 'y law ar un [space] arall' – manuscript layout (scribe writing round a flaw); the witness has no extra words. Not a defect; print continuously."
+   ],
+   "cite": "Evans cols 47–55",
+   "name": "Branwen's starling and the house in Ireland",
+   "file": "mabinogi-006.json",
+   "status": "todo",
+   "establish": true
+  },
+  {
+   "id": "mabinogi-007",
+   "seq": 7,
+   "group": "Second Branch: Branwen",
+   "part": "The cauldron, the head and the seven survivors",
+   "evans_cols": "55–61",
+   "pdf_pages": "60–63",
+   "opening": "Ac yna guedy daruot y tangneued galw ouendigeiduran ymab attaw.",
+   "closing": "ac am ganyat adar riannon. ac ar yspydaut benn pedwarugeint mlyned.",
+   "words": 1414,
+   "disagreements": {
+    "total_cmp": 182,
+    "glyph": 125,
+    "loss": 27,
+    "check": 30
+   },
+   "issues": [
+    "Col 55: a space in 'kyn ny bei [space] urenhin ar' and indented short lines 'fyen na daw uy nei uab / uy chwaer attaf i' – manuscript layout, no text missing.",
+    "Col 60 line 30: short line 'un kyfnot a' – layout, no text missing."
+   ],
+   "cite": "Evans cols 55–61",
+   "name": "The cauldron, the head and the seven survivors",
+   "file": "mabinogi-007.json",
+   "status": "todo",
+   "establish": true
+  },
+  {
+   "id": "mabinogi-008",
+   "seq": 8,
+   "group": "Third Branch: Manawydan",
+   "part": "Dyfed laid waste; craftsmen in England",
+   "evans_cols": "61–68",
+   "pdf_pages": "63–66",
+   "opening": "Guedy daruot yr seithwyr a dywedyssam ni uchot cladu penn bendigeiduran",
+   "closing": "kyrchwn parth adyuet ac awn y hedrych.",
+   "words": 1510,
+   "disagreements": {
+    "total_cmp": 191,
+    "glyph": 133,
+    "loss": 27,
+    "check": 31
+   },
+   "issues": [
+    "Col 61 opening: drop capital G not in the OCR (OCR begins 'uedy')."
+   ],
+   "cite": "Evans cols 61–68",
+   "name": "Dyfed laid waste; craftsmen in England",
+   "file": "mabinogi-008.json",
+   "status": "todo",
+   "establish": true
+  },
+  {
+   "id": "mabinogi-009",
+   "seq": 9,
+   "group": "Third Branch: Manawydan",
+   "part": "The shining boar, the empty fort and the wheat",
+   "evans_cols": "68–75",
+   "pdf_pages": "66–70",
+   "opening": "Byhyt bynnac y buant ar y fford wynt adoethant y dyuet.",
+   "closing": "ac a llinin rwymaw geneu yuanec ay chadw gantaw achyrchu yllys.",
+   "words": 1572,
+   "disagreements": {
+    "total_cmp": 159,
+    "glyph": 96,
+    "loss": 24,
+    "check": 39
+   },
+   "issues": [
+    "Col 70 last line: a space in 'kyrchu [space] awnaeth hitheu' – layout."
+   ],
+   "cite": "Evans cols 68–75",
+   "name": "The shining boar, the empty fort and the wheat",
+   "file": "mabinogi-009.json",
+   "status": "todo",
+   "establish": true
+  },
+  {
+   "id": "mabinogi-010",
+   "seq": 10,
+   "group": "Third Branch: Manawydan",
+   "part": "The mouse on the gallows",
+   "evans_cols": "75–81",
+   "pdf_pages": "70–73",
+   "opening": "Dyuot yr ystauell yn yd oed kicua. agoleuhau y tan.",
+   "closing": "Ac yuelly y teruyna ygeing honn yma or mabinogy.",
+   "words": 1467,
+   "disagreements": {
+    "total_cmp": 140,
+    "glyph": 104,
+    "loss": 18,
+    "check": 18
+   },
+   "issues": [],
+   "cite": "Evans cols 75–81",
+   "name": "The mouse on the gallows",
+   "file": "mabinogi-010.json",
+   "status": "todo",
+   "establish": true
+  },
+  {
+   "id": "mabinogi-011",
+   "seq": 11,
+   "group": "Fourth Branch: Math",
+   "part": "Gwydion's swine and the death of Pryderi",
+   "evans_cols": "81–89",
+   "pdf_pages": "73–77",
+   "opening": "Math uab mathonwy oed arglwyd ar wyned.",
+   "closing": "ac eu meirch ac eu harueu can mwyaf.",
+   "words": 1733,
+   "disagreements": {
+    "total_cmp": 191,
+    "glyph": 129,
+    "loss": 24,
+    "check": 38
+   },
+   "issues": [
+    "Col 81 opening: drop capital M not in the OCR (OCR begins 'Ath')."
+   ],
+   "cite": "Evans cols 81–89",
+   "name": "Gwydion's swine and the death of Pryderi",
+   "file": "mabinogi-011.json",
+   "status": "todo",
+   "establish": true
+  },
+  {
+   "id": "mabinogi-012",
+   "seq": 12,
+   "group": "Fourth Branch: Math",
+   "part": "Goewin's wrong and the brothers' penance",
+   "evans_cols": "89–94",
+   "pdf_pages": "77–79",
+   "opening": "Gwyr gwyned a ymchweles dracheuyn yn llawen orawenus.",
+   "closing": "a hwnnw auu trydyd anuat ergyt.",
+   "words": 1142,
+   "disagreements": {
+    "total_cmp": 114,
+    "glyph": 70,
+    "loss": 20,
+    "check": 24
+   },
+   "issues": [
+    "Shortest part (1,142 words): the seam at 'Val yd oed Wydyon diwarnawt' is the tale's own, so it was kept rather than padded."
+   ],
+   "cite": "Evans cols 89–94",
+   "name": "Goewin's wrong and the brothers' penance",
+   "file": "mabinogi-012.json",
+   "status": "todo",
+   "establish": true
+  },
+  {
+   "id": "mabinogi-013",
+   "seq": 13,
+   "group": "Fourth Branch: Math",
+   "part": "Aranrhod's three destinies and the woman of flowers",
+   "evans_cols": "94–101",
+   "pdf_pages": "79–83",
+   "opening": "Val yd oed wydyon diwarnawt yny wely ac yn deffroi",
+   "closing": "A phawb a uu uodlawn idaw ac y arglwydiaeth.",
+   "words": 1700,
+   "disagreements": {
+    "total_cmp": 170,
+    "glyph": 134,
+    "loss": 16,
+    "check": 20
+   },
+   "issues": [
+    "Col 98 last line: '[attaw' is Evans's turnover of the last word of 'ac yna y gelwis ef y hut ay allu attaw' (printed below the line with a bracket), not a Red Book supplement; the extractor already joins it."
+   ],
+   "cite": "Evans cols 94–101",
+   "name": "Aranrhod's three destinies and the woman of flowers",
+   "file": "mabinogi-013.json",
+   "status": "todo",
+   "establish": true
+  },
+  {
+   "id": "mabinogi-014",
+   "seq": 14,
+   "group": "Fourth Branch: Math",
+   "part": "Blodeuedd, Gronw and the eagle on the oak",
+   "evans_cols": "101–111",
+   "pdf_pages": "83–88",
+   "opening": "Ac yna treigylgueith kyrchu awnaeth parth achaer dathyl eymwelet amath uab mathonwy.",
+   "closing": "Ac yuelly y teruyna ygeing honn or mabinogi.",
+   "words": 2281,
+   "disagreements": {
+    "total_cmp": 219,
+    "glyph": 148,
+    "loss": 25,
+    "check": 46
+   },
+   "issues": [
+    "Col 111 is a short column (16 lines) on PDF p. 88; the page has one column only, col 112 is empty."
+   ],
+   "cite": "Evans cols 101–111",
+   "name": "Blodeuedd, Gronw and the eagle on the oak",
+   "file": "mabinogi-014.json",
+   "status": "todo",
+   "establish": true
+  }
+ ]
+}

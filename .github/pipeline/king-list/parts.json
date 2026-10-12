@@ -1,0 +1,300 @@
+{
+ "work": "Sumerian King List",
+ "source": "source/langdon-translit.json",
+ "edition": "S. Langdon, Oxford Editions of Cuneiform Texts II: Historical Inscriptions, containing principally the Chronological Prism W-B. 444 (Oxford, 1923)",
+ "boundaryRule": "Each part ends with the fallen city's 'X was smitten' line and the 'kingship passed to Y' line(s); the next part opens with 'In Y, KING…' — the same seam the published prologue uses (I 41 / I 42).",
+ "parts": [
+  {
+   "id": "king-list-kish-i",
+   "seq": 2,
+   "titleEn": "Kish, the first dynasty after the Flood",
+   "dynasties": "Kish I",
+   "start": {
+    "col": "I",
+    "ln": 42
+   },
+   "end": {
+    "col": "II",
+    "ln": 46
+   },
+   "range": "I 42 – II 46",
+   "lines": 52,
+   "langdonPages": [
+    9,
+    10,
+    11
+   ],
+   "pageImages": [
+    "langdon1923_0014",
+    "langdon1923_0015",
+    "langdon1923_0016"
+   ],
+   "plates": [
+    "Pl. I"
+   ],
+   "plateImages": [
+    "langdon1923_0042"
+   ],
+   "name": "Kish, the first dynasty after the Flood",
+   "cite": "I 42 – II 46",
+   "file": "king-list-kish-i.json",
+   "status": "todo",
+   "sha256": "c0334949b816a44144e36c11b80d70c169d1c498205afb3cc8d08fc892236f8b"
+  },
+  {
+   "id": "king-list-uruk-i",
+   "seq": 3,
+   "titleEn": "Uruk and its hero-kings",
+   "dynasties": "Uruk I (Meskiaggasher … Gilgamesh … Lugalkiaga)",
+   "start": {
+    "col": "II",
+    "ln": 47
+   },
+   "end": {
+    "col": "III",
+    "ln": 38
+   },
+   "range": "II 47 – III 38",
+   "lines": 39,
+   "langdonPages": [
+    11,
+    12,
+    13
+   ],
+   "pageImages": [
+    "langdon1923_0016",
+    "langdon1923_0017",
+    "langdon1923_0018"
+   ],
+   "plates": [
+    "Pl. I",
+    "Pl. II"
+   ],
+   "plateImages": [
+    "langdon1923_0042",
+    "langdon1923_0043"
+   ],
+   "name": "Uruk and its hero-kings",
+   "cite": "II 47 – III 38",
+   "file": "king-list-uruk-i.json",
+   "status": "todo",
+   "sha256": "43a063cb0d953231ffcf0c038408429d3d6e180fdb2d3d2bf0a3a0bcf218151e"
+  },
+  {
+   "id": "king-list-ur-i-awan-kish-ii-hamazi",
+   "seq": 4,
+   "titleEn": "Ur, Awan, Kish again, Hamazi",
+   "dynasties": "Ur I · Awan · Kish II · Hamazi",
+   "start": {
+    "col": "III",
+    "ln": 39
+   },
+   "end": {
+    "col": "IV",
+    "ln": 44
+   },
+   "range": "III 39 – IV 44",
+   "lines": 51,
+   "langdonPages": [
+    13,
+    14
+   ],
+   "pageImages": [
+    "langdon1923_0018",
+    "langdon1923_0019"
+   ],
+   "plates": [
+    "Pl. II"
+   ],
+   "plateImages": [
+    "langdon1923_0043"
+   ],
+   "name": "Ur, Awan, Kish again, Hamazi",
+   "cite": "III 39 – IV 44",
+   "file": "king-list-ur-i-awan-kish-ii-hamazi.json",
+   "status": "todo",
+   "sha256": "91eaa0c0a58a8a3c6f2c4c2a442763787fd28c26249e97c8aad76c768d850555"
+  },
+  {
+   "id": "king-list-uruk-ii-to-kish-iii",
+   "seq": 5,
+   "titleEn": "Uruk, Ur, Adab, Mari, and the tavern-keeper queen",
+   "dynasties": "Uruk II · Ur II · Adab · Mari · Kish III (Kug-Bau)",
+   "start": {
+    "col": "IV",
+    "ln": 45
+   },
+   "end": {
+    "col": "V",
+    "ln": 43
+   },
+   "range": "IV 45 – V 43",
+   "lines": 47,
+   "langdonPages": [
+    14,
+    15
+   ],
+   "pageImages": [
+    "langdon1923_0019",
+    "langdon1923_0020"
+   ],
+   "plates": [
+    "Pl. II",
+    "Pl. III"
+   ],
+   "plateImages": [
+    "langdon1923_0043",
+    "langdon1923_0044"
+   ],
+   "name": "Uruk, Ur, Adab, Mari, and the tavern-keeper queen",
+   "cite": "IV 45 – V 43",
+   "file": "king-list-uruk-ii-to-kish-iii.json",
+   "status": "todo",
+   "sha256": "de8cf678f197a0fa692e726752c3fd1bd459e4893d9dedbe9fab500ba402b67d"
+  },
+  {
+   "id": "king-list-akshak-kish-iv-uruk-iii",
+   "seq": 6,
+   "titleEn": "Akshak, Kish, and Lugalzaggisi",
+   "dynasties": "Akshak · Kish IV · Uruk III",
+   "start": {
+    "col": "V",
+    "ln": 44
+   },
+   "end": {
+    "col": "VI",
+    "ln": 30
+   },
+   "range": "V 44 – VI 30",
+   "lines": 34,
+   "langdonPages": [
+    15,
+    16
+   ],
+   "pageImages": [
+    "langdon1923_0020",
+    "langdon1923_0021"
+   ],
+   "plates": [
+    "Pl. III"
+   ],
+   "plateImages": [
+    "langdon1923_0044"
+   ],
+   "name": "Akshak, Kish, and Lugalzaggisi",
+   "cite": "V 44 – VI 30",
+   "file": "king-list-akshak-kish-iv-uruk-iii.json",
+   "status": "todo",
+   "sha256": "b96be83e43d0988985c9eb56453ee3a95dc6735cf5d0d8b48a61e353fea2d0cc"
+  },
+  {
+   "id": "king-list-akkad",
+   "seq": 7,
+   "titleEn": "Sargon and the kings of Akkad",
+   "dynasties": "Akkad (incl. the anarchy 'who was king?')",
+   "start": {
+    "col": "VI",
+    "ln": 31
+   },
+   "end": {
+    "col": "VII",
+    "ln": 14
+   },
+   "range": "VI 31 – VII 14",
+   "lines": 32,
+   "langdonPages": [
+    17,
+    18
+   ],
+   "pageImages": [
+    "langdon1923_0022",
+    "langdon1923_0023"
+   ],
+   "plates": [
+    "Pl. III",
+    "Pl. IV"
+   ],
+   "plateImages": [
+    "langdon1923_0044",
+    "langdon1923_0045"
+   ],
+   "name": "Sargon and the kings of Akkad",
+   "cite": "VI 31 – VII 14",
+   "file": "king-list-akkad.json",
+   "status": "todo",
+   "sha256": "a4730040fca3b827e74d47ea632e4d7a229b0dce92fbc4f9ab6cfdbb59245657"
+  },
+  {
+   "id": "king-list-uruk-iv-gutium",
+   "seq": 8,
+   "titleEn": "Uruk and the Gutian hordes",
+   "dynasties": "Uruk IV · Gutium",
+   "start": {
+    "col": "VII",
+    "ln": 15
+   },
+   "end": {
+    "col": "VIII",
+    "ln": 2
+   },
+   "range": "VII 15 – VIII 2",
+   "lines": 39,
+   "langdonPages": [
+    18,
+    19
+   ],
+   "pageImages": [
+    "langdon1923_0023",
+    "langdon1923_0024"
+   ],
+   "plates": [
+    "Pl. IV"
+   ],
+   "plateImages": [
+    "langdon1923_0045"
+   ],
+   "name": "Uruk and the Gutian hordes",
+   "cite": "VII 15 – VIII 2",
+   "file": "king-list-uruk-iv-gutium.json",
+   "status": "todo",
+   "sha256": "86bf79666e6ccc4ae4a27fb12d1e19828afd31952f9b6f76e947d2555dc54a61"
+  },
+  {
+   "id": "king-list-uruk-v-ur-iii-isin",
+   "seq": 9,
+   "titleEn": "Utuhegal, Ur, and Isin",
+   "dynasties": "Uruk V · Ur III · Isin · colophon",
+   "start": {
+    "col": "VIII",
+    "ln": 3
+   },
+   "end": {
+    "col": "VIII",
+    "ln": 46
+   },
+   "range": "VIII 3 – VIII 46",
+   "lines": 44,
+   "langdonPages": [
+    19,
+    20,
+    21
+   ],
+   "pageImages": [
+    "langdon1923_0024",
+    "langdon1923_0025",
+    "langdon1923_0026"
+   ],
+   "plates": [
+    "Pl. IV"
+   ],
+   "plateImages": [
+    "langdon1923_0045"
+   ],
+   "name": "Utuhegal, Ur, and Isin",
+   "cite": "VIII 3 – VIII 46",
+   "file": "king-list-uruk-v-ur-iii-isin.json",
+   "status": "todo",
+   "sha256": "3dbdba90dbd8e71760ff983a88285505f6017e9de17bb20cae47cdadc6576e6e"
+  }
+ ]
+}

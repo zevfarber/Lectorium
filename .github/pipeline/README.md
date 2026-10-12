@@ -60,3 +60,9 @@ The laptop's old five-minute "auto-publish" task (OneDrive master → repository
 favour of this model; the repository is the master now.
 
 `HEARTBEAT.md` is the record of the 2026-09-14 smoke test that proved a routine can push.
+
+## Run 3 — the unusual texts (since 2026-10-12)
+
+A second, separate routine works through `queue-run3.txt` (Hammurabi, Kebra Nagast, Secret History, Mabinogi,
+Cid, Azatiwada, Sumerian King List) with its own tools in `run3/` — see `run3/README.md` and `run3/RUNBOOK.md`.
+It never reads or changes `queue.txt`, and the text pipeline never reads `queue-run3.txt`.

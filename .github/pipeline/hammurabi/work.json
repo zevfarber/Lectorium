@@ -1,0 +1,19 @@
+{
+ "work": "hammurabi",
+ "workEn": "Laws of Hammurabi",
+ "model": "cuneiform words (signs read from Harper's plates; glyphs from signs-cuneiform.json)",
+ "establish": false,
+ "header": {
+  "language": "Akkadian (Old Babylonian)",
+  "langCode": null,
+  "script": "cuneiform",
+  "font": "old-babylonian",
+  "work": "Codex Ḫammurabi",
+  "workEn": "Laws of Hammurabi"
+ },
+ "publishedBefore": ["hammurabi-prologue", "hammurabi-litany", "hammurabi-laws-1-10", "hammurabi-laws-11-25", "hammurabi-laws-26-41"],
+ "draftNote": "The § chips number the laws (Harper’s sectioning, still standard); long laws span several tap-units. Readings checked sign-by-sign against Harper’s 1904 edition.",
+ "sourceStatement": "Louvre stele, after R.F. Harper, The Code of Hammurabi, King of Babylon (Chicago, 1904): transliteration and autograph plates, List of Signs. Readings are Harper’s in modern subscript notation. Cuneiform in Old Babylonian monumental sign forms via the SantakkuM webfont by Sylvie Vanséveren (CC BY 4.0); pronunciation: conventional reconstructed Old Babylonian. Audio: a German synthetic voice reads the Akkadian word by word from these pronunciation rules (word stress after Huehnergard). It cannot hold a consonant long, so doubled consonants are heard single (šumma with one m), and the emphatics ṭ and q are heard as plain t and k. Fresh translations made directly from the Akkadian; Harper’s public-domain translation consulted for sense only.",
+ "images": [{"file": "Codex Hammurapi Stela front.JPG", "caption": "The stele in the Louvre: a single block of black basalt about 2.25 m tall. In the relief at the top, Hammurabi stands before the enthroned sun-god Šamaš, the god of justice; the laws run in columns of cuneiform below.", "alt": "The tall black basalt stele of Hammurabi in a museum gallery, a relief of the king and the god Šamaš at its top", "author": "Enlil2", "license": "CC BY 3.0", "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"}],
+ "redFlags": []
+}

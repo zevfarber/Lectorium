@@ -1,0 +1,3 @@
+# Laws of Hammurabi — run log (Run 3)
+
+- 2026-10-12 · setup · Run 3 folder made. Stele source (Harper 1904 transliteration, §42 → end, 2,815 lines; transcribed twice from the Toronto and Cornell scans on 2026-10-11) pinned in 19 stele parts; Cornell scan and plate index committed. Gap witnesses archived on the runner (Kohler–Ungnad II–V 1909–11, Ungnad's Keilschrifttexte 1909, Poebel PBS V 1914, Cuq 1918) — Ungnad's transliteration of the gap (KPU II pp. 33–37) names its tablets (Scheil's Susa Fragments I–II, Rm. 277, DT 81, K 8321); the Nippur tablet PBS V 93 (Plates XXXIX–XL) carries the merchant-and-loan laws. Two gap parts, established before drafting.

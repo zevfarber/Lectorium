@@ -1,0 +1,366 @@
+{
+ "work": "Laws of Hammurabi",
+ "source": "source/hammurabi-harper1904-source.json",
+ "parts": [
+  {
+   "id": "hammurabi-laws-42-51",
+   "name": "Field and tenant",
+   "kind": "stele",
+   "from": 0,
+   "to": 143,
+   "lines": 144,
+   "cite": "Col. xii 63 – xiv 66",
+   "laws": [
+    42,
+    51
+   ],
+   "numbering": "clause",
+   "seq": 6,
+   "file": "hammurabi-laws-42-51.json",
+   "status": "todo",
+   "sha256": "38ce29d618aaf2f609e9119959a0d1d593a89fdc4d2af37480d86296ac40f501"
+  },
+  {
+   "id": "hammurabi-laws-52-65",
+   "name": "Crops, debts and the date-orchard",
+   "kind": "stele",
+   "from": 144,
+   "to": 298,
+   "lines": 155,
+   "cite": "Col. xv 1 – xvi 77",
+   "laws": [
+    52,
+    65
+   ],
+   "numbering": "clause",
+   "seq": 7,
+   "file": "hammurabi-laws-52-65.json",
+   "status": "todo",
+   "sha256": "40c44aa7c13a62b87549c9d6ce84eb904b2cab9073c2a0c567073daa4bd39101"
+  },
+  {
+   "id": "hammurabi-gap-a",
+   "name": "The erased columns I — houses and neighbours (from the duplicate tablets)",
+   "kind": "gap",
+   "establish": true,
+   "numbering": "clause",
+   "cite": "the section chiselled off the stele (after §65), from duplicate tablets",
+   "witnesses": [
+    "KPU II (Ungnad 1909) pp. 33–37: Scheil Frgm. I–II (Susa), Rm. 277, DT 81, K 8321",
+    "Ungnad, Keilschrifttexte der Gesetze Hammurapis (1909): autographs of the same fragments"
+   ],
+   "seq": 8,
+   "file": "hammurabi-gap-a.json",
+   "status": "todo"
+  },
+  {
+   "id": "hammurabi-gap-b",
+   "name": "The erased columns II — merchants and loans (from the Nippur tablet)",
+   "kind": "gap",
+   "establish": true,
+   "numbering": "clause",
+   "cite": "the section chiselled off the stele (before §100), from the Nippur tablet",
+   "witnesses": [
+    "Poebel, PBS V (1914) no. 93, Plates XXXIX–XL (the Nippur tablet, University Museum Philadelphia)",
+    "Cuq, Les nouveaux fragments du Code de Hammourabi (1918): Scheil’s reading of that tablet"
+   ],
+   "seq": 9,
+   "file": "hammurabi-gap-b.json",
+   "status": "todo"
+  },
+  {
+   "id": "hammurabi-laws-100-111",
+   "name": "Merchant and agent; the tavern-keeper",
+   "kind": "stele",
+   "from": 299,
+   "to": 419,
+   "lines": 121,
+   "cite": "Col. xvii 1 – xviii 49",
+   "laws": [
+    100,
+    111
+   ],
+   "numbering": "clause",
+   "seq": 10,
+   "file": "hammurabi-laws-100-111.json",
+   "status": "todo",
+   "sha256": "fb1bc6b18826265debbaa57e6a319e23e56c4f0e955b38304c5dae9ae014526a"
+  },
+  {
+   "id": "hammurabi-laws-112-126",
+   "name": "Carriage, debt-hostages and deposits",
+   "kind": "stele",
+   "from": 420,
+   "to": 627,
+   "lines": 208,
+   "cite": "Col. xviii 50 – xxi 24",
+   "laws": [
+    112,
+    126
+   ],
+   "numbering": "clause",
+   "seq": 11,
+   "file": "hammurabi-laws-112-126.json",
+   "status": "todo",
+   "sha256": "7d628fdcca73698313388b1764c162668e354c79381a2d30cc3469e08fb933d1"
+  },
+  {
+   "id": "hammurabi-laws-127-140",
+   "name": "Slander, marriage, adultery and divorce",
+   "kind": "stele",
+   "from": 628,
+   "to": 802,
+   "lines": 175,
+   "cite": "Col. xxi 25 – xxiii 32",
+   "laws": [
+    127,
+    140
+   ],
+   "numbering": "clause",
+   "seq": 12,
+   "file": "hammurabi-laws-127-140.json",
+   "status": "todo",
+   "sha256": "53297801cda1ffffddd1feb853b163daad14262d97e321069215327ba3d33765"
+  },
+  {
+   "id": "hammurabi-laws-141-152",
+   "name": "Bad wives, sick wives, and debts between spouses",
+   "kind": "stele",
+   "from": 803,
+   "to": 984,
+   "lines": 182,
+   "cite": "Col. xxiii 33 – xxv 60",
+   "laws": [
+    141,
+    152
+   ],
+   "numbering": "clause",
+   "seq": 13,
+   "file": "hammurabi-laws-141-152.json",
+   "status": "todo",
+   "sha256": "dff9331cff3e3df0d0a08b0730fd51286c528ea564b32b6168b218ccf7cb4bb6"
+  },
+  {
+   "id": "hammurabi-laws-153-169",
+   "name": "Crimes in the family; betrothal gifts and disinheritance",
+   "kind": "stele",
+   "from": 985,
+   "to": 1213,
+   "lines": 229,
+   "cite": "Col. xxv 61 – xxviii 37",
+   "laws": [
+    153,
+    169
+   ],
+   "numbering": "clause",
+   "seq": 14,
+   "file": "hammurabi-laws-153-169.json",
+   "status": "todo",
+   "sha256": "f6f7848a74980087795bb0c191bba2c2f49a72ebc43bb3da1619317370fcd80e"
+  },
+  {
+   "id": "hammurabi-laws-170-177",
+   "name": "The slave-wife’s children and the widow",
+   "kind": "stele",
+   "from": 1214,
+   "to": 1417,
+   "lines": 204,
+   "cite": "Col. xxviii 38 – xxx 60",
+   "laws": [
+    170,
+    177
+   ],
+   "numbering": "clause",
+   "seq": 15,
+   "file": "hammurabi-laws-170-177.json",
+   "status": "todo",
+   "sha256": "8371036afc96051ea5515fdb09f997f0991dfdcf8f88394b88892336491dff46"
+  },
+  {
+   "id": "hammurabi-laws-178-184",
+   "name": "Priestesses and their inheritance",
+   "kind": "stele",
+   "from": 1418,
+   "to": 1575,
+   "lines": 158,
+   "cite": "Col. xxx 61 – xxxii 30",
+   "laws": [
+    178,
+    184
+   ],
+   "numbering": "clause",
+   "seq": 16,
+   "file": "hammurabi-laws-178-184.json",
+   "status": "todo",
+   "sha256": "3b4093d65ea91d3b9287e072aea1d6a28cfa35e625b2074d9bec1ba018f4e81a"
+  },
+  {
+   "id": "hammurabi-laws-185-194",
+   "name": "Adoption and the wet-nurse",
+   "kind": "stele",
+   "from": 1576,
+   "to": 1681,
+   "lines": 106,
+   "cite": "Col. xxxii 31 – xxxiii 40",
+   "laws": [
+    185,
+    194
+   ],
+   "numbering": "clause",
+   "seq": 17,
+   "file": "hammurabi-laws-185-194.json",
+   "status": "todo",
+   "sha256": "5822f77b4e22c7f1aa7744bb8d75f2715cb9487e1416e0b968543d14080af93e"
+  },
+  {
+   "id": "hammurabi-laws-195-214",
+   "name": "An eye for an eye",
+   "kind": "stele",
+   "from": 1682,
+   "to": 1788,
+   "lines": 107,
+   "cite": "Col. xxxiii 41 – xxxiv 54",
+   "laws": [
+    195,
+    214
+   ],
+   "numbering": "clause",
+   "seq": 18,
+   "file": "hammurabi-laws-195-214.json",
+   "status": "todo",
+   "sha256": "668403b80f16ccbbdf43335a67f838d930e485704c1df11058989454938be054"
+  },
+  {
+   "id": "hammurabi-laws-215-240",
+   "name": "Surgeons, builders and boatmen",
+   "kind": "stele",
+   "from": 1789,
+   "to": 2008,
+   "lines": 220,
+   "cite": "Col. xxxiv 55 – xxxvi 80",
+   "laws": [
+    215,
+    240
+   ],
+   "numbering": "clause",
+   "seq": 19,
+   "file": "hammurabi-laws-215-240.json",
+   "status": "todo",
+   "sha256": "106b9d824265eef0b61c991bec83a43a810bf94fa702d07a349fc942907c7b34"
+  },
+  {
+   "id": "hammurabi-laws-241-257",
+   "name": "Oxen, hired men and the farm-steward",
+   "kind": "stele",
+   "from": 2009,
+   "to": 2124,
+   "lines": 116,
+   "cite": "Col. xxxvi 81 – xxxviii 4",
+   "laws": [
+    241,
+    257
+   ],
+   "numbering": "clause",
+   "seq": 20,
+   "file": "hammurabi-laws-241-257.json",
+   "status": "todo",
+   "sha256": "a9f9cc7c9278466884e293ee462b2adc38f93b70476284ce41f782f944dd228d"
+  },
+  {
+   "id": "hammurabi-laws-258-277",
+   "name": "Herdsmen, wages and hire-rates",
+   "kind": "stele",
+   "from": 2125,
+   "to": 2272,
+   "lines": 148,
+   "cite": "Col. xxxviii 5 – xxxix 57",
+   "laws": [
+    258,
+    277
+   ],
+   "numbering": "clause",
+   "seq": 21,
+   "file": "hammurabi-laws-258-277.json",
+   "status": "todo",
+   "sha256": "dae04524ce0b04b4301b818940ab1bc0693ce65c7d82787e22aed4f6e99a0e8f"
+  },
+  {
+   "id": "hammurabi-laws-278-282",
+   "name": "The sale of slaves",
+   "kind": "stele",
+   "from": 2273,
+   "to": 2317,
+   "lines": 45,
+   "cite": "Col. xxxix 58 – xxxix 102",
+   "laws": [
+    278,
+    282
+   ],
+   "numbering": "clause",
+   "seq": 22,
+   "file": "hammurabi-laws-278-282.json",
+   "status": "todo",
+   "sha256": "c87ed8e91b31bf980919a35acf5feac297f2b311fc7b25c66134efa7173c202e"
+  },
+  {
+   "id": "hammurabi-epilogue-1",
+   "name": "Epilogue I — the just laws",
+   "kind": "stele",
+   "from": 2318,
+   "to": 2485,
+   "lines": 168,
+   "cite": "Col. xl 1 – xli 74",
+   "laws": null,
+   "numbering": "line",
+   "seq": 23,
+   "file": "hammurabi-epilogue-1.json",
+   "status": "todo",
+   "sha256": "838c576fb8e685980a21d59c25bf5e23364638628cd14a788578f7eb686fbe54"
+  },
+  {
+   "id": "hammurabi-epilogue-2",
+   "name": "Epilogue II — the blessing, and the first curses",
+   "kind": "stele",
+   "from": 2486,
+   "to": 2612,
+   "lines": 127,
+   "cite": "Col. xli 75 – xlii 97",
+   "laws": null,
+   "numbering": "line",
+   "seq": 24,
+   "file": "hammurabi-epilogue-2.json",
+   "status": "todo",
+   "sha256": "4357ebec46958670c94a508eaf4c5da6e5669047a42f2483979bfef59bbd8b17"
+  },
+  {
+   "id": "hammurabi-epilogue-3",
+   "name": "Epilogue III — the curses of Ea, Šamaš, Sin and Adad",
+   "kind": "stele",
+   "from": 2613,
+   "to": 2697,
+   "lines": 85,
+   "cite": "Col. xlii 98 – xliii 80",
+   "laws": null,
+   "numbering": "line",
+   "seq": 25,
+   "file": "hammurabi-epilogue-3.json",
+   "status": "todo",
+   "sha256": "796d539ad4975378a2ae51435dbac89b1f1e8d9d9657dd9f502c6976c1385da3"
+  },
+  {
+   "id": "hammurabi-epilogue-4",
+   "name": "Epilogue IV — the last curses",
+   "kind": "stele",
+   "from": 2698,
+   "to": 2814,
+   "lines": 117,
+   "cite": "Col. xliii 81 – xliv 91",
+   "laws": null,
+   "numbering": "line",
+   "seq": 26,
+   "file": "hammurabi-epilogue-4.json",
+   "status": "todo",
+   "sha256": "8b71191ae592090be3e08c32bd857009417b81f53931872427a461a191606966"
+  }
+ ]
+}

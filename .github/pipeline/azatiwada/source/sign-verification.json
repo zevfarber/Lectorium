@@ -1,0 +1,729 @@
+{
+ "_meta": {
+  "sources": [
+   "N4282 = ISO/IEC JTC1/SC2/WG2 N4282 (L2/12-213), Everson & Anderson 2012, names list pp.10-21",
+   "NamesList.txt Anatolian block U+14400-1467F"
+  ],
+  "all_code_points_checked": "unicodedata.lookup succeeded for every key",
+  "unverifiable": [
+   "rú",
+   "ANIMA",
+   "ara/i",
+   "COR"
+  ],
+  "pilot_identifications_wrong": {
+   "INFRA": "PILOT WRONG: pilot uses A056, which is \"syllabic ká\" only. INFRA is A057 (\"infra, sub\").",
+   "SUPER": "PILOT WRONG: pilot uses A270, which has no annotation and only a cross-reference \"→ 1444F anatolian hieroglyph a070\" (N4282 p.17). SUPER = A070.",
+   "BONUS": "PILOT WRONG: pilot uses A320, which has no annotation and only a cross-reference \"→ 144C0 anatolian hieroglyph a165\" (N4282 p.17). BONUS = A165; BONUS₂ = A370.",
+   "tu": "PILOT WRONG: pilot uses A088, which has no annotation and only a cross-reference \"→ 14462 anatolian hieroglyph a089\" (N4282 p.13). Syllabic tu = A089.",
+   "ha": "PILOT WRONG (probably): pilot uses A215, annotated only \"fons\". The syllabogram ha is A215A. N4282 p.2 lists A215/A215A among the monumental/cursive pairs; for every other pair the pilot uses (A041, A100, A104, A105, A107, A110) the base sign itself also carries the syllabic value, but A215 does not.",
+   "COR": "Pilot uses A341, which N4282 annotates \"vas\". No sign is annotated \"cor\". Pilot identification unsupported."
+  },
+  "not_signs": {
+   "x": "illegible sign marker",
+   "pa/ha": "alternative reading of one damaged sign; no single identification"
+  }
+ },
+ "LITUUS": {
+  "key": "A378",
+  "evidence": "N4282 p.19 names list / NamesList.txt l.50320: \"U+145AB ANATOLIAN HIEROGLYPH A378\" = lituus",
+  "status": "verified",
+  "note": "Memory guess A378 confirmed. Used here as name determinative (LITUUS); the Unicode sign is the logogram lituus."
+ },
+ "PONERE": {
+  "key": "A065",
+  "evidence": "N4282 p.13 names list / NamesList.txt l.49670: \"U+14447 ANATOLIAN HIEROGLYPH A065\" = ponere",
+  "status": "verified",
+  "note": ""
+ },
+ "LOCUS": {
+  "key": "A201",
+  "evidence": "N4282 p.15 names list / NamesList.txt l.49962: \"U+144E4 ANATOLIAN HIEROGLYPH A201\" = terra, locus; = syllabic wa/i6",
+  "status": "verified",
+  "note": "Same sign as TERRA (A201 = \"terra, locus\")."
+ },
+ "FRONS": {
+  "key": "A026",
+  "evidence": "N4282 p.12 names list / NamesList.txt l.49592: \"U+1441A ANATOLIAN HIEROGLYPH A026\" = frons | N4282 p.12 names list / NamesList.txt l.49594: \"U+1441B ANATOLIAN HIEROGLYPH A026A\" = versus",
+  "status": "verified",
+  "note": "Not A026A (= versus)."
+ },
+ "PRAE": {
+  "key": "A014",
+  "evidence": "N4282 p.12 names list / NamesList.txt l.49569: \"U+1440E ANATOLIAN HIEROGLYPH A014\" = prae; = logosyllabic pari",
+  "status": "verified",
+  "note": ""
+ },
+ "HI": {
+  "key": "A413",
+  "evidence": "N4282 p.19 names list / NamesList.txt l.50408: \"U+145D2 ANATOLIAN HIEROGLYPH A413\" = syllabic hi",
+  "status": "verified",
+  "note": "Capital HI = the syllabogram hi written inside a ligature (FINES+HI)."
+ },
+ "hi": {
+  "key": "A413",
+  "evidence": "N4282 p.19 names list / NamesList.txt l.50408: \"U+145D2 ANATOLIAN HIEROGLYPH A413\" = syllabic hi",
+  "status": "verified",
+  "note": ""
+ },
+ "hwa/i": {
+  "key": "A508",
+  "evidence": "N4282 p.21 names list / NamesList.txt l.50539: \"U+14630 ANATOLIAN HIEROGLYPH A508\" = currere; = syllabic hwi/a | N4282 p.15 names list / NamesList.txt l.49924: \"U+144CE ANATOLIAN HIEROGLYPH A179\" = hordeum; = syllabic hwi-x",
+  "status": "verified",
+  "note": "Annotation writes the value as \"hwi/a\" — the same two-way reading as ACLT hwa/i. Distinct from A179 (= hwi-x)."
+ },
+ "rú": {
+  "key": null,
+  "evidence": "N4282 p.13 names list / NamesList.txt l.49752: \"U+14473 ANATOLIAN HIEROGLYPH A102\" = cervus; = syllabic rú | N4282 p.14 names list / NamesList.txt l.49755: \"U+14474 ANATOLIAN HIEROGLYPH A102A\" = cervus2; = syllabic rú | N4282 p.14 names list / NamesList.txt l.49758: \"U+14475 ANATOLIAN HIEROGLYPH A103\" = cervus3; = syllabic rú",
+  "status": "ambiguous",
+  "note": "Three signs carry \"syllabic rú\": A102 (cervus), A102A (cervus2), A103 (cervus3). N4282 does not say which form Karatepe uses. ACLT keeps a separate CERVUS₃ label (=A103) for the logogram, which hints the syllabogram is another form, but that is inference."
+ },
+ "VIA": {
+  "key": "A221",
+  "evidence": "N4282 p.16 names list / NamesList.txt l.50008: \"U+144FE ANATOLIAN HIEROGLYPH A221\" = via",
+  "status": "verified",
+  "note": "Memory guess confirmed."
+ },
+ "PES₂": {
+  "key": "A093",
+  "evidence": "N4282 p.13 names list / NamesList.txt l.49725: \"U+14466 ANATOLIAN HIEROGLYPH A093\" = pes2 | N4282 p.13 names list / NamesList.txt l.49722: \"U+14464 ANATOLIAN HIEROGLYPH A091\" = pes.scala.rotae",
+  "status": "verified",
+  "note": "Memory guess A091 was WRONG: A091 = pes.scala.rotae."
+ },
+ "FUSUS": {
+  "key": "A305",
+  "evidence": "N4282 p.17 names list / NamesList.txt l.50169: \"U+14557 ANATOLIAN HIEROGLYPH A305\" = fusus",
+  "status": "verified",
+  "note": ""
+ },
+ "si": {
+  "key": "A174",
+  "evidence": "N4282 p.15 names list / NamesList.txt l.49913: \"U+144C9 ANATOLIAN HIEROGLYPH A174\" = syllabic si",
+  "status": "verified",
+  "note": "Memory guess confirmed."
+ },
+ "zá": {
+  "key": "A335",
+  "evidence": "N4282 p.18 names list / NamesList.txt l.50233: \"U+14579 ANATOLIAN HIEROGLYPH A335\" = syllabic zá",
+  "status": "verified",
+  "note": "Distinct from za (A377) and za₄ (A112)."
+ },
+ "POST": {
+  "key": "A034",
+  "evidence": "N4282 p.12 names list / NamesList.txt l.49608: \"U+14423 ANATOLIAN HIEROGLYPH A034\" = post",
+  "status": "verified",
+  "note": ""
+ },
+ "CERVUS₃": {
+  "key": "A103",
+  "evidence": "N4282 p.14 names list / NamesList.txt l.49758: \"U+14475 ANATOLIAN HIEROGLYPH A103\" = cervus3; = syllabic rú",
+  "status": "verified",
+  "note": ""
+ },
+ "FLUMEN": {
+  "key": "A212",
+  "evidence": "N4282 p.16 names list / NamesList.txt l.49990: \"U+144F3 ANATOLIAN HIEROGLYPH A212\" = flumen",
+  "status": "verified",
+  "note": "Memory guess confirmed."
+ },
+ "ANNUS": {
+  "key": "A336",
+  "evidence": "N4282 p.18 names list / NamesList.txt l.50235: \"U+1457A ANATOLIAN HIEROGLYPH A336\" = annus, pithos.scutella, pithos; = syllabic zì | N4282 p.18 names list / NamesList.txt l.50249: \"U+14581 ANATOLIAN HIEROGLYPH A340\" = annus+annus",
+  "status": "verified",
+  "note": "Not A340 (= annus+annus)."
+ },
+ "ANIMA": {
+  "key": null,
+  "evidence": "N4282 p.18 names list / NamesList.txt l.50301: \"U+145A1 ANATOLIAN HIEROGLYPH A369\" = vita | N4282 p.19 names list / NamesList.txt l.50395: \"U+145C8 ANATOLIAN HIEROGLYPH A404\" = animal",
+  "status": "not-in-N4282",
+  "note": "No sign annotated \"anima\". Nearest: A369 = vita (the memory guess) and A404 = animal; ACLT uses ANIMA and ANIMAL as different labels, so A404 is not it. A369 (VITA) may be the sign Hawkins calls ANIMA, but N4282 does not say so."
+ },
+ "OVIS": {
+  "key": "A110",
+  "evidence": "N4282 p.14 names list / NamesList.txt l.49803: \"U+14484 ANATOLIAN HIEROGLYPH A110\" = ovis; = syllabic ma | N4282 p.14 names list / NamesList.txt l.49800: \"U+14483 ANATOLIAN HIEROGLYPH A109\" = vitellus; = syllabic ma-x",
+  "status": "verified",
+  "note": "Memory guess A109 was WRONG: A109 = vitellus / syllabic ma-x. A110 = ovis (also syllabic ma). A110B = ovis2, A111 = ovis3; unsubscripted OVIS = A110."
+ },
+ "VITIS": {
+  "key": "A160",
+  "evidence": "N4282 p.15 names list / NamesList.txt l.49892: \"U+144BB ANATOLIAN HIEROGLYPH A160\" = vitis; = syllabic wi(ya)",
+  "status": "verified",
+  "note": ""
+ },
+ "pi": {
+  "key": "A066",
+  "evidence": "N4282 p.13 names list / NamesList.txt l.49672: \"U+14448 ANATOLIAN HIEROGLYPH A066\" = dare; = syllabic pi | N4282 p.13 names list / NamesList.txt l.49675: \"U+14449 ANATOLIAN HIEROGLYPH A066A\" = syllabic pi",
+  "status": "verified",
+  "note": "A066A is the cursive form, also \"syllabic pi\"; A066 (monumental) matches the pilot practice for other monumental/cursive pairs."
+ },
+ "lá/í": {
+  "key": "A172",
+  "evidence": "N4282 p.15 names list / NamesList.txt l.49909: \"U+144C7 ANATOLIAN HIEROGLYPH A172\" = syllabic ta/i5, lá/í | N4282 p.15 names list / NamesList.txt l.49918: \"U+144CB ANATOLIAN HIEROGLYPH A176\" = syllabic la+la",
+  "status": "verified",
+  "note": "Memory guess A176 was WRONG: A176 = syllabic la+la."
+ },
+ "LONGUS": {
+  "key": "A062",
+  "evidence": "N4282 p.13 names list / NamesList.txt l.49666: \"U+14444 ANATOLIAN HIEROGLYPH A062\" = longus, manus+minus?",
+  "status": "verified",
+  "note": ""
+ },
+ "FULGUR": {
+  "key": "A200",
+  "evidence": "N4282 p.15 names list / NamesList.txt l.49960: \"U+144E3 ANATOLIAN HIEROGLYPH A200\" = fulgur",
+  "status": "verified",
+  "note": ""
+ },
+ "REGIO": {
+  "key": "A228",
+  "evidence": "N4282 p.16 names list / NamesList.txt l.50024: \"U+14506 ANATOLIAN HIEROGLYPH A228\" = regio; = syllabic tu4",
+  "status": "verified",
+  "note": "Memory guess confirmed (A228 also = syllabic tu4)."
+ },
+ "CRUX": {
+  "key": "A309",
+  "evidence": "N4282 p.17 names list / NamesList.txt l.50176: \"U+1455B ANATOLIAN HIEROGLYPH A309\" = crux",
+  "status": "verified",
+  "note": "Not A309A (= crux2)."
+ },
+ "CAELUM": {
+  "key": "A182",
+  "evidence": "N4282 p.15 names list / NamesList.txt l.49932: \"U+144D1 ANATOLIAN HIEROGLYPH A182\" = caelum",
+  "status": "verified",
+  "note": ""
+ },
+ "CRUS": {
+  "key": "A082",
+  "evidence": "N4282 p.13 names list / NamesList.txt l.49703: \"U+1445B ANATOLIAN HIEROGLYPH A082\" = crus; = syllabic ta6",
+  "status": "verified",
+  "note": "Not A084 (= crus2, syllabic nà)."
+ },
+ "ara/i": {
+  "key": null,
+  "evidence": "N4282 p.14 names list / NamesList.txt l.49853: \"U+1449F ANATOLIAN HIEROGLYPH A133\" = aquila, avis4; = syllabic ara/i | N4282 p.14 names list / NamesList.txt l.49856: \"U+144A0 ANATOLIAN HIEROGLYPH A134\" = syllabic ara/i | N4282 p.20 names list / NamesList.txt l.50470: \"U+145F8 ANATOLIAN HIEROGLYPH A450A\" = a+ra/i, ra+a",
+  "status": "ambiguous",
+  "note": "Two signs carry \"syllabic ara/i\": A134 (decomposes A133+A383) and A133 (aquila, avis4). The memory guess A450+A383 is A450A, which N4282 p.3 names \"a+ra/i, ra+a\" — a different notation, not ara/i. A134 is the likelier plain syllabogram, but N4282 does not decide it."
+ },
+ "LUNA": {
+  "key": "A193",
+  "evidence": "N4282 p.15 names list / NamesList.txt l.49947: \"U+144DC ANATOLIAN HIEROGLYPH A193\" = luna",
+  "status": "verified",
+  "note": ""
+ },
+ "OCULUS": {
+  "key": "A025",
+  "evidence": "N4282 p.12 names list / NamesList.txt l.49590: \"U+14419 ANATOLIAN HIEROGLYPH A025\" = oculus",
+  "status": "verified",
+  "note": ""
+ },
+ "PORTA": {
+  "key": "A237",
+  "evidence": "N4282 p.16 names list / NamesList.txt l.50039: \"U+1450F ANATOLIAN HIEROGLYPH A237\" = porta",
+  "status": "verified",
+  "note": "Unsubscripted PORTA; A239 = porta2."
+ },
+ "ni": {
+  "key": "A411",
+  "evidence": "N4282 p.19 names list / NamesList.txt l.50404: \"U+145D0 ANATOLIAN HIEROGLYPH A411\" = syllabic ni",
+  "status": "verified",
+  "note": "Not A447 (= ni-x); not ní (A214)."
+ },
+ "sa₅": {
+  "key": "A327",
+  "evidence": "N4282 p.18 names list / NamesList.txt l.50209: \"U+1456E ANATOLIAN HIEROGLYPH A327\" = sigillum; = syllabic sa5",
+  "status": "verified",
+  "note": "A327 = sigillum, syllabic sa5."
+ },
+ "L274": {
+  "key": "A274",
+  "evidence": "N4282 p.17 names list / NamesList.txt l.50101: \"U+14535 ANATOLIAN HIEROGLYPH A274\" (no annotation)",
+  "status": "verified",
+  "note": "Code point exists; N4282 gives no annotation (L-number from ACLT)."
+ },
+ "L486": {
+  "key": "A486",
+  "evidence": "N4282 p.20 names list / NamesList.txt l.50516: \"U+1461D ANATOLIAN HIEROGLYPH A486\" = falx?",
+  "status": "verified",
+  "note": "Code point exists; N4282 annotation \"falx?\"."
+ },
+ "L69": {
+  "key": "A069",
+  "evidence": "N4282 p.13 names list / NamesList.txt l.49683: \"U+1444E ANATOLIAN HIEROGLYPH A069\" (no annotation)",
+  "status": "verified",
+  "note": "Code point exists; N4282 gives no annotation."
+ },
+ "^I": {
+  "key": "A383A",
+  "evidence": "N4282 p.22 names list / NamesList.txt l.50345: \"U+145B2 ANATOLIAN HIEROGLYPH A383A\" = personal determinative",
+  "status": "verified",
+  "note": "N4282 p.2: \"U+145B2 A383A is used as a personal determinative; it is a spacing character.\""
+ },
+ "´": {
+  "key": "A450",
+  "evidence": "N4282 p.20 names list / NamesList.txt l.50467: \"U+145F7 ANATOLIAN HIEROGLYPH A450\" = syllabic a; = end of a word",
+  "status": "verified",
+  "note": "N4282 p.2: A450 \"(which occurs very frequently) ... occasionally used in what looks like a space-filler function, often at the end of a word.\""
+ },
+ "a": {
+  "key": "A450",
+  "evidence": "N4282 p.20 names list / NamesList.txt l.50467: \"U+145F7 ANATOLIAN HIEROGLYPH A450\" = syllabic a; = end of a word",
+  "status": "verified",
+  "note": ""
+ },
+ "há": {
+  "key": "A196",
+  "evidence": "N4282 p.15 names list / NamesList.txt l.49951: \"U+144DF ANATOLIAN HIEROGLYPH A196\" = Hatti; = syllabic há",
+  "status": "verified",
+  "note": ""
+ },
+ "ha": {
+  "key": "A215A",
+  "evidence": "N4282 p.16 names list / NamesList.txt l.49997: \"U+144F7 ANATOLIAN HIEROGLYPH A215A\" = syllabic ha | N4282 p.16 names list / NamesList.txt l.49995: \"U+144F6 ANATOLIAN HIEROGLYPH A215\" = fons",
+  "status": "verified",
+  "note": "PILOT WRONG (probably): pilot uses A215, annotated only \"fons\". The syllabogram ha is A215A. N4282 p.2 lists A215/A215A among the monumental/cursive pairs; for every other pair the pilot uses (A041, A100, A104, A105, A107, A110) the base sign itself also carries the syllabic value, but A215 does not."
+ },
+ "INFRA": {
+  "key": "A057",
+  "evidence": "N4282 p.13 names list / NamesList.txt l.49657: \"U+1443F ANATOLIAN HIEROGLYPH A057\" = infra, sub; = syllabic ká | N4282 p.13 names list / NamesList.txt l.49655: \"U+1443E ANATOLIAN HIEROGLYPH A056\" = syllabic ká",
+  "status": "verified",
+  "note": "PILOT WRONG: pilot uses A056, which is \"syllabic ká\" only. INFRA is A057 (\"infra, sub\")."
+ },
+ "SUPER": {
+  "key": "A070",
+  "evidence": "N4282 p.13 names list / NamesList.txt l.49684: \"U+1444F ANATOLIAN HIEROGLYPH A070\" = super; = logosyllabic sara/i | N4282 p.17 names list / NamesList.txt l.50096: \"U+14531 ANATOLIAN HIEROGLYPH A270\" (no annotation)",
+  "status": "verified",
+  "note": "PILOT WRONG: pilot uses A270, which has no annotation and only a cross-reference \"→ 1444F anatolian hieroglyph a070\" (N4282 p.17). SUPER = A070."
+ },
+ "BONUS": {
+  "key": "A165",
+  "evidence": "N4282 p.15 names list / NamesList.txt l.49899: \"U+144C0 ANATOLIAN HIEROGLYPH A165\" = bonus; = syllabic wà/ì | N4282 p.17 names list / NamesList.txt l.50198: \"U+14567 ANATOLIAN HIEROGLYPH A320\" (no annotation) | N4282 p.18 names list / NamesList.txt l.50303: \"U+145A2 ANATOLIAN HIEROGLYPH A370\" = bonus2; = syllabic su",
+  "status": "verified",
+  "note": "PILOT WRONG: pilot uses A320, which has no annotation and only a cross-reference \"→ 144C0 anatolian hieroglyph a165\" (N4282 p.17). BONUS = A165; BONUS₂ = A370."
+ },
+ "tu": {
+  "key": "A089",
+  "evidence": "N4282 p.13 names list / NamesList.txt l.49717: \"U+14462 ANATOLIAN HIEROGLYPH A089\" = syllabic tu | N4282 p.13 names list / NamesList.txt l.49716: \"U+14461 ANATOLIAN HIEROGLYPH A088\" (no annotation)",
+  "status": "verified",
+  "note": "PILOT WRONG: pilot uses A088, which has no annotation and only a cross-reference \"→ 14462 anatolian hieroglyph a089\" (N4282 p.13). Syllabic tu = A089."
+ },
+ "COR": {
+  "key": null,
+  "evidence": "N4282 p.18 names list / NamesList.txt l.50251: \"U+14582 ANATOLIAN HIEROGLYPH A341\" = vas",
+  "status": "not-in-N4282",
+  "note": "Pilot uses A341, which N4282 annotates \"vas\". No sign is annotated \"cor\". Pilot identification unsupported."
+ },
+ "PES": {
+  "key": "A090",
+  "evidence": "N4282 p.13 names list / NamesList.txt l.49719: \"U+14463 ANATOLIAN HIEROGLYPH A090\" = pes; = syllabic ti",
+  "status": "verified",
+  "note": ""
+ },
+ "L429": {
+  "key": "A429",
+  "evidence": "N4282 p.19 names list / NamesList.txt l.50432: \"U+145E2 ANATOLIAN HIEROGLYPH A429\" = syllabic tana",
+  "status": "verified",
+  "note": "A429 = syllabic tana."
+ },
+ "CORNU": {
+  "key": "A108",
+  "evidence": "N4282 p.14 names list / NamesList.txt l.49797: \"U+14482 ANATOLIAN HIEROGLYPH A108\" = cornu; = sú",
+  "status": "verified",
+  "note": ""
+ },
+ "LINGERE": {
+  "key": "A112",
+  "evidence": "N4282 p.14 names list / NamesList.txt l.49813: \"U+14488 ANATOLIAN HIEROGLYPH A112\" = lingere; = syllabic za4",
+  "status": "verified",
+  "note": ""
+ },
+ "za₄": {
+  "key": "A112",
+  "evidence": "N4282 p.14 names list / NamesList.txt l.49813: \"U+14488 ANATOLIAN HIEROGLYPH A112\" = lingere; = syllabic za4",
+  "status": "verified",
+  "note": ""
+ },
+ "ARHA": {
+  "key": "A216",
+  "evidence": "N4282 p.16 names list / NamesList.txt l.49999: \"U+144F8 ANATOLIAN HIEROGLYPH A216\" = fines; = syllabic arha",
+  "status": "verified",
+  "note": ""
+ },
+ "FINES": {
+  "key": "A216",
+  "evidence": "N4282 p.16 names list / NamesList.txt l.49999: \"U+144F8 ANATOLIAN HIEROGLYPH A216\" = fines; = syllabic arha",
+  "status": "verified",
+  "note": ""
+ },
+ "la/i/u": {
+  "key": "A445",
+  "evidence": "N4282 p.20 names list / NamesList.txt l.50458: \"U+145F2 ANATOLIAN HIEROGLYPH A445\" = syllabic la, li, lu",
+  "status": "verified",
+  "note": ""
+ },
+ "la/i": {
+  "key": "A445",
+  "evidence": "N4282 p.20 names list / NamesList.txt l.50458: \"U+145F2 ANATOLIAN HIEROGLYPH A445\" = syllabic la, li, lu",
+  "status": "verified",
+  "note": ""
+ },
+ "wá/í": {
+  "key": "A166",
+  "evidence": "N4282 p.15 names list / NamesList.txt l.49902: \"U+144C1 ANATOLIAN HIEROGLYPH A166\" = syllabic wá/í",
+  "status": "verified",
+  "note": ""
+ },
+ "li": {
+  "key": "A278",
+  "evidence": "N4282 p.17 names list / NamesList.txt l.50107: \"U+14539 ANATOLIAN HIEROGLYPH A278\" = syllabic li",
+  "status": "verified",
+  "note": ""
+ },
+ "pa": {
+  "key": "A334",
+  "evidence": "N4282 p.18 names list / NamesList.txt l.50231: \"U+14578 ANATOLIAN HIEROGLYPH A334\" = syllabic pa",
+  "status": "verified",
+  "note": ""
+ },
+ "tara/i": {
+  "key": "A389",
+  "evidence": "N4282 p.19 names list / NamesList.txt l.50362: \"U+145B9 ANATOLIAN HIEROGLYPH A389\" = tara/i",
+  "status": "verified",
+  "note": ""
+ },
+ "mara/i": {
+  "key": "A110+A383",
+  "evidence": "N4282 p.14 names list / NamesList.txt l.49803: \"U+14484 ANATOLIAN HIEROGLYPH A110\" = ovis; = syllabic ma | N4282 p.19 names list / NamesList.txt l.50336: \"U+145B1 ANATOLIAN HIEROGLYPH A383\" (no annotation)",
+  "status": "verified",
+  "note": "No single mara/i sign in N4282; ligature of A110 (syllabic ma) + A383 (RA OR RI)."
+ },
+ "ra/i": {
+  "key": "A383",
+  "evidence": "N4282 p.19 names list / NamesList.txt l.50336: \"U+145B1 ANATOLIAN HIEROGLYPH A383\" (no annotation)",
+  "status": "verified",
+  "note": ""
+ },
+ "RA/I": {
+  "key": "A383",
+  "evidence": "N4282 p.19 names list / NamesList.txt l.50336: \"U+145B1 ANATOLIAN HIEROGLYPH A383\" (no annotation)",
+  "status": "verified",
+  "note": ""
+ },
+ "ri": {
+  "key": "A383",
+  "evidence": "N4282 p.19 names list / NamesList.txt l.50336: \"U+145B1 ANATOLIAN HIEROGLYPH A383\" (no annotation)",
+  "status": "verified",
+  "note": ""
+ },
+ "NEG₂": {
+  "key": "A332B",
+  "evidence": "N4282 p.18 names list / NamesList.txt l.50224: \"U+14575 ANATOLIAN HIEROGLYPH A332B\" = negative2; = syllabic ná",
+  "status": "verified",
+  "note": ""
+ },
+ "VERSUS": {
+  "key": "A026A",
+  "evidence": "N4282 p.12 names list / NamesList.txt l.49594: \"U+1441B ANATOLIAN HIEROGLYPH A026A\" = versus",
+  "status": "verified",
+  "note": ""
+ },
+ "OCCIDENS": {
+  "key": "A379",
+  "evidence": "N4282 p.19 names list / NamesList.txt l.50322: \"U+145AC ANATOLIAN HIEROGLYPH A379\" = occidens; = syllabic ià",
+  "status": "verified",
+  "note": ""
+ },
+ "MALUS₂": {
+  "key": "A368A",
+  "evidence": "N4282 p.18 names list / NamesList.txt l.50299: \"U+145A0 ANATOLIAN HIEROGLYPH A368A\" = malus2",
+  "status": "verified",
+  "note": ""
+ },
+ "DIES": {
+  "key": "A358",
+  "evidence": "N4282 p.18 names list / NamesList.txt l.50275: \"U+14593 ANATOLIAN HIEROGLYPH A358\" = dies",
+  "status": "verified",
+  "note": ""
+ },
+ "su": {
+  "key": "A370",
+  "evidence": "N4282 p.18 names list / NamesList.txt l.50303: \"U+145A2 ANATOLIAN HIEROGLYPH A370\" = bonus2; = syllabic su",
+  "status": "verified",
+  "note": "A370 = bonus2, syllabic su."
+ },
+ "á": {
+  "key": "A019",
+  "evidence": "N4282 p.12 names list / NamesList.txt l.49580: \"U+14413 ANATOLIAN HIEROGLYPH A019\" = syllabic á",
+  "status": "verified",
+  "note": ""
+ },
+ "mu": {
+  "key": "A107",
+  "evidence": "N4282 p.14 names list / NamesList.txt l.49782: \"U+1447E ANATOLIAN HIEROGLYPH A107\" = bos+mi; = syllabic mu; = logosyllabic muwa",
+  "status": "verified",
+  "note": ""
+ },
+ "ma": {
+  "key": "A110",
+  "evidence": "N4282 p.14 names list / NamesList.txt l.49803: \"U+14484 ANATOLIAN HIEROGLYPH A110\" = ovis; = syllabic ma",
+  "status": "verified",
+  "note": ""
+ },
+ "tà": {
+  "key": "A041",
+  "evidence": "N4282 p.12 names list / NamesList.txt l.49621: \"U+1442B ANATOLIAN HIEROGLYPH A041\" = capere; = syllabic tà",
+  "status": "verified",
+  "note": ""
+ },
+ "za": {
+  "key": "A377",
+  "evidence": "N4282 p.19 names list / NamesList.txt l.50318: \"U+145AA ANATOLIAN HIEROGLYPH A377\" = syllabic za",
+  "status": "verified",
+  "note": ""
+ },
+ "ti": {
+  "key": "A090",
+  "evidence": "N4282 p.13 names list / NamesList.txt l.49719: \"U+14463 ANATOLIAN HIEROGLYPH A090\" = pes; = syllabic ti",
+  "status": "verified",
+  "note": ""
+ },
+ "wa/i": {
+  "key": "A439",
+  "evidence": "N4282 p.20 names list / NamesList.txt l.50451: \"U+145EC ANATOLIAN HIEROGLYPH A439\" = syllabic wa/i",
+  "status": "verified",
+  "note": ""
+ },
+ "sá": {
+  "key": "A433",
+  "evidence": "N4282 p.20 names list / NamesList.txt l.50441: \"U+145E6 ANATOLIAN HIEROGLYPH A433\" = syllabic sá",
+  "status": "verified",
+  "note": ""
+ },
+ "na": {
+  "key": "A035",
+  "evidence": "N4282 p.12 names list / NamesList.txt l.49610: \"U+14424 ANATOLIAN HIEROGLYPH A035\" = syllabic na",
+  "status": "verified",
+  "note": ""
+ },
+ "kwa/i": {
+  "key": "A329",
+  "evidence": "N4282 p.18 names list / NamesList.txt l.50214: \"U+14570 ANATOLIAN HIEROGLYPH A329\" = relative; = syllabic kwi/a",
+  "status": "verified",
+  "note": "Annotation \"kwi/a\" = ACLT kwa/i."
+ },
+ "ta": {
+  "key": "A100",
+  "evidence": "N4282 p.13 names list / NamesList.txt l.49743: \"U+1446F ANATOLIAN HIEROGLYPH A100\" = asinus; = syllabic ta",
+  "status": "verified",
+  "note": ""
+ },
+ "CASTRUM": {
+  "key": "A231",
+  "evidence": "N4282 p.16 names list / NamesList.txt l.50030: \"U+14509 ANATOLIAN HIEROGLYPH A231\" = castrum",
+  "status": "verified",
+  "note": ""
+ },
+ "ní": {
+  "key": "A214",
+  "evidence": "N4282 p.16 names list / NamesList.txt l.49993: \"U+144F5 ANATOLIAN HIEROGLYPH A214\" = syllabic ní",
+  "status": "verified",
+  "note": ""
+ },
+ "sà": {
+  "key": "A104",
+  "evidence": "N4282 p.14 names list / NamesList.txt l.49761: \"U+14476 ANATOLIAN HIEROGLYPH A104\" = capra; = syllabic sà",
+  "status": "verified",
+  "note": ""
+ },
+ "AEDIFICARE": {
+  "key": "A246",
+  "evidence": "N4282 p.16 names list / NamesList.txt l.50054: \"U+14518 ANATOLIAN HIEROGLYPH A246\" = aedificare, aedificium.ponere",
+  "status": "verified",
+  "note": ""
+ },
+ "MI": {
+  "key": "A391",
+  "evidence": "N4282 p.19 names list / NamesList.txt l.50367: \"U+145BB ANATOLIAN HIEROGLYPH A391\" = four; = syllabic mi",
+  "status": "verified",
+  "note": ""
+ },
+ "sa": {
+  "key": "A415",
+  "evidence": "N4282 p.19 names list / NamesList.txt l.50411: \"U+145D4 ANATOLIAN HIEROGLYPH A415\" = syllabic sa",
+  "status": "verified",
+  "note": ""
+ },
+ "URBS": {
+  "key": "A225",
+  "evidence": "N4282 p.16 names list / NamesList.txt l.50016: \"U+14502 ANATOLIAN HIEROGLYPH A225\" = urbs",
+  "status": "verified",
+  "note": ""
+ },
+ "ia": {
+  "key": "A210",
+  "evidence": "N4282 p.16 names list / NamesList.txt l.49987: \"U+144F1 ANATOLIAN HIEROGLYPH A210\" = syllabic ia",
+  "status": "verified",
+  "note": ""
+ },
+ "la": {
+  "key": "A175",
+  "evidence": "N4282 p.15 names list / NamesList.txt l.49915: \"U+144CA ANATOLIAN HIEROGLYPH A175\" = lingua; = syllabic la",
+  "status": "verified",
+  "note": ""
+ },
+ "SOLIUM": {
+  "key": "A299",
+  "evidence": "N4282 p.17 names list / NamesList.txt l.50154: \"U+14550 ANATOLIAN HIEROGLYPH A299\" = solium; = syllabic í",
+  "status": "verified",
+  "note": ""
+ },
+ "i": {
+  "key": "A209",
+  "evidence": "N4282 p.16 names list / NamesList.txt l.49982: \"U+144EF ANATOLIAN HIEROGLYPH A209\" = syllabic i, i(a)",
+  "status": "verified",
+  "note": ""
+ },
+ "PUGNUS": {
+  "key": "A039",
+  "evidence": "N4282 p.12 names list / NamesList.txt l.49616: \"U+14428 ANATOLIAN HIEROGLYPH A039\" = pugnus",
+  "status": "verified",
+  "note": ""
+ },
+ "mi": {
+  "key": "A391",
+  "evidence": "N4282 p.19 names list / NamesList.txt l.50367: \"U+145BB ANATOLIAN HIEROGLYPH A391\" = four; = syllabic mi",
+  "status": "verified",
+  "note": ""
+ },
+ "zi": {
+  "key": "A376",
+  "evidence": "N4282 p.19 names list / NamesList.txt l.50316: \"U+145A9 ANATOLIAN HIEROGLYPH A376\" = syllabic zi, zi/a",
+  "status": "verified",
+  "note": ""
+ },
+ "REX": {
+  "key": "A017",
+  "evidence": "N4282 p.12 names list / NamesList.txt l.49576: \"U+14411 ANATOLIAN HIEROGLYPH A017\" = rex",
+  "status": "verified",
+  "note": ""
+ },
+ "u": {
+  "key": "A105",
+  "evidence": "N4282 p.14 names list / NamesList.txt l.49772: \"U+1447A ANATOLIAN HIEROGLYPH A105\" = bos; = syllabic u",
+  "status": "verified",
+  "note": ""
+ },
+ "nú": {
+  "key": "A395",
+  "evidence": "N4282 p.19 names list / NamesList.txt l.50376: \"U+145BF ANATOLIAN HIEROGLYPH A395\" = nine; = syllabic nú",
+  "status": "verified",
+  "note": ""
+ },
+ "DEUS": {
+  "key": "A360",
+  "evidence": "N4282 p.18 names list / NamesList.txt l.50280: \"U+14596 ANATOLIAN HIEROGLYPH A360\" = deus",
+  "status": "verified",
+  "note": ""
+ },
+ "ORIENS": {
+  "key": "A192",
+  "evidence": "N4282 p.15 names list / NamesList.txt l.49945: \"U+144DB ANATOLIAN HIEROGLYPH A192\" = oriens",
+  "status": "verified",
+  "note": ""
+ },
+ "MANUS": {
+  "key": "A059",
+  "evidence": "N4282 p.13 names list / NamesList.txt l.49662: \"U+14441 ANATOLIAN HIEROGLYPH A059\" = manus",
+  "status": "verified",
+  "note": ""
+ },
+ "CAPUT": {
+  "key": "A010",
+  "evidence": "N4282 p.12 names list / NamesList.txt l.49561: \"U+14409 ANATOLIAN HIEROGLYPH A010\" = caput",
+  "status": "verified",
+  "note": ""
+ },
+ "FEMINA": {
+  "key": "A079",
+  "evidence": "N4282 p.13 names list / NamesList.txt l.49697: \"U+14458 ANATOLIAN HIEROGLYPH A079\" = femina, mater",
+  "status": "verified",
+  "note": ""
+ },
+ "TERRA": {
+  "key": "A201",
+  "evidence": "N4282 p.15 names list / NamesList.txt l.49962: \"U+144E4 ANATOLIAN HIEROGLYPH A201\" = terra, locus; = syllabic wa/i6",
+  "status": "verified",
+  "note": ""
+ },
+ "LA": {
+  "key": "A175",
+  "evidence": "N4282 p.15 names list / NamesList.txt l.49915: \"U+144CA ANATOLIAN HIEROGLYPH A175\" = lingua; = syllabic la",
+  "status": "verified",
+  "note": ""
+ },
+ "TONITRUS": {
+  "key": "A199",
+  "evidence": "N4282 p.15 names list / NamesList.txt l.49958: \"U+144E2 ANATOLIAN HIEROGLYPH A199\" = tonitrus",
+  "status": "verified",
+  "note": ""
+ },
+ "hu": {
+  "key": "A307",
+  "evidence": "N4282 p.17 names list / NamesList.txt l.50173: \"U+14559 ANATOLIAN HIEROGLYPH A307\" = syllabic hu",
+  "status": "verified",
+  "note": ""
+ },
+ "OMNIS": {
+  "key": "A366",
+  "evidence": "N4282 p.18 names list / NamesList.txt l.50293: \"U+1459D ANATOLIAN HIEROGLYPH A366\" = omnis(+mi)",
+  "status": "verified",
+  "note": ""
+ },
+ "BOS": {
+  "key": "A105",
+  "evidence": "N4282 p.14 names list / NamesList.txt l.49772: \"U+1447A ANATOLIAN HIEROGLYPH A105\" = bos; = syllabic u",
+  "status": "verified",
+  "note": ""
+ },
+ "ru": {
+  "key": "A412",
+  "evidence": "N4282 p.19 names list / NamesList.txt l.50406: \"U+145D1 ANATOLIAN HIEROGLYPH A412\" = syllabic ru",
+  "status": "verified",
+  "note": ""
+ },
+ "tá": {
+  "key": "A029",
+  "evidence": "N4282 p.12 names list / NamesList.txt l.49600: \"U+1441E ANATOLIAN HIEROGLYPH A029\" = syllabic tá",
+  "status": "verified",
+  "note": ""
+ },
+ "MAGNUS": {
+  "key": "A363",
+  "evidence": "N4282 p.18 names list / NamesList.txt l.50285: \"U+14599 ANATOLIAN HIEROGLYPH A363\" = magnus; = syllabic ur",
+  "status": "verified",
+  "note": ""
+ },
+ "ka": {
+  "key": "A434",
+  "evidence": "N4282 p.20 names list / NamesList.txt l.50443: \"U+145E7 ANATOLIAN HIEROGLYPH A434\" = syllabic ka",
+  "status": "verified",
+  "note": ""
+ },
+ "DOMUS": {
+  "key": "A247",
+  "evidence": "N4282 p.16 names list / NamesList.txt l.50056: \"U+14519 ANATOLIAN HIEROGLYPH A247\" = domus",
+  "status": "verified",
+  "note": ""
+ },
+ "MALUS": {
+  "key": "A368",
+  "evidence": "N4282 p.18 names list / NamesList.txt l.50297: \"U+1459F ANATOLIAN HIEROGLYPH A368\" = malus",
+  "status": "verified",
+  "note": ""
+ },
+ "SOL": {
+  "key": "A191",
+  "evidence": "N4282 p.15 names list / NamesList.txt l.49943: \"U+144DA ANATOLIAN HIEROGLYPH A191\" = sol",
+  "status": "verified",
+  "note": ""
+ }
+}

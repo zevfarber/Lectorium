@@ -1,6 +1,6 @@
 # Beowulf — plan
 
-13 of 44 parts published. One part per fitt, as Klaeber numbers them.
+14 of 44 parts published. One part per fitt, as Klaeber numbers them.
 
 | part | fitt | lines | status |
 |---|---|---|---|
@@ -17,7 +17,7 @@
 | beowulf-fitt-10 | X · The Watch in the Hall | 662–709 | published |
 | beowulf-fitt-11 | XI · Grendel Comes to Heorot | 710–790 | published |
 | beowulf-fitt-12 | XII · The Arm Torn Away | 791–836 | published |
-| beowulf-fitt-13 | XIII · The Song of Sigemund | 837–924 | todo |
+| beowulf-fitt-13 | XIII · The Song of Sigemund | 837–924 | published |
 | beowulf-fitt-14 | XIV · Hrothgar Gives Thanks | 925–990 | todo |
 | beowulf-fitt-15 | XV · Gifts for the Victor | 991–1049 | todo |
 | beowulf-fitt-16 | XVI · Hildeburh’s Sorrow | 1050–1124 | todo |

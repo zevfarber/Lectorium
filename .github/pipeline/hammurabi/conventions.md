@@ -113,3 +113,6 @@ distinctive modern rendering the reviewer recognises (never opened as a source).
 
 ## House renderings added by hammurabi-laws-42-51 (2026-10-12)
 `bēl eqlim` "the owner of the field"; `bēl ḫubullim` "the creditor"; `ṭuppašu uraṭṭab` "he shall soak his tablet" (the debt tablet is wetted, cancelling it); `ana pî ṣimdat šarrim` "according to the king's schedule"; `{d}IM irtaḫiṣ` "the storm-god Adad flooded". `uštabši` is a Š-stem perfect (lemma `bašûm-Š`).
+
+## House renderings added by hammurabi-gap-a (2026-10-12)
+`ša pî ṭuppišu` "according to his tablet"; `bēl kirîm` "the owner of the orchard"; `tamkārum šū ul immagar` "that merchant shall not agree"; `bīt ilkim` "a house that carries fief-duty"; `ina mimma ša iddinu ītelli` "he forfeits whatever he gave"; `bītum ana bēlīšu itâr` "the house returns to its owner"; `ina ūmīšu lā malûtim` "before his days are full"; `tabal` "take away!" (lemma tabālum). Spellings `ītelli`, `īšu`.

@@ -35,6 +35,23 @@ Rules that apply to every run, whatever the work:
 6. Audio for modern languages is built by `.github/workflows/audio.yml` on the runner when a root
    `*.json` is pushed; ancient-language audio is a separate phase per work.
 
+## Models — the cheapest one that does the job (owner's standing rule, 2026-10-12)
+
+Every run, in every routine: if Sonnet can do a piece of work without losing accuracy, Sonnet does
+it (`model: "sonnet"` in the Agent call). The strongest model available (the routine's own — Opus,
+or Fable) is kept for what needs it, and is used freely there.
+- **Sonnet:** mechanical and copying work — shaping text already cut by a script into the work's
+  JSON, glossary entries, reformatting, applying a decided list of edits, summarising logs, checking
+  coverage or file lists; and any role a runbook gives to Sonnet.
+- **Strongest model:** reading scans and plates where no second reader checks the result, drafting
+  translations and notes, adversarial review, adjudicating disputes, and any judgment where an error
+  would reach the reader unnoticed.
+- Sonnet's output is checked by script or by a strongest-model reviewer wherever it matters; never
+  take its word that it checked itself.
+- Where a work's runbook names a model for a role, follow it. If a Sonnet role keeps producing errors
+  that the review has to catch, move that role back to the strongest model and say so in
+  `QUESTIONS.md`. The LOG line says which roles ran on Sonnet.
+
 ## The queue — one routine for every work, forever
 
 There is one routine, *Lectorium — text pipeline*, for all works. It does not know which text it is

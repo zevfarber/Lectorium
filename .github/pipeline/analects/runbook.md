@@ -20,7 +20,10 @@ commentary, compare Han characters with difflib) and list every non-graphic vari
 Same format as the pilot: one dict per lemma (stretch between Zhu Xi's comments), in order; `pas`
 on the first unit of each numbered passage; `w` the tap-unit line (see the header of the pilot
 file); `l`, `i`, `n`. Polyphones state their reading on every occurrence. New glossary entries go in
-`glossary_seed.py` (classical senses; Zhu Xi's glosses are the primary crib). Units whose wording
+`glossary_seed.py` (classical senses; Zhu Xi's glosses are the primary crib), written by a separate
+**glosser subagent on Sonnet** (`model: "sonnet"`) from the drafted units, and checked entry by entry in
+the review pass (owner's rule of 2026-10-12, `../README.md` "Models"). Drafter and reviewer stay on the
+strongest model. Units whose wording
 repeats an earlier passage (e.g. 17.17 = 1.3, Book 9's 主忠信… = 1.8) take the English already shipped.
 Then an adversarial review pass: every grammatical claim in every note true of this line; Chinese →
 `l` → `i` agreement; echoes of famous modern translations rephrased; variants noted.

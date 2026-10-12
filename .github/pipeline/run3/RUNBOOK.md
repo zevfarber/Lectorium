@@ -39,6 +39,10 @@ works, `novel-forms.json` / `known-forms.json`.
 ## 2. Draft — three roles, each a separate subagent with only the files named
 Drafter and reviewer run on the strongest model available (the routine's own); the glosser runs on Sonnet
 (`model: "sonnet"` in the Agent call). The work's `runbook.md` says exactly what each role gets and writes.
+Owner's standing rule (2026-10-12; in full in `../README.md`, "Models"): any other piece of work Sonnet can do
+without losing accuracy — copying, reshaping script output into JSON, applying a decided list of edits, coverage
+checks — goes to a Sonnet subagent too; the strongest model is kept for reading plates and scans, drafting, review
+and judgment. The LOG line says which roles ran on Sonnet.
 
 **Drafter** — writes `drafts/<id>/units.json` in the work's schema (runbook.md). `t` / the source words
 are cut from the packet by a small script, never retyped. The model of shape and register is the work's

@@ -101,8 +101,14 @@ Use the Agent tool, `general-purpose`, in waves of four pages at a time.
 the absolute path of `/tmp/run/p<ppp>` and `__OUT__` by `pass1.json`. Tell it to read the prompt
 file and follow it. Record each agent's token count.
 
-**Pass 2** — the same, fresh agents, `__OUT__` = `pass2.json`, and add to the instruction: *ignore
-pass1.json in that folder; do not open it*. Independence is the point.
+**Pass 2** — the same, fresh agents **on Sonnet** (`model: "sonnet"` in the Agent call), `__OUT__` =
+`pass2.json`, and add to the instruction: *ignore pass1.json in that folder; do not open it*. Independence is the
+point, and a different model makes the two passes more independent still: what either pass gets wrong shows up as a
+dispute, and the adjudicator (strongest model, as is Pass 1) decides it from the image. Owner's rule of 2026-10-12
+(`../README.md`, "Models"). Watch the dispute count: if Sonnet pages run well above the usual four disagreements
+a page (more than ten a page across a whole batch), rerun Pass 2 on the strongest model for that batch, and if it
+happens in two batches running, put Pass 2 back on the strongest model and say so in `QUESTIONS.md`. Put the
+disputes per page in the LOG line.
 
 **Diff** — `python3 tools/diff_passes.py /tmp/run <first> <last>` → `/tmp/run/disputes.json`.
 Expect roughly four disagreements per page. Forty on one page means a pass went wrong; rerun

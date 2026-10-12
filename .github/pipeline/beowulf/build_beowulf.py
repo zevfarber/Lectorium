@@ -57,6 +57,9 @@ first = B.jload(os.path.join(B.ROOT, 'beowulf-fitt-02.json'))
 story = {'id': pid, 'title': first['title'], 'titleEn': P['titleEn'], 'language': 'Old English', 'langCode': None,
          'work': first['work'], 'workEn': first['workEn'], 'part': P['part'], 'source': B.source_statement(P),
          'about': first['about'], 'glossaryFile': 'beowulf-glossary.json', 'sentences': units}
+# A rebuilt part that already has its voice keeps pointing at it (new parts are voiced by the audio job on push)
+if os.path.exists(os.path.join(B.ROOT, 'audio', pid, 'align.json')):
+    story = {**{k: v for k, v in story.items() if k != 'sentences'}, 'audio': 'audio/' + pid, 'sentences': units}
 M = B.jload(os.path.join(B.ROOT, 'stories.json')); st = M['stories']
 st[:] = [e for e in st if e.get('id') != pid]
 order = [p['id'] for p in B.parts()['parts']]

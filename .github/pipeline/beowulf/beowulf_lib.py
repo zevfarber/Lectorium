@@ -49,6 +49,19 @@ def charset_errors(t):
 def page_range(p):
     a, b = p['pages'][0], p['pages'][-1]
     return f'p. {a}' if a == b else f'pp. {a}–{b}'
+AUDIO_STATEMENT = (
+    "Pronunciation convention: reconstructed late West Saxon, c. 1000, following Campbell's Old English Grammar — a"
+    'nd the recorded reading follows it, within stated limits. No synthetic voice for Old English exists, so the re'
+    'ading is produced by an American English neural voice under per-word phonetic pinning: every sound is specifie'
+    "d outright rather than left to modern English habits. So æ is the vowel of 'cat' and a the open back vowel of "
+    "'father'; short and long vowels stay apart; ea and eo are sounded as two-part diphthongs; sc is 'sh', cg the '"
+    "j' of 'edge', hw a breathy w; h after a vowel is the rasp of German 'ach' or 'ich'; and doubled consonants are"
+    ' held long. The limits: the voice has no throaty g (dagas, lagu), so it says a plain g; long ǣ, long ȳ and lon'
+    'g ēa are heard short; compounds are not split, so a sound at the seam of a compound is occasionally voiced whe'
+    're it should not be; and unstressed vowels keep their full quality. The reading is a model of one scholarly co'
+    'nvention, as much a reconstruction as the text. Translations made fresh from the original.')
+
+
 def source_statement(p):
     label = 'the unnumbered prologue' if p['seq'] == 0 else f"fitt {p['fitt']}"
     s = (f"Fr. Klaeber, Beowulf and the Fight at Finnsburg, 1st edition (Boston: D. C. Heath & Co., 1922), "
@@ -61,6 +74,8 @@ def source_statement(p):
     if p['seq'] in (29, 30):
         s += ("Klaeber prints the section numeral [XXVIIII–XXX] at line 2039 and marks no new section at line 2093; the division "
               "between fitts XXIX and XXX at 2093 is ours. ")
-    s += ("Pronunciation convention: reconstructed late West Saxon, c. 1000, following Campbell's Old English Grammar. "
-          "Translations made fresh from the original.")
+    # The audio sentence (Zev chose the American English carrier, 2026-10-12): every part states the convention
+    # AND what the recorded reading can and cannot do, as the Hávamál and Hammurabi parts do. Keep it in step with
+    # PINNED["Old English"] in .github/scripts/build_pinned.py and with audio-notes.md.
+    s += AUDIO_STATEMENT
     return s

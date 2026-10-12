@@ -69,8 +69,8 @@ Set the part's `status` to `published` in `parts.json`, regenerate `plan.md` wit
 house renderings into the table in `conventions.md`, delete your claim file, and commit everything — `<id>.json`,
 `beowulf-glossary.json`, `stories.json`, `drafts/<id>/`, the pipeline records — with a message like
 `Beowulf: <id> — <name> (lines A–B)`. Push to `main`; if `main` has moved, `git pull --rebase` and push again; never
-force. Do not touch `reader.html`, `index.html`, audio, or other works' files. Old English audio is a separate phase:
-do not build any.
+force. Do not touch `reader.html`, `index.html`, audio, or other works' files. Old English audio is built by the site's
+audio job when your part is pushed (see conventions.md, Audio): do not build any yourself.
 
 ## If something is wrong that you cannot fix
 Write it to `QUESTIONS.md` (what, where, what you decided or why you stopped), release the claim, and stop. A run that

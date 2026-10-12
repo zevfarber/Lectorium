@@ -1,6 +1,7 @@
 # Beowulf audio — notes for the full build (2026-10-12)
 
-Status: **samples only, waiting for Zev's choice.** No Beowulf story file has audio and none was changed.
+Status: **Voice B chosen by Zev on 2026-10-12 and wired into the automatic audio build** (see "Decision and build" at
+the end). The sections between here and there are the sample-round record, kept as written.
 Listening page: https://zevfarber.github.io/Lectorium/audio-pilot/beowulf.html (lines 1–11).
 
 ## Pronunciation
@@ -41,3 +42,22 @@ Whole poem (3,182 lines, 5,743 unique word forms, counted with this g2p): about 
   every three hours, 44 fitts) it is about $0.50 per fitt paid, so roughly 20 fitts fit in a $10 month alongside nothing
   else. `build_pinned.py` already stops at the budget and the daily check warns Zev.
 - The sample run itself: 14,106 WaveNet + 28,224 Neural2 characters (≈ $0.45), recorded in `audio/_tts-usage.json`.
+
+## Decision and build (2026-10-12)
+Zev chose **Voice B, en-US-Neural2-D** (rate 0.85, 350 ms pause at each verse-line end).
+- `.github/scripts/oe_voice.py` wraps `oe_g2p.py` (which stays here, the one copy of the rules) with the voice's accepted
+  inventory from `audio-pilot/beowulf/report.json`, geminates on, and a `sentence_ssml` that reads each unit line by
+  line with the sample's breaks. Refused symbols fall back as in the sample: æː→æ, æːɑ→æɑ, yː→y, ɣ→g.
+- `build_pinned.py`: `PINNED["Old English"]` (aligner fallback espeak `en`); `SAYABLE` now includes æ and ɑ so hwæt and
+  þā get word clips; Beowulf parts go in poem order: a part waits (recorded under "blocked") while an earlier part is
+  blocked by the budget this month. Determinism is checked once, through the build's own request path, into
+  `audio/_oe-determinism.json`.
+- `pick_targets.py`: "Old English" in `PINNED_AUTO`, `beowulf-` in `BUILD_ON_PUSH` (a newly pushed fitt is voiced at
+  once), Beowulf in poem order (prologue first), three Beowulf parts ride along every daily "missing" sweep, and a
+  dispatch id `missing:beowulf-` voices every unvoiced part in order.
+- Each part's `source` ends with the audio statement (`AUDIO_STATEMENT` in `beowulf_lib.py`), which names the convention,
+  the carrier and its limits: no [ɣ]; long ǣ, ȳ, ēa heard short; unsplit compounds; full unstressed vowels.
+- Spending is counted in `audio/_tts-usage.json` (Neural2 family) like every other voice; the $10 monthly budget stops
+  the build and the daily budget check tells Zev. Measured estimate for the ten parts published on 2026-10-12: about
+  326k characters (sentence clips 204k, word clips 122k, word clips shared across parts), about $5.20 at paid Neural2
+  rates.

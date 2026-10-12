@@ -48,6 +48,13 @@ PINNED = {
     "Akkadian (Old Babylonian)": {"module": "akkadian_g2p", "voice": "de-DE-Neural2-D", "lang": "de-DE",
                                   "voices": ["de-DE-Neural2-D", "de-DE-Wavenet-B"],
                                   "rate": 0.85, "espeak": "de"},
+    # Old English (Beowulf), added 2026-10-12: reconstructed late West Saxon, c. 1000, after Campbell
+    # (.github/pipeline/beowulf/oe_g2p.py, wrapped by oe_voice.py). Zev chose Voice B of the sample round
+    # (audio-pilot/beowulf.html): the American English carrier, which keeps true æ, back ɑ, long vowels,
+    # the ea/eo diphthongs and geminates; measured bit-identical on the same input twice. Rate 0.85 and a
+    # 350 ms pause at each verse-line end, as in the sample.
+    "Old English": {"module": "oe_voice", "voice": "en-US-Neural2-D", "lang": "en-US",
+                    "rate": 0.85, "espeak": "en"},
 }
 TTS_URL = "https://texttospeech.googleapis.com/v1/text:synthesize"
 # customPronunciations (per-word IPA over plain text) is a v1beta1 field; the proem was made with it.
@@ -113,6 +120,28 @@ def block(sid, voice, need):
     print("BUDGET: %s skipped; voicing it would bring this month to US$%.2f (budget US$%.2f)"
           % (sid, month_cost(voice, need), MONTHLY_BUDGET_USD))
 THROTTLE_S = 0.25
+# A word clip is made only for a pin with a vowel in it (a bare elided consonant has nothing to say alone).
+# æ and ɑ added 2026-10-12 for Old English (hwæt, þā); no other language's module emits them.
+SAYABLE = "[aeiouyɛɔɪʏʊœɨæɑ]"
+
+
+def _poem_seq(sid):
+    """Position of a Beowulf part in the poem (prologue 0, fitt NN = NN), else None."""
+    m = re.match(r"beowulf-(?:prologue|fitt-(\d+))$", sid)
+    return None if not m else int(m.group(1) or 0)
+
+
+def earlier_part_waiting(sid):
+    """Beowulf is voiced in poem order (2026-10-12): if an earlier part was skipped for the budget this
+    month and still has no audio, a later part waits too, so a small later fitt never jumps the queue."""
+    me = _poem_seq(sid)
+    if me is None:
+        return None
+    for b in _usage().get("blocked", {}).get(_month(), {}):
+        k = _poem_seq(b)
+        if k is not None and k < me and not os.path.exists("audio/%s/align.json" % b):
+            return b
+    return None
 ELISION = "’᾽'ʼ᾿"
 # printed punctuation -> what the carrier voice sees (pauses only)
 PUNCT = {".": ".", ",": ",", ";": "?", ";": "?", "·": ",", "·": ",", "!": "!", ":": ","}
@@ -266,7 +295,7 @@ def estimate(story, G, cfg, adir):
     shared, seen = shared_word_clips(cfg["voice"]), set()
     for k, (ip, x) in word_inputs(story, G, cfg).items():
         kx = _key(x)
-        if kx in shared or kx in seen or not re.search("[aeiouyɛɔɪʏʊœɨ]", ip):
+        if kx in shared or kx in seen or not re.search(SAYABLE, ip):
             continue
         seen.add(kx); need += input_cost(x)
     return need
@@ -314,6 +343,11 @@ def main():
     if need and cost > MONTHLY_BUDGET_USD:
         block(sid, v, need)
         return
+    waiting = earlier_part_waiting(sid)
+    if need and waiting:
+        print("BUDGET: %s waits for %s, which is ahead of it in the poem" % (sid, waiting))
+        block(sid, v, need)
+        return
     os.makedirs(adir + "/w", exist_ok=True)
 
     # Aspirates: keep [pʰ tʰ kʰ] only if the voice accepts ʰ; otherwise fall back to p t k.
@@ -323,6 +357,8 @@ def main():
         except RuntimeError as e:
             print("voice refuses ʰ, aspirates fall back to plain stops:", e); G.ASP = ""
     open(vf, "w").write(cfg["voice"] + "\n")
+    if hasattr(G, "determinism_check"):              # Old English: once ever, see oe_voice.py
+        G.determinism_check(cfg, lambda x: synth_input(x, cfg, key))
 
     prev = json.load(open(tf, encoding="utf-8")) if os.path.exists(tf) else {}
     sins = [sentence_input(s, G, cfg) for s in story["sentences"]]
@@ -345,7 +381,7 @@ def main():
     wmade, copied, skipped = 0, 0, []
     for k in sorted(winp):
         ip, x = winp[k]
-        if not re.search("[aeiouyɛɔɪʏʊœɨ]", ip):
+        if not re.search(SAYABLE, ip):
             skipped.append(k); continue          # a bare elided consonant has nothing to say alone
         if k not in words:
             words[k] = nxt; nxt += 1

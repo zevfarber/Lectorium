@@ -22,7 +22,8 @@ VOICE_LANGS = {"de-DE", "fr-FR", "zh-CN", "ar-XA", "he-IL"}   # keep in sync wit
 PINNED_AUTO = {"Ancient Greek",     # approved by ear 2026-10-04 (WaveNet voice)
                "Latin",             # approved by ear 2026-10-04 (audio-pilot/latin.html, Voice A)
                "Old East Slavic",   # the proem's hand method (July 2026), automatic from 2026-10-04
-               "Akkadian (Old Babylonian)"}   # German carrier chosen by ear 2026-10-11 (Hammurabi)
+               "Akkadian (Old Babylonian)",   # German carrier chosen by ear 2026-10-11 (Hammurabi)
+               "Old English"}       # American English carrier chosen by ear 2026-10-12 (Beowulf, Voice B)
 _DISPATCH_OK = set()
 
 # Order of the daily "missing" sweep (2026-10-04). Audio must stay inside Google's free monthly
@@ -30,11 +31,17 @@ _DISPATCH_OK = set()
 # Zev asked for them ("Odyssey first"); anything not listed comes after, alphabetically.
 MISSING_PRIORITY = ["odyssey-", "slovo-", "aesop-", "ovid-met-", "pyramus-thisbe"]
 # Works whose new parts are built the moment they are pushed, ahead of the sweep (Zev, 2026-10-04).
-BUILD_ON_PUSH = ("odyssey-", "hammurabi-")   # Hammurabi added 2026-10-11
+BUILD_ON_PUSH = ("odyssey-", "hammurabi-", "beowulf-")   # Hammurabi added 2026-10-11, Beowulf 2026-10-12
 
 
 def _priority(sid):
     return next((n for n, p in enumerate(MISSING_PRIORITY) if sid.startswith(p)), len(MISSING_PRIORITY))
+
+
+def _order(sid):
+    """Sort key: priority group, then id — except that Beowulf goes in poem order (the prologue first;
+    by id alone it would sort after fitt 43)."""
+    return (_priority(sid), "beowulf-fitt-00" if sid == "beowulf-prologue" else sid)
 
 
 def _pinned_new(path, sid):
@@ -91,6 +98,7 @@ def changed_root_jsons():
 BASELINE_BACKFILL_PER_RUN = 4
 MISSING_PER_RUN = 40   # stories per "missing" sweep (2026-10-04: the Greek backfill runs daily)
 GREEK_ALONGSIDE = 10   # of those, kept for Greek stories further down the order (see main)
+BEOWULF_ALONGSIDE = 3  # Beowulf parts without audio ride along every sweep, in poem order (2026-10-12)
 
 
 def stale_alignment():
@@ -165,13 +173,20 @@ def missing_audio():
             continue
         if not os.path.exists(os.path.join("audio", sid, "align.json")):
             out.append(sid)
-    return sorted(out, key=lambda x: (_priority(x), x))
+    return sorted(out, key=_order)
 
 
 def main():
     ids = []
     dispatch = os.environ.get("DISPATCH_ID", "").strip()
-    if dispatch.lower() == "missing":
+    if dispatch.lower().startswith("missing:"):
+        # "missing:<prefix>" (2026-10-12): every story of one work with no audio yet, in order —
+        # e.g. "missing:beowulf-" voices the published fitts in poem order until the budget stops it.
+        _DISPATCH_OK.update(PINNED_AUTO)
+        pre = dispatch.split(":", 1)[1].strip()
+        ids.extend(x for x in missing_audio() if x.startswith(pre))
+        print("dispatch %r: %d story/ies" % (dispatch, len(ids)))
+    elif dispatch.lower() == "missing":
         ids.extend(missing_audio())
         print("dispatch 'missing': %d story/ies have no clips yet" % len(ids))
         # One job may run at most 6 hours. A daily scheduled sweep takes a slice; the rest wait.
@@ -180,7 +195,8 @@ def main():
         head = ids[:MISSING_PER_RUN - GREEK_ALONGSIDE]
         # (With the Odyssey first the head is Greek already; the rule matters once Latin leads.)
         greek = [x for x in ids[len(head):] if x.startswith(("aesop-", "odyssey-"))][:GREEK_ALONGSIDE]
-        ids = head + greek
+        oe = [x for x in ids[len(head):] if x.startswith("beowulf-")][:BEOWULF_ALONGSIDE]
+        ids = head + greek + oe
     elif dispatch:
         _DISPATCH_OK.update(PINNED_AUTO)
         name = dispatch[:-5] if dispatch.endswith(".json") else dispatch
@@ -199,7 +215,7 @@ def main():
                     ids.append(sid)
         ids.extend(stale_alignment())
 
-    ids = sorted(set(ids), key=lambda x: (_priority(x), x))
+    ids = sorted(set(ids), key=_order)
     gh_out = os.environ.get("GITHUB_OUTPUT")
     if gh_out:
         with open(gh_out, "a") as g:

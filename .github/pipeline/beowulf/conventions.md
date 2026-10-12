@@ -60,6 +60,15 @@ apparatus gives it and it matters for the sense.
 - **A famous crux** with no house rendering: render it from the lexica as plainly as the grammar allows, say in the
   note that the reading is disputed, and write it to `QUESTIONS.md` with what you chose.
 
+## Audio (decided 2026-10-12)
+
+Zev chose the American English carrier (Voice B of the sample round, audio-pilot/beowulf.html): en-US-Neural2-D, rate
+0.85, a 350 ms pause at each verse-line end, every word pinned to IPA by `oe_g2p.py` (reconstructed late West Saxon,
+c. 1000, after Campbell). The audio is built by the site's automatic audio job, never by a drafting run: a newly
+published part is voiced when it is pushed, in poem order, within the monthly audio budget. Every part's `source` ends
+with the standing audio statement (`AUDIO_STATEMENT` in `beowulf_lib.py`; the build copies it) naming the convention, the
+carrier and its limits. Do not edit it by hand in a part; change it in `beowulf_lib.py`, and only with the voice.
+
 ## Glossary (`beowulf-glossary.json`, shared by every part)
 
 - Key = the word as printed, lowercased, brackets and parentheses stripped (þon[n]e → þonne) — exactly the reader's

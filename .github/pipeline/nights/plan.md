@@ -125,6 +125,7 @@ repository is the state, never this table. Run it rather than trusting what is w
 | Night 33 | P266L09–P276L14 | published 2026-10-10, 207 sense units (1 verse block), 7 disjoint slices + 1 whole-night review; 597 new glossary entries (→22181), shared file wording kept on collisions |
 | Night 34 | P276L15–P283L23 | published 2026-10-11, 127 sense units (several verse blocks), 4 disjoint slices + 1 whole-night review; +437 glossary entries (→22618), existing keys kept except 2 prefix-explanation rewrites |
 | Night 35 | P284L01–P296L11 | published 2026-10-12, 168 sense units, 9 disjoint slices + 1 whole-night review; +696 glossary entries, existing keys kept on collisions |
+| Night 36 | P296L12–P301L20 | published 2026-10-13, 107 sense units, 6 disjoint slices + 1 whole-night review; +355 glossary entries, existing keys kept on collisions |
 
 A night runs 84–224 archived lines (about 5½ printed pages), so eight transcribed pages yield
 roughly one and a half nights. Eight units are waiting as of 2026-09-18, so the next several

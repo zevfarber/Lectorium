@@ -76,9 +76,9 @@ def lines_tr(s):
 
 
 def skeleton(s):
-    s = unicodedata.normalize('NFD', (s or '').lower())
+    s = (s or '').lower().replace('ḳ', 'q')  # before NFD, which would split ḳ into k + dot
+    s = unicodedata.normalize('NFD', s)
     s = re.sub(r'\{[^}]*\}|\([^)]*\)', '', s)
-    s = s.replace('ḳ', 'q')
     s = ''.join(c for c in s if not unicodedata.combining(c))
     s = re.sub(r'[₀-₉0-9]', '', s)
     return re.sub(r'[^a-zšṣṭḫqĝʾ]', '', s)

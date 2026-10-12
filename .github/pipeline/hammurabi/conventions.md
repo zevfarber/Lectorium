@@ -61,6 +61,10 @@ subscript indices (`ša₃`, `ṣi₂`), Sumerograms CAPS with dots; it reconstr
 gloss.json + earlier parts' glossaries).
 
 ## Lessons already learned (keep them)
+- q, never ḳ (owner, 2026-10-12): every reader-facing field — glyph `tr`, `reading`, `say`, `l`, `i`, notes,
+  glosses — writes q, including when a note cites Harper's own spelling (Harper's eḳlam is cited as eqlam).
+  Glyph values follow the modern indices: KI read qi = `qi₂`, KU read qu = `qu₂`, GA read qa = `qa₂`, IG = `iq`,
+  AK = `aq`. Harper's ḳ survives only in the pinned source and the packet.
 - Write Sumerograms as glyph `tr` from the start — never slices of the Akkadian word (A.ŠÀ, not "e"+"qil").
 - `a-du` is said `adu` (Harper Plate IX, col. vi 21 shows DU, not DI); the note says it is a variant of adi.
 - KÙ is KU3, not KU. KAR (TE-gunû), ITI fall back to Noto glyph shapes — that is accepted.

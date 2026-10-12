@@ -1,0 +1,4 @@
+# Aeneid — log
+
+- 2026-10-12 · archive · `archive_aeneid.py` over Perseus TEI phi0690.phi003.perseus-lat2 (Greenough, Ginn 1881): 12 books, 9,897 lines (incl. 10.62b), 447 printed paragraphs, 61 bracketed lines; 99 parts (71–132 lines, median 99), I.1–101 pinned. Witness B (The Latin Library, cltk mirror) collated with u/v and i/j folded: 1,034 disagreements across the poem, 8 in Book I.
+- 2026-10-12 · aeneid-001 · I.1–101 · pilot · 44 units · 528 glossary forms (new file aeneid-glossary.json) · 11 hand scansions (1.16 hiatus Samo hic; 1.21; 1.27 iniuria; 1.30 reliquias; 1.38 Teucrorum; 1.42 iaculata; 1.43 disiecit; 1.47 coniunx; 1.85 Eurus; 1.92 Aeneae; 1.96 Danaum) · Witness B in range: 1.40 Argivum/Argivom (orthography, no note) · house renderings I.1, I.11, I.33, I.94 · reader.html untouched · not on queue.txt (awaiting the owner's approval of the pilot).

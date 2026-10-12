@@ -1,0 +1,125 @@
+{
+ "_note": "Hand scansions that override the shared scanner (.github/scripts/scan_latin.py), keyed book.line; one sc string per reader word of that line, same format as the scanner. Add a line here only after scanning it by hand, and say why. Recurring scanner blind spots in Virgil: Greek eu (Eurus, Teucri) and initial Ae- split in two; consonantal i after a prefix (coniunx, iniuria, disiecit) read as a vowel; it prefers synizesis (Danaum, reliquias) over the ordinary reading.",
+ "1.16": {
+  "sc": [
+   "1pos–tha⏑bi⏑2ta–",
+   "co⏑lu⏑3is–se⏑",
+   "Sa⏑4mo–‖",
+   "hic–",
+   "5il–li⏑us⏑",
+   "6ar–ma×"
+  ],
+  "why": "Samō hīc: Virgil's famous hiatus — no elision across the pause; Samos has a short first syllable."
+ },
+ "1.21": {
+  "sc": [
+   "1hinc–",
+   "po⏑pu⏑2lum–",
+   "la–3te–",
+   "re–4gem–‖",
+   "bel–5lo–que⏑",
+   "su⏑6per–bum×"
+  ],
+  "why": "pŏpŭlum, lātē, rēgem; the scanner had po- and pu- long and late, regem short."
+ },
+ "1.27": {
+  "sc": [
+   "1iu–di⏑ci⏑2um–",
+   "Pa⏑ri⏑3dis–‖",
+   "spre–4tae–que",
+   "in–5iu–ri⏑a⏑",
+   "6for–mae×"
+  ],
+  "why": "in-iū-ri-a: the second i is consonantal (in + ius)."
+ },
+ "1.30": {
+  "sc": [
+   "1Tro–as–",
+   "2re–li⏑qui⏑3as–‖",
+   "Da⏑na⏑um",
+   "4at–que",
+   "im–5mi–tis⏑",
+   "A⏑6chil–li×"
+  ],
+  "why": "rēliquiās with long first syllable (relliquiae); Danaum's -um and atque's -e elide. The scanner forced synizesis on reliquias instead."
+ },
+ "1.38": {
+  "sc": [
+   "1nec–",
+   "pos–se",
+   "2I–ta⏑li⏑3a–‖",
+   "Teu–4cro–rum",
+   "a–5ver–te⏑re⏑",
+   "6re–gem×"
+  ],
+  "why": "Teu- is a diphthong (Teucri); the scanner split it into two shorts."
+ },
+ "1.42": {
+  "sc": [
+   "1Ip–sa⏑",
+   "Io⏑2vis–",
+   "ra⏑pi⏑3dum–‖",
+   "ia⏑cu⏑4la–ta",
+   "e–",
+   "5nu–bi⏑bus⏑",
+   "6ig–nem×"
+  ],
+  "why": "iăcŭlāta, with its -a elided into long ē; the scanner had ia- and cu- long."
+ },
+ "1.43": {
+  "sc": [
+   "1dis–ie–2cit–que⏑",
+   "ra⏑3tes–‖",
+   "e–4ver–tit–que",
+   "5ae–quo⏑ra⏑",
+   "6ven–tis×"
+  ],
+  "why": "dis-iē-cit: three syllables, the i consonantal after the prefix."
+ },
+ "1.47": {
+  "sc": [
+   "1et–",
+   "so⏑ror⏑",
+   "2et–",
+   "con–3iunx–‖",
+   "u–4na–",
+   "cum–",
+   "5gen–te⏑",
+   "tot⏑",
+   "6an–nos×"
+  ],
+  "why": "con-iunx: two syllables, the i consonantal."
+ },
+ "1.85": {
+  "sc": [
+   "1u–na",
+   "Eu–2rus–que⏑",
+   "No⏑3tus–que⏑",
+   "ru⏑4unt–‖",
+   "cre–5ber–que⏑",
+   "pro⏑6cel–lis×"
+  ],
+  "why": "Eu- of Eurus is the Greek diphthong; ūna elides into it."
+ },
+ "1.92": {
+  "sc": [
+   "1Ex–tem–plo",
+   "2Ae–ne–3ae–‖",
+   "sol–4vun–tur–",
+   "5fri–go⏑re⏑",
+   "6mem–bra×"
+  ],
+  "why": "Ae-nē-ae: three long syllables; the scanner split the initial diphthong and shortened -ne-."
+ },
+ "1.96": {
+  "sc": [
+   "1con–ti⏑git⏑",
+   "2op–pe⏑te⏑re",
+   "3O–",
+   "Da⏑na⏑4um–‖",
+   "for–5tis–si⏑me⏑",
+   "6gen–tis×"
+  ],
+  "why": "Dănăūm in three syllables, oppetere's -e elided into Ō; the scanner preferred synizesis (naum) with a long Da-."
+ }
+}

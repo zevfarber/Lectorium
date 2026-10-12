@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Beowulf voices</title>
+<style>
+:root{--bg:#faf8f3;--fg:#222;--muted:#6b665c;--line:#e3ddd0;--accent:#7a5c2e}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1b19;--fg:#ece8df;--muted:#a39d90;--line:#35322c;--accent:#d2ac6a}}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.5 Georgia,serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 60px}
+h1{font-size:1.5rem;margin:0 0 4px}.sub{color:var(--muted);margin:0 0 20px}
+.poem{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:14px 0;margin:0 0 20px}
+.poem div{display:flex;gap:14px}.poem .n{color:var(--muted);font-size:.8rem;width:22px;text-align:right;padding-top:3px}
+.poem .t{font-size:1.15rem}
+.opt{border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin:0 0 14px}
+.opt h2{font-size:1.05rem;margin:0 0 2px;color:var(--accent)}.opt p{margin:0 0 8px;color:var(--muted);font-size:.95rem}
+audio{width:100%;height:36px}
+</style></head><body><main>
+<h1>Two voices for Beowulf</h1>
+<p class="sub">The opening of the poem, lines 1–11, read in the reconstructed pronunciation of about the year 1000. Both voices are given the same sounds to say. The American voice can make a few sounds the German one cannot, such as the vowel in English “cat”, so it comes a little closer to the reconstruction.</p>
+<div class="poem" id="poem"></div>
+<div id="opts"></div>
+</main><script>
+const LINES=["Hwæt, wē Gār-Dena in gēardagum,","þēodcyninga þrym gefrūnon,","hū ðā æþelingas ellen fremedon!","Oft Scyld Scēfing sceaþena þrēatum,","monegum mǣgþum meodosetla oftēah,","egsode eorl[as], syððan ǣrest wearð","fēasceaft funden; hē þæs frōfre gebād,","wēox under wolcnum weorðmyndum þāh,","oð þæt him ǣghwylc ymbsittendra","ofer hronrāde hȳran scolde,","gomban gyldan; þæt wæs gōd cyning!"];
+const OPTS=[
+ ["A","de-DE-Wavenet-B","German voice, the same one that reads the Greek and Latin."],
+ ["B","en-US-Neural2-D","American English voice, the clearest of the Akkadian round."]];
+const P=document.getElementById('poem');
+LINES.forEach((t,i)=>{const d=document.createElement('div');d.innerHTML='<span class="n"></span><span class="t"></span>';d.children[0].textContent=i+1;d.children[1].textContent=t;P.appendChild(d)});
+fetch('beowulf/report.json',{cache:'no-store'}).then(r=>r.json()).catch(()=>({voices:{}})).then(rep=>{
+  const O=document.getElementById('opts');
+  OPTS.forEach(([lab,v,desc])=>{
+    const r=(rep.voices||{})[v];
+    if(rep.voices&&Object.keys(rep.voices).length&&(!r||r.skipped||r.render_error||r.hide))return;
+    const d=document.createElement('div');d.className='opt';
+    d.innerHTML='<h2>Voice '+lab+'</h2><p></p><audio controls preload="none"></audio>';
+    d.querySelector('p').textContent=desc;d.querySelector('audio').src='beowulf/'+v+'.mp3';
+    O.appendChild(d);
+  });
+});
+</script></body></html>

@@ -1,0 +1,3 @@
+# Iliad — run log
+
+2026-10-12 · iliad-001 · 1.1–100 · pilot, made in an attended session for the owner's verdict; not yet on the queue · 55 units, 519 glossary forms (387 started from the Odyssey glossary and checked against this use, entries pinned to Odyssey lines rewritten; 132 new) · one drafter, then a self-review pass (9 fixes: two English layers rephrased after the echo check on 1.1–2 and 1.13, two notes' claims tightened — apodotic δέ at 1.54, the δϝ of ἔδεισεν at 1.33 — one unverifiable claim about ancient variants removed at 1.20, one line-ending claim corrected at 1.57) · scansion: 100 of 100 lines fit, none flagged · 1.68, 1.73 and 1.88 reuse the English the Odyssey gives the same Greek · build and validate PASS.

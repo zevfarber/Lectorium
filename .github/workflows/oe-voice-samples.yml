@@ -1,0 +1,56 @@
+name: Beowulf voice samples
+
+# Samples only, 2026-10-12: Beowulf lines 1-11 read by candidate carrier voices under IPA pins
+# (.github/pipeline/beowulf/voice_samples.py), into audio-pilot/beowulf/, for Zev to choose by ear.
+# Runs when the sample script or this file is pushed, or by hand. Touches no story file.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/pipeline/beowulf/voice_samples.py'
+      - '.github/workflows/oe-voice-samples.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: oe-voice-samples
+  cancel-in-progress: false
+
+jobs:
+  samples:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Probe voices and render samples
+        env:
+          GOOGLE_TTS_KEY: ${{ secrets.GOOGLE_TTS_KEY }}
+        run: python3 .github/pipeline/beowulf/voice_samples.py
+      - name: Commit samples (and add the characters to the usage count)
+        run: |
+          git config user.name "lectorium-audio-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p /tmp/out && cp -r audio-pilot/beowulf /tmp/out/
+          for a in 1 2 3 4 5; do
+            git fetch origin main && git reset --hard origin/main
+            mkdir -p audio-pilot && rm -rf audio-pilot/beowulf && cp -r /tmp/out/beowulf audio-pilot/
+            python3 - <<'PY'
+          import json, time
+          u = json.load(open("audio/_tts-usage.json"))
+          m = time.strftime("%Y-%m", time.gmtime())
+          for fam, n in json.load(open("audio-pilot/beowulf/chars.json")).items():
+              u.setdefault(fam, {})[m] = u.get(fam, {}).get(m, 0) + n
+          json.dump(u, open("audio/_tts-usage.json", "w", encoding="utf-8"), indent=1, sort_keys=True)
+          PY
+            git add audio-pilot/beowulf audio/_tts-usage.json
+            git diff --cached --quiet && exit 0
+            git commit -m "Beowulf voice samples (lines 1-11) [skip ci]"
+            git push && exit 0
+            sleep $((a*5))
+          done
+          exit 1

@@ -106,3 +106,6 @@ distinctive modern rendering the reviewer recognises (never opened as a source).
   Assyrian copies) and gap-b (merchant-and-loan laws, from the Nippur tablet PBS V 93 with Cuq/Scheil's reading).
   Establishing gap-a establishes both. Ungnad's approximate numbers ("§ cca. 71") become `ln: 71` and the
   note says the number is approximate.
+
+## House renderings added by hammurabi-laws-42-51 (2026-10-12)
+`bēl eqlim` "the owner of the field"; `bēl ḫubullim` "the creditor"; `ṭuppašu uraṭṭab` "he shall soak his tablet" (the debt tablet is wetted, cancelling it); `ana pî ṣimdat šarrim` "according to the king's schedule"; `{d}IM irtaḫiṣ` "the storm-god Adad flooded". `uštabši` is a Š-stem perfect (lemma `bašûm-Š`).

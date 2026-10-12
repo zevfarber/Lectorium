@@ -1,0 +1,44 @@
+# Line check — hammurabi-laws-42-51
+
+Stele lines whose sign values differ from Harper's transliteration (ratio < 0.75 after stripping accents, indices, braces). Most are logograms Harper writes as the Akkadian word; each must be confirmed on the plate.
+
+- XII 66: ours 'inaAŠÀŠElauštabši' · Harper 'i-na eḳlim šeʾam {b}la uš-tab-ši' · 0.72
+- XII 67: ours 'inaAŠÀšiipriim' · Harper 'i-na eḳlim ši-ip-{b}ri-im' · 0.73
+- XIII 4: ours 'anabeelAŠÀ' · Harper 'a-na be-el eḳlim' · 0.64
+- XIII 9: ours 'anabeelAŠÀ' · Harper 'a-na be-el eḳlim' · 0.64
+- XIII 15: ours 'anabeelAŠÀ' · Harper 'a-na be-el eḳlim' · 0.64
+- XIII 18: ours 'AŠÀKIKAL' · Harper 'eḳlam KI.KAL.' · 0.67
+- XIII 19: ours 'anaMU3' · Harper 'a-na šattim III{kam}' · 0.47
+- XIII 26: ours 'AŠÀmaaari' · Harper 'eḳlam ma-a-a-ri' · 0.70
+- XIII 30: ours 'anabeelAŠÀ' · Harper 'a-na be-el eḳlim' · 0.64
+- XIII 36: ours 'AŠÀšuanaGÚN' · Harper 'eḳil-šu a-na biltim' · 0.38
+- XIII 39: ours 'ùGÚNAŠÀšu' · Harper 'u bilat eḳli-šu' · 0.38
+- XIII 41: ours 'waarkaAŠÀ' · Harper 'wa-ar-ka eḳlam' · 0.70
+- XIII 42: ours 'IMirtaḫiiṣ' · Harper '{ilu}Adad ir-ta-ḫi-iṣ' · 0.73
+- XIII 47: ours 'šummaGÚNAŠÀšu' · Harper 'šum-ma bilat eḳli-šu' · 0.55
+- XIII 51: ours 'AŠÀiddiin' · Harper 'eḳlam id-di-in' · 0.70
+- XIII 52: ours 'ŠEšainaAŠÀ' · Harper 'šeʾam ša i-na eḳlim' · 0.56
+- XIII 55: ours 'ùbeelAŠÀ' · Harper 'u be-el eḳlim' · 0.56
+- XIII 64: ours 'beelAŠÀ' · Harper 'be-el eḳlim' · 0.50
+- XIV 2: ours 'AŠÀšu' · Harper 'eḳil-šu' · 0.36
+- XIV 3: ours 'IM' · Harper '{ilu}Adad' · 0.00
+- XIV 8: ours 'ŠEinaAŠÀ' · Harper 'šeʾum i-na eḳlim' · 0.48
+- XIV 19: ours 'KÙBABBARittiDAMGÀR' · Harper 'kaspam it-ti {b}tamkarim' · 0.61
+- XIV 21: ours 'AŠÀipšetim' · Harper 'eḳil ip-še-tim' · 0.67
+- XIV 22: ours 'šaŠEùluŠEGIŠÌ' · Harper 'ša šeʾim u lu {b}šamaššammim' · 0.53
+- XIV 24: ours 'AŠÀeriišma' · Harper 'eḳlam e-ri-iš-ma' · 0.73
+- XIV 25: ours 'ŠEùluuŠEGIŠÌ' · Harper 'šeʾam u lu-u {b}šamaššammam' · 0.50
+- XIV 30: ours 'inaAŠÀŠE' · Harper 'i-na eḳlim šeʾam' · 0.48
+- XIV 31: ours 'ùluŠEGIŠÌ' · Harper 'u lu šamaššammam' · 0.43
+- XIV 33: ours 'inaBURU₁₄ŠEùŠEGIŠÌ' · Harper 'i-na ebûrim šeʾam {b}u šamaššammam' · 0.48
+- XIV 35: ours 'beelAŠÀma' · Harper 'be-el eḳli-ma' · 0.63
+- XIV 37: ours 'ŠEšaKÙBABBARšu' · Harper 'šeʾam ša kaspi-šu' · 0.57
+- XIV 43: ours 'anaDAMGÀR' · Harper 'a-na tamkarim' · 0.70
+- XIV 47: ours 'AŠÀŠEGIŠÌ' · Harper 'eḳil šamaššammim' · 0.33
+- XIV 49: ours 'ŠEùŠEGIŠÌ' · Harper 'šeʾam u šamaššammam' · 0.38
+- XIV 50: ours 'šainaAŠÀ' · Harper 'ša i-na eḳlim' · 0.56
+- XIV 52: ours 'beelAŠÀma' · Harper 'be-el eḳli-ma' · 0.63
+- XIV 54: ours 'KÙBABBARùṣibazu' · Harper 'kaspam u ṣi-ba-zu' · 0.71
+- XIV 56: ours 'šummaKÙBABBAR' · Harper 'šum-ma kaspam' · 0.67
+- XIV 59: ours 'ŠEGIŠÌ' · Harper 'šamaššammam' · 0.24
+- XIV 61: ours 'šaKÙBABBARšu' · Harper 'ša kaspi-šu' · 0.57

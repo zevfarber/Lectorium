@@ -961,5 +961,41 @@
  {
   "url": "https://archive.org/download/historical-inscriptions-containing-principally-the-chronological-prism-w-b.-444/Historical%20inscriptions%3B%20containing%20principally%20the%20chronological%20prism%2C%20W-B.%20444_jp2.zip",
   "dest": ".github/pipeline/king-list/source/raw/langdon1923_jp2.zip"
+ },
+ {
+  "url": "https://archive.org/download/keischrifttexte-der-gesetze-hammurapis/Keischrifttexte%20der%20Gesetze%20Hammurapis.pdf",
+  "dest": ".github/pipeline/hammurabi/source/witnesses/ungnad1909-keilschrifttexte-b.pdf"
+ },
+ {
+  "url": "https://archive.org/download/keischrifttexte-der-gesetze-hammurapis/Keischrifttexte%20der%20Gesetze%20Hammurapis_djvu.txt",
+  "dest": ".github/pipeline/hammurabi/source/witnesses/ungnad1909-b_djvu.txt"
+ },
+ {
+  "url": "https://archive.org/download/lesnouveauxfragm00cuquoft/lesnouveauxfragm00cuquoft.pdf",
+  "dest": ".github/pipeline/hammurabi/source/witnesses/cuq1918-nouveaux-fragments.pdf"
+ },
+ {
+  "url": "https://archive.org/download/lesnouveauxfragm00cuquoft/lesnouveauxfragm00cuquoft_djvu.txt",
+  "dest": ".github/pipeline/hammurabi/source/witnesses/cuq1918_djvu.txt"
+ },
+ {
+  "url": "https://archive.org/download/pedeirkaineymabinogille/pedeirkaineymabinogille_djvu.txt",
+  "dest": ".github/pipeline/mabinogi/source/raw/rhys-evans1905_djvu.txt"
+ },
+ {
+  "url": "https://archive.org/advancedsearch.php?q=%28ugaritic+OR+ugarit+OR+%22ras+shamra%22+OR+aqhat+OR+danel+OR+danil%29+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=300&output=json&fl[]=title&fl[]=date&fl[]=creator",
+  "dest": ".github/pipeline/run3/probe/search-ugarit.json"
+ },
+ {
+  "url": "https://archive.org/advancedsearch.php?q=%28scheil%29+AND+%28hammourabi+OR+hammurabi+OR+code%29&fl%5B%5D=identifier&rows=300&output=json&fl[]=title&fl[]=date&fl[]=creator",
+  "dest": ".github/pipeline/run3/probe/search-scheil.json"
+ },
+ {
+  "url": "https://archive.org/advancedsearch.php?q=%28%22revue+d%27assyriologie%22%29+AND+date%3A%5B1900-01-01+TO+1929-12-31%5D&fl%5B%5D=identifier&rows=300&output=json&fl[]=title&fl[]=date&fl[]=creator",
+  "dest": ".github/pipeline/run3/probe/search-ra.json"
+ },
+ {
+  "url": "https://archive.org/advancedsearch.php?q=%28king%29+AND+%28hammurabi%29+AND+%28cuneiform+texts%29+AND+date%3A%5B1898-01-01+TO+1929-12-31%5D&fl%5B%5D=identifier&rows=300&output=json&fl[]=title&fl[]=date&fl[]=creator",
+  "dest": ".github/pipeline/run3/probe/search-ctbm.json"
  }
 ]

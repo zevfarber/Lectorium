@@ -160,11 +160,6 @@
   "note": ""
  },
  {
-  "url": "https://www.tau.ac.il/~hacohen/KN/",
-  "dest": ".github/pipeline/run3/probe/kn-index.html",
-  "note": ""
- },
- {
   "url": "https://www.tau.ac.il/~hacohen/KN/KN%20117.html",
   "dest": ".github/pipeline/run3/probe/kn-117.html",
   "note": ""
@@ -647,54 +642,6 @@
   "dest": ".github/pipeline/kebra-nagast/source/raw/KN-118.html"
  },
  {
-  "url": "https://www.tau.ac.il/~hacohen/KN/KN%20119.html",
-  "dest": ".github/pipeline/kebra-nagast/source/raw/KN-119.html"
- },
- {
-  "url": "https://www.tau.ac.il/~hacohen/KN/KN%20120.html",
-  "dest": ".github/pipeline/kebra-nagast/source/raw/KN-120.html"
- },
- {
-  "url": "https://www.tau.ac.il/~hacohen/KN/KN%20121.html",
-  "dest": ".github/pipeline/kebra-nagast/source/raw/KN-121.html"
- },
- {
-  "url": "https://www.tau.ac.il/~hacohen/KN/KN%20122.html",
-  "dest": ".github/pipeline/kebra-nagast/source/raw/KN-122.html"
- },
- {
-  "url": "https://www.tau.ac.il/~hacohen/KN/KN%20123.html",
-  "dest": ".github/pipeline/kebra-nagast/source/raw/KN-123.html"
- },
- {
-  "url": "https://www.tau.ac.il/~hacohen/KN/KN%20124.html",
-  "dest": ".github/pipeline/kebra-nagast/source/raw/KN-124.html"
- },
- {
-  "url": "https://www.tau.ac.il/~hacohen/KN/KN%20125.html",
-  "dest": ".github/pipeline/kebra-nagast/source/raw/KN-125.html"
- },
- {
-  "url": "https://www.tau.ac.il/~hacohen/KN/KN%20126.html",
-  "dest": ".github/pipeline/kebra-nagast/source/raw/KN-126.html"
- },
- {
-  "url": "https://www.tau.ac.il/~hacohen/KN/KN%20127.html",
-  "dest": ".github/pipeline/kebra-nagast/source/raw/KN-127.html"
- },
- {
-  "url": "https://www.tau.ac.il/~hacohen/KN/KN%20128.html",
-  "dest": ".github/pipeline/kebra-nagast/source/raw/KN-128.html"
- },
- {
-  "url": "https://www.tau.ac.il/~hacohen/KN/KN%20129.html",
-  "dest": ".github/pipeline/kebra-nagast/source/raw/KN-129.html"
- },
- {
-  "url": "https://www.tau.ac.il/~hacohen/KN/KN%20130.html",
-  "dest": ".github/pipeline/kebra-nagast/source/raw/KN-130.html"
- },
- {
   "url": "https://ja.wikisource.org/w/api.php?action=parse&page=%E9%9F%B3%E8%A8%B3%E8%92%99%E6%96%87%E5%85%83%E6%9C%9D%E7%A7%98%E5%8F%B2&prop=text&format=json&formatversion=2&origin=%2A",
   "dest": ".github/pipeline/secret-history/source/raw/45284.json"
  },
@@ -907,14 +854,6 @@
   "dest": ".github/pipeline/run3/probe/ia-cantardemocidte00pidagoog.json"
  },
  {
-  "url": "https://archive.org/download/keilschrifttexte00hammuoft/keilschrifttexte00hammuoft.pdf",
-  "dest": ".github/pipeline/hammurabi/source/witnesses/ungnad1909-keilschrifttexte.pdf"
- },
- {
-  "url": "https://archive.org/download/keilschrifttexte00hammuoft/keilschrifttexte00hammuoft_djvu.txt",
-  "dest": ".github/pipeline/hammurabi/source/witnesses/ungnad1909_djvu.txt"
- },
- {
   "url": "https://archive.org/download/historicalgramma00poeb/historicalgramma00poeb.pdf",
   "dest": ".github/pipeline/hammurabi/source/witnesses/poebel1914-pbs5.pdf"
  },
@@ -997,5 +936,33 @@
  {
   "url": "https://archive.org/advancedsearch.php?q=%28king%29+AND+%28hammurabi%29+AND+%28cuneiform+texts%29+AND+date%3A%5B1898-01-01+TO+1929-12-31%5D&fl%5B%5D=identifier&rows=300&output=json&fl[]=title&fl[]=date&fl[]=creator",
   "dest": ".github/pipeline/run3/probe/search-ctbm.json"
+ },
+ {
+  "url": "https://archive.org/download/hammurabisgesetz02hamm/hammurabisgesetz02hamm.pdf",
+  "dest": ".github/pipeline/hammurabi/source/witnesses/kpu-vol2-ungnad1909.pdf"
+ },
+ {
+  "url": "https://archive.org/download/pedeirkaineymabinogille/pedeirkaineymabinogille.pdf",
+  "dest": ".github/pipeline/mabinogi/source/raw/rhys-evans1905.pdf"
+ },
+ {
+  "url": "https://archive.org/metadata/leggendadiaqhatt0000unse",
+  "dest": ".github/pipeline/run3/probe/ia-leggendadiaqhatt0000unse.json"
+ },
+ {
+  "url": "https://archive.org/metadata/ugaritictextbook0000vari",
+  "dest": ".github/pipeline/run3/probe/ia-ugaritictextbook0000vari.json"
+ },
+ {
+  "url": "https://archive.org/metadata/religious-texts-from-ugarit-whole",
+  "dest": ".github/pipeline/run3/probe/ia-religious-texts-from-ugarit-whole.json"
+ },
+ {
+  "url": "https://archive.org/metadata/lestextesderassh0001dela",
+  "dest": ".github/pipeline/run3/probe/ia-lestextesderassh0001dela.json"
+ },
+ {
+  "url": "https://archive.org/metadata/cuneiformtextsof0000clau",
+  "dest": ".github/pipeline/run3/probe/ia-cuneiformtextsof0000clau.json"
  }
 ]

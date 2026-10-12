@@ -1,0 +1,45 @@
+name: Fetch Run 3 sources
+
+# Downloads the public-domain sources listed in .github/pipeline/run3/fetch-requests.json into the
+# repository, because Claude's cloud sessions cannot reach archive.org, Wikisource or university
+# sites, and a runner can. Pushing a change to the request list is the trigger. The commit touches
+# only .github/pipeline/** (audio.yml filters root-level *.json), carries [skip ci], and is made with
+# the built-in token, so it starts no further runs.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/pipeline/run3/fetch-requests.json'
+      - '.github/scripts/fetch_run3.py'
+      - '.github/workflows/fetch-run3.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-run3
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch
+        run: python .github/scripts/fetch_run3.py
+      - name: Commit
+        run: |
+          set -eo pipefail
+          git config user.name  'lectorium-archiver'
+          git config user.email 'actions@github.com'
+          git add .github/pipeline
+          if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
+          N=$(git diff --cached --name-only | wc -l | tr -d ' ')
+          git commit -m "Run 3 sources fetched ($N file(s)) [skip ci]"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 10; done

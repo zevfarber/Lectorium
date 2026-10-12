@@ -175,6 +175,8 @@ def build(pid, check=False):
         "dir": "ltr",
         "numbering": "stanza",
         "glossaryFile": "analects-glossary.json",
+        # keep a shipped audio field: a rebuild must never un-ship clips that exist
+        **({"audio": "audio/" + pid} if os.path.exists(os.path.join(REPO, "audio", pid, "align.json")) else {}),
         "source": parts["sourceStatement"].replace("{BOOK}", str(part["book"])).replace("{TITLE}", part["title"]),
         "about": part["about"],
         "sentences": sentences,

@@ -88,3 +88,10 @@ carrier and its limits. Do not edit it by hand in a part; change it in `beowulf_
 | mānscaða | crime-scather (`l`) | wicked marauder (`i`) | beowulf-fitt-11 line 712 |
 | fyrena hyrde | keeper of crimes (`l`) | keeper of wickedness (`i`) | beowulf-fitt-11 line 750 |
 | Godes andsacan | God's adversary (`l`) | God's enemy (`i`) | beowulf-fitt-11 line 786 |
+| herebyrne | war-byrnie (`l`) | war-corslet (`i`) | beowulf-fitt-21 |
+| bāncofa | bone-chamber (`l`) | body (`i`) | beowulf-fitt-21 |
+| sund cunnian | try the swim (`l`) | try the water (`i`) | beowulf-fitt-21 |
+| heaþoswāt | battle-sweat (`l`) | blood of battle (`i`) | beowulf-fitt-21 |
+| wǣgbora | wave-bearer (`l`) | wave-bearer (`i`) | beowulf-fitt-21 |
+| nicorhūs | water-monster-houses (`l`) | water-monster-houses (`i`) | beowulf-fitt-21 |
+| seglrād | sail-road (`l`) | sail-road (`i`) | beowulf-fitt-21 |

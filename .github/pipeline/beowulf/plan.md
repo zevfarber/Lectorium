@@ -1,6 +1,6 @@
 # Beowulf — plan
 
-16 of 44 parts published. One part per fitt, as Klaeber numbers them.
+17 of 44 parts published. One part per fitt, as Klaeber numbers them.
 
 | part | fitt | lines | status |
 |---|---|---|---|
@@ -20,7 +20,7 @@
 | beowulf-fitt-13 | XIII · The Song of Sigemund | 837–924 | published |
 | beowulf-fitt-14 | XIV · Hrothgar Gives Thanks | 925–990 | published |
 | beowulf-fitt-15 | XV · Gifts for the Victor | 991–1049 | published |
-| beowulf-fitt-16 | XVI · Hildeburh’s Sorrow | 1050–1124 | todo |
+| beowulf-fitt-16 | XVI · Hildeburh’s Sorrow | 1050–1124 | published |
 | beowulf-fitt-17 | XVII · Hengest’s Winter | 1125–1191 | todo |
 | beowulf-fitt-18 | XVIII · The Queen’s Necklace | 1192–1250 | todo |
 | beowulf-fitt-19 | XIX · The Mother’s Revenge | 1251–1320 | todo |

@@ -46,6 +46,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          # Latest main, not the commit that triggered the run (2026-10-13): runs queue behind each other
+          # in the build-audio group, and a queued run that started from its trigger commit could not
+          # rebase its audio/_tts-usage.json onto the previous run's — two sweeps' clips were lost that way.
+          ref: main
           fetch-depth: 0
 
       - name: Set up Python

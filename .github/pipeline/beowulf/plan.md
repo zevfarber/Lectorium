@@ -1,6 +1,6 @@
 # Beowulf — plan
 
-18 of 44 parts published. One part per fitt, as Klaeber numbers them.
+19 of 44 parts published. One part per fitt, as Klaeber numbers them.
 
 | part | fitt | lines | status |
 |---|---|---|---|
@@ -22,7 +22,7 @@
 | beowulf-fitt-15 | XV · Gifts for the Victor | 991–1049 | published |
 | beowulf-fitt-16 | XVI · Hildeburh’s Sorrow | 1050–1124 | published |
 | beowulf-fitt-17 | XVII · Hengest’s Winter | 1125–1191 | published |
-| beowulf-fitt-18 | XVIII · The Queen’s Necklace | 1192–1250 | todo |
+| beowulf-fitt-18 | XVIII · The Queen’s Necklace | 1192–1250 | published |
 | beowulf-fitt-19 | XIX · The Mother’s Revenge | 1251–1320 | todo |
 | beowulf-fitt-20 | XX · The Haunted Mere | 1321–1382 | todo |
 | beowulf-fitt-21 | XXI · Hrunting | 1383–1472 | todo |

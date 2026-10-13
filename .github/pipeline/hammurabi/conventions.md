@@ -116,3 +116,6 @@ distinctive modern rendering the reviewer recognises (never opened as a source).
 
 ## House renderings added by hammurabi-gap-a (2026-10-12)
 `ša pî ṭuppišu` "according to his tablet"; `bēl kirîm` "the owner of the orchard"; `tamkārum šū ul immagar` "that merchant shall not agree"; `bīt ilkim` "a house that carries fief-duty"; `ina mimma ša iddinu ītelli` "he forfeits whatever he gave"; `bītum ana bēlīšu itâr` "the house returns to its owner"; `ina ūmīšu lā malûtim` "before his days are full"; `tabal` "take away!" (lemma tabālum). Spellings `ītelli`, `īšu`.
+
+## House renderings added by hammurabi-gap-b (2026-10-13)
+Laws 89–100 numbered as approximate (Cuq's articles 90–97, 'article 100' = 99, 'article 101' opening = 100). Spellings of leqûm in q (ilqi, ilteqēma); upaṣ, NER, GIŠ.BAR left untranslated and marked uncertain; `ša ḫubullam ilqû` rendered from grammar (see units).

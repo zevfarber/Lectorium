@@ -1,6 +1,6 @@
 # Beowulf — plan
 
-22 of 44 parts published. One part per fitt, as Klaeber numbers them.
+23 of 44 parts published. One part per fitt, as Klaeber numbers them.
 
 | part | fitt | lines | status |
 |---|---|---|---|
@@ -26,7 +26,7 @@
 | beowulf-fitt-19 | XIX · The Mother’s Revenge | 1251–1320 | published |
 | beowulf-fitt-20 | XX · The Haunted Mere | 1321–1382 | published |
 | beowulf-fitt-21 | XXI · Hrunting | 1383–1472 | published |
-| beowulf-fitt-22 | XXII · The Dive | 1473–1556 | todo |
+| beowulf-fitt-22 | XXII · The Dive | 1473–1556 | published |
 | beowulf-fitt-23 | XXIII · The Giant’s Sword | 1557–1650 | todo |
 | beowulf-fitt-24 | XXIV · The Golden Hilt | 1651–1739 | todo |
 | beowulf-fitt-25 | XXV · The Price of Pride | 1740–1816 | todo |

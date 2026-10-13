@@ -95,3 +95,11 @@ carrier and its limits. Do not edit it by hand in a part; change it in `beowulf_
 | wǣgbora | wave-bearer (`l`) | wave-bearer (`i`) | beowulf-fitt-21 |
 | nicorhūs | water-monster-houses (`l`) | water-monster-houses (`i`) | beowulf-fitt-21 |
 | seglrād | sail-road (`l`) | sail-road (`i`) | beowulf-fitt-21 |
+| brimwylf | sea-she-wolf | sea-she-wolf | beowulf-fitt-22 |
+| merewīf | mere-woman | mere-woman | beowulf-fitt-22 |
+| beadolēoma | battle-light | battle-light | beowulf-fitt-22 |
+| brēostnet | breast-net | breast-net | beowulf-fitt-22 |
+| herenet | war-net | war-net | beowulf-fitt-22 |
+| selegyst | hall-guest | hall-guest | beowulf-fitt-22 |
+| fēþecempa | foot-fighter | foot-fighter | beowulf-fitt-22 |
+| Weder-Gēata | Weder-Geats (`l`) | Geats | beowulf-fitt-22 |

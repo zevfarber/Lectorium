@@ -128,3 +128,6 @@ Laws 89–100 numbered as approximate (Cuq's articles 90–97, 'article 100' = 9
 
 ## House renderings added by hammurabi-laws-127-140 (2026-10-13)
 `mutum` "husband" (short u; mūtum is "death"): mutiša, mussa; `ugbabtum` in §127 is NIN.AN alone (no ŠAL), uncertain; `zittum` "share" (Harper ṣi-it-tam); `{šal}šugītum` uncertain; `pagrum` (XXII 14) is only Harper's restoration, marked uncertain; GE in šu-gi₄-tim is GI4. §133A (Harper's heading) has no ln/p: chips run 127–140.
+
+## House renderings added by hammurabi-laws-141-152 (2026-10-13)
+`zikiltam izakkil` "plays the fool" (Harper's sense, uncertain); `ezibša iqtabi` "says 'I divorce her'" (ezēbum = "divorce" throughout); `ḫarrānša uzubbûša` "her journey (?), her divorce payment"; `ana wuṣîm panīša ištakan` "set her face to go out"; `bēlissa` "her mistress" (bēltum); `abbuttam išakkanši` "puts the slave-mark (?) on her"; `uštamaḫḫar/uštatamḫir` "make herself equal"; `laʾbum` "a sickness"; `aššum … lā ṣabātiša` "so that the creditor may not seize her"; `kilallašunu` "both of them"; `tamkāram ippalū` "they shall pay the merchant"; permissive present rendered "may" where §144 `ul iḫḫaz` shows the contrast. Spellings `ūldu`, `īzibšim`, `ušamṭa`, `iṣabbatū`. Logograms without complement are bare (SAL, GEME₂, É, KÙ.BABBAR); `{b}` marks a sub-row within one stele line.

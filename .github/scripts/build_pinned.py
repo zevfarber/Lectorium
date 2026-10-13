@@ -72,7 +72,7 @@ USAGE_FILE = "audio/_tts-usage.json"
 FAMILIES = ("Chirp", "Neural2", "Wavenet", "Standard")
 FREE_CHARS = {"Chirp": 1000000, "Neural2": 1000000, "Wavenet": 4000000, "Standard": 4000000}
 USD_PER_MILLION = {"Chirp": 30.0, "Neural2": 16.0, "Wavenet": 16.0, "Standard": 4.0}
-MONTHLY_BUDGET_USD = 10.0
+MONTHLY_BUDGET_USD = 35.0   # raised from 10.0 by Zev, 2026-10-13, to clear the backlog
 
 
 def _family(voice):

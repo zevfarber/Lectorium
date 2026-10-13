@@ -47,11 +47,12 @@ scan anomaly turns up later in the volume.
 | done (2026-10-11, unattended) | 311–318 | 291–298 | `archive/pp291-298.json` | Night 35 continues (Badr al-Din and the wazir; verse P295); Night 36 label inline P296L12; all 7 joins continuous |
 | done (2026-10-12, unattended) | 319–326 | 299–306 | `archive/pp299-306.json` | Night 36 complete (P296L12–P301L20); Night 37 label inline P301L21; verse P324/P326; all 7 joins continuous |
 | done (2026-10-13, unattended) | 327–334 | 307–314 | `archive/pp307-314.json` | Night 37 complete (P301L21–P312L10); Night 38 label P312L11; verse P327, P330–333; all 7 joins continuous |
+| done (2026-10-13, unattended) | 335–342 | 315–322 | `archive/pp315-322.json` | Night 38 (from P312L11) runs through; Night 39 label P320L14; verse P335, P336–339; all 7 joins continuous |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 334 (archive ends at printed p. 314). Pages remaining: ~620 PDF pages
-(approximate, pending the corrected offset holding). Lines archived: 5680. calc.traineddata last
+**Last PDF page done: 342 (archive ends at printed p. 322). Pages remaining: ~612 PDF pages
+(approximate, pending the corrected offset holding). Lines archived: 5859. calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new
 verified line pairs (pp. 127-131, 133-134 prose only, verse/heading excluded; p. 132 excluded, its

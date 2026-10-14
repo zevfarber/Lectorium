@@ -1,6 +1,6 @@
 # Beowulf — plan
 
-30 of 44 parts published. One part per fitt, as Klaeber numbers them.
+31 of 44 parts published. One part per fitt, as Klaeber numbers them.
 
 | part | fitt | lines | status |
 |---|---|---|---|
@@ -34,7 +34,7 @@
 | beowulf-fitt-27 | XXVII · The Voyage Home | 1888–1962 | published |
 | beowulf-fitt-28 | XXVIII · Beowulf’s Report | 1963–2038 | published |
 | beowulf-fitt-29 | XXIX · The Old Spear-Bearer | 2039–2092 | published |
-| beowulf-fitt-30 | XXX · The Tale Retold | 2093–2143 | todo |
+| beowulf-fitt-30 | XXX · The Tale Retold | 2093–2143 | published |
 | beowulf-fitt-31 | XXXI · Fifty Winters — and a Dragon | 2144–2220 | todo |
 | beowulf-fitt-32 | XXXII · The Hoard and the Last Survivor | 2221–2311 | todo |
 | beowulf-fitt-33 | XXXIII · Fire in the Night | 2312–2390 | todo |

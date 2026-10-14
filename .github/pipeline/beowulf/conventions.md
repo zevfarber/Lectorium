@@ -112,3 +112,12 @@ carrier and its limits. Do not edit it by hand in a part; change it in `beowulf_
 | wēgflota | wave-floater | ship | beowulf-fitt-27 |
 | bundenstefna | bound-prowed | bound prow | beowulf-fitt-27 |
 | sceādenmǣl | divided-marked | patterned sword | beowulf-fitt-27 |
+| hildestrengo | battle-strength | battle-strength | beowulf-fitt-30 |
+| gūðwiga | war-man | war-man | beowulf-fitt-30 |
+| fyrnwita | ancient-counsellor (`l`) | old counsellor (`i`) | beowulf-fitt-30 |
+| wīghete | war-hate | war-hate | beowulf-fitt-30 |
+| gyrnwræc | grief-vengeance | grief-vengeance | beowulf-fitt-30 |
+| unhȳre | monstrous / ungentle | monstrous | beowulf-fitt-30 |
+| grundhyrde | ground-guardian (`l`) | guardian of the depths (`i`) | beowulf-fitt-30 |
+| dēaðwērig | death-weary | death-weary | beowulf-fitt-30 |
+| hand gemǣne | hand in common (`l`) | hand-to-hand blows (`i`) | beowulf-fitt-30 |

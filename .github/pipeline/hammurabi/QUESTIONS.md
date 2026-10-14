@@ -41,3 +41,11 @@ Each entry: date · part · the question · what was decided meanwhile.
 - 2026-10-14 · hammurabi-laws-185-194 · Published entries superseded by this part's broadened glossary (not edited): none in conflict; but the older izuzzum/zikrum-class wording "UNCERTAIN" stands.
 
 - 2026-10-14 · hammurabi-laws-195-214 · Open (decided meanwhile as stated; full list in drafts/hammurabi-laws-195-214/review.md): (1) published parts 1-10, 127-140, 153-169 write KÙ.BABBAR-im with an IM glyph, but all eleven silver lines here show only KÙ+BABBAR on the plate — check the earlier plates; i-du-uk-ku is UG here, IG in 11-25 and 112-126 — check. (2) Vowel before a suffix: published parts write short (abašu, elišu); followed them. (3) uštaddīši (long) vs uštaddišu in 100-111: house spelling needs a decision. (4) "knocked out" for ittadi/inaddû of a tooth is an idiom for "cast out"; revisit with the nadûm entry. (5) rittum (hand or hands; second sign) and the qinazum three-sign split of Harper's single no. 153 are uncertain. (6) ḫabātum-D and ḫapādum-D both rendered "destroy" in §196; revise if ḫapādum gets a sense. (7) PAD identified by shape only.
+
+## hammurabi-laws-215-240 (2026-10-14)
+- ŠA.GA is keyed GAR+GA in all parts, but Plate LXII (XXXV 82, 90; XXXVI 22) shows a ŠÀ-shaped box + a GAR-shaped sign (Harper nos. 209/128). Decided meanwhile: kept GAR+GA for consistency; a global re-key (SHA3+GA) across ten parts is the owner's call.
+- SHITIM key = Unicode ŠITA (𒋖), matched by shape to Harper no. 168 (bānûm "builder"); tentative. Unicode has no separate ŠITIM here.
+- Earlier QUESTIONS entries about "extra sign groups" (XXVII 34, XXVIII 59, XXVIII 3–5) may share the cause found here (a two-shape šum, or ZI with chevrons) — not re-examined.
+- XXXV 97 (igarum iq-tu-up): plate shows more sign groups after É than the five keyed; unit note says UNCERTAIN.
+- Unread/uncertain words rendered with (?) : nagabtum, idāṣ, ipḫi, izzapar, iṣēn, uštēṣbi, maḫirtum, mukkelbītum, šerʾānum.
+- XXXVI 48, 53, 75–77 were sign-counted less exactly than the rest.

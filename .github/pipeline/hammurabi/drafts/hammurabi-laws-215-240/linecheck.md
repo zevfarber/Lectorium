@@ -1,0 +1,71 @@
+# Line check — hammurabi-laws-215-240
+
+Stele lines whose sign values differ from Harper's transliteration (ratio < 0.75 after stripping accents, indices, braces). Most are logograms Harper writes as the Akkadian word; each must be confirmed on the plate.
+
+- XXXIV 57: ours 'inaGÍRNIUDKABAR' · Harper 'i-na GIR.NI siparrim' · 0.65
+- XXXIV 61: ours 'inaGÍRNIUDKABAR' · Harper 'i-na GIR.NI siparrim' · 0.65
+- XXXIV 65: ours '10GÍNKÙBABBAR' · Harper 'X šiḳil kaspim' · 0.26
+- XXXIV 68: ours '5GÍNKÙBABBAR' · Harper 'V šiḳil kaspim' · 0.26
+- XXXIV 72: ours '2GÍNKÙBABBAR' · Harper 'II šiḳil kaspim' · 0.25
+- XXXIV 76: ours 'inaGÍRNIUDKABAR' · Harper 'i-na GIR.NI siparrim' · 0.65
+- XXXIV 80: ours 'inaGÍRNIUDKABAR' · Harper 'i-na GIR.NI siparrim' · 0.65
+- XXXIV 83: ours 'UMMEšuinakisu' · Harper 'rittê-šu i-na-ki-su' · 0.74
+- XXXIV 86: ours 'inaGÍRNIUDKABAR' · Harper 'i-na GIR.NI siparrim' · 0.65
+- XXXIV 90: ours 'inaGÍRNIUDKABAR' · Harper 'i-na GIR.NI sipar-rim' · 0.65
+- XXXIV 93: ours 'KÙBABBARmišiil' · Harper 'kaspam mi-ši-il' · 0.69
+- XXXV 8: ours '5GÍNKÙBABBAR' · Harper 'V šiḳil kaspim' · 0.26
+- XXXV 11: ours '3GÍNKÙBABBAR' · Harper 'III šiḳil kaspim' · 0.24
+- XXXV 16: ours '2GÍNKÙBABBAR' · Harper 'II šiḳil kaspim' · 0.25
+- XXXV 18: ours 'šummaAZUGU₄' · Harper 'šum-ma A.ZU alpim' · 0.70
+- XXXV 19: ours 'ùluANŠE' · Harper 'u lu imêrim' · 0.50
+- XXXV 20: ours 'luGU₄ùluANŠE' · Harper 'lu alpam u lu imêram' · 0.44
+- XXXV 24: ours 'beelGU₄ùluANŠE' · Harper 'be-el alpim {b}u lu imêrim' · 0.52
+- XXXV 25: ours 'IGI6GALKÙBABBAR' · Harper 'IGI.VI.GAL kaspim' · 0.57
+- XXXV 27: ours 'Ášu' · Harper 'ID-šu' · 0.57
+- XXXV 29: ours 'šummaGU₄ùluANŠE' · Harper 'šum-ma alpam u lu imêram' · 0.55
+- XXXV 34: ours 'anabeelGU₄ùluANŠE' · Harper 'a-na be-el alpim {b}u lu imêrim' · 0.59
+- XXXV 36: ours 'šummaŠUI' · Harper 'šum-ma gallabum' · 0.57
+- XXXV 41: ours 'UMMEŠUIšuati' · Harper 'rittê {b}gallabim šu-a-ti' · 0.40
+- XXXV 44: ours 'ŠUIidaaṣma' · Harper 'gallabam i-da-aṣ-ma' · 0.56
+- XXXV 52: ours 'ŠUIinaiduu' · Harper 'gallabum i-na i-du-u' · 0.64
+- XXXV 56: ours 'šummaŠITIM' · Harper 'šum-ma bânûm' · 0.60
+- XXXV 60: ours 'ana1SARÉ' · Harper 'a-na I SAR bîtim' · 0.63
+- XXXV 61: ours '2GÍNKÙBABBAR' · Harper 'II šiḳil kaspim' · 0.25
+- XXXV 64: ours 'šummaŠITIM' · Harper 'šum-ma bânûm' · 0.60
+- XXXV 66: ours 'Éibuušma' · Harper 'bîtam i-bu-uš-ma' · 0.70
+- XXXV 69: ours 'Éibušu' · Harper 'bîtum i-bu-šu' · 0.62
+- XXXV 72: ours 'ŠITIMšuuiddaak' · Harper 'bânûm šu-u id-da-ak' · 0.71
+- XXXV 73: ours 'šummaDUMUbeelÉ' · Harper 'šum-ma mâr be-el bîtim' · 0.65
+- XXXV 75: ours 'DUMUŠITIMšuati' · Harper 'mâr bânîm šu-a-ti' · 0.59
+- XXXV 79: ours 'ARADkimaARAD' · Harper 'wardam ki-ma wardim' · 0.71
+- XXXV 80: ours 'anabeelÉ' · Harper 'a-na be-el bîtim' · 0.70
+- XXXV 93: ours 'šummaŠITIMÉ' · Harper 'šum-ma bânûm bîtam' · 0.62
+- XXXV 98: ours 'ŠITIMšuu' · Harper 'bânûm šu-u' · 0.50
+- XXXVI 1: ours 'inaKÙBABBARramanišu' · Harper 'i-na kaspim {b}ra-ma-ni-šu' · 0.72
+- XXXVI 4: ours 'šummaMÁDUDU' · Harper 'šum-ma malaḫum' · 0.70
+- XXXVI 5: ours 'GIŠMÁ60GUR' · Harper 'elippi LX GUR' · 0.42
+- XXXVI 7: ours '2GÍNKÙBABBAR' · Harper 'II šiḳil kaspim' · 0.25
+- XXXVI 10: ours 'šummaMÁDUDU' · Harper 'šum-ma malaḫum' · 0.70
+- XXXVI 11: ours 'GIŠMÁanaawilim' · Harper 'elippam {b}a-na a-wi-lim' · 0.73
+- XXXVI 16: ours 'GIŠMÁšii' · Harper 'elippum ši-i' · 0.56
+- XXXVI 19: ours 'MÁDUDU' · Harper 'malaḫum' · 0.46
+- XXXVI 20: ours 'GIŠMÁšuati' · Harper 'elippam šu-a-ti' · 0.64
+- XXXVI 24: ours 'GIŠMÁdannatam' · Harper 'elippam dan-na-tam' · 0.71
+- XXXVI 25: ours 'anabeelGIŠMÁ' · Harper 'a-na be-el elippim' · 0.69
+- XXXVI 28: ours 'GIŠMÁšu' · Harper 'elippi-šu' · 0.40
+- XXXVI 29: ours 'anaMÁDUDU' · Harper 'a-na mal-aḫim' · 0.53
+- XXXVI 32: ours 'MÁDUDUigima' · Harper 'malaḫum {b}i-gi-ma' · 0.70
+- XXXVI 33: ours 'GIŠMÁuttebi' · Harper 'elippam ut-te-bi' · 0.67
+- XXXVI 35: ours 'MÁDUDUGIŠMÁ' · Harper 'malaḫum elippam' · 0.40
+- XXXVI 36: ours 'anabeelGIŠMÁ' · Harper 'a-na be-el elippim' · 0.69
+- XXXVI 39: ours 'MÁDUDUùGIŠMÁ' · Harper 'malaḫam {b}u elippam' · 0.37
+- XXXVI 41: ours 'ŠESÍGÌGIŠZÚLUM' · Harper 'šeʾam šipâtam šamnam suluppam' · 0.45
+- XXXVI 45: ours 'MÁDUDUšuu' · Harper 'ma-laḫum šu-u' · 0.63
+- XXXVI 47: ours 'GIŠMÁutteibbi' · Harper 'elippam ut-te-ib-bi' · 0.71
+- XXXVI 50: ours 'MÁDUDU' · Harper 'malaḫum' · 0.46
+- XXXVI 56: ours 'šummaMÁDUDU' · Harper 'šum-ma malaḫum' · 0.70
+- XXXVI 57: ours 'GIŠMÁawilim' · Harper 'elippi a-wi-lim' · 0.61
+- XXXVI 60: ours 'KÙBABBARmišiilŠÁMša' · Harper 'kaspi mi-ši-il {b}šî-mi-ša' · 0.67
+- XXXVI 63: ours 'MÁDUDU[igur]' · Harper 'malaḫam [i-gur]' · 0.57
+- XXXVI 67: ours 'šumma[GIŠMÁ]' · Harper 'šum-ma [elippum]' · 0.64
+- XXXVI 72: ours 'beelGIŠMÁšaGIŠMÁšutebiaat' · Harper 'be-el elippim ša elippu-šu {b}te-bi-a-at' · 0.68

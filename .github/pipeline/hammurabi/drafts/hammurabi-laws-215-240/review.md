@@ -72,3 +72,54 @@ Counts: high 0, medium 10 rows, low 12 rows (22 rows over 20 units and `about`; 
 3. XXXIV 92 `uḫ-tab-da(=it)` note: I did not recount the signs of this row to the plate (the row is crowded); the note's claim that DA stands where "bi-it" is meant is unchanged and unchecked.
 4. The gloss must handle: tebûm "to rise" (1-10) against "sink" here (broaden); form-lemmas `idāṣ`, `izzapar`, `ipḫi`, `iṣēn`, `uštēṣbi` are UNCERTAIN entries; abbuttum (broaden 141-152's entry); gullubum: the verb "to shave" is galābum, D infinitive gullubum; the lemma `gullubum-D` (units 32, 35, 38) named an infinitive as the verb: renamed `galābum-D`, notes at units 32 and 35 corrected (medium, grammar label; 3 morph entries + 2 notes).
 5. For QUESTIONS.md: the sign-level reading of XXXVI 21–37 and 63–80 rests on Harper's values plus the repeated-word concordance, not on a wedge-by-wedge reading.
+
+## Pass 2
+
+Reviewer: strongest model, adversarial. Inputs: Pass 1 above, RUNBOOK §2, conventions.md, runbook.md, units.json, gloss.json (Sonnet), the published `hammurabi-*.json` glossaries, linecheck.md, Harper's plates 60–64 (PDF 335–343) and List of Signs (PDF 393–407). Backups of units.json and gloss.json as received are outside the repo (scratchpad `rev2/`). Edits were made in place by script; `r3.py build` then `r3.py validate` were run: **PASS**, one WARN (the 67 linecheck lines, below).
+
+### Changes made
+
+| unit / entry | field | severity | what was wrong | what was done |
+|---|---|---|---|---|
+| unit 39 (XXXV 56, §228) | n | medium | Pass 1 and the draft said an unidentified "bar-and-vertical sign" stands between ma and ŠITIM, left unkeyed ("open"). There is no extra sign: šum is drawn in TWO parts (an arrowhead + a hatched triangle: see XXXVI 42 bottom tier "šum-šu", XXXVI 80 "-šum", every "šum-ma" row) and ma is the bar-and-vertical sign (the same shape ends every "-ma", e.g. i-bu-uš-ma at XXXIV 58). The line is šum, ma, ŠITIM (one sign, Harper's no. 168, as the plate row 168 of his list shows it). The note therefore told readers of a sign that does not exist | note rewritten: ŠITIM is one sign, the same alone at XXXV 64, 72, 75, 93, 98; šum two shapes, ma the bar-and-vertical sign; nothing unread before the builder's sign |
+| unit 49 (XXXV 82, §232) | n | medium | same mistake: "a further sign … stands between ma and the ŠÀ-like sign … unkeyed (UNCERTAIN, open)" | sentence replaced by the true state (šum two-part, ma bar-and-vertical, nothing between ma and ŠA.GA). The remark that the first sign looks like ŠÀ (no. 209) and the second like no. 128 stays, as does the GAR/GA key (see refused) |
+| unit 78 (XXXVI 79, §240) | glyph GA `tr`, word `reading`, n | low | glyph `tr` "ga" and reading "ḫal-ga-am" (Harper's g); the house reading of GA as q is `qa₂` and five published parts read this very word ḫal-qa₂-am (conventions: "GA read qa = qa₂") | `tr` qa₂, reading ḫal-qa₂-am; note says Harper prints g, the sign is GA read qa₂. `say` ḫalqam unchanged. The plate sign is the same hatched-comb + arrowhead GA as in ŠA.GA |
+| unit 60 (XXXVI 18, §235) | word `say` | low | say "ḫiṭitam" (short i) against lemma ḫiṭītum and the published ḫiṭītam (141-152) | say ḫiṭītam |
+| units 63, 77, 78 | glyph `val`, word `say` | low | the first glyph of GIŠ.MÁ-šu carried val "elippušu" while `say` was "elippišu" (63, 77 second, 78) — val and say disagreed; and in XXXVI 72 (unit 77 first GIŠ.MÁ-šu, Harper's elippu-šu, the boat as subject of tebiat) `say` was elippišu against Harper's nominative | val = say = elippišu in 63, 77 (second), 78 (Harper's elippi-šu at XXXVI 28, 73, 79); in 77 (first) say = val = elippušu |
+| unit 77 | n | low | note "elippušu, elippišu are GIŠ.MÁ with ŠU" said nothing of which is which | note says elippušu is the subject form (Harper's elippu-šu), elippišu follows ina (Harper's elippi-šu), vowel not written |
+| gloss `elippum` | entry | low | forms met did not include elippušu | elippušu (GIŠ.MÁ-šu, Harper's elippu-šu) added |
+| gloss `__broaden__` `ḫalāqum-D` | new | low | holder (112-126) had only uḫalliqu; this part has uḫtalliq (perfect) three times (XXXV 83, XXXVI 34, 49) and the glosser did not broaden | holder's text kept whole + " · " + the perfect uḫtalliq with two examples |
+| gloss `__broaden__` `egûm` | new | low | holder (112-126) has itēgi(ma), igûma; this part has īgīma (preterite + -ma) at XXXVI 32 and 45 | holder's text kept whole + " · " + īgīma |
+
+Counts: high 0, medium 2, low 7 (9 rows; 8 fields in units.json, 3 in gloss.json). No lemma, grammar label, `l` or `i` needed changing in this pass.
+
+### Task 1 — gloss.json checked against text and grammar
+
+- Every one of the 33 new entries was read against the units that use it (forms, sign spellings, glyph sequence, UNCERTAIN marking). All forms quoted occur in the units; sign claims match the glyphs (e.g. še-e-im = SHE E IM; ZÚ.LUM = KA + LUM; ŠU.I = ŠU + I; IGI.6.GAL); labels are right (uštamīt, uštalim, uḫtabbit, ubtalliṭ perfects; īpušma, imqutma, uttebbi-class forms as the unit notes say; ušaklilšum, uštēliašši carry no tense claim). No invented modern forms, no mis-named grammar found; every UNCERTAIN verb (idāṣ, uštēṣbi, qatāpum, ipḫi, takālum-D, izzapar, naqārum, tebûm-D, iṣēn) is marked in the entry exactly as in its unit note. Lemma names unchanged. No new lemma duplicates one already published.
+- All 15 `__broaden__` entries start with the latest published holder's full text (compared by script against the latest of the 18 earlier `hammurabi-*.json` glossaries, in plan order) followed by " · " and the new reading: nothing dropped or garbled (15/15 identical prefix). Two more were added above. `tebûm` ("rise" in 1-10 against "sink" here) is handled in the entry itself and in unit 64's note.
+- Forms met in this part but covered only by the general entry (case forms, -šu/-ša/-ši/-šum suffix uses, ṣimmim, qīštišu, ramānišu, dannatam, iriabšum, mimmâšu) were left: the entries are general to the form, as the format asks.
+
+### Task 2 — linecheck.md (67 lines) on the plates
+
+Method (and its limit): each row of Plates 60–64 was cut out at zoom 5–9 and the sign groups counted against the glyph sequence for that stele line; repeated words were compared row against row (the six GÍR.NI UD.KA.BAR rows XXXIV 57, 61, 76, 80, 86, 90 are identical shape for shape; KÙ.BABBAR rows 65, 68, 72, XXXV 8, 11, 16, 25, XXXVI 7 are numeral + GÍN + KÙ + BABBAR with nothing after; GU₄ and ANŠE rows XXXV 18–34; MÁ.DU.DU and GIŠ.MÁ rows throughout XXXVI; the ŠU.I, ŠITIM, É, SAR, ŠÁM-šu rows) and Harper's List entries for 109, 128, 129, 138, 148, 168 were looked at. This is sign-group level: I did NOT identify every wedge of every syllabogram independently of Harper.
+Results: all 67 lines confirmed as the same signs Harper prints, written as logograms or numerals where he prints the Akkadian word (his list gives UD.KA.BAR = siparru, IGI+GAL fractions, ŠU.I = gallabu, Á = id/it). The real reading differences found: (a) ḫal-ga-am (q-convention, fixed above); (b) the "extra sign" at XXXV 56, 64, 82, 93 — none, see above; (c) XXXVI 60 numeral row: KÙ BABBAR mi ši il on the upper tier and ŠÁM + ša below, as the unit has it (no extra sign); (d) XXXIV 84: the plate row has ZI with its chevrons and then ma, am, kab, tam and lacks the diamond-cross IM-part that XXXIV 56 and 75 show: Harper's "zi-ma-am" (one m) is what the plate shows, so unit 13's note is right; (e) XXXIV 92: after TAB the plate has ONE box sign (DA) where bi-it is expected, as unit 16's note says (Pass 1 open item 3: now confirmed). Bracketed signs: the plate draws the restored signs in outline exactly where the units bracket them (XXXVI 61 [in], 62 [lum], 63 [i-gur], 64 [ŠE.GUR], 65 [at], 66 [di] [šum], 67 [GIŠ.MÁ], 68 [tim], 69 [uk] [tim]).
+Rows XXXVI 21–37 and 63–80 were read in this pass sign group by sign group: no discrepancy with the units, apart from the items above. Rows examined less closely than the rest (counts plausible, not exact): XXXVI 48, 53, 75–77 (crowded, two-tier).
+
+### Task 3 — second look at units.json
+
+- The "unidentified extra sign group" at XXXV 56/64/93/82 (Pass 1, Open 1) was a mis-count: see unit 39 and 49 above. It is therefore NOT to be said in the `about`; nothing added there.
+- The ŠA.GA key question stays as Pass 1 left it. On the plate (XXXV 82, 90; XXXVI 22) the first sign has the ŠÀ shape (a box with a vertical and a diagonal) and the second is the same hatched-comb + arrowhead sign that writes ga in ḫal-ga-am (XXXVI 79): so the plate reads ŠÀ + GA, and our keys (GAR, GA) differ in the first sign only; a global decision (QUESTIONS.md), not touched here.
+- Nothing else in the 79 units needed changing. Checked again and left: "I did not shave him knowingly" (unit 38, as Pass 1), the units with an unread verb (l keeps the form), the unit-27/30 fractions, ŠU.I, IGI.6.GAL, SAR, Á-šu.
+
+### Findings refused
+
+- GAR → SHA3 for the first sign of ŠA.GA (as Pass 1): eight published parts key it GAR; changing it here shows one logogram two ways in one work.
+- Adding a comment to the `about` on the plate signs: no longer applicable (no extra sign).
+- Re-keying GÍR.NI or UD.KA.BAR from Harper's shape (the plate shows 7 sign groups i-na-GÍR-NI-UD-KA-BAR in all six rows; consistent with his List 148).
+- Splitting "ṣi-ma-am" (unit 13) into ṣi-im-ma-am: the plate lacks the IM part (see (d)).
+
+### Open for the owner / later parts (nothing blocks publication)
+
+1. Earlier parts record "an extra unidentified sign group" at XXVII 34, XXVIII 59 (zi-it-tim) and "more sign groups than the transliteration" at XXVIII 3–5 (QUESTIONS.md, 153-169 and 170-177). In this part the same appearance was produced by two things: šum is a two-shape sign, and ZI is a bar-with-verticals sign followed by chevrons that Harper's List draws as one sign; a re-look at those lines with this in mind may remove them. Not touched (other parts' files).
+2. XXXV 97 (igarum iq-tu-up): the row shows more sign groups after É than the five signs of É.GAR₈ + iq-tu-up; IG/UB are multi-shape signs, so this is unresolved, not an error found; unit 54's note already says UNCERTAIN.
+3. The sign-level reading of the crowded rows remains at sign-group level (see Task 2).

@@ -103,3 +103,4 @@ carrier and its limits. Do not edit it by hand in a part; change it in `beowulf_
 | selegyst | hall-guest | hall-guest | beowulf-fitt-22 |
 | fēþecempa | foot-fighter | foot-fighter | beowulf-fitt-22 |
 | Weder-Gēata | Weder-Geats (`l`) | Geats | beowulf-fitt-22 |
+| Sǣ-Gēatas | Sea-Geats (`l`) | Geats (`i`) | beowulf-fitt-26 |

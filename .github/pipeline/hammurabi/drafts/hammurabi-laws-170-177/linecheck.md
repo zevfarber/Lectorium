@@ -1,0 +1,41 @@
+# Line check — hammurabi-laws-170-177
+
+Stele lines whose sign values differ from Harper's transliteration (ratio < 0.75 after stripping accents, indices, braces). Most are logograms Harper writes as the Akkadian word; each must be confirmed on the plate.
+
+- XXVIII 40: ours 'DUMUulizum' · Harper 'mârê u-li-zum' · 0.70
+- XXVIII 41: ours 'ùGEME₂zu' · Harper 'u ama-zu' · 0.62
+- XXVIII 42: ours 'DUMUulizum' · Harper 'mârê u-li-zum' · 0.70
+- XXVIII 45: ours 'anaDUMUšaGEME₂' · Harper 'a-na mârê ša amtum' · 0.37
+- XXVIII 54: ours 'DUMUḫiirtim' · Harper 'mârê ḫi-ir-tim' · 0.73
+- XXVIII 55: ours 'ùDUMUGEME₂' · Harper 'u mârê amtim' · 0.42
+- XXVIII 58: ours 'DUMUUŠDUMUḫiirtim' · Harper 'TUR.UŠ TUR ḫi-ir-tim' · 0.69
+- XXVIII 64: ours 'anaDUMUšaGEME₂uldušum' · Harper 'a-na mârê ša amtum {b}ul-du-šum' · 0.59
+- XXVIII 70: ours 'DUMUGEME₂' · Harper 'mârê amtim' · 0.35
+- XXVIII 74: ours 'GEME₂ùDUMUša' · Harper 'amtim u mârê-ša' · 0.43
+- XXVIII 76: ours 'DUMUḫiirtim' · Harper 'mârê ḫi-ir-tim' · 0.73
+- XXVIII 77: ours 'anaDUMUGEME₂' · Harper 'a-na mârê amtim' · 0.52
+- XXIX 2: ours 'anaKÙBABBAR' · Harper 'a-na kaspim' · 0.50
+- XXIX 5: ours 'šaDUMUšama' · Harper 'ša mârê-ša-ma' · 0.40
+- XXIX 16: ours 'šummaDUMUša' · Harper 'šum-ma mârê-ša' · 0.73
+- XXIX 22: ours 'DUMUarnam' · Harper 'mârê ar-nam' · 0.67
+- XXIX 24: ours 'SALšii' · Harper 'zinništum ši-i' · 0.44
+- XXIX 27: ours 'šummaSALšii' · Harper 'šum-ma zinništum ši-i' · 0.64
+- XXIX 34: ours 'anaDUMUša' · Harper 'a-na mârê-ša' · 0.67
+- XXIX 41: ours 'šummaSALšii' · Harper 'šum-ma zinništum ši-i' · 0.64
+- XXIX 60: ours 'DUMUSALawilim' · Harper 'mârat a-wi-lim' · 0.67
+- XXIX 62: ours 'DUMU' · Harper 'mârê' · 0.25
+- XXIX 65: ours 'anaDUMU' · Harper 'a-ṇa mârê' · 0.57
+- XXIX 66: ours 'DUMUSALawilim' · Harper 'mârat a-wi-lim' · 0.67
+- XXIX 71: ours 'DUMUSALawilim' · Harper 'mârat a-wi-lim' · 0.67
+- XXIX 77: ours 'anaÉARADÉGAL' · Harper 'a-na bît warad êkallim' · 0.67
+- XXIX 81: ours 'Éipušu' · Harper 'bîtam i-pu-šu' · 0.62
+- XXIX 88: ours 'DUMUSALawilim' · Harper 'mârat a-wi-lim' · 0.67
+- XXX 8: ours 'DUMUSALawilim' · Harper 'mârat a-wi-lim' · 0.67
+- XXX 20: ours 'DUMUSALawilim' · Harper 'mârat a-wi-lim' · 0.67
+- XXX 23: ours 'šaDUMUša' · Harper 'ša mârê-ša' · 0.62
+- XXX 39: ours 'Éšamutiša' · Harper 'bîtam ša mu-ti-ša' · 0.73
+- XXX 43: ours 'ùSALšuati' · Harper 'u zinništim šu-a-ti' · 0.58
+- XXX 47: ours 'Éinaṣaru' · Harper 'bîtam i-na-ṣa-ru' · 0.70
+- XXX 51: ours 'anaKÙBABBAR' · Harper 'a-na kaspim' · 0.50
+- XXX 55: ours 'DUMUNUMUSU' · Harper 'mârê NU.MU.SU' · 0.70
+- XXX 57: ours 'inaKÙBABBARšu' · Harper 'i-na kaspi-šu' · 0.61

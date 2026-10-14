@@ -1,6 +1,6 @@
 # Beowulf — plan
 
-25 of 44 parts published. One part per fitt, as Klaeber numbers them.
+26 of 44 parts published. One part per fitt, as Klaeber numbers them.
 
 | part | fitt | lines | status |
 |---|---|---|---|
@@ -29,7 +29,7 @@
 | beowulf-fitt-22 | XXII · The Dive | 1473–1556 | published |
 | beowulf-fitt-23 | XXIII · The Giant’s Sword | 1557–1650 | published |
 | beowulf-fitt-24 | XXIV · The Golden Hilt | 1651–1739 | published |
-| beowulf-fitt-25 | XXV · The Price of Pride | 1740–1816 | todo |
+| beowulf-fitt-25 | XXV · The Price of Pride | 1740–1816 | published |
 | beowulf-fitt-26 | XXVI · Farewell to Heorot | 1817–1887 | todo |
 | beowulf-fitt-27 | XXVII · The Voyage Home | 1888–1962 | todo |
 | beowulf-fitt-28 | XXVIII · Beowulf’s Report | 1963–2038 | todo |

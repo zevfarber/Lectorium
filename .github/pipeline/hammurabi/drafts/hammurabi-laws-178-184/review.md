@@ -84,3 +84,38 @@ Line division: checked by script against the packet: 158 lines, every unit's fir
 - ŠU vs ZU in DUMU.SAL-šu.
 - Not every syllabogram of every row identified at stroke level (see "Not done").
 - The classes of woman (NIN.AN, SAL, zikrum, kallātim, qadištum, NU.PAR, šugītum), ušamziši, uppal, uṭṭibbū's exact form, ittanaššiši "supporting", ilkam ul illak (reason unstated).
+
+# Review (pass 2) — hammurabi-laws-178-184
+
+Reviewer: strongest model, adversarial. units.json and gloss.json edited in place by script. Not run: build, validate, publish; nothing committed. Counts of changes: high 0, medium 3, low 8.
+
+## Checked
+- units.json, every note: grammatical labels (preterite, perfect, present plural, Gtn, D/Š stems, subjunctive -u, construct, accusative/genitive), `l` against the original word by word, `l` against `i`, remembered English in `i`, house renderings (conventions.md through 170-177), q not ḳ (no ḳ in units.json or gloss.json), `say` against `reading`, glyph roles and `val` of every logogram line against the published parts (NIN.AN, SAL, DUMU.SAL-šu, {šal}É.GI₄.A, ŠA.GA É a-ba, IGI.3.GAL, {d}AMAR.UTU, KÁ.DINGIR.RA{ki}, KÙ.BABBAR, DINGIR). Pass 1's edits (ŠIM, ileqqûma, šaniam, U21 note, about) were re-read and stand.
+- Plate: only a spot check of Plate 52 (PDF 319, XXX right-hand block, the ŠIM / sub-row lines) at zoom 6–8; I could not map the rows to Harper's numerals reliably enough to add anything to pass 1, so no new stroke-level reading is claimed. Rows not read at stroke level in pass 1 remain so (see its "Not done").
+- gloss.json, every entry: each quoted form exists in units.json with that spelling (script: all broaden and new entries); the 24 original `__broaden__` entries were verified by script as the latest published holder's entry WHOLE (latest by `seq` in parts.json) + " · " + new reading, and each new reading was checked against this part's usage.
+
+## Changes (unit/entry · field · severity · what was wrong · what was done)
+| unit / entry | field | severity | what was wrong, what was done |
+|---|---|---|---|
+| U7 (XXXI 9), U16 (XXXI 56), U18 (XXXI 66) | l | medium | `l` said "she-shall-have-the-use-of(-it)", an interpretation; the model (170-177) keeps `l` literal, "she-shall-eat" (ikkal, akālum), the sense going in `i` and the note; changed to "she-shall-eat" |
+| zikrum-priestess (lemma in units U0, U9, U14, gloss.json, new-lemmas.json) | lemma | medium | the lemma name asserted "priestess" for a class the notes call unknown; renamed zikrum-class in units, gloss and new-lemmas; entry reworded |
+| ugbabtum (__broaden__) | new reading | medium | "read as its own word, not as part of the title" was self-contradictory (it described the SAL as read and as unread); rewritten: NIN.AN read ugbabtum as before, UNCERTAIN; the following SAL is not part of the title and is left unread |
+| šarāqum-give | text | low | "with the RU lost on the plate" contradicted pass 1 (RU omitted by the scribe, stele intact); changed to "left out by the scribe" |
+| qadištum | text | low | "a class of woman dedicated to a god" stated a function the text does not give; now "the holy one", from qadāšum, class of woman |
+| NU.PAR | text | low | "a second class of dedicated woman" likewise; "dedicated" removed |
+| ŠE.BA, Ì.BA, SIG.BA | label | low | "Sumerogram, untranslated" contradicted the ration glosses given; now "Sumerogram, Akkadian word not read" |
+| apālum (__broaden__) | new reading | low | "present, the vowel pattern unusual" mislabelled uppal; now "taken as a present (a G present would be ippal; the u- is unexplained)", matching the note |
+| irrišum (__broaden__, added) | new entry | low | published entry had irrissu only; irrissa (ir-ri-za) "her tenant" added, old entry whole |
+| ṭâbum (__broaden__, added) | new entry | low | published entry did not cover stative ṭābu "(that) is pleasing" used six times; added, old entry whole |
+| zikrum-class | text | low | "named beside the priestess in §178–180" made exact: beside the ugbabtum (§178–179) and the kallātim (§180) |
+
+## Refused / kept
+- `SAL-sign` "read by some later editions as a class of priestess": hedged, UNCERTAIN, and the same flag is in the published §40 note; kept.
+- uṭabbū / uṭṭibbū as D-stem present / perfect of ṭâbum: the regular D present would be uṭabbab(ū) and the perfect form is unclear; both are already marked UNCERTAIN in the notes and glossary; kept, no better reading from permitted sources.
+- mazûm-Š: verb unidentified, UNCERTAIN in note, glossary and i; kept.
+- `kīma` gloss "in proportion to", `-ma` "only", `kunukkum`, `mārtum`, `izuzzum`, `aššatum`, `ilkum`, `mutum`, `kallatum`: new readings true to the units; no change.
+- Entries for -ša, -šim, zittum, abum, warkatum, eli, leqûm, alākum cover this part's forms generally; no broadening needed.
+
+## Still open
+- Stroke-level reading of every syllabogram (pass 1 and 2); XXX 92 sub-row NU IGI IM MA vs NU ŠIM MA; ŠU vs ZU in DUMU.SAL-šu; the classes of woman; eliša vs elīša (project spelling followed).
+- Owner list for conventions.md: `šaniam ul uppal`, `kīma emūq …`, `ana ilim iššīma`, `ilkam ul illak` as in drafter-notes.

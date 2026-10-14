@@ -104,3 +104,11 @@ carrier and its limits. Do not edit it by hand in a part; change it in `beowulf_
 | fēþecempa | foot-fighter | foot-fighter | beowulf-fitt-22 |
 | Weder-Gēata | Weder-Geats (`l`) | Geats | beowulf-fitt-22 |
 | Sǣ-Gēatas | Sea-Geats (`l`) | Geats (`i`) | beowulf-fitt-26 |
+| freoðuwebbe | peace-weaver | peace-weaver | beowulf-fitt-27 |
+| hȳðweard | harbour-guard | harbour-guard | beowulf-fitt-27 |
+| bātweard | boat-guard | guardian of the boat | beowulf-fitt-27 |
+| hringnet | ring-net | mail | beowulf-fitt-27 |
+| merehrægl | sea-garment | sail | beowulf-fitt-27 |
+| wēgflota | wave-floater | ship | beowulf-fitt-27 |
+| bundenstefna | bound-prowed | bound prow | beowulf-fitt-27 |
+| sceādenmǣl | divided-marked | patterned sword | beowulf-fitt-27 |

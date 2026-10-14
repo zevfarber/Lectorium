@@ -1,6 +1,6 @@
 # Beowulf — plan
 
-27 of 44 parts published. One part per fitt, as Klaeber numbers them.
+28 of 44 parts published. One part per fitt, as Klaeber numbers them.
 
 | part | fitt | lines | status |
 |---|---|---|---|
@@ -31,7 +31,7 @@
 | beowulf-fitt-24 | XXIV · The Golden Hilt | 1651–1739 | published |
 | beowulf-fitt-25 | XXV · The Price of Pride | 1740–1816 | published |
 | beowulf-fitt-26 | XXVI · Farewell to Heorot | 1817–1887 | published |
-| beowulf-fitt-27 | XXVII · The Voyage Home | 1888–1962 | todo |
+| beowulf-fitt-27 | XXVII · The Voyage Home | 1888–1962 | published |
 | beowulf-fitt-28 | XXVIII · Beowulf’s Report | 1963–2038 | todo |
 | beowulf-fitt-29 | XXIX · The Old Spear-Bearer | 2039–2092 | todo |
 | beowulf-fitt-30 | XXX · The Tale Retold | 2093–2143 | todo |

@@ -54,3 +54,74 @@ Lines are the unit's starting line.
 ## Not found
 
 Case, tense, mood and negation were checked word by word in all 40 units. Apart from the points above, no further error was found.
+
+# beowulf-fitt-24 — reviewer, pass 2
+
+Read: conventions, runbook section 2, packet, units, pass-1 review, gloss, known/novel forms, the glossary, the Klaeber source lines (for cross-reference checks) and fitt 23 / fitt 02 (renderings). `t`, `ln`, `v`, `p` are unchanged (checked by script). `units.json` and `gloss.json` keep their one-space indent. The pass-1 edits were re-read and introduced no new errors; one pass-1 residue was found (a translated name left in a quotation in the 1709 note).
+
+Counts, text (units.json): high 0 · medium 7 · low 10 · total 17.
+Counts, gloss (gloss.json): high 0 · medium 8 · low 15 · total 23 (of which 9 in `__broaden__`).
+
+## Text changes (units.json)
+
+| Line | Field | Sev. | What was wrong | What was done |
+|---|---|---|---|---|
+| 1652 | l | medium | `þās` before neuter `lāc` can only be acc. plural (acc. sg. is `þis`); `l` had singular. | `this sea-gift` → `these sea-gifts` |
+| 1652 | i | medium | same: plural. | `this gift from the sea` → `these gifts from the sea` |
+| 1652 | i | low | `it` forced a singular antecedent; relative `þē` is number-neutral. | `; you are looking at it here` → `, which you are looking at here` |
+| 1652 | n | medium | note now explains the plural. | `and ‘þās sǣlāc’ the object. ‘sǣlāc’ is ‘sea-gift’` → `and ‘þās sǣlāc’ the object. ‘þās’ is accusative plural (the neuter ‘lāc’ has one form for both numbers), so ‘these sea-gifts’, the head and the hilt Beowulf has carried up from the mere. ‘sǣlāc’ is ‘sea-gift’` |
+| 1652 | n | medium | duplicate clause removed after the edit above. | `at 1624, here the head and the hilt Beowulf has carried up from the mere.` → `at 1624.` |
+| 1657 | n | medium | apparatus `Gru.` is Grundtvig (cf. `Gru. tr. 292` at 1737), not Grein. | `Grein, Bugge, Trautmann and Sedgefield` → `Grundtvig, Bugge, Trautmann and Sedgefield` |
+| 1657 | n | low | `mec` is specifically accusative. | `‘mec’ is an older form of ‘mē’.` → `‘mec’ is the older accusative form (later ‘mē’).` |
+| 1661 | i | low | `ēacen` is `huge, mighty`; `of giant size` imported the giant-made sense of `eotenisc` (1558) and disagreed with `l` `huge`. | `a beautiful old sword of giant size hanging on the wall` → `a beautiful old sword, a huge one, hanging on the wall` |
+| 1661 | n | low | `Waldend` is stated in the line; the aside's subject is understood. | `‘Waldend’ is the unstated subject, so the aside says` → `‘wīsode’ has no stated subject of its own; it is God, the ‘Waldend’ of the clause before, so the aside says` |
+| 1671 | n | low | it is coordinate with the first `þæt` clause, not a result. | `The second ‘þæt’ clause gives the result: ‘þæt þū him` → `The second ‘þæt’ clause is a second promise: ‘þæt þū him` |
+| 1679 | n | low | 756 speaks of Grendel's flight to the devils' company, not of Grendel and his mother. | `used of Grendel and his mother as at 756, and I take` → `the poet’s word for Grendel’s company as at 756 (‘dēofla gedræg’), and I take` |
+| 1709 | n | low | the note quoted a translated name after pass 1 left it untranslated. | `did not become so to the Honour-Scyldings’` → `did not become so to the Ār-Scyldings’` |
+| 1727 | n | medium | 1610 does not repeat `āh ealra geweald`; it says `sē geweald hafað sǣla ond mǣla`. | `The same claim is made of the Measurer at 1610.` → `A like claim is made of the Measurer at 1610, who ‘geweald hafað’, ‘has power’, over times and seasons.` |
+| 1728 | n | low | the gloss repeated itself. | `‘Hwīlum’ is ‘at times’, ‘at times’.` → `‘Hwīlum’ is ‘at times’, ‘sometimes’.` |
+| 1728 | n | medium | apparatus `Gru. on luste` is Grundtvig. | `Grein’s ‘on luste’` → `Grundtvig’s ‘on luste’` |
+| 1735 | n | low | `wiht` is adverbial `at all` (the glossary broadening says so); the note made it `anything`. | `is ‘in no way does anything hinder him’, ‘dweleð’` → `is ‘not at all does it hinder him’ (‘nō … wiht’ ‘not at all’), ‘dweleð’` |
+| 1739 | l | low | `þæt wyrse` is `the worse`; `no worse` dropped the demonstrative (and `i` keeps the idiom). | `he knows no worse.` → `he does not know the worse.` |
+
+## Gloss changes (gloss.json)
+
+| Key | Sev. | What was wrong | What was done |
+|---|---|---|---|
+| brōhton | medium | parse `3rd plural` is false for `wē brōhton` (1st plural). | entry rewritten |
+| eaxlgesteallan | medium | lemma `eaxlgesteall` does not exist; the noun is weak `gestealla` (existing key eaxlgestealla). | entry rewritten |
+| fyrendǣda | low | entry fixed `accusative`, the note takes it as genitive with `wræc` (or accusative); both stated. | entry rewritten |
+| gefērdon | low | meaning omitted the `go through` sense the `l` ('fared') and note rest on. | entry rewritten |
+| gesacu | low | parse gave no number/gender. | entry rewritten |
+| gylden | low | `masculine` contradicts the note and 1668 (`þæt hilt`, neuter). | entry rewritten |
+| nymðe | medium | etymology `ne + ymbe` is unsupported; removed. | entry rewritten |
+| ondrǣdan | medium | `him` cannot be reflexive to `þū`; entry said `fear for himself`. | entry rewritten |
+| scennum | low | attribution to Klaeber unverified. | entry rewritten |
+| sǣlāc | medium | number: `þās` makes it plural. | entry rewritten |
+| unsnyttrum | low | `for` came from an editors' reading, not Klaeber's text. | entry rewritten |
+| ār-scyldingum | medium | entry translated/invented `older royal line`; aligned with the existing key ār-scyldinga. | entry rewritten |
+| ecgwelan | low | `of the earlier line` unsupported. | entry rewritten |
+| endelēan | low | redundant `cf. Old English` in an Old English entry. | entry rewritten |
+| __broaden__/hilt | low | added the nominative use (gylden hilt ... gyfen). | entry rewritten (new reading added/edited) |
+| __broaden__/þās | medium | plural, as sǣlāc. | entry rewritten (new reading added/edited) |
+| __broaden__/sīde | low | matched l/note (singular). | entry rewritten (new reading added/edited) |
+| __broaden__/ðǣm | low | 1688 use (relative, singular) was not covered. | entry rewritten (new reading added/edited) |
+| __broaden__/ofslōh | medium | 1689 is 3rd sg; the entry had only 1st sg. | entry rewritten (new reading added/edited) |
+| __broaden__/meahte | low | 1659 is 1st sg; entry had only 3rd. | entry rewritten (new reading added/edited) |
+| __broaden__/eal | low | 1738 use not covered. | entry rewritten (new reading added/edited) |
+| __broaden__/ēacen | low | 1663 is accusative; entry had nominative. | entry rewritten (new reading added/edited) |
+| __broaden__/ðȳ | low | 1664 is a demonstrative adjective, not the adverb/conjunction. | entry rewritten (new reading added/edited) |
+
+## Considered and refused (pass 2)
+
+- 1661 `ealdsweord ēacen` / note on fol. 166b: unchanged, as in pass 1. The packet's apparatus is the only authority and the note matches it.
+- 1665 `Ofslōh` taken as 1sg: the form is also 3sg, but the context (`þā mē sǣl āgeald`) fits the speaker. Kept; the glossary broadening now covers the 3sg use at 1689.
+- 1671 `ondrǣdan ... him`: `l`/`i` take `him` as `for them`. The lexica allow a dative of the person; no better reading, kept (the glossary entry no longer claims it is reflexive).
+- 1700 `Þæt, lā, mæg secgan`: the `Þæt` as object of `secgan` resolved by the later `þæt` clause is one of two readings; the note states it plainly. Kept.
+- 1715 `from`: the note's `fram` placed after its noun agrees with the existing glossary entry for `from`; the alternative adjective is excluded in the note. Kept.
+- 1728 `on lufan`, 1733 `his selfa ... his unsnyttrum`: grammar already flagged as uncertain in the note; no stronger reading from the lexica. Kept.
+- 1732 `ge deð`: the note's `the apparatus reads` is loose (the apparatus marks a leaf break and the manuscript's word division) but not false. Kept.
+- 1652 `Hwæt` and other house renderings (`maþelode`, `heaþoswāt`, `brogdenmǣl` as `braided-marked` as in fitt 23, `Waldend`/`Ruler` as in fitt 02, `Godes andsaca`, `Metod`): checked against the published parts and the table in conventions.md; no inconsistency.
+- Remembered English in `i`: nothing found that is a known phrase from a translation.
+- gloss: `wyrse` (lemma given as the comparative form), `geboren` (lemma `geberan`), `lufan` (weak dative), `iogoþe`/`duguðe` (genitive vs. dative): defensible, consistent with the translation; left.
+- gloss: no novel key duplicates an existing glossary key (checked by script); every `__broaden__` entry is the old entry whole + ` · ` + the new reading (checked by script); no novel entry carries a line number or `here`.

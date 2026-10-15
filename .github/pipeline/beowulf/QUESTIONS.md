@@ -65,3 +65,7 @@ Cruces rendered from the lexica and flagged as guesses in the notes. Decided mea
 - **2419–22:** `sē` masculine with feminine `wyrd` (Grein reads sēo); `sāwle hord` a guess.
 - **2457 `rēte`** (Klaeber's emendation of MS reote), "joy" a guess; **2448 `helpe`** (MS helpan, Kemble); **2435 `ungedēfe`**; **2437–40 `mercelses`**; **2442 `hygemēðe`** (adjective kept; Trautmann/Holthausen -mēðo is a noun); **2393 `gestēpte`**; **2396 `cearsīðum`**; **2404 `biorna`**; **2408–09 `ðonon`, `wong wīsian`**; **2446–49 `hrefne tō hrōðre`**.
 - **fitt-33, 2354 `frēawine`:** it renders "noble friend of peoples", but Klaeber prints frēawine (frēa- "lord") there, as at 2429 and 2438; fitt-34 uses "lord-friend" / "lord and friend". The fitt-33 unit may want changing to "lord-friend of peoples"; not edited (outside this run's scope).
+
+## beowulf-fitt-35 — cruces chosen as guesses (2026-10-15)
+
+Full list with line, word, choice and reason: `drafts/beowulf-fitt-35/crux-notes.md` (about 35 items). Main ones: 2468 `tō sār`; 2481 `his`/`hit`; 2518–21 `gylpe wiðgrīpan`; 2525 `[furður]`; 2546 `dēop`/`dēor`; 2564 `anglāw`; 2570 `gescipe`; 2573–75 `ðǣr … wealdan mōste`; 2575–77 `incge-lāfe`; 2589 `[ofer]`. Each is called a guess in its note; nothing waits on a decision.

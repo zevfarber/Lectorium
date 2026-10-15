@@ -146,3 +146,11 @@ carrier and its limits. Do not edit it by hand in a part; change it in `beowulf_
 | feohlēas gefeoht | fee-less fight | a fight no payment could settle | beowulf-fitt-34 |
 | morþorbed | murder-bed | bed of murder | beowulf-fitt-34 |
 | Bīowulf maþelade (same row as Weard maþelode) | spoke in speech-words | spoke in formal words | beowulf-fitt-34 |
+| bānhūs | bone-house (`l`) | house of his bones (`i`) | beowulf-fitt-35 |
+| gryregiest | terror-guest (`l`) | dread visitor (`i`) | beowulf-fitt-35 |
+| gūðflogan | war-flier | war-flier | beowulf-fitt-35 |
+| lǣndagas | loan-days | lent days | beowulf-fitt-35 |
+| hiorosercean | sword-shirt (`l`) | mail-shirt (`i`) | beowulf-fitt-35 |
+| hringboga | ring-bowed (`l`) | coiled creature (`i`) | beowulf-fitt-35 |
+| bēotwordum | vow-words | vow-words | beowulf-fitt-35 |
+| inwitscear | malice-cutting | malice-cutting | beowulf-fitt-35 |

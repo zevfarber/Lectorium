@@ -1,0 +1,3828 @@
+{
+ "language": "Akkadian (Old Babylonian)",
+ "langCode": null,
+ "script": "cuneiform",
+ "font": "old-babylonian",
+ "work": "Codex Ḫammurabi",
+ "workEn": "Laws of Hammurabi",
+ "id": "hammurabi-laws-278-282",
+ "title": "𒋳𒈠 𒀀𒉿𒈝",
+ "titleRead": "šumma awīlum",
+ "titleEn": "Laws of Hammurabi — §278–282: the sale of slaves (xxxix 58 – xxxix 102)",
+ "part": "Laws §278–282 · the sale of slaves (Col. xxxix 58 – xxxix 102)",
+ "numbering": "clause",
+ "provisional": true,
+ "draftNote": "The § chips number the laws (Harper’s sectioning, still standard); long laws span several tap-units. Readings checked sign-by-sign against Harper’s 1904 edition.",
+ "source": "Louvre stele, after R.F. Harper, The Code of Hammurabi, King of Babylon (Chicago, 1904): transliteration and autograph plates, List of Signs. Readings are Harper’s in modern subscript notation. Cuneiform in Old Babylonian monumental sign forms via the SantakkuM webfont by Sylvie Vanséveren (CC BY 4.0); pronunciation: conventional reconstructed Old Babylonian. Audio: a German synthetic voice reads the Akkadian word by word from these pronunciation rules (word stress after Huehnergard). It cannot hold a consonant long, so doubled consonants are heard single (šumma with one m), and the emphatics ṭ and q are heard as plain t and k. Fresh translations made directly from the Akkadian; Harper’s public-domain translation consulted for sense only.",
+ "images": [
+  {
+   "file": "Codex Hammurapi Stela front.JPG",
+   "caption": "The stele in the Louvre: a single block of black basalt about 2.25 m tall. In the relief at the top, Hammurabi stands before the enthroned sun-god Šamaš, the god of justice; the laws run in columns of cuneiform below.",
+   "alt": "The tall black basalt stele of Hammurabi in a museum gallery, a relief of the king and the god Šamaš at its top",
+   "author": "Enlil2",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+  }
+ ],
+ "about": "The last five of the numbered laws. They deal with the sale of slaves, and with the slave who denies his master. A slave who falls sick with bennu within a month of the sale is handed back, and the buyer takes back his silver (§278); if a claim comes against a bought slave, the seller answers it (§279); a man who buys a slave abroad and brings him home may lose him to his old owner, who recognises him: if the slave is a native of Babylonia he is set free without payment (§280), and if he is a native of another country the buyer declares his price before the god and the owner pays that to the merchant and takes him back (§281). The final law is the slave who says to his master “You are not my master”: the master proves him his slave and cuts off his ear (§282). After this the numbered laws are over: the next column (xl) begins the epilogue, where Hammurabi turns from the cases to the people who will read and keep them. Col. xxxix is followed to line 102, its last; Harper’s line numerals agree with his headings. A few words are uncertain and the notes say so: bennu (a sickness), utēddi, ipaq and the idiom baqrī irtaši.",
+ "sentences": [
+  {
+   "t": "𒋳𒈠 𒀀𒉿𒈝\n𒀴 𒊩𒆳 𒄿𒊭𒄠𒈠",
+   "l": "If a-man a-male-slave a-female-slave has-bought-and,",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lum",
+     "say": "awīlum",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ARAD",
+     "say": "wardam",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "wardam"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD) · warad (ARAD, no ending written) “male slave of …”, wardam (ARAD-am) · wardam (ARAD, no ending written; the accusative supplied from the grammar) “a male slave”, the object of išāmma · wardum (ARAD) nominative “the male slave” · wardim (ARAD) genitive “of the male slave”: bēl wardim “the owner of the male slave” · warassu (ARAD-zu) “his male slave”, wara- + -šu with the d + š said ss",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "GEME₂",
+     "say": "amtam",
+     "glyphs": [
+      {
+       "s": "𒊩",
+       "sign": "SAL",
+       "role": "log",
+       "tr": "GEME₂",
+       "val": "amtam"
+      },
+      {
+       "s": "𒆳",
+       "sign": "KUR",
+       "role": "log",
+       "tr": "",
+       "val": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "amtum",
+       "gloss": "slave-woman (GEME₂) · amassu (GEME₂-zu) “his slave-woman”, amtam (GEME₂-am), amtim (GEME₂-tim) · plural amâti (GEME₂{meš}) “slave-women”; the exact plural signs are UNCERTAIN · amat (GEME₂, the two signs SAL and KUR, no ending written) construct “slave-woman of”: amat awīlim “a man’s slave-woman”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-ša-am-ma",
+     "say": "išāmma",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šâmum-buy",
+       "gloss": "to buy: ištām, išāmu, iššāmu, ašām “I bought” (a homonym of šâmum “to fix destinies”) · išām (i-ša-am-ma, išām + -ma) “he has bought”, read as a preterite in a condition (išām could also be a present) · ištām (iš-ta-am) perfect “he has bought”: šumma awīlum … ištām “if a man has bought …”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-ma",
+       "gloss": "and (clause-chaining particle); also “it is X that…” · “only, alone”, on a noun after ša: ša aḫḫīšama (aḫ-ḫi-ša-ma) “that of her brothers alone”; also “and” between verbs: izzazma, iššīma, išṭuršimma",
+       "g": [
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "ln": 278,
+   "i": "If a man has bought a male or a female slave,",
+   "n": "This is the code’s last block of numbered laws (§278–282): the sale of slaves. They open with the usual šumma awīlum “if a man” and a verb in the perfect or preterite. wardam amtam “a male slave, a female slave” is written with two Sumerograms (words written in Sumerian signs): ARAD, one sign, and GEME₂, two signs, SAL and KUR drawn close together. On the stone both stand bare, without the ending -am that Harper’s normalised spelling wardam, amtam suggests; I write the signs the plate shows and supply the accusative from the grammar (they are the object of the verb). išāmma is išām, the 3rd-person singular of šâmum “to buy” (not the homonym “to fix destinies” of the prologue), plus -ma “and”. išām can be a present or a preterite; I take it, like īgur “has hired” earlier, as a preterite in the condition: “has bought”. The clause runs on into the next unit.",
+   "p": true,
+   "col": "XXXIX",
+   "line": 58
+  },
+  {
+   "t": "𒌗𒋗 𒆷 𒅎𒆷𒈠\n𒁉𒂗𒉌 𒂊𒇷𒋗\n𒅎𒋫𒆪𒌓 𒀀𒈾 𒈾𒁲𒈾\n𒉌𒋗 𒌑𒋫𒅈𒈠",
+   "l": "his-month not has-been-full-and, the-bennu-sickness on-him has-fallen, to his-seller he-shall-give-back-and,",
+   "words": [
+    {
+     "reading": "ITI-šu",
+     "say": "warḫušu",
+     "glyphs": [
+      {
+       "s": "𒌗",
+       "sign": "ITI",
+       "role": "log",
+       "tr": "ITI",
+       "val": "warḫu"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "warḫum",
+       "gloss": "month (written with ITI, the moon-month sign): warḫim “of the month” · warḫušu (ITI-šu) “his month”, nominative with -šu (Harper normalizes arḫišu)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him · -šum “to him, for him” (dative): išakkanūšum, innadnušum · after a dental the suffix is assimilated and spelled with z: …ssu (ṣibat-zu, ṣibassu “its interest”, written after a broken sign); with a noun: ṣibtišu “its interest”, qātīšu “his hand”, damqaršu “his merchant”; tu-šu, te-šu in broken forms · with the same assimilation after a t: aššassu (aš-ša-zu) “his wife”, from aššat + -šu, t + š said ss · on a verb, the object “him”, or “to him” in the dative (Harper writes -šu for -šum): imaggarūšu (i-ma-ag-ga-ru-šu) “they shall agree to him”; on a noun after a preposition: elišu “upon him” · on a Š-stem, “him”: ušaḫḫazūšu “they shall have him take”, ušeṣṣûšu “they shall make him go out” · uktarriṣṣu (ug-dar-ri-zu) “he has slandered him” (ṣ + š said ṣṣ, spelled with ZU) · ikassûšuma “they shall bind him, and” · on nouns: emišu “his father-in-law’s”, ibiršu “his friend”, rabītišu “his senior one”, warkassu “his case”, zittišu “his share”, īnšu “his eye” · after a t, on a verb: uštāḫissu (uš-ta-ḫi-zu) “he has taught him” (the z of the stem + -šu said ss, spelled ZU); on nouns bīssu (É-ba/zu) “his house” and the participles murabbīšu, murabbītišu, murabbīssu “the one who raised him”; on a verb, ilqûšu, urtabbišu, urabbûšu, imtanûšu “him”; on the noun lišānšu (EME-šu) “his tongue”, īnšu “his eye”, mêšu “his waters”, mārūtišu “his sonship” · on a noun: bēlšu (be-el-šu), bēlišu (be-li-šu) “his master”, warḫušu (ITI-šu) “his month”, uznašu (u-zu-un-šu) “his ear”, nādinānšu (na-di-na-an-šu) “his seller”, nādinānišu (na-di-na-ni-šu) “his seller” after ana · written ZU in ARAD-zu, GEME₂-zu (warassu, amassu “his male slave, his female slave”) · on a verb, “him”: ukānšuma (u-ka-an-šu-ma) “he shall convict him, and”",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "la",
+     "say": "lā",
+     "glyphs": [
+      {
+       "s": "𒆷",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lā",
+       "gloss": "not (in subordinate and nominal contexts) · before a noun in the genitive, “without”: lā kanīkim “without a sealed receipt”; in a šumma-clause, “not”: lā ītamar “he did not see”",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "im-la-ma",
+     "say": "imlāma",
+     "glyphs": [
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      },
+      {
+       "s": "𒆷",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "malûm",
+       "gloss": "to be full; malûtim (feminine plural adjective, genitive) “full”: lā malûtim “not full”, said of the days of a lease; malû… is a broken form · imlāma (im-la-ma) “it has become full, and”: imlâ (the preterite; Harper’s glossary lists im-la, “to fill out, to complete”) + -ma, in lā imlāma “it has not become full”, said of a month",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-ma",
+       "gloss": "and (clause-chaining particle); also “it is X that…” · “only, alone”, on a noun after ša: ša aḫḫīšama (aḫ-ḫi-ša-ma) “that of her brothers alone”; also “and” between verbs: izzazma, iššīma, išṭuršimma",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bi-en-ni",
+     "say": "bennī",
+     "glyphs": [
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      },
+      {
+       "s": "𒂗",
+       "sign": "EN",
+       "role": "phon",
+       "tr": "en"
+      },
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bennum",
+       "gloss": "a sickness, UNCERTAIN: bennī (bi-en-ni), the name of an illness that strikes a slave after sale (Harper’s glossary: “a kind of fever”); the nature of the illness and the ending -ī (not the nominative) are not understood, so the word is kept as a name, “the bennu-sickness”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "e-li-šu",
+     "say": "elīšu",
+     "glyphs": [
+      {
+       "s": "𒂊",
+       "sign": "E",
+       "role": "phon",
+       "tr": "e"
+      },
+      {
+       "s": "𒇷",
+       "sign": "LI",
+       "role": "phon",
+       "tr": "li"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "elī",
+       "gloss": "over, above, upon (preposition): with the suffix, elišu (e-li-šu) “over him”, ša elišu rabû “who is great over him”, i.e. “who is greater than he” · preposition",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him · -šum “to him, for him” (dative): išakkanūšum, innadnušum · after a dental the suffix is assimilated and spelled with z: …ssu (ṣibat-zu, ṣibassu “its interest”, written after a broken sign); with a noun: ṣibtišu “its interest”, qātīšu “his hand”, damqaršu “his merchant”; tu-šu, te-šu in broken forms · with the same assimilation after a t: aššassu (aš-ša-zu) “his wife”, from aššat + -šu, t + š said ss · on a verb, the object “him”, or “to him” in the dative (Harper writes -šu for -šum): imaggarūšu (i-ma-ag-ga-ru-šu) “they shall agree to him”; on a noun after a preposition: elišu “upon him” · on a Š-stem, “him”: ušaḫḫazūšu “they shall have him take”, ušeṣṣûšu “they shall make him go out” · uktarriṣṣu (ug-dar-ri-zu) “he has slandered him” (ṣ + š said ṣṣ, spelled with ZU) · ikassûšuma “they shall bind him, and” · on nouns: emišu “his father-in-law’s”, ibiršu “his friend”, rabītišu “his senior one”, warkassu “his case”, zittišu “his share”, īnšu “his eye” · after a t, on a verb: uštāḫissu (uš-ta-ḫi-zu) “he has taught him” (the z of the stem + -šu said ss, spelled ZU); on nouns bīssu (É-ba/zu) “his house” and the participles murabbīšu, murabbītišu, murabbīssu “the one who raised him”; on a verb, ilqûšu, urtabbišu, urabbûšu, imtanûšu “him”; on the noun lišānšu (EME-šu) “his tongue”, īnšu “his eye”, mêšu “his waters”, mārūtišu “his sonship” · on a noun: bēlšu (be-el-šu), bēlišu (be-li-šu) “his master”, warḫušu (ITI-šu) “his month”, uznašu (u-zu-un-šu) “his ear”, nādinānšu (na-di-na-an-šu) “his seller”, nādinānišu (na-di-na-ni-šu) “his seller” after ana · written ZU in ARAD-zu, GEME₂-zu (warassu, amassu “his male slave, his female slave”) · on a verb, “him”: ukānšuma (u-ka-an-šu-ma) “he shall convict him, and”",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "im-ta-ku-ut",
+     "say": "imtaqut",
+     "glyphs": [
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "𒆪",
+       "sign": "KU",
+       "role": "phon",
+       "tr": "ku"
+      },
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "phon",
+       "tr": "ut"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "maqātum",
+       "gloss": "to fall, collapse: imqutma (im-ku-ut-ma, preterite + -ma) “it has fallen, and” · imqutu (im-ku-tu, imqut with the subjunctive -u) “(which) fell”, “and it fell”: bītam imqutu “the house that fell” · verb · imtaqut (im-ta-ku-ut, written with the KU sign, which stands for qu) perfect “has fallen”, said of a sickness that has fallen on a man: bennī elīšu imtaqut “the bennu-sickness has fallen on him”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "to, for · with an infinitive, “to, for” (ana kirîm zaqāpim “to plant as an orchard”); “as” (ana kirîm), “into” (ana libbi), “at the rate of” (ana itêšu)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "na-di-na-ni-šu",
+     "say": "nādinānišu",
+     "glyphs": [
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "𒁲",
+       "sign": "DI",
+       "role": "phon",
+       "tr": "di"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni",
+       "nl": true
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nādinānum",
+       "gloss": "seller: nādin “the seller (who)” · nādinānšu (na-di-na-an-šu) “his seller”, nādinānišu (na-di-na-ni-šu, genitive + -šu) “his seller”: ana nādinānišu “to his seller” · nādinānum “seller” is the opposite of šayyāmānum “buyer”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him · -šum “to him, for him” (dative): išakkanūšum, innadnušum · after a dental the suffix is assimilated and spelled with z: …ssu (ṣibat-zu, ṣibassu “its interest”, written after a broken sign); with a noun: ṣibtišu “its interest”, qātīšu “his hand”, damqaršu “his merchant”; tu-šu, te-šu in broken forms · with the same assimilation after a t: aššassu (aš-ša-zu) “his wife”, from aššat + -šu, t + š said ss · on a verb, the object “him”, or “to him” in the dative (Harper writes -šu for -šum): imaggarūšu (i-ma-ag-ga-ru-šu) “they shall agree to him”; on a noun after a preposition: elišu “upon him” · on a Š-stem, “him”: ušaḫḫazūšu “they shall have him take”, ušeṣṣûšu “they shall make him go out” · uktarriṣṣu (ug-dar-ri-zu) “he has slandered him” (ṣ + š said ṣṣ, spelled with ZU) · ikassûšuma “they shall bind him, and” · on nouns: emišu “his father-in-law’s”, ibiršu “his friend”, rabītišu “his senior one”, warkassu “his case”, zittišu “his share”, īnšu “his eye” · after a t, on a verb: uštāḫissu (uš-ta-ḫi-zu) “he has taught him” (the z of the stem + -šu said ss, spelled ZU); on nouns bīssu (É-ba/zu) “his house” and the participles murabbīšu, murabbītišu, murabbīssu “the one who raised him”; on a verb, ilqûšu, urtabbišu, urabbûšu, imtanûšu “him”; on the noun lišānšu (EME-šu) “his tongue”, īnšu “his eye”, mêšu “his waters”, mārūtišu “his sonship” · on a noun: bēlšu (be-el-šu), bēlišu (be-li-šu) “his master”, warḫušu (ITI-šu) “his month”, uznašu (u-zu-un-šu) “his ear”, nādinānšu (na-di-na-an-šu) “his seller”, nādinānišu (na-di-na-ni-šu) “his seller” after ana · written ZU in ARAD-zu, GEME₂-zu (warassu, amassu “his male slave, his female slave”) · on a verb, “him”: ukānšuma (u-ka-an-šu-ma) “he shall convict him, and”",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "u-ta-ar-ma",
+     "say": "utārma",
+     "glyphs": [
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u"
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "𒅈",
+       "sign": "AR",
+       "role": "phon",
+       "tr": "ar"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "târum-D",
+       "gloss": "D-stem of târum: to give back: turru “taken away/captured”; utarrūšumma “they shall return (it) to him” · utâr (present) “he shall hand back” · turrim (infinitive, tu-ur-ri-im): ana turrim “for repaying, to give back”; utâr (present) “he shall hand back” · uttēr (ut-te-ir, perfect) “he has given back”: the same verb as utâr",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-ma",
+       "gloss": "and (clause-chaining particle); also “it is X that…” · “only, alone”, on a noun after ša: ša aḫḫīšama (aḫ-ḫi-ša-ma) “that of her brothers alone”; also “and” between verbs: izzazma, iššīma, išṭuršimma",
+       "g": [
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "and his month is not yet full and the bennu-sickness has fallen on him, he shall give him back to his seller, and",
+   "n": "A sale with a one-month limit: if a sickness strikes the slave before the month is out, he goes back to the seller and the buyer gets his silver back. ITI-šu is ITI “month” (a Sumerogram, 𒌗) plus šu “his”; Harper prints arḫišu, but as the subject of the clause I expect the nominative, warḫušu “his month”. lā imlāma is imlâ, the preterite of malûm “to be full”, with lā “not” and -ma “and”: “his month has not become full”. bi-en-ni is the name of a sickness, bennu; Harper’s glossary says only “a kind of fever”, and I do not know what the illness was, so I leave it as the name. The ending -i is not the nominative and I cannot explain it. e-li-šu elīšu “upon him”; imtaqut (written im-ta-ku-ut, with the KU sign for qu) is the perfect of maqātum “to fall” (the verb of the “fall” of a house in earlier laws): “has fallen on him”. ana nādinānišu “to his seller” is one word, na-di-na-ni-šu, split across the line-end: na-di-na- at the end of line 62 and -ni-šu at the start of 63. utārma is utâr, the present of târum in the D-stem (turrum “to give back”) plus -ma: “he shall give back, and”. The sense of the whole sentence is clear; the word for the illness is the only unknown.",
+   "col": "XXXIX",
+   "line": 60
+  },
+  {
+   "t": "𒊭𒀀𒀀𒈠𒉡𒌝\n𒆬𒌓 𒅖𒆪𒇻\n𒄿𒇷𒆠",
+   "l": "the-buyer the-silver (that) he-weighed-out he-shall-take.",
+   "words": [
+    {
+     "reading": "ša-a-a-ma-nu-um",
+     "say": "šayyāmānum",
+     "glyphs": [
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      },
+      {
+       "s": "𒌝",
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šayyāmānum",
+       "gloss": "buyer, purchaser",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "KÙ.BABBAR",
+     "say": "kaspam",
+     "glyphs": [
+      {
+       "s": "𒆬",
+       "sign": "KU3",
+       "role": "log",
+       "tr": "KÙ",
+       "val": "kaspam"
+      },
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "log",
+       "tr": "BABBAR",
+       "val": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kaspum",
+       "gloss": "silver — the code’s money, written KÙ.BABBAR “shining precious-metal” · kaspim: mišil mana kaspim “half a mina of silver” · with a spelled vowel after the logogram: KÙ.BABBAR-a-am, -i-im, -u-um: kaspam, kaspim, kaspum (accusative, genitive, nominative); kaspum as the subject; the grain-and-silver pair šeʾam u kaspam “grain and silver” · kasap (KÙ.BABBAR, no ending written) construct “silver of”: kasap tirḫatim “silver of the bride-price” · kaspi (KÙ.BABBAR, no complement written; Harper’s normalization) in kaspi mišil šīmišu “silver, half its price” · kaspam (KÙ.BABBAR, no ending written) “the silver” as object: kaspam išqulu “the silver he weighed out” · kaspima (KÙ.BABBAR-ma) kaspi + -ma, genitive after balum: balum kaspima “without any silver”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "iš-qu₂-lu",
+     "say": "išqulu",
+     "glyphs": [
+      {
+       "s": "𒅖",
+       "sign": "ISH",
+       "role": "phon",
+       "tr": "iš"
+      },
+      {
+       "s": "𒆪",
+       "sign": "KU",
+       "role": "phon",
+       "tr": "qu₂"
+      },
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šaqālum",
+       "gloss": "to weigh out (silver = to pay): išqulu · išaqqal (present) “he shall weigh out”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-li-qi₂",
+     "say": "ileqqi",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒇷",
+       "sign": "LI",
+       "role": "phon",
+       "tr": "li"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "qi₂"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "leqûm",
+       "gloss": "to take: ileqqi “he shall take” · ilqi “he took” (il-qi₂), ilqû (subjunctive, il-qu₂-u₂), ilqēma (il-qi₂-e-ma) “he took, and”, ilteqēma (perfect, il-te-qi₂-ma) “he has taken, and”; ša … ilqû “which he took” · ilqēma (il-qi₂-ma) “he took, and” (preterite ilqe + -ma, here without a spelled e); ilteqe (il-te-qi₂, perfect) “he has taken”; ileqqi (i-li-qi₂, present) “he shall take”; leqîm (li-qi₂-im, infinitive, genitive): ina kaspim leqîm “in the taking of the silver” · ileqqûma (i-li-qu₂-ma) “they shall take, and” (present plural + -ma); ileqqēma “he shall take, and” · ileqqû (i-li-qu₂-u) “they shall take” (present plural, without -ma) · ilqi (il-qi₂) “he took”; ilqûšu (il-qu₂-u-šu) “(when) he took him”, with the subjunctive -u and -šu “him”; ilqûšuma (il-qu₂-šu-ma) “he took him, and” (with the subjunctive -u before -šu, after ša); ana tarbītim ilqēma (il-qi₂-ma) “he took (him) as a foster-child, and”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "nl": true
+    }
+   ],
+   "i": "the buyer shall take back the silver he paid.",
+   "n": "The apodosis (the “then” part). ša-a-a-ma-nu-um is the buyer, šayyāmānum (the opposite of nādinānum “seller”, as in §9). kaspam išqulu is “the silver he weighed out”, a relative clause with no ša: išqulu is išqul, the preterite of šaqālum “to weigh out” (silver is paid by weight, so “to pay”), with the subjunctive ending -u that marks a verb inside a relative clause. KÙ.BABBAR is the Sumerogram for kaspum “silver” (as in the earlier laws; two signs, KÙ and BABBAR); the plate has no -am after it. The qu₂ of iš-qu₂-lu is the sign KU read qu₂, as in earlier parts. i-li-qi₂ is ileqqi, the present of leqûm “to take”, written with the sign KI read qi₂: “he shall take”. On the plate, line 66 looks to me like one sign-group more than the three syllables i, li, qi₂ account for, and I cannot match every wedge; I follow Harper’s reading.",
+   "col": "XXXIX",
+   "line": 64
+  },
+  {
+   "t": "𒋳𒈠 𒀀𒉿𒈝\n𒀴 𒊩𒆳 𒄿𒊭𒄠𒈠\n𒁀𒀝𒊑 𒅕𒋫𒅆",
+   "l": "If a-man a-male-slave a-female-slave has-bought-and claims he-has-acquired,",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lum",
+     "say": "awīlum",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ARAD",
+     "say": "wardam",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "wardam"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD) · warad (ARAD, no ending written) “male slave of …”, wardam (ARAD-am) · wardam (ARAD, no ending written; the accusative supplied from the grammar) “a male slave”, the object of išāmma · wardum (ARAD) nominative “the male slave” · wardim (ARAD) genitive “of the male slave”: bēl wardim “the owner of the male slave” · warassu (ARAD-zu) “his male slave”, wara- + -šu with the d + š said ss",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "GEME₂",
+     "say": "amtam",
+     "glyphs": [
+      {
+       "s": "𒊩",
+       "sign": "SAL",
+       "role": "log",
+       "tr": "GEME₂",
+       "val": "amtam"
+      },
+      {
+       "s": "𒆳",
+       "sign": "KUR",
+       "role": "log",
+       "tr": "",
+       "val": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "amtum",
+       "gloss": "slave-woman (GEME₂) · amassu (GEME₂-zu) “his slave-woman”, amtam (GEME₂-am), amtim (GEME₂-tim) · plural amâti (GEME₂{meš}) “slave-women”; the exact plural signs are UNCERTAIN · amat (GEME₂, the two signs SAL and KUR, no ending written) construct “slave-woman of”: amat awīlim “a man’s slave-woman”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-ša-am-ma",
+     "say": "išāmma",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šâmum-buy",
+       "gloss": "to buy: ištām, išāmu, iššāmu, ašām “I bought” (a homonym of šâmum “to fix destinies”) · išām (i-ša-am-ma, išām + -ma) “he has bought”, read as a preterite in a condition (išām could also be a present) · ištām (iš-ta-am) perfect “he has bought”: šumma awīlum … ištām “if a man has bought …”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-ma",
+       "gloss": "and (clause-chaining particle); also “it is X that…” · “only, alone”, on a noun after ša: ša aḫḫīšama (aḫ-ḫi-ša-ma) “that of her brothers alone”; also “and” between verbs: izzazma, iššīma, išṭuršimma",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ba-aq-ri",
+     "say": "baqrī",
+     "glyphs": [
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "phon",
+       "tr": "aq"
+      },
+      {
+       "s": "𒊑",
+       "sign": "RI",
+       "role": "phon",
+       "tr": "ri"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "baqrum",
+       "gloss": "claim (Harper’s glossary BAKRU “claim”, from baqārum “to make a claim”): baqrī (ba-aq-ri, plural, oblique case) “claims”: baqrī irtaši “claims have arisen (?)”, baqrī ippal “he shall answer the claims”; the AK sign is read aq (Harper prints ag in the text)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "ir-ta-ši",
+     "say": "irtaši",
+     "glyphs": [
+      {
+       "s": "𒅕",
+       "sign": "IR",
+       "role": "phon",
+       "tr": "ir"
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "ši"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rašûm",
+       "gloss": "to get, acquire: irtaši “he has acquired”, iraššû “he acquires” · iršû (ir-šu-u) “(whom) he has acquired” (the relative -u): ana mārī ša iršû “for the sons whom he has acquired”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "ln": 279,
+   "i": "If a man has bought a male or a female slave and claims have arisen against him (?),",
+   "n": "The same opening as §278 (see there for ARAD and GEME₂). ba-aq-ri is the plural of a word for “claim”, which I read baqrī: Harper’s glossary lists it as bakru “claim”, from the verb baqārum “to make a claim”, met in §178–194. The sign is AK (Harper writes ag here and ak in his glossary), which I read aq, as in ipaq below, because the word has q in this edition. The plural ending -ī is the oblique case, as the object of the verb. ir-ta-ši is irtaši, the perfect of rašûm “to acquire, to get”, and is written on its own half-row under the line (Harper marks it {b}); literally “he has acquired claims”. I read that as an idiom, “claims have arisen against him”; the sense (a claim brought against the slave, or through him against the buyer) is clear from the next unit, but I am not sure of the idiom, nor of whom “he” is, so the English carries (?).",
+   "p": true,
+   "col": "XXXIX",
+   "line": 67
+  },
+  {
+   "t": "𒈾𒁲𒈾𒀭𒋗\n𒁀𒀝𒊑 𒄿𒅁𒉺𒀠",
+   "l": "his-seller the-claims he-shall-answer.",
+   "words": [
+    {
+     "reading": "na-di-na-an-šu",
+     "say": "nādinānšu",
+     "glyphs": [
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "𒁲",
+       "sign": "DI",
+       "role": "phon",
+       "tr": "di"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "phon",
+       "tr": "an"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nādinānum",
+       "gloss": "seller: nādin “the seller (who)” · nādinānšu (na-di-na-an-šu) “his seller”, nādinānišu (na-di-na-ni-šu, genitive + -šu) “his seller”: ana nādinānišu “to his seller” · nādinānum “seller” is the opposite of šayyāmānum “buyer”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him · -šum “to him, for him” (dative): išakkanūšum, innadnušum · after a dental the suffix is assimilated and spelled with z: …ssu (ṣibat-zu, ṣibassu “its interest”, written after a broken sign); with a noun: ṣibtišu “its interest”, qātīšu “his hand”, damqaršu “his merchant”; tu-šu, te-šu in broken forms · with the same assimilation after a t: aššassu (aš-ša-zu) “his wife”, from aššat + -šu, t + š said ss · on a verb, the object “him”, or “to him” in the dative (Harper writes -šu for -šum): imaggarūšu (i-ma-ag-ga-ru-šu) “they shall agree to him”; on a noun after a preposition: elišu “upon him” · on a Š-stem, “him”: ušaḫḫazūšu “they shall have him take”, ušeṣṣûšu “they shall make him go out” · uktarriṣṣu (ug-dar-ri-zu) “he has slandered him” (ṣ + š said ṣṣ, spelled with ZU) · ikassûšuma “they shall bind him, and” · on nouns: emišu “his father-in-law’s”, ibiršu “his friend”, rabītišu “his senior one”, warkassu “his case”, zittišu “his share”, īnšu “his eye” · after a t, on a verb: uštāḫissu (uš-ta-ḫi-zu) “he has taught him” (the z of the stem + -šu said ss, spelled ZU); on nouns bīssu (É-ba/zu) “his house” and the participles murabbīšu, murabbītišu, murabbīssu “the one who raised him”; on a verb, ilqûšu, urtabbišu, urabbûšu, imtanûšu “him”; on the noun lišānšu (EME-šu) “his tongue”, īnšu “his eye”, mêšu “his waters”, mārūtišu “his sonship” · on a noun: bēlšu (be-el-šu), bēlišu (be-li-šu) “his master”, warḫušu (ITI-šu) “his month”, uznašu (u-zu-un-šu) “his ear”, nādinānšu (na-di-na-an-šu) “his seller”, nādinānišu (na-di-na-ni-šu) “his seller” after ana · written ZU in ARAD-zu, GEME₂-zu (warassu, amassu “his male slave, his female slave”) · on a verb, “him”: ukānšuma (u-ka-an-šu-ma) “he shall convict him, and”",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ba-aq-ri",
+     "say": "baqrī",
+     "glyphs": [
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "phon",
+       "tr": "aq"
+      },
+      {
+       "s": "𒊑",
+       "sign": "RI",
+       "role": "phon",
+       "tr": "ri"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "baqrum",
+       "gloss": "claim (Harper’s glossary BAKRU “claim”, from baqārum “to make a claim”): baqrī (ba-aq-ri, plural, oblique case) “claims”: baqrī irtaši “claims have arisen (?)”, baqrī ippal “he shall answer the claims”; the AK sign is read aq (Harper prints ag in the text)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "i-ip-pa-al",
+     "say": "ippal",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒅁",
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ip"
+      },
+      {
+       "s": "𒉺",
+       "sign": "PA",
+       "role": "phon",
+       "tr": "pa"
+      },
+      {
+       "s": "𒀠",
+       "sign": "AL",
+       "role": "phon",
+       "tr": "al"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "apālum",
+       "gloss": "to answer; to satisfy, pay (a creditor): ippalma (present, with -ma) “he shall pay, and” · uppal (u-up-pa-al) “she shall pay”, taken as a present (a G present would be ippal; the u- is unexplained), in šaniam ul uppal, UNCERTAIN · apālam (a-pa-lam, infinitive, accusative) “to pay”: apālam lā ileʾʾi “he is not able to pay” · ippal (i-ip-pa-al, present) “he shall answer, meet (a claim)”: nādinānšu baqrī ippal “his seller shall answer the claims”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "his seller shall answer the claims.",
+   "n": "na-di-na-an-šu is nādinānšu, “his seller” (nādinānum “seller”, with -šu “his”; the n before the š stays, as the writing na-di-na-an-šu shows, the AN sign being the one that carries it). ba-aq-ri as in the unit above (baqrī, “claims”). i-ip-pa-al is ippal, the present of apālum “to answer, to satisfy”: the seller must meet the claims, not the buyer. The present here is the code’s ordinary “shall”.",
+   "col": "XXXIX",
+   "line": 70
+  },
+  {
+   "t": "𒋳𒈠 𒀀𒉿𒈝\n𒄿𒈾 𒈠𒀜\n𒉡𒆪𒌨𒁴\n𒀴 𒊩𒆳 𒊭 𒀀𒉿𒅆\n𒅖𒋫𒄠",
+   "l": "If a-man in-the-land-of hostility a-male-slave a-female-slave of a-man has-bought,",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lum",
+     "say": "awīlum",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-na",
+     "say": "ina",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ina",
+       "gloss": "in, from · at (ina ebūrim “at harvest”); out of (ina bilat kirîm “out of the orchard’s yield”) · “through, by (means of)”: ina maḫāṣim “through beating”, ina pilšim “by a breach”; “regarding”: ina mimma ša … “regarding whatever …”; ina šanat “in the year” · “with, by”, of company or means (UNCERTAIN): ina liātim “with (or by) the cattle”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "ma-at",
+     "say": "māt",
+     "glyphs": [
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "𒀜",
+       "sign": "AD",
+       "role": "phon",
+       "tr": "at"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mātum",
+       "gloss": "land, country · māt (ma-at) the form before a following genitive, “the land of”: ina māt nukurtim “in a hostile country” · mātim (ma-tim, or the Sumerogram KALAM, no ending written) genitive “of the land”: ina libbu mātim “in the middle of the land”, mārū mātim “natives of the country”, mātim šanītim “another country”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nu-ku-ur-tim",
+     "say": "nukurtim",
+     "glyphs": [
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      },
+      {
+       "s": "𒆪",
+       "sign": "KU",
+       "role": "phon",
+       "tr": "ku"
+      },
+      {
+       "s": "𒌨",
+       "sign": "UR",
+       "role": "phon",
+       "tr": "ur"
+      },
+      {
+       "s": "𒁴",
+       "sign": "TIM",
+       "role": "phon",
+       "tr": "tim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nukurtum",
+       "gloss": "enmity, hostility (Harper’s glossary “enmity”): nukurtim (nu-ku-ur-tim, genitive) in ina māt nukurtim “in a hostile country”, i.e. an enemy land",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "ARAD",
+     "say": "wardam",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "wardam"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD) · warad (ARAD, no ending written) “male slave of …”, wardam (ARAD-am) · wardam (ARAD, no ending written; the accusative supplied from the grammar) “a male slave”, the object of išāmma · wardum (ARAD) nominative “the male slave” · wardim (ARAD) genitive “of the male slave”: bēl wardim “the owner of the male slave” · warassu (ARAD-zu) “his male slave”, wara- + -šu with the d + š said ss",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "GEME₂",
+     "say": "amtam",
+     "glyphs": [
+      {
+       "s": "𒊩",
+       "sign": "SAL",
+       "role": "log",
+       "tr": "GEME₂",
+       "val": "amtam"
+      },
+      {
+       "s": "𒆳",
+       "sign": "KUR",
+       "role": "log",
+       "tr": "",
+       "val": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "amtum",
+       "gloss": "slave-woman (GEME₂) · amassu (GEME₂-zu) “his slave-woman”, amtam (GEME₂-am), amtim (GEME₂-tim) · plural amâti (GEME₂{meš}) “slave-women”; the exact plural signs are UNCERTAIN · amat (GEME₂, the two signs SAL and KUR, no ending written) construct “slave-woman of”: amat awīlim “a man’s slave-woman”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ša",
+     "say": "ša",
+     "glyphs": [
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ša",
+       "gloss": "who, which, of",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-wi-lim",
+     "say": "awīlim",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒉿",
+       "sign": "PI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "lim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "awīlum",
+       "gloss": "man; the free citizen, the code’s first legal class",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "iš-ta-am",
+     "say": "ištām",
+     "glyphs": [
+      {
+       "s": "𒅖",
+       "sign": "ISH",
+       "role": "phon",
+       "tr": "iš"
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šâmum-buy",
+       "gloss": "to buy: ištām, išāmu, iššāmu, ašām “I bought” (a homonym of šâmum “to fix destinies”) · išām (i-ša-am-ma, išām + -ma) “he has bought”, read as a preterite in a condition (išām could also be a present) · ištām (iš-ta-am) perfect “he has bought”: šumma awīlum … ištām “if a man has bought …”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "nl": true
+    }
+   ],
+   "ln": 280,
+   "i": "If a man has bought, in a hostile country, a male or a female slave belonging to a man,",
+   "n": "A long law with a double condition, written in five units. nukurtim is nukurtum “enmity, hostility” (Harper’s glossary: “enmity”) in the genitive; māt nukurtim “the land of hostility” is a foreign, enemy country. ma-at is māt, the form of mātum “land” that stands before a following noun in the genitive (the “construct state”: māt, “the land of”). wardam amtam ša awīlim “a male slave or female slave of a man”: ARAD and GEME₂ as in §278, and ša “of”; whose slave is not said. iš-ta-am is ištām, the perfect of šâmum “to buy” (the same verb as išām in §278, here in its perfect: “has bought”).",
+   "p": true,
+   "col": "XXXIX",
+   "line": 72
+  },
+  {
+   "t": "𒄿𒉡𒈠\n𒄿𒈾 𒇷𒅁𒁍 𒌦\n𒀉𒋫𒀠𒄰𒈠",
+   "l": "when in the-midst-of the-land he-has-come-and,",
+   "words": [
+    {
+     "reading": "i-nu-ma",
+     "say": "inūma",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "inūma",
+       "gloss": "when",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-na",
+     "say": "ina",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ina",
+       "gloss": "in, from · at (ina ebūrim “at harvest”); out of (ina bilat kirîm “out of the orchard’s yield”) · “through, by (means of)”: ina maḫāṣim “through beating”, ina pilšim “by a breach”; “regarding”: ina mimma ša … “regarding whatever …”; ina šanat “in the year” · “with, by”, of company or means (UNCERTAIN): ina liātim “with (or by) the cattle”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "li-ib-bu",
+     "say": "libbu",
+     "glyphs": [
+      {
+       "s": "𒇷",
+       "sign": "LI",
+       "role": "phon",
+       "tr": "li"
+      },
+      {
+       "s": "𒅁",
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ib"
+      },
+      {
+       "s": "𒁍",
+       "sign": "BU",
+       "role": "phon",
+       "tr": "bu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "libbum",
+       "gloss": "heart · ana libbi “into”: ana libbi zittišu “into his share” · libbaša, libbiša (li-ib-ba-ša, li-ib-bi-ša) “her heart”: mala libbiša “as much as her heart wants”; libbaša uṭabbū “they shall make her heart good”, i.e. content her · ša libbiša (li-ib-bi-ša) “what is in her womb”, literally “that of her heart”, the unborn child: ana ša libbiša “for what was in her womb” · libbu (li-ib-bu) in ina libbu mātim “in the middle of the land” (Harper’s form; after ina one would expect libbi)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "KALAM",
+     "say": "mātim",
+     "glyphs": [
+      {
+       "s": "𒌦",
+       "sign": "KALAM",
+       "role": "log",
+       "tr": "KALAM",
+       "val": "mātim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mātum",
+       "gloss": "land, country · māt (ma-at) the form before a following genitive, “the land of”: ina māt nukurtim “in a hostile country” · mātim (ma-tim, or the Sumerogram KALAM, no ending written) genitive “of the land”: ina libbu mātim “in the middle of the land”, mārū mātim “natives of the country”, mātim šanītim “another country”",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "it-ta-al-kam-ma",
+     "say": "ittalkamma",
+     "glyphs": [
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "it"
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "𒀠",
+       "sign": "AL",
+       "role": "phon",
+       "tr": "al"
+      },
+      {
+       "s": "𒄰",
+       "sign": "KAM",
+       "role": "phon",
+       "tr": "kam"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "alākum",
+       "gloss": "to go: illak “he shall go” · illiku “(where) he went” (preterite, subjunctive -u, after a restored ašar), in the agent law · alākišu (a-la-ki-šu) “his going” (infinitive with -šu): ina alākišu “in his going” · Gt present ittallak (it-ta-al-la-ak) “she shall go away” (the Gt gives the sense of going off; the Gtn would be ittanallak) · ittalak “she has gone” (perfect): ana šīmtim ittalak “she has gone to her fate” · ittalku (it-ta-al-ku) with the subjunctive -u: warka abum ana šīmtim ittalku “after the father has gone to his fate” · ittalkamma (it-ta-al-kam-ma) perfect ittalkam (ittalak + the ventive -am, “hither”) “he has come”, + -ma “and”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-ma",
+       "gloss": "and (clause-chaining particle); also “it is X that…” · “only, alone”, on a noun after ša: ša aḫḫīšama (aḫ-ḫi-ša-ma) “that of her brothers alone”; also “and” between verbs: izzazma, iššīma, išṭuršimma",
+       "g": [
+        4
+       ]
+      }
+     ],
+     "nl": true
+    }
+   ],
+   "i": "when he has come into the middle of the land,",
+   "n": "inūma “when”. i-na li-ib-bu KALAM is ina libbu mātim “in the middle of the land”, that is, inside Babylonia itself (as opposed to the hostile country). Harper prints libbu (his glossary lists it so), not the libbi one expects after ina; I keep his form and say libbu. mātim is the Sumerogram KALAM “land”, which Harper normalises to mâtim; it is written with the single sign, no ending (as in the prologue). it-ta-al-kam-ma is ittalkamma: ittalkam, the perfect of alākum “to go” with the ventive -am (“to here”, so “has come”), plus -ma “and”. The verb that completes this clause is in the next unit.",
+   "col": "XXXIX",
+   "line": 77
+  },
+  {
+   "t": "𒁁𒂖 𒀴 𒅇 𒇻 𒊩𒆳\n𒇻 𒀴𒍪 𒅇 𒇻 𒊩𒆳𒍪\n𒌑𒋼𒀉𒁲",
+   "l": "the-owner of-the-male-slave or of-the-female-slave, either his-male-slave or his-female-slave, has-identified (?),",
+   "words": [
+    {
+     "reading": "be-el",
+     "say": "bēl",
+     "glyphs": [
+      {
+       "s": "𒁁",
+       "sign": "BAD",
+       "role": "phon",
+       "tr": "be"
+      },
+      {
+       "s": "𒂖",
+       "sign": "EL",
+       "role": "phon",
+       "tr": "el"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bēlum",
+       "gloss": "owner, lord: bēl ḫulqim “owner of the lost property” · owner of a field, bēl eqlim; bēl ḫubullim “creditor” · bēl kirîm “owner of the orchard” · bēl (be-el), the construct “owner of”, also with a suffix on the noun that follows: bēl ḫubullišu “his creditor”, bēl ḫubulliša “her creditor” · bēl (be-el, not the sign EN) “owner of”: bēl aššatim “the owner of the wife”, i.e. the man entitled to her (my reading) · bēlišu (be-li-šu) “its owner” (of an animal), bēlišuma “to its owner only” (with the emphatic -ma); bēl alpim “the owner of the ox” · bēl epinnim “the owner of the plough”, bēl tarbaṣim “the owner of the pen”; bēlīšunu (be-li-šu-nu) “their owners”, the owners of the cattle and sheep a herdsman has lost · bēl (be-el) “owner of” before a genitive: bēl wardim “the owner of the male slave” · bēlī (be-li) “my master”: ul bēlī atta “you are not my master” · bēlšu, bēlišu (be-el-šu, be-li-šu) “his master”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ARAD",
+     "say": "wardim",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "wardim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD) · warad (ARAD, no ending written) “male slave of …”, wardam (ARAD-am) · wardam (ARAD, no ending written; the accusative supplied from the grammar) “a male slave”, the object of išāmma · wardum (ARAD) nominative “the male slave” · wardim (ARAD) genitive “of the male slave”: bēl wardim “the owner of the male slave” · warassu (ARAD-zu) “his male slave”, wara- + -šu with the d + š said ss",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ù",
+     "say": "u",
+     "glyphs": [
+      {
+       "s": "𒅇",
+       "sign": "U3",
+       "role": "phon",
+       "tr": "ù"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "and",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lu",
+     "say": "lū",
+     "glyphs": [
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lū",
+       "gloss": "or; either (lū … lū “whether … or”); with verb: “let …” · ù lu, two words written together, “or”: ù lu ina maḫāṣim “or through beating”",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "GEME₂",
+     "say": "amtim",
+     "glyphs": [
+      {
+       "s": "𒊩",
+       "sign": "SAL",
+       "role": "log",
+       "tr": "GEME₂",
+       "val": "amtim"
+      },
+      {
+       "s": "𒆳",
+       "sign": "KUR",
+       "role": "log",
+       "tr": "",
+       "val": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "amtum",
+       "gloss": "slave-woman (GEME₂) · amassu (GEME₂-zu) “his slave-woman”, amtam (GEME₂-am), amtim (GEME₂-tim) · plural amâti (GEME₂{meš}) “slave-women”; the exact plural signs are UNCERTAIN · amat (GEME₂, the two signs SAL and KUR, no ending written) construct “slave-woman of”: amat awīlim “a man’s slave-woman”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lu",
+     "say": "lū",
+     "glyphs": [
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lū",
+       "gloss": "or; either (lū … lū “whether … or”); with verb: “let …” · ù lu, two words written together, “or”: ù lu ina maḫāṣim “or through beating”",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "ARAD-zu",
+     "say": "warassu",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "wara"
+      },
+      {
+       "s": "𒍪",
+       "sign": "ZU",
+       "role": "phon",
+       "tr": "zu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD) · warad (ARAD, no ending written) “male slave of …”, wardam (ARAD-am) · wardam (ARAD, no ending written; the accusative supplied from the grammar) “a male slave”, the object of išāmma · wardum (ARAD) nominative “the male slave” · wardim (ARAD) genitive “of the male slave”: bēl wardim “the owner of the male slave” · warassu (ARAD-zu) “his male slave”, wara- + -šu with the d + š said ss",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him · -šum “to him, for him” (dative): išakkanūšum, innadnušum · after a dental the suffix is assimilated and spelled with z: …ssu (ṣibat-zu, ṣibassu “its interest”, written after a broken sign); with a noun: ṣibtišu “its interest”, qātīšu “his hand”, damqaršu “his merchant”; tu-šu, te-šu in broken forms · with the same assimilation after a t: aššassu (aš-ša-zu) “his wife”, from aššat + -šu, t + š said ss · on a verb, the object “him”, or “to him” in the dative (Harper writes -šu for -šum): imaggarūšu (i-ma-ag-ga-ru-šu) “they shall agree to him”; on a noun after a preposition: elišu “upon him” · on a Š-stem, “him”: ušaḫḫazūšu “they shall have him take”, ušeṣṣûšu “they shall make him go out” · uktarriṣṣu (ug-dar-ri-zu) “he has slandered him” (ṣ + š said ṣṣ, spelled with ZU) · ikassûšuma “they shall bind him, and” · on nouns: emišu “his father-in-law’s”, ibiršu “his friend”, rabītišu “his senior one”, warkassu “his case”, zittišu “his share”, īnšu “his eye” · after a t, on a verb: uštāḫissu (uš-ta-ḫi-zu) “he has taught him” (the z of the stem + -šu said ss, spelled ZU); on nouns bīssu (É-ba/zu) “his house” and the participles murabbīšu, murabbītišu, murabbīssu “the one who raised him”; on a verb, ilqûšu, urtabbišu, urabbûšu, imtanûšu “him”; on the noun lišānšu (EME-šu) “his tongue”, īnšu “his eye”, mêšu “his waters”, mārūtišu “his sonship” · on a noun: bēlšu (be-el-šu), bēlišu (be-li-šu) “his master”, warḫušu (ITI-šu) “his month”, uznašu (u-zu-un-šu) “his ear”, nādinānšu (na-di-na-an-šu) “his seller”, nādinānišu (na-di-na-ni-šu) “his seller” after ana · written ZU in ARAD-zu, GEME₂-zu (warassu, amassu “his male slave, his female slave”) · on a verb, “him”: ukānšuma (u-ka-an-šu-ma) “he shall convict him, and”",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ù",
+     "say": "u",
+     "glyphs": [
+      {
+       "s": "𒅇",
+       "sign": "U3",
+       "role": "phon",
+       "tr": "ù"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "and",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lu",
+     "say": "lū",
+     "glyphs": [
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lū",
+       "gloss": "or; either (lū … lū “whether … or”); with verb: “let …” · ù lu, two words written together, “or”: ù lu ina maḫāṣim “or through beating”",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "GEME₂-zu",
+     "say": "amassu",
+     "glyphs": [
+      {
+       "s": "𒊩",
+       "sign": "SAL",
+       "role": "log",
+       "tr": "GEME₂",
+       "val": "ama"
+      },
+      {
+       "s": "𒆳",
+       "sign": "KUR",
+       "role": "log",
+       "tr": "",
+       "val": ""
+      },
+      {
+       "s": "𒍪",
+       "sign": "ZU",
+       "role": "phon",
+       "tr": "zu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "amtum",
+       "gloss": "slave-woman (GEME₂) · amassu (GEME₂-zu) “his slave-woman”, amtam (GEME₂-am), amtim (GEME₂-tim) · plural amâti (GEME₂{meš}) “slave-women”; the exact plural signs are UNCERTAIN · amat (GEME₂, the two signs SAL and KUR, no ending written) construct “slave-woman of”: amat awīlim “a man’s slave-woman”",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him · -šum “to him, for him” (dative): išakkanūšum, innadnušum · after a dental the suffix is assimilated and spelled with z: …ssu (ṣibat-zu, ṣibassu “its interest”, written after a broken sign); with a noun: ṣibtišu “its interest”, qātīšu “his hand”, damqaršu “his merchant”; tu-šu, te-šu in broken forms · with the same assimilation after a t: aššassu (aš-ša-zu) “his wife”, from aššat + -šu, t + š said ss · on a verb, the object “him”, or “to him” in the dative (Harper writes -šu for -šum): imaggarūšu (i-ma-ag-ga-ru-šu) “they shall agree to him”; on a noun after a preposition: elišu “upon him” · on a Š-stem, “him”: ušaḫḫazūšu “they shall have him take”, ušeṣṣûšu “they shall make him go out” · uktarriṣṣu (ug-dar-ri-zu) “he has slandered him” (ṣ + š said ṣṣ, spelled with ZU) · ikassûšuma “they shall bind him, and” · on nouns: emišu “his father-in-law’s”, ibiršu “his friend”, rabītišu “his senior one”, warkassu “his case”, zittišu “his share”, īnšu “his eye” · after a t, on a verb: uštāḫissu (uš-ta-ḫi-zu) “he has taught him” (the z of the stem + -šu said ss, spelled ZU); on nouns bīssu (É-ba/zu) “his house” and the participles murabbīšu, murabbītišu, murabbīssu “the one who raised him”; on a verb, ilqûšu, urtabbišu, urabbûšu, imtanûšu “him”; on the noun lišānšu (EME-šu) “his tongue”, īnšu “his eye”, mêšu “his waters”, mārūtišu “his sonship” · on a noun: bēlšu (be-el-šu), bēlišu (be-li-šu) “his master”, warḫušu (ITI-šu) “his month”, uznašu (u-zu-un-šu) “his ear”, nādinānšu (na-di-na-an-šu) “his seller”, nādinānišu (na-di-na-ni-šu) “his seller” after ana · written ZU in ARAD-zu, GEME₂-zu (warassu, amassu “his male slave, his female slave”) · on a verb, “him”: ukānšuma (u-ka-an-šu-ma) “he shall convict him, and”",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "u-te-id-di",
+     "say": "utēddi",
+     "glyphs": [
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u"
+      },
+      {
+       "s": "𒋼",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "te"
+      },
+      {
+       "s": "𒀉",
+       "sign": "A2",
+       "role": "phon",
+       "tr": "id"
+      },
+      {
+       "s": "𒁲",
+       "sign": "DI",
+       "role": "phon",
+       "tr": "di"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "edûm-D",
+       "gloss": "UNCERTAIN verb, read as the D-stem of edûm “to know”: “to make known, to identify, to point out”: uwaddīma (u-wi-id-di-ma) “he has identified (?), and”, D-stem + -ma; the form and the sense are UNCERTAIN · D-stem verb · utēddi (u-te-id-di) “he has identified (?)”, read as the D-stem perfect of edûm (Harper’s glossary lists it under edû, II,2); the form and the sense are UNCERTAIN",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ],
+     "nl": true
+    }
+   ],
+   "i": "and the owner of the male or the female slave has identified (?) his male slave or his female slave,",
+   "n": "bēl wardim ulu amtim “the owner of the male slave or the female slave” (bēl, written be-el, “owner”; ARAD and GEME₂ in the genitive, no ending written). The word for “or” is the conjunction ù “and” followed by lu “or”, written as two signs, as in §258–277 (the plate has the sign Ù, not ulu). lū warassu u lū amassu “whether his male slave or his female slave”: lū … u lū … “either … or”. ARAD-zu and GEME₂-zu are the two Sumerograms with the possessive -šu (ZU), pronounced warassu and amassu (the d of wardum and the t of amtum are assimilated to the š of -šu), as in the earlier laws. The verb is u-te-id-di, which I read utēddi: the D-stem perfect (so Harper’s glossary) of edûm “to know”, “to identify, to recognise”, the verb of uwaddīma in §185–194 (an uncertain reading there too). The form and the sense are uncertain; “has identified” suits a man who finds his own slave again.",
+   "col": "XXXIX",
+   "line": 80
+  },
+  {
+   "t": "𒋳𒈠 𒀴 𒅇 𒊩𒆳 𒋗𒉡\n𒌉𒈨𒌍 𒈠𒁴",
+   "l": "If the-male-slave and the-female-slave they sons-of the-land,",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ARAD",
+     "say": "wardum",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "wardum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD) · warad (ARAD, no ending written) “male slave of …”, wardam (ARAD-am) · wardam (ARAD, no ending written; the accusative supplied from the grammar) “a male slave”, the object of išāmma · wardum (ARAD) nominative “the male slave” · wardim (ARAD) genitive “of the male slave”: bēl wardim “the owner of the male slave” · warassu (ARAD-zu) “his male slave”, wara- + -šu with the d + š said ss",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ù",
+     "say": "u",
+     "glyphs": [
+      {
+       "s": "𒅇",
+       "sign": "U3",
+       "role": "phon",
+       "tr": "ù"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "and",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "GEME₂",
+     "say": "amtum",
+     "glyphs": [
+      {
+       "s": "𒊩",
+       "sign": "SAL",
+       "role": "log",
+       "tr": "GEME₂",
+       "val": "amtum"
+      },
+      {
+       "s": "𒆳",
+       "sign": "KUR",
+       "role": "log",
+       "tr": "",
+       "val": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "amtum",
+       "gloss": "slave-woman (GEME₂) · amassu (GEME₂-zu) “his slave-woman”, amtam (GEME₂-am), amtim (GEME₂-tim) · plural amâti (GEME₂{meš}) “slave-women”; the exact plural signs are UNCERTAIN · amat (GEME₂, the two signs SAL and KUR, no ending written) construct “slave-woman of”: amat awīlim “a man’s slave-woman”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šu-nu",
+     "say": "šunu",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šunu",
+       "gloss": "they (the independent 3rd-person plural masculine pronoun, nominative): šunu (šu-nu) “they (are)”, making a nominal sentence with no verb: šumma wardum u amtum šunu mārū mātim “if the male slave and the female slave are natives”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "DUMU{meš}",
+     "say": "mārū",
+     "glyphs": [
+      {
+       "s": "𒌉",
+       "sign": "TUR",
+       "role": "log",
+       "tr": "DUMU",
+       "val": "mār"
+      },
+      {
+       "s": "𒈨",
+       "sign": "ME",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒌍",
+       "sign": "ESH",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mārum",
+       "gloss": "son (DUMU) — here: a minor, not yet able to sell · member of a group: mārū ugārim (DUMU A.GÀR{meš}) “the sons of the irrigated land”, the district’s farmers · mār awīlim “a man’s son” (DUMU); mārī (DUMU{meš}) “sons” (oblique plural, which may include daughters, so “children”); māršu (DUMU-šu) “his son” · mārūša (DUMU{meš}-ša) “her sons” (nominative plural + suffix); mārīša (DUMU-ša) “her son” (genitive + suffix): ana mārīša “to her son” · mārī (DUMU-i) “my son” (-ī “my”); mārī (DUMU{meš}) “children” in mārī ūlissum “children she bore him”; mārū (DUMU{meš}) “sons” as subject: mārū ana ummātim ul izuzzū “the sons shall not divide by mothers” · mār X (DUMU, the sign TUR) “a member of the class X”, literally “son of X”: mār ummiānim “a craftsman”, mār zinništim “the son of a woman”; māram (DUMU) “a son”, mārašu (DUMU-šu) “his son”, mārī (DUMU{meš}) “sons”, mārīšu “his sons” · mārū (DUMU{meš}, plural, nominative) “sons”: mārū mātim “sons of the land”, i.e. natives, as a predicate",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "ma-tim",
+     "say": "mātim",
+     "glyphs": [
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "𒁴",
+       "sign": "TIM",
+       "role": "phon",
+       "tr": "tim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mātum",
+       "gloss": "land, country · māt (ma-at) the form before a following genitive, “the land of”: ina māt nukurtim “in a hostile country” · mātim (ma-tim, or the Sumerogram KALAM, no ending written) genitive “of the land”: ina libbu mātim “in the middle of the land”, mārū mātim “natives of the country”, mātim šanītim “another country”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "If the male slave and the female slave are natives of the country,",
+   "n": "A new condition: the slaves are natives. šunu “they” (šu-nu), the pronoun that makes a nominal sentence: “they (are) …”. mārū mātim, literally “sons of the land”, DUMU{meš} (DUMU, “son”, with the plural signs ME and EŠ, silent) and ma-tim, written with syllables here (the Sumerogram KALAM is used only in line 78); it means those born in the country. Harper normalises mârê; as a predicate I read the nominative plural mārū. In the plate, wardum and amtum are again the bare signs.",
+   "col": "XXXIX",
+   "line": 83
+  },
+  {
+   "t": "𒁀𒈝 𒆬𒌓𒈠\n𒀭𒁺𒊏𒅈𒋗𒉡\n𒅖𒊭𒀝𒅗𒀭",
+   "l": "without silver-at-all their-release shall-be-set.",
+   "words": [
+    {
+     "reading": "ba-lum",
+     "say": "balum",
+     "glyphs": [
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "balum",
+       "gloss": "without · (ina) balum bēl eqlim “without (the consent of) the owner of the field”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "KÙ.BABBAR-ma",
+     "say": "kaspima",
+     "glyphs": [
+      {
+       "s": "𒆬",
+       "sign": "KU3",
+       "role": "log",
+       "tr": "KÙ",
+       "val": "kaspi"
+      },
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "log",
+       "tr": "BABBAR",
+       "val": ""
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kaspum",
+       "gloss": "silver — the code’s money, written KÙ.BABBAR “shining precious-metal” · kaspim: mišil mana kaspim “half a mina of silver” · with a spelled vowel after the logogram: KÙ.BABBAR-a-am, -i-im, -u-um: kaspam, kaspim, kaspum (accusative, genitive, nominative); kaspum as the subject; the grain-and-silver pair šeʾam u kaspam “grain and silver” · kasap (KÙ.BABBAR, no ending written) construct “silver of”: kasap tirḫatim “silver of the bride-price” · kaspi (KÙ.BABBAR, no complement written; Harper’s normalization) in kaspi mišil šīmišu “silver, half its price” · kaspam (KÙ.BABBAR, no ending written) “the silver” as object: kaspam išqulu “the silver he weighed out” · kaspima (KÙ.BABBAR-ma) kaspi + -ma, genitive after balum: balum kaspima “without any silver”",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-ma",
+       "gloss": "and (clause-chaining particle); also “it is X that…” · “only, alone”, on a noun after ša: ša aḫḫīšama (aḫ-ḫi-ša-ma) “that of her brothers alone”; also “and” between verbs: izzazma, iššīma, išṭuršimma",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "an-du-ra-ar-šu-nu",
+     "say": "andurāršunu",
+     "glyphs": [
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "phon",
+       "tr": "an"
+      },
+      {
+       "s": "𒁺",
+       "sign": "DU",
+       "role": "phon",
+       "tr": "du"
+      },
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "𒅈",
+       "sign": "AR",
+       "role": "phon",
+       "tr": "ar"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "andurārum",
+       "gloss": "freedom, release from debt-service (Harper): andurāršunu (an-du-ra-ar-šu-nu) “their release”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-šunu",
+       "gloss": "their / them",
+       "g": [
+        4,
+        5
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "iš-ša-ak-ka-an",
+     "say": "iššakkan",
+     "glyphs": [
+      {
+       "s": "𒅖",
+       "sign": "ISH",
+       "role": "phon",
+       "tr": "iš"
+      },
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "phon",
+       "tr": "ak"
+      },
+      {
+       "s": "𒅗",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "ka"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "phon",
+       "tr": "an"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šakānum",
+       "gloss": "to set, place: išakkanūšumma “they shall set for him (a term), and” · išakkanūšum (present, plural, dative -šum) “they shall place (it) for him”, i.e. count it to him · iššakkan (iš-ša-ak-ka-an, N-stem present) “it shall be put”: ul iššakkan “it shall not be put (in the account)” · to set, put, impose: ištakan (iš-ta-ka-an, perfect, “has set”), išakkan (present) — išakkanšima (i-ša-ak-ka-an-ši-ma, with -ši and -ma) “he/she shall set (it) on her, and”, as in abbuttam išakkan · išakkanūši “they shall set (her on a stake)”, išakkanūšumma “they shall set (it) aside for him, and” · idiom panam šakānum (panam ištakan) “to set the face” = to make up one’s mind · iššakkan also written iš-ta-ak-ka-an (Harper’s reading, UNCERTAIN): andurār amtim iššakkan “the release of the slave-woman shall be established” · iššakkan (iš-ša-ak-ka-an, N-stem present) “it shall be set”: andurāršunu iššakkan “their release shall be set”",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ],
+     "nl": true
+    }
+   ],
+   "i": "their release shall be set, without any silver.",
+   "n": "The apodosis. ba-lum “without” (balum; Harper’s glossary lists it so). kaspi-ma is kaspima, the Sumerogram KÙ.BABBAR (see §278) plus -ma, which here stresses the “without”: “without silver (at all)”; Harper writes the word kaspi-ma, and I keep that. an-du-ra-ar-šu-nu is andurāršunu, “their release” (andurārum, here the freedom of a slave; a word known from §117 and §171), with -šunu “their”. iš-ša-ak-ka-an is iššakkan, the N-stem (passive) present of šakānum “to set”: “shall be set, shall be established”, the same word as in §117. The word order is that of earlier laws.",
+   "col": "XXXIX",
+   "line": 85
+  },
+  {
+   "t": "𒋳𒈠 𒌉𒈨𒌍 𒈠𒁴 𒊭𒉌𒁴",
+   "l": "If sons-of a-land another,",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "DUMU{meš}",
+     "say": "mārū",
+     "glyphs": [
+      {
+       "s": "𒌉",
+       "sign": "TUR",
+       "role": "log",
+       "tr": "DUMU",
+       "val": "mār"
+      },
+      {
+       "s": "𒈨",
+       "sign": "ME",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒌍",
+       "sign": "ESH",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mārum",
+       "gloss": "son (DUMU) — here: a minor, not yet able to sell · member of a group: mārū ugārim (DUMU A.GÀR{meš}) “the sons of the irrigated land”, the district’s farmers · mār awīlim “a man’s son” (DUMU); mārī (DUMU{meš}) “sons” (oblique plural, which may include daughters, so “children”); māršu (DUMU-šu) “his son” · mārūša (DUMU{meš}-ša) “her sons” (nominative plural + suffix); mārīša (DUMU-ša) “her son” (genitive + suffix): ana mārīša “to her son” · mārī (DUMU-i) “my son” (-ī “my”); mārī (DUMU{meš}) “children” in mārī ūlissum “children she bore him”; mārū (DUMU{meš}) “sons” as subject: mārū ana ummātim ul izuzzū “the sons shall not divide by mothers” · mār X (DUMU, the sign TUR) “a member of the class X”, literally “son of X”: mār ummiānim “a craftsman”, mār zinništim “the son of a woman”; māram (DUMU) “a son”, mārašu (DUMU-šu) “his son”, mārī (DUMU{meš}) “sons”, mārīšu “his sons” · mārū (DUMU{meš}, plural, nominative) “sons”: mārū mātim “sons of the land”, i.e. natives, as a predicate",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ma-tim",
+     "say": "mātim",
+     "glyphs": [
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "𒁴",
+       "sign": "TIM",
+       "role": "phon",
+       "tr": "tim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mātum",
+       "gloss": "land, country · māt (ma-at) the form before a following genitive, “the land of”: ina māt nukurtim “in a hostile country” · mātim (ma-tim, or the Sumerogram KALAM, no ending written) genitive “of the land”: ina libbu mātim “in the middle of the land”, mārū mātim “natives of the country”, mātim šanītim “another country”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ša-ni-tim",
+     "say": "šanītim",
+     "glyphs": [
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša"
+      },
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒁴",
+       "sign": "TIM",
+       "role": "phon",
+       "tr": "tim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šanûm",
+       "gloss": "another, a second one: ana šanîm “to another”, šanûm “another man” · feminine šanītum “another (woman)”: šanītam, šanītim (ša-ni-tam, ša-ni-tim), in the accusative and genitive · šaniam (ša-ni-a-am, accusative) “another”: šaniam ul uppal “nor shall she pay another (?)”, UNCERTAIN · šanītim (ša-ni-tim) feminine genitive “another”, agreeing with mātim: mātim šanītim “another country”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "ln": 281,
+   "i": "If they are natives of another country,",
+   "n": "The second case. mārū mātim šanītim: “sons of another land”, that is, natives of a foreign country; DUMU{meš}, ma-tim and ša-ni-tim (šanītim, the feminine genitive of šanûm “another”, agreeing with mātim). This line stands alone: the plate has it on two half-rows. In the printed transliteration of §281 the carons are very faint; the signs are those of the plate (šum-ma, ša-ni-tim). The clause has no verb; “they are” has to be supplied, as in the unit above. Harper normalises mârê; the predicate nominative is mārū.",
+   "p": true,
+   "col": "XXXIX",
+   "line": 88
+  },
+  {
+   "t": "𒊭𒀀𒀀𒈠𒉡𒈠\n𒄿𒈾 𒈠𒄯 𒄿𒅆\n𒆬𒌓 𒅖𒆪𒇻\n𒄿𒂵𒀊𒁉𒈠",
+   "l": "the-buyer before the-god the-silver (that) he-weighed-out shall-declare-and,",
+   "words": [
+    {
+     "reading": "ša-a-a-ma-nu-ma",
+     "say": "šayyāmānumma",
+     "glyphs": [
+      {
+       "s": "𒊭",
+       "sign": "SHA",
+       "role": "phon",
+       "tr": "ša"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šayyāmānum",
+       "gloss": "buyer, purchaser",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      },
+      {
+       "lemma": "-ma",
+       "gloss": "and (clause-chaining particle); also “it is X that…” · “only, alone”, on a noun after ša: ša aḫḫīšama (aḫ-ḫi-ša-ma) “that of her brothers alone”; also “and” between verbs: izzazma, iššīma, išṭuršimma",
+       "g": [
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-na",
+     "say": "ina",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ina",
+       "gloss": "in, from · at (ina ebūrim “at harvest”); out of (ina bilat kirîm “out of the orchard’s yield”) · “through, by (means of)”: ina maḫāṣim “through beating”, ina pilšim “by a breach”; “regarding”: ina mimma ša … “regarding whatever …”; ina šanat “in the year” · “with, by”, of company or means (UNCERTAIN): ina liātim “with (or by) the cattle”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "ma-ḫar",
+     "say": "maḫar",
+     "glyphs": [
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "𒄯",
+       "sign": "HAR",
+       "role": "phon",
+       "tr": "ḫar"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "maḫar",
+       "gloss": "before, in the presence of: maḫar ilim “before the god”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-lim",
+     "say": "ilim",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒅆",
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "lim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ilum",
+       "gloss": "god; here: the temple as owner · plural ilāni “gods” (written DINGIR.DINGIR, as in the litany): maḫar ilāni “before the gods”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "KÙ.BABBAR",
+     "say": "kaspam",
+     "glyphs": [
+      {
+       "s": "𒆬",
+       "sign": "KU3",
+       "role": "log",
+       "tr": "KÙ",
+       "val": "kaspam"
+      },
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "log",
+       "tr": "BABBAR",
+       "val": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kaspum",
+       "gloss": "silver — the code’s money, written KÙ.BABBAR “shining precious-metal” · kaspim: mišil mana kaspim “half a mina of silver” · with a spelled vowel after the logogram: KÙ.BABBAR-a-am, -i-im, -u-um: kaspam, kaspim, kaspum (accusative, genitive, nominative); kaspum as the subject; the grain-and-silver pair šeʾam u kaspam “grain and silver” · kasap (KÙ.BABBAR, no ending written) construct “silver of”: kasap tirḫatim “silver of the bride-price” · kaspi (KÙ.BABBAR, no complement written; Harper’s normalization) in kaspi mišil šīmišu “silver, half its price” · kaspam (KÙ.BABBAR, no ending written) “the silver” as object: kaspam išqulu “the silver he weighed out” · kaspima (KÙ.BABBAR-ma) kaspi + -ma, genitive after balum: balum kaspima “without any silver”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "iš-qu₂-lu",
+     "say": "išqulu",
+     "glyphs": [
+      {
+       "s": "𒅖",
+       "sign": "ISH",
+       "role": "phon",
+       "tr": "iš"
+      },
+      {
+       "s": "𒆪",
+       "sign": "KU",
+       "role": "phon",
+       "tr": "qu₂"
+      },
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šaqālum",
+       "gloss": "to weigh out (silver = to pay): išqulu · išaqqal (present) “he shall weigh out”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-qa₂-ab-bi-ma",
+     "say": "iqabbima",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒂵",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "qa₂"
+      },
+      {
+       "s": "𒀊",
+       "sign": "AB",
+       "role": "phon",
+       "tr": "ab"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "qabûm",
+       "gloss": "to speak, say: iqbû, iqtabi, iqabbûma · iqabbi (written i-qa₂-ab-bi-ma, iqabbi + -ma; Harper prints the GA sign as ga, read qa₂) present “he shall say, declare”: ina maḫar ilim … iqabbima “he shall declare before the god”",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-ma",
+       "gloss": "and (clause-chaining particle); also “it is X that…” · “only, alone”, on a noun after ša: ša aḫḫīšama (aḫ-ḫi-ša-ma) “that of her brothers alone”; also “and” between verbs: izzazma, iššīma, išṭuršimma",
+       "g": [
+        4
+       ]
+      }
+     ],
+     "nl": true
+    }
+   ],
+   "i": "the buyer shall declare, before the god, the silver he paid, and",
+   "n": "ša-a-a-ma-nu-ma is šayyāmānum “the buyer” with -ma, which here marks the clause that follows the condition (“as for the buyer: …”). ina maḫar ilim is “before the god”, as in §266 (a formal declaration in the god’s presence; the law does not say “oath” here): “before” is ma-ḫar and the god is written i-lim syllabically, not with the divine sign AN. kaspam išqulu “the silver he weighed out” (see §278). i-qa₂-ab-bi-ma is iqabbi, the present of qabûm “to say” (as in iqtabi, §282), with -ma: “he shall say, he shall declare”. Harper prints the GA sign as ga; it is read qa₂ here, as in earlier parts.",
+   "col": "XXXIX",
+   "line": 89
+  },
+  {
+   "t": "𒁁𒂖 𒀴 𒅇 𒇻 𒊩𒆳\n𒆬𒌓 𒅖𒆪𒇻 𒀀𒈾 𒁮𒃼\n𒄿𒈾𒀜𒁲𒅔𒈠",
+   "l": "the-owner of-the-male-slave or of-the-female-slave the-silver (that) he-weighed-out to the-merchant shall-give-and,",
+   "words": [
+    {
+     "reading": "be-el",
+     "say": "bēl",
+     "glyphs": [
+      {
+       "s": "𒁁",
+       "sign": "BAD",
+       "role": "phon",
+       "tr": "be"
+      },
+      {
+       "s": "𒂖",
+       "sign": "EL",
+       "role": "phon",
+       "tr": "el"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bēlum",
+       "gloss": "owner, lord: bēl ḫulqim “owner of the lost property” · owner of a field, bēl eqlim; bēl ḫubullim “creditor” · bēl kirîm “owner of the orchard” · bēl (be-el), the construct “owner of”, also with a suffix on the noun that follows: bēl ḫubullišu “his creditor”, bēl ḫubulliša “her creditor” · bēl (be-el, not the sign EN) “owner of”: bēl aššatim “the owner of the wife”, i.e. the man entitled to her (my reading) · bēlišu (be-li-šu) “its owner” (of an animal), bēlišuma “to its owner only” (with the emphatic -ma); bēl alpim “the owner of the ox” · bēl epinnim “the owner of the plough”, bēl tarbaṣim “the owner of the pen”; bēlīšunu (be-li-šu-nu) “their owners”, the owners of the cattle and sheep a herdsman has lost · bēl (be-el) “owner of” before a genitive: bēl wardim “the owner of the male slave” · bēlī (be-li) “my master”: ul bēlī atta “you are not my master” · bēlšu, bēlišu (be-el-šu, be-li-šu) “his master”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ARAD",
+     "say": "wardim",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "wardim"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD) · warad (ARAD, no ending written) “male slave of …”, wardam (ARAD-am) · wardam (ARAD, no ending written; the accusative supplied from the grammar) “a male slave”, the object of išāmma · wardum (ARAD) nominative “the male slave” · wardim (ARAD) genitive “of the male slave”: bēl wardim “the owner of the male slave” · warassu (ARAD-zu) “his male slave”, wara- + -šu with the d + š said ss",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ù",
+     "say": "u",
+     "glyphs": [
+      {
+       "s": "𒅇",
+       "sign": "U3",
+       "role": "phon",
+       "tr": "ù"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "and",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lu",
+     "say": "lū",
+     "glyphs": [
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lū",
+       "gloss": "or; either (lū … lū “whether … or”); with verb: “let …” · ù lu, two words written together, “or”: ù lu ina maḫāṣim “or through beating”",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "GEME₂",
+     "say": "amtim",
+     "glyphs": [
+      {
+       "s": "𒊩",
+       "sign": "SAL",
+       "role": "log",
+       "tr": "GEME₂",
+       "val": "amtim"
+      },
+      {
+       "s": "𒆳",
+       "sign": "KUR",
+       "role": "log",
+       "tr": "",
+       "val": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "amtum",
+       "gloss": "slave-woman (GEME₂) · amassu (GEME₂-zu) “his slave-woman”, amtam (GEME₂-am), amtim (GEME₂-tim) · plural amâti (GEME₂{meš}) “slave-women”; the exact plural signs are UNCERTAIN · amat (GEME₂, the two signs SAL and KUR, no ending written) construct “slave-woman of”: amat awīlim “a man’s slave-woman”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "KÙ.BABBAR",
+     "say": "kaspam",
+     "glyphs": [
+      {
+       "s": "𒆬",
+       "sign": "KU3",
+       "role": "log",
+       "tr": "KÙ",
+       "val": "kaspam"
+      },
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "log",
+       "tr": "BABBAR",
+       "val": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kaspum",
+       "gloss": "silver — the code’s money, written KÙ.BABBAR “shining precious-metal” · kaspim: mišil mana kaspim “half a mina of silver” · with a spelled vowel after the logogram: KÙ.BABBAR-a-am, -i-im, -u-um: kaspam, kaspim, kaspum (accusative, genitive, nominative); kaspum as the subject; the grain-and-silver pair šeʾam u kaspam “grain and silver” · kasap (KÙ.BABBAR, no ending written) construct “silver of”: kasap tirḫatim “silver of the bride-price” · kaspi (KÙ.BABBAR, no complement written; Harper’s normalization) in kaspi mišil šīmišu “silver, half its price” · kaspam (KÙ.BABBAR, no ending written) “the silver” as object: kaspam išqulu “the silver he weighed out” · kaspima (KÙ.BABBAR-ma) kaspi + -ma, genitive after balum: balum kaspima “without any silver”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "iš-qu₂-lu",
+     "say": "išqulu",
+     "glyphs": [
+      {
+       "s": "𒅖",
+       "sign": "ISH",
+       "role": "phon",
+       "tr": "iš"
+      },
+      {
+       "s": "𒆪",
+       "sign": "KU",
+       "role": "phon",
+       "tr": "qu₂"
+      },
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šaqālum",
+       "gloss": "to weigh out (silver = to pay): išqulu · išaqqal (present) “he shall weigh out”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "to, for · with an infinitive, “to, for” (ana kirîm zaqāpim “to plant as an orchard”); “as” (ana kirîm), “into” (ana libbi), “at the rate of” (ana itêšu)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "DAM.GÀR",
+     "say": "tamkārim",
+     "glyphs": [
+      {
+       "s": "𒁮",
+       "sign": "DAM",
+       "role": "log",
+       "tr": "DAM",
+       "val": "tamkārim"
+      },
+      {
+       "s": "𒃼",
+       "sign": "GAR3",
+       "role": "log",
+       "tr": "GÀR",
+       "val": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tamkārum",
+       "gloss": "merchant (written tam-KAR §32, DAM.GÀR §40): the ransom-fronting, land-buying businessman of the code · written dam-qar, dam-qar-um (the common syllabic spelling of the merchant): damqar, damqarum “the merchant” (nominative), damqaršu “his merchant” · written DAM.GÀR as a Sumerogram (Harper tamkaru [DAM-GAR]; two signs on the plate): tamkārum, tamkāram, tamkārim, tamkāršu",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-na-ad-di-in-ma",
+     "say": "inaddinma",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "𒀜",
+       "sign": "AD",
+       "role": "phon",
+       "tr": "ad"
+      },
+      {
+       "s": "𒁲",
+       "sign": "DI",
+       "role": "phon",
+       "tr": "di"
+      },
+      {
+       "s": "𒅔",
+       "sign": "IN",
+       "role": "phon",
+       "tr": "in"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nadānum",
+       "gloss": "to give, pay: inaddin, iddinam, iddinušum; nadānim “to give” · iddin “he gave”; ana kaspim nadānum “to sell”: inaddinūma (present, plural) “they shall sell, and …” · iddin, iddinu “he gave” (preterite; the subjunctive -u in a ša- or inūma clause); iddinma “he gave, and”; …in, …din in broken forms; inaddin “he shall give”: ana damqaršu inaddin “he shall give to his merchant” · ittadinma (it-ta-di-in-ma) “he has given, and” (perfect); inaddinu (i-na-ad-di-nu) “(which) he gives” (present, with the subjunctive -u) · ittandin (it-ta-an-di-in, perfect with an extra -n-) “he has handed over”: ana kiššātim ittandin “he handed over into service”; ittadin (it-ta-din) “he has given”, i.e. sold; ana maṣṣarūtim inaddin “he gives for safekeeping”; iddinūšumma “they gave him, and” · inaddin also of a woman, “she shall give” · inaddišši (i-na-ad-di-iš-ši) “he/she shall give her” (the n of the stem swallowed before -ši), of a sale: ana kaspim inaddišši “she may sell her”, ul inaddišši “she shall not sell her” · anaddin “I shall give”, with the n merged into the k of -kum: anaddikkum (a-na-ad-di-ik-kum) “I shall give (her) to you”; iddinu (id-di-nu) “(which) he gave”; iddinušum “he gave him” · nadānam (na-da-nam, infinitive accusative) “to give”: warkassa … nadānam “(that she may) give her estate” · iddišši (id-di-iš-ši) “he gave her”, preterite + -ši, the n written š: ana mutim iddišši “he gave her to a husband” · inaddinūši (i-na-ad-di-nu-ši) “they shall give her”, inaddinūšimma (i-na-ad-di-nu-šim-ma) “they shall give her, and”, ittadnūšimma (it-ta-ad-nu-ši-im-ma) “they have given her, and” (perfect plural + -šim + -ma) · iddinušim (id-di-nu-ši-im) “he gave her”, with the subjunctive -u in a ša-clause · inaddiššum (i-na-ad-di-iš-šum) “he shall give him” (inaddin + -šum, the n assimilated to š) · innadnušum (in-na-ad-nu-šum) “were given to him” (N-stem preterite + relative -u + -šum): ša innadnušum “that was given to him” · ittadin (it-ta-di-in) “he has given” (perfect): ana kaspim ittadin “he has sold for silver” · inaddin (i-na-ad-di-in-ma, inaddin + -ma) present “he shall give”: ana tamkārim inaddinma “he shall give to the merchant, and”",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      },
+      {
+       "lemma": "-ma",
+       "gloss": "and (clause-chaining particle); also “it is X that…” · “only, alone”, on a noun after ša: ša aḫḫīšama (aḫ-ḫi-ša-ma) “that of her brothers alone”; also “and” between verbs: izzazma, iššīma, išṭuršimma",
+       "g": [
+        5
+       ]
+      }
+     ],
+     "nl": true
+    }
+   ],
+   "i": "the owner of the male or the female slave shall give the silver that was paid to the merchant, and",
+   "n": "bēl wardim ù lū amtim as in §280. kaspam išqulu again, “the silver he weighed out”: the silver the buyer paid. ana tamkārim “to the merchant”: tamkārum, written DAM.GÀR, two Sumerograms (DAM and GÀR, no ending). Who the merchant is is not said; I take him to be the man from whom the buyer bought the slave abroad (my inference, not the text’s): the owner pays him back what the buyer paid. i-na-ad-di-in-ma is inaddin, the present of nadānum “to give”, with -ma: “he shall give, and”.",
+   "col": "XXXIX",
+   "line": 93
+  },
+  {
+   "t": "𒇻 𒀴𒍪 𒇻 𒊩𒆳𒍪 𒄿𒉺𒀝",
+   "l": "either his-male-slave or his-female-slave he-shall-take-back (?).",
+   "words": [
+    {
+     "reading": "lu",
+     "say": "lū",
+     "glyphs": [
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lū",
+       "gloss": "or; either (lū … lū “whether … or”); with verb: “let …” · ù lu, two words written together, “or”: ù lu ina maḫāṣim “or through beating”",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ARAD-zu",
+     "say": "warassu",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "wara"
+      },
+      {
+       "s": "𒍪",
+       "sign": "ZU",
+       "role": "phon",
+       "tr": "zu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD) · warad (ARAD, no ending written) “male slave of …”, wardam (ARAD-am) · wardam (ARAD, no ending written; the accusative supplied from the grammar) “a male slave”, the object of išāmma · wardum (ARAD) nominative “the male slave” · wardim (ARAD) genitive “of the male slave”: bēl wardim “the owner of the male slave” · warassu (ARAD-zu) “his male slave”, wara- + -šu with the d + š said ss",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him · -šum “to him, for him” (dative): išakkanūšum, innadnušum · after a dental the suffix is assimilated and spelled with z: …ssu (ṣibat-zu, ṣibassu “its interest”, written after a broken sign); with a noun: ṣibtišu “its interest”, qātīšu “his hand”, damqaršu “his merchant”; tu-šu, te-šu in broken forms · with the same assimilation after a t: aššassu (aš-ša-zu) “his wife”, from aššat + -šu, t + š said ss · on a verb, the object “him”, or “to him” in the dative (Harper writes -šu for -šum): imaggarūšu (i-ma-ag-ga-ru-šu) “they shall agree to him”; on a noun after a preposition: elišu “upon him” · on a Š-stem, “him”: ušaḫḫazūšu “they shall have him take”, ušeṣṣûšu “they shall make him go out” · uktarriṣṣu (ug-dar-ri-zu) “he has slandered him” (ṣ + š said ṣṣ, spelled with ZU) · ikassûšuma “they shall bind him, and” · on nouns: emišu “his father-in-law’s”, ibiršu “his friend”, rabītišu “his senior one”, warkassu “his case”, zittišu “his share”, īnšu “his eye” · after a t, on a verb: uštāḫissu (uš-ta-ḫi-zu) “he has taught him” (the z of the stem + -šu said ss, spelled ZU); on nouns bīssu (É-ba/zu) “his house” and the participles murabbīšu, murabbītišu, murabbīssu “the one who raised him”; on a verb, ilqûšu, urtabbišu, urabbûšu, imtanûšu “him”; on the noun lišānšu (EME-šu) “his tongue”, īnšu “his eye”, mêšu “his waters”, mārūtišu “his sonship” · on a noun: bēlšu (be-el-šu), bēlišu (be-li-šu) “his master”, warḫušu (ITI-šu) “his month”, uznašu (u-zu-un-šu) “his ear”, nādinānšu (na-di-na-an-šu) “his seller”, nādinānišu (na-di-na-ni-šu) “his seller” after ana · written ZU in ARAD-zu, GEME₂-zu (warassu, amassu “his male slave, his female slave”) · on a verb, “him”: ukānšuma (u-ka-an-šu-ma) “he shall convict him, and”",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lu",
+     "say": "lū",
+     "glyphs": [
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lū",
+       "gloss": "or; either (lū … lū “whether … or”); with verb: “let …” · ù lu, two words written together, “or”: ù lu ina maḫāṣim “or through beating”",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "GEME₂-zu",
+     "say": "amassu",
+     "glyphs": [
+      {
+       "s": "𒊩",
+       "sign": "SAL",
+       "role": "log",
+       "tr": "GEME₂",
+       "val": "ama"
+      },
+      {
+       "s": "𒆳",
+       "sign": "KUR",
+       "role": "log",
+       "tr": "",
+       "val": ""
+      },
+      {
+       "s": "𒍪",
+       "sign": "ZU",
+       "role": "phon",
+       "tr": "zu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "amtum",
+       "gloss": "slave-woman (GEME₂) · amassu (GEME₂-zu) “his slave-woman”, amtam (GEME₂-am), amtim (GEME₂-tim) · plural amâti (GEME₂{meš}) “slave-women”; the exact plural signs are UNCERTAIN · amat (GEME₂, the two signs SAL and KUR, no ending written) construct “slave-woman of”: amat awīlim “a man’s slave-woman”",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him · -šum “to him, for him” (dative): išakkanūšum, innadnušum · after a dental the suffix is assimilated and spelled with z: …ssu (ṣibat-zu, ṣibassu “its interest”, written after a broken sign); with a noun: ṣibtišu “its interest”, qātīšu “his hand”, damqaršu “his merchant”; tu-šu, te-šu in broken forms · with the same assimilation after a t: aššassu (aš-ša-zu) “his wife”, from aššat + -šu, t + š said ss · on a verb, the object “him”, or “to him” in the dative (Harper writes -šu for -šum): imaggarūšu (i-ma-ag-ga-ru-šu) “they shall agree to him”; on a noun after a preposition: elišu “upon him” · on a Š-stem, “him”: ušaḫḫazūšu “they shall have him take”, ušeṣṣûšu “they shall make him go out” · uktarriṣṣu (ug-dar-ri-zu) “he has slandered him” (ṣ + š said ṣṣ, spelled with ZU) · ikassûšuma “they shall bind him, and” · on nouns: emišu “his father-in-law’s”, ibiršu “his friend”, rabītišu “his senior one”, warkassu “his case”, zittišu “his share”, īnšu “his eye” · after a t, on a verb: uštāḫissu (uš-ta-ḫi-zu) “he has taught him” (the z of the stem + -šu said ss, spelled ZU); on nouns bīssu (É-ba/zu) “his house” and the participles murabbīšu, murabbītišu, murabbīssu “the one who raised him”; on a verb, ilqûšu, urtabbišu, urabbûšu, imtanûšu “him”; on the noun lišānšu (EME-šu) “his tongue”, īnšu “his eye”, mêšu “his waters”, mārūtišu “his sonship” · on a noun: bēlšu (be-el-šu), bēlišu (be-li-šu) “his master”, warḫušu (ITI-šu) “his month”, uznašu (u-zu-un-šu) “his ear”, nādinānšu (na-di-na-an-šu) “his seller”, nādinānišu (na-di-na-ni-šu) “his seller” after ana · written ZU in ARAD-zu, GEME₂-zu (warassu, amassu “his male slave, his female slave”) · on a verb, “him”: ukānšuma (u-ka-an-šu-ma) “he shall convict him, and”",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-pa-aq",
+     "say": "ipaq",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒉺",
+       "sign": "PA",
+       "role": "phon",
+       "tr": "pa"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "phon",
+       "tr": "aq"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "pâqum",
+       "gloss": "to take into one’s care, to be entrusted with (Harper’s glossary, PAKU, from a verb he writes paku), UNCERTAIN: ipaq (i-pa-aq, the last sign AK read aq) “he shall take back (?)”, the sense “take back into his own care” being a guess from the context",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "he shall take back (?) his male slave or his female slave.",
+   "n": "lū warassu lū amassu “either his male slave or his female slave” (see §280 for ARAD-zu and GEME₂-zu). i-pa-aq is the verb. Harper’s glossary lists it as ipaq, from a verb he writes paku, “to receive into one’s care, to be entrusted with”; the last sign is AK read aq. I do not know the word certainly. The sense “takes back, takes into his own care” fits the situation, the owner who has paid the merchant recovering his slave, but this is UNCERTAIN and I say so with the (?).",
+   "col": "XXXIX",
+   "line": 96
+  },
+  {
+   "t": "𒋳𒈠 𒀴 𒀀𒈾 𒁁𒇷𒋗\n𒌑𒌌 𒁁𒇷 𒀜𒋫\n𒅅𒋫𒁉",
+   "l": "If a-male-slave to his-master “not my-master you” has-said,",
+   "words": [
+    {
+     "reading": "šum-ma",
+     "say": "šumma",
+     "glyphs": [
+      {
+       "s": "𒋳",
+       "sign": "TAG",
+       "role": "phon",
+       "tr": "šum"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šumma",
+       "gloss": "if — the word that opens every law of the code",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ARAD",
+     "say": "wardum",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "wardum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD) · warad (ARAD, no ending written) “male slave of …”, wardam (ARAD-am) · wardam (ARAD, no ending written; the accusative supplied from the grammar) “a male slave”, the object of išāmma · wardum (ARAD) nominative “the male slave” · wardim (ARAD) genitive “of the male slave”: bēl wardim “the owner of the male slave” · warassu (ARAD-zu) “his male slave”, wara- + -šu with the d + š said ss",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-na",
+     "say": "ana",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ana",
+       "gloss": "to, for · with an infinitive, “to, for” (ana kirîm zaqāpim “to plant as an orchard”); “as” (ana kirîm), “into” (ana libbi), “at the rate of” (ana itêšu)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "be-li-šu",
+     "say": "bēlišu",
+     "glyphs": [
+      {
+       "s": "𒁁",
+       "sign": "BAD",
+       "role": "phon",
+       "tr": "be"
+      },
+      {
+       "s": "𒇷",
+       "sign": "LI",
+       "role": "phon",
+       "tr": "li"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bēlum",
+       "gloss": "owner, lord: bēl ḫulqim “owner of the lost property” · owner of a field, bēl eqlim; bēl ḫubullim “creditor” · bēl kirîm “owner of the orchard” · bēl (be-el), the construct “owner of”, also with a suffix on the noun that follows: bēl ḫubullišu “his creditor”, bēl ḫubulliša “her creditor” · bēl (be-el, not the sign EN) “owner of”: bēl aššatim “the owner of the wife”, i.e. the man entitled to her (my reading) · bēlišu (be-li-šu) “its owner” (of an animal), bēlišuma “to its owner only” (with the emphatic -ma); bēl alpim “the owner of the ox” · bēl epinnim “the owner of the plough”, bēl tarbaṣim “the owner of the pen”; bēlīšunu (be-li-šu-nu) “their owners”, the owners of the cattle and sheep a herdsman has lost · bēl (be-el) “owner of” before a genitive: bēl wardim “the owner of the male slave” · bēlī (be-li) “my master”: ul bēlī atta “you are not my master” · bēlšu, bēlišu (be-el-šu, be-li-šu) “his master”",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him · -šum “to him, for him” (dative): išakkanūšum, innadnušum · after a dental the suffix is assimilated and spelled with z: …ssu (ṣibat-zu, ṣibassu “its interest”, written after a broken sign); with a noun: ṣibtišu “its interest”, qātīšu “his hand”, damqaršu “his merchant”; tu-šu, te-šu in broken forms · with the same assimilation after a t: aššassu (aš-ša-zu) “his wife”, from aššat + -šu, t + š said ss · on a verb, the object “him”, or “to him” in the dative (Harper writes -šu for -šum): imaggarūšu (i-ma-ag-ga-ru-šu) “they shall agree to him”; on a noun after a preposition: elišu “upon him” · on a Š-stem, “him”: ušaḫḫazūšu “they shall have him take”, ušeṣṣûšu “they shall make him go out” · uktarriṣṣu (ug-dar-ri-zu) “he has slandered him” (ṣ + š said ṣṣ, spelled with ZU) · ikassûšuma “they shall bind him, and” · on nouns: emišu “his father-in-law’s”, ibiršu “his friend”, rabītišu “his senior one”, warkassu “his case”, zittišu “his share”, īnšu “his eye” · after a t, on a verb: uštāḫissu (uš-ta-ḫi-zu) “he has taught him” (the z of the stem + -šu said ss, spelled ZU); on nouns bīssu (É-ba/zu) “his house” and the participles murabbīšu, murabbītišu, murabbīssu “the one who raised him”; on a verb, ilqûšu, urtabbišu, urabbûšu, imtanûšu “him”; on the noun lišānšu (EME-šu) “his tongue”, īnšu “his eye”, mêšu “his waters”, mārūtišu “his sonship” · on a noun: bēlšu (be-el-šu), bēlišu (be-li-šu) “his master”, warḫušu (ITI-šu) “his month”, uznašu (u-zu-un-šu) “his ear”, nādinānšu (na-di-na-an-šu) “his seller”, nādinānišu (na-di-na-ni-šu) “his seller” after ana · written ZU in ARAD-zu, GEME₂-zu (warassu, amassu “his male slave, his female slave”) · on a verb, “him”: ukānšuma (u-ka-an-šu-ma) “he shall convict him, and”",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "u-ul",
+     "say": "ul",
+     "glyphs": [
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u"
+      },
+      {
+       "s": "𒌌",
+       "sign": "UL",
+       "role": "phon",
+       "tr": "ul"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ul",
+       "gloss": "not (in main clauses)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "be-li",
+     "say": "bēlī",
+     "glyphs": [
+      {
+       "s": "𒁁",
+       "sign": "BAD",
+       "role": "phon",
+       "tr": "be"
+      },
+      {
+       "s": "𒇷",
+       "sign": "LI",
+       "role": "phon",
+       "tr": "li"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bēlum",
+       "gloss": "owner, lord: bēl ḫulqim “owner of the lost property” · owner of a field, bēl eqlim; bēl ḫubullim “creditor” · bēl kirîm “owner of the orchard” · bēl (be-el), the construct “owner of”, also with a suffix on the noun that follows: bēl ḫubullišu “his creditor”, bēl ḫubulliša “her creditor” · bēl (be-el, not the sign EN) “owner of”: bēl aššatim “the owner of the wife”, i.e. the man entitled to her (my reading) · bēlišu (be-li-šu) “its owner” (of an animal), bēlišuma “to its owner only” (with the emphatic -ma); bēl alpim “the owner of the ox” · bēl epinnim “the owner of the plough”, bēl tarbaṣim “the owner of the pen”; bēlīšunu (be-li-šu-nu) “their owners”, the owners of the cattle and sheep a herdsman has lost · bēl (be-el) “owner of” before a genitive: bēl wardim “the owner of the male slave” · bēlī (be-li) “my master”: ul bēlī atta “you are not my master” · bēlšu, bēlišu (be-el-šu, be-li-šu) “his master”",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "at-ta",
+     "say": "atta",
+     "glyphs": [
+      {
+       "s": "𒀜",
+       "sign": "AD",
+       "role": "phon",
+       "tr": "at"
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "atta",
+       "gloss": "you (the independent pronoun of the second person): atta (at-ta) masculine “you (m.)”, atti (at-ti) feminine “you (f.)”: ul abī atta, ul ummī atti “you are not my father, you are not my mother” · pronoun",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "iq-ta-bi",
+     "say": "iqtabi",
+     "glyphs": [
+      {
+       "s": "𒅅",
+       "sign": "IG",
+       "role": "phon",
+       "tr": "iq"
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "qabûm",
+       "gloss": "to speak, say: iqbû, iqtabi, iqabbûma · iqabbi (written i-qa₂-ab-bi-ma, iqabbi + -ma; Harper prints the GA sign as ga, read qa₂) present “he shall say, declare”: ina maḫar ilim … iqabbima “he shall declare before the god”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "nl": true
+    }
+   ],
+   "ln": 282,
+   "i": "If a slave has said to his master, “You are not my master,”",
+   "n": "The last law of the code: a slave who disowns his master. The condition is šumma wardum ana bēlišu … iqtabi “if a slave has said to his master …”: iq-ta-bi is iqtabi, the perfect of qabûm “to say”, with the sign IG read iq; the words said are quoted without any quotation word, as in §192 (“You are not my father”). ul bēlī atta is “not my master you (are)”: bēlī, spelled be-li, is bēlum with the “my” ending -ī; atta “you (m.)” is at-ta; ul “not” is u-ul. The words are a denial of the owner’s claim on him. wardum is ARAD, bare.",
+   "p": true,
+   "col": "XXXIX",
+   "line": 97
+  },
+  {
+   "t": "𒆠𒈠 𒀴𒍪\n𒌑𒅗𒀭𒋗𒈠\n𒁁𒂖𒋗 𒌑𒍪𒌦𒋗 𒄿𒈾𒀝𒆠𒄑",
+   "l": "as his-male-slave he-shall-convict-him-and his-master his-ear he-shall-cut-off.",
+   "words": [
+    {
+     "reading": "ki-ma",
+     "say": "kīma",
+     "glyphs": [
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "ki"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kīma",
+       "gloss": "like, as · as, like; with a verb in the subjunctive: kīma ubbalu “as he brings (it)” · according to: kīma ṣimdat šarrim “according to the king’s schedule” · “since, when”, before a stative: kīma mimmûšu lā ḫalqu “since his goods are not lost” · “in proportion to”: kīma emūq zittiša “in proportion to the strength of her share”, kīma emūq bīt abim “in proportion to the means of her father’s house” · in place of, for (of animal for animal): alpam kīma alpim “an ox for an ox” (the §263 restitution)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ARAD-zu",
+     "say": "warassu",
+     "glyphs": [
+      {
+       "s": "𒀴",
+       "sign": "ARAD",
+       "role": "log",
+       "tr": "ARAD",
+       "val": "wara"
+      },
+      {
+       "s": "𒍪",
+       "sign": "ZU",
+       "role": "phon",
+       "tr": "zu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wardum",
+       "gloss": "male slave (ARAD) · warad (ARAD, no ending written) “male slave of …”, wardam (ARAD-am) · wardam (ARAD, no ending written; the accusative supplied from the grammar) “a male slave”, the object of išāmma · wardum (ARAD) nominative “the male slave” · wardim (ARAD) genitive “of the male slave”: bēl wardim “the owner of the male slave” · warassu (ARAD-zu) “his male slave”, wara- + -šu with the d + š said ss",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him · -šum “to him, for him” (dative): išakkanūšum, innadnušum · after a dental the suffix is assimilated and spelled with z: …ssu (ṣibat-zu, ṣibassu “its interest”, written after a broken sign); with a noun: ṣibtišu “its interest”, qātīšu “his hand”, damqaršu “his merchant”; tu-šu, te-šu in broken forms · with the same assimilation after a t: aššassu (aš-ša-zu) “his wife”, from aššat + -šu, t + š said ss · on a verb, the object “him”, or “to him” in the dative (Harper writes -šu for -šum): imaggarūšu (i-ma-ag-ga-ru-šu) “they shall agree to him”; on a noun after a preposition: elišu “upon him” · on a Š-stem, “him”: ušaḫḫazūšu “they shall have him take”, ušeṣṣûšu “they shall make him go out” · uktarriṣṣu (ug-dar-ri-zu) “he has slandered him” (ṣ + š said ṣṣ, spelled with ZU) · ikassûšuma “they shall bind him, and” · on nouns: emišu “his father-in-law’s”, ibiršu “his friend”, rabītišu “his senior one”, warkassu “his case”, zittišu “his share”, īnšu “his eye” · after a t, on a verb: uštāḫissu (uš-ta-ḫi-zu) “he has taught him” (the z of the stem + -šu said ss, spelled ZU); on nouns bīssu (É-ba/zu) “his house” and the participles murabbīšu, murabbītišu, murabbīssu “the one who raised him”; on a verb, ilqûšu, urtabbišu, urabbûšu, imtanûšu “him”; on the noun lišānšu (EME-šu) “his tongue”, īnšu “his eye”, mêšu “his waters”, mārūtišu “his sonship” · on a noun: bēlšu (be-el-šu), bēlišu (be-li-šu) “his master”, warḫušu (ITI-šu) “his month”, uznašu (u-zu-un-šu) “his ear”, nādinānšu (na-di-na-an-šu) “his seller”, nādinānišu (na-di-na-ni-šu) “his seller” after ana · written ZU in ARAD-zu, GEME₂-zu (warassu, amassu “his male slave, his female slave”) · on a verb, “him”: ukānšuma (u-ka-an-šu-ma) “he shall convict him, and”",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "u-ka-an-šu-ma",
+     "say": "ukānšuma",
+     "glyphs": [
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u"
+      },
+      {
+       "s": "𒅗",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "ka"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "phon",
+       "tr": "an"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kânum-D",
+       "gloss": "D-stem of kânum: to convict, prove against someone (uktīn, ukannūšuma) · uktīn (uk-ti-in, perfect, with the infixed -t-) “he has convicted”; ukannūšuma (u-ka-an-nu-šu-ma, present, plural, with -šu “him” and -ma) “they shall convict him, and”; ukānma (u-ka-an-ma, present, singular) “he shall convict, and” · ukannūšima (u-ka-an-nu-ši-ma) “they shall convict her, and”, present plural with -ši “her” and -ma · ukān (u-ka-an) present “he shall prove, convict”: ukānšuma (u-ka-an-šu-ma, with -šu “him” and -ma) “he shall convict him, and”",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him · -šum “to him, for him” (dative): išakkanūšum, innadnušum · after a dental the suffix is assimilated and spelled with z: …ssu (ṣibat-zu, ṣibassu “its interest”, written after a broken sign); with a noun: ṣibtišu “its interest”, qātīšu “his hand”, damqaršu “his merchant”; tu-šu, te-šu in broken forms · with the same assimilation after a t: aššassu (aš-ša-zu) “his wife”, from aššat + -šu, t + š said ss · on a verb, the object “him”, or “to him” in the dative (Harper writes -šu for -šum): imaggarūšu (i-ma-ag-ga-ru-šu) “they shall agree to him”; on a noun after a preposition: elišu “upon him” · on a Š-stem, “him”: ušaḫḫazūšu “they shall have him take”, ušeṣṣûšu “they shall make him go out” · uktarriṣṣu (ug-dar-ri-zu) “he has slandered him” (ṣ + š said ṣṣ, spelled with ZU) · ikassûšuma “they shall bind him, and” · on nouns: emišu “his father-in-law’s”, ibiršu “his friend”, rabītišu “his senior one”, warkassu “his case”, zittišu “his share”, īnšu “his eye” · after a t, on a verb: uštāḫissu (uš-ta-ḫi-zu) “he has taught him” (the z of the stem + -šu said ss, spelled ZU); on nouns bīssu (É-ba/zu) “his house” and the participles murabbīšu, murabbītišu, murabbīssu “the one who raised him”; on a verb, ilqûšu, urtabbišu, urabbûšu, imtanûšu “him”; on the noun lišānšu (EME-šu) “his tongue”, īnšu “his eye”, mêšu “his waters”, mārūtišu “his sonship” · on a noun: bēlšu (be-el-šu), bēlišu (be-li-šu) “his master”, warḫušu (ITI-šu) “his month”, uznašu (u-zu-un-šu) “his ear”, nādinānšu (na-di-na-an-šu) “his seller”, nādinānišu (na-di-na-ni-šu) “his seller” after ana · written ZU in ARAD-zu, GEME₂-zu (warassu, amassu “his male slave, his female slave”) · on a verb, “him”: ukānšuma (u-ka-an-šu-ma) “he shall convict him, and”",
+       "g": [
+        3
+       ]
+      },
+      {
+       "lemma": "-ma",
+       "gloss": "and (clause-chaining particle); also “it is X that…” · “only, alone”, on a noun after ša: ša aḫḫīšama (aḫ-ḫi-ša-ma) “that of her brothers alone”; also “and” between verbs: izzazma, iššīma, išṭuršimma",
+       "g": [
+        4
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "be-el-šu",
+     "say": "bēlšu",
+     "glyphs": [
+      {
+       "s": "𒁁",
+       "sign": "BAD",
+       "role": "phon",
+       "tr": "be"
+      },
+      {
+       "s": "𒂖",
+       "sign": "EL",
+       "role": "phon",
+       "tr": "el"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bēlum",
+       "gloss": "owner, lord: bēl ḫulqim “owner of the lost property” · owner of a field, bēl eqlim; bēl ḫubullim “creditor” · bēl kirîm “owner of the orchard” · bēl (be-el), the construct “owner of”, also with a suffix on the noun that follows: bēl ḫubullišu “his creditor”, bēl ḫubulliša “her creditor” · bēl (be-el, not the sign EN) “owner of”: bēl aššatim “the owner of the wife”, i.e. the man entitled to her (my reading) · bēlišu (be-li-šu) “its owner” (of an animal), bēlišuma “to its owner only” (with the emphatic -ma); bēl alpim “the owner of the ox” · bēl epinnim “the owner of the plough”, bēl tarbaṣim “the owner of the pen”; bēlīšunu (be-li-šu-nu) “their owners”, the owners of the cattle and sheep a herdsman has lost · bēl (be-el) “owner of” before a genitive: bēl wardim “the owner of the male slave” · bēlī (be-li) “my master”: ul bēlī atta “you are not my master” · bēlšu, bēlišu (be-el-šu, be-li-šu) “his master”",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him · -šum “to him, for him” (dative): išakkanūšum, innadnušum · after a dental the suffix is assimilated and spelled with z: …ssu (ṣibat-zu, ṣibassu “its interest”, written after a broken sign); with a noun: ṣibtišu “its interest”, qātīšu “his hand”, damqaršu “his merchant”; tu-šu, te-šu in broken forms · with the same assimilation after a t: aššassu (aš-ša-zu) “his wife”, from aššat + -šu, t + š said ss · on a verb, the object “him”, or “to him” in the dative (Harper writes -šu for -šum): imaggarūšu (i-ma-ag-ga-ru-šu) “they shall agree to him”; on a noun after a preposition: elišu “upon him” · on a Š-stem, “him”: ušaḫḫazūšu “they shall have him take”, ušeṣṣûšu “they shall make him go out” · uktarriṣṣu (ug-dar-ri-zu) “he has slandered him” (ṣ + š said ṣṣ, spelled with ZU) · ikassûšuma “they shall bind him, and” · on nouns: emišu “his father-in-law’s”, ibiršu “his friend”, rabītišu “his senior one”, warkassu “his case”, zittišu “his share”, īnšu “his eye” · after a t, on a verb: uštāḫissu (uš-ta-ḫi-zu) “he has taught him” (the z of the stem + -šu said ss, spelled ZU); on nouns bīssu (É-ba/zu) “his house” and the participles murabbīšu, murabbītišu, murabbīssu “the one who raised him”; on a verb, ilqûšu, urtabbišu, urabbûšu, imtanûšu “him”; on the noun lišānšu (EME-šu) “his tongue”, īnšu “his eye”, mêšu “his waters”, mārūtišu “his sonship” · on a noun: bēlšu (be-el-šu), bēlišu (be-li-šu) “his master”, warḫušu (ITI-šu) “his month”, uznašu (u-zu-un-šu) “his ear”, nādinānšu (na-di-na-an-šu) “his seller”, nādinānišu (na-di-na-ni-šu) “his seller” after ana · written ZU in ARAD-zu, GEME₂-zu (warassu, amassu “his male slave, his female slave”) · on a verb, “him”: ukānšuma (u-ka-an-šu-ma) “he shall convict him, and”",
+       "g": [
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "u-zu-un-šu",
+     "say": "uznašu",
+     "glyphs": [
+      {
+       "s": "𒌑",
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u"
+      },
+      {
+       "s": "𒍪",
+       "sign": "ZU",
+       "role": "phon",
+       "tr": "zu"
+      },
+      {
+       "s": "𒌦",
+       "sign": "UN",
+       "role": "phon",
+       "tr": "un"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "uznum",
+       "gloss": "ear: uznašu (written u-zu-un-šu, with no vowel between un and šu; Harper normalizes accusative + -šu) “his ear”; the noun has no plural ending here, so one ear · noun",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-šu",
+       "gloss": "his / him · -šum “to him, for him” (dative): išakkanūšum, innadnušum · after a dental the suffix is assimilated and spelled with z: …ssu (ṣibat-zu, ṣibassu “its interest”, written after a broken sign); with a noun: ṣibtišu “its interest”, qātīšu “his hand”, damqaršu “his merchant”; tu-šu, te-šu in broken forms · with the same assimilation after a t: aššassu (aš-ša-zu) “his wife”, from aššat + -šu, t + š said ss · on a verb, the object “him”, or “to him” in the dative (Harper writes -šu for -šum): imaggarūšu (i-ma-ag-ga-ru-šu) “they shall agree to him”; on a noun after a preposition: elišu “upon him” · on a Š-stem, “him”: ušaḫḫazūšu “they shall have him take”, ušeṣṣûšu “they shall make him go out” · uktarriṣṣu (ug-dar-ri-zu) “he has slandered him” (ṣ + š said ṣṣ, spelled with ZU) · ikassûšuma “they shall bind him, and” · on nouns: emišu “his father-in-law’s”, ibiršu “his friend”, rabītišu “his senior one”, warkassu “his case”, zittišu “his share”, īnšu “his eye” · after a t, on a verb: uštāḫissu (uš-ta-ḫi-zu) “he has taught him” (the z of the stem + -šu said ss, spelled ZU); on nouns bīssu (É-ba/zu) “his house” and the participles murabbīšu, murabbītišu, murabbīssu “the one who raised him”; on a verb, ilqûšu, urtabbišu, urabbûšu, imtanûšu “him”; on the noun lišānšu (EME-šu) “his tongue”, īnšu “his eye”, mêšu “his waters”, mārūtišu “his sonship” · on a noun: bēlšu (be-el-šu), bēlišu (be-li-šu) “his master”, warḫušu (ITI-šu) “his month”, uznašu (u-zu-un-šu) “his ear”, nādinānšu (na-di-na-an-šu) “his seller”, nādinānišu (na-di-na-ni-šu) “his seller” after ana · written ZU in ARAD-zu, GEME₂-zu (warassu, amassu “his male slave, his female slave”) · on a verb, “him”: ukānšuma (u-ka-an-šu-ma) “he shall convict him, and”",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "i-na-ak-ki-is",
+     "say": "inakkis",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "phon",
+       "tr": "ak"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "ki"
+      },
+      {
+       "s": "𒄑",
+       "sign": "GISH",
+       "role": "phon",
+       "tr": "is"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nakāsum",
+       "gloss": "to cut, cut down: ikkis (preterite) “he cut down” · inakkisū (i-na-ak-ki-su) “they shall cut off”, present plural (the ending -sū is written with the one sign su, as Harper prints it): lišānšu inakkisū “they shall cut off his tongue”, tulêša inakkisū “they shall cut off her breast” · inakkisū “they shall cut off”, of the hand(s) and the ear: rittēšu inakkisū “they shall cut off his hand(s)”, uznašu inakkisū “they shall cut off his ear” · ittakis (it-ta-ki-is, perfect, 3rd singular) “he has cut (off)” · inakkis (i-na-ak-ki-is, present, singular) “he shall cut off”: uznašu inakkis “he shall cut off his ear”",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "his master shall prove him to be his slave and cut off his ear.",
+   "n": "The penalty, in two clauses with the same subject, the master. kīma warassu is “as his slave” (ARAD-zu, as in §280; kīma “like, as”). u-ka-an-šu-ma is ukān-šu-ma: ukān, the present of kânum in the D-stem (kunnum “to prove, to convict”, as in the earlier laws), with -šu “him” and -ma “and”: “he shall convict him as his slave”, that is, prove before the court that the man is his slave. bēlšu “his master”, and then uznašu inakkis: uznum “ear” (written u-zu-un-šu, with Harper’s normalisation uznašu) and inakkis, the present of nakāsum “to cut off” (the verb of the tongue in §192 and the breast in §194): “he shall cut off his ear”. The penalty is literally cutting off the ear. With this the numbered laws end; the epilogue begins just below, in column XL, on the same plate.",
+   "col": "XXXIX",
+   "line": 100
+  }
+ ],
+ "glossary": {
+  "-ma": "and (clause-chaining particle); also “it is X that…” · “only, alone”, on a noun after ša: ša aḫḫīšama (aḫ-ḫi-ša-ma) “that of her brothers alone”; also “and” between verbs: izzazma, iššīma, išṭuršimma",
+  "-šu": "his / him · -šum “to him, for him” (dative): išakkanūšum, innadnušum · after a dental the suffix is assimilated and spelled with z: …ssu (ṣibat-zu, ṣibassu “its interest”, written after a broken sign); with a noun: ṣibtišu “its interest”, qātīšu “his hand”, damqaršu “his merchant”; tu-šu, te-šu in broken forms · with the same assimilation after a t: aššassu (aš-ša-zu) “his wife”, from aššat + -šu, t + š said ss · on a verb, the object “him”, or “to him” in the dative (Harper writes -šu for -šum): imaggarūšu (i-ma-ag-ga-ru-šu) “they shall agree to him”; on a noun after a preposition: elišu “upon him” · on a Š-stem, “him”: ušaḫḫazūšu “they shall have him take”, ušeṣṣûšu “they shall make him go out” · uktarriṣṣu (ug-dar-ri-zu) “he has slandered him” (ṣ + š said ṣṣ, spelled with ZU) · ikassûšuma “they shall bind him, and” · on nouns: emišu “his father-in-law’s”, ibiršu “his friend”, rabītišu “his senior one”, warkassu “his case”, zittišu “his share”, īnšu “his eye” · after a t, on a verb: uštāḫissu (uš-ta-ḫi-zu) “he has taught him” (the z of the stem + -šu said ss, spelled ZU); on nouns bīssu (É-ba/zu) “his house” and the participles murabbīšu, murabbītišu, murabbīssu “the one who raised him”; on a verb, ilqûšu, urtabbišu, urabbûšu, imtanûšu “him”; on the noun lišānšu (EME-šu) “his tongue”, īnšu “his eye”, mêšu “his waters”, mārūtišu “his sonship” · on a noun: bēlšu (be-el-šu), bēlišu (be-li-šu) “his master”, warḫušu (ITI-šu) “his month”, uznašu (u-zu-un-šu) “his ear”, nādinānšu (na-di-na-an-šu) “his seller”, nādinānišu (na-di-na-ni-šu) “his seller” after ana · written ZU in ARAD-zu, GEME₂-zu (warassu, amassu “his male slave, his female slave”) · on a verb, “him”: ukānšuma (u-ka-an-šu-ma) “he shall convict him, and”",
+  "-šunu": "their / them",
+  "alākum": "to go: illak “he shall go” · illiku “(where) he went” (preterite, subjunctive -u, after a restored ašar), in the agent law · alākišu (a-la-ki-šu) “his going” (infinitive with -šu): ina alākišu “in his going” · Gt present ittallak (it-ta-al-la-ak) “she shall go away” (the Gt gives the sense of going off; the Gtn would be ittanallak) · ittalak “she has gone” (perfect): ana šīmtim ittalak “she has gone to her fate” · ittalku (it-ta-al-ku) with the subjunctive -u: warka abum ana šīmtim ittalku “after the father has gone to his fate” · ittalkamma (it-ta-al-kam-ma) perfect ittalkam (ittalak + the ventive -am, “hither”) “he has come”, + -ma “and”",
+  "amtum": "slave-woman (GEME₂) · amassu (GEME₂-zu) “his slave-woman”, amtam (GEME₂-am), amtim (GEME₂-tim) · plural amâti (GEME₂{meš}) “slave-women”; the exact plural signs are UNCERTAIN · amat (GEME₂, the two signs SAL and KUR, no ending written) construct “slave-woman of”: amat awīlim “a man’s slave-woman”",
+  "ana": "to, for · with an infinitive, “to, for” (ana kirîm zaqāpim “to plant as an orchard”); “as” (ana kirîm), “into” (ana libbi), “at the rate of” (ana itêšu)",
+  "andurārum": "freedom, release from debt-service (Harper): andurāršunu (an-du-ra-ar-šu-nu) “their release”",
+  "apālum": "to answer; to satisfy, pay (a creditor): ippalma (present, with -ma) “he shall pay, and” · uppal (u-up-pa-al) “she shall pay”, taken as a present (a G present would be ippal; the u- is unexplained), in šaniam ul uppal, UNCERTAIN · apālam (a-pa-lam, infinitive, accusative) “to pay”: apālam lā ileʾʾi “he is not able to pay” · ippal (i-ip-pa-al, present) “he shall answer, meet (a claim)”: nādinānšu baqrī ippal “his seller shall answer the claims”",
+  "atta": "you (the independent pronoun of the second person): atta (at-ta) masculine “you (m.)”, atti (at-ti) feminine “you (f.)”: ul abī atta, ul ummī atti “you are not my father, you are not my mother” · pronoun",
+  "awīlum": "man; the free citizen, the code’s first legal class",
+  "balum": "without · (ina) balum bēl eqlim “without (the consent of) the owner of the field”",
+  "baqrum": "claim (Harper’s glossary BAKRU “claim”, from baqārum “to make a claim”): baqrī (ba-aq-ri, plural, oblique case) “claims”: baqrī irtaši “claims have arisen (?)”, baqrī ippal “he shall answer the claims”; the AK sign is read aq (Harper prints ag in the text)",
+  "bennum": "a sickness, UNCERTAIN: bennī (bi-en-ni), the name of an illness that strikes a slave after sale (Harper’s glossary: “a kind of fever”); the nature of the illness and the ending -ī (not the nominative) are not understood, so the word is kept as a name, “the bennu-sickness”",
+  "bēlum": "owner, lord: bēl ḫulqim “owner of the lost property” · owner of a field, bēl eqlim; bēl ḫubullim “creditor” · bēl kirîm “owner of the orchard” · bēl (be-el), the construct “owner of”, also with a suffix on the noun that follows: bēl ḫubullišu “his creditor”, bēl ḫubulliša “her creditor” · bēl (be-el, not the sign EN) “owner of”: bēl aššatim “the owner of the wife”, i.e. the man entitled to her (my reading) · bēlišu (be-li-šu) “its owner” (of an animal), bēlišuma “to its owner only” (with the emphatic -ma); bēl alpim “the owner of the ox” · bēl epinnim “the owner of the plough”, bēl tarbaṣim “the owner of the pen”; bēlīšunu (be-li-šu-nu) “their owners”, the owners of the cattle and sheep a herdsman has lost · bēl (be-el) “owner of” before a genitive: bēl wardim “the owner of the male slave” · bēlī (be-li) “my master”: ul bēlī atta “you are not my master” · bēlšu, bēlišu (be-el-šu, be-li-šu) “his master”",
+  "edûm-D": "UNCERTAIN verb, read as the D-stem of edûm “to know”: “to make known, to identify, to point out”: uwaddīma (u-wi-id-di-ma) “he has identified (?), and”, D-stem + -ma; the form and the sense are UNCERTAIN · D-stem verb · utēddi (u-te-id-di) “he has identified (?)”, read as the D-stem perfect of edûm (Harper’s glossary lists it under edû, II,2); the form and the sense are UNCERTAIN",
+  "elī": "over, above, upon (preposition): with the suffix, elišu (e-li-šu) “over him”, ša elišu rabû “who is great over him”, i.e. “who is greater than he” · preposition",
+  "ilum": "god; here: the temple as owner · plural ilāni “gods” (written DINGIR.DINGIR, as in the litany): maḫar ilāni “before the gods”",
+  "ina": "in, from · at (ina ebūrim “at harvest”); out of (ina bilat kirîm “out of the orchard’s yield”) · “through, by (means of)”: ina maḫāṣim “through beating”, ina pilšim “by a breach”; “regarding”: ina mimma ša … “regarding whatever …”; ina šanat “in the year” · “with, by”, of company or means (UNCERTAIN): ina liātim “with (or by) the cattle”",
+  "inūma": "when",
+  "kaspum": "silver — the code’s money, written KÙ.BABBAR “shining precious-metal” · kaspim: mišil mana kaspim “half a mina of silver” · with a spelled vowel after the logogram: KÙ.BABBAR-a-am, -i-im, -u-um: kaspam, kaspim, kaspum (accusative, genitive, nominative); kaspum as the subject; the grain-and-silver pair šeʾam u kaspam “grain and silver” · kasap (KÙ.BABBAR, no ending written) construct “silver of”: kasap tirḫatim “silver of the bride-price” · kaspi (KÙ.BABBAR, no complement written; Harper’s normalization) in kaspi mišil šīmišu “silver, half its price” · kaspam (KÙ.BABBAR, no ending written) “the silver” as object: kaspam išqulu “the silver he weighed out” · kaspima (KÙ.BABBAR-ma) kaspi + -ma, genitive after balum: balum kaspima “without any silver”",
+  "kânum-D": "D-stem of kânum: to convict, prove against someone (uktīn, ukannūšuma) · uktīn (uk-ti-in, perfect, with the infixed -t-) “he has convicted”; ukannūšuma (u-ka-an-nu-šu-ma, present, plural, with -šu “him” and -ma) “they shall convict him, and”; ukānma (u-ka-an-ma, present, singular) “he shall convict, and” · ukannūšima (u-ka-an-nu-ši-ma) “they shall convict her, and”, present plural with -ši “her” and -ma · ukān (u-ka-an) present “he shall prove, convict”: ukānšuma (u-ka-an-šu-ma, with -šu “him” and -ma) “he shall convict him, and”",
+  "kīma": "like, as · as, like; with a verb in the subjunctive: kīma ubbalu “as he brings (it)” · according to: kīma ṣimdat šarrim “according to the king’s schedule” · “since, when”, before a stative: kīma mimmûšu lā ḫalqu “since his goods are not lost” · “in proportion to”: kīma emūq zittiša “in proportion to the strength of her share”, kīma emūq bīt abim “in proportion to the means of her father’s house” · in place of, for (of animal for animal): alpam kīma alpim “an ox for an ox” (the §263 restitution)",
+  "leqûm": "to take: ileqqi “he shall take” · ilqi “he took” (il-qi₂), ilqû (subjunctive, il-qu₂-u₂), ilqēma (il-qi₂-e-ma) “he took, and”, ilteqēma (perfect, il-te-qi₂-ma) “he has taken, and”; ša … ilqû “which he took” · ilqēma (il-qi₂-ma) “he took, and” (preterite ilqe + -ma, here without a spelled e); ilteqe (il-te-qi₂, perfect) “he has taken”; ileqqi (i-li-qi₂, present) “he shall take”; leqîm (li-qi₂-im, infinitive, genitive): ina kaspim leqîm “in the taking of the silver” · ileqqûma (i-li-qu₂-ma) “they shall take, and” (present plural + -ma); ileqqēma “he shall take, and” · ileqqû (i-li-qu₂-u) “they shall take” (present plural, without -ma) · ilqi (il-qi₂) “he took”; ilqûšu (il-qu₂-u-šu) “(when) he took him”, with the subjunctive -u and -šu “him”; ilqûšuma (il-qu₂-šu-ma) “he took him, and” (with the subjunctive -u before -šu, after ša); ana tarbītim ilqēma (il-qi₂-ma) “he took (him) as a foster-child, and”",
+  "libbum": "heart · ana libbi “into”: ana libbi zittišu “into his share” · libbaša, libbiša (li-ib-ba-ša, li-ib-bi-ša) “her heart”: mala libbiša “as much as her heart wants”; libbaša uṭabbū “they shall make her heart good”, i.e. content her · ša libbiša (li-ib-bi-ša) “what is in her womb”, literally “that of her heart”, the unborn child: ana ša libbiša “for what was in her womb” · libbu (li-ib-bu) in ina libbu mātim “in the middle of the land” (Harper’s form; after ina one would expect libbi)",
+  "lā": "not (in subordinate and nominal contexts) · before a noun in the genitive, “without”: lā kanīkim “without a sealed receipt”; in a šumma-clause, “not”: lā ītamar “he did not see”",
+  "lū": "or; either (lū … lū “whether … or”); with verb: “let …” · ù lu, two words written together, “or”: ù lu ina maḫāṣim “or through beating”",
+  "malûm": "to be full; malûtim (feminine plural adjective, genitive) “full”: lā malûtim “not full”, said of the days of a lease; malû… is a broken form · imlāma (im-la-ma) “it has become full, and”: imlâ (the preterite; Harper’s glossary lists im-la, “to fill out, to complete”) + -ma, in lā imlāma “it has not become full”, said of a month",
+  "maqātum": "to fall, collapse: imqutma (im-ku-ut-ma, preterite + -ma) “it has fallen, and” · imqutu (im-ku-tu, imqut with the subjunctive -u) “(which) fell”, “and it fell”: bītam imqutu “the house that fell” · verb · imtaqut (im-ta-ku-ut, written with the KU sign, which stands for qu) perfect “has fallen”, said of a sickness that has fallen on a man: bennī elīšu imtaqut “the bennu-sickness has fallen on him”",
+  "maḫar": "before, in the presence of: maḫar ilim “before the god”",
+  "mārum": "son (DUMU) — here: a minor, not yet able to sell · member of a group: mārū ugārim (DUMU A.GÀR{meš}) “the sons of the irrigated land”, the district’s farmers · mār awīlim “a man’s son” (DUMU); mārī (DUMU{meš}) “sons” (oblique plural, which may include daughters, so “children”); māršu (DUMU-šu) “his son” · mārūša (DUMU{meš}-ša) “her sons” (nominative plural + suffix); mārīša (DUMU-ša) “her son” (genitive + suffix): ana mārīša “to her son” · mārī (DUMU-i) “my son” (-ī “my”); mārī (DUMU{meš}) “children” in mārī ūlissum “children she bore him”; mārū (DUMU{meš}) “sons” as subject: mārū ana ummātim ul izuzzū “the sons shall not divide by mothers” · mār X (DUMU, the sign TUR) “a member of the class X”, literally “son of X”: mār ummiānim “a craftsman”, mār zinništim “the son of a woman”; māram (DUMU) “a son”, mārašu (DUMU-šu) “his son”, mārī (DUMU{meš}) “sons”, mārīšu “his sons” · mārū (DUMU{meš}, plural, nominative) “sons”: mārū mātim “sons of the land”, i.e. natives, as a predicate",
+  "mātum": "land, country · māt (ma-at) the form before a following genitive, “the land of”: ina māt nukurtim “in a hostile country” · mātim (ma-tim, or the Sumerogram KALAM, no ending written) genitive “of the land”: ina libbu mātim “in the middle of the land”, mārū mātim “natives of the country”, mātim šanītim “another country”",
+  "nadānum": "to give, pay: inaddin, iddinam, iddinušum; nadānim “to give” · iddin “he gave”; ana kaspim nadānum “to sell”: inaddinūma (present, plural) “they shall sell, and …” · iddin, iddinu “he gave” (preterite; the subjunctive -u in a ša- or inūma clause); iddinma “he gave, and”; …in, …din in broken forms; inaddin “he shall give”: ana damqaršu inaddin “he shall give to his merchant” · ittadinma (it-ta-di-in-ma) “he has given, and” (perfect); inaddinu (i-na-ad-di-nu) “(which) he gives” (present, with the subjunctive -u) · ittandin (it-ta-an-di-in, perfect with an extra -n-) “he has handed over”: ana kiššātim ittandin “he handed over into service”; ittadin (it-ta-din) “he has given”, i.e. sold; ana maṣṣarūtim inaddin “he gives for safekeeping”; iddinūšumma “they gave him, and” · inaddin also of a woman, “she shall give” · inaddišši (i-na-ad-di-iš-ši) “he/she shall give her” (the n of the stem swallowed before -ši), of a sale: ana kaspim inaddišši “she may sell her”, ul inaddišši “she shall not sell her” · anaddin “I shall give”, with the n merged into the k of -kum: anaddikkum (a-na-ad-di-ik-kum) “I shall give (her) to you”; iddinu (id-di-nu) “(which) he gave”; iddinušum “he gave him” · nadānam (na-da-nam, infinitive accusative) “to give”: warkassa … nadānam “(that she may) give her estate” · iddišši (id-di-iš-ši) “he gave her”, preterite + -ši, the n written š: ana mutim iddišši “he gave her to a husband” · inaddinūši (i-na-ad-di-nu-ši) “they shall give her”, inaddinūšimma (i-na-ad-di-nu-šim-ma) “they shall give her, and”, ittadnūšimma (it-ta-ad-nu-ši-im-ma) “they have given her, and” (perfect plural + -šim + -ma) · iddinušim (id-di-nu-ši-im) “he gave her”, with the subjunctive -u in a ša-clause · inaddiššum (i-na-ad-di-iš-šum) “he shall give him” (inaddin + -šum, the n assimilated to š) · innadnušum (in-na-ad-nu-šum) “were given to him” (N-stem preterite + relative -u + -šum): ša innadnušum “that was given to him” · ittadin (it-ta-di-in) “he has given” (perfect): ana kaspim ittadin “he has sold for silver” · inaddin (i-na-ad-di-in-ma, inaddin + -ma) present “he shall give”: ana tamkārim inaddinma “he shall give to the merchant, and”",
+  "nakāsum": "to cut, cut down: ikkis (preterite) “he cut down” · inakkisū (i-na-ak-ki-su) “they shall cut off”, present plural (the ending -sū is written with the one sign su, as Harper prints it): lišānšu inakkisū “they shall cut off his tongue”, tulêša inakkisū “they shall cut off her breast” · inakkisū “they shall cut off”, of the hand(s) and the ear: rittēšu inakkisū “they shall cut off his hand(s)”, uznašu inakkisū “they shall cut off his ear” · ittakis (it-ta-ki-is, perfect, 3rd singular) “he has cut (off)” · inakkis (i-na-ak-ki-is, present, singular) “he shall cut off”: uznašu inakkis “he shall cut off his ear”",
+  "nukurtum": "enmity, hostility (Harper’s glossary “enmity”): nukurtim (nu-ku-ur-tim, genitive) in ina māt nukurtim “in a hostile country”, i.e. an enemy land",
+  "nādinānum": "seller: nādin “the seller (who)” · nādinānšu (na-di-na-an-šu) “his seller”, nādinānišu (na-di-na-ni-šu, genitive + -šu) “his seller”: ana nādinānišu “to his seller” · nādinānum “seller” is the opposite of šayyāmānum “buyer”",
+  "pâqum": "to take into one’s care, to be entrusted with (Harper’s glossary, PAKU, from a verb he writes paku), UNCERTAIN: ipaq (i-pa-aq, the last sign AK read aq) “he shall take back (?)”, the sense “take back into his own care” being a guess from the context",
+  "qabûm": "to speak, say: iqbû, iqtabi, iqabbûma · iqabbi (written i-qa₂-ab-bi-ma, iqabbi + -ma; Harper prints the GA sign as ga, read qa₂) present “he shall say, declare”: ina maḫar ilim … iqabbima “he shall declare before the god”",
+  "rašûm": "to get, acquire: irtaši “he has acquired”, iraššû “he acquires” · iršû (ir-šu-u) “(whom) he has acquired” (the relative -u): ana mārī ša iršû “for the sons whom he has acquired”",
+  "tamkārum": "merchant (written tam-KAR §32, DAM.GÀR §40): the ransom-fronting, land-buying businessman of the code · written dam-qar, dam-qar-um (the common syllabic spelling of the merchant): damqar, damqarum “the merchant” (nominative), damqaršu “his merchant” · written DAM.GÀR as a Sumerogram (Harper tamkaru [DAM-GAR]; two signs on the plate): tamkārum, tamkāram, tamkārim, tamkāršu",
+  "târum-D": "D-stem of târum: to give back: turru “taken away/captured”; utarrūšumma “they shall return (it) to him” · utâr (present) “he shall hand back” · turrim (infinitive, tu-ur-ri-im): ana turrim “for repaying, to give back”; utâr (present) “he shall hand back” · uttēr (ut-te-ir, perfect) “he has given back”: the same verb as utâr",
+  "u": "and",
+  "ul": "not (in main clauses)",
+  "uznum": "ear: uznašu (written u-zu-un-šu, with no vowel between un and šu; Harper normalizes accusative + -šu) “his ear”; the noun has no plural ending here, so one ear · noun",
+  "wardum": "male slave (ARAD) · warad (ARAD, no ending written) “male slave of …”, wardam (ARAD-am) · wardam (ARAD, no ending written; the accusative supplied from the grammar) “a male slave”, the object of išāmma · wardum (ARAD) nominative “the male slave” · wardim (ARAD) genitive “of the male slave”: bēl wardim “the owner of the male slave” · warassu (ARAD-zu) “his male slave”, wara- + -šu with the d + š said ss",
+  "warḫum": "month (written with ITI, the moon-month sign): warḫim “of the month” · warḫušu (ITI-šu) “his month”, nominative with -šu (Harper normalizes arḫišu)",
+  "ša": "who, which, of",
+  "šakānum": "to set, place: išakkanūšumma “they shall set for him (a term), and” · išakkanūšum (present, plural, dative -šum) “they shall place (it) for him”, i.e. count it to him · iššakkan (iš-ša-ak-ka-an, N-stem present) “it shall be put”: ul iššakkan “it shall not be put (in the account)” · to set, put, impose: ištakan (iš-ta-ka-an, perfect, “has set”), išakkan (present) — išakkanšima (i-ša-ak-ka-an-ši-ma, with -ši and -ma) “he/she shall set (it) on her, and”, as in abbuttam išakkan · išakkanūši “they shall set (her on a stake)”, išakkanūšumma “they shall set (it) aside for him, and” · idiom panam šakānum (panam ištakan) “to set the face” = to make up one’s mind · iššakkan also written iš-ta-ak-ka-an (Harper’s reading, UNCERTAIN): andurār amtim iššakkan “the release of the slave-woman shall be established” · iššakkan (iš-ša-ak-ka-an, N-stem present) “it shall be set”: andurāršunu iššakkan “their release shall be set”",
+  "šanûm": "another, a second one: ana šanîm “to another”, šanûm “another man” · feminine šanītum “another (woman)”: šanītam, šanītim (ša-ni-tam, ša-ni-tim), in the accusative and genitive · šaniam (ša-ni-a-am, accusative) “another”: šaniam ul uppal “nor shall she pay another (?)”, UNCERTAIN · šanītim (ša-ni-tim) feminine genitive “another”, agreeing with mātim: mātim šanītim “another country”",
+  "šaqālum": "to weigh out (silver = to pay): išqulu · išaqqal (present) “he shall weigh out”",
+  "šayyāmānum": "buyer, purchaser",
+  "šumma": "if — the word that opens every law of the code",
+  "šunu": "they (the independent 3rd-person plural masculine pronoun, nominative): šunu (šu-nu) “they (are)”, making a nominal sentence with no verb: šumma wardum u amtum šunu mārū mātim “if the male slave and the female slave are natives”",
+  "šâmum-buy": "to buy: ištām, išāmu, iššāmu, ašām “I bought” (a homonym of šâmum “to fix destinies”) · išām (i-ša-am-ma, išām + -ma) “he has bought”, read as a preterite in a condition (išām could also be a present) · ištām (iš-ta-am) perfect “he has bought”: šumma awīlum … ištām “if a man has bought …”"
+ }
+}

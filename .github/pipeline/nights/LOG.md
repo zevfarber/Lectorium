@@ -156,3 +156,5 @@
 2026-10-14 (unattended, transcribing run) · PDF pp. 343–350 (printed 323–330) · 183 lines · 21 disagreements (p344: 2, p345: 4, p346: 4, p347: 2, p348: 6, p349: 3, others 0) · 3 low-confidence verdicts (P326L03 وسالوني hamza; P328L02 وننف; P328L12 وفال) · marks kept on prose: P325L01/02, P326L02/16/18, P327L18 والاوزّو (adjudicator's addition), P330L09 · Vision drafts all 8; Pass 2 on Sonnet · first-wave agents skipped the line crops (bands only) and were rerun with an explicit "open every crop" instruction, which worked · GATE pages 343, 345, 349, 350 noted. No retrain.
 
 2026-10-14 (unattended, publishing run) · Night 39 (P320L14–P327L02, 149 lines) NOT published: explicit sexual content involving children in the slave Bukhayt's tale (P324L08–19); no translation drafted. Claim released; see QUESTIONS.md. Nothing else changed.
+
+2026-10-15 · publishing run · Night 39 again NOT published (same reason as 2026-10-14: explicit sexual content involving children, P324L08–19; no translation drafted). Pipeline is stalled on this night until the owner decides; see QUESTIONS.md. Nothing else changed.

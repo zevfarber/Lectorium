@@ -152,3 +152,6 @@ Talion (§196–200), rendered from the grammar: `īn mār awīlim uḫtabbit �
 
 ## House renderings added by hammurabi-laws-215-240 (2026-10-14)
 `asûm` "the physician" (A.ZU); `gallābum` "the barber" (ŠU.I); `bānûm` "the builder" (ŠITIM); `malaḫum` "the boatman" (MÁ.LAḪ₄); `elippum` "boat" (GIŠ.MÁ); `ūtaššar` "be released"; `uḫtalliq` "destroyed"; `rebūt`/`šuššat` reconstructed spoken numbers marked (?). Signs FOUR, SHITIM added. See units' notes for the unread boat-law verbs.
+
+## House renderings added by hammurabi-laws-241-257 (2026-10-15)
+`alpam … ana nibūtim itebbi` "has taken an ox as a hostage-pledge"; `ana šattim I īgur` "hired for a year"; `iriab` "he shall replace"; `ūtaššar` "go free" (as §103); `ina ṣērim` "in the open country"; `ikkib-` / `ikkipma` "gored" (nakāpum); `kaspam mišil šīmišu inaddin` "he shall pay half its price"; `nīš ilim izakkarma` "swears the oath of the god"; `dīnum šū rugummâm ul īšu` as earlier. Unread kept bare: GU₄.DA.UR.RA, GU₄.LID.UD.SAG, ŠÀ.GAL, AK.ŠU. Numerals: šalāšat, erbet, samānat, ešret (reconstructed, (?)). Sign EIGHT added.

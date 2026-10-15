@@ -49,3 +49,14 @@ Each entry: date · part · the question · what was decided meanwhile.
 - XXXV 97 (igarum iq-tu-up): plate shows more sign groups after É than the five keyed; unit note says UNCERTAIN.
 - Unread/uncertain words rendered with (?) : nagabtum, idāṣ, ipḫi, izzapar, iṣēn, uštēṣbi, maḫirtum, mukkelbītum, šerʾānum.
 - XXXVI 48, 53, 75–77 were sign-counted less exactly than the rest.
+
+## hammurabi-laws-241-257 (2026-10-15) — decided meanwhile
+- Syllabic rows were checked by sign-group count and shape against Plates 64–68, not wedge by wedge (as in 185–240).
+- Pasuttu (§248, XXXVII 32): plate reads SU, an unidentified triangle-with-diamond sign (keyed UL only as nearest shape, tr X), then SA, šu; Harper's List no. 50 prints SA first. Marked UNCERTAIN.
+- Harper prints GUD.UD.LID.SAG (XXXVI 89); plate and his List agree on GU₄.LID.UD.SAG — plate followed. GU₄.DA.UR.RA and GU₄.LID.UD.SAG are unread (named ox-hire kinds by context).
+- KÙ.BABBAR is bare on the stele; Harper's kaspim/kaspi is his normalisation. šattim is MU alone (XXXVI 86, XXXVIII 3). XXXVII 99 order is LID.GUD.ZUN as on the plate.
+- Numerals 3–10 before masculine nouns written šalāšat, erbet, samānat, ešret here; published 215–240 has "šalāš šiqil" (šiqlum is masculine, so the odd one out) — not touched. Á carries val idi here, idum in 112–126. ūtaššar: "go free" as §103.
+- iddūkšu read as perfect of dâkum (uncertain). zu-ga-am read sūqam "street" (UNCERTAIN). §253 has two šumma in one law: one ln/p.
+- Unread or uncertain: labiān, aldāʾam, tâna, pīḫatum, ŠÀ.GAL, AK.ŠU, ušarrim, usanniq, imtanaššar, imrirū, ittasak, nēšum, mēgūtum.
+- Packet's plate list is one off at the start (XXXVI 81 is on PDF 343).
+- Sign EIGHT (𒐍, EIGHT DISH) added via signs.py.

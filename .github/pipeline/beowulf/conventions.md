@@ -136,3 +136,13 @@ carrier and its limits. Do not edit it by hand in a part; change it in `beowulf_
 | bealocwealm | baleful-death | baleful-death | beowulf-fitt-32 |
 | glēobēam | glee-wood | glee-wood | beowulf-fitt-32 |
 | beadogrīma | battle-mask | battle-mask | beowulf-fitt-32 |
+| frēawine | lord-friend (`l`) | lord and friend (`i`) | beowulf-fitt-34 |
+| frēowine | noble-friend | noble friend | beowulf-fitt-06 |
+| goldwine | gold-friend | gold-friend | beowulf-fitt-17 |
+| bealonīð | bale-malice | baleful malice | beowulf-fitt-25 |
+| lēodhryre | people-fall | fall of a prince | beowulf-fitt-34 |
+| eorðsele | earth-hall | earth-hall | beowulf-fitt-34 |
+| ellorsīð | journey elsewhere | journey away from this world | beowulf-fitt-34 |
+| feohlēas gefeoht | fee-less fight | a fight no payment could settle | beowulf-fitt-34 |
+| morþorbed | murder-bed | bed of murder | beowulf-fitt-34 |
+| Bīowulf maþelade (same row as Weard maþelode) | spoke in speech-words | spoke in formal words | beowulf-fitt-34 |

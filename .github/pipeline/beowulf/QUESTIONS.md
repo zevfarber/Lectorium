@@ -58,3 +58,10 @@ Cruces rendered from the lexica and flagged as guesses in the notes. Decided mea
 - **2379 `wēold`:** subject taken as Heardred; Beowulf as regent possible.
 - **2347 `þā`:** Klaeber alters MS him þām; sense unchanged.
 - Smaller: 2312–13 eldum on andan; 2319 hord eft gescēat; 2332 geþȳwe; 2336 wræce leornode; 2317 nearofāges; 2384 tō mearce wearð.
+
+## beowulf-fitt-34 (2026-10-15)
+Cruces rendered from the lexica and flagged as guesses in the notes. Decided meanwhile: published as flagged.
+- **2451–54** `ōðres ne gȳmeð … yrfeweardas … dǣda gefondad`: construction and sense uncertain; editors move the genitive or read nīð for nȳd.
+- **2419–22:** `sē` masculine with feminine `wyrd` (Grein reads sēo); `sāwle hord` a guess.
+- **2457 `rēte`** (Klaeber's emendation of MS reote), "joy" a guess; **2448 `helpe`** (MS helpan, Kemble); **2435 `ungedēfe`**; **2437–40 `mercelses`**; **2442 `hygemēðe`** (adjective kept; Trautmann/Holthausen -mēðo is a noun); **2393 `gestēpte`**; **2396 `cearsīðum`**; **2404 `biorna`**; **2408–09 `ðonon`, `wong wīsian`**; **2446–49 `hrefne tō hrōðre`**.
+- **fitt-33, 2354 `frēawine`:** it renders "noble friend of peoples", but Klaeber prints frēawine (frēa- "lord") there, as at 2429 and 2438; fitt-34 uses "lord-friend" / "lord and friend". The fitt-33 unit may want changing to "lord-friend of peoples"; not edited (outside this run's scope).

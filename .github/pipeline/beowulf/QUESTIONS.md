@@ -72,3 +72,6 @@ Full list with line, word, choice and reason: `drafts/beowulf-fitt-35/crux-notes
 
 ## beowulf-fitt-36 (2026-10-15)
 Cruces rendered from the lexica and flagged as guesses in the notes; full list in `drafts/beowulf-fitt-36/crux-notes.md`. Nothing waits on a decision. The Klaeber glossary text is not in the repository, so the drafter used the public lexica from memory and called uncertain readings guesses. Also: the `we` entry in the glossary is wrongly the closing syllable of beaduwe; a separate "wē — we" reading was added under broaden (additions only).
+
+## beowulf-fitt-37 (2026-10-15)
+Cruces rendered from the lexica and flagged as guesses in the notes; full list in `drafts/beowulf-fitt-37/crux-notes.md`. Nothing waits on a decision. Also: the review found no apparatus support at 2706–07 for the "Kemble's emendation of ābroten" claim carried in the older `ābroten` glossary entry; that entry is left untouched (additions only) and may deserve a look.

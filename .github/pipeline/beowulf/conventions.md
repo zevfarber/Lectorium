@@ -154,3 +154,14 @@ carrier and its limits. Do not edit it by hand in a part; change it in `beowulf_
 | hringboga | ring-bowed (`l`) | coiled creature (`i`) | beowulf-fitt-35 |
 | bēotwordum | vow-words | vow-words | beowulf-fitt-35 |
 | inwitscear | malice-cutting | malice-cutting | beowulf-fitt-35 |
+| wæll-seaxe | slaughter-knife | deadly knife | beowulf-fitt-37 |
+| eorðdraca | earth-dragon | earth-dragon | beowulf-fitt-37 |
+| eorðreced | earth-hall (as eorðsele) | earth-hall | beowulf-fitt-37 |
+| winedryhten | friend-lord | friend-lord | beowulf-fitt-37 |
+| sibæðelingas | kin-athelings | kin-athelings | beowulf-fitt-37 |
+| mǣlgesceaft | time-fate | time-fate | beowulf-fitt-37 |
+| feorhbennum | life-wounds | life-wounds | beowulf-fitt-37 |
+| ǣrwela | ancient-wealth | ancient-wealth | beowulf-fitt-37 |
+| goldǣht | gold-possession | gold-possession | beowulf-fitt-37 |
+| searogimmas | cunning-gems | cunning-gems | beowulf-fitt-37 |
+| dōgorgerīm | day-count | day-count | beowulf-fitt-37 |

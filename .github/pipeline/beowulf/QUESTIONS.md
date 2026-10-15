@@ -69,3 +69,6 @@ Cruces rendered from the lexica and flagged as guesses in the notes. Decided mea
 ## beowulf-fitt-35 — cruces chosen as guesses (2026-10-15)
 
 Full list with line, word, choice and reason: `drafts/beowulf-fitt-35/crux-notes.md` (about 35 items). Main ones: 2468 `tō sār`; 2481 `his`/`hit`; 2518–21 `gylpe wiðgrīpan`; 2525 `[furður]`; 2546 `dēop`/`dēor`; 2564 `anglāw`; 2570 `gescipe`; 2573–75 `ðǣr … wealdan mōste`; 2575–77 `incge-lāfe`; 2589 `[ofer]`. Each is called a guess in its note; nothing waits on a decision.
+
+## beowulf-fitt-36 (2026-10-15)
+Cruces rendered from the lexica and flagged as guesses in the notes; full list in `drafts/beowulf-fitt-36/crux-notes.md`. Nothing waits on a decision. The Klaeber glossary text is not in the repository, so the drafter used the public lexica from memory and called uncertain readings guesses. Also: the `we` entry in the glossary is wrongly the closing syllable of beaduwe; a separate "wē — we" reading was added under broaden (additions only).

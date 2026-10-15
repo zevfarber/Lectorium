@@ -90,3 +90,44 @@ Unit numbers are 0-based positions in `units.json`, with the stele line in the u
 - **F2 (XLIII 70–74).** As XLII 5–9 in epilogue-2: plate = five rows, source = four segments; QUESTIONS.md already carries it.
 - **Glosser must know:** (a) `agûm` already has the litany entry "crown"; broaden with "written with the one logogram AGA₃ at XLIII 45 (xliii 45, TENTATIVE sign), syllabic a-gi-im in the litany". (b) `balṭum`: form balṭūtim (ina balṭūtim, "among the living"), spelled ba-al-tu-tim with TU for ṭu. (c) `tukultum`: tukultī "my trust" (apposition after bēlum, UNCERTAIN), Harper's "strength". (d) `sekērum`: "to shut off, block" (Harper: "to dam up"). (e) `šadālum`: broaden with lišaddilšu "(let him) extend, increase" (D, Harper II,1; the litany's mušaddil "who widens"). (f) `Ašnan`: the grain-deity (a goddess in modern accounts), written {d}ŠE.TIR. (g) New lemmas, check each against the text: maḫrum, abkallum, arākum-Š (mušarriku), mišītum, nārum (ÍD.ÍD, doubled sign = plural), sekērum, Ašnan, ešērum-Št (muštēšir), tukultum, sakāpum, urḫum, ešûm, ummānum, ḫalāṣum-Š, bīrum, lemnum, marūštum, arḫiš, balṭum, ekimmum (GIDIM.GIDIM, plural by doubling), zamûm-Š, šērtum ("sword", Harper's second noun) and šērtum-sin ("sin"), kammalum, dimmatum, qatûm-Š, gugallum, zunnum, mīlum, bubūtum, izzum, nisûm, tīlum, abūbum, plus bašûm-Š / ḫalāqum / ḫalāqum-D / šanānum / diānum etc. already in earlier glossaries. Existing `ḫalāqum` entry (laws-215-240) is "to be lost, vanish" — covers iḫalliqu (lā iḫalliqu "will not vanish"); `ḫalāqum-D` covers liḫalliq. (h) Sonnet will probably name `lišaddilšu`, `lišaqti`, `lišḫelṣi` stems loosely: they are D, Š and Š precatives (li-) as the notes say.
 - The part's signs: UZU, GIDIM were added by the drafter with TENTATIVE notes; HAL is an existing key; GIN2 (AGA₃) is an existing key.
+
+# Pass 2 — hammurabi-epilogue-3 (gloss.json, lemma keys, units.json re-skim)
+
+Reviewer: adversarial pass 2. Edited `units.json`, `gloss.json` and `newlemmas.json` in place by script (json load/modify/dump, `ensure_ascii=False`, indent 1). Nothing built, published or committed. Harper's glossary was read from the PDF text layer (PDF pp. 165–216; p. 125 and every translation unopened) and the page image of BÛBÛTU was checked at the glyph level. No ḳ anywhere (grep on `units.json`, `gloss.json`).
+
+## Counts
+Edits: **17** — high 0, medium 5, low 12. Open: 2 (below).
+
+## Checks that passed
+- **Keys.** 35 new gloss keys = the 35 lemmas of `newlemmas.json`, all used in `units.json`, none already in a published glossary; every lemma used but neither new nor broadened (47 of them) is in an earlier part's glossary, and the old entries cover the forms used (checked by script: each `say`/`reading` found in the old entry, or the entry is general: -šu, u, ša, ina …; hand-checked rabûm fem., šīmtum pl., rubûm, ḫegallum, rēṣum). Every lemma in each unit's `morph` has a gloss key; `__broaden__` (26) keys all exist in earlier glossaries and are all used.
+- **Stems against Harper's glossary:** mušarriku = ARÂKU III,1 (Š; II,1 li-ir-ri-ik is D); lišaddilšu = ŠADÂLU II,1 (D; the li-ša-ad-di-il shape is li + D šaddil, not a Š; Harper "to extend, to multiply"; mušaddil, 3, 18, same verb); lišaqti = KATÛ (qatû) III,1 (Š); lišḫelṣi = ḪALṢU III,1 "to destroy" (Š); lišazmi = ZAMÛ III,1 "to deprive" (Š); liskir, liskip = SAKÂRU I,1 "to dam up", SAKÂPU I,1 "to overthrow" (G precatives); muštēšir = ešēru III,2 (Št, with šutēšurum); littarrūšu = TÂRU I,2 (Gt-shape, uncertain); litēr, litēršu = TÂRU II,1 (D, soft spot kept from epilogue-2); šitannu = ŠANÂNU I,2; limussuma = EMÊDU II,1; lissima = NISÛ I,1; liši = EŠÛ I,1 "to confuse, cause to err"; lišīmšum = ŠÂMU I,1 "to decree". Meanings of maḫru, abkallu, bīru, urḫu, tukultu "strength", marūštu "blighting", ummānu, kammalu, dimmatu, gugallu, zunnu, mīlu "water-flood", telu "hill, heap", zumru, mišîtu, ekimmu (Harper normalizes ekimmê-šu), BÛBÛTU, ašnan: as Harper.
+
+## Changes
+| where | severity | what was wrong | what was done |
+|---|---|---|---|
+| gloss `__broaden__` balāṭum | medium | rebuilt on the litany entry; latest holder is laws-178-184 (its text, with "stative baltat", was dropped) | old (laws-178-184) whole + " · " + the new reading |
+| gloss `__broaden__` târum | medium | rebuilt on an older holder; latest is laws-185-194 (its "itâr … ana bīt abišu itâr" segment was dropped) | same, rebuilt on laws-185-194 |
+| gloss `__broaden__` šakānum | medium | rebuilt on gap-a; latest is laws-278-282 (the iššakkan, ištakan, panam šakānum, andurār segments were dropped) | same, rebuilt on laws-278-282 |
+| gloss šērtum / šērtum-sin | medium | order of Harper's two entries reversed ("sword" called first, "sin" second); Harper lists ŠÊRTU "sin" (43, 48) first, "sword, scimitar" (43, 43) second | swapped; "a weapon of the moon-god" -> "perhaps a weapon …" |
+| unit #13 · i | medium | began "and lay on him" after a unit ending in a full stop; the -ma of limussuma (l: "let-him-lay-on-him-and") closes this clause, it does not open it | may he lay on him … in his body, and |
+| unit #14 · i | low | "and increase" put an "and" between lišaqti … and lišaddilšu that the text does not have (l has none) | …tears; may he increase for him the burden of kingship, |
+| unit #2 · n, gloss balāṭum, ūmum | low | label vs form: note and glosses wrote balṭīya for ba-la-ṭi-ia, `say` balāṭīya | balāṭīya |
+| unit #17 · n | low | still said "rain of the sky … flood of the springs" after pass 1 changed `i` to "from the sky … from the source"; "xliii 8" | note follows `i`; xliii 9 |
+| unit #20 · n, gloss abūbum | low | Harper's glossary glosses ABUBU "hurricane"; the flood is the modern sense (convention: keep Harper, flag the modern) | both say so |
+| unit #19 · n, gloss, lemma (units, newlemmas, gloss key) | low | lemma izzum; Harper's headword is EZZU / EZZIŠ (iz-zi-iš spelled with i) | lemma ezzum; spelling noted |
+| unit `about` | low | "confuse his road" vs `i` "path" | path |
+| gloss zamûm-Š | medium | base verb "to lack, be deprived" presented as known; Harper has only III,1 "to deprive" | marked as inferred, UNCERTAIN |
+| gloss ešûm | low | headed "to be confused" while the form is Harper's transitive "to confuse" | headed "to confuse, cause to err" (G sense inferred) |
+| gloss šadālum (broaden) | low | "also glossed to extend, increase": Harper has "to extend, to multiply" | quoted as Harper's |
+| gloss târum (broaden) | low | "let ... bring him" (gap in the English) | "let him bring him", Gt, plural-looking -ū flagged |
+| gloss ḫalāqum-D (broaden) | low | li- + D (liḫalliq) given without a flag (a D precative is normally lu-) | UNCERTAIN, as litēr |
+
+## Refused / left
+- ARÂKU: Harper's III,1 mu-ša-ri-ku is kept as Š participle; the final -u (construct with nominative vowel) is the drafter's explanation, as for mušarbû; left, already hedged by being parallel to the published form.
+- littarrūšu, limussuma, liši, lišḫelṣi, litēr/litēršu, šitannu: stem labels are Harper's; modern grammar doubts are already marked UNCERTAIN in notes and glosses.
+- šērissu (še-ri-zu): the vowel of šērissu from šērtum + -šu is not explained anywhere in the repository; left.
+- "who knows everything there is", "the equal of death": plain grammar renderings; left.
+
+## Open
+- F1 (ḫal key HAR vs HAL in earlier published parts) and F2 (XLIII 70–74 divider) from pass 1 stay with the lead.
+- šērissu: two Harper nouns of one spelling; which one the Sîn curse at xliii 43 means is Harper's, not independent.

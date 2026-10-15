@@ -42,3 +42,8 @@ Each entry: date · part · the question · what the run decided meanwhile.
 - **2180 `mancynnes mǣste cræfte`:** the usual "greatest of mankind in strength" needs a looser parse than the forms allow; rendered with `mǣste` as instrumental agreeing with `cræfte`.
 - **2183 `swā`:** "as" versus "so that"; chose "as".
 - **2145 `forlēosan` + dative:** not checked against Klaeber's glossary (not in the source file).
+
+## beowulf-fitt-32 (2026-10-15)
+- **Siglum error in earlier parts:** in Klaeber's apparatus `Tho.` is Thorpe and `Thk.` is Thorkelin. fitt-31 notes at 2156, 2175 and 2208 expand `Tho.` as "Thorkelin"; fitt-09 (578, 598, 601, 646) and fitt-20 (1331) do the same, and other parts may. Not edited (outside this run's scope); the owner may want a sweep. Fitt-32 uses both correctly.
+- **2226 `mwatide`:** † corrupt, left untranslated. **2228–2230** almost wholly lost; **2250–2252** heavily patched; **2297** `nē ðǣr ǣnig mon … wēstenne` has no verb. All flagged as guesses in the notes. Also guesses: 2239 weard/wearð, 2288 stonc, 2223 þ(ēow)/þ(egn), 2283–84 hord.
+- **2270 `l`:** pass 2 reordered the literal to avoid a misleading subject; decided meanwhile, published.

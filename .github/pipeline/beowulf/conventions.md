@@ -121,3 +121,18 @@ carrier and its limits. Do not edit it by hand in a part; change it in `beowulf_
 | grundhyrde | ground-guardian (`l`) | guardian of the depths (`i`) | beowulf-fitt-30 |
 | dēaðwērig | death-weary | death-weary | beowulf-fitt-30 |
 | hand gemǣne | hand in common (`l`) | hand-to-hand blows (`i`) | beowulf-fitt-30 |
+| wyrm | worm (`l`) | dragon (`i`) | beowulf-fitt-32 |
+| ūhtsceaða | dawn-scather | dawn-scather | beowulf-fitt-32 |
+| ðēodsceaða | people-scather | people-scather | beowulf-fitt-32 |
+| hordwynn | hoard-joy | hoard-joy | beowulf-fitt-32 |
+| sincgifa | treasure-giver | lord, giver of treasure | beowulf-fitt-32 |
+| herepād | war-coat | war-coat | beowulf-fitt-32 |
+| hordærn | hoard-house | hoard-house | beowulf-fitt-32 |
+| mandryhten | liege-lord | liege-lord | beowulf-fitt-32 |
+| frioðowǣr | peace-pledge | peace-pledge | beowulf-fitt-32 |
+| seledrēam | hall-joy | hall-joy | beowulf-fitt-32 |
+| feorhbealo | life-bale | life-bale | beowulf-fitt-32 |
+| gūðdēað | war-death | war-death | beowulf-fitt-32 |
+| bealocwealm | baleful-death | baleful-death | beowulf-fitt-32 |
+| glēobēam | glee-wood | glee-wood | beowulf-fitt-32 |
+| beadogrīma | battle-mask | battle-mask | beowulf-fitt-32 |

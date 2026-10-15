@@ -131,3 +131,12 @@ units.json loads; 49 units; every word's reading reconstructs from the glyph `tr
 - Plate 70 row 66 (XXXIX 66) shows one more sign-group than Harper's i-li-qi₂ accounts for; Harper's reading kept.
 - `bennī`: ending -ī unexplained, plate form unverified; sense secure. `ipaq`/`pâqum` (Harper's PAKU) unverified, marked UNCERTAIN.
 - `ù lu` one word (112-126, 127-140) vs two words (241-277, here): still open, as in the previous entry.
+
+## hammurabi-epilogue-1 (2026-10-15) — open points, decided meanwhile
+- XL 21: ūsam (Harper) kept over Winckler's nūram; alternative in the note.
+- XL 82–83 `līʾūti šāninam ul īša` form and subject unclear; XL 54 `aḫḫiša` left untranslated; XLI 48 `igirrê`/`ērībūt` unresolved; XLI 39 `danītam` noun or adverb ("firmly (?)" chosen).
+- Zarpanitum: one sign (Harper 183) shown as ZA with tr Zar; does it need its own ZAR sign?
+- ALAN, SIG4 and TUKUL=TUK are shape/sense matches only.
+- Glossary collision: gap-a's key `šâmum` says "to buy", this part broadens it with "to fix, decree"; move "buy" to `šâmum-buy`.
+- Earlier parts may carry the misattribution "Harper's apparatus" for the transcriber's line-division doubts; grep.
+- Disclosure: a text-layer probe by the reviewer printed 200 characters of Harper's English of §281 (PDF p. 116); not used.

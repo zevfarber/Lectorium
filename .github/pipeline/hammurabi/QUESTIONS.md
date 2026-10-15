@@ -60,3 +60,67 @@ Each entry: date · part · the question · what was decided meanwhile.
 - Unread or uncertain: labiān, aldāʾam, tâna, pīḫatum, ŠÀ.GAL, AK.ŠU, ušarrim, usanniq, imtanaššar, imrirū, ittasak, nēšum, mēgūtum.
 - Packet's plate list is one off at the start (XXXVI 81 is on PDF 343).
 - Sign EIGHT (𒐍, EIGHT DISH) added via signs.py.
+
+## hammurabi-laws-258-277 (2026-10-15) — decided meanwhile
+1. XXXVIII 31-36 (six hatched lines, drawn as a block on Plate 68): conventions.md says "a gap unit", but Harper prints no text for them. The drafter folded them into the gap unit at XXXVIII 30 (`a-na` + lacuna). Not changed: a unit for lines 31-36 would have no Harper line to match in the validator. Owner/next role: decide whether to add a bare LACUNA unit at XXXVIII 31 after checking the validator.
+2. `u lu`: published parts 112-126 and 127-140 write one word `u₂-lu`/`u-lu` (U2 + LU, lemma `ulu`); 195-257 and this part write ù + lu. The plate here shows Ù; the earlier plates were not re-read.
+3. šalāš (published 215-240) vs šalāšat (241-257, this part): not touched.
+4. XXXIX 38 numeral: Harper prints IV, the plate is hatched. Same question for any other numeral Harper prints unbracketed where the plate is hatched (none found elsewhere in this part: lines 30, 32, 34, 40, 42 are printed as dots).
+5. Open sign questions (not settled at wedge level): the first sign of [uz]-za-aḫ-ḫi-ir (53, 55) vs the ZA corner sign used for ṣa at 66; the extra outline sign groups in XXXVIII 37 (tier 1) and 43; XXXIX 22 (i-ig-ga-ar) shows more shape groups than four signs; Á on lines 23-43 is drawn as one box-and-chevrons group that Harper writes ID.
+6. Lexical senses taken from Harper's glossary (allowed; recorded for the glosser): liptu "stroke, visitation"; kazzatu "injury"; ḫitītu "blame, reproach, disaster, loss" (our lemma `ḫiditum`); lalû "small animal, goat (?)"; taktida "end"; maḫirtu "a kind of boat (?)"; ṣarāru II "to be dishonest"; ṣeḫēru (stem IV) "to be diminished"; šimtu "destiny, contract, decisions, fate" (not used for "mark").
+7. house-renderings.md (258-277) is now partly out of date and should be corrected before conventions.md is updated: `ulu` → ù lu; no -am on alpam/immeram; "has received his wage in full (?)" → the unread middle; `lipit ilim` note; maḫirtu; "hireling"; the 31-36 gap line.
+8. Second-pass glossary: no `ulu`; new lemma `lū`/`u` come from 241-257; check lemmas `kazzatum`, `ḫiditum`, `šuššum`, `taktida`, `nangarum`, `nāqidum`, `ṣumbum`, `murteddûm`, `lalûm`, `epinnum`, `riksātum`, `talittum`, `rêʾûm-pasture` (UNCERTAIN) against the text.
+
+# Review (pass 2) — glossary, house renderings, open items
+
+Reviewer pass 2 (no modern translation opened or recalled). Inputs: conventions.md, run3/RUNBOOK.md §2–3, units.json, gloss.json, review.md (pass 1), house-renderings.md, packet.md, the published 241-257 and the merged published glossary (r3lib.merged_inline_glossary). gloss.json and units.json were edited by script (JSON re-dumped, indent 1). Not run: build / validate (forbidden in this pass).
+
+## Lemma coverage (re-derived by script)
+The lemmas used in units.json minus the merged published glossary are 35; gloss.json has exactly those 35 as main entries (none missing, none stray). No `ulu` anywhere (neither as key nor in text); `u` and `lū` are not in gloss.json (both exist in 241-257). The 20 `__broaden__` keys (13 from pass 1, 7 added now) each start with the latest published entry whole + " · " (checked by script against the merged glossary); no `ḳ`; no empty entry.
+
+## Changes — gloss.json
+1. `ḫarratum` · HIGH · still said "I render it 'in full (?)' from the sense of the clause", but pass 1 removed that rendering from the unit (the middle is damaged and unread). Rewritten: not read, nothing claimed, lemma is a placeholder for Harper's spelling.
+2. `ṣarārum-D` · MEDIUM · "acted falsely (?)" and "to be false" vs the unit's "has been dishonest (?)" and Harper's glossary "to be dishonest"; aligned; D preterite named.
+3. `nakārum-D` · MEDIUM · "the D-stem is the usual causative-intensive" misnames the D-stem; now "make different, change", D perfect.
+4. `ebēbum-D` · MEDIUM · "final b doubled before -ma" was wrong (the b of ubbab assimilates to the m of -ma: ubbab-ma > ubbamma); corrected and left UNCERTAIN.
+5. `murteddûm` · MEDIUM · "Gtn" is wrong for mur-ted-dî-: a participle of the Gt stem (infix -t- after the first radical); corrected, stem still UNCERTAIN.
+6. `ṣeḫērum-D` · MEDIUM · stem marked "(?)" and Harper's intransitive alternative added, as in the unit note.
+7. `liptum` · LOW · note brought into line with pass 1 (lapātum "to touch"; Harper: "stroke, visitation"; construct lipit named); odd "liptum ilim, lipit ilim" removed.
+8. `kazzatum`, `ḫiditum` · LOW · Harper's glossary senses added ("injury"; "blame, reproach, disaster, loss"), still UNCERTAIN.
+9. `dīāšum` · LOW · "infinitive-like noun" → the infinitive of dâšum used as a noun. `lalûm` · LOW · Harper's glossary "small animal, goat (?)" replaces "the word is not known to me".
+10. `KAD`, `SA` · MEDIUM · stated "paid 5 še" / "paid 4 še" as if attested; both numerals are restored (brackets, and [4] is hatched on the plate); now said so. `KAD` also cross-refers to NA.KAD; the "probably the rope-maker or weaver" guess removed.
+11. `nangarum` · MEDIUM · "the ending is supplied" was wrong (Harper prints nan-garim); rewritten: Harper's glossary gives the sign NAGAR two words; the hireling of §273 is a separate lemma `agrum` (as published 26-41); the two are told apart by context. Decision: keep both lemmas as Harper has them (see below).
+12. `nāqidum` · LOW · "modern editions read the sign group differently" (unspecific) → "the identification is old and may be superseded".
+13. `maḫārum` (broadened) · MEDIUM · "ma-ḫi-ir, stative or preterite" is wrong (the preterite is imḫur): stative.
+14. New broadenings (the published entry did not cover this part's use), each published entry kept whole: `1-kam` (ištēn with ūmum), `agrum` ({lu₂}NAGAR; Harper's two words for the sign; ḪUN.GÁ as the modern reading), `agārum` (īgur plain; iggar present, spelling unexplained), `bašûm-Š` (uštabši "has brought about", ušabšû), `maḫirtum` (maḫirtam), `idum` (idīša / idīšu of a thing; idi before a trade name), `nadānum` (inaddiššum, innadnušum, ittadin). Pass 1's 13 broadenings are now 20.
+Checked and left as drafted: ŠÀ.GUD, epinnum, GIŠ.APIN.TUK.KIN, GIŠ.GAN.UR, rêʾûm-pasture, ṭābum (ṭāb = stative, correct), talittum, šimtum, tarbaṣum, miqittum, 180, 40, ḫamšum, šeššum, taktida, GAB.A, GUL, GA, AT.KIT, and the pass-1 broadenings bēlum, rēʾûm, bašûm, dâkum (iddūk as perfect), pûm, rēšum, ūmum, ramānum, 6, 1, šeʾum, kīma. Numeral polarity (masculine noun takes the feminine form of the numeral: šeššet kur, ḫamšat šiqil; feminine šattum takes ištēt; masculine ūmum takes ištēn) is as the grammar requires.
+
+## Changes — units.json
+15. `ištēt` → `ištēn` in `say` of 1{kam} after `ina ūmim` at XXXIX 1, 6, 10, 15, 43, 45, 49, 55 (eight words). Reason: ūmum is masculine. The published parts only have `ina šattim ištēt` (šattum is feminine, correct), so there is no published precedent for ūmim; the existing glossary entry for `1` already names ištēn for masculine nouns. `ina šattim ištēt` (XXXVIII 7, 25) stays. Nothing else in units.json was touched.
+
+## Changes — house-renderings.md
+16. Rewritten whole to match the reviewed units: ù lu (not `ulu`, with the 112-126/127-140 difference stated), no -am on alpam/immeram, ḫarratim unread, `lipit ilim` "a stroke of the god" = plague (?), maḫirtam, "hireling" and nangarim (two lemmas for NAGAR), "has hired", `uḫtalliq` "has lost", `adu ešrīšu` "up to tenfold", the §267 split (ušallamma opens the next unit), ištēn / ištēt, bracketed [4], and the 31–36 line.
+
+## Findings refused (with reason)
+- Merging `nangarum` into `agrum` (one lemma for NAGAR): refused. The published 26-41 has `agrum` for {amēlu}agram; here the sign stands without the man-sign in a list of trades and Harper normalizes it nangarim; his glossary gives both words. Two lemmas, each marked, is the honest record; a later pass with modern lexica may change it (QUESTIONS 3).
+- ištēt for ūmim (to match `1-kam`'s published gloss "with the feminine šattum"): refused; grammar (masculine) decides, and the broadened gloss says so.
+- A gap unit for XXXVIII 31–36: refused (see below).
+- Adding `u`/`lū` entries to gloss.json: refused; both exist in 241-257.
+- Re-reading any plate: not part of this pass; pass 1's plate findings are taken as they stand.
+
+## Decision on XXXVIII 31–36 (validator read, not run)
+hooks.py `validate`: for a stele part `want` is the list of Harper's printed lines (col, ln) in order; each unit must start at the next wanted line (`starts at … but the next stele line is …`), it consumes `t.count("\n")+1` lines, `pos` must equal `len(want)` at the end, and `lines_tr` of the units is compared line by line with Harper's. The source has no lines 31–36 (hooks and the apparatus both say so), so the next wanted line after XXXVIII 30 is XXXVIII 37. A unit placed at XXXVIII 31 would be an ERROR ("starts at XXXVIII 31, but the next stele line is XXXVIII 37"); a unit at 30 spanning extra lines would break the line count and the line check. Not acceptable; units unchanged. The lacuna is shown inside the unit at XXXVIII 30 (`a-na` + […]), and the note and `about` say that six lines are not printed (pass 1). The gap-unit convention in conventions.md cannot be met here without a change to hooks.py (a "silent lines" allowance), which is outside this firing.
+
+## Final sanity (script)
+units.json loads; 49 units; every word's reading reconstructs from the glyph `tr` (apart from determinative and brace conventions, as in the published parts); morph indices valid; `ln` and `p` occur together exactly on the first unit of each law, ln 258–277 (20 laws), none elsewhere; no `ḳ` in units.json or gloss.json; gloss.json lemma set equals the new lemmas of units.json. Build and validate were not run.
+
+## For QUESTIONS.md (open decisions, and what was decided meanwhile)
+1. XXXVIII 31–36 (six unprinted lines): no gap unit of its own; the lacuna is shown inside the §262 unit at XXXVIII 30 and said in note and `about`. Owner: should hooks.py allow a silent-lines unit (e.g. a `skip` marker listing lines Harper does not print), so that the gap convention can be met? Decided meanwhile: as is.
+2. `u lu`: 112-126 and 127-140 have one word `ulu` (U2 + LU); 195-257 and this part have ù + lu (the plate here shows the Ù sign). The earlier plates were not re-read. Decided meanwhile: not touched; a later pass may re-read those plates.
+3. NAGAR: `agrum` "hireling" (§273, with {lu₂}) and `nangarum` "carpenter" (§274, bare sign, Harper's nan-garim) are two lemmas for one sign, after Harper's glossary; a modern reading of the hireling is ḪUN.GÁ and of the carpenter naggārum. Decided meanwhile: Harper's two readings kept, both marked in the glossary.
+4. ištēn vs ištēt: `ina ūmim ištēn` (masculine) here; the published parts have only `ina šattim ištēt`. Decided meanwhile: ištēn at the eight ūmim places; the one reconstructed spoken form is marked (?).
+5. šalāš (215-240) vs šalāšat (241-257, this part) for three: not touched in the published part; this part follows the latest.
+6. XXXIX 38 numeral (Harper prints IV, plate hatched): bracketed [4] with "(?)" in `i`; no other unbracketed numeral over hatched stone was found.
+7. Open sign questions not settled at wedge level: the first sign of [uz]-za-aḫ-ḫi-ir (53, 55) vs the ZA corner sign of ṣa (66); the extra outline sign groups in XXXVIII 37 (tier 1) and 43; XXXIX 22 (i-ig-ga-ar) shows more shape groups than four signs; Á on lines 23–43 is drawn as one box-and-chevrons group that Harper writes ID. Decided meanwhile: Harper's readings kept, notes mark the doubt.
+8. Lexical senses taken from Harper's glossary (allowed, lexical aid only): liptu "stroke, visitation"; kazzatu "injury"; ḫitîtu "blame, reproach, disaster, loss" (our lemma `ḫiditum`); lalû "small animal, goat (?)"; taktida "end"; maḫirtu "a kind of boat (?)"; ṣarāru II "to be dishonest"; ṣeḫēru (stem IV) "to be diminished"; šimtu "destiny, contract, decisions, fate" (not used for "mark"). The prologue's `ṣēnum` entry ("evil (one)") is a different word under the same lemma key as the sheep of 26-41/52-65; the merged glossary shows the sheep entry, so nothing is needed here, but the key clash is worth a later look.
+9. conventions.md: copy house-renderings.md of this part in when the part is published (done as far as the file goes; the copy into conventions.md is the publisher's step).

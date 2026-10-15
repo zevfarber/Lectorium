@@ -1,0 +1,65 @@
+# Line check — hammurabi-laws-258-277
+
+Stele lines whose sign values differ from Harper's transliteration (ratio < 0.75 after stripping accents, indices, braces). Most are logograms Harper writes as the Akkadian word; each must be confirmed on the plate.
+
+- XXXVIII 8: ours 'inaMU1' · Harper 'i-na šattim I {kam}' · 0.53
+- XXXVIII 13: ours '5GÍNKÙBABBAR' · Harper 'V šiḳil kaspim' · 0.26
+- XXXVIII 19: ours '3GÍNKÙBABBAR' · Harper 'III šiḳil kaspim' · 0.24
+- XXXVIII 23: ours 'ùU₈UDU' · Harper 'u ṣênê' · 0.20
+- XXXVIII 25: ours '8ŠEGUR' · Harper 'VIII ŠE.GUR' · 0.71
+- XXXVIII 26: ours 'inaMU1' · Harper 'i-na šattim I {kam}' · 0.53
+- XXXVIII 29: ours 'GU₄ùluUDU' · Harper 'alpam u lu immeram' · 0.26
+- XXXVIII 37: ours 'šumma[GU₄]ùluUDU' · Harper 'šum-ma [alpam] {b}u lu immeram' · 0.48
+- XXXVIII 40: ours 'GU₄kima[GU₄]' · Harper 'alpam ki-ma [alpim]' · 0.36
+- XXXVIII 41: ours 'UDUkima[UDU]' · Harper 'immeram ki-ma [immerim]' · 0.29
+- XXXVIII 44: ours 'šumma[SIPA]' · Harper 'šum-ma [rêʾum]' · 0.53
+- XXXVIII 46: ours 'ùluU₈UDU' · Harper 'u lu ṣênê' · 0.43
+- XXXVIII 49: ours 'Ášu…ḫarratim' · Harper 'ID-šu mimma(?) ḫar(?)-ra-tim' · 0.71
+- XXXVIII 54: ours 'U₈UDU' · Harper 'ṣênê' · 0.00
+- XXXVIII 61: ours 'šummaSIPA' · Harper 'šum-ma rêʾum' · 0.53
+- XXXVIII 63: ours 'ùU₈UDU' · Harper 'u ṣênê' · 0.20
+- XXXVIII 68: ours 'ùanaKÙBABBAR' · Harper 'u a-na kaspim' · 0.55
+- XXXVIII 73: ours 'ùU₈UDU' · Harper 'u ṣênê' · 0.20
+- XXXVIII 82: ours 'šummaSIPAiguma' · Harper 'šum-ma rêʾum i-gu-ma' · 0.69
+- XXXVIII 84: ours 'SIPAḫidiitkaazzatim' · Harper 'rêʾum ḫi-di-it kaz-za-tim' · 0.74
+- XXXVIII 86: ours 'LIDGUDZUNùU₈UDU' · Harper 'LID.GUN.ZUN u ṣênê' · 0.64
+- XXXVIII 92: ours '20SÌLAŠEÁšu' · Harper '20 ḲA šeʾim ID-šu' · 0.50
+- XXXVIII 93: ours 'šummaANŠE' · Harper 'šum-ma imêram' · 0.60
+- XXXVIII 95: ours '10SÌLAŠEÁšu' · Harper '10 ḲA šeʾim ID-šu' · 0.50
+- XXXVIII 98: ours '1SÌLAŠEÁšu' · Harper 'I ḲA šeʾim ID-šu' · 0.57
+- XXXVIII 100: ours 'LIDGUDZUNGIŠMARGÍDDA' · Harper 'LID.GUD.ZUN ṣumbam' · 0.69
+- XXXIX 1: ours 'inaUD1180SÌLAŠE' · Harper 'i-na ûmi I {kam} CLXXX ḲA šeʾim' · 0.60
+- XXXIX 4: ours 'GIŠMARGÍDDAma' · Harper 'ṣumba-ma' · 0.50
+- XXXIX 6: ours 'inaUD140SÌLAŠE' · Harper 'i-na ûmi I {kam} XL ḲA šeʾim' · 0.67
+- XXXIX 12: ours '6ŠEKÙBABBAR' · Harper 'VI ŠE kaspim' · 0.40
+- XXXIX 13: ours 'inaUD1' · Harper 'i-na ûmi I {kam}' · 0.67
+- XXXIX 17: ours '5ŠEKÙBABBAR' · Harper 'V ŠE kaspim' · 0.42
+- XXXIX 18: ours 'inaUD1' · Harper 'i-na ûmi I {kam}' · 0.67
+- XXXIX 21: ours 'DUMUUMMIA' · Harper 'mâr ummânim' · 0.53
+- XXXIX 23: ours 'Á…' · Harper 'ID {amêlu} . . . . .' · 0.00
+- XXXIX 24: ours '5ŠEKÙBABBAR' · Harper 'V ŠE kaspim' · 0.42
+- XXXIX 25: ours 'ÁGABA' · Harper 'ID {ámêlu} GAB.A' · 0.73
+- XXXIX 26: ours '5ŠEKÙBABBAR' · Harper 'V ŠE kaspim' · 0.42
+- XXXIX 27: ours '[Á]KAD' · Harper '[ID] {amêlu}KAD' · 0.67
+- XXXIX 28: ours '[5ŠE]KÙBABBAR' · Harper '[VŠE] kaspim' · 0.42
+- XXXIX 29: ours '[Á]GUL' · Harper '[ID] {amêlu}GUL' · 0.67
+- XXXIX 30: ours '…[ŠE]KÙBABBAR' · Harper '. . . . [ŠE] kaspim' · 0.44
+- XXXIX 31: ours '[Á]GA(?)' · Harper '[ID] {amêlu}GA{(?)}' · 0.57
+- XXXIX 32: ours '…[ŠE]KÙBABBAR' · Harper '. . . [ŠE] kaspim' · 0.44
+- XXXIX 33: ours 'Á…tu(?)' · Harper 'ID . . . . tu{(?)}' · 0.57
+- XXXIX 34: ours '…[ŠE]KÙBABBAR' · Harper '. . . [ŠE] kaspim' · 0.44
+- XXXIX 35: ours '[Á]…NAGAR' · Harper '[ID] . . . nan-garim' · 0.62
+- XXXIX 36: ours '4ŠEKÙBABBAR' · Harper 'IV ŠE kaspim' · 0.40
+- XXXIX 37: ours 'ÁSA' · Harper 'ID SA' · 0.57
+- XXXIX 38: ours '[4]ŠEKÙBABBAR' · Harper 'IV ŠE kaspim' · 0.40
+- XXXIX 40: ours '…ŠEKÙBABBAR' · Harper '. . : ŠE kaspim' · 0.44
+- XXXIX 41: ours 'ÁŠITIM' · Harper 'ID {amêlu}bânîm' · 0.46
+- XXXIX 42: ours '…[ŠE]KÙBABBAR' · Harper '. . . [ŠE] kaspim' · 0.44
+- XXXIX 43: ours 'ina[UD]1' · Harper 'i-na [ûmi] I {kam}' · 0.67
+- XXXIX 47: ours 'inaUD1' · Harper 'i-na ûmi I {kam}' · 0.67
+- XXXIX 48: ours '3ŠEKÙBABBARÁša' · Harper 'III ŠE kaspim ID-ša' · 0.43
+- XXXIX 50: ours '21/2ŠEKÙBABBARÁša' · Harper 'II½ ŠE kaspim {b}ID-ša' · 0.44
+- XXXIX 51: ours 'inaUD1' · Harper 'i-na ûmi I {kam}' · 0.67
+- XXXIX 54: ours 'GIŠMÁ60GURigur' · Harper 'elippi LX GUR i-gur' · 0.59
+- XXXIX 55: ours 'inaUD1' · Harper 'i-na ûmi I {kam}' · 0.67
+- XXXIX 56: ours 'IGI6GALKÙBABBARÁša' · Harper 'IGI.VI.GAL kaspim {b}ID-ša' · 0.57

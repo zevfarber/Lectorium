@@ -99,3 +99,92 @@ No modern translation was opened. While probing the PDF text layer I printed the
 - The line-count problem F1 above will stop `R3 build`/`validate`; the units are right, the source is a line short.
 - No `{b}` sub-row marking exists in the units (as in epilogue-1); the notes say where sub-rows are.
 - XLII 19 is partly drawn in outline on the plate (damage); XLII 53/89/95 (Ellil) and 81 (Bēlit) share one KID sign; XLII 25 and 46 share NI.NI.
+
+
+---
+
+# Review (pass 2) — hammurabi-epilogue-2 (Col. XLI 75 – XLII 97)
+
+Reviewer: adversarial pass 2, on the strongest model. Edited `units.json` and `gloss.json` in place by script (json load/modify/dump, `ensure_ascii=False`, indent 1; both files round-trip byte-identically before the edit and keep their no-trailing-newline state). `python3 ../run3/signs.py check`: in sync (no sign added or changed). Nothing committed, built or published; no file touched but `units.json`, `gloss.json` and this one. Not reopened: the XLII 6 division (unit 13 follows Harper's four lines 6, 7, 8, 10; its note says the plate has five rows).
+
+## Counts
+
+Entries (one per field or glossary entry changed): **49** — high 0, medium 15, low 34.
+- `units.json`: 23 (medium 7, low 16).
+- `gloss.json`: 26 (medium 8, low 18): 7 plain entries corrected, 4 `__broaden__` entries corrected, 15 `__broaden__` entries added (the glosser had broadened 18 lemmas and missed 15 more whose latest published entry does not cover this part’s use).
+
+## What I checked
+
+- **Text pass.** Every note's grammar label read against the form, original → `l` word by word, `l` ↔ `i`, consistency with epilogue-1 (re-read in full: xl 79–80, xli 12, 62, 68, 73 and the rest of the cross-references the notes make) and with the litany/prologue; q-not-ḳ (no ḳ/Ḳ anywhere in either file); NFC; `say` against `reading` for all 243 words; glyph coverage by morph for every word (no gaps); `col`/`line`/`ln` of every unit against the pinned source (all 127 stele lines consumed one for one; with the XLII 6 unit as it now stands, the validator's zip of units and source lines agrees).
+- **Source line compare.** Readings line by line against the pinned transliteration, with the unit lines zipped to the 127 source lines: the only differences are the logograms and determinatives Harper writes as the Akkadian word (listed by the validator) plus ga→qa₂, ḳ→q, `{b}`/`{1}` markers, and ù for Harper's u. No other difference.
+- **Harper's glossary** (PDF text layer pp. 167–214, searched form by form): every form in the part was looked up; every "Harper's X n,m" claim in the notes and in gloss.json was compared with the entry. Confirmed: kibsu, ṣalmu, taṣimtu, ḲALU, DANU (a-di-nu 41,69 / 41,81 / 42,27; li-di-in 41,88), PURUSSU (pu-ru-za-ši-na 41,89, pu-ru-zi-im 42,88, pu-ru-zi-e), PARASU, ARIKU II,1, ARU II,1, IRRITU, MASU I,1, ADARU, PASASU II,2, PASATU I,1, AWILUTU, NABU I,1, BELU III,1, USURTU (41,73; 42,9, 31), ILU/NI.NI (42,25, 46), MELAMMU, SAMU I,1/II,1, KIBITU (42,55, 83), RABU III,1, TARU II,1 (li-te-ir-su 42,49), ARARU I,1, SABARU I,1, TESU, ŠABU II,1, SAPAHU II,1 / IV,1, SUBTU, ISU, SUSAHU, EKLITU, NITLU, MUTU, TANEHU, TANATU, ASU III,1 (su-sa-a 42,1), BASU III,1 (su-ub-sa-a-am 42,78), ABALU III,1 (su-bi-lam 42,75), SAKANU III,1 (li-sa-as-ki-in 42,97), LAPATU III,1, LIMENU II,1, DAMAKU II,1, KABATU I,1, SIPTU, ZIKRU, all as the notes say except the findings below.
+- **Gloss bases.** All 33 `__broaden__` bases (18 original + 15 added) checked by script against the latest published holder in reading order (`publishedBefore` prologue, litany, laws 1–10, 11–25, 26–41; then parts.json order, gap-a and gap-b after laws-52-65): each new text is the old entry whole + " · " + the addition. Reproduced `merged_inline_glossary` order; all 37 new lemmas have a top-level entry, none is missing or superfluous. diānum (laws 1–10), kittum and emqum (litany) have their base outside parts.json: right by the `publishedBefore` order.
+- **Plates.** Beyond pass 1: rows of plate 75 (XLI 75–80), plate 77 left (XLII 35–39) and right (XLII 56–60) viewed at zoom 5–6 against the sign counts; plates 76 and 77 viewed whole. Nothing contradicts a reading; but I could not match individual syllabograms reliably by eye at that size, so this is a consistency check on sign-group counts and recurring words (a-wa-ti-ia, uš-te-pi-el, u-zu-ra-ti-ia, šum-ma a-wi-lum šu-u, ša i-na na-ru-ia aš-tu-ru, NI.NI, KID, LI), not a shape-by-shape proof. Harper's own print (ra-be-tum, ik-li-it, na-wa-ri-im, šu-ub-ša-a-am, i-me-eš-ma) agrees with the units wherever Harper's glossary headword spells differently (ra-bi-tum, ek-li-it, nu-wu-ri-im, su-ub-sa-a-am).
+
+## Changes — `units.json`
+
+| unit | field | severity | what was wrong | what was done |
+|---|---|---|---|---|
+| about | about | low | Said the three lines 7, 8, 9 are separate on the plate, but the text now follows Harper's four lines; a reader of the text would not know. | Added: the text keeps his division (7 both words on one written line, 8, then 10). |
+| #10 (xli 103) | n | low | "imqim" is not a form of emqum (genitive emqim); the litany spells im-qum and says emqum. | emqim, with the litany cross-reference and IM = em. |
+| #11 (xlii 1) | n | medium | Misnamed grammar: "tanādātim, the plural of tanittum" — tanādātum is its own word (the lexicon remark is from memory and labelled so). | "later dictionaries have a word tanādātum “praise, glory”, which the spelling would also fit". |
+| #13 (xlii 6) | n | low | "ay ušazziq, xli 73": that word is on xli 74 (source line 74; Harper's glossary u-sa-zi-ik 41,74). | xli 74. |
+| #13 (xlii 6) | n | low | "five lines are numbered between 5 and 10": between 5 and 10 there are four numerals; the five lines are 6–10. | "lines 6 to 10 are five lines, but only four pieces of text are printed for them". |
+| #17 (xlii 22) | n | medium | "the e is his normalization" is false (Harper prints i-me-eš in text and glossary) and hides that imēš is not the regular preterite of mašûm (imši). | Said so; form marked UNCERTAIN. |
+| #19 (xlii 33) | n | medium | Attributed to Harper "sadaru I,2" for ištadar: Harper files is-ta-dar (42,35) and i-sa-ad-dar under ŠATARU "to write" (I,2). The sadārum of laws 100–111 rests on a SA sign this word does not have; šaṭārum is also the verb of ašṭuru and of šaṭram just before. | Note rebuilt: perfect of šaṭārum, Harper's grouping, DAR read dar as in išaddar (ištaṭar named as the grammatical form), sadārum explained. |
+| #19 | words[ištadar].morph.lemma | medium | Lemma sadārum, see above. | sadārum -> šaṭārum (`say` ištadar kept: house policy dar, as išaddar in laws 26–41). |
+| #19 | n | low | “his own name he has written out” followed the sadārum reading. | “… he has written”. |
+| #19 | l | low | “he-has-written-out”. | he-has-written. |
+| #19 | i | low | “written out his own name”. | written his own name. |
+| #19 | n | low | šināti glossed “these”; `l` and `i` say “those” (šināti is the oblique 3rd fem. pl. pronoun used as “those”). | “those”, in two places of the note. |
+| #21 (xlii 45) | words[abu].say | medium | `say` abum (with mimation) for a-bu before a genitive (abu ilī); Harper lists a-bu (42,46) separately from a-bu-um; the spoken line should have the construct. | abum -> abu. |
+| #21 | n | low | "abu is abum" without saying it is the form before a genitive. | added. |
+| #22 (xlii 50) | n | low | "where the same man was to have it lengthened": xlii 14 is the obedient man, here it is the cursed man. | "the obedient man". |
+| #24 (xlii 59) | i | low | “cannot be put down” is an idiom Harper's “to control” (and `l` “to-be-controlled”) does not give. | “cannot be controlled (?)”. |
+| #24 | n | low | lišappiḫaššum parsed li- + D + -šum, dropping the ventive -am (the m assimilates: -aš-šum). | added. |
+| #25 (xlii 64) | n | low | Said “iklit” while `say` and the glossary have eklit. | eklit. |
+| #25 | n | low | “all in the accusative”: the construct forms (palê, mūt, nīṭil …) show no case. | “all objects of lišīmšum (most of the endings show no case)”. |
+| #27 (xlii 73) | i | medium | “memory” renders zikrum, which `l` has as “mention” and Harper as “name, vow”; “memory” is the remembered curse formula, not the word. | “his name and mention of him”. |
+| #27 | n | medium | Quoted Harper as saying sapahu IV,1 is “to be dispersed”: Harper gives no sense at IV,1; the entry is “to disperse, to drive out” (II,1). | Rewritten without the quote. |
+| #28 (xlii 79) | i | low | “may he speak all this” supplies an object in plain type (pass 1 left it as a possible change). | “may he say (all this) …”: supplied words in brackets. |
+| #29 (xlii 81) | n | low | “Harper’s ra-bi-tum”: his glossary has it, his print and the unit have ra-be-tum. | both said. |
+
+## Changes — `gloss.json`
+
+| entry | field | severity | what was wrong | what was done |
+|---|---|---|---|---|
+| irritum | entry | low | “because of these curses”: `l`/`i` say “those”. | those. |
+| mašûm | entry | low | “preterite” stated flatly for imēš (see #17). | UNCERTAIN, regular form imši. |
+| tēšûm | entry | medium | “uproar” invented (Harper: “revolt”). | removed. |
+| šabûm-D | entry | low | Stem not named. | “D-stem of Harper’s šabu (II,1 …)”. |
+| sapāḫum-N | entry | medium | Quoted Harper as “to be dispersed” (no such sense at IV,1). | Harper lists na-aš-pu-uḫ under “to disperse, to drive out”. |
+| tabākum | entry | low | “Harper’s tabaku”: his headword is the noun TABKU “pouring out”. | said. |
+| ṣalmum-black | entry | low | Example was the prologue's phrase, not this part's. | ṣalmāt qaqqadišu, with the prologue's ṣalmāt qaqqadim in brackets. |
+| emqum (broaden) | appended | medium | “imqim” as the genitive of emqum. | emqim, litany cross-reference. |
+| purussûm (broaden) | appended | medium | Spellings pu-ru-us-se-e / “genitive” not those of this part (pu-ru-zi-e, pu-ru-zi-im); purussê called neither case nor number. | spellings corrected, “oblique plural” / “genitive”. |
+| bašûm-Š (broaden) | appended | medium | Spelling su-ub-sa-a-am (Harper's glossary) instead of the text's šu-ub-ša-a-am; the Š infinitive glossed passively (“not to be brought into being”). | spelling corrected, Harper's form in brackets; active gloss. |
+| târum-D (broaden) | appended | low | Example “litēršu šarrūtam” is not a line of this text. | melam šarrūtim litēršu. |
+| ṣēnum (broaden, added) | appended | medium | The latest holder (laws 258–277) has only “sheep, the flock”; the prologue's “evil (one)” was overwritten, and ṣi-nam here is the evil one. | “ṣēnam … ‘evil (one)’, a different noun from ṣēnum ‘sheep’”. |
+| nawārum (broaden, added) | appended | medium | Entry is the verb; nawārim here is a noun “of light”. | added, Harper's namaru II,1 noted, UNCERTAIN in form. |
+| šaṭārum (broaden, added) | appended | medium | Needed for the lemma change at #19. | ištadar added. |
+| nišū, šū, nakārum-D, ešērum, ṭâbum-D, qabûm, šebērum, sapāḫum-D, waṣûm-Š, abum, awātum, mātum (broaden, added) | appended | low (12 entries) | The latest entry does not carry the forms this part has: nišīšu “his people” (entry: “his household”), šināti, uttakkaru, lištēšir, liṭīb, liqbi, lišbir, lišappiḫaššum, šuṣâ, abu, awâtim/awâtīya/awâtūa/awāssu, mātassu/mātišu. | One true addition each, from the text and Harper's glossary. |
+
+## Findings refused or left as drafted
+
+- **XLI 80 (#2) `l` “I-judged” against `i` “gave”.** Left: `i` is epilogue-1's wording for the same clause (xli 68, “which I gave”); the note says both readings give the same English; changing `i` would split the two parts.
+- **XLI 93 (#7) and XLII 16 (#15) `i` “and” where the Akkadian has none.** Left: English list conjunction on the last wish, the practice of epilogue-1 (xli 53, 59); `l` shows the asyndeton.
+- **purussê (XLI 82) number.** Left as pass 1: oblique plural, as epilogue-1; Harper lists it with singulars; the glossary entry now only says “oblique plural” where this part's spelling is concerned.
+- **mašûm / imēšma, uštepiel, lirʾi, ḫušaḫḫum, iṣūtim “few”, ilum = DINGIR, litēršu.** Left with the pass-1 verdicts; where a form is irregular the note and entry now say UNCERTAIN.
+- **kīnātim under kittum.** Left: Harper has KINATU “justice” and KITTU separately; the litany's lemma is kittum and the note says so.
+- **Plate shape-by-shape.** Not done for every syllabogram (see above); the rows I did not look at rest on pass 1's counts and on Harper's print.
+- **ZI.IM.RI.GA, la-ḫa, ela.** Left unread, as drafted.
+
+## Points for the lead
+
+- Epilogue-1 (published) reads xli 68 `a-di-nu` as addinu (nadānum); this part reads it diānum (Harper's DANU lists all three places). Still not reconciled; pass 1 asked for a QUESTIONS.md line.
+- The glossary homonym ṣēnum (prologue “evil (one)” against later “sheep”): the broaden entry restores both for this part; any later part that uses ṣi-nam would hit the same overwrite.
+- Build and validator were not run; `lemma` `sadārum` is no longer used in this part (šaṭārum), so the `sadārum` entry is untouched in earlier parts.
+
+## Disclosure (sole-source rule)
+
+No modern translation was opened or recalled for any edit. Used: Harper's glossary text layer (PDF pp. 167–214), his plates 75–77, his print (the pinned source) and epilogue-1 and the earlier published parts of this work. The tanādātum remark in #11 is still from memory of the lexicon, labelled as such in the note.

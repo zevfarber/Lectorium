@@ -1,6 +1,6 @@
 # Beowulf — plan
 
-33 of 44 parts published. One part per fitt, as Klaeber numbers them.
+34 of 44 parts published. One part per fitt, as Klaeber numbers them.
 
 | part | fitt | lines | status |
 |---|---|---|---|
@@ -37,7 +37,7 @@
 | beowulf-fitt-30 | XXX · The Tale Retold | 2093–2143 | published |
 | beowulf-fitt-31 | XXXI · Fifty Winters — and a Dragon | 2144–2220 | published |
 | beowulf-fitt-32 | XXXII · The Hoard and the Last Survivor | 2221–2311 | published |
-| beowulf-fitt-33 | XXXIII · Fire in the Night | 2312–2390 | todo |
+| beowulf-fitt-33 | XXXIII · Fire in the Night | 2312–2390 | published |
 | beowulf-fitt-34 | XXXIV · The Sorrow of Hrethel | 2391–2459 | todo |
 | beowulf-fitt-35 | XXXV · The Last Boast | 2460–2601 | todo |
 | beowulf-fitt-36 | XXXVI · Wiglaf Comes to His Lord | 2602–2693 | todo |

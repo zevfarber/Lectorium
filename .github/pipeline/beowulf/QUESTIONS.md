@@ -75,3 +75,6 @@ Cruces rendered from the lexica and flagged as guesses in the notes; full list i
 
 ## beowulf-fitt-37 (2026-10-15)
 Cruces rendered from the lexica and flagged as guesses in the notes; full list in `drafts/beowulf-fitt-37/crux-notes.md`. Nothing waits on a decision. Also: the review found no apparatus support at 2706–07 for the "Kemble's emendation of ābroten" claim carried in the older `ābroten` glossary entry; that entry is left untouched (additions only) and may deserve a look.
+
+## beowulf-fitt-38 (2026-10-15)
+Cruces rendered from the lexica and flagged as guesses in the notes; full list in `drafts/beowulf-fitt-38/crux-notes.md` (about 28 items). Nothing waits on a decision. Note: the crux list's first item (brogdne with feminine serce, "unexplained") was refuted in review: brogdne is feminine accusative singular, syncopated from brogdene, so it is ordinary agreement. Main guesses: 2764 oferhīgian; 2769 leoðocræftum; 2775 hladon/bunan; 2777 ǣr gescọ̄d and the old lord; 2781 hioroweallende; 2800 fremmað gēna (most editors gē nū); 2805 Hronesnæsse; 2807 brentingas; 2818–19 hāte heaðowylmas; 2820 dōm.

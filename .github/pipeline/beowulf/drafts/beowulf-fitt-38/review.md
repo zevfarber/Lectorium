@@ -134,3 +134,24 @@ night" (now rebuilt), and "the Measurer"; all are from the grammar or the house 
 |---|---|---|---|---|
 | Pass 1 | 5 | 16 | 24 | 45 |
 | Pass 2 | 0 | 2 | 6 | 8 |
+
+## Gloss check
+
+All 91 novel entries and the 18 `__broaden__` entries were checked against the packet lines, the final `units.json` and its notes, and (for broadenings) the existing `beowulf-glossary.json`. Every broadened entry keeps the old entry whole before ' · '; every entry (and every new reading) is under 260 characters; no line numbers. Settled by the content reviewer and kept: `brogdne` feminine accusative singular (syncopated brogdene); `mundbora` nominative.
+
+| key | sev | what was wrong | what was done |
+|---|---|---|---|
+| hladon | high | Parsed as 3rd plural preterite; the unit note takes it as an infinitive (after `gefrægn`, parallel to `rēafian`) and `l` has "loaded" in that construction. | Infinitive, spelled -on for -an; MS hlodon is the preterite. |
+| brogdne | low | Gender and the syncopation not stated. | Feminine accusative singular, syncopated for brogdene. |
+| beadusercean | medium | "gender uncertain" contradicted the settled agreement with feminine `serce`. | "weak feminine"; remark removed. |
+| beorhtost | medium | "nominative singular"; `segn` is the accusative object of `genōm`. | Accusative singular, in apposition to segn. |
+| behrorene | medium | "nominative plural"; `fatu` is accusative (apposition to `orcas`, after `geseah`). | Accusative plural neuter. |
+| feormendlēase | medium | Same: nominative plural for an accusative phrase. | Accusative plural neuter. |
+| ellensīocne | medium | "agreeing with hine" (in a different clause); it agrees with `þēoden` (and `cwicne`). | Agreement corrected. |
+| magoþegn | medium | "in apposition to sunu"; it is the subject of `geseah` in a new clause. | "subject of geseah". |
+| ealdhlāfordes | low | "the dragon's old master" misstated the dispute; the note takes Beowulf, and the dissenting editors read the dative -hlāforde (the dragon). | Rewritten to match the note and apparatus. |
+| collenferð | low | Etymology of `collen` stated as fact; the note calls it "seems to be". | Hedged ("perhaps"; sense a guess). |
+| drīfað | low | Contained "here". | "here" removed. |
+| on (broadened) | medium | New reading called "adverb detached from its verb"; `þē ic … on starie` is a preposition separated from its relative `þē`; the example also carried "hēr". | Reading re-labelled; example shortened with an ellipsis; old entry unchanged. |
+
+Counts: high 1, medium 7, low 4 (12 changes). All other entries were found sound.

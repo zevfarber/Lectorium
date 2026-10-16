@@ -90,3 +90,53 @@ Counts (entries above; the unit-13 rebuild is one finding in three fields; the �
 ## Residual uncertainty (for the second pass and the log)
 
 Unit 13 (ten untranslated words, six guesses), unit 3 (ተሀይድ, ትከብት), unit 2 (the four colour-words), unit 1 (ሣረረ), unit 11 (ተመልአኩ, መርጡል), unit 10 (ተዐዱ, አረፍት), unit 16 (ተአምነት), unit 31 (ዘይልህቅ, ዐረባዊ), unit 30/31 (መስዕ).
+
+# Review, pass 2 — kebra-nagast-ch17-20
+
+Reviewer: adversarial, second pass, from the grammar alone (no modern translation, no web; Dillmann from memory, so each lexical doubt is stated as a doubt). Edits made by script on `units.json` and `gloss.json`; `t` of every unit is unchanged (checked against the pass-1 file and the packet; all 399 distinct word forms are covered: 283 novel glossed, 116 known, none missing, none extra). Pass-1 edits to `units.json` were re-read for agreement: l and i agree, notes match the English, the house-style ". . . ." and the quotation marks balance (quote opens in unit 2 and closes in the same unit; opens in unit 23, closes in unit 25; unit 28 self-contained; unit 22 now quoted), the ፨ runs are as in the published ch. 9–16. Unit numbering as in pass 1.
+
+## Changes
+
+| unit / form | severity | what was wrong | what was done |
+|---|---|---|---|
+| ወተመልአኩ (gloss) + unit 11 n | moderate | Parsed as 3mp perfect of ተ- stem of መልአ; that would be ተመልኡ, and the ending -አኩ points to a verb in -ከ. | Entry and note state the mismatch and keep 'were filled (?)' as best guess only. |
+| ሣረረ (gloss) | moderate | Lemma ሠረረ and 'he rooted' were invented (the form ሣረረ was changed to a root not in evidence). | Lemma now ሣረረ itself, 'he established (?)', root unidentified. |
+| ወተሀይድ, ወትከብት (gloss) | moderate | Lemmata ሀየደ and ከበተ were invented to give a dictionary form; meanings stated as parses. | Lemma the form itself, sense marked (?), verb said to be unidentified. |
+| ሀገሪተ (gloss) | moderate | Lemma ሀገሪ does not exist; given as 'citizen, native' flat. | Lemma ሀገር, 'fellow-citizen (?)', derivative form uncertain. |
+| ስፉር (gloss) + unit 6 n | moderate | Lemma ስፍር is a noun, but the entry and note read a participle 'measured'; the note's verb ስፍረ is not a Geʿez form. | Lemma and note: ሰፈረ, passive participle; unit 6 i given (?) on 'measured out'. |
+| ጥልማ (gloss) | moderate | Called an accusative noun, but ends in -ኣ, not -ä; lemma ጥልም invented. | Lemma the form; 'unidentified', no case claimed. |
+| ወአብሕርተ, ወአክሚማተ, ወምጺጺተ (gloss) | moderate | Entries gave 'censers (?)', 'wreaths (?)', 'plates (?)', while l, i and n leave them untranslated as unidentified. | Entries now say unidentified item/vessel, agreeing with the unit. |
+| ወከርከዴን (gloss) | moderate | 'carnelian' was kept although pass 1 rejected it (no support). | 'carbuncle (?)' only. |
+| ጸሀራተ (gloss) | moderate | Lemma ጸሀራ (plural ending cut wrongly; entry said 'a vessel') disagreed with l/i 'dishes(?)'. | Lemma ጸሀር, 'dish (?)', related to ጻሕል as in the note. |
+| ድማትዮስ (gloss) | moderate | Still 'Demetius', which pass 1 removed from the units. | Dəmatyos, with the note that it is not ድሜጥሮስ. |
+| ክብራ (gloss) | moderate | Entry still mentioned a construct sense that pass 1 rejected. | 'not a construct'. |
+| ጽሑፋን (gloss) | minor | 'fem. plural'; -ān is the masculine plural (pass-1 correction not carried over). | 'plural'. |
+| ይትለአኩ (gloss) | minor | Stem given as ልአከ; the verb is ለአከ (ተለአከ). | Corrected. |
+| አቅዲሙ (gloss) | minor | Called a gerund; the gerund would end in -o; -ሙ is the form of the adverb. | Adverb, uncertain parse. |
+| ክልኤ, ክልኤተ, ዘክልኤ (gloss) | minor | 'feminine form ክልኤ' (accusative fem.): gender claims not supported (ክልኤ stands also before እመት, ጽላት). | Described as short form before a noun. |
+| ጽላተ (gloss) | minor | 'tablet' singular for a plural construct. | 'tablets of'. |
+| ወመሳቅየ (gloss) | minor | 'cups, pitchers' duplicated ጽዋዓተ 'cups'. | 'pitchers (?)'. |
+| ከበሎ (gloss) | minor | 'plural' after the numeral ፬ unsupported. | Singular counted after ፬, (?). |
+| ክዑበ (gloss) | minor | 'uncertain' while the note puts it among the secure items. | Flag dropped. |
+| __broaden__ ንጉሠ | minor | Example ለንጉሠ ሮሜ is a different word form. | Example ንጉሠ ሮምሂ (unit 32). |
+| __broaden__ በትረ, መሥዋዕተ, ፬ (new) | moderate | Known entries ('rod of', 'offering of', 'chapter number') do not cover the accusative uses in units 8 and 11 and the counted ፬ in unit 15. | Added, old entry whole + ' · ' + new reading. |
+| 6 i | minor | 'measured out' without (?) though l and n carry it. | (?) added. |
+| 10 n | minor | ቦአ written በአ in the note (gloss and Dillmann: ቦአ). | Fixed. |
+| 18 l | minor | 'commandment-of-him of-God' (non-structural). | 'commandment-his of-God'. |
+| 22 l | minor | ሂ 'also' omitted in l. | 'dwelling-his-also'. |
+| 22 i | minor | David's words not in quotation marks while the speeches in units 23–25 are. | Quoted. |
+| 32 n | minor | Note still said 'I read who is the greater/elder' though i reads 'grows greater'. | Note brought in line. |
+
+Counts: major 0, moderate 12, minor 17 (29 findings). The three new __broaden__ entries are counted as one moderate finding.
+
+## Checked and found sound (no change)
+
+Lemmata and parses of the remaining entries: verbs (ነቀዘ, ለበጠ, አነበረ, ጸሐፈ, ዐቀበ, ሰለበ, ጸገየ, የብሰ, ሰቀየ, ሰበረ, ቀፈለ, ረሰየ, ጾረ, አብአ, ዐደወ, አዐረገ, አስተሰርየ, አዘዘ, ሠርዐ, ከበረ, ዐበየ, ፈትሐ, አድኀነ, ሖረ, አውሥአ, ብህለ, ሰምየ, ኀረየ, ባረከ, አስተፈሥሐ, ወሀበ, ነግሠ, ገብአ, ኀተመ, ረከበ, ልህቀ), nouns with plural/construct labels, pronominal suffixes (nouns -ሃ, verbs -ኣ, as in the published parts), the numeral entries (፲ወ፯, ፲ወ፰, ፲፱, ፳, ፫፻፲ወ፰: spoken forms in the house format), and the other known-form entries, whose senses fit every occurrence listed (ከመ, እንተ, ይእቲ, ውስተ, ዘርአ, ወልደ, ውእቱ).
+
+## Findings considered and refused
+
+1. Considered, and refused: to re-lemmatize ተዐዱ, ወቀፈላ, መጻውረ, ሕሱይ, ዐረባዊ. Reason: each is already flagged uncertain in the entry and the unit; I have no better reading from Dillmann.
+2. Considered, and refused: to change ስብሐቲሁ/ዘርአ/ኀበ known entries beyond the three broadenings. Reason: they cover the uses in this part.
+3. Considered, and refused: to add 'also' to unit 24's i for ወለዳዊትኒ and ምድርኒ. Reason: English 'too' twice reads heavily; l carries both -ኒ.
+4. Considered, and refused: to re-gloss ዘይሠራዕ as active. Reason: the form could be either; passive sense kept, as in the unit.
+5. Considered, and refused: to change ከብረት/ከበረ or መልአከ to a firm lemma. Reason: memory of Dillmann's headword spelling is not secure enough to prefer one.

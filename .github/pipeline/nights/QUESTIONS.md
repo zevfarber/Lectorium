@@ -1079,8 +1079,8 @@ Open decisions the rules do not settle. A run writes the question and what it de
 
 Night 39 (P320L14–P327L02) is complete and unpublished, but the first slave's tale (P324L04–P325L08) narrates, in explicit detail, sexual acts between a twelve-year-old boy and a ten-year-old girl (P324L08–P324L19 especially). The run did not draft a translation (literal/idiomatic layers) of that passage and so published nothing. The claim was released and no files other than this note and the LOG line changed. Until decided, the pipeline will pick Night 39 again on every firing and stop the same way; consider telling the runbook how to handle it (e.g. skip Night 39 with a placeholder, publish the Arabic text only for those lines, or have the owner handle this night by hand).
 
-**RULED 2026-10-16 (owner, attended session).** Night 39 is published, with an advisory at the
-opening. Everything in it is translated except the passage itself, which is left out of the reading
+**RULED 2026-10-16 (owner, attended session).** Night 39 is published (revised the same day: no advisory; the
+gap note says only "A passage is skipped here for now."). Everything in it is translated except the passage itself, which is left out of the reading
 edition (its lines listed in `omit.json`, a `[…]` and a note marking the gap). The owner will supply
 that passage himself. Procedure: `publish-runbook.md` §0a, which also covers any such passage in a
 later night. Shared rule 7 in `.github/pipeline/README.md`: a problem never costs a whole firing.

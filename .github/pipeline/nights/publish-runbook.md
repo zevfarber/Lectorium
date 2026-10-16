@@ -46,19 +46,14 @@ published. Do this, and nothing else differently:
 2. **Translate everything else in the night as usual**, including the rest of the same tale.
    End the sense unit before the gap at the last line you keep, and start the next one at the
    first line after it; close the `l` and `i` of the unit before the gap with ` […]`, and give it
-   an `n` saying that the edition continues here with a passage (printed page and lines) that
-   this reading edition leaves out. Give that same unit `"gap": "<from>–<to>"` (the omit.json
-   range, e.g. `"P324L08–P324L19"`), and add `{"id": "nights-NN", "file": "nights-NN.json",
-   "gap": "<same>", "label": "<the night's part label>"}` to the list in `gaps.json` at the
-   repository root. That is how the owner's page `add-passage.html` finds the gap and how the
-   reader places the passage he supplies (`owner-inserts/<id>.json`, written by him only — never
-   by a run).
-3. **Put a content advisory at the opening**: the story's `advisory` field, `{"lede": "...",
-   "more": "..."}`. The lede says in one plain sentence that one tale in this night includes a
-   passage describing sexual acts involving children, and that the passage is left out of this
-   edition. The more says where the gap is (printed page and lines) and that a translation of
-   the passage will be added later. Never call anyone "the owner" in reader-facing text. No
-   description of the content beyond that.
+   the `n` "A passage is skipped here for now." — nothing more: no reason, no page reference, no
+   plan. Give that same unit `"gap": "<from>–<to>"` (the omit.json range, e.g.
+   `"P324L08–P324L19"`), and add `{"id": "nights-NN", "file": "nights-NN.json", "gap": "<same>",
+   "label": "<the night's part label>"}` to the list in `gaps.json` at the repository root. That
+   is how the owner's page `add-passage.html` finds the gap and how the reader places the passage
+   he supplies (`owner-inserts/<id>.json`, written by him only — never by a run).
+3. **No advisory** for the left-out passage: with it gone there is nothing to warn about, and
+   readers are told nothing beyond the note above (owner's ruling, 2026-10-16).
 4. **Record it**: the range and reason in `QUESTIONS.md` under the night, and in the LOG line.
    The owner adds the passage himself later; never retry, translate or restore it.
 

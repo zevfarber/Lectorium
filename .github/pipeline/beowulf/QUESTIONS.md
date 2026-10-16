@@ -87,3 +87,6 @@ Cruces rendered from the lexica and flagged as guesses in the notes; full list i
 
 ## beowulf-fitt-41 (2026-10-16)
 Cruces rendered from the lexica and flagged as guesses in the notes; full list in `drafts/beowulf-fitt-41/crux-notes.md`. Nothing waits on a decision. Main ones: 2957 ǣht boden / segn (pursuit vs property); 2981 dropen; 2990 (mid) lēodum (lost word); 3001 Swēona lēoda; 3005–07 hwate Sǣ-Gēatas (MS scildingas; subject of fremede/efnde taken as Beowulf); 3010 ānes hwæt; 3038 Ǣr … gesēgan; 3041 gry(refāh). Gloss: pass 2 added seven __broaden__ keys (ǣht, mǣrða, gamen, segn, folc, wiht, scēawian); some broadened entries exceed 260 characters (the build enforces the limit on new forms only).
+
+## beowulf-fitt-42 (2026-10-16)
+Cruces rendered from the lexica and flagged as guesses in the notes; full list in `drafts/beowulf-fitt-42/crux-notes.md`. Nothing waits on a decision. Main ones: 3060 fēara sumne; 3067 seolfa; 3072 hergum geheaðerod; 3074–75 Næs hē goldhwæte … āgendes ēst; 3084 healdon; 3085–86 gifeðe / [mannan]; 3112 gōdum tōgēnes; 3129 mearn, lǣne; 3132 wēg; 3134–36 Þā, æþeling boren, hilde[rinc].

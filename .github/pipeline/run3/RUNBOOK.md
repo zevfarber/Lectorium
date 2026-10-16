@@ -96,7 +96,11 @@ Nothing survives a firing unless it is pushed. So:
 - a problem the next firing would hit again (the pinned source is wrong, a page is unreadable, a sign has no
   Unicode character, the conventions do not say what to do): `R3 block <w> <id> "<one-line reason>"` — it marks
   the part blocked so later firings go on to the next part, writes the reason to QUESTIONS.md and releases the
-  claim — then add the detail to QUESTIONS.md, commit, push, stop.
+  claim — then add the detail to QUESTIONS.md, commit, push, and go straight on: run `R3 next` again and do
+  the part it gives you **in this same firing** (owner's standing rule, 2026-10-16: a problem never costs a
+  whole firing). Before blocking a whole part, set aside only the smallest piece you can — a few lines,
+  left out with a note to the reader where the gap is and recorded in QUESTIONS.md — and publish the rest
+  (see `.github/pipeline/README.md`, rule 7).
 A run that publishes nothing and says why is a good run; a run that publishes a part it is unsure of is not.
 Never send email, never use Google Drive, never create, change or disable a routine. Never touch another
 work's files, `queue.txt`, or anything outside `.github/pipeline/<w>/`, the work's story and glossary files,

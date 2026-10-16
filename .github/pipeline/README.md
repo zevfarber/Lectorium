@@ -34,6 +34,19 @@ Rules that apply to every run, whatever the work:
    need to ask, and does not need to stop. A defect that is not punctuation still goes to `QUESTIONS.md`.
 6. Audio for modern languages is built by `.github/workflows/audio.yml` on the runner when a root
    `*.json` is pushed; ancient-language audio is a separate phase per work.
+7. **If a piece can't be done, set it aside and keep going** (owner's standing rule, 2026-10-16).
+   A firing must not be spent stopping on a problem. When a run cannot produce part of the text —
+   the source is damaged or unreadable, the conventions do not cover the case, or the content is
+   something you will not translate — set aside the smallest piece you can (a few lines rather
+   than the whole part, night or chapter), finish and publish the rest, and mark the gap for the
+   reader with a short note. Record in `QUESTIONS.md` exactly what was set aside, where and why.
+   If the piece cannot be published at all without what is missing, mark it blocked: add its id
+   and the reason, one per line, to `BLOCKED` in the work's folder, then go straight on to the
+   next piece **in the same firing**. When finding the next part, pass over every id listed in
+   `BLOCKED`; a blocked part is not retried until the owner rules on it, and a work whose only
+   unpublished parts are blocked counts as finished for the queue (write `DONE` and say so in
+   `QUESTIONS.md`). This overrides any "write it down and stop" in a work's runbook. A firing
+   should end with something published unless there was truly nothing left it could do.
 
 ## Models — the cheapest one that does the job (owner's standing rule, 2026-10-12)
 

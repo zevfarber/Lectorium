@@ -36,6 +36,26 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 NIGHTS = os.path.dirname(HERE)
 ROOT = os.path.abspath(os.path.join(NIGHTS, "..", "..", ".."))
 ARCHIVE = os.path.join(NIGHTS, "archive")
+
+
+# Passages left out of the reading edition (owner's rule, 2026-10-16). omit.json lists ranges of
+# archived lines, {"from": "P324L08", "to": "P324L19", "night": 39, "reason": "..."}; the lines
+# stay in the archive but are skipped here, so a night whose story leaves them out still passes.
+OMIT_FILE = os.path.join(NIGHTS, "omit.json")
+
+
+def _refkey(ref):
+    m = re.match(r"P(\d+)L(\d+)$", ref)
+    return (int(m.group(1)), int(m.group(2))) if m else None
+
+
+def omitted(ref):
+    if not os.path.exists(OMIT_FILE):
+        return False
+    with open(OMIT_FILE, encoding="utf-8") as fh:
+        ranges = json.load(fh)
+    k = _refkey(ref)
+    return k is not None and any(_refkey(r["from"]) <= k <= _refkey(r["to"]) for r in ranges)
 GLOSSARY = os.path.join(ROOT, "nights-glossary.json")
 STORIES = os.path.join(ROOT, "stories.json")
 
@@ -65,7 +85,7 @@ def archive_tokens(first_ref, last_ref):
         for line in doc["lines"]:
             if line["ref"] == first_ref:
                 inside = True
-            if inside:
+            if inside and not omitted(line["ref"]):
                 out.extend(tokens(line.get("t", "")))
             if line["ref"] == last_ref and inside:
                 return out
@@ -83,7 +103,7 @@ def archive_verse_marked(first_ref, last_ref):
         for line in doc["lines"]:
             if line["ref"] == first_ref:
                 inside = True
-            if inside:
+            if inside and not omitted(line["ref"]):
                 verse = bool(line.get("v"))
                 for w in WORD.findall(FURNITURE.sub(" ", line.get("t", ""))):
                     out.append((w, line["ref"]) if verse and w != bare(w) else None)

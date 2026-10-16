@@ -160,3 +160,5 @@
 2026-10-15 · publishing run · Night 39 again NOT published (same reason as 2026-10-14: explicit sexual content involving children, P324L08–19; no translation drafted). Pipeline is stalled on this night until the owner decides; see QUESTIONS.md. Nothing else changed.
 
 2026-10-16 · publishing run · Night 39 again NOT published (same reason: explicit sexual content involving children, P324L08–19; no translation drafted). Pipeline still stalled on this night awaiting the owner; see QUESTIONS.md. Nothing else changed.
+
+2026-10-16 (attended, Claude with Zev) · not a run · Night 39 ruling (QUESTIONS.md, publish-runbook.md §0a): publish with advisory, leave the passage out via omit.json, translate the rest · check_slice.py and validate_night.py skip omit.json ranges (Night 38 still PASS) · stale claim from 2026-10-15 removed · shared README rule 7 (set aside and keep going) added.

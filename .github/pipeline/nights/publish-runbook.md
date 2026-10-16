@@ -31,6 +31,33 @@ vowels, find those words in the archived lines, and begin your text at the word 
 never at P03L01, which would republish what the pilot already covers. Say in the LOG where you
 started.
 
+## 0a. A passage you will not translate (owner's ruling, 2026-10-16)
+
+Sometimes a night contains a passage you are not willing to translate (first case: Night 39, the
+first slave's tale, which describes sexual acts involving children). The night is still
+published. Do this, and nothing else differently:
+
+1. **Leave the passage out, and keep it small.** Choose the smallest run of whole archived lines
+   that covers what you will not translate. Add it to `omit.json` in this folder (create it as a
+   JSON list if it does not exist): `{"from": "P324L08", "to": "P324L19", "night": 39,
+   "reason": "<one plain line>"}`. `check_slice.py` and `validate_night.py` skip those lines, so
+   the rest of the night still gates exactly. Those lines get no story text, no translation, no
+   transliteration, no glossary entries and no audio.
+2. **Translate everything else in the night as usual**, including the rest of the same tale.
+   End the sense unit before the gap at the last line you keep, and start the next one at the
+   first line after it; close the `l` and `i` of the unit before the gap with ` […]`, and give it
+   an `n` saying that the edition continues here with a passage (printed page and lines) that
+   this reading edition leaves out.
+3. **Put a content advisory at the opening**: the story's `advisory` field, `{"lede": "...",
+   "more": "..."}`. The lede says in one plain sentence that one tale in this night includes a
+   passage describing sexual acts involving children, and that the passage is left out of this
+   edition. The more says where the gap is (printed page and lines) and that the owner will
+   supply it separately. No description of the content beyond that.
+4. **Record it**: the range and reason in `QUESTIONS.md` under the night, and in the LOG line.
+   The owner adds the passage himself later; never retry, translate or restore it.
+
+This is the rule for any such passage in any later night as well: leave it out, publish the rest.
+
 ## 1. Claim
 
 Create `claims/publish-<id>.md` (e.g. `claims/publish-nights-03.md`) with the UTC time and your

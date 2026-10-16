@@ -56,8 +56,9 @@ published. Do this, and nothing else differently:
 3. **Put a content advisory at the opening**: the story's `advisory` field, `{"lede": "...",
    "more": "..."}`. The lede says in one plain sentence that one tale in this night includes a
    passage describing sexual acts involving children, and that the passage is left out of this
-   edition. The more says where the gap is (printed page and lines) and that the owner will
-   supply it separately. No description of the content beyond that.
+   edition. The more says where the gap is (printed page and lines) and that a translation of
+   the passage will be added later. Never call anyone "the owner" in reader-facing text. No
+   description of the content beyond that.
 4. **Record it**: the range and reason in `QUESTIONS.md` under the night, and in the LOG line.
    The owner adds the passage himself later; never retry, translate or restore it.
 

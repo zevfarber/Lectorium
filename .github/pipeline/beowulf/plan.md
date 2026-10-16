@@ -1,6 +1,6 @@
 # Beowulf — plan
 
-43 of 44 parts published. One part per fitt, as Klaeber numbers them.
+44 of 44 parts published. One part per fitt, as Klaeber numbers them.
 
 | part | fitt | lines | status |
 |---|---|---|---|
@@ -47,4 +47,4 @@
 | beowulf-fitt-40 | XL · The Messenger’s Tidings | 2892–2945 | published |
 | beowulf-fitt-41 | XLI · Ravenswood and the Curse | 2946–3057 | published |
 | beowulf-fitt-42 | XLII · The Hoard Brought Out | 3058–3136 | published |
-| beowulf-fitt-43 | XLIII · The Barrow on the Headland | 3137–3182 | todo |
+| beowulf-fitt-43 | XLIII · The Barrow on the Headland | 3137–3182 | published |

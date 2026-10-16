@@ -90,3 +90,6 @@ Cruces rendered from the lexica and flagged as guesses in the notes; full list i
 
 ## beowulf-fitt-42 (2026-10-16)
 Cruces rendered from the lexica and flagged as guesses in the notes; full list in `drafts/beowulf-fitt-42/crux-notes.md`. Nothing waits on a decision. Main ones: 3060 fēara sumne; 3067 seolfa; 3072 hergum geheaðerod; 3074–75 Næs hē goldhwæte … āgendes ēst; 3084 healdon; 3085–86 gifeðe / [mannan]; 3112 gōdum tōgēnes; 3129 mearn, lǣne; 3132 wēg; 3134–36 Þā, æþeling boren, hilde[rinc].
+
+## beowulf-fitt-43 (2026-10-16)
+Cruces rendered from the lexica and flagged as guesses in the notes; full list in `drafts/beowulf-fitt-43/crux-notes.md`. Nothing waits on a decision. Main ones: 3182 lofgeornost (rendered "most eager for praise"; disputed, praise vs. glory-seeking); 3145 swioðole (read as "flame", Klaeber's emendation); 3151 bundenheorde ("bound-haired", "bound-hearted" the alternative); 3155 rēce (case of the form not settled from the public-domain aids; sense "swallowed the smoke" not in doubt); 3163 nīðhēdịge (the men taken to be the Geats who carried the hoard out); 3174 duguðum dēmdon.

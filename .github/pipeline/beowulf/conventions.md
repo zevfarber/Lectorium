@@ -190,3 +190,4 @@ carrier and its limits. Do not edit it by hand in a part; change it in `beowulf_
 | herewīsa | army-wise one | leader of the host | beowulf-fitt-41 |
 | ādfær | pyre-journey | pyre-journey | beowulf-fitt-41 |
 | Sōðcyning | true king of victories | true king of victories | beowulf-fitt-41 |
+| lofgeornost | most praise-eager | most eager for praise | beowulf-fitt-43 |

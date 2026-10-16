@@ -84,3 +84,6 @@ Cruces rendered from the lexica and flagged as guesses in the notes; full list i
 
 ## beowulf-fitt-40 (2026-10-16)
 Cruces rendered from the lexica and flagged as guesses in the notes; full list in `drafts/beowulf-fitt-40/crux-notes.md`. Nothing waits on a decision. Main ones: 2892 subject of Heht (taken as Wiglaf); 2911 under[ne] (read as "openly", MS under "among" the alternative; no lexicon reachable); 2921 Merewioingas milts ungyfeðe (grammar unclear); 2926-29 Geats as subject, Swedes as object; 2930 ābrēot brimwīsan (Hæðcen) and āhredde (MS bryda heorde); 2940-41 gētan (Thorpe, Sedgefield g[r]ētan).
+
+## beowulf-fitt-41 (2026-10-16)
+Cruces rendered from the lexica and flagged as guesses in the notes; full list in `drafts/beowulf-fitt-41/crux-notes.md`. Nothing waits on a decision. Main ones: 2957 ǣht boden / segn (pursuit vs property); 2981 dropen; 2990 (mid) lēodum (lost word); 3001 Swēona lēoda; 3005–07 hwate Sǣ-Gēatas (MS scildingas; subject of fremede/efnde taken as Beowulf); 3010 ānes hwæt; 3038 Ǣr … gesēgan; 3041 gry(refāh). Gloss: pass 2 added seven __broaden__ keys (ǣht, mǣrða, gamen, segn, folc, wiht, scēawian); some broadened entries exceed 260 characters (the build enforces the limit on new forms only).

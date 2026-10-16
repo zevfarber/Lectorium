@@ -179,3 +179,14 @@ carrier and its limits. Do not edit it by hand in a part; change it in `beowulf_
 | homera lāfe | leavings of hammers | what the hammers left | beowulf-fitt-39 |
 | hildfruma | battle-leader | battle-leader | beowulf-fitt-39 |
 | hondgeweorc | hand-work | handiwork | beowulf-fitt-39 |
+| swātswaðu | blood-track | blood-track | beowulf-fitt-41 |
+| wælrǣs | slaughter-rush | slaughter-rush | beowulf-fitt-41 |
+| wælhlem | slaughter-blow | slaughter-blow | beowulf-fitt-41 |
+| ondslyht | return-blow | return-blow | beowulf-fitt-41 |
+| lyftwynne | air-joy | air-joy | beowulf-fitt-41 |
+| lēgdraca | flame-dragon | fire-dragon | beowulf-fitt-41 |
+| endedæg | end-day | end-day | beowulf-fitt-41 |
+| gūðrǣs | war-rush | war-rush | beowulf-fitt-41 |
+| herewīsa | army-wise one | leader of the host | beowulf-fitt-41 |
+| ādfær | pyre-journey | pyre-journey | beowulf-fitt-41 |
+| Sōðcyning | true king of victories | true king of victories | beowulf-fitt-41 |

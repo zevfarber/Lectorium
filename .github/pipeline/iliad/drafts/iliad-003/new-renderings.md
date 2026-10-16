@@ -2,8 +2,8 @@
 
 | Greek | `l` | `i` | avoided on purpose |
 |---|---|---|---|
-| ἦ καί (1.219, closing a speech and starting the action) | "He spoke, and" | "He spoke, and" | "So saying", "With that", "And he said"; ἦ is the old "he said", kept apart from ὣς φάτο "so he spoke" |
-| ἀταρτηροῖς ἐπέεσσιν (1.223; ἀταρτηρός rare, origin not known, ancient gloss "harmful, mischievous") | "harsh words" | "harsh words" (+ note: meaning not known) | "bitter", "savage", "cruel" (each picks one sense), "harmful" (decides the guess) |
+| ἦ καί (1.219, closing a speech and starting the action) | "He spoke, and" | "So he said, and" | "So saying", "With that", "And he said"; ἦ is the old "he said", kept apart from ὣς φάτο "so he spoke"; `i` follows the Odyssey table’s ἦ ῥα καί (8.416, "So he said, and") and its ἦ καί units (odyssey-070, -105, -106) |
+| ἀταρτηροῖς ἐπέεσσιν (1.223; ἀταρτηρός rare, origin not known, ancient gloss "harmful, mischievous") | "harsh words" | "harsh words" (+ note: meaning not known) | "bitter", "savage", "cruel" (each picks one sense), "harmful" (decides the guess); the Odyssey ships "reckless" for the vocative ἀταρτηρέ of a man (2.243, odyssey-007), a different use, so "reckless words" is not carried over |
 | δαίμονας ἄλλους (1.222, the other gods of Olympus) | "the other divinities" | "the other divinities" | "the other powers" (the Odyssey table’s δαίμων "some power" is for one unnamed god acting on a man; a collective "powers" would read as forces here), "gods" (reserved for θεός), "spirits"; a departure from the Odyssey table, with the reason |
 | οἰνοβαρές (1.225, vocative; the Odyssey’s οἰνοβαρείων, 21.304) | "Heavy with wine" | "You who are weighed down with wine" | "drunkard", "sot", "wine-bibber"; follows the table’s "heavy with wine" / "weighed down with wine" |
 | κυνὸς ὄμματ’ ἔχων, κραδίην δ’ ἐλάφοιο (1.225) | "with a dog’s eyes in you, and a deer’s heart" | "with the eyes of a dog and the heart of a deer" | "shameless eyes", "a coward’s heart" (each explains the image); κραδίη and θυμός both "heart" when three lines apart |
@@ -20,14 +20,14 @@
 | μέλιτος γλυκίων … αὐδή (1.249) | "sweeter than honey … the voice" | "the voice flowed sweeter than honey" | "speech", "words" (the word is αὐδή, "voice, speech"); γλυκύς keeps the table’s "sweet" |
 | κάρτιστοι (1.266–267) | "strongest" | "the strongest" | "mightiest" (reserved for ἴφθιμος / ἴφθιμοι), "best" (reserved for ἄριστος), "bravest"; follows the table’s καρτερός "strong" |
 | φηρσὶν ὀρεσκῴοισι (1.268; ὀρεσκῷος "lying on the mountains", the usual explanation) | "the mountain-bedded beasts" | "the beasts of the mountains" (+ note: the Greek does not name the Centaurs) | "Centaurs" (names what the Greek leaves unnamed), "mountain-dwelling", "wild beasts of the hills"; follows the table’s αἶγες ὀρεσκῷοι "mountain goats" |
-| ἐκπάγλως (1.268) | "terrifyingly" | "terribly" | "mightily", "fiercely", "utterly"; the adverb of the table’s ἔκπαγλος "terrifying" |
+| ἐκπάγλως (1.268) | "terribly" | "terribly" | "terrifyingly" (the adverb is "terribly" in both layers in the Odyssey, odyssey-025 and -055; ἔκπαγλος itself stays "terrifying"), "mightily", "fiercely", "utterly" |
 | ἐξ ἀπίης γαίης (1.270; ἀπίη disputed, "far-off" by the ancient explanation, "Apian" = Peloponnese by another) | "from a distant land" | "from a distant land" (+ note: sense not certain) | "from the Apian land", "from the Peloponnese" (each picks the other reading) |
 | μεθομίλεον (1.269) | "I kept company" | "I joined their company" | "I mingled with", "I consorted with"; ὁμιλέω (1.261) stays "kept company with" |
 | ξύνιεν (1.273, συνίημι with genitive) | "understood" | "took in" | "heeded" (kept for ὄθομαι), "attended to" (the Odyssey’s ξυνίει "attend"), "listened to"; the object is "counsels", which the verb takes in |
 | ἀντιβίην (1.278) · ἀντιβίοισι ἐπέεσσιν (1.304) | "in opposition" · "words of opposition" | "in open opposition" · "opposing words" | "face to face" (reserved for ἀντίον), "head-on", "to his face" · "hostile words" |
 | ἕρκος … πολέμοιο κακοῖο (1.283–284) | "fence … against evil war" | "bulwark … against evil war" | "protection", "shield", "wall"; `l` keeps the table’s ἕρκος ὀδόντων "fence", `i` takes the sense a defence needs |
 | ὑποβλήδην (1.292) | "cutting in" | "cutting in" | "interrupting" (a plain-English summary), "from beneath", "retorting"; the word is formed on ὑποβάλλω and means taking up the other speaker’s words |
-| ὡς ἔσεταί περ (1.211) | "as it shall be" | "just as it will be" (+ note: obscure, usually "however it turns out") | "however it turns out", "as you please" (each fixes the obscure sense) |
+| ὡς ἔσεταί περ (1.211) | "just as it will be" | "just as it shall be" (+ note: obscure, usually "however it turns out") | "however it turns out", "as you please" (each fixes the obscure sense); the wording is the Odyssey’s for the same words (odyssey-104, the unit at line 212) |
 | ἐμήνιε (1.247, μηνίω) | "was wrathful" | "was wrathful" | "raged", "was angry", "bore a grudge"; the verb of μῆνις "wrath", so it keeps the table’s family |
 | εἰ δ’ ἄγε μήν (1.302) | "But come now, indeed" | "But come" | "If you dare", "Go on then"; εἰ is part of the idiom, not "if" |
 | ἐΐσας (νῆας ἐΐσας, 1.306) | "well-balanced" | "well-balanced" (+ note: sense not certain) | "even", "trim", "shapely", "swift" (each picks a sense); keeps the table’s φρένας ἔνδον ἐΐσας "well-balanced wits" |

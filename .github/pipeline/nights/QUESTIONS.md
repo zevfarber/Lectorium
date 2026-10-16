@@ -1085,3 +1085,5 @@ skipped, nothing more — see publish-runbook.md §0a step 3). Everything in it 
 edition (its lines listed in `omit.json`, a `[…]` and a note marking the gap). The owner will supply
 that passage himself. Procedure: `publish-runbook.md` §0a, which also covers any such passage in a
 later night. Shared rule 7 in `.github/pipeline/README.md`: a problem never costs a whole firing.
+
+- **Night 39 published (2026-10-16).** Omitted range P324L08–P324L19 (first slave's tale; sexual acts involving children), listed in omit.json; gap and advisory set as in publish-runbook.md §0a. Review items not applied: earlier-night glossary entries kept where keys collide (624 differ in wording); slice-edge fragments at P321L19/P322L23/P323L23 are marked in n. Several print slips kept as printed and noted (تالم, الخمر for الخبر, ن for ت in بنانه/وزوجنه/فانت). Nothing waits on the owner.

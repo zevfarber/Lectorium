@@ -1,6 +1,6 @@
 # Beowulf — plan
 
-39 of 44 parts published. One part per fitt, as Klaeber numbers them.
+40 of 44 parts published. One part per fitt, as Klaeber numbers them.
 
 | part | fitt | lines | status |
 |---|---|---|---|
@@ -43,7 +43,7 @@
 | beowulf-fitt-36 | XXXVI · Wiglaf Comes to His Lord | 2602–2693 | published |
 | beowulf-fitt-37 | XXXVII · The Dragon Slain | 2694–2751 | published |
 | beowulf-fitt-38 | XXXVIII · The Barrow Promised | 2752–2820 | published |
-| beowulf-fitt-39 | XXXIX · Wiglaf’s Rebuke | 2821–2891 | todo |
+| beowulf-fitt-39 | XXXIX · Wiglaf’s Rebuke | 2821–2891 | published |
 | beowulf-fitt-40 | XL · The Messenger’s Tidings | 2892–2945 | todo |
 | beowulf-fitt-41 | XLI · Ravenswood and the Curse | 2946–3057 | todo |
 | beowulf-fitt-42 | XLII · The Hoard Brought Out | 3058–3136 | todo |

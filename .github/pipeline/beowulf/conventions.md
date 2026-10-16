@@ -165,3 +165,17 @@ carrier and its limits. Do not edit it by hand in a part; change it in `beowulf_
 | goldǣht | gold-possession | gold-possession | beowulf-fitt-37 |
 | searogimmas | cunning-gems | cunning-gems | beowulf-fitt-37 |
 | dōgorgerīm | day-count | day-count | beowulf-fitt-37 |
+| hildlatan | battle-laggards | slackers in battle | beowulf-fitt-39 |
+| trēowlogan | troth-breakers | oath-breakers | beowulf-fitt-39 |
+| attorsceaða | poison-scather | poison-scather | beowulf-fitt-39 |
+| hringsele | ring-hall | ring-hall | beowulf-fitt-39 |
+| frumgār | chieftain (first-spear) | chief | beowulf-fitt-39 |
+| ferhðgenīðla | life-enemy | deadly foe | beowulf-fitt-39 |
+| līfwraðe | life-protection | protection for his life | beowulf-fitt-39 |
+| edwītlīf | reproach-life | to live on in reproach | beowulf-fitt-39 |
+| sincþego / swyrdgifu / ēðelwyn | treasure-receiving / sword-gift / native-joy | receiving of treasure / giving of swords / joy of the homeland | beowulf-fitt-39 |
+| dōmlēas | glory-less | without glory | beowulf-fitt-39 |
+| wīdfloga | wide-flier | far-flier | beowulf-fitt-39 |
+| homera lāfe | leavings of hammers | what the hammers left | beowulf-fitt-39 |
+| hildfruma | battle-leader | battle-leader | beowulf-fitt-39 |
+| hondgeweorc | hand-work | handiwork | beowulf-fitt-39 |

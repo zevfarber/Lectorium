@@ -1,0 +1,60 @@
+# iliad-004 (1.312–412) — new formula and epithet renderings
+
+| Greek | `l` | `i` | avoided on purpose |
+|---|---|---|---|
+| ἀέκων (ἀέκοντε βάτην 1.327, ἀέκουσ’ 1.348) | "unwilling" | "unwilling" | "reluctant", "against their will" (kept for the Odyssey’s ἀέκουσαν ἀπῶσαι, 2.130, where it is a plain phrase); follows the table’s οὐκ ἀέκοντε "not unwilling" |
+| ὑγρὰ κέλευθα (1.312; the whole line οἱ μὲν ἔπειτ’ ἀναβάντες ἐπέπλεον ὑγρὰ κέλευθα is Odyssey 15.474, and its second half is 4.842) | "the watery ways" (the line: "They then, having embarked, sailed over the watery ways") | "the watery ways" (the line: "Then they embarked and sailed over the watery ways") | Odyssey table, unchanged; the line follows 15.474, where ἐπέπλεον is "sailed" (4.842 has "were sailing") |
+| λύματα (1.314) | "the filth" | "the filth" | "off-scourings" (archaic), "pollution", "defilement"; LSJ "that which is washed off, filth" |
+| κνίση (1.317) | "the savour" | "the savour of it" | "the smell of fat" (the Odyssey table’s κνίση 17.270; here the word stands alone and "savour" is what iliad-001 shipped at 1.66, so the Iliad keeps it), "steam" |
+| ἑλισσομένη περὶ καπνῷ (1.317) | "curling about in the smoke" | "curling about in the smoke" | "whirling", "wreathing", "rising in coils" |
+| τὰ πένοντο (1.318) | "were busied with these things" | "busied themselves with these tasks" | "toiled at", "laboured", "were occupied", "were busy"; πένομαι keeps the Odyssey’s "were busied" / "busied themselves" (4.624, 24.412, περὶ δεῖπνον … πένοντο) |
+| λῆγ’ ἔριδος τὴν πρῶτον ἐπηπείλησ’ (1.319) | "cease from the strife which at first he threatened" | "give up the strife with which he had first threatened" | "quarrel" (kept for νεῖκος), "wrath" (reserved for μῆνις); ἔρις keeps "strife" as at 1.210 |
+| ἐπαίτιος (1.335) | "to blame" | "to blame" | "guilty", "responsible", "at fault" |
+| χαίρετε κήρυκες (1.334) | "Welcome, heralds" | "Welcome, heralds" | "Hail", "Greetings", "Rejoice"; follows the table’s χαῖρε, ξεῖνε "Welcome, stranger" |
+| Διὸς ἄγγελοι ἠδὲ καὶ ἀνδρῶν (1.334) | "messengers of Zeus and also of men" | "messengers of Zeus and of men as well" | "envoys", "ambassadors"; ἄγγελος is "messenger" |
+| ἀπηνής (βασιλῆος ἀπηνέος, 1.340; origin not known, LSJ "harsh, rough, cruel") | "unkind" | "unkind" | "ungentle" (the first draft; the Odyssey fixes "unkind" for ἀπηνής at 18.381, 19.329, 23.97 and 23.230), "harsh" (kept for ἀταρτηροῖς ἐπέεσσιν, 1.223, and reserved for χαλεπός), "cruel", "pitiless", "stern" |
+| ἀεικέα λοιγὸν ἀμῦναι (1.341, 1.398) | "to ward off unseemly ruin" | "to ward off unseemly ruin" | "shameful ruin", "ugly destruction", "plague" (λοιγός is "ruin"; the Odyssey’s βροτολοιγός "mortal-ruining"); ἀεικής keeps the table’s "unseemly", ἀμύνω "ward off" |
+| ὀλοιῇσι φρεσὶ θύει (1.342) | "in baleful wits, rages" | "rages with a baleful mind" | "destructive", "murderous", "ruinous" (reserved for οὐλόμενος), "in a fatal frenzy"; ὀλοός keeps the "baleful" of the table’s ὀλοόφρων; θύω is "rush, seethe, rage" as in the table’s θῦεν "seethed" |
+| ἅμα πρόσσω καὶ ὀπίσσω (1.343) | "at once forward and backward" | "what lies ahead and what lies behind" | follows the Odyssey (24.452, ὅρα πρόσσω καὶ ὀπίσσω "saw what lay ahead and what lay behind") |
+| ὅππως … σόοι μαχέοιντο (1.344) | "how … the Achaeans may fight safe" | "how the Achaeans may fight safely" | "unharmed", "in safety" in `l`; "safe" keeps the Odyssey’s σόος |
+| ὣς φάτο δάκρυ χέων, τοῦ δ’ ἔκλυε πότνια μήτηρ (1.357) | "So he spoke, a tear shedding, and him heard his lady mother" | "So he spoke, shedding tears, and his lady mother heard him" | "weeping" (drops χέων), "queenly mother"; table patterns ὣς ἔφατ’ εὐχόμενος, τοῦ δ’ ἔκλυε Φοῖβος, δάκρυ χέων, πότνια "lady" |
+| καρπαλίμως δ’ ἀνέδυ πολιῆς ἁλὸς ἠΰτ’ ὀμίχλη (1.359) | "swiftly she rose up out of the grey sea like a mist" | same | "emerged", "came up"; ἠΰτε is "like" (the Odyssey’s ἠΰτε πέτρη, "like a rock"); πολιὴ ἅλς keeps "grey sea" |
+| χειρί τέ μιν κατέρεξεν ἔπος τ’ ἔφατ’ ἔκ τ’ ὀνόμαζε (1.361, female subject) | "and stroked him with her hand, and spoke a word, and called him by name:" | "and stroked him with her hand, and spoke, calling him by name:" | Odyssey table (4.610), unchanged, with the female subject as shipped at Odyssey 5.181 |
+| τέκνον τί κλαίεις; (1.362) | "Child, why do you weep?" | "Child, why are you weeping?" | "My son", "Why do you cry" (τέκνον is "child", not "son"); τέκνον keeps the table’s "child" |
+| κεῦθε νόῳ (1.363) | "hide it in your mind" | "keep it hidden in your mind" | "conceal your thoughts", "hold it back"; νόος is "mind" |
+| τὴν δὲ βαρὺ στενάχων προσέφη πόδας ὠκὺς Ἀχιλλεύς (1.364, whole-line reply-formula) | "Her, groaning heavily, addressed swift-in-feet Achilles:" | "Groaning heavily, Achilles, swift of foot, said to her:" | "sighing deeply", "with a heavy groan", "answered"; βαρὺ στενάχων keeps the Odyssey’s βαρέα στενάχοντα "groaning heavily"; πόδας ὠκύς and προσέφη as in the table |
+| τί … ταῦτα ἰδυίῃ πάντ’ ἀγορεύω; (1.365) | "why indeed to you, knowing these things, do I tell it all?" | "Why should I tell it all to you, who know it already?" | "declare" (kept for ἀγορεύω in a public declaration, 1.385 and iliad-002), "recount"; τοι is read as σοι because ἰδυίῃ is dative |
+| ἱερὴν πόλιν (1.366) | "the sacred city" | "the sacred city" | "holy" (reserved for ἠγάθεος / ζάθεος), "hallowed"; ἱερός keeps "sacred" |
+| διεπράθομεν (1.367) | "we sacked" | "sacked" | "plundered", "destroyed"; "sack" is the Iliad’s word (ἐκπέρθω, 1.19), and the Odyssey has διεπράθετο "was sacked" |
+| ἤγομεν ἐνθάδε πάντα (1.367) | "brought here everything" | "brought everything here" | "carried off", "plundered"; ἄγω of spoil is "bring" |
+| εὖ δάσσαντο (1.368) | "divided well among themselves" | "divided the spoil well among themselves" | "shared out fairly", "apportioned"; δατέομαι is "divide", with the middle shown by "among themselves" |
+| ἑκατηβόλου Ἀπόλλωνος (1.370) beside ἑκηβόλου Ἀπόλλωνος (1.373) | "far-shooting" · "far-shooting" | "who shoots from afar" · "far-shooting" | "far-darting" (reserved for ἑκατηβελέτης), "far-working" (ἑκάεργος); the Odyssey’s ἑκατηβόλος is kept, so the two epithets differ only in `i` |
+| ἑκάτοιο (1.385; ἕκατος, a short form, probably the root of ἑκατηβόλος and ἑκατηβελέτης) | "of the far-darter" | "of the far-darter" (+ note: sense of ἕκατος alone not certain) | "of the far-shooter" (kept for ἑκηβόλος), "of the far-worker" (ἑκάεργος), "of Hecatus" |
+| ἐπασσύτεροι (1.383) | "one close upon another" | "one close upon another" | "thick and fast", "in heaps", "in droves", "one after another"; the form looks like a comparative and the sense given is the traditional one |
+| ἐπῴχετο κῆλα θεοῖο (1.383) | "the shafts of the god went about" | "the god’s shafts went about" | "ranged over" (decides the verb’s sense), "swept"; ἐποίχομαι is "go about, go among" as in the Odyssey’s κῆρυξ ἐπῴχετο "came round" |
+| βέλος (ἧκε κακὸν βέλος, 1.382) | "an evil shaft" | "an evil shaft" | "missile" and "arrow" (the Odyssey ships both for βέλος, which iliad-001 did not carry over: it ships "shaft" at 1.51 for βέλος ἐχεπευκές, and this part follows iliad-001), "dart" |
+| εὖ εἰδὼς ἀγόρευε θεοπροπίας (1.384–385) | "who knew well declared the prophecies" | "who knew well declared … the prophecies" | "spoke out", "uttered"; ἀγορεύω in a public pronouncement is "declare", as at 1.109 in iliad-002 |
+| κελόμην … ἱλάσκεσθαι (1.386) | "urged to appease" | "was the first to urge that … be appeased" | "bade", "propitiate" (kept for ἱλάσσεαι in iliad-002), "placate"; κέλομαι keeps the Odyssey’s "bid / order" family, "urge" for advice |
+| Ἀτρεΐωνα (1.387) | "Atreus’-son" | "the son of Atreus" | "Atreion", "Atreides"; the -ίων patronymic is the same man as Ἀτρεΐδης |
+| ἠπείλησεν μῦθον (1.388) | "threatened a word" | "uttered a threat, a word" | "made a threat" alone (loses μῦθον); ἀπειλέω keeps "threaten" as at 1.319 |
+| ὃ δὴ τετελεσμένος ἐστί (1.388) | "has indeed been fulfilled" | "has now been fulfilled" | "has come true", "has been accomplished"; τελέω keeps "fulfil" as in the table’s Διὸς δ’ ἐτελείετο βουλή |
+| ἑλίκωπες Ἀχαιοί (1.389) | "the quick-eyed Achaeans" | "the quick-eyed Achaeans" (+ note: sense disputed) | "bright-eyed", "glancing-eyed", "dark-eyed", "with rolling eyes"; masculine form of the table’s ἑλικῶπις "quick-eyed" |
+| κούρην Βρισῆος (1.392) | "the girl of Briseus" | "the girl, the daughter of Briseus" | "Briseus’ daughter" in `l` (decides how to read the genitive); κούρη is "girl", Βρισηΐς "daughter of Briseus" by its formation |
+| περίσχεο παιδὸς ἑῆος (1.393) | "protect your own son" | "protect your own son" (+ note: ἑῆος also read as ἐΰς "good") | "shield", "cover", "stand over"; "your good son" (decides the open reading); ἑός is "own" as in the Odyssey’s possessive ὅς |
+| λίσαι (λίσσομαι, 1.394) | "beg" | "beg" | "beseech", "entreat" (the Odyssey ships "begging" for λίσσετο and "entreated" for ἐλλίσσετο; iliad-001 has "begged" at 1.15), "supplicate" |
+| ὤνησας κραδίην Διὸς … ἔπει … ἔργῳ (1.394–395) | "helped the heart of Zeus … by a word … by a deed" | "helped the heart of Zeus, whether by word or by deed" | "pleased", "gladdened" (each decides ὀνίνημι), "served"; κραδίη is "heart" |
+| πολλάκι γάρ σεο … ἄκουσα εὐχομένης (1.396–397) | "many a time … I heard you boasting" | "I have often heard you … boasting" | "praying" (εὔχομαι is "pray" in iliad-001, but with ἔφησθα it is "claim, boast"), "vowing" |
+| κελαινεφέϊ Κρονίωνι (1.397) | "the dark-clouded son of Cronus" | "the son of Cronus of the dark clouds" | Odyssey table’s κελαινεφής "dark-clouded" / "of the dark clouds", unchanged |
+| ξυνδῆσαι (1.399) | "to bind together" | "to bind" | "to fetter", "to chain", "to bind fast"; δέω is "bind" |
+| Βριάρεων · Αἰγαίων’ (1.403–404) | "Briareus" · "Aegaeon" | "Briareus" · "Aegaeon" | "Briareos", "Aigaion"; the Latinised forms, as for the other Greek names |
+| ἑκατόγχειρον (1.402) | "the hundred-handed one" | "the hundred-handed one" | "hundred-armed", "of the hundred hands", "Hundred-Hander" |
+| ὦχ’ (ὦκα, 1.402) | "quickly" | "quickly" | "swiftly" (reserved for καρπαλίμως and ὠκύς), "at once" (αὐτίκα) |
+| μακρὸν Ὄλυμπον (1.402) | "tall Olympus" | "tall Olympus" | "long" (the Odyssey’s literal line once has "long Olympus" beside "tall Olympus" elsewhere; "tall" is the form it ships in both layers), "great", "high" |
+| ὑπελύσαο δεσμῶν (1.401) | "set free from his bonds" | "set him free from his bonds" | "released", "loosed from under"; λύω keeps "release / set free" as in the table’s λύσαιτε |
+| κύδεϊ γαίων (1.405) | "exulting in glory" | "exulting in his glory" | "rejoicing in his fame", "proud of his glory"; κῦδος is "glory" as in the table’s κύδιστε "most glorious" |
+| τὸν καὶ ὑπέδεισαν μάκαρες θεοὶ οὐδ’ ἔτ’ ἔδησαν (1.406) | "him even the blessed gods feared, and no longer bound" | "even the blessed gods were afraid of him, and did not go on to bind Zeus" | "trembled before", "gave up", "dared not bind"; μάκαρες θεοί keeps "blessed gods" (+ note: the object, Zeus, is not in the Greek) |
+| ἐπὶ Τρώεσσιν ἀρῆξαι (1.408) | "to help the Trojans" | "to help the Trojans" | "to aid", "to side with"; ἀρήγω is "help" |
+| ἔλσαι … κτεινομένους (1.409–410) | "to hem in … being killed" | "to hem in … as they are killed" | "to drive back", "to press", "to pen"; εἴλω keeps "hem in" |
+| ἵνα πάντες ἐπαύρωνται βασιλῆος (1.410) | "so that all may have the benefit of their king" | "so that all of them may have the benefit of their king" | "enjoy", "taste", "reap the reward" (ἐπαυρίσκομαι is neutral in sense and bitter in tone; the note says so), "suffer from" |
+| ἣν ἄτην (1.412) | "his own bewilderment" | "his own bewilderment" | "blind folly" (turned down in the Odyssey table), "ruin", "madness", "delusion"; follows the Odyssey’s ἄτη "bewilderment" |
+| ὅ τ’ ἄριστον Ἀχαιῶν οὐδὲν ἔτισεν (1.412) | "that the best of the Achaeans he honoured not at all" | "that he paid no honour at all to the best of the Achaeans" | reused from iliad-003 (1.244, ἔτισας), person changed |

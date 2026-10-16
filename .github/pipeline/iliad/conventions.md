@@ -107,3 +107,54 @@ specifically a lasting, god-sized anger (Calchas uses it of Apollo at 1.75), and
 | ἑλικῶπις (1.98) | "quick-eyed" | "quick-eyed" (+ note: sense disputed) | "bright-eyed", "glancing-eyed", "dark-eyed", "with sparkling eyes" |
 | ἀπριάτην ἀνάποινον (1.99) | "unbought, unransomed" | "unbought and with no ransom" | "without price, without ransom"; ἀπρίατος keeps the Odyssey's "unbought" |
 | Ἀχαιοί · Δαναοί · Ἀργεῖοι | "Achaeans" · "Danaans" · "Argives" | "Achaeans" · "Danaans" · "Argives" | **departs from the Odyssey**, whose `i` renders Δαναοί as "Greeks": in the Iliad the three names alternate constantly and the reader should hear which one the poet used; "Greeks" is avoided in both layers |
+| εὐρὺ κρείων (Ἀγαμέμνων, 1.102; printed as two words) | "wide-ruling" | "wide-ruling" | "of wide dominion", "far-ruling", "mighty lord"; εὐρύ is the adverb "widely" and κρείων "ruling", and the Odyssey table's "lord" for κρείων is kept for κρείων alone |
+| κρείων Ἀγαμέμνων (1.130, reply-formula) | "lord Agamemnon" | "lord Agamemnon" | "king Agamemnon", "ruler"; follows the Odyssey table's κρείων "lord"; ἄναξ ἀνδρῶν stays "lord of men" and the two are told apart by context |
+| κάκ’ ὀσσόμενος (1.105) | "evils foreboding" | "foreboding evil" (+ note: look vs. forebode) | "with evil in his eyes", "darkly", "looking daggers" (each decides the open question); follows the Odyssey's κακὰ ὄσσετο "evils foresaw" |
+| μάντι κακῶν (1.106) | "Seer of evils" | "Seer of evils" | "prophet of doom", "prophet of ill"; μάντις stays "seer" |
+| τὸ κρήγυον (1.106) | "the welcome thing" | "anything welcome" | "good" (reserved for ἐσθλός, in the next line but one), "true", "favourable"; sense "good, useful" in LSJ, origin unknown |
+| γέρας (1.118 and on) | "prize" | "prize of honour" | "honour" alone, "reward", "share"; follows the Odyssey table's γέρας "prize" / "prize of honour" (11.175) and is kept the same at every occurrence |
+| ἀγέραστος (1.119) | "prizeless" | "without one" (+ the prize of honour just named, in the same sentence) | "unrewarded", "empty-handed", "dishonoured" (reserved for ἄτιμος) |
+| ποδάρκης δῖος Ἀχιλλεύς (1.121) | "swift-footed, heavenly Achilles" | "swift-footed, heavenly Achilles" (+ note: formation uncertain, probably πούς + ἀρκέω) | "fleet-footed" (reserved for ποδώκης), "swift of foot" (πόδας ὠκύς), "strong-footed", "sure-footed", "of the swift feet" |
+| Ἀτρεΐδη κύδιστε φιλοκτεανώτατε πάντων (1.122) | "Atreus’-son, most glorious, most possession-loving of all" | "Son of Atreus, most glorious, most covetous of all" | "greediest of all", "grasping", "most avaricious" (loses κτέανα "possessions"); κύδιστε keeps the Odyssey's "most glorious" (Ἀτρεΐδη κύδιστε, 11.397) |
+| μεγάθυμοι Ἀχαιοί (1.123) | "great-hearted Achaeans" | "great-hearted Achaeans" | "high-spirited", "stout-hearted"; follows the Odyssey's μεγάθυμος "great-hearted" |
+| ξυνήϊα (1.124) | "common goods" | "common goods" | "common property", "shared stores", "public goods" |
+| ἐπιτηδές (ἐρέτας ἐπιτηδὲς ἀγείρομεν, 1.142) | "suitably" | "suitable" (oarsmen) | "purposely", "on purpose" (the Odyssey’s rendering at 15.28, in an ambush; here the word qualifies a levy of rowers, "as needed"), "as required" |
+| τριπλῇ τετραπλῇ τ’ ἀποτείσομεν (1.128) | "threefold and fourfold will pay back" | "will repay you three times over and four" | "three and four times as much", "a threefold and fourfold ransom" |
+| ἐξαλαπάξαι (1.129) | "plunder utterly" | "plunder" | "sack" (kept for ἐκπέρθω / ἐκπέρσαι, 1.19 and 1.125), "storm", "destroy"; a departure from the Odyssey, which ships "sacked" for ἐξαλαπάξαι (3.85) and "laid waste" for ἀλαπάζω, because ἐκπέρθω and ἐξαλαπάξαι stand within five lines of each other here and the Iliad has already fixed "sack" for the first |
+| εὐτείχεος (πόλιν Τροίην εὐτείχεον, 1.129) | "well-walled" | "well-walled" | "strong-walled", "fine-walled", "fortified" |
+| θεοείκελ’ Ἀχιλλεῦ (1.131) | "god-resembling Achilles" | "Achilles, you who are like a god" | "godlike" (ἀντίθεος), "godlike in form" (θεοειδής), "equal to a god"; follows the Odyssey's θεοείκελος "god-resembling" / "who was like a god" |
+| κλέπτε νόῳ (1.132) | "steal in mind" | "try to cheat … in your mind" (+ note: the Greek gives no object) | "hide your thoughts", "play the thief", "steal a march"; the verb is κλέπτω "steal" and the note says the intent is not stated |
+| ἀναιδείην ἐπιειμένε (1.149) | "in shamelessness clothed" | "you clothed in shamelessness" | "wearing shamelessness like a cloak", "shameless to the bone"; ἐπιέννυμι keeps the Odyssey's "clothed in" (ἐπιειμένον, 9.214); ἀναιδής keeps "shameless" |
+| κερδαλεόφρων (1.149) | "gain-minded" | "with your mind on gain" | "shrewd" and "profit-seeking" (the Odyssey's rendering of κερδαλέος, which does not suit a charge of greed), "greedy", "cunning" (reserved for μῆτις) |
+| ἶφι μάχεσθαι (1.151) | "with force to fight" | "to fight … powerfully" | "to fight with all their might" ("mighty" is reserved for ἴφθιμος), "by force"; follows the table’s ἶφι ἀνάσσεις "powerfully rule" |
+| αἰχμητής (Τρώων … αἰχμητάων, 1.152) | "spearmen" | "spearmen" | "warriors", "spear-fighters", "lance-bearers" |
+| ἐριβώλακι βωτιανείρῃ (Φθίῃ, 1.155) | "rich-soiled, man-nourishing" | "rich-soiled nurse of men" | "fertile", "grain-bearing", "feeding heroes"; ἐριβῶλαξ keeps the Odyssey's "rich-soiled" |
+| σκιόεντα … ἠχήεσσα (οὔρεά τε σκιόεντα θάλασσά τε ἠχήεσσα, 1.157) | "the shadowy mountains … the resounding sea" | same | "echoing", "loud" (kept for πολυφλοίσβοιο "loud-roaring"); σκιόεις keeps the Odyssey’s "shadowy" |
+| κυνῶπα (vocative, 1.159) | "dog-faced one" | "you dog-face" | "shameless" in `i` (the Odyssey’s `i` for κυνῶπις, but ἀναιδές "shameless" stands one clause before), "bitch", "dog-eyed"; a departure from the Odyssey table, which pairs "dog-faced" in `l` with "shameless" in `i` |
+| μέγ’ ἀναιδές (1.158) | "greatly shameless" | "utterly shameless" | "great shameless one", "most brazen"; ἀναιδής of persons keeps "shameless" |
+| τιμὴν ἀρνύμενοι (1.159) | "winning honour" | "winning honour" (+ note: τιμή here is satisfaction owed) | "earning", "seeking revenge", "exacting redress" (each resolves τιμή) |
+| υἷες Ἀχαιῶν (1.162) | "the sons of the Achaeans" | "the sons of the Achaeans" | "the Achaean men", "the Achaeans’ sons", "the Achaean warriors" |
+| πολυάϊκος πολέμοιο (1.165) | "much-rushing war" | "onrushing war" (+ note: sense uncertain) | "tumultuous", "furious", "grim war" (each picks one guess) |
+| ὀλίγον τε φίλον τε (1.167) | "a small thing and a dear one" | "something small though dear to me" | "small but welcome", "little but my own" |
+| ἄφενος καὶ πλοῦτον (1.171) | "wealth and riches" | "wealth and riches" | "gain", "treasure", "plenty"; both nouns are wealth words and the translation keeps two |
+| ἀφύξειν (1.171, ἀφύσσω) | "draw up" | "go on piling up" | "scoop", "ladle", "gather in" |
+| τὸν δ’ ἠμείβετ’ ἔπειτα ἄναξ ἀνδρῶν Ἀγαμέμνων (1.172, whole-line reply-formula) | "Him then answered the lord of men, Agamemnon:" | "Then Agamemnon, lord of men, answered him:" | "answered" is kept for ἠμείβετο; follows the table’s τὸν/τὴν δ’ ἠμείβετ’ ἔπειτα and ἄναξ ἀνδρῶν Ἀγαμέμνων |
+| φεῦγε μάλ’ (1.173) | "Flee, by all means" | "Flee, then, by all means" | "Run away", "Be off", "Go on, run" |
+| οὐδ’ ὄθομαι κοτέοντος (1.181) | "nor do I heed you bearing a grudge" | "I take no heed of your resentment" | "I do not mind your anger"; ὄθομαι "heed", κοτέω "bear a grudge" (the Odyssey’s κοτεσσάμενος), κότος "resentment" |
+| Μυρμιδόνεσσιν ἄνασσε (1.180) | "rule over the Myrmidons" | "be lord over the Myrmidons" | "reign among", "command"; ἀνάσσω keeps "be lord" (ἄναξ "lord") |
+| Βρισηΐδα καλλιπάρῃον (1.184) | "Briseis, fair-cheeked" | "Briseis, fair-cheeked" | "fair-faced", "lovely-cheeked"; follows the Odyssey’s καλλιπάρῃος "fair-cheeked" (also used of Chryseis, 1.143) |
+| ἀντάξιον (1.136) | "of equal worth" | "of equal worth" | "a fair exchange", "equivalent" |
+| ἐκπαγλότατ’ ἀνδρῶν (1.146) | "most terrifying of all men" | "most terrifying of all men" | "most overpowering", "most formidable", "mightiest"; keeps the Odyssey’s ἔκπαγλος "terrifying" (10.448, 17.215) and now applies it to a man |
+| στήθεσσιν λασίοισι (1.189) | "in his shaggy chest" | "in his shaggy chest" | "hairy", "rough"; λάσιος "shaggy, hairy" (LSJ) |
+| διάνδιχα μερμήριξεν (1.189) | "in two ways was in doubt" | "was in doubt between two courses" | "pondered" (reserved for ὁρμαίνω, 1.193), "debated" (a speech-word), "was torn", "wavered" |
+| χόλον παύσειεν ἐρητύσειέ τε θυμόν (1.192) | "stop his anger and restrain his heart" | "stop his anger and restrain his heart" | "master his rage", "hold back his spirit"; χόλος keeps "anger", θυμός "heart" |
+| ἄμφω ὁμῶς θυμῷ φιλέουσά τε κηδομένη τε (1.196) | "both alike in heart loving and caring for" | "loving and caring for them both alike in her heart" | "equally dear to her", "cherishing"; φιλέω "love", κήδομαι "care for" |
+| ἕλε Πηλεΐωνα (1.197) | "took the son of Peleus" | "took the son of Peleus" | "seized Achilles", "grasped"; Πηλεΐων keeps the Odyssey’s "the son of Peleus" |
+| ξανθῆς κόμης (1.197) | "by the fair hair" | "by his fair hair" | "golden", "yellow", "red-gold" (ξανθός keeps the Odyssey’s "fair-haired") |
+| οἴῳ φαινομένη (1.198) | "appearing to him alone" | "appearing to him alone" | "visible to him only", "showing herself" |
+| θάμβησεν (1.199) | "was struck with wonder" | "was struck with wonder" | "was amazed" and "amazement" (reserved for τάφος), "was astonished"; keeps "wonder" for θάμβος / θαῦμα |
+| δεινὼ δέ οἱ ὄσσε φάανθεν (1.200) | "and dread her two eyes shone" | "and her eyes shone dread" (+ note: οἱ "her" or "to him") | "terrible", "fearsome" (αἰνός), "formidable"; δεινός keeps "dread" |
+| καί μιν φωνήσας ἔπεα πτερόεντα προσηύδα (1.201) | "and, lifting his voice, to her winged words he spoke:" | "and lifting his voice he spoke winged words to her:" | reused verbatim from odyssey-002 (the packet’s row); μιν is Athena here as in the Odyssey, so "to her" fits both |
+| τίπτ’ αὖτ’ … εἰλήλουθας; (1.202) | "Why again, child of aegis-bearing Zeus, have you come?" | "Why have you come now, child of aegis-bearing Zeus?" | "Why have you come again" in `i` (the poem has no earlier visit); αἰγίοχος keeps "aegis-bearing"; Διὸς τέκος "child of Zeus" as the Odyssey table’s τέκος "child" |
+| ᾗς ὑπεροπλίῃσι (1.205) | "by his own acts of arrogance" | "through his own arrogance" | "insolence" (reserved for ὕβρις), "overbearing pride"; the noun is built like the table’s ὑπεροπλίζομαι (sense uncertain) |
+| θυμὸν ὀλέσσῃ (1.205) | "may lose his life" | "may … lose his life" | "lose his heart", "lose his spirit"; θυμός of the life that leaves the body is "life", as in the Odyssey table |

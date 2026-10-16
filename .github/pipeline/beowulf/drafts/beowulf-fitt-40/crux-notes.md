@@ -1,0 +1,23 @@
+# beowulf-fitt-40 — guessed cruxes (line · word · choice · reason)
+
+- 2892 · subject of ‘Heht’ · Wīglāf (inference from the speech that closes the previous part) · the text names no one; flagged in the note. Also ‘tō hagan’ taken as the enclosure where the troop waits.
+- 2893 · ecgclif · ‘edge-cliff’ as printed · Kemble and four editors read ēgclif ‘water-cliff’; noted.
+- 2898 · sē ðe næs gerād · ‘he who rode the headland’ (næs ‘headland’ + gerād past of gerīdan) · the alternative næs = ne wæs with gerād adjective cannot be construed; guess.
+- 2900 · wilgeofa · ‘wish-giver’ (wil- from willa) · compound with no parallel to check; guess.
+- 2906–08 · eorl ofer ōðrum unlifigendum · the lifeless ones = Beowulf and the dragon · plural dative; guess.
+- 2909 · higemǣðum · ‘with mind-reverence’ / ‘with due reverence’ (Grein’s hygemǣð, queried) · MS hige mæðum; alternatives -mēðum (‘weariness’), -mēðe (‘weary-minded’, agrees with Wīglāf), Sedgefield ‘measure of ability’.
+- 2909–10 · lēofes ond lāðes · Beowulf and the dragon · referents inferred.
+- 2911 · under[ne] · read as MS ‘under’ = ‘among’ (+ dative) · Grein’s -ne would give an accusative form whose word could not be established from the lexica; guess. Also wīde weorðeð = ‘becomes widely known’ (guess), king = Beowulf.
+- 2916 · genǣgdon · ‘assailed’ · MS ge hnægdon (hnǣgan ‘bring low’); both give a near sense.
+- 2919 · ealdor dugoðe · dative ‘gave to the troop’ · dugoðe has the same ending in genitive and dative; other reading ‘chief of the troop’ noted, with a hint at 1210.
+- 2921 · Merewīoingas · ‘the Merovingians’, with ‘milts’ as subject and ungyfeðe ‘refused’ · -as is not a genitive plural ending, so the grammar is unclear; the MS has three words; ungyfeðe sense a guess.
+- 2926–27 · Gēata lēode / Gūð-Scilfingas · Geats subject, War-Scylfings object · endings do not decide; ‘ondslyht’ (2929) presupposes the Geats struck first.
+- 2929 · ondslyht · ‘counter-blow’ · MS hond slyht (‘hand-blow’).
+- 2930 · ābrēot brimwīsan · ‘cut down the sea-leader’ = Hæthcyn (guess); spelling ābrēat in other editors.
+- 2930 · āhredde · ‘rescued’ · MS bryda heorde; āheorde ‘freed’, āfeorde ‘removed’ also proposed.
+- 2931 · gomela · nominative, ‘the old man’ (Ongentheow) · Kemble gomele, Grein gomelan would agree with the woman.
+- 2935 · Hrefnesholt · taken as the same place as Hrefnawudu (2925) · not stated in the text.
+- 2936 · sinherge · ‘great host’ (sin- as intensifier) · meaning of the compound guessed.
+- 2940 · gētan · ‘kill’ · doubtful verb; Thorpe and Sedgefield g[r]ētan ‘greet’.
+- 2940–41 · sum[e] … galgtrēowu[m] [fuglum] · ‘some on gallows-trees, for birds, as sport’ · MS has only sum on galg treowu; additions by Thorpe and Kemble; the verb governing ‘sume’ is uncertain.
+- 2944 · gealdor · ‘sound, call’; se gōda = Higelac · inferred.

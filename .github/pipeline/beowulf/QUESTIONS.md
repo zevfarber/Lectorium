@@ -81,3 +81,6 @@ Cruces rendered from the lexica and flagged as guesses in the notes; full list i
 
 ## beowulf-fitt-39 (2026-10-16)
 Cruces rendered from the lexica and flagged as guesses in the notes; full list in `drafts/beowulf-fitt-39/crux-notes.md` (16 items). Nothing waits on a decision.
+
+## beowulf-fitt-40 (2026-10-16)
+Cruces rendered from the lexica and flagged as guesses in the notes; full list in `drafts/beowulf-fitt-40/crux-notes.md`. Nothing waits on a decision. Main ones: 2892 subject of Heht (taken as Wiglaf); 2911 under[ne] (read as "openly", MS under "among" the alternative; no lexicon reachable); 2921 Merewioingas milts ungyfeðe (grammar unclear); 2926-29 Geats as subject, Swedes as object; 2930 ābrēot brimwīsan (Hæðcen) and āhredde (MS bryda heorde); 2940-41 gētan (Thorpe, Sedgefield g[r]ētan).

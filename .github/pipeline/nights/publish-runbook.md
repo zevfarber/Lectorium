@@ -52,8 +52,14 @@ published. Do this, and nothing else differently:
    "label": "<the night's part label>"}` to the list in `gaps.json` at the repository root. That
    is how the owner's page `add-passage.html` finds the gap and how the reader places the passage
    he supplies (`owner-inserts/<id>.json`, written by him only — never by a run).
-3. **No advisory** for the left-out passage: with it gone there is nothing to warn about, and
-   readers are told nothing beyond the note above (owner's ruling, 2026-10-16).
+3. **Tell the reader at the opening what the night holds that they are not seeing.** Set the
+   story's `advisory` to one plain sentence (a string, no "more"): that this night contains a
+   passage, skipped for now, in which <whose tale> describes sexual acts involving children.
+   For Night 39: "This night contains a passage, skipped for now, in which the first slave's
+   tale describes sexual acts involving children." Nothing about policies, reasons beyond the
+   content, page references or plans. (Owner's ruling, 2026-10-16. When the owner supplies the
+   passage, the advisory becomes a warning of what the reader will see; that change is made in
+   an attended session, never by a run.)
 4. **Record it**: the range and reason in `QUESTIONS.md` under the night, and in the LOG line.
    The owner adds the passage himself later; never retry, translate or restore it.
 

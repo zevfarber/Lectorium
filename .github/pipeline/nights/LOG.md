@@ -158,3 +158,5 @@
 2026-10-14 (unattended, publishing run) · Night 39 (P320L14–P327L02, 149 lines) NOT published: explicit sexual content involving children in the slave Bukhayt's tale (P324L08–19); no translation drafted. Claim released; see QUESTIONS.md. Nothing else changed.
 
 2026-10-15 · publishing run · Night 39 again NOT published (same reason as 2026-10-14: explicit sexual content involving children, P324L08–19; no translation drafted). Pipeline is stalled on this night until the owner decides; see QUESTIONS.md. Nothing else changed.
+
+2026-10-16 · publishing run · Night 39 again NOT published (same reason: explicit sexual content involving children, P324L08–19; no translation drafted). Pipeline still stalled on this night awaiting the owner; see QUESTIONS.md. Nothing else changed.

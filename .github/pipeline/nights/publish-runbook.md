@@ -38,7 +38,11 @@ first slave's tale, which describes sexual acts involving children). The night i
 published. Do this, and nothing else differently:
 
 1. **Leave the passage out, and keep it small.** Choose the smallest run of whole archived lines
-   that covers what you will not translate. Add it to `omit.json` in this folder (create it as a
+   that covers what you will not translate — the whole of it. Before drafting, read on past the
+   explicit lines: if the following sentences still describe or allude to the same acts, the
+   range goes on to cover them too. (Night 39, 2026-10-16: the first range stopped two lines
+   short; the next sentence carried on the same material and its note explained it, and an
+   attended session had to widen the gap after publication.) Add it to `omit.json` in this folder (create it as a
    JSON list if it does not exist): `{"from": "P324L08", "to": "P324L19", "night": 39,
    "reason": "<one plain line>"}`. `check_slice.py` and `validate_night.py` skip those lines, so
    the rest of the night still gates exactly. Those lines get no story text, no translation, no

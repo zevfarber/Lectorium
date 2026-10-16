@@ -39,7 +39,9 @@ Rules that apply to every run, whatever the work:
    the source is damaged or unreadable, the conventions do not cover the case, or the content is
    something you will not translate — set aside the smallest piece you can (a few lines rather
    than the whole part, night or chapter), finish and publish the rest, and mark the gap for the
-   reader with a short note. Record in `QUESTIONS.md` exactly what was set aside, where and why.
+   reader with a short note (on the unit before the gap: `"gap": "<where>"`, and an entry
+   `{"id", "file", "gap", "label"}` in the root `gaps.json`, so the owner can fill it later from
+   `add-passage.html`; a run never writes `owner-inserts/`). Record in `QUESTIONS.md` exactly what was set aside, where and why.
    If the piece cannot be published at all without what is missing, mark it blocked: add its id
    and the reason, one per line, to `BLOCKED` in the work's folder, then go straight on to the
    next piece **in the same firing**. When finding the next part, pass over every id listed in

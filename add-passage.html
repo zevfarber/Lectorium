@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Add a passage · Lectorium</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&family=Noto+Serif+Hebrew&display=swap" rel="stylesheet">
+<style>
+  /* Owner's page for filling the gaps that unattended runs leave in a text (2026-10-16).
+     Lists the gaps from gaps.json, shows the text either side, takes the original and an
+     English rendering, and hands the finished file to GitHub's own editor to save. */
+  :root {
+    --bg: #faf7f2; --panel: #ffffff; --ink: #2b2620; --muted: #8a8175;
+    --accent: #7a5c3e; --accent-soft: #efe6da; --border: #e5ddd0; --en-ink: #5a6b7a;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font-family: Georgia, 'Times New Roman', 'Noto Serif', serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 60px; }
+  h1 { font-size: 1.5rem; margin: 0 0 6px; }
+  .lede { color: var(--muted); margin: 0 0 22px; }
+  label { display: block; font-family: system-ui, sans-serif; font-size: 14px; font-weight: 600; margin: 18px 0 6px; }
+  select, textarea, button { font: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; color: var(--ink); }
+  select { width: 100%; padding: 8px; font-family: system-ui, sans-serif; font-size: 15px; }
+  textarea { width: 100%; padding: 10px; min-height: 140px; line-height: 1.7; }
+  textarea.rtl { font-family: 'Noto Naskh Arabic', 'Noto Serif Hebrew', serif; font-size: 1.2rem; }
+  .ctx { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; margin-top: 8px; }
+  .ctx .k { font-family: system-ui, sans-serif; font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+  .ctx .en { color: var(--en-ink); margin: 4px 0 10px; }
+  .gapmark { text-align: center; color: var(--muted); font-family: system-ui, sans-serif; font-size: 13px; margin: 6px 0; }
+  button.go { margin-top: 22px; padding: 10px 18px; background: var(--accent); color: #fff; border-color: var(--accent);
+              font-family: system-ui, sans-serif; font-size: 15px; cursor: pointer; }
+  button.go:disabled { opacity: .5; cursor: default; }
+  .steps { margin-top: 20px; background: var(--accent-soft); border-radius: 8px; padding: 12px 16px; display: none; }
+  .steps ol { margin: 6px 0 0; padding-left: 22px; }
+  .steps li { margin: 6px 0; }
+  .muted { color: var(--muted); }
+  .msg { margin-top: 12px; font-family: system-ui, sans-serif; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Add a passage</h1>
+  <p class="lede">Where a text has a passage left out, you can supply it here: the original and your English. It appears in the reader at the gap, as a plain block.</p>
+
+  <label for="gapSel">Which gap</label>
+  <select id="gapSel"><option>Loading…</option></select>
+  <div id="ctx" class="ctx" style="display:none"></div>
+
+  <label for="orig">Original text</label>
+  <textarea id="orig" class="rtl" dir="auto" placeholder="Type or paste the original here"></textarea>
+
+  <label for="en">Your English</label>
+  <textarea id="en" placeholder="Your translation"></textarea>
+
+  <label for="note">Note (optional)</label>
+  <textarea id="note" style="min-height:70px" placeholder="Anything the reader should know, e.g. that this translation is yours"></textarea>
+
+  <button class="go" id="save" disabled>Save to the site</button>
+  <div class="msg" id="msg"></div>
+
+  <div class="steps" id="steps">
+    <b>Finish in GitHub (it has opened in a new tab):</b>
+    <ol id="stepList"></ol>
+    <p class="muted">The reader shows the passage a minute or two after you commit.</p>
+  </div>
+</main>
+<script>
+const REPO = 'zevfarber/Lectorium';
+const $ = id => document.getElementById(id);
+let GAPS = [], current = null, existing = null;
+
+function esc(s){ return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+async function getJSON(path){
+  try { const r = await fetch(path, { cache: 'no-cache' }); return r.ok ? await r.json() : null; }
+  catch(e) { return null; }
+}
+
+async function init(){
+  const g = await getJSON('gaps.json');
+  GAPS = Array.isArray(g) ? g : [];
+  const sel = $('gapSel');
+  if (!GAPS.length) { sel.innerHTML = '<option>No gaps at the moment</option>'; return; }
+  sel.innerHTML = '<option value="">Choose…</option>' + GAPS.map((x, i) =>
+    '<option value="' + i + '">' + esc((x.label || x.id) + ' — ' + x.gap) + '</option>').join('');
+  sel.onchange = () => pick(sel.value === '' ? null : GAPS[+sel.value]);
+}
+
+async function pick(gap){
+  current = gap; existing = null;
+  $('ctx').style.display = 'none'; $('save').disabled = true; $('steps').style.display = 'none'; $('msg').textContent = '';
+  $('orig').value = $('en').value = $('note').value = '';
+  if (!gap) return;
+  const story = await getJSON(gap.file || (gap.id + '.json'));
+  const sents = story && story.sentences || [];
+  const i = sents.findIndex(s => s && s.gap === gap.gap);
+  const before = i >= 0 ? sents[i] : null, after = i >= 0 ? sents[i + 1] : null;
+  if (story && story.rtl) $('orig').dir = 'rtl';
+  $('ctx').innerHTML =
+    (before ? '<div class="k">Before the gap</div><div class="en">' + esc(before.i || before.l || '') + '</div>' : '') +
+    '<div class="gapmark">— your passage goes here —</div>' +
+    (after ? '<div class="k">After the gap</div><div class="en">' + esc(after.i || after.l || '') + '</div>' : '');
+  $('ctx').style.display = '';
+  existing = await getJSON('owner-inserts/' + gap.id + '.json');
+  const prev = existing && existing.inserts && existing.inserts[gap.gap];
+  if (prev) {
+    $('orig').value = prev.ar || ''; $('en').value = prev.en || ''; $('note').value = prev.note || '';
+    $('msg').textContent = 'You have already saved this passage; saving again replaces it.';
+  }
+  $('save').disabled = false;
+}
+
+$('save').onclick = async () => {
+  if (!current) return;
+  const ar = $('orig').value.trim(), en = $('en').value.trim(), note = $('note').value.trim();
+  if (!ar && !en) { $('msg').textContent = 'Nothing to save yet.'; return; }
+  const doc = existing && existing.inserts ? existing : { id: current.id, inserts: {} };
+  doc.id = current.id;
+  doc.inserts[current.gap] = Object.assign({ ar, en }, note ? { note } : {});
+  const text = JSON.stringify(doc, null, 1) + '\n';
+  let copied = false;
+  try { await navigator.clipboard.writeText(text); copied = true; } catch(e) {}
+  const path = 'owner-inserts/' + current.id + '.json';
+  const url = existing
+    ? 'https://github.com/' + REPO + '/edit/main/' + path
+    : 'https://github.com/' + REPO + '/new/main?filename=' + encodeURIComponent(path);
+  window.open(url, '_blank');
+  $('stepList').innerHTML = existing
+    ? '<li>Click inside the big text box, press <b>Ctrl+A</b>, then <b>Ctrl+V</b>.</li>' +
+      '<li>Click <b>Commit changes…</b>, then <b>Commit changes</b> again in the box that appears.</li>'
+    : '<li>Click inside the big empty text box and press <b>Ctrl+V</b>.</li>' +
+      '<li>Click <b>Commit changes…</b>, then <b>Commit changes</b> again in the box that appears.</li>';
+  $('steps').style.display = 'block';
+  $('msg').textContent = copied ? '' : 'Your browser did not let the page copy the text. Tell Claude, and it will fix this page.';
+};
+
+init();
+</script>
+</body>
+</html>

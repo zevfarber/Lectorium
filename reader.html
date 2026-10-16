@@ -99,6 +99,10 @@
     .artifactFigs img { height: 170px; }
     .artifactFigs figure:only-child { max-width: 100%; }
   }
+  .ownerInsert { margin: 14px 0; padding: 10px 14px; border-left: 3px solid var(--muted); white-space: pre-wrap; }
+  .ownerInsert .oiOrig { font-size: 1.15em; line-height: 1.9; margin-bottom: 8px; }
+  .ownerInsert .oiEn { margin-bottom: 6px; }
+  .ownerInsert .oiNote { color: var(--muted); font-size: .9em; }
   #aboutBody .aboutAbout { margin-bottom: 10px; }
   #aboutBody .aboutSource { color: var(--muted); }
   #aboutBody .aboutLbl { font-weight: 600; }
@@ -4734,7 +4738,11 @@ function render(){
   $('rateWrap').style.display = tts ? '' : 'none';
   document.body.classList.toggle('allverse', story.sentences.every(x => x.v));
   const showLit = (mode === 'sbs' && enPref === 'lit');
-  story.sentences.forEach((s, i) => box.appendChild(buildSentEl(s, i, showLit)));
+  story.sentences.forEach((s, i) => {
+    box.appendChild(buildSentEl(s, i, showLit));
+    const ins = s.gap && story._inserts && story._inserts[s.gap];
+    if (ins && (ins.ar || ins.en)) box.appendChild(buildInsertEl(ins));
+  });
 }
 
 function escapeHtml(t){ const d = document.createElement('div'); d.textContent = t; return d.innerHTML; }
@@ -5726,8 +5734,42 @@ async function loadEntryByIndex(i){
     }
   }
   await ensureGlossary(s);
+  await loadOwnerInserts(s);
   await probeAudio(s);
   loadStory(s);
+}
+
+/* Owner's inserts (2026-10-16). Where a run left a passage out, the sentence before the gap
+   carries "gap": "<where>". The owner supplies the passage himself through add-passage.html,
+   which saves owner-inserts/<id>.json as {"id", "inserts": {"<where>": {ar, en, note}}}.
+   Shown as a plain block after that sentence; never part of story.sentences, so sentence
+   numbering (audio clips, alignment, progress) is untouched. */
+async function loadOwnerInserts(s){
+  if (!s || s._insertsTried || !(s.sentences || []).some(x => x && x.gap)) return;
+  s._insertsTried = true;
+  try {
+    const r = await fetch('owner-inserts/' + s.id + '.json', { cache: 'no-cache' });
+    const j = r.ok ? await r.json() : null;
+    if (j && j.inserts && typeof j.inserts === 'object') s._inserts = j.inserts;
+  } catch(e) {}
+}
+function buildInsertEl(ins){
+  const d = document.createElement('div');
+  d.className = 'ownerInsert';
+  if (ins.ar) {
+    const a = document.createElement('div');
+    a.className = 'oiOrig'; a.dir = story && story.rtl ? 'rtl' : 'auto';
+    a.textContent = ins.ar; d.appendChild(a);
+  }
+  if (ins.en) {
+    const e = document.createElement('div');
+    e.className = 'oiEn'; e.textContent = ins.en; d.appendChild(e);
+  }
+  if (ins.note) {
+    const n = document.createElement('div');
+    n.className = 'oiNote'; n.textContent = ins.note; d.appendChild(n);
+  }
+  return d;
 }
 $('workSel').onchange = () => {
   storyFilterText = '';

@@ -47,7 +47,12 @@ published. Do this, and nothing else differently:
    End the sense unit before the gap at the last line you keep, and start the next one at the
    first line after it; close the `l` and `i` of the unit before the gap with ` […]`, and give it
    an `n` saying that the edition continues here with a passage (printed page and lines) that
-   this reading edition leaves out.
+   this reading edition leaves out. Give that same unit `"gap": "<from>–<to>"` (the omit.json
+   range, e.g. `"P324L08–P324L19"`), and add `{"id": "nights-NN", "file": "nights-NN.json",
+   "gap": "<same>", "label": "<the night's part label>"}` to the list in `gaps.json` at the
+   repository root. That is how the owner's page `add-passage.html` finds the gap and how the
+   reader places the passage he supplies (`owner-inserts/<id>.json`, written by him only — never
+   by a run).
 3. **Put a content advisory at the opening**: the story's `advisory` field, `{"lede": "...",
    "more": "..."}`. The lede says in one plain sentence that one tale in this night includes a
    passage describing sexual acts involving children, and that the passage is left out of this

@@ -1,0 +1,953 @@
+{
+ "id": "nights-41",
+ "title": "حِكَايَةُ التَّاجِرِ وَأَوْلَادِهِ",
+ "titleEn": "The Merchant and His Sons, continued",
+ "language": "Arabic",
+ "langCode": "ar-XA",
+ "script": "arabic",
+ "rtl": true,
+ "trStyle": "line",
+ "audio": "audio/nights-41",
+ "work": "الف ليلة وليلة",
+ "workEn": "The Thousand and One Nights",
+ "part": "Night 41 · The Merchant and His Sons, continued",
+ "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 332–340 (Night 41, continuing directly from nights-40), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the editors' own transcription. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition's — and the alphabet button strips it back to the bare rasm exactly as Macnaghten prints it. Romanization is simplified IJMES. Spelling, including the edition's Middle Arabic forms and its occasional compositor's slips, is preserved unaltered; a few genuinely obscure or corrupt-looking forms are vocalized by evident sense and flagged in the notes rather than silently repaired. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized by machine, with word-by-word timing generated the same way.",
+ "about": "Night 41 follows Ghānim ibn Ayyūb and the drugged girl he has rescued from the chest. She is Qūt al-Qulūb, the Caliph's favourite, drugged by Zubayda's jealousy; she and Ghānim fall in love, but for months he refuses her, because what belongs to his master is forbidden to a servant. Meanwhile Zubayda, on an old woman's advice, stages the girl's death with a wooden effigy and a mock funeral, and the returning Caliph mourns at the grave. Shahrazād is overtaken by morning while he sits weeping. As with every printed edition of the Nights, this one belongs to the late Egyptian recension (ZER) — an eighteenth-century expansion padded out to a literal 1001 nights; no printed edition is a medieval text, and Macnaghten regularised the language here and there, so some Middle Arabic texture is a nineteenth-century retrofit.",
+ "glossaryFile": "nights-glossary.json",
+ "sentences": [
+  {
+   "t": "فَلَمَّا كَانَتِ اللَّيْلَةُ الْحَادِيَةُ وَالْأَرْبَعُونَ",
+   "tr": "fa-lammā kānati al-laylatu al-ḥādiyatu wa-al-arbaʿūna",
+   "l": "And-when came-to-be the-night, the-first-one and-the-forty,",
+   "i": "When the forty-first night came,"
+  },
+  {
+   "t": "قَالَتْ بَلَغَنِي أَيُّهَا الْمَلِكُ السَّعِيدُ أَنَّ غَانِمَ بْنَ أَيُّوبَ لَمَّا وَصَلَ بِا لصُّنْدُوقِ إِلَى دَارِهِ فَتَحَهُ وَأَخْرَجَ الصَّبِيَّةَ مِنْهُ",
+   "tr": "qālat balaghanī ayyuhā al-maliku al-saʿīdu anna Ghānima ibna Ayyūba lammā waṣala bi-al-ṣundūqi ilā dārihi fataḥahu wa-akhraja al-ṣabiyyata minhu",
+   "l": "She-said: It-has-reached-me, O the-king the-fortunate, that Ghānim son-of Ayyūb, when he-arrived with-the-chest at his-house, opened-it and-brought-out the-girl from-it,",
+   "i": "She said: It has reached me, O fortunate king, that when Ghānim son of Ayyūb reached his house with the chest, he opened it and brought the girl out of it.",
+   "n": "The print spaces the word as با لصندوق (“with the chest”); it is simply bi-al-ṣundūq, and the stray space is the edition’s. This is the opening formula of every night after the first: “It has reached me, O fortunate king, that …”."
+  },
+  {
+   "t": "فَنَظَرَتْ فَرَأَتْ هَذَا الْمَكَانَ مَحَلًّا مَلِيحًا مَفْرُوشًا بِالْبُسُطِ وَالْأَ لْوَانِ الْمُفَرِّحَةِ وَغَيْرِ ذَلِكَ",
+   "tr": "fa-naẓarat fa-raʾat hādhā al-makāna maḥallan malīḥan mafrūshan bi-al-busuṭi wa-al-alwāni al-mufarriḥati wa-ghayri dhālika",
+   "l": "And-she-looked and-saw this the-place, a-spot pleasant, spread with-the-carpets and-the-colours, the-gladdening-ones, and-other-than that,",
+   "i": "She looked about and saw that the place was a pleasant spot, spread with carpets and cheering colours and the like,",
+   "n": "The print splits والالوان as والا لوان; read wa-al-alwān, “and the colours”, here presumably coloured furnishings and stuffs. المفرحة (al-mufarriḥa, “gladdening, cheering”) agrees with the plural alwān."
+  },
+  {
+   "t": "وَرَأَتْ قُمَاشًا مَحْزُومًا وَأَحْمَالًا وَغَيْرَ ذَلِكَ فَعَلِمَتْ أَنَّهُ تَاجِرٌ كَبِيرٌ صَاحِبُ أَمْوَالٍ كَثِيرَةٍ",
+   "tr": "wa-raʾat qumāshan maḥzūman wa-aḥmālan wa-ghayra dhālika fa-ʿalimat annahu tājirun kabīrun ṣāḥibu amwālin kathīratin",
+   "l": "And-she-saw goods bundled-up and-loads and-other-than that, and-she-knew that-he a-merchant great, owner-of wealth abundant.",
+   "i": "She saw goods tied up in bundles, and loads, and more besides, and she knew that he was a great merchant, the master of abundant wealth."
+  },
+  {
+   "t": "فَكَشَفَتْ وَجْهَهَا وَنَظَرَتْ إِلَيْهِ فَإِذَا هُوَ شَابٌّ مَلِيحٌ",
+   "tr": "fa-kashafat wajhahā wa-naẓarat ilayhi fa-idhā huwa shābbun malīḥun",
+   "l": "So-she-uncovered her-face and-looked at-him, and-lo, he a-youth handsome.",
+   "i": "She uncovered her face and looked at him, and behold, he was a handsome young man."
+  },
+  {
+   "t": "فَلَمَّا رَأَتْهُ أَحَبَّتْهُ وَقَالَتْ لَهُ يَاسَيِّدِي هَاتِ لَنَا شَيْئًا نَأْكُلُهُ",
+   "tr": "fa-lammā raʾathu aḥabbathu wa-qālat lahu yāsayyidī hāti lanā shayʾan naʾkuluhu",
+   "l": "And-when she-saw-him she-loved-him, and-she-said to-him: O-my-master, bring for-us something we-eat-it.",
+   "i": "When she saw him she loved him, and she said to him: My lord, bring us something to eat.",
+   "n": "The print joins the vocative to the noun, ياسيدي (yā-sayyidī, “O my lord”); هات (hāti, “bring!”) is the everyday imperative of the verb “to bring”, with no classical twin of the same shape. In نأكله the relative clause has no linking word: “something (that) we eat”."
+  },
+  {
+   "t": "فَقَالَ لَهَا غَانِمٌ عَلَى الرَّأْسِ وَالْعَيْنِ",
+   "tr": "fa-qāla lahā Ghānimun ʿalā al-raʾsi wa-al-ʿayni",
+   "l": "And-he-said to-her, Ghānim: On the-head and-the-eye.",
+   "i": "Ghānim said to her: Upon my head and my eye!",
+   "n": "A stock phrase of ready compliance: whatever you ask is received on the head and the eye, the most honoured places. It is spoken here as a complete reply, with nothing to be supplied."
+  },
+  {
+   "t": "ثُمَّ إِنَّهُ نَزَلَ السُّوقَ وَاشْتَرَى خَرُوفًا مَشْوِيًّا وَصَحْنَ حَلَاوَةٍ وَأَخَذَ مَعَهُ نُقْلًا وَشَمْعًا وَأَخَذَ مَعَهُ نَبِيذًا وَمَا يَحْتَاجُ إِلَيْهِ الْأَمْرُ مِنْ آلَةِ الْمَشْرُوبِ وَالْمَشْمُومِ وَأَتَى إِلَى الْبَيْتِ وَدَخَلَ بِالْحَوَائِجِ",
+   "tr": "thumma innahu nazala al-sūqa wa-ishtarā kharūfan mashwiyyan wa-ṣaḥna ḥalāwatin wa-akhadha maʿahu nuqlan wa-shamʿan wa-akhadha maʿahu nabīdhan wa-mā yaḥtāju ilayhi al-amru min ālati al-mashrūbi wa-al-mashmūmi wa-atā ilā al-bayti wa-dakhala bi-al-ḥawāʾiji",
+   "l": "Then that-he went-down-to the-market and-bought a-lamb roasted and-a-dish-of sweetmeat, and-took with-him dessert-nuts and-wax-candles, and-took with-him date-wine, and-what needs to-it the-matter of the-apparatus of-the-drinkables and-the-smellables, and-came to the-house and-entered with-the-requirements.",
+   "i": "Then he went down to the market and bought a roast lamb and a dish of sweetmeats; he took with him nuts and candles, and wine, and whatever the occasion required in the way of drinking-vessels and fragrant flowers; and he came to the house and went in with the provisions.",
+   "n": "نقل (nuql) is the nuts and sweets set out to accompany drinking. المشموم (al-mashmūm, “the smelled things”) is the scented flowers and herbs of a drinking-party. ما يحتاج اليه الامر is “what the matter needs”, a loose way of saying whatever the occasion demanded."
+  },
+  {
+   "t": "فَلَمَّا رَأَتْهُ الْجَارِيَةُ ضَحِكَتْ وَقَبَّلَتْهُ وَاعْتَنَقَتْهُ وَأَخَذَتْ تُلَاطِفُهُ فَازْدَادَتْ عِنْدَهُ الْمَحَبَّةُ وَاحْتَوَتْ عَلَى قَلْبِهِ",
+   "tr": "fa-lammā raʾathu al-jāriyatu ḍaḥikat wa-qabbalathu wa-iʿtanaqathu wa-akhadhat tulāṭifuhu fa-izdādat ʿindahu al-maḥabbatu wa-iḥtawat ʿalā qalbihi",
+   "l": "And-when saw-him the-girl, she-laughed and-kissed-him and-embraced-him and-took to-caressing-him; so-increased with-him the-love and-took-possession over his-heart.",
+   "i": "When the girl saw him she laughed, and kissed him and embraced him and began to caress him; and his love for her grew, and took possession of his heart."
+  },
+  {
+   "t": "ثُمَّ إِنَّهُمَا أَكَلَا وَشَرِبَا إِلَى أَنْ أَقْبَلَ اللَّيْلُ وَقَدْ أَحَبَّ كُلٌّ مِنْهُمَا صَاحِبَهُ لِأَنَّهُمَا كَانَا فِي سِنٍّ وَاحِدٍ وَحُسْنٍ وَاحِدٍ",
+   "tr": "thumma innahumā akalā wa-sharibā ilā an aqbala al-laylu wa-qad aḥabba kullun minhumā ṣāḥibahu li-annahumā kānā fī sinnin wāḥidin wa-ḥusnin wāḥidin",
+   "l": "Then that-the-two they-two-ate and-drank until that came-on the-night; and-indeed loved each of-the-two-of-them his-companion, because-that-the-two they-two-were in an-age one and-a-beauty one.",
+   "i": "Then the two of them ate and drank until night came on; and each had come to love the other, for they were of one age and one beauty."
+  },
+  {
+   "t": "فَلَمَّا أَقْبَلَ اللَّيْلُ قَامَ غَانِمُ بْنُ أَيُّوبَ الْمُتَيَّمُ الْمَسْلُوبُ وَأَوْقَدَ الشُّمُوعَ وَالْقَنَادِيلَ فَأَضَاءَ الْمَكَانُ وَأَحْضَرَ آلَةَ الْمُدَامِ ثُمَّ نَصَبَ الْحَضْرَةَ",
+   "tr": "fa-lammā aqbala al-laylu qāma Ghānimu ibnu Ayyūba al-mutayyamu al-maslūbu wa-awqada al-shumūʿa wa-al-qanādīla fa-aḍāʾa al-makānu wa-aḥḍara ālata al-mudāmi thumma naṣaba al-ḥaḍrata",
+   "l": "And-when came-on the-night, rose Ghānim son-of Ayyūb, the-love-enthralled, the-despoiled, and-kindled the-candles and-the-lamps, so-shone the-place, and-brought-forth the-apparatus of-the-wine, then set-up the-presence.",
+   "i": "When night came on, Ghānim son of Ayyūb, the enthralled and plundered lover, rose and lit the candles and lamps, so that the place shone; then he brought out the wine-service and set up the drinking-party.",
+   "n": "المتيم المسلوب are two epithets in the manner of a title: “the love-enslaved, the despoiled”, that is, robbed of his heart and his wits by love. الحضرة (al-ḥaḍra, literally “the presence”) is here the company-and-spread of a drinking session; the sense is inferred from the context."
+  },
+  {
+   "t": "وَجَلَسَ هُوَ وَإِيَّاهَا وَصَارَ يَمْلَأً وَيَسْقِيهَا وَهِيَ تَمْلَأً وَتَسْقِيهِ وَهُمَا يَلْعَبَانِ وَيَضْحَكَانِ وَيُنْشِدَانِ الْأَشْعَارَ وَزَادَ بِهِمَا الْفَرَحُ وَتَعَلَّقَا بِحُبِّ بَعْضِهِمَا الْبَعْضِ فَسُبْحَانَ مُؤَلِّفِ الْقُلُوبِ",
+   "tr": "wa-jalasa huwa wa-iyyāhā wa-ṣāra yamlaʾu wa-yasqīhā wa-hiya tamlaʾu wa-tasqīhi wa-humā yalʿabāni wa-yaḍḥakāni wa-yunshidāni al-ashʿāra wa-zāda bihimā al-faraḥu wa-taʿallaqā bi-ḥubbi baʿḍihimā al-baʿḍi fa-subḥāna muʾallifi al-qulūbi",
+   "l": "And-he-sat, he and-her, and-became filling and-giving-her-to-drink, and-she filling and-giving-him-to-drink, and-the-two playing and-laughing and-reciting the-verses; and-grew upon-the-two the-joy, and-they-clung with-love-of each-other the-other; so glory-be to-the-joiner of-the-hearts.",
+   "i": "He sat down with her, and began to fill the cup and give her drink, while she filled and gave him drink; the two played and laughed and recited verses, and their gladness grew, and each clung to the other in love. Glory be to Him who joins hearts together!",
+   "n": "Two small points of the print. يملاً and تملاً carry a tanwīn sign over the final alif, which stands in for the hamza of يملأ (yamlaʾ, “fills”); we keep the printed mark and read yamlaʾu. And هو وإياها (“he and her”) uses the object-pronoun إياها for the second member of a pair, a Middle Arabic habit where classical would say هو وهي. بعضهما البعض (“each other, the other”) is likewise a doubled, colloquial-leaning way of saying “one another”."
+  },
+  {
+   "t": "وَلَمْ يَزَالَا كَذَلِكَ إِلَى قَرِيبِ الصُّبْحِ فَغَلَبَ عَلَيْهِمَا النَّوْمُ فَنَامَ كُلُّ وَاحِدٍ مِنْهُمَا فِي مَوْضِعِهِ إِلَى أَنْ أَصْبَحَ الصَّبَاحُ",
+   "tr": "wa-lam yazālā kadhālika ilā qarībi al-ṣubḥi fa-ghalaba ʿalayhimā al-nawmu fa-nāma kullu wāḥidin minhumā fī mawḍiʿihi ilā an aṣbaḥa al-ṣabāḥu",
+   "l": "And-not they-two-ceased thus until nearness-of the-dawn; so-overcame upon-the-two the-sleep, so-slept each one of-the-two in his-place, until that became-morning the-morning.",
+   "i": "And so they went on until near dawn, when sleep overcame them, and each slept where he lay until morning broke."
+  },
+  {
+   "t": "فَقَامَ غَانِمُ بْنُ أَيُّوبَ وَخَرَجَ إِلَى السُّوقِ وَاشْتَرَى مَا يَحْتَاجُ إِلَيْهِ مِنْ أَكْلٍ وَشُرْبٍ وَخُضْرَةٍ وَلَحْمٍ وَخَمْرٍ وَغَيْرِهِ وَأَتَى بِهِ إِلَى الدَّارِ",
+   "tr": "fa-qāma Ghānimu ibnu Ayyūba wa-kharaja ilā al-sūqi wa-ishtarā mā yaḥtāju ilayhi min aklin wa-shurbin wa-khuḍratin wa-laḥmin wa-khamrin wa-ghayrihi wa-atā bihi ilā al-dāri",
+   "l": "So-rose Ghānim son-of Ayyūb and-went-out to the-market and-bought what he-needs to-it, of food and-drink and-greens and-meat and-wine and-other-than-it, and-came with-it to the-house.",
+   "i": "Then Ghānim son of Ayyūb rose and went out to the market, and bought what he needed, food and drink, greens, meat, wine and the rest, and brought it to the house."
+  },
+  {
+   "t": "وَجَلَسَ هُوَ وَإِيَّاهَا يَأْكُلَانِ فَأَكَلَا حَتَّى اكْتَفَيَا",
+   "tr": "wa-jalasa huwa wa-iyyāhā yaʾkulāni fa-akalā ḥattā iktafayā",
+   "l": "And-he-sat, he and-her, eating, and-they-two-ate until they-two-were-sufficed.",
+   "i": "He sat down with her to eat, and they ate until they were sated."
+  },
+  {
+   "t": "وَبَعْدَ ذَلِكَ أَحْضَرَا الشَّرَابَ وَشَرِبَاوْ لَعِبَا مَعَ بَعْضِهِمَا حَتَّى احْمَرَّتْ وَجَنَاتُهُمَا وَاسْوَدَّتْ عُيُونُهُمَا",
+   "tr": "wa-baʿda dhālika aḥḍarā al-sharāba wa-sharibāw laʿibā maʿa baʿḍihimā ḥattā iḥmarrat wajanātuhumā wa-iswaddat ʿuyūnuhumā",
+   "l": "And-after that they-two-brought the-drink, and-they-two-drank, they-two-played with each-other until reddened their-cheeks and-blackened their-eyes.",
+   "i": "After that they brought out the wine, and drank and sported together, until their cheeks flushed red and their eyes grew dark.",
+   "n": "شرباو is printed with a stray final waw, as if شربوا (“they drank”) were half-written; since the subject is the pair, it is read as the dual sharibā, and the waw is left unread. The darkening of the eyes (اسودت عيونهما) is the dilated, heavy-lidded look of drink and desire."
+  },
+  {
+   "t": "وَاشْتَاقَتْ نَفْسُ غَانِمِ بْنِ أَيُّوبَ إِلَى تَقْبِيلِ الْجَارِيَةِ وَالنَّوْمِ مَعَهَا فَقَالَ لَهَا يَاسِتِّي إِئْذَنِي لِي بِقُبْلَةٍ مِنْ فِيكِ لَعَلَّهَا تُبَرِّدُ نَارَ قَلْبِي",
+   "tr": "wa-ishtāqat nafsu Ghānimi ibni Ayyūba ilā taqbīli al-jāriyati wa-al-nawmi maʿahā fa-qāla lahā yāsittī iʾdhanī lī bi-qublatin min fīki laʿallahā tubarridu nāra qalbī",
+   "l": "And-longed the-soul of-Ghānim son-of Ayyūb for the-kissing of-the-girl and-the-sleeping with-her; so-he-said to-her: O-my-lady, permit me a-kiss from your-mouth, perhaps-it will-cool the-fire of-my-heart.",
+   "i": "And Ghānim son of Ayyūb’s soul longed to kiss the girl and to lie with her; so he said to her: My lady, allow me a kiss from your mouth; perhaps it will cool the fire of my heart.",
+   "n": "ستي (sitt-ī, “my lady”) is the colloquial form of سيدتي, as elsewhere in this text; it is again joined to the vocative, ياستي. النوم معها, “sleeping with her”, is the plain euphemism for lying with her. The بِـ in ائذني لي بقبلة marks the thing permitted, “grant me (a kiss)”."
+  },
+  {
+   "t": "فَقَالَتْ يَا غَانِمُ اصْبِرْ حَتَّى أَسْكَرَ وَأَغِيبَ وَخُذْلَكَ مِنِّي قُبْلَةً سِرًّا بِحَيْثُ أَنِّي لَمْ أَشْعُرْ أَنَّكَ قَبَّلْتَنِي",
+   "tr": "fa-qālat yā Ghānimu iṣbir ḥattā askara wa-aghība wa-khudhlaka minnī qublatan sirran bi-ḥaythu annī lam ashʿur annaka qabbaltanī",
+   "l": "So-she-said: O Ghānim, be-patient until I-become-drunk and-lose-consciousness, and-take-for-you from-me a-kiss secretly, in-such-a-way that-I did-not perceive that-you kissed-me.",
+   "i": "She said: Ghānim, be patient until I am drunk and have lost my senses, and then take a kiss from me in secret, so that I shall not know that you have kissed me.",
+   "n": "وخذلك is printed as one word: khudh laka, “take for yourself”, with the لـ of benefit (“a kiss for you, from me”). بحيث أني لم أشعر is “in such a way that I did not perceive”, that is, so that I shall not have noticed."
+  },
+  {
+   "t": "ثُمَّ إِنَّهَا قَامَتْ عَلَيٰ قَدَمَيْهَا وَخَلَعَتْ بَعْضَ ثِيَابِهَا وَقَعَدَتْ فِي قَمِيصٍ رَفِيعٍ وَكُوفِيَّةِ حَرِيرٍ",
+   "tr": "thumma innahā qāmat ʿalā qadamayhā wa-khalaʿat baʿḍa thiyābihā wa-qaʿadat fī qamīṣin rafīʿin wa-kūfiyyati ḥarīrin",
+   "l": "Then that-she rose on her-two-feet and-took-off some-of her-clothes and-sat in a-shirt fine and-a-head-cloth-of silk.",
+   "i": "Then she rose to her feet, took off some of her clothes, and sat down in a thin shirt and a silk kerchief.",
+   "n": "The print writes علي with a final yāʾ for على (ʿalā, “on”); it is read ʿalā, and we mark the vowel with a dagger alif. كوفية (kūfiyya) is a head-cloth or cap; رفيع (“fine, thin”) says the shirt is slight."
+  },
+  {
+   "t": "فَعِنْدَ ذَلِكَ تَحَرَّكَتِ الشَّهْوَةُ عِنْدَ غَانِمٍ وَقَالَ لَهَا يَاسِتِّي أَمَا تَسْمَحِينَ لِي بِمَا قُلْتُ لَكِ عَلَيْهِ",
+   "tr": "fa-ʿinda dhālika taḥarrakati al-shahwatu ʿinda Ghānimin wa-qāla lahā yāsittī amā tasmaḥīna lī bi-mā qultu laki ʿalayhi",
+   "l": "And-at that, stirred the-desire at Ghānim, and-he-said to-her: O-my-lady, will-you-not grant me with-what I-said to-you upon-it?",
+   "i": "At that, desire stirred in Ghānim, and he said to her: My lady, will you not grant me what I asked of you?",
+   "n": "أما here is the question-word أَمَا, “will you not …?”. سمح بـ means “to grant, concede (something)”, so the بِـ in بما قلت لك عليه introduces the thing granted: “with what I said to you about it”."
+  },
+  {
+   "t": "فَقَالَتْ وَاللَّهِ لَا يَصِحُّ لَكَ ذَلِكَ لِأَنَّهُ مَكْتُوبٌ عَلَى دِكَّةِ لِبَاسِي قَوْلٌ صَعْبٌ",
+   "tr": "fa-qālat wa-Allāhi lā yaṣiḥḥu laka dhālika li-annahu maktūbun ʿalā dikkati libāsī qawlun ṣaʿbun",
+   "l": "So-she-said: By-God, not is-proper for-you that, because-that-it written upon the-cord of-my-drawers a-saying hard.",
+   "i": "She said: By God, that is not allowed you, for a hard saying is written on the cord of my drawers.",
+   "n": "دكة لباسي is obscure. The likeliest reading is dikka, a variant of تكة (tikka), the waist-cord of drawers, with لباس here “drawers, under-garment”; but دَكَّة (dakka, “bench, platform”) is the other candidate and fits less well. The saying itself is not given here."
+  },
+  {
+   "t": "فَانْكَسَرَ خَاطِرُ غَانِمِ بْنِ أَيُّوبَ وَزَادَ عِنْدَهُ الْغَرَامُ لَمَّا عَزَّ الْمَطْلُوبُ فَقَالَ شِعْرًا",
+   "tr": "fa-inkasara khāṭiru Ghānimi ibni Ayyūba wa-zāda ʿindahu al-gharāmu lammā ʿazza al-maṭlūbu fa-qāla shiʿran",
+   "l": "So-was-broken the-mind of-Ghānim son-of Ayyūb, and-increased with-him the-passion when was-hard-to-get the-sought-one, and-he-said poetry.",
+   "i": "Ghānim son of Ayyūb’s spirit was broken, and his passion grew the harder the thing he sought became to win; and he spoke verse.",
+   "n": "انكسر خاطره (“his mind was broken”) is the usual idiom for being crushed or disappointed. عز is “to be rare, precious, hard to come by”; the one sought has become out of reach."
+  },
+  {
+   "t": "سَأَلْتُ مَنْ أَمْرَضَنِي * فِي قُبْلَةٍ تَشْفِي الْأَلَمْ\nفَقَالَ لَا لَا اَبَدًا * قُلْتُ لَهُ نَعَمْ نَعَمْ\nفَقَالَ خُذْهَا بِالرِّضَى * مِنِّي حَلَالًا وَابْتَسَمْ\nفَقُلْتُ غَصْبًا قَالَ لَا * إِلَّا سَمَاحًا وَكَرَمْ\nفَلَا تَسَلْ عَمَّا جَرَى * وَاسْتَغْفِرِ اللَّهَ وَنَمْ\nفَظُنَّ مَا شِئْتَ بِنَا * فَالْحُبُّ يَحْلُو بِالتُّهَمْ\nوَلَا اُبَالِي بَعْدَ ذَا * إِنْ بَاحَ ضِدٌّ اَوْ كَتَمْ",
+   "tr": "saʾaltu man amraḍanī * fī qublatin tashfī al-alam\nfa-qāla lā lā abadan * qultu lahu naʿam naʿam\nfa-qāla khudhhā bi-al-riḍā * minnī ḥalālan wa-ibtasam\nfa-qultu ghaṣban qāla lā * illā samāḥan wa-karam\nfa-lā tasal ʿammā jarā * wa-istaghfiri Allāha wa-nam\nfa-ẓunna mā shiʾta binā * fa-al-ḥubbu yaḥlū bi-al-tuham\nwa-lā ubālī baʿda dhā * in bāḥa ḍiddun aw katam",
+   "l": "I-asked him-who made-me-ill * for a-kiss that-heals the-pain;\nso-he-said: No, no, never! * I-said to-him: Yes, yes.\nSo-he-said: Take-it with-the-consent * from-me, lawful, and-he-smiled.\nSo-I-said: By-force. He-said: No, * but in-leniency and-generosity.\nSo-do-not ask about-what passed, * and-seek-forgiveness-of God and-sleep;\nso-think what you-wish of-us, * for-the-love grows-sweet with-the-suspicions;\nand-I-do-not care after this * whether-divulged a-foe or concealed.",
+   "i": "I asked the one who made me sick, for a kiss to heal the pain;\nhe said, No, no, never! I said to him, Yes, yes.\nThen he said: Take it freely from me, lawfully; and he smiled.\nI said, By force. He said, No; only in kindness and generosity.\nSo ask no more of what passed, but beg God’s pardon and sleep;\nthink what you will of us, for love grows sweet through suspicion;\nand after this I care not whether an enemy blab or keep silent.",
+   "n": "The edition prints this poem pointed, and the pointing is kept as printed. The beloved is spoken of in the masculine, as is the convention of Arabic love-verse whatever the beloved’s sex. Each line rhymes in -am (the final vowel dropped in pause). In line 1 من (“him who”) has no antecedent: the lover asks his tormentor for the very kiss that would heal him. اَبَدًا and اُبَالِي are printed with the vowel but no hamza, as the edition has them. تهم (tuham, “suspicions”) is the plural of تهمة; the idea is that love is sweetened by being gossiped about.",
+   "v": true
+  },
+  {
+   "t": "ثُمَّ إِنَّهُ زَادَتْ مَحَبَّتُهُ وَانْطَلَقَتِ النِّيرَانُ فِي مُهْجَتِهِ",
+   "tr": "thumma innahu zādat maḥabbatuhu wa-inṭalaqati al-nīrānu fī muhjatihi",
+   "l": "Then that-he, increased his-love, and-were-loosed the-fires in his-heart's-blood,",
+   "i": "Then his love grew, and fires were loosed within his heart,"
+  },
+  {
+   "t": "هَذَا وَهِيَ تَتَمَنَّعُ مِنْهُ وَتَقُولُ لَهُ مَا لَكَ وُصُولٌ إِلَيَّ",
+   "tr": "hādhā wa-hiya tatamannaʿu minhu wa-taqūlu lahu mā laka wuṣūlun ilayya",
+   "l": "This, and-she holding-herself-aloof from-him and-saying to-him: Not for-you a-reaching to-me.",
+   "i": "and all the while she held herself aloof from him, saying to him: You have no way to me.",
+   "n": "ما لك وصول إلي is colloquial: مَا + لَكَ + a noun means “there is no … for you”; so “you have no access to me.” تتمنع (tatamannaʿu) “holds herself out of reach”."
+  },
+  {
+   "t": "وَلَمْ يَزَالَا فِي عِشْقِهِمَا وَمُنَادَ مَتِهِمَا وَغَانِمُ بْنُ أَيُّوبَ غَرِيقٌ فِي بَحْرِ الْهُيَامِ",
+   "tr": "wa-lam yazālā fī ʿishqihimā wa-munāda matihimā wa-Ghānimu ibnu Ayyūba gharīqun fī baḥri al-huyāmi",
+   "l": "And-not they-two-ceased in their-two-love and-their-two-carousing, and-Ghānim son-of Ayyūb drowned in the-sea of-the-passion,",
+   "i": "And so they went on in their love and their companionship of the cup, with Ghānim son of Ayyūb drowned in a sea of passion,",
+   "n": "ومناد متهما is printed as two pieces; it is most likely one word, مُنَادَمَتِهِمَا (munādamatihimā), “their drinking-companionship”, and I have pointed it so. هُيَام (huyām) is a love-madness, a thirst that cannot be slaked."
+  },
+  {
+   "t": "وَأَمَّا هِيَ فَقَدِ ازْدَادَتْ قَسْوَةً وَاحْتِشَامًا إِلَى أَنْ دَخَلَ اللَّيْلُ بِالظَّلَامِ وَأَرْخَى عَلَيْهِمَا ذَيْلَ الْمَنَامِ",
+   "tr": "wa-ammā hiya fa-qadi izdādat qaswatan wa-iḥtishāman ilā an dakhala al-laylu bi-al-ẓalāmi wa-arkhā ʿalayhimā dhayla al-manāmi",
+   "l": "And-as-for her, then-indeed she-increased in-harshness and-reserve, until entered the-night with-the-darkness and-let-down upon-them-two the-hem of-the-sleep.",
+   "i": "But as for her, she grew only more distant and more guarded, until night came in with its darkness and let fall over them the hem of sleep.",
+   "n": "The two clauses end in rhyme (ẓalām / manām), as the sajʿ of the storyteller’s night formula often does."
+  },
+  {
+   "t": "فَقَامَ غَانِمٌ وَأَشْعَلَ الْقَنَادِيلَ وَأَوْقَدَ الشُّمُوعَ وَجَدَّدَ الْمَقَامَ وَالْحَضْرَةَ",
+   "tr": "fa-qāma Ghānimun wa-ashʿala al-qanādīla wa-awqada al-shumūʿa wa-jaddada al-maqāma wa-al-ḥaḍrata",
+   "l": "So-rose Ghānim and-kindled the-lamps and-lit the-candles and-renewed the-station and-the-presence.",
+   "i": "So Ghānim rose, lit the lamps and kindled the candles, and freshened the room and the company.",
+   "n": "المقام والحضرة, “the station and the presence”, is a pair of near-synonyms for the place where one sits in company; it means he made the chamber ready."
+  },
+  {
+   "t": "وَأَخَذَ رِجْلَيْهَا وَقَبَّلَهُمَا فَوَجَدَ هُمَا مِثْلَ الزُّبْدِ الطَّرِيِّ",
+   "tr": "wa-akhadha rijlayhā wa-qabbalahumā fa-wajada humā mithla al-zubdi al-ṭariyyi",
+   "l": "And-took her-two-feet and-kissed-them-two, and-found them-two like the-butter the-fresh.",
+   "i": "He took her feet and kissed them, and found them like fresh butter.",
+   "n": "فوجد هما is printed with a space; it is the one word فَوَجَدَهُمَا, “and he found them (both)”."
+  },
+  {
+   "t": "فَمَرَّغَ وَجْهَهُ عَلَيْهِمَا وَقَالَ",
+   "tr": "fa-marragha wajhahu ʿalayhimā wa-qāla",
+   "l": "And-he-rubbed his-face upon-them-two and-said:",
+   "i": "Then he rubbed his face against them and said:"
+  },
+  {
+   "t": "يَا سِتِّي ارْحَمِي أَسِيرَ هَوَاكِ وَقَتِيلَ عَيْنَيْكِ وَكُنْتُ سَلِيمَ الْقَلْبِ لَوْلَاكِ",
+   "tr": "yā sittī irḥamī asīra hawāki wa-qatīla ʿaynayki wa-kuntu salīma al-qalbi lawlāki",
+   "l": "O my-lady, have-mercy on-the-captive of-your-love and-the-slain of-your-two-eyes, and-I-was sound of-the-heart but-for-you.",
+   "i": "My lady, have mercy on the captive of your love, the slain of your eyes, who was whole of heart until you came.",
+   "n": "سليم القلب “sound of heart” means untouched by love’s sickness; لولاك is “were it not for you”."
+  },
+  {
+   "t": "ثُمَّ إِنَّهُ بَكَى قَلِيلًا فَقَالَتْ لَهُ",
+   "tr": "thumma innahu bakā qalīlan fa-qālat lahu",
+   "l": "Then that-he wept a-little, and-she-said to-him:",
+   "i": "Then he wept a little, and she said to him:"
+  },
+  {
+   "t": "يَا سَيِّدِي وَنُورَ عَيْنِي أَنَا وَاللَّهِ لَكَ عَاشِقَةٌ وَبِكَ وَاثِقَةٌ وَلَكِنْ أَنَا أَعْرِفُ أَنَّكَ مَا تَصِلُ إِلَيَّ",
+   "tr": "yā sayyidī wa-nūra ʿaynī anā wa-Allāhi laka ʿāshiqatun wa-bika wāthiqatun wa-lākin anā aʿrifu annaka mā taṣilu ilayya",
+   "l": "O my-master and-light of-my-eye, I, and-by-God, for-you a-lover and-in-you a-truster, but I, I-know that-you not you-will-reach to-me.",
+   "i": "My master, light of my eyes, by God I love you and trust you; but I know that you will not come to me.",
+   "n": "ʿāshiqatun / wāthiqatun rhyme. The slave-girl’s Arabic is colloquial: أنا … عاشقة “I am a lover” with the pronoun placed first for emphasis, and ما تصل “you will not reach”, with plain ما as the negative."
+  },
+  {
+   "t": "فَقَالَ لَهَا وَمَا الْمَانِعُ فَقَالَتْ لَهُ أَنَا فِي هَذِهِ اللَّيْلَةِ أَحْكِي لَكَ قِصَّتِي حَتَّى أَنَّكَ تَقْبَلُ مَعْذِرَتِي",
+   "tr": "fa-qāla lahā wa-mā al-māniʿu fa-qālat lahu anā fī hādhihi al-laylati aḥkī laka qiṣṣatī ḥattā annaka taqbalu maʿdhiratī",
+   "l": "So-he-said to-her: And-what the-preventer? So-she-said to-him: I, in this the-night, I-tell to-you my-story, so-that-you you-accept my-excuse.",
+   "i": "He said to her, And what prevents it? She said to him: This very night I will tell you my story, so that you may accept my excuse."
+  },
+  {
+   "t": "ثُمَّ إِنَّهَا تَرَامَتْ عَلَيْهِ وَطَوَّقَتْ عَلَى رَقَبَتِهِ بِيَدِهَا وَقَبَّلَتْهُ وَقَدْ أَخَذَتْ بِخَاطِرِهِ وَأَوْعَدَتْهُ بِالْوِصَالِ",
+   "tr": "thumma innahā tarāmat ʿalayhi wa-ṭawwaqat ʿalā raqabatihi bi-yadihā wa-qabbalathu wa-qad akhadhat bi-khāṭirihi wa-awʿadathu bi-al-wiṣāli",
+   "l": "Then that-she cast-herself upon-him and-encircled upon his-neck with-her-hand and-kissed-him, and-indeed she-had-taken with-his-mind and-promised-him with-the-union.",
+   "i": "Then she threw herself upon him, put her arm about his neck, and kissed him; she won his heart with kindness and promised him union.",
+   "n": "أخذت بخاطره “she took (him) by his mind” is “she soothed him, won him over”."
+  },
+  {
+   "t": "وَ لَمْ يَزَالَا يَلْعَبَانِ وَيَضْحَكَانِ حَتَّى تَمَكَّنَ حُبُّ بَعْضِهِمَا مِنْ بَعْضٍ",
+   "tr": "wa lam yazālā yalʿabāni wa-yaḍḥakāni ḥattā tamakkana ḥubbu baʿḍihimā min baʿḍin",
+   "l": "And not they-two-ceased playing and-laughing until took-hold the-love of-each-of-them of one-another.",
+   "i": "And they did not cease from play and laughter until each one’s love for the other had taken firm hold.",
+   "n": "The printed و is stranded at the end of the previous line, so there is a space before لم."
+  },
+  {
+   "t": "وَلَمْ يَزَالَا عَلَى ذَلِكَ الْحَالِ وَهُمَا فِي كُلِّ لَيْلَةٍ يَنَامَانِ عَلَى فِرَاشٍ وَاحِدٍ وَكُلَّمَا طَلَبَ مِنْهَا الْوِصَالَ تَتَعَزَّزُ مِنْهُ مُدَّةَ شَهْرٍ كَامِلٍ",
+   "tr": "wa-lam yazālā ʿalā dhālika al-ḥāli wa-humā fī kulli laylatin yanāmāni ʿalā firāshin wāḥidin wa-kullamā ṭalaba minhā al-wiṣāla tataʿazzazu minhu muddata shahrin kāmilin",
+   "l": "And-not they-two-ceased upon that the-state, and-they-two in every night sleeping upon a-bed one, and-every-time he-asked of-her the-union she-held-herself-dear from-him for-a-period of-a-month complete.",
+   "i": "So they remained, sleeping every night on a single bed; and each time he asked her for union she kept herself from him, for a whole month together.",
+   "n": "تتعزز “she makes herself hard to get” is in the present tense for a repeated past action, a colloquial narrative habit that recurs in this text. The dual sakrānāni (below) is likewise colloquial."
+  },
+  {
+   "t": "وَقَدْ تَمَكَّنَ حُبُّ كُلِّ وَاحِدٍ مِنْهُمَا مِنْ قَلْبِ الْآخَرِ وَلَا بَقِيَ لَهُمَا صَبْرٌ عَنْ بَعْضِهِمَا",
+   "tr": "wa-qad tamakkana ḥubbu kulli wāḥidin minhumā min qalbi al-ākhari wa-lā baqiya lahumā ṣabrun ʿan baʿḍihimā",
+   "l": "And-indeed took-hold the-love of-each one of-them-two of the-heart of-the-other, and-not remained for-them-two patience away-from each-other.",
+   "i": "By now the love of each had taken hold of the other’s heart, and neither had patience left to be apart from the other."
+  },
+  {
+   "t": "إِلَى أَنْ كَانَتْ لَيْلَةٌ مِنْ بَعْضِ اللَّيَالِي وَهُوَرَا قِدٌ وَإِيَّاهَا وَالِاثْنَانِ سَكْرَانَانِ",
+   "tr": "ilā an kānat laylatun min baʿḍi al-layālī wa-huwarā qidun wa-iyyāhā wa-al-ithnāni sakrānāni",
+   "l": "Until it-was a-night of some the-nights, and-he lying (printed: huwarā qidun) and-her, and-the-two drunk.",
+   "i": "Until, on one of those nights, he lay down beside her, the two of them drunk with wine.",
+   "n": "هورا قد is how the print reads; I take it as هو راقد “he (was) lying down”, with the word split in the wrong place, and وإياها “and her” (with her). It is a guess at a damaged spot. سكرانان is a colloquial dual of سَكْرَان “drunk”; Classical has no such dual."
+  },
+  {
+   "t": "فَمَدَّ يَدَهُ عَلَى جَسَدِهَا وَمَلَّسَ",
+   "tr": "fa-madda yadahu ʿalā jasadihā wa-mallasa",
+   "l": "So-he-stretched his-hand upon her-body and-stroked.",
+   "i": "So he stretched his hand over her body and stroked her.",
+   "n": "ملس (mallasa) is colloquial: “to smooth, stroke”."
+  },
+  {
+   "t": "ثُمَّ مَرَّبِيَدِهِ عَلَى بَطْنِهَا وَنَزَلَ بِهَا إِلَى سُرَّتِهَا",
+   "tr": "thumma marra bi-yadihi ʿalā baṭnihā wa-nazala bi-hā ilā surratihā",
+   "l": "Then he-passed with-his-hand over her-belly and-went-down with-it to her-navel.",
+   "i": "Then he passed his hand over her belly and brought it down to her navel.",
+   "n": "مربيده is printed as one word for مرّ بيده. نزل بها “went down with it” has ها as the hand (يد is feminine)."
+  },
+  {
+   "t": "فَانْتَبَهَتْ وَقَعَدَتْ عَلَى حَيْلِهَا وَتَعَهَّدَتِ اللِّبَاسَ فَوَجَدَتِ اللِّبَاسَ مَرْبُوطًا فَنَامَتْ ثَانِيًا",
+   "tr": "fa-intabahat wa-qaʿadat ʿalā ḥaylihā wa-taʿahhadati al-libāsa fa-wajadati al-libāsa marbūṭan fa-nāmat thāniyan",
+   "l": "So-she-woke and-sat upon her-strength, and-checked the-garment, and-found the-garment tied, so-she-slept second-time.",
+   "i": "She woke and sat up, and felt over her drawers, and found them tied fast; so she lay down to sleep again.",
+   "n": "قعدت على حيلها is colloquial, “she sat up on her own strength, i.e. upright”. اللباس here is the drawers, the garment held by a tie."
+  },
+  {
+   "t": "فَمَلَّسَ عَلَيْهَا بِيَدِهِ وَنَزَلَ بِهَا إِلَى سِرْ وَالِهَا وَ دِكَّتِهَا",
+   "tr": "fa-mallasa ʿalayhā bi-yadihi wa-nazala bi-hā ilā sir wālihā wa-dikkatihā",
+   "l": "So-he-stroked upon-her with-his-hand and-went-down with-it to her-drawers and her-waist-casing.",
+   "i": "Again he stroked her with his hand and brought it down to her drawers and the casing of their cord,",
+   "n": "سر والها is printed as two words; I read it as one, سِرْوَالِهَا (sirwāl, “drawers, trousers”), and then دِكَّة (dikka), the hem or casing through which the drawstring runs. This is my reading of a split spelling, not something the print marks."
+  },
+  {
+   "t": "وَجَذَبَهَا فَانْتَبَهَتْ وَقَعَدَتْ عَلَى حَيْلِهَا وَقَعَدَ غَانِمٌ إِلَى جَانِبِهَا",
+   "tr": "wa-jadhabahā fa-intabahat wa-qaʿadat ʿalā ḥaylihā wa-qaʿada Ghānimun ilā jānibihā",
+   "l": "and-pulled-it, so-she-woke and-sat upon her-strength, and-sat Ghānim to her-side.",
+   "i": "and pulled at the cord. She woke and sat up, and Ghānim sat down beside her.",
+   "n": "The ها of جذبها can be the cord or the girl; I have taken it as the cord, but “and pulled her” is also possible."
+  },
+  {
+   "t": "فَقَالَتْ لَهُ مَا الَّذِي تُرِيدُ فَقَالَ لَهَا مُرَادِي أَنَامُ مَعَكِ وَاتِّصَافِي أَنَا وَأَنْتِ",
+   "tr": "fa-qālat lahu mā alladhī turīdu fa-qāla lahā murādī anāmu maʿaki wa-ittiṣāfī anā wa-anti",
+   "l": "So-she-said to-him: What the-which you-want? So-he-said to-her: My-wish, I-sleep with-you, and-my-union (?), I and-you.",
+   "i": "She said to him, What do you want? He said to her, My wish is to lie with you, and that you and I be as one.",
+   "n": "مرادي أنام معك “my wish: I sleep with you” has no أن before the verb; colloquial. واتصافي is obscure. I take it as اتِّصَاف, “being joined, being at one”, but possibly it stands for a different word, such as تَصَافِي “making peace”."
+  },
+  {
+   "t": "فَعِنْدَ ذَلِكَ قَالَتْ لَهُ",
+   "tr": "fa-ʿinda dhālika qālat lahu",
+   "l": "So-at that she-said to-him:",
+   "i": "At that she said to him:"
+  },
+  {
+   "t": "أَنَا الْآنَّ أُوَضِّحُ لَكَ أَمْرِي حَتَّى أَنَّكَ تَعْرِفُ قَدْرِي وَيَنْكَشِفُ لَكَ سِرِّي وَيَظْهَرُ لَكَ عُذْرِي",
+   "tr": "anā al-āna uwaḍḍiḥu laka amrī ḥattā annaka taʿrifu qadrī wa-yankashifu laka sirrī wa-yaẓharu laka ʿudhrī",
+   "l": "I now I-make-clear to-you my-affair, so-that-you you-know my-worth, and-is-uncovered to-you my-secret, and-appears to-you my-excuse.",
+   "i": "Now I will make my affair plain to you, so that you may know my rank, my secret may be laid bare to you, and my excuse may appear.",
+   "n": "The print marks الانّ with a shadda on the nūn, which I keep. Rhyme again: qadrī / sirrī / ʿudhrī."
+  },
+  {
+   "t": "قَالَ لَهَا نَعَمْ",
+   "tr": "qāla lahā naʿam",
+   "l": "He-said to-her: Yes.",
+   "i": "He said to her, Yes."
+  },
+  {
+   "t": "فَعِنْدَ ذَلِكَ شَقَّتْ ذَيْلَ قَمِيصِهَا وَمَدَّتْ يَدَهَا إِلَى تِكَّةِ لِبَاسِهَا وَقَالَتْ لَهُ",
+   "tr": "fa-ʿinda dhālika shaqqat dhayla qamīṣihā wa-maddat yadahā ilā tikkati libāsihā wa-qālat lahu",
+   "l": "So-at that she-split the-hem of-her-shift and-stretched her-hand to the-cord of-her-drawers and-said to-him:",
+   "i": "At that she parted the hem of her shift, reached her hand to the cord of her drawers, and said to him:"
+  },
+  {
+   "t": "يَاسَيِّدِي أَتَرَا الَّذِي عَلَى طَرَفِ هَذِهِ التِكَّةِ",
+   "tr": "yāsayyidī atarā alladhī ʿalā ṭarafi hādhihi al-tikkati",
+   "l": "O-my-master, do-you-see the-which upon the-end of-this the-cord?",
+   "i": "My master, do you see what is on the end of this cord?",
+   "n": "ياسيدي is printed joined. اترا stands for أَتَرَى “do you see?”, spelled with a final alif."
+  },
+  {
+   "t": "فَأَخَذَهَا غَانِمٌ فِي يَدِهِ وَنَظَرَهَا فَوَجَدَهَا مَرْقُومًا عَلَيْهَا بِالذَّهَبِ",
+   "tr": "fa-akhadhahā Ghānimun fī yadihi wa-naẓarahā fa-wajadahā marqūman ʿalayhā bi-al-dhahabi",
+   "l": "So-took-it Ghānim in his-hand and-looked-at-it and-found-it inscribed upon-it with-the-gold:",
+   "i": "So Ghānim took it in his hand and looked at it, and found it embroidered in gold with these words:",
+   "n": "The participle مرقوما is masculine though the cord (تكة) is feminine; a colloquial lapse the print keeps."
+  },
+  {
+   "t": "أَنَالَكَ وَأَنْتَ لِي يَا ابْنَ عَمِّ النَّبِيِّ",
+   "tr": "anā laka wa-anta lī yā ibna ʿammi al-nabiyyi",
+   "l": "I for-you and-you for-me, O son of-the-uncle of-the-Prophet.",
+   "i": "I am yours and you are mine, O cousin of the Prophet.",
+   "n": "انالك is printed as one word: أَنَا لَكَ. “Cousin of the Prophet” is a way of addressing a caliph of the ʿAbbāsid line, who descend from the Prophet’s uncle ʿAbbās; the legend names Hārūn al-Rashīd."
+  },
+  {
+   "t": "فَلَمَّا قَرَأَهَا نَشَرَيَدَهُ وَقَالَ لَهَا",
+   "tr": "fa-lammā qaraʾahā nashara yadahu wa-qāla lahā",
+   "l": "So-when he-read-it, he-spread his-hand, and-said to-her:",
+   "i": "When he had read it, he spread out his hand, and said to her:",
+   "n": "نشريده is printed joined and is not certain. I read نَشَرَ يَدَهُ “he spread out his hand”, a gesture of dismay or of being undone; the sense of the whole may be that he recoiled."
+  },
+  {
+   "t": "اكْشِفِي لِي عَنْ خَبَرِكِ",
+   "tr": "ikshifī lī ʿan khabariki",
+   "l": "Uncover for-me about your-news.",
+   "i": "Tell me your news."
+  },
+  {
+   "t": "قَالَتْ نَعَمْ اعْلَمْ أَنَّنِي مَحْظِيَّةُ أَمِيرِالْمُؤْمِنِينَ وَاسْمِي قُوتُ الْقُلُوبِ",
+   "tr": "qālat naʿam iʿlam annanī maḥẓiyyatu amīri al-muʾminīna wa-ismī Qūtu al-Qulūbi",
+   "l": "She-said: Yes. Know that-I favourite of-the-commander of-the-believers, and-my-name Nourishment-of-the-Hearts.",
+   "i": "She said, Yes. Know that I am the favourite of the Commander of the Faithful, and my name is Qūt al-Qulūb, Sustenance of Hearts.",
+   "n": "أميرالمؤمنين is printed as a single word. The name قوت القلوب means “the food of hearts”."
+  },
+  {
+   "t": "وَإِنَّ أَمِيرَالْمُؤْمِنِينَ لَمَّا أَنْ رَبَّانِي فِي قَصْرِهِ وَكَبِرْتُ وَنَظَرَ الْخَلِيفَةُ إِلَى صِفَاتِي وَمَا أَعْطَانِي رَبِّي مِنَ الْحُسْنِ وَالْجَمَالِ",
+   "tr": "wa-inna amīra al-muʾminīna lammā an rabbānī fī qaṣrihi wa-kabirtu wa-naẓara al-khalīfatu ilā ṣifātī wa-mā aʿṭānī rabbī mina al-ḥusni wa-al-jamāli",
+   "l": "And-indeed the-commander of-the-believers, when that he-reared-me in his-palace and-I-grew-up, and-looked the-caliph at my-qualities and-what gave-me my-Lord of-the-beauty and-the-comeliness,",
+   "i": "The Commander of the Faithful, when he had raised me in his palace and I grew up, looked upon my qualities and upon the beauty and loveliness my Lord had given me,",
+   "n": "لما ان … is the colloquial “when”; the extra ان after لما adds nothing."
+  },
+  {
+   "t": "فَأَحَبَّنِي مَحَبَّةً زَائِدَةً وَأَخَذَنِي وَأَسْكَنَنِي فِي مَقْصُورَةٍ وَرَسَمَ لِي بِعَشَرَةِ جَوَارِي يَخْدُمْنَنِي",
+   "tr": "fa-aḥabbanī maḥabbatan zāʾidatan wa-akhadhanī wa-askananī fī maqṣūratin wa-rasama lī bi-ʿasharati jawārī yakhdumnanī",
+   "l": "So-he-loved-me a-love excessive, and-took-me and-lodged-me in a-closed-apartment, and-decreed for-me with-ten slave-girls serving-me.",
+   "i": "and he loved me with an exceeding love, took me, lodged me in a private apartment, and assigned ten slave-girls to wait upon me.",
+   "n": "The print writes جواري with a final yā᾽, as colloquial usage does, where Classical Arabic has جَوَارٍ. رسم لي بـ is “he decreed for me, assigned me”, and the بـ introduces what is assigned."
+  },
+  {
+   "t": "ثُمَّ إِنَّهُ أَعْطَانِي ذَلِكَ الْمَصَاغَ الَّذِي تَرَاهُ مَعِي",
+   "tr": "thumma innahu aʿṭānī dhālika al-maṣāgha alladhī tarāhu maʿī",
+   "l": "Then that-he gave-me that the-jewellery which you-see with-me.",
+   "i": "Then he gave me all this jewellery that you see on me."
+  },
+  {
+   "t": "فَفِي يَوْمٍ مِنْ بَعْضِ الْأَيَّامِ سَافَرَ الْخَلِيفَةُ إِلَى بَعْضِ الْبِلَادِ",
+   "tr": "fa-fī yawmin min baʿḍi al-ayyāmi sāfara al-khalīfatu ilā baʿḍi al-bilādi",
+   "l": "So-in a-day of some of-the-days travelled the-caliph to some of-the-lands.",
+   "i": "One day the Caliph set out on a journey to one of the lands."
+  },
+  {
+   "t": "فَجَاءَتِ السِّتُّ زُبَيْدَةُ إِلَى بَعْضِ الْجَوَارِى الَّتِي فِي خِدْمَتِي",
+   "tr": "fa-jāʾati al-sittu Zubaydatu ilā baʿḍi al-jawārī allatī fī khidmatī",
+   "l": "So-came the-lady Zubayda to one of-the-slave-girls who in my-service,",
+   "i": "Then the lady Zubayda came to one of the girls who served me",
+   "n": "السِّتّ “the lady” is the colloquial title (from سيدة). Zubayda is Hārūn’s wife."
+  },
+  {
+   "t": "وَقَالَتْ لَهَا عِنْدَكِ حَاجَةٌ فَقَالَتْ لَهَا وَمَا هِيَ يَاسِتِّي",
+   "tr": "wa-qālat lahā ʿindaki ḥājatun fa-qālat lahā wa-mā hiya yāsittī",
+   "l": "and-said to-her: With-you a-need? So-she-said to-her: And-what is-it, O-my-lady?",
+   "i": "and said to her, Is there something you need? She said, What is it, my lady?"
+  },
+  {
+   "t": "قَالَتْ إِذَا نَامَتْ سِتُّكِ قُوتُ الْقُلُوبِ فَحُطِّي هَذِهِ الْقِطْعَةَ الْبَنْجَ فِي مَنَا خِيرِهَا أَوْ فِي شَرَابِهَا وَلَكِ عَلَيَّ مِنَ الْمَالِ مَا يَكْفِيكِ",
+   "tr": "qālat idhā nāmat sittuki Qūtu al-Qulūbi fa-ḥuṭṭī hādhihi al-qiṭʿata al-banja fī manā khīrihā aw fī sharābihā wa-laki ʿalayya mina al-māli mā yakfīki",
+   "l": "She-said: When she-sleeps your-lady Qūt al-Qulūb, then-put this the-piece, the-bhang, in her-nostrils or in her-drink; and-for-you upon-me of the-money what suffices-you.",
+   "i": "She said, When your mistress Qūt al-Qulūb falls asleep, put this piece of bhang in her nostrils or in her drink, and I shall give you money enough for your needs.",
+   "n": "البنج (banj) is bhang or henbane, a sleeping-drug, here a piece to be dissolved or blown. منا خيرها is the one word مَنَاخِيرِهَا “her nostrils”, printed split."
+  },
+  {
+   "t": "فَقَالَتْ لَهَا الْجَارِيَةُ حُبًّا وَكَرَامَةً",
+   "tr": "fa-qālat lahā al-jāriyatu ḥubban wa-karāmatan",
+   "l": "So-said to-her the-slave-girl: In-love and-honour.",
+   "i": "The girl answered her, Gladly, and with honour.",
+   "n": "حبا وكرامة is a stock reply of cheerful assent, with both nouns in the accusative."
+  },
+  {
+   "t": "ثُمَّ أَنَّ الْجَارِيَةَ أَخَذَتِ الْبَنْجَ مِنْهَا وَهِيَ فَرْحَانَةٌ لِأَجْلِ الدَّرَاهِمِ وَلِأَنَّهَا فِى الْأَصْلِ كَانَتْ جَارِيَتَهَا",
+   "tr": "thumma anna al-jāriyata akhadhati al-banja minhā wa-hiya farḥānatun li-ajli al-darāhimi wa-li-annahā fī al-aṣli kānat jāriyatahā",
+   "l": "Then that the-slave-girl took the-bhang from-her, and-she glad for-the-sake of-the-dirhams and-because-she in the-origin was her-slave-girl,",
+   "i": "So the girl took the bhang from her, glad for the sake of the money and because she had been Zubayda’s own girl in the first place,",
+   "n": "فرحانة is the colloquial form of فَرِحَة “glad”."
+  },
+  {
+   "t": "فَجَاءَتْ إِلَيَّ وَوَضَعَتْ لِي الْبَنْجَ فِي شَرَابِي",
+   "tr": "fa-jāʾat ilayya wa-waḍaʿat lī al-banja fī sharābī",
+   "l": "and-came to-me and-put for-me the-bhang in my-drink.",
+   "i": "and came to me and put the bhang in my drink."
+  },
+  {
+   "t": "فَلَمَّا كَانَ اللَّيْلُ شَرِبْتُ",
+   "tr": "fa-lammā kāna al-laylu sharibtu",
+   "l": "And-when was the-night I-drank.",
+   "i": "When night came I drank it."
+  },
+  {
+   "t": "فَلَمَّا اسْتَقَرَّ الْبَنْجُ فِي جَوْفِي وَقَعْتُ إِلَى الْأَرْضِ وَصَارَتْ رَأْسِي عِنْدَ رِجْلِي فَمَا عَرَفْتُ بِرُوحِي إِلَّا وَأَنَا فِي دُنْيَا أُخْرَى",
+   "tr": "fa-lammā istaqarra al-banju fī jawfī waqaʿtu ilā al-arḍi wa-ṣārat raʾsī ʿinda rijlī fa-mā ʿaraftu bi-rūḥī illā wa-anā fī dunyā ukhrā",
+   "l": "And-when settled the-bhang in my-inside, I-fell to the-earth, and-became my-head at my-foot, and-not I-knew with-my-spirit except and-I in a-world other.",
+   "i": "When the bhang settled in my belly I fell to the ground, my head by my feet, and I knew nothing of myself until I was in another world.",
+   "n": "The verb صارت is feminine with رأسي “my head”, which is how the colloquial agrees. ما عرفت بروحي إلا و… “I did not know myself until…” means she lost consciousness."
+  },
+  {
+   "t": "وَإِنَّهَا لَمَّا تَمَّتْ حِيلَتُهَا حَطَّتْنِي فِي ذَلِكَ الصُّنْدُوقِ وَأَحْضَرَتِ الْعَبِيدَ سِرًّا وَبَرْطَلَتْهُمْ وَكَذَلِكَ الْبَوَّابِينَ",
+   "tr": "wa-innahā lammā tammat ḥīlatuhā ḥaṭṭatnī fī dhālika al-ṣundūqi wa-aḥḍarati al-ʿabīda sirran wa-barṭalathum wa-kadhālika al-bawwābīna",
+   "l": "And-that-she, when was-completed her-stratagem, put-me in that the-chest and-brought the-slaves secretly and-bribed-them, and-likewise the-gatekeepers,",
+   "i": "And when her scheme was complete she put me in that chest, brought the slaves in secret and bribed them, and the gatekeepers as well,",
+   "n": "برطلتهم (barṭalathum) is the colloquial verb “to bribe”, from برطيل, a bribe."
+  },
+  {
+   "t": "وَأَرْسَلَتْنِي مَعَ الْعَبِيدِ فِى اللَّيْلَةِ الَّتِي أَنْتَ كُنْتَ نَائِمًا فِيهَا فَوْقَ النَّخْلَةِ وَفَعَلُوا مَعِي مَارَأَيْتَ",
+   "tr": "wa-arsalatnī maʿa al-ʿabīdi fī al-laylati allatī anta kunta nāʾiman fīhā fawqa al-nakhlati wa-faʿalū maʿī mā raʾayta",
+   "l": "and-sent-me with the-slaves in the-night which you you-were sleeping in-it above the-palm, and-they-did with-me what you-saw.",
+   "i": "and sent me off with the slaves on the very night you were sleeping up in the palm tree, and they did with me what you saw.",
+   "n": "مارايت is printed as one word, ما رأيت, “what you saw”; this refers back to the scene on the night he watched from the tree."
+  },
+  {
+   "t": "وَكَانَتْ نَجَاتِي عَلَى يَدَيْكَ وَأَنْتَ أَتَيْتَ بِي إِلَى هَذَا الْمَكَانِ وَأَحْسَنْتَ إِلَيَّ غَايَةَ الْإِحْسَانِ",
+   "tr": "wa-kānat najātī ʿalā yadayka wa-anta atayta bī ilā hādhā al-makāni wa-aḥsanta ilayya ghāyata al-iḥsāni",
+   "l": "And-was my-rescue upon your-two-hands, and-you you-brought with-me to this the-place, and-did-good to-me the-utmost of-the-kindness.",
+   "i": "My rescue came at your hands: you brought me to this place and treated me with the utmost kindness.",
+   "n": "أتيت بي is the verb with بِـ, “bring”: أَتَى بِـ “come with”."
+  },
+  {
+   "t": "وَهَذِهِ قِصَّتِي وَحِكَايَتِي وَمَا أَعْرِفُ أَيْشْ جَرَى لِلْخَلِيفَةِ فِي غَيْبَتِي فَاعْرِفْ قَدْرِي وَلَا تُشْهِرْ أَمْرِي",
+   "tr": "wa-hādhihi qiṣṣatī wa-ḥikāyatī wa-mā aʿrifu aysh jarā li-al-khalīfati fī ghaybatī fa-iʿrif qadrī wa-lā tushhir amrī",
+   "l": "And-this my-story and-my-tale, and-not I-know what happened to-the-caliph in my-absence; so-know my-worth, and-not make-public my-affair.",
+   "i": "This is my story and my tale. I do not know what has passed with the Caliph in my absence; so know my rank, and do not publish my affair.",
+   "n": "ايش (aysh) is colloquial for “what”, contracted from أَيُّ شَيْءٍ."
+  },
+  {
+   "t": "فَلَمَّا سَمِعَ غَانِمُ بْنُ أَيُّوبَ كَلَامَ قُوتِ الْقُلُوبِ وَتَحَقَّقَ أَنَّهَا مَحْظِيَّةُ الْخَلِيفَةِ تَأَخَّرَ إِلَى وَرَائِهِ",
+   "tr": "fa-lammā samiʿa Ghānimu ibnu Ayyūba kalāma Qūti al-qulūbi wa-taḥaqqaqa annahā maḥẓiyyatu al-khalīfati taʾakhkhara ilā warāʾihi",
+   "l": "And-when heard Ghānim son-of Ayyūb the-speech of-Qūt al-Qulūb and-made-certain that-she favourite of-the-caliph, he-drew-back to his-behind,",
+   "i": "When Ghānim son of Ayyūb heard the words of Qūt al-Qulūb and was certain that she was the Caliph’s favourite, he drew back,"
+  },
+  {
+   "t": "وَأَلْحَقَتْهُ هَيْبَةُ الْخِلَافَةِ وَجَلَسَ وَحْدَهُ فِي نَاحِيَةٍ مِنْ نَوَاحِى الْمَكَانِ يُعَاتِبُ نَفْسَهُ وَيَتَفَكَّرُ فِي أَمْرِةِ وَيُصَبِّرُ قَلْبَهُ وَبَقِيَ حَائِرًا فِي عِشْقِ الَّتِي فِيمَا لَيْسَ لَهُ إِلَيْهَا وُصُولٌ",
+   "tr": "wa-alḥaqathu haybatu al-khilāfati wa-jalasa waḥdahu fī nāḥiyatin min nawāḥī al-makāni yuʿātibu nafsahu wa-yatafakkaru fī amrihi wa-yuṣabbiru qalbahu wa-baqiya ḥāʾiran fī ʿishqi allatī fīmā laysa lahu ilayhā wuṣūlun",
+   "l": "and-overtook-him the-awe of-the-caliphate, and-sat alone in a-corner of the-corners of-the-place, reproaching himself and-pondering in his-affair and-making-patient his-heart; and-remained bewildered in love-of the-one-who in what not for-him to-her a-reaching.",
+   "i": "and the awe of the caliphate came over him. He sat apart in a corner of the place, reproaching himself, brooding on his plight and bidding his heart be patient, and he stayed bewildered in love of a woman he could in no way reach.",
+   "n": "امرة is printed with a final ة where the sense wants a suffix ه (أمره “his affair”); it is a misprint and I read it as amrihi. The relative الَّتِي here means “the woman (whom)”."
+  },
+  {
+   "t": "فَبَكَى مِنْ شِدَّةِ الْغَرَامِ وَشَكَا مِنْ تَحَامُلِ الزَّمَانِ وَمَالَهُ مِنَ الْعُدْوَانِ",
+   "tr": "fa-bakā min shiddati al-gharāmi wa-shakā min taḥāmuli al-zamāni wa-mālahu mina al-ʿudwāni",
+   "l": "So-he-wept from the-intensity of-the-passion, and-complained of the-bearing-down of-time and-what-for-him of the-hostility.",
+   "i": "So he wept from the force of his passion and complained of the oppression of time and of the wrongs done him.",
+   "n": "وماله من العدوان is not wholly clear. I take it as “and what is his [lot] of aggression”, referring to the wrongs fate inflicts on him; وماله is printed as one word."
+  },
+  {
+   "t": "فَسُبْحَانَ مَنْ أَشْغَلَ الْقُلُوبَ بِالْمَحَبَّةِ وَالْمَحْبُوبِ وَأَنْشَدَ يَقُولُ",
+   "tr": "fa-subḥāna man ashghala al-qulūba bi-al-maḥabbati wa-al-maḥbūbi wa-anshada yaqūlu",
+   "l": "So-glory to-the-one-who occupied the-hearts with-the-love and-the-beloved; and-he-recited, saying:",
+   "i": "Glory be to Him who keeps hearts busy with love and the beloved! And he recited, saying:"
+  },
+  {
+   "t": "قَلْبُ الْمُحِبِّ عَلَى الْاحْبَابِ مَتْعُوبُ * وَعَقْلُهُ مَعَ بَدِيعِ الْحُسْنِ مَنْهُوبُ\nقَدْ قِيلَ لِي كَيْفَ طَعْمُ الْحُبِّ قُلْتُ لَهُ * الْحُبُّ عَذْبٌ وَلَكِنْ فِيهِ تَعْذِيبُ",
+   "tr": "qalbu al-muḥibbi ʿalā al-aḥbābi matʿūbu * wa-ʿaqluhu maʿa badīʿi al-ḥusni manhūbu\nqad qīla lī kayfa ṭaʿmu al-ḥubbi qultu lahu * al-ḥubbu ʿadhbun wa-lākin fīhi taʿdhību",
+   "l": "The-heart of-the-lover is, over the-beloved-ones, wearied, * and-his-mind is with the-wondrous-of-beauty plundered.\nIt-was-said to-me: How is the-taste of-love? I-said to-him: * Love is sweet, but in-it is torment.",
+   "i": "The lover’s heart is worn out with longing for his beloved, and his mind lies plundered by the one of wondrous beauty.\nThey asked me: What does love taste like? I said: Love is sweet, but there is torment in it.",
+   "n": "The print points this couplet; it is reproduced as printed. مَتْعُوب (matʿūb, “wearied”) is a colloquial participle, from the colloquial verb تعب “to tire”; it recurs in the lead-in to the last poem. عَلَى الْاحْبَابِ: ʿalā here means “over, for the sake of”; the print's bare alif in الاحباب is read with its hamza, al-aḥbāb.",
+   "v": true
+  },
+  {
+   "t": "فَعِنْدَ ذَلِكَ قَامَتْ إِلَيْهِ قُوتُ الْقُلُوبِ وَاحْتَضَنَتْهُ وَقَبَّلَتْهُ وَتَمَكَّنَ حُبُّهُ فِي قَلْبِهَا وَبَاحَتْ لَهُ بِسِرِّهَا وَمَا عِنْدَهَا مِنَ الْمَحَبَّةِ",
+   "tr": "fa-ʿinda dhālika qāmat ilayhi Qūtu al-Qulūbi wa-aḥtaḍanathu wa-qabbalathu wa-tamakkana ḥubbuhu fī qalbihā wa-bāḥat lahu bi-sirrihā wa-mā ʿindahā mina al-maḥabbati",
+   "l": "And-at that, rose to-him Qūt al-Qulūb, and-embraced-him and-kissed-him, and-became-firmly-set his-love in her-heart, and-she-divulged to-him with-her-secret and-what is-at-her of the-love,",
+   "i": "Thereupon Qūt al-Qulūb rose and went to him, clasped him and kissed him, her love for him now fixed fast in her heart; and she laid her secret open to him, and all the love she bore him,",
+   "n": "باح بـ (bāḥa bi-) “to divulge, lay bare (a secret)”: the verb takes its object with bi-."
+  },
+  {
+   "t": "وَطَوَّقَتْ عَلَى رَقَبَةِ غَانِمٍ بِيَدَيْهَا وَقَبَّلَتْهُ وَهُوَ يَتَمَنَّعُ عَنْهَا خَوْفًا مِنَ الْخَلِيفَةِ",
+   "tr": "wa-ṭawwaqat ʿalā raqabati Ghānimin bi-yadayhā wa-qabbalathu wa-huwa yatamannaʿu ʿanhā khawfan mina al-khalīfati",
+   "l": "and-she-encircled upon the-neck of-Ghānim with-her-two-hands and-kissed-him, while-he holds-himself-aloof from-her, in-fear from the-caliph.",
+   "i": "and flung her arms about Ghānim's neck and kissed him, while he kept himself back from her for fear of the Caliph.",
+   "n": "طوّق على رقبة (ṭawwaqa ʿalā raqabati) “to put one's arms round the neck of” is a construction with ʿalā rather than a direct object. The present tense يتمنّع after وهو is a circumstantial clause: “while he …”. خوفا is an adverbial accusative of reason."
+  },
+  {
+   "t": "ثُمَّ تَحَدَّثَا سَاعَةً زَمَانِيَّةً وَهُمَا غَرِيقَانِ فِي بَحْرِ مَحَبَّتِهِمَا إِلَى أَنْ طَلَعَ النَّهَارُ",
+   "tr": "thumma taḥaddathā sāʿatan zamāniyyatan wa-humā gharīqāni fī baḥri maḥabbatihimā ilā an ṭalaʿa al-nahāru",
+   "l": "Then they-two-conversed an-hour, a-temporal-one, and-they-two drowned-ones in the-sea of-their-two-love until that rose the-day.",
+   "i": "Then they talked together for a good hour, drowned in the sea of their love, until day broke.",
+   "n": "ساعة زمانية (sāʿa zamāniyya) is literally “an hour of time”, the ordinary measured hour; here it simply stresses a good long while. The “sea of love” in which lovers are “drowned” is a stock image of the Nights."
+  },
+  {
+   "t": "فَقَامَ غَانِمٌ وَلَبِسَ أَثْوَابَهُ وَخَرَجَ إِلَى السُّوقِ كَعَادَتِهِ وَأَخَذَ جَمِيعَ مَا يَحْتَاجُ إِلَيْهِ الْأَمْرُ",
+   "tr": "fa-qāma Ghānimun wa-labisa athwābahu wa-kharaja ilā al-sūqi ka-ʿādatihi wa-akhadha jamīʿa mā yaḥtāju ilayhi al-amru",
+   "l": "So rose Ghānim and-dressed-in his-garments and-went-out to the-market like-his-custom and-took all that has-need to-it the-matter,",
+   "i": "At dawn Ghānim rose, put on his clothes, and went out to the market as was his habit, and bought everything the household needed,",
+   "n": "جميع ما يحتاج إليه الأمر is literally “all that the matter needs”, i.e. everything the occasion (here, the keeping of the house) calls for; the translation fills in “bought” from أخذ “took”."
+  },
+  {
+   "t": "وَجَاءَ اِى الْبَيْتِ فَوَجَدَ قُوتَ الْقُلُوبِ نَبْكِي",
+   "tr": "wa-jāʾa ilā al-bayti fa-wajada Qūta al-Qulūbi nabkī",
+   "l": "and-came to the-house and-found Qūt al-Qulūb weeping.",
+   "i": "and came back to the house, and found Qūt al-Qulūb in tears.",
+   "n": "Two printer's slips. اى stands for الى (ilā, “to”) with its lām dropped; read ilā. And نبكي, as printed, begins with nūn (“we weep”), but the sense requires tabkī, “she weeps”; the nūn is evidently a misprint for tāʾ. The vocalisation نَبْكِي keeps the printed letter; read it as tabkī."
+  },
+  {
+   "t": "فَلَمَّا أَنْ رَأَتْهُ بَطَّلَتِ الْبُكَاءَ وَتَبَسَّمَتْ وَقَالَتْ لَهُ",
+   "tr": "fa-lammā an raʾathu baṭṭalati al-bukāʾa wa-tabassamat wa-qālat lahu",
+   "l": "And-when that she-saw-him she-put-an-end-to the-weeping and-smiled and-said to-him:",
+   "i": "When she saw him, she put away her tears and smiled, and said to him:",
+   "n": "لما ان (lammā an) has a redundant أن after لمّا, a common Middle Arabic habit. بطّلت (baṭṭalat, Form II, “to put a stop to”) is chosen for بطلت; the plain baṭalat (“became void”) does not take an object."
+  },
+  {
+   "t": "أَوْحَشْتَنِي بَا مَحْبُوبَ قَلْبِي وَاللَّهِ إِنَّ هَذِهِ السَّاعَةَ الَّتِي غِبْتَهَا عَنِّي كَسَنَةٍ مِنْ أَجْلِ فِرَاقِكَ",
+   "tr": "awḥashtanī bā maḥbūba qalbī wa-Allāhi inna hādhihi al-sāʿata allatī ghibtahā ʿannī ka-sanatin min ajli firāqika",
+   "l": "You-made-me-desolate, O beloved-one of-my-heart! By-God, that this the-hour which you-were-absent-it from-me is like-a-year, on-account of your-parting.",
+   "i": "I have been desolate without you, beloved of my heart! By God, the hour you were away from me has been like a year, so hard was it to be parted from you.",
+   "n": "با (bā) for يا (yā, “O”) is a misprint of the vocative particle; read yā maḥbūba qalbī. أوحشتني (awḥashtanī, “you left me desolate, I missed you”) is the usual way to say “I missed you”. غبتها عني: the hour is an accusative of time, “the hour (during which) you were absent from me”."
+  },
+  {
+   "t": "وَهَا أَنَا قَدْ بَيَّنْتُ لَكَ حَالِي مِنْ شِدَّةِ وَلَعِي بِكَ فَقُمْ بِنَا الْآنَ وَدَعْ مَا كَانَ وَاقْضِ أَرَبَكَ مِنِّي",
+   "tr": "wa-hā anā qad bayyantu laka ḥālī min shiddati walaʿī bika fa-qum bi-nā al-āna wa-daʿ mā kāna wa-iqḍi arabaka minnī",
+   "l": "And-behold I, I-have made-plain to-you my-state, from the-intensity of-my-infatuation with-you. So rise with-us now, and-leave what was, and-accomplish your-need from me.",
+   "i": "Here I am: I have made my state plain to you, out of the strength of my passion for you. So come, rise with me now, let what has been be forgotten, and take your pleasure of me.",
+   "n": "قضى أربه من (qaḍā araba-hu min) “to accomplish one's desire of (someone)” is plainly sexual; the Arabic is frank, and so is the translation. فقم بنا is “rise with us”, an invitation to go to bed together. ودع ما كان “leave what was” means “let bygones be bygones”."
+  },
+  {
+   "t": "قَالَ أَعُوذُ بِاللَّهِ، إِنَّ هَذَا شَيْءٌ لَا يَكُونُ",
+   "tr": "qāla aʿūdhu bi-Allāhi, inna hādhā shayʾun lā yakūnu",
+   "l": "He-said: I-seek-refuge with-God! That this is a-thing not it-is.",
+   "i": "He said: I take refuge in God! This is a thing that cannot be.",
+   "n": "The print has a comma after بالله, closed up against the word; it is kept as printed. أعوذ بالله (aʿūdhu bi-llāh) is the standard formula of horrified refusal."
+  },
+  {
+   "t": "كَيْفَ يَجْلِسُ الْكَلْبُ فِي مَوْضِعِ السَّبُعِ وَالَّذِي لِلْمَوْلَى فَهُوَ عَلَى الْعَبْدِ حَرَامٌ",
+   "tr": "kayfa yajlisu al-kalbu fī mawḍiʿi al-sabuʿi wa-alladhī li-al-mawlā fa-huwa ʿalā al-ʿabdi ḥarāmun",
+   "l": "How sits the-dog in the-place of-the-lion, and-that-which is-for the-master, then-it is upon the-slave forbidden?",
+   "i": "How can the dog sit in the lion's place? What belongs to the master is forbidden to the slave.",
+   "n": "السبع (al-sabuʿ) is a beast of prey, most often the lion; the saying turns on the dog and the lion as slave and master. In والذي للمولى فهو the fa- opens the main clause after the long subject, “that which is the master's — it is forbidden …”; for the slave, حرام is “unlawful, forbidden”."
+  },
+  {
+   "t": "ثُمَّ جَذَبَ نَفْسَهُ مِنْهَا وَجَلَسَ فِي نَاحِيَةٍ عَلَى الْحَصِيرَةِ",
+   "tr": "thumma jadhaba nafsahu minhā wa-jalasa fī nāḥiyatin ʿalā al-ḥaṣīrati",
+   "l": "Then he-pulled his-self from-her and-sat in a-side on the-mat.",
+   "i": "Then he drew himself away from her and sat down to one side, on the mat."
+  },
+  {
+   "t": "وَزَادَتْ هِيَ مَحَبَّةً فِيهِ بِا مْتِنَاعِهِ عَنْهَا",
+   "tr": "wa-zādat hiya maḥabbatan fīhi bi-ā mtināʿihi ʿanhā",
+   "l": "And-increased she in-love for-him through-his-holding-back from-her.",
+   "i": "and her love for him only grew at his holding back from her.",
+   "n": "The print splits the word: با متناعه for بامتناعه (bi-imtināʿihi), “by his refraining”. The split is kept as printed."
+  },
+  {
+   "t": "ثُمَّ جَلَسَتْ إِلَى جَانِبِهِ وَنَادَمَتْهُ وَلَا عَبَتْهُ فَسَكِرَا",
+   "tr": "thumma jalasat ilā jānibihi wa-nādamathu wa-lā ʿabathu fa-sakirā",
+   "l": "Then she-sat to his-side and-caroused-with-him and-played-with-him, and-they-two-became-drunk.",
+   "i": "Then she sat down beside him, kept him company over the wine and played with him, until they were both drunk.",
+   "n": "ولا عبته is printed as two words for ولاعبته (wa-lāʿabathu): لاعب “to play with, sport with” (Form III), as نادم (nādama) is “to be a drinking companion”. The split is kept as printed."
+  },
+  {
+   "t": "وَهَامَتْ بِالْافْتِضَاحِ بِهِ فَغَنَّتْ هِيَ وَأَنْشَدَتْ تَقُولُ",
+   "tr": "wa-hāmat bi-al-iftiḍāḥi bihi fa-ghannat hiya wa-anshadat taqūlu",
+   "l": "And-she-raved with-the-disgrace by-him, and-sang, she, and-recited, saying:",
+   "i": "and, lost to all shame for love of him, she sang and recited, saying:",
+   "n": "The sense of بالافتضاح به is uncertain. افتضاح (iftiḍāḥ) is “disgrace, being shamed or exposed”, and هام بـ (hāma bi-) is “to rave about, be mad for”; so “she was crazed to be shamed (i.e. to cast off all modesty) with him”. A scribal slip for الافتضاض (iftiḍāḍ, “deflowering”) is possible, which would give a franker but similar meaning."
+  },
+  {
+   "t": "قَلْبُ الْمُتَيَّمِ كَادَانْ يَتَفَتَّتَا * فَاِلَى مَتَى هَذَا الصُّدُودُ إِلَى مَتَى\nيَا مُعْرِضًا عَنِّي بِغَيْرِ جِنَايَةٍ * فَعَوَائِدُ الْغِزْلَانِ أَنْ تَتَلَفَّتَا\nصَدٌّ وَإِبْعَادٌ وَهَجْرٌ دَائِمٌ * مَا كُلُّ هَذَا الْامْرِ يَحْمِلُهُ الْفَتَى",
+   "tr": "qalbu al-mutayyami kāda an yatafattatā * fa-ilā matā hādhā al-ṣudūdu ilā matā\nyā muʿriḍan ʿannī bi-ghayri jināyatin * fa-ʿawāʾidu al-ghizlāni an tatalaffatā\nṣaddun wa-ibʿādun wa-hajrun dāʾimun * mā kullu hādhā al-amri yaḥmiluhu al-fatā",
+   "l": "The-heart of-the-love-enthralled nearly crumbles-to-bits; * so until when this the-aversion, until when?\nO turning-away from-me without offence! * For the-habits of-the-gazelles are that-they-glance-back.\nRebuff and-banishment and-desertion constant: * not all this the-matter bears-it the-youth.",
+   "i": "The lover’s heart is all but crumbling away; how long must this coldness go on, how long?\nO you who turn from me when I have done no wrong, it is the way of gazelles to glance back!\nRebuff, banishment and unending desertion: no young man could bear all this.",
+   "n": "The print points these verses; they are reproduced as printed. كادان is كاد أن (kāda an) written as one word, and the final alif of يتفتتا (yatafattatā) is the rhyme-alif, not a dual. In the third verse ما كل هذا الأمر يحمله الفتى is “not every such thing can a young man bear”.",
+   "v": true
+  },
+  {
+   "t": "فَبَكَى غَانِمُ بْنُ أَيُّوبَ وَبَكَتْ هِيَ لِبُكٰئِهِ وَلَمْ يَزَالَا يَشْرَبَانِ إِلَى اللَّيْلِ",
+   "tr": "fa-bakā Ghānimu ibnu Ayyūba wa-bakat hiya li-bukāʾihi wa-lam yazālā yashrabāni ilā al-layli",
+   "l": "And-wept Ghānim son-of Ayyūb, and-wept she, for-his-weeping, and-not they-two-ceased they-drink until the-night.",
+   "i": "Ghānim son of Ayyūb wept, and she wept to see him weep, and they went on drinking until night came.",
+   "n": "لبكئه is a defective spelling of لبكائه (li-bukāʾihi); the dagger alif on the kāf supplies the missing long vowel without changing the printed letters."
+  },
+  {
+   "t": "فَقَامَ غَانِمٌ وَفَرَشَ فَرْشَيْنِ كُلَّ فَرْشٍ فِي مَكَانٍ وَجَدَهُ",
+   "tr": "fa-qāma Ghānimun wa-farasha farshayni kulla farshin fī makānin wajadahu",
+   "l": "And-rose Ghānim and-spread two-beddings, each bedding in a-place he-found-it.",
+   "i": "Ghānim rose and laid out two beds, each in a place he found for it.",
+   "n": "وجده is read as printed, “(a place) he found”. The sense, though, wants وحده (waḥdahu), “by itself”: two beds, each in a place of its own; a misprint of ḥ for j is easy, but the print says j."
+  },
+  {
+   "t": "فَقَالَتْ لَهُ قُوتُ الْقُلُوبِ لِمَنْ هَذَا الْفَرْشُ الثَّانِي",
+   "tr": "fa-qālat lahu Qūtu al-Qulūbi li-man hādhā al-farshu al-thānī",
+   "l": "And-said to-him Qūt al-Qulūb: For-whom this the-bedding the-second?",
+   "i": "Qūt al-Qulūb said to him: Whom is this second bed for?"
+  },
+  {
+   "t": "فَقَالَ لَهَا هَذَا لِي وَالْآخَرُ لَكِ وَمِنْ هَذِهِ اللَّيْلَةِ نَحْنُ لَانَنَامُ إِلَّا عَلَى هَذَا النَّمَطِ",
+   "tr": "fa-qāla lahā hādhā lī wa-al-ākharu laki wa-min hādhihi al-laylati naḥnu lā nanāmu illā ʿalā hādhā al-namaṭi",
+   "l": "And-he-said to-her: This is-for-me and-the-other for-you, and-from this the-night we not we-sleep except upon this the-fashion.",
+   "i": "He said to her: This one is mine and the other yours, and from this night on we shall sleep only in this fashion,",
+   "n": "لاننام is printed as one word, لا ننام (lā nanāmu, “we do not sleep”). النمط (al-namaṭ) is “way, manner, fashion”; the same word also means a kind of covering or carpet."
+  },
+  {
+   "t": "وَكُلُّ شَيْءٍ كَانَ الْمَسِيدِ فَهُوَ عَلَى الْعَبْدِ حَرَامٌ",
+   "tr": "wa-kullu shayʾin kāna al-masīdi fa-huwa ʿalā al-ʿabdi ḥarāmun",
+   "l": "and-every thing that-was the-masīd, then-it is upon the-slave forbidden.",
+   "i": "for whatever belongs to the master is forbidden to the slave.",
+   "n": "المسيد is evidently a misprint for للسيد (li-al-sayyid, “to the master”, as the same saying is printed correctly further on); it is vocalised as printed and read “belongs to the master”. The saying is the one Ghānim has already used."
+  },
+  {
+   "t": "فَقَالَتْ لَهُ يَا سَيِّدِي دَعْنَا مِنْ هَذَا وَكُلُّ شَيْءٍ يَجْرِي بِقَضَاءٍ وَقَدَرٍ",
+   "tr": "fa-qālat lahu yā sayyidī daʿnā min hādhā wa-kullu shayʾin yajrī bi-qaḍāʾin wa-qadarin",
+   "l": "And-said she to-him: O my-master, leave-us from this, and-every thing runs by-decree and-ordainment.",
+   "i": "She said to him: My lord, let us leave all that aside; everything runs its course by decree and destiny.",
+   "n": "دعنا من هذا (daʿnā min hādhā) “leave us out of this, let us be rid of this”. بقضاء وقدر (bi-qaḍāʾin wa-qadar), “by decree and divine ordinance”, is a doublet; the bi- means “by”."
+  },
+  {
+   "t": "فَأَبَى مِنْ ذَلِكَ فَانْطَلَقَتِ النَّارُ فِي قَلْبِهَا وَزَادَ غَرَامُهَا وَتَعَلَّقَتْ هِيَ فِيهِ",
+   "tr": "fa-abā min dhālika fa-inṭalaqati al-nāru fī qalbihā wa-zāda gharāmuhā wa-taʿallaqat hiya fīhi",
+   "l": "But-he-refused from that, and-was-let-loose the-fire in her-heart, and-increased her-passion, and-clung she in-him.",
+   "i": "But he refused; a fire broke loose in her heart, her passion grew, and she clung to him.",
+   "n": "أبى من ذلك (abā min dhālika) “he refused that”. تعلقت فيه: taʿallaqa “to cling, be attached” takes either bi- or fī."
+  },
+  {
+   "t": "وَقَالَتْ لَهُ وَاللَّهِ مَا نَنَامُ إِلَّاسَوَاءً",
+   "tr": "wa-qālat lahu wa-Allāhi mā nanāmu illā sawāʾan",
+   "l": "And-she-said to-him: By-God, not we-sleep except together.",
+   "i": "She said to him: By God, we shall sleep only side by side!",
+   "n": "الاسواء is printed as one word for الا سواء (illā sawāʾan, “except together”, i.e. “on equal terms, side by side”). The present tense ما ننام here has the sense of a resolve: “we shall not sleep …”."
+  },
+  {
+   "t": "فَقَالَ مَعَاذَاللَّهِ وَغَلَبَ هُوَ عَلَيْهَا وَنَامَ وَحْدَةً إِلَى الصَّبَاحِ",
+   "tr": "fa-qāla maʿādha Allāhi wa-ghalaba huwa ʿalayhā wa-nāma waḥdatan ilā al-ṣabāḥi",
+   "l": "And-he-said: Refuge-of God! And-prevailed he over-her, and-slept alone until the-morning.",
+   "i": "He said: God be my refuge! And he prevailed over her, and slept alone till morning.",
+   "n": "معاذالله is printed as one word, maʿādha allāhi, “refuge (is) with God”, the usual cry of refusal. وحدة, as printed, ends in tāʾ marbūṭa: read waḥdatan, “alone”; the ordinary form is وحده (waḥdahu, “by himself”), so this is a spelling slip. غلب عليها (ghalaba ʿalayhā) “he prevailed over her”, i.e. he held out against her."
+  },
+  {
+   "t": "فَزَادَ بِهَا الْعِشْقُ وَالْغَرَامُ وَاشْتَدَّ بِهَا الْوَجْدُ وَالْهَيَامُ",
+   "tr": "fa-zāda bihā al-ʿishqu wa-al-gharāmu wa-ashtadda bihā al-wajdu wa-al-hiyāmu",
+   "l": "So-increased in-her the-passion and-the-ardour, and-grew-fierce in-her the-longing and-the-frenzy.",
+   "i": "and her passion and ardour grew, and longing and frenzy took fiercer hold of her.",
+   "n": "A rhymed-prose pair of clauses: الغرام / الهيام (al-gharām / al-hiyām) rhyme. زاد بها (zāda bihā) is “it increased in her”; the bi- locates the effect in her."
+  },
+  {
+   "t": "وَأَقَامَا عَلَى ذَلِكَ ثَلٰثَةَ أَشْهُرٍ طِوَالٍ",
+   "tr": "wa-aqāmā ʿalā dhālika thalāthata ashhurin ṭiwālin",
+   "l": "And-they-two-remained upon that three months, long-ones,",
+   "i": "And so they went on for three long months,",
+   "n": "ثلثة is a defective spelling of ثلاثة (thalāthata, “three”); the dagger alif on the lām supplies the missing alif. أقاما على ذلك “they stayed on in that state”."
+  },
+  {
+   "t": "وَهِيَ كُلَّمَا تَقَرَّبَتْ مِنْهُ يَمْتَنِعُ عَنْهَا وَيَقُولُ لَهَا كُلُّمَا يَكُونُ لِلسَّيِّدِ فَهُوَ عَلَى الْعَبْدِ حَرَامٌ",
+   "tr": "wa-hiya kullamā taqarrabat minhu yamtaniʿu ʿanhā wa-yaqūlu lahā kullu mā yakūnu li-al-sayyidi fa-huwa ʿalā al-ʿabdi ḥarāmun",
+   "l": "and-she, whenever she-drew-near from-him, he-holds-back from-her and-says to-her: all-that is for-the-master, then-it is upon the-slave forbidden.",
+   "i": "and whenever she drew near him, he held back and told her: Whatever belongs to the master is forbidden to the slave.",
+   "n": "The print has كلما twice. The first is kullamā, “whenever”; the second, with يكون following, is read kullu mā (“all that”), written as one word."
+  },
+  {
+   "t": "فَلَمَّا طَالَ بِهَا الْمِطَالُ مَعَ غَانِمِ بْنِ أَيُّوبَ الْمُتَيَّمِ الْمَسْلُوبِ وَزَادَتْ بِهَا الشُّجُونُ وَالْكُرُوبُ",
+   "tr": "fa-lammā ṭāla bihā al-miṭālu maʿa Ghānimi ibni Ayyūba al-mutayyami al-maslūbi wa-zādat bihā al-shujūnu wa-al-kurūbu",
+   "l": "And-when lengthened for-her the-procrastination with Ghānim son-of Ayyūb, the-love-enthralled, the-despoiled, and-increased upon-her the-cares and-the-distresses,",
+   "i": "When the long delay with Ghānim son of Ayyūb, that enthralled and plundered lover, had worn on her, and her cares and sorrows had multiplied,",
+   "n": "المطال (al-miṭāl) is “putting off, delay”, the lover's endless deferral. المسلوب (al-maslūb) “despoiled, bereft”, of reason and will. Note الشجون والكروب, again rhymed."
+  },
+  {
+   "t": "أَنْشَدَتْ مِنْ فُؤَادٍ مَتْعُوبٍ تَقُولُ هَذِهِ الْأَبْيَاتَ",
+   "tr": "anshadat min fuʾādin matʿūbin taqūlu hādhihi al-abyāta",
+   "l": "she-recited from a-heart wearied, saying these the-verses:",
+   "i": "she recited, from a weary heart, these verses:",
+   "n": "من فواد (min fuʾād) “from (the depths of) a heart”. متعوب (matʿūb) is colloquial for “tired, worn out”."
+  },
+  {
+   "t": "بَدِيعَ الْحُسْنِ كَمْ هَذَا التَّجَنِّي * وَمَنْ اَغْرَاكَ بِالْاِعْرَاضِ عَنِّي\nحَوَيْتَ مِنَ الرَّشَاقَةِ كُلَّ مَعْنَى * وَحُزْتَ مِنَ الْمَلَاحَةِ كُلَّ فَنِّ\nوَاَجْرَيْتَ الْغَرَامَ لِكُلِّ قَلْبٍ * وَوَكَّلْتَ السُّهَادَ بِكُلِّ جَفْنِ\nوَاَعْرِفُ قَبْلَكَ الْاَغْصَانُ تُجْنَى * فَيَا غُصْنَ الْاَرَاكِ اَرَاكَ تَجْنِي\nوَعَهْدِي بِالظِّبَا صَيْدًا فَمَالِي * اَرَاكَ تَصِيدُ اَرْبَابَ الْمِجَنِّ\nوَاَعْجَبُ مَا اُحَدِّثُ عَنْكَ اِنِّي * فُتِنْتُ وَاَنْتَ لَمْ تَعْلَمْ بِاَنِّي\nفَلَا تَسْمَحْ بِوَصْلِكَ لِي فَاِنِّي * اَغَارُ عَلَيْكَ مِنْكَ فَكَيْفَ مِنِّي\nوَلَسْتُ بِقَائِلٍ مَا دُمْتُ حَيًّا * بَدِيعَ الْحُسْنِ كَمْ هَذَا التَّجَنِّي",
+   "tr": "badīʿa al-ḥusni kam hādhā al-tajannī * wa-man aghrāka bi-al-iʿrāḍi ʿannī\nḥawayta mina al-rashāqati kulla maʿnā * wa-ḥuzta mina al-malāḥati kulla fannin\nwa-ajrayta al-gharāma li-kulli qalbin * wa-wakkalta al-suhāda bi-kulli jafnin\nwa-aʿrifu qablaka al-aghṣānu tujnā * fa-yā ghuṣna al-arāki arāka tajnī\nwa-ʿahdī bi-al-ẓibā ṣaydan fa-mā lī * arāka taṣīdu arbāba al-mijanni\nwa-aʿjabu mā uḥaddithu ʿanka innī * futintu wa-anta lam taʿlam bi-annī\nfa-lā tasmaḥ bi-waṣlika lī fa-innī * aghāru ʿalayka minka fa-kayfa minnī\nwa-lastu bi-qāʾilin mā dumtu ḥayyan * badīʿa al-ḥusni kam hādhā al-tajannī",
+   "l": "O wondrous-of-beauty, how-long this the-pretext-of-offence, * and-who incited-you to-the-turning-away from-me?\nYou-have-gathered of the-grace every meaning, * and-you-have-won of the-comeliness every kind.\nAnd-you-set-running the-passion for every heart, * and-you-appointed the-sleeplessness over every eyelid.\nAnd-I-know, before-you, the-branches are-plucked; * so O branch of-the-arāk-tree, I-see-you offending.\nAnd-my-acquaintance with-the-gazelles is-as-quarry; so what-is for-me? * I-see-you hunting the-masters of-the-shield.\nAnd-the-most-wondrous what I-relate about-you is-that-I * am-bewitched, and-you did-not know that-I.\nSo-do-not grant your-union to-me, for-I * am-jealous for-you from you; so how from me?\nAnd-I-am not a-sayer, as-long-as I-am alive: * O wondrous-of-beauty, how-long this pretext-of-offence?",
+   "i": "Fair one of wondrous beauty, how long this fault-finding, and who put it into you to turn from me?\nYou have gathered every subtlety of grace, and won every kind of loveliness.\nYou have set passion running in every heart and made sleeplessness the warden of every eyelid.\nI knew branches to be plucked before you; yet, O bough of the arāk, I see you the one who plucks and wrongs.\nI had always known gazelles to be the quarry: what is it with me, that I see you hunting the masters of the shield?\nThe strangest thing I can tell of you is that I am bewitched, and you do not know that it is I.\nSo do not grant me your union, for I am jealous for you even of yourself: how then of myself?\nAnd never, as long as I live, will I say: Fair one of wondrous beauty, how long this fault-finding?",
+   "n": "The print points these verses; they are reproduced as printed. Several wordplays. In verse 4, تجنى (tujnā, “is plucked”, of fruit) answers تجني (tajnī), which here means both “you pluck” and “you commit an offence” (jannā ʿalā); and الأراك (the arāk, a toothstick tree) answers أراك (arāka, “I see you”). In verse 5, أرباب المجن (“masters of the shield”) are warriors. Verse 7: the lover is so jealous that he would grudge even himself the beloved. Verse 8 is puzzling: it repeats the opening line word for word after ولست بقائل (“I will not be one who says”), perhaps a corrupt negation; read it as printed.",
+   "v": true
+  },
+  {
+   "t": "وَأَقَامُوا عَلَى هَذَا الْحَالِ مُدَّةً وَالْخَوْفُ يَمْنَعُ غَانِمًا عَنْهَا",
+   "tr": "wa-aqāmū ʿalā hādhā al-ḥāli muddatan wa-al-khawfu yamnaʿu Ghāniman ʿanhā",
+   "l": "And-they-stayed upon this the-state a-while, and-the-fear preventing Ghānim from-her.",
+   "i": "So they went on in this state for a while, fear holding Ghānim back from her."
+  },
+  {
+   "t": "هَذَا مَا كَانَ مِنْ أَمْرِ غَانِمِ بْنِ أَيُّوبَ الْمُتَيَّمِ الْمَسْلُوبِ",
+   "tr": "hādhā mā kāna min amri Ghānimi bni Ayyūba al-mutayyami al-maslūbi",
+   "l": "This is what was of the-affair of-Ghānim son-of Ayyūb, the-love-enthralled, the-despoiled.",
+   "i": "So much for Ghānim son of Ayyūb, the enthralled and plundered lover.",
+   "n": "هذا ما كان من أمر … وأما ما كان من أمر … is the storyteller's stock hinge: “this is what befell X; as for what befell Y”. It switches the camera from one strand of the tale to the other. المتيم (al-mutayyam) is one whom love has enslaved; المسلوب (al-maslūb) is one stripped of his possessions or wits."
+  },
+  {
+   "t": "وَأَمَّا مَاكَانَ مِنْ أَمْرِ السِّتِّ زُبَيْدَةَ فَإِنَّهَا فِي غَيْبَةِ الْخَلِيفَةِ لَمَّا فَعَلَتْ بِقُوتِ الْقُلُوبِ ذَلِكَ الْأَمْرَ بَقِيَتْ حَائِرَةً تَقُولُ فِي نَفْسِهَا",
+   "tr": "wa-ammā mā kāna min amri al-sitti Zubaydata fa-innahā fī ghaybati al-khalīfati lammā faʿalat bi-Qūti al-Qulūbi dhālika al-amra baqiyat ḥāʾiratan taqūlu fī nafsihā",
+   "l": "And-as-for what was of-the-affair of-the-lady Zubayda, she, in the-absence of-the-caliph, when she-did to-Qūt al-Qulūb that the-deed, remained perplexed, saying within her-self:",
+   "i": "As for Lady Zubayda: once she had done that deed to Qūt al-Qulūb, she was left, in the caliph's absence, at her wits' end, saying to herself:",
+   "n": "The print writes ماكان as one word. فإنها … بقيت: the fa- and إنّها open the main clause again after the long “when” clause; read “she, … remained”. السِّتّ (al-sitt, “the lady”) is the colloquial short form of سيّدة, used as a title; it recurs throughout."
+  },
+  {
+   "t": "مَاذَا أَقُولُ لِلْخَلِيفَةِ إِذَا جَاءَ وَسَأَلَ عَنْهَا وَمَا يَكُونُ جَوَابِي لَهُ",
+   "tr": "mādhā aqūlu li-al-khalīfati idhā jāʾa wa-saʾala ʿanhā wa-mā yakūnu jawābī lahu",
+   "l": "What shall-I-say to-the-caliph when he-comes and-asks about-her, and-what will-be my-answer to-him?",
+   "i": "What am I to tell the caliph when he comes home and asks after her? What answer shall I give him?"
+  },
+  {
+   "t": "فَدَعَتْ بِعَجُوزٍ كَانَتْ عِنْدَهَا وَأَطْلَعَتْهَا عَلَى سِرِّهَا وَقَالَتْ لَهَا",
+   "tr": "fa-daʿat bi-ʿajūzin kānat ʿindahā wa-aṭlaʿathā ʿalā sirrihā wa-qālat lahā",
+   "l": "So-she-called for-an-old-woman who-was with-her, and-made-her-aware of her-secret, and-said to-her:",
+   "i": "So she sent for an old woman of her household, let her in on her secret, and said to her:"
+  },
+  {
+   "t": "كَيْفَ أَفْعَلُ وَقُوتُ الْقُلُوبِ قَدْ فَرَطَ فِيهَا الْفَرْطُ",
+   "tr": "kayfa afʿalu wa-Qūtu al-Qulūbi qad faraṭa fīhā al-farṭu",
+   "l": "How shall-I-act, when Qūt al-Qulūb, there-has-befallen in-her the-lapse?",
+   "i": "What am I to do, now that Qūt al-Qulūb is lost and what is done cannot be undone?",
+   "n": "This clause is obscure. I read فَرَطَ فِيهَا الْفَرْطُ as “what was to slip away has slipped away in her”, i.e. the loss is past mending (فرط, “to go ahead, slip past; be remiss”). A passive reading, فُرِّطَ فِيهَا “she was neglected”, is also conceivable, and the sense “she has been lost” survives either way."
+  },
+  {
+   "t": "فَقَالَتْ لَهَا الْعَجُوزُ لَمَّا فَهِمَتِ الْحَالَ",
+   "tr": "fa-qālat lahā al-ʿajūzu lammā fahimati al-ḥāla",
+   "l": "And-said to-her the-old-woman, when she-understood the-situation:",
+   "i": "Having taken in the situation, the old woman said to her:"
+  },
+  {
+   "t": "اعْلَمِي يَا سِتِّي أَنَّ مَجِيءَ الْخَلِيفَةِ قَرُبَ",
+   "tr": "iʿlamī yā sittī anna majīʾa al-khalīfati qaruba",
+   "l": "Know, O my-lady, that the-coming of-the-caliph has-drawn-near.",
+   "i": "Know, my lady, that the caliph's return is near."
+  },
+  {
+   "t": "وَلَكِنْ أَرْسِلِي إِلَى نَجَّارٍ وَأْمُرِيهِ أَنْ يَعْمَلَ لَكِ صُورَةَ مَيِّتٍ مِنْ خَشَبٍ وَنَحْفِرَلَهَا قَبْرًا فِي وَسَطِ الْقَصْرِ وَنَدْفِنَهَا فِيهِ وَتَعْمَلِي لَهُ مَقْصُورَةً وَنُو قِدَ فِيهِ الشُّمُوعَ وَالْقَنَادِيلَ وَتَأْمُرِي كُلَّ مَنْ فِى الْقَصْرَانِ يَلْبَسُوا الْأَسْوَدَ",
+   "tr": "wa-lākin arsilī ilā najjārin wa-ʾmurīhi an yaʿmala laki ṣūrata mayyitin min khashabin wa-naḥfira lahā qabran fī wasaṭi al-qaṣri wa-nadfinahā fīhi wa-taʿmalī lahu maqṣūratan wa-nūqida fīhi al-shumūʿa wa-al-qanādīla wa-taʾmurī kulla man fī al-qaṣrāni yalbasū al-aswada",
+   "l": "But send to a-carpenter and-command-him that he-make for-you the-likeness of-a-dead-one out-of wood, and-we-dig for-it a-grave in the-middle of-the-palace, and-we-bury-it in-it, and-you-make for-it a-screened-chamber, and-we-light in-it the-candles and-the-lamps, and-you-command every one who is in the-two-palaces, they-wear the-black.",
+   "i": "But send for a carpenter and order him to make you a wooden figure in the shape of a dead woman. We shall dig it a grave in the middle of the palace and bury it there; you will have a screened chamber built over the grave, and we shall light candles and lamps in it; and you will order everyone in the palace to dress in black.",
+   "n": "The old woman slips between “we” and “you”, and the verbs hang on the أن (“that he make … and we dig … and you make”) without clear endings: تعملي and تأمري lack the final nūn of the indicative, so I read them as subjunctives continuing the أن-clause, and ونحفر، وندفنها، ونوقد likewise. The print writes ونحفرلها as one word and ونوقد as two (ونو قد). يلبسوا has no introducing أن in the print; it reads as a bare subjunctive, “(that) they wear”. القصران is printed with the dual ending -ān, where Classical grammar would want -ayn after في; it seems to mean the caliph's palace and Zubayda's, or simply “the palace complex”. مقصورة (maqṣūra) is a screened-off chamber or enclosure."
+  },
+  {
+   "t": "وَأْمُرِي جَوَارِيكِ وَالْخُدَّامَ إِذَا عَلِمُوا أَنَّ الْخَلِيفَةَ أَتَى مِنَ السَّفَرِ أَنْ يَنْشُرُوا التِّبْنَ فِى الدَّهَا لِيزِ",
+   "tr": "wa-ʾmurī jawārīki wa-al-khuddāma idhā ʿalimū anna al-khalīfata atā mina al-safari an yanshurū al-tibna fī al-dahā līzi",
+   "l": "And-command your-slave-girls and-the-servants, when they-know that the-caliph has-come from the-journey, that they-scatter the-chopped-straw in the-corridors.",
+   "i": "And tell your slave girls and servants that, as soon as they learn the caliph is back from his journey, they are to scatter chaff in the corridors.",
+   "n": "The print splits الدها ليز; read الدَّهَالِيز, the plural of دِهْلِيز, “corridor, vestibule”. Strewing straw or chaff is presumably meant as a sign of mourning; the text does not explain it."
+  },
+  {
+   "t": "فَإِذَا دَخَلَ الْخَلِيفَةُ وَسَأَلَ عَنِ الْخَبَرِ يَقُولُونَ لَهُ إِنَّ قُوتَ الْقُلُوبِ مَاتَتْ وَعَظَّمَ اللَّهُ أَجْرَكَ فِيهَا وَمِنْ مَعَزَّتِهَا عِنْدَ سَيِّدَتِنَا دَفَنَتْهَا فِي قَصْرِهَا",
+   "tr": "fa-idhā dakhala al-khalīfatu wa-saʾala ʿani al-khabari yaqūlūna lahu inna Qūta al-Qulūbi mātat wa-ʿaẓẓama Allāhu ajraka fīhā wa-min maʿazzatihā ʿinda sayyidatinā dafanathā fī qaṣrihā",
+   "l": "And-when enters the-caliph and-asks about the-news, they-say to-him: Verily Qūt al-Qulūb has-died, and-may-God-magnify your-reward in-her, and from her-dearness with our-mistress she-buried-her in her-palace.",
+   "i": "And when the caliph comes in and asks what has happened, they are to say: Qūt al-Qulūb has died, and may God make great your reward for her; and out of her fondness for her, our mistress buried her in her own palace.",
+   "n": "وعظّم الله أجرك is the standard Muslim condolence, a wish: “may God enlarge your reward” (for bearing the loss). Note that the servants speak of Zubayda as “our mistress”."
+  },
+  {
+   "t": "فَإِذَا سَمِعَ ذَلِكَ يَبْكِي وَيَعِزُّ عَلَيْهِ فَإِنَّهُ يَعْمَلُ لَهَا الْخُتُومَاتِ وَيَسْهَرُ عَلَى قَبْرِهَا",
+   "tr": "fa-idhā samiʿa dhālika yabkī wa-yaʿizzu ʿalayhi fa-innahu yaʿmalu lahā al-khutūmāti wa-yashharu ʿalā qabrihā",
+   "l": "And-when he-hears that, he-weeps and-it-is-dear/hard upon-him, and-he will-make for-her the-completions and-keep-vigil over her-grave.",
+   "i": "When he hears that, he will weep and be sorely grieved, and he will have the Qurʾān recited through for her and keep vigil at her grave.",
+   "n": "عزّ عليه (ʿazza ʿalayhi) is “it is hard on him, it grieves him”. الختومات are khatmas, complete recitations of the Qurʾān held for the dead."
+  },
+  {
+   "t": "فَإِنْ قَالَ فِي نَفْسِهِ إِنَّ بِنْتَ عَمِّي زُبَيْدَةَ مِنْ غِيرَتِهَا سَعَتْ فِي هَلَاكِ قُوتِ الْقُلُوبِ أَوْ غَلَبَ عَلَيْهِ الْهُيَامُ فَيَأْمُرُ بِإِخْرَاجِهَا مِنَ الْقَبْرِ فَلَا تَفْزَعِي مِنْ ذَلِكَ",
+   "tr": "fa-in qāla fī nafsihi inna binta ʿammī Zubaydata min ghīratihā saʿat fī halāki Qūti al-Qulūbi aw ghalaba ʿalayhi al-huyāmu fa-yaʾmuru bi-ikhrājihā mina al-qabri fa-lā tafzaʿī min dhālika",
+   "l": "And-if he-says within-himself: Verily the-daughter-of my-paternal-uncle Zubayda, from her-jealousy, strove in the-destruction of-Qūt al-Qulūb, or overcame upon-him the-frenzy, then-he-commands the-bringing-out of-her from the-grave: then do-not be-alarmed at that.",
+   "i": "And if he tells himself that his cousin Zubayda, out of jealousy, worked Qūt al-Qulūb's destruction, or if frenzied passion overmasters him, he may order her taken out of the grave. Do not be alarmed at that.",
+   "n": "بنت عمي (“daughter of my paternal uncle”) is the Arabic for a cousin on the father's side; Zubayda was the caliph's cousin as well as his wife. الهيام (al-hiyām) is the madness of love, a passion that unseats reason."
+  },
+  {
+   "t": "فَلَمَّا يَحْفِرُونَ وَيَطْلُعُونَ عَلَى تِلْكَ الصُّورَةِ الَّتِي كَبَنِي آدَمَ فَيَرَاهَا وَهِيَ مُكَفَّنَةٌ بِالْأَكْفَانِ الْمُفْتَخِرَةِ",
+   "tr": "fa-lammā yaḥfirūna wa-yaṭlaʿūna ʿalā tilka al-ṣūrati allatī ka-banī ādama fa-yarāhā wa-hiya mukaffanatun bi-al-akfāni al-muftakhirati",
+   "l": "And-when they-dig and-come-upon that the-figure which is-like the-sons-of Adam, and-he-sees-it, and-it shrouded in-the-shrouds the-splendid-ones,",
+   "i": "When they dig and come upon that figure, made in the likeness of a human being, he will see it wrapped in costly shrouds,",
+   "n": "فلما يحفرون is لمّا followed by the imperfect, “when they dig”, a Middle Arabic pattern in place of the Classical perfect. المفتخرة (literally “boasting, proud”) is used for “splendid”; Classical would say الفاخرة."
+  },
+  {
+   "t": "فَإِنْ أَرَادَ الْخَلِيفَةُ إِزَالَةَ الْأَكْفَانِ عَنْهَا لِيَنْظُرَهَا فَامْنَعِيهِ أَنْتِ مِنْ ذَلِكَ وَالْأُخْرَى تَمْنَعُهُ وَتَقُولُ لَهُ رُؤْيَةُ عَوْرَتِهَا حَرَامٌ",
+   "tr": "fa-in arāda al-khalīfatu izālata al-akfāni ʿanhā li-yanẓurahā fa-imnaʿīhi anti min dhālika wa-al-ukhrā tamnaʿuhu wa-taqūlu lahu ruʾyatu ʿawratihā ḥarāmun",
+   "l": "And-if wants the-caliph the-removal of-the-shrouds from-her in-order-that-he-look-at-her, then-prevent-him, you, from that, and-the-other prevents-him and-says to-him: The-seeing of-her nakedness is forbidden.",
+   "i": "And if the caliph wants to strip the shrouds from her to look at her, you must stop him; and the other woman will hold him back too, telling him that to see her nakedness is forbidden.",
+   "n": "والأخرى (“and the other [woman]”) is not clear. The old woman is the one who later says “put her back”, so I take her to mean herself, speaking of herself at one remove; she may also mean a second attendant. عورة (ʿawra) is whatever must be kept covered, the private parts."
+  },
+  {
+   "t": "فَيُصَدِّقُ حِينَئِذٍ أَنَّهَا مَاتَتْ فَيُعِيدُهَا إِلَى مَكَانِهَا وَيَشْكُرُكِ عَلَى فِعْلِكِ وَتَخْلُصِينَ أَنْتِ إِنْ شَاءَاللَّهُ تَعَالَى مِنْ هَذِهِ الْوَرْطَةِ",
+   "tr": "fa-yuṣaddiqu ḥīnaʾidhin annahā mātat fa-yuʿīduhā ilā makānihā wa-yashkuruki ʿalā fiʿlika wa-takhluṣīna anti in shāʾa Allāhu taʿālā min hādhihi al-warṭati",
+   "l": "And-he-believes then that she died, and-returns-her to her-place, and-thanks-you for your-deed, and-you-escape, you, if God-wills, the-Exalted, from this the-predicament.",
+   "i": "Then he will believe that she is dead, put her back in her place and thank you for what you did, and you, God willing, will be out of this predicament."
+  },
+  {
+   "t": "فَلَمَّا سَمِعَتِ السِّتُّ زُبَيْدَةُ كَلَامَهَا رَأَتْهُ صَوَابًا فَخَلَعَتْ عَلَيْهَا خِلْعَةً وَأَمَرَتْهَا أَنْ تَفْعَلَ ذَلِكَ بَعْدَ مَا أَعْطَتْهَا جُمْلَةً مِنَ الْمَالِ",
+   "tr": "fa-lammā samiʿati al-sittu Zubaydatu kalāmahā raʾathu ṣawāban fa-khalaʿat ʿalayhā khilʿatan wa-amarathā an tafʿala dhālika baʿda mā aʿṭathā jumlatan mina al-māli",
+   "l": "And-when heard the-lady Zubayda her-speech, she-saw-it right, and-she-bestowed upon-her a-robe-of-honour, and-commanded-her that she-do that, after she-gave-her a-sum of the-money.",
+   "i": "When Lady Zubayda heard her words she judged them sound, and she bestowed a robe of honour on her, gave her a good sum of money, and bade her carry out the plan.",
+   "n": "خلع عليها خلعة, “she bestowed a robe on her”, is the formal gesture of favour. The sum is given before the order is carried out."
+  },
+  {
+   "t": "فَشَرَعَتِ الْعَجُوزُ فِى الْحَالِ وَأَمَرَتِ النَّجَّارَ أَنْ يَعْمَلَ لَهَا صُورَةً كَمَا ذَكَرْنَا",
+   "tr": "fa-sharaʿati al-ʿajūzu fī al-ḥāli wa-amarati al-najjāra an yaʿmala lahā ṣūratan ka-mā dhakarnā",
+   "l": "And-began the-old-woman at the-moment, and-commanded the-carpenter that he-make for-her a-figure, as we-mentioned.",
+   "i": "The old woman set about it at once and ordered a carpenter to make the figure as described above.",
+   "n": "كما ذكرنا (“as we mentioned”) is the narrator's “we”, Shahrazād referring back to the old woman's instructions."
+  },
+  {
+   "t": "وَبَعْدَ تَمَامِ الصُّورَةِ جَاءَتْ بِهَا إِلَى السِّتِّ زُبَيْدَةَ فَكَفَّنَتْهَا وَدَفَنَتْهَا وَأَوْقَدَتِ الشُّمُوعَ وَالْقَنَادِيلَ وَفَرَشَتِ الْبُسُطَ حَوْلَ الْقَبْرِ وَلَبِسَتِ السَّوَادَ وَأَمَرَتِ الْجَوَارِيَ أَنْ يَلْبَسْنَ السَّوَادَ",
+   "tr": "wa-baʿda tamāmi al-ṣūrati jāʾat bihā ilā al-sitti Zubaydata fa-kaffanathā wa-dafanathā wa-awqadati al-shumūʿa wa-al-qanādīla wa-farashati al-busuṭa ḥawla al-qabri wa-labisati al-sawāda wa-amarati al-jawāriya an yalbasna al-sawāda",
+   "l": "And-after the-completion of-the-figure, she-came with-it to the-lady Zubayda, and-she-shrouded-it and-buried-it, and-lit the-candles and-the-lamps, and-spread the-carpets around the-grave, and-put-on the-black, and-commanded the-slave-girls that they-put-on the-black.",
+   "i": "When the figure was finished, the old woman brought it to Lady Zubayda, who shrouded it and buried it, lit the candles and lamps, spread carpets around the grave, put on black, and ordered her slave girls to do the same.",
+   "n": "Every verb here is feminine singular, so the print does not mark the change of subject. I take the old woman as the subject of “she came with it” and Zubayda as the subject of the rest, since it is Zubayda who wears black and commands the slave girls."
+  },
+  {
+   "t": "وَاشْتَهَرَ الْأَمْرُ فِى الْقَصْرَانِ قُوتُ الْقُلُوبِ مَاتَتْ",
+   "tr": "wa-ishtahara al-amru fī al-qaṣrāni Qūtu al-Qulūbi mātat",
+   "l": "And-became-widely-known the-matter in the-two-palaces: Qūt al-Qulūb has-died.",
+   "i": "And word went round both palaces: Qūt al-Qulūb is dead."
+  },
+  {
+   "t": "فَبَعْدَ مُدَّةٍ أَقْبَلَ الْخَلِيفَةُ مِنْ غَيْبَتِهِ وَطَلَعَ إِلَى قَصْرِهِ وَلَكِنْ مَالَهُ شُغْلٌ إِلَّا قُوتُ الْقُلُوبِ",
+   "tr": "fa-baʿda muddatin aqbala al-khalīfatu min ghaybatihi wa-ṭalaʿa ilā qaṣrihi wa-lākin mālahu shughlun illā Qūtu al-Qulūbi",
+   "l": "And-after a-while advanced the-caliph from his-absence, and-went-up to his-palace, but there-was-not to-him an-occupation except Qūt al-Qulūb.",
+   "i": "After a while the caliph came back from his absence and went up to his palace, though he had no thought for anything but Qūt al-Qulūb.",
+   "n": "The print writes ماله as one word. ما له شغل إلا X is “he has no business but X”, the idiom for being wholly preoccupied."
+  },
+  {
+   "t": "فَرَأَى الْغِلْمَانَ وَالْخُدَّامَ وَالْجَوَارِيَ كُلَّهُمْ لَابِسِينَ السَّوَادَ فَرَجَفَ فُؤَادُ الْخَلِيفَةِ",
+   "tr": "fa-raʾā al-ghilmāna wa-al-khuddāma wa-al-jawāriya kullahum lābisīna al-sawāda fa-rajafa fuʾādu al-khalīfati",
+   "l": "And-he-saw the-boys and-the-servants and-the-slave-girls, all-of-them wearing the-black, and-quaked the-heart of-the-caliph.",
+   "i": "He saw the pages, the servants and the slave girls, every one of them dressed in black, and the caliph's heart shook within him."
+  },
+  {
+   "t": "فَلَمَّا دَخَلَ الْقَصْرَ عَلَى السِّتِّ زُبَيْدَةَ رَآهَا لَابِسَةً لِلسَّوَادِ فَسَأَلَ الْخَلِيفَةُ عَنْ ذَلِكَ فَأَخْبَرُوهُ بِمَوْتِ قُوتِ الْقُلُوبِ",
+   "tr": "fa-lammā dakhala al-qaṣra ʿalā al-sitti Zubaydata raʾāhā lābisatan li-al-sawādi fa-saʾala al-khalīfatu ʿan dhālika fa-akhbarūhu bi-mawti Qūti al-Qulūbi",
+   "l": "And-when he-entered the-palace upon the-lady Zubayda, he-saw-her wearing for-the-black, and-asked the-caliph about that, and-they-informed-him of-the-death of-Qūt al-Qulūb.",
+   "i": "When he went into the palace to Lady Zubayda and saw her dressed in black, the caliph asked the reason, and they told him of Qūt al-Qulūb's death.",
+   "n": "لابسة للسواد: لابس normally takes its object directly (لابسةً السوادَ, as in the previous sentence); here the object is introduced by a pleonastic لـ, a common Middle Arabic habit."
+  },
+  {
+   "t": "فَوَقَعَ مُغْشِيًّا عَلَيْهِ فَلَمَّا أَفَاقَ سَأَلَ عَنْ قَبْرِهَا",
+   "tr": "fa-waqaʿa mughshiyyan ʿalayhi fa-lammā afāqa saʾala ʿan qabrihā",
+   "l": "And-he-fell overcome-with-swoon upon-him; and-when he-recovered he-asked about her-grave.",
+   "i": "He fell down in a swoon, and when he came to himself he asked where her grave was."
+  },
+  {
+   "t": "فَقَالَتِ السِّتُّ زُبَيْدَةُ اعْلَمْ يَا أَمِيرَالْمُؤْمِنِينَ أَنَّنِي مِنْ مَعَزَّتِهَا عِنْدِي دَفَنْتُهَا فِي قَصْرِي",
+   "tr": "fa-qālati al-sittu Zubaydatu iʿlam yā amīra al-muʾminīna annanī min maʿazzatihā ʿindī dafantuhā fī qaṣrī",
+   "l": "And-said the-lady Zubayda: Know, O commander of-the-believers, that-I, from her-dearness with-me, buried-her in my-palace.",
+   "i": "Lady Zubayda said: Know, Commander of the Faithful, that she was so dear to me that I buried her in my own palace.",
+   "n": "The print writes اميرالمؤمنين as one word. من معزتها عندي is “from (= because of) her dearness to me”."
+  },
+  {
+   "t": "فَدَخَلَ الْخَلِيفَةُ بِثِيَابِ السَّفَرِ إِلَى قَبْرِ قُوتِ الْقُلُوبِ لِيَزُورَهَا فَوَجَدَ الْبُسُطَ مَفْرُوشَةً وَالشُّمُوعَ وَالْقَنَادِيلَ مَوْقُودَةً",
+   "tr": "fa-dakhala al-khalīfatu bi-thiyābi al-safari ilā qabri Qūti al-Qulūbi li-yazūrahā fa-wajada al-busuṭa mafrūshatan wa-al-shumūʿa wa-al-qanādīla mawqūdatan",
+   "l": "And-entered the-caliph in-the-clothes of-the-journey to the-grave of-Qūt al-Qulūb in-order-to-visit-her, and-found the-carpets spread and-the-candles and-the-lamps lit.",
+   "i": "So the caliph went, still in his travelling clothes, to the grave of Qūt al-Qulūb to visit her, and found the carpets spread and the candles and lamps burning.",
+   "n": "موقودة is feminine singular for a plural of things, as Arabic regularly does with inanimates."
+  },
+  {
+   "t": "فَلَمَّا رَآى ذَلِكَ شَكَرَهَا عَلَى فِعْلِهَا فَبَقِيَ حَائِرًا فِي أَمْرِةِ وَهُوَ مَا بَيْنَ مُصَدِّقٍ وَمُكَذِّبٍ",
+   "tr": "fa-lammā raʾā dhālika shakarahā ʿalā fiʿlihā fa-baqiya ḥāʾiran fī amrihi wa-huwa mā bayna muṣaddiqin wa-mukadhdhibin",
+   "l": "And-when he-saw that, he-thanked-her for her-deed, and-remained perplexed in his-affair, and-he between a-believer and-a-disbeliever.",
+   "i": "When he saw this he thanked her for what she had done, yet he stayed perplexed about the matter, torn between belief and disbelief.",
+   "n": "امرة is printed with ة (tāʾ marbūṭa); a misprint for امره (amrihi, “his affair”) is almost certain, and that is how it is read. ما بين: the ما is only a filler before بين."
+  },
+  {
+   "t": "فَلَمَّا غَلَبَ عَلَيْهِ الْوَسْوَاسُ أَمَرَ بِحَفْرِ الْقَبْرِ وَأَخْرَجَهَا مِنْهُ",
+   "tr": "fa-lammā ghalaba ʿalayhi al-waswāsu amara bi-ḥafri al-qabri wa-akhrajahā minhu",
+   "l": "And-when overcame upon-him the-whispering-of-doubt, he-commanded the-digging of-the-grave, and-brought-her-out from-it.",
+   "i": "But when doubt got the better of him, he ordered the grave dug up and her brought out of it.",
+   "n": "الوسواس (al-waswās) is the insidious inner whispering, here a nagging doubt; it is also the word for the devil's prompting."
+  },
+  {
+   "t": "فَلَمَّا رَآى الْكَفَنَ وَأَرَادَأَنْ يُزِيلَهُ عَنْهَا لِيَرَاهَا خَافَ مِنَ اللَّهِ تَعَالَى",
+   "tr": "fa-lammā raʾā al-kafana wa-arāda an yuzīlahu ʿanhā li-yarāhā khāfa mina Allāhi taʿālā",
+   "l": "And-when he-saw the-shroud and-wanted that he-remove-it from-her in-order-to-see-her, he-feared from God the-Exalted.",
+   "i": "But when he saw the shroud and was about to remove it from her to look at her, he feared God Most High.",
+   "n": "The print runs وأراد and أن together (وارادان). خاف من is “to fear”, with the person or power feared introduced by من."
+  },
+  {
+   "t": "فَقَالَتِ الْعَجُوزُ رُدُّوهَا إِلَى مَكَانِهَا",
+   "tr": "fa-qālati al-ʿajūzu ruddūhā ilā makānihā",
+   "l": "And-said the-old-woman: Return-her to her-place.",
+   "i": "Then the old woman said: Put her back where she was."
+  },
+  {
+   "t": "ثُمَّ إِنَّ الْخَلِيفَةَ أَمَرَ فِى الْحَالِ بِإِحْضَارِ الْفُقَهَاءِ وَالْمُقْرِئِينَ وَعَمِلَ الْخُتُومَاتِ عَلَى قَبْرِهَا وَجَلَسَ بِجَانِبِ الْقَبْرِ يَبْكِي إِلَى أَنْ غُشِيَ عَلَيْهِ وَلَمْ يَزَلْ قَاعِدًا عَلَى قَبْرِهَا شَهْرًا كَامِلًا",
+   "tr": "thumma inna al-khalīfata amara fī al-ḥāli bi-iḥḍāri al-fuqahāʾi wa-al-muqriʾīna wa-ʿamila al-khutūmāti ʿalā qabrihā wa-jalasa bi-jānibi al-qabri yabkī ilā an ghushiya ʿalayhi wa-lam yazal qāʿidan ʿalā qabrihā shahran kāmilan",
+   "l": "Then, verily the-caliph commanded at-once the-bringing-present of-the-jurists and-the-reciters, and-made the-completions over her-grave, and-sat beside the-grave weeping until he-was-swooned upon, and-did-not cease sitting upon her-grave a-month complete.",
+   "i": "Then the caliph at once ordered the jurists and Qurʾān reciters to be summoned, and had the Qurʾān recited through at her grave. He sat beside the tomb weeping until he swooned, and he kept his seat at her grave for a whole month.",
+   "n": "الفقهاء are the scholars of religious law; المقرئين the professional Qurʾān reciters."
+  },
+  {
+   "t": "وَأَدْرَكَ شَهْرَزَادَ الصَّبَاحُ فَسَكَتَتْ عَنِ الْكَلَامِ الْمُبَ—احِ",
+   "tr": "wa-adraka Shahrazāda al-ṣabāḥu fa-sakatat ʿani al-kalāmi al-mubāḥi",
+   "l": "And-overtook Shahrazād the-morning, and-she-fell-silent from the-speech the-permitted.",
+   "i": "Then morning overtook Shahrazād, and she fell silent, breaking off her permitted speech.",
+   "n": "The night-ending formula. The dash inside المب—اح is a printing artefact; the word is المباح, “the permitted”, as in the stock phrase for the speech Shahrazād is allowed to utter."
+  }
+ ]
+}

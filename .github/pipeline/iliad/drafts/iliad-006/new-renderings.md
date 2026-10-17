@@ -4,11 +4,11 @@ Table rows in the format of `conventions.md`: Greek | `l` | `i` | avoided on pur
 
 | Greek | `l` | `i` | avoided on purpose |
 |---|---|---|---|
-| τὴν δὲ μέγ’ ὀχθήσας προσέφη νεφεληγερέτα Ζεύς (1.517, whole-line speech introduction) | "Her, greatly vexed, addressed cloud-gatherer Zeus:" | "Greatly vexed, Zeus who gathers the clouds said to her:" | "angered", "much troubled", "grieved"; follows the Odyssey table’s νεφεληγερέτα Ζεύς and προσέφη "addressed / said to" |
-| ὀχθέω (ὀχθήσας 1.517, ὄχθησαν 1.570) | "vexed" · "were vexed" | "vexed" · "were vexed" | "grieved", "indignant", "troubled" (reserved for other verbs of grief); ὀχθέω is a mood of annoyance, so one English word serves Zeus and the gods |
+| τὴν δὲ μέγ’ ὀχθήσας προσέφη νεφεληγερέτα Ζεύς (1.517, whole-line speech introduction) | "Her, greatly vexed, addressed cloud-gatherer Zeus:" | "Greatly troubled, Zeus who gathers the clouds said to her:" | "angered", "much troubled", "grieved"; follows the Odyssey table’s νεφεληγερέτα Ζεύς and προσέφη "addressed / said to" |
+| ὀχθέω (ὀχθήσας 1.517, ὄχθησαν 1.570) | "vexed" · "were vexed" | "troubled" · "were troubled" (the Odyssey’s) | "grieved", "indignant"; ὀχθέω is a mood of annoyance, so one English word serves Zeus and the gods |
 | λοίγια ἔργα (1.518, 1.573; λοιγός "ruin", 1.341) | "ruin-bringing deeds" | "a disastrous business" | "ruinous" (reserved for οὐλόμενος), "baneful", "deadly deeds"; the same rendering at both places because Hephaestus repeats Zeus’ words |
 | ἐχθοδοπῆσαι ἐφήσεις (1.518; ἐχθοδοπέω rare, "be at enmity") | "you will set me to be at enmity" | "you will set me at odds" | "make me quarrel", "pit me against", "make an enemy of me"; ἐφίημι "send upon, set to" as in the table’s χεῖρας ἐφήσεις "lay hands" |
-| ἣ δὲ καὶ αὔτως (1.520) | "and she, even as it is" | "even without cause" | "needlessly", "for nothing at all", "in vain"; αὔτως "just so, without ground" |
+| ἣ δὲ καὶ αὔτως (1.520) | "and she, even just so" | "even without cause" | "needlessly", "for nothing at all", "in vain"; αὔτως "just so, without ground" |
 | νεικεῖ (1.521) | "rebukes" | "is … rebuking" | "scolds", "reviles", "taunts"; keeps the Odyssey’s νεικέω "rebuke" (νείκεσε "reviled" is reserved for the stronger verb with ἄντην) |
 | κατανεύω · νεῦσε · κατανεύσομαι · κατάνευσον (1.514, 1.524, 1.527, 1.528, 1.558) | "nod assent" · "nodded" | "nod (one’s) assent" · "nodded" | "grant", "promise" (ὑπίσχομαι), "agree", "consent"; the verb is νεύω "nod" with κατά "down, in assent" |
 | νημερτές (1.514, neuter adverb) | "unerringly" | "truly" | "without fail" (loses νημερτής "unerring" of the Odyssey), "frankly", "honestly" |
@@ -20,10 +20,10 @@ Table rows in the format of `conventions.md`: Greek | `l` | `i` | avoided on pur
 | ἀμβρόσιαι χαῖται ἐπερρώσαντο (1.529) | "ambrosial locks streamed forward" | "the ambrosial locks … streamed forward" | "swayed" (turned down in the Odyssey table for ἐπερρώοντο), "rippled", "shook", "were stirred"; ἀμβρόσιος keeps "ambrosial" |
 | ἐλέλιξεν (1.530) | "shook" | "shook" | "made tremble", "set quaking", "rocked"; ἐλελίζω "make quiver, shake" |
 | τώ γ’ ὣς βουλεύσαντε διέτμαγεν (1.531, duals) | "The two, having so taken counsel, parted;" | "Having made their plan in this way, the two parted;" | "agreed", "plotted", "conspired"; βουλεύω "take counsel, plan", the dual kept as "the two" |
-| ἠγνοίησεν ἰδοῦσ’ (1.536–537) | "was not ignorant" | "was not unaware" | "failed to notice" (reverses the sense of ἀγνοιέω), "did not miss"; double negative kept |
+| ἠγνοίησεν ἰδοῦσ’ (1.536–537) | "did not fail to recognize" | "did not fail to know" | "was not ignorant", "was not unaware", "failed to notice" (reverses the sense of ἀγνοιέω), "did not miss"; follows odyssey-022 (5.77); double negative kept |
 | συμφράσσατο βουλάς (1.537, 1.540) | "devised plans" | "had been devising plans" · "has been devising plans" | "plotted", "schemed"; συμφράζομαι "devise together"; βουλή "plan", but "will" avoided as in the table’s Διὸς βουλή |
 | ἀργυρόπεζα Θέτις θυγάτηρ ἁλίοιο γέροντος (1.538, 1.556) | "silver-footed Thetis, daughter of the old man of the sea" | "silver-footed Thetis, the daughter of the old man of the sea" | "Nereus’ daughter" (names who the Greek does not name); Odyssey table’s ἀργυρόπεζα Θέτις "silver-footed Thetis" and ἁλίοιο γέροντος "the old man of the sea"; the same words at both places |
-| κερτομίοισι … προσηύδα (1.539) | "with taunts she spoke to" | "she spoke … with taunts" | "mocking words" (the Odyssey table keeps the adjective alone, "taunts"), "sneers"; προσαυδάω "speak to" |
+| κερτομίοισι … προσηύδα (1.539) | "with taunting ones she spoke to" | "she spoke … with taunts" | "mocking words" (the Odyssey table’s `l` for κερτομίοισι is "with taunting ones"), "sneers"; προσαυδάω "speak to" |
 | δολομῆτα (1.540, vocative) | "you of guileful counsel" | "you of guileful counsel" | "schemer", "crafty one", "wily"; δολόμητις "of guileful counsel" is the Odyssey’s rendering of Aegisthus’ epithet |
 | κρυπτάδια φρονέοντα δικαζέμεν (1.542) | "thinking secret things, to give judgement" | "to think your secret thoughts and pass judgement on them" | "to plot in secret" (loses δικάζω), "to decide alone", "to scheme"; δικάζω "give judgement" |
 | ἐπιέλπεο … εἰδήσειν (1.545–546) | "do not hope … to know" | "do not hope to know" | "do not expect", "do not presume"; ἐλπίζω family is "hope" |
@@ -43,7 +43,7 @@ Table rows in the format of `conventions.md`: Greek | `l` | `i` | avoided on pur
 | ἐπιγνάμψασα φίλον κῆρ (1.569) | "having bent her dear heart" | "having forced her dear heart to yield" | "swallowed her anger", "curbed her spirit", "mastered her feelings"; ἐπιγνάμπτω "bend", κῆρ "heart" |
 | Ἥφαιστος κλυτοτέχνης (1.571) | "Hephaestus, famous in craft" | "Hephaestus, famous in craft" | "renowned craftsman" (table’s own avoided), "the master smith"; keeps the Odyssey table’s κλυτοτέχνης "famous in craft" |
 | τοῖσιν δ’ Ἥφαιστος κλυτοτέχνης ἦρχ’ ἀγορεύειν (1.571, whole-line speech introduction) | "and among them Hephaestus, famous in craft, began to speak," | "and Hephaestus, famous in craft, was the first to speak among them," | "addressed", "began to harangue"; follows the Odyssey table’s ἦρχ’ ἀγορεύειν "began to speak" / "was the first to speak" |
-| ἐπίηρα φέρων · ἐπίηρα φέρειν (1.572, 1.578) | "bringing what pleases" · "to bring pleasing things" | "trying to please" · "to please" | "bringing a kindness", "doing a favour", "offering comfort"; ἐπίηρος "pleasing", φέρω "bring" |
+| ἐπίηρα φέρων · ἐπίηρα φέρειν (1.572, 1.578) | "bringing pleasing things" · "to bring pleasing things" | "trying to please" · "to please" | "bringing a kindness", "doing a favour", "offering comfort"; ἐπίηρος "pleasing", φέρω "bring" |
 | οὐδ’ ἔτ’ ἀνεκτά (1.573) | "no longer bearable" | "no longer to be borne" | "intolerable", "unendurable"; follows the Odyssey table’s ἀνεκτός ("bearable" in `l`) |
 | ἐριδαίνετον (1.574, dual) | "you two … quarrel" | "you two quarrel" | "contend", "wrangle", "fight"; ἐριδαίνω "quarrel" as the Odyssey table’s ἐριδαίνομεν |
 | κολῳὸν ἐλαύνετον (1.575; κολῳός rare) | "an uproar you two drive on" | "keep an uproar going" | "brawl", "tumult" (each picks a degree), "stir up trouble"; ἐλαύνω "drive" |
@@ -51,11 +51,11 @@ Table rows in the format of `conventions.md`: Greek | `l` | `i` | avoided on pur
 | νεικείῃσι … σὺν … ταράξῃ (1.579) | "may rebuke, … confound" | "may not rebuke again and throw … into confusion" | "scold", "upset", "ruin the feast"; ταράσσω "stir up, confuse" |
 | Ὀλύμπιος ἀστεροπητής (1.580, 1.609) | "the Olympian, the lightning-flasher" | "the Olympian who flashes lightning" | "lord of lightning", "the thunderer" (reserved for ὑψιβρεμέτης "high-thundering"), "lightning-hurler"; ἀστεροπητής from ἀστεροπή "lightning" |
 | στυφελίξαι (1.581) | "thrust" | "drive" | "hurl", "strike", "knock"; στυφελίζω "strike hard, thrust out" |
-| φέρτατος (1.581) | "by far the best" | "by far the best of us" | "the strongest" (κάρτιστοι), "the mightiest" (ἴφθιμοι); keeps the Odyssey’s πολὺ φέρτατος "by far the best"; the note says the sense is power |
+| φέρτατος (1.581) | "by far the best" | "by far the best of us" (+ note: "of us" is supplied) | "the strongest" (κάρτιστοι), "the mightiest" (ἴφθιμοι); keeps the Odyssey’s πολὺ φέρτατος "by far the best"; the note says the sense is power |
 | ἵλαος (1.583) | "gracious" | "gracious" | "kindly", "propitious", "merciful"; the adjective of ἱλάσκομαι "appease" |
-| ὣς ἄρ’ ἔφη καὶ ἀναΐξας … καί μιν προσέειπε (1.584–585) | "So then he spoke, and springing up, … and addressed her:" | "So he spoke, and sprang up and … said to her:" | "leapt up" (kept for ἀναπηδάω); follows the Odyssey table’s ἀναΐξας "sprang up" / "leapt up" |
+| ὣς ἄρ’ ἔφη καὶ ἀναΐξας … καί μιν προσέειπε (1.584–585) | "So then he spoke, and having sprung up, … and addressed her:" | "So he spoke, and sprang up and … said to her:" | "leapt up" (kept for ἀναπηδάω); follows the Odyssey table’s ἀναΐξας "having sprung up" / "sprang up" |
 | τέτλαθι · ἀνάσχεο (1.586) | "Endure" · "hold out" | "Endure it" · "bear up" | "be patient", "put up with it"; τέτλαθι keeps the Odyssey’s "Endure"; ἀνέχομαι "hold out" |
-| κηδομένη περ (1.586) | "grieved though you are" | "troubled as you are" | "though you care", "caring for him"; κήδομαι "care for" (1.196) is here "be distressed" |
+| κηδομένη περ (1.586) | "grieved though you are" | "worried as you are" | "though you care", "caring for him"; κήδομαι "care for" (1.196) is here "be distressed" |
 | θεινομένην (1.588) | "being struck" | "being struck" | "beaten", "hit", "smitten"; θείνω "strike" |
 | ἀργαλέος … ἀντιφέρεσθαι (1.589) | "hard … to oppose" | "hard to stand against" | "to resist" (reserved for ἀνθίστημι), "to fight"; ἀργαλέος "hard" (the Odyssey’s ἀργαλέος) |
 | ἀλεξέμεναι μεμαῶτα (1.590) | "eager to defend" | "eager to defend you" (+ note: no object in the Greek) | "to help", "to ward off", "to protect"; ἀλέξω "ward off, defend" |

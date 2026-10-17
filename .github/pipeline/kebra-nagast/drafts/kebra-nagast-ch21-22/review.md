@@ -64,3 +64,84 @@ Totals: 12 moderate, 20 minor, 0 major.
 - Known-forms consistency: እግዚኣብሔር "God", ክብረ "glory", ዘኢይነቅዝ "which-not-it-rots", ኢትዮጵያ, ሰሎሞን, ኀበ, ማውታ (the "sense uncertain" in the known entry sits oddly with the confident "orphan" here, but እጓለ ማውታ as "orphan" is the established idiom) all agree with the published parts.
 
 Gloss follow-ups for the glosser (not changed here): ህንደኬ (not ህንድ), ወአሕማረኒ (accusative + -ኒ), ርኢዮ (gerund), ይእትቱ (root unplaced), ዕንቈ (accusative), ቤቶ (accusative), ሣእሣአ (ś-series).
+
+## Pass 2
+
+Reviewer pass 2. Read: conventions.md, runbook.md, packet.md, units.json, gloss.json, novel-forms.json, known-forms.json, review.md, and the glossaries of kebra-nagast-ch1.json and kebra-nagast-ch17-20.json (house entries). No modern translation opened. Dillmann is unavailable: every word marked unresolved stays unresolved for that reason. All 212 novel-form entries and the 3 (now 6) `__broaden__` entries were checked against the text where each occurs and against Geʿez grammar (lemma shape, person/number/gender, tense, stem, state, proclitics and enclitics), the numerals by spoken words and by the build's own transliteration function (hooks.build_word), and gloss against `l`/`i` of units.json. Edits were made by script (gloss.json, units.json); `t` and `p` were verified identical to the packet before and after (1858 characters), gloss keys are exactly the 212 keys of novel-forms.json, and build and validate PASS (the built output was discarded; only gloss.json, units.json, review.md are changed).
+
+Checks that came out clean: every other lemma is a genuine dictionary shape (verbs 3ms perfect; nouns singular absolute) and its parse fits the form, including ዘከርዋ, ይወቅሦሙ, ትስማዕ, ዘወሀባ, ወህባ (ወ is root-initial), ይሕንጽ, ይምጽኡ, ይንሥኡ, ይንሣእ, ወነገርዎ, ያምጽእ, ይሬእይዎ, ይኤዝዞሙ, ይምሕሮሙ, ትትፈቀር, ወትትሜነን, ኢያደሉ (causative of the III-w verb), ዘኢኮኑ, ወኢይከውኑ, the -ሁ/-ኦ suffixed noun lists of unit 13, and the proclitic/enclitic analyses (ወ ለ በ ዘ እም, -ሰ -ኒ -ሂ). Numeral number words are correct (21 ዕሥራ ወአሐዱ, 22 ዕሥራ ወክልኤቱ, 520 ሐምስቱ ምእት ወዕሥራ, 73 ሰብዓ ወሠለስቱ). Lemma is before ' — ' in every entry. Every `__broaden__` entry is the old entry whole + ' · ' + new text (checked by script against known-forms.json and, for the three older ones, kept so). l/i of units.json agree with the glosses apart from the items below.
+
+### Changes (unit/form · field · severity · what was wrong · what was done)
+
+Gloss entries (35 changes: 8 moderate, 27 minor)
+
+- ፳፩ · gloss · minor · transliteration ʾäḥadu wrong (ሐ is 1st order ä, ዱ du: ʾäḥädu); house shape '— N, spoken … ; chapter number (numeral)' restored.
+- ፳፪ · gloss · minor · house shape restored ('(numeral)' tag, literal 'twenty and two'); number words and transliteration checked and correct.
+- ፭፻ · gloss · minor · transliteration ḥämstu does not follow the schwa rule (build reads ሐምስቱ ḥämsətu); '(numeral)' tag; number words correct.
+- ወ፳ · gloss · minor · spoken words should include the ወ ('and') of the key, as ዘ፫፻፲ወ፰ does in ch. 1; '(numeral)' tag.
+- ፸ወ፫ · gloss · minor · house shape ('73', '(numeral)'); number words and transliteration correct.
+- __broaden__ ፩ · gloss · minor · transliteration ʾäḥadu -> ʾäḥädu (1st-order ሐ, 3rd-order ዱ).
+- አዜብ · gloss · minor · 'genitive' is not a Geʿez case; replaced by the construct-chain description.
+- አይሁድ · gloss · minor · 'genitive' misnames the grammar.
+- ዐረብ · gloss · minor · 'genitive' misnames the grammar.
+- ዘአንስት · gloss · minor · 'ዘ- genitive/relative' blurred; stated plainly.
+- ውስቴቱ · gloss · minor · suffix mis-segmented as -ቴቱ.
+- ሰቃልያን · gloss · minor · singular lemma presented as certain; now flagged as inferred.
+- ለሊሃ · gloss · minor · parenthesis named the masculine as if it were the form's grammar.
+- ርሕቀ · gloss · moderate · lemma ርሕቀት cannot yield the form ርሕቀ (its construct is ርሕቀተ); lemma set to ርሕቅ, flagged uncertain.
+- በራእያኒ · gloss · minor · unexplained -ያ- stem before -ኒ now stated (pass 1 follow-up).
+- በላሕያኒ · gloss · minor · same stem remark.
+- ትሖር · gloss · minor · 'subjunctive' claimed for a form that is the imperfect shape (a strict jussive of ሖረ is ትሑር).
+- ወህንደኬ · gloss · moderate · gloss said 'Hindake' while units l and i say 'India(?)'; made consistent.
+- ነጋድያን · gloss · minor · 'construct-compatible' meaningless; the word is a plain plural in all three places.
+- ወአሕማረኒ · gloss · minor · accusative not stated (pass 1 follow-up).
+- ቀዪሐ · gloss · minor · spelling variant of the lemma not noted.
+- ወሣእሣአ · gloss · moderate · invented lemma ሣእሣእ presented as a dictionary form; now the form as written, unidentified; bracket transliteration made mechanical (ሣ = śa, አ = ʾä).
+- ወተንሥኦቶ · gloss · moderate · lemma ተንሥኦ cannot yield ተንሥኦቶ (the -ት is part of the base, as in ሑረት, ንብረት, ሥርዐት); lemma and parse corrected, flagged.
+- አፉሁ · gloss · minor · tautological parenthesis.
+- ወትመውኦሙ · gloss · moderate · lemma መወአ has the wrong shape (the perfect of root m-w-ʾ is መውአ, imperfect ትመውእ, as the form shows); corrected.
+- ወያክሞስሶሙ · gloss · moderate · invented lemma አክሞሰሰ presented as a dictionary form; now the form as written, unidentified.
+- እምጸቃውዐ · gloss · minor · meaning left as 'the (?) of'; made consistent with l and i ('honeycomb(?)').
+- ይእትቱ · gloss · minor · parse asserted for a form whose root is unplaced.
+- ወዕንቈ · gloss · moderate · lemma ዕንቊ is the wrong sign (qʷi); the 6th-order absolute form is ዕንቍ.
+- ኆልቈ · gloss · moderate · lemma ኆልቊ is the wrong sign (qʷi); the 6th-order absolute form is ኆልቍ.
+- ብዝኁ · gloss · minor · parse asserted without noting the number mismatch with ኮነ.
+- ወዕፀ · gloss · minor · one entry, two occurrences with different case; second use (construct) was not covered.
+- __broaden__ ወከመ · gloss · minor · new use in units 19 and 21 ('and like') not covered by the published 'and that'.
+- __broaden__ በኀበ · gloss · minor · new use in unit 17 ('among') not covered.
+- __broaden__ ውስተ · gloss · minor · new use in unit 11 not covered.
+
+units.json (18 changes: 1 moderate, 17 minor)
+
+- unit 5 · n · moderate · lemma መወአ -> መውአ (as in gloss).
+- unit 13 · l · minor · bracketed transliteration used ā (not a house sign) and final a; the mechanical reading of ሣእሣአ is śaʾśaʾä.
+- unit 13 · i · minor · bracketed transliteration used ā (not a house sign) and final a; the mechanical reading of ሣእሣአ is śaʾśaʾä.
+- unit 13 · n · minor · bracketed transliteration used ā (not a house sign) and final a; the mechanical reading of ሣእሣአ is śaʾśaʾä.
+- unit 13 · n · minor · typo in the Geʿez verb ፈደፈደ for ፈድፈደ.
+- unit 13 · n · minor · stray 'The' and missing ወ- in the quoted word.
+- unit 13 · n · minor · gloss lemma changed; note now agrees.
+- unit 14 · n · minor · ቤቶ is ቤት + -ኦ, not 'the accusative of ቤቱ' (which is itself ቤት + -ሁ).
+- unit 16 · n · minor · final ዐ is 1st order ʿä.
+- unit 21 · l · minor · ሕ is ḥ, not h.
+- unit 21 · i · minor · ሕ is ḥ, not h.
+- unit 21 · l · minor · final ዐ is 1st order ʿä.
+- unit 21 · i · minor · final ዐ is 1st order ʿä.
+- unit 21 · n · minor · lemma sign corrected (ቊ -> ቍ).
+- unit 9 · n · minor · 'or -ə' is wrong: every noun of the list ends in a 1st-order sign.
+- unit 9 · n · minor · 'subject-in-waiting' unclear; ነጋድያነ is accusative in the list.
+- unit 8 · n · minor · 'jussive' misnames the imperfect shape ትሖር.
+- unit 18 · l · minor · l lacked the (?) that i and the gloss carry.
+
+Totals: 0 major, 9 moderate, 44 minor (53 changes).
+
+### Refused or left, with reason
+- Lemma style for tä-stem verbs: ተወልደ, ተፈቀረ, ተመነነ, ተነሥአ are given under the tä-stem, but ተገብረ and ወተመልአኩ-type entries in the house use the G root (ገብረ). Both are genuine dictionary heads (Dillmann lists derived stems under the root), so I did not churn lemmas; the parse in each entry names the stem.
+- ወይሬኢ ወያነክር ወይትዐቀብ ያስተዐጽብ: glossed as narrative past, in agreement with `i` (pass 1 settled this); left.
+- ወህባ: a ህ spelling of ሀ with ወ in the root; correct as the glosser has it.
+- ብርት ባሕሩስ ብርዐ ጸቃውዕ ሣእሣአ ያክሞስሶሙ ይእትቱ: unresolved, Dillmann unavailable; the Amharic ብረት comparison under ብርት is the glosser's memory, unchecked, and is kept only as a hint marked (?).
+- ሣእሣአ and ያክሞስሶሙ: lemma now the form as written (unidentified) rather than an invented dictionary head; if Dillmann is later consulted, re-lemmatise.
+- ትትሜነን ተዋቀሠ ተፋትሐ መውአ አስተዐጸበ ተገሕሠ ላሕይ ሠርሐ: real-looking roots whose senses rest on context; all carry 'unconfirmed' or (?) and the units mark them in `i`.
+- The unit 11 note's remark on its 62 words and the missing ፤ is left: it is an honest editorial note, not a grammar claim.
+- units.json unit-note grammar labels (stems, states, suffixes) were re-read after pass 1: apart from the items above they are accurate. `l`↔`i` are consistent; ህንደኬ 'India(?)' in l, i and gloss now agree.
+
+Unresolved words (Dillmann unavailable): ሣእሣአ (unit 13), ያክሞስሶሙ (15), ይሤርሖን (sense of ሠርሐ), ጸቃውዕ (16, 'honeycomb'), አዳም as predicate (16), ይእትቱ (18, root unplaced), ብርት, ባሕሩስ, ብርዐ (21), ህንደኬ (place or person), ርሕቀ (lemma inferred), ላሕይ, ተዋቀሠ/ተፋትሐ/መውአ senses, ተመነነ, አስተዐጸበ, በኀቤሁ ('from him' vs 'to him'), ብዝኁ (number), ተንሥኦት (base inferred), ሰቃሊ (singular inferred).

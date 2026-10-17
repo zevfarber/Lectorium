@@ -28,3 +28,6 @@ WaveNet free allowance — which for October 2026 is already at its cap (3,598,0
 So iliad-001 gets no audio until November at the earliest, and then behind the remaining Aesop/Ovid backlog
 unless `iliad-` is added to BUILD_ON_PUSH or MISSING_PRIORITY. Not changed here: the audio scripts are shared
 and the order is Zev's.
+
+## iliad-007 last unit (2.83) lacks its closing ” (found at iliad-008, 2026-10-17)
+The published last unit of iliad-007 (2.83) has no closing ” in `l` or `i`, and its note says Nestor's speech "runs on into the next part". It does not: the speech ends at 2.83 and 2.84 is narration. iliad-008 opens without a mark, which is correct. Decided meanwhile: not touched (one part per run, no edits to a published part). To fix: add ” to `l` and `i` of that unit in `drafts/iliad-007/units.json` and `iliad-007.json`, and correct the note.

@@ -19,9 +19,9 @@
 | κάρηνα … κατέλυσε … λύσει (2.117–118) | "has undone the heads … will undo" | "has overthrown the heads … will overthrow more" | "razed the towers", "taken the citadels" (replaces κάρηνα "heads" with a guess); κατέλυσε / λύσει kept as one verb |
 | κράτος … μέγιστον (2.118) | "the strength is greatest" | "his strength is greatest" | "power", "might"; follows the table's κράτος "strength" (1.509) |
 | μὰψ οὕτω (2.120) | "in vain, so" | "to no purpose" | "idly", "for nothing"; the sense is that the war has had no result |
-| ἄπρηκτον πόλεμον πολεμίζειν (2.121) | "a fruitless war … warred" | "a fruitless war" | "unavailing", "useless"; the noun and the verb come from one root and `l` keeps both |
+| ἄπρηκτον πόλεμον πολεμίζειν (2.121) | "a fruitless war to war" | "a fruitless war" | "unavailing", "useless"; the noun and the verb come from one root and `l` keeps both |
 | ὅρκια πιστὰ ταμόντες (2.124) | "faithful oaths having cut" | "to swear faithful oaths" | follows the Odyssey's "faithful oaths having cut" / "faithful oaths sworn" |
-| ἐφέστιοι (2.125) | "hearth-holders" | "who have homes in the city" | "householders", "native", "resident"; the Greek is "at the hearth" |
+| ἐφέστιοι (2.125) | "hearth-holders" | "all who have homes in the city" | "householders", "native", "resident"; the Greek is "at the hearth" |
 | δεκάδες … οἰνοχόοιο (2.126–128) | "tens … a wine-pourer" | "tens … a cupbearer" | follows the table's οἰνοχόος "wine-pourer" / "cupbearer" |
 | ἐγχέσπαλοι (2.131) | "spear-brandishing" | "spear-brandishing" (+ note: formation uncertain) | "spear-wielding", "famed for the spear", "spearmen" (reserved for αἰχμητής) |
 | πλάζουσι (με μέγα πλάζουσι, 2.132) | "greatly drive me astray" | "drive me far off course" | "baffle", "hinder", "make me wander" (reserved for ἀλάομαι); follows the table's πλάζω "drive off course" |
@@ -48,7 +48,7 @@
 | φίλης ἀπὸ πατρίδος αἴης (2.162, 2.178) | "away from their dear fatherland" | "far from their dear fatherland" | "from their dear native soil"; follows the table's φίλη πατρὶς αἶα "dear fatherland" |
 | σοῖς ἀγανοῖς ἐπέεσσιν ἐρήτυε φῶτα ἕκαστον (2.164, 2.180) | "with your gentle words restrain each man" | "restrain each man with your gentle words" | "soothing", "kindly" (ἀγανός keeps "gentle"); ἐρητύω keeps "restrain / hold back" |
 | μηδὲ ἔα νῆας ἅλα δ’ ἑλκέμεν ἀμφιελίσσας (2.165, 2.181) | "and do not allow them to drag the both-sides-curving ships seaward" | "and do not let them drag the ships, curved on both sides, down to the sea" | follows the Odyssey's ἀμφιέλισσαι "both-sides-curving" / "curved on both sides" |
-| ὣς ἔφατ’, οὐδ’ ἀπίθησε θεὰ γλαυκῶπις Ἀθήνη (2.166) | "So she spoke, and did not disobey the goddess, gleaming-eyed Athena," | "So Hera spoke, and the goddess, gleaming-eyed Athena, did not disobey;" | follows the Odyssey's ὣς ἔφατ’, οὐδ’ ἀπίθησε "So he spoke, and did not disobey" |
+| ὣς ἔφατ’, οὐδ’ ἀπίθησε θεὰ γλαυκῶπις Ἀθήνη (2.166) | "So she spoke, and did not disobey, the goddess, gleaming-eyed Athena," | "So Hera spoke, and the goddess, gleaming-eyed Athena, did not disobey;" | follows the Odyssey's ὣς ἔφατ’, οὐδ’ ἀπίθησε "So he spoke, and did not disobey" |
 | καρπαλίμως δ’ ἵκανε θοὰς ἐπὶ νῆας Ἀχαιῶν (2.168) | "Swiftly she reached the swift ships of the Achaeans." | "Swiftly she came to the swift ships of the Achaeans." | iliad-007 wording with the subject changed from the Dream ("he") to Athena ("she") |
 | Διὶ μῆτιν ἀτάλαντον (2.169) | "the equal of Zeus in cunning" | "the equal of Zeus in cunning" | "wise as Zeus", "peer of Zeus in counsel" (μῆτις is "cunning" in the table); ἀτάλαντος is "equal in weight" |
 | ἑσταότ’ (2.170) | "standing" | "standing there" | "rooted", "motionless" |

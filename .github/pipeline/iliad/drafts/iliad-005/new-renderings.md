@@ -52,7 +52,7 @@
 | νέας (νῆας, 1.487) | "the ships" | "the ships" | "new" (the adjective νέος), "the new huts"; the form is the accusative plural of ναῦς |
 | διογενής (1.489) | "Zeus-sprung" | "Zeus-born" | "god-born", "of divine birth", "born of Zeus"; the same pair as iliad-004 (Patroclus, 1.337) and the Odyssey’s "Zeus-sprung" |
 | πωλέσκετο · φθινύθεσκε · ποθέεσκε (1.490–492, iterative -σκ-) | "did he go" · "kept wasting" · "kept longing" | "never went" · "kept wasting away" · "longed for" | "used to", "would", "was wasting"; the iterative suffix is shown by "kept" in `l`, and the note names it |
-| ἀγορὴν κυδιάνειραν (1.490) | "the man-glorifying assembly" | "the assembly where men win glory" | "glory-giving", "ennobling", "that raises men"; κυδιάνειρα is κῦδος + ἀνήρ, and the Iliad’s ἀγορή keeps "assembly" |
+| ἀγορὴν κυδιάνειραν (1.490) | "the man-glorifying assembly" | "the assembly that brings men glory" | "glory-giving", "ennobling", "that raises men"; κυδιάνειρα is κῦδος + ἀνήρ, and the Iliad’s ἀγορή keeps "assembly" |
 | φθινύθω φίλον κῆρ (1.491) | "wasting his dear heart" | "wasting away his dear heart" | "eating his heart out", "consuming his heart", "his own heart"; κῆρ is "heart" and φίλον "dear" as in the Odyssey’s φίλον ἦτορ |
 | ἀϋτήν τε πτόλεμόν τε (1.492) | "the battle-cry and … war" | "the battle-cry and … war" | "the shout", "the clash", "the din of battle"; πτόλεμος is the epic πόλεμος "war" |
 | θεοὶ αἰὲν ἐόντες (1.494) | "the gods who are forever" | "the gods who are forever" | Odyssey table, unchanged |

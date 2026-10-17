@@ -73,3 +73,59 @@ Major 0 · moderate 20 · minor 26 (the single `[acc]` sweep counts once).
 - U12/U15 `i`: ምንተ ኣአምር rendered "Who knows whether…": matches both units and the sense of እመ; no contrary grammar.
 - U1 `l`: only some of the list had "(?)"; those already are on every form the note calls uncertain (ጸዳላት, ሐርገጽ, ዐናብር). Left.
 - Whole unit: `l` uses "(?)" and bracket forms as in ch. 27; no `p` change needed.
+
+## Pass 2
+
+Checked: `t` unchanged (joined text equals the packet; 451 words, 23 units, each ends at ። ፤ ፨, `p` on U0 and U1 only); all 8 `__broaden__` entries start with the known-forms entry whole + ' · ' (yes); every word has an entry in known-forms, gloss.json or `__broaden__` (no gaps, no strays); every gloss entry against its form and every occurrence; bracketed transliterations in `i` against `hooks.word_reading` (all correct); pass 1 changes re-read (pass 1 left the glossary almost untouched, so several of its unit fixes were contradicted by gloss entries). `hooks.assemble` + `validate` run clean. Edits by script on `units.json` / `gloss.json`; `t`, `titleEn`, `part`, `about` untouched; gloss keys unchanged.
+
+### Changes (unit/entry · severity · wrong · done)
+
+units.json
+1. U0 `n` · moderate · "causative stem" for አዘዘ contradicted "root ʾ-z-z" in the same sentence (አዘዘ, cf. ትእዛዝ, has the አ in the root) · rewritten: root ʾ-z-z, አ not a causative prefix.
+2. U1 `n` · minor · "feminine plurals" for ከዋክብተ (a broken plural in -ት) · now "plurals in -ት (accusative -ተ)".
+3. U6 `i` · minor · pass 1 turned the clause into a statement but left a closing "?" · now ".".
+4. U7 `n` · moderate · "ዐወቀ-family" is Amharic, not Geʿez (a modern form) · removed; ያየድዓ stays "make known (?)", root not named.
+5. U7 `n` · minor · ተስእለቶ called a plain perfect though the ተ- is unexplained · flagged (?).
+6. U12 `n` · minor · "-ሃ/-ā" for the suffix of ብሔራ · "-ኣ '3fs her'" (as in the gloss).
+7. U13 `n` · minor · ላሕዮን "ላሕይ + -ዮን" disagreed with the gloss (-ሆን) · "-ሆን, contracted to -ዮን".
+8. U19 `n` · minor · ጸርኀ vs the gloss lemma ጸርሐ · ጸርሐ.
+9. U21 `n` · minor · መሃይምን (ሃ) vs the form መሀይምናን · መሀይምን.
+
+gloss.json (entries by key)
+10. አዘዛ · moderate · "causative of z-z-w" (invented root) and "object marked with ለ-", contradicting pass 1's note · root ʾ-z-z; ለንግሥት restates the object.
+11. መባርቅተ · moderate · lemma በርቅ with plural መባርቅት; the noun is መብረቅ · lemma መብረቅ.
+12. ወፀዓዓተ, ወዐንጐጓተ · minor · lemmas ፀዓዓ and ዐንጐጓ were invented by stripping -ተ (ቢሐተ was kept whole) · lemma = the form as written, "probably accusative plural"; "creature" dropped.
+13. ወሐርገጻተ · minor · lemma ሐርገጽ is itself inferred · "lemma and sense inferred".
+14. ዘያነሥኦ · moderate · "causative of ኀሠአ/ነሥአ 'rise'": ኀሠአ is invented, and ነሥአ is 'take' · causative of ንሥአ 'rise'.
+15. እምድር · moderate · gloss still said "the dust ... 'from the dust'" (pass 1 fixed l/i/n only) · "from the earth"; the 1 Samuel 2:8 contrast kept as a remark.
+16. ወያሌዕሎ · moderate · "ዐለወ 'be high'" is not a Geʿez verb · causative of ልዕለ 'be high'.
+17. ዘይግእዞ · minor · lemma presented as certain · "lemma, root and sense uncertain".
+18. ዘይብሎ · minor · "-ኦ 'to him'"; -ኦ is 'him', the form is ይብል + -ሎ (cf. ዘይቤሎ) · fixed.
+19. ዘትብሊሰ · moderate · "2ms" but the Queen is addressed (ትብሊ is 2fs, as n says) · 2fs.
+20. ወትእዛዞሂ · minor · "-ሁ 'his'" for the accusative form -ኦ (as ጥበቦ in known-forms) · fixed; "collective".
+21. ናእምር, ኣአምር · minor · "causative of ዐመረ": no such verb is attested to my knowledge · "root ʿ-m-r".
+22. ኢይሰግድ · minor · "1s ኢእሰግድ is meant" asserted an emendation · now "the sense 'I' is inferred from her vow".
+23. ኢነ · moderate · gloss still offered the discarded question reading ("have I not") · unparsed form, perhaps corruption of አነ, no negation rendered (agrees with l/i/n).
+24. ዘተስእለቶ · minor · "tä-stem form" contradicted "3fs perfect" · flagged (?), ተ- unexplained.
+25. በአፅምኦ · minor · lemma አጽምአ; the dictionary form is አጽምዐ (root ṣ-m-ʿ; ኦ is the text's spelling) · fixed.
+26. ኢይመልእ, ወኢይመልእ · minor · "it does not fill" against i "is not filled"; መልአ is intransitive 'be full' · "it is not filled".
+27. ላሕዮን · minor · see 7 · -ሆን, contracted.
+28. ወኢዮባዊያን · minor · lemma was the plural · lemma ኢዮባዊ.
+29. ደቂቅየ · minor · lemma ወልድ; the published house lemma for ደቂቅ is ደቂቅ · ደቂቅ.
+30. ፀር · minor · "construct" for a noun in the genitive after a construct (አህጉረ) · fixed.
+31. ወደሞ · minor · "-ሁ" for the accusative -ኦ · fixed.
+
+### Counts
+
+Major 0 · moderate 9 (items 1, 4, 10, 11, 14, 15, 16, 19, 23) · minor 22 (31 items, ዘተስእለቶ/ደቂቅየ etc. each once; paired entries count once).
+
+### Findings refused / left (with reason)
+
+- ገብረ (known-forms): the published entry's lemma is ገብር 'servant' with the verb as a second sense, so the popup lemma for ዘ ገብረ ኵሎ is wrong; it is a published entry and `__broaden__` can only append, so left (reported for a later cleanup of the shared glossary).
+- ዘተመጠዉ (U19): ዘ with a plural verb and no antecedent ("those who received") could also be "what they received"; the plural-ዘ use occurs in this very chapter (ዘይመጽኡ), so left as drafted.
+- አተወት (U7): "settled (?)" may be 'frequented' (fits ወወትረ); no Dillmann, so not changed, stays (?).
+- ሓውርት, ሰብሳብ, ከላእነ, ቢሐተ, ሪፍ, ኰርጐ, ሱርስት, ኢዮባዊ: honest (?) already; nothing better from grammar.
+- ዕቅብት (lemma of ወዕቁባት) and ሠርወ (lemma of ወይሠርውዎሙ): plausible, unverifiable here; the second already (?).
+- ፍትሖ 'justice' beside known gloss 'judgment': pass 1's refusal stands.
+- `__broaden__` entries: all keep the old entry whole; their added readings fit the occurrences (ወኵሉ, ዘርአ, ቤተ, ብእሲተ, ለዘ, እግዚአ, ሰማየ, ወየብሰ).
+- Scripture cross-references (22 of them) checked against memory; none wrong.

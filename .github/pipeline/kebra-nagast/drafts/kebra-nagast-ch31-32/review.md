@@ -107,3 +107,67 @@ Format: unit · field · severity · wrong · done.
 - U4 ሰረረት (now aligned to the published 'sped (?)'); U5 እንዳዒ; U12 ዲሳርያ; U2 ጽባዕ (vs ጻብዕ); U15 አድያም singular.
 - U2 ኢትርስዕኒ: printed shape is not the 2nd feminine; may be a misprint or a digitization slip in the source. Not changed in t.
 - Glosser note: the known entry for ሰረረት, ያክንት and ሜላ now match l/i; the glosser should reuse them, and should parse ሐፃንያኒሁ, ሰመየቶ, ወሀበቶ, አፍቀረታ as 3fs verb + object suffix (ት is the verb ending).
+
+
+## Pass 2
+
+Reviewer pass 2. Re-read units.json after pass 1 and checked every gloss.json entry against its occurrences. Mechanical checks: gloss keys equal novel-forms.json keys exactly; the 6 __broaden__ keys are all in known-forms.json and each is the old entry whole + ' · ' + new reading; every word of t is in novel or known forms; t and p untouched (git diff shows no t line changed). Edits by script: 39 total, major 0, moderate 14, minor 25.
+
+Format: unit or entry · field · severity · wrong · done.
+
+- U1 · l · minor · he-gave sign · he-gave-her sign
+- U5 · n · moderate · ነውመ 'sleep' · ኖመ 'sleep'
+- U7 · l · minor · you-serve-him God · you-serve-him to-God
+- U8 · n · moderate · (ነሥተ, taken as · (ነሠተ, taken as
+- U8 · n · minor · causative of ከበረ) · causative of ከብረ)
+- U13 · l · minor · she-arrived to city-of · she-arrived into city-of
+- U16 · n · minor · ገነዩ ላቲ 'they did her service, paid homage' (ገነየ, · ገነዩ ላቲ 'they did her service, paid homage' (ገነየ, 3rd plural perfect,
+- U17 · n · minor · causative of ለበሰ; · causative of ለብሰ;
+- U20 · n · minor · (ልሕቀ 'grow up') · (ልህቀ 'grow up', as printed)
+- U23 · n · minor · አይድዕኒ 'tell me!' (imperative of አይድዐ 'make known' + -ኒ) · አይድዕኒ 'tell me!' (imperative of አይድዐ 'make known' + -ኒ; the printed shape is the 2nd masculine, the 2nd feminine would be አይድዒኒ, though the Queen is addressed, as with ኢትርስዕኒ in ch. 31)
+- U23 · n · minor · (ጌረመ 'rebuke, scold' (?), 3rd feminine + -ሞ, -ሁ 'him') · (ጌረመ 'rebuke, scold' (?), 3rd feminine imperfect ትጌርም + -ሁ 'him', joined as ሞ)
+- U26 · n · minor · ወያጽሕባ 'and pressed her' is uncertain · ወያጽሕባ 'and presses her' is uncertain
+- U26 · n · minor · (ነገረ, subjunctive 3rd feminine + -ሮ, -ሁ 'him') · (ነገረ, subjunctive 3rd feminine ትንግር + -ሁ 'him', joined as ሮ)
+- U27 · n · minor · ነገረቶ 'she told him'; · ነገረቶ 'she told him' (ነገረት, 3rd feminine perfect, + -ኦ 'him', joined as ቶ);
+- gloss ፴፩ · entry · minor · śäläsa · śälasa
+- gloss ፴፪ · entry · minor · śäläsa · śälasa
+- gloss ወአስተፋነዋ · entry · minor · + -ዋ '3fs her') · + -ኣ '3fs her', joined as ዋ)
+- gloss ወይበላ · entry · moderate · ብህለ — and he said to her (ወ- + 3ms imperfect ይብል, shape ይበላ + -ላ '3fs to her') · ይቤ — and he said to her (ወ- + ይበላ, taken as a spelling of ይቤላ: 3ms perfect of defective ይቤ + -ላ '3fs to her'; or imperfect ይብል + -ላ, same sense) (?)
+- gloss ኢትርስዕኒ · entry · moderate · (ኢ- negative + 2fs subjunctive + -ኒ '1cs me'; the ending is irregular) (?) · (ኢ- negative + subjunctive ትርስዕ, in shape 2ms or 3fs, though the Queen is addressed and 2fs would be ኢትርስዒ; + -ኒ '1cs me') (?)
+- gloss ወትግበሪ · entry · minor · 2fs jussive/imperative ትግበሪ · 2fs subjunctive ትግበሪ, continuing ከመ
+- gloss ወተፋነው · entry · minor · (ወ- + 3mp perfect, reciprocal tä-stem of ፈነወ) (?) · (ወ- + 3mp perfect, reciprocal tä-stem of ፈነወ; the ending ው is irregular for the regular -ዉ) (?)
+- gloss ወወሀበቶ · entry · moderate · + -ቶ '3ms him') · + -ኦ '3ms him', joined as ቶ)
+- gloss ለሐፃኒት · entry · moderate · ሐፃኒ — the nurses (ለ- + noun, plural ሐፃኒት) · ሐፃኒ — to the nurse (ለ- + noun, fem. sg. ሐፃኒት of ሐፃኒ 'nurse'; or collective) (?)
+- gloss ወገነዩ · entry · moderate · ገንየ — and they did homage, served (ወ- + 3mp perfect) · ገነየ — and they did homage, served (ወ- + 3mp perfect)
+- gloss አፍቀረታ · entry · minor · 3fs perfect, causative of ፈቀረ + -ኣ '3fs her' · 3fs perfect አፍቀረት, causative of ፈቀረ, + -ኣ '3fs her, it', joined as ታ
+- gloss ወሰመየቶ · entry · moderate · + -ቶ '3ms him') · + -ኦ '3ms him', joined as ቶ)
+- gloss ወየሐትቶሙ · entry · minor · and he questioned them (ወ- + 3ms imperfect + -ሙ '3mp them') · and he questions them, keeps questioning (ወ- + 3ms imperfect + -ሙ '3mp them')
+- gloss ለመሐዛሁ · entry · minor · word uncertain) (?) · the shape መሐዛ- hints at a plural or an ā-stem noun; lemma as written, not confirmed; word uncertain) (?)
+- gloss ሐፃንያኒሁ · entry · moderate · ሕፃን — his boys (noun, plural ሐፃንያን + -ሁ '3ms his') · ሐፃኒ — his attendants, nurses (noun, plural ሐፃንያን + -ሁ '3ms his'; from ሐፀነ, not ሕፃን 'child'; 'his boys' remains possible) (?)
+- gloss ወይብልዎ · entry · moderate · + -ኦ '3ms to him') · + -ሎ '3ms to him', joined as ዎ)
+- gloss ትጌርሞ · entry · moderate · ጌርመ — she rebukes, frightens him (3fs imperfect + -ሁ '3ms him'; root sense uncertain) (?) · ጌረመ — she rebukes, frightens him (3fs imperfect ትጌርም + -ሁ '3ms him', joined as ሞ; root sense uncertain) (?)
+- gloss አይድዕኒ · entry · minor · (imperative 2ms, causative + -ኒ '1cs me') · (imperative, printed shape 2ms though the Queen is addressed, 2fs would be አይድዒኒ; causative + -ኒ '1cs me')
+- gloss ነገረቶ · entry · moderate · + -ቶ '3ms him') · + -ኦ '3ms him', joined as ቶ)
+- gloss ላሕየ · entry · minor · (adjective; the accusative/construct ending, 'beautiful of form') (?) · (noun or adjective, 'beauty, beautiful'; accusative of respect, 'beautiful of form') (?)
+- gloss ማኅፈዱ · entry · minor · sense uncertain) (?) · sense uncertain; ማኅፈድ is elsewhere, as I recall, 'tower, stronghold', so 'frame' would be figurative) (?)
+- gloss ተምህረ · entry · moderate · tä-stem of ምህረ · tä-stem of መሀረ 'teach'
+- gloss እነጽር · entry · moderate · let me see, I will look (1cs jussive) · I will see, I will look (1cs imperfect)
+- gloss ወእገብእ · entry · minor · 1cs imperfect/jussive · 1cs imperfect
+- gloss __broaden__ ይእቲ · entry · minor · example translated 'I am he who is your father' · 'I am she, your father'
+
+### Pass 2 refusals (no change)
+
+- ወአግሐሣ lemma አግሐሠ, ወአስተፋነዋ lemma አስተፋነወ, ወያጽሕባ lemma አጽሐበ, ወንዕወ, ውርዙት, አቊያጺ: cannot be checked against Dillmann here; all carry (?) already; kept.
+- ወጽነ lemma ጸንሐ: printed ጽነ is irregular; the entry says so and carries (?); kept.
+- ወሥልስ lemma ሥልስ 'ordinal': Dillmann may prefer ሣልስ for the ordinal; unverifiable here, kept.
+- ወሰረረት, ወአብርሀት, ተመሥጠት 'she' for the sun (ፀሐይ fem.): consistent with the published entries; kept.
+- ልህቀ vs ልሕቀ: the note was made to follow the printed form and the gloss lemma (ልህቀ); which is Dillmann's headword is unchecked.
+- ጸንዐ / ጽንዐ spelling of the lemma behind አጽንዐ: unverifiable, kept as in note and gloss (they agree).
+- ወይበላ: lemma changed to ይቤ to match the primary reading in the notes (U3, U30) and the published ወይቤላ; the imperfect ብህለ reading is kept as the alternative in the entry.
+
+### Pass 2 unresolved (?)
+
+- ለመሐዛሁ lemma መሐዝ (not confirmed as a dictionary word) and ሐፃንያኒሁ (attendants vs boys).
+- ማኅፈዱ (my recollection 'tower' unverified), አባሉ, አቊያጺሁ, ንዕወ, ውርዙት, ማሕምም, እንዳዒ, ዲሳርያ.
+- ወተፋነው and ኢትርስዕኒ, አይድዕኒ: printed endings irregular for the addressee/number; may be source or digitization slips; t not changed.
+- ሰረረት and ጽነ (stem), ወያጽሕባ (stem), ወአግሐሣ (root).

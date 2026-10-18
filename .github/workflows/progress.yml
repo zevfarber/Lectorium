@@ -1,0 +1,51 @@
+name: Update in-progress list
+
+# Regenerates progress.json whenever the library or a work's production folder changes, so the
+# reader's "in progress" marks follow the runs by themselves: a new work gets the mark when its
+# first part is published, and loses it when the run writes .github/pipeline/<work>/DONE.
+# (Zev, 2026-10-18.) The commit uses the built-in token, which does not trigger other workflows.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'stories.json'
+      - '.github/pipeline/**/DONE'
+      - '.github/pipeline/**/parts.json'
+      - '.github/scripts/build_progress.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-progress
+  cancel-in-progress: false
+
+jobs:
+  progress:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          sparse-checkout: |
+            stories.json
+            progress.json
+            .github
+          sparse-checkout-cone-mode: false
+      - name: Build progress.json
+        run: python3 .github/scripts/build_progress.py
+      - name: Commit if changed
+        run: |
+          git config user.name "lectorium-progress-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add progress.json
+          if git diff --cached --quiet; then echo "No change."; exit 0; fi
+          git commit -m "Update in-progress list [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            if git push; then exit 0; fi
+            git pull --rebase origin main || exit 1
+            sleep $((attempt * 5))
+          done
+          exit 1

@@ -72,7 +72,11 @@ USAGE_FILE = "audio/_tts-usage.json"
 FAMILIES = ("Chirp", "Neural2", "Wavenet", "Standard")
 FREE_CHARS = {"Chirp": 1000000, "Neural2": 1000000, "Wavenet": 4000000, "Standard": 4000000}
 USD_PER_MILLION = {"Chirp": 30.0, "Neural2": 16.0, "Wavenet": 16.0, "Standard": 4.0}
-MONTHLY_BUDGET_USD = 35.0   # raised from 10.0 by Zev, 2026-10-13, to clear the backlog
+# Per-month caps (2026-10-18): Zev set October 2026 to US$75 to clear the backlog; any month not listed
+# here uses the default. The cap is read once per run, for the month the run starts in.
+DEFAULT_MONTHLY_BUDGET_USD = 35.0   # raised from 10.0 by Zev, 2026-10-13
+BUDGET_BY_MONTH = {"2026-10": 75.0}
+MONTHLY_BUDGET_USD = BUDGET_BY_MONTH.get(time.strftime("%Y-%m", time.gmtime()), DEFAULT_MONTHLY_BUDGET_USD)
 
 
 def _family(voice):

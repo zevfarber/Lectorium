@@ -676,6 +676,7 @@
 <script>
 /* Lectorium — hierarchical library build (language → work → text) */
 const STORIES = [];   // runtime cache of fully-loaded story objects
+let PROGRESS = {};  // workEn -> {published, planned} for works still being produced (progress.json)
 let MANIFEST = [];    // {id,title,titleEn,language,work,workEn,part,file} from stories.json
 let WORKS = [];       // derived: {key,language,label,indices:[manifest idx]}
 
@@ -4686,6 +4687,8 @@ function render(){
       const wk = story.workEn || story.work;
       if (wk && wk !== (story.titleEn || story.title)) bits.push(wk);
     }
+    const prog = progressText(progressOf(story.workEn));
+    if (prog) bits.push(prog);
     langLine.textContent = bits.join(' · ');
     langLine.style.display = bits.length ? '' : 'none';
   }
@@ -5584,6 +5587,14 @@ $('spellSeg').addEventListener('click', (ev) => {
 });
 
 /* ---------- hierarchical library: language → work → text ---------- */
+/* "In progress" marks (2026-10-18): progress.json lists the works still being produced; it is
+   regenerated automatically on every publish, so a work loses the mark the day it is finished. */
+function progressOf(workEn){ return (workEn && PROGRESS[workEn]) || null; }
+function progressText(p){
+  if (!p) return '';
+  return 'In progress \u2014 ' + p.published + (p.planned ? ' of ' + p.planned : '') +
+         (p.published === 1 ? ' part' : ' parts') + ' published so far';
+}
 function workKeyOf(m){ return (m.language || 'Other') + '|' + (m.work || m.title || ''); }
 
 /* Build WORKS from MANIFEST and fill the work dropdown (grouped by language).
@@ -5619,7 +5630,7 @@ function fillLibrary(selIdx){
     og.label = lang;
     groups[lang].forEach(wi => {
       const o = document.createElement('option');
-      o.value = wi; o.textContent = WORKS[wi].label;
+      o.value = wi; o.textContent = WORKS[wi].label + (progressOf(WORKS[wi].label) ? ' \u00b7 in progress' : '');
       og.appendChild(o);
     });
     ws.appendChild(og);
@@ -5909,8 +5920,11 @@ function loadStory(s){
   let m = 'de';
   try { m = localStorage.getItem('mode') || 'de'; } catch(e) {}
   setMode(m);
+  const progressP = fetch('progress.json', { cache: 'no-cache' })
+    .then(r => r.ok ? r.json() : {}).then(d => { PROGRESS = (d && d.inProgress) || {}; }).catch(() => {});
   fetch('stories.json', { cache: 'no-cache' })
     .then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)))
+    .then(data => progressP.then(() => data))
     .then(data => {
       MANIFEST = (data && data.stories) || [];
       let last = null;

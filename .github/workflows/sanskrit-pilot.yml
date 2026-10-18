@@ -1,0 +1,41 @@
+name: Sanskrit voices pilot
+
+# Pilot only, 2026-10-18: Gita 1.1, 2.22, 2.47 read by five borrowed voices, into audio-pilot/sanskrit/,
+# for Zev to choose the Sanskrit voice by ear (audio-pilot/sanskrit.html).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/scripts/sanskrit_pilot.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sanskrit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github
+            audio-pilot
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Synthesize
+        env:
+          GOOGLE_TTS_KEY: ${{ secrets.GOOGLE_TTS_KEY }}
+        run: python3 .github/scripts/sanskrit_pilot.py
+      - name: Commit
+        run: |
+          git config user.name "lectorium-audio-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add audio-pilot/
+          git diff --cached --quiet && exit 0
+          git commit -m "Sanskrit voices pilot clips [skip ci]"
+          for a in 1 2 3 4 5; do git push && exit 0; git pull --rebase origin main; sleep $((a*5)); done
+          exit 1

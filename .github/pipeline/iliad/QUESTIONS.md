@@ -31,3 +31,6 @@ and the order is Zev's.
 
 ## iliad-007 last unit (2.83) lacks its closing ” (found at iliad-008, 2026-10-17)
 The published last unit of iliad-007 (2.83) has no closing ” in `l` or `i`, and its note says Nestor's speech "runs on into the next part". It does not: the speech ends at 2.83 and 2.84 is narration. iliad-008 opens without a mark, which is correct. Decided meanwhile: not touched (one part per run, no edits to a published part). To fix: add ” to `l` and `i` of that unit in `drafts/iliad-007/units.json` and `iliad-007.json`, and correct the note.
+
+## Existing glossary entry for ἕποντο is wrong (found at iliad-013, 2026-10-18)
+The entry from an earlier part says "augmented (ἕποντο = εἵποντο)". ἕποντο is the unaugmented form. The glosser may not rewrite existing entries, so it was left. Also noted: ἀργινόεις is "bright-white", ἀνδρειφόντης "killer of men" (new choices in conventions; override if you prefer).

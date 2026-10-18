@@ -1,0 +1,49 @@
+# New renderings — iliad-013 (2.569–675)
+
+Rows in the format of the conventions table (Greek | `l` | `i` | avoided on purpose).
+
+| Greek | `l` | `i` | avoided on purpose |
+|---|---|---|---|
+| ἐΰκτιτον (Αἰπύ, 2.592) | "well-founded" | "well-founded" | "well-built" (reserved for ἐϋκτίμενος, 2.569–570), "well-settled", "stately"; ἐΰκτιτος is from κτίζω "found", the root of ἐϋκτίμενος too, but a different word, and the Odyssey table turns "well-founded" down for the citadel phrase, which leaves it free here; Αἰπύ is the neuter of αἰπύς used as a name, "Aepy" |
+| κυδιόων (2.579) | "glorying" | "glorying" | "exulting in glory" (κύδεϊ γαίων, 1.405), "proud", "swaggering", "taking pride in it" (adds an object); from κῦδος "glory" |
+| λαός · λαοί (of an army, 2.577–580, 2.675; of a band of followers, 2.664) | "people" | "troops" (army) · "people" (band, 2.664) | "peoples" (reads as nations), "men", "host"; the Iliad keeps "the army" for λαὸν Ἀχαιῶν (2.450); plural λαοί and the following band at 2.664, who are not yet an army, are told apart in `i` only |
+| ἄγω (of a force, ἦγε 2.631, ἄγεν 2.654, ἄγε 2.580, 2.671) | "was bringing" · "brought" | "brought" | "led" (reserved for ἄρχω and ἡγέομαι), "took", "marched"; ἄγω "bring" is kept apart from ἄρχω "lead" and ἡγεμονεύω "be leader" through the Catalogue |
+| προθυμίῃσι (ᾗσι προθυμίῃσι πεποιθώς, 2.588) | "his own eagerness" | "his own eagerness" | "his own eagernesses" (a plural in the Greek, but English wants the singular), "zeal", "courage"; the plural noun is read as one disposition |
+| τίσασθαι (Ἑλένης ὁρμήματα τε στοναχάς τε, 2.589–590) · στοναχή | "to avenge" · "groans" | "to avenge" · "groans" | "to make pay for", "to punish" (each decides the object), "to take vengeance for"; τίνομαι is the middle of τίνω "make pay", kept apart from τίω "honour" (1.508), whose avoided "avenge" belongs to the other verb; στοναχή keeps the "groaning" of στενάχω (1.364); ὁρμήματα keeps the shipped "strivings" (2.356) |
+| Θρύον Ἀλφειοῖο πόρον (2.592) | "Thryum, the ford of the Alpheus" | same | "Thryon", "the crossing of the Alpheus"; πόρος "ford" as the Odyssey’s πόρος "passage" in a river; neuter names in -ον take Latin -um as for Thronium and Dium |
+| Κυπαρισσήεις (2.593) | "Cyparisseis" | "Cyparisseis" | "Cyparisseeis", "Cypress-grown" (a name is kept as a name, the note gives the sense) |
+| πηρόν (θέσαν πηρόν, 2.599) | "made … maimed" | "maimed" | "blinded", "made lame" (each decides the maiming the Greek leaves open), "crippled" |
+| ἐκλέλαθον · κιθαριστύς (2.600) | "made … forget" · "lyre-playing" | "made … forget" · "lyre-playing" | "cause to forget" (stiff), "robbed of memory"; "the art of the lyre", "harp-playing" (κιθάρα is "lyre"); ἐκλανθάνω in the causative reduplicated aorist |
+| στεῦτο (2.597) | "he declared" | "he claimed" | "he stood" (the sense of the Odyssey’s στεῦτο at 11.584, which does not fit with εὐχόμενος), "he swore", "he vowed"; follows the Odyssey’s στεῦται "declares" / "claims" (odyssey-087) |
+| κοῦραι Διὸς αἰγιόχοιο (2.598) | "the daughters of aegis-bearing Zeus" | same | "the girls of …" (κούρη is "girl" in the table, but with a divine father the Odyssey ships "daughters"), "maidens"; reused from the Odyssey’s κοῦραι Διὸς αἰγιόχοιο |
+| ἀγχιμαχητής (ἀνέρες ἀγχιμαχηταί, 2.604) | "close-fighters" | "fighters at close quarters" | "hand-to-hand fighters", "spearmen" (reserved for αἰχμητής), "near fighters"; ἀγχί "near" + μάχομαι "fight" |
+| πολύμηλος (Ὀρχομενόν, 2.605) | "rich in flocks" | "rich in flocks" | "rich in sheep", "rich in apples" (a wrong guess for μῆλον), "many-flocked"; follows πολύαρνι "rich in lambs" and πολυστάφυλος "rich in grapes", with the Odyssey’s μῆλα "flocks" |
+| θαλάσσια ἔργα (2.614) | "the works of the sea" | "the work of the sea" | "sea-faring", "sailing", "nautical matters"; ἔργον "work, deed" as in the Odyssey’s ἔργα βροτῶν |
+| ἀτάλαντος Ἄρηϊ · ἀτάλαντος Ἐνυαλίῳ (2.627, 2.651) | "the equal of Ares" · "the equal of Enyalius" | same | "equal to Ares", "a match for Ares" (the Odyssey’s "a counsellor to match the gods" is a different phrase), "the peer of …"; follows the table’s Διὶ μῆτιν ἀτάλαντος "the equal of Zeus in cunning" (2.169, 2.636) |
+| ἀνδρειφόντης (Ἐνυαλίῳ ἀνδρειφόντῃ, 2.651) | "killer of men" | "killer of men" | "man-killer" and "man-slaying" (ἀνδροφόνος "man-slaying", 1.242), "slayer of men", "man-slayer"; from ἀνήρ "man" + the root of φόνος "killing" |
+| Ἀκτορίωνε (2.621, dual) | "the two Actor’s-sons" | "the two sons of Actor" | "the Actorions", "the Molionids", "the twin sons of Actor" (adds "twin"); a dual patronymic naming the fathers Cteatus and Eurytus |
+| ἡγησάσθην (2.620, dual aorist) | "led" | "led" | "were leaders" (reserved for ἡγεμονεύω), "were leading"; the dual is shown by the pair of names |
+| νήσων, αἳ ναίουσι (2.626, of islands) | "islands, which lie" | "islands that lie" | "which dwell" (a place does not dwell), "which are inhabited"; ναίω "dwell" read as "lie" of an island |
+| τίκτω (ὃν τίκτε … Φυλεύς, 2.628, of a father) | "begot" | "begot" | "bore" (kept for a mother, ὃν τέκεν Ἀστυόχεια, 2.658), "fathered", "sired"; τίκτω of a father is "beget" |
+| ἀπενάσσατο (2.629) | "removed himself" | "removed himself" | "emigrated", "settled away", "withdrew"; ἀπο- "away" + ναίω "dwell" |
+| ἀγέρωχος (Ῥοδίων ἀγερώχων, 2.654) | "lofty" | "lofty" (+ note: meaning not known) | Odyssey table (11.286), unchanged |
+| ἠΰς (Τληπόλεμος … ἠΰς τε μέγας τε, 2.653) | "good" | "good" | "noble", "brave", "fine" (each decides the sense), "goodly"; ἠΰς is the epic ἐΰς and the Odyssey ships "good" for ἐΰς of a man (odyssey-089); μέγας is "great" |
+| ἀργινόεις (ἀργινόεντα Λύκαστον, 2.647; Κάμειρον, 2.656) | "bright-white" | "bright-white" (+ note: sense not certain) | "gleaming-white", "shining white" ("gleaming" is the Odyssey’s for γλαυκῶπις, "shining" for φαεινός), "chalk-white", "snowy" (ἀγάννιφος), "white" alone; built on ἀργός "bright, white", the root also of ἀργής "bright", so "bright" is kept in the compound |
+| ἑκατόμπολις (Κρήτην ἑκατόμπολιν, 2.649) | "hundred-citied" | "hundred-citied" | "of a hundred cities", "with a hundred cities", "hundred-towned"; ἑκατόν + πόλις, as ἑκατόγχειρον is "hundred-handed" (1.402) |
+| δουρὶ κλυτός (Ἰδομενεύς, 2.645, 2.650; Τληπόλεμος, 2.657) | "famous with the spear" | "famous with the spear" | "spear-famed", "renowned for the spear", "glorious with the spear"; κλυτός "famous", as in κλυτοτέχνης "famous in craft" (1.571) and the Odyssey’s κλυτὸς ἐννοσίγαιος "the famous earth-shaker" |
+| ἀγχίαλος (Χαλκίδα ἀγχίαλον, 2.640) | "near the sea" | "near the sea" | "by the sea" (kept for ἔφαλος, 2.538, 2.584), "sea-girt" (the Odyssey’s ἀμφίαλος), "on the coast"; ἀγχί "near" + ἅλς "sea" |
+| πόλις · ἄστυ (πόλεις εὖ ναιετοώσας, 2.648; ἄστεα πολλὰ, 2.660) | "cities" · "towns" | "cities" · "towns" | "towns" for πόλις and "cities" for ἄστυ (the two words stay apart); follows the Odyssey’s ἄστυ "town" (εὐρυχόροιο ἄστεος "the spacious town") and πόλις "city" |
+| εὖ ναιετοώσας (2.648) | "well-inhabited" | "well-inhabited" | "well-built", "comfortable", "prosperous"; follows the Odyssey table’s δόμους εὖ ναιετάοντας "the well-inhabited house" |
+| βίη Ἡρακληείη (2.658, 2.666) | "the might of Heracles" | "the might of Heracles" | "the powerful figure of Heracles" (the Odyssey’s `i` at 11.601, where the word stands beside εἴδωλον "phantom" and "figure" fits a shade; a departure, with the reason: here the phrase is the father and forebear of living men, and "figure" would read as a body), "Heraclean might", "mighty Heracles" (erases the periphrasis); the Odyssey’s `l` "the might of Heracles" is kept, the same words in the dative (2.658) and the genitive (2.666) |
+| διὰ τρίχα · τριχθά (2.655, 2.668) | "in three parts" | "in three parts" | "in three divisions", "threefold", "by threes"; the same adverb at both places |
+| καταφυλαδόν (2.668) | "tribe by tribe" | "tribe by tribe" | "by clans" (kept for φρήτρη), "in tribes", "each by itself"; from κατὰ φυλάς, φῦλον keeping "tribe" (2.362) |
+| κατέχευε (πλοῦτον, 2.670) | "poured down" | "poured down" | "showered", "heaped"; καταχέω "pour down", κατά in tmesis as at 1.413 |
+| πλοῦτος (θεσπέσιον πλοῦτον, 2.670) | "riches" | "riches" | "wealth" (kept for ἄφενος, 1.171), "treasure"; θεσπέσιος keeps "wondrous" |
+| εὔπηκτος (μεγάρῳ εὐπήκτῳ, 2.661) | "well-framed" | "well-framed" | "well-built" (reserved for ἐϋκτίμενος), "well-fastened", "well-joined"; εὖ + πήγνυμι "fix, fit together", the verb of ἔπηξε (2.664) |
+| μήτρως (πατρὸς ἑοῖο μήτρωα, 2.662) | "mother’s-brother" | "mother’s brother" | "maternal uncle", "uncle" alone (loses the mother); the note says whose mother |
+| αἶψα · αὐτίκα (2.662, 2.664) | "quickly" · "at once" | "quickly" · "at once" | the Odyssey table’s αἶψα "quickly" and αὐτίκα "at once", kept apart in two lines that stand next to each other |
+| ἀλαπαδνός (2.675) | "feeble" | "feeble" | "weakling", "frail", "unwarlike" (kept for ἀπτόλεμος, 2.201), "weak"; ἀλαπαδνός "feeble, easily drained" |
+| παῦρος (παῦρος … λαός, 2.675) | "scanty" | "few" | "small", "slight", "meagre"; singular adjective on a collective noun, so `l` keeps "scanty" and `i` says "the troops … were few" |
+| Νιρεύς … Νιρεύς … Νιρεύς (2.671–673) | "Nireus … Nireus … Nireus" | "Nireus … Nireus … Nireus" | one Nireus with the rest as relative clauses (hides the repeated opening, a rhetorical device of the poet’s); both layers keep the three names |
+| ὅσσον … ἐντὸς ἐέργει (2.616–617; ἐφ’ construction unsettled) | "as much as … shut in within" | "all the land that … shut in" | "as far as … enclose" (reads ἐφ’ as a limit), "all that … lies between"; the note says the construction is compressed and the English reads the four places as the boundary |
+| Σάμος (2.634) | "Samos" | "Samos" | "Same" (the Odyssey’s Σάμη; the identification is probable, not certain), "Samos of Ionia"; the note says it is probably the Odyssey’s Same |

@@ -44,3 +44,35 @@ Order followed: note labels and cross-references; Greek to `l` word by word; `l`
 - Cross-references: 82–83 (Agamemnon’s speech), 71, 72, 73 (Alexander’s speech, iliad-016), 84, 87, 103, 104, 117, 127/131, 130, 132, 146, 149, 1.320, 2.448, 2.790 are all true as cited.
 - Quotation marks: “ opens and ” closes Hector (86 to 94), Menelaus (97 to 110), Iris (130 to 138), the elders (156 to 160) and Priam (162 to 170); `mark` is on the first unit of each; no stray marks; no straight quotes. `p` stands on the units of 84, 95, 111, 121, 139, 146, 161, matching the ¶ in the packet. The part ends inside Priam’s speech, which closes at 170, so nothing runs on into the next part.
 - Every note leads with what the reader needs; no note contradicts its `l` or `i`.
+
+# Pass two
+
+Re-checked afresh: `t` against the packet (all 87 lines, 84–170, identical, line division kept, mid-line unit boundaries as the sense-units require); `ln` of every unit; `l` line count equal to `t` line count in every unit; Greek to `l` word by word; `l` against `i`; no straight quotes in any field; “ on 86, 97 (second speech), 130, 156, 162 and ” on 94, 110, 138, 160, 170, with `mark` on the first unit of each speech; `p` on the ¶ lines. Cross-references re-read in the source text: 2.448 (ἠερέθονται), 2.540 (ὄζος Ἄρηος), 2.790 (the Iris line), Odyssey 15.9 (the same opening with Athena), 3.71–73 (Alexander’s lines, and the `ναίοιτε` that makes ‘you others’ at 73 true). `gloss.json` was then checked parse by parse against its line, and the `__broaden__` entries against `known-forms.json`.
+
+## Changes
+
+| Where · field | Severity | What was wrong | What was done |
+|---|---|---|---|
+| 138 · `n` | low | κεκλήσῃ called “the future … in the passive, with a perfect stem”, a loose label; `gloss.json` already (rightly) says future perfect passive. | Now “the future perfect passive of καλέω (= κεκλήσεαι)”. |
+| 153 · `n` | low | “the tower by the gates where the same men were said to sit (149)”: 149 says they sit at the Scaean Gates, not on a tower. | Now “the tower at the Scaean Gates, where these men sit (149)”. |
+| 166 · `n` | low | “asks for one more name besides those she will see” was a guess about Priam’s intent. | Now “‘for me also this man’, a further request after the seeing of 162–163”. |
+| 154 · `n` | low | “it is ‘gently’ of a slow movement” was a remembered gloss with no source in the project. | Parenthesis removed. |
+| gloss · γεραρόν | medium | Parsed masc. acc. sg. “of a man”; the note at 168 says neuter adjective standing for a person. | Now neut. acc. sg. as a noun for a person (form also masc. acc.). |
+| gloss · πρότερόν | medium | Parsed as the adverb “formerly, before”, contradicting `l`, `i` and the note (“former” husband, agreeing with πόσιν). | Now πρότερος, masc. acc. sg. agreeing with πόσιν, ‘former (husband)’. |
+| gloss · σκαιαὶ, σκαιῇσι | medium | “left, on the left (west)” asserted a direction nothing here supports; the note says the sense of the name is uncertain. | “left, left-hand”, with the uncertainty said in the entry. |
+| gloss · θέσκελα | low | “perhaps ‘god-spoken’” is the same unsourced guess pass one removed from the note. | Guess removed; the entry says the meaning is not known and gives the traditional sense. |
+| gloss · λειριόεσσαν | low | “delicate, tender” added senses the note does not claim. | “lily-like”, with the uncertainty of the likeness said. |
+| gloss · ἄνεῴ | low | Gave a nom. pl. spelling ἀνέῳ that differs from the printed form. | Spelling dropped; “masc. nom. pl. (Attic-type declension)”. |
+| `__broaden__` · καλὸν (new) | medium | Known entry covers masc. acc. (with παιήονα) and neut. nom.; 169 is a neuter accusative used as a noun for a person. | Old entry whole + “ · also neut. acc. sg. as a noun standing for a person …”. |
+| `__broaden__` · μακρὰ (new) | medium | Known entry has only acc. pl.; at 135 μακρὰ agrees with ἔγχεα, subject of πέπηγεν, so nominative. | Old entry whole + “ · also neut. nom. pl., agreeing with ἔγχεα”. |
+| `__broaden__` · ἡγήτορες (new) | medium | Known entry has only the vocative; at 153 it is the nominative subject of ἧντ’. | Old entry whole + “ · also masc. nom. pl., subject of ἧντ’”. |
+
+## Checked and kept
+
+- **`__broaden__`, the 25 entries the glosser wrote:** each is the old entry from `known-forms.json` whole, plus “ · ” and one new reading, and each new reading is true of its line (αἰνῶς 158, αὐτὸν 90, βίην 105, βοῶπις 144, γένηται 110, εἰς 158, καθ’ 151, κεφαλῇ 168, μάχεσθαι 91, μάχης 84, περὶ 137, πῆμα 160, τις 167, ὅς 167, φίλη 130, φίλον 162, Ἄρηα 132, ἐμόν 98, ἔοικε 170, ἔοικεν 158, ἔπι 119, ἕτερον 103, ἠερέθονται 108, ἴδῃ 163, ὅπως 110). No key is missing from the known forms, and every token of the part has an entry in `gloss.json` or `known-forms.json`; no entry is unused. All novel entries are under 230 characters and use only typographic ’.
+- **ἄρν’ second use (118–119): kept.** The entry gives ‘a lamb’ (acc. sg. ἄρνα) first and the dual second, which suits both 103 and 119; the unit’s note and `l`/`i` (one lamb, the Achaeans’ own for Zeus) stand as pass one left them.
+- **λευκόν as masc. acc. sg. in apposition to the dual ἄρνε: kept.** ἕτερον λευκόν … ἑτέρην μέλαιναν is the distributing apposition; the masc./fem. pair is what the note uses for “male and female”. The entry and the broadened ἕτερον agree.
+- **πρότερόν adverb: refused as a reading, entry corrected** (above). 140 uses the adjective for the same man, `l`/`i` say “former”, and πρότερον with πόσιν reads without strain; the adverb would have left `l` and the gloss at odds.
+- **ὥς at 166, ἴδῃ at 163:** parse as ‘so that’ and 2 sg. middle subjunctive, as the note and the gloss both say.
+- **Possible objection to the note at 84 (“goes with both verbs”):** ἐσσυμένως stands with the whole clause ἔσχοντο … ἐγένοντο, so the claim is true as worded. Kept.
+- `new-renderings.md` quotes none of the wording changed in this pass; no edit.

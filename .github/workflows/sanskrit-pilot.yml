@@ -34,6 +34,7 @@ jobs:
         run: |
           git config user.name "lectorium-audio-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          rm -rf audio   # the usage counter written during synthesis lives outside this sparse checkout
           git add audio-pilot/
           git diff --cached --quiet && exit 0
           git commit -m "Sanskrit voices pilot clips [skip ci]"

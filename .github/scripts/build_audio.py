@@ -309,7 +309,7 @@ def main():
     need = sum(len(spoken_text(s)) for i, s in enumerate(story["sentences"])
                if prev_texts.get(str(i)) != spoken_text(s)
                or not os.path.exists("%s/%d.mp3" % (adir, i)))
-    if need and build_pinned.month_cost(cfg["name"], need) > build_pinned.MONTHLY_BUDGET_USD:
+    if need and build_pinned.month_cost(cfg["name"], need) > build_pinned.budget():
         build_pinned.block(sid, cfg["name"], need)
         return
 

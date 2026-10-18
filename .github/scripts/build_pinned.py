@@ -12,6 +12,7 @@ for the popup and as the aligner's reference), voice.txt, then runs align_wordre
 
 Usage: python3 build_pinned.py <story-id>     Env: GOOGLE_TTS_KEY
 """
+import calendar
 import json, os, re, shutil, subprocess, sys, time, base64, urllib.request, urllib.error
 from xml.sax.saxutils import escape
 
@@ -72,11 +73,41 @@ USAGE_FILE = "audio/_tts-usage.json"
 FAMILIES = ("Chirp", "Neural2", "Wavenet", "Standard")
 FREE_CHARS = {"Chirp": 1000000, "Neural2": 1000000, "Wavenet": 4000000, "Standard": 4000000}
 USD_PER_MILLION = {"Chirp": 30.0, "Neural2": 16.0, "Wavenet": 16.0, "Standard": 4.0}
-# Per-month caps (2026-10-18): Zev set October 2026 to US$75 to clear the backlog; any month not listed
-# here uses the default. The cap is read once per run, for the month the run starts in.
-DEFAULT_MONTHLY_BUDGET_USD = 35.0   # raised from 10.0 by Zev, 2026-10-13
-BUDGET_BY_MONTH = {"2026-10": 75.0}
-MONTHLY_BUDGET_USD = BUDGET_BY_MONTH.get(time.strftime("%Y-%m", time.gmtime()), DEFAULT_MONTHLY_BUDGET_USD)
+MONTHLY_BUDGET_USD = 40.0   # Zev, 2026-10-13: US$40 a month from November 2026
+BUDGET_BY_MONTH = {"2026-10": 75.0}   # October 2026: $10, then $35 (10-13), then $75 (Zev, 10-18, to clear the backlog)
+# Pacing starts in November 2026: October's raise to $75 is meant to be spent at once on the backlog.
+PACED_FROM = "2026-11"
+
+# DAILY PACING (Zev, 2026-10-13): "I don't want to publish things for 3 days and then be frozen out
+# for the rest of the month." The pinned voices (Neural2 + WaveNet, both $16/M past the free tier)
+# get a month's capacity of their free characters plus what the budget buys, released evenly by day:
+# by day d of a D-day month, at most capacity * d / D characters may have been sent. Unused allowance
+# carries forward within the month. A story that does not fit today is skipped and recorded under
+# "paced" (routine, not a warning); the next run retries it. The hard monthly budget still applies.
+# Chirp voices (build_audio.py: modern languages, small, mostly free) are not paced, only capped.
+PACED_FAMILIES = ("Neural2", "Wavenet")
+
+
+def budget(m=None):
+    return BUDGET_BY_MONTH.get(m or _month(), MONTHLY_BUDGET_USD)
+
+
+def paced_allowance():
+    t = time.gmtime()
+    days = calendar.monthrange(t.tm_year, t.tm_mon)[1]
+    cap = sum(FREE_CHARS[f] for f in PACED_FAMILIES) + budget() * 1e6 / USD_PER_MILLION["Wavenet"]
+    return int(cap * t.tm_mday / days)
+
+
+def paced_used():
+    u, m = _usage(), _month()
+    return sum(u.get(f, {}).get(m, 0) for f in PACED_FAMILIES)
+
+
+def over_pace(voice, need):
+    if _month() < PACED_FROM:
+        return False
+    return _family(voice) in PACED_FAMILIES and paced_used() + need > paced_allowance()
 
 
 def _family(voice):
@@ -114,15 +145,20 @@ def month_cost(extra_voice=None, extra=0):
     return round(total, 2)
 
 
-def block(sid, voice, need):
-    """Record a story skipped for the budget, so the daily budget check can report it."""
+def block(sid, voice, need, kind="blocked"):
+    """Record a story skipped for the budget ("blocked": the daily budget check reports it) or for
+    today's pace ("paced": routine, retried on the next run)."""
     u, m = _usage(), _month()
-    b = u.setdefault("blocked", {}).setdefault(m, {})
+    b = u.setdefault(kind, {}).setdefault(m, {})
     b[sid] = {"voice": voice, "chars": need, "would_cost_usd": month_cost(voice, need)}
     os.makedirs(os.path.dirname(USAGE_FILE), exist_ok=True)
     json.dump(u, open(USAGE_FILE, "w", encoding="utf-8"), indent=1, sort_keys=True)
-    print("BUDGET: %s skipped; voicing it would bring this month to US$%.2f (budget US$%.2f)"
-          % (sid, month_cost(voice, need), MONTHLY_BUDGET_USD))
+    if kind == "paced":
+        print("PACE: %s waits; today's allowance is %d characters, %d used this month, it needs %d"
+              % (sid, paced_allowance(), paced_used(), need))
+    else:
+        print("BUDGET: %s skipped; voicing it would bring this month to US$%.2f (budget US$%.2f)"
+              % (sid, month_cost(voice, need), budget()))
 THROTTLE_S = 0.25
 # A word clip is made only for a pin with a vowel in it (a bare elided consonant has nothing to say alone).
 # æ and ɑ added 2026-10-12 for Old English (hwæt, þā); no other language's module emits them.
@@ -141,7 +177,8 @@ def earlier_part_waiting(sid):
     me = _poem_seq(sid)
     if me is None:
         return None
-    for b in _usage().get("blocked", {}).get(_month(), {}):
+    u = _usage()
+    for b in list(u.get("blocked", {}).get(_month(), {})) + list(u.get("paced", {}).get(_month(), {})):
         k = _poem_seq(b)
         if k is not None and k < me and not os.path.exists("audio/%s/align.json" % b):
             return b
@@ -344,13 +381,16 @@ def main():
         priced.append((month_cost(v, need), choices.index(v), v, need))
     cost, _, v, need = min(priced)
     cfg["voice"] = v
-    if need and cost > MONTHLY_BUDGET_USD:
+    if need and cost > budget():
         block(sid, v, need)
+        return
+    if need and over_pace(v, need):
+        block(sid, v, need, "paced")
         return
     waiting = earlier_part_waiting(sid)
     if need and waiting:
         print("BUDGET: %s waits for %s, which is ahead of it in the poem" % (sid, waiting))
-        block(sid, v, need)
+        block(sid, v, need, "paced")
         return
     os.makedirs(adir + "/w", exist_ok=True)
 

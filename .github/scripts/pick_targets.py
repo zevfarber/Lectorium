@@ -17,6 +17,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from wordre import sent_tokens
 
 VOICE_LANGS = {"de-DE", "fr-FR", "zh-CN", "ar-XA", "he-IL"}   # keep in sync with build_audio.py VOICES
+VOICE_LANGUAGES = {"Sanskrit"}   # keep in sync with build_audio.py LANGUAGE_VOICES (by "language", langCode null)
 # Languages read by a carrier voice under IPA pins (build_pinned.py PINNED). A language goes in
 # PINNED_AUTO once its pilot reading is approved; before that only an explicit dispatch builds it.
 PINNED_AUTO = {"Ancient Greek",     # approved by ear 2026-10-04 (WaveNet voice)
@@ -69,7 +70,7 @@ def story_id(path):
     if d.get("langCode") not in VOICE_LANGS:
         # Pinned-voice languages (build_pinned.py): picked on push, "missing" and the stale
         # check only once the language is in PINNED_AUTO; a dispatch by id always builds.
-        if d.get("langCode") or d.get("language") not in (PINNED_AUTO | _DISPATCH_OK):
+        if d.get("langCode") or d.get("language") not in (PINNED_AUTO | _DISPATCH_OK | VOICE_LANGUAGES):
             return None
     return d.get("id") or None
 

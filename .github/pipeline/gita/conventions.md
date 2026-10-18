@@ -23,7 +23,7 @@
   `numbering: "stanza"`; the chapter is the part.
 - Speaker lines (धृतराष्ट्र उवाच etc.) are their own units with `p: true` and no `ln`, literal
   "Dhṛtarāṣṭra said", no `i`. The `i` of the following verse does not repeat "X said".
-- Script `devanagari`, `langCode: null`, no audio yet.
+- Script `devanagari`, `langCode: null`. Audio (Zev, 2026-10-18): Google's Kannada voice (kn-IN-Wavenet-B, rate 0.8) reading the Devanagari converted letter for letter to Kannada script — the South Indian reciting habit, every written vowel sounded. See build_audio.py LANGUAGE_VOICES.
 
 ## Words model (the sandhi layer)
 - Every space-delimited Devanagari token is one `words` entry with one glyph (`s` = the token as

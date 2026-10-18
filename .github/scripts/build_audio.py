@@ -46,6 +46,25 @@ VOICES = {
               "candidates": ["he-IL-Chirp3-HD-Achernar", "he-IL-Wavenet-A", "he-IL-Standard-A"]},
 }
 
+# Languages with no Google voice and no browser voice (langCode null) that are read by another
+# language's voice from plain text, keyed by the story's "language". The text is changed letter for
+# letter into the voice's own script just before it is sent; the page and texts.json keep the original.
+# Sanskrit (Zev, 2026-10-18, by ear from audio-pilot/sanskrit.html, Option C): the Kannada voice reading
+# the Devanagari converted to Kannada letters, which keeps every vowel as written. Alignment uses
+# espeak's Hindi voice, which reads the Devanagari of the page.
+LANGUAGE_VOICES = {
+    "Sanskrit": {"name": "kn-IN-Wavenet-B", "lang": "kn-IN", "espeak": "hi", "script": "knda", "rate": 0.8},
+}
+
+
+def to_script(text, script):
+    """Devanagari -> Kannada, letter for letter (the two Unicode blocks are laid out in parallel)."""
+    if script != "knda":
+        return text
+    return "".join(chr(ord(c) + 0x380) if 0x0901 <= ord(c) <= 0x094D or 0x0966 <= ord(c) <= 0x096F else c
+                   for c in text)
+
+
 VOICES_URL = "https://texttospeech.googleapis.com/v1/voices"
 
 
@@ -95,10 +114,14 @@ MAX_ATTEMPTS = 6
 
 
 def synth(text, cfg, key):
+    text = to_script(text, cfg.get("script"))
+    audio_cfg = {"audioEncoding": "MP3"}
+    if cfg.get("rate"):
+        audio_cfg["speakingRate"] = cfg["rate"]
     body = json.dumps({
         "input": {"text": text},
         "voice": {"languageCode": cfg["lang"], "name": cfg["name"]},
-        "audioConfig": {"audioEncoding": "MP3"},
+        "audioConfig": audio_cfg,
     }).encode("utf-8")
     req = urllib.request.Request(
         TTS_URL + "?key=" + key, data=body,
@@ -270,9 +293,12 @@ def main():
     if not lc and story.get("language") in build_pinned.PINNED:
         build_pinned.main()
         return
-    if lc not in VOICES:
+    if not lc and story.get("language") in LANGUAGE_VOICES:
+        cfg = dict(LANGUAGE_VOICES[story["language"]])
+    elif lc not in VOICES:
         raise SystemExit("No voice configured for langCode %r (story %s)" % (lc, sid))
-    cfg = dict(VOICES[lc])
+    else:
+        cfg = dict(VOICES[lc])
     key = os.environ["GOOGLE_TTS_KEY"]
 
     adir = "audio/" + sid

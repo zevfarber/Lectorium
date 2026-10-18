@@ -34,3 +34,10 @@ The published last unit of iliad-007 (2.83) has no closing ” in `l` or `i`, an
 
 ## Existing glossary entry for ἕποντο is wrong (found at iliad-013, 2026-10-18)
 The entry from an earlier part says "augmented (ἕποντο = εἵποντο)". ἕποντο is the unaugmented form. The glosser may not rewrite existing entries, so it was left. Also noted: ἀργινόεις is "bright-white", ἀνδρειφόντης "killer of men" (new choices in conventions; override if you prefer).
+
+## Found at iliad-014 (2026-10-18)
+- ποδώκης: the Iliad table reserves "fleet-footed"; the published Odyssey (odyssey-055, -056) ships "swift-footed". Decided meanwhile: Iliad keeps "fleet-footed".
+- λωτός (2.776): rendered "lotus" (as the shared half-line in Odyssey 9.97); the Odyssey ships "clover" for λωτός at 4.603. The note tells the reader. Owner may switch.
+- The archive prints σταφύλῇ at 765; the unit note quotes σταφύλῃ. Source untouched.
+- The ἕποντο glossary entry error (see iliad-013) stands; glossary changes are additions only.
+- Several notes in 014 exceed 110 words (validator did not warn).

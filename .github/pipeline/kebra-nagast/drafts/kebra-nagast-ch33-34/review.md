@@ -102,3 +102,76 @@ Counts: major 0, moderate 23, minor 52 (75 edits; two minor tidy edits in unit 0
 - ch. 31's ማኅፈድ ('stature or frame (?)') may need revisiting if 'tower' is confirmed.
 - ለዝሉፉ now follows ch. 24's 'for good (?)'.
 - Unit 37/38 vs 35: one seven-year-old son, then 'three children'; flagged in the note.
+
+# Pass 2 review — kebra-nagast-ch33-34
+
+Method: every gloss entry (238 + `__broaden__`) read against units.json; ch. 31-32 and the other published glosses compared for the same lemmas; Dillmann used from memory only (not reachable), so every lexical claim below is hedged accordingly. `t` and `p` are unchanged (checked against the pre-edit file); gloss key order unchanged; every unit word still has an entry; each `__broaden__` value still begins with the exact known-forms entry + ' · '. Edits were made by script (`str.replace` with a count-of-one assertion), Geʿez keys never retyped.
+
+## Resolution of the two glosser departures
+- ለንግሣተ (unit 16): read as ንግሥተ 'queen of' (ሣ is a spelling variant, as in መንግሣት; same noun as ለንግሥተ ኢትዮጵያ in unit 39 and ለንግሥተ ህንደኬ in unit 17, and 'gave a city to the queen' is the natural syntax). l, i, n now say 'queen (?)', with 'kingdom' kept as the stated alternative. The gloss already said 'queen (?)'.
+- ማኅፈድ (unit 31): 'tower (?)' in l, i, n, gloss and the ዳዊት broaden. Ground: ማኅፈድ is the ordinary word for a tower, the neck-as-tower image is Song 4:4, and 'tower of David' is then natural. ch. 31-32's published 'stature, build (?)' (whose own entry already says 'tower, stronghold, so frame would be figurative') is the figurative use of the same word; nothing in the published part was touched. The note says so.
+
+## Changes
+
+| Unit / entry | Field | Severity | What was wrong -> what was done |
+|---|---|---|---|
+| 35 | l | major | ተሐሠየ rendered 'was grieved'; the root is that of ሐሤት 'joy' and of ተሐሠየ 'rejoice' already glossed in ch. 25-26 -> 'and-he-rejoiced(?)' |
+| 35 | i | major | same -> 'his spirit rejoiced (?)' |
+| 35 | n | major | 'be pained, saddened' contradicted the house gloss -> rewritten (troubled in heart, glad in spirit; reason in the next clause); first reading named and set aside |
+| gloss ወተሐሠየ | entry | major | same, 'and he was grieved' -> 'and he rejoiced (… cf. ሐሤት 'joy')' |
+| 9 | i | moderate | 'host of heaven' did not match l ('adornment-of heaven'), n or ch. 13-16 -> 'adornment of heaven (the stars)' |
+| gloss ወለሰርጐ | entry | moderate | 'adornment, host of' -> 'adornment of (the heavens, i.e. the stars)' |
+| 16 | l, i, n | moderate | ንግሣተ 'kingship/kingdom (?)' -> 'queen (?)' (see above) |
+| 30 | l, i, n | moderate | ኅይስና 'grace (?)' -> 'excellence (?)', from ኀየሰ 'be good, excel' and in line with ch. 27 'goodness, excellence (?)' |
+| gloss ወበኅይስና | entry | moderate | same |
+| 31 | l, i, n | moderate | ማኅፈድ left in Geʿez / 'stature or frame' in note -> 'tower (?)', with Song 4:4 and the ch. 31 relation stated |
+| gloss ወማኅፈደ, ማኅፈደ | entries | moderate | 'tower, turret' (unhedged, and 'turret' unsupported) -> 'tower (?)' |
+| 31 | n | minor | ክሳዲኒ: the ending ክሳዲ- (not ክሳዱ) is unexplained; said so |
+| gloss ክሳዲኒ | entry | minor | claimed '-ሁ 3ms his' + ኒ, which the spelling does not show -> 'his' from context, ending unexplained (?) |
+| 42 | l, i, n | moderate | ተዐድዎ read as '3pl perfect + -ኦ' against the published entry (verbal noun, ch. 9-12, 13-16, 30) -> verbal noun 'transgressing the law and the commandment'; i is now a fragment with a dash, as the Geʿez is elliptical; the pass-1 reading is named as the less likely alternative |
+| 36 | l | minor | -ኣ of አእበዳ unrendered although n explains it -> 'he-made-foolish-it' |
+| 36 | n | minor | root now given as ዐበደ 'be foolish' (አእበደ spelled for አዐበደ) |
+| gloss አእበዳ | entry | moderate | lemma አብደ is not a Geʿez verb form, suffix -ኣ unmentioned -> lemma አዐበደ (causative of ዐበደ), 'he made foolish (it)', (?) kept |
+| gloss ያእምሮ | entry | moderate | the suffix -ኦ was missing from the grammar; 'causative of ዐመረ' unfounded -> 'that he know him … + -ኦ, anticipating ለወልዲ' |
+| 13 | n | minor | same point added to the note |
+| gloss ወያበውኡ | entry | moderate | 'causative of ባአ' (no such verb) -> ቦአ |
+| gloss ሕየው | entry | minor | lemma ሐየወ -> ሐይወ (as in ch. 28) |
+| gloss ወአርትዑ | entry | minor | lemma አርተዐ (invented spelling) -> አርትዐ, 'ርትዐ' (as ch. 29, 31) |
+| gloss ይሢም | entry | minor | lemma ሤመ -> ሠየመ (house lemma, ch. 2, 9, 23) |
+| gloss እምይእዘሰአ | entry | minor | lemma እምይእዜ -> ይእዜ (house lemma, ch. 28-29) |
+| gloss ወኢለግልፈዋት | entry | minor | lemma ግልፍ -> ግልፈት (ch. 13-16, 27); (?) kept |
+| gloss ወአዕዋም | entry | moderate | lemma/analysis 'plural of ዕፅ' invented (አዕዋም is not the plural, ዕፀው is used in the next phrase) -> lemma አዕዋም, word unidentified, sense 'trees' from the list (?) |
+| gloss ዘብርት | entry | minor | noted that ብርት is 'bronze' elsewhere (ch. 9-12, 13-16), so perhaps 'of bronze' (?); l/i left as they are |
+| gloss መባርዲን | entry | minor | lemma መባርድ was an invented singular -> the attested plural form, singular not identified |
+| gloss የኀሥሥዎ | entry | minor | 'that they seek' (subjunctive) did not match l 'who seek' -> imperfect after እለ |
+| gloss ከመዘ | entry | moderate | lemma ከመዝ ('thus') mismatched the meaning 'like one who' -> lemma ከመ |
+| gloss ተስእልናሆሙ | entry | minor | lemma ተሰአለ (letters transposed; the note has ተስእለ) -> ተስእለ |
+| gloss ፴፬ | entry | minor | transliteration ʾarbaʿtu -> ʾärbaʿtu (አ is 1st order; matches the note and ch. 13-16) |
+| gloss ዘ፯ , እም፲፻ | entries | minor | spoken form omitted the prefix, against house practice (በ፯ -> spoken በሰብዐቱ) -> 'spoken ዘሰብዐቱ', 'spoken እምዐሠርቱ ምእት' |
+| gloss ዓም | entry | minor | contraction claimed without a query -> (?) |
+| gloss ዝዓለም | entry | minor | 'of this world' (the 'of' belongs to the construct ጥበበ) -> 'this world' |
+| 3 | n | minor | typos ተፈቅደ, ተወህበ -> ተፈቀደ, ተወሀበ |
+| 20 | n | minor | i omits ባሕ; said so. Added that ጋዳ may be a misprint of ጋዛ 'treasure' (?) |
+| 29 | i | minor | 'Long life' (remembered English) left standing here after unit 20 was corrected -> 'Live' |
+| 39 | n | minor | ኔሰሐ -> ነስሐ, as the gloss has it |
+| broaden እንተ | entry | moderate | 'she alone, privately' contradicted unit 13 (the son is taken aside, ባሕቲቱ 'his') -> 'privately, apart … here the son is drawn aside alone' (old entry prefix intact) |
+| broaden ዳዊት | entry | minor | 'tower of David' unhedged -> 'tower (?) of David' |
+
+Counts: major 4 (unit 35 l, i, n; gloss ወተሐሠየ), moderate 23, minor 23; 50 edits (23 unit fields in 14 units, 27 gloss entries incl. 2 broadens).
+
+## Findings refused / left
+
+- ሕቁ (unit 1), ዘንኤምኃ and ዘፈር (unit 11), ባሕ, ጋዳ, መጋዝ, ጥልቀት, ቈጢጣን, አቊያጽ, እሊአሁ, ተጋአዘ, ብዕድና: left as unidentified or hedged; no lemma can be established without Dillmann. ሕቅ as 'bosom' is the only Dillmann-style candidate and is already in the entry.
+- ለዝሉፉ, ኅጽው 'eunuch', ጠየረ 'take omens', ሰረረ 'fly', ደወል: hedged and consistent with published parts or Acts 8; unchanged.
+- አቊያጽ (here) against published ch. 31-32 አቊያጺ: both guesses; the lemma here follows the plural-plus-linking-vowel pattern (አዕይንት -> አዕይንቲሁ). Published part not touched; the two lemmas differ in the glossary (harmless for the build).
+- ማኅፈዱ in ch. 31-32 ('stature, build (?)'): published, not edited; its entry already records 'tower' as the usual sense.
+- ወትልክኣ 'send / have it written (?)', ያገብርዎ 'present (?)': pass 1's hedged guesses stay; no better reading is derivable.
+- Unit 38 subject ('God', inferred from unit 36) and the one-son / three-children tension: already flagged by pass 1; left.
+- Unit 20/29 አበ ነጋሢ 'father of the king (?)': left hedged.
+- The final አ on ይንገሥአ, ተባዕትአ etc.: left as 'unexplained' (not resolvable here).
+- ዓም: kept, now queried.
+- Budge consulted: no. Dillmann: not reachable; used from memory only.
+
+## Build notes
+
+Nothing should trip: all 405 distinct word forms are covered by gloss or known-forms, every entry has ' — ', `__broaden__` values start with the exact known entry, JSON re-validated (units indent 2, gloss indent 1 as before). Watch only: the gloss now has lemma ከመ for the key ከመዘ and lemma አዕዋም (unidentified) for ወአዕዋም, both deliberate; the ዳዊት and እንተ broadens change the popup text of those two common words wherever they occur in this part (ዳዊት also in unit 24, 39, 40; the 'tower' remark appears there too, harmlessly, as a cross-reference in the entry).

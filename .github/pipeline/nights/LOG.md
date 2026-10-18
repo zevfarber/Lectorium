@@ -176,3 +176,5 @@
 2026-10-18 (unattended, publishing run) · Night 41 (P332L14–P340L09, 174 lines) · 138 sense units · 4 disjoint slices, all passed check_slice first time · whole-night review applied (57 sentence + 5 glossary fixes) · validate_night PASS · +438 glossary entries; colliding keys kept · no omissions · slices and review on the strongest model · tokens ≈ 107k–133k per slice, 201k review.
 
 2026-10-18 (unattended, publishing run) · Night 42 (P340L10–P344L20, 102 lines) · 108 sense units · 4 disjoint slices, all passed check_slice first time · whole-night review applied (15 sentence fixes) · validate_night PASS · +238 glossary entries; colliding keys kept · no omissions · slices and review on the strongest model · tokens ≈ 79k–103k per slice, 136k review.
+
+2026-10-19 (unattended, transcribing run) · PDF 367–374 (printed 347–354) · 181 lines · 32 disagreements (3/4/14/4/3/2/0/2 per page; p369 is verse) · 3 low-confidence (P347L14 kashida length, P349L16 لَا fatha position, P349L19 الْمَقَامُ neither pass) · Vision drafts on all pages · pass 2 on Sonnet, no rerun needed · all 7 joins continuous · marked prose words kept: عليّ, يُورخ, سُرّية, تاوّهت · retrain not due.

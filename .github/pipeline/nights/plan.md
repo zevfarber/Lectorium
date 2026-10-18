@@ -50,11 +50,12 @@ scan anomaly turns up later in the volume.
 | done (2026-10-13, unattended) | 335–342 | 315–322 | `archive/pp315-322.json` | Night 38 (from P312L11) runs through; Night 39 label P320L14; verse P335, P336–339; all 7 joins continuous |
 | done (2026-10-17, unattended) | 351–358 | 331–338 | `archive/pp331-338.json` | Night 40 tail (to its close) and Night 41 label on P332; verse P334, P336, P337; all 7 joins continuous |
 | done (2026-10-18, unattended) | 359–366 | 339–346 | `archive/pp339-346.json` | Night 41 close and Night 42 label (P340) and Night 43 label (P342+); all 7 joins continuous |
+| done (2026-10-19, unattended) | 367–374 | 347–354 | `archive/pp347-354.json` | Night 43 continues; Night 44 label (P347); verse P349; all 7 joins continuous |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 366 (archive ends at printed p. 346). Pages remaining: ~572 PDF pages
-(approximate, pending the corrected offset holding). Lines archived: 6402. calc.traineddata last
+**Last PDF page done: 374 (archive ends at printed p. 354). Pages remaining: ~564 PDF pages
+(approximate, pending the corrected offset holding). Lines archived: 6583. calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new
 verified line pairs (pp. 127-131, 133-134 prose only, verse/heading excluded; p. 132 excluded, its

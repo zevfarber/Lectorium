@@ -91,3 +91,74 @@ Reviewed against conventions.md, packet.md, known-forms.json and the ch. 37 unit
 ## Counts
 
 major: 6  ·  moderate: 28  ·  minor: 32  ·  total: 66
+
+## Pass 2
+
+Adversarial re-check of units.json and gloss.json. `t` untouched in every unit; joined `t` re-verified character-identical to the packet Geʿez (36 units, 4 paragraphs; `p` flags 0, 1, 24, 25 match the paragraph starts; no unit over 45 words; every word of every unit has a gloss, known-forms or __broaden__ entry; no unused gloss keys; no gloss key duplicates a known form). All 7 __broaden__ entries begin with the exact known-forms text followed by ' · '. Pass 1 `l`/`i`/note repairs were re-read unit by unit; the scriptural identifications (Pss 57:5, 96:1,3,10, 105:1-2, 108:5, 149:1-2; Ex 27:2; 1 Kings 1:33,39,50; Gen 15:18, 27:29, 49:25; Deut 15:6, 27:15-26; Ps 106:48; 2 Sam 7:12-16) were re-checked and stand.
+
+Numerals ፴፰ and ፴፱: checked, no change. The house convention for 31–36 (ch. 31–32, 33–34, 35, 36) is the spoken form ሠላሳ ወ… with transliteration `śälasa wä-…` (ch. 37 has the one-off `śäläsa`; ሠላሳ + ወ… is the majority and the later parts), format `"NN — N, spoken … 'thirty-N'; chapter number (numeral)"`. Both entries already follow it: ሠላሳ ወሰመንቱ (śälasa wä-sämäntu), ሠላሳ ወተስዐቱ (śälasa wä-täsʿätu; ch. 29 has the one-off typo `täsʿatu`, ch. 19 the variant ትስዐቱ, not followed).
+
+### Changes
+
+| Unit/key | Field | Severity | What was wrong / what was done |
+|---|---|---|---|
+| unit 1 | l | minor | ኦሆ flagged (?) in the note but not in `l`. |
+| unit 1 | i | minor | Same, in `i`. |
+| unit 1 | n | minor | Note said "not 'to'" while `l` has "to-"; reconciled. |
+| unit 4 | n | minor | Pass-1 claim "imperfect, not subjunctive; the subjunctive would be ይሁብ" is wrong (ይሁብ is the imperfect, cf. ትሁበኒ) and contradicted the glossary; made consistent. |
+| unit 7 | l | minor | `l` gave a subjunctive-looking "enthrone" for a perfect and lacked the (?) that the note and `i` carry. |
+| unit 9 | n | minor | Lemma misspelled (ግንየ for ገነየ). |
+| unit 9 | n | minor | "ይ-ተ pattern" is not a grammatical label. |
+| unit 20 | l | moderate | Noun parse with two suffixes (-ከ and -ሙ) is ungrammatical; ሤጥኮሙ is the contracted perfect (cf. ሤመ for ሠየመ), 2ms + 3mp. |
+| unit 20 | n | moderate | Note and glossary disagreed on the lemma (verb ሠየጠ vs noun ሤጥ) and offered a two-suffix noun; rewritten on the verb parse. |
+| unit 20 | n | minor | Lemma አመት is in the house glossary (አእማቲሃ, አመትከ); "not confirmed" overstated. |
+| unit 28 | n | minor | (?) on a word the house glosses firmly (ch. 6). |
+| unit 35 | l | minor | -ኬ is the enclitic of exhortation (house: ሀቡኬ, ch. 2–8), not unexplained. |
+| unit 35 | i | minor | Same. |
+| unit 35 | n | minor | Same. |
+| gloss ወአስተጋብኦሙ | entry | moderate | lemma spelled አስተጋበአ (wrong letter በ for ብ); not a Geʿez headword. Done: entry rewritten. |
+| gloss ነሀብ | entry | minor | lemma ሀበ; house uses ወሀበ for finite forms (ሀበ only for the ሀቡ exhortation). Done: entry rewritten. |
+| gloss አሀቦ | entry | minor | same lemma inconsistency. Done: entry rewritten. |
+| gloss በዝየ | entry | minor | meaning clause "in the sense of ዝየ" was meaningless. Done: entry rewritten. |
+| gloss የሀበኒ | entry | minor | parse label aligned with the note and with the ከመ clause. Done: entry rewritten. |
+| gloss በልጣሶር | entry | minor | asserted identification "Balthasar" that the note refuses to make. Done: entry rewritten. |
+| gloss ወይትሌዐል | entry | minor | "ልዕለ" cited as a verb is an unsupported form. Done: entry rewritten. |
+| gloss ምግባሮ | entry | minor | "contracted" mislabels the accusative of ምግባር + -ሁ. Done: entry rewritten. |
+| gloss ወንሴብሕ | entry | moderate | ንሴብሕ is the imperfect shape (jussive would be ንሰብሕ); label said jussive. Done: entry rewritten. |
+| gloss ወይርአዩ | entry | moderate | ይርአዩ is the subjunctive/jussive shape (imperfect is ይሬእዩ), not the imperfect. Done: entry rewritten. |
+| gloss ወይፍርሁነ | entry | moderate | same: ይፍርሁ is the subjunctive shape. Done: entry rewritten. |
+| gloss ወይፍርህዎ | entry | moderate | same. Done: entry rewritten. |
+| gloss ወያንግሡነ | entry | minor | imperfect label overstated. Done: entry rewritten. |
+| gloss እምሤጥኮሙ | entry | moderate | noun lemma ሤጥ with two suffixes -ከ and -ሙ is ungrammatical; verb parse. Done: entry rewritten. |
+| gloss እማቲሆሙ | entry | minor | plural cited as እማት; house has አእማት. Done: entry rewritten. |
+| gloss ስመ | entry | moderate | labelled accusative, but the phrase is the subject of ረከቦ (per unit 27); a construct chain. Done: entry rewritten. |
+| gloss ሤምናከ | entry | moderate | lemma ሤመ is not the dictionary form; house lemma is ሠየመ. Done: entry rewritten. |
+| gloss ይደልዎ | entry | minor | suffix mislabelled as accusative -ዎ; it is the dative ሎ. Done: entry rewritten. |
+| gloss ዘታሠምሮን | entry | moderate | invented suffix "-ኦን"; the note already gave -ሆን. Done: entry rewritten. |
+| gloss ይኩንከ | entry | minor | "ለ-suffix" is not a thing; dative suffix. Done: entry rewritten. |
+| gloss ወይኩኑከ | entry | minor | same. Done: entry rewritten. |
+| gloss ወይኩንከ | entry | minor | same. Done: entry rewritten. |
+| gloss ግሩራነ | entry | minor | lemma presented as an attested headword; now says reconstructed. Done: entry rewritten. |
+| gloss አይድኦኬ | entry | moderate | -ኬ called unexplained although the house glosses it (ሀቡኬ). Done: entry rewritten. |
+| gloss ወንግሮ | entry | minor | "-ሮ" is not a suffix. Done: entry rewritten. |
+| gloss ሕገ | entry | minor | third reading repeats the existing "accusative" reading (not new). Done: entry rewritten. |
+
+### Findings refused
+
+- ፴፰/፴፱ ሠላሳ + ወ… vs plain ሠላሳ: kept ሠላሳ ወ… (house convention above); no change.
+- ወለመገብቱ lemma መጋቢ with plural መገብት: kept; the house entry (ch. 29) gives the same lemma and itself notes the plural is unexpected; already flagged (?).
+- ወይግነዩ (?) on a lemma the house glosses without (?): kept, the nuance here is uncertain.
+- ደቡባዊ, ብዕዛ, ዕንዚራ, ይባቤ, ውውዓ, ሴዋ, ኳላ, ባሕ: lexical status cannot be settled without Dillmann (not available in session); left as flagged (?) and not rewritten.
+- ዕንዚራ 'harp or lyre' vs `i` leaving it untranslated: kept (flagged).
+- Unit 8/9 `i` "chief seats" for አርእስተ መንግሥት (vs `l` "heads-of"): kept (pass-1 decision; one rendering used in both units).
+- ተእኅዘ lemma ተአኅዘ (not ተአኀዘ as the house አኀዘ): kept; the form is the tä-stem and the ኅ spelling is a dictionary convention, not an error.
+- ሠረቀ noun/verb crux: kept as in pass 1 (flagged, broadened entry).
+
+### Counts (pass 2)
+
+major: 0  ·  moderate: 12  ·  minor: 28  ·  total: 40  (units.json 14, gloss.json 26; the ሕገ __broaden__ trim is counted in gloss)
+
+### Unresolved
+
+- Still (?) and unresolved: ኦሆ, መገብት, አብሎቶ (crux), እትለአክ, ምርካብ, ውውዓ, ብዕዛ, ዕንዚራ, ይባቤ, መልአከ ኀይሉ, ባሕ, ሕየው, አበ ነጋሢ, ሴዋ, ሠረቀ, ዘታሠምሮን, ግሩራነ, ኳላ, አይድኦኬ (now parsed with enclitic -ኬ), እምሤጥኮሙ (verb parse, 'from/if' open).
+- novel-forms.json still has all values empty; gloss.json supplies the entries (as in pass 1).

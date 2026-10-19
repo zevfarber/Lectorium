@@ -49,3 +49,5 @@ The entry from an earlier part says "augmented (ἕποντο = εἵποντο)
 ## Found at iliad-022 (2026-10-19)
 - 4.93–96 are statements (polite "you might / you would") following the edition's stops; the note names the question reading. Judgement call, as at 4.82–83.
 - ἄγαλμα rendered "a treasure" (4.144), not the Odyssey's "a glory", because κῦδος follows. Owner may align.
+
+2026-10-19 · iliad-024 · 4.362: the pinned source has no stop after ἴθι/ἀρεσσόμεθ’ and a comma after εἴρηται; could not check the printed Monro–Allen text (archive.org blocked; Perseus TEI is the pinned source itself). Left unchanged; if the printed edition has a stop it is one mark in the source plus a new sha256 for iliad-024.

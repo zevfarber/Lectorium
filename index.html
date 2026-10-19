@@ -463,6 +463,10 @@
   .spMuted { color: var(--muted); }
   .signModal { display:none; position:fixed; inset:0; background:rgba(30,25,20,.42); z-index:60; }
   .signModal.open { display:flex; align-items:flex-start; justify-content:center; }
+  /* invite-only beta (Zev, 2026-10-19): nothing shows until a valid invite code is entered */
+  body.locked > :not(#welcomeModal) { visibility:hidden; }
+  body.locked #welcomeModal { background:var(--bg); }
+  body.locked #welcomeModal .pclose, body.locked #wlOpenRow { display:none; }
   .smBox { background:var(--panel); color:var(--ink); margin-top:6vh; width:min(680px,92vw); max-height:84vh; overflow:auto;
            border-radius:14px; padding:22px 24px; box-shadow:0 12px 40px rgba(0,0,0,.28); position:relative; }
   .smTitle { margin:0 0 2px; font-size:1.15rem; }
@@ -647,12 +651,12 @@
       <li>⚑ correction sends us an error, so it is fixed for every reader.</li>
     </ul>
     <div id="wlCodeBox" class="wlCode" style="display:none">
-      <b>Beta readers:</b> enter the invite code from your invitation. It turns on the tutor and lets your notes reach us.
+      Lectorium is in a private beta. Enter the invite code from your invitation to open the library. The code also turns on the reading tutor and lets your notes reach us.
       <div class="wlRow"><input id="codeIn" type="text" placeholder="Invite code" autocomplete="off"><button id="codeSave" class="fixSend">Enter code</button></div>
       <div id="codeMsg" class="fixMsg"></div>
       <div class="dim wlSmall">During the beta we count which texts each invite code opens and how far it reads, to see what works. Nothing else is recorded.</div>
     </div>
-    <div class="wlRow"><button class="fixSend" onclick="closeWelcome()">Open the library</button></div>
+    <div class="wlRow" id="wlOpenRow"><button class="fixSend" onclick="closeWelcome()">Open the library</button></div>
   </div>
 </div>
 <div id="feedbackModal" class="signModal">
@@ -5242,13 +5246,15 @@ async function saveCode(raw, msgEl){
     if (!d.ok) { if (msgEl) msgEl.textContent = 'That code is not recognised. Please check the invitation.'; return false; }
     try { localStorage.setItem('inviteCode', c); } catch(e) {}
     if (msgEl) msgEl.textContent = 'Welcome' + (d.name ? ', ' + d.name : '') + '. The tutor is on.';
+    unlockLibrary();
     updateSpendInfo();
     return true;
   } catch(e) { if (msgEl) msgEl.textContent = 'Could not reach the service. Please try again in a moment.'; return false; }
 }
+function unlockLibrary(){ document.body.classList.remove('locked'); }
 function openWelcome(){ $('welcomeModal').classList.add('open');
   const c = inviteCode(); if (c && $('codeIn')) { $('codeIn').value = c; $('codeMsg').textContent = 'Your code is saved.'; } }
-function closeWelcome(){ $('welcomeModal').classList.remove('open'); try { localStorage.setItem('welcomed', '1'); } catch(e) {} }
+function closeWelcome(){ if (document.body.classList.contains('locked')) return; $('welcomeModal').classList.remove('open'); try { localStorage.setItem('welcomed', '1'); } catch(e) {} }
 function openFeedback(){ $('fbMsg').textContent = ''; $('feedbackModal').classList.add('open'); setTimeout(() => $('fbText').focus(), 30); }
 function closeFeedback(){ $('feedbackModal').classList.remove('open'); }
 $('aboutBtn').onclick = openWelcome;
@@ -5263,9 +5269,11 @@ $('fbSend').onclick = async () => {
 if (SERVICE_URL) {
   $('wlCodeBox').style.display = ''; $('codeRow').style.display = ''; $('feedbackBtn').style.display = '';
   $('codeSave').onclick = () => saveCode($('codeIn').value, $('codeMsg'));
+  $('codeIn').addEventListener('keydown', e => { if (e.key === 'Enter') saveCode($('codeIn').value, $('codeMsg')); });
   $('codeSave2').onclick = () => saveCode($('codeIn2').value, $('spendInfo'));
 }
-try { if (!localStorage.getItem('welcomed')) setTimeout(openWelcome, 400); } catch(e) {}
+if (SERVICE_URL && !inviteCode()) { document.body.classList.add('locked'); openWelcome(); }
+else { try { if (!localStorage.getItem('welcomed')) setTimeout(openWelcome, 400); } catch(e) {} }
 /* reading counts: per invite code, which text and how far — sent when leaving a text */
 let visitFurthest = -1;
 function sendVisit(){

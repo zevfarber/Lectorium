@@ -57,3 +57,39 @@ Counts: major 4, moderate 12, minor 22 (38 edits).
 - Unit 14 · ውእቱ rendered 'it (is)' although masculine and the Ark is feminine: left, as the copula/demonstrative use is in the house entry.
 - Unit 0 · `i` 'How Solomon questioned his son' vs `l` 'Where-': kept as a loose heading rendering; the note now says so.
 - `glossary` is absent from units.json (the novel forms are empty in novel-forms.json); not in scope for this pass.
+
+## Pass 2
+
+Checked: units.json after pass 1 (`t` re-verified identical to the packet, unit breaks and `p` flags, quotation marks across units, notes against the glosses), and every gloss.json entry against its occurrence (lemma, meaning, parse, format, numerals, `__broaden__`). `t` untouched.
+
+Counts: major 0, moderate 8, minor 11 (19 edits).
+
+### Changes (unit/form · field · severity · what was wrong · what was done)
+
+- ወአቅተሎ (unit 4) · gloss · moderate · lemma ቀተለ with a 'causative-looking' parse; the verb is the causative አቅተለ 'have killed' (David and Uriah). Lemma and meaning corrected.
+- unit 4 · l, i, n · moderate · 'killed' now 'had killed' to match the causative; note names it.
+- ብከ · gloss · moderate · lemma 'ብ' with parse በ- + -ከ; the word is the existential ቦ + -ከ. Lemma ቦ; unit 3 note aligned.
+- ኢትግፋዕ · gloss · moderate · lemma ገፍአ while the root given was g-f-ʿ and the text has ዕ; lemma ገፍዐ.
+- አምሐለተኒ · gloss · moderate · invented base 'ማሐለ'; removed, አምሐለ with root m-ḥ-l.
+- አረሚ · gloss · moderate · lemma አረማዊ is a modern/Amharic-looking form not in the text; lemma is now the form itself, kept (?).
+- እምኔየ · broaden · moderate · known entry only 'than me'; here (ትርሐቅ እምኔየ, ወለከኒ እምኔየ) it is 'from me'. Added ' · ' reading, old entry kept whole.
+- unit 14 · i · moderate · Solomon's speech (opened in unit 4) was never closed; closing quote added.
+- ፴፯, ፳ወ፱ · gloss · minor · spoken numeral words spelled with ዓ (ā) though the transliteration has ʿä; now ሰብዐቱ, ተስዐቱ.
+- unit 9 · n · minor · note gave 29 as ዕሥራ ወትሱዕ against the gloss's ዕሥራ ወተስዐቱ; note aligned with the gloss (fem. ተስዐ possible, flagged, as pass 1 left it open).
+- ወአንሥኦ · broaden · minor · house entry 'and he raised him' conflicts with unit 8's reading; unit reading added with (?), old entry kept whole.
+- ተስእሎ · gloss · minor · 'tG' relabelled Gt.
+- አጽሀቀከ · gloss · minor · lemma given as simple ጸሐቀ; the word is the causative, lemma አጽሐቀ (house practice: አውሥአ, አብጽሐ).
+- ትድኅረኒ · gloss · minor · called an imperfect; the form is subjunctive-shaped (odd after እንዘ). Parse hedged.
+- ውሉዶ · gloss · minor · lemma ወልድ cannot yield this form and the wording 'variant plural-looking' was muddled; lemma ውሉድ.
+- ኪያሁኒ, ወለከኒ · gloss · minor · lemmas ኪያሁ and ለከ (suffix included) changed to ኪያ and ለ, as in the house entries ኪያየ, ለከ.
+- መሓሪ · gloss · minor · invented 'ሐረ/መሐረ'; it is the participle of ምሕረ.
+- ያፈቅሩከ · gloss, unit 10 n · minor · 'causative of ፈቀረ' posits a stem not in use; the verb is አፍቀረ (f-q-r).
+- ወታዐርግ · gloss · minor · lemma ዐርገ for a causative form; lemma አዐርገ.
+- አምሕሎ, ዘየአኪ · gloss · minor · parse made precise (verbal noun; root ʾ-k-y).
+- unit 7 · n · minor · called ዘርእ a variant of ዘር; ዘርእ is the standard word.
+
+### Checked and left
+
+- All other gloss entries: lemma, meaning and parse fit the occurrence. Unresolved (?) kept: አረሚ, አጽሀቀከ, ትድኅረኒ, ዘየአኪ, ዓቡየ, ተካየደ, ወአንጋደ, ወአንሥኦ (unit 8), ለዝሉፉ (house entry), and unit-level (?) in 2, 6, 8, 9, 13, 14, 15.
+- Every form in `t` has a gloss or known entry; no stray keys; no key duplicates a known form; `__broaden__` entry ብእሲተ keeps the old text whole plus ' · ' plus the new reading.
+- Refused: unit 9 numeral agreement for feminine ዓመት (ተስዐ vs ተስዐቱ) is not settled from the allowed sources; the masculine form follows the conventions' own 318 example. ዕቅብት, አንጋድ and ህየንተ were not changed (Dillmann by memory, no better).

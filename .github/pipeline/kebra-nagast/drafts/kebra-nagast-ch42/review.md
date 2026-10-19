@@ -90,3 +90,46 @@ Unit numbers are the 0-based positions in `units.json` (0 = heading).
 ## Counts
 
 - Edits by severity (lord/God batch counted once as moderate): major 2, moderate 19, minor 37. Total entries 58.
+
+# Review (pass 2) — kebra-nagast-ch42
+
+Checked all 270 gloss entries against the text, the unit `l`/`i`/`n`, `known-forms.json` and the root-level published glossaries (105 of the 270 keys also occur there). `gloss.json` keys equal `novel-forms.json` keys (270); every word of every `t` is covered by a gloss key or a known form; no stray keys. `t` untouched (checked by script against the pass-1 copy). Dillmann unavailable, so lexical calls are hedged (?).
+
+Lemma spelling of the divine name: the published parts write the lemma እግዚአብሔር (46 entries; one entry has the book's እግዚኣብሔር). `gloss.json` writes እግዚአብሔር, as does `known-forms.json`; kept.
+
+## Changes (unit/form · field · severity · what was wrong · what was done)
+
+- ዘእትፈደይ (unit 5) · gloss lemma/grammar · moderate · lemma ፈደየ with "1cs imperfect", the ት left as a doubt; እትፈደይ is the 1cs imperfect of the T stem ተፈደየ (plain ፈደየ gives እፌድይ) · lemma now ተፈደየ (?) with the stem stated; sense hedged.
+- 5 · n · minor · note called the ት odd; now says it is what the ተ-stem gives, read so (?).
+- ዘግልፎ (unit 3) · gloss lemma · moderate · lemma was the verb ገለፈ while the entry glossed the noun ግልፎ (the lemma is the dictionary form of the word glossed) · lemma now ግልፎ (?), verb named inside.
+- ኢትርኰስ (unit 39) · gloss · moderate · glossed as the T stem ተርኰሰ "passive of አርኰሰ"; ትርኰስ is the G-stem 2ms subjunctive of ረኰሰ (the verb of ረኵሱ, unit 40; a T stem would be ትትርኰስ) · lemma ረኰሰ, grammar corrected.
+- 39 · n · moderate · same wrong stem in the note · corrected.
+- ፼ (unit 6) · gloss · moderate · lemma ትእልፊት stood as the dictionary form while the "spoken" words were different (ዐሠርቱ አእላፍ); unverified · lemma now the numeral, as published parts do (e.g. ፵ = ፵); spoken form hedged, ትእልፊት kept as a possibility.
+- ፵፪ (unit 0), ፲ (unit 0) · gloss · minor · lemma was a number word, not the numeral key the published parts use (፵፩ = ፵፩ — 41, spoken ...); ፲ also pinned to "the Ten Words" · rewritten on the published pattern.
+- 0 · n · minor · "Ethiopic numerals are letters with a bar" is inaccurate · now "signs of their own, written between two bars".
+- ኢትስማዕ (unit 16) · gloss · minor · entry carried the line-specific "probably meant 'give testimony' (?)" · made general; the crux stays in the note.
+- እኁሁ, እኁከ (units 29, 31–32) · gloss lemma · minor · lemma እኁ is not a dictionary form; published ch. 13–16 has አኅ (base እኁ- before suffixes) · lemma አኅ.
+- ወበበይነዝ (unit 10) · gloss · minor · lemma በይነ explained as "construct form በበይነ", muddling the proclitic በ- with the lemma · rewritten (lemma በይነ, በ- 'on', ዝ 'this').
+- አውፃእክዎሙ (unit 40) · gloss · minor · "bring out, expel": "expel" pinned to the line (pass 1 made l/i "bring out") · "bring out, lead out".
+- ወኢላህሞ (unit 17) · gloss · minor · the book's ላህም may be Dillmann's ላሕም; stated (?).
+- ወአዕረፈ (unit 10) · gloss · minor · label "intransitive causative form" · "A stem used intransitively".
+- ማይ (unit 3) · gloss · minor · "plural-form in sense" is the wrong way round · "plural in form".
+- 9 · n · minor · note argued that the suffix of ሰንበቱ is "his" because ዕለት is feminine; the suffixed noun is ሰንበት (feminine too, would take -ሃ for "its") · reasoning corrected; the reading "his = God" unchanged.
+
+## Findings refused
+
+- Divine-name lemma spelling: no change (see above).
+- `__broaden__` stays empty: published entries for the 105 shared keys (ውእቱ, ቤተ, ሕጎ, አንስት, ርኩስ, ብእሲት, ኀበ, ሀሎ ...) already cover this part's use; where lemmas differ only in the form of the lemma (እምነ / እም, እመኒ / እመ, ወሥርዐቶ / ሥርዓት, ገብረ verb / ገብር noun) the dictionary form here is the better one.
+- ሰዱስ / ሰዱሰ (units 9–10): ordinal "sixth, used loosely as six (?)" kept, hedged honestly.
+- ዘአጥረየ, አጥርዮ (unit 17), ይኤብሱ (18), ትክት (35), ታስተቃንዖን (34), ኢታስተፃምድ (37), ኢትዘሙ (14), ዘእትፈደይ sense: no better reading without Dillmann; kept with (?).
+- 98 አዕረፈ lemma, 227 አንስት under ብእሲት, 263 መስተሣህል (participle, hedged), 145 ተዐገሠ (hedged): kept.
+- Unit 3 `i` "nor any likeness" smooths the Geʿez በ- "in"; sense survives and the note explains the items; kept.
+- Units 1–42 otherwise re-read against the Geʿez word by word (kin relations, number, person, stems, suffixes): nothing else missed or introduced by pass 1.
+
+## Counts (pass 2)
+
+- Edits by severity: major 0, moderate 5 (ዘእትፈደይ, ዘግልፎ, ኢትርኰስ gloss, 39 n, ፼), minor 13. Total 18 (14 gloss entries, 4 unit notes).
+
+## Still unresolved (?) words
+
+ቅኔ, ዘግልፎ (ግልፎ), ዘእትፈደይ (stem), ፼ (spoken form), ኢትዘሙ, ላህሞ, ወኢብዕራዮ (sense), ዘአጥረየ, አጥርዮ, ይኤብሱ, ወይትዐገሱ, ትክት, ታስተቃንዖን, ወኢታስተፃምድ, ታ / ውፅእ (spacing), ሰዱሰ / በሰዱስ, ወመስተሣህል (form), ኪያሁ (referent), ወዘእንታክቲኒ (ዘ-), the missing ለከ in unit 3 and the ሎቱ referent in unit 24.

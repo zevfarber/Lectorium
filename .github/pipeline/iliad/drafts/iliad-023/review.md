@@ -55,3 +55,35 @@ Counts of changes: high 4, medium 3, low 13 (20 edits in all).
 - `l` ↔ `i`: sense and force agree in every unit after the 264 and 270 edits; `i` has no newlines; Machaon is named at 208 and 210 and "the Achaeans" at 222 where the Greek subject switches, as the notes say.
 - Remembered English: none found beyond the "always" at 264 (fixed); house renderings (δαΐφρων "wise-minded"/"wise-hearted", κάρη κομόωντες, αἴθοπα οἶνον, κυδιάνειραν, ἱππόβοτος, βοὴν ἀγαθός, ἄναξ ἀνδρῶν, χαλκοχιτώνων, ἀσπιστάων as at 4.90–91) match the tables and published parts. Shared lines: 4.188 and 4.203 identical to the published English.
 - Quotation marks and marks (scripted and read): “ on 184, 189, 193, 204, 234, 242, 257, 266 (each with a `mark`); ” on 185, 190, 195, 204, 238, 247, 264, 270; 235, 261 and 268 correctly carry the speech across units without closing. `p` on 183, 188, 192, 198, 208, 220, 223, 240, 242, 250, 265 = the packet's ¶ list exactly. iliad-022 ends with Agamemnon's speech at 4.182, and 183 correctly opens as narration with no opening mark.
+
+## Pass 2
+
+Method: `units.json` re-read fresh (every note against its line, `l`, `i`; the 20 pass-1 edits each re-checked; `t` compared with the packet's lines by script, unchanged). Then every entry of `gloss.json` (151 novel forms and the 14 `__broaden__` entries) checked against the line(s) where the form stands: lemma, meaning, parse true of that form, Attic equivalent named for Homeric forms, length under 230 (the `__broaden__` entries are old entry plus new reading and are exempt), typographic ’ only, no line numbers, no "here". Each `__broaden__` entry was also checked to begin with the existing glossary entry whole (all 14 do). `gloss.json` and `units.json` were edited in place by script; `t` untouched (the diff touches one `n` only). Pass-1 edits introduced no error.
+
+Counts of changes: high 1, medium 3, low 7 (11 edits in all).
+
+### Changes
+
+| where · field | severity | what was wrong | what was done |
+|---|---|---|---|
+| 235 · units `n` | high | "τέρενα is the neuter plural of τέρην": χρόα is the accusative singular of χρώς (the existing glossary says masc. acc. sg.), so τέρενα is masculine accusative singular. | Rewritten: masculine accusative singular, agreeing with χρόα. (The gloss entry τέρενα already lists both readings.) |
+| ἑστᾶσ’ 243 · gloss | medium | Parsed as a perfect participle fem. nom. pl. (ἑστᾶσαι); the note, and the usual reading, take it as the finite 3 pl. perfect ἑστᾶσι (= ἑστάασι), "they stand", the main verb of the simile. Entry and note disagreed. | Entry now: perf. 3 pl., elided (= ἑστᾶσι, for ἑστάασι; Attic ἑστήκασι): ’they stand’. |
+| κέρωνται 257 · gloss | medium | "= Attic κεράννυνται" is an indicative; the form is a subjunctive, and the Attic subjunctive is κεραννύωνται. | "(Attic subj. κεραννύωνται)". |
+| ἔχευαν · broaden | medium | New reading "threw together" contradicts the lemma "pour" and the note ("pour together"). | "poured together, confounded". |
+| ἰόμωροι · gloss | low | "perhaps ’mere archers’" gave a sense the unit does not (the unit's note and `l` give the guess ἰός + μῶρος "arrow-dull"), and leaves μῶρος unnamed. | "perhaps ’arrow-dull’ (ἰός ’arrow’ + μῶρος ’dull’)"; still marked disputed. |
+| εἰρύατ’ 247 · gloss | low | Homeric ending -αται given without its Attic equivalent. | Added "(Attic -νται)". |
+| ἀγηγέραθ’ 211 · gloss | low | Homeric ending -ατο given without its Attic equivalent. | Added "(Attic -ντο)". |
+| τίω 257 · gloss | low | Epic present with no Attic equivalent named. | Added "(= Attic τιμῶ)". |
+| ἀλκῆς 234, χάρμης 222, τρίκης 202 · gloss | low | "Ionic -ῆς / -ης" implies a contrast with Attic; Attic has the same genitive after κ, so the label is misleading. | The label removed (three entries). |
+
+### Considered and refused
+
+- **ἕποντο entry (existing, "augmented (ἕποντο = εἵποντο)").** Looks wrong (ἕποντο is the unaugmented form; the unit note is right), but the runbook forbids rewriting existing glossary entries. Left; reported to the caller for the corpus owner.
+- **εἰρύατ’ as εἰρύαται (perfect) rather than εἰρύατο (pluperfect).** Present tense in the line ("are drawn up"), so the perfect reading stands; as in pass 1 the lemma ἐρύω "draw" is kept.
+- **πάσσε "impf./aor."** The form is unaugmented and the two tenses coincide in the 3 sg.; the hedge is correct. Kept.
+- **ἄγεν (broaden), ἰητῆρος, ἀμύμονος, δαιτρόν.** Re-checked against the line; true as written (ἄγεν = ἐάγησαν reading, hedged in the note).
+- **πλεῖον (broaden) "(or read as the comparative, ’a larger cup’)".** Honest hedge about a real ambiguity; `l` and `i` ("full") agree with the first reading. Kept.
+- **ἴδῃ (broaden).** New reading (aor. subj. act. 3 sg. after ὄφρα, 195) is true; the old entry's wording was left untouched.
+- **ἔδυν "intransitive" though the line has an object (τεύχε’).** The label describes the second-aorist paradigm; the meaning gives "put on (armour)". Kept.
+- **Length.** No novel entry reaches 230 characters (longest 152 after edits); `__broaden__` entries αὐτῶν, τά, τὸ, φίλα, ἴδῃ exceed it only because the old entry is carried whole, as the runbook requires.
+- **Typography, line numbers.** No ASCII or left single quotes, no line numbers or "here" in any entry (scripted).

@@ -4665,7 +4665,6 @@ function render(){
   const origTitle = story.titleRead || story.title || '';
   const cite = story.khm ? 'Grimm ' + story.khm + ' · ' : '';
   $('stTitle').innerHTML = escapeHtml(cite + enTitle)
-    + (story.provisional ? ' <span class="draftBadge">draft · being built</span>' : '')
     + (story.audio ? '' : ' <span class="audioBadge">audio in preparation</span>');
   const sub = $('stSub');
   if (sub) {
@@ -4733,7 +4732,7 @@ function render(){
   renderArtifactFigs();
   const dr = $('stDraft');
   if (dr) {
-    const prov = !!story.provisional;
+    const prov = false;   // Zev, 2026-10-19: no draft labels; the library's automatic "in progress" mark is the only one
     dr.style.display = prov ? '' : 'none';
     if (prov) dr.textContent = story.draftNote || 'Draft in progress — the text and its readings are provisional and still being checked sign-by-sign against the sources, so expect changes.';
   }

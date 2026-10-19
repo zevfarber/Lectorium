@@ -139,15 +139,13 @@ def build(ch, out=None):
         'work': 'श्रीमद्भगवद्गीता', 'workEn': 'The Bhagavad Gītā',
         'part': '%d · %s (%s)' % (ch, part['titleEn'], part['titleTr']),
         'language': 'Sanskrit', 'langCode': None, 'script': 'devanagari', 'numbering': 'stanza',
-        'provisional': True,
-        'draftNote': 'Prepared by the Lectorium pipeline from the vulgate text, with a drafting pass, a reviewing pass and a mechanical gate; a printed-edition collation and audio are still to come. Use ⚑ correction on any verse to report a problem.',
         'source': ("Text: the received (vulgate) text of the Bhagavadgītā, Mahābhārata 6.23–40, as read by Śaṅkara's commentary. "
                    "Devanagari from Sanskrit Wikisource (भगवद्गीता/%s), collated verse by verse against the GRETIL romanized text based on the "
                    "BORI critical edition (input Tokunaga, rev. J. Smith); every verse where the two differ carries a note giving the BORI reading, "
                    "and every correction to the Wikisource text is named in its note. Collation against a pre-1930 printed edition is still to be done. "
                    "Transliteration: IAST. The reading under each word gives the words with sandhi undone and compound members hyphenated, in the "
                    "manner of the traditional pada-pāṭha. Pronunciation convention: classical Sanskrit as described in Whitney's Sanskrit Grammar (1889); "
-                   "no audio yet. Translations made fresh from the Sanskrit with Monier-Williams (1899), Apte (1890) and Śaṅkara's commentary for the "
+                   "audio read by Google's Kannada voice from the text converted letter for letter into Kannada script, every written vowel sounded. Translations made fresh from the Sanskrit with Monier-Williams (1899), Apte (1890) and Śaṅkara's commentary for the "
                    "traditional sense; no modern translation consulted.") % part['title'],
         'sentences': sentences, 'glossary': glossary,
     }

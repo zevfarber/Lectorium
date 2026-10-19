@@ -45,3 +45,7 @@ The entry from an earlier part says "augmented (ἕποντο = εἵποντο)
 ## Found at iliad-020 (2026-10-18)
 - περικαλλής ("very beautiful") and ἀμφίπολοι ("handmaids") follow the published Iliad parts, not the Odyssey table ("very fair", "attendants"). Owner may align.
 - Two shipped Odyssey units predate later table rows: odyssey-048 ("scheming with guile" for δολοφρονέουσα) and odyssey-004/-090 ("lovely song" for ἱμερόεσσαν ἀοιδήν). Not touched; iliad-020 follows the table rows.
+
+## Found at iliad-022 (2026-10-19)
+- 4.93–96 are statements (polite "you might / you would") following the edition's stops; the note names the question reading. Judgement call, as at 4.82–83.
+- ἄγαλμα rendered "a treasure" (4.144), not the Odyssey's "a glory", because κῦδος follows. Owner may align.

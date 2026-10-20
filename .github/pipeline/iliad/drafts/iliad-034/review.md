@@ -57,3 +57,34 @@ For the drafter's `new-renderings.md` (not edited by me, to be corrected when it
 ## Pass 2
 
 Re-read all 56 units after the edits: `t`/`ln`/`p`/`mark`/title fields unchanged; no ASCII quotes, no Greek in `l` or `i`, no double spaces, every note ends in a full stop; each changed `l` and `i` re-checked against its `t` and against its note (748 and the note's "lay it on"; 750 and its note; 762 and the 5.421 wording; 784 case and punctuation). Two slips of my own caught and fixed in pass 2: the first version of the 812 edit made a garbled sentence, rewritten as above; and the Odyssey reference for the "open … shut" half-line is 11.525, not 8.505. Nothing further found.
+
+## Gloss pass
+
+`gloss.json` (187 novel entries, 28 `__broaden__` entries) checked against `units.json`. Mechanical checks all pass: keys equal `novel-forms.json`; no novel entry at or over 230 characters; no line numbers, no "here", typographic ’ only; every `__broaden__` entry is the existing glossary entry whole, then " · " and the new reading; `__broaden__` stays last. Each parse was read against its line.
+
+### Changes made (key · what was wrong · what done)
+
+| Key | What was wrong | What done |
+|---|---|---|
+| θέμιστα | parsed fem. acc. sg. "law, right", against the revised unit ("rules of right", plural) | acc. pl. (Attic θέμιστας) or acc. sg. on a stem θεμιστ-, form uncertain; "rules of right" |
+| βάλετ | readings "περὶ … βάλετ’" and "ἐπί + dat." occur nowhere in this part (only ἀμφὶ … βάλετ’, 738) | kept the one reading in use |
+| τῇς | extra readings "to/among them", "on which" not in this part (one use, 750); "in whose charge" pinned to the line | relative "to whom" only |
+| φυλάσσω | subjunctive reading not in this part (809 is indicative) | removed |
+| καδμείων | stray "with ἤνασσε in other uses" | "of the Cadmeans" |
+| κύκλα | garbled lemma line | neut. pl. κύκλα beside masc. κύκλοι: "wheels" |
+| μύκον | "of the creaking gates" pins the entry to its line | removed |
+| οὔδει | "(= οὔδεϊ)" gave no Attic equivalent | Attic ἔδαφος named; dat. οὔδει (also οὔδεϊ) |
+| πελώρου | lemma πέλωρος for a neuter noun in a noun use | lemma πέλωρον, adjective noted |
+| σιδηρέῳ | "Attic σιδηροῦν, dat. -ῷ" confused | Attic σιδηρῷ |
+| ἀνακλῖναι / ἐπιθεῖναι | meanings "draw back" / "lay over" ignored the revised unit ("to open and to shut") | "to open (by drawing back)", "to shut (by laying over)" |
+| ἐκπαιφάσσειν | rare word, sense given flatly | "(rare; the sense is not certain)" |
+| ἐπεμαίετ | "lashed at": "lashed" is the house word for ἱμάσσω; unit now "laid the whip to" | "laid on at" |
+| ἠεροειδὲς | "misty, hazy", "hazy distance"; house rendering is "misty-looking" | "misty-looking, hazy", "the misty-looking distance" |
+
+### Considered and left
+
+- αὐδήσασχ’: parsed as aorist iterative of αὐδάω; the unit note says it "looks like" the aorist participle. Both are defensible; the entry's parse suits the sense ("used to shout") and was left.
+- ἐξαποδίωμαι: lemma ἐξαποδίεμαι is constructed and the entry hedges ("archaic"); the subjunctive parse fits the line, so left.
+- τελαμῶνος (Telamon) and οἷσίν (possessive ὅς): second readings are genuine homographs, kept under the " · " rule though only one reading is used here.
+- ἐδείδισαν, κεντρηνεκέας, ὑψηχέες, ἀγελείην: etymologies/senses already hedged in the entries; left.
+- All 28 `__broaden__` additions: each reading is attested in this part (checked against the Greek) and none duplicates the old entry; no refusals of the glosser's work there. No change.

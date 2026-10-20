@@ -82,3 +82,67 @@ Counts (per edited field): **major 3** (one finding, unit 24, appearing in l, i 
 - Unit 24 · 'in another place' for ወበካልእኒ: kept; the note says 'another (psalm)'.
 - Unit 14 · 'ዘትበኪ … wept' tense: kept as a past-habitual of the imperfect; added the grammar to the note only.
 - Heading units 0 and 9 · 'Where …': kept; ኀበ 'where' is the established reading in the note and the headings are in the book's formula.
+
+## Pass 2
+
+Fresh read of `units.json` (original → `l` word by word, `l` ↔ `i`, notes against the forms) and every entry of `gloss.json` (lemma and parse against the text, house renderings, published entries in `known-forms.json`). Edits by script; `t` untouched and the joined `t` still equals the packet Geʿez (2180 signs, checked). `gloss.json` is valid JSON, every novel form is present, and each `__broaden__` entry is the old known entry whole + ' · ' + the new reading (checked by script). Dillmann is unavailable; lexical calls are from memory and hedged (?). No modern translation consulted.
+
+Counts: **major 0, moderate 11, minor 22** (33 edits: 10 in units, 23 in gloss, 7 of them `__broaden__`).
+
+### Changes — units.json
+
+| unit · field | severity | wrong | done |
+|---|---|---|---|
+| 2 · n | minor | named the object suffix as '-ኦ/-ኮ/-ዞ'; the suffix is -ኦ fused with the verb's last vowel. | Rewritten: 'the suffix -ኦ, fused with the verb's last vowel (አንሥኦ, ባረኮ, አኀዞ)'. |
+| 4 · n | moderate | አዕዋፈ, አራዊተ, ዓሣተ are accusatives, yet l/i make them subjects of ይትአዘዝ without comment. | Note now says they might be objects of an unstated verb and that I read them as further subjects (?). l/i unchanged. |
+| 5 · n | minor | 'ምዕዐ/አምዐ' was an unsupported root claim. | Now 'a root for anger or heat (?)'. |
+| 7 · n | minor | 'repeated eight times': there are nine ዘ- pairs (the first, ዘርሑቅ ወዘቅሩብ, has no second ኀበ). | Count corrected in the note. |
+| 11 · n | minor | ተጽዕኑ derived from 'ጸዐነ', while the gloss and the rest use ጽዕነ. | Made ጽዕነ. |
+| 18 · n | minor | ያስሕዙ presented as a plain causative 'like ያውሕዙ'; the form is irregular. | Note: must mean 'make flow'; taken as a variant spelling (?). |
+| 19 · i | minor | 'their splendour' for ግርማሆሙ; l and the house rendering (unit 12, ch. 49–50 elsewhere) are 'majesty'. | `splendour` → `majesty`. |
+| 22 · n | minor | the note quoted English wording for Isaiah 65:1, i.e. remembered English. | Replaced by a plain statement of the allusion (also Romans 10:20). |
+| 23 · n | minor | ይቀምሑ 'taste' left unhedged although the psalm's image is 'lick' (pass 1 left it). | Hedge (?) added to the note only; l/i agree and are kept. |
+| 24 · n | minor | ትሜጥዎ has ሜ, not the regular vowel of መጠወ; ሜጠ 'turn' is possible. | Possibility added to the note (?). l/i kept as 'hand over'. |
+
+### Changes — gloss.json
+
+| entry · field | severity | wrong | done |
+|---|---|---|---|
+| መሓሬ · lemma/parse | moderate | 'participle of ሐረ' is an invented verb; መሓሪ belongs to ምሕረ 'have mercy'. | 'participle of ምሕረ, m-ḥ-r'. |
+| ወከለላ · meaning/parse | moderate | 'was withheld' contradicts the unit (pass 1 corrected to 'covered her'); no ተ-, so not passive. | 'and (it) covered her (ከለለ + -ሃ → ከለላ) (?)'. |
+| ወዖዳ · meaning/parse | moderate | 'the -ኣ ending is irregular' — it is the suffix -ሃ. | 'and (it) encircled her (ዖደ + -ሃ → ዖዳ) (?)'. |
+| ትሜጥዎ · meaning | moderate | 'hold out … stretch out her hands' was the remembered English corrected in pass 1 (unit 24); gloss still carried it. | 'she will hand over to him'; ሜጠ 'turn' noted as an alternative (?). |
+| አማዕዋቲሁ · lemma | moderate | lemma ማዕዐ was invented (the note says the singular is unknown). | Lemma is the plural form አማዕዋት, singular said to be unknown (?). |
+| በአጻብዒከ · lemma | moderate | lemma ጽባዕ; the singular I know is ጽብዕ (plural አጻብዕ). | Lemma ጽብዕ, 'from memory' (?). |
+| ሰረገላ, ሰረገላት · __broaden__ | moderate | 'wagon' against the house rendering ('cart', as in unit 11). | Both now read 'cart(s)'; old entry kept whole. |
+| እንተ · __broaden__ | moderate | new reading 'genitive link "of the"' contradicted the unit (l/n take እንተ as the relative 'which'). | Reading now 'fem. relative before a noun … link to the verb unclear (?)'. |
+| እምነ · __broaden__ (new) | moderate | known entry covers only 'from'; ወይብልዋ ለጽዮን እምነ needs 'our mother' (እም + -ነ), as unit 25's note says. | New broaden entry added. |
+| ወእምስፍሓ · parse | minor | 'construct or a pronoun suffix': construct would not end in -ሓ. | 'probably the pronoun suffix -ሃ' (?). |
+| መስተቀይመ · parse | minor | 'participle of ተቀይመ' invented a verb. | 'a መስተ- participle; root perhaps ቀየመ/ቆመ' (?). |
+| ወአንጸርከ · meaning | minor | 'pointed, looked toward' vs l 'looked-toward'. | Lead meaning 'looked toward, regarded'; 'pointed' marked as a guess (?). |
+| አውየዉ · parse | minor | 'denominative of አውያት' asserted. | 'related to the noun አውያት' (?). |
+| መኳንን · parse | minor | 'plural መኳንን / መኳንንት' blurred the construct form. | Plural መኳንንት, here the shorter form in a construct chain. |
+| ተትልዎሙ · parse | minor | suffix given as -ሆሙ (the noun/preposition suffix); verbs take -ሙ. | '-ሙ'; ተ- called irregular, perhaps a slip (?). |
+| አንብዖሙ · parse | minor | same: -ሆሙ for -ሙ. | '-ሙ'. |
+| ለዐባይ · parse | minor | the form ዐባይ left unexplained. | 'the form ዐባይ agreeing with ሀገር'. |
+| ወአንብዑ · parse | minor | '(his) tears … nominative' — አንብዑ is አንብዕ + -ሁ; l/i say 'his tears'. | 'and his tears (… + -ሁ)'. |
+| ይቀምሑ · meaning | minor | unhedged 'taste' (see unit 23). | '(?)' with 'lick' noted. |
+| ለምድር · __broaden__ (new) | minor | known 'to/for the earth' does not cover ለ- as genitive link in ወእምስፍሓ ለምድር. | Broaden added. |
+| ነቢረ · __broaden__ (new) | minor | known 'infinitive to dwell' does not cover unit 5's ወአኮ ነቢረ (accusative 'dweller', a guess). | Broaden added, hedged. |
+| ፍጹመ · __broaden__ (new) | minor | known 'perfectly (adverbial)' does not cover predicate use after ኩን. | Broaden added. |
+| ከመ, ኮኑ, ብሩሀ · __broaden__ | — | checked, correct as written. | None. |
+
+### Checked and left (no finding)
+
+All other novel entries: lemma, stem and suffix match the form and the unit's use (ይሖር, ይጸሊ, ባርከኒ, ወአኀዞ, ዘባረኮ, ወአብዝኀ, ዘርኦ, ወይትአዘዝ, the adjective run in unit 5, ወይፍርሁከ, ኀለይከ, the ዘ- pairs, ትኩንከ, ተፋነዉ, ወአቅደሙ, ጽዒኖታ, ወተጽዕኑ, ሊቃናት, ወተነፍሐ, ወበከያ, ወላሐዋ, ኢያእመሩ, ኢስሕቱ, የአውይዉ, ይንህቁ, ያውሕዙ, ወፄወውዋ, ወቀተልዋ, ወደንገፀ, ወጐየት, ወይተሉ, ይጸርኅ, ወርዕደ, the first-person -የ nouns, ኢያአምርዎ, ኢኀሠሡኒ, ይትወሀቦሙ, ይገንዩ, ይሴብሕዎ, ወይብልዋ, ዝንቱኑ). Hedged unknowns (ላሐወ, ቊስቋሳት, መሐዛት, ቲሆሙ, ርሡእ, አቤር, ሴልየ, ሰእለ, ጥብ, ቀልዕ, ነሠተ, እንጋ) are already marked (?) and I have nothing better.
+
+### Findings refused
+
+- Unit 7 · ታቦተ ሕጉ rendered without 'his': refused again (pilot ch. 1 renders it the same way; the -ሁ is anticipatory).
+- Unit 18 · i 'has left (?)' versus l 'abandoned-him the-breast of-his-mother': kept; the note says openly that the translation is smoothed.
+- Unit 19 · ተሀውከ with plural subject አማዕዋቲሁ: kept; a masculine singular verb before a plural noun is acceptable.
+- Unit 15 · 'ከማሁ ኮኑ' as 'so it was' (i) against 'so they-were' (l): kept; the broadened ኮኑ entry records 'so they were' and the English is natural.
+- Unit 11 · i 'among' for በ- against l 'with': kept; the note states the disguise reading.
+- Unit 26 · l 'very' for -ኑ: kept; the note explains -ኑ as the question enclitic.
+- ዘዐገትዋ, ወሮድዋ etc. · suffix written '-ዋ' in the gloss: kept; the surface form after -ት/-ው is -ዋ (the unit 16 note gives the underlying -ሃ).
+- ወወውዑ · lemma ውዕየ: kept hedged (?); the vocalisation is irregular and I cannot improve it.

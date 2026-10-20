@@ -69,3 +69,68 @@ Format: unit · field · severity · what was wrong · what was done.
 ## Counts
 
 - Pass 1 (units.json): 0 major, 14 moderate, 34 minor
+
+## Pass 2
+
+Second adversarial pass, again without Dillmann or any modern translation. `t` untouched: all 37 `t` values are byte-identical to the pre-pass-2 file and their join (2803 non-space characters) equals the packet Geʿez. Every form of the text is in `known-forms.json` or `novel-forms.json`; every novel form has a `gloss.json` entry (no missing, no stray keys). All changes were made by script to `units.json` and `gloss.json`; units are numbered from 0.
+
+### Pass 2 — units.json
+
+Format: unit · field · severity · what was wrong · what was done.
+
+- 5 · l, i, n · moderate · ሦዕከ was taken as a verbal noun 'your sacrificing'; it is the contracted 2nd masc. sing. perfect of ሠውዐ (cf. ሦዐ, ሦዑ elsewhere), so እምድኅረ ሦዕከ is 'after you sacrificed'. · `l` "after you-sacrificed", `i` "after you have sacrificed", note rewritten.
+- 7 · i · moderate · "instructed (?)" for ዐተቦ contradicted `l` "marked-him (?)" and the (guessed) note. · `i` "how he had marked him (?), strengthened him and enlightened him"; note now says how it fits is unknown.
+- 31 · l · moderate · "wake Elmeyanos ... for-Abisa and-for-Makari" dropped the object -ኦ and treated ለ- inconsistently; "take those timber-of boards" made እሙንቱ a demonstrative although ንሥኡ is a plural imperative. · `l` "and-wake-him to-Elmeyanos your-brother, to-Abisa and-to-Makari, and-take (pl.) they wood-of boards (?)".
+- 1 · n · minor · "The four names" (there are three after ለከ, Azariah himself being the fourth). · Reworded.
+- 1 · n · minor · "plural-count here is fem." for ጠሊተ was a made-up parse; "Dillmann is not at hand" is process talk in a reader's note. · "the ending -ተ I cannot place (?)"; the sentence removed.
+- 3 · l · minor · `l` gave a future "he-will-say" for the perfect ይቤሎ. · `l` "And-he-said-to-him: do;" (`i` keeps the prophetic "will say", the note explains).
+- 7 · n · minor · አጽነዐ misspelt (text አጽንዖ → አጽንዐ); the ዐተበ clause claimed a guessed sense. · Fixed.
+- 8 · n · minor · ", The" typo. · Fixed.
+- 12 · n · minor · ንዑ called a "suppletive form of መጽአ". · "plural of the defective imperative ንዓ, which serves as the imperative of መጽአ".
+- 19 · n · minor · "አ-noun from ሠውዐ" meaningless. · "a noun of place from ሠውዐ; compare ምሥዋዕ 'altar'".
+- 20 · l · minor · `l` "kids" lost the (?) that `i` and the note have. · Added.
+- 21 · l, i · minor · ኀባውዝ in Latin letters in `l` but in fidäl inside the English `i`. · Both now "ḫäbawz".
+- 25 · i · minor · "four lambs" lost the (?) of unit 1. · Added.
+- 31 · n · minor · አንቅሆ derived from አንቀሀ (wrong lemma, see gloss); አርኁ derived from ርኅወ (አርኁ with ʾa- is the causative አርኅወ 'open'); በነሢኦታ "infinitive ነሢአ + -ታ". · Corrected to አንቅሀ + -ኦ, አርኅወ, ነሢኦት + -ሃ.
+- 33 · l · minor · "ark-of-law" lost "his". · "ark-of his-law".
+- 36 · i · minor · "burned incense (?)" was firmer than `l` "made-fragrant incense (?)" and the note. · "made fragrant (?) a spice or incense (?)".
+
+### Pass 2 — gloss.json
+
+Format: entry · severity · what was wrong · what was done.
+
+- ሦዕከ · moderate · "your sacrificing (verbal noun)". · "you sacrificed (2ms perfect, G, ś-w-ʿ)".
+- ወአንቅሆ, ወአንቅሆሙ · moderate · lemma አንቀሀ; the root is spelled ነቅሀ (nä-qhä, 6th-order ቅ) so the causative is አንቅሀ and the printed forms (6th-order ቅ) fit it; ወአንቅሆ was also "object ለኤልምያኖስ" with no mention of the suffix -ኦ. · Lemma አንቅሀ; "wake him! (2ms imperative + -ኦ ...)".
+- ወ፬ · moderate · spoken form ወአርባዕቱ with the claim "አርባዕት with a feminine noun" (feminine is አርባዕ, and the text itself spells the accusative አርባዕተ before masculine nouns in ch. 46). · "spoken ወአርባዕተ (wä-ʾarbaʿtä) ... accusative before a masculine noun; አርባዕ with a feminine noun".
+- ጠሊተ · minor · "ጠሊተ a fem. count form" was an invented parse. · "the ending -ተ unexplained".
+- ኀጢአትክሙ · minor · "your sin" hid the plural -ክሙ. · "your (pl.) sin".
+- ዘአስተርአዮ, ዘአስተርአየኒ · minor · meaning "what appeared to him / me" against `i` "shown". · "what he showed him, what appeared to him" / "what was shown to me, what appeared to me".
+- ዐተቦ · minor · "impressed on him" and `i` "instructed" disagreed. · "he marked him (?)" (`i` changed to match).
+- ንዑ · minor · lemma መጽአ for an unrelated imperative. · Lemma ንዓ, with the note that it serves as the imperative of መጽአ.
+- ለእመአ · minor · lemma ለእመ but the grammar says ለ- + እመ. · Lemma እመ.
+- በኀቤከአ · minor · "-ከ '2ms your'" on a preposition. · "'2ms you'".
+- በበ፲ · minor · lemma በበ with a muddled "+ ፲" in the meaning, unlike ወ፵ / ወ፬. · Lemma ፲, "spoken በበ ዐሠርቱ (bäbä ʿäśärtu) 'ten each'".
+- መሣውዐ · minor · "አ-noun" meaningless. · "noun of place from ሠውዐ, compare ምሥዋዕ 'altar'", still (?).
+- ንዋዮ · minor · ending -ዮ is the accusative; not said. · "accusative + -ሁ".
+- አርኁ · minor · "G" of ርኅወ; ʾa- is the causative አርኅወ 'open'. · Fixed.
+- ወትወስዳ · minor · "take her" against `i` "carry her". · "carry her (take her away)".
+- በነሢኦታ · minor · "infinitive ነሢኦት + -ኣ". · "verbal noun ነሢኦት + -ሃ".
+- ይሜግባ · minor · "moves/carries her" against `l`/`i` "moving". · "he moves her (?)".
+- ወንሥኡ · minor · "and take!" against `i` "let them take (?)". · Both readings stated, hedged.
+- __broaden__ · minor × 7 · missing broadenings of known entries for readings new here: ፪ (counted 'two'), ፯ (counted 'seven'), ፳ (counted 'twenty'), ፍሥሓ (plain accusative, not construct), ዕለተ (accusative after a numeral, not construct), ለጽዮን and ለታቦተ (marking the object). · Added, each as the whole published entry + ' · ' + the new reading. The three existing broadenings (ኀበ, ዳዊት, ለዳዊት) were checked and are correct.
+- All other entries checked against the unit(s) in which they occur: lemma, parse and meaning agree with `l`/`i` and the notes; numerals follow the convention (spoken words with transliteration; ፵፮ አርብዓ ወስድስቱ, ፵፯ ወሰብዐቱ, ፵፰ ወሰመንቱ).
+
+### Pass 2 — findings refused (and why)
+
+- አልዋሕ lemma ሊሕ (probably ልውሕ in Dillmann): kept; identical to the published ch. 45 entry (አልዋሐ), and consistency across parts matters more; worth fixing in ch. 45 too if a lexicon is ever consulted.
+- ዕዙዝ for ለዕዘዝከ, ጸንሐ / ስኂን, መዛርእ from ዘረወ, ዘይበፅዕ / በጽሐ, በዘያወጽሕ, ውእደ, ይትዔወራ, ተሀይደት, ወአእተውዋ, ወአስተላጸቁ, አርዑት, ሙፃእ, ወ፼ spoken ትእልፍት: all hedged (?) already and I have no better reading without a lexicon.
+- እመራዕየ lemma መራዕይ (it may be the plural of መርዔት): kept; not certain enough to change.
+- ዘአሠነይከ "caus." and ወይልአኮ "-ሁ" in the note: left; harmless labelling, consistent with the published entries.
+- Unit 9 `i` "has passed over" against `l` "went over": left; English sequence, hedged.
+- Chapter-heading `i` in units 0, 18, 29 are sentence case where ch. 45 is title case: left; cosmetic.
+- Units 1, 2, 4, 6, 10, 11, 13, 14, 15–17, 19, 22–24, 26–30, 32, 34, 35: checked word by word against `t` and the known entries; no further change.
+
+### Counts
+
+- Pass 2: 0 major, 7 moderate, 40 minor (units.json 3 moderate + 14 minor; gloss.json 4 moderate + 23 minor, of which 7 are added broadenings).
+- Still unresolved (?) words, all stated as uncertain in `l`/`i`/notes/gloss: ጠሊተ/አጣሊ, አርዑተ, እምሥራቃ, ወበዐረቢሃ, ሙፃኣ, ወ፼ (spoken form), ዐተቦ, ወአለበዎ, አሐተኔ, ይትዔወራ, ተሀይደት, ለዕዘዝከ, መሣውዐ, ዘይበፅዕ, አስዋረ, መግዝአ, በዘያወጽሕ, ድልወተ, ሰቅሎን, መዛርአ, ኀባውዝ, ውእደ, ይሜግባ, ወአእተውዋ, ወአስተላጸቁ, ወአጸንሕሑ, ስኂነ, ምስዋር, አልዋሕ, ወንሥኡ (reading), plus the unit-level cruxes (unit 3 tense, unit 14 "to him", unit 34 እመ).

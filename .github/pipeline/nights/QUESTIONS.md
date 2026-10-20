@@ -1093,3 +1093,5 @@ later night. Shared rule 7 in `.github/pipeline/README.md`: a problem never cost
 - **Night 45 review (2026-10-19).** Not applied: glossary entries for the 534 keys shared with earlier nights whose wording differs; existing keys kept. Nothing waits on the owner.
 
 - **Night 46 review (2026-10-20).** Not applied: glossary entries for the 461 keys shared with earlier nights whose wording differs; existing keys kept. Nothing waits on the owner.
+
+- **Night 47 review (2026-10-20).** Not applied: wider glossary wordings for existing shared keys (مِنَ, مَا, كَانَ, لَهُ, لَكَ, لِي, بِهِ, مِنْهُ, etc.) — existing keys kept. Print slips kept as printed and noted (للمصراع, تعرف for تعرفين, fused words, الم—باح at the close). Nothing waits on the owner.

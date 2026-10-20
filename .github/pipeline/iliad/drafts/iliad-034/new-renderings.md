@@ -26,12 +26,12 @@
 | κεντρηνεκέας (ἵππους, 5.752) | "goad-driven" | "goad-driven" (+ note: usual explanation: κέντρον "goad" + the root "carry"; sense not known) | "goaded", "spurred on", "stinging" |
 | αὐτόμαται δὲ πύλαι μύκον οὐρανοῦ ἃς ἔχον Ὧραι (5.749) | "And of themselves the gates of heaven bellowed, which the Hours kept," | "Then of their own accord the gates of heaven, which the Hours kept, bellowed," | "groaned", "creaked", "rumbled" (μυκάομαι is the lowing of cattle); Ὧραι "the Hours" (goddesses), not "the Seasons" |
 | πυκινὸν νέφος (5.751) | "solid cloud" | "solid cloud" | "thick", "dense"; πυκινός keeps the house word "solid" (πυκινὸν λόχον, 4.392) |
-| ἠμὲν ἀνακλῖναι … ἠδ’ ἐπιθεῖναι (5.751) | "both to lay back … and to put it on" | "both to draw back … and to lay it over" | "roll back … and close" (the sense "open … shut" is given in the note, not in the English) |
+| ἠμὲν ἀνακλῖναι … ἠδ’ ἐπιθεῖναι (5.751) | "both to open and to shut" | "both to open and to shut" | follows Odyssey 11.525; "roll back … and close" |
 | ἐξείρετο καὶ προσέειπε (5.756) | "questioned and addressed" | "questioned … and spoke to him" | "asked and answered"; ἐξείρομαι "question" |
 | Ζῆν’ ὕπατον Κρονίδην (5.756) | "Zeus, highest son-of-Cronus" | "Zeus, the son of Cronus, the highest one" | follows ὕπατε κρειόντων "highest of rulers" and Κρονίδης "son of Cronus" |
 | οὐ νεμεσίζῃ Ἄρῃ τάδε καρτερὰ ἔργα (5.757) | "do you not feel resentment at Ares for these mighty deeds" | "do you not feel resentment at Ares for these mighty deeds" | "are you not indignant", "does it not anger you"; follows νεμεσίζομαι "I feel no resentment at" (2.296) |
 | μὰψ ἀτὰρ οὐ κατὰ κόσμον (5.759) | "recklessly and not in due order" | "recklessly and not in due order" | "in vain", "at random", "wantonly"; κόσμος "order" as in the glossary |
-| ἄφρονα τοῦτον ἀνέντες, ὃς οὔ τινα οἶδε θέμιστα (5.761) | "having let go this senseless one, who knows no law" | "who have let this senseless creature loose, who knows no law" | "mad", "reckless"; θέμιστα "law" (plural of θέμις) |
+| ἄφρονα τοῦτον ἀνέντες, ὃς οὔ τινα οἶδε θέμιστα (5.761) | "having let go this senseless one, who knows no rules of right" | "who have let this senseless creature loose, who knows no rules of right" | "mad", "reckless"; θέμιστα "rules of right" ("law" is reserved for θέμις) (plural of θέμις) |
 | ἔπορσον Ἀθηναίην ἀγελείην (5.765) | "set Athena the spoil-driver on him" | "rouse Athena, the driver of spoil, against him" | "send"; Ἀθηναίη ἀγελείη keeps the table’s "the spoil-driver" / "the driver of spoil" |
 | ὣς ἔφατ’, οὐδ’ ἀπίθησε θεὰ λευκώλενος Ἥρη (5.767, whole-line formula) | "So he spoke, and did not disobey, the goddess, white-armed Hera," | "So he spoke, and the goddess, white-armed Hera, did not disobey;" | the pattern of the 5.719 line (2.166) with λευκώλενος "white-armed" for γλαυκῶπις "gleaming-eyed" |
 | μεσσηγὺς γαίης τε καὶ οὐρανοῦ ἀστερόεντος (5.769) | "between earth and starry heaven" | "between earth and starry heaven" | "the starry sky" is kept for ἀστερόεις οὐρανός (11.17); "bright with stars" |
@@ -56,7 +56,7 @@
 | Τυδεύς τοι μικρὸς μὲν ἔην δέμας, ἀλλὰ μαχητής (5.801) | "Tydeus, I tell you, was small in build, but a fighter" | "Tydeus, I tell you, was small in build, but a fighter" | "was a small man" |
 | οὐδ’ ἐκπαιφάσσειν (5.803) | "nor dash out" | "or dash out" | "dart about"; the sense is not fully clear |
 | πολέας … Καδμείωνας (5.804) | "the many Cadmeans" | "the many Cadmeans" | "Cadmus’ sons", "Thebans"; keeps 4.385 |
-| κούρους Καδμείων προκαλίζετο, πάντα δ’ ἐνίκα ῥηϊδίως (5.807–808) | "challenged the young men of the Cadmeans, and won at everything easily" | "kept challenging the young men of the Cadmeans, and won at everything easily" | follows 4.389–390 (iliad-025) for προκαλίζετο … πάντα δ’ ἐνίκα ῥηϊδίως |
+| κούρους Καδμείων προκαλίζετο, πάντα δ’ ἐνίκα ῥηϊδίως (5.807–808) | "kept challenging the young men of the Cadmeans, and won at everything easily" | "kept challenging the young men of the Cadmeans, and won at everything easily" | follows 4.389–390 (iliad-025) for προκαλίζετο … πάντα δ’ ἐνίκα ῥηϊδίως |
 | τοίη οἱ ἐγὼν ἐπιτάρροθος ἦα (5.808) | "such a helper to him was I" | "Such a helper was I to him" | follows τοίη οἱ ἐπίρροθος ἦεν Ἀθήνη (4.390); "helper" for ἐπιτάρροθος (24.182), a departure only in person |
 | σοὶ … παρά θ’ ἵσταμαι ἠδὲ φυλάσσω (5.809) | "I stand beside you and guard you" | "I stand by you and guard you" | "watch over" |
 | προφρονέως (5.810) | "readily" | "readily" | "eagerly", "with a ready heart"; keeps the Odyssey’s "ready mind" |

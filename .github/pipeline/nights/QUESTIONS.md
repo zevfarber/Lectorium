@@ -1091,3 +1091,5 @@ later night. Shared rule 7 in `.github/pipeline/README.md`: a problem never cost
 - **Night 42 review (2026-10-18).** Not applied: (a) glossary entries for existing keys (مَا, أَنْ, بِهِ, بِهَا, مِنْهَا, مَعَ, بِمَا, بِهَٰذَا, صَوَابٍ, وَمَالِي, الْعَيْنِ, فَإِذَا) whose new wording was wider than the shared entry — existing keys kept; وَأَلْزَمَ in the shared glossary is probably wrong (reads lazima) and could be fixed deliberately later; (b) الَّتِي new-entry typo "alladhī" for allatī — not added since the key already exists; (c) doubled-shadda lemma spellings in a dozen new glossary values (الـ + دَّار etc.) and "caliph"/"Caliph" case in glosses, left as drafted. Nothing waits on the owner.
 
 - **Night 45 review (2026-10-19).** Not applied: glossary entries for the 534 keys shared with earlier nights whose wording differs; existing keys kept. Nothing waits on the owner.
+
+- **Night 46 review (2026-10-20).** Not applied: glossary entries for the 461 keys shared with earlier nights whose wording differs; existing keys kept. Nothing waits on the owner.

@@ -51,3 +51,60 @@ Counts (by table row): 3 major, 11 moderate, 14 minor (28 rows).
 - Unit 23 ጣዕዋ (?) and ያነክሩ 'marvel (?)': kept (the house has አነከረ 'marvel'); ይጠፍሑ / ይሰፍሑ 'stretch / spread': kept.
 - Unit 1 'ንጉሥ ሰሎሞን after ትመጽእ': the drafter's reading of 'to him' as Solomon is sound; kept.
 - Unit 12 'ኢትክል covers both' for the ellipsis before ወአቡከ ነሢኦታ: loose wording (it is an ellipsis of 'cannot'), but the sense is right; left.
+
+## Pass 2
+
+Method: units.json re-read in full after pass 1 (labels vs forms, l <-> i, house renderings, published parts' glossaries checked by script); every gloss.json entry checked against the text, the revised units and the published glossaries (ch. 1-52); `__broaden__` entries checked as old entry whole + ' · ' + new, and every known-forms entry checked for whether it covers this part's use. Coverage: every word of the packet has a gloss or known entry; no gloss key is absent from the text. Edits made by script (assertion on each old string); `t` and `p` verified identical to the pre-pass file (24 units). Dillmann unavailable; uncertain items hedged (?). The gloss file had not been brought into line with pass 1's unit revisions, which accounts for most findings.
+
+Counts (by table row): 6 major, 10 moderate, 15 minor (31 rows).
+
+### Changes
+
+| Unit / entry | Field | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| gloss ንቤ | entry | major | 'we say (1cp imperfect)'; pass 1 made it the 1cp perfect 'we said' (ch. 33-34 has ወንቤሎሙ so) | ብህለ — we said (1cp perfect, defective ይቤ/ትቤ/ንቤ) |
+| gloss ወኢያወሥእ | entry | major | 'does not bring in, let in', lemma አወሥአ, 'root uncertain'; contradicts unit 7 ('answer') and ch. 23 | lemma አውሥአ (house form), 'and he does not answer', w-ś-ʾ, (?) |
+| gloss ኬንያሃ | entry | major | 'unknown word ... perhaps a noun'; unit 9 and ch. 13-20 read ኬንያ 'craftsman, maker (?)' | lemma ኬንያ, 'her craftsman, maker (?)' + -ሃ |
+| gloss ወኢትትነሣእ | entry | major | 'she is not lifted, removed ... passive'; unit 12 (pass 1) makes the Ark the subject, 'she does not rise' | 'and she does not rise' (3fs ትትነሣእ, tä-stem of ተንሥአ) |
+| gloss እመንበራ | entry | major | lemma እመንበር 'her seat' as one noun; the word is እም- + መንበር + -ኣ (unit 12) | lemma መንበር, 'from her seat' |
+| gloss ጽጉበ | entry | major | 'fat, well-fed'; unit 19 (pass 1) 'sated' | 'sated, full-fed', cf. ጸገበ, with the phrase |
+| 14 | l | moderate | 'that they-see-her': ይርአያ is 3ms (ይርአይ + -ኣ), the gloss and i say 'he'/'our king may see her' | 'that he-may-see-her' |
+| gloss ንንግርከኑ | entry | moderate | 'imperfect', 'second ን belongs to the spelling' (invented; pass 1 removed it from the note) | 1cp jussive ንንግር + -ከ + -ኑ |
+| gloss ተዐግሦ | entry | moderate | 'you bear it (2ms imperfect + -ኦ)' stated as the main reading; unit note offers the verbal noun first | verbal noun first, 2ms + -ኦ as alternative, (?) |
+| gloss ዘሶቤ | entry | moderate | 'as if just now, like those of the moment' (unit: 'as when at once (?)'); lemma ሶቤ fine | 'at once, just then', ከመ ዘሶቤ 'as when at once' (?) |
+| gloss ትዜከረነ | entry | moderate | 'you remembered us (2ms)' with 'the prefix ትዜ- is unusual'; unit note says a 2ms perfect would be ዘከርከነ | irregularity stated, alternatives (ተዘከረነ), (?) |
+| gloss ወነዋ | entry | moderate | lemma ነያ, 'behold her'; unit 8 and ch. 35/37 house: ነዋ 'behold, here is' | lemma ነዋ, 'and behold, here is' |
+| gloss ነዐስዮ | entry | moderate | 'subjunctive' (unit: 'we shall repay'); '-ዮ 3ms him' (the suffix is -ኦ after ይ) | 1cp imperfect, + -ኦ written -ዮ |
+| gloss ናሰምክ | entry | moderate | 'ሰመከ lean, rely' firm; ሰመከ in ch. 29 is a different obscure word; ና- shows an a-stem | hedged (?), ና- explained, ch. 29 distinguished |
+| broaden ርእዩ | __broaden__ | moderate | missing: known entry is 'see! (2mp imperative'); this part uses the 3mp perfect 'they saw' (unit 3) | added |
+| broaden እሙ | __broaden__ | moderate | example 'ሐሊበ እሙ suckling its mother' (the refuted reading) | 'ጽጉበ ሐሊበ እሙ sated with its mother's milk' |
+| 2 | n | minor | እንተ said to agree with the 'district' only | agrees with ግብጽ (feminine) or the district (?) |
+| 11 | n | minor | 'ገበርከ' cited; the word is ወገበርከ and 'you did/do' | 'ወገበርከ and you do' |
+| 13 | n | minor | ሰመከ 'lean' stated as dictionary fact; the form is ናሰምክ (ና- = ን- + አ); ch. 29 ሰመከ differs | rewritten, hedged |
+| gloss ወምስካይነ | entry | minor | unhedged though unit l has (?) and ch. 51-52 is (?) | (?) added |
+| gloss ወትሰቂ | entry | minor | unhedged though the note says the stem is uncertain | 'stem uncertain (?)' |
+| gloss ኢትዮጽያ | entry | minor | 'genitive' (Geʿez has no case; dependent on a construct) | reworded |
+| gloss አእመሩ | entry | minor | 'causative of ʿ-m-r' (no G stem is claimed elsewhere; known ናእምር says root only) | 'a-stem, ʿ-m-r' |
+| gloss አንጸርነ | entry | minor | 'causative of ነጸረ' unverified | 'a-stem, n-ṣ-r' |
+| gloss ወቀጸቦ | entry | minor | 'took aside, called aside' firm in form; unit hedges | order and hedge aligned, suffix written -ቦ noted |
+| gloss ለማኅደርከ | entry | minor | 'for/of your dwelling' ignores the object-marking ለ- (note) | 'ለ- marking the object' |
+| gloss ፶፫ | entry | minor | lemma written as the spoken words; house pattern (፲ወ፫) uses the numeral | lemma ፶፫ |
+| broaden ወበኀበ | __broaden__ | minor | known 'and before, with; and among' does not cover 'and where' | added 'and at the place where' |
+| broaden እስራኤል | __broaden__ | minor | known 'vocative' only; here dependent on ኀያላነ | added |
+| broaden ነገረ | __broaden__ | minor | known is construct only; here accusative object | added |
+| broaden አዳም | __broaden__ | minor | known entry is a hedged adjective/man; the use 'kin of Adam' not stated | added |
+
+### Findings refused or left
+
+- Azarias (units) vs 'Azariah' (glossary entry): ch. 51-52 uses 'Azarias' in l and i and 'Azariah' in its glossary; consistent with the published part, left.
+- ወመርሶ 'harbour-of' (መርሶ): the lemma is plausible, but I cannot confirm 'construct' for this noun without Dillmann; left.
+- ክልኤሆን lemma ክልኤቱ: acceptable dictionary form; left. ወይሰግዱ 'and they will bow' (known entry, future) vs 'they bow': the imperfect covers both; left.
+- ወነያ lemma ነያ: not in the published glossaries but a recognised variant of ነዋ ('behold her'); left unhedged, flagged here.
+- ጽጉብ as an adjective: not in the published glossaries; I believe it is sound (Dillmann unavailable) but it is the one newly coined lemma without a house entry.
+- Unit 6 i 'May we tell you something ... (?)?': awkward but accurate; left.
+- Unit 22 l 'procession-of' vs i 'company': both senses given in the gloss and note; left.
+- Unit 12 'ኢትክል covers both': left (see pass 1).
+
+### Still unresolved (?) words
+
+ምስሪን connection to Miṣrayim; ደወለ (boundary); ወትሰቂ (stem); ደባትሪሆሙ; ተዐግሦ; ወኢያወሥእ (sense 'answer', and the 3ms subject); ኬንያሃ; ተሰናአውነ; ላእከ (accusative role); ወቀጸቦ; ትዜከረነ; ለግዱፋን; መነንከ; እንዘወኢምንትኒበኀቤሁ (elliptical clause); ምስካይ; ናሰምክ; ማሕስአ; ሐርጌ; አጽሐሰ; ትዕይንተ; ጣዕዋ; ያነክሩ; ዘሶቤ; መርሐ (known entry); ከመ ዘሶቤ reading.

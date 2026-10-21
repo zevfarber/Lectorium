@@ -142,6 +142,7 @@ repository is the state, never this table. Run it rather than trusting what is w
 | Night 45 | P350L03–P355L18 | published 2026-10-19, 83 sense units, 5 disjoint slices (check_slice PASS first time) + 1 whole-night review (34 fixes); +349 glossary entries, shared file wording kept on 534 collisions |
 | Night 46 | P355L19–P360L08 | published 2026-10-20, 58 sense units, 5 disjoint slices (check_slice PASS first time) + 1 whole-night review (37 fixes); +262 glossary entries, shared file wording kept on 461 collisions |
 | Night 47 | P360L09–P368L05 | published 2026-10-20, 94 sense units, 7 disjoint slices (check_slice PASS first time on 5; 2 one-word fixes by hand) + 1 whole-night review (applied); +518 glossary entries, shared file wording kept on collisions |
+| Night 48 | P368L06–P371L20 | published 2026-10-21, 46 sense units (3 verse blocks), 5 disjoint slices (check_slice PASS first time on all) + 1 whole-night review (applied, ~19 fixes); +204 glossary entries, shared file wording kept on collisions |
 
 A night runs 84–224 archived lines (about 5½ printed pages), so eight transcribed pages yield
 roughly one and a half nights. Eight units are waiting as of 2026-09-18, so the next several

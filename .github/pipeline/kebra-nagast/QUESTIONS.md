@@ -19,3 +19,4 @@
 - 2026-10-20 · ch46-48 · Unresolved without Dillmann: see LOG line (ይትዔወራ crux; tense in unit 3; who "to him" is in unit 14; እመ in unit 34). Part title is ours. Decided meanwhile: published with (?) flags.
 - 2026-10-20 · ch53 · Unresolved without Dillmann: see LOG line (ምስሪን, ደወለ, ዘሶቤ, ማሕስአ / ሐርጌ / ጣዕዋ, ኬንያሃ, ወኢያወሥእ 'answer' sense). Also ንጉሥ ዳዊት read as Menelik (regnal name) from context. Part title is ours. Decided meanwhile: published with (?) flags.
 - 2026-10-21 · ch55-56 · Unresolved without Dillmann: see LOG line (ተላህያ, ደወለ, ጠግዐ / አረፍት in the sea-crossing, ተውንያ ዘቃማ, ዕፀወ ለውሕ ጥጉዓን, ተሀየይዎ). ዕንዚራ 'harps' here vs untranslated in ch. 38 — to reconcile. Part title is ours. Decided meanwhile: published with (?) flags.
+- 2026-10-21 · ch57-58 · Unresolved without Dillmann: see LOG line (unit 11 crux ከመ እመቦ ከመ ይትገሐሡ; ምዉቀ እስትንፋስ; who sent Joash in unit 2; ፈለገ ተከዚ beside ሀገረ ምስር in unit 22). Part title is ours. Decided meanwhile: published with (?) flags.

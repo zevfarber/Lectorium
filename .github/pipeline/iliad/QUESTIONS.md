@@ -51,3 +51,6 @@ The entry from an earlier part says "augmented (ἕποντο = εἵποντο)
 - ἄγαλμα rendered "a treasure" (4.144), not the Odyssey's "a glory", because κῦδος follows. Owner may align.
 
 2026-10-19 · iliad-024 · 4.362: the pinned source has no stop after ἴθι/ἀρεσσόμεθ’ and a comma after εἴρηται; could not check the printed Monro–Allen text (archive.org blocked; Perseus TEI is the pinned source itself). Left unchanged; if the printed edition has a stop it is one mark in the source plus a new sha256 for iliad-024.
+
+## iliad-042 stopped at build (2026-10-21)
+Draft, review (two passes) and gloss for iliad-042 (7.92–180) are complete in `drafts/iliad-042/`. The build refuses: unit 22 (7.136–139) "does not end at punctuation" because the pinned source has no stop after `γυναῖκες` at 7.139 (the next line, 140, begins a new clause with οὕνεκ’). Per README rule 5 the fix is one mark: append `·` (U+00B7, as used elsewhere in the source) to line 139 in `source/iliad-monro-allen1920.json`, re-pin the sha256 of iliad-042 in `parts.json`, make the draft's `t` match, rebuild. The edit to the source file was blocked by the session's permission check, so it was not made and nothing was published. Next run: apply that one-mark fix (or have Zev permit it), then build/validate/publish from the existing drafts. Claim released.

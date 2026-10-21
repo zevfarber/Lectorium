@@ -1,0 +1,9179 @@
+{
+ "language": "Ge'ez (Classical Ethiopic)",
+ "langCode": null,
+ "script": "ethiopic",
+ "work": "Kebra Nagast",
+ "workEn": "The Glory of Kings",
+ "id": "kebra-nagast-ch59",
+ "title": "ክብረ ነገሥት",
+ "draftNote": "Geʿez as in HaCohen's Unicode text of Bezold (1905), checked against the printed page; translations original. The word-level romanization is generated mechanically and approximate; per-word glosses are best-effort — readers can suggest corrections with the ⚑ button.",
+ "titleEn": "The Glory of Kings — The Egyptian Envoy's Report (ch. 59)",
+ "part": "ch. 59 — The Egyptian Envoy's Report",
+ "source": "Carl Bezold, Kebra Nagast: Die Herrlichkeit der Könige (Munich, 1905), ch. 59 — public domain. Geʿez text as in Ran HaCohen's Unicode edition of Bezold (tau.ac.il/~hacohen/KN, from Michal Jerabek's 1995 digitization), archived and checked against Bezold's printed page. Per-sign transliteration derived mechanically from Unicode; word-level romanization auto-generated (schwa-reduced) and approximate. Transliteration convention: ś = ሠ-series, ʿ = ዐ-series, ə = 6th order, 1st order ä, 4th order a. Translations made fresh from the Geʿez; Dillmann's Lexicon (1865) the lexical aid.",
+ "about": "An Egyptian governor, sent to Solomon by Pharaoh, reports that the men of Ethiopia passed through Egypt with music and carts, that the Egyptian gods fell and were broken as they entered, and that the Egyptian priests lay it to the Ark of the God of Israel. He reproaches Solomon for giving the Ark away, and Solomon answers evasively.",
+ "sentences": [
+  {
+   "t": "፶፱ ፡ ኀበ ፡ ሐተቶ ፡ ለግብጻዊ ፡ ገብረ ፡ ፈርዖን ።",
+   "tr": "59 ḫäbä ḥätäto lägbəṣawi gäbrä färʿon",
+   "l": "59. Where he-questioned-him to-the-Egyptian, servant-of Pharaoh.",
+   "i": "Chapter 59: Where he questioned the Egyptian, Pharaoh's servant",
+   "n": "Chapter heading; ፶፱ is the numeral 59 (፶ 50, ፱ 9). The heading has the shape of those of chs. 49, 53 and 54: ኀበ 'where, at the point where' + a perfect verb. ሐተቶ is ሐተተ 'to question, examine' in the 3ms perfect with the object suffix -ኦ 'him' (so ዘሐተቶ in ch. 23); the object is then named with ለ-, ለግብጻዊ 'the Egyptian' — the regular way of doubling an object suffix, as ባረኮ ... ለወልዱ in the heading of ch. 49. The subject is not named: Solomon, who does the questioning in this chapter. ግብጻዊ is 'Egyptian' (ግብጽ 'Egypt' + the adjectival ending -ዊ); ገብረ ፈርዖን stands in apposition to it, a construct chain in which ገብር 'servant' becomes ገብረ before the dependent noun.",
+   "p": true,
+   "words": [
+    {
+     "reading": "59",
+     "say": "59",
+     "glyphs": [
+      {
+       "s": "፶",
+       "sign": "NUMBER FIFTY",
+       "role": "num",
+       "tr": "50"
+      },
+      {
+       "s": "፱",
+       "sign": "DIGIT NINE",
+       "role": "num",
+       "tr": "9"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "፶፱",
+       "gloss": "59, spoken ኀምሳ ወተስዐቱ (ḫämsa wä-täsʿatu) 'fifty-nine'; chapter number (numeral)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫäbä",
+     "say": "haba",
+     "glyphs": [
+      {
+       "s": "ኀ",
+       "sign": "XA",
+       "role": "phon",
+       "tr": "ḫä"
+      },
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ኀበ",
+       "gloss": "to, toward, at; where (preposition / conjunction) · 'with, in the possession of' (ኢተርፈት ኀበ ኢዮርብዓም 'it did not remain with Jeroboam')",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḥätäto",
+     "say": "hatato",
+     "glyphs": [
+      {
+       "s": "ሐ",
+       "sign": "HHA",
+       "role": "phon",
+       "tr": "ḥä"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      },
+      {
+       "s": "ቶ",
+       "sign": "TO",
+       "role": "phon",
+       "tr": "to"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሐተተ",
+       "gloss": "he questioned him, examined him (3ms perfect, G, ḥ-t-t + -ኦ '3ms him'; the object is named after it by ለ-, ለግብጻዊ)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lägbəṣawi",
+     "say": "lagbesawi",
+     "glyphs": [
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "ግ",
+       "sign": "GE",
+       "role": "phon",
+       "tr": "gə"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "ጻ",
+       "sign": "TSAA",
+       "role": "phon",
+       "tr": "ṣa"
+      },
+      {
+       "s": "ዊ",
+       "sign": "WI",
+       "role": "phon",
+       "tr": "wi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ግብጻዊ",
+       "gloss": "the Egyptian (ለ- marking the object, doubling the suffix of ሐተቶ; ግብጽ 'Egypt' + the adjectival ending -ዊ)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "gäbrä",
+     "say": "gabra",
+     "glyphs": [
+      {
+       "s": "ገ",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "gä"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "ረ",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "rä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ገብረ",
+       "gloss": "make, do (3ms perfect) · here the noun ገብር 'servant' in the construct state, ገብረ ፈርዖን 'servant of Pharaoh'",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "färʿon",
+     "say": "faron",
+     "glyphs": [
+      {
+       "s": "ፈ",
+       "sign": "FA",
+       "role": "phon",
+       "tr": "fä"
+      },
+      {
+       "s": "ር",
+       "sign": "RE",
+       "role": "phon",
+       "tr": "rə"
+      },
+      {
+       "s": "ዖ",
+       "sign": "PHARYNGEAL O",
+       "role": "phon",
+       "tr": "ʿo"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ፈርዖን",
+       "gloss": "Pharaoh (proper name)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "ወኀለፈ ፡ እምህየ ፡ ወረከበ ፡ ፩ ፡ መኰንነ ፡ እመኳንንተ ፡ ግብጽ ፡ ዘንጉሥ ፡ ፈርዖን ፡ ዘለአኮ ፡ ኀቤሁ ፡ ምስለ ፡ አምኃ ፡ ወምሉእ ፡ ንዋይ ፡ ምስሌሁ ፡ ወበጽሐ ፡ ወሰገደ ፡ ለንጉሥ ።",
+   "tr": "wäḫäläfä ʾəmhəyä wäräkäbä 1 mäkʷännä ʾəmäkʷannətä gəbṣ zänguś färʿon zäläʾäko ḫäbehu məslä ʾämḫa wämluʾ nəway məslehu wäbäṣḥä wäsägädä länguś",
+   "l": "And-he-passed from-there and-found one governor from-governors-of Egypt, of-king Pharaoh, whom-he-sent to-him with gifts and-full goods with-him, and-he-arrived and-bowed to-the-king.",
+   "i": "He went on from there and found one of the governors of Egypt, a governor of King Pharaoh's, whom Pharaoh had sent to him with gifts and a full store of goods with him; and he arrived and bowed down before the king.",
+   "n": "The subject of ወኀለፈ and ወረከበ is not named: Solomon himself, who in ch. 58 rose and set out after the Ethiopians (?). ወ- 'and' on each verb (ወኀለፈ, ወረከበ, ወበጽሐ, ወሰገደ) strings simple perfects, and the subject shifts inside the unit: the one who arrives and bows is the governor. እም- in እምህየ and እመኳንንተ is 'from', and before a plural it is partitive, 'one of the governors'. መኰንነ is the accusative of መኰንን 'governor'; መኳንንት is its broken plural, here in the construct before ግብጽ. ዘንጉሥ ፈርዖን: ዘ- 'of, who belongs to'. ዘለአኮ: ዘ- relative 'whom' + ለአኮ 'he sent him' (ለአከ with the 3ms object suffix -ኦ); the sender is Pharaoh. ምሉእ ንዋይ 'full goods', that is a full load of goods of every kind (?). ሰገደ is 'to bow down, prostrate oneself', and ለንጉሥ names the one bowed to.",
+   "p": true,
+   "words": [
+    {
+     "reading": "wäḫäläfä",
+     "say": "wahalafa",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ኀ",
+       "sign": "XA",
+       "role": "phon",
+       "tr": "ḫä"
+      },
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "ፈ",
+       "sign": "FA",
+       "role": "phon",
+       "tr": "fä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ኀለፈ",
+       "gloss": "and he passed, went by (ወ- + 3ms perfect)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾəmhəyä",
+     "say": "emheya",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "ህ",
+       "sign": "HE",
+       "role": "phon",
+       "tr": "hə"
+      },
+      {
+       "s": "የ",
+       "sign": "YA",
+       "role": "phon",
+       "tr": "yä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ህየ",
+       "gloss": "from there (እም- + adverb)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wäräkäbä",
+     "say": "warakaba",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ረ",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "rä"
+      },
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      },
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ረከበ",
+       "gloss": "and he found (ወ- + 3ms perfect, G, r-k-b)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "1",
+     "say": "1",
+     "glyphs": [
+      {
+       "s": "፩",
+       "sign": "DIGIT ONE",
+       "role": "num",
+       "tr": "1"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "፩",
+       "gloss": "numeral 1 — chapter number · spoken አሐዱ (ʾäḥädu) 'one', in ch. 22 'a certain' (ወሀለወ ፩ ልብው 'there was a certain wise man') · 'one' of a number (ከመ ፩ እምአግብርቲከ 'as one of your servants') · 'one' as a pronoun, 'one … another' (ይነግሮ ፩ ለካልኡ 'one tells another'; ch. 53)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mäkʷännä",
+     "say": "makwanna",
+     "glyphs": [
+      {
+       "s": "መ",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "mä"
+      },
+      {
+       "s": "ኰ",
+       "sign": "KWA",
+       "role": "phon",
+       "tr": "kʷä"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ነ",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "nä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "መኰንን",
+       "gloss": "governor, official (noun, accusative)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾəmäkʷannətä",
+     "say": "emakwanneta",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "መ",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "mä"
+      },
+      {
+       "s": "ኳ",
+       "sign": "KWAA",
+       "role": "phon",
+       "tr": "kʷa"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "መኰንን",
+       "gloss": "from among the governors (እም- + plural መኳንንት, construct 'governors of')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "gəbṣ",
+     "say": "gebs",
+     "glyphs": [
+      {
+       "s": "ግ",
+       "sign": "GE",
+       "role": "phon",
+       "tr": "gə"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "ጽ",
+       "sign": "TSE",
+       "role": "phon",
+       "tr": "ṣə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ግብጽ",
+       "gloss": "Egypt (proper name; genitive after construct)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "zänguś",
+     "say": "zangus",
+     "glyphs": [
+      {
+       "s": "ዘ",
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "zä"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ጉ",
+       "sign": "GU",
+       "role": "phon",
+       "tr": "gu"
+      },
+      {
+       "s": "ሥ",
+       "sign": "SZE",
+       "role": "phon",
+       "tr": "śə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ንጉሥ",
+       "gloss": "of the king (ዘ- genitive + noun)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "färʿon",
+     "say": "faron",
+     "glyphs": [
+      {
+       "s": "ፈ",
+       "sign": "FA",
+       "role": "phon",
+       "tr": "fä"
+      },
+      {
+       "s": "ር",
+       "sign": "RE",
+       "role": "phon",
+       "tr": "rə"
+      },
+      {
+       "s": "ዖ",
+       "sign": "PHARYNGEAL O",
+       "role": "phon",
+       "tr": "ʿo"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ፈርዖን",
+       "gloss": "Pharaoh (proper name)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "zäläʾäko",
+     "say": "zalaako",
+     "glyphs": [
+      {
+       "s": "ዘ",
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "zä"
+      },
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ኮ",
+       "sign": "KO",
+       "role": "phon",
+       "tr": "ko"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ለአከ",
+       "gloss": "whom he sent (ዘ- relative + 3ms perfect ለአከ + -ኦ 'him', written ለአኮ)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫäbehu",
+     "say": "habehu",
+     "glyphs": [
+      {
+       "s": "ኀ",
+       "sign": "XA",
+       "role": "phon",
+       "tr": "ḫä"
+      },
+      {
+       "s": "ቤ",
+       "sign": "BEE",
+       "role": "phon",
+       "tr": "be"
+      },
+      {
+       "s": "ሁ",
+       "sign": "HU",
+       "role": "phon",
+       "tr": "hu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ኀበ",
+       "gloss": "to him (preposition + -hu, ኀቤሁ) · also 'of him' after ሰአለ 'ask' (ሰአለ ኀቤሁ 'he asked of him')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "məslä",
+     "say": "mesla",
+     "glyphs": [
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      },
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ምስለ",
+       "gloss": "with, together with",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾämḫa",
+     "say": "amha",
+     "glyphs": [
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "ኃ",
+       "sign": "XAA",
+       "role": "phon",
+       "tr": "ḫa"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አምኃ",
+       "gloss": "gifts, tribute (noun, plural/collective; accusative)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wämluʾ",
+     "say": "wamlu",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "ሉ",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ምሉእ",
+       "gloss": "and full, filled (ወ- + adjective, passive participle of መልአ 'be full')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nəway",
+     "say": "neway",
+     "glyphs": [
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ዋ",
+       "sign": "WAA",
+       "role": "phon",
+       "tr": "wa"
+      },
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ንዋይ",
+       "gloss": "goods, possessions, vessels (noun)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "məslehu",
+     "say": "meslehu",
+     "glyphs": [
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      },
+      {
+       "s": "ሌ",
+       "sign": "LEE",
+       "role": "phon",
+       "tr": "le"
+      },
+      {
+       "s": "ሁ",
+       "sign": "HU",
+       "role": "phon",
+       "tr": "hu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ምስለ",
+       "gloss": "with him (preposition, stem ምስሌ- + -ሁ 'him')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wäbäṣḥä",
+     "say": "wabasha",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      },
+      {
+       "s": "ጽ",
+       "sign": "TSE",
+       "role": "phon",
+       "tr": "ṣə"
+      },
+      {
+       "s": "ሐ",
+       "sign": "HHA",
+       "role": "phon",
+       "tr": "ḥä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "በጽሐ",
+       "gloss": "and he reached (ወ- + 3ms perfect, b-ṣ-ḥ)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wäsägädä",
+     "say": "wasagada",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      },
+      {
+       "s": "ገ",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "gä"
+      },
+      {
+       "s": "ደ",
+       "sign": "DA",
+       "role": "phon",
+       "tr": "dä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሰገደ",
+       "gloss": "and he bowed down (ወ- + 3ms perfect, s-g-d)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "länguś",
+     "say": "langus",
+     "glyphs": [
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ጉ",
+       "sign": "GU",
+       "role": "phon",
+       "tr": "gu"
+      },
+      {
+       "s": "ሥ",
+       "sign": "SZE",
+       "role": "phon",
+       "tr": "śə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ንጉሥ",
+       "gloss": "to the king, for the king (ለ- + noun) · marking the object, doubled by a suffix on the verb (ይሕምይዎ ለንጉሥ 'they revile the king') or by a suffix on a noun (ሐሚዮቱ ለንጉሥ 'the reviling of the king')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "ወአፍጠኖ ፡ ሐቲተ ፡ ሰሎሞን ፡ ንጉሥ ፡ ዘእንበለ ፡ የሀብ ፡ አምኃሁ ፡ ወመልእክቶ ፡ ወይቤሎ ፡ ቦኑ ፡ ዘርኢከ ፡ ሰብአ ፡ ኢትዮጵያ ፡ እንዘ ፡ ይግዕዙ ፡ እምህየ ።",
+   "tr": "wäʾäfṭäno ḥätitä sälomon nəguś zäʾnəbälä yähäb ʾämḫahu wämälʾəkto wäybelo bonu zärʾikä säbʾä ʾityop̣ya ʾənzä yəgʿəzu ʾəmhəyä",
+   "l": "And-hastened-him to-question Solomon the-king before he-give his-gifts and-his-message, and-said-to-him: Is-there that-you-saw men-of Ethiopia while they-travel from-there?",
+   "i": "King Solomon hurried to question him before he could hand over his gifts and his message, and said to him, 'Did you see the men of Ethiopia travelling away from there?'",
+   "n": "ወአፍጠኖ ሐቲተ: አፍጠነ is the causative (A-stem) of ፈጠነ 'be quick', so 'he hastened'; ሐቲተ is its accusative infinitive, 'the questioning'. The suffix -ኦ 'him' on the verb is the object of that infinitive, carried back onto the governing verb: 'he hastened to question him'. ዘእንበለ 'before, without' takes the subjunctive የሀብ 'he give' (ወሀበ 'to give'); the suffixes in አምኃሁ 'his gifts' and መልእክቶ 'his message' are the 3ms -ሁ / -ኦ. ወይቤሎ: ይቤ 'he said' + -ሎ 'to him', the standing formula. ቦኑ: ቦ 'there is' + the question particle -ኑ, 'is it that?'. ዘርኢከ 'that you saw' (ርእየ). ሰብአ ኢትዮጵያ: construct, 'men-of Ethiopia', as the published parts render it. እንዘ ይግዕዙ: እንዘ 'while' + the imperfect, 'while they were travelling' (ገዐዘ 'to go, journey, migrate' (?)); the same root gives the language-name Geʿez.",
+   "words": [
+    {
+     "reading": "wäʾäfṭäno",
+     "say": "waaftano",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ፍ",
+       "sign": "FE",
+       "role": "phon",
+       "tr": "fə"
+      },
+      {
+       "s": "ጠ",
+       "sign": "THA",
+       "role": "phon",
+       "tr": "ṭä"
+      },
+      {
+       "s": "ኖ",
+       "sign": "NO",
+       "role": "phon",
+       "tr": "no"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አፍጠነ",
+       "gloss": "and he hastened (ወ- + 3ms perfect, causative of ፈጠነ 'be quick', + -ኦ 'him', the object of the following infinitive ሐቲተ)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḥätitä",
+     "say": "hatita",
+     "glyphs": [
+      {
+       "s": "ሐ",
+       "sign": "HHA",
+       "role": "phon",
+       "tr": "ḥä"
+      },
+      {
+       "s": "ቲ",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሐተተ",
+       "gloss": "to question (infinitive ሐቲት, accusative)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "sälomon",
+     "say": "salomon",
+     "glyphs": [
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      },
+      {
+       "s": "ሎ",
+       "sign": "LO",
+       "role": "phon",
+       "tr": "lo"
+      },
+      {
+       "s": "ሞ",
+       "sign": "MO",
+       "role": "phon",
+       "tr": "mo"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሰሎሞን",
+       "gloss": "Solomon (proper name)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nəguś",
+     "say": "negus",
+     "glyphs": [
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ጉ",
+       "sign": "GU",
+       "role": "phon",
+       "tr": "gu"
+      },
+      {
+       "s": "ሥ",
+       "sign": "SZE",
+       "role": "phon",
+       "tr": "śə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ንጉሥ",
+       "gloss": "king (noun)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "zäʾnəbälä",
+     "say": "zanebala",
+     "glyphs": [
+      {
+       "s": "ዘ",
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "zä"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      },
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ዘእንበለ",
+       "gloss": "without, except (preposition) · conjunction 'without' + jussive (ዘእንበለ ይስቅይዋ 'without their watering her') · conjunction + perfect 'without (its having been done)' (ዘእንበለ ተሀበኒ ትእምርተ 'without a sign having been given me') · 'except' (ዘእንበለ ዘተሐምም 'except what she suffered')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "yähäb",
+     "say": "yahab",
+     "glyphs": [
+      {
+       "s": "የ",
+       "sign": "YA",
+       "role": "phon",
+       "tr": "yä"
+      },
+      {
+       "s": "ሀ",
+       "sign": "HA",
+       "role": "phon",
+       "tr": "hä"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ወሀበ",
+       "gloss": "he gives (3ms imperfect/jussive, G, w-h-b; after ዘእንበለ)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾämḫahu",
+     "say": "amhahu",
+     "glyphs": [
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "ኃ",
+       "sign": "XAA",
+       "role": "phon",
+       "tr": "ḫa"
+      },
+      {
+       "s": "ሁ",
+       "sign": "HU",
+       "role": "phon",
+       "tr": "hu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አምኃ",
+       "gloss": "his gifts (noun, plural/collective + -ሁ '3ms his')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wämälʾəkto",
+     "say": "wamalekto",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "መ",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "mä"
+      },
+      {
+       "s": "ል",
+       "sign": "LE",
+       "role": "phon",
+       "tr": "lə"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ክ",
+       "sign": "KE",
+       "role": "phon",
+       "tr": "kə"
+      },
+      {
+       "s": "ቶ",
+       "sign": "TO",
+       "role": "phon",
+       "tr": "to"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "መልእክት",
+       "gloss": "and his message (ወ- + noun + -ኦ '3ms his', written -ቶ)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wäybelo",
+     "say": "waybelo",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      },
+      {
+       "s": "ቤ",
+       "sign": "BEE",
+       "role": "phon",
+       "tr": "be"
+      },
+      {
+       "s": "ሎ",
+       "sign": "LO",
+       "role": "phon",
+       "tr": "lo"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ብህለ",
+       "gloss": "and he said to him (ወ- 'and' + 3ms perfect ይቤ of b-h-l + -ሎ 'to him')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bonu",
+     "say": "bonu",
+     "glyphs": [
+      {
+       "s": "ቦ",
+       "sign": "BO",
+       "role": "phon",
+       "tr": "bo"
+      },
+      {
+       "s": "ኑ",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ቦ",
+       "gloss": "is there? is it so that? (existential ቦ + interrogative -ኑ)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "zärʾikä",
+     "say": "zarika",
+     "glyphs": [
+      {
+       "s": "ዘ",
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "zä"
+      },
+      {
+       "s": "ር",
+       "sign": "RE",
+       "role": "phon",
+       "tr": "rə"
+      },
+      {
+       "s": "ኢ",
+       "sign": "GLOTTAL I",
+       "role": "phon",
+       "tr": "ʾi"
+      },
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ርእየ",
+       "gloss": "which you saw (ዘ- relative + 2ms perfect, G)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "säbʾä",
+     "say": "saba",
+     "glyphs": [
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሰብእ",
+       "gloss": "man (accusative) · construct 'men of' (ሰብአ ቤቱ 'men of his house')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾityop̣ya",
+     "say": "ityopya",
+     "glyphs": [
+      {
+       "s": "ኢ",
+       "sign": "GLOTTAL I",
+       "role": "phon",
+       "tr": "ʾi"
+      },
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      },
+      {
+       "s": "ዮ",
+       "sign": "YO",
+       "role": "phon",
+       "tr": "yo"
+      },
+      {
+       "s": "ጵ",
+       "sign": "PHE",
+       "role": "phon",
+       "tr": "p̣ə"
+      },
+      {
+       "s": "ያ",
+       "sign": "YAA",
+       "role": "phon",
+       "tr": "ya"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ኢትዮጵያ",
+       "gloss": "Ethiopia (proper name)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾənzä",
+     "say": "enza",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ዘ",
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "zä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እንዘ",
+       "gloss": "while, whilst (conjunction)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "yəgʿəzu",
+     "say": "yegezu",
+     "glyphs": [
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      },
+      {
+       "s": "ግ",
+       "sign": "GE",
+       "role": "phon",
+       "tr": "gə"
+      },
+      {
+       "s": "ዕ",
+       "sign": "PHARYNGEAL E",
+       "role": "phon",
+       "tr": "ʿə"
+      },
+      {
+       "s": "ዙ",
+       "sign": "ZU",
+       "role": "phon",
+       "tr": "zu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ገዐዘ",
+       "gloss": "they go away, depart, travel (3mp imperfect after እንዘ, G, g-ʿ-z) (?)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾəmhəyä",
+     "say": "emheya",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "ህ",
+       "sign": "HE",
+       "role": "phon",
+       "tr": "hə"
+      },
+      {
+       "s": "የ",
+       "sign": "YA",
+       "role": "phon",
+       "tr": "yä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ህየ",
+       "gloss": "from there (እም- + adverb)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "ወአውሥአ ፡ ወይቤሎ ፡ መልአከ ፡ ፈርዖን ፡ ለንጉሥ ፡ ሕያው ፡ አንተ ፡ ንጉሥ ፡ ለዓለም ፤",
+   "tr": "wäʾäwśəʾä wäybelo mälʾäkä färʿon länguś ḥəyaw ʾäntä nəguś läʿaläm",
+   "l": "And-answered and-said-to-him the-messenger-of Pharaoh to-the-king: Alive you, king, for-ever;",
+   "i": "Pharaoh's messenger answered and said to the king, 'May you live, O king, forever.'",
+   "n": "አውሥአ 'he answered' with ወይቤሎ 'and said to him' is a standard speech opening; the -ኦ 'to him' is then named by ለንጉሥ 'to the king', the object-doubling ለ- of the published parts. መልአከ ፈርዖን: construct 'messenger-of Pharaoh', here the subject. ሕያው አንተ 'alive (are) you' is a verbless salutation; ንጉሥ is a vocative without ኦ (contrast ኦንጉሥ in unit 11). ለዓለም 'for ever' (ለ- 'to, for' + ዓለም 'age, world').",
+   "words": [
+    {
+     "reading": "wäʾäwśəʾä",
+     "say": "waawsea",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ው",
+       "sign": "WE",
+       "role": "phon",
+       "tr": "wə"
+      },
+      {
+       "s": "ሥ",
+       "sign": "SZE",
+       "role": "phon",
+       "tr": "śə"
+      },
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አውሥአ",
+       "gloss": "and he answered (ወ- + 3ms perfect, causative of ወሥአ)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wäybelo",
+     "say": "waybelo",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      },
+      {
+       "s": "ቤ",
+       "sign": "BEE",
+       "role": "phon",
+       "tr": "be"
+      },
+      {
+       "s": "ሎ",
+       "sign": "LO",
+       "role": "phon",
+       "tr": "lo"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ብህለ",
+       "gloss": "and he said to him (ወ- 'and' + 3ms perfect ይቤ of b-h-l + -ሎ 'to him')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mälʾäkä",
+     "say": "malaka",
+     "glyphs": [
+      {
+       "s": "መ",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "mä"
+      },
+      {
+       "s": "ል",
+       "sign": "LE",
+       "role": "phon",
+       "tr": "lə"
+      },
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "መልአክ",
+       "gloss": "angel, messenger (noun, construct state 'angel-of')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "färʿon",
+     "say": "faron",
+     "glyphs": [
+      {
+       "s": "ፈ",
+       "sign": "FA",
+       "role": "phon",
+       "tr": "fä"
+      },
+      {
+       "s": "ር",
+       "sign": "RE",
+       "role": "phon",
+       "tr": "rə"
+      },
+      {
+       "s": "ዖ",
+       "sign": "PHARYNGEAL O",
+       "role": "phon",
+       "tr": "ʿo"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ፈርዖን",
+       "gloss": "Pharaoh (proper name)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "länguś",
+     "say": "langus",
+     "glyphs": [
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ጉ",
+       "sign": "GU",
+       "role": "phon",
+       "tr": "gu"
+      },
+      {
+       "s": "ሥ",
+       "sign": "SZE",
+       "role": "phon",
+       "tr": "śə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ንጉሥ",
+       "gloss": "to the king, for the king (ለ- + noun) · marking the object, doubled by a suffix on the verb (ይሕምይዎ ለንጉሥ 'they revile the king') or by a suffix on a noun (ሐሚዮቱ ለንጉሥ 'the reviling of the king')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḥəyaw",
+     "say": "heyaw",
+     "glyphs": [
+      {
+       "s": "ሕ",
+       "sign": "HHE",
+       "role": "phon",
+       "tr": "ḥə"
+      },
+      {
+       "s": "ያ",
+       "sign": "YAA",
+       "role": "phon",
+       "tr": "ya"
+      },
+      {
+       "s": "ው",
+       "sign": "WE",
+       "role": "phon",
+       "tr": "wə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሕያው",
+       "gloss": "living, alive (adjective, masc. sg.)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾäntä",
+     "say": "anta",
+     "glyphs": [
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አንተ",
+       "gloss": "you (2ms pronoun)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nəguś",
+     "say": "negus",
+     "glyphs": [
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ጉ",
+       "sign": "GU",
+       "role": "phon",
+       "tr": "gu"
+      },
+      {
+       "s": "ሥ",
+       "sign": "SZE",
+       "role": "phon",
+       "tr": "śə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ንጉሥ",
+       "gloss": "king (noun)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "läʿaläm",
+     "say": "laalam",
+     "glyphs": [
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "ዓ",
+       "sign": "PHARYNGEAL AA",
+       "role": "phon",
+       "tr": "ʿa"
+      },
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ዓለም",
+       "gloss": "for ever (ለ- 'to, for' + noun 'age, world, eternity') · 'of the world', the owner after an anticipating suffix (ብርሃኖ ለዓለም 'the light of the world')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "ለአከኒ ፡ እግዚእየ ፡ ንጉሥ ፡ ፈርዖን ፡ እምእስክንድርያ ፡ ኀቤከ ፡ ወነዋ ፡ ኣየድዐከ ፡ ዘከመ ፡ መጻእኩ ፤",
+   "tr": "läʾäkäni ʾəgziʾyä nəguś färʿon ʾəmʾəskəndərya ḫäbekä wänäwa ʾayädʿäkä zäkämä mäṣaʾku",
+   "l": "He-sent-me my-lord king Pharaoh from-Alexandria to-you, and-behold I-will-inform-you how I-came;",
+   "i": "'My lord King Pharaoh sent me to you from Alexandria, and now I will tell you how I came here.",
+   "n": "ለአከኒ: ለአከ 'he sent' + -ኒ 'me' (the 1cs object suffix; not the enclitic -ኒ 'also'). እግዚእየ 'my lord' (እግዚእ + -የ). ኀቤከ 'to you' (ኀበ + -ከ). ወነዋ 'and behold'. ኣየድዐከ is the 1cs imperfect of አይድዐ 'to make known, announce' (root y-d-ʿ 'know'; the expected spelling is አየድዕ) with -ከ 'to you'; the first-order ኣ- is as printed (?). ዘከመ 'how, that'. መጻእኩ 'I came' (መጽአ; the 1cs perfect in -ኩ).",
+   "words": [
+    {
+     "reading": "läʾäkäni",
+     "say": "laakani",
+     "glyphs": [
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      },
+      {
+       "s": "ኒ",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ለአከ",
+       "gloss": "he sent me (3ms perfect + -ኒ '1cs me')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾəgziʾyä",
+     "say": "egziya",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ግ",
+       "sign": "GE",
+       "role": "phon",
+       "tr": "gə"
+      },
+      {
+       "s": "ዚ",
+       "sign": "ZI",
+       "role": "phon",
+       "tr": "zi"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "የ",
+       "sign": "YA",
+       "role": "phon",
+       "tr": "yä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እግዚእ",
+       "gloss": "my lord (noun + -የ '1cs my')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nəguś",
+     "say": "negus",
+     "glyphs": [
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ጉ",
+       "sign": "GU",
+       "role": "phon",
+       "tr": "gu"
+      },
+      {
+       "s": "ሥ",
+       "sign": "SZE",
+       "role": "phon",
+       "tr": "śə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ንጉሥ",
+       "gloss": "king (noun)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "färʿon",
+     "say": "faron",
+     "glyphs": [
+      {
+       "s": "ፈ",
+       "sign": "FA",
+       "role": "phon",
+       "tr": "fä"
+      },
+      {
+       "s": "ር",
+       "sign": "RE",
+       "role": "phon",
+       "tr": "rə"
+      },
+      {
+       "s": "ዖ",
+       "sign": "PHARYNGEAL O",
+       "role": "phon",
+       "tr": "ʿo"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ፈርዖን",
+       "gloss": "Pharaoh (proper name)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾəmʾəskəndərya",
+     "say": "emeskenderya",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      },
+      {
+       "s": "ክ",
+       "sign": "KE",
+       "role": "phon",
+       "tr": "kə"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ድ",
+       "sign": "DE",
+       "role": "phon",
+       "tr": "də"
+      },
+      {
+       "s": "ር",
+       "sign": "RE",
+       "role": "phon",
+       "tr": "rə"
+      },
+      {
+       "s": "ያ",
+       "sign": "YAA",
+       "role": "phon",
+       "tr": "ya"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እስክንድርያ",
+       "gloss": "from Alexandria (እም- + proper name)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫäbekä",
+     "say": "habeka",
+     "glyphs": [
+      {
+       "s": "ኀ",
+       "sign": "XA",
+       "role": "phon",
+       "tr": "ḫä"
+      },
+      {
+       "s": "ቤ",
+       "sign": "BEE",
+       "role": "phon",
+       "tr": "be"
+      },
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ኀበ",
+       "gloss": "at, with, to (preposition, form ኀቤ- + -ከ 'you', 2ms)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wänäwa",
+     "say": "wanawa",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ነ",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "nä"
+      },
+      {
+       "s": "ዋ",
+       "sign": "WAA",
+       "role": "phon",
+       "tr": "wa"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ነዋ",
+       "gloss": "and behold, here is (ወ- + interjection ነዋ)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾayädʿäkä",
+     "say": "ayadaka",
+     "glyphs": [
+      {
+       "s": "ኣ",
+       "sign": "GLOTTAL AA",
+       "role": "phon",
+       "tr": "ʾa"
+      },
+      {
+       "s": "የ",
+       "sign": "YA",
+       "role": "phon",
+       "tr": "yä"
+      },
+      {
+       "s": "ድ",
+       "sign": "DE",
+       "role": "phon",
+       "tr": "də"
+      },
+      {
+       "s": "ዐ",
+       "sign": "PHARYNGEAL A",
+       "role": "phon",
+       "tr": "ʿä"
+      },
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አይድዐ",
+       "gloss": "I will make known to you, tell you (1cs imperfect አየድዕ + -ከ '2ms to you'; root y-d-ʿ 'know'; the first-order ኣ- is as printed) (?)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "zäkämä",
+     "say": "zakama",
+     "glyphs": [
+      {
+       "s": "ዘ",
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "zä"
+      },
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      },
+      {
+       "s": "መ",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "mä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ዘከመ",
+       "gloss": "how, that (rel. + 'as')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mäṣaʾku",
+     "say": "masaku",
+     "glyphs": [
+      {
+       "s": "መ",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "mä"
+      },
+      {
+       "s": "ጻ",
+       "sign": "TSAA",
+       "role": "phon",
+       "tr": "ṣa"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ኩ",
+       "sign": "KU",
+       "role": "phon",
+       "tr": "ku"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "መጽአ",
+       "gloss": "I came (1cs perfect, G)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "ወሶበ ፡ መጻእኩ ፡ እምእስክንድርያ ፡ ቦእኩ ፡ ቃህራ ፡ ውስተ ፡ ሀገሩ ፡ ለንጉሥ ፡ ወበብጽሐትየ ፡ በጽሑ ፡ ህየ ፡ እሉ ፡ ሰብአ ፡ ኢትዮጵያ ፡ ዘትብል ፤",
+   "tr": "wäsobä mäṣaʾku ʾəmʾəskəndərya boʾku qahra wəstä hägäru länguś wäbäbṣəḥätyä bäṣḥu həyä ʾəlu säbʾä ʾityop̣ya zätbəl",
+   "l": "And-when I-came from-Alexandria I-entered Qahra into his-city, of-the-king; and-at-my-arrival arrived there these men-of Ethiopia whom-you-speak-of;",
+   "i": "'When I came from Alexandria I entered Cairo, the king's city. As I arrived, these men of Ethiopia of whom you speak arrived there too;",
+   "n": "ሶበ 'when' with the perfect. ቃህራ is Cairo (Arabic al-Qāhira (?)); it is the object of ቦእኩ 'I entered' (ቦአ). ውስተ ሀገሩ ለንጉሥ 'into his city, of the king': the anticipatory suffix -ሁ with the possessor named after it by ለ-, a device used throughout this chapter; the king here is Pharaoh. ወበብጽሐትየ: ወ- + በ- 'at' + ብጽሐት 'arrival' (the noun of በጽሐ) + -የ 'my'. በጽሑ 'they arrived' (3mp perfect). እሉ 'these'. ዘትብል 'of whom you speak': ዘ- + ትብል 'you say' (2ms imperfect of ብህለ), the king having just asked about them.",
+   "words": [
+    {
+     "reading": "wäsobä",
+     "say": "wasoba",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ሶ",
+       "sign": "SO",
+       "role": "phon",
+       "tr": "so"
+      },
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሶበ",
+       "gloss": "and when (ወ- + conjunction)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mäṣaʾku",
+     "say": "masaku",
+     "glyphs": [
+      {
+       "s": "መ",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "mä"
+      },
+      {
+       "s": "ጻ",
+       "sign": "TSAA",
+       "role": "phon",
+       "tr": "ṣa"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ኩ",
+       "sign": "KU",
+       "role": "phon",
+       "tr": "ku"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "መጽአ",
+       "gloss": "I came (1cs perfect, G)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾəmʾəskəndərya",
+     "say": "emeskenderya",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      },
+      {
+       "s": "ክ",
+       "sign": "KE",
+       "role": "phon",
+       "tr": "kə"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ድ",
+       "sign": "DE",
+       "role": "phon",
+       "tr": "də"
+      },
+      {
+       "s": "ር",
+       "sign": "RE",
+       "role": "phon",
+       "tr": "rə"
+      },
+      {
+       "s": "ያ",
+       "sign": "YAA",
+       "role": "phon",
+       "tr": "ya"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እስክንድርያ",
+       "gloss": "from Alexandria (እም- + proper name)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "boʾku",
+     "say": "boku",
+     "glyphs": [
+      {
+       "s": "ቦ",
+       "sign": "BO",
+       "role": "phon",
+       "tr": "bo"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ኩ",
+       "sign": "KU",
+       "role": "phon",
+       "tr": "ku"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ቦአ",
+       "gloss": "I entered (1cs perfect, G, b-w-ʾ)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "qahra",
+     "say": "qahra",
+     "glyphs": [
+      {
+       "s": "ቃ",
+       "sign": "QAA",
+       "role": "phon",
+       "tr": "qa"
+      },
+      {
+       "s": "ህ",
+       "sign": "HE",
+       "role": "phon",
+       "tr": "hə"
+      },
+      {
+       "s": "ራ",
+       "sign": "RAA",
+       "role": "phon",
+       "tr": "ra"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ቃህራ",
+       "gloss": "Cairo (proper name, from Arabic al-Qāhira) (?)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wəstä",
+     "say": "westa",
+     "glyphs": [
+      {
+       "s": "ው",
+       "sign": "WE",
+       "role": "phon",
+       "tr": "wə"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ውስተ",
+       "gloss": "in, within, into · to, among (ወለአከ ውስተ ኵሉ ነጋድያን 'and he sent to all the merchants') · at (ውስተ መድረከ ኆኃቲሃ 'at the threshold of her doors')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "hägäru",
+     "say": "hagaru",
+     "glyphs": [
+      {
+       "s": "ሀ",
+       "sign": "HA",
+       "role": "phon",
+       "tr": "hä"
+      },
+      {
+       "s": "ገ",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "gä"
+      },
+      {
+       "s": "ሩ",
+       "sign": "RU",
+       "role": "phon",
+       "tr": "ru"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሀገር",
+       "gloss": "his city, 'the city of' (noun + -ሁ '3ms his', anticipating ለንጉሥ)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "länguś",
+     "say": "langus",
+     "glyphs": [
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ጉ",
+       "sign": "GU",
+       "role": "phon",
+       "tr": "gu"
+      },
+      {
+       "s": "ሥ",
+       "sign": "SZE",
+       "role": "phon",
+       "tr": "śə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ንጉሥ",
+       "gloss": "to the king, for the king (ለ- + noun) · marking the object, doubled by a suffix on the verb (ይሕምይዎ ለንጉሥ 'they revile the king') or by a suffix on a noun (ሐሚዮቱ ለንጉሥ 'the reviling of the king')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wäbäbṣəḥätyä",
+     "say": "wababsehatya",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "ጽ",
+       "sign": "TSE",
+       "role": "phon",
+       "tr": "ṣə"
+      },
+      {
+       "s": "ሐ",
+       "sign": "HHA",
+       "role": "phon",
+       "tr": "ḥä"
+      },
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      },
+      {
+       "s": "የ",
+       "sign": "YA",
+       "role": "phon",
+       "tr": "yä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ብጽሐት",
+       "gloss": "and at my arrival (ወ- + በ- 'in, at' + verbal noun of በጽሐ + -የ '1cs my')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bäṣḥu",
+     "say": "bashu",
+     "glyphs": [
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      },
+      {
+       "s": "ጽ",
+       "sign": "TSE",
+       "role": "phon",
+       "tr": "ṣə"
+      },
+      {
+       "s": "ሑ",
+       "sign": "HHU",
+       "role": "phon",
+       "tr": "ḥu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "በጽሐ",
+       "gloss": "they arrived (3mpl perfect)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "həyä",
+     "say": "heya",
+     "glyphs": [
+      {
+       "s": "ህ",
+       "sign": "HE",
+       "role": "phon",
+       "tr": "hə"
+      },
+      {
+       "s": "የ",
+       "sign": "YA",
+       "role": "phon",
+       "tr": "yä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ህየ",
+       "gloss": "there (adverb)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾəlu",
+     "say": "elu",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ሉ",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እሉ",
+       "gloss": "these (demonstrative pronoun, pl.)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "säbʾä",
+     "say": "saba",
+     "glyphs": [
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሰብእ",
+       "gloss": "man (accusative) · construct 'men of' (ሰብአ ቤቱ 'men of his house')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾityop̣ya",
+     "say": "ityopya",
+     "glyphs": [
+      {
+       "s": "ኢ",
+       "sign": "GLOTTAL I",
+       "role": "phon",
+       "tr": "ʾi"
+      },
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      },
+      {
+       "s": "ዮ",
+       "sign": "YO",
+       "role": "phon",
+       "tr": "yo"
+      },
+      {
+       "s": "ጵ",
+       "sign": "PHE",
+       "role": "phon",
+       "tr": "p̣ə"
+      },
+      {
+       "s": "ያ",
+       "sign": "YAA",
+       "role": "phon",
+       "tr": "ya"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ኢትዮጵያ",
+       "gloss": "Ethiopia (proper name)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "zätbəl",
+     "say": "zatbel",
+     "glyphs": [
+      {
+       "s": "ዘ",
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "zä"
+      },
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "ል",
+       "sign": "LE",
+       "role": "phon",
+       "tr": "lə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ብህለ",
+       "gloss": "what you say (ዘ- + 2ms imperfect ትብል, b-h-l)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "በጽሑ ፡ እንተ ፡ ኀለፈት ፡ ሠሉስ ፡ ውስተ ፡ ተከዚ ፡ ፈለገ ፡ ምስር ፡ እንዘ ፡ ይነፍሑ ፡ በዕንዚራት ፡ ወይረውጹ ፡ በሰረገላት ፡ ከመ ፡ ኀይለ ፡ ሰማያዊያን ፤",
+   "tr": "bäṣḥu ʾəntä ḫäläfät śälus wəstä täkäzi fälägä məsr ʾənzä yənäfḥu bäʿnəzirat wäyräwṣu bäsärägälat kämä ḫäylä sämayawiyan",
+   "l": "They-arrived, which passed Tuesday, into Takkaze river-of Egypt, while they-blow with-harps and-run in-carts like host-of heavenly-ones;",
+   "i": "'they arrived last Tuesday at the Takkaze, the river of Egypt, sounding their harps (?) and racing in carts like a heavenly host;",
+   "n": "እንተ ኀለፈት ሠሉስ: 'the Tuesday that passed', that is last Tuesday; ሠሉስ is the 'third' day, Tuesday, as ch. 57–58 has it (ሠሉስ ዕለት), and እንተ is the feminine relative, agreeing with ዕለት 'day' understood. ተከዚ is the Takkaze (Tekezé), the Ethiopian river; the published parts meet the same oddity of its standing in Egypt (chs. 53, 57–58). ፈለገ ምስር: construct, 'river-of Egypt' (ምስር is another name for Egypt), so the Nile (?). እንዘ ይነፍሑ 'while they blow' (ነፍሐ 'to blow'); ዕንዚራት is 'harps' in the published parts, where it is taken as a stringed instrument (?) — ነፍሐ 'blow' points rather to a wind instrument, so the instrument stays uncertain (?). በ- 'with, in'. ይረውጹ 'they run' (ሮጸ). ሰረገላት 'carts, chariots': the published parts call the Ethiopians' flying vehicle a cart. ከመ ኀይለ ሰማያዊያን: ኀይል 'power, army, host' in the construct; ሰማያዊያን 'heavenly ones' (ሰማይ + -ዊ + the plural -ያን).",
+   "words": [
+    {
+     "reading": "bäṣḥu",
+     "say": "bashu",
+     "glyphs": [
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      },
+      {
+       "s": "ጽ",
+       "sign": "TSE",
+       "role": "phon",
+       "tr": "ṣə"
+      },
+      {
+       "s": "ሑ",
+       "sign": "HHU",
+       "role": "phon",
+       "tr": "ḥu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "በጽሐ",
+       "gloss": "they arrived (3mpl perfect)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾəntä",
+     "say": "enta",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እንተ",
+       "gloss": "which, who (rel. pron. fem.) · in the phrase እንተ ባሕቲቱ 'privately, apart' (lit. 'which his solitude'; here the son is drawn aside alone) · fem. relative before a noun, ሐወጸ እንተ ታዕካ ቤተ መንግሥት 'looked out (?), which the ታዕካ of the palace'; the link to the verb is unclear (?)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫäläfät",
+     "say": "halafat",
+     "glyphs": [
+      {
+       "s": "ኀ",
+       "sign": "XA",
+       "role": "phon",
+       "tr": "ḫä"
+      },
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "ፈ",
+       "sign": "FA",
+       "role": "phon",
+       "tr": "fä"
+      },
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ኀለፈ",
+       "gloss": "it passed away (3fs perfect, ḫ-l-f)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "śälus",
+     "say": "salus",
+     "glyphs": [
+      {
+       "s": "ሠ",
+       "sign": "SZA",
+       "role": "phon",
+       "tr": "śä"
+      },
+      {
+       "s": "ሉ",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሠሉስ",
+       "gloss": "third; Tuesday (adjective/noun; ሠሉስ ዕለት 'the third day')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wəstä",
+     "say": "westa",
+     "glyphs": [
+      {
+       "s": "ው",
+       "sign": "WE",
+       "role": "phon",
+       "tr": "wə"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ውስተ",
+       "gloss": "in, within, into · to, among (ወለአከ ውስተ ኵሉ ነጋድያን 'and he sent to all the merchants') · at (ውስተ መድረከ ኆኃቲሃ 'at the threshold of her doors')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "täkäzi",
+     "say": "takazi",
+     "glyphs": [
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      },
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      },
+      {
+       "s": "ዚ",
+       "sign": "ZI",
+       "role": "phon",
+       "tr": "zi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ተከዚ",
+       "gloss": "Takkaze (proper name, the river)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "fälägä",
+     "say": "falaga",
+     "glyphs": [
+      {
+       "s": "ፈ",
+       "sign": "FA",
+       "role": "phon",
+       "tr": "fä"
+      },
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "ገ",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "gä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ፈለግ",
+       "gloss": "river (noun; construct 'river of')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "məsr",
+     "say": "mesr",
+     "glyphs": [
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      },
+      {
+       "s": "ር",
+       "sign": "RE",
+       "role": "phon",
+       "tr": "rə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ምስር",
+       "gloss": "Egypt (proper name)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾənzä",
+     "say": "enza",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ዘ",
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "zä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እንዘ",
+       "gloss": "while, whilst (conjunction)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "yənäfḥu",
+     "say": "yenafhu",
+     "glyphs": [
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      },
+      {
+       "s": "ነ",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "nä"
+      },
+      {
+       "s": "ፍ",
+       "sign": "FE",
+       "role": "phon",
+       "tr": "fə"
+      },
+      {
+       "s": "ሑ",
+       "sign": "HHU",
+       "role": "phon",
+       "tr": "ḥu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ነፍሐ",
+       "gloss": "they blow (3mp imperfect, G, n-f-ḥ)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bäʿnəzirat",
+     "say": "banezirat",
+     "glyphs": [
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      },
+      {
+       "s": "ዕ",
+       "sign": "PHARYNGEAL E",
+       "role": "phon",
+       "tr": "ʿə"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ዚ",
+       "sign": "ZI",
+       "role": "phon",
+       "tr": "zi"
+      },
+      {
+       "s": "ራ",
+       "sign": "RAA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ዕንዚራ",
+       "gloss": "with harps (?) (በ- + plural ዕንዚራት; a stringed instrument, 'harp' by convention in the published parts; here governed by ነፍሐ 'blow', which would suit a wind instrument) (?)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wäyräwṣu",
+     "say": "wayrawsu",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      },
+      {
+       "s": "ረ",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "rä"
+      },
+      {
+       "s": "ው",
+       "sign": "WE",
+       "role": "phon",
+       "tr": "wə"
+      },
+      {
+       "s": "ጹ",
+       "sign": "TSU",
+       "role": "phon",
+       "tr": "ṣu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሮጸ",
+       "gloss": "and they run, race (ወ- + 3mp imperfect, G, r-w-ṣ)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bäsärägälat",
+     "say": "basaragalat",
+     "glyphs": [
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      },
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      },
+      {
+       "s": "ረ",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "rä"
+      },
+      {
+       "s": "ገ",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "gä"
+      },
+      {
+       "s": "ላ",
+       "sign": "LAA",
+       "role": "phon",
+       "tr": "la"
+      },
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሰረገላ",
+       "gloss": "in carts, chariots (በ- + plural ሰረገላት; 'cart' is the published parts' rendering for the Ethiopians' vehicle)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "kämä",
+     "say": "kama",
+     "glyphs": [
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      },
+      {
+       "s": "መ",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "mä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ከመ",
+       "gloss": "that, so that; as · 'like' before a noun (ከመ ምድረ በረድ 'like a land of hail') · ከመ ኢ- 'that not, lest' (ከመ ኢትንገሥ ብእሲት 'that a woman not reign'; ከመ ኢታቅሞ 'that you not make him stay') · 'as when' before ዘ- or አመ (ከመ ዘ ዐገትዋ 'as when they besieged her')",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫäylä",
+     "say": "hayla",
+     "glyphs": [
+      {
+       "s": "ኀ",
+       "sign": "XA",
+       "role": "phon",
+       "tr": "ḫä"
+      },
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      },
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ኀይል",
+       "gloss": "strength (noun, accusative ኀይለ) · construct 'host of' (ኀይለ ሰማይ 'host of heaven')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "sämayawiyan",
+     "say": "samayawiyan",
+     "glyphs": [
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      },
+      {
+       "s": "ማ",
+       "sign": "MAA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "ያ",
+       "sign": "YAA",
+       "role": "phon",
+       "tr": "ya"
+      },
+      {
+       "s": "ዊ",
+       "sign": "WI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "ያ",
+       "sign": "YAA",
+       "role": "phon",
+       "tr": "ya"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሰማያዊ",
+       "gloss": "heavenly ones (adjective, plural -ያን, used as noun)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "ወእለ ፡ ርእይዎሙ ፡ ይቤልዎሙ ፡ እሉሰ ፡ እንዘ ፡ መሬታዊያን ፡ ኮኑ ፡ ሰማያዊያን ፡ መኑኬ ፡ ይጠብብ ፡ እምሰሎሞን ፡ ንጉሠ ፡ ይሁዳ ፡ ወውእቱኒ ፡ ኢሖረ ፡ በሰረገላ ፡ ነፉስ ፡ ከመዝ ፤",
+   "tr": "wäʾlä rəʾyəwomu yəbelwomu ʾəlusä ʾənzä märetawiyan konu sämayawiyan mänuke yəṭäbb ʾəmsälomon nəguśä yəhuda wäwʾətuni ʾiḥorä bäsärägäla näfus kämäz",
+   "l": "And-those-who saw-them said-to-them: These, while earthly, have-become heavenly; who is-wise more-than Solomon king-of Judah, and-he too did-not-go in-cart-of wind like-this;",
+   "i": "'Those who saw them said, “These men are of the earth, yet they have become heavenly. Who is wiser than Solomon, king of Judah? Even he never travelled in a cart of wind (?) like this.”",
+   "n": "ወእለ ርእይዎሙ: እለ is the plural relative 'those who' + ርእይዎሙ 'they saw them' (ርእየ with the suffix -ዎሙ 'them'). ይቤልዎሙ 'they said to them'; who the addressees are is not stated (?). እሉሰ: the enclitic -ሰ marks contrast, 'as for these'. እንዘ is concessive here ('although') before a verbless clause; መሬታዊያን 'earthly ones' (መሬት 'earth, dust'). ኮኑ 'they became' (ኮነ). መኑኬ 'who then?' (መኑ 'who?' + the emphatic -ኬ). ይጠብብ እም-: the comparative, 'is wiser than' (ጠበበ). ንጉሠ ይሁዳ: construct. ወውእቱኒ ኢሖረ 'and he too did not go' (ሖረ with the negative ኢ-). ነፉስ is the printed spelling of ነፋስ 'wind', as in chs. 51–52, 55–56 and 57–58; በሰረገላ ነፉስ 'in a cart of wind (?)', the flying cart of those chapters. ከመዝ 'like this'.",
+   "words": [
+    {
+     "reading": "wäʾlä",
+     "say": "wala",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እለ",
+       "gloss": "and those who (ወ- + relative pl.)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "rəʾyəwomu",
+     "say": "reyewomu",
+     "glyphs": [
+      {
+       "s": "ር",
+       "sign": "RE",
+       "role": "phon",
+       "tr": "rə"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      },
+      {
+       "s": "ዎ",
+       "sign": "WO",
+       "role": "phon",
+       "tr": "wo"
+      },
+      {
+       "s": "ሙ",
+       "sign": "MU",
+       "role": "phon",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ርእየ",
+       "gloss": "they saw them (3mp perfect ርእዩ + -ዎሙ '3mp them', G, r-ʾ-y)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "yəbelwomu",
+     "say": "yebelwomu",
+     "glyphs": [
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      },
+      {
+       "s": "ቤ",
+       "sign": "BEE",
+       "role": "phon",
+       "tr": "be"
+      },
+      {
+       "s": "ል",
+       "sign": "LE",
+       "role": "phon",
+       "tr": "lə"
+      },
+      {
+       "s": "ዎ",
+       "sign": "WO",
+       "role": "phon",
+       "tr": "wo"
+      },
+      {
+       "s": "ሙ",
+       "sign": "MU",
+       "role": "phon",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ብህለ",
+       "gloss": "they said to them (3mp perfect ይቤሉ + -ዎሙ 'to them', b-h-l)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾəlusä",
+     "say": "elusa",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ሉ",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      },
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እሉ",
+       "gloss": "as for these, these indeed (demonstrative pl. + emphatic -ሰ)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾənzä",
+     "say": "enza",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ዘ",
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "zä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እንዘ",
+       "gloss": "while, whilst (conjunction)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "märetawiyan",
+     "say": "maretawiyan",
+     "glyphs": [
+      {
+       "s": "መ",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "mä"
+      },
+      {
+       "s": "ሬ",
+       "sign": "REE",
+       "role": "phon",
+       "tr": "re"
+      },
+      {
+       "s": "ታ",
+       "sign": "TAA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "ዊ",
+       "sign": "WI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "ያ",
+       "sign": "YAA",
+       "role": "phon",
+       "tr": "ya"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "መሬታዊ",
+       "gloss": "earthly ones (adjective, plural -ያን, used as noun)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "konu",
+     "say": "konu",
+     "glyphs": [
+      {
+       "s": "ኮ",
+       "sign": "KO",
+       "role": "phon",
+       "tr": "ko"
+      },
+      {
+       "s": "ኑ",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ኮነ",
+       "gloss": "they became (3mp perfect, k-w-n) · 'so they were' in a simile (ከማሁ ኮኑ 'thus they were')",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "sämayawiyan",
+     "say": "samayawiyan",
+     "glyphs": [
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      },
+      {
+       "s": "ማ",
+       "sign": "MAA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "ያ",
+       "sign": "YAA",
+       "role": "phon",
+       "tr": "ya"
+      },
+      {
+       "s": "ዊ",
+       "sign": "WI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "ያ",
+       "sign": "YAA",
+       "role": "phon",
+       "tr": "ya"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሰማያዊ",
+       "gloss": "heavenly ones (adjective, plural -ያን, used as noun)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mänuke",
+     "say": "manuke",
+     "glyphs": [
+      {
+       "s": "መ",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "mä"
+      },
+      {
+       "s": "ኑ",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      },
+      {
+       "s": "ኬ",
+       "sign": "KEE",
+       "role": "phon",
+       "tr": "ke"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "መኑ",
+       "gloss": "who then? (interrogative + -ኬ)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "yəṭäbb",
+     "say": "yetabb",
+     "glyphs": [
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      },
+      {
+       "s": "ጠ",
+       "sign": "THA",
+       "role": "phon",
+       "tr": "ṭä"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ጠበበ",
+       "gloss": "he is wise (3ms imperfect, G, ṭ-b-b)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾəmsälomon",
+     "say": "emsalomon",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      },
+      {
+       "s": "ሎ",
+       "sign": "LO",
+       "role": "phon",
+       "tr": "lo"
+      },
+      {
+       "s": "ሞ",
+       "sign": "MO",
+       "role": "phon",
+       "tr": "mo"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሰሎሞን",
+       "gloss": "than Solomon (እም- comparative 'more than' + proper name)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nəguśä",
+     "say": "negusa",
+     "glyphs": [
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ጉ",
+       "sign": "GU",
+       "role": "phon",
+       "tr": "gu"
+      },
+      {
+       "s": "ሠ",
+       "sign": "SZA",
+       "role": "phon",
+       "tr": "śä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ንጉሥ",
+       "gloss": "king (accusative) · also construct 'king of' (ንጉሠ ሮምሂ 'the king of Rome too') · predicate accusative 'as king' (ዘይከውን ንጉሠ 'who will be king'; ይኩነነ ንጉሠ 'may he be king for us')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "yəhuda",
+     "say": "yehuda",
+     "glyphs": [
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      },
+      {
+       "s": "ሁ",
+       "sign": "HU",
+       "role": "phon",
+       "tr": "hu"
+      },
+      {
+       "s": "ዳ",
+       "sign": "DAA",
+       "role": "phon",
+       "tr": "da"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ይሁዳ",
+       "gloss": "Judah (proper name)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wäwʾətuni",
+     "say": "wawetuni",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ው",
+       "sign": "WE",
+       "role": "phon",
+       "tr": "wə"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ቱ",
+       "sign": "TU",
+       "role": "phon",
+       "tr": "tu"
+      },
+      {
+       "s": "ኒ",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ውእቱ",
+       "gloss": "and he also (ወ- + pronoun + enclitic -ኒ)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾiḥorä",
+     "say": "ihora",
+     "glyphs": [
+      {
+       "s": "ኢ",
+       "sign": "GLOTTAL I",
+       "role": "phon",
+       "tr": "ʾi"
+      },
+      {
+       "s": "ሖ",
+       "sign": "HHO",
+       "role": "phon",
+       "tr": "ḥo"
+      },
+      {
+       "s": "ረ",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "rä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሖረ",
+       "gloss": "he did not go, travel (ኢ- negative + 3ms perfect, G, ḥ-w-r)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bäsärägäla",
+     "say": "basaragala",
+     "glyphs": [
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      },
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      },
+      {
+       "s": "ረ",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "rä"
+      },
+      {
+       "s": "ገ",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "gä"
+      },
+      {
+       "s": "ላ",
+       "sign": "LAA",
+       "role": "phon",
+       "tr": "la"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሰረገላ",
+       "gloss": "in a cart (በ- + noun)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "näfus",
+     "say": "nafus",
+     "glyphs": [
+      {
+       "s": "ነ",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "nä"
+      },
+      {
+       "s": "ፉ",
+       "sign": "FU",
+       "role": "phon",
+       "tr": "fu"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ነፋስ",
+       "gloss": "wind (noun; spelled ነፉስ) · ነፉስ in በሰረገላ ነፉስ perhaps 'of wind, airy' (?)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "kämäz",
+     "say": "kamaz",
+     "glyphs": [
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      },
+      {
+       "s": "መ",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "mä"
+      },
+      {
+       "s": "ዝ",
+       "sign": "ZE",
+       "role": "phon",
+       "tr": "zə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ከመዝ",
+       "gloss": "thus, so (adverb, ከመ + ዝ)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "ወእለ ፡ ሀለዉ ፡ ውስተ ፡ አህጉር ፡ ወማኅፈድ ፡ ስምዐ ፡ ኮኑ ፡ ከመ ፡ ሶበ ፡ ቦኡ ፡ እሉ ፡ ውስተ ፡ ብሔረ ፡ ግብጽ ፡ ወድቁ ፡ ወተሰብሩ ፡ አማልክቲነ ፡ ወአማልክተ ፡ ንጉሥ ፡ ወማኅፈደ ፡ ጣዖታትኒ ፡ ከማሁ ፡ ተቀጥቀጡ ፤",
+   "tr": "wäʾlä häläwu wəstä ʾähgur wämaḫfäd səmʿä konu kämä sobä boʾu ʾəlu wəstä bəḥerä gəbṣ wädqu wätäsäbru ʾämalkətinä wäʾämalkətä nəguś wämaḫfädä ṭaʿotatni kämahu täqäṭqäṭu",
+   "l": "And-those-who were in-cities and-tower witness became that when entered these into land-of Egypt fell and-were-broken our-gods and-gods-of the-king, and-tower-of idols too likewise were-crushed;",
+   "i": "'Those who were in the cities and the tower (?) became witnesses that, when these men came into the land of Egypt, our gods fell and were broken, and the gods of the king too; and the tower of the idols was likewise crushed.",
+   "n": "ወእለ ሀለዉ 'and those who were' (ሀለወ 'to be, be present'). ማኅፈድ is 'tower' in the published parts (and strained there too: ch. 36); here it is a building of the idols, a temple tower or precinct (?), and it returns in the construct as ማኅፈደ ጣዖታት. ስምዐ ኮኑ: ስምዕ 'witness, testimony' in the accusative as predicate of ኮኑ 'they became'. ከመ ሶበ ቦኡ 'that when they entered' (ቦኡ, the 3mp of ቦአ). ወድቁ 'they fell' (ወድቀ); ተሰብሩ is the T-stem passive of ሰበረ 'to break', 'they were broken'; the subject of both is አማልክቲነ 'our gods' (አማልክት, the plural of አምላክ, + -ነ 'our'). The -ኒ in ጣዖታትኒ is 'also, too'. ተቀጥቀጡ is the T-stem of the quadriliteral ቀጥቀጠ, 'they were crushed'; the plural verb shows the subject read as ጣዖታት 'idols', though ማኅፈደ before it is singular (?). ከማሁ 'likewise'.",
+   "words": [
+    {
+     "reading": "wäʾlä",
+     "say": "wala",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እለ",
+       "gloss": "and those who (ወ- + relative pl.)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "häläwu",
+     "say": "halawu",
+     "glyphs": [
+      {
+       "s": "ሀ",
+       "sign": "HA",
+       "role": "phon",
+       "tr": "hä"
+      },
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "ዉ",
+       "sign": "WU",
+       "role": "phon",
+       "tr": "wu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሀለወ",
+       "gloss": "they were, they were there (3mp perfect, G, h-l-w)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wəstä",
+     "say": "westa",
+     "glyphs": [
+      {
+       "s": "ው",
+       "sign": "WE",
+       "role": "phon",
+       "tr": "wə"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ውስተ",
+       "gloss": "in, within, into · to, among (ወለአከ ውስተ ኵሉ ነጋድያን 'and he sent to all the merchants') · at (ውስተ መድረከ ኆኃቲሃ 'at the threshold of her doors')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾähgur",
+     "say": "ahgur",
+     "glyphs": [
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ህ",
+       "sign": "HE",
+       "role": "phon",
+       "tr": "hə"
+      },
+      {
+       "s": "ጉ",
+       "sign": "GU",
+       "role": "phon",
+       "tr": "gu"
+      },
+      {
+       "s": "ር",
+       "sign": "RE",
+       "role": "phon",
+       "tr": "rə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሀገር",
+       "gloss": "cities, towns (plural አህጉር)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wämaḫfäd",
+     "say": "wamahfad",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ማ",
+       "sign": "MAA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "ኅ",
+       "sign": "XE",
+       "role": "phon",
+       "tr": "ḫə"
+      },
+      {
+       "s": "ፈ",
+       "sign": "FA",
+       "role": "phon",
+       "tr": "fä"
+      },
+      {
+       "s": "ድ",
+       "sign": "DE",
+       "role": "phon",
+       "tr": "də"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ማኅፈድ",
+       "gloss": "and tower (?) (ወ- + noun; 'tower' in the published parts, here a building of the idols, a temple tower or precinct) (?)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "səmʿä",
+     "say": "sema",
+     "glyphs": [
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "ዐ",
+       "sign": "PHARYNGEAL A",
+       "role": "phon",
+       "tr": "ʿä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ስምዕ",
+       "gloss": "testimony, witness (noun, accusative)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "konu",
+     "say": "konu",
+     "glyphs": [
+      {
+       "s": "ኮ",
+       "sign": "KO",
+       "role": "phon",
+       "tr": "ko"
+      },
+      {
+       "s": "ኑ",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ኮነ",
+       "gloss": "they became (3mp perfect, k-w-n) · 'so they were' in a simile (ከማሁ ኮኑ 'thus they were')",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "kämä",
+     "say": "kama",
+     "glyphs": [
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      },
+      {
+       "s": "መ",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "mä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ከመ",
+       "gloss": "that, so that; as · 'like' before a noun (ከመ ምድረ በረድ 'like a land of hail') · ከመ ኢ- 'that not, lest' (ከመ ኢትንገሥ ብእሲት 'that a woman not reign'; ከመ ኢታቅሞ 'that you not make him stay') · 'as when' before ዘ- or አመ (ከመ ዘ ዐገትዋ 'as when they besieged her')",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "sobä",
+     "say": "soba",
+     "glyphs": [
+      {
+       "s": "ሶ",
+       "sign": "SO",
+       "role": "phon",
+       "tr": "so"
+      },
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሶበ",
+       "gloss": "when, if (conjunction)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "boʾu",
+     "say": "bou",
+     "glyphs": [
+      {
+       "s": "ቦ",
+       "sign": "BO",
+       "role": "phon",
+       "tr": "bo"
+      },
+      {
+       "s": "ኡ",
+       "sign": "GLOTTAL U",
+       "role": "phon",
+       "tr": "ʾu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ቦአ",
+       "gloss": "they entered (3mp perfect, G, b-w-ʾ)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾəlu",
+     "say": "elu",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ሉ",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እሉ",
+       "gloss": "these (demonstrative pronoun, pl.)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wəstä",
+     "say": "westa",
+     "glyphs": [
+      {
+       "s": "ው",
+       "sign": "WE",
+       "role": "phon",
+       "tr": "wə"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ውስተ",
+       "gloss": "in, within, into · to, among (ወለአከ ውስተ ኵሉ ነጋድያን 'and he sent to all the merchants') · at (ውስተ መድረከ ኆኃቲሃ 'at the threshold of her doors')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bəḥerä",
+     "say": "behera",
+     "glyphs": [
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "ሔ",
+       "sign": "HHEE",
+       "role": "phon",
+       "tr": "ḥe"
+      },
+      {
+       "s": "ረ",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "rä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ብሔር",
+       "gloss": "land, region (construct 'land of')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "gəbṣ",
+     "say": "gebs",
+     "glyphs": [
+      {
+       "s": "ግ",
+       "sign": "GE",
+       "role": "phon",
+       "tr": "gə"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "ጽ",
+       "sign": "TSE",
+       "role": "phon",
+       "tr": "ṣə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ግብጽ",
+       "gloss": "Egypt (proper name; genitive after construct)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wädqu",
+     "say": "wadqu",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ድ",
+       "sign": "DE",
+       "role": "phon",
+       "tr": "də"
+      },
+      {
+       "s": "ቁ",
+       "sign": "QU",
+       "role": "phon",
+       "tr": "qu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ወድቀ",
+       "gloss": "they fell (3mp perfect, G)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wätäsäbru",
+     "say": "watasabru",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      },
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "ሩ",
+       "sign": "RU",
+       "role": "phon",
+       "tr": "ru"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ተሰብረ",
+       "gloss": "and they were broken (ወ- + 3mp perfect, Gt passive of ሰበረ)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾämalkətinä",
+     "say": "amalketina",
+     "glyphs": [
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ማ",
+       "sign": "MAA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "ል",
+       "sign": "LE",
+       "role": "phon",
+       "tr": "lə"
+      },
+      {
+       "s": "ክ",
+       "sign": "KE",
+       "role": "phon",
+       "tr": "kə"
+      },
+      {
+       "s": "ቲ",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      },
+      {
+       "s": "ነ",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "nä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አምላክ",
+       "gloss": "our gods (plural አማልክት + -ነ '1cp our')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wäʾämalkətä",
+     "say": "waamalketa",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ማ",
+       "sign": "MAA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "ል",
+       "sign": "LE",
+       "role": "phon",
+       "tr": "lə"
+      },
+      {
+       "s": "ክ",
+       "sign": "KE",
+       "role": "phon",
+       "tr": "kə"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አምላክ",
+       "gloss": "and gods of (ወ- + plural አማልክት, construct)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nəguś",
+     "say": "negus",
+     "glyphs": [
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ጉ",
+       "sign": "GU",
+       "role": "phon",
+       "tr": "gu"
+      },
+      {
+       "s": "ሥ",
+       "sign": "SZE",
+       "role": "phon",
+       "tr": "śə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ንጉሥ",
+       "gloss": "king (noun)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wämaḫfädä",
+     "say": "wamahfada",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ማ",
+       "sign": "MAA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "ኅ",
+       "sign": "XE",
+       "role": "phon",
+       "tr": "ḫə"
+      },
+      {
+       "s": "ፈ",
+       "sign": "FA",
+       "role": "phon",
+       "tr": "fä"
+      },
+      {
+       "s": "ደ",
+       "sign": "DA",
+       "role": "phon",
+       "tr": "dä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ማኅፈድ",
+       "gloss": "and tower (?) of (ወ- + noun, construct; 'stature' in ch. 31 is its figurative sense) (?) · here ማኅፈደ ጣዖታት 'the tower of the idols', a building of the idols, a temple tower or precinct (?)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ṭaʿotatni",
+     "say": "taotatni",
+     "glyphs": [
+      {
+       "s": "ጣ",
+       "sign": "THAA",
+       "role": "phon",
+       "tr": "ṭa"
+      },
+      {
+       "s": "ዖ",
+       "sign": "PHARYNGEAL O",
+       "role": "phon",
+       "tr": "ʿo"
+      },
+      {
+       "s": "ታ",
+       "sign": "TAA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      },
+      {
+       "s": "ኒ",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ጣዖት",
+       "gloss": "idols too (plural ጣዖታት + enclitic -ኒ 'also')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "kämahu",
+     "say": "kamahu",
+     "glyphs": [
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      },
+      {
+       "s": "ማ",
+       "sign": "MAA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "ሁ",
+       "sign": "HU",
+       "role": "phon",
+       "tr": "hu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ከማሁ",
+       "gloss": "likewise, like him (ከመ + -hu) · 'thus, so' answering ከመ (ከማሁ ታንጐደጒድ 'so it thunders')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "täqäṭqäṭu",
+     "say": "taqatqatu",
+     "glyphs": [
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      },
+      {
+       "s": "ቀ",
+       "sign": "QA",
+       "role": "phon",
+       "tr": "qä"
+      },
+      {
+       "s": "ጥ",
+       "sign": "THE",
+       "role": "phon",
+       "tr": "ṭə"
+      },
+      {
+       "s": "ቀ",
+       "sign": "QA",
+       "role": "phon",
+       "tr": "qä"
+      },
+      {
+       "s": "ጡ",
+       "sign": "THU",
+       "role": "phon",
+       "tr": "ṭu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ተቀጥቀጠ",
+       "gloss": "they were crushed, shattered (3mp perfect, passive of quadriliteral ቀጥቀጠ)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "ወሐተቱ ፡ ገነውተ ፡ አማልክት ፡ ማርያነ ፡ ግብጽ ፡ በእንተ ፡ ዘወድቁ ፡ አማልክቲነ ፡ ወይቤሉነ ፡ ታቦተ ፡ አምላከ ፡ እስራኤል ፡ እንተ ፡ ወረደት ፡ እምሰማይ ፡ ሀለወት ፡ ምስሌሆሙ ፡ ወትነብር ፡ ውስተ ፡ ሀገሮሙ ፡ እስከ ፡ ለዓለም ፤",
+   "tr": "wäḥätätu gänäwtä ʾämalkət maryanä gəbṣ bäʾnətä zäwädqu ʾämalkətinä wäybelunä tabotä ʾämlakä ʾəsraʾel ʾəntä wärädät ʾəmsämay häläwät məslehomu wätnäbr wəstä hägäromu ʾəskä läʿaläm",
+   "l": "And-questioned the-servants-of gods, ማርያን-of Egypt, concerning that fell our-gods, and-said-to-us: The-ark-of God-of Israel, which came-down from-heaven, is with-them and-dwells in-their-land for-ever;",
+   "i": "'The servants of the gods, the ማርያን (?) of Egypt, asked why our gods had fallen, and told us, “The Ark of the God of Israel, which came down from heaven, is with them and stays in their country forever.",
+   "n": "ወሐተቱ 'and they questioned, inquired' (ሐተተ, as in ch. 57–58). ገነውተ አማልክት: construct, 'servants-of gods', that is the priests of the idols (the lemma is uncertain (?)). The construct form leaves the case open, so the clause may equally be 'and they questioned the priests of the gods ... and they (the priests) said to us' (?); the sense is the same either way. ማርያነ ግብጽ is uncertain (?): ማርያን may be 'leaders, elders', or the name of a class of priests or diviners; the text gives no way to decide, so it is left in Geʿez, as the published parts leave their unknown words. በእንተ ዘወድቁ 'concerning that they fell' (ዘ- + a perfect makes a noun clause, 'the falling'). ወይቤሉነ: ይቤሉ 'they said' + -ነ 'to us'. ታቦተ አምላከ እስራኤል is a double construct, 'the Ark-of the God-of Israel'; ታቦት, the Ark of the covenant (Zion), is the theological centre of the book, and 'which came down from heaven' is its heavenly Zion, the pattern 'shown on the mountain' (Exodus 25:40). እንተ ወረደት: the feminine relative + 'she came down'; the Ark is grammatically feminine, hence ሀለወት 'she is' and ትነብር 'she dwells' (ነበረ). ምስሌሆሙ 'with them', ሀገሮሙ 'their country'. እስከ ለዓለም 'for ever'.",
+   "words": [
+    {
+     "reading": "wäḥätätu",
+     "say": "wahatatu",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ሐ",
+       "sign": "HHA",
+       "role": "phon",
+       "tr": "ḥä"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      },
+      {
+       "s": "ቱ",
+       "sign": "TU",
+       "role": "phon",
+       "tr": "tu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሐተተ",
+       "gloss": "and they questioned, inquired (ወ- + 3mp perfect, G, ḥ-t-t)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "gänäwtä",
+     "say": "ganawta",
+     "glyphs": [
+      {
+       "s": "ገ",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "gä"
+      },
+      {
+       "s": "ነ",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "nä"
+      },
+      {
+       "s": "ው",
+       "sign": "WE",
+       "role": "phon",
+       "tr": "wə"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ገነውት (?)",
+       "gloss": "servants, priests of the gods (noun, plural, construct 'servants-of'; the singular and so the dictionary form are uncertain, behind it a verb ገነወ 'to serve, worship' (?))",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾämalkət",
+     "say": "amalket",
+     "glyphs": [
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ማ",
+       "sign": "MAA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "ል",
+       "sign": "LE",
+       "role": "phon",
+       "tr": "lə"
+      },
+      {
+       "s": "ክ",
+       "sign": "KE",
+       "role": "phon",
+       "tr": "kə"
+      },
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አምላክ",
+       "gloss": "gods (noun, plural)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "maryanä",
+     "say": "maryana",
+     "glyphs": [
+      {
+       "s": "ማ",
+       "sign": "MAA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "ር",
+       "sign": "RE",
+       "role": "phon",
+       "tr": "rə"
+      },
+      {
+       "s": "ያ",
+       "sign": "YAA",
+       "role": "phon",
+       "tr": "ya"
+      },
+      {
+       "s": "ነ",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "nä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ማርያን (?)",
+       "gloss": "ማርያን (?) of Egypt (noun, plural, construct ማርያነ; unidentified — perhaps 'leaders, elders', perhaps a class of priests or diviners) (?)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "gəbṣ",
+     "say": "gebs",
+     "glyphs": [
+      {
+       "s": "ግ",
+       "sign": "GE",
+       "role": "phon",
+       "tr": "gə"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "ጽ",
+       "sign": "TSE",
+       "role": "phon",
+       "tr": "ṣə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ግብጽ",
+       "gloss": "Egypt (proper name; genitive after construct)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bäʾnətä",
+     "say": "baneta",
+     "glyphs": [
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "በእንተ",
+       "gloss": "concerning, about (+ construct) · for the sake of, on account of (በእንተ ፍሥሓ አዳም 'for the joy of Adam')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "zäwädqu",
+     "say": "zawadqu",
+     "glyphs": [
+      {
+       "s": "ዘ",
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "zä"
+      },
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ድ",
+       "sign": "DE",
+       "role": "phon",
+       "tr": "də"
+      },
+      {
+       "s": "ቁ",
+       "sign": "QU",
+       "role": "phon",
+       "tr": "qu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ወድቀ",
+       "gloss": "that they fell (ዘ- + 3mp perfect, G; ዘ- as 'the fact that' after በእንተ)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾämalkətinä",
+     "say": "amalketina",
+     "glyphs": [
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ማ",
+       "sign": "MAA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "ል",
+       "sign": "LE",
+       "role": "phon",
+       "tr": "lə"
+      },
+      {
+       "s": "ክ",
+       "sign": "KE",
+       "role": "phon",
+       "tr": "kə"
+      },
+      {
+       "s": "ቲ",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      },
+      {
+       "s": "ነ",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "nä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አምላክ",
+       "gloss": "our gods (plural አማልክት + -ነ '1cp our')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wäybelunä",
+     "say": "waybeluna",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      },
+      {
+       "s": "ቤ",
+       "sign": "BEE",
+       "role": "phon",
+       "tr": "be"
+      },
+      {
+       "s": "ሉ",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      },
+      {
+       "s": "ነ",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "nä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ብህለ",
+       "gloss": "and they said to us (ወ- + 3mp perfect ይቤሉ + -ነ '1cp to us')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tabotä",
+     "say": "tabota",
+     "glyphs": [
+      {
+       "s": "ታ",
+       "sign": "TAA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "ቦ",
+       "sign": "BO",
+       "role": "phon",
+       "tr": "bo"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ታቦት",
+       "gloss": "ark, tabernacle (construct 'ark of') · also accusative 'an ark' (ግበር ታቦተ 'make an ark')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾämlakä",
+     "say": "amlaka",
+     "glyphs": [
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "ላ",
+       "sign": "LAA",
+       "role": "phon",
+       "tr": "la"
+      },
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አምላክ",
+       "gloss": "god (noun, singular, accusative / construct)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾəsraʾel",
+     "say": "esrael",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      },
+      {
+       "s": "ራ",
+       "sign": "RAA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "ኤ",
+       "sign": "GLOTTAL EE",
+       "role": "phon",
+       "tr": "ʾe"
+      },
+      {
+       "s": "ል",
+       "sign": "LE",
+       "role": "phon",
+       "tr": "lə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እስራኤል",
+       "gloss": "Israel (proper name; vocative) · dependent on a construct (ኀያላነ እስራኤል 'the mighty ones of Israel'; ch. 53) · also plain 'Israel', as subject or in ደቂቀ እስራኤል 'children of Israel' (ተሀየይዎ እስራኤል 'Israel ...', ch. 55–56)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾəntä",
+     "say": "enta",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እንተ",
+       "gloss": "which, who (rel. pron. fem.) · in the phrase እንተ ባሕቲቱ 'privately, apart' (lit. 'which his solitude'; here the son is drawn aside alone) · fem. relative before a noun, ሐወጸ እንተ ታዕካ ቤተ መንግሥት 'looked out (?), which the ታዕካ of the palace'; the link to the verb is unclear (?)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wärädät",
+     "say": "waradat",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ረ",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "rä"
+      },
+      {
+       "s": "ደ",
+       "sign": "DA",
+       "role": "phon",
+       "tr": "dä"
+      },
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ወረደ",
+       "gloss": "she came down (3fs perfect)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾəmsämay",
+     "say": "emsamay",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      },
+      {
+       "s": "ማ",
+       "sign": "MAA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሰማይ",
+       "gloss": "from heaven (እም- + noun)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "häläwät",
+     "say": "halawat",
+     "glyphs": [
+      {
+       "s": "ሀ",
+       "sign": "HA",
+       "role": "phon",
+       "tr": "hä"
+      },
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሀለወ",
+       "gloss": "she was, she was present (3fs perfect, h-l-w)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "məslehomu",
+     "say": "meslehomu",
+     "glyphs": [
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      },
+      {
+       "s": "ሌ",
+       "sign": "LEE",
+       "role": "phon",
+       "tr": "le"
+      },
+      {
+       "s": "ሆ",
+       "sign": "HO",
+       "role": "phon",
+       "tr": "ho"
+      },
+      {
+       "s": "ሙ",
+       "sign": "MU",
+       "role": "phon",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ምስለ",
+       "gloss": "with them (preposition + -omu, ምስሌ-)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wätnäbr",
+     "say": "watnabr",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      },
+      {
+       "s": "ነ",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "nä"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "ር",
+       "sign": "RE",
+       "role": "phon",
+       "tr": "rə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ነበረ",
+       "gloss": "and she sits, dwells (ወ- + 3fs imperfect) · also 2ms 'and you will dwell' (ወትነብር ውስተ ብሔርነ)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wəstä",
+     "say": "westa",
+     "glyphs": [
+      {
+       "s": "ው",
+       "sign": "WE",
+       "role": "phon",
+       "tr": "wə"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ውስተ",
+       "gloss": "in, within, into · to, among (ወለአከ ውስተ ኵሉ ነጋድያን 'and he sent to all the merchants') · at (ውስተ መድረከ ኆኃቲሃ 'at the threshold of her doors')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "hägäromu",
+     "say": "hagaromu",
+     "glyphs": [
+      {
+       "s": "ሀ",
+       "sign": "HA",
+       "role": "phon",
+       "tr": "hä"
+      },
+      {
+       "s": "ገ",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "gä"
+      },
+      {
+       "s": "ሮ",
+       "sign": "RO",
+       "role": "phon",
+       "tr": "ro"
+      },
+      {
+       "s": "ሙ",
+       "sign": "MU",
+       "role": "phon",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሀገር",
+       "gloss": "their country (noun + -ሙ '3mp their')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾəskä",
+     "say": "eska",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      },
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እስከ",
+       "gloss": "until, as far as (preposition)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "läʿaläm",
+     "say": "laalam",
+     "glyphs": [
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "ዓ",
+       "sign": "PHARYNGEAL AA",
+       "role": "phon",
+       "tr": "ʿa"
+      },
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ዓለም",
+       "gloss": "for ever (ለ- 'to, for' + noun 'age, world, eternity') · 'of the world', the owner after an anticipating suffix (ብርሃኖ ለዓለም 'the light of the world')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "ወበእንተዝኬ ፡ ሶበ ፡ ትበውእ ፡ ብሔረ ፡ ግብጽ ፡ ተቀጥቀጡ ፡ አማልክቲነ ፤",
+   "tr": "wäbäʾnətäzke sobä təbäwʾ bəḥerä gəbṣ täqäṭqäṭu ʾämalkətinä",
+   "l": "And-therefore when she-enters land-of Egypt were-crushed our-gods;",
+   "i": "'“That is why our gods were crushed when she entered the land of Egypt.”",
+   "n": "ወበእንተዝኬ: በእንተ + ዝ 'this' + the emphatic -ኬ: 'and for this reason'. ሶበ ትበውእ: ትበውእ is the 3fs imperfect (the Ark is the subject), 'when she enters'; the mixing of tenses (imperfect after ሶበ, then the perfect ተቀጥቀጡ) reads as 'once she entered'. ብሔረ ግብጽ: construct, 'land-of Egypt'.",
+   "words": [
+    {
+     "reading": "wäbäʾnətäzke",
+     "say": "wabanetazke",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      },
+      {
+       "s": "ዝ",
+       "sign": "ZE",
+       "role": "phon",
+       "tr": "zə"
+      },
+      {
+       "s": "ኬ",
+       "sign": "KEE",
+       "role": "phon",
+       "tr": "ke"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "በእንተዝ",
+       "gloss": "and therefore, for this reason (ወ- + በእንተ + ዝ 'this' + -ኬ)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "sobä",
+     "say": "soba",
+     "glyphs": [
+      {
+       "s": "ሶ",
+       "sign": "SO",
+       "role": "phon",
+       "tr": "so"
+      },
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሶበ",
+       "gloss": "when, if (conjunction)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "təbäwʾ",
+     "say": "tebaw",
+     "glyphs": [
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      },
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      },
+      {
+       "s": "ው",
+       "sign": "WE",
+       "role": "phon",
+       "tr": "wə"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ቦአ",
+       "gloss": "she enters (3fs imperfect, G, b-w-ʾ; ታቦት as subject)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bəḥerä",
+     "say": "behera",
+     "glyphs": [
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "ሔ",
+       "sign": "HHEE",
+       "role": "phon",
+       "tr": "ḥe"
+      },
+      {
+       "s": "ረ",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "rä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ብሔር",
+       "gloss": "land, region (construct 'land of')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "gəbṣ",
+     "say": "gebs",
+     "glyphs": [
+      {
+       "s": "ግ",
+       "sign": "GE",
+       "role": "phon",
+       "tr": "gə"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "ጽ",
+       "sign": "TSE",
+       "role": "phon",
+       "tr": "ṣə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ግብጽ",
+       "gloss": "Egypt (proper name; genitive after construct)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "täqäṭqäṭu",
+     "say": "taqatqatu",
+     "glyphs": [
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      },
+      {
+       "s": "ቀ",
+       "sign": "QA",
+       "role": "phon",
+       "tr": "qä"
+      },
+      {
+       "s": "ጥ",
+       "sign": "THE",
+       "role": "phon",
+       "tr": "ṭə"
+      },
+      {
+       "s": "ቀ",
+       "sign": "QA",
+       "role": "phon",
+       "tr": "qä"
+      },
+      {
+       "s": "ጡ",
+       "sign": "THU",
+       "role": "phon",
+       "tr": "ṭu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ተቀጥቀጠ",
+       "gloss": "they were crushed, shattered (3mp perfect, passive of quadriliteral ቀጥቀጠ)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾämalkətinä",
+     "say": "amalketina",
+     "glyphs": [
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ማ",
+       "sign": "MAA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "ል",
+       "sign": "LE",
+       "role": "phon",
+       "tr": "lə"
+      },
+      {
+       "s": "ክ",
+       "sign": "KE",
+       "role": "phon",
+       "tr": "kə"
+      },
+      {
+       "s": "ቲ",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      },
+      {
+       "s": "ነ",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "nä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አምላክ",
+       "gloss": "our gods (plural አማልክት + -ነ '1cp our')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "ወአንተሰ ፡ ኦንጉሥ ፡ አልቦ ፡ ዘይመስላ ፡ ለጥበብከ ፡ እምታሕተ ፡ ሰማይ ፡ ወለምንት ፡ ወሀብከ ፡ ታቦተ ፡ ሕጉ ፡ ለእግዚኣብሔር ፡ አምላክከ ፡ ዘአንጽሑ ፡ ለከ ፡ አበዊከ ፤",
+   "tr": "wäʾäntäsä ʾonguś ʾälbo zäymäsla läṭbäbkä ʾəmtaḥtä sämay wälämnət wähäbkä tabotä ḥəgu läʾgəziʾabḥer ʾämlakkä zäʾänṣəḥu läkä ʾäbäwikä",
+   "l": "And-you, O-king, there-is-not what resembles-it to-your-wisdom from-under heaven; and-why gave-you ark-of his-law, of-God your-God, which-sanctified for-you your-fathers;",
+   "i": "'And you, O king, have no equal in wisdom under heaven. Why then did you give away the Ark of the law of the Lord your God, which your fathers made holy for you?",
+   "n": "ወአንተሰ: the contrastive -ሰ, 'but as for you'. አልቦ ዘይመስላ ለጥበብከ: አልቦ 'there is not'; ዘይመስላ 'what resembles it', with the object suffix -ኣ referring to ጥበብ 'wisdom' (feminine, as the published glossary has it) and ለ- resuming it: 'there is nothing like your wisdom'. እምታሕተ ሰማይ 'from under heaven', that is anywhere. ወለምንት 'and why?' (ለ- + ምንት 'what'). ወሀብከ 'you gave' (ወሀበ). ታቦተ ሕጉ ለእግዚኣብሔር: the possessor of the construct ታቦተ ሕጉ 'ark-of his law' is anticipated by -ሁ and then named with ለ-, the device already met in ሀገሩ ለንጉሥ. ዘአንጽሑ: ዘ- 'which' + አንጽሑ, the 3mp perfect of አንጽሐ, the causative (A-stem) of ነጽሐ 'be clean, pure', so 'which they sanctified'; the verb carries no object suffix — what was sanctified is the ark, the antecedent of ዘ-. ለከ 'for you'; አበዊከ 'your fathers' is the subject, placed last.",
+   "words": [
+    {
+     "reading": "wäʾäntäsä",
+     "say": "waantasa",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      },
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አንተ",
+       "gloss": "and as for you (ወ- + 2ms pronoun + emphatic -ሰ)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾonguś",
+     "say": "ongus",
+     "glyphs": [
+      {
+       "s": "ኦ",
+       "sign": "GLOTTAL O",
+       "role": "phon",
+       "tr": "ʾo"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ጉ",
+       "sign": "GU",
+       "role": "phon",
+       "tr": "gu"
+      },
+      {
+       "s": "ሥ",
+       "sign": "SZE",
+       "role": "phon",
+       "tr": "śə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ንጉሥ",
+       "gloss": "O king (ኦ vocative 'O' written onto the noun + ንጉሥ)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾälbo",
+     "say": "albo",
+     "glyphs": [
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ል",
+       "sign": "LE",
+       "role": "phon",
+       "tr": "lə"
+      },
+      {
+       "s": "ቦ",
+       "sign": "BO",
+       "role": "phon",
+       "tr": "bo"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አልቦ",
+       "gloss": "there is not, none (negative existential) · 'no, not so' as a reply (አልቦ እግዚኦ 'No, O lord', ch. 56)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "zäymäsla",
+     "say": "zaymasla",
+     "glyphs": [
+      {
+       "s": "ዘ",
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "zä"
+      },
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      },
+      {
+       "s": "መ",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "mä"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      },
+      {
+       "s": "ላ",
+       "sign": "LAA",
+       "role": "phon",
+       "tr": "la"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "መሰለ",
+       "gloss": "who resembles her/it (ዘ- + 3ms imperfect ይመስል + -ኣ 'her')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "läṭbäbkä",
+     "say": "latbabka",
+     "glyphs": [
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "ጥ",
+       "sign": "THE",
+       "role": "phon",
+       "tr": "ṭə"
+      },
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ጥበብ",
+       "gloss": "to your wisdom (ለ- + noun + -ከ '2ms your'; 'equal to your wisdom')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾəmtaḥtä",
+     "say": "emtahta",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "ታ",
+       "sign": "TAA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "ሕ",
+       "sign": "HHE",
+       "role": "phon",
+       "tr": "ḥə"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ታሕተ",
+       "gloss": "from under, under (እም- + preposition ታሕተ)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "sämay",
+     "say": "samay",
+     "glyphs": [
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      },
+      {
+       "s": "ማ",
+       "sign": "MAA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሰማይ",
+       "gloss": "heaven, sky (noun)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wälämnət",
+     "say": "walamnet",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ምንት",
+       "gloss": "and why? (ወ- + ለ- 'for' + interrogative 'what')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wähäbkä",
+     "say": "wahabka",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ሀ",
+       "sign": "HA",
+       "role": "phon",
+       "tr": "hä"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ወሀበ",
+       "gloss": "you gave (2ms perfect, G, w-h-b)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tabotä",
+     "say": "tabota",
+     "glyphs": [
+      {
+       "s": "ታ",
+       "sign": "TAA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "ቦ",
+       "sign": "BO",
+       "role": "phon",
+       "tr": "bo"
+      },
+      {
+       "s": "ተ",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "tä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ታቦት",
+       "gloss": "ark, tabernacle (construct 'ark of') · also accusative 'an ark' (ግበር ታቦተ 'make an ark')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḥəgu",
+     "say": "hegu",
+     "glyphs": [
+      {
+       "s": "ሕ",
+       "sign": "HHE",
+       "role": "phon",
+       "tr": "ḥə"
+      },
+      {
+       "s": "ጉ",
+       "sign": "GU",
+       "role": "phon",
+       "tr": "gu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሕግ",
+       "gloss": "his law, the law (+ -u 'his')",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "läʾgəziʾabḥer",
+     "say": "lageziabher",
+     "glyphs": [
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ግ",
+       "sign": "GE",
+       "role": "phon",
+       "tr": "gə"
+      },
+      {
+       "s": "ዚ",
+       "sign": "ZI",
+       "role": "phon",
+       "tr": "zi"
+      },
+      {
+       "s": "ኣ",
+       "sign": "GLOTTAL AA",
+       "role": "phon",
+       "tr": "ʾa"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "ሔ",
+       "sign": "HHEE",
+       "role": "phon",
+       "tr": "ḥe"
+      },
+      {
+       "s": "ር",
+       "sign": "RE",
+       "role": "phon",
+       "tr": "rə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እግዚአብሔር",
+       "gloss": "of/to God · God as object, marked with ለ- after ፈርሆ, አምዕዕዎ, አሥመሮ",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾämlakkä",
+     "say": "amlakka",
+     "glyphs": [
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "ላ",
+       "sign": "LAA",
+       "role": "phon",
+       "tr": "la"
+      },
+      {
+       "s": "ክ",
+       "sign": "KE",
+       "role": "phon",
+       "tr": "kə"
+      },
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አምላክ",
+       "gloss": "God, god (noun, singular; + -ከ 'your', 2ms)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "zäʾänṣəḥu",
+     "say": "zaansehu",
+     "glyphs": [
+      {
+       "s": "ዘ",
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "zä"
+      },
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ጽ",
+       "sign": "TSE",
+       "role": "phon",
+       "tr": "ṣə"
+      },
+      {
+       "s": "ሑ",
+       "sign": "HHU",
+       "role": "phon",
+       "tr": "ḥu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አንጽሐ",
+       "gloss": "which they sanctified, made clean (ዘ- relative + 3mp perfect, causative of ነጽሐ 'be clean, pure'; no object suffix — the object is the antecedent of ዘ-)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "läkä",
+     "say": "laka",
+     "glyphs": [
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ለ",
+       "gloss": "to you (preposition ለ- + -ከ '2ms')",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾäbäwikä",
+     "say": "abawika",
+     "glyphs": [
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      },
+      {
+       "s": "ዊ",
+       "sign": "WI",
+       "role": "phon",
+       "tr": "wi"
+      },
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አብ",
+       "gloss": "your fathers (noun, plural አበው + -ka '2ms your')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "እስመ ፡ ንሰምዕ ፡ ከመ ፡ ይእቲ ፡ ታድኅነክሙ ፡ እምእደ ፡ ፀርክሙ ፡ ወመንፈሰ ፡ ትንቢትኒ ፡ ባቲ ፡ ይትናገረክሙ ፡ ወአምላከ ፡ ሰማይኒአ ፡ የኀድር ፡ ውስቴታ ፡ በመንፈሱ ፡ ቅዱስ ፡ ወትሰመዩ ፡ ሰብአ ፡ ቤቱ ፡ ለእግዚኣብሔር ፤",
+   "tr": "ʾəsmä nəsämʿ kämä yəʾti tadḫənäkmu ʾəmʾədä ṣ́ärkəmu wämänfäsä tənbitni bati yətnagäräkmu wäʾämlakä sämayniʾä yäḫädr wəsteta bämänfäsu qədus wätsämäyu säbʾä betu läʾgəziʾabḥer",
+   "l": "For we-hear that she will-save-you from-hand-of your-enemy, and-spirit-of prophecy too in-her speaks-to-you, and-God-of heaven too dwells within-her by-his spirit holy, and-you-are-called people-of his-house, of God;",
+   "i": "'For we hear that she saves you from the hand of your enemy, that the spirit of prophecy speaks to you through her, that the God of heaven dwells within her by his Holy Spirit, and that you are called the people of God's house.",
+   "n": "እስመ 'for, because'. ንሰምዕ 'we hear' (ሰምዐ, 1cp imperfect). ከመ 'that' introduces what is heard; ይእቲ 'she' (the Ark). ታድኅነክሙ: ታድኅን is the causative (A-stem) of ድኅነ 'be safe', so 'she saves'; -ክሙ 'you' is plural, the Israelites. እምእደ ፀርክሙ 'from the hand-of your enemy' (እድ 'hand' in the construct). መንፈሰ ትንቢት 'spirit of prophecy'. ባቲ 'in, through her'. ይትናገረክሙ 'speaks to you': ተናገረ is the T-stem of ነገረ 'to tell'. ሰማይኒአ: -ኒ 'too' with a final -አ that nothing accounts for; the published parts meet the same stray -አ (ወሀበነአ, ch. 36) and keep it as printed (?). የኀድር 'dwells' (ኀደረ), ውስቴታ 'within her', በመንፈሱ ቅዱስ 'by his holy spirit' (the adjective following the suffixed noun; a Christian reading of the Ark). ትሰመዩ: the T-stem passive of ሰምየ 'to name', 'you are called'. ሰብአ ቤቱ ለእግዚኣብሔር 'people-of his house, of God' (the anticipatory suffix again); cf. Ephesians 2:19, 'members of the household of God' (?).",
+   "words": [
+    {
+     "reading": "ʾəsmä",
+     "say": "esma",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      },
+      {
+       "s": "መ",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "mä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እስመ",
+       "gloss": "for, because",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nəsämʿ",
+     "say": "nesam",
+     "glyphs": [
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "ዕ",
+       "sign": "PHARYNGEAL E",
+       "role": "phon",
+       "tr": "ʿə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሰምዐ",
+       "gloss": "we hear (1cp imperfect, G, s-m-ʿ)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "kämä",
+     "say": "kama",
+     "glyphs": [
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      },
+      {
+       "s": "መ",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "mä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ከመ",
+       "gloss": "that, so that; as · 'like' before a noun (ከመ ምድረ በረድ 'like a land of hail') · ከመ ኢ- 'that not, lest' (ከመ ኢትንገሥ ብእሲት 'that a woman not reign'; ከመ ኢታቅሞ 'that you not make him stay') · 'as when' before ዘ- or አመ (ከመ ዘ ዐገትዋ 'as when they besieged her')",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "yəʾti",
+     "say": "yeti",
+     "glyphs": [
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ቲ",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ይእቲ",
+       "gloss": "she/it is (fem. pron.) · 'I am she' predicate (አነ ይእቲ አቡከ 'I am she, your father') · 'that' (fem. demonstrative, ይእቲ ሠሉስ ዕለት 'that third day')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tadḫənäkmu",
+     "say": "tadhenakmu",
+     "glyphs": [
+      {
+       "s": "ታ",
+       "sign": "TAA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "ድ",
+       "sign": "DE",
+       "role": "phon",
+       "tr": "də"
+      },
+      {
+       "s": "ኅ",
+       "sign": "XE",
+       "role": "phon",
+       "tr": "ḫə"
+      },
+      {
+       "s": "ነ",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "nä"
+      },
+      {
+       "s": "ክ",
+       "sign": "KE",
+       "role": "phon",
+       "tr": "kə"
+      },
+      {
+       "s": "ሙ",
+       "sign": "MU",
+       "role": "phon",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አድኀነ",
+       "gloss": "she saves you (3fs imperfect + -ክሙ '2mp you', causative)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾəmʾədä",
+     "say": "emeda",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ደ",
+       "sign": "DA",
+       "role": "phon",
+       "tr": "dä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እድ",
+       "gloss": "from the hand of (እም- + noun, construct)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ṣ́ärkəmu",
+     "say": "sarkemu",
+     "glyphs": [
+      {
+       "s": "ፀ",
+       "sign": "TZA",
+       "role": "phon",
+       "tr": "ṣ́ä"
+      },
+      {
+       "s": "ር",
+       "sign": "RE",
+       "role": "phon",
+       "tr": "rə"
+      },
+      {
+       "s": "ክ",
+       "sign": "KE",
+       "role": "phon",
+       "tr": "kə"
+      },
+      {
+       "s": "ሙ",
+       "sign": "MU",
+       "role": "phon",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ፀር",
+       "gloss": "your enemy (noun + -ክሙ '2mp your')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wämänfäsä",
+     "say": "wamanfasa",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "መ",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "mä"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ፈ",
+       "sign": "FA",
+       "role": "phon",
+       "tr": "fä"
+      },
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "መንፈስ",
+       "gloss": "and spirit of (ወ- + noun, construct)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tənbitni",
+     "say": "tenbitni",
+     "glyphs": [
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ቢ",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      },
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      },
+      {
+       "s": "ኒ",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ትንቢት",
+       "gloss": "prophecy also (noun + enclitic -ኒ 'also')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bati",
+     "say": "bati",
+     "glyphs": [
+      {
+       "s": "ባ",
+       "sign": "BAA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "ቲ",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "በ",
+       "gloss": "in, on (preposition + -ቲ 'her, it', 3fs)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "yətnagäräkmu",
+     "say": "yetnagarakmu",
+     "glyphs": [
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      },
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      },
+      {
+       "s": "ና",
+       "sign": "NAA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "ገ",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "gä"
+      },
+      {
+       "s": "ረ",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "rä"
+      },
+      {
+       "s": "ክ",
+       "sign": "KE",
+       "role": "phon",
+       "tr": "kə"
+      },
+      {
+       "s": "ሙ",
+       "sign": "MU",
+       "role": "phon",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ተናገረ",
+       "gloss": "he/it speaks to you (3ms imperfect, T-stem of ነገረ 'to tell', + -ክሙ '2mp to you')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wäʾämlakä",
+     "say": "waamlaka",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "ላ",
+       "sign": "LAA",
+       "role": "phon",
+       "tr": "la"
+      },
+      {
+       "s": "ከ",
+       "sign": "KA",
+       "role": "phon",
+       "tr": "kä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አምላክ",
+       "gloss": "and God of (ወ- + noun, construct)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "sämayniʾä",
+     "say": "samaynia",
+     "glyphs": [
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      },
+      {
+       "s": "ማ",
+       "sign": "MAA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      },
+      {
+       "s": "ኒ",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሰማይ",
+       "gloss": "of heaven also (noun + the enclitic -ኒ 'also'; the final -አ is unexplained, a stray addition as in ወሀበነአ, ch. 36) (?)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "yäḫädr",
+     "say": "yahadr",
+     "glyphs": [
+      {
+       "s": "የ",
+       "sign": "YA",
+       "role": "phon",
+       "tr": "yä"
+      },
+      {
+       "s": "ኀ",
+       "sign": "XA",
+       "role": "phon",
+       "tr": "ḫä"
+      },
+      {
+       "s": "ድ",
+       "sign": "DE",
+       "role": "phon",
+       "tr": "də"
+      },
+      {
+       "s": "ር",
+       "sign": "RE",
+       "role": "phon",
+       "tr": "rə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ኀደረ",
+       "gloss": "he dwells (3ms imperfect, G)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wəsteta",
+     "say": "westeta",
+     "glyphs": [
+      {
+       "s": "ው",
+       "sign": "WE",
+       "role": "phon",
+       "tr": "wə"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      },
+      {
+       "s": "ቴ",
+       "sign": "TEE",
+       "role": "phon",
+       "tr": "te"
+      },
+      {
+       "s": "ታ",
+       "sign": "TAA",
+       "role": "phon",
+       "tr": "ta"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ውስተ",
+       "gloss": "in it/her (+ -ha)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bämänfäsu",
+     "say": "bamanfasu",
+     "glyphs": [
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      },
+      {
+       "s": "መ",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "mä"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ፈ",
+       "sign": "FA",
+       "role": "phon",
+       "tr": "fä"
+      },
+      {
+       "s": "ሱ",
+       "sign": "SU",
+       "role": "phon",
+       "tr": "su"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "መንፈስ",
+       "gloss": "in his spirit (በ- + noun + -ሁ '3ms his')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "qədus",
+     "say": "qedus",
+     "glyphs": [
+      {
+       "s": "ቅ",
+       "sign": "QE",
+       "role": "phon",
+       "tr": "qə"
+      },
+      {
+       "s": "ዱ",
+       "sign": "DU",
+       "role": "phon",
+       "tr": "du"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ቅዱስ",
+       "gloss": "holy",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wätsämäyu",
+     "say": "watsamayu",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      },
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      },
+      {
+       "s": "መ",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "mä"
+      },
+      {
+       "s": "ዩ",
+       "sign": "YU",
+       "role": "phon",
+       "tr": "yu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ተሰምየ",
+       "gloss": "and you are called (ወ- + 2mp imperfect, Gt passive of ሰምየ)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "säbʾä",
+     "say": "saba",
+     "glyphs": [
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሰብእ",
+       "gloss": "man (accusative) · construct 'men of' (ሰብአ ቤቱ 'men of his house')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "betu",
+     "say": "betu",
+     "glyphs": [
+      {
+       "s": "ቤ",
+       "sign": "BEE",
+       "role": "phon",
+       "tr": "be"
+      },
+      {
+       "s": "ቱ",
+       "sign": "TU",
+       "role": "phon",
+       "tr": "tu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ቤት",
+       "gloss": "his house (noun + -ሁ 'his')",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "läʾgəziʾabḥer",
+     "say": "lageziabher",
+     "glyphs": [
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ግ",
+       "sign": "GE",
+       "role": "phon",
+       "tr": "gə"
+      },
+      {
+       "s": "ዚ",
+       "sign": "ZI",
+       "role": "phon",
+       "tr": "zi"
+      },
+      {
+       "s": "ኣ",
+       "sign": "GLOTTAL AA",
+       "role": "phon",
+       "tr": "ʾa"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "ሔ",
+       "sign": "HHEE",
+       "role": "phon",
+       "tr": "ḥe"
+      },
+      {
+       "s": "ር",
+       "sign": "RE",
+       "role": "phon",
+       "tr": "rə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እግዚአብሔር",
+       "gloss": "of/to God · God as object, marked with ለ- after ፈርሆ, አምዕዕዎ, አሥመሮ",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "ወለምንት ፡ ዘወሀብክሙ ፡ ክብርክሙ ፡ ለባዕድ ።",
+   "tr": "wälämnət zäwähäbkəmu kəbrəkmu läbaʿd",
+   "l": "And-why that-you-gave your-glory to-a-stranger.",
+   "i": "Why have you given your glory to a stranger?'",
+   "n": "ወለምንት ዘወሀብክሙ: ዘ- is the relative used after 'why' to give 'why is it that you gave'; the verb is plural (-ክሙ) though it addresses Solomon, so the speaker means Solomon with his people (?). ክብርክሙ 'your glory, your honour': the Ark is the glory of Israel, and ክብር is the book's own title word (ክብረ ነገሥት); the reproach echoes Isaiah 42:8, 'my glory I give to no other' (?). ለባዕድ 'to a stranger, a foreigner' (ባዕድ 'other').",
+   "words": [
+    {
+     "reading": "wälämnət",
+     "say": "walamnet",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "ም",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "mə"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      },
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ምንት",
+       "gloss": "and why? (ወ- + ለ- 'for' + interrogative 'what')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "zäwähäbkəmu",
+     "say": "zawahabkemu",
+     "glyphs": [
+      {
+       "s": "ዘ",
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "zä"
+      },
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ሀ",
+       "sign": "HA",
+       "role": "phon",
+       "tr": "hä"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "ክ",
+       "sign": "KE",
+       "role": "phon",
+       "tr": "kə"
+      },
+      {
+       "s": "ሙ",
+       "sign": "MU",
+       "role": "phon",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ወሀበ",
+       "gloss": "that you gave (ዘ- + 2mp perfect, G, w-h-b)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "kəbrəkmu",
+     "say": "kebrekmu",
+     "glyphs": [
+      {
+       "s": "ክ",
+       "sign": "KE",
+       "role": "phon",
+       "tr": "kə"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      },
+      {
+       "s": "ር",
+       "sign": "RE",
+       "role": "phon",
+       "tr": "rə"
+      },
+      {
+       "s": "ክ",
+       "sign": "KE",
+       "role": "phon",
+       "tr": "kə"
+      },
+      {
+       "s": "ሙ",
+       "sign": "MU",
+       "role": "phon",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ክብር",
+       "gloss": "your glory (noun + -ክሙ '2mp your')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "läbaʿd",
+     "say": "labad",
+     "glyphs": [
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "ባ",
+       "sign": "BAA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "ዕ",
+       "sign": "PHARYNGEAL E",
+       "role": "phon",
+       "tr": "ʿə"
+      },
+      {
+       "s": "ድ",
+       "sign": "DE",
+       "role": "phon",
+       "tr": "də"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ባዕድ",
+       "gloss": "to another, a strange one (ለ- + noun/adjective)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "አውሥአ ፡ በጥበብ ፡ ሰሎሞን ፡ ወይቤ ፡ በአይቴ ፡ ይክል ፡ ነሢኦታ ፡ ለእግዝእትነ ፡ እስመ ፡ ሀለወት ፡ ኀቤነ ፨ ፨",
+   "tr": "ʾäwśəʾä bäṭbäb sälomon wäybe bäʾäyte yəkl näśiʾota läʾgəzʾətnä ʾəsmä häläwät ḫäbenä",
+   "l": "Answered in-wisdom Solomon and-said: By-where can taking-her, to-our-lady, since she-is with-us?",
+   "i": "Solomon answered with wisdom and said, 'How could anyone take our Lady away, when she is here with us?'",
+   "n": "አውሥአ በጥበብ ሰሎሞን: Solomon is the subject, placed after the adverbial 'with wisdom'. ወይቤ 'and he said'. በአይቴ ይክል ነሢኦታ: በአይቴ 'by what way? how?' (አይቴ 'where'); ይክል 'he is able' (ከህለ); ነሢኦታ is the infinitive ነሢኦት 'taking' (accusative ነሢኦተ) with the suffix -ኣ 'her', written ታ; no subject is expressed, so 'how could one take her' (?). ለእግዝእትነ: እግዝእት is the feminine of እግዚእ, 'lady', + -ነ 'our'; ለ- marks the object, doubling the suffix of ነሢኦታ, and 'our Lady' is a title of the Ark (and of Zion). እስመ ሀለወት ኀቤነ 'since she is with us' (ኀቤነ from ኀበ + -ነ). Solomon is evasive: he neither admits nor denies that the Ark has gone. The final ፨ ፨ closes the part.",
+   "words": [
+    {
+     "reading": "ʾäwśəʾä",
+     "say": "awsea",
+     "glyphs": [
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ው",
+       "sign": "WE",
+       "role": "phon",
+       "tr": "wə"
+      },
+      {
+       "s": "ሥ",
+       "sign": "SZE",
+       "role": "phon",
+       "tr": "śə"
+      },
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አውሥአ",
+       "gloss": "he answered (3ms perfect, causative of ወሥአ)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bäṭbäb",
+     "say": "batbab",
+     "glyphs": [
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      },
+      {
+       "s": "ጥ",
+       "sign": "THE",
+       "role": "phon",
+       "tr": "ṭə"
+      },
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      },
+      {
+       "s": "ብ",
+       "sign": "BE",
+       "role": "phon",
+       "tr": "bə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ጥበብ",
+       "gloss": "in wisdom (በ- 'in, with' + noun)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "sälomon",
+     "say": "salomon",
+     "glyphs": [
+      {
+       "s": "ሰ",
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sä"
+      },
+      {
+       "s": "ሎ",
+       "sign": "LO",
+       "role": "phon",
+       "tr": "lo"
+      },
+      {
+       "s": "ሞ",
+       "sign": "MO",
+       "role": "phon",
+       "tr": "mo"
+      },
+      {
+       "s": "ን",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "nə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሰሎሞን",
+       "gloss": "Solomon (proper name)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wäybe",
+     "say": "waybe",
+     "glyphs": [
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      },
+      {
+       "s": "ቤ",
+       "sign": "BEE",
+       "role": "phon",
+       "tr": "be"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ይቤ",
+       "gloss": "and he said",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bäʾäyte",
+     "say": "baayte",
+     "glyphs": [
+      {
+       "s": "በ",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "bä"
+      },
+      {
+       "s": "አ",
+       "sign": "GLOTTAL A",
+       "role": "phon",
+       "tr": "ʾä"
+      },
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      },
+      {
+       "s": "ቴ",
+       "sign": "TEE",
+       "role": "phon",
+       "tr": "te"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "አይቴ",
+       "gloss": "by what, in what (በ- + interrogative 'where, what')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "yəkl",
+     "say": "yekl",
+     "glyphs": [
+      {
+       "s": "ይ",
+       "sign": "YE",
+       "role": "phon",
+       "tr": "yə"
+      },
+      {
+       "s": "ክ",
+       "sign": "KE",
+       "role": "phon",
+       "tr": "kə"
+      },
+      {
+       "s": "ል",
+       "sign": "LE",
+       "role": "phon",
+       "tr": "lə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ከህለ",
+       "gloss": "he is able (3ms imperfect, G, k-h-l; with infinitive)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "näśiʾota",
+     "say": "nasiota",
+     "glyphs": [
+      {
+       "s": "ነ",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "nä"
+      },
+      {
+       "s": "ሢ",
+       "sign": "SZI",
+       "role": "phon",
+       "tr": "śi"
+      },
+      {
+       "s": "ኦ",
+       "sign": "GLOTTAL O",
+       "role": "phon",
+       "tr": "ʾo"
+      },
+      {
+       "s": "ታ",
+       "sign": "TAA",
+       "role": "phon",
+       "tr": "ta"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ነሥአ",
+       "gloss": "taking her (infinitive ነሢኦት + -ኣ '3fs her' (written -ታ), accusative, n-ś-ʾ)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "läʾgəzʾətnä",
+     "say": "lagezetna",
+     "glyphs": [
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ግ",
+       "sign": "GE",
+       "role": "phon",
+       "tr": "gə"
+      },
+      {
+       "s": "ዝ",
+       "sign": "ZE",
+       "role": "phon",
+       "tr": "zə"
+      },
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      },
+      {
+       "s": "ነ",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "nä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እግዝእት",
+       "gloss": "our lady, for/of our lady (ለ- + noun, fem. + -ነ '1cp our'; marks the object, doubled by the suffix of ነሢኦታ)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ʾəsmä",
+     "say": "esma",
+     "glyphs": [
+      {
+       "s": "እ",
+       "sign": "GLOTTAL E",
+       "role": "phon",
+       "tr": "ʾə"
+      },
+      {
+       "s": "ስ",
+       "sign": "SE",
+       "role": "phon",
+       "tr": "sə"
+      },
+      {
+       "s": "መ",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "mä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "እስመ",
+       "gloss": "for, because",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "häläwät",
+     "say": "halawat",
+     "glyphs": [
+      {
+       "s": "ሀ",
+       "sign": "HA",
+       "role": "phon",
+       "tr": "hä"
+      },
+      {
+       "s": "ለ",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "lä"
+      },
+      {
+       "s": "ወ",
+       "sign": "WA",
+       "role": "phon",
+       "tr": "wä"
+      },
+      {
+       "s": "ት",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "tə"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ሀለወ",
+       "gloss": "she was, she was present (3fs perfect, h-l-w)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫäbenä",
+     "say": "habena",
+     "glyphs": [
+      {
+       "s": "ኀ",
+       "sign": "XA",
+       "role": "phon",
+       "tr": "ḫä"
+      },
+      {
+       "s": "ቤ",
+       "sign": "BEE",
+       "role": "phon",
+       "tr": "be"
+      },
+      {
+       "s": "ነ",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "nä"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ኀበ",
+       "gloss": "to us, with us (preposition + -ነ '1cp')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": {
+  "ሀለወት": "ሀለወ — she was, she was present (3fs perfect, h-l-w)",
+  "ሀለዉ": "ሀለወ — they were, they were there (3mp perfect, G, h-l-w)",
+  "ሀገሩ": "ሀገር — his city, 'the city of' (noun + -ሁ '3ms his', anticipating ለንጉሥ)",
+  "ሀገሮሙ": "ሀገር — their country (noun + -ሙ '3mp their')",
+  "ህየ": "ህየ — there (adverb)",
+  "ለባዕድ": "ባዕድ — to another, a strange one (ለ- + noun/adjective)",
+  "ለንጉሥ": "ንጉሥ — to the king, for the king (ለ- + noun) · marking the object, doubled by a suffix on the verb (ይሕምይዎ ለንጉሥ 'they revile the king') or by a suffix on a noun (ሐሚዮቱ ለንጉሥ 'the reviling of the king')",
+  "ለአከኒ": "ለአከ — he sent me (3ms perfect + -ኒ '1cs me')",
+  "ለእግዚኣብሔር": "እግዚአብሔር — of/to God · God as object, marked with ለ- after ፈርሆ, አምዕዕዎ, አሥመሮ",
+  "ለእግዝእትነ": "እግዝእት — our lady, for/of our lady (ለ- + noun, fem. + -ነ '1cp our'; marks the object, doubled by the suffix of ነሢኦታ)",
+  "ለከ": "ለ — to you (preposition ለ- + -ከ '2ms')",
+  "ለዓለም": "ዓለም — for ever (ለ- 'to, for' + noun 'age, world, eternity') · 'of the world', the owner after an anticipating suffix (ብርሃኖ ለዓለም 'the light of the world')",
+  "ለግብጻዊ": "ግብጻዊ — the Egyptian (ለ- marking the object, doubling the suffix of ሐተቶ; ግብጽ 'Egypt' + the adjectival ending -ዊ)",
+  "ለጥበብከ": "ጥበብ — to your wisdom (ለ- + noun + -ከ '2ms your'; 'equal to your wisdom')",
+  "ሐተቶ": "ሐተተ — he questioned him, examined him (3ms perfect, G, ḥ-t-t + -ኦ '3ms him'; the object is named after it by ለ-, ለግብጻዊ)",
+  "ሐቲተ": "ሐተተ — to question (infinitive ሐቲት, accusative)",
+  "ሕያው": "ሕያው — living, alive (adjective, masc. sg.)",
+  "ሕጉ": "ሕግ — his law, the law (+ -u 'his')",
+  "መልአከ": "መልአክ — angel, messenger (noun, construct state 'angel-of')",
+  "መሬታዊያን": "መሬታዊ — earthly ones (adjective, plural -ያን, used as noun)",
+  "መኑኬ": "መኑ — who then? (interrogative + -ኬ)",
+  "መኰንነ": "መኰንን — governor, official (noun, accusative)",
+  "መጻእኩ": "መጽአ — I came (1cs perfect, G)",
+  "ማርያነ": "ማርያን (?) — ማርያን (?) of Egypt (noun, plural, construct ማርያነ; unidentified — perhaps 'leaders, elders', perhaps a class of priests or diviners) (?)",
+  "ምስለ": "ምስለ — with, together with",
+  "ምስሌሁ": "ምስለ — with him (preposition, stem ምስሌ- + -ሁ 'him')",
+  "ምስሌሆሙ": "ምስለ — with them (preposition + -omu, ምስሌ-)",
+  "ምስር": "ምስር — Egypt (proper name)",
+  "ሠሉስ": "ሠሉስ — third; Tuesday (adjective/noun; ሠሉስ ዕለት 'the third day')",
+  "ርእይዎሙ": "ርእየ — they saw them (3mp perfect ርእዩ + -ዎሙ '3mp them', G, r-ʾ-y)",
+  "ሰሎሞን": "ሰሎሞን — Solomon (proper name)",
+  "ሰማያዊያን": "ሰማያዊ — heavenly ones (adjective, plural -ያን, used as noun)",
+  "ሰማይ": "ሰማይ — heaven, sky (noun)",
+  "ሰማይኒአ": "ሰማይ — of heaven also (noun + the enclitic -ኒ 'also'; the final -አ is unexplained, a stray addition as in ወሀበነአ, ch. 36) (?)",
+  "ሰብአ": "ሰብእ — man (accusative) · construct 'men of' (ሰብአ ቤቱ 'men of his house')",
+  "ስምዐ": "ስምዕ — testimony, witness (noun, accusative)",
+  "ሶበ": "ሶበ — when, if (conjunction)",
+  "ቃህራ": "ቃህራ — Cairo (proper name, from Arabic al-Qāhira) (?)",
+  "ቅዱስ": "ቅዱስ — holy",
+  "በመንፈሱ": "መንፈስ — in his spirit (በ- + noun + -ሁ '3ms his')",
+  "በሰረገላ": "ሰረገላ — in a cart (በ- + noun)",
+  "በሰረገላት": "ሰረገላ — in carts, chariots (በ- + plural ሰረገላት; 'cart' is the published parts' rendering for the Ethiopians' vehicle)",
+  "በአይቴ": "አይቴ — by what, in what (በ- + interrogative 'where, what')",
+  "በእንተ": "በእንተ — concerning, about (+ construct) · for the sake of, on account of (በእንተ ፍሥሓ አዳም 'for the joy of Adam')",
+  "በዕንዚራት": "ዕንዚራ — with harps (?) (በ- + plural ዕንዚራት; a stringed instrument, 'harp' by convention in the published parts; here governed by ነፍሐ 'blow', which would suit a wind instrument) (?)",
+  "በጥበብ": "ጥበብ — in wisdom (በ- 'in, with' + noun)",
+  "በጽሑ": "በጽሐ — they arrived (3mpl perfect)",
+  "ባቲ": "በ — in, on (preposition + -ቲ 'her, it', 3fs)",
+  "ቤቱ": "ቤት — his house (noun + -ሁ 'his')",
+  "ብሔረ": "ብሔር — land, region (construct 'land of')",
+  "ቦኑ": "ቦ — is there? is it so that? (existential ቦ + interrogative -ኑ)",
+  "ቦኡ": "ቦአ — they entered (3mp perfect, G, b-w-ʾ)",
+  "ቦእኩ": "ቦአ — I entered (1cs perfect, G, b-w-ʾ)",
+  "ተቀጥቀጡ": "ተቀጥቀጠ — they were crushed, shattered (3mp perfect, passive of quadriliteral ቀጥቀጠ)",
+  "ተከዚ": "ተከዚ — Takkaze (proper name, the river)",
+  "ታቦተ": "ታቦት — ark, tabernacle (construct 'ark of') · also accusative 'an ark' (ግበር ታቦተ 'make an ark')",
+  "ታድኅነክሙ": "አድኀነ — she saves you (3fs imperfect + -ክሙ '2mp you', causative)",
+  "ትበውእ": "ቦአ — she enters (3fs imperfect, G, b-w-ʾ; ታቦት as subject)",
+  "ትንቢትኒ": "ትንቢት — prophecy also (noun + enclitic -ኒ 'also')",
+  "ኀለፈት": "ኀለፈ — it passed away (3fs perfect, ḫ-l-f)",
+  "ኀበ": "ኀበ — to, toward, at; where (preposition / conjunction) · 'with, in the possession of' (ኢተርፈት ኀበ ኢዮርብዓም 'it did not remain with Jeroboam')",
+  "ኀቤሁ": "ኀበ — to him (preposition + -hu, ኀቤሁ) · also 'of him' after ሰአለ 'ask' (ሰአለ ኀቤሁ 'he asked of him')",
+  "ኀቤነ": "ኀበ — to us, with us (preposition + -ነ '1cp')",
+  "ኀቤከ": "ኀበ — at, with, to (preposition, form ኀቤ- + -ከ 'you', 2ms)",
+  "ኀይለ": "ኀይል — strength (noun, accusative ኀይለ) · construct 'host of' (ኀይለ ሰማይ 'host of heaven')",
+  "ነሢኦታ": "ነሥአ — taking her (infinitive ነሢኦት + -ኣ '3fs her' (written -ታ), accusative, n-ś-ʾ)",
+  "ነፉስ": "ነፋስ — wind (noun; spelled ነፉስ) · ነፉስ in በሰረገላ ነፉስ perhaps 'of wind, airy' (?)",
+  "ንሰምዕ": "ሰምዐ — we hear (1cp imperfect, G, s-m-ʿ)",
+  "ንዋይ": "ንዋይ — goods, possessions, vessels (noun)",
+  "ንጉሠ": "ንጉሥ — king (accusative) · also construct 'king of' (ንጉሠ ሮምሂ 'the king of Rome too') · predicate accusative 'as king' (ዘይከውን ንጉሠ 'who will be king'; ይኩነነ ንጉሠ 'may he be king for us')",
+  "ንጉሥ": "ንጉሥ — king (noun)",
+  "አህጉር": "ሀገር — cities, towns (plural አህጉር)",
+  "አልቦ": "አልቦ — there is not, none (negative existential) · 'no, not so' as a reply (አልቦ እግዚኦ 'No, O lord', ch. 56)",
+  "አማልክቲነ": "አምላክ — our gods (plural አማልክት + -ነ '1cp our')",
+  "አማልክት": "አምላክ — gods (noun, plural)",
+  "አምላከ": "አምላክ — god (noun, singular, accusative / construct)",
+  "አምላክከ": "አምላክ — God, god (noun, singular; + -ከ 'your', 2ms)",
+  "አምኃ": "አምኃ — gifts, tribute (noun, plural/collective; accusative)",
+  "አምኃሁ": "አምኃ — his gifts (noun, plural/collective + -ሁ '3ms his')",
+  "አበዊከ": "አብ — your fathers (noun, plural አበው + -ka '2ms your')",
+  "አንተ": "አንተ — you (2ms pronoun)",
+  "አውሥአ": "አውሥአ — he answered (3ms perfect, causative of ወሥአ)",
+  "ኢሖረ": "ሖረ — he did not go, travel (ኢ- negative + 3ms perfect, G, ḥ-w-r)",
+  "ኢትዮጵያ": "ኢትዮጵያ — Ethiopia (proper name)",
+  "ኣየድዐከ": "አይድዐ — I will make known to you, tell you (1cs imperfect አየድዕ + -ከ '2ms to you'; root y-d-ʿ 'know'; the first-order ኣ- is as printed) (?)",
+  "እሉ": "እሉ — these (demonstrative pronoun, pl.)",
+  "እሉሰ": "እሉ — as for these, these indeed (demonstrative pl. + emphatic -ሰ)",
+  "እመኳንንተ": "መኰንን — from among the governors (እም- + plural መኳንንት, construct 'governors of')",
+  "እምህየ": "ህየ — from there (እም- + adverb)",
+  "እምሰሎሞን": "ሰሎሞን — than Solomon (እም- comparative 'more than' + proper name)",
+  "እምሰማይ": "ሰማይ — from heaven (እም- + noun)",
+  "እምታሕተ": "ታሕተ — from under, under (እም- + preposition ታሕተ)",
+  "እምእስክንድርያ": "እስክንድርያ — from Alexandria (እም- + proper name)",
+  "እምእደ": "እድ — from the hand of (እም- + noun, construct)",
+  "እስመ": "እስመ — for, because",
+  "እስራኤል": "እስራኤል — Israel (proper name; vocative) · dependent on a construct (ኀያላነ እስራኤል 'the mighty ones of Israel'; ch. 53) · also plain 'Israel', as subject or in ደቂቀ እስራኤል 'children of Israel' (ተሀየይዎ እስራኤል 'Israel ...', ch. 55–56)",
+  "እስከ": "እስከ — until, as far as (preposition)",
+  "እንተ": "እንተ — which, who (rel. pron. fem.) · in the phrase እንተ ባሕቲቱ 'privately, apart' (lit. 'which his solitude'; here the son is drawn aside alone) · fem. relative before a noun, ሐወጸ እንተ ታዕካ ቤተ መንግሥት 'looked out (?), which the ታዕካ of the palace'; the link to the verb is unclear (?)",
+  "እንዘ": "እንዘ — while, whilst (conjunction)",
+  "እግዚእየ": "እግዚእ — my lord (noun + -የ '1cs my')",
+  "ኦንጉሥ": "ንጉሥ — O king (ኦ vocative 'O' written onto the noun + ንጉሥ)",
+  "ከመ": "ከመ — that, so that; as · 'like' before a noun (ከመ ምድረ በረድ 'like a land of hail') · ከመ ኢ- 'that not, lest' (ከመ ኢትንገሥ ብእሲት 'that a woman not reign'; ከመ ኢታቅሞ 'that you not make him stay') · 'as when' before ዘ- or አመ (ከመ ዘ ዐገትዋ 'as when they besieged her')",
+  "ከመዝ": "ከመዝ — thus, so (adverb, ከመ + ዝ)",
+  "ከማሁ": "ከማሁ — likewise, like him (ከመ + -hu) · 'thus, so' answering ከመ (ከማሁ ታንጐደጒድ 'so it thunders')",
+  "ክብርክሙ": "ክብር — your glory (noun + -ክሙ '2mp your')",
+  "ኮኑ": "ኮነ — they became (3mp perfect, k-w-n) · 'so they were' in a simile (ከማሁ ኮኑ 'thus they were')",
+  "ወሀብከ": "ወሀበ — you gave (2ms perfect, G, w-h-b)",
+  "ወለምንት": "ምንት — and why? (ወ- + ለ- 'for' + interrogative 'what')",
+  "ወሐተቱ": "ሐተተ — and they questioned, inquired (ወ- + 3mp perfect, G, ḥ-t-t)",
+  "ወመልእክቶ": "መልእክት — and his message (ወ- + noun + -ኦ '3ms his', written -ቶ)",
+  "ወመንፈሰ": "መንፈስ — and spirit of (ወ- + noun, construct)",
+  "ወማኅፈደ": "ማኅፈድ — and tower (?) of (ወ- + noun, construct; 'stature' in ch. 31 is its figurative sense) (?) · here ማኅፈደ ጣዖታት 'the tower of the idols', a building of the idols, a temple tower or precinct (?)",
+  "ወማኅፈድ": "ማኅፈድ — and tower (?) (ወ- + noun; 'tower' in the published parts, here a building of the idols, a temple tower or precinct) (?)",
+  "ወምሉእ": "ምሉእ — and full, filled (ወ- + adjective, passive participle of መልአ 'be full')",
+  "ወረከበ": "ረከበ — and he found (ወ- + 3ms perfect, G, r-k-b)",
+  "ወረደት": "ወረደ — she came down (3fs perfect)",
+  "ወሰገደ": "ሰገደ — and he bowed down (ወ- + 3ms perfect, s-g-d)",
+  "ወሶበ": "ሶበ — and when (ወ- + conjunction)",
+  "ወበብጽሐትየ": "ብጽሐት — and at my arrival (ወ- + በ- 'in, at' + verbal noun of በጽሐ + -የ '1cs my')",
+  "ወበእንተዝኬ": "በእንተዝ — and therefore, for this reason (ወ- + በእንተ + ዝ 'this' + -ኬ)",
+  "ወበጽሐ": "በጽሐ — and he reached (ወ- + 3ms perfect, b-ṣ-ḥ)",
+  "ወተሰብሩ": "ተሰብረ — and they were broken (ወ- + 3mp perfect, Gt passive of ሰበረ)",
+  "ወትሰመዩ": "ተሰምየ — and you are called (ወ- + 2mp imperfect, Gt passive of ሰምየ)",
+  "ወትነብር": "ነበረ — and she sits, dwells (ወ- + 3fs imperfect) · also 2ms 'and you will dwell' (ወትነብር ውስተ ብሔርነ)",
+  "ወኀለፈ": "ኀለፈ — and he passed, went by (ወ- + 3ms perfect)",
+  "ወነዋ": "ነዋ — and behold, here is (ወ- + interjection ነዋ)",
+  "ወአማልክተ": "አምላክ — and gods of (ወ- + plural አማልክት, construct)",
+  "ወአምላከ": "አምላክ — and God of (ወ- + noun, construct)",
+  "ወአንተሰ": "አንተ — and as for you (ወ- + 2ms pronoun + emphatic -ሰ)",
+  "ወአውሥአ": "አውሥአ — and he answered (ወ- + 3ms perfect, causative of ወሥአ)",
+  "ወአፍጠኖ": "አፍጠነ — and he hastened (ወ- + 3ms perfect, causative of ፈጠነ 'be quick', + -ኦ 'him', the object of the following infinitive ሐቲተ)",
+  "ወእለ": "እለ — and those who (ወ- + relative pl.)",
+  "ወውእቱኒ": "ውእቱ — and he also (ወ- + pronoun + enclitic -ኒ)",
+  "ወይረውጹ": "ሮጸ — and they run, race (ወ- + 3mp imperfect, G, r-w-ṣ)",
+  "ወይቤ": "ይቤ — and he said",
+  "ወይቤሉነ": "ብህለ — and they said to us (ወ- + 3mp perfect ይቤሉ + -ነ '1cp to us')",
+  "ወይቤሎ": "ብህለ — and he said to him (ወ- 'and' + 3ms perfect ይቤ of b-h-l + -ሎ 'to him')",
+  "ወድቁ": "ወድቀ — they fell (3mp perfect, G)",
+  "ውስተ": "ውስተ — in, within, into · to, among (ወለአከ ውስተ ኵሉ ነጋድያን 'and he sent to all the merchants') · at (ውስተ መድረከ ኆኃቲሃ 'at the threshold of her doors')",
+  "ውስቴታ": "ውስተ — in it/her (+ -ha)",
+  "ዘለአኮ": "ለአከ — whom he sent (ዘ- relative + 3ms perfect ለአከ + -ኦ 'him', written ለአኮ)",
+  "ዘርኢከ": "ርእየ — which you saw (ዘ- relative + 2ms perfect, G)",
+  "ዘትብል": "ብህለ — what you say (ዘ- + 2ms imperfect ትብል, b-h-l)",
+  "ዘንጉሥ": "ንጉሥ — of the king (ዘ- genitive + noun)",
+  "ዘአንጽሑ": "አንጽሐ — which they sanctified, made clean (ዘ- relative + 3mp perfect, causative of ነጽሐ 'be clean, pure'; no object suffix — the object is the antecedent of ዘ-)",
+  "ዘእንበለ": "ዘእንበለ — without, except (preposition) · conjunction 'without' + jussive (ዘእንበለ ይስቅይዋ 'without their watering her') · conjunction + perfect 'without (its having been done)' (ዘእንበለ ተሀበኒ ትእምርተ 'without a sign having been given me') · 'except' (ዘእንበለ ዘተሐምም 'except what she suffered')",
+  "ዘከመ": "ዘከመ — how, that (rel. + 'as')",
+  "ዘወሀብክሙ": "ወሀበ — that you gave (ዘ- + 2mp perfect, G, w-h-b)",
+  "ዘወድቁ": "ወድቀ — that they fell (ዘ- + 3mp perfect, G; ዘ- as 'the fact that' after በእንተ)",
+  "ዘይመስላ": "መሰለ — who resembles her/it (ዘ- + 3ms imperfect ይመስል + -ኣ 'her')",
+  "የሀብ": "ወሀበ — he gives (3ms imperfect/jussive, G, w-h-b; after ዘእንበለ)",
+  "የኀድር": "ኀደረ — he dwells (3ms imperfect, G)",
+  "ይሁዳ": "ይሁዳ — Judah (proper name)",
+  "ይቤልዎሙ": "ብህለ — they said to them (3mp perfect ይቤሉ + -ዎሙ 'to them', b-h-l)",
+  "ይትናገረክሙ": "ተናገረ — he/it speaks to you (3ms imperfect, T-stem of ነገረ 'to tell', + -ክሙ '2mp to you')",
+  "ይነፍሑ": "ነፍሐ — they blow (3mp imperfect, G, n-f-ḥ)",
+  "ይእቲ": "ይእቲ — she/it is (fem. pron.) · 'I am she' predicate (አነ ይእቲ አቡከ 'I am she, your father') · 'that' (fem. demonstrative, ይእቲ ሠሉስ ዕለት 'that third day')",
+  "ይክል": "ከህለ — he is able (3ms imperfect, G, k-h-l; with infinitive)",
+  "ይግዕዙ": "ገዐዘ — they go away, depart, travel (3mp imperfect after እንዘ, G, g-ʿ-z) (?)",
+  "ይጠብብ": "ጠበበ — he is wise (3ms imperfect, G, ṭ-b-b)",
+  "ገብረ": "ገብረ — make, do (3ms perfect) · here the noun ገብር 'servant' in the construct state, ገብረ ፈርዖን 'servant of Pharaoh'",
+  "ገነውተ": "ገነውት (?) — servants, priests of the gods (noun, plural, construct 'servants-of'; the singular and so the dictionary form are uncertain, behind it a verb ገነወ 'to serve, worship' (?))",
+  "ግብጽ": "ግብጽ — Egypt (proper name; genitive after construct)",
+  "ጣዖታትኒ": "ጣዖት — idols too (plural ጣዖታት + enclitic -ኒ 'also')",
+  "ፀርክሙ": "ፀር — your enemy (noun + -ክሙ '2mp your')",
+  "ፈለገ": "ፈለግ — river (noun; construct 'river of')",
+  "ፈርዖን": "ፈርዖን — Pharaoh (proper name)",
+  "፩": "፩ — numeral 1 — chapter number · spoken አሐዱ (ʾäḥädu) 'one', in ch. 22 'a certain' (ወሀለወ ፩ ልብው 'there was a certain wise man') · 'one' of a number (ከመ ፩ እምአግብርቲከ 'as one of your servants') · 'one' as a pronoun, 'one … another' (ይነግሮ ፩ ለካልኡ 'one tells another'; ch. 53)",
+  "፶፱": "፶፱ — 59, spoken ኀምሳ ወተስዐቱ (ḫämsa wä-täsʿatu) 'fifty-nine'; chapter number (numeral)"
+ }
+}

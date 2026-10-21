@@ -115,3 +115,59 @@ Reviewer pass 1 of kebra-nagast-ch60a. Units are numbered from 0 (0 = chapter he
 - Unit 23 አቤራቲነ 'matrons'; Unit 24 አውየዉ derivation.
 - Unit 27 ዐብየ 'has grown'.
 - Unit 29 አስተራኰሰ 'made unclean'.
+
+## Pass 2
+
+Reviewer pass 2 of kebra-nagast-ch60a. Every gloss entry (175 novel forms, 5 `__broaden__` entries before, 5 + 1 now) was checked against `units.json` (`t`/`l`/`i`/`n`) for lemma, parse at each occurrence, and agreement with `l`/`i`. All 175 novel forms are present; all 319 distinct tokens of `t` are glossed (novel or known); every `__broaden__` entry is the old known-forms entry whole + ' · ' + new reading (checked by script). `t` is unchanged (joined `t` equals the packet, 2166 characters without whitespace; checked by script). `p` flags (units 0 and 1) and unit lengths (max 32 words, none needs a cut) are right. Edits to `gloss.json` and `units.json` were made by script; no Geʿez in `t` was retyped. Dillmann is not available, so lemmas below that I could not confirm are marked (?).
+
+### Counts
+
+- major: 3, moderate: 13, minor: 17 (33 changes: 31 in gloss.json, 2 in units.json)
+
+### Changes (form/unit · field · severity · what was wrong · what was done)
+
+gloss.json:
+- ወሰመይኮ · lemma/parse · major · lemma ሰምየ is not the dictionary form (the 3ms perfect of 'name' is ሰመየ); the suffix was given as -ኦ though -ኮ is -ከ + -ሁ contracted. Done: lemma ሰመየ; "+ -ሁ '3ms him', -ከ + -ሁ contracted to -ኮ".
+- አባእክዋ · lemma · major · lemma አባአ is not a form of the causative of ቦአ; the 3ms perfect is አብአ (አባእከ is its 2ms). Done: lemma አብአ.
+- ተነሥተ · lemma/parse · major · lemma ተነሥአ with "a variant or contraction" explained nothing; ነሠተ (the verb of ነሠትካ earlier in the lament) fits the spelling exactly. Done: lemma ተነሠተ, passive of ነሠተ 'take away, seize', with ተነሥአ named as the alternative (?).
+- ትነሥኣ · parse · moderate · "2ms subjunctive/imperfect": the first-order ነ shows the imperfect (ትነሥኣ; the subjunctive would be ትንሥኣ); also unit numbers. Done: "2ms imperfect"; unit numbers removed.
+- ኢትነጽር · parse · moderate · called a "2ms jussive"; the spelling (1st-order ነ) is the imperfect, here used as a prohibition. Done: "2ms imperfect ትነጽር; used as a prohibition". The matching phrase in unit 9 `n` ("ኢ- plus jussive") changed to "the imperfect, used as a negative command".
+- ዘአንጽሐ · parse · moderate · "causative of ጸሐ/ንጽሐ, ṣ-ḥ... root n-ṣ-ḥ" garbled (ጸሐ is not a verb here). Done: "causative of ንጽሐ 'be pure', root n-ṣ-ḥ".
+- ዘአስተባዛኅከ · lemma · moderate · lemma አስተባዝኀ lacks the long ā that the form (ባዛኅ) shows. Done: lemma አስተባዛኀ, stem shape and spelling stated as inferred (?).
+- እምቀደምከ · parse · moderate · gloss took ቀደም as a noun + -ከ while the note reads a verb (ቀደመ + ከ); lemma and note disagreed. Done: lemma ቀደመ, both readings stated, (?) kept.
+- ሳርሮታ · parse · moderate · "-ታ ending + -ኣ" double-counted the suffix; the -ታ is infixed -t- + -ኣ. Lemma ሰረረ is a guess, which the entry did not say. Done: parse corrected, lemma stated as inferred and unconfirmed (?).
+- ገቢሮታ · parse · moderate · same "-ታ + -ኣ" double count. Done: "infinitive ገቢሮ + -ታ, i.e. infixed -t- + -ኣ".
+- አሌሊተ · parse · moderate · "አሌ + ለ- + ሊ/-ተ" invents a ለ- and splits ሊተ; it is አሌ + ሊተ. Done: "አሌ 'woe' + ሊተ '1cs to me'".
+- ወማሰነት · parse · moderate · called "construct ማሰነት" although the construct ending would be -ተ-final stem ማሰነተ; the form is the bare noun before ሀገርነ, as the note says. Done: reworded, (?) kept.
+- አቤራቲነ · lemma · moderate · lemma አቤራት and "married women" stated as dictionary fact; neither is known to me and the note says the word is unfamiliar. Done: "our matrons (a guess)", lemma stated as reconstructed from the form (?).
+- ተመይጠት · lemma · moderate · base given as መይጠ, which is not a verb; the root is m-y-ṭ, as in ወሜጥከ (ሜጠ). Done: "Gt stem of ሜጠ 'turn', root m-y-ṭ".
+- ተመነነ · parse/reference · moderate · carried unit numbers and a vague "loose rendering" for the 1cp use in the last unit. Done: states that በኀጢአትነ ተመነነ is 1cp 'we were despised' (= ተመነንነ, one ን written).
+- ዘኵሎ (`__broaden__`, new) · broaden · moderate · known entry 'who (over) all' fits the second ዘኵሎ in unit 10 but not the first (ዘገብራ ዘኵሎ, 'all' in loose apposition). Done: added broaden entry = old + ' · ' + new reading, (?).
+- ላሐዋ · note on lemma · minor · "unit 1" (the heading is unit 0 in this review's numbering) and no hedge on the lemma. Done: "chapter heading", 3fp-shape remark made explicit, (?) added.
+- ኀይመቱ · parse · minor · "stem ኀይመቱ- from ኀይመት" is wrong (the word is ኀይመት + -ሁ) and the note calls the sense uncertain. Done: "ኀይመት — his tent (noun + -ሁ)", (?) added.
+- በመዋዕልየኑ · hedge · minor · -ኑ as interrogative is the drafter's reading (note and `l` say so) but the gloss stated it flatly. Done: "read as the interrogative enclitic (?)".
+- አቅደምከ · wording · minor · "+ -ከ is the subject ending" read as a suffix list. Done: reworded.
+- ያሰኒ · parse · minor · the form does not match the regular subjunctive ያሠንይ of አሠነየ (also ሰ for ሠ). Done: said so; (?) kept.
+- ይሣሀል · parse · minor · "G, s-h-l": the root is ś-h-l (cf. ሣህል 'mercy'). Done: corrected.
+- ወተፈሣሕነ · spelling · minor · form is written with ሣ, lemma with ሥ, unremarked. Done: said so (?).
+- እበኪ · parse · minor · "jussive/imperfect": the 1st-order በ shows the imperfect. Done: "1cs imperfect", with 'let me weep' as the sense.
+- ርትዕ · parse · minor · "fem." asserted from the verb's agreement alone. Done: "subject of the 3fs verb ኀለፈት".
+- ተረስዐት · lemma · minor · "passive of ረሰዐ" names a base not attested to me. Done: "Gt stem, passive; root r-s-ʿ".
+- አንብዓ · parse · minor · "plural" and "construct" both claimed; the note has አንብዕ 'tear' with construct አንብዓ. Done: "collective 'tears'".
+- ትቤሎ · parse · minor · ትቤ is also the 3fs form. Done: noted.
+- `__broaden__` አ, ርሕቀ, ደቂቅነ · wording · minor · reader-facing text cited "unit 16", "units 23 and 27" (1-based numbers that match nothing shown to the reader). Done: numbers removed; old-entry prefixes untouched (three edits).
+
+units.json:
+- unit 16 · `n` · minor · "አግዚእት 'mistress'" is not the word (known-forms: እግዝእት). Done: እግዝእት.
+- unit 9 · `n` · minor · "ኢ- plus jussive" for ኢትነጽር (see above). Done: "plus the imperfect, used as a negative command".
+
+### Checked and left as is
+
+- No gloss's meaning disagrees with `l`/`i` after pass 1. The other lemmas were checked and look right: ብካየ, ዘተካየድከ (?), ዘዐቀባ, ዘኢተዐደወ, ቊልዔከ (lemma spelled ቍልዔ), እምርስሐተ, አውረድካ, ወታስ/ምዖሙ, አእመርኩ, ተምዐዕከነ, ወሜጥከ, ኂሩቶሙ, ቀደምት, ሰሚዖ, ዘገብራ, ኢይትከሀለከ, ዘዘንተ, ሐነጽከ, የሀንጽ, ኢተሐሰወ, ረዳእየ, ሐኒጾ, ወሦዕኩ (ሠዐወ), ወሐወጽከ, ታብርህ, ታክብሮሙ, ለኅሱራን, ጥፋእከ, ወብኪ, ኢያሠነይነ, ኢያርታዕነ, ተገሠጽነ, ተመጠወ, ዘባንነ, ወፄዋ, ወንፄውዎሙ, በከያ, ወላሐዋደናግሊነ, ርሡኣኒነ, ሕፃናቲነ, አንስቲያነ, ተፍጻሜተ, ዐብየ, ኅስርት, ያነጽሕ, ይትቃወማ, የአብያ, ለኅሊናሁ, አኅሰረ, ዘያገብእ, ጸልአ, ተሰደድነ, አበይዋ, ወአፍቀርዋ, ገሠጹነ, ወአስምዑነ, ወኢሰማዕነ, ተቀሠፍነ. ዘያከብር/ዘያፈቅር: አፍቀረ is called "causative" in the entry and in known-forms; it is really a denominal ʾa- form of ፍቅር, but the label is harmless and kept for consistency with the known entry.
+- ተሀየየ (four forms), ነሠትካ, ታግርሞ, ሕብልያ, ነሐበልዮሙ, አስተራኰሰ, አውየዉ-line, ሐቌ: lemma or sense cannot be settled without Dillmann; kept with the existing (?).
+- ተረስዐት with the (masculine?) subject ሞገስነ: gender agreement not checked further; left.
+- Units: no change to `l`/`i` was needed beyond the above; the pass-1 edits in units and glosses agree with each other (checked each of: አባእክዋ, ኢያሠነይነ/ኢያርታዕነ, ኮነ/ተመነነ as 1cp, ትነሥኣ, ዘኵሎ, ሳርሮታ). The stray እስራኤል ፤ kept in unit 4 (source oddity, noted). Unit 15 has 32 words and no inner ፤, so no cut.
+
+### Still unresolved (?) forms
+
+ላሐዋ, ኀይመቱ, በመዋዕልየኑ (the -ኑ), እምቀደምከ, ዘተካየድከ, ዘአስተባዛኅከ, አቅደምከ, ሳርሮታ, ወሀብኮለሙሴ (suffix referent), ያሰኒ, ተሀየይከ, ተሀየየነ, ተሀየየኒ, ዘተሀየይነ, ዘዘንተ, እምሐቌከ, ወሐወጽከ, ነሠትካ, ተነሥተ, ታግርሞ, ወተፈሣሕነ (spelling), ሕብልያ, ነሐበልዮሙ, ወንፄውዎሙ, አቤራቲነ, ርሡኣኒነ, ወማሰነት, አስተራኰሰ, and in the broadened entries አ and ርሕቀ (as in known-forms) and ዘኵሎ. In units: the (?) items listed under Pass 1 stand, plus ተነሥተ (not hedged in a unit; the unit note does not discuss it).

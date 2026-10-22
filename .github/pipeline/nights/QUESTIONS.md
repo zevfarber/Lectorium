@@ -1097,3 +1097,5 @@ later night. Shared rule 7 in `.github/pipeline/README.md`: a problem never cost
 - **Night 47 review (2026-10-20).** Not applied: wider glossary wordings for existing shared keys (مِنَ, مَا, كَانَ, لَهُ, لَكَ, لِي, بِهِ, مِنْهُ, etc.) — existing keys kept. Print slips kept as printed and noted (للمصراع, تعرف for تعرفين, fused words, الم—باح at the close). Nothing waits on the owner.
 
 - **Night 49 review (2026-10-21).** Not applied: glossary wordings for existing shared keys that differ from the new night's; existing keys kept. The archive splits يق—ول and الاب—ات at line breaks into two tokens; the story keeps them split (يَقُ ولُ, الْأَبْ اتَ) with a note, so the bare-strip gate passes. Nothing waits on the owner.
+
+- **Night 50 review (2026-10-22).** Not applied: 12 glossary rewordings for keys already in the shared file (e.g. وَلَّى, كَرَّ, بِكَ, بِذَلِكَ, بِنَا, بِهِمْ); existing keys kept. The king printed as حر دوب (P382L21) is Ḥardūb; the print splits the name. Nothing waits on the owner.

@@ -71,3 +71,43 @@ Kept as drafted (confident): 1 Kings 11:1–8 (unit 3); Psalm 143:2, Job 4:17 (4
 - Unit 9 "since" for ሶበ + perfect: defensible and noted by the drafter; left.
 - Unit 17 "The chief of the evil is that…": elliptical Geʿez, `i` is a fair smoothing; left.
 - Gloss files: known-forms entries ለእከይ ("restating the object of አብዝኃ") and ተሐትት ("she asks", 3fs) do not fit this chapter (ተሐትት here is 2ms, ለእከይ is a possessor after ርእሳ); the glosser should broaden/correct them. Not an edit to units.json.
+
+# Review pass 2 — kebra-nagast-ch67
+
+Reviewer: adversarial pass 2. Read: conventions.md, runbook.md, packet.md, units.json, gloss.json, novel-forms.json, known-forms.json, review.md. Dillmann is not available, so every lexical call is hedged (?) where I could not be sure. Every gloss entry was checked against the text (lemma, meaning at every occurrence, parse). Checks run by script: gloss.json and units.json parse; all 167 novel forms are keyed in gloss.json (none missing, none extra); all 9 `__broaden__` entries equal the known-forms entry whole + ' · ' + a new reading; all 38 `t` and `p` flags are identical to before (not altered).
+
+## Changes
+
+| # | Unit / form · field | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| 1 | ወኵልያተ · gloss lemma | moderate | Lemma ኵልያት is the plural, not the dictionary form | Lemma ኵሊት, plural ኵልያት named |
+| 2 | 5 · n | minor | Same: ኵልያት called the singular 'kidneys' | "plural of ኵሊት 'kidney'" |
+| 3 | ተመዋእኩ · gloss | moderate | Lemma መዐወ / root m-ʿ-w is an invented spelling (the form has አ, and the unit note says መወአ); also parse said plain 'T stem' | Lemma መወአ, root m-w-ʾ, T stem ተመዋአ, kept (?) |
+| 4 | 4 · i | minor | "I have been overcome" unhedged though the note hedges the stem and sense | "(?)" added |
+| 5 | መሬታዊ · gloss; 4 · n | minor | Derivation from መሬት stated as fact; not checked | Hedged in both; Dillmann not consulted |
+| 6 | ዘልሑሳስ · gloss lemma | moderate | Lemma ልሑስ given as the lemma of a word whose meaning is unknown | Lemma is the form ልሑሳስ itself, ልሑስ kept only as a possible relation (?) |
+| 7 | 6 · n | minor | Note said "whisper(ing)" against `l`/`i` "soft-speech (?)" / "faint (?)" | Made consistent, hedged |
+| 8 | አንብዑ · gloss | minor | Called "plural"; አንብዕ is a collective ('tear, tears'); suffix spelled "-ዑ" as a form | Fixed |
+| 9 | በሰበኑ · gloss | minor | "form -ኑ" wrongly suggests -ኑ is the suffix; the suffix is -ሁ written -u after ን | Fixed |
+| 10 | ወእበዲ · gloss | moderate | Lemma እበድ is an unattested noun I cannot confirm | Lemma is the form እበዲ, relation to አበደ hedged (?) |
+| 11 | አቅሞ · gloss; 22 · n | moderate | Parsed as verbal noun + -ኦ 'it'; -ኦ is the ordinary Geʿez infinitive ending, 'it' is a doubtful alternative | Infinitive first, 'it' as the alternative (?); note aligned |
+| 12 | ይትመዓዖሙ · gloss | moderate | Lemma ተምዕዐ (root m-ʿ-ʿ) does not generate the imperfect ይትመዓዕ the note itself gives | Lemma ተመዓዐ, spelling flagged unchecked (?) |
+| 13 | ሤጥዎ · gloss; 23 · n | minor | "(here -ው-ኦ contracted)" misdescribes the form: 3mp ሤጡ + -ኦ → ሤጥዎ | Fixed in both |
+| 14 | ይሰሪ · gloss; 24 · n | minor | Lemma spelled ሰርየ while ወሰራዪ (same chapter) and the dictionary form is ሰረየ | ሰረየ in both |
+| 15 | ትሣቀይ · gloss | minor | ሠቀየ G would give ይሠቅይ; the long ā points to base ሣቀየ | Kept lemma, flagged the point (?) |
+| 16 | ለአዝማዲሁ · gloss | minor | አዝማድ presented as a plain noun; it is the plural of ዘመድ | Stated |
+| 17 | እንተ (broaden) · new reading; 31 · l, i, n | moderate | እንተ የብስ read as a "prepositional use", but እንተ is the feminine relative and ባሕር is feminine in this very text (ትተረጐም, unit 32): "the sea which [is] dry land" is the plain parse. `l` "by dry-land" and `i` "on dry land" followed the unsupported reading | Relative reading now primary, prepositional one the hedged alternative; l "[the-sea] which [is] dry-land", i "the sea that was dry land (?)". Old part of the entry untouched |
+| 18 | 32 · n | minor | "T-stem of ተረጐመ" against the known entry and the gloss lemma ተርጐመ | ተርጐመ |
+
+## Checked and kept (no change)
+
+Lemma, meaning and parse confirmed for the rest: ነገረ, ሕማም, አብ, ጣዖት, ዘበጠ, እግር, ርስሐት, ጸድቀ, ፈተነ, ክሡት (፡ በክሡታት), ልብ, መሐረ (imperative and 2ms perfect), ኀሠሠ, ረዓም, ሰምዐ, ተዐደወ, ምሕረት, ውእቱ, ሰረየ (ወሰራዪ), አኀዘ, ንጉሥ, ጠበበ / አበደ / መየጠ / ዐሰየ (agent nouns, already hedged), ወሐዘ, ለአከ, ነደየ, ኀሰረ, ርእስ (-ሳ is the regular ርእስ + -ሃ), ብዝኀ, ጸሐፈ, ባዕድ, ዘመድ, ኀደረ, መሰለ, ወሀበ, ነሥአ, ማኅደር, ሮማዊ, ደኃሪ, ሠረወ (3ms/3mp noted), አመነ, ሰቀለ, ሐለየ, ጸውዐ, አድኀነ, ርደት, ሶርያ, ጌሤን, መጽአ, አውፅአ, ቀነየ, ስሕተት, ተኣምር, መቅሠፍት, ትእምርት, ሰጠመ (causative), ሴሰየ, አንበረ, በልየ, ልብስ, ሰኰና, አብአ, ቀተለ, ኀተመ, ማኅተም, ሐነጸ, numerals (፷ወ፯, ወ፩, ለ፯, ለሰብዐቱ). The other eight `__broaden__` entries (ተሐትት, ለእከይ, ዘተአዘዘ, ኮነ, ወአዳም, ወትከውን, እምእግዚኣብሔር, ይጠብብ) each add a reading that really occurs in this chapter (units 4, 17, 3, 3/23, 8, 21, 18, 19) and leave the old text intact; the glosser did correct the two pass-1 mismatches (ለእከይ, ተሐትት).
+
+## Refused / left alone, with reason
+
+- ሐጸ, ዘይሴወር, ፅዉስ, አረፍት, ነሰተ (ይነስት), ነቅዐ, ግብርና/ግብርናት, ተርባነ, አስተሐቀረ (base ሐቀረ), ሣቀየ spelling: lemma or sense cannot be confirmed without Dillmann. Each is already hedged (?) in the entry; I did not replace them with other guesses.
+- No change of the translation-wide `i` beyond the above: a re-read of all 38 units against `l` and the text found no further omission, added word or mislabelled grammar in the notes (checked 3ms/3fs/3mp, -ኦ/-ሙ/-ክሙ suffixes, construct chains, gerunds and infinitives).
+- Proper names in `l` (Geʿez vs English) remain as in pass 1: orchestrator to confirm against kebra-nagast-ch1.json.
+- Unit 29 note calls ግብርናት an "abstract plural": the form could instead be a singular abstract in -ት; unverifiable here, left (the gloss is hedged).
+
+Counts: major 0, moderate 7 (#1, 3, 6, 10, 11, 12, 17), minor 11 (#2, 4, 5, 7, 8, 9, 13, 14, 15, 16, 18). Total 18.

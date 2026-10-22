@@ -77,3 +77,49 @@ Overall: the draft's grammar was mostly sound. Faults: (a) two places where a co
 | moderate | 11 |
 | minor | 26 |
 | total | 38 |
+
+
+# Pass 2 — kebra-nagast-ch68a
+
+Reviewer: adversarial pass 2. Read conventions.md, packet.md, units.json, gloss.json, novel-forms.json, known-forms.json, review.md; checked house precedent in other drafts' glossaries. No modern translations, no internet, no Dillmann; lexical calls hedged. All edits by script; `t` untouched and asserted unchanged; joined `t` equals the packet Geʿez (2328 characters); both JSON files parse. Coverage: all 212 distinct forms in the part are in known-forms or gloss, none in both; novel-forms keys equal gloss keys; every known-forms key occurs in the text. Units numbered from 0 (0 = heading).
+
+## Changes
+
+| # | Unit / form | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| 1 | gloss ፷፰ | minor | Transliteration "səsa" and "sixty and eight" against house (፷፪–፷፯: səssa; 'sixty-N') | "səssa wä-sämäntu", 'sixty-eight' |
+| 2 | gloss ስሑት | moderate | "passive participle of ስሕተ" — ስሕተ is not a verb citation form (already queried in pass 1 for the note, left in the gloss); ስሑት is a qaṭul-type adjective | "adj., from the root s-ḥ-t, verb ሰሐተ 'err' (?)", matching the note |
+| 3 | gloss ይትወለዲ, unit 8 n | minor | Gloss said subjunctive, unit note said imperfect | Both now: 3mp subjunctive (same form as the imperfect), after እስከ |
+| 4 | gloss መአብሳን | minor | Gloss "wrongdoers, unfit ones" disagreed with unit 8 `l`/`i` "sinners (?)" | "sinners (?), unfit ones (?)" |
+| 5 | gloss ዘይንእስኒ | minor | "the younger one" pinned a comparative the word does not have (house: ዘይንእስ "who is younger, small") | "the one who is small, young" |
+| 6 | gloss ህርቡዳን, ወዝኁራነ | minor | Lemmas ሕርቡድ and ዝኁር could not be confirmed; ወዝኁራነ carried a doubled (?) | Both say "sense and lemma uncertain"; doubled (?) removed |
+| 7 | gloss ወያፈቅር | minor | "causative of ፈቀረ" alone, as if ፈቀረ were the ordinary verb | Added "አፍቀረ is the ordinary verb 'love'" (house precedent: ወታፈቅር) |
+| 8 | known-forms ብዝኁ (as pass 1 instructed) | moderate | Entry is "they were many (3mp perfect)"; here 2mp imperative "be many" | `__broaden__`: old entry whole + " · be many, multiply (2mp imperative, G; …)" |
+| 9 | known-forms ይእቲ | moderate | Entry has no resumptive-pronoun sense | `__broaden__`: + " · 'she' restating the subject … (ይእቲ ባሕርይ)" |
+| 10 | known-forms እሙን | moderate | Entry 'faithful' would mislead: unit 13 reads እሙን ፡ ቱ as እሙንቱ | `__broaden__`: + split-word reading (?) |
+| 11 | known-forms ለእስራኤል | minor | Entry lacks the possessor use (እከዮሙ ለእስራኤል) | `__broaden__`: + ለ- marking the possessor |
+| 12 | known-forms ፭ | minor | Entry only "chapter number"; here a counted 'five' (፬ and ፮ already have the count sense) | `__broaden__`: + counted number 'five', spoken ኀምስቱ |
+| 13 | known-forms ተፈጥረት | minor | Entry names subject ታቦት only | `__broaden__`: + feminine noun subject መደኀኒትክሙ |
+| 14 | unit 8 n | minor | ተዐገሰ (ሰ) against gloss ተዐገሠ | ተዐገሠ |
+| 15 | unit 12 n | minor | Note said "if they do not deny/crucify him" while `l`/`i` have the perfect "did not" | "if they did not deny/crucify him" |
+| 16 | unit 12 n | minor | ሀገሩ "his city" left with no antecedent, so `i` "the men of his city" implied a known owner | Note says whose city is not stated (?) |
+| 17 | unit 14 n | minor | እንተ called "she who" while `l`/`i` say "which" | "which" |
+| 18 | unit 15 n | minor | ይሰቀል called "tä-stem" imperfect beside ይትነሣእ (a true tä-stem imperfect) | ይሰቀል "passive of ሰቀለ"; ይትነሣእ "tä-stem of ንሥአ" |
+
+Also checked and found correct: the grammar labels of units 1–17 (subjunctives after ከመ, 3fs perfects, the -ዎ/-ዋ/-ሁ/-ክሙ suffixes, ኀቤ- + -ከሙ, construct states), l/i agreement (no l↔i divergence beyond the items above), and house renderings (ባሕርይ pearl, ዕንቍ jewel/pearl-stone, ገብአ returned, ዘይንእስ small). Entries of the type "name — proper name" (Cain, Abel, Seth, Ishmael, Esau, Isaac, Jacob, Reuben, Judah, Perez, Jesse, David, Termiza, Aminya, Sarah, Rebecca, Leah, Tamar, Bathsheba, Terbana, Amisa, Joachim, Hannah) checked against the text; none wrong.
+
+## Findings refused (no change)
+
+- **ሐቍ as lemma of ሐቌ.** I think Dillmann may give ሐቅው, but cannot confirm without the lexicon; pass 1's reading is kept.
+- **ሳብዓይ, ተጸውረ, ተሀጕለ, ነሠተ, ፈቀረ, ዚአ as lemmas.** Plausible; none checkable; ፈቀረ and ዚአ follow house precedent.
+- **p flag on unit 1** and the other pass 1 refusals stand.
+- **ወጽአ vs ወፅአ as lemma.** House uses both; the ṣ spelling is Dillmann's headword. Kept.
+
+## Counts (rows in the Pass 2 table)
+
+| Severity | Count |
+|---|---|
+| major | 0 |
+| moderate | 4 |
+| minor | 14 |
+| total | 18 |

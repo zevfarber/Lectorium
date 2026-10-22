@@ -9,7 +9,6 @@
 | γλήνη (κακὴ γλήνη, 8.164) | "base doll" | "worthless doll" | "puppet", "pupil", "girl-baby"; γλήνη is both "doll" and "pupil of the eye", and the note gives "doll" only |
 | δαίμονα δώσω (8.166) | "your destiny I shall give" | "I shall deal you your destiny" | "fate" (reserved for μοῖρα, πότμος, μόρος), "doom", "your god"; δαίμων is a divine power, here the one that deals out a man's lot |
 | δαιδάλεος (θώρηκα, 8.195) | "cunningly wrought" | "cunningly wrought" | "richly wrought" (kept for πολυδαίδαλος), "intricate" (reserved for ποικίλος), "ornate" |
-| ὑπερώησαν (8.122) | "swerved aside" | "swerved aside" | "shied" (modern), "reared", "bolted"; rare verb, "swerve" the usual explanation |
 | ἠπεδανός (8.104) | "weak" | "feeble" | "lame", "decrepit"; rare word, usually explained "infirm" |
 | σημάντωρ (8.127) | "commander" | "someone to command them" | "master", "guide", "driver" (the driver is ἡνίοχος) |
 | κομιδή (8.186) | "the tending" | "the care" | "keep", "nursing"; κομέω is "tend" (113, 109) |

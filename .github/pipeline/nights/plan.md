@@ -54,7 +54,7 @@ scan anomaly turns up later in the volume.
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 398 (archive ends at printed p. 378). Pages remaining: ~540 PDF pages
+**Last PDF page done: 406 (archive ends at printed p. 386). Pages remaining: ~540 PDF pages
 (approximate, pending the corrected offset holding). Lines archived: 7117. calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new

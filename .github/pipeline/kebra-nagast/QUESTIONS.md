@@ -23,3 +23,4 @@
 - 2026-10-21 · ch60a · Unresolved without Dillmann: see LOG line (ተሀየየ 'turn away from'?, ኀበ ላሐዋ heading, አባእክዋ person, ሕብልያ crux). Part title is ours. Decided meanwhile: published with (?) flags.
 - 2026-10-21 · ch60b · Unresolved without Dillmann: see LOG line (sin list in unit 10, ተናዝዞ sense, ተሀየየ, ነ+ኣ reading). Part title is ours. Decided meanwhile: published with (?) flags.
 - 2026-10-22 · ch64-65 · Unresolved without Dillmann: see LOG line (craft/material terms in unit 3, ዘአምሐለቶ who swore, ሰሜናዊት, ለአሜር). Part title is ours. Decided meanwhile: published with (?) flags.
+- 2026-10-22 · ch66 · Unresolved without Dillmann: see LOG line (ወበአምስሎ possibly corrupt, መንቅዕቱ, ያልይ, መጾረ, መኵሴ, ካህኑ ለዓለም). Part title is ours. Decided meanwhile: published with (?) flags.

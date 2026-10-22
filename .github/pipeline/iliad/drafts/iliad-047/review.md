@@ -66,3 +66,44 @@ Counts: 1 significant, 8 moderate (#6, 13, 15, 17, 18, 23, 27, 33), 28 minor; 37
 - **Scansion.** The packet flags nothing; no line was found by eye to need a metrical sentence.
 
 Pass 2 (gloss.json) is not done here; it follows in a separate request.
+
+---
+
+# Review, iliad-047, pass 2 (gloss.json against the reviewed units.json)
+
+Checked: every one of the 126 novel entries against its line and the reviewed `l`/`i`/`n`; every one of the 23 `__broaden__` entries against the existing `iliad-glossary.json` (each must be the old entry whole, then ` · `, then the new reading: verified by script, all pass); shape rules (an em-dash form, no ASCII apostrophe or backtick, no line numbers, no "here", typographic ’, under 230 characters for every new entry); coverage (every form in the part has an entry in the root glossary or in `gloss.json`, none missing, none duplicated); and every known form whose use in this part might not be covered by its existing entry (about 380 forms read against their lines). Validator-style checks on `units.json` all pass (concatenated `t`, no koronis or ASCII apostrophe in `t`, `l` line counts, balanced speech marks 7 and 7 in both layers, the single nested pair, coverage, `n` word band); the full build and validator were not run.
+
+## Changes made (gloss.json, by script)
+
+| # | Key | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| 1 | θεράποντε (broaden) | moderate | added "masc. acc. dual, object of κομείτων"; in both places in this part (θεράποντε κομείτων, θεράποντε κομείτην) the word is nominative dual, which the old entry already gave | broaden removed |
+| 2 | περὶ (broaden) | minor | the added reading ("adv. ‘exceedingly, above all’") is already in the old entry (adv. ‘exceedingly’, ‘above others’) and would have lengthened an entry of 733 characters for nothing | broaden removed |
+| 3 | ἕπετ | moderate | parsed as imperfect ἕπετο; the line (ὅ τοι ἐκ Διὸς οὐχ ἕπετ’ ἀλκή) is present, and the unit note and `l`/`i` say ‘follows’ | "pres. 3 sg. mid./dep., elided (ἕπετ’ = ἕπεται)" |
+| 4 | καταπτήτην | minor | "κατέπτητον, unaugmented; Attic κατεπτήτην" contradicts itself | "unaugmented (= Attic κατεπτήτην)" |
+| 5 | κακὴ (broaden) | moderate | κακὴ γλήνη parsed as nominative and glossed ‘vile’; it is a vocative of address, and the part renders it ‘base’/‘worthless’ | "fem. voc. sg. (as the nom.), in abuse: ‘base, worthless’" |
+| 6 | ἁμὸν (broaden) | minor | "neut. nom. sg." although the review keeps μένος as the object of ἐρύξει | "neut. nom./acc. sg., agreeing with μένος" |
+| 7 | μελίφρονα (broaden) | minor | "sweet-hearted, heart-warming" is neither of the table's renderings | "masc. acc. sg., epithet of wheat: ‘honey-hearted, heart-sweetening’" |
+| 8 | ἀγαπήνωρ (broaden) | moderate | adjective glossed "manly, valiant", against the table (‘man-cherishing’ / ‘prizing manliness’, sense unknown) | "man-cherishing, prizing manliness (… exact sense unknown)" |
+| 9 | ἀμφοτέρω (new broaden) | moderate | the old entry gives masc. acc. dual only; in τὼ … ἀμφοτέρω it is nominative dual | broaden added |
+| 10 | ὄφρα (new broaden) | minor | old entry covers + subj. and + opt.; ὄφρα … εἴσεται takes the future indicative | broaden added |
+| 11 | κανόνας | minor | "rods or handle-bars through which the arm passed" asserts a function the note calls uncertain | "rods or bars of uncertain use (handles or cross-bars)" |
+| 12 | νήπιοι | minor | "agreeing with οἵ" (οἵ is the relative that follows) | "in exclamation: ‘fools!’" |
+| 13 | προτέροισι | minor | gloss ‘sooner (than another)’ | ‘the earlier ones’ |
+| 14 | πόδαργε | minor | ‘Swift-foot’ stated as certain; the note says ‘swift-foot’ or ‘white-foot’ | both given |
+| 15 | σημάντορος | minor | "leader, driver" (the part reserves driver for ἡνίοχος) | "commander" |
+| 16 | ταχύπωλοι | minor | "with swift horses" (πῶλος is ‘colt’; the table has ‘swift colts’) | "with swift colts (ταχύς + πῶλος)" |
+| 17 | ὑπερώησαν | minor | "rear up", a sense the part avoids | "swerve aside, shy (sense uncertain)" |
+| 18 | τώδε | minor | "this here" (the word ‘here’ is barred) and "masc. acc. dual" for a form that is dual nom./acc. | "this (near the speaker) … dual nom./acc." |
+| 19 | (units.json, line 151) | minor | the note was 19 words (validator band warning) | one clause added; not a change of sense |
+
+Counts: 0 significant, 5 moderate (#1, 3, 5, 8, 9), 14 minor; 19 changes.
+
+## Considered and refused (pass 2)
+
+- **Length over 230 characters in broadened entries** (κε, πάρος, τάων, σῆμα, οὕς, γένοντο): each is the old entry whole plus one reading, as the rule requires, so it cannot be shortened; all new (non-broaden) entries are under 230.
+- **κε broaden** (aor. indic. past potential; + opt. in a condition after εἰ): kept, both uses occur (κε σήκασθεν; εἰ τούτω κε λάβοιμεν).
+- **τὼ, τούτω, τὴν, τοῦ, ὃ, ὅ, ὑπὸ, ἐφ’, ἐπί**: read against their lines; existing entries already cover every use here, so no broaden.
+- **ἐνιπρήσω lemma** ("ἐμπίμπρημι (epic ἐνιπρήθω)") differs from the unit note's ἐνιπίμπρημι; both are the same verb and the gloss follows LSJ, so left.
+- **τέτυξο** left as "perf. 2 sg. mid./pass., epic": the exact tense label of this Homeric form is itself debated and the meaning is not in doubt.
+- **ἰωχμόν** "onset, press of battle, rout": consistent with the shipped "press of the fight"; left.

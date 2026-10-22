@@ -22,3 +22,4 @@
 - 2026-10-21 · ch57-58 · Unresolved without Dillmann: see LOG line (unit 11 crux ከመ እመቦ ከመ ይትገሐሡ; ምዉቀ እስትንፋስ; who sent Joash in unit 2; ፈለገ ተከዚ beside ሀገረ ምስር in unit 22). Part title is ours. Decided meanwhile: published with (?) flags.
 - 2026-10-21 · ch60a · Unresolved without Dillmann: see LOG line (ተሀየየ 'turn away from'?, ኀበ ላሐዋ heading, አባእክዋ person, ሕብልያ crux). Part title is ours. Decided meanwhile: published with (?) flags.
 - 2026-10-21 · ch60b · Unresolved without Dillmann: see LOG line (sin list in unit 10, ተናዝዞ sense, ተሀየየ, ነ+ኣ reading). Part title is ours. Decided meanwhile: published with (?) flags.
+- 2026-10-22 · ch64-65 · Unresolved without Dillmann: see LOG line (craft/material terms in unit 3, ዘአምሐለቶ who swore, ሰሜናዊት, ለአሜር). Part title is ours. Decided meanwhile: published with (?) flags.

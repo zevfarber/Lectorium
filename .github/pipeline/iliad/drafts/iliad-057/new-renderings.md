@@ -1,0 +1,31 @@
+| Greek | `l` | `i` | avoided on purpose |
+|---|---|---|---|
+| ἄττα (Φοῖνιξ ἄττα γεραιὲ διοτρεφές, 9.607) | "Phoenix, father, aged one, Zeus-nurtured one" | "Father Phoenix, aged one, Zeus-nurtured one" | "daddy", "sir"; ἄττα keeps the Odyssey’s "father" (a title for an elder, not a kinsman); διοτρεφές vocative keeps the table’s "Zeus-nurtured one" (10.266 row) |
+| οὔ τί με ταύτης χρεὼ τιμῆς (9.607–608) | "not at all for me of this honour is there need" | "I have no need at all of this honour" | "I do not want", "I do not care for"; χρεώ is "need" and τιμή "honour" |
+| κήδειν · κήδῃ (active κήδω, 9.615) | "to distress" · "may distress" | "distressing" · "distresses" | "to care for" (the middle κήδομαι), "to harm", "to hurt"; follows the table’s κῆδε "distressed" (5.400) |
+| πυκινὸν λέχος (Φοίνικι στορέσαι πυκινὸν λέχος, 9.621 = 9.659) | "to spread for Phoenix a solid bed" | "to spread a solid bed for Phoenix" | "thick bed", "deep bed", "well-stuffed couch"; follows the Odyssey’s πυκινὸν λέχος "solid bed" (odyssey-032) and στορέσαι "spread" |
+| ἦ καὶ Πατρόκλῳ ὅ γ’ ἐπ’ ὀφρύσι νεῦσε σιωπῇ (9.620) | "He spoke, and to Patroclus with his brows he nodded in silence" | "So he spoke, and nodded with his brows to Patroclus, in silence," | "gave a sign", "signalled"; follows the Odyssey’s ἦ καὶ ἐπ’ ὀφρύσι νεῦσεν (21.431) "So he spoke, and nodded with his brows" |
+| ἄγριον … μεγαλήτορα θυμόν (9.629) | "a wild, great-spirited heart" | "a wild, great-spirited heart" | "fierce" (the Odyssey’s ἄγριον ἄνδρα, 8.96; the Iliad has "wild" at ἄγριον αἰχμητήν, so "wild" is kept), "savage", "harsh"; μεγαλήτωρ keeps "great-spirited", θυμός "heart" |
+| σχέτλιος · νηλής (of Achilles, 9.630, 9.632) | "cruel one" · "pitiless one" | "the cruel one" · "the pitiless one" | "hard", "stubborn", "ruthless", "merciless"; σχέτλιος keeps the table’s "cruel one", νηλής the table’s "pitiless" (νηλέϊ χαλκῷ) |
+| ἔξοχον ἄλλων (adverbial, 9.631 = 9.641) | "beyond others" | "above all others" | "outstandingly", "preeminently" (reserved), "better than all"; one rendering for both lines |
+| φονῆος (κασιγνήτοιο φονῆος, 9.632) | "a brother’s slayer" | "his brother’s slayer" | "murderer", "killer"; ἐδέξατο (gnomic aorist) is "accepted" in `l`, "accepts" in `i` (the table’s ἀπέτισαν row, 4.161); ποινή keeps "requital" |
+| ἄληκτον (ἄληκτόν τε κακόν τε θυμόν, 9.636; ἀ- + λήγω "cease") | "unrelenting" | "relentless" | "implacable", "unceasing", "never-resting", "unyielding"; κακόν is "evil" |
+| ἵλαον … θυμόν (9.639) | "a gracious heart" | "a gracious heart" | "kindly", "merciful", "placid"; keeps the Iliad’s ἵλαος "gracious" (iliad-006, 1.583) |
+| κήδιστοι (9.642; superlative, κῆδος) | "closest-tied" | "the closest" | "dearest" (kept for φίλτατοι, the next word), "most cared-for", "kinsmen"; follows the Odyssey’s κήδιστοι "closest-tied" (odyssey-038, -047) |
+| ἀσύφηλον (… ἔρεξεν, 9.646; meaning not known) | "disgracefully" | "disgracefully" (+ note: the sense is not known) | "insolently", "shamelessly", "with contempt", "like a dishonoured man" (each picks one guess) |
+| μετανάστης (ἀτίμητον μετανάστην, 9.648) | "unhonoured migrant" | "unhonoured migrant" | "refugee", "vagabond", "immigrant", "outcast"; ἀτίμητος is "unhonoured" (ἄτιμος is kept for "dishonoured") |
+| ἀπόφασθε (ἀγγελίην ἀπόφασθε, 9.649) | "the news declare" | "declare the news" | "deliver", "announce", "tell them"; ἀγγελίη keeps "news"; same `i` as iliad-055 at 9.421 |
+| μεδήσομαι (πολέμοιο μεδήσομαι, 9.650) | "I shall think of" | "I will give a thought to" | "I will take up", "I will care about", "I will remember"; μέδομαι keeps "be mindful of / think of" (the table’s μεδέσθω, 2.382–384) |
+| σμῦξαι (κατά τε σμῦξαι πυρὶ νῆας, 9.653; κατασμύχω) | "burn down" | "burn down" | "smoulder", "consume", "scorch"; the verb is "burn down with fire" and πυρί keeps "with fire" |
+| ἄωτον (λίνοιό τε λεπτὸν ἄωτον, 9.661; meaning of ἄωτος "nap, finest part") | "the fine nap of linen" | "the fine nap of linen" (+ note: sense inferred) | "a fine sheet", "the softest linen", "linen cloth"; the note says ἄωτος is a tuft or nap and the picture is inferred |
+| ἀνασταδόν (9.671) | "standing up" | "rose and" (with the verb) | "upright", "from their seats", "standing" alone; one word for rising to greet |
+| πιμπλάνεται μένεος (9.679) | "is filled with fury" | "is filled with … fury" | "swells with", "bursts with wrath"; μένος of anger keeps "fury" (iliad-003), πίμπλημι "fill" |
+| ἀναίνεται (σὲ δ’ ἀναίνεται ἠδὲ σὰ δῶρα, 9.679) | "rejects" | "rejects" | "refuses", "scorns", "spurns"; keeps the table’s ἀναίνομαι "reject" (9.510, 9.585) |
+| φράζεσθαι · φρασσόμεθα (9.680, 9.619) | "to take counsel" · "we shall take counsel" | "take counsel" · "we shall take counsel" | "think over", "consider", "plan"; keeps the Iliad’s φραζέσθω "let him take counsel" (iliad-055, 9.347) |
+| μὴ ὄφελες λίσσεσθαι (9.698) | "would that you had not besought" | "would that you had not begged" | "you should never have", "you ought not to have"; λίσσομαι keeps "beseech" in `l` and "beg" in `i` (the table’s ἐλλίσσοντο, 9.584) |
+| ἀγήνωρ · ἀγηνορίῃσιν (9.699, 9.700) | "manly" · "prides" | "proud" · "pride" | "arrogant", "overbearing", "haughty" (reserved for ὑπερφίαλος and ὑπερηνορέοντες), "manliness" in `i`; the adjective follows θυμὸς ἀγήνωρ "manly spirit" / "proud spirit" |
+| ἐχέμεν (λαόν τε καὶ ἵππους ἐχέμεν, 9.708; infinitive as imperative) | "hold" | "hold" | "marshal", "keep drawn up", "have ready", "lead out" |
+| τὸ γὰρ μένος ἐστὶ καὶ ἀλκή (9.706) | "for that is strength and might" | "for that is strength and might" | "force", "courage", "fury" (reserved for μένος of anger); follows the table’s μένος "strength" and ἀλκή "might" |
+| μάλα γὰρ κρατερῶς ἀγόρευσε (9.694) | "for very strongly he declared" | "for he had declared it with great force" | follows iliad-046 (8.29) word for word; at 9.431 the same formula has ἀπέειπεν "refused" |
+| ἐείσαο μυθήσασθαι (πάντά τί μοι κατὰ θυμὸν ἐείσαο μυθήσασθαι, 9.645) | "everything for me according to my heart you seem to have said" | "everything you have said seems to me to be after my own heart" | "you have said all I would say", "you speak after my own heart" (drops the verb of seeming) |
+| ἔξοχα (ἔξοχα ... 9.638) | "above all others" | "above all others" | "especially", "preeminently"; house table (5.61, iliad-027) |

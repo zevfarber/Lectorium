@@ -68,3 +68,37 @@ length.
 into the conventions table: ἐΰθρονος Ἠώς (use “fair-throned”, the Odyssey row), ἀλεγίζω (“care for” as at 1.180;
 ἀλέγω stays “heed”), ἀπήχθετο (“was hateful”), ἔρδω (l “offered”), πρὶν κνέφας ἦλθε (l “but earlier darkness came”),
 ποδώκης Πηλεΐων (l “son of Peleus”), αὐγή row (l “the Sun Hyperion”), νείατα row (avoided “furthest” is fine).
+
+## Pass 2 (gloss)
+
+Method: every novel parse in `gloss.json` checked against the Greek line in `units.json` (case, tense, mood, voice, number, lemma, Attic equivalent, homographs, ’ only, no line numbers, under 230 characters); every known form in `known-forms.json` checked against each place it stands in this part; each `__broaden__` entry checked as old entry whole + ` · ` + new reading, and the new reading looked up in the line; meanings checked against the current `l`/`i`/`n`. `units.json` not touched. All 19 existing `__broaden__` entries are old-whole + new and each new use is in the part; no change to them.
+
+Counts: 14 changes — high 0, medium 7, low 7. 6 findings refused.
+
+### Changes (form · severity · what was wrong · what done)
+
+| form | severity | what was wrong | what done |
+|---|---|---|---|
+| τέρποντ | medium | Parsed impf. ’they took delight’; the unit’s note says τέρποντ’ is for τέρπονται and `l`/`i` are present (“take delight”). | Now pres. 3 pl. mid., elided (= τέρπονται), ’they take delight’. |
+| μεγαλήτορες | medium | Glossed “great-hearted, high-spirited”, the two renderings the table turns down (reserved for μεγάθυμος / ὑπέρθυμος); `l`/`i` say “great-spirited”. | “great-spirited, high in courage”; quote ’great-spirited (Trojans)!’. |
+| πυρὰ (broaden) | medium | Entry says acc. pl. only; at 551, 560 and 562 it is the nominative subject (πυρὰ … καίετο / φαίνετο). | Added “ · also neut. nom. pl., subject: ’fires’ …”. |
+| τόσσα (broaden) | medium | Entry says acc. pl.; here it agrees with nominative πυρά. | Added “ · also neut. nom. pl., agreeing with πυρά: ’so many’ …”. |
+| ἄλλο (broaden) | medium | Entry says acc. sg.; in οὐ σέο κύντερον ἄλλο it is the subject (nom.). | Added “ · also neut. nom. sg., subject of an unexpressed verb …”. |
+| τρῶες (broaden) | medium | Entry nom. pl. only; 497 and 523 are vocative address. | Added “ · also masc. voc. pl., in address: ’Trojans!’”. |
+| ἐπίκουροι (broaden) | medium | Entry nom. pl. only; 497 is vocative (“Trojans, Dardanians and allies”). | Added “ · also masc. voc. pl., in address: ’allies!’”. |
+| εἴσω (broaden) | low | Entry covers adv. and prep. with a genitive only; here it follows an accusative (οὐρανὸν εἴσω). | Added “ · also postpositive, with an acc., ’into’ …”. |
+| μάχωνται (broaden) | low | Entry reads ’until they fight’ (with κεν); here it is ὅτ’ ἂν … μάχωνται, ’when’. | Added the ὅτ’ ἂν, ’when they fight’ reading. |
+| ὄβριμος (broaden) | low | Entry pinned to “epithet of Ares”; here it is Hector’s. | Added “ · also epithet of Hector: ’mighty’”. |
+| κηρεσσιφορήτους | low | “death-spirits” where `l` has “death-fates”, `i` “fates of death”. | “the fates of death”. |
+| ἔρδον | low | Gloss “perform … ’they were performing’”, but the sense in `l`/`i` is the sacrificial “offered”. | “do, perform; of a sacrifice, offer”; ’they were offering’. |
+| ἄρουραν | low | “plowland” against the house British spelling (“plough-land”, “armour”). | “ploughland”. |
+| ἐνθένδε | low | “from here” trips the no-“here” rule (lexical, not deictic, but avoidable). | “from this place, hence”. |
+
+### Considered and refused
+
+1. **αὐτούς “also plain pronoun, ’them’”**: not a use in this part, but the same lexeme and a true reading, harmless; kept.
+2. **ἀπώσεται “or short-vowel aor. subj.”**: both parses are possible for the form and the note and the κέ broaden already cite both; kept.
+3. **ἐς (known) at 536 ἐς αὔριον**: entry “into, to; + acc.” covers the temporal “to”; the novel αὔριον entry carries ’until tomorrow’. Not broadened.
+4. **ἔναρα “object of φέροι”** (here the verb is φέρωμαι): pinned to another passage but not wrong of the form; known entries are only broadened for a new reading.
+5. **μέσφ’, νείατα: no Attic equivalent named**: no Attic word exists for either (μέσφα, νείατος are epic only); naming ἕως or ἔσχατος would be a guess.
+6. **ποιήσατο ’made for herself’** (here Hector, “held an assembly”): the verb and form are the same, the quoted English is an example; not a new reading.

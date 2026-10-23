@@ -27,3 +27,4 @@
 - 2026-10-22 · ch68a · Unresolved without Dillmann: see LOG line (መአብሳን, ህርቡዳን, ዝኁራነ, አድራሚ, እሙን ፡ ቱ, ዲ-ending verbs). Part title is ours (parts.json name was empty). Decided meanwhile: published with (?) flags.
 - 2026-10-23 · ch68b · Unresolved without Dillmann: see LOG line (ትጸወር stem, ሚላዕሌየ, ዘበ አፍራጽ, ዕፀ ሳቤቅ, ፫ after ወልድከ, አድራሚስ). Part title is ours (parts.json name was empty). Decided meanwhile: published with (?) flags.
 - 2026-10-23 · ch69 · Unresolved without Dillmann: see LOG line (ቀለምጽጽልብነዘይትሐወስ, ዕፄ ወጺአተ, ለዘመዲ, ትቤ lemma split ይቤ/ብህለ, ምሕረ/መሐረ split). Part title is ours (parts.json name was empty). Decided meanwhile: published with (?) flags.
+- 2026-10-23 · ch70 · Unresolved without Dillmann: see LOG line (አንገፍዎ, ወአንገለጉ, ዕንቡዛን, ቊጠጠ, ገብጋብ, ውቅረት, ወተዓፀዉ 'cast lots'). Part title is ours (parts.json name was empty). Decided meanwhile: published with (?) flags.

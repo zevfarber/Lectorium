@@ -72,3 +72,59 @@ known-forms.json entries that the draft’s readings meet but do not match, to b
 - ፄዋወለክሙኒ (unit 18): one word, ፄዋ + ወ + ለክሙ + -ኒ.
 - መጥባኅትየ (unit 18): መጥባሕት 'knife' + -የ, a spelling variant with ኅ.
 - ዮርብዓም / ኢዮርብዓም: both are Solomon’s son as well as the Ephraimite; the published entries ('ዮርብዓም — spelled without the initial ኢ') stand.
+
+# Pass 2 — kebra-nagast-ch70
+
+Reviewer: strongest model. Re-read pass 1's `units.json` against the packet, then checked all 204 `gloss.json` entries (and the 11 `__broaden__` ones against `known-forms.json`) for lemma, parse, invented forms and line-pinning. No modern translation opened; Dillmann is not available to me, so lexical points rest on the published parts or are hedged. `t` never touched; joined `t` re-verified equal to the packet Geʿez (44 units); every novel form still glossed; both JSON files valid.
+
+Changes: **0 major, 11 moderate, 24 minor** (35 items). Pass 1's units.json holds up: no grammatical label I could fault except those below.
+
+## units.json (unit numbers 0-based)
+
+| Unit | Field | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| 5 | n | minor | ሰቡዐ taken only as the numeral 'seven'; ሰቡዕ is also the noun 'week'. | Note gives both (?), sense unchanged. |
+| 6 | l/i/n | moderate | ውቅረት 'heaping' stated flatly; the root ወቀረ means 'pierce, dig out', so 'quarrying' is as likely. | (?) in l and i; note says so. |
+| 6 | n | minor | ተጋብኡ said to be a tä-stem of 'ጋብአ' (no such lemma). | 'tä-stem from the root g-b-ʾ (ገብአ)'. |
+| 16 | n | minor | Closing line 'costs his men their dues' is not in the text. | Rewritten to what the lads say (gifts stop, kingdom perishes). |
+| 17 | n | minor | ነትገ: a lemma shape that does not exist (2nd radical not guttural). | ነተገ (?). |
+| 20 | n | minor | ኢይሜቊሳ 'from መቈሰ wound': the verb 'wound' is ወቈሰ and its imperfect would be ይወቍስ. | Note corrected and hedged. |
+| 23 | n | minor | ተንሥኡ called a tä-stem of 'ንሥአ'; the verb is ነሥአ. | Corrected. |
+| 25 | i | minor | The speech opened in unit 23 is never closed. | Closing ” added. |
+| 27 | i/n | moderate | ወተዓፀዉ 'cast lots' stated flatly in i; the note builds a root ዐፀወ from ዕፃ, yet the real ዐፀወ is 'shut, enclose'. | (?) added in i; note states the real root and that 'cast lots' is a guess. |
+
+## gloss.json (entry · severity · what was wrong · what done)
+
+- ሰቡዐ · moderate · lemma ሰቡዕ given as the numeral 'seven' (the numeral is ሰብዐቱ); ሰቡዕ is 'week'. · lemma kept, meaning 'week; also reckoned seven', hedged.
+- በሐጢበ · moderate · invented 'ሐጸበ' as a second root; lemma ሐጢብ not a dictionary form. · lemma ሐጠበ (?), invention removed.
+- ወበውቅረተ · moderate · 'heaping' flat, root not named. · (?) and ወቀረ 'dig out' noted.
+- ወበአቅሞ · minor · lemma አቅሞ is an infinitive, not the dictionary form. · lemma አቆመ.
+- ለአርውጾ · moderate · invented root ረውጸ. · 'from ሮጸ run', causative አርወጸ (?).
+- ዘኢያጽንዐ · moderate · called plain perfect of the causative; ኢያጽንዐ is not a regular perfect or imperfect. · parse restated, spelling flagged (?).
+- ወበሎሙ, በሎሙ, ትቤልዎ, ኢይበሉነ · minor (4) · lemma ይቤ; the dictionary form (and the known entries' lemma) is ብህለ. · lemma ብህለ.
+- ለዕደው · minor · lemma ዕደው is a plural; the entry itself says plural of ብእሲ. · lemma ብእሲ.
+- ዘይቀልብ · minor · lemma ቀልበ is not a perfect shape. · ቀለበ (?).
+- ወምጒንጳሁ · moderate · lemma ምጒንጽ does not match the letters (ጳ, not ጽ). · lemma ምጒንጳ (?).
+- ወኢጸባሕተ · minor · lemma ጸባሕ; the dictionary word is ጽባሕ. · corrected.
+- ወበዐቃርብት · minor · lemma ዐቃርብ is neither singular nor plural. · ዐቅራብ.
+- ዘኣነትግ · minor · lemma ነትገ. · ነተገ (?).
+- ዘኣፈደፍድ · moderate · 'quadriliteral G'; አፈድፈደ is the causative of ፈድፈደ. · parse corrected.
+- ትበልዐክሙ · minor · 'swallow'; በልዐ is 'eat, devour'. · corrected.
+- ወአዕጻዲክሙ · moderate · lemma አዕጽድ is no word at all. · lemma ዐጸድ (as in ወአዕጻዳተ).
+- ወኢይሜቊሳ · minor · see unit 20. · entry says not ወቈሰ.
+- ወተዓፀዉ · moderate · invented lemma ተዓፀወ from ዕፃ. · lemma ዐፀወ (?), real sense noted.
+- ወለዘሠምረት · minor · '(…)' placeholder pinned to the line. · general form.
+- ዮሐዳ · minor · 'the widow' pinned to the line. · general.
+- `__broaden__` ዘመዱ, ተውኔቶሙ · minor (2) · re-state what the known entries already say. · removed.
+- `__broaden__` ይግባእ · minor · known entry covers only 'that he return' after ከመ; here after ዘእንበለ 'before he enter'. · old entry whole + ' · ' + new reading added.
+
+All other entries checked and left: lemma, parse and contraction (e.g. ሰይፎ, ረምሖ, ቀስቶ, ወአንገሥዎ, ወለዶ, ወኢተርፎ, አበይናሆሙ) agree with the text. The other 9 `__broaden__` entries keep the old known entry whole.
+
+## Findings refused / left, with reasons
+
+- ወላሐውዎ lemma ላሐ (verb) vs ላሐወ: cannot decide without Dillmann; the noun entry stands, left.
+- አንገፍዎ, ወአንገለጉ lemma shown as the surface stem with (?): the verbs are unidentified; inventing a 3ms perfect would be worse. Left hedged.
+- ዕንቡዛን, ሕመቅ, ጋጋት, ገንሕ, ቊጠጠ, ገብጋብ, ኢያፀርዓ, ዘፈኀራ: unverifiable here; already marked (?) or supported by the 1 Kings 12 allusion; left.
+- በምልኦሙ lemma ምልኣት: the -ኦሙ ending suggests a stem ምልእ, but I cannot confirm; left.
+- Unit 1 ባሕ / ሕያው አበ ነጋሢ and unit 23 እቱ: still unclear, already hedged in i and note; left.
+- ወ-tags: ኮነት known entry names subject መንግሥተ only; the parse covers this use, not broadened.

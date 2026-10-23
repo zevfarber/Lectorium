@@ -1,0 +1,23 @@
+# iliad-052 (9.1–113) — new renderings
+
+Rows are in the format of the conventions table: Greek | `l` | `i` | avoided on purpose.
+
+| Greek | `l` | `i` | avoided on purpose |
+|---|---|---|---|
+| θεσπεσίη ἔχε φύζα φόβου κρυόεντος ἑταίρη (9.2, whole line with the half-line before it; the panic of the army) | "wondrous panic held, companion of chilling terror" | "a wondrous panic, companion of chilling terror, held" | "godlike", "divine" (reserved for δῖος, θεῖος), "friend of cold flight", "comrade of Rout" (a personification the Greek does not capitalise); φύζα keeps the Odyssey's "panic" (odyssey-068, -086), φόβος "terror" (2.767), κρυόεις "chilling" (5.740), θεσπέσιος "wondrous" (1.591), ἑταίρη the feminine of the Odyssey's ἑταῖρος "companion" |
+| ὣς ὃ βαρὺ στενάχων ἔπε' Ἀργείοισι μετηύδα (9.16, whole-line speech introduction) | "So he, groaning heavily, among the Argives spoke words:" | "So, groaning heavily, he spoke words among the Argives:" | "addressed" (reserved for προσέφη), "answered"; βαρὺ στενάχων keeps "groaning heavily" (1.364), Ἀργείοισι "the Argives" (the Iliad's three names) |
+| τέκμωρ (εἰς ὅ κε τέκμωρ Ἰλίου εὕρωμεν, 9.48–49) | "until an end of Ilios we find" | "until we find an end for Ilios" | "sign" (the Iliad's rendering at 1.526, where the word is a pledge given; here it is the goal reached by finding), "doom"; follows iliad-041 (7.30, the same words), and the Odyssey's "end" for τέκμωρ (4.373) |
+| ἔλπομαι (ἔλπεαι, 9.40) | "you expect" | "do you really expect" | "hope" (the table's ἐπιέλπεο "do not hope", 1.545, is said of a good outcome; here the thing expected is ill), "suppose"; follows iliad-043 and iliad-044 (ἔλπομαι "expect") and odyssey-104 (ἔλπεαι "Do you expect") |
+| βασιλεύτατος (9.69) | "the most kingly" | "the most kingly" | "the greatest king", "the highest king", "the most royal"; superlative of βασιλεύς, built to show both noun and superlative |
+| φυλακτῆρες (9.66) | "sentries" | "sentries" | "guards" (kept for φύλακες, 9.85 φυλάκων "the guards"), "watchmen", "wardens"; φυλακτήρ and φύλαξ are told apart through the part |
+| τάφρον ὀρυκτήν (9.67) | "the ditch, the dug one" | "the dug ditch" | "the trench", "the excavated ditch"; keeps iliad-047's "dug ditch" (8.179) and the Iliad table's τάφρος "ditch" |
+| ἀφρήτωρ ἀθέμιστος ἀνέστιος (9.63) | "Clanless, lawless, hearthless" | "clanless, lawless and hearthless" | "brotherhood-less", "outlaw", "without kin"; each ἀ- word is "-less" and the three nouns φρήτρη "clan", θέμις "law, custom", ἑστία "hearth" show |
+| ἐπιδήμιος (πολέμου ἐπιδημίου, 9.64) | "war among his own people" | "war among his own people" | "civil war" (an English term for a later thing), "war at home", "war among the people"; the Odyssey ships "at home" for ἐπιδήμιος of a man, which does not fit a war |
+| ὑποδεξίη (9.73) | "every means of entertaining" | "every means of entertaining" | "hospitality" alone, "welcome", "reception"; rare noun from ὑποδέχομαι "receive", and the note says so |
+| ἀπεμυθεόμην (9.108–109) | "spoke against it" | "argued against it … again and again" | "advised against", "warned", "tried to dissuade" (each decides the sense or the result); ἀπομυθέομαι "speak against", an imperfect of repeated speaking |
+| μεγαλήτωρ (μεγαλήτορι θυμῷ, 9.109) | "great-spirited" | "great-spirited" | "great-hearted" (kept for μεγάθυμος, 1.123), "high-spirited"; follows the Iliad's shipped "great-spirited" for μεγαλήτωρ (iliad-033, -034, -038), which is not in the table |
+| ἀρεσσάμενοι (9.112) | "having made him content" | "make him content" | "appeased" (kept for ἱλάσκομαι, 1.386), "propitiated", "conciliated", "having pleased"; ἀρέσκω "please, satisfy"; distinct from the table's ἀρεσσόμεθ' "we will put right" (4.362), a different sense of the same verb |
+| ἀγανοῖσιν … μειλιχίοισι (δώροισίν τ' ἀγανοῖσιν ἔπεσσί τε μειλιχίοισι, 9.113) | "with gentle gifts and with words, gentle ones" | "with gentle gifts and gentle words" | "kindly gifts" and "soothing words" (each turned down in the table for ἀγανός and μειλίχιος); both words are "gentle" in the table (ἀγανός 2.164, μειλίχιος 4.256), so "gentle" stands twice and the note says so |
+| τοῖσι δ' ἀνιστάμενος μετεφώνεεν ἱππότα Νέστωρ (9.52, whole-line speech introduction) | "and among them, standing up, spoke the horseman Nestor:" | "And among them the horseman Nestor rose and spoke:" | "knight", "charioteer", "the old horseman", "addressed"; ἱππότα Νέστωρ keeps "horseman Nestor" (2.336, 2.601 "the Gerenian horseman Nestor"), μετεφώνεεν "spoke among" (7.384) |
+
+Departures from the Odyssey: none. The lines shared with the Odyssey (9.26, 9.68a, 9.91, 9.95) take its English unchanged.

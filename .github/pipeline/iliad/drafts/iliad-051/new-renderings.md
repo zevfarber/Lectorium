@@ -4,16 +4,16 @@ Rows are in the format of the conventions table: Greek | `l` | `i` | avoided on 
 
 | Greek | `l` | `i` | avoided on purpose |
 |---|---|---|---|
-| ἐΰθρονος Ἠώς (ἐΰθρονον Ἠῶ, 8.565) | "fine-throned Dawn" | "fine-throned Dawn" (+ note: θρόνα "flowers" is an old alternative; sense not certain) | "well-seated", "fair-throned", "golden-throned" (reserved for χρυσόθρονος); ἐΰ- "fine" as in the table's ἐυπλόκαμος "fine-plaited" |
-| ἀλεγίζω · ἀλέγω (οὐκ ἀλεγίζω, 8.477; οὔ … ἀλέγω, 8.483, with the genitive) | "take no heed of" | "take no heed of" / "heed" | "care for" (too soft), "reck", "mind", "regard"; "grievous" stays for ἀλεγεινός |
+| ἐΰθρονος Ἠώς (ἐΰθρονον Ἠῶ, 8.565) | "fair-throned Dawn" | "fair-throned Dawn" (the Odyssey table's row, unchanged) | "well-seated", "fine-throned", "golden-throned" (reserved for χρυσόθρονος) |
+| ἀλεγίζω · ἀλέγω (οὐκ ἀλεγίζω, 8.477; οὔ … ἀλέγω, 8.483, with the genitive) | "care for" (8.477, as at 1.180); "heed" for ἀλέγω (8.483) | "care about" / "heed" | "reck", "mind", "regard"; "grievous" stays for ἀλεγεινός |
 | κύντερον ἄλλο (8.483) | "more dog-like" | "more shameless" | follows the Odyssey's κύντερον "more dog-like" / "more shameless" unchanged |
 | σκυζομένης (8.483) | "being sullen" | "in your sullenness" | "angry" (reserved for χόλος), "furious"; follows σκυζομένη "sullen toward" (4.23) |
 | χωομένης (8.478) | "being incensed" | "in your anger" | "enraged"; χώομαι "be incensed" (4.357); the noun-like "anger" in `i` is the context's, not χόλος |
 | ὄβριμος Ἕκτωρ (8.473) | "mighty Hector" | "mighty Hector" | follows ὄβριμος "mighty" (5.845) |
-| ποδώκης Πηλεΐων (8.474) | "fleet-footed Peleus’-son" | "fleet-footed son of Peleus" | "swift of foot" (πόδας ὠκύς), "swift-footed" (ποδάρκης); follows ποδώκης "fleet-footed" (2.764) |
+| ποδώκης Πηλεΐων (8.474) | "fleet-footed son of Peleus" | "fleet-footed son of Peleus" | "swift of foot" (πόδας ὠκύς), "swift-footed" (ποδάρκης); follows ποδώκης "fleet-footed" (2.764) |
 | στεῖνος ἐν αἰνοτάτῳ (8.476) | "in a most dread narrow place" | "in a most dreadful narrow place" | "tightest", "most terrible", "most fearsome"; follows αἰνότατε "most dread" / "most dreadful" (1.552); στεῖνος "narrow place" |
 | νείατα πείραθα (8.478) | "the lowest limits" | "the lowest limits" | "furthest", "last"; πείρατα "limits" as in ὀλέθρου πείραθα (6.143) |
-| αὐγή of the sun (αὐγῇς Ὑπερίονος Ἠελίοιο, 8.480) | "the rays of Hyperion the Sun" | "the rays of the Sun, Hyperion" | "glare" (kept for αὐγή of fire, 2.456), "beams", "light" (reserved for φάος); Ὑπερίων Ἠέλιος per the Odyssey table |
+| αὐγή of the sun (αὐγῇς Ὑπερίονος Ἠελίοιο, 8.480) | "the rays of the Sun Hyperion" | "the rays of the Sun, Hyperion" | "glare" (kept for αὐγή of fire, 2.456), "beams", "light" (reserved for φάος); Ὑπερίων Ἠέλιος per the Odyssey table |
 | τέρπομαι (τέρποντ’, 8.481) | "take delight" | "take delight" | "enjoy", "are cheered"; follows τέρποντο "were taking delight" (2.774) |
 | ἀσπασίη τρίλλιστος … νύξ (8.488) | "welcome, thrice-prayed-for, night" | "night, murky and welcome, much prayed for" (+ note: τρι- may only be intensive) | "longed-for", "thrice-desired", "wished-for"; ἀσπάσιος "welcome" (the table's "a welcome sight"); ἐρεβεννή "murky" (5.659) |
 | ἀέκων (Τρωσὶν … ἀέκουσιν, 8.487) | "unwilling" | "against their will" | "reluctant", "unwillingly" in `l`; ἀέκων "unwilling" (the Odyssey ἀέκοντι "unwilling") |
@@ -22,7 +22,7 @@ Rows are in the format of the conventions table: Greek | `l` | `i` | avoided on 
 | ἑνδεκάπηχυ (ἔγχος, 8.494) | "eleven-cubit" | "eleven cubits long" | follows the table’s ἑνδεκάπηχυ (6.319) unchanged |
 | ἐρεισάμενος (8.496) | "leaning" (on it) | "leaning on it" | "supporting himself", "propping"; ἐρείδω "press, prop" |
 | νῦν ἐφάμην … ἀπονοστήσειν (8.498–499) | "Now I said … to return" | "Just now I thought that … I would go back home" | "hoped" (kept for ἔλπομαι), "boasted"; φημί "say", the future infinitive gives "would"; νόστος in the note |
-| πρὶν κνέφας ἦλθε (8.500) | "before darkness came" | "darkness came before that" | "night fell" (the table’s row for κνέφας avoids it), "dusk"; κνέφας "darkness" (1.475) |
+| πρὶν κνέφας ἦλθε (8.500) | "but earlier darkness came" | "darkness came before that" | "night fell" (the table’s row for κνέφας avoids it), "dusk"; κνέφας "darkness" (1.475) |
 | ὑπὲξ ὀχέων (8.504) | "from beneath the chariots" | "from the chariots" | "from the yoke" (that is ζυγόν), "from the cars"; ὄχεσφιν "chariot" (5.219) |
 | καλλίτριχας ἵππους (8.503) | "fair-maned horses" | "fair-maned horses" | follows the Odyssey’s καλλίτριχες ἵπποι (3.475) unchanged |
 | ἐδωδή of horses (παρὰ δέ σφισι βάλλετ’ ἐδωδήν, 8.504) | "food" | "food" | "fodder", "feed" (the note says it is fodder here) |
@@ -58,12 +58,12 @@ Rows are in the format of the conventions table: Greek | `l` | `i` | avoided on 
 | κελαδέω (ἐπὶ δὲ Τρῶες κελάδησαν, 8.542) | "upon it … cried aloud" | "at that … cried aloud" | "shouted", "roared", "applauded" (each adds a sense not in the verb) |
 | ἱδρώοντας (ἵππους, 8.543) | "sweating" | "sweating" | "steaming", "lathered"; ἱδρόω "sweat" (2.388) |
 | ἅρμα · ἱμάς (παρ’ ἅρμασιν, ἱμάντεσσι, 8.544) | "chariots" · "straps" | "chariots" · "straps" | "thongs", "reins"; ἅρμα kept as "chariot" (the same as ὄχεα) |
-| ἔρδω (ἔρδον … ἑκατόμβας, 8.548) | "were sacrificing … hecatombs" | "sacrificed … hecatombs" | "performed", "offered", "did"; ῥέζω of sacrifice is "sacrifice" (2.400), and ἔρδω is the same verb |
+| ἔρδω (ἔρδον … ἑκατόμβας, 8.548) | "offered … hecatombs" | "sacrificed … hecatombs" | "performed", "did"; ῥέζω of sacrifice is "sacrifice" (2.400), and ἔρδω is the same verb |
 | τεληέσσας ἑκατόμβας (8.548) | "complete hecatombs" | "complete hecatombs" | the Odyssey’s τεληέσσας ἑκατόμβας (4.582) unchanged |
 | κνίση (8.549) | "savour" | "savour" | follows the Iliad’s κνίση "savour" (1.317) |
 | οὐρανὸν εἴσω (8.549) | "into heaven" | "into heaven" | "up to heaven", "to the sky"; οὐρανός "heaven" |
 | δατέοντο (8.550) | "shared in" (negated: "had no share") | "took no share of" | "divided", "feasted on"; δατέομαι "divide among themselves" (1.368), here with the partitive genitive |
-| ἀπήχθετο (8.551) | "had become hateful" | "had become hateful" | "was hated"; follows ἀπήχθετο "was hateful" (6.140) with the aorist's start marked by "had become" |
+| ἀπήχθετο (8.551) | "was hateful" | "was hateful" | "became hateful", "had become hateful", "was hated"; follows ἀπήχθετο "was hateful" (6.140) |
 | μέγα φρονέοντες (8.553) | "thinking great things" | "with high thoughts" | "proud", "high-spirited", "boasting"; the English follows the participle without deciding the tone |
 | εἴατο (8.554, 8.563) | "sat" | "sat" | "were seated", "waited"; εἴατο is an epic imperfect of ἧμαι |
 | ἀριπρεπέα (ἄστρα, 8.556) | "outstanding" | "outstanding" | "conspicuous" (reserved for ἀριδείκετος), "brilliant", "distinguished"; follows ἀριπρεπής "outstanding" (the table's avoided lists at 2.483 and 5.2) |

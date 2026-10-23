@@ -72,3 +72,52 @@ Severity: major = a house-table or shared-line departure, or a Greek → English
 ## Second sweep (after the edits)
 
 Re-read every unit's note against its final `l`/`i`; re-ran the mechanical checks (line count of `l` = `t`, no line break in `i`, “/” balanced and on the right units, typographic ’ only, note length 20–130 words: the two long notes are now 127 and 125, `t` unchanged, tiling of the edition intact); re-checked every Greek form quoted in a note against the unit's `t` or as a lemma; re-checked the cross-references (112, 116, 118, 158, 69, 192, 193, 4.317, 2.434, 1.328, Od. 1.148, 3.340, 3.342, 7.184, 8.73, 18.422, 4.59 all verified against the published files or the tables). Nothing further found.
+
+## Pass 2 (gloss)
+
+Method: every one of the 154 novel entries and 16 `__broaden__` entries of `gloss.json` was checked against each place its form occurs in `units.json` (final after pass 1: the glosses agree with the `l`/`i` of the changed units, i.e. 119 ἀρέσαι/λευγαλέῃσι, 132 μιγῆναι/ἐπιβήμεναι "never mounted … lay with", 142 τίσω "honour", 154 τιμήσουσι/τελέουσι, 179 δενδίλλων "casting glances", 185 ἄρετ’ "took for himself"/ζυγὸν, 196 δεικνύμενος "gesturing a welcome", 199 ἄγε/τάπησι, 201 προσεφώνεεν); all 320 known forms were then re-read against their uses in the part to see whether the old entry covers the use. Format checks by script: no entry of 230 characters or more, no ASCII apostrophe or backtick, no "here", no line numbers; every `__broaden__` value is the old entry whole + ' · ' + new reading. `units.json` was not touched (no `t`, no other field). Script: `/tmp/claude-0/-home-user-Lectorium/e20992d8-67c6-5716-90e9-2639c111d39b/scratchpad/gloss53_pass2.py` (before-copy `gloss53.before.json` beside it). The build was not run.
+
+Counts: **0 major, 3 medium, 16 minor, 10 nit** (29 changes).
+
+### Changes (form · severity · what was wrong · what was done)
+
+| form | severity | what was wrong | what was done |
+|---|---|---|---|
+| δατεώμεθα | medium | labelled "aor. subj."; the form is the present subjunctive of δατέομαι (aor. would be δασσώμεθα, ἐδασάμην) | "pres. subj. 1 pl. mid." |
+| ψεῦδος (broaden) | medium | old entry says only "neut. nom. sg., predicate"; the form stands as an adverbial accusative with οὔ τι ("not falsely"), which the old entry does not cover | added " · also neut. acc. sg., adverbial with οὔ τι: ’falsely’" |
+| ἐθέλῃσι (broaden) | medium | old entry restricted to "after αἴ κ’: ’if he wishes’"; the form here is in a general relative clause (ἥν κ’) | added the relative-clause reading |
+| κλέα | minor | "uncontracted" is untrue (κλέα is the contracted/short form, the same as Attic; the uncontracted epic form is κλέεα) | "neut. acc. pl. (epic also κλέεα)"; the Odyssey entry's wording was not copied |
+| κέραιε | minor | "Attic κέραννε" is not an Attic imperative of κεράννυμι | "Attic imper. κεράννυ" |
+| στὰν | minor | lemma gloss "set; in the strong aor. stand" garbled | "make stand, set up; the strong aor. ἔστην is intrans., stand"; parse and Attic ἔστησαν kept |
+| ἑπέσθων, πιθέσθων | minor | "epic -των (= Attic …σθωσαν)" implies -σθων is not Attic; Attic has both endings | "the short ending -σθων (Attic also -σθωσαν)" |
+| ἔντυνον | minor | doubt (imperative or other): imperative is right in context (addressed to Patroclus, between καθίστα and κέραιε, no subject for an indicative), but the form is also the impf. 3 pl. (the Odyssey entry) and the entry gave only one reading | parse made explicit "imper. 2 sg. in -ον (= ἔντυνε), the form disputed" + " · also impf. 3 pl. (same form)" |
+| τίσω, ἔτισε | minor | doubt (τίσω → τίω): τίω "honour" is right in context (ἶσον Ὀρέστῃ), but both forms are genuine homographs of τίνω "pay" (Odyssey τίσω is τίνω; the Iliad glossary already has τίνω forms) | kept τίω first, added " · also τίνω — pay …" to each |
+| ἑῇ | minor | lemma written "ἑός (= ὅς, ἥ, ὅν possessive)"; the house form for the possessive is "ὅς, ἥ, ὅν (possessive; epic ἑός)" | rewritten to the house form; parse unchanged |
+| ὀτρύνομεν | minor | "pres. subj." stated as fact; the stem is the same in pres. and aor. (the Odyssey entry says aor.) | "pres. (or aor.) subj." |
+| ἐπιόψομαι | minor | future with ἄν is irregular and the entry did not say so | "fut. 1 sg. … with ἄν (irregular; sometimes taken as a short-vowel subj.)"; future kept (agrees with `i` "pick out") |
+| πειρᾶν (broaden) | minor | old entry covers only the imperatival infinitive "try!"; the use is an infinitive complementing ἐπέτελλε | added " · also pres. inf. act. complementing ἐπέτελλε, an indirect command: ’to try’" |
+| φίλοι (broaden) | minor | old entry covers the vocative and the predicate nominative; "dear men" is attributive | added the attributive nom. pl. reading |
+| ὅσσά (broaden) | minor | old readings: "nom. pl." and "acc. pl., object of its verb: whatever"; the use is acc. pl. agreeing with ἀέθλια, "as many … as" | added that reading |
+| αὐτῇ (broaden) | minor | broadening was redundant: the old entry already covers the intensive, fem. dat. sg., agreeing with a dative | removed the key from `__broaden__` |
+| ζαθέας | minor | gloss "very holy" disagrees with the house rendering of ζάθεος ("most holy", in `i`) | "most holy, sacred (ζα- intensive)" |
+| φηράς | nit | parse ended in a stray repeated "Φηράς" | "fem. acc. pl." |
+| μιγῆναι | nit | two ’…’ glosses run together | one parse, one gloss |
+| δεικνύμενος | nit | meaning did not cover the sense the unit's `i` uses (a welcoming gesture) | added "mid. also greet by a gesture" |
+| δενδίλλων | nit | quoted gloss ’glancing’ differs from the unit's "casting glances" | ’casting glances’ |
+| θάασσεν | nit | did not say the form is unaugmented | added "unaugmented" |
+| ἀνόρουσεν | nit | "(= Attic ἀνῆλατο)" presents a different verb as an equivalent form | "(Attic prose would say ἀνήλατο)" |
+| νέαται | nit | "cf. νείατος" while the existing Iliad entry reads νείατος (= νέατος) | "(= νείατος)" |
+| γυναικῶν, ἐπὶ, ἀντί (broaden) | nit | new readings run together or loosely worded (two readings in one clause; "or ’on it’"; ’equal to many peoples’) | each new reading split into its own ' · also ' clause, with its own example; ἀντί = "worth as much as" |
+
+### Findings considered and refused
+
+- ἠμαθόεντος (may the masc. entry be broadened with fem.?): refused. The form is formally masc./neut. gen. sg. agreeing with Πύλου (a 2nd-declension noun the poet treats as masculine in this epithet; the fem. is ἠμαθόεσσα, not this form), so "masc. gen. sg." is true of the form and covers the use. The existing Πύλου entry says "fem."; it is not ours to rewrite.
+- αἴ vs εἰ: refused. The existing αἴ entry ("εἰ — if; conditional conj., by-form αἰ (used before κε)") covers both uses (conditional with ἔωσιν; αἴ κ’ ἐλεήσῃ); εἰ is separate and covered; no broadening.
+- ἄρετ’, ἄροντο under ἄρνυμαι: kept. ἄρετο/ἄροντο are the 2nd aorist of ἄρνυμαι (LSJ), and the meanings "took for himself" / "won" fit both lines; no other lemma fits.
+- ἀλήϊος: kept as ἀ- + ληΐον, "without corn-land" (a hapax-like word, formation clear from LSJ); `i` "without a field of grain" agrees.
+- νέατος/νέαται: kept as nom. pl. fem. of νέατος agreeing with the towns (+ gen. Πύλου); not a verb form. Only the lemma spelling was aligned (see above).
+- ἠμαθόεντος-style "gender" worry for Πύλου, and ἔπιόν / ἐνίκων / ἀπηύρων-type 1 sg. vs 3 pl. homographs: person/number syncretism of the -ον/-ων endings is systematic, the context fixes the person, so no second reading was added to ἔπιόν or ἐνίκων (the existing ἀπηύρων broadening, which was in the old glossary-rule's spirit and correct, was left). Lexical homographs (τίσω, ἔτισε, ἔντυνον) were added.
+- ἀέθλια (Odyssey entry adds "also neut. nom. pl."): not copied; both uses in this part are acc. pl., and nom./acc. neuter syncretism is not a lexical homograph.
+- φοῖνιξ (name + "a Phoenician"): kept as the glosser wrote it; both readings are true of the form.
+- ὁπότε (existing: "+ opt. in a general clause"; this use is a clause of waiting): not broadened; the conjunction's meaning and mood are the same and λήξειεν's own entry states the construction.
+- Existing entries for οἱ, τῇ, τὼ, τοὺς, ὅς/ὅν, κέ/κε/κεν/ἂν, κούρη, ἶσον, ἄργος and the rest of the 320 known forms were checked against their uses: covered, no change.

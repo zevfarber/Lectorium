@@ -56,3 +56,67 @@ Counts: major 2 (rows 1, 23); moderate 8 (rows 3, 4, 9, 12, 13, 15, 19, 26); min
 - ኢየኀድገክሙ: 3ms; ብቊዐኒ: በቊዐ imperative + -ኒ (the published ኢይበቊዕ entry can be broadened with it); ኅይስናሁ: ኅይስና (as in ch. 27/33–34), with the owner idiom; ተሀየየ: broaden/keep "turn away from (?)".
 - The published known-forms entry for ፍኖቶሙ says "-ሆሙ, written -ቶሙ"; I believe the suffix is -ሙ after -ት (cf. ኀጢአቶሙ) and have written the note so. Not mine to change the published glossary; flagged.
 - ባሕርይ "pearl", ሲኦል "Sheol", እግዚኣብሔር, መድኅን renderings checked against known-forms: consistent.
+
+
+# Pass 2 — kebra-nagast-ch69
+
+Reviewer: adversarial pass 2. Read: conventions.md, the RUNBOOK reviewer paragraph, packet.md, units.json, gloss.json, novel-forms.json, known-forms.json, pass 1 above. Also compared each gloss lemma with the published glossaries (kebra-nagast-ch*.json). No modern translations; no internet; Dillmann unavailable, so every lexical call is hedged (?). Method: every gloss entry was checked against every unit in which its form occurs (lemma, parse, meaning against `l`/`i`), and units.json was re-read once more. Edits by script (`gloss.json`, `units.json` rewritten with identical formatting). Checks after editing: every `t` unchanged and the joined `t` equals the packet Geʿez exactly (749 tokens); every word of the part has a gloss or known-forms entry, and no gloss key is absent from the text; the `__broaden__` entries still begin with the full published entry.
+
+Headline: pass 1 made one wrong correction (ዜከረ, row 9). The glosser's invented or inconsistent lemmas were: ትማእ (መዐ, "m-ʿ-ʾ"), ያምዕዑ (አምዕዐ), አሐዝን (ኀዘነ against its own "spelled with ሐ"), ይምሐሩነ ("ምሐረ also 'teach'"), and ደሞ (-ሁ against the unit note's -ኦ). The ትቤለኒ and split-word questions are settled in rows 1 and 27–28.
+
+## Changes
+
+| # | Entry / unit | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| 1 | gloss ትቤለኒ | moderate | Lemma ብህለ while the published entry for ዘትቤ (ch. 29) is under ይቤ. The published corpus is itself split for ትቤ: ይቤ in ch. 24, 25–26, 29 (ወትቤሎ, ወትቤ, ዘትቤ), ብህለ in ch. 27, 36 (ትቤ, ትቤሉኒ) | Made consistent with ዘትቤ: lemma ይቤ, wording as the published entry ("the prefix form of defective ይቤ serving as its perfect"), with "verb b-h-l, as ዘትቤ" so that the verb is still named. ወይቤ/ይቤሎ/በል/ብሂሎ left as they were (ብህለ is the lemma for the non-ትቤ forms already published) |
+| 2 | gloss አሐዝን | moderate | Lemma ኀዘነ (ḫ-z-n) with the comment "spelled with ሐ"; the text has ሐ, the unit 7 note says ሐዘነ, and the published glossary has ሐዘነ, ሐዘን (ch. 2–8, 28, 43). An invented root letter | Lemma ሐዘነ, ḥ-z-n |
+| 3 | gloss ደሞ | moderate | "noun + -ሁ '3ms his'" against the unit 9 note and the published ወደሞ (ደም + -ኦ) | "noun + -ኦ '3ms his', written ደሞ; as ገጾ" |
+| 4 | gloss ያምዕዑ; unit 11 · n | moderate | Lemma አምዕዐ "causative of ምዕዐ", an invented spelling, and the note's third lemma አምዐወ; the published ወያምዕዑ (ch. 44) and አምዕዕዎ are under አምዐ | Lemma አምዐ (root ʾ-m-ʿ, causative of ምዕዐ); the note uses አምዐ too |
+| 5 | gloss ይምሐሩነ | moderate | Lemma ምሐረ (a third spelling) and "ምሐረ also 'teach', so 'that they teach us' is possible": ምሀረ/ምህረ 'teach' has ህ, not ሐ, and the unit 11 note rules it out | Lemma ምሕረ (as the same part's መሓሪ and unit 3 and 11 notes); "teach" deleted; subject unclear (?). The published corpus is split: ምሕረ in ch. 37, መሐረ in ch. 60b, 67, 68a. I kept ምሕረ for agreement within this part and flag the split |
+| 6 | gloss ትማእ | moderate | Lemma መዐ with root "m-ʿ-ʾ", a verb that does not exist and that disagreed with the unit 25 note (መውአ); the published ይመውእ (ch. 13–16) is under መውአ | Lemma መውአ, m-w-ʾ; ትማእ "a contracted spelling for ትመውእ" (?) |
+| 7 | gloss ወጸላእተከ; unit 25 · l, i, n | moderate | The form is the plural ጸላእት (acc. ጸላእተ) + -ከ, as in the published ጸላእትከ "your foes" (ch. 49–50) and ወጸላእትከ; the draft rendered it as a singular "your foe" and the gloss said "sense collective" without a reason | gloss "your foes"; `l` "your-foes", `i` "your enemy and your foes", note: plural of ጸላኢ, ፀር possibly collective |
+| 8 | gloss በ፵ወ፫ | moderate | "ሠለስ before a feminine noun" contradicts the entry's own spoken form ሠለስቱ, and the published ፫ entry puts ሠለስቱ with a masculine; ትውልድ is masculine | "ሠለስቱ with the masculine ትውልድ"; the hedge (?) is kept |
+| 9 | units 13, 23 · n; gloss ወያዜክሩ, ዘይዜክር | moderate | Pass 1 (row 11) changed the notes to say ያዜክሩ and ይዜክር come from a verb ዜከረ, and asked pass 2 to put ዜከረ in the glossary. That was wrong: ch. 23 (published) glosses ይዜክር under ዘከረ with "ይዜክር the usual imperfect shape", and the ch. 23 review ruled "ዜከረ is not a verb form". The gloss entries had it right | Notes restored: ያዜክሩ is the causative አዘከረ of ዘከረ, ዘይዜክር the 3ms imperfect of ዘከረ; gloss lemmas kept (አዘከረ, ዘከረ), with "the usual imperfect shape" added. Pass 1's "For pass 2" item on ዜከረ refused |
+| 10 | gloss ፷፱ | minor | Transliteration (səsa wä-təsʿatu) against the published ፷ ስሳ (səssa) and ተስዐቱ (täsʿatu, ch. 2–8); the hedge (?) on a plain numeral | (səssa wä-täsʿatu); (?) removed |
+| 11 | gloss ወአንቃዕደወ; unit 1 · n | minor | "causative of ቀዐደወ, q-ʿ-d-w": an unsupported root; the note's "causative-reflexive stem" likewise | "stem and root uncertain, not a plain causative (?)"; note: "I cannot analyse with certainty" |
+| 12 | gloss ቀርበኑ | minor | "has it come near?" against `l`/`i` "is it near" | "is it near?" (3ms perfect of a stative 'be near') |
+| 13 | gloss ለነሳሕያን; unit 3 · n | minor | Lemma ነሳሒ explained from ነሥሐ (gloss) and ነሰሐ (note); the published ነሳሕያን entry (ch. 17–20) has ነስሐ | ነስሐ in both |
+| 14 | gloss ኢየኀድገክሙ | minor | "3ms imperfect" while the note says subjunctive (after ከመ) | "imperfect/subjunctive after ከመ" |
+| 15 | gloss ለዘመዲ | minor | "for the kin of, to the kinsman" against `l` "for-kin (?)" and `i` "kin (?)", no (?) after the meaning | meaning "for kin (?)", ለ- possibly marking the persons addressed |
+| 16 | gloss እስአለከ; unit 5 · n | minor | "1cs subjunctive እስአል" for a main-clause verb; the published 1s form is እሴአል (ዘእሴአለክሙ) | "imperfect/subjunctive, spelled እስአል- for the usual እሴአል-"; same in the note |
+| 17 | gloss ምግባሪነ | minor | "construct 'deeds of' + -ነ": it is the suffixed noun; the construct is the preceding እከየ (the note says so) | rewritten; the unexplained -ሪ- before the suffix flagged (?) |
+| 18 | gloss ዝርዋነ | minor | ዘረወ (published: ዘርወ, ch. ዝርወ entry); "passive participle" over-specific | ዘርወ; "adjective/participle" |
+| 19 | gloss ወኢየአምኑ | minor | "causative-form root ʾ-m-n" (garbled; G stem) | "G, ʾ-m-n" |
+| 20 | gloss ወኢይሰሪ; unit 13 · n | minor | Lemma ሠረየ; the published ይሰሪ (ch. 67), ዘይሰሪ (ch. 68b) are under ሰረየ (the text writes ሰ); the note said ሰርየ | Lemma ሰረየ in both; note: 'it is not forgiven them' or 'he does not forgive them' (?) |
+| 21 | gloss መዓምቅት | minor | Lemma = form with no (?) and no singular; the published ch. entry marks it (?) | "singular perhaps ዐምቅ" and (?) |
+| 22 | gloss አርመመት | minor | "quadriliteral" against the published ch. 64–65 "a quadriliteral-type verb, not a causative" | worded as the published entry |
+| 23 | gloss ሳሕወ | minor | "lose, scatter" against the note's "dissolve, disperse" and the `l` "dispersal" | "dispersal, dissolving", (?) kept |
+| 24 | gloss አንጸረ | minor | "he turned" against `l` "directed", the house sense 'look toward', and the unit 24 note | "he directed, looked toward" |
+| 25 | gloss ወአክብሮ | minor | Lemma አክበረ; the published ወያከብሮሙ, ታከብረኒ (ch. 31–32, 36) and the unit 25 note have አከበረ | አከበረ; imperative አክብር + -ኦ |
+| 26 | gloss ጡማር; unit 26 · n | minor | Lemma = the form; the published ጦማር (ch. 33–34, 'scroll, book'). "Greek tomarion" asserted | Lemma ጦማር, "spelled ጡማር here"; the loan "ultimately from Greek, I believe (?)" |
+| 27 | gloss ወአንግ | minor | Split word (ወአንግ ሦ in the source, one word ወአንግሦ). The entry said "make king! (imperative አንግሥ)" though the printed fragment ends at አንግ- | "the first part, አንግ-, of the 2ms imperative አንግሥ, cut off before its last sign; read with ሦ" |
+| 28 | gloss ሦ | minor | Fine in substance; did not say it completes the other word | "the rest of ወአንግሦ: -ሥ + -ኦ '3ms him'; read with ወአንግ". Both stay under አንገሠ. `t` unchanged: the two words stay as the source has them |
+| 29 | gloss ድቀቶሙ | minor | Right suffix (-ሙ) but unexplained; the published ፍኖቶሙ says -ሆሙ "written -ቶሙ" | "-ሙ with the linking vowel -o-, as ኀጢአቶሙ (ደይኖሙ, ምግባሮሙ are the same); -ሆሙ is the form after a final vowel (እደዊሆሙ, አበዊሆሙ)". Settles the -ሙ/-ሆሙ question for this part |
+| 30 | `__broaden__` ፍኖቶሙ (new) | minor | The published entry (ch. 51–52, 57–58) gives -ሆሙ written -ቶሙ, which contradicts ኀጢአቶሙ, ደይኖሙ and ድቀቶሙ | Old entry whole + " · or … ፍኖት + -ሙ with the linking vowel -o-; -ሆሙ is the form after a final vowel (?)". Hedged, since not my text to overwrite; drop this entry if the owner prefers the published wording |
+| 31 | `__broaden__` መድኀኒቶሙ (new) | minor | Published entry is "their salvation" while unit 2 has `l`/`i` "their saviour" | Old entry whole + " · 'their saviour', the abstract noun said of a person". `l`/`i` unchanged (the next clause, ላዕሌሁ 'against him', makes the person plain) |
+| 32 | unit 1 · n | minor | አድኀነ (note) against አድኅነ (gloss; verb ድኅነ) | አድኅነ |
+| 33 | unit 13 · n | minor | ሀጐለ against the gloss and the published ሀጕለ | ሀጕለ |
+| 34 | unit 27 · l | minor | `l` "And-he-said-to Zadok priest" drops the -ሎ of ወይቤሎ before the doubling ለሳዶቅ (house style keeps it, as in "woe-to-her, to-my-soul") | "And-he-said-to-him, to-Zadok priest" |
+
+Counts: major 0; moderate 9 (rows 1–9); minor 25 (rows 10–34). 34 rows: 30 gloss entries rewritten, 2 new `__broaden__` entries, and 11 field edits in 9 units (1, 3, 5, 11, 13, 23, 25, 26, 27; unit 25 has l, i and n).
+
+## Findings refused / left
+
+- Pass 1's instruction to give ዜከረ in the glossary (row 9): refused, reversed (ዘከረ, published ch. 23).
+- Making ብቊዐኒ broaden the published ኢይበቊዕ: not done. The glossary is keyed by form, and ብቊዐኒ is a new form; its lemma በቊዐ already matches.
+- Unifying the published ትቤ lemmas (ይቤ vs ብህለ) or the ምሕረ/መሐረ split: not mine to edit; only this part's new entries were aligned (rows 1, 5). Flag for the owner.
+- ከበርኩ lemma ከብረ (published ከብረ ch. 13–16 and ከበረ ch. 17–20 both exist): left.
+- ይጠቅሉ, አሚነ, በርበራቲሁ, ወማኅፈርነ, ወያስቆርሩነ, ቀማጥር, ኅይስናሁ, ወጺአተ: lemmas not checkable without Dillmann; hedged (?) already; left.
+- Unit 13 `i` "heavy" for ወጽኑሕ (pass 1 refusal): confirmed, the gloss lists "firm, heavy, strong".
+- Unit 2 `l` "saviour" for መድኀኒቶሙ: kept (row 31 broadens the glossary instead).
+- Pass 1's refused items (unit 8 "reproach", 26 "Then he said", 17 "as men", 12 "righteous man", 13 ኢይሰሪ passive, 4 "who was-carried", 24 Jeroboam note): re-read against the text; no change.
+- Units otherwise re-read word by word against the text and the glossary: no other `l`↔`i` mismatches found. Unit 12 `l` has "and-those who they-seize (?)" for እለ ይጠቅሉ and `i` "who seize (?)": agree.
+
+## Still unresolved (?) words
+
+ወአንቃዕደወ, በ፵ወ፫, ለዘመዲ, ብቊዐኒ (sense of the plea), ወኢትትሀየየኒ, ይምሐሩነ (subject), ምግባሪነ (the -ሪ-), አሚነ, ይጠቅሉ, በርበራቲሁ, ወኢይሰሪ (passive vs active), ከበርኩ, ኅይስናሁ, መዓምቅት, በከ, አርመመት, ቀለምጽጽልብነዘይትሐወስ (unintelligible), ወያስቆርሩነ, ወማኅፈርነ, ወጺአተ (with ዕፄ, crux), ሳሕወ, ትማእ, ወጸላእተከ, ጡማር, ቀማጥር. (25 gloss entries; the unit notes also mark ወአንግ ሦ as a source word-split (?) and the ኢይሰሪ, ያዜክሩ subject as unclear (?).)

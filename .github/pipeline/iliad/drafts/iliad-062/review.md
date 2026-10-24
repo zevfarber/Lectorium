@@ -37,6 +37,39 @@ Counts: major 6 (items 1–6, of which 5 and 6 are the scansion notes), minor 4,
 
 ## Follow-ups for whoever continues
 
-- `new-renderings.md` has no row for τοὶ γὰρ ἐγώ τοι … (413) and τοὶ γὰρ ἐγὼ καὶ … (427); a row each (‘Well then’, following the Odyssey's τοιγάρ, 24.303) should be added before the table is updated.
+- (Done in pass 2.) `new-renderings.md` had no row for τοὶ γὰρ ἐγώ τοι … (413) and τοὶ γὰρ ἐγὼ καὶ … (427); a row each (‘Well then’, following the Odyssey's τοιγάρ, 24.303) should be added before the table is updated.
 - The μῡρι- hint in `../odyssey/scan_hexameter.py` is what raises both scansion flags. I did not edit the Odyssey's scanner (runbook: never edited from here). If the owner agrees the υ of μυρίκη is short, 467 is not irregular at all and 466 shows only the lengthening of ἀνά before μ.
 - Pass 2 (parses in gloss.json against the line) not yet done.
+
+# Pass 2 — gloss.json (parses against units.json)
+
+Method: re-read units.json as edited in pass 1; checked every one of the 119 novel entries and the 20 `__broaden__` entries against its line; checked every token of the part against known-forms.json for readings the old entry does not cover; format (no line numbers, typographic ’ only, no entry of 230 or more characters among the novel ones; all 119 keys of novel-forms.json present, nothing extra; every broadened entry keeps the old entry whole and adds after " · "). The longest novel entry is 163 characters.
+
+## Changes
+
+| # | key | severity | what was wrong | what was done |
+|---|---|---|---|---|
+| 1 | ἠὲ (broaden, new) | major | known ἠὲ covers only ‘or’ and ‘than’; the form is used for ‘whether’ in an indirect question at 394 (ἠὲ φυλάσσονται) and 442 (ἠὲ κατ’ αἶσαν ἔειπον). The ‘whether’ reading exists only under the acute-spelled ἠέ. | Broadened with the ‘whether’ reading. |
+| 2 | ἔντεα (broaden, new) | major | Known entry says neut. acc. pl. only; at 407 and 471 ἔντεα is nominative (ἔντεα κεῖται; ἔντεα … κέκλιτο). | Broadened: neut. nom. pl., subject. |
+| 3 | ἀρήϊα (broaden, new) | minor | Known entry says ‘agreeing with τεύχεα’, acc.; at 407 it agrees with nominative ἔντεα. | Broadened. |
+| 4 | μυρίκην, μυρίκης | major | Both said ‘Ionic -η / -ης (= Attic μυρίκη, -ης)’: false, since Attic has the same forms (η after κ). | Dialect claim removed. |
+| 5 | τοῖσδεσσι | minor | Said ‘neut.’ and glossed ‘with these things’; the dative plural is masc. or neut., and the sense after χαῖρε is ‘be glad of these’, not ‘with’. | ‘masc./neut.’, gloss ‘these’. |
+| 6 | ἢ (broaden) | minor | 432 τί ἢ ἐμέ is not covered (the old entry has τί ἢ δέ only). | Added τί ἢ ἐμέ as a form of τίη, ‘why’. |
+| 7 | ἀγαυοῦ (broaden, new) | nit | Known entry lists its agreeing nouns (Τυδέος, Λαομέδοντος); 391 has Πηλεΐωνος. | Added. |
+| 8 | σὲ (broaden, new) | nit | Known entry lacks σέ as object of a verb of giving (462 σὲ … ἐπιδωσόμεθ’). | Added. |
+| 9 | βουληφόροι | nit | Gloss ‘who are counsellors’ contradicts the house word in new-renderings (‘councillors’; ‘counsellors’ avoided). | ‘councillors’. |
+| 10 | ἐσχάραι | nit | Gloss ‘fires’ differs from `i` ‘hearth-fires’. | ‘hearth-fires’. |
+| 11 | ἁμάς | nit | ‘epic by-form of ἡμέτερος’: ἁμός is the Aeolic form found in epic. | Reworded. |
+| 12 | πρώτην | nit | ‘(a goddess)’ pins the entry to the line. | Removed. |
+| 13 | ἐπιδωσόμεθ | nit | Gloss ‘we shall make offerings to’ was given without the hedge the note and new-renderings carry. | Added ‘(sense not secure)’. |
+
+Counts for pass 2: major 3 (items 1, 2, 4), minor 3 (3, 5, 6), nit 7 (items 7–13).
+
+## Findings considered and refused (pass 2)
+
+- ὅδε entries (οἷδ, τοῖσδεσσι) keep ‘this here’: the phrase is the glossary’s standing wording for ὅδε (known τόδε, Odyssey entry) and is not a line pin.
+- ‘agreeing with X’ / ‘after Y’ clauses in many novel entries (e.g. θείου, ὅσσαι, ἀνέμοισιν) name the governing word in the line; the existing glossary does the same (ἀγαυοῦ, ἐμῇς), they carry no line number and are general to the construction. Left.
+- εἰσί accent note: a disyllabic enclitic after a paroxytone keeps its accent, so the parse is right.
+- The `__broaden__` additions for γυῖα, δώρων, καλὰ, οἷ, οἷσιν, πάρος, πρὸς, ἀνὰ, ἥρως, τῶν, εἰ, τέλος, κεφαλῆφιν, λίσσεσθαι, μητιόωσι, πρόφερε, κεν, κέ, κ were each checked against the line cited and are true; οἷσιν ‘for whom’ matches the pass-1 correction at 418.
+- λύ (elided λύ’ = λῦε), δαείω, πελάσσετον (shape of a short-vowel subjunctive or future used as a command), ἀπολύσομεν, μεθῶμεν, ἐγρηγόρθασι, ἐπέφνομεν: parses checked and correct; the Odyssey table’s entries for the same forms agree.
+

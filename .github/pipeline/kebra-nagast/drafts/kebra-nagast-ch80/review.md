@@ -90,3 +90,54 @@ Unit numbers are 1-based, in file order (1 = the heading).
 
 - ላሕያት (barren? fair?), ዘመዲ (my-kin?), መስተዛውዐ, ደቂቀ ኀይለ: unresolved without Dillmann.
 - Glosses to check: አስተርአያ (perfect + -ኣ 'to her'); ተምዕዖ (verb, per known entry); አምታቲሆን (ምት, pl. አምታት); ሕፃና (ሕፃን + 3fs); ቅዱሱ (anticipating -ሁ); ወኢወይነ (ወ + ኢ + ወይነ); ሐፀናሆሙ and ገብራ, ነበራ, ይትፋቀራ (3fp, no dual); ይከውን (imperfect); ናነግሣ (-ኣ); ፭ spoken ኀምስ before ዓመተ; ክብር already known (broaden only if needed).
+
+## Pass 2
+
+Checked: units.json re-read against the packet (t-join is a prefix of the packet text, one paragraph plus heading, p flags on units 1-2 correct, longest unit 43 words); every gloss.json entry (all 90 novel-forms keys present, no extra keys) against its form and its use in units; the three `__broaden__` entries and the known-forms entries for uses they do not cover. Both files edited in place by script, valid JSON. Dillmann unavailable; doubtful items hedged (?).
+
+Counts: major 3, moderate 8, minor 9 (units.json: 3 rows; gloss.json: 17 rows).
+
+### units.json
+
+| Unit | Field | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| 18 | n | minor | 'the speech continues through the next three units': it runs through two (19, 20). | 'next two units'. |
+| 19 | n | moderate | ዘያነሥኦ ለአምላክነ ዳጎን stated as one reading only; 'raise up our god' is odd, and 'raise him up for our god Dagon' is grammatically open. | Added the alternative, hedged (?); i unchanged. |
+| 8 | i | minor | 'the upper part of their house' adds 'house' to መልዕልቶሙ, which the note itself marks (?). | Added (?) in i. |
+
+Pass 1's changes were re-checked and stand (ተምዕዖ verb, አምታቲሆን 'husbands', ሕፃና 'her child', ቅዱሱ with -ሁ, ወኢወይነ, ይከውን indicative, ፭ spoken ኀምስ before ዓመተ, no 'dual' in n).
+
+### gloss.json
+
+| Key | Severity | What was wrong | What was done |
+|---|---|---|---|
+| አስተርአያ | major | Object suffix given as '-ሃ'; unsure (?) though the parse is sound; 'causative-reflexive' unnamed. | -ኣ 'to her'; ʾastä-stem; (?) dropped. |
+| ናነግሣ | major | Suffix '-ሃ' (verbal object suffix is -ኣ, as known ወአፍቀርዋ). | -ኣ. |
+| አክበርዋ | major | Same, '-ሃ'. | -ኣ, written -ዋ after -ዉ. |
+| ወሐፀናሆሙ | moderate | 'she nursed them', 3fs; the form is 3fp ሐፀና (two women) + -ሆሙ, as unit 22 has it. | 3fp. |
+| ወይትፋቀራ | moderate | 'they two', '3f dual/plural' (no dual in Geʿez). | 3fp imperfect, reciprocal tä-stem; says no dual. |
+| ወነበራ | moderate | '3f dual/plural'. | 3fp. |
+| ለሕፃና | moderate | 'for a child', '-ና irregular, perhaps an error (?)': it is ሕፃን + -ሃ 'her', as unit 15 has it. | 'to her child', suffix explained (cf. እኅታ). |
+| አምታቲሆን | moderate | Lemma was the plural አምታት; the dictionary form is ምት (known entry ምትኪ). | Lemma ምት, plural አምታት in the parse. |
+| ቅዱሱ | moderate | 'perhaps 3ms suffix' (?) though the form is ቅዱስ + -ሁ and the unit relies on it. | Stated; (?) dropped; anticipating ለእግዚኣብሔር noted. |
+| እምዘመዲ | moderate | Parsed as 1cs '-የ', which contradicts the -ዲ ending and unit 5's note. | 'from kin'; ending -ዲ unexplained, 'my kin' doubtful (?). |
+| `__broaden__` ፭ (added) | moderate | Known ፭ entry says only ኀምስቱ before a masculine; this use is feminine ዓመተ (ኀምስ). | Old entry whole + ' · spoken ኀምስ before a feminine noun'. |
+| `__broaden__` ለንጉሠ (added) | moderate | Known 'of/for the king of' does not cover ለ- marking the object (ቀተሎ ... ለንጉሠ). | Old entry whole + object-marking reading. |
+| `__broaden__` ኮነት (added) | minor | Known entry pinned to 'subject መንግሥተ'; here the subject is the unborn child, 'if it is' after እመ (cf. the ኮነ entry). | Old entry whole + ' · ' + new reading. |
+| `__broaden__` እስከ (removed) | minor | Not needed: the known entry already has 'conjunction before a verb, until'; a perfect verb is a case of it. | Removed. |
+| `__broaden__` እምኀበ (removed) | minor | Not needed: 'from (the side of)' already fits ፀንሰት እምኀበ ቈላሶን (l itself says 'from Qolason'). | Removed. |
+| ፈጥረት | minor | Lemma copied the text spelling; dictionary form is ፍጥረት. | Lemma ፍጥረት, 'written ፈጥረት here'. |
+| መስተዛውዐ | minor | 'Gt-stem': ተዛወዐ is a tä-stem of the fāʿälä type, not Gt. | Reworded; (?) kept. |
+| ለመክሳባ | minor | Possessor use only; unit 21 uses it as object marker (አክበርዋ ... ለመክሳባ). | Second reading added in the entry. |
+| ለእሙ | minor | 'እም + -ሁ contracted to -ሙ' misstates it (እሙ = እም + -ሁ). | Reworded. |
+| እምያዕቆብ | minor | Missing the 'by' sense used in the unit. | Added. |
+| ወሐለዩ | minor | 'sang' stated without the basic sense 'think, meditate'. | Added; (?) kept. |
+
+### Findings refused
+
+- Split-word fragments (በው/ስተ, ፍ/ቅሮን, ወአዕ/ኑገ): kept; they follow the whole-word-lemma pattern of earlier parts (ዘእ/ንበለ, ሠና/የ).
+- ሰዋትል, ዐስቀ, ዘዲባጋት, አዕኑግ, ላሕያት, ፅኑሳት lemmas and meanings: cannot be checked without Dillmann; all already carry (?).
+- ብዝኆሙ lemma ብዝኅ (vs adjective ብዙኅ): plausible as the verbal noun of ብዝኀ; kept.
+- ወአፍረሰ 'causative of ፈረሰ': plausible, kept unhedged.
+- ወ፪፼ / ፸፼ spoken forms (ትእልፊት): checked and kept.
+- Unit 14 ህየ 'at that time' in i without (?): the note flags it; i left as is.

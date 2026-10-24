@@ -30,3 +30,4 @@
 - 2026-10-23 · ch70 · Unresolved without Dillmann: see LOG line (አንገፍዎ, ወአንገለጉ, ዕንቡዛን, ቊጠጠ, ገብጋብ, ውቅረት, ወተዓፀዉ 'cast lots'). Part title is ours (parts.json name was empty). Decided meanwhile: published with (?) flags.
 - 2026-10-23 · ch72 · Unresolved without Dillmann: see LOG line (የዐብያ, ወልዲ 'his/my son', ከላእክዎ, ነሥኡ, unit 29 acclamation, vineyard-riddle terms ቆዐ / አሕሩግ). Part title is ours (parts.json name was empty). Decided meanwhile: published with (?) flags.
 - 2026-10-24 · ch73-75 · Unresolved without Dillmann: see LOG line (ፈፀንት and role of ለበልጣሶር in unit 8, ጒዕትያ, Edom word-play words in unit 13, አባሕኩክ ፡ ሙ, በቅለ, ከርሚን). Part title is ours. Decided meanwhile: published with (?) flags.
+- 2026-10-24 · ch76a · Unresolved without Dillmann: see LOG line (ፀዋግ, ይሴስዮ ከርሚን, ማኅረጽ / ወግንፋል, the unit 14 drink-and-lamps answer with ምፅንጋ and stray ዕ, voice of ተጠየቀ/ተስእለነ, ወዕግታ). Part title is ours (parts.json name was empty). Decided meanwhile: published with (?) flags.

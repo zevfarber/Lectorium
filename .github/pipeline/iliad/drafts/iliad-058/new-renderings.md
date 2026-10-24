@@ -3,7 +3,7 @@
 | πευκεδανοῖο (πτολέμοιο … πευκεδανοῖο, 10.8; meaning and origin not known) | "sharp" | "sharp" (+ note: meaning not known) | "bitter", "piercing", "pine-sharp" (each decides the sense); keeps the ἐχεπευκές "sharp" of 1.51, which it may be related to |
 | στόμα πολέμοιο (10.8) | "the great mouth of … war" | "the great mouth of … war" | "jaws", "edge", "the first line"; στόμα is "mouth" |
 | πυκίν’ … ἀνεστενάχιζ’ … νειόθεν ἐκ κραδίης (10.9–10) | "so thickly … groaned up … from the depths, out of his heart" | "heaved groan after groan … from the depths of his heart" | "sighed deeply", "groaned repeatedly"; ἀναστενάχω "groan up", πυκινά "thickly", κραδίη "heart" |
-| φρήν · φρένες (10.4, 10.10) | "wits" | "mind" (10.4) · "wits" (10.10) | "heart" (reserved for κραδίη, ἦτορ, κῆρ), "thoughts"; `l` keeps "wits" (the Odyssey's φρένες "wits"), and `i` says "mind" where "pondered many things in his wits" would not read |
+| φρήν · φρένες (10.4, 10.10; singular φρήν, 10.45–46, is "mind" in both layers, as at 9.244) | "wits" | "mind" (10.4) · "wits" (10.10) | "heart" (reserved for κραδίη, ἦτορ, κῆρ), "thoughts"; `l` keeps "wits" (the Odyssey's φρένες "wits"), and `i` says "mind" where "pondered many things in his wits" would not read |
 | ἐνοπή (αὐλῶν συρίγγων τ’ ἐνοπήν, 10.13; of instruments) | "the sound" | "the sound" | "voice", "shouting" (kept for ἐνοπή of men, 3.2), "music" |
 | αὐλός · σῦριγξ (10.13) | "pipes" · "panpipes" | "pipes" · "panpipes" | "flutes", "reed-pipes", "pan-pipes"; σῦριγξ is the pipe of bound reeds (note says so) |
 | προθελύμνους (10.15; built on θέλυμνα "foundations") | "root and all" | "root and all" | "by the roots", "tearing out", "violently"; keeps the image of the root |

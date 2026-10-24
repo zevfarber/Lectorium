@@ -67,7 +67,7 @@ stands at the start of the fourth foot, where it is short but must count long."
    the same. The inference rests on lines inside this part, the notes say that the sentence does not name him, and
    `i` does not name him.
 2. **Speaker of ὅ γ’ at 11.94 = Oileus.** Checked, accepted. Agamemnon sprang in on foot (ὄρουσ’, 11.92); the one
-   who leaps ἐξ ἵππων is the man last named, his companion Oileus; τὸν … νύξ’ then has Agamemnon as its subject and
+   who leaps ἐξ ἵππων is the man last named, Bianor’s companion Oileus (a Trojan, not Agamemnon’s man; corrected in pass 2); τὸν … νύξ’ then has Agamemnon as its subject and
    Oileus as object, and δάμασσε δέ μιν μεμαῶτα closes on the same man. The note's "Bianor is already dead" rests on
    ἕλε ‘took’ = ‘killed’ (which the note says) and on τοὺς μὲν λίπεν at 11.99; kept.
 3. **Κύπρον δέ with πεύθετο (11.21).** Checked, accepted with the added "(printed as two words)". Κύπρον + -δε of
@@ -118,3 +118,64 @@ stands at the start of the fourth foot, where it is short but must count long."
 - `new-renderings.md`: the οὔλιος row was changed to "ruinous" (change 10) so that the wrong rendering is not copied into the table;
   no other row needed changing (the νόθος / γνήσιον row stands). Nothing else outside `units.json` and `review.md` was touched.
 - Not run: build, validator, commit.
+
+
+## Pass 2 (gloss.json read against units.json; build key handling checked)
+
+Method: every gloss entry read against the line it occurs in (form, case, number, tense, mood, voice, lemma);
+the 22 `__broaden__` entries checked against the old entry in `iliad-glossary.json` (old entry whole inside the new)
+and against the occurrences in this part; the 467 known forms scanned for a use the existing entry does not cover.
+Key handling (build_iliad.py, iliad_lib.py): keys are the printed word lowercased (`WORD.findall(t)`), an elided form
+without its apostrophe, accent as printed (λάμπ, ὄρθι, ὀλλύντάς). Script check: all 165 new keys and 22 broaden keys occur
+in the part; none of the new keys is already in the glossary; no form of the part is without an entry; no entry has an ASCII
+`'` or a backtick; all 165 new entries are under 230 characters; every broadened entry contains the old one whole. `t` is
+untouched (compared unit by unit with a backup).
+
+Counts: 20 changes - 0 high, 7 medium, 13 low. Findings refused: 8.
+
+### Changes
+
+| # | where | field | sev | what was wrong | what was done |
+|---|---|---|---|---|---|
+| 1 | 11.91 | i | med | "and then his companion Oileus" can be read as Agamemnon's companion; Oileus is Bianor's companion and a Trojan (the man who leaps down at 11.94 and is stabbed). | `i` "Bianor’s companion Oileus"; `l` keeps "his companion" (the Greek has no pronoun). |
+| 2 | 11.91 | n | med | The note did not say whose companion; with `i` it left the reading open. | Added: "here Bianor’s (αὐτόν has just set him apart) and not Agamemnon’s … Oileus, a Trojan". |
+| 3 | 11.94 | i | med | "He for his part sprang down" leaves the referent to be worked out, and the reader can take it to be Agamemnon. | "Oileus, for his part, sprang down …" (`l` unchanged, "He indeed"). |
+| 4 | review.md, refused 2 | text | med | Said the man who leaps down is "his companion Oileus" straight after "Agamemnon sprang in", which reads as Agamemnon's companion. | Corrected in place to "Bianor’s companion Oileus (a Trojan …)". The gloss for ὀϊλῆα ("a Trojan, comrade of Bianor") was already right. |
+| 5 | 11.94 | n | low | κατεπάλμενος called the aorist participle of "καταπάλλομαι", a lemma I cannot vouch for; it is the syncopated aorist middle participle of ἅλλομαι (cf. ἅλμενος) with κατά and ἐπί. | Note says so; gloss entry likewise. |
+| 6 | 11.21 | n | med | πεύθετο called "ἐπύθετο, the aorist of πυνθάνομαι"; the stem πευθ- is the present stem, so it is the imperfect of πεύθομαι, as the gloss has it. Note and gloss contradicted each other. | Note: "ἐπεύθετο, the imperfect of πεύθομαι (the epic by-form of πυνθάνομαι) … without augment". Gloss kept. |
+| 7 | 11.45 | n + gloss ἐγδούπησαν | low | Asserted "from ἐκδουπέω" with ἐκ- written ἐγ-; the formation is not known from LSJ/Autenrieth. | Note and entry say the formation is not certain (perhaps ἐκ- + δουπέω); "crash, thunder" and aor. 3 pl. act. kept. |
+| 8 | 11.29 | n + gloss ἀρηρός | low | ἀρηρός called "the perfect participle of ἀραρίσκω" and, in the gloss, a "short form beside ἀρηρώς". Gender (it stands with neuter κουλεόν) and formation are not securely known. | Both say a perfect-participle form whose formation and gender are not certain; "fitted" kept. |
+| 9 | 11.64 | n | low | φάνεσκεν called an "iterative imperfect"; the gloss has the iterative of the aorist stem (ἐφάνη). | Note: "an iterative in -σκ- (a past tense with no augment)". |
+| 10 | 11.115 | n | low | σφ’ called σφε only; the verb allows σφι or σφε, as the existing σφ entry says. | "σφ’ is σφι or σφε". |
+| 11 | gloss | ἄληκτον | med | Parse "used adverbially" contradicted the note ("agrees with σθένος"). | Parse now neut. acc. sg. (masc. acc. the same form), "or used adverbially". |
+| 12 | gloss | δεινόν | low | A second reading ("masc. acc. sg. or neut. nom./acc. sg. as an adjective") has no occurrence under this key (only 11.8, adverbial). | Second reading removed. |
+| 13 | gloss | μέλανος (broaden) | med | Added reading gave "dark" for μέλανος κυάνοιο; the units say "black kyanos" (pass 1, change 34). | "’black’ (μέλανος κυάνοιο ’of black κύανος’)". Old entry still whole inside. |
+| 14 | gloss | ὑφ (broaden) | low | New entry was 231 characters. | "’from’" for "’from, under the force of’"; now 211. |
+| 15 | gloss | κύπρον | low | "the suffix -δε following" did not say the edition prints Κύπρον δέ as two words. | "with the following -δε written apart, ’to Cyprus’". |
+| 16 | gloss | χαριζόμενος | low | "pleasing, indulging" against the unit's house "gratifying". | "’gratifying, pleasing’". |
+| 17 | gloss | ὀλλυμένους, ὀλλύντάς | low | "dying" / "killing" against the units' "perishing" / "destroying" in `l`. | "’perishing’", "’destroying, killing’". |
+| 18 | gloss | οὔλιος | low | "baneful, ruinous" stated flatly; it is the traditional sense (a longer form of οὖλος; a different οὔλιος "healing" is an Apollo title). | "ruinous, baneful (traditional sense; a longer form of οὖλος ’destructive’)". |
+| 19 | gloss | πρυλέες, χαλκοβάρεια | low | πρυλέες given a lemma πρύλις that is not secure; the base form of χαλκοβάρεια is not secure. | Entry headed by the form itself, "origin not certain" / "formation not certain". |
+| 20 | gloss | ὀρωρέχατο, παρέβασκε, αὐτόφιν | low | ὀρωρέχατο claimed an Attic periphrasis (ὠρεγμένοι ἦσαν) I cannot vouch for; παρέβασκε called "iterative … ’kept going beside’", which is not what the line says; αὐτόφιν given a singular only, with two spears. | "reduplicated ὀρωρ-, epic -ατο for -ντο (no Attic prose form)"; "a -σκ- form beside παραβαίνω; rare … ’stood beside’"; "sg. or pl. … ’from it, from them’". |
+
+### Verified as asked
+- **ὀϊλῆα / Oileus (11.91–98).** A Trojan, the companion (ἑταῖρος) of Bianor. Agamemnon kills Bianor first, then Oileus, who has leapt from his chariot (ἐξ ἵππων κατεπάλμενος, 11.94) and is stabbed in the forehead (11.95–98). `t`, `l`, notes and gloss now agree. The only places that could be read as "Agamemnon’s companion" were `i` at 11.91, `i` at 11.94 and refused-2 above, all fixed. The gloss ("a Trojan, comrade of Bianor (another Oileus is father of the lesser Ajax)") is right, and its key `ὀϊλῆα` matches the printed form.
+- **ἐγδούπησαν.** Aor. 3 pl. act. of a verb of crashing or thundering; the lemma is not securely known, so entry and note say so.
+- **κατεπάλμενος.** Aor. part. mid. masc. nom. sg., syncopated (cf. ἅλμενος), ἅλλομαι + κατά + ἐπί; parse right, old note lemma not.
+- **ὀρωρέχατο.** Plpf. mid./pass. 3 pl. of ὀρέγω, reduplicated ὀρωρ-, -ατο for -ντο; "reached up, were stretched up". Right.
+- **ἀρηρός.** Perf. participle form of ἀραρίσκω, "fitted"; formation and gender hedged (change 8).
+- **οὔλιος.** Ruinous, baneful, masc. nom. sg. with ἀστήρ; longer form of οὖλος; matches the house "ruinous" in `l`/`i`.
+- **Κύπρον δέ.** Two printed words: acc. of Κύπρος + -δε ‘to Cyprus’ (loose goal of the report). Key `κύπρον` carries the noun; the existing key `δὲ` already has the -δε reading, so no broadening is needed. Note and gloss agree.
+
+### Pass 2 considered and refused
+1. **Broaden αὖθ for 11.56 (αὖτε).** The old entry already reads "again, in turn, next … cf. αὖτε"; covered.
+2. **Broaden ὑπ for ὑπ’ Ἀργείοισι (11.120).** The existing entry has "+ dat., of those under whom men fall: ’beneath’"; same kind of use; covered.
+3. **Broaden τῇ / τῆς for a thing (11.36, 11.38).** General fem. forms of the pronoun; "for a thing" adds nothing a reader needs.
+4. **Remove μόσχοισι "calf".** One word with two senses in LSJ; harmless, not pinned to a line.
+5. **δίδη, ἀλέγιζε, φθὰν, πεπάλακτο, ἐλέλικτο, μετεκίαθον, ἤϊξε, ὄρουσ, στήριξε, συνέαξε.** Each parse checked against the line; all stand.
+6. **Length of the broadened αὐτοῦ, τοῦ, οἱ, πέρι, φέροι, ἀγαυοῦ.** Over 230, but the old entries were already long (163 glossary entries exceed 230), the build checks length only on new entries, and the old entry must stay whole; left.
+7. **ἠῶθι with no separate parse.** Meaning, suffix and example are given; left.
+8. **ἀρετῇ entry still lists "valour".** A dictionary gloss; the house rendering applies to `l`/`i`, which are right (pass 1, change 8). Left.
+
+### Left for the caller
+Not run: build, validator, commit. `gloss.json` and `units.json` edited in place by script; `t` untouched.

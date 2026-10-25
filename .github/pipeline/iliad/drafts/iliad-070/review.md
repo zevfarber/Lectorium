@@ -76,5 +76,77 @@ Counts: H 1 · M 23 · L 17 (41 rows; units touched: 35 of 83).
 
 ## Left for the drafter / the next step (not edited here)
 
+*Settled in pass 2 (see below): `new-renderings.md` now matches `units.json`, and `gloss.json` has been checked against every line.*
+
 - **new-renderings.md is now out of step with units.json** and must not be copied into conventions.md as it stands. Rows to correct or drop: ἔθνεα πεζῶν ("hosts" → `l` "tribes", `i` "bands"), ἄλλυδις ἄλλος ("one this way, one that"), ἔντεα ("gear", not "armour"), σὺν τεύχεσι / τεύχεα ("armour", not "arms"), ἀϋτῇ ("battle-cry"), θωρήσσοντο ("were arming themselves"), ξείνια ("the things due to guests" / "the hospitality due to guests"), ἄστυ ("town"), τόφρα ("for that time"), πόλλ’ ἐπέτελλον ("commands" / "charged you strictly"), μετακλαύσεσθαι (`i` "greatly"), αἴ κέν τι φόως (the 8.282 English), and the ἱππηλάτα Πηλεύς / τερπικέραυνος rows (table forms).
 - No `gloss.json` exists yet in this draft folder, so the second-pass check of glossary parses was not possible; it should be done when the glosser has run.
+
+## Pass 2
+
+Reviewer pass 2. `t` untouched (checked identical to the pass-1 file for all 83 units). Edits made by script (`rev070p2.py`, `gloss070p2.py`, `nr070p2.py` in the scratchpad) with each replacement asserted to match exactly once. Every cross-reference number in the notes was re-checked against the packet's line numbers (660, 686, 688, 692, 709, 711, 713, 714–716, 715, 739, 756–758, 765, 789, 2.27, 6.208, 7.157, 8.282, 9.252–253, 9.259, 11.646, Od. 9.42, 9.549, 14.100–101): all stand. The section "Left for the drafter" above is now settled: `new-renderings.md` has been brought into line (see the third table). Severity key as above; no H found in pass 2.
+
+Totals: **H 0 · M 17 · L 25** (gloss.json 6 M + 14 L; units.json 3 M + 2 L; new-renderings.md 8 M + 9 L).
+
+### gloss.json (every parse checked against its line in units.json; 201 novel entries, 11 `__broaden__` entries)
+
+| # | Key | Sev | What was wrong | What was done |
+|---|---|---|---|---|
+| G1 | περίτρεσαν | M | Attic equivalent given as ἐπερίτρεσαν; the augment of a compound goes inside, so the equivalent is περιέτρεσαν. | Corrected. |
+| G2 | τριηκόσι | M | Parsed as masc. acc. pl. τριηκόσιοι (elided); the elided form is neut. acc. pl. τριηκόσια (the three hundred head, 697), and an -οι elision is not what is printed. | Re-parsed: neut. acc. pl., elided τριηκόσι’ = τριηκόσια, Attic τριακόσια. |
+| G3 | ὄληται | M | Called a "short-vowel subj."; it is the ordinary long-vowel (η) thematic aorist subjunctive. The "(= Attic ὄληται)" was empty. | Both removed. |
+| G4 | θεύσεσθαι | M | Meaning ’to be going to run’ is wrong for the bare infinitive (ἔμελλον supplies "were going to"); "(= Attic θεύσεσθαι)" was empty. | Meaning ’to run’; empty equivalent removed. |
+| G5 | διείπομεν | M | "aor. διεῖπον" is not the aorist of διέπω. | Parse now: 1 pl. past, impf. of διέπω (augment inside the compound) or aor. of διεῖπον ’tell through’, as the note reads it. |
+| G6 | οὕνεκά | M | "(= Attic οὕνεκα)" is a non-equivalent; the Attic prose equivalent is ὅτι. | "epic (= οὗ ἕνεκα; Attic ὅτι)". |
+| G7 | θέουσ | L | "epic uncontracted (Attic θέουσα)": Attic θέουσα is the same word. | Removed the false contrast. |
+| G8 | νομῆας | L | Attic equivalent -εῖς; the Attic accusative plural is νομέας. | Corrected. |
+| G9 | ἀπονήσεται | L | Lemma ἀπονίναμαι; LSJ lemmatises ἀπονίνημι (and the unit note says so). | Lemma ἀπονίνημι. |
+| G10 | ἀρήνης | L | "(= Attic -ης, after ρ -ας)" is nonsense for an η-stem. | Removed. |
+| G11 | κάσχεθε | L | "κατ- assimilated" disagrees with the note (preverb shortened). | "κατ- shortened by syncope". |
+| G12–G20 | ἀγέλας, ἀπέτραπε, ἐλίγαινον, ἑπέσθω, ἔτρεσαν, ἠθέλετον, ἤγαγον, ὑπῆσαν, παρέθηκεν | L | An "(= Attic …)" equivalent identical to the Homeric form (or, for ἀπέτραπε and παρέθηκεν, a non-difference), which teaches nothing and is false as a dialect claim. | Equivalents removed; ἐλίγαινον given the rendering ’cried out clearly’ to match the unit. |
+
+`__broaden__` entries: all eleven checked (old entry whole, then " · ", then one new reading), each justified by a use in this part: βίῃ (787, dative of respect; the βίη at 670 and 690 is nominative and is covered by the existing βίη entry), κ (764 ἐπεί κ’ + subj.), κατ (770 κατ’ Ἀχαιΐδα), μάχεσθαι (746 after ἀριστεύεσκε), παῖδ (710 and 750, dual), πρεσβυτάτην (740), τύχε (684), ἑταίρου (793), χειρὸς (675 ἀπὸ χειρὸς), τίς (705 μή τίς οἱ). No change. Known-form check for missed broadenings, forms whose use differs from the stored reading: ὃ, οἱ, ᾗσι, ᾧ, οἷσιν, τῷ, τὼ, τῶν, τοὺς, τὰ, τὸν, ὡς, ὃς, ὅσσοι, ὅσσον, ἐπεί, πὰρ, ἐνὶ, ἀμφὶ, μετὰ, μετ, κατὰ, ἦ, ἔμελλον, θωρήσσοντο, πολλὰ, πολλὸν and the rest of the 528 were read against their lines; none needs a broadening. No entry contains a line number, "here", an ASCII apostrophe or a backtick; all novel entries are under 230 characters; article-forms are glossed as pronouns (none are novel here); the possessive ὅς (ᾗσι, ᾧ, οἷσιν) is kept apart from the relative (οἷσι at 686 is the relative).
+
+### units.json
+
+| # | Unit | Field | Sev | What was wrong | What was done |
+|---|---|---|---|---|---|
+| U1 | 767 νῶϊ δέ τ’ | l, n | M | ἐπέτελλε `l` "gave his charge"; the house `l` for the plain verb is "laid his charge" (4.301, 9.259, and 765 in this part), `i` "gave his charge". | `l` "how he laid his charge"; note gloss matched. |
+| U2 | 783 Πηλεὺς μὲν | l, i | M | `l` "gave charge" and `i` "charged his son Achilles"; the plain ἐπέτελλε is "laid his charge" / "gave his charge" (the "charged strictly" idiom belongs to πόλλ’ ἐπέτελλεν). | `l` "laid his charge"; `i` "gave his son Achilles his charge, always to be the best and to stand above the others;". |
+| U3 | 785 σοὶ δ’ αὖθ’ | l, n | M | `l` "thus gave charge". | `l` "thus laid his charge"; note gloss matched (`i` "gave this charge in turn" already house). |
+| U4 | 701 τοὺς δ’ αὖθι | n | L | "the epithet the Iliad gives Agamemnon": a claim about the rest of the poem that this part cannot show. | "the phrase the translation also gives Agamemnon". |
+| U5 | 739 γαμβρὸς δ’ ἦν | n | L | "the same word as for Menelaus": same kind of claim. | "the translation’s word for ξανθός of people", as at 680. |
+
+Re-read once more and found sound: all `l`/`t` line divisions, all quotation marks (“ at 656, ‘ at 786, ’ at 788–789, ” at 802), all `mark` and `p` values, the two-unit lines 759, 762 and 790, the published/repeated lines (655, 670, 679, 766, 778, 784, 790), and the house renderings for ἄστυ "town", τεύχεα "armour", ἔντεα "gear", θωρήσσοντο "were arming themselves", ἀϋτή "battle-cry", τόφρα "for that time", πόλλ’ ἐπέτελλον, ἱππηλάτα Πηλεύς, τερπικέραυνος, αἴθοψ, δαΐφρων, ἄλλυδις ἄλλος and αἴ κέν τι φόως, each against its table row.
+
+### new-renderings.md (brought into line with units.json)
+
+Every quoted `l` and `i` cell was machine-checked as a substring of the unit text (ellipses split). The rows that pass 1 listed as contradicting the units were handled as follows: ἔθνεα, ἄλλυδις ἄλλος, ἔντεα (the ἀνὰ … ἔντεα row), μετακλαύσεσθαι, ξείνια and ἀϋτῇ were corrected; there is no row for τεύχεα / σὺν τεύχεσι, θωρήσσοντο, ἄστυ, τόφρα, πόλλ’ ἐπέτελλον, αἴ κέν τι φόως, ἱππηλάτα Πηλεύς or τερπικέραυνος in the file (the units take the table's English for each, so none is a new rendering), and none was added.
+
+| # | Row | Sev | What was wrong | What was done |
+|---|---|---|---|---|
+| R1 | ἔθνεα πεζῶν | M | `l`/`i` "the hosts of men on foot"; the units have `l` "tribes", `i` "bands". | Row states "tribes" / "bands" with the reason. |
+| R2 | ἄλλυδις ἄλλος | M | "one this way, another that" / "and another that"; units use the table's "one this way, one that" / "and one that". | Corrected. |
+| R3 | ἀνὰ … ἔντεα | M | "armour"; units (755, and 731) use the table's "gear". | Corrected; "armour" listed as reserved for τεύχεα. |
+| R4 | μετακλαύσεσθαι | M | `i` "will weep long afterwards"; the unit has "will weep greatly afterwards". | Corrected. |
+| R5 | ξείνιά τ’ εὖ παρέθηκεν | M | `l` "set out well the hospitality"; the unit has "the things due to guests". | `l` and `i` corrected; reference corrected to the Odyssey table (14.404). |
+| R6 | ἀϋτῇ | M | "with a shout"; the units have "with a battle-cry" (the table's ἀϋτή). | Corrected. |
+| R7 | δαιτρεύω | M | Said the infinitive at 705 was "shared out"; both layers read "to divide". | Row now covers 688 and 705. |
+| R8 | ἀτεμβόμενος · ἴσης | M | Did not say the clause is the Odyssey's English (9.42, 9.549). | Added, with the full `l`/`i`. |
+| R9 | Μολίονε | L | Only the 709 rendering; 750 has "the two of Actor’s line, the Molions" / "the pair of Actor’s line, the Molions". | Both places stated. |
+| R10 | ἀρετῆς ἀπονήσεται | L | Table reference 8.237 (an unrelated row); the ἀρετή row is 8.535; ἀπονίνημι is not in the table. | Reference fixed; ἀπονίνημι said to be new. |
+| R11–R15 | ἲς … μέλεσσιν, ἠοῖ φαινομένηφι, ὀδὰξ ἕλον οὖδας, βοῦν ἀγελαίην, δῆμος | L | "the table’s" row cited by an Odyssey number (11.393, 16.270, 22.269, 17.181, 16.425) with no "Odyssey", so read as Iliad references. | "Odyssey table" added. |
+| R16–R17 | βεβλήαται …, ὑπερηφανέοντες … | L | `l` "have been struck" / `i` "treated with insolence" are not contiguous in the unit text (indeed / us). | Ellipses added. |
+
+### Findings considered and refused in pass 2
+
+- **Unit 724 ἔθνεα `i` "bands" against the table's ἔθνεα "swarms" (2.87, 2.91).** The table's `i` "swarms" serves the simile; these are men on foot, and 7.115 gives "band"; kept, and the row now says why.
+- **704 δῆμος "the people" against the Iliad table's "land".** Already settled in pass 1 (Odyssey 16.425 row); kept.
+- **Gloss Arene "a town of Elis", Alesium "a place in Elis", Minyeïus "a river of Elis".** Locations are the usual ones for these names and are not contradicted by the part; kept.
+- **ἐπέφραδε as reduplicated 2nd aorist of φράζω.** Matches the note and LSJ's ἔπεφραδον; kept.
+- **ἔκταθεν "(= Attic ἐκτάνθησαν)".** A real Attic correspondent for the passive sense; kept.
+- **ἀθλοφόροι "prize-bearing, prize-winning".** Both are dictionary senses; the unit uses the first; kept.
+- **ἴσης "(μοίρης understood)".** Accepted gloss for the genitive of separation; kept.
+- **Notes naming the Odyssey's γέρων ἱππηλάτα Νέστωρ (772).** Backed by the shipped table row (7.125); kept.
+- **Unit 777 `l` "led us in … bade us" against the published 11.646 "led him in … bade him".** The pronoun differs because the persons differ (the note says so); kept.
+- **ἀμφὶ βοὸς … κρέα ἕπετον (776) as needing an ἀμφί + gen. broadening.** Taken as ἀμφέπω in tmesis with κρέα as object, which the existing ἀμφὶ entry (preverb in tmesis) and the ἕπετον entry already cover; no broadening.
+- **Gloss κέαται, κίοι, κιόντι "(= Attic …)" equivalents.** Real dialect differences; kept.

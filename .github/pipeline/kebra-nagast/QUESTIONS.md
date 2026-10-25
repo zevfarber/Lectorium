@@ -37,3 +37,4 @@
 - 2026-10-24 · ch80 · Unresolved without Dillmann: see LOG line (ላሕያት 'barren' or 'fair', ዘመዲ, ornament words ዐስቀ / ዘዲባጋት / ሰዋትል / አዕኑገ, መስተዛውዐ, ዘያነሥኦ ለአምላክነ ዳጎን). Part title is ours. Decided meanwhile: published with (?) flags.
 - 2026-10-25 · ch81 · Unresolved without Dillmann: see LOG line (የኀጥ clause in unit 8, ጥብሬሌስ, ተፍእመ, ክልኤሆሙ with ሰክሩ, በጽምሚት, ኒዒ). Part title is ours. Decided meanwhile: published with (?) flags.
 - 2026-10-25 · ch83-86 · Unresolved without Dillmann: see LOG line (names in ch. 83–84, ደወሎሙ, ዐዋዴ, ፀብኣ, ch. 85 worship verbs, መጋዝአ ላህም, አስዋረ, ዐግያት ዘፈትል, ተዓይነ ፀር). Source slips kept as printed (ውተፈሥሑ; እኁ ዛነ read as እኁዛነ; ማክዳ/መክዳ). Part title is ours. Decided meanwhile: published with (?) flags.
+- 2026-10-25 · ch87 · Unresolved without Dillmann: see LOG line (በሉኬ, ዘትካት, ማሪተ / ሰገለ / አጣዕዎ, ለአቤራቲሁ, ዘመገበነ, speaker shift in units 32–34). Part title is ours. Decided meanwhile: published with (?) flags.

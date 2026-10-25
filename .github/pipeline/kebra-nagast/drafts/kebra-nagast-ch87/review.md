@@ -52,3 +52,68 @@ Counts: major 2, moderate 10, minor 14 (26 units changed of 35; 9 units 10–12,
 - Unit 18 ንጉሠ እስራኤል as construct describing Solomon: kept.
 - Unit 19 ለአቤራቲሁ 'his needy (?)': kept hedged (no better guess).
 - Chunking/`p` flags: unit 0 and unit 1 are the only paragraph starts in the packet; the 39-word unit 4 is under the ~45 limit.
+
+## Pass 2
+
+Checked: (a) units.json after pass 1: `t` byte-identical to the pre-pass-2 file (35 units, `p` flags unchanged), `l`/`i`/`n` read again word by word, notes checked against the glosses; (b) all 139 gloss.json entries plus the 3 broadened entries against every place the form occurs, against known-forms.json and against the published glossary (chs. 1, 13–86) for house lemmas and readings. No Dillmann; lexical calls stay hedged. Edits by script to gloss.json and units.json only; `t`, titles and `about` untouched. The sixty-odd entries not listed below were checked and left as written (lemma is the dictionary form, parse and suffix labels agree with the text and with `l`/`i`).
+
+### Gloss changes
+
+| Form | Field | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| ዘአዘዝክኒ, ፈነውክኒ, ለአክኒ | parse | major | Parsed as 2ms (አዘዝከ etc.); the speaker addresses his mother (cf. ንግሥትሰ አንቲ, ዘፈቀድኪ, and the unit 20 note's own '2fs'). | 2fs perfect, -ክ for -ኪ before -ኒ. |
+| ወሃቤ | lemma, parse, l | major | Parsed as ወ- 'and' + ሃቢ; the other titles in the unit's run are asyndetic and ch. 24 glosses ወወሃቤ as ወ- + ወሃቢ. | Lemma ወሃቢ, the ወ a root letter; unit 19 `l` 'and-giver-of' became 'giver-of', `n` fixed (`i` already read 'a giver of food'). |
+| ወእዘኒሁ | parse | major | Called the stem 'plural/dual': no dual exists as a category here, and እዘኒ- is not a plural of እዝን (ch. 24 has አእዛን). | Stem declared unexplained, perhaps for አእዛኒሁ, with (?); note in unit 29 likewise. |
+| ወተከዛ | parse | moderate | Glossed 3fp (with an invented root k-z-y) while the unit 12 note called it 3ms. | Gloss keeps 3fp (the ending -ኣ, fem. plural አድባር), root dropped, (?) added; unit 12 note now says ተፈሥሐ is 3ms and ተከዛ looks 3fp. |
+| ወአዘዙኒ, ይኤዝዘነ | parse | moderate | Called 'causative'; አዘዘ is not a causative of anything in this work (house entries give plain 3ms perfect). | Stem label removed (3mp perfect / 3ms imperfect), root ʾ-z-z. |
+| ወተቀ | parse | moderate | Said ወ- + ተቀብአነ without saying that the joined printed word ወተቀባእነ has an ā that this form lacks (the unit 29 note says so). | Entry states the joined word and the discrepancy. |
+| ብረኪሃ | parse | moderate | 'noun, plural + -ሃ' invented a plural ብረኪ; unit 34 note already admits the plural is not as expected. | 'noun + -ሃ', stem ብረኪ- compared with ለብረክየ (ch. 55–56), antecedent unclear. |
+| ወይትሐበለዩነ | lemma | moderate | Lemma ተሐብለየ (6th order on the 2nd radical) is not a possible shape; the -ዩ shows a III-y tä-stem. | Lemma ተሐበለየ, cf. ሐበለ in ch. 60a, stem still unconfirmed (?). |
+| ኤልምያስ, ወአዛርያስ | meaning | moderate | 'a priest, with Azariah administers the oath' and 'here the high priest, son of Zadok' assign offices that pass 1 removed from unit 4 (and ch. 45 says both are sons of priests). | Offices not assigned; Elmeyas linked to ወአልምያስ with (?). |
+| ቀዋሚሃ | parse | moderate | 'the antecedent of -ሃ is unclear' although ch. 25–26 and unit 19 (ለደብተራሁ, fem. ደብተራ) settle it; root ቀወመ vs house ቆመ. | -ሃ anticipates the feminine ደብተራ, root ቆመ, as ch. 25–26. |
+| ወግልፈዋት | lemma/meaning | moderate | 'graven images' from 'ገለፈ carve' against the house reading 'carved images' (chs. 13–16, 27, 33–34), with no (?) on the lemma. | House wording and cross-references; `l`/`i` unit 13 changed to 'carved images'. |
+| ተኀርዩ | lemma | minor | Lemma was the G ኀረየ for a tä-stem passive (house: ይትገበር → ተገብረ). | Lemma ተኀርየ. |
+| ዘተንሥአት | gloss | minor | 'ዘ- that, because' gives ዘ alone the sense 'because'. | 'because' attached to በእንተ ዘ-. |
+| ጣዖቶሙ | parse | minor | 'plural + -ሙ': the form is the singular ጣዖት + -ሙ (plural would be ጣዖታቲሆሙ). | 'collective singular + -ሙ'. |
+| ወአምለኩ | parse | minor | 'causative, from አምላክ'; house reading is 'denominative of አምላክ' (chs. 13–16, 28, 31–32). | Wording aligned. |
+| ዘርእዮተ | gloss | minor | 'of the vision of, vision' garbled. | Reworded. |
+| ዘይትዐጸፍ | gloss | minor | (?) twice. | One (?) kept. |
+| ወይጸብዑነ | gloss | minor | Spelling with ዑ unmentioned. | Added. |
+| ወኣርጋኖን | gloss | minor | 'wind instrument' is narrower than Greek ὄργανον. | 'a musical instrument', (?). |
+| አሕሥሞ | gloss | minor | Presented as 'infinitive-like' without ch. 64–65 አሕሠምኪ and the note's 'cannot parse'. | Cross-reference and (?) added. |
+| __broaden__ መሐሉ | broadening | major (omission) | Unit 1 reads መሐሉ as 2mp imperative 'swear!' but known entry only says 'they swore'; the glosser did not broaden it. | Old entry whole + ' · also 'swear!' (2mp imperative…)'. |
+
+### Unit changes (unit numbers 0-based, as in units.json)
+
+| Unit | Field | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| 19 | l, n | moderate | See ወሃቤ: 'and-giver-of food'. | 'giver-of food'; note explains. |
+| 13 | l, i | minor | 'graven images' while note and house say 'carved images'. | 'carved images'. |
+| 20 | l | minor | Both ፈነውክኒ and ለአክኒ rendered 'you-sent-me' though `i` distinguishes 'send' and 'dispatch'. | Second is 'you-dispatched-me'. |
+| 12 | n | minor | 'ተፈሥሐ and ተከዛ are 3ms'. | See ወተከዛ. |
+| 16 | n | minor | ማኅደራ called ማኅደር + -ሃ; after a consonant the suffix is -ኣ (written -ራ), -ሃ only after a vowel. | -ኣ. (The published entry for ማኅደራ and ግብራ still says -ሃ; known entries are not edited.) |
+| 27 | n | minor | ግብራ: ግብር + -ሃ, same fault. | -ኣ. |
+| 21 | n | minor | 'passive of ገበረ' (misspelt). | ገብረ. |
+| 23, 26 | n | minor | 'T-stem of መዐ / መዐዐ' (not the roots). | 'root m-ʿ-ʿ'. |
+| 29 | n | minor | እዘኒሁ given with no word on its odd stem. | Stem flagged, perhaps አእዛኒሁ (?). |
+| 30 | n | minor | 'ምክር + -ሆሙ' for ምክሮሙ. | '-ሙ'. |
+| 34 | n | minor | 'imperfect of ረዓደ' (lemma is ርዕደ). | ርዕደ. |
+
+Counts (pass 2): major 4 (2fs parse of three forms counted once, ወሃቤ, ወእዘኒሁ, the omitted መሐሉ broadening), moderate 8, minor 20 (rows in the two tables above; the ወሃቤ unit-19 row is counted with its gloss row). Gloss entries touched: 28 of 139 plus 1 broaden added; units touched: 11 of 35 (none in `t`).
+
+### Findings checked and refused (no change)
+
+- በሉኬ lemma ይቤ (house lemma for the defective 'say'; the note names ብህለ): kept; (?) already present.
+- ኀስራ/ኀስሩ: lemma ኀሠረ with root written ḫ-s-r, 'diminished': kept; the ś/s difference is explained in the entry.
+- ወሰገለ 'sorcery, divination (?)' against house 'sorcery, magic (?)': kept, same word and hedge.
+- ለሰሚዕ/ወለሠዊዕ 'verbal noun' where the note says 'infinitive': kept, same thing.
+- ለእ / ግዚኣብሔር split-word entries (lemma እግዚአብሔር on both halves, each stating it is part of one word): kept; sensible and each carries the full-word lemma.
+- ዘመገበነ 'fed (?)', ኢይትአተት 'withdrawn (?)', ኢተሐዘብነ (house ተሐዘበ 'reckon, expect'), ቀነተ, ሠዊዕ, ጋኔን, ኢዮብልዮስ (lemma ኢዮቤልዮስ, the Jubilees form): kept; no evidence against.
+- ወከብራ/ወከብሩ, ኀስራ etc. 3fp/3mp endings, ሀለውክሙ, አሠነይነ, ወገበርነ, እትፌነው: parses correct as given.
+- ዘ-/ወ- proclitic labels throughout (ወ-, ለ-, በ-, እም-, ዘ-): correct; ወሀብኩከ (ወ part of the verb) correct.
+- Broadened ወገብሩ and ለዳዊት: old entry whole + ' · ' + new, formatted correctly; no further known form needed broadening (checked each known form against its use in this part).
+- Pass-1 refusals re-read and agreed (መሐሉ imperative in unit 1; ወልዲ/ፈቃዲ -ዲ; ይትሐበለዩነ; ይመይጥ; ትዕይንት; ኀይለ).
+
+### Build and validate
+
+`python3 ../run3/r3.py build kebra-nagast kebra-nagast-ch87` printed `BUILT kebra-nagast-ch87: 35 units → kebra-nagast-ch87.json`; `python3 ../run3/r3.py validate kebra-nagast kebra-nagast-ch87` printed `PASS` (no WARN lines, no errors). publish not run.

@@ -218,3 +218,5 @@
 2026-10-24 (unattended, publishing run) · Night 54 (P407L18–P410L14, 65 lines) · 54 sense units (1 verse block) · 3 disjoint slices; check_slice PASS on all · whole-night review applied (5 fixes; 319 shared-glossary wordings kept) · validate_night PASS · +156 glossary entries · no omissions.
 
 2026-10-25 (unattended, transcribing run) · PDF 431–438 (printed 411–418) · 179 lines · 42 disagreements (2/9/13/1/3/8/3/3 per page) · 17 low-confidence verdicts (p432 بِاَنَّ, وينتحت; p433 verse vowel marks ×11; p434 وهيأوا; p435 وَالاَهْوَالَ; p437 مثلما; p438 شيء) · Vision drafts for all pages · Pass 1 strongest, pass 2 Sonnet, adjudication strongest · pass 2 Sonnet stayed under the 10-a-page limit · all joins continuous · validate_archive PASS.
+
+2026-10-25 (unattended, publishing run) · Night 55 (P410L15–P416L10, 129 lines) · 90 sense units (verse blocks incl.) · 4 disjoint slices; check_slice PASS on all first time · whole-night review applied (21 fixes) · validate_night PASS · +308 glossary entries; existing keys kept · no omissions · the closing word is printed المب—اح in the archive, kept as is · Night 56 is next.

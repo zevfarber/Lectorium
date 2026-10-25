@@ -216,3 +216,5 @@
 2026-10-24 (unattended, publishing run) · Night 53 (P402L12–P407L17, 120 lines) · 99 sense units · 4 disjoint slices; check_slice PASS on all (slice 4 after one hamza --fix) · whole-night review applied (55 fixes) · validate_night PASS · +241 glossary entries; existing keys kept · no omissions · also fixed nights-52.json "audio" field (pointed at audio/nights-51; now audio/nights-52) · Night 54 is next.
 
 2026-10-24 (unattended, publishing run) · Night 54 (P407L18–P410L14, 65 lines) · 54 sense units (1 verse block) · 3 disjoint slices; check_slice PASS on all · whole-night review applied (5 fixes; 319 shared-glossary wordings kept) · validate_night PASS · +156 glossary entries · no omissions.
+
+2026-10-25 (unattended, transcribing run) · PDF 431–438 (printed 411–418) · 179 lines · 42 disagreements (2/9/13/1/3/8/3/3 per page) · 17 low-confidence verdicts (p432 بِاَنَّ, وينتحت; p433 verse vowel marks ×11; p434 وهيأوا; p435 وَالاَهْوَالَ; p437 مثلما; p438 شيء) · Vision drafts for all pages · Pass 1 strongest, pass 2 Sonnet, adjudication strongest · pass 2 Sonnet stayed under the 10-a-page limit · all joins continuous · validate_archive PASS.

@@ -68,3 +68,41 @@ Counts: major 2 (items 1-2), moderate 9 (items 3-11), minor 10 (items 12-21); 21
 
 - Known entries needing broadening: ተሐውር (here 2ms, 'you will go'), እማቲሆሙ (here 'their mothers', as in ch. 43; known entry says maidservants), ፀዋገ, ክሳዲ ('neck', ending unexplained), ዘሜላት/ሜላተ, ወየኀጥኡ-type የኀጥ → ኀጥአ, ይትዋነዩ → ተዋነየ 'play', ፈርሃ (3fp), ተሀጐልነ (1cp perfect), ሄደ.
 - Novel forms in a published-form clash: ክልኤሆን applies to እደዊሁ (feminine because እድ is feminine; no 'dual').
+
+# Pass 2 — glossary (reviewer)
+
+Checked every entry of gloss.json (95 novel keys + __broaden__) against units.json (l/i as revised in pass 1), known-forms.json and the house glossaries of other parts. Coverage: every token of the chapter is in gloss.json or known-forms.json; every novel form has an entry; no key is absent from the text; no novel key duplicates a known one. Edits by script, keys and lemmas unchanged except where stated.
+
+## Changes (key · severity · what was wrong · what was done)
+
+1. የኀጥ · major · glossed ውኅጠ 'swallows', the reading pass 1 rejected; contradicts l/i 'misses'. · lemma ኀጥአ, 'he misses, errs' (3ms imperfect, የ- guttural prefix), hedged (?).
+2. ይትዋነዩ · major · 'they serve, wait on' vs l/i 'played' and the house ተዋነየ 'sport, play'. · 'they play, sport'.
+3. ተሀጐልነ · major · 'we are lost, we perish' (present) for a 1cp perfect; l/i 'were/have been lost'. · 'we were lost, have been lost (1cp perfect)'.
+4. ወአስተጣግዐት · moderate · 'set up, lifted' contradicted l/i 'pressed close'. · 'pressed close (?)'.
+5. ወአውቀዮ · moderate · 'cut off' only; l has 'struck(?)-him(?)'; suffix -ዮ now stated with the double object. · rewritten, hedged.
+6. ፀዋገ (broaden) · moderate · known 'captor' entry unsuited to l/i 'grim (?)'. · added ' · grim (?) ... ከመ ድብ'.
+7. መሐዛት (broaden) · moderate · known entry says 'subject of ወወውዑ', a word not in this chapter. · added its role here (subject of ወተስእልዎ, 'attendants (?)').
+8. ፈሪየ · moderate · plain 'fruit (noun)' while l reads the infinitive 'to-bear-fruit'. · both readings stated (?).
+9. ዘጒንዲ · minor · lemma ጒንዲ is not a dictionary form. · ጒንድ, as in the house glossaries (ch. 33–34 etc.).
+10. ወመገብት · minor · 'from ገብረ serve' vs pass-1 / house 'stewards'. · lemma መጋቢ (house), hedged.
+11. ወተስእልዎ · minor · parse 'tä-stem of ሰአለ' presented as if the stem were odd. · stated as the usual 'ask'; 'asked about him' (?).
+12. ወአንቀጥቀጠ · minor · 'made shake' (transitive) vs l 'shook'; 'causative' label. · 'shook, set trembling'; quadriliteral አን-.
+13. ወእገሪሁ · minor · gloss 'feet' vs l 'foot'. · 'foot (feet)', singular used collectively.
+14. ኢያእመራ · minor · 'causative-form' mislabel of አእመረ. · 'ʾa-stem of the usual verb know'.
+15. ክሳዲ · minor · now says 'her neck' is by inference, with the ክሳዲኒ reference.
+16. ሄደ · minor · added the Amharic-type note (house ch. 43, 73–75) and the unclear link after እንተ.
+17. የኀድጋ · minor · second use (ሶበ የኀድጋ, 'when they had left') added.
+18. ቅድሜሆን · minor · added that the lemma follows the house form ቅድሜ (kept, not changed to ቅድም).
+19. ክረምት · minor · 'fem.' asserted without checking · hedged (?).
+20. Broadening of known entries (old entry kept whole + ' · ' + new): ፀዋገ, መሐዛት (above), ሥጋ ('meat'), ኢይክል ('he cannot'), ሠናየ (adjective), ዘሜላት and ሜላተ ('purple (?)'), ኮነ ('when it was time'), ይነብር ('will sit'). Already present from pass 1 and verified: ተሐውር (2ms), ክልኤሆን, ቤተ, እማቲሆሙ ('their mothers'), እንተ. 
+21. ፈርሃ: already correct (3fp perfect); no change.
+
+Counts: major 3 (1-3), moderate 5 (4-8), minor 11 (9-19; broadening 20 not counted as errors).
+
+## Refused / not changed
+
+- ቅድሜሆን → ቅድም: the house glossaries use ቅድሜ.
+- ወተፍእመ, ጠለፎ, ጥብሬሌስ, ወመልኀት, ተጸወነ, ምስዋረ, በጽምሚት, ወየውሀቶ, እምትርኣሲሃ, እምካልኣኒሆሙ: remain hedged; no evidence to resolve.
+- ኢይነግሥ, ወኢይነብር, ኢየኀድግ: kept as 3ms imperfect with 1cs sense (?), as in pass 1.
+- Known ልብሳ is labelled '-ኣ 3fs her'; the 3fs suffix is -ሃ (ልብሳ = ልብስ + -ሃ, after a consonant). A published form; not edited, flagged for the owner.
+- Known ኪያኪ, ወይቤላ, ለወልደ, ንጉሠ, ከመ, እምዘ, ፭: all cover this chapter's uses; no broadening.

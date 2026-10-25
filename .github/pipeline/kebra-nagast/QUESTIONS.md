@@ -35,3 +35,4 @@
 - 2026-10-24 · ch77 · Unresolved without Dillmann: see LOG line (ናየድዐክሙ root, ሜጠ ገጾ idiom, ማሕስአ / ጠሊ, አኅዘ 'pledge', አዕጻ ፡ ዳተ, ፈረሳዊያን 'Persians' vs Pharisees/horsemen). Part title is ours (parts.json name was empty). Decided meanwhile: published with (?) flags.
 - 2026-10-24 · ch78-79 · Unresolved without Dillmann: see LOG line (ወፀዓዓት, ዘያጠይሶ ለመርቄ, አቅማባ, መከራ/ይቤላ person, ዘያወስበነ, ከመ ሞተ, አጋራዊያን). Text calls Lot Abraham's 'brother' and settles him in the mountains of Ararat; kept as printed. Part title is ours. Decided meanwhile: published with (?) flags.
 - 2026-10-24 · ch80 · Unresolved without Dillmann: see LOG line (ላሕያት 'barren' or 'fair', ዘመዲ, ornament words ዐስቀ / ዘዲባጋት / ሰዋትል / አዕኑገ, መስተዛውዐ, ዘያነሥኦ ለአምላክነ ዳጎን). Part title is ours. Decided meanwhile: published with (?) flags.
+- 2026-10-25 · ch81 · Unresolved without Dillmann: see LOG line (የኀጥ clause in unit 8, ጥብሬሌስ, ተፍእመ, ክልኤሆሙ with ሰክሩ, በጽምሚት, ኒዒ). Part title is ours. Decided meanwhile: published with (?) flags.

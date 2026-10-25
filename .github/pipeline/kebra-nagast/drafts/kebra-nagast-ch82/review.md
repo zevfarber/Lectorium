@@ -82,3 +82,48 @@ Counts: major 1, moderate 23, minor 29 (total 53).
 ### Unresolved (?) words after pass 1
 
 ናየድዐክሙ, ኀጥአ (‘lack’), መካን (‘barren’), ምስካቢሆሙ (singular parse), ይትገአዙ, ምሒረ, ኢይናፍቅ, ዘይሴሰይ (subject or object), ኣአኵቶ, አኅለቁ (subject), ጣዖት (‘idol-worship’), ላዕሌየ, ላሕይ, እሞት clause (‘otherwise’), ሰገዲ, ዐባይ, ዘተወልዲ, አርድእዎ, ሀበኒአ, እሕፅያ, ከላእኩ, ግበርአ (and who speaks), ጠፋልሐ, ፼ (spoken form), ወአእተዋ, አረፍተ, ይትገመር, ይእቱ ብሔሮ, እመ ይሁበከ, ተነግፈ (and its subject), ዮጊ, መሥዋዕተ (construct reading), ቅድ ሜከ, በርሥኣኒ, ኣቀውም, ወእገብሮ ዐበይተ ነገሥተ, በሰማያትኒ (Christ’s kingship reading).
+
+## Pass 2
+
+Reviewer pass 2. Every `gloss.json` entry (about 140 novel forms and 9 broadened) was checked against the text, `units.json` and `known-forms.json`. All 44 `t` values untouched (diff shows no `t` line changed). Coverage: every novel form has an entry, no extra keys; every `__broaden__` entry begins with the old known entry whole followed by ' · ' (checked by script). Lemmas are dictionary-form words throughout; the person/number/stem labels were re-derived form by form and found correct except where listed. No modern forms found, but several readings rest on context only and now carry (?).
+
+### Changes
+
+| Unit / form | Field | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| 40 | l, i, n | moderate | ዘትቤ ሳራ rendered with “you-said” (l) and “says” (i, n): ትቤ is 3fs, and the house entry (and unit 2) treat the prefix forms of ይቤ as the perfect. | l “what she-said, Sarah”; i “What Sarah said is true”; n says ‘what Sarah said’ and points to unit 2. |
+| __broaden__ ዘትቤ | gloss | moderate | New reading given as present ‘what she says’, same error. | “what she said (ዘ- + 3fs ትቤ …: ዘትቤ ሳራ ‘what Sarah said’)”; old entry kept whole. |
+| __broaden__ ግብጽ | gloss | minor | Covered ‘the Egyptians’ but not unit 0’s use (Egypt as goal, accusative without a preposition). | Added that reading; old entry kept whole. |
+| __broaden__ መካን | gloss | minor | ‘barren’ given as settled; unit 2 note hedges it. | “sense from context (?)”. |
+| መካነ | gloss | minor | Same: ‘barren’ with no (?). | (?) added. |
+| ምስካቢሆሙ | gloss | minor | “noun + -ሆሙ” stated flatly; the -ቢ- is unexplained and the unit note says the singular parse is itself (?). | Said so; “perhaps ‘their beds’ (?)”. |
+| በበይናቲሆሙ | gloss | minor | Invented a “plural-fem. stem” analysis. | Reworded to the stem በይናት-, analysis uncertain (?). |
+| እሴአለ | gloss | moderate | “the final -ለ being Bezold’s spelling” is an invented explanation. | “the printed ending -ለ is unexplained (?)”; unit 9 note says the same. |
+| አሐዩ | gloss, unit 7 n | minor | Irregular 1cs spelling presented as ordinary. | “an irregular spelling (?)” in both. |
+| ከላእኩ | gloss | minor | ‘refuse’ unhedged; ከልአ is ‘hold back, hinder’. | “hold back, refuse … taken from context (?)”. |
+| ዐባይ | gloss | minor | Variant of ዐቢይ asserted; note hedges. | “taken as a variant spelling (?)”. |
+| ዘተወልዲ | gloss | minor | ‘for ተወልዱ’ asserted; note hedges. | (?) added. |
+| አርድእዎ | gloss | minor | ‘informed’ is from context only (note says so). | (?) added. |
+| እሕፅያ, ሐፀይክዋ | gloss | moderate | Lemma ሐፀየ while the notes (units 20, 28) and l use ሐፀወ; the form with ይ is unexplained. | Lemma ሐፀወ (matches notes), spelling with ይ noted, (?) added. I cannot check Dillmann for ሐፀወ / ሐፀየ. |
+| ብእሲቶ | gloss | minor | “+ -ሁ … written -ቶ” misdescribes the accusative with the 3ms suffix. | Reworded. |
+| አመታ | gloss | minor | “written -ታ after the construct ወልደ” irrelevant. | Cut the phrase. |
+| ኣቀውም | gloss | minor | Parse unhedged; note has (?). | (?) added. |
+| 5 | i | minor | “so that nothing to eat was left” adds a result clause and “left”. | “and there was nothing to eat”. |
+| 12 | i | minor | “otherwise” is not in the Geʿez; the note marks it (?) but i did not. | “otherwise (?)”. |
+| 15 | n | minor | “(perfect + -ዎሙ, written ርእይዎሙ)” is circular. | “3mp perfect + -ዎሙ ‘them’”. |
+
+Counts: major 0, moderate 5, minor 15 (total 20).
+
+### Findings checked and refused
+
+- Lemma ሴሰየ (ዘይሴሰይ), ናፈቀ (ኢይናፍቅ), አረፍት, ርሥእ, ቀበጸ, ተገምረ, ተገአዘ, ምሕረት (for ምሒረ): I cannot confirm any of them in Dillmann (no lexicon here); all but ሴሰየ already carry (?), and ሴሰየ fits the shape and context, so kept; lemma of ተገምረ may really be ገመረ, left (?).
+- ኪ as a lemma for the detached suffix: no dictionary form exists; kept as the form itself.
+- Mixed lemmas ይቤ / ብህለ across entries (ዘእቤለኪ, ዘትቤለኒ vs the known ዘትቤ): both are already in the known entries; not unified.
+- ፹፪ numeral entry (spoken ሰማንያ ወክልኤቱ): follows the house numeral format; kept.
+- Unit 23 i “with its flame” vs l “his flame”: whose flame (sword or angel) is open; kept as pass 1 left it.
+- Unit 10 i “idolatry” and unit 11 i “with me”: notes hedge (?); i left plain as in pass 1.
+- Notes for units 0–43 re-read against the text; no other wrong grammatical label found. “Unit N” cross-references still correct under 0-based numbering.
+
+### Unresolved (?) words after pass 2
+
+All words listed after pass 1, plus ሐፀወ/ሐፀየ spelling, እሴአለ (ending), አሐዩ (spelling), ዘተወልዲ, ሰገዲ, ወአእተዋ, and otherwise (unit 12). Reading ‘barren’ for መካን/መካነ and ‘bed’ number for ምስካቢሆሙ remain hedged.

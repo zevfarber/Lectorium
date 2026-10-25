@@ -63,3 +63,30 @@ Two passes. `t` was not touched (checked: the list of `t` strings is identical b
 - **`i` "So the two" at 135 / "So missiles" at 159** (ὣς): kept, they render ὣς.
 - **Scansion of 92 as "regular" (long ᾱ in the genitive -αο)**: considered and refused; the published parts treat the same ending as a licence, and consistency wins.
 - The gloss was not available (no `gloss.json` in the draft folder), so no parse was checked against the line.
+
+
+## Pass 2 (gloss)
+
+`gloss.json` (116 novel entries, 23 broadenings) read against every line it occurs in. All novel entries are under 230 characters, use only the typographic ’, and carry no line numbers or "here". All 23 broadenings are the old glossary entry whole, then " · ", then the new reading, and the new readings are true. `units.json` needed no change.
+
+### Changes to gloss.json
+
+- **ἕληται** · novel · error · called a "short-vowel subj."; the form is the ordinary long-vowel aorist subjunctive. Rewritten: aor. subj. 3 sg. mid., after εἰς ὅ κε ’until’ (= Attic ἕως ἂν …), ἐκ in tmesis.
+- **κάλλιπεν** · novel · error · said to be "unaugmented"; it is κατέλιπεν with κατά shortened (as the unit note says). Rewritten to match.
+- **ῥέον** · novel · minor · no Attic equivalent named; added (= Attic ἔρρεον).
+- **κέ** · broadened · the entry covers εἰς ὅ κέ only with a fut. or short-vowel subj.; ἕληται (91, 148) is long-vowel. Added the reading.
+- **ἕκτορ** · broadened · the entry gave only voc. and acc.; ἅμ’ Ἕκτορ’ ἴσαν (88) is the dative Ἕκτορι elided, as the 88 note says. Added.
+- **χερείονα** · broadened (glosser's) · the example was written χερείονα Κεβριόναο; the text has Κεβριόναο χερείονα. Order fixed.
+- **ἔβαλον** · broadened (glosser's) · the bare "(war)" replaced by the example σὺν … ἔβαλον πόλεμον ’joined war’.
+- Missed broadenings added (the old entry pinned the form to a different noun or construction): **μακρὸν** (agreeing with ὀχῆα, 121), **πρυμνὴν** (with ὕλην, 148), **ἀγαυοῦ** (with Ἰδομενῆος, 117), **ἀργαλέον** (predicate with infinitive, 176), **χείρεσσι** (after πεποιθότες, 135), **νήπιοι** (in apposition, 125), **ἡμέτερόν** (neut., with μένος, 165), **ὄχεσφιν** (with παρά, 91).
+
+### Findings considered and refused
+
+- **εἴσατο (118)** as ἵεμαι ’made for’: accepted; the broadening is true.
+- **εἴσαντο (103)** as εἴδομαι ’seemed’: accepted; no Attic equivalent exists to name.
+- **δέχαται** given no tense: left; the entry says "3 pl. mid., epic -αται (= Attic δέχονται), present force", which is the traditional account.
+- **ἑτέρων** ’of others’ (93, "of the second"): left; the sense is general and the entry gives "one of two".
+- **βαλλομένων** wording "of men or shields": left; true of 151 and 160.
+- **σφίσιν, τῷ (98), ἐπί/ἐπ’, περί** (reflexive or accompaniment uses): left; the existing entries cover the case and sense.
+- **ὣ**: possessive ὅς, acc. dual, with μηρώ: correct and kept apart from the relative.
+- Some pinned entries (e.g. πάσης, ἐΰδμητον, ἀάπτους) are matched by the line and were not broadened.

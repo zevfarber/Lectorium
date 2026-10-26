@@ -93,3 +93,55 @@ major 1, moderate 16, minor 32 (rows in the table above: 49; refused findings: 1
 ### Remaining cruxes
 
 መረዋሕት, ጸቃውዕ, ጽንጒነ, ብትክ, ሕሱመ/ሕሡመ, ፀዋገ, ንከይድ, ኢትሂዲ, ተሓመየ, ተላኰዩ, ዘአተወ, ጸድፍ, ጠናቀቀ/ኢትእርዩ, ክልስስተ, አፍኅርቲሃ, ማኅፈደ, ተድባብ, ዘያስተአኪ, ጽሙም, መካልይ, ትርብዕተ, ርዴ/ልቃሕ (all (?) and unresolved without Dillmann); ዘይነኪየክሙ (root); the ዳዊት phrase in unit 33 (Menelik reading, (?) against the Christ reading); ኢትዘበጥ (form); እማውታ (Acts 15:20 guess).
+
+## Pass 2
+
+Checked: all 200 gloss entries and the broadenings against the text and units' `l`/`i`/`n` (lemma, person/number/gender, stem, suffix pronouns, proclitics, meaning against `i`); every Geʿez phrase quoted inside an entry against the text (the only phrases not found in this part are examples inherited from earlier parts' entries and the two split-word spellings ን ፡ ገስስ, ዘርእ ፡ ክሙ, which are as printed); coverage (all 435 word forms are in gloss.json or known-forms.json, none in both, none stray); lemma spellings and senses against the published glossaries (searched by lemma in all kebra-nagast-ch*.json). Dillmann and Budge are not available, so lexical calls stay hedged (?). Edits by script (json, ensure_ascii=False, indent 1); `t` and every `p` flag are untouched (verified against a copy taken before the edits). Numeral: Ethiopic ፺ is 90 (the tens run ፲ ፳ ፴ ፵ ፶ ፷ ፸ ፹ ፺); the Geʿez tens are ዐሠርቱ, ዕሥራ, ሠላሳ, አርብዓ, ኀምሳ, ስሳ, ሰብዓ, ሰማንያ, ተስዓ, so spoken ተስዓ (täsʿa) 'ninety' stands (the ch. 89 entry has ተስዐቱ for 'nine', ተስዓ for the ten-series is the standard form); format brought in line with chs. 80-88 ('90, spoken … ; chapter number (numeral)').
+
+### Changes
+
+| Item | Severity | What was wrong | What was done |
+|---|---|---|---|
+| gloss አዝዞሙ | moderate | labelled 2mp imperative; God is speaking to Moses alone (ይቤሎ ለሙሴ አዝዞሙ), so it is 2ms | '2ms imperative, G, addressed to Moses' |
+| gloss ወንግሮሙ | moderate | same: 2mp imperative for a command to Moses | '2ms imperative' |
+| gloss ዘያስሕቶ | moderate | lemma አስሕተ is no verb shape and 'ስሕተ' for 'err' is not the lemma used elsewhere | lemma አስሐተ, 'ʾa-stem causative of ሰሐተ', as in chs. 64-65 and 77 |
+| gloss መርሕብ | moderate | called 'construct plain of'; in ከመ ጽንጒነ መርሕብ it is the genitive after ጽንጒነ, not itself a construct | 'genitive after ጽንጒነ, not a construct'; root only 'related to r-ḥ-b' |
+| gloss ኢትጠናቀቁ and unit 20 `n` | moderate | called a ተ-stem form of ጠነቀቀ (pass 1 had already said it is not a Gt, and the note repeated it); only one ት stands before the stem, so it is a plain 2mp prohibitive | gloss: 2mp prohibitive of a quadriradical related to ጠነቀቀ, long ና unexplained, meaning my reading (?); `n` the same |
+| gloss ካልኦ | moderate | parsed as the bare adjective 'another'; in this orthography accusative + -ሁ is written -ኦ (ንዋዮ, ቢጾ, ፍኖቶ) and chs. 23 and 53 give ካልኡ as 'his other' | 'probably accusative ካልአ + -ሁ, "his other", the idiom ፩ … ካልኦ' (?); `l`/`i` of unit 11 left ('another' is sense-true) |
+| gloss ዘአተወ and unit 12 `l` `i` `n` | moderate | 'one who led/drove in' made አተወ transitive, against every published use (አተወ 'enter', chs. 13-16, 61, 77) and against the parallel in the next unit (ዘወድቀ ንዋየ, intransitive verb + accusative). `i` also invented a human agent ('someone has driven') | gloss, `n`: 'one that came in, entered' with 'drove in' kept as the other possible reading (?); `l` 'one-that entered(?) animal … turn-a-blind-eye-to-it'; `i` 'if an animal from your neighbour's goods has come in (?) among your own, do not turn a blind eye to it, but give it back to him' |
+| gloss ኢአሚኖ | moderate | 'a participle of አመነ … ending unclear' | read as the gerund አሚኖ (the pattern of ነጊሮ), still (?) |
+| gloss ወኢትሂዲ | minor | called 'singular-looking', but the ending -ዲ in a 2mp sense occurs three times (ትርዕዲ, ተዐጽዲ, ኢትሂዲ); the three were glossed three ways | all three labelled 2mp with the -ዲ spelling, cross-referred; ሄደ cross-referred to chs. 43, 81 |
+| gloss ትርዕዲ, ተዐጽዲ | minor | no person given; 'slip' asserted | '2mp imperfect, written with 2fs-looking -ዲ for -ዱ', probably a habit of the source (?) |
+| gloss ተመዪጠክሙ and unit 20 `n` | minor | stated as a verbal noun only; the form could equally be a 2mp perfect | both readings given, the ዪ spelling flagged, (?) |
+| gloss ኢትዘበጥ | minor | 'form problem left open' | adds: perhaps ኢትትዘበጥ with one ት dropped (?) |
+| gloss ወታስተላዕልዎ, ታስተላዕልዎ, ዘያስተአኪ | minor | 'causative-reflexive' | 'አስተ- causative of the tä-stem' |
+| gloss ወዘረሳዕክሙ | minor | lemma ረሰዐ (published lemma is ረስዐ); the ሳ spelling unremarked | lemma ረስዐ; 'written ረሳዕ- for ረስዕ-, as ወረሳዕነ in ch. 60b' |
+| gloss ንከይድ and unit 4 `n` | minor | the order of the senses (sight, hearing, ?, touch, taste) points to 'smell' for ንከይድ; not recorded | recorded as a doubt in both, sense left 'tread, go (?)' |
+| gloss ጸሊማነ | minor | 'plural ጸሊማን' for an accusative form | 'accusative plural of ጸሊም, nom. ጸሊማን' |
+| gloss ቀላይ | minor | 'mire (?)' with no link to the published ቀላያት 'the deeps, seas' | cross-reference added |
+| gloss ፺ | minor | form of the numeral entry | see above |
+| broaden ይትገሐሡ | minor | new reading said 'of ተግሕሠ' under the lemma ተገሐሠ | 'the same verb as ተግሕሠ'; old entry and lemma kept |
+| broaden እምዘ | minor | new reading quoted ወእምዘ ርኢነ (a different key) | 'in respect of what' with the plain example እምዘ ንሰምዕ only |
+| broaden ሰብአ | minor | not needed: ሰብአ ቤቱ is already the example in the known entry; only the English differs | removed |
+| broaden ኪያሃ | minor | not needed: the known entry already says 'her (accusative pronoun)'; the new use is one more example | removed |
+
+### Findings refused (with reasons)
+
+1. ተግሕሠ vs ተገሐሠ as lemma: the published parts split (chs. 13-16, 89, 54, 61 ተግሕሠ; chs. 40, 88, 57-58 ተገሐሠ). Both are kept as they stand in each entry, since I cannot decide the dictionary spelling without Dillmann; the new entries follow ch. 89. The old broaden entry ይትገሐሡ keeps its lemma ('old entry whole').
+2. ገምጸ lemma (ወኢትግምጹ, ለገሚጸ, ወዘይገምጽ): ገምጸ (CäCCä, like ገብረ) and ገመጸ are both possible shapes and I cannot check Dillmann. Left.
+3. ዘይነኪየክሙ: the entry already says the root and the ነኪር link are doubtful; a possible ነከየ 'harm' is not offered because I cannot verify it. Left.
+4. ኢትእርዩ, ወኢትትሓመዩ, ወኢትትላኰዩ, ሕሱመ/ሕሡመ, ፀዋገ, መረዋሕት, ጸቃውዕ, ጽንጒነ, ጸድፍ, ተድባብ, ክልስስተ, አፍኅርቲሃ, ጒሕሉት, መካልይ, ትርብዕተ, ርዴ/ልቃሕ, ብትክ: unresolvable without Dillmann; each is already hedged (?) and untranslated or guessed in `i`. Left.
+5. ወመማክርቲሁ: lemma መምከር as in chs. 29, 38-39, 70, 87 ('singular not confirmed'); the entry says so. Left.
+6. ቦዘጸዓነ lemma ቦ with the whole word printed as one; as in ch. 15 `n`. Left.
+7. Unit 11 ካልኦ in `l`/`i`: 'another' is sense-true, and the 'his other' reading is only probable. Left.
+8. Unit 1 `i` 'and it was given to you from God, except my lord the king': ዘእንበለ could govern the first clause only; the English keeps the Geʿez order. Left.
+9. The broadenings ዐዘቅተ, ለእግዚእነ, ትመጽእ, በእንተ, ብክሙ, ዘርእ, ን, ለእመኒ, ፀዋገ, ይትገሐሡ, እምዘ: each keeps the old entry whole, adds ' · ' + the new reading, and the new reading is a use the old entry does not cover (all checked against the text). ለእግዚእነ gives the Menelik reading with (?).
+10. ንዋይክሙ, ወሀብክሙ, ወትሁቡ and the other regular forms: person, number, stem and suffix checked against the form; no change.
+
+### Counts (pass 2)
+
+major 0, moderate 9 (8 gloss entries + the `l`/`i`/`n` of unit 12, one table row with ዘአተወ), minor 14 (10 gloss rows, 4 broaden rows); table rows: 22 (some rows combine several keys); findings refused: 10 (groups).
+
+### Remaining cruxes
+
+As in pass 1, plus: ዘአተወ (intransitive 'came in' vs 'drove in'), ካልኦ ('his other'), ኢአሚኖ (gerund), ንከይድ ('tread' vs 'smell'), ተመዪጠክሙ (verbal noun vs 2mp perfect), the -ዲ endings of ትርዕዲ / ተዐጽዲ / ኢትሂዲ, ተግሕሠ / ተገሐሠ lemma spelling.

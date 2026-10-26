@@ -152,6 +152,7 @@ repository is the state, never this table. Run it rather than trusting what is w
 | Night 54 | P407L18–P410L14 | published 2026-10-24, 54 sense units (1 verse block), 3 disjoint slices + 1 whole-night review; 156 new glossary entries |
 | Night 55 | P410L15–P416L10 | published 2026-10-25, 90 sense units, 4 disjoint slices + 1 whole-night review; 308 new glossary entries |
 | Night 56 | P416L11–P419L20 | published 2026-10-26, 61 sense units, 4 disjoint slices + 1 whole-night review; 145 new glossary entries |
+| Night 57 | P419L21–P422L10 | published 2026-10-26, 38 sense units (1 verse block, 1 short verse pair), 4 disjoint slices + 1 whole-night review; 134 new glossary entries |
 
 A night runs 84–224 archived lines (about 5½ printed pages), so eight transcribed pages yield
 roughly one and a half nights. Eight units are waiting as of 2026-09-18, so the next several

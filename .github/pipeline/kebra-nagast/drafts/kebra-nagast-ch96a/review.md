@@ -38,3 +38,41 @@ Totals: major 0, moderate 5 (rows 1-5; row 4 touches two units), minor 12.
 - Unit 0 note "ዘ- 'of, that is'": loose but not wrong. Left.
 - Words glossed with (?) in the note only (ትዕይንት, ሰገዲ/ወርዕዲ spelling): ትዕይንት "camp" agrees with published ch. 61; the spelling queries are orthographic and not translation cruxes. Left.
 - Observation for the glosser, not changed here: known-forms.json glosses ወትሬኢ as "and she sees (3fs)"; in unit 13 it is 2ms ("you will see").
+
+# Pass 2 (units re-check and full gloss check) — kebra-nagast-ch96a
+
+Edits by script with exact-match assertions; `t` unchanged (checked before and after). Coverage re-run: every form of the 376 words is in known-forms.json, gloss.json or `__broaden__`; every novel form has a gloss entry; every `__broaden__` entry starts with the known entry verbatim + ' · '. All entries checked against the text and known-forms.json. No modern translations used; Dillmann not available, so lexical calls are from memory and are hedged where unsure.
+
+## Changes
+
+| # | Unit / form · field | Sev. | What was wrong | What was done |
+|---|---|---|---|---|
+| 1 | ይነጽሮ (unit 2) · gloss, l, i, n | moderate | Called a 3ms jussive. The spelling (ይነጽሮ, first-order ነ then ጽ) is the imperfect (jussive would be ይንጸሮ). Unit had "let-him-look-at" / "let him look". | Gloss: 3ms imperfect, volitive in force. l "he-looks-at"; i "shall look at"; n "imperfect (volitive in force)". |
+| 2 | ኢንሰምዓ, ኢንሰምዖ · gloss; unit 9 n | moderate | Labelled 1cp jussive; ን-ሰ-ም spelling is the imperfect (ንሰምዕ). | Gloss: negated 1cp imperfect used as a refusal ("we do not hear / let us not hear"); unit 9 note fixed. i kept ("Let us not hear"), as force and for matching unit 11. |
+| 3 | ኢንስምዖ · gloss; unit 11 n | moderate | Said to be a "variant spelling" of ኢንሰምዖ; it is the true jussive (ንስምዕ). | Gloss and note now say jussive spelling of the same words. |
+| 4 | ኢነአምኖ · gloss | moderate | Gloss still had the pass-1-corrected error: "let us not believe in him", subjunctive. | "we do not believe him", 1cp imperfect indicative, not ንእመን. |
+| 5 | አምኑኒ · gloss | moderate | Gloss "they have believed ... enclitic -ኒ" contradicted unit 6 (pass 1: -ኒ "me"?). | Gloss: "they believed me (?)", -ኒ as 1cs or enclitic, (?). |
+| 6 | ተህየይዎ · gloss | moderate | Lemma ተሀከየ with "perhaps a corrupt spelling of ተህከይዎ"; the form is a regular 3mp + -ዎ of ተሀየየ (ተሀየዩ + ዎ), as unit 4's note and the known ch. 55-56 ተሀየይዎ say. | Lemma ተሀየየ, (?) kept, corruption claim removed. |
+| 7 | በሲኦል · broaden | moderate | Known entry reads "as Sheol, by Sheol"; here it is "in Sheol" (place). | `__broaden__` added: 'in Sheol'. |
+| 8 | ነገሮሙ · broaden | moderate | Known entry is the noun "their words"; here it is the verb "he told them". | `__broaden__` added: verb ነገረ + -ሙ. |
+| 9 | ወትሬኢ · broaden | moderate | Task point: known 3fs; here 2ms. Existing broaden was close but lacked ወ-/G and the stem label form. | Rewritten: old entry whole + ' · ' + "'and you will see' (ወ- + 2ms imperfect, G: ...)". |
+| 10 | ለዛቲ, ለደቂቀ, ለሙሴ · broaden | minor | Known entries give only "to/of" readings; here ለ- also marks the object (ኢንሰምዓ ለዛቲ ቃለ; ሐመይዎ ለሙሴ; አመንደብዎሙ ... ለደቂቀ) or names the owner (ሐሜቶሙ ለደቂቀ). | `__broaden__` added for each. |
+| 11 | ይስምዑ · broaden | minor | Known "3mp imperfect"; the form is the subjunctive after ከመ. | `__broaden__` added. |
+| 12 | የሐይዉ, ኢፈተዉ · gloss | minor | "spelled -ዉ" implied an irregular spelling; -ዉ is the regular 3mp ending after ወ. | Phrase removed. |
+| 13 | ዘነሰኮ · gloss | minor | "written -ኮ" (pass 1 fixed the note, not the gloss). | "ከ + ዎ fuse as -ኮ". |
+| 14 | ለትሠሮ · gloss | minor | A regular 3fs jussive of ሠረወ would be ትሥረው, not ትሠሮ; entry did not say so. | Added that the form does not match and the lemma is tentative. |
+| 15 | Unit 2 · l | minor | l "vexed(?)" against i "tormented (?)". | l "tormented(?)". |
+| 16 | Unit 2 · n | minor | Note said "root ተህከየ"; gloss lemma is ተሀከየ. | Note aligned to ተሀከየ. |
+
+Totals: major 0, moderate 9 (rows 1-9), minor 7 (rows 10-16; row 10 is three entries).
+
+## Checked and left
+
+- ፺፮: follows the convention (፸ pattern, spoken ተስዓ ወስድስቱ with transliteration and English). Left.
+- ሐጽ "arrow", ትዕይንት, ምንዳፍ, አመንደበ, ተአመረ, ተሀከየ, ደፈነ, ሐመየ, ቆባር, ግላ, መጽሔት: lemmata plausible but not checkable without Dillmann; all already carry (?), kept.
+- Lemmata checked as real dictionary forms: ሰበከ, ኦሪት, አንሥአ, አኀው, ሰምዐ, ሕዝብ, ስቅለት, ከይሲ, አውየወ, አድኅነ, አርዌ, ሥዕል, ሰቀለ, ነሰከ, ነጸረ, ሐይወ, ሞተ, ኀልቀ, ወረሰ, ባሕቲት, ተናገረ, ሰአለ, ስርየት, አንጽሐ, ኀጸበ, ዐርገ, አዘዘ, ተአዘዘ, ፈተነ, ከሀለ, አኀዘ, ረዓድ, ጽላሎት, ፈርሀ, ርዕደ, ቆመ, ድንጋፄ, ነገረ, ኮነ, ርእየ, ክሕደ, ብህለ, አርአየ, ሜጠ, ምዕራብ, በርሀ, ነጽሮት, ፈተወ, ጸልአ.
+- Left: ሰገዲ/ወርዕዲ -ዲ for -ዱ queries (orthographic, already (?)); ዛቲ with masculine ቃል (already (?) in note); ትስእል label (imperfect, fine for a 2ms asking).
+
+## Unresolved (?) items
+
+ለትሠሮ (lemma, passive sense), አመንደብዎሙ, ይትኤመርዎ, ተህከዩ, ተህየይዎ, ሐመይዎ/ሐመዩከ, አምኑኒ (me or enclitic), እምትዕይንት, ይትራሐቁ, ምንዳፈ, ፈተኑ, ቆባር, ወደፈኖሙ, ወርዕዲ, መጽሔት/መጽሔተ, በግላ/ግላ, ወርእየ subject (Moses or impersonal), ሰገዲ, ወየሐዩ (number), ዕንዚራ, ምስብዒተ, አውየወ, ዘብርት/ብርት.

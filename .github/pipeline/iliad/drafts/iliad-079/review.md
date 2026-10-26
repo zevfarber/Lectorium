@@ -82,3 +82,43 @@ New-renderings rows changed: ἀρχοὶ Ἀθηναίων, δουρικλυτ�
 - **“going to the war” vs `l` and ἔχε “have as wife” (173).** Both explained in the notes and recorded in `new-renderings.md`. Left.
 - **Title “Idomeneus Arms”.** Can be misread as a noun phrase, but it is a verb phrase in the house style of the neighbouring titles and the part covers the arming; changing a title is outside this pass. Left.
 - **Pass-1 reading of Greek → `l` → `i` word by word:** no further errors in case, tense, mood or particles beyond those above. Remembered-English check: no phrase in `i` that looked ready-made except the stock lines, which follow the table.
+
+## Pass 2 — gloss.json and units.json
+
+Reviewer, pass 2. Every entry of `gloss.json` (104 novel forms, all of `novel-forms.json`, no extra keys; 25 `__broaden__` entries after pass 2, 24 before) was checked against the line(s) where the form stands: case, tense, mood, person, number, voice, homographs, the Attic equivalent of Homeric forms, no line numbers, no “here”, typographic ’ only, under 230 characters (all pass). Each `__broaden__` entry was compared with the root `iliad-glossary.json`: the old entry is kept whole in all of them and the added reading is true of the line. The 377 known forms were also run against their lines for uses their entries do not cover (one found). `t` untouched; units.json re-read once more (notes, `l`/`i`, quotes, marks).
+
+Totals: 0 high, 3 medium, 18 low (21 changes).
+
+| line / key | field | severity | what was wrong | what was done |
+|---|---|---|---|---|
+| 237–238 (ἀγαθοῖσιν) | `n` | medium | A pass-1 edit changed `l`/`i` to “good men” but the note still quoted “even against brave men”, then said ἀγαθός is “good”: the note contradicted its own `l`/`i` and the table. | “even against good men”. |
+| 237 (λυγρῶν) | `n` | medium | A pass-1 edit changed `l`/`i` to “grievous”/“sorry”, but the note still glossed the phrase “of men, and very wretched ones”, the word it goes on to say is kept for δύστηνος. | “of men, even very grievous ones”. |
+| κεκάλυφθ (gloss) | gloss | medium | “perf. pass. 3 sg. (= κεκάλυπται)” gives a present-perfect equivalent for a form that means “was covered” (past), and the note calls the ending unusual. | Now “perfect-system pass. 3 sg., elided, in an unusual ending (Attic plpf. κεκάλυπτο)”. |
+| ἁπαλῆς (gloss) | gloss | low | “Ionic -ῆς (= Attic -ᾶς)”: false; after λ Attic also has -ης (ἁπαλῆς). | Claim removed. |
+| ἐξείρυσσαν (gloss) | gloss | low | “= Attic ἐξήρυσαν”: the Attic aorist of ἐρύω is εἴρυσα, so ἐξείρυσαν. | Corrected. |
+| κόψεν (gloss) | gloss | low | “epic κόψεν (= ἔκοψε)”: κόψεν is simply κόψε with movable ν, not an epic ending. | “aor. 3 sg. act. with movable ν, unaugmented (= Attic ἔκοψε)”. |
+| κορυστὰ (gloss) | gloss | low | “epic -α”: the nominative dual of -της nouns is -ᾱ in Attic too. | Claim removed. |
+| φέρητον (gloss) | gloss | low | “pres. 3 dual act., with long vowel (-ητον for -ετον; read as a subjunctive…)” left the mood undecided. | “pres. subj. 3 dual act. (indic. φέρετον), general, in a simile”. |
+| φίλταθ (gloss) | gloss, `n` of 249 | low | “epic φίλταθε”: no such form; the θ is the aspirate of φίλτατ’ before the rough breathing of ἑταίρων. | Gloss and note (249) say so. |
+| ὁρμηθέντος (gloss) | gloss | low | “gen. absolute” is true at 183 only; at 190 the note (and pass 1) has it agreeing with Ἕκτορος. | “absolute or agreeing with a genitive”. |
+| χάσσατ (gloss) | gloss | low | Left out that the form is unaugmented. | Added. |
+| στιχίος (gloss) | gloss | low | “epic Στιχίος”: nothing epic about the name. | Removed. |
+| νισόμενον (gloss) | gloss | low | Voice not stated. | “mid.” added. |
+| συλήτην (gloss) | gloss | low | Homeric form without its Attic equivalent. | “= Attic ἐσυλᾶτην” added. |
+| ἔχεσκον (gloss) | gloss | low | The form is also 3 pl.; entry must be general to the form. | “(or 3 pl.)” added. |
+| ἀστεροπῇ (gloss) | gloss | low | Homeric word without its Attic equivalent. | “(Attic ἀστραπή)” added. |
+| πήδαιον (`__broaden__`) | gloss | low | “Pedaeum, a town; neut.”: neither the town nor the gender is in the text (the note says nothing more is known of where it lay). | “a place name; acc. sg.”; the old entry still whole. |
+| ἠέ (`__broaden__`) | gloss | low | “‘or … or’” for the first member of a double question, which is “either/whether”. | “’either … or’ (’whether … or’)”. |
+| κλισίης (new `__broaden__`) | gloss | low | The existing entry covers the genitive only after ἐκ and ἀπό; 247 ἐγγὺς … κλισίης is a third use. | Old entry whole + “also fem. gen. sg. after ἐγγύς: ’near the hut’”. |
+| 230 | `n` | low | “τώ is τῷ” for the printed τὼ. | “τὼ is τῷ”. |
+| 169 | `n` | low | The note’s bare translation still said “shout” where `l`/`i` say “war-cry”. | “an unquenchable war-cry had arisen”. |
+
+### Pass 2 — findings considered and refused
+
+- **κατεάξαμεν “of a single speaker” (gloss).** A remark about use, but it is the whole reason the plural stands for the singular and is true of every occurrence in the poem’s speech; the entry is still general to the form. Left.
+- **ἀκήριον entry (known).** The existing entry lists neuter nominative with δέος; the note’s alternative (with τινα) is only a possibility the text leaves open, not a different parse of the form’s role in this clause as the entry would have to carry. Left.
+- **ἀφαρπάξαι, ἁρπάξαντε (gloss).** The infinitive could be read as an aorist optative in Aeolic spelling; no such reading is possible in this context. Left.
+- **ἀγγελίης broadened entry.** The old entry says “message” and the new example “on some news”; the entries are glossary glosses, not the house renderings (which `l`/`i` follow). Left.
+- **μάχεσθαι at 252.** Could be read as depending on a second λιλαίομαι understood; the entry’s “after λιλαίομαι” is true either way. Left.
+- **Unit 190 note vs gloss ὁρμηθέντος.** Resolved in the gloss (above), not in the note, which was already right.
+- **Titles, quotation marks, marks, paragraph marks, `ln`, cross-references.** Re-checked after the pass-1 edits: nothing broken. The pass-1 edits to `l`/`i` left no other stale word in a note (searched for brave, hurl, threw, message, leader, hostile, wretched, shout, drew, whirl, crowd, steadfast, bosses, stood out).

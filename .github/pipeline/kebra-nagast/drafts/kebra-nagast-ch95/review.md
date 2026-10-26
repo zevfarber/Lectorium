@@ -62,3 +62,41 @@ Totals: 0 major, 11 moderate, 29 minor; 7 findings refused.
 ## Glossary
 
 No `gloss.json` yet; this was pass 1 on `units.json` only. For the glosser and pass 2: ባሕርይ is "pearl" (house; "nature" only as the other possibility); ወይኴንን is ኰነነ "judge"; ሰገዲ is the verb ሰገደ "bowed down" (spelled for ሰገዱ); ይቤዝዎ is 3ms; ረሰያ is "he made her"; ለምሥሃል "mercy", sense uncertain; ሀቡ is the hortative "come!"; ዘንዜንዎሙ is from ዜነወ; ኦሪት is not Greek; ጥቀ is "very, exceedingly"; ዐላዊያን is "wrongdoing ones"; ተሠረዉ (unit 10) is the passive of ሠረወ; መሀይምን is unclear (?).
+
+# Review, pass 2 — kebra-nagast-ch95 (ch. 95)
+
+Checked: every gloss.json entry (lemma, meaning, grammar) against its form and every place it occurs in units.json, the numeral entry, the three-plus `__broaden__` entries against known-forms.json (old entry kept whole, " · " + new reading), coverage of all 103 novel forms (none missing, none extra), and units.json once more. `t` untouched; joined `t` equals the packet's Geʿez (verified by script, whitespace aside). Edits by script.
+
+Totals: 0 major, 8 moderate, 7 minor; 5 findings refused.
+
+## Changes
+
+| Where | Field | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| gloss ወእምባሕርይ | entry | moderate | Gave 'nature, essence' while unit 2 `l`/`i` and the house entry read 'pearl (?)'. | 'and from the pearl (?)', 'nature' as the other sense. |
+| gloss ባሕርይ (broaden) | entry | moderate | Broadened reading stated 'nature' as the unit's reading, against unit 2. | Old entry kept whole; new: 'also nature, essence', unit reads 'pearl (?)'. |
+| gloss መሀይምን; unit 13 | entry, n | moderate | Said the -ን is a plural ending beside singular ረድእ; it is the final root letter of the participle (ሀይመነ), so the form is singular and agrees. | Entry and note corrected. |
+| gloss ሙታኒሆሙ; unit 4 | entry, l, n | moderate | The -ኒ- of plurals in -ን before a suffix (ሙታኒሆሙ, ድዉያኒሆሙ, ዕዉራኒሆሙ, ጽሙማኒሆሙ, ኅሩያኒሁ; cf. ቅዱሳኒሁ) is linking, not 'also'; entry hedged it as 'also', and the note and `l` ('dead-their-too' x4) made it 'also'. The glossary's other four entries already said linking. | Entry: linking. Unit 4 `l` '-too' removed, note rewritten (hedged). |
+| unit 16 | l, i, n | moderate | Same -ኒ- in ወኅሩያኒሁ rendered 'too' in `l` and `i`. | 'too' removed; note says linking, not 'also' (?). |
+| gloss ኢያግመሮ | entry | moderate | Led with 'hold, contain' although the unit 5 note says the root looks like አግመረ 'complete, finish'; the entry should lead with the lexical sense. | Leads with 'complete, finish'; 'hold, contain' and 'finish writing' both hedged. |
+| gloss አልዐለ | entry | moderate | Offered 'or it is exalted (?)': a causative perfect has no passive sense (pass 1 already made `i` active). | Alternative removed; subject unnamed. |
+| gloss ተርጒሞ | entry | moderate | Lemma ትርጓሜ with 'form ተርጒሞ for ትርጓሜ' invents an equivalence; ተርጒሞ is the infinitive of ተርጐመ (as unit 20's note said 'infinitive'). | Lemma ተርጐመ, infinitive, construct; unit 20 note says 'of ተርጐመ'. |
+| gloss ወይትኀፈሩ | entry | minor | 'imperfect' beside the unit 8 note's jussive/subjunctive reading, coordinate with ይርአይዎ. | 'subjunctive'. |
+| gloss ተውህበት (broaden, new) | entry | minor | Known entry pins the subject to ታቦት; here it is መድኀኒት. | Old entry whole + new use. |
+| gloss ላዕሌሁ (broaden, new) | entry | minor | Known entry says 'upon, over'; unit 6 has 'against him' (ወቀንኡ ላዕሌሁ). | Old entry whole + 'against' (?). |
+| unit 1 | i | minor | 'a firstborn' unhedged although the note says ወበኵርኒ is uncertain. | '(?)' added. |
+| unit 10 | n | minor | ኀለቀ spelling against the lemma ኀልቀ in the glossary. | ኀልቀ. |
+| unit 20 | n | minor | See ተርጒሞ above. | Fixed. |
+| unit 13 | n | minor | 'Plural-looking ending ... unclear (?)' (see መሀይምን). | Fixed. |
+
+## Refused findings
+
+1. ፺፭ entry: spoken ተስዓ ወኀምስቱ (täsʿa wä-ḫämsətu) 'ninety-five' is correct (90 ተስዓ, 5 ኀምስቱ) and follows the ፲ house format. Left.
+2. ወይትሌ / ዐል: ተለወ 'follow' and ልዑል 'high' stay as the pass-1 hedged (?) readings; no better parse can be had from the text. Left.
+3. ብዲተ, ወለበሓውርት, ክራማት, ወበኵርኒ: uncertain words, already hedged in entry and unit; not resolvable here. Left.
+4. ይትኀፈሩ lemma ኀፈረ against the Gt lemma pattern (ተሰወረ, ተፈሥሐ): the Gt form ተኀፍረ is not confirmable without Dillmann; kept the plain lemma, stem named Gt. Left.
+5. Unit 7/8 note calling ይግነይ, ይስግድ, ይርአይዎ 'jussives' while the glossary says 'subjunctive' (same form; context after ከመ / ሀለዎሙ). Left.
+
+## Glossary
+
+103 novel forms all present with parses from every occurrence; no modern or invented forms found; lemmas are dictionary forms. Broadened: አዕይንተ, ባሕርይ, ኮነት, ውሉደ, ተውህበት, ላዕሌሁ (all keep the old entry whole).

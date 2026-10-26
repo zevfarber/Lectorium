@@ -42,3 +42,4 @@
 - 2026-10-26 · ch90 · Unresolved without Dillmann: see LOG line (መረዋሕት / ጸቃውዕ / ጽንጒነ, ጸድፍ, ንከይድ, ዘአተወ, ካልኦ, ዳዊት አበ አቡሁ reading, ተግሕሠ/ተገሐሠ lemma spelling). Part title is ours. Decided meanwhile: published with (?) flags.
 - 2026-10-26 · ch91 · Unresolved without Dillmann: see LOG line (animal/bird names in the Lev 11 list, ማሪት, ተጠይሮ, አስተቃስሞ / አስምኮ, ተመንደብኪ, ዘትትመሐፀኑ, ወመኪረ, ጸህቂያ, ዳዊት as Menelik). Part title is ours. Decided meanwhile: published with (?) flags.
 - 2026-10-26 · ch92-93 · Unresolved without Dillmann: see LOG line (boundary place names in unit 6, ብዕዛ, ቄፋዝ, ዕሩቃን, ይውሕኩ lemma, ዘእምትካት / ዕድዉ). Source slip ሕዘቢሆ ፡ ሙ kept as printed. Part title is ours. Decided meanwhile: published with (?) flags.
+- 2026-10-26 · ch94 · Unresolved without Dillmann: see LOG line (ሐቢቶሙ, ጋእዘ ባ, ሰባድዕት, አብዓት, ኳላ, ሃፍ, ዘአንጸረ); one lemma needed for ሞዐ / መውአ across the work. Part title is ours. Decided meanwhile: published with (?) flags.

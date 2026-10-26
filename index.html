@@ -763,6 +763,9 @@ function speak(txt, rate, onEnd){
    particle becomes its own tap target — and being a no-break space it still keeps
    host and particle in the same column. */
 const WORD_CLASS = 'A-Za-zÀ-ÖØ-öø-ÿ\\u0100-\\u024F\\u0300-\\u036F\\u1E00-\\u1EFF'
+  /* Latin Extended-D: the colonial Maya letters of the Popol Vuh manuscript — ꜩ (tz), ꜫ (q'),
+     ꜭ (k'), ꜯ (tz') — are letters INSIDE a word, and the rest of the block comes along with them. */
+  + '\\uA720-\\uA7FF'
   + 'Ά-ϿЀ-ӿ\\u1F00-\\u1FFF\\u1820-\\u1877\\u180B-\\u180E'
   /* Arabic: letters, tatweel and the tashkil marks, which are PART of the word — a token
      must carry its own vowels or the bare-script view would have nothing to strip.
@@ -866,6 +869,12 @@ function simplifyConfig(story){
   if ((story.language && /hebrew/i.test(story.language)) || story.script === 'hebrew')
     return { vowels: true, title: 'Vowels — show or hide the vowel points (nikkud)',
              stateKey: 'bareHE', fn: bareLettersHE };
+  // K'iche' (Popol Vuh): each unit carries mt, the modern-alphabet spelling of every word, because the
+  // manuscript's colonial spelling cannot be converted letter by letter (Ximénez marks some ejectives
+  // and not others, and writes qu for both k and q). Off = the manuscript's letters.
+  if (story.sentences.some(x => Array.isArray(x.mt)))
+    return { label: 'ꜩ→tz', labelOn: 'tz→ꜩ', title: 'Modern letters — the words in today\u2019s K\u2019iche\u2019 alphabet instead of the manuscript\u2019s colonial spelling (ꜩ ꜯ ꜭ ꜫ, v, z, h, c/qu)',
+             titleOn: 'Manuscript letters — back to Ximénez\u2019s spelling as written', stateKey: 'modernKI', fn: x => x };
   // Old Norse: same þ/ð/æ letterforms plus the nasal vowel ǫ and the ligature œ; keep acute length marks.
   if ((story.language && /norse/i.test(story.language)) || /[ǫœǪŒ]/.test(txt))
     return { label: 'þ→th', title: 'Plain letters — þ→th, ð→d, æ→ae, ǫ→o, œ→oe (accents kept)', fn: plainLettersON };
@@ -909,7 +918,8 @@ function scanParse(text, sc){
   }
   return out;
 }
-function tokenize(text, scan){
+function tokenize(text, scan, alt){
+  // alt (optional): per-word display forms for the script toggle, one per WORD_RE token (K'iche' modern letters)
   // wrap letter-sequences (incl. hyphenated words and Klaeber-style eorl[as], aldor(lē)ase) in clickable spans
   // scan (optional): the unit's parsed scansion from scanParse — syllable columns inside each word
   let wi = -1;
@@ -927,7 +937,8 @@ function tokenize(text, scan){
             : fold(p.t)).join('')
         + '</span>' + (sw.caes ? '<span class="scaes" aria-hidden="true"></span>' : '');
     }
-    return '<span class="w" data-w="' + wordKey(m) + '" data-wi="' + wi + '">' + (simplifyNow() ? activeSimplify.fn(m) : m) + '</span>';
+    const shown = simplifyNow() ? ((alt && alt[wi] != null) ? escapeHtml(alt[wi]) : activeSimplify.fn(m)) : m;
+    return '<span class="w" data-w="' + wordKey(m) + '" data-wi="' + wi + '">' + shown + '</span>';
   });
   // the pause mark goes after any punctuation that hugs the word (μοῦσα, ‖ not μοῦσα ‖,)
   return scan ? html.replace(/(<span class="scaes"[^>]*><\/span>)([^\s<]+)/g, '$2$1') : html;
@@ -4613,7 +4624,7 @@ function buildSentEl(s, i, showLit){
       de.innerHTML = lnChip + buildStacks(s);
     } else {
       const scan = (showScan && s.sc) ? scanParse(s.t, s.sc) : null;
-      de.innerHTML = lnChip + tokenize(s.t, scan);
+      de.innerHTML = lnChip + tokenize(s.t, scan, Array.isArray(s.mt) ? s.mt : null);
       if (scan) de.classList.add('scan');
     }
     if (vertical) de.classList.add('vert');

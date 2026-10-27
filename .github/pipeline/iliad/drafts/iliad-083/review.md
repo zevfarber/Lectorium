@@ -67,3 +67,74 @@ Unit = the unit's `ln`; for the two units that start at 570 the second is the si
 - **Glosses (gloss.json):** not read in this pass.
 
 Pass 2 should re-read the edited notes (units 560, 570 simile, 576, 588, 602, 608, 614, 620, 636) and check gloss.json parses against the line.
+
+# Review — iliad-083 (13.560–659), pass 2
+
+Pass 2 of 2. `t` untouched (re-checked: units' `t` joined equals the packet's 100 lines; `l` keeps each `t`'s line division; no `\n` in any `i`; every note ≤110 words). Re-read the whole of `units.json` (notes for grammar labels and position claims, `l` ↔ `i`, table renderings), the pass-1 rewrites (560, 570 simile, 576, 588, 602, 608, 614, 620, 636), `gloss.json` against every line it parses, and `new-renderings.md` against the table format. `units.json`, `gloss.json` and `new-renderings.md` edited in place by script. Pass 1's nine rewritten notes were true of their lines; only the small points below were found in the units.
+
+Counts: 31 edits — high 0, medium 7, low 24.
+
+## Changes — units.json
+
+| line | field | severity | what was wrong | what was done |
+|---|---|---|---|---|
+| 564 | n | low | "does not say which part is which" left it unclear what 'part' meant after pass 1 removed 'with the point'. | "which end of the spear is which". |
+| 573 | i | low | The Odyssey's published line with the same words (μίνυνθά περ, οὔ τι μάλα δήν) is "for a little while, though not for long at all"; the note says the formula is the same as in the Odyssey, the `i` did not follow it. | `i`: "only a little while, not long at all" -> "for a little while, though not for long at all" (`l` already identical). |
+| 616 | n | low | Quoted τώ; the line prints τὼ. | Accent corrected. |
+| 636 | n | low | ἀμύμων ('blameless') in the line, its meaning not said to be unknown (as pass 1 did at 640). | Added "(ἀμύμων ‘blameless’: its real force is unknown)"; note now 109 words. |
+| 646 | n | low | "647 is as 607": only the second half of the line is the same (607 οὔτασεν, 647 ἐγγύθεν). | "647 ends as 607 does". |
+| 656 | n | medium | "ἀμφιπένομαι … (the middle of ἀμφιέπω)": ἀμφιπένομαι is its own verb, not the middle of ἀμφιέπω. | Parenthesis removed. |
+| 656 | n | low | Note said ἀνέσαντες means 'having put up'; `l` has "having lifted". | Note now "having lifted up". |
+
+## Changes — gloss.json
+
+Format checks run on all 113 novel entries and 25 `__broaden__` entries: all under 230 characters, no line numbers, no "here", typographic ’ only, each broadened entry is the old entry whole + " · " + the new reading (checked against `known-forms.json`). All 113 novel forms and no others are present.
+
+| key | severity | what was wrong | what was done |
+|---|---|---|---|
+| λῆθ | medium | Parsed as "aor. 3 sg. … (λῆθ’ = ἔληθε)". λῆθε is the unaugmented imperfect of λήθω (pass 1 corrected the note; the glossary still said aorist). | "λήθω (λανθάνω) … impf. 3 sg. act., unaugmented, elided (λῆθ’ = λῆθε; augmented ἔληθε)". |
+| ἐπᾶλτο | medium | Lemma ἐπάλλομαι; the verb is ἐφάλλομαι (ἐπι- before the rough breathing; the shipped glossary has ἐφάλλομαι for ἐπάλμενος, ἐπιάλμενος, and the unit note says ἐφάλλομαι). | "ἐφάλλομαι — leap upon, spring at; aor. 3 sg. mid., syncopated, epic, unaugmented (ἐπᾶλτο = Attic ἐφήλατο)". |
+| ἀνέσαντες | medium | "ἀνίημι … epic σ-aorist" stated as fact. An aorist participle of ἀνίημι is ἀνέντες; ἀνέσαντες cannot be it, and the unit note says the lemma cannot be confirmed. Decision: lemma shown as ἀνέω with "(lemma uncertain)" (the verb LSJ and Cunliffe set up for this one form, 'put up'), meaning aligned with `l` "having lifted", and the entry says it is not from ἀνίημι. | Entry rewritten. |
+| ἀπιόντος (broadened) | medium | Existing entry says only "in a genitive absolute"; at 650 the genitive is the person aimed at, after ἵει (as the unit note says). | Added " · also gen. sg. of the person aimed at, after ἵει: ’at him going away’ (ἀπιόντος ἵει ὀϊστόν)". |
+| θρηϊκίῳ | low | Lemma printed "Θρῃκιος" (not a form of the word) and "neut." only. | "Θρηΐκιος — Thracian; masc./neut. dat. sg., epic (= Attic Θρᾴκιος)". |
+| πελέκκῳ | low | Stated as "axe-handle, helve (epic by-form beside πέλεκυς)"; the unit note says the sense is taken from the context and is not certain, and gender is not shown by a dative. | Hedged; "by-form" claim dropped; "dat. sg." |
+| σκῶλος | low | "pointed stake" given flat; the note says the sense is not certain. | "the usual guess (exact sense not certain)". |
+| πυρίκαυστος | low | "fire-hardened" decides a sense the note and new-renderings leave open. | Now "burnt in the fire". |
+| ἰλλάσιν | low | "noose" is a guess beyond the note. | "rope, cord (a rare word)". |
+| ἐϋστρεφεῖ | low | "masc. dat." decides what the unit note leaves open (ἀώτῳ or σφενδόνῃ). | "masc./fem. dat. sg." |
+| ἐριβρεμέτεω | low | Meaning "loud-roaring, loud-thundering": "loud-thundering" is on the table's avoided list for ὑψιβρεμέτης and not the house choice here. | "loud-rumbling, loud-roaring (ἐρι- ’loud’ + βρέμω ’roar’ …)". |
+| ἤσπαιρ, ἤσπαιρε | low | Meaning included "writhe", the word pass 1 removed from `l`/`i` (table: "gasping"). | "gasp, quiver, struggle". |
+| ἀμενήνωσεν | low | "weaken" is on the avoided list of the new-renderings row. | "make powerless". |
+| ᾗ (broadened) | low | The added reading "of means: ’with which’" duplicates the old entry's "of the means or condition: ’in which, with which’". | Broadening removed (the old entry covers 594). |
+| πέρ (broadened) | low | Gloss ’one of whom indeed’ for τῶν πέρ τις; τῶν is neuter ('of which things'), `l` has "of which anyone". | ’of which anyone indeed’. |
+| κατ (broadened) | low | Existing entry does not cover κατ’ αὖθι (653), only κατ’ with the cases listed. | Added " · also with αὖθι, ’on the spot’ (κατ’ αὖθι)" to the broadened entry. |
+| πυμάτης (new broaden) | low | Existing entry is pinned to ἐπιδιφριάδος; at 616 it agrees with ῥινός. | Added the reading. |
+| πλατέος (new broaden) | low | Existing entry is masc., pinned to τελαμῶνος; at 588 it is neuter, with πτυόφιν. | Added the reading. |
+
+## Changes — new-renderings.md
+
+| row | severity | what was wrong | what was done |
+|---|---|---|---|
+| ἀσπαίρω "writhed" | medium | Contradicts the table's "gasping" (3.293, 10.521) and the units after pass 1. | Row deleted; closing paragraph no longer calls "writhed" new. |
+| ξείνιος | medium | Said the table's `l` is "the god of guests"; table (9.271) is `l` "the guest-god", `i` "the god of guests". | Row now `l` "the guest-god" / `i` "the god of guests", avoided list adjusted. |
+| κόρση | low | No row although pass 1 changed the units to the table's "the side of the head" (4.502). | Row added after ἀπὸ … ἄραξεν, same four columns, "follows the table (4.502)". |
+| λώβη · λωβάομαι | low | Row gave `l` "did outrage to", `i` "did … outrage"; the units read "which you did to me" / "the outrage you did me". | Row corrected to the units. |
+
+All other rows checked against the units' current `l`/`i`: each matches. Format: every row has the four columns of the conventions table (Greek with cite, `l`, `i`, avoided).
+
+## Findings considered and refused
+
+- **εἷναι (638).** "ἵημι … aor. inf. act., in tmesis with ἐξ" is right (ἐξ … εἷναι with ἔρον between; the Odyssey's ἐξ ἔρον ἕντο is the middle of the same phrase); the unit note says the same. Kept.
+- **ἔσχεθε.** "aor. 3 sg. act., epic by-form of σχέθω" kept (unit note and entry agree).
+- **ἰδνώθη.** Shipped entry has lemma ἰδνόω, the note says ἰδνόομαι ('double over'); not a contradiction (active and passive of one verb). Left.
+- **αἱματόεντα (neut. nom. pl. with dual ὄσσε).** Plural adjective with a dual noun is the form the text has; broadened reading kept.
+- **ὅ (561, 644), ὥς τε (564, 654), περ (573, 630), ἐκ χειρός (598), ἔνθά (570).** Checked against the existing entries: relative masc. ὅ, ὥς τε ‘like, as’, περ, ἐκ + gen. and ἔνθα are covered; no broadening.
+- **ἀμφεπένοντο** shipped entry (ἀμφιπένομαι, impf. mid. 3 pl.) is right; only the note's parenthesis was wrong.
+- **ἄωτος "tuft of wool, fleece".** Kept: matches the note ("a rare word for a tuft or fleece of wool").
+- **ἀτάσθαλον, κακαὶ, κύνες, ὑβριστῇσι, χαλκήρε’, μετασπόμενος (lemma μετέπομαι), ἀντιλόχοιο, ἁρπαλίων and the other proper names.** Parses true of the form in its line.
+- **Unit 636 `i` "there comes a fullness".** Pass 1 accepted; still accepted (ἐστί is present, but the clause is generic and the note says the sentence is hard to put into English).
+- **Unit 614/616 "ῥινὸς ὕπερ πυμάτης" rendered "bridge of the nose".** Declared in new-renderings.md and flagged in the note; kept.
+- **Unit 631 "περί governs the genitive ἄλλων".** One of two accepted analyses (adverbial περί with a genitive of comparison); the note's wording is harmless. Kept.
+- **Unit 611 "can only be the handle".** Flagged in the same note as not certain. Kept.
+- **Pass 1's refusals** (ἐριβρεμέτης "loud-rumbling", κόρος ἐστί, ἐϋστρεφεῖ ἀώτῳ σφενδόνῃ, 626 "were being", 583 πῆχυν, 614 "bridge of the nose", 605 οἱ, 576/578 τρυφάλεια) re-examined; all stand.
+- **Scansion.** The packet lists no flags; nothing added.

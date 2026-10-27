@@ -63,3 +63,4 @@ Packet and draft (`drafts/iliad-051/units.json`, 47 units, `new-renderings.md`) 
 **Resolved 2026-10-23 (iliad-051):** published with option (b) — 8.551b–554 merged into one unit, so the edition's paragraph break at 8.553 is not marked. To restore it: add `.` after the `]` at the end of 8.552 in `source/iliad-monro-allen1920.json`, re-pin `iliad-051` in `parts.json`, split the unit in `drafts/iliad-051/units.json` at 553 (restore `p`) and rebuild.
 
 - 2026-10-24 iliad-060 (10.263): ἀργιόδοντος ὑός is "boar" in the Iliad; the Odyssey table has "pig" for ἀργιόδων ὗς (8.476, 8.60). Kept "boar" (helmet tusks are a wild boar's); owner to decide whether the table needs a line.
+- iliad-084: γνωτόν 'a kinsman' (13.697) used as a singular; the table's 'kinsfolk' has no singular. Decided meanwhile: keep, logged in conventions table. ἀποστήσωνται χρεῖος (745) sense uncertain, flagged in gloss.

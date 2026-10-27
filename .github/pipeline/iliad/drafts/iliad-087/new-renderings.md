@@ -11,7 +11,7 @@ Rows in the format of the conventions table (Greek | `l` | `i` | avoided on purp
 | πρέσβα θεά (14.194, address to Hera) | "august goddess" | "august goddess" | "eldest" (the table’s rendering of πρέσβα for Eurydice, 3.452, whose note already allows "august"; here the word stands beside θεά as a title of honour), "venerable", "revered" (reserved for αἰδοίη) |
 | ἀγάσησθε (κότῳ ἀγάσησθε, 14.111) | "be indignant" | "takes offence" | "be resentful" (the table’s ἀγάομαι "be resentful of", 8.565, but κότος "resentment" stands in the same phrase and would be doubled), "be jealous", "envy" |
 | χυτὴ … γαῖα (14.114, of a burial mound) | "the heaped earth" | "the heaped earth" | "the mound", "the poured earth", "the high-piled earth"; χυτός is from χέω |
-| βιότοιο (δῶμα ἀφνειὸν βιότοιο, 14.122) | "rich in livelihood" | "rich in substance" | "rich in life" (βίοτος "life" is the table’s sense at 7.104, but here it is means of living), "rich in goods" |
+| βιότοιο (δῶμα ἀφνειὸν βιότοιο, 14.122) | "rich in livelihood" | "rich in livelihood" | "rich in substance", "rich in goods", "rich in life"; unchanged from the table’s ἀφνειὸς βιότοιο (5.544) |
 | πρόβατα (14.124) | "flocks" | "flocks" | "sheep" (the word is general for grazing stock), "cattle" (reserved for βόες) |
 | ἐγχείῃ (14.125) | "with the spear" | "with the spear" | "with the lance", "in spearmanship" |
 | κέκαστο (14.124) | "had excelled" | "had excelled" | follows the table’s κέκαστο (5.54) |

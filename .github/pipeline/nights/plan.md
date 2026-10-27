@@ -52,11 +52,12 @@ scan anomaly turns up later in the volume.
 | done (2026-10-18, unattended) | 359–366 | 339–346 | `archive/pp339-346.json` | Night 41 close and Night 42 label (P340) and Night 43 label (P342+); all 7 joins continuous |
 | done (2026-10-19, unattended) | 367–374 | 347–354 | `archive/pp347-354.json` | Night 43 continues; Night 44 label (P347); verse P349; all 7 joins continuous |
 | done (2026-10-24, unattended) | 423–430 | 403–410 | `archive/pp403-410.json` | Night 53 continues; Night 54 label (P407) and Night 55 label (P410); verse P409–410; 425/426 join reads abruptly (print, not transcription); all 7 joins checked |
+| done (2026-10-27, unattended) | 447–454 | 427–434 | `archive/pp427-434.json` | Night 59 tail finishes; Night 60 (P427, label "الموفية للستين"), 61 (P430), 62 (P433), 63 (P434) labels; verse pp. 431–432; all 7 joins checked |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 446 (archive ends at printed p. 426). Pages remaining: ~500 PDF pages
-(approximate, pending the corrected offset holding). Lines archived: 7479. calc.traineddata last
+**Last PDF page done: 454 (archive ends at printed p. 434). Pages remaining: ~500 PDF pages
+(approximate, pending the corrected offset holding). Lines archived: 7657. calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new
 verified line pairs (pp. 127-131, 133-134 prose only, verse/heading excluded; p. 132 excluded, its

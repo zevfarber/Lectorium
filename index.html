@@ -508,6 +508,10 @@
     font-size:1.5rem; line-height:1.5; font-style:normal; min-width:40px; }
   table.abc.dn td.f .from { display:block; font-size:.62rem; color:var(--muted); font-family:system-ui,'Noto Sans',sans-serif; line-height:1.1; }
   @media (max-width:560px){ table.abc td.abcn { display:none; } }
+  table.abc.ki td.f { writing-mode:horizontal-tb; height:auto; font-family:Georgia,'Noto Serif',serif; font-size:1.15rem;
+    line-height:1.3; min-width:0; white-space:normal; width:3.6em; }
+  table.abc.ki td.kin { font-family:system-ui,'Noto Sans',sans-serif; font-size:.8rem; color:var(--ink); text-align:left; line-height:1.4; }
+  table.abc.ki td.kin .kex { display:block; font-family:Georgia,'Noto Serif',serif; font-style:italic; color:var(--muted); margin-top:2px; }
   .abcNote { font-family:system-ui,'Noto Sans',sans-serif; font-size:.8rem; color:#6b5d33;
     background:var(--note-bg); border:1px solid var(--note-border); border-radius:8px;
     padding:8px 12px; margin:10px 0 2px; line-height:1.5; }
@@ -4096,6 +4100,58 @@ const DEVANAGARI_ALPHABET = {
 };
 SIGN_GLOSSARIES["devanagari"] = { type: "alphabet", groups: DEVANAGARI_ALPHABET };
 
+/* K'iche' (Popol Vuh, 2026-10-27): a pronunciation guide to Ximénez's spelling. Each row:
+   [as Ximénez writes it, modern letter, how to say it, example: manuscript → modern 'meaning'].
+   Registered in SIGN_GLOSSARIES so the shared 📜 button logic picks it up. */
+const KICHE_ALPHABET = {
+  vowels: [
+    ['a', 'a', 'a as in father', 'ha → ja’ ‘water’'],
+    ['e', 'e', 'e as in bet', 'che → che’ ‘tree’'],
+    ['i, y', 'i', 'i as in machine; Ximénez also writes it y', 'ry → ri ‘the’'],
+    ['o', 'o', 'o as in more', 'cho ‘lake’'],
+    ['u, v', 'u', 'u as in rule; Ximénez writes v at the start of a word', 'vbi → ub’i’ ‘its name’'],
+    ['aa, ee, oo', 'a’a, a’ …', 'a doubled vowel is held long, or broken by a catch in the throat', 'caam → k’a’m ‘vine’'],
+  ],
+  plain: [
+    ['x', 'x', 'sh as in ship. Before a consonant too: xban is “shban”, xqui is “shkee”', 'xban → xb’an ‘it was done’'],
+    ['ch', 'ch', 'ch as in church', 'chicop → chikop ‘animal’'],
+    ['c, qu', 'k', 'k as in skin, without a puff of air; qu before e and i, as in Spanish', 'quib → kib’ ‘themselves’'],
+    ['c, qu, k', 'q', 'a k made further back, at the very back of the mouth (the Arabic qaf). Ximénez writes it like k', 'vinac → winaq ‘person’'],
+    ['h', 'j', 'a rough h, like ch in Scottish loch or Spanish j', 'huyub → juyub’ ‘mountain’'],
+    ['z', 's', 's as in see', 'zac → saq ‘white’'],
+    ['ꜩ', 'tz', 'ts as in cats (Ximénez’s single letter for t + z)', 'ꜩih → tzij ‘word’'],
+    ['v, u', 'w', 'w as in well: Ximénez\u2019s v before a vowel, and u next to a vowel', 'vinac → winaq ‘person’; tepeu → Tepew'],
+    ['b', 'b’', 'a b said with the throat closed, softer than English b; at the end of a word close to a quiet p', 'abah → ab’aj ‘stone’'],
+    ['l m n p t y', 'l m n p t y', 'as in English; t without a puff of air', 'palo → palow ‘sea’'],
+    ['r', 'r', 'a tapped r, as in Spanish pero', 'ronohel → ronojel ‘all’'],
+  ],
+  pops: [
+    ['ꜭ', 'k’', 'k with a pop: close the throat, say k, and let the air go with a small click. Ximénez’s letter looks like a 4 (in his hand, like a g)', 'ꜭux → k’u’x ‘heart’'],
+    ['ꜫ', 'q’', 'the back-of-the-mouth q with a pop; it often sounds swallowed. Ximénez’s letter looks like a 3', 'Ꜫucumaꜩ → Q’ukumatz'],
+    ['ꜯ', 'tz’', 'ts with a pop', 'ꜯiquin → tz’ikin ‘bird’'],
+    ['ꜭh', 'ch’', 'ch with a pop', 'xꜭhau → xch’aw ‘he spoke’'],
+    ['—', '’', 'a catch in the throat, as in the middle of uh-oh. Ximénez rarely writes it', 'Quiche → K’iche’'],
+  ],
+};
+SIGN_GLOSSARIES["kiche"] = { type: "alphabet", groups: KICHE_ALPHABET };
+
+function renderKicheAlphabet(sg){
+  const a = sg.groups;
+  const row = r => '<tr><td class="f">' + escapeHtml(r[0]) + '</td><td class="f">' + escapeHtml(r[1])
+    + '</td><td class="kin">' + escapeHtml(r[2]) + '<span class="kex">' + escapeHtml(r[3]) + '</span></td></tr>';
+  const table = (title, rows) => '<div class="smGroup"><h4>' + title + '</h4><table class="abc ki">'
+    + '<tr><th>Ximénez</th><th>modern</th><th style="text-align:left">how to say it · example</th></tr>'
+    + rows.map(row).join('') + '</table></div>';
+  let h = '<div class="abcNote">The text is printed as Fray Francisco Ximénez wrote it around 1701, in Spanish-style spelling '
+    + 'with a few extra letters invented for sounds Spanish lacks. The <b>ꜩ→tz</b> button shows every word in today’s K’iche’ '
+    + 'spelling, which marks the sounds Ximénez sometimes left unmarked. Stress falls on the <b>last syllable</b> of a word: '
+    + 'winaq is wi-NAQ, Q’ukumatz is q’u-ku-MATZ.</div>';
+  h += table('Vowels', a.vowels);
+  h += table('Consonants', a.plain);
+  h += table('The popped consonants (ejectives) and the glottal stop', a.pops);
+  return h;
+}
+
 function renderArabicAlphabet(sg){
   const Z = '\u200D';
   const row = (nm, g, v, note, joined) => '<tr><td class="snd">' + escapeHtml(nm) + '</td><td class="f">' + escapeHtml(g) + '</td>'
@@ -4439,6 +4495,13 @@ function openSigns(){
     $('smTitle').textContent = 'The Devanagari alphabet';
     $('smSub').innerHTML = 'A syllabic alphabet: consonant letters carry a built-in <b>a</b>; the other vowels are marks written around them. Transliteration in IAST, as under the words in the text.';
     $('smBody').innerHTML = renderDevanagariAlphabet(sg);
+    $('signModal').classList.add('open');
+    return;
+  }
+  if (story.script === 'kiche'){
+    $('smTitle').textContent = 'How to say the K\u2019iche\u2019';
+    $('smSub').textContent = 'Ximénez\u2019s letters, today\u2019s spelling, and the sounds.';
+    $('smBody').innerHTML = renderKicheAlphabet(sg);
     $('signModal').classList.add('open');
     return;
   }
@@ -5907,8 +5970,9 @@ function loadStory(s){
   if (sb){
     sb.style.display = signGlossaryFor(s) ? '' : 'none';
     sb.textContent = (s.script === 'ethiopic') ? '📜 Fidäl'
-                   : (s.script === 'mongol' || s.script === 'devanagari' || s.script === 'arabic') ? '📜 Alphabet' : '📜 Signs';
-    sb.title = (s.script === 'mongol' || s.script === 'devanagari' || s.script === 'arabic')
+                   : (s.script === 'mongol' || s.script === 'devanagari' || s.script === 'arabic' || s.script === 'kiche') ? '📜 Alphabet' : '📜 Signs';
+    sb.title = (s.script === 'kiche') ? 'Alphabet — how to pronounce the K\u2019iche\u2019 letters'
+      : (s.script === 'mongol' || s.script === 'devanagari' || s.script === 'arabic')
       ? 'Alphabet reference — every letter in its initial, medial and final shapes'
       : 'Sign reference — the alphabet and the classifiers';
   }

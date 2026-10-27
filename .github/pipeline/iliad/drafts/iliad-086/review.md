@@ -74,3 +74,47 @@ Counts: 2 high, 8 medium, 15 low changes (25 rows below); 15 findings refused.
 15. 31–32 `i` “who thunders on high”: matches the table (12.68) and iliad-072; refused.
 
 Not done: no change to `new-renderings.md` (reported above), `packet.md`, or `LOG.md`.
+
+
+# Pass 2 (units re-read, gloss.json checked against the lines)
+
+Scope: every note label and cross-reference re-checked against the line (stop marks, "begins/ends in mid-line" claims checked by script against `t`, line numbers cited in notes checked); Greek to `l` to `i` re-read for all 61 units; speech marks (6 speeches, `mark` and “/” present on the right units in both layers; the previous part, iliad-085, ends in narration, so nothing runs on); paragraph marks `p` against the packet (1, 9, 27, 52, 64, 82, 103). `t` untouched (list of all 61 `t` compared before and after the script). `gloss.json`: all 109 new entries read against the line they stand in (every form occurs in the part; none is already in the glossary; shape, ’ only, length under 230 all hold); all 25 `__broaden__` entries read against the lines (each keeps the old entry whole, each new reading is true of its line); and, because the glosser's task includes known forms, all 427 forms in `known-forms.json` read for whether the old entry covers the use here.
+
+`__broaden__` shape: build_iliad.py reads `add.pop('__broaden__',{})` as `{form: new entry}` and dies unless `g[form] in new entry`; the file has exactly that shape (a dict at the top level of gloss.json, values the old entry whole plus ` · ` plus the new reading). No shape change was needed. It now holds 31 entries.
+
+Counts: 0 high, 5 medium, 8 low changes (13 rows below); 5 findings refused; 2 notes for the caller.
+
+## Changes
+
+| Line | Field | Sev. | What was wrong | What was done |
+|---|---|---|---|---|
+| 9, 66 | gloss (broaden τετυγμένον) | medium | Old entry parses only "masc. acc. sg., + dat. of material"; here the form is neut. acc. sg. (σάκος, 9) and neut. nom. sg. (τεῖχος, 66). | Added " · also neut. acc. sg., agreeing with σάκος: ’wrought’ · also neut. nom. sg., agreeing with τεῖχος: ’wrought, well-made’". |
+| 10 | gloss (broaden κείμενον) | medium | Old entry "masc. acc. sg., agreeing with λίθον"; here neut. acc. sg. with σάκος. | Added the neut. acc. sg. reading. |
+| 53 | gloss (broaden ἑτοῖμα) | medium | Old entry "neut. acc. pl."; here it is the predicate of the subject ταῦτα, so nominative. | Added " · also neut. nom. pl., predicate with ταῦτα: ’ready’". |
+| 107 | gloss (broaden ἀμείνονα) | medium | Old entry "masc. acc. sg."; here fem. acc. sg. agreeing with μῆτιν. | Added the fem. acc. sg. reading. |
+| 75 | gloss (broaden εἰρύαται) | medium | Old entry is ἐρύομαι "guard, protect… ’they guard’"; here it is ἐρύω "draw", ships "are drawn up" (the table row for 4.247–248 has "are drawn up"). The meaning was not covered. | Added " · also perf. pass. 3 pl. of ἐρύω ’draw’, epic -αται (for -νται): ’are drawn up’". |
+| 75 | n | low | "νῆες ὅσαι stands first as a nominative that ἕλκωμεν … then takes as object": a nominative is not an object; it is a nominative left hanging, taken up by πάσας. | Note now says so ("left standing at the head of the sentence … takes them as its object in sense, and πάσας ‘all of them’ picks them up in the accusative"). |
+| 108 | n | low | "ἀσμένῳ is the dative of ἅσμενος": the word is ἄσμενος, smooth breathing (the gloss entry has it right). | ἄσμενος. |
+| 83 | n | low | "φύγεν is ἔφυγε, an unaugmented aorist": reads as if the augmented form were the unaugmented one. | "φύγεν is the aorist of φεύγω ‘escape’ without its augment (= ἔφυγε)". |
+| 79 | l | low | The δέ of ἔπειτα δέ κεν was dropped in `l` ("then we could drag"); `i` has "and then". `l` renders δέ as "and" elsewhere. | "and then we could drag all the ships." |
+| 13 | gloss (broaden κλισίης) | low | Old entry covers κλισίης after ἐκ, ἀπό, ἐγγύς, not after ἐκτός (ἐκτὸς κλισίης). | Added " · also fem. gen. sg. after ἐκτός: ’outside the hut’". |
+| 107 | gloss (broaden μῆτιν) | low | The new reading glossed μῆτιν as ’a plan’, but this part's English (and the table) is "cunning"; ’plan’ is kept for βουλή. | ’cunning, counsel’. |
+| 104 | gloss (broaden πώς), 62 (broaden τι) | low | Example translations not true to the lines: ’quite, I think, me’ (nothing in the Greek says "I think"); ’if … can do anything’ (ῥέξει is future, `l` "will do"). | ’very much, somehow, me’; ’if … will do anything’. |
+| 101 | gloss ἀποπαπτανέουσιν | low | The note and new-renderings say the sense is not certain, but the glossary entry asserted it flatly. | Entry now has "(sense traditional)" as ἀλίαστον's does. |
+
+## Gloss.json: checked and left as is
+
+All 109 new entries: lemma, tense/mood/voice, number and the quoted English true of the line they stand in (spot points that might have been wrong and were not: εἰρύατο "plpf." with the alternative "were guarded"; ξύμβλητο/ξύμβληντο unaugmented; πῖνε kept as a homograph with the imperative second; ἀσκληπιάδην/μαχᾶον/θρασυμήδεος as printed forms; νυσσομένων as a loose genitive absolute, as the note says; κεκριμένον masc. acc. with οὖρον; ἐπικρατέουσί dat. pl. with Τρωσί). Of the 25 original broadens, each new reading is true of its line (αὐτούς/αὐτῶν 47, 56, 68; γένηται 98; γῆρας 86; εἴη 93, 107; κακόν 80; μάχεσθαι 51, 63; μάχην 57; μεθ’ 21; μὴ 46; νύκτα 80; οἷσιν 85; παλαιός 108; υἷος 9; ἀτειρὴς 25; ἀϋτῆς 37, 96; ἄγοιτο 91; ἐπ’ 77; ᾗ 67; ᾧ 55; πρώτας 31; πρῶται 75). Known forms whose old entry covers the use although it names another noun (θερμά, λαιψηρά, μακρόν, ἡμέτερον, σὴ, ἀέκοντας, with the same parse) were not broadened.
+
+## Pass 2 findings considered and refused
+
+1. 33 `l` "was able all / the beach to hold the ships" can be read "all the beach": already considered in pass 1 (Greek order and line division kept, the note says πάσας agrees with νῆας); refused again.
+2. 107 μῆτιν `i` "who can tell of a better cunning": stiff, but bound by the table (pass 1, refused 4 and 107); unchanged.
+3. 96 `i` "you who bid us drag" supplies "us" (the Greek has no pronoun with κέλεαι … ἑλκέμεν): the sense requires an understood subject for the infinitive and `l` leaves it out; refused as a change.
+4. 24, 44 `l` renders the infinitives of the reported threat with "would he go back"/"he should set ablaze": a necessary finite frame in English for indirect speech after ἐπηπείλησεν; the pass-1 repair is accepted.
+5. Known-form entries whose parse is right and whose "agreeing with X" example names another noun (see above): not broadened.
+
+## For the caller (not changed by the reviewer)
+
+- `new-renderings.md` has no row for ὄρχαμε λαῶν (14.102), a vocative that recurs and is not in the table ("chief of the people" in `l` and `i`, no avoided list given); consider adding one before step 4 copies the rows. The "Uses of existing table rows" paragraph still says ἅλα δῖαν "heavenly sea" (see pass 1, row 75–76: the shipped English is "heavenly brine"); not a row, nothing to copy.
+- `packet.md` still shows the old `·` at 14.83 (derived file; pass 1 said so).

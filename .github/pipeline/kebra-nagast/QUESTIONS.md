@@ -44,3 +44,4 @@
 - 2026-10-26 · ch92-93 · Unresolved without Dillmann: see LOG line (boundary place names in unit 6, ብዕዛ, ቄፋዝ, ዕሩቃን, ይውሕኩ lemma, ዘእምትካት / ዕድዉ). Source slip ሕዘቢሆ ፡ ሙ kept as printed. Part title is ours. Decided meanwhile: published with (?) flags.
 - 2026-10-26 · ch94 · Unresolved without Dillmann: see LOG line (ሐቢቶሙ, ጋእዘ ባ, ሰባድዕት, አብዓት, ኳላ, ሃፍ, ዘአንጸረ); one lemma needed for ሞዐ / መውአ across the work. Part title is ours. Decided meanwhile: published with (?) flags.
 - 2026-10-27 · ch96b · Unresolved without Dillmann: see LOG line (ቀርሜሌዎስ, ትሌብዉኑ, ወተውላጠ, ሕብል / እምዕድዉ ለአዳም, አኅደራ, ወአዳም ሥና, ሙባኦሙ). Source split ዘእንበ ፡ ለ kept as printed. Part title is ours. Decided meanwhile: published with (?) flags.
+- 2026-10-27 · ch97 · Unresolved without Dillmann: see LOG line (ከመ ፀርቀ ትክቶ, ወአስቆረራ, ቅስት, ተመስዉ, ተእኂዞሙ, የውሃቶ, final ይእ ዜ clause). Part title is ours (parts.json name was empty). Decided meanwhile: published with (?) flags.

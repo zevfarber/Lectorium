@@ -42,3 +42,43 @@ Counts by severity: major 3 (#1-#3), moderate 4 (#4-#7), minor 14 (#8-#21). 21 c
 8. Unit 18 · the whole clause is obscure and every doubtful word already carries (?); the draft is honest; I changed only what is demonstrably wrong (#6). Quote placement of 'I' (God) outside the quotation marks is explained in the note; left.
 
 Checked and found sound: Numbers 16:1 (Reubenites), 16:17-18, 16:30-33, 16:35, 16:37-38, 16:41, 16:46-49, 17:1-3, 17:10 (all stated accurately, each marked 'compare'/'allusion', the Kebra Nagast variations named); Genesis 28:12 and Psalm 141:2, Revelation 8:3-4; Numbers 12:3 (meekness of Moses); Exodus 32:13. Verb-form labels in the other notes (ወሰሚዖ gerund, ግበሩኬ 2mp imperative, የዐጥኑ jussive, ውዕዩ, ወደዩ, ተቀደሰ tä-stem, አውዐዮሙ causative, ተኀትመት, ፈትሐት, ወውኅጠቶሙ, ወበከዩ, ወአስተስረዩ, ተዘከር, ንግሮሙ, ወበሎሙ, ቀድሱ, ወአምጽኡ, ይጽሐፍ, ኢትጽሐፍ, ጸሐፍ, አርአይኩ) match the forms. Names follow house forms (Moses, Aaron, Abraham, Isaac, Mary, Zion, Christ). Holy of Holies, 'kingdom of heaven' consistent with ch96b. A point for the glosser, not changed here: known-forms ዘርኦሙ says 'anticipating ለአበዊነ', but this part has no ለአበዊነ; the entry must not be broadened with that remark, and the sheet for ሰሚዖሙ (converb, -ሙ as subject) and ሐመየ (slander) should be checked against the changes above.
+
+# Review pass 2
+
+Read: conventions.md, runbook.md, run3/RUNBOOK.md (section 2), packet.md, units.json, gloss.json, novel-forms.json, known-forms.json, review.md. All 130 novel forms are glossed, every gloss key is a novel form or a `__broaden__` key, every broaden entry begins with the known entry whole (checked by script), every `t` is unchanged (checked by script). Edits by script (ensure_ascii=False, indent=1).
+
+## Changes
+
+| # | Unit/form · field | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| 1 | ተእኂዞሙ · gloss, unit 6 l, n | moderate | Labelled 'verbal noun of ተአኅዞ' (lemma spelled with ኅ, not Dillmann's ተአኀዘ; 'their holding on'). The form ተእኂዞ- is the gerund of the tä-stem (pattern ሰሚዖ), and -ሙ is the subject, exactly as in ሰሚዖሙ in unit 11; the grammar label was wrong and the popup would show it. | Lemma ተአኀዘ; 'they holding fast (gerund in -ዖ + -ሙ as subject) (?)'; unit 6 l 'they-holding-on(?)'; n rewritten (i already read 'holding fast to it'). |
+| 2 | ወአስቆረራ · gloss | minor | Labelled 'causative' of ቆረረ; the causative of that verb is አቈረረ (cf. አቊርር in unit 12), so a derived stem አስቆረረ is not that. | 'a derived stem apparently related to ቈረረ (?)'; unit 8 n worded the same. |
+| 3 | አቊርር · gloss, unit 12 n | minor | Lemma አቍረረ (ቍ) and the note አቊረረ (ቊ) disagreed with each other and with Dillmann's ቈረረ. | Lemma and note አቈረረ, 'causative of ቈረረ'. |
+| 4 | ወኢታማስነነ · gloss | minor | 'G-causative' is not a stem name; the verb is the a-stem (causative), and the parse was unmarked. | 'causative stem', marked (?). |
+| 5 | ታእምሩ · gloss | minor | Same 'G-causative stem' mislabel. | '2mp subjunctive' only. |
+| 6 | ዘኢንሠውዕ · gloss | minor | Labelled '1cp subjunctive' while unit 1's note says imperfect, and the clause is a statement after relative ዘ-. | '1cp imperfect'. |
+| 7 | ወይሴብሑ · gloss | minor | Asserted 'the D stem ሴብሐ' for an imperfect form; the stem class is not established by the text (the unit note itself says ሴብሐ/ሰብሐ). | Lemma ሰብሐ kept; stem claim dropped. |
+| 8 | ተክህኖ · gloss | minor | Parent verb given as ተከሀነ, a tä-stem I cannot support; Dillmann's root is ከሀነ 'be priest'. | 'verbal noun of ከሀነ'. |
+| 9 | ይረክቦ · gloss | minor | 'it finds, meets it' fixed the subject, which the unit note leaves open (?). | General form-level entry: 'finds, meets, reaches ... whether the flame or the grass is the subject is open (?)'. |
+| 10 | ፀርቀ · gloss | minor | Meaning given as if known; the pass-1 review and the unit note say the word cannot be placed. | Added 'the word and its meaning are guessed (?)'. |
+| 11 | ዘበ · broaden | minor | New reading was unmarked, while the unit 5 note marks it (?). | Old entry whole + (?) at the end. |
+| 12 | ዘርእየ · broaden (new) | minor | Known entry covers 'what he saw / who saw' only; here it is 'which Jacob saw' with the subject following. | Old entry whole + ' · ' + "'which' (ሰዋስው ዘርእየ ያዕቆብ 'the ladder which Jacob saw')". |
+| 13 | ለእለ · broaden (new) | minor | Known entry has no ለ- naming the owner; unit 7 has አዝማዲሆሙ ለእለ ኀልቁ. | Old entry whole + new reading. |
+| 14 | ለሙሴ · broaden (new) | minor | Known entry lacks the owner use of unit 13 (የውሃቶ ለሙሴ). | Old entry whole + new reading. |
+| 15 | ዘርኦሙ · broaden | minor | The old entry says 'anticipating ለአበዊነ', which is true of ch. 35, 37, 45, 60a, 62-63, 90 but not of this part (no ለአበዊነ here); a tap here would mislead. | Decision: the rule keeps the old entry whole, so it stays; the new reading now ends 'the -ሙ refers to Abraham, Isaac and Israel; no ለአበዊነ follows in this part'. Nothing was removed. |
+| 16 | 7 · n | minor | አኅለቅምዎሙ labelled 2mp perfect without saying that the printed ending is -ም where -ክሙ is expected. | Added to the note, marked (?). The gloss already had it. |
+| 17 | 18 · n | minor | በውስቴታ analysed with '-ኣ'; the suffix is -ታ (ውስቴ-ታ), as in the known entry. | '-ታ'. |
+| 18 | 4 · n | minor | Note spelled the verb ተመስወ, gloss lemma ተመሰወ. | Note uses ተመሰወ. |
+
+Counts by severity: major 0, moderate 1 (#1), minor 17 (#2-#18). 18 changes; 6 findings refused.
+
+## Findings considered and refused
+
+1. Unit 7 · ሐመይዎሙ 'slandered (?)': a different sense of ሐመየ is possible, but the house reading (known-forms ሐመይዎ ለሙሴ) stands and is hedged; left.
+2. የውሃቶ · lemma የውሃት: not in any source I may use, but both gloss and note carry (?) and the sense follows from የዋህ; left (the double (?) in the gloss is harmless).
+3. known-forms መሓሪ is lemma-labelled 'ምሕረ' while this part's ወመሐሮሙ uses መሐረ: a published entry that is not wrong for this part's use; not broadened.
+4. ፸ ፡ ማዕጠንታተ and the number: already hedged in the note; left. ተመስዉ, ውዝዋዜ, እምትካት, ቅስት, እምይቤሉ: all carry (?) in gloss and note; left.
+5. ፺፯ entry: spoken ተስዓ ወሰብዐቱ (täsʿa wä-säbʿatu) 'ninety-seven' follows the decided numeral pattern; left.
+6. ሊቃናተ lemma ሊቅ, plural ሊቃናት: fine; ፈላስያን from ፈላሲ and ወአን / ስቲያሆሙ as one word አንስቲያሆሙ already marked (?); left.
+
+Checked and found sound: lemma and parse of every other entry (verbs: perfects, gerunds ወሰሚዖ and ሰሚዖሙ, imperatives, jussives; nouns with suffixes; names), the known-forms entries for all other tokens (each covers its use here), and units 0-19 for l/i agreement and for notes against glosses.

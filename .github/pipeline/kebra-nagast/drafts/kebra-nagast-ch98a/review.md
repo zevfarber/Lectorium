@@ -151,3 +151,60 @@ unit · field · severity · what was wrong · what was done (old → new)
 13. u23 እዝኅ, ወረ ወዩ (split spelling), ሰቲዮሙ, ኑኃ ወግድማ.
 14. u24 ሣረረ (lemma ሠረረ).
 15. u26 ዴዴ; u31 አሕሩጊሁ.
+
+---
+
+# Pass 2 — kebra-nagast-ch98a
+
+Reviewer pass 2 of 2, an independent re-check of every note, `l`↔`i`, and every gloss entry against the text and the published entries (known-forms.json). Unit ids are 0-indexed as in pass 1 (u0 = chapter heading). t and p untouched. Dillmann not available: lexical calls stay hedged (?).
+
+**Counts: 0 major, 12 moderate, 19 minor (31 changes; broadening counted as moderate).**
+
+## Changes
+
+unit · field · severity · what was wrong · what was done (old → new)
+
+- **u1** · l · minor · ወኮነ is singular (ኮነ 3ms); `l` 'were' was plural. Was: "and-were 10" → now: "and-it-was 10"
+- **u7** · i · minor · ሠናየ is 'good' (as `l`); 'sweet' added. Was: "a sweet scent" → now: "a good fragrance"
+- **u11** · n · minor · person label '1cs' unlike the '1sg' used elsewhere. Was: "(1cs perfect)" → now: "(1sg perfect)"
+- **u28** · n · minor · same label inconsistency. Was: "(1cs imperfect" → now: "(1sg imperfect"
+- **u14** · l · minor · ንጽሐ is construct (as the note and gloss say); `l` did not show it. Was: "and-purity lips-her" → now: "and-purity-of lips-her"
+- **u14** · l · minor · ንጽሐ is construct; `l` did not show it. Was: "and-purity virginity-her" → now: "and-purity-of virginity-her"
+- **u14** · i · minor · አናቅጺሃ has -ሃ '3fs her' (as `l` 'gates-her'); `i` said 'its'. Was: "and its gates" → now: "and her gates"
+- **u14** · n · minor · note did not account for the suffix on አናቅጺሃ. Was: "Suffix -ሃ 'her' on አፉሃ" → now: "Suffix -ሃ 'her' on አናቅጺሃ 'her gates', አፉሃ"
+- **u14** · n · moderate · verb form unnamed; ትለድ is the subjunctive (ይለድ), not the imperfect (ይወልድ). Was: "(ትለድ 'she bears' + the enclitic -ኒ 'also, even')" → now: "(ትለድ 'she bears', 3fs subjunctive of ወለደ, + the enclitic -ኒ 'also, even')"
+- **u16** · l · moderate · ገባሪሃ 'her maker' lost its suffix in `l`; ለማኅደረ is 'for the dwelling of' in the published entry, not 'as'. Was: ", whose maker himself, and-fashioner-her, as-dwelling-of glory-his" → now: ", whose himself maker-her and-fashioner-her, for-dwelling-of glory-his"
+- **u16** · n · minor · matches `i` and the published entry. Was: "ለማኅደረ 'as the dwelling of'" → now: "ለማኅደረ 'for the dwelling of'"
+- **u16** · n · moderate · grammar label wrong: the published entry (and Dillmann's pattern) is a quadriliteral, not a doubled root. Was: "ታንሶሱ 'she walks about' (3fs, a root with a repeated final consonant)" → now: "ታንሶሱ 'she walks about' (3fs imperfect of the quadriliteral አንሶሰወ, as in the published entry)"
+- **u16** · n · minor · suffix is -ሃ (ግብር + ሃ). Was: "with -ራ 'her' on each noun" → now: "with -ሃ '3fs her', written -ራ, on each noun"
+- **u18** · n · minor · suffix is -ሃ (ማኅደር + ሃ). Was: "a noun with -ራ 'her'" → now: "a noun with -ሃ '3fs her', written -ራ,"
+- **u18** · l · moderate · second ዘወረደ: antecedent undecidable (see note); hedge added. Was: "is-interpreted, who came-down from-heavens;" → now: "is-interpreted, who(?) came-down from-heavens;"
+- **u18** · i · moderate · second ዘወረደ: antecedent undecidable; hedge added. Was: "the flesh of Christ, who came down from the heavens." → now: "the flesh of Christ, who (?) came down from the heavens."
+- **u18** · n · moderate · pass-1 refusal resolved: the reference of the second ዘወረደ cannot be settled, so it is marked (?) and explained. Was: "ዘወረደ 'who came down' (John 6:51)." → now: "ዘወረደ 'who came down' (ወረደ, 3ms perfect with the masculine relative ዘ-). First occurrence: ዘ agrees with masculine መለኮት 'Godhead'. Second occurrence (after ሥጋሁ ለክርስቶስ): the antecedent is undecidable, Christ ('who came down') or his flesh or the manna ('which came down'; cf. John 6:51), because ዘ is masculine and fits all three; `i` reads 'who' and marks it (?)."
+- **u19** · i · moderate · remembered English (Matthew 13:46 KJV 'pearl of great price') in place of a rebuilding of ዘብዙኅ ሤጣ 'of much its-price'. Was: "like a pearl of great price that was sought out (?)" → now: "like a pearl that was sought out (?), whose price is great"
+- **u20** · l · minor · ወላዲተ is 'bearer of' (note says lit. 'bearer'); `i` keeps 'mother' as the published entry allows. Was: "mother-of light" → now: "bearer-of light"
+- **u21** · l · minor · shows the ዘ- of ዘእምብርሃን / ዘእምአምላክ (published entries 'that is from light'). Was: "light from-light, God from-God" → now: "light which-from-light, God which-from-God"
+- **u21** · i · moderate · remembered English: the Nicene Creed wording; rebuilt from ዘእምብርሃን and the published entries. Was: "light from light, God from God" → now: "light that is from light, God that is from God"
+- **u21** · n · minor · follows `i`. Was: "'light from light, God from God' echoes the Nicene Creed" → now: "'light that is from light, God that is from God' echoes the Nicene Creed"
+- **u21** · n · moderate · note omitted the በእንተ construction on which `i` depends and left ዕዲት unhedged although `i` and the gloss hedge it. Was: "ኢትትረከብ 'is not found' (3fs passive), እንተ ዕዲት 'which surpasses' (ዕዲት, a feminine participle)" → now: "በእንተ before a verb 'because'; ኢትትረከብ 'is not found' (3fs passive), እንተ ዕዲት 'which surpasses' (ዕዲት, a feminine participle, form uncertain) (?)"
+- **u23** · l · minor · 'after' is not in the Geʿez (ወሰቲዮሙ 'and their drinking'); `i` keeps the natural 'after'. Was: "and-after-drinking-them followed-them" → now: "and-drinking-their followed-them"
+- **gloss ትለድኒ** · gloss · moderate · ትለድ is the 3fs subjunctive (cf. ይለድ), not 'jussive/imperfect' (imperfect is ትወልድ). Was: "(3fs jussive/imperfect, G, +" → now: "(3fs subjunctive, G, +"
+- **gloss ከርካዕ** · gloss · moderate · parse: ጽጌ is the construct, ከርካዕ the dependent noun, not itself a construct. Was: "(noun, construct 'of almond';" → now: "(noun, the second member of the chain ጽጌ ከርካዕ 'blossom of almond';"
+- **gloss ረዐይኬ** · gloss · minor · lemma spelling unverified (the form ረዐይ- points to ረዐየ); hedged rather than changed. Was: "ርዕየ — tend, shepherd! (2ms imperative of ርዕየ + -ኬ 'then, indeed')" → now: "ርዕየ — tend, shepherd! (?) (2ms imperative of ርዕየ + -ኬ 'then, indeed'; the dictionary spelling of the verb, ርዕየ or ረዐየ, is not confirmed without Dillmann) (?)"
+- **gloss ወሰቲዮሙ** · gloss · minor · 'after' is not in the form (ወ- + verbal noun + suffix). Was: "— and after their drinking" → now: "— and their drinking"
+- **gloss ወኢተገብረ** · gloss · minor · lemma should be the passive headword, as for ተጽሕፈ, ተረክበ, ተለብጠ. Was: "ገብረ — and was not made" → now: "ተገብረ — and was not made"
+- **gloss ኢትትረከብ** · gloss · minor · lemma should be the passive headword, as for ወተረክበት. Was: "ረከበ — is not found" → now: "ተረክበ — is not found"
+- **broaden ወሀቦሙ** · __broaden__ · moderate · published entry reads only 3ms perfect 'he gave them'; here the form follows imperatives ('lay… shut… take… give'), so the use was not covered. Was: "ወሀበ — he gave them (3ms perfect + -ሙ 'them')" → now: "ወሀበ — he gave them (3ms perfect + -ሙ 'them') · and give them! (ወ- + 2ms imperative ሀብ + -ኦሙ '3mp them'; the spelling is the same as the perfect 'he gave them'; the imperative fits the run of commands in ch. 98)"
+
+## Findings refused or left (no change), with reason
+
+- u18 second ዘወረደ: resolved as undecidable, so marked (?) rather than changed (see change above). The first ዘወረደ (after መለኮት) is secure: masculine ዘ agrees with መለኮት.
+- u9 ወሰገዲ: still no (?) in `i` although note and published entry hedge; pass 1's refusal stands (published ch. 96a renders the same phrase without (?)).
+- ህሉት (gloss): feminine of ህልው is expected ህልውት; the written ህሉት is kept under the pass-1 lemma ህልው with the form stated as written; not independently verifiable without Dillmann.
+- ያበድሮን, ወአልዐሎን, ወይፀብጣ, ዘአጥረያ, ተኀቱ, ዕዲት, መትልው, ቱስሕት, አክራጦስ, ጥልቀት, ጸቃውዕ, ከርካዕ: lexical identities cannot be settled without Dillmann; all stay hedged (?) in `l`/`i`/gloss as before.
+- ወላዲተ `i` 'mother of the light': kept; the published entry gives 'bearer of, mother of'.
+- Unit lengths: u18 (61 words, no internal ፤) accepted as in pass 1.
+- All other glossary entries checked against the text (lemma is a dictionary form, parse matches the written form, suffix labels -ሃ/-ሁ/-ሙ/-ኦን/-ኦ correct): no further change.
+
+## Unresolved (?) items
+Unchanged from pass 1's list, plus: u18 the antecedent of the second ዘወረደ (now marked); ረዐይኬ lemma spelling (ርዕየ/ረዐየ).

@@ -45,3 +45,6 @@
 - 2026-10-26 · ch94 · Unresolved without Dillmann: see LOG line (ሐቢቶሙ, ጋእዘ ባ, ሰባድዕት, አብዓት, ኳላ, ሃፍ, ዘአንጸረ); one lemma needed for ሞዐ / መውአ across the work. Part title is ours. Decided meanwhile: published with (?) flags.
 - 2026-10-27 · ch96b · Unresolved without Dillmann: see LOG line (ቀርሜሌዎስ, ትሌብዉኑ, ወተውላጠ, ሕብል / እምዕድዉ ለአዳም, አኅደራ, ወአዳም ሥና, ሙባኦሙ). Source split ዘእንበ ፡ ለ kept as printed. Part title is ours. Decided meanwhile: published with (?) flags.
 - 2026-10-27 · ch97 · Unresolved without Dillmann: see LOG line (ከመ ፀርቀ ትክቶ, ወአስቆረራ, ቅስት, ተመስዉ, ተእኂዞሙ, የውሃቶ, final ይእ ዜ clause). Part title is ours (parts.json name was empty). Decided meanwhile: published with (?) flags.
+
+- 2026-10-27 · ch98a: ተዓይን glossed 'camps (?)' here but published parts have 'scouts/onlookers (?)' — decide one reading when Dillmann is available. Decided meanwhile: kept both, hedged.
+- 2026-10-27 · housekeeping: the cloud checkout's local `main` had diverged from origin/main (50 local commits, incl. an older ch96a/ch96b run, not on origin). Worked on a branch from origin/main and pushed to main; local main left untouched.

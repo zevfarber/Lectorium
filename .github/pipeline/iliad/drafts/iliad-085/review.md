@@ -60,3 +60,29 @@ Totals: 17 rows (19 field edits) — high 0, medium 4 rows (5 field edits: 775 l
 2. 13.775–777: the exact force of ἄλλοτε δή ποτε μᾶλλον … ἐρωῆσαι μέλλω is disputed; `l`/`i` follow one reading, as drafted.
 3. 13.792: dual vs singular υἷ’ is a real textual-grammatical doubt; the English commits to ‘the two sons’.
 4. Title ἀπειλαί / “Taunts”.
+
+## Pass 2 (reviewer pass 2; gloss.json read for the first time)
+
+Every parse in gloss.json (98 forms: 81 new, 17 under `__broaden__`) was checked against its line(s) for case, number, tense, mood, voice, lemma and Attic equivalent. All 17 `__broaden__` entries were checked to be the old known-forms entry whole + ` · ` + a true new reading. No ASCII apostrophe, backtick, line number or "here" in any entry; new entries all under 230 characters. `t` verified unchanged unit by unit; notes still at most 108 words. No build run.
+
+Totals: 10 changes — high 0, medium 2 (ἔκλυον, δακρυοέσσης), low 8.
+
+| # | form / unit | file | severity | what was wrong | what was done |
+|---|---|---|---|---|---|
+| 1 | ἔκλυον (broaden, 13.757) | gloss | medium | New reading “+ gen. in plain narrative”: in Ἕκτορος ἔκλυον αὐδήν the object is the accusative αὐδήν; Ἕκτορος depends on it. | New reading now “aor. 3 pl. + acc. of what is heard … (Ἕκτορος … αὐδήν ’Hector’s voice’)”; old entry kept whole. |
+| 2 | δακρυοέσσης (13.765) | gloss | medium | “(= Attic -ας)” is false: Attic feminine genitives in -σσης keep -ης. | Attic equation dropped; “epic -οέσσης (the feminine of the -όεις adjectives)”. |
+| 3 | βροντῆς | gloss | low | “Ionic -ῆς (= Attic -ῆς)”: equates a form with itself. | “fem. gen. sg.”. |
+| 4 | φαεινὴ | gloss | low | “(= Attic φαεινή)”: same non-equivalent. | “a poetic word”; no Attic equation. |
+| 5 | βιβάσθων (13.809) | gloss | low | Lemma “βιβάσθω (by-form of βιβάω)” is not a dictionary lemma; the note (and LSJ) treat it as a lengthened participle of βιβάω. | “βιβάω (βίβημι) — stride, step; pres. part. act. masc. nom. sg., lengthened -άσθων (cf. βιβάς)”. |
+| 6 | ἐδάμημεν | gloss | low | “aor. 1 pl. pass.” can be read as a first aorist; ἐδάμην is the second aorist passive. | “aor. pass. 1 pl.”. |
+| 7 | πάλμύν | gloss | low | “(printed Πάλμυν)” is not what is printed (acute on -ύν). | “(printed with an acute on -ύν)”. |
+| 8 | μάχην (broaden, 13.778) | gloss | low | Quoted ’you stirred up the fighting’ beside ’the battle’ and against `i` “stirred up the battle”. | Quote now ’you stirred up the battle’. |
+| 9 | 13.797 unit | n | low | ὁμαδός, but the glossary and LSJ have ὅμαδος. | ὅμαδος. |
+| 10 | 13.837 unit | n | low | “(the table keeps ‘glare’ for fire and bronze)” cites an internal table and a claim about the rest of the poem a reader cannot check here. | Parenthesis removed; the sentence stands without it. |
+
+Checked and left as drafted (no change): the other 15 `__broaden__` readings (αἰτιάασθαι, βίη, εἶσι, οἴω, πολλὸς, πὰρ, πᾶσα, υἷ, φθαίη, ἀνάλκιδα, ἄκρης, ἐπειρᾶτο, ἐρύκακε [751 is an imperative], ἐσσύμενον, ἔμενον) are true of their lines; οἴω (dual of οἶος, 13.781) and υἷ’ (dual υἷε, 13.792) agree with the units’ `l`, `i` and notes; the new-to-Iliad entries that differ from odyssey-forms (μέλλω, μίσγεται, προτέρῃ, σῶς, δεξιὸς, οἴσουσι, ἀγαπήνορα) are right for this part. Note staleness re-read: every note is true of its `l`/`i` after pass 1; internal line references (760, 758–759, 751, 834) verified against the lines.
+
+Refused / left open:
+- Broadened entries over 230 characters (μάχην 609, πὰρ 451, ἄκρης 360, ἐσσύμενον 318): the rule is “old entry whole + new reading”, so the length is the old entry’s; not shortened.
+- ταλάσσῃς: gloss lemma “ταλάω (τλάω)” against the note and pass 1’s “ταλάσσω”. I could not settle which LSJ lemmatises, so entry unchanged; parse (aor. subj. 2 sg. act., epic -σσ-) is right either way.
+- Open from pass 1 still stand: αὐγάς “rays” and the dual υἷ’.

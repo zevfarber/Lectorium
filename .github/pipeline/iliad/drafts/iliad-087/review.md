@@ -55,3 +55,64 @@ Result: 0 high, 3 medium, 11 low changes; 12 findings refused.
 12. 211 title of the epithet note: "5.375 and Odyssey 8.362 print φιλομμειδής" verified in both sources; the sentence is right.
 
 Open for pass 2: gloss.json does not exist yet; the second pass reads it. The `about` and notes should be re-read once more after any gloss-driven change.
+
+
+---
+
+# Pass 2 of 2 (adversarial; units.json from scratch, then gloss.json)
+
+Files read: runbook.md section 2, the conventions tables (grepped for κότος, ἀγάομαι, εὔχομαι, ὀλοός, ἄκριτος, ἀρετή, ἔξοχος and others), packet.md, units.json (all 63 units, every note label against the line), gloss.json (all 140 new entries and the broadened ones against the line and against the published iliad-glossary.json), new-renderings.md, the published iliad-027 (for καθεῖσεν). `units.json` and `gloss.json` were edited by script; every `t` is byte-identical to before (checked), no existing glossary entry was changed, and every `__broaden__` entry still contains the published old entry whole (checked by script). No modern translation consulted. Pass-1 edits were re-read for new errors: none found (143, 121, 139, 115, 129, 133, 183, 190, 193, 211, `about` all stand).
+
+Result: 0 high, 5 medium, 12 low changes (17 in units.json and gloss.json), plus 3 low changes in new-renderings.md; 13 findings refused. Layer checks run by script on all 63 units: every `l` has the line count of its `t`, no `i` has a line break, no straight quote or doubled space, “ and ” balance (open on 110, 139, 194, 198, 212, 219 and the ones carrying the speech from 190, closed on 131, 143, 195, 208, 213, 220), `mark` on the first unit of each of the seven speeches, `p` on every ¶.
+
+## Changes
+
+| line / form · field | severity | what was wrong | what was done |
+|---|---|---|---|
+| 110 (αἴ κ’ ἐθέλητε …) · n | medium | "μή τι … ἀγάσησθε is a prohibition": false label. The subjunctive is governed by the same αἴ κε as ἐθέλητε (the glossary entry itself says "after αἴ κ’"), so it is a second negative condition, not a prohibition | note now says so ("‘and if none of you is indignant’") |
+| 110 (αἴ κ’ ἐθέλητε …) · i | medium | "none of you takes offence": the table’s ἀγασσάμενοι (7.41) fixes ἀγάομαι "be indignant" ("feeling indignation") and lists "taking offence" as avoided on purpose | `i` "none of you is indignant in resentment"; the note drops "take offence" |
+| 202 (οἵ μ’ ἐν σφοῖσι …) · n, l, i | medium | note called καθεῖσε "the aorist of καθίημι ‘send down’". It is the aorist of καθίζω (causative, ‘set down, seat’), as the published iliad-027 note and glossary (καθεῖσεν) have it, and as gloss.json has it; `l` "sent down" and `i` "sent Cronus down" took the wrong verb’s sense | note: aorist of καθίζω, "set down"; `l` "set down beneath the earth"; `i` "set Cronus down below" (row added to new-renderings.md) |
+| gloss θελκτήρια | medium | "neut. acc. pl." but the word is the subject of τέτυκτο (θελκτήρια πάντα τέτυκτο) | "neut. nom. pl., subject of τέτυκτο" |
+| gloss πεφασμένον | medium | "neut. acc. sg., agreeing with μῦθον": μῦθος is masculine | "masc. acc. sg." (lemma φημί kept, see refused 1) |
+| 129 (ἔνθα δ’ ἔπειτ’ …) · n | low | note took ἄρηται from αἴρω; the published glossary entry (and the broadened one for this part) take it from ἄρνυμαι; the note and the glossary must agree | note: "aorist subjunctive of ἄρνυμαι ‘win, take for oneself’" |
+| 135 (οὐδ’ ἀλαοσκοπιήν …) · n | low | "ends at the ano teleia, four lines on": the unit has four lines (135–138), so the stop is three lines on; ambiguous | "ends at the ano teleia at the end of line 138" |
+| 183 · n | low | ἀπελάμπετο called "the imperfect of ἀπολάμπω" without saying that the form is middle (the gloss says so) | "imperfect (middle form) of ἀπολάμπω" |
+| gloss πορθεῖ | low | "epic (= Πορθέϊ), of possession": the form is the (also Attic) contracted dative; the case is that of the parent with ἐξεγένοντο, not possession | "masc. dat. sg., contracted (Homeric Πορθέϊ), of the parent: ’to Portheus’" |
+| gloss καθεῖσε | low | "κατ-έ-εἷσε" doubles the augment (εἷσε is already the augmented aorist of ἕζω) | "(καθεῖσε = κατ-εἷσε, with εἷσε the aor. of ἕζω ’seat’, augment included)" |
+| gloss ἱμείραιτο | low | voice missing: the -αιτο ending is the middle | "aor. opt. 3 sg. mid. dep." |
+| gloss ἀνέσαιμι | low | asserted ἀνίημι and "σ-aorist" flatly while the unit note says verb and sense are not certain | "ἀνίημι (verb and sense uncertain)"; "σ-aorist" dropped |
+| gloss κοτεσσαμένη | low | translation ’having become angry’; the house rendering (table, unit 190) is "bear a grudge" | ’bearing a grudge’ |
+| gloss ἐγκάτθεο | low | "syncopated": the loss is of the final vowel of the preverb κατά, which is apocope | "apocope of κατά (ἐγκάτθεο = ἐγκατάθου)" |
+| gloss ἀγάσησθε | low | quoted ’you take offence’, against the 7.41 row | ’you are indignant’ |
+| `__broaden__` γένος | low | the new reading made 14.113 (γένος εὔχομαι εἶναι) an accusative of respect, against the unit note and the Odyssey table (εὔχομαι with the object γένος, "my birth I declare") | new part now gives "object of εὔχομαι: ’my birth’" and keeps "of respect: ’in birth’" for γένος κακόν |
+| `__broaden__` ὥς | low | the new reading (ὥς = ὡς ’like’, after its noun, ἠέλιος ὥς) repeats the old entry’s own reading (βόες ὥς ’like cattle’): a broadening that adds nothing | key removed from `__broaden__`; the published entry is untouched. 17 broadenings remain (the file held 18, not 19) |
+
+new-renderings.md (not units.json): the ἀφνειὸν βιότοιο row is dropped (it only restates the table row ἀφνειὸς βιότοιο, 5.544, and pass 1 said "copy it into the table or drop it"); it is now named in the "Uses of existing table rows without change" paragraph. The ἀγάσησθε row now has "is indignant" and "takes offence" among the avoided. A row for καθεῖσε ("set down") is added. Other rows that say "unchanged from the table" (βοῶπις πότνια Ἥρη, χαλκοβατὲς δῶ, τρίγληνα μορόεντα, νηγατέῳ, εὐρύοπα Ζεύς, ἄκριτα νείκεα, ἀτρυγέτοιο, κλυτὸς ἐννοσίγαιος) are likewise restatements; left, since each is a single line with a different Greek context and copying them is harmless, but the publisher may skip them.
+
+## The uncertain forms named for this pass
+
+- πεφασμένον: lemma φημί, perfect passive participle, "spoken": kept (the unit note says only "a perfect passive participle" and "a word spoken", true on either derivation); gender fixed.
+- καθεῖσε: fixed, see above (unit and gloss now agree with each other and with iliad-027).
+- ὁμωθῆναι: aorist passive infinitive is certain from the ending; the lemma ὁμόω "unite" (from ὁμός) is the usual one; kept, and the unit note’s "to be united" matches `l`/`i`.
+- ἱμείραιτο: the parse stands (aorist optative middle, after εἴ πως, Zeus is the subject); voice added.
+- ἀφεστᾶσ’: correct as the perfect 3 plural of ἀφίσταμαι (contracted ἀφεστᾶσι, elided before οὐδέ), subject οἳ; "stand aloof" matches `l`; kept.
+- πορθεῖ: Πορθεύς in the dative with ἐξεγένοντο, as the unit note says; fixed above. It is not the verb πορθέω (a verb would leave τρεῖς παῖδες without a sense for "to").
+- the 18 broadenings (not 19): each old entry is present whole and in front; each new reading was checked against the line (θυγατρῶν, καλῷ, κόσμον, λευκὸν, στήθεσφιν, τετελεσμένον, ἀγαθοῦ, ἀμβρόσιον, ἀπόλοιτο, ἀφνειὸν, ἄρηται, ἔνι, ἕρματα, ἧκεν, ὀλοὸν, ἄγριος right as written; γένος and ὥς fixed as above).
+
+## Findings considered and refused
+
+1. πεφασμένον from φαίνω ("shown") instead of φημί: both are argued; the gloss and the note say "spoken", which is the sense the line needs; left, no claim is made that the derivation is certain beyond the lemma φημί.
+2. ἐπῆρσε "(= ἐπήραρε)": the two aorists are different formations of the same verb; the equation is loose but the meaning given is right. Left.
+3. ὀλοὸν κῆρ "deadly": the table has "baneful/baleful" at 1.342, 3.133, 9.305 and "deadly" at 12.425, 13.629; the later rows and the row in new-renderings.md agree. Left.
+4. 113 "declare … to be" for εὔχομαι εἶναι: the Iliad table has "claims to be" (2.82), but the Odyssey table fixes εὔχομαι as "declare" and has the same phrase with γένος (my birth I declare); the Iliad’s own "claim" rows are for other contexts. Left.
+5. 110 `i` "none of you" for ἕκαστος: a paraphrase of "each" that keeps the force. Left.
+6. 133 "μάλα μέν … looks forward to the ἠδέ": loose but the pairing μέν … ἠδέ is real. Left.
+7. 134 "βάν for ἔβησαν": the Attic equivalent is given, not a claim of identity of formation. Left.
+8. 163 note: χεύῃ "aorist of χέω" without saying subjunctive: the sense (‘she might pour’) shows the mood and the gloss states it. Left.
+9. 198 δαμνᾷ "second person singular present of δάμνημι": true under either voice; the gloss gives the middle. Left (as in pass 1).
+10. 190 κοτέω entry "be angry" in the gloss: the glossary lists meanings, and the house "bear a grudge" is first. Left.
+11. 208 ἀνέσαιμι: the note and the gloss now both say the verb is uncertain; `l`/`i` "bring back" kept.
+12. 175 ἐκ κράατος "from her immortal head": the preposition is rendered literally, the force (locks falling from the head) is clear. Left.
+13. Quote-mark placement at 190: “ and ” fall in one unit; correct since the whole speech is that unit.
+
+No other label, case relation, tense, mood, particle or cross-reference was found false; every "begins/ends at the ano teleia in mid-line N" was recounted against the line count of `t` (115, 121, 129, 148, 153, 181, 184, 219 all right).

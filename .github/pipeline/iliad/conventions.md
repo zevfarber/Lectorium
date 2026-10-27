@@ -4750,3 +4750,56 @@ specifically a lasting, god-sized anger (Calchas uses it of Apollo at 1.75), and
 | προκρόσσας (14.35, meaning not certain; probably "in tiers") | "in tiers" | "in tiers" | "in rows", "with prows foremost", "in a fringe" (each decides the open question); the note says the sense is a guess |
 | ἀποπαπτανέουσιν (14.101, meaning not certain; built on παπταίνω "peer about") | "will look about in alarm" | "will look about in alarm" | "will look back", "will turn away", "will gape" (each decides the open question); the note says the sense is not certain |
 | ὄρχαμε λαῶν (14.102) | "leader of the people" | "leader of the people" | "chief", "captain", "lord" (reserved for κρείων/ἄναξ); stock vocative |
+| πολυπίδακος (Ἴδης, 14.157; πίδαξ "spring") | "many-springed" | "many-springed" | "many-fountained", "of many streams", "well-watered"; a stock epithet of Ida and likely to recur |
+| τὴν δὲ δολοφρονέουσα προσηύδα πότνια Ἥρη (14.197, whole-line speech introduction) | "And to her, with guile in her mind, spoke lady Hera:" | "Then lady Hera, with guile in her mind, spoke to her:" | "cunningly", "deceitfully", "with crafty thoughts"; follows the table's δολοφρονέουσα "with guile in your mind" (3.405) and the Odyssey's whole-line δολοφρονέων … "with guile in his mind"; προσηύδα "spoke to" as in ἔπεα πτερόεντα προσηύδα |
+| τὴν δ’ ἠμείβετ’ ἔπειτα Διὸς θυγάτηρ Ἀφροδίτη (14.193, whole-line reply-formula) | "Her then answered the daughter of Zeus, Aphrodite:" | "Then Aphrodite, the daughter of Zeus, answered her:" | "Zeus’s daughter"; follows the table's τὴν δ’ ἠμείβετ’ ἔπειτα … rows and Διὸς θυγάτηρ "the daughter of Zeus" |
+| τὴν δ’ αὖτε προσέειπε φιλομειδὴς Ἀφροδίτη (14.211, whole-line reply-formula; φιλομειδής with one μ, as printed) | "Her then in turn addressed smile-loving Aphrodite:" | "Then smile-loving Aphrodite spoke to her in turn:" | "laughter-loving"; follows the αὖτε reply-formula ("then … in turn") and the table's φιλομμειδὴς Ἀφροδίτη "smile-loving" |
+| πρέσβα θεά (14.194, address to Hera) | "august goddess" | "august goddess" | "eldest" (the table’s rendering of πρέσβα for Eurydice, 3.452, whose note already allows "august"; here the word stands beside θεά as a title of honour), "venerable", "revered" (reserved for αἰδοίη) |
+| ἀγάσησθε (κότῳ ἀγάσησθε, 14.111) | "be indignant" | "is indignant" | "takes offence" (the table’s ἀγασσάμενοι 7.41 turns it down), "be resentful" (the table’s ἀγάομαι "be resentful of", 8.565, but κότος "resentment" stands in the same phrase and would be doubled), "be jealous", "envy"; follows the table’s ἀγασσάμενοι "feeling indignation" (7.41) |
+| χυτὴ … γαῖα (14.114, of a burial mound) | "the heaped earth" | "the heaped earth" | "the mound", "the poured earth", "the high-piled earth"; χυτός is from χέω |
+| πρόβατα (14.124) | "flocks" | "flocks" | "sheep" (the word is general for grazing stock), "cattle" (reserved for βόες) |
+| ἐγχείῃ (14.125) | "with the spear" | "with the spear" | "with the lance", "in spearmanship" |
+| κέκαστο (14.124) | "had excelled" | "had excelled" | follows the table’s κέκαστο (5.54) |
+| τὼ οὐκ ἄν … ἀτιμήσαιτε (14.126–127) | "not would you … dishonour" | "you would not … dishonour" | "slight", "scorn"; ἀτιμάζω "dishonour" as in the table (6.522); ἀνάλκιδα "without might" as in the table |
+| ἦρα φέροντες (θυμῷ ἦρα φέροντες, 14.132; ἦρα "favour") | "to their heart bringing favour" | "indulging their hearts" | "pleasing themselves", "doing what they like", "gratifying their pride" |
+| παλαιῷ φωτὶ ἐοικώς (14.136) | "to an old man likened" | "looking like an old man" | "in the likeness of"; follows the table’s νυκτὶ ἐοικώς (1.47) "to night likened" / "like the night" |
+| ὀλοὸν κῆρ (Ἀχιλλῆος ὀλοὸν κῆρ, 14.139) | "the deadly heart" | "the deadly heart" | "ruinous" (reserved for οὐλόμενος), "destructive", "baneful"; follows πῦρ ὀλοόν "deadly fire" (13.629) |
+| φύζα (φόνον καὶ φύζαν Ἀχαιῶν, 14.140) | "the panic of the Achaeans" | "the panic of the Achaeans" | "rout", "flight" (each decides how far the word means running); follows the table’s φύζα "panic" (9.2) |
+| οὔ οἱ ἔνι φρένες οὐδ’ ἠβαιαί (14.141) | "in him are no wits, not even small ones" | "there are no wits in him, not even small ones" | "no sense", "no mind", "not a particle of wit"; φρένες "wits" |
+| σιφλώσειε (14.142; meaning not certain) | "may … maim" | "may … maim" | "cripple", "make a fool of", "disgrace", "bring to ruin" (each decides the open question); the note says the sense is a guess |
+| κονίσουσιν … πεδίον (14.145) | "will raise dust on the wide plain" | "will raise the dust on the wide plain" | "will make dusty", "will fill with dust" |
+| ἐξαπάφοιτο (Διὸς νόον, 14.160) | "she might cheat" | "she might cheat" | "deceive", "beguile", "trick"; follows ἐξαπάφοιτ’ ἐπέεσσιν "would he cheat me with words" (iliad-055) |
+| ἐντύνασαν ἓ αὐτήν (14.162) | "having well arrayed herself" | "once she had arrayed herself well" | "adorned" (kept for κόσμον, 14.187), "dressed", "made herself ready" |
+| ᾗ χροιῇ (14.164; χροιή "skin", ᾗ possessive) | "with her own skin" | "with her own body" | "with her own flesh"; χρώς "skin" in `l` and "body" in `i`, as the table’s καλὸν χρόα "fine skin" (24.44) and κακὰ χροῒ εἵματα "on his body" (23.95) |
+| πευκαλίμῃσι (φρεσὶ πευκαλίμῃσι, 14.165; sense traditional, formation uncertain) | "keen" | "keen" | "shrewd", "sharp-set", "bitter", "pine-sharp" (each decides the open question); the note says the sense is traditional |
+| πυκινὰς … θύρας (14.167) | "close-fitting doors" | "close-fitting doors" | "thick doors", "stout doors", "strong doors"; follows the table’s θύρας πυκινῶς ἀραρυίας "the closely fitted doors" |
+| κληῗδι κρυπτῇ (14.168) | "a hidden bolt" | "a hidden bolt" | "secret key", "concealed lock"; κληΐς "bolt" as in the table (21.236) |
+| λύματα (14.171) | "filth" | "filth" | "stains", "dirt", "impurities"; follows ἀπελυμαίνοντο … λύματα βάλλον "cast the filth" (iliad-004) |
+| ἀμβροσίῃ · ἀμβρόσιον (14.170, 172, 178) | "ambrosia" · "ambrosial" | "ambrosia" · "ambrosial" | "deathless", "divine"; follows the table’s ἀμβρόσιος "ambrosial" |
+| ἑδανῷ (ἐλαίῳ … ἑδανῷ, 14.172; sense traditional) | "sweet" | "sweet" | "fragrant", "soft", "pleasant to eat" (each decides the open question); the note says the sense is not certain |
+| τεθυωμένον (14.172) | "perfumed" | "perfumed" | "incensed", "scented with incense", "made fragrant" |
+| ἀϋτμή (14.174) | "scent" | "scent" | "breath", "vapour", "steam"; the note gives the literal sense |
+| πλοκάμους · χαίτας (14.175–176) | "locks" · "hair" | "locks" · "hair" | "tresses", "braids", "curls" |
+| ἑανὸν ἕσαθ’ (ἀμβρόσιον ἑανόν, 14.178; ἑανός "fine", sense not certain) | "an ambrosial fine robe" | "a fine, ambrosial robe" | "a soft robe", "a long robe", "a light robe" (each decides the open question); follows the table’s ἑανός "fine" (5.734) |
+| ἔξυσ’ ἀσκήσασα (14.179) | "smoothed, having worked it" | "worked and smoothed" | "polished", "scraped", "embroidered" |
+| δαίδαλα πολλά (14.179) | "many intricate works" | "many intricate works" | "many wonders", "many figures", "many designs"; follows the table’s δαίδαλα πάντα τεύχειν "every kind of intricate work" |
+| ἐνετῇσι (14.180) | "pins" | "pins" | "brooches", "clasps", "fibulae" |
+| θυσάνοις (14.181) | "tassels" | "tassels" | "fringes", "tufts", "pendants" |
+| ἕρματα (14.182, in the ear-lobes; the word is also "props") | "earrings" | "earrings" | "ear-drops", "pendants"; follows odyssey-090 (18.297) "Earrings"; the table’s ἕρματα "props" (1.486, 2.154) is a different sense of the word |
+| ἐϋτρήτοισι λοβοῖσι (14.182) | "the well-pierced lobes" | "her well-pierced ear-lobes" | "bored", "perforated" |
+| κρηδέμνῳ (14.184) | "veil" | "veil" | "headdress", "head-band", "mantle"; follows the Odyssey’s κρήδεμνα "veil" |
+| λευκὸν … ἠέλιος ὥς (14.185) | "white as the sun" | "as white as the sun" | "bright as", "gleaming like" |
+| ἦ, καί (14.214) | "She spoke, and" | "So she said, and" | follows the table’s ἦ ῥα καί rendering ("He spoke, and" / "So he said, and") |
+| κεστὸν ἱμάντα (14.214; κεστός "embroidered", sense not certain) | "the embroidered strap" | "the embroidered strap" | "the girdle", "the stitched thong", "the charmed belt" (each decides the open question); follows the table’s πολύκεστος "much-embroidered" (3.371); ἱμάς "strap" as in iliad-020 and odyssey (the bolt-strap) |
+| ποικίλον (14.215, 14.220) | "intricate" | "intricate" | "many-coloured", "inlaid" (reserved for work in wood and metal); follows ποικίλα τεύχεα "intricate armour" |
+| θελκτήρια (14.215) | "charms" | "charms" | "spells", "enchantments" (θέλγω is "enchant"), "love-charms" |
+| ὀαριστύς (14.216) | "intimate talk" | "intimate talk" | "dalliance", "whispering", "fond converse"; the note names the force |
+| πάρφασις (14.217) | "coaxing" | "coaxing" | "persuasion", "beguilement" (θέλγω), "deceit" |
+| πύκα περ φρονεόντων (14.217) | "even of those thinking shrewdly" | "even of those who think shrewdly" | "wise" (reserved for σοφός / πεπνυμένος), "sensible", "prudent" |
+| τῆ νῦν … ἐγκάτθεο (14.219) | "Here, now, … lay up in your bosom" | "Here, take … and tuck it into your bosom" | "put away"; τῆ "here" as the table’s τῆ δή (8.477) |
+| ἄπρηκτον (14.221) | "fruitless" | "fruitless" | "unaccomplished", "empty-handed"; follows the table’s ἄπρηκτον πόλεμον "a fruitless war" (2.121) |
+| μενοινᾷς (14.221) | "you yearn for" | "you yearn for" | "you intend", "you desire"; follows the table’s μενοινώω "I yearn" (13.79) |
+| ἀνέσαιμι (14.209; verb and exact sense not certain) | "I should bring back" | "bring them back" | "lead up", "raise"; the note says the sense is a guess |
+| ὁμωθῆναι (14.209) | "to be united" | "to be united" | "to be joined", "to be mated" |
+| γαίης νέρθε καθεῖσε (Κρόνον … καθεῖσε, 14.204; aorist of καθίζω, causative) | "set down beneath the earth" | "set Cronus down below the earth" | "sent down", "hurled down", "cast down" (a different verb, καθίημι, or a different force); follows iliad-027, where καθεῖσεν is "seated" |
+| ἀτρυγέτοιο θαλάσσης (14.204) | "unharvested sea" | "the sea that yields no harvest" | unchanged from iliad-004 (the note says the real sense is not known) |

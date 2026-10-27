@@ -49,3 +49,4 @@
 - 2026-10-27 · ch98a: ተዓይን glossed 'camps (?)' here but published parts have 'scouts/onlookers (?)' — decide one reading when Dillmann is available. Decided meanwhile: kept both, hedged.
 - 2026-10-27 · housekeeping: the cloud checkout's local `main` had diverged from origin/main (50 local commits, incl. an older ch96a/ch96b run, not on origin). Worked on a branch from origin/main and pushed to main; local main left untouched.
 - 2026-10-27 · ch98b · Unresolved without Dillmann: see LOG line (ዘያርመሰምስ, ሚጦተ / ይብስት, ርቡባተ, ወአፅግዑ, እራኁ, ወኀጥኡ, እመ ኢኮነኑ ጥዑመ, ሣረረታ, አያያተ ገብር). Source slips kept as printed. Part title is ours. Decided meanwhile: published with (?) flags.
+- 2026-10-27 · ch99 · Unresolved without Dillmann: see LOG line (ሰለቦ, ነገፎ, ጸበሎ, ረዓደ, እምነ, ትእልፊተ, ተህየዮ, ዝኁር, ነሠቶ, አስቆረሮ). Heading ፺፻ kept as printed. Part title is ours (parts.json name was empty). Decided meanwhile: published with (?) flags.

@@ -1,0 +1,19 @@
+# iliad-086 — new formula and epithet renderings (14.1–108)
+
+Rows in the format of the conventions table (Greek | `l` | `i` | avoided on purpose).
+
+| Greek | `l` | `i` | avoided on purpose |
+|---|---|---|---|
+| Τρῶας ὑπερθύμους (14.15; ὑπέρθυμος, ὑπέρ + θυμός) | "the high-spirited Trojans" | "the high-spirited Trojans" | "proud", "overweening", "arrogant" (each decides the tone), "great-hearted" (reserved for μεγάθυμος), "bold"; the word is a stock epithet and recurs |
+| διοτρεφέες βασιλῆες (14.27) | "the Zeus-nurtured kings" | "Zeus-nurtured kings" | "Zeus-fostered", "god-nurtured", "kings nourished by Zeus"; follows the table's διοτρεφές "Zeus-nurtured" |
+| τὸν καὶ φωνήσας προσέφη κρείων Ἀγαμέμνων (14.41, whole-line speech introduction) | "And him, lifting his voice, addressed lord Agamemnon:" | "And lord Agamemnon lifted his voice and spoke to him:" | "answered" (reserved for ἠμείβετο), "said to him" alone (drops φωνήσας); φωνήσας "lifting his voice" as in the table's καί μιν φωνήσας …, προσέφη "addressed", κρείων "lord" |
+| ἀλλ’ Ἀσκληπιάδην ἔπεα πτερόεντα προσηύδα (14.2) | "but to Asclepius’-son winged words he spoke:" | "but he spoke winged words to the son of Asclepius:" | the table's ἔπεα πτερόεντα προσηύδα unchanged; Ἀσκληπιάδης as the table's Ἀσκληπιάδη (4.204) |
+| νὺξ ἀβρότη (14.78; ἀ- + βροτός "mortal") | "the immortal night" | "immortal night" | "ambrosial" (the other ancient reading, and it would make the word mean "fragrant"), "divine" (reserved for θεῖος), "deathless", "holy"; the note gives the derivation |
+| ἀεικελίου (στρατοῦ, 14.84) | "unseemly" | "unseemly" | "worthless", "ignoble", "inglorious"; keeps the "unseemly" of the table's ἀεικής / ἀεικέα family |
+| ὕψι δ’ ἐπ’ εὐνάων ὁρμίσσομεν (14.77; εὐναί "beds", of ships, the anchor-stones) | "high on anchor-stones let us moor" | "moor them afloat on anchor-stones" | "beds" (a picture the Greek does not intend), "sleeping-stones", "ropes"; the note says εὐναί are anchor-stones and ὕψι means afloat, off the ground |
+| προκρόσσας (14.35, meaning not certain; probably "in tiers") | "in tiers" | "in tiers" | "in rows", "with prows foremost", "in a fringe" (each decides the open question); the note says the sense is a guess |
+| ἀποπαπτανέουσιν (14.101, meaning not certain; built on παπταίνω "peer about") | "will look about in alarm" | "will look about in alarm" | "will look back", "will turn away", "will gape" (each decides the open question); the note says the sense is not certain |
+
+Uses of existing table rows without change: ἔπεα πτερόεντα προσηύδα, ἐϋπλόκαμος "fine-plaited", αἴθοπα οἶνον "fire-faced" / "has the look of fire", ἱπποδάμοιο "horse-taming" / "tamer of horses", Δαναῶν ταχυπώλων "swift-colted" / "with their swift colts", ποιμένα λαῶν "shepherd of the people", ὄβριμος Ἕκτωρ "mighty", ἐϋκνήμιδες Ἀχαιοί, πόλεμον φθισήνορα "man-wasting" / "that wastes men", Ζεὺς ὑψιβρεμέτης, εἶλαρ "shelter", ἀλίαστον "relentless", λιγέων ἀνέμων "clear winds" / "clear-sounding winds", ἀϋτή "cry" / "battle-cry", ἅλα δῖαν "heavenly sea", ἅλα δ’ ἑλκέμεν "seaward" / "to the sea", νέμεσις "resentment", ὢ πόποι "Ah", οὐλόμεν’ "ruinous one" / "you ruinous man", εὐρυάγυιαν "wide-streeted" / "of the wide streets", τετυγμένον "wrought" / "well-wrought", μῆτιν "cunning", σκηπτοῦχος "sceptre-bearer", ἄλκιμον ἔγχος "sturdy spear", χάρμη "the joy of battle", ὑπερμενέϊ "exceeding-strong" / "of surpassing strength".
+
+Departures from published English: none. Whole-unit repeats (52, 64, 82, 103) and the partly repeated lines (12, 23, 42, 61, 69, 70, 92) take the published wording; line 48 κεῖνος τὼς ἀγόρευε takes the published "That man thus was speaking;" / "That is how he spoke;". The one new-text variant: line 83 has the Greek of 4.350 but ends with an ano teleia in this edition's text rather than a Greek question mark, so it is a new unit with the 4.350 English.

@@ -157,6 +157,7 @@ repository is the state, never this table. Run it rather than trusting what is w
 | Night 58 | P422L11–P425L06 | published 2026-10-27, 48 sense units (3 verse blocks), 4 disjoint slices, check_slice PASS first time on all; 169 new glossary entries, existing keys kept |
 | Night 59 | P425L07–P427L11 | published 2026-10-27, 38 sense units, 3 disjoint slices |
 | Night 60 | P427L12–P430L17 | published 2026-10-27, 62 sense units, 5 disjoint slices (check_slice PASS first time); +240 glossary entries, shared file wording kept on collisions |
+| Night 61 | P430L18–P433L04 | published 2026-10-28, 53 sense units, 3 disjoint slices (check_slice PASS first time); +201 glossary entries, shared file wording kept on 263 collisions |
 
 A night runs 84–224 archived lines (about 5½ printed pages), so eight transcribed pages yield
 roughly one and a half nights. Eight units are waiting as of 2026-09-18, so the next several

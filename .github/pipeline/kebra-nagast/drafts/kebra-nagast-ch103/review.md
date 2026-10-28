@@ -50,3 +50,52 @@ Counts by row: major 1, moderate 10, minor 17 (28 rows).
 - Unit 10 "bound loosely to the next verses": vague but harmless. Kept.
 - Unit 11 አሚን "faith (?)": hedged; Dillmann needed.
 - The house glossary for መንፈሰ/ቅዱሰ (construct) is not changed here; it belongs to the glossing pass.
+
+# Review, pass 2 (adversarial reviewer; units.json and gloss.json edited in place by script, `t` untouched and verified identical to the packet; 183 words, all covered, no unused gloss keys, all `__broaden__` entries = known entry whole + ' · ' + new reading)
+
+Dillmann unavailable; hedged (?) where it could not be checked.
+
+## Units
+| Unit | Field | Sev. | What | Done |
+|---|---|---|---|---|
+| 1 | n | minor | causative stem spelled አነበረ; dictionary form is አንበረ | corrected |
+| 3 | l, i | moderate | the Lord's speech opened in unit 3 never closed; the inner prayer "You are our Father" and the Father's reply were in the same quote marks | inner quotes made double, outer single, closing in unit 4 |
+| 3 | n | minor | did not say the speech continues into unit 4 | added |
+| 4 | l, i | moderate | same quote nesting; "You are my son" is the Lord's report of the Father's words | double inner quotes, outer closed |
+| 7 | l | minor | "to-each one(?)": ለለ is the lexical distributive "each", not ለ- + ለለ | "each one(?)" |
+| 7 | n | minor | same ("to each one") | "each one" |
+
+Re-checked and left: all `t` cuts and p flags (one paragraph, so only units 0 and 1 carry p); no unit over 45 words (max 32); l vs i agree after pass 1; i has no remembered liturgical or biblical wording beyond what the Geʿez says (unit 6 "communion" is flagged in the note as the usage of ተመጠወ).
+
+## Gloss
+| Form | Field | Sev. | What | Done |
+|---|---|---|---|---|
+| ወዘያነብሩ | lemma | minor | አነበረ is not the dictionary form; አንበረ (ያነብሩ = yanbəru) | corrected |
+| ቱስሕተ | meaning | minor | "with -ቱ of ዘአልቦቱ" is wrong: ዘአልቦቱ is a separate word | clause removed, parse now accusative after ዘአልቦቱ (?) |
+| መዋርስትየ | lemma | moderate | "heir" unverified; may be plural of መርስት "inheritance" | alternative stated, (?) kept |
+| ፈኑ | parse | minor | number of the imperative not given | 2ms |
+| ሱቱፋነ | parse | minor | "+ -ነ" read as a suffix; it is the accusative plural ending of ሱቱፋን | corrected |
+| እ, ምይእዜ | meaning | minor | muddled explanation; the pair is እምይእዜ misdivided (ም carried to the next word) | both reworded, (?) |
+| ተዘሚሮሙ | parse | minor | "adverbial form" vs note "gerund" | gerund |
+| ለመንፈቁ | meaning | moderate | "for its half"; ሰገደ takes ለ- "to" (unit n, l agree) | "to its half" |
+| ለግልፎ | meaning | minor | ለ- called "marking the object"; it is "to" after ሰገደ | corrected |
+| ወፈጠሩነ | meaning | moderate | "'saved us' possible" has no lexical basis (pass 1 removed it from the note, not from the gloss) | removed |
+| ቅዱሳን (broaden) | example | minor | example ካህናት ቅዱሳን "after a noun" is the wrong order; here ቅዱሳን ካህናት | "before or after a noun", examples fixed |
+| መንፈሰ (broaden) | parse | moderate | house entry "construct" is a misparse here (object of ፈኑ, no governed noun) | accusative reading appended; the old text must stay whole under the broaden rule |
+| ቅዱሰ (broaden) | parse | moderate | same | accusative reading appended |
+| ክፍለ (broaden) | meaning | minor | known readings (construct; predicate after ትከውኑ) do not cover the accusative after አልቦ | added |
+| ለዕፀው (broaden) | meaning | minor | ለ- "marking the object"; here "to" after ሰገደ | added |
+| ለአሕዛብ (broaden) | meaning | moderate | known "to the nations"; here genitive "of the nations" | added |
+| አይሁድ (broaden) | parse | minor | known use only "dependent noun after ሕዝበ"; here nominative | added |
+
+Checked and kept: every other novel entry (lemma, parse, meaning at each occurrence), and every other known entry against its use here.
+
+## Refused / left
+- ሠናይት "goodness, beauty (?)": Greek Ps 95:6 has ὡραιότης "beauty", so "beauty" may be the better reading; unit i keeps "goodness"; cannot decide without Dillmann.
+- አሚን "faith (?)": the Greek has "confession"; left hedged.
+- ይሰጠዎ: lemma ሰጠወ and sense "answers" unverified; hedged in gloss, l and i.
+- ፻፫ spoken form "ምእት ወሠለስቱ" follows the house number rule; kept.
+- ይሰግዲ/ትሰግዲ/ወይሰግዲ (-ዲ for -ዱ): gloss states the written ending; flagged in unit 8 note; kept.
+- እከይ (known entry በእከዮሙ) and ዘ for ወዘሰ: published entries, not touched.
+
+Counts: units 0 major, 2 moderate, 4 minor (6 rows); gloss 0 major, 6 moderate, 11 minor (17 rows, 7 of them broadenings).

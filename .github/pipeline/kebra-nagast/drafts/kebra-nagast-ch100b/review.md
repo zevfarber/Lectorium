@@ -138,3 +138,110 @@ Total 53 changes: major 2, moderate 24, minor 27.
 ## For the second pass (gloss.json)
 
 Entries that must agree with the edits above: ሡዕ ሠውዐ; አረፍት 'wall'; ልሕኵቱ 'moulded thing'; ያቈርር አቈረረ; ስምዑኒ 'hear me'; ዘዘ distributive; እመሕያው; ተጋነይክሙ 'entreat' (?); ተኬነወ/ዘተኬነዉ one entry with 100a's; አቢሶሙ infinitive + -ሙ; ሠጢቆሙ infinitive of ሠጠቀ + -ሙ; ተኀየለ and ተሓምዮ/ተቃጽቦ (reciprocal); አይድዐኒ lemma አይድዐ; አኀ ድር lemma ኀደረ.
+
+---
+
+# Pass 2 — kebra-nagast-ch100b
+
+Reviewer pass 2. Read: conventions.md, run3/RUNBOOK.md, packet, `units.json` (as edited in pass 1), `gloss.json` (Sonnet's, written before pass 1), `known-forms.json`, `novel-forms.json`. Edited `units.json` and `gloss.json` in place by script (valid JSON; every `t` and `p` verified unchanged against the pass-1 file). No modern translation consulted; Dillmann unavailable, so uncertain calls carry (?). The one external control is again the pinned source as a concordance. Checked: every one of the 169 novel entries against each occurrence and against the edited `l`/`i`/`n`; all 240 known entries against this part's use (a known entry that does not cover the use is broadened); the 13 `__broaden__` entries; coverage (every form in `novel-forms.json` has a key, 0 missing; every word of every unit has a glossary or known entry, 0 uncovered; no gloss key outside the novel list; every entry has " — "). Cross-checked `ch100a/gloss.json` for ተኬነወ, ልሕኵት, ሐመየ, እበድ.
+
+## Gloss changes (gloss.json)
+
+Format: form · field · severity · what was wrong · what was done.
+
+### Build or sense errors
+- ፻ወ፳ · entry · major · numeral entry had no " — " (the form `spoken … (numeral…)` only), which `hooks.validate` rejects ("entry must be lemma — meaning (grammar)"), so the build would have refused · rewritten in the shape of the published ፻፳ entry: "፻ወ፳ — 120, spoken ምእት ወዕሥራ (məʾət wä-ʿəśra) 'one hundred and twenty' (numeral)".
+- በልሕኵቱ · meaning · major · 'in his weakness, slackness' reverses pass 1's reading (ልሕኵት 'moulded thing, creature'; ልሕኵትየ in 100a is 'my moulded work') · "for his moulded creature (በ- + noun … from ለሐከ + -ሁ)" (?).
+- ሞቱ (__broaden__, known entry) · meaning · major · the published entry reads ሞቱ as the noun "his death", but ቦእለ ሞቱ is the 3mp perfect 'some died' (unit 11) · old entry kept whole + " · ሞተ — they died (3mp perfect, G, m-w-t; ቦእለ ሞቱ 'some died')".
+- ወተይ · meaning · moderate · 'perhaps smoke', which pass 1 removed from the unit (the word is left untranslated) · now "sense unknown, left untranslated (?)", cf. ch. 101 ላዕለ እሳት ወተይ (concordance re-checked: three hits, all cosmic-element contexts).
+- እምከመሰኬ · lemma/meaning · moderate · "if indeed" (unit and note now 'since indeed') · "እምከመ — since indeed, since then".
+- ዘያሠርጽ · meaning · moderate · "who sows" (unit: "what he sows", ዘ = 'that which') · "that which he sows, causes to enter (… causative of ሠረጸ 'enter')"; ያሠርጽ aligned (minor).
+- ወኢይትዋሣእ · meaning/grammar · moderate · 'take by force, contend' with "the usual sense does not fit" · "dispute, answer back (?) … reciprocal tä-stem with long ā … from the root of አውሥአ"; the 'by force' reading stated unsupported.
+- ወዘተሠጥዎ · grammar · moderate · "ending -ዎ is the root's w" contradicts the note (ተሠጥወ + -ኦ 'it' written -ዎ) and meaning 'whoever yields' vs unit 'he who yields' · rewritten with the suffix; verb flagged as unattested (?).
+- ወአደማሆሙ, ተምዕዛ · lemma/meaning · moderate/minor · 'stirred them up … lit. made them bloody' (from ደም) and 'fragrant'. The source gives better: ch. 26 አደመኒ አውሥኦትከ 'your answer pleased me', ch. 36 ኢይኤድሞ ለልብየ 'does not please my heart' (ʾ-d-m 'please', ʾ-initial imperfect like ይኤዝዝ), ch. 64 ተሠነየት ወተምዕዘት ሎቱ (tä-stem of መዐዘ, 'pleasing to him') · entries and unit 6 (l, i, n) changed to 'they were pleasing to them, and pleased them (?)'.
+- አቢሶሙ · grammar · moderate · "3ms? perfect + -ሙ … those who sinned (?)", which pass 1 had fixed as the infinitive · "their sinning (infinitive of the pattern ዐቂበ + -ሙ) … exceedingly".
+- ወያኀስሮሙ · meaning · moderate · 'brings them low, impoverishes' (the remembered Luke wording pass 1 removed) · "causes them loss, diminishes them"; ch. 99 ያኀስር (ለዘ ፈቀደ ያከብር ወለዘ ፈቀደ ያኀስር) cited.
+- አነኀ · meaning · moderate · 'raised, made high' (from ነኀ 'be high') · "prolonged (?)" from ነኅ 'be long' (ኑኆሙ the same root, whose entry now says 'length, height').
+- ዘተጋነይክሙ · meaning · moderate · 'in which you devoted yourselves, served' · "that which you entreated (?)", ch. 6, 9, 62.
+- ዘተኬነወ, ዘተኬነዉ · meaning · moderate · 'was worked out, practised' (unit 11 is 'was zealous (?)', and 100a's ተኬነወ is 'took up the cause of, was zealous for') · both keep the lemma ተኬነወ and now cite 100a's sense; ዘተኬነዉ read 'busied themselves with (?)'; ዘተኬነወ notes the alternative 'worked skilfully' (see unresolved).
+- ተቃጽቦ, ወተሓምዮ · lemma · moderate · lemmas were the inflected nouns themselves ("strife, contention"; "slander, backbiting"), not dictionary forms, and ignored the reciprocal tä-stem pass 1 established · lemmas ተቃጸበ and ተሐምየ, "striking one another, quarrelling (?)" / "slandering one another (?)".
+- ረዐይተ · lemma · moderate · lemma ረዐይት is the form itself (a plural of ረዓይ) · lemma ረዓይ, plural ረዐይት, accusative ረዐይተ; 'giants' stays (?), ረዓይ = 'shepherd' ch. 98.
+- ውሣጥያተ · lemma · moderate · lemma ውሣጥይ is not what the note says (ውሣጢ) · "ውሣጢ — … plural ውሣጥያት, accusative ውሣጥያተ (?)".
+- ኢመሐኮሙ · lemma · moderate · a confident lemma መሐከ for a verb found nowhere else in the book · kept as printed but flagged: "ኮ may stand for ሮ, መሐረ 'have mercy, spare' (?)"; same hedge added in the unit 10 note (minor).
+
+### Minor
+- ገህነም · grammar · "construct 'of Gehenna'" is wrong (genitive after the construct ሐረረት) · corrected.
+- ወኢይኤዝዝ · grammar · 'causative'; አዘዘ is a G verb with an ʾ-initial root (ይኤዝዝ is its regular imperfect) · "G, ʾ-z-z".
+- ወኢያጌብር · lemma/grammar · lemma አገበረ vs note አግበረ; ያጌብር's long ጌ is irregular · lemma አግበረ, irregularity flagged (?); note in unit 3 likewise.
+- ወኢይዘብጥ · hedge · (?) removed: ch. 90 ወዘይዘብጥ ቢጾ በጒሕሉት ርጉም ውእቱ 'whoever strikes his neighbour in secret is cursed' confirms 'strike'.
+- ዑቁ · hedge · restated (irregular for ዕቀቡ; occurs once), kept (?); the same hedge added to the unit 5 note.
+- ወተሠርሙ · grammar · "they were sent forth, let down", 3mp · pass 1 showed -ሙ is the pronoun, probably an impersonal 3ms passive; 'let down' dropped.
+- ወወረዲ · attestation · ch. 97 has ወረዲ ውስተ ሲኦል ሕያዋኒሆሙ (3mp, same ending); (?) kept on the ending only. Unit 5 note extended.
+- ዘፍኖሙ · grammar · "construct after እበደ" (it is the genitive; እበደ is the construct) and 'dancing, singing' vs l 'dance' · corrected; (?) kept.
+- ኪኖሙ · evidence · added ch. 25 በኪን ዘወሀቦ እግዚኣብሔር; (?) kept.
+- ወአበሱ · stem · "causative"; አበሰ is G · corrected (አቢሶሙ likewise).
+- ወተሳለቁ · stem · "tä-stem III" (not III-weak) · "tä-stem of ሳለቀ".
+- ሞአ · hedge · pass 1's case problem (ሞአ ቃለ) added to the entry (?).
+- ሠጢቆሙ · meaning · 'their tearing … as they tore' vs 'splitting the womb' · "their splitting (infinitive of ሠጠቀ + -ሙ)".
+- ኑኆሙ · root · 'their height' only; now "length, height" from ነኅ.
+- ዘበእንቲአሆሙ · wording · "which concerns them" for 'because of them' · "on account of them".
+- ወጽርባ · wording · aligned with the note (shape or coating, Genesis 6:14 'pitch'; left untranslated).
+- ኢይቅረባ · grammar · "ending -ባ taken as 3fp" (the ending is ባ = root b + 3fp -ä; ባ is not an ending) · "3fp jussive ይቅረባ, G, q-r-b; subject the waters".
+- ቅድሳትየ · grammar · "plural" · "holy things, holiness (noun, fem.)".
+- ወኣፀምእ · lemma · አጽምአ (printed spelling) vs the usual አጽምዐ 'give ear' · lemma አጽምዐ, spelling variant flagged (?).
+- እዴየ · wording · 'my hands … plural sense' · "my hand(s)".
+- ለመላእክቲሁ · hedge · ለ- 'about' stated flatly; 'to his angels' is the other reading · (?) added in the entry only (the unit's 'about' kept, since the quoted words speak of the angels in the 3rd person).
+
+### __broaden__
+- ሡዕ · severity moderate · the glosser's added " · 'offer!' (ሡዕ ሊተ 'offer to me')" contradicts pass 1 ('sacrifice to me') and the published entry already covers the use · key removed (the published entry stands).
+- ዘእንበለ · moderate · the added " · 'beyond', 'more than' before a number" contradicts the edited unit 12 ('except for 120 years') · old entry kept whole + 'except' before a number (ዘእንበለ ፻ወ፳ ዓመት), 'except only' (ዘእንበለ ዳእሙ), 'without' (ዘእንበለ ኀፍረት).
+- ተኀየለ · moderate · missing though pass 1 required it (the published entry 'prevailed, grew strong' does not cover 'was overpowered') · added, (?).
+- ነገረ · moderate · the published entry is the noun 'word, matter' only; in unit 8 ነገረ እንዘ ይብል is the verb 'he spoke' · added " · ነገረ — he spoke, said (3ms perfect, G, n-g-r …)".
+- Minor additions (old entry kept whole + new reading): ትነብሩ ('you (2mp) will dwell'; the old entry only gives the 3mp-sense), ወመርቄ (beside fire and ተይ in Gehenna, sense unknown), እበደ ('madness', matching l), አንበሮሙ ('he set them'), ወሊደ ('to bear' of the women), ለማየ (dative after አዘዘ), አረፍት ('wall', confirmed: ch. 17 ቆመ ማይ ከመ አረፍት; ch. 55 አረፍት በይምን ወአረፍት በፅግም), ተኀሥሥ ('seek!' as a command (?)), ኵሉ (ኵሉ ዘ- 'all who').
+- Known entries checked and left (cover this part's use): the remaining ~225, including ሥጋ, ምድረ, ኀበ, ለደቂቀ, ቦቶን ('through them'; l/i changed to agree, below), ሡዕ, ስምዑኒ, እንተ, ኮነ, ፫, ፬, በይእቲ, ኀይለ, ትክል, ተመውአ.
+
+## Units changes (units.json, second pass)
+
+- 6 · l/i/n · moderate · see ወአደማሆሙ / ተምዕዛ above: 'fragrant', 'inflamed'/'stirred them up', 'made them bloody' replaced by 'pleasing' / 'pleased them (?)' with the concordance (ch. 26, 36, 64); the first (?) removed from ተምዕዛ ሎሙ since ch. 64 has the same verb and construction.
+- 4 · n · moderate · ተሠጥወ was given as "tä-stem of ሠጠወ 'draw, entice'", a root attested nowhere in the book, presented as a dictionary fact · now "its root, perhaps ሠጠወ …, is only a guess".
+- 11 · l/i · minor · ተስሕቱ ቦቶን rendered 'with the women' though ቦቶን is 'through them' (published entry and the note) · l "through-them(f.)", i "through the women".
+- 14 · i · minor · "were met by nothing evil" misrepresents አልቦ ዘረከቦሙ እኩይ (l: 'not-there-was that-which-befell-them evil') · "nothing evil from that flood befell them".
+- 15 · i · minor · "so tell me" added an inference to ወአይድዐኒ · "and tell me".
+- 3 · n · minor · ኢያጌብር: irregular long ጌ flagged (?).
+- 5 · n · minor · word count "about 59" is 58; ዑቁ hedged (?); ወረዲ ch. 97 attestation; ኪን (ch. 25) added with the alternative 'worked skilfully' for ተኬነወ (?) (four small edits to one note).
+- 10 · n · minor · ኢመሐኮሙ: unattested verb, possible misprint for መሐረ (?).
+- 20 · n · minor · "three or four times" for the four እም-clauses (እምወህቦ, እምአዕደዎ, እምአዕረጎ, እምአዘዞ) · "four times".
+- 26 · n · minor · ወኣንሶሱ lemma አንሶሰወ vs the published lemma ነሶሰወ · aligned.
+
+Units 0–2, 7–9, 12–13, 16–19, 21–25, 27 re-read word by word against the source and the edited glossary: no further change. Rendering consistency with 100a and the published parts checked for: God / Cain (Qayen in l) / Sheol / the great day / ሕያዋን / ልሕኵት / ተኬነወ (aligned in l, i and gloss).
+
+## Findings refused
+
+- Re-opening pass 1's ተይ and መርቄ (left untranslated): the concordance still gives no sense; ch. 35 ምድረ ዐውሎ ወመርቄ and ch. 78 ዘያጠይሶ ለመርቄ show only that መርቄ is a place-or-condition word. Kept.
+- Re-translating ረዐይተ 'giants' (?) as 'shepherds': the relative clause 'whose height reaches the clouds' makes it impossible; kept (?).
+- Changing ዘእንበለ ፻ወ፳ ዓመት in unit 12 back to 'beyond': pass 1's 'except' is the form's usual sense.
+- Re-opening the Noah quotation structure or the units 5/20 length: as pass 1.
+- Changing unit 10's 'about his angels' to 'to his angels': the quoted words speak of the angels in the 3rd person; hedge placed in the gloss only.
+- Replacing ወይሰበር's 'passive in sense' (?) with ይትሰበር: the printed form stays; (?) kept.
+- Not editing 100a (its reviewer's job): 100a's እበድ 'folly (?)' vs 'madness' here is bridged by the broaden; 100a's ተኬነወ 'zealous (?)' is now the shared base in both parts' entries.
+
+## Counts by severity (pass 2)
+
+Gloss entries changed or added: 56 (novel entries 42; broaden 14: 13 entries added or rewritten, 1 removed). Unit edits: 13 (one per field-group above; the unit 5 note counts as four).
+Total 69: major 3 (፻ወ፳, በልሕኵቱ, ሞቱ), moderate 23 (21 gloss, 2 unit), minor 43 (32 gloss, 11 unit).
+
+## Readings still unresolved
+
+- ተይ, መርቄ (unit 0): untranslated.
+- ተኬነወ (units 5, 11; 100a): 'zealous for' (100a) versus 'worked skilfully, took pains' (ኪን, ch. 25); ዘተኬነዉ 'busied themselves with' follows the second. The three occurrences should be read together by 100a's reviewer.
+- ሞአ ቃለ እግዚኣብሔር (11): subject/object; 'prevailed (?)'.
+- ምዝጋና (4): 'glory (?)', one occurrence.
+- ይትዋሣእ 'dispute (?)'; ተሠጥወ (root and sense from context); ተሠርሙ (impersonal passive or 3mp); ወረዲ's ending; ዘፍኖሙ 'dancing'; ይባቤ 'shouting' (ch. 39 parallel only).
+- አደማሆሙ 'pleased them (?)': well supported by ch. 26/36 but without Dillmann; the long-ā forms ተምዕዛ/ሆካ unchecked.
+- ኢመሐኮሙ: verb unattested; possible misprint for መሐረ.
+- ረዐይተ 'giants (?)'; አነኀ 'prolonged (?)'.
+- ጽርባ (untranslated), ውሣጢ 'compartments (?)', ርቡዕ (adjective) 'square'.
+- ከመ በርባዔ (22): construction; 'fourfold shape (?)'; መኣዝኒሃ plural stem.
+- በይእቲ (25) 'in her (?)'; ግምንና 'abomination (?)'; ወንጹሕ በንጹሕ; 'receive it from you'.
+- ተቃጽቦ 'quarrelling (?)'; ተጋነይክሙ 'entreated (?)'; ኣፀምእ spelled with እ for ዐ.
+- ወኢያጌብር's long ጌ; ዑቁ's form.

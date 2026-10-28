@@ -5098,3 +5098,19 @@ specifically a lasting, god-sized anger (Calchas uses it of Apollo at 1.75), and
 | πρυλέων ἡγεμόνα (15.517) · ἀρχόν (15.516, 15.519) | "leader of the foot-soldiers" · "commander" / same | the table's πρυλέες "foot-soldiers" (5.744, 12.77) and ἀρχός "commander" (4.464); ἡγεμών "leader" |
 
 Odyssey-shared lines: 15.480–481 reuse the English of odyssey-107 and of the Iliad at 3.336–337 (iliad-019), unchanged. No departure from the Odyssey English in this part.
+
+### iliad-097 (15.559–652)
+
+| Ἀργείους δ’ ὄτρυνε μέγας Τελαμώνιος Αἴας (15.560, whole-line speech introduction; object first, subject last) | "And the Argives he urged on, great Telamonian Ajax:" | "Great Telamonian Ajax urged on the Argives:" | "Ajax urged on the Argives" without the epithet; "And the Argives urged on great Telamonian Ajax" (reads as if the Argives were the subject); "spurred", "exhorted"; ὀτρύνω is "urge on" as in the table's ὄτρυνε rows, μέγας Τελαμώνιος Αἴας "great Telamonian Ajax" as in 12.364 |
+| Ἀντίλοχον δ’ ὄτρυνε βοὴν ἀγαθὸς Μενέλαος (15.568, whole-line speech introduction; same pattern) | "And Antilochus he urged on, Menelaus, good at the war-cry:" | "Menelaus, good at the war-cry, urged on Antilochus:" | "loud of voice", "of the loud war-cry" (the table's βοὴν ἀγαθός is "good at the war-cry"); "And Antilochus urged on Menelaus" (wrong subject) |
+| ἕρκεϊ χαλκείῳ (φράξαντο δὲ νῆας ἕρκεϊ χαλκείῳ, 15.566–567) | "with a bronze fence" | "with a bronze bulwark" | "wall of bronze", "bronze barrier"; follows the table's ἕρκος "fence" (`l`) and "bulwark" (`i`); the note says the Greek does not say what the fence is |
+| ὑπολύω γυῖα (ὑπέλυσε δὲ γυῖα, 15.581, of a hit fawn) | "has loosened its limbs" | "has loosened its limbs" | "unstrung its knees", "made it fall"; follows the table's λῦσε γυῖα "loosed his limbs" with the idiom kept whole; ὑπό is explained in the note ("from beneath") |
+| τρέω (ἔτρεσε 15.586, τρέσε 15.589; ὑπέτρεσαν 15.636) | "took fright" | "took fright" | "fled", "trembled", "quailed", "shrank back" (each decides whether the flight or only the fear is meant); στῆ δὲ μεταστρεφθείς (15.591) shows he stopped, so "fled" would be too strong |
+| τὰ φρονέων (15.603, with a neuter object) | "Thinking these things" | "With this in mind" | "meaning this", "planning this" (the table's "meaning evil" is for κακὰ φρονέων); follows the table's φρονέω "think" |
+| ἀφλοισμὸς δὲ περὶ στόμα γίγνετο (15.607) | "a foaming came about his mouth" | "Foam gathered about his mouth" | "froth", "spume"; ἀφλοισμός is "foaming" |
+| μόρσιμον ἦμαρ ἐπόρνυε (15.613, of Athena and Hector's day) | "was rousing the allotted day" | "was bringing on his allotted day" | "fated day", "day of doom"; follows the Odyssey table's μόρσιμον ἦμαρ "allotted day"; ὄρνυμι "rouse" kept in `l` |
+| ὑπὸ Πηλεΐδαο βίηφιν (15.614) | "under the might of Peleus’-son" | "by the might of the son of Peleus" | "at the hands of Achilles" (names him, which the Greek does not), "by the strength of"; Πηλεΐδης "Peleus’-son" / "son of Peleus" as in the table's patronymic rows |
+| κύδαινε (τίμα καὶ κύδαινε, 15.612) | "honoured and gave glory to" | "honoured him and gave him glory" | "glorified", "made glorious"; follows the table's κυδαίνω "giving glory to" |
+| ἐξαίσιον ἀρήν (Θέτιδος … ἀρήν, 15.598) | "the outrageous prayer of Thetis" | "Thetis’ outrageous prayer" | "monstrous", "unreasonable", "unjust" (each decides what is wrong with it); follows the table's ἐξαίσιος "outrageous"; the note gives the formation (ἐξ + αἶσα) |
+| ὁμοστιχάω (αἰὲν ὁμοστιχάει, 15.635) | "always keeps in line" | "always goes in line with" | "marches beside", "keeps pace with" |
+| ὃ δ’ οἶον ἔπεφνε (15.638, οἶον agreeing with the victim's name) | "he killed one alone" | "he killed one man only" | "he alone killed" (makes οἶον agree with Hector), "a lone man"; the note says the Greek leaves open whether the victim was alone or the only one killed |

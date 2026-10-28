@@ -80,3 +80,42 @@ Adversarial reviewer; units.json edited in place by script, `t` and `p` untouche
 
 ## Final tally
 Changes by severity: major 0, moderate 17, minor 22 (39 rows).
+
+
+# Review, pass 2
+
+Scope: every gloss.json entry (lemma before " — ", meaning, grammar label) checked against each occurrence of the form in units.json and the settled `l`/`i`/`n`; the two `__broaden__` entries; units.json re-read for what pass 1 missed or introduced. `t` unchanged (joined `t` checked against the packet after the edits). All 117 words are covered by gloss.json or known-forms.json, no entry is unused, and none duplicates a known form. No Dillmann; lemma judgements are from memory and hedged where unsure.
+
+## Changes
+
+| Unit/Entry | Field | Sev. | Was wrong | Done |
+|---|---|---|---|---|
+| unit 3 | n | moderate | ኣርእየከ called an "unusual spelling" with አርኢከ "expected", compared with ያርኢከ (a 3ms form). The 4th-order ኣ is the regular 1cs contraction of እ- + አ- in causatives (cf. ኣነብር, ኣቃርቦ in the same work); pass 1 introduced the error | said regular; "(?)" dropped from the parse, the sense is secure |
+| unit 3 | n | minor | ተዐዲ "may be a repeated imperative": the ተ- rules out the plain imperative | replaced by that remark |
+| unit 4 | n | minor | ዐዊዶ: root and the ዖ/ዐ relation not given | root ʿ-w-d, ዖ = ʿo as in ዖፍ / አዕዋፍ, lemma from memory |
+| unit 7 | n | moderate | ወኢይሣህሎሙ read as ይሣህል + "-ሎሙ 'to them'": the -ሎ- is the linking vowel after the final root consonant ል (as in ልቦሙ), the suffix is -ሙ 'them'; stem is the D ሣሀለ (cf. ይሣሀል, ch. 28) | corrected, hedged |
+| unit 7 | n | minor | ዖሩ: no support for the lexeme | root ʿ-w-r, cf. ዕዉር in the previous unit |
+| ፻፭ | entry | moderate | ኀምስቱ (ḫämstu): wrong letter and form against the house spelling of 5 (ሐምስቱ ḥämsətu, as in the ፭፻ entry) | ምእት ወሐምስቱ (məʾət wä-ḥämsətu); the "105, spoken ... (numeral; chapter number)" shape follows ch. 101-104 and the conventions |
+| ኣርእየከ | entry | moderate | "unusual spelling" and (?) | regular contraction stated, (?) dropped |
+| ተዐዲ | entry | minor | "or a repeated imperative" | expected ትዒዱ named, "irregular" kept |
+| ምሥጢረ | entry | minor | "accusative or construct": here it is a construct (ምሥጢረ ኅብስት) | construct stated, accusative equivalence noted |
+| ዐዊዶ | entry | moderate | lemma ዖደ given with no root or support | ʿ-w-d, cf. ዖፍ/አዕዋፍ and አዖደ elsewhere in the work; "from memory"; (?) kept |
+| ጸበርተ | entry | minor | printed form used as lemma without saying so | "no dictionary form found, the printed form stands as lemma" |
+| ዖሩ | entry | moderate | ዖረ "unchecked" only | root ʿ-w-r, cf. ዕዉር in this part, lemma spelling from memory; (?) kept |
+| ወኢይሣህሎሙ | entry | moderate | lemma ሠሐለ (G, from memory) while the form is the D-stem (ይሣሀል) and "-ሎሙ 'to them'" is wrong | lemma ሣሀለ, D-stem, object -ሙ with linking vowel, "often met as ተሣሀለ", hedged |
+
+## Checked and kept (no change)
+- ኢትሌቡ / ኢይለብዉ (ለበወ), ትፌኑ (ፈነወ, III-w impf. ይፌኑ), ዕዲ (ዐደወ; irregular, hedged), ተጠመቅ (ተጠምቀ), ወብጻሕ (በጽሐ), እኤዝዞ (አዘዘ), ያርኢከ (አርአየ), ተኣምሪሁ (ተአምር), ተምኔቱ, ወትፍሥሕቱ, ወበቀልተ (በቀልት), ተአምኖ, ርእየ forms, እዝን, ሰምዐ, ተጸለለ, መትልው (ተልወ): lemmas defensible, meaning and label agree with `l`/`i`/`n` at every occurrence. ርኢ, ብከ, ውእቱ, ከመ, በእንተ, እንዘ (repeated forms) fit each of their uses in the known entries.
+- `__broaden__` ነ and ለመልከ: each keeps the known entry whole (character-identical) + " · " + the new reading; both new readings agree with units 3, 4 and 6.
+
+## Refused / left as is
+- Object ለ- untranslated in `l` for ወረከቦ ለመልከ ጼዴቅ (units 3, 4): other parts are mixed (ch. 95, 96b drop it, ch. 99 keeps "to-"), and the notes and glosses state the ለ-; no change.
+- Known entry ለወልደ ("ለ- marking the object") against unit 1's note (genitive linker): known entries are not edited here; the entry's second sense and the note do not contradict the translation. Flagged only.
+- Known entry ወረከቦ has a garbled "-ዎ ... not -ዎ" clause; inherited, outside this part's gloss.json; flagged only.
+- Lemma ሠሐለ / ዖረ / ዖደ not "corrected" to something else: ዖረ and ዖደ are defensible (II-w contractions of ʿ-w-r, ʿ-w-d, parallel to ዖፍ) and kept hedged; only ሠሐለ was replaced.
+- ዕዲ "2fs by form" and the III-w paradigm statements in unit 3: from memory of the grammar, hedged; unchanged.
+- ዝኬ / በተአምኖኬ "indeed" placeholder: still hedged; I know of no better identification (ይእዜኬ elsewhere has the same enclitic).
+- `l`, `i`, quotes, `p` flags, `about`/titles re-read: balanced and consistent with the glosses; no other change.
+
+## Tally, pass 2
+Units: major 0, moderate 2, minor 3 (5 rows). Gloss: major 0, moderate 5, minor 3 (8 rows).

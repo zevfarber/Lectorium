@@ -1108,3 +1108,9 @@ later night. Shared rule 7 in `.github/pipeline/README.md`: a problem never cost
 - Adjudicator read the night-opening word as قلت (6 places); the crop shows قالت, matching earlier archives, so قالت kept at the four night openings plus P433L19/P434L13 left as قلت (first-person "I said"). Worth a second look if the owner audits.
 - Night labels on pp. 447/450/453/454 are on their own centred line (not inline); all four flagged h, as P419L21 and P422L11 are. P425L07 earlier has no h — inconsistency in an older archive, not changed.
 - Passes 1/2 on pp. 447–450 skipped the line crops; fixed from the adjudicator's crop reading. Wave 2 was told to read crops.
+
+## 2026-10-28 (run pp. 455–462)
+- The scan repeats printed pp. 436–437 at PDF 458–459 (a second duplicate leaf, like PDF 48–49). Archived once as P436–P437 from PDF 456–457; PDF 458–459 not archived. From PDF 460 printed = PDF − 22 (header 438 confirmed by the adjudicator). Next run's batch starts at PDF 463 = printed 441; check its header, and note `apply_verdicts.py` still has −20 built in (this run used −22 on a copy for PDF 460–462). Pass over any further duplicate the same way.
+- P435L22 ends "فقال انت" and P436L01 begins "الفصل فاشتراه": the print is discontinuous although the headers read 435 and 436. Archived as printed; nothing lost in transcription.
+- Night 64 is printed "اللية" (no second ل) at P435L20, and night 65 opens "قات" (no ل) at P437L13; archived as printed; the night index now accepts both.
+- Doubtful P440L01 mark over the alif of الا (adjudicator: low-confidence آلا): kept as bare الا per the doubtful-mark rule.

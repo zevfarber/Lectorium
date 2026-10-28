@@ -64,3 +64,5 @@ Packet and draft (`drafts/iliad-051/units.json`, 47 units, `new-renderings.md`) 
 
 - 2026-10-24 iliad-060 (10.263): ἀργιόδοντος ὑός is "boar" in the Iliad; the Odyssey table has "pig" for ἀργιόδων ὗς (8.476, 8.60). Kept "boar" (helmet tusks are a wild boar's); owner to decide whether the table needs a line.
 - iliad-084: γνωτόν 'a kinsman' (13.697) used as a singular; the table's 'kinsfolk' has no singular. Decided meanwhile: keep, logged in conventions table. ἀποστήσωνται χρεῖος (745) sense uncertain, flagged in gloss.
+
+- 2026-10-28 (iliad-092): published house rendering of Ida's epithet is inconsistent (`l` “many-fountained” in iliad-046, “many-springed” in iliad-065/-087/-088). iliad-092 follows 046. Decided meanwhile: no change to published parts; owner may harmonise.

@@ -46,3 +46,60 @@ Units are numbered 0–14 in order (0 = heading). `t` untouched (checked by scri
 ## For pass 2 (gloss.json)
 
 Check ክቡዳነ (lemma ክቡድ, not ክቡር), ዕርግ (imperative), ገፋዒ (ገፍዐ), በአቱ (ቦአት + -ሁ), ለብሕቱትየ, ኣስተፈሥሐከ (3ms), ወበልዋ (2mp imperative), ይትቄበልዎ (lemma ተቀበለ), ይትሌዐል (lemma ተለዐለ); also known-forms ወልዲ entry should be "his son" here.
+
+
+# Review, pass 2 — kebra-nagast-ch107
+
+`t` untouched (script check: all 15 `t` identical; joined `t` equals the packet). All 94 novel forms are present in gloss.json (none missing); 7 `__broaden__` entries each begin with the whole old entry + ' · '.
+
+## units.json
+
+| # | Unit | Field | Severity | Was wrong | Done |
+|---|---|---|---|---|---|
+| 1 | 13 | l | minor | ብሂል "to say" left in l (house l 'saying', fixed elsewhere in pass 1). | l 'saying'. |
+| 2 | 1 | n | minor | "in the name of the Lord" in the note against house እግዚኣብሔር = God. | 'of God'. |
+| 3 | 8 | n | minor | ለክርስቶስ glossed 'to-Christ' in l with no word that it is the object doubled by -ዎ. | n says ለ- marks the object, doubled by -ዎ. |
+| 4 | 12 | n | minor | ክቡዳነ called 'accusative plural' only; before አቅርንት it is the construct (identical in form). | n: 'plural in the construct/accusative form'. |
+
+## gloss.json
+
+| # | Form | Field | Severity | Was wrong | Done |
+|---|---|---|---|---|---|
+| 1 | ፻፯ | entry | minor | transliteration säbaʿtu / spelling ሰባዕቱ; the masculine 7 is ሰብዐቱ. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 2 | በአቱ | entry | moderate | called construct 'entry of' (the ending is the suffix -ቱ) and the root misspelt በአ; contradicted units 0 and its n. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 3 | ወየብቢ | entry | minor | meaning 'let (her) exult' without noting the guess, not aligned with the unit. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 4 | አስተዳሎከ | entry | moderate | parse given as certain; the unit and review flag the 2ms/3ms+ከ ambiguity. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 5 | ትንሥቶ | entry | minor | 'put down' vs unit's 'bring down'; suffix not explained as doubled. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 6 | ወለገፋዒ | entry | major | 'avenger, persecutor' ('avenger' is remembered English, contradicts unit 1 'oppressor'); ለ- is the object marker, not 'to'. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 7 | በዓለ | entry | minor | 'keep a feast' (English-Bible idiom) vs 'make a feast' in the unit. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 8 | ወበልዋ | entry | moderate | lemma በህለ is not the dictionary spelling ብህለ. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 9 | እድግት | entry | minor | lemma said 'noun f.' but the form is the fem. -ት of እድግ; unclear. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 10 | አኀዊከ | entry | minor | lemma አኀው is the plural, not the dictionary form እኁ. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 11 | ዘባኖሙ | entry | moderate | 'necks, backs' against the house/published 'back(s)' and unit 2. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 12 | ወኢየሐጽጽ | entry | moderate | lemma ሐጽጸ is not a possible form of root ḥ-ṣ-ṣ (perfect ሐጸጸ). | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 13 | ምልክና | entry | moderate | lemma ምልክ and meaning 'kingship' vs unit 'lordship' and published ch43. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 14 | እምአባሉ | entry | minor | 'loins, limb' vs unit 'limbs (?)'. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 15 | ዘጽኑሕ | entry | moderate | 'reserved, kept' (Septuagint memory) vs unit 'fixed'; ጽኑሕ is 'firm, abiding'. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 16 | ዕርግ | entry | major | parsed as 2ms perfect 'you went up'; a bare ዕርግ is the imperative. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 17 | ይትቄበልዎ | entry | major | lemma ተቄበለ is not a dictionary form (ተቀበለ). | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 18 | ዘ፩ቀርኑ | entry | minor | 'unicorn' as the gloss against the unit's 'one-horned beast'. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 19 | ለብሕቱትየ | entry | major | 'humility, lowliness' (Greek memory) contradicts the unit and the root ብሕት 'alone'. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 20 | ወዘይትበህልሂ | entry | minor | lemma spelt በህለ, not the dictionary ብህለ. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 21 | ወእምክቡዳነ | entry | major | 'honoured, weighty' blended ክቡር into ክቡድ; unit reads 'heavy (?)'. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 22 | ዘእምኔሆሙ | entry | minor | 'of whom, from whom' vs unit 'that-from-them'. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 23 | ኣስተፈሥሐከ | entry | major | lemma ተፈሥሐ (the base stem, not the causative አስተፈሥሐ) and parse 3mp 'they made you glad'; the form is 3ms (3mp would be -ሑከ). | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 24 | በቅንዋት | entry | minor | invented singular 'ቅንው'. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 25 | ዘሕይወተ | entry | moderate | 'of the life' vs the unit's 'he who has the life of all'. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 26 | __broaden__:ወልዲ | entry | moderate | added a 'son of' reading the unit does not use (units 5 read 'his son'); the old entry already covers 'his son'. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+| 27 | __broaden__:ለጸላኢ | entry | minor | 'put down' aligned to 'bring down'. | entry rewritten (lemma, parse, meaning aligned with units.json); `__broaden__` entry removed/edited where stated. |
+
+## Findings checked and refused (no change)
+
+- Units 0–14, Geʿez against l, i, n word by word: no further grammar-label errors found. The scripture-shaped English in unit 1 (Isaiah 60:1, Zechariah 9:9) follows the Geʿez word order and is kept.
+- ይጼዐን lemma ጾዐነ (vs possible ጸዐነ), ንፍኁ lemma ነፍኀ (vs ነፍሐ), አኃዜ/ሰዐረ/ተቃረነ: spellings cannot be settled without Dillmann open on the page; kept as the glosser gave them.
+- ወይሰግዲ, ወልዲ (his son), ዕለት, ኀበ ዕርገቱ, ዘገብረ, ሎቱ and the other known forms: the known entries cover this part's use; no broadening needed.
+- ወልዲ 'son of' broadening: refused (see gloss #26), since the unit reads 'his son'.
+- አስካል, ሶንዶኖ, በረድ, ሠርቅ, እምርት, ምዕራፊሁ: entries agree with the units and already carry (?).
+
+## Pass 2 counts
+units.json: 4 changes (minor 4). gloss.json: 27 changes (major 6, moderate 9, minor 12). No `t` change.

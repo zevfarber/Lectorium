@@ -78,3 +78,68 @@ Reviewer pass 1. Reviewed against packet.md, known-forms.json, novel-forms.json,
 ## Still unresolved (?) items for pass 2 / the reader
 
 ቊልዔ 'servant' (1); ዐራዝ 'robe', ተዐወሩኒ 'gazed', ተዓፀዉ 'cast lots' (2); ላሕይ 'beauty' (4); ገጻ 'his face', ይትቃወሞን, ሰቆራረ 'reproach' (5); ንድፍን 'hide', በርባሮ 'plunder', ቊናመተ 'purse' (6); አግሕሠ, አሠር 'tracks', ዘይረብቡ 'spread' (7); ሐየውነ 'healed' (9); ይጠባሕ passive, ዘይቀርጾ 'shears' (10); ሕንቅርት 'treasury/crucible', ገራህተ 'smelters/field', እም- in እምደቂቀ እስራኤል (12); the Psalm source of David's saying (35/38/109, 13); ትሌብዉ/ንሕነ 'we' (15); ናዘዝከነ 'comforted' and the addressee (16); ኑፉቃን 'steadfast' (17); ወኣግህድ 'act openly', መድኀኒተ 'salvation/saviour' (19); ኰንና form (20); ኅዳገ ወይን (23); ያእትት 'remove' (24); ወልዲ 'his/my son', ይትሌዐል, ይምነ 'south', (28).
+
+
+# Pass 2: kebra-nagast-ch109-110
+
+Reviewer pass 2, on units.json after pass 1 and on every entry of gloss.json (137 novel forms plus 4 `__broaden__` entries), checked against the text of the unit in which the form stands. No web, no modern translation; Dillmann was not available, so lexical doubts are hedged (?) and not settled. Edits were made by script (JSON string replacement, each old string asserted to occur once); every `t` is byte-identical to pass 1 and to the packet, no gloss key was touched, the glossary keys still equal novel-forms.json exactly, and the four `__broaden__` old texts still equal known-forms.json exactly (each new entry starts with the known entry whole + ' · '). Both JSON files load.
+
+## Changes
+
+| Unit / form | Field | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| unit 1 | l, i | minor | ቊልዔ 'servant' is flagged unconfirmed in the note but unmarked in l and i. | (?) added to both. |
+| unit 2 | i | minor | 'cast lots' unmarked though l and the note have (?). | (?) added. |
+| unit 4 | i | minor | 'parched' for ጽምእት; l says 'dry' and the note 'a dry land'. | i 'dry land'. |
+| unit 5 | n | minor | ንቅትሎ analysed as ንቅትል + 'ሎ'; no such suffix, it is ንቅትል + -ኦ (as the glossary already had it). | Note corrected. |
+| unit 5 | n | moderate | ይትቃወሞን 'tä-stem of ቀወመ': no such verb; the root is ቆመ via the III-stem ቃወመ (the glossary gave q-w-m). | Note corrected. |
+| unit 5 | n, l, i | minor | መዝለፌ 'reproach' flagged (?) in the glossary but not in the unit. | (?) added in note, l and i. |
+| unit 10 | n | moderate | Lemma ጠበሐ for ይጠባሕ; the 3ms perfect is ጠብሐ (as the glossary had it): note and glossary disagreed. | Note aligned to ጠብሐ. |
+| unit 12 | n | minor | አከበረ misspelt; the causative is አክበረ. | Corrected. |
+| unit 12 | n | minor | 'ሤጦ is ሤጥ with the accusative suffix "his"': garbled. | Now 'ሤጥ, accusative, with -ሁ his'. |
+| unit 12 | l, i | moderate | 'which/whom they valued' hung on 'silver' (i: 'thirty (pieces) of silver, whom they valued'), a person after a thing; ዘ- most naturally takes ክቡር 'the precious one'. | l 'whom', i 'him whom they valued'. |
+| unit 16 | n | minor | ብሀለ for ተብህለ; the house spelling (known-forms) is ብህለ. | Corrected. |
+| unit 19 | n | minor | አግህደ / ግህደ for the lemma; the perfect is አግሀደ / ገሀደ (and the glossary has አግሀደ). | Corrected. |
+| unit 20 | n, l | moderate | ወኰንና: 'the final -ና is the shape of the imperative (?)'. It is ኰንን + -ኣ 'her' (ምድር is fem.), doubled by ለምድር, exactly as ኢተኀድጋ … ለነፍስየ in unit 27. Note and l did not show the suffix. | Note: ኰንን + -ኣ 'her', ለ- doubling it; l 'and-judge-her, the-earth'. i unchanged (it was right). |
+| unit 23 | i | minor | 'put wine behind him (?)' disagrees with the note ('left wine behind (?)') and l ('left'). | i 'one who has left wine behind(?)'. |
+| unit 23 | n | moderate | 'perfect of ነቅሀ' for ዘንቃህ: ንቃህ is not the 3ms perfect (ነቅሀ); stated as fact. | Hedged: a form of ነቅሀ, perfect or participle uncertain (?). |
+| unit 25 | n | minor | ወያርእዮ 'suffix -ዮ'; there is no such suffix, it is -ኦ fused with ይ. | Corrected. |
+| ወኆለቁ, ኆለቊዎ | gloss | minor | Lemma spelt ኆለቈ and root 'ḫ-w-l-q' while the unit notes use ኈለቈ (labiovelar). | Lemma ኈለቈ, root ḫʷ-l-qʷ in both. |
+| ቊልዔሁ | gloss | minor | Meaning unhedged though unit 1 says unconfirmed. | (?) added. |
+| ትስብእቱ | gloss | minor | '-ቱ after the fem. ending' (pass 1 corrected this in the note only); 'humanity' differs from l/i 'incarnation'. | 'incarnation, becoming human'; 'written -ቱ'. |
+| ገጻ | gloss | moderate | Entry said plain 'face, accusative', contradicting unit 5 (formally ገጽ + -ሃ 'her', read as slip for 'his'). | Entry now 'his face (?)', suffix as written named, slip flagged. |
+| ይትቃወሞን | gloss | moderate | Labelled the ending '-ን 1cp us' while the unit says no such suffix; 'ሞ irregular, 3mp possible' is unfounded. | Ending called unexplained; person and object uncertain (?). |
+| ለምግባሪነ | gloss | moderate | 'against our deeds' with ለ- 'against'; the unit takes 'our works' as the object (l/i). | 'our deeds (ለ- marking the object …)'. |
+| ንድፍን | gloss | minor | ደፈነ 'hide' unhedged; the unit note hedges it. | (?) added. |
+| አግሕሥ | gloss | minor | Root given as 'ʾ-g-ḥ-ś' (the causative prefix inside the root). | 'g-ḥ-ś' (?) retained from the lemma's own (?). |
+| በሕማሙ | gloss | minor | Obscure 'stem ሕማሙ-'. | Removed; plain 'noun + -ሁ'. |
+| ይጠባሕ | gloss | minor | Meaning 'to be slaughtered' unhedged; unit 10 says (?). | (?) added. |
+| ዘይቀርጾ | gloss | minor | Meaning began 'of the one who …' (no ‘of’ in the text; በቅድመ is a separate word). | 'he who shears it'. |
+| ሕንቅርት | gloss | minor | Missing the 'crucible' alternative given in unit 12. | Added (?). |
+| ለገራህተ | gloss | minor | 'plural' asserted for ገራህተ; unsupported. | 'noun ገራህት'. |
+| ለብሓዊ | gloss | minor | Guess that በ- 'may be a spelling variant'. | Now ለ- + በ- + noun, double preposition unusual (?). |
+| ወኰንና | gloss | moderate | Same misanalysis as unit 20 ('ending -ና irregular'). | 'and judge her!' with -ኣ and ለምድር doubling. |
+| ወኣግህድ | gloss | minor | Meaning only 'act openly'; the unit note's literal sense 'make manifest' absent. | Both given, (?) kept. |
+| ወይጒየዩ | gloss | minor | Lemma ጐየ; unit 22 note and the form (geminate-type imperfect) point to ጐየየ. | Lemma ጐየየ (?). |
+| ዘንቃህ | gloss | moderate | Said '3ms perfect or participle' of ነቅሀ; ንቃህ is not that perfect. | 'a form of ነቅሀ, perfect or participle' (?). |
+| ወኅዳገ | gloss | moderate | Lemma ኅዳጊ 'agent noun', against the unit note (pass 1: noun of action ኅዳግ); 'put behind' unlike the unit's 'left'. | Lemma ኅዳግ, 'noun of action', 'one who leaves (?)'. |
+| ወይትሌዐል (broaden) | gloss | minor | New reading 'and it will rise' unhedged though l and i have (?). | (?) added inside the new part only; the old text is untouched. |
+
+## Count by severity (pass 2)
+
+- major: 0
+- moderate: 10
+- minor: 33
+- total: 43 (22 in units.json, 21 in gloss.json)
+
+## Checked and left (no change)
+
+- All other gloss entries were read against their units: lemma = 3ms perfect or singular noun, person, number, stem, tense, suffix labels. The verb entries (አኀዙኒ, ቀነዉኒ, ጠዪቆሙ, ተካፈሉ, ወአስተዩኒ, ወርኢናሁ, ኢከሠተ, ይነሥእዋ, ኢየአምርዋ, በጻሕኩ, ወነሣኡ, ደዮ, ወፍትኖ, እንብብ, ወአግብእዎ, በዝኁ, ፈደዩኒ, ሀለዎሙ, ተዘመረ, ዘከርነ, ትሰምዑ, ወትሌብዉ, መራሕከነ, ያረትዕ, እትነሣእ, እሬሲ, ትወርስ, ርድአነ, ወአድኅነነ, ይዘረዉ, ያእትት, ይደመስስ, ኢተኀድጋ, የዐውድ and the rest) are right in person, number and stem; no invented modern forms; none is pinned to a line (the `__broaden__` quotations are usage examples, as in known-forms).
+- `__broaden__`: ወሞቱ ('and his death'), በከ ('it is not for you'), ፀሩ ('his enemies', collective) and ወይትሌዐል all start with the known entry exactly; ወሞቱ keeps the old lemma ሞተ because the dictionary lemma is the first segment, and the second reading names ሞት itself. Kept.
+- Refused: renaming የአምነነ's tense ('imperfect') to 'subjunctive' and ይጠባሕ's 'subjunctive': the glossary labels follow the draft's own mixture of the two; not enough evidence either way without Dillmann; left, ይጠባሕ now carries (?).
+- Refused: touching ምጽአቱ ('his coming, origin') in known-forms: a published entry, not this part's to change; 'origin' is not used here.
+- Refused: replacing ናዘዝከነ 'comforted' or ተዐወሩኒ 'gazed': both already carry (?) in unit and glossary, and I have no better evidence.
+
+## Unresolved (?) after pass 2
+
+ቊልዔ 'servant' (1); ዐራዝ, ተዐወሩኒ, ተዓፀዉ (2); ላሕይ (4); ገጻ 'his face', ይትቃወሞን (person, object), ሰቆራረ, መዝለፌ (5); ንድፍን, በርባሮ, ቊናመተ (6); አግሕሥ, አሠር, ዘይረብቡ (7); ሐየውነ (9); ይጠባሕ voice, ዘይቀርጾ (10); ሕንቅርት (treasury/crucible), ገራህተ (smelters/field), ለብሓዊ, እም- in እምደቂቀ እስራኤል (12); the Psalm source of David's saying (13); ትሌብዉ/ንሕነ 'we' (15); ናዘዝከነ and the addressee (16); ኑፉቃን (17); ወኣግህድ, መድኀኒተ (19); ኰንና is no longer open (resolved as ኰንን + -ኣ); ዘንቃህ form, ወኅዳገ (23); ያእትት (24); ወልዲ 'his/my son', ይትሌዐል, ይምነ (28); ጐየየ lemma (22).

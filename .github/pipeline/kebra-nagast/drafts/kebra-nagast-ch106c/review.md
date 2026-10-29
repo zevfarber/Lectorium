@@ -38,3 +38,58 @@
 ወአጽንዓ ለዓለም object; ንቀልቀለ sense; Isaiah 23:9 identification; ይስዐር, ጽዕለቶሙ, ወያኅስሮሙ; አትለወ; መልአከ አሕዛብ; ክብረ ምዕራፊሁ; ይጠአጣእ and ወይግበር በሓውርተ; ኣስተዋድድ; the Psalm 72:17 source; ምንባረ አረፋተ; በዐቅማ; እንተ ጸብሐት and the awkward ውእቱ/እንተ; Job's source; ዘትካት; እለ አጥረይኩ; ሕፅኑ; ምሥዋዕተክሙ; በሓውርት; ሐዲስ ሥርዐት / ወድልውት; ወይንግሩነ plural; ኣሰምዕ ለከ; ይትፌከር; ወአሐተ.
 
 Counts: major 1, moderate 7, minor 12 (20 listed rows' worth of changes in all).
+
+# Pass 2 — gloss.json and units.json
+
+`t` untouched; joined `t` equals the packet Geʿez (script check, whitespace aside). Every novel form (81) has an entry; no entry for a non-novel form. Edits by script.
+
+## Gloss changes
+| Form | Severity | Wrong | Done |
+|---|---|---|---|
+| ኢታንቀልቅል | major | lemma አንቀልቀለ (an ʾa-stem) contradicts the note's ንቀልቀለ; ታንቀልቅል is a plain quadriliteral imperfect (ta-), not causative | lemma ንቀልቀለ (?), parse corrected |
+| ይንፋሕ | major | meaning 'that they blow' against a 3ms parse (ነፋሳተ is the accusative subject, l 'blow') | 'that it blow'; subject explained |
+| ኣሰምዕ | major | 'bear witness' invented (pass 1 had removed 'testify' from the unit) | 'make hear, let hear (?)' |
+| ይጠአጣእ | major | invented lemma ጠአጠአ for a verb the unit leaves unidentified | form given as its own lemma, 'unidentified verb' |
+| ለእግዚአብሔር | moderate | 'to God' where l has 'of-God' (ለ- names the owner after ገጹ) | meaning/grammar corrected |
+| ወለአሕዛብኒ | moderate | 'and to the nations' against l 'and-the-nations-also' | ለ- marks the object; verb carried over |
+| ለክቡራን | moderate | 'to the honoured', l 'the-honoured' | ለ- marking the object |
+| ስልጣኖ | moderate | '-ኦ 3ms his' contradicts its own 'their authority' | 3mp suffix, ሙ split off |
+| ይሣርር, ሣረረኒ | moderate | 'that he found, establish' garbled; G perfect/imperfect with ሣ unremarked | 'lay a foundation (?)'; irregular ሣ and guessed lemma stated |
+| ይትቄረብ, ይትፌከር | moderate | 'set out' invented; tä-stem passive not stated | 'it is explained (?)'; passive stated; ይትቄረብ lemma kept ቀረበ |
+| ኣስተዋድድ | minor | gloss lacks the 'I was delighting' use with ሀሎኩ | added |
+| ያነብራ | minor | 'that he set' though after አመ it is imperfect, l 'sets' | 'he sets her (imperfect)' |
+| ጽዕለቶሙ | minor | 'arrogance' without the 'hostility' alternative the note names | added |
+| አትለወ | minor | no (?) in meaning though unit hedges | (?) and ተለወ 'follow' base |
+| አውግር, አረፋተ, ሕፅኑ, ዘዐቈረ, ወሴሬኔሲ, አጥረይኩ | minor | first-person 'to me', (?) stray or missing; guessed lemmas not flagged | hedges moved into the meaning; guesses stated |
+| በሓውርተ / በሓውርት | minor | the two entries disagreed on 'place(s)' | harmonised, both (?) |
+| ምሥዋዕተክሙ | minor | 'altar' lemma with 'sacrifice' meaning, not said | both readings stated |
+| ቊርባነ | minor | lemma spelled ቍ, text has ቊ | follows the text |
+| ነፋሳተ, ይፃእ | minor | grammar loose | accusative subject/object use stated |
+| ፩ውእቱ | minor | no transliteration of ውእቱ, format | follows known ፩ entry, 'spoken አሐዱ (ʾäḥädu)' |
+| ዘአሐቲ | minor | 'of one, whose is one' | 'whose is one' |
+
+## Broadening
+- `ሙ`, `ለዓለም`: old text verified whole against known-forms.json. `ለዓለም` new reading now covers both ወአጽንዓ ለዓለም and ወይኴንና ለዓለም (it named only the second).
+- Added (old entry whole + ' · ' + new): ዐረብ ('west'; the known entry only had Arabs/Arabia, a major miss), ይሴባሕ (indicative 'is praised'), ዕጣን (subject of a passive), ዘትካት ('the former things' (?)), ወአሐተ (adverbial (?)), ወእትሐሠይ (indicative), ወይግበር ('and before he make' (?)).
+- Checked and left as covered: all other known forms in the text (191) against their uses here.
+
+## Units changes
+| Unit | Field | Severity | Wrong | Done |
+|---|---|---|---|---|
+| 1 | n | minor | ይኴንን root written ኴነነ against the gloss's ኰነነ | ኰነነ |
+| 6 | n | minor | ወይድኅሩኒ root ድኀረ against lemma ደኀረ | ደኀረ |
+| 10 | n | minor | 'አሐቲ is feminine, agreeing with the feminine nouns' (ስልጣን not shown feminine) | 'as with the feminine መንግሥት' |
+
+Re-checked with no change needed: labels in notes, l↔i, quote nesting (units 3–4, 6–7, 8–9 chains), house renderings (God, Jesse, Emmanuel), numerals.
+
+## Findings refused
+- Alternative lemma forms (ሤመ, ተፈሥሐ, ተመጠወ for tä-stem verbs) left: consistent with known entries (ተነበየ, ተሐሠየ).
+- ይመጽእ known entry says subjunctive though used as indicative: harmless, not broadened.
+- ሴሬኔሲ lemma, አረፋተ lemma: no lexicon; hedged rather than changed.
+- ኣ- described as 'the edition's 1cs prefix' in notes: acceptable for ʾa-stem 1cs.
+
+## Unresolved (?) 
+Pass 1 list stands, plus in gloss: ንቀልቀለ, ሣረረ/ሠረረ lemma, ሓውርት, ዐቈረ, አጥረየ, ሴሬኔስ, አርፍት, አስተዋደደ, ምሥዋዕ vs ምሥዋዕት, ፈከረ passive, ዐረብ 'west', ወአሐተ adverb.
+
+## Counts pass 2
+Units: major 0, moderate 0, minor 3. Gloss: major 4, moderate 6 groups (10 forms), minor ~20 forms; 7 broadenings added, 1 broadening corrected.

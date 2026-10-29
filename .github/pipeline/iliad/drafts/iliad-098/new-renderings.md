@@ -14,6 +14,6 @@
 | ἀμείβεται (of the rider changing horses, 15.684) | "changes" | "leaps … from one horse to another" (the leaping carried by θρῴσκων) | "answers" (kept for speech, as in the table’s ἀμείβετο), "exchanges" |
 | δριμεῖα μάχη (15.696) | "sharp fighting" | "sharp fighting" | "bitter battle", "fierce fight"; μάχη stays "fighting" as in the table (12.436), δριμύς "sharp, keen" |
 | ἀϊκάς (τόξων ἀϊκάς, 15.709; sense uncertain) | "the rush of arrows from bows" | "the rush of arrows from bows" (+ note: sense uncertain) | "volleys", "shots", "points" (each picks a sense) |
-| ἔφεπ’ ἔγχεϊ (without an object, 15.742) | "went after them with the sharp spear" | "went raging after them with his sharp spear" | "attacked", "charged", "plied his spear"; ἐφέπω "go after" |
+| ἔφεπ’ ἔγχεϊ (without an object, 15.742) | "went after them with his sharp spear" | "went raging after them with his sharp spear" | "attacked", "charged", "plied his spear"; ἐφέπω "go after" |
 | ἦ, καί (15.742) | "He spoke, and" | "So he said, and" | follows iliad-019 and iliad-065 unchanged |
 | ἐσσυμένως (ὡς ἐσσυμένως ἐμάχοντο, 15.698) | "so eagerly" | "so eagerly" | "hurriedly" / "in haste" (the table’s 3.84 rendering, which fits ἔσχοντο μάχης there but not the fighting here); ἐσσύμενος "eager" (11.716) |

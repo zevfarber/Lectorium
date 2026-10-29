@@ -53,3 +53,39 @@ Severity: H = wrong in sense or contradicts a fixed table; M = departs from a ho
 ## Counts
 
 High 3 (653 note, 669, 689), Medium 15, Low 8 (as tabulated; some rows carry several fields). Refused: the items above (none of them silent). Second pass (gloss.json) still to do when the glosser has run.
+
+# Pass 2 (units.json afresh, gloss.json, new-renderings.md)
+
+`t` untouched (git diff shows only `n` lines changed in units.json). Units re-read Greek → `l` → `i`, notes against the line, quotation marks and `mark`/`p`; tables of `conventions.md` and the Odyssey's grepped for ἀζηχές, ἄξιον, ἀνεχάζομαι, ποντοπόρος, θούρις, ἀκμήτης, ἀτειρής, ἀκάματος, λοιγός, ἐρητύω, ὁμοκλέω, κηλέος, θεράπων, σμερδνός, ἔθνος, ἀλκή, οὐτάω, ἔμπεδος: all agree with the draft. gloss.json: all 86 novel forms present, none extra; every entry under 230 characters except the unavoidable πάρα and χάριν broadenings; typographic ’ only; no line numbers; every `__broaden__` entry begins with the old entry whole plus " · ".
+
+## Changes
+
+| Where · field | Sev | What was wrong | What was done |
+|---|---|---|---|
+| unit 665 · n | M | ἑστάμεναι called an aorist infinitive; it is the perfect infinitive of ἵστημι (the glossary's own ἑστάμεναι entry says perf.). | Note: perfect infinitive in -μεναι. |
+| unit 704 · n | L | ἀπάγω glossed "lead back"; it is "lead away". | "lead away, here take back home". |
+| gloss ἀπαμυναίμεσθ | M | "defend oneself / we could defend ourselves": the table turns "defend" down and the unit says "ward it off from ourselves". | "ward off from oneself" / "we could ward off from ourselves". |
+| gloss ἑτεραλκέα (broaden) | M | New reading "turning the fight our way" chose a side, against the unit and the table (7.26, 22.236). | "tipping the balance". |
+| gloss ἀσφαλὲς | M | "safely, securely": the table turns "safely" down; unit says "securely". | "unshaken, secure … securely". |
+| gloss κολλητὸν | M | "joined" against the unit's "glued" and the table's κολλήεις. | "glued, fitted together … ’glued’". |
+| gloss ἔσχεθον | M | "they held back" contradicts the unit ("held … round about"; no "back"). | "they held". |
+| gloss ἄφλαστον | M | "curved stern-post" is a rendering new-renderings.md turns down; form is unknown. | "stern-ornament of a ship (exact form uncertain)". |
+| gloss ἔνεικεν | L | "unaugmented": ἔνεικε has the ε- augment. | Word removed. |
+| gloss οὔτασκε | L | "= Attic ἔτρωσε" is a different verb. | Equation removed. |
+| gloss κωπήεντα | L | "epic -εντα (= Attic -εντα)" equates a form with itself. | Removed. |
+| gloss ἁθρόοι | L | "in a mass": "massed" is turned down in the table. | "in a body". |
+| gloss `__broaden__` ἄρειον | L | Redundant and wrong: the old entry already covers neut. acc. sg. with τεῖχος (τι τεῖχος ἄρειον is the accusative subject of εἶναι); the added "nom." label was false. | Broaden removed. |
+| gloss `__broaden__` ἄξιον | M | Missing: old entry says "predicate with εἶναι", but ἄξιον ἦμαρ πάντων is attributive, object of ἔδωκε, with a genitive of worth. | Added: old entry whole + " · also neut. acc. sg., agreeing with ἦμαρ, + gen. …: ’worth (all)’". |
+| new-renderings.md ἔφεπ’ ἔγχεϊ | L | `l` given as "the sharp spear"; unit has "his sharp spear". | Row changed to "his". |
+
+## Refused / checked and left
+
+- The other new-renderings rows agree with the units (checked each `l`/`i`).
+- δῄουν "uncontracted": left; the glossary's own entry says "synizesis" but the note's word is harmless.
+- δεδοκημένος lemma δέχομαι (δέκομαι) and πρυμνῆς as adjective (circumflex printed): accepted.
+- ἥμεθα gloss "we sat" (impf.) against the unit's "we are sitting": general entry, not pinned; left.
+- Known forms not sampled in detail (only ~70 spot-checked against their use here); no further gaps found.
+
+## Counts (pass 2)
+
+High 0, Medium 8 (665 note; gloss ἀπαμυναίμεσθ, ἑτεραλκέα, ἀσφαλὲς, κολλητὸν, ἔσχεθον, ἄφλαστον, ἄξιον), Low 7. Combined with pass 1: High 3, Medium 23, Low 15.

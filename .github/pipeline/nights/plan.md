@@ -161,6 +161,7 @@ repository is the state, never this table. Run it rather than trusting what is w
 | Night 62 | P433L05–P434L06 | published 2026-10-28, 24 sense units, 1 slice drafted by the orchestrator (check_slice PASS after hamza repair); +62 glossary entries, shared file wording kept on collisions |
 | Night 63 | P434L07–P435L19 | published 2026-10-29, 22 sense units, 1 slice drafted by the orchestrator (check_slice PASS after hamza repair); +73 glossary entries, shared file wording kept on collisions |
 | Night 64 | P435L20–P437L11 | published 2026-10-29, 26 sense units (1 verse block), 1 slice drafted by the orchestrator (check_slice PASS after hamza repair, two words by hand); +103 glossary entries, shared file wording kept on collisions |
+| Night 65 | P437L12–P439L13 | published 2026-10-29, 23 sense units, 1 slice drafted by the orchestrator (check_slice PASS after hamza repair and seven ى/ي/hamza spellings by hand); +123 glossary entries, shared file wording kept on collisions |
 
 A night runs 84–224 archived lines (about 5½ printed pages), so eight transcribed pages yield
 roughly one and a half nights. Eight units are waiting as of 2026-09-18, so the next several

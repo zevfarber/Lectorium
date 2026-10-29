@@ -57,3 +57,41 @@ Count: 0 severe, 5 moderate (16.215, 16.222, 16.241, 16.275, 16.284), 6 minor (1
 ## For pass 2
 
 Waiting on `gloss.json`. Specific things to check against the line when it exists: ἄρθεν (ἀραρίσκω, not ἀείρω), ἀμφεφόβηθεν, ἐριδμαίνωσιν, ἀνιπτόποδες, χαμαιεῦναι, ὑποφῆται, ἀολλέες, δίηται, the possessive ὅς in οἷσι τέκεσσι and ἣν ἄτην (kept apart from the relative), σόον, and τῷ at 16.241 (both readings in the note).
+
+## Pass 2 — gloss.json
+
+Checked: all 70 novel entries against their lines and against the units; the 18 `__broaden__` entries each begin with the old entry whole (checked by string prefix against known-forms.json) and add only a new reading; every token of every `t` has a key in gloss.json or known-forms.json (none missing, none in both); format: no ASCII apostrophe or backtick, no left quote, no line numbers, no "here", all novel entries under 230 characters. The four forms the glosser flagged: τιμήσομεν (changed); εἴδοντο, ἀνέῳγε and τιθεῖσι (kept, see below).
+
+### Changes to gloss.json
+
+| Form | Severity | Wrong | Done |
+|---|---|---|---|
+| θάρσυνον | moderate | ’embolden!’ against the table’s θαρσύνω "cheer" (and the unit now says "cheer"). | ’cheer!’ |
+| τιμήσομεν | moderate | "fut. indic. … used as a short-vowel aor. subj." mixes two analyses; the unit’s note says short-vowel aor. subj. | "1 pl. aor. subj. in the short-vowel form (or fut. indic.), in a purpose clause with ὡς ἄν". |
+| ἐξεχέοντο | moderate | "(= Attic ἐξεχοῦντο)": χέω does not contract in Attic; ἐξεχέοντο is the same form. A false Attic equivalent. | Equivalent removed: "impf. 3 pl. mid., uncontracted". |
+| ἐχέοντο | moderate | Called "unaugmented" (the initial ἐ- is the augment, χέ- the stem), gave the same false Attic form, and called ἐκ a tmesis preverb when it governs νηῶν. | "impf. 3 pl. mid., uncontracted". |
+| οἷσι (broaden, new) | moderate | The glosser left the known entry (relative only) untouched, but οἷσι τέκεσσι (16.265) is the possessive ὅς, which the runbook says to keep apart. | Added " · also possessive ὅς, ἥ, ὅν: ’his own, its own’; neut. dat. pl. (οἷσι τέκεσσι ’its own young’)". |
+| ἄραρον (broaden, new) | minor | Known entry says "transitive"; at 16.214 it stands with no object. | Added " · also intrans.: ’were fitted together’ (without an object)". |
+| ἀνένευσε | minor | Parse said "ν-movable" of a form printed without ν. | Removed. |
+| ἐξαπονέεσθαι | minor | "with future force after a verb of granting or refusing" is asserted without support and the note does not say it. | Replaced with ’to come back’. |
+| παρά (broaden) | minor | "παρά … κιών = παρακιών" names a compound that is not a Homeric form. | "(παρά … κιών): ’passing by’". |
+| μάχην (broaden) | minor | Tail "(driven away)" unclear. | "(thrust or driven away)". |
+
+Count for pass 2 in gloss.json: 0 severe, 5 moderate, 5 minor. The broaden entries are now 20 (the 18 plus οἷσι and ἄραρον).
+
+### Parses checked and kept
+
+- τιθεῖσι: epic 3 pl. pres. of τίθημι (= τιθέασι), subject the boys; the participle reading (dat. pl. of τιθείς) does not fit the line. Kept.
+- εἴδοντο: 3 pl. aor. middle of εἶδον with active sense, as the note says. Kept.
+- ἀνέῳγε: "pluperfect in form, aorist in sense" is the more careful label. Gloss kept; the unit’s note (16.221) said "imperfect" and now says "a past form … (formally a pluperfect, used as a simple past)", so the two agree (units.json, one `n` field).
+- ἀνθίσταντο "were resisting, held their ground", ἔστιχον "2nd aor. (or impf.)", ἄρθεν (ἀραρίσκω): acceptable as written.
+- Known entries that I checked for coverage and found adequate: πάρα (prep. + dat. after its noun, covers νηῒ πάρα), ἕτερον (neut. "one thing"), τετυγμένον (neut. nom.), ἤ and ἦ, μάχης (separation with ἐξαπονέεσθαι is covered by the ἐξαποδίωμαι reading), κιών (existing "aor. part." left alone; additions only).
+- The known entry ἀκόντισε still glosses ’hurled’ (a dictionary gloss, not the English layer); not rewritten, per the "never rewrite" rule.
+
+### new-renderings.md
+
+The three fixes from pass 1 are applied: the ἀολλέες row now reads "in a close mass" and names 12.443 as the outlier; the οὔλων ταπήτων row says this is the other οὖλος, not "ruinous"; the τοῖχον row says "wall" is shared with τεῖχος (7.436).
+
+### Totals for the whole review (pass 1 + pass 2)
+
+0 severe, 10 moderate (5 in units, 5 in gloss.json), 11 minor (6 in units, 5 in gloss.json).

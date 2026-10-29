@@ -4,10 +4,10 @@
 |---|---|---|---|
 | ἀράρῃ · ἄραρον · ἄρθεν (ἀραρίσκω, 16.212, 16.214, 16.211) | "fits together" · "were fitted together" · "were fitted together" | "fits together" · "were fitted together" · "closed up" | "builds", "joins", "locks"; ἀραρίσκω keeps "fit" (ἀραρυίας 3.331, ἀρήρει 3.338); the note says ἄρθεν is read as the passive of this verb, not of ἀείρω "lift" |
 | πυκινοῖσι λίθοισι · πυκινὴν νεφέλην (16.212, 16.298) | "solid stones" · "a solid cloud" | "close-set stones" · "a dense cloud" | "thick", "shrewd" (πυκινὴ βουλή); `l` keeps the table’s "solid" (πυκινὸς δόμος, 3.202), `i` takes the English word that fits stones and cloud |
-| τοῖχον (16.212, of a house) | "a wall" | "the wall" | "partition", "side" (the table’s τοῖχος of a ship is "the sides") |
+| τοῖχον (16.212, of a house) | "a wall" | "the wall" | "partition", "side" (the table’s τοῖχος of a ship is "the sides"); the same English "wall" as the table’s τεῖχος (7.436), two Greek words with one English, accepted because the note says τοῖχος is the wall of a room or house |
 | ἕνα θυμὸν ἔχοντες (16.219) | "having one heart" | "with one heart between them" | "of one mind", "united in spirit"; θυμός "heart" |
 | ἀνεμοσκεπέων (χλαινάων, 16.224) | "wind-sheltering" | "to shelter from the wind" | "windproof", "weatherproof", "wind-breaking"; ἄνεμος "wind" and the root of σκέπας "shelter" |
-| οὔλων ταπήτων (16.224) | "thick rugs" | "thick rugs" | "coverlets", "carpets", "woollen"; οὖλος "thick" as in the Odyssey’s χλαῖναι οὖλαι (19.225), τάπης "rug" |
+| οὔλων ταπήτων (16.224) | "thick rugs" | "thick rugs" | "coverlets", "carpets", "woollen"; this is the other οὖλος, "woolly, thick", not the "ruinous" of οὐλομένην, οὖλον ὄνειρον and οὖλος Ἄρης (1.2, 2.6, 5.461); "thick" as in the Odyssey’s χλαῖναι οὖλαι (19.225), τάπης "rug" |
 | ἔνιψ’ · νίψατο (νίζω, 16.229, 16.230) | "washed" · "washed" | "washed" · "washed" | "rinsed" (turned down for ἐξαπονίζω, 19.387), "bathed", "cleansed" (kept for ἐκάθηρε, 16.228) |
 | μέσῳ ἕρκεϊ (16.231) | "in the middle of the enclosure" | "in the middle of the enclosure" | "court", "yard", "fence" (the table’s ἕρκος "fence", 15.566, is a barrier; here a space is meant); the note says the Greek does not say whose |
 | εἰσανιδών (οὐρανὸν εἰσανιδών, 16.232) | "looking up at" | "looking up at" | "gazing", "lifting his eyes to", "looking toward"; εἰς + ἀνά + the root of ἰδεῖν "see" |
@@ -30,7 +30,7 @@
 | ξυνὸν δὲ κακὸν πολέεσσι τιθεῖσι (16.262) | "and a common evil for many they set" | "and they set an evil that is common to many" | "a shared harm", "a harm to all"; ξυνός "common" as in ξυνήϊα "common goods" (1.124) |
 | ἀμύνει οἷσι τέκεσσι (16.265) | "defends its own young" | "defends its own young" | "wards off … for", "protects"; "wards off" is kept for ἀμύνω with the accusative of the danger (κῆρας ἀμύνει, 4.11); τέκος "young"; οἷσι the possessive ὅς, not the relative |
 | ἀγχέμαχοι θεράποντες (16.272) | "close-fighting attendants" | "his close-fighting attendants" | "squires", "servants", "henchmen"; ἀγχέμαχος "close-fighting" (Μυσῶν ἀγχεμάχων, 13.5) and θεράπων "attendant" (2.110) |
-| ἐν δ’ ἔπεσον … ἀολλέες (16.276) | "fell upon … in a body" | "fell upon … in a body" | "in a mass", "crowded", "all together" (kept for ἀθρόοι); ἀολλής "in a body" |
+| ἐν δ’ ἔπεσον … ἀολλέες (16.276) | "fell upon … in a close mass" | "fell upon … in a close mass" | "in a body", "all together", "crowded"; follows the table’s ἀολλέες "in a close mass" (5.498, 12.78), unchanged; the row at 12.443 ("all together" / "in a body") is the outlier and is not followed |
 | ὀρίνθη · ἐκίνηθεν · κινήσῃ (16.280, 16.280, 16.298) | "was stirred up" · "were moved" · "moves" | "was stirred" · "shook" · "stirs" | "was shaken" (reserved for ἐκίνηθεν), "troubled", "was moved" (reserved for the battle-lines); ὀρίνω "stir up", κινέω "move" |
 | ἀπορρῖψαι (μηνιθμὸν ἀπορρῖψαι, 16.282) | "to have cast off" | "had cast off" | "thrown away", "put aside", "given up"; the aorist infinitive after ἐλπόμενοι refers to what is hoped already done; μηνιθμός "wrath" (16.62), φιλότης "friendship" |
 | ἀντικρὺ κατὰ μέσσον (16.285) | "straight into the middle" | "straight into the middle" | "through the centre", "right at the middle"; ἀντικρύ "straight" as in the shipped rows (ἀντικρὺ δὲ δι’ ὤμου, 4.481, "straight through the shoulder") |

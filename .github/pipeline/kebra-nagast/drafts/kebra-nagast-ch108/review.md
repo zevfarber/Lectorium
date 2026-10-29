@@ -59,3 +59,46 @@ Checked against the packet (Geʿez joined back to the packet text after editing:
 - "God" for እግዚኣብሔር and "the prophet prophesied and said" frame: consistent with ch. 107; no change. ኃጥእ "sinner", ረሲዕ "impious" kept.
 - Psalm and Deuteronomy verse numbers checked (140:11/139:12; 7:16; 41:8–9/40:9–10; 36:1/35:2; 109:6, 8, 16, 17; 112:10; Deut 29:20, 27:25; Hab 1:3–4; Prov 11:1, 20:23; Matt 27:9–10; Zech 11:12–13): correct as given.
 - Heading, 3fs ትኄሊ (note correct; known-forms.json says "2ms", wrong for this context): not editable here, flag for the glossary pass. Also known-forms ወይሬኢ "narrative past" vs this chapter's present "sees".
+
+# Pass 2 (adversarial) — kebra-nagast-ch108
+
+Checked every gloss entry (lemma, parse, sense against each unit's l/i), the nine `__broaden__` entries against known-forms.json (each is the old entry whole + " · " + the new reading: confirmed), coverage (every packet form is in gloss, known-forms or __broaden__; no stray keys), and units.json notes against the gloss. Edited by script; `t` untouched (all unit `t` identical to before and joined text equals the packet). No modern translations opened.
+
+## Changes
+
+| # | Unit / form · field | Sev | What was wrong | What was done |
+|---|---|---|---|---|
+| 1 | ወበአጽንኖ · gloss | moderate | Stated flatly "verbal noun of the causative አጽንዐ", but the final radical is ን, not ዐ (the verbal noun would be አጽንኦ): invented derivation | Lemma/derivation marked (?) "perhaps … though the final radical does not match" |
+| 2 | 3 · n (አጽንኖ) | moderate | Note repeated the unhedged derivation | Hedged (?) in step with the gloss |
+| 3 | ወዕሉት · gloss | minor | Lemma ዕልው given for a different form ዕሉት | Says the lemma is approximate (?) |
+| 4 | 3 · n (ዕሉት) | minor | "ዕሉት is the passive participle of ዐለወ" stated as fact though the gloss says "perhaps"; ልብ "is feminine" stated as a fact about the noun | "perhaps … (?)"; ልብ "construed as feminine here" |
+| 5 | ይንዕዎ · gloss | minor | Same lemma ነዐወ is glossed "conquer/prevail" elsewhere in the text, "hunt" here, unflagged; person (3mp) stated though the plural-vs-singular subject is itself in doubt | Cross-reference to the other reading added; "person not secure" |
+| 6 | 1 · n | minor | Same as 5 | Cross-reference added to the note |
+| 7 | ለአማስኖ · gloss | minor | No root for አማሰነ; other parts give መስነ | "from መስነ 'perish'" |
+| 8 | ወክዒወ · gloss | minor | Lemma is an accusative form (…ወ), not a dictionary form; I cannot confirm Dillmann's headword | "accusative form", lemma form flagged (?); lemma left as written |
+| 9 | ደም · gloss | minor | Line-pinned ("dependent on the construct ክዒወ") | "blood (noun)" |
+| 10 | ወትምጽኦ, ወትርሕቅ, ወይየብስ, ወይበል · gloss | minor | Line-pinned remarks (subjects መርገም, በረከት, plural ሥረዊሁ, ሕዝብ) in the parse | Removed (ወይበል keeps the general "collective subject takes the singular") |
+| 11 | ወይትነገፍ · gloss | minor | tä-stem form given the G lemma ነገፈ; house practice (ተመዐዐ, ተሀጕለ, ተመሰወ) lemmatises tä-forms under ተ- | Lemma ተነገፈ, "tä-stem of ነገፈ 'shake'" |
+| 12 | ለመንሱት · gloss | minor | Sense left as "to …" with a bare ellipsis | "to, for …" with the word stated unidentified |
+| 13 | አብደራ · gloss | minor | "ending -ra" garbled | "ending -ራ rather than -ረ unexplained" |
+| 14 | ዘያፈደፍድ · gloss | minor | Called "the quadriliteral አፈድፈደ"; the quadriliteral is ፈድፈደ and አፈድፈደ is its causative (as in other parts) | "causative of the quadriliteral ፈድፈደ" |
+| 15 | ለብእሲ · __broaden__ | moderate | Two uses here (object marker resumed by -ዎ, unit 1; owner placed before ቤቱ, unit 11) not covered by the old "to/of a man" | Old entry whole + " · " + both readings |
+| 16 | ብርሃነ · __broaden__ | minor | Old entry gives only the construct; here it is the accusative object (unit 10) | Old entry whole + " · accusative, object" |
+| 17 | 11 · n | moderate | "as in Hebrew and Geʿez idiom" for the ለ- before ብእሲ … ቤቱ: unsupported | Replaced by the house pattern (ለ- naming the owner of a suffixed noun, cf. ስሕተቱ ለአዳም), here owner first |
+| 18 | about | minor | "mostly Psalms 41 and 109": six psalms are cited, 109 four times, 41 once | "among them" |
+
+## Findings refused / left
+
+- Lemma ሳሀተ/ሰሀተ for ያስሕት (ሀ against the ሕ written): same spelling as the house entry ውስተስሒት in another part; I cannot verify Dillmann's spelling, so left.
+- ሀከከ / ህከከ as lemma "noun, accusative": an accusative form is not a headword, but the house entries elsewhere use the same lemma and I cannot check Dillmann; left, flag for the glossary pass.
+- ወይደመሰስ "passive use without tä-": consistent with unit 8's note; I cannot show ይደመሰስ is not a regular imperfect, left.
+- ወየሐቂ (ሐቀየ), አለበወ, ይትዔገሎ, ድማሕ, መሠንዮ, አብደረ: invented-looking or unverifiable lemmas, but all already marked (?) with the root stated unfixed; no change beyond the above.
+- ያአትትዎ 3mp, ኢይርአይ, ዘኢኮነ, ወይዴምር "long ዴ-": parse correct as written (ዴ is the 5th order; the oddity is already noted).
+- Unit 1 i "to destroy him": the pronoun comes from -ዎ on ይንዕዎ; natural English, left.
+- Unit 7 (49 words, no ፤ inside) stays; unit boundaries and `p` flags re-checked against the packet's marks and paragraph breaks: no change.
+- Notes' scriptural references (Pss 140:11, 7:16, 41:8–9, 36:1, 109:6, 8, 16, 17, 112:10; Deut 29:20, 27:25–26; Hab 1:3–4; Hos 4:1–2; Job 18; Prov 11:1; Isa 26:10; Matt 27:9–10) re-checked; correct as given.
+- Known-forms oddities (ትኄሊ "2ms", ወይሬኢ "narrative past") already handled by broadening; ሎቱ lemma "ለ" is house style.
+
+## Counts
+
+Major 0 · moderate 4 (#1, 2, 15, 17) · minor 14 (#3–14, 16, 18). Total 18 changes.

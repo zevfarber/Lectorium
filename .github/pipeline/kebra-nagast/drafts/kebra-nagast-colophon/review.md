@@ -57,3 +57,70 @@ Units are numbered from 0 in file order (62 units). No `t` was changed; unit cou
 - The `titleEn` and `part` fields: unchanged.
 
 Findings by severity: 7 major, 14 moderate, 15 minor (table rows).
+
+# Review, pass 2 — kebra-nagast-colophon
+
+No `t` changed (checked against the pre-pass file); 62 units, order unchanged; every novel-forms key kept. Every word of every `t` is covered by gloss.json, known-forms.json or `__broaden__`; every `__broaden__` entry begins with the old entry whole (the two new ones, አንበሳ and አምላክ, with the known entry).
+
+## Units
+
+| Unit | Severity | What was wrong | What was done |
+|---|---|---|---|
+| 6 (n) | moderate | ምህረ given as the 'teach' verb: no such perfect (the dictionary form is መሀረ, cf. መምህር); "compare መምህር, unit 1" but መምህር is in unit 0 | መሀረ; unit 0 |
+| 6 (i) | moderate | ይምሀረነ rendered "have mercy" with only (?), while `l` and the note say the written form is 'teach' | i: "have mercy on (or: teach) us (?)" |
+| 49 (l, i, n) | moderate | `l` "Wədm" for ወድም (ወ is wä, not wə); `i` "Wudem" equated it with the later ውድም (ወ vs ው) with no (?) | l "Anbäsa Wädm"; i "Anbasa Wedem (?)"; n names the ወ/ው difference |
+| 60 (i, n) | minor | i "Wudim" inconsistent with 49 | "Wudem"; n says the spelling differs from 49 |
+| 50 (n) | moderate | "ድል is also a word ('victory')": a modern (Amharic) sense, not a Geʿez dictionary word | removed; "not analysed" |
+| 54 (n) | moderate | ይኩኖ "jussive ይኩን + -ኦ 'to him' ('may God be to him')": -ኦ is not a dative on verbs, and God as subject was invented | analysis dropped; only "a verb of ኮነ is conceivable (?), unproved"; no sense claimed |
+| 19 (l) | minor | "Maʾalbagad": ል is lə | Maʾəlbagad |
+| 1 (l) | minor | "4 hundred" mixed digit and word for ፬፻; Gebre Mesqel, Lalibela, Zagwe, Israel as English in `l` (house: Geʿez form in `l`) | "in-400 and-9"; Gäbrä Mäsqäl, Lalibäla, Zagʷa, Əsraʾel |
+| 1 (i) | minor | "I said:" dropped ዘንተ, which `l` keeps | "I said this:" |
+| 0, 2, 3, 4, 5, 6 (l) | minor | Mark, Copts, Israel, Nazareth, Isaac, Zion, Christ in English in `l` | Marqos, Qəbṭ, Əsraʾel, Nazaret, Yəsḥaq, Ṣəyon, Kərəstos |
+| 13, 18, 30, 37, 47, 56, 57, 58, 61 (l, n) | minor | `l` gave the name-words English glosses ("All for Zion", "Sea Sägəd", "Pillar-of Zion", "Servant-of Cross", …) in some units and transliteration in others (ባሕረ vs ባሕር, ገብረ in unit 1 vs 30), which implies a sense the notes disclaim | all in Geʿez form (Kʷəlu Läṣəyon, Ṣəyon Ḥəg, Gäbrä Mäsqäl, Fəre Śänay, Ḥəzbä Anani, Baḥr Sägəd, Ḥəzbä Arʿad, Qədmä Sägəd, ʿAmdä Ṣəyon); "(so in `l`)" removed from n |
+| 5 (i) | minor | "Do it" supplies an object ግበር lacks | "Do [it]" |
+| 52 (n) | moderate | አቀነአ / ቀነአ: the dictionary root is ቀንአ (causative አቀንአ) | corrected |
+
+## gloss.json
+
+| Entry | Severity | What was wrong | What was done |
+|---|---|---|---|
+| ወተብህለ | moderate | "Gt-type stem of በሀለ": wrong label and root (pass 1 fixed the unit, not the entry) | tä-stem passive of ብህለ |
+| እቤ | minor | root written በሀለ | ብህለ |
+| ወአስተተ | major | "causative of ተተ (?)": an invented root | no lemma/root identified; context sense only |
+| ወተርጒሞታ | major | lemma ትርጒም: not the form, an unverified noun | lemma ተርጐመ, verbal noun; ተርጒሞት flagged unchecked |
+| አውፅኦታ | moderate | lemma አውፅኦት unverified | lemma አውፅአ, verbal noun |
+| ወኢትሒሱኒ | major | lemma ሐሰ: not a Geʿez verb form | lemma not identified; entry says so |
+| ኢያርትዖ | minor | "verbal noun/3ms form": unit says infinitive | infinitive/verbal noun አርትዖ |
+| ተስእልክዎ | minor | "Gt-stem" | tä-stem with active sense |
+| ያዕቢከ | moderate | gloss read it as a wish; unit reads it as the governor's name | "he makes you great (?)", in the unit part of the name (?) |
+| ወይምሀረነ | major | lemma መሐረ 'have mercy' with 'teach' as alternative, against the written ሀ and unit 6 | lemma መሀረ 'teach' (cf. መምህር); መሐረ the context alternative (?) |
+| ወእንድርያስ, ወፊልጶስ | minor | bare "Andrew/Philip" against `i` "Andreyas, Filipos" read as fellow-labourers | both forms; reading hedged (?) |
+| ወሰጓሁ | minor | garbled "and (?) sägʷahu" | restated |
+| ላሊበላ | moderate | "the Zagwe king" asserted | removed |
+| ዛጓ | moderate | "name of the Zagwe dynasty" asserted (unit hedges it) | hedged (?) |
+| ጽንፈ, አስግድ | major | 'end, edge' and 'he made bow' as name senses (the units claim none); the second an invented verb sense | name element, no sense; ጽንፍ named only as the form's source |
+| ሰገድ | moderate | "perhaps 'bowing'" | form of ሰገደ (3ms perfect or imperative); no sense |
+| ድል | major | "victory (noun)": modern (Amharic), not a Geʿez word | name element, not analysed |
+| ነአድ | major | "Naʿod": ʿ for ʾ, and a modern spelling | "Näʾad" |
+| ከላውድዮስ | minor | "in Geʿez dress" | "Geʿez form of the Greek-derived name" |
+| አብርሃ, ወአጽብሐ | moderate | "brother kings of Aksum": not in the text | "two brother kings" |
+| every list name | moderate | "king of Ethiopia": the text says only 'these kings' | "a king in the list" |
+| አቀንኦሙ | moderate | lemma አቀነአ, a misspelling | አቀንአ, causative of ቀንአ |
+| ይኵኖ | major | "first king of the restored line"; 'he has made' (ኰነ is not 'make') | name, form unanalysed, no sense |
+| ያግባ | major | "perhaps 3ms jussive of አግብአ": it would be ያግብእ | stated as not that form; no sense |
+| ዓምደ, ወድም | minor | name sense / "name or epithet" loose | ዓምደ: no sense claimed for the name; ወድም: one name with አንበሳ (?), alternative stated |
+| __broaden__ ጽዮን, ባሕር, ኵሉ, ግርማ, ፍሬ, ሠናይ | major | invented senses for names ('Zion's law', 'may he bring back to Zion', 'Sea Sägəd', 'all for Zion', 'majesty', 'fruit') | old entry kept whole; name use now "name element (no sense claimed)" |
+| __broaden__ ተሀይደ | moderate | new reading "passed, was turned over" contradicts the unit | "same sense 'was taken away' (?)"; stem/root unchecked |
+| __broaden__ ሕዝበ | minor | name use gave no hedge; ሕዝበ ክርስቶስ read as a name was missing | added |
+| __broaden__ ነገረ | minor | ነገረ ልሳን (unit 4) not covered | added |
+| __broaden__ አንበሳ, አምላክ (new) | minor | used as name elements (units 49, 54) but known 'lion' / 'God' entries not broadened | added, old entry whole |
+
+## Refused or left
+
+- ተሀይደ ← ሀየደ (unit 51 note): cannot be checked here (no Dillmann); left hedged and flagged "not checked".
+- ተመንደብነ (known entry 'quadriliteral tä-stem'), ኀበ/ሐባሲ, ወሰጓሁ, አበልዕዝ/አበልፈረግ: no better analysis supportable; left.
+- The mechanical `l` approximations of name transliterations (Bazen, Tazena, Kaleb, Adrəʿaz, …) accepted per conventions.
+- Numeral entries (በ፬፻, ወ፱): checked, follow the convention ('spoken በአርባዕቱ ምእት …', 'ወተስዐቱ'); left.
+- The 1/6/52 `i` sentences otherwise re-checked against `l` and the grammar; no further change.
+
+Pass 2 counts: 9 major, 14 moderate, 20 minor (table rows).

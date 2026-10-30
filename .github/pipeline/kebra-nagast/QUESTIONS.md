@@ -64,3 +64,5 @@
 - 2026-10-30 · housekeeping: cloud checkout was on detached HEAD with a stale local main; reset local main to origin/main before working.
 
 - 2026-10-30 (ch112): conventions.md says proper names in `l` take Geʿez form, but the published pilot (ch. 1) and all published parts use English names in `l` (Isaac, Jacob, Egypt). Decided meanwhile: kept English in `l` for consistency with every published part. Owner to rule whether to convert throughout.
+
+- 2026-10-30 · colophon · Unresolved without Dillmann: see LOG line (ወሰጓሁ, አበልዕዝ/አበልፈረግ, ወአስተተ, ተመንደብነ, ተሀይደ, ያዕቢከ, ይኵኖ, ያግባ, ድል ነአድ). Names here are in Geʿez form in `l` (per conventions.md), unlike earlier published parts, which use English names in `l`; owner to rule (same question as ch112). Part title is ours. Decided meanwhile: published with (?) flags.

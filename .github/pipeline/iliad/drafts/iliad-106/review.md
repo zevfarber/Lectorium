@@ -47,3 +47,38 @@ Speeches: Apollo to Patroclus (unit 13, 707–709; “ opens `l` and `i`, ” cl
 - **Unit 27 κάππεσ’ "preverb shortened to match the next consonant":** loosely worded (apocope plus assimilation) but not false. Left.
 - **Unit 31 `i` drops "then" (ῥα):** the particle's force is carried by "Truly,"; `l` has it. Left.
 - **Unit 0, 676 and iliad-093's 236 / 15.236:** `l`/`i` for the first line agree in sense with the published unit and the table's 15.236 row (differing only in final punctuation, since ours closes a sentence); the validator's same-Greek rule is for whole units, which this is not. Left.
+
+---
+
+# Pass 2 (units.json fresh reading + every entry of gloss.json checked against the lines)
+
+`t` untouched (checked unchanged by script before writing). Fresh reading of all 42 units, Greek → `l` → `i`, notes, quotation marks, `mark`/`p` fields; then every `gloss.json` entry and every `__broaden__` entry compared with the existing root `iliad-glossary.json` and with each place the form occurs; every other form in the part was also compared with its existing root entry for a parse that fails here.
+
+## Changes
+
+| unit/key · line | field | sev | wrong | done |
+|---|---|---|---|---|
+| ἀγακλῆος · 738 | gloss (`__broaden__`) | HIGH | Root entry is the proper name Ἀγακλῆς (father of Epeigeus); here ἀγακλῆος is the adjective ‘renowned’ agreeing with Πριάμοιο, so the shipped gloss would have been wrong in this line and no entry covered it. | Broadened: old entry whole + ` · also ἀγακλεής — renowned; masc. gen. sg., epic -ῆος (= Attic -οῦς) …`. |
+| ἔφεπε · 724 | gloss (`__broaden__`) | MEDIUM | Root entry only impf. 3 sg.; 724 is the imperative (‘drive at’), 733 the imperfect. | Broadened with pres. imper. 2 sg. act. |
+| ὀξέα · 772 | gloss (`__broaden__`) | MEDIUM | Root entry has only neut. acc. pl.; in ὀξέα δοῦρα πεπήγει it is nom. pl., subject. | Broadened with neut. nom. pl. |
+| κεβριόναο · 756, 759 | gloss (`__broaden__`) | MEDIUM | Root entry gives only ‘gen. of comparison: than Cebriones’; both lines have it after περί (‘over Cebriones’). | Broadened with gen. sg. after περί. |
+| στροφάλιγγι · 775 | gloss | MEDIUM | Lemma accented στρόφαλιγξ against the printed στροφάλιγγι (stem στροφαλιγγ-, as unit 41’s note says). | Lemma στροφάλιγξ. |
+| πεπληγέμεν · 726 | gloss | MEDIUM | Parsed as a perfect infinitive; unit 21’s note (and the form) is the reduplicated aorist infinitive; the two disagreed. | ‘reduplicated aor. inf. act., epic -έμεν (= Attic πεπληγεῖν)’. |
+| ἄδρηστον · 694, αὐτόνοον · 694, μούλιον · 695 | gloss (`__broaden__`) | LOW | Root entries describe other men of these names (Adrastus taken alive, a Danaan Autonous killed by Hector, an Epean Mulius); here they are among Patroclus’ victims. | Each broadened with ‘another man of the name, killed by Patroclus’. |
+| ἐκέλευσε · 726 | gloss (`__broaden__`) | LOW | Root ‘+ acc. + inf.’; here Κεβριόνῃ is dative. | Broadened with ‘+ dat. + inf.’. |
+| ἀλῆναι · 715 | gloss | LOW | Homeric form without the Attic equivalent. | ‘(= Attic ἁλῆναι)’ added. |
+| τανυήκεας · 765 | gloss | LOW | Meaning (second element) not marked as uncertain, though the note and pass 1 say it is. | ‘second element ἀκή ‘point’ is uncertain’ added. |
+| μάρμαρον · 735 | gloss | LOW | Entry gave only the adjective ‘gleaming’; the note says ‘any hard rock’, and here it is a noun in apposition to πέτρον. | ‘gleaming; as a noun, a hard shining rock (later ‘marble’)’. |
+| δηρινθήτην · 756 | gloss | LOW | Lemma δηρίομαι while unit 34’s note says δηριάομαι. | ‘δηριάομαι (epic δηρίομαι)’. |
+| κταμένης · 757, ἑή · 753 | gloss | LOW | Homeric forms without the Attic equivalent. | ‘Attic ἀποκτανθείσης’; ‘Attic ἡ ἑαυτοῦ’. |
+| unit 2 · 684 | `n` | LOW | The note’s verb μετακιαθέω disagreed with the gloss lemma μετακιάθω. | Note now μετακιάθω. |
+| unit 38 · 765 | `n` | LOW | `p` is set but the note lacked ‘A new paragraph begins here.’, which every other `p` unit has. | Sentence added. |
+
+Counts, pass 2: HIGH 1, MEDIUM 5, LOW 9 (15 edits: 12 `gloss.json` entries changed or broadened, 2 notes). `l`, `i`, `mark`, quotation marks: no errors found; no pass-1 edit left an error (ASCII quotes, doubled spaces, line counts of `l` against `t`, `“`/`”` pairing in `l` and `i`, `mark` on units 13, 18, 29 only: all checked by script).
+
+## Verified and left
+
+- Pass 1’s edits (units 6, 9, 20, 23, 25, 27, 33, 34, 35, 38, 41) re-read against the Greek: every statement true.
+- Every `gloss.json` entry under 230 characters (longest 136); only the typographic ’; no line numbers, no ‘here’. The ten earlier `__broaden__` entries (εἴη, εἴην, κέν, ὀστέον, δοῦρα, ἐριδαίνετον, πάταγος, μάχοιτο, μάχεσθον, μεγάλ) each equal the current root entry + ` · ` + the new reading, and each new reading is true at its line (εἴη 748, εἴην 723, κέν 724, ὀστέον 741, δοῦρα 772, ἐριδαίνετον 765 (3 dual), πάταγος 769, μάχοιτο 713, μάχεσθον 758, μεγάλ’ 774).
+- Forms whose root entry already fits here though it looks otherwise: κεν 698 (past indic., ‘would have’), ἂν 686, κε 722, ἦ 712 (‘or’), μὴ 698, μάχης 721 (separation), περὶ 756 (‘about’), τὸ τέταρτον 705, Κεβριόνην 736 (the root’s ‘Hector’s brother’ is also true), ἔα 731 (impf. 3 sg. is in the root entry).
+- πέρθαι (707): the parse ‘epic aor. inf.’ is the usual one but the form is disputed in the grammars; left as drafted.

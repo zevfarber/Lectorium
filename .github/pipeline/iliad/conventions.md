@@ -5707,3 +5707,14 @@ Odyssey-shared lines: 15.480–481 reuse the English of odyssey-107 and of the I
 | ὃ μὲν τὰ ἃ δῶκε … ὃ δ’ … δῦνε (17.193–194) | "Indeed he, on the one hand, his own gear gave … and he on the other hand … was putting on" | "Hector, on the one hand, gave his own gear … and he, on the other hand, put on" | "one of them … the other" (both are Hector); ἅ possessive "his own", kept apart from the relative ἅ of 195 |
 | Οὐρανίωνες (17.195) | "the Uranians" | "the gods of heaven" | follows the table (5.373), unchanged |
 | ὄπασσε (ᾧ παιδὶ ὄπασσε γηράς, 17.196–197) | "bestowed" | "passed them on" | "gave" (kept for ἔπορον, ἔδωκε), "left"; ὀπάζω "bestow, make follow" |
+
+### iliad-110 (17.198–287)
+
+| Greek | `l` | `i` | avoided on purpose |
+|---|---|---|---|
+| οὐ κατὰ κόσμον (of stripping Patroclus, 17.205) | "not in due order" | "not as was fitting" | the table's `l` "not in due order" (5.759, 8.12) is kept; `i` departs from 8.12's "in no good order" because that suits a body struck down, not a wrong done; "improperly", "wrongly" |
+| ἀπάνευθεν (17.198, "from apart") | "from apart" | "from a distance" | "far off" (turned down at 10.425); ἀπάνευθε keeps "apart", this is the ablative form -θεν "from apart" |
+| συῒ … καπρίῳ (17.281–282) | "a swine … a boar" | "a wild boar" | follows ἀγροτέρῳ συῒ καπρίῳ (11.293), but without ἀγροτέρῳ the "wild" in `i` is the sense of κάπριος; the table's συῒ εἴκελος ἀλκήν "like a boar in might" (4.253) stands when σῦς is alone |
+| ἐλελίζω (ἐλέλιξεν, 17.278, of rallying men) | "whirled round" | "wheeled round" | "rallied", "shook" (the table's ἐλέλιξεν "shook", 1.530, is of Olympus trembling); follows ἐλελίχθησαν "were whirled round" / "wheeled round" (5.497) |
+| ἕλον (of a man, ἕλον ἔγχεσιν, 17.276) | note says "take" = "kill" | "kill" | "captured", "seized"; the note gives the idiom |
+| δήμια πίνουσιν (17.250) | "the people's wine drink" | "drink the people's wine" | "drink at public cost" (explains it away); the noun "wine" is added, and the note says it is understood |

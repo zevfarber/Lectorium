@@ -1,0 +1,27 @@
+### iliad-113 (17.481–581)
+
+| Greek | `l` | `i` | avoided on purpose |
+|---|---|---|---|
+| βοηθόον (ἅρμ’ ἐπορούσας βοηθόον, 17.481) | "the aiding chariot" | "the chariot that stood ready to help" (+ note: βοή "shout" + θέω "run"; exact shade not certain) | "swift", "speeding", "rescuing"; iliad-082 has βοηθόον of Aeneas "come on to help" (a man, not a chariot), so the two uses are told apart in the notes |
+| κακοῖσι (ἡνιόχοισι κακοῖσι, 17.487) | "base ones" | "poor charioteers" (+ note: poor at the work, not wicked) | "wicked", "cowardly", "bad"; κακός "base" in `l` as in the table |
+| ἐπιτράπεθ’ (τὸν νεκρὸν ἐπιτράπεθ’, 17.509) | "take in charge" | "take … into your charge" (+ note: likely, not sure) | "entrust yourselves", "leave", "turn over" |
+| πρίν γ’ … βήμεναι (17.504) | "until at least … he has stepped" | "before he has mounted" | "before he can mount"; πρίν with the infinitive after a negative |
+| ὕπερθεν (πόδας καὶ χεῖρας ὕπερθεν αἱματόεις, 17.541) | "on feet and hands above, bloody" | "bloody on his feet and hands all over" (+ note: ὕπερθεν hard to place) | "from above", "up to the wrists" (each decides the uncertain word) |
+| νεῖκος (ἔγειρε δὲ νεῖκος Ἀθήνη, 17.544) | "the quarrel" | "stirred up the quarrel" | "strife" (kept for ἔρις), "contention", "fighting"; follows the table’s νεῖκος "quarrel" |
+| ἶρις (πορφυρέην ἶριν, 17.547) | "a purple rainbow" | "a purple rainbow" | "the goddess Iris" (the common noun is meant; the note says it is also the goddess’ name), "arc" |
+| χειμῶνος δυσθαλπέος (17.549) | "winter hard to warm" | "a winter hard to warm" | "bitter winter", "winter storm", "cold weather" (each fixes an uncertain adjective's shade); δυσ- + θάλπω "warm" |
+| ἔθνος Ἀχαιῶν (δύσετ’ Ἀχαιῶν ἔθνος, 17.552) | "the band of the Achaeans" | "the band of the Achaeans" | "host", "tribe", "ranks"; follows ἔθνος ἑταίρων "band of companions" (7.115), ἔθνεα "bands" (11.724) |
+| ἔγειρε (ἔγειρε δὲ φῶτα ἕκαστον, 17.552) | "was rousing" | "roused" | "woke"; follows the table’s ἔγειρε "was rousing" (13.357) |
+| ἰσχανάᾳ δακέειν (17.572) | "is eager to bite" | "is bent on biting" (+ note: usual "hold back" does not fit with an infinitive; shade not certain) | "holds back from biting", "is ready to bite"; a departure from the table’s ἰσχανάω "hold back" (5.89, Odyssey), noted |
+| λαρόν (λαρόν τέ οἱ αἷμ’ ἀνθρώπου, 17.572) | "sweet" | "sweet" | "tasty", "pleasant", "delicious"; the table’s γλυκύς is "sweet" too, but αἷμα is never "sweet" elsewhere, so no clash |
+| εἰλαπιναστής (ἑταῖρος ἔην φίλος εἰλαπιναστής, 17.577) | "a banqueter" | "companion at the feast" | "feast-companion", "table-companion", "carouser", "boon companion"; rare word from εἰλαπίνη "feast" |
+| ὑποταρβήσαντες (17.533) | "having shrunk in fear before" | "shrank in fear before" | "being a little afraid", "terrified", "in awe of"; ὑπο- as "before, under" |
+| χερείονα (χερείονά περ καταπέφνων, 17.539) | "one lesser" | "the lesser" | "worse" (kept for κακίων), "inferior", "weaker"; the contrast is with Patroclus, as the note says |
+| κῆρ ἄχεος μεθέηκα (17.539) | "my heart from grief I have let go" | "I have eased my heart of its grief" | "relieved my grief", "quenched"; μεθίημι "let go" (table "slacken from", 4.234); κῆρ is "heart" (not "fate") |
+| εἰ γὰρ … δοίη … ἀπερύκοι (17.561–562) | "if only … would give … and keep off" | same, with "force of the shafts" for βελέων ἐρωήν | "would that"; ἐρωή is "rush" in `l`, "force" in `i` as in the table (4.542) |
+| ἐσεμάσσατο (17.564) | "touched" (θυμόν "in my heart") | "touched my heart" (+ note: rare verb, ἐς- + "touch"; "moved me" is the sense taken) | "stirred", "gripped", "wounded" |
+| αἰζήϊος (ἀνὴρ αἰζήϊος, 17.520) | "a vigorous man" | "a vigorous man" | "youthful", "sturdy" (kept for ἄλκιμος), "stalwart" |
+| ἶνα τάμῃ διὰ πᾶσαν (17.522) | "cuts through the whole sinew" | "cuts through the whole sinew" | "tendon", "neck", "severs"; the note says the neck sinew is meant |
+| Names (17.481–581) | Alcimedon · Automedon · Aeneas · Chromius · Aretus · Menelaus · Phoenix · Podes · Eetion · Ajaxes (dual) | same, "son of …" for patronymics in `i` | the familiar Latinised forms, as for the other names in the table; Ἠετίων not distinguished from Andromache’s father, as the note says |
+
+Reused unchanged (no new row): the published lines at 17.485 (iliad-028), 17.516 (iliad-019), 17.518–519 (iliad-032, `i` kept), 17.526 (iliad-079/-081: "Teucer"/"Idomeneus" replaced by "Automedon" in `i`, the only change), 17.527–529a (iliad-105, whole unit verbatim), 17.529b (iliad-105), 17.537 (iliad-083), 17.559 (iliad-104, whole unit verbatim); ἀναιμωτί "without bloodshed" (Odyssey and iliad-111); ἀτάλαντος Ἄρηϊ "the equal of swift Ares" (iliad-048); the speech-introduction formulae αὐτίκα δ’ … προσεφώνεεν ἐγγὺς ἐόντα, τὴν δ’ αὖτε προσέειπε, ὣς φάτο γήθησεν δέ; no departure from an Odyssey rendering.

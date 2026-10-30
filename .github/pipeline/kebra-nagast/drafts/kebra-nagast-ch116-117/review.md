@@ -53,3 +53,68 @@ Severity count (rows above): major 9 (units 1, 2, 3, 3, 8, 14, 15, 16, 19), mino
 ### For the glosser / second pass
 
 Glosses to check: መግረሬ (match ch. 113 'curb' entry), ሰራዊተ, ዐብየ (known: 'became great'), ይዴመሩ / ይዴምር (lemma ደመረ), ይሰወር, ይዌስቁ, አፍተዎ (3ms), አፍቀሮ (3ms + 'him'), ንሱሕ (ነሰሐ), ዘበውስቴቶን, እመንፈቃ (-ሃ), ዐበይት.
+
+## Pass 2
+
+Checked: every `gloss.json` entry (lemma, parse, meaning) against its occurrence in the REVISED `units.json`; the two
+chapter-number entries; the `__broaden__` entries; every known-forms entry against its use here (for uses the old entry does
+not cover); units 0-24 `l` and `i` once more. Coverage by script: every token of the packet is in gloss.json or known-forms.json,
+no entry is orphaned, no form is in both. `t` untouched (joined `t` equals packet.md, checked by script). Edits made by script.
+Dillmann was not consulted; every lexical call below is from the grammar and the context and is marked (?) where unsettled.
+
+### Changes (gloss.json unless "unit")
+
+| Form / unit | Field | Severity | Wrong | Done |
+|---|---|---|---|---|
+| ያአኵቶ | lemma, grammar | major | 'causative of ኰተ': no such root; invented | root ʾ-k-w-t, derived stem, as the published ወያአኵትዎ |
+| የህይጲ | lemma | major | lemma ሀየጰ invented from nothing | lemma is the form itself with (?); no root proposed |
+| መራዕወ | lemma | major | lemma ምርዓይ invented | lemma is the form itself (?); ርዕየ 'pasture' only as a suggestion |
+| ወይከፍለነ | parse | major | suffix given as -ለነ 'to us'; the ለ is the root letter, the suffix is -ነ | corrected |
+| ወአፍተዎ, አፍተዎ | parse | major | still '3mp perfect, they gave leave' after pass 1 made it 3ms | 'he allowed him', 3ms + -ኦ; 3mp would be አፍተውዎ; (?) kept |
+| ጸንዖሙ | parse | moderate | suffix '-ሆሙ'; the form is perfect + -ሙ | corrected, (?) added |
+| ወይዌስቁ | (?) | moderate | pass 1 put (?) in the unit but the gloss stated ወሰከ flatly | root marked insecure (q vs k, ዌ) |
+| ወይበጽዕ | meaning | moderate | 'reaches, is brought' vs unit 'offers'; muddled | one reading, lemma (?) with the 'arrives' alternative named |
+| በረከቶሙ | meaning | moderate | 'blessings, plural/collective' after pass 1 made unit 24 singular | 'their blessing' |
+| ሰራዊተ | meaning, format | moderate | 'armies' after pass 1; stray ' · construct' in a non-broaden entry | 'army, host' collective, accusative; construct stated in the parenthesis |
+| ለፀረ | meaning | moderate | 'of/against the enemy': ለ- marks the object, not 'against' | 'the enemy of (ለ- marking the object)' |
+| ወገብረ | broaden | moderate | known entry 'and he did' does not cover ወገብረ መስቀልኒ (name element) | broadened |
+| በኀበ | broaden | moderate | known entry lacks 'at, by' (በኀበ መጽብበ) | broadened |
+| ሀለዎ | meaning | minor | 'fated for it' | 'it is for it, it must', as ሀለዎሙ (?) |
+| ይሰወር | grammar | minor | cited a ተሰወረ comparison as if settled | irregular passive stated, (?) |
+| ወይትለአኩ | meaning | minor | reciprocal stated flatly | passive and 'serve' alternatives named (?) (cf. published እትለአክ) |
+| ለኤንያ, ለፊንሐስ | meaning | minor | 'to/namely' unclear; unit says ለ- names the king | wording aligned, (?) |
+| unit 7 | i | minor | Enya given with no (?) while note says identity unknown | (?) added |
+| ወየሐርድዎሙ | lemma | minor | ሐርደ unverified | marked (?) |
+| ትትፌጸም, ይዴመሩ, ወይቄርቡ, ይኔጽር, ወይፌንዎ | grammar | minor | 'long' ፌ/ዴ/ቄ/ኔ misnames a 4th-order spelling | 'spelled with 4th-order …, unexplained' |
+| ወይቄርቡ | meaning | minor | unit 8 note allows 'take communion' (cf. ቊርባን) | alternative added (?) |
+| ወትረትዕ | meaning | minor | 'set straight' is transitive | 'be upright'; spelling ረ noted |
+| unit 8 | n | minor | ትረትዕ given as 'ረትዐ' | verb is ርትዐ |
+| ዘይሰመይ, ይሰመይ | grammar | minor | passive of the plain stem stated without doubt | (?) |
+| የዐጹ | grammar | minor | gloss did not carry the unit note's doubt about person | aligned |
+| ንሱሕ | meaning | minor | unit note allows 'gentle, humble' | added (?) |
+| መልህቅ | (?) | minor | 'anchor' without the doubt the unit carries | (?) |
+| ዘስራሕ | lemma | minor | spelling differs from the published ወስራሕ (ሥራሕ) | aligned, sense from ጻማ, (?) |
+| ደማቲዮስ | meaning | minor | 'author of the book of Rome' unsupported | 'book of Demetrius of Rome' cited |
+| ንስታስያ, አርቃድያ, ማሬና | (?) | minor | identification as church/land/person unsettled but unmarked | (?) |
+| ዘበውስቴቶን | grammar | minor | parse awkward | ውስቴ- + -ቶን, agrees with አህጉር |
+| unit 10 | i | minor | (?) sat after 'body', but the doubt is in the verb | 'offers (?) his body' |
+| unit 14 | n | minor | አፍቀሮ as 'አፍቀረ + -ሆ' | '+ -ኦ' |
+| unit 15 | n | minor | አፍተዎ as '+ -ሁ'; ጽዮንሃ -ሃ stated flatly | '+ -ኦ'; -ሃ 'perhaps' (?) |
+| unit 18 | i | minor | 'other people' supplied; note allows 'a second people' | 'double those of men (?)' |
+| ኀብሩ, ወይዴምር, ካዕበተ, ፩ | broaden | minor | known entries lack this use ('united'; 'adds'; 'double of'; 'one' before a relative) | broadened |
+
+Severity count: major 6, moderate 8, minor 34, blocker 0.
+
+### Checked and left
+
+ፀር, ዘሮሜ, ሰረገላ, ጵጳሳት, ነገርከነ, ያኅልቆሙ (3ms + -ሙ), ያኅልቅዎሙ, ይጽብእዎሙ, ወይሠርዑ, ወይትወሀቡ, ይትወከፎ, ኢያረኵስ, ኅረይ, ወይረስየነ, ይጸግወነ, ዐበይት, ዕፃ (broaden kept), ተ (broaden kept), እመንፈቃ (-ሃ 'its', as the known entry). Chapter numbers ፻፲፮ and ፻፲፯: spoken ምእት ወዐሠርቱ ወስድስቱ / ወሰብዐቱ, transliteration and gloss shape follow the house form; no change. Units 0-24 `l`/`i` re-read word by word against `t`: no further change (units 1-3, 8, 14-16, 19, 22 as revised by pass 1 agree with the Geʿez).
+
+### Findings refused
+
+- Re-cut unit 8: unchanged from pass 1 (no ፤ inside).
+- Removing ጽዮንሃ: the (?) already says the force of -ሃ is unknown.
+- Replacing lemma መጽብብ (unit 12): kept with (?); no better form.
+
+### Unresolved (?)
+
+ሀለዎ, ይሰወር, ወይትለአኩ (reciprocal/passive/serve), ኤንያ and the ለ- before the king names, ቀመር/አቅማር (reckoning), ሐርደ, ወይቄርቡ (draw near / take communion), ዕፃ, እመንፈቃ ለኢየሩሳሌም, በበሀገሮሙ, ዘይሰመይ/ይሰመይ, ወይበጽዕ, የዐጹ, ጽዮንሃ, መጽብበ, ሊባ, ጸንዖሙ, ንሱሕ, መልህቅ, አፍተዎ (lemma and the identity of 'he'), የህይጲ, ወይዌስቁ, ዘስራሕ, ካዕበተ ሰብእ, መራዕወ, ንስታስያ/አርቃድያ/ማሬና, ደወለ.

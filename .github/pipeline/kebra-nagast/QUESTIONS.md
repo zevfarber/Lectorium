@@ -62,3 +62,5 @@
 - 2026-10-29 · ch109-110 · Unresolved without Dillmann: see LOG line (ቊልዔ, ዐራዝ, ተዐወሩኒ, ሰቆራረ, ንድፍን, በርባሮ, ቊናመተ, አሠር, ሕንቅርት / ገራህተ, ኑፉቃን, ዘንቃህ, ወኅዳገ, ገጻ, ይትቃወሞን, ወልዲ, addressee of unit 16, Psalm source of unit 13). Part title is ours. Decided meanwhile: published with (?) flags.
 - 2026-10-30 · ch111 · Unresolved without Dillmann: see LOG line (ፄዊወከ ፄዋ, ቀላየ, ሰረረ, Amos quotation in unit 5, ክመ 'also' vs 'two', ሓውርት, ጥልቀት, አጠየቀ). Source split ውእ ፡ ቱ kept as printed. Part title is ours. Decided meanwhile: published with (?) flags.
 - 2026-10-30 · housekeeping: cloud checkout was on detached HEAD with a stale local main; reset local main to origin/main before working.
+
+- 2026-10-30 (ch112): conventions.md says proper names in `l` take Geʿez form, but the published pilot (ch. 1) and all published parts use English names in `l` (Isaac, Jacob, Egypt). Decided meanwhile: kept English in `l` for consistency with every published part. Owner to rule whether to convert throughout.

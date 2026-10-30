@@ -47,3 +47,20 @@ Checked and found sound: every unit's `t` begins at the packet line it claims; `
 - 524/540 νηδυίοισι and κατὰ … ἐδηδώς: labels checked and true.
 - 17.552 and 17.581 both ἔθνος: the renderings differ ("band of the Achaeans", "company of his companions") but each follows the table row for its own phrase. Kept.
 - Remembered English: no phrase in `i` arrived whole from memory; the ones that looked familiar ("far-thundering Zeus", "gleaming-eyed Athena", "good at the war-cry", "fair-maned") are table renderings.
+
+## Pass 2
+
+Checked every gloss.json parse against the Greek of its line(s), the nine `__broaden__` entries against iliad-glossary.json (all old entries kept whole, then ' · ' and the new reading), length (<230 for new entries; κ’ and ἑταίρου exceed it only because the kept old text does), typographic ’ only, no line numbers or "here", and Attic equivalents. Every word of the passage has an entry in gloss, known-forms or the glossary. units.json re-read once more.
+
+### Medium
+- units.json 538 `n`: μεθέηκα called "aorist of μεθίημι"; it is the epic perfect (Attic μεθεῖκα), as gloss.json and `l` ("I have let go") already had it. Fixed.
+- units.json 508 `n`: ἐπιτράπεθ’ called a "middle imperative"; the elision (-τε to -θ’) shows the active-form aorist imperative ἐπιτράπετε, as gloss.json had it. Fixed.
+- gloss ἐσεμάσσατο: said "unaugmented form ἐσ-"; the form is augmented (ἐσ- + ε-), ἐσ- being the prefix. Fixed.
+
+### Low
+- gloss αἰζήϊος: lemma given as αἰζηός with a false "= Attic αἰζήιος"; now lemma αἰζήϊος, cf. αἰζηός, no Attic form.
+- gloss ἐρίπῃσιν: Attic equivalent ἐρίπῃ added.
+- gloss ἐργομένη: Attic εἴργω added.
+
+### Left as is
+- All other 70 parses and the nine broadened entries are true of their forms; no line numbers, "here" or straight quotes found (digits are person numbers only).

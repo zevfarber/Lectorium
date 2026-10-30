@@ -1114,3 +1114,8 @@ later night. Shared rule 7 in `.github/pipeline/README.md`: a problem never cost
 - P435L22 ends "فقال انت" and P436L01 begins "الفصل فاشتراه": the print is discontinuous although the headers read 435 and 436. Archived as printed; nothing lost in transcription.
 - Night 64 is printed "اللية" (no second ل) at P435L20, and night 65 opens "قات" (no ل) at P437L13; archived as printed; the night index now accepts both.
 - Doubtful P440L01 mark over the alif of الا (adjudicator: low-confidence آلا): kept as bare الا per the doubtful-mark rule.
+
+## 2026-10-30 (run pp. 441–448)
+- The print has "الليلة التاسعة والستون" at both P444L19 and P446L18 (nights 69 twice; the second should be the 70th). Archived as printed; the night index may mis-number nights 70+ until the owner or a later run decides how to handle it. Night 71 label is at P448L11.
+- Passes on pp. 463–466 skipped the line crops again (as on 447–450); the adjudicator checked them. Pass 2 on Sonnet gave 34 disputes over 8 pages (under the 10-a-page limit).
+- Doubtful verse marks on P448 L18–21 (hamza ticks, sukun over final ي) kept as the adjudicator read them, low confidence.

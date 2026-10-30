@@ -18,7 +18,7 @@ every low-confidence verdict, for the LOG.
 """
 import json, sys
 
-PDF_TO_PRINTED = -20  # printed = PDF - 20 (verified against archives pp123-154)
+PDF_TO_PRINTED = -22  # from PDF 460 on (vol. 1 scan has three duplicate leaves; check each header)
 
 def main():
     run, p0, p1, out = sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), sys.argv[4]

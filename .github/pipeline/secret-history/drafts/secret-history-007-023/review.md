@@ -122,3 +122,100 @@ major 10 · moderate 18 · minor 35 · trivial 21 — plus the bulk bracket comp
 4. **qorilaldužu / maγ̇ulaldužu (§9)**: the quarrel over hunting is context, not the words; i says 'mutual prohibition and vexation' only.
 5. **Convention conflict**: conventions.md says Shiratori's form in `l`; the pilot anglicises names in `l`. The part follows conventions.
 6. **Ming 人起 on Belgünütei** (units 12, 36) is unexplained (probably a corrupt 人名); the drafter says so.
+
+
+# Review, pass 2 — secret-history-007-023 (§§7–23)
+
+Edited `units.json` and `gloss.json` in place by script. `t`, word order and word coverage are untouched. Re-verified after writing: every unit's `t` equals the packet words of its indices (70 units, 496 words); `p`/`ln` correct on each § opener; every morph carries exactly one trailing bracket; every Han character of each word's Ming gloss is accounted for in its morph brackets (and no others); gloss keys equal novel-forms keys plus `__broaden__`, and every gloss bracket equals novel-forms. Unit numbers are 0-based.
+
+## Changes in units.json
+
+| unit / key | field | severity | what was wrong | what was done |
+|---|---|---|---|---|
+| 8 | n | moderate | the previous unit ends keġen 'saying' with no marked subject; the note carried Qorilartai-Mergen through without saying the converb-sharing rule could make the ežed the speakers | stated as an open alternative; i unchanged |
+| 56 | i | moderate | temdeg 'sign' lost ('plainly' only) | "the sign is plain" (sign from the Mongol, plain from the Ming 明白) |
+| 5 keremün | morph | moderate | bracket wrote 青 where the packet has 靑 (a different character) | restored 靑鼠; the English gloss moved out of the bracket |
+| 36 köġüd | morph | moderate | bracket 子 for Ming 兒子 | 兒子 |
+| 56 köġüd -d | morph | moderate | plural bracket (惕) is not in the Ming (the Han transcription) | [part of 子] |
+| 57 teriġü,ü -tü | morph | moderate | the bracket sat in mid-gloss, so the gloss had no trailing Ming bracket | rewritten |
+| 2, 3, 4, 8, 9, 19, 36 ... (Qori-Tumad, every morph) | morph | moderate | 'the Tumad of the Qori country' is not in the text or the Ming (部落名) | 'the Qori-Tumad, a people' |
+| 2 Köl-Barγužin | morph | moderate | 'the Barguzin country' and 'köl perhaps lake, valley' are guesses from outside the text | place name; köl not known |
+| 1 Alan-Γoγ̇a | morph | moderate | 'who becomes the mother of the Mongol line' is not in the text | removed |
+| 44, 46 quγuludqun -ud-qun | morph, n | moderate | 'polite imperative -udqun' contradicts the -qun of §22 ('imperative-optative'); 'polite' rested on 您 alone | 'imperative(-optative) -(u)dqun, -ud- unexplained, the Ming adds 您'; the note says 'hints at a plural address' |
+| 55, 57, 58 ügüled, uqad-že | morph, n | moderate | the same -d was 'second-person plural' in two places and 'they' in a third | one gloss: a verb ending that goes with a plural subject, uncertain |
+| 54 kili-jer | morph, n | moderate | 'instrumental after a vowel-final stem, as -ber in Teġü-ber' — Teġü is vowel-final too | contradiction removed; the -jer/-ber choice is left unexplained |
+| 0, 56, 58, 61, 63 | morph | minor | stem and ending both bracketed the whole Ming word (到呵 + 呵; 省呵 + 呵; 做呵 + 呵 ×3) | stem 到 / 省 / 做, ending 呵 |
+| 5 -(i)jan | morph | minor | 自的行 on -jan while -tur also has 行 | -jan [自的] |
+| 12 nereten | morph | minor | nere [名] / -ten [名(有)的(每)] repeated 名 | -ten [(有)的(每)] |
+| 18 Teġün-ü | morph | minor | tere [那的] / -ü [的] repeated 的 | tere [那] |
+| 33 Dobun-Mergen-i | morph | minor | name [(人名)行] and -i [行] repeated 行 | name [(人名)] |
+| 56 bijü-že, 66 ideġe-ben | morph | minor | the variation selector U+FE00 of 也者︀ and 茶飯︀ had been dropped from the brackets | restored |
+| 0, 2, 6, 7, 12, 18, 27, 36 | morph | minor | English glosses ('a personal name', 'name of a mountain', 'a gloss I cannot read') sat inside the Ming bracket | brackets hold Han only; the words moved before the bracket |
+| 1 | n | minor | 'the first thirteen words' — there are twelve before ökin | twelve |
+| 2 | n | minor | 'the division is theirs' is meaningless | replaced by what the Ming gives (窊, 主人) |
+| 6 | n | minor | 'qori-' for the verb qorila- | qorila- |
+| 7 | n | minor | 'ke- say' beside the keġe- used everywhere else | keġe- |
+| 9 | i | minor | 'Of Qorilartai-Mergen of the Qori-Tumad, a daughter …' read backwards | 'The daughter of Qorilartai-Mergen of the Qori-Tumad, born at Ariq-Usun —' |
+| 10 ab-, γuju- | morph | minor | 'take as wife', 'ask for (a bride)' stated as the stem's meaning | 'take, get (here, a wife)'; 'ask for (here, a bride)' |
+| 14 | n | minor | 'the plain Mongol "to die"' is outside knowledge (Ming 無做了 = 'became without') | 'by context' |
+| 20 abid | morph | minor | stem 'abi' offered as a fact | marked as inferred from the Ming |
+| 27 Maγ̇aliγ-Bajaγ̇udai | morph | minor | tail of the bracket 'clan name' in English | bracket 姓氏 only |
+| 31 | n | minor | the same sentence ('Employing him' … 使着) stated twice | one removed |
+| 34 | n | minor | 兀該爲 called 'Ming', but it is the Han transcription (the Ming gloss is 無) | corrected |
+| 40 | n | minor | '-že is what the Ming means by 也者' while this word's Ming is 有 | now a cross-reference to bijü-že §21 |
+| 57 | n | minor | 'a way to say ordinary people' as fact; the Ming has only 黑 頭(有的) 人 | hedged, grounded in the next unit's contrast |
+| 66 | i | minor | 'provisions' for ideġe (Ming 茶飯) | 'food' |
+| 67 | n | minor | 'the older brothers' (order of listing only) | 'the first four listed' |
+
+## Changes in gloss.json (40 entries)
+
+| key | severity | what was wrong | what was done |
+|---|---|---|---|
+| na-da | major | 'to me, from me' — -da is the dative-locative (Ming 我行 'to me'); 'from' is unsupported | 'to me' |
+| bi | moderate | 'stem na- before case endings' misses min- (gen.) and nama- (acc.) used in the text | all three stems named |
+| jen, köġüdi | moderate | köġüdi called the (i) the reflexive's, jen called it the accusative; note U43 says accusative | both now: (i) read as the accusative, hedged |
+| γažari | moderate | called the (i) the reflexive's; U5 note admits it may be the accusative | both options stated |
+| quγuludqun | moderate | 'polite imperative -udqun' (see units 44, 46) | as in units |
+| ügüled, uqad-že | moderate | -d '2nd plural' vs 'they' | unified |
+| qori-tumad-un | moderate | 'of the Qori country' invented | removed |
+| köl-barγužin | moderate | 'Barguzin country', 'lake, valley' | removed |
+| alan-γoγ̇a | moderate | 'mother of the Mongol line' | removed |
+| tere | minor | 'she' pinned to the closing tere of §8 | 'he, she' stated as a general use |
+| köġün-beġen, eke-jüġen, abaγa-juγ̇an, köġüd-teġen, ideġe-ben, jen | minor | meaning pinned to one possessor ('his own', 'their own') in entries used for several (köġün-beġen: 'his' §14, 'my' §15) | 'own …; the possessor is the subject', with the line's person as 'here' |
+| barγudai-mergen, qorilartai-mergen, ariγ-usun | minor | 'here before the genitive / dative' pins the entry to one case | removed |
+| γažar-turi, jan | minor | 'in one's own land' put the next token's meaning on γažar-tur(i); jan 'left after γažar-tur(i)-jan' | meaning of the token itself; jan covers both stems |
+| ni | minor | 'here ökin-(n)i' | 'e.g.' |
+| γujužu, abuγsan | minor | '(a bride)', 'take as wife' as the stem's meaning | 'here' |
+| töreġülbi | minor | 'gave birth to' only | 'caused to be born: bore, begot' |
+| gežü | minor | 'ke-' beside keġe- elsewhere | keġe- |
+| abid | minor | stem abi as fact | inferred |
+| žaružu | minor | 'as a servant' not in 使着 | 'use (a person)' |
+| ečine | minor | 'out of sight' goes beyond 背處 | removed |
+| teġün-ü-ġei | minor | 'belonging to' stated without the doubt the note has | 'which I take as … uncertain' |
+| küṅsilemel | minor | gave 'winter-cured, preserved' as the meaning though the word is unknown | 'a word of unclear form; the Ming suggests …' |
+| jadaba | minor | 'lack the strength' not in 不能了 | 'lack, be in want; also be unable' |
+| maγ̇aliγ-bajaγ̇udai | minor | 'here' vs 'in §18' pinned to a line | stated for the word in general |
+| ejeten | minor | 'of one counsel' takes 'one' from nigen | counsel-having; 'united' with nigen |
+| erüge | trivial | 'smoke-hole' without the Ming's word | 天窗 'skylight' added |
+| teriġü | trivial | 'chief' not in 頭 | removed |
+| barγužin-γoγ̇ača | trivial | 'short form of -ača/-eče' asserted | stated as unexplained |
+| belgünütei, keremün | trivial | 'a gloss I cannot read' / 'grey-blue' | reworded; 靑鼠 'blue squirrel' |
+
+## Findings tested and refused
+- **§18 unit 37 'This mother of ours has none of our elder or younger brothers …'**: kept pass 1's reading. The doubled 'our' is awkward but one bidan-u governs either eke or aqa deġü …, and the Ming 咱的 does not choose; changing it would undo pass 1's reasoning. Listed as a doubt.
+- **Unit 49 (nama-ji … töreġülbi)**: 'born to me' kept; I find no better construal.
+- **ügei bolu- 'died' (units 14, 17, 65)**: kept; context makes it certain, only the note's wording in 14 was hedged.
+- **gežü lemma ge-**: kept as in pass 1 (doubt retained, now keġe- in the text).
+- **ögteġei, aisun, širolγada, oγ̇orba, ujaγaja, -su- in asaγasuγ̇asu**: no better analysis available; flags kept.
+- **Unit 52 (genitive chain simplified in i)** and **unit 54 ('went out … was crawling out')**: both admitted in the notes; kept.
+- **-teġen 'reflexive-possessive plural', ta 'plural, polite', qād 'contracted plural of qaγan'**: grammar I cannot test from the text beyond the Ming (每, 您); left as the drafter's, not strengthened.
+- **Burqan-Qaldun 'the holy mountain of the Mongols'** (in the shared known-form): outside this part's remit.
+
+## Counts
+units.json: 0 major · 12 moderate · 22 minor/trivial rows (35 morph strings and 17 `l`/`i`/`n` fields changed across the part; `i` in units 9, 56, 66; no `l` change). gloss.json: 40 of 311 entries changed (1 major, 8 moderate, 31 minor/trivial). Refused: 8 groups.
+
+## Remaining doubts
+1. §9 unit 8 (ežed): subject kept; the shared-subject alternative for keġen is now in the note.
+2. §18 unit 37: scope of bidan-u (mother or brothers).
+3. §20 unit 49: causative with two accusatives.
+4. Names in `l` (conventions vs pilot) — unchanged, for the owner.

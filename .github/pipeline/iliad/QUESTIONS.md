@@ -72,3 +72,5 @@ Packet and draft (`drafts/iliad-051/units.json`, 47 units, `new-renderings.md`) 
 - 2026-10-28 (iliad-095, 15.404): the closing ” of Patroclus's speech is missing on ἀγαθὴ δὲ παραίφασίς ἐστιν ἑταίρου, because the validator requires this unit to carry exactly iliad-070's English (no ”). Decided meanwhile: published as is. Owner may exempt closing quotation marks from the repeated-unit check, or add ” to iliad-070/-095.
 
 - 2026-10-31 (iliad-116, 18.39–46): the Nereid catalogue is unpunctuated in the pinned Perseus text and runs 8 lines, over the five-line unit cap. Decided meanwhile: added a comma after 18.41 and after 18.44 (not strictly README rule 5, which covers marks the edition prints; I could not check the printed page) and re-pinned iliad-116. Owner may revert and rule on a longer cap for catalogues.
+
+- 2026-10-31 (iliad-119, 18.317): the pinned text lacks a stop after ἑταίρου at the end of 317, so the unit could not end there. Decided meanwhile: added a comma (rule 5; the sense continues in the participial clause), re-pinned iliad-119. Not checked against a printed copy.

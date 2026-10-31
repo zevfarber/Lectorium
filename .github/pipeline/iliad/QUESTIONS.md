@@ -74,3 +74,5 @@ Packet and draft (`drafts/iliad-051/units.json`, 47 units, `new-renderings.md`) 
 - 2026-10-31 (iliad-116, 18.39–46): the Nereid catalogue is unpunctuated in the pinned Perseus text and runs 8 lines, over the five-line unit cap. Decided meanwhile: added a comma after 18.41 and after 18.44 (not strictly README rule 5, which covers marks the edition prints; I could not check the printed page) and re-pinned iliad-116. Owner may revert and rule on a longer cap for catalogues.
 
 - 2026-10-31 (iliad-119, 18.317): the pinned text lacks a stop after ἑταίρου at the end of 317, so the unit could not end there. Decided meanwhile: added a comma (rule 5; the sense continues in the participial clause), re-pinned iliad-119. Not checked against a printed copy.
+
+- 2026-10-31 (iliad-121): the last note of published iliad-120 (ln 507) says the description of the first city goes on in the next part; it does not (18.509 begins the second city). Not edited (published part). Owner may correct. Also: Ὠκεανός is "Oceanus" at 18.607 (table) but "Ocean" in iliad-120 at 18.489.

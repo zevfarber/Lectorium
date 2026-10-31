@@ -5988,3 +5988,15 @@ Reused unchanged (no new row): the published lines at 17.485 (iliad-028), 17.516
 | ὠκύμορος δή μοι τέκος ἔσσεαι (18.95) | "Swift-doomed you will be, my child" | "My child, you will be swift to your doom" | "short-lived" (μινυνθάδιος), "doomed to die"; follows ὠκύμορος "swift to your doom" (1.417) |
 | πότμος ἑτοῖμος (18.96) | "your doom is ready" | "your doom stands ready" | "fate" (reserved for μοῖρα), "death"; πότμος "doom" (4.170 row) |
 | ἦ τ’ ἐκέλευον (18.13) | "truly I was ordering" | "I did tell him" | "bade", "bid" (reserved for ἄνωγα); κελεύω "order/tell" |
+
+### iliad-117 (18.97–201)
+
+| βαθύκολποι / Δαρδανίδων βαθυκόλπων (18.122) | "deep-bosomed" | "deep-bosomed" | "deep-girdled" (βαθύζωνος), "full-breasted", "deep-robed"; κόλπος is the deep fold of the dress over the breast |
+| κυδρὴ παράκοιτις (Ἥρη, 18.184) | "the glorious consort" | "the glorious consort" | "august" (the first draft; it departed from the Odyssey’s Διὸς κυδρὴν παράκοιτιν "the glorious consort of Zeus", odyssey-056, and from the table’s κυδρός "glorious"), "splendid" (ἀγλαός), "honoured"; παράκοιτις keeps "consort" (iliad-021) |
+| τὸν δ’ αὖτε προσέειπε ποδήνεμος ὠκέα Ἶρις (18.183, 18.196) | "Him then in turn addressed wind-footed, swift Iris:" | "Then Iris, wind-footed and swift, spoke to him in turn:" | follows the Thetis row at 18.94 (τὸν δ’ αὖτε προσέειπε Θέτις) and the shipped ποδήνεμος ὠκέα Ἶρις ("wind-footed, swift" in `l`, "wind-footed and swift" in `i`) |
+| ἀνδροφόνοιο (Ἕκτορος) | "man-slaying" | "man-slaying" | as shipped (iliad-003); "murderous" |
+| Κρονίδης ὑψίζυγος (18.185) | "the son of Cronus, who sits on high" (`i`); "sitting on high" (`l`) | as shipped (iliad-022, iliad-041, iliad-069) | "high-throned" |
+| ἄχθος ἀρούρης (18.104) | "burden of the plough-land" | "burden on the plough-land" | Odyssey wording (odyssey-101); only the adjective ἐτώσιον "useless" is new here |
+| πόδες φέρον (18.148) | "her feet carried" | "her feet carried her" | "she walked", "she hastened" |
+| κῆρα (18.115, 18.117) | "death-fate" | "fated death" / "his death" | "death-spirit" (the first draft; the table keeps "death-spirits" for plural κῆρες and "death-fate" for singular κήρ, 3.32 and 3.360), "doom" (kept for πότμος), "fate" (μοῖρα, 18.119) |
+| αἰπὺν ὄλεθρον (18.129) | "steep destruction" | "steep destruction" | Odyssey table, unchanged ("sheer" is turned down) |

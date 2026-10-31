@@ -1119,3 +1119,7 @@ later night. Shared rule 7 in `.github/pipeline/README.md`: a problem never cost
 - The print has "الليلة التاسعة والستون" at both P444L19 and P446L18 (nights 69 twice; the second should be the 70th). Archived as printed; the night index may mis-number nights 70+ until the owner or a later run decides how to handle it. Night 71 label is at P448L11.
 - Passes on pp. 463–466 skipped the line crops again (as on 447–450); the adjudicator checked them. Pass 2 on Sonnet gave 34 disputes over 8 pages (under the 10-a-page limit).
 - Doubtful verse marks on P448 L18–21 (hamza ticks, sukun over final ي) kept as the adjudicator read them, low confidence.
+
+## 2026-10-31 (publishing run, night 69)
+- Night 70 (P446L18–P448L10) is still held by the ordinal MISMATCH (print repeats "التاسعة والستون" at P446L18; the index reads it as night 69). The next firing's `--next` will therefore refuse or print a mismatch, and the run will transcribe instead; publishing past it waits until the index is taught to accept the repeated label for night 70 (that edit is to tools/, which a run may do under the nights folder). Nothing waits on the owner; not changed in this run.
+- Night 69 content: P445L16 اِختي kept as printed (kasra on alif); P445L17 الآ; "لامراراده" and "ومد" read tentatively and flagged in the notes.

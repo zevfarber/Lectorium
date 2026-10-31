@@ -187,6 +187,9 @@ def find_markers(lines):
     return deduped
 
 
+PRINTED_AS = {70: 69}   # night -> wrong ordinal the print carries (accepted, 2026-10-31)
+
+
 def build():
     lines = load_lines()
     if not lines:
@@ -213,6 +216,9 @@ def build():
         end_idx = markers[n][0] - 1 if n < len(markers) else len(lines) - 1
         count = end_idx - idx + 1
         number = ordinal_number(ordinal)
+        # Known printer's error: the edition prints night 70 as "the 69th" (P446L18).
+        if n in PRINTED_AS and number == PRINTED_AS[n]:
+            number = n
         complete = n < len(markers)
         ok = number == n and (not complete or count <= MAX_NIGHT_LINES)
         nt = {

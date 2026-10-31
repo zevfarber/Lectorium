@@ -166,6 +166,7 @@ repository is the state, never this table. Run it rather than trusting what is w
 | Night 67 | P441L20–P443L11 | published 2026-10-30, 25 sense units (no verse), 1 slice drafted by the orchestrator (check_slice PASS after hamza repair); damaged الم—ياح kept with its dash; +70 glossary entries, existing keys kept |
 | Night 68 | P443L12–P444L18 | published 2026-10-31, 22 sense units (1 verse block, copied as printed), 1 slice drafted by the orchestrator (check_slice PASS after hamza repair, 46 words); +48 glossary entries, existing keys kept; سائت and عليم الرقاد kept as printed and noted; damaged الم—ب—اح kept |
 | Night 69 | P444L19–P446L17 | published 2026-10-31, 24 sense units (no verse), 1 slice drafted by the orchestrator (check_slice PASS after --fix, hamza 79 and spacing; ي/ى and ه/ة forms and run-together words restored by hand to match the print); +90 glossary entries, existing keys kept; لامراراده, ومد, فصل flagged in n |
+| Night 70 | P446L18–P448L10 | published 2026-10-31, 17 sense units (no verse), 1 slice drafted by the orchestrator (check_slice PASS after --fix + hand-restored ي/ى, آامن, اى, run-together words); +57 glossary entries, existing keys kept; print numbers it “69” again — nights_index.py now accepts that (PRINTED_AS) |
 
 A night runs 84–224 archived lines (about 5½ printed pages), so eight transcribed pages yield
 roughly one and a half nights. Eight units are waiting as of 2026-09-18, so the next several

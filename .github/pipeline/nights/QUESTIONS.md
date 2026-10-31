@@ -1123,3 +1123,7 @@ later night. Shared rule 7 in `.github/pipeline/README.md`: a problem never cost
 ## 2026-10-31 (publishing run, night 69)
 - Night 70 (P446L18–P448L10) is still held by the ordinal MISMATCH (print repeats "التاسعة والستون" at P446L18; the index reads it as night 69). The next firing's `--next` will therefore refuse or print a mismatch, and the run will transcribe instead; publishing past it waits until the index is taught to accept the repeated label for night 70 (that edit is to tools/, which a run may do under the nights folder). Nothing waits on the owner; not changed in this run.
 - Night 69 content: P445L16 اِختي kept as printed (kasra on alif); P445L17 الآ; "لامراراده" and "ومد" read tentatively and flagged in the notes.
+
+## 2026-10-31 (publishing run, night 70)
+- The held MISMATCH at night 70 is resolved: `tools/nights_index.py` has a `PRINTED_AS = {70: 69}` table accepting the print's repeated “69th” label for that night only; `--next` now offers night 70 and the table shows ordinal_ok. Night 70 published with a note in `n` on the repeated label. Night 71 (P448L11) is still an unread tail; later nights are unaffected.
+- Night 70 doubtful readings: P448L05 كذلك ان اتعب (obscure, probably a dropped particle; read tentatively), P447L14 محلمة (probably محملة), P447L19 ما بقي لي هنا تعود (loose). Kept as printed.

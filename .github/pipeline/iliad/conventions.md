@@ -6090,3 +6090,35 @@ Reused unchanged (no new row): the published lines at 17.485 (iliad-028), 17.516
 | κέκλετο δ’ Ἥφαιστον κλυτοτέχνην εἶπέ τε μῦθον (18.391, whole-line speech introduction) | "And she called on Hephaestus, famous in craft, and spoke a word:" | "She called on Hephaestus, famous in craft, and spoke to him:" | "called to", "gave orders to" (the table’s rendering where the speaker commands; Charis does not command); "called on" as the table’s κέκλετ’ Ὀδυσσεύς (11.312) |
 | ὣς ἄρα φωνήσασα πρόσω ἄγε δῖα θεάων (18.388, whole line) | "So then, having spoken, she led her forward, heavenly-one of goddesses." | "With these words she led her forward, heavenly even among goddesses." | "she spoke and led"; follows the table’s ὣς ἄρα φωνήσασα λίπε σπέος (18.65) and δῖα θεάων; the epithet belongs to Charis, not Thetis |
 | ἔν τ’ ἄρα οἱ φῦ χειρὶ … (female subject, female object, 18.384) | "And she clasped her by the hand, and spoke a word, and called her by name:" | "she took her hand, and spoke, calling her by name:" | "him" (the published 6.253 rendering, male object); table’s 6.253 and 6.485 rows give the pronoun by sex; merged with 382–383 into one unit so that the validator’s identical-unit rule does not force "him" |
+| ἀκμόθετον (18.410, 18.476) | "anvil-block" | "anvil-block" | "anvil-stand", "anvil-base", "the anvil" (kept for ἄκμων, 18.476); ἄκμων + τίθημι, the block the anvil is set on |
+| πέλωρ αἴητον (18.410, of Hephaestus; meaning of αἴητος not known) | "the monster, huge" | "the huge monster" (+ note: meaning not known; ancient gloss "huge", also guessed "panting") | "panting" (silently picks the other guess), "giant", "colossus"; πέλωρ keeps the table’s "monster" (δεινὸν πέλωρ, 10.168) |
+| χωλεύων (18.411, 18.417) | "limping" | "limping" | "hobbling", "lame" (kept for χωλός, 18.397) |
+| ῥώοντο (18.411, 18.417) | "moved nimbly" | "moved nimbly" | "rushed", "darted", "bustled" (kept for ποιπνύω); the same verb in both lines, of the god’s legs and of the handmaids under him |
+| ἔρρων (18.421, of the lame god moving) | "going painfully" | "made his painful way" | "wretchedly" (the table’s 8.239 rendering, where ἔρρω is a curse-word of ill fortune; here it describes the limping walk), "hobbling", "staggering" |
+| ἐκ … ἀλλάων ἁλιάων (18.432) | "out of the other women of the sea" | "out of all the other women of the sea" | "sea-nymphs", "Nereids" (names what the Greek leaves unnamed), "sea-goddesses"; follows ἀθανάτῃς ἁλίῃσι "the immortal women of the sea" (18.86) |
+| Αἰακίδῃ Πηλῆϊ (18.433) | "the descendant of Aeacus, Peleus" | "Peleus, descendant of Aeacus" | "son of Aeacus" (the table keeps Αἰακίδης "descendant of Aeacus"; the note says Peleus is Aeacus’ son) |
+| ἀρημένος (18.435) | "worn down" | "worn out" (+ note: uncertain derivation) | Odyssey table row ἀρημένον (23.283), unchanged |
+| μόρος αἰνός (18.465) | "fearsome doom" | "fearsome doom" | "dread" (reserved for δεινός), "terrible", "evil fate"; μόρος "doom" as in ὠκύμορος "swift-doomed", αἰνός "fearsome" as in αἰνὰ πέλωρα (10.219) |
+| χόανοι (18.470) | "crucibles" | "crucibles" | "melting-pots", "furnaces", "moulds"; χέω "pour" |
+| εὔπρηστος ἀϋτμή (18.471) | "well-kindling blast" | "blast to kindle the fire" | "well-blown", "fiery breath", "hot blast"; πρήθω "blow up (a fire)", ἀϋτμή "breath, blast" |
+| ῥαιστήρ (18.477) | "hammer" | "hammer" | "sledge", "mallet"; the note gives the root ῥαίω "shatter" |
+| πυράγρη (18.477) | "fire-tongs" | "fire-tongs" | "tongs" alone in `l`; follows the Odyssey’s πυράγρη (3.434) |
+| τρίπλαξ μαρμαρέη (ἄντυξ, 18.480) | "threefold, gleaming" | "threefold and gleaming" | "triple", "marble", "glittering"; μαρμάρεος as μαρμαίρω "gleam" (16.279) |
+| πτύχες (σάκεος, 18.481) | "folds" | "layers" | "plates", "ply"; the table’s πτύχες "folds" (of a mountain, 19.432) kept in `l` |
+| τείρεα (18.485) | "constellations" | "constellations" | "signs", "wonders", "stars" alone |
+| ἐστεφάνωται (οὐρανός, 18.485) | "is wreathed" | "is wreathed" | "is crowned", "is ringed", "is studded"; follows the shipped ἐστεφάνωται "is wreathed" (5.739, iliad-034; Odyssey 10.195) |
+| τὸ σθένος Ὠρίωνος (18.486) | "the strength of Orion" | "the strength of Orion" | "mighty Orion" ("mighty" is reserved for ἴφθιμος), "the might of Orion" ("might" kept for μένος) |
+| Πληϊάδες · Ὑάδες (18.486) | "the Pleiades" · "the Hyades" | same | — |
+| ὑμέναιος (18.493) | "wedding-song" | "wedding-song" | "hymen", "bridal hymn", "marriage-cry" |
+| ὀρχηστῆρες (18.494) | "dancers" | "in the dance" | "tumblers"; the table’s ὀρχηστής "dancer" (16.617) |
+| αὐλοὶ φόρμιγγές τε βοὴν ἔχον (18.495) | "pipes and lyres kept up their sound" | "pipes and lyres kept up their sound" | "flutes" (the αὐλός is a reed pipe), "harps", "shouted", "rang out" |
+| ἀγορή (of the place, εἰν ἀγορῇ, 18.497) | "the assembly-place" | "the place of assembly" | "market-place", "square", "forum"; "assembly" stays for the meeting |
+| εὔχετο … ἀποδοῦναι (18.499) | "was vowing to pay back" | "vowed to pay back" (+ note: also read "claimed to have paid") | "claimed", "boasted" (each a reading; the note gives the other), "promised" |
+| ἀναίνετο (18.500) · ἠναίνετο (18.450) | "was rejecting" · "rejected" | "rejected the offer" · "rejected their plea" | "refused" (kept for ἀποείπῃ, as the table’s 11.647 row says), "denied" (the other reading of 500, given in the note); the table’s ἀναίνομαι "reject" |
+| ἐπὶ ἴστορι (18.501) | "before an arbiter" | "before an arbiter" (+ note: "one who knows") | "witness", "judge" (δικάζω, 506, is the elders’ act), "umpire" |
+| πεῖραρ ἑλέσθαι (18.501) | "to take an end" | "to have the matter settled" | "to win the case", "to get a verdict"; the table’s πεῖραρ "cord" (13.358) is another sense |
+| ἐπήπυον · ἀμφὶς ἀρωγοί (18.502) | "were shouting applause" · "on either side helpers" | "were cheering" · "taking sides as supporters of each" | "were clamouring", "partisans" |
+| ἱερῷ ἐνὶ κύκλῳ (18.504) | "in a sacred circle" | "in a sacred circle" | "holy ring", "hallowed circle" |
+| κηρύκων … ἠεροφώνων (18.505; meaning of ἠερόφωνος uncertain) | "of the air-voiced heralds" | "from the loud-voiced heralds" (+ note: formation ἀήρ + φωνή; usual gloss "loud-voiced") | "clear-voiced" (kept for λιγύφθογγος), "far-calling", "mist-voiced" |
+| ἀμοιβηδίς (18.506) | "in turn" | "in turn" | "alternately", "each in his turn" |
+| δίκην ἰθύντατα εἴποι (18.508) | "should speak justice most straightly" | "should speak justice most straightly" | "judge most fairly", "give the straightest verdict"; δίκη keeps the table’s "justice" (16.388) |

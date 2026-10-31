@@ -141,3 +141,85 @@ Format: unit · field · severity · what was wrong · what was done. Word indic
 - #49/#52 the stem of *meden*; #59–#68 *ilerün / iležüġü* (send or go) and the unexplained -d- of *kesedkün / soridqun*; #72 *qatud*.
 - #6 Žeġüredei-ji 'with'.
 - Pass 2: the glossary entries for the new forms must carry the same hedges (teriġü / teriġüten, -ġün, -tan after a name, -ġer, ile- with the published *ilebe*), and `sünid` and `ile-` need broadening checks.
+
+
+# Review, pass 2 — secret-history-043-054 (§§43–54)
+
+Reviewer: adversarial pass 2, on `units.json` (second look) and `gloss.json` (first check). Read: conventions, runbooks, `../run3/RUNBOOK.md` §2, the packet, novel/known forms, pass 1, the shared glossary, the pilot and published parts as references, and `hooks.py` / `r3lib.py` for the build's token and `__broaden__` handling. No modern translation opened or recalled. Edits by script, in place; no `t`, word order or count, `p`, schema key, `titleEn` or `part` changed. Build and publish not run; no other file touched.
+
+## Totals
+
+| severity | changes |
+|---|---|
+| major | 0 |
+| moderate | 2 |
+| minor | 20 |
+| trivial | 6 |
+| **all** | **28** |
+
+## What was checked
+
+- **Key coverage, by script against the build's own derivation** (`r3lib.tokens` over every `t`, and `hooks.forms`): 269 reader tokens; 194 are not in the shared glossary and all 194 have an entry in `gloss.json`; none is unused. Every `__broaden__` key except `ilebe` is a token of this part and its old entry in the shared glossary is a prefix of the new text (old entry whole + " · " + new reading).
+- **How the build treats `__broaden__`** (`hooks.assemble`): `gloss.pop('__broaden__')` is then applied with `G['glossary'].update(broaden)` for any key, with no check that the key is a token of the part and no check that it extends the old entry. A broaden key outside the part's tokens would therefore be written into the shared glossary as an unused entry (the "no unused keys" rule), and would overwrite a published entry. New entries are added only if the key is not already in the glossary (`k not in G['glossary']`), so a new entry can never overwrite an old one: broadening must go under `__broaden__`.
+- **Ming brackets**: the bracket of every gloss entry equals the packet's Ming gloss for that token (VS16 and spaces ignored) in at least one occurrence; every morph bracket re-checked against the word's Ming (the split into per-morph pieces is the convention).
+- **Names**: the English spelling of every name entry occurs in the `i` of the units that use it (ž→j, č→ch, ṅ→ng, γ̇→', j→y as in pass 1).
+- **Lemmas**: every entry's lemma compared with the morph lemmas of the word that uses it (three differences, all fine: `nojansiγ` is a hedged one-piece entry for nojan + -siγ; `qulan` and `baγ̇atur-un` are the two tokens of the one printed word `Qulan- Baγ̇atur-un`, which WORD_RE splits at the space).
+- **Known entries against this part's use** (all 75 known tokens): all cover the use except those broadened or added below; `ideġen-e` ('for food' against 'at food', Ming 行 against 處) is covered by 'dative-locative' and left alone.
+- Units: every grammatical label in every note and morph re-read against the form and the Ming, `l` against the words, `l` ↔ `i`, remembered English, and consistency of lemmas (bolu- in boluba, bol- in bolba/bolγažu, as the published glossary has them). Pass 1's edits hold; the only things left were over-firm statements and one wrong count.
+
+## Changes
+
+Format: unit or key · field · severity · what was wrong · what was done.
+
+### units.json
+
+- #3 · n · **minor** · 'Žeġüredei is the root of the clan name Žeġüreid' stated as fact; the entry for Žeġüreid (and #8) calls the link a guess · 'seems to be … a likeness only'
+- #8 · n · **minor** · 'Žeġüreid is Žeġüredei's name with the plural -d' stated as fact, against the morph ('evidently') and the glossary ('a guess') · 'looks like … (a guess)'
+- #11 · n · **minor** · 'Five of the seven names begin Qači-': Qačula begins Qaču-; all five begin Qač- · 'Qač-'
+- #30 · n · **minor** · the argument is unsound: that Ambaγai is Seṅgün-Bilge's son (§52) does not 'explain the plural' of -tan; it fits the possessive reading · rewritten: it fits the possessive reading at least as well; the Ming's 每 is the only evidence for the plural
+- #30 · n · **trivial** · 'Taičiγ̇ud is formed with the plural -d' stated as fact · 'seems to be formed'
+- #52 · n · **minor** · 'whom §47 named as Ambaγai-tan, "and his lot"' takes one of the two readings of -tan (see #30) as settled · both readings named
+- #57 · n · **trivial** · 'two labels for one people' stated as fact; it is the drafter's apposition reading · 'two labels that I take for one people'
+- #59 · n · **minor** · 'the clan grew from the man' (Besütei) stated as fact; the Ming says only 姓氏(名) here and 兒名 in §47 · 'the clan name seems to come from the man'
+- #74 · n · **minor** · uduridču 'with the d of the stem' contradicts the morph (and the shared entry) that say the d is unexplained · 'whose d is unexplained (the same d as in nereidčü)'
+
+### gloss.json: new entries
+
+- `altan` · meaning · **moderate** · entry says only 'a son's name (altan 'gold')', but the same token is the title in Altan Qaγan (#58, Ming 金 'Jin'), which the entry did not cover (the key is shared and the entry is general) · lemma altan 'gold', son's name, and the Jin emperor's title, bracket [(兒)名; 金] (both occurrences' Ming)
+- `barim-siġiratu-qabiči` · meaning · **minor** · 'later Qabiči alone' pins the entry to the next line · removed
+- `žeġüredei` · meaning · **minor** · 'the root of the clan name Žeġüreid' as fact, while `žeġüreid` says 'a guess' · 'perhaps the root'
+- `aṅqa` · meaning · **minor** · 'aṅqa jeke in-ü read as "his eldest"' pins the entry to one line · removed (the note of #37 keeps the reading)
+- `budaγ̇ad` · grammar · **minor** · 'with plural -d' asserted; the Ming has no 每, the unit morph does not analyse the word, and 'the drafter's guess' is a process word in a reader-facing file · 'the ending -d is probably the plural; … only a guess'
+- `taičiγ̇ud`, `airiγ̇ud`, `biruγ̇ud`, `olqunuγ̇ud` · grammar · **minor** (4 entries) · 'with plural -d' asserted for four clan/people names that the Ming glosses 種姓(名) / 一種(名) with no 每, and whose unit morphs are unanalysed · 'the ending -d is probably the plural, which the Ming does not mark'
+- `kesedkün` · meaning · **minor** · stem kese- given as dictionary form with only the ending hedged; the stem is no more certain than the -d- · 'the stem is a guess from the Ming'
+- `inže`, `hüdežü`, `eġüsgežü` · wording · **trivial** (3 entries) · 'the drafter's word/sense/reading' is a process phrase; no published entry uses it · 'our word' / 'a reading from the context' / 'a reading'
+- `ökini` · wording · **trivial** · 'the (i) is Shiratori's accusative' says the print has an accusative; it is a bracketed vowel read as one · reworded
+
+### gloss.json: `__broaden__`
+
+- `ilebe` · key · **moderate** · not a token of this part (it is the published form; this part has ilerün, iležüġü), so the build would add it to the shared glossary as an unused entry and overwrite the published entry with part-specific text about two other words · dropped. The `ile-` information is carried where it is valid: the entries `ilerün` and `iležüġü` (new, in this part's tokens) both give 'ile- — to send (as in ilebe, Ming 敎去了)' with the 'go' alternative; the published `ilebe` stays as it is.
+- `nu` · added · **minor** · the shared entry says 'the n appears after a vowel-final stem', but this part prints (n)u after stems that already end in n (Menen-Tudun, Qačin, Qaγan, Onan: 8 printed forms in all), which that entry does not cover · broadened: old entry whole + ' · also printed after stems that already end in n …'
+- `nü` · reading · **minor** · the broadening mentioned only the back-vowel names; Tumbinai-Sečen-(n)ü also follows an n-final stem · added
+- `köġün` · reading · **minor** · 'also a collective' stated as the form's meaning; it is the drafter's reading of #11 · 'also read as a collective … the plural köġüd is the usual form'
+- `sünid` · grammar · **minor** · 'with plural -d' for the clan name asserted · 'perhaps the same word with the plural -d, but not the "nights"'
+
+(`aba`, `jan`, `jen` checked and kept as the glosser wrote them: each is old entry whole + new reading, the readings match the units, and the Ming brackets are the old entries'.)
+
+## Findings refused
+
+- **`-tan` after a name (`ambaγai-tan`)**: entry keeps both readings (plural / possessive) as the glosser wrote them; nothing in the sources decides.
+- **`baruγ` 'fierce, mighty, brave'**: kept; 'fierce' is the Ming's 猛, and the unit note and the entry both mark the link to Barula as unproved.
+- **`tatažu`, 'no other source known here for tata- with this sense'**: kept; it is a hedge, not a line-pin.
+- **`qulan`, `baγ̇atur-un`**: the parenthesis about the printed space after the hyphen is specific to one line, but the two tokens exist only because of it, and the readers' split would otherwise be unexplained; kept.
+- **`žeġüredei-ji` 'with is a guess'**, **`ġer` 'have the envoy go' possible**, **`ilerün` / `iležüġü` 'go' alternative**, **`qatud`**, **`teriġüten`**, **`adaluγči`**, **`qaṅγas`**, **`šibaγ̇ulan`**, **`öngeižü`**, **`qaγ̇lžu`**, **`tün-dür`**: all hedges as in pass 1 are preserved and consistent with the units; left.
+- **`ġer` bracket [使臣行 敎]** is the Ming of the whole word elčin(i)-ġer, as `jan`/`jen` use the whole-word bracket; left.
+- **`ideġen-e` broaden** ('for food' / 'at food'; 處 / 行): declined, see above.
+- **No `l` or `i` change in pass 2.** Nothing in `l`/`i` was wrong after pass 1; the over-firm places were all in notes.
+
+## Remaining doubts (for the owner)
+
+- The sense of **Ambaγai-tan** (#30): plural 'and his company' (kept in i) or possessive 'Seṅgün-Bilge, having Ambaγai'; the second suits §52 as well or better.
+- **Who** drives out and enrols Jegüredei and what the object is (#8); **teriġüten**, **adaluγči** and the 'reason' readings in §46; the stem of **meden**; **ilerün / iležüġü** (send or go); the **-d-** of kesedkün / soridqun / nereidčü / uduridču.
+- **qatud** (#72): 'was a lady' reads a plural form as a single woman.
+- The **ġ-in-names rule** (all spelled g) is still the reviewer's, not the owner's.
+- The pilot-style glossary does not mark which brackets are whole-word Ming glosses and which are per-morph pieces; nothing here depends on it.

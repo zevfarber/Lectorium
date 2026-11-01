@@ -144,12 +144,19 @@ def fidel_text(t):
 OPTIONS = [  # option key, label, candidate voices, how the text is sent
     ("A", "Amharic voice, Ge'ez letters as printed (traditional church sound)",
      ["am-ET-Wavenet-B", "am-ET-Wavenet-A", "am-ET-Standard-B", "am-ET-Standard-A"], "fidel"),
+    ("A2", "Amharic voice, Ge'ez letters as printed, slower",
+     ["am-ET-Wavenet-B", "am-ET-Wavenet-A", "am-ET-Standard-B", "am-ET-Standard-A"], "fidel"),
+    ("A3", "Amharic voice, Ge'ez letters as printed, slowest",
+     ["am-ET-Wavenet-B", "am-ET-Wavenet-A", "am-ET-Standard-B", "am-ET-Standard-A"], "fidel"),
     ("B", "Arabic voice, text in Arabic letters (reconstructed sound)",
      ["ar-XA-Wavenet-B", "ar-XA-Wavenet-C", "ar-XA-Wavenet-A"], "arabic"),
     ("C", "German voice, exact sounds (as Akkadian, Greek and Latin)",
      ["de-DE-Neural2-D", "de-DE-Wavenet-B"], "de"),
     ("D", "American English voice, exact sounds (as Beowulf)", ["en-US-Neural2-D"], "en"),
 ]
+
+
+RATES = {"A2": 0.7, "A3": 0.55}  # 2026-11-01: Zev found A good but a little fast; others stay at 0.85
 
 
 def make_input(line, how):
@@ -170,7 +177,7 @@ def main():
     done = []
     for opt, label, cands, how in OPTIONS:
         for voice in cands:
-            cfg = {"lang": "-".join(voice.split("-")[:2]), "voice": voice, "rate": 0.85}
+            cfg = {"lang": "-".join(voice.split("-")[:2]), "voice": voice, "rate": RATES.get(opt, 0.85)}
             try:
                 clips = [synth_input(make_input(ln, how), cfg, key) for ln in LINES]
             except Exception as e:  # noqa: BLE001

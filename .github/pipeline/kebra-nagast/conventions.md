@@ -49,9 +49,7 @@ mechanical; translations are fresh. The owner reads some Geʿez (2026-10-11) but
 check (his ruling, 2026-10-11).
 
 ## Pronunciation and audio
-`langCode: null`. The pronunciation convention (traditional Ethiopian liturgical vs reconstructed Geʿez) and
-the voice are NOT yet chosen by the owner; parts publish without audio until he chooses (Run 3 setup,
-2026-10-12). Do not build audio.
+`langCode: null`. Pronunciation (Zev, 2026-11-01, by ear from audio-pilot/geez.html, Option A2): the traditional Ethiopian church reading — the Amharic voice am-ET-Wavenet-B reads the Ethiopic letters as printed, rate 0.7 (build_audio.py LANGUAGE_VOICES). The throat letters (ሀ ሐ ኀ, አ ዐ) and the pairs ሰ/ሠ, ጸ/ፀ sound alike. Audio is built by the shared audio job like every other text; runs do not build it themselves. Every part's source line states the convention.
 
 ## Decisions taken while setting up Run 3 (2026-10-12)
 - Parts: chapters 2–117 and the colophon; short chapters grouped to ~300–600 words, a chapter over 650 words

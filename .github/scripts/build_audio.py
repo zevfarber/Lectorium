@@ -28,7 +28,7 @@ Spoken layer and word clips (added 2026-09-10 for Perrault's 1697 text):
 Usage: python3 build_audio.py <story-id>
 Env:   GOOGLE_TTS_KEY  (Google Cloud TTS API key, from Actions secret)
 """
-import base64, json, os, subprocess, sys, time, urllib.request, urllib.error
+import base64, json, os, re, subprocess, sys, time, urllib.request, urllib.error
 
 VOICES = {
     "de-DE": {"name": "de-DE-Chirp-HD-F", "lang": "de-DE", "espeak": "de"},
@@ -54,11 +54,23 @@ VOICES = {
 # espeak's Hindi voice, which reads the Devanagari of the page.
 LANGUAGE_VOICES = {
     "Sanskrit": {"name": "kn-IN-Wavenet-B", "lang": "kn-IN", "espeak": "hi", "script": "knda", "rate": 0.8},
+    # Geʿez (Kebra Nagast; Zev, 2026-11-01, by ear from audio-pilot/geez.html, Option A2): the Amharic
+    # voice reading the Ethiopic letters as printed, i.e. the traditional Ethiopian church pronunciation,
+    # at the slower rate he chose (0.7). Only the punctuation is changed ("ethi"): the word divider ፡
+    # becomes a space and the stops become commas and full stops. Alignment uses espeak's Amharic voice.
+    "Ge'ez (Classical Ethiopic)": {"name": "am-ET-Wavenet-B", "lang": "am-ET", "espeak": "am",
+                                   "script": "ethi", "rate": 0.7},
 }
 
 
 def to_script(text, script):
-    """Devanagari -> Kannada, letter for letter (the two Unicode blocks are laid out in parallel)."""
+    """Devanagari -> Kannada, letter for letter (the two Unicode blocks are laid out in parallel).
+    "ethi": Geʿez punctuation only — the word divider becomes a space, the stops commas and full stops."""
+    if script == "ethi":
+        for a, b in (("፡", " "), ("፣", ","), ("፤", ","), ("፥", ","), ("፦", ":"), ("።", "."), ("፨", ".")):
+            text = text.replace(a, b)
+        text = re.sub(r"\s+([,.:])", r"\1", re.sub(r"\s+", " ", text))
+        return text.strip()
     if script != "knda":
         return text
     return "".join(chr(ord(c) + 0x380) if 0x0901 <= ord(c) <= 0x094D or 0x0966 <= ord(c) <= 0x096F else c

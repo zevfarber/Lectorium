@@ -46,3 +46,42 @@ Counts of changes by severity (one per unit and field group): major 0 · moderat
 - Unit 2 note "here 'your own' because it follows the imperative": odd phrasing, sense correct (reflexive refers to the addressee). Left.
 - Remembered English: no other i matched a phrasing I could identify as a recalled translation; this cannot be verified without opening translations, which the conventions forbid.
 - Word coverage, t exactness, p:true: no findings.
+
+# Pass 2 (units and gloss) — secret-history-087-092
+
+Method: every Ming bracket in every morph gloss compared by script with the packet's gloss for that word (447 words, all match); all 273 reader tokens of `t` (via `r3lib.tokens`) checked against gloss.json, novel-forms.json and the glossary (every token covered, no extra keys, no extra novel keys); every gloss.json entry read against the form, the Ming gloss, the unit's morph and the published house renderings; the 6 `__broaden__` entries checked as old entry whole + ' · ' + new reading (all six start with the glossary's current entry) and for need; the known entries read against how this part uses the words. units.json and gloss.json edited in place by script (pass-1 copies kept outside the repo).
+
+## Changes
+
+| unit / entry · field | severity | what was wrong | what was done |
+|---|---|---|---|
+| unit 63 (§92 Bi ülü abqu) · morph word 439 (boluγsan) and n | moderate | Pass 1 made it bol- + -uγsan, but the shared glossary's existing boluγsan entry (and published parts 007-023 and 043-054) read bolu- + -γsan, and every published -γsan word uses the suffix -γsan (abuγsan, aldaγsan, boluγsan-a). The word-level morph and the token-level glossary entry now said different things. The glossary cannot be edited except by broadening. | Morph back to bolu- + -γsan (as the glossary and the published parts); n adjusted. bol- remains at bolqu (word 443), as the glossary has it. |
+| unit 20 (§90 kēġesü) · morph word 135 and n | minor | Suffix given as -ġesü; the glossary entry for kēġesü and published parts 064-073, 074-079, 080-086 all read keġe- + conditional -sü (written kēġesü). | Suffix now -sü, "conditional converb: when, if (written kēġesü, the stem vowel and ending run together; Ming 說呵)"; n adjusted. |
+| unit 23 (§90 Temüžin ... Ta ülü čidaqu) · n | moderate | Note said ta is "courteous to the older Belgütei": nothing in the text or the Ming says Belgütei is older, and the two brothers have just spoken in turn, so the plural may simply answer both. An unsupported statement. | Now "may be Temüžin answering both Belgütei and Qasar, or simply courteous; the text does not say which." |
+| unit 45 (§91 Nigen čaγaγ̇an moritu) · n | trivial | "possessive -tü" for the form moritu, which is -tu (back vowel). | "-tu (back-vowel form of -tü)". |
+| gloss · qoṅγor-i | minor | Ming bracket [甘草黃馬(行)] with 黃; the packet, novel-forms and the unit morph have 黄 (the edition's own variant). | Bracket copied from novel-forms: [甘草黄馬(行)]. |
+| gloss · muṅtanižu, muṅ | trivial | Ming bracket lacked the U+FE00 selector that the packet and novel-forms carry on 難. | Brackets copied from novel-forms. |
+| gloss · önžē-ü | moderate | Entry began "windfall, extra goods", which re-introduces the ready-made English term that pass 1 removed from the unit's morph, l, i and n (Ming 外財 is "outside wealth"); no grammar tail for the genitive. | "extra goods, outside wealth (noun; sense uncertain, Ming 外財); genitive -ü (noun + case; the genitive is uncertain)". |
+| gloss · qarbulaldusu | trivial | "'let me shoot at one another'" is not English and disagrees with l ("let-me-trade-shots") and the morph. | "'let me trade shots'". |
+| gloss · boldažu | trivial | No grammar label for -žu, no gloss for the converb. | Added "converb -žu, 'being made …' (verb, passive converb)". |
+| __broaden__ · ba | trivial | New reading repeated "and", which the entry already has. | Now "also 'also, even' after a word (Ming 也), as in ger-tür(i)-jen ba ülü odun". Still needed: the glossary has only "and, both" and "we". |
+| __broaden__ · qojar (new) | moderate | The existing entry says qojar "follows the pair it counts"; here (units 5, 22) it stands before the thing counted, qojar sumu (Ming 兩隻), as the unit 5 note says. The reader would meet a glossary statement the text contradicts. | Added broaden: old entry whole + " · also before the thing counted: qojar sumu, 'two arrows' (Ming 兩隻 'two (arrows)')". |
+
+Counts of changes by severity (pass 2): major 0 · moderate 4 · minor 2 · trivial 5 · total 11 (4 units, 7 gloss items).
+
+## Checked and kept (no change)
+
+- The other five `__broaden__` entries (köġün, manaγar, oro, bürün, bolγažu): each is the old entry whole + ' · ' + a reading the old entry lacks and these units use (köġün 'lad' / Ming 後生; manaγar with Ming 淸 / 淸早; oro- 'enter'; bürün after či with Ming 呵; bolγažu 'cooked through' with Ming 煮熟着). All needed.
+- Candidate broadens declined as not needed: hüldežü ("chase, overtake" already covers Ming 趕 'drive'); γarba ("go out, go up" covers 出來了); tedüi, tere, erte, qoitu, jakin (existing readings cover the use; only the Ming wording differs).
+- oduγsan-u: od- + -uγsan (unit 0) beside bolu- + -γsan (unit 63) is not uniform, but the glossary and published parts fix the second; od- has no published precedent and -uγad / -uγsan are transparent. Left; a future parts list may want one spelling.
+- Unit 3 i "ewes' milk" for Ming 喫二母乳的羔兒 (l says "mothers'"): natural English for a lamb; left.
+- qoṅγor "bay or dun" and qulaγčin "dun" overlap in English (both Ming 甘草黃(馬)); the entries say "uncertain colour" and both stay; no better reading from the Ming alone.
+- Unit 36 n "the Boγ̇orču who will serve Temüžin for the rest of the work": knowledge of the later text, harmless; left.
+- Entries' lemmas against morph (all 141): lemmas agree with the morph lemmas apart from the deliberate token-level headwords (qulaγčin for qulaγči, kürijen for kürijien-ü, mori for moritu).
+- No l ↔ i, word-coverage, t-exactness or p:true problems found beyond pass 1.
+
+## Build and validate
+
+`python3 ../run3/r3.py build secret-history secret-history-087-092` → `BUILT secret-history-087-092: 64 units → secret-history-087-092.json`
+`python3 ../run3/r3.py validate secret-history secret-history-087-092` → `PASS`
+(Build also touched /home/user/Lectorium/secret-history-glossary.json and stories.json; publish was not run and nothing was committed.)

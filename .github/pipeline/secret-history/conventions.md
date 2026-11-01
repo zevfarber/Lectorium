@@ -52,3 +52,7 @@ publish without audio until the owner chooses. Do not build audio.
 - Parts: whole sections in order, grouped to about 300–520 words; a section longer than that is its own part
   (66 parts; see plan.md). New part ids use three-digit § numbers (secret-history-007-010).
 - `p: true` on the first unit of every § (the conventions' rule; the pilot omitted it once, at §3).
+
+## House renderings added by 109-114
+- qād → "sovereigns"; qutuγ eġede → "door-frame of his fortune"; tedüi after a genitive → "no bigger than".
+- Names in `i`: Barqujin, Yeke-Chiledü, Chilger-Bökö, Küchü, Buqura, Lady Üjin, Mother Etügen; Qaldun-Burqan (printed reversed once) → "Burqan Qaldun".

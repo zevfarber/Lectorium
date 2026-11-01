@@ -9,13 +9,13 @@
 | Δάρδανον αὖ πρῶτον τέκετο νεφεληγερέτα Ζεύς (20.215, object first) | "Dardanus, in turn, first did cloud-gatherer Zeus beget" | "Zeus who gathers the clouds first begot Dardanus" | "first begot Dardanus" in `l` (would hide that Δάρδανον is the object); τίκτω of a father "begot", of a mother "bore" (20.225); νεφεληγερέτα Ζεύς "cloud-gatherer Zeus" as in the table |
 | ἀνθερίκων καρπόν (20.227; meaning of ἀνθέριξ not certain) | "the fruit of the ears" | "the ears" (+ note: "ears of grain" followed, "asphodel stalks" the other guess) | "asphodel", "stalks", "blades of grass" (each decides the guess) |
 | ἐπὶ ῥηγμῖνος ἁλὸς πολιοῖο (20.229, of the mares running over the breaking waves) | "on the surf-line of the grey sea" | "along the tops of the breaking surf of the grey sea" | "the shore where the sea breaks" (the table’s `i` for ῥηγμίν; here the mares are on the water, not the shore), "beach"; ἅλς πολιός "grey sea" as in the table |
-| ἀνηρείψαντο (20.234) | "snatched up" | "snatched up" | "carried off" (reserved for ἀναρπάζω / ἁρπάζω "snatched away", as in the Odyssey’s Cleitus line), "abducted", "kidnapped" |
+| ἀνηρείψαντο (20.234) | "snatched away" | "carried off" | "abducted", "kidnapped"; follows the Odyssey’s 20.77 row |
 | ὀφέλλει τε μινύθει τε (20.242, Zeus as subject, ἀρετήν) | "both increases and lessens" | "both increases and lessens" | "makes grow and dwindle", "raises and lowers"; μινύθω "lessens" as in the table (15.491–493), ἀρετή "excellence" |
 | νηῦς ἑκατόζυγος (20.247) | "a hundred-benched ship" | "a hundred-benched ship" | "hundred-oared", "hundred-yoked"; ζυγά are the rowers’ benches |
 | στρεπτὴ δὲ γλῶσσ’ ἐστὶ βροτῶν (20.248) | "turnable is the tongue of mortals" | "the tongue of mortals can be turned any way" | "pliant", "supple", "twisting"; στρεπτός "turnable" as in the table (9.497) |
 | ὁπποῖόν κ’ εἴπῃσθα ἔπος, τοῖόν κ’ ἐπακούσαις (20.250, whole-line proverb) | "Whatever sort of word you may speak, such a one you might hear in return." | "Whatever kind of word you say, you may hear one of the same kind in return." | "you will hear", "you shall get what you give" (loses the potential optative and the matching ὁπποῖον / τοῖον) |
-| πτύχας (20.269–271, of the metal folds of Achilles’ shield) | "folds" | "folds" | "layers", "plates", "sheets" (the table avoids them at 7.247 and the one word is kept for both shields) |
-| ἄχος … μυρίον (20.282) | "grief … vast" | "vast grief" | "immeasurable", "boundless" (reserved for ἄσπετος), "countless" (kept for μυρί’ with plurals, 1.2) |
+| πτύχας (20.269–271, of the metal layers of Achilles’ shield) | "folds" | "layers" | "plates", "sheets"; follows the table’s 18.481 row |
+| ἄχος … μυρίον (20.282) | "grief … countless" | "countless grief" | "immeasurable", "boundless" (reserved for ἄσπετος); follows the table’s 18.88 row |
 | κύκλους (ἀμφοτέρους ἕλε κύκλους ἀσπίδος, 20.280, of the rings of a shield) | "circles" | "circles" | "rims", "rings", "layers" (taken by ἄντυξ and πτύξ) |
 | εἰ μὴ ἄρ’ ὀξὺ νόησε Ποσειδάων ἐνοσίχθων (20.291) | "if not then sharply had noticed Poseidon earth-shaker" | "had Poseidon earth-shaker not been quick to notice" | follows the published ὀξὺ νόησε units (iliad-020, -029, -033, -046, -047) unchanged |
 | ὢ πόποι ἦ μοι ἄχος … Αἰνείαο (20.293) | "Ah, truly for me grief for great-spirited Aeneas" | "Ah, truly I grieve for great-spirited Aeneas" | "alas", "woe is me" (ὢ πόποι is the table’s "Ah"); ἄχος "grief" |
@@ -25,3 +25,5 @@
 | ἄσπερμος γενεὴ καὶ ἄφαντος (20.303) | "seedless and unseen" | "seedless and unseen" (lineage perishing) | "childless", "without issue", "unseen" kept as at 6.60 (ἄφαντος); γενεή "lineage" |
 | Αἰνείαο βίη (20.307, periphrasis) | "the might of Aeneas" | "the might of Aeneas" | "Aeneas’ strength", "mighty Aeneas"; the periphrasis is kept, as with μένος Βορέαο "the might of the North Wind" |
 | παίδων παῖδες (20.308) | "children’s children" | "children’s children" | "sons’ sons", "grandchildren", "descendants" |
+
+| μάψ (20.298, μάψ … πάσχει ἄλγεα) | "in vain" | "to no purpose" | "recklessly" (later table rows 13.627, 15.40, 5.876; here it would call Aeneas reckless); departure kept, as iliad-008 shipped |

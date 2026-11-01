@@ -6230,3 +6230,6 @@ Reused unchanged (no new row): the published lines at 17.485 (iliad-028), 17.516
 | ἄρεκτον (ἔργον ἄρεκτον, 19.150) | "undone" | "undone" | "unaccomplished" (reserved for ἀτέλεστος), "unfinished"; ἀ- + ῥέζω "do" |
 | ἐπειγόμενός περ Ἄρηος (19.142) | "though you are pressing on to Ares" | "eager though you are for battle" | "though you hasten to the fight"; Ἄρης stands for war, and the `l` keeps the god's name; ἐπείγομαι "press on" (5.902 "pressing on") |
 | ὅ τοι μενοεικέα δώσω (19.144; ὅ = ὅτι) | "that I shall give you satisfying things" | "that I shall give you satisfying things" | "what", "how" (read ὅ as a relative); μενοεικής "satisfying" (the table) |
+| ὀτρυντύς (19.234, 19.235) | "urging" | "summons" | "exhortation", "rallying-cry"; rare noun from ὀτρύνω "urge on"; "urging" in `l`, "summons" in `i` |
+| καλάμη · ἄμητος (19.222–223) | "stalks" · "the harvest" | "stalks" · "harvest" | "stubble", "straw", "reaping"; reaping image for the dead |
+| ἀπαρέσσασθαι (19.183) | "to appease" | "make amends to" | follows the Odyssey table's ἀρέσσασθαι "appease" / "make amends to" |

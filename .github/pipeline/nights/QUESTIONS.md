@@ -1127,3 +1127,8 @@ later night. Shared rule 7 in `.github/pipeline/README.md`: a problem never cost
 ## 2026-10-31 (publishing run, night 70)
 - The held MISMATCH at night 70 is resolved: `tools/nights_index.py` has a `PRINTED_AS = {70: 69}` table accepting the print's repeated “69th” label for that night only; `--next` now offers night 70 and the table shows ordinal_ok. Night 70 published with a note in `n` on the repeated label. Night 71 (P448L11) is still an unread tail; later nights are unaffected.
 - Night 70 doubtful readings: P448L05 كذلك ان اتعب (obscure, probably a dropped particle; read tentatively), P447L14 محلمة (probably محملة), P447L19 ما بقي لي هنا تعود (loose). Kept as printed.
+
+## 2026-11-01 (run pp. 449–456, PDF 471–478)
+- Night labels on pp. 450, 452, 454, 456 are printed as their own centred lines, not inline; archived as separate lines (not flagged h on every page; passes differed). Publishing run should treat them as labels.
+- Fatha over the lam-alif ligature recorded as لَا (mark sits over the ligature). Kashida in المباح/شعر/الابيات not written as filler dash.
+- 82 disagreements over 8 pages (10.25/page), mostly verse marks on p. 449; Sonnet Pass 2 kept for now (one batch over/at the limit, watch next).

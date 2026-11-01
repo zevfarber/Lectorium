@@ -1133,3 +1133,6 @@ later night. Shared rule 7 in `.github/pipeline/README.md`: a problem never cost
 - Fatha over the lam-alif ligature recorded as لَا (mark sits over the ligature). Kashida in المباح/شعر/الابيات not written as filler dash.
 - 82 disagreements over 8 pages (10.25/page), mostly verse marks on p. 449; Sonnet Pass 2 kept for now (one batch over/at the limit, watch next).
 - Night 71 (2026-11-01): verse in P449 prints قل where sense and rhyme want قد; copied as printed, read as qad in the note. Closing line P449L22 (حكمت فينا برغم كف أولاد الزواني) is obscure; translated literally with a note, nothing set aside.
+
+## 2026-11-01 (publishing run, night 72)
+- Night 72 doubtful readings, kept as printed and flagged in `n`: P451L03 فخلاء (read as فخلاه), P450L22 واتلقني (read as واتلفني), P452L15 واعطه اباها (read as إياها), P452L04 verse line 3 obscure (translated tentatively). The archive was not changed.

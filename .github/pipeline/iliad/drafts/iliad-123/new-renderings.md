@@ -1,0 +1,24 @@
+# New renderings — iliad-123 (19.74–153)
+
+| Greek | `l` | `i` | avoided on purpose |
+|---|---|---|---|
+| ἀργικέραυνε (Ζεῦ πάτερ ἀργικέραυνε, 19.121; ἀργής "bright" + κεραυνός "thunderbolt") | "of the bright thunderbolt" | "of the bright thunderbolt" | "lightning" (kept for ἀστεροπητής "who flashes lightning"), "bright-lightning", "white-bolted"; follows τερπικέραυνος "delighting-in-the-thunderbolt" in treating κεραυνός as "thunderbolt" |
+| λιπαροπλοκάμοιο (κεφαλῆς, 19.126) | "the head, of the sleek locks" | "her head of sleek locks" | "glossy-haired", "fair-tressed" (reserved for ἐυπλοκαμῖδες), "bright-braided"; λιπαρός "sleek" (2.44) + πλόκαμος "lock" (14.175) |
+| ἠλιτόμηνον (ἐόντα, 19.118; sense "premature" fixed by ἕβδομος μείς, formation from ἀλιτεῖν "miss" debated) | "one who had missed his months" | "born before his time" (+ note: formation debated, sense fixed by the seventh month) | "premature" alone, "untimely", "unripe"; μήν "month" kept in `l` |
+| δολοφροσύνη (δολοφροσύνῃς ἀπάτησεν, 19.97; δολοφροσύνην ἐνόησεν, 19.112) | "trickery" | "trickery" | "guile" (kept for δολοφρονέων "with guile in his mind" and δολόεις), "cunning" (μῆτις), "deceit"; δόλος keeps "trick" (7.142) |
+| Μοῖρα (personified, Ζεὺς καὶ Μοῖρα καὶ ἠεροφοῖτις Ἐρινύς, 19.87) | "Portion" | "Fate" | "Destiny", "Doom" (reserved for πότμος); follows the table's μοῖρα "portion" in `l` and "fate" in `i` (21.24) |
+| πρέσβα Διὸς θυγάτηρ Ἄτη (19.91) | "August Ate, Zeus’s daughter" | "August Ate, daughter of Zeus" (+ note: "eldest" also possible) | "eldest" (the table's rendering for Eurydice, 3.452; a claim of birth-order not needed here); follows πρέσβα θεά "august goddess" (14.194) |
+| Ἄτη (goddess, 19.91 ff.) · ἄτη (19.88) | "Ate" · "bewilderment" | "Ate" · "bewilderment" | "Folly", "Delusion", "Blind Folly" for the goddess; the name stays untranslated, the common noun keeps the table's "bewilderment" (2.111, 8.237); ἀάω forms keep "bewilder" (ἀάσθη, ἄσατο, ἀασάμην, ἀᾶται) |
+| ἐϋστεφάνῳ ἐνὶ Θήβῃ (19.99) | "fair-crowned Thebe" | "fair-crowned Thebe" | "well-crowned", "of the fine walls"; follows ἐυστέφανος "fair-crowned" (of Mycene); Θήβη singular "Thebe" (the plural Θῆβαι is "Thebes") |
+| ἑσταότος … ἀκούειν · ὑββάλλειν (19.79–80) | "for one who stands … to listen" · "to break in" | "to listen to a man when he stands to speak" · "to break in" (+ note: sense of ὑββάλλειν not certain) | "to interrupt" (a modern-sounding abstraction), "to cut in", "to heckle", "to prompt" |
+| σύνθεσθ’ … γνῶτε (19.84) | "attend … mark" | "attend … mark well" | "agree" (the other sense of συντίθεμαι), "listen" (kept for ἀκούω), "understand"; γιγνώσκω "get to know, mark" |
+| ἤτοι ὅ γ’ εὐχόμενος μετέφη πάντεσσι θεοῖσι (19.100, whole-line speech introduction) | "He indeed, boasting, spoke among all the gods:" | "He spoke among all the gods, boasting:" | "praying" (εὔχομαι is "pray" in iliad-001; here the speech is a vaunt, as in πολλάκι … εὐχομένης "boasting", 1.396), "vowing"; μετέφη "spoke among" as in the Odyssey table |
+| ψευστήσεις (19.107; rare verb from the ψεύδομαι family) | "you will play false" | "you will play false" | "you will lie" (loses the unusual form), "you will prove a liar", "deceive"; sense rebuilt from the root |
+| ἔργ’ ἀνθρώπων (19.131) | "the works of men" | "the works of men" | "the fields of men", "the deeds of men", "human affairs"; ἔργον "work" as in θαλάσσια ἔργα "the works of the sea" (2.614) |
+| ὀλέκεσκεν (19.135; iterative of ὀλέκω) | "was destroying" | "was destroying" (whenever) | "killed", "cut down", "ravaged"; the iterative is carried by "whenever" in the clause, as for νεικείεσκε "used to rebuke" |
+| κλοτοπεύειν (19.149; occurs only here in Homer, meaning not known for certain) | "to dawdle" | "dawdle" (+ note: meaning not known, "dawdle" a guess from the context and διατρίβειν) | "to chatter", "to idle", "to loiter", "to waste time" (kept for διατρίβειν); the note says the word is a hapax |
+| ἄρεκτον (ἔργον ἄρεκτον, 19.150) | "undone" | "undone" | "unaccomplished" (reserved for ἀτέλεστος), "unfinished"; ἀ- + ῥέζω "do" |
+| ἐπειγόμενός περ Ἄρηος (19.142) | "though you are pressing on to Ares" | "eager though you are for battle" | "though you hasten to the fight"; Ἄρης stands for war, and the `l` keeps the god's name; ἐπείγομαι "press on" (5.902 "pressing on") |
+| ὅ τοι μενοεικέα δώσω (19.144; ὅ = ὅτι) | "that I shall give you satisfying things" | "that I shall give you satisfying things" | "what", "how" (read ὅ as a relative); μενοεικής "satisfying" (the table) |
+
+Departures from published English: none. Whole-line repeats reused unchanged: 19.106 (iliad-088, 14.300) and 19.145 (iliad-001, 1.84) as whole units; 19.76, 19.78, 19.101, 19.114, 19.138 and 19.146 take the published wording for that line inside longer units, with only the grammar of the joining clause adjusted.

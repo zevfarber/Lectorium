@@ -134,3 +134,57 @@ major 0 · moderate 43 · minor 30 · trivial 17 · total 90
 8. eġede "door/tent-frame" and qutuγ eġede; Saqal-Bajan (place or plant); the epithets of §105.
 9. daġusugan now read as causative + converb (-γa- + -n) by analogy with qariγ̇ulun.
 10. The part ends on a converb (U66), as the drafter flagged.
+
+
+# Review, pass 2 — secret-history-105-108 (§§105–108)
+
+Reviewer: adversarial pass 2. `units.json` and `gloss.json` edited in place by script; `t` untouched. Re-verified by script: 512 words, 67 units, every word's morph Ming brackets equal the packet gloss exactly (spacing included); 307 reader tokens, 158 new keys + 15 broadened, no missing and no unused key; every broadened entry keeps the old entry whole and appends ` · ` + the new reading; every glossary first-lemma matches a morph lemma of the word (exceptions below). Checked each unit's l against i and the morph, each gloss.json entry against the text, and every Ming citation inside a gloss/note against the token's packet gloss. Unit numbers are 0-based.
+
+## Counts
+
+major 0 · moderate 1 · minor 14 · trivial 8 · total 23
+
+## Changes (unit/key · field · severity · what was wrong · what was done)
+
+- U43 · n · moderate · Note said ebür is "here the south, near face of the mountain": nothing in the text or the Ming (前) says south. · removed; ebür is 'front' (also 'bosom')
+- U14 · l · minor · l "to-sworn-brother" renders anda-ji, which is the accusative (-ji), not a dative; the note and glossary say accusative. · "Temüžin, sworn-brother (acc.), the hollow-of-chest empty became."
+- U24 · n · minor · Note named the stems "embür- and quγ̇ur-" as inferred here; quγ̇ur- belongs to U26, and the unit's other converb is daγ̇arižu (daγ̇ari-, not inferred). · "the stem embür- is inferred from the Ming"
+- U43 · words[5] (word 307) morph[1] gloss · minor · -(i)jer given flatly as "instrumental: along, by", while the glossary entry jer says the force is uncertain. · "(front-vowel form; uncertain)"
+- U51 · words[1] (word 383) morph[0] gloss · minor · gloss cited "Ming 地名" but this token's Ming is 岸名. · "(Ming 岸名 'bank name')"
+- U55 · words[0] (word 414) morph[0] gloss · minor · gloss cited "Ming 水名" but the token's Ming is 河名 (the note had it right). · 河名
+- U59 · n · minor · Note said "I translate them as 'also' and 'indeed'" of ber and kü together, and called both 'too, even'; l/i use 'too/also' for ber and 'indeed' only in l for kü. · note states what each field does
+- U66 · n · minor · Note still gave the converb as -žu; the word is ügüleldüžü, -žü (pass 1 corrected only the morph). · -žü
+- U38 · words[2] (word 282) morph[0] · minor · Duplicate lemma qurdun on qur- and dun(i)-jan. Resolved on the model of the published split words (göre / -ġesün-ü, oisulaγ / -da-γ̇a): the first token keeps lemma qurdun (glossary entry qur, "first half"), the second token's morph lemma is now -dun, with the gloss saying it is the second half of qurdun split across qur- / dun(i)-jan; glossary entry duni now reads "-dun — the second half of qurdun …", so glossary first-lemma and morph lemma agree on both tokens.
+- gloss duni · entry · minor · lemma qurdun repeated the first half's lemma; no grammar label. · "-dun — the second half of qurdun, … (noun, split word)"
+- gloss qur · entry · trivial · no grammar label. · "(adjective or noun, split word)" added
+- gloss ebüri · entry · minor · the "· also" reading stood before the Ming bracket, so the bracket did not close the first reading. · bracket moved: "… Shiratori's [懷 自的(行)] · also 'front, the near side' (Ming (前)行 in ebür(i)-jer), the same word"
+- gloss üžin-börte-jen · entry · minor · "his own Üjin-Börte": the reflexive is the speakers' ("our"/one's own), not "his". · "one's own"
+- gloss börte-jüġen · entry · minor · same, "his own Börte". · "one's own"
+- gloss γorqon-u · entry · trivial · "(noun + case, Ming 小河 的) [小河 的]" repeated the Ming inside the grammar bracket. · "(noun + case) [小河 的]"
+- broaden ile · minor · the example "in Žamuqa-da ile" quotes a line that is not there; the token stands in Žamuqa deġü-de keleležü ile (word 85). · quotation corrected
+- broaden kü · minor · "· also Ming 也 here" added no reading, only a fragment; the note now carries the point. · "· also with the Ming 也 'also, too' (in Ede ber … kü kürülčežü), the same emphatic force, 'indeed' (uncertain)"
+- broaden jen · minor · tail "also -jen after ger-tür(i)- and Üžin-Börte-, and -jüġen after Börte-" is not needed: ger-tür(i)- was already in the old entry, and Üžin-Börte-jen and Börte-jüġen are whole-token keys, not jen. · tail removed
+- U0 · words[4] (word 7) morph[2] lemma · trivial · -jen against the glossary's -(i)jen and all other units. · -(i)jen
+- U11 · n · trivial · Ming quoted as 敎 上馬; the packet has 上馬敎. · corrected
+- U17 · n · trivial · "so 'our own Börte'" for the token Üžin-Börte-jen. · "'one's own Üžin-Börte', here 'our own'"
+- U24 · words[3] (word 191) gloss + n · trivial · Ming cited as 天窗; the packet has 天窻. · 天窻 (pass 1 had refused this as harmless; the citation should match the packet)
+- U30 · n · trivial · Ming quoted as 皮子 敎 with a space; the packet has 皮子敎. · corrected
+- U61 · n · trivial · Ming quoted as 共說來 for the token whose gloss is 共說來麽 (the 麽 is cited for -ü). · 共說來麽
+
+## Findings refused (with reason)
+- **Glossary lemma ösü- on ösen (broadened entry) against morph lemma öse-**: the old entry cannot be altered; the broadened text records the printed stem öse-, and the morph keeps öse- (pass 1 decision, ösekün/ösen printed with e).
+- **daγ̇ari-, baγ̇u-, morila- (morph) against daγari-, baγu-, morila- in already published entries (daγarižu, baγ̇užu, morilaba)**: the morph follows Shiratori's printed γ̇ and the lemma "mori + -la-" used throughout this part; the old keys are not ours to change.
+- **hači "enmity, vengeance, a feud" (words 42, 128)**: copies the published glossary entry for hači / hači-jan; the pass-1 house decision applies to l and i, not to a gloss that must agree with the published entry.
+- **eġede entry carrying both Ming readings with only 帳房骨子 in the bracket**: the entry is one token form used with two Ming glosses (帳房骨子, 門框), both named in the entry; the bracket is the first occurrence.
+- **w230 "遠看(見)的"**: bracket and citation follow the packet's own parentheses.
+- **U53 "led out his army"**: transitive reading follows eġüsgežü čerig; kept, the note already says it is a reading of the Ming 起着.
+- **All pass-1 refusals** re-read and left as they were (busutu, onor nigenten, Merkid-te as agent, U8 min-u, ile, kökideg, tuki, U24 door-frame/tent-frame, U66 ending on a converb).
+
+## Remaining doubts
+1. Doer of the service in §105 (kigdegsen-i) left open in i; who speaks U51 and who moves in U52 (To'oril or Temüjin).
+2. aiši (word 380) as "come!" against the published "is coming"; öġede (word 321, Ming 送着) read "upstream".
+3. ösen/ösekün/hačilaqun/aburan: stems öse-, hači-la-, abura- ("repay" vs "save") and their endings; the house "enmity/repay" is not a proof.
+4. Endings -γ̇a / -ġe, -leġei, -γ̇an, -ši, -ġed, -je (reciprocal without l, word 344) are guesses.
+5. §106 arms vocabulary (qadqurasutu, qaraγ̇atu tuki, ödgen, oṅgitu, hüdesütü) is Ming-led.
+6. -(i)jer "along" (ebür(i)-jer, word 307) is read from the shape of the instrumental.
+7. The split word qurdun / -dun is a convention; a different treatment could be chosen for all split words in a later pass.

@@ -1,0 +1,42 @@
+name: Geez voices pilot
+
+# Pilot only, 2026-11-01: five Kebra Nagast sentences read four ways, into audio-pilot/geez/
+# for Zev to choose the Geez pronunciation and voice by ear (audio-pilot/geez.html).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/scripts/geez_pilot.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  geez:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github
+            audio-pilot
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Synthesize
+        env:
+          GOOGLE_TTS_KEY: ${{ secrets.GOOGLE_TTS_KEY }}
+        run: python3 .github/scripts/geez_pilot.py
+      - name: Commit
+        run: |
+          git config user.name "lectorium-audio-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          rm -rf audio   # the usage counter written during synthesis lives outside this sparse checkout
+          git add audio-pilot/
+          git diff --cached --quiet && exit 0
+          git commit -m "Geez voices pilot clips [skip ci]"
+          for a in 1 2 3 4 5; do git push && exit 0; git pull --rebase origin main; sleep $((a*5)); done
+          exit 1

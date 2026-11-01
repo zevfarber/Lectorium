@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ge'ez voices — pilot</title>
+<style>
+:root{--bg:#faf8f3;--fg:#222;--muted:#6b665c;--line:#e3ddd0;--accent:#7a5c2e}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1b19;--fg:#ece8df;--muted:#a39d90;--line:#35322c;--accent:#d2ac6a}}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.5 Georgia,serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 60px}
+h1{font-size:1.5rem;margin:0 0 4px}.sub{color:var(--muted);margin:0 0 12px}
+.u{border-top:1px solid var(--line);padding:12px 0}.g{font-size:1.25rem}
+.tr{color:var(--muted);font-size:.9rem;margin:2px 0 8px}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.row span{width:74px;color:var(--muted);font-size:.85rem}
+audio{height:32px;max-width:100%;flex:1;min-width:200px}
+</style></head><body><main>
+<h1>Voices for Ge'ez</h1>
+<p class="sub">Five sentences from the Kebra Nagast: the Queen of the South (ch. 21) and the Queen's praise of wisdom (ch. 24). Google has no Ge'ez voice, so each option borrows one. Option A gives the traditional church sound; B, C and D give reconstructed Ge'ez.</p>
+<div id="key"></div>
+<div id="list">Loading…</div>
+</main><script>
+const NOTES = {
+ A: "Amharic is written in the same letters, and the Ethiopian church reads Ge'ez with Amharic sounds, so this is how Ge'ez is heard today. The throat letters merge (ሐ and ኀ sound like ሀ; ዐ like አ), as do ሰ/ሠ and ጸ/ፀ.",
+ B: "The text changed letter for letter into Arabic script. Keeps the sounds Ge'ez shares with Arabic: ḥ, ʿ, ḫ, q, the emphatic consonants and doubled consonants. Arabic has no g (heard as j) and no e or o (heard as ee and oo).",
+ C: "The German voice given the exact sounds, the way Akkadian, Greek and Latin are done. Clear and consistent, but the throat sounds and emphatics are lost (ḥ = h, q = k, ʿ silent), and doubled consonants read single.",
+ D: "The American English voice given the exact sounds, the way Beowulf is done. The same losses as C, but it keeps the doubled consonants."
+};
+(async () => {
+  const p = await fetch('geez/lines.json', {cache:'no-cache'}).then(r=>r.json());
+  const voices = await fetch('geez/voices.json', {cache:'no-cache'}).then(r=>r.json());
+  const K = document.getElementById('key');
+  K.innerHTML = voices.map(v => '<p class="sub"><b>' + v.option + '</b> — ' + v.label + '. ' + (NOTES[v.option]||'') + '</p>').join('');
+  const L = document.getElementById('list'); L.innerHTML = '';
+  p.lines.forEach(ln => {
+    const d = document.createElement('div'); d.className = 'u';
+    d.innerHTML = '<div class="tr"></div><div class="g" lang="gez"></div><div class="tr"></div><div class="tr"></div>' + voices.map(v =>
+      '<div class="row"><span>Option ' + v.option + '</span><audio controls preload="none" src="geez/' + v.option + '/' + ln.key + '.mp3"></audio></div>').join('');
+    const t = d.querySelectorAll('.tr'); t[0].textContent = 'Kebra Nagast ' + ln.cite;
+    d.querySelector('.g').textContent = ln.fidel; t[1].textContent = ln.roman; t[2].textContent = ln.en;
+    L.appendChild(d);
+  });
+})();
+</script></body></html>

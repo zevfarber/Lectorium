@@ -57,7 +57,7 @@ for st in O.published_stories():
     for u in st['sentences']:
         key=O.letters_only(u['t'])
         if st['id']==pid:
-            if key in seen and (seen[key][1]!=u['l'] or seen[key][2]!=u['i']) and not (pid=='iliad-131' and u['ln']==447):  # 20.447: published 16.705 names Apollo as the shouter; here Achilles shouts (see QUESTIONS.md)
+            if key in seen and (seen[key][1]!=u['l'] or seen[key][2]!=u['i']) and not ((pid=='iliad-131' and u['ln']==447) or (pid=='iliad-132' and u['ln']==73)):  # 20.447: published 16.705 names Apollo as the shouter; here Achilles shouts (see QUESTIONS.md)
                 fail(f'line {u["ln"]}: same Greek as {seen[key][0]} but different English. Use exactly: l={seen[key][1]!r} i={seen[key][2]!r}')
         if key not in seen: seen[key]=(f'{st["id"]} line {u["ln"]}',u['l'],u['i'])
 # 6b the same Greek already stands in a published Odyssey unit: its English should normally be reused (warning only)

@@ -79,3 +79,6 @@ Packet and draft (`drafts/iliad-051/units.json`, 47 units, `new-renderings.md`) 
 
 ## 2026-11-02 · iliad-131 · 20.447–448
 The Greek (δεινὰ δ’ ὁμοκλήσας ἔπεα πτερόεντα προσηύδα, with the line before) is identical to 16.705 (iliad-106), whose published English says "Apollo shouted dreadfully at him". That is true of 16.705 and false at 20.447, where Achilles shouts. Validator check 6 demands identical English. Decided meanwhile: iliad-131 keeps "he shouted" (true), and `validate_iliad.py` skips check 6 for iliad-131 line 447 only. Alternative for the owner: make iliad-106's English name the god only in a note, and drop the exemption.
+
+## 2026-11-02 · iliad-132 · 21.73
+Greek identical to published 1.201 (καί μιν φωνήσας ἔπεα πτερόεντα προσηύδα) but μιν is Achilles (masc.), so "to him" not "to her". Decided: keep "to him"; validator same-Greek check exempted for iliad-132 line 73 (as for 131/447).

@@ -1,6 +1,6 @@
 # Iliad — plan
 
-135 of 159 parts published. Parts end only where Monro & Allen begin a paragraph.
+136 of 159 parts published. Parts end only where Monro & Allen begin a paragraph.
 
 | part | cite | lines | status |
 |---|---|---|---|
@@ -139,7 +139,7 @@
 | iliad-133 | 21.97–199 | 103 | published |
 | iliad-134 | 21.200–297 | 98 | published |
 | iliad-135 | 21.298–399 | 102 | published |
-| iliad-136 | 21.400–501 | 102 | todo |
+| iliad-136 | 21.400–501 | 102 | published |
 | iliad-137 | 21.502–611 | 110 | todo |
 | iliad-138 | 22.1–89 | 89 | todo |
 | iliad-139 | 22.90–187 | 98 | todo |

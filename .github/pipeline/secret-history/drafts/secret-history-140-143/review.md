@@ -56,3 +56,58 @@ Counts: major 0, moderate 11, minor 21, trivial 3 (rows are grouped; some rows c
 - U6 who falls; U23 whole sentence; U15 sense; U63 "take word".
 - ile- "went" (Ming 去了) vs glossary "send" (敎去了).
 - γol as "main camp" overrides known-forms "stream".
+
+# Review pass 2 — secret-history-140-143
+
+Re-checked: all 77 units (`l` ↔ `i`, notes, every morph label and Ming bracket against the packet, `l` names against `t`), `ln`/`p` (first unit of each § carries `p`), and all 142 gloss entries plus the 16 `__broaden__` entries. Script checks: every token of every `t` (288 distinct) has an entry in gloss.json or the shared glossary, no unused keys, every gloss bracket equals the novel-forms bracket, every `__broaden__` value starts with the old entry whole + " · " (all 16 do), and each broadened reading is used in this part (büri u22, čaγaγ̇an u32, ken u41, dörben u28, žažiradai u38, maṅlai u54-55, bolun u15/23/73, γarču u7, odču u10, ilebe u12/16, γol-dur u69, jar/γari u2, jer u2, jan u15, nača u15). `t` untouched (script-verified); edits made in place by script.
+
+## Units
+| Unit | Field | Sev | Wrong | Done |
+|---|---|---|---|---|
+| 65 | i | moderate | "Aghuchu-Ba'atur": pass 1 fixed the morph gloss (w365) but left the English in `i`, breaking house A'uchu (unit 36) | "A'uchu-Ba'atur" |
+| 18 | i, about | minor | "Qabul Qan" — house renders Qabul as Qahan (136-139 "Qabul Qahan", printed Qān there too) | "Qabul Qahan" in `i` and in `about` |
+| 18 | l | minor | "Qabul Qan's": `l` keeps Shiratori's form (printed Qān) | "Qabul Qān's" |
+| 18 | n | trivial | note silent on why the English is Qahan | one clause added |
+| 32, 45 | i, n, morph w172, w234 | minor | "Gorolas": house has "Qorolas" (115-120 "from the Qorolas") | Qorolas in `i`, note (u45) and both morph glosses |
+| 53 | i, n, morph w277 | minor | "Kelüren" in `i`: house is "Kerülen" (93-99, 136-139) | `i` Kerülen; note says Kelüren is the printed form of the Kerülen; morph gloss likewise |
+| 1 | l | minor | "among-the-Jurkin": `l` keeps Shiratori's name form (Žürkin; 136-139 `l` has Žürukin-by) | "among-the-Žürkin" |
+| 0, 5 | n, morph w7, w32 | minor | note says abal- is known "from nowhere else" — the shared glossary already has abaldurun (abal-, 'when grappling') | note and both stem glosses point to abaldurun, still "uncertain" |
+| 9 | n, morph w51 | minor | -lüġe called unanalysable although the glossary has kürküi-lüġe / ireküi-lüġe ('as soon as') | cross-reference added; force still called uncertain |
+| 65 | n | trivial | stray "(Tatar)" after "not the Tatar of the text" | removed |
+
+Counts, units: major 0, moderate 1, minor 8, trivial 2 (rows group several edits).
+
+## Gloss
+| Key | Field | Sev | Wrong | Done |
+|---|---|---|---|---|
+| bökö | entry | minor | Ming is 勇士 at the end of §140 (word 134) but the entry only gives 力士 | said so in the entry; bracket unchanged (= novel-forms) |
+| žada | entry | minor | Ming is 風雨 at words 412 and 417 (the storm), 能致風雨的事 only at 407 | said so |
+| maṅlan | entry | minor | labelled "plural" on the strength of one 頭哨每; the other three uses (u65, 67, 68) are 頭哨 alone and the English reads "vanguard" | label softened ("plural or collective; uncertain") |
+| ireġülüġed | entry | trivial | Ming (敎)來了 at word 266 not mentioned | added |
+| belgütei-je | entry | minor | entry silent on the glossary's irekü-je with accusative -je, same shape | cross-reference and reason for the passive-agent reading added |
+| abalduγ̇uluja, abalduγ̇ulba | entry | minor | "stem inferred" though abal- is in the glossary (abaldurun) | stem tied to abaldurun |
+| ilaγdaqu | entry | trivial | no link to the glossary's ilaγ̇a- (ilaγču) | "compare ilaγ̇a-" |
+| unaγ̇ažu | entry | minor | causative -γ̇a- asserted, but the Ming 倒着 is plain 'falling' | said the Ming does not mark it; read from 'threw down' |
+| üžekü-lüġe | entry | minor | as unit 9 | cross-reference to kürküi-lüġe |
+| uqa | entry | trivial | labelled plain noun | "noun, or the bare verb stem; uncertain" |
+| γorolas-un | entry | minor | "the Gorolas" (house Qorolas) | fixed |
+| __broaden__ nača | entry | trivial | new reading omitted that the Ming writes 行 (not 處) | added; old entry still whole |
+
+Counts, gloss: major 0, moderate 0, minor 9, trivial 3. Every other entry: dictionary form, meaning, label and bracket checked against the packet and found acceptable (many stems are inferred from the Ming and are marked uncertain in the entry).
+
+## Refused (pass 2)
+- Unit 12 i "left him" (ilebe 去了): contradicts the dragging-off of unit 17 only if read as "abandoned"; note states the choice and its uncertainty; pass 1 also refused.
+- Unit 6 who falls, unit 14 "could not have beaten me", unit 63 "go to meet": readings carried by the notes; left.
+- Unit 57 "Enegen Küiletü" (two names or one): note says so.
+- daruqu / darun lemma dara-: glossary already has darun → dara-; kept for house consistency (Written Mongol would suggest daru-; not changed).
+- ireġülüġed -üġed vs "linking vowel + -ġed": the shared glossary's kürġeġülüġed uses -üġed; kept for consistency.
+- Qutuγtu-Müṅler → "Müngler" (not Münggür): form printed differently from the house name; kept (pass 1).
+- Žažiradai → "Jajirat" against house Jadaran/Jadaradai: a different spelling; I will not equate them from outside knowledge.
+- qojar-tur 'against' with Ming 行: known entry reads 'among'; note flags the sense; no broaden needed.
+- tatažu entry bracket [做妾着] (known) vs Ming 扯着 here: reading 'pull' fits; not broadened.
+
+## Remaining doubts
+- ergüje (u38) hortative vs converb; quγul-/quγura- stems (u13, 17, 24); who falls (u6); u23 as a whole; u15 sense; u63 "take word".
+- ile- 'went' vs 'send' (u12, 16, 46); γol 'main camp' vs known 'stream'.
+- Ungirat, Alchi, Qajiun-Beki, Chagan spellings are new (no house precedent).
+- Nothing built or validated yet (`r3.py validate` refuses until a build).

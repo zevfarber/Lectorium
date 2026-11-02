@@ -82,3 +82,6 @@ The Greek (δεινὰ δ’ ὁμοκλήσας ἔπεα πτερόεντα π
 
 ## 2026-11-02 · iliad-132 · 21.73
 Greek identical to published 1.201 (καί μιν φωνήσας ἔπεα πτερόεντα προσηύδα) but μιν is Achilles (masc.), so "to him" not "to her". Decided: keep "to him"; validator same-Greek check exempted for iliad-132 line 73 (as for 131/447).
+
+## 2026-11-02 · iliad-137 · 21.504, 21.509
+(1) 21.504 θυγατέρος ἧς: reviewer read it as possessive on τόξα ("her own daughter's bows"), not a goal genitive; ~80% confident from grammar and Od. 19.399. Owner may check. (2) The Iliad table's Οὐρανιώνων row (5.898, "sons of Uranus") contradicts the shipped iliad-030 English, which unit 509 must repeat verbatim. Decided meanwhile: follow the shipped unit; the table row and the shipped English need reconciling. (3) Homeric "Attic equivalents" in gloss for ξυμβλήμεναι, ἀποέργαθε, ἄνεσάν, ἀπῶσαν, ἔμπλητο, ἐπανθέμεναι are reconstructed, not checked against a lexicon. (4) The second reviewer pass over gloss.json was not run as a separate agent; only the forms touched by review edits were rechecked.

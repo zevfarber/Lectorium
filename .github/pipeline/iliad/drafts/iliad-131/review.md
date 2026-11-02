@@ -68,3 +68,23 @@ Edited in place by script; `t`, `ln`, `v`, `p`, `mark` untouched (checked agains
 ## Left for the drafter (new-renderings.md; I did not edit it)
 
 The rows for ἦ ῥα, καί ("So he spoke, and"), κλονέων/εἰλυφάζει ("buffeting", "whirls about"), νύσσω ("pricked"/"jabbed"), the names (Rigmus, Peiros) and the 466 departure (i "she/he … won over") no longer match the units. νήπιος needs a departure row (or none, now that the unit follows the table).
+
+---
+
+# Pass 2 — gloss.json, new-renderings.md
+
+`gloss.json` (59 entries + `__broaden__` with 9) read against the final units: every parse checked against its line. Edited by script.
+
+| # | Key | Sev | What was wrong | What was done |
+|---|---|---|---|---|
+| G1 | πείρεω | medium | "Peiros, a Thracian leader" — the units now say Peirous, and "Thracian leader" is not shown by this part. | "Πείρως — Peirous, father of Rhigmus". |
+| G2 | ῥίγμον | medium | "son of Peiros". | "son of Peirous". |
+| G3 | εἰλυφάζει | medium | "whirl … ’whirls’"; the units now say "swirls" (table 11.156). | "swirl, roll about … ’swirls’". |
+| G4 | βίαντος, δημοῦχον, δρύοπ, ἀγήνορος, ἀρηΐθοον | low | "a Trojan" (Bias, Demuchus, Dryops, Agenor, Areithous): this part does not say so, and Areithous is a Thracian's attendant. | "a Trojan" removed. |
+| G5 | `__broaden__` γούνων | low | "’to meet the knees’" for ἀντίος γούνων; the unit now reads "facing". | "’facing the knees’". |
+
+Checked and left: all other parses agree with their lines (tense, mood, voice, case; e.g. ἐξαίνυτο is not in the file, ἐφορμηθεὶς and ἔκπαλθ are described as passive-form/syncopated correctly); all nine `__broaden__` entries keep the old entry whole and add a reading the part really uses (αὐτῇ πήληκι 482; αὐχένα θείνας 481; κὰγ γόνυ 458; γούνων ἀντίος 463; καθ’ ἧπαρ 469; κὰκ κεφαλήν 475; μηδὲ κατακτείνειεν 465; εἴ πώς εὑ 464; χείρων 434, Chiron/worse; ἕλωμαι αἴ κε 436). No ASCII apostrophes or backticks; no entry over 230 characters. No novel-form entries are missing for forms I checked in the units; completeness against `novel-forms.json` was not re-run.
+
+`new-renderings.md`: rows rewritten for ἦ ῥα καί, νύσσω, κλονέων/εἰλυφάζει, the names (Peirous, Rhigmus), and 466 (now three departures: νήπιος, passive πείσεσθαι, Achilles named in `i`). Other rows unchanged. Unit 20.447–448 left alone as instructed.
+
+Totals for pass 2: 5 findings (0 high, 3 medium, 2 low), all fixed.

@@ -76,3 +76,6 @@ Packet and draft (`drafts/iliad-051/units.json`, 47 units, `new-renderings.md`) 
 - 2026-10-31 (iliad-119, 18.317): the pinned text lacks a stop after ἑταίρου at the end of 317, so the unit could not end there. Decided meanwhile: added a comma (rule 5; the sense continues in the participial clause), re-pinned iliad-119. Not checked against a printed copy.
 
 - 2026-10-31 (iliad-121): the last note of published iliad-120 (ln 507) says the description of the first city goes on in the next part; it does not (18.509 begins the second city). Not edited (published part). Owner may correct. Also: Ὠκεανός is "Oceanus" at 18.607 (table) but "Ocean" in iliad-120 at 18.489.
+
+## 2026-11-02 · iliad-131 · 20.447–448
+The Greek (δεινὰ δ’ ὁμοκλήσας ἔπεα πτερόεντα προσηύδα, with the line before) is identical to 16.705 (iliad-106), whose published English says "Apollo shouted dreadfully at him". That is true of 16.705 and false at 20.447, where Achilles shouts. Validator check 6 demands identical English. Decided meanwhile: iliad-131 keeps "he shouted" (true), and `validate_iliad.py` skips check 6 for iliad-131 line 447 only. Alternative for the owner: make iliad-106's English name the god only in a note, and drop the exemption.

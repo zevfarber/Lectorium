@@ -1139,3 +1139,9 @@ later night. Shared rule 7 in `.github/pipeline/README.md`: a problem never cost
 
 ## 2026-11-02 (publishing run, night 73)
 - Night 73 doubtful readings, kept as printed and flagged in `n`: P454L01–02 زحرك (read as زجرك), اتلقتها (read as أتلفتها), انة (ة for ه); P453L08–09 فلا تدخل في خطيئتي (loose); P453L14–15 the stoker's closing sentences are loosely built. The archive was not changed.
+
+## 2026-11-03 (run pp. 457-464, PDF 479-486)
+- Pass agents on PDF 479-482 worked from the bands and draft without opening line crops; the adjudicator caught 12 agreed errors (e.g. المحنة for المحفة). Wave 2 (483-486) opened crops. Future runs should say "read every lineNN.png" in the pass prompt. Disputes were low (33 over 8 pages).
+- Tight spacing ضوءالمكان / نزهةالزمان (no space) adopted where the print runs them together, medium confidence; a reviewer may spot-check P457L14, P458 L07-09,12,15, P461L18,21, P464 L01-04.
+- Verse vowel marks on P457 (lines 5-9, 11-12) and P460 first half only partly legible; kept as agreed, unverified at mark level.
+- Kashida inside words dropped, per archive convention; stretched final line of P464 (and P459L13) written المب—اح as at P450L07.

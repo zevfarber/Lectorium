@@ -1136,3 +1136,6 @@ later night. Shared rule 7 in `.github/pipeline/README.md`: a problem never cost
 
 ## 2026-11-01 (publishing run, night 72)
 - Night 72 doubtful readings, kept as printed and flagged in `n`: P451L03 فخلاء (read as فخلاه), P450L22 واتلقني (read as واتلفني), P452L15 واعطه اباها (read as إياها), P452L04 verse line 3 obscure (translated tentatively). The archive was not changed.
+
+## 2026-11-02 (publishing run, night 73)
+- Night 73 doubtful readings, kept as printed and flagged in `n`: P454L01–02 زحرك (read as زجرك), اتلقتها (read as أتلفتها), انة (ة for ه); P453L08–09 فلا تدخل في خطيئتي (loose); P453L14–15 the stoker's closing sentences are loosely built. The archive was not changed.

@@ -76,3 +76,78 @@ two more morph entries).
 
 Changes: 46 rows — major 1, moderate 17, minor 25, trivial 3.
 Refused: 11.
+
+
+# Review, pass 2 — secret-history-115-120 (§§115–120)
+
+Fresh read of `units.json` after pass 1, and every entry of `gloss.json` (187 new entries, 7 broadened) against the text, the
+packet's Ming column, the current shared glossary and the published parts. Edits were made by script, in place; `t`, word
+counts, `ln`/`p`, the bracketed Ming in every morph (516 words; `čorγan` bare), and the 1:1 coverage of novel tokens (187 keys =
+`novel-forms.json`, no unused keys, no key already in the glossary) were re-verified afterwards. All `__broaden__` entries
+are the current glossary entry verbatim + ' · ' + the new reading. Unit numbers are 0-based as in pass 1.
+
+## Changes
+
+| # | Unit(s) / entry · field | Sev. | What was wrong | What was done |
+|---|---|---|---|---|
+| 1 | 15 · morph (`jor(i)-jan`), `l`, `n`; entry `jori` | moderate | Pass 1 made `-(i)` an accusative "(Ming 行)", but the packet's Ming here is 響𩪛頭 自的 with no 行 (unlike unit 8, 自的行). | `-(i)` = linking vowel (Shiratori's), as for `sem(i)-jer`; lemma `jor`; `l` loses "(acc.)"; `n` says there is no 行; entry reworded on the `semi` model. |
+| 2 | 2, 3, 4, 6 · morph (`ičurun`, `ičuba`), 2 `n`; entries `ičurun`, `ičuba` | moderate | Lemma `ičü-` (front) with "-ba/-run back-vowel form": the words are ičuba, ičurun, and the glossary already has `ič-` + linking -u- (ičuja). | Lemma `ič-` + `-uba` / `-urun` (linking -u-, uncertain); `n` of 2 and both entries rewritten. |
+| 3 | 47 · morph, `n`; entry `ködölügseġer` | moderate | `-ügseġer` called "past participle with a dative-like ending": invented. The glossary has the same pattern in `iregseġer` (-gsen + instrumental -ġer, 'because of'). | Morph, entry and `n` now: participle -gsen + instrumental -ġer with linking vowel, 'since having …-ed' (compare iregseġer). |
+| 4 | 36 · morph (`sem(i)-jer`), `n` | moderate | Morph gave `sem` = "silence, hush" and `-jer` = instrumental; the glossary (`semi`, `jer`) has sem 'sound, voice', stem uncertain, and `-jer` "ending of uncertain force", the Ming glossing the whole word. | Morph and `n` brought into line with the glossary. |
+| 5 | broaden `köġüdi` (64 `köġüd(i)-jer-en`) | moderate | Glossary reads köġüd(i) with an accusative (i) before -jen; here (i) precedes the instrumental -jer (Ming 兒子(每)自的行), as in tümed(i)-jer. Not covered, not broadened. | Added reading: linking vowel before -jer, not accusative. |
+| 6 | broaden `jan` (8, 15) | moderate | `jan` lists participle + dative (aqui-dur(i)-) but not `bolulčaγsan(i)-jan` (participle + accusative, Ming 行) or `jor(i)-jan` (no 行). | Added both. |
+| 7 | broaden `bolulčažu` (12; entries `bolulčaγsani`, `bolulčarun`) | moderate | Glossary `bolulča-` = 'agree, come to terms' (Ming 相從); this part's Ming is 共做(着) 'do together' for the same lemma; two senses under one lemma without a bridge. | Added the second reading with both Ming glosses; the morph/entries keep 'do together'. |
+| 8 | 59, 60, 65 · morph, `n`; entries `doγolqu-čerbi`, `öġölen-čerbi`, `süiketü-čerbi` | moderate | "čerbi is a title": the Ming gives only 人名; the sense is from outside the sources (the glossary says the same of beki). | "the meaning of čerbi is not known from these sources"; `n` of 59, 65 likewise. |
+| 9 | 58, 72 · `i`, `n`, morph; entry `barulas-ača` | moderate | English "the Barulas": every published part has "the Barula" (12×), and the glossary's `barulas` is Barula + plural -s. | `i`/`n` "Barula"; morph Barula + -s + -ača; entry rewritten. |
+| 10 | 22, 25, 52 · morph (`abuγsan`, `abuγ̇ad`) | moderate | Lemma `abu-`; glossary and published parts use `ab-` (`ab- + -γsan`, `ab- + -uγ̇ad`). | `ab-` + `-γsan` (linking vowel noted) / `ab-` + `-uγ̇ad`. |
+| 11 | 15 · `i`, `n` | moderate | "…bored them through, and made his own whistling arrowhead": the verb "made" is not printed (and `n` said the verb is missing); "whistling" is remembered, the Ming says 響 'sounding'; "bored them through" for nükeležü. | `i`: "glued two horns of a two-year-old bullock and bored holes in them, his own sounding arrowhead,"; `n` says the arrowhead runs into the next unit's ögčü; morph/entry "sounding". |
+| 12 | 70 · `i`, `n`, morph; entry `nojakin-ača` | minor | "Nojakin"; the glossary/published English is "Noyakin". | Noyakin throughout. |
+| 13 | 37, 45, 47, 50 (`böġed`), 45 (`bijü`) · morph | minor | `böġed` as one unanalysed word; `bijü` as `bi- + -jü`. Glossary and 5 + 18 published uses: `bü- + -ġed`, `bü-` / `bü- + -jü`. | `bü-` + `-ġed`; `bü-` + `-jü` (stem bi- noted). |
+| 14 | 29 · morph (`qurimlan`) | minor | `qurimla- + -n`; glossary/published `qurim + -la- + -n`. | Split accordingly. |
+| 15 | 54 · morph (`üžeġesü`) | minor | `üžeġe- + -sü`; glossary/published `üže- + -ġesü`. | Fixed. |
+| 16 | 55, 56, 57 · morph; entry `aisun-kü` | minor | `aisun` "converb: having come"; the glossary says converb or participle, uncertain. | Matched; `-kü` split out. |
+| 17 | 34, 38 · morph (`aduγ̇učin`); entry | minor | An invented morpheme "-n = singular stem (the plural is -d)" and the remembered "adu'un 'herd'". | One morph: aduγ̇učin, from glossary `aduγ̇un` 'herd of horses' + -či with a final -n. |
+| 18 | 34, 38 · morph; entry `alačuγ-a` | minor | "felt tent": 'felt' is not in the Ming (帳房). | "tent". |
+| 19 | 1 · morph, `n`; entry `čoγtai` | minor | "the tall headdress of a married woman": outside knowledge; the Ming 固姑 is itself a transcription. | Said so; headdress marked as a sense from outside the Ming. |
+| 20 | 16 · `n`, morph; entry `arča` | minor | "I suspect the Mongol tree is the juniper": remembered; the glossary's juniper is čigörsün (檜). | Hedge removed from `n`, morph, entry; Ming 'cypress wood' kept. |
+| 21 | 9, 20, 21, 28, 30 · morph; entries `amaralduja`, `amaralduqui`, `amaraja`, `amaraldužu`, `amaraldurun` | minor | `amara-` "to be at ease, to love": 'at ease' is not in the Ming (相親愛). | "to love, be fond of". |
+| 22 | 11, 12 · morph; entry `šiγ̇a` | minor | "knucklebone, anklebone": not flagged as outside the sources, unlike `siγ̇a-jin`. | Same wording as `siγ̇a-jin` (Ming 'thigh-stone'). |
+| 23 | 1, 22, 25 · morph; entries `arbilažu`, `arbiražu` | minor | "seize, carry off": 'carry off' not in 據; glossary `arbila-` is 'seize, take captive'. Packet writes 剌 (la) vs 舌剌 (ra). | Matched to glossary; `arbira-` kept as the printed spelling, cross-referenced. |
+| 24 | 8 · morph; entry `duradulučan` | minor | "from dura- 'mind, remembrance'": glossary has `dura-` as a verb 'remember' (`duradču`). | Fixed. |
+| 25 | 34 · `i` | minor | "my sworn brother, my sworn brother": no possessive in `anda anda`. | "sworn brother, sworn brother". |
+| 26 | 32 · morph, `n`; broaden `tergel` | minor | `tergel` 'light' vs glossary 'circle' not reconciled; broaden claimed "a different word". | Morph says "not the 'circle' of the glossary's tergel"; `n` explains the Ming 光 vs 圖兒; broaden reworded "a sense that differs from 'circle'" (old entry untouched). Lemma stays `tergel`. |
+| 27 | 69 · morph; entries `kürege-te`, `jabuγsaγ̇ar` | minor | "(kürgen …)" remembered; `-te` "dative-locative or possessive" while the glossary has `küreged-te` dative 'as'; "jabu- to be living" not in 行. | Aligned to `küreged`/`-te`; jabu- 'go, travel'. |
+| 28 | 72 · morph; entry `köġün-küġe-ben` | minor | `-ben` "after a consonant"; the stem ends in a vowel (cf. eke-ben, deġü-ben). | "after a vowel". |
+| 29 | 28 · morph; entry `mudun-a` | minor | "the common word is modun": remembered. | "the same word as modun, spelled with u here" (glossary has `modun`). |
+| 30 | 55 · entries `qaraldai`, `toquraγ̇un` | minor | Pinned to one line ("second half of the name Qaraldai-Toquraγ̇un") although `toquraγ̇un` also stands alone (Ming 人名). | General wording covering both uses. |
+| 31 | 18 · morph, entries `uridus`, `ötögünš-ün` | minor | Plural -s of `uridus` stated flatly (the Ming 在前 shows no 每); `ötögün` unlinked to glossary `ötögü`. | "uncertain"; cross-reference to ötöküs. |
+| 32 | 47 · `l` | minor | `l` "he-said" for unmarked keġebe, while `n`/`i` make Börte-Üjin the speaker. | `l` "said". |
+| 33 | 14 · morph | trivial | `teġün + -ü`; published `tere + -ü`. | Lemma `tere` (stem teġün- noted). |
+| 34 | 72 · morph | trivial | `-küġe` "variant of -lüġe" stated flatly. | "like -lüġe … uncertain". |
+| 35 | 73 · morph; entry `küreġen` | trivial | Not tied to glossary `kürijen`. | "a spelling beside kürijen". |
+| 36 | 31 · morph; entry `nutuγ-ača` | trivial | "home country": glossary has 'home pasture'; not in 營盤. | Removed. |
+| 37 | 36, 52 · morph; entry `qočorču` | trivial | `qočor-` "lag behind"; glossary 'be left behind'. | "lag behind, be left behind". |
+| 38 | 27 · morph; entry `unuγun` | trivial | "young, lamb-like": 'young' not in 羔兒般. | "lamb-like". |
+| 39 | 47 · morph; entry `siliγ̇uj-a` | trivial | "good, fine, fair": only 善. | "good". |
+| 40 | 57 · morph; entry `kijan-u` | trivial | Not tied to glossary `kijan` (Kiyan, 人氏). | Cross-referenced. |
+| 41 | 57 · entry `bajaγ̇udi` | trivial | Entry not in dictionary-form shape ("(name + linking vowel)"). | Rewritten as "Bajaγ̇ud — …". |
+| 42 | 32 · morph | trivial | Lemmas `žirγoγ̇an`, `hulaγ̇an` vs glossary `žirγoγan`, `hulaγan`. | Matched. |
+
+## Findings refused
+
+- **Further `nu` broadening** (Burqan-Qaldun-, Dair-Usun-, γun-, žun-(n)u, tün-(n)i): the existing entries already say "printed after stems that already end in n, where the (n) is Shiratori's" and `ni` likewise; the new cases fall under the general statement.
+- **`jaγ̇u` Ming 甚麽 vs 怎, `josun` 道理 vs 理, `ger` 房子 vs 家**: same sense; the Ming differences are recorded in the morph brackets, no broadening needed.
+- **`ebüre` split `ebür + -e`** (published once as one word): the glossary entry itself analyses it so; left.
+- **`-γ̇ul-` vs published `-γul-`**: diacritic only; left.
+- **`aburiγči` lemma `abura-`**: the vowel before -γči is odd, but the glossary has `abura-` 'save' (aburaγsan, aburaja); kept.
+- **`arbila-` / `arbira-` as two lemmas**: the Han differ (剌 / 舌剌) and both are marked "stem inferred", same Ming; kept as printed with a cross-reference.
+- **`geiġešü` stem `geiġe-`**: no parallel in the glossary; hedged already as "stem inferred".
+- **"a people" (ours) vs "a clan" (glossary)**: both used in published parts; left.
+- **Unit 13 `-leġei`**: `n` reads it as a variant of -leġe while the morph/glossary say force uncertain; the `n` is hedged ("I take"), left.
+- **Unit 39 "So he says, I tell you."** and **unit 73 "a whole ring of tents"**: pass-1 decisions, no new evidence.
+- **`ičuba`/`ičurun` linking vowel**: marked uncertain rather than asserted, following `ičuja`.
+
+## Counts (pass 2)
+
+Changes: 42 rows — major 0, moderate 11, minor 21, trivial 10 (plus 4 broadened entries: `köġüdi`, `jan`, `bolulčažu` new; `tergel` reworded).
+Refused: 11. Entries touched in `gloss.json`: 38 of 187 (the other 149 checked and left); broadened total 10 (7 + 3).

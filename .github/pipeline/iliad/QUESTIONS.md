@@ -85,3 +85,7 @@ Greek identical to published 1.201 (καί μιν φωνήσας ἔπεα πτ�
 
 ## 2026-11-02 · iliad-137 · 21.504, 21.509
 (1) 21.504 θυγατέρος ἧς: reviewer read it as possessive on τόξα ("her own daughter's bows"), not a goal genitive; ~80% confident from grammar and Od. 19.399. Owner may check. (2) The Iliad table's Οὐρανιώνων row (5.898, "sons of Uranus") contradicts the shipped iliad-030 English, which unit 509 must repeat verbatim. Decided meanwhile: follow the shipped unit; the table row and the shipped English need reconciling. (3) Homeric "Attic equivalents" in gloss for ξυμβλήμεναι, ἀποέργαθε, ἄνεσάν, ἀπῶσαν, ἔμπλητο, ἐπανθέμεναι are reconstructed, not checked against a lexicon. (4) The second reviewer pass over gloss.json was not run as a separate agent; only the forms touched by review edits were rechecked.
+
+## 2026-11-03 · iliad-139 (22.90–187)
+- Validator check 6 (repeated Greek must repeat its English) is relaxed for iliad-139 lines 131, 181 and 183 only: the Greek recurs from iliad-132/103/046, but here the closing mark differs (131 ends in a comma; 183 ends in a stop-less unit continuing the speech) or the speech closes (181, ”). The English is otherwise the shipped English. Decided meanwhile; owner may prefer otherwise.
+- ἀεθλοφόρος: 22.162 "prize-bearing" (matches 11.699/9.124 rows) vs iliad-138 22.22 "prize-winning". Left as shipped; owner may want 22.22 changed to "prize-bearing".

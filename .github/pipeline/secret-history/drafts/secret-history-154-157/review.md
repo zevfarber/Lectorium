@@ -83,3 +83,94 @@ Unit numbers are the new numbering unless marked 'old' (the draft's 0–60).
 6. `uruk(i)-jar(i)-jan` division; `samšijaba` ending; `bodo-da`.
 7. Identity of Jeke-Čelen and Jeke-Čeren.
 8. For the glosser: do not apply the known key `daqu` ('fur coat') to `tamiγ- daqu` (unit 44); use the lemmas ejetüldü-, baraldu-, ülid-, sojurγa-, asaγ-, dutaγ̇a-, oin, bi/či, ög-.
+
+## Pass 2
+
+Adversarial reviewer, pass 2. `units.json` and `gloss.json` edited in place by script. `t` unchanged in all 57 units; still 466 `words` entries in the same order (only `morph` contents changed in the words listed). Cross-checks run: every word's Ming bracket against `packet.md` (all agree except two missing brackets, fixed); concatenated morph lemmas against the printed token (every mismatch inspected); every known word's morph against the published glossary entry; `gloss.json` keys against `novel-forms.json` (identical sets, 125 keys incl. `__broaden__`) and every entry's Ming bracket against the novel-forms value. No build, validate or commit.
+
+Entries by severity, units: major 0, moderate 3, minor 17, trivial 12 (32 entries). Gloss: major 0, moderate 0, minor 8, trivial 8 (16 entries).
+
+### Units
+
+Unit numbers as in pass 1 (new numbering, 0-56).
+
+| Unit | Field | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| 43, 44 | l, i (quotation marks) | moderate | The speech opened in 42 (`"Tatar-un …`) and closes in 44 (`jabulaγ̇a"`), but l and i of 43 closed the quotation after `že`/`peace`, and i of 44 then had a first-person sentence outside any quotation mark. | Closing mark removed from l and i of 43; i of 44 now `So I came, and went about …, not knowing whom to acknowledge," he said.` |
+| 33 | l | moderate | l stopped at `making-enter,` and left out the second half of the unit (`Jesüi Qatun-i abču žerge-dür saγ̇ulba`). | l completed: `Jesüi Qatun-ACC taking, rank-in seating.` |
+| 35 | i | moderate | i had the two women sitting 'on either side of him', but the note (and `žirin-ü dunda`, 'between the two') says the sitter is between them, with Chinggis as subject of `saγ̇užu`; the 'of him' is not in the Mongol. | i: `and, sitting between Yesui Qatun and Yesügen Qatun, while they drank together, Yesui Qatun sighed deeply.` The note's statement of who sits is unchanged. |
+| 15 | i, n | minor | `žasaγ̇ad` is an active converb (the pass-1 note says so) but i had the passive 'when they have been set in order'; 'liars' for the bare noun `qudal` (Ming 謊, morph 'falsehood, lie') and 'thieves' were not marked as readings. | i: `and, having put them in order, let brawlers, …`; note: 'thieves' and 'liars' are my reading of the bare nouns. |
+| 18 | i | minor | 'Being favoured by him' asserts the agent; the note says it is left open whether the favour came from the Qahan. | i: `Being favoured, Yesügen Qatun said:` |
+| 28 | l, i | minor | l 'forest-in' for `hoilažu` (morph: hoi + verbal -la- + converb; published hoilažu 'go into the forest'); i 'going through the forest' against the published 'into'. | l `forest-going`; i `going into the forest`. |
+| 28, 42 | morph (ögdegsen) | minor | `-degsen` 'past participle: given' as one ending; the published `ögdegsen` is ög- + passive -de- + -gsen. | `ög-` + `-de-` + `-gsen` in both units. |
+| 8, 12, 28 | morph (bidan-u) | minor | Lemma `bidan` 'we, our (stem bidan-)' against the published `bida` + stem-n + genitive -u. | `bida` + `-n-` + `-u`. |
+| 8, 12, 28 | morph (čeriġüd) | minor | `čeri` + plural `-ġüd` against the published `čerig` + linking -ü- + plural -d. | `čerig` + `-ü-` + `-d`. |
+| 8, 9 | morph (Qorγalaγsad, Qorγalaγ-) | minor | Lemma `qorγaγla-` + `-γsad` does not give the printed `qorγalaγsad` (qorγala- + -γsad; the stem has qorγaγla- in `qorγaγlažuγ̇u`). | `qorγala-`, with the other spelling mentioned in the gloss. |
+| 5 | morph (γaruγ̇asu) | minor | Ending written `-γasu`; the token is `γar-u-γ̇asu` (dotted γ, linking u). | `-uγ̇asu` (u a linking vowel after a consonant); note reworded. |
+| 7 | morph (üge-dür) | minor | Ending labelled `-tür` for the token `üge-dür`. | `-dür`. |
+| 10 | morph (abun) | minor | Ending `-n` for `abun`; the published entry is ab- + converb -un. | `-un` (back-vowel form after a consonant). |
+| 5 | n, morph (asaγčuγ̇u) | minor | Note said -čuγ̇u is the -žuγ̇u 'after a vowel'; asaγ- ends in a consonant (the gloss entry said 'vowel stems after a consonant'). | 'after a consonant' in note, morph and gloss. |
+| 5 | morph (Belgütei-eče) | minor | 'half-brother of Chinggis' is not in the Ming gloss (人名 only) or the text. | Dropped. |
+| 5 | n | trivial | 'a Tatar of the household or a go-between, which is a guess' invented an explanation the text does not offer. | 'Why a Tatar should be at hand to ask is not said, and I do not guess.' |
+| 5, 44 | morph (tēče, daqu) | trivial | Ming gloss of the word (行; 的) missing from the morph (packet has both). | `[行]` and `[的]` added. |
+| 4 | morph (qubijalduja) | minor | `-ja-` 'verb-maker (uncertain)' + `-ldu-` invented a morpheme; the published entry has the reciprocal `-jaldu-`. | `qubi-` + `-jaldu-` + `-ja`; note adjusted. |
+| 4 | morph, n (boγ̇ollduja) | minor | `-l-` + `-du-` 'reciprocal/plural': a vague label of the kind pass 1 removed elsewhere. | `boγ̇ol` + `-ldu-` (verb-maker read from the Ming 做使 'make'; perhaps the reciprocal; uncertain) + `-ja`. |
+| 46 | morph, n (daisu) | minor | 'enmity, hostility' is the meaning of daisun, not of the Ming 反 'rebel'; the note led with it. | 'rebellion, revolt (read from the Ming 反; perhaps a form of daisun)'. i unchanged. |
+| 52, 53 | morph, n (Beki) | minor | 'Toqto'a Beki, a Merkid chief' and 'Beki, a title, chief' are remembered knowledge; the Ming gives 人名 and 名 only. | 'a man's name'; 'Beki … may be a title, which the Ming (名) does not say'. |
+| 27 | l | minor | `if-I-see` for `üžeġesü`: the conditional carries no person. | `if-seeing`. |
+| 3 | morph (kisal) | trivial | 'grudge, wrong' — 'wrong' is not in Ming 仇. | 'grudge, enmity, a score to settle'; cross-reference to the published 讎. |
+| 33 | i | trivial | 'ranks of his wives' printed as translation although the note says the Mongol has no 'wives'. | `in the ranks (of his wives)`. |
+| 36 | n | trivial | 'a chain of five converbs': three before ügülerün. | 'four converbs (sedkižü, urižu, ireġülžü, ügülerün)'. |
+| 19 | n | trivial | Note said 'making' is put before 'raising' only for the English; that is the Mongol order. | Corrected. |
+| 8 | l | trivial | `bolun` left out of l. | `attacking-about-to being`. |
+| 9 | l | trivial | l 'struggling' for `žobožü`, morph 'toiling'. | 'toiling'. |
+| 22 | l | trivial | 'gone-has' (perfect) for the past `-bi`. | 'went'. |
+| 39 | l, morph | trivial | l 'tribe-own' lost the -jar; morph `-(i)jar` against `-jar` in units 1, 12. | l 'tribe-with-own'; `-jar`. |
+| 32 | n | trivial | `saγ̇urin-dür-i-jen` against the printed `dür(i)-jen`. | Corrected. |
+| 51 | n | trivial | 'mori with -la- "to use"' against the morph 'to ride'. | 'to ride'. |
+
+### Gloss
+
+Every entry of `gloss.json` was read against the text, the units' morph and the packet's Ming gloss. Format, Ming brackets and key set are sound (125 keys = novel-forms; no invented modern forms; no unused keys). Changes:
+
+| Entry | Field | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| qorγalaγsad, qorγalaγ | dictionary form, text | minor | Lemma `qorγaγla-` against the printed qorγala-γsad; qorγalaγsad said to be 'printed with a hyphen' (that is unit 9, the other token). | Lemma `qorγala-` (also written qorγaγla-); hyphen remark moved to `qorγalaγ`. Units 8, 9 agree. |
+| γaruγ̇asu | grammar label | minor | Ending `-γasu` (the form is -uγ̇asu). | `-uγ̇asu`, u a linking vowel; unit 5 agrees. |
+| asaγčuγ̇u | grammar label | minor | 'the -žuγ̇u of vowel stems after a consonant' (garbled). | 'the form of -žuγ̇u after a consonant stem'. |
+| belgütei-eče | meaning | minor | 'half-brother of Chinggis': not in the Ming or the text. | Dropped. |
+| daisu | meaning | minor | 'enmity, hostility' led, against Ming 反. | 'rebellion, revolt (read from the Ming 反 …; perhaps a form of daisun)'. |
+| beki-ji | meaning | minor | 'beki, a title, chief': remembered; Ming 名 only. | 'second part of the names Tögüs-Beki and Toγtoγ̇a-Beki (perhaps a title; the Ming has only 名)'. |
+| boγ̇ollduja | grammar label | minor | `-l-` + `-du-` 'reciprocal/plural'. | `-ldu-` verb-maker (Ming 做使), perhaps reciprocal, uncertain. Units agree. |
+| jari | dictionary form | minor | Entry `-(i)jar` while the token is jar(i) and the (i) before it belongs to uruk(i)-/aimak(i)- (units 1, 12 had `-jar`, 39 `-(i)jar`). | `-jar … the token jar(i)`; unit 39 aligned. |
+| uruki | meaning | trivial | 'one's own clan': 'own' is the reflexive -jan, not uruk. | 'kin, kinsfolk, clan'. |
+| čiγ̇un-dur | meaning | trivial | Line-pinned tail 'the measure by which the Tatars are to be matched'. | Dropped. |
+| öġüje | meaning | trivial | Passage-pinned reading ('here an auxiliary after a converb chain') as the headline. | General entry 'ög- to give; hortative -üje'; the auxiliary use kept as 'perhaps … uncertain'. |
+| ülidtele | meaning | trivial | 'so "to the last"' is a reading of this line. | '-tele, "until, down to"'. |
+| orotuγai | meaning | trivial | 'let him enter' pinned to unit 13. | 'let (him) enter'. |
+| jesügen, jesüi | Ming | trivial | One Ming bracket, but the packet writes (婦人)名 at 5 of 6 (jesügen) and (女)名 once (jesüi). | Variant glossings added after ' · also'. |
+| `__broaden__`: daqu | text | trivial | Second part had no Ming bracket; packet gives 的. | `[的]` added; it states that -daqu (tamiγ-daqu) is not the noun 'coat', so the fur-coat sense does not cover it. |
+| `__broaden__`: kisal | text | trivial | 'grudge, a wrong, a score to settle' claimed more meaning than Ming 仇 (same sense as 讎). | Kept, but trimmed to 'also glossed 仇 (Ming), "grudge, enmity, a score to settle"', on the precedent of böġesü 'also glossed 有呵'. Dropping it is defensible; the old entry still covers the token. |
+
+All seven `__broaden__` entries (`i`, `quntuγtai`, `gedkün`, `gürümele`, `öġere`, `daqu`, `kisal`) were checked: each is the whole published entry, ' · ', then the new sense; the old text is byte-identical to the published glossary (checked by script). `i` is the standalone (i) of `Tatar-tur-(i)-jan`; `quntuγtai` is the name against the published word; `gedkün` gives the Ming 棄了您 analysis beside the published 撇 converb; `gürümele` (苗條) and `öġere` (𠮠) differ from the published Ming and meaning.
+
+### Findings refused or left
+
+- `saγ̇ulžu` (`saγ̇u-` + `-l-`) against the published stem `saγ̇ul-`: kept; the published `saγ̇ulba` has the same split.
+- `mori` + `-la-` against published `morin`: both spellings are in the published parts.
+- `čin-u`, `čima-dāča`, `nama-ji` (`či`/`bi` + ending, oblique stem named): published parts have both `či + -n-u` and stem-lemma forms; kept.
+- Ming variants within one key (kiduja 殺︀着/盡殺︀, samšižuγ̇u 廢耗了/廢耗有來, `erte`, `sai`): same meaning, no broadening.
+- `bi` 'is' (unit 40) and 'I' (unit 42): the published `bi` entry has both.
+- `Qaγan-(n)i` (unit 51): left as uncertain, as the note says.
+- `Jeke-Čelen`/`Jeke-Čeren`, `-dqun`/`-dkün`, `ažiγ̇ai`, `žerge-dür`: as in pass 1.
+- 'brawlers' for `kereġür-i` (Ming 鬭毆的行): kept; the Ming 的 makes it persons.
+
+### Remaining doubts
+
+1. Unit 35: whether the sitter between the two women is Chinggis or one of them; i now says only 'sitting between', the note says Chinggis.
+2. `dere abun üküje` (cushion); `ögkü-jü`/`žailasu` (give way); `bodo-da`; `čiγ̇un-dur uli-` (criterion deliberately unstated).
+3. `-ldu-` in `boγ̇ollduja`, `-jaldu-` in `qubijalduja`: shapes thinly attested.
+4. Unit 28 `hoilažu` 'going into the forest' follows the published gloss; `i` of 28 supplies 'her'.
+5. `kisal` broaden: could be dropped without loss.
+6. The word `žüg žüg` (packet index 52, Han 竹克竹克) is one packet word containing a space; unit 4's `t` therefore has 7 space-separated tokens for 6 `words` entries. Nothing was changed; the build's word-splitting should be watched. Likewise the glossary tokens for `(i)` words (`jari`, `qančun-duri`, `oin-duri`, `düri`) were checked only against the existing keys, not by a build.
+7. Unit 33 `adali boldažu … oin-dur(i)-jan oroγ̇ulžu` remains a reading; unit 21 'taken a husband'; unit 32 'her sister' dependent on context.

@@ -71,3 +71,56 @@ Counts by change-row (a row that touches `l`, `i` and the note for one fault cou
 - known-forms.json has λῆθε as "aor. 3 sg." (from an earlier part). Here it is the imperfect (193); the entry should be broadened or corrected, not left as "aor." for this use. λάθε (277) is the aorist and is covered.
 - δίον: see above.
 - ἕζετο entry ("impf. 3 sg.") agrees with the corrected note.
+
+# Review, pass 2 — iliad-140 (Iliad 22.188–288)
+
+`t` untouched (all 63 `t` values compared before and after). Method: every unit read Greek → `l` → `i` → note against the line; the whole of `gloss.json` (80 entries and 17 `__broaden__` entries) read against the lines; the house tables grepped for each content word. Quotation marks re-checked by script: 7 speeches, each “ on its `mark` unit (216, 229, 233, 239, 250, 261, 279) and ” on the last unit (222, 231, 235, 243, 259, 271, 288), counts balanced, none stray; no straight quotes, doubled spaces or stray spaces before punctuation in `l`, `i`, `n`; no Greek in `l`/`i`. Gloss entries all under 230 characters except the `__broaden__` ones (old text whole, as the runbook requires); only ’ used inside entries.
+
+## Changes to units.json
+
+| Line | Field | Sev | What was wrong | What was done |
+|---|---|---|---|---|
+| 229, 250 | l, i, n | HIGH | ἄστυ rendered "city". The table keeps ἄστυ "town" and "city" for πόλις (2.801, 6.392 "the great town", 8.517, 12.74; 16.376 has "city" for ἄστυ and is the odd one out). 198 ποτὶ πτόλιος keeps "city" (πόλις) | "town" in `l`, `i` and the 229 note, three places |
+| 239 | l, i, n | HIGH | ἑξείης "one after another": table 1.448 gives "in order" and keeps "one after another" for ἐπασσύτεροι | "in order" in `l`, `i`; note "‘in order’" |
+| 233 | i | HIGH | γνωτῶν "of all my kin": table 3.174 gives "kinsfolk" in both layers (and the note already says so) | "of all my kinsfolk" |
+| 243 | i | HIGH | δαμήῃ "be brought down": table (5.106, 6.368, 16.326) gives `i` "overcome" | "be overcome by your spear" |
+| 270 | i | HIGH | δαμάᾳ "bring you down": same | "will overcome you by my spear" |
+| 250 | n | MEDIUM | "δίον … an imperfect of δίεμαι, not a form of διώκω": the lemma is δίω "flee in fear" (a separate verb from the δίεμαι "chase" of 189, whose note and glossary entry are right); the note named the wrong verb and contradicted the glossary entry for 189 | note now: unaugmented imperfect of δίω "flee in fear", a different verb from δίεμαι "chase" (δίηται at 22.189), not a form of διώκω. `l`/`i` "I fled" unchanged |
+| 205 | n | MEDIUM | ἄροιτο called the optative of αἴρομαι; the glossary entry (and the sense "win the glory") is ἄρνυμαι | "aorist optative of ἄρνυμαι ‘win, carry off’" |
+| 254 | n | MEDIUM | ἐπιδώμεθα called a subjunctive "of ἐπιδίδομαι" (no such present; the glossary lemma is ἐπιδίδωμι) | "of the middle of ἐπιδίδωμι" |
+| 212 (first unit) | l, i | LOW | the same Greek as 8.72 has the table's "and he drew them, taking them by the middle" / "and taking hold of them in the middle he drew them up"; the draft reordered it needlessly | `l` "and he drew it, taking it by the middle", `i` "and taking hold of it in the middle he drew it up" (only "them" → "it": the scales, not the κῆρες) |
+| 194 | l, i | LOW | "straight" added for ἀντίον ("against"); "straight" is ἰθύς. `i` "run" for ἀΐξασθαι against `l` "dart" | `l` "to dart against them", `i` "to dart at them" |
+| 202 | i | LOW | "How else" adds a word not in πῶς δέ | "And how could Hector have escaped …" |
+
+new-renderings.md kept in step (rows for 212, 234, 251, 270 changed; rows added for ἄστυ, ἑξείης, δαμήῃ, ἀντίον ἀΐξασθαι).
+
+Counts, units: HIGH 5 (the 229/250 ἄστυ pair counted once), MEDIUM 3, LOW 3; 11 rows.
+
+## Changes to gloss.json (every one)
+
+| Key | Sev | What was wrong | What was done |
+|---|---|---|---|
+| δίον | MEDIUM | lemma settled: δίω "flee in fear", impf. 1 sg., a verb apart from δίεμαι "chase" (the glossary's δίηται). Entry parse was right but did not warn off the homograph | "δίω — flee in fear (a different verb from δίεμαι ’chase’); impf. 1 sg., unaugmented (= ἔδιον; Attic ἔφευγον): ’I fled’". The unit note now fits (see above) |
+| λῆθε (`__broaden__`) | MEDIUM | known entry "aor. 3 sg." is wrong for 193 (long η: imperfect of λήθω) | broadened: old entry whole + " · also λήθω, poetic for λανθάνω; impf. 3 sg., unaugmented (= ἐλάνθανε): ’(did not) escape notice’" (208 chars). λάθε (aorist, 277) was already right and is untouched |
+| συλήσω | MEDIUM | entry said "fut. 1 sg." but the unit note and `l` ("when I have stripped") take it as a short-vowel aorist subjunctive after ἐπεί κε | "aor. subj. 1 sg. act., short vowel, after ἐπεί κε (same form as the fut.), with two accusatives: ’I have stripped (of)’" |
+| ἄμπνυε | MEDIUM | no tense given | "aor. imper. 2 sg. act., epic stem ἀμπνυ- (cf. ἄμπνυτο; Attic ἀνάπνευσον)". Doubtful, kept as aorist (ingressive "get your breath") |
+| ἤντετ | MEDIUM | no tense given; the note says imperfect | "impf. 3 sg. mid. dep., elided (ἤντετ’ = ἤντετο), epic: ’met’" |
+| δαμάᾳ | LOW | "uncontracted -άᾳ" is the wrong description (σ dropped from the future, then contracted) | "fut. 3 sg. act., epic, σ dropped (= δαμάσει; Attic δαμᾷ): ’will subdue’" |
+| ἔκτανες | LOW | "root aorist" (ἔκτανον is a thematic second aorist) | "epic second aorist ἔκτανον" |
+| γουνούμενοι | LOW | "epic contracted": the contraction is ordinary | "epic" clause dropped |
+| πήξεις | LOW | "(= Attic πήξεις)" says nothing | dropped |
+| φοβήσομαι | LOW | "(= Attic φοβηθήσομαι)" overstated | "fut. 1 sg. mid. dep. (Attic also φοβηθήσομαι)" |
+| ὀνείρῳ | LOW | "locative": it is the dative after ἐν | "dat. sg., after ἐν" |
+| ἄατόν | LOW | sense given as certain | "(+ gen.; sense traditional)" added |
+
+Counts, gloss: MEDIUM 5 (δίον, λῆθε, συλήσω, ἄμπνυε, ἤντετ), LOW 6; 11 entries, the λῆθε broadening among them.
+
+## Checked and kept
+
+- **ἄλαστε** "unforgettable one": parse (voc. sg. of ἄλαστος) right, sense hedged "disputed"; matches the Odyssey rows.
+- **καμμονίην**: parse right; "sense traditional" already says it.
+- **ἐπιδώμεθα**: parse right (aor. subj. mid. of ἐπιδίδωμι, hortatory), hedge present.
+- **ἄμπνυε, ἤντετ’**: kept, now with tense (above).
+- Other `__broaden__` entries: each is the old entry whole plus a new reading; all new readings checked against the line (λάθωμαι, πάθοι, μένεος, μαχώμεθα, ἀρετῆς, ἔτλην, πύματόν, πᾶν, πεφυγμένον, γενέσθαι, διώκειν, ἔλασσον, ποτὶ, πῆμα, σεῖο, κεν, εἴ) and true. κέ (258) is covered by the known κε(ν) entry's "ἐπεί κέ + aor. subj." reading.
+- Known entries not rewritten but noted: ἔφεπ says "+ dat. of means" while 188 has the accusative Ἕκτορα; left (never rewrite otherwise). ἔλθοι covers 207 ("ἵνα μή … ὃ δὲ δεύτερος ἔλθοι") already.
+- 191 τόν, 198 αὐτὸς δέ, ἐπίσκοποι vs "scout", ἑκάεργος two-layer wording, ταλαύρινον, ἐπιείκελ’, ἀμύμονα, πόδας ὠκύς, ἐναντίβιον, ἀτειρέα: re-checked against the tables, conform.

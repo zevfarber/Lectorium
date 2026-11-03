@@ -56,3 +56,6 @@ publish without audio until the owner chooses. Do not build audio.
 ## House renderings added by 109-114
 - qād → "sovereigns"; qutuγ eġede → "door-frame of his fortune"; tedüi after a genitive → "no bigger than".
 - Names in `i`: Barqujin, Yeke-Chiledü, Chilger-Bökö, Küchü, Buqura, Lady Üjin, Mother Etügen; Qaldun-Burqan (printed reversed once) → "Burqan Qaldun".
+
+## House renderings added by 146-148
+- Names in `i`: Qada'an, Qudu'udar, Qotun-Orchang, Tödöge, Jebe, Taichi'ud; title Qaγan in `l`, Qahan in `i`.

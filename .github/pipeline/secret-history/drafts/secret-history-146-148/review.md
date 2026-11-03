@@ -122,3 +122,44 @@ Major 1 · moderate 13 (items 2–14) · minor 15 (items 15–29) · trivial 1 e
 4. u59 `Taičiγ̇utai jasutu küġün-i` "of noble bone" is an inference from the Ming 骨頭有的.
 5. The glosser (second pass) must use the lemmas as now edited: bü- for bijü, čerig + -d, situ- + -ldu-, bai- + -ldu-, -ēče,
    -rün after bü-, buča-, ükü- + -ġül- + -de- + -ġešü, Qotun-Orčaṅ; gloss.json does not exist yet, so nothing to reconcile.
+
+# Review, pass 2 — secret-history-146-148
+
+Second look at units.json after the pass-1 edits (no new errors found in `l`, `i`, labels or the u40 passive; l ↔ i, house
+renderings, names and l/i letters re-read for all 63 units), then a word-by-word check of all 109 gloss.json entries and
+10 (now 13) `__broaden__` entries against the text, the units' morph, and the existing glossary. Mechanical: the 255 reader
+tokens are all covered (109 new keys exactly the tokens not already in the glossary, 146 known, none unused); every
+broadened entry begins with the old entry whole + ' · '; lemmas and Ming brackets in gloss.json agree with units.json.
+
+## Changes
+### Moderate
+1. **u7 `asaγura` · units morph + n; gloss `asaγ̇ura`** — named "-γura causative converb, 'sending to ask'". The ending is
+   -ura, the converb of purpose, as the glossary already has it for `abura` ('in order to take'); the sending is the Ming's 敎…去.
+   Done: morph `-ura` "converb of purpose: in order to …", n and gloss entry corrected (l and i unchanged).
+2. **gloss `urid`** — "plural-looking form of urida" had the relation backwards (urida is urid + the locative -a). Now "the base of urida".
+3. **gloss `qarblaγ̇a`** — "shot (it) at (us)": 'at us' invented and line-pinned. Now "shot (it)".
+
+### Minor
+4. **gloss `mudun-i`** — "here the cangue" pinned to the line; reworded as a general note ("also the cangue as 'heavy wood'").
+5. **gloss `gein`** — made less line-pinned (bright, Ming 明; after üdür read 'dawning'; still uncertain).
+6. **gloss `ġüd`** — headword "-ġüd" against the units' lemma "-d"; now "-d — plural, written -ġüd …".
+7. **u16 · i** — "galloped there" supplied a place; kürčü is 'arrived' → "galloped and arrived".
+8. **Broadened (known entry did not cover this use), old entry whole + ' · ' + new:** `že` (shouted call after a name, u6; closing
+   'indeed', u25 — the known entry gave 'indeed / so / yes' only); `qaγ̇an-a` (dative-locative 'to' only; u40 reads it 'by the
+   qahan' with the passive, marked uncertain); `uruγ-a` (known entry 'as kin, to the kin'; here 'to the offspring' in
+   Uruγ-un uruγ-a kürtele).
+
+## Findings refused
+- **`gein`, `küṅgen`, `qal`, `dergečen`, `bölen`, `quγu`, `-ši`** — stems/parts of speech are openly uncertain in entry and note; no better analysis derivable from the Ming. Left, marked uncertain.
+- **`miγ̇užu` entered as niγu-** — Han 你兀周 reads niγuju; Shiratori's printed m is an error; entry says so. Left.
+- **u40 passive -de-** — re-examined: ükü- + -ġül- + -de- is the regular passive after l; sense fits the Ming 皇帝行 敎死呵 and the contrast with u42. Kept (still flagged as my analysis).
+- **`kēġesü` as keġe- + -sü, `niriġü`/`niruγu` as two entries, `aman-niriġü` as a compound entry** — consistent with existing glossary precedent. Left.
+- **`bürün` / `ese` / `tedüi` / `eme` etc. (known entries)** — existing entries already cover this part's uses; not broadened.
+- **u45 i omits `qal`** — i leaves it out because nothing can be said; n and l carry it. Left.
+
+## Counts (pass 2)
+Major 0 · moderate 3 · minor 5 (items 4–8, with the three broadenings counted as one) · trivial 0.
+
+## Remaining doubts
+u40 (-de- passive, 'by the Qahan'); u12 (doer vs object of unšižu); u28 and u31 (meaning rests on the Ming alone); u59 'noble bone';
+u45 `qal`; the stems küṅge-, keġür-, žiγa-, oγo- (inferred from the Ming).

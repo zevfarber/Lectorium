@@ -229,7 +229,7 @@
      "morph": [
       {
        "lemma": "temeče-",
-       "gloss": "to struggle, strive (stem inferred; Ming 爭) [爭]"
+       "gloss": "to contend, struggle (as in temečed; Ming 爭) [爭]"
       },
       {
        "lemma": "-n",
@@ -407,7 +407,7 @@
      "morph": [
       {
        "lemma": "daγ̇uli-",
-       "gloss": "to plunder, seize (stem inferred; Ming 搶) [搶了]"
+       "gloss": "to plunder, seize (as elsewhere; Ming 搶) [搶了]"
       },
       {
        "lemma": "-γ̇ad",
@@ -690,12 +690,12 @@
     {
      "morph": [
       {
-       "lemma": "kür-",
+       "lemma": "kürü-",
        "gloss": "to reach, arrive [到了]"
       },
       {
-       "lemma": "-üġed",
-       "gloss": "converb: having ...-ed (linking vowel -ü- + -ġed)"
+       "lemma": "-ġed",
+       "gloss": "converb: having ...-ed"
       }
      ]
     },
@@ -949,12 +949,12 @@
     {
      "morph": [
       {
-       "lemma": "kür-",
+       "lemma": "kürü-",
        "gloss": "to reach, arrive [到了]"
       },
       {
-       "lemma": "-üġed",
-       "gloss": "converb: having ...-ed (linking vowel -ü- + -ġed)"
+       "lemma": "-ġed",
+       "gloss": "converb: having ...-ed"
       }
      ]
     },
@@ -1059,7 +1059,7 @@
       },
       {
        "lemma": "-da-",
-       "gloss": "stem-extender (the Ming 被 hints at a passive; uncertain)"
+       "gloss": "passive (?): be ...-ed (the Ming 被 hints at it; compare -γda-; uncertain)"
       },
       {
        "lemma": "-žu",
@@ -1280,7 +1280,7 @@
    "t": "Čiṅgis Qaγan tere qadqulduγ̇an-dur sužijasu-ban šilür- težü",
    "l": "Čiṅgis Qaγan that fight-in neck-vein-own wounded-being,",
    "i": "In that battle Chinggis Qahan was wounded in the neck vein,",
-   "n": "§145 opens with the story of the wound and Jelme's care. sužijasu-ban is 'the vein of the neck' (Ming 項頸脉) + -ban, 'his own' (the reflexive-possessive), so 'his own neck vein', which the English turns into 'his'. qadqulduγ̇an-dur is 'in the fighting': the ending -γ̇an makes a noun from the reciprocal stem, and the Ming 陣 reads it as the battle line. The verb is split across the line: šilür-težü, Ming 被傷着, 'being wounded'. I do not know what the -te- is; the Ming 被 hints at a passive. This is the first of several converbs.",
+   "n": "§145 opens with the story of the wound and Jelme's care. sužijasu-ban is 'the vein of the neck' (Ming 項頸脉) + -ban, 'his own' (the reflexive-possessive), so 'his own neck vein', which the English turns into 'his'. qadqulduγ̇an-dur is 'in the fighting': the ending -γ̇an makes a noun from the reciprocal stem, and the Ming 陣 reads it as the battle line. The verb is split across the line: šilür-težü, Ming 被傷着, 'being wounded'. The -te- may be the passive (compare ögteġei in the glossary); the Ming 被 hints at it. This is the first of several converbs.",
    "ln": 145,
    "p": true,
    "words": [
@@ -1352,7 +1352,7 @@
      "morph": [
       {
        "lemma": "-te-",
-       "gloss": "ending of the stem (the Ming 被 suggests a passive; uncertain)"
+       "gloss": "passive: be ...-ed (uncertain; compare ögteġei in the glossary; the Ming 被 stands on šilür-)"
       },
       {
        "lemma": "-žü",
@@ -1597,7 +1597,7 @@
    "t": "Želme busu küġün ülü itegen sakildužu saγ̇užu süni düli boltala",
    "l": "Želme other man not relying, guarding, sitting, night's middle until,",
    "i": "Jelme, trusting no one else, kept watch and sat there until the middle of the night,",
-   "n": "busu 'other' (Ming 別) with küġün 'man' and ülü itegen 'not trusting' (Ming 不 倚附) gives 'trusting no other person'. itegen is likely a converb of ite- 'rely on' but I only know it from the Ming. sakildužu is the reciprocal converb of sakil- 'guard' (Ming 相守着). boltala is the converb in -tala, 'until it became', here 'until': süni düli boltala 'until night became half'.",
+   "n": "busu 'other' (Ming 別) with küġün 'man' and ülü itegen 'not trusting' (Ming 不 倚附) gives 'trusting no other person'. itegen is read as itege- 'rely on' (a stem inferred from the Ming 倚附) with the converb -n. sakildužu is the reciprocal converb of sakil- 'guard' (Ming 相守着). boltala is the converb in -tala, 'until it became', here 'until': süni düli boltala 'until night became half'.",
    "ln": 145,
    "words": [
     {
@@ -1635,8 +1635,12 @@
     {
      "morph": [
       {
-       "lemma": "itegen",
-       "gloss": "relying on, trusting (probably ite- + converb -gen; Ming 倚附; uncertain) [倚附]"
+       "lemma": "itege-",
+       "gloss": "to rely on, trust (stem inferred; Ming 倚附) [倚附]"
+      },
+      {
+       "lemma": "-n",
+       "gloss": "converb: -ing"
       }
      ]
     },
@@ -2123,7 +2127,7 @@
    "t": "činana kürelegsen irgen-ü tergen-dür an-u unužu esüġüd erižü jadažu",
    "l": "That-side camped people's cart-on his mounting, mare's-milks seeking, unable,",
    "i": "He climbed onto a cart of the people camped on the far side and hunted for mare's milk, and could not find it,",
-   "n": "činana is 'on that side' (Ming 那邊), kürelegsen 'those who had camped in a ring' (Ming (下)營了的), irgen-ü is 'of the people', with -ü, the front-vowel genitive. tergen-dür is 'on the cart'. an-u, Ming 他的 'his, their', stands before the converb unužu 'mounting'. esüġüd is the plural of esüg 'mare's milk'. erižü jadažu is a converb pair: 'seeking, not being able'. jadažu (Ming 不能着) acts as 'could not'; the 'could not find' is mine.",
+   "n": "činana is 'on that side' (Ming 那邊), kürelegsen (küreġele- as I read it, the ġ missing in the print) 'those who had camped in a ring' (Ming (下)營了的), irgen-ü is 'of the people', with -ü, the front-vowel genitive. tergen-dür is 'on the cart'. an-u, Ming 他的 'his, their', follows its noun tergen-dür and is folded into 'of the people' in the English. esüġüd is the plural of esüg 'mare's milk'. erižü jadažu is a converb pair: 'seeking, not being able'. jadažu (Ming 不能着) acts as 'could not'; the 'could not find' is mine.",
    "ln": 145,
    "words": [
     {
@@ -2137,11 +2141,11 @@
     {
      "morph": [
       {
-       "lemma": "küreleg-",
-       "gloss": "to camp in a ring (compare küreġeležü; Ming (下)營) [(下)營了的]"
+       "lemma": "küreġele-",
+       "gloss": "to camp in a ring (printed here without the ġ, kürelegsen for küreġelegsen; compare küreġeležü; Ming (下)營) [(下)營了的]"
       },
       {
-       "lemma": "-sen",
+       "lemma": "-gsen",
        "gloss": "past participle: that which has ...-ed"
       }
      ]
@@ -2278,7 +2282,7 @@
     {
      "morph": [
       {
-       "lemma": "saγ̇a-",
+       "lemma": "saγa-",
        "gloss": "to milk [擠]"
       },
       {
@@ -2424,12 +2428,12 @@
     {
      "morph": [
       {
-       "lemma": "abu-",
+       "lemma": "ab-",
        "gloss": "to take [要了]"
       },
       {
-       "lemma": "-γ̇ad",
-       "gloss": "converb: having ...-ed"
+       "lemma": "-uγ̇ad",
+       "gloss": "converb: having ...-ed (linking vowel -u- + -γ̇ad)"
       }
      ]
     },
@@ -2477,12 +2481,12 @@
     {
      "morph": [
       {
-       "lemma": "odo-",
+       "lemma": "od-",
        "gloss": "to go (Ming 去) [去時]"
       },
       {
-       "lemma": "-run",
-       "gloss": "converb of time: when ...-ing"
+       "lemma": "-orun",
+       "gloss": "converb of time: when ...-ing (linking vowel -o- + -run)"
       }
      ]
     },
@@ -2632,7 +2636,7 @@
      "morph": [
       {
        "lemma": "abčira-",
-       "gloss": "to bring, fetch (abču \"taking\" + ire- \"come\", Ming 將來) [將來了]"
+       "gloss": "to bring, fetch (perhaps abču \"taking\" + ire- \"come\"; Ming 將來) [將來了]"
       },
       {
        "lemma": "-γ̇ad",
@@ -3349,12 +3353,12 @@
     {
      "morph": [
       {
-       "lemma": "odu-",
+       "lemma": "od-",
        "gloss": "to go [去呵]"
       },
       {
-       "lemma": "-γ̇asu",
-       "gloss": "conditional: if"
+       "lemma": "-uγ̇asu",
+       "gloss": "conditional: if (linking vowel -u- + -γ̇asu)"
       }
      ]
     },
@@ -3723,8 +3727,8 @@
   {
    "t": "Bariγdaγ̇asu nama-ji eimü-ji ülü-ü žiγ̇aqu büleġe či keġebe.",
    "l": "If-seized me (acc.) thus (acc.) not-? to-tell was you, said.",
-   "i": "If you had been seized, would you not have told them of me like this?\" he said.",
-   "n": "A difficult sentence, and my reading is the least sure here. bariγdaγ̇asu is the passive conditional, 'if seized'. nama-ji eimü-ji: both take the accusative -ji and the Ming has 行 on both, so it is 'me, in this way'. ülü-ü is ülü 'not' with the question particle -ü (Ming 不…麽); žiγ̇aqu büleġe is 'would have told' (Ming 吿麽 有來). I take it that Chinggis scolds Jelme for risking capture: a prisoner would be made to speak. The quotation has no closing quotation mark.",
+   "i": "If you had been seized, would you not have told of me in this way?\" he said.",
+   "n": "A difficult sentence, and I have built the reading from the endings alone. bariγdaγ̇asu is bari- 'seize' + the passive -γda- + the conditional -γ̇asu, 'if (one) is seized' (Ming 被拿了呵); no subject is written, and I take it to be či 'you', which stands last. nama-ji is 'me' in the accusative, and eimü-ji 'thus' carries a second -ji (the Ming has 行 on both; the force of the second is not clear). ülü-ü is ülü 'not' with the question particle -ü (Ming 不…麽, the 麽 standing on the next word); žiγ̇aqu is the participle of žiγ̇a- 'tell' (Ming 吿), and participle + büleġe 'was' gives 'would have told'. The words do not say what was told or to whom: 'tell of me' is as far as the accusative takes me, and no listener is named. I take it that Chinggis asks whether Jelme, if captured, would not have told of him; that rests on the Ming 我行 這般 不吿麽 and is the least certain sentence here. The quotation has no closing quotation mark in Shiratori; keġebe, 'said', follows outside it.",
    "ln": 145,
    "words": [
     {
@@ -3799,7 +3803,7 @@
       },
       {
        "lemma": "-leġe",
-       "gloss": "past: there was, used to be"
+       "gloss": "past: there was, used to be (after a participle, \"would have\")"
       }
      ]
     },
@@ -3892,12 +3896,12 @@
     {
      "morph": [
       {
-       "lemma": "odo-",
+       "lemma": "od-",
        "gloss": "to go (Ming 去) [去時]"
       },
       {
-       "lemma": "-run",
-       "gloss": "converb of time: when ...-ing"
+       "lemma": "-orun",
+       "gloss": "converb of time: when ...-ing (linking vowel -o- + -run)"
       }
      ]
     },
@@ -4047,8 +4051,8 @@
   {
    "t": "qubčasun min-u bügüde-ji talžu γaγča emüdün taluγ̇a üdüġüj-e mültüš aldaγ̇ulžu",
    "l": "Clothes my all (acc.) taking-off, only trousers strip, not-yet suddenly causing-to-slip,",
-   "i": "I would strip off all my clothes, leaving only my trousers, and, before they were ready (?), suddenly slip away from them,",
-   "n": "The least certain unit. qubčasun min-u bügüde-ji talžu is 'taking off all my clothes' (Ming 脫着). γaγča emüdün taluγ̇a, Ming 獨 袴 脫, would be 'only the trousers (to) strip', which I cannot reconcile with 'taking off all my clothes' unless it means 'strip, leaving only my trousers'. The ending -γ̇a on taluγ̇a is not explained; it may be the -uγ̇a seen in γaruluγ̇a and oduluγ̇a (Ming 了來), making taluγ̇a a past 'stripped', which I cannot reconcile either. üdüġüj-e (Ming 未 行) 'not yet' and mültüš 'suddenly' (Ming 倐然), with aldaγ̇ulžu 'causing to slip/lose' (Ming 敎脫了着): the plan is to leave the clothes in their hands and escape.",
+   "i": "I would strip off all my clothes, leaving only my trousers, and, before then (?), suddenly slip away from them,",
+   "n": "The least certain unit. qubčasun min-u bügüde-ji talžu is 'taking off all my clothes' (Ming 脫着). γaγča emüdün taluγ̇a, Ming 獨 袴 脫, would be 'only the trousers (to) strip', which I cannot reconcile with 'taking off all my clothes' unless it means 'strip, leaving only my trousers'. The ending -γ̇a on taluγ̇a is not explained; it may be the -uγ̇a seen in γaruluγ̇a and oduluγ̇a (Ming 了來), making taluγ̇a a past 'stripped', which I cannot reconcile either. üdüġüj-e (Ming 未 行) 'not yet' (my 'before then' is a guess at its force) and mültüš 'suddenly' (Ming 倐然), with aldaγ̇ulžu 'causing to slip/lose' (Ming 敎脫了着): the plan is to leave the clothes in their hands and escape.",
    "ln": 145,
    "words": [
     {
@@ -4126,8 +4130,8 @@
     {
      "morph": [
       {
-       "lemma": "üdüġü",
-       "gloss": "not yet, before (Ming 未) [未 行]"
+       "lemma": "üdüġüi",
+       "gloss": "not yet (Ming 未) [未 行]"
       },
       {
        "lemma": "-j-e",
@@ -4587,12 +4591,12 @@
     {
      "morph": [
       {
-       "lemma": "odu-",
+       "lemma": "od-",
        "gloss": "to go [去了來]"
       },
       {
-       "lemma": "-luγ̇a",
-       "gloss": "past: went (Ming 去了來)"
+       "lemma": "-uluγ̇a",
+       "gloss": "past: went (linking vowel -u- + -luγ̇a; Ming 去了來)"
       }
      ]
     },
@@ -4656,7 +4660,7 @@
     {
      "morph": [
       {
-       "lemma": "edoġe",
+       "lemma": "edöġe",
        "gloss": "now, at present [如今]"
       }
      ]
@@ -4726,7 +4730,7 @@
      "morph": [
       {
        "lemma": "ile-",
-       "gloss": "to go (Ming 去; the verb is doubtful elsewhere) [去着]"
+       "gloss": "to send, to go (Ming 去; as in the house entry) [去着]"
       },
       {
        "lemma": "-žü",
@@ -4783,8 +4787,8 @@
   {
    "t": "amin min-u nigente abču γaruluγ̇a či.",
    "l": "my life once taking, brought-out you.",
-   "i": "you took my life once and brought me out.",
-   "n": "amin min-u is 'life of mine' (Ming 性命 我的). nigente is Ming 一次, 'once' (nigen 'one' + the dative-locative -te, as in the glossary: 'once, one time'; 'at one go' is also possible). abču is 'taking' (ab- + -ču). γaruluγ̇a is the causative of γar- 'go out' with -uγ̇a, 'brought out' (Ming 出了來).",
+   "i": "you took my life once and brought it out.",
+   "n": "amin min-u is 'life of mine' (Ming 性命 我的). nigente is Ming 一次, 'once' (nigen 'one' + the dative-locative -te, as in the glossary: 'once, one time'; 'at one go' is also possible). abču is 'taking' (ab- + -ču). γaruluγ̇a is the causative of γar- 'go out' with -uγ̇a, 'brought out' (Ming 出了來); the object is the life itself, so 'it'.",
    "ln": 145,
    "words": [
     {
@@ -5206,7 +5210,7 @@
    "t": "Ede γurban tusas-i čin-u sedkil dotora min-u atuγai keġen žarliγ bolba.",
    "l": "These three favours (acc.) your heart inside my let-them-remain saying, decree made.",
    "i": "'Let these three favours of yours remain within my heart,' he decreed.",
-   "n": "Ede 'these' and γurban 'three' (Ming 這的每 三件); tusas-i is tusa 'favour' (Ming 恩) + plural -s + accusative. čin-u sedkil dotora min-u atuγai is hard: the Ming reads 你的 心 內 我的 存着, 'your heart inside my let-remain', and I take it as 'let them remain within my heart', with čin-u 'your' going with the favours, not the heart. atuγai is the Ming's 存着 and a hortative ending -γai. keġen 'saying' and žarliγ bolba 'a decree was made' (Ming 聖旨 做了): Chinggis pronounces his thanks as an order.",
+   "n": "Ede 'these' and γurban 'three' (Ming 這的每 三件); tusas-i is tusa 'favour' (Ming 恩) + plural -s + accusative. čin-u sedkil dotora min-u atuγai is hard: the Ming reads 你的 心 內 我的 存着, 'your heart inside my let-remain', and I take it as 'let them remain within my heart', with čin-u 'your' going with the favours, not the heart. atuγai is the Ming's 存着: a- 'be, remain' with the optative -tuγai, as in the glossary. keġen 'saying' and žarliγ bolba 'a decree was made' (Ming 聖旨 做了): Chinggis pronounces his thanks as an order.",
    "ln": 145,
    "words": [
     {
@@ -5284,8 +5288,12 @@
     {
      "morph": [
       {
-       "lemma": "atuγai",
-       "gloss": "let it remain, let it be kept (Ming 存着; hortative -γai on an uncertain stem) [存着]"
+       "lemma": "a-",
+       "gloss": "to be, remain (as in the glossary) [存着]"
+      },
+      {
+       "lemma": "-tuγai",
+       "gloss": "optative: let it ... (Ming 存着)"
       }
      ]
     },

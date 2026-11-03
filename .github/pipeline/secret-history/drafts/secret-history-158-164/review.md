@@ -71,3 +71,57 @@ Unit numbers are the new numbering unless marked 'old' (the draft's 0–63). Mer
 - §164 last unit: what alduba passes (time?), and amaγ̇aralin; the 'father-and-son pledge' unit's grammar (the principle clause is open).
 - Stems inferred from the Ming alone: aisu-, baildu-, jada-, dutaγ̇a-, žusurid-, ažira-, qaγ-, qaγ̇ul-, olulča-, araγ̇a, -γ̇ul- in daba-γ̇ulun.
 - Pass 2 (with gloss.json) still to check: the glossary entries for the new forms, especially birds, tülešilen, γ̇ulun and abur-i.
+
+## Pass 2
+
+Adversarial reviewer, pass 2, with `gloss.json`. Checked: coverage by `r3lib.tokens` over every unit's `t` (122 new tokens = the 122 keys of `gloss.json`, no missing, no unused; all 8 `__broaden__` keys are tokens of this part and already in the shared glossary); the closing `[Ming gloss]` of every entry against the packet's gloss for that token (all match); entry format (dictionary form — meaning (grammar) [Ming]); every entry's meaning and grammar label against the text, the Ming gloss and the shared glossary's related entries; first lemma of each entry against the morph lemmas of the units. Backups of both files kept in the scratchpad. Neither file has its trailing-newline habit changed.
+
+Counts: units 2 entries (minor 1, trivial 1); gloss 20 entries (moderate 3, minor 12, trivial 5).
+
+### Units
+
+| Unit | Field | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| 42, abur-i | morph, n | minor | Lemma `abur` + `-i` split, against the Han (阿不舌里, one word aburi) and the glossary's `aburi` 'disposition'; pass 1 had already said the -i probably belongs to the noun but kept the split and a lemma the glossary lacks. | One morph, lemma `aburi`, gloss 'disposition, conduct (Ming 德行)'; note says the hyphen is Shiratori's and the -i is not treated as an ending. |
+| 52, südü-ġer | morph | trivial | Lemma `südü` beside `šüdü` for the same Han 速都 in unit 51 (šüdütü): two lemmas for one word. | Lemma `šüdü`, gloss notes the printed südü. |
+
+### Gloss entries
+
+| Entry | Field | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| abur-i | whole | moderate | Dictionary form `abur` 'virtue' is an invented lemma; the glossary has `aburi` (aburitu); the entry itself said the -i is part of the noun. | `aburi — disposition, conduct (cf. aburitu; Ming here 德行) …`, no ending analysed; agrees with the unit. |
+| ködölügse-ġer | meaning | moderate | 'by the way already travelled' is the drafter's 'route' (pass 1 removed it from the note as not in the glosses) and was pinned into a general entry; participle label 'ügse(n)' disagreed with the glossary's ködölügseġer (-gsen with linking vowel). | 'in accordance with what moved' only; participle -gse(n) with a linking vowel; cross-reference to ködölügseġer. |
+| köčügüd-ün | meaning | moderate | 'a clan-and-name of the Naiman': 'clan' and 'of the Naiman' are not in the Ming (姓名 'surname-and-name'). | 'Köčügüd — a name (Ming 姓名 'surname-and-name'; analysis uncertain)'. |
+| südü-ġer | lemma | minor | `südü` against `šüdü` of šüdütü (same Han). | `šüdü`, 'printed südü here'. |
+| kürküi-jin | meaning | minor | Line-pinned gloss 'before arriving' (the 'before' is urida's). | 'of the arriving' (urida kürküi-jin, 'before arriving'). |
+| qariγ̇ulqu-ji | meaning | minor | 'the repaying': Ming 囘 is 'return'; §163's note leaves open whether hači is repaid or returned. | 'the returning (object)'. |
+| göreġešün-dür | meaning | minor | 'for, among' pinned to the line. | 'to, in, for'. |
+| manaγaru | meaning | minor | 'tomorrow at dawn': Ming 明早 is 'tomorrow early / morning'. | 'tomorrow early, tomorrow morning'. |
+| šilγ̇un | meaning | minor | 'a person of standing' is added to Ming 君子 'gentleman'. | 'gentleman (Ming 君子; sense uncertain)'. |
+| soγ̇or-tur | meaning | minor | 'a lured fight' is not in Ming 引鬭 (the glosses give 'lead-fight'; 'lured' implies a stratagem). | 'a clash, skirmish (Ming 引鬭 'lead on to fight'; sense uncertain)'. |
+| amaγ̇aralin | meaning | minor | 'perhaps from ama "mouth"' is an invented etymology (only 親厚着 is given). | Removed; 'stem and ending unclear'. |
+| igeġel | meaning | minor | No link to the glossary's igeġe- 'protect, help' (igeġebe, igeġegdeġesü). | 'compare igeġe-; formation uncertain'. |
+| ažiraqu | meaning | minor | Glossary's ažiraba is Ming 囘去 'turned back'; the new entry said 'scatter' with no cross-reference (Ming 散). | Cross-reference to ažiraba added; both Mings shown. |
+| qaγ̇učidba, qaγ̇učidču | meaning | minor | Not linked to the glossary's qaγ̇učin 'old' (Ming 舊). | 'compare qaγ̇učin'. |
+| ügülejü | meaning | minor | '-jü, converb or ending "is speaking"': pinned, and not linked to bijü. | 'present or converb ending (as in bijü), "speaking, is speaking"'. |
+| geiġülün | meaning | trivial | 'when it dawned' pinned to the line. | 'dawning'. |
+| adardaγ̇asu | meaning | trivial | 'if (we are) parted' pinned. | 'if (one is) parted'. |
+| kele-ġer | meaning | trivial | 'tongue' only; the glossary's kele is 'speech' and the unit reads 'tongue' as the organ of speech. | 'tongue, speech'. |
+| keġežüġüi | grammar | trivial | 'front-vowel form of -žuγ̇u': the ending is -žuγ̇ui (as qarižuγ̇ui). | -žuγ̇ui. |
+| __broaden__ be | new reading | trivial | 'moved' pinned to the line. | 'the past ending of a verb written as a separate word (ködöl- be)'. |
+| (all entries) | Ming brackets | trivial | Checked, no change. | — |
+
+### Findings refused
+
+- `__broaden__` entries: all eight are old entry whole + ' · ' + new reading, and each reading is needed by a token of this part whose Ming differs from the old entry (külüġüd 傑每 vs 駿; amu- 歇息; be 了 vs (他); oroγ̇a 野 vs 狡; qaγ̇uluja 征咱; γaruγ̇asu 上呵; baraγsan 了了的/了的; öġede 上 vs 逆水/逆着 — the 逆着 at unit 7 is already covered). Kept. For öġede 'on top of, upon' as a postposition is the glosser's label; the Ming 上 supports it; kept.
+- Bare-stem entries split by a line (daba, ködöl, qočo, rba) say 'its ending stands on the next word': a pinned remark, but it is the only way to explain the token, and the glossary has the same practice (Qaraldai, Toquraγ̇un). Kept.
+- Entries with stems 'inferred from the Ming' (aisu-, baildu-, dutaγ̇a-, žusurid-, qaγ-, qaldu, araγ̇a, muqudγa-, qaγ̇ul-): labelled as inferred in the entry; no better stem available from the glosses. Kept.
+- tülešilen, ülkinžekün, edeči, igeġel, olulča-, toγ̇olai (-lai, compare abtalai in the glossary), γ̇ulun: marked uncertain in the entry; matches the units. Kept.
+- No invented modern forms found beyond those above; every key is the reader's token; every grammar label was rechecked (passive -da-/-γda-/-te-/-gde-, causative -γ̇ul-/-ġül-, converb -žu/-žü/-ču/-ġed, participle -qu/-küi/-γsan/-γči, hortative -ja/-je, conditional -γ̇asu/-ġesü, comitative -luγ̇a/-lüġe) against the shared glossary's usage.
+- Units second look: l/i/n re-read against the Ming for all 55 units; no further change. The pass-1 refusals stand.
+
+### Remaining doubts
+
+- Unit 26 (köġün-eče-ġen) and the speaker's 'son'; unit 38 (ken-ü emüne); unit 19 (tülešilen); unit 20 (haran-a ese toγ̇olai: 'did not reckon it to the people' is a literal shaping, sense unknown); §160 birds (unexplained).
+- The stems qaldu, qaγ-, al- (alduba), dutaγ̇a- are inferred from the Ming alone; the entries say so.
+- The reading of -qu as 'about to' where the Ming has 要 is consistent with the glossary but interpretive.

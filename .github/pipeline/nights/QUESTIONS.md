@@ -1154,3 +1154,6 @@ later night. Shared rule 7 in `.github/pipeline/README.md`: a problem never cost
 once 79 is published, the next firing will hit the mismatch and, per runbook step 0, transcribe
 instead. The archive line at P470L01 should be checked against the page image (transcription
 pipeline's job), or the tool's ordinal pattern taught the 80th formula.
+
+## 2026-11-04 — Night 80 formula not understood by nights_index.py
+`nights_index.py` reads the night-80 formula (P470L01) as «الموفيه المثمانين» and flags ORDINAL MISMATCH; night 80 is also marked "tail unread" (archived only to P472L21). Probably a transcription slip for «الموفية الثمانين» ("the eightieth") — the archive was not changed. Decided meanwhile: night 79 published; the next firing should record/handle the mismatch per runbook step 0 (transcribe, publish nothing past it) and the tool's ordinal pattern may need الموفية الثمانين / the archive line checked against the image.

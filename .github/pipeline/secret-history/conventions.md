@@ -63,3 +63,6 @@ publish without audio until the owner chooses. Do not build audio.
 ## House renderings added by 165-168
 - Names in `i`: Jüchi, Cha'ur-Beki, Qojin-Beki, Högelün, Qarta'ad, Tödögen (Saiqan-Tödögen), Tayang, Jeje'er, Ber-Ke'eled, Sügegetei, Nilqa-Senggum, Father Münlig.
 - maqa (Ming 莫) "perhaps (not)"; barija (拿咱) "let us seize"; the Ming alternates 俺/咱 for the inclusive bida- forms.
+
+## House renderings added by 169
+- Names in `i`: Alaqchid, Kishiliq, Narin-Kegen, Atan; horses Merkidai-Chaqa'an and Aman-Chaqa'an-Keger. deleme: Ming 泛濫 "overflowing, rash".

@@ -1145,3 +1145,12 @@ later night. Shared rule 7 in `.github/pipeline/README.md`: a problem never cost
 - Tight spacing ضوءالمكان / نزهةالزمان (no space) adopted where the print runs them together, medium confidence; a reviewer may spot-check P457L14, P458 L07-09,12,15, P461L18,21, P464 L01-04.
 - Verse vowel marks on P457 (lines 5-9, 11-12) and P460 first half only partly legible; kept as agreed, unverified at mark level.
 - Kashida inside words dropped, per archive convention; stretched final line of P464 (and P459L13) written المب—اح as at P450L07.
+
+## Night 80 ordinal not understood (2026-11-04, publishing run for Night 78)
+
+`nights_index.py` reads the Night 80 opening (P470L01) as «الموفيه المثمانين» and flags
+`MISMATCH: ordinal not understood`; presumably the print or archive has a damaged
+«الموفية الثمانين». Night 79 (P467L11–P469L23) is unaffected and is next. Decided meanwhile: nothing;
+once 79 is published, the next firing will hit the mismatch and, per runbook step 0, transcribe
+instead. The archive line at P470L01 should be checked against the page image (transcription
+pipeline's job), or the tool's ordinal pattern taught the 80th formula.

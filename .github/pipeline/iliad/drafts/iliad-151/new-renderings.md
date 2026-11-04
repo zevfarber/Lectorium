@@ -1,0 +1,32 @@
+| σόλος (826, 839, 844) | "lump" | "lump" | "discus" (the Greek does not say the shape), "weight", "mass of iron", "quoit"; a lump of metal thrown for distance, the note says the shape is not given |
+| αὐτοχόωνος (σόλον αὐτοχόωνον, 826) | "self-cast" | "self-cast" (+ note: probably cast as it stands, not forged) | "unwrought", "rough-cast", "cast in one piece" (each decides the sense); αὐτο- "self" + a root for "pour, cast" |
+| ῥίπτασκε μέγα σθένος Ἠετίωνος (827) | "used to throw the great strength of Eetion" | "the great strength of Eetion used to throw" | "great Eetion", "mighty Eetion" (each erases the periphrasis); follows σθένος Ἰδομενῆος "the strength of Idomeneus" (13.248) and Πριάμοιο βίην (3.105) |
+| κρατερὸν μένος ἀντιθέοιο (Λεοντῆος, 837) | "the strong might of godlike Leonteus" | "the strong might of godlike Leonteus" | "godlike Leonteus, strong in might" (erases the periphrasis); κρατερὸν μένος "strong might" (10.479), ἀντίθεος "godlike" |
+| βίη Τεύκροιο ἄνακτος (859) | "the might of lord Teucer" | "the might of lord Teucer" | "mighty Teucer", "Teucer the prince"; follows βίη Πριάμοιο "the might of Priam" (3.105), ἄναξ "lord" |
+| Τελαμωνιάδης (Αἴας, 838) | "Telamon’s-son" | "son of Telamon" | "Telamonian" (kept for Τελαμώνιος); patronymic rule of Ἀτρεΐδης "Atreus’-son" / "son of Atreus" |
+| Ἐπειός (838 and on) | "Epeius" | "Epeius" | "Epeus"; the Latinised form |
+| ἀπειλέω with a god in the dative and a sacrifice infinitive (ἠπείλησεν … ῥέξειν ἑκατόμβην, 863, 872) | "promise" | "promise" | "threaten" (the table’s rendering at 1.319 and 1.388, which would make Teucer threaten Apollo with a sacrifice), "vow"; a departure from "threaten" because the dative is a god and the infinitive a sacrifice, and the note says so |
+| ἰόεις (ἰόεντα σίδηρον, 850) | "dark" | "dark" (+ note: violet-coloured or rusty, not known) | "violet", "rusty", "blue-grey" (each decides the unknown); from ἴον "violet", with ἰός "rust" noted |
+| ἡμιπέλεκκον (851 and on) | "half-axe" | "half-axe" (+ note: what made it "half" is not known) | "single-bladed axe", "hatchet"; πέλεκυς keeps "axe" (21.120) |
+| ἱστός (of a ship, 852, 878) | "mast" | "mast" (+ note: the word also means "loom") | "pole", "post"; the context is the ship |
+| μήρινθος (854, 857, 866, 867) | "cord" | "cord" | "string", "line", "thread"; the word is rare and its sense follows the context |
+| τρήρων πέλεια (853, 855, 874) | "timorous dove" | "timorous dove" | "shy dove", "fluttering dove", "pigeon"; τρήρων is the adjective "timorous" (the Odyssey’s τρήρωνες, 12.63) and πέλεια "dove" (21.493) |
+| καλαύροψ (845) | "crook" | "crook" | "staff", "club", "throwing-stick"; a herdsman’s staff, thrown after cattle |
+| ἥμονες (ἄνδρες, 886) | "throwing men" | "men who throw" (+ note: the weapon is not named) | "javelin-throwers", "spearmen" (each names the weapon); from ἵημι |
+| ἧμα (ἥμασιν, 891) | "throws" | "throws" | "casts", "javelin-throws"; from ἵημι, the same root as ἥμονες |
+| ἀνθεμόεντα (λέβητα, 885) | "flowery" | "decorated with flowers" | "blossoming"; the table’s ἀνθεμόεις "flowery" is kept for places, and the bowl’s pattern is the one the table says is told apart |
+| ἄπυρον … λέβητα βοὸς ἄξιον (885) | "an unfired cauldron worth an ox" | "an unfired cauldron worth an ox" | "new", "fine"; follows ἄπυρον … λέβητα (23.267) |
+| κελεύομεν (802, with two men as object) | "we bid" | "we call on" | "we order" (the table’s κελεύω, a command to someone under orders); reused from iliad-149 at the same Greek (the Greek of 23.802, line 658 there), which has "we bid" in `l` and "we call on" in `i` |
+| ἐκέλευσαν … ἀνελέσθαι (823) | "gave orders … to take up" | "gave orders that they stop and take" | "bade", "told" (reserved for ἄνωγα); follows the table’s κελεύω "order" / "give orders" |
+| ἀτέμβομαι with the genitive (ἀτεμβόμενός … σιδήρου, 834) | "cheated of iron" | "cheated of iron" (+ note: left without it) | "short of iron", "deprived of iron", "lacking iron" (rejected at 11.705); follows the table’s ἀτεμβόμενος "cheated" |
+| χρεώμενος (834) | "using it" | "to use" | "needing", "in need of"; χρεώμενος is the Ionic form of χράομαι |
+| ἔπλευ (ἔπλευ ἄριστος, 891) | "you have become the best" | "you have become the best" | "you are", "you have proved"; follows the table’s ἔπλευ "have become" (16.29) |
+| ἔχεν πάλαι … ὡς ἴθυνεν (871) | "he had an arrow in hand for some time, while he guided it straight" | "he had been holding an arrow for some time, while Teucer took aim" | "when he had aimed", "as soon as Teucer aimed" (each decides the tense relation); ἰθύνω "guide straight" (5.290) |
+| ἑξείης δ’ ἵσταντο (839) | "in order they stood" | "took their stand in order" | "in a row"; ἑξείης keeps "in order" (1.448) |
+| ὠκὺς … θυμὸς πτάτο (880) | "swift … the spirit flew" | "the swift spirit flew from her limbs" | "life", "soul" (reserved for ψυχή); follows the table’s θυμὸς ᾤχετ’ ἀπὸ μελέων "his spirit left his limbs" (13.671) |
+| λίασθεν (σὺν δὲ πτερὰ πυκνὰ λίασθεν, 879) | "sank together" | "sank together" | "drooped", "folded", "closed"; λιάζομαι "sink, give way", with the tmesis σὺν … λίασθεν |
+| δινεύουσαν (875) | "circled" | "wheeled" | "whirled", "flew in circles"; δινέω "whirl" (840 δινήσας "having whirled") |
+| ἐπήϊξαν · ὁρμήθησαν (817) | "darted on" · "rushed close" | "darted at each other" · "rushed close" | "charged" (each adds a sense), "leapt"; ἀΐσσω "dart" (8.87), ὁρμάω "rush" (10.359) |
+| κῦρε (αὐχένι κῦρε, 821) | "kept on hitting" | "kept reaching for" (+ note: the Greek does not say the point drew blood) | "struck", "pierced", "grazed" (each decides the outcome) |
+| ἥρως (Ἀχιλλεύς / Ἀγαμέμνων, 824, 896) | "the hero" | "the hero" | "the warrior"; ἥρως "hero" (11.771), the note names the person |
+| Reused unchanged (no new row) | | | στῆ δ’ ὀρθὸς καὶ μῦθον ἐν Ἀργείοισιν ἔειπεν (801, 830, published iliad-145 and iliad-150); ὣς ἔφατ’, ὦρτο δ’ ἔπειτα μέγας Τελαμώνιος Αἴας (811) from iliad-150; οἳ δ’ ἐπεὶ οὖν ἑκάτερθεν ὁμίλου θωρήχθησαν and δεινὸν δερκομένω (813–815, iliad-019); σὺν κολεῷ τε φέρων καὶ ἐϋτμήτῳ τελαμῶνι (825, iliad-044); ὄρνυσθ’ οἳ καὶ τούτου ἀέθλου πειρήσεσθε (831, iliad-150); ἀρνῶν πρωτογόνων ῥέξειν κλειτὴν ἑκατόμβην (864, 873, iliad-022); κλήρους … χαλκήρεϊ πάλλον ἑλόντες (861, 3.316); ἄεθλον "contest-prize" / "prize"; ἀγών "gathering"; ταμεσίχροα "skin-cutting"; πικρὸς ὀϊστός "the bitter arrow"; ξυνήϊα "common goods"; ὄζος Ἄρηος "scion of Ares"; ἑκηβόλος "far-shooting"; μεγαίρω "grudge" |

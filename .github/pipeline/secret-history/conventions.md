@@ -59,3 +59,7 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 146-148
 - Names in `i`: Qada'an, Qudu'udar, Qotun-Orchang, Tödöge, Jebe, Taichi'ud; title Qaγan in `l`, Qahan in `i`.
+
+## House renderings added by 165-168
+- Names in `i`: Jüchi, Cha'ur-Beki, Qojin-Beki, Högelün, Qarta'ad, Tödögen (Saiqan-Tödögen), Tayang, Jeje'er, Ber-Ke'eled, Sügegetei, Nilqa-Senggum, Father Münlig.
+- maqa (Ming 莫) "perhaps (not)"; barija (拿咱) "let us seize"; the Ming alternates 俺/咱 for the inclusive bida- forms.

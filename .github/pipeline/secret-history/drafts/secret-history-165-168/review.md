@@ -168,3 +168,50 @@ The house glossary entries for these tokens do not cover this part's use and nee
 - U5: whether taγ̇alažuγ̇ui means 'was pleased with' (the match) or 'consented'.
 - U36: the stem oγ̇or- (Ming 去着 here against 丢 in the house entry).
 - U56: the object of barija (Buqatai and Kiratai, or Chinggis); `i` now leaves it unstated.
+
+---
+
+# Review, pass 2 — secret-history-165-168 (§§165–168)
+
+Reviewer: adversarial, pass 2. Read: conventions.md, runbook.md, packet.md, units.json, gloss.json, novel-forms.json, known-forms.json and the shared glossary. No modern translation opened. Every one of the 127 novel entries and all 17 `__broaden__` entries was checked against the text, the morph lemma and gloss in units.json and the packet's Ming gloss. Mechanical checks, all clean after the edits: gloss keys equal the tokens of `t` not in the glossary (no unused, none missing); each novel entry's closing bracket equals the packet's Ming gloss in novel-forms.json; each of the 471 words carries its packet Ming gloss in brackets in the morph; every `__broaden__` entry begins with the whole old glossary entry quoted exactly and then ' · '; all 17 Ming readings quoted in the broadenings occur in the packet. `t`, unit count (57), word count (471) and morph counts per word unchanged. Name forms (Jüchi, Cha'ur-Beki, Högelün, Qarta'ad, Saiqan-Tödögen, Tödögen) are consistent in `i`, notes, about and glossary English.
+
+Counts: critical 0 · major 1 · minor 12 · nit 2 · total 15.
+
+## Changes
+
+| item | severity | what was wrong | what was done |
+|---|---|---|---|
+| glossary token `ü` (Žöb(ü)-ü, U27, U49) | major | The house entry for `ü` reads 'second half of teriġü,ü, the possessive -tü' (split ending); the reader hovering the question particle in žöb(ü)-ü would be told the wrong grammar. Not in the glosser's `__broaden__`. | Added `__broaden__` `ü`: whole old entry + ' · also the question particle -ü after žöb(ü), "is it right?" (Ming 是麽, 麽 marking a question)'. |
+| `__broaden__` `ündür-ün` (U9) | minor | House entry 'high, tall; of the high' [高的] does not cover this use as part of a mountain name (Ming 山名的); U9's note already says so. | Added `__broaden__` `ündür-ün`: whole old entry + ' · also as part of a mountain name …, "of the Ündür"'. |
+| gloss `γuirun`, `γuiγ̇asu`, `γuju`; units U1 word 4, U41 word 6 | minor | 'to ask for (a bride)': the Ming gives 索 only; 'bride' is the context's, not the verb's, and the entry should be general. | 'to ask for, claim' in all three entries and both morphs. |
+| gloss `boluja`; units U0 word 4 + note | minor | Split bol- + hortative -ja, but the house splits abuja ab- + -uja (consonant stem, linking u); pass 1 refused this on the wrong comparison. | bol- + -uja (the u a linking vowel, as in abuja) in the entry, the morph and the U0 note. |
+| gloss `nemdeġešü`; units U15 word 1 + note | minor | Stem nemdeġe- + '-šü, a variant of -sü' invents a stem; the house analyses -ġešü as the conditional printed with š (nögčiġešü, üġüleġešü, öčiġešü). | nemde- + conditional -ġešü (printed with š) in entry, morph lemmas and note. |
+| gloss `tebčišü`; units U39 word 2 | minor | Label 'optative-conditional' is muddled; the house reads such -šü as an optative spelled with š (üküšü, meküdešü). | 'optative; -šü a spelling of -sü; read from the Ming 要, uncertain'; morph 'optative: would (a spelling of -sü …; uncertain)'. |
+| gloss `gerü-de`; units U9 word 4 | minor | Stem gloss 'shade, the shaded side' contradicted the house gerü 'back, behind' (gerü-deče, gerü-ber). | 'back, the back or shaded side (Ming 陰 "shade"; compare gerü-deče "from behind")'; morph likewise. |
+| gloss `köldežü`; units U18 word 9 | minor | 'to seize by the foot' is an invented verb sense; the house has γarda- 'lay a hand on' for the same pattern. | 'to lay hold by the foot (by parallel with γarda-)'; Ming 拿着 'seize' stated. |
+| gloss `saiqan-tödeġeni` | minor | The entry mixed the name with the next token's ending ('personal name + ending'), attaching Ming 敎 to the name. | Name only; says the (i) is Shiratori's linking vowel and -jer is the next token, where 敎 belongs. |
+| gloss `ima-γ̇ar-i` | minor | Said 'form not analysed' and then analysed it as ima- + -γ̇ar without the house's ima-ji. | Rewritten: ima- (as in ima-ji) + -γ̇ar, ending of uncertain force; -i accusative or linking, uncertain. |
+| gloss `medeġülkü` | minor | 'entrust with' is not in the Ming (敎管 'instruct, manage'). | 'make know, have (someone) manage'. |
+| gloss `öġedi` | minor | 'plural of öġe-' states an unsupported stem. | 'öġe "self" + plural -d, read from the Ming 每'. |
+| gloss `žežeġer` | minor | '(a hill range or heights, uncertain)' guessed from the following ündür; the Ming says 地名 only. | Replaced by 'the Ming says only 地名'. |
+| gloss `keletü` | nit | 'tongue, speech' omits 'word' (house kele 'word, speech'; Ming 話 here, 舌 elsewhere). | 'word, speech, tongue (Ming 話 "word", 舌 "tongue")'. |
+| U31 note | nit | 'which the dictionary also has' — there is no dictionary in the sources. | 'which the house glossary also has'. |
+
+## Checked and left (with reasons)
+
+1. **`deġere`, `bidan-dur`, `bidan-i`, `ireġesü`, `qaraqu`, `nigen`, `ulus`, `ünen`, `erte`, `böġed`, `qočoruγsan-i`, `iležü`, `maqa`, `barija`, `oγ̇orču`, `araγača`, `γuγ̇asu` broadenings** — each begins with the exact old entry and ' · ', each Ming quoted is in the packet (一面, 俺行, 來呵, 看, 一同, 百姓, 眞誠, 在前, 見有, 後了的 行, 敎去着, 莫, 拿咱, 去着, 料來, 索阿). No change.
+2. **`an-dur` 'they, them'** with U4's 'their' for An-u — consistent with the house an-i ('them, third-person plural oblique stem') and an-u ('their').
+3. **`tab(u)` 'so, true'** — a guess from the pairing with žöb, flagged uncertain in the entry; left.
+4. **`itegežüġü`, `taγ̇alaγdaqun`, `uriqun`, `oldaqu`, `eġenegče`, `aralžin`, `kürülčesü`, `bejegedün`** — each already says 'uncertain' or 'inferred'; no stronger claim than the Ming supports.
+5. **`urižuγ̇u`** — mentions that the Ming here (喫着) does not fit uri-. This is the form's own Ming gloss (novel-forms.json), not a line pin; left.
+6. **`duran` '-n reflexive-possessive (uncertain)'** — flagged; left.
+7. **Pass-1 refusal of `ejeten` -ten as plural possessive** — matches the house entry; left.
+8. **Known entries not broadened** (tere, ede, jaγ̇u, qojar-tur, aγsan, tede, bolun, etc.) — Ming differences are only 的/每/行 variations that the house entries already tolerate; no sense is uncovered.
+9. **Names** — Qojin-Beki, Tasaqa, Tayang, Jeje'er, Ber-Ke'eled, Sügegetei, Ebügejin, Qardakidai, Buqatai, Kiratai, Nilqa-Senggum have no earlier published occurrence to match; spelled in the manner of the house (g after ġ, ' after γ̇). Nojakin, Münlig, Quchar, Qachi'un, Cha'ur match the published parts.
+
+## Remaining doubts
+
+- The parsing of ečige-jin čin-u žoban and of 敎管 (medeġülkü) in U32–U33 (pass 1 doubt stands).
+- tab(u) 'true', žokiqu-ju, oldaqu and the -(i)jer of Saiqan-Tödeġen(i)-jer remain first readings, labelled so.
+- Whether the plotter Toγ̇oril of U8 is Qan To'oril; spelling only.
+- Names without a published precedent (list above) could be revised if later parts fix other forms.

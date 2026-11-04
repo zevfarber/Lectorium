@@ -173,6 +173,7 @@ repository is the state, never this table. Run it rather than trusting what is w
 | Night 74 | P454L18–P456L05 | published 2026-11-03, 19 sense units (no verse), 1 slice drafted by the orchestrator (check_slice PASS after --fix); +58 glossary entries |
 | Night 75 | P456L06–P459L13 | published 2026-11-03, 36 sense units (3 verse blocks), 1 slice drafted by the orchestrator (check_slice PASS after --fix); +153 glossary entries |
 | Night 76 | P459L14–P462L10 | published 2026-11-03, 29 sense units (1 verse block), 1 slice drafted by the orchestrator (check_slice PASS after --fix); +133 glossary entries |
+| Night 77 | P462L11–P464L22 | published 2026-11-04, 33 sense units (no verse), 2 slices drafted by the orchestrator (check_slice PASS after --fix); +115 glossary entries |
 
 A night runs 84–224 archived lines (about 5½ printed pages), so eight transcribed pages yield
 roughly one and a half nights. Eight units are waiting as of 2026-09-18, so the next several

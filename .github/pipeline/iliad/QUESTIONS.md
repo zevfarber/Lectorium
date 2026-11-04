@@ -89,3 +89,6 @@ Greek identical to published 1.201 (καί μιν φωνήσας ἔπεα πτ�
 ## 2026-11-03 · iliad-139 (22.90–187)
 - Validator check 6 (repeated Greek must repeat its English) is relaxed for iliad-139 lines 131, 181 and 183 only: the Greek recurs from iliad-132/103/046, but here the closing mark differs (131 ends in a comma; 183 ends in a stop-less unit continuing the speech) or the speech closes (181, ”). The English is otherwise the shipped English. Decided meanwhile; owner may prefer otherwise.
 - ἀεθλοφόρος: 22.162 "prize-bearing" (matches 11.699/9.124 rows) vs iliad-138 22.22 "prize-winning". Left as shipped; owner may want 22.22 changed to "prize-bearing".
+
+## 2026-11-04 · iliad-153 · 24.184
+Greek identical to 24.155 but Iris addresses Priam, so 'led you / kill you' is true where 155 has 'him'. Validator same-Greek check exempted for iliad-153 line 184 only (as for 139). Also: last unit of iliad-152 (ln 91) has a note beginning mid-word ('ς is ‘a vain word’') — owner may fix.

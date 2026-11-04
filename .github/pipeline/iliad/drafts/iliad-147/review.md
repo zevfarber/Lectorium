@@ -90,3 +90,50 @@ Totals: major 5, moderate 23, minor 31 (59 findings, 57 fields changed in `units
 - **Remembered English.** Nothing found that arrived as a ready-made phrase; the Odyssey and Iliad borrowings (394, 396, 417/446, 442, 456, 457) match the published English and the packet.
 - **Packet gap.** 23.456 is word for word 23.271 (published in iliad-145) but is not listed in the packet. The unit's `l` and `i` are identical to the published ones, so the validator rule is met.
 - **Scansion.** Packet flags: none; nothing hand-scanned.
+
+---
+
+## Pass 2 (gloss)
+
+Reviewer, second pass, over `gloss.json` against `units.json` (every `t`, `l`, `i` and note re-read; `units.json` unchanged, `t` untouched; no error found in the units). Every novel entry was parsed against its form in the line, every `__broaden__` was checked against the current `iliad-glossary.json` in the repository root, and entry format was checked by script (under 230 characters, typographic ’ only, no digits or "here", every key in this part, every part form has an entry). Result: `gloss.json` now has 114 new forms and 24 broadenings (was 135 and 24); a dry run of the build's own gloss checks passes.
+
+Totals: major 2, moderate 8, minor 13 (23 findings).
+
+### Changes
+
+| form · field | sev | what was wrong | what was done |
+|---|---|---|---|
+| 17 novel forms (δακρυόφι, δρόμον, θῆλυς, λήσει, μετέσσυτο, προὔχοντα, φωνή, ἀδμήτου, ἀχνυμένω, ἄεθλον, ἄνευθ, ἆξαι, ἐγεγώνει, ἐλεγχείην, ἐόντος, ἔρρ, ὀρθὸς) | major | the glosser worked from a snapshot older than the repository glossary: these forms already have entries, and the build stops on a redefinition ("use __broaden__"). Each existing entry covers its use here | removed from gloss.json |
+| 4 more of the 21 stale "novel" forms (κεῖσέ 459, μύθοις 478, φράσσατο 453, ἕστατον 443) | moderate | existing entry does not cover the use: κεῖσέ is used of place ("out there"), μύθοις is pinned to "upon words" (here "with words"), φράσσατο lacks "notice, make out", ἕστατον is only perf. 3 dual (here imper. 2 dual, μὴ δ’ ἕστατον) | turned into `__broaden__` entries: old entry whole + " · also …" |
+| `__broaden__` bases (αἳ, εἶχε, μὴν, ἄλλο, ἅπαντα, ἔσχετο, ἵπποις, ὀλίγον, ὀξύτατον) | major | the old entry quoted was the stale snapshot's, not the repository's, so the build would stop ("must keep the old entry whole"). Nine entries in the root had been extended since | rebuilt from the root text. αἳ, ἄλλο, ἔσχετο, ὀλίγον dropped: the root entry already covers 391/433/459/467/480 (αἳ), τὸ μὲν ἄλλο τόσον (ἄλλο), φωνὴ ἔσχετο (ἔσχετο), ὀλίγον χρόνον and adverbial ὀλίγον (ὀλίγον). εἶχε, ἅπαντα, ἵπποις, ὀξύτατον kept, appended to the root text; μὴν kept, rebuilt (see below) |
+| ἀλὲν (420) | moderate | parsed "aor. 3 sg. pass., ἀλέν (= ἐάλη): had gathered"; it is the neuter aorist passive participle agreeing with ὕδωρ, as the unit note (420) and `l` ("having gathered") say | "aor. part. pass. neut. nom. sg. (masc. ἀλείς), agreeing with ὕδωρ: ’having gathered’" |
+| παρέλασσ (382) | moderate | called "unaugmented"; παρέλασσε is augmented (παρ-ε-λασσε), Attic παρήλασε | "augmented, epic -σσ- (= Attic παρήλασε)" |
+| δηλήσεαι (427) | moderate | "fut. 2 sg." against the unit note (a "future-looking subjunctive") | "aor. subj. 2 sg. mid. (or fut. indic.)", the same form for both, Attic δηλήσῃ |
+| ἐλύσθη (391) | moderate | lemma "εἰλύω (epic ἐλύω)" invents a second verb; the note says aor. pass. of εἰλύω | lemma εἰλύω, "epic spelling ἐλύσθη (for εἰλύσθη)"; senses "rolled, dragged" kept (the note and `l`/`i` use both) |
+| εἰσορόωντο (448) | moderate | Attic equivalent given as the active εἰσεώρων for a middle form | "= Attic εἰσεωρῶντο" |
+| καταχεύῃ (407) | moderate | gloss "lest it pour": the subject is Aethe | "lest she pour (shame) on" |
+| ποδώκεες (375) | minor | "swift-footed"; the table fixes ποδώκης as "fleet-footed" and pass 1 changed `l`/`i`/note to it | "fleet-footed" |
+| βάθυνε (420) | minor | "aor."; the note says an aorist or an imperfect is possible | "aor. (or impf.)" |
+| τούτοισι (444) | minor | "for these": the dative is the possessor of πόδες καὶ γοῦνα ("the feet and knees of these", `i`) | "of possession: ’of these’" |
+| φερώμεθα (411) | minor | extra reading "also hortatory: ’let us carry’" occurs nowhere in this part | removed |
+| ἐφράσαθ (450) | minor | extra reading "also ’devised, planned’" is not a use here and the lemma already says "devise" | removed |
+| θρυλίχθη (394) | minor | "sense from context" | "sense a guess from context" (as the note) |
+| παροίτεραι, παροίτεροι | minor | "comparative of πάρος-type" is vague | "(compare πάρος, πάροιθε)" |
+| νοήσω (415) | minor | broadening "1 sg. in a plain statement of intent" gave no mood | "aor. subj. 1 sg. with future sense" |
+| στεῖνος (418) | minor | example "a narrow of the road" is not English | "a narrow place of the road" |
+| εἶχε (401) | minor | "adverbial ἐπί … held on behind" | "with ἐπί in tmesis, of a chariot following: ’kept on behind’" |
+| μὴν (410) | minor | broaden rebuilt on the root text; the root’s "καὶ μὴν … adding a further item" does not fit "and surely it will be fulfilled" | added " · also καὶ μὴν, emphatic: ’and surely’" |
+| ἅπαντα (420) | minor | old entry in the glosser’s copy lacked κρημνόν; χῶρον ἅπαντα is not covered by the root | appended to the root text |
+| κεῖσέ, φράσσατο, ἵπποις (398), ὀξύτατον (476) | minor | counted above as rebased or stale-snapshot items; contents checked against the lines and kept | none beyond the rebuild |
+
+### Considered and refused
+
+- **τέλεον (373).** "τέλεος — complete, final; masc. acc. sg., epic form (= Attic τέλειον), agreeing with δρόμον: ’finishing’" matches the unit note ("final, finishing", epic form of Attic τέλειος) and `l` ("the finishing run"). Kept.
+- **μεθέηκεν (434).** Aorist 3 sg. of μεθίημι with the epic -εη- (= μεθῆκε) and an infinitive, "let up from (doing)", agrees with the note and with `l` ("had let go the driving"). Kept.
+- **ἐλύσθη, rolled or dragged.** Sense uncertain, both used in `l` and `i`, and the note says "rolled or dragged". Kept both (lemma and spelling fixed, above).
+- **δρόμον (373), θῆλυς (407), ἄνευθ (377), ἐόντος (452), προὔχοντα (453).** The existing entries have a narrower example (ἀνά, ἐοῦσα, "being no more") but the parse and sense given cover the use here. No broadening.
+- **ὀλίγον, ἄλλο, αἳ, ἔσχετο (broadenings).** Dropped as already covered by the root entry; see the table.
+- **ἐξηρώησαν (467), ἔβλαβεν (459).** "swerved out" and "were disabled" differ a little from `l` ("drew back out", "were hindered") but the entries list the root senses; the note already says the sense of ἐξηρώησαν is not certain. Kept.
+- **ἔτυμόν (440), πεπνῦσθαι (440), φέριστοι (409).** Parses true of the line (neuter acc. used as adverb or predicate; perfect infinitive with present sense; vocative plural). Kept.
+- **ἐΐκτην, ἐπιβησομένοισιν.** Gloss entries agree with the pass-1 note fix (pluperfect dual). Kept.
+- **Units re-skimmed.** Greek ↔ `l` ↔ `i` and every note label read once more against the lines; nothing further found, no change to `units.json`.

@@ -58,3 +58,43 @@ Scope: all 74 units / 509 words of units.json read against packet.md, known-form
 ### Remaining doubts (for the glosser and pass 2)
 
 Units 22 (qaraγčiγ̇ud, alaγčiγ̇ud, tuγtan), 25 (Qadag-i tušijaldun), 28 (uduridun), 31 (öre), 35 and 50 (činaru), 36 and 47 (čaγtu), 48 (rhetorical tone), 54 (doṅγodqu-jin urida), 56 (asaraqu-ji), 58 (-jar and which tribe each leader leads), 69-70 (eṅgesge), 72 (tašin). Glossary: the kiġed entry (conjunction 'and') needs broadening to 'having said' (Ming 說了); eled needs its own entry; egeġerü- should be one lemma across 63, 71, 73; the existing turγaγ̇ud entry reads 'companion' (Ming 伴當) and needs 護衞 'guards'; Quildar vs Qujuldar may be one man.
+
+## Pass 2
+
+Scope: units.json re-read in full against packet.md, known-forms.json, novel-forms.json and the current glossary; every gloss.json entry (128 keys, 18 `__broaden__`) checked against its occurrences. Checked by script: all 18 `__broaden__` values begin with the current glossary entry verbatim plus ' · '; every novel key has a gloss and occurs in the text, no key is already in the glossary; first-morph lemma equals the dictionary form of the gloss entry for every novel key; each entry's final bracket equals a packet Ming gloss at an occurrence (only the (每)-spelling of the split reflexive tokens differs); every known-forms entry compared with the packet's Ming gloss at each occurrence (mismatches are spelling or longer-gloss variants, none changes the reading). Pass-1 fixes in units.json checked and sound (tedüi 'those', dobtulqu bolun, egeġerü- in 63/71/73, metüs at 17, Dongqaid, quotation marks).
+
+### Changes
+
+| Unit / entry | Severity | What was wrong | What was done |
+|---|---|---|---|
+| unit 4 `l` | nit | `l` gave 'Uriangqadai', the plain spelling; conventions put Shiratori's form in `l` (t has Urjaṅqadai, note and published part 007-023 use it) | `l` now Urjaṅqadai; `i` keeps Uriangqadai |
+| unit 68 morph (ičuγ̇ažu) | minor | lemma `ičuγ̇a-` is not a dictionary form and disagrees with the glossary's entry for the same token (ič- + causative -uγ̇a- + -žu); note already said ič- + -uγ̇a- | morph now ič- / -uγ̇a- / -žu (Ming bracket kept on the first morph); note says the glossary has it under ič- |
+| unit 40 morph (metüs) | minor | 'kind, sort' noun, the reading pass 1 removed at unit 17; glossary metü is 'like, as' (postposition) and has metüs-i | same wording as unit 17: 'like, of the sort (postposition)', plural 'those of the sort' |
+| unit 22 morph (qaraγčiγ̇ud) | minor | '-γčiγ̇ud = plural of -γčin' states an analysis nobody has; the next word (alaγčiγ̇ud) says only 'plural' | 'plural ending of uncertain form' for both |
+| unit 58 morph (Moṅγud(i)-jar(i)-jan) and note | minor | morph and note called the (i) an accusative; the glossary entries moṅγudi and jari, and unit 64, treat it as Shiratori's linking vowel | morph '-(i)-' linking vowel, not a case ending; note reworded |
+| unit 49 morph (erte) | nit | morph 'long ago' after pass 1 changed `i` to 'Formerly' | 'early, formerly' |
+| gloss `dāča` | minor | entry said it is 'the token left after na-' and quoted the Ming 比我; the token occurs only in Žamuqa- dāča (Ming 行), na-dāča has its own key | context and Ming corrected to the one place it stands |
+| gloss `aisulčažu` | minor | -lča- labelled 'comitative converb'; comitative is -luγ̇a (the unit 15 morph and note call -lča- 'together') | 'converb with cooperative -lča-', still tentative |
+| gloss `qaraγčiγ̇ud` | minor | 'plural of -γčin' invented | 'a plural ending of uncertain form' |
+| gloss `__broaden__` `dür` | minor | added reading 'glossed 的(處) in this part' (a part is not an attestation; no example) | 'glossed 的(處), of, at the side of, as in köġün-dür' |
+| gloss `na-dāča`, `qadquldusu` | nit | 'in one place' pins the Ming variant to a line | reworded without the pin |
+| gloss `uduridun` | nit | -dun left unexplained, though the glossary has uduridču (-dču, d unexplained) | 'compare uduridču' added; lemma uduri- unchanged |
+| gloss `čaγtu` | nit | 'at a fair distance' has no support in 酌中 | removed |
+| gloss `dergedeġün` | nit | 'adverb' only, but unit 2 uses it before bükün as a modifier | 'adverb or adjective' |
+
+### Findings refused
+
+- uduridun lemma udurid- (after uduriduγ̇ad): kept uduri-, which is what the glossary's uduridču uses.
+- bariγ̇uluγ̇ad / ireġülüġed / abuγ̇ad converb written '-uγ̇ad'/'-üġed': consistent with the glossary's own abuγ̇ad ('linking vowel + -γ̇ad'), left.
+- böġed analysed as bü- + -ġed: left; the glossary's böġed entry already carries this analysis and the 'particle of sequence' reading.
+- Unit 45 baisu 'let us stand' against `i` 'is to take his stand': kept, it is the plan reported in Jamuqa's words and the note says so.
+- Unit 35 `i` 'is' against `l` 'was' (ažuγ̇u): kept; the Ming is 有(來) and the note admits the sense is a guess.
+- Unit 17/40 'among the son Temüjin's people' for köġün-dür: kept as a flagged free rendering of the dative.
+- eġü-ber (known entry Ming 這裏, packet 這般) and other known entries with longer Ming glosses: not broadened, the reading is the same.
+- maṅlailan carries one bracket but two Mings (爲頭 at 42, 先鋒 at 57): the entry text names both; left.
+- turγaγ̇udi broadened with 'bodyguard' beside 'companion': kept, the Ming differs (護衞 against 伴當).
+- Unit 4 `i` 'Uriangqadai' and Jelme-Qo'a: left, no house rendering contradicts them.
+
+### Remaining doubts (for the LOG)
+
+Units 22 (qaraγčiγ̇ud, alaγčiγ̇ud, tuγtan: names or descriptions), 25 (Qadag-i tušijaldun: who faces whom), 28 (uduridun), 31 (öre 'aside'), 35 and 50 (činaru, whose side is the far side), 36 and 47 (čaγtu), 48 (rhetorical tone), 54 (doṅγodqu-jin urida), 56 (asaraqu-ji), 58 (which tribe each leader leads), 68 (ičuγ̇a- being ič- + -uγ̇a-), 69-70 (eṅgesge), 72 (tašin 'striking'), 73-74 (bidan-uγ̇ai 'ours'). Glossary: Quildar may be the published Qujuldar; Toṅγaid/Doṅγaid and Tongqaid/Dongqaid spellings differ from the earlier part; the bolun and jan entries are now very long.

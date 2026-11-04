@@ -65,3 +65,53 @@ Scansion of 877 by hand: syllables πρόσ-θεν | Μη-ρι-ο | να-ο-πα
 
 - gloss.json not read (pass 2).
 - new-renderings.md: the drafter’s row for κῦρε changed (see above); nothing else edited. The 802 κελεύομεν row, the 826 σόλος row and the rest are untouched.
+
+# Pass 2 — gloss.json (67 novel forms, 20 __broaden__ entries as delivered)
+
+Method: every novel parse checked against the line in the revised units.json; every __broaden__ base compared character by character with the current root iliad-glossary.json entry (all 20 delivered bases equal the root text exactly; the new reading is joined with " · " in each); every entry checked for length under 230 characters, typographic ’ only, no line numbers, no "here" (the only hits were "there" inside φθῇσιν, a false alarm; the single real "here" was in κῦρε). The key set equals novel-forms.json exactly (67). No entry assumes the old "amazed" reading of θάμβησαν: θάμβησάν and θηεῦντό are known forms whose root entries ("be struck with wonder", "gaze at, watch in wonder") already match the revised 881; the only nearby entry, the ἔχε broaden, quoted "amazement gripped them all" and now reads "wonder held them all".
+
+Counts: 1 medium-high (wrong governing word), 5 medium, 10 low; 1 broaden refused and deleted; 1 broaden added.
+
+## Changes to gloss.json
+
+| form | severity | what was wrong | what was done |
+|---|---|---|---|
+| ἀλλήλων (broaden) | MEDIUM | Said the genitive is "governed by προπάροιθεν"; in the line προπάροιθεν governs ὁμίλου and ἀλλήλων is the object of πειρηθῆναι (πειράομαι takes the genitive). | Reading now: gen. pl., object of πειράομαι, "of one another" (ἀλλήλων … πειρηθῆναι). |
+| πόρωμεν | MEDIUM | Called a "short-vowel" subjunctive "= Attic πορῶμεν"; the ω is the ordinary long-vowel aorist subjunctive, so the label was false. | "aor. subj. 1 pl., hortatory: ’let us give’". |
+| κῦρε | MEDIUM | Contained "here"; said "with ἐπί + dat." as if the preposition went with the verb (ἐπί goes with αὐχένι); "hit upon" contradicted the revised "kept reaching" and the note’s point that the Greek does not say the point struck. | "κύρω — hit upon, reach, light on (+ dat.); impf. 3 sg. act., unaugmented (= Attic ἔκυρε): ’reached’". Impf. unaugmented confirmed. |
+| αὐτοχόωνον | MEDIUM | "cast in one piece" is a rendering the new-renderings table rejects (it decides the sense) and the unit note calls the sense uncertain. | "self-cast, cast as it stands (… exact sense uncertain)". |
+| ἀγῶνος (broaden) | MEDIUM | New reading "beyond the whole contest" against the house rendering ἀγών "gathering" (contest is reserved for ἄεθλον) and the unit’s "whole gathering". | "beyond the whole gathering". |
+| δέδετ | LOW | Committed to pluperfect; elided δέδετ’ is equally perfect δέδεται (the unit note says both). | Both given, with ’is tied’ or ’was tied’. |
+| ἰόεντα | LOW | "violet-grey" is a pick the house table avoids ("violet", "blue-grey" rejected). | "violet-coloured, dark (… whether dark-hued or rusty is not known)". |
+| ἡμιπέλεκκα | LOW | "single-bladed axe" given as a meaning; the table rejects it as deciding what is unknown. | "half-axe (why it is called half is not known; perhaps single-bladed)". |
+| ἐκέλευσαν | LOW | "bid, urge … ’they bade’": ’bade’ is reserved for ἄνωγα; the table has κελεύω "bid, order". | "bid, order, urge … ’they ordered’". |
+| φθῇσιν | LOW | "= Attic φθάσῃ" is not the equivalent of the root-aorist subjunctive. | "= Attic φθῇ". |
+| ἐπήϊξαν | LOW | "epic -ϊξ-" is not a statement a reader can use. | "epic ἐπήϊξαν (= Attic ἐπῇξαν)". |
+| παρέξει | LOW | ’he will supply’: the subject is the lump, not a person. | ’will supply’. |
+| περιπλομένους | LOW | "epic περιπλόμενος" says nothing (there is no Attic form to set against it). | Removed. |
+| ἀροτὴρ | LOW | "plowman": the units and the glossary use "plough". | "ploughman". |
+| ἧκε (broaden) | LOW | New reading gave ’hurled’ for a throw the units render "threw / let fly". | "threw, let fly" and ’and threw it, having whirled it’. |
+| ἔχε (broaden) | LOW | Example read "amazement gripped them all"; the unit and the root entry for θάμβος/ἔχεν use "wonder held". | ’held, gripped’ (θάμβος δ’ ἔχε πάντας ’wonder held them all’). |
+| σθένος (broaden) | LOW | "Eëtion" against the units’ "Eetion". | "Eetion". |
+| ποδός (broaden) | LOW | Two new readings run together with "or" inside one "also". | Split into two " · also" readings. |
+| ἀγῶνα (broaden) | LOW | Deleted: the added reading "the contest itself" contradicts the house rendering, and the root entry (gathering, assembly) already covers both ἐς ἀγῶνα uses. | Key removed from __broaden__. |
+| πάλαι (broaden, added) | LOW | The root entry gives only "long ago, of old"; the use here is "for some time" (Meriones had been holding the arrow a while). | Added: ’for some time’ (ἔχεν πάλαι ’had been holding for some time’). |
+
+## The glosser’s flagged forms
+
+- φερέσθων: "pres. imper. 3 pl. (or dual) mid." is correct and agrees with the revised unit note; kept.
+- ποδός broaden: bases agree with root; both new readings are true of the line (δῆσεν ποδός; πρόσθεν … ποδός); kept, split.
+- χρεώμενος: "χράομαι — use; pres. part. mid. dep., epic uncontracted (= Attic χρώμενος)" correct and matches the unit note and the table (needing rejected); kept. The "+ dat." is the verb’s general construction.
+- ἰόεντα, αὐτοχόωνον: corrected as above.
+- ἐνδίνων: "ἔνδινα — entrails, innards (plural only; origin uncertain)": correct (the word is found once, in this line); kept.
+- ἥμασιν / ἥμονες lemmas: ἧμα (throw, from ἵημι) with "in throws", and ἥμων (thrower) in the plural, are the standard lemmas and agree with the units; kept.
+- αὐτοῦ broaden: the new reading (ἀπ’ αὐτοῦ, "from it", masculine thing, the mast) is true and agrees with the revised note at 880; it partly overlaps the earlier "masc. gen. sg. standing for a masculine thing" reading but adds the preposition and is not wrong; kept.
+- καλαύροπα gender: feminine is right (the relative ἣ in the next line agrees with it); kept.
+- κῦρε: corrected as above.
+
+## Considered and refused
+
+- ἀπόπροθι, πίονες, ἀγροί, ὁππότερός, ἀτεμβόμενός, ἐξείρυσε, ἐφεζομένη, λίασθεν, πτάτο, μέγηρε, λάχεν: parses true of the line; no change. (ἐξείρυσε "with the lengthened εἰρ- of ἐρύω" left as is: the form is the augmented aorist of the lengthened stem.)
+- The glosser’s Teucer and Polypoetes entries mention other persons (half-brother of Ajax, son of Peirithous): true of the poem and not pinned to a line; kept.
+- Known forms spot-checked for coverage (ἣ, ἂν, ὥ, ἀρίστω, ἔπλευ, ἴδμεν, ἀφέηκε, ἀνώγει, ἑξείης, ἔρυτο, πάγη, τάμε, ὑπὸ + gen., ἱστὸν, ἔπι, ἑλισσομένη and others): all covered by the root entries; only πάλαι needed a broaden.
+- Not rechecked: whether the build’s merge (the "__broaden__" mechanism) accepts the replaced ἀγῶνα omission; nothing depends on it.

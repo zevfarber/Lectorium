@@ -94,3 +94,88 @@ Reviewer pass 1 (adversarial). Units are numbered U0–U76 in order, 0-based, ea
 ### Summary
 
 **Summary.** 65 changes logged: critical 0, major 16, minor 36, nit 13 (changes that touch several fields of one unit are logged once; the global morph normalisation is one entry). Nothing critical: no label contradicted the form in a way that changed a translation's whole sense, but sixteen major items remained: i-versus-l/grammar failures (hortative turned future at U7, U29, U35; the comitative at U3; invented subjects and objects at U11, U16, U18, U21; Wang Qan's report at U39–40; the praying at U48; the Mongols with Jamuqa at U50; omitted tende at U53; the Ongirad speech at U73–74) and the atala analysis at U19. The names now follow house spelling (Kereid, Ongirad, Uruqud, Mongqud, Shilügeljid, Büyür). Remaining doubts: (1) U15–U17, Bo'orchu's account of the gap, the pack-horse and the verb that governs -ji, are still a first reading; (2) U18 carries three of Shiratori's full stops in one sense-unit; (3) U33 and U34 (who comes, who dodges; dain-a is a dative); (4) U39–U45, whether Wang Qan's speech begins at U41 and ends at U44 and who 'we' is; (5) U48 abi/babi (no Ming gloss); (6) U49 'born … thus far'; (7) U53 the full stop after tende; (8) U56–U57 the quotation closing after ičuba; (9) U65 who urges whom, the dative on Qaγan-(n)a; (10) U69 hužaγ̇ur as the Qalqa's mouth; (11) U73–U74 the Ongirad's two-option speech and the object of ileġesü; (12) alžaγ̇ad / alžaγ̇üžai as one root; (13) the 'Uruqud' of this part against the 'Uru'ud' clan of 043-054 may be the same body or not.
+
+
+## Pass 2
+
+Reviewer pass 2 (adversarial). Re-read all 77 units (U0-U76, word indices 0-448 as in Pass 1) against `packet.md`, the shared glossary and `known-forms.json`, then every `gloss.json` entry and both `__broaden__` entries. Scripted checks after editing: `units.json` still 449 words in order, `t` identical to the packet words, every morph Ming bracket equals the packet's Ming gloss (empty for lerün/abi/babi); `gloss.json` keys equal `novel-forms.json` tokens plus `__broaden__`; every novel entry's Ming bracket equals `novel-forms.json`. Pass 1 found `ese` 'not yet' and the other house points already settled; the new points below come mostly from comparing lemmas and readings with the known glossary.
+
+### Changes: units.json
+
+| Unit / word | Field | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| U16 (ačiγ̇atu…) | i/n | major | Pass 1 logged 'there stood a horse…' but the file still read 'found a horse with a load on it': a verb of finding that is not in the unit (the note itself says the governing verb is missing). | i: 'a horse with a load, its load tilted sideways, the one standing there,'; note adds 'no verb of finding is printed'. |
+| U0 (Baižu…) | i | minor | 'the men were counted' supplies an object and a passive; bügüdgeġesü is Ming 點視 'looked over, checked', stem uncertain. | 'when day broke and a check was made,'. |
+| U27 (Čiṅgis…) | i | minor | 'saw them': üžežü has no object. | 'Chinggis Qahan saw,'. |
+| U49 (Edün…) | i | minor | 'born to us' invents a dative the Mongol lacks. | 'the son thus far born'. |
+| U67 (Tende…) | i | minor | 'half-height' makes kelteġei (Ming 半 'half') a measure of height. | 'midway on Ornu'u of the Qalqa,'. |
+| w75, w237 qaγdažu | morph | minor | Analysed as an inferred stem qaγda- 'be shot'; the shared glossary has qaγdažu = qaγ- 'shoot' + passive -da- + -žu. | qaγ- + -da- + -žu in both places. |
+| w146 tusdažu | morph | minor | Same pattern left as a stem tusda- 'be struck' although the Ming 被 marks the passive. | tus- (stem inferred) + -da- (passive) + -žu. |
+| w174 öggeġülžü | morph | minor | Lemma öge- 'give'; the glossary's lemma is ög-, and öge- would not give the doubled g. | ög- + -geġül- (doubled causative -ge- + -ġül-, uncertain) + -žü. |
+| w315 abčirad-že | morph | minor | Lemma abčir-; the glossary has abčira- (abčiraba, abčiraja). | abčira-. |
+| w381 jaras(i)-jan | morph | minor | 'jaras' as stem; the Ming 傷痕(每) marks the plural -s, as everywhere in this text. | jara + -s + -(i)jan. |
+| w382 anaγ̇ai | morph | minor | One unanalysed lemma carrying a past meaning ('healed') with no ending named; glossary has -γ̇ai past (ažiγ̇ai). | ana- (stem inferred from Ming 痊可) + -γ̇ai (past, uncertain). |
+| w228 keġen | morph | minor | 'converb that closes a quotation' where no quotation is closed (üge keġen ügülerün). | 'converb: saying (here after üge, introducing the report, not closing a quotation)'. |
+| w5, w143, w158-w404 | morph | minor | 'Chinggis's third son' (Ögödei) and 'Qalqa (Khalkha) river' import outside knowledge; the Ming gives only 人名 / 河名. | Both removed from every morph gloss (2 + 5 words). (Temüjin 'Chinggis's birth name' kept: it is the pipeline's own naming and the glossary already pairs Temüžin/Čiṅgis.) |
+| U9 (Üdür…) | i | nit | 'looked about' adds 'about'. | 'he looked'. |
+| U37 (Tende…) | n | nit | Note said 'from his own sons' against its own singular reading. | 'from his own son'. |
+| U43 (köġün-ü…) | n | nit | 'the arrow stuck like a nail' stated as fact; the Mongol names no arrow. | 'presumably the arrow … (the Mongol does not name it)'. |
+| U76 (Elsen…) | l | nit | l 'Submission entering' against the passive -γda- in the morph. | 'Submission being-entered,'. |
+| w67 ebčeġü-ben | morph | nit | Lemma ebčeġü; glossary lemma is ebčeġün (as köġü for köġün). | ebčeġün (short form before the reflexive). |
+| w144 sužijasu-ban | morph | nit | 'nape, neck'; the glossary has 'vein of the neck' (項頸脉), Ming here 項脈. | 'the vein of the neck'. |
+| w136 sundulažu | morph | nit | 'ride behind' goes beyond the Ming 㬪騎. | 'to ride double'. |
+| w408 hužaγ̇ur-a | morph | nit | 'root, source, end': 'end' is not in the Ming 根源; glossary has 'root, origin'. | 'root, source'. |
+| w399 kelteġei | morph | nit | 'a half-way ledge' invents the thing. | 'half (Ming 半; perhaps half-way)'. |
+| w199 qadqulduqun | morph | nit | -qun 'participle ending' stated without the doubt the glossary gives it. | '(uncertain)'. |
+
+### Changes: gloss.json
+
+| Key | Field | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| __broaden__ qalqa | missing | major | Known entry is 'qalqa — shield [團牌]'; this part uses Qalqa for the river (Ming 河名). A reader would get 'shield'. | Broadened with the river sense. |
+| __broaden__ terge | missing | major | Known entry 'cart, first half of tergeġür [車]'; here Terge is a man's name (Ming 人名). | Broadened. |
+| __broaden__ qailan | missing | major | Known 'qaila- call out [叫喚]'; here Ming 可惜 'what a pity', the opposite kind of word. | Broadened ('alas, what a pity', uncertain). |
+| __broaden__ erüsün | missing | minor | Known 'obtain [得]'; here Ming 奪 'seize'. | Broadened. |
+| __broaden__ ažu | missing | minor | Known 'stay [住着]'; here Ming 存着 'living' (ažu ber üküžü ber). | Broadened. |
+| tusdažu | lemma | minor | tusda- 'be struck' against the passive pattern. | tus- + passive -da- + -žu. |
+| öggeġülžü | lemma | minor | öge- against glossary ög-. | ög- + doubled causative -geġül- (uncertain). |
+| abčirad-že | lemma | minor | abčir- against glossary abčira-. | abčira-. |
+| qadquldud-že | meaning | minor | 'the token split from the particle -že before it': -že follows and is inside the key. | Plain 'particle -že, exhortation (Ming 也者)'. |
+| abi, babi | bracket/grammar | minor | Bracket written '[Ming gloss empty]' (the Ming has none; known lerün uses '[]'); no grammar label. | '[]' and '(invocation word, uncertain)'. |
+| olonkin | grammar | minor | No grammar label ('(uncertain)' only). | 'from olon "many" + an ending -kin, uncertain (noun or adverb)'. |
+| kelteġei | meaning/grammar | minor | 'a half-way ledge' invented; no grammar label. | 'half (Ming 半; perhaps half-way, uncertain) (noun or adjective)'. |
+| anaγ̇ai | lemma/grammar | minor | Whole word as lemma, no grammar label. | ana- + past -γ̇ai (verb, past). |
+| jarasi | lemma | minor | jaras as dictionary form; Ming 每 marks the plural. | jara + plural -s. |
+| ögödei | meaning | minor | 'Chinggis's third son' is outside the Ming and the sources. | Removed. |
+| qalqa-jin | meaning | minor | '(Khalkha)' is a modern identification. | Removed. |
+| __broaden__ jaγ̇u | missing | nit | Known 'what, how'; here 'anything' with ber … ese (Ming 甚麽). | Broadened. |
+| müṅke | grammar | nit | No grammar label. | '(adjective)'. |
+| ebčeġü-ben | lemma | nit | See unit w67. | ebčeġün. |
+| bügüdgeġesü | cross-ref | nit | No link to the glossary's bügüd- (bügüdgeldüžü). | 'compare … bügüdgeldüžü'. |
+| sundulažu | meaning | nit | 'ride behind'. | 'ride double; compare sundulaγ̇ulžu'. |
+| učuma-γ̇ar | meaning | nit | 'an arrow's shooting' adds 'arrow'. | 'shooting, a shot (Ming 射名)'. |
+| alžaγ̇üžai | cross-ref | nit | Left unconnected with alžaγ̇ad. | 'perhaps the same root as alžaγ̇a-'. |
+| toγ̇o, toγ̇olalduba | cross-ref | nit | Glossary has toγ̇a- (toγ̇olai) written toγ̇o-. | Cross-referenced; lemma kept. |
+| hulaγ̇an-boruγad | meaning | nit | Missing hulaγ̇an 'red' and the Buruγad spelling elsewhere. | Added. |
+| hužaγ̇ur-a | meaning | nit | 'end' not in the Ming. | 'root, source'. |
+
+Other entries were checked against the text, the unit morphs and the known glossary and left unchanged: dictionary form, meaning, label, Ming bracket (script) and generality were sound. The two existing `__broaden__` entries (köli, uruγ̇udi) repeat the known entry whole and add a general reading, as in earlier parts.
+
+### Findings refused
+
+| Where | Finding | Reason |
+|---|---|---|
+| U53 | 'not yet' for ese against Pass 1's 'not' at U76 | Known ese entry itself gives 'not yet counted' before a converb; both renderings are within the house gloss. Left. |
+| U65 | i makes the Qahan the one who urged, against the dative Qaγan-(n)a | Reading rests on context (Quildar refuses); doubt is already stated in the note. Left; remains a doubt. |
+| U31 | note's '§170 dust-line' unverifiable | Checked against 170-171 (dust along the front of Ma'u-Ündür past Hula'an-Buruqad): accurate. Left. |
+| U36 | 'went up' for öġede | Known glossary gives 'upstream, up (Ming 逆水)'; fine. |
+| U56 | i drops 'lest' of alžaγ̇üžai | 'may be worn out' keeps the fear sense; acceptable. |
+| U74 | 'when it was sent' (passive) | Pass 1 refusal stands: object and subject are unstated. |
+| qaγdarun | stem could be analysed with passive -da- as for qaγdažu | No pattern to support another stem; left as inferred and uncertain. |
+| žibšijerčü | -rčü vs žibšiġerü- of the glossary | Both stems exist in the glossary; ending is flagged uncertain. Left. |
+| soγ̇or | glossary soγ̇or-tur 'a clash, skirmish' | Both uncertain; ours stays a plain 'luring (uncertain)'. |
+| U10, U22 | 'was seen', 'seemed' | Grammar not misrepresented. |
+
+### Summary
+
+Units: 23 changes, critical 0, major 1, minor 12, nit 10. Gloss: 28 changes, critical 0, major 3 (qalqa, terge, qailan broadenings), minor 14, nit 11. Remaining doubts: (1) U15-U17 Bo'orchu's account and the governing verb of -ji; (2) U39-U45 who speaks which lines in Wang Qan's report; (3) U65 who urges whom; (4) U69 hužaγ̇ur 'root' versus 'mouth' of the Qalqa; (5) U73-U74 the Ongirad's two-option speech and the object of ileġesü; (6) qaγdarun, tusdažu and ködöldeġesü stems; (7) abi/babi; (8) alžaγ̇a- / alžaγ̇ü- as one root; (9) whether the Uruqud of this part are the Uru'ud clan of earlier parts.

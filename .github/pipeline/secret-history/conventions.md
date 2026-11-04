@@ -66,3 +66,6 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 169
 - Names in `i`: Alaqchid, Kishiliq, Narin-Kegen, Atan; horses Merkidai-Chaqa'an and Aman-Chaqa'an-Keger. deleme: Ming 泛濫 "overflowing, rash".
+
+## House renderings added by 172-176
+- Names in `i`: Boroqul, Bo'orchu, Qada'an-Daldurqan, Achiq-Shirun, Jürchedei, Quildar, Ögödei; peoples Kereid, Ongirad, Uruqud, Mongqud, Shilügeljid; Lake Büyür.

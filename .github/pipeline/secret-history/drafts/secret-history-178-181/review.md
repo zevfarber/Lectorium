@@ -63,3 +63,45 @@ Reviewer worked from the Ming glosses, Shiratori's text, the conventions and the
 - Glossary entries for jada-, -ju/-jü (now "question particle after a participle" in U1; keep the entry broad), naida- (Ming 疾惡 as well as 妒), žoboγ̇a-, uγ̇u- (passive uγdarun), kižü (ki- "put in"), and deġe-re-eče are drafter-uncertain.
 - U64 ese-ü: question or "never said".
 - U42: the §180 speech has no closing mark in Shiratori; the closing before keġežü is the reviewer's.
+
+# Review, pass 2 — secret-history-178-181
+
+Worked from the Ming glosses, Shiratori's text, conventions, the published parts and the glossary as it stood at HEAD (before this part's build). No modern translation opened. Edits by `scratchpad/review2.py` (plus a short follow-up for three brackets); pre-pass-2 copies: `units.pre-review2.json`, `gloss.pre-review2.json`.
+
+## Re-check of units.json (518 words, 74 units)
+Rechecked: every word has a morph; lemma against form and grammar label for every morph; `l` literal / `i` idiomatic; names against house forms; quote marks (counts of double marks per `t`, `l`, `i`; single marks only inside speech; no re-opening). Pass 1 held except the items below.
+
+| Unit | Field | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| U10 | i | minor | Stray opening single quote ("'In the old days") in the middle of the speech Shiratori opens at U9; l had none. | Removed. |
+| U49 | i, n | moderate | "the old feeling in my own heart": "feeling" is not in üjen-ü sedkil(i)-jen (Ming 舊的 心 自的行). | i: "Not letting go of my own old heart"; note says this keeps the words and the sense "old regard" is a reading. |
+| U47 | i | minor | "Since others came between us": "others" is not in the text (passive oroγdaqui, Ming (被)入). | "Since someone came between us". |
+| w24, w28, w124, w363 (U4, U5, U19, U49) | morph | minor | Ming bracket of the whole word repeated on both the stem and the reflexive ending (čisun/-ban, sigi/quruγ̇un/-γ̇an, ečige/-jüġen, sedkil/-(i)jen). | Bracket narrowed to the stem's own part ([血], [小], [父], [心]); the ending keeps [自的(行)]. |
+| w18 (U3) | morph | minor | köġü carried [子 自的行] and -ben none. | köġü [子]; -ben [自的行]. |
+| w258, w495, w503, w509, w516, w437, w340 | morph | minor | Same duplication on boγ̇ol/-(i)γ̇ar, Waṅ-Qān/-(n)ača, Toγ̇oril/-dur, Arγai/-(j)ača, qaγan/-(n)a, qojar/-(i)jar, žaγ̇ur/-a. | Stem keeps its own part ([奴婢], [人名], [皇帝], [兩箇], [其閒]); the case ending keeps 行/處/(依著︀) (w340 -a bracket dropped). |
+| w209 (U31) | morph | minor | [曠野(的)] does not match the packet (曠野的). | Restored 曠野的. |
+| w437 | morph | minor | -(i)jar bracket lacked the variation selector of the packet (依著︀). | Restored. |
+
+## gloss.json (113 entries, 5 __broaden__)
+Checked each entry against the text and `units.json`: first lemma equals the morph lemma of the word it glosses (all 113; only sigi-quruγ̇un-u-γ̇an and re-eče differ by design, a compound and a split ending); grammar terms against the forms; the Ming bracket equals the `novel-forms.json` value for every key; no key unused, no novel token missing (301 tokens: 188 known, 113 novel; 0 uncovered, 0 extras). No invented modern forms found. The __broaden__ old texts were checked verbatim against the glossary at HEAD (`git show HEAD:secret-history-glossary.json`; the working glossary had already been rewritten by the earlier build): all five old entries are reproduced whole, followed by " · " and the new reading.
+
+| Key | Severity | What was wrong | What was done |
+|---|---|---|---|
+| köġün-e | minor | "'to (my) son'": "my" belongs to min-u, not to this token. | "'to (the) son'". |
+| jadaba-že | minor | "here … 'unable to bring (it) about'" pinned to this line. | "(after a converb: 'unable to ...'; the exact sense is uncertain)". |
+| böġe | minor | "here in a saying whose sense is unclear" pinned to the line. | Dropped. |
+| __broaden__ kižü | minor | "of putting blood into a pail" pinned to the line. | Dropped. |
+| __broaden__ naidažu | minor | "here 'loathing'" pinned. | Dropped. |
+| __broaden__ qoroqun | minor | "in qoroqun ta 'have you wasted'" pinned. | Dropped. |
+| __broaden__ bolsu | minor | "bolsu keġen 'saying, let him be (qan)'" pinned. | Dropped. |
+| __broaden__ γar | minor | "as in göreġesün γar in-ü …" pinned. | Dropped. |
+
+## Findings refused
+- Retitling the conditional of kēġesü (U17, U19) as "-ġesü": the published glossary entry (kēġesü) and earlier parts read it "-sü, written kēġesü"; kept for consistency.
+- Moving every Ming bracket in the part onto the exact morph that carries it (e.g. töre [道理] / -dēče [行]): the published parts put the whole word's Ming on the lexical morph; only duplicated brackets were narrowed.
+- Re-opening the question/statement choice for hirižekü-jü, ese-ü (U64), qaγačaqu-ju: pass 1 reasons stand; entries and notes already say "uncertain".
+- Changing lemmas bolu- / bol- (boludqun vs bol, bolba): the published glossary uses both (boluba, bolba).
+- Changing the "first drafting" phrase in `about`: precedent in 121-124 to 146-148.
+
+## Build and validate
+`python3 ../run3/r3.py build secret-history secret-history-178-181`: BUILT, 74 units. `validate`: PASS, no WARN lines.

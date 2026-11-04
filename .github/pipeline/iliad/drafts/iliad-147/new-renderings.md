@@ -9,13 +9,10 @@
 | ἠρώησαν ὀπίσσω · ἐξηρώησαν (23.433, 23.468) | "drew back, behind" · "drew back out" | "drew back behind" · "bolted off the course" | "held back" (kept for ἐρύκω and the table's 13.776 usage), "swerved"; ἐρωέω "draw back" as in the table (2.179, 13.776), with ἐκ- in the second |
 | ἀποκηδήσαντε (23.413, dual participle) | "through slackness" | "if we grow slack" | "being careless", "losing heart"; ἀποκηδέω "stop caring, grow careless" |
 | ἄεθλον (23.413, 23.441; the prize, not the contest) | "contest-prize" | "prize" | "contest" (reserved for the Odyssey's ἄεθλος); follows the table's ἄεθλα (23.259) "contest-prizes … prizes" |
-| ἁματροχιάς (23.422; rare, "running together of wheels") | "wheel-clashes" | "a clash of wheels" | "wheel-tracks", "ruts"; ἅμα + τροχός, the note explains it |
+| ἁματροχιάς (23.422; rare, "running together of wheels") | "wheel-clashes" | "clashes of wheels" | "wheel-tracks", "ruts"; ἅμα + τροχός, the note explains it |
 | ῥωχμός · στεῖνος (23.420, 23.419) | "gully" · "narrow place" | "gully" · "narrow place" | "ravine", "ditch", "pass"; στεινωπός "narrow" (23.416) is the adjective from the same root |
-| ἀφραδέως (23.426) | "senselessly" | "without sense" | "foolishly", "recklessly", "madly"; ἀ- + φράζομαι, "without sense" |
 | ἄνεχ’ ἵππους (23.426) | "hold the horses up" | "rein in your horses" | "hold back" (kept for ἐρύκω), "restrain"; ἀνέχω "hold up" |
 | ὅσσα δὲ δίσκου οὖρα κατωμαδίοιο πέλονται (23.431) | "as great as the range of a discus hurled from the shoulder is" | "as far as a discus carries when … thrown from the shoulder" | "the length of a discus-throw"; οὖρα "range, reach of a cast" |
-| ὀλοώτερος (23.439) | "more baleful" | "more baleful" | "more ruinous" (reserved for οὐλόμενος), "more deadly"; follows the table's ὀλοός "baleful / baneful" (1.342, 3.133) |
-| ἔρρ’ (23.440) | "go to ruin" | "Be off with you!" | "get lost", "perish"; ἔρρω "go off, go to ruin" |
 | πεπνῦσθαι (23.440) | "that you had sense" | "you had any sense" | "were wise", "were clever"; πέπνυμαι "be sensible"; the plural φάμεν gives "we … said" |
 | ὁμοκλητήρ (23.452) | "the man shouting" | "the driver shouting" | "the shouter" (as an agent noun); ὁμοκλάω "shout at" per the table |
 | ἐπεὶ μένος ἔλλαβε θυμόν (23.468) | "when might took hold of their spirit" | "when their wild strength took hold of their spirit" | "courage", "fury"; μένος "might" (the table), θυμός "spirit" |

@@ -48,3 +48,33 @@ All 21 rows are sane and conform to their stated houses. One row corrected (668,
 ## For pass 2
 
 gloss.json is not yet read. Pass 2 should check each parse against the (now edited) units, especially ἰόντες (704, nominative plural), ἐρρώσαντο (aorist middle of ῥώομαι), λέξο (aorist imperative middle), ἕντο, δαινῦτο (optative of δαίνυμι, 665), μέμονας, ἐέλμεθα, πεπάσμην, ἀξέμεν, and the homographs βιοῖο/βίος.
+
+---
+
+# Pass 2 (units.json re-read after edits; gloss.json read in full)
+
+Method: `units.json` re-read Greek → `l` → `i`, notes and quotation marks after pass-1 edits (all speech marks now balance: 599–620, 635–642, 650–658, 660–667, 669–670, 683–688, 704–706; nothing new found except the 695 note below). `gloss.json` checked by script against `iliad_lib` (every form of the part has an entry; no entry redefines an existing one; no ASCII quote or backtick; all new entries under 230 characters; all 20 `__broaden__` entries keep the old entry whole), then every parse against its line, then all 454 known forms read against their existing entries for uses they do not cover. The glosser's rewrites of the Odyssey-derived entries (34 in `odyssey-forms.json`) were compared one by one with the originals.
+
+Counts, pass 2: high 0, medium 6, low 11 (17 changes).
+
+| Entry / line | File | Severity | What was wrong | What was done |
+|---|---|---|---|---|
+| χαίρετ (706) | gloss | medium | Parsed "pres. imper. 2 pl. ’rejoice!’" (copied from the Odyssey entry); in εἴ ποτε … χαίρετ’ it is indicative, and the unit's note and `i` say "you rejoiced". | "impf. 2 pl., elided … unaugmented (= ἐχαίρετε), after εἴ ποτε: ’you rejoiced’". |
+| ταρπώμεθα (635) | gloss | medium | Glosser changed the Odyssey's correct "’we may take our fill’" to "hortatory: ’let us …’"; after ὄφρα it is purpose. | "in a purpose clause after ὄφρα: ’that we may take our fill’". |
+| ἐρύκω, μένω (broaden), τέως (658) | gloss | medium | ὄφρα τέως … μένω … ἐρύκω was parsed as a temporal clause ("for so long as I stay"); the unit's `l`, `i` and note read it as purpose ("so that for so long I may wait"), and the known ὄφρα entry lists purpose first. | All three entries now say purpose clause after ὄφρα, with the matching glosses. |
+| γυναικῶν (698, broaden) | gloss | medium | New clause "after πρόσθε: ’before (all) women’" contradicts the unit note, which takes ἀνδρῶν … γυναικῶν as a partitive genitive after οὐδέ τις ἄλλος. | Clause now "partitive after οὐδέ τις ἄλλος: ’of … women’ …". |
+| δοῖεν (686) | gloss | medium | Known entry covers only wish and protasis; here it is the potential with κε (σεῖο δέ κε … δοῖεν ἄποινα). | Broadened: "also aor. opt. 3 pl. with κε, potential: ’they would give’". |
+| 695 (ἔλων) | units n | medium | Note called ἔλων "the participle ‘driving’", but the subject οἳ is plural and a participle would be ἐλόωντες/ἐλῶντες; it is a 3 pl. verb. The gloss already (rightly) treated it as a finite form. | Note: "ἔλων is ‘they were driving’, a rare epic form of ἐλαύνω (here a 3 pl. imperfect)". |
+| ὅσσος (630) | gloss | low | "indirect exclamation"; the unit note says two indirect questions. | "indirect question". |
+| γέγωνέ (703) | gloss | low | Gloss ’cried aloud’ collides with κώκυσε "cried out"; `l`/`i` say "called aloud". | ’called aloud’. |
+| λεχέεσσ (702) | gloss | low | ’on a bier’; the house rendering is "bed" ("bier" avoided). | ’on a bed’. |
+| νιόβῃ (606) | gloss | low | ’angry with Niobe’; house χώομαι is "incensed" (pass-1 fix to `i`). | ’incensed at Niobe’. |
+| πέργαμον (700) | gloss | low | "Pergamos"; the Iliad glossary and table say "Pergamus". | "Pergamus". |
+| ἐριούνιον (679) | gloss | low | "bringer of luck" asserted one guess among others; the house position is that the sense is unknown. | "helper … sense unknown, ’helper’ is one ancient guess". |
+| ἄργυφον (621) | gloss | low | ’white’ drops ἀργ-; house is "silver-white" (Odyssey ἄργυφα μῆλα). | "silver-white". |
+| ὕπο (636, broaden) | gloss | low | Known entry has no state/means use for ὕπνῳ ὕπο γλυκερῷ. | Added "+ dat. of the state one is in: ’in, under’". |
+| ὑπὸ (638, broaden) | gloss | low | Known entry has the dative of agent only after a passive; ὑπὸ χερσίν goes with the active ὤλεσε. | Added "dative of the agent with an active verb: ’at the hands of’". |
+| τοῖσιν (690, broaden) | gloss | low | Dative of advantage ("for them") not listed. | Added. |
+| οἰμωγῇ (696, broaden) | gloss | low | Known entry pinned to εἴχοντο only. | Added the instrumental use with στοναχῇ. |
+
+Checked and left: all the other 80 novel parses (including ἰόντες, ἐρρώσαντο, λέξο, λέξον, ἕντο, δαινῦτο, μέμονας, ἐέλμεθα, πεπάσμην, ἀξέμεν, βιοῖο/βίος, κέατ’ as imperfect, καθέηκα, γνώῃ, κλαίοισθα, γοάοιμεν, θάπτοιμεν, ποιήσαιμεν, πολεμίξομεν, ἐκπέμψειε) are true of the form in the line; the remaining 15 broaden entries (δοιὼ, εὐνάς, κάμε, κλισίης, κείμενον, Λητοῖ, νεκροῖο, σεῖο, σῇς, τηλόθι, τόσσον, τῇ, ὅπως, ἐόντ’, ἡμιόνων, φόνῳ, ἔπειτά, ὧδέ) are true of their lines. The glosser's other changes to the Odyssey-derived entries (κέατ’ as imperfect, κήρυκά … τε, ζωοῦ, δόρπου, etc.) are accurate for this part; the entry for εἰσενόησεν has the lemma εἰσνοέω, which I could not confirm in the sources and left. οἷός (630) and πρόσθ’ (698) in the known list are close enough to the existing entries to leave.

@@ -3,10 +3,10 @@
 | Greek | `l` | `i` | avoided on purpose |
 |---|---|---|---|
 | ὣς φάτο, κώκυσεν δὲ γυνὴ καὶ ἀμείβετο μύθῳ (24.200, whole line) | "So he spoke, and the woman cried out, and answered with a word:" | "So he spoke, and his wife cried out and answered him:" | "wailed" (kept for οἰμώζω); κώκυσεν keeps "cried out" (18.37); ἀμείβετο "answered", μύθῳ "with a word"; γυνή is "his wife" in `i` only, Hecuba being unnamed until 283 |
-| τὴν δ’ αὖτε προσέειπε γέρων Πρίαμος θεοειδής (24.217, whole-line) | "Her then in turn addressed the old man Priam, godlike in form:" | "Then Priam, the old man, godlike in form, spoke to her:" | "king Priam", "godlike" flat (ἀντίθεος); follows the 6.440 pattern for τὴν δ’ αὖτε προσέειπε and θεοειδής "godlike in form" |
+| τὴν δ’ αὖτε προσέειπε γέρων Πρίαμος θεοειδής (24.217, whole-line) | "Her then in turn addressed the old man Priam, godlike in form:" | "Then Priam, the old man, godlike in form, spoke to her in turn:" | "king Priam", "godlike" flat (ἀντίθεος); follows the 6.440 pattern for τὴν δ’ αὖτε προσέειπε and θεοειδής "godlike in form" |
 | τὴν δ’ ἀπαμειβόμενος προσέφη Πρίαμος θεοειδής (24.299, whole-line) | "Her answering addressed Priam, godlike in form:" | "In answer Priam, godlike in form, said to her:" | follows the table’s reply-formula pattern (5.814) |
 | ἀργίποδας κύνας (24.211) | "quick-footed dogs" | "quick-footed dogs" (+ note: ἀργ- disputed) | "swift-footed" (reserved for ποδώκης), "white-footed", "swift dogs" (κύνας ἀργούς, which has no foot); the ἀργ- of κύνας ἀργούς, sense disputed |
-| ἧπαρ ἔχοιμι ἐσθέμεναι προσφῦσα (24.212–213) | "may I have to eat, having fastened on him" | "may I fasten on him and eat the middle of his liver" | "devour", "tear"; ἐσθίω "eat"; μέσον ἧπαρ "the middle of the liver", the note says ἔχοιμι + infinitive is "may I be able" |
+| ἧπαρ ἔχοιμι ἐσθέμεναι προσφῦσα (24.212–213) | "may I be able to eat, having fastened on him" | "may I be able to fasten on him and eat the middle of his liver" | "devour", "tear"; ἐσθίω "eat"; μέσον ἧπαρ "the middle of the liver", the note says ἔχοιμι + infinitive is "may I be able" |
 | Μοῖρα κραταιή (24.209) | "strong Portion" | "strong Fate" | "mighty Fate", "Doom"; follows the table’s Μοῖρα κραταιή (19.410), personified |
 | ἐπένησε λίνῳ (24.210) | "spun with her thread" | "spun for him with her thread" | "wove", "decreed"; ἐπινέω "spin to" (the Odyssey’s ἐπικλώθω "spin to"), λίνον "thread" |
 | ἄντιτα ἔργα (24.213) | "deeds of requital" | "deeds of requital" | "vengeance", "revenge"; ἄντιτος "requiting" |
@@ -25,10 +25,10 @@
 | αἴθωνας τρίποδας, πίσυρας λέβητας (24.233) | "fire-bright tripods … four cauldrons" | same | follows αἴθωνας λέβητας "fire-bright cauldrons" (9.123) |
 | ἐξεσίην ἐλθόντι (24.235) | "when he came on an embassy" | "when he came on a mission" | "errand", "journey"; follows the Odyssey’s ἐξεσίη "embassy" / "mission" |
 | μέγα κτέρας (24.235) | "a great possession" | "a great possession" | "treasure", "gift"; κτέρας "possession" (10.216) |
-| ἐνίσσων (24.238) | "chiding" | "chiding" | "reviling", "rebuking" (νεικέω), "scolding"; ἐνίσσω is new in the poem |
+| ἐνίσσων (24.238) | "rebuking" | "rebuking" | "chiding", "reviling", "scolding"; ἐνίσσω is a by-form of ἐνίπτω, which keeps "rebuke" |
 | ἔρρετε (24.239) | "Be gone" | "Be gone" | "Away with you", "Go to ruin"; imperative of ἔρρω |
 | λωβητῆρες ἐλεγχέες (24.239) | "outragers, shameful ones" | "you shameful outragers" | "disgraces" (kept for the noun ἐλέγχεα), "wretches"; follows λωβητῆρα "outrager" (2.275) and ἐλεγχέες "shameful ones" (4.242) |
-| ὀνόσασθ’ (24.241) | "do you find fault" | "do you scorn it" | "do you blame", "do you grudge"; ὄνομαι "find fault with" (9.164) |
+| ὀνόσασθ’ (24.241) | "do you make light of it" | "do you make light of it" | "do you find fault with" (turned down for ὄνομαι at 4.539), "scorn", "do you blame"; ὄνομαι "make light of" (Odyssey 17.378) |
 | ῥηΐτεροι … ἐναιρέμεν (24.243–244) | "easier … to slay" | "easier … to slay" | "weaker", "less formidable"; follows ῥηΐτεροι "easier" (18.258), ἐναίρω "slay" (6.229) |
 | δόμον Ἄϊδος εἴσω (24.246) | "into the house of Hades" | "into the house of Hades" | "into Hades", "the underworld"; follows 6.422 and 22.482 |
 | σκηπάνιον (24.247) | "staff" | "staff" | "sceptre" (kept for σκῆπτρον) |

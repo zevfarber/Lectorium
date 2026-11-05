@@ -48,3 +48,39 @@ Method: notes checked label by label against the form and line; Greek to `l` wor
 ## Quotation marks
 
 “ on 201, 218, 239, 253, 287, 300; ” on 215, 226, 244, 263, 296, 301; `mark` on the first unit of each speech (201, 218, 239, 253, 287, 300). Counts in `l` and `i` match. The opening unit 200 follows the closing ” of iliad-153's last unit.
+
+## Pass 2
+
+Method: fresh full read of units.json (every note label against the form and line; Greek to `l`; `l` to `i`; house tables grepped again for every verb and epithet), then every entry of gloss.json and every `__broaden__` entry against the line it occurs in and against known-forms.json (old entry whole + " · " + new reading verified by script for all 28). Mechanical checks by script: `t` joins the packet lines (every unit, every line); `l` has the line count of `t`; no straight quotes or backticks in `l`, `i`, `n`; note length 39–85 words (limits 25–110); “ and ” counts equal in `l` and `i` (6 and 6); covered lines 200–301 with no gap. Pass 1's edits introduced two errors (items 3 and 5 below) and left one stale note word (item 4).
+
+### units.json (line · field · severity · wrong · done)
+
+1. 211 · l, i, n · medium · ἆσαι rendered "sate"; the table fixes ἄω "glut" and turns "sate" down for ἆσαι (5.289, 11.574) · "glut" in all three.
+2. 227 (unit 226) · l, i, n · medium · ἐξ ἔρον εἵην: "sent out from me the desire" and "satisfied my longing" depart from the table (ἐξ ἔρον ἕντο "put away desire", Odyssey 1.150; ἐξ ἔρον εἷναι "to have his fill", 13.638; "sated" turned down) · `l` "put away desire of lament", `i` "had my fill of lament", note "send out, put away".
+3. 248 · l, i, n · medium · νεικείων rendered "rebuking" (pass 1 left it): "rebuke" is reserved for ἐνίπτω and ὁμοκλή; the table fixes νεικέω "revile" (4.241) · "reviling" in all three (ἐνίσσων at 238 keeps "rebuking").
+4. 252 · n · low · pass 1 changed ἐκέλευε to "ordered" in the layers but the note still said "was bidding" · "was ordering".
+5. 297 (unit 296) · l, i, n · medium · pass 1 rendered κελοίμην "order", but this is κέλομαι, not κελεύω; the table fixes κέλομαι "urge" and reserves "order" for κελεύω · `l` "would not urge you, urging you on", `i` "would not urge you, pressing you on, to go", note "I would not urge". (220 and 252 are κελεύω and keep "ordered".)
+6. 292 · i · low · "as your messenger": the Greek ἄγγελον has no "your" · "as a messenger".
+7. 257 · n · low · the names said to be in apposition to "none of them" · now "pick out sons from ‘the best sons’ of 24.255, all now dead".
+8. 201 · n · low · ᾗς is the dative plural relative (= ᾗσι, as the known entry has it) agreeing with φρένες; note now says so. οἴχονθ’: note adds that the elided ending could also be οἴχοντο; οἴχονται kept as the reading.
+9. 247 · n · low · σκηπάνιον: the table (13.59) says the note must say it is a rare word · added.
+10. 223 · n · low · "ἐσδέρκομαι (εἰσδέρκομαι)" muddled · "εἰσδέρκομαι ‘look at’, with ἐσ- for εἰσ-".
+11. about · low · "chides", "base disgraces" no longer match the layers · "rebukes", "calling them base shames".
+
+Checked and kept: 200 (γυνή "woman"/"his wife"), 206 (ἐσόψεται "sees" in `l`, "look on" in note: the same verb), 209 (Μοῖρα "Portion"/"Fate" per 19.410), 213 (παιδός "child"/"son"), 222 (= 2.81, identical to the published unit), 230 (= Odyssey 24.276, identical), 234 ἐξεσίη "embassy"/"mission" (table), 237 ἐνίσσων "rebuking" (by-form of ἐνίπτω), 241 ὀνόσασθ’ "make light of it", 253 κατηφόνες "shames", 260 ἐλέγχεα "disgraces", 266 ἐΰτροχον "well-rolling", 267 πείρινθα "basket" (table 24.190), 277 κρατερώνυχας "strong-hooved", 279 ἀτίταλλεν "reared" (5.271, horses; 16.191 "fostered" is for a person), 283 μελίφρονα "honey-hearted"/"heart-sweetening", 286 the ἔπος τ’ ἔφατ’ formula, 290 ὁρᾶται (hedge in note), 296 εὐρύοπα, 295 ταχυπώλων.
+
+### gloss.json (key · severity · wrong · done)
+
+High (a parse or reading false for the line): ἄντιτα (neut. acc. pl.; it is the subject of γένοιτο, nom. pl.) · corrected. εἵην ("epic εἵην = Attic -είην" is muddled; Attic has εἵην too in compounds) · restated. θυοσκόοι ("priest who inspects the burnt offering" contradicts the table: one who attends the offerings, function not certain) · restated. ἐσέδρακον (Attic εἰσεῖδον is a different verb) · restated as the aorist ἔδρακον of δέρκομαι with ἐσ-.
+Medium (meaning disagrees with the final `l`/`i`, or with the table): κατηφόνες ("disgraces!" → "shames!"); λωβητῆρες ("scoundrel", "disgraceful ones" → "outragers"); κηδήσοντες ("to vex" → "to distress"); ζευγνύσθην ("harnessing" → "yoking"); ὀνόσασθ’ ("treat as slight" → "make light of"); πρήσσωμεν ("get on" → "accomplish"); ἀλαπαζομένην ("sacked" → "laid waste"); ἀλεωρῆς ("shelter" first; "epic ἀλεωρή" meaningless → "defence"); ἀργίποδας ("swift-footed" is reserved for ποδάρκης → "quick-footed, perhaps white-footed"); ἁπλοΐδας ("unlined" is turned down → "single, of one fold"); ἐθελούσης ("unwilling" is reserved for ἀέκων → "not wishing"); ἀπήνης ("cart" is turned down → "wagon"); ἔκλε ("unaugmented-looking" is false, ἔκλεο is augmented; lemma κλέω; "renowned" → "famed"); ὁρᾶται ("watches over" → "looks over, surveys", passive hedged); ὀλέσαι ("destroy" only → "destroy, lose"); ἐπιθεῖτε ("= Attic ἐπιθεῖτε" tautology); ἐφιεμένῃ ("an understood σοί": τοι is in the line); πέλευ (lemma πέλομαι).
+Low: γλωχῖνα, δίεπ, ζυγόδεσμον, κρίκον, πέζῃ, ἐπιθήματα (line-pinned or wrong detail removed); κακιζόμενόν (enclitic accent noted); μήστορά (enclitic accent noted); μυσοὶ (lemma Μυσός); οἴχονθ (alternative οἴχοντο mentioned); πυκινὰ ("solid" added); υἱάσιν; ὕπαγον ("bring under" avoided); ὠφέλετ (accent ὤφελετε).
+`__broaden__` (28 entries; each is the old entry whole + " · " + the new reading, verified by script): corrected αἴθωνας ("blazing (tripods)" → "fire-bright"), βούλομαι ("I am willing" → "I want it"), γένοιτο (not a "bare wish" only: "would come to be" matches `l`), ζυγὸν (added the ὕπαγον ζυγόν use at 279), μέσον ("very middle" → "middle"), φόβου ("fear" → "flight"), ἐλέγχεα (dropped "the shames"), ἑλόντ ("understood με": με is in the line), ὀμφαλόν ("knob" → "boss", format). All other readings checked true: αἰδέσεται, δύ, θεοῦ, θεὸς, κάλ, κακὰ, κατακτείνειεν, λύσασθαι, οἷσιν (201 "over whom"), πίσυρας, πρώτῃ, τίς, τῷ (295), τοῖσι, τούς, ἑὸν, ἕκτορά, ᾕρεον, ᾗς (dative plural relative, referring to φρένες).
+Known forms checked against use: no further broadening needed (τὸ πάρος, τοῦ, τὰ, τοὺς, τὴν, ὃ, οἱ, ἐπί, ἂν, μέν, πάντα, ἔχων, δέπας, τάλαντα and the rest already carry the use). Not changed, by rule, though differing from the final English: known ἐκέλευε "kept bidding", ἀτίταλλεν "fostered", ἐνίσσων "upbraiding", κέλομαι "bid, urge".
+
+### new-renderings.md
+
+Updated to the final units: γόου ἐξ ἔρον εἵην, ἐποτρύνουσα κελοίμην, οἰωνὸν … ἄγγελον; added rows for ἆσαι, ἐκέλευεν/ἐκέλευε, κηδήσοντες, νεικείων and ἀτίταλλεν "reared" (the missing row).
+
+### Left for the orchestrator
+
+Nothing blocks the build. Judgement calls kept: 209/213 γένοιτο and 226 κατακτείνειεν are read as optative of wish/consent in a loose sense; οἴχονθ’ could be impf. οἴχοντο; ἀνέῳγεν has pluperfect shape (LSJ) but is read as a simple past.

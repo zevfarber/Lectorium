@@ -6,6 +6,7 @@
 | τὴν δ’ αὖτε προσέειπε γέρων Πρίαμος θεοειδής (24.217, whole-line) | "Her then in turn addressed the old man Priam, godlike in form:" | "Then Priam, the old man, godlike in form, spoke to her in turn:" | "king Priam", "godlike" flat (ἀντίθεος); follows the 6.440 pattern for τὴν δ’ αὖτε προσέειπε and θεοειδής "godlike in form" |
 | τὴν δ’ ἀπαμειβόμενος προσέφη Πρίαμος θεοειδής (24.299, whole-line) | "Her answering addressed Priam, godlike in form:" | "In answer Priam, godlike in form, said to her:" | follows the table’s reply-formula pattern (5.814) |
 | ἀργίποδας κύνας (24.211) | "quick-footed dogs" | "quick-footed dogs" (+ note: ἀργ- disputed) | "swift-footed" (reserved for ποδώκης), "white-footed", "swift dogs" (κύνας ἀργούς, which has no foot); the ἀργ- of κύνας ἀργούς, sense disputed |
+| ἀργίποδας κύνας ἆσαι (24.211) | "quick-footed dogs to glut" | "to glut quick-footed dogs" | "sate", "satisfy" (turned down for ἆσαι at 5.289); ἄω "glut" (5.289, 11.574) |
 | ἧπαρ ἔχοιμι ἐσθέμεναι προσφῦσα (24.212–213) | "may I be able to eat, having fastened on him" | "may I be able to fasten on him and eat the middle of his liver" | "devour", "tear"; ἐσθίω "eat"; μέσον ἧπαρ "the middle of the liver", the note says ἔχοιμι + infinitive is "may I be able" |
 | Μοῖρα κραταιή (24.209) | "strong Portion" | "strong Fate" | "mighty Fate", "Doom"; follows the table’s Μοῖρα κραταιή (19.410), personified |
 | ἐπένησε λίνῳ (24.210) | "spun with her thread" | "spun for him with her thread" | "wove", "decreed"; ἐπινέω "spin to" (the Odyssey’s ἐπικλώθω "spin to"), λίνον "thread" |
@@ -16,7 +17,7 @@
 | θυοσκόοι (24.221) | "sacrificing-priests" | "sacrificing priests" | the Odyssey’s θυοσκόος (21.145) unchanged, with the note that the exact function is not certain |
 | ἐσέδρακον ἄντην (24.223) | "gazed on him, right in front" | "looked upon him right in front of me" | "face to face" (reserved for ἀντίον), "straight in the eye"; ἄντην "right in front" (11.590) |
 | εἰ δέ μοι αἶσα τεθνάμεναι … βούλομαι (24.224–226) | "But if my lot is to die … I want it:" | "But if it is my lot to die … I want it:" | "I would rather", "so be it"; βούλομαι kept as the main verb |
-| γόου ἐξ ἔρον εἵην (24.227) | "I have sent out from me the desire of lament" | "satisfied my longing for lament" | "had my fill of weeping", "my desire for tears"; the idiom is "send out the desire" |
+| γόου ἐξ ἔρον εἵην (24.227) | "I have put away desire of lament" | "had my fill of lament" | "satisfied my longing", "sated", "my desire for tears"; follows the table’s ἐξ ἔρον ἕντο "put away desire" (Odyssey 1.150) in `l` and ἐξ ἔρον εἷναι "to have his fill" (13.638) in `i` |
 | ἐπιθήματα (24.228) | "lids" | "lids" | "covers", "tops"; ἐπίθημα "what is put on" |
 | φωριαμοί (24.228) | "chests" | "chests" | "coffers", "caskets", "baskets" |
 | περικαλλέας πέπλους (24.229) | "very fair robes" | "very fair robes" | "beautiful robes"; περικαλλής "very fair" (3.262, 11.632), πέπλος "robe" |
@@ -25,6 +26,8 @@
 | αἴθωνας τρίποδας, πίσυρας λέβητας (24.233) | "fire-bright tripods … four cauldrons" | same | follows αἴθωνας λέβητας "fire-bright cauldrons" (9.123) |
 | ἐξεσίην ἐλθόντι (24.235) | "when he came on an embassy" | "when he came on a mission" | "errand", "journey"; follows the Odyssey’s ἐξεσίη "embassy" / "mission" |
 | μέγα κτέρας (24.235) | "a great possession" | "a great possession" | "treasure", "gift"; κτέρας "possession" (10.216) |
+| ἐκέλευεν · ἐκέλευε (24.220, 24.252) | "had ordered" · "ordered" | "had ordered" · "ordered" | "bidden", "bade" (reserved for ἄνωγα); κελεύω "order" (Odyssey 21.175) |
+| κηδήσοντες (24.240) | "to distress" | "to distress" | "to trouble", "to vex"; κήδω "distress" (5.400, 9.615) |
 | ἐνίσσων (24.238) | "rebuking" | "rebuking" | "chiding", "reviling", "scolding"; ἐνίσσω is a by-form of ἐνίπτω, which keeps "rebuke" |
 | ἔρρετε (24.239) | "Be gone" | "Be gone" | "Away with you", "Go to ruin"; imperative of ἔρρω |
 | λωβητῆρες ἐλεγχέες (24.239) | "outragers, shameful ones" | "you shameful outragers" | "disgraces" (kept for the noun ἐλέγχεα), "wretches"; follows λωβητῆρα "outrager" (2.275) and ἐλεγχέες "shameful ones" (4.242) |
@@ -32,6 +35,7 @@
 | ῥηΐτεροι … ἐναιρέμεν (24.243–244) | "easier … to slay" | "easier … to slay" | "weaker", "less formidable"; follows ῥηΐτεροι "easier" (18.258), ἐναίρω "slay" (6.229) |
 | δόμον Ἄϊδος εἴσω (24.246) | "into the house of Hades" | "into the house of Hades" | "into Hades", "the underworld"; follows 6.422 and 22.482 |
 | σκηπάνιον (24.247) | "staff" | "staff" | "sceptre" (kept for σκῆπτρον) |
+| νεικείων (24.249) | "reviling" | "reviling" | "rebuking" (reserved for ἐνίπτω and ὁμοκλή); νεικέω "revile" (4.241) |
 | σπερχομένοιο γέροντος (24.248) | "the old man hastening" | "the old man in haste" | "in a rage", "urging them on"; the note says σπέρχομαι may mean hurry or rage |
 | βοὴν ἀγαθός (24.250) | "good at the war-cry" | "good at the war-cry" | table row (3.96), unchanged |
 | κακὰ τέκνα κατηφόνες (24.253) | "base children, shames" | "base children, shames" | "disgraces" (kept for ἐλέγχεα; κατηφείη is "a shame", 16.498), "wretched", "shameful ones"; κατηφών is rare, and the note explains it as "downcast", the sense "disgrace" being the usual reading |
@@ -56,6 +60,7 @@
 | νήεον Ἑκτορέης κεφαλῆς ἀπερείσι’ ἄποινα (24.276) | "heaped up the unstinted ransom for Hector’s head" | "loaded the unstinted ransom for Hector’s head" | "piled", "countless"; ἀπερείσιος "unstinted" (1.13); νηέω "heap up" (9.137) |
 | κρατερώνυχας ἐντεσιεργούς (24.277) | "strong-hooved, harness-workers" | "strong-hooved … that work in harness" | "sturdy-hoofed", "toiling"; ἐντεσιεργός from ἔντεα + ἔργον, sense given by the note |
 | Μυσοί (24.278) | "Mysians" | "Mysians" | — |
+| ἀτίταλλεν (24.280) | "reared" | "reared" | "fostered" (kept for ἀτιτάλλω beside ἔτρεφεν "reared", 16.191), "nursed", "tended"; follows ἀτίταλλον "reared" (5.271), the same of horses |
 | ὕπαγον ζυγόν (24.279) | "led under the yoke" | "led … under the yoke" | "brought to the yoke" (turned down at 16.148), "harnessed"; ὑπάγω "lead under" |
 | τετιηότι θυμῷ (24.283) | "with grieved heart" | "grieved at heart" | table row (11.555), unchanged |
 | μελίφρονα οἶνον (24.284) | "honey-hearted wine" | "heart-sweetening wine" | the Odyssey’s μελίφρων οἶνος (7.182), unchanged, with the note on uncertainty |
@@ -66,12 +71,12 @@
 | οὐκ ἐθελούσης (24.289) | "I not wishing" | "though I do not wish it" | "unwilling"; follows 6.165 |
 | κελαινεφέϊ Κρονίωνι Ἰδαίῳ (24.290–291) | "the dark-clouded son of Cronus, the Idaean" | "the son of Cronus of the dark clouds, the Idaean" | follows the table’s 1.397 row |
 | ὁρᾶται (24.291) | "looks about" | "looks over" | "is seen", "watches"; the note says the middle is taken as "surveys" |
-| οἰωνὸν ταχὺν ἄγγελον (24.292) | "a bird of omen, a swift messenger" | "a swift bird of omen as your messenger" | "omen" alone (turned down for οἰωνός, 15.532); follows 13.823 |
+| οἰωνὸν ταχὺν ἄγγελον (24.292) | "a bird of omen, a swift messenger" | "a swift bird of omen as a messenger" | "omen" alone (turned down for οἰωνός, 15.532); follows 13.823 |
 | δεξιόν (24.294) | "on the right" | "a bird on the right" | "lucky"; follows δεξιὸς ὄρνις (Odyssey 15.525) |
 | κράτος μέγιστον (24.293) | "the strength is greatest" | "whose strength is greatest" | "power", "might"; follows 2.118 |
 | Δαναῶν ταχυπώλων (24.295) | "swift-colted Danaans" | "Danaans with their swift colts" | follows the table’s 4.232 row |
 | εὐρύοπα Ζεύς (24.296) | "far-thundering Zeus" | "Zeus who thunders from afar" | "wide-voiced"; follows the table |
-| ἐποτρύνουσα κελοίμην (24.297) | "would not order you, urging you on" | "would not urge you or order you" | "bid" (reserved for ἄνωγα), "command"; κελεύω "order" (4.359); ἐποτρύνω "urge on" (6.83) |
+| ἐποτρύνουσα κελοίμην (24.297) | "would not urge you, urging you on" | "would not urge you, pressing you on" | "bid" (reserved for ἄνωγα), "order" (reserved for κελεύω); κέλομαι "urge" (Odyssey 21.265, 3.434), ἐποτρύνω "urge on" (6.83) |
 | μάλα περ μεμαῶτα (24.298) | "eager though you are" | "eager as you are" | "though you are very keen", "desperate"; μεμαώς "eager" (4.73) |
 | ὦ γύναι (24.300) | "Woman" | "Woman" | "Lady", "Wife"; table row (3.204) |
 | ἀπιθήσω (24.300) | "I will not disobey" | "I will not disobey" | "ignore"; follows ἀπίθησε "did not disobey" (1.220) |

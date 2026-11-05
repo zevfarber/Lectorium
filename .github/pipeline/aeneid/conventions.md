@@ -88,6 +88,7 @@ end **only where Greenough begins a paragraph** (an indented line in the TEI —
 | I.94 | *O terque quaterque beati* | "O both three-times and four-times blessed" | "How fortunate, three times and four times over" |
 | I.135 | *Quos ego—* | "Whom I —" | "You whom I —" |
 | I.150 | *furor arma ministrat* | "fury supplies the weapons" | "their frenzy arms them with whatever lies to hand" |
+| I.203 | *forsan et haec olim meminisse iuvabit* | "perhaps even these things, some day, it will please to remember" | "Perhaps there will come a day when we are glad to call even this to mind." |
 
 Set pieces still ahead, to be decided in a dedicated pass before the batch that reaches them (Ovid's
 ruling of 2026-08-27): I.203 *forsan et haec olim meminisse iuvabit*; I.462 *sunt lacrimae rerum*;

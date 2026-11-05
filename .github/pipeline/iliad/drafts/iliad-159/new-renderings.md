@@ -1,0 +1,25 @@
+# New renderings — iliad-159 (24.707–804)
+
+| Greek | `l` | `i` | avoided on purpose |
+|---|---|---|---|
+| τῇσιν δ’ Ἀνδρομάχη λευκώλενος ἦρχε γόοιο (24.723, whole-line speech introduction) | "And for them Andromache, white-armed, began the lament," | "Among them white-armed Andromache began the lament," | "led off" (kept for ἐξῆρχε), "led the dirge"; ἄρχω with the genitive is "begin"; γόος keeps "lament" (18.316) |
+| τῇσιν δ’ αὖθ’ Ἑκάβη ἁδινοῦ ἐξῆρχε γόοιο (24.747) · τῇσι δ’ ἔπειθ’ Ἑλένη τριτάτη ἐξῆρχε γόοιο (24.761) | "And for them in turn Hecuba led off the thronging lament:" · "And for them thereupon Helen, third, led off the lament:" | "And among them in turn Hecuba led off the thronging lament:" · "Then Helen, third, led off the lament among them:" | "began" (kept for ἦρχε, 24.723); follows the table's Τρῳῇσιν δ’ Ἑκάβη ἁδινοῦ ἐξῆρχε γόοιο (22.430) and Θέτις δ’ ἐξῆρχε γόοιο (18.51) |
+| ἀοιδοὺς θρήνων ἐξάρχους (24.720–721) · ἐθρήνεον (24.722) | "minstrels, leaders-off of dirges" · "sang as a dirge" | "minstrels … leaders of the dirges" · "sang … as a lament" | "singers", "choirmasters", "leaders of the wailing"; ἀοιδός keeps "minstrel" (the Odyssey table), ἔξαρχος is built like ἐξῆρχε "led off", θρῆνος "dirge" |
+| τιλλέσθην (24.711, dual middle) | "tore their hair" | "tore their hair" | "plucked themselves", "tore at themselves" (the Greek has no object; the middle is the mourner's gesture) |
+| ἀμιχθαλόεσσαν (Λῆμνον, 24.753; meaning unknown) | "misty" | "misty" (+ note: meaning unknown, "misty" a guess) | "smoky", "fog-bound", "steaming"; each picks one guess |
+| ἑρσήεις καὶ πρόσφατος (24.757) | "dewy and fresh" | "dewy and fresh" | "bedewed", "newly slain" (πρόσφατος alone is "fresh"; the death is carried by the context), "unwithered" |
+| ἐπίσκοπος (of Hector as city-guardian, 24.729) | "a guardian" | "its guardian" | "scout" (kept for the soldier's ἐπίσκοπος, 10.38), "overseer", "watcher"; follows ἐπίσκοποι "guardians" (22.255) |
+| κάπετον (κοίλην κάπετον, of the grave-pit, 24.797) | "a hollow ditch" | "a hollow grave" | "trench", "pit"; `l` keeps the table's "ditch" for κάπετος, `i` names what this one is |
+| πυκνοῖσιν λάεσσι (24.798) · πυκινὸν ἔπος (24.744) | "solid stones" · "solid word" | "solid stones" · "solid word" | "close-packed", "thick-set", "weighty word"; follows the table's πυκινός "solid" (λόχον, νέφος, μήδεα); the note says what "solid" means of each |
+| ἀγανοφροσύνῃ (24.772) | "gentleness of mind" | "gentleness of mind" | "gentle-mindedness" (refused by the Odyssey table); "kindness", "gentleness" alone (loses φρήν "mind") |
+| ἀσύφηλον (ἔπος, 24.767; meaning unknown) | "disgraceful" | "disgraceful" (+ note: meaning unknown, a guess) | "insolent", "contemptuous"; follows the table's ἀσύφηλον "disgracefully" (9.646) |
+| μείλιχος (24.739) | "gentle" | "gentle" | "mild", "kind" (kept for ἤπιος); the table's μειλίχιος "gentle", of which ἀμείλιχος "ungentle" is the opposite |
+| ἤπιος (of persons, 24.770, 24.775) | "kind" | "kind" | "gentle" (kept for ἀγανός / μειλίχιος), "mild"; the table's ἤπιος "kind" of persons |
+| δαέρων · γαλόων · εἰνατέρων (Helen speaking, 24.762, 24.769) | "my husband’s brothers" · "my husband’s sisters" · "my husband’s brothers’ wives" | same, with "my" in both layers | "brothers-in-law", "sisters-in-law"; follows the table's δαήρ (3.180) and γαλόων · εἰνατέρων (6.378), here named from Helen's side |
+| ἑκυρή · ἑκυρός (24.770) | "mother-in-law" · "father-in-law" | "my mother-in-law" · "my father-in-law" | follows the table's ἑκυρή (22.451) and ἑκυρέ (3.172) |
+| ἄσεσθε κλαυθμοῖο (24.717) | "you shall take your fill of weeping" | "you shall have your fill of weeping" | "be sated", "have done with weeping"; ἄω "satiate", κλαυθμός "weeping" |
+| δαίνυντο ἐρικυδέα δαῖτα (24.802) | "feasted a glorious feast" | "feasted on a glorious feast" | "held a splendid banquet"; ἐρικυδέα δαῖτα keeps the Odyssey's "a glorious feast" (3.66) |
+| τάφον (ἀμφίεπον τάφον Ἕκτορος, 24.804) | "burial" | "funeral" | "tomb" (that is σῆμα, "tomb", 2.814), "grave"; τάφος "burial" is kept apart from τάφος "amazement" (9.193) |
+| ὑπάτῃ (πυρῇ ὑπάτῃ, 24.787) | "topmost" | "topmost" | "uppermost layer", "highest part"; ὕπατος "highest" |
+
+Reused unchanged (no new choice): the three published lines of the Iliad (24.741, 24.746, 24.788, 24.791) and the Odyssey line 24.790 keep their published English; ἀνδροφόνος "man-slaying", ἱπποδάμος "horse-taming" / "tamer of horses", λευκώλενος "white-armed", ἐϋκνήμιδες "well-greaved", ἀργυρότοξος "silver-bowed", ἀγανοῖσι βέλεσσιν ἐποιχόμενος κατέπεφνεν (the Odyssey's wording), φαεσίμβροτος "mortal-lighting" / "giving light to mortals", ἐρικυδέα δαῖτα, διοτρεφής "Zeus-nurtured", δάκρυ χέων "a tear shedding" / "shedding tears", ἄσπετος "boundless", ἀτρύγετος "unharvested" / "that yields no harvest", πόδας ὠκύς, θεοειδής "godlike in form", εὐρύς of a place "broad", ἐπέεσσι ἀγανοῖς "gentle words", ὀδὰξ ἕλον ἄσπετον οὖδας (the 19.61 wording), δωδεκάτη ἠώς "twelfth dawn", ῥίμφα "nimbly", ἔγρετο "awoke", σῆμα "tomb", σκοπός "lookout", ἀμείλιχος "ungentle" / "unrelenting". No departure from an Odyssey English.

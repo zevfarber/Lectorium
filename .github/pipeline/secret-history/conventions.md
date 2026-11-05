@@ -75,3 +75,7 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 182-185
 - Names in `i`: Qali'udar, Chaqurqan, Qadaq-Ba'atur (printed Qdaγ-Baγ̇atur, read as a slip), Soqos-Chaqan, Arqal-Kögi, Je'üriyedei, Alaqush-Digit-Quri, Jekü, Jesünge, Jirgin, Jeje'er (Jeje'er Ündür in `i`); Kerülen. Lemmas buči-, eri- follow the glossary.
+
+## House renderings added by 186-188
+- Names in `i`: Taqai-Ba'atur, Jaqa Gambu, Ibaqa-Beki, Sorqaqtani-Beki, Tolui, Qori-Sübechi, Didig-Saqal, Negün-Usun, Chul, Abji'a-Ködegeri, Olon-Dongqaid, Tümen-Tübegen, Wang Qan, Ongjid Kereid, Jirgin, Naiman, Kököchü, Senggum. γ̇ → ' in names. beki = "a title of rank" (borne by men too).
+- tusa-jin in-ü tula → "in return for the service of …"; žarliγ bolurun → "issued a decree:"; nögöġe kilgün bol → "Be a second shaft!"; aγtači → "groom".

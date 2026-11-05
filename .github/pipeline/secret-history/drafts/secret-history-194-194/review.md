@@ -61,3 +61,49 @@ Checks that passed with no change: every `t` equals the packet words of its inde
 
 ## Counts (pass 1)
 High 0 · Medium 14 · Low 18 · findings refused/left 9.
+
+---
+
+# Review, pass 2 — secret-history-194-194 (§194)
+
+Reviewer: adversarial pass 2 (fresh read of units.json after pass 1, plus a check of every gloss.json entry against the text). Read: conventions.md, runbook.md, packet.md, units.json, gloss.json, novel-forms.json, known-forms.json, the shared secret-history-glossary.json. No modern translation, no web. Edits by script; `t` untouched; unit numbers 1-based as in pass 1. Checked by script and found clean: every `t` equals its packet words; every morph's bracketed Ming (all morphs of a word together) equals the packet Ming for that word; every gloss.json key is a novel token and every novel token has an entry, with its Ming bracket equal to novel-forms.json; every `__broaden__` key is a token of this part, its value begins with the whole old glossary entry + ' · ', and its new reading occurs here.
+
+## Changes (unit/entry · field · severity · what was wrong · what was done)
+
+### Medium
+1. gloss `qamtudun`; units 6, 7, 25 (morph, l, n) · medium · qamtudun was glossed as a stem "qamtu-" meaning "together" (adverb), with "from qamtu 'joint'", while the same part's qamtudγ̇asu, and the shared glossary's qamtudqu / qamtudču, give the stem qamtud- 'join together'. The converb in qamtudun baraγ̇asu is the same verb as qamtudγ̇asu in unit 8. · entry and morph now qamtud- + converb -un 'joining'; l "together" → "joining" in units 6, 7, 25; n 6 says so.
+2. gloss `hirmes` (+ unit 7 consistency) · medium · "perhaps from hirme- 'turn'" is an invented stem (the note itself says "I do not know the stem"). · entry now says the word is as printed, stem unknown, Ming 轉.
+3. gloss `qaltaril` · medium · "from qaltar- 'to slip away'" invented; the shared glossary has qaltari- 'to slip, slide' (qaltariγ̇uluγ̇ad). · "perhaps from qaltari- … (uncertain)".
+4. gloss `žibšiġerčü`; unit 10 (morph) · medium · stem žibšiġer- + -čü against the shared glossary's žibšijerčü (žibšije- + -rčü) for the same ending. · lemma žibšiġe-, ending -rčü (uncertain), entry and morph.
+5. gloss `seküġülün` · medium · lemma seküġül- and "perhaps causative of seke-" (invented stem), against the units' sekü- + -ġül- + -ün. · entry now sekü- (stem inferred from the Ming 卷退) + causative -ġül- + -ün.
+6. gloss `čima` · medium · still "the oblique stem (accusative form)", the error pass 1 corrected in the units. · "oblique stem (the accusative is čima-ji)".
+7. gloss `qaṅγai-jin` · medium · "the Qangqai, a mountain region" against the house/unit form Qanghai, and "mountain" is not in the Ming (地名 only). · "the Qanghai, a place".
+
+### Low
+8. 2 · morph, n (kürġeġülüġed) · low · ending split as -ġül- + -ġed; the printed form has -üġed (the shared glossary: "converb -üġed"). · -üġed, "ü a linking vowel", in morph and n.
+9. 8, 18 · morph (γaruγ̇asu, γaruγsan) · low · lemma γaru- against the shared glossary's γar- (with linking u). · lemma γar-; endings -uγ̇asu / -uγsan, "u a linking vowel".
+10. 7 · morph (nidun) · low · lemma nidun against the glossary's nidün. · nidün.
+11. 25, 33 · morph (bi-že) · low · lemma bi, against the glossary's bü- (stem bi- before -že). · bü-, "stem bi- before -že".
+12. 28 · morph (böġed) · low · single morph "already, indeed", against the glossary's bü- + -ġed ("and then"). · bü- + -ġed, "particle of sequence, 'then, already'".
+13. 31 · morph (qailan) · low · lemma qailan, against the glossary's qaila- + -n. · qaila- + -n, exclamation (uncertain).
+14. 36 · morph (qori) · low · lemma qori, against qor with Shiratori's (i) (as for qačar, ulus, čerig). · qor, "(i) is Shiratori's linking vowel".
+15. 13 · morph, gloss `asγaja` · low · "optative first person -ja" against the shared glossary's "hortative -ja" (qadqulduja). · hortative first person, both.
+16. gloss `üžeġülüleġe` · low · "had shown" (a pluperfect the form does not give; pass 1 already changed the morph to "did"). · "showed, caused to see", past -leġe as in büleġe.
+17. 31 · morph (-küi on ötöl-de-) · low · "past participle" against the entry's "participle" and the other -küi glosses. · "participle (here 'has …')".
+18. 13 · i · low · "make their bellies draw in" put "their" before the Mongols are named, against the note's own doubt about whose bellies; "and then" is not in the Mongol. · "make the bellies draw in … and pour down".
+19. 19 · i · low · "calves" plural for tuγul (singular, Ming 犢). · "where the cart-wheel's calf grazes".
+20. 24 · i · low · "on the day we meet" supplies a subject the reciprocal participles do not have. · "on the day of meeting and killing one another".
+21. 27 · n · low · note said sača was "rendered loosely as 'his companions'", but the English does not render it. · "left it out of the English".
+22. 20 · n · low · "the three lines from 118 on" (packet index). · "the three units from 'Kündü eme-jin' on".
+23. broadenings added · low · four known entries whose Ming differs from this part's use were not broadened: žajaγ̇an (Ming 命 "fate" vs 氣運 "fortune", unit 33), ein (這般 vs 是也, unit 15), noγai (狗 vs 狗般, unit 11), altai-jin (地名的 vs 山名的, unit 11). · each: old entry whole + ' · ' + the new reading.
+
+## Findings refused (with reason)
+- Unit 8 i "they do not shrink away" as a finite clause (the adjective chain qaltaril ügei qataṅgin Monγol could also qualify Monγol): ügei is a predicate "there is not", the note states the doubt about who is joined with whom. Kept.
+- Unit 2 i "sent it with this message": awkward, but converbs keleležü ilerün are rendered as the note says; no sense error. Kept.
+- Unit 29 "If I had known": the speaker is Qori-Sübechi, the subject is natural English for a subjectless participle; kept.
+- gloss `qaγ̇āča` "qaγa — where": the form is flagged "analysis uncertain" and the Ming 那裏行 is quoted; no better analysis from the glossary. Kept. Likewise ebere-/berte-/belžiġel/ölkes/oluṅkin/üdü-: stems inferred from the Ming and marked uncertain. Kept.
+- `jan` broadening (omog(i)-, qor(i)-): both occur (units 24, 36) and the old entry is whole; kept as is.
+- Moṅγol / Monγol lemma spelling in morphs: as pass 1, follows the published parts. Kept.
+
+## Counts (pass 2)
+High 0 · Medium 7 · Low 16 · findings refused/left 6.

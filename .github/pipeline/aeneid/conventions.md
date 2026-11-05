@@ -86,6 +86,8 @@ end **only where Greenough begins a paragraph** (an indented line in the TEI —
 | I.11 | *Tantaene animis caelestibus irae?* | "Are there such great angers to heavenly spirits?" | "Can the spirits of heaven harbour such anger?" |
 | I.33 | *Tantae molis erat Romanam condere gentem!* | "Of so great a mass it was to found the Roman nation!" | "Such a weight of toil it took to found the Roman nation!" |
 | I.94 | *O terque quaterque beati* | "O both three-times and four-times blessed" | "How fortunate, three times and four times over" |
+| I.135 | *Quos ego—* | "Whom I —" | "You whom I —" |
+| I.150 | *furor arma ministrat* | "fury supplies the weapons" | "their frenzy arms them with whatever lies to hand" |
 
 Set pieces still ahead, to be decided in a dedicated pass before the batch that reaches them (Ovid's
 ruling of 2026-08-27): I.203 *forsan et haec olim meminisse iuvabit*; I.462 *sunt lacrimae rerum*;

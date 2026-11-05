@@ -49,7 +49,7 @@ ARCHIVE = os.path.join(NIGHTS, "archive")
 # 20 never became "complete", --next returned nothing for five days of firings (every one fell
 # through to transcribing), and once Night 30's one-word-looking formula arrived Nights 20–29
 # would have been published as a single "Night 20". Hence the parsed-ordinal check below.
-MARKER = re.compile(r"كانت\s+(?:الليلة|اللية)\s+((?:\S+\s+){1,4}?)(?:قالت|قات|قال|قلت)\b")
+MARKER = re.compile(r"كانت\s+(?:الليلة|الليله|اللية)\s+((?:\S+\s+){1,4}?)(?:قالت|قات|قال|قلت)\b")
 FIRST = re.compile(r"الليلة\s+الاولى\s+قالت")
 
 # Longest night published so far is 248 lines (Night 18). A unit over this many lines almost
@@ -83,7 +83,8 @@ TENS = {
     "ثلثون": 30, "ثلاثون": 30, "ثلثين": 30, "ثلاثين": 30,
     "اربعون": 40, "اربعين": 40, "خمسون": 50, "خمسين": 50,
     "ستون": 60, "ستين": 60, "سبعون": 70, "سبعين": 70,
-    "ثمانون": 80, "ثمانين": 80, "تسعون": 90, "تسعين": 90,
+    "ثمانون": 80, "ثمانين": 80, "مثمانين": 80,   # مثمانين: print misprint, Night 80 (2026-11-05)
+     "تسعون": 90, "تسعين": 90,
     "مائه": 100, "مايه": 100, "ماءه": 100,
 }
 COMPLETING = {"موفيه", "مكمله", "متممه"}

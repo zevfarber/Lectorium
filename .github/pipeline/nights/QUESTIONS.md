@@ -1157,3 +1157,8 @@ pipeline's job), or the tool's ordinal pattern taught the 80th formula.
 
 ## 2026-11-04 — Night 80 formula not understood by nights_index.py
 `nights_index.py` reads the night-80 formula (P470L01) as «الموفيه المثمانين» and flags ORDINAL MISMATCH; night 80 is also marked "tail unread" (archived only to P472L21). Probably a transcription slip for «الموفية الثمانين» ("the eightieth") — the archive was not changed. Decided meanwhile: night 79 published; the next firing should record/handle the mismatch per runbook step 0 (transcribe, publish nothing past it) and the tool's ordinal pattern may need الموفية الثمانين / the archive line checked against the image.
+
+## 2026-11-05 — Night 80/81 ordinal mismatch resolved (transcribing run, PDF 495-502)
+Cause found and fixed in `tools/nights_index.py`, archive untouched: night 80's print reads «الموفيه المثمانين» (misprint of الثمانين; added `مثمانين`→80 to TENS) and night 81 is printed «الليله الحاديه والثمانون» with final ه (MARKER now accepts الليله). Nights 80–84 are now complete and queued for publishing (night 85 starts P480L19, tail unread). Decided meanwhile: nothing else; the next firing publishes night 80.
+Night-label lines on their own line: adjudicator recommended no `h`; I kept `h` on all four (P474L02, P475L17, P478L05, P480L19) to match earlier archives (P465L01, P470L01) and the archive's own method note. Say if you want them unflagged.
+Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open the line crops despite the prompt; I re-launched wave 2 with the requirement stated and it was obeyed. The adjudicator opened crops for every disputed line. No retrain this run (not attempted).

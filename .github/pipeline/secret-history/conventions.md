@@ -79,3 +79,6 @@ publish without audio until the owner chooses. Do not build audio.
 ## House renderings added by 186-188
 - Names in `i`: Taqai-Ba'atur, Jaqa Gambu, Ibaqa-Beki, Sorqaqtani-Beki, Tolui, Qori-Sübechi, Didig-Saqal, Negün-Usun, Chul, Abji'a-Ködegeri, Olon-Dongqaid, Tümen-Tübegen, Wang Qan, Ongjid Kereid, Jirgin, Naiman, Kököchü, Senggum. γ̇ → ' in names. beki = "a title of rank" (borne by men too).
 - tusa-jin in-ü tula → "in return for the service of …"; žarliγ bolurun → "issued a decree:"; nögöġe kilgün bol → "Be a second shaft!"; aγtači → "groom".
+
+## House renderings added by 189-190
+- Names in `i`: Kürbesü, Kökse'ü-Sabraq, Inancha-Bilge, Torbi-Tashi, Juqunan, Ödchigin Noyan, Belgütei Noyan, Temegen-Keger, Tülkin-Che'üd, Önggüd. torluγ / torulmiši: no Ming gloss, left untranslated. bütügei (Ming 有者) "let them be". Quotes: double outer, single inner.

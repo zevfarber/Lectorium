@@ -73,3 +73,46 @@ Unit numbers below are 0-based positions in `sentences` (unit 0 = "Naiman-u Taja
 ## Counts
 
 Major 4 findings (touching 8 units plus `about`); Moderate 13 findings (about 45 unit-fields: quotation marks across 35 units, `l` name forms in 6, print marks in `l` in 24); Minor 18 findings. Refused: 12 items. Remaining uncertainty, stated in the notes: units 4 (chain subject), 8, 16/19/40 (torluγ, torulmiši), 23 (what "by quiver" means), 24 (aqun-u), 25 (quotation marks), 40 (the whole line), 47 (-jer), 51 and 67-69 (-užai), 64 (the question).
+
+# Review, pass 2 — secret-history-189-190 (§§189–190)
+
+Method: units.json re-read against packet.md (script: all 462 `[bracket]` Ming glosses equal the packet's, `t` of every unit equals the packet words, print quote marks counted in `t`/`l`/`i`); every gloss.json entry read against the text, the unit morphs and the committed glossary (script: coverage 97 new keys = 97 novel tokens, no unused key, no key already in the glossary; each of the 24 `__broaden__` entries is the old entry whole + " · " + a new part). Every glossary entry the part uses without a gloss.json line was also read for whether it covers the use here. No modern translation opened. Edits by script; `t`, `ln`, `p` and `words` counts untouched. Unit numbers are 0-based as in pass 1.
+
+## Changes
+
+### Moderate
+| unit / key · field | what was wrong | done |
+|---|---|---|
+| 40 · words, n; gloss `niγ̇udqun` | The word was analysed niγ̇ud- + -qun, while the identical shape abčirad-qun (unit 2) was analysed stem + -d + -qun, and the glossary has the verb as niγu- ('to hide', niγ̇uba, niγ̇usu); no stem niγ̇ud- exists. | Morph niγu- + -d (plural-subject ending, uncertain, as in abčiradqun) + -qun; note and gloss entry rewritten to match. |
+| 69 · words, n; gloss `etüged-tür` | "etüge(d) 'place'" is a lemma that is not a word. The glossary already has etügen-e (Etügen, 'the Earth'); the n-stem plural etüged is the same pattern as qonid, berined. | Lemma etügen 'earth, ground, land' + -d (plural, uncertain; Ming 處 does not mark it) + -tür; note and entry cite the glossary's Etügen. |
+| 12, 17 · words; gloss `noγan-u` | Lemma "noγan" against the glossary's noγai 'dog' (the n is the oblique stem, as in bidan-u). | Lemma noγai + -n-u (same treatment as bida + -n-u); entry rewritten to say so. |
+| 70 · l, n | The print has two closing marks (after saγ̇uγdaqu and after böġed); `l` kept only the second. | Both marks in `l`; the note says the English gives only the second and that the first is left open (uncertain). |
+| `__broaden__` `hünür` (new) | Glossary entry is 'scent, fragrance (Ming 香氣)'; unit 30 has Ming 氣 with maγ̇u 'bad' ('foul smell'). The old entry would teach the opposite. | Broadened: old entry + " · also plain 'smell, odour' (Ming 氣), as in hünür maγ̇utan". |
+| `__broaden__` `aqun` (new) | Glossary entry has only Ming 住麽 / 過的 ('will you dwell', 'pass the time'); unit 36 jaγ̇utan aqun has Ming 有的 'being'. The note (unit 36) claimed "the glossary has aqun for Ming 有的", which was false. | Broadened with the 有的 reading (a- 'be' + -qun, uncertain). |
+
+### Minor
+| unit / key · field | what was wrong | done |
+|---|---|---|
+| 5, 32 · words; gloss `berined` | Lemma "berine" against the glossary's berin (n-stem form berine-) for the same word (berinedi). | Lemma berin; entry and the unit 5 note adjusted. |
+| 34 · words; gloss `qonidi` | Lemma "qoni(n)" against the glossary's qoni (qonid, qonid-i). | Lemma qoni. |
+| 68 · words | ordo glossed "palace, camp of a lord" ([宮]); "camp of a lord" is not in the Ming and not in the glossary (palace). | "palace [宮]". |
+| 11 · i | "then you smashed it" adds a sequence word the line (nögöġete 'second time') does not have. | "and you smashed it a second time." |
+| 44 · i | "I will join you … we shall take" supplied "you" and weakened the hortative abuja. | "I will join from here, and let us take the quivers …". |
+| about | "a dead father's words" — the text does not call Inancha-Bilge dead or name him Tayang's father (that is the notes' reading). | "words of Inancha-Bilge (read as Tayang's father) are quoted against him". |
+
+## Checked and left (refused)
+
+- **All 24 other `__broaden__` entries**: each is the old entry whole + " · " + a reading that the Ming here supports (checked against packet: bütügei 有者, aqun-u 存心有的, kürbesü 人名, aba 圍獵, ai (嘆聲), ajaγa 盞, aγsan 活的, aṅgida 別處, belgütei 人名, bolqu 做, boltuγai 做者, böġetele 有間, bürün 有着, ilegsen 敎來的, iležüġü 來了有 / 去有來, jakikün 怎做, kikün 做咱, maqa 莫不, mün 只他, naiman 種名, šiqan 倚着, žasaγ 法度, ger 室, üge-dür 言語 行). Some only restate a reading under a new Ming spelling (bolqu, boltuγai, böġetele, ilegsen), which is the established pattern in the earlier parts; kept.
+- **Lemma `olon` in olotu** (glossary head 'olo'): the glossary has both; the unit's olon + -tu is the clearer analysis; kept.
+- **Entries marked "stem inferred" (≈35 verbs)**: none can be tested against a dictionary; each is labelled inferred and tied to the Ming, none is presented as established. Weakest: idγaγ̇uluγ̇ad (idγa-), abakažu (abaka-), eġürežü, žoγsažu, qoru-, gere (gereten), elbesü. Kept with their "inferred / uncertain" marks.
+- **tedeked / -ked**: the glossary has ked 'who, which (plural)'; the entry's "further plural ending (uncertain)" stands.
+- **endēče as ene + -dēče**: differs a little from the glossary's ene + -ēče; the glossary entry itself is uncertain; left.
+- **-γ̇užai "apprehensive" in qočoruγ̇užai / γaruγ̇užai / abdaγ̇užai**: the label fits Ming 恐 (abdaγ̇užai); for 麽 (the two others) the pass-1 refusal stands.
+- **unit 17 "bark upon bark"** for qučal qučamui: a free rendering of the repetition; the note says what it repeats; left.
+- **unit 63–64** `i` "When a man who was born dies, too, is it not good …": taki 'also' is rendered but the construction is loose; the note says the two units are one sentence; left.
+- **Quote marks**: balanced (outer " " opened at 1, 10, 22, 30, 36, 39, 42, 48, 55, 58, 62 and closed at 2, 20, 28, 34, 37, 40, 44, 51, 56, 60, 70; inner ' ' at 14–16, 24, 25, 49, 65). `l` and `t` carry the same print marks in every unit now.
+- **House renderings**: Kökse'ü-Sabraq, Inancha-Bilge, Ödchigin, Belgütei, Alaqush-Digit-Quri, Juqunan, Torbi-Tashi, Chinggis Qahan, "sovereigns", Alas! — consistent with conventions.md and the published parts.
+
+## Counts, pass 2
+Moderate 6 findings (unit/gloss entries touched: 40, 69, 12, 17, 70 and glossary entries hünür, aqun, niγ̇udqun, etüged-tür, noγan-u); Minor 6 findings (units 5, 32, 34, 68, 11, 44, about; gloss entries berined, qonidi). Major 0. Refused / left: 9 groups above.
+Remaining doubts: units 40 (whole line), 16/19/40 (torluγ, torulmiši), 23 (what "by quiver" means), 24 (aqun-u), 25 (marks), 47 (-jer), 51 and 67–69 (-užai), 64 (question), 70 (first closing mark); all stated in the notes.

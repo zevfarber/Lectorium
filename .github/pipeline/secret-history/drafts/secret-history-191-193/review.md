@@ -66,3 +66,46 @@ aba (known entry is a- + -ba "dwelt"; here the noun "circle hunt", Ming 圍獵);
 
 ## Counts
 High 0 · Medium 10 · Low 25 numbered findings (items 11–35; item 35 covers 14 units, item 20 three, items 22, 23, 28, 34 two each) · 11 findings refused/left.
+
+
+# Review, pass 2 — secret-history-191-193 (§§191–193)
+
+Reviewer: adversarial pass 2. Read: conventions.md, runbook.md, run3 RUNBOOK §2, packet.md, units.json (after pass 1), gloss.json, novel-forms.json, known-forms.json, the glossary format. No modern translations, no web. Edits to units.json and gloss.json were made by script; `t`, word order and coverage untouched.
+
+Checks that passed: units.json still holds 72 units / 392 words, every `t` is the packet's romanized words of consecutive indices once each in order (Čiṅgis Qaγan-(n)a is one packet word), `words` counts match, and the bracketed Ming gloss(es) of each word's morphs equal the packet gloss for every one of the 392 words. Every CJK string quoted in the notes is traceable to the packet (compositions or cross-references to other units only). gloss.json: its 103 keys equal the 103 keys of novel-forms.json, every key is a token of `t` (the reader's tokens: (i)/(n) stripped, hyphens split as in the known keys), no token is missing from novel + known, no key is unused, every novel entry ends in exactly its novel-forms Ming bracket. All entries were read against the unit morphs for lemma, grammar label and meaning; every stem the glosser flagged as inferred or uncertain is flagged in the units too, and no invented modern form was found.
+
+## Changes (unit/key · field · severity · what was wrong · what was done)
+
+### Medium
+1. gloss `__broaden__` ornuγ̇u-jin · Ming bracket · medium · the new reading ended "[地名]" but the Ming on this word in both units (2, 35) is 地名 的. · bracket → [地名 的]; old entry still whole + " · ".
+
+### Low
+2. gloss `__broaden__` aba · entry · low · not needed: the known entry already holds noun aba "hunt, battue" (Ming 圍獵); the added "circle hunt" reading only repeats it (the uncertainty about baγu- + aba is in the unit 2 note). · key deleted.
+3. gloss `__broaden__` turγaγ̇ud-i · text · low · the new reading claimed "once 宿衞 ... taken as a slip", but the 宿衞 occurrence is turγaγ̇ud (units 25), not turγaγ̇ud-i (unit 17 only, Ming 散班的(每行)). · clause removed here, moved into the gloss of the key turγaγ̇ud (the form that carries it), bracket unchanged.
+4. gloss üdüri · grammar · low · "in one's own day" read the (i) as a locative, but üdür(i)-jen stands with daγusčü (u29, l "days-their-own finishing") as the object. · "the (i) ... is Shiratori's linking vowel (perhaps an accusative), 'one's own day(s)'".
+5. gloss qaṅγar-qan-u · English · low · "Qangar-Qan" against "Qanghar-Qan" in `i` (units 40, 66). · aligned to Qanghar-Qan.
+6. gloss bučaran-čerbi · English · low · "Bučaran-Cherbi" against "Bucharan-Cherbi" in `i` (unit 6). · aligned.
+7. gloss `__broaden__` manaγar-i · added · low · known entry "morning, early [早行]"; here Ming 明早行, "tomorrow". · old whole + " · also with the Ming 明早行, 'tomorrow (morning)'".
+8. gloss `__broaden__` aqun-u · added · low · known "perhaps, may it not be (莫不有)"; here Ming 有的麽, read as a question. · old whole + new reading, analysis marked uncertain.
+9. gloss `__broaden__` ileġed, iležüġüi · added · low · known ileġed is "send, make go (敎去了)"; here the Ming is 去了 and the unit reads "went/sent, uncertain" (pass 1 flagged, glosser left it). · both broadened, "to go or to send, uncertain which".
+10. gloss `__broaden__` dür · added · low · known senses (at, in; at the time of; 的(處)) do not cover unit 35, Ming 行, "against". · broadened.
+11. gloss `__broaden__` nača · added · low · known senses are all "from"; units 68/71 use it as comparative "than" (hodun-(n)ača). · broadened.
+12. gloss `__broaden__` qaraγ̇ul-a · added · low · known "by (agent of a passive)"; unit 41 is "with", partner of the reciprocal hüldeldüžü. · broadened.
+13. gloss `__broaden__` deġere · added · low · known "above, upper, on top" (and the amaraγ use); unit 50 is "besides" after an adjective, Ming 上. · broadened.
+14. 14 · n · low · "min-u emüne is 'my front'" reverses the printed order (emüne min-u). · "emüne min-u".
+15. 41 · i · low · "Our scouts and he chased one another" put the object of the 'with' first and left "he" dangling. · "He and our scouts chased one another,".
+16. 26, 35 · morph (dür) · low · lemma "dür" without the hyphen, while the same suffix is "-dür" in unit 24 and in the glossary. · "-dür".
+17. 56, 69 · morph (qan) · low · lemma "qan" where the glossary and published parts carry "qān" (the printed Qān). · "qān".
+18. 12 · n · low · the Ming on the first ilγažu is 勒着 (packet index 73), against 揀着 at the other three; not mentioned. · sentence added (taken as a slip for 揀, uncertain).
+
+## Findings refused (with reason)
+- Broadening kü, tedüi, tere, beje, emüne, γol-dur, bi, ber, ele, jan/jen/jar: the known entries already cover the Ming and meaning used here (kü 也, tedüi 便/那些, bi "is", jan/jen/jar general reflexive/instrumental; γol "centre, main body" with Ming 大營 against 中軍 here is the same meaning). 
+- iležüġüi / ileġed "went" in `i` against the glossary's "send": left as pass 1 decided; both readings now stand in the glossary and the notes.
+- bolqu-ju "-ju question particle" and čadumu-že "-umu present, že": both rest on the Ming alone; the glosser marked both uncertain, nothing better can be proved from these sources.
+- Ornuγu / Ornu'u spelling in morph lemmas (Ornuγu, not Ornuγ̇u): the print's γ̇ spelling is in `t`; the lemma follows the glossary's second reading. Kept.
+- Lemma ami (units) against amin (known amitu entry): ami is the form before the vowel suffix; the entry already says "amin 'life' + -tu". Kept.
+- Unit 59 "his main body" in `i`: the note says an-u's referent is unknown; `l` stays literal and `i` commits to the likelier reading. Kept.
+- Qangar/Qanghar etc. house forms: no house rule exists; consistency inside this part is what was fixed.
+
+## Counts (pass 2)
+High 0 · Medium 1 · Low 17 · findings refused/left 7.

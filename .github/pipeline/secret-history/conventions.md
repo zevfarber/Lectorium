@@ -69,6 +69,7 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 172-176
 - Names in `i`: Boroqul, Bo'orchu, Qada'an-Daldurqan, Achiq-Shirun, Jürchedei, Quildar, Ögödei; peoples Kereid, Ongirad, Uruqud, Mongqud, Shilügeljid; Lake Büyür.
+- Names in `i` (§§191–193): Qanghar-Qan, Sa'ari-Keger, Cherbi, Arqai-Qasar, Kerülen, Ornu'u.
 
 ## House renderings added by 178-181
 - Names in `i`: Quchar, Altan, Oqda, Sübegei, Kököchü-Kirsa'an, Jegei-Qungtaqar, Charaqai-Linggu, Arqai-Qasar, Bilge-Beki; "Father Qan" for Qān ečige; qād "sovereigns".

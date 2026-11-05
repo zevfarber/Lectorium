@@ -15,7 +15,7 @@
 | ἐπιχθονίων (24.220) | "of those upon the earth" | "of those who live on earth" | "mortals" (reserved for βροτός), "earth-dwellers" |
 | θυοσκόοι (24.221) | "sacrificing-priests" | "sacrificing priests" | the Odyssey’s θυοσκόος (21.145) unchanged, with the note that the exact function is not certain |
 | ἐσέδρακον ἄντην (24.223) | "gazed on him, right in front" | "looked upon him right in front of me" | "face to face" (reserved for ἀντίον), "straight in the eye"; ἄντην "right in front" (11.590) |
-| εἰ δέ μοι αἶσα τεθνάμεναι … βούλομαι (24.224–226) | "But if my lot is to die … I am willing:" | "But if it is my lot to die … I am willing:" | "I would rather", "so be it"; βούλομαι kept as the main verb |
+| εἰ δέ μοι αἶσα τεθνάμεναι … βούλομαι (24.224–226) | "But if my lot is to die … I want it:" | "But if it is my lot to die … I want it:" | "I would rather", "so be it"; βούλομαι kept as the main verb |
 | γόου ἐξ ἔρον εἵην (24.227) | "I have sent out from me the desire of lament" | "satisfied my longing for lament" | "had my fill of weeping", "my desire for tears"; the idiom is "send out the desire" |
 | ἐπιθήματα (24.228) | "lids" | "lids" | "covers", "tops"; ἐπίθημα "what is put on" |
 | φωριαμοί (24.228) | "chests" | "chests" | "coffers", "caskets", "baskets" |
@@ -34,7 +34,7 @@
 | σκηπάνιον (24.247) | "staff" | "staff" | "sceptre" (kept for σκῆπτρον) |
 | σπερχομένοιο γέροντος (24.248) | "the old man hastening" | "the old man in haste" | "in a rage", "urging them on"; the note says σπέρχομαι may mean hurry or rage |
 | βοὴν ἀγαθός (24.250) | "good at the war-cry" | "good at the war-cry" | table row (3.96), unchanged |
-| κακὰ τέκνα κατηφόνες (24.253) | "base children, disgraces" | "base children, disgraces" | "wretched", "shameful ones"; κατηφών is rare, and the note explains it as "downcast", the sense "disgrace" being the usual reading |
+| κακὰ τέκνα κατηφόνες (24.253) | "base children, shames" | "base children, shames" | "disgraces" (kept for ἐλέγχεα; κατηφείη is "a shame", 16.498), "wretched", "shameful ones"; κατηφών is rare, and the note explains it as "downcast", the sense "disgrace" being the usual reading |
 | ὠφέλετ’ … πεφάσθαι (24.254) | "would that … you had been slain" | "If only … had been killed" | "you ought to have been"; unfulfilled wish |
 | πανάποτμος (24.255) | "utterly ill-fated" | "utterly ill-fated" | "most unlucky", "doomed"; ἄποτμος "ill-fated" (Odyssey 20.140) |
 | τέκον (24.255, of the father) | "begot" | "fathered" | "bore"; the verb is said of the father here |
@@ -56,7 +56,7 @@
 | νήεον Ἑκτορέης κεφαλῆς ἀπερείσι’ ἄποινα (24.276) | "heaped up the unstinted ransom for Hector’s head" | "loaded the unstinted ransom for Hector’s head" | "piled", "countless"; ἀπερείσιος "unstinted" (1.13); νηέω "heap up" (9.137) |
 | κρατερώνυχας ἐντεσιεργούς (24.277) | "strong-hooved, harness-workers" | "strong-hooved … that work in harness" | "sturdy-hoofed", "toiling"; ἐντεσιεργός from ἔντεα + ἔργον, sense given by the note |
 | Μυσοί (24.278) | "Mysians" | "Mysians" | — |
-| ὕπαγον ζυγόν (24.279) | "led under the yoke" | "brought … to the yoke" | "harnessed"; ὑπάγω "lead under" |
+| ὕπαγον ζυγόν (24.279) | "led under the yoke" | "led … under the yoke" | "brought to the yoke" (turned down at 16.148), "harnessed"; ὑπάγω "lead under" |
 | τετιηότι θυμῷ (24.283) | "with grieved heart" | "grieved at heart" | table row (11.555), unchanged |
 | μελίφρονα οἶνον (24.284) | "honey-hearted wine" | "heart-sweetening wine" | the Odyssey’s μελίφρων οἶνος (7.182), unchanged, with the note on uncertainty |
 | ὄφρα λείψαντε κιοίτην (24.285) | "so that having poured a libation the two might set out" | "so that the two of them might pour a libation and set out" | "go away"; dual forms |
@@ -65,13 +65,13 @@
 | δυσμενέων ἀνδρῶν (24.288) | "the ill-disposed men" | "the ill-disposed men" | "enemies", "hostile" (reserved for ἐχθρός, ἀνάρσιος); follows δυσμενής "ill-disposed" |
 | οὐκ ἐθελούσης (24.289) | "I not wishing" | "though I do not wish it" | "unwilling"; follows 6.165 |
 | κελαινεφέϊ Κρονίωνι Ἰδαίῳ (24.290–291) | "the dark-clouded son of Cronus, the Idaean" | "the son of Cronus of the dark clouds, the Idaean" | follows the table’s 1.397 row |
-| ὁρᾶται (24.291) | "looks down" | "looks over" | "is seen", "watches"; the note says the middle is taken as "surveys" |
+| ὁρᾶται (24.291) | "looks about" | "looks over" | "is seen", "watches"; the note says the middle is taken as "surveys" |
 | οἰωνὸν ταχὺν ἄγγελον (24.292) | "a bird of omen, a swift messenger" | "a swift bird of omen as your messenger" | "omen" alone (turned down for οἰωνός, 15.532); follows 13.823 |
 | δεξιόν (24.294) | "on the right" | "a bird on the right" | "lucky"; follows δεξιὸς ὄρνις (Odyssey 15.525) |
 | κράτος μέγιστον (24.293) | "the strength is greatest" | "whose strength is greatest" | "power", "might"; follows 2.118 |
 | Δαναῶν ταχυπώλων (24.295) | "swift-colted Danaans" | "Danaans with their swift colts" | follows the table’s 4.232 row |
 | εὐρύοπα Ζεύς (24.296) | "far-thundering Zeus" | "Zeus who thunders from afar" | "wide-voiced"; follows the table |
-| ἐποτρύνουσα κελοίμην (24.297) | "would not bid you, urging you on" | "would not urge you or bid you" | "command"; ἐποτρύνω "urge on" (6.83) |
+| ἐποτρύνουσα κελοίμην (24.297) | "would not order you, urging you on" | "would not urge you or order you" | "bid" (reserved for ἄνωγα), "command"; κελεύω "order" (4.359); ἐποτρύνω "urge on" (6.83) |
 | μάλα περ μεμαῶτα (24.298) | "eager though you are" | "eager as you are" | "though you are very keen", "desperate"; μεμαώς "eager" (4.73) |
 | ὦ γύναι (24.300) | "Woman" | "Woman" | "Lady", "Wife"; table row (3.204) |
 | ἀπιθήσω (24.300) | "I will not disobey" | "I will not disobey" | "ignore"; follows ἀπίθησε "did not disobey" (1.220) |

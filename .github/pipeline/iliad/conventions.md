@@ -7567,3 +7567,28 @@ Reused unchanged (no new row): the published lines at 17.485 (iliad-028), 17.516
 | λάβε γούνατα (24.465 imperative, 24.478 aorist) | "take hold of the knees" · "took … knees" | "take hold of the knees" · "took hold of Achilles’ knees" | "clasp"; follows the table's λάβε γούνων "took hold of his knees" (1.500) |
 | λήθετ’ ἐνὶ μεγάροισι θεῶν οἳ Ὄλυμπον ἔχουσι (24.427) | "forgot in the halls the gods who hold Olympus" | "never forgot, in his halls, the gods who hold Olympus" | the table's Ὀλύμπια δώματ’ ἔχοντες is a different phrase; "who hold Olympus" is plain |
 | ἐπιβλής · κληΐς (24.453, 24.455, of the door of Achilles’ courtyard) | "cross-bar" · "bolt" | "cross-bar" · "bolt" | "bar" (kept for ὀχεύς, 12.121), "bolt" for ἐπιβλής (kept for κληΐς, 12.456); ἐπιβλής is what is thrown across, a cross-bar |
+| καί μιν φωνήσας ἔπεα πτερόεντα προσηύδα (517) | see note | see note | `l` "and, lifting his voice, to him winged words he spoke:", `i` "and lifting his voice he spoke winged words to him:". Only the pronoun changes from the published "to her" (1.201); μιν is Priam, masculine. The line stands inside the unit 515–517, so the validator's same-Greek check does not apply (same device as the table's 2.7 row). |
+| ἀμφὶ δέ μιν φᾶρος καλὸν βάλον ἠδὲ χιτῶνα (588) | see note | see note | the Odyssey line reads χλαῖναν where this has φᾶρος. The rest of the English of 587–588 is the Odyssey's ("And when the maids had washed him and anointed him with oil, and had thrown a fine cloak and a tunic about him"); φᾶρος keeps "cloak", as φάρεα at 24.230–231 and 580. |
+| ἀκηδής, active (526, αὐτοὶ δέ τ’ ἀκηδέες εἰσί, of the gods) | see note | see note | `l` and `i` "uncaring", the table's ἀκηδέες row (21.123); the draft's `i` "free of care" was changed in review. Kept apart from the passive ἀκηδής at 554 ("uncared for", the table's 20.130 row). |
+| βούβρωστις (532) | see note | see note | `l` "ox-hunger", `i` "ravenous hunger" (+ note: rare compound; exact sense not known). |
+| παναώριον (540) | see note | see note | `l` "all-untimely", `i` "wholly untimely" (+ note: πάν + ἀώριος "out of season"). Avoided: "doomed", "short-lived", "ill-fated" (each decides what the word leaves open). |
+| κρειόντων (παίδων κρειόντων, 539) | see note | see note | "ruling" in both layers; participle of κρείω, the verb behind the table's κρείων "lord"/"ruling". |
+| ἐλυσθείς (510) | see note | see note | `l` and `i` "huddled". |
+| ἁδινά as adverb (510, κλαῖ’ ἁδινά) | see note | see note | "heavily" in both layers, as the Odyssey's ἁδινὸν γοόωσα "sobbing heavily" (4.721). |
+| κομίζω (541, of tending an aged father) | see note | see note | "tend" (both layers). |
+| ἑῆος (υἷος ἑῆος, 550) | see note | see note | `l` and `i` "your own son"; the note gives the reading "good" (ἐΰς) as the alternative. |
+| ἀπόναιο (556) | see note | see note | `l` "may you have enjoyment of", `i` "may you enjoy". |
+| ἵζε, transitive (553, μή πω μ’ ἐς θρόνον ἵζε) | see note | see note | `l` "seat", `i` "make … sit". |
+| νοέω + infinitive (561, νοέω … λῦσαι) | see note | see note | "have in mind to" in both layers (the table's νοέω "notice, take note of" does not take an infinitive). |
+| ἐάσω (569, μή σε … ἐάσω) | see note | see note | `l` "lest I leave you not … in the huts", `i` "or I may fail to leave you in peace"; ἐάω "let be, leave alone", with the note saying the Greek does not state what he would do. |
+| μετοχλίσσειε (567) | see note | see note | `l` "lever back", `i` "force back" (μετά + ὀχλίζω; μοχλός "bar, lever"). |
+| καλήτωρ (κήρυκα καλήτορα, 577) | see note | see note | `l` "the herald, the caller", `i` "the herald, the crier" (+ note: rare word, from καλέω "call"). |
+| ἐρύσαιτο (χόλον … οὐκ ἐρύσαιτο, 584) | see note | see note | `l` "not hold back" and `i` "fail to hold back" his anger; ἐρύομαι is "protect" elsewhere in the table, and the note says the sense here is "draw in, keep back". |
+| λέχος of a corpse (λεχέων ἐπέθηκεν, 589) | see note | see note | `l` "bedstead" (the table's λέχος), `i` "bier". |
+| σκυδμαίνω (592, μή μοι … σκυδμαινέμεν) | see note | see note | "be indignant" in both layers; "anger" is kept for χόλος, "wrath" for μῆνις, "resentment" for κότος. |
+| κάκ’ ἄνσχεο (518) · ἄνσχεο (549) | see note | see note | ἀνέχομαι follows the table's 23.587 row ("Hold out" / "Bear up") and 1.586 ("hold out" / "bear up"): 518 `l` "you held out", `i` "you have borne"; 549 `l` "Hold out", `i` "Bear up". |
+| πῶς ἔτλης + infinitive (519) | see note | see note | "how did you bring yourself to", following the table's ἔτλη "brought himself" (17.153, odyssey 11.425). |
+| ὄλβιον (543) · ὄλβῳ τε πλούτῳ τε (536) | see note | see note | "prosperous", "in prosperity and wealth"; the table's ὄλβιος and ὄλβῳ τε πλούτῳ τε rows (16.596). |
+| Ἑλλήσποντος ἀπείρων (545) | see note | see note | "the boundless Hellespont" (the table's ἀπείρων "boundless", 7.286). |
+| τετιμένος (533) | see note | see note | "honoured". |
+| λωβητόν (531) | see note | see note | `l` "an object of outrage", `i` "an object of insult" (λώβη keeps "insult" in `i`, "outrage" in `l`, as the table's ἀεικέα λώβην "unseemly insult" and λωβητῆρα "outrager" give). |

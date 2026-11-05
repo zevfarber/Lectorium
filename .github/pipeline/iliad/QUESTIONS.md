@@ -92,3 +92,6 @@ Greek identical to published 1.201 (καί μιν φωνήσας ἔπεα πτ�
 
 ## 2026-11-04 · iliad-153 · 24.184
 Greek identical to 24.155 but Iris addresses Priam, so 'led you / kill you' is true where 155 has 'him'. Validator same-Greek check exempted for iliad-153 line 184 only (as for 139). Also: last unit of iliad-152 (ln 91) has a note beginning mid-word ('ς is ‘a vain word’') — owner may fix.
+
+## 2026-11-05 · iliad-155 · 24.302
+ἀμφίπολος: the Iliad table row (6.491) says "handmaid"; iliad-155 uses "attendant housekeeper" for ἀμφίπολον ταμίην, matching odyssey-078 and iliad-142. Left as is; owner may prefer to harmonise.

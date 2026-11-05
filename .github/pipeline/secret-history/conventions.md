@@ -72,3 +72,6 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 178-181
 - Names in `i`: Quchar, Altan, Oqda, Sübegei, Kököchü-Kirsa'an, Jegei-Qungtaqar, Charaqai-Linggu, Arqai-Qasar, Bilge-Beki; "Father Qan" for Qān ečige; qād "sovereigns".
+
+## House renderings added by 182-185
+- Names in `i`: Qali'udar, Chaqurqan, Qadaq-Ba'atur (printed Qdaγ-Baγ̇atur, read as a slip), Soqos-Chaqan, Arqal-Kögi, Je'üriyedei, Alaqush-Digit-Quri, Jekü, Jesünge, Jirgin, Jeje'er (Jeje'er Ündür in `i`); Kerülen. Lemmas buči-, eri- follow the glossary.

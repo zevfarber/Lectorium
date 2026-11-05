@@ -69,3 +69,45 @@ Changes: 35 numbered entries — major 4 (nos. 8, 19, 21, 32), moderate 15, mino
 - Units 51–54 and 56: the decree's accusative/passive structure (ögtügei) and abliγa ("share") are guesses; the notes say so.
 - Unit 13 urubaṅ and unit 35 igülgüžü have no Ming gloss; the first is left untranslated in `i`, the second is silently folded into "hurry" (note explains).
 - Name spellings not fixed by the published parts: Önggüd, Jesünge (printed Jesüṅge; "Jesüngge" would follow the Chinggis pattern), Alaqu-Shidigid-Quri.
+
+# Pass 2 — secret-history-182-185
+
+Reviewer pass 2 (adversarial). Re-read all 60 units (`t`, `l`, `i`, `n`, every morph lemma/gloss against its form and Ming gloss) and all 120 gloss entries plus the 3 `__broaden__` entries, against the text, the units' morphs, `novel-forms.json` and the shared glossary. Mechanical checks, run by script after the edits: gloss keys = exactly the 120 tokens of `t` (WORD_RE, lowercased, brackets removed) that are not in the glossary, none missing, none unused, none already present; the three `__broaden__` keys (and the new fourth) are tokens of the part and each value starts with the old glossary entry whole + " · "; 476 words, 60 units. Scripts: `scratchpad/pass2.py`. Only `units.json`, `gloss.json` and this file were touched.
+
+| # | Unit / entry · field | Sev | What was wrong | What was done |
+|---|---|---|---|---|
+| 1 | unit 48 (Čiṅgis Qaγan-(n)a sojurγaγdaγ̇asu…) · `l` | minor | "Čiṅgis to Qaγan" splits the name (the same fault pass 1 fixed at unit 29). | `l`: "Čiṅgis Qaγan-to". |
+| 2 | units 37, 39 (büčije, büčibe) · morph lemma, `n`; gloss `büčije`, `büčibe` | minor | Lemma `büči-` against the glossary's `buči-` (bučižu, bučižü) for the same verb, and unit 40's bučižu in this very part carried `buči-`: two lemmas for one verb. | Lemma `buči-` in both morphs and both entries, "(spelled büči- here)"; note 37 says so. |
+| 3 | unit 16 (ereġen) · morph lemma, `n`; gloss `ereġen` | minor | Lemma `ere-` against the house `eri-` (erin, erižü, erikü… and unit 7's erin in this part). | Lemma `eri-` "spelled ere- here"; note and entry follow. Ending -ġen still unexplained, as flagged. |
+| 4 | unit 37 (düliligežü) · morph lemma; gloss | minor | Lemma `düliligē-` with a long-vowel mark that nothing in the print supports (the printed form is düliligežü). | `dülilige-`. |
+| 5 | unit 10 (Žeġürijedei) · morph gloss; gloss `žeġürijedei` | minor | "Jeürijed" against `i` "Je'üriyedei" (ġ is the glottal in the house names). | Morph and entry: "Je'üriyed". |
+| 6 | gloss `qaliγ̇udar`, `qaliγ̇udar-un` | moderate | English "Qaliqudar" against `i` "Qali'udar" (γ̇ is the glottal, as in So'os-Chaqan, Cha'ur-Beki; pass 1 already made this change in the units). | "Qali'udar" in both. |
+| 7 | gloss `qaraγ̇un-židun-u` | minor | "Qaraqun-Jidun" against `i` "Qara'un-Jidun". | "Qara'un-Jidun" (twice). |
+| 8 | gloss `usulan` | minor | "water (animals)" is outside knowledge; the Ming is 飮 only. | Dropped. |
+| 9 | gloss `udaγ̇an` | minor | "long" is not in the Ming (遲). | "slow, late". |
+| 10 | gloss `udaγ̇aran` | minor | "from udaγ̇a- 'follow'" stated flat; no source in the part. | "perhaps from". |
+| 11 | gloss `bejes` | minor | No grammar label. | "(adjective or adverb; form uncertain)". |
+| 12 | gloss `balžuna` | minor | Said "lake or water", but this part's Ming is 海子名, 水名 and 河名 ('river'). | The three Ming readings added to the parenthesis. |
+| 13 | gloss, 13 entries (balžuna, naγ̇ur-ača, bulγaγdarun, bulγalduuγči, bulγaldurun, alaγ̇ulqu, küṅgetügei, bulγaldulaγ̇a, bulγalduqu, qudalatuγai, žarutuγai…) · Ming bracket | minor | The glosser dropped the variation selector U+FE00 from the Ming in brackets; `novel-forms.json` and the glossary's own entries (海︀子, 說著︀) keep it. | Brackets restored to the exact string of `novel-forms.json` for every entry; the two empty ones stay "[no Ming gloss]" (glossary usage). |
+| 14 | `__broaden__` (new) `žežeġer` | moderate | The old entry says "the Ming says only 地名"; unit 39 has the Ming 山 'mountain' on the same token. | Added `žežeġer`: old entry whole + " · also with the Ming 山 'mountain' (Žežeġer- Ündür-ün, §185), the name split over the line". |
+
+Checked and found sound (no change): all other 100-odd entries' lemma, ending and grammar label against the morph (reciprocal -ldu-/-ldü- by vowel harmony, keleleldün as reworded in pass 1, -tügei/-tuγai, -dqun, conditionals -uγ̇asu/-ġešü/-basu, ablative -ača/-dāča, `bi` verb vs pronoun); the three old `__broaden__` entries (hužaγ̇ur 尖, Qasar 'Chinggis's brother', urida 先) are right and begin with the old text whole; Ming variants of other known tokens (jadažu 因乏着, ireġülüġed 敎來了, qurimlan 做筵席, tebčin 棄捨 …) are covered by the existing senses and need no broadening.
+
+## Findings checked and refused (pass 2)
+
+1. **morilaγsaγ̇ar "just as, in the manner of having ridden".** Looks like past participle -γsan + instrumental -γ̇ar (cf. dura-γ̇ar 意依着, Ming 依着 'according to'), but that is my analysis, not the evidence; the entry already says "analysis uncertain" and the note calls the form a guess. Left.
+2. **urubaṅ "perhaps a word for the arm or a manner adverb".** A guess with no Ming behind it, but flagged as such in entry, morph and note, and `i` leaves the word untranslated. Left.
+3. **Sartaγtai / "Sartaγ = Muslim merchants".** Still only in the note and marked as background knowledge; the entry says only "a man of the Sartaγ (Ming 種名)". Left.
+4. **-dāča "after the dative -da".** Reasonable and flagged "analysis uncertain"; left.
+5. **Unit 33 `i` "When they took him".** l has "taking, if going"; `i` smooths, without error. Left.
+6. **"Jeje'er Height" in titleEn / part / about** vs the published "Jeje'er Ündür": already in pass 1 refused 3; still the owner's call.
+
+## Counts (pass 2)
+
+Units: 0 major, 0 moderate, 5 minor (nos. 1–5; also touches units 10, 16, 37, 39, 48). Gloss: 0 major, 2 moderate (nos. 6, 14), 8 minor (nos. 7–13 and the lemma/Ming-spelling edits in 2–5 that reach the entries). Refused: 6.
+
+## Remaining doubts
+
+- Units 26–28 and 30 (the Itürgen chase and shot) stay as in pass 1: subject and object of qarbužuγ̇u and the sense of saγ̇utala rest on the Ming word by word.
+- `ereġen`, `urubaṅ`, `igülgüžü`, `düliligežü`, `morilaγsaγ̇ar`, `nököčegdekü`, `abliγa`: stems or endings that no evidence in the permitted sources fixes; all flagged "uncertain" in morph, entry and note.
+- Spelling of the lemma `buči-`/`büči-` and `eri-`/`ere-` now follows the glossary; if the owner prefers Shiratori's vowel in the lemma, change units 16, 37, 39 and the four entries together.

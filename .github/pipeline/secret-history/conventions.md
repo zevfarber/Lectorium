@@ -83,3 +83,6 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 189-190
 - Names in `i`: Kürbesü, Kökse'ü-Sabraq, Inancha-Bilge, Torbi-Tashi, Juqunan, Ödchigin Noyan, Belgütei Noyan, Temegen-Keger, Tülkin-Che'üd, Önggüd. torluγ / torulmiši: no Ming gloss, left untranslated. bütügei (Ming 有者) "let them be". Quotes: double outer, single inner.
+
+## House renderings added by 195
+- Names in `i`: Sübegetei (not Sübegei, a different man), Uruqud, Angqu'a, Jamuqa, Tayang. Quotes: opening marks Shiratori omits are supplied in `i` and said so in the note.

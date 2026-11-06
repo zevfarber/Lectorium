@@ -32,7 +32,7 @@ for k, u in enumerate(D['sentences']):
     if (u.get('l') or '').count('\n') != t.count('\n'): errs.append(f'unit {k} (line {nums[li]}): l must have the same number of lines as t')
     if '\n' in (u.get('i') or ''): errs.append(f'unit {k}: i must not contain line breaks')
     if t.count('\n') + 1 > 5: errs.append(f'unit {k} (line {nums[li]}): spans more than five lines')
-    if t.rstrip('”—')[-1:] not in A.TERMINAL + ',' and not t.endswith('—'): errs.append(f'unit {k} (line {nums[li]}): does not end at punctuation')
+    if t.rstrip('”—]')[-1:] not in A.TERMINAL + ',' and not t.endswith('—'): errs.append(f'unit {k} (line {nums[li]}): does not end at punctuation')
     pos += len(t); li += t.count('\n')
     if pos < len(S):
         if S[pos] not in ' \n': die(f'unit {k}: ends mid-word at line {nums[li]}')

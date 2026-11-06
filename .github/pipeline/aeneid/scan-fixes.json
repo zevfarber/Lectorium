@@ -513,5 +513,103 @@
    "su⏑6per–sunt×"
   ],
   "why": "Eu- of Euro is the Greek diphthong, one syllable (as Eurus 1.110): vix sep | tem con | vol un | dis Eu | ro-que su | per-sunt; the scanner split E-u."
+ },
+ "1.415": {
+  "sc": [
+   "1Ip–sa⏑",
+   "Pa⏑2phum–",
+   "sub–3li–mis⏑",
+   "a⏑4bit–‖",
+   "se–5des–que⏑",
+   "re⏑6vi–sit×"
+  ],
+  "why": "Ip-sa Pa | phum sub | lī-mis a | bit sē | dēs-que re | vī-sit: sublīmis has long -lī- (līmen) and short -mis, sub- long before bl, and ăbit has a short a; the scanner read su-bli short-short, mis long and a long, a valid line with three wrong quantities."
+ },
+ "1.421": {
+  "sc": [
+   "1Mi–ra–2tur–",
+   "mo–lem",
+   "3Ae–ne–4as–‖",
+   "ma–5ga–li⏑a⏑",
+   "6quon–dam×"
+  ],
+  "why": "Ae-nē-ās: initial diphthong one syllable, -nē- long (Mī-rā | tur mō(lem) | Ae-nē | ās mā | gā-li-a | quōn-dam); -lem elided into Ae-. The scanner split Ae into A-e and made a dactyl A-e-ne. With Ae- one syllable, ma- and ga- of magalia must both be long for the line to scan."
+ },
+ "1.424": {
+  "sc": [
+   "1mo–li–2ri–que",
+   "ar–cem",
+   "3et–",
+   "ma⏑ni⏑4bus–‖",
+   "sub–5vol–ve⏑re⏑",
+   "6sa–xa×"
+  ],
+  "why": "mō-lī-rī: all three syllables long (mōlior, mōlīrī), -que elided into ar- and -cem into et, then mănĭbus short-short: mo-li | ri ar | et ma-ni | bus sub | vol-ve-re | sa-xa. The scanner made li and ri short and ma and ni long."
+ },
+ "1.438": {
+  "sc": [
+   "1Ae–ne–2as–",
+   "a⏑it⏑",
+   "3et–‖",
+   "fas–4ti–gi⏑a⏑",
+   "5sus–pi⏑cit⏑",
+   "6ur–bis×"
+  ],
+  "why": "Ae-nē-ās: initial diphthong one syllable and long -nē- (Ae-nē | ās a-it | et fas | tī-gi-a | sus-pi-cit | ur-bis); ait as two short syllables (a monosyllabic ait would also give a valid line, same other quantities). The scanner split Ae and made a dactyl A-e-ne."
+ },
+ "1.446": {
+  "sc": [
+   "1Hic–",
+   "tem–2plum–",
+   "Iu–3no–ni",
+   "in–4gens–‖",
+   "Si–5do–ni⏑a⏑",
+   "6Di–do×"
+  ],
+  "why": "Carrier line: scanned by hand and found correct as the scanner reads it (Hic tem | plum Iū | nō(ni) in | gens Sī | dō-ni-a | Dī-do; -ni elided into in-, Iū- with consonantal I). It is listed only because 446 shares a unit with the unresolved 448, and the build drops the scanner's output for a whole unit when one of its lines is UNRESOLVED."
+ },
+ "1.447": {
+  "sc": [
+   "1con–de–2bat–",
+   "do–3nis–‖",
+   "o⏑pu⏑4len–tum",
+   "et–",
+   "5nu–mi⏑ne⏑",
+   "6di–vae×"
+  ],
+  "why": "dōnis: dōnum has long ō and the ablative plural -īs is long; ŏpŭlentum is short-short-long (con-dē | bat dō | nis o-pu | len(tum) et | nū-mi-ne | dī-vae). The scanner made do-nis short-short and o-pu long-long."
+ },
+ "1.448": {
+  "sc": [
+   "1ae–re⏑a⏑",
+   "2cui–",
+   "gra⏑di⏑3bus–‖",
+   "sur–4ge–bant–",
+   "5li–mi⏑na⏑",
+   "6ne–xae×que"
+  ],
+  "why": "Hypermetric line: ae-re-a | cui gra-di | bus sur | gē-bant | lī-mi-na | nex-ae, with 15 syllables and the final -que of nexaeque elided into the initial ae- of 449 (synaphea). The scanner cannot elide across a line end and returned UNRESOLVED. aerea is ae-re-a (diphthong, from aes), cui one syllable, surgēbant with long -gē-."
+ },
+ "1.449": {
+  "sc": [
+   "1ae–re⏑",
+   "tra⏑2bes–",
+   "fo⏑ri⏑3bus–‖",
+   "car–4do–",
+   "stri–5de–bat⏑",
+   "a⏑6e–nis×"
+  ],
+  "why": "ae-re tra | bes fo-ri | bus car | dō stri | dē-bat a | ē-nis: aere is aes (diphthong); fŏrĭbus is short-short-short; strīdēbat has long -dē-; aenis is three syllables, ă-ē-nis (contracted from ahēnus), which is what lets -bat stand short before a vowel in the fifth foot. The scanner read fo-ri-bus long-long-long and ae-nis as two syllables, a valid line with wrong quantities."
+ },
+ "1.451": {
+  "sc": [
+   "1le–ni⏑it⏑",
+   "2hic–",
+   "pri–mum",
+   "3Ae–ne–4as–‖",
+   "spe–5ra–re⏑",
+   "sa⏑6lu–tem×"
+  ],
+  "why": "Ae-nē-ās: initial diphthong one syllable, -nē- long (lē-ni-it | hic pri(mum) | Ae-nē | ās spē | rā-re sa | lū-tem); -mum elided into Ae-. The scanner split Ae and read A-e-ne as a dactyl."
  }
 }

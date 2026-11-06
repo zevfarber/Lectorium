@@ -95,3 +95,6 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 200
 - Names in `i`: Jamuqa, Chinggis, Qahan, Wang Qan (Father Wang Qan), Mount Tanglu, Qalaqaljid-Eled. Lemmas bolulča-, duradγa-, adalidγa-, qān follow the glossary. Opening quote mark at Ken-ü idemü" supplied in `i` and said so in the note.
+
+## House renderings added by 201
+- Names in `i`: Sojidar-Mala, Taichar, Jeren, Dalan-Baljut, Qorqonaq-Jubur, Chinggis Qahan. anda → "sworn brother" (except where the word itself is the point); Qān → "Qan", Qaγan → "Qahan".

@@ -20,3 +20,5 @@ Open:
 7. **Glossary `genitor`.** The broadened entry keeps the old "here Neptune" reading whole, per the broadening rule; the new reading (Jupiter, voc.) is appended.
 
 8. **I.462 set piece decided by the run (aeneid-005).** As with I.203 (item 6): built from the Latin alone, rephrased away from known versions, added to the house-renderings table. The reviewer could only check against remembered versions. Meanwhile: published as is; change it if you prefer another.
+
+9. **Half-lines.** Greenough prints ~58 half-lines (first: 1.534, 1.560). Meanwhile: each is hand-scanned in scan-fixes.json with a reason starting "Half-line", and validate_aeneid.py accepts such lines (fewer than six numbered feet, one × mark). Tell me if you want them treated differently.

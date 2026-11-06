@@ -57,6 +57,7 @@ for k, u in enumerate(U):
     n = len(u.get('n', '').split())
     if n < 15 or n > 140: warn(w, f'note is {n} words')
     if re.search(r'\b(Fitzgerald|Mandelbaum|Fagles|Ruden|Bartsch|Dryden|Lombardo|Ahl|Humphries|Day Lewis|Ferry|Lattimore)\b', u.get('n', '') + u.get('i', '') + u.get('l', '')): fail(w, 'names a modern translator')
+L_fix = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'scan-fixes.json')))
 # 4 scansion: every line six feet, 12–17 syllables, one line-end mark
 alltok = [x for u in U for x in u.get('sc', [])]
 if len(alltok) == len(A.WORD_RE.findall(src)):
@@ -64,6 +65,10 @@ if len(alltok) == len(A.WORD_RE.findall(src)):
     for l in L:
         n = len(A.WORD_RE.findall(l['t'])); seg = ''.join(alltok[i:i + n]); i += n
         feet = re.findall(r'[1-6]', seg); syl = len(re.findall(r'[–⏑×]', seg))
+        if str(L_fix.get(f'{P["book"]}.{l["n"]}', {}).get('why', '')).startswith('Half-line'):
+            # hemistich (Virgil's unfinished line): fewer than six feet; numbered feet 1..k, one line-end mark
+            if feet != list('123456'[:len(feet)]) or not feet or len(feet) >= 6 or seg.count('×') != 1: fail(f'line {l["n"]}: bad half-line scansion')
+            continue
         if feet != list('123456') or not 12 <= syl <= 17 or seg.count('×') != 1: fail(f'line {l["n"]}: scansion is not a hexameter ({"".join(feet)}, {syl} syllables)')
         # each foot: dactyl –⏑⏑ or spondee –– (sixth: –×)
         body = re.sub(r'[^0-9–⏑×]', '', seg); feetpat = re.findall(r'\d([–⏑×]+)', body)

@@ -58,3 +58,34 @@ Totals: 24 changes (2 major, 11 moderate, 11 minor); 12 findings refused.
 - Broaden: darulča- (known “follow close behind, Ming 緊隨”; here Ming 相壓着 “press upon one another”); Baγ̇aridai (above); ese-ü (-ü question, here no 麽); bolγan (add Ming 審, still “making”); öġere (add Ming 𠮠 already known).
 - Novel stems whose lemma form depends on the glosser: id-, γulad-, bölde, qadaγ̇uči, ködölkün (-kün), büselgün, qunžiγ̇u, kemkerü, čeküi, žilda-type guesses. Keep every “uncertain” the notes carry.
 - Pass 2 should check gloss.json entries for -(n)a, -(n)u, -ün, -žü, -ben, -dür, -tür against the corrected labels above.
+
+# Pass 2 — secret-history-196-197
+
+Reviewer pass 2 (units.json and gloss.json). Checked: all 78 gloss entries against the token, the corrected morph labels and
+the packet's Ming (every novel entry's bracket equals novel-forms.json, 0 mismatches; no extra or missing keys); the 16
+`__broaden__` entries (each is the old entry whole + " · " + the new reading, 16/16); every suffix morph lemma in units.json
+against its token (substring and front/back label, scripted); notes, l and i re-read once more after pass 1. `t` and word
+counts unchanged (48 units, 392 words).
+
+Totals: 5 changes (0 major, 2 moderate, 3 minor); 9 findings refused.
+
+| # | Change · where | Sev. | What | Done |
+|---|---|---|---|---|
+| 1 | word 83 üküldüžüġüi (U10) · morph | moderate | The reciprocal was labelled -ldu- though the token has the front vowel -ldü- (gloss.json already said -ldü-). The units.json label was the wrong one. | Lemma -ldü-, gloss "(front-vowel form of -ldu-)"; Ming bracket kept. |
+| 2 | U10 · n | minor | Note said üküldüžüġüi "carries the same -ldu-". | "the same ending in its front-vowel form -ldü-". |
+| 3 | word 104 jadažü (U13) · morph | moderate | Converb labelled -žu "(back-vowel form)" but the token is -žü; the published entry for jadažü says -žu is written -žü here though the stem is back-vowel. Same kind of slip as #1, missed in pass 1. | Lemma -žü, gloss "written -žü although the stem is back-vowel, as the glossary notes". |
+| 4 | gloss.json · samaγ̇uraqu | minor | Entry covered only the Ming 亂了 (idx 236); the second use (idx 292, U34) has Ming 作亂. | Entry + " · also Ming 作亂 … 'will run riot'". |
+| 5 | gloss.json · najaγ̇a-dāča | minor | Entry covered only Ming (人)名處 (idx 296); idx 312 (U37) has 人名 行. | Entry + " · also Ming 人名 行 … 'from Naya'a'". |
+
+## Findings refused / left as they are
+
+- Known entries whose Ming differs only in spelling or a trailing particle from this part's use (γarba 上了 vs 上去了, abču 將着 vs 要着, qaγačan 離着 vs 分離, ede, sain 好的, niγur 面皮, ulus 國土, quluγana 鼠兒, ködölgežü 推動着 vs 敎動着, deġerēče 上處, tendēče 自那裏, Qadaγ-type name entries 種名 vs 一種姓氏, etc.): same word, same sense; not broadened (the entries are general to the form).
+- ilerün idx 16 (Ming 去時): the known entry already carries "sending, when sending" and the 去 alternative; the note (pass 1 #16) records 去時. Left.
+- gun (崖的 here, 山崖的 in the known entry) and qān (皇帝行 vs 皇帝): Ming variation only, left.
+- bolγan broaden keeps "making" and records 審 as an unrendered nuance (matches the unit and pass 1 #2); left.
+- Novel stems inferred from the Ming (id-, γulad-, üküdġü-, ürġü-, qutaγla-, buruγ̇uila-, esergüle-, güjiče-, žedgü-, tödeġe-, töridġe-, idγa-, öči-, sori-, tüši-, qurija-, kiliṅla- …) and the uncertain endings (-kün, -gün, -ju, -mu, -suγ̇asu): glossed as "inferred / uncertain" in both files; no invented modern form found; kept.
+- kemkerü, baitala, bölde, qunžiγ̇u, čeküi, qadaγ̇uči, büselgün, ölgede: uncertain stems stated as uncertain in gloss and note; kept.
+- gloss.json qaradal-hužaγ̇ur-a / küreġen-düri keys: odd-looking but they are the reader's tokens of t (build/validate confirm full coverage, no unused keys).
+- Grammar names (converb, passive, causative, reciprocal, participle, hortative, optative, comitative, ablative, instrumental, reflexive-possessive) re-checked against the Ming and the glossary's usage for every entry: none misnamed.
+- Names in i against the house lists (Qahan, Jamuqa, Tayang, Taichi'ud, Sa'ari-Keger, Kürbesü, Lady Qulan): consistent; Toqto'a-Beki, Küchülüg, Dair-Usun, Qo'as Merkid, Naya'a are first-time house forms here (no earlier part contradicts them).
+- units.json p flags: § 196 (U0) and § 197 (U19) carry p: true; nothing to change.

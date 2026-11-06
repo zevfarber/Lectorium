@@ -86,3 +86,6 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 195
 - Names in `i`: Sübegetei (not Sübegei, a different man), Uruqud, Angqu'a, Jamuqa, Tayang. Quotes: opening marks Shiratori omits are supplied in `i` and said so in the note.
+
+## House renderings added by 196-197
+- Names in `i`: Naya'a, Lady Qulan, Qo'as Merkid, Sa'ari-Keger, Toqto'a, Qaradal-Huja'ur, Chila'un, Dair-Usun, Ba'aridai (a people). bolγan stays "making" (Ming 審 unrendered); converb -žü is written so after back-vowel stems (jadažü).

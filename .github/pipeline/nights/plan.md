@@ -178,6 +178,7 @@ repository is the state, never this table. Run it rather than trusting what is w
 | Night 79 | P467L11–P469L23 | published 2026-11-04, 41 sense units (1 verse block, copied as printed), 1 slice drafted by the orchestrator (check_slice PASS after --fix); +147 glossary entries |
 | Night 80 | P470L01–P471L16 | published 2026-11-05, 20 sense units (1 verse block, copied as printed), 1 slice drafted by the orchestrator (check_slice PASS after --fix); +129 glossary entries; formula misprint الموفيه المثمانين and filler-dash word ق———س flagged in n |
 | Night 81 | P471L17–P474L01 | published 2026-11-06, 32 sense units (2 verse blocks, copied as printed), drafted by the orchestrator (check_slice PASS after --fix); +150 glossary entries; print spellings and filler-dash word البيت————ين flagged in n |
+| Night 82 | P474L02–P475L16 | published 2026-11-06, 33 sense units (no verse), drafted by the orchestrator (check_slice PASS after --fix); +108 glossary entries; print spellings kept, أبسر flagged as doubtful in n |
 
 A night runs 84–224 archived lines (about 5½ printed pages), so eight transcribed pages yield
 roughly one and a half nights. Eight units are waiting as of 2026-09-18, so the next several

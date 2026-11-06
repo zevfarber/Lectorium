@@ -98,3 +98,6 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 201
 - Names in `i`: Sojidar-Mala, Taichar, Jeren, Dalan-Baljut, Qorqonaq-Jubur, Chinggis Qahan. anda → "sworn brother" (except where the word itself is the point); Qān → "Qan", Qaγan → "Qahan".
+
+## House renderings added by 204-207
+- Names in `i`: Bo'orchu, Muqali, Qorchi, Münlig, Ba'arin, Erdis, Qara'un-Jidun, Kügün-Go'a, Taqai, Ashiq, Guowang. -tuγai/-tügei = "optative (third person)"; eje (Ming 商量) = counsel/consult; köiten here "cold" (broadened).

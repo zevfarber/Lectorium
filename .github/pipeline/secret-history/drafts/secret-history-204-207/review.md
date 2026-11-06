@@ -241,3 +241,48 @@ Unit numbers are 0-based positions in `sentences` (u0 = first unit); § in brack
 ## Doubts still open (not errors; for the glosser and pass 2)
 
 nuγ̇u (‘corner’), the ending of deġermed- forms (-te-, -ügsen, -ün), šitüġeġeldüžü, derelekün, tuluγ, nendü, the -γ̇ai/-γai ending, jeġüdgežü, saγlar, quirun, who speaks norγ̇atuγai (u28), and whether the closing `či.` is a vocative or a sentence-final particle of address (taken as the former, on Shiratori's stops).
+
+# Review, pass 2 — secret-history-204-207
+
+Pass 2 re-read `units.json` against the packet and glossary, and checked every `gloss.json` entry against the text. Edited only `units.json`, `gloss.json` and this file. After the edits: 444 words, `t` equals the packet word for word, the bracketed Ming of each word's morphs equals the packet's Ming (checked by script; one lost U+FE00 restored at u13), every reader token of every `t` resolves, and there are no unused keys (checked by script; the build and validate are not mine to run).
+
+## Counts
+
+| severity | count |
+|---|---|
+| critical | 0 |
+| major | 2 |
+| moderate | 12 |
+| minor | 17 |
+
+## Changes
+
+Major
+- gloss `kedün`: said "here 'how many' of years", copied from another part; here it is `kedün ber`, 'however much' (help). Fixed.
+- gloss: `köiten` was only a known place-name entry (Köiten, Ming 地名), so the reader would show a place name where u48 means 'cold' (pair of noitan 'wet', and köšildüžü). Added a `__broaden__` entry.
+
+Moderate
+- u1–58 morph `ke-` → `keġe-`, and `-ġen` → `-n` (the glossary and every published part: keġe- + -n); `kēġesü` → keġe- + conditional `-sü` (13 published uses) with note u25 rewritten to match; u50 note likewise.
+- u12–13 morph `ai-` + `-suqui` → `aisu-` + `-qui` (glossary: aisu-, participle -qui).
+- u23 `na-dur`: morph was `bi` + a suffix `-na-dur`; now bi (oblique na-) + `-dur`, as at u16 `na-da`.
+- Grammar name of -tuγai/-tügei/-tuγ̇ai: units and two gloss entries said "third-person imperative"; the glossary names the same ending "optative" (23 entries). Now "optative (third person)" in morphs, notes and entries (norγ̇atuγai, jabutuγ̇ai, broadened medetügei).
+- u57–58 `eje`: Ming 商量 is 'consult', and the glossary says 'counsel, consultation'; "consent" was unsupported. `l`, `i`, notes and both morph glosses now "counsel/consulting"; u58 note no longer asserts punishment ("without hesitation" given as a possibility only).
+- u35 `buruγ̇u-ji`: `i` "when I was in the wrong, held me back" made the accusative a condition on the speaker; it is the object of idγažu ('a fault'). `i` and `l` now "checked my faults"; note's doubt restated.
+- u46 note said this was "the first decree of the section"; §204 is. Now "without basa, which opened the two decrees before".
+- u13 note and gloss `nökör-tur`: "back-vowel form after r" was false (nökör is a front-vowel stem; -tur is the back-vowel form). Now stated as a break in harmony.
+- gloss `geġü-ben`: against the glossary's geġü 'mare kept for milking' (Ming 課馬) and the milking context; now cross-refers and keeps the Ming 騾馬.
+- gloss: `jer` was not broadened, so külüg(i)-jer (Ming 豪傑 敎) showed only unrelated uses. Added.
+- u3, u22, u32 `ažuγ̇u`: "past participle" vs the glossary's "past"; now "past: 'was'".
+
+Minor
+- u12 `i` "pale geldings among them" → "pale geldings" (apposition, not a subset). u9 `i` "on you" removed (not in the Mongol) and the note. u16 `i` "your white horse" → "a" (no possessive). u26 "blue" → "blue-grey" (`l`, `i`; matches the boro entry and the Börte Čino note). u53 note index 408 → 409. u56 medetügei: Ming bracket moved to the stem like the other two. u22/32/33 čin-u: Ming 你 / 的 divided between the morphs. u13 lost variation selector in 艱難. u58 note.
+- gloss: `qorči-dāča` analysis (da + ača, uncertain); `külügi` worded as the existing köli entry; double "also also" removed in `hüldežü`, `baitala`; `emestü`, `keġer-e` reworded; `baiqun-i` broadened (plural, Ming 每); `küġün-γoγ̇a-ji` "woman's or man's" → "a personal name"; `tüme` speculation trimmed.
+
+## Checked and kept (refusals)
+
+- Lemma `daγ̇us-` against the glossary's `daγus-` (and `ali` against `Ali-`): the broadened entries name the new lemma, so they agree with the morphs.
+- `kürgebe`: morph kür- + -ge- + -be against glossary `kürge-`; the entry itself explains the same split. `žaγ̇ura` kept as one morph like the entry. `šitüġeġeldüžü` kept as flagged-uncertain; no better analysis from the Ming.
+- "liquorice-yellow" for 甘草黃: literal Ming reading, flagged in the note; glossary's "bay or dun" is an older guess. "Chinos", "Tögöres", "Taqai", "Ashiq", "Kügün-Go'a": no house rule; kept.
+- u23 `in-ü` read as 'his' like the glossary entry; the alternative (possessive suffix after köġün) gives the same English.
+- Cross-references checked: §134 (Žaγ̇ud-quri nere ögbe) is in the source; all word indices in notes (11, 14, 18, 38, 46, 49, 53, 56) are 0-based packet indices and now correct.
+- Quotation marks and `ln`/`p` rechecked; unchanged.

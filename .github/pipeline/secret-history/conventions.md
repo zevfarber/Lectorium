@@ -92,3 +92,6 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 198-199
 - Names in `i`: Chimbai, Sorqan-Shira, Toqto'a-Beki, Küchülüg (Qan), Sübegetei, Gur-Qan, Qara-Kitad, Uduid, Erdis, Buqdurma, Mount Arai; "three Merkid"; alus "beyond(?)"; qulan (animal) "wild ass".
+
+## House renderings added by 200
+- Names in `i`: Jamuqa, Chinggis, Qahan, Wang Qan (Father Wang Qan), Mount Tanglu, Qalaqaljid-Eled. Lemmas bolulča-, duradγa-, adalidγa-, qān follow the glossary. Opening quote mark at Ken-ü idemü" supplied in `i` and said so in the note.

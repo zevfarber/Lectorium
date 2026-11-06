@@ -65,3 +65,39 @@ Critical 0 · Major 2 (nos. 18, 34) · Moderate 13 (nos. 2, 6, 10, 14, 15, 22, 2
 4. U9/U12: what the bird figures mean; the roles in U12 (first named = seizer) follow word order.
 5. U20 ögbe; U8 iregdežü; U13 budun; U10 qaraču boγ̇ol (apposition vs pair).
 6. Glosser pass: bolulča-, duradγa-, adalidγa-, qān lemmas changed here must be matched in gloss.json keys' dictionary forms.
+
+# Pass 2 — reviewer (adversarial)
+
+Checked: all 48 gloss.json entries (+2 broadened) against the text, packet Ming glosses and the published glossary; gloss keys against the tokens of every `t` (build: 100% coverage, no unused keys); morph lemmas against gloss entries; units re-read for l/i/n. `t` untouched; both files edited by script.
+
+## Changes
+1. gloss duradγaldužu · moderate · lemma duradqa- (q) against morph/glossary duradγa-; "-l(du)-" against morph -ldu- · duradγa-, -ldu-, "reminding one another".
+2. gloss adalidγatuγai · moderate · lemma adalidqa- against morph adalidγa- · adalidγa-.
+3. gloss ajuγ̇uluγsani · moderate · lemma ajuγ̇ul- against morph aju- + -γ̇ul- (and the glossary's aju- family) · aju- ... causative -γ̇ul-.
+4. gloss öġermičilen · moderate · lemma öġermiči + adverbial -len, while morph is öġermičile- + -n · öġermičile- + converb -n.
+5. gloss ölžetü / U25 morph + n · minor · ölže (gloss, published glossary) vs ölži (morph, n) · ölže everywhere.
+6. gloss seriġülülečežü · minor · gloss had causative -ġül- and no linking vowel; morph -ġülü- · gloss states linking ü and the sere- variant.
+7. gloss untaraγsani · minor · "past participle -γsan, 'sleep'" · "one who has slept".
+8. gloss boro-quladu · minor · "boro 'grey'" asserted; n says "may be" · "perhaps".
+9. gloss qalaqalžid-eled-te · minor · "locative -te" vs morph dative-locative; "sands" asserted · both fixed, "perhaps".
+10. broaden ügüle · moderate · "Ming not at hand" is false (Ming 說, as for the old sense) and the example "Žamuqa … ügüle" does not occur in the text · example now Qaγan anda-da ügüle; old text kept whole, then " · " + new. bolba broaden checked: old text whole, example forms occur (bariqu, kürgekü bolba).
+11. about · minor · "Deserted by his people" (U1 says only that they were taken) · "With his people taken from him".
+12. U1 n · minor · "only five companions" (only not in the form) · "five".
+13. U5 i · minor · "Whose sons are these, who kill argali this day" took ene "this" as "these" and left it off üdür · "Whose sons are they who, this day, kill argali and eat like this?".
+14. U7 n · minor · "Chinggis is the title taken in 1206" is outside the permitted sources · replaced by what the Ming gloss 太祖 shows.
+
+## Counts by severity
+Critical 0 · Major 0 · Moderate 5 (nos. 1, 2, 3, 4, 10) · Minor 9.
+
+## Refused / kept
+- bolulča-, qān lemmas in morph agree with the published glossary; kept.
+- U23 "pass our lives" (a- "pass" + Ming 過): "lives" is an addition, but a bare "pass" is unreadable and the n explains; kept as a doubt.
+- U29 "Your service was this" for bi-že (l "is"): chronicle past, kept.
+- U20 ögbe "gave them up", U8 iregdežü, U13 budun, U10 qaraču boγ̇ol: pass 1 doubts, kept.
+- Packet Ming strings in all morph brackets re-spot-checked; no differences.
+
+## Build / validate
+`r3.py build` BUILT (33 units); `validate` PASS, no WARNs.
+
+## Remaining doubts
+U23 reproach vs condition; U26/U27 öre / aγ̇ušigi location vs coordination; U29-U32 subject and sense of the long sentence (üküġülžü, ama-γ̇ar alažu, adalidγatuγai); U9/U12 bird figures; U20 ögbe.

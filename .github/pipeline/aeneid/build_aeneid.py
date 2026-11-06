@@ -70,7 +70,7 @@ for i, l in enumerate(L):
         a = sum(lt[:i]); new = fx[k]['sc']
         if [strip(x) for x in new] != A.WORD_RE.findall(l['t']): die('scan-fixes.json', k, 'does not match the words of the line')
         flat[a:a + lt[i]] = new; applied.append(k)
-        rep = [r for r in rep if not (r.startswith(('COSTLY', 'UNRESOLVED')) and strip(r.split(': ', 1)[1]).split() == [strip(x) for x in A.WORD_RE.findall(l['t'])])]
+        rep = [r for r in rep if not (r.startswith(('COSTLY', 'UNRESOLVED')) and A.WORD_RE.findall(strip(r.split(': ', 1)[1])) == [strip(x) for x in A.WORD_RE.findall(l['t'])])]
 if applied:
     pos = 0
     for u in units:

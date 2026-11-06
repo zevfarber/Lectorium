@@ -1,8 +1,5 @@
 # aeneid-004 — proposed new house renderings
 
-| line | Latin | `l` | `i` |
-|---|---|---|---|
-| I.328 | *O, dea certe—* | "O, a goddess surely—" | "ah, a goddess for certain—" |
-| I.364 | *dux femina facti* | "the leader of the deed a woman" | "a woman is the leader of the deed" |
-| I.367 | *facti de nomine Byrsam* | "from the name of the deed Byrsa" | "Byrsa, named from what was done" |
-| I.343–352 | Sychaeus's murder (*clam ferro incautum superat*) | "secretly with iron overcomes the unwary" | "cuts Sychaeus down in secret with a blade, off his guard" |
+None. The drafter's four rows (I.328 *O, dea certe—*; I.364 *dux femina facti*; I.367 *facti de nomine Byrsam*; I.343–352 the murder of Sychaeus) are
+ordinary renderings of single lines, not set pieces, and no line of I.297–386 is on the conventions' list of set pieces still ahead; they were
+removed on review. Nothing here is to be copied into the table in `conventions.md`.

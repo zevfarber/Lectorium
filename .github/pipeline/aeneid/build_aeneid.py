@@ -35,8 +35,11 @@ for k, u in enumerate(D['sentences']):
     if t.rstrip('”—]')[-1:] not in A.TERMINAL + ',' and not t.endswith('—'): errs.append(f'unit {k} (line {nums[li]}): does not end at punctuation')
     pos += len(t); li += t.count('\n')
     if pos < len(S):
-        if S[pos] not in ' \n': die(f'unit {k}: ends mid-word at line {nums[li]}')
-        atStart = S[pos] == '\n'; li += 1 if atStart else 0; pos += 1
+        if S[pos] not in ' \n':
+            if S[pos-1] not in A.TERMINAL: die(f'unit {k}: ends mid-word at line {nums[li]}')
+            atStart = False   # source prints no space after terminal punctuation (II.13 'incipiam.Fracti')
+        else:
+            atStart = S[pos] == '\n'; li += 1 if atStart else 0; pos += 1
 if pos != len(S): die(f'edition not fully covered: stopped at line {nums[li]}')
 if errs: die('\n  ' + '\n  '.join(errs))
 # ---- story

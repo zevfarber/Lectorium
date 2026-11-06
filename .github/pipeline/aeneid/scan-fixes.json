@@ -1218,5 +1218,184 @@
    "tu⏑6o–rum×"
   ],
   "why": "Danaum is three syllables (Dă-nă-um, as at 1.30): in-sĭ-dĭ | ās in | quit Dă-nă | um cā | sus-que tŭ | ō-rum. The scanner took synizesis (Da-naum) and made Da long."
+ },
+ "2.2": {
+  "sc": [
+   "1In–de⏑",
+   "to⏑2ro–",
+   "pa⏑ter⏑",
+   "3Ae–ne–4as–‖",
+   "sic–",
+   "5or–sus⏑",
+   "ab⏑",
+   "6al–to×"
+  ],
+  "why": "Aeneas is three syllables, Ae-nē-ās: In-dĕ tŏ | rō pă-tĕr | Aē-nē | ās sic | or-sŭs ăb | al-to. The scanner split Ae- in two (A-e-ne-as) and made a dactyl A-e-ne."
+ },
+ "2.3": {
+  "sc": [
+   "1In–fan–2dum–",
+   "re–3gi–na⏑‖",
+   "iu⏑4bes–",
+   "re⏑no⏑5va–re⏑",
+   "do⏑6lo–rem×"
+  ],
+  "why": "rēgīna keeps its long rē- and -gī-; iubes has a short iu- (as iubent 2.37); the only parse is In-fan | dum rē | gī-nă-iŭ | bēs rĕ-nŏ | vā-rĕ-dŏ | lō-rem. The scanner made re-gi short and -na long: a valid line with wrong quantities."
+ },
+ "2.9": {
+  "sc": [
+   "1prae–ci⏑pi⏑2tat–",
+   "sua–3dent–que⏑‖",
+   "ca⏑4den–ti⏑a⏑",
+   "5si–de⏑ra⏑",
+   "6som–nos×"
+  ],
+  "why": "suādent: the u is consonantal (swa-), so sua- is one long syllable: prae-ci-pi | tat suā | dent-que-ca | den-ti-a | sī-de-ra | som-nos. The scanner read su-a as two shorts, with a short a (suādeō has long ā)."
+ },
+ "2.14": {
+  "sc": [
+   "1duc–to–2res–",
+   "Da⏑na⏑3um–‖",
+   "tot–",
+   "4iam–",
+   "la–5ben–ti⏑bus⏑",
+   "6an–nis×"
+  ],
+  "why": "Danaum is three syllables, Dă-nă-um (not Da-naum with a diphthong), the first two short: duc-tō | rēs Dă-nă | um tot | iam lā | ben-ti-bus | an-nis. The scanner read -aum as a diphthong and lengthened Da-."
+ },
+ "2.26": {
+  "sc": [
+   "1er–go",
+   "om–2nis–",
+   "lon–3go–‖",
+   "sol–4vit–",
+   "se–",
+   "5Teu–cri⏑a⏑",
+   "6luc–tu×"
+  ],
+  "why": "Teu- is one long syllable (Greek eu), and sē is long: er(go) om | nis lon | go sol | vit sē | Teu-cri-a | luc-tu, 13 syllables. The scanner split Te-u and shortened se."
+ },
+ "2.36": {
+  "sc": [
+   "1aut–",
+   "pe⏑la⏑2go–",
+   "Da⏑na⏑um",
+   "3in–si⏑di⏑4as–‖",
+   "sus–5pec–ta⏑que⏑",
+   "6do–na×"
+  ],
+  "why": "Danaum is Dă-nă-um and the -um elides before insidias, leaving Dă-nă: aut pĕ-lă | gō Dă-nă | in-sĭ-dĭ | ās sus | pec-tă-quĕ | dō-na. The scanner kept only a long Da- and elided the whole of -naum."
+ },
+ "2.37": {
+  "sc": [
+   "1prae–ci⏑pi⏑2ta–re⏑",
+   "iu⏑3bent–‖",
+   "sub–4iec–tis–que",
+   "5u–re⏑re⏑",
+   "6flam–mis×"
+  ],
+  "why": "sub-iec-tis: the i after the prefix is consonantal (sub + iacio), so sub | iec-tis, not su-bi-ec; -que elides before ūrere: prae-ci-pi | tā-re iu | bent sub | iec tis | ū-re-re | flam-mis. The scanner read the i as a vowel and added a syllable."
+ },
+ "2.41": {
+  "sc": [
+   "1La–o⏑co⏑2ön–",
+   "ar–3dens–‖",
+   "sum–4ma–",
+   "de–5cur–rit⏑",
+   "ab⏑",
+   "6ar–ce×"
+  ],
+  "why": "Confirmed by hand, entered only to clear the COSTLY flag: Lā-ŏ-cŏ | ōn ar | dens sum | ma dē | cur-rit ab | ar-ce. Laocoön is four syllables (Greek ω, the diaeresis); the scanner's parse was right."
+ },
+ "2.44": {
+  "sc": [
+   "1do–na⏑",
+   "ca⏑2re–re⏑",
+   "do⏑3lis–‖",
+   "Da⏑na⏑4um–",
+   "Sic–",
+   "5no–tus⏑",
+   "U⏑6li–xes×"
+  ],
+  "why": "Danaum is three syllables, Dă-nă-um: dō-nă-că | rē-rĕ-dŏ | lis Dă-nă | um sic | nō-tŭs Ŭ | li-xes. The scanner read -aum as a diphthong and lengthened Da-."
+ },
+ "2.48": {
+  "sc": [
+   "1aut–",
+   "a⏑li⏑2quis–",
+   "la⏑tet⏑",
+   "3er–ror⏑",
+   "e⏑4quo–‖",
+   "ne–",
+   "5cre–di⏑te⏑",
+   "6Teu–cri×"
+  ],
+  "why": "Teu- is one long syllable (Greek eu), nē is long and crēdite has a long cre-: aut ă-lĭ | quis lă-tĕt | er-ror ĕ | quō nē | crē-dĭ-tĕ | Teu-cri, 16 syllables. The scanner split Te-u and reversed the quantities of cre-di-te."
+ },
+ "2.65": {
+  "sc": [
+   "1Ac–ci⏑pe⏑",
+   "2nunc–",
+   "Da⏑na⏑um",
+   "3in–si⏑di⏑4as–‖",
+   "et–",
+   "5cri–mi⏑ne",
+   "ab⏑",
+   "6u–no×"
+  ],
+  "why": "Danaum is Dă-nă-um and the -um elides before insidias: ac-ci-pe | nunc Dă-nă | in-sĭ-dĭ | as et | cri-mi(ne) ab | ū-no. The scanner kept a long Da- and elided the whole of -naum."
+ },
+ "2.66": {
+  "sc": [
+   "1dis–ce",
+   "om–2nes×"
+  ],
+  "why": "Half-line (hemistich), one of Virgil's unfinished lines: dis(ce) om | nes, two feet and a half-foot (– – | –), -ce elided before om-, the last syllable marked × as the end of the line. There is no hexameter to fit; the scanner returns UNRESOLVED."
+ },
+ "2.68": {
+  "sc": [
+   "1cons–ti⏑tit⏑",
+   "2at–que",
+   "o⏑cu⏑3lis–‖",
+   "Phry⏑gi⏑a",
+   "4ag–mi⏑na⏑",
+   "5cir–cum–6spex–it×"
+  ],
+  "why": "Quantities were right (cons-ti-tit | at-(que) ŏ-cŭ | lis Phrў-gĭ-(a) | ag-mĭ-nă | cir-cum | spex-it); only the syllable division of circumspexit was wrong in the scanner's output (cir-cums-pe-xit). Re-divided cir-cum-spex-it."
+ },
+ "2.78": {
+  "sc": [
+   "1ve–ra",
+   "in–2quit–",
+   "ne⏑que⏑",
+   "me",
+   "3Ar–go⏑li⏑4ca–‖",
+   "de–",
+   "5gen–te⏑",
+   "ne⏑6ga–bo×"
+  ],
+  "why": "Argolicā is ablative (agreeing with gente), with Ar-gŏ-lĭ short and the final -ā long: vē(ra) in | quit nĕ-quĕ | (me) Ar-gŏ-lĭ | cā dē | gen-tĕ nĕ | gā-bo. The scanner made go- and li- long and the final -a short, a valid line with wrong quantities."
+ },
+ "2.84": {
+  "sc": [
+   "1in–son–tem",
+   "2in–fan–do",
+   "3in–di⏑ci⏑4o–‖",
+   "qui⏑a⏑",
+   "5bel–la⏑",
+   "ve⏑6ta–bat×"
+  ],
+  "why": "quia is two short syllables, qui-ă (not one by synizesis): in-son(tem) | in-fan(do) | in-dĭ-cĭ | ō quĭ-ă | bel-la-vĕ | tā-bat, 15 syllables. The scanner contracted quia to one long syllable."
+ },
+ "2.100": {
+  "sc": [
+   "1Nec–",
+   "re⏑qui⏑2e–vit⏑",
+   "e⏑3nim–‖",
+   "do–4nec–",
+   "Cal–5chan–te⏑",
+   "mi⏑6nis–tro×"
+  ],
+  "why": "requiēvit is four syllables, rĕ-quĭ-ē-vit (not re-qu-ie-vit with a long re-): Nec rĕ-quĭ | ē-vĭt ĕ | nim dō | nec Cal | chan-tĕ-mĭ | nis-tro. The scanner took qui-e as one syllable and lengthened re-."
  }
 }

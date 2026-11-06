@@ -16,7 +16,7 @@ U = S['sentences']
 src = '\n'.join(l['t'] for l in L); got = ''
 for u in U:
     got += u['t']
-    if len(got) < len(src): got += src[len(got)] if src[len(got)] in ' \n' else '\x00'
+    if len(got) < len(src) and src[len(got)] in ' \n': got += src[len(got)]   # no separator when the source prints none (II.13 'incipiam.Fracti')
 if got != src: fail('concat: the units do not reproduce the edition')
 if [w for u in U for w in A.WORD_RE.findall(u['t'])] != A.WORD_RE.findall(src): fail('tokens: unit tokens differ from the edition')
 if A.sha(L) != P['sha256']: fail('source sha differs from parts.json')

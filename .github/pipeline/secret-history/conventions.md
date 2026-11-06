@@ -89,3 +89,6 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 196-197
 - Names in `i`: Naya'a, Lady Qulan, Qo'as Merkid, Sa'ari-Keger, Toqto'a, Qaradal-Huja'ur, Chila'un, Dair-Usun, Ba'aridai (a people). bolγan stays "making" (Ming 審 unrendered); converb -žü is written so after back-vowel stems (jadažü).
+
+## House renderings added by 198-199
+- Names in `i`: Chimbai, Sorqan-Shira, Toqto'a-Beki, Küchülüg (Qan), Sübegetei, Gur-Qan, Qara-Kitad, Uduid, Erdis, Buqdurma, Mount Arai; "three Merkid"; alus "beyond(?)"; qulan (animal) "wild ass".

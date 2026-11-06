@@ -11,7 +11,7 @@
  "work": "الف ليلة وليلة",
  "workEn": "The Thousand and One Nights",
  "part": "Night 38 · The Two Viziers and Anīs al-Jalīs ends / The Merchant and His Sons begins",
- "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 312–320 (Night 38, continuing directly from nights-37), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the editors' own transcription. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition's — and the alphabet button strips it back to the bare rasm exactly as Macnaghten prints it. Romanization is simplified IJMES. Spelling, including the edition's Middle Arabic forms and its occasional compositor's slips, is preserved unaltered; a few genuinely obscure or corrupt-looking forms are vocalized by evident sense and flagged in the notes rather than silently repaired. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized by machine, with word-by-word timing generated the same way.",
+ "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 312–320 (Night 38, continuing directly from nights-37), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the editors' own transcription. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition's — and the alphabet button strips it back to the bare rasm as Macnaghten prints it, except where a clear misprint has been corrected (each is noted). Romanization is simplified IJMES. Spelling, including the edition’s Middle Arabic forms, is preserved; clear misprints are corrected in the text, and the note on each gives the print’s reading. Obscure or doubtful forms are kept as printed, vocalized by evident sense and flagged in the notes. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized by machine, with word-by-word timing generated the same way.",
  "about": "Night 38 closes the tale of Nūr al-Dīn ʿAlī and Anīs al-Jalīs. The caliph writes Nūr al-Dīn a letter making him sultan of Basra; the vizier al-Muʿīn ibn Sāwī destroys it, imprisons him and brings him to the block; Jaʿfar arrives in time, the vizier is punished, and the lovers are lodged in Baghdad. Shahrazād then begins the tale of the merchant and his children, Ghānim ibn Ayyūb and his sister Fitna, and dawn breaks. As with every printed edition of the Nights, this one belongs to the late Egyptian recension (ZER) — an eighteenth-century expansion padded out to a literal 1001 nights; no printed edition is a medieval text, and Macnaghten regularised the language here and there, so some Middle Arabic texture is a nineteenth-century retrofit.",
  "glossaryFile": "nights-glossary.json",
  "sentences": [
@@ -283,11 +283,11 @@
    "n": "دونك is an old idiom of handing something over, “here, take it”, followed by the object إياه, “him”. With this the sultan gives Nūr al-Dīn up."
   },
   {
-   "t": "فَتَسَلَّمَهُ الْوَزِيرُ مِنَ السُّلْطَانِ وَنَزَلَ بِهِ إِلَى دَرَاهِ وَزَعَقَ عَلَى الْغِلْمَانِ فَمَدُّوهُ وَضَرَبُوهُ إِلَى أَنْ أُغْمِيَ عَلَيْهِ",
+   "t": "فَتَسَلَّمَهُ الْوَزِيرُ مِنَ السُّلْطَانِ وَنَزَلَ بِهِ إِلَى دَارِهِ وَزَعَقَ عَلَى الْغِلْمَانِ فَمَدُّوهُ وَضَرَبُوهُ إِلَى أَنْ أُغْمِيَ عَلَيْهِ",
    "tr": "fa-tasallamahu al-wazīru mina al-sulṭāni wa-nazala bihi ilā dārihi wa-zaʿaqa ʿalā al-ghilmāni fa-maddūhu wa-ḍarabūhu ilā an ughmiya ʿalayhi",
    "l": "And received-him the vizier from the sultan, and went-down with-him to his-house, and shouted at the boys, and they-stretched-him-out and beat-him until it-was-fainted upon-him.",
    "i": "The vizier took him over from the sultan and went down with him to his own house. He shouted for his servants, who stretched Nūr al-Dīn out and beat him until he fainted.",
-   "n": "The print has دراه, with the ر and ا reversed, for داره, “his house”; I point the letters as printed and read dārihi. الغلمان, “the boys”, are the vizier's young attendants or slaves. أغمي عليه is the passive “it was fainted upon him”, that is, “he swooned”."
+   "n": "The print has دراه, a misprint for داره, corrected here. الغلمان, “the boys”, are the vizier's young attendants or slaves. أغمي عليه is the passive “it was fainted upon him”, that is, “he swooned”."
   },
   {
    "t": "وَجَعَلَ فِي رِجْلَيْهِ قَيْدًا ثَقِيلًا وَجَاءَ بِهِ إِلَى السِّجْنِ وَزَعَقَ عَلَى السَّجَّانِ",
@@ -668,11 +668,11 @@
    "i": "That dust was raised by Jaʿfar the Barmakid, the caliph's vizier, and those who were with him."
   },
   {
-   "t": "وَكَانَ السَّبَبُ فِي مَجِيئِهِمْ أَنَّ الْخَلِيفَةَ مَكَثَ ثَلَٰثِينَ يَوْمًا لَمْ يَتَذَكَّرْ قِصَّةَ عَلِيِّ بْنِ خَاقَانَ وَامْ يَذْكُرْهَا لَهُ أَحَدٌ إِلَى أَنْ جَاءَ لَيْلَةً مِنْ بَعْضِ اللَّيَالِي إِلَى مَقْصُورَةِ أَنِيسِ الْجَلِيسِ فَسَمِعَ بُكَاءَهَا وَهِيَ تُنْشِدُ بِصَوْتٍ حَسَنٍ ظَرِيفٍ قَوْلَ الشَّاعِرِ",
-   "tr": "wa-kāna al-sababu fī majīʾihim anna al-khalīfata makatha thalāthīna yawman lam yatadhakkar qiṣṣata ʿAliyyi ibni Khāqāna wa-ām yadhkurhā lahu aḥadun ilā an jāʾa laylatan min baʿḍi al-layālī ilā maqṣūrati Anīsi al-Jalīsi fa-samiʿa bukāʾahā wa-hiya tunshidu bi-ṣawtin ḥasanin ẓarīfin qawla al-shāʿiri",
+   "t": "وَكَانَ السَّبَبُ فِي مَجِيئِهِمْ أَنَّ الْخَلِيفَةَ مَكَثَ ثَلَٰثِينَ يَوْمًا لَمْ يَتَذَكَّرْ قِصَّةَ عَلِيِّ بْنِ خَاقَانَ وَلَمْ يَذْكُرْهَا لَهُ أَحَدٌ إِلَى أَنْ جَاءَ لَيْلَةً مِنْ بَعْضِ اللَّيَالِي إِلَى مَقْصُورَةِ أَنِيسِ الْجَلِيسِ فَسَمِعَ بُكَاءَهَا وَهِيَ تُنْشِدُ بِصَوْتٍ حَسَنٍ ظَرِيفٍ قَوْلَ الشَّاعِرِ",
+   "tr": "wa-kāna al-sababu fī majīʾihim anna al-khalīfata makatha thalāthīna yawman lam yatadhakkar qiṣṣata ʿAliyyi ibni Khāqāna wa-lam yadhkurhā lahu aḥadun ilā an jāʾa laylatan min baʿḍi al-layālī ilā maqṣūrati Anīsi al-Jalīsi fa-samiʿa bukāʾahā wa-hiya tunshidu bi-ṣawtin ḥasanin ẓarīfin qawla al-shāʿiri",
    "l": "And the cause in their coming (was) that the caliph stayed thirty days (and) did not remember the story of ʿAlī son-of Khāqān, and not (did) mention-it to-him anyone, until he came, a night of some of the nights, to the closet of Anīs al-Jalīs, and heard her weeping, and she (was) reciting with a voice good (and) elegant the saying of the poet.",
    "i": "The reason for their coming was this. The caliph had let thirty days pass without remembering the story of ʿAlī ibn Khāqān, and no one had mentioned it to him. Then one night he came to Anīs al-Jalīs's chamber and heard her weeping, and reciting in a fine, graceful voice the words of the poet:",
-   "n": "The print has وام for ولم, with a stray alif in place of the lām; it is kept as printed and read as wa-lam. ثلثين has no alif and is pointed with the dagger alif. The caliph's forgetfulness of the tale is the cause of the whole rescue. مقصورة is a closet or private chamber within the palace."
+   "n": "The print has وام, a misprint for ولم, corrected here. ثلثين has no alif and is pointed with the dagger alif. The caliph's forgetfulness of the tale is the cause of the whole rescue. مقصورة is a closet or private chamber within the palace."
   },
   {
    "t": "خَيَالُكَ فِى التَّبَاعُلِ وَالتَّدَانِيْ * وَذِكْرُكَ لَا يُفَارِقُهُ لِسَانِيْ",
@@ -843,11 +843,11 @@
    "n": "The print writes الي with a dotted yā for الى, as it does elsewhere; it is the preposition ilā."
   },
   {
-   "t": "فَقَالَ جَعْفَرُ لِلْمَلِكِ مُحَمَّدِ بْنِ سَايْمَانَ الزَّيْنِيِّ تَجَهَّزْ لِلسَّفَرِ فَإِنَّنَا نُصَلِّى الصُّبْحَ وَنَرْكَبُ إِلَى بَغْدَادَ",
-   "tr": "fa-qāla Jaʿfaru li-al-maliki Muḥammadi ibni Sāymāna al-Zayniyyi tajahhaz li-al-safari fa-innanā nuṣallī al-ṣubḥa wa-narkabu ilā Baghdāda",
+   "t": "فَقَالَ جَعْفَرُ لِلْمَلِكِ مُحَمَّدِ بْنِ سُلَيْمَانَ الزَّيْنِيِّ تَجَهَّزْ لِلسَّفَرِ فَإِنَّنَا نُصَلِّى الصُّبْحَ وَنَرْكَبُ إِلَى بَغْدَادَ",
+   "tr": "fa-qāla Jaʿfaru li-al-maliki Muḥammadi ibni Sulaymāna al-Zayniyyi tajahhaz li-al-safari fa-innanā nuṣallī al-ṣubḥa wa-narkabu ilā Baghdāda",
    "l": "And Jaʿfar said to the king Muḥammad son-of Sāymān al-Zaynī: Make-yourself-ready for the journey, for we pray the dawn(-prayer) and ride to Baghdad.",
    "i": "Jaʿfar said to King Muḥammad ibn Sulaymān al-Zaynī, “Get ready for the journey, for we shall pray the dawn prayer and ride for Baghdad.”",
-   "n": "The print spells the king's father's name سايمان, which looks like a misprint for سليمان, with the lam dropped for an alif. I vocalise the letters as printed (Sāymān) and translate it as Sulaymān. The deposed king is still called al-malik, “the king”, here."
+   "n": "The print has سايمان, a misprint for سليمان, corrected here. The deposed king is still called al-malik, “the king”, here."
   },
   {
    "t": "فَقَالَ السَّمْعَ وَالطَّاعَةَ",
@@ -927,11 +927,11 @@
    "n": "حبا وكرامة, “with love and honour”, is a formula of willing assent, a warmer cousin of السمع والطاعة."
   },
   {
-   "t": "ثُمَّ إِنَّ الْخَلِيفَةَ دَعَى بِالْجَارِيَةِ فَحَضَرَتْ بَيْنَ يَدَيْهِ فَأَنْعَمَ عَلَيْهِمَا وَأَعْطَاهُمَا قَصْرًا مِنْ قُصُورِ بَغْدَادَ وَرَتَّبَ لَهُمَا مُرَتَّبَاتٍ وَجَعَلَهُ مِنْ نُدْمَانِهِ وَلَمْ يَزَلْ مُقِيمًا عِنْدَهُ فِى الذَّعِيشِ إِلَى أَنْ أَدْرَكَهُ الْمَمَاتُ",
-   "tr": "thumma inna al-khalīfata daʿā bi-al-jāriyati fa-ḥaḍarat bayna yadayhi fa-anʿama ʿalayhimā wa-aʿṭāhumā qaṣran min quṣūri Baghdāda wa-rattaba lahumā murattabātin wa-jaʿalahu min nudmānihi wa-lam yazal muqīman ʿindahu fī al-dhaʿīshi ilā an adrakahu al-mamātu",
-   "l": "Then indeed the caliph called for the slave-girl, and she came-before him, and he favoured the two-of-them, and gave them a palace from the palaces of Baghdad, and appointed for them allowances, and made him one of his carousing-companions; and he did not cease residing with him in the al-dhaʿīsh [sic, for al-ʿaysh, “the living”] until death overtook him.",
+   "t": "ثُمَّ إِنَّ الْخَلِيفَةَ دَعَى بِالْجَارِيَةِ فَحَضَرَتْ بَيْنَ يَدَيْهِ فَأَنْعَمَ عَلَيْهِمَا وَأَعْطَاهُمَا قَصْرًا مِنْ قُصُورِ بَغْدَادَ وَرَتَّبَ لَهُمَا مُرَتَّبَاتٍ وَجَعَلَهُ مِنْ نُدْمَانِهِ وَلَمْ يَزَلْ مُقِيمًا عِنْدَهُ فِى الْعَيْشِ إِلَى أَنْ أَدْرَكَهُ الْمَمَاتُ",
+   "tr": "thumma inna al-khalīfata daʿā bi-al-jāriyati fa-ḥaḍarat bayna yadayhi fa-anʿama ʿalayhimā wa-aʿṭāhumā qaṣran min quṣūri Baghdāda wa-rattaba lahumā murattabātin wa-jaʿalahu min nudmānihi wa-lam yazal muqīman ʿindahu fī al-ʿayshi ilā an adrakahu al-mamātu",
+   "l": "Then indeed the caliph called for the slave-girl, and she came-before him, and he favoured the two-of-them, and gave them a palace from the palaces of Baghdad, and appointed for them allowances, and made him one of his carousing-companions; and he did not cease residing with him in the living until death overtook him.",
    "i": "Then the caliph sent for the girl, and she came into his presence. He showered favours on the pair, gave them one of the palaces of Baghdad, settled stipends on them, and made Nūr al-Dīn one of his boon companions. He stayed with the caliph in the pleasure of life until death overtook him.",
-   "n": "The print has الذعيش, which has an unwanted ذ at the start; I read it as a misprint for العيش, “life, living”, and vocalise what is printed. فى is the dotless spelling, kept. The pronoun عنده, “with him”, is the caliph."
+   "n": "The print has الذعيش, a misprint for العيش, corrected here. فى is the dotless spelling, kept. The pronoun عنده, “with him”, is the caliph."
   },
   {
    "t": "وَلَيْسَ هَذَا بِأَعْجَبَ مِنْ حِكَايَةِ التَّاجِرِ وَأَوْلَادِهِ",

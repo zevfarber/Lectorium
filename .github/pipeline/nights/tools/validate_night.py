@@ -32,6 +32,9 @@ import re
 import sys
 import unicodedata
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from emend import line_words  # misprint corrections, owner's rule 2026-11-06
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 NIGHTS = os.path.dirname(HERE)
 ROOT = os.path.abspath(os.path.join(NIGHTS, "..", "..", ".."))
@@ -86,7 +89,7 @@ def archive_tokens(first_ref, last_ref):
             if line["ref"] == first_ref:
                 inside = True
             if inside and not omitted(line["ref"]):
-                out.extend(tokens(line.get("t", "")))
+                out.extend(bare(w) for w in line_words(line))
             if line["ref"] == last_ref and inside:
                 return out
     return out
@@ -105,7 +108,7 @@ def archive_verse_marked(first_ref, last_ref):
                 inside = True
             if inside and not omitted(line["ref"]):
                 verse = bool(line.get("v"))
-                for w in WORD.findall(FURNITURE.sub(" ", line.get("t", ""))):
+                for w in line_words(line):
                     out.append((w, line["ref"]) if verse and w != bare(w) else None)
             if line["ref"] == last_ref and inside:
                 return out

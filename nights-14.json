@@ -11,7 +11,7 @@
  "work": "الف ليلة وليلة",
  "workEn": "The Thousand and One Nights",
  "part": "Night 14 (printed pp. 98–105)",
- "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 98–105 (continuing directly from nights-13, whose text breaks off as the Second Qalandar recites his sentence of the shapeshifting duel), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the project’s own two-pass-plus-adjudication pipeline; the edition’s own OCR is unusable. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition’s — and the alphabet button strips it back to the bare rasm exactly as Macnaghten prints it. Romanization is simplified IJMES. Spelling, including the edition’s Middle Arabic forms and its occasional compositor’s slips, is preserved unaltered; a few genuinely obscure or corrupt-looking forms are vocalized by evident sense and flagged in the notes rather than silently repaired. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized automatically once this file is published, with word-by-word timing generated the same way.",
+ "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 98–105 (continuing directly from nights-13, whose text breaks off as the Second Qalandar recites his sentence of the shapeshifting duel), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the project’s own two-pass-plus-adjudication pipeline; the edition’s own OCR is unusable. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition’s — and the alphabet button strips it back to the bare rasm as Macnaghten prints it, except where a clear misprint has been corrected (each is noted). Romanization is simplified IJMES. Spelling, including the edition’s Middle Arabic forms, is preserved; clear misprints are corrected in the text, and the note on each gives the print’s reading. Obscure or doubtful forms are kept as printed, vocalized by evident sense and flagged in the notes. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized automatically once this file is published, with word-by-word timing generated the same way.",
  "about": "Night 14 finishes the Second Qalandar’s tale and opens the Third’s. The princess and the returning efrit Jirjīs fight out their duel through a chain of paired transformations — lion and serpent, scorpion and eagle, black bird and parti-colored wolf, pomegranate seed and rooster — until a stray seed becomes a fish, the rooster a whale, and both efrit and princess burst into flame, the fire scarring the king, killing a eunuch, and finally consuming them both; the princess dies confessing the shahāda, having forgotten to swallow the one seed that held the efrit’s life. The king mourns her seven days, entombs her ashes under a dome, falls gravely ill, then on recovering bitterly dismisses the disenchanted young man (the tale’s narrator) from the kingdom — grieving, but absolving him of intent. Shaved, one-eyed and in mourning felt, the young man wanders to Baghdad, arriving the same night he meets his companion the First Qalandar and, moments later, the Third, all three strangers brought by chance to this same door. The Third Qalandar then opens his own tale, “stranger and more amazing” than the others’: a seafaring king’s pleasure voyage among nearby islands runs into a storm, a stretch of uncanny water, and a lookout’s sighting of something dark on the horizon — the legendary Black, or Magnetic, Mountain, crowned with a bronze horseman-and-horse automaton whose fall is the fleet’s only hope. The ships are drawn in and torn apart nail by nail; the king alone survives, washed onto the mountain’s foot, and finds a stair cut into its face just as dawn cuts Shahrazad off. As with every printed edition of the Nights, this one belongs to the late Egyptian recension (ZER) — an eighteenth-century expansion padded out to a literal 1001 nights; no printed edition is a medieval text, and Macnaghten regularized the language here and there, so some of the original Middle Arabic texture is a nineteenth-century retrofit. The night is frank about violence (the mutilation of the princess and the young man, the mass drowning of the fleet) and is translated that way, without euphemism.",
  "glossaryFile": "nights-glossary.json",
  "sentences": [
@@ -109,11 +109,11 @@
    "p": true
   },
   {
-   "t": "فَرَأَى الْقَطَٰ نَفْسَهُ مَغْلُوبًا فَاِنْقَلَبَ وَصَارَ رُمَّانَةً حَمْرَةً كَبِيرَةً وَقَعَدَتِ الرُّمَّانَةُ فِي وَسَطِ فِسْقِيَّةِ الْقَصْرِ",
+   "t": "فَرَأَى الْقَطَا نَفْسَهُ مَغْلُوبًا فَاِنْقَلَبَ وَصَارَ رُمَّانَةً حَمْرَةً كَبِيرَةً وَقَعَدَتِ الرُّمَّانَةُ فِي وَسَطِ فِسْقِيَّةِ الْقَصْرِ",
    "tr": "fa-raʼā al-qaṭā nafsahu maghlūban fa-inqalaba wa-ṣāra rummānatan ḥamratan kabīratan wa-qaʿadati al-rummānatu fī wasaṭi fisqiyyati al-qaṣri",
    "l": "So the sand-grouse saw himself beaten, so he turned and became a large red pomegranate, and the pomegranate settled in the middle of the palace's pool.",
    "i": "Seeing himself beaten, the grouse turned into a large red pomegranate, which came to rest in the middle of the palace's ornamental pool.",
-   "n": "القط is printed for القطا (the sand-grouse of the previous sentence), the final alif dropped just as قال is elsewhere printed قل; pointed here with a dagger alif over the ط to preserve the spelling while reading al-qaṭā. Here the archive's own فرأى already carries its hamza (unlike the bare فراى a few lines on, at P99L04); each is kept as printed. حَمْرَةً is the edition's spelling for classical حَمْرَاء ('red', fem.); kept as printed.",
+   "n": "The print has القط, a misprint for القطا, corrected here. Here the archive's own فرأى already carries its hamza (unlike the bare فراى a few lines on, at P99L04). حَمْرَةً is the edition's spelling for classical حَمْرَاء ('red', fem.).",
    "p": true
   },
   {
@@ -140,11 +140,11 @@
    "p": true
   },
   {
-   "t": "وَصَرَخَ عَلَيْنَا صَرْخَةً تَخَيَّلَ لَنَا أَنَّ الْقَصْرَ قَلْ اِنْقَلَبَ عَلَيْنَا وَدَارَ فِي أَرْضِ الْقَصْرِ كُلِّهِ فَرَأَى الْحَبَّةَ الَّتِي تَلَارَتْ فِي جَانِبِ الْفِسْقِيَّةِ فَاِنْقَضَّ عَلَيْهَا لِيَلْتَقِطَهَا",
+   "t": "وَصَرَخَ عَلَيْنَا صَرْخَةً تَخَيَّلَ لَنَا أَنَّ الْقَصْرَ قَدْ اِنْقَلَبَ عَلَيْنَا وَدَارَ فِي أَرْضِ الْقَصْرِ كُلِّهِ فَرَأَى الْحَبَّةَ الَّتِي تَلَارَتْ فِي جَانِبِ الْفِسْقِيَّةِ فَاِنْقَضَّ عَلَيْهَا لِيَلْتَقِطَهَا",
    "tr": "wa-ṣarakha ʿalaynā ṣarkhatan takhayyala lanā anna al-qaṣra qad inqalaba ʿalaynā wa-dāra fī arḑi al-qaṣri kullihi fa-raʼā al-ḥabbata allatī talārat fī jānibi al-fisqiyyati fa-inqaḑḑa ʿalayhā li-yaltaqiṭahā",
    "l": "And he screamed at us a scream that made us imagine that the palace had turned over upon us, and it went spinning through the whole ground of the palace; then he saw the seed that had تلارت beside the pool, and swooped upon it to snatch it up.",
    "i": "He let out a scream that made us feel as if the palace itself had turned over on us, and it seemed to go spinning across the whole floor of the palace; then he spotted the seed that had rolled away by the pool and dove at it to snatch it up.",
-   "n": "قَلْ here is the same letter-substitution misprint for قَدْ (ل for د) seen elsewhere in this scene (compare وَالْعِفْرِيتُ قَلْ صَرَخَ below, and تَقْلِرُ for تَقْدِرُ two sentences earlier) — 'that the palace had turned over upon us' reads far more naturally than treating the palace as speaking, so قَدْ is adopted here rather than قَالَ, matching the reading given to the same misprint elsewhere in this scene. Here فراى is printed bare (unlike the hamzated فرأى two sentences earlier), so its hamza is supplied.",
+   "n": "The print has قل, a misprint for قد, corrected here. Here فراى is printed bare (unlike the hamzated فرأى two sentences earlier), so its hamza is supplied.",
    "p": true
   },
   {
@@ -155,11 +155,11 @@
    "p": true
   },
   {
-   "t": "فَاِنْقَلَبَ الدِّيكُ حُوتًا كَبِيرًا وَنَزَلَ خَلْفَهَا وَغَابَ سَاعَةً وَإِذَا قَلْ سَمِعْنَا صُرَاخًا عَلَا وَعِيَاطًا فَاِرْتَجَفْنَا",
+   "t": "فَاِنْقَلَبَ الدِّيكُ حُوتًا كَبِيرًا وَنَزَلَ خَلْفَهَا وَغَابَ سَاعَةً وَإِذَا قَدْ سَمِعْنَا صُرَاخًا عَلَا وَعِيَاطًا فَاِرْتَجَفْنَا",
    "tr": "fa-inqalaba al-dīku ḥūtan kabīran wa-nazala khalfahā wa-ghāba sāʿatan wa-idhā qad samiʿnā ṣurākhan ʿalā wa-ʿiyāṭan fa-irtajafnā",
    "l": "So the rooster turned into a big fish, and went down after her, and disappeared for a while; and behold, we had already heard a rising screaming and a shrieking, and we trembled.",
    "i": "The rooster turned into a great fish and dove down after her, and vanished for a time — and behold, we had already heard a scream rise up and a shrieking, and we shook with fear.",
-   "n": "قَلْ here is the same letter-substitution misprint for قَدْ as elsewhere in this scene: 'wa-idhā qad samiʿnā' ('and behold, we had already heard') is the ordinary idhā-qad construction of sudden discovery, and reads far more naturally than treating an unnamed 'he' as speaking. قَدْ is adopted here, matching the reading given to the same spelling both above at P99L04 and below at P99L19-20.",
+   "n": "The print has قل, a misprint for قد, corrected here.",
    "p": true
   },
   {
@@ -193,11 +193,11 @@
    "p": true
   },
   {
-   "t": "يَا لَيْتَنَا مَا كَلَّفْنَاهَا بِذٰلِكَ فِي خَلَاصِ هٰذَا الْقِرْدِ حَتَّى أَنَّنَا أَتْعَبْنَاهَا هٰذَا التَّعَبَ الْعَظِيمَ مَعَ هٰذَا الْعِفْرِيتِ الْمَلْعُونِ الَّذِي مَا تَقْلِرُ عَلَيْهِ كُلُّ هٰذِهِ الْعَفَارِيتِ الْمَوْجُودِينَ فِي الدُّنْيَا وَيَا لَيْتَنَا مَا عَرَفْنَا هٰذَا الْقِرْدَ لَا بَارَكَ اللَّهُ فِيهِ وَلَا فِي سَاعَتِهِ",
-   "tr": "yā laytanā mā kallafnāhā bi-dhālika fī khalāṣi hādhā al-qirdi ḥattā annanā atʿabnāhā hādhā al-taʿaba al-ʿaẒīma maʿa hādhā al-ʿifrīti al-malʿūni alladhī mā taqliru ʿalayhi kullu hādhihi al-ʿafārīti al-mawjūdīna fī al-dunyā — wa-yā laytanā mā ʿarafnā hādhā al-qirda; lā bāraka Allāhu fīhi wa-lā fī sāʿatihi.",
+   "t": "يَا لَيْتَنَا مَا كَلَّفْنَاهَا بِذٰلِكَ فِي خَلَاصِ هٰذَا الْقِرْدِ حَتَّى أَنَّنَا أَتْعَبْنَاهَا هٰذَا التَّعَبَ الْعَظِيمَ مَعَ هٰذَا الْعِفْرِيتِ الْمَلْعُونِ الَّذِي مَا تَقْدِرُ عَلَيْهِ كُلُّ هٰذِهِ الْعَفَارِيتِ الْمَوْجُودِينَ فِي الدُّنْيَا وَيَا لَيْتَنَا مَا عَرَفْنَا هٰذَا الْقِرْدَ لَا بَارَكَ اللَّهُ فِيهِ وَلَا فِي سَاعَتِهِ",
+   "tr": "yā laytanā mā kallafnāhā bi-dhālika fī khalāṣi hādhā al-qirdi ḥattā annanā atʿabnāhā hādhā al-taʿaba al-ʿaẒīma maʿa hādhā al-ʿifrīti al-malʿūni alladhī mā taqdiru ʿalayhi kullu hādhihi al-ʿafārīti al-mawjūdīna fī al-dunyā — wa-yā laytanā mā ʿarafnā hādhā al-qirda; lā bāraka Allāhu fīhi wa-lā fī sāʿatihi.",
    "l": "Oh, would that we had not charged her with that, in the freeing of this monkey, so that we did tire her — this great tiring — with this cursed efrit, whom all these efrits existing in the world cannot overpower! And would that we had not known this monkey — may God not bless him, nor his hour!",
    "i": "Would that we had never asked her to free this monkey at all — that we wore her out so terribly against this accursed efrit, whom no efrit alive in the world could master! And would that we had never set eyes on this monkey — God bless him not, nor the hour he ever came to us!",
-   "n": "هٰذَا, هٰذِهِ, ذٰلِكَ and كَذٰلِكَ are defective spellings (missing the internal long ā), marked here with the dagger alif; this is standard even in fully classical orthography, not a Middle Arabic quirk. تقلر is almost certainly a dāl/lām misprint for تَقْدِرُ 'is able' (compare قَلْ for قَدْ a few lines below, and القصر قل انقلب elsewhere in this tale) — vocalized here as printed, read 'cannot overpower'. Note that the speaker refers to the enchanted young man throughout as 'this monkey' in the third person, even while cursing him — the young man is in fact narrating his own past self."
+   "n": "The print has تقلر, a misprint for تقدر, corrected here. هٰذَا, هٰذِهِ, ذٰلِكَ and كَذٰلِكَ are defective spellings (missing the internal long ā), marked here with the dagger alif; this is standard even in fully classical orthography, not a Middle Arabic quirk. Note that the speaker refers to the enchanted young man throughout as 'this monkey' in the third person, even while cursing him — the young man is in fact narrating his own past self."
   },
   {
    "t": "قَصَدْنَا أَنْ نَعْمَلَ مَعَهُ جَمِيلًا لِوَجْهِ اللَّهِ تَعَالَى وَنُخَلِّصَهُ مِنَ السِّحْرِ فَاُبْتُلِينَا بِتَعَبِ الْقَلْبِ وَأَنَا يَا سِتِّي مَرْبُوطُ اللِّسَانِ لَمْ أَقْدِرْ أَنْكَلِمَ مَعَهُ بِشَيْءٍ",
@@ -207,11 +207,11 @@
    "n": "مربوط اللسان, literally 'bound of tongue', means rendered speechless (he was still in the ape's shape and could not talk). أنكلم is read as a Middle Arabic Form VII (from k-l-m) standing in for the classical أَتَكَلَّمَ 'I converse', after an elided أن following أقدر. سِتِّي, 'my lady', is colloquial (from ست, itself colloquial for سيدة)."
   },
   {
-   "t": "ثُمَّ مَا شَعَرْنَا إِلَّا وَالْعِفْرِيتُ قَلْ صَرَخَ مِنْ تَحْتِ النِّيرَانِ وَصَارَ عِنْدَنَا فِي الْإِيوَانِ وَنَفَخَ فِي وُجُوهِنَا بِالنَّارِ فَلَحِقَتْهُ الصَّبِيَّةُ وَنَفَخَتْ فِي وَجْهِهِ فَأَصَابَنَا الشَّرَارُ مِنْهَا وَ مِنْهُ",
-   "tr": "thumma mā shaʿarnā illā wa-al-ʿifrītu qal ṣarakha min taḥti al-nīrāni wa-ṣāra ʿindanā fī al-īwāni wa-nafakha fī wujūhinā bi-al-nāri — fa-laḥiqathu al-ṣabiyyatu wa-nafakhat fī wajhihi, fa-aṣābanā al-sharāru minhā wa-minhu.",
+   "t": "ثُمَّ مَا شَعَرْنَا إِلَّا وَالْعِفْرِيتُ قَدْ صَرَخَ مِنْ تَحْتِ النِّيرَانِ وَصَارَ عِنْدَنَا فِي الْإِيوَانِ وَنَفَخَ فِي وُجُوهِنَا بِالنَّارِ فَلَحِقَتْهُ الصَّبِيَّةُ وَنَفَخَتْ فِي وَجْهِهِ فَأَصَابَنَا الشَّرَارُ مِنْهَا وَ مِنْهُ",
+   "tr": "thumma mā shaʿarnā illā wa-al-ʿifrītu qad ṣarakha min taḥti al-nīrāni wa-ṣāra ʿindanā fī al-īwāni wa-nafakha fī wujūhinā bi-al-nāri — fa-laḥiqathu al-ṣabiyyatu wa-nafakhat fī wajhihi, fa-aṣābanā al-sharāru minhā wa-minhu.",
    "l": "Then we did not notice, except that the efrit had already shrieked from beneath the fires and had come to be with us in the hall, and blew fire into our faces. So the girl matched him and blew into his face — and the sparks struck us, from her and from him.",
    "i": "Then, before we knew it, the efrit let out a shriek from under the flames and was suddenly standing among us in the hall, blasting fire into our faces. At once the girl met him and blew fire back into his — and sparks from them both came raining down on us.",
-   "n": "'ما شعرنا إلا و...' is a stock idiom of sudden surprise: 'before we knew it...'. قل here stands for قَدْ ('already'), a dāl/lām misprint (compare تقلر above, and القصر قل انقلب elsewhere in this tale). الإيوان ('the hall') is a Persian loanword for a vaulted audience-hall; its hamza is supplied here since the source prints it bare.",
+   "n": "The print has قل, a misprint for قد, corrected here. 'ما شعرنا إلا و...' is a stock idiom of sudden surprise: 'before we knew it...'. الإيوان ('the hall') is a Persian loanword for a vaulted audience-hall; its hamza is supplied here since the source prints it bare.",
    "p": true
   },
   {
@@ -222,11 +222,11 @@
    "n": "فلحقتي is printed without the expected نـ of the object suffix (-نـي, 'me'); read as لَحِقَتْنِي, 'it struck me' — likely a scribal contraction. This clause is the enchanted young man's own aside, singling out his individual experience (still monkey-shaped) from the surrounding 'we' of the king's household — the injury to this eye is why, once restored to human shape, he will be one-eyed for the rest of his life as a qalandar."
   },
   {
-   "t": "وَلَحِقَ الْمَلِكَ شَرَارَةٌ مِنْهُ فِي وَجْهِهِ أَحْرَفَتْ نِصْفَ وَجْهِهِ وَذَقَنَهُ وَحَنَكَهُ التَّحْنَانِيَّ وَأَوْنَعَتْ صَفَّ أَسْنَاهُ التَّحْنَانِيَّةَ",
-   "tr": "wa-laḥiqa al-malika sharāratun minhu fī wajhihi, aḥrafat niṣfa wajhihi wa-dhaqanahu wa-ḥanakahu al-taḥnāniyya, wa-awnaʿat ṣaffa asnāhu al-taḥnāniyyata.",
+   "t": "وَلَحِقَ الْمَلِكَ شَرَارَةٌ مِنْهُ فِي وَجْهِهِ أَحْرَقَتْ نِصْفَ وَجْهِهِ وَذَقَنَهُ وَحَنَكَهُ التَّحْنَانِيَّ وَأَوْنَعَتْ صَفَّ أَسْنَاهُ التَّحْنَانِيَّةَ",
+   "tr": "wa-laḥiqa al-malika sharāratun minhu fī wajhihi, aḥraqat niṣfa wajhihi wa-dhaqanahu wa-ḥanakahu al-taḥnāniyya, wa-awnaʿat ṣaffa asnāhu al-taḥnāniyyata.",
    "l": "And there struck the king a spark from him, in his face — [it] burned half his face, his chin, and his lower jaw; and it damaged the row of his lower teeth.",
    "i": "A spark from him also caught the king full in the face, burning half his face, his chin, and his lower jaw, and damaging his lower teeth as well.",
-   "n": "أحرفت (with ف) is almost certainly a misprint for أَحْرَقَتْ 'burned' (qāf/fāʾ confusion) — vocalized as printed. التحناني/التحنانية most likely stand for التحتاني/التحتانية, 'lower' (a tāʾ/nūn mix-up, or a dialectal variant), read that way. أونعت is obscure — perhaps a misprint for أَوْجَعَتْ 'pained' or أَوْقَعَتْ 'struck'; rendered here by sense. أسناه drops the نـ of أَسْنَانَهُ 'his teeth', a colloquial contraction of the broken plural."
+   "n": "The print has احرفت, a misprint for أحرقت, corrected here. التحناني/التحنانية most likely stand for التحتاني/التحتانية, 'lower' (a tāʾ/nūn mix-up, or a dialectal variant), read that way. أونعت is obscure — perhaps a misprint for أَوْجَعَتْ 'pained' or أَوْقَعَتْ 'struck'; rendered here by sense. أسناه drops the نـ of أَسْنَانَهُ 'his teeth', a colloquial contraction of the broken plural."
   },
   {
    "t": "وَقَعَتْ شَرَارَةٌ فِي صَدْرِ الطَّوَاشِي فَاحْتَرَقَ وَمَاتَ مِنْ وَقْتِهِ وَسَاعَتِهِ فَأَيْقَنَّا بِالْهَلَاكِ وَأَيِسْنَا مِنَ الْحَيَوةِ",

@@ -192,6 +192,13 @@ what happens — and add `, continued` when a night picks a tale up mid-way. The
 `Prologue · King Shahriyār and His Brother`. Decided by the owner 2026-10-04; the 21 earlier
 entries were relabelled that day.
 
+## 6b. Misprints
+
+Correct clear misprints in the reading text and give the print's reading in the note, as
+`reading-conventions.md` ("Misprints are corrected") says; add each one to `emend.json` before
+running the slice check, and give each corrected word a glossary entry. Doubtful readings stay as
+printed with a note. The archive is never changed.
+
 ## 7. Gate
 
     python3 tools/validate_night.py ../../../nights-<NN>.json --from <start> --to <end>

@@ -11,7 +11,7 @@
  "work": "الف ليلة وليلة",
  "workEn": "The Thousand and One Nights",
  "part": "Night 45 · The Merchant and His Sons ends / King ʿUmar ibn al-Nuʿmān begins",
- "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 350–355 (Night 45, continuing directly from nights-44), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the editors' own transcription. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition's — and the alphabet button strips it back to the bare rasm exactly as Macnaghten prints it. Romanization is simplified IJMES. Spelling, including the edition's Middle Arabic forms and its occasional compositor's slips, is preserved unaltered; a few genuinely obscure or corrupt-looking forms are vocalized by evident sense and flagged in the notes rather than silently repaired. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized by machine, with word-by-word timing generated the same way.",
+ "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 350–355 (Night 45, continuing directly from nights-44), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the editors' own transcription. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition's — and the alphabet button strips it back to the bare rasm as Macnaghten prints it, except where a clear misprint has been corrected (each is noted). Romanization is simplified IJMES. Spelling, including the edition’s Middle Arabic forms, is preserved; clear misprints are corrected in the text, and the note on each gives the print’s reading. Obscure or doubtful forms are kept as printed, vocalized by evident sense and flagged in the notes. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized by machine, with word-by-word timing generated the same way.",
  "about": "Night 45 closes the tale of Ghānim: the Caliph marries Fitna, Ghānim marries Qūt al-Qulūb, and the story is ordered written down for posterity. Shahrazād then begins the tale of King ʿUmar ibn al-Nuʿmān of Baghdad, his son Sharkān, and the twins Ḍawʾ al-Makān and Nuzhat al-Zamān born to the Byzantine slave-girl Ṣafiyya; the night ends as envoys of the king of Constantinople ask for ʿUmar’s help in a war, and morning overtakes Shahrazād. As with every printed edition of the Nights, this one belongs to the late Egyptian recension (ZER) — an eighteenth-century expansion padded out to a literal 1001 nights; no printed edition is a medieval text, and Macnaghten regularised the language here and there, so some Middle Arabic texture is a nineteenth-century retrofit.",
  "glossaryFile": "nights-glossary.json",
  "sentences": [
@@ -229,11 +229,11 @@
    "n": "ثلثين is printed for thirty with no alif, ثَلَٰثِينَ with a dagger alif. وستين is the oblique form of sixty, where a nominative predicate would give وستون; Middle Arabic tends to freeze the oblique -īn."
   },
   {
-   "t": "وَأَسْكَنَ تَالِكَ الْجَوَارِيَ فِي هَذِهِ الْمَقَاصِيرِ وَفَرَضَ لِكُلِّ سُرِّيَّةٍ مِنْهُنَّ لَيْلَةً يَبِيتُ عِنْدَهَا وَمَا يَأتِيهَا إِلَّا بَعْدَ سَنَةٍ كَامِلَةٍ",
-   "tr": "wa-askana tālika al-jawāriya fī hādhihi al-maqāṣīri wa-faraḍa li-kulli surriyyatin minhunna laylatan yabītu ʿindahā wa-mā yaʾtīhā illā baʿda sanatin kāmilatin",
+   "t": "وَأَسْكَنَ تِلْكَ الْجَوَارِيَ فِي هَذِهِ الْمَقَاصِيرِ وَفَرَضَ لِكُلِّ سُرِّيَّةٍ مِنْهُنَّ لَيْلَةً يَبِيتُ عِنْدَهَا وَمَا يَأتِيهَا إِلَّا بَعْدَ سَنَةٍ كَامِلَةٍ",
+   "tr": "wa-askana tilka al-jawāriya fī hādhihi al-maqāṣīri wa-faraḍa li-kulli surriyyatin minhunna laylatan yabītu ʿindahā wa-mā yaʾtīhā illā baʿda sanatin kāmilatin",
    "l": "And-he-lodged those the-slave-girls in these the-chambers, and-assigned for-each concubine from-them a-night he-spends with-her; and-not he-comes-to-her except after a-year complete.",
    "i": "He lodged those slave-girls in these chambers and assigned each concubine a night on which he would sleep with her, nor would he come to her again until a full year had passed.",
-   "n": "تالك is printed with an extra alif for تِلْكَ, “that (f.)”; we point it as printed, تَالِكَ. يبيت عندها is “he spends the night with her”, the polite expression for lying with her."
+   "n": "The print has تالك, a misprint for تلك, corrected here. يبيت عندها is “he spends the night with her”, the polite expression for lying with her."
   },
   {
    "t": "فَأَقَامَ عَلَى ذَٰلِكَ مُدَّةً مِنَ الزَّمَانِ",
@@ -521,11 +521,11 @@
    "n": "كل خرزة منقوش pairs a feminine noun with a masculine participle; the real subject is أمور, “matters”, which the participle precedes, so “engraved upon it are matters …”. بالقلم, “with the pen”, means “in the script”. خواص (plural of خاصّة, “special property”) is the word for hidden virtues of stones and talismans."
   },
   {
-   "t": "وَمِنْ بَعْضِ خَاصِّيَّتِهِنَّ أَنَّ كُلَّ مَوْلُودٍ عُلِّقَتْ عَلَيْهِ خَرَزَةٌ مِنْهُنَّ لَمْ يُصِبْهُ أَلَمٌ مَادَامَتِ الْخَرَزَةُ مُعَلَّقَةً عَايْهِ وَلَايَأِنُّ وَلَايَسْخُنُ",
-   "tr": "wa-min baʿḍi khāṣṣiyyatihinna anna kulla mawlūdin ʿulliqat ʿalayhi kharazatun minhunna lam yuṣibhu alamun mā dāmati al-kharazatu muʿallaqatan ʿāyhi wa-lā yaʾinnu wa-lā yaskhunu",
+   "t": "وَمِنْ بَعْضِ خَاصِّيَّتِهِنَّ أَنَّ كُلَّ مَوْلُودٍ عُلِّقَتْ عَلَيْهِ خَرَزَةٌ مِنْهُنَّ لَمْ يُصِبْهُ أَلَمٌ مَادَامَتِ الْخَرَزَةُ مُعَلَّقَةً عَلَيْهِ وَلَايَأِنُّ وَلَايَسْخُنُ",
+   "tr": "wa-min baʿḍi khāṣṣiyyatihinna anna kulla mawlūdin ʿulliqat ʿalayhi kharazatun minhunna lam yuṣibhu alamun mā dāmati al-kharazatu muʿallaqatan ʿalayhi wa-lā yaʾinnu wa-lā yaskhunu",
    "l": "And-from some-of their-property that every newborn was-hung upon-him a-bead of-them, not-struck-him pain, as-long-as the-bead hung on-him; and-not he-moans and-not he-grows-hot.",
    "i": "And among their properties is this: any newborn child on whom one of these beads is hung will not be touched by pain so long as the bead hangs on him; he will neither moan nor burn with fever.",
-   "n": "عايه is a misprint: the letters ع ا ي ه stand for عليه, “upon him”, with the lām dropped to an alif; we keep the printed letters and read the sense. The clause كل مولود علقت عليه خرزة منهن is a relative clause with no relative pronoun, as Classical allows after an indefinite noun. مادامت and the two negatives ولايأن / ولايسخن are each printed as one word. In ولايأن the edition itself prints the hamza; the verb is يئنّ, “to moan, groan”, and we keep the letters as printed."
+   "n": "The print has عايه, a misprint for عليه, corrected here. The clause كل مولود علقت عليه خرزة منهن is a relative clause with no relative pronoun, as Classical allows after an indefinite noun. مادامت and the two negatives ولايأن / ولايسخن are each printed as one word. In ولايأن the edition itself prints the hamza; the verb is يئنّ, “to moan, groan”, and we keep the letters as printed."
   },
   {
    "t": "فَلَمَّا وَضَعَ يَدَهُ عَلَيْهَا وَوَقَعَ بِهَا وَعَرَفَ مَاكَانَ مِنْ أَسْرَارِهَا أَرْسَلَ لِلْمَلِكِ أَفْرِيدُونَ هَدَايَا مِنْ بَعْضِ التُّحَفِ وَالْمَالِ وَمِنْ جُمْلَتِهِمْ ثَلَٰثُ خَرَزَاتٍ وَجَهَّزَ وَمَرْكَبَيْنِ الْوَاحِدَةُ فِيهَا مَالٌ وَالْأُخْرَى فِيهَا رِجَالٌ تَحْفَظُ تِلْكَ الْهَدَايَا مِمَّنْ يَتَعَرَّضُ لَهَا فِى الْبَحْرِ",

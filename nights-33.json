@@ -11,7 +11,7 @@
  "work": "الف ليلة وليلة",
  "workEn": "The Thousand and One Nights",
  "part": "Night 33 · The Tailor's Tale, continued",
- "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 266–276 (Night 33, continuing directly from nights-32), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the editors' own transcription. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition's — and the alphabet button strips it back to the bare rasm exactly as Macnaghten prints it. Romanization is simplified IJMES. Spelling, including the edition's Middle Arabic forms and its occasional compositor's slips, is preserved unaltered; a few genuinely obscure or corrupt-looking forms are vocalized by evident sense and flagged in the notes rather than silently repaired. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized by machine, with word-by-word timing generated the same way.",
+ "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 266–276 (Night 33, continuing directly from nights-32), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the editors' own transcription. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition's — and the alphabet button strips it back to the bare rasm as Macnaghten prints it, except where a clear misprint has been corrected (each is noted). Romanization is simplified IJMES. Spelling, including the edition’s Middle Arabic forms, is preserved; clear misprints are corrected in the text, and the note on each gives the print’s reading. Obscure or doubtful forms are kept as printed, vocalized by evident sense and flagged in the notes. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized by machine, with word-by-word timing generated the same way.",
  "about": "Night 33 completes the barber's account of his brothers to the Caliph. The fifth brother's daydream ends in smashed glass; a woman's gift of gold draws him into a procuress's trap, where a black slave salts his wounds, but he returns in disguise, kills the slave and the old woman, plunders the house and is banished by the governor, then mutilated by robbers. The sixth, cut-lipped brother is fed an imaginary banquet by a jesting Barmakid, whom he slaps in kind and who makes him his boon companion; he is later mutilated again by a Bedouin. The barber then defends himself, the Caliph exiles him, and the tailor ends his tale before the king of China; the king, preferring it to the hunchback's story, sends for the barber. As with every printed edition of the Nights, this one belongs to the late Egyptian recension (ZER) — an eighteenth-century expansion padded out to a literal 1001 nights; no printed edition is a medieval text, and Macnaghten regularised the language here and there, so some of the Middle Arabic texture is a nineteenth-century retrofit.",
  "glossaryFile": "nights-glossary.json",
  "sentences": [
@@ -656,11 +656,11 @@
    "n": "ثلث is the edition's defective spelling of ثلاث; it is pointed with a dagger alif (ثَلٰثَ) so that it reads 'three'. The girl's seizure is not spelled out; the sense of أَخَذَنِي here is that he took her by force and kept her."
   },
   {
-   "t": "فَقَالَ لَهَا أَخِي هَلْ لَهُ فِي هَذِهِ الدَّارِ شَيْءءٌ",
+   "t": "فَقَالَ لَهَا أَخِي هَلْ لَهُ فِي هَذِهِ الدَّارِ شَيْءٌ",
    "tr": "fa-qāla lahā akhī hal lahu fī hādhihi al-dāri shayʾun",
    "l": "And said to-her my-brother: Is-there to-him in this house a-thing?",
    "i": "My brother said to her, \"Has he anything in this house?\"",
-   "n": "The edition prints شيءء with a doubled hamza, an evident slip for شيء; it reads shayʾ. The له is the slave's."
+   "n": "The print has شيءء, a misprint for شيء, corrected here. The له is the slave's."
   },
   {
    "t": "فَقَالَتْ عِنْدَهُ شَيْ كَثِيرٌ فَإِنْ كُنْتَ تَقْدِرُ عَلَى نَقْلِهِ فَانْقُلْهُ وَاسْتَخِرِ اللَّهَ",
@@ -813,11 +813,11 @@
    "n": "The Barmakids (al-Barāmika) were the great vizier family of the Abbasid court, proverbial for their generosity."
   },
   {
-   "t": "فَتَقَدَّمَ أَخِي إِلَى الْبَوَّابِينَ وَسَاهُمْ شَيْئًا فَقَالُوا اُدْخُلْ بَابَ الدَّارِ تَجِدْ مَا تُحِبُّ مِنْ صَاحِبِنَا",
-   "tr": "fa-taqaddama akhī ilā al-bawwābīna wa-sāhum shayʾan fa-qālū udkhul bāba al-dāri tajid mā tuḥibbu min ṣāḥibinā",
+   "t": "فَتَقَدَّمَ أَخِي إِلَى الْبَوَّابِينَ وَسَأَلَهُمْ شَيْئًا فَقَالُوا اُدْخُلْ بَابَ الدَّارِ تَجِدْ مَا تُحِبُّ مِنْ صَاحِبِنَا",
+   "tr": "fa-taqaddama akhī ilā al-bawwābīna wa-saʾalahum shayʾan fa-qālū udkhul bāba al-dāri tajid mā tuḥibbu min ṣāḥibinā",
    "l": "So my brother advanced to the doorkeepers, and sāhum a thing; so they said, “Enter the door of the house, you will find what you love from our master.”",
    "i": "My brother went up to the doorkeepers and asked them for something. “Go in at the door of the house,” they said, “and you will find from our master what you wish.”",
-   "n": "وَسَاهُمْ is printed so, with no lām. It is almost certainly وَسَأَلَهُمْ “and asked them”, and the translation takes it so; we do not alter the letters. تَجِدْ after the imperative is the jussive of a command followed by its result (“go in, you will find”)."
+   "n": "The print has وساهم, a misprint for وسألهم, corrected here. تَجِدْ after the imperative is the jussive of a command followed by its result (“go in, you will find”)."
   },
   {
    "t": "فَدَخَلَ الدِّهْلِيزَ وَمَشَى فِيهِ سَاعَةً فَوَصَلَ إِلَى دَارٍ فِي غَايَةِ مَا يَكُونُ مِنَ الْمَلَاحَةِ وَالطُّرَفِ",
@@ -1205,11 +1205,11 @@
    "n": "جَعَلَ plus an imperfect means ‘began to’. فَافْعَلْ مَا شِئْتَ, ‘do what you have wished’, is ‘do as you will’."
   },
   {
-   "t": "فَأَخْرَجَ الْبَدَوِيُّ سِكِّينًا وَ قَطَعَ شَفَتَيْ أَخِي وَشَدَّدَ عَايْهِ فِى الْمَطَابِخِ",
+   "t": "فَأَخْرَجَ الْبَدَوِيُّ سِكِّينًا وَ قَطَعَ شَفَتَيْ أَخِي وَشَدَّدَ عَلَيْهِ فِى الْمَطَابِخِ",
    "tr": "fa-akhraja al-badawiyyu sikkīnan wa-qaṭaʿa shafatay akhī wa-shaddada ʿalayhi fī al-maṭābikhi",
    "l": "And the-Bedouin took-out a-knife and — cut (the) two-lips-of my-brother, and was-severe upon-him in the-kitchens.",
    "i": "Then the Bedouin drew a knife and cut off both my brother’s lips, and dealt harshly with him in the kitchens.",
-   "n": "The print leaves a lone و at the end of its line, with قطع opening the next: kept as its own word, read as ‘and’. عَايْهِ is evidently a misprint for عَلَيْهِ ‘upon him’; it is vocalised as printed and transliterated as the word is meant. The Bedouin’s ‘kitchens’ (مَطَابِخ, plural of مَطْبَخ) are where he is put to work."
+   "n": "The print has عايه, a misprint for عليه, corrected here. The print leaves a lone و at the end of its line, with قطع opening the next: kept as its own word, read as ‘and’. The Bedouin’s ‘kitchens’ (مَطَابِخ, plural of مَطْبَخ) are where he is put to work."
   },
   {
    "t": "وَكَانَ لَهُ زَوْجَةٌ حَسْنَاءُ وَكَانَتْ إِذَا خَرَجَ الْبَدَوِيُّ تَتَعَرَّضُ لِأَخِي وَتُرَا وِدُهُ وَهُوَ يَمْتَنِعُ مِنْهَا",

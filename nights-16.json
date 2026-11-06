@@ -11,7 +11,7 @@
  "work": "الف ليلة وليلة",
  "workEn": "The Thousand and One Nights",
  "part": "Night 16 (printed pp. 110–121)",
- "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 110–121 (continuing directly from nights-15, whose text breaks off partway through the Third Qalandar's own account), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the project's own two-pass-plus-adjudication pipeline; the edition's own OCR is unusable. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition's — and the alphabet button strips it back to the bare rasm exactly as Macnaghten prints it. Romanization is simplified IJMES. Spelling, including the edition's Middle Arabic forms and its occasional compositor's slips, is preserved unaltered; a few genuinely obscure or corrupt-looking forms are vocalized by evident sense and flagged in the notes rather than silently repaired. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized automatically once this file is published, with word-by-word timing generated the same way.",
+ "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 110–121 (continuing directly from nights-15, whose text breaks off partway through the Third Qalandar's own account), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the project's own two-pass-plus-adjudication pipeline; the edition's own OCR is unusable. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition's — and the alphabet button strips it back to the bare rasm as Macnaghten prints it, except where a clear misprint has been corrected (each is noted). Romanization is simplified IJMES. Spelling, including the edition’s Middle Arabic forms, is preserved; clear misprints are corrected in the text, and the note on each gives the print’s reading. Obscure or doubtful forms are kept as printed, vocalized by evident sense and flagged in the notes. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized automatically once this file is published, with word-by-word timing generated the same way.",
  "about": "Night 16 finishes the Third Qalandar's own tale and opens Night 17. Having shot down the brass horseman on the Black Mountain, the qalandar is carried off by an enchanted skiff, thrown into the sea, and swims ashore to a small island, where he secretly enters an underground vault and discovers a jeweler's son hidden there from birth on the strength of a horoscope predicting death at fifteen at the hand of a king's son named 'Ajib — not realizing, until the boy is named, that he himself was that horseman and so is the very man the horoscope warned of. The two live together in hiding for forty days until, on the last, the qalandar's own hand kills the boy by accident, fulfilling the prophecy he had sworn to prevent. He flees, is cast ashore again by chance, is carried by a giant bird to a palace of one-eyed young men, and, pressing them to learn the secret of their nightly rite of ash and mourning, is sent on to a palace of forty princesses; there, after a year of feasting and courtship, curiosity gets the better of him at the one locked door he was told never to open, and the black horse he finds inside flies him to a rooftop where he is blinded in one eye and cast out — the same fate, it is now clear, that made one-eyed men of every host he has met. Blind in one eye himself, wandering, and freshly arrived in Baghdad, he is turned away in his own telling, but the frame catches up with him here: this is the very evening, and the very doorstep, where the caliph Harun al-Rashid — travelling in disguise with Ja'far and Masrur — first met him and the other two one-eyed qalandars. The night closes the frame around all three tales: the lady of the house forgives everyone's earlier bad behavior, the caliph reveals himself the next morning, and the three sisters of the house are asked in turn for their own story; the eldest begins hers — three sisters married, ruined and abandoned by their husbands, reunited in poverty, and setting out together by ship — as dawn cuts Shahrazad off. As with every printed edition of the Nights, this one belongs to the late Egyptian recension (ZER) — an eighteenth-century expansion padded out to a literal 1001 nights; no printed edition is a medieval text, and Macnaghten regularized the language here and there, so some of the original Middle Arabic texture is a nineteenth-century retrofit. The night is frank about the boy's death and about the qalandar's night with each of the princesses, and is translated that way, without euphemism or omission.",
  "glossaryFile": "nights-glossary.json",
  "sentences": [
@@ -79,11 +79,11 @@
    "p": true
   },
   {
-   "t": "ثُمَّ إِنَّ الْعَبِيلَ ظَنُّوا أَنَّ الشَّيْخَ بَعْلَ وَلَدِهِ لَا يَعِيشُ",
-   "tr": "thumma inna al-ʿabīla ẓannū anna al-shaykha baʿla waladihi lā yaʿīshu",
-   "l": "Then indeed the [slaves] thought that the old man, [after] his son, would not live.",
+   "t": "ثُمَّ إِنَّ الْعَبِيدَ ظَنُّوا أَنَّ الشَّيْخَ بَعْدَ وَلَدِهِ لَا يَعِيشُ",
+   "tr": "thumma inna al-ʿabīda ẓannū anna al-shaykha baʿda waladihi lā yaʿīshu",
+   "l": "Then indeed the slaves thought that the old man, after his son, would not live.",
    "i": "Then the slaves thought that the old man would not survive his son.",
-   "n": "Two letters here look misprinted, both ل for د: الْعَبِيل for الْعَبِيد ('the slaves,' the actors throughout this scene) and بَعْل for بَعْد ('after'), giving 'would not live after his son' — would not outlive him. Kept exactly as printed; the same ل/د slip recurs at مَلُّوا below, and again at قَلْ and بَعْلًا in the first verse."
+   "n": "The print has العبيل, a misprint for العبيد, corrected here. The print has بعل, a misprint for بعد, corrected here."
   },
   {
    "t": "وَلَفُّوا الصَّبِيَّ فِي أَثْوَابِهِ وَأَرْخَوْا عَلَيْهِ مُلَاءَةً مِنَ الْحَرِيرِ وَطَلَعُوا إِلَى الْمَرْكَبِ",
@@ -104,11 +104,11 @@
    "i": "He threw dust over his head, struck his face, tore at his beard, and brooded on his son's murder; his weeping grew, and he fell again into a swoon."
   },
   {
-   "t": "فَطَلَعَ عَبْدٌ مِنْهُمْ فَجَاءَ بِمَقْطَعِ حَرِيرٍ وَمَلُّوا الشَّيْخَ عَلَى الْمَقْعَدِ وَجَلَسُوا عِنْدَ رَأْسِهِ",
-   "tr": "fa-ṭalaʿa ʿabdun minhum fa-jāʾa bi-maqṭaʿi ḥarīrin wa-mallū al-shaykha ʿalā al-maqʿadi wa-jalasū ʿinda raʾsihi",
-   "l": "Then a slave among them went up, and brought a length of silk, and they [mallū] the old man onto the couch, and sat by his head.",
+   "t": "فَطَلَعَ عَبْدٌ مِنْهُمْ فَجَاءَ بِمَقْطَعِ حَرِيرٍ وَمَدُّوا الشَّيْخَ عَلَى الْمَقْعَدِ وَجَلَسُوا عِنْدَ رَأْسِهِ",
+   "tr": "fa-ṭalaʿa ʿabdun minhum fa-jāʾa bi-maqṭaʿi ḥarīrin wa-maddū al-shaykha ʿalā al-maqʿadi wa-jalasū ʿinda raʾsihi",
+   "l": "Then a slave among them went up, and brought a length of silk, and they laid the old man out on the couch, and sat by his head.",
    "i": "Then one of the slaves went up and brought a piece of silk; they laid the old man out on the couch and sat by his head.",
-   "n": "مَلُّوا has no sense of its own here ('grew weary of'); most likely another ل for د, for مَدُّوا 'they stretched him out' — the third instance of this letter-slip in the passage (see the note two units above). Translated by that sense; the letters are kept exactly as printed."
+   "n": "The print has وملوا, a misprint for ومدوا, corrected here."
   },
   {
    "t": "هَذَا كُلُّهُ وَأَنَا فِى الشَّجَرَةِ فَوْقَ رُؤْسِهِمْ أَنْظُرُ مَا يَجْرِى",
@@ -119,11 +119,11 @@
    "p": true
   },
   {
-   "t": "وَقَلْ شَابَ قَلْبِي قَبْلَ أَنْ يَشِيبَ رَأْسِي بِمَا قَاسَيْتُ مِنَ الْهُمُومِ وَالْأَحْزَانِ",
+   "t": "وَقَدْ شَابَ قَلْبِي قَبْلَ أَنْ يَشِيبَ رَأْسِي بِمَا قَاسَيْتُ مِنَ الْهُمُومِ وَالْأَحْزَانِ",
    "tr": "wa-qad shāba qalbī qabla an yashība raʾsī bimā qāsaytu mina al-humūmi wa-al-aḥzāni",
-   "l": "And [indeed] my heart had gone grey before my head grew grey, from what I had suffered of cares and sorrows.",
+   "l": "And indeed my heart had gone grey before my head grew grey, from what I had suffered of cares and sorrows.",
    "i": "My heart had turned grey before my head did, from all the grief and sorrow I had endured.",
-   "n": "قَلْ has no sense of its own here; almost certainly a fourth instance of the ل/د slip already noted twice above, for قَدْ ('indeed'), giving the natural 'my heart had already gone grey before my head did.' Kept exactly as printed."
+   "n": "The print has وقل, a misprint for وقد, corrected here."
   },
   {
    "t": "وَأَنْشَدْتُ أَقُولُ",
@@ -132,11 +132,11 @@
    "i": "And I recited these lines:"
   },
   {
-   "t": "وَكَمْ لِلَّهِ مِنْ لُطْفٍ خَفِيٍّ * يَدِقُّ خَفَاهُ عَنْ فَهْمِ الذَّكِى\nوَكَمْ أَمْرٍ تُسَاءُ بِهِ صَبَاحًا * فَتَأْتِيكَ الْمَسَرَّةُ بِالْعَشِى\nوَكَمْ يُسْرٍأَتَي مِنْ بَعْلِ عُسْرٍ * فَفَرَّجَ كُرْبَةَ الْقَلْبِ الشَّجِى",
+   "t": "وَكَمْ لِلَّهِ مِنْ لُطْفٍ خَفِيٍّ * يَدِقُّ خَفَاهُ عَنْ فَهْمِ الذَّكِى\nوَكَمْ أَمْرٍ تُسَاءُ بِهِ صَبَاحًا * فَتَأْتِيكَ الْمَسَرَّةُ بِالْعَشِى\nوَكَمْ يُسْرٍأَتَي مِنْ بَعْدِ عُسْرٍ * فَفَرَّجَ كُرْبَةَ الْقَلْبِ الشَّجِى",
    "tr": "wa-kam li-llāhi min luṭfin khafiyyin * yadiqqu khafāhu ʿan fahmi al-dhakī\nwa-kam amrin tusāʾu bihi ṣabāḥan * fa-taʾtīka al-masarratu bi-al-ʿashī\nwa-kam yusrin atā min baʿdi ʿusrin * fa-farraja kurbata al-qalbi al-shajī",
    "l": "And how many a hidden kindness belongs to God * whose hiddenness eludes the understanding of the clever!\nAnd how many a matter grieves you in the morning * yet gladness comes to you by evening!\nAnd how much ease has come after hardship * and so relieved the anguish of the grieving heart!",
    "i": "How many a mercy from God lies hidden, too fine for even a keen mind to grasp! How often a thing that grieves you at dawn is followed by joy that reaches you by dusk! How often ease arrives on the heels of hardship, and lifts the sorrow from a grieving heart!",
-   "n": "بَعْلِ is read as بَعْدِ 'after' — the same ل/د slip noted twice already. يُسْرٍأَتَى ('an ease came') is printed as one unbroken run with no word-space; the two words are read continuously without adding, removing, or changing a letter.",
+   "n": "The print has بعل, a misprint for بعد, corrected here. يُسْرٍأَتَى ('an ease came') is printed as one unbroken run with no word-space; the two words are read continuously without adding, removing, or changing a letter.",
    "v": true
   },
   {
@@ -160,11 +160,11 @@
    "p": true
   },
   {
-   "t": "الْقَلْبُ مِنْ فُرْقَةِ الْأَحْبَابِ مُنْصَدِعٌ * أَمَّا دُمُوعِي مِنَ الْآمَاقِ تَنْهَمِلُ\nشَطَّ الْمَرَامُ بِهِمْ بَعْلًا فَوَا أَسَفِي * مَا حِيلَتِي فِيهِمْ مَا الْقَوْلُ مَا الْعَمَلُ\nفَلَيْتَنِي مَا كُنْتُ نَظَرْتُهُمْ أَبَدًا * مَا حِيلَتِي سَادَتِي ضَاقَتْ بِى السُّبُلُ\nكَيْفَ السُّلُوُّ بِسُلْوَانٍ وَقَدْ لَعِبَتْ * نَارُ الْهَوَى بِعَوَادِي وَهِيَ تَشْتَعِلُ\nيَا لَيْتَ لَوْ يَمَّمَتْ ذَاتَ الْمَنُونِ بِهِمْ * بَيْنِي وَبَيْنَهُمْ مَا لَيْسَ يَنْفَصِلُ\nسَأَلْتُكَ اللَّهَ يَا وَاشِي فَكُنْ مَهْلًا * فَجَمْعُ شَمْلِي بِهِمْ مَازَالَ مُشْتَمِلُ\nمَا كَانَ أَحْسَنَنَا وَالدَّارُ تَجْمَعُنَا * وَنَحْنُ فِي غِبْطَةٍ وَالْعَيْشُ مُتَّصِلُ\nحَتَّى رُمِينَا بِسَهْمِ الْبَيْنِ فَرَّقَنَا * مَنْ ذَا الَّذِي لِسِهَامِ الْبَيْنِ يَحْتَمِلُ\nإِذْ صَابَنَا فِي عَزِيزِ الْقَوْمِ عَائِبَةٌ * فَرِيدِ عَصْرٍ غَدَا بِالْحُسْنِ مُكْتَمِلُ\nأَنْشَدْتُهُ وَلِسَانُ الْحَالِ يَسْبِقُنِي * يَا لَيْتَ يَا وَلَدِي مَا قَدْ أَتَى الْأَجَلُ\nكَيْفَ السَّبِيلُ إِلَى لُقْيَاكُمْ عَجِّلْ * نَفْدِيكَ يَا وَلَدِي بِالرُّوحِ لَوْ قُبِلْ\nإِنْ قُلْتُ شَمْسٌ فَإِنَّ الشَّمْسَ غَارِبَةٌ * أَوْ قُلْتُ بَدْرٌ فَإِنَّ الْبَدْرَ قَدْ أَفَلْ\nلَهْفِي عَلَيْكَ مِنَ الْأَيَّامِ يَا أَسَفِي * مَا عَنْكَ بُدَّ فَمَنْ ذَا عَنْكَ يَشْتَغِلُ\nأَبُوكَ أَضْحَى بِهِ شَوْقًا إِلَيْكَ وَمَا * حَلَّ الْمَمَاتُ بِكُمْ ضَاقَتْ بِيَ الْحِيَلُ\nعَيْنُ الْحَوَاسِدِ فِينَا الْيَوْمَ قَدْ وَقَعَتْ * يَلْقَوْنَ مَا صَنَعُوا يَا بِئْسَ مَا فَعَلُوا",
-   "tr": "al-qalbu min furqati al-aḥbābi munṣadiʿun * ammā dumūʿī mina al-āmāqi tanhamilu\nshaṭṭa al-marāmu bihim baʿlan fa-wā asafī * mā ḥīlatī fīhim mā al-qawlu mā al-ʿamalu\nfa-laytanī mā kuntu naẓartuhum abadan * mā ḥīlatī sādatī ḍāqat biya al-subulu\nkayfa al-sulūwu bi-sulwānin wa-qad laʿibat * nāru al-hawā bi-ʿawādī wa-hiya tashtaʿilu\nyā layta law yammamat dhāta al-manūni bihim * baynī wa-baynahum mā laysa yanfaṣilu\nsaʾaltuka Allāha yā wāshī fa-kun mahlan * fa-jamʿu shamlī bihim mā zāla mushtamilu\nmā kāna aḥsananā wa-al-dāru tajmaʿunā * wa-naḥnu fī ghibṭatin wa-al-ʿayshu muttaṣilu\nḥattā rumīnā bi-sahmi al-bayni farraqanā * man dhā al-ladhī li-sihāmi al-bayni yaḥtamilu\nidh ṣābanā fī ʿazīzi al-qawmi ʿāʾibatun * farīdi ʿaṣrin ghadā bi-al-ḥusni muktamilu\nanshadtuhu wa-lisānu al-ḥāli yasbiqunī * yā layta yā waladī mā qad atā al-ajalu\nkayfa al-sabīlu ilā luqyākum ʿajjil * nafdīka yā waladī bi-al-rūḥi law qubil\nin qultu shamsun fa-inna al-shamsa ghāribatun * aw qultu badrun fa-inna al-badra qad afal\nlahfī ʿalayka mina al-ayyāmi yā asafī * mā ʿanka budda fa-man dhā ʿanka yashtaghilu\nabūka aḍḥā bihi shawqan ilayka wa-mā * ḥalla al-mamātu bikum ḍāqat biya al-ḥiyalu\nʿaynu al-ḥawāsidi fīnā al-yawma qad waqaʿat * yalqawna mā ṣanaʿū yā biʾsa mā faʿalū",
+   "t": "الْقَلْبُ مِنْ فُرْقَةِ الْأَحْبَابِ مُنْصَدِعٌ * أَمَّا دُمُوعِي مِنَ الْآمَاقِ تَنْهَمِلُ\nشَطَّ الْمَرَامُ بِهِمْ بَعْدًا فَوَا أَسَفِي * مَا حِيلَتِي فِيهِمْ مَا الْقَوْلُ مَا الْعَمَلُ\nفَلَيْتَنِي مَا كُنْتُ نَظَرْتُهُمْ أَبَدًا * مَا حِيلَتِي سَادَتِي ضَاقَتْ بِى السُّبُلُ\nكَيْفَ السُّلُوُّ بِسُلْوَانٍ وَقَدْ لَعِبَتْ * نَارُ الْهَوَى بِعَوَادِي وَهِيَ تَشْتَعِلُ\nيَا لَيْتَ لَوْ يَمَّمَتْ ذَاتَ الْمَنُونِ بِهِمْ * بَيْنِي وَبَيْنَهُمْ مَا لَيْسَ يَنْفَصِلُ\nسَأَلْتُكَ اللَّهَ يَا وَاشِي فَكُنْ مَهْلًا * فَجَمْعُ شَمْلِي بِهِمْ مَازَالَ مُشْتَمِلُ\nمَا كَانَ أَحْسَنَنَا وَالدَّارُ تَجْمَعُنَا * وَنَحْنُ فِي غِبْطَةٍ وَالْعَيْشُ مُتَّصِلُ\nحَتَّى رُمِينَا بِسَهْمِ الْبَيْنِ فَرَّقَنَا * مَنْ ذَا الَّذِي لِسِهَامِ الْبَيْنِ يَحْتَمِلُ\nإِذْ صَابَنَا فِي عَزِيزِ الْقَوْمِ عَائِبَةٌ * فَرِيدِ عَصْرٍ غَدَا بِالْحُسْنِ مُكْتَمِلُ\nأَنْشَدْتُهُ وَلِسَانُ الْحَالِ يَسْبِقُنِي * يَا لَيْتَ يَا وَلَدِي مَا قَدْ أَتَى الْأَجَلُ\nكَيْفَ السَّبِيلُ إِلَى لُقْيَاكُمْ عَجِّلْ * نَفْدِيكَ يَا وَلَدِي بِالرُّوحِ لَوْ قُبِلْ\nإِنْ قُلْتُ شَمْسٌ فَإِنَّ الشَّمْسَ غَارِبَةٌ * أَوْ قُلْتُ بَدْرٌ فَإِنَّ الْبَدْرَ قَدْ أَفَلْ\nلَهْفِي عَلَيْكَ مِنَ الْأَيَّامِ يَا أَسَفِي * مَا عَنْكَ بُدَّ فَمَنْ ذَا عَنْكَ يَشْتَغِلُ\nأَبُوكَ أَضْحَى بِهِ شَوْقًا إِلَيْكَ وَمَا * حَلَّ الْمَمَاتُ بِكُمْ ضَاقَتْ بِيَ الْحِيَلُ\nعَيْنُ الْحَوَاسِدِ فِينَا الْيَوْمَ قَدْ وَقَعَتْ * يَلْقَوْنَ مَا صَنَعُوا يَا بِئْسَ مَا فَعَلُوا",
+   "tr": "al-qalbu min furqati al-aḥbābi munṣadiʿun * ammā dumūʿī mina al-āmāqi tanhamilu\nshaṭṭa al-marāmu bihim baʿdan fa-wā asafī * mā ḥīlatī fīhim mā al-qawlu mā al-ʿamalu\nfa-laytanī mā kuntu naẓartuhum abadan * mā ḥīlatī sādatī ḍāqat biya al-subulu\nkayfa al-sulūwu bi-sulwānin wa-qad laʿibat * nāru al-hawā bi-ʿawādī wa-hiya tashtaʿilu\nyā layta law yammamat dhāta al-manūni bihim * baynī wa-baynahum mā laysa yanfaṣilu\nsaʾaltuka Allāha yā wāshī fa-kun mahlan * fa-jamʿu shamlī bihim mā zāla mushtamilu\nmā kāna aḥsananā wa-al-dāru tajmaʿunā * wa-naḥnu fī ghibṭatin wa-al-ʿayshu muttaṣilu\nḥattā rumīnā bi-sahmi al-bayni farraqanā * man dhā al-ladhī li-sihāmi al-bayni yaḥtamilu\nidh ṣābanā fī ʿazīzi al-qawmi ʿāʾibatun * farīdi ʿaṣrin ghadā bi-al-ḥusni muktamilu\nanshadtuhu wa-lisānu al-ḥāli yasbiqunī * yā layta yā waladī mā qad atā al-ajalu\nkayfa al-sabīlu ilā luqyākum ʿajjil * nafdīka yā waladī bi-al-rūḥi law qubil\nin qultu shamsun fa-inna al-shamsa ghāribatun * aw qultu badrun fa-inna al-badra qad afal\nlahfī ʿalayka mina al-ayyāmi yā asafī * mā ʿanka budda fa-man dhā ʿanka yashtaghilu\nabūka aḍḥā bihi shawqan ilayka wa-mā * ḥalla al-mamātu bikum ḍāqat biya al-ḥiyalu\nʿaynu al-ḥawāsidi fīnā al-yawma qad waqaʿat * yalqawna mā ṣanaʿū yā biʾsa mā faʿalū",
    "l": "The heart, from the parting of the loved-ones, is riven * as for my tears, from the eyes' corners they pour down.\nThe desired-thing has grown remote regarding them, far off — oh, alas for my grief! * What is my recourse concerning them? What is the saying, what is the deed?\nWould that I had never looked upon them at all! * What is my recourse, my masters — the ways have grown strait for me.\nHow is forgetting, by any consolation, when the fire of passion has played through my very being * and it blazes?\nWould that, though the mistress of doom had made straight for them * there yet remained between me and them what does not sever!\nI ask you, by God, O tale-bearer, be gentle * for the gathering of my scattered-state with them has never ceased to hold entire.\nHow good we were, while the house gathered us * and we in gladness, and the life unbroken!\nUntil we were struck by the arrow of separation, [which] parted us * who is there that can bear the arrows of separation?\nWhen a fault/calamity befell us in the dear-one of the folk * the unique-one of an age, grown perfect in beauty.\nI recited it to him, while the tongue-of-the-state outran me: * 'Would, O my son, that the appointed-term had not come!'\nHow is the way to meeting-you? Make haste! * We would ransom you, O my son, with the soul, were it accepted.\nIf I say 'a sun,' then indeed the sun sets * or if I say 'a full-moon,' then indeed the full-moon has already gone down.\nMy grief for you, from the days — oh my sorrow! * There is no escape from you; so who is it that can turn away from you?\nYour father has become, in this, full of longing for you * and since death has alighted upon you, [my] resources have grown strait for me.\nThe eye of the enviers has fallen upon us this day * let them meet what they have done — evil is what they have done!",
    "i": "My heart is riven by the parting of those I love; as for my tears, they stream down from the corners of my eyes. My hope of them has grown distant, far away — ah, the grief of it! What recourse have I in their case? What is there to say, what is there to do? Would that I had never set eyes on them at all! What can I do, my dear ones — every path has closed in on me. How can consolation ever bring forgetfulness, when the fire of love has played through my very heart, and still burns on? Would that, though Doom herself had claimed them, there still remained between us a bond that could never be severed! I beg you, by God, O tale-bearer, be gentle — for my bond with them has never ceased to hold entire. How fair we were, when one roof still gathered us together, and we lived on in gladness, our days flowing unbroken! Until the arrow of parting struck us and drove us apart; who is there that can withstand the arrows of separation? When calamity struck us in the person of our precious one — that peerless one of his age, grown perfect in beauty. I recited this to him, while the voice of my very condition outran my words: 'Would, O my son, that your hour had never come!' Is there any way to reach you? Make haste! We would give our very souls to ransom you, my son, if only it could be accepted! If I call you a sun, the sun still sets; if I call you a full moon, the full moon still wanes and is gone. How I grieve for you because of these days — ah, my sorrow! There is no escaping your loss; who could ever turn his mind from you? Your father has become consumed with longing for you; and since death has taken you, every resource within me has failed. The eye of the envious has fallen upon us this day; let them meet the reward of what they have done — evil indeed is what they have done!",
-   "n": "بَعْلًا (l.2) again reads as بَعْدًا 'far off' — the same ل/د slip noted several times already in this passage. عَجِّلْ (l.11) is read as the imperative 'make haste,' the one line here printed with no accusative-tanwīn alif at all. بِعَوَادِي (l.4) is obscure — perhaps 'my inmost being' or 'my wonted state' — and is rendered loosely; vocalized as printed rather than emended. All fifteen lines carry one continuous monorhyme in -l (rawī lām), confirming they belong to a single unbroken recitation.",
+   "n": "The print has بعلا, a misprint for بعدا, corrected here. عَجِّلْ (l.11) is read as the imperative 'make haste,' the one line here printed with no accusative-tanwīn alif at all. بِعَوَادِي (l.4) is obscure — perhaps 'my inmost being' or 'my wonted state' — and is rendered loosely. All fifteen lines carry one continuous monorhyme in -l (rawī lām), confirming they belong to a single unbroken recitation.",
    "v": true
   },
   {
@@ -761,11 +761,11 @@
    "v": true
   },
   {
-   "t": "وَأَنْشَلْتُهَا قَوْلَ الْقَائِلِ",
-   "tr": "wa-anshaltuhā qawla al-qāʾili",
+   "t": "وَأَنْشَدْتُهَا قَوْلَ الْقَائِلِ",
+   "tr": "wa-anshadtuhā qawla al-qāʾili",
    "l": "And I recited to her the saying of the sayer:",
    "i": "And I recited to her the words of the poet:",
-   "n": "Printed أَنْشَلْتُهَا, with ل, has no sense from the root ن-ش-ل (‘to snatch out’); both the meaning required here and the parallel formula used elsewhere in this text (كَمَا قَالَ فِيهَا الشَّاعِرُ) point to أَنْشَدْتُهَا, ‘I recited to her’ (from أَنْشَدَ, ‘to recite verse’) — very likely a one-letter misprint (ل for د). It is vocalized as printed and translated by the sense the context requires."
+   "n": "The print has وانشلتها, a misprint for وأنشدتها, corrected here."
   },
   {
    "t": "عَيْنِي لِغَيْرِ جَمَالِكُمْ لَا تَنْظُرُ * وَسِوَاكُمْ فِي خَاطِرِي لَا يَخْطُرُ\nوَجَمِيعُ فِكْرِي فِي هَوَاكُمْ سَادَتِي * وَعَلَى مَحَبَّتِكُمْ أَمُوتُ وَأُحْشَرُ",
@@ -1014,11 +1014,11 @@
    "i": "and found in it a great open ground, with tall palms and a flowing river,"
   },
   {
-   "t": "وَأَشْجَارُ الْوَرْدِ وَالْيَاسَمِينِ وَالْبَرَدَقُوشِ وَالنَّسْرِينِ وَالنَّرْجِسِ وَالْمَنْشُورِ مَفْرُوشَةٌ بِحَافَتِهِ",
-   "tr": "wa-ashjāru al-wardi wa-al-yāsamīni wa-al-baradaqūshi wa-al-nasrīni wa-al-narjisi wa-al-manshūri mafrūshatun bi-ḥāfatihi",
+   "t": "وَأَشْجَارُ الْوَرْدِ وَالْيَاسَمِينِ وَالْبَرَدَقُوشِ وَالنَّسْرِينِ وَالنَّرْجِسِ وَالْمَنْثُورِ مَفْرُوشَةٌ بِحَافَتِهِ",
+   "tr": "wa-ashjāru al-wardi wa-al-yāsamīni wa-al-baradaqūshi wa-al-nasrīni wa-al-narjisi wa-al-manthūri mafrūshatun bi-ḥāfatihi",
    "l": "and trees-of rose and-jasmine and-marjoram and-eglantine and-narcissus and-al-manshūr, spread along-its-edge.",
    "i": "and trees of rose, jasmine, marjoram, eglantine, narcissus and manshūr-flowers carpeting its bank.",
-   "n": "\"الْمَنْشُورِ\" (literally “the spread-out/published one”) is very likely a misprint for المَنْثُور (with thā', not shīn), a real flower conventionally paired with narcissus in garden descriptions (“النرجس والمنثور” is a standard phrase); the two letters are easy to confuse on the page. Kept exactly as printed."
+   "n": "The print has والمنشور, a misprint for والمنثور, corrected here. The two letters are easy to confuse on the page."
   },
   {
    "t": "وَقَلَّ هَبَّتِ الرِّيَاحُ عَلَى تِلْكَ",
@@ -1066,11 +1066,11 @@
    "i": "Then I opened the door of the fourth storeroom and found inside a great chamber, and within it were forty compartments standing open."
   },
   {
-   "t": "فَدَخَلْتُ فِيهِمْ فَرَأَيْتُ مِنَ اللُّؤْلُؤِ وَالْيَاقُوتِ وَالزَّبَرْجَلِ وَالزُّمُرُّذِ وَالْجَوَاهِرِ اَلنَّفِيسَةِ مَا لَا يُوصَفُ بِلِسَانٍ",
-   "tr": "fa-dakhaltu fīhim fa-ra'aytu mina l-lu'lu'i wa-al-yāqūti wa-al-zabarjali wa-al-zumurrudhi wa-al-jawāhiri l-nafīsati mā lā yūṣafu bi-lisānin",
+   "t": "فَدَخَلْتُ فِيهِمْ فَرَأَيْتُ مِنَ اللُّؤْلُؤِ وَالْيَاقُوتِ وَالزَّبَرْجَدِ وَالزُّمُرُّذِ وَالْجَوَاهِرِ اَلنَّفِيسَةِ مَا لَا يُوصَفُ بِلِسَانٍ",
+   "tr": "fa-dakhaltu fīhim fa-ra'aytu mina l-lu'lu'i wa-al-yāqūti wa-al-zabarjadi wa-al-zumurrudhi wa-al-jawāhiri l-nafīsati mā lā yūṣafu bi-lisānin",
    "l": "So I entered among them, and I saw, of pearl and ruby and zabarjal and zumurrudh and precious gems, what cannot be described by any tongue.",
    "i": "So I went in among them, and saw such pearls, rubies, chrysolite, emerald, and other precious gems as no tongue could describe.",
-   "n": "The archive spells 'chrysolite' الزبرجل and 'emerald' الزمرذ (for the expected زبرجد, زمرد); kept as printed, letters unaltered."
+   "n": "The print has والزبرجل, a misprint for والزبرجد, corrected here."
   },
   {
    "t": "فَاندَهَشَ عَقْلِي مِنْ ذَلِكَ",

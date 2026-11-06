@@ -11,7 +11,7 @@
  "work": "الف ليلة وليلة",
  "workEn": "The Thousand and One Nights",
  "part": "Night 2 (printed pp. 14–20)",
- "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 14–20, transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the project’s own two-pass-plus-adjudication pipeline; the edition’s own OCR is unusable. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition’s — and the alphabet button strips it back to the bare rasm exactly as Macnaghten prints it. Romanization is simplified IJMES. Spelling, including the edition’s Middle Arabic forms, is preserved unaltered, including two places (printed pp. 17) where a wa- proclitic was set at the very end of a printed line and its host word continues on the next; both are kept as the two separate tokens the edition itself prints. Read-aloud audio, where it exists elsewhere in this library, follows the convention of a Modern Standard Arabic reading; none is attached to this file yet.",
+ "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 14–20, transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the project’s own two-pass-plus-adjudication pipeline; the edition’s own OCR is unusable. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition’s — and the alphabet button strips it back to the bare rasm as Macnaghten prints it, except where a clear misprint has been corrected (each is noted). Romanization is simplified IJMES. Spelling, including the edition’s Middle Arabic forms, is preserved; clear misprints are corrected in the text, and the note on each gives the print’s reading. Obscure or doubtful forms are kept as printed, vocalized by evident sense and flagged in the notes. 17) where a wa- proclitic was set at the very end of a printed line and its host word continues on the next; both are kept as the two separate tokens the edition itself prints. Read-aloud audio, where it exists elsewhere in this library, follows the convention of a Modern Standard Arabic reading; none is attached to this file yet.",
  "about": "This night finishes the First Sheikh’s tale of the enchanted calf and the gazelle who is his own cousin, then gives in full the Second Sheikh’s tale of his two brothers turned into dogs by his wife, a jinniyah, and the Third Sheikh’s tale of the wife who turned her unfaithful husband into a dog and was in turn transformed into a mule; each tale wins its teller a further third of the pardon owed the frame’s own condemned merchant, until the jinni forgives him outright. As with every printed edition of the Nights, this one belongs to the late Egyptian recension (ZER) — an eighteenth-century expansion padded out to a literal 1001 nights; no printed edition is a medieval text, and Macnaghten regularized the language toward Classical Arabic here and there, so some of the original Middle Arabic texture is a nineteenth-century retrofit. Non-Classical forms and a few probable compositor’s slips are vocalized as printed and flagged in the notes rather than silently repaired. The tales are frank about magic, violence, and adultery, and are translated that way.",
  "glossaryFile": "nights-glossary.json",
  "sentences": [
@@ -36,11 +36,11 @@
    "i": "The King said, 'Tell it.'"
   },
   {
-   "t": "فَقَالَتْ بَلَغَنِي أَيُّهَا الْمَلِكُ السَّعِيدُ وَالْوَلِيُّ الرَّشِيدُ أَنَّهُ لَمَّا أَرَادَ أَنْ يَذْبَحَ الْعِجْلَ حَنَّ قَابُهُ وَقَالَ لِلرَّاعِي أَبْقِ هَذَا الْعِجْلَ بَيْنَ الْبَهَائِمِ",
-   "tr": "fa-qālat balaghanī ayyuhā al-maliku al-saʿīdu wa-al-waliyyu al-rashīdu annahu lammā arāda an yadhbaḥa al-ʿijla ḥanna qābuhu wa-qāla li-al-rāʿī abqi hādhā al-ʿijla bayna al-bahāʾ imi",
+   "t": "فَقَالَتْ بَلَغَنِي أَيُّهَا الْمَلِكُ السَّعِيدُ وَالْوَلِيُّ الرَّشِيدُ أَنَّهُ لَمَّا أَرَادَ أَنْ يَذْبَحَ الْعِجْلَ حَنَّ قَلْبُهُ وَقَالَ لِلرَّاعِي أَبْقِ هَذَا الْعِجْلَ بَيْنَ الْبَهَائِمِ",
+   "tr": "fa-qālat balaghanī ayyuhā al-maliku al-saʿīdu wa-al-waliyyu al-rashīdu annahu lammā arāda an yadhbaḥa al-ʿijla ḥanna qalbuhu wa-qāla li-al-rāʿī abqi hādhā al-ʿijla bayna al-bahāʾ imi",
    "l": "She said: 'It has reached me, O happy King, the rightly-guided custodian, that when he wished to slaughter the calf, his qab (see note) softened, and he said to the herdsman: \"Leave this calf among the cattle.\"'",
    "i": "She said, 'It is told, O happy King, guided rightly, that when he meant to slaughter the calf, his heart was moved with pity, and he said to the herdsman, \"Leave this calf among the herd.\"'",
-   "n": "This resumes a tale-within-a-tale already under way from Night One: an old man -- the 'owner of the gazelle' -- is recounting to a jinni (inside the merchant's own story) how he once kept a calf that turns out to be no ordinary animal. The rasm here reads q-a-b-h, short of the lam that 'his heart' (qalbuhu) would need; that is almost certainly what is meant ('his heart softened'), and it is pointed here to fit the printed letters as a probable compositor's slip rather than silently corrected."
+   "n": "The print has قابه, a misprint for قلبه, corrected here. This resumes a tale-within-a-tale already under way from Night One: an old man -- the 'owner of the gazelle' -- is recounting to a jinni (inside the merchant's own story) how he once kept a calf that turns out to be no ordinary animal."
   },
   {
    "t": "كُلُّ ذَلِكَ وَالشَّيْخُ يَحْكِي إِلَى الْجِنِّيِّ وَالْجِنِّيُّ يَتَعَجَّبُ مِنْ ذَلِكَ الْكَلَامِ الْعَجِيبِ",
@@ -115,11 +115,11 @@
    "n": "The 'her' slaughtered here is the boy's mother, transformed -- the listener now realizes that he himself, unknowingly, is the father in this account."
   },
   {
-   "t": "فَتَعَجَّبْتُ مِنْ ذَلِكَ غَابَةَ الْعَجَبِ وَمَا صَدَّقْتُ بِطُلُوعِ الصَّبَاحِ حَتَّى جِئْتُ إِلَيْكَ أُعْلِمُكَ",
-   "tr": "fa-taʿajjabtu min dhālika ghābata al-ʿajabi wa-mā ṣaddaqtu bi-ṭulūʿi al-ṣabāḥi ḥattā jiʾtu ilayka uʿlimuka",
+   "t": "فَتَعَجَّبْتُ مِنْ ذَلِكَ غَايَةَ الْعَجَبِ وَمَا صَدَّقْتُ بِطُلُوعِ الصَّبَاحِ حَتَّى جِئْتُ إِلَيْكَ أُعْلِمُكَ",
+   "tr": "fa-taʿajjabtu min dhālika ghāyata al-ʿajabi wa-mā ṣaddaqtu bi-ṭulūʿi al-ṣabāḥi ḥattā jiʾtu ilayka uʿlimuka",
    "l": "And I marveled at that to the utmost of wonder, and I did not credit the break of morning until I came to you to inform you.",
    "i": "I marveled at this beyond all measure, and could scarcely believe day had broken before I came to tell you.",
-   "n": "The rasm reads gh-a-b-h ('forest'), which cannot be right after 'the utmost of--'; this is almost certainly ghaya ('utmost degree'), a ba' misprinted for a ya', and is pointed and translated accordingly."
+   "n": "The print has غابة, a misprint for غاية, corrected here."
   },
   {
    "t": "فَلَمَّا سَمِعْتُ أَيُّهَا الْجِنِّيُّ هَذَا الْكَلَامَ مِنَ الرَّاعِي خَرَجْتُ مَعَهُ وَأَنَا سَكْرَانُ مِنْ غَيْرِ مُدَامٍ مِنْ كَثْرَةِ الْفَرَحِ وَالسُّرُورِ الَّذِي حَصَلَ لِي إِلَى أَنْ أَتَيْتُ إِلَى دَارِهِ",

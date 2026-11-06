@@ -11,7 +11,7 @@
  "work": "الف ليلة وليلة",
  "workEn": "The Thousand and One Nights",
  "part": "Night 39 · The Merchant and His Sons, continued",
- "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 320–327 (Night 39, continuing directly from nights-38), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the editors' own transcription. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition's — and the alphabet button strips it back to the bare rasm exactly as Macnaghten prints it. Romanization is simplified IJMES. Spelling, including the edition's Middle Arabic forms and its occasional compositor's slips, is preserved unaltered; a few genuinely obscure or corrupt-looking forms are vocalized by evident sense and flagged in the notes rather than silently repaired. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized by machine, with word-by-word timing generated the same way.",
+ "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 320–327 (Night 39, continuing directly from nights-38), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the editors' own transcription. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition's — and the alphabet button strips it back to the bare rasm as Macnaghten prints it, except where a clear misprint has been corrected (each is noted). Romanization is simplified IJMES. Spelling, including the edition’s Middle Arabic forms, is preserved; clear misprints are corrected in the text, and the note on each gives the print’s reading. Obscure or doubtful forms are kept as printed, vocalized by evident sense and flagged in the notes. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized by machine, with word-by-word timing generated the same way.",
  "about": "Night 39 continues the tale of Ghānim ibn Ayyūb. Newly arrived in Baghdad, he trades successfully, goes to a merchant's funeral, and is shut out of the city gate at midnight; he takes refuge in a walled tomb and climbs a palm. Three black slaves arrive carrying a chest, and to pass the time each begins to tell the story of how he came to be what he is: Bukhayt's tale, then Kāfūr's, which breaks off as dawn overtakes Shahrazād. As with every printed edition of the Nights, this one belongs to the late Egyptian recension (ZER) — an eighteenth-century expansion padded out to a literal 1001 nights; no printed edition is a medieval text, and Macnaghten regularised the language here and there, so some Middle Arabic texture is a nineteenth-century retrofit.",
  "glossaryFile": "nights-glossary.json",
  "advisory": "This night contains a passage, skipped for now, in which the first slave's tale describes sexual acts involving children.",
@@ -475,11 +475,11 @@
    "n": "Bukhayt means “fortunate, lucky”, which sits grimly beside what he is about to tell. The Arabic uses the plain present, أحكي “I tell”, for what English phrases as a promise."
   },
   {
-   "t": "فَقَالُوا لَهُ تَالَمْ",
-   "tr": "fa-qālū lahu tālam",
+   "t": "فَقَالُوا لَهُ تَكَلَّمْ",
+   "tr": "fa-qālū lahu takallam",
    "l": "And they-said to-him: speak!",
    "i": "They said to him, “Speak.”",
-   "n": "The print has تالم, which is not a word. It looks like a slip for تكلم takallam, “speak”, one letter off, and I translate it so; the pointing here follows the letters as printed."
+   "n": "The print has تالم, a misprint for تكلم, corrected here."
   },
   {
    "t": "قَالَ لَهُمْ يَا إِخْوَتِي اعْلَمُوا أَنِّي لَمَّا كُنْتُ صَغِيرٌ أَجَاءَ بِي الْجَلَّابُ مِنْ بَلَدِي",
@@ -695,11 +695,11 @@
    "i": "The people of the quarter gathered around me, great and small."
   },
   {
-   "t": "وَسَمِعَتْ حِسِّي زَوْجَةُ سَيِّدِي وَبَنَاتُهُ فَفَتَحُوالِي الْبَابَ وَسَأَلُونِي عَنِ الْخَمْرِ",
-   "tr": "wa-samiʿat ḥissī zawjatu sayyidī wa-banātuhu fa-fataḥū lī al-bāba wa-saʾalūnī ʿani al-khamri",
+   "t": "وَسَمِعَتْ حِسِّي زَوْجَةُ سَيِّدِي وَبَنَاتُهُ فَفَتَحُوالِي الْبَابَ وَسَأَلُونِي عَنِ الْخَبَرِ",
+   "tr": "wa-samiʿat ḥissī zawjatu sayyidī wa-banātuhu fa-fataḥū lī al-bāba wa-saʾalūnī ʿani al-khabari",
    "l": "And-heard my-sound the wife-of my-master and-his-daughters, and-they-opened to-me the door, and-asked-me about the wine.",
    "i": "My master’s wife and daughters heard my voice, and opened the door to me, and asked me for the news.",
-   "n": "The print has الخمر (“the wine”) where the sense plainly calls for الخبر (“the news”): a compositor’s slip. It is pointed as printed, and the idiomatic line gives the sense. The verb سمعت is feminine singular though followed by the wife and the daughters, a normal Arabic agreement with the nearer subject. ففتحوالي, “and they opened to me”, is printed as one word."
+   "n": "The print has الخمر, a misprint for الخبر, corrected here. The verb سمعت is feminine singular though followed by the wife and the daughters, a normal Arabic agreement with the nearer subject. ففتحوالي, “and they opened to me”, is printed as one word."
   },
   {
    "t": "فَقُلْتُ لَهُمْ أَنَّ سَيِّدِي كَانَ جَالِسًا تَحْتَ حَائِظٍ قَدِيمَةٍ هُوَ وَأَصْحَابُهُ فَوَقَعَتْ عَلَيْهِمْ",
@@ -716,18 +716,18 @@
    "n": "The lām of لأخبركم means “in order to”: li-ukhbirakum, “so as to tell you”."
   },
   {
-   "t": "فَلَمَّا سَمِعَ بَنَانُهُ وَزَوْجَنُهُ ذَٰلِكَ صَرَخُوا وَشَقُّوا ثِيَابَهُمْ وَلَطَمُوا عَلَى وُجُوهِهِمْ",
-   "tr": "fa-lammā samiʿa banānuhu wa-zawjanuhu dhālika ṣarakhū wa-shaqqū thiyābahum wa-laṭamū ʿalā wujūhihim",
+   "t": "فَلَمَّا سَمِعَ بَنَاتُهُ وَزَوْجَتُهُ ذَٰلِكَ صَرَخُوا وَشَقُّوا ثِيَابَهُمْ وَلَطَمُوا عَلَى وُجُوهِهِمْ",
+   "tr": "fa-lammā samiʿa banātuhu wa-zawjatuhu dhālika ṣarakhū wa-shaqqū thiyābahum wa-laṭamū ʿalā wujūhihim",
    "l": "And-when heard his-daughters and-his-wife that, they-cried-out and-tore their-garments and-struck upon their-faces.",
    "i": "When his daughters and his wife heard this, they screamed, and tore their clothes, and beat their faces.",
-   "n": "The print has بنانه وزوجنه, with a nūn in place of the tāʾ, for بناته وزوجته (“his daughters and his wife”); an evident slip, kept as printed in the Arabic and pointed to match, while the translation follows the sense. The verb سمع is singular before its plural subject, which is regular."
+   "n": "The print has بنانه, a misprint for بناته, corrected here. The print has وزوجنه, a misprint for وزوجته, corrected here. The verb سمع is singular before its plural subject, which is regular."
   },
   {
-   "t": "فَانَتْ إِلَيْهِمُ الْجِيرَانُ",
-   "tr": "fa-anat ilayhimu al-jīrānu",
-   "l": "And-[came] to-them the neighbours.",
+   "t": "فَأَتَتْ إِلَيْهِمُ الْجِيرَانُ",
+   "tr": "fa-atat ilayhimu al-jīrānu",
+   "l": "And-came to-them the neighbours.",
    "i": "Then the neighbours came to them.",
-   "n": "The form فانت is probably a misprint for فأتت or فاتت, “and she came”, with the same nūn for tāʾ as in the line above; it is pointed as printed and translated by the sense. The verb is feminine because جيران is a collective plural."
+   "n": "The print has فانت, a misprint for فأتت, corrected here. The verb is feminine because جيران is a collective plural."
   },
   {
    "t": "وَأَمَّا زَوْجَةُ سَيِّدِي فَإِنَّهَا قَلَبَتْ مَتَاعَ الْبَيْتِ بَعْضَهُ عَلَى بَعْضٍ وَأَخْرَبَتْ رُفُوفَهُ وَكَسَرَتْ طَيْقَانَهُ وَشَبَابِيكَهُ وَسَخَّمَتْ حِيطَانَهُ بِطِينٍ وَنِيلَةٍ",

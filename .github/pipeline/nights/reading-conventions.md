@@ -102,6 +102,36 @@ candidate, as the pilot does for ورحاق.
 
 Notes address the reader, not the editor, and carry no house business.
 
+## Misprints are corrected, the print's reading goes in the note (owner's rule, 2026-11-06)
+
+The reading text does not carry the compositor's errors. Where the print has a clear misprint —
+one the sense allows only one way to read: a misplaced or missing dot (ل/د, ب/ي, ن/ت, ق/ف), a
+dropped or extra letter (السطان, فووجدوا), a word or phrase set twice (لهم لهم), a misnumbered
+night — the story's `t` carries the corrected word, vocalised, and `tr`, `l` and `i` follow it.
+The unit's note opens with the print's reading: "The print has X, a misprint for Y, corrected
+here." (for a repeat: "The print sets X twice running; the repeat is dropped here."). Do not
+also say the letters are kept: they are not.
+
+What stays as printed:
+- **Middle Arabic and the edition's spelling habits** — قل/قلت for قال/قالت, ثلثة, شي, ه for ة,
+  ى for ي, missing hamza. These are the language and orthography of the text, noted the usual
+  way. (اى for الى is different: the lām is lost and the word becomes another word, so it is a
+  misprint and is corrected.)
+- **Doubtful readings** — where the run thinks a word is probably wrong but more than one reading
+  is possible, or the reading is a guess. Keep the print, vocalise by the likeliest sense, and
+  say so in the note, as before.
+- **Word spacing** — run-together and split words stay as the print sets them.
+
+**The archive is never changed.** Each correction is listed in `emend.json` beside this file:
+
+    {"ref": "P470L01", "print": "المثمانين", "read": "الثمانين", "night": 80, "why": "misprint"}
+
+`print` and `read` are bare letters (strip the marks from the archive word and from your corrected
+word); `read` is `""` for a dropped repeat; add `"nth": 2` when the printed word occurs more than
+once on that archived line and the second is meant. `check_slice.py` and `validate_night.py` apply
+these entries before comparing, so a listed correction passes and an unlisted change still fails.
+Add the entries before running the checks. The corrected word needs its own glossary entry.
+
 ## Glossary — shared, morphemic
 
 Every unique word form, in the **shared** `nights-glossary.json` at the repository root, reached

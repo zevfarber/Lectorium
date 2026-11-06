@@ -11,7 +11,7 @@
  "work": "الف ليلة وليلة",
  "workEn": "The Thousand and One Nights",
  "part": "Night 43 · The Merchant and His Sons, continued",
- "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 344–347 (Night 43, continuing directly from nights-42), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the editors' own transcription. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition's — and the alphabet button strips it back to the bare rasm exactly as Macnaghten prints it. Romanization is simplified IJMES. Spelling, including the edition's Middle Arabic forms and its occasional compositor's slips, is preserved unaltered; a few genuinely obscure or corrupt-looking forms are vocalized by evident sense and flagged in the notes rather than silently repaired. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized by machine, with word-by-word timing generated the same way.",
+ "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 344–347 (Night 43, continuing directly from nights-42), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the editors' own transcription. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition's — and the alphabet button strips it back to the bare rasm as Macnaghten prints it, except where a clear misprint has been corrected (each is noted). Romanization is simplified IJMES. Spelling, including the edition’s Middle Arabic forms, is preserved; clear misprints are corrected in the text, and the note on each gives the print’s reading. Obscure or doubtful forms are kept as printed, vocalized by evident sense and flagged in the notes. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized by machine, with word-by-word timing generated the same way.",
  "about": "Night 43 follows Qūt al-Qulūb, who after eighty days in the dark chamber is overheard by the Caliph reciting verses in praise of Ghānim; she wins leave to search for him, gives alms in the markets, and is led to a sick stranger lying in a market-chief's house without recognising him. The chief then brings her a mother and daughter in sackcloth, who prove to be Ghānim's own mother and sister. Shahrazād is overtaken by morning. As with every printed edition of the Nights, this one belongs to the late Egyptian recension (ZER) — an eighteenth-century expansion padded out to a literal 1001 nights; no printed edition is a medieval text, and Macnaghten regularised the language here and there, so some Middle Arabic texture is a nineteenth-century retrofit.",
  "glossaryFile": "nights-glossary.json",
  "sentences": [
@@ -22,11 +22,11 @@
    "i": "When the forty-third night came,"
   },
   {
-   "t": "قَالَتْ بَلَغَنِي أَيُّهَا لْمَلِكُ السَّعِيدُأَنَّ قُوتَ الْقُلُوبِ لَمَّا غَضِبَ عَلَيْهَا الْخَلِيفَةُ وَأَسْكَنَهَا فِى الْمَكَانِ الْمُظْلِمِ وَتَمَّتْ عَلَى هَذَا الْحَالِ ثَمَانِينَ يَوْمًا",
+   "t": "قَالَتْ بَلَغَنِي أَيُّهَا الْمَلِكُ السَّعِيدُأَنَّ قُوتَ الْقُلُوبِ لَمَّا غَضِبَ عَلَيْهَا الْخَلِيفَةُ وَأَسْكَنَهَا فِى الْمَكَانِ الْمُظْلِمِ وَتَمَّتْ عَلَى هَذَا الْحَالِ ثَمَانِينَ يَوْمًا",
    "tr": "qālat balaghanī ayyuhā al-maliku al-saʿīdu anna Qūta al-Qulūbi lammā ghaḍiba ʿalayhā al-khalīfatu wa-askanahā fī al-makāni al-muẓlimi wa-tammat ʿalā hādhā al-ḥāli thamānīna yawman",
    "l": "She-said: It-has-reached-me, O the-king the-fortunate-that Qūt al-Qulūb, when became-angry at-her the-caliph and-lodged-her in the-place the-dark, and-continued upon this the-state eighty day-(acc.).",
    "i": "She said: It has reached me, O fortunate king, that when the Caliph grew angry with Qūt al-Qulūb and lodged her in the dark place, she remained in that condition for eighty days.",
-   "n": "The print gives لملك for الملك (the alif is dropped), read al-malik; we point the word as printed, لْمَلِكُ. It also runs السعيد and أن together into one word, السعيدان; we keep the printed letters but read saʿīdu anna. Likewise فى is printed with a dotless ى, read fī."
+   "n": "The print has لملك, a misprint for الملك, corrected here. It also runs السعيد and أن together into one word, السعيدان; we keep the printed letters but read saʿīdu anna. Likewise فى is printed with a dotless ى, read fī."
   },
   {
    "t": "فَاتَّفَقَ أَنَّ الْخَلِيفَةَ مَرَّ يَوْمًا مِنَ الْأَيَّامِ عَلَى ذَلِكَ الْمَكَانِ فَسَمِعَ قُوتَ الْقُلُوبِ تُنْشِدُ الْأَشْعَارَ",
@@ -237,11 +237,11 @@
    "n": "She hears of a stranger in distress and suspects it is Ghānim. أحشاء, 'entrails, innards', is the seat of deep feeling in Arabic, as 'heart' is in English; I keep the physical word."
   },
   {
-   "t": "فَقَالَتْ لَهُ أَسِلْ مَعِي مَنْ يُوصِلُنِي إِلَى دَارِكَ",
-   "tr": "fa-qālat lahu asil maʿī man yūṣilunī ilā dārika",
+   "t": "فَقَالَتْ لَهُ أَرْسِلْ مَعِي مَنْ يُوصِلُنِي إِلَى دَارِكَ",
+   "tr": "fa-qālat lahu arsil maʿī man yūṣilunī ilā dārika",
    "l": "And-she-said to-him: (Send) with-me one-who will-bring-me to your-house.",
    "i": "Then she said to him: Send someone with me to bring me to your house.",
-   "n": "اسل is printed; it can only be a slip for ارسل (arsil), 'send', with the ر dropped, since the next sentence has فأرسل. I point it as printed, أَسِلْ, and translate 'send'."
+   "n": "The print has اسل, a misprint for أرسل, corrected here."
   },
   {
    "t": "فَأَرْسَلَ مَعَهَا صَبِيًّا صَغِيرًا فَأَوْصَلَهَا إِلَى الدَّارِ الَّتِي فِيهَا الْغَرِيبُ لِلْعَرِيفِ",

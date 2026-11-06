@@ -11,7 +11,7 @@
  "work": "الف ليلة وليلة",
  "workEn": "The Thousand and One Nights",
  "part": "Night 30 · The Tailor's Tale, continued",
- "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 239–247 (Night 30, continuing directly from nights-29), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the editors' own transcription. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition's — and the alphabet button strips it back to the bare rasm exactly as Macnaghten prints it. Romanization is simplified IJMES. Spelling, including the edition's Middle Arabic forms and its occasional compositor's slips, is preserved unaltered; a few genuinely obscure or corrupt-looking forms are vocalized by evident sense and flagged in the notes rather than silently repaired. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized by machine, with word-by-word timing generated the same way.",
+ "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 239–247 (Night 30, continuing directly from nights-29), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the editors' own transcription. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition's — and the alphabet button strips it back to the bare rasm as Macnaghten prints it, except where a clear misprint has been corrected (each is noted). Romanization is simplified IJMES. Spelling, including the edition’s Middle Arabic forms, is preserved; clear misprints are corrected in the text, and the note on each gives the print’s reading. Obscure or doubtful forms are kept as printed, vocalized by evident sense and flagged in the notes. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized by machine, with word-by-word timing generated the same way.",
  "about": "Night 30 continues the lame young man's story to the Tailor's company. The barber, who calls himself al-Ṣāmit ('the Silent') though he talks without end, recalls how the young man's father once paid him a hundred and three dinars for a poem, and keeps shaving, sharpening his razor and consulting his astrolabe while the young man frets about missing his tryst. He wrangles his way into the young man's feast, lists the grotesque friends he would rather dine with, and finally, left behind, tracks his master to the judge's house; there his shouting brings the young man's household and a crowd to the door, crying that their master has been killed. The night ends mid-scene as the judge asks what he has done. Verse is copied as printed. As with every printed edition of the Nights, this one belongs to the late Egyptian recension (ZER) — an eighteenth-century expansion padded out to a literal 1001 nights; no printed edition is a medieval text, and Macnaghten regularised the language here and there, so some of the Middle Arabic texture is a nineteenth-century retrofit.",
  "glossaryFile": "nights-glossary.json",
  "sentences": [
@@ -323,11 +323,11 @@
    "n": "عَرَفَ بِـ, \"know of, be aware of\", is a looser construction than the Classical direct object."
   },
   {
-   "t": "فَإِنَّ يَدِي تَقَعُ عَلَى رُوُسِ الْمُلُوكِ وَالْأُمَرَاءِ وَالْوُزَرَاءِ وَالْحُكَمَاءِ وَالنُّضَلَاءِ",
-   "tr": "fa-inna yadī taqaʿu ʿalā ruʾūsi al-mulūki wa-al-umarāʾi wa-al-wuzarāʾi wa-al-ḥukamāʾi wa-al-nuḍalāʾi",
+   "t": "فَإِنَّ يَدِي تَقَعُ عَلَى رُوُسِ الْمُلُوكِ وَالْأُمَرَاءِ وَالْوُزَرَاءِ وَالْحُكَمَاءِ وَالْفُضَلَاءِ",
+   "tr": "fa-inna yadī taqaʿu ʿalā ruʾūsi al-mulūki wa-al-umarāʾi wa-al-wuzarāʾi wa-al-ḥukamāʾi wa-al-fuḍalāʾi",
    "l": "For my hand falls upon the heads of the kings and the emirs and the viziers and the sages and the nuḍalāʾ.",
    "i": "For my hand falls upon the heads of kings, emirs, viziers, sages and the learned.",
-   "n": "روس is printed without the hamza (ruʾūs, \"heads\"), as in the verse below. النضلاء looks like a misprint for الفضلاء, \"the learned, the eminent\" (nūn for fāʾ); it is pointed here as printed, on that assumption, and translated as the word that was probably meant."
+   "n": "The print has والنضلاء, a misprint for والفضلاء, corrected here. روس is printed without the hamza (ruʾūs, \"heads\"), as in the verse below."
   },
   {
    "t": "وَ فِي قَالَ الشَّاعِرُ شِعْرٌ",
@@ -792,11 +792,11 @@
    "n": "أَنَالَيْهِ is أَنَا إِلَيْهِ, 'I to it': the relative clause repeats the pronoun instead of dropping it, and the alif of إِلَى has fallen away in the run-together spelling. غَيْرِى ends in the dotless yā' the edition often uses for the final -ī here."
   },
   {
-   "t": "فَقَالَ أَظُنُّكَ الْيَوْمَ فِي مِيعَادِ وَاحِدَةٍ وَإِلَّا كُنْتَ تَأْخُذُنِي مَعَكَ وَأَنَا أَحَقُّ مِنْ جَمِيعِ النَّاسِ وَأُسَاعِلُكَ عَلَى مَا تُرِيدُ",
-   "tr": "fa-qāla aẓunnuka al-yawma fī mīʿādi wāḥidatin wa-illā kunta taʾkhudhunī maʿaka wa-anā aḥaqqu min jamīʿi al-nāsi wa-usāʿiluka ʿalā mā turīdu",
+   "t": "فَقَالَ أَظُنُّكَ الْيَوْمَ فِي مِيعَادِ وَاحِدَةٍ وَإِلَّا كُنْتَ تَأْخُذُنِي مَعَكَ وَأَنَا أَحَقُّ مِنْ جَمِيعِ النَّاسِ وَأُسَاعِدُكَ عَلَى مَا تُرِيدُ",
+   "tr": "fa-qāla aẓunnuka al-yawma fī mīʿādi wāḥidatin wa-illā kunta taʾkhudhunī maʿaka wa-anā aḥaqqu min jamīʿi al-nāsi wa-usāʿiduka ʿalā mā turīdu",
    "l": "So he-said: \"I-suppose-you today to-be at an-appointment of one [woman], and otherwise you-would-have-taken me with-you, and I am more-deserving than all the people, and I-would-help-you in what you-want.\"",
    "i": "He said, \"I suspect you have a rendezvous with some woman today; otherwise you would take me with you, for I have more right than anyone, and I could help you in whatever you want.\"",
-   "n": "مِيعَادِ وَاحِدَةٍ is 'the appointment of one (woman)': the feminine واحدة stands for a woman, as the barber's next remark about a foreign woman confirms. This is my reading of an elliptical phrase. وَأُسَاعِلُكَ is probably a misprint for وَأُسَاعِدُكَ, 'and I would help you' (ل for د); I keep the printed letter and vocalise it as if it were a verb of the same pattern. وَإِلَّا is 'if not, otherwise'."
+   "n": "The print has واساعلك, a misprint for وأساعدك, corrected here. مِيعَادِ وَاحِدَةٍ is 'the appointment of one (woman)': the feminine واحدة stands for a woman, as the barber's next remark about a foreign woman confirms. This is my reading of an elliptical phrase. وَإِلَّا is 'if not, otherwise'."
   },
   {
    "t": "فَإِنِّي أَخَافُ أَنْ تَدْخُلَ عَلَى اِمْرَأَةٍ أَجْنَبِيَّةٍ فَتَرُوحَ رُوحُكَ",
@@ -941,11 +941,11 @@
    "i": "Then his manservant came in to free her; he struck him as well, and the other cried out in turn."
   },
   {
-   "t": "فَاعْتَقَلَ الْمُزَيِّنُ الْمَلْعُونُ أَنَّهُ يَضْرِبُنِي فَصَاحَ وَخَرَقَ أَثْوَابَهُ وَحَثَا التُّرَابَ عَلَى رَأسِهِ وَبَقِيَ يَصْرُخُ وَيَسْتَغِيثُ وَالنَّاسُ حَوْلَهُ وَهُوَ يَقُولُ قُتِلَ سَيِّدِي فِي بَيْتِ الْقَاضِي",
-   "tr": "fa-iʿtaqala al-muzayyinu al-malʿūnu annahu yaḍribunī fa-ṣāḥa wa-kharaqa athwābahu wa-ḥathā al-turāba ʿalā raʾsihi wa-baqiya yaṣrukhu wa-yastaghīthu wa-al-nāsu ḥawlahu wa-huwa yaqūlu qutila sayyidī fī bayti al-qāḍī",
+   "t": "فَاعْتَقَدَ الْمُزَيِّنُ الْمَلْعُونُ أَنَّهُ يَضْرِبُنِي فَصَاحَ وَخَرَقَ أَثْوَابَهُ وَحَثَا التُّرَابَ عَلَى رَأسِهِ وَبَقِيَ يَصْرُخُ وَيَسْتَغِيثُ وَالنَّاسُ حَوْلَهُ وَهُوَ يَقُولُ قُتِلَ سَيِّدِي فِي بَيْتِ الْقَاضِي",
+   "tr": "fa-iʿtaqada al-muzayyinu al-malʿūnu annahu yaḍribunī fa-ṣāḥa wa-kharaqa athwābahu wa-ḥathā al-turāba ʿalā raʾsihi wa-baqiya yaṣrukhu wa-yastaghīthu wa-al-nāsu ḥawlahu wa-huwa yaqūlu qutila sayyidī fī bayti al-qāḍī",
    "l": "So the-barber, the-cursed, held (that) he is-beating me; and he-cried-out, and tore his garments, and threw the-dust upon his head, and kept crying-out and calling-for-help, with-the-people around him, he saying: My-master has-been-killed in the-house of-the-judge.",
    "i": "The accursed barber got it into his head that the man was beating me, and he screamed, and tore his clothes, and flung dust on his head, and went on shrieking and calling for help, with the crowd all about him, crying: My master has been killed in the judge's house!",
-   "n": "اعْتَقَلَ as printed means 'to seize, to hold fast', which does not fit here. The sense wanted is اعْتَقَدَ, 'to hold an opinion, to come to believe', so this is probably a misprint of د as ل; it is pointed as printed and translated by the sense. The gestures of mourning, tearing the clothes and throwing dust on the head, recur through the tale. The barber's cry is a deliberate false alarm: he takes the fall of blows in the judge's house to mean that his master is being murdered."
+   "n": "The print has فاعتقل, a misprint for فاعتقد, corrected here. The gestures of mourning, tearing the clothes and throwing dust on the head, recur through the tale. The barber's cry is a deliberate false alarm: he takes the fall of blows in the judge's house to mean that his master is being murdered."
   },
   {
    "t": "ثُمَّ مَضَى إِلَى دَارِي وَهُوَ يَصِيحُ وَالنَّاسُ خَلْفَهُ وَأَعْلَمَ أَهْلَ بَيْتِي وَغِلْمَانِي",

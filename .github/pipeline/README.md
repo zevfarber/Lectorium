@@ -32,6 +32,19 @@ Rules that apply to every run, whatever the work:
    changes. Record each correction (work, line, mark added, parts re-pinned) in the work's `LOG.md`.
    The owner approved this on 2026-10-06 (first cases: Odyssey 16.185 and 17.146); the run does not
    need to ask, and does not need to stop. A defect that is not punctuation still goes to `QUESTIONS.md`.
+5b. **Clear misprints in the source are corrected in the reading text** (owner's rule,
+   2026-11-06, for every text). Where the printed edition or manuscript has an error the sense
+   allows only one way to read — a wrong or misplaced letter, a dropped letter, a word set twice,
+   a misnumbered section — the reader sees the corrected text, and that unit's note opens with the
+   print's reading ("The print has X, a misprint for Y, corrected here."). This overrides any
+   "keep exactly as printed" rule in a work's conventions for misprints. It does not cover the
+   source's own language or spelling habits (dialect forms, old orthography, an edition's
+   consistent abbreviations), and it does not cover doubtful readings: where more than one reading
+   is possible or the correction is a guess, keep the print and say so in the note. Never change
+   the archived or pinned source itself to make a correction; record it where the work's checks
+   expect it (the Nights: `nights/emend.json`), or, where a work has no such list yet, in the
+   work's `QUESTIONS.md` with the correction and the place, and publish the part with the
+   correction in the text if its checks allow, otherwise as printed with the note.
 6. Audio for modern languages is built by `.github/workflows/audio.yml` on the runner when a root
    `*.json` is pushed; ancient-language audio is a separate phase per work.
 7. **If a piece can't be done, set it aside and keep going** (owner's standing rule, 2026-10-16).

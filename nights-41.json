@@ -11,7 +11,7 @@
  "work": "الف ليلة وليلة",
  "workEn": "The Thousand and One Nights",
  "part": "Night 41 · The Merchant and His Sons, continued",
- "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 332–340 (Night 41, continuing directly from nights-40), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the editors' own transcription. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition's — and the alphabet button strips it back to the bare rasm exactly as Macnaghten prints it. Romanization is simplified IJMES. Spelling, including the edition's Middle Arabic forms and its occasional compositor's slips, is preserved unaltered; a few genuinely obscure or corrupt-looking forms are vocalized by evident sense and flagged in the notes rather than silently repaired. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized by machine, with word-by-word timing generated the same way.",
+ "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 332–340 (Night 41, continuing directly from nights-40), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the editors' own transcription. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition's — and the alphabet button strips it back to the bare rasm as Macnaghten prints it, except where a clear misprint has been corrected (each is noted). Romanization is simplified IJMES. Spelling, including the edition’s Middle Arabic forms, is preserved; clear misprints are corrected in the text, and the note on each gives the print’s reading. Obscure or doubtful forms are kept as printed, vocalized by evident sense and flagged in the notes. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized by machine, with word-by-word timing generated the same way.",
  "about": "Night 41 follows Ghānim ibn Ayyūb and the drugged girl he has rescued from the chest. She is Qūt al-Qulūb, the Caliph's favourite, drugged by Zubayda's jealousy; she and Ghānim fall in love, but for months he refuses her, because what belongs to his master is forbidden to a servant. Meanwhile Zubayda, on an old woman's advice, stages the girl's death with a wooden effigy and a mock funeral, and the returning Caliph mourns at the grave. Shahrazād is overtaken by morning while he sits weeping. As with every printed edition of the Nights, this one belongs to the late Egyptian recension (ZER) — an eighteenth-century expansion padded out to a literal 1001 nights; no printed edition is a medieval text, and Macnaghten regularised the language here and there, so some Middle Arabic texture is a nineteenth-century retrofit.",
  "glossaryFile": "nights-glossary.json",
  "sentences": [
@@ -554,11 +554,11 @@
    "n": "جميع ما يحتاج إليه الأمر is literally “all that the matter needs”, i.e. everything the occasion (here, the keeping of the house) calls for; the translation fills in “bought” from أخذ “took”."
   },
   {
-   "t": "وَجَاءَ اِى الْبَيْتِ فَوَجَدَ قُوتَ الْقُلُوبِ نَبْكِي",
-   "tr": "wa-jāʾa ilā al-bayti fa-wajada Qūta al-Qulūbi nabkī",
+   "t": "وَجَاءَ إِلَى الْبَيْتِ فَوَجَدَ قُوتَ الْقُلُوبِ تَبْكِي",
+   "tr": "wa-jāʾa ilā al-bayti fa-wajada Qūta al-Qulūbi tabkī",
    "l": "and-came to the-house and-found Qūt al-Qulūb weeping.",
    "i": "and came back to the house, and found Qūt al-Qulūb in tears.",
-   "n": "Two printer's slips. اى stands for الى (ilā, “to”) with its lām dropped; read ilā. And نبكي, as printed, begins with nūn (“we weep”), but the sense requires tabkī, “she weeps”; the nūn is evidently a misprint for tāʾ. The vocalisation نَبْكِي keeps the printed letter; read it as tabkī."
+   "n": "The print has اى, a misprint for إلى, corrected here. The print has نبكي, a misprint for تبكي, corrected here."
   },
   {
    "t": "فَلَمَّا أَنْ رَأَتْهُ بَطَّلَتِ الْبُكَاءَ وَتَبَسَّمَتْ وَقَالَتْ لَهُ",
@@ -568,11 +568,11 @@
    "n": "لما ان (lammā an) has a redundant أن after لمّا, a common Middle Arabic habit. بطّلت (baṭṭalat, Form II, “to put a stop to”) is chosen for بطلت; the plain baṭalat (“became void”) does not take an object."
   },
   {
-   "t": "أَوْحَشْتَنِي بَا مَحْبُوبَ قَلْبِي وَاللَّهِ إِنَّ هَذِهِ السَّاعَةَ الَّتِي غِبْتَهَا عَنِّي كَسَنَةٍ مِنْ أَجْلِ فِرَاقِكَ",
-   "tr": "awḥashtanī bā maḥbūba qalbī wa-Allāhi inna hādhihi al-sāʿata allatī ghibtahā ʿannī ka-sanatin min ajli firāqika",
+   "t": "أَوْحَشْتَنِي يَا مَحْبُوبَ قَلْبِي وَاللَّهِ إِنَّ هَذِهِ السَّاعَةَ الَّتِي غِبْتَهَا عَنِّي كَسَنَةٍ مِنْ أَجْلِ فِرَاقِكَ",
+   "tr": "awḥashtanī yā maḥbūba qalbī wa-Allāhi inna hādhihi al-sāʿata allatī ghibtahā ʿannī ka-sanatin min ajli firāqika",
    "l": "You-made-me-desolate, O beloved-one of-my-heart! By-God, that this the-hour which you-were-absent-it from-me is like-a-year, on-account of your-parting.",
    "i": "I have been desolate without you, beloved of my heart! By God, the hour you were away from me has been like a year, so hard was it to be parted from you.",
-   "n": "با (bā) for يا (yā, “O”) is a misprint of the vocative particle; read yā maḥbūba qalbī. أوحشتني (awḥashtanī, “you left me desolate, I missed you”) is the usual way to say “I missed you”. غبتها عني: the hour is an accusative of time, “the hour (during which) you were absent from me”."
+   "n": "The print has با, a misprint for يا, corrected here. أوحشتني (awḥashtanī, “you left me desolate, I missed you”) is the usual way to say “I missed you”. غبتها عني: the hour is an accusative of time, “the hour (during which) you were absent from me”."
   },
   {
    "t": "وَهَا أَنَا قَدْ بَيَّنْتُ لَكَ حَالِي مِنْ شِدَّةِ وَلَعِي بِكَ فَقُمْ بِنَا الْآنَ وَدَعْ مَا كَانَ وَاقْضِ أَرَبَكَ مِنِّي",
@@ -658,11 +658,11 @@
    "n": "لاننام is printed as one word, لا ننام (lā nanāmu, “we do not sleep”). النمط (al-namaṭ) is “way, manner, fashion”; the same word also means a kind of covering or carpet."
   },
   {
-   "t": "وَكُلُّ شَيْءٍ كَانَ الْمَسِيدِ فَهُوَ عَلَى الْعَبْدِ حَرَامٌ",
-   "tr": "wa-kullu shayʾin kāna al-masīdi fa-huwa ʿalā al-ʿabdi ḥarāmun",
+   "t": "وَكُلُّ شَيْءٍ كَانَ لِلسَّيِّدِ فَهُوَ عَلَى الْعَبْدِ حَرَامٌ",
+   "tr": "wa-kullu shayʾin kāna li-al-sayyidi fa-huwa ʿalā al-ʿabdi ḥarāmun",
    "l": "and-every thing that-was the-masīd, then-it is upon the-slave forbidden.",
    "i": "for whatever belongs to the master is forbidden to the slave.",
-   "n": "المسيد is evidently a misprint for للسيد (li-al-sayyid, “to the master”, as the same saying is printed correctly further on); it is vocalised as printed and read “belongs to the master”. The saying is the one Ghānim has already used."
+   "n": "The print has المسيد, a misprint for للسيد, corrected here. The saying is the one Ghānim has already used."
   },
   {
    "t": "فَقَالَتْ لَهُ يَا سَيِّدِي دَعْنَا مِنْ هَذَا وَكُلُّ شَيْءٍ يَجْرِي بِقَضَاءٍ وَقَدَرٍ",

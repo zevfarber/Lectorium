@@ -11,7 +11,7 @@
  "work": "الف ليلة وليلة",
  "workEn": "The Thousand and One Nights",
  "part": "Night 78 · King ʿUmar ibn al-Nuʿmān, continued",
- "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 465–467 (Night 78, continuing directly from nights-77), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the editors' own transcription. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition's — and the alphabet button strips it back to the bare rasm exactly as Macnaghten prints it. Romanization is simplified IJMES. Spelling, including the edition's Middle Arabic forms and its occasional compositor's slips, is preserved unaltered; a few genuinely obscure or corrupt-looking forms are vocalized by evident sense and flagged in the notes rather than silently repaired. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized by machine, with word-by-word timing generated the same way.",
+ "source": "William Hay Macnaghten, ed., The Alif Laila, or Book of the Thousand Nights and One Night, vol. 1, Calcutta 1839 (“Calcutta II”), printed pp. 465–467 (Night 78, continuing directly from nights-77), transcribed from the 300 ppi scan (archive.org aliflailaorbooko01macn) by the editors' own transcription. The edition prints the prose essentially unpointed: ALL VOCALIZATION (tashkīl) IS EDITORIAL — ours, not the edition's — and the alphabet button strips it back to the bare rasm as Macnaghten prints it, except where a clear misprint has been corrected (each is noted). Romanization is simplified IJMES. Spelling, including the edition’s Middle Arabic forms, is preserved; clear misprints are corrected in the text, and the note on each gives the print’s reading. Obscure or doubtful forms are kept as printed, vocalized by evident sense and flagged in the notes. Read-aloud audio is a Modern Standard Arabic reading of this vocalised text, synthesized by machine, with word-by-word timing generated the same way.",
  "about": "Night 78 continues the tale of King ʿUmar ibn al-Nuʿmān. Ḍawʾ al-Makān, now sultan, is met by the armies of Baghdad and Khurasan under the vizier Dandān, who file past him ten by ten and swear loyalty. He keeps the army in camp ten days, and has Dandān tell the story of his father's death, with his sister Nuzhat al-Zamān listening behind a curtain; the vizier begins with the old devout woman who came to King ʿUmar with five learned slave-girls. As with every printed edition of the Nights, this one belongs to the late Egyptian recension (ZER) — an eighteenth-century expansion padded out to a literal 1001 nights; no printed edition is a medieval text, and Macnaghten regularised the language here and there, so some Middle Arabic texture is a nineteenth-century retrofit.",
  "glossaryFile": "nights-glossary.json",
  "sentences": [
@@ -82,11 +82,11 @@
    "n": "The print joins مثل ما فعل into مثل مافعل."
   },
   {
-   "t": "وَلَمْ يَزَالُوا يَدْخُلُونَ عَشَرَةً بَعْدَ عَشَرَةٍ حَتَّى لَمْ بَيْقَ غَيْرُ الْوَزِيرِ دَنْدَانَ فَدَخَلَ عَلَيْهِ وَقَبَّلَ الْأَرْضَ بَيْنَ يَدَيْهِ فَقَامَ إِلَيْهِ ضَوْءُ الْمَكَانِ وَأَقْبَلَ عَلَيْهِ وَقَالَ لَهُ",
-   "tr": "wa-lam yazālū yadkhulūna ʿasharatan baʿda ʿasharatin ḥattā lam bayqa ghayru al-wazīri dandāna fa-dakhala ʿalayhi wa-qabbala al-arḍa bayna yadayhi fa-qāma ilayhi ḍawʾu al-makāni wa-aqbala ʿalayhi wa-qāla lahu",
+   "t": "وَلَمْ يَزَالُوا يَدْخُلُونَ عَشَرَةً بَعْدَ عَشَرَةٍ حَتَّى لَمْ يَبْقَ غَيْرُ الْوَزِيرِ دَنْدَانَ فَدَخَلَ عَلَيْهِ وَقَبَّلَ الْأَرْضَ بَيْنَ يَدَيْهِ فَقَامَ إِلَيْهِ ضَوْءُ الْمَكَانِ وَأَقْبَلَ عَلَيْهِ وَقَالَ لَهُ",
+   "tr": "wa-lam yazālū yadkhulūna ʿasharatan baʿda ʿasharatin ḥattā lam yabqa ghayru al-wazīri dandāna fa-dakhala ʿalayhi wa-qabbala al-arḍa bayna yadayhi fa-qāma ilayhi ḍawʾu al-makāni wa-aqbala ʿalayhi wa-qāla lahu",
    "l": "And they did not cease entering, ten after ten, until none remained but the vizier Dandān; and he entered upon him and kissed the ground between his hands, and Ḍawʾ al-Makān rose to him and turned to him and said to him:",
    "i": "They went on coming in, ten after ten, until no one was left but the vizier Dandān. He went in and kissed the ground before him, and Ḍawʾ al-Makān rose to meet him, turned to him, and said:",
-   "n": "The print has لم بيق where لم يبق (“none remained”) is meant; the ب is read as a slip for ي."
+   "n": "The print has بيق, a misprint for يبق, corrected here."
   },
   {
    "t": "مَرْحَباً بِالْوَزِيرِ وَالْوَالِدِ الْكَبِيرَأَنَّ فِعْلَكَ فِعْلُ الْمُشِيرِ الْعَزِيزِ وَالتَّدْبِيرُ بِيَدِ اللَّطِيفِ الْخَبِيرِ",
@@ -144,11 +144,11 @@
    "i": "She answered, “I do not know why he was killed.”"
   },
   {
-   "t": "ثُمَّ إِنَّهَا ضَرَبَتْ لَهَا سِتَارَةً مِنْ حَرِيرٍ وَجَلَسَ ضَوْءُ الْمَكَانِ خَارِجَ السِّنَارَةِ وَأَمَرَ بِإِحْضَارِ الْوَزِيرِ دَنْدَانَ فَحَضَرَ بَيْنَ يَدَيْهِ",
-   "tr": "thumma innahā ḍarabat lahā sitāratan min ḥarīrin wa-jalasa ḍawʾu al-makāni khārija al-sinārati wa-amara bi-iḥḍāri al-wazīri dandāna fa-ḥaḍara bayna yadayhi",
+   "t": "ثُمَّ إِنَّهَا ضَرَبَتْ لَهَا سِتَارَةً مِنْ حَرِيرٍ وَجَلَسَ ضَوْءُ الْمَكَانِ خَارِجَ السِّتَارَةِ وَأَمَرَ بِإِحْضَارِ الْوَزِيرِ دَنْدَانَ فَحَضَرَ بَيْنَ يَدَيْهِ",
+   "tr": "thumma innahā ḍarabat lahā sitāratan min ḥarīrin wa-jalasa ḍawʾu al-makāni khārija al-sitārati wa-amara bi-iḥḍāri al-wazīri dandāna fa-ḥaḍara bayna yadayhi",
    "l": "Then she struck for herself a curtain of silk, and Ḍawʾ al-Makān sat outside the curtain, and commanded the bringing of the vizier Dandān, and he came between his hands.",
    "i": "Then she had a silk curtain hung for herself, and Ḍawʾ al-Makān sat outside the curtain and sent for the vizier Dandān, who came and stood before him.",
-   "n": "The second time the word appears the print has السنارة, a misprint for الستارة (“the curtain”); it is read as the curtain."
+   "n": "The print has السنارة, a misprint for الستارة, corrected here."
   },
   {
    "t": "فَقَالَ لَهُ أُرِيدَأَنْ تُخْبِرَنِي تَفْصِيلاً بِسَبَبِ قَتْلِ أَبِي الْمَلِكِ عُمَرَ بْنِ النُّعْمَانِ",

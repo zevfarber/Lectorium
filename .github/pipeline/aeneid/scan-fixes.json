@@ -773,5 +773,248 @@
    "1Dar–da⏑ni⏑2dae×"
   ],
   "why": "Half-line (hemistich), one of Virgil's unfinished lines: Dar-dă-nĭ | dae, a dactyl and one syllable, the last marked × as the end of the line. There is no hexameter to fit; the scanner returns UNRESOLVED."
+ },
+ "1.562": {
+  "sc": [
+   "1Sol–vi⏑te⏑",
+   "2cor–de⏑",
+   "me⏑3tum–‖",
+   "Teu–4cri–",
+   "se–5clu–di⏑te⏑",
+   "6cu–ras×"
+  ],
+  "why": "Teu- is one long syllable (Greek eu): Sōl-vĭ-tĕ | cōr-dĕ mĕ | tūm Teū | crī sē | clū-dĭ-tĕ | cū-rās. The scanner split Teucri into Te-u and gave tum a dactyl."
+ },
+ "1.576": {
+  "sc": [
+   "1ad–fo⏑ret⏑",
+   "2Ae–ne–3as–‖",
+   "E⏑qui⏑4dem–",
+   "per–",
+   "5li–to⏑ra⏑",
+   "6cer–tos×"
+  ],
+  "why": "Aeneas is three syllables, Ae-nē-ās, not A-e-ne-as: ad-fŏ-rĕt | Aē-nē | ās Ĕ-quĭ | dem per | lī-tŏ-ră | cer-tos. The scanner's fit made the final -as short and Equidem long."
+ },
+ "1.580": {
+  "sc": [
+   "1et–",
+   "pa⏑ter⏑",
+   "2Ae–ne–3as–‖",
+   "iam–4du–dum",
+   "e–5rum–pe⏑re⏑",
+   "6nu–bem×"
+  ],
+  "why": "Aeneas is three syllables, Ae-nē-ās: et pă-tĕr | Aē-nē | ās iam | dū (dum) ē | rum-pĕ-rĕ | nū-bem. The scanner split Ae- in two (A-e-ne-as)."
+ },
+ "1.581": {
+  "sc": [
+   "1ar–de–2bant–",
+   "Pri⏑or⏑",
+   "3Ae–ne–4an–‖",
+   "com–5pel–lat⏑",
+   "A⏑6cha–tes×"
+  ],
+  "why": "Aenean is Ae-nē-an, three syllables: ar-dē | bant Prĭ-ŏr | Aē-nē | an com | pel-lăt Ă | chā-tes. The scanner split Ae- in two (A-e-ne-an)."
+ },
+ "1.588": {
+  "sc": [
+   "1Res–ti⏑tit⏑",
+   "2Ae–ne–3as–‖",
+   "cla–4ra–que",
+   "in–",
+   "5lu–ce⏑",
+   "re⏑6ful–sit×"
+  ],
+  "why": "Aeneas is three syllables, Ae-nē-ās: Res-tĭ-tĭt | Aē-nē | ās cla | rā (que) in | lū-cĕ rĕ | ful-sit. The scanner split Ae- in two."
+ },
+ "1.594": {
+  "sc": [
+   "1Tum–",
+   "sic–",
+   "2re–gi–nam",
+   "3ad–lo⏑qui⏑4tur–‖",
+   "cunc–5tis–que⏑",
+   "re⏑6pen–te×"
+  ],
+  "why": "rēgīna has long rē- and -gī-, and ădlŏquĭtur has short lo and qui: Tum sic | rē-gī(nam) | ad lŏ-quĭ | tur cunc | tīs-quĕ rĕ | pen-te. The scanner made gi short and lo, qui long, a valid line with three wrong quantities."
+ },
+ "1.596": {
+  "sc": [
+   "1Tro–i⏑us⏑",
+   "2Ae–ne–3as–‖",
+   "Ly⏑bi⏑4cis–",
+   "e–5rep–tus⏑",
+   "ab⏑",
+   "6un–dis×"
+  ],
+  "why": "Troius is three syllables (Trō-ĭ-ŭs), Aeneas is Ae-nē-ās, and ereptus has long ē-: Trō-ĭ-ŭs | Aē-nē | ās Lў-bĭ | cīs ē | rep-tŭs ăb | un-dis. COSTLY in the scanner, which made it Tro-ius and A-e-ne-as."
+ },
+ "1.598": {
+  "sc": [
+   "1quae–",
+   "nos–",
+   "2re–li⏑qui⏑3as–‖",
+   "Da⏑na⏑4um–",
+   "ter–5rae–que⏑",
+   "ma⏑6ris–que×"
+  ],
+  "why": "rēliquiās with long first syllable (as at 1.30) and four syllables, and Danaum with its two short syllables: quae nōs | rē-lĭ-quĭ | ās Dă-nă | um ter | rae-quĕ mă | ris-que. The scanner forced synizesis (reliqu-ias) and gave the line one dactyl too few."
+ },
+ "1.611": {
+  "sc": [
+   "1I–li⏑o⏑2ne–a⏑",
+   "pe⏑3tit–‖",
+   "dex–4tra–",
+   "lae–5va–que⏑",
+   "Se⏑6res–tum×"
+  ],
+  "why": "Ilionea in five syllables, Ī-lĭ-ŏ-nē-ă, with the Greek -ea left unreduced and the -e- long, is the only fit that keeps the present petit short (pĕ-tĭt): Ī-lĭ-ŏ | nē-ă pĕ | tit dex | tra lae | va-que Sĕ | res-tum. The scanner made nea one syllable and gave petit a long pe-."
+ },
+ "1.615": {
+  "sc": [
+   "1Quis–",
+   "te–",
+   "2na–te⏑",
+   "de⏑3a–‖",
+   "per–",
+   "4tan–ta⏑",
+   "pe⏑5ri–cu⏑la⏑",
+   "6ca–sus×"
+  ],
+  "why": "nāte has long na-, pĕrīcula has long -rī-, and tanta is neuter plural with short -a: Quis tē | nā-tĕ dĕ | ā per | tan-tă pĕ | rī-cŭ-lă | cā-sus. The scanner's fit (cost 0.6) made na short, ta and pe long: a valid line with four wrong quantities."
+ },
+ "1.617": {
+  "sc": [
+   "1Tu–ne",
+   "il–le",
+   "2Ae–ne–3as–‖",
+   "quem–",
+   "4Dar–da⏑ni⏑5o–",
+   "An–6chi–sae×"
+  ],
+  "why": "Hiatus: Dardanio is not elided before Anchisae (the long o stays long), and the line scans only so: Tūn(e) ill(e) | Aē-nē | ās quem | Dar-dă-nĭ | ō An | chī-sae. Tune and ille elide before the following vowel. The scanner (COSTLY 4.4) split Ae- in two and elided the o, making Anchisae four syllables (sa-e)."
+ },
+ "1.618": {
+  "sc": [
+   "1al–ma⏑",
+   "Ve⏑2nus–",
+   "Phry⏑gi⏑3i–‖",
+   "ge⏑nu⏑4it–",
+   "Si⏑mo⏑5en–tis⏑",
+   "ad⏑",
+   "6un–dam×"
+  ],
+  "why": "Simoentis is four syllables, Sĭ-mŏ-en-tis, with o and e not a diphthong, and the line is dactylic throughout: al-mă Vĕ | nus Phrў-gĭ | ī gĕ-nŭ | it Sĭ-mŏ | en-tis ăd | un-dam. The scanner took oe as a diphthong and made Si long, a valid line with wrong quantities."
+ },
+ "1.619": {
+  "sc": [
+   "1At–que",
+   "e⏑qui⏑2dem–",
+   "Teu–3crum–‖",
+   "me⏑mi⏑4ni–",
+   "Si–5do–na⏑",
+   "ve⏑6ni–re×"
+  ],
+  "why": "Teu- is one long syllable (Greek eu): At (que) ĕ-quĭ | dem Teu | crum mĕ-mĭ | ni Si | dō-nă vĕ | nī-re. The scanner split Teucrum into Te-u."
+ },
+ "1.625": {
+  "sc": [
+   "1Ip–se",
+   "hos–2tis–",
+   "Teu–3cros–‖",
+   "in–4sig–ni–",
+   "5lau–de⏑",
+   "fe⏑6re–bat×"
+  ],
+  "why": "Teu- is one long syllable (Greek eu), and ipse elides before hostis (h-): Ip(se) hos | tis Teu | cros in | sig-ni | lau-dĕ fĕ | rē-bat. The scanner split Teucros into Te-u and gave the line a spare dactyl."
+ },
+ "1.626": {
+  "sc": [
+   "1se–que",
+   "or–tum",
+   "2an–ti–3qua–‖",
+   "Teu–4cro–rum",
+   "ab–",
+   "5stir–pe⏑",
+   "vo⏑6le–bat×"
+  ],
+  "why": "Teu- is one long syllable (Greek eu); -que elides before ortum, -um before antiqua and Teucrorum before ab: sē (que) or | (tum) an-tī | qua Teu | crō (rum) ab | stir-pĕ vŏ | lē-bat. The scanner split Teucrorum into Te-u."
+ },
+ "1.631": {
+  "sc": [
+   "1Sic–",
+   "me⏑mo⏑2rat–",
+   "si⏑mul⏑",
+   "3Ae–ne–4an–‖",
+   "in–",
+   "5re–gi⏑a⏑",
+   "6du–cit×"
+  ],
+  "why": "Aenean is three syllables, Ae-nē-an (the only fit has long an before in): Sic mĕ-mŏ | rat sĭ-mŭl | Aē-nē | an in | rē-gĭ-ă | du-cit. The scanner split Ae- in two (A-e-ne-an)."
+ },
+ "1.633": {
+  "sc": [
+   "1Nec–",
+   "mi⏑nus⏑",
+   "2in–te⏑re⏑3a–‖",
+   "so⏑ci⏑4is–",
+   "ad–",
+   "5li–to⏑ra⏑",
+   "6mit–tit×"
+  ],
+  "why": "Carrier line, checked by hand (Nec mĭ-nŭs | in-tĕ-rĕ | ā sŏ-cĭ | is ad | lī-tŏ-ră | mit-tit). The scanner's fit is correct; the entry is needed only because this line shares a unit with the half-line 1.636, which the scanner cannot fit, and a unit with an unresolved line receives no sc at all."
+ },
+ "1.634": {
+  "sc": [
+   "1vi–gin–2ti–",
+   "tau–3ros–‖",
+   "mag–4no–rum",
+   "hor–5ren–ti⏑a⏑",
+   "6cen–tum×"
+  ],
+  "why": "Carrier line, checked by hand (vī-gin | tī tau | ros mag | nō (rum) hor | ren-tĭ-ă | cen-tum). The scanner's fit is correct; the entry is needed only because this line shares a unit with the half-line 1.636, which the scanner cannot fit, and a unit with an unresolved line receives no sc at all."
+ },
+ "1.635": {
+  "sc": [
+   "1ter–ga⏑",
+   "su⏑2um–",
+   "pin–3guis–‖",
+   "cen–4tum–",
+   "cum–",
+   "5ma–tri⏑bus⏑",
+   "6ag–nos×"
+  ],
+  "why": "Carrier line, checked by hand (ter-gă sŭ | um pin | guis cen | tum cum | mā-trĭ-bŭs | ag-nos). The scanner's fit is correct; the entry is needed only because this line shares a unit with the half-line 1.636, which the scanner cannot fit, and a unit with an unresolved line receives no sc at all."
+ },
+ "1.636": {
+  "sc": [
+   "1mu–ne⏑ra⏑",
+   "2lae–ti⏑ti⏑3am–que⏑",
+   "di⏑4i×"
+  ],
+  "why": "Half-line (hemistich), one of Virgil's unfinished lines: mū-nĕ-ră | laē-tĭ-tĭ | ām-quĕ dĭ- | ī, three dactyls and the long half of a fourth foot, the last syllable marked × as the end of the line. 'dii' is read as two syllables (dĭ-ī) whether it is the old genitive of dies or an alternative spelling of dei; the scanner returns UNRESOLVED."
+ },
+ "1.643": {
+  "sc": [
+   "1Ae–ne–2as–",
+   "ne⏑que",
+   "e⏑3nim–‖",
+   "pa⏑tri⏑4us–",
+   "con–5sis–te⏑re⏑",
+   "6men–tem×"
+  ],
+  "why": "Aeneas is three syllables, Ae-nē-ās, and neque elides before enim: Aē-nē | ās nĕ ĕ | nim pa-trĭ | us con | sis-tĕ-rĕ | men-tem. The scanner split Ae- in two (A-e-ne-as)."
+ },
+ "1.650": {
+  "sc": [
+   "1or–na–2tus–",
+   "Ar–3gi–vae",
+   "He⏑le⏑4nae–‖",
+   "quos–",
+   "5il–la⏑",
+   "My⏑6ce–nis×"
+  ],
+  "why": "ornātūs has long na- and long -tus, Argīvae elides before Helenae (h-), and Helena has two short syllables: or-nā | tūs Ar | gī (vae) Hĕ-lĕ | nae quos | il-lă My | cē-nis. The scanner made na and tus short and He, le long: a valid line with four wrong quantities."
  }
 }

@@ -105,3 +105,6 @@ publish without audio until the owner chooses. Do not build audio.
 ## House renderings added by 208-210
 - Names in `i`: Qalaqaljid-Eled (printed Qara-Qalžid-Eled), Qori-Shilemün and the Thousand Guards, Jaqa Gambu, Ibaqa-Beki, Ashiq-Temür, Alchiq, Bedüün, Qubilai, Jelme, Jebe, Sübegetei, Dodai, Doqolqu, Qunan (of the Genigedei; his people the Genigesid), Kökösös, Degei, Usun-Ebügen, Jüchi, Lake Baljuna, the Qalqa river.
 - inže → "dowry attendant(s)"; soγ̇or → "clash"; noγai → "dogs"; erkid + noun → "leading …"; aman alda- → "gave his word"; sojurγažu žarliγ bolba → "showing favour, issued a decree"; uchuma (Ming 箭名) left as an arrow-name; ögbe after a converb tentatively "did for (me)". Curly quotes; opening marks Shiratori omits are supplied in `i` only and said in the note (U59, U71).
+
+## House renderings added by 214-217
+- Names in `i`: Shigi-Qutuqu, Boroqul, Küchü, Kököchü, Qargil-Shira (printed Qargil-/Γargil-), Tolui, Jetei, Jelme, Altani, Ögödei, Usun-Ebügen, Qunan, Kökösös, Degei, Quildar, Qalaqaljid-Eled, Kereid, Ba'arin. nögöġe kilγun "second shaft"; anda "sworn brother"; man- forms lemma ba (not bida); örežü "risking his own life".

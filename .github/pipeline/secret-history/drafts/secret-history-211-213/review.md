@@ -54,3 +54,44 @@ critical 0 · major 1 (item 1) · moderate 10 (items 2–11) · minor 12 (items 
 - U12–U14 (öröle, žiġür, žüġegsen(i)-jer(i)-jen): the "wing" figure and the heavy suffix chain are tentative as the notes say.
 - U8: "nine times" — penalties incurred, not offences forgiven; matches the published parts but the Ming is thin.
 - Glossary (pass 2): qari needs broadening to "tribe" (Ming 部落, known entry has 邦); köiten "cold" already broadened; tüblen, tüsürge, basaγ̇alažu, eteġed are new and uncertain.
+
+# Pass 2 — secret-history-211-213
+
+Reviewer pass 2. Re-read conventions.md, runbook.md, pass 1, packet.md, known-forms.json, novel-forms.json, units.json, gloss.json; compared the published §§093-099 and 115-120 for the cross-references. No modern translation opened or recalled. Checked by script: 237 packet words = 237 `words` entries, every `t` word equals the packet word; every glossary token of `t` has an entry (gloss.json or known-forms.json), no unused key, no key in both; every `__broaden__` key is a known form and begins with the old entry whole; every Ming gloss of the packet is present in the brackets of its word's morphs (one gap, below). `t` untouched.
+
+## Changes (unit/entry · severity · what was wrong · what was done)
+1. gloss `dutaγ̇ulun` + U31, U32 morph and U31 note · **moderate** · glosser/drafter analysed the word as dut- + causative -aγ̇ul- + -un. The Han (都塔兀侖: du-ta-'u-lun) gives duta- + causative -γ̇ul- + converb -un; "dut-" is a modern truncation. · Lemma `duta-`, suffix `-γ̇ul-` in gloss, both morphs and the note.
+2. U19 · i, n · moderate · `i` "a Bishi'ud" made Önggür a Bishi'ud; Bišiγ̇ud is a plural (-d) people name, the published §§115-120 has "the Bishi'ud", and Önggür is of the Baja'ud (U25). · `i` "the Bishi'ud"; note says Bišiγ̇ud is a plural people name and that whether Önggür is counted among them is not shown.
+3. U18 · n · moderate · pass 1 reported §§115-120 as having "Möngetü-Kiyan's son Önggür with the Bishi'ud and Baja'ud"; the published text has Möngetü, son of Kiyan, with Ünggür and the others, the Bishi'ud, and their Baja'ud. The köġü + (U19) či Öṅgür order also allows "Möngetü-Kiyan's son, you Önggür". · Parallel restated exactly; the alternative named; the plain-list `i` kept.
+4. gloss `tara` + U25 morph and note · moderate · entry "tara — dispersed (adjective or converb stem)": the word is the bare stem of tara- "to disperse" (cf. Ming 散), so a verb lemma. · Entry `tara- — to disperse, scatter … (verb stem; uncertain)`; morph lemma `tara-`; note says "I take tara as the bare stem of tara- … cannot analyse bura".
+5. gloss `__broaden__` (new) `baγ̇určin` · moderate · known entry is `baγ̇určin — cook [厨子]`, but U30's morph splits baγ̇urči + -n (Ming 厨子每, 每 = plural) and the novel entry is `baγ̇urči`. · Broadened with " · also baγ̇urči with the plural -n, 'cooks' (Ming 厨子每 …)"; morph left as it is.
+6. gloss `__broaden__` (new) `mede` · moderate · known entry has only "know!" [知者︀]; here the bare stem has Ming 管 "manage" (U27). · Broadened, old entry whole + " · also Ming 管 'manage' …".
+7. gloss `öšküi-lüġe`, U6 morph + note · minor · "participle -küi (written -šküi after s)" is garbled: the š is the stem's s, not part of the suffix. · "the stem's s is printed š before k" in entry, morph and note.
+8. gloss `žüġegseni` · minor · carried the Ming of the next word (敎自的(行)) and said "a following -i". · Ming limited to [置來的]; (i) described as Shiratori's bracketed linking vowel, as the note does.
+9. U32 `esegsen-e` morph · minor · Ming 不曾的(行): the 的 and 行 stood in no bracket. · -gsen [的], -e [(行)].
+10. gloss `töreküi-lüġe` · minor · "together with the being born" ungrammatical English. · "together with being born".
+11. gloss `aldaγ̇asu` · minor · Ming 罰 glossed "'punish'"; the notes and §§202-207 say penalty/fine. · "'penalty, fine'".
+12. gloss `miṅγa` · minor · bare "thousand" beside known `miṅγan`. · Says it is a short form of miṅγan.
+13. gloss `nököčegšeġer`, `qučin` · minor · double or redundant parentheses ("(uncertain) (verb, converb?)", "(verb or noun; uncertain)" after "form and word class uncertain"). · Merged to one grammar parenthesis.
+
+## Checked and left
+- All 56 gloss.json entries read against the text, packet and Ming: format, grammar labels (dative-locative, ablative, genitive, comitative, converb of time, optative first/third person, conditional -ġesü/-γ̇asu) and dictionary forms are sound apart from items above. Every entry's first lemma agrees with the morph lemmas of its tokens, except the known `saγu-` (undotted, in the published entry for saγ̇utuγai; unit uses saγ̇u-) and the known `baγ̇určin` (item 5).
+- `__broaden__ qari`: begins with the old entry whole, adds Ming 部落 "tribe"; correct.
+- Pass-1 edits re-checked (items 1-23): no new error beyond items 2-3 above. Names agree with the house list (Jelme, Önggür, Boroqul, Tolun, cherbi, Qahan; Deligün-Boldaq as in 055-063/093-099); l/i/n use straight ' and curly speech quotes throughout; `l` keeps Shiratori's spellings.
+- Not re-opened: pass-1 refusals (all sound).
+
+## Findings considered and refused
+- U31 `i` "those who stand, or sit" for baiγsan + saγ̇uγsan-a: dative on the second only is already in the note.
+- `soγ̇oṅγuluγ̇asu` lemma `soγ̇oṅγul-` (stem with causative included): analysis unresolvable from the Ming alone, flagged uncertain in entry and note.
+- `amuju`, `tüsürge`, `tüblen`, `basaγ̇alažu`, `eteġed`, `žigtü-`: glosser's stems cannot be checked from the text; all are marked uncertain in entry and note, so left.
+- `tolun-a` entry's "(probably the Tolun-Čerbi of §§191-193)": an identification in a glossary entry, but marked "probably"; left.
+
+## Counts (pass 2)
+critical 0 · major 0 · moderate 6 (items 1-6) · minor 7 (items 7-13); 13 changes.
+
+## Remaining doubts
+- U33: subject or object for "ta qojar-i" and -ġeü (unchanged from pass 1).
+- U18-U19: whether köġü is Önggür in apposition; whether Önggür is counted among the Bishi'ud.
+- Glosser stems resting on the Ming alone: žigtü-, nobši-, köbši-, žüġe-, žiγ̇a-, basaγ̇ala-, tüsürge, tüblen, öröle, bura, qučin, hužaγ̇ur (spelling with h-, as printed).
+- Known `saγu-` lemma lacks the dot (published entry, not changed here).
+- `dutaγ̇ulun` analysis (item 1) and `tara-` (item 4) rest on the Han syllables and general Mongolian morphology, not on the Ming gloss.

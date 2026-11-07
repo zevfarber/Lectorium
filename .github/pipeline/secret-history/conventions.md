@@ -115,3 +115,9 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 224-226
 - Names in `i`: Jesün-Te'e, Bügidei, Qorqudaq, Lablaqa, Arqai-Qasar, Ögere, Buqa, Iluqai, Alchidai, Dodai, Doqolqu, Chanai, Aqutai, Yeke-Ne'ürin. čerbi → "cherbi" (meaning not known; not "chamberlain"); noyan → "officer"; aqalažu from aqa + -la- + -žu; ögtekün tentatively ög- + -te- + -kün.
+
+## House renderings added by 227-229
+- Names in `i`: Buqa, Alchidai, Dodai, Doqolqu, Eljigedei (Elžigedei), Chinggis Qahan (Qaγan in `l`). Dodai and Doqolqu are each "the cherbi" (čerbi → "cherbi", meaning unknown; not "chamberlain", as in 224-226).
+- josutan böġesü after mököriġülkün / nišiγdaqun (Ming 理有的每) → "…, and rightly so" (not "in the right"); kešigtü → "man of the guard" / "guardsman" (kešig + -tü); kešigten → "guardsmen"; turγaγ (Ming 散班) → "day guard"; kebteġül → "night guard"; qorčin → "quiver-bearers"; baγ̇určin → "cooks"; aγta → "gelding"; kötöčin → "companion"; ger-ün in `i` "tent" (l "house").
+- Lemmas: berkešije- (not berkeši + -jen), aqa + -la- (aqalažu, aqalaba), bügüdge-, taγ̇ul- (also printed daγ̇ul-), baγ̇u-, eki + -d, mürü + -s, ötögü (printed ötökü-), hoγara- (printed hoγ̇ara-/oγ̇ara-), niši-, mököri- + -ġül-; plain γ is written γ in lemmas the glossary spells so (doloγ̇an, qariγ̇u, sačaγ̇u, saγ̇urin, saγ̇uri, baγ̇urči).
+- Reflexive (i) before -jen/-jan stays a separate morph: mör-tür(i)-jen → mör + -tür + -(i)jen. Opening quote mark that Shiratori omits (U20) is supplied in `i` only and said in the note.

@@ -83,3 +83,50 @@ Counts by severity: critical 0 · major 3 · moderate 19 · minor 21 (43 items; 
 - U13–U15: berkešijen ažuγ̇u as "was finding it hard" and the conditional chain it finishes.
 - New name for conventions.md: Eljigedei (Elžigedei); not yet in the house list.
 - For the glossary pass: key `u` (needs "also genitive -u after a stem in n", naran-u), `kešig` (add "the night-guard shift" use at kebteġül kešig), `kirüġe`, `ekid`, `mürü` are new or need broadening; `saγ̇u-` / `saγu-` heads differ inside the glossary itself.
+
+## Pass 2
+
+Read: conventions.md, RUNBOOK §2, packet.md, units.json (after pass 1), gloss.json, novel-forms.json, known-forms.json, the shared glossary. gloss.json was checked entry by entry against the text, the morph lemmas and the Ming glosses (originals kept at `.../scratchpad/gloss227.orig.json`; script `.../scratchpad/gloss_p2.py`). Mechanical checks after the edits: every novel reader token of `t` (98) has a key, plus `saba-duri` (the reader's token of saba-dur(i)-jan; `jan`, `öġer-türi`, `mör-türi`, `saγ̇urin-duri`, `jen` are already in the glossary); no key is already in the glossary or unused; the 8 `__broaden__` entries each begin with the glossary's entry whole + " · "; every entry ends with its Ming gloss in `[ ]` (or, if broadened, carries it); Ming brackets agree with the packet (the three tokens with variant glosses now say so); `t` of all 63 units identical to pass 1; JSON valid; quote marks in `t`, `l`, `i` agree.
+
+### Changes (unit/key · field · severity · what was wrong · what was done)
+
+#### Moderate (6)
+1. `ötökülekün-i` · gloss · moderate · invented Ming reading "those who are senior" (the Ming is 爲長的(每)行); lemma ötögü not marked as printed ötökü-. Rewritten with the real Ming and the printed form.
+2. `oroqui` · gloss · moderate · muddled grammar ("-qu + -i … accusative-like ending of -qui"). Now participle -qui (the participle -qu with final -i; ending uncertain), "entering".
+3. `žailažü` · gloss · moderate · wrong label "front-vowel form" on a back-vowel stem. Now "written -žü although the stem has back vowels" (as conventions, jadažü); head tied to the glossary's žaila-.
+4. `ekid`, `baγ̇utala` · gloss + morph (U50, words ekid, baγ̇utala) · moderate · gloss heads disagreed with the glossary (eki "brain, uncertain", baγ̇u- "settle, halt"); morph kept ekid as one morph and baγu-. Gloss heads now eki + plural -d and baγ̇u- "come down, fall"; U50 morph changed to eki + -d and baγ̇u- to match.
+5. `süitügei`, `šöjüġed` · gloss · moderate · "to give (rods)?" stated the context as the meaning of the stem, against the Ming 敎導 "instruct". Now "to instruct, discipline?" with the rods reading flagged as inferred.
+6. `mököriġülkün` · gloss · moderate · -kün called a bare "participle"; the glossary (mököriġüldekün) has "future participle -kün". Aligned.
+
+#### Minor (19)
+7. `kešiġüd-ün`, `kešigtü`, `γadanadus` · gloss · minor · the entry's Ming covered only one of the occurrences' glosses (班每 的; 扈衞 有的 and 護衞; 在外的每). Variants added.
+8. `alčidai`, `elžigedei` · gloss · minor · no reader-form of the name (Alchidai, Eljigedei). Added.
+9. `mököriġülü-že`, `nišid-že` · gloss · minor · "(we)" / "(him)" pinned to the line. Generalised.
+10. `beriġedešü` · gloss · minor · -šü as conditional unexplained; now says the usual conditional is -ġasu/-ġesü and the ending is as printed (Ming 呵).
+11. `mudrγa` · gloss · minor · "a slip" asserted; now "probably".
+12. `qariγ̇ultuγai` · gloss · minor · "-l- give back" pinned; now verb-maker, perhaps "cause to return" (Ming 敎囘).
+13. `miṅγaloγ̇udai` · gloss · minor · -lo- beside -li- unexplained; now tied to miṅγaliγ̇ud.
+14. `ereġüleje` · gloss · minor · stem differs from the glossary's ereġül- (ereġülüžü); cross-referred.
+15. `jabudal` · gloss · minor · "doing" invented. Removed.
+16. `γaltaj-a` · gloss · minor · γal given as "fire, light" as if the glossary's; now fire (Ming 光 "light"), "in the light, while it has light".
+17. `kirüġe-dür` · gloss · minor · "gathering" stated as a meaning; now a guess, "gathering place?".
+18. `taγ̇araldutuγai` · gloss · minor · -ldu- "each to the other"; now reciprocal / joint.
+19. `ketügelčen` · gloss · minor · cross-reference to ketül- (ketülžü) added.
+20. `šiṅgegsen-ü` · gloss · minor · "of the having set" → "of (the sun) having set".
+21. `degeġün` · gloss · minor · cross-reference deġere added.
+22. `emüšügsen` · gloss · minor · printed š noted.
+
+Counts by severity: critical 0 · major 0 · moderate 6 · minor 16 (22 items).
+
+### Findings refused
+- Full-token keys such as `naran-u`, `kebteġül-eče`, `kešiġüd-ün` (instead of splitting at the hyphen): kept; the glossary does the same (turγaγ̇ud-un, nojad-ača style keys) and known-forms uses them.
+- `miṅγaliγ̇ud` / `miṅγaloγ̇udai` analysis (-li-/-lo-, -ai as genitive): tentative in the entries; no better analysis from the sources.
+- `ger-ün` "house" in `l`, "tent" in `i` (U52): both are the glossary's readings of ger; left.
+- `kelečilešü` stem keleči- + -le-: kept, entry says stem tentative.
+- `josutan` "possessive plural -tan" (not "-tu + -n"): agrees with josutan-i in the glossary.
+- `kešig` broaden entry mixes three senses of kešig: legitimate, each tagged with its Ming.
+
+### Remaining doubts
+- `taγ̇araldutuγai` (U43): Ming 復 "return"; the stem taγara- is not in the glossary; a stem meaning "part, go separate ways" would also suit "each to his own". Left as uncertain.
+- `ekid` as eki + -d, `dalbaru`, `ketügelčen`, `jabudal`, `kirüġe`: all stems or forms guessed from the Ming alone.
+- Pass 1 doubts stand: U23/U24 "rightly so", U43, U50 "drive off", U60–U61, U37, U62, U13–U15.

@@ -170,3 +170,70 @@ None.
 - sojurγažu žarliγ bolba → "showing favour, issued a decree".
 - Quotes: curly “ ” ‘ ’ from 196 on; opening marks Shiratori omits are supplied in `i` only and said in the note
   (here U59, U71).
+
+## Pass 2
+
+Reviewer: pass 2 (adversarial). Read: conventions.md, runbook.md, packet.md, units.json, gloss.json, review.md, novel-forms.json,
+known-forms.json, the shared glossary. Edits by script; pre-pass-2 copies at `/tmp/claude-0/-home-user-Lectorium/d948570c-d82e-58e8-8956-4f80a3b86af7/scratchpad/units.pass2start.json`
+and `.../gloss.pass2start.json`.
+
+Mechanical checks (passed before and after): every `t` untouched (76 units, 498 words); gloss.json keys = exactly the 108 novel
+tokens (reader tokenisation: `(i)-` splits, `Žürčedei-(j)e` leaves `je`), none missing, none surplus; every entry ends in the Ming bracket of
+novel-forms.json; `__broaden__` entries begin with the known-forms entry whole; lemma of the first morph agrees with the dictionary form of
+every gloss entry (only küčütü / küčü + -tü differs, by design); quotation marks balance across units.
+
+Counts: critical 0 · major 0 · moderate 6 · minor 13 (19 changes).
+
+### Moderate
+
+1. **gloss `žiloγ̇a`, U8 · gloss, morph, l, i, n** — "rein, bridle" is the modern reading, not the Ming's: 牽胷 is 'pull-breast'. Done: entry
+   "a part of a horse's harness (… perhaps a breast-strap; uncertain)"; morph gloss likewise; l "breast-strap", i "the door and the
+   breast-strap", note rewritten (word and figure both uncertain). (Changes the English of U8 — the only `i` changed in this pass.)
+2. **gloss `žoriγ̇ulžu`, `žoriγsan`; U51, U54 · lemma** — lemma žoriγ- against the glossary's žori- (žoriγ̇ulba). Done: lemma žori- in both
+   units and both entries; the ending of žoriγsan is -γsan (was "-san"); note U51 aligned. The entry for žoriγ̇ulžu no longer says
+   "sending" (that is ileġesü's sense, not the Ming 敎指着 'causing to point').
+3. **__broaden__ `aqa`, `daisun` (new)** — known entries used with a different Ming gloss and sense: U71 aqa Ming 長 'eldest' (known: 'elder
+   brother' [兄]); U21 daisun Ming 反 'turned against' (known: 敵 'enemy'). Done: old entry whole + ' · ' + new reading.
+4. **__broaden__ `daružu`** — the added reading repeated the old one ("also daru- 'to press down'"). Done: now "here Ming 壓着 'pressing down',
+   in bögse daružu ögbe-že" (uncertain), the old entry unchanged before it.
+5. **U59 · n** — gave the Ming of maγ̇uilažu as 煩惱着 (that is the glossary's); the packet has 恠着. Done: note gives 恠着 and says the glossary's
+   Ming is 煩惱着.
+6. **U6 · n** — said the earlier glossary has γol only as 'stream, ravine'; it has 'centre, main body' (Ming 大營) too. Done.
+
+### Minor
+
+7. **gloss `čerbin-e`, U64 · gloss, morph, n** — "court rank" claims more than Ming 官名; the glossary says "an office or rank (meaning not known)". Done.
+8. **gloss `öregsen-ü`, U26 · morph** — "expose" not in the Ming 出; now "put forth, stake".
+9. **gloss `bütüġežüġü-že`** — "past -žüġü" now tied to the glossary's ažuγ̇u (-žuγ̇u past), still uncertain.
+10. **gloss `je`** — garbled "Žürčedei-(…)" and "front-vowel form after i"; rewritten.
+11. **gloss `qara-qalžid-eled`** — "sands" now shown as read from the glossary's eled / qara-qalžid; the Ming says only 地名.
+12. **gloss `aldaba-že`** — the idiom "give one's word" stated as fact; now marked a reading (Ming 開了 'opened').
+13. **gloss `baiγ̇uluγ̇asu`** — "if (he)" → "if (one)"; the unit has no subject.
+14. **gloss `nemüre`, `dalda`** — cross-reference to the glossary's nemüre-/nemüreten and dalda- added (noun reading kept).
+15. **U14 · n** — Ming given as 頭哨做 (glossary's); the packet has 敎頭哨着, a causative. Done.
+16. **U46 · l** — "gave indeed" for ögbe: there is no -že. Removed.
+17. **U53 · n** — "nothing could stand in front of these four" removed (no support in text).
+18. **U65 · n** — "he is at home in any weather" unsupported; replaced by the figure left unpressed and the pointer to the next units.
+19. **All notes** — the workshop labels `i` / `l` in backticks (in about 30 notes) replaced by "the free translation" / "the literal line".
+
+### Findings considered and refused
+
+- **Lemma üiled- (U3, U4, U69, U70, gloss) against the glossary's üile- + -düdkün.** The glossary itself says the division of that ending is
+  uncertain; gloss.json and units agree with each other and the stem üiled- is stated with its derivation. Kept; flagged.
+- **U8 `i` still has a figure ("the door and the breast-strap were opened").** Only the word was corrected; the figure is the pass-1 reading and
+  has no better one from the Ming.
+- **Names in `l` (Žürčedei etc.).** Pass 1's refusal stands (mixed in published parts).
+- **Notes saying "the glossary", "the published qamtudγaba", "§153/§158/§182".** Project-internal but they point to real, checkable places;
+  kept.
+- **naiman-i "(the word also means 'eight')"** — supported by the glossary's naiman; kept.
+- **Known forms with only a variant Ming (e.g. alalduqui 厮殺的 for 相殺的, ileġesü 敎去呵, qojar 二/兩箇, tere 那箇)** — same sense; no broadening.
+- **U49 ögbe, U61 "[he]"** — pass-1 doubts stand; no better reading from the Ming.
+
+### Residual doubts
+
+- žiloγ̇a (U8): the word and the figure.
+- üiledbe / üiledürün / üiledkün: lemma üiled- versus the glossary's üile-.
+- bütüġežüġü-že: stem and endings (U23).
+- ünži- (U66): 住 'stay' and 休 'rest' are the Ming's; the form is not otherwise attested here.
+- U1 who grieves; U67–U68 žübči- ("made peace" / "attached himself").
+- čerbin-e "to the cherbi": whether a rank, a body or a plural.

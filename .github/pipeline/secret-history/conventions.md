@@ -101,3 +101,7 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 204-207
 - Names in `i`: Bo'orchu, Muqali, Qorchi, Münlig, Ba'arin, Erdis, Qara'un-Jidun, Kügün-Go'a, Taqai, Ashiq, Guowang. -tuγai/-tügei = "optative (third person)"; eje (Ming 商量) = counsel/consult; köiten here "cold" (broadened).
+
+## House renderings added by 208-210
+- Names in `i`: Qalaqaljid-Eled (printed Qara-Qalžid-Eled), Qori-Shilemün and the Thousand Guards, Jaqa Gambu, Ibaqa-Beki, Ashiq-Temür, Alchiq, Bedüün, Qubilai, Jelme, Jebe, Sübegetei, Dodai, Doqolqu, Qunan (of the Genigedei; his people the Genigesid), Kökösös, Degei, Usun-Ebügen, Jüchi, Lake Baljuna, the Qalqa river.
+- inže → "dowry attendant(s)"; soγ̇or → "clash"; noγai → "dogs"; erkid + noun → "leading …"; aman alda- → "gave his word"; sojurγažu žarliγ bolba → "showing favour, issued a decree"; uchuma (Ming 箭名) left as an arrow-name; ögbe after a converb tentatively "did for (me)". Curly quotes; opening marks Shiratori omits are supplied in `i` only and said in the note (U59, U71).

@@ -108,3 +108,7 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 214-217
 - Names in `i`: Shigi-Qutuqu, Boroqul, Küchü, Kököchü, Qargil-Shira (printed Qargil-/Γargil-), Tolui, Jetei, Jelme, Altani, Ögödei, Usun-Ebügen, Qunan, Kökösös, Degei, Quildar, Qalaqaljid-Eled, Kereid, Ba'arin. nögöġe kilγun "second shaft"; anda "sworn brother"; man- forms lemma ba (not bida); örežü "risking his own life".
+
+## House renderings added by 218-223
+- Names in `i`: Narin-To'oril (To'oril), Chagan-Go'a, Nekus (clan), Tarqutai-Kiriltuq, Sorqan-Shira, Chila'un, Chimbai, Qada'an (daughter), Badai, Kishiliq, Tödöge, Cheren, Selenge, Old Shirgötü, Alaq, Naya'a, Naya'a-Biljiur, Qutuqul-Nu'u, Guowang, Bo'orchu, Muqali, Jebe, Sübegetei, Degei, Küchügur, Mulqalqu, Jadaran (clan).
+- ede / tümen follow the Ming ("these"; "ten thousand"); darqala- "be free"; qorčilaγulžu ötögleġülžü "having them bear the bow and offer the cup"; tus qān(i)-jan "one's own true lord"; medeġülbe "had (him) manage / put in charge"; lemmas naita-, darqan, dutaγ̇u, nököče- follow the glossary.

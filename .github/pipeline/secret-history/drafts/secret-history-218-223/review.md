@@ -59,3 +59,65 @@ Totals: 0 critical, 3 major, 13 moderate, 8 minor (24 changes). `t`, `ln`, `p`, 
 6. U4: the whole of the önöčid-ün clause.
 7. U67 žüġegseġer(i)-jen ending; U68 bügdeġül; U71 nököčelüġe; U73 ejetüldüžü, adqun.
 8. Glossary: tebčin / Γuowaṅ / qorčila- as above; the glosser should also broaden čeġeži-dür (胷膈 → also 心懷), and use naita-, darqan, dutaγ̇u, nököče- for the changed lemmas.
+
+# Review, pass 2 — secret-history-218-223
+
+Reviewer: adversarial, second pass. Files read: conventions.md, runbook.md, review.md (pass 1), units.json, gloss.json, novel-forms.json, known-forms.json, packet.md, the shared glossary. No modern translation, no web. Originals kept in the scratchpad (`units.p2orig.json`, `gloss.p2orig.json`). Both files edited in place by script (utf-8, ensure_ascii False, indent 1).
+
+Re-checked by script: every `t` equals the packet words (73 units, 418 words, each once); `ln` and `p` correct; every first-morph Ming bracket equals the packet's Ming gloss (the only non-match is the l-a split, as intended); quote marks in `i` balance across the speeches (U13-20, 22-24, 26-28, 31-36, 37-39, 41-43, 46-57, 59-65, 70-73) and each supplied mark is said in a note. Read all 73 units again against the morphs; the pass-1 edits introduced no new error. Gloss: keys equal novel-forms keys exactly (58, none extra, none missing); every bracket equals the novel-forms Ming gloss (four had lost the U+FE00 mark, restored); all 15 `__broaden__` entries start with the old known-forms entry whole + ' · '.
+
+Totals: 0 critical, 0 major, 5 moderate, 8 minor (units 2, gloss 22 entries rewritten, 8 broadenings added).
+
+## Changes — units.json
+1. **U2 · morph `-qu` · minor.** Gloss still read "about to, one who (fights)"; pass 1 removed "about to" from `i` and note because the Ming is 厮殺的 (not 要厮殺). Now "participle: one who (fights)".
+2. **U46 · `n` · minor.** "the whole of §220 to the end of this part as Chinggis's speech" was wrong: Shiratori's printed mark closes it at ede (U57), and U59 reopens (supplied). Note now says so.
+
+## Changes — gloss.json (entries rewritten)
+Moderate:
+3. **naitažu, naitaγdamu** — lemma naiti- → naita- (as the units and the glossary's naitamu).
+4. **dataγ̇ui-ban, dutaγ̇u-juγ̇an** — lemma was an invented verb "dataγ̇u-/dutaγ̇u-"; now dutaγ̇u (adjective/participle from duta-), as the glossary and units; -i marked uncertain, not "participle".
+5. **darqad** — lemma darqa(n) → darqan, with the glossary's darqad-un wording (no technical sense claimed).
+6. **nököčelüġe** — nököčel- → nököče-, as the glossary's nököčesü/nököčežü.
+7. **asaraγ̇ulžu** — "to look after, rear, raise up" with "having (them) raised" made the object plural and ignored the causative object; now "to lift, raise up, rear (Ming 擡擧; here 'tend, bring up')", "having (someone) tend (him)", following the glossary's asaraba "lift, raise up" and pass 1's reading of U15.
+Minor:
+8. **kičiġežü** — "be diligent" → "be careful (Ming 謹愼 'careful')", as the unit.
+9. **neküs** — removed the unsupported "(Nököd?)" identification and "plural-looking"; kept "perhaps a plural".
+10. **buratara** — removed the speculative "converb/participle of a verb 'to scatter'" to "perhaps a converb; uncertain".
+11. **čiγ̇ulγa** — "ending lost" was wrong: the ending is the next token (-suγai); said so.
+12. **čaγan-γoγ̇a** — dropped "as a woman's name elsewhere" (no such entry in the glossary); γoγ̇a taken from the glossary ("name element Qo'a").
+13. **narin-toγ̇ori, l-a** — wording only (the name's last letter is on the next line).
+14. **taγ̇alaqun** — "to be fond of, like" → "to like, be fond of" (glossary taγ̇alan "to like").
+15. **seleṅge-ji** — "(Ming 地名)" now says the Ming gives only "place name" (the glossary's Seleṅge has 水名).
+16. **γuiqun, γuidqun** — "beg" → "ask for, claim", as the glossary's γui-.
+17. **keleledkün** — added the use after bu ("do not tell", U34).
+18. **tarqutai, kiriltug-i** — dictionary forms now Tarqutai-Kiriltuγ / Kiriltuγ, matching the units' lemma.
+19. **γartažu** — "set to work" dropped (Ming 下手 "set hand to"; the sense in context is "laying hands on").
+20. **datuγdažu** — tied to dutaγ̇u/duta- "lacking", said the vowels differ; still uncertain.
+21. **ažuγ̇ui-že, kičiġežü, alaγdaluγ̇a, abtuγai** — Ming brackets had lost U+FE00; restored to the novel-forms string.
+22. The rest (čaγan-γoγ̇a-jin, sorγan-šira-da, najaγ̇a-da, širgötü, tan-luγ̇a, tödege-ji, qandaqu, aldal-dur, oġer-ün, öġesüd, darqalasu, darqaladqun, darqalarun, bariγ̇asu, udaγ̇an-a, abtuγai, itegegdekün, keġegdekün, sedkižüġüi, tüšije, medeġülbe, tüb-ün, oluγsad, žüġegseġeri, qoniči-da, bügdeġül-i, modoči-da, žüki-jer, üile-dür, najaγ̇a-bilžiγ̇ur, tarqutai-kiril, tug-i, γartaγsad, alaγdaluγ̇a, ažuγ̇ui-že) checked against form, morphs and Ming: unchanged.
+
+## Changes — `__broaden__`
+Pass-1's instruction applied: čeġeži-dür carries 心懷 (with the cross-reference to the glossary's čeġeži 胷懷); the glosser's seven broadenings kept with their tails tightened to name the construction (darqalan, qaγ̇ulžu, qubčižu, čeġeži-dür, gegeġen, že, abalaγ̇asu). Added eight known forms whose entry does not cover this part's use:
+- **qadqulduqu** (entry "about to fight" [要厮殺]; here Ming 厮殺的, "one who fights").
+- **tutum** (entry "each", 各各/每遍; here 每裏 after qari).
+- **jen** (no sedkil(i)-, sedkigsen(i)-, žüġegseġer(i)- among its contexts).
+- **talbižu** (entry "set down, leave"; here "let go, set free", 放着/放了着).
+- **ügüledkün** (entry imperative only; U32 "if you say" before böġesü, Ming 說的每).
+- **bejesi** (entry assumes -jen; here before -jer, Ming 親身(每)敎).
+- **jer** (no bejes(i)-jer among its contexts).
+- **keġeleġei** (entry "past question [說來麽]"; here Ming 說來 without 麽, plain past).
+Checked and left alone (entry covers the use, Ming variants only): köġün, ečige, deġü forms, uruγ-un, kürtele, aqu, ta, žeġüdün-dür, γažar, merkid-ün, medetügei (both senses present), ba (both senses), qojar forms, jan (already lists qān(i)-), odqun, irebe, nigen(-e), ede, jadaγsan, minγalažu, adqun, and the rest of the 202.
+
+## Findings refused (reason)
+- **qorčila- "bow and quiver" (U27, U43)** — carried from pass 1: the glossary's qorčilaγ̇ulžu says so; unit/gloss follow it. Owner to decide.
+- **Γuowaṅ gloss "prince of the state"** — the glossary's entry; the gloss.json had no entry for it (known form), so nothing to align.
+- **Lemma datuγda- (U70)** — kept as the unit's lemma although the glossary's duta- "to be lacking" (dutaba) probably underlies it: the Ming 被缺着 and the form do not decide, so the uncertainty is in the entry rather than a forced change.
+- **tebčin as a noun, bida "inclusive" (U49), oroγ̇a "wild, cunning" (U39)** — the glossary's wording; left.
+- **U41 "We were people of Tödöge"** — the "we" is flagged in the note as supplied; kept.
+- **U58 keġegdekün keġežüġü / U57 mark at ede** — already hedged in the notes; no better reading.
+
+## Remaining doubts
+1. U15 (Qada'an as causee), U46/U51 (grouping of Širgötü, Alaq, Naya'a with ta), U49-U60 (tebčižü barižu; whose words keġegdekün keġežüġü are; person of sedkižüġüi), U13/U14 (who envies whom).
+2. U20 taγ̇alaqun/ambar; U24 medetügei; U26 "camp and all"; U32 ügüledkün before böġesü; U4 önöčid-ün clause.
+3. U67 žüġegseġer(i)-jen ending; U68 bügdeġül; U70 datuγda-; U71 nököčelüġe; U73 ejetüldüžü, adqun.
+4. Glossary-level, for the owner: qorčila-, Γuowaṅ, tebčin; Širgötü vs Shirgügetü; the glossary's čeġeži-dür (胷膈) and čeġeži (胷懷) now differ from each other and from this part's 心懷, which the broadening records.

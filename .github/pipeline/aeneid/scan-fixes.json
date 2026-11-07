@@ -1903,5 +1903,203 @@
    "vi⏑6de–bit×"
   ],
   "why": "coniugium (con + iugum): the i after the prefix is consonantal, con-ju-gi-um. The scanner's feet and quantities are right (it read co-ni-u-gium with synizesis); only the syllabification differs (cf. 2.200, 2.444)."
+ },
+ "2.597": {
+  "sc": [
+   "1li–que⏑ris⏑",
+   "2An–chi–3sen–‖",
+   "su⏑pe⏑4ret–",
+   "con–5iunx–ne⏑",
+   "Cre⏑6ü–sa×"
+  ],
+  "why": "coniunx (con + iunx): the i is consonantal, so con | iunx, two syllables; the scanner read co-ni-unx, with short co- and ni-, and added a syllable. The line is: lī-quĕ-rĭs | An-chī | sēn sŭ-pĕ | ret con | iunx-nĕ Crĕ | ü-sa (perfect līqui with long ī; Creüsa is Cre-ü-sa)."
+ },
+ "2.605": {
+  "sc": [
+   "1mor–ta–2lis–",
+   "he⏑be⏑3tat–‖",
+   "vi–4sus–",
+   "ti⏑bi",
+   "et⏑",
+   "5u–mi⏑da⏑",
+   "6cir–cum×"
+  ],
+  "why": "Wrong quantities in the scanner's fit (cost 0.0, so no flag). mortālīs has long ā and long -īs (accusative plural, mortālis = mortālēs), hebetat has short he- and be-: mor-tā | līs hĕ-bĕ | tat vī | sus tĭ-bĕt | ū-mĭ-dă | cir-cum. The scanner had mor-tă-lĭs | hē-bē | tat vī: ta and lis short, he and be long."
+ },
+ "2.608": {
+  "sc": [
+   "1hic–",
+   "u⏑bi⏑",
+   "2dis–iec–3tas–‖",
+   "mo–4les–",
+   "a–5vol–sa⏑que⏑",
+   "6sa–xis×"
+  ],
+  "why": "dis-iectas: the i after the prefix is consonantal (dis + iacio), so dis | iec | tas, not di-si-ec-tas; the scanner read the i as a vowel and fused si+e by synizesis (cost 1.8). Quantities unchanged (all three syllables long): hic ŭ-bĭ | dis-iec | tas mo | les ā | vol-să-quĕ | sa-xis."
+ },
+ "2.614": {
+  "sc": [
+   "1fer–ro",
+   "ac–2cin–cta⏑",
+   "vo⏑3cat×"
+  ],
+  "why": "Half-line (hemistich), one of Virgil's unfinished lines: fer-r(o) ac | cin-cta vŏ | căt, a spondee, a dactyl and one syllable (– – | – ⏑ ⏑ | ×); -ro is elided before ac-. There is no hexameter to fit; the scanner returns UNRESOLVED."
+ },
+ "2.623": {
+  "sc": [
+   "1nu–mi⏑na⏑",
+   "2mag–na⏑",
+   "de⏑3um×"
+  ],
+  "why": "Half-line (hemistich), one of Virgil's unfinished lines: nū-mĭ-nă | măg-nă dĕ | um, two dactyls and one syllable (– ⏑ ⏑ | – ⏑ ⏑ | ×), deum read as two syllables (dĕ-um). There is no hexameter to fit; the scanner returns UNRESOLVED."
+ },
+ "2.640": {
+  "sc": [
+   "1vos–",
+   "a⏑gi⏑2ta–te⏑",
+   "fu⏑3gam×"
+  ],
+  "why": "Half-line (hemistich), one of Virgil's unfinished lines: vōs ăgĭ | tāte fŭ | gam, two dactyls and one syllable (– ⏑ ⏑ | – ⏑ ⏑ | ×). There is no hexameter to fit; the scanner returns UNRESOLVED."
+ },
+ "2.648": {
+  "sc": [
+   "1de–mo⏑ror⏑",
+   "2ex–",
+   "quo–",
+   "3me–‖",
+   "di–4vom–",
+   "pa⏑ter⏑",
+   "5at–que",
+   "ho⏑mi⏑6num–",
+   "rex×"
+  ],
+  "why": "The scanner's fit (cost 0.3) shortened me and lengthened mo (dē-mō | ror ex | quo mĕ dĭ | vom pa-ter | at ho-mi | num rex): wrong quantities. Natural quantities give dē-mŏ-rŏr | ex quō | mē dī | vom pă-tĕr | at hŏ-mĭ | num rex: demoror has short mo- and short -ror (before the vowel of ex), mē is long, and divom has long dī- as at 2.602; -que of atque is elided before ho-."
+ },
+ "2.651": {
+  "sc": [
+   "1Nos–",
+   "con–tra",
+   "2ef–fu–3si–‖",
+   "la⏑cri⏑4mis–",
+   "con–5iunx–que⏑",
+   "Cre⏑6ü–sa×"
+  ],
+  "why": "coniunxque (con + iunx): the i is consonantal, so con | iunx, two syllables, con long by position; the scanner read co-ni-unx with short co- and ni-. Nos con | ef-fu | si la-cri | mis con | iunx-que Cre | ü-sa."
+ },
+ "2.673": {
+  "sc": [
+   "1Ec–ce",
+   "au–2tem–",
+   "com–3ple–xa⏑",
+   "pe⏑4des–‖",
+   "in–",
+   "5li–mi⏑ne⏑",
+   "6con–iunx×"
+  ],
+  "why": "coniunx (con + iunx): the i is consonantal, con | iunx; syllabification only, the quantities (long, long) were already right (cf. 2.519)."
+ },
+ "2.674": {
+  "sc": [
+   "1hae–re–2bat–",
+   "par–3vum–que⏑",
+   "pa⏑4tri–‖",
+   "ten–5de–bat⏑",
+   "I⏑6u–lum×"
+  ],
+  "why": "Ĭūlum is three syllables (Iulus, always trisyllabic in Virgil, as Iulo at 1.267 and Ĭūlī at 1.556), not consonantal I: hae-rē | bat par | vum-que pă | tri ten | dē-bat Ĭ | ū-lum. The scanner read Iu- as one syllable and made a spondaic fifth foot (cost 2.0); with the vowel I the fifth foot is a dactyl."
+ },
+ "2.677": {
+  "sc": [
+   "1hanc–",
+   "pri–2mum–",
+   "tu–3ta–re⏑",
+   "do⏑4mum–‖",
+   "Cui–",
+   "5par–vus⏑",
+   "I⏑6u–lus×"
+  ],
+  "why": "Ĭūlus is three syllables (as at 1.556 and 2.674), not consonantal I: hanc prī | mum tū | tā-rĕ dŏ | mum cui | par-vus Ĭ | ū-lus (cui one long syllable). The scanner read Iu- as one syllable and made a spondaic fifth foot (cost 2.0)."
+ },
+ "2.678": {
+  "sc": [
+   "1cui–",
+   "pa⏑ter⏑",
+   "2et–",
+   "con–3iunx–‖",
+   "quon–4dam–",
+   "tu⏑a⏑",
+   "5dic–ta⏑",
+   "re⏑6lin–quor×"
+  ],
+  "why": "coniunx (con + iunx): the i is consonantal, con | iunx, two syllables; the scanner read co-ni-unx and added a syllable (sixteen for fifteen) with short co- and ni-. Cui pă-tĕr | et con | iunx quon | dam tŭ-ă | dic-tă rĕ | lin-quor (cui one long syllable; dam long by position before tua)."
+ },
+ "2.682": {
+  "sc": [
+   "1ec–ce⏑",
+   "le⏑2vis–",
+   "sum–3mo–‖",
+   "de–",
+   "4ver–ti⏑ce⏑",
+   "5vi–sus⏑",
+   "I⏑6u–li×"
+  ],
+  "why": "Ĭūlī is three syllables (as at 1.556), not consonantal I, so the fifth foot is a dactyl: ec-ce lĕ | vis sum | mo dē | ver-tĭ-cĕ | vī-sus Ĭ | ū-li. The scanner read Iu- as one syllable, made a spondaic fifth foot and lengthened sus by position (cost 2.6)."
+ },
+ "2.612": {
+  "sc": [
+   "1e–ru⏑it⏑",
+   "2hic–",
+   "Iu–3no–‖",
+   "Scae–4as–",
+   "sae–5vis–si⏑ma⏑",
+   "6por–tas×"
+  ],
+  "why": "Carrier: the scanner's own fit for the whole line (checked by hand, cost 0.0), applied because a unit break inside this line, or a half-line in the same unit, leaves the scanner no whole line to scan (cf. 2.467)."
+ },
+ "2.613": {
+  "sc": [
+   "1pri–ma⏑",
+   "te⏑2net–",
+   "so⏑ci⏑3um–que⏑",
+   "fu⏑4rens–‖",
+   "a–",
+   "5na–vi⏑bus⏑",
+   "6ag–men×"
+  ],
+  "why": "Carrier: the scanner's own fit for the whole line (checked by hand, cost 0.0), applied because a unit break inside this line, or a half-line in the same unit, leaves the scanner no whole line to scan (cf. 2.467)."
+ },
+ "2.622": {
+  "sc": [
+   "1Ad–pa–2rent–",
+   "di–3rae–‖",
+   "fa⏑ci⏑4es–",
+   "i⏑ni⏑5mi–ca⏑que⏑",
+   "6Tro–iae×"
+  ],
+  "why": "Carrier: the scanner's own fit for the whole line (checked by hand, cost 0.0), applied because a unit break inside this line, or a half-line in the same unit, leaves the scanner no whole line to scan (cf. 2.467). Foot 1 Adparent read Ad-pa with long pa (spondee), the only fit."
+ },
+ "2.638": {
+  "sc": [
+   "1ex–si⏑li⏑2um–que⏑",
+   "pa⏑3ti–‖",
+   "Vos–",
+   "4O–",
+   "qui⏑bus⏑",
+   "5in–te⏑ger⏑",
+   "6ae–vi×"
+  ],
+  "why": "Carrier: the scanner's own fit for the whole line (checked by hand, cost 0.0), applied because a unit break inside this line, or a half-line in the same unit, leaves the scanner no whole line to scan (cf. 2.467)."
+ },
+ "2.639": {
+  "sc": [
+   "1san–guis⏑",
+   "a⏑2it–",
+   "so⏑li⏑3dae–que⏑",
+   "su⏑4o–‖",
+   "stant–",
+   "5ro–bo⏑re⏑",
+   "6vi–res×"
+  ],
+  "why": "Carrier: the scanner's own fit for the whole line (checked by hand, cost 0.0), applied because a unit break inside this line, or a half-line in the same unit, leaves the scanner no whole line to scan (cf. 2.467)."
  }
 }

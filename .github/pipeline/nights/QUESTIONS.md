@@ -1165,3 +1165,6 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 
 ## 2026-11-06 (publishing run, night 83)
 - Night 83 doubtful readings, kept as printed and flagged in `n`: P477L23 سام (sense wants سلم, “is safe”), P476L20 بين والدك (يدي dropped before والدك), P477L15 خشعتّ (stray shadda), P476L11 حق (no accusative alif), P475L20 مهيٌ. Corrected misprints are in emend.json (P475L18, P476L09, P477L02); فقراً (P477L11) is corrected in the text by the hamza-on-alif reading and noted. The archive was not changed.
+
+## 2026-11-07 (publishing run, night 85)
+- Doubtful, kept as printed and flagged in `n`: P481L20 استبرأوهن (verb in print; sense wants استبراؤهن), P481L17 مخالفتي لك, P482L02 من منذ. Corrected misprint in emend.json: P482L01 بوالدين→بولدين. The archive was not changed.

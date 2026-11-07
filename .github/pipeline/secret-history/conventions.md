@@ -112,3 +112,6 @@ publish without audio until the owner chooses. Do not build audio.
 ## House renderings added by 218-223
 - Names in `i`: Narin-To'oril (To'oril), Chagan-Go'a, Nekus (clan), Tarqutai-Kiriltuq, Sorqan-Shira, Chila'un, Chimbai, Qada'an (daughter), Badai, Kishiliq, Tödöge, Cheren, Selenge, Old Shirgötü, Alaq, Naya'a, Naya'a-Biljiur, Qutuqul-Nu'u, Guowang, Bo'orchu, Muqali, Jebe, Sübegetei, Degei, Küchügur, Mulqalqu, Jadaran (clan).
 - ede / tümen follow the Ming ("these"; "ten thousand"); darqala- "be free"; qorčilaγulžu ötögleġülžü "having them bear the bow and offer the cup"; tus qān(i)-jan "one's own true lord"; medeġülbe "had (him) manage / put in charge"; lemmas naita-, darqan, dutaγ̇u, nököče- follow the glossary.
+
+## House renderings added by 224-226
+- Names in `i`: Jesün-Te'e, Bügidei, Qorqudaq, Lablaqa, Arqai-Qasar, Ögere, Buqa, Iluqai, Alchidai, Dodai, Doqolqu, Chanai, Aqutai, Yeke-Ne'ürin. čerbi → "cherbi" (meaning not known; not "chamberlain"); noyan → "officer"; aqalažu from aqa + -la- + -žu; ögtekün tentatively ög- + -te- + -kün.

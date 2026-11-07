@@ -1,8 +1,9 @@
 # aeneid-018 draft: each unit names where it ENDS (line, closing text); t is cut from the source by aeneid_lib.cut.
+# Reviewed (two passes); edits listed in review.md.
 TITLE = "Creta. Penates"
 TITLE_EN = "The Plague on Crete and the Dream of the Penates — Aeneid III.99–208"
 PART = "The Plague on Crete and the Dream of the Penates (III.99–208)"
-ABOUT = "At Delos the Trojans have just heard Apollo's oracle, and joy and confusion break out as they ask which land the god means. Anchises, calling up the old traditions, reads the oracle as pointing to Crete: it lies in the middle of the sea, it holds Mount Ida and the cradle of their race, and it is the island from which their forefather Teucer first came to the Trojan shore, before Ilium stood, along with the worship of the Great Mother, her cymbals, her lions and her faithful silence. He bids them follow the gods' orders, appease the winds and make for Crete; the voyage is short if Jupiter helps. He sacrifices bulls to Neptune and Apollo, a black victim to Storm and a white one to the kindly Zephyrs. A rumour reaches them that Idomeneus has been driven from his father's kingdom and that Crete lies empty, and they sail past Naxos, Donysa, Olearos, Paros and the scattered Cyclades while the sailors shout in rivalry and urge each other on to Crete and their forefathers. Aeneas, landing among the old Curetes, eagerly lays out a city called Pergamum, bids the people love their hearths and build a citadel, and has hardly drawn up the ships and given laws and homes when a wasting plague falls on men, trees and crops, and Sirius scorches the barren fields. Anchises urges a return to the oracle at Delos to ask what end to their toils is intended. That night the sacred images of the Penates, the Trojan household gods he carried from burning Troy, appear to Aeneas as he lies awake, plain in the moonlight that pours through the windows, and tell him that Apollo has sent them: they will raise his descendants to the stars and give empire to their city; he must prepare great walls for the great, for Crete was not Apollo's choice. The true home is Hesperia, an ancient land of Oenotrian men, now called Italy, the original seat of Dardanus and Iasius, and Jupiter denies Aeneas the Cretan fields. Stunned, he leaps up, raises his hands to heaven, pours an unmixed libation and tells Anchises; the old man sees that he has mistaken the two lines of their ancestry, remembers that only Cassandra ever spoke of Hesperia and Italy, and bids them yield to Phoebus. They leave a few behind and sail, and once the land has vanished, black rain-cloud gathers overhead and a storm scatters the fleet. For three days and nights they wander blind, even Palinurus unable to tell day from night, until on the fourth day land seems to rise and the sailors fall to their oars."
+ABOUT = "At Delos the Trojans have just heard Apollo's oracle, and joy and confusion break out as they ask which land the god means. Anchises, calling up the old traditions, reads the oracle as pointing to Crete: it lies in the middle of the sea, it holds Mount Ida and the cradle of their race, and it is the island from which their forefather Teucer first came to the Trojan shore, before Ilium stood, along with the worship of the Great Mother, her cymbals, her lions and her faithful silence. He bids them follow the gods' orders, appease the winds and make for Crete; the voyage is short if Jupiter helps. He sacrifices bulls to Neptune and Apollo, a black victim to Storm and a white one to the kindly Zephyrs. A rumour reaches them that Idomeneus has been driven from his father's kingdom and that Crete lies empty, and they sail past Naxos, Donysa, Olearos, Paros and the scattered Cyclades while the sailors shout in rivalry and urge each other on to Crete and their forefathers. Aeneas, landing among the old Curetes, eagerly lays out a city called Pergamum, bids the people love their hearths and build a citadel, and has hardly drawn up the ships and given laws and homes when a wasting plague falls on men, trees and crops, and Sirius scorches the barren fields. Anchises urges a return to the oracle at Delos to ask what end to their toils is intended. That night the sacred images of the Penates, the Trojan household gods he carried from burning Troy, appear to Aeneas as he lies there, plain in the moonlight that pours through the windows, and tell him that Apollo has sent them: they will raise his descendants to the stars and give empire to their city; he must prepare great walls for the great, for Crete was not Apollo's choice. The true home is Hesperia, an ancient land of Oenotrian men, now called Italy, the original seat of Dardanus and Iasius, and Jupiter denies Aeneas the Cretan fields. Stunned, he leaps up, raises his hands to heaven, pours out unspoiled offerings and tells Anchises; the old man sees that he has mistaken the two lines of their ancestry, remembers that only Cassandra ever spoke of Hesperia and Italy, and bids them yield to Phoebus. They leave a few behind and sail, and once the land has vanished, black rain-cloud gathers overhead and a storm scatters the fleet. For three days and nights they wander blind, even Palinurus unable to tell day from night, until on the fourth day land seems to rise and the sailors fall to their oars."
 U = [
 ((99, 'Phoebus;'),
 "This Phoebus;",
@@ -12,12 +13,12 @@ U = [
 ((101, 'reverti?'),
 "and mingled with tumult huge arisen\njoy, and all ask what those walls may be\nto which Phoebus calls the wanderers and bids them turn back?",
 "A great joy rose, mixed with tumult, and all asked what those walls might be to which Phoebus was calling the wanderers and bidding them return.",
-"'ingens… laetitia' is the subject, with 'exorta' (perfect participle of the deponent 'exorior', 'having risen') split from it by 'mixto… tumultu', an ablative of attendant circumstance, 'mixed with uproar'; the framing of 'ingens' and 'laetitia' round the participle is the effect the literal line keeps. 'Ea' agrees with 'moenia'. 'quae sint' and 'quo… vocet… iubeatque' are indirect questions, so the verbs are subjunctive; the whole sentence is in the present (a vivid narrative present, 'quaerunt'). 'errantis' is an accusative plural in -is (the 'us wanderers'), and 'reverti' is the present infinitive of the deponent 'revertor', 'return'. A question mark closes what is really an indirect question; Greenough prints it so."),
+"'ingens… laetitia' is the subject, with 'exorta' (perfect participle of the deponent 'exorior', 'having risen') split from it by 'mixto… tumultu', an ablative of attendant circumstance, 'mixed with uproar'; the framing of 'ingens' and 'laetitia' round the participle is the effect the literal line keeps. 'Ea' agrees with 'moenia'. 'quae sint' and 'quo… vocet… iubeatque' are indirect questions, so the verbs are subjunctive; the main verb 'quaerunt' is a vivid present, while after 'exorta' the verb 'est' is left out, so 'joy rose' is perfect. 'errantis' is an accusative plural in -is (the wanderers, 'us'), and 'reverti' is the present infinitive of the deponent 'revertor', 'return'. A question mark closes what is really an indirect question; Greenough prints it so."),
 
 ((102, 'virorum,'),
 "Then the father, turning over the records of men of old,",
 "Then Anchises, turning over in his mind the records of men of old,",
-"'genitor' is 'the father', Anchises, the usual way Virgil names him in this book. 'volvens' is the present participle of 'volvo', 'turning over, revolving', as the mind does with memories. 'monumenta' is 'records, memorials', here traditions. 'veterum… virorum' is a genitive plural, 'of the men of old'. 'virorum' is the regular genitive plural; compare the old genitive in -um you saw earlier. The comma holds the sentence open until the speech begins."),
+"'genitor' is 'the father', Anchises, the 'pater' of line 144 is the same man. 'volvens' is the present participle of 'volvo', 'turning over, revolving', as the mind does with memories. 'monumenta' is 'records, memorials', here traditions. 'veterum… virorum' is a genitive plural, 'of the men of old'. 'virorum' is the full genitive plural (the short 'virum' also occurs). The comma holds the sentence open until the speech begins."),
 
 ((103, 'vestras:'),
 "“Hear, O chiefs, says he, and learn your hopes:",
@@ -27,7 +28,7 @@ U = [
 ((104, 'ponto;'),
 "Crete of great Jupiter in mid sea lies, an island;",
 "In the midst of the sea lies Crete, the island of great Jupiter;",
-"'Creta' is the subject, and 'insula' stands in apposition to it, set last in the line. 'Iovis magni' is a genitive, 'of great Jupiter', because tradition made the god be born and raised on Crete. 'medio… ponto' is an ablative of place where, 'in the middle of the sea'; the adjective 'medio' separates 'ponto' from 'iacet' and keeps Crete sea-bound in the line."),
+"'Creta' is the subject, and 'insula' stands in apposition to it, set late in the line. 'Iovis magni' is a genitive, 'of great Jupiter', because tradition made the god be born and raised on Crete. 'medio… ponto' is an ablative of place where, 'in the middle of the sea'; 'medio' and 'ponto' frame 'iacet insula', so the island sits in the middle of the words as it does in the sea."),
 
 ((105, 'nostrae.'),
 "where is Mount Ida, and the cradle of our race.",
@@ -42,7 +43,7 @@ U = [
 ((108, 'oras,'),
 "from which our greatest father, if rightly the things heard I recall,\nTeucrus to the Rhoetean shores first was borne",
 "From it our greatest forefather, if I rightly recall what I have heard, Teucer, first came to the shores of Rhoeteum,",
-"'unde' is 'from which' (from Crete). 'maximus… pater' is 'our greatest father, ancestor', and 'Teucrus' is the same man as the Teucer of tradition, set after the parenthesis 'si rite audita recordor', 'if I recall rightly the things I have heard'. 'audita' is a neuter plural perfect participle used as a noun. 'Teucrus' is Greenough's older form of the name, with the Latin ending in -us. 'est advectus' is the perfect passive of 'adveho', 'was carried to'. 'Rhoeteas' is an adjective, 'of Rhoeteum', a headland on the Trojan coast, and so means 'Trojan'."),
+"'unde' is 'from which' (from Crete). 'maximus… pater' is 'our greatest father, ancestor', and 'Teucrus' is the same man as the Teucer of tradition, set after the parenthesis 'si rite audita recordor', 'if I recall rightly the things I have heard'. 'audita' is a neuter plural perfect participle used as a noun. 'Teucrus' is the form of the name that Greenough prints, with the ending -us. 'est advectus' is the perfect passive of 'adveho', 'was carried to'. 'Rhoeteas' is an adjective, 'of Rhoeteum', a headland on the Trojan coast, and so means 'Trojan'."),
 
 ((109, 'regno.'),
 "and chose a place for his kingdom.",
@@ -51,7 +52,7 @@ U = [
 
 ((110, 'steterant;'),
 "Not yet Ilium and the citadels\nof Pergamum had stood;",
-"Ilium and its citadels of Pergamum did not yet stand;",
+"Ilium and its citadels of Pergamum were not yet standing;",
 "'Nondum' is 'not yet'. 'steterant' is the pluperfect of 'sto', 'had stood'. 'Ilium' is Troy, and 'arces Pergameae' is 'the Pergamean citadels', the citadel of Troy (the plural for a singular is poetic). The point is that Teucer came before Troy was built: Anchises is fitting the Cretan story to the Trojan one."),
 
 ((110, 'imis.'),
@@ -62,7 +63,7 @@ U = [
 ((112, 'nemus;'),
 "From here the Mother, dweller of Cybelus, and the Corybantian bronzes\nand the Idaean grove;",
 "From Crete came the Mother who haunts Cybelus, the bronze cymbals of the Corybantes, and the grove of Ida;",
-"'hinc' is 'from here', that is, from Crete. The three nominatives are 'mater', 'aera' and 'nemus'; there is no verb, and 'hinc' is repeated in the next clause (anaphora). 'mater cultrix Cybeli' is 'the Mother who dwells on Cybelus' (a Phrygian mountain; 'cultrix' is the feminine of 'cultor', 'dweller, worshipper'). The Great Mother (Cybele) and her cult were believed to have come from Crete to Phrygia. 'Corybantiaque aera' is 'the Corybantian bronzes', the cymbals clashed by her attendants the Corybantes. 'Idaeum nemus' is 'the grove of Ida'. 'aera' is the plural of 'aes', 'bronze'."),
+"'hinc' is 'from here', that is, from Crete. The three nominatives are 'mater', 'aera' and 'nemus'; there is no verb, and 'hinc' is repeated in the next clause (anaphora). 'mater cultrix Cybeli' is 'the Mother who dwells on Cybelus' (a Phrygian mountain; 'cultrix' is the feminine of 'cultor', 'dweller, worshipper'). The Great Mother is Cybele; Anchises' claim is that her rites came to Phrygia from Crete. 'Corybantiaque aera' is 'the Corybantian bronzes', the cymbals clashed by her attendants the Corybantes. 'Idaeum nemus' is 'the grove of Ida'. 'aera' is the plural of 'aes', 'bronze'."),
 
 ((113, 'leones.'),
 "hence the faithful silence in the rites,\nand the yoked lions went under the mistress's chariot.",
@@ -105,24 +106,24 @@ U = [
 "New paragraph. 'Fama volat' is 'rumour flies', and what follows is an accusative and infinitive: 'Idomenea ducem… cessisse', 'that the leader Idomeneus had withdrawn'. 'pulsum' is the perfect passive participle of 'pello', 'driven out', agreeing with 'ducem'. 'Idomenea' is the Greek accusative of 'Idomeneus'. The tradition (not in Homer) was that the Cretan king, back from Troy, was driven out of Crete."),
 
 ((123, 'relictas.'),
-"and that the shores of Crete were empty,\nthe houses free of the enemy, and the abandoned seats stood ready.",
+"and the deserted shores of Crete,\nthe houses to be free of the enemy, and the abandoned seats to stand ready.",
 "and that the shores of Crete lay deserted, her houses free of any foe, her abandoned dwellings standing ready.",
-"The accusative and infinitive continues with three more infinitives: 'vacare', 'adstare' (Greenough's spelling; the Latin Library prints 'astare'). The subjects are 'litora' (with 'deserta'), 'domos' (the Latin Library prints 'domum', the genitive plural, which would change the sense to 'empty of the foe's houses') and 'sedes'. 'hoste' is an ablative of separation with 'vacare', 'be free of, be empty of'. 'adstare relictas' is 'stand there, left behind', that is, ready to be occupied."),
+"The accusative and infinitive goes on piece by piece: 'desertaque litora Cretae' (the shores of Crete deserted, with no verb of its own), 'hoste vacare domos' and 'sedes adstare relictas'. The infinitives are 'vacare' and 'adstare' (Greenough's spelling; the Latin Library prints 'astare'). The subjects are 'litora' (with 'deserta'), 'domos' and 'sedes'; for 'domos' the Latin Library prints 'domum', a genitive plural, which would change the construction. 'hoste' is an ablative of separation with 'vacare', 'be free of, be empty of'. 'adstare relictas' is 'stand there, left behind', that is, ready to be occupied."),
 
 ((124, 'volamus,'),
 "We leave the harbours of Ortygia, and over the sea we fly,",
 "We leave the harbours of Ortygia and fly over the sea,",
-"The narration returns to Aeneas, with a narrative present, 'Linquimus', 'volamus'. 'Ortygiae' is Delos, the island of the oracle, one of whose names was Ortygia. 'portus' is an accusative plural in -us. 'pelago' is an ablative of the way, 'over the sea'. 'volamus' is the usual poetic word for a swift voyage."),
+"The narration returns to Aeneas, with a narrative present, 'Linquimus', 'volamus'. 'Ortygiae' is Delos, the island of the oracle, one of whose names was Ortygia. 'portus' is an accusative plural in -us. 'pelago' is an ablative of route or means, 'over the sea'. 'volamus' is the usual poetic word for a swift voyage."),
 
 ((127, 'terris.'),
-"and Naxos revelled on its ridges and green Donysa,\nOlearos, and snowy Paros, and the Cyclades scattered over the water,\nand with many lands we skim the seas set thick.",
-"We pass Naxos, loud with Bacchic revels on its ridges, green Donysa, Olearos, snow-white Paros, and the Cyclades scattered across the water; and we skim the seas planted thick with lands.",
-"A catalogue of islands in the Aegean, all objects of 'legimus' (the verb is held to the end of the list). 'bacchatam… iugis' is a perfect passive participle of the deponent 'bacchor', 'revelled', used passively: Naxos was Dionysus' island. 'Donysam' is Greenough's spelling (the Latin Library prints 'Donusam'). 'Olearon' and 'Paron' are Greek accusatives of 'Olearos' and 'Paros'. 'niveam' is 'snow-white', for the marble. 'Cycladas' is the Greek accusative plural, 'the Cyclades', the circle of islands round Delos (Greek 'kyklos'). 'legimus' is the present of 'lego', here 'skirt, pass along'. 'consita' is the perfect passive participle of 'consero', 'sown, planted', a bold metaphor for islands scattered like seeds; the Latin Library prints 'concita', 'stirred', a different word."),
+"and Naxos revelled on its ridges and green Donysa,\nOlearos, and snowy Paros, and scattered over the sea\nCyclades, and we skim the straits sown with crowded lands.",
+"We pass Naxos, with Bacchic revels on its ridges, green Donysa, Olearos, snow-white Paros, and the Cyclades scattered across the water; and we skim the seas planted thick with lands.",
+"A catalogue of islands in the Aegean, all objects of 'legimus' (the verb is held to the end of the list). 'bacchatam… iugis' is a perfect passive participle of the deponent 'bacchor', 'revelled', used passively: Naxos was Dionysus' island. 'Donysam' is Greenough's spelling (the Latin Library prints 'Donusam'). 'Olearon' and 'Paron' are Greek accusatives of 'Olearos' and 'Paros'. 'niveam' is 'snow-white', for the marble. 'Cycladas' is the Greek accusative plural, 'the Cyclades', the circle of islands round Delos (Greek 'kyklos'). 'legimus' is the present of 'lego', here 'skirt, pass along'. 'consita' is the perfect passive participle of 'consero', 'sown, planted', a bold metaphor for islands scattered like seeds; the Latin Library prints 'concita', 'stirred', a different word. 'crebris… terris' is an ablative with 'consita', 'sown with crowded lands'."),
 
 ((128, 'clamor;'),
 "A nautical shout rises in varied rivalry;",
 "A shout from the sailors goes up as each crew vies with another;",
-"'Nauticus' is an adjective, 'of sailors', agreeing with 'clamor'. 'exoritur' is the present of the deponent 'exorior'. 'vario certamine' is an ablative of manner or cause, 'in varied contention', as the crews call to one another in different ways."),
+"'Nauticus' is an adjective, 'of sailors', agreeing with 'clamor'. 'exoritur' is the present of the deponent 'exorior'. 'vario certamine' is an ablative of manner or cause, 'in varied contention', the crews shouting in rivalry with one another."),
 
 ((129, 'socii:'),
 "the comrades urge:",
@@ -135,9 +136,9 @@ U = [
 "The sailors' cry, with the opening “ and the closing ”, a single line. 'petamus' is a hortatory subjunctive. 'proavos' means 'forefathers', specifically the remote ancestors; the sailors have understood Anchises' reading of the oracle."),
 
 ((131, 'oris.'),
-"Follows, rising from the stern, a wind as we go,\nand at last to the ancient shores of the Curetes we glide.",
+"Follows, rising from the stern, a wind, us as we go,\nand at last to the ancient shores of the Curetes we glide.",
 "A wind rising behind us follows us on our way, and at last we glide to the ancient shores of the Curetes.",
-"'Prosequitur' is the present of the deponent 'prosequor', 'follows (and speeds)'. 'surgens a puppi ventus' is 'a wind rising from the stern', a following wind, and 'euntis' is an accusative plural in -is of the participle, 'us as we go'. 'Curetum' is the old genitive plural in -um (again) for 'Curetorum': the Curetes were the early inhabitants of Crete and the first priests of Jupiter there. 'adlabimur' is the present of the deponent 'adlabor', 'glide to', governing a dative: 'antiquis… oris'."),
+"'Prosequitur' is the present of the deponent 'prosequor', 'follows (and speeds)'. 'surgens a puppi ventus' is 'a wind rising from the stern', a following wind, and 'euntis' is an accusative plural in -is of the participle, 'us as we go'. 'Curetum' is the genitive plural of 'Curetes', a Greek third-declension name (-um, not -orum): in the legend the Curetes were the old inhabitants of Crete, the guardians of the infant Jupiter. 'adlabimur' is the present of the deponent 'adlabor', 'glide to', governing a dative: 'antiquis… oris'."),
 
 ((132, 'urbis,'),
 "Therefore eagerly I build the walls of the wished-for city,",
@@ -146,8 +147,8 @@ U = [
 
 ((134, 'tectis.'),
 "and I call it Pergamum, and the people glad at the name\nI urge to love their hearths and to raise a citadel with roofs.",
-"I call it Pergamum, and urge the people, glad of the name, to love their hearths and to raise a citadel on high roofs.",
-"'Pergameam' (a city, understood from 'urbis') is an object of 'voco', 'I call'; it is named after Troy's citadel. 'laetam cognomine gentem' is 'the people glad in the name', and 'cognomine' is an ablative of cause. 'hortor' is followed by two infinitives ('amare', 'attollere'), the construction used by poets where prose uses 'ut' and the subjunctive. 'tectis' is an ablative of means or accompaniment: the citadel is raised 'with roofs', that is, with dwellings built about it."),
+"I call it Pergamum, and urge the people, glad of the name, to love their hearths and to raise a citadel with its roofs.",
+"'Pergameam' is an adjective used as a noun ('urbem' understood from 'urbis'), the object of 'voco', 'I call'; the name comes from Pergamum, Troy's citadel. 'laetam cognomine gentem' is 'the people glad in the name', and 'cognomine' is an ablative of cause. 'hortor' is followed by two infinitives ('amare', 'attollere'), the construction used by poets where prose uses 'ut' and the subjunctive. 'tectis' is an ablative of means or accompaniment: the citadel is raised 'with roofs', that is, with buildings."),
 
 ((135, 'puppes;'),
 "And now almost on dry shore the ships had been drawn up;",
@@ -157,7 +158,7 @@ U = [
 ((136, 'iuventus;'),
 "with marriages and new fields the young men busy;",
 "the young men were busy with weddings and new farmland;",
-"'operata' is the perfect participle of the deponent 'operor', 'be busy with', which in poetry takes the ablative ('conubiis arvisque novis'). The participle has an active sense here, as with all deponents. 'iuventus' is a collective noun, 'the young men'. 'conubiis' is Greenough's spelling of 'connubiis', 'marriages'."),
+"'operata' is the perfect participle of the deponent 'operor', 'be busy with', which takes a dative ('conubiis arvisque novis', a form identical with the ablative). The perfect participle of a deponent has an active sense, as here. 'iuventus' is a collective noun, 'the young men'. 'conubiis' is Greenough's spelling of 'connubiis', 'marriages'."),
 
 ((137, 'dabam:'),
 "laws and homes I was giving:",
@@ -165,9 +166,9 @@ U = [
 "'iura domosque dabam' is the imperfect, 'I was giving', an action under way. The colon prepares for the interruption that follows with 'cum'. 'iura' means 'laws' and 'domos' means 'houses', both objects of 'dabam'."),
 
 ((139, 'annus.'),
-"when suddenly, wasting for bodies,\nwith the course of the sky corrupted, and piteous\nto trees and crops, came a plague and a deadly year.",
+"when suddenly, wasting for bodies,\nwith the region of the sky corrupted, and pitiable came\nto both trees and crops a plague, and a deadly year.",
 "when suddenly, from a tainted sky, a wasting plague fell on their limbs, pitiful for trees and crops alike — a deadly season.",
-"'cum' with the indicative ('venit') is the 'cum inversum': 'when suddenly came'. 'tabida', 'miseranda' and 'letifer' all describe 'lues' (singular, 'plague'). 'tabida' is 'wasting' and 'membris' is a dative of the sufferers, 'for the limbs, bodies'. 'corrupto caeli tractu' is an ablative absolute, 'the region of the sky being corrupted', the air tainted. 'miseranda' is a gerundive used as an adjective, 'to be pitied', and 'arboribus satisque' is a dative of the thing affected, 'for trees and crops' ('satis' is the dative or ablative plural of 'sata', 'crops'). The verb 'venit' is singular, agreeing with the nearer subject 'lues'; 'letifer annus' is a second subject added."),
+"'cum' with the indicative ('venit') is the 'cum inversum': 'when suddenly came'. 'tabida' and 'miseranda' describe 'lues' (singular, 'plague'); 'letifer' goes with 'annus'. 'tabida' is 'wasting' and 'membris' is a dative of the sufferers, 'for the limbs, bodies'. 'corrupto caeli tractu' is an ablative absolute, 'the region of the sky being corrupted', the air tainted. 'miseranda' is a gerundive used as an adjective, 'to be pitied', and 'arboribus satisque' is a dative of the thing affected, 'for trees and crops' ('satis' is the dative or ablative plural of 'sata', 'crops'). The verb 'venit' is singular, agreeing with the first subject, 'lues'; 'letifer annus' is a second subject added."),
 
 ((141, 'corpora;'),
 "They left sweet lives, or sick were dragging\ntheir bodies;",
@@ -176,18 +177,18 @@ U = [
 
 ((141, 'agros;'),
 "then Sirius to scorch the barren fields;",
-"then Sirius scorched the fields to barrenness;",
-"'exurere' is a historic infinitive, an infinitive used as if it were a past tense with a subject in the nominative ('Sirius'); it gives a sudden, quick sense, and Virgil uses it for vivid narrative. Sirius, the Dog Star, rises in the hottest part of summer and was believed to bring drought and disease. 'tum' is 'then'. 'sterilis… agros' is an accusative plural in -is: the fields are 'barren' as a result."),
+"then Sirius scorched the barren fields;",
+"'exurere' is a historic infinitive, an infinitive used as if it were a past tense with a subject in the nominative ('Sirius'); it gives a sudden, quick sense, and Virgil uses it for vivid narrative. Sirius, the Dog Star, rises in the hottest part of summer and was believed to bring drought and disease. 'tum' is 'then'. 'sterilis… agros' is an accusative plural in -is: 'the barren fields'."),
 
 ((142, 'negabat.'),
 "the grasses were withering, and the sick crop denied food.",
-"the grass withered, and the sickly crop refused its food.",
+"the grass withered, and the sickly crop refused food.",
 "'arebant' is the imperfect of 'areo', 'be dry, wither'. 'victum' is 'food', the object of 'negabat', 'denied'; 'seges aegra' is 'the sick crop', the standing corn. After the infinitive of the last unit, the narrative is back in ordinary imperfects."),
 
 ((144, 'precari:'),
-"Again to the oracle of Ortygia and Phoebus, the sea measured back,\nbids my father go, and to beg for grace:",
+"Again to the oracle of Ortygia and to Phoebus, retraced,\nurges the father to go by sea, and to beg for favour:",
 "Again my father bids me retrace the sea to the oracle of Ortygia and to Phoebus, and beg his favour:",
-"'oraclum' is a contracted form of 'oraculum' (Greek-derived syncope; you'll see it throughout). 'Rursus' is 'again', the Trojans having consulted the oracle once already. 'remenso… mari' is an ablative absolute, 'the sea having been measured again', in its passive sense. 'hortatur' governs the infinitives 'ire' and 'precari' (the poetic construction, with 'me' understood). 'pater' is Anchises. 'veniam' is 'favour, grace, pardon'. The colon introduces the matters to be asked."),
+"'oraclum' is a contracted form of 'oraculum' (the unstressed vowel dropped, as often in verse). 'Rursus' is 'again', the Trojans having consulted the oracle once already. 'remenso… mari' is an ablative absolute, 'the sea having been measured again', in its passive sense. 'hortatur' governs the infinitives 'ire' and 'precari' (the poetic construction, with 'me' understood). 'pater' is Anchises. 'veniam' is 'favour, grace, pardon'. The colon introduces the matters to be asked."),
 
 ((145, 'ferat;'),
 "to what end for weary affairs he may bring;",
@@ -207,25 +208,25 @@ U = [
 ((147, 'habebat:'),
 "It was night, and sleep held living things on the lands:",
 "It was night, and sleep held every living creature on the earth:",
-"New paragraph. 'Nox erat' is the scene-setting formula of an epic night. 'animalia' is a neuter plural noun, 'living things', and 'terris' is a dative or ablative of place, 'over the lands'. 'habebat' means 'held'. The colon introduces what Aeneas saw in his sleep."),
+"New paragraph. 'Nox erat' is the scene-setting formula of an epic night. 'animalia' is a neuter plural noun, 'living things', and 'terris' is an ablative of place where, without a preposition, 'over the lands'. 'habebat' means 'held'. The colon introduces what Aeneas saw in his sleep."),
 
 ((148, 'Penates,'),
 "the sacred images of the gods and the Phrygian Penates,",
 "the sacred images of the gods, the Trojan Penates,",
-"'effigies' is the subject of the sentence, and 'visi' (line 150) picks it up. 'divom' is the old genitive plural for 'divorum' (Greenough's spelling; the Latin Library prints 'diuum'). The Penates were the Roman household gods, here the Trojan images of the home gods that Aeneas brought from Troy. 'Phrygii' means 'Trojan'."),
+"'effigies… Penates' is the subject, picked up by 'visi' (line 150), which is masculine and so agrees with 'Penates'. 'divom' is the old genitive plural for 'divorum' (Greenough's spelling; the Latin Library prints 'diuum'). The Penates were the Roman household gods, here the Trojan images of the home gods that Aeneas brought from Troy. 'Phrygii' means 'Trojan'."),
 
 ((150, 'extuleram,'),
 "whom with me from Troy and from the midst of the city's fires\nI had carried out,",
 "whom I had carried with me from Troy and from the midst of the city's fires,",
-"'quos' is the connecting relative clause: the antecedent is 'Penates'. 'extuleram' is the pluperfect of 'effero', 'carry out'. The rescue is told in Book II (Hector's ghost gave them to Aeneas). 'mediis ex ignibus urbis' is 'from the midst of the city's fires' (the adjective 'mediis' agrees with 'ignibus')."),
+"'quos' is the relative pronoun of a plain relative clause: the antecedent is 'Penates'. 'extuleram' is the pluperfect of 'effero', 'carry out'. The rescue is told in Book II (Hector's ghost gave them to Aeneas). 'mediis ex ignibus urbis' is 'from the midst of the city's fires' (the adjective 'mediis' agrees with 'ignibus')."),
 
 ((151, 'lumine,'),
-"seemed before the eyes of me lying down\nin sleep to stand, clear in much light,",
+"seemed before the eyes to stand of one lying\nin sleep, plain in abundant light,",
 "seemed to stand before my eyes as I lay in sleep, plain to see in a flood of light,",
 "'visi' is the nominative plural of the perfect participle of 'video' used passively, 'seemed' (the subject being 'effigies… Penates'); 'adstare' is the infinitive that goes with it (Greenough's spelling; the Latin Library prints 'astare'). 'iacentis' is the genitive singular of 'iacens', 'of one lying', agreeing with an unstated 'mei' ('my'): so 'before the eyes of me lying', a Latin way of saying 'as I lay'. 'in somnis' is 'in sleep' (the plural is standard). 'multo manifesti lumine' means 'clearly seen in abundant light': 'manifesti' agrees with 'visi'."),
 
 ((152, 'fenestras;'),
-"where the full moon was pouring in\nthrough the windows set in the wall;",
+"where itself\nthe full moon through the inset windows was pouring;",
 "where the full moon was pouring through the windows let into the wall;",
 "'qua' is a relative adverb, 'where, by which way'. 'plena… luna' is the full moon, and 'fundebat' means 'was pouring'. 'se' is the reflexive: the moon was pouring itself, its light, in. 'insertas fenestras' means 'windows set into' the wall (the perfect passive participle of 'insero')."),
 
@@ -247,12 +248,12 @@ U = [
 ((158, 'nepotes,'),
 "we the same will raise to the stars your descendants to come,",
 "we, the same gods, shall lift your coming descendants to the stars",
-"'idem' is the nominative plural masculine of 'idem', 'the same' (the same ones who followed you will do this). 'tollemus in astra' is 'we shall raise to the stars', a promise of exaltation (the Roman honours). 'venturos… nepotes' means 'descendants who are to come', with 'venturos' the future participle of 'venio'."),
+"'idem' is the nominative plural masculine of 'idem', 'the same' (the same ones who followed you will do this). 'tollemus in astra' is 'we shall raise to the stars', a promise of glory for the race. 'venturos… nepotes' means 'descendants who are to come', with 'venturos' the future participle of 'venio'."),
 
 ((159, 'dabimus:'),
 "and empire to the city we shall give:",
 "and give empire to their city.",
-"'imperium' is 'empire, rule', and 'urbi' is a dative, 'to the city', Rome. 'dabimus' is a future. The colon here introduces the command that follows, the 'what you must do in return'."),
+"'imperium' is 'empire, rule', and 'urbi' is a dative, 'to the city', Rome. 'dabimus' is a future. The colon here introduces the command that follows."),
 
 ((160, 'laborem.'),
 "you walls for the great\ngreat prepare, and the long toil of flight do not leave.",
@@ -265,17 +266,17 @@ U = [
 "'Mutandae sedes' is an elliptical gerundive, 'sunt' left out: the seats are 'to be changed', that is, 'must be changed'. The colon introduces the reason."),
 
 ((162, 'Apollo.'),
-"not these shores to you has the Delian urged,\nor on Crete bid you settle, Apollo.",
+"not these shores to you has urged\nthe Delian, or to settle on Crete has bid, Apollo.",
 "It was not these shores that the Delian counselled you to find, nor did Apollo tell you to settle in Crete.",
-"'Delius… Apollo' is split by the rest of the sentence (hyperbaton): 'Delius' means 'the god of Delos'. 'suasit' is the perfect of 'suadeo', 'advise', governing an accusative ('haec litora') in this poetic use; 'iussit' is 'ordered', with the infinitive 'considere'. 'Cretae' is an old locative, 'in Crete'. The Penates say that the oracle did not point to Crete: Aeneas had misread it."),
+"'Delius… Apollo' is split by the rest of the sentence (hyperbaton): 'Delius' means 'the god of Delos'. 'suasit' is the perfect of 'suadeo', 'advise', governing an accusative ('haec litora') in this poetic use; 'iussit' is 'ordered', with the infinitive 'considere'. 'Cretae' is a locative, 'in Crete'. The Penates say that the oracle did not point to Crete: Aeneas had misread it."),
 
 ((163, 'dicunt,'),
 "There is a place, Hesperia the Greeks by name call it,",
 "There is a land the Greeks call Hesperia by name,",
-"'Est locus' is an opening formula for a description. 'Hesperiam… dicunt' is 'they call it Hesperia' (the 'Western land', from the Greek 'hespera', evening); 'cognomine' is an ablative of the name. 'Grai' is the old form of 'Graii', the Greeks."),
+"'Est locus' is an opening formula for a description. 'Hesperiam… dicunt' is 'they call it Hesperia' (the 'Western land', from the Greek 'hespera', evening); 'cognomine' is an ablative of the name. 'Grai' is the contracted form of 'Graii', the Greeks (two syllables in the verse)."),
 
 ((164, 'glaebae;'),
-"a land ancient, mighty in arms and in the fertile soil;",
+"a land ancient, mighty in arms and in the richness of soil;",
 "an ancient land, strong in arms and in the richness of its soil;",
 "'terra antiqua' is in apposition to 'locus'. 'potens' takes the ablative 'armis' ('strong in arms'); 'ubere' is the ablative of the noun 'uber', 'richness', with 'glaebae' as its genitive, 'in richness of soil'. The Latin gives a pair of strengths, war and farming."),
 
@@ -287,12 +288,12 @@ U = [
 ((166, 'gentem:'),
 "now rumour that the younger ones\nItaly have called the nation from the name of the leader:",
 "now the report is that their later descendants have named the nation Italy after their leader:",
-"'fama' (is) is understood: 'now (there is) the report that…' and the accusative and infinitive follows: 'minores… dixisse… gentem', 'that the younger folk have called the nation'. 'minores' means 'those who came later'. 'Italiam' is the predicate accusative, 'Italy', 'gentem' being the object. 'ducis de nomine' means 'from the name of the leader' (Italus, by the ancient tradition). The colon prepares for the claim."),
+"'est' is understood: 'now (there is) the report that…' and the accusative and infinitive follows: 'minores… dixisse… gentem', 'that the younger folk have called the nation'. 'minores' means 'those who came later'. 'Italiam' is the predicate accusative, 'Italy', 'gentem' being the object. 'ducis de nomine' means 'from the name of the leader' (Italus, by the ancient tradition). The colon prepares for the claim."),
 
 ((167, 'sedes;'),
 "these are our own seats;",
 "This is our own home;",
-"'hae nobis propriae sedes' has 'sunt' understood, and 'nobis' is a dative of possession, 'our own', 'propriae', 'lasting', as in the pilot's 'sunt mihi'."),
+"'hae nobis propriae sedes' has 'sunt' understood, and 'nobis' is a dative of possession, 'ours' (as in the pilot's 'sunt mihi'), and 'propriae' means 'our very own, permanent'."),
 
 ((168, 'nostrum.'),
 "from here Dardanus rose,\nand father Iasius, from whom as founder our race.",
@@ -306,7 +307,7 @@ U = [
 
 ((171, 'Ausonias;'),
 "let him seek Corythus and the lands\nAusonian;",
-"let him look for Corythus and the Ausonian land;",
+"let him look for Corythus and the Ausonian lands;",
 "'requirat' is a jussive subjunctive in the reported message, 'let him seek'. 'Corythum' is the Etruscan city of Corythus, the home of Dardanus in the tradition; 'Ausonias' is an adjective, 'Ausonian', that is, Italian (from the Ausones, an old people of the peninsula). The instruction does not say Italy by name."),
 
 ((171, 'arva.”'),
@@ -317,25 +318,25 @@ U = [
 ((172, 'deorum—'),
 "By such visions astonished and by the voice of the gods —",
 "Stunned by such sights and by the voice of the gods —",
-"New paragraph. 'attonitus' is the perfect participle of 'attono', 'thunderstruck, stunned', agreeing with the 'I' of the verb 'corripio' in line 176. The dash marks that the sentence breaks off (anacoluthon): Aeneas stops to say what he is sure of, and the construction starts afresh after the digression. 'Talibus… visis' is an ablative of cause."),
+"New paragraph. 'attonitus' is the perfect participle of 'attono', 'thunderstruck, stunned'. It is nominative and masculine and belongs with the 'I' of 'corripio' in line 176; the dash opens a parenthesis in which Aeneas insists that the vision was real, and the sentence resumes after it. 'Talibus… visis' is an ablative of cause, 'by such sights'."),
 
 ((174, 'videbar;'),
 "nor was that sleep, but face to face to know the looks\nand veiled hair and present faces I seemed;",
-"It was no dream — face to face I seemed to know their features, their veiled hair, their living presence;",
-"The parenthesis. 'nec sopor illud erat' is 'that was not sleep'. 'videbar' is the passive of 'video', 'I seemed', with the infinitive 'adgnoscere' (Greenough's spelling; the Latin Library prints 'agnoscere'), 'to recognise'. 'coram' means 'face to face'. 'voltus' is Greenough's spelling of 'vultus'. 'velatas comas' means 'veiled hair', hair bound with fillets, as for a sacred figure. 'praesentia ora' means 'faces present', real, before him. The semicolon is Greenough's."),
+"It was not sleep: face to face I seemed to know their looks, their veiled hair, their faces present before me;",
+"The parenthesis. 'nec sopor illud erat' is 'that was not sleep'. 'videbar' is the passive of 'video', 'I seemed', with the infinitive 'adgnoscere' (Greenough's spelling; the Latin Library prints 'agnoscere'), 'to recognise'. 'coram' means 'face to face'. 'voltus' is Greenough's spelling of 'vultus'. 'velatas comas' means 'covered hair', hair covered with a veil or bound with a fillet, as for a sacred figure. 'praesentia ora' means 'faces present', real, before him. The semicolon is Greenough's."),
 
 ((178, 'focis.'),
-"then a cold sweat ran down over all my body\nI snatch my body from the bedclothes, and I stretch my hands\nupturned to heaven, with a cry, and gifts I pour out\nundefiled on the hearths.",
+"then a cold sweat ran down over all my body\nI snatch my body from the bedclothes, and I stretch upturned\nto heaven with a cry my hands, and gifts I pour out\nundefiled on the hearths.",
 "Then a cold sweat poured over my whole body; I snatch myself from my bedding, stretch my upturned hands to heaven, with a cry, and pour out unspoiled offerings on the hearth.",
 "Greenough prints no stop after 'sudor', and the line runs straight into the main verbs; the English has to supply one. 'gelidus… sudor' is 'cold sweat', and 'manabat' is the imperfect of 'mano', 'flow'. 'corripio… corpus' is the present, 'I snatch up (my body)', 'e stratis' means 'from the bedclothes'. 'tendo… supinas… manus' means 'I stretch my upturned hands' (palms up in prayer). 'libo' is the present of 'libo', 'I pour as a libation'. 'munera… intemerata' means 'unspoiled gifts', pure libations. 'focis' is a dative or ablative, 'on the hearths' (the household altars)."),
 
 ((179, 'pando.'),
 "When the honour was done, glad,\nI make Anchises sure, and the matter in order I lay open.",
-"When the rite was done, I gladly put Anchises in the picture, and unfold the whole matter in order.",
+"When the rite was done, I gladly informed Anchises, and laid out the whole matter in order.",
 "'Perfecto… honore' is an ablative absolute, 'the offering having been completed'. 'facio certum' means 'I make (Anchises) sure', that is, 'I inform'. 'Anchisen' is the Greek accusative of 'Anchises'. 'pando' is the present of 'pando', 'spread out, lay open'. The tense is the narrative present."),
 
 ((180, 'parentes,'),
-"He recognised the double line and the twin parents,",
+"He recognised the doubtful stock and the twin parents,",
 "He saw that the line of their race was twofold, and the parents twin,",
 "'Adgnovit' (Greenough's spelling; the Latin Library prints 'agnouit') is the perfect of 'adgnosco'. 'prolem ambiguam' means 'the ambiguous, doubtful stock' and 'geminos parentes' means 'the two ancestors'; the Latin Library prints 'parentis', the same accusative plural in the -is spelling, which does not change the sense. Anchises sees that the Trojans have two founders (Teucer, from Crete, and Dardanus, from Italy), and has mixed them up."),
 
@@ -351,13 +352,13 @@ U = [
 
 ((183, 'canebat.'),
 "“Son, harried by Ilian fates,\nCassandra alone to me such events used to sing.",
-"“My son, harried by the fates of Ilium, Cassandra alone used to prophesy such happenings to me.",
+"“My son, tried so hard by the fates of Ilium, only Cassandra used to foretell such happenings to me.",
 "Anchises' second speech begins, with the opening “; it runs to 188. 'Nate' is the vocative of 'natus', 'son'. 'exercite' is the vocative of the perfect participle of 'exerceo', 'harried, driven', with 'Iliacis… fatis' as an ablative of means. 'sola… Cassandra' is the subject, with 'mihi' a dative of the person told. 'canebat' is the imperfect of 'cano', repeated action. Cassandra, Priam's daughter, was gifted with prophecy by Apollo and cursed never to be believed."),
 
 ((185, 'vocare.'),
-"Now I recall these things were being foretold as owed to our race,\nand often Hesperia, often Italian realms she called.",
+"Now I recall her to portend these things, owed to our race,\nand often Hesperia, often Italian realms to call.",
 "Now I remember that these things were foretold as owed to our house, and that she often spoke of Hesperia, often of the Italian kingdoms.",
-"'repeto' is 'I call to mind again'. 'haec' is the subject of 'portendere', 'to portend', in an accusative and infinitive after 'repeto', and 'debita' is 'owed', 'due', in the sense of 'destined', agreeing with 'haec'. 'generi nostro' is a dative, 'to our stock'. 'vocare' is a second infinitive of the same construction, with Cassandra the subject, 'she called'; 'saepe… saepe' repeats the word."),
+"'repeto' is 'I call to mind again'. 'portendere', 'to portend', is an infinitive after 'repeto' whose subject, Cassandra, is left unexpressed ('I recall her portending'); 'haec' is its object, and 'debita' is 'owed', 'due', in the sense of 'destined', agreeing with 'haec'. 'generi nostro' is a dative, 'to our stock'. 'vocare' is a second infinitive of the same construction, with the same unexpressed subject, Cassandra, 'she called'; 'saepe… saepe' repeats the word."),
 
 ((187, 'moveret?'),
 "But who would have believed that to the shores of Hesperia Teucrians would come,\nor whom then would the prophetess Cassandra have moved?",
@@ -385,9 +386,9 @@ U = [
 "New paragraph. 'Postquam' with the perfect 'tenuere' (-ere = -erunt) gives 'after they held'. 'altum' is 'the deep, the high sea'. 'nec iam amplius ullae adparent terrae' is 'no lands any longer appear', with Greenough's spelling 'adparent' (the Latin Library prints 'apparent'). 'caelum undique et undique pontus' has no verb: a vivid fragment ('erat' is understood), with the repeated 'undique'. The comma leads to the main clause."),
 
 ((195, 'tenebris.'),
-"then over my head a dark blue cloud stood,\nbringing night and storm, and the wave bristled with darkness.",
-"then a dark storm-cloud came to rest above my head, bringing night and tempest, and the water shuddered black beneath the shadow.",
-"'tum' is the main clause that 'postquam' prepared. 'mihi… supra caput' means 'over my head', 'mihi' being a dative of the person affected (Aeneas is seeing it). 'caeruleus… imber' means 'the dark blue rain-cloud'. 'adstitit' is the perfect of 'adsto' (the Latin Library prints 'astitit'), 'stood by'. 'ferens' is a present participle, 'bringing', with the two objects 'noctem hiememque'. 'inhorruit' is the perfect of 'inhorreo', 'bristle, shudder'; 'unda' is the sea's surface, and 'tenebris' an ablative of cause or means, 'with darkness'."),
+"then to me dark blue above my head stood a rain-cloud,\nbringing night and storm, and the wave bristled with darkness.",
+"then a dark rain-cloud halted above my head, bringing night and foul weather, and the water shuddered under the gloom.",
+"'tum' is the main clause that 'postquam' prepared. 'mihi' is a dative of the person concerned ('for me'), and 'supra caput' is 'above my head'. 'caeruleus… imber' means 'the dark blue rain-cloud'. 'adstitit' is the perfect of 'adsto' (the Latin Library prints 'astitit'), 'stood by'. 'ferens' is a present participle, 'bringing', with the two objects 'noctem hiememque'. 'inhorruit' is the perfect of 'inhorreo' (or 'inhorresco'), 'bristle, shudder'; 'unda' is the sea's surface, and 'tenebris' an ablative of cause or means, 'with darkness'."),
 
 ((197, 'aequora;'),
 "At once the winds roll the sea, and great\nwaters rise;",
@@ -400,7 +401,7 @@ U = [
 "'dispersi' is the nominative plural of the perfect participle of 'dispergo', 'scattered'. 'iactamur' is the present passive of 'iacto', 'we are tossed about'. 'gurgite vasto' is an ablative of place where, 'on the vast whirlpool, gulf'."),
 
 ((199, 'abstulit;'),
-"the rain clouds have wrapped up the day, and wet night\nhas taken away the sky;",
+"the rain clouds have wrapped up the day, and wet night the sky\nhas taken away;",
 "storm-clouds have wrapped up the day, and damp night has snatched the heavens away;",
 "'involvere' is the perfect 'involverunt' (-ere = -erunt), 'enveloped', with 'diem' as its object and 'nimbi' as subject. 'nox umida' is 'wet night', with 'caelum' as the object of 'abstulit', the perfect of 'aufero', 'take away'. The perfects give the sudden effect."),
 
@@ -416,7 +417,7 @@ U = [
 
 ((202, 'unda.'),
 "Himself the day and the night denies he can tell apart in the sky,\nnor to remember the way in mid wave, Palinurus.",
-"Palinurus himself swears he cannot tell day from night in the sky, nor recall the way amid the waves.",
+"Palinurus himself declares he cannot tell day from night in the sky, nor recall the way amid the waves.",
 "'Ipse… Palinurus' frames the sentence (hyperbaton): Palinurus is Aeneas' helmsman, and 'ipse' stresses that even the expert is lost. 'negat' means 'he says that he cannot', governing the infinitives 'discernere' and 'meminisse' ('negat' = 'dicit non'). 'caelo' is an ablative of place where. 'meminisse' (the perfect infinitive, with present sense) takes a genitive, 'viae', 'of the way'. 'media… in unda' means 'in the middle of the water'."),
 
 ((204, 'noctes.'),
@@ -425,17 +426,18 @@ U = [
 "'Tris' is an accusative plural in -is (for 'tres'), agreeing with 'soles'; 'adeo' adds emphasis, 'for three whole days'. The accusatives 'soles' and 'noctes' express duration of time. 'incertos' agrees with 'soles' (a transferred epithet: it is the sailors who are uncertain). 'caeca caligine' is an ablative of means or manner, 'in blind mist'. 'totidem' means 'just as many'. 'sine sidere' means 'without a star'."),
 
 ((206, 'fumum.'),
-"On the fourth day at last the land to rise\nwas seen, to open up mountains far off, and roll smoke.",
-"On the fourth day land at last seemed to lift itself, to open out mountains in the distance and to roll up smoke.",
-"'Quarto… die' is an ablative of time when. 'terra… visa' is 'the land was seen to', 'visa (est)', the perfect passive of 'video' in the sense 'seemed'; it is followed by three infinitives ('attollere', 'aperire', 'volvere'). 'se attollere' means 'to raise itself'. 'aperire… montis' is 'to open out mountains', to reveal them (an accusative plural in -is). 'volvere fumum' means 'to roll smoke', a haze or the smoke of hearths. 'ac' is a variant of 'atque', 'and'."),
+"On the fourth day land first itself to raise at last\nwas seen, to open mountains far off, and to roll smoke.",
+"On the fourth day land at last seemed first to lift itself, to open out mountains in the distance and to roll up smoke.",
+"'Quarto… die' is an ablative of time when. 'terra… visa' is 'the land was seen to', 'visa (est)', the perfect passive of 'video' in the sense 'seemed'; it is followed by three infinitives ('attollere', 'aperire', 'volvere'). 'se attollere' means 'to raise itself'. 'aperire… montis' is 'to open out mountains', to reveal them (an accusative plural in -is). 'volvere fumum' means 'to roll smoke'. 'primum… tandem' together are 'first, at last'. 'ac' is a variant of 'atque', 'and'."),
 
 ((207, 'insurgimus;'),
 "The sails fall, we rise to the oars;",
 "The sails come down, and we rise to the oars;",
-"'Vela cadunt' means 'the sails fall', they are lowered, since the oars are now needed. 'remis insurgimus' means 'we rise to the oars' (dative with 'insurgo'); rowers stand to heave."),
+"'Vela cadunt' means 'the sails fall', they are lowered, since the oars are now needed. 'remis insurgimus' means 'we rise to the oars' (dative with 'insurgo')."),
 
 ((208, 'verrunt.'),
 "no delay, the sailors\nstraining twist the foam and sweep the blue.",
-"There is no delay; the sailors strain, churn the foam and sweep the blue water.",
+"There is no delay; the sailors bend to it, whirl up the foam and rake the blue water.",
 "'haud mora' has 'est' understood, 'there is no delay'. 'nautae' is the subject of 'torquent' and 'verrunt'. 'adnixi' is the nominative plural of the perfect participle of the deponent 'adnitor', 'straining', with active sense. 'torquent spumas' means 'twist, whirl the foam', 'verrunt' is the present of 'verro', 'sweep'. 'caerula' is a neuter plural used as a noun, 'the blue (waters)'. The part ends in mid-voyage, with land in sight."),
+
 ]

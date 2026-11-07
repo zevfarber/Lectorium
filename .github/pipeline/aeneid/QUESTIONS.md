@@ -34,3 +34,5 @@ Open:
 14. **Check merentis (aeneid-014, 2.585–586).** Read as acc. pl. of the participle merens agreeing with *poenas* ("deserved punishments"); the genitive-singular alternative is named in the note. Meanwhile: published as is.
 
 15. **2.563 Iuli (aeneid-014).** The aeneid-015 review found Iulus/Iulum scan as three syllables (Ĭ-ū-lus) with a dactylic fifth foot (cf. 1.556, 1.690); aeneid-014 published 2.563 with a spondaic fifth foot and consonantal I. Meanwhile: left; a scan-fixes entry would apply on a rebuild of 014.
+
+16. **Scansion not confirmed (aeneid-016).** 2.745 scans only with *deo* as one short syllable (synizesis); 2.787 is treated as a half-line (11 syllables; on the traditional list of Book II hemistichs, not sourced in the pipeline); long -bi of *tibi*/*ibi* (704, 784, 792), *Lydius* (781), *asylo* (761), *donec* (719), *e tanto* (718), *iuxta* (714), *gaza* (763) rest on the only fit found. Meanwhile: kept; revisit if you know otherwise.

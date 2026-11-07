@@ -26,3 +26,5 @@ Open:
 10. **Doubtful quantities (aeneid-008).** 1.663 hand scansion needs Ergo not elided before his; 1.682 needs -us long before elided -ve; 1.703 intus, 1.733 huius, 1.693 amaracus each need a long syllable the references did not confirm. Meanwhile: kept the only parse that fits; revisit if you know otherwise.
 
 11. **II.49 set piece decided by the run (aeneid-009).** Built from the Latin alone, rephrased away from known versions, added to the house-renderings table. Meanwhile: published as is; change it if you prefer another.
+
+12. **Scansion not confirmed (aeneid-012).** 2.288 gemitus (scanner marks ge/mi long) and 2.325 Dardaniae/Troes (scanner splits ae and reads Troes as one syllable) are published on the scanner's fit; the reviewer could not settle them from public-domain sources. Audio quantities may be off there. Meanwhile: kept; revisit if you know otherwise. 2.339 Rhipeus rests on a long Rhi, also unconfirmed.

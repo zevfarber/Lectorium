@@ -30,3 +30,5 @@ Open:
 12. **Scansion not confirmed (aeneid-012).** 2.288 gemitus (scanner marks ge/mi long) and 2.325 Dardaniae/Troes (scanner splits ae and reads Troes as one syllable) are published on the scanner's fit; the reviewer could not settle them from public-domain sources. Audio quantities may be off there. Meanwhile: kept; revisit if you know otherwise. 2.339 Rhipeus rests on a long Rhi, also unconfirmed.
 
 13. **Doubtful quantities (aeneid-013).** 2.433 long *si*, 2.419 long *i* in *imo*, 2.447 *iam*, 2.449 *imas*, 2.468 (half-line) long final -a of *interea* and lengthened *sat*, 2.417 short E- in *Eois* (cf. 1.489 long), and *Rhi-* long (as at 2.339) rest on the only fit found, unconfirmed. Meanwhile: kept; revisit if you know otherwise.
+
+14. **Check merentis (aeneid-014, 2.585–586).** Read as acc. pl. of the participle merens agreeing with *poenas* ("deserved punishments"); the genitive-singular alternative is named in the note. Meanwhile: published as is.

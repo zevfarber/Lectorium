@@ -2335,5 +2335,50 @@
    "pa⏑6ra–ti×"
   ],
   "why": "convenēre is the perfect (convēnī, long ē, and -ēre), so both ve and ne are long and re elides before animis: Un-dĭ-quĕ | con-vē | nē ă-nĭ | mis ŏ-pĭ | bus-quĕ pă | rā-ti. The scanner gave ve and ne short (cost 0.0, wrong quantities) and a different foot pattern (dactyl, dactyl, dactyl, spondee)."
+ },
+ "3.53": {
+  "sc": [
+   "1Il–le",
+   "ut⏑",
+   "o⏑2pes–",
+   "frac–3tae–‖",
+   "Teu–crum",
+   "4et–",
+   "For–5tu–na⏑",
+   "re⏑6ces–sit×"
+  ],
+  "why": "Teu- is one long syllable (Greek eu), as Teucrum at 1.38 and 1.626: Il(le) ŭt ŏ | pēs frac | tae Teu(crum) | et For | tū-nă rĕ | ces-sit (-le of Ille and -crum elide). The scanner split Teucrum into Te-u and gave the third foot a dactyl."
+ },
+ "3.74": {
+  "sc": [
+   "1Ne–re–2i–dum–",
+   "3ma–tri",
+   "et–",
+   "4Nep–tu–5no–",
+   "Ae–6gae–o×"
+  ],
+  "why": "Nē-rē-ī-dum | mā(tri) et | Nēp-tū | nō Ae | gae-o: twelve syllables, every foot a spondee. Matri elides before et; Neptuno stays unelided before Aegaeo (hiatus; with both elisions there are only eleven syllables and no hexameter), and Ae- is one long syllable, not A-e. The i of Nereidum must be long for the line to scan. UNCONFIRMED: this is the only fit under natural quantities, not checked against an edition. The scanner (COSTLY 5.2) split Ae- in two and shortened tu and no."
+ },
+ "3.87": {
+  "sc": [
+   "1Per–ga⏑ma⏑",
+   "2re–li⏑qui⏑3as–‖",
+   "Da⏑na⏑um",
+   "4at–que",
+   "im–5mi–tis⏑",
+   "A⏑6chil–li×"
+  ],
+  "why": "Per-gă-mă | rē-li-qui | as Dă-nă(um) | at(que) im | mi-tis A | chil-li, as 1.30: rēliquiās with long first syllable (relliquiae) and Danaum in three syllables with -um elided before atque. The scanner read reli-quias with synizesis and Danaum as Da-naum (one syllable), the blind spot named in conventions.md."
+ },
+ "3.97": {
+  "sc": [
+   "1hic–",
+   "do⏑mus⏑",
+   "2Ae–ne–3ae–‖",
+   "cunc–4tis–",
+   "do⏑mi⏑5na–bi⏑tur⏑",
+   "6o–ris×"
+  ],
+  "why": "hic dŏ-mŭs | Aē-nē | ae cunc | tis dŏ-mĭ | nā-bĭ-tŭr | ō-ris: Aeneae is Ae-nē-ae, three syllables, as 1.92; domus is not elided before Aeneae (hiatus, cf. 1.617): with elision there are only fourteen syllables and no fit under natural quantities. UNCONFIRMED against an edition. The scanner (cost 1.2) split Ae- into A-e and counted four syllables."
  }
 }

@@ -1171,3 +1171,6 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 
 ## 2026-11-08 (publishing run, night 86)
 - Doubtful, kept as printed and flagged in `n`: P483L07 لابستوحش (perhaps لا يستوحش; clause left partly unrendered), P484L02 ولاينيدك (verb unidentified), P484L07 للموزبردندان (garble for للوزير دندان), P484L09 خزنته (perhaps خزانته). Corrected misprints in emend.json: P482L05 قات→قالت, P483L19 يقدنا→يفدنا. The archive was not changed. هرّأ (P483L05) read as intransitive 'fell into shreds'.
+
+## 2026-11-08 (publishing run, night 87)
+- Corrected misprints in emend.json: six اى→الى (P485L05, P485L12, P486L02, P486L04, P486L08, P486L11). Doubtful, kept as printed and flagged in `n`: P486L10 جمع ما (perhaps جميع ما). Run-together words kept as printed and noted: السعيدأن, السّران, لا نتظار, ارادان, امران, صاربين. The archive was not changed.

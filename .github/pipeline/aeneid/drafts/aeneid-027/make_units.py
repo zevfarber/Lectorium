@@ -1,0 +1,15 @@
+import sys, os
+HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, '..', '..'))
+import aeneid_lib as A, draft
+P = A.part('aeneid-027'); L = A.lines_of(P); paras = {l['n'] for l in L if l['p']}
+cuts = A.cut(P, [(u[0],u[1]) for u in draft.U])
+sents = []; prev_end_line = None
+for (t, ln), (_, _t, l, i, n) in zip(cuts, draft.U):
+    u = {'t': t, 'l': l, 'i': i, 'n': n}
+    starts_line = prev_end_line != ln
+    if starts_line and ln in paras: u['p'] = True
+    u['v'] = True; u['ln'] = ln; sents.append(u)
+    prev_end_line = ln + t.count('\n')
+    if t.count('\n') != l.count('\n'): print('LINE COUNT', ln, repr(t[:30]))
+A.jdump({'title': draft.TITLE, 'titleEn': draft.TITLE_EN, 'part': draft.PART, 'about': draft.ABOUT, 'sentences': sents}, os.path.join(HERE, 'units.json'))
+print(len(sents), 'units')

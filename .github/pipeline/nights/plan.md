@@ -182,6 +182,7 @@ repository is the state, never this table. Run it rather than trusting what is w
 | Night 83 | P475L17–P478L04 | published 2026-11-06, 43 sense units (no verse; one Qurʾān quotation pointed in print), drafted by the orchestrator (check_slice PASS after --fix); +164 glossary entries; 3 emend entries (بلعني, الميل, الانني); سام and بين والدك kept as printed with notes |
 | Night 84 | P478L05–P480L18 | published 2026-11-07, 49 sense units (one verse block, copied as printed), drafted by the orchestrator (check_slice PASS after --fix); +159 glossary entries; 4 emend entries (يزهدل, ونقوم, تصرك, ماو); هل أ امن kept as printed, doubtful, flagged in n |
 | Night 85 | P480L19–P482L03 | published 2026-11-07, 23 sense units, drafted by the orchestrator (check_slice PASS after --fix); +52 glossary entries; 1 emend entry (بوالدين→بولدين); استبرأوهن kept as printed, doubtful, flagged in n |
+| Night 86 | P482L04–P484L14 | published 2026-11-08, 36 sense units, drafted by the orchestrator (check_slice PASS after --fix); +102 glossary entries; 2 emend entries (قات→قالت, يقدنا→يفدنا); لابستوحش, ولاينيدك, للموزبردندان, خزنته kept as printed, doubtful, flagged in n |
 
 A night runs 84–224 archived lines (about 5½ printed pages), so eight transcribed pages yield
 roughly one and a half nights. Eight units are waiting as of 2026-09-18, so the next several

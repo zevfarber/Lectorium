@@ -1168,3 +1168,6 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 
 ## 2026-11-07 (publishing run, night 85)
 - Doubtful, kept as printed and flagged in `n`: P481L20 استبرأوهن (verb in print; sense wants استبراؤهن), P481L17 مخالفتي لك, P482L02 من منذ. Corrected misprint in emend.json: P482L01 بوالدين→بولدين. The archive was not changed.
+
+## 2026-11-08 (publishing run, night 86)
+- Doubtful, kept as printed and flagged in `n`: P483L07 لابستوحش (perhaps لا يستوحش; clause left partly unrendered), P484L02 ولاينيدك (verb unidentified), P484L07 للموزبردندان (garble for للوزير دندان), P484L09 خزنته (perhaps خزانته). Corrected misprints in emend.json: P482L05 قات→قالت, P483L19 يقدنا→يفدنا. The archive was not changed. هرّأ (P483L05) read as intransitive 'fell into shreds'.

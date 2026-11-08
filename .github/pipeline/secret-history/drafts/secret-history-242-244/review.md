@@ -71,3 +71,45 @@ Shiratori's marks and no others; `i` supplies the omitted ones, each said in a n
 9. The exact picture in U60–U61 (both breasts shown, singular `ene`); U65 `bürün … büri`.
 10. U14/U15 identity of the "uncle" as Da'aritai (inferred from `abaγa` only).
 11. Name spelling "Teb-Tenggeri" is rule-built, not attested in a published part yet; the owner may prefer another.
+
+# Review, pass 2 — secret-history-242-244
+
+Scope: (1) the pass-1 edits in `units.json`; (2) every `gloss.json` entry against the units where it occurs, the packet's Ming and the shared glossary; the 15 `__broaden__` entries; key coverage. Checked by script and by hand: `t` of all 79 units against the packet (497 words, each once); every first-morph Ming bracket equals the packet's Ming (only `qadalun`, `daγ̇un` in U62 have none, as the packet has none); reader tokens of all `t` = gloss keys + known-forms keys with no gap and no unused key (314 tokens: 103 here, 211 known; no key in both); every broaden entry begins with the shared/known entry whole; quote marks in `t` and `l` agree unit by unit; `i` quotes balance across the speeches (U2–4, 16–20, 23–25, 27–28, 40–41, 45–48, 61–70, 72–73); "Teb-Tenggeri" is consistent (the Han-side `Teb-Teṅgeri` stays in `t`, `l`, notes about the printed form); house names agree with conventions. units.json was patched directly in Python (not through `review_patch.py`), so re-running `gen.py` would undo the four edits below; do not.
+
+## Changes
+
+| Unit / key | Field | Severity | Wrong | Done |
+|---|---|---|---|---|
+| U61 | l | moderate | Pass 1 removed Shiratori's opening mark `"` at `"Üžebe-ü` from `l` (t has it, l had none). | `l` now begins `"Seen? …`. |
+| U38 | morph (busud-tur) | minor | `-tur` glossed "to, with (… after r)": the stem busud ends in d, and the unit says "at the others". | "at, to (back-vowel form, after d)". |
+| U1 | morph (köġüd-te) | minor | "-te after a voiceless consonant": the stem ends in -d. | "after d". |
+| gloss `busud-tur` | entry | minor | "to/with the others" and "after r" (same error). | "'at, to the others'", "after d". |
+| gloss `ečiġe-jin` | entry | minor | Lemma `ečiġe`; the glossary and U17 lemma is `ečige` (ġ is only the printed spelling). | Lemma `ečige`. |
+| gloss `čaγ̇adaj-a`, `čaγ̇adai`, `čaγ̇adai-dur` | entry | minor | Imported modern spelling "Chaghadai" beside `i` and morph "Cha'adai". | "Cha'adai" throughout. |
+| gloss `qarbučažu` | entry | minor | "shooting back and forth" against `l`/`i`/morph "across, crossing". | "shooting crossways". |
+| gloss `jakibe` | entry | minor | Stem and ending stated flatly; only the Ming 做甚 supports them. | "(stem and form inferred from the Ming 做甚; uncertain)". |
+| gloss `žalairtai` | entry | minor | "Ming 種名"; packet has 種(名). | 種(名). |
+| gloss `ömerežu` | entry | minor | Bracket [黨比着] covers U36 only; U37 has 黨着. | Appended " · also with the Ming 黨着 [黨着]". |
+| gloss `qančud` | entry | minor | Bracket [衣袖(每)] covers U53 only; U57 has 袖每. | Appended " · also with the Ming 袖每 [袖每]". |
+| broaden `jan` | entry | minor | New reading repeated aγ̇ur(i)- ('rage'), which the old entry already holds; Ming written with a space (怒裏 自的行) against the packet's 怒裏自的行. | Old entry whole + " · also after kilin-dur(i)- (… Ming 怒裏自的行) and γal(i)- …". |
+| broaden `jen` | entry | minor | New reading repeated sedkigsen(i)- (already in the old entry) and listed küi-jen, which is its own token and not a `jen` case. | Old entry whole + " · also after ger(i)- (… 家 自的行) and kököd(i)- (… 乳每 自的行) …". |
+
+Broaden entries kept unchanged after the check against the packet's Ming and the unit: jesün (九十), kete, müṅke, kökö, büri (全), geriġes (道念), qaγas (分明), nemdeġešü (掩襲), eke-dēče (母行), ögürün (與時), je, γali (火自的行), barituγai (把者). None dropped; `jesün` is the nearest to pointless but records a real mismatch between Ming and Mongol, so it stays.
+
+All other gloss entries were read against their units: dictionary form, meaning, case/tense naming and the Ming bracket (including -dur/-tur/-de/-te choice, back/front harmony labels, causative/passive endings, participle vs converb). No further error found.
+
+## Findings refused
+
+- **Pass-1 edits in units.json.** U3, U7, U17, U21, U35, U40–41, U44, U55, U60, U63–69, U72–73, U78 and others re-read against `t`, Ming and glossary: l/i/n/morph agree; no change.
+- **`kelelegdežü` / `kelelekü` lemma `kele-`.** The stem is really `kelele-` (kele- + -le-), but the published glossary glosses `kelelen` as kele- + -n and lemmas follow the glossary; left, listed below.
+- **Shared-glossary entries whose Ming differs from the packet** (e.g. čeġeži 胷懷 against 胷膈, baražu 了着 against 喫了着, ötör 快 against 快疾): the Ming is shown per glyph and the entries are not wrong; not broadened.
+- **`tolui-dur`, `ödčigin-a`, `toluj-a` labelled "back-vowel form" on front-vowel stems:** this is the ending's form as printed (the notes say so); kept.
+
+## Still doubtful
+
+1. `kelelegdežü`, `kelelekü` (U21, U38): kele- vs kelele- + -gde-/-kü (glossary convention kept).
+2. `qurijaγ̇an` (U2): the ending -γ̇an; `buju-že` (U2): the -ju present; both flagged uncertain in the entries.
+3. `jakibe` (U62): the analysis of jaki- rests on the Ming 做甚 only.
+4. `medeġe` (U48) "noun-making -ġe", `že-deli` (U21), `qaṅšiala` (U21): endings are guesses, marked uncertain.
+5. `amitu-da` (U40): lemma `amin` + -tu is the drafter's analysis of `amitu`.
+6. All pass-1 doubtful places (U78, U45, U38, U21, U62, U67, U5, U74, U60–61, U14–15, "Teb-Tenggeri") stand.

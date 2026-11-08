@@ -128,3 +128,6 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 237-241
 - Names in `i`: Idu'ut, Adkiraq, Darbai, Al-Altun, Sariq, Shiqshid, Quduqa Beki, Inalchi, Törelchi, Qoluiqan, Alaqa Beki, Chechegen, Boroqul, Daiduqul-Soqos, Botoqui-Tarqun, Dorbai-Doqshin of the Dörbetei, Qorchi, Bo'orchu, Muqali, Tögeles; peoples Oirat, Buriyat, Barqun, Ursut, Qabqanas, Qangqas, Tubas, Kirghiz, Shibir, Kesdiin, Baid, Tuqas, Tenlek, Tas, Bajigid, Önggüd, Tumad; the Forest People as the collective.
+
+## House renderings added by 242-244
+- Names in `i`: Jüchi, Ödchigin, Cha'adai, Ögödei, Tolui, Qasar, Alchidai, Belgütei, Da'aritai, Kereid, Jungsai, Qorqasun, Qunan, Müngkegür, Kete, Qarachar, Müngke, Iduqudai, Kökösös, Ilüge, Degei, Chedei, Bala, Jebke, Cha'urqai, Father Münlig, Qongqotadai, Qongqotan, Teb-Tenggeri (rule-built), Qachi'un, Barqujin, Jalairtai; Müṅke teṅgeri → "Eternal Heaven". jesün → "nine" though the Ming writes 九十. Participle + büleġe = past habitual ("used to").

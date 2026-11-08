@@ -91,6 +91,7 @@ end **only where Greenough begins a paragraph** (an indented line in the TEI —
 | I.203 | *forsan et haec olim meminisse iuvabit* | "perhaps even these things, some day, it will please to remember" | "Perhaps there will come a day when we are glad to call even this to mind." |
 | I.462 | *sunt lacrimae rerum et mentem mortalia tangunt* | "are tears of happenings, and the mind the mortal things touch" | "There are tears for what befalls, and the mind is stirred by the lot of mortals." |
 | II.49 | *Quicquid id est, timeo Danaos et dona ferentis* | "Whatever it is, I fear the Danaans, and them bringing gifts." | "Whatever this thing is, I am afraid of the Greeks, even when it is presents that they bring." |
+| IV.23 | *adgnosco veteris vestigia flammae* | "I recognise the footprints of an old flame" | "I know again the tracks of a fire that once burned in me" |
 
 Set pieces still ahead, to be decided in a dedicated pass before the batch that reaches them (Ovid's
 ruling of 2026-08-27): I.203 *forsan et haec olim meminisse iuvabit*; I.462 *sunt lacrimae rerum*;

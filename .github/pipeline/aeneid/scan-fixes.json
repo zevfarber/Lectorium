@@ -2727,5 +2727,57 @@
    "6au–ra×"
   ],
   "why": "Scanner's parse right (Quid pŭĕr | As-că-nĭ | us su-pĕ | rat n'et | ves-cĭ-tur | au-ra: puer as two short syllables, Ascanius as As-că-nĭ-us), entered because the unit 339–340 gets no sc from the scanner (3.340 is a half-line) and line 339 begins in the previous unit."
+ },
+ "3.440": {
+  "sc": [
+   "1Tri–na⏑cri⏑2a–",
+   "fi–3nis–",
+   "I⏑ta⏑4los–‖",
+   "mit–5te–re⏑",
+   "re⏑6lic–ta×"
+  ],
+  "why": "Scanner returned a valid hexameter with the wrong quantities (fi, nis short; Ita long; te long). Trīnăcriā | fīnīs Ĭtă | lōs mīt | tē-rĕ rĕ | līc-tă: finis is accusative plural, fīnīs, both syllables long; Italos has short I and short ta, as in published 003 (Italis); ā of the ablative Trinacria is long. With those quantities the line fits only if the te of mittere is lengthened in the arsis of the fifth foot (brute-force check of every one-syllable change: no other fit). Doubtful quantity: mittere's te."
+ },
+ "3.470": {
+  "sc": [
+   "1Ad–dit⏑",
+   "e⏑2quos–",
+   "ad–3dit–que⏑",
+   "du⏑4ces×"
+  ],
+  "why": "Half-line (hemistich), one of Virgil's unfinished lines: ădd-ĭt ĕ | quōs ăd | dĭt-quĕ dŭ | cēs, three and a half feet (– ⏑ ⏑ | – – | – ⏑ ⏑ | ×); the scanner returns UNRESOLVED because there is no hexameter to fit. Quantities: ad long by position (d + d), dit of the second additque long by position (t + q), dŭces with short u (dux, ducis), final -ēs long."
+ },
+ "3.475": {
+  "sc": [
+   "1Con–iu⏑gi⏑o",
+   "2An–chi–3se–‖",
+   "Ve⏑ne⏑4ris–",
+   "dig–5na–te⏑",
+   "su⏑6per–bo×"
+  ],
+  "why": "Scanner (cost 1.5, consonantal i right) returned a valid hexameter with wrong quantities: Anchise with short chi and short se, Veneris as long-long. Right: con-iŭ-gi(o) | Ăn-chī | sē Vĕ-nĕ | rĭs dig | nā-tĕ sŭ | pēr-bō. Anchises has long i (so published 473, An–chi–2ses–); the Greek vocative -ē is long; Veneris is three short syllables, the -ris long by position before dig-. The o of coniugio elides before An-."
+ },
+ "3.482": {
+  "sc": [
+   "1Nec–",
+   "mi⏑nus⏑",
+   "2An–dro⏑ma⏑3che–‖",
+   "di–4gres–su–",
+   "5maes–ta⏑",
+   "su⏑6pre–mo×"
+  ],
+  "why": "Scanner returned a valid hexameter with wrong quantities: Andromache as Ān-drō-mā-chĕ. Right: Ăn-drŏ-mă-chē (Greek omicron, alpha short, eta long), as in published 013 and 019: Nec mĭ-nŭs | Ăn-drŏ-mă | chē dī | grēs-sū | maes-tă sŭ | prē-mō. di- of digressu is long (dis-)."
+ },
+ "3.495": {
+  "sc": [
+   "1Vo–bis–",
+   "2par–ta⏑",
+   "qui⏑3es–‖",
+   "nul–4lum–",
+   "ma⏑ris⏑",
+   "5ae–quor⏑",
+   "a⏑6ran–dum×"
+  ],
+  "why": "Scanner (synizesis blind spot) made quies a single long syllable and lengthened the final a of parta. Right: Vō-bis | pār-tă quĭ | ēs nūl | lŭm mă-rĭs | ae-quŏr ă | rān-dum: quies is quĭ-ēs, two syllables, ē long; parta is neuter plural with short -a; lum long by position before maris (m + m)."
  }
 }

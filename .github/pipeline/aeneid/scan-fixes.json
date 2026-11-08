@@ -2779,5 +2779,124 @@
    "a⏑6ran–dum×"
   ],
   "why": "Scanner (synizesis blind spot) made quies a single long syllable and lengthened the final a of parta. Right: Vō-bis | pār-tă quĭ | ēs nūl | lŭm mă-rĭs | ae-quŏr ă | rān-dum: quies is quĭ-ēs, two syllables, ē long; parta is neuter plural with short -a; lum long by position before maris (m + m)."
+ },
+ "3.506": {
+  "sc": [
+   "1Pro–ve⏑hi⏑2mur–",
+   "pe⏑la⏑3go–‖",
+   "vi–4ci–na⏑",
+   "Ce⏑5rau–ni⏑a⏑",
+   "6iux–ta×"
+  ],
+  "why": "Scanner returned a valid hexameter with wrong quantities (vici-, na, Ce). vīcīna: vicus has long i, so both i's are long and the final a of the neuter plural is short; Cĕraunia has short e (Greek keraunos). Prō-vĕ-hĭ | mūr pĕ-lă | gō vī | cī-nă Cĕ | raū-nĭ-ă | iūx-tă. The scanner's fit (vĭcĭ | nā Cē) is also a hexameter but gives wrong vowel lengths, and so wrong audio."
+ },
+ "3.517": {
+  "sc": [
+   "1ar–ma–2tum–que",
+   "au–3ro–‖",
+   "cir–4cum–spi⏑cit⏑",
+   "5O–ri–6o–na×"
+  ],
+  "why": "Scanner returned a valid hexameter with wrong quantities (spi, cit long; O, ri short). circumspicit has short spi and short cit (cit stands before the vowel of Oriona); Ōrīona has long O, long ri and long o (Greek Ōríōn): ār-mā | tūm(que) au | rō cir | cūm spĭ-cĭt | Ō-rī | ō-nă. A dactyl in the fourth foot, spondees elsewhere."
+ },
+ "3.527": {
+  "sc": [
+   "1stans–",
+   "cel–sa",
+   "2in–",
+   "pup–3pi×"
+  ],
+  "why": "Half-line (hemistich), one of Virgil's unfinished lines: stāns cēl | (sa)īn pūp | pī, two and a half feet (– – | – – | –); the scanner returns UNRESOLVED because there is no hexameter to fit. celsa elides into in; cel and in are long by position, pup likewise."
+ },
+ "3.533": {
+  "sc": [
+   "1Por–tus⏑",
+   "ab⏑",
+   "2Eu–ro–3o–‖",
+   "fluc–4tu–",
+   "cur–5va–tus⏑",
+   "in⏑",
+   "6ar–cum×"
+  ],
+  "why": "Eu- of Euroo is the Greek diphthong, one syllable (as Eurus 1.110); the scanner split it into E-u. Pōr-tŭs ăb | Eū-rō | ō flūc | tū cūr | vā-tŭs ĭn | ār-cūm: the only fit counts all three syllables Eu-ro-o long, a heavy form for a Greek-looking ablative (doubtful quantity: ro and o)."
+ },
+ "3.552": {
+  "sc": [
+   "1cer–ni⏑tur⏑",
+   "2at–tol–3lit–‖",
+   "se–",
+   "4di–va⏑",
+   "La⏑5ci–ni⏑a⏑",
+   "6con–tra×"
+  ],
+  "why": "Scanner returned a valid hexameter with wrong quantities (se short; di short, va long; La long). se (reflexive) is long; diva is dī-vă (long i, short final a); Lăcīnia has short La, long ci. cer-nĭ-tŭr | āt-tōl | līt sē | dī-vă Lă | cī-nĭ-ă | cōn-tră."
+ },
+ "3.566": {
+  "sc": [
+   "1Ter–",
+   "sco⏑pu⏑2li–",
+   "cla–3mo–rem",
+   "in–4ter–",
+   "ca⏑va⏑",
+   "5sa–xa⏑",
+   "de⏑6de–re×"
+  ],
+  "why": "Scanner returned a valid hexameter with wrong quantities (cla, mo short; cava long). clāmōrem has long a and long o (clamor, clamoris); cava is cavă (short a). Tēr scŏ-pŭ | lī clā | mō(rem) īn | tēr că-vă | sāx-ă dĕ | dē-rĕ: the final -em of clamorem elides into inter; dedēre is dedērunt."
+ },
+ "3.579": {
+  "sc": [
+   "1ur–gue–2ri–",
+   "mo–le",
+   "3hac–",
+   "in–4gen–tem–que",
+   "5in–su⏑per⏑",
+   "6Aet–nam×"
+  ],
+  "why": "urgueri is Greenough's spelling of the present passive infinitive urgēri; gu is the consonantal u (as in urguet, published as 'ur–4guet–' in aeneid-002), so the word has three syllables, ur-guē-rī, not the scanner's four with short gu and e. Ūr-guē | rī mō(le) | hāc īn | gēn-tēm(que) | īn-sŭ-pĕr | Aēt-nām: mole elides into hac, -que into insuper's in; Aet- is the diphthong."
+ },
+ "3.601": {
+  "sc": [
+   "1tol–li⏑te⏑",
+   "2me–",
+   "Teu–3cri–‖",
+   "quas–4cum–que",
+   "ab–5du–ci⏑te⏑",
+   "6ter–ras×"
+  ],
+  "why": "Teu- is one long syllable (Greek eu), as Teucri 3.352 and 1.562; the scanner split it into Te-u. Tŏl-lĭ-tĕ | mē Teū | crī quās | cūm(que) ăb | dū-cĭ-tĕ | tēr-rās: -que elides before ab."
+ },
+ "3.604": {
+  "sc": [
+   "1pro–",
+   "quo–",
+   "2si–",
+   "sce⏑le⏑3ris–‖",
+   "tan–ta",
+   "4est–",
+   "in–5iu–ri⏑a⏑",
+   "6nos–tri×"
+  ],
+  "why": "Consonantal i after a prefix: iniuria is in-iū-ri-a (in + jūria; in long by position, iu long), four syllables, not the scanner's five (i-ni-u-ri-a). Prō quō | sī scĕ-lĕ | rīs tān(ta) | ēst ĭn | iū-rĭ-ă | nōs-trī: tanta elides into est. The same reading as the published iniuria in aeneid-001, 004 and 019."
+ },
+ "3.525": {
+  "sc": [
+   "1Tum–",
+   "pa⏑ter⏑",
+   "2An–chi–3ses–‖",
+   "mag–4num–",
+   "cra–5te–ra⏑",
+   "co⏑6ro–na×"
+  ],
+  "why": "Scanner's own fit, entered by hand: the unit 525-527 loses all its scansion because its last line, 527 (a half-line), is UNRESOLVED, so these two lines would be left blank. Checked syllable by syllable: Tum pă-tĕr | Ān-chī | sēs māg | nūm crā | tē-ră cŏ | rō-nă (cratera: Greek accusative, as crateras in 1.724)."
+ },
+ "3.526": {
+  "sc": [
+   "1in–du⏑it⏑",
+   "2im–ple–3vit–que⏑",
+   "me⏑4ro–‖",
+   "di–5vos–que⏑",
+   "vo⏑6ca–vit×"
+  ],
+  "why": "Scanner's own fit, entered by hand: the unit 525-527 loses all its scansion because its last line, 527 (a half-line), is UNRESOLVED, so these two lines would be left blank. Checked syllable by syllable: ĭn-dŭ-ĭt | ĭm-plē | vĭt-quĕ mĕ | rō dī | vōs-quĕ vŏ | cā-vĭt."
  }
 }

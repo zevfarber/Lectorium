@@ -131,3 +131,6 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 242-244
 - Names in `i`: Jüchi, Ödchigin, Cha'adai, Ögödei, Tolui, Qasar, Alchidai, Belgütei, Da'aritai, Kereid, Jungsai, Qorqasun, Qunan, Müngkegür, Kete, Qarachar, Müngke, Iduqudai, Kökösös, Ilüge, Degei, Chedei, Bala, Jebke, Cha'urqai, Father Münlig, Qongqotadai, Qongqotan, Teb-Tenggeri (rule-built), Qachi'un, Barqujin, Jalairtai; Müṅke teṅgeri → "Eternal Heaven". jesün → "nine" though the Ming writes 九十. Participle + büleġe = past habitual ("used to").
+
+## House renderings added by 245
+- Names in `i`: Teb-Tenggeri, Soqor (man's name, not "blind"), Ödčigin, Temüge, Mother Etügen the Great Earth (dair "great" here); bökös → "wrestlers"; kölge- "to yoke"; temeče- + -ldü- + -d- + -kün; qanču + -d + -(i)jan.

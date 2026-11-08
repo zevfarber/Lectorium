@@ -137,3 +137,6 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 246-248
 - Names in `i`: Chabchiyal, Küiküneg (Shiratori's spelling), Juin, Fox Pass (Hünegen dabā), Zhongdu (Han 中都), Mozhou and Fuzhou; Teb-Tenggeri. lemmas else-, ič-, qoton + -d, daγa-, balaγad, bol- + -γa- follow the glossary.
+
+## House renderings added by 249-252
+- Names in `i`: Jubqan, Hexiwu, Shira-Keger, Önggür, Shigi-Qutuqu, Arqai-Qasar, Iluqu-Burqan, Hula'an-Degelen, Ile, Qada, Höbögetür, Chükü; "Liushou" kept as the Han title; Nangiṅ → "Nanjing"; Altan Qaγan → "Altan Qahan"; qa (Ming 係官) "state property" (tentative).

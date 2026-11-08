@@ -61,3 +61,49 @@ Counts: critical 0 · major 0 · moderate 9 · minor 18 (rows above; the "all `l
 4. U57&U61: who "he" is in "He brought…" and whose gifts in-ü means rests on context.
 5. U20/U23: reading of elsen (verb or noun "submission") and of baražu.
 6. Dating and identity of Qada (U27 vs U44) and of Burqan vs Iluqu-Burqan are not decided and not claimed.
+
+# Pass 2 — adversarial review of gloss.json and units.json
+
+Checked every one of the 80 new entries and all 14 `__broaden__` entries against the packet (Ming and Han), the units they serve, the live glossary (heads, grammar labels, house wording) and the unit `morph`. Every `__broaden__` value is the old glossary entry whole + ' · ' + the new reading (script-verified); every new entry's final bracket equals novel-forms.json; keys cover the tokens exactly (no missing, none unused). No modern translation consulted. `t`, word counts, `ln`, `p` untouched (script-verified against the pre-pass file).
+
+## Changes
+
+| Where | Severity | What was wrong | What was done |
+|---|---|---|---|
+| gloss `dabaγ̇uludqun`; U29 morph, `n` | moderate | Invented stem dabaγ̇u- + "-l-"; the glossary already has daba- "cross a pass" with dabaγ̇ulun = daba- + -γ̇ul-, and -düdkün as plural polite imperative | entry and morph now daba- + -γ̇ul- + -udqun (back-vowel form of -düdkün); note adjusted |
+| gloss `žuṅdu-dāča`, `žuṅdu-āča`; U36, U43 morph, U36 `n` | moderate | Segmented as "-āča" with a "stem vowel run into the ending", leaving the printed d unexplained; the glossary has -dāča (long ā) as an ablative | U36 lemma -dāča; both entries cite the glossary's -dāča; explanation dropped |
+| gloss `žaoγuan-dur`; U20, U23 morph | moderate | Lemma "-dür, front-vowel form" for a printed -dur after a back-vowel stem | lemma -dur, back-vowel form, in entry and both morphs |
+| gloss `bulγalduqui-dur`, `bulγaldun-že`; U9, U10 morph/`n` | moderate | A noun "bulγa" carrying a reciprocal; the glossary's verb is bulγa- "contend, fight" (相鬭) | lemma bulγa- in entries, morphs, notes (standalone bulγa keeps the noun, broadened) |
+| gloss `kürigen`; U33, U38, U39 morph | minor | Non-dictionary form kürigen; the word is kürgen "son-in-law", a homograph of the glossary's converb kürgen "bringing" | lemma kürgen, entry says so |
+| gloss `ükürün`; U37 morph/`n` | minor | Lemma ük- (2 glossary entries) against ükü- (30+) and ilerün = ile- + -rün | ükü- + -rün |
+| gloss `qālγa`; U41 morph | minor | Printed long ā used as the dictionary form | lemma qalγa, "printed qālγa" in the entry |
+| gloss `jaγ̇u-ke`; U45, U55 morph/`n` | minor | -ke treated as an unknown ending; glossary's jaγ̇u-ke-ben reads ke as "thing, stuff" | entry and morph give ke "thing, stuff, 'and the like'", cross-referenced |
+| gloss `quraγ̇ulžu`; U13 morph | minor | "stem inferred", "having gathered" for a converb; glossary has qura- "gather" (Ming 聚) | glossary stem, "gathering (making gather)" |
+| gloss `oγ̇orqu`; U13 morph | minor | "set free" ignores the glossary's oγ̇or- "let fly (a hawk)", which suits the hawks here | "let fly (a hawk), let go" |
+| gloss `öčibe`, `bögležü`, `üiledbe`, `nemüre-de`, `nödügsen`; morphs | minor | Meaning wording differed from the glossary's öči- "report, speak to a superior", bögle- "block, plug", üiled- "do, perform (from üile)", nemüre "shelter, screen", and nödü- "pound" went unmentioned | aligned or cross-referenced |
+| gloss `iluqu-burqan` | minor | "the Tangut leader" asserts an identity the notes (U17, U19) leave open | neutral "a man's name" |
+| gloss `__broaden__.burqan` | minor | "the Qashin chief" pinned to a line and a claim | "a man's name (Ming 人名)" |
+| gloss `__broaden__.bulγa` | minor | "as in bulγa-dur 'in fighting'" cites a line of this part | cut |
+| gloss `__broaden__.ġed`, `ečineġün`, `doṅγodba` | minor | "misprint reading" obscure; ečineġün reading muddled; doṅγod- reading not tied to the stem | reworded |
+| gloss `liušu` | minor | "garrison commander" invented | "keeper of a capital, governor" |
+| gloss `šüldertü`, `sülder-eče` | minor | sülder "majesty" (威靈) differs from glossary sülder "omen" (吉兆) without a word | cross-reference added |
+| gloss `güjičen-že`, `jadamui-že`, `jadamu-že`, `bulγaldun-že` | minor | "assertion particle" against morph and glossary "sentence-final particle -že" | unified |
+| U23 morph -legei | minor | "was, would have been" against entry "was, had been" and `i` | "was, had been" |
+
+Counts (pass 2): critical 0 · major 0 · moderate 4 · minor 14 (rows above, grouped rows counted once each).
+
+## Findings checked and refused
+
+- **Other `__broaden__` entries** (qašin, aja, alaγ̇ai, nekežü, ile, qada, qada-da, asuγai, teriġüten): each new reading is used in this part with a different Ming (種名, 征進, 有來, 織着, 人名, 常川, 等) and is stated generally. Kept.
+- **qulaγču, abuba/abulaγ̇a, qulaγču vs qulaγu-**: pass 1 refusals stand.
+- **Ming wording differences against known entries** (太祖︀, 上馬 vs 上馬依着, 段匹 vs (段)子, 迎 vs 迎着, etc.): same sense; no broadening needed. 俺 for ba, 衝着 for dobtulžu, 其間 for žaγ̇ura, 只 for mün, 直到 for baitala are already carried in the glossary entries.
+- **taγ̇un lemma daγ̇u-, daγ̇ažu lemma daγa-** match the glossary (daγ̇užu; daγ̇aqui-ača "bear, endure"). Kept.
+- **Ming 裏/時 on -dur/-dür glosses** and **nutuγtan/balaγasutan "-tan"** agree with glossary -ten and balaγasun.
+- **Qutuqu "short for Šigi-Qutuqu"** is secure from U46/U56; kept.
+
+## Remaining doubts
+
+1. `qalγa`, `kürgen`, `ükü-` are normalisations of printed forms by comparison with the glossary and general Mongolian, not by the Ming; the reviewer is fairly, not fully, sure.
+2. -udqun as the back-vowel twin of -düdkün, and the Ming 您 reading, rest on one analogy.
+3. nödü- "build" (Ming 築) against the glossary's nödü- "pound": possibly one word; the cross-reference leaves it open.
+4. Pass-1 doubts (U31 γažar, U14, U28, U29 reading, U57/U61 antecedents, Qada identity) are unchanged.

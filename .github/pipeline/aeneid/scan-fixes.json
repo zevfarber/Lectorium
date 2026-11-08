@@ -2898,5 +2898,89 @@
    "vo⏑6ca–vit×"
   ],
   "why": "Scanner's own fit, entered by hand: the unit 525-527 loses all its scansion because its last line, 527 (a half-line), is UNRESOLVED, so these two lines would be left blank. Checked syllable by syllable: ĭn-dŭ-ĭt | ĭm-plē | vĭt-quĕ mĕ | rō dī | vōs-quĕ vŏ | cā-vĭt."
+ },
+ "3.640": {
+  "sc": [
+   "1rum–pi⏑te×"
+  ],
+  "why": "Half-line (hemistich), one of Virgil's unfinished lines: the single word rumpite, a dactyl (rūm-pĭ-tĕ, rum long by position before p), the end of the sentence begun in 639. The scanner returns UNRESOLVED because there is no hexameter to fit."
+ },
+ "3.644": {
+  "sc": [
+   "1in–fan–2di–",
+   "Cy–3clo–pes⏑‖",
+   "et⏑",
+   "4al–tis–",
+   "5mon–ti⏑bus⏑",
+   "6er–rant×"
+  ],
+  "why": "Cyclōpes: ō is long (Greek omega) and Cy is long by position (cl); the Greek nominative plural -ĕs is short. Īn-fān | dī Cȳ | clō-pĕs ĕt | āl-tīs | mōn-tĭ-bŭs | ēr-rānt. The scanner's fit made clo short and pes and et long (Cy⏑ clo⏑ pes– et–), which is impossible for the omega. Doubtful quantity: pes short is forced by the metre, the only natural fit."
+ },
+ "3.656": {
+  "sc": [
+   "1ip–sum",
+   "in–2ter–",
+   "pe⏑cu⏑3des–",
+   "vas–4ta–",
+   "se–",
+   "5mo–le⏑",
+   "mo⏑6ven–tem×"
+  ],
+  "why": "pĕcŭdes has two short vowels; the scanner made pe and cu long (a valid shape at cost 0.0, but wrong vowel lengths for the audio). The natural fit is ip(sum) in | ter pĕ-cŭ | dēs vās | tā sē | mō-lĕ mŏ | ven-tem: vasta is the ablative agreeing with mole (vastā, long a), se is long (sē), mole has long o, movēntem short o. The -sum of ipsum elides into inter."
+ },
+ "3.661": {
+  "sc": [
+   "1so–la–2men–que⏑",
+   "ma⏑3li×"
+  ],
+  "why": "Half-line (hemistich), one of Virgil's unfinished lines: sō-lā | mĕn-quĕ mă | lī, two and a half feet (– – | – ⏑ ⏑ | –); solamen has long o and long a (solor), men is long by position before que, mali has long final i (genitive). The scanner returns UNRESOLVED because there is no hexameter to fit."
+ },
+ "3.710": {
+  "sc": [
+   "1a–mit–to",
+   "2An–chi–3sen–",
+   "hic–‖",
+   "4me–",
+   "pa⏑ter⏑",
+   "5op–tu⏑me⏑",
+   "6fes–sum×"
+  ],
+  "why": "āmit(to) | Ān-chī | sēn hīc | mē pă-tĕr | ŏp-tŭ-mĕ | fēs-sum: Anchīsēn has long chi (as in 015, 016, 017, 018) and pater has short pa (as in 001, 009, 015); the scanner's fit made chi short and pa long (An chi sen / pa ter), both unnatural. amitto elides its -o into An-."
+ },
+ "3.716": {
+  "sc": [
+   "1Sic–",
+   "pa⏑ter⏑",
+   "2Ae–ne–3as–‖",
+   "in–4ten–tis–",
+   "5om–ni⏑bus⏑",
+   "6u–nus×"
+  ],
+  "why": "Aeneas is three syllables, Ae-nē-ās (initial diphthong one syllable, ē long), as in 1.92, 1.170, 3.97 and the published parts: Sic pă-tĕr | Aē-nē | ās in | ten-tīs | om-nĭ-bŭs | ū-nus. The scanner split Ae- in two (A-e-ne-as) and read a dactyl A-e-ne; its fit costs 1.2."
+ },
+ "3.639": {
+  "sc": [
+   "1Sed–",
+   "fu⏑gi⏑te",
+   "2O–",
+   "mi⏑se⏑3ri–‖",
+   "fu⏑gi⏑te",
+   "4at–que",
+   "ab–",
+   "5li–to⏑re⏑",
+   "6fu–nem×"
+  ],
+  "why": "Carrier: the scanner's own fit for the whole line (checked by hand, cost 0.0; litore with long li, fugite elided before O and atque), applied because the half-line rumpite (640) in the same unit leaves the scanner no whole line to scan (cf. 2.613)."
+ },
+ "3.660": {
+  "sc": [
+   "1la–ni⏑ge⏑2rae–",
+   "co⏑mi⏑3tan–tur⏑",
+   "o⏑4ves–‖",
+   "e⏑a⏑",
+   "5so–la⏑",
+   "vo⏑6lup–tas×"
+  ],
+  "why": "Carrier: the scanner's own fit for the whole line (checked by hand, cost 0.0; comitantur elided before oves, ea two short syllables), applied because the half-line solamenque mali (661) in the same unit leaves the scanner no whole line to scan (cf. 2.613)."
  }
 }

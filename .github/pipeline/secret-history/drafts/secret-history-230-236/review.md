@@ -76,3 +76,47 @@ Totals: critical 0, major 2, moderate 12, minor 20 (34 changes).
 - nutuγ̇učin → "camp-manager(s)"; kebteġül-eče before a verb of sharing/gathering → "from the night guard", without choosing who gives.
 - uqažu atuγai (Ming 省着) → "be mindful of".
 - Open for the owner: the name Ögöle / Ögere / Ögele / Ögölei (cherbi) across §§124, 191, 226, 230, 234.
+
+# Review, pass 2 — secret-history-230-236 (§§230–236)
+
+Reviewer re-checked units.json after pass 1 (consistency, l/i, grammar labels, regressions) and checked every one of the 114 gloss.json entries and the 9 `__broaden__` entries against the text, the packet's Ming glosses and the existing glossary. By script: `t` and the word count of every unit are unchanged from pass 1; the Ming bracket on every word's first morph is unchanged; every gloss.json head equals a lemma of the word it glosses (including the pass-1 changes Bügidei, ölže, nendü, terege); gloss.json has no unused key and full coverage of the part's tokens; each old `__broaden__` text is whole and followed by ' · ' and the new reading; an in-memory assemble and validate (nothing written to the build) gives no errors or warnings. Both files are valid JSON in the original layout.
+
+Totals: critical 0, major 0, moderate 4, minor 10 (14 changes; 6 refusals or kept items below).
+
+## Changes
+
+### Moderate
+1. U3 · morph (hodutai), gloss.json `hodutai` · moderate · lemma hodu "star (stem inferred)", but the glossary already has hodun (Ming 星) and hodud, the -n dropping before -tai (as miqan before -ača). Done: lemma hodun in the morph and in the gloss entry; `n` says so.
+2. U3 · morphs (oγžadγaγsan), gloss.json `oγžadγaγsan`, `n` · moderate · cut as oγža- + -dγa- + -γsan with an invented stem oγža-; the glossary has oγžad- (oγžadču, "be startled", Ming 驚) and oγžadγa-, so the cut is oγžad- + -γa- + -γsan. Done: three morphs oγžad-, -γa- (causative, Ming 敎), -γsan; gloss entry and `n` rewritten (the one doubt left is that the sense rests on the Ming 驚).
+3. U18 · morph, `l`, `i`, `n`, gloss.json `geriġes` · moderate · geriġes was left as a single "unclear word" (keepsake, analysis uncertain), but the glossary has gerije "keepsake, token to remember by" (Ming 遺念, identical Ming) with plural -s in gerijesi. Done: morphs gerije + -s; `l` "keepsakes like", `i` "as keepsakes"; gloss entry and `n` rewritten (ġ for j noted).
+4. U31 · morph, `l`, `i`, `n`, `__broaden__` tüsürge · moderate · tüsürge was kept as "great jar" on the ground that the Ming 酒局 "does not match", but the glossary's tüsürge-jin already reads Ming 酒局 ("wine office") as "banquet, drinking-party". The broaden said 酒局 meant "wine vessel", which the Ming does not say. Done: morph gloss, `l` "big banquet holding", `i` "stay to hold the great banquet", `n` rewritten (marked uncertain; the glossary's earlier "jar", Ming 甕, stays as the other sense); broaden now reads "also 'banquet, drinking-party' (Ming 酒局 'wine office'; the sense of tüsürge-jin; uncertain)".
+
+### Minor
+5. U59 · `n` · minor · Shiratori prints no opening quotation mark (the previous order closed at U58), `i` supplies it, but the note did not say so (the convention requires it; pass 1 listed only U26, U27, U33, U52). Done: sentence added.
+6. 32 units with a quotation mark in `t` · `l` · minor · `l` carried Shiratori's marks only in U14, U19, U25, U66, U67 (curly, and in a different style from the published parts), and nowhere else. Done: `l` now mirrors every mark of `t` in straight quotes at the matching word (as in the published 208–210, 218–229), none where Shiratori prints none (U27, U33, U59 openings); the `i` marks are untouched.
+7. U54, U56, U49, U68 · `l` · minor · `l` gave Alchidai, Chanai, Shigi-Qutuqu, Toqto'a's, Chila'un, Sübegetei-Baγatur (the `i` spellings) where the convention wants Shiratori's form in `l`. Done: Alčidai, Čanai, Šigi-Qutuqu, Toγtoγ̇a's, Čilaγ̇un, Sübeġetei-Baγ̇atur.
+8. U60, U61 · morph (darun, -n) · minor · "converb: …ing" on darun, whose Ming 常川 and the broaden make it "constantly". Done: "converb used as an adverb, 'constantly' (uncertain)".
+9. U65, gloss.json `aγ̇ulžaγ̇ulba`, `n` · minor · aγ̇ulža- described as "to meet … stem inferred", but the glossary has aγ̇ulžažü / aγ̇ulžan "have an audience, be received" (Ming 拜見). Done: lemma gloss, gloss entry and `n` follow the glossary.
+10. U66, gloss.json `bulγaba`, `n` · minor · "to fight, stir up … stem uncertain", though the glossary has bulγa- "to fight" (Ming 厮殺) in bulγaldun and the rest. Done: "to fight (Ming 厮殺 …; compare bulγaldun)".
+11. U17 · morph (uruγ-a, -a) · minor · labelled "dative" where every other -a/-da/-dur is "dative-locative" (Ming 行). Done: "dative-locative: to".
+12. gloss.json `ögöle` · minor · "Ögele, a man's name" (the head and `i` are Ögöle). Done: Ögöle.
+13. gloss.json `irgetei` · minor · a stray "(?)" after the grammar bracket. Done: removed.
+14. `__broaden__` qutuγ, asaražu · minor · (a) the qutuγ example quoted "my fortunes and blessing", not `i`'s "my good fortunes and my blessing"; reworded. (b) A tenth broaden, asaražu, was added: the glossary entry reads "lift up, raise" (Ming 擡擧着), but U50 has the Ming 收拾着 "gathering up, putting in order", so the reader's click disagreed with the morph; old text kept whole, new reading appended.
+
+## Checked and kept (refusals, with reasons)
+
+- ger-ün köġüd rendered "sons of its households" (U21, U59) against 227–229's "ger-ün in `i` 'tent'": kept; "sons of the tents" is not the sense, and the Ming 家 is "household".
+- qorčin lemma (single morph) against the glossary head "qor-či-n": kept; the glossary's own qorčin-i entry uses qorčin, and aduγ̇učin is treated the same way. eġüdečin, qoničin, temečin, temeġečin, hükečin likewise one lemma (the glossary's egüdeči + plural -n is a different reading of the same spelling; the Ming here is singular 把門的).
+- keġegdün as "a variant of -dkün": not verifiable from these sources; the Ming 說您 supports an imperative, and the entry and note already say "uncertain". Kept.
+- "Qubilai the noyan": the house pattern is "Belgütei the noyan" (a title after a name, lowercase). Kept.
+- Mixed Ming for the same lemma (asaradqun 擡擧 "raise, care for"; asara- forms here 收拾 "put in order"): both are in the glossary under asara-; the senses are close, no change except the asaražu broaden above.
+- `l` "Qarluqs" for Qarluγ̇ud (a people with an English plural): kept; Shiratori's plural is not an English word and no rule covers it.
+- Ming 麽 on kilbar-u (first bi) and 容易 only on the second: matches the packet; kept.
+
+## New house renderings to record
+
+- hodun "star" (hodutai, -n dropped before -tai); oγžad- + -γa- "to startle" (oγžadγaγsan "those who did not startle").
+- gerije + -s "keepsakes" (geriġes, ġ for j).
+- tüsürge (Ming 酒局) "banquet", barin atuγai "stay to hold": the glossary's "jar" stays for Ming 甕.
+- Names in `i` and `l` (this part): Jesün-Te'e, Bügidei, Aqutai, Alchidai, Ögöle the cherbi, Buqa, Dodai, Doqolqu, Chanai, Shigi-Qutuqu, Qubilai (the noyan), Arslan Qan (of the Qarluq), Sübegetei-Ba'atur, Toqto'a, Qutu, Chila'un, the Chu; `l` keeps Shiratori's forms (Alčidai, Čanai, Šigi-Qutuqu, Toγtoγ̇a, Čilaγ̇un, Sübeġetei-Baγ̇atur).
+- `l` mirrors Shiratori's quotation marks (straight `"`); `i` supplies the openings he omits (U26, U27, U33, U52, U59) and says so in the note.

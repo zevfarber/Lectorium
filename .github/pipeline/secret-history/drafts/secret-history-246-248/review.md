@@ -97,3 +97,45 @@ High 2 · Medium 28 · Low 36 · refused or left 11.
 
 ## For the glosser
 New or changed lemmas against the glossary: qoton (add "walled town, city"), daγa- (add "to bear, endure"), balaγad (singular balaγasun now occurs), else-, ič-/ičuγa-, erke + -d, aisu-, bol- + -γa-, žaγ̇ur-a, kürge-, ködöl- + -ge-, Žürčed, heġüšije-, žöbšije-, dülilige-, daruča-. Words the drafter put in `known-forms.json` territory but whose known entry does not cover this use: oro (place, seat, throne), γol (centre), ba (conjunction, men and geldings), hara (not qara).
+
+# Review, pass 2 — secret-history-246-248
+
+Files read: conventions.md, runbook.md, run3/RUNBOOK.md, r3.py / r3lib.py / hooks.py (tokenizing and build checks, read only; nothing built), units.json (all 58 units), gloss.json, known-forms.json, the glossary. Checked by script: words per unit against the source (all 58 units, 445 words; U56 has 11 space-separated tokens but 10 words, because `Waṅgiṅ Čiṅsaṅ` is one source word with two morphs — no shift anywhere); each first morph's Ming bracket against the source gloss (all match; Güṅžü has none in the source); the gloss keys against the reader tokens of all `t` (r3lib.tokens) minus the glossary: 113 novel tokens, 113 keys, none missing, none unused; each entry's first lemma against the final morph lemmas; each `__broaden__` value against "old entry whole + ' · '".
+
+## Counts
+High 0 · Medium 7 · Low 14 (gloss.json 19, units.json 2) · refused or left 4.
+
+## Changes to gloss.json (key · severity · what was wrong · what was done)
+1. bolγaγdaba, bolγaγdaqun · medium · entries gave the lemma bolγa-, but the morphs are bol- + -γa- + -γda-. · rewritten as bol- with causative -γa- and passive -γda-.
+2. qotod, qotad, qotad-tur · medium · lemma qotan (the morphs read qoton). · qoton, with the Ming 城子 sense and a compare to the glossary's qoton "pen, enclosure".
+3. balaγad-tur, balaγad-turi · medium · lemma balaγasun, but the morph is balaγad. · lemma balaγad, singular noted.
+4. daγ̇aqui-ača · medium · lemma daγ̇a- (dotted), but the morph is daγa-; "-küi (printed -qui)" while the morph is -qui. · daγa- "bear, endure, carry" and -qui.
+5. ičuγ̇asu · medium · lemma ičuγ-, but the morph is ič- + -uγ̇asu (linking u). · ič- + -uγ̇asu; the causative reading noted.
+6. heġüšiježü · medium · lemma heġüši-, morph heġüšije-. · heġüšije-.
+7. __broaden__ oro · medium · the old entry has no "trace", which U5 (oro ügei, Ming 痕迹) needs. · added.
+8. __broaden__ oroqu, orožu · low · Ming 從的 / 從着 "follow, comply" (U49, U54) are not in the old entries. · added.
+9. aburi, aburi-jan · low · lemma aburi; morphs abüri. · abüri.
+10. doṅγodurun · low · "-rün/-run"; morph is -urun. · -urun (linking u + -run).
+11. hudaruγ̇asu · low · bare -γ̇asu; morph is -uγ̇asu. · -uγ̇asu.
+12. duṅγodču · low · lemma doṅγod-; morph is duṅγod-. · duṅγod- (variant noted).
+13. küiküneg · low · "Küyüneg" (an invention). · Küiküneg, as printed.
+14. sorija · low · hortative -je; the form is -ja. · -ja.
+15. žürčed-ün · low · lemma Žürče; morph Žürčed. · Žürčed.
+16. medegdekü · low · passive -γda-; the form is -gde-. · -gde-.
+17. küčün-e · low · lemma küčün; morph küčü + -n-e. · küčü, -n-e.
+18. __broaden__ bolγaγ̇asu · low · "bolγa-" wording → bol- + causative -γa-.
+19. __broaden__ ičuba, aisunqun, dabaγ̇ad · low · removed: ičuba said "unit stem iču-" and aisunqun "ai- + -sunqun", which contradict the units' own ič- + -uba and aisu- + -nqun; dabaγ̇ad added nothing the old entry lacked. The old entries cover these uses.
+(balaγad broaden reworded: "the plural of balaγasun".)
+
+## Changes to units.json
+20. U8 · n · low · "(not a genitive, as the glossary has it)" read as if the glossary said it was one. · "as the glossary also has it".
+21. U24 · n · low · "aisunqun is … ; aisunqun is aisu-" repeated. · tidied.
+
+## Checked, no change needed
+Quote marks, ln/p, house names, l ↔ i in all 58 units, labels of case and converb endings against the forms (front/back harmony), the Ming-vs-Han remarks. Known forms whose entries cover the use without broadening: ba, γol, hara (novel), aiši, kürgežü, ügei, alus, ese, maṅlai, daisun, jan.
+
+## Refused or left
+- qoton and daγa- are not tokens of this part (only qotod/qotad/qotad-tur and daγ̇aqui-ača are), so pass 1's "broaden qoton / daγa-" is met by the new entries carrying the sense and the compare; a __broaden__ on a key absent from the text would be an unused key.
+- U9 `i` "as Jamuqa, Altan, Quchar … were" still reads their fate into the genitive; left (see pass 1), note says nothing is supplied about them.
+- U13 `i` "Let that matter stand" supplies a verb; the note says so. Left.
+- U52 `i` "each according to his strength" is a guess at küčün-e medeġülün; the note says it is unclear. Left.

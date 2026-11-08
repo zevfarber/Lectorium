@@ -134,3 +134,6 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 245
 - Names in `i`: Teb-Tenggeri, Soqor (man's name, not "blind"), Ödčigin, Temüge, Mother Etügen the Great Earth (dair "great" here); bökös → "wrestlers"; kölge- "to yoke"; temeče- + -ldü- + -d- + -kün; qanču + -d + -(i)jan.
+
+## House renderings added by 246-248
+- Names in `i`: Chabchiyal, Küiküneg (Shiratori's spelling), Juin, Fox Pass (Hünegen dabā), Zhongdu (Han 中都), Mozhou and Fuzhou; Teb-Tenggeri. lemmas else-, ič-, qoton + -d, daγa-, balaγad, bol- + -γa- follow the glossary.

@@ -149,3 +149,7 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 257-259
 - Names in `i`: Sartaul (people), Arai, Jebe, Sübegetei, Toquchar, Qulan, Ödchigin, Sultan, Melig Qan, Udurar (Udirar/Udurar/Udarar one town). baγudqun (Ming 下營) "camp before"; baγ̇ulba "demoted" (Ming 削, tentative). Opening quote marks Shiratori omits are supplied in `i` only and said in the notes.
+
+## House renderings added by 260-264
+- Names in `i`: Jüchi, Cha'adai, Ögödei, Shigi-Qutuqu, Qongqai, Qongtaqar, Sormaqan, Qaliba, Ürüngechi, Dorbai-Doqshin, Jalawachi, Masqud, Bala, Jalaldin, Melig Qan, Zhongdu (Han 中都; the Ming here writes 大都), Erdis, Shin River; peoples Sartaul, Baqtad, Kibcha'ud, Bajigid, Majarad, Urijang (ž→j, γ→q/h, ṅ→ng as before).
+- qorči/qorčin "quiver-bearer(s)"; daruγa "governor(s)"; serkes "wethers" (tentative); qarin (Ming 邦) "nation" (tentative); doroida- + -γ̇ul- (printed -γ̇ui-, read as slip, Han 兀勒); closing quote for the §263 decree supplied in `i` after talbižu.

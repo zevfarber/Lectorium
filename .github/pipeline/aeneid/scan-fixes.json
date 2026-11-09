@@ -3555,5 +3555,129 @@
    "pa⏑3rat×"
   ],
   "why": "Half-line (hemistich), one of Virgil's unfinished lines: ergō | iūs-să pă | rat, a spondee, a dactyl and the long start of a third foot, the last syllable marked × as the end of the line. At six syllables it cannot be a hexameter, so there is nothing to fit; the scanner returns UNRESOLVED. Iussa has a consonantal i (iū-ssa)."
+ },
+ "4.504": {
+  "sc": [
+   "1At–",
+   "re–2gi–na⏑",
+   "py⏑3ra–‖",
+   "pe⏑ne⏑4tra–li",
+   "in–",
+   "5se–de⏑",
+   "sub⏑",
+   "6au–ras×"
+  ],
+  "why": "Rēgīna with long ē and long ī, pyrā an ablative (pyra erecta) with long final -ā, pĕnĕtrālī with elided -ī: At rē | gī-nă pў | rā pĕ-nĕ | trā(li) in | sē-dĕ sŭb | au-ras. The scanner fitted At rĕ-gĭ | nā pў-ră | pĕ-nē ..., a legal shape with wrong vowels (rĕgĭna as in no other line; pyra short at the end), which would make the audio pronounce regina and pyra wrongly. It is the only reading that fits with pyra as an ablative."
+ },
+ "4.515": {
+  "sc": [
+   "1quae–ri⏑tur⏑",
+   "2et–",
+   "nas–3cen–tis⏑",
+   "e⏑4qui–‖",
+   "de–",
+   "5fron–te⏑",
+   "re⏑6vol–sus×"
+  ],
+  "why": "The scanner's fit is correct (checked by hand: quae-rĭ-tŭr | et nas | cēn-tĭs ĕ | quī dē | frōn-tĕ rĕ | vol-sus); the entry is needed only because this line shares a unit with 4.516, a half-line the scanner cannot fit, and a unit with an unresolved line receives no sc at all."
+ },
+ "4.516": {
+  "sc": [
+   "1et–",
+   "ma–2tri–",
+   "prae–3rep–tus⏑",
+   "a⏑4mor×"
+  ],
+  "why": "Half-line (hemistich), one of Virgil's unfinished lines: et mā | trī prae | rēp-tŭs ă | mor, two spondees, a dactyl and the long half of a fourth foot, mātrī with long ā (mater) and long -ī (dative), rep long by position, -tus short before the vowel of amor, the last syllable marked × as the end of the line. Eight syllables, so there is no hexameter to fit; the scanner returns UNRESOLVED. Entered like 4.44, 4.361, 4.400 and 4.503."
+ },
+ "4.526": {
+  "sc": [
+   "1quae–que⏑",
+   "la⏑2cus–",
+   "la–3te–",
+   "li⏑qui⏑4dos–‖",
+   "quae–que",
+   "5as–pe⏑ra⏑",
+   "6du–mis×"
+  ],
+  "why": "quae-que lă | cūs lā | tē lĭ-quĭ | dōs quae | (que) ăs-pĕ-ră | dū-mis. The scanner read cus la te as long-short-short and li qui as long-long; but lacus (accusative plural) has long -cūs, late has long lā- and long -tē (as in 1.21), and liquidos has two short i's. This is the only fit that keeps lātē long; the quantity of liquidus (lĭquĭdus) is taken from that fit. -que of quaeque elides into aspera."
+ },
+ "4.538": {
+  "sc": [
+   "1ius–sa⏑",
+   "se⏑2quar–",
+   "Qui⏑a⏑ne",
+   "3au–xi⏑li⏑4o–‖",
+   "iu⏑vat⏑",
+   "5an–te⏑",
+   "le⏑6va–tos×"
+  ],
+  "why": "Quiane is Qui-ă-ne with short qui and short a, -ne elided into auxilio: iūs-să sĕ | quar quĭ-ă | (ne) au-xĭ-lĭ | ō iŭ-văt | an-tĕ lĕ | vā-tos. The scanner read the i after qu as consonantal (as in iam, the 4.433 requiem mistake), so Quia counted as one syllable, and gave sixteen syllables instead of seventeen. Iussa and iuvat have the consonantal i of an initial i-."
+ },
+ "4.542": {
+  "sc": [
+   "1La–o⏑me⏑2don–te–3ae–",
+   "sen–4tis–‖",
+   "per–5iu–ri⏑a⏑",
+   "6gen–tis×"
+  ],
+  "why": "Flagged COSTLY 3.5. Lā-ŏ-mĕ | dōn-tē | ae sen | tīs per | iū-rĭ-ă | gen-tis: Laomedonteae is La-o-me-don-te-ae, six syllables (-tē- long, from the Greek -eios, then the diphthong ae), sentis is sentīs with long -tīs (fourth conjugation, second person), and periuria has consonantal i after the prefix (per-iū-ri-a, per long by position before i). The scanner ran Teae together and read the i of periuria as a vowel (pe-ri-u-ri-a), giving a line of the right shape with wrong syllables."
+ },
+ "4.549": {
+  "sc": [
+   "1his–",
+   "ger–2ma–na⏑",
+   "ma⏑3lis–‖",
+   "o⏑ne⏑4ras–",
+   "at–que",
+   "5ob–i⏑cis⏑",
+   "6hos–ti×"
+  ],
+  "why": "Same quantities as the scanner's, different syllable division: obicis (ob + iacio) has the i consonantal after the prefix, so it is ob-ĭ-cĭs with the ob long by position, not an open long o: ob ĭ cĭs. The scanner's o-bi-cis marked an open syllable long, which would be sung ō-."
+ },
+ "4.554": {
+  "sc": [
+   "1Ae–ne–2as–",
+   "cel–sa",
+   "3in–",
+   "pup–4pi–‖",
+   "iam–",
+   "5cer–tus⏑",
+   "e⏑6un–di×"
+  ],
+  "why": "Aeneas is three syllables, Ae-nē-ās (initial diphthong one syllable, -nē- long), not A-e-ne-as: Ae-nē | ās cel | (sa) in pup | pi iam | cer-tŭs ĕ | ūn-di. Celsa elides into in; eundi is ĕ-ūn-dī (e short before the vowel, un long by position), a genitive of the gerund and not Greek eu."
+ },
+ "4.558": {
+  "sc": [
+   "1om–ni⏑a⏑",
+   "2Mer–cu⏑ri⏑3o–",
+   "si⏑mi⏑4lis–‖",
+   "vo–5cem–que⏑",
+   "co⏑6lo–rem×que"
+  ],
+  "why": "Hypermetric line (like 1.332 and 1.448): the last syllable -que of coloremque elides into et, the first word of 559, so the line has seventeen syllables and sixteen count: om-ni-ă | Mēr-cŭ-rĭ | ō sĭ-mĭ | līs vō | cēm-quĕ cŏ | lō-rĕm(que). The scanner cannot elide across a line end and returned UNRESOLVED. Similis has its final -is lengthened in the arsis at the pause, and Mercurio is four syllables with o long."
+ },
+ "4.559": {
+  "sc": [
+   "1et–",
+   "cri–2nis–",
+   "fla–3vos–‖",
+   "et–",
+   "4mem–bra⏑",
+   "de⏑5co–ra⏑",
+   "iu⏑6ven–ta×"
+  ],
+  "why": "The scanner's fit is correct (checked by hand: et crī | nīs fla | vōs et | mem-bră dĕ | cō-ră iŭ | ven-ta); the entry is needed only because this line shares a unit with 4.558, a hypermetric line the scanner cannot fit, and a unit with an unresolved line receives no sc at all."
+ },
+ "4.571": {
+  "sc": [
+   "1Tum–",
+   "ve–ro",
+   "2Ae–ne–3as–‖",
+   "su⏑bi⏑4tis–",
+   "ex–5ter–ri⏑tus⏑",
+   "6um–bris×"
+  ],
+  "why": "Aeneas is three syllables, Ae-nē-ās, with vero elided into Ae-: Tum vē | Ae-nē | ās sŭ-bĭ | tis ex | ter-rĭ-tŭs | um-bris. The scanner split Ae- (A-e-ne-as) and fitted it at cost 1.2."
  }
 }

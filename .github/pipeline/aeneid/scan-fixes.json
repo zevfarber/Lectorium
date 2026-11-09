@@ -4178,5 +4178,125 @@
    "mo⏑6ra–tus×"
   ],
   "why": "Aeneae is three syllables, Ae-nē-ae: Aē-nē | ae stĕ-tĭt | an-tĕ pĕ | dēs nec | plū-ră mŏ | rā-tus (15 syllables, three dactyls). The scanner (cost 1.2) split Ae- in two and counted sixteen."
+ },
+ "5.410": {
+  "sc": [
+   "1Quid–",
+   "si–",
+   "2quis–",
+   "caes–3tus–",
+   "ip–4si–us⏑",
+   "et⏑",
+   "5Her–cu⏑lis⏑",
+   "6ar–ma×"
+  ],
+  "why": "Ipsius with its -sī- long, three syllables (genitive in -īus): Quid sī | quis caes | tus ip | sī-us et | Her-cu-lis | ar-ma (14 syllables, two dactyls). The scanner (cost 2.6) took 'sius' as one syllable and then needed et- long before Her-, but h does not make position, so et is short; the dactyl sī-ŭs ĕt is the fit."
+ },
+ "5.417": {
+  "sc": [
+   "1Sed–",
+   "si–",
+   "2nos–tra⏑",
+   "Da⏑3res–‖",
+   "haec–",
+   "4Tro–i⏑us⏑",
+   "5ar–ma⏑",
+   "re⏑6cu–sat×"
+  ],
+  "why": "Troius is three syllables, Trō-ĭ-ŭs, as in the published aeneid-007: Sed sī | nos-tră Dă | rēs haec | Trō-ĭ-ŭs | ar-mă rĕ | cū-sat (15 syllables, three dactyls). The scanner (cost 0.8) made it Tro-ius with a long 'ius' before a vowel, which nothing allows."
+ },
+ "5.418": {
+  "sc": [
+   "1id–que⏑",
+   "pi⏑2o–",
+   "se⏑det⏑",
+   "3Ae–ne–4ae–",
+   "pro⏑bat⏑",
+   "5auc–tor⏑",
+   "A⏑6ces–tes×"
+  ],
+  "why": "Aeneae is Ae-nē-ae, three syllables, with Ae- a diphthong and no elision (pĭō does not elide before the long Ae-): Id-quĕ pĭ | ō sĕ-dĕt | Aē-nē | ae prŏ-băt | auc-tŏr Ă | cēs-tēs (16 syllables, four dactyls). The scanner (cost 1.2) split Ae- in two (A-e-ne-ae), as at 5.282, 5.286."
+ },
+ "5.422": {
+  "sc": [
+   "1et–",
+   "mag–2nos–",
+   "mem–3bro–rum",
+   "ar–4tus–",
+   "mag–na",
+   "5os–sa⏑",
+   "la⏑6cer–tos×que"
+  ],
+  "why": "Hypermetric line (Virgil's -que elided into the exuit that opens 423): et mag | nos mem | bro(rum) ar | tus mag(na) | os-sa la | cer-tos (que). Thirteen metrical syllables, one dactyl (os-sa-la); the final -que is not counted and is left unmarked (elided into 'exuit'), the end mark × on tos. The scanner returns UNRESOLVED because it has no hypermetric option."
+ },
+ "5.432": {
+  "sc": [
+   "1gen–ua⏑",
+   "la⏑2bant–",
+   "vas–3tos–",
+   "qua⏑tit⏑",
+   "4ae–ger⏑",
+   "an⏑5he–li⏑tus⏑",
+   "6ar–tus×"
+  ],
+  "why": "Genua has consonantal u (gen-wa), two syllables, the first long by position: gen-wa lă | bant vas | tos quă-tĭt | ae-gĕr ăn | hē-lĭ-tŭs | ar-tūs (16 syllables, four dactyls). The scanner returns UNRESOLVED because it reads ge-nu-a with a short first syllable. (An-hē-li-tus has its first syllable short: n+h is one consonant.)"
+ },
+ "5.450": {
+  "sc": [
+   "1Con–sur–2gunt–",
+   "stu⏑di⏑3is–‖",
+   "Teu–cri",
+   "4et–",
+   "Tri–5na–cri⏑a⏑",
+   "6pu–bes×"
+  ],
+  "why": "Teu- is one long syllable (Greek eu), as at 5.293 and 3.352; -cri elides into et: Con-sur | gunt stŭ-dĭ | is Teu | (cr)et Tri | nā-crĭ-ă | pū-bes (14 syllables, two dactyls; Trinacria with na- long before cr-, as in aeneid-022). The scanner (cost 0.0, so not flagged) split Teucri into Te-u-cri and made it 15."
+ },
+ "5.461": {
+  "sc": [
+   "1Tum–",
+   "pa⏑ter⏑",
+   "2Ae–ne–3as–‖",
+   "pro–4ce–de⏑re⏑",
+   "5lon–gi⏑us⏑",
+   "6i–ras×"
+  ],
+  "why": "Aeneas is three syllables, Ae-nē-ās: Tum pă-tĕr | Aē-nē | ās prō | cē-dĕ-rĕ | lon-gĭ-ŭs | ī-ras (15 syllables, three dactyls). The scanner (cost 1.2) split Ae- in two (A-e-ne-as) and made it 16, as at 5.282, 5.286."
+ },
+ "5.421": {
+  "sc": [
+   "1Haec–",
+   "fa–2tus–",
+   "du⏑pli⏑cem",
+   "3ex–",
+   "u⏑me⏑4ris–‖",
+   "re–5ie–cit⏑",
+   "a⏑6mic–tum×"
+  ],
+  "why": "Scanner's fit for this line taken as is; entered because the unit it sits in also holds a hand-scanned line (5.422), which leaves the scanner no result for the whole unit."
+ },
+ "5.423": {
+  "sc": [
+   "1e–xu⏑it⏑",
+   "2at–que",
+   "in–3gens–‖",
+   "me⏑di⏑4a–",
+   "con–5sis–tit⏑",
+   "ha⏑6re–na×"
+  ],
+  "why": "Scanner's fit for this line taken as is; entered because the unit it sits in also holds a hand-scanned line (5.422), which leaves the scanner no result for the whole unit."
+ },
+ "5.431": {
+  "sc": [
+   "1hic–",
+   "mem–2bris–",
+   "et–",
+   "3mo–le⏑",
+   "va⏑4lens–‖",
+   "sed–",
+   "5tar–da⏑",
+   "tre⏑6men–ti×"
+  ],
+  "why": "Scanner's fit for this line taken as is; entered because the unit it sits in also holds a hand-scanned line (5.432), which leaves the scanner no result for the whole unit."
  }
 }

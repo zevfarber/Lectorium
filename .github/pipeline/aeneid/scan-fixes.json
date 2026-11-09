@@ -3679,5 +3679,94 @@
    "6um–bris×"
   ],
   "why": "Aeneas is three syllables, Ae-nē-ās, with vero elided into Ae-: Tum vē | Ae-nē | ās sŭ-bĭ | tis ex | ter-rĭ-tŭs | um-bris. The scanner split Ae- (A-e-ne-as) and fitted it at cost 1.2."
+ },
+ "4.616": {
+  "sc": [
+   "1fi–ni⏑bus⏑",
+   "2ex–tor–3ris–‖",
+   "com–4ple–xu",
+   "a–5vul–sus⏑",
+   "I⏑6u–li×"
+  ],
+  "why": "Ĭūlī is three syllables (house practice, as 1.556, 1.690, 4.274), not consonantal I: fī-nĭ-bŭs | ex-tōr | ris com | plex (u)ā | vul-sŭs Ĭ | ū-li (14 syllables; -xu elided into a-). The scanner read Iu- as one syllable and made the fifth foot a spondee (cost 2.0); a valid line, but not the Virgilian prosody of the name."
+ },
+ "4.628": {
+  "sc": [
+   "1Li–to⏑ra⏑",
+   "2li–to⏑ri⏑3bus–‖",
+   "con–4tra–ri⏑a⏑",
+   "5fluc–ti⏑bus⏑",
+   "6un–das×"
+  ],
+  "why": "The scanner's fit is correct (checked by hand: Lī-tŏ-ra | lī-tŏ-rĭ | bus con | trā-rĭ-a | fluc-tĭ-bus | un-das); the entry is needed only because this line shares a unit with 4.629, a hypermetric line the scanner cannot fit, and a unit with an unresolved line receives no sc at all."
+ },
+ "4.629": {
+  "sc": [
+   "1im–pre⏑cor⏑",
+   "2ar–ma",
+   "ar–3mis–‖",
+   "pug–4nent–",
+   "ip–5si–que⏑",
+   "ne⏑6po–tes×que"
+  ],
+  "why": "Hypermetric line (like 4.558): the last syllable -que of nepotesque elides into Haec, the first word of 630, so the line has fifteen syllables and fourteen count: ĭm-prĕ-cŏr | ar(ma) ar | mis pug | nent ip | sī-quĕ nĕ | pō-tes(que). Arma elides its -ma into armis; imprecor has im long by position, pre and cor short. The scanner returned UNRESOLVED."
+ },
+ "4.633": {
+  "sc": [
+   "1nam–que⏑",
+   "su⏑2am–",
+   "pa⏑tri⏑a",
+   "3an–ti–4qua–",
+   "ci⏑nis⏑",
+   "5a–ter⏑",
+   "ha⏑6be–bat×"
+  ],
+  "why": "The scanner's fit (cost 0.0) gives antiqua and cinis the wrong quantities (ti and qua short, ci and nis long). Natural quantities: nam-quĕ sŭ | am pă-trĭ(a) | an-tī | quā cĭ-nĭs | ā-tĕr hă | bē-bat. Antiqua is ablative with patria (long -ā, as in the published fits an–ti–qua–), antīquus has long ī, cinis is cĭnĭs, āter has long ā."
+ },
+ "4.682": {
+  "sc": [
+   "1Exs–tinx–2ti–",
+   "te–",
+   "3me–que⏑‖",
+   "so⏑4ror–",
+   "po⏑pu⏑5lum–que⏑",
+   "pa⏑6tres–que×"
+  ],
+  "why": "The scanner's fit (cost 0.6) made the pronouns te and me short and que and so long. Natural quantities: Exs-tinx | ti te | mē-quĕ sŏ | rŏr pŏ-pŭ | lum-quĕ pă | tres-que. Tē and mē are long by nature; soror is sŏrŏr; the syncopated -ti of exstinxti is long."
+ },
+ "4.685": {
+  "sc": [
+   "1o–re⏑",
+   "le⏑2gam–",
+   "Sic–",
+   "3fa–ta⏑",
+   "gra⏑4dus–",
+   "e–5va–se⏑rat⏑",
+   "6al–tos×"
+  ],
+  "why": "The scanner's fit (cost 0.0) made gra long, dus short and e short. Natural quantities: ō-rĕ lĕ | gam Sic | fā-tă gră | dūs ē | vā-sĕ-răt | al-tos. Gradus is accusative plural (long -ūs), ēvādo has long ē- (from ex-), and gra before d is short."
+ },
+ "4.694": {
+  "sc": [
+   "1dif–fi⏑ci⏑2lis–que",
+   "o⏑bi⏑3tus–",
+   "I–4rim–‖",
+   "de–5mi–sit⏑",
+   "O⏑6lym–po×"
+  ],
+  "why": "The scanner's fit (cost 0.0) made o and bi long and tus and I short. Natural quantities: dif-fĭ-cĭ | lis (que) ŏ-bĭ | tūs Ī | rim dē | mī-sĭt Ŏ | lym-po. Obitus is accusative plural with long -ūs (obĭtūs), Īris has long Ī (as at 4.700), dēmīsit has long dē and mī, and Ŏlympus has short O."
+ },
+ "4.696": {
+  "sc": [
+   "1Nam–",
+   "qui⏑a⏑",
+   "2nec–",
+   "fa–3to–‖",
+   "me⏑ri⏑4ta–",
+   "nec–",
+   "5mor–te⏑",
+   "pe⏑6ri–bat×"
+  ],
+  "why": "Quia is two short syllables (as at aeneid-009, 'qui⏑a⏑'), not one long syllable by synizesis as the scanner fitted it: Nam quĭ-ă | nec fā | tō mĕ-rĭ | tā nec | mōr-tĕ pĕ | rī-bat. Otherwise the same division of feet."
  }
 }

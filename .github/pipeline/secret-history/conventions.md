@@ -143,3 +143,6 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 254
 - Names in `i`: Uquna, Jesüi, Kökösös, Jüchi, Cha'adai, Sartaul (the Sartaγul); Merkidai Čulγul left as printed (people name uncertain). Quotes: openings Shiratori omits supplied in `i` only and said in the notes; the mother's thoughts in Kökösös's speech in single quotes in `i`.
+
+## House renderings added by 255-256
+- Names in `i`: Asha Gambu (after Jaqa Gambu), Mother Etügen; Altan = the Jin ruler (also where Ming 金 follows); Qān → Qan, Qaγan → Qahan. že-jin here "assent" (Ming 應許).

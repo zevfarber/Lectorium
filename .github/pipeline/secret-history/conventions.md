@@ -146,3 +146,6 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 255-256
 - Names in `i`: Asha Gambu (after Jaqa Gambu), Mother Etügen; Altan = the Jin ruler (also where Ming 金 follows); Qān → Qan, Qaγan → Qahan. že-jin here "assent" (Ming 應許).
+
+## House renderings added by 257-259
+- Names in `i`: Sartaul (people), Arai, Jebe, Sübegetei, Toquchar, Qulan, Ödchigin, Sultan, Melig Qan, Udurar (Udirar/Udurar/Udarar one town). baγudqun (Ming 下營) "camp before"; baγ̇ulba "demoted" (Ming 削, tentative). Opening quote marks Shiratori omits are supplied in `i` only and said in the notes.

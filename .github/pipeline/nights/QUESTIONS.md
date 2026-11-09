@@ -1174,3 +1174,6 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 
 ## 2026-11-08 (publishing run, night 87)
 - Corrected misprints in emend.json: six اى→الى (P485L05, P485L12, P486L02, P486L04, P486L08, P486L11). Doubtful, kept as printed and flagged in `n`: P486L10 جمع ما (perhaps جميع ما). Run-together words kept as printed and noted: السعيدأن, السّران, لا نتظار, ارادان, امران, صاربين. The archive was not changed.
+
+## 2026-11-09 (publishing run, night 88)
+- Corrected misprints in emend.json: P487L09 اخوة→اخوه, P488L02 الدوهي→الدواهي, P488L08 النمعان→النعمان, P489L02 عمان→عنان ("thirty thousand reins"), P489L05 كالبد→كالبدر. Doubtful, kept as printed and flagged in `n`: P487L02 وتانى (read as تأنّى; perhaps وتأتي), P488L01 احدوا لهم (obscure; perhaps احوالهم), P488L05 انه before ذات الدواهي, P488L15 بوادي النعمان. Run-together and split words kept as printed and noted: السعيدان, وأسافرانا, ونريدان, فمامر, طارحتى, الخطيراني, يالعيسى, قرّعينا, كا لفر نسيس, الصعا ليك, سار وا. The archive was not changed.

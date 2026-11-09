@@ -41,3 +41,35 @@ Unit numbers are 1-based, as in the author's notes. No `t` was changed; 13 units
 - Unit 1 “bowed to the ground” (Ming 叩頭): left; adequate.
 - `bümüi` = bü- + -mui, `-gde-` passive, `-ldü-` “together”: left; they fit the Ming and house usage.
 - “Žürčedei” → Jürchedei, Alchi, Tolun: names in `i` kept as drafted per conventions.
+
+# Review, pass 2 — secret-history-253-253 (§253)
+
+Every gloss.json entry was checked against the text, the final morph lemmas and the shared glossary; `t` untouched (98 words, each consumed once). Gloss keys all match the reader's tokens of `t`; no unused keys.
+
+## Changes
+
+| Unit · field | Severity | What was wrong | What was done |
+|---|---|---|---|
+| gloss baγudqun, qaγ̇uludqun | major | Still carried the pre-pass-1 labels: “plural optative/imperative”, and “the -d- uncertain” for qaγ̇ulu-d-qun; contradicted units.json (one ending -dqun, plural polite imperative, Ming 您). qaγ̇ulu- glossed “put down, suppress”, which units/`i` render “hunt down”. | Both entries now “plural polite imperative -dqun”, Ming 您; “hunt (him) down, you all”; “-d- uncertain” removed. |
+| gloss bēgiṅ | moderate | Gave “Beijing (Daning, Ming 大寗)”, hiding the Han 北京 and the pass-1 caveat. | Han 北京 ‘northern capital’, Ming 大寗 Daning, “probably not today’s Beijing”. |
+| gloss naγ̇u, taγ̇ur | moderate | “Naγu”, “Taγur” (modern-looking forms; house practice and `i`/`l` use Na’u, Ta’ur). | “Na’u (Shiratori’s Naγ̇u)”, “Ta’ur (Shiratori’s Taγ̇ur)”. |
+| gloss elsegdežü | minor | “being brought to submit” disagreed with note/`i` (“being submitted to”). | Reworded. |
+| gloss aγ̇uruγ-tur | minor | “the place where the people halt” is invented. | Removed. |
+| gloss __broaden__ (9 entries) | moderate | Known entries not covering this part: teṅgeri (here a man’s name, Ming 人名), turγaγ (Ming 侍衞 ‘guard’, known only ‘day guard’ 散班), mürügüžü (known ‘butt’ 觸; here 叩頭 ‘kowtow’), elsen (Ming 歸附), ima-da (agent with passive), in-ü (before its noun), nojad-ača (‘from among’; known ‘than’), oroγ̇ulžu (‘make surrender’), kižin (Ming 㳂). | Old entry whole + “ · ” + new reading, under `__broaden__`. |
+| 8 · morph | major | in-ü / an-u split into pronoun stem in/an + genitive and both glossed “his”; published parts (157 and 38 uses) keep in-ü, an-u as one lemma, and the glossary reads an-u as “their”. | One morph each: in-ü “his … (here before its noun)”, an-u “their”. |
+| 8 · l, n | minor | `l` “his passing” and note “both ‘his’” disagreed with an-u = “their”. | l “their passing”; note states the glossary reading and the placement (in-ü before kižiγ̇ar, an-u after balaγad). |
+| 3 · morph | minor | Lemma ima written Ima (sentence capital); glossary has ima. | ima. |
+| 11 · morph | minor | noyan; glossary and every published part use nojan. | nojan. |
+| 6, 12 · morph | moderate | -žu given for elšeġülžü / elseġülžü, which end in front-vowel -žü (the glossary entries say front-vowel). | -žü. |
+| 4 · morph | moderate | ilerün analysed ile- + -run; the printed ending is -rün (glossary: -rün). | -rün, “front-vowel form”. |
+| 11 · n | minor | “I follow the draft in taking čerbi …” is workflow language in a reader-facing note. | “I take čerbi …”. |
+
+## Checked and left
+
+- Unit numbers in the notes (1-based: unit 5 baγudqun, 6 the long converb chain, 9 iredkün”, 10 irebe, 12 the Qasar clause) agree with the final segmentation; `l`/`i`/notes otherwise consistent with pass 1’s edits (-dqun relabelling, speech opening at baγudqun, Na’u/Ta’ur).
+- Glossary entries for nöködtü-ji, buqanu(-ji), elseġesü, kižiγ̇ar, ula, müred, tolun, ileldübe, elseġülžü, mör-e, bümüi: grammar and Ming glosses agree with the morphs; unchanged.
+- bēgiṅ with baγ̇užu / baγudqun: lemma baγu- (plain γ) kept to match the existing glossary entry for baγ̇užu.
+
+## Findings refused
+
+- None of the pass-2 findings was refused. Not changed because the evidence is balanced and the notes already say so: čerbi as Tolun’s title only; “beyond it” for činana; the subject of irebe (unit 10).

@@ -227,7 +227,7 @@
     {
      "morph": [
       {
-       "lemma": "Ima",
+       "lemma": "ima",
        "gloss": "he, that one (a pronoun stem, Ming 他) [他 行]"
       },
       {
@@ -404,8 +404,8 @@
        "gloss": "to send [去時]"
       },
       {
-       "lemma": "-run",
-       "gloss": "converb: while …ing"
+       "lemma": "-rün",
+       "gloss": "converb of time: when, as …ing (front-vowel form; Ming 時)"
       }
      ]
     }
@@ -486,8 +486,8 @@
        "gloss": "causative: make … do"
       },
       {
-       "lemma": "-žu",
-       "gloss": "converb: …ing"
+       "lemma": "-žü",
+       "gloss": "converb: …ing (front-vowel form)"
       }
      ]
     },
@@ -613,19 +613,15 @@
   },
   {
    "t": "in-ü kižiγ̇ar balaγad an-u daγ̇arin Ula, Naγ̇u müred kižin odču",
-   "l": "his border cities his passing, Ula, Na’u rivers along going,",
+   "l": "his border cities their passing, Ula, Na’u rivers along going,",
    "i": "pass through his border cities and go along the rivers Ula and Na’u,",
-   "n": "The orders go on: ‘pass through his border cities and go along the rivers’. in-ü and an-u are both ‘his’ (Ming 他的 each); the glossary has in-ü after its noun, but here it stands before kižiγ̇ar, so I read in-ü kižiγ̇ar balaγad as ‘his border cities’ and an-u as a second ‘their/his’ pointing at the cities; whether the two are meant separately is not clear. kižiγ̇ar (Ming 邊) is ‘edge, border’; balaγad is the plural of balaγasun; daγ̇arin is ‘passing’ (Ming 經過). Ula and Na’u are river names (Ming 河名 each); müred is müren ‘river’ + plural -d (Ming 河每); kižin (Ming 㳂) ‘along’. Na’u is Shiratori’s Naγ̇u, written with an apostrophe for γ̇ as in other names.",
+   "n": "The orders go on: ‘pass through his border cities and go along the rivers’. in-ü and an-u both have the Ming 他的; the glossary reads in-ü as ‘his’ and an-u as ‘their’, each placed after its noun. Here in-ü stands before kižiγ̇ar, so I read in-ü kižiγ̇ar balaγad as ‘his border cities’ and an-u, after balaγad, as ‘their’ pointing back at the cities; whether the two are meant separately is not clear. kižiγ̇ar (Ming 邊) is ‘edge, border’; balaγad is the plural of balaγasun; daγ̇arin is ‘passing’ (Ming 經過). Ula and Na’u are river names (Ming 河名 each); müred is müren ‘river’ + plural -d (Ming 河每); kižin (Ming 㳂) ‘along’. Na’u is Shiratori’s Naγ̇u, written with an apostrophe for γ̇ as in other names.",
    "words": [
     {
      "morph": [
       {
-       "lemma": "in",
-       "gloss": "he, that one (Ming 他; pronoun stem) [他的]"
-      },
-      {
-       "lemma": "-ü",
-       "gloss": "genitive: his, of him"
+       "lemma": "in-ü",
+       "gloss": "his, her, its (third-person genitive; here set before its noun, in-ü kižiγ̇ar) [他的]"
       }
      ]
     },
@@ -648,12 +644,8 @@
     {
      "morph": [
       {
-       "lemma": "an",
-       "gloss": "he, that one (Ming 他; pronoun stem) [他的]"
-      },
-      {
-       "lemma": "-u",
-       "gloss": "genitive: his, of him (back-vowel form)"
+       "lemma": "an-u",
+       "gloss": "their (back-vowel companion of in-ü, third-person genitive) [他的]"
       }
      ]
     },
@@ -846,7 +838,7 @@
    "t": "Qasar-luγ̇a nojad-ača Žürčedei, Alči, Tolun čerbi γurban-i ileldübe.",
    "l": "Qasar-with officers-from Jürchedei, Alchi, Tolun cherbi, three-(object) sent-together.",
    "i": "With Qasar he sent along three of the officers, Jürchedei, Alchi and Tolun the cherbi.",
-   "n": "A new sentence. Qasar-luγ̇a is Qasar + comitative -luγ̇a, ‘with Qasar’ (Ming 一同). nojad-ača is noyan ‘officer’ + plural -d + ablative -ača, ‘from among the officers’ (Ming 官人每行). Then three names and čerbi (Ming 官名, an office whose meaning is not known; see §224), then γurban-i, ‘the three’ + -i. I follow the draft in taking čerbi as Tolun’s title only; it stands directly before the numeral, so it could equally be the title of all three, and I leave that open. ileldübe is ile- ‘send’ + -ldü- ‘together’ + past -be (Ming 敎共去了).",
+   "n": "A new sentence. Qasar-luγ̇a is Qasar + comitative -luγ̇a, ‘with Qasar’ (Ming 一同). nojad-ača is noyan ‘officer’ + plural -d + ablative -ača, ‘from among the officers’ (Ming 官人每行). Then three names and čerbi (Ming 官名, an office whose meaning is not known; see §224), then γurban-i, ‘the three’ + -i. I take čerbi as Tolun’s title only; it stands directly before the numeral, so it could equally be the title of all three, and I leave that open. ileldübe is ile- ‘send’ + -ldü- ‘together’ + past -be (Ming 敎共去了).",
    "words": [
     {
      "morph": [
@@ -863,7 +855,7 @@
     {
      "morph": [
       {
-       "lemma": "noyan",
+       "lemma": "nojan",
        "gloss": "lord, officer [官人每行]"
       },
       {
@@ -1020,8 +1012,8 @@
        "gloss": "causative: make … do"
       },
       {
-       "lemma": "-žu",
-       "gloss": "converb: …ing"
+       "lemma": "-žü",
+       "gloss": "converb: …ing (front-vowel form)"
       }
      ]
     },

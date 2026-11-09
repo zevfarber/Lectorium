@@ -153,3 +153,6 @@ publish without audio until the owner chooses. Do not build audio.
 ## House renderings added by 260-264
 - Names in `i`: Jüchi, Cha'adai, Ögödei, Shigi-Qutuqu, Qongqai, Qongtaqar, Sormaqan, Qaliba, Ürüngechi, Dorbai-Doqshin, Jalawachi, Masqud, Bala, Jalaldin, Melig Qan, Zhongdu (Han 中都; the Ming here writes 大都), Erdis, Shin River; peoples Sartaul, Baqtad, Kibcha'ud, Bajigid, Majarad, Urijang (ž→j, γ→q/h, ṅ→ng as before).
 - qorči/qorčin "quiver-bearer(s)"; daruγa "governor(s)"; serkes "wethers" (tentative); qarin (Ming 邦) "nation" (tentative); doroida- + -γ̇ul- (printed -γ̇ui-, read as slip, Han 兀勒); closing quote for the §263 decree supplied in `i` after talbižu.
+
+## House renderings added by 265-266
+- Names in `i`: Jesüi, Arbuqa, Josotu-Boro, So'oroqad, Tolun (cherbi, of the Qongqotadai), Burqan (the Tangut ruler), Asha Gambu, Chasutu, Alashai; Ningxia (Ariγaja, Ming 甯夏), Xiliang (Erižeġü, Ming 西涼); Kitad (the Jin state), Qara-Kitad, Bo'orchu, Muqali. Qān → Qan; Altan = the Jin emperor; Taṅγ̇ud → Tangut; Sartaγ̇ul → Sartaul. -dkün/-dqun taken as one ending; qorγolaγ̇ul- = qorγo "stockade" + -la- + -γ̇ul- (tentative).

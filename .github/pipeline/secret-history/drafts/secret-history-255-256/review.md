@@ -60,3 +60,33 @@ Checks that passed unchanged: every word's morph brackets equal the packet's Min
 - Reflexive (i) as "accusative (Shiratori's)" on participles and nigen(i)-: consistent with the Ming 行 and with earlier parts; kept.
 - Apostrophe style in names (Cha’adai curly here, Cha'adai straight in §254): published parts already mix; not touched.
 - Stems "inferred from the Ming" (müčilže-, qolbara-, daldari-, osolda-, kelbe-, …): all labelled as inferred and uncertain by the glosser; no modern form invented, none changed.
+
+
+# Review, pass 2 — secret-history-255-256 (§§255–256)
+
+Independent second pass, in place on `units.json` and `gloss.json` (`t` and word counts untouched: 75 units, 419 words; checked again: every word's Ming bracket equals the packet's, 419/419; `t` equals the packet's romanization word for word; reader tokens 430, all covered by gloss.json plus the shared glossary, no unused keys, no gloss.json key shadowed by the shared glossary, all ten `__broaden__` entries extend the existing entry; quote marks balance in `l` per unit and in `i` across units). Read every unit's labels against its form, `l` word by word against `t`, `l` against `i`, the notes against the units they cite (cross-references such as ‘U3’, ‘§254’, ‘later in this part’ checked), and all 89 gloss.json entries against the unit morphs and the shared glossary. Pass-1's changes were re-checked and stand: none introduced an error. Totals: 0 critical, 0 major, 1 moderate, 7 minor.
+
+## Changes
+
+| Unit | Field | Sev | What was wrong | What was done |
+|---|---|---|---|---|
+| gloss.json `nigeni` | entry | moderate | Said the token is ‘followed by reflexive -jan as a separate token’; the printed word is nigen(i)-jen (front vowel; the shared glossary's `jen`), in U51–U54. Misnamed the grammar the reader meets. | -jan → -jen. |
+| U28, U31 (words 139, 157) | morph | minor | Altan here is a man (Ming 人名, with Quchar, ‘the two’), but the morph gloss read ‘gold, golden (also a man's name)’, putting the common noun first. | ‘Altan, a man's name (the word also means 'gold') [人名]’. |
+| U24 | `l` | minor | `l` ‘tribes subduing’ for qari, while `i` (pass 1) and the Ming 邦 say ‘foreign peoples’. | `l` ‘foreign subduing’. |
+| U20 | `i` | minor | ‘then issued a decree’: ‘then’ is not in žarliγ bolurun, and U42 (same formula) has none. | ‘then’ removed. |
+| U26 | `n` | minor | ‘the same bu … -dkün as in the first unit of the part’: the first unit is U0 (Tendēče); the form is in U3. | ‘as in keġedkün, the third unit of the part’. |
+| U3 | `n` | minor | ‘a few units on’ for ineġeġülüdkün, which is 23 units later. | ‘in the decree that follows’. |
+| U58, U70 | `n` | minor | ‘the Qan's mouth’, ‘the Qan's speech’ for Chinggis, who is Qaγan there (U57–U58, U69); house rule Qān → Qan, Qaγan → Qahan. | ‘Qahan's’ in both. |
+| U67 | `n` | minor | ‘an insult to the Qan’: the Qan is not named in the unit; the insult is to Chinggis (Qaγan, U62). | ‘an insult to Chinggis’. |
+
+## Findings refused (with reason)
+
+- **U5 `i` ‘to Jüchi, the strong one’** (Žuči-jin is genitive, so strictly ‘Jüchi's strong one’): the note already declares which way the sentence turns uncertain; `l` keeps ‘Jüchi-of strong-(object)’. Kept.
+- **U16 ‘What does Jüchi say?’ (third person) then ‘Speak your own mind’**: faithful to the form; the note says the unit turns to the man himself. Kept.
+- **U21 ‘Why stay joined, side by side?’** and **U72/U74** (‘leave that matter’, ‘let that matter be done’): all flagged as readings in the notes; no form contradicts them.
+- **U51–U54 ‘From … descendants’** for a bare genitive: partitive sense, ‘their own’ for the reflexive is in the same line; kept.
+- **U68 -žüġü ‘past narrative’ against ažuγ̇u -žuγ̇u ‘past’** (U60, shared glossary): same ending under two labels, but each follows its shared-glossary entry; changing one would split the shared glossary.
+- **U56 ese hutaruγ̇asu** (ese with a conditional, not a past): the note's ‘ese negates what has not been done’ is a fair short statement and the glossary entry says the same; kept.
+- **boltala bracket 到了 in the shared glossary against Ming 做 here**: the glossary entry is not mis-glossed (same word, variant Ming), and a broaden entry would only add noise; kept.
+- **Cha’adai curly here, Cha'adai straight in 242–244**: already refused in pass 1 (the published parts mix).
+- **`i` wording checked for remembered translators' English**: none found; the renderings are the part's own readings, tied to the Ming and the notes.

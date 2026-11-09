@@ -3491,5 +3491,69 @@
    "stu⏑di⏑4o×"
   ],
   "why": "Half-line (hemistich), one of Virgil's unfinished lines: in-fă-brĭ | cā-tă fŭ | gae stŭ-dĭ | ō, three dactyls and the long half of a fourth foot (infabricāta with the long ā of the participle, fă-brĭ short before the mute and liquid), the last syllable marked × as the end of the line. There is no hexameter to fit; the scanner returns UNRESOLVED."
+ },
+ "4.433": {
+  "sc": [
+   "1tem–pus⏑",
+   "i⏑2na–ne⏑",
+   "pe⏑3to–‖",
+   "re⏑qui⏑4em–",
+   "spa⏑ti⏑5um–que⏑",
+   "fu⏑6ro–ri×"
+  ],
+  "why": "requiem is three syllables, re-quĭ-em (qui = qu + short i, then -em long by position before spa-): tem-pus i | nā-ne pe | tō re-quĭ | em spa-ti | um-que fu | rō-ri, a line of five dactyls. The scanner took the i after qu as consonantal (as in iam) and fitted a different line (requ | iem), which is wrong."
+ },
+ "4.458": {
+  "sc": [
+   "1con–iu⏑gis⏑",
+   "2an–ti–3qui–‖",
+   "mi–4ro–",
+   "quod⏑",
+   "ho⏑5no–re⏑",
+   "co⏑6le–bat×"
+  ],
+  "why": "coniugis (con + iugum): the i is consonantal, so con-iŭ-gĭs, three syllables, con long by position, not co-ni-u-gis as the scanner read it: con-iŭ-gĭs | an-tī | quī mī | rō quŏd hŏ | nō-rĕ cŏ | lē-bat. The pause after antiqui falls after the first long of foot 3."
+ },
+ "4.466": {
+  "sc": [
+   "1in–",
+   "som–2nis–",
+   "fe⏑rus⏑",
+   "3Ae–ne–4as–‖",
+   "sem–5per–que⏑",
+   "re⏑6lin–qui×"
+  ],
+  "why": "Aeneas is three syllables, Ae-nē-ās (initial diphthong one syllable, -nē- long, as 4.74, 4.117), not the four-syllable A-e-ne-as the scanner read: in som | nīs fĕ-rŭs | Ae-nē | ās sem | per-que re | lin-qui. somnis is ablative plural, so -nīs is long. The pause after Aeneas falls after the first long of foot 4."
+ },
+ "4.469": {
+  "sc": [
+   "1Eu–me⏑ni⏑2dum–",
+   "ve⏑lu⏑3ti–‖",
+   "de–4mens–",
+   "vi⏑det⏑",
+   "5ag–mi⏑na⏑",
+   "6Pen–theus×"
+  ],
+  "why": "Flagged COSTLY; confirmed by hand, entered so the reading is on record: Eu-mĕ-nĭ | dum vĕ-lŭ | tī dē | mens vĭ-dĕt | ag-mĭ-nă | Pen-theus. Eu in Eumenidum and -eu- in Pentheus are the Greek diphthong, one long syllable each (Pentheus is two syllables). The cost is veluti, whose last syllable has to be long (the old long -ī of utī), and demens, whose first syllable is long (dē-)."
+ },
+ "4.494": {
+  "sc": [
+   "1Tu–",
+   "se–2cre–ta⏑",
+   "py⏑3ram–‖",
+   "tec–to",
+   "4in–te⏑ri⏑5o–re⏑",
+   "sub⏑",
+   "6au–ras×"
+  ],
+  "why": "secreta has long sē- (the prefix) and long -crē- (from cernere), then short -ta (nominative feminine, agreeing with Tu); pyram is short-y (Greek pyra): Tū sē | crē-tă pў | ram tec | in-tĕ-rĭ | ō-rĕ sŭb | au-ras, with to elided before in. The scanner had shortened se- and cre- and lengthened -ta and py-, which gave the same shape with wrong vowels."
+ },
+ "4.503": {
+  "sc": [
+   "1er–go–",
+   "2ius–sa⏑",
+   "pa⏑3rat×"
+  ],
+  "why": "Half-line (hemistich), one of Virgil's unfinished lines: ergō | iūs-să pă | rat, a spondee, a dactyl and the long start of a third foot, the last syllable marked × as the end of the line. At six syllables it cannot be a hexameter, so there is nothing to fit; the scanner returns UNRESOLVED. Iussa has a consonantal i (iū-ssa)."
  }
 }

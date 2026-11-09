@@ -4061,5 +4061,122 @@
    "6do–nat×"
   ],
   "why": "Aeneas is three syllables, Ae-nē-ās, and -tum of Sergestum elides into it: Ser-gĕs | Aē-nē | ās pro | mis-sō | mū-nĕ-rĕ | dō-nat. The scanner (cost 1.2) split Ae- in two (A-e-ne-as) and made ne short."
+ },
+ "5.286": {
+  "sc": [
+   "1Hoc–",
+   "pi⏑us⏑",
+   "2Ae–ne–3as–‖",
+   "mis–4so–",
+   "cer–5ta–mi⏑ne⏑",
+   "6ten–dit×"
+  ],
+  "why": "Aeneas is three syllables, Ae-nē-ās: Hōc pĭ-ŭs | Aē-nē | ās mis | sō cer | tā-mĭ-nĕ | ten-dit (14 syllables, two dactyls). The scanner (cost 1.2) split Ae- in two and had to make ne short, for fifteen."
+ },
+ "5.293": {
+  "sc": [
+   "1Un–di⏑que⏑",
+   "2con–ve⏑ni⏑3unt–‖",
+   "Teu–4cri–",
+   "mix–5ti–que⏑",
+   "Si⏑6ca–ni×"
+  ],
+  "why": "Teu- is one long syllable (Greek eu), as Teucri 3.352 and 1.562: Un-di-quĕ | con-vĕ-nĭ | unt Teu | cri mix | ti-quĕ Sĭ | cā-ni (15 syllables). The scanner (cost 0.0, so not flagged) split Teucri into Te-u-cri and made it 16."
+ },
+ "5.294": {
+  "sc": [
+   "1Ni–sus⏑",
+   "et⏑",
+   "2Eu–ry⏑a⏑3lus–",
+   "pri–4mi×"
+  ],
+  "why": "Half-line (hemistich), one of Virgil's unfinished lines: Nī-sŭs ĕt | Eu-rў-ă | lus prī | mi, three feet and the first syllable of a fourth (– ⏑ ⏑ | – ⏑ ⏑ | – – | –), the last syllable marked × as the end of the line. Eu- is one long syllable, -lus is long by position before pr-, and prīmus has a long first syllable. There is no hexameter to fit; the scanner returns UNRESOLVED."
+ },
+ "5.295": {
+  "sc": [
+   "1Eu–ry⏑a⏑2lus–",
+   "for–ma",
+   "3in–sig–4nis–‖",
+   "vi⏑ri⏑5di–que⏑",
+   "iu⏑6ven–ta×"
+  ],
+  "why": "Carrier line, checked by hand; the scanner's fit is correct (Eu- one syllable; iuventa with consonantal i, so -que is short before it; viridi has long -ī in the arsis of the fifth foot). The entry is needed only because this line shares a unit with the half-line 5.294, which the scanner cannot fit, and a unit with an unresolved line receives no sc at all."
+ },
+ "5.296": {
+  "sc": [
+   "1Ni–sus⏑",
+   "a⏑2mo–re⏑",
+   "pi⏑3o–‖",
+   "pu⏑e⏑4ri–",
+   "quos–",
+   "5dein–de⏑",
+   "se⏑6cu–tus×"
+  ],
+  "why": "Carrier line, checked by hand; the scanner's fit is correct (pueri has long -rī before quos). The entry is needed only because this line shares a unit with the half-line 5.294, which the scanner cannot fit, and a unit with an unresolved line receives no sc at all."
+ },
+ "5.303": {
+  "sc": [
+   "1Ae–ne–2as–",
+   "qui⏑bus⏑",
+   "3in–‖",
+   "me⏑di⏑4is–",
+   "sic–",
+   "5dein–de⏑",
+   "lo⏑6cu–tus×"
+  ],
+  "why": "Aeneas is three syllables, Ae-nē-ās: Aē-nē | ās quĭ-bŭs | in mĕ-dĭ | īs sic | dein-dĕ lŏ | cū-tus (15 syllables, three dactyls; dein is one syllable). The scanner (cost 1.2) split Ae- in two and counted sixteen."
+ },
+ "5.321": {
+  "sc": [
+   "1in–se⏑qui⏑2tur–",
+   "Sa⏑li⏑3us–‖",
+   "spa⏑ti⏑4o–",
+   "post–",
+   "5dein–de⏑",
+   "re⏑6lic–to×"
+  ],
+  "why": "Carrier line, checked by hand; the scanner's fit is correct. The entry is needed only because the second half of this line shares a unit with the half-line 5.322, which the scanner cannot fit, and a unit with an unresolved line receives no sc at all."
+ },
+ "5.322": {
+  "sc": [
+   "1ter–ti⏑us⏑",
+   "2Eu–ry⏑a⏑3lus×"
+  ],
+  "why": "Half-line (hemistich), one of Virgil's unfinished lines: tĕr-tĭ-ŭs | Eu-rў-ă | lus, two dactyls and the first syllable of a third foot (– ⏑ ⏑ | – ⏑ ⏑ | –), the last syllable marked × as the end of the line. There is no hexameter to fit; the scanner returns UNRESOLVED."
+ },
+ "5.345": {
+  "sc": [
+   "1Ad–iu⏑vat⏑",
+   "2et–",
+   "mag–3na–‖",
+   "pro–4cla–mat–",
+   "5vo–ce⏑",
+   "Di⏑6o–res×"
+  ],
+  "why": "Adiuvat has a consonantal i (ad-iŭ-vat, ad long by position) and magnā is the ablative with voce, so its -a is long: Ad-iŭ-văt | ĕt mag | nā pro | clā-mat | vō-cĕ Dĭ | ō-res (14 syllables, two dactyls). The scanner (cost 0.3, not flagged) read a-di-u-vat and made the -a of magna short, with 15."
+ },
+ "5.348": {
+  "sc": [
+   "1Tum–",
+   "pa⏑ter⏑",
+   "2Ae–ne–3as–‖",
+   "Ves–tra",
+   "4in–quit–",
+   "5mu–ne⏑ra⏑",
+   "6vo–bis×"
+  ],
+  "why": "Aeneas is three syllables, Ae-nē-ās, and -tra of Vestra elides into inquit: Tum pă-tĕr | Aē-nē | ās ves | in-quit | mū-nĕ-ră | vō-bis (14 syllables). The scanner (cost 1.2) split Ae- in two and counted fifteen."
+ },
+ "5.381": {
+  "sc": [
+   "1Ae–ne–2ae–",
+   "ste⏑tit⏑",
+   "3an–te⏑",
+   "pe⏑4des–‖",
+   "nec–",
+   "5plu–ra⏑",
+   "mo⏑6ra–tus×"
+  ],
+  "why": "Aeneae is three syllables, Ae-nē-ae: Aē-nē | ae stĕ-tĭt | an-tĕ pĕ | dēs nec | plū-ră mŏ | rā-tus (15 syllables, three dactyls). The scanner (cost 1.2) split Ae- in two and counted sixteen."
  }
 }

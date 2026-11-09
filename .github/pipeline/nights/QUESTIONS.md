@@ -1177,3 +1177,6 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 
 ## 2026-11-09 (publishing run, night 88)
 - Corrected misprints in emend.json: P487L09 اخوة→اخوه, P488L02 الدوهي→الدواهي, P488L08 النمعان→النعمان, P489L02 عمان→عنان ("thirty thousand reins"), P489L05 كالبد→كالبدر. Doubtful, kept as printed and flagged in `n`: P487L02 وتانى (read as تأنّى; perhaps وتأتي), P488L01 احدوا لهم (obscure; perhaps احوالهم), P488L05 انه before ذات الدواهي, P488L15 بوادي النعمان. Run-together and split words kept as printed and noted: السعيدان, وأسافرانا, ونريدان, فمامر, طارحتى, الخطيراني, يالعيسى, قرّعينا, كا لفر نسيس, الصعا ليك, سار وا. The archive was not changed.
+
+## 2026-11-09 (publishing run, night 89)
+- Corrected misprint in emend.json: P490L20 اخوة→اخوه. Doubtful, kept as printed and flagged in `n`: P491L03 تتقربوا / وتتمسكوا (no final nūn after انكم). The passage about the patriarch's dung (P491L09–L15) is mocking but not in the omit class; translated as printed. The archive was not changed.

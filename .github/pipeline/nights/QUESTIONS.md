@@ -1180,3 +1180,6 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 
 ## 2026-11-09 (publishing run, night 89)
 - Corrected misprint in emend.json: P490L20 اخوة→اخوه. Doubtful, kept as printed and flagged in `n`: P491L03 تتقربوا / وتتمسكوا (no final nūn after انكم). The passage about the patriarch's dung (P491L09–L15) is mocking but not in the omit class; translated as printed. The archive was not changed.
+
+## 2026-11-09 (publishing run, night 90)
+- Corrected misprints in emend.json: P492L06 وجههه→وجهه, P492L22 اخوة→اخوه, P493L16 ثانب→ثاقب, P493L20 لمج→لمح. Doubtful, kept as printed and flagged in `n`: P492L11 الشروهمان (read as الشر + an unidentified وهمان), P492L20 والفتوا (probably والتفتوا), P494L01 الصوى (perhaps الهوى). Run-together words kept as printed and noted: اريدان, منادينادي, يبرزلي, برزاليه, كادان, ولاحماس, ومدّيده. Name variants شملوط/شلموط kept as printed. The patriarch's-dung passage (P492L01–L04) is mocking but not in the omit class; translated as printed. The archive was not changed.

@@ -186,6 +186,7 @@ repository is the state, never this table. Run it rather than trusting what is w
 | Night 87 | P484L15–P486L14 | published 2026-11-08, 30 sense units, drafted by the orchestrator (check_slice PASS after --fix); +72 glossary entries; 6 emend entries (اى→الى ×6); جمع ما (P486L10) kept as printed, doubtful, flagged in n |
 | Night 88 | P486L15–P489L12 | published 2026-11-09, 38 sense units, drafted by the orchestrator (check_slice PASS after --fix); +166 glossary entries; 5 emend entries (اخوة→اخوه, الدوهي→الدواهي, النمعان→النعمان, عمان→عنان, كالبد→كالبدر); وتانى, انه (P488L05), أحدوا لهم (P488L01), النعمان after وادي kept as printed, doubtful, flagged in n |
 | Night 89 | P489L13–P491L18 | published 2026-11-09, 25 sense units, drafted by the orchestrator (check_slice PASS after --fix); +121 glossary entries; 1 emend entry (اخوة→اخوه, P490L20); تتقربوا/وتتمسكوا (no final nūn) kept as printed, flagged in n |
+| Night 90 | P491L19–P494L05 | published 2026-11-09, 25 sense units, drafted by the orchestrator (check_slice PASS after --fix); +160 glossary entries; 4 emend entries (اخوة→اخوه P492L22, وجههه→وجهه P492L06, ثانب→ثاقب P493L16, لمج→لمح P493L20); والفتوا (P492L20), الصوى (P494L01), الشروهمان (P492L11) kept as printed, doubtful, flagged in n |
 
 A night runs 84–224 archived lines (about 5½ printed pages), so eight transcribed pages yield
 roughly one and a half nights. Eight units are waiting as of 2026-09-18, so the next several

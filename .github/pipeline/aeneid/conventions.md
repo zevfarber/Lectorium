@@ -93,6 +93,8 @@ end **only where Greenough begins a paragraph** (an indented line in the TEI —
 | II.49 | *Quicquid id est, timeo Danaos et dona ferentis* | "Whatever it is, I fear the Danaans, and them bringing gifts." | "Whatever this thing is, I am afraid of the Greeks, even when it is presents that they bring." |
 | IV.23 | *adgnosco veteris vestigia flammae* | "I recognise the footprints of an old flame" | "I know again the tracks of a fire that once burned in me" |
 | IV.569–570 | *Varium et mutabile semper femina* | "Changeable and fickle always a woman" | "Always a wavering, shifting creature is woman." |
+| IV.653–654 | *Vixi, et, quem dederat cursum fortuna, peregi* | "I have lived, and, the course which fortune had given, I have completed" | "My life is done; the road that fortune set me I have travelled to its end" |
+| IV.660 | *Sic, sic iuvat ire sub umbras* | "Thus, thus it pleases to go under the shades" | "So, and so, I am glad to go down among the shades" |
 
 Set pieces still ahead, to be decided in a dedicated pass before the batch that reaches them (Ovid's
 ruling of 2026-08-27): I.203 *forsan et haec olim meminisse iuvabit*; I.462 *sunt lacrimae rerum*;

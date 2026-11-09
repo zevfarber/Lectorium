@@ -140,3 +140,6 @@ publish without audio until the owner chooses. Do not build audio.
 
 ## House renderings added by 249-252
 - Names in `i`: Jubqan, Hexiwu, Shira-Keger, Önggür, Shigi-Qutuqu, Arqai-Qasar, Iluqu-Burqan, Hula'an-Degelen, Ile, Qada, Höbögetür, Chükü; "Liushou" kept as the Han title; Nangiṅ → "Nanjing"; Altan Qaγan → "Altan Qahan"; qa (Ming 係官) "state property" (tentative).
+
+## House renderings added by 254
+- Names in `i`: Uquna, Jesüi, Kökösös, Jüchi, Cha'adai, Sartaul (the Sartaγul); Merkidai Čulγul left as printed (people name uncertain). Quotes: openings Shiratori omits supplied in `i` only and said in the notes; the mother's thoughts in Kökösös's speech in single quotes in `i`.

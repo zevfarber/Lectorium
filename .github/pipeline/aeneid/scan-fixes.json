@@ -3917,5 +3917,73 @@
    "6tor–rent×"
   ],
   "why": "subiciunt (sub + iaciunt): the i after the prefix is consonantal, sub | ji | ci | unt, sub long by position: sub-jĭ-cĭ | unt vĕ-rĭ | bus prū | nas et | vis-cĕ-ră | tor-rent. The scanner read it as su-bi-ci-unt with a vowel i (the same quantities, but a long vowel u in sub)."
+ },
+ "5.105": {
+  "sc": [
+   "1Au–ro–2ram–",
+   "Pha⏑e⏑3thon–tis⏑",
+   "e⏑4qui–‖",
+   "iam–",
+   "5lu–ce⏑",
+   "ve⏑6he–bant×"
+  ],
+  "why": "Phaethon is three syllables, Phă-ĕ-thōn (Greek Φαέθων; Lewis & Short Phăĕthōn), so Phaethontis is Pha-e-thon-tis, not Phae-thon-tis with ae a diphthong: Au-rō | ram Phă-ĕ | thon-tĭs ĕ | quī iam | lū-cĕ vĕ | hē-bant. The scanner's fit (cost 0.0) read ae as a diphthong and gave the line fourteen syllables; the metre allows both, the word does not. (Published Ovid parts scan Phae- as one syllable; see review.md.)"
+ },
+ "5.129": {
+  "sc": [
+   "1Hic–",
+   "vi⏑ri⏑dem",
+   "2Ae–ne–3as–‖",
+   "fron–4den–ti",
+   "ex–",
+   "5i–li⏑ce⏑",
+   "6me–tam×"
+  ],
+  "why": "Ae-nē-ās three syllables, with -dem of viridem elided into Ae- and -ti of frondenti into ex (as 5.90, 1.220): Hīc vĭ-rĭ(dem) | Ae-nē | ās fron | den(ti) ex | ī-lĭ-cĕ | mē-tam, īlex with long ī. The scanner split Ae- into A-e (cost 1.2) and made ne short."
+ },
+ "5.144": {
+  "sc": [
+   "1Non–",
+   "tam–",
+   "2prae–ci⏑pi⏑3tes–‖",
+   "bi⏑iu⏑4go–",
+   "cer–5ta–mi⏑ne⏑",
+   "6cam–pum×"
+  ],
+  "why": "biiugo is bĭ-jŭ-gō (bi + iugum; Lewis & Short bĭjŭgus): the second i is consonantal and the prefix bi- stays short, as biiugique at 10.253: Non tam | prae-cĭ-pĭ | tēs bĭ-jŭ | gō cer | tā-mĭ-nĕ | cam-pum. The scanner (cost 1.5) ran bi-iu together into one long syllable."
+ },
+ "5.181": {
+  "sc": [
+   "1Il–ium",
+   "et–",
+   "2la–ben–3tem–‖",
+   "Teu–cri",
+   "4et–",
+   "ri–5se–re⏑",
+   "na⏑6tan–tem×"
+  ],
+  "why": "Teu- is one long syllable (Greek eu), as 5.7, 5.66. The print's Ilium is a misprint for Illum (QUESTIONS #19/#23 precedent: t as printed, note says so); the line scans only as Illum, Il-l(um) elided before et, so the first word is marked Il– with the rest elided: Il-l(um) et | lā-ben | tem Teu | cr(i) et rī | sē-rĕ-nă | tan-tem. The scanner read Ilium by synizesis and split Teucri into Te-u-cri."
+ },
+ "5.186": {
+  "sc": [
+   "1nec–",
+   "to–2ta–",
+   "ta⏑men⏑",
+   "3il–le⏑",
+   "pri⏑4or–‖",
+   "prae⏑e⏑5un–te⏑",
+   "ca⏑6ri–na×"
+  ],
+  "why": "praeeunte is prae-ĕ-un-te, four syllables, with prae shortened before the vowel (as praeustis, 7.524) and e-unte not run together: nec tō | tā tă-men | il-lĕ prĭ | ŏr praĕ-ĕ | un-tĕ că | rī-na, tōtā long (ablative). The scanner (cost 1.5) kept prae long and read eun as one syllable by synizesis."
+ },
+ "5.193": {
+  "sc": [
+   "1I–o⏑ni⏑2o–que⏑",
+   "ma⏑3ri–‖",
+   "Ma⏑le⏑4ae–que⏑",
+   "se⏑5qua–ci⏑bus⏑",
+   "6un–dis×"
+  ],
+  "why": "Ionio has a vowel I, Ī-ŏ-nĭ-ō (Greek Ἰόνιος; 3.211 insulae Ionio needs the same, though published aeneid-019 carries the scanner's one-syllable Io), and the line is five dactyls: Ī-ŏ-nĭ | ō-quĕ mă | rī Mă-lĕ | ae-quĕ sĕ | quā-cĭ-bŭs | un-dis, mărī short a, Mălĕa. The scanner (cost 0.6) read Io as one syllable with consonantal I and then had to make -que (before m) and ma- long."
  }
 }

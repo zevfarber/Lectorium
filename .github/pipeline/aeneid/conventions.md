@@ -95,6 +95,9 @@ end **only where Greenough begins a paragraph** (an indented line in the TEI —
 | IV.569–570 | *Varium et mutabile semper femina* | "Changeable and fickle always a woman" | "Always a wavering, shifting creature is woman." |
 | IV.653–654 | *Vixi, et, quem dederat cursum fortuna, peregi* | "I have lived, and, the course which fortune had given, I have completed" | "My life is done; the road that fortune set me I have travelled to its end" |
 | IV.660 | *Sic, sic iuvat ire sub umbras* | "Thus, thus it pleases to go under the shades" | "So, and so, I am glad to go down among the shades" |
+| VI.126 | *facilis descensus Averno* | "easy the going-down to Avernus" | "to go down to Avernus costs no effort" |
+| VI.127 | *noctes atque dies patet atri ianua Ditis* | "nights and days lies open of black Dis the door" | "the door of gloomy Dis is never shut, by night or by day" |
+| VI.128–129 | *sed revocare gradum superasque evadere ad auras, hoc opus, hic labor est* | "but to call back the step and to escape out to the upper airs, this the work, here the hardship is" | "But to turn your step back and win out to the air above — there is the real work of it, there the hardship." |
 
 Set pieces still ahead, to be decided in a dedicated pass before the batch that reaches them (Ovid's
 ruling of 2026-08-27): I.203 *forsan et haec olim meminisse iuvabit*; I.462 *sunt lacrimae rerum*;

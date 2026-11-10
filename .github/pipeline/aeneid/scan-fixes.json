@@ -5120,5 +5120,82 @@
    "6ur–be×"
   ],
   "why": "minime has short mi-, ni- and long -mē (adverb), and reris is rēris (reor, long ē): quod mĭ-nĭ | mē rē | ris Gra | ia pan | de-tur ab | ur-be (14 syllables). The scanner made mi long and me, re short (cost 0.0, not flagged)."
+ },
+ "6.103": {
+  "sc": [
+   "1in–ci⏑pit⏑",
+   "2Ae–ne–3as–‖",
+   "he–4ros–",
+   "Non–",
+   "5ul–la⏑",
+   "la⏑6bo–rum×"
+  ],
+  "why": "Ae-nē-ās: initial diphthong Ae- one long syllable, -nē- long (Ae-ne | as he | ros non); the scanner split Ae and made a dactyl A-e-ne. 14 syllables: in-ci-pit | Ae-ne | as he | ros non | ul-la la | bo-rum."
+ },
+ "6.118": {
+  "sc": [
+   "1ne–qui–2quam–",
+   "lu–3cis–‖",
+   "He⏑ca⏑4te–",
+   "prae–5fe–cit⏑",
+   "A⏑6ver–nis×"
+  ],
+  "why": "nēquīquam is long-long-long, lūcus has long ū (lūcīs, dative plural -īs), and Hecate is Hĕ-că-tē (Greek Ἑκάτη): nē-quī | quam lū | cis Hĕ că | tē prae | fē-cĭt A | vēr-nīs (14 syllables). The scanner shortened lucis and made He- and -ca- long (cost 0.5, not flagged)."
+ },
+ "6.147": {
+  "sc": [
+   "1si–",
+   "te–",
+   "2fa–ta⏑",
+   "vo⏑3cant–‖",
+   "a⏑li⏑4ter–",
+   "non–",
+   "5vi–ri⏑bus⏑",
+   "6ul–lis×"
+  ],
+  "why": "sī tē | fā-tă vŏ | cant ă lĭ | ter non | vī-rĭ-bŭs | ul-lis: tē (pronoun) is long, fāta has long ā, and vocant has short o. The scanner had te and fa short and ta and vo long (cost 0.0, not flagged); both fit a hexameter but only this one respects the quantities."
+ },
+ "6.156": {
+  "sc": [
+   "1Ae–ne–2as–",
+   "maes–3to–‖",
+   "de–4fi–xus–",
+   "5lu–mi⏑na⏑",
+   "6vol–tu×"
+  ],
+  "why": "Ae-nē-ās three long syllables (Ae-ne | as maes | to de | fi xus | lu-mi-na | vol-tu, 13 syllables); the scanner split the initial diphthong Ae- and made a dactyl A-e-ne."
+ },
+ "6.169": {
+  "sc": [
+   "1Dar–da⏑ni⏑o",
+   "2Ae–ne–3ae–‖",
+   "se–4se–",
+   "for–5tis–si⏑mus⏑",
+   "6he–ros×"
+  ],
+  "why": "Dardani(o) elides into Ae-; Ae-nē-ae two long syllables then ae, with the initial diphthong Ae- one syllable (Dar-da-ni | Ae-ne | ae se | se for | tis-si-mus | he-ros); the scanner split Ae and made a dactyl A-e-ne."
+ },
+ "6.176": {
+  "sc": [
+   "1prae–ci⏑pu⏑2e–",
+   "pi⏑us⏑",
+   "3Ae–ne–4as–‖",
+   "Tum–",
+   "5ius–sa⏑",
+   "Si⏑6byl–lae×"
+  ],
+  "why": "praecipuē (adverb, long -ē) pius | Ae-nē-ās three long syllables (Ae-ne | as tum), then iussa with consonantal i; the scanner split Ae and made a dactyl A-e-ne (the same fix as 1.220)."
+ },
+ "6.183": {
+  "sc": [
+   "1Nec–",
+   "non–",
+   "2Ae–ne–3as–",
+   "o⏑pe⏑ra",
+   "4in–ter–",
+   "5ta–li⏑a⏑",
+   "6pri–mus×"
+  ],
+  "why": "Ae-nē-ās three long syllables with initial diphthong Ae-, and ŏpĕra short-short (the -a of opera elides into inter): Nec non | Ae-ne | as o-pe | in-ter | ta-li-a | pri-mus (14 syllables). The scanner gave Aeneas as Ae-ne-as with short ne and as, and opera a long o."
  }
 }

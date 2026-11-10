@@ -1186,3 +1186,8 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 
 ## 2026-11-10 (publishing run, night 91)
 - Corrected misprints in emend.json: P494L10 واعلموا→واعملوا, P494L18 الله→لله (والحمد), P495L14 الصباج→الصباح, P496L03 مكان→المكان (ضوء المكان), P496L06 البقر→البقرة, P496L08 تواوا→تولوا, P496L14 واتسم→واقسم. Doubtful, kept as printed and flagged in `n`: P494L09 وتزهد, P496L02 والزار (perhaps الزنار), P495L17 المركب (perhaps المراكب). Run-together words kept as printed and noted: السعيدان, ولازال, ولايعرف, لعدوالله, الفاكما, والّابرئتم. The patriarch's-dung passage (P496L13) is mocking but not in the omit class; translated as printed. The archive was not changed.
+
+## 2026-11-10 (transcribing run, PDF 519-526 = pp. 497-504)
+- P502L01 (verse, top of p. 502) is badly printed; the adjudicator's reading «وَيَزِيْنُ شُمْعَتَهُ … عَطْرُ الْقَبِيْحَةِ لَابَفِيْ بِفَسَاهَا» is low confidence and worth a human look at PDF p. 524. Archived as read.
+- Word spacing: the adjudicator followed the print (solid where set solid: ولاكبير, لابدان, السعيدان, اريدان, سائراقاليم, وعبادالله, صارله); one exception by sense, P501 وخد اصفر (low). Earlier archives are split on such pairs. Decided meanwhile: follow the print, as the conventions say.
+- Misprints archived as printed (for the publishing run's emend.json): P498 با, قتال, والنساد; P499 واما; P500L23 المباج; P502L22 مُربنا; P504L05 وحنى.

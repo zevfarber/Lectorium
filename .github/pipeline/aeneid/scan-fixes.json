@@ -4403,5 +4403,123 @@
    "e⏑2quis×"
   ],
   "why": "Half-line (hemistich), one of Virgil's unfinished lines: fĕr-tŭr ĕ | quīs, a dactyl and one long syllable (– ⏑ ⏑ | –), -quis (equīs, dative/ablative plural) marked × as the end of the line. There is no hexameter to fit; the scanner returns UNRESOLVED."
+ },
+ "5.588": {
+  "sc": [
+   "1Ut–",
+   "quon–2dam–",
+   "Cre–3ta–‖",
+   "fer–4tur–",
+   "La⏑by⏑5rin–thus⏑",
+   "in⏑",
+   "6al–ta×"
+  ],
+  "why": "Crēta has a long ē (Greek Κρήτη) and its ablative -ā is long; Lăbyrinthus has short La- and by-: Ut quon | dam Crē | tā fer | tur Lă-bў | rin-thŭs ĭn | al-tā. The scanner (cost 0.0, so not flagged) made Cre-ta two shorts and La-by two longs."
+ },
+ "5.592": {
+  "sc": [
+   "1haud–",
+   "a⏑li⏑2o–",
+   "Teu–3crum–‖",
+   "na–4ti–",
+   "ves–5ti–gi⏑a⏑",
+   "6cur–su×"
+  ],
+  "why": "Teu- is one long syllable (Greek eu, as Teucri at 5.450, 5.530): haud ă-lĭ | ō Teu | crum nā | tī ves | tī-gĭ-ă | cur-sū. The scanner (cost 0.0) split Teucrum into Te-u-crum, two shorts."
+ },
+ "5.610": {
+  "sc": [
+   "1nul–li–",
+   "2vi–sa⏑",
+   "ci⏑3to–‖",
+   "de–4cur–rit–",
+   "5tra–mi⏑te⏑",
+   "6vir–go×"
+  ],
+  "why": "vīsă (nominative, short -a), cĭtō (ablative of citus, short ci-, long -ō), dē- of decurrit long: nul-lī | vī-să cĭ | tō dē | cur-rit | trā-mĭ-tĕ | vir-go. The scanner (cost 0.0, so not flagged) had visa a spondee, ci- long, -to and de- short."
+ },
+ "5.620": {
+  "sc": [
+   "1fit–",
+   "Be⏑ro⏑2ë–",
+   "Tma⏑ri⏑3i–‖",
+   "con–4iunx–",
+   "lon–5gae–va⏑",
+   "Do⏑6ry–cli×"
+  ],
+  "why": "coniunx (con + iunx): the i is consonantal, so con | iunx, two syllables, con long by position (as 2.597, 2.738): fit Bĕ-rŏ | ē Tmă-rĭ | ī con | iunx lon | gae-vă Dŏ | rў-clī (ry long before cl). The scanner read co-ni-unx with short co- and ni-."
+ },
+ "5.634": {
+  "sc": [
+   "1Hec–to⏑re⏑2os–",
+   "am–3nes–‖",
+   "Xan–thum",
+   "4et–",
+   "Si⏑mo⏑5en–ta⏑",
+   "vi⏑6de–bo×"
+  ],
+  "why": "Simoenta is Sĭ-mŏ-en-ta, four syllables (Greek Σιμόεντα; o and e are separate vowels, not the diphthong oe): Hec-tŏ-rĕ | ōs am | nēs Xan | th(um) et Sĭ-mŏ | en-tă vĭ | dē-bo. The scanner (cost 0.0) read -moe- as a diphthong and made Si- long."
+ },
+ "5.647": {
+  "sc": [
+   "1est–",
+   "Do⏑ry⏑2cli–",
+   "con–3iunx–‖",
+   "di–4vi–ni–",
+   "5sig–na⏑",
+   "de⏑6co–ris×"
+  ],
+  "why": "coniunx (con + iunx): the i is consonantal, so con | iunx, two syllables, con long by position (as 5.620): est Dŏ-rў | clī con | iunx dī | vī-nī | sig-nă dĕ | cō-ris. The scanner read co-ni-unx with short co- and ni-."
+ },
+ "5.650": {
+  "sc": [
+   "1Ip–sa",
+   "e⏑go⏑2met–",
+   "du–3dum–‖",
+   "Be⏑ro⏑4en–",
+   "di–5gres–sa⏑",
+   "re⏑6li–qui×"
+  ],
+  "why": "Beroen (Greek accusative of Beroë, Βερόην) is Bĕ-rŏ-ēn, three syllables, o and e separate as in Beroë at 5.620 and 5.646: Ips(a) ĕ-gŏ | met dū | dum Bĕ-rŏ | ēn dī | gres-să rĕ | lī-qui. The scanner (cost 0.0) read -roe- as the diphthong oe and made Be- long."
+ },
+ "5.653": {
+  "sc": [
+   "1Haec–",
+   "ef–2fa–ta×"
+  ],
+  "why": "Half-line (hemistich), one of Virgil's unfinished lines: Haec ef | fā-ta, a spondee and a long syllable with the line-end mark on -ta (effāta, perfect participle of effor, long ā). There is no hexameter to fit; the scanner returns UNRESOLVED. The line is a unit by itself, so no carrier entry is needed."
+ },
+ "5.665": {
+  "sc": [
+   "1in–cen–2sas–",
+   "per–3fert–‖",
+   "na–4ves–",
+   "Eu–5me–lus⏑",
+   "et⏑",
+   "6ip–si×"
+  ],
+  "why": "Eu- of Eumelus is one long syllable (Greek Εὔμηλος, as Eurus, Teucri): in-cen | sās per | fert nā | vēs Eu | mē-lŭs ĕt | ip-si. The scanner (cost 0.0) split it into E-u-me-lus, two shorts."
+ },
+ "5.668": {
+  "sc": [
+   "1du–ce–2bat–",
+   "sic–",
+   "3a–cer⏑",
+   "e⏑4quo–‖",
+   "tur–5ba–ta⏑",
+   "pe⏑6ti–vit×"
+  ],
+  "why": "sīc is long (as 4.8), ācer has long ā (ācer, ācris, 'sharp'), and ĕquō short e-: dū-cē | bat sīc | ā-cĕr ĕ | quō tur | bā-tă pĕ | tī-vit. The scanner (cost 0.3, so not flagged) had sic and a- short, -cer and e- long."
+ },
+ "5.675": {
+  "sc": [
+   "1ac–ce⏑le⏑2rat–",
+   "si⏑mul⏑",
+   "3Ae–ne–4as–‖",
+   "si⏑mul⏑",
+   "5ag–mi⏑na⏑",
+   "6Teu–crum×"
+  ],
+  "why": "Aeneas is three syllables, Ae-nē-ās (as 5.461, 5.485, 5.545): ac-cĕ-lĕ | rat sĭ-mŭl | Aē-nē | ās sĭ-mŭl | ag-mĭ-nă | Teu-crum. The scanner (COSTLY 2.7) split Ae- into A-e and shortened -ne-; it read Teucrum right here."
  }
 }

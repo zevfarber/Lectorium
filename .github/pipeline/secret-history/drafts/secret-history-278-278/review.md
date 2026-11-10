@@ -96,3 +96,30 @@ Counts: critical 0 · major 3 · moderate 17 · minor 27 (47 entries, numbered b
 - miṅγaloγ̇udai-ji: plural analysis vs singular rendering.
 - Whether `ümerēče` should keep "north" somewhere visible; I kept it only in the morph gloss and note.
 - Passive analysis of -dekü (see refused list).
+
+# Review (pass 2) — secret-history-278-278 (§278)
+
+Worked from conventions.md, runbook.md, packet.md, units.json, gloss.json, novel-forms.json, known-forms.json, review.md and the shared glossary only. No modern translation. `gloss.json` and `units.json` edited in place by script; build not run (it writes files).
+
+Checks (simulated, nothing written): 317 reader tokens, 67 novel; all 67 have a gloss entry, none unused, none already in the glossary; gloss keys equal novel-forms.json; every entry's closing Ming bracket equals the novel-forms bracket; every `__broaden__` key occurs in the part and its text begins with the glossary's old entry whole; units still consume 610 words, every `t` equals the packet words.
+
+Counts: critical 0 · major 0 · moderate 3 · minor 6 (9 entries).
+
+## Moderate
+1. **dotoγši · gloss.json, units U15 word 80 morph** — lemma `dotoγ̇a` is not in the glossary (only dotora, dotoγa-jin "lintel", dotoraγ̇un) and was invented. The sibling directives are uruγši, doroγši, deġegši, qaγ̇aγši. Done: lemma `doto` "inside (stem uncertain; compare dotora)" + `-γši` "directive: to, toward (as in uruγši, qaγ̇aγši)", flagged uncertain; Ming 往裏 kept; unit morph split to match.
+2. **__broaden__ qaγas** — not needed: the glossary's "separating [分離]" already covers Ming 分開 here (same sense, "apart"). Done: broaden removed; the old entry stands.
+3. **__broaden__ degeġün** — not needed: the old "above, upper side" covers all three uses (Ming 上, 上經過). Done: broaden removed.
+
+## Minor
+4. **U14 · i** — "the crowd" for olon "many" (nothing says "crowd"). Done: "After the many have dispersed".
+5. **keleledütügei · gloss** — "kele- + verb-maker -le-" is odd for a verb that already means "speak"; the glossary has kelele- (and -ldü-). Done: lemma kelele- (kele- + -le-), reciprocal -dü- as -ldü- sharing its l, uncertain.
+6. **žasaγ̇ul · gloss.json and U18 morph** — "an officer who keeps order" goes beyond the Ming 官名 "official title". Done: "an official title", with the žasa- + -γ̇ul guess marked uncertain.
+7. **süjütügei, süjüġed, süjüd-že · gloss** — verb süjü- given as bare; the glossary has only the noun süjü "teaching". Done: "(verb from süjü 'teaching'; Ming …)".
+8. **tarqaγsan-u, narataj-a, tuṅγun, gežigeleġül-i · gloss** — "of (the crowd) having dispersed" supplied a subject; "(the day guards)" pinned the entry to the line; tuṅγun and gežigeleġül stood unrelated to the glossary's tuṅγul- "to renew" and gežige "reserve, rear support". Done: subject and pin removed; the relations added, marked uncertain.
+9. **__broaden__ deġere** — "and 'on top of' (Ming 上)" repeated the old sense. Done: removed.
+
+## Checked and left
+- Remaining broadens: mör (Ming 職分 vs 蹤), ödgen (food vs sound), čaγ̇ada (Ming 靠着 postposition vs 貼身), deġere (rank, Ming 高), kürgeġesü ("lay a hand on") each add a different sense or Ming and begin with the old entry whole; no line numbers or unit pins.
+- Lemmas, glosses and labels of the other 60 entries match the morphs, the glossary's own analyses (hoγara-, beriġe, siltaγ̇an, qolo, žaγaγun, ötögü, -tan, -run, že forms, -d in mököriġülüd-že / süjüd-že) and the house renderings; no modern forms found.
+- **Pass-1 weak spots re-read** (U14–15, U17, U19–20, U7, U57, U72, U85–90): the readings match the Ming and the glossary and the notes state their doubts; no change beyond item 4. U86 "if they lay hand or foot on him" supplies "they/him" the text lacks; refused: the sense (kürge- "reach") is unchanged and U87 needs a subject for the answer to hold. miṅγaloγ̇udai-ji plural/singular tension stays flagged in the note.
+- Unit-number cross-references in `n` stay 1-based (pass 1's convention).

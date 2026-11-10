@@ -164,3 +164,7 @@ publish without audio until the owner chooses. Do not build audio.
 ## House renderings added by 271-274
 - Names in `i`: Ejil, Jajaq, Meged, Bolarman, Kerman-Kiwa, Jurchen, Solangqas, Jalairtai, Jesüder, Berüde, Oldaqar, Shira-Deg, Chabchiyal, Qara-Qorum, Qanglin, Kibcha'ud, Bajigid, Orusud, Sormaqan. Asud, Sesüd, Jajaq here "towns" (Ming 城名).
 - altan "gold" (Ming 金) where it is not the Jin ruler; adalamui from noun ada "harm" (tentative); tüši- "entrust" (Ming 委付).
+
+## House renderings added by 275-277
+- Names in `i`: Batu, Büri, Güjüg, Qarqasun, Mongqai, Alchidai, Qongqortai, Jangi, Büjeg, Eljigidei, Meged, Kibcha'ud, Orusud; Qaγan in `l`, Qahan in `i`.
+- tuli- "push" (Ming 推着, not "cover"); dörmegei here "lowly" (Ming 下等); žiluγ̇a "rein" (breast-strap doubtful); delegei "wide" (Ming 寬).

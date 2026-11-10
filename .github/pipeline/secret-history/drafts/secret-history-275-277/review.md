@@ -72,3 +72,10 @@ Every change made to `units.json` (unit · field · severity · what was wrong �
 ## Counts
 
 major 4, moderate 11, minor 37, critical 0.
+
+## Pass 2 (gloss.json + re-read of units)
+- gloss.json · minor · Güjüg entries said "Güyük" though `i` keeps Güjüg (house rule); Mongqai/Qongqortai entries spelled differently from `i` → entries aligned to `i`.
+- gloss.json · moderate · __broaden__ žiluγ̇a: glosser's bare 'breast-strap' reading reconciled with units (`l`/`i` keep "rein (?)", note says perhaps a breast-strap, Ming 牽胷) → entry marked tentative and tied to altan žiluγ̇a.
+- gloss.json · checked, no change: the other 80 entries and the other 3 __broaden__ entries (old entry whole + " · also …"; old text verified identical to the published glossary); uncertain endings (ičun, žurγaldaka, beter, ijer, žöbi, tabi) are marked uncertain and match the units' morphs.
+- units.json · re-read: no further changes (build and validate PASS).
+- Refused: renaming "also" in the broaden joiner — build accepts it and it is the form already printed.

@@ -1183,3 +1183,6 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 
 ## 2026-11-09 (publishing run, night 90)
 - Corrected misprints in emend.json: P492L06 وجههه→وجهه, P492L22 اخوة→اخوه, P493L16 ثانب→ثاقب, P493L20 لمج→لمح. Doubtful, kept as printed and flagged in `n`: P492L11 الشروهمان (read as الشر + an unidentified وهمان), P492L20 والفتوا (probably والتفتوا), P494L01 الصوى (perhaps الهوى). Run-together words kept as printed and noted: اريدان, منادينادي, يبرزلي, برزاليه, كادان, ولاحماس, ومدّيده. Name variants شملوط/شلموط kept as printed. The patriarch's-dung passage (P492L01–L04) is mocking but not in the omit class; translated as printed. The archive was not changed.
+
+## 2026-11-10 (publishing run, night 91)
+- Corrected misprints in emend.json: P494L10 واعلموا→واعملوا, P494L18 الله→لله (والحمد), P495L14 الصباج→الصباح, P496L03 مكان→المكان (ضوء المكان), P496L06 البقر→البقرة, P496L08 تواوا→تولوا, P496L14 واتسم→واقسم. Doubtful, kept as printed and flagged in `n`: P494L09 وتزهد, P496L02 والزار (perhaps الزنار), P495L17 المركب (perhaps المراكب). Run-together words kept as printed and noted: السعيدان, ولازال, ولايعرف, لعدوالله, الفاكما, والّابرئتم. The patriarch's-dung passage (P496L13) is mocking but not in the omit class; translated as printed. The archive was not changed.

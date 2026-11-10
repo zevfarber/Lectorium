@@ -168,3 +168,7 @@ publish without audio until the owner chooses. Do not build audio.
 ## House renderings added by 275-277
 - Names in `i`: Batu, Büri, Güjüg, Qarqasun, Mongqai, Alchidai, Qongqortai, Jangi, Büjeg, Eljigidei, Meged, Kibcha'ud, Orusud; Qaγan in `l`, Qahan in `i`.
 - tuli- "push" (Ming 推着, not "cover"); dörmegei here "lowly" (Ming 下等); žiluγ̇a "rein" (breast-strap doubtful); delegei "wide" (Ming 寬).
+
+## House renderings added by 279-280
+- Names in `i`: Ögödei, Chinggis Qahan, Cha'adai, Batu, Uighurtai (man's name, Ming 人名), Chül (tentative). Qaγan in `l`, Qahan in `i`.
+- sülen (Ming 湯) read as the levy of animals for the Qahan's table (tentative); nutuγ̇učin split nutuγ + -γ̇učin; bitu- "go along" (Ming 沿着) for bituγ̇ulun, bitüġülün the front-vowel form; aldaltan (Ming 斷沒) "cut off and confiscated"; balaγad (Ming 庫每) "treasuries".

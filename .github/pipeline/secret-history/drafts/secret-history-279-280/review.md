@@ -69,3 +69,35 @@ Units are numbered U0–U52 in order (U0 = "Basa Ögödei Qaγan ügülerün:", 
 By table row: critical 0 · major 7 · moderate 8 · minor 24 (39 rows).
 As distinct findings (the four U20/bitü- rows count once): critical 0 · major 4 · moderate 8 · minor 21.
 Pass 2 (gloss.json against the text) was done in the same sitting: all 98 novel entries and the broadened ones were read against their words; the corrections are the gloss rows above.
+
+## Pass 2
+
+Fresh read of every unit (t, l, i, note, morph) and of all 98 novel gloss entries plus the 13 `__broaden__` entries against the words, the packet, known-forms.json and the shared glossary. Pass-1 edits re-checked for new errors.
+
+| Unit · field | Severity | What was wrong | What was done |
+|---|---|---|---|
+| U20 · morph (bituγ̇ulun) and gloss · bituγ̇ulun | moderate | Pass 1 set the lemma to bitü- on the ground that this was the glossary's lemma. That lemma belongs to the front-vowel bitüġülün; the form here is back-vowel (bitu-γ̇ul-un, Han 禿兀侖), and the glossary has a bitu- "go along, skirt" (bitužu, Ming 沿着; bitun) that matches both form and sense. | Lemma bitu-; morph gloss and glossary entry rewritten (same stem as bitüġülün, vowel wavering in print; Ming 治 noted, not followed; still uncertain). |
+| U20 · n | minor | Note did not say which glossary stem is meant. | One clause added: the glossary's stem is bitu- (bitužu, Ming 沿着), the vowel wavers in print. |
+| U8 · i | moderate | "let the camp-managers regularly bring out replacements" made the camp-managers the subject, but nutučitan-i is accusative (note and l both say so): they are the ones drawn out. | i "let their milkers be set to herd them, and let their camp-managers be regularly drawn out as replacements, to be the mare-keepers." |
+| U8 · n | minor | Silent on who does the drawing. | Added: both -tan-i words are accusatives; the camp-managers are drawn out (by an unnamed doer), not the drawers. |
+| U31 · i | minor | "he said as he came" for keġežü irežüġüi, rendered "he said, and came" at U25. | i "he said, and came." |
+| U9 · n | minor | "the feast sentence above" — pass 1 had removed "feast" from U6's i. | "the drinking sentence above". |
+
+### Checked and found sound (no change)
+- t equals the packet's 416 words in order; each unit's word count equals its `words` count; every morph's closing [Ming gloss] equals the packet's for its word; every morph lemma equals the lemma of the gloss entry (and of known-forms.json) for the same token.
+- gloss.json: 98 novel keys exactly (none missing, none unused, none already in the shared glossary); all 13 `__broaden__` entries begin with the full current glossary entry (checked by string prefix); the pass-1 additions (aldaltan, öglige) are accurate to the Ming (斷沒, 賞).
+- Grammar labels in the notes against the forms: all case, converb, participle, causative, passive, hortative and optative labels re-read; none misnamed. The back/front-vowel labels on suffixes agree with the stems. No invented forms beyond those already marked "inferred" or "tentative" in the entries.
+- The pass-1 edits (U2, U3, U4, U15, U16, U17, U19, U23, U26, U42, U44, U46, U48, U51, U52, the nutuγ split, the gloss rewrites) introduced no new error.
+
+### Findings refused (with the reason)
+- **U24 i "he sent a man"** for ileġesü (conditional-temporal "when he sent"): smooths the clause, but the note states the form and the sense is not changed. Left.
+- **U40 i "had it approved"** for the passive žöbšijegdežü: reads as "got it approved"; the note says "being agreed to". Left.
+- **U43 morph lemma saγu- (glossary also writes saγ̇u-)**: the broadened glossary entry saγ̇ulba begins with the old "saγu-" and must be kept whole; both spellings exist in the glossary. Left.
+- **saγ̇alin "participle -lin"**: may rather be a noun saγal "milking" + genitive -in; no evidence in the packet to prefer it, and the entry already says "tentative". Left.
+- **aγ̇uj-a "noun + case"**, **qoriγ̇ad "distributive"**, **dutaγ̇un-a "participle -n"**, **ügeġün "plural -ġün"**: each is a guess from the Ming and is marked tentative or uncertain in note, morph and entry. Left.
+- **žobolaṅ / amuγulaṅ as nouns** (the glossary's žirγalaṅ hedges "or a converb in -n"): the Ming (生受, 安甯) and the syntax (bi "is", amuγulaṅ before a dative) read as nouns; left.
+- **böġed (U25) "ending of sequence"**: matches the glossary's own known entry for böġed. Left.
+
+### Counts (pass 2)
+critical 0 · major 0 · moderate 2 · minor 4 (6 table rows; 4 distinct findings once the U20 and U8 pairs are merged: moderate 2, minor 2).
+Verified after editing: t equals the packet words; word counts intact; units.json and gloss.json valid JSON. Not built.

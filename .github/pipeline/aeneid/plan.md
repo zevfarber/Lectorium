@@ -1,6 +1,6 @@
 # Aeneid — plan
 
-39 of 99 parts published. Parts end only where Greenough begins a paragraph (an indented line).
+40 of 99 parts published. Parts end only where Greenough begins a paragraph (an indented line).
 
 | part | book | cite | lines | status |
 |---|---|---|---|---|
@@ -43,7 +43,7 @@
 | aeneid-037 | 5 | V.580–679 | 100 | published |
 | aeneid-038 | 5 | V.680–778 | 99 | published |
 | aeneid-039 | 5 | V.779–871 | 93 | published |
-| aeneid-040 | 6 | VI.1–97 | 97 | todo |
+| aeneid-040 | 6 | VI.1–97 | 97 | published |
 | aeneid-041 | 6 | VI.98–189 | 92 | todo |
 | aeneid-042 | 6 | VI.190–294 | 105 | todo |
 | aeneid-043 | 6 | VI.295–397 | 103 | todo |

@@ -1,0 +1,1 @@
+None. No set piece listed in conventions.md falls in VI.1–97 (the next, VI.126–129, is in aeneid-041). No new house rendering is introduced; recurring choices used: Teucri = the Trojans/Teucrians, Dardanidae = sons of Dardanus, Aeacidae = Aeacus's grandson (Achilles).

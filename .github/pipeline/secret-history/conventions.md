@@ -160,3 +160,7 @@ publish without audio until the owner chooses. Do not build audio.
 ## House renderings added by 267-270
 - Names in `i`: Chasutu, Uraqai, Dörmegei (Lingzhou in the Ming), Burqan (Tangut ruler), Iluqu-Burqan (Shidurqu, short Iluqu), Tolun the cherbi, Arbuqa, Lady Jesüi, Cha'adai, Batu, Ödchigin Noyan, Jekü, Jusüge, Tolui, Ögödei Qahan, Köde'ü-Aral (rule-built), Kerülen, Sultan Qaliba of the Baqtad, Sormaqan (printed Čormaqan), Oqotur, Müngetü, Sübegetei-Ba'atur, Büri, Güjüg (Han suggests Güyük; ž→j rule kept), Müngke, Adil-Jajaq (river), Mekedmen, Kermen, Keibe; peoples Qanglin, Kibcha'ud, Bajigid, Orusud, Asud, Sesüd, Majar, Keshimir, Sergesüd, Buqar, Kerel (Ming 種名 outranks the glossary's "town"/"quarrel"), Baqtad, Tangut.
 - nögčiġe- "put to death" (Ming 敎過去); muquli musquli left untranslated (no Ming gloss); jesün jesüd "nine times nine"; γaqai žil "Pig year", quluγana žil "Rat year"; γol köġüd "princes of the centre"; qān ergü- "raise as Qan"; emčü kešigten "private guardsmen"; nojad "officers"; -tkün (printed -fkün, Han 惕坤) one ending "let him …"; ulus (Ming 百姓) "people"; nögöġe-te "a second time".
+
+## House renderings added by 271-274
+- Names in `i`: Ejil, Jajaq, Meged, Bolarman, Kerman-Kiwa, Jurchen, Solangqas, Jalairtai, Jesüder, Berüde, Oldaqar, Shira-Deg, Chabchiyal, Qara-Qorum, Qanglin, Kibcha'ud, Bajigid, Orusud, Sormaqan. Asud, Sesüd, Jajaq here "towns" (Ming 城名).
+- altan "gold" (Ming 金) where it is not the Jin ruler; adalamui from noun ada "harm" (tentative); tüši- "entrust" (Ming 委付).

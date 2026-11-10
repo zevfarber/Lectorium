@@ -82,3 +82,40 @@ Totals: 0 critical, 5 major, 11 moderate, 37 minor (53 changes); 13 findings ref
 
 ## gloss.json entries changed to match the morphs
 tölgečin-e, tölgeleġülüġešü, kürgeġülžü, orusud-i, talbiran, širamal, sutu, tobičaγ̇ud. The glosser should check that `deġü-ner(i)-jen` (now -(i)jen) and `kibčaγ̇ud-i` (lemma Kibčaγ̇) agree with the glossary on build.
+
+# Review, pass 2 — secret-history-271-274
+
+Scope: units.json re-checked after pass 1 (t against the packet word for word; 468 words, 51 units; `ln`, `p`, per-word Ming brackets, quote marks in `t` against `l` and `i`; lemma and gloss against the shared glossary for every token); every one of the 98 gloss.json entries against the text, the morphs and the packet's Ming; all 14 `__broaden__` entries (old entry whole + " · " + new reading, keys existing, new reading matches the Ming at the occurrence). No modern translation consulted. Pass 1's edits hold: nothing was broken, and no `t`, `ln`, `p`, word-count or quote-mark fault was found.
+
+Totals: 0 critical, 0 major, 3 moderate, 4 minor; findings refused or left: 7.
+
+## Changes
+### Moderate
+1. U13, U14, U16 · words 117, 132, 163 (`adalamui`) and gloss `adalamui` · moderate · the lemma `ada-` was glossed as a verb ("to harm") and then given a "verb-forming -la-": a verb stem plus a verb-former. Now `ada` (noun, "harm, misfortune, a malign influence", stem still inferred from the Ming 作崇) + -la- + -mui; the glossary entry and the U13 note say the same.
+2. U4, U6 · words 46, 59 (`tüšižü`) and U4 note · moderate · the morph and note said the glossary's tüši- ("stretch out") "fits poorly"; the glossary entry already lists tüši- "to entrust, appoint" (Ming 委付着) as a second sense. Text now says so.
+3. gloss.json `nirγ̇un` (new `__broaden__`) · moderate · the known entry covers only "ridge, spine of a range" (Ming 嶺脊); here it is the spine of a fish (Ming 脊, U28, U30). Reading added.
+### Minor
+4. gloss.json `__broaden__` `saγ̇uba` · minor · the added reading ended in a dangling phrase ("… for the 'live' reading above") and had no Ming bracket; now "also 'sat, sat down' (Ming 坐了 'sat') [坐了]".
+5. gloss.json `__broaden__` `qoram`, `uruγ-un` (new) · minor · the known entries carry Ming 略 and 子子; here the Ming is 暫 ("for a time") and 親的 ("of one's own kin"). Readings added.
+6. U49 word 455 and gloss `solaṅγas-tur` · minor · "Solanqa" in the morph and entry against "Solangqas" in `i` and `about`; now "Solangqa" (ṅ → ng, γ → q, the house rule).
+7. U14 word 129 (`talbira-`), U45 word 411 (`kürge-`) · minor · verb lemmas whose glosses lacked "(verb)"; added.
+
+## Checked and found sound
+- All 98 gloss.json keys are novel, all appear among the reader's tokens of `t`; no key is already in the glossary (so none would be silently dropped); no unused keys; all 329 tokens covered; each entry's final bracket equals the packet's Ming (novel-forms.json); each entry's dictionary form equals the morph lemmas it supports; the suffix labels (dative-locative -dür/-tür/-dur, -a, genitive -jin/-un, accusative -ji/-i, passive -γda-/-gde-, causative -ġül-/-γ̇ul-, converbs -žu/-žü/-n/-tele/-run/-rün, conditionals -ġesü/-ġešü/-γ̇asu, optatives -sü/-su/-tügei/-tuγai, imperatives -qun/-kün) agree with the forms and with the house usage.
+- Broadenings `ilerün`, `kelen`, `tolui`, `köġün`, `biližü`, `žajaγ`, `asud`, `sesüd`, `žalairtai`, `aγ̇urasun`, `dardas`, `talbižu`, `žüg-tür`: each old entry is kept whole and the new reading matches the Ming at this part's occurrence (e.g. 舌, 大王, 揣摩着, 城名, 人名, 段匹, 繡金(每), 放着, 各處 行).
+- Known entries whose Ming differs from this part's: `taulai` (免 there, 兎兒 here; the entry already says 免 is a slip) left; `ünen`, `ambar`, `ali`, `adqun`, `oroγ̇ulžu`, `bolsu` already carry the senses used here.
+
+## Findings refused or left (reason)
+- `ügülegdekü-ju`, `žabqan`, `abidlaγ̇asu`, `sergütele`, `ülüdtele`, `tulbalba`, `kibqaqun`, `önečirekün`: stems inferred from the Ming and so labelled "tentative/uncertain"; no better analysis is available from the sources allowed; left.
+- `tobičaγ̇`, `alaša`, `naqu`, `načidu`, `külin-ereġü`, `daγ̇uši-kiči`, `qači`: names or kinds known only from the Ming gloss; the entries say so; left.
+- `saγ̇utuγai` entry written `saγu-` (no dot), `uruγ` etc.: spelling variants inside the known glossary entries, not this part's to change.
+- U19 `i` "Now the decree — he knows it indeed." and U36 "so it was": loose, but the notes already say the sense is uncertain; no firmer reading from the Ming; left.
+- U40 Bianliang: outside knowledge, reported only as the Ming's gloss; left (as pass 1).
+- Em dashes in `i` (U19, U30, U46): kept; plain punctuation for a parenthetical, not a style fault.
+- `taulai` in this packet is 兎兒: no broaden needed (the entry's own note already covers the Ming's misprint elsewhere).
+
+## Build and validate
+Run after the edits (glossary and manifest restored from HEAD first so that the changed entries were written): `BUILT secret-history-271-274: 51 units → secret-history-271-274.json`; `PASS`; no WARN printed.
+
+## Unresolved doubts
+As in pass 1 (U0 who sat; U8–U9 subject; U12 who orders the divination; U19; U26; U28/U30 fish and boast; U34 Berüde; U36; U37; U44 kinds; U47 Ejil/Itil), plus: whether ada (noun) is right for adalamui (only the Ming 作崇 supports any stem), and whether the Ming's 親的 at U15/U18 means "kinsman" (as the English "man of the line") or something nearer "relative by blood".

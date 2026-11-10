@@ -86,3 +86,53 @@ Totals (grouped): 0 critical, 2 major, 9 moderate, 20 minor.
 - U65: where Ögödei's first speech ends (Shiratori's mark vs the sense).
 - Güjüg vs Güyük, and Sormaqan vs Shiratori's Čormaqan: owner's call.
 - muquli musquli; olulčan; ečidgen; berkeldü-; -dqun/-tkün as one ending remain tentative.
+
+## Pass 2
+
+Scope: conventions.md, runbook.md, packet.md, units.json, gloss.json, novel-forms.json, known-forms.json, review.md;
+the build tokenizer (r3lib.tokens) and the existing glossary for coverage and lemma checks. No modern translations.
+Edits by script, `t` untouched (511 words, 70 units, `ln` / `p` unchanged). Checked by script: every `t` word equals
+the packet word; every first-morph Ming bracket equals the packet Ming (muquli / musquli have none in the packet);
+gloss keys = the 326 reader tokens of `t` minus those already in the glossary, no unused keys, 7 broadened entries
+each = old entry whole + " · " + new reading; `i` quote marks balance and nest as before; no non-house letters left in `i`.
+Totals (grouped): 0 critical, 0 major, 4 moderate, 5 minor.
+
+### Moderate
+
+1. **U13 · morph ebedügsen; gloss `ebedügsen` · moderate.** Lemma `ebedü-` is not a stem: the glossary has `ebed-`
+   (ebedümü = ebed- + -ümü) and the Han 額別都克先 gives ebed + ü + gsen. Now ebed- + -ü- (linking vowel) + -gsen; gloss
+   rewritten, "as in ebedümü".
+2. **U21 · morph ečidgen; gloss `ečidgen` · moderate.** Lemma `ečid-` + `-gen` ("perhaps causative + -n") invented a stem and a
+   suffix; the glossary already has `ečidge-` (ečidgeje, Ming 滅), and ečidge- + -n gives the printed form exactly (as ketül- + -ün,
+   kele- + -n). Now ečidge- + -n converb; gloss says the stem is as at ečidgeje and the Ming here is 敎絕.
+3. **U46 · i · moderate.** "the Adil-Jajaq and the rest" made the river a list with an "and the rest" the Mongol does not give
+   (teriġüten follows Keibe, the towns). Now "crossing the great rivers, the Adil-Jajaq, and campaigning in towns such as …".
+4. **gloss `batu` · moderate.** "also batu, 'firm, strong' as a common word" is outside knowledge (Ming 人名 only). Removed.
+
+### Minor
+
+5. **U1 · n, morph Dörmegei; gloss `dörmegei` · minor.** "a Tangut town" rests on outside knowledge of Lingzhou; the text and the Ming
+   say only a place. Now "a town" (note: "a Chinese city name, so a town").
+6. **U65 · morph qurčatan; gloss `qurčatan` · minor.** Gloss called qurča a noun "sharpness" against the glossary's `qurča` "sharp,
+   keen" (adjective, Ming 鋒利). Now follows the glossary, "here as a noun".
+7. **U64 · morph kečeġün; U67 · morph kičijeṅgü; glosses · minor.** Added "compare kečeġü (Ming 剛)" / "compare kičijen" so the readers
+   can see the glossary relatives. Lemmas unchanged.
+8. **U53 · i · minor.** "any other man of the many, whoever he may be" supplied "other" and a singular; now "the many men, whoever they may be".
+9. **U63 · i · minor.** "Beyond them" supplied a referent; now "Beyond, there are enemies, …".
+
+## Pass 2 — checked and left
+
+- Pass 1's rulings stand (Sormaqan, Güjüg, Baqtad genitive, -tkün, Cha'adai as the one who came, bulγaba from the Ming).
+- Known entries whose Ming differs here but whose sense is already carried (qarin 邦, bi, ba, kü, ber, teriġüten 等, kürtele, γol "centre, main
+  body", arbin 廣盛 vs 寬廣, ima-ji 他行): no broadening needed. The seven broadened entries are all sound and extend the old entry whole.
+- Names, ž/š/γ→j/sh/q rules and "Qahan" in `i`, "Qan" for the title, officers for nojad, cherbi: checked against conventions, no further slips.
+- All gloss entries read against text and Ming; the stems read from the Ming (ana-, olulčan, ejetü-, berkeldü-, kiliṅla-, kičijeṅgü, dorγul) are marked uncertain or "inferred" in the gloss and stay.
+
+## Pass 2 — remaining doubts
+
+- Güjüg (Han 古余克, Güyük) and Sormaqan vs Čormaqan: owner's call (as in pass 1).
+- U35 who speaks ("my side" after Father Qan); U65 where Ögödei's first speech ends.
+- muquli musquli; olulčan; ana-; -dqun/-tkün as one ending; ejetü- (glossary has ejetü- already, eje + -tü-).
+- U42–U44: accusatives waiting for verbs; U42/U43 each translate ajalaγsan, which belongs with Sormaqan.
+
+Build and validate after pass 2: BUILT, PASS (no WARNs).

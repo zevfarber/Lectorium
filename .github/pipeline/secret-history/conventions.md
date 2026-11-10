@@ -172,3 +172,6 @@ publish without audio until the owner chooses. Do not build audio.
 ## House renderings added by 279-280
 - Names in `i`: Ögödei, Chinggis Qahan, Cha'adai, Batu, Uighurtai (man's name, Ming 人名), Chül (tentative). Qaγan in `l`, Qahan in `i`.
 - sülen (Ming 湯) read as the levy of animals for the Qahan's table (tentative); nutuγ̇učin split nutuγ + -γ̇učin; bitu- "go along" (Ming 沿着) for bituγ̇ulun, bitüġülün the front-vowel form; aldaltan (Ming 斷沒) "cut off and confiscated"; balaγad (Ming 庫每) "treasuries".
+
+## House renderings added by 281-282
+- Names in `i`: Ögödei Qahan, Ödchigin (uncle), Doqolqu, Köde'ü-Aral, Kerülen, Silgincheg (rule-built), Jurchen; tanmachin left as the Ming office title (官名). doloγ̇an boldaγ "Seven Lone Hills"; quluγana žil "Rat year"; huran sara "seventh month" (Ming 七, tentative).

@@ -53,3 +53,47 @@ Checks run after editing:
 ### Count
 
 critical 0 · major 1 · moderate 4 · minor 15 (20 changes)
+
+## Pass 2
+
+Reviewer pass 2. I checked every gloss.json entry and every __broaden__ entry against the units and the packet. I then made a second full pass over units.json. Edits were made by script (json, ensure_ascii=False, indent=1), and `t` was not touched.
+
+Checks run on gloss.json:
+- The novel-forms keys and the gloss.json keys match exactly (41 = 41).
+- Every bracket equals the novel-forms Ming gloss, U+FE00 included.
+- Every entry has the format "<form> — <meaning> (<grammar>) [<Ming>]".
+- Every dictionary form equals the morph lemma in units.json.
+- Every broaden value begins with the HEAD glossary entry verbatim.
+
+Note on the build: the first build of this pass wrote the glossary, and `assemble` adds a novel key only when it is not already present. So I restored secret-history-glossary.json and stories.json from HEAD before the final build. That build therefore carries the pass-2 gloss.json.
+
+### Changes
+
+- U26 · i · moderate · The `i` placed the palaces "at Köde'ü-Aral … between the two, the Seven Lone Hills and Silgincheg". That detached the genitive chain Kelüren-ü Ködeġe-Aral-un from what it qualifies, doloγ̇an boldaγ-a. · `i` now reads "while the palaces were encamped between the two, the Seven Lone Hills of Köde'ü-Aral on the Kerülen and Silgincheg, the writing was completed."
+- U26 · n · minor · The note did not say what the two genitives depend on. · Added: "and both lead on to doloγ̇an boldaγ-a, 'the seven hills of Köde'ü-Aral on the Kerülen'".
+- U18 · i · minor · "I hold myself at fault" is present tense. buruγ̇ušijaba is a past in -ba (Ming 說不是了). · `i` now reads "I have declared myself in the wrong."
+- U0 · morph (Ögödei) · minor · The bracket held English, "[(人)名, “a man's name”]", which is not the Ming gloss. · The gloss now reads "… (Ming (人)名, “a man's name”) [(人)名]".
+- gloss __broaden__ ni · Ming · moderate · The added segment ended "[了的]". 了的 is not the packet's gloss on n(i)-jen (自的行), and 陰害了的 stands on öisüledügse-. · Rewrote the segment to end in a parenthesis that states where each Ming gloss stands. No invented bracket is left.
+- gloss __broaden__ jen · minor · Missed by the glosser. The glossary lists every base -(i)jen follows, and žereg(i)- and the participle remnant n(i)- were new here. · Added a broaden segment.
+- gloss __broaden__ ilaγdaqu · moderate · The known entry gives "that is to be …ed" [可勝的], a potential. Here it means "being overcome" by grape wine (Ming 被勝了). · Added a broaden segment.
+- gloss __broaden__ üile, üiles · minor · The known entries read "matter, business" [事每]. Here it is "deed(s)" in the count of the ruler's acts (Ming 勾當, 勾當(每)/勾當每). · Added a broaden segment to each.
+- gloss __broaden__ ačižu · minor · The known entry is "carry as a load, pack" [駄着]. Here the sense is figurative, "bearing my many people" (Ming 擔着). · Added a broaden segment.
+- gloss __broaden__ alžiγ̇as · minor · The known entry has [差]. Here the Ming writes 差每, "errors". · Added a broaden segment.
+- gloss __broaden__ alginči · minor · The known entry has "scout, advance guard" [頭哨]. Here it is a watchman among the towns (Ming 哨望的). · Added a broaden segment.
+- gloss __broaden__ tabiγ̇ulba · minor · The known entry has "let go, set loose, release". Here the sense is "had (post-stations) set up". · Added a broaden segment.
+- gloss __broaden__ talbiγ̇ulžu · minor · The known entry has "making let go". Here it means "letting (them) set" foot and hand on the ground. · Added a broaden segment.
+
+### Findings considered and refused
+
+- **The 41 novel gloss entries:** all were checked and found correct in lemma, meaning, grammar label and Ming bracket. Uncertain analyses (aγ̇ulba causative, odtažu passive, tus-u-γ̇an, noduγ̇lžu, dölesgekü, huran) are flagged in the entries as in the units. No change.
+- **gloss buruγ̇ušijaba "(noun + verb-former, past tense)":** this describes the build accurately. Left.
+- **gloss saγ̇uldažu as causative -ul- + passive -da-:** this matches units and the Ming 敎坐着. A reciprocal -lda- reading does not fit 敎. Left.
+- **Known-form Ming variants with no change of sense:** kereg 所用 vs 用, ečige-jüġen 父 vs 父親, öterlen 快 vs 疾快, deġü-dēče 弟 行 vs 弟 自, emüne 前 vs 前行, josu 理 vs 道理, eme 婦 vs 婦人, žedgüžü 當着 vs 阻當着, keġen "thinking". I did not broaden these: the sense is the same.
+- **U20 i "to hold them in"** for žedgüžü (當着): this is an interpretation of the object, but it fits the stockade image. Left.
+- **U5 i "had wells dug and brought forth":** this keeps the two causative converbs. The phrasing is slightly odd but not wrong. Left.
+- **U14 `i` drops "my" with nigen buruγ̇u:** min-u is read as the subject of dölesgekü ("That I … was caught up"), as the note says. Left.
+- **U16 tus-u-γ̇an and U25 huran:** both are already hedged. Left.
+
+### Count
+
+critical 0 · major 0 · moderate 3 · minor 11 (14 changes; üile and üiles counted separately)

@@ -1,0 +1,221 @@
+import sys, os
+HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, '..', '..')); sys.path.insert(0, os.path.join(HERE, '..', '..', '..', '..'))
+import aeneid_lib as A
+# aeneid-050 draft. Drafted from the Latin and grammar only. t is cut from the edition, never typed.
+TITLE = 'Mensae consumptae. Regia Pici'
+TITLE_EN = "The Eaten Tables and the Palace of Picus — Aeneid VII.107–194"
+PART = "The Eaten Tables and the Palace of Picus (VII.107–194)"
+ABOUT = """Landed on the bank of the Tiber, Aeneas, his captains and Iulus sit down under a tall tree to eat, setting their food on flat cakes of spelt, as Jupiter has put it into their minds to do. When everything else is gone they eat the cakes too, and Iulus jokes that they are eating even their tables. Aeneas seizes on the words as an omen. He greets the land the fates have owed him and the gods of Troy: here is home, here is their country. The prophecy he recalls, which he says Anchises left him, foretold that when hunger drove his son to eat his tables on an unknown shore, there he should hope for a home and build his first walls; this was that hunger, the last trial of their exile. He orders libations to Jupiter and prayers to Anchises, wreathes his head, and prays to the spirit of the place, to Earth, the nymphs and the unknown rivers, to Night and her stars, to Jupiter of Ida and the Phrygian Mother, and to his two parents in heaven and below. Jupiter thunders three times from a clear sky and shows a cloud blazing with golden light; word runs through the camp that the day of the promised city has come, and the feast begins again. Next morning the Trojans explore the country and learn the names of the Numicus, the Tiber and the Latins. Aeneas sends a hundred envoys carrying olive branches and gifts to ask King Latinus for peace, while he himself marks out his first settlement on the shore with a ditch and fortifies it like a camp. The envoys find the young men of Latium riding and shooting before the city; a rider brings the news to the old king, who summons them to his palace. This is the ancient hall of Picus on the height of the city, among sacred woods: a temple, senate-house and banqueting hall, where the kings receive the sceptre, lined with cedar statues of the ancestors, Italus, Sabinus, Saturn and two-faced Janus, and hung with the spoils of war. Picus himself sits there with an augur's staff and the sacred shield, the king whom Circe changed into a woodpecker. On his fathers' throne in this temple, Latinus receives the Trojans and is the first to speak."""
+U = [
+(111, 'augent.',
+ """Aeneas and the foremost captains and handsome Iulus
+their bodies beneath the boughs lay down of a tall tree,
+and set about a feast, and cakes of spelt over the grass
+they place beneath the food (so Jupiter himself was prompting),
+and the floor of Ceres with fruits of the countryside they heap.""",
+ """Aeneas, his chief captains and handsome Iulus stretch themselves out under the branches of a tall tree and make ready a meal: they lay cakes of spelt on the grass beneath the food (Jupiter himself was putting it into their minds) and heap the base of bread with fruits gathered from the countryside.""",
+ """A new paragraph in Greenough. 'Corpora… deponunt' is 'lay down their bodies', 'recline', as Romans did at meals; 'arboris altae' is held to the end of the line, apart from 'ramis'. 'Instituunt dapes' is 'set about a feast'. 'Adorea liba' are cakes of spelt ('ador', an old word for the grain also called far), used here as platters: 'subiciunt epulis', 'they put (them) under the food'. The parenthesis 'sic Iuppiter ipse monebat' warns that this is no accident. 'Cereale solum' is 'the floor of Ceres', the base made of bread, Ceres standing for grain and bread (metonymy); 'augent', 'enlarge', 'heap up'. Iulus is Ascanius, Aeneas's son. Historic presents carry the scene."""),
+(115, 'quadris:',
+ """The rest having been eaten, here by chance, when to turn their bites
+onto the scanty Ceres the want of eating drove them,
+and to violate with hand and bold jaws the round
+of the fated crust, and the broad quarters not to spare:""",
+ """Here, as it happened, when everything else was eaten and lack of food drove them to turn their teeth on the meagre bread, to break with hands and daring jaws into the round of the fated crust, and not to spare its broad quarters:""",
+ """'Consumptis… aliis' is an ablative absolute, 'the other things having been eaten up'. 'Ut' with the perfect indicative 'adegit' is temporal, 'when'. 'Penuria… edendi' is 'scarcity of eating', the gerund in the genitive; 'adegit', 'drove (them)', takes the infinitives 'vertere', 'violare' and 'parcere', a poetic construction. 'Exiguam in Cererem' is 'onto the meagre Ceres', the bread again. 'Malis' is from 'mala', 'jaw', not from 'malum'; the jaws are 'audacibus' because eating the platter is an act of daring. 'Orbem fatalis crusti' is 'the round of the fated crust': fate was waiting in it. 'Quadrae' are the quarters scored across a round flat loaf. The colon looks ahead to the words that follow."""),
+(117, 'adludens.',
+ """“Look! even our tables we are eating,” says Iulus,
+no more than that, jesting.""",
+ """“Look — we are even eating our tables!” said Iulus in jest, and nothing more.""",
+ """The print has '“Heus ! etiam mensas consumimus, ”inquit', with a space before the exclamation mark and the closing mark set against 'inquit', a misprint for '“Heus! etiam mensas consumimus,” inquit', corrected here; t keeps the print, because t must match the pinned source; l and i close the quotation before 'inquit'. 'Heus' is 'hey!', 'look!'. 'Nec plura adludens' is 'jesting, and (saying) no more', the verb of speaking left out; 'adludens' is Greenough's spelling of 'alludens', 'playing'. The boy's joke fulfils a prophecy. In Book III it was the Harpy Celaeno who foretold that hunger would make the Trojans eat their tables before they walled their city (3.255–257), and Helenus who told Aeneas not to fear it (3.394); at 123 Aeneas names Anchises as its source. The discrepancy is usually counted among the places Virgil left unrevised."""),
+(119, 'pressit.',
+ """That utterance, heard, of their labours
+first brought the end, and it, first from the speaker's lips,
+snatched up his father and, awestruck by the divine power, held it fast.""",
+ """That word, once heard, was the first sign that their labours were over; the moment it left the speaker's lips his father caught it up and, awed by the hand of heaven in it, held it fast.""",
+ """'Ea vox audita' is 'that utterance, being heard'. 'Laborum… prima tulit finem' is 'was the first to bring the end of their toils': it told them they had arrived. 'Primamque… eripuit' is 'snatched it at its first', the instant it was spoken, before the boy could say more; 'pater' is Aeneas, Iulus's father. To catch up a chance word as an omen ('omen accipere') was Roman practice: a sign had force when the hearer accepted it. 'Stupefactus numine' is 'struck with awe by the divine power' he sees in it. 'Pressit' is 'checked' it, stopped the jest there, or 'kept it close' in his mind; both readings are old."""),
+(121, 'penates:',
+ """At once: “Hail, land owed by the fates to me,
+and you,” he says, “O faithful gods of Troy's household, hail:""",
+ """At once he cried: “Hail, land that the fates have owed me; and you,” he said, “faithful household gods of Troy, hail to you too:""",
+ """The print has '“vosque, ait, O fidi', with an opening mark before 'vosque' and none before 'O', a misprint (as at 6.46 and 6.52) for 'vosque,” ait, “O fidi', corrected here: the greeting runs on from 'tellus' to 'vosque', breaks off for 'ait', and resumes at 'O'. t keeps the print, because t must match the pinned source; l and i place the marks. 'Continuo' is 'immediately', the verb of speaking left out until 'ait'. 'Fatis… debita' is 'owed by the fates', with 'mihi', 'to me'. 'Vosque… salvete' is 'and you… hail', the second greeting taking up the first. The Penates are the household gods of Troy, entrusted to Aeneas by Hector's ghost (2.293) and carried out of the burning city."""),
+(122, 'est.',
+ """here is home, this is our fatherland.""",
+ """here is our home, this is our country.""",
+ """Two short, weighty clauses, the verb understood in the first: 'hic (est) domus', 'here is home'. 'Haec' agrees with 'patria', not with an understood 'place': a demonstrative takes the gender of the predicate noun, as Latin regularly does. After seven years of wandering the search ends in five words. The Trojans' homeland was always meant to be Italy, the land their ancestor Dardanus came from (3.94–96, 3.167)."""),
+(123, 'reliquit:',
+ """My father to me such things, for,
+(now I recall it) Anchises, secrets of the fates left:""",
+ """For my father Anchises — I remember it now — left me these secrets of destiny:""",
+ """'Namque', 'for', stands late in its clause as the fifth word, a poetic licence. 'Genitor… Anchises' frames the parenthesis 'nunc repeto', 'now I recall'. 'Talia… fatorum arcana' is 'such secrets of the fates', the object of 'reliquit', 'left (to me)'. As noted at 116, the prophecy of the tables was spoken in Book III by Celaeno, not Anchises, and no such words of Anchises appear in the poem. The colon introduces the prophecy in Anchises's own words, addressed to Aeneas as 'nate', 'son'."""),
+(127, 'tecta.',
+ """when you, son, hunger, to unknown shores carried,
+your food cut short, shall force to eat up your tables,
+then to hope for homes, wearied, and there remember
+the first to set with your hand, and to build up with a rampart, dwellings.""",
+ """when, my son, you have been carried to unknown shores and hunger, with your food run short, forces you to eat your tables, then, weary as you are, remember to hope for a home, and there to set up your first buildings with your own hand and raise a rampart round them.""",
+ """Anchises's words, quoted inside Aeneas's speech; Greenough prints no inner marks. 'Cum… coget…, tum… memento' is 'when… shall force…, then remember', a clause of future time with the future indicative. 'Te… vectum', 'you, carried', is the object of 'coget'. 'Accisis… dapibus' is an ablative absolute, 'your provisions cut down'. 'Memento' is the imperative of 'memini', which has only the future-imperative form, 'remember'; it governs 'sperare', 'locare' and 'moliri'. 'Domos' is a poetic plural, 'a home'. 'Prima… tecta' frames the last line, 'your first dwellings'; 'aggere' is 'with an earthwork', a rampart."""),
+(128, 'fames;',
+ """This was that hunger;""",
+ """This, then, was the hunger he meant;""",
+ """'Erat' is the imperfect of something that was true all along and is only now recognised: 'this was, it seems, that hunger' (Allen & Greenough's imperfect of a fact just realised). 'Illa' is 'that' famous one, 'the one foretold'."""),
+(129, 'modum.',
+ """this us, the last, was awaiting,
+to our exiles destined to set a limit.""",
+ """this was the last trial that lay in wait for us, the one that was to put an end to our exile.""",
+ """'Haec… suprema', 'this, the last', is the subject of 'manebat', 'was waiting for (us)'. 'Positura' is the future participle, 'destined to set', 'that would set'; 'modum' is 'a limit', 'an end', with 'exiliis' dative, 'to our exiles', a plural for the long years of wandering. Line 129 is a half-line, one of the lines Virgil left unfinished. The Latin Library has 'exitiis', 'to our disasters': the hunger would put an end to their ruin rather than to their exile, a slight change of sense; Greenough's 'exiliis' is kept."""),
+(132, 'petamus.',
+ """Therefore come, and with the first, glad, light of the sun,
+what places, and what men hold them, where the walls of the people,
+let us track out, and from the harbour different ways let us make.""",
+ """So come, and with the first light of the sun let us gladly search out what country this is, what men live in it, and where its people have their city, and let us go our separate ways from the harbour.""",
+ """'Quare agite' is 'wherefore come', 'agite' a rousing plural imperative, like 'nunc age' (37). 'Primo… cum lumine solis' is 'with the first light of the sun', the preposition between adjective and noun. 'Quae loca (sint), quive habeant homines, ubi moenia gentis (sint)' are indirect questions depending on 'vestigemus', with the verb 'to be' left out; 'qui' is the interrogative adjective with 'homines', 'which men', and '-ve' is 'or'. 'Vestigemus' and 'petamus' are hortatory subjunctives, 'let us track', 'let us make for'. 'Diversa' is neuter plural, 'different directions'."""),
+(134, 'mensis.”',
+ """Now bowls pour out to Jove, and with prayers call upon
+Anchises my father, and the wine set back on the tables.”""",
+ """Now pour libations from your bowls to Jupiter, call with prayers upon Anchises my father, and set the wine back on the tables.”""",
+ """'Pateras libate' is 'pour (the contents of) the bowls in libation', a 'patera' being a shallow dish for offerings. 'Anchisen' is the Greek accusative of Anchises, honoured since Book V with the rites of a hero. 'Vina reponite mensis' is 'put the wine back on the tables', that is, begin the feast again; 'mensis' is dative or ablative. The speech, opened at 120, ends here."""),
+(138, 'flumina,',
+ """So then having spoken, with a leafy bough his temples
+he wreathes, and both the spirit of the place and, first of the gods,
+Earth, and the nymphs, and the still unknown he prays to,
+rivers,""",
+ """Having spoken so, he binds his brow with a leafy branch and prays to the spirit of the place, to Earth, first of the gods, to the nymphs and to the rivers he does not yet know,""",
+ """'Deinde' scans as two syllables, 'dein-de', the vowels run together (synizesis). 'Effatus' is the participle of the deponent 'effor', 'having spoken out'. 'Tempora… implicat' is 'entwines his temples', wreathing his head for the rite. 'Genium loci' is 'the genius of the place', the guardian spirit Romans believed each spot possessed. 'Primam deorum Tellurem' is 'Earth, first of the gods': in Hesiod's Theogony Earth is among the first beings after Chaos. 'Adhuc ignota… flumina' is 'rivers still unknown', the streams of the new land; 'flumina' runs over into the next line. 'Geniumque… primamque' is the double '-que'."""),
+(140, 'parentis.',
+ """then Night and of Night the rising signs
+and Idaean Jove and the Phrygian, in due order, Mother
+he invokes, and his twofold, in heaven and in Erebus, parents.""",
+ """then he calls upon Night and the stars that rise with Night, upon Jupiter of Ida and the Phrygian Mother, each in turn, and upon his two parents, one in heaven and one in Erebus.""",
+ """'Noctis… orientia signa' are 'the rising constellations of Night'. 'Idaeum… Iovem' is Jupiter as worshipped on Mount Ida above Troy; the 'Phrygian mother' is Cybele, the Great Mother of the gods, whose cult also centred on Ida: the Trojans' own gods. 'Ex ordine' is 'in due order', 'one after another'. 'Duplicis… parentis' is accusative plural, '-is' for '-es' as usual in Greenough: 'his two parents', Venus in heaven and Anchises in Erebus, the underworld. 'Caeloque ereboque' is the double '-que', 'both in heaven and in Erebus'."""),
+(143, 'nubem.',
+ """At this the father almighty three times, clear, from high heaven
+thundered, and with rays blazing of light and with gold,
+himself with his hand shaking it, showed from the sky a cloud.""",
+ """At this the almighty father thundered three times, loud and clear, from high heaven, and, shaking it with his own hand, showed them from the sky a cloud ablaze with rays of golden light.""",
+ """'Hic' is 'at this point'. 'Pater omnipotens' is Jupiter, answering the prayer. 'Ter… intonuit' is 'thundered three times', three being the number of solemn rites; 'clarus' is predicative, 'clear', 'plain to hear', and thunder from a clear sky was taken as an unmistakable sign. 'Radiis… lucis et auro' is 'with rays of light and gold', two nouns for one idea (hendiadys), 'golden rays'. 'Ardentem… nubem' frames two lines, 'a blazing cloud'. 'Ipse manu quatiens' is 'brandishing it with his own hand', as he brandishes the thunderbolt. Jupiter gave a like sign in thunder after Anchises's prayer at Troy (2.692–694)."""),
+(145, 'condant.',
+ """Is spread here suddenly through the Trojan columns a report,
+to have come the day on which their owed walls they should found.""",
+ """Suddenly the word spreads through the Trojan ranks that the day has come for them to found the city long owed them.""",
+ """'Diditur', from 'di-do', is 'is spread abroad'. 'Rumor' is followed by the accusative and infinitive 'advenisse diem', 'that the day had come'. 'Quo… condant' is a relative clause in the subjunctive, 'on which they were to found': the day is marked out for a purpose. 'Debita moenia', 'the walls owed (them)' by fate, picks up 'fatis… debita tellus' (120)."""),
+(147, 'coronant.',
+ """Eagerly they renew the feast, and, at the great omen,
+the mixing-bowls, glad, they set up and the wine they crown.""",
+ """Eagerly they begin the feast afresh and, gladdened by the great omen, set out the mixing-bowls and crown the wine with garlands.""",
+ """'Certatim' is 'vying with one another'. 'Instaurant' is 'renew', 'begin again'. 'Omine magno' is a causal ablative, 'because of the great omen'. 'Crateras' is the Greek accusative plural of 'crater', the large bowl in which wine was mixed with water. 'Crateras… statuunt et vina coronant' repeats 1.724 nearly word for word: 'crown the wine' means either wreathing the bowls with garlands, a Roman custom, or filling them to the brim, a Homeric phrase. Repeated lines are part of the epic manner."""),
+(150, 'explorant:',
+ """The next, when with her first torch she was lighting the lands,
+risen, the day, the city and the borders and the shores of the people
+scattering they explore:""",
+ """When the next day had risen and was lighting the earth with its first torch, they scatter to explore the city, the borders and the coast of the people of the land,""",
+ """A new paragraph in Greenough. 'Postera… orta dies' frames the clause across two lines; 'dies' is feminine here, as it often is in verse. 'Lampade' is 'with its torch', the sun, from Greek 'lampas'. 'Lustrabat' is 'was passing over', 'lighting up'; 'cum' with the imperfect sets the time. 'Urbem' is presumably Latinus's city, seen from afar. 'Finis' is accusative plural, 'territory'. 'Diversi' is 'going different ways', as Aeneas ordered ('a portu diversa petamus', 132). The colon introduces what they find."""),
+(151, 'Latinos.',
+ """these the pools of the spring of Numicus,
+this the river Thybris, here the brave to dwell, the Latins.""",
+ """and learn that these are the pools of the spring of Numicus, that this is the river Tiber, and that here live the brave Latins.""",
+ """Accusatives and infinitives with a verb such as 'they learn' understood from 'explorant': 'haec (esse) fontis stagna Numici', 'that these are the pools of the Numicus's spring', 'hunc (esse) Thybrim fluvium', and 'hic fortis habitare Latinos', 'that here the brave Latins live'. 'Haec… hunc… hic' points out each thing in turn. The Numicus is a small stream near Lavinium, where, the story ran, Aeneas vanished from among men at the end of his life (Livy 1.2). 'Thybrim' is the Greek accusative of 'Thybris', the poetic name of the Tiber. 'Fortis' is accusative plural."""),
+(155, 'Teucris.',
+ """Then the one sprung from Anchises, chosen from every rank,
+a hundred spokesmen to the august walls of the king
+to go orders, veiled with boughs of Pallas all,
+and gifts to bear to the man and peace to ask for the Teucrians.""",
+ """Then the son of Anchises orders a hundred envoys, chosen from every rank, to go to the stately walls of the king, all of them wreathed with Pallas's olive, to carry him gifts and to ask peace for the Trojans.""",
+ """'Satus Anchisa' is 'sprung from Anchises', 'satus' the participle of 'sero', 'sow', with an ablative of origin. 'Delectos ordine ab omni' is 'chosen from every order (of men)'. 'Oratores' are 'spokesmen', 'envoys', the word's old sense. 'Iubet' takes the infinitives 'ire', 'ferre', 'exposcere'. 'Ramis velatos Palladis' is 'veiled with boughs of Pallas': the olive, Minerva's tree, wound with wool and carried by suppliants and envoys of peace. 'Omnis' is accusative plural, 'all of them'. 'Viro' is Latinus. 'Teucris' is a dative of advantage, 'for the Teucrians', the Trojans named from Teucer, an early king of Troy."""),
+(157, 'passibus.',
+ """No delay: they hasten, as ordered, and with swift are borne
+steps.""",
+ """Without delay they hurry off as they are bidden and set out at a rapid pace.""",
+ """'Haud mora (est)' is 'there is no delay', a stock phrase with the verb understood. 'Iussi' is 'having been ordered', 'as bidden'. 'Rapidis… feruntur passibus' is 'they are carried along with swift steps', 'feruntur' with a middle sense, 'they speed'. 'Passibus' runs over into the next line and stops there, a strong pause after the first word."""),
+(159, 'cingit.',
+ """He himself with a low marks out his walls trench,
+and works the site, and his first on the shore dwellings
+in the fashion of a camp with battlements and rampart surrounds.""",
+ """Aeneas himself traces the line of his walls with a shallow trench, sets to work on the site, and surrounds his first settlement on the shore with battlements and an earthen rampart, in the manner of a camp.""",
+ """'Ipse' is Aeneas. 'Humili… fossa' frames the line, 'with a low ditch'. 'Designat moenia' is 'marks out the walls', as a Roman founder traced the bounds of a new city with a furrow. 'Molitur locum' is 'labours at the place', 'works the ground'. 'Primas… sedes' is 'his first settlement'. 'Castrorum in morem' is 'in the manner of a camp': the settlement is fortified like a Roman camp, with 'pinnae', battlements along the top of the wall, and 'agger', the earth rampart. This is the camp the Rutulians will besiege in Book IX. Aeneas is doing what the prophecy told him, 'moliri aggere tecta' (127)."""),
+(161, 'subibant.',
+ """And now, the way measured out, the towers and roofs of the Latins,
+lofty, were seeing the young men, and to the wall were coming up.""",
+ """And now, their journey done, the young men could see the towers and the high roofs of the Latins, and were drawing near to the wall.""",
+ """'Emensi' is the perfect participle of the deponent 'emetior', 'having measured out', that is, 'having travelled', active in sense. 'Turris' is accusative plural. Line 160 is hypermetric: it has one syllable too many, and the final '-um' of 'Latinorum' is elided into 'ardua' at the start of the next line. 'Tecta… ardua' frames the line-end, 'lofty roofs'. 'Iuvenes' are the envoys. 'Muro… subibant' is 'they were coming up to the wall', 'muro' a dative with a compound verb. The imperfects show them still approaching as the next scene opens."""),
+(165, 'lacessunt:',
+ """Before the city boys and, in its first-age flower, the youth
+are exercised with horses and tame in the dust chariots,
+or sharp ones they bend, bows, or pliant with their arms
+javelins hurl, and with running and with striking challenge:""",
+ """Before the city boys and young men in the first flower of youth are training on horseback and breaking chariot-teams in the dust, or bending tough bows, or hurling pliant javelins with all the strength of their arms, and challenging one another to race and to strike:""",
+ """The scene is Roman: the young men of the city at their exercises, as on the Campus Martius, like the boys who rode the 'Game of Troy' in Book V (5.545–603). 'Primaevo flore' is 'in the first bloom of life'. 'Exercentur' is middle, 'exercise themselves'. 'Domitant' is the frequentative of 'domo', 'tame', 'break in'; 'currus', the chariots, stands for the horses that draw them. 'Acris' is accusative plural with 'arcus', 'strong' bows. 'Lenta… spicula' frames two lines, 'pliant javelins'; 'lacertis' is 'with their upper arms'. 'Cursuque ictuque' is the double '-que', 'in running and in striking'; 'lacessunt' is 'challenge (each other)'. The colon prepares the 'cum' that follows."""),
+(168, 'viros.',
+ """when, ridden ahead on horseback, to the aged king's ears
+a messenger, huge ones, in unknown dress, brings back word
+to have come, men.""",
+ """when a messenger, galloping ahead, brings word to the ears of the aged king that men of great stature in clothing never seen before have arrived.""",
+ """'Cum' is 'cum inversum' again (as at 28): the scene is set in the present, then the event breaks in, 'when…'. 'Praevectus equo' is 'carried ahead on a horse'. 'Longaevi' is 'long-lived', 'aged'; 'auris' is accusative plural. 'Reportat' is 'brings back (word)', with the accusative and infinitive 'ingentis… advenisse viros', 'that huge men had come': heroes are pictured as larger than men of later days. 'Ingentis… viros' is split across two lines round 'ignota in veste', 'in unknown dress'; the Trojans' Phrygian clothing marked them as strangers."""),
+(169, 'avito.',
+ """He, within the house to be called,
+orders, and on the throne, in the midst, sat down, ancestral.""",
+ """The king commands that they be summoned into the palace, and takes his seat in the midst of the hall on the throne of his forefathers.""",
+ """'Ille' is Latinus. 'Imperat' takes the passive infinitive 'vocari', 'orders (them) to be called', the subject left unsaid. 'Solio… avito' frames the clause, 'on his ancestral throne'. 'Medius' is predicative, 'in the centre'. 'Consedit' is perfect, 'took his seat', a single act after the order, set against the historic present 'imperat'."""),
+(172, 'parentum.',
+ """A building august, huge, lofty on a hundred columns,
+on the top of the city was, of Laurentine Picus the palace,
+awe-inspiring with its woods and with the reverence of the fathers.""",
+ """On the highest part of the city stood a stately building, vast, raised high on a hundred columns: the palace of Laurentine Picus, awe-inspiring with its woods and with the reverence of generations.""",
+ """The print has 'ingens. centum', a full stop with a small letter after it, a misprint for 'ingens, centum', corrected here: the words all describe 'tectum', and the sentence runs on to 'fuit'. t keeps the print, because t must match the pinned source. 'Augustum' is 'majestic', 'hallowed', a word with Roman and imperial colour. 'Centum sublime columnis' is 'lofty with a hundred columns'. 'Urbe… summa' is 'on the top of the city'. Picus is Latinus's grandfather (48); 'Laurentis' is 'of Laurentum', Latinus's city. 'Horrendum' is 'to be shuddered at', 'awe-inspiring', the grove round it being sacred; 'religione parentum' is 'by the religious awe of the forefathers', reverence handed down."""),
+(176, 'mensis.',
+ """Here the sceptres to receive and first to raise the fasces
+for the kings was an omen; this for them as senate-house the temple,
+these for sacred the seats feasts; here, a ram being slain,
+at unbroken were wont the fathers to sit down tables.""",
+ """Here it was the kings' good omen to receive the sceptre and first have the fasces raised before them; this temple was their senate-house, this the seat of their sacred feasts; here, when a ram had been sacrificed, the elders would take their places at long, unbroken tables.""",
+ """Virgil furnishes this ancient palace with Roman institutions. 'Sceptra accipere… attollere fasces' is the subject of 'omen erat': receiving the sceptre and raising the fasces here, at a king's accession, was a sign of good fortune. The fasces, bundles of rods carried before Roman magistrates, are an anachronism in early Latium. 'Hoc illis curia templum (erat)' is 'this temple was their senate-house': the Roman senate could meet only in a consecrated 'templum'. 'Sacris… epulis' frames 'sedes', 'the seat for the sacred banquets'. 'Ariete caeso' is an ablative absolute. 'Soliti (erant)' is 'were accustomed'; 'patres' are the elders, the senators. 'Perpetuis… mensis', 'at continuous tables', frames the line."""),
+(179, 'falcem,',
+ """Moreover, of the old, the likenesses, in order, ancestors,
+out of ancient cedar, both Italus and father Sabinus,
+the vine-planter, a curved keeping beneath his likeness pruning-hook,""",
+ """What is more, there were images of the forefathers of old in their order, carved from ancient cedar: Italus, and father Sabinus, the planter of the vine, holding a curved pruning-hook as his statue shows him,""",
+ """'Quin etiam' is 'nay more', 'moreover'. 'Veterum… avorum' frames the line, 'of the ancestors of old', genitive with 'effigies', 'likenesses', 'statues'; the verb, 'astabant', waits until 181. 'Ex ordine' is 'in a row', 'in succession'. 'Antiqua e cedro' is 'out of ancient cedar', the material. Italus gave his name to Italy; Sabinus is the ancestor of the Sabines, 'pater' as founder of a people. 'Vitisator' is 'vine-planter', a compound in the old poetic style; the pruning-hook is his emblem. 'Sub imagine' is 'in his statue', 'as he is portrayed'. 'Italusque paterque' is the double '-que' once more."""),
+(182, 'passi.',
+ """and Saturn the aged and of Janus two-fronted the image
+in the entrance stood, and other, from the beginning, kings,
+and, warlike, for the fatherland by fighting wounds having suffered.""",
+ """and aged Saturn and the image of two-faced Janus stood in the entrance hall, with the other kings from the first beginnings of the race, and men who had suffered wounds of war fighting for their country.""",
+ """Saturn, driven from heaven by Jupiter, was said to have ruled Latium in the Golden Age (Evander tells the story in Book VIII); Janus, god of doorways and beginnings, is pictured with two faces looking opposite ways, 'bifrons'. 'Vestibulo' is 'in the forecourt', ablative of place without a preposition, or dative with 'astabant', 'stood by'. 'Ab origine reges' is 'kings from the beginning (of the race)'. The last line adds another group: '(viri)… passi', 'men who had suffered'; 'Martia… volnera', 'wounds of Mars', war-wounds, frames the line; 'volnera' is Greenough's old spelling of 'vulnera'. 'Pugnando' is the ablative of the gerund, 'by fighting'."""),
+(186, 'carinis.',
+ """And many besides on the sacred doorposts arms,
+captured hang chariots, and curved axes,
+and crests of heads and of gates huge bars,
+and javelins and shields and beaks torn from keels.""",
+ """Besides, many weapons hang on the holy doorposts, captured chariots and curved axes, helmet-crests and the massive bars of city gates, javelins and shields and beaks wrenched from the prows of ships.""",
+ """Spoils fastened to the doorposts of a house or temple were a Roman custom. 'Pendent', 'hang', serves all the subjects. 'Captivi… currus' are 'captured chariots'; 'curvae secures', 'curved axes'. 'Cristae capitum' are 'crests of heads', the plumes of helmets. 'Portarum… claustra' are the bars of the gates of captured towns. 'Clipei' are round shields. 'Rostra' are the bronze rams on warships' bows, 'erepta… carinis', 'torn from the keels', 'carinis' a dative of separation; the speakers' platform in the Roman Forum, the Rostra, was adorned with such beaks. The heaped '-que… -que… -que' makes a crowded list (polysyndeton)."""),
+(189, 'domitor;',
+ """Himself, with the Quirinal staff, and in a short, was sitting,
+girt, robe of state, and in his left the sacred shield was bearing,
+Picus, of horses the tamer;""",
+ """Picus himself, the tamer of horses, sat there with the augur's staff of Quirinus, girt in a short robe of state, and bearing the sacred shield on his left arm;""",
+ """'Ipse… Picus' frames the sentence, the name held back to the third line: his statue sits enthroned among the rest. 'Quirinali lituo' is 'with the Quirinal staff', the 'lituus', the curved wand of the augurs, named from Quirinus, the deified Romulus, who took the auspices with it. 'Parva… trabea' is 'the short trabea', a striped robe of kings and augurs; 'succinctus' is 'girt'. The 'ancile' is the figure-of-eight shield said to have fallen from heaven in Numa's reign, kept by the Salii, Mars's priests. All three are Roman things carried back into prehistory. 'Equum' is the old genitive plural, 'equorum' (as 'divom'); 'equum domitor', 'tamer of horses', is a Homeric title."""),
+(191, 'alas.',
+ """whom, seized by desire, his wife,
+with her golden striking wand and changing with drugs,
+made a bird, Circe, and sprinkled with colours his wings.""",
+ """his wife Circe, overcome by passion, struck him with her golden wand, changed him with her drugs into a bird, and dappled his wings with colours.""",
+ """'Picus' is the Latin for woodpecker, and the story explains the name. 'Quem' is the object of 'fecit avem', 'made (him) a bird'. 'Coniunx… Circe' frames the clause, the name held back as with Picus. 'Capta cupidine' is 'seized by desire'. 'Aurea… virga', 'with her golden wand', goes round 'percussum', 'struck'; 'versum venenis' is 'changed by drugs', 'venenum' meaning any potent drug, not only poison. Virgil calls Circe Picus's wife; in Ovid's longer version (Metamorphoses 14) she loves him, is refused for his wife Canens, and changes him in anger. 'Sparsit… coloribus alas' is 'spattered his wings with colours', the woodpecker's bright plumage. Circe's headland was passed at the start of this book (10–24)."""),
+(194, 'ore:',
+ """In such a temple of the gods, within, and on his fathers', Latinus,
+seat sitting, the Teucrians to himself into the house called,
+and these words to them, having entered, with calm first uttered mouth:""",
+ """Seated within on his fathers' throne in such a temple of the gods, Latinus called the Trojans into the house to him, and as they came in he was the first to speak, with a calm face:""",
+ """'Tali… templo' goes round 'intus', 'within such a temple'; 'divom' is the old genitive plural, 'of the gods': the palace is a temple as well (174). 'Patria… sede sedens' is 'sitting on his ancestral seat', 'patria' the adjective, and 'sede sedens' a play on related words (figura etymologica). 'Ad sese' is 'to himself', the doubled form of the reflexive. 'Ingressis' is dative, 'to them, having entered'. 'Prior', 'first', before the envoys can speak: courtesy, and a host's authority. 'Placido… ore', 'with a peaceful mouth', 'calmly', frames the line. The colon introduces Latinus's speech, which opens the next part (195)."""),
+]
+P = A.part('aeneid-050'); L = A.lines_of(P); paras = {l['n'] for l in L if l['p']}
+cuts = A.cut(P, [(u[0], u[1]) for u in U])
+sents = []; prev_end_line = None
+for (t, ln), (_, _t, l, i, n) in zip(cuts, U):
+    u = {'t': t, 'l': l, 'i': i, 'n': n}
+    if prev_end_line != ln and ln in paras: u['p'] = True
+    u['v'] = True; u['ln'] = ln; sents.append(u)
+    prev_end_line = ln + t.count('\n')
+    if t.count('\n') != l.count('\n'): print('LINE COUNT', ln, repr(t[:30]), t.count('\n'), l.count('\n'))
+    if t.count('\n') > 4: print('TOO LONG', ln)
+    if '\n' in i: print('NEWLINE IN i', ln)
+A.jdump({'title': TITLE, 'titleEn': TITLE_EN, 'part': PART, 'about': ABOUT, 'sentences': sents}, os.path.join(HERE, 'units.json'))
+print(len(sents), 'units')

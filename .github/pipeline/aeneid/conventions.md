@@ -98,6 +98,7 @@ end **only where Greenough begins a paragraph** (an indented line in the TEI —
 | VI.126 | *facilis descensus Averno* | "easy the going-down to Avernus" | "to go down to Avernus costs no effort" |
 | VI.127 | *noctes atque dies patet atri ianua Ditis* | "nights and days lies open of black Dis the door" | "the door of gloomy Dis is never shut, by night or by day" |
 | VI.128–129 | *sed revocare gradum superasque evadere ad auras, hoc opus, hic labor est* | "but to call back the step and to escape out to the upper airs, this the work, here the hardship is" | "But to turn your step back and win out to the air above — there is the real work of it, there the hardship." |
+| VI.851–853 | *tu regere imperio populos, Romane, memento; / hae tibi erunt artes; pacisque imponere morem, / parcere subiectis, et debellare superbos* | "you, to rule by your command the peoples, Roman, remember; / these for you will be the arts; and of peace to impose the custom, / to spare the subjected, and to fight out the war against the proud." | "Your task, Roman — never forget it — is to rule the peoples by your sovereign power (these will be the skills that are yours), to establish peace and make it their custom, to spare whoever yields, and to fight the haughty until the war is done." |
 
 Set pieces still ahead, to be decided in a dedicated pass before the batch that reaches them (Ovid's
 ruling of 2026-08-27): I.203 *forsan et haec olim meminisse iuvabit*; I.462 *sunt lacrimae rerum*;

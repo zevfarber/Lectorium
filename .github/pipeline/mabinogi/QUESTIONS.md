@@ -8,3 +8,8 @@
 Col. 14 l. 26 Evans prints "ny wydwn i 6arch" (the witness: "varch"). The establish rule (6-shaped w → w) gives "warch"; the
 published pilot printed v in like places ("Vrth ual", "Y vely", "a'y vreic"). Decided meanwhile: follow the rule ("warch"),
 the drafter's note to say it is *march* soft-mutated, spelt with the w-letter. The owner may prefer v where the sound is /v/.
+
+## 2026-11-11 · mabinogi-003 · small open points
+- "a'y dodi yn y carchar e hun" (col. 24): whose prison is not said, and *carchar* is unmutated after 'his' (Red Book *y garchar*). Decided meanwhile: `l`/`i` "his own", note says the referent is uncertain.
+- "nit eidawaf y rodi y neb" (col. 22): rare; Red Book "nyt adawaf". Decided meanwhile: text as the White Book, read 'it is not mine to give', flagged uncertain.
+- Published glossary entries *gelwit*, *gyweirwyt* say "3 sg. impersonal"; the 003 review uses "impersonal". Left unchanged (outside this part); the owner may want them aligned.

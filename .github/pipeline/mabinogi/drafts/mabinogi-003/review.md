@@ -76,3 +76,95 @@ Counts: **1 major, 31 minor, 1 style** (33 items).
 
 ### Verification
 After the edits, a script confirmed that units.json has 102 units and that every `t` equals the corresponding `t` in cut.json, character for character.
+
+## Pass 2
+
+Reviewer pass 2 (2026-11-11). I checked every one of the 270 new gloss.json entries and all 23 `__broaden__` entries. Each was checked against the text, the unit notes as they stand after pass 1, the published mabinogi-glossary.json and the 002 gloss and review. The aids and rules were the same as in pass 1: Strachan, Morris-Jones, Silvan Evans and GPC from knowledge, the Red Book as third witness, and no translations. Edits were made by script (ensure_ascii=False, indent=1).
+
+The "(obsolete)" tag the glosser put on about 20 words was a guess. It is not house style (002 left out the modern form when unsure), so I removed it everywhere. Where a modern form is certain I give it (marannedd, mwsgrell, cynhewi, darmerth, llopan, trosol, rhifedi, gomedd, weithian, didrahaus). Where it is not, I give the Middle Welsh lemma alone (tormynnawc, reudus, madws, didestyl, negessawl, keimat, goreugwr).
+
+No unit note needed changing: every disagreement was the glossary's fault. All 102 `t` still equal cut.json.
+
+Every novel-forms.json key (270) still has a non-empty entry. Every broadening still begins with the published entry, whole, followed by " · ".
+
+Counts, by table row: **18 major, 47 minor, 1 style**.
+
+### Changes — gloss.json
+
+| form | field | severity | what was wrong | what was done |
+|---|---|---|---|---|
+| uaranned | entry | major | Gave the lemma "baraned (obsolete)" and the mutation b > u. The radical is m- (the unit 4 note has maranned). | maranned (marannedd) 'wealth, stores', with m > u after holl. |
+| eistedyssont, eistedyssant, gyuodassant | entry | major | Called them 3 pl. pluperfects ('had sat', 'had risen'). -yssont/-assant is the 3 pl. preterite (the pluperfect is -assei/-assynt), as the unit 6 and 54 notes say. | Called 3 pl. preterite. gyuodassant now also notes the plural by sense (unit 54). |
+| gynted | entry | major | Gave 'porch, entrance' and said this "fits the context". The unit 9 note and i have 'upper end of the hall', the MW sense. | 'the upper end of a hall, where the lord sat'. The modern 'porch' is marked as later. |
+| uelly | entry | major | Gave the lemma "melly" and said "soft-mutated (m>u)". uelly is felly spelt with u for v, so there is no mutation. | uelly (felly), u = v, no mutation. |
+| neus | entry | major | Example glossed "you have indeed given it". rodes is 3 sg. (unit 16 note: 'he has given it'). | 'he has given it so'. |
+| uuscrellach | entry | major | Gave the lemma "buscrell (obsolete)", the mutation b > u and the meaning 'foolish'. The radical is m- (unit 20: muscrell 'feeble, inept'). | muscrell (mwsgrell) 'feeble, inept, slow', m > u as complement after ny bu. |
+| tormynnawc | entry | major | Gave 'turbulent, domineering' from an invented "tormyn 'tumult'". The unit 22 note gives the usual 'with a great host' and calls it uncertain. | Aligned with the note: disputed, usually 'with a great host, mighty'. |
+| derw, chan, yt | entry | major | Took derw as an adjective "true, certain" (and chan's example as "since it is true"). yt said "the construction is uncertain". The unit 22 note (pass 1) has derw = deryw, perfect of daruot. | derw: daruot, = deryw 'it has happened', with the Red Book's derw. chan and yt now use 'it has befallen you'. yt's lemma is now y 'to', conjugated. |
+| rot | entry | major | Gave "rhawd (obsolete here), probably 'company, host'", reading y rot a'th uarchogyon as 'the company and your horsemen'. It is y rwng conjugated, 2 sg. 'between you' (unit 36 note, l and i). | y rwng (rhwng), 2 sg. y rot 'between you', compared with y rof. |
+| eidawaf | entry | major | Gave "probably 'I allow, I grant'", an invented sense for eidaw. It did not mention the Red Book. | Aligned with the unit 39 note: uncertain, apparently 'I own (it)' from eidaw. The Red Book reads nyt adawaf (adaw 'allow'). |
+| chyuyt | entry | major | Called it present subjunctive. kyuyt is the 3 sg. present indicative (the subjunctive would be kyuotto). The unit 32 note agrees. | 3 sg. present, spirant after ony. |
+| geimat | entry | major | Gave the lemma as geimat itself (obsolete), with 'one who steps'. It did not give the radical, and the cause appeared only in passing. | keimat, softened after vocative A 'O'. Usually 'champion, warrior', disputed (unit 58). |
+| delei | entry | major | Called it 3 sg. imperfect. delei is the imperfect subjunctive (the indicative is deuei), as the unit 63 note says. | 3 sg. imperfect subjunctive. |
+| ueithon | entry | major | Gave "meaning uncertain … perhaps a form of mach 'surety', or a corrupt word". It is weithon 'now' (unit 81 note: 'now, at this point'). | weithon (weithian) 'now', gweith + hon, with u for w. |
+| weicheu | entry | major | Gave the cause of the mutation as "not clear, perhaps carried over from y Wawl", and the change as "m>f". | Soft (m > w for the v-sound) as the object of gouyn, separated from it (unit 81). Compare ueicheu. |
+| adawaf | entry | major | Gave the lemma gadu with "g lost by soft mutation after a". It is adaw 'leave' (unit 87 note), and a- is its radical. | adaw (gadael) 'leave; promise', with no mutation. |
+| ommed, ommedwyt | entry | major | Gave the lemma "ommed (obsolete)", with na ommed taken as an impersonal "let … be refused". It is gommed (gomedd); na ommed is the 2 sg. negative imperative 'do not refuse' (unit 94), and ommedwyt is impersonal preterite after ny (unit 97). | gommed (gomedd). The g is lost after na and after ny. |
+| y (broaden) | entry | major | The new reading gave y am hynny as 'concerning that' (units 6 and 90: 'around that, besides'). It also missed y 'their' (for eu, unmutated), which this part uses in y bot (unit 47) and y kymryt (unit 82). | Old entry kept whole. (9) is corrected and (10) 'their' is added. |
+| trossei | entry | minor | Gave the lemma "trosi (trosi)". | trossi (trosi), a verb beside troi, aligned with unit 2. |
+| odyna | entry | minor | "o + dyna". | od 'from' + yna; modern oddi yna, oddyna. |
+| gwineu | entry | minor | Gave 'dark brown, dark-haired', against the note and i ('auburn'). | 'auburn, chestnut-brown (of hair)'. |
+| dodwyf | entry | minor | Gave "built on the stem dod- with wyf", with no tense. | Old 1 sg. perfect 'I have come', beside deuthum; the Red Book agrees. |
+| darmerth, kynhewi | entry | minor | Tagged obsolete, with the meaning "not certain". Both are known words. | darmerth (darmerth) 'preparation, provision'; kynhewi (cynhewi) 'fall silent'. |
+| got | entry | minor | The cause in got uechan was garbled ("as a feminine noun after the verb … as its object"). | Soft as the object separated from its verb (i'th law intervenes). |
+| uechan | entry | minor | Did not give the feminine form bechan. | Feminine bechan, softened after a feminine noun. |
+| perllan | entry | minor | Said "base form" and nothing more. | Says the expected y berllan is not written here. |
+| reudus, didestyl, madws, negessawl, didraha, riuedi, oreugwyr | entry | minor | Tagged "(obsolete)". madws also had 'preferable', and didraha had 'easy to grant', against the notes. | Tag removed. Meanings aligned with the notes (madws 'it is time, it is fitting'; didraha 'without arrogance, modest'; riuedi (rhifedi) 'number'). Uncertain words are still called uncertain. |
+| lloneit | entry | minor | Gave the modern form as llond only. | llonaid, llond. |
+| dottit | entry | minor | "tt for t" misdescribed the form. | Ending -hit, d + h > tt (unit 30). |
+| bydei | entry | minor | Gave "imperfect/conditional". | Habitual imperfect (modern byddai), as unit 30. |
+| sseghi | entry | minor | Called it "a slip … with the n dropped". It is not in the log; the unit 33 note has g for the ng sound. | Spelling with ss and g for ng, not a slip. |
+| glwm | entry | minor | Gave "object of the verbal noun llad". The unit 35 note has llad as the imperative. | Object directly after the imperative. |
+| rwymedic | entry | minor | Gave the verb as "rwymo". The MW form is rwymaw. It did not mention yn. | rwymaw (rhwymo); rh- unsoftened after predicative yn. |
+| annwn | entry | minor | Gave "the otherworld", a rendering the house rules avoid. | 'Annwfn, the realm of Arawn'; Penn Annwn 'Head of Annwfn'. Gives the spelling contrast and the Red Book's Annwuyn. |
+| ymdanw | entry | minor | Gave no witness. | Kept as written; the Red Book has ymdanaw. |
+| lloppaneu, loppaneu | entry | minor | Gave "lloppan (obsolete)", 'clout', meaning uncertain. | lloppan (llopan) 'rough boot, shapeless footwear', as unit 46. |
+| draet | entry | minor | Mixed MW and modern ("plural traed"). | Plural traet (traed). |
+| ro | entry | minor | Said "soft after the optative a". r- shows no mutation. | Says no mutation shows. |
+| archaf | entry | minor | Said "spelt with a (a-affection)". The a is the stem vowel, and erchi has the affected e. | Corrected. |
+| sswydwyr | entry | minor | Gave a modern lemma with the modern equivalent "swyddog". | swydwr (swyddwr), plural swydwyr, ss for s. |
+| carchar | entry | minor | Gave 'in his own prison' with no doubt. | Says y garchar would be expected (as in the Red Book) and the reading is uncertain (unit 61). |
+| yspeil | entry | minor | Gave only 'spoil, booty'. The note and i have 'gear'. | Adds 'gear, garments'. |
+| throssawl | entry | minor | Gave "trosawl (obsolete)", meaning guessed. | trossawl (trosol) 'bar, stave, cudgel'. |
+| dihenyd, dihenyt | entry | minor | Gave 'death penalty', and examples that did not match l and i. dihenyt said "oed 'was' understood"; the sentence has no verb and is present. | 'end, death, the death a man deserves'. Examples now match units 69–70. |
+| euey, hyny | entry | minor | Gave no witness, and hyny was not said to be kept as written. | Adds the Red Book's eveyd hen and hynny. Both are kept as written. |
+| perthyn | entry | minor | Called it "impersonal". | 3 sg. present, in perthyn ar 'be the duty of'. |
+| uydwn | entry | minor | Gave "1 pl. future/imperfect". | 1 pl. future. |
+| dylyer | entry | minor | Gave "impersonal present … modern dylid". | Impersonal present subjunctive, as unit 82. |
+| ennein | entry | minor | Gave 'ointment, salve' only. l and i have 'bath'. | 'bath; also ointment'. |
+| ouynno | entry | minor | Gave the cause as "after relative a". The softening is after the infixed 'th. | After the infixed 'th. |
+| paub | entry | minor | Said "b for w". | u for w. |
+| digriuwch | entry | minor | Gave the modern form "difyrrwch". | digrifwch; meaning 'amusement, pleasure', as the house table has it. |
+| lonydu, llonydu | entry | minor | Said "no clear softening word", and used the modern lemma. | Soft as the object of dechreu (unit 94). MW lemma llonydu (llonyddu). |
+| llonydit | entry | minor | Called it impersonal imperfect subjunctive. | Impersonal imperfect, as unit 96. |
+| rwydhao | entry | minor | Gave rwydhau as the radical. | rhwydhau, softened (rh > r) after a. |
+| ui (broaden, tentative) | entry | minor | "probably emphatic 'I' … 'I cannot (act) against what you ever say'; uncertain". This contradicts the unit 23 idiom, and the entry missed mi ui (unit 27). | Old entry kept. New reading: softened 'I' after a verb, 'I cannot bring myself to do what you say'; and the emphatic mi ui 'I myself'. |
+| yny (broaden) | entry | minor | Gave "behold the household", a rendering the house rules avoid, and no witness. | 'warband'. Kept as written; the Red Book has ar hynny. |
+| uuwyt, treulwyt, wnaethpwyt, wnaethpwyd, gollyngwyt, rydhawyt, guarywyt, dreulwyt | entry | style | Labelled "3 sg. impersonal" (the impersonal has no person), and uuwyt as 'there was'. | "impersonal preterite"; uuwyt 'it was (been)'. |
+
+### Broadenings checked
+All 23 are needed: each covers a sense or use this part has that the published entry lacks. All 23 keep the published entry whole, followed by " · ".
+
+The tentative ones:
+- **ymgueiraw** ('make oneself ready' with ar, sense uncertain): kept. It is honest and fits unit 3.
+- **y am**: corrected to 'around that, besides' (see the y row above).
+- **ui**: rewritten (see the ui row above).
+
+### Considered and refused
+- **Published-glossary entries carrying "3 sg. impersonal"** (gelwit, gyweirwyt): not mine to change in this pass. They are recorded here for the owner.
+- **Example phrases in parentheses**: they are the published house practice (002 and the work glossary). Each entry's meaning and grammar are stated generally, and the example only illustrates. Kept.
+- **diskynnent lemma "disgyn"**: the MW verbal noun is diskynnu or discyn, and the modern disgyn is a fair lemma. Kept.
+- **ammouyn lemma ymouyn (ymofyn)**: amouyn and ymouyn are by-forms. Kept.
+- **llef "noun f."** and **enryded "noun f."**: gender varies in the sources. Not worth a claim either way. Kept.
+- **wedy "no clear softening word"**: gwedy is often written wedy with no mutating word before it. The entry is honest. Kept.
+- **derw as an adjective 'true'**: I considered whether a separate adjective lies behind derw. The construction with yt and a verbal noun fits deryw 'it has befallen', and the Red Book writes the same. I kept the pass-1 reading and did not add the adjective as an alternative I cannot support.

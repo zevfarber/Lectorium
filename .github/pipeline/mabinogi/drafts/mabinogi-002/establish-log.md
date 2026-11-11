@@ -39,3 +39,6 @@ filler mark after "amser" (col 16 l. 27) and Evans's suspension/underline marks 
 - "pei ass archut" — Evans "affarchut" divided as the witness does (infixed *-s* 'it', doubled).
 - Paragraphs: five scene changes (first sighting; next morning; second sighting; third morning; third sighting and
   the meeting), and the meeting with Rhiannon set off as a sixth.
+
+## Added at drafting (2026-11-11, review pass 1)
+- col 16 — Evans prints **"pei wyaf y lladei"**: one letter short of *uwyaf* (cf. "ffei uwyaf" earlier; Red Book *vwyhaf*). A readable slip, kept as written; the note says so.

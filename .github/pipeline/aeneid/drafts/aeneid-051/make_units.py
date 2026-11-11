@@ -1,0 +1,238 @@
+import sys, os
+HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, '..', '..')); sys.path.insert(0, os.path.join(HERE, '..', '..', '..', '..'))
+import aeneid_lib as A
+# aeneid-051 draft. Drafted from the Latin and grammar only. t is cut from the edition, never typed.
+TITLE = 'Oratio Latini. Ilioneus. Dona regis'
+TITLE_EN = "The Embassy to Latinus — Aeneid VII.195–285"
+PART = "The Embassy to Latinus (VII.195–285)"
+ABOUT = """King Latinus, enthroned in the hall of Picus, speaks first. He knows who the Trojans are, and asks what they want: if storm or a mistake of course has brought them into the river, they should not shun his hospitality, for the Latins are the people of Saturn, just of their own will and not by force of law. He recalls an old story of the Aurunci, that Dardanus, the founder of the Trojan line, was born in Italy, set out from Corythus in Etruria for Phrygia and Samothrace, and is now a god in heaven. Ilioneus answers for the envoys. No storm and no error brought them: they have come by design, exiles from the greatest kingdom the Sun ever saw. Their race and their king Aeneas descend from Jupiter; the whole world has heard of the war that swept Troy away. They ask only a small home for their gods, a harmless strip of shore, and the water and air that are free to all. They will be no disgrace to Latium, and many nations have sought their alliance, but the gods' commands have brought them here: Dardanus came from this land, and Apollo calls his people back to the Tiber and the Numicus. He presents Aeneas's gifts, relics saved from burning Troy: Anchises's golden cup and Priam's sceptre, tiara and robes. Latinus stands long in thought, moved less by the gifts than by his daughter's marriage and the oracle of his father Faunus, which foretold a son-in-law from abroad whose descendants would rule the world. Then, glad, he grants what they ask, invites Aeneas to come and take his hand in friendship, and tells them of his daughter, whom oracles and portents forbid him to marry to a Latin: he believes Aeneas is the man the fates intend. He gives each of the hundred envoys a horse from his stables, caparisoned in purple and gold, and sends Aeneas a chariot and a pair of fire-breathing horses of the breed Circe stole from her father the Sun. The envoys ride home bringing peace."""
+U = [
+(197, 'petitis ?',
+ """“Tell me, Dardanians (for we are not unaware either of your city
+or of your race, and, heard of already, you turn your course here over the sea),
+what do you seek?""",
+ """“Tell me, sons of Dardanus — for your city and your race are not unknown to us, and your fame came before you as you steered your course here over the sea — what is it you seek?""",
+ """The print has 'quid petitis ? Quae', with a space before the question mark, a misprint for 'quid petitis? Quae', corrected here; t keeps the print, because t must match the pinned source. Only the spacing is affected. A new paragraph in Greenough, and Latinus's speech opens. 'Dardanidae', 'descendants of Dardanus', is a patronymic for the Trojans; it prepares for the story of Dardanus at 206. 'Neque enim nescimus' is a double negative, 'for we are not ignorant', that is, 'we know well' (litotes), with 'et urbem et genus', 'both city and race'. 'Auditi' is 'heard of', 'known by report', agreeing with the subject of 'advertitis', 'you turn (your course here)'; 'aequore' is 'over the sea', ablative of the way. Dido welcomed them in the same spirit: 'quis Troiae nesciat urbem?' (1.565)."""),
+(198, 'vexit?',
+ """What cause your ships, or in need of what,
+to the Ausonian shore over so many dark-blue waters has carried?""",
+ """What cause, what need has carried your ships over so many leagues of blue water to the shores of Ausonia?""",
+ """'Rates' is properly 'rafts', in verse simply 'ships'; 'egentis' is the '-is' accusative plural agreeing with it, 'needing what?', 'egeo' taking the genitive 'cuius'. Two questions are folded into one clause with the single verb 'vexit', 'has carried'. 'Litus ad Ausonium' sets the preposition between adjective and noun, a common order in verse. Ausonia, named from the Ausones, an old people of southern Italy, is a poetic name for Italy. 'Vada' is properly 'shallows', here simply 'waters'; 'caerula', 'dark blue'."""),
+(201, 'sedetis,',
+ """Whether by mistake of the way or by storms driven,
+such as, many of them, on the sea sailors suffer on the deep,
+of the river you have entered the banks and in the harbour you sit,""",
+ """Whether you lost your way or were driven by storms, such as sailors often suffer out on the open sea, and so have entered the river's banks and lie at rest in its harbour,""",
+ """'Sive… seu' is 'whether… or'; 'acti', 'driven', agrees with the understood 'you'. 'Qualia multa' is 'such things as, many of them', pointing loosely back to errors and storms: 'qualia' is the object of 'patiuntur'. 'Mari… in alto', 'on the deep sea', frames 'nautae patiuntur'. 'Intrastis' is the shortened perfect for 'intravistis', 'you have entered'. 'Portu… sedetis' is 'you sit in harbour', your ships lie at rest there. Latinus offers the strangers a courteous excuse for landing uninvited; Ilioneus will decline it (213–215). The sentence runs on: the main verbs come in the next line."""),
+(204, 'tenentem.',
+ """do not flee our hospitality and do not misjudge the Latins,
+Saturn's race, not by bond nor by laws just,
+of its own will, and by the custom of the old god holding itself.""",
+ """do not shun our hospitality, and do not mistake the Latins: we are Saturn's people, just not because chains or laws compel us, but of our own free will, keeping to the ways of the ancient god.""",
+ """'Ne fugite… neve ignorate' are prohibitions with 'ne' and the imperative, an old and poetic construction (prose prefers 'noli' with the infinitive). 'Ignorate' is 'fail to know', 'misjudge' what kind of people the Latins are. 'Saturni gentem' is in apposition to 'Latinos'. Saturn, driven from heaven by Jupiter, was said to have reigned in Latium in the Golden Age, when men were just without compulsion; Evander tells the story in Book VIII (8.319–325). 'Haud vinclo nec legibus', 'not by bond nor by statutes'; 'vinclo' is the shortened form of 'vinculo'. 'Sponte sua', 'of its own will'; 'se… tenentem', 'holding itself (in check)'. Ovid's Golden Age keeps faith in the same words, 'sponte sua, sine lege' (Metamorphoses 1.90)."""),
+(208, 'fertur.',
+ """And indeed I remember (the report is rather dim with years)
+the Auruncan old men telling it thus: how, sprung from these fields,
+Dardanus to the Idaean cities of Phrygia made his way
+and to Thracian Samos, which now is called Samothrace.""",
+ """And indeed I remember — though the story has grown dim with the years — that the old men of the Aurunci used to tell how Dardanus, born in these lands, made his way to the cities of Ida in Phrygia and to Thracian Samos, which is now called Samothrace.""",
+ """'Equidem' is 'for my part', 'indeed'. 'Obscurior annis' is 'rather dim through the years', the comparative meaning 'somewhat'. 'Auruncos… ferre senes' is accusative and infinitive after 'memini', 'I remember the Auruncan elders telling'; the Aurunci were an ancient people on Latium's southern border. 'Ut' is 'how'; 'penetravit' is indicative where the indirect question would normally have the subjunctive, and the Latin Library prints 'penetrarit'; the sense is the same. 'His ortus… agris', 'sprung from these fields', frames the clause. Dardanus, son of Jupiter and ancestor of the Trojan kings, was usually said to have come from Arcadia or Samothrace; Virgil makes him an Italian, as the Penates told Aeneas (3.167). Samothrace is 'Thracian Samos', to tell it from Ionian Samos."""),
+(211, 'auget.”',
+ """From here him, from Corythus's Tyrrhenian seat having set out,
+now the golden, on a throne, palace of the starry sky
+receives, and the number of the gods by his altars he increases.”""",
+ """Setting out from here, from Corythus, his Tuscan home, he is now received on a throne in the golden palace of the starry heaven, and with altars of his own he adds to the number of the gods.”""",
+ """'Hinc' is 'from here', from Italy. 'Illum… profectum', 'him, having set out', is the object of 'accipit', 'receives'; 'Tyrrhena ab sede' sets the preposition after the adjective. Corythus is a town of Etruria, usually taken to be Cortona, named in some accounts after its founder, Dardanus's mortal father; Aeneas heard the name in the Penates' message (3.170). 'Aurea… regia', 'the golden palace', frames the line, with 'solio', 'on a throne', ablative of place. 'Numerum divorum… auget' is 'he increases the number of the gods', 'altaribus', 'by (receiving) altars': he is worshipped as a god. 'Divorum' is the full genitive plural, where Greenough often prints the old 'divom'. Latinus's speech ends here."""),
+(212, 'secutus:',
+ """He had spoken, and the words Ilioneus thus with his voice followed:""",
+ """He had finished, and Ilioneus answered his words in this way:""",
+ """A new paragraph in Greenough. 'Dixerat', 'he had spoken', is the pluperfect that so often closes a speech. 'Dicta… secutus', 'following the words', has 'est' left out: Ilioneus takes up Latinus's points in turn. He is the eldest of the envoys and the spokesman who pleaded with Dido in Book I (1.521–558); this speech has the same shape: who we are, why we have come, what we ask, who our king is. 'Ilioneus' is a Greek name; its last syllable is the diphthong 'eu'."""),
+(215, 'fefellit:',
+ """“King, outstanding offspring of Faunus, neither, by the waves driven,
+has a black storm forced us your lands to approach,
+nor has a star, from the line of our way, or a shore deceived us:""",
+ """“King, noble son of Faunus, no black storm drove us before the waves and forced us to land on your shores, nor did any star or coastline lead us astray from our course:""",
+ """Ilioneus's speech opens. 'Genus… Fauni' is 'offspring of Faunus', 'genus' used of a single descendant; Latinus is Faunus's son (7.47–48). Ilioneus answers Latinus's two excuses (199) in order: not storm, not error. 'Actos' agrees with an understood 'nos', 'us, driven by the waves'. 'Hiemps' is Greenough's spelling of 'hiems', 'winter', here 'storm'. 'Subegit… succedere' is 'forced (us) to approach', an infinitive after a verb of compelling, a poetic construction; 'terris' is dative with 'succedere'. 'Sidus' is the star the steersman sails by; 'regione viae', 'from the line of our way', is an ablative of separation with 'fefellit', 'deceived', 'led astray'. '-ve' is 'or'."""),
+(218, 'Olympo.',
+ """by design to this, all of us, and with willing hearts, city,
+we are brought, driven from a kingdom, which, the greatest, once
+coming from farthest Olympus the Sun looked upon.""",
+ """It was by design, all of us of our own free will, that we have come to this city, driven from a kingdom once the greatest that the Sun beheld as he rose from the farthest edge of heaven.""",
+ """'Consilio… animisque volentibus', 'by design and with willing minds', are ablatives of manner. 'Hanc… urbem', 'to this city', frames the line, an accusative of the goal of motion without a preposition, a poetic usage. Greenough prints a comma after 'urbem', which parts the verb from its goal; it may be the heavy punctuation of his day, setting off the long phrase before the verb, or a slip. Because it is doubtful, it is not treated as a misprint: t keeps it, and l and i read straight through. 'Adferimur', 'we are borne', 'we come', is Greenough's spelling of 'afferimur'. 'Regnis' is a poetic plural, 'kingdom', the antecedent of 'quae… maxima', 'which, the greatest'. 'Extremo… Olympo' frames 'veniens Sol': 'the Sun coming from the edge of the sky' ('Olympus' = heaven), from the furthest east."""),
+(221, 'misit.',
+ """From Jove is the beginning of our race; in Jove the Dardan youth
+rejoices as forefather; our king himself, of Jove's highest race,
+Trojan Aeneas, to your threshold has sent us.""",
+ """Our race begins from Jupiter; in Jupiter as ancestor the young men of Dardanus's line take pride; and our king himself, of the highest stock of Jupiter, Trojan Aeneas, has sent us to your door.""",
+ """Three clauses built on Jupiter's name in three cases ('Iove… Iove… Iovis'), repetition with change of case (polyptoton) to press the claim. The first clause has no verb, '(est)' understood. 'Iove… gaudet avo' is 'rejoices in Jupiter as ancestor', an ablative with 'gaudeo'. Dardanus was Jupiter's son by Electra; Aeneas descends from Jupiter twice, through Dardanus and through his mother Venus, Jupiter's daughter, hence 'de gente suprema', 'of the highest stock'. 'Pubes' is 'the young men', the fighting strength of a people. 'Tua… ad limina' sets the preposition inside the phrase; 'limina', 'threshold', is a poetic plural for 'house'. 'Troius' is three syllables, 'Tro-i-us'."""),
+(224, 'orbis,',
+ """How great, over the Idaean, from savage Mycenae poured out,
+a storm went plains, by what fates driven each
+world, of Europe and of Asia, clashed,""",
+ """How great a storm burst from savage Mycenae and swept across the plains of Ida, by what fates the two worlds of Europe and Asia were driven to collide,""",
+ """Two indirect questions, the object of 'audiit' in the next line: 'quanta… tempestas ierit', 'how great a storm went', and 'quibus… fatis… concurrerit', 'by what fates… clashed'; both verbs are perfect subjunctive. The storm is the Trojan War, a Greek host 'poured out' ('effusa') from Mycenae, Agamemnon's city, over the plains beneath Mount Ida. 'Quanta… tempestas' and 'Idaeos… campos' interlock, and 'uterque… orbis', 'each world', is split across the line-end; Europe and Asia are the two continents, Greece and Troy standing for them. 'Actus', 'driven', agrees with 'orbis'. The sentence runs on."""),
+(227, 'iniqui.',
+ """has heard it, even he, if any, whom the farthest land, by the back-flowing
+keeps remote Ocean, and he, if any, whom, stretched among the zones,
+four, in the middle, cuts off the zone of the cruel sun.""",
+ """all this has been heard even by any man whom the remotest land keeps far away beside the ever-returning Ocean, and by any whom the zone of the pitiless sun, stretched out in the midst of the other four, cuts off from the rest of mankind.""",
+ """'Audiit' is 'audivit', 'has heard'; its subject is the 'quis' in 'siquem': '(is) audiit, siquem…', 'he has heard, if there is anyone whom…'. 'Siquem' is Greenough's one-word printing of 'si quem', 'if… anyone'; 'et' is 'even'. Ocean was the river that encircles the earth and flows back into itself ('refuso'), Homer's 'backward-flowing' Ocean; 'tellus extrema… summovet' is 'the furthest land keeps (him) remote'. The globe was divided into five zones, as the Georgics describes (1.233 and after): two frozen, two temperate, and the torrid zone between, 'in the middle of the four'; 'solis iniqui' is 'of the hostile sun'. 'Dirimit', 'separates'. The fame of Troy has reached the ends of the world."""),
+(230, 'patentem.',
+ """Since that deluge, over so many vast seas carried,
+for our gods a small seat, our fathers' gods, and a shore we ask,
+harmless, and, to all, both water and air lying open.""",
+ """Since that deluge we have been carried over so many vast seas, and now we ask a modest dwelling for the gods of our fathers, a shore where we shall do no harm, and the water and the air that lie open to all.""",
+ """'Diluvio ex illo', 'since that flood', carries the storm image on: the war swept Troy away. 'Vecti', 'carried', agrees with the subject 'we'. 'Dis… patriis', 'for our ancestral gods', the Penates, frames 'sedem exiguam', 'a small seat'; 'dis' is the dative plural of 'deus'. 'Innocuum' is 'harmless': a shore where the Trojans will hurt no one. 'Undamque auramque', the double '-que', 'both water and air', are the things nature gives to all ('cunctis… patentem', 'open to all'), a request no one could rightly refuse. The modest plea is pointed after the boast of Troy's greatness."""),
+(233, 'pigebit.',
+ """We shall not be to your kingdom unbecoming, nor will your
+fame be reported light, nor of so great a deed will the gratitude fade,
+nor that Troy the Ausonians in their bosom received will they regret.""",
+ """We shall bring no discredit on your kingdom; your fame will not be lightly spoken of, our gratitude for so great a kindness will never fade, and the Ausonians will never regret that they took Troy to their bosom.""",
+ """'Regno' is dative with 'indecores', 'unbecoming to your kingdom', a disgrace to it. 'Vestra… fama' is split by the line-end; 'feretur… levis' is 'will be spoken of as light', made little of. 'Abolescet', 'will fade away', is an inceptive verb (the '-sco' ending marks a process). 'Tanti… facti', 'for so great a deed', is an objective genitive with 'gratia'. 'Pigebit' is impersonal, 'it will irk', with the persons in the accusative, 'Ausonios'; its subject is the infinitive 'Troiam… excepisse', 'to have received Troy', the city standing for its people. 'Gremio', 'in the lap', 'to the bosom', is the language of a mother taking up a child. Three negatives understate a large promise (litotes)."""),
+(235, 'armis:',
+ """By the fates of Aeneas I swear, and by his right hand, mighty
+whether in good faith or if anyone has tried it in war and arms:""",
+ """I swear by the destiny of Aeneas and by his strong right hand, proved by any who has tried it, whether in friendship and good faith or in war and battle:""",
+ """'Fata per Aeneae' is 'per fata Aeneae', 'by the fates of Aeneas', the preposition of oath set after its first word, a poetic order. The right hand is both the pledge of faith and the arm of war, and the second line plays on both: 'sive fide seu… bello… et armis', 'whether in good faith or in war and arms'. 'Quis' is the indefinite 'anyone', as regularly after 'si' and its compounds; 'est expertus', 'has tried'. Ilioneus said the same of Aeneas to Dido: no one was greater 'nec pietate… nec bello… et armis' (1.544–545). The colon introduces what he swears to."""),
+(238, 'gentes;',
+ """many us, peoples, many (do not scorn us because, unasked,
+we hold out in our hands fillets and words of prayer)
+both have sought for themselves and have wished to join to themselves, nations;""",
+ """many peoples, many nations — do not despise us because we come of our own accord with suppliants' fillets in our hands and words of entreaty — have sought us out and wished to unite us with themselves;""",
+ """'Multi… populi, multae… gentes' frames the sentence, the repeated 'multi… multae' (anaphora) broken by a parenthesis. 'Ne temne' is 'do not despise', 'ne' with the imperative, as Latinus's 'ne fugite' (202). 'Quod' is 'because'; 'ultro', 'unbidden', 'of our own accord'. 'Vittae' are woollen fillets, wound on the olive branches suppliants carried (154). 'Petiere' and 'voluere' are the familiar '-ere' for '-erunt'. 'Sibi', 'for themselves', goes with both verbs; 'nos' is the object of 'petiere' and of 'adiungere', 'to join (us) to them'. Ilioneus may be thinking of Dido's offer to share her city (1.572–574) and of Acestes in Sicily."""),
+(240, 'suis.',
+ """but us the fates of the gods your to seek out lands
+by their commands drove.""",
+ """but the destiny of the gods has driven us by its commands to seek out your land.""",
+ """'Deum' is the old genitive plural, 'of the gods'; 'egere' is 'egerunt', 'drove'. 'Exquirere' is an infinitive after a verb of compelling, as 'subegit… succedere' (214). The verb recalls Apollo's oracle on Delos, 'antiquam exquirite matrem', 'seek out your ancient mother' (3.96), a riddle the Trojans first misread as Crete. 'Vestras… terras' frames the infinitive; 'imperiis… suis', 'by their own commands'."""),
+(240, 'ortus;',
+ """From here Dardanus sprang;""",
+ """From here Dardanus came;""",
+ """Three words that turn Latinus's own story (206–209) into the Trojans' claim: 'hinc', 'from here', from Italy. They are the words of the Penates in Aeneas's dream, 'hinc Dardanus ortus' (3.167). 'Ortus' is 'ortus est', 'arose', 'sprang', with 'est' left out."""),
+(242, 'Numici.',
+ """hither calls us back, and with mighty commands presses us, Apollo,
+to Tyrrhenian Tiber and to the spring's sacred shallows, of Numicus.""",
+ """back to this place Apollo summons us, and drives us on with his mighty commands, to the Tuscan Tiber and the holy waters of the spring of Numicus.""",
+ """'Huc', 'to here', answers 'hinc': Dardanus went out from Italy, and his descendants are called back. 'Repetit' is 'seeks back', 'reclaims', with 'nos' understood; 'urguet' is Greenough's spelling of 'urget', 'presses', 'drives on'. Apollo, the subject of both verbs, is held back to the end of the line; 'iussis… ingentibus', 'with mighty commands', are his oracles in Book III. The Tiber is 'Tyrrhenian', Etruscan, because Etruria lies along its right bank. 'Fontis… Numici' frames 'vada sacra', 'the sacred shallows of the spring of Numicus', the small river near the coast the Trojans found on their first morning (150); in Roman legend Aeneas's life ended by its waters."""),
+(244, 'receptas.',
+ """He gives you besides, of his fortune, small, former,
+gifts, relics from Troy burning recovered.""",
+ """He gives you, besides, these small gifts from his former fortune, relics rescued from the flames of Troy.""",
+ """The subject of 'dat' is Aeneas. 'Fortunae… prioris', 'of his former fortune', frames 'parva', and 'parva… munera', 'small gifts', runs over the line-end. 'Reliquias', 'remains', 'relics', is in apposition; its first syllable is long, as if 'relliquias', which is how Virgil always uses the word. 'Troia ex ardente' sets the preposition inside the phrase; 'receptas' is 'recovered', 'saved'. The gifts are modest in the giver's words and royal in fact, Priam's own regalia; Aeneas gave Dido gifts saved from Troy as well (1.647–655)."""),
+(245, 'aras;',
+ """With this father Anchises gold used to pour libations at the altars;""",
+ """With this gold our father Anchises used to pour libations at the altars;""",
+ """'Hoc… auro', 'with this gold', frames the line and means a golden bowl, the material for the thing made from it. 'Libabat', imperfect, is 'used to pour offerings', a regular rite. 'Pater Anchises', 'father Anchises', is his standing title in the poem, a mark of honour as well as kinship. He died at Drepanum in Sicily at the end of Book III (3.707–711)."""),
+(248, 'vestes.”',
+ """this was Priam's thing to wear, when laws to the summoned
+in due custom he gave peoples, both the sceptre and the sacred tiara
+and, the work of Ilian women, the robes.”""",
+ """this was what Priam wore when, as the custom was, he summoned his peoples and gave them judgment: this sceptre, the sacred tiara, and the robes woven by the women of Troy.”""",
+ """'Hoc… gestamen erat' is 'this was what Priam bore', 'gestamen' being anything carried or worn; 'hoc' agrees with it and points to the three things named after. 'Iura… daret' is 'gave judgments', 'dispensed justice', subjunctive in a 'cum' clause; 'vocatis… populis', 'to the peoples summoned', frames 'more', 'by custom'. 'Tiaras' is a Greek nominative, 'tiara', the high cap of eastern kings. 'Iliadum' is 'of the Trojan women' (Greek 'Iliades'), and 'labor' stands in apposition to 'vestes', 'robes, the work of…'. The '-que… -que… -que' builds the list. Line 248 is a half-line, one of those Virgil left unfinished. Ilioneus's speech ends here."""),
+(251, 'oculos.',
+ """At such of Ilioneus words, fixed, Latinus
+in a gaze holds his face, and to the ground motionless he clings,
+intent turning his eyes.""",
+ """At these words of Ilioneus, Latinus keeps his face fixed in a steady gaze; he stands rooted to the ground without moving, his intent eyes turning.""",
+ """A new paragraph in Greenough. 'Talibus… dictis', 'at such words', frames 'Ilionei', the genitive of 'Ilioneus'. 'Defixa… ora', 'his face fixed', with 'obtutu', 'in a gaze', an ablative of manner: he stares, deep in thought. 'Solo… haeret' is 'clings to the ground', 'stands rooted'; 'immobilis', 'without moving'. 'Volvens oculos', 'rolling his eyes', is the restless look of a man thinking hard, set against his still body. He is not looking at the gifts: the next lines say what holds him. Historic presents carry the scene."""),
+(254, 'sortem,',
+ """Nor the purple the king,
+embroidered, moves, nor do the sceptres move him, Priam's, so much
+as on the marriage of his daughter and her bridal chamber he lingers,
+and of old Faunus turns over beneath his breast the oracle,""",
+ """Neither the embroidered purple nor Priam's sceptre moves the king so much as his thoughts linger on his daughter's marriage and her bridal bed, and he turns over in his heart the oracle of old Faunus,""",
+ """The print has 'voluit', a misprint for 'volvit', corrected here; t keeps the print, because t must match the pinned source. 'Voluit' would be the perfect of 'volo', 'wished', which makes no sense with 'sortem'; 'volvit… sortem' is 'turns over the oracle', as 'volvens' (251). The Latin Library writes 'u' for 'v' and cannot decide. 'Picta… purpura', 'embroidered purple', are the robes; 'sceptra… Priameia', 'Priam's sceptre', is a poetic plural. 'Tantum, quantum', 'so much… as': the gifts weigh less than the thought that 'moratur', 'lingers', on his daughter's 'conubio' and 'thalamo', 'wedding' and 'bridal chamber'. 'Sortem' is the oracle Faunus gave him at Albunea (96–101), forbidding a Latin marriage. The comma looks ahead: the next lines give the oracle's content."""),
+(258, 'orbem.',
+ """that this was the one, by the fates, from a foreign seat having set out,
+who was foretold as son-in-law, and to the kingdom with equal called
+auspices; that to him there would be offspring in valour
+outstanding, and one which the whole by its strength should seize, world.""",
+ """that this was the man, come from a foreign home, whom the fates foretold as his son-in-law, called to share his kingdom with equal authority; from him would spring descendants outstanding in valour, whose might would take possession of the whole world.""",
+ """Accusative and infinitive: the oracle as Latinus now reads it. 'Hunc illum' is 'this (man) was that (one)', the man of the prophecy, as 'haec erat illa fames' at 128. 'Externa ab sede profectum', 'set out from a foreign seat', repeats the words used of Dardanus at 209, 'Tyrrhena ab sede profectum': the stranger is a homecomer. 'Portendi' and 'vocari' are present passive infinitives, 'was foretold', 'was called'. 'Paribus… auspiciis', 'with equal auspices', is a Roman term: the right to take the auspices went with the right to command, so he is to share the throne. 'Huic… futuram (esse)' is a dative of possession, 'he would have'. 'Quae… occupet' is subjunctive in a relative clause of reported speech, 'which should take possession of'. 'Totum… orbem' frames the line."""),
+(260, 'suum;',
+ """At last, glad, he says: “May the gods our undertakings prosper
+and their own augury;""",
+ """At last he spoke with joy: “May the gods bring our beginnings, and their own omen, to a good end;""",
+ """The print has 'tandem' with a small letter after the full stop at the end of 258, a misprint for 'Tandem', corrected here; t keeps the print, because t must match the pinned source; l and i begin with a capital. 'Laetus', 'glad', is an adjective where English uses an adverb. 'Di' is the nominative plural of 'deus'. 'Secundent' is a subjunctive of wish, 'may (the gods) favour', 'prosper', from 'secundus', 'following', 'favourable'. 'Auguriumque suum', 'and their own augury': let the gods fulfil the signs they themselves have sent. Latinus's speech opens here and runs to 273."""),
+(261, 'sperno.',
+ """it shall be given, Trojan, what you desire,
+and your gifts I do not spurn.""",
+ """what you desire, Trojan, shall be granted, and I do not scorn your gifts.""",
+ """'Dabitur', 'it will be given', is impersonal, its subject the clause 'quod optas', 'what you desire'. 'Troiane' is vocative singular, to Ilioneus as spokesman. 'Munera nec sperno' is 'nec munera sperno', 'nor do I spurn the gifts', the 'nec' set late as verse allows."""),
+(262, 'deerit.',
+ """Not to you, while Latinus is king,
+of a rich field the fruitfulness, or Troy's opulence, will be lacking.""",
+ """While Latinus is king, you will not lack the plenty of a rich land, nor wealth to match Troy's.""",
+ """'Rege Latino' is an ablative absolute, 'Latinus being king', 'while I reign'; the king speaks of himself in the third person, with royal weight. 'Vobis' is dative with 'deerit', 'will be wanting to you'. 'Uber' is here the noun, 'richness', 'fertility', literally 'udder'; 'divitis… agri', 'of a rich field'. 'Troiae… opulentia', 'the wealth of Troy', means wealth such as you had at Troy. 'Deerit' scans as two syllables, the two e's run together (synizesis). '-ve' is 'or'."""),
+(265, 'amicos:',
+ """Himself only let Aeneas, if of us so great a desire there is,
+if to be joined in guest-friendship he hastens and an ally to be called,
+come, and let him not dread faces friendly:""",
+ """Only let Aeneas himself, if he so longs for us, if he is eager to be joined to us in friendship and called our ally, come in person, and not shrink from friendly faces:""",
+ """'Modo' is 'only', with the jussive subjunctives 'adveniat', 'let him come', and 'neve exhorrescat', 'and let him not dread'. 'Nostri' is the objective genitive of 'nos', 'a desire for us'. 'Hospitium' is the formal bond of guest-friendship between houses or peoples; 'socius', 'ally', is the language of treaties. 'Voltus' is Greenough's old spelling of 'vultus', 'faces', accusative plural; 'voltus… amicos' frames 'neve exhorrescat'. The double 'si… si' (anaphora) is courteous: Latinus wants the leader himself, not envoys."""),
+(266, 'tyranni.',
+ """for him a pledge of peace it will be, the right hand to have touched of the king.""",
+ """To have clasped the king's right hand will be, for him, the pledge of peace.""",
+ """'Pacis erit' is a predicate genitive, 'will be (a matter) of peace', 'will count as peace'; its subject is the infinitive 'dextram tetigisse', 'to have touched the right hand'. 'Illi' is taken here as dative, 'for him', Aeneas, and 'tyranni', 'of the king', as Latinus himself; some take 'illi' as an old genitive with 'tyranni', 'of that prince', that is, Aeneas. 'Tyrannus' is the Greek word for a ruler, here without any bad sense. The Latin Library, with many texts, prints 'pars mihi pacis erit', 'it will be a part of the peace for me to have touched your king's right hand'; Greenough's reading is translated here. The clasp of right hands sealed a compact."""),
+(267, 'referte.',
+ """You in turn to your king my now instructions carry back.""",
+ """You in turn, carry my message back to your king now.""",
+ """The print has 'vos' with a small letter after the full stop at the end of 266, a misprint for 'Vos', corrected here; t keeps the print, because t must match the pinned source; l and i begin with a capital. 'Contra' is the adverb, 'in turn', 'for your part'. 'Mea… mandata', 'my instructions', frames 'nunc'; 'referte' is the plural imperative, 'carry back', 're-' meaning 'back'. What follows is the message."""),
+(270, 'sinunt:',
+ """There is to me a daughter, whom to a husband of race to join our
+not from my father's shrine the oracles, not very many from heaven
+portents allow:""",
+ """I have a daughter, whom the oracles from my father's shrine and a host of portents from heaven forbid me to give in marriage to a man of our own race:""",
+ """'Est mihi nata', 'there is to me a daughter', is the dative of possession again. 'Viro gentis… nostrae', 'to a husband of our race', frames 'quam iungere', 'to join whom'. 'Non… non' repeats the negative with each subject: 'sortes', the oracle's answers, 'patrio ex adyto', from the inner shrine of his father Faunus (81–101), and 'plurima… monstra', 'very many portents', 'caelo', 'from heaven': the swarm of bees on the sacred laurel and the fire in Lavinia's hair (64–80). 'Adytum', Greek, is 'the place not to be entered'. The daughter is not named in the speech."""),
+(272, 'ferant.',
+ """that sons-in-law from foreign will be here shores,
+this for Latium remains, they sing; who by blood our
+name to the stars shall carry.""",
+ """sons-in-law will come from foreign shores — this, they proclaim, is what awaits Latium — who by their blood will raise our name to the stars.""",
+ """'Generos… adfore', 'that sons-in-law will be at hand', is accusative and infinitive; 'adfore' is the future infinitive of 'adsum', for 'adfuturos esse'. 'Hoc… restare', 'that this remains (in store) for Latium', sums it up in a second clause after 'canunt', 'they sing', the regular verb of prophecy, since oracles were given in verse. 'Generos' is a plural of category, as 'generi' in Faunus's oracle. 'Qui sanguine nostrum / nomen in astra ferant' quotes that oracle word for word (98–99): 'sanguine', 'by blood', through their descendants. 'Externis… ab oris' sets the preposition between adjective and noun."""),
+(273, 'opto.”',
+ """That this is the one the fates demand
+I both think and, if anything of truth my mind foresees, desire.”""",
+ """That this is the man the fates require I believe, and, if my mind divines any truth, I wish it.”""",
+ """'Hunc illum (esse)', 'that this is that man', as at 255, with 'poscere fata', 'that the fates demand (him)'. 'Et reor et… opto', 'I both think and wish', the two verbs sharing the same accusative and infinitive. 'Siquid' is Greenough's one-word 'si quid', 'if anything'; 'veri' is a partitive genitive, 'anything of truth'. 'Augurat', 'foresees', is the active of a verb usually deponent ('augurari'), an older form. Latinus's speech ends here."""),
+(275, 'altis):',
+ """These words having spoken, horses from the number the father chooses, whole
+(there stood three hundred, sleek, in stalls lofty):""",
+ """Having said this, the father chooses horses from his whole stud (three hundred stood sleek in his lofty stalls):""",
+ """The print has 'haec' with a small letter after the full stop and closing mark at the end of 273, a misprint for 'Haec', corrected here; t keeps the print, because t must match the pinned source; l and i begin with a capital. 'Effatus', 'having spoken', is the participle of the deponent 'effor'. 'Pater' is Latinus, 'father' as king and elder. 'Numero… omni', 'from the whole number', frames the verb, an ablative of source. 'Ter centum', 'three times a hundred', is 'trecenti'. 'Nitidi', 'sleek', 'glossy'; 'praesaepibus' is Greenough's spelling of 'praesepibus', 'stalls'. The parenthesis displays the king's wealth."""),
+(277, 'tapetis;',
+ """for all, at once, the Teucrians he orders in order to be led
+covered with purple wing-footed steeds and with embroidered rugs;""",
+ """at once he orders a horse to be led out in due order for every Trojan, swift as if winged, draped in purple and embroidered saddle-cloths;""",
+ """'Omnibus… Teucris', 'for all the Teucrians', is dative: a horse for each of the hundred envoys (153). 'Iubet… duci', 'orders to be led', has 'alipedes' as the subject of the passive infinitive. 'Ordine', 'in order', one after another. 'Alipedes', 'wing-footed', is an adjective used as a noun, 'swift-footed steeds'. 'Instratos', 'spread over', 'caparisoned', takes two ablatives, 'ostro', 'with purple', the dye of the murex shell, and 'pictis… tapetis', 'with embroidered rugs', from Greek 'tapes'. The Teucrians are the Trojans, named from Teucer, an early king of Troy."""),
+(279, 'aurum;',
+ """golden on their breasts, hanging low, collars hang,
+covered with gold, tawny they champ beneath their teeth gold;""",
+ """golden collars hang low upon their breasts, and, decked in gold, they champ tawny gold between their teeth;""",
+ """'Aurea… monilia', 'golden necklaces', frames the first line; 'demissa', 'let down', 'hanging low'; 'pectoribus', 'on their breasts', is ablative of place or dative. 'Tecti auro', 'covered with gold', describes their trappings; 'fulvum… aurum', 'tawny gold', frames the verb: their bits are gold. 'Mandunt' is 'chew', 'champ'. 'Auro… aurum' repeats the word in two cases (polyptoton), as Jupiter's name at 219–220. Everything about the horses is gold, and the present tenses keep the picture before our eyes."""),
+(283, 'creavit.',
+ """for absent Aeneas a chariot and twin yoke-horses
+of heavenly seed, breathing from their nostrils fire,
+of the race of those which, from her father, cunning Circe,
+from a substituted mother, as bastards, by theft, bred.""",
+ """for Aeneas, who is not there, a chariot and a matched pair of horses of heavenly stock, breathing fire from their nostrils, of the breed that cunning Circe got by stealth from her father's horses, putting a mortal mare to them to raise a bastard line.""",
+ """'Iubet… duci' still governs: 'currum geminosque iugalis', 'a chariot and twin yoke-horses'; 'iugalis' is the '-is' accusative plural, and 'Aeneae' is dative, 'for Aeneas'. 'Semine ab aetherio', 'from heavenly seed': they descend from the horses of the Sun. Circe, the Sun's daughter in Homer (Odyssey 10), 'furata', 'stealing (the breed)', 'patri', 'from her father', put a mortal mare to his stallions: hence 'supposita de matre', 'from a substituted mother', and 'nothos', Greek for 'bastards', half-breeds. 'Daedala', 'cunning', 'skilled', is from the name of the craftsman Daedalus. 'Spirantis' is the accusative plural, 'breathing'. Homer tells a like story of Anchises, who secretly bred his mares to the divine horses of Laomedon (Iliad 5)."""),
+(285, 'reportant.',
+ """With such the Aeneadae gifts and words of Latinus,
+high on their horses, return and peace bring back.""",
+ """With such gifts and such words from Latinus, the sons of Aeneas ride back, high on their horses, bringing peace.""",
+ """'Talibus… donis dictisque', 'with such gifts and words', frames 'Aeneadae'; 'Latini' is genitive with both nouns. 'Aeneadae', 'the sons of Aeneas', his followers, is a patronymic like 'Dardanidae' (195). 'Sublimes', 'aloft', 'riding high', of their spirits as well as their seat. 'Reportant', 're-' meaning 'back': they came to ask for peace and carry it home. The peaceful hour of Book VII ends here; in the next line Juno, returning from Argos, catches sight of the Trojans (286–289)."""),
+]
+P = A.part('aeneid-051'); L = A.lines_of(P); paras = {l['n'] for l in L if l['p']}
+cuts = A.cut(P, [(u[0], u[1]) for u in U])
+sents = []; prev_end_line = None
+for (t, ln), (_, _t, l, i, n) in zip(cuts, U):
+    u = {'t': t, 'l': l, 'i': i, 'n': n}
+    if prev_end_line != ln and ln in paras: u['p'] = True
+    u['v'] = True; u['ln'] = ln; sents.append(u)
+    prev_end_line = ln + t.count('\n')
+    if t.count('\n') != l.count('\n'): print('LINE COUNT', ln, repr(t[:30]), t.count('\n'), l.count('\n'))
+    if t.count('\n') > 4: print('TOO LONG', ln)
+    if '\n' in i: print('NEWLINE IN i', ln)
+A.jdump({'title': TITLE, 'titleEn': TITLE_EN, 'part': PART, 'about': ABOUT, 'sentences': sents}, os.path.join(HERE, 'units.json'))
+print(len(sents), 'units')

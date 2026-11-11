@@ -80,3 +80,122 @@ Unit 3 a'y should be glossed as ae 'either' (conjunction), not a 'with' + y 'his
 ### Verification
 
 units.json loads as valid JSON with 72 sentences. Every `t` is identical to `cut.json` (script check). Only `l`, `i` and `n` were changed, in 30 fields.
+
+## Pass 2
+
+Reviewer pass 2 (2026-11-11). Every one of the 230 gloss.json entries and all 27 `__broaden__` entries were checked against the
+text, the unit notes after pass 1, known-forms.json and the published glossary's format (mabinogi-glossary.json). Aids as in
+pass 1: Strachan, Morris-Jones, Silvan Evans, GPC (from knowledge), the Red Book as third witness. No translation was consulted
+and nothing was looked up on the web. Edits were made by script (Python load/modify/dump, ensure_ascii=False, indent=1), and no
+`t` was touched. 221 of the 230 new entries were rewritten in whole or in part (only `llaw` and 8 others are unchanged), and
+10 known forms were broadened that the glosser had missed. The house shape `lemma (modern) — meaning; grammar; mutation and
+cause` uses the Middle Welsh lemma and gives the modern form in brackets, as the published entries do (gwreic (gwraig),
+gwelet (gweld)). Where I was not sure a modern form exists, I left it out rather than guess.
+
+Counts, by table row (one row may cover several forms): **31 major** (24 new-form rows and 7 broaden rows), **38 minor** (32 new-form rows, 4 broaden rows and 2 unit notes) and **1 style** row (lemma normalisation across about 60 forms).
+
+### Changes — gloss.json (new forms)
+
+| form | field | severity | what was wrong | what was done |
+|---|---|---|---|---|
+| dylyedauc | entry | major | Said "d is probably soft-mutated after pa". Pass 1 decided otherwise: the radical is d-, so the softening shows nothing. | Corrected: dylyedawc (dyledog), d- is the radical. |
+| ogyuuch | entry | major | Gave the base as "o + soft-mutated kyuuch, etymology uncertain", which contradicts unit 7. | gogyuuch (gogyfuwch): go- + kyuuch, the equative of uchel; g lost after y 'to'; the Red Book has yn ogyfuuch. |
+| warch | entry | major | Called it a "scribal slip, w printed for u by mistake". The log and unit 22 say it is uarch with the w-letter for the v-sound, not a slip. | Now: soft-mutated object, w-letter for v. |
+| diuwyn | entry | major | Gave di- + gwyn 'white' and the meaning 'dull'. The spelling uw = fw requires mwyn, as the unit 62 note says. | di- + mwyn, 'worthless, unpleasing', with the debate noted. |
+| ffryt | entry | major | Said "meaning uncertain, perhaps 'beauty… course'". It is pryt 'form' after y 'her' (unit 62). | pryt (pryd), spirant after y 'her', written ffr. |
+| dabre | entry | major | Said "meaning uncertain, perhaps 'lead out'". It is the old imperative 'come!' of dyuot (unit 45). | dyuot (dod), 2 sg. imperative 'come!'. |
+| hayach | entry | major | Gave 'any longer' and an invented etymology from hwy. | hayach (haeach) 'almost; with a negative hardly', as in unit 48. |
+| gwrthyt | entry | major | Called it 2 sg. present. -yt is the 3 sg. present, the form a relative verb takes whatever the person of its antecedent. | Lemma gwrthot (gwrthod), 3 sg. present, relative after ti. |
+| bydynt | entry | major | Called it "3 sg./3 pl.". -ynt is 3 pl. only. | 3 pl. habitual imperfect, beside oedynt. |
+| cany | entry | major | Lemma "cany (canys) — since, for … possibly can + ny; uncertain". The unit 38 note says plainly can + ny 'since … not'. | Now can + ny, which softens the verb. The invented modern equivalent is dropped. |
+| tygyaw | entry | major | Said "the negative is implied rather than written". The negative is written: it is the ny of cany. | The claim is removed. |
+| wyaf | entry | major | Said "probably a slip … not noted in the establishment log". Pass 1 decided it is a slip and added it to the log. | Now a scribal slip for uwyaf, one letter short, with the Red Book's vwyhaf. |
+| orymdeith | entry | major | Said "soft mutation after y 'his'". Unit 2 says y 'to', and l is "to walk-about". | Soft after y 'to'; used like a verbal noun. MW lemma gorymdeith (gorymdaith). |
+| rywedawt, ryuedawt | entry | major | Both claimed "r written for soft-mutated rh" (an object, a fronted word). There is no mutation: the manuscript writes r for rh. rywedawt is only the w-for-u spelling. | ryuedawt (rhyfeddod), unmutated. The spelling of rywedawt is explained. |
+| araued | entry | major | Called it "equative 'as slow as, however slow'", against the note's noun 'slowness'. | Glossary and note reconciled: araued has the -ed of the equative but is used as a noun 'slowness'. The unit 35 note was edited to match (below). The araf entry points to it. |
+| bei | entry | major | Said bei is "also the soft-mutated form of the conjunction pei 'if'". It is not. It also gave the meaning "though he were at his stride". | bot, imperfect subjunctive, 'if it were at its step' = at a walk (unit 37). |
+| pei | entry | major | Said "also appears mutated (bei, phei)". | Now: after a written phei, ffei, fei. In pei … pellaf it is like modern po (units 13, 19). |
+| rygyng | entry | major | Gave 'run, impetus, rapid pace' and "take a run". The note says it is an easy gait, an amble. | 'amble, an easy gait; which gait exactly is uncertain'. |
+| wrthpwythi | entry | major | Gave an invented lemma "gwrthbwyth?" with the meaning 'reply, retort', and claimed it was "soft-mutated after gattei". | Now as unit 40 has it: hard, perhaps unique, meaning uncertain. The Red Book's wrthpwyll points to 'contrariness'. 'stubbornness' is a guess. |
+| ymgueiraw | entry | major | Gave the base "cweiriaw". The word is ym- + kyweiraw. | ymgyweiraw, ym- + kyweiraw 'prepare'. No modern form is given, because I was not sure of one. |
+| choffa | entry | major | Lemma "cofio (cofio)". koffa is the imperative of koffau (coffáu), not of cofio. | koffau (coffáu), 2 sg. imperative. |
+| gynt | entry | major | Covered only the comparative 'swifter', with the cause of its mutation "not certain". It missed no'r dyd gynt 'the day before' (unit 34). | Two senses: 'swifter', and the adverb 'before, formerly' (modern gynt). |
+| gerdet | entry | major | Did not cover y gerdet 'to go' (unit 51), where it is soft after y 'to'. | Now general: soft after y 'to'; after vn (cause unclear, since kerdet is usually masculine); and in amgen urys gerdet. |
+| pedestric, bedestric | entry | major | Gave 'a footman' and 'his foot-travel'. The notes call the meaning disputed ('going on foot' or 'speed'), and in this text the word is used of a horse. | Both now say the meaning is disputed, with the two readings. bedestric is soft after y 'his, its'. |
+| ry | entry | minor | Its modern form "(rhy)" is the adverb 'too', a different word. This is an invented equivalent. | Modern form deleted. |
+| athoed | entry | minor | Said "spelling uncertain". athoed is a regular MW pluperfect of mynet. | Says athoed beside aethoed. |
+| adoed | entry | minor | Said "apparently aethoed spelled adoed". | Now "a by-form or spelling of athoed". |
+| neir | entry | minor | Matched the note, but did not give the Red Book reading. | Adds that the Red Book has neur, and that the White Book's own reading is uncertain. |
+| chynnwll | entry | minor | Did not say the Red Book has the word too. | Added, as in unit 33. |
+| wwyta | entry | minor | Called it a slip outright. | Aligned with unit 42: listed as a slip, though the first w may be the v-letter; the Red Book has vwyta. |
+| mwyf | entry | minor | Did not cite the Red Book's vwyhaf. | Added. |
+| lladei | entry | minor | Gave "'he struck'". Pass 1 decided the imperfect is 'would strike'. | Now 'would strike, used to strike'. Lemma llad (lladd). |
+| cael, gauas, caffwn | entry | minor | The lemma was reversed: "cael (caffael)". | caffael (cael). |
+| ellwg | entry | minor | Gave the modern form as "(ellwng)". | ellwng (gollwng). |
+| tric | entry | minor | Lemma "trigaw". The note has trigyaw. | trigyaw (trigo). |
+| gymhellaud | entry | minor | Lemma "kymell". The MW form is kymhell (unit 54). | kymhell (cymell). |
+| gerdeu | entry | minor | Gave "cerdd … plural cerdeu", which mixes modern and MW spelling. | kerd (cerdd), plural kerdeu. |
+| hanwod | entry | minor | Said "cause of the h uncertain". The h- after 'm before a vowel is regular. | The hedge is removed, and the w for the v-sound is explained. |
+| allu | entry | minor | Said "cause of the mutation uncertain". The unit 39 note says it is softened after oes. | Aligned with the note. |
+| gywiraw | entry | minor | Said "cause uncertain". | Soft as the object of an imperative (compare arho ui, unit 56). |
+| uydei | entry | minor | Gave "imperfect habitual/subjunctive … soft after fronted pellaf". | Habitual imperfect, soft after a fronted word, with the relative a understood. |
+| odyno, diuyrru, enkyt, meityn, racco | entry | minor | Each said "modern form/GPC headword uncertain", or gave none, or gave an inexact form ("perhaps a variant of ennyd"). | Gives the real modern forms: oddi yno, difyrru, encyd, meitin, acw. enkyt is no longer called a variant of ennyd. meityn's meaning is aligned with unit 57. |
+| threigylgueith | entry | minor | Gave the modern form "(treigylgweith)", which differs from the published entry. | Aligned with the published threigylgweith: treigylgweith (treiglwaith), with the gu spelling noted. |
+| yniuer | entry | minor | Said "company/place … construction uncertain". | 'the company that we were yesterday', matching units 26 and 43. |
+| unbennes | entry | minor | Gave 'queen, sovereign lady'. The house rendering is unben = chieftain. | 'lady-chieftain, lady'. |
+| ohonawch | entry | minor | Said "the i … is not explained here". The i token was being glossed as 'I/me'. | Explained, with a hedge, as the 2 pl. echoing pronoun chwi with its ch run into the ending. See the i broaden and unit 8. |
+| ymordiwedei | entry | minor | Said "the particle yr before it is uncertain". The note says yr is the verbal particle. | Aligned with the note. The modern form is given as cf. goddiwes. |
+| gorssed, maes, bid | entry | minor | Pinned to one line ("here part of the place-name", "here 'company'", "addressed here to the youth"). | Made general: each sense or use is stated, with examples. |
+| gan | entry | minor | Gave "y gan y uarch 'from the horse'". | 'from his horse'. Possession by things is covered too. |
+| ford | entry | minor | Its example "yn y ford" is not in the text. | Replaced with y'r ford and yr un ford. The f-for-ff spelling is stated. |
+| uwyaf, fei, ffei, phei | entry | minor | Said "construction not certain". The notes explain the construction (like po). | Aligned with units 13, 19 and 37. |
+| llonyd | entry | minor | Gave only the noun 'peace'. In ual y bu llonyd ganthunt it is the adjective 'content'. | Adjective 'content, at ease', with the noun as well. |
+| llamsachus | entry | minor | Gave the source "llamsach 'a leap'", which I cannot confirm. | from llam 'leap', as the note has it. |
+| hebdaw | entry | minor | Said "sense 'past' not certain". The note gives 'past him'. | 'past him, without him'. |
+| riannon | entry | minor | Gave a conjectural etymology (*rigantona). That is not a reader's gloss. | Removed. |
+| dangosses, gwedy, eiste, kerdet, uarchoges, neu, nat, llessach, sewyll, ass, wypych, uakwyueit, makwyf | entry | minor | Small inaccuracies: "3 sg. impersonal" for elwit; neu's affirmative sense lacked neut; "page" was missing; sewyll lacked the w-spelling; and so on. | Corrected in place. The grammar matches the notes. |
+| ≈60 forms (gwled, darparedic, uch, kynnedyf, kymriw, eureit, prifford, parawt, barawt, gwaret, echtoe, ysparduneu, yskynnu, yskynn, crassaw, rann, neit, trydyd, rei, hut, ryw, kyuoyth, gwrthyt, karyat …) | lemma | style | The lemma was given as "modern (modern)" (e.g. "gwledd (gwledd)"), against the published practice of MW lemma (modern). | Changed to MW lemma (modern) throughout. The examples were kept or tightened. |
+
+### Changes — `__broaden__`
+
+All 27 of the glosser's values began with the old entry followed by " · " (script check). I left that prefix alone and corrected the new readings.
+
+| form | severity | what was wrong | what was done |
+|---|---|---|---|
+| a | major | (7) gave a'y kymriw as "perhaps 'either, or' (ai), reading uncertain". Pass 1 decided the reading. The interrogative particle (a oes? a dywedy di?) was missing from the entry altogether. | (7) interrogative particle. (8) the editorial a'y stands for ae 'either' (ae … neu), as the Red Book's ae kymriw shows: read the two halves together as ae. |
+| y | minor | Said nothing on a'y kymriw. | Adds (8): 'y in a'y kymriw is the second letter of ae (see a). |
+| yr | major | Did not cover yr as the verbal particle before a vowel (yr ymordiwedei, unit 35). | (3) is aligned with the note ('for all … that'). (5) verbal particle added. |
+| m | major | Glossed a'm rodi as "and gave me" and called the h "cause uncertain". | a'm rodi 'and my giving' = giving me (unit 66). h- is regular before a vowel. |
+| gam | major | Gave "even at his stride, reading uncertain". | cam 'step', soft after y 'his, its'. bei ar y gam = at a walk (unit 37). |
+| e | minor | Added only 'from' (e wrthaw). It missed 'her' (e hymlit), the verbal particle (e deuthum), e uynyd and e ymdeith. | All of these are added. |
+| uryt, welei, o, heb | minor | Small slips in wording ("idiom uncertain" for heb law, the wrong spelling ryuedawt for the text's rywedawt). | Tightened. |
+| neut | major (added) | The glosser had left it unbroadened. Pass 1 decided neut is affirmative neu before a vowel, not neu + an infixed pronoun. | Broadened to say so. |
+| oed | major (added) | The known entry gave only 'was'. In gwna oed a mi (unit 68) oed means 'appointment', and the note says so. | Broadened with 'appointed time, tryst', = oet. |
+| i | major (added) | In ohonawch i, the known entry wrongly offered 'I/me'. | Adds (4): the probable 2 pl. echoing pronoun. |
+| ac, wyr, wr, lys, wreic, uot, nys | minor (added) | The known entries named a cause of mutation, or a use, that does not fit this part: wyr only after yn; lys only after y 'his'; wreic only after a possessive; ac only before a vowel (but Ac wal, ac racdaw); nys only 'it'. | Broadened with the uses this part shows. |
+
+### Changes — units.json
+
+| unit | field | severity | what was wrong | what was done |
+|---|---|---|---|---|
+| 8 | n | minor | ohonawch i: the spaced i was left unexplained. | Adds that the i is probably the echoing pronoun chwi with its ch run into the ending. This now agrees with the glossary. |
+| 35 | n | minor | araued "(araf + -ed) 'slowness'" did not say what the -ed is, so it seemed to contradict the glossary's equative. | "araf 'slow' with the -ed of the equative, 'as slow', used as a noun". Note and glossary now agree. |
+
+I re-read the rest of the units for contradictions between notes and glossary. None remain. l and i were checked again and need no change.
+
+### Considered and refused
+
+- **gwedy (gwedi)**: GPC's modern headword is wedi. I kept gwedi to match the published guedy (gwedi). Literary Welsh has both.
+- **allu "softened after oes" (unit 39)**: I left the note and aligned the glossary with it. Softening of the subject after oes is attested in MW, though not always.
+- **Known entries a little narrow for this part** (uu "soft after a" in Pennaf neges uu; adnappo "in the negative relative"; uei "after a" in fei … uei): their main sense is still right and general, so I did not broaden them.
+- **drythyll, the cause of the softening**: left "uncertain", as the note has it. I would not invent a rule.
+- **Modern forms for canwelw, unbennes, pedestric, kynnwll, diuwyn, ymgyweiraw, cany, llamsachus**: left without a modern form, because I am not sure one exists. Per the brief, I did not guess.
+- **kymriw (cymriw)**: kept. I believe GPC has cymriw, and the glosser and drafter agree.
+- **Heueyd, uerch, hen and the other proper names**: fine as glossed.
+
+### Verification
+
+- gloss.json loads as valid JSON. Its keys are exactly the 230 keys of novel-forms.json plus `__broaden__`, and no value is empty.
+- `__broaden__` has 37 entries. Each one is the known-forms.json entry whole, then " · ", then the new reading (script check).
+- With the reader's tokenizer (r3lib.tokens), every token of every `t` has an entry in the glossary or gloss.json. No new key is unused, and none is already in the glossary.
+- units.json has 72 units, and every `t` is identical to cut.json.

@@ -1,0 +1,270 @@
+import sys, os
+HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, '..', '..')); sys.path.insert(0, os.path.join(HERE, '..', '..', '..', '..'))
+import aeneid_lib as A
+# aeneid-048 draft. Drafted from the Latin and grammar only. t is cut from the edition, never typed.
+TITLE = 'Heroes Romani. Marcellus. Portae Somni'
+TITLE_EN = "The Heroes of Rome and the Gates of Sleep — Aeneid VI.801–901"
+PART = "The Heroes of Rome and the Gates of Sleep (VI.801–901)"
+ABOUT = """Anchises finishes his praise of Augustus: not even Hercules, for all his labours, nor Bacchus driving his tigers down from Nysa, covered so much of the earth; how then can Aeneas still hesitate to settle in Italy? He goes on to show his son the souls of Rome's future great men. Numa comes first, the grey-bearded Sabine king who will give the city its laws; then warlike Tullus, boastful Ancus, the Tarquins, and Brutus, the first consul, who will send his own sons to execution for plotting to restore the kings. Then the Decii, the Drusi, Torquatus and Camillus; and two souls in matching armour, at peace now in the darkness, who once they reach the light will tear Rome apart in civil war, the father-in-law coming down from the Alps and the son-in-law with the armies of the East: Anchises begs them to lay down their arms, and Caesar, of the blood of the gods, first of all. He names the conquerors of Corinth and Macedon, who will avenge Troy on the Greeks, then Cato and Cossus, the Gracchi, the two Scipios, Fabricius, Serranus at his ploughing, and Fabius, the Delayer who saved the state. Others, he says, will be better sculptors, orators and astronomers; the Roman's art will be to govern the nations, to make peace their custom, to spare those who submit and to fight down the proud. Then he points to Marcellus, the conqueror of the Gauls, and Aeneas asks who the sad young man walking beside him is, with a black night circling his head. Weeping, Anchises tells him: this is the young Marcellus, Augustus's nephew and heir, whom fate will only show to the world and then take away; he asks for lilies to scatter in an offering that can do nothing. Anchises leads his son through the rest of Elysium, fires him with love of the glory to come, and tells him of the wars he must fight in Latium. There are two gates of Sleep, one of horn for true shades, one of ivory through which the spirits send false dreams; Anchises sends Aeneas and the Sibyl out by the ivory gate, and Aeneas returns to his ships and sails along the coast to the harbour of Caieta."""
+U = [
+(805, 'tigres.',
+ """Nor indeed did Alcides so much of earth traverse,
+though he pierced the bronze-footed hind, or of Erymanthus
+tamed the groves, and made Lerna tremble with his bow;
+nor he who with vine-leaf reins, as victor, steers the yokes,
+Liber, driving from Nysa's lofty summit his tigers.""",
+ """Not even Alcides travelled over so wide a stretch of the earth, though he shot down the hind with feet of bronze, brought peace to the woods of Erymanthus and set Lerna trembling at his bow; nor did Liber, who in triumph guides his teams with reins of vine-leaves, driving his tigers down from the high peak of Nysa.""",
+ """A new paragraph in Greenough, but Anchises's speech, opened at 756, runs on: he is still praising Augustus, whose empire will reach further than the wanderings of the two great travelling heroes who became gods. 'Alcides' is Hercules, 'grandson of Alcaeus', a patronymic. 'Obivit' is 'went over', 'traversed'. 'Fixerit… licet' is concessive, 'though he pierced', 'licet' with the subjunctive; 'pacarit' is 'pacaverit', the syncopated perfect subjunctive. Three of his Labours: the Ceryneian hind with feet of bronze ('aeripedem', a compound), the boar of Mount Erymanthus in Arcadia, and the Hydra of Lerna. 'Liber' is Bacchus, who conquered the East as far as India and came back in triumph in a car drawn by tigers; Nysa is the mountain where he was reared. 'Pampineis… habenis' is 'with reins of vine-leaves'. 'Iuga' are 'yokes', the yoked team. Alexander's march to India was compared with Bacchus's, and Augustus's conquests with both."""),
+(807, 'terra?',
+ """And do we hesitate still by valour to extend our strength,
+or does fear forbid us to settle in the Ausonian land?""",
+ """And are we still hesitating to stretch our strength further by courage, or does fear keep us from taking our stand on Italian soil?""",
+ """The application: with such descendants promised, how can Aeneas falter? 'Dubitamus' with the infinitive is 'hesitate to'. Greenough prints 'virtute extendere vires', 'to extend our strength by valour'; the Latin Library has 'virtutem extendere factis', 'to extend our renown (valour) by deeds', the reading most editors now print. The thought is the same, the words different. 'Ausonia… terra' is the ablative of place where without 'in', common in verse; Ausonia is a poetic name for Italy. 'Consistere' is 'to take one's stand', 'to settle'."""),
+(809, 'ferens?',
+ """But who is that far off, marked out by branches of olive,
+bearing the sacred things?""",
+ """But who is that, some way off, distinguished by sprays of olive and carrying the holy vessels?""",
+ """A new paragraph in Greenough: the parade of Rome's kings begins. 'Autem' is 'but', 'now', turning to a new figure. 'Ramis… olivae' are olive branches, the sign of peace; 'sacra ferens' is 'carrying the sacred objects' of worship, for this king founded Rome's religion. The questioner is Anchises himself, as a showman points to a figure before naming him."""),
+(812, 'magnum.',
+ """I know the hair and hoary chin
+of the Roman king who first with laws the city
+will ground, from little Cures and a poor land
+sent into a great dominion.""",
+ """I recognise the locks and the white beard of the Roman king who will be the first to set the city on a foundation of laws, sent from little Cures and a poor country to a mighty throne.""",
+ """This is Numa Pompilius, the second king, a Sabine from the small town of Cures, who by tradition gave Rome its laws and its religious institutions. 'Menta' is a poetic plural of 'mentum', 'chin', here 'beard'; 'incana' is 'grey', 'hoary'. 'Primus qui… fundabit' is 'who first will found'; the Latin Library prints 'primam', 'who will found the early city on laws', which shifts the stress from the man to the city. 'Curibus parvis' is the ablative of the place he was sent from. 'Imperium magnum' is the kingship of Rome, 'a great command'."""),
+(815, 'agmina.',
+ """To whom next will succeed,
+he who will break the ease of his country and will move the sluggish
+— Tullus — to arms, the men, and the now unused to triumphs
+hosts.""",
+ """After him will come one who will shatter his country's ease and stir men grown idle to take up arms — Tullus — and ranks that had lost the habit of triumphs.""",
+ """'Cui deinde subibit' is 'to whom next will succeed', the dative with a compound verb, here a connecting relative: 'and to him…'. The third king, Tullus Hostilius, was remembered as warlike; under him Rome destroyed Alba Longa. 'Otia… rumpet' is 'will break the leisure', the long peace of Numa. 'Resides' is 'sluggish', 'idle', with 'viros'; 'Tullus', the subject, is held back to the middle of the clause. 'Desueta triumphis agmina' is 'columns unaccustomed to triumphs', 'triumphis' a dative (or ablative) with 'desueta'."""),
+(816, 'auris.',
+ """Whom next follows the rather boastful Ancus,
+even now already rejoicing too much in the breezes of the people.""",
+ """Close behind him comes Ancus, something of a boaster, even now taking too much delight in the breath of the crowd's favour.""",
+ """'Quem iuxta' is 'next to whom', another anastrophe, the preposition after its word. Ancus Marcius, the fourth king, grandson of Numa. 'Iactantior' is a comparative without a stated standard, 'rather boastful', 'too proud'. 'Popularibus auris' is 'the breezes of popularity', the shifting favour of the people; 'gaudens' takes the ablative. 'Nunc quoque iam' is 'even now', while he is still an unborn soul."""),
+(818, 'receptos?',
+ """Do you wish also the Tarquin kings, and the proud soul
+of avenger Brutus, and the fasces to see taken back?""",
+ """Would you see the Tarquin kings as well, and the haughty spirit of Brutus the avenger, and the rods of office recovered?""",
+ """'Vis… videre' is 'do you wish to see?', a question used as an invitation. The 'Tarquinii reges' are Tarquinius Priscus and Tarquinius Superbus, the fifth and seventh kings; the sixth, Servius Tullius, goes unnamed. 'Superbam' is pointed: the Tarquin's surname was 'Superbus', the Proud, but the pride here belongs to Brutus, who drove him out. L. Iunius Brutus avenged the outrage done by the king's son to Lucretia and expelled the kings (traditionally 509 BC). The 'fasces', the bundle of rods and axe carried before a magistrate, are 'recovered' from the kings for the people. 'Fascesque', Latin Library 'fascisque', is orthography."""),
+(821, 'vocabit.',
+ """A consul's power this man first and the cruel axes
+will receive, and his sons, a father, stirring new wars,
+to punishment for fair liberty he will summon.""",
+ """He will be the first to receive the authority of a consul and the pitiless axes, and when his own sons stir up war anew, he, their father, will call them to their punishment for the sake of noble liberty.""",
+ """Brutus was the first consul. 'Saevas… secures' are the axes in the fasces, the sign of the power of life and death. His sons conspired to bring the Tarquins back ('nova bella moventes', 'stirring new wars'), and he sat in judgement and had them executed (the story is told in Livy, Book 2). 'Pater' is set against 'natos': the father condemns his sons. 'Pulchra pro libertate' is 'for the sake of fair liberty', the adjective and noun wrapped round the preposition."""),
+(823, 'cupido.',
+ """Unhappy man, however posterity will regard those deeds,
+there will conquer love of country and boundless desire of praise.""",
+ """Unhappy man, however later ages will judge that act, love of his country will win the day, and an unmeasured hunger for glory.""",
+ """'Infelix' is an exclamation, 'unhappy man!': the act is right and terrible at once. 'Utcumque ferent' is 'however they will take (report)', 'ferre' in the sense of 'speak of', 'judge'. 'Minores' is 'the younger', 'posterity', as 'maiores' are ancestors. 'Laudum… cupido' may be meant as a fault as well as a virtue; Virgil leaves the judgement open. 'Cupido' is feminine, so 'immensa'."""),
+(825, 'Camillum.',
+ """Nay, the Decii and Drusi far off, and cruel with the axe
+look at Torquatus, and Camillus bringing back the standards.""",
+ """Look, too, at the Decii and the Drusi further off, at Torquatus with his merciless axe, and at Camillus bringing home the standards.""",
+ """'Quin… aspice' is 'nay, look', 'quin' with an imperative to press the point. The Decii: P. Decius Mus and his son of the same name, consuls who each 'devoted' themselves, giving their lives to the gods of the underworld in exchange for the enemy's, in 340 and 295 BC. The Drusi were a branch of the Livian family, to which Livia, Augustus's wife, belonged. T. Manlius Torquatus took his surname from the torque (neck-chain) of a Gaul he killed in single combat, and as consul (340 BC) had his own son beheaded for fighting against orders, hence 'saevum securi', 'cruel with the axe'. M. Furius Camillus, by the story Livy tells, routed the Gauls after their sack of Rome and recovered the standards and gold."""),
+(829, 'ciebunt!',
+ """But those whom you see shining in matching arms,
+souls in harmony now and while they are pressed by night,
+alas, how great a war between themselves, if the light of life
+they reach, what battle lines and slaughter they will stir!""",
+ """But those two souls you see gleaming in armour alike, at one with each other now, while the night holds them down — alas, what a war they will rouse between them if ever they reach the light of life, what armies and what carnage!""",
+ """A new paragraph in Greenough: Julius Caesar and Pompey, the rivals of the civil war of 49–45 BC. 'Illae… animae' frames the relative clause; the sentence then breaks off and starts again with 'heu quantum…' (anacoluthon), as Anchises's feeling takes over. 'Paribus… in armis' is 'in equal arms': Romans armed alike, as in a civil war. 'Dum nocte premuntur' is 'while they are held down by night', in the darkness of the world below; the Latin Library prints 'prementur', 'as long as they will be held', which makes the harmony last only until their birth. 'Lumina vitae' is 'the light of life'; 'attigerint' is the future perfect, 'if they shall have reached'. 'Ciebunt' is 'will stir up'."""),
+(831, 'Eois.',
+ """From the Alpine ramparts the father-in-law and from the citadel of Monoecus
+coming down, the son-in-law ranged with opposing Easterners.""",
+ """The father-in-law will come down from the barriers of the Alps and the stronghold of Monoecus, the son-in-law stand arrayed with the forces of the East against him.""",
+ """There is no main verb: two participle phrases set the opponents side by side. Caesar is the 'socer', father-in-law, and Pompey the 'gener', son-in-law: Pompey married Caesar's daughter Julia, who died in 54 BC. Caesar came into Italy from Gaul, beyond the Alps ('aggeribus Alpinis', the Alps as ramparts); Monoecus is the headland with a temple of Hercules Monoecus (Monaco). Pompey drew his strength from the eastern provinces: 'adversis… Eois' is 'with the hostile men of the East', 'Eous' from the Greek for 'dawn'. 'Instructus' is 'drawn up'."""),
+(833, 'vires;',
+ """Do not, boys, do not accustom your minds to such great wars,
+nor against the vitals of your country turn your mighty strength;""",
+ """No, my sons, do not, do not let your hearts grow used to wars like these, nor turn your powerful strength against the very heart of your country;""",
+ """Anchises appeals to them directly. 'Ne… adsuescite' is the prohibition with 'ne' and the imperative, a poetic and old form for prose 'noli' or 'ne' with the perfect subjunctive; 'neu' carries it on. 'Pueri' is 'boys', 'my children': they are his descendants. 'Animis' may be dative ('accustom your minds to') with 'tanta… bella' as the object, 'adsuescite' here being transitive. 'In viscera' is 'into the vitals', the body of the state turning on itself. 'Vires', Latin Library 'viris', is orthography."""),
+(835, 'meus!—',
+ """and you first, you spare, who draw your race from Olympus,
+throw the weapons from your hand, my blood!—""",
+ """and you be the first, you be the one to hold back, who trace your descent from Olympus: throw down the weapons from your hand, my own blood! —""",
+ """This is to Caesar, 'genus qui ducis Olympo', 'who draw your line from Olympus': the Julii claimed descent from Venus through Aeneas and Iulus, so he is also 'sanguis meus', 'my blood', Anchises's own descendant. 'Prior' is 'first', 'before the other'. 'Proice' is 'proiice', 'throw away'. Line 835 is a half-line, one of the incomplete lines Virgil left in the unfinished poem, and Greenough marks the break-off with a dash: Anchises leaves the appeal unfinished and turns to other figures."""),
+(837, 'Achivis.',
+ """That man, Corinth triumphed over, to the lofty Capitol
+as victor will drive his chariot, distinguished by Achaeans slain.""",
+ """There is one who will ride his chariot in triumph up to the heights of the Capitol, the conqueror of Corinth, renowned for the Greeks he has cut down.""",
+ """A new paragraph in Greenough. L. Mummius sacked Corinth in 146 BC and triumphed over the Achaean League. 'Triumphata… Corintho' is an ablative absolute, 'Corinth having been triumphed over', 'triumpho' used transitively in the passive; Corinth is feminine. 'Capitolia' is a poetic plural; the triumph ended at the temple of Jupiter on the Capitol. 'Achivis' is 'Achaeans', Homer's word for the Greeks: the Romans, sons of Troy, avenge the Trojan War."""),
+(840, 'Minervae.',
+ """That one will overthrow Argos and Agamemnon's Mycenae,
+and the Aeacid himself, the race of arms-mighty Achilles,
+having avenged his Trojan forefathers and the defiled temple of Minerva.""",
+ """Another will root up Argos and Agamemnon's Mycenae and the descendant of Aeacus himself, of the blood of Achilles mighty in arms, taking vengeance for his Trojan ancestors and for Minerva's polluted shrine.""",
+ """A second 'ille', a different man: usually taken as L. Aemilius Paullus, who defeated Perseus, king of Macedon, at Pydna in 168 BC; the Macedonian kings claimed descent from Aeacus, grandfather of Achilles. (Some have thought of Pyrrhus of Epirus, who also claimed it.) Argos and Mycenae, the cities of Agamemnon and the Greek kings who sacked Troy, stand for Greece as a whole. 'Achilli' is 'Achillis', a Greek genitive in '-i', like 'Ulixi'; 'armipotentis' is a compound adjective in the old epic style. 'Ultus' is the deponent participle, 'having avenged', taking 'avos' and 'templa' as objects. 'Templa… temerata Minervae' recalls Minerva's temple at Troy, profaned when the Lesser Ajax dragged Cassandra from it and when the Palladium was stolen (both in Book II); 'et' is postponed."""),
+(841, 'relinquat?',
+ """Who you, great Cato, unmentioned, or you, Cossus, would leave?""",
+ """Who could pass you by in silence, great Cato, or you, Cossus?""",
+ """'Relinquat' is a potential (or deliberative) subjunctive, 'who would leave?', 'who could leave?'; 'tacitum' is 'unspoken of', 'unmentioned', agreeing with 'te'. Anchises turns to address the souls directly (apostrophe). Cato is M. Porcius Cato the Elder, censor in 184 BC, the model of old Roman sternness. A. Cornelius Cossus killed Lars Tolumnius, king of Veii, in single combat (437 BC) and won the 'spolia opima', the spoils taken by a Roman commander from an enemy commander, the second man ever to do so (see 855)."""),
+(844, 'serentem?',
+ """Who the race of Gracchus, or the twin, two thunderbolts of war,
+Scipios, the ruin of Libya, and powerful on little
+Fabricius, or you at the furrow, Serranus, sowing?""",
+ """Who could leave out the house of the Gracchi, or the two Scipios, twin thunderbolts of war and the destruction of Africa, or Fabricius, mighty on a little, or you, Serranus, sowing seed in your furrow?""",
+ """Greenough's punctuation in 844 sets only one comma by the vocative, after 'Serrane' ('te sulco Serrane, serentem'); editors usually enclose it, 'sulco, Serrane, serentem'. It may be a dropped comma, but the sense is the same either way, so the print is kept and the reading is plain: 'you, Serranus, sowing in the furrow'. 'Quis' carries on 'relinquat' from 841. 'Gracchi genus' is 'the family of Gracchus', the Sempronii Gracchi, including the reforming tribunes. 'Scipiadas' is a Greek patronymic form, accusative plural, 'the Scipios': P. Cornelius Scipio Africanus, who beat Hannibal at Zama in 202 BC, and Scipio Aemilianus, who destroyed Carthage in 146; 'Libya' is Africa. Lucretius in his third book calls Scipio 'belli fulmen', 'the thunderbolt of war'. C. Fabricius Luscinus, 'powerful on little' ('parvo', ablative), was famous for his poverty and for refusing the bribes of Pyrrhus. Serranus, C. Atilius Regulus, was said to have been found sowing his field when called to the consulship (257 BC), and his surname was popularly derived from 'serere', 'to sow': hence 'Serrane… serentem'."""),
+(845, 'Fabii?',
+ """Where are you hurrying me, weary, Fabii?""",
+ """Where are you sweeping me off to, Fabii, when I am already tired?""",
+ """The print has 'quo', a misprint for 'Quo', corrected here: Greenough begins every other sentence after a question mark with a capital (842, 864, 865), including the questions of this same series. 'Quo… rapitis' is 'whither are you hurrying (me)?', with 'me' understood from 'fessum': the old man is out of breath, so many of the Fabian clan are there to be named. The Fabii were one of Rome's great houses; by legend 306 of them fell at the river Cremera (477 BC)."""),
+(846, 'rem.',
+ """You are that Maximus,
+the one who for us by delaying restores the state.""",
+ """You are the famous Maximus, the one man whose delays bring our state back to health.""",
+ """Q. Fabius Maximus Cunctator, 'the Delayer', who after the disaster at Lake Trasimene (217 BC) wore Hannibal down by refusing pitched battle. 'Maxumus' is Greenough's old spelling of 'maximus', and the cognomen is played on: 'greatest' as well as a name. 'Ille' is 'that famous'. Line 846 is taken from Ennius's Annals, 'unus homo nobis cunctando restituit rem', 'one man by delaying restored the state for us', a line Cicero quotes; Virgil turns it into the second person and the present, 'restituis'. The monosyllable 'rem' at the line's end is unusual in Virgil and keeps the old, rough Ennian sound."""),
+(850, 'dicent:',
+ """Others will hammer out breathing bronzes more softly,
+I believe indeed, will draw living faces out of marble,
+will plead causes better, and of the heaven the motions
+will mark out with the rod, and the rising stars will tell:""",
+ """Others, I am sure of it, will beat out bronze that seems to breathe with a gentler skill, and coax features alive from the marble; others will argue cases more ably, map the wanderings of the sky with the pointer, and name the stars as they climb:""",
+ """'Alii', 'others', are the Greeks, unnamed: in sculpture, oratory and astronomy they will surpass the Romans. 'Excudent' is 'will hammer out', of work in bronze; 'spirantia… aera' is 'breathing bronzes', statues so lifelike they seem to breathe, and 'mollius' 'more softly', with more supple lines. 'Credo equidem' is a parenthesis, 'I truly believe', 'I grant'. 'Ducent de marmore' is 'will draw out of marble', as if the face were already in the stone. 'Orabunt causas' is 'will plead cases', a surprising concession for a nation that produced Cicero. 'Radio' is the 'radius', the rod with which geometers and astronomers drew figures in sand; 'meatus' are the 'movements', 'courses' of the heavens. The colon looks forward to the contrast in the next lines. Note the run of futures: the whole pageant is prophecy."""),
+(853, 'superbos.”',
+ """you, to rule by your command the peoples, Roman, remember;
+these for you will be the arts; and of peace to impose the custom,
+to spare the subjected, and to fight out the war against the proud.”""",
+ """As for you, Roman, keep this in mind: your calling is to govern the peoples by your sovereign power — these will be the skills that are yours — to make peace a settled custom, to show mercy to those who submit, and to fight the arrogant to the finish.”""",
+ """The most quoted lines of the poem, and the end of Anchises's long speech, opened at 756; the closing mark is here. 'Tu… Romane' is a singular address to the whole Roman people, set against 'alii'. 'Memento' is the future imperative of 'memini', 'remember', the form of laws and solemn commands; the infinitive 'regere' depends on it, 'remember to rule'. 'Imperio' is 'by your command', 'with sovereign power', the 'imperium' of a magistrate and of Rome. 'Hae tibi erunt artes' is a dative of possession, 'these will be your arts', in parenthesis, and the infinitives 'imponere', 'parcere', 'debellare' spell the arts out. Greenough prints 'pacisque imponere morem', 'and to impose the custom of peace'; the Latin Library has 'pacique imponere morem', 'and to set a rule (civilised order) upon peace', which many editors prefer. 'Subiectis' is 'those who have submitted'; 'debellare' is 'to fight a war to the end', 'de-' completing the action. 'Superbos', the last word, answers 'animam superbam' of 817."""),
+(854, 'addit:',
+ """Thus father Anchises, and these things to them wondering he adds:""",
+ """So father Anchises spoke, and, as they marvelled, he went on:""",
+ """A new paragraph in Greenough. 'Sic pater Anchises' leaves out the verb of speaking ('dixit'), as so often. 'Mirantibus' is a participle used as a noun, dative with 'addit', 'to them as they wondered': Aeneas and the Sibyl."""),
+(856, 'omnes!',
+ """“Look how, marked out by the rich spoils, Marcellus
+advances, and as victor stands above all men!""",
+ """“See how Marcellus strides along, splendid with the richest of spoils, and towers in victory over all the others!""",
+ """A new speech, so it opens with “. M. Claudius Marcellus, five times consul, killed the Gallic chieftain Viridomarus in single combat at Clastidium in 222 BC and won the 'spolia opima', the 'richest spoils', taken by a Roman general from an enemy leader he had killed with his own hand: only Romulus, Cossus (841) and Marcellus ever won them. He fought Hannibal and took Syracuse (212 BC). 'Aspice, ut' is 'look, how', an indirect question in the indicative, an older usage (as 'viden ut' at 779). 'Supereminet' is 'stands out above', taking the accusative. 'Omnes', Latin Library 'omnis', is orthography."""),
+(859, 'Quirino.”',
+ """This man the Roman state, a great uproar disturbing,
+will steady; a horseman, he will lay low the Carthaginians and the rebellious Gaul,
+and the third arms he will hang up, taken, to father Quirinus.”""",
+ """He will hold the Roman state firm when a great upheaval shakes it; fighting on horseback he will strike down the Carthaginians and the rebel Gaul, and hang up for father Quirinus the third set of captured arms.”""",
+ """'Magno turbante tumultu' is an ablative absolute, 'when a great tumult disturbs (it)'; 'tumultus' was the technical word for a sudden war in Italy, especially a Gallic rising. 'Sistet' is 'will make stand', 'will steady'. 'Eques' is 'as a horseman': he killed Viridomarus fighting on horseback. 'Poenos' are the Carthaginians, 'Gallum' the Gauls (collective singular). 'Tertia… arma' are the third 'spolia opima' in Roman history. Quirinus is the deified Romulus; an old law ascribed to Numa is said to have assigned the third such spoils to Quirinus, though other accounts have Marcellus dedicate them to Jupiter Feretrius like the first two. The closing mark ends this short speech."""),
+(862, 'voltu:',
+ """And here Aeneas; for going together he saw
+a youth outstanding in form and in shining arms,
+but his brow glad too little, and with downcast face his eyes:""",
+ """And here Aeneas spoke, for he saw walking with him a young man of rare beauty in gleaming armour, but there was little gladness on his brow, and his eyes looked down:""",
+ """A new paragraph in Greenough. 'Atque hic Aeneas' leaves out the verb of speaking again; 'hic' is 'at this point'. 'Una… ire' is 'going along with (him)', with the elder Marcellus. The young man is M. Claudius Marcellus, son of Augustus's sister Octavia, married to his daughter Julia and marked out as his heir; he died at Baiae in 23 BC, about nineteen years old. 'Forma… armis' are ablatives of description ('egregium forma', 'outstanding in beauty'). 'Laeta parum' is 'too little glad', a litotes for 'sad'. 'Deiecto lumina voltu' is 'his eyes with downcast face', the verb 'erant' understood. 'Voltu', Latin Library 'vultu', is orthography."""),
+(863, 'euntem?',
+ """“Who, father, is that, who thus accompanies the man as he goes?""",
+ """“Father, who is that who keeps the hero company as he goes?""",
+ """Aeneas's question opens with “. 'Virum… euntem' is the elder Marcellus; 'comitatur' is a deponent, 'accompanies'. 'Ille' is 'that one', with 'est' understood."""),
+(864, 'nepotum?',
+ """His son, or someone from the great stock of descendants?""",
+ """Is he his son, or one from the great line of his descendants?""",
+ """'Anne' is 'or', introducing the second half of a double question. 'Nepotum' is 'of descendants', not only 'grandsons'. In fact the young Marcellus was a distant descendant of the hero, through the Claudii Marcelli."""),
+(865, 'ipso!',
+ """What a noise around of companions! How great a presence in the man himself!""",
+ """What a stir of companions round him! What a presence there is in the man himself!""",
+ """Two exclamations. 'Quis strepitus' uses 'quis' as an adjective for 'qui', 'what a din'; the Latin Library prints 'qui', the same sense. 'Circa' is an adverb, 'around'. 'Instar' is an indeclinable noun, 'likeness', 'image', and so 'worth', 'presence': 'how great an image (of greatness) in him!'. The crowd of companions is like the escort of a young prince, or the throng at his funeral."""),
+(866, 'umbra.”',
+ """But black night around his head flits with sad shade.”""",
+ """But a black night hovers round his head with its dismal shadow.”""",
+ """'Circumvolat' is 'flies round', taking 'caput' as its object; 'tristi… umbra' is an ablative of manner. The black night circling his head is an omen of early death. The closing mark ends Aeneas's question."""),
+(867, 'obortis:',
+ """Then father Anchises, with tears having begun, rising up:""",
+ """Then father Anchises began, while tears welled up in his eyes:""",
+ """'Ingressus' is from 'ingredior', here 'having begun (to speak)', as 'ingressus' is used at the start of a speech. 'Lacrimis… obortis' is an ablative absolute, 'tears having risen up'. The verb of speaking is again understood."""),
+(870, 'sinent.',
+ """“O son, the vast grief of your people do not ask after;
+the fates will show this one to the lands only, nor beyond
+will they let him be.""",
+ """“My son, do not seek to learn of the vast sorrow of your people; fate will only show this youth to the world, and will not let him live on beyond it.""",
+ """A new paragraph in Greenough, and Anchises's answer opens with “. 'Gnate' is the old spelling of 'nate', 'son'. 'Ne quaere' is again the prohibition with 'ne' and the imperative. 'Tuorum' is 'of your own (people)', your descendants. 'Hunc tantum' is 'him only', 'tantum' an adverb: fate will show him, no more. 'Ultra esse' is 'to exist beyond', 'to live longer'. 'Neque', Latin Library 'nec', is the same word."""),
+(871, 'fuissent.',
+ """Too mighty to you the Roman stock
+seemed, gods above, if these gifts had been lasting.""",
+ """The Roman race would have seemed to you, gods above, too powerful, if these gifts had been theirs to keep.""",
+ """'Visa' is 'visa esset', 'would have seemed', the verb 'esse' left out. 'Si… fuissent' is a past contrary-to-fact condition, pluperfect subjunctive. 'Propria' is 'one's own', 'permanent': the gift was only lent. Anchises addresses the gods directly ('Superi', vocative); 'vobis' is the dative with 'visa', 'in your eyes'."""),
+(874, 'recentem!',
+ """How great, that, groans of men to the great city of Mars
+the field will drive, or what, Tiberinus, will you see
+funerals, when the tomb you glide past fresh!""",
+ """What lamentation that field will send up to the great city of Mars, and what a funeral you will see, Tiber, as you flow past the new-built tomb!""",
+ """'Quantos… gemitus' frames the clause: 'how great groans'. The 'campus' is the Campus Martius, the Field of Mars, where the young Marcellus was cremated and buried in the Mausoleum Augustus had built beside the Tiber; 'ille' is 'that (famous) field'. 'Virum' is 'virorum', the old genitive plural. 'Mavortis' is 'of Mavors', the old name of Mars. 'Aget' is 'will drive', 'will send up'. 'Tiberine' is the vocative of 'Tiberinus', the god of the Tiber; 'praeterlabere' is the future 'praeterlaberis', 'you will glide past', the second-person '-re' ending. 'Funera' is plural, 'funeral rites', 'mourning'."""),
+(877, 'alumno.',
+ """Nor will any boy of the Ilian race his Latin
+forefathers raise so high in hope, nor the Romulean ever
+land in any nursling so pride itself.""",
+ """No boy of Trojan blood will lift his Latin forefathers so high in their hopes, nor will the land of Romulus ever take such pride in any son it has reared.""",
+ """'Iliaca… de gente' is 'of the Trojan race' (Ilium is Troy). 'In tantum spe tollet' is 'will raise to such a height in hope': the forefathers in the underworld are pictured as exalted by the promise of him. 'Romula… tellus' is 'the land of Romulus', 'Romulus' used as an adjective; the words are spread across two lines. 'Se… iactabit' is 'will boast itself', taking the ablative 'ullo… alumno', 'in any nursling', a child it has brought up."""),
+(879, 'dextera!',
+ """Alas the piety, alas the faith of old, and unconquered in war
+right hand!""",
+ """Ah, his goodness, his old-fashioned honour, and that right hand no battle would ever have beaten!""",
+ """Exclamations without a verb, nominatives of grief: 'heu pietas', 'alas for (his) dutifulness'. 'Pietas' is duty to gods, country and family, Aeneas's own virtue; 'prisca fides' is 'faith of the old days', honour as the early Romans kept it. 'Invicta bello dextera' is 'a right hand unconquered in war', the hand that would have fought for Rome. Note the anaphora 'heu… heu'."""),
+(881, 'armos.',
+ """Not against him would anyone have come unscathed,
+meeting him armed, whether when on foot he went against the enemy,
+or of a foaming horse dug with his spurs the shoulders.""",
+ """No one would have faced him in arms and come away unharmed, whether he advanced against the enemy on foot or drove his spurs into the flanks of a foaming charger.""",
+ """'Se… tulisset obvius' is 'would have carried himself in his way', 'would have met him', the pluperfect subjunctive of what would have happened had he lived; 'impune' is 'with impunity', 'unscathed'. 'Illi' is the dative with 'obvius'; 'armato', 'when he was armed'. 'Pedes' is 'a foot-soldier', 'on foot', set against the horseman of the next line. 'Spumantis' is genitive singular with 'equi'; 'armos' are the shoulders (forequarters) of the horse; 'foderet' is 'dug'. 'Seu… seu' is 'whether… or'."""),
+(883, 'eris.',
+ """Alas, boy to be pitied, if in any way the harsh fates you could break,
+you will be Marcellus.""",
+ """Ah, boy we must weep for, if only somehow you could tear the cruel web of fate! You are to be Marcellus.""",
+ """'Miserande' is the gerundive in the vocative, 'you who must be pitied'. 'Si qua' is 'if in any way', 'qua' an adverb. 'Rumpas' is the present subjunctive of a wish or of a condition not likely to be fulfilled: 'if you should break'. 'Tu Marcellus eris' can be read two ways: 'you will be (the true heir of) Marcellus', if you escape fate; or simply 'you are to be Marcellus', the name revealed at last, with the 'if' clause a broken wish. By an old story (in Donatus's Life of Virgil) Octavia fainted when Virgil read these lines to her and Augustus."""),
+(886, 'munere”—',
+ """With full hands give lilies,
+let me scatter purple flowers, and the soul of my descendant
+with these at least let me heap up gifts, and let me perform an empty
+service”—""",
+ """Bring lilies by the heaped handful, let me strew bright blossoms; let me at least load my descendant's spirit with these gifts and carry out a rite that can change nothing” —""",
+ """'Date' is 'give', to the attendants or anyone near; 'manibus… plenis' is 'with full hands', the words framing the line. 'Spargam', 'adcumulem' and 'fungar' are jussive subjunctives, 'let me scatter'. 'Purpureos' is 'bright', 'gleaming', of any strong colour, not only purple. 'Adcumulem' is Greenough's spelling of 'accumulem', 'heap', 'load' (the prefix 'ad-' left unassimilated, as in 'adsuescite' at 832); it takes the accusative of the thing honoured and the ablative of the gift, 'his… donis'. 'Fungar' takes the ablative 'inani munere', 'perform an empty duty': flowers on the grave cannot bring him back. The closing mark comes after 'munere', and Greenough breaks off with a dash: Anchises's lament ends unfinished, and the narrative begins again in the middle of the line."""),
+(887, 'lustrant.',
+ """Thus all over the whole region they wander
+in the broad plains of air, and survey all things.""",
+ """So they roam here and there through the whole region, across the wide fields of air, and look on everything.""",
+ """'Sic' is 'thus', 'in this way'. 'Tota… regione' is an ablative of place where, 'throughout the whole region'; 'passim' is 'here and there'. 'Aëris in campis' is 'in the plains of air': Elysium has its own sky and air (as at 640–641), or the phrase may mean misty, shadowy plains. Greenough's diaeresis in 'aëris' only marks the three syllables, a-e-ris. 'Lustrant' is 'they survey', 'go over'."""),
+(892, 'laborem.',
+ """Which things after Anchises led his son through one by one,
+and fired his mind with love of the fame to come,
+then the wars to the man he recounts which next must be waged,
+and the Laurentine peoples teaches, and the city of Latinus,
+and in what way each and every toil he may flee and bear.""",
+ """When Anchises had led his son through all these sights one by one and had set his heart on fire with longing for the glory to come, he tells him then of the wars he has still to fight, instructs him about the Laurentine peoples and the city of Latinus, and how to avoid each hardship or how to endure it.""",
+ """'Quae' is a connecting relative, 'and these things', the object of 'duxit… per'. 'Per singula' is 'through each in turn'. 'Famae venientis' is 'of the fame to come'; 'incendit… amore' is 'set on fire with love'. 'Exin' is 'exinde', 'then' (Latin Library 'exim', the same word). 'Gerenda' is 'gerenda sint', 'which must be waged', the gerundive of obligation with the verb left out. The Laurentines are the people of Laurentum, the city of King Latinus, where Book VII will begin the war. 'Quo quemque modo' is 'in what way each', introducing an indirect question, hence the subjunctives 'fugiatque feratque', with a double '-que… -que'. Line 892 turns into the third person a line of Helenus's prophecy in Book III, where he promised that the Sibyl would tell Aeneas how to avoid or bear each trouble."""),
+(894, 'umbris;',
+ """There are twin gates of Sleep, of which the one is said
+to be of horn, by which to true shades easy exit is given;""",
+ """Sleep has a pair of gates. One of them, men say, is made of horn, and through it the shadows that speak the truth find a ready way out;""",
+ """A new paragraph in Greenough. The two gates of dreams come from the Odyssey, Book 19, where Penelope tells the disguised Odysseus that dreams come through two gates, true ones through the gate of horn and deceiving ones through the gate of ivory; the Greek plays on words for 'horn' and 'fulfil', 'ivory' and 'deceive'. 'Fertur' is 'is said (to be)'. 'Veris… umbris' is a dative, 'to true shades', dreams or phantoms that tell the truth. 'Facilis datur exitus' is 'easy exit is given'."""),
+(896, 'Manes.',
+ """the other, wrought of gleaming ivory, shining,
+but false dreams to the sky send the Manes.""",
+ """the other is finished in white ivory and glitters brightly, but through it the spirits of the dead send up to the world above dreams that deceive.""",
+ """'Candenti… elephanto' is 'of white ivory', 'elephantus' meaning both the elephant and its ivory; 'perfecta' is 'wrought', 'finished', 'nitens' 'shining'. 'Sed' contrasts its beauty with what passes through it. 'Insomnia' is 'dreams' (neuter plural of 'insomnium'), not sleeplessness. 'Ad caelum' is 'to the upper world'. The 'Manes' are the spirits of the dead, or the powers of the world below."""),
+(899, 'revisit:',
+ """With these, when then his son Anchises and with him the Sibyl
+he escorts with words, and sends them out by the ivory gate,
+he cuts his way to the ships and sees his companions again:""",
+ """When Anchises, still speaking, has brought his son and the Sibyl with him on their way, and sends them out through the gate of ivory, Aeneas cuts a straight path to the ships and is with his comrades once more:""",
+ """'His… dictis' is 'with these words'. 'Prosequitur' is 'escorts', 'sees off'. 'Ubi' is 'when'; the Latin Library prints 'ibi', 'there', making two main clauses, 'there Anchises escorts… and sends… ; he cuts his way'. 'Porta… eburna' is 'by the ivory gate', the gate of false dreams. Why Aeneas leaves by the ivory gate is one of the great puzzles of the poem: it may mean only that he leaves before midnight (after which dreams were held to be true), or that what he has seen is a vision and not a literal journey, or something darker about the pageant itself; the poem does not say. 'Ille' is Aeneas. 'Viam secat' is 'cuts his way'."""),
+(900, 'portum.',
+ """then he carries himself to Caieta's harbour along the straight shore.""",
+ """then he makes his way straight along the coast to the harbour of Caieta.""",
+ """'Se… fert' is 'carries himself', 'goes'. 'Caietae… portum' frames the line: Caieta (modern Gaeta), on the coast of Latium, takes its name from Aeneas's nurse, who dies there in the opening lines of Book VII. Greenough prints 'recto… litore', 'along the straight shore'; the Latin Library has 'recto… limite', 'by a straight course', which most editors now read."""),
+(901, 'puppes.]',
+ """[The anchor is cast from the prow; the sterns stand on the shore.]""",
+ """[The anchor is thrown from the bow; the ships stand ranged along the beach.]""",
+ """Greenough brackets line 901 as spurious, so it stands inside [ ]. It is a repetition of 3.277, which some manuscripts add here to close the book with the fleet at anchor. 'Iacitur' is the present passive, 'is thrown'; 'puppes' are the sterns, which stood towards the shore when a ship was moored; 'litore' is the ablative of place, 'on the shore'. Book VI ends here, and with it the first, Odyssean half of the poem."""),
+]
+P = A.part('aeneid-048'); L = A.lines_of(P); paras = {l['n'] for l in L if l['p']}
+cuts = A.cut(P, [(u[0], u[1]) for u in U])
+sents = []; prev_end_line = None
+for (t, ln), (_, _t, l, i, n) in zip(cuts, U):
+    u = {'t': t, 'l': l, 'i': i, 'n': n}
+    if prev_end_line != ln and ln in paras: u['p'] = True
+    u['v'] = True; u['ln'] = ln; sents.append(u)
+    prev_end_line = ln + t.count('\n')
+    if t.count('\n') != l.count('\n'): print('LINE COUNT', ln, repr(t[:30]), t.count('\n'), l.count('\n'))
+    if t.count('\n') > 4: print('TOO LONG', ln)
+    if '\n' in i: print('NEWLINE IN i', ln)
+A.jdump({'title': TITLE, 'titleEn': TITLE_EN, 'part': PART, 'about': ABOUT, 'sentences': sents}, os.path.join(HERE, 'units.json'))
+print(len(sents), 'units')

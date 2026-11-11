@@ -4,7 +4,7 @@
 
 | part | name | range | status |
 |---|---|---|---|
-| mabinogi-002 | The rider at the mound of Arberth | Evans cols 12–19 | todo |
+| mabinogi-002 | The rider at the mound of Arberth | Evans cols 12–19 | established |
 | mabinogi-003 | Gwawl and the bag | Evans cols 19–27 | todo |
 | mabinogi-004 | Rhiannon's lost son | Evans cols 27–38 | todo |
 | mabinogi-005 | Branwen given to Matholwch | Evans cols 38–47 | todo |

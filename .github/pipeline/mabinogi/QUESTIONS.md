@@ -13,3 +13,7 @@ the drafter's note to say it is *march* soft-mutated, spelt with the w-letter. T
 - "a'y dodi yn y carchar e hun" (col. 24): whose prison is not said, and *carchar* is unmutated after 'his' (Red Book *y garchar*). Decided meanwhile: `l`/`i` "his own", note says the referent is uncertain.
 - "nit eidawaf y rodi y neb" (col. 22): rare; Red Book "nyt adawaf". Decided meanwhile: text as the White Book, read 'it is not mine to give', flagged uncertain.
 - Published glossary entries *gelwit*, *gyweirwyt* say "3 sg. impersonal"; the 003 review uses "impersonal". Left unchanged (outside this part); the owner may want them aligned.
+
+## 2026-11-11 · mabinogi-004 · small open points
+- Col. 34 l. 21: "nat oed iawn udunt wy attal y mab ganthaw" — Evans prints singular *ganthaw* where the witness has *ganthunt*. Decided meanwhile: text as the White Book; the note will say so.
+- Col. 37 l. 18: "Teirnon Toryfliant" against "Twryf Uliant" elsewhere in the part. Decided meanwhile: printed as written; English "Teirnon Twrf Liant" throughout, the note says the spelling differs.

@@ -6248,5 +6248,131 @@
    "6pu–bes×"
   ],
   "why": "Laomedontia is six syllables, Lā-ŏ-mĕ-dōn-tĭ-ă, as Laomedontiadae at 3.248: Au-sŏ-nĭ | ās tŭ-lĕ | rat cum | Lā-ŏ-mĕ | dōn-tĭ-ă | pū-bēs (16 syllables). The scanner (no flag) ran Lao- into one syllable and made -me- long."
+ },
+ "7.107": {
+  "sc": [
+   "1Ae–ne–2as–",
+   "pri–3mi–que⏑",
+   "du⏑4ces–‖",
+   "et–",
+   "5pul–cher⏑",
+   "I⏑6u–lus×"
+  ],
+  "why": "Flagged COSTLY. Aeneas has the initial diphthong Ae- as one long syllable, Aē-nē-ās, and Iulus is Ĭ-ū-lus, three syllables with a vowel I (as 1.556, 5.570): Aē-nē | ās prī | mī-quĕ dŭ | cēs et | pul-chĕr Ĭ | ū-lus (14 syllables). The scanner (COSTLY 3.2) split Ae- into A-e, read Iulus as two syllables with a consonantal I, and made the fifth foot a spondee."
+ },
+ "7.116": {
+  "sc": [
+   "1Heus–",
+   "e⏑ti⏑2am–",
+   "men–3sas–‖",
+   "con–4su–mi⏑mus⏑",
+   "5in–quit⏑",
+   "I⏑6u–lus×"
+  ],
+  "why": "Flagged COSTLY. Iulus is Ĭ-ū-lus, three syllables with a vowel I (as 1.556, 5.570), so -quit before it is short and the fifth foot a dactyl: Heus ĕ-tĭ | am mēn | sās con | sū-mĭ-mŭs | in-quĭt Ĭ | ū-lus (15 syllables); heus is one syllable. The scanner (COSTLY 3.5) took Iu- as consonantal and made a spondaic fifth foot."
+ },
+ "7.124": {
+  "sc": [
+   "1cum–",
+   "te–",
+   "2na–te⏑",
+   "fa⏑3mes–‖",
+   "ig–4no–ta",
+   "ad–",
+   "5li–to⏑ra⏑",
+   "6vec–tum×"
+  ],
+  "why": "tē (pronoun) and nāte (nātus) are long and fămes has a short a: cum tē | nā-tĕ fă | mēs ig | nō-t(a) ad | lī-tŏ-ră | vec-tum (14 syllables; ignota elides into ad). The scanner (no flag) made te and na- short and fa- long."
+ },
+ "7.128": {
+  "sc": [
+   "1Haec–",
+   "e⏑rat⏑",
+   "2il–la⏑",
+   "fa⏑3mes–‖",
+   "haec–",
+   "4nos–",
+   "su–5pre–ma⏑",
+   "ma⏑6ne–bat×"
+  ],
+  "why": "Carrier line, checked by hand: haec ĕ-răt | il-lă fă | mēs haec | nōs sū | prē-mă mă | nē-bat (15 syllables), the scanner's own fit. Listed because its second unit runs on into the half-line 129, and the build gives no sc to a unit with an unresolved line."
+ },
+ "7.129": {
+  "sc": [
+   "1ex–i⏑li⏑2is–",
+   "po⏑si⏑3tu–ra⏑",
+   "mo⏑4dum×"
+  ],
+  "why": "Half-line (hemistich), one of Virgil's unfinished lines: ex-ĭ-lĭ | īs pŏ-sĭ | tū-ră mŏ | dum, three dactyls and the first syllable of a fourth foot (– ⏑ ⏑ | – ⏑ ⏑ | – ⏑ ⏑ | –), the last syllable marked × as the end of the line. ex- is long by position (x), exiliis four syllables, positūra with long -tū-. The scanner returns UNRESOLVED because there is no hexameter to fit (flagged in packet.md)."
+ },
+ "7.160": {
+  "sc": [
+   "1Iam–que",
+   "i⏑ter⏑",
+   "2e–men–3si–‖",
+   "tur–4ris–",
+   "ac–",
+   "5tec–ta⏑",
+   "La⏑6ti–no×rum"
+  ],
+  "why": "Hypermetric line: iam-qu(e) ĭ-tĕr | ē-men | sī tur | rīs ac | tec-tă Lă | tī-nō(rum), with 14 syllables and the final -rum of Latinorum elided into the initial a- of ardua in 161 (synaphea), as at 1.332 and 1.448. Iamque elides into iter; ēmensi has long ē-; turrīs (accusative plural) long. The scanner cannot elide across a line end and returned UNRESOLVED (flagged in packet.md)."
+ },
+ "7.161": {
+  "sc": [
+   "1ar–du⏑a⏑",
+   "2cer–ne–3bant–‖",
+   "iu⏑ve⏑4nes–",
+   "mu–5ro–que⏑",
+   "su⏑6bi–bant×"
+  ],
+  "why": "Carrier line, checked by hand: ar-dŭ-ă | cer-nē | bant iŭ-vĕ | nēs mū | rō-quĕ sŭ | bī-bant (15 syllables), the scanner's own fit; iuvenes has a consonantal i. Listed because it shares a unit with the hypermetric 160, which the scanner cannot fit, and the build gives no sc to a unit with an unresolved line."
+ },
+ "7.174": {
+  "sc": [
+   "1re–gi⏑bus⏑",
+   "2o–men⏑",
+   "e⏑3rat–‖",
+   "hoc–",
+   "4il–lis–",
+   "5cu–ri⏑a⏑",
+   "6tem–plum×"
+  ],
+  "why": "ōmĕn has a short second syllable before erat, ĕrat a short e-, and hōc (neuter, for hocc) is long; the -at of erat is lengthened in the arsis at the main caesura and the sense pause (h does not make position), as with sēsē at 1.314: rē-gĭ-bŭs | ō-mĕn ĕ | rāt hōc | il-līs | cū-rĭ-ă | tem-plum (15 syllables). The only fit; UNCONFIRMED against an edition. The scanner (no flag) made -men and e- long and hoc short."
+ },
+ "7.175": {
+  "sc": [
+   "1hae–",
+   "sa–2cris–",
+   "se–3des–‖",
+   "e⏑pu⏑4lis–",
+   "hic–",
+   "5ar–ie⏑te⏑",
+   "6cae–so×"
+  ],
+  "why": "ĕpŭlīs has both first syllables short and the ablative -īs long, and hīc (adverb) is long: hae sā | crīs sē | dēs ĕ-pŭ | līs hīc | ar-yĕ-tĕ | cae-sō (14 syllables). sacris is long by position before cr, the only fit; ariete is three syllables with consonantal i, ar- long by position. The scanner (no flag) made e- long, -pu- long, -lis short and hic short."
+ },
+ "7.178": {
+  "sc": [
+   "1an–ti–qua",
+   "2e–",
+   "ce–3dro–‖",
+   "I⏑ta⏑4lus–que⏑",
+   "pa⏑5ter–que⏑",
+   "Sa⏑6bi–nus×"
+  ],
+  "why": "Hiatus after cedro at the main caesura and the sense pause (no elision before Italusque; with it there is no fit), as Virgil's hiatus at 1.16: an-tī | qu(a) ē cē | drō Ĭ-tă | lus-quĕ pă | ter-quĕ Să | bī-nus (15 syllables). antīqua has long ī and elides into ē; cē- is long by position before dr; Ĭtalus has a short I, as Ĭtalis at 1.252. The scanner (no flag) made -ti- short and I- long and elided cedro."
+ },
+ "7.193": {
+  "sc": [
+   "1se–de⏑",
+   "se⏑2dens–",
+   "Teu–3cros–‖",
+   "ad–",
+   "4se–se",
+   "in–",
+   "5tec–ta⏑",
+   "vo⏑6ca–vit×"
+  ],
+  "why": "Teucros has the Greek diphthong eu, one long syllable: sē-dĕ sĕ | dens Teu | crōs ad | sē-s(e) in | tec-tă vŏ | cā-vit (14 syllables; sese elides into in). The scanner (no flag) split Teu- into Te-u and made the second foot a dactyl."
  }
 }

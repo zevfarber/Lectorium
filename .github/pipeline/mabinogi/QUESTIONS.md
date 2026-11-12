@@ -30,3 +30,8 @@ the drafter's note to say it is *march* soft-mutated, spelt with the w-letter. T
 - Col. 49 l. 6: "carchara wynt ua na at trachefyn" — *ua* is certain on the image; the witness supplies "[ac]", the Red Book reads "hyt nat elont dracheuyn". Decided meanwhile: text as the White Book; the draft's note to read it as 'and do not let (them) back', flagged uncertain.
 - Col. 52 l. 1: "ygwaelawt" (single g) divided "y gwaelawt" (as "y mywn"); the owner may prefer "yg waelawt" or the witness's one word.
 - The englyn (col. 54) is set as a prose paragraph in quotes; the owner may want verse lines.
+
+## 2026-11-12 · mabinogi-006 · small open points (draft)
+- "pedeir degwlat a seithugeint" (col. 50; unit 27): read 'fourteen lands and seven score' = 154; the Red Book has *pedeir gwlat a seith ugeint* (144). Decided meanwhile: 154 in `l`/`i`, the note gives both and says the count is uncertain.
+- "a wnathoedit" (col. 48; unit 12): possibly a slip for *a wnaethoedit*; not in the establish log and not rechecked on the image. Decided meanwhile: text as established, glossed as the pluperfect impersonal of gwneuthur.
+- The englyn (unit 94): every rendering tentative (*kynniuyeit*, *rac kydwyr*); the owner may want it set as verse lines (see the establish point above).

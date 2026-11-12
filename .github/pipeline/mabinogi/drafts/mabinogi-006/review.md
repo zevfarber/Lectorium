@@ -75,3 +75,78 @@ Reviewer pass 1 (2026-11-12). I read all 98 units and the "about" against conven
 Pass 1: 1 major / 18 minor / 13 style
 
 ## Pass 2 (glossary)
+
+I checked all 264 novel-form entries and the 29 under `__broaden__` against the text, the reviewed units and known-forms.json. Edits were made by a Python script in place, keeping indent=1. Afterwards the keys of gloss.json minus `__broaden__` were checked to equal novel-forms.json exactly (264). Every `__broaden__` value begins with its known entry verbatim (27 remain). units.json was re-read against the glossary, and four notes were brought into line (below). It still has 98 units with every `t` unchanged.
+
+### Changes
+
+- foen · gloss · major · The lemma was an invented "moen", with the meaning "uncertain" and the cause given as m > f after the article. The word is *poen* with the spirant after *y* 'her' (p > ph, written f), as unit 16's note says and as in *a fawb*. · Rewritten.
+- ueis · gloss · major · The radical was "meis", with the meaning uncertain. The word is *beis* 'shallow water, ford', softened (b > u) after *y* 'to', as unit 33's note says. · Rewritten. No modern form is claimed.
+- kynghanei, ganho, ganhei, enghis · gloss · major · The lemma was given as *cynnwys* (a different verb) for the first three. *enghis* was glossed "apparently 'went in, entered'; the lemma is unknown". All four belong to *genni* (MW also *gannu*) 'be contained, have room'. *kynghanei* is the compound with *kyn-*. *enghis* is *genghis*, softened after *Ni*. *ganho* and *ganhei* are radical after the particle *y*. In *y ganho ef a gwyr* the nouns are the subject. · All four rewritten as in pass 1, with the Red Book forms (*kyghanei*, *eigwys*, *geingho*, *geinghei*).
+- doro · gloss · major · It was given as "dodi — to put". *doro* (= *dyro*) is the imperative of *rodi* 'give'. · Corrected.
+- braf · gloss · major · It was given as "braf (braf) — fine, splendid". As decided in pass 1, the word is *praff* 'thick, stout', softened after predicative *yn*, with f for ff (Red Book *yn braff*). · Corrected.
+- gossymdeitha · gloss · major · It was "3 sg. present/future … 'Matholwch will grant it'". The form is the 2 sg. imperative with *Uatholwch* as its object: 'provide for Matholwch'. · Corrected, in agreement with unit 65.
+- kychwynnyssant · gloss · minor · The example "teir llong ar dec a gychwynnyssant" is not the text. · It now quotes the text: *y kychwynnyssant teir llong ar dec*.
+- gael · gloss · minor · The cause was given as "after y 'to'". It is the possessive *y* 'its' (beichogi), as unit 8 says. · Corrected.
+- somm · gloss · minor · It was "insult, affront … noun f., no modern form". The word is *som* (modern *siom*) 'deceit, trick'. · Corrected.
+- diskynyssant · gloss · minor · "they went down / dispersed" contradicted unit 18's 'they settled'. · Corrected.
+- delediw · gloss · minor · The lemma was "teledyw (no modern form)". GPC has *telediw*. · Corrected.
+- drydwen · gloss · minor · The lemma was "trydwen", with a d-radical said to be possible. · Now *drudwen*, radical d-, with the identification still marked uncertain.
+- degwlat · gloss · minor · It was glossed "a unit of ten lands (tens of cantrefs)". · Now *deg* + *gwlat* (softened in the compound), the probable 154, and the Red Book's 144, as in unit 27.
+- dywyssogyon, benhaf · gloss · minor · The cause was given as *y* 'his, their' ("seven of his leaders"). It is *y* 'as' (and predicative *yn* for *yn benhaf*), as in units 29 and 32. *pennaf* was also given "no modern form", but *pennaf* is the modern form. · Corrected.
+- fodor · gloss · minor · It was "Fodor … f- may be radical or mutated". The Red Book has *a ffodor*. The name is Ffodor, with F for ff (/f/), and ff does not change after *a*. · Corrected.
+- 31 · n · minor · The note said "Ffodor, the spirant after a written F". The spirant mutation does not apply to ff. · Now "F written for ff … ff does not change after a (the Red Book a ffodor)".
+- wlch · gloss · minor · It was "possibly soft-mutated Gwlch after a 'and'". *a* does not soften. · The softening claim is removed.
+- phendaran · gloss · minor · It said "later Pryderi's guardian". He was already Pryderi's foster-father in the First Branch (004). · Corrected.
+- edeirnon · gloss · minor · It called Edeirnion "the cantref in the north of Wales". It was a commote. · "a commote in north-east Wales".
+- weithon · gloss · minor · It was given "no modern form", with the softening caused "after the imperative par". *weithon* (modern *weithian*) is always softened as an adverb. · Corrected.
+- dremynt · gloss · minor · It was "soft-mutated after o achaws". *o achaws* causes no softening. The log and unit 38 say there is no visible cause, because Evans prints no *e*. · Corrected.
+- henpych · gloss · minor · It was "(no modern form) — a greeting … meaning approximate". · Now *hanbot* (*hanfod*), the 2 sg. present subjunctive in *henpych guell* 'may you be better'.
+- welewch · gloss · minor · It was "2 sg. present 'you see'". It is the 2 pl. imperfect, as unit 42 says. · Corrected.
+- welat · gloss · minor · It was "impersonal imperfect". It is the impersonal preterite in -at, as unit 48 says (*welit* is the imperfect). · Corrected.
+- gwelem · gloss · minor · It was "imperfect/preterite … form uncertain". · Now the 1 pl. imperfect, which is certain.
+- kedyrn · gloss · minor · The lemma was "cedyrn (cedyrn)". · Now *cadarn*, with the plural used as a noun.
+- codyant · gloss · minor · It was "offence, outrage (cf. codi 'to rise')", which is the wrong *codi*. · Now *codiant* 'affliction, hurt' (cf. MW *codi* 'hurt, vex'), as in unit 64.
+- aduyd · gloss · minor · It was "probably 'then, afterwards' or 'perhaps'". · Now 'perhaps', with the Red Book's *atuyd*, as in unit 66.
+- deimlaw · gloss · minor · It was "after y 'it' … 'to feel it'". It is *y* 'his' (feeling him), as unit 84 says. · Corrected.
+- glyw · gloss · minor · It was "3 sg. present subjunctive". *clyw* is the present indicative, here a vivid present. · Corrected.
+- keimeit · gloss · minor · It was "warriors, champions, strides (cf. ceim 'step')". · Now *keimyat* (*ceimiad*) 'champion'.
+- kynniuyeit · gloss · minor · It was "gatherers … (cf. cynnull)". This contradicted unit 94. · Now *kynniuyat* (*cynnifiad*) 'warrior' (cf. *cynnif*), and still uncertain.
+- dothyw · gloss · minor · It was "3 sg. preterite … unusual form in -yw, uncertain". · Now the old 3 sg. perfect, as unit 95 says.
+- duundeb · gloss · minor · It was "undeb … the du- prefix is unclear". GPC has *duundeb* (from *duun* 'agreed'). · Corrected.
+- uorbennyd · gloss · minor · It was "mor 'sea' + penn … sea-captains". This contradicted unit 54 ('great chiefs', *mawr* + *penn*). · Both now give 'great chiefs' first and mention *mor* + *penn*, and both say the word is uncertain.
+- drwydi · gloss · minor · It claimed "soft-mutated (t>d) after the verbal noun uynet". MW writes *drwy* where no mutation is due (*drwy Linon*). · Corrected.
+- rot (broaden) · gloss · minor · The broadening glossed *y rot ac ef* as "between (it) and him … between them and him". It is 'between you and him', which the known entry already covers. · Removed.
+- dal (broaden) · gloss · minor · The cause was given as "soft after y 'the'". In *ar dal y noe* the softening is after *ar*. · Corrected.
+- ys (broaden) · gloss · minor · It was "'then I shall take', a preverbal particle (a variant of yd)". This contradicted *aduyd* 'perhaps'. · Now: perhaps the particle, perhaps the infixed 's 'it', uncertain, with the Red Book's *atuyd ys kymeraf*.
+- teyrndlws · gloss · style · It said "no mutation". · *tlws* softened to *dlws* in the compound.
+- amseroyd · gloss · style · It said "after the article y'r". The text has *yr*. · Corrected.
+- lliwaw · gloss · style · It said "meaning uncertain here". 'Reproach' is the established sense, as in unit 13. · Firmed.
+- cauas · gloss · style · It said "where he found". The subject is the bird. · "where it [the bird] found".
+- dadleu · gloss · style · It said "in debate for himself, in council". · "holding court".
+- their · gloss · style · The lemma was "tair (tair)". · "teir (tair)".
+- kynueissat, kynweisyat · gloss · style · They said "no modern form". · *cynweisiad*, as in unit 32.
+- arwest · gloss · style · It said "music, minstrelsy". · "string (of an instrument)", uncertain, as in unit 36.
+- wchi · gloss · style · It said "probably transposed from chwi". · "a variant spelling of the pronoun".
+- hwylbrenni · gloss · style · The softening p > b in the compound was not named. · Added.
+- torryssant, tangnoueda, cant · gloss · style · The missing softening was not stated. · Stated, with the Red Book agreeing in each case.
+- ehegyr · gloss · style · · The Red Book's *yn ebrwyd* added.
+- racdu · gloss · style · It said "no modern form". · *rhagddo*.
+- gwra · gloss · style · It said "the lemma is a guess". *gwrhau* is the GPC verb. · Corrected.
+- ystynnu, ystynnwyt · gloss · style · The example "handing it to your keeping" did not match unit 64 ("in your presence"). · Aligned. The modern form is now *estyn*.
+- draws · gloss · style · It said "on his back". · Removed.
+- efnyssyen · gloss · style · The modern form was "Efnisien", but the units use Efnysien. · Efnysien.
+- ymanodi, ureichell · gloss · style · They said "work, move, probe about", and the Red Book reading was missing. · Aligned with unit 84, and *vreithell* added.
+- ban, benn, uatholwch (broaden) · gloss · style · The *ban* example misquoted the text. *am benn* (unit 91) and the object *Uatholwch* (unit 65) were not covered. · Fixed and added.
+- gouyn (broaden) · gloss · style · The broadening was not needed: the known entry already covers the verbal noun. · Removed.
+- 39 · n · style · The note said "'may you be well'", against l "may-you-be better". · "'may you be better'".
+- 42 · n · style · *wchi* was called "the emphatic form" of *chwi*. · "a spelling of chwi, the pronoun repeated after the verb".
+- 54 · n · style · · Aligned with the glossary on *uorbennyd*, as above.
+
+### Refused
+- **beis**: no modern form is given ("no common modern form"). I was not sure enough of a GPC headword to name one.
+- **medei**: the glossary already gives the defective verb (*meddai*), in agreement with pass 1. Kept.
+- **orwyllt**: it says "cause unclear", as unit 80 does. Kept.
+- The remaining broadenings (wr, gwyr, kyn, uendigeiduran, uranwen, wyd, down, hyn, lu, law, was, barawt, yscwyd, edewit, lynn, llynn, ryw, ay, uu, ueirch, uawr, gerdet) are each needed and correct. Kept.
+
+Pass 2: 6 major / 34 minor / 28 style

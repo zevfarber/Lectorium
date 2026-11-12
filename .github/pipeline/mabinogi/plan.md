@@ -9,7 +9,7 @@
 | mabinogi-004 | Rhiannon's lost son | Evans cols 27–38 | published |
 | mabinogi-005 | Branwen given to Matholwch | Evans cols 38–47 | published |
 | mabinogi-006 | Branwen's starling and the house in Ireland | Evans cols 47–55 | published |
-| mabinogi-007 | The cauldron, the head and the seven survivors | Evans cols 55–61 | todo |
+| mabinogi-007 | The cauldron, the head and the seven survivors | Evans cols 55–61 | established |
 | mabinogi-008 | Dyfed laid waste; craftsmen in England | Evans cols 61–68 | todo |
 | mabinogi-009 | The shining boar, the empty fort and the wheat | Evans cols 68–75 | todo |
 | mabinogi-010 | The mouse on the gallows | Evans cols 75–81 | todo |

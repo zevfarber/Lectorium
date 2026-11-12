@@ -35,3 +35,10 @@ the drafter's note to say it is *march* soft-mutated, spelt with the w-letter. T
 - "pedeir degwlat a seithugeint" (col. 50; unit 27): read 'fourteen lands and seven score' = 154; the Red Book has *pedeir gwlat a seith ugeint* (144). Decided meanwhile: 154 in `l`/`i`, the note gives both and says the count is uncertain.
 - "a wnathoedit" (col. 48; unit 12): possibly a slip for *a wnaethoedit*; not in the establish log and not rechecked on the image. Decided meanwhile: text as established, glossed as the pluperfect impersonal of gwneuthur.
 - The englyn (unit 94): every rendering tentative (*kynniuyeit*, *rac kydwyr*); the owner may want it set as verse lines (see the establish point above).
+
+## 2026-11-12 · mabinogi-007 · small open points (establish)
+- Col. 58 l. 36: the White Book writes "Ac ar hynny o gin" at the foot of fol. 185v, then on the next leaf "A chyn amlyket … Ac ar hynny o ginyaw y buant seith mlyned" — the clause begun too early and written again in place. Decided meanwhile: printed as written, "Ac ar hynny o gin— A chyn amlyket …", the note to say so. The owner may prefer to drop the false start (a re-pin).
+- Col. 57 l. 31: Evans prints "guae ni o'm ganedigaeth" (witness and Red Book *ui*). Decided meanwhile: *ni* kept; the note gives *ui*.
+- Col. 60 l. 13: "kychu a'r penn" (witness *kyrchu*, Red Book *kychwynnu*). Decided meanwhile: kept as printed, flagged uncertain.
+- Col. 57: "yglan Alaw" divided "y glan" as 006's "y gwaelawt"; same open point.
+- source/drafts/mabinogi-007-ocr.txt carries a block of mabinogi-006's text inside col 56 (a setup-script fault); it did not affect the established text (col 56 read from the image). Not corrected (setup file).

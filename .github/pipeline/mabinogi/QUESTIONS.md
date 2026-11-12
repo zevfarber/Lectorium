@@ -20,3 +20,8 @@ the drafter's note to say it is *march* soft-mutated, spelt with the w-letter. T
 
 ## 2026-11-12 · mabinogi-004 · word division at col. 30
 - "am gyflauan mor anwedus ac ar y wnaethoed" (unit 40): Evans prints *arýwnaethoed* as one run, so the division "ar y" is ours (from the witness). The sense wants *a ry wnaethoed* 'that she had done' (relative a + perfective ry; Red Book *ac a wnathoed*). Decided meanwhile: text left as established ("ar y"); the note explains it as *a ry*, and the glossary entries stand with either division. The owner may want the text re-divided "ac a ry wnaethoed" (a re-pin of the established text).
+
+## 2026-11-12 · mabinogi-005 · small open points
+- "tryded prif rieni yn yr ynys hon" (col. 40; units 31, 68): *rieni* read as 'ancestresses' (one of the Three Chief Ancestresses); it might be *rianed* 'maidens'. Decided meanwhile: 'Chief Ancestresses' in both places, the notes say the sense is uncertain.
+- "ardiawc … yn ymdidan" (col. 44; unit 91): both manuscripts read *yn ymdidan*; the Red Book adds *amyuarth*, sense unclear. Decided meanwhile: text as the White Book, construed 'dull … in talk', flagged uncertain.
+- Rare words left flagged uncertain in notes and glossary: *angassei*, *ymaruar*, *athrugar*, *anorles*, *eighaw*, *delediwaf*; *kyuref* kept with no modern form (perhaps *cyfref*; not confirmed).

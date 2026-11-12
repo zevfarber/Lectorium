@@ -85,3 +85,87 @@ I did not recognise any phrase in i as remembered from a published translation.
 After the edits, a script confirmed that units.json has 134 units and that every `t` equals the corresponding `t` in cut.json, character for character.
 
 ## Pass 2
+
+Reviewer pass 2 (2026-11-12) covered the glossary draft `gloss.json` and gave units.json a second reading.
+- **Glossary:** I checked all 358 new entries and all 51 broadenings against the text and against the unit notes as they stand after pass 1, on each of these points:
+  - the lemma, its modern form, and "(no modern form)" where there is none;
+  - meaning and part of speech;
+  - tense, mood, person and number;
+  - the mutation, its cause and the radical.
+- **Aids:** the same as in pass 1, together with the Red Book text and the published `mabinogi-glossary.json`, which I used for consistency of lemmas (e.g. *telediw*, *gwreicda*, *caffael (cael)*).
+- **How the edits were made:** by Python script (`ensure_ascii=False, indent=1`). Every changed entry was rewritten whole or by an exact substring replacement.
+- **Checks after the edits:**
+  - the 358 keys still equal novel-forms.json, and none is empty;
+  - every remaining broadening begins with the old published entry, character for character, followed by " · ";
+  - units.json still has 134 units, and every `t` equals cut.json.
+
+In the table, "major" marks an entry that taught something false about the form itself: lemma or modern form, part of speech, tense/mood, the radical, or a mutation that is not there. Wrong mutation causes, uncertain words left unflagged, and gender are minor. Examples and wording alone are style. Unit numbers are 0-based.
+
+Counts: **7 major, 23 minor, 10 style** (40 rows; three of them also changed a unit note: units 51, 62 and 114).
+
+### Changes — glossary and units
+
+| key / unit | sev. | what was wrong | what was done |
+|---|---|---|---|
+| uychanet, bychanet | major | Given as an abstract noun *bychanet (bychander)* 'smallness' "from bychan + -et". *-et* is the equative ending, and *bychander* is a different word. In *uychanet*, a guess about the cause ("perhaps as the fronted word of an exclamation") was given as the cause. | bychan (bychan): equative *bychanet* used as a noun of degree. *uychanet* is "written soft-mutated", with no cause invented (this matches pass 1's unit 92 and 94 notes). |
+| wnelynt | major | Labelled "3 pl. present subjunctive". *gwnelynt* is the imperfect subjunctive (the present would be *gwnelont*). | "3 pl. imperfect subjunctive 'they should do, were to do'" (this matches pass 1's unit 85 note). |
+| wynepwerth | major | Said to be "soft-mutated (gw>w) after predicative yn". The w- is the radical w of *wyneb*. | "no mutation (the w- of wyneb is radical)". |
+| delediwaf | major | Lemma *deledyw (no modern form)*, with *d-* taken as the radical. The form is ← *telediwaf*, softened after the particle *a*. The published glossary already has *telediw (no modern form)* (004, *ebawl mawr telediw*). | Lemma telediw (no modern form). t>d after *a* is stated, and the sense is kept as uncertain. |
+| raculaenu | major | The modern form was given as an invented *rhaglaenu*. | (rhagflaenu). |
+| llyueryd | major | The modern form was given as *llefaredd*, a different word. | (lleferydd). |
+| darpar (broaden) + unit 62 n | major | The unit 62 note had *pa darpar ← tarpar*, softened, which misnames the radical: *darpar* has d (the published entry is *darpar (darpar)*). The broadening said "soft-mutated (d)". | Unit 62 now says that the radical has d and that the softening d > dd after *pa* is not shown. The broadening says the same. |
+| penardim | minor | The lemma was given as "Penarddun". This edition keeps *Penardim*, as both manuscripts write it (pass 1, unit 3). The rest of the entry was garbled ("mother of Bendigeidfran, Branwen and Manawydan's half-brothers"). | Penardim (both manuscripts; editors print Penarddun), Bendigeidfran's mother and, by Euroswydd, the mother of Nisien and Efnysien. |
+| wnelit | minor | "impersonal subjunctive" did not give the tense. | "impersonal imperfect subjunctive". |
+| deheu | minor | "vowel-like d- after o is not shown mutated". The real point is that d > dd is not shown in this spelling. | Corrected. |
+| longeu | minor | Said to be softened "as object after the particle a". The object is softened directly after its verb. | Cause corrected. |
+| gyweirach | minor | Said to be softened because *llong* is feminine. That does not hold for an adjective after the plural *llongeu*, and unit 10 says only "written softened". | It now says "written soft-mutated … the cause is not certain". |
+| rieni | minor | "no mutation after prif". *prif* softens, and rh > r is invisible in this spelling. | Corrected. |
+| palleu | minor | The modern form was given as "(pabell?)", which is a different word. *pall* is current. | pall (pall); the note now says that *pall* also means 'mantle, covering'. |
+| angassei | minor | The lemma *angu (no modern form)* was invented. | genni (genni) 'be contained, have room', from the stem *ang-*, with the Red Book's *eyngassei*. The attribution is said to be not certain. |
+| swydwyr | minor | The modern form was given as *swyddog*, which is a different formation. | (swyddwr). |
+| eres | minor | Called a feminine noun. In *eres genhyf* it is the predicative adjective 'strange'. | adjective, here predicative. |
+| guefleu | minor | The modern plural was given as *gwefusau*, which belongs to *gwefus*. | (gweflau). |
+| rawn | minor | "the mutation after the article is not shown". *rhawn* takes none after the article; r- for rh- is only spelling. | "no mutation". |
+| rym + unit 51 n | minor | The entry was garbled (it said "no mutation shown otherwise"), and no cause of the softening was given. | grym: soft-mutated as the subject after *nat oed* (cf. modern *nid oes le*); the sense stays uncertain. Unit 51 now states the same cause. |
+| genhadeu | minor | Said to be softened "as the object of the verbal noun". The cause is the intervening *etwa*, as corrected in pass 1 (unit 76). | Corrected. |
+| uanagyssant | minor | Given as *managu* "(no modern form; cf. mynegi)". *managu* is a by-form of *menegi*, whose modern form is *mynegi*. | managu (mynegi), "a by-form of menegi". |
+| uedylyssant | minor | The modern form was given as *meddwl*; the example kept *Sef* as "this is". | (meddylio); example "the counsel they thought". |
+| nachaf | minor | The modern form *nycha* is doubtful and possibly invented. | nachaf (no modern form). |
+| perchen | minor | Given "no mutation", with nothing said about the expected softening after *o*. | "not softened after o here (the Red Book has oberchen)". |
+| burwen | minor | Given as *purwen* (no modern form). *purwyn* is the word, and *purwen* is its feminine. | purwyn (purwyn), feminine purwen. |
+| gwragedda | minor | Given "gwreicda (no modern form; cf. gwraig dda)". The published glossary has *gwreicda (gwreigdda)*. | (gwreigdda), to match. |
+| uell + unit 114 n | minor | Said to be "soft-mutated after the verbal noun chyuarch", as if that were the rule. An object directly after a verbal noun is not normally softened, and unit 14 has *chyuarch guell* unsoftened. | Both now say it is written softened against the normal rule, pointing to *guell* in unit 14. |
+| wyneb (broaden) | minor | The broadening claimed gw>w after *'y*, which contradicts the old entry (*wyneb* as base form). The old entry, 'face', already covers the use. | Broadening removed. |
+| kyuedach (broaden) | minor | The broadening described *gyuedach*, not this form. The old entry covers *kyuedach*. | Broadening removed. |
+| gyuedach (broaden) | style | "after the feminine article" sat beside the old entry's "noun m.". | "after the article, treated here as feminine". |
+| bendigeituran | style | The example clause was garbled. | It now gives one clean example. |
+| gweisson | style | The example was garbled. | *rannyat y meirych a'r gweisson*. |
+| keuyn | style | The lemma was given in its modern form. | keuyn (cefn). |
+| godiwawd | style | The lemma was given in its modern spelling; it said "no mutation shown (g- retained)". | godiwes (goddiweddyd); "no mutation after the infixed 'y 'him'". |
+| kennadeu | style | The example kept *Sef* as "these are". | "the messengers who went". |
+| chrib | style | The cause was given as "after a 'as, and'". | "after a 'as' following the equative kyuuch". |
+| gadarnach, ual (broaden) | style | "so that they may be stronger". Pass 1 changed the unit 24 l to 'would be'. | 'would be'. |
+| gerdet (broaden) | style | "Llyna gerdet 'that is the journey'". | 'there is the journey' (house l for *llyna*). |
+| gyn (broaden) | style | "soft-mutated as the equative after an adjective" was vague. | "soft-mutated in a run of epithets after the feminine noun morwyn". |
+
+### The "least sure" set and the "(no modern form)" set: verdicts
+- **Changed:** angassei (genni), delediwaf (telediw), raculaenu (rhagflaenu), rym (grym, cause given), pall (pall), nachaf (no modern form), managu (mynegi), purwen (purwyn), gwreicda (gwreigdda), deledyw (now telediw).
+- **Kept as drafted:**
+  - ymaruar, ardiawc, athrugar, drygweith, anorles and eighaw are rare words, and each entry already says its sense is uncertain.
+  - The "(no modern form)" label is kept for eres, kyuref, gossymdeithaw, diwaradwydaw, dywanu, anagneuedus, anghynwys and ymgaru. See Findings refused for why.
+  - eres was corrected in part of speech.
+
+### Findings refused
+- **eres → *rhyfedd***: *rhyfedd* is a different word (the text uses it too, as *ryued*). *eres* survives only as a literary word with the same spelling. "(no modern form)" is kept.
+- **kyuref → *cyfref***: it is likely, but I cannot confirm it from knowledge as GPC's headword, so it is not adopted. The entry gives the meaning and the equative relation to *praff*.
+- **anagneuedus → *anheddychlon***: this is a different word (from *heddwch*, not *tangnefedd*). It is not a modern form of this one. Kept as "(no modern form)".
+- **gossymdeithaw, ymgaru, diwaradwydaw, dywanu, anghynwys**: modern spellings (*gosymdeithio*, *ymgaru* …) are possible. I could not verify them as dictionary headwords from knowledge, and adding one risks inventing a form. They are kept as "(no modern form)".
+- **waeth** "soft-mutated after the noun kyrch": the same as the pass 1 refusal (unit 65). No surer cause can be given.
+- **ymchwelwys** lemma *ymchwelut (ymchwelyd)*: this is a real form (modern *dychwelyd* is a different compound). Kept.
+- **dyuyn** lemma *dyuyn (dyfynnu)* beside the published *dyuynnu*: *dyuyn* is the verbal-noun form found in the text. Kept.
+
+### Verification
+After the edits, a script confirmed the following:
+- gloss.json keys equal novel-forms.json (358), and none is empty;
+- `__broaden__` has 49 entries (two removed, see table), each beginning with its old published entry followed by " · ";
+- units.json has 134 units, and every `t` equals cut.json.

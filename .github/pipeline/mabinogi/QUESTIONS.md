@@ -25,3 +25,8 @@ the drafter's note to say it is *march* soft-mutated, spelt with the w-letter. T
 - "tryded prif rieni yn yr ynys hon" (col. 40; units 31, 68): *rieni* read as 'ancestresses' (one of the Three Chief Ancestresses); it might be *rianed* 'maidens'. Decided meanwhile: 'Chief Ancestresses' in both places, the notes say the sense is uncertain.
 - "ardiawc … yn ymdidan" (col. 44; unit 91): both manuscripts read *yn ymdidan*; the Red Book adds *amyuarth*, sense unclear. Decided meanwhile: text as the White Book, construed 'dull … in talk', flagged uncertain.
 - Rare words left flagged uncertain in notes and glossary: *angassei*, *ymaruar*, *athrugar*, *anorles*, *eighaw*, *delediwaf*; *kyuref* kept with no modern form (perhaps *cyfref*; not confirmed).
+
+## 2026-11-12 · mabinogi-006 · small open points (establish)
+- Col. 49 l. 6: "carchara wynt ua na at trachefyn" — *ua* is certain on the image; the witness supplies "[ac]", the Red Book reads "hyt nat elont dracheuyn". Decided meanwhile: text as the White Book; the draft's note to read it as 'and do not let (them) back', flagged uncertain.
+- Col. 52 l. 1: "ygwaelawt" (single g) divided "y gwaelawt" (as "y mywn"); the owner may prefer "yg waelawt" or the witness's one word.
+- The englyn (col. 54) is set as a prose paragraph in quotes; the owner may want verse lines.

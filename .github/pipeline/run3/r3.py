@@ -2,6 +2,7 @@
 """Run 3 command line. Run from anywhere; paths are resolved from this file.
 
     python3 r3.py next                     which work and part this firing takes (reads queue-run3.txt)
+    python3 r3.py next run4                the same for Run 4 (reads queue-run4.txt)
     python3 r3.py claim   <work> <id> <phase>
     python3 r3.py release <work> <id>
     python3 r3.py establish-packet <work> <id>   scan-based parts: what to read, and the OCR draft
@@ -21,19 +22,24 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import r3lib as R
 
 QUEUE = os.path.join(R.PIPE, 'queue-run3.txt')
+# Run 4 (2026-11-12) is a second routine on this same machinery with its own list: `r3.py next run4`
+# reads queue-run4.txt. Each work sits on exactly one list, so the two runs never share a work's files.
 
 
-def queue():
+def queue(name=None):
     out = []
-    for line in open(QUEUE, encoding='utf-8'):
+    path = os.path.join(R.PIPE, 'queue-%s.txt' % name) if name else QUEUE
+    for line in open(path, encoding='utf-8'):
         line = line.split('#', 1)[0].strip()
         if line:
             out.append(line)
     return out
 
 
-def cmd_next():
-    for w in queue():
+def cmd_next(name=None):
+    if name and not __import__('re').fullmatch(r'run\d+', name):
+        R.die('unknown queue', name)
+    for w in queue(name):
         if os.path.exists(os.path.join(R.PIPE, w, 'DONE')):
             continue
         p, action = R.next_part(w)
@@ -225,7 +231,7 @@ def cmd_done(work):
         R.die('not finished:', ', '.join(left))
     open(os.path.join(R.PIPE, work, 'DONE'), 'w').close()
     with open(os.path.join(R.PIPE, work, 'LOG.md'), 'a', encoding='utf-8') as f:
-        f.write(f'- {time.strftime("%Y-%m-%d")} · DONE · all {len(doc["parts"])} parts published; Run 3 moves to the next work in queue-run3.txt\n')
+        f.write(f'- {time.strftime("%Y-%m-%d")} · DONE · all {len(doc["parts"])} parts published; the run moves to the next work in its queue\n')
     print('DONE marker written for', work)
 
 

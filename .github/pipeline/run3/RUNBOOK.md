@@ -1,7 +1,8 @@
 # Run 3 — what one firing does (all works)
 
 Run 3 is the owner's third production run: the unusual texts, finished one part per firing, one work after
-another (`.github/pipeline/queue-run3.txt`). It is separate from the shared text pipeline
+another (`.github/pipeline/queue-run3.txt`). Run 4 (from 2026-11-12) is a second routine on the same
+machinery with its own list (`queue-run4.txt`, read by `R3 next run4`); each work is on one list only. It is separate from the shared text pipeline
 (`queue.txt`) and from the Nights; it never touches their files. The owner is not present; decisions go in
 the work's `QUESTIONS.md` with what was decided meanwhile, and nothing waits on him. Python: standard
 library, plus PyMuPDF (`pip install pymupdf`) where a step reads a scanned page.

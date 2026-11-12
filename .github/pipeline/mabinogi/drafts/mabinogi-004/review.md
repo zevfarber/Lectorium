@@ -97,3 +97,142 @@ Sef is dropped in every i. A script found no manuscript name form (Riannon, Dyue
 
 ### Verification
 After the edits, a script confirmed that units.json has 161 units and that every `t` equals the corresponding `t` in cut.json, character for character.
+
+## Pass 2
+
+Reviewer pass 2 (2026-11-12) covered the glossary draft `gloss.json` and gave units.json a second reading.
+- **Glossary:** I checked all 401 new entries and all 38 broadenings against the text and against the unit notes as they stand after pass 1, on each of these points:
+  - the lemma, its modern form, and "(no modern form)" where there is none;
+  - meaning, part of speech and gender;
+  - tense, mood and person;
+  - the mutation and its cause.
+- **Broadenings:** for each of the 38 broadenings a script confirmed that the old entry from known-forms.json is kept unchanged, character for character, before the " · ".
+- **Aids:** the same as in pass 1, together with the Red Book text.
+- **How the edits were made:** by Python script (`ensure_ascii=False, indent=1`). Every changed glossary entry was rewritten whole.
+- **Checks after the edits:**
+  - the 401 keys still equal novel-forms.json, and `__broaden__` still has 38 entries;
+  - no bracketed editorial remark ("[… uncertain]" etc.) is left anywhere;
+  - units.json still has 161 units, and every `t` equals cut.json.
+
+In the table below, "maj" marks an entry that taught something false about the form itself (lemma, meaning, person, part of speech). Wrong mutation causes, examples and gender are minor. Example glosses and name spellings alone are style. Unit numbers are 0-based.
+
+Counts: **16 major, 65 minor, 9 style** (90 table rows covering 109 glossary entries; the one units.json change, the unit 95 note, is counted with its glossary row *synyeit*).
+
+### Changes — glossary (new entries)
+
+| key | sev. | what was wrong | what was done |
+|---|---|---|---|
+| edewis | maj | It was given as an invented verb *edewi* 'omit'. It is the 3 sg. preterite of *adaw* 'leave' (as unit 2's note has it). | adaw (gadael) 'leave, let go', a>e by affection. |
+| brawduaeth | maj | Glossed as *brawdwriaeth* 'judgement, judge'. Unit 4 has 'foster-brother', and the Red Book's *brawtuaeth* confirms it. | brawduaeth (brawdfaeth) 'foster-brother', brawt + maeth. |
+| golles | maj | Glossed as "1 sg. preterite 'I have lost'". It is the 3 sg. preterite, used without an object ('has been lost'), as unit 18 has it. | Corrected, with the mutation after *neur* (neu + ry). |
+| diuetha, diffetheeist | maj | The modern form was given as *diffeithio*, which is a different verb ('lay waste'). | diuetha / diffethaw (difetha). The *-eeist* spelling is noted as kept as written. |
+| thygyawd | maj | The lemma was *tygu*, which means 'swear'. | tygyaw (tycio) 'avail'. |
+| kynnadeu (+ wneuthur) | maj | It was read as *kynnadl* 'conference' ("to hold assemblies"). It is the plural of *kennat* 'messenger' (unit 40; the Red Book has *kennadeu*). The drafter had flagged the gender. | kennat (cennad), noun f. (also m.), plural kynnadeu: 'to send envoys to Pwyll'. The example under *wneuthur* was corrected to match. |
+| heppil | maj | It said "no modern form" (the modern form is *epil*), "no mutation" (the h- comes from *yn* = *ein* 'our'), and gave the example as "leaving a brood in a mare". | eppil (epil); h- after ein 'our'; 'losing the offspring of our mare'. |
+| moi | maj | Called "3 sg. preterite … the short stem". It is the verbal noun carrying the narrative (unit 58). | Verbal noun, with its subject after it. |
+| tywyllet | maj | Given as a noun 'darkness' with an invented modern form. It is the equative of *tywyll*, used as a noun of degree (unit 63). | tywyll; equative tywyllet. |
+| truanet | maj | Given as the noun *truanedd*. It is the exclamatory equative of *truan* (unit 97). | Corrected. |
+| gamhet | maj | Given as a noun *camhet* (cf. *camwedd*). It is the equative of *cam* (unit 101). | Corrected. |
+| dwf | maj | The lemma was given as *dwf*. It is *twf*, softened after *y* 'his' (unit 85). | twf (twf), t>d after y. |
+| douot | maj | The meaning was given as 'doubt, misgiving'. It is 'a find, the foundling' (GPC *dofod*; unit 97). | douot (dofod). |
+| lut | maj | The meaning was given as 'secrecy'. The note reads it as *glut* 'tenacious', softened after adverbial *yn*: 'persistently'. | glut (glud), rare, meaning uncertain. |
+| elwissen | maj | Given as 'profit, gain' (cf. *elw*). It is *elusen* 'alms' (unit 104). | elwissen (elusen) 'alms, a charitable deed'. |
+| druein | maj | Treated as a singular ('O wretched one'). *truein* is the plural, and the address is to the women. | Plural 'wretches'. |
+| dryded | min | The mutation was said to come "after predicative yn". *yn* 'in' does not soften. The softening is that of the unwritten article (the Red Book has *yny dryded*). | Cause corrected. |
+| trymuryt | min | Given "no modern form". | (trymfryd); b softened inside the compound noted. |
+| dietiued | min | Given "no modern form". | (dietifedd); the softening of d after yn is not shown. |
+| perhey | min | Had a "[form uncertain]" bracket, but the form is regular. | Bracket removed, and the Red Book's identical form noted. |
+| kerych | min | The conjunction was written "after chyt". | "after kyt 'though'". |
+| damwein | min | Given as "noun f.", but the example *y damwein hwnnw* is masculine. | "here masculine (now f.)". |
+| deffroyssant | min | It said "no mutation after phan". *pan* softens; dd is not shown in the spelling. | Corrected. |
+| lloski, dienydyaw | min | Said "ll- not mutated after yn" and glossed "in putting to death". *yn* here is *ein* 'our' (units 19, 25). | Corrected in both. |
+| gellast | min | Gave "(cf. gast)" as the modern form. | (gellast). |
+| lladwn, irwn, byrwn, thaerwn | min | Called "present subjunctive, hortative", while unit 24 calls them imperatives. The lemma of *irwn* was the modern form only. | "1 pl. imperative (-wn)", and iraw (iro). |
+| trigwyt, trigyssant | min | The lemma *trigo* did not match the notes' *trigyaw*. | trigyaw (trigo). |
+| du | min | Did not say that *du* is a slip. | It now says it is a slip for *dy*, that Evans prints *du* (checked on the image in pass 1), and that the Red Book has *dy*. |
+| hawl | min | The lemma *hawlu* did not match the note's *hawlyaw*. | hawlyaw (hawlio). |
+| kyffes (+ broadening ym) | min | Both read *ym* as "in my", against unit 34. | Both now say 'by my confession to God', with *ym* = 'my', and give the Red Book's *ym kyffes i y Duw*. |
+| wirioned | min | Given as "noun m., soft after the possessive y 'its'". The softening shows the noun is feminine here, after the article (unit 36). | Corrected. |
+| kigleu, gigleu, glywssont | min | The lemma was *clybot*, but the notes use *klywet*. | klywet (clywed). |
+| wnaethoed | min | Had a "[cause uncertain]" bracket. | The softening is now said to be after perfective *ry* (*ar y* read as *a ry*), as in unit 40. The Red Book's *ac a wnathoed* is given. The division is the open owner question from pass 1. |
+| yskynuaen | min | The example was garbled, and the m in the compound was not noted. | Corrected; modern form (esgynfaen). |
+| odieithyr | min | The modern form was misspelt *odieithr*. | (oddieithr). |
+| gyffranc | min | Given as "noun m.", softened after "the possessive/article". | Noun f. here, softened after the article. |
+| uliant | min | Gave *liant* 'flood', had a bracket, and did not match the unit 51 note's *lliant*. | It now reads *lliant* 'flood, sea', says the u- is unexplained, and gives "meaning uncertain". |
+| wybydaf (+ broadening ony) | min | Glossed 'until I learn'. *ony* is 'unless' (the oath in unit 56). | 'if I do not find out'. |
+| dileith | min | Said "no modern form" (the note has *dilaith*) and had a bracket. | (dilaith); "a rare word, exact sense uncertain". |
+| telediw, delediwhaf | min | The lemma was the invented spelling *teledyw*. | telediw (no modern form). |
+| prafter | min | Said "no mutation", while the note says the softening after *ar* is not written. | Corrected, with the Red Book's *ar praffter*. |
+| fenestyr | min | The lemma was written *fenestyr*. | ffenestyr (ffenestr), f for ff, with the Red Book's *ffenestyr*. |
+| diskyr | min | Said "no modern form" and had a bracket. | (disgyr) 'scream, shriek'. |
+| adaw | min | Said "g- lost by soft mutation", but nothing mutates here: *adaw* is a form of the verb without g-. | Corrected. |
+| dynnyon | min | Said "no mutation after the article y". *y* here is 'to' (unit 77), and its dd is not shown. | Corrected. |
+| duunaf | min | Had a "[meaning uncertain]" bracket. dy- + un 'agree' is clear. | Bracket removed. |
+| kyuelynet | min | Said "the m- lost". The m is softened (written u). | Corrected. |
+| ymoprau | min | The meaning 'busy oneself, keep company' did not match the note's 'bargain, strive, coax' (from *gobr*), and it had a bracket. | Matched to the note, with "meaning uncertain". |
+| adu | min | The example said "let him be taken to the water". *o'e dwyn* is 'to take them' (unit 87, as corrected in pass 1). | Corrected. |
+| synnyaw | min | The modern form was given as *synnu* ('be surprised'). | (synio), as in the note. |
+| ponyt | min | Said "no modern form". | (ponid). |
+| hywedu, hywed | min | Said "no modern form". | (hyweddu), (hywedd). |
+| adaf | min | Read as *gadu* softened after a. Unit 93 takes it as *adaw*, with no mutation. | Matched to the note. |
+| guastrodyon | min | The plural *gwastrodion* was given as the modern form of the singular. | (gwastrawd). |
+| synyeit (+ unit 95 n) | min | The gloss said "impersonal imperfect subjunctive [form uncertain]", while the note said "verbal-noun form". | Both now give both analyses and call the form uncertain. The Red Book's *synnyeit* is added. |
+| goueileint | min | The modern form *gofalaint* is not in use. | "(no modern form; cf. gofal)". |
+| yscaualwch | min | The modern form *ysgafalwch* is doubtful, and it had a bracket. | "(no modern form)"; 'leisure, an opportunity'. |
+| wreicda | min | 'good woman, noble lady', with the modern form *gwraig dda*. | (gwreigdda) 'noblewoman', the house rendering. |
+| thriphet | min | Given as a single noun *triphet* (no modern form). It is *tri pheth* written as one word (unit 104). | Corrected, with both spirant mutations and the slip noted. |
+| gaffwn | min | Given as a present subjunctive 'we may get'. Unit 104 has a present with future sense. | Matched to the note. |
+| eturyt | min | Said "no modern form; cf. adfer". | (edfryd). |
+| pann | min | Said "no mutation before d-". | "causes soft mutation, not shown on d-". |
+| uym, pryder | min | Said "causes nasal mutation (p>mh)" and "nasal-mutated" without saying it is not written on the noun. | Both now say the nasal is written only on the possessive. |
+| thebygaf | min | The lemma *tybyaw (tybied)* does not fit *thebygaf*. | tybygu, tebygu (tybio). |
+| oedit | min | The example "the feast that was being held" misanalysed it (unit 119). | Corrected. |
+| hardelw | min | Gave 'care, rearing', "no modern form", and a bracket. | ardelw (arddelw) 'claim, avowal, protection', as in unit 125. |
+| dalu | min | Said "after the particle y". | "after the preposition y 'to'". |
+| parhawyf | min | Said "no mutation". | The softening after *tra* is not written; the Red Book has *trabarhawyf*. |
+| meu | min | Said "no modern form". | (meu). |
+| ymyrrwys | min | The modern form *ymyrru* was invented, the meaning was 'go, proceed', and it had a bracket. | (ymyrryd); 'go in with, join'; "sense here uncertain". |
+| toryfliant | min | Had no modern form and no note that it is kept as printed. | (Twrf Liant); Evans's *tozyfliant*, kept as printed. |
+| amgeledus | min | Gave "cf. amgeledd". | "cf. ymgeledd". |
+| chwpplaf | min | The lemma *cwpl* was invented. | kwbyl (cwbl). |
+| garedic | min | Had a "[cause uncertain]" bracket. | The cause is now stated as in unit 155. |
+| ystrat | min | Given as noun f. | Noun m. |
+| wreika | min | The cause was given as "after the noun uryt", with a bracket. | Now: the subject of *doeth*, separated from its verb (unit 158). |
+| walltlydan | min | The modern form *gwalltlydan* was invented. | "(no modern form)". |
+| dyledogyon | min | Said "no mutation". | The softening after *o* is not shown. |
+| mabynnogyon | min | Was given as a regular plural of a lemma *mabynnogi*. | Matched to unit 160: occurs only here, commonly taken as a scribal form. |
+| broadening gorn | min | The new reading was 'corner, angle', against the unit 66 note. | It now says: apparently a wrapping or swaddling, meaning uncertain, softened after *y* 'his'. |
+| broadening wely, dy | min | *wely* was called an imperative "soft-mutated after ac". | It now says *(a) wely di* 'do you see?', with the question particle absorbed (unit 126 as corrected). |
+| eisswys | style | The example gloss 'and by then' did not match the note. | 'and in that, nevertheless'. |
+| pylgeint | style | The example 'and the dawn' misread *tu a'r*. | 'and towards the dawn-hour'. |
+| amouyn | style | The example 'secretly'. | 'persistently'. |
+| mynho | style | The example 'who may wish him'. | 'who may wish it'. |
+| edrychwch | style | The example 'see that it does not suit best'. | 'consider whether … may not suit him best'. |
+| kynydwys | style | The example 'there was added'. | 'he gained'. |
+| ymhwelut | style | Did not say that hw is for chw. | Added, with the Red Book's *ymchoelut*. |
+| broadening diolwch | style | The example 'thanks and gain'. | 'thanks and alms-merit'. |
+| uynnawd, kicua, wynn, gohoyw, gloyw, cassnar | style | The modern names were misspelt *Cicua* and *Gwynn*, and gohoyw had a "[meaning approximate]" bracket. | Cigfa and Gwyn; bracket removed. |
+
+### Changes — units.json (second reading)
+| unit | field | severity | what was wrong | what was done |
+|---|---|---|---|---|
+| 95 | n | (counted with *synyeit* above) | The note stated *synyeit* as a verbal noun without doubt. | It now gives both analyses and calls the form uncertain, with the Red Book's *synnyeit ar y march*. |
+
+I found nothing else on the second reading that pass 1 had missed. The pass-1 edits were re-read in place.
+
+### Glosser's queries: verdicts
+- **Unwritten soft mutation after *a* in d- forms** ("soft mutation after a not shown (d for dd)"): this is right throughout, and it was kept.
+- **perhey**: the form is regular. **golles**: 3 sg., corrected. **kynnadeu**: f. (also m.), corrected. **wnaethoed**: *a ry*. **garedic**, **wreika**: causes stated.
+- **brawduaeth, douot, lut, elwissen, hardelw, ymyrrwys, ymoprau, dileith, diskyr, yscaualwch, duunaf, uliant, gohoyw, synyeit**: each was decided as in the table above.
+- **nogyt**: "(no modern form; cf. nag)" was kept as it stood.
+- **Modern forms:**
+  - Supplied: gellast (gellast), tywyllet (tywyll, as an equative), amgeledus ("no modern form; cf. ymgeledd"), hywedu (hyweddu), ponyt (ponid), heppil (epil).
+  - Left as "(no modern form)": differu, moi, telediw.
+
+### Findings refused
+- **ymdaeru, ymdaraw, taered, euryn**: the modern forms (or the lack of one) given by the glosser were left alone. I could not confirm a better form from the aids, and the rule is not to invent one.
+- **The different treatments of *tybygu* (unit 48) and *tebygu* (unit 114) in the notes**: both forms are attested. The gloss now names both, and the notes were not touched.
+- **galar "no mutation after y 'her'" (unit 142)**: this agrees with the l ("greater her grief than she"). Kept.
+
+### For the owner (QUESTIONS)
+No new question. The unit 40 word division (pass 1) is still open. The glossary entries for *wnaethoed* and *ac* are written to the *a ry* reading, but they can stand with either division.

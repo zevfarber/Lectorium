@@ -17,3 +17,6 @@ the drafter's note to say it is *march* soft-mutated, spelt with the w-letter. T
 ## 2026-11-11 · mabinogi-004 · small open points
 - Col. 34 l. 21: "nat oed iawn udunt wy attal y mab ganthaw" — Evans prints singular *ganthaw* where the witness has *ganthunt*. Decided meanwhile: text as the White Book; the note will say so.
 - Col. 37 l. 18: "Teirnon Toryfliant" against "Twryf Uliant" elsewhere in the part. Decided meanwhile: printed as written; English "Teirnon Twrf Liant" throughout, the note says the spelling differs.
+
+## 2026-11-12 · mabinogi-004 · word division at col. 30
+- "am gyflauan mor anwedus ac ar y wnaethoed" (unit 40): Evans prints *arýwnaethoed* as one run, so the division "ar y" is ours (from the witness). The sense wants *a ry wnaethoed* 'that she had done' (relative a + perfective ry; Red Book *ac a wnathoed*). Decided meanwhile: text left as established ("ar y"); the note explains it as *a ry*, and the glossary entries stand with either division. The owner may want the text re-divided "ac a ry wnaethoed" (a re-pin of the established text).

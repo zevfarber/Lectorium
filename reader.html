@@ -24,6 +24,7 @@
      CC BY 4.0 (Zenodo 10.5281/zenodo.8342382). SantakkuM imitates the monumental script of the
      Hammurabi stele; Santakku the OB cursive. Signs outside them fall back to Noto (Neo-Assyrian). */
   @font-face { font-family: 'Noto Sans Ugaritic'; src: url('fonts/NotoSansUgaritic-Regular.woff2') format('woff2'); font-display: swap; }
+  @font-face { font-family: 'Noto Sans Phoenician'; src: url('fonts/NotoSansPhoenician-Regular.woff2') format('woff2'); font-display: swap; }
   @font-face { font-family: 'SantakkuM'; src: url('fonts/SantakkuM.woff') format('woff'); font-display: swap; }
   @font-face { font-family: 'Santakku';  src: url('fonts/Santakku.woff')  format('woff'); font-display: swap; }
   :root {
@@ -77,7 +78,7 @@
     font-family: Georgia, 'Times New Roman', system-ui, 'Noto Serif', serif; }
   .storyLangLine { color: var(--muted); font-size: .85rem; margin: 1px 0 18px;
     font-family: system-ui, 'Noto Sans', sans-serif; }
-  .storySub .tOrig { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Segoe UI Historic', 'Noto Sans Cuneiform', Georgia, serif; color: var(--ink); font-size: 1.25rem; }
+  .storySub .tOrig { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Noto Sans Phoenician', 'Segoe UI Historic', 'Noto Sans Cuneiform', Georgia, serif; color: var(--ink); font-size: 1.25rem; }
   .storySub .tRead { color: var(--muted); font-style: italic; }
   .storySub .tSep { color: var(--muted); margin: 0 .5em; }
   .storyMeta { color: var(--muted); font-size: .85rem; font-family: system-ui, 'Noto Sans', sans-serif; margin-bottom: 24px; }
@@ -203,6 +204,18 @@
     font-family: 'Noto Serif Hebrew', 'SBL Hebrew', 'Ezra SIL', 'Times New Roman', serif; }
   body[data-script="hebrew"] .de.rtl { font-size: 1.55rem; line-height: 2.05; }
   body[data-script="hebrew"] #popW { font-size: 1.9rem; line-height: 1.8; direction: rtl; }
+  /* Phoenician (Karatepe): the alphabet block, right to left; the Hebrew-letters switch swaps in
+     square letters, so the stack carries a Hebrew face too. */
+  body[data-script="phoenician"] .de.rtl,
+  body[data-script="phoenician"] #popW {
+    font-family: 'Noto Sans Phoenician', 'Segoe UI Historic', 'Noto Serif Hebrew', 'SBL Hebrew', 'Times New Roman', serif; }
+  body[data-script="phoenician"] .de.rtl { font-size: 1.6rem; line-height: 2; }
+  body[data-script="phoenician"] #popW { font-size: 1.9rem; line-height: 1.6; direction: rtl; }
+  /* bilingual monuments: a quiet link from a unit to the same passage in the other language */
+  .parlink { display: inline-block; margin-top: 6px; font-size: .78rem; font-family: system-ui, 'Noto Sans', sans-serif;
+    color: var(--muted, #8a7f6a); background: none; border: 1px solid var(--note-border); border-radius: 999px;
+    padding: 2px 10px; cursor: pointer; }
+  .parlink:hover { color: var(--ink); }
 
   /* ---- vertical-text mode (Classical Mongolian): story.vertical = true ----
      The sentence stays a card in the page's normal downward flow; inside it the
@@ -335,7 +348,7 @@
   #pop .pbtns button { font-size: .8rem; padding: 4px 10px; border-radius: 999px; }
   #pop .pclose { position: absolute; top: 6px; right: 10px; border: none; background: none; color: var(--muted); font-size: 1rem; padding: 2px 6px; }
   #pop .pmiss { color: var(--muted); font-style: italic; }
-  #popW { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Segoe UI Historic', 'Noto Sans Cuneiform', Georgia, 'Noto Serif', serif; }
+  #popW { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Noto Sans Phoenician', 'Segoe UI Historic', 'Noto Sans Cuneiform', Georgia, 'Noto Serif', serif; }
   /* vertical stories: the looked-up word shows UPRIGHT in the popup, in its natural shape */
   body.vtext #pop .pw { font-family: 'Noto Sans Mongolian', 'Mongolian Baiti', serif;
     font-size: 1.5rem; font-weight: 400; writing-mode: vertical-lr; max-height: 7em; margin: 0 auto 2px; }
@@ -346,7 +359,7 @@
   /* selected: light fill + brown ring, so role-coloured glyphs (purple determinatives,
      green suffixes) stay legible instead of vanishing on a dark fill (accessibility). */
   .stack.wsel { background: var(--focus-bg); box-shadow: 0 0 0 2px var(--accent); }
-  .gl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Segoe UI Historic', 'Noto Sans Cuneiform', Georgia, 'Noto Serif', serif; font-size: 1.95rem; line-height: 1.05; }
+  .gl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Noto Sans Phoenician', 'Segoe UI Historic', 'Noto Sans Cuneiform', Georgia, 'Noto Serif', serif; font-size: 1.95rem; line-height: 1.05; }
   /* cuneiform signs vary in height (numerals span two registers); relax the tight line-height so tall signs don't collide with the transcription below */
   body[data-script="cuneiform"] .gl, body[data-script="cuneiform"] .qgl { line-height: 1.75; }
   /* Han script: a CJK serif, a shade larger than the Latin body, with room for the pinyin row.
@@ -435,7 +448,7 @@
   .quadblock .qh { display: inline-flex; flex-direction: row; align-items: center; gap: 1px; }
   .quadblock .qv { display: inline-flex; flex-direction: column; align-items: center; gap: 0; line-height: .82; }
   .quadblock .stack { padding: 0; }
-  .qgl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Segoe UI Historic', 'Noto Sans Cuneiform', serif; font-size: 1.7rem; line-height: 1; }
+  .qgl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Noto Sans Phoenician', 'Segoe UI Historic', 'Noto Sans Cuneiform', serif; font-size: 1.7rem; line-height: 1; }
   .qv .qgl { font-size: 1.18rem; }
   .qh .qgl { font-size: 1.35rem; }
   .qtr { font-family: system-ui, 'Noto Sans', sans-serif; font-size: .72rem; color: var(--muted); margin-top: 2px; letter-spacing: .02em; }
@@ -454,9 +467,9 @@
   .pdet { margin-top: 8px; padding-top: 7px; border-top: 1px solid var(--border); font-size: .93em; }
   .pdet .pdrow { display: block; margin: 2px 0; }
   .pdet .pdg { color: #6b4a9e; }
-  .pdet .pdgl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Segoe UI Historic', 'Noto Sans Cuneiform', serif; margin-right: 5px; }
+  .pdet .pdgl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Noto Sans Phoenician', 'Segoe UI Historic', 'Noto Sans Cuneiform', serif; margin-right: 5px; }
   /* sign popup + reference browser */
-  .signGl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Segoe UI Historic', 'Noto Sans Cuneiform', serif; font-size: 1.5rem; margin-right: 6px; }
+  .signGl { font-family: 'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Noto Sans Phoenician', 'Segoe UI Historic', 'Noto Sans Cuneiform', serif; font-size: 1.5rem; margin-right: 6px; }
   .spTag { display:inline-block; font-size:.58rem; font-weight:600; text-transform:uppercase; letter-spacing:.05em;
            padding:1px 7px; border-radius:10px; margin-left:6px; vertical-align:middle; background:#efe7fb; color:#6b4a9e; }
   .spRow { margin-top: 7px; }
@@ -475,7 +488,7 @@
   .smGroup h4 { margin:0 0 8px; font-size:.72rem; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); }
   .smGrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:8px; }
   .smCell { display:flex; align-items:center; gap:9px; border:1px solid var(--border); border-radius:9px; padding:7px 9px; }
-  .smCell .cgl { font-family:'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Segoe UI Historic', 'Noto Sans Cuneiform', serif; font-size:1.7rem; line-height:1; }
+  .smCell .cgl { font-family:'Noto Sans Egyptian Hieroglyphs', 'Noto Sans Anatolian Hieroglyphs', 'Noto Sans Ugaritic', 'Noto Sans Phoenician', 'Segoe UI Historic', 'Noto Sans Cuneiform', serif; font-size:1.7rem; line-height:1; }
   .smCell .cbody { font-family:system-ui,'Noto Sans',sans-serif; font-size:.78rem; line-height:1.25; }
   .smCell .cval { font-weight:600; }
   .smCell .cname { color:var(--muted); }
@@ -781,7 +794,11 @@ const WORD_CLASS = 'A-Za-zÀ-ÖØ-öø-ÿ\\u0100-\\u024F\\u0300-\\u036F\\u1E00-\
   /* Hebrew: letters, the vowel points and accents (part of the word, so the bare-script view can strip
      them), and geresh/gershayim, which mark abbreviations INSIDE a word (או׳ = אומר). Deliberately
      excludes maqaf U+05BE, paseq U+05C0 and sof pasuq U+05C3, which separate words. */
-  + '\\u0591-\\u05BD\\u05BF\\u05C1\\u05C2\\u05C4\\u05C5\\u05C7\\u05D0-\\u05EA\\u05F0-\\u05F4';
+  + '\\u0591-\\u05BD\\u05BF\\u05C1\\u05C2\\u05C4\\u05C5\\u05C7\\u05D0-\\u05EA\\u05F0-\\u05F4'
+  /* Phoenician (U+10900-1091B, astral): the regex has no u flag, so a letter is a surrogate pair —
+     the high surrogate D802 and the low DD00-DD1B both sit in the class. The word divider U+1091F
+     (low DD1F) stays out. */
+  + '\\uD802\\uDD00-\\uDD1B';
 /* Han characters: no spaces are written, and in Classical Chinese the character IS the word,
    so each one tokenizes on its own (a run must NOT collapse into a single token). */
 const HAN_CLASS = '\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uF900-\\uFAFF';
@@ -845,6 +862,12 @@ function plainLettersON(s){
    page as it actually was. The vocalized state is the assisted one. */
 function bareLettersAR(s){ return s.replace(/[\u064B-\u065F\u0670\u06D6-\u06ED]/g, ''); }
 /* Hebrew: strip vowel points, dagesh, shin/sin dots and accents — the consonantal text as most Hebrew is written */
+const PHX_HEB = 'אבגדהוזחטיכלמנסעפצקרשת', HEB_FINAL = { 'כ':'ך', 'מ':'ם', 'נ':'ן', 'פ':'ף', 'צ':'ץ' };
+function phoenToHebrew(s){
+  let out = '';
+  for (const ch of s){ const c = ch.codePointAt(0); out += (c >= 0x10900 && c <= 0x10915) ? PHX_HEB[c - 0x10900] : (c === 0x1091F ? '·' : ch); }
+  return out.replace(/[כמנפצ](?=$|[^\u05D0-\u05EA])/g, m => HEB_FINAL[m]);
+}
 function bareLettersHE(s){ return s.replace(/[\u0591-\u05BD\u05BF\u05C1\u05C2\u05C4\u05C5\u05C7]/g, ''); }
 
 /* ---- "simplify script" capability (one toolbar slot, shown only where useful) ----
@@ -869,6 +892,11 @@ function simplifyConfig(story){
   if ((story.language && /arabic/i.test(story.language)) || story.script === 'arabic')
     return { vowels: true, title: 'Vowels — show or hide the editorial vowel points (tashkīl); off shows the rasm as the edition prints it',
              stateKey: 'bareAR', fn: bareLettersAR };
+  // Phoenician: the same consonants in Hebrew square letters (final forms at word end) — the
+  // glossary stays keyed on the Phoenician letters; this is display only.
+  if (story.script === 'phoenician')
+    return { label: '\u200E𐤀\u200E→\u200Eא', labelOn: '\u200Eא\u200E→\u200E𐤀', title: 'Hebrew letters — the same consonants in the Hebrew square script',
+             titleOn: 'Phoenician letters — back to the script of the stone', stateKey: 'hebPH', fn: phoenToHebrew };
   // Hebrew: the same single job — the manuscript's vowel points on, or the bare consonantal text.
   if ((story.language && /hebrew/i.test(story.language)) || story.script === 'hebrew')
     return { vowels: true, title: 'Vowels — show or hide the vowel points (nikkud)',
@@ -4134,6 +4162,15 @@ const KICHE_ALPHABET = {
   ],
 };
 SIGN_GLOSSARIES["kiche"] = { type: "alphabet", groups: KICHE_ALPHABET };
+SIGN_GLOSSARIES["phoenician"] = { type: "alphabet", letters: [
+ ["ʾalp","\u{10900}","א","ʾ","a catch in the throat; 'ox'"],["bēt","\u{10901}","ב","b","'house'"],["gaml","\u{10902}","ג","g",""],
+ ["delt","\u{10903}","ד","d","on this stone easily confused with r"],["hē","\u{10904}","ה","h",""],["wāw","\u{10905}","ו","w",""],
+ ["zayn","\u{10906}","ז","z",""],["ḥēt","\u{10907}","ח","ḥ","h from the throat"],["ṭēt","\u{10908}","ט","ṭ","emphatic t"],
+ ["yōd","\u{10909}","י","y","also the ending 'my' or 'his'"],["kap","\u{1090A}","כ","k","'palm'"],["lamd","\u{1090B}","ל","l",""],
+ ["mēm","\u{1090C}","מ","m","'water'"],["nūn","\u{1090D}","נ","n",""],["samk","\u{1090E}","ס","s",""],
+ ["ʿayn","\u{1090F}","ע","ʿ","a sound deep in the throat; 'eye'"],["pē","\u{10910}","פ","p","'mouth'"],["ṣādē","\u{10911}","צ","ṣ","emphatic s"],
+ ["qōp","\u{10912}","ק","q","k made far back"],["rōš","\u{10913}","ר","r","'head'; easily confused with d"],["šīn","\u{10914}","ש","š","sh"],
+ ["tāw","\u{10915}","ת","t","'mark'"]] };
 
 function renderKicheAlphabet(sg){
   const a = sg.groups;
@@ -4150,6 +4187,21 @@ function renderKicheAlphabet(sg){
   h += table('Consonants', a.plain);
   h += table('The popped consonants (ejectives) and the glottal stop', a.pops);
   return h;
+}
+
+function renderPhoenicianAlphabet(sg){
+  let h = '<div class="abcNote">Phoenician writes only consonants; the reader supplied the vowels. Its alphabet is the '
+    + 'ancestor of Greek and Latin and the same twenty-two letters, in the same order, as Hebrew — the square Hebrew '
+    + 'script is a later shape of the same letters, which is why the <b>𐤀→א</b> switch can swap them one for one. '
+    + 'The vowels in the line under each section are a modern reconstruction.</div>';
+  h += '<div class="smGroup"><table class="abc">'
+     + '<tr><th>name</th><th>letter</th><th>Hebrew</th><th>value</th><th class="abcn" style="text-align:left">notes</th></tr>';
+  sg.letters.forEach(a => {
+    h += '<tr><td class="snd">' + escapeHtml(a[0]) + '</td><td class="f" style="font-family:\'Noto Sans Phoenician\',serif">'
+      + escapeHtml(a[1]) + '</td><td class="f">' + escapeHtml(a[2]) + '</td><td class="snd">' + escapeHtml(a[3])
+      + '</td><td class="abcn">' + escapeHtml(a[4] || '') + '</td></tr>';
+  });
+  return h + '</table></div>';
 }
 
 function renderArabicAlphabet(sg){
@@ -4498,6 +4550,13 @@ function openSigns(){
     $('signModal').classList.add('open');
     return;
   }
+  if (story.script === 'phoenician'){
+    $('smTitle').textContent = 'The Phoenician alphabet';
+    $('smSub').textContent = 'Twenty-two letters, consonants only, right to left — the same alphabet, letter for letter, as Hebrew.';
+    $('smBody').innerHTML = renderPhoenicianAlphabet(sg);
+    $('signModal').classList.add('open');
+    return;
+  }
   if (story.script === 'kiche'){
     $('smTitle').textContent = 'How to say the K\u2019iche\u2019';
     $('smSub').textContent = 'Ximénez\u2019s letters, today\u2019s spelling, and the sounds.';
@@ -4712,6 +4771,17 @@ function buildSentEl(s, i, showLit){
     aux.appendChild(en);
   }
 
+  if (s.par && s.par.id) {
+    const pb = document.createElement('button');
+    pb.className = 'parlink';
+    const lbl = (story.parallel && story.parallel.label) || 'parallel';
+    const lns = Array.isArray(s.par.ln) ? s.par.ln : [s.par.ln];
+    const pre = s.par.clause ? '§' : 'line ';
+    pb.textContent = '⇄ ' + lbl + ' ' + pre + (lns.length > 1 ? lns[0] + '–' + lns[lns.length - 1] : lns[0]);
+    pb.title = 'The same passage in the ' + lbl + ' version';
+    pb.addEventListener('click', ev => { ev.stopPropagation(); openParallel(s.par); });
+    aux.appendChild(pb);
+  }
   if (s.n) {
     const nt = document.createElement('div');
     nt.className = 'note';
@@ -5804,6 +5874,15 @@ async function ensureGlossary(s){
 /* Load the story for a manifest entry: use the runtime cache if present,
    otherwise fetch its JSON file once and cache it. Entries that carry
    their own story object are used as is, so no fetch. */
+/* Bilingual monuments (Karatepe): a unit's par = {id, ln, u, clause?} names its twin in the other
+   language's story; u is the twin's unit index there. Opens that story at that unit. */
+function openParallel(par){
+  const i = MANIFEST.findIndex(m => m.id === par.id);
+  if (i < 0) return;
+  try { localStorage.setItem('pos:' + par.id, String(par.u || 0)); } catch(e) {}
+  loadEntryByIndex(i);
+}
+
 async function loadEntryByIndex(i){
   const m = MANIFEST[i];
   if (!m) return;
@@ -5970,7 +6049,7 @@ function loadStory(s){
   if (sb){
     sb.style.display = signGlossaryFor(s) ? '' : 'none';
     sb.textContent = (s.script === 'ethiopic') ? '📜 Fidäl'
-                   : (s.script === 'mongol' || s.script === 'devanagari' || s.script === 'arabic' || s.script === 'kiche') ? '📜 Alphabet' : '📜 Signs';
+                   : (s.script === 'mongol' || s.script === 'devanagari' || s.script === 'arabic' || s.script === 'kiche' || s.script === 'phoenician') ? '📜 Alphabet' : '📜 Signs';
     sb.title = (s.script === 'kiche') ? 'Alphabet — how to pronounce the K\u2019iche\u2019 letters'
       : (s.script === 'mongol' || s.script === 'devanagari' || s.script === 'arabic')
       ? 'Alphabet reference — every letter in its initial, medial and final shapes'

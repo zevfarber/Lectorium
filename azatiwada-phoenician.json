@@ -1,0 +1,401 @@
+{
+ "id": "azatiwada-phoenician",
+ "title": "𐤀𐤆𐤕𐤅𐤃",
+ "titleEn": "The Azatiwada Inscription (Karatepe), Phoenician — A I 1–16",
+ "work": "𐤀𐤆𐤕𐤅𐤃",
+ "workEn": "The Azatiwada Inscription (Karatepe), Phoenician",
+ "part": "Column I, lines 1–16 · Azatiwada and his works",
+ "language": "Phoenician",
+ "langCode": null,
+ "script": "phoenician",
+ "rtl": true,
+ "trStyle": "line",
+ "numbering": "line",
+ "provisional": true,
+ "draftNote": "Pilot — the first sixteen lines of column I. The letters follow one published reading of the stone and are still to be checked against photographs; one reading (line 1) departs from it, as the note there says.",
+ "parallel": {
+  "id": "azatiwada-luwian",
+  "label": "Luwian"
+ },
+ "about": "Around 700 BCE Azatiwada, a governor under the king of Adana in Cilicia, built a fortress on a hill above the Ceyhan river and carved his account of his deeds on its gates in two languages: the local Luwian, in Anatolian hieroglyphs, and Phoenician, the language of trade and diplomacy along the coast. This is the Phoenician. It is the longest Phoenician inscription ever found, and close kin to biblical Hebrew — a Hebrew reader will recognize most of its words. The same text in Luwian is in the library too: each section here links to its twin.",
+ "source": "KARATEPE, Phoenician version, copy A (the lower gate), column I, lines 1–16 (KAI 26 A I 1–16; Gibson, Textbook of Syrian Semitic Inscriptions III no. 15). Found in 1946–47, so no edition before 1930 exists; following the policy adopted for the Luwian, the sequence of letters on the stone is treated as a fact, taken from the reading published by DEAPS (Digital Editions of Aramaic and Phoenician Sources, Ohio State University; 'Phoe. Class 2026' edition, following Gibson 1988), and still to be checked against photographs. One departure, in line 1, is explained in its note. Line numbers give the stone line where each section begins; words the stone breaks over a line end are printed whole. The stone leaves no spaces between words; the spaces here follow the editions. Vocalization (the line under the letters) is reconstructed — Phoenician wrote no vowels — after the conventions of the standard grammars, and applied consistently; the actual vowels are unknown in many words. The Hebrew-letters switch shows the same consonants in the square script. Translations are made fresh from the Phoenician; no modern translation was consulted. Font: Noto Sans Phoenician (OFL).",
+ "sentences": [
+  {
+   "ln": 1,
+   "t": "𐤀𐤍𐤊 𐤀𐤆𐤕𐤅𐤃 𐤄𐤁𐤓𐤊 𐤁𐤏𐤋 𐤏𐤁𐤃 𐤁𐤏𐤋",
+   "tr": "ʾanōkī ʾAzitiwadda habbarūk Baʿl, ʿebed Baʿl",
+   "l": "I (am) Azatiwada, the-blessed of-Baal, servant of-Baal,",
+   "i": "I am Azatiwada, blessed of Baal, servant of Baal,",
+   "n": "No verb 'am': Phoenician, like Hebrew, sets a name beside 'I' and lets the sentence stand. אנכ is Hebrew אנכי, written without its final vowel letter — Phoenician spells only consonants, even at the end of a word. Baal here is the god the Luwian calls Tarhunzas, the storm god. The source we follow prints ʿbr in the last word; we read ʿbd, 'servant', which the Luwian ('servant of Tarhunzas') requires — on this stone r and d are almost the same letter.",
+   "p": true,
+   "par": {
+    "id": "azatiwada-luwian",
+    "ln": [
+     1
+    ],
+    "u": 0,
+    "clause": true
+   }
+  },
+  {
+   "ln": 2,
+   "t": "𐤀𐤔 𐤀𐤃𐤓 𐤀𐤅𐤓𐤊 𐤌𐤋𐤊 𐤃𐤍𐤍𐤉𐤌",
+   "tr": "ʾiš ʾiddir ʾAwarik milk Dānunīm",
+   "l": "whom made-mighty Awariku, king of-the-Danunians.",
+   "i": "whom Awariku, king of the Danunians, raised to power.",
+   "n": "אש is the relative 'who, whom, which' — Hebrew אשר without its last letter. The verb comes before its subject, the usual order. מלכ 'king' was pronounced milk, judging from how Greek and Latin writers spelled Phoenician names. The Danunians are the people of Adana, the kingdom the Luwian calls Hiyawa.",
+   "par": {
+    "id": "azatiwada-luwian",
+    "ln": [
+     2
+    ],
+    "u": 1,
+    "clause": true
+   }
+  },
+  {
+   "ln": 3,
+   "t": "𐤐𐤏𐤋𐤍 𐤁𐤏𐤋 𐤋𐤃𐤍𐤍𐤉𐤌 𐤋𐤀𐤁 𐤅𐤋𐤀𐤌",
+   "tr": "paʿalanī Baʿl la-Dānunīm la-ʾab wa-la-ʾimm",
+   "l": "Made-me Baal for-the-Danunians into-a-father and-into-a-mother.",
+   "i": "Baal made me a father and a mother to the Danunians.",
+   "n": "פעל 'do, make' is Phoenician's everyday verb where Hebrew uses עשה; the נ on the end is 'me'. ל… ל: 'make someone into something'. The Luwian says 'mother and father', in the other order.",
+   "p": true,
+   "par": {
+    "id": "azatiwada-luwian",
+    "ln": [
+     3
+    ],
+    "u": 2,
+    "clause": true
+   }
+  },
+  {
+   "ln": 3,
+   "t": "𐤉𐤇𐤅 𐤀𐤍𐤊 𐤀𐤉𐤕 𐤃𐤍𐤍𐤉𐤌",
+   "tr": "yaḥwō ʾanōkī ʾiyyat Dānunīm",
+   "l": "Gave-life I the-Danunians.",
+   "i": "I gave the Danunians life.",
+   "n": "You'll see this constantly: a bare verb form (the infinitive) followed by אנכ 'I' is this text's way of saying 'I did it' — the whole boast is told in this pattern. אית marks the object, like Hebrew את.",
+   "par": {
+    "id": "azatiwada-luwian",
+    "ln": [
+     4
+    ],
+    "u": 3,
+    "clause": true
+   }
+  },
+  {
+   "ln": 4,
+   "t": "𐤉𐤓𐤇𐤁 𐤀𐤍𐤊 𐤀𐤓𐤑 𐤏𐤌𐤒 𐤀𐤃𐤍 𐤋𐤌𐤌𐤑𐤀 𐤔𐤌𐤔 𐤅𐤏𐤃 𐤌𐤁𐤀𐤉",
+   "tr": "yarḥeb ʾanōkī ʾarṣ ʿimq ʾAdana la-mimṣaʾ šamš wa-ʿad mabōʾiyu",
+   "l": "Widened I the-land of-the-Plain of-Adana from-the-going-out of-the-sun and-as-far-as its-coming-in.",
+   "i": "I widened the land of the plain of Adana from sunrise to sunset.",
+   "n": "The sun 'goes out' in the east and 'comes in' in the west, as in Hebrew ממזרח שמש עד מבואו. The י on מבאי means 'its' here, not 'my' — see line 11. The Plain of Adana is the Cilician plain around the modern city of Adana.",
+   "par": {
+    "id": "azatiwada-luwian",
+    "ln": [
+     5
+    ],
+    "u": 4,
+    "clause": true
+   }
+  },
+  {
+   "ln": 5,
+   "t": "𐤅𐤊𐤍 𐤁𐤉𐤌𐤕𐤉 𐤊𐤋 𐤍𐤏𐤌 𐤋𐤃𐤍𐤍𐤉𐤌 𐤅𐤔𐤁𐤏 𐤅𐤌𐤍𐤏𐤌",
+   "tr": "wa-kūn ba-yamūtiya kull nuʿm la-Dānunīm wa-šabʿ wa-manʿam",
+   "l": "And-there-was in-my-days every good for-the-Danunians, and-plenty and-delight.",
+   "i": "In my days the Danunians had every good thing, plenty and comfort.",
+   "n": "כנ, from the root kwn, is Phoenician's 'be', where Hebrew uses היה. ימת 'days' has the plural ending -ōt, as in poetic Hebrew ימות.",
+   "p": true,
+   "par": {
+    "id": "azatiwada-luwian",
+    "ln": [
+     6
+    ],
+    "u": 5,
+    "clause": true
+   }
+  },
+  {
+   "ln": 6,
+   "t": "𐤅𐤌𐤋𐤀 𐤀𐤍𐤊 𐤏𐤒𐤓𐤕 𐤐𐤏𐤓",
+   "tr": "wa-millōʾ ʾanōkī ʿaqarōt Paʿar",
+   "l": "And-filled I the-storehouses of-Paʿar.",
+   "i": "I filled the granaries of Paʿar.",
+   "n": "עקרת is a rare word; the Luwian has 'granaries' at this point, which fixes the sense. פער is a place, the Luwian Pahar.",
+   "par": {
+    "id": "azatiwada-luwian",
+    "ln": [
+     7
+    ],
+    "u": 6,
+    "clause": true
+   }
+  },
+  {
+   "ln": 6,
+   "t": "𐤅𐤐𐤏𐤋 𐤀𐤍𐤊 𐤎𐤎 𐤏𐤋 𐤎𐤎 𐤅𐤌𐤂𐤍 𐤏𐤋 𐤌𐤂𐤍 𐤅𐤌𐤇𐤍𐤕 𐤏𐤋 𐤌𐤇𐤍𐤕 𐤁𐤏𐤁𐤓 𐤁𐤏𐤋 𐤅𐤀𐤋𐤌",
+   "tr": "wa-paʿōl ʾanōkī sūs ʿal sūs wa-magen ʿal magen wa-maḥanet ʿal maḥanet ba-ʿabūr Baʿl wa-ʾilīm",
+   "l": "And-made I horse upon horse and-shield upon shield and-camp upon camp, for-the-sake-of Baal and-the-gods.",
+   "i": "I piled up horse on horse, shield on shield, army on army, by the grace of Baal and the gods.",
+   "n": "The Phoenician runs horse, shield, army; the Luwian horse, army, shield. מחנת is Hebrew מחנה, a camp and the army in it. בעבר is Hebrew בעבור 'for the sake of'. 'By the grace of Baal and the gods' has no counterpart in the Luwian here; in the Phoenician it returns as a refrain.",
+   "par": {
+    "id": "azatiwada-luwian",
+    "ln": [
+     8,
+     9,
+     10
+    ],
+    "u": 7,
+    "clause": true
+   }
+  },
+  {
+   "ln": 8,
+   "t": "𐤅𐤔𐤁𐤓𐤕 𐤌𐤋𐤑𐤌",
+   "tr": "wa-šibbartī malīṣīm",
+   "l": "And-I-broke the-scoffers,",
+   "i": "I broke the insolent,",
+   "n": "A change of form: שברת is an ordinary past tense with the ending ת 'I', in place of the infinitive-plus-אנכ pattern. מלצמ is uncertain — 'scoffers' or 'the insolent', from the root of Hebrew לץ. The Luwian clause is just as uncertain, so the two versions cannot settle each other here.",
+   "par": {
+    "id": "azatiwada-luwian",
+    "ln": [
+     11
+    ],
+    "u": 10,
+    "clause": true
+   }
+  },
+  {
+   "ln": 9,
+   "t": "𐤅𐤕𐤓𐤒 𐤀𐤍𐤊 𐤊𐤋 𐤄𐤓𐤏 𐤀𐤔 𐤊𐤍 𐤁𐤀𐤓𐤑",
+   "tr": "wa-tarōq ʾanōkī kull ha-raʿ ʾiš kūn ba-ʾarṣ",
+   "l": "and-cleared-out I all the-evil that was in-the-land.",
+   "i": "and I cleared away all the evil that was in the land.",
+   "n": "The root of תרק is uncertain; the sense 'cleared out' is safe because the Luwian says 'drove out of the land'.",
+   "par": {
+    "id": "azatiwada-luwian",
+    "ln": [
+     12,
+     13
+    ],
+    "u": 11,
+    "clause": true
+   }
+  },
+  {
+   "ln": 9,
+   "t": "𐤅𐤉𐤈𐤍𐤀 𐤀𐤍𐤊 𐤁𐤕 𐤀𐤃𐤍𐤉 𐤁𐤍𐤏𐤌",
+   "tr": "wa-yaṭnōʾ ʾanōkī bēt ʾadōnī ba-nuʿm",
+   "l": "And-set-up I the-house of-my-lord in-goodness,",
+   "i": "I established my lord’s house in prosperity,",
+   "n": "יטנא is the causative (Phoenician makes it with י where Hebrew uses ה) of a root meaning 'raise'. בת is 'house', Hebrew בית: Phoenician writes the contracted vowel without its י. 'My lord' is Awariku.",
+   "p": true,
+   "par": {
+    "id": "azatiwada-luwian",
+    "ln": [
+     14
+    ],
+    "u": 13,
+    "clause": true
+   }
+  },
+  {
+   "ln": 10,
+   "t": "𐤅𐤐𐤏𐤋 𐤀𐤍𐤊 𐤋𐤔𐤓𐤔 𐤀𐤃𐤍𐤉 𐤍𐤏𐤌",
+   "tr": "wa-paʿōl ʾanōkī la-šurš ʾadōnī nuʿm",
+   "l": "and-did I for-the-root of-my-lord good,",
+   "i": "and I did good to my lord’s line,",
+   "n": "שרש 'root' means descendants, as in Hebrew שרש ישי.",
+   "par": {
+    "id": "azatiwada-luwian",
+    "ln": [
+     15
+    ],
+    "u": 14,
+    "clause": true
+   }
+  },
+  {
+   "ln": 11,
+   "t": "𐤅𐤉𐤔𐤁 𐤀𐤍𐤊 𐤏𐤋 𐤊𐤎𐤀 𐤀𐤁𐤉",
+   "tr": "wa-yašōb ʾanōkī ʿal kissiʾ ʾabīyu",
+   "l": "and-seated I (him) on the-throne of-his-father.",
+   "i": "and I set him on his father’s throne.",
+   "n": "A false friend for Hebrew readers: אבי here is 'his father', not 'my father'. After a noun ending in the genitive vowel -i, Phoenician writes 'his' as י (-yu). ישב is the causative, 'make sit' (Hebrew הושיב).",
+   "par": {
+    "id": "azatiwada-luwian",
+    "ln": [
+     16
+    ],
+    "u": 15,
+    "clause": true
+   }
+  },
+  {
+   "ln": 11,
+   "t": "𐤅𐤔𐤕 𐤀𐤍𐤊 𐤔𐤋𐤌 𐤀𐤕 𐤊𐤋 𐤌𐤋𐤊",
+   "tr": "wa-šōt ʾanōkī šalōm ʾitt kull milk",
+   "l": "And-made I peace with every king.",
+   "i": "I made peace with every king,",
+   "n": "שת 'put, make' is Hebrew שית; את is here the preposition 'with'. This clause is lost from both copies of the Luwian (§17); only the Phoenician keeps it.",
+   "par": {
+    "id": "azatiwada-luwian",
+    "ln": [
+     17
+    ],
+    "u": 16,
+    "clause": true
+   }
+  },
+  {
+   "ln": 12,
+   "t": "𐤅𐤀𐤐 𐤁𐤀𐤁𐤕 𐤐𐤏𐤋𐤍 𐤊𐤋 𐤌𐤋𐤊 𐤁𐤑𐤃𐤒𐤉 𐤁𐤇𐤊𐤌𐤕𐤉 𐤅𐤁𐤍𐤏𐤌 𐤋𐤁𐤉",
+   "tr": "wa-ʾap ba-ʾabūt paʿalūnī kull milk ba-ṣidqī ba-ḥokmatī wa-ba-nuʿm libbī",
+   "l": "And-also in-fatherhood made-me every king, because-of-my-righteousness, because-of-my-wisdom, and-because-of-the-goodness of-my-heart.",
+   "i": "and every king even treated me as a father, for my justice, my wisdom and the goodness of my heart.",
+   "n": "Here the final י is 'my' (ṣidqī, ḥokmatī, libbī), against 'his' in אבי (line 11): the letter is the same, and the vowel before it decides. The Luwian of this clause is broken; its gaps are restored from this Phoenician sentence.",
+   "par": {
+    "id": "azatiwada-luwian",
+    "ln": [
+     18
+    ],
+    "u": 17,
+    "clause": true
+   }
+  },
+  {
+   "ln": 13,
+   "t": "𐤅𐤁𐤍 𐤀𐤍𐤊 𐤇𐤌𐤉𐤕 𐤏𐤆𐤕 𐤁𐤊𐤋 𐤒𐤑𐤉𐤕 𐤏𐤋 𐤂𐤁𐤋𐤌",
+   "tr": "wa-banō ʾanōkī ḥōmiyōt ʿazzōt ba-kull qaṣayōt ʿal gabūlīm",
+   "l": "And-built I walls strong at-all the-ends, on the-borders,",
+   "i": "I built strong walls at all the far ends, on the frontiers,",
+   "n": "חמית 'walls' is Hebrew חומות; קצית 'ends, edges' is Hebrew קצות; גבלמ 'borders' is Hebrew גבולים.",
+   "p": true,
+   "par": {
+    "id": "azatiwada-luwian",
+    "ln": [
+     19
+    ],
+    "u": 18,
+    "clause": true
+   }
+  },
+  {
+   "ln": 14,
+   "t": "𐤁𐤌𐤒𐤌𐤌 𐤁𐤀𐤔 𐤊𐤍 𐤀𐤔𐤌 𐤓𐤏𐤌 𐤁𐤏𐤋 𐤀𐤂𐤃𐤃𐤌",
+   "tr": "ba-maqōmīm ba-ʾiš kūn ʾišīm raʿīm baʿlē ʾagdūdīm",
+   "l": "in-places in-which were men bad, masters of-bands,",
+   "i": "in places where there had been bad men, leaders of gangs,",
+   "n": "באש is ב 'in' plus the relative אש: 'in which'. אשמ is 'men' (Hebrew אנשים). בעל here is the ordinary noun, 'master, owner' — the same word as the god's name. אגדדמ: 'bands, troops', the root of Hebrew גדוד.",
+   "par": {
+    "id": "azatiwada-luwian",
+    "ln": [
+     20
+    ],
+    "u": 19,
+    "clause": true
+   }
+  },
+  {
+   "ln": 15,
+   "t": "𐤀𐤔 𐤁𐤋 𐤀𐤔 𐤏𐤁𐤃 𐤊𐤍 𐤋𐤁𐤕 𐤌𐤐𐤔",
+   "tr": "ʾiš bal ʾiš ʿabd kūn la-bēt Mopš",
+   "l": "who — not a-man (of them) a-servant was to-the-house of-Mopsos.",
+   "i": "not one of whom had ever been subject to the house of Mopsos.",
+   "n": "בל 'not' is the negative of Hebrew poetry (בל ימוט). מפש is Mopsos, the seer whom Greek legend makes the founder of cities in Cilicia; the Luwian calls him Muksas. This is one of the few places where a figure of Greek myth turns up in a contemporary inscription.",
+   "par": {
+    "id": "azatiwada-luwian",
+    "ln": [
+     21
+    ],
+    "u": 20,
+    "clause": true
+   }
+  }
+ ],
+ "glossary": {
+  "𐤀𐤔𐤌": "ʾišīm — men (plural of ʾš 'man'; Hebrew אנשים)",
+  "𐤀𐤅𐤓𐤊": "ʾAwarik — Awariku, king of the Danunians and Azatiwada's overlord (Luwian Awarikus)",
+  "𐤔𐤋𐤌": "šalōm — peace (Hebrew שלום)",
+  "𐤅𐤌𐤇𐤍𐤕": "wa- + maḥanet — and camp, army (Hebrew מחנה)",
+  "𐤏𐤋": "ʿal — upon, on (Hebrew על)",
+  "𐤎𐤎": "sūs — horse (Hebrew סוס)",
+  "𐤁𐤕": "bēt — house, household, dynasty (Hebrew בית)",
+  "𐤀𐤂𐤃𐤃𐤌": "ʾagdūdīm — bands, troops of raiders (Hebrew גדודים)",
+  "𐤁𐤊𐤋": "ba- + kull — in all, at every",
+  "𐤅𐤔𐤁𐤏": "wa- + šabʿ — and plenty, satiety (Hebrew שבע)",
+  "𐤒𐤑𐤉𐤕": "qaṣayōt — ends, edges, far reaches (Hebrew קצות)",
+  "𐤋𐤔𐤓𐤔": "la- + šurš — for the root, i.e. the descendants (Hebrew שרש)",
+  "𐤉𐤓𐤇𐤁": "yarḥeb — widened, enlarged (causative infinitive of rḥb 'be wide'; Hebrew הרחיב)",
+  "𐤉𐤇𐤅": "yaḥwō — I gave life to, made flourish (causative infinitive of ḥwy 'live'); with אנכ = 'I gave life'",
+  "𐤅𐤔𐤕": "wa- + šōt — and (I) put, made (infinitive of šyt; Hebrew שית)",
+  "𐤅𐤉𐤔𐤁": "wa- + yašōb — and (I) seated, set (causative infinitive of yšb 'sit'; Hebrew הושיב)",
+  "𐤇𐤌𐤉𐤕": "ḥōmiyōt — walls, fortifications (Hebrew חומות)",
+  "𐤅𐤋𐤀𐤌": "wa- + la- + ʾimm — and into a mother (Hebrew אם)",
+  "𐤀𐤁𐤉": "ʾabīyu — his father (ʾab 'father' + -y 'his' after the genitive vowel; not 'my father')",
+  "𐤀𐤃𐤍𐤉": "ʾadōnī — my lord (Hebrew אדני); here Awariku",
+  "𐤀𐤃𐤓": "ʾiddir — made mighty, raised to power (D-stem of ʾdr 'mighty'; Hebrew אדיר)",
+  "𐤅𐤌𐤂𐤍": "wa- + magen — and shield (Hebrew מגן)",
+  "𐤁𐤀𐤔": "ba- + ʾiš — in which, where (ב 'in' + relative אש)",
+  "𐤋𐤀𐤁": "la- + ʾab — into a father, as a father (Hebrew אב)",
+  "𐤀𐤍𐤊": "ʾanōkī — I (independent pronoun; Hebrew אנכי)",
+  "𐤁𐤀𐤓𐤑": "ba- + ʾarṣ — in the land (Hebrew בארץ)",
+  "𐤋𐤌𐤌𐤑𐤀": "la- + mimṣaʾ — from the going-out, the rising (of the sun) (root yṣʾ 'go out'; Hebrew מוצא)",
+  "𐤊𐤎𐤀": "kissiʾ — throne (Hebrew כסא)",
+  "𐤁𐤏𐤋": "baʿl — Baal, the storm god (the Luwian Tarhunzas); as a common noun, 'master, owner' (בעל אגדדמ 'masters of bands')",
+  "𐤏𐤁𐤃": "ʿabd — servant (Hebrew עבד)",
+  "𐤋𐤁𐤕": "la- + bēt — to the house (dynasty) of",
+  "𐤀𐤆𐤕𐤅𐤃": "ʾAzitiwadda — Azatiwada, ruler under Awariku and builder of the fortress at Karatepe; a Luwian name, perhaps 'beloved of the Sun' (Luwian Azzattiwadas)",
+  "𐤋𐤁𐤉": "libb + -ī — my heart (Hebrew לבי)",
+  "𐤌𐤐𐤔": "Mopš — Mopsos, legendary founder of the ruling house of Adana (Luwian Muksas; Greek Μόψος)",
+  "𐤐𐤏𐤋𐤍": "paʿal + -nī — (he/they) made me; pʿl 'do, make' (Phoenician's word for Hebrew עשה) + suffix -n 'me'",
+  "𐤁𐤏𐤁𐤓": "ba-ʿabūr — for the sake of, by the grace of (Hebrew בעבור)",
+  "𐤁𐤇𐤊𐤌𐤕𐤉": "ba- + ḥokmat + -ī — because of my wisdom (Hebrew חכמה)",
+  "𐤅𐤌𐤍𐤏𐤌": "wa- + manʿam — and delight, comfort (root nʿm; Hebrew מנעמים)",
+  "𐤅𐤏𐤃": "wa- + ʿad — and as far as, until (Hebrew עד)",
+  "𐤀𐤔": "ʾiš — relative pronoun: who, whom, which, that (Hebrew אשר)",
+  "𐤅𐤉𐤈𐤍𐤀": "wa- + yaṭnōʾ — and (I) set up, established (causative infinitive of ṭnʾ 'raise')",
+  "𐤁𐤍𐤏𐤌": "ba- + nuʿm — in goodness, in prosperity",
+  "𐤃𐤍𐤍𐤉𐤌": "Dānunīm — the Danunians, the people of Adana (Luwian Hiyawa)",
+  "𐤍𐤏𐤌": "nuʿm — good, goodness, prosperity (Hebrew נעם)",
+  "𐤄𐤓𐤏": "ha- + raʿ — the evil (Hebrew הרע)",
+  "𐤔𐤌𐤔": "šamš — sun (Hebrew שמש)",
+  "𐤀𐤓𐤑": "ʾarṣ — land (Hebrew ארץ)",
+  "𐤅𐤊𐤍": "wa- + kūn — and there was (infinitive of kwn 'be', Phoenician's verb for Hebrew היה)",
+  "𐤅𐤁𐤍𐤏𐤌": "wa- + ba- + nuʿm — and because of the goodness",
+  "𐤊𐤍": "kūn — was, were (infinitive of kwn 'be')",
+  "𐤅𐤐𐤏𐤋": "wa- + paʿōl — and (I) made, did (infinitive of pʿl 'do, make')",
+  "𐤂𐤁𐤋𐤌": "gabūlīm — borders, frontiers (Hebrew גבולים)",
+  "𐤓𐤏𐤌": "raʿīm — bad, evil (plural; Hebrew רעים)",
+  "𐤋𐤃𐤍𐤍𐤉𐤌": "la- + Dānunīm — for/to the Danunians",
+  "𐤌𐤋𐤑𐤌": "malīṣīm — scoffers, the insolent (meaning uncertain; root of Hebrew לץ)",
+  "𐤏𐤆𐤕": "ʿazzōt — strong (feminine plural of ʿz; Hebrew עזות)",
+  "𐤏𐤌𐤒": "ʿimq — plain, valley (Hebrew עמק); עמק אדנ 'the Plain of Adana'",
+  "𐤅𐤁𐤍": "wa- + banō — and (I) built (infinitive of bny 'build'; Hebrew בנה)",
+  "𐤁𐤉𐤌𐤕𐤉": "ba- + yamūt + -iya — in my days (plural of ym 'day', with the ending -ōt; Hebrew ימות)",
+  "𐤅𐤔𐤁𐤓𐤕": "wa- + šibbartī — and I broke, shattered (past tense, ending -tī 'I'; Hebrew שברתי)",
+  "𐤊𐤋": "kull — all, every (Hebrew כל)",
+  "𐤄𐤁𐤓𐤊": "ha- + barūk — the blessed (one); article ה + passive participle of brk 'bless' (Hebrew ברוך)",
+  "𐤁𐤋": "bal — not (the negative of Hebrew poetry, בל)",
+  "𐤏𐤒𐤓𐤕": "ʿaqarōt — storehouses, granaries (plural; a rare word, its sense fixed by the Luwian)",
+  "𐤁𐤀𐤁𐤕": "ba- + ʾabūt — in fatherhood, as a father (abstract noun from ʾab 'father')",
+  "𐤅𐤕𐤓𐤒": "wa- + tarōq — and (I) cleared out, purged (root uncertain; sense fixed by the Luwian)",
+  "𐤅𐤀𐤐": "wa- + ʾap — and also, and even (Hebrew אף)",
+  "𐤀𐤉𐤕": "ʾiyyat — object marker, not translated (Hebrew את)",
+  "𐤁𐤑𐤃𐤒𐤉": "ba- + ṣidq + -ī — because of my righteousness, my justice (Hebrew צדק)",
+  "𐤌𐤂𐤍": "magen — shield (Hebrew מגן)",
+  "𐤌𐤋𐤊": "milk — king (Hebrew מלך)",
+  "𐤀𐤕": "ʾitt — with (preposition; Hebrew את 'with')",
+  "𐤐𐤏𐤓": "Paʿar — a town or district of Adana (Luwian Pahar)",
+  "𐤀𐤃𐤍": "ʾAdana — Adana, city and kingdom in the Cilician plain",
+  "𐤅𐤀𐤋𐤌": "wa- + ʾilīm — and the gods (plural of ʾl 'god'; Hebrew אלים)",
+  "𐤁𐤌𐤒𐤌𐤌": "ba- + maqōmīm — in places (Hebrew מקומות)",
+  "𐤌𐤁𐤀𐤉": "mabōʾ + -iyu — its coming-in, its setting (root bwʾ 'come'; Hebrew מבוא) + 'its'",
+  "𐤅𐤌𐤋𐤀": "wa- + millōʾ — and (I) filled (D-stem infinitive of mlʾ; Hebrew מילא)",
+  "𐤌𐤇𐤍𐤕": "maḥanet — camp, army (Hebrew מחנה)"
+ }
+}

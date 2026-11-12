@@ -1215,3 +1215,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 ## 2026-11-12 (publishing run, night 97)
 - Corrected misprints in emend.json: P518L02 دات→ذات, P519L01 فيام→نيام, P519L05 اخاة→اخاه, P519L17 ناخذة→ناخذه (ة for ه), P519L20 اى→الى, P520L02 هذة→هذه, P520L06 احل→احد. Doubtful, kept as printed and flagged in `n`: P518L13 عِداة (read ʿidātan "enemies"; perhaps عداه/عداتي), P520L01 «فلما نظر … ان عساكر الكفار» (the first ان reads as if for الى; translated by that sense). Run-together words kept as printed and noted: واريدان, يجسران, تقدران, تريدان, يتعرضوالهم, الاعميانا. The archive was not changed.
 - Shared glossary: 33 existing entries deliberately broadened to fit this night (bi- senses chosen by the verb, case notes); the entry أَمَّا wrongly glossed a wa- its key does not have, and is fixed.
+
+## 2026-11-12 (transcribing run, PDF 543-550 = pp. 521-528)
+- Both passes agreed on two words the print does not have; the adjudicator and the run corrected them from the image: P524L21 «هلى» (print; both passes had على — a misprint for the publishing run's emend.json) and P528L02 «مطر وحنى» (both passes had مطار وحتى; this is the monastery name already published in night 93). Agreement between the passes is therefore not proof; nothing to decide, recorded for the publishing run.
+- Misprints archived as printed (for emend.json): P524L21 هلى (for على); the adjudicator also noted وبأنينا, حنّ, النذيز, اى, ماوخنا in this batch.
+- These pages set many more prose shaddas than usual (42 gate warnings against ~20–30). Two lines were spot-checked against the crops (P525L11, P525L15); the marks are printed. Kept.
+- Nights 98 and 99 are now complete and unpublished; the next two firings should publish them.

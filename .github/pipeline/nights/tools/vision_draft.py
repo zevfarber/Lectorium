@@ -15,7 +15,7 @@ TWO HALVES
               language hint ar) and saves every word with its box to vision/p<ppp>.json.
               Targets: the next AHEAD pages after the last archived page, plus any page listed
               in vision/request.txt. Pages already saved are never re-sent. A monthly page cap
-              (vision/_usage.json) keeps it inside Google's free 1,000 pages a month.
+              (vision/_usage.json) caps the month (see MONTHLY_CAP).
     lines_for(page_json, body, shape)
               used by nights_ocr.py --vision: assigns the saved words to the line crops that the
               line detector found, right to left, and applies the mechanical clean-ups below.
@@ -34,7 +34,7 @@ NIGHTS = os.path.dirname(HERE)
 VDIR = os.path.join(NIGHTS, 'vision')
 LAST_PDF_PAGE = 938          # vol. 1 (plan.md)
 AHEAD = 120                  # pages fetched ahead of the transcription (~15 runs of 8)
-MONTHLY_CAP = 900            # Google: first 1,000 pages a month free; keep a margin
+MONTHLY_CAP = 2000         # owner 2026-11-12: Nights may fire every 2 h (~1,100 pages/month); pages past Google's free 1,000 cost about $1.50 per thousand
 
 ARABIC = re.compile(r'[؀-ۿ]')
 

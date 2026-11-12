@@ -4,7 +4,7 @@ name: Nights Vision drafts
 # transcription routine, and commits them to .github/pipeline/nights/vision/. Runs here
 # because the routine's sandbox cannot reach Google. Uses the same key as the audio build
 # (secret GOOGLE_TTS_KEY; Cloud Vision was added to that key's allowed APIs 2026-10-11).
-# Cost: Google's first 1,000 pages a month are free; vision_draft.py stops at 900.
+# Cost: Google's first 1,000 pages a month are free; vision_draft.py stops at 2,000 (about $1.50 past the free tier).
 
 on:
   push:
@@ -14,7 +14,7 @@ on:
       - '.github/pipeline/nights/vision/request.txt'
       - '.github/workflows/nights-vision.yml'
   schedule:
-    - cron: '41 2 * * *'
+    - cron: '41 */6 * * *'
   workflow_dispatch:
 
 permissions:

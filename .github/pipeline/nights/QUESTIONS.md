@@ -1279,3 +1279,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Shared glossary: 16 existing entries were widened with this night's sense (none overwritten), and وَكَذَلِكَ was rewritten so it explains كَـ. Nothing to decide.
 - Sharkān/Sharrukān: still following the precedent (شَرْكَان in t, Sharrukān in tr and i), pending the decision asked for under night 98.
 - Next: nights 105 and 106 are complete and unpublished; P545L06 الميلة→الليلة is the emend candidate for night 105.
+
+## 2026-11-13 (publishing run, night 105)
+- Corrected misprints in emend.json: P545L06 الميلة→الليلة (night label), P546L03 زوحتى→زوجتى, P546L09 حزنيا→حزينا, P546L19 انريدون→افريدون. Kept as printed and flagged in the notes: P547L17 «نعن الاقامة» (the sense wants فعن or وعن, "do not turn aside from staying"; the reviewer suggested correcting to فعن, but initial ن and ف differ in shape as well as dots, so it stays a doubtful reading); P545L14 «واكتفاء من المال» (loose; read wa-iktifāʾan, "and enough money"); P548L06 بمَسيح الرصاص (read masīḥ, "molten", from sāḥa; the fatḥa is the print's). The verse at P548L16–17 is copied as printed (اَخُ with short u kept; بحيلة has no tanwīn, read ḥīlatin for the metre and noted). The archive was not changed.
+- Ḥardūb's relation to Dhāt al-Dawāhī: this night calls him her son (ابني حردوب), as the tale usually does; Night 104's text (P543) calls him her father (والدها), and its `about` follows that. Both are kept as the text has them; night 105's note points out the difference. Nothing to decide unless the owner wants Night 104's `about` reworded.
+- Sharkān/Sharrukān: still following the precedent (شَرْكَان in t, Sharrukān in tr and i), pending the decision asked for under night 98.
+- Next: night 106 is complete and unpublished; the next firing should publish it.

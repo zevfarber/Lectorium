@@ -111,3 +111,148 @@ check was re-run clean after all six fixes.)
 ## Not checked (explicitly out of scope per instructions)
 Glossary coverage against `cid-glossary.json` — that file does not exist yet and this is a
 first pass; left entirely alone.
+
+## Second pass (glossary)
+
+Checked `gloss.json`'s 300 entries plus its 7 `__broaden__` entries against `packet.md`,
+`units.json`, and (for the broadened tokens only) the current `cid-glossary.json`; cross-checked
+every grammatical claim in `units.json`'s 47 `n` notes against the matching `gloss.json` entry and
+vice versa; spot-checked the glossary-key stripping rule; did a final sweep of `units.json` itself.
+Did not reopen any of the first pass's six "considered and NOT acted on" items — no new objection
+to any of them.
+
+### Changes made
+
+1. **287 entries (format, bulk) · severity: cosmetic, but systematic.** Essentially every entry
+   in `gloss.json` was written as "TOKEN — LEMMA — MEANING (grammar)", repeating the raw key as a
+   redundant first segment before the lemma (e.g. `"oro": "oro — oro — gold"`, `"abástales":
+   "abástales — abastar + les — he supplies them (…)"`). The real `cid-glossary.json` never does
+   this: every entry (checked directly) is strictly "LEMMA — MEANING (grammar)", with the token
+   repeated as the lemma only when the token already *is* the dictionary form, and never as a
+   separate leading segment. Stripped the redundant leading token from all entries where it
+   matched the key exactly, via a script (then hand-verified the result), leaving e.g. `"oro":
+   "oro — gold"` and `"abástales": "abastar + les — he supplies them (…)"`. One entry (`vino`) was
+   wrongly caught by this same script, see item 2.
+2. **`vino` · format · error (self-inflicted, caught and reverted).** The bulk script above
+   stripped `vino`'s leading "vino —" on the assumption it was a redundant copy of the key, but
+   for this entry the token genuinely *is* the lemma for sense 1 (the noun "wine"), with a second,
+   different-lemma sense ("also venir — he came …") following — exactly the dual-sense pattern the
+   real glossary's `"ya"` entry models. Restored the lemma: `"vino — wine (noun); also venir — he
+   came (…)"`.
+3. **`burgalés` · format · error.** Ended with a dangling, uninformative `"; = burgalés"` (the
+   word's modern spelling is identical to itself, so this added no information and didn't match
+   the house bracket-clause style). Dropped it.
+4. **`alos` · format · error.** Was `"alos — a + los, to the (contraction; = a los)"` — the
+   decomposed lemma `a + los` was glued into the meaning with a comma instead of being the entry's
+   lemma field, and `"= a los"` merely repeated the decomposition a second time. Restructured to
+   `"a + los — to the (contraction)"`.
+5. **`fo` · `n`/meaning · error.** Claimed "fo entrado, fo algo, fo acusado are all
+   periphrastic/passive ser + past part. constructions" — false for `f[o] algo` (v. 111, "quanto
+   que f[o] algo" = "fue algo," a plain copula with the pronoun **algo** as predicate, not a past
+   participle). Reworded to separate the two genuine ser+participle periphrases (`fo entrado`, `fo
+   acusado`) from the plain-copula case (`fo algo`).
+6. **`tred` · grammar tag · missing/inconsistent.** Every other imperative entry in this file
+   (`dat`, `prended`, `meted`, `prendet`, `ponedlas`, …) states person/number, e.g. "(2nd pl.
+   imperative)"; `tred` alone omitted it. Added "(2nd pl. imperative, old form, …)" — confirmed 2nd
+   plural from context: "Amos tred al Campeador," addressed to both Raquel and Vidas.
+7. **`avédesme` · meaning · error (overreach).** Gave the headline meaning as "you have forgotten
+   me" — but `avédesme` by itself is only *avedes* (aux. "you have") + enclitic *me*; the sense
+   "forgotten" belongs to the next, separately-keyed word, `olbidado`. The real glossary's
+   `estávalos` entry models exactly this situation with an ellipsis: "he-was + them: 'was … them'".
+   Reworded to `"you-have … me (…; avédesme olbidado = 'you have forgotten me', a host's
+   mock-reproach)"`, moving the complete-clause gloss into the parenthetical where it belongs.
+8. **`auien` · modern-Spanish form · incomplete.** Gave only `"= avían"`, itself an archaic/
+   orthographic cousin rather than true modern Spanish. The sibling spelling `avien` is already in
+   the shared `cid-glossary.json` as `"aver — they had (imperfect 3rd pl.; = avían/habían)"`.
+   Brought `auien` into line: `"= avían/habían"`.
+9. **`__broaden__.i` · format · error.** Read `"also i — ibi — there, therein (adverb, Latin ibi,
+   …)"` — a redundant middle segment that both repeated the key as a second "lemma" field *and*
+   duplicated the Latin etymon already given in the parenthetical. Dropped the middle segment:
+   `"also i — there, therein (adverb, Latin ibi, …)"`.
+
+### `__broaden__` verification (all 7)
+
+Checked each against the *current* `cid-glossary.json` entry (read directly, not assumed) and
+against its actual occurrence(s) in `packet.md`:
+
+- **a** (prep. "to, at" → + aver "he/she has," h-less *ha*, 3rd sg., as in `el rey me a ayrado`,
+  v. 90/114) — genuinely new sense, correct grammar, correctly formatted once fixed.
+- **e** ("and" → + aver "I have," apocopated *he*, 1st sg., `Espeso e el oro`, v. 81) — genuinely
+  new, correct.
+- **conpra** (noun "buying" → + comprar "he/she buys," 3rd sg., `non lo conpra`, v. 67) — genuinely
+  new, correct.
+- **grado** ("thanks" → + "will, good will," `de grado`, vv. 84/136/149) — a different *sense* of
+  the same root, not covered by the existing "thanks" entry; correct, kept.
+- **i** ("and" → + "there, therein," Lat. *ibi*, `meted i las fedes`, v. 120) — genuinely new;
+  format fixed per item 9 above.
+- **qué** (exclamative "what a …!" → + interrogative "what? which?," `de qué será pagado`, v. 129)
+  — genuinely new, correct.
+- **cabo** (prep. "beside" → + noun "end," `fasta cabo del año`, v. 162) — genuinely new, correct.
+
+All 7 match "<old entry in full> · <new reading>" (verified the "<old entry in full>" half against
+`cid-glossary.json` character-for-character in each case), and each new reading's grammar is
+correct for its actual occurrence in this part.
+
+### Glossary-key spot-check
+
+Stripped brackets/split apostrophes by hand against `packet.md` and compared to `gloss.json`'s
+keys: `f[o]stes` → `fostes` ✓, `m'a` → `m`, `a` ✓ (and the `a` broadened sense is exactly the "ha"
+reading needed for this `m'a`), `convus[c]o` → `convusco` ✓, `am[o]s` → `amos` ✓. All four keys
+match the stripping rule exactly. **Passed.**
+
+### Cross-check: `units.json` `n` notes vs. `gloss.json`
+
+Walked all 47 units' notes against the `gloss.json` entries for the same words (lemma, tense/
+person/number/mood, meaning) in both directions. Found and fixed one discrepancy worth noting:
+unit 20's note ("f[o] = fue, the older preterite, restored three times in four lines") makes no
+claim about participle-vs-copula, so the error in `gloss.json`'s `fo` entry (item 5 above) was
+internal to that file, not a cross-file disagreement — fixed there. No other disagreement found;
+in particular, double-checked (among others) `so`/`so ayrado`, `o`/`ó`, `querer m'a` + the
+broadened `a`, `prendámoslas`/`metamos` (hortative, matching the first pass's correction),
+`aguisado` (treated as "the same word as guisado" in both files, consistently), and `veriedes` —
+all consistent.
+
+### Findings considered and NOT acted on
+
+- **`grádanse` · initially suspected person/number error.** On a first read appeared to say
+  "(reflexive present 3rd sg.)" for a plural subject (Raquel e Vidas); re-verified the live JSON
+  byte-for-byte and it already correctly reads "3rd pl." No error; not changed.
+- **Lemma style for lexicalized past participles (e.g. `menguados` lemma'd as the adjective
+  `menguado`, vs. `ventado` lemma'd as the infinitive `ventar`).** Inconsistent within `gloss.json`,
+  but not wrong: the real `cid-glossary.json` itself uses both patterns side by side (`mudado`,
+  `abierto` lemma'd as the participle; others as the infinitive). Within house tolerance — left
+  alone.
+- **`aguisado` lemma'd as `guisar` rather than a separate `aguisar`.** `units.json`'s own note
+  (already reviewed and accepted in the first pass) explicitly treats `aguisado` as "the same word
+  as guisado," so the gloss entry is consistent with an editorial judgment already on record, not
+  an independent error. Left alone.
+- **The `__broaden__` entries' "also LEMMA — meaning" phrasing**, and the main file's analogous
+  dual-sense entries (`so`, `o`, `vino`, `pagado`) **use the word "also" inside the `<new reading>`
+  half**, where the instructed template is literally "<old entry in full> · <new reading>". Judged
+  this as the content of the `<new reading>` itself (not a structural violation) and applied
+  uniformly across all 7 broadened tokens and the dual-sense entries alike — left alone rather than
+  stripped, since stripping "also" would make the dual-sense entries read as a single run-on
+  lemma + meaning instead of two senses.
+- **`seiense` and other seer/estar + enclitic + gerund compounds** state the compound's meaning in
+  English ("they were sitting …") without a separate explicit "(3rd pl.)" tag. This matches the
+  real glossary's own `estávalos` entry, which likewise carries no explicit person/number tag on an
+  analogous compound. Left alone.
+- Re-read all six first-pass "considered and NOT acted on" items (unit 1's `l`, the double-negative
+  nudge policy, the tense-mixing nudge policy, `f[o]`'s uniform preterite label *in units.json*,
+  the "seventeen lines" compression, and `veriedes`'s conditional-perfect rendering). No new
+  objection to any of them; none reopened.
+
+### `units.json` final sweep
+
+No additional changes made. Re-verified: the 0-mismatch continuity check still holds (no edits
+touched any `t`/`l` text in this pass), and every grammatical claim surviving in `n` notes was
+re-checked against `gloss.json` as above with no disagreement left outstanding.
+
+### Summary
+
+`gloss.json`: 293 of the 300 regular entries changed from their pre-review state net (287
+mechanical format fixes from the bulk pass + `burgalés` + `alos`, both format, + 4 substantive
+content/grammar fixes: `fo`, `tred`, `avédesme`, `auien`); one further regular entry, `vino`, was
+touched by the mechanical pass and then restored to its original (correct) form, so it nets to no
+change and is not counted among the 293. Separately, 1 of the 7 `__broaden__` entries (`i`) also
+had a format fix. `units.json`: 0 additional notes changed. Glossary-key spot-check: passed.

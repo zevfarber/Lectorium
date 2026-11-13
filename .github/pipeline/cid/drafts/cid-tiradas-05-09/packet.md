@@ -1,0 +1,132 @@
+# Packet — cid-tiradas-05-09: Martín Antolínez supplies the camp; the sand-filled chests are pawned to Raquel and Vidas
+
+Tiradas 5–9, Pidal lines 65–173 (Cantar I (Destierro)).
+The established text below is pinned. A unit's `t` is one or more consecutive verses joined by "\n", cut by script.
+Flags: numbers printed nowhere in the verse column (see LOG.md): 99
+
+
+## tirada 5
+
+65	Martín Antolínez, el Burgalés conplido,
+66	a mio Çid e alos s[o]s abástales de pan e de vino;
+67	non lo conpra, ca él se lo avie consigo;
+68	de todo conducho bien los ovo bastidos.
+69	Pagós mio Çid el Campeador [conplido]
+69b	e todos los otros que van a so çervicio.
+70	Fabló Martín Antolínez, odredes lo que a dicho:
+71	“ya Canpeador, en buen ora f[o]stes naçido!
+72	esta noch y[a]gamos e vay[á]mosnos al matino,
+73	ca acusado seré de lo que vos he seruido,
+74	en ira del rey Alffons yo seré metido.
+75	Si con vusco escapo sano o bivo,
+76	aun çerca o tarde el rey querer m'a por amigo;
+77	si non, quanto dexo no lo preçio un figo.”
+
+## tirada 6
+
+78	Fabló mio Çid, el que en buen ora çinxo espada:
+79	“Martín Antolínez, sodes ardida lança!
+80	si yo bivo, doblar vos he la soldada.
+81	Espeso e el oro e toda la plata,
+82	bien lo ve[e]des que yo no trayo [nada],
+83	huebos me serié pora toda mi compaña;
+84	fer lo he amidos, de grado non avrié nada.
+85	Con vuestro consejo bastir quiero dos arcas;
+86	inchámoslas d'arena, ca bien serán pesadas,
+87	cubiertas de guadalmeçí e bien enclaveadas.
+
+## tirada 7
+
+88	Los guadameçís vermejos e los clavos bien dorados.
+89	Por Raquel e Vidas vayádesme privado:
+90	quando en Burgos me vedaron compra y el rey me a ayrado,
+91	non puedo traer el aver, ca mucho es pesado,
+92	enpeñar gelo he por lo que f[o]re guisado;
+93	de noche lo lieven, que non lo vean cristianos.
+94	Véalo el Criador con todos los sos santos,
+95	yo más non puedo e amidos lo fago.”
+
+## tirada 8
+
+96	Martín Antolínez non lo detar[da]va
+97	passó por Burgos, al castiello entrava,
+98	por Raquel e Vidas apriessa demandava.
+
+## tirada 9
+
+100	Raquel e Vidas en uno estavan amos,
+101	en cuenta de sus averes, de los que avien ganados.
+102	Llegó Martín Antolínez a guisa de menbrado:
+103	“¿O sodes, Raquel e Vidas, los mios amigos caros?
+104	En poridad fablar querría con amos.”
+105	Non lo detardan, todos tres se apartaron.
+106	“Raquel e Vidas, amos me dat las manos,
+107	que non me descubrades a moros nin a cristianos;
+108	por siempre vos faré ricos, que non seades menguados.
+109	El Campeador por las parias f[o] entrado,
+110	grandes averes priso e mucho sobejanos,
+111	retovo dellos quanto que f[o] algo;
+112	por en vino a aquesto por que f[o] acusado.
+113	Tiene dos arcas llennas de oro esmerado.
+114	Ya lo ve[e]des que el rey le a ayrado.
+115	Dexado ha heredades e casas e palaçios.
+116	Aquellas non las puede levar, sinon, serié ventad[o];
+117	el Campeador dexar las ha en vuestra mano,
+118	e prestalde de aver, lo que sea guisado.
+119	Prended las arcas e metedlas en vuestro salvo;
+120	con grand jura meted i las fe[de]s amos,
+121	que non las catedes en todo aqueste año.”
+122	Raquel e Vidas seiense consejando:
+123	“Nos huebos avemos en todo de ganar algo.
+124	Bien lo sabemos que él algo [a] gañ[ado],
+125	quando a tierra de moros entró, que grant aver [a] sac[ado];
+126	non duerme sin sospecha qui aver trae monedado.
+127	Estas arcas, prendámoslas am[o]s,
+128	en logar las metamos que non sea ventad[o].
+129	Mas dezidnos del Çid, de qué será pagado,
+130	o qué ganançia nos dará por todo aqueste año?”
+131	Respuso Martín Antolínez a guisa de menbrado:
+132	“myo Çid querrá, lo que ssea aguisado;
+133	pedir vos a poco por dexar so aver en salvo.
+134	Acógensele omnes de todas partes me[n]guados,
+135	a menester seysçientos marcos.”
+136	Dixo Raquel e Vidas: “dar gelos [hemos] de grado.”
+137	—“Ya vedes que entra la noch, el Çid es pressurado,
+138	huebos avemos que nos dedes los marcos.”
+139	Dixo Raquel e Vidas: “non se faze assí el mercado,
+140	sinon primero prendiendo e después dando.”
+141	Dixo Martín Antolínez: “yo desso me pago.
+142	Amos tred al Campeador contado,
+143	e nos vos ayudaremos, que assí es aguisado,
+144	por aducir las arcas e meterlas en vuestro salvo,
+145	que non lo sepan moros nin cristianos.”
+146	Dixo Raquel e Vidas: “nos desto nos pagamos.
+147	Las archas aduchas, prendet seyesçientos marcos.”
+148	Martín Antolínez caualgó privado
+149	con Raquel e Vidas, de voluntad e de grado.
+150	Non viene a la puent, ca por el agua a passado,
+151	que gelo non ventassen de Burgos omne nado.
+152	Afévoslos a la tienda del Campeador contado;
+153	assí commo entraron, al Çid besáronle las manos.
+154	Sonrrisós mio Çid, estávalos fablando:
+155	“¡ya don Raquel e Vidas, avédesme olbidado!
+156	Ya me exco de tierra, ca del rey so ayrado.
+157	A lo quem semeja, de lo mio avredes algo;
+158	mientra que vivades non seredes menguados.”
+159	Raquel e Vidas a mio Çid besáronle las manos.
+160	Martín Antolínez el pleyto a parado,
+161	que sobre aquellas arcas dar le ien seysçientos marcos,
+162	e bien gelas guardarien fasta cabo del año;
+163	ca assil dieran la fe[d] e gelo auien jurado,
+164	que si antes las catassen que f[o]ssen perjurados,
+165	non les diesse mio Çid de ganançia un dinero malo.
+166	Dixo Martín Antolínez: “carguen las arcas privado.
+167	Levaldas, Raquel e Vidas, ponedlas en vuestro salvo;
+168	yo iré convus[c]o, que adugamos los marcos,
+169	ca a mover [h]a mio Çid ante que cante el gallo.”
+170	Al cargar de las arcas veriedes gozo tanto:
+171	Non las podien poner en somo maguer eran esforçados.
+172	Grádanse Raquel e Vidas con averes monedados,
+173	ca mientra que visquiessen refechos eran amos.
+
+Glossary: 76 of 376 forms already in cid-glossary.json.

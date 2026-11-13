@@ -4,7 +4,7 @@
 
 | part | name | range | status |
 |---|---|---|---|
-| cid-tiradas-05-09 | Martín Antolínez supplies the camp; the sand-filled chests are pawned to Raquel and Vidas | tiradas 5–9, lines 65–173 | todo |
+| cid-tiradas-05-09 | Martín Antolínez supplies the camp; the sand-filled chests are pawned to Raquel and Vidas | tiradas 5–9, lines 65–173 | established |
 | cid-tiradas-10-14 | The moneylenders pay; the Cid leaves Burgos for San Pedro de Cardeña | tiradas 10–14, lines 174–241 | todo |
 | cid-tiradas-15-17 | At Cardeña: Jimena's plea, and Castilians gather to follow the Cid | tiradas 15–17, lines 242–294 | todo |
 | cid-tiradas-18-18 | The last night at Cardeña: Jimena's prayer, the farewells, the road into exile | tiradas 18–18, lines 295–403 | todo |

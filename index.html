@@ -904,12 +904,6 @@ function simplifyConfig(story){
   // K'iche' (Popol Vuh): each unit carries mt, the modern-alphabet spelling of every word, because the
   // manuscript's colonial spelling cannot be converted letter by letter (Ximénez marks some ejectives
   // and not others, and writes qu for both k and q). Off = the manuscript's letters.
-  // Middle Persian (Pahlavi): each unit carries wr, the letters of the Pahlavi script for every word in
-  // the scholars' transliteration — Aramaic word-signs in capitals (YMRRWNd, read gōwēnd), Persian
-  // spellings in small letters. Off = the words as they were read aloud.
-  if (story.sentences.some(x => Array.isArray(x.wr)))
-    return { label: 'As written', labelOn: 'As read', title: 'As written — the letters of the Pahlavi script for each word; CAPITALS are Aramaic word-signs that were read aloud as the Persian word',
-             titleOn: 'As read — back to the words as they were spoken', stateKey: 'writtenMP', fn: x => x };
   if (story.sentences.some(x => Array.isArray(x.mt)))
     return { label: 'ꜩ→tz', labelOn: 'tz→ꜩ', title: 'Modern letters — the words in today\u2019s K\u2019iche\u2019 alphabet instead of the manuscript\u2019s colonial spelling (ꜩ ꜯ ꜭ ꜫ, v, z, h, c/qu)',
              titleOn: 'Manuscript letters — back to Ximénez\u2019s spelling as written', stateKey: 'modernKI', fn: x => x };
@@ -4752,7 +4746,7 @@ function buildSentEl(s, i, showLit){
       de.innerHTML = lnChip + buildStacks(s);
     } else {
       const scan = (showScan && s.sc) ? scanParse(s.t, s.sc) : null;
-      de.innerHTML = lnChip + tokenize(s.t, scan, Array.isArray(s.mt) ? s.mt : (Array.isArray(s.wr) ? s.wr : null));
+      de.innerHTML = lnChip + tokenize(s.t, scan, Array.isArray(s.mt) ? s.mt : null);
       if (scan) de.classList.add('scan');
     }
     if (vertical) de.classList.add('vert');

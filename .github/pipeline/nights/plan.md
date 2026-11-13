@@ -54,11 +54,12 @@ scan anomaly turns up later in the volume.
 | done (2026-10-24, unattended) | 423–430 | 403–410 | `archive/pp403-410.json` | Night 53 continues; Night 54 label (P407) and Night 55 label (P410); verse P409–410; 425/426 join reads abruptly (print, not transcription); all 7 joins checked |
 | done (2026-10-27, unattended) | 447–454 | 427–434 | `archive/pp427-434.json` | Night 59 tail finishes; Night 60 (P427, label "الموفية للستين"), 61 (P430), 62 (P433), 63 (P434) labels; verse pp. 431–432; all 7 joins checked |
 | done (2026-11-13, unattended) | 551–558 | 529–536 | `archive/pp529-536.json` | Night 100 closes (P529L14) after verse pp. 529, 532; Night 101 label own line P529L15, Night 102 label own line P533L01; all joins continuous incl. 528→529 |
+| done (2026-11-13, unattended) | 559–566 | 537–544 | `archive/pp537-544.json` | Night 102 closes (P539L05); Night 103 label own line P539L06, Night 104 label own line P542L12 (both h); verse p. 541; headers ٥٣٧/٥٤٤ confirm −22; all joins continuous incl. 536→537 |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 558 (archive ends at printed p. 536, header ٥٢٩ on PDF 551 confirms −22; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py now uses −22). Pages remaining: ~380 PDF pages
-(approximate, pending the corrected offset holding). Lines archived: 9403. calc.traineddata last
+**Last PDF page done: 566 (archive ends at printed p. 544, headers ٥٣٧ on PDF 559 and ٥٤٤ on PDF 566 confirm −22; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py now uses −22). Pages remaining: ~372 PDF pages
+(approximate, pending the corrected offset holding). Lines archived: 9584. calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new
 verified line pairs (pp. 127-131, 133-134 prose only, verse/heading excluded; p. 132 excluded, its

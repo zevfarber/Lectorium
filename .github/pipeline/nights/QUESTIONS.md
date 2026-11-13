@@ -1248,3 +1248,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Corrected misprint in emend.json: P530L05 اى→الى. Kept as printed and noted: P531L08 «فقالوا له … فقالوا له» (question and answer both "they said"); P530L12 باخ (colloquial akh for akhī); P532L15 لينل (dagger alif); ة for the pronoun -hu in جوادة (×2), اخوة, فاتركوة; run-together words (السعيدانّ, يدعولي, الاشهيدا, الاخوفا, فبينماهم, امانظرت, مازال) kept. New name تركاش pointed Turkāsh (vowels editorial; to confirm if it recurs pointed). The archive was not changed.
 - Sharkān/Sharrukān: still following the precedent (شَرْكَان in t, Sharrukān in tr and i), pending the decision asked for under night 98.
 - Next: night 102 needs its tail transcribed (P537+); the next firing should transcribe.
+
+## 2026-11-13 (transcribing run, PDF 559-566 = pp. 537-544)
+- Both passes agreed on افريدون at P537L19; the print has «افربدزن» (one dot under the tooth, a dotted ز for و). Archived as printed; an emend.json candidate (→ افريدون) for the publishing run. Both passes also split «فلمارأى» (P539L01), which the print runs together; archived joined.
+- The night labels for 103 (P539L06) and 104 (P542L12) are centred on their own lines and archived as `h` lines, like P529L15 and P533L01. `apply_verdicts.py` did not carry the adjudicator's `h` flag through, so the run set both by hand. Nothing to decide.
+- For the publishing runs (all archived as printed): P539L11 «اغيه» (for اخيه), P542L11 «المباج» (for المباح), P537L19 «افربدزن» (for افريدون); run-together كادان, السعيدان, اوصوابه, اخرجوالك kept; P543L16 لَاذابها carries a printed fatha.
+- Night 102 is now complete and unpublished; the next firing should publish it, then night 103.

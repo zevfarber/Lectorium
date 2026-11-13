@@ -1221,3 +1221,8 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprints archived as printed (for emend.json): P524L21 هلى (for على); the adjudicator also noted وبأنينا, حنّ, النذيز, اى, ماوخنا in this batch.
 - These pages set many more prose shaddas than usual (42 gate warnings against ~20–30). Two lines were spot-checked against the crops (P525L11, P525L15); the marks are printed. Kept.
 - Nights 98 and 99 are now complete and unpublished; the next two firings should publish them.
+
+## 2026-11-13 (publishing run, night 98)
+- Corrected misprints in emend.json: P520L17 لبعضها→لبعضهما (dual), P520L19 والوزيز→والوزير, P521L02 ووزيرة→ووزيره, P522L03 وبأنينا→ويأتينا (the transcribing run's note). Kept as printed and noted: الاقتلكم, لايكون, مايريده, العسكران (run-together words), امتلائت, رأهم (pointed رَأٰهُمُ with a dagger alif). P520L18 وجزانا read as the verb jazānā; the note gives the noun jazāʾunā as the other reading. P521L07 عرفناكم pointed as form II ʿarrafnākum, "we have told you"; the note gives form I. The archive was not changed.
+- Decision needed (house-wide, not new): since about night 90 the `t` points the name شَرْكَان (Sharkān) while `tr` and `i` give Sharrukān, and shared glossary entries are split (some say Sharkān, some Sharrukān). Meanwhile this night follows the precedent (شَرْكَان in t, Sharrukān in tr). Say which one should be used, and a run will bring the published nights into line.
+- Shared glossary: 19 existing entries were broadened or corrected to fit this night (bi-/li- senses after wakkala, rāḥa, waʿada, atā; مَا now covers questions and the negative before an imperfect; أَرَادَ lost a wa- that its key does not have; يَبْقَ romanisation yabqa).

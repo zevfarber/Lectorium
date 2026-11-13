@@ -1273,3 +1273,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - `apply_verdicts.py` cannot split a pass-1 line when pass 1 merged a centred night label into the next prose line (P552L01–02); the run fixed those two lines by hand and set `h` on all three labels (P545L06, P549L09, P552L01). Nothing to decide.
 - For the publishing runs (all archived as printed): P546 زوحتى, حزنيا, انريدون (for افريدون); P549 حيت; P550 verse نَرَكْتَ; P552 ونريدان نحكي (for تحكي), والمنكلم (for المتكلم), ثكثروا (for تكثروا); P547 نعن (perhaps فعن/وعن, low confidence); P549 خمات (for ختمات?). Run-together words السعيدان, السعيدانه, وهوانه, مايزيل kept as printed (spacing judged tight; low/medium confidence).
 - Nights 104, 105 and 106 are now complete and unpublished; the next three firings should publish them.
+
+## 2026-11-13 (publishing run, night 104)
+- Misprint corrected (emend.json): P542L14 جانسا→جالسا. Kept as printed and flagged in the notes: P544L01 «لا تبع», a misplaced space in لاتبع (la-atbaʿu, "I will surely follow"), read across the space; P543L04 "King Sharrukān" sitting by Sharrukān (the king meant must be Ḍawʾ al-Makān); P543L11 قليل without the accusative alif; P543L15 آفة رقطا (perhaps for افعى رقطاء, "speckled viper"). The archive was not changed.
+- Shared glossary: 16 existing entries were widened with this night's sense (none overwritten), and وَكَذَلِكَ was rewritten so it explains كَـ. Nothing to decide.
+- Sharkān/Sharrukān: still following the precedent (شَرْكَان in t, Sharrukān in tr and i), pending the decision asked for under night 98.
+- Next: nights 105 and 106 are complete and unpublished; P545L06 الميلة→الليلة is the emend candidate for night 105.

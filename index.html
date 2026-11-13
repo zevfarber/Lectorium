@@ -4706,7 +4706,7 @@ function buildSentEl(s, i, showLit){
   let lnChip = '';
   if (s.ln) {
     const end = s.ln + (s.t.match(/\n/g) || []).length;
-    const single = story.numbering === 'stanza' || story.numbering === 'clause';
+    const single = story.numbering === 'stanza' || story.numbering === 'clause' || story.numbering === 'colline';
     const pre = story.numbering === 'clause' ? '§' : '';
     lnChip = '<span class="lineno">' + pre + ((!single && end > s.ln) ? s.ln + '–' + end : s.ln) + '</span>';
   }
@@ -4771,7 +4771,7 @@ function buildSentEl(s, i, showLit){
     aux.appendChild(en);
   }
 
-  if (s.par && s.par.id) {
+  if (s.par && s.par.id && MANIFEST.some(m => m.id === s.par.id)) {
     const pb = document.createElement('button');
     pb.className = 'parlink';
     const lbl = (story.parallel && story.parallel.label) || 'parallel';
@@ -5874,13 +5874,22 @@ async function ensureGlossary(s){
 /* Load the story for a manifest entry: use the runtime cache if present,
    otherwise fetch its JSON file once and cache it. Entries that carry
    their own story object are used as is, so no fetch. */
-/* Bilingual monuments (Karatepe): a unit's par = {id, ln, u, clause?} names its twin in the other
-   language's story; u is the twin's unit index there. Opens that story at that unit. */
+/* Bilingual monuments (Karatepe): a unit's par = {id, ln, clause?} names its twin in the other
+   language's story by that story's own ln value(s); opens the story and focuses the first. A link to a
+   story not yet in the library is not drawn. (u, a unit index, is an older fallback.) */
 function openParallel(par){
   const i = MANIFEST.findIndex(m => m.id === par.id);
   if (i < 0) return;
-  try { localStorage.setItem('pos:' + par.id, String(par.u || 0)); } catch(e) {}
-  loadEntryByIndex(i);
+  const want = String(Array.isArray(par.ln) ? par.ln[0] : par.ln);
+  storyFilterText = '';
+  fillLibrary(i);                       // keep the work and text pickers in step with the jump
+  loadEntryByIndex(i).then(() => {
+    if (!story || story.id !== par.id) return;
+    // u (the unit index) wins when it still lands on the named line; several units can share a line
+    let k = (typeof par.u === 'number' && story.sentences[par.u] && String(story.sentences[par.u].ln) === want)
+      ? par.u : story.sentences.findIndex(x => String(x.ln) === want);
+    if (k >= 0) focusSent(k, true);
+  });
 }
 
 async function loadEntryByIndex(i){

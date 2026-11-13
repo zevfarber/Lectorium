@@ -114,6 +114,16 @@ def assemble(p, units, gloss):
                   'numbering': 'clause', 'provisional': True, 'draftNote': cfg['draftNote'],
                   'source': cfg['sourceStatement'].replace('{cite}', p['clauses']), 'images': cfg['images'],
                   'about': units.get('about', ''), 'sentences': sents})
+    # links to the Phoenician version (2026-11-13): phoenician-parallels.json maps clause -> its
+    # Phoenician line, written by ../azatiwada-phoenician/build.py. Nothing to draft.
+    pp = os.path.join(HERE, 'phoenician-parallels.json')
+    if os.path.exists(pp):
+        PAR = R.jload(pp)
+        story['parallel'] = {'id': 'azatiwada-phoenician', 'label': 'Phoenician'}
+        for s in sents:
+            if str(s.get('ln')) in PAR:
+                t = PAR[str(s['ln'])]
+                s['par'] = {'id': 'azatiwada-phoenician', 'ln': [t['ln']], 'u': t['u']}
     used = {m['lemma'] for s in sents for w in s['words'] for m in w['morph']}
     story['glossary'] = {k: G[k] for k in sorted(used) if k in G}
     story['_problems'] = problems

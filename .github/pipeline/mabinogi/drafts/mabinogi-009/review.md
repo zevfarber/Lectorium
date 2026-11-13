@@ -48,3 +48,85 @@ Checked and in place: every establishment-log item has its note. These are *o'e 
 - 54 · l "a-year thus he-spent there" leaves out "it-was-that" for the abnormal *a*. The note marks the object put first, and 0 and 58 show the pattern in full. Kept, so as not to over-hyphenate.
 - 89 · i "with the ears in their keeping" for *a'r tywys gantunt*. This is a fair rendering of *gan* 'with, in the possession of'. Kept.
 - 7 · "llyma … softens what follows" — confirmed in this part by *llyma uaed* and *llyma dwryf* (36), against unsoftened *nachaf twryf* (85). Kept.
+
+## Pass 2 (glossary)
+
+Reviewer pass 2 (2026-11-13). I checked every entry in gloss.json against the text where the form occurs and against the notes as they stand after pass 1: all 181 new entries (one per key of novel-forms.json) and the 28 drafted `__broaden__` entries. For each I checked the lemma (the Middle Welsh form first, then a real modern form or "no modern form"), the meaning, the grammar (part of speech, person, number, tense and mood, gender) and the mutation with its cause. I also read known-forms.json against this part's text, to find known entries whose sense or mutation cause would mislead a reader here, and I searched the work glossary for the house lemma forms. For the third witness I read Rhŷs & Evans 1905 (`source/raw/rhys-evans1905_djvu.txt`, pp. 49–54) where a point depended on it: *yrdunt*, *mi ae cadwn*, *ae deutroet*, *kygynnilet*, *ar tirogaeth*, *heu grofft*, *y dryded rofft*, *yrofft*, *eliwlu y byt*. Aids: Strachan, Morris-Jones, Silvan Evans and GPC (for meanings), from knowledge. No translation was consulted. Edits were made by a Python script (load, replace values, dump with ensure_ascii=False, indent=1). Two unit notes were corrected (63, 72); no `t` was touched. Afterwards a script confirmed these points:
+- the gloss.json keys other than `__broaden__` equal the novel-forms.json keys (181);
+- no value is empty;
+- each of the 46 `__broaden__` keys is in known-forms.json, and each value begins with the old entry verbatim + " · ";
+- units.json has 93 sentences, and its `t` list equals cut.json's.
+
+### Changes
+
+- yrdhunt · major · The entry called it "perhaps a form of rac (cf. racdunt)", with "form and meaning uncertain" and 'from them'. Pass 1 corrected note 9 to *er* 'for, on account of', conjugated 3 pl. (*erdunt*; the Red Book has *yrdunt*). · Rewritten as *er* + *wynt* 'for them' (modern *erddynt*), with the Red Book form and the contrast with *racdunt*. The example in *gilyaw* changed from 'retreating from them' to 'retreating for them', matching l.
+- cadwn · major · The entry said "written radical, where soft mutation after the infixed object 'y 'it' would be expected". The infixed 3 sg. masculine pronoun causes no mutation; pass 1 corrected note 40 on this exact point (*a mi a'e gwnn*; the Red Book *mi ae cadwn*). · Now: radical, regular after infixed *'y*.
+- grofd, groft · major · *grofd* gave two causes that do not exist: "after the feminine numeral teir (deir grofd)" and "as the object of a verbal noun (edrych grofd arall)". It also cited a form, "yr grofd", that is not in the text. *groft* likewise gave "soft-mutated as the object of the verbal noun heu". *teir* does not soften the next word (pass 1, note 64), and a verbal noun leaves its object radical (compare *dechreu gvaegeu*). Notes 63 and 72 had the same false cause ("softened", "softened as the object"). · Both entries now say that *grofd*/*groft* stands even where nothing softens, so the scribe seems to take it as the word's own form. They cite *o'e rofdeu* and the Red Book's *y rofft* and *y dryded rofft*. Notes 63 and 72 were rewritten to match and to point to note 64.
+- uach · minor · "whether y is 'his' or 'as' is uncertain". Note 39 (pass 1) settles it: *y* stands for predicative *yn* (Red Book *yn vach*). · Corrected. The known entry *y* was broadened with this use (see below).
+- et · minor · Offered "the adverb et 'yet, still'" as an equal alternative. Note 40 reads it as the particle *yd*, and the Red Book *pei yt uewn i* confirms this. · Now the particle only.
+- uwni · minor · "soft-mutated after the particle et": the particle *yd* causes no mutation. · Now: softened, the same in the Red Book (*uewn*); cause not clear.
+- uuosti · minor · Gave the cause as the fronted predicate. Note 29 says the softening is as after the relative *a*, which is unwritten here but written in the parallel *a golleisti*. · Corrected.
+- wlaen · minor · It did not say that *'e* 'their' leaves a consonant unmutated, so it made the softening look regular. Note 3 says it is irregular, and that the Red Book's *oeblaen* is the regular form. · Added.
+- decket, dahet · minor · Each had an invented lemma ("tecket — … noun m.", "dahet — … modern form uncertain"). *dahet* also said "after a 'and' d>dd is not seen", but *a* 'and' gives a spirant mutation, never a soft one. · Now *tec* (*teg*) with equative *tecket* (modern *teced*), and *da* (*da*) with equative *dahet* (the usual equative is *kystal*). *a* now gives *d* no mutation.
+- kygynhilet · minor · Called "radical". The equative prefix *ky-* softens *kynnil* (*ky-gynnil-et*). · Corrected; the Red Book's *kygynnilet* is cited.
+- cawg, cawc · minor · "gender uncertain". The text itself takes it up with *ac ef* 'with it', so it is masculine (and so in GPC). · Now noun m.
+- deutroet · minor · It said only "radical d- of deu". It did not say that *troet* stands unsoftened after *deu* (the work glossary has *deudroet*, "the t softened (d) after deu"). · Added; the Red Book also has *deutroet*.
+- managassei · minor · "modern form uncertain". It is a by-form of *menegi*; the work glossary has *managu* (*mynegi*). · Corrected.
+- boregueith, lanweith, ehouyndre, keleuyn, kyleuyn · minor · Wrong or invented modern forms:
+  - *boregueith* and *lanweith* said "modern form uncertain", but GPC has *boreuwaith* and *glanweith*;
+  - *ehouyndre* had "ehofndra (modern form uncertain)", a modern-looking lemma with no modern form; the lemma is *ehouyndra*, modern *eofndra*;
+  - *keleuyn* and *kyleuyn* had an invented modern form "celeuyn"; the modern form is *celefyn*, the singulative of *calaf*.
+  · Corrected.
+- gorawenu · minor · An etymology was invented: "a verb from gwawen/llawen". · Now from *gorawen* 'great joy, exultation'.
+- estwng · minor · The modern form was given as "estwng". · Now "cf. modern *gostwng*".
+- claerwynn, eilweith, amdrom · minor · The softening inside the compound was not named ("gw- lost in compounding", "lost in the compound"). *amdrom* had no mutation named at all. · Each now names the softening: *gwynn* > *wynn*, *gweith* > *weith*, *trom* > *drom*. *claerwynn* gets its modern form *claerwyn*.
+- tirogaeth · minor · "noun f. … no mutation after the article": a feminine noun is softened after the article, so the entry contradicted itself. · Now says the *t* stands unsoftened where a feminine noun would soften (the Red Book has *ar tirogaeth* too), so the gender may not have been settled.
+- fynnawn · minor · Called "subject of the list". It is the object of *welei*. · Corrected.
+- dwf (broadening) · minor · "after un 'one'". *twf* is masculine, and plain *un* does not soften it. Note 64 (pass 1) gives the cause: *un* 'the same' in close compound (compare *unfryd*). · Corrected.
+- yt (broadening) · minor · The new sense 'corn' had no modern form. · Now *yt* (*ŷd*).
+- y, byd, drwc, byw, guan (broadenings, new) · minor · In this part each known entry lacks the sense used here:
+  - *y*: *y* for predicative *yn* 'as' (*y uach*);
+  - *byd*: *byt* 'world' spelt with *d* (*eliwlu y byd*; the Red Book has *y byt*);
+  - *drwc*: the adjective 'bad' (*ys drwc a gedymdeith*);
+  - *byw*: the noun 'living' (*y byw no'y marw*);
+  - *guan*: 'rush, dash' (*yn guan adan y grofd*).
+  · Added.
+- 20 head lemmas · style · The head was a modern form where the work's Middle Welsh form belongs, or the reverse:
+  - *baed* (*uaed*, *baed*), *aruthyr*, *newyd*, *ryuedu*, *ruthraw*, *fford*;
+  - *kyuarth* (*kyuarth*, *gyuarth*), *anhed*, *byrr*, *datcanu*, *hawd*, *kynuigen*, *beich*;
+  - *pyscawt*, *llwydaw*, *llit*, *gwybet*, *geneu*;
+  - *kadw* (in the *gadwn* broadening).
+  · Each is now MW (modern).
+- byhyt, hyder, diua, orffen, kynuigen, beich, pyscawt, geneu · style · Small clarifications:
+  - *byhyt*: *py*, a by-form of *pa*;
+  - *hyder*: *h* does not mutate after *o*;
+  - *diua*: a verbal noun, not "noun m.";
+  - *orffen*: possessive *y* 'its' before the verbal noun, not "infixed";
+  - *kynuigen*, *beich*, *pyscawt* and *geneu*: radical as the object of a verbal noun.
+- well, welsei, welas, chaei, uei, wydat, ellit, wybydaf, uryt, gychwynnwys, chyuanhedu, chadw, yr (broadenings, new) · style · In this part each known entry would give the wrong cause of the mutation, or (for *yr*) the wrong rule:
+  - *well*: predicate after *oed*;
+  - *welsei*: after *na*/*ny*;
+  - *welas*: after *a* and *pan*;
+  - *chaei*: after *na*, with the indicative 'would get';
+  - *uei*: after *yny*;
+  - *wydat* and *ellit*: after *ny*;
+  - *wybydaf*: after *a*;
+  - *uryt*: after *'th*;
+  - *gychwynnwys*: after *pan*;
+  - *chyuanhedu*: after *a* 'and';
+  - *chadw*: after *'y* 'her';
+  - *yr*: the article before a consonant in *kyrchu yr gaer*.
+  · Added.
+
+Totals: 3 major items (yrdhunt with gilyaw; cadwn; grofd/groft with notes 63 and 72); 22 minor items (32 entries, 8 of them broadenings); 4 style items (about 45 entries, 14 of them broadenings). Broadenings: 28 drafted, all kept (2 revised: dwf, yt; 1 lemma fixed: gadwn), 18 added, so 46 remain.
+
+### Refused
+- kyuot, uyn, kymry, gwyn, traws, uynhaf, uynnu, uedwl, geluydyt, grydyon, gedymdeith, weleisti, greft, benn, ben, lywenyd, welet, weith, gyrchwys, gyflym, degach, a, tra, uawr, oreu (broadenings) · Each adds a sense or a mutation cause that the old entry lacks and that this part uses. Kept as drafted.
+- ynghei, ryuoryaw, eliwlu, kytdremu (chytdremei), drygyruerth, drygyruerthy, chynghoruyn, cheginwrych, gymherued · The "lemma uncertain" and "modern form uncertain" statements are honest, and they match the notes. I did not supply a modern form I could not vouch for. Kept.
+- gywirach · "cause of this mutation uncertain". An adjective after a masculine noun is sometimes softened in Middle Welsh (compare *wenith degach* beside *wenith tegach*). The hedge is fair. Kept.
+- glanet · The construction is marked uncertain, as in note 49. Kept.
+- rofdeu · The account (the *g* of a supposed *grofdeu* dropped after *'e* 'his') agrees with note 66 and with the Red Book's *oerofteu*. Kept.
+- madeuaf, medi · Each is called "written radical where softening is expected". These are scribal facts that the notes share. Kept.
+- uanec · "whether the feminine article or 'his'": both occur (*yn y uanec*, *geneu y uanec*). Kept.
+- tywys, tewys, dywyssen · Correct, with the caution that *tywys* 'ears' is not the verb 'lead'. Kept.
+- uynet (known), tryded (known) · *dy gynghor uynet* and *y tryded grofd* are not covered exactly by the known entries. The cause of *uynet* is not clear, and the *tryded* entry does not mislead about the noun. No broadening was added.

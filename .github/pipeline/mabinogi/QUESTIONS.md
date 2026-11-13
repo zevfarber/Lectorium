@@ -48,3 +48,8 @@ the drafter's note to say it is *march* soft-mutated, spelt with the w-letter. T
 - "Da a dwy ynys" (unit 36; Red Book *ys da dwy ynys*): rendered 'two good islands', flagged uncertain.
 - "Yspydawt Urdaul Benn" (unit 63): rendered 'the Hospitality of the Honoured Head' (urddol), built afresh from the Welsh.
 - "pedeir decwlat a seithugeint" (unit 80): rendered as 154, consistent with 006's count; the note gives the Red Book's *deg wlat a seith ugeint*. Same open point as 006.
+
+## 2026-11-13 · mabinogi-009 · small open points (draft)
+- Rare or obscure words left flagged uncertain in notes and glossary: *ynghei* ('closed in', from context), *torri kyuarth*, *ryuoryaw* ('till'?), *eliwlu* ('host'?), *doi* in "yn y doi yn y dywyssen", *un pedestric*, the run of equatives *glanet / kygynhilet / kyuurd*. Decided meanwhile: renderings from context, each said to be uncertain.
+- *yrdhunt* (col. 68): read as *er* 'for, on account of', 3 pl. (Red Book *yrdunt*); kept as written.
+- "Och" settled as l "Och", i "Oh" (as 003 and 006); not yet in the house table of conventions.md — added there now.

@@ -75,6 +75,9 @@ speaker-exchange). The units' `t`, joined, reproduce the established text charac
 | carueidrwyd | affection | affection | dalliance |
 | meuyl im | shame to-me | shame on me | woe is me |
 | Oy a Duw | Oh God | Oh God | Alas |
+| Dioer | Assuredly | Indeed | Truly |
+| Och | Och | Oh | Alas |
+| Nac ef | Not so | No | Nay |
 
 ## Notes and Middle Welsh for the reader
 What a tutor would point at; flag on first occurrence in a part, then nudge: the abnormal sentence; verbal-noun

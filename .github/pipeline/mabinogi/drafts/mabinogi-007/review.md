@@ -64,3 +64,87 @@ Reviewer pass 1 (2026-11-13). I read all 81 units and the "about" against conven
 - 62 *gyduot*: the cause of the softening is unstated, but the Red Book's *gytuot* is given. Not worth a change.
 - 23 the witness's *Gliuieu. eil taran* division and 13 the witness's misplaced quote are punctuation decisions already recorded in the log. They need no note.
 - about: the names agree with the published parts (Efnysien, Caswallon, Gwales, Penfro), and no name fixed above appears in it. Unchanged.
+
+## Pass 2 (glossary)
+
+Reviewer pass 2 (2026-11-13). I checked every entry in gloss.json against the text, the reviewed units and the work glossary: the 216 new entries (one per key of novel-forms.json) and the 44 `__broaden__` entries (each against known-forms.json). Each was checked for lemma, modern form, meaning, grammar, mutation and its cause. Edits were made by a Python script (dump with ensure_ascii=False, indent=1). Afterwards I checked these points:
+- every novel-forms key is present;
+- each broadening begins with its old entry verbatim plus " · ";
+- units.json still has 81 sentences, and every `t` equals cut.json.
+
+### Changes
+
+- enni · major · The draft invented a meaning ("perhaps a noun 'a stir, a sign, a one'"). · Rewritten to match note 17: either *genni* 'have room', softened after *heb*, or *geni* 'be born' (the Red Book *eni*). Marked uncertain.
+- wydat · major · Called an "impersonal imperfect 'it was known'", glossed "who killed him". It is the 3 sg. imperfect of *gwybot*, 'he knew' (the Red Book *wydyat*), and *a'e lladei* means 'who was killing them'. · Corrected, in line with note 44.
+- yspadawt · major · The meaning was given as "apparently a muster or expedition". This contradicts units 80 and 64 and the `i` rendering "the Hospitality of Brân". · Now a spelling of *yspydawt* (*ysbyddawd*) 'hospitality, feast'.
+- units 57 · n · major (my pass-1 error) · In pass 1 I relabelled *dylywn* as "1 pl. imperfect". The Middle Welsh 1 pl. present ends in -wn; the imperfect 1 pl. is -em. With *ni*, it is the present. The glosser had it right. · The note now reads "1 pl. present of dylyu 'owe, ought' (-wn is the 1 pl. present ending)". The pass-1 entry for unit 57 above is superseded on this point.
+- nyssyen · minor · It said "brother of Efnisien" and "object of y gelwis". Nisien is the subject, and the published form is Efnysien. · Corrected.
+- efnissyen, calaned · minor · Both had "Efnisien" for the published "Efnysien". · Corrected.
+- gelwis · minor · The example was glossed 'he called Nisien'. · Now 'Nisien called the boy to him'.
+- gaswallawn, caswallawn, daroed, beli, wiscaw (broadening) · minor · The English glosses used "Caswallawn". The units' English form is Caswallon. · English glosses now read Caswallon. The proper-name entries say "Caswallon (spelt Caswallawn)".
+- gradawc, uran · minor · Both had "Bran" for the published "Brân". *uran* also called its softening "cause uncertain" and glossed 'muster of Bran'. · Now Brân, softened after the feminine noun *yspadawt*, 'the Hospitality of Brân' (as note 80 has it).
+- want · minor · "tense and ending uncertain". *gwant* is the regular 3 sg. preterite of *gwanu*, as note 8 says. · Corrected.
+- gynneu · minor · Called "soft-mutated … after the possessive y 'its'", which states a cause the note does not claim. · Now the cause is not clear, as in note 8, with the Red Book's *yn y gynneu tan*.
+- gynsynwys, units 9 · n · minor · Both glossed it 'consent, assent', the meaning of *cydsynio*. *kynsynnyaw* (*cysynio*) is 'intend, set oneself to'. · The entry and note 9 are corrected. The shade of the sense is still marked uncertain.
+- dechrewis · minor · "3 sg. preterite in -wis (-wys)". The form is *dechreuis* (-is) with w written for u. · Corrected.
+- galon · minor · It claimed *calon* softens "after the feminine article" in *y galon ynteu*, and glossed *ynteu* as 'too'. The *y* is 'his', and *ynteu* means 'his own'. · Corrected.
+- goruot, oruot · minor · The modern form was invented ("goruod"). · Now *gorfod*. The odd remark about *goruchafiaeth* is removed.
+- diang · minor · Called a "noun m. (the verbal noun is dianc)". *diang* is the verbal noun *dianc*, with -g for -nc. · Corrected.
+- erwyd · minor · The lemma was given as "uncertain, perhaps erwydd". It is *herwyd* (*herwydd*) without h-, as note 8 says and as the Red Book writes it. · Corrected.
+- anhebic · minor · It had the modern form "anhebyg" and the etymology "hebic 'like'". · Now *annhebyg*, from *an-* + *tebic*, with the t nasalised.
+- ymtiryoni · minor · The meaning was 'be gracious to one another'. The note's 'make friends with' fits *a'r mab*. · Corrected, with the Red Book's *ymdirioni*.
+- mordwyd, tyllyon · minor · *mordwyd* was given as a bare name. *tyllyon* was called "perhaps a family or place name". Both contradicted note 13, which gives 'Pierced Thigh'. · *mordwyd* = *morddwyd* 'thigh'. *tyllyon* is a plural adjective, 'holed, pierced', from *twll*.
+- gwngwch, uiwch · minor · Both entries guessed at a 2 pl. imperative, and *uiwch* at a b > u softening. Note 13 says no reading is safe. · The guesses are removed.
+- henueleu · minor · The modern form was given as "Henfeleu". · Now Henfelen, with -leu probably a slip for -len, as note 29 says.
+- bydant · minor · Glossed "'they were being' … probably a variant of bydynt". · Now 3 pl. present (habitual), a vivid present, as note 40 says. The Red Book has the same.
+- racoch · minor · Called "no modern form … formation uncertain". It is *rac* conjugated, 2 pl. (*rhagoch*). · Corrected.
+- ganedigaeth · minor · It claimed a nasal mutation "after 'm 'my'" that is not written. The infixed *'m* causes no mutation. · Corrected.
+- guales · minor · It said "no mutation shown after y". The *y* is *yn* 'in', whose nasal mutation is not written (the Red Book *ygg6ales*). · Corrected.
+- dilwgyr · minor · It had "no modern form" and "sense from context". The word is *dilwgr*, di- + *llwgr*. · Corrected.
+- gayat · minor · It had an invented modern form ("caeat … no direct modern form"). · Now *kayat* (*caead*) 'shut', softened after *y* standing for predicative *yn*, with the Red Book's *yngayat*.
+- weldy · minor · Called a "presentative particle, formation uncertain". · Now the imperative *gwel* + *di*, with the g lost, as note 57 has it.
+- wynte · minor · The lemma was given as *wynt* (*hwynt*). The form is the conjunctive *wynteu* (*hwythau*). · Corrected.
+- gyuawr · minor · Given as "perhaps connected with cyfar", 'time'. It is *kyf-* + *awr* 'that very hour', as note 68 has it. · Corrected.
+- yll · minor · Glossed "variant of oll". *yll* is the pronoun before numerals (modern *ill*, as in *ill dau*). · Corrected.
+- etwan · minor · It had "no modern form" and "sense from context". It is a by-form of *etwa* (the work glossary gives *etwa* (eto)). · Corrected.
+- aeruaeu · minor · The lemma *aerfa* was glossed 'slaughter, battle' only. The units have 'battlefields' (*aer* + *ma*). · The meaning now leads with 'battlefield', with the make-up of the word.
+- ganyat · minor · It had an invented modern form, "canaid" (a different word, 'bright'), and 'Song' against `i`'s 'Singing'. · Now *caniad*, 'singing, song', with 'the Singing of the Birds of Rhiannon'.
+- yspydawt, yspydaut · minor · The modern form was given as "no common modern form; cf. ysbyd". · Now *ysbyddawd*.
+- gyweithyd · minor · The modern form was given as "no modern form certain". · Now *cyweithydd*.
+- kyuodyn · minor · The modern form was given as "codi". · Now *cyfodi*, the form of the same verb.
+- godwrw · minor · The modern form "godwrw" was invented. · Now *godwrdd*, with the Red Book's *god6rd*.
+- uonllwm · minor · The cause of the softening was given as "not clear". · Now: an adjective after a noun counted by *deu*, as note 19 says.
+- broadening uranwen, benn · minor · Both said "cause uncertain" for the softening after *yspydawt*. The word is feminine (*yr honn*), as notes 64 and 80 say. · Corrected.
+- broadening yr · minor · It called *yr hwnn* / *yr honn* a "relative 'which'". That *yr* is the article, 'the one'. It also glossed *yr a* as 'all that'. *yr* there is *er* 'for all', before the relative *a*. · Corrected (the old text is kept verbatim).
+- broadening uu · minor · It gave "after a fronted subject" as a cause. The cause is the relative *a* left unwritten, as note 47 says. · Corrected.
+- broadening gyflauan · minor · It gave the cause as "uncertain". Note 7 now gives softening after *a*, in the adjective + *a* + noun construction. · Corrected, with the construction still uncertain.
+- broadening wiscaw · minor · "soft after daroed idaw" gave no cause. · Now: soft as the subject of *daroed*.
+- broadening dyuot · style · Removed. The old entry already covers the verbal noun in narrative ('and coming to Glyn Cuch'), and a following subject is ordinary syntax.
+- broadening heb · style · The uncertain *heb enni* example is dropped. *heb ohir* stays.
+- broadening guern · style · It offered "gwern 'alder, swamp'" against note 13 ("Gwern is clear"). · Now: the name is clear and the rest of the cry is not.
+- broadening dial · style · "the soft mutation of d- is not written" now reads "softened, d spelling dd so the change does not show", the formula the notes use.
+- broadening mlyned · style · The mutation is now said to follow *ugeint* inside *pedwarugeint*.
+- broadening ar · style · Added that *am* would be expected here and that the Red Book also has *ar*.
+- pendarar · style · Added that both manuscripts have -r and that it is presumably a slip (note 48).
+- fell, amlyket, kyuarwydyd · style · Unwarranted "uncertain" hedges were removed. The forms are clear: *pell*, the equative of *amlwc*, and *kyuarwydyd* 'lore, tale'.
+- anuat · style · Added that the sense here is disputed (notes 70, 79).
+- uagyssant, lau, kyuarffei, wybuant, doethan, gyduot, muryel, ginyaw · style · Brought into line with the notes:
+  - *uagyssant*: the construction is loose;
+  - *lau heb lau*: 'hand past hand', in turn;
+  - *kyuarffei*: 'as if … met';
+  - *hyt na*: 'so that not';
+  - *doethan*: -t not written;
+  - *gyduot*: the speculative cause is dropped;
+  - *muryel*: "probably his mother" is dropped;
+  - *ginyaw*: "as if feminine, though usually masculine".
+
+### Considered and refused
+- tarean · The lemma field gives MW *taryan* with modern *tarian*. That is the house pattern (MW lemma, then modern form), and it is consistent with the work glossary's *taryan*. Kept.
+- wydwic, ymedyryaw, aniuyget, damunet, kychu, gwenwynwaew, matcud, decwlat · The "no modern form" and uncertainty statements match the notes. Kept.
+- gyniuer · Called "noun f.". The text softens it after the article twice, so treating it as feminine is what the form shows. Kept.
+- pedwar · The comment that a predicative *yn* would soften it ("not shown") is right for *torri yn …* 'break into'. Kept.
+- glan · "the nasal mutation … not written" slightly simplifies note 38 (Evans's *yglan*), but it is not wrong for the form as divided. Kept.
+- e (broadening) · The infixed object *'e* after *a* is not in the old entry. Kept.
+- rac, ay, llaw, hwnnw, daruu, ulwydyn (broadenings) · Each adds a sense or construction that the old entry does not state. Kept.
+- dienghis, diffeithwyt, dothoed, dywedir, daroed · "the soft mutation of d- not written" is acceptable shorthand for d spelling dd. Kept.
+- paluawt · The modern form *palfod* and the gender (f., from *yr honn*) stand.

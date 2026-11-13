@@ -42,3 +42,9 @@ the drafter's note to say it is *march* soft-mutated, spelt with the w-letter. T
 - Col. 60 l. 13: "kychu a'r penn" (witness *kyrchu*, Red Book *kychwynnu*). Decided meanwhile: kept as printed, flagged uncertain.
 - Col. 57: "yglan Alaw" divided "y glan" as 006's "y gwaelawt"; same open point.
 - source/drafts/mabinogi-007-ocr.txt carries a block of mabinogi-006's text inside col 56 (a setup-script fault); it did not affect the established text (col 56 read from the image). Not corrected (setup file).
+
+## 2026-11-13 · mabinogi-007 · small open points (draft)
+- "Guern gwngwch uiwch Uordwyt Tyllyon" (col. 56; unit 13): the cry is obscure. Decided meanwhile: left untranslated in `l` and `i`; the note says so, and the guesses were left out.
+- "Da a dwy ynys" (unit 36; Red Book *ys da dwy ynys*): rendered 'two good islands', flagged uncertain.
+- "Yspydawt Urdaul Benn" (unit 63): rendered 'the Hospitality of the Honoured Head' (urddol), built afresh from the Welsh.
+- "pedeir decwlat a seithugeint" (unit 80): rendered as 154, consistent with 006's count; the note gives the Red Book's *deg wlat a seith ugeint*. Same open point as 006.

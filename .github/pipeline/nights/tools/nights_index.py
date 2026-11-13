@@ -49,7 +49,7 @@ ARCHIVE = os.path.join(NIGHTS, "archive")
 # 20 never became "complete", --next returned nothing for five days of firings (every one fell
 # through to transcribing), and once Night 30's one-word-looking formula arrived Nights 20–29
 # would have been published as a single "Night 20". Hence the parsed-ordinal check below.
-MARKER = re.compile(r"كانت\s+(?:الليلة|الليله|اللية)\s+((?:\S+\s+){1,4}?)(?:قالت|قات|قال|قلت)\b")
+MARKER = re.compile(r"كانت\s+(?P<w>الليلة|الليله|اللية|الميلة)\s+(?P<o>(?:\S+\s+){1,4}?)(?:قالت|قات|قال|قلت)\b")
 FIRST = re.compile(r"الليلة\s+الاولى\s+قالت")
 
 # Longest night published so far is 248 lines (Night 18). A unit over this many lines almost
@@ -178,8 +178,8 @@ def find_markers(lines):
         found.append((owner[m.start()], "الاولى"))
     for m in MARKER.finditer(text):
         # anchor on الليلة, which is the line a reader would see the night begin on
-        anchor = m.start() + m.group(0).find("الل")
-        found.append((owner[anchor if anchor >= 0 else m.start()], m.group(1).strip()))
+        # (P545L06 prints the misprint الميلة, so anchor on the matched word itself)
+        found.append((owner[m.start("w")], m.group("o").strip()))
 
     found.sort(key=lambda p: p[0])
     deduped = []

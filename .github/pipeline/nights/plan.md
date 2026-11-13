@@ -55,6 +55,7 @@ scan anomaly turns up later in the volume.
 | done (2026-10-27, unattended) | 447–454 | 427–434 | `archive/pp427-434.json` | Night 59 tail finishes; Night 60 (P427, label "الموفية للستين"), 61 (P430), 62 (P433), 63 (P434) labels; verse pp. 431–432; all 7 joins checked |
 | done (2026-11-13, unattended) | 551–558 | 529–536 | `archive/pp529-536.json` | Night 100 closes (P529L14) after verse pp. 529, 532; Night 101 label own line P529L15, Night 102 label own line P533L01; all joins continuous incl. 528→529 |
 | done (2026-11-13, unattended) | 559–566 | 537–544 | `archive/pp537-544.json` | Night 102 closes (P539L05); Night 103 label own line P539L06, Night 104 label own line P542L12 (both h); verse p. 541; headers ٥٣٧/٥٤٤ confirm −22; all joins continuous incl. 536→537 |
+| done (2026-11-13, unattended) | 567–574 | 545–552 | `archive/pp545-552.json` | Night 104 closes (P545L05); Night 105 label own line P545L06 (printed الميلة, misprint), Night 106 label P549L09, Night 107 label P552L01 (all h); verse pp. 549–550, 552; headers ٥٤٥/٥٥٢ confirm −22; all joins continuous incl. 544→545 |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 

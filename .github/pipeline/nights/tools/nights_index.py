@@ -120,6 +120,8 @@ def ordinal_number(ordinal):
         return None
     if len(words) == 3:
         # الحادية والعشرون بعد المائة is 4 words; three words: الحادية عشر بعد ... not expected.
+        if words[1] == "بعد" and words[0] in UNITS and words[2] in TENS:   # الحادية بعد المائة (Night 101, 2026-11-13)
+            return TENS[words[2]] + UNITS[words[0]]
         if words[0] in UNITS and words[1] in TENS and words[2] in TENS:
             return TENS[words[2]] + TENS[words[1]] + UNITS[words[0]]
         return None

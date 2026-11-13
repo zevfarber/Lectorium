@@ -1285,3 +1285,8 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Ḥardūb's relation to Dhāt al-Dawāhī: this night calls him her son (ابني حردوب), as the tale usually does; Night 104's text (P543) calls him her father (والدها), and its `about` follows that. Both are kept as the text has them; night 105's note points out the difference. Nothing to decide unless the owner wants Night 104's `about` reworded.
 - Sharkān/Sharrukān: still following the precedent (شَرْكَان in t, Sharrukān in tr and i), pending the decision asked for under night 98.
 - Next: night 106 is complete and unpublished; the next firing should publish it.
+
+## 2026-11-13 (publishing run, night 106)
+- Corrected misprints in emend.json: P549L12 حيت→حيث, P549L13 خمات→ختمات (khatmāt, Qurʾan recitations), P550L04 نركت→تركت (verse). Kept as printed and flagged in the notes: P550L04 lacks the و before نلت that metre and sense want (not added: a missing word, not a clear letter slip); obscure verse phrases تسر بما تلاقى, ساوت الرشقى, اصدقا (P550L05–08), تعني (P550L16), الاضعان with ض for ظ.
+- Review raised again the Sharkān/Sharrukān mismatch (t شَرْكَان, tr sharrukān; ~110 cases across Nights 95–106). Still following precedent, pending the decision asked for under night 98.
+- Next: night 107 is incomplete (tail unread); the next firing should transcribe.

@@ -60,3 +60,81 @@ Gorssed Arberth → the Mound of Arberth (002). Caswallawn → Caswallon son of 
 - 30 · i "Oxford" for *Ryt Ychen*. The note gives the Welsh name and its meaning, and l keeps *Ryt Ychen*. Kept.
 - 34 · *ac yniuer gyt ac wynt*, i "their company". The Red Book has *ac eu niuer*. i is defensible either way. Kept, with no note added.
 - 43 · i "to eat their way through the feast" for *treulaw y wled*. This is a fair rendering of 'consume' and fits 27 and 24. Kept.
+
+## Pass 2 (glossary)
+
+Reviewer pass 2 (2026-11-13). I checked every entry in gloss.json against the text and notes as they stand in units.json (after pass 1), conventions.md, the work glossary and known-forms.json: the 198 new entries (one per key of novel-forms.json) and the 8 `__broaden__` entries. Each was checked for lemma, modern form, meaning, grammar (person, number, tense/mood) and mutation with its cause. I also read known-forms.json against the text to see where a known entry would mislead a reader of this part, and the pass-2 sections of 006 and 007 for the usual faults. Aids: Strachan, Morris-Jones, Silvan Evans and GPC, from knowledge; no translation was consulted. Edits were made by a Python script (dump with ensure_ascii=False, indent=1). No unit note needed correcting: every correction below brings an entry into line with the notes, not the reverse. Afterwards a script confirmed these points:
+- all 198 novel-forms keys are present in gloss.json;
+- each of the 22 broadenings begins with its old entry verbatim plus " · ", and every broadened form is in known-forms.json;
+- units.json still has 83 sentences, and its `t` list equals cut.json's.
+
+### Changes
+
+- er · major · Glossed as *er* 'since' ("since the time she was in her prime"). This contradicts note 13, l ("The time that …") and i, which take *Er* as the article *yr* spelt with *e*, as *E gedymdeithas* and *E rof* are in this part. · Now *yr* (*y*), the article, spelt *er*, with *er* 'since' given as possible but less likely.
+- deryw · minor · Labelled "3 sg. present, probably subjunctive or future … tense uncertain", and "radical after ny". *deryw* is the 3 sg. present of *daruot* with perfect sense, 'has ended, is over', as note 24 says. After *ny* it is softened, but *d* also writes *dd*, so the change does not show. · Corrected.
+- chanhoed · minor · Called "3 sg. past form … stem and tense uncertain". Pass 1 confirmed that it is the 3 sg. imperfect of *kanuot*, with -*oed* as in other compounds of *bot*. · Corrected, with the lemma *kanuot* (*canfod*).
+- uit · minor · Called "3 sg. imperative / present subjunctive". *bit* is the imperative; the subjunctive is *bo*. · Corrected.
+- uydef · minor · It presented -*ef* as a real ending beside -*af*. Note 21 calls it a scribal slip for *uydaf*, the reading of the Red Book. · Corrected.
+- roessum · minor · It said "soft mutation after a". The softening is due to the infixed *'th* ('you') directly before the verb, and *r* also writes *rh*, so it does not show. · Corrected.
+- werendeweist · minor · The MW lemma "gwerendewi" was invented: *gwerendew-* is only the stem of inflected forms. The verbal noun is *gwarandaw*, as note 13 says. · Now *gwarandaw* (*gwrando*), stem *gwerendew-*.
+- delediwach · minor · It had an invented lemma, "teledyw (… GPC teledu, teledw)"; *teledu* is 'television'. · Now *telediw* (no modern form), as in the work glossary.
+- thelediwet · minor · It had an invented modern lemma, "teledïwed". · Now *telediwet*, no modern form, the abstract noun from *telediw*.
+- loygyr · minor · Called "spelt with l for ll; radical". Note 47 says *Loygyr* ← *Lloygyr* is softened as the object of *Kyrchwn*. · Corrected.
+- henill · minor · It took *o'y henill* as 'of their gain', with *y* for *eu*. Note 51 and l have 'his' (each saddler): *'y* 'his' after a vowel puts *h-* before a vowel. · Corrected.
+- brynu · minor · It gave the cause as "after the preposition y 'to'" ('to buy it'). It is *y* 'its', the object of a verbal noun standing as a possessive before it ('buying it'), as note 73 says. · Corrected.
+- carcharu · minor · Called "verbal noun in narrative use", 'and imprisoning would be done'. Note 55 takes *yn* as *an* 'our', with the verbal noun fronted before *a wneit*: 'our imprisoning would be done'. · Corrected.
+- uydem · minor · The cause was given as "soft after the fronted predicate rewin". The softening is caused by the relative *a*, understood after the fronted predicate, as for *uydei* in the work glossary. · Corrected.
+- rewin · minor · Called "adjective or noun … ruined … sense uncertain". GPC's *rhewin* is the noun 'ruin, destruction' (Latin *ruina*), as note 67 says. · Corrected, with the modern form *rhewin*.
+- ymossymdeithaw · minor · The etymology was invented: "probably related to ymdeithio 'to travel' or cedymdeithas". Note 55 derives it from *ossymdeith* 'sustenance'; compare *gossymdeithaw* 'provide for' in the work glossary. · Corrected.
+- duunaw, duunyssant · minor · The lemma was given as "dyunaw (no modern form …)", with "the root is uncertain". The text has *duunaw*, the modern verb is *dyuno*, and the make-up *du-* + *un* is clear (note 52). · Now *duunaw* (*dyuno*).
+- corueu, choryf · minor · The lemma was "coryf (GPC coryf, pl. corfau)", with "the plural form is uncertain". Notes 49 and 51 give *corf*, of which *koryf* is another spelling. · Now *corf* (*corf*; MW also *koryf*).
+- lassar · minor · The cause of *l* was named only for *gan Lassar* and *o Lassar*. The same form appears in *calch lassar*, beside *calch llassar*, where no cause shows (*calch* is masculine). · The entry now says so. The name and the common word are kept apart as in note 49, with the head *Llassar* (*Llasar*) in line with the work glossary's *llassar*.
+- lledyf · minor · It gave "GPC also lleddf, not in common use" and named a "Triad of Humble Chieftains". *lleddf* is the modern form, and note 2 says the sense in the triad is disputed. · Now *lledyf* (*lleddf*), with its range of senses and the triad given without a rendering.
+- mwynant · minor · The modern form was given as "mwynant". · Now *mwyniant*.
+- heldir, hundy, ymedgell, guydlwdyn · minor · The softening inside the compound was missing, or misnamed ("the t of tŷ voiced to d after n"), and *guydlwdyn* had an "analysis uncertain" hedge that note 43 does not share. · Each now names the softening in the compound. The hedge is removed.
+- kytdrefwyr, gyfrwyd, kyfrwydyon · minor · Their modern forms ("cydrefwr", "cyfrwyydd") are not established. · Each now says "no modern form"; *kyfrwyd* adds a cf. to *cyfrwy*.
+- dygyaw, dygywys · minor · The meanings 'be vexed' (with "cf. digio") and 'irk, gall' disagreed with each other and with notes 46 and 63 ('grow weary, become too much'). · Both now give the sense in the notes, marked uncertain, with the Red Book readings.
+- e (broadening) · minor · It added "'their' (eu), in e hun". *e hun* (*ehun*) 'self' does not change for person; the *e* is not *eu*. · Rewritten: *e hun* 'self, own', unchanged for any person.
+- tei (broadening, new) · minor · The known entry has only the obscure *tei* after *brethyn llwyt*. Here *tei y llys* is 'the houses of the court' (note 37). · Added "tei 'houses', plural of ty".
+- yn (broadening, new) · minor · The known entry has no sense 'our'. This part writes *an* as *yn* four times (*yn anniuer*, *yn ymborth*, *yn carcharu*, *yn diuetha*; notes 39, 47, 55, 65). · Added.
+- llassar (broadening) · style · Removed. The old entry already says "llasar also means 'blue, azure'", and *calch* and *chalch* gloss the phrase *calch llassar*.
+- nac (broadening) · style · It said "literally 'not he'". · Now 'not it', as in note 55.
+- wlat (broadening) · style · The repeated clause on the cause was trimmed.
+- well, le, alar, gyuoethawc, dref, uanawydan, gaswallawn, wybot, ueint, gynghor, gyuoeth, wreic, gedymdeith (broadenings, new) · style · In this part each known entry would give a reader the wrong cause of the mutation. For example, *well* gives "soft as the object of kyuarch" where the text has *seith cantref well*, and *le* gives "after kyfryw" where the text has *heb le*. · Each now has the cause found here (after its noun, *heb*, *diruawr*, *holl*, *y* 'to', *o*, apposition, *can*, *wrth*/*pa*, predicative *yn*, *'y* 'his').
+- keuynderw · style · "predicate without yn after boet" was dropped. The modern form now matches the work glossary's *geuynderw* (*cefnderw*, *cefnder*).
+- ymdidanwreic, rodyaw, colli, mel, nywl · style · Each mislabelled a case where the mutation does not show:
+  - *ymdidanwreic*: "radical after ar", where it begins with a vowel;
+  - *rodyaw*: "radical after wrth", where *r* also writes *rh*;
+  - *colli*: "predicative yn", where it is the progressive *yn*;
+  - *mel*: "after the article", where *y* is 'its' (note 28);
+  - *nywl*: "radical after o", where *n* does not change.
+  · Corrected.
+- kydeisted · style · Called "verbal noun used as subject". It is the object of *dechreu*. · Corrected.
+- digonach · style · The lemma is now *digawn* (*digon*), as in note 17 and the work glossary. The hedge on the comparative is removed.
+- dywedwydat · style · The note's caution (odd form, analysis uncertain) was added.
+- gueith, henford, rybud, kent, kegin, in, lladron, eurgryd, galhon · style · These entries were clarified:
+  - *gueith*: *y* = *eu* in *y gueith wynteu*;
+  - *henford*: a garbled radical clause;
+  - *rybud*: also the subject in unit 64;
+  - *kent* and *kegin*: *yg* is the written trace of the nasal (as in the work glossary's *yg*);
+  - *in*: given the house format *y (i) + ni*;
+  - *lladron*: the singular, not the plural, has the affected vowel;
+  - *eurgryd*: "Triad of Gold-Shoemakers" is now a triad of 'Three Gold-Shoemakers';
+  - *galhon*: the Red Book's *o gallon* is added, and so is the unexplained *h*.
+- 47 entries (head lemmas) · style · The draft gave modern forms as the MW lemma where the work glossary has a fixed one. · Each was brought into line with the work glossary:
+  - *bot* (*bod*), *caffael* (*cael*), *rodi*, *mynet*, *gwybot*, *dywedut*, *kymryt*, *kyrchu*, *keissaw*, *treulaw*, *kyscu*, *dechreu*, *adnabot*;
+  - *ymlad*, *taryan*, *clybot*, *dyscu*, *ymyrru*, *kyweiraw*, *llunyaw*, *kyfrwy*, *kylchu*, *gwled*, *cladu*, *brawt*, *pryt*, *ty*, *tan*, *diwed*, *clot*, *bryt*, *kyflym*;
+  - the conjugated prepositions *rac* + *wynt*, *o* + *hi* and *at* + *wynt*.
+
+Totals: 1 major (*er*); 26 minor items (34 entries, including 3 broadenings); 11 style items (65 new entries and 16 broadenings, counting the head-lemma normalisation as one item). Broadenings: 8 drafted, 1 removed (llassar), 3 revised (e, nac, wlat), 15 added, so 22 remain.
+
+### Refused
+- gwnathoed, kyscwyt, geffit/cheffit, phrynit/frynit, edrychyssant, guelyn, dreulyssant, gawssont, gausant, lwydwys, adnabu, gwybu, ymladem · The person, tense and mutation are right: pluperfect, impersonal preterite and imperfect in -*it*, 3 pl. imperfect without -*t*, and the rest. Kept.
+- tyuu · It is glossed as the verbal noun standing for the finite verb, in line with pass 1. Kept.
+- goathrist, difleis, tirioni, ymgedymdeithassu, wyll, ymwarauun, enwedigaeth, anreitheu, diuessur, galhon · The "no modern form" and uncertainty statements match the notes. Kept.
+- gygnwyt · "soft after llaes" is consistent with *Llaes Gyfnewit* in 005. The meaning is honestly marked uncertain. Kept.
+- teced (theket), gwäeg (guaegeu), eurgrydd, cyfanhedd, bydaf, cryddiaeth, hosan, cordwal · These are real lemmas or modern forms. Kept.
+- uil · *mil* 'animal' is the right word (not *mil* 'thousand'). Kept.
+- bydwn · "radical after ny" is how the White Book writes *b* after *ny* (*ny bu*, *ny buost*, *ny bydy*). Kept.
+- wy, bei, uot, bot (broadenings) · Each adds a use that the old entry lacks: emphatic *wy* after a conjugated preposition, *bei* 'if', *uot* softened after *y* 'his', and *bot* 'that' in reported speech. Kept.
+- yniuer (known) · Note 34 reads *y niuer* with the article, and the known entry calls the *y-* prosthetic. Both readings are defensible, and no broadening was added.

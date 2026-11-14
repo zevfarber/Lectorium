@@ -68,7 +68,7 @@ flat = [x for u in units for x in u.get('sc', [''] * len(A.WORD_RE.findall(u['t'
 strip = lambda s: re.sub(r'[0-9–⏑×‖]', '', s)
 applied = []
 for i, l in enumerate(L):
-    k = f"{P['book']}.{l['n']}"
+    k = f"{P['book']}.{l.get('label', l['n'])}"
     if k in fx:
         a = sum(lt[:i]); new = fx[k]['sc']
         if [strip(x) for x in new] != A.WORD_RE.findall(l['t']): die('scan-fixes.json', k, 'does not match the words of the line')

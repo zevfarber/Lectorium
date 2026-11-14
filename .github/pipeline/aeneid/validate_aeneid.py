@@ -65,7 +65,7 @@ if len(alltok) == len(A.WORD_RE.findall(src)):
     for l in L:
         n = len(A.WORD_RE.findall(l['t'])); seg = ''.join(alltok[i:i + n]); i += n
         feet = re.findall(r'[1-6]', seg); syl = len(re.findall(r'[–⏑×]', seg))
-        if str(L_fix.get(f'{P["book"]}.{l["n"]}', {}).get('why', '')).startswith('Half-line'):
+        if str(L_fix.get(f'{P["book"]}.{l.get("label", l["n"])}', {}).get('why', '')).startswith('Half-line'):
             # hemistich (Virgil's unfinished line): fewer than six feet; numbered feet 1..k, one line-end mark
             if feet != list('123456'[:len(feet)]) or not feet or len(feet) >= 6 or seg.count('×') != 1: fail(f'line {l["n"]}: bad half-line scansion')
             continue

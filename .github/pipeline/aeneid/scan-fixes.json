@@ -9038,5 +9038,84 @@
    "cer–3tant×"
   ],
   "why": "Half-line (hemistich), one of Virgil's unfinished lines: mis-sĭ-lĭ | būs cer | tant, a dactyl, a spondee and one syllable (– ⏑ ⏑ | – – | ×), 6 syllables. The last syllable is marked × as the end of the line. There is no hexameter to fit; the scanner returns UNRESOLVED."
+ },
+ "9.535": {
+  "sc": [
+   "1Prin–ceps–",
+   "2ar–den–3tem–‖",
+   "con–4ie–cit–",
+   "5lam–pa⏑da⏑",
+   "6Tur–nus×"
+  ],
+  "why": "coniecit is three syllables, con-iē-cit, with a consonantal i after the prefix (as the entries at 2.545 and 7.456): Prīn-cēps | ār-dēn | tēm cōn | iē-cīt | lām-pă-dă | Tūr-nus (13 syllables), -cit long by position before lampada. The scanner (no flag) read co-ni-e-cit, four syllables with a short co-, and made the third foot a dactyl, a fit with 14."
+ },
+ "9.552": {
+  "sc": [
+   "1con–tra–",
+   "2te–la⏑",
+   "fu⏑3rit–‖",
+   "se–4se–que",
+   "haud–",
+   "5nes–ci⏑a⏑",
+   "6mor–ti×"
+  ],
+  "why": "Wrong quantities with the right count (no flag). contrā has a long final a, tēla a long e and a short neuter-plural -a, and fŭrit a short u: cōn-trā | tē-lă fŭ | rīt sē | sē-qu(e) haud | nēs-cĭ-ă | mōr-tī (14 syllables). The scanner made contra short-final and te- short, then tela long-final and fu- long."
+ },
+ "9.553": {
+  "sc": [
+   "1in–i⏑cit⏑",
+   "2et–",
+   "sal–3tu–‖",
+   "su–4pra–",
+   "ve–5na–bu⏑la⏑",
+   "6fer–tur×"
+  ],
+  "why": "Same quantities as the scanner's, different syllable division: inicit (in + iacio) has a consonantal i after the prefix, written once, so it is in-ĭ-cĭt with in long by position, not an open long i- (as obicis, 4.549): īn-ĭ-cĭt | ēt sāl | tū sū | prā vē | nā-bŭ-lă | fēr-tur (14 syllables). The scanner's i-ni-cit marked an open syllable long, which would be sung ī-."
+ },
+ "9.555": {
+  "sc": [
+   "1in–ru⏑it⏑",
+   "2et–",
+   "qua–",
+   "3te–la⏑",
+   "vi⏑4det–‖",
+   "den–5sis–si⏑ma⏑",
+   "6ten–dit×"
+  ],
+  "why": "Wrong quantities with the right count (no flag). quā (the adverb) and tē- are long, tēlă has a short neuter-plural -a, and vĭdet a short i: īn-rŭ-ĭt | ēt quā | tē-lă vĭ | dēt dēn | sīs-sĭ-mă | tēn-dit (15 syllables), caesura after videt. The scanner made qua and te- short and -la and vi- long."
+ },
+ "9.585": {
+  "sc": [
+   "1flu–mi⏑na⏑",
+   "2pin–guis⏑",
+   "u⏑bi",
+   "3et–‖",
+   "pla–4ca–bi⏑lis⏑",
+   "5a–ra⏑",
+   "Pa⏑6li–ci×"
+  ],
+  "why": "Wrong quantities with the right count (no flag). plācābilis has long plā- and -cā- (plācāre) and a short -lis before ara: flū-mĭ-nă | pīn-guĭs ŭ | b(i) ēt plā | cā-bĭ-lĭs | ā-ră Pă | lī-cī (16 syllables). The scanner made pla- and -ca- short and -bi- and -lis long."
+ },
+ "9.615": {
+  "sc": [
+   "1de–si⏑di⏑2ae–",
+   "cor–3di–‖",
+   "iu⏑vat⏑",
+   "4in–dul–5ge–re⏑",
+   "cho⏑6re–is×"
+  ],
+  "why": "choreis is three syllables, chŏ-rē-īs (chorēa, as choreas at 6.644), and indulgēre has the long ē of the second conjugation; iŭvat has a short u: dē-sĭ-dĭ | ae cōr | dī iŭ-văt | īn-dūl | gē-rĕ chŏ | rē-īs (15 syllables). The scanner (no flag) read -reis as one syllable, made iu- long and indulgĕre short, a fit with 14."
+ },
+ "9.618": {
+  "sc": [
+   "1Din–dy⏑ma",
+   "u⏑bi",
+   "2ad–sue–3tis–‖",
+   "bi⏑fo⏑4rem–",
+   "dat–",
+   "5ti–bi⏑a⏑",
+   "6can–tum×"
+  ],
+  "why": "adsuetis is three syllables, ad-suē-tīs, with consonantal u as in suesco (as the entries at 7.33 and 9.511); Dindyma and ubi both elide: Dīn-dў-m(a) ŭ | b(i) ad-suē | tīs bĭ-fŏ | rēm dāt | tī-bĭ-ă | cān-tum (15 syllables). The scanner (no flag) read ad-su-e-tis as four syllables with a short ē, a fit with 16."
  }
 }

@@ -1326,3 +1326,8 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Library label: `Night 110 · The Lover and the Beloved, continued`. The night ends as Tāj al-Mulūk sees the pale young merchant; if a new inner tale is named in night 111, the next run labels it then.
 - Shared glossary: 12 existing entries extended with this night's sense (لِمَا, عَلَمَ, بِحَقِيقَةِ, بِالثَّمَنِ, بِالصَّيْدِ, بِالْمَلِكِ, بِجَمِيعِ, بِتِلْكَ, بِخَبَرِ, شَاهْ, الْمَنْزِلَ, الِاصْفِرَارُ) and الْفُلَانِيِّ made general; nothing overwritten with a different meaning.
 - Next: nights 111 and 112 are complete and unpublished; the next two firings should publish them.
+
+## 2026-11-14 (publishing run, night 111)
+- Corrected misprints in emend.json: P565L03 بضاعنك→بضاعتك, P566L03 استنعت→امتنعت (as printed on P566L08). The printed damma on عُليّ (P564L19) is a slip for ʿalayya: the text is pointed عَلَيَّ and the note says so. emend.json cannot record it, since the bare letters are the same. Kept as printed and flagged in the notes: verse P564L03 يَاصَاحِ (run together, one dot faint; read yā ṣāḥi); P564L04 وَقُلْ (abrupt, perhaps for wa-qultu); P564L11 تَخْدَعُوا pointed active where the sense wants tukhdaʿū; P565L09 شَهْدِ without tanwīn; P565L20 وَبِي حُبِّكُمْ, hard to construe, translated as "for love of you"; رأه (P564L14), pointed with a dagger alif; run-together السعيدان, لَوْمَسَّ, قهراعنه. The archive was not changed.
+- Library label: `Night 111 · The Lover and the Beloved, continued`. The young merchant has not yet been named or given his own tale heading, so nothing changes. Nothing to decide.
+- Next: night 112 is complete and unpublished; the next firing should publish it.

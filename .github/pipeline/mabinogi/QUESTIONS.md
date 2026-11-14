@@ -53,3 +53,8 @@ the drafter's note to say it is *march* soft-mutated, spelt with the w-letter. T
 - Rare or obscure words left flagged uncertain in notes and glossary: *ynghei* ('closed in', from context), *torri kyuarth*, *ryuoryaw* ('till'?), *eliwlu* ('host'?), *doi* in "yn y doi yn y dywyssen", *un pedestric*, the run of equatives *glanet / kygynhilet / kyuurd*. Decided meanwhile: renderings from context, each said to be uncertain.
 - *yrdhunt* (col. 68): read as *er* 'for, on account of', 3 pl. (Red Book *yrdunt*); kept as written.
 - "Och" settled as l "Och", i "Oh" (as 003 and 006); not yet in the house table of conventions.md — added there now.
+
+## 2026-11-14 · mabinogi-010 · small open points (draft)
+- Unit 9 "a chanys gwnn" (col. 76): the Red Book has *a chanys nys gwnn*; the White Book may have lost a *nys*. Decided meanwhile: nothing supplied; *chanys* read as *kan* + *nys* 'since … not … it' (as *Kanys* at 55 and 57, where the Red Book writes *Kan nys*), the note gives the Red Book.
+- Uncertain words rendered from context and flagged: *ymodi* ('handle', RB *teimlaw*), *rwtter* ('train'), *doethwyf*, *yr lygryssit*, *kywein gueir* ('carting hay'), *yrd porth* ('gate-hammers'), *Mynord* ('neck-hammer'?; RB *mynoad*), *anwymp*.
+- The known glossary entry *ansyberwyt* (from an earlier part) gives the modern form "anseberwydd"; the reviewer suggests checking it against GPC (another part's entry; not changed here).

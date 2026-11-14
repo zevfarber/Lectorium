@@ -9860,5 +9860,142 @@
    "6i–ras×"
   ],
   "why": "Wrong quantities with the right count (no flag). Dardanidae has short -da-ni- (Dardanus), the -ae elided before the preposition ē, and mūris is long: Dar-dă-nĭ | d(ae) ē mū | rīs spēs | ad-dĭ-tă | sus-cĭ-tăt | ī-ras (15 syllables). The scanner made Dar-da-ni- long-long-long and e mu- short-short."
+ },
+ "10.279": {
+  "sc": [
+   "1Quod–",
+   "vo–2tis–",
+   "op–3tas–tis⏑",
+   "a⏑4dest–‖",
+   "per–5frin–ge⏑re⏑",
+   "6dex–tra×"
+  ],
+  "why": "Wrong quantities with the right count (cost 0.0, no flag). votis has a long o (votum, from voveo) and is long-long, and the a of adest is short: Quod vō | tīs op | tās-tĭs ă | dēst per | frin-gĕ-rĕ | dex-tra (14 syllables), with the trochaic pause after optastis and the main caesura after adest. The scanner made vo-tis short-short and the a of adest long."
+ },
+ "10.284": {
+  "sc": [
+   "1Au–den–2tis–",
+   "For–3tu–na⏑",
+   "iu⏑4vat×"
+  ],
+  "why": "Half-line (hemistich), one of Virgil's unfinished lines: Au-den | tīs For | tū-nă iŭ | vat, two spondees, a dactyl and one syllable (– – | – – | – ⏑ ⏑ | ×), Fortūna with long u, iuvat with consonantal i, the last syllable marked × as the end of the line (8 syllables). There is no hexameter to fit; the scanner returns UNRESOLVED. 285 and 286, in the same unit, are entered as carriers."
+ },
+ "10.285": {
+  "sc": [
+   "1haec–",
+   "a⏑it⏑",
+   "2et–",
+   "se–3cum–‖",
+   "ver–4sat–",
+   "quos–",
+   "5du–ce⏑re⏑",
+   "6con–tra×"
+  ],
+  "why": "Carrier line, checked by hand: haec ă-ĭt | ēt sē | cūm vēr | sāt quōs | dū-cĕ-rĕ | con-tra (14 syllables). The scanner's fit is correct; the entry is needed only because this line shares a unit with the half-line 10.284, which the scanner cannot fit, and a unit with an unresolved line receives no sc at all."
+ },
+ "10.286": {
+  "sc": [
+   "1vel–",
+   "qui⏑bus⏑",
+   "2ob–ses–3sos–‖",
+   "pos–4sit–",
+   "con–5cre–de⏑re⏑",
+   "6mu–ros×"
+  ],
+  "why": "Carrier line, checked by hand: vel quĭ-bŭs | ob-ses | sōs pos | sīt con | crē-dĕ-rĕ | mū-ros (14 syllables). The scanner's fit is correct; the entry is needed only because this line shares a unit with the half-line 10.284, which the scanner cannot fit, and a unit with an unresolved line receives no sc at all."
+ },
+ "10.287": {
+  "sc": [
+   "1In–te⏑re⏑a",
+   "2Ae–ne–3as–‖",
+   "so⏑ci⏑4os–",
+   "de–",
+   "5pup–pi⏑bus⏑",
+   "6al–tis×"
+  ],
+  "why": "Aeneas: Ae- is one long syllable, with Interea elided into it: In-tĕ-r(e) | (a) Ae-nē | ās sŏ-cĭ | ōs dē | pup-pĭ-bŭs | al-tis (15 syllables). The scanner (COSTLY 1.8, not flagged) split the initial diphthong into A-e, a fit with 16."
+ },
+ "10.309": {
+  "sc": [
+   "1to–tam",
+   "a⏑ci⏑em",
+   "2in–",
+   "Teu–3cros–‖",
+   "et–",
+   "4con–tra",
+   "in–",
+   "5li–to⏑re⏑",
+   "6sis–tit×"
+  ],
+  "why": "Teucros has Greek eu as one long syllable: tō-t(am) ă-cĭ | (em) in Teu | crōs et | con-tr(a) in | lī-tŏ-rĕ | sis-tit (14 syllables). The scanner (cost 0.0, not flagged) split eu into Te-u, a fit with 15."
+ },
+ "10.311": {
+  "sc": [
+   "1Ae–ne–2as–",
+   "o–3men–‖",
+   "pug–4nae–",
+   "stra–5vit–que⏑",
+   "La⏑6ti–nos×"
+  ],
+  "why": "Aeneas: Ae- is one long syllable: Ae-nē | ās ō | men pug | nae strā | vit-quĕ Lă | tī-nos (13 syllables). The scanner (COSTLY 1.2, not flagged) split the initial diphthong into A-e, a fit with 14."
+ },
+ "10.313": {
+  "sc": [
+   "1Ae–ne–2an–",
+   "pe⏑tit⏑",
+   "3huic–‖",
+   "gla⏑di⏑4o–",
+   "per–que",
+   "5ae–re⏑a⏑",
+   "6su–ta×"
+  ],
+  "why": "Aenean: Ae- is one long syllable, and huic one: Ae-nē | ān pĕ-tĭt | huic glă-dĭ | ō per | qu(e) ae-rĕ-ă | sū-ta (15 syllables); petit has a short i, so it is the present. The scanner (COSTLY 1.2, not flagged) split the initial diphthong into A-e, a fit with 16."
+ },
+ "10.316": {
+  "sc": [
+   "1et–",
+   "ti⏑bi⏑",
+   "2Phoe–be⏑",
+   "sa⏑3crum–‖",
+   "ca–4sus–",
+   "e–5va–de⏑re⏑",
+   "6fer–ri×"
+  ],
+  "why": "Wrong quantities with the right count (COSTLY 0.6, not flagged). Phoebe is the vocative of Phoebus, with short final e; sacrum has a short a; casus is accusative plural, object of evadere, with long -ūs; evadere has a long ē: et tĭ-bĭ | Phoe-bĕ să | crum cā | sūs ē | vā-dĕ-rĕ | fer-ri (15 syllables). The scanner made Phoebe long-long, sa- long, casus long-short and e- short."
+ },
+ "10.332": {
+  "sc": [
+   "1al–ma⏑",
+   "Ve⏑2nus–",
+   "Fi–dum",
+   "3Ae–ne–4as–‖",
+   "ad–5fa–tur⏑",
+   "A⏑6cha–ten×"
+  ],
+  "why": "Aeneas: Ae- is one long syllable, with Fidum elided into it: al-mă Vĕ | nus fī | d(um) Ae-nē | ās ad | fā-tŭr Ă | chā-ten (14 syllables). The scanner (COSTLY 1.2, not flagged) split the initial diphthong into A-e, a fit with 15."
+ },
+ "10.337": {
+  "sc": [
+   "1Mae–o⏑nis⏑",
+   "2et–",
+   "tho–3ra–ca⏑",
+   "si⏑4mul–‖",
+   "cum–",
+   "5pec–to⏑re⏑",
+   "6rum–pit×"
+  ],
+  "why": "Wrong quantities with the right count (cost 0.0, no flag). thōrāca has long o and long a (Lewis & Short thōrax, ācis) and the short Greek accusative -a; simul has a short i: Mae-ŏ-nĭs | et thō | rā-că sĭ | mul cum | pec-tŏ-rĕ | rum-pit (15 syllables), caesura after simul. The scanner made tho-ra- short-short and ca si- long-long."
+ },
+ "10.343": {
+  "sc": [
+   "1Ae–ne–2an–",
+   "pe⏑ti⏑3it–‖",
+   "sed–",
+   "4non–",
+   "et–",
+   "5fi–ge⏑re⏑",
+   "6con–tra×"
+  ],
+  "why": "Aenean: Ae- is one long syllable: Ae-nē | ān pĕ-tĭ | it sed | nōn et | fī-gĕ-rĕ | con-tra (14 syllables). The scanner (COSTLY 1.5, not flagged) split the initial diphthong into A-e, a fit with 15."
  }
 }

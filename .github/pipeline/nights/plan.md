@@ -56,11 +56,12 @@ scan anomaly turns up later in the volume.
 | done (2026-11-13, unattended) | 551–558 | 529–536 | `archive/pp529-536.json` | Night 100 closes (P529L14) after verse pp. 529, 532; Night 101 label own line P529L15, Night 102 label own line P533L01; all joins continuous incl. 528→529 |
 | done (2026-11-13, unattended) | 559–566 | 537–544 | `archive/pp537-544.json` | Night 102 closes (P539L05); Night 103 label own line P539L06, Night 104 label own line P542L12 (both h); verse p. 541; headers ٥٣٧/٥٤٤ confirm −22; all joins continuous incl. 536→537 |
 | done (2026-11-13, unattended) | 567–574 | 545–552 | `archive/pp545-552.json` | Night 104 closes (P545L05); Night 105 label own line P545L06 (printed الميلة, misprint), Night 106 label P549L09, Night 107 label P552L01 (all h); verse pp. 549–550, 552; headers ٥٤٥/٥٥٢ confirm −22; all joins continuous incl. 544→545 |
+| done (2026-11-14, unattended) | 575–582 | 553–560 | `archive/pp553-560.json` | Night 107 closes (P556L02); Night 108 label own line P556L03, Night 109 label P558L11, Night 110 label P560L14 (all h); verse pp. 553–554, 556, 559–560; headers ٥٥٣–٥٦٠ confirm −22; all joins continuous incl. 552→553 |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 566 (archive ends at printed p. 544, headers ٥٣٧ on PDF 559 and ٥٤٤ on PDF 566 confirm −22; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py now uses −22). Pages remaining: ~372 PDF pages
-(approximate, pending the corrected offset holding). Lines archived: 9584. calc.traineddata last
+**Last PDF page done: 582 (archive ends at printed p. 560, headers ٥٥٣ on PDF 575 and ٥٦٠ on PDF 582 confirm −22; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py now uses −22). Pages remaining: 356 PDF pages (583–938)
+(approximate, pending the corrected offset holding). Lines archived: 12439 (counted 2026-11-14). calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new
 verified line pairs (pp. 127-131, 133-134 prose only, verse/heading excluded; p. 132 excluded, its

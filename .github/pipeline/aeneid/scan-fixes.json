@@ -9418,5 +9418,225 @@
    "6ip–se×"
   ],
   "why": "Flagged COSTLY 2.2; confirmed by hand, entered only to clear the flag: ic-tĭ-bŭs | in-gĕ-mĭ | nant has | tīs et | Trō-ĕs ĕt | ip-se (15 syllables). Troes is two syllables (Greek nominative plural, -ĕs short before et), as the scanner reads it; the scanner's parse is right."
+ },
+ "10.6": {
+  "sc": [
+   "1Cae–li⏑co⏑2lae–",
+   "mag–3ni–‖",
+   "qui⏑a⏑4nam–",
+   "sen–5ten–ti⏑a⏑",
+   "6vo–bis×"
+  ],
+  "why": "quianam is three syllables, quĭ-ă-nam (as Heu quianam, 5.13): Cae-lĭ-cŏ | lae mag | nī quĭ-ă | nam sen | ten-tĭ-ă | vō-bis (15 syllables), caesura after magni. The scanner (no flag) ran qui-a together into one long syllable, a fit with 14."
+ },
+ "10.16": {
+  "sc": [
+   "1Iup–pi⏑ter⏑",
+   "2haec–",
+   "pau–3cis–‖",
+   "at–",
+   "4non–",
+   "Ve⏑nus⏑",
+   "5au–re⏑a⏑",
+   "6con–tra×"
+  ],
+  "why": "Carrier line, checked by hand: Iup-pĭ-tĕr | haec pau | cīs at | nōn Vĕ-nŭs | au-rĕ-ă | con-tra (15 syllables), the scanner's own fit. Listed because it shares a unit with the half-line 17, which the scanner cannot fit, and a unit with an unresolved line receives no sc at all."
+ },
+ "10.17": {
+  "sc": [
+   "1pau–ca⏑",
+   "re⏑2fert×"
+  ],
+  "why": "Half-line (hemistich), one of Virgil's unfinished lines: pau-că rĕ | fert, a dactyl and one syllable (– ⏑ ⏑ | ×), 4 syllables. The last syllable is marked × as the end of the line. There is no hexameter to fit; the scanner returns UNRESOLVED."
+ },
+ "10.18": {
+  "sc": [
+   "1O–",
+   "pa⏑ter⏑",
+   "2O–",
+   "ho⏑mi⏑3num–‖",
+   "re–4rum–que",
+   "ae–5ter–na⏑",
+   "po⏑6tes–tas×"
+  ],
+  "why": "The interjection O is never elided: Ō pă-tĕr | Ō hŏ-mĭ | num rē | rum-qu(e) ae | ter-nă pŏ | tes-tas (15 syllables), only rerumque elided. The scanner (no flag) elided the second O and lengthened ho-mi, a fit with 14."
+ },
+ "10.20": {
+  "sc": [
+   "1Cer–nis⏑",
+   "ut⏑",
+   "2in–sul–3tent–‖",
+   "Ru⏑tu⏑4lli–",
+   "Tur–5nus–que⏑",
+   "fe⏑6ra–tur×"
+  ],
+  "why": "The print has Rutulli, a misprint for Rutuli; the tokens spell the line as printed (the build matches the words of the line), but it is scanned as Rutuli, Rŭ-tŭ-lī, with the stray l carried on the last syllable: Cer-nĭs ŭt | in-sul | tent Rŭ-tŭ | lī Tur | nus-quĕ fĕ | rā-tur (15 syllables), caesura after insultent. The scanner returns UNRESOLVED, since the double l makes -tul- long and no hexameter fits."
+ },
+ "10.21": {
+  "sc": [
+   "1per–",
+   "me⏑di⏑2os–",
+   "in–3sig–nis⏑",
+   "e⏑4quis–‖",
+   "tu⏑mi⏑5dus–que⏑",
+   "se⏑6cun–do×"
+  ],
+  "why": "Carrier line, checked by hand: per mĕ-dĭ | ōs in | sig-nĭs ĕ | quīs tŭ-mĭ | dus-quĕ sĕ | cun-do (16 syllables), the scanner's own fit. Listed because it shares a unit with line 20, which the scanner cannot fit (the misprint Rutulli), and a unit with an unresolved line receives no sc at all."
+ },
+ "10.22": {
+  "sc": [
+   "1Mar–te⏑",
+   "ru⏑2at–",
+   "Non–",
+   "3clau–sa⏑",
+   "te⏑4gunt–‖",
+   "iam–",
+   "5moe–ni⏑a⏑",
+   "6Teu–cros×"
+  ],
+  "why": "Carrier line, checked by hand: Mar-tĕ rŭ | at nōn | clau-să tĕ | gunt iam | moe-nĭ-ă | Teu-cros (15 syllables), the scanner's own fit, Teucros with eu as one syllable. Listed because its first words (Marte ruat) share a unit with line 20, which the scanner cannot fit, and a unit with an unresolved line receives no sc at all."
+ },
+ "10.25": {
+  "sc": [
+   "1Ae–ne–2as–",
+   "ig–3na–rus⏑",
+   "a⏑4best–‖",
+   "Num–5quam–ne⏑",
+   "le⏑6va–ri×"
+  ],
+  "why": "Aenēās: Ae- is one long syllable (diphthong), -nē- and -ās long: Ae-nē | ās ig | nā-rŭs ă | best Num | quam-nĕ lĕ | vā-ri (14 syllables). The scanner (COSTLY 1.2, not flagged) split the initial diphthong into A-e, a fit with 15."
+ },
+ "10.26": {
+  "sc": [
+   "1ob–si⏑di⏑2o–ne⏑",
+   "si⏑3nes–‖",
+   "Mu–4ris–",
+   "i⏑te⏑rum",
+   "5im–mi⏑net⏑",
+   "6hos–tis×"
+  ],
+  "why": "Wrong quantities with the right count (no flag). mūrīs (ablative/dative plural of mūrus) is long-long and ĭtĕrum short-short: ob-sĭ-dĭ | ō-nĕ sĭ | nēs mū | rīs ĭ-tĕ | r(um) im-mĭ-nĕt | hos-tis (16 syllables). The scanner made Mu-ris short-short and i-te- long-long."
+ },
+ "10.28": {
+  "sc": [
+   "1at–que",
+   "i⏑te⏑rum",
+   "2in–",
+   "Teu–3cros–‖",
+   "Ae–4to–lis–",
+   "5sur–git⏑",
+   "ab⏑",
+   "6Ar–pis×"
+  ],
+  "why": "Teucros has Greek eu as one long syllable: at-qu(e) ĭ-tĕ | r(um) in Teu | crōs Ae | tō-līs | sur-gĭt ăb | Ar-pis (14 syllables); Aetolis has Ae- as one syllable. The scanner (no flag) split Te-u into two short syllables, a fit with 15."
+ },
+ "10.44": {
+  "sc": [
+   "1Si–",
+   "nul–la",
+   "2est–",
+   "re⏑gi⏑3o–‖",
+   "Teu–4cris–",
+   "quam–",
+   "5det–",
+   "tu⏑a⏑",
+   "6co–niunx×"
+  ],
+  "why": "Teucris has Greek eu as one long syllable, and coniunx is con-iunx with consonantal i: sī nūl | l(a) est rĕ-gĭ | ō Teu | crīs quam | dēt tŭ-ă | con-iunx (14 syllables). The scanner (COSTLY 1.5, not flagged) split Te-u into two short syllables, a fit with 15."
+ },
+ "10.48": {
+  "sc": [
+   "1Ae–ne–2as–",
+   "sa–ne",
+   "3ig–no–4tis–‖",
+   "iac–5te–tur⏑",
+   "in⏑",
+   "6un–dis×"
+  ],
+  "why": "Aenēās: Ae- is one long syllable, and sane is elided into ignotis: Ae-nē | ās sā | n(e) ig-nō | tīs iac | tē-tŭr ĭn | un-dis (13 syllables). The scanner (COSTLY 1.2, not flagged) split the initial diphthong into A-e and shortened -nē-, a fit with 14."
+ },
+ "10.58": {
+  "sc": [
+   "1dum–",
+   "La⏑ti⏑2um–",
+   "Teu–3cri–‖",
+   "re⏑ci⏑4di–va⏑que⏑",
+   "5Per–ga⏑ma⏑",
+   "6quae–runt×"
+  ],
+  "why": "Teucri has Greek eu as one long syllable: dum Lă-tĭ | um Teu | crī rĕ-cĭ | dī-vă-quĕ | Per-gă-mă | quae-runt (16 syllables), rĕcĭdīva as at 4.344. The scanner (no flag) split Te-u into two short syllables, a fit with 17."
+ },
+ "10.62": {
+  "sc": [
+   "1da–",
+   "pa⏑ter⏑",
+   "2I–li⏑a⏑3cos–",
+   "Teu–4cris×"
+  ],
+  "why": "Half-line (hemistich), the first half of the shared line 62: dā pă-tĕr | Ī-lĭ-ă | cōs Teu | crīs, two dactyls, a spondee and one syllable (– ⏑ ⏑ | – ⏑ ⏑ | – – | ×), 9 syllables; Teucris has eu as one syllable. The last syllable is marked × as the end of Venus's speech. Greenough sets 'Tum regia Iuno' as a separate half-line, 62b, which completes the hexameter (crīs Tum | rē-gĭ-ă | Iū-nō); the scanner, seeing each piece alone, returns UNRESOLVED."
+ },
+ "10.62b": {
+  "sc": [
+   "1Tum–",
+   "2re–gi⏑a⏑",
+   "3Iu–no×"
+  ],
+  "why": "Half-line (hemistich), the second half of the shared line 62: Tum | rē-gĭ-ă | Iū-nō, one long syllable, a dactyl and a spondee (– | – ⏑ ⏑ | – ×), 6 syllables, numbered from this half-line's start as the validator requires; in the full verse, with da, pater, Iliacos Teucris (62), they are the fourth to sixth feet: crīs Tum | rē-gĭ-ă | Iū-nō. The scanner returns UNRESOLVED."
+ },
+ "10.65": {
+  "sc": [
+   "1Ae–ne–2an–",
+   "ho⏑mi⏑3num–‖",
+   "quis–4quam–",
+   "di–5vom–que⏑",
+   "su⏑6be–git×"
+  ],
+  "why": "Wrong quantities with the right count (no flag). Aenēān, Greek accusative (Αἰνείαν), has Ae- one syllable and long -nē- and -ān: Ae-nē | ān hŏ-mĭ | num quis | quam dī | vom-quĕ sŭ | bē-git (14 syllables). The scanner made -ne- and -an short and ho-mi long-long."
+ },
+ "10.81": {
+  "sc": [
+   "1Tu–",
+   "po⏑tes⏑",
+   "2Ae–ne–3an–‖",
+   "ma⏑ni⏑4bus–",
+   "sub–5du–ce⏑re⏑",
+   "6Gra–ium×"
+  ],
+  "why": "Aenēān: Ae- is one long syllable: Tū pŏ-tĕs | Ae-nē | ān mă-nĭ | bus sub | dū-cĕ-rĕ | Grā-ium (15 syllables), Graium two syllables with consonantal i. The scanner (COSTLY 1.2, not flagged) split the initial diphthong into A-e, a fit with 16."
+ },
+ "10.85": {
+  "sc": [
+   "1Ae–ne–2as–",
+   "ig–3na–rus⏑",
+   "a⏑4best–‖",
+   "ig–5na–rus⏑",
+   "et⏑",
+   "6ab–sit×"
+  ],
+  "why": "Aenēās: Ae- is one long syllable (as 25, which this line repeats): Ae-nē | ās ig | nā-rŭs ă | best ig | nā-rŭs ĕt | ab-sit (14 syllables). The scanner (COSTLY 1.2, not flagged) split the initial diphthong into A-e, a fit with 15."
+ },
+ "10.89": {
+  "sc": [
+   "1co–na–2mur–",
+   "nos–",
+   "3an–‖",
+   "mi⏑se⏑4ros–",
+   "qui–",
+   "5Tro–as⏑",
+   "A⏑6chi–vis×"
+  ],
+  "why": "Trōăs is two syllables, long-short (Greek Τρῶας), qui is long, and Ăchīvis has a short A- and long -chī-: cō-nā | mur nōs | an mĭ-sĕ | rōs quī | Trō-ăs Ă | chī-vis (14 syllables). The scanner (COSTLY 2.8) had the count right but made qui and Tro- short and -as and A- long."
+ },
+ "10.90": {
+  "sc": [
+   "1ob–ie–2cit–",
+   "Quae–",
+   "3cau–sa⏑",
+   "fu⏑4it–‖",
+   "con–5sur–ge⏑re",
+   "in⏑",
+   "6ar–ma×"
+  ],
+  "why": "obiecit is ob-iē-cit: the i after the prefix is consonantal, so ob- is long by position: ob-iē | cīt quae | cau-să fŭ | it con | sur-gĕ-r(e) ĭn | ar-ma (14 syllables). The scanner (no flag) read the i as a vowel, o-bi-e-cit, a fit with 15."
  }
 }

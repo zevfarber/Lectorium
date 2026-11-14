@@ -101,6 +101,10 @@ Use the Agent tool, `general-purpose`, in waves of four pages at a time.
 the absolute path of `/tmp/run/p<ppp>` and `__OUT__` by `pass1.json`. Tell it to read the prompt
 file and follow it. Record each agent's token count.
 
+**Pass 2 is back on the strongest model since 2026-11-14** (no `model` override): Sonnet ran over ten
+disputes a page in two batches running (PDF 567–574 and 575–582), so by the rule below it was retired from
+this role; see `QUESTIONS.md`. The text below is kept for the record.
+
 **Pass 2** — the same, fresh agents **on Sonnet** (`model: "sonnet"` in the Agent call), `__OUT__` =
 `pass2.json`, and add to the instruction: *ignore pass1.json in that folder; do not open it*. Independence is the
 point, and a different model makes the two passes more independent still: what either pass gets wrong shows up as a

@@ -14,6 +14,6 @@
 | mabinogi-009 | The shining boar, the empty fort and the wheat | Evans cols 68–75 | published |
 | mabinogi-010 | The mouse on the gallows | Evans cols 75–81 | published |
 | mabinogi-011 | Gwydion's swine and the death of Pryderi | Evans cols 81–89 | published |
-| mabinogi-012 | Goewin's wrong and the brothers' penance | Evans cols 89–94 | todo |
+| mabinogi-012 | Goewin's wrong and the brothers' penance | Evans cols 89–94 | established |
 | mabinogi-013 | Aranrhod's three destinies and the woman of flowers | Evans cols 94–101 | todo |
 | mabinogi-014 | Blodeuedd, Gronw and the eagle on the oak | Evans cols 101–111 | todo |

@@ -7,7 +7,7 @@
 | cid-tiradas-05-09 | Martín Antolínez supplies the camp; the sand-filled chests are pawned to Raquel and Vidas | tiradas 5–9, lines 65–173 | published |
 | cid-tiradas-10-14 | The moneylenders pay; the Cid leaves Burgos for San Pedro de Cardeña | tiradas 10–14, lines 174–241 | published |
 | cid-tiradas-15-17 | At Cardeña: Jimena's plea, and Castilians gather to follow the Cid | tiradas 15–17, lines 242–294 | published |
-| cid-tiradas-18-18 | The last night at Cardeña: Jimena's prayer, the farewells, the road into exile | tiradas 18–18, lines 295–403 | todo |
+| cid-tiradas-18-18 | The last night at Cardeña: Jimena's prayer, the farewells, the road into exile | tiradas 18–18, lines 295–403 | established |
 | cid-tiradas-19-23 | The angel's dream; the border crossed; Castejón surprised and the Henares raided | tiradas 19–23, lines 404–492 | todo |
 | cid-tiradas-24-26 | Minaya's vow; the spoils sold to the Moors; the march toward the Jalón | tiradas 24–26, lines 493–556 | todo |
 | cid-tiradas-27-31 | Camp before Alcocer; the town taken by a feigned retreat | tiradas 27–31, lines 557–622 | todo |

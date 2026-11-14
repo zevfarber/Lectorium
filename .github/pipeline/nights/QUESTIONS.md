@@ -1309,3 +1309,8 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Verse P556L08–16: the first line (al-hudā … al-mujtanā / al-mujtanī) and the fifth (rāfatan) are obscure and translated as far as the words allow; the print's الْمُدَى (mudā, "knives") is translated as madā, "span", noted, not emended (verse pointing is final).
 - Library label: `Night 108 · The Lover and the Beloved, continued`, following the night-107 decision. Nothing to decide.
 - Next: night 109 is complete and unpublished; the next firing should publish it.
+
+## 2026-11-14 (publishing run, night 109)
+- Corrected misprints in emend.json: P558L18 تكونوا→يكونوا (between يخرجوا and ينشروا under the same أن), P559L01 وانفق→واتفق, P559L08 فاضاو→فاضاء, P560L06 ولازات→ولازالت. Kept as printed and flagged in the notes: the verse at P559L23–P560L03 (وَآفَاقُ … الرَّآسَةَ with cases the grammar does not want; لَاتَرْكَبُوهُ, probably for لا تُرْكِبُوهُ; اَوْطَاءَ for awṭaʾa); اربعة عشر سنة (P560L11–12, numeral gender as printed); صارله run together. The archive was not changed.
+- Library label: `Night 109 · The Lover and the Beloved, continued`. The hero, Tāj al-Mulūk, is born and named this night; if the owner would rather the inner tale be labelled by his name from here on, that is a relabel for an attended session. Nothing waits on it.
+- Next: night 110 is incomplete (tail unread); the next firing should transcribe.

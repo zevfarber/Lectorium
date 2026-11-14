@@ -1303,3 +1303,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Library label: Dandān's story-within-the-story begins this night (Sulaymān Shāh, the princess of the White Land; the text names it only «حكاية العاشق والمعشوق والمتكلم بينهما»). Labelled `Night 107 · King ʿUmar ibn al-Nuʿmān, continued / The Lover and the Beloved begins`, taking the tale's name from Dandān's own words, since the print gives the inner tale no heading here. Later nights will use `The Lover and the Beloved, continued` until the owner prefers another name (e.g. the hero's name, once he appears).
 - Shared glossary: four existing entries (بِالْهَدَايَا, بِحُبِّهَا, بِقُدُومِهِ, لِلْمَلِكِ) were extended or rewritten so their بِـ/لِـ explains this night's use; nothing overwritten with a different meaning.
 - Next: nights 108 and 109 are complete and unpublished; the next two firings should publish them.
+
+## 2026-11-14 (publishing run, night 108)
+- Corrected misprints in emend.json: P557L01 قئما→قائما; P557L04 اتينك→اتيتك (the vizier speaks as “I”, annī; the transcribing run had queried it as اتيتك?). Kept as printed and flagged in the note: P557L10 باستنام (istinām gives no good sense; perhaps باستلام, reverent kissing, but a guess).
+- Verse P556L08–16: the first line (al-hudā … al-mujtanā / al-mujtanī) and the fifth (rāfatan) are obscure and translated as far as the words allow; the print's الْمُدَى (mudā, "knives") is translated as madā, "span", noted, not emended (verse pointing is final).
+- Library label: `Night 108 · The Lover and the Beloved, continued`, following the night-107 decision. Nothing to decide.
+- Next: night 109 is complete and unpublished; the next firing should publish it.

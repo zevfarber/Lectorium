@@ -1,0 +1,213 @@
+# aeneid-070 (IX.621-716): t is cut from the edition by A.cut; l, i, n drafted from the Latin.
+import sys, os
+HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, '..', '..'))
+import aeneid_lib as A
+
+TITLE = 'Ascanii sagitta. Pandarus et Bitias'
+PART = "Ascanius's Arrow and the Open Gate (IX.621–716)"
+TITLE_EN = "Ascanius's Arrow and the Open Gate — Aeneid IX.621–716"
+ABOUT = ("Numanus Remulus is still shouting his insults before the Italian lines when young Ascanius, who until now has "
+"shot only at wild beasts, draws his bow. He first prays to Jupiter, vowing a white bullock with gilded brow; thunder "
+"sounds on the left out of a clear sky, and the arrow goes through Numanus's head. Ascanius throws the taunt back in a "
+"single line, and the Trojans cheer. Apollo, watching from a cloud, praises the boy as born of gods and father of gods "
+"to come, the line from which Augustus will claim descent; then, taking the shape of old Butes, Anchises's former "
+"armour-bearer, he tells him that one victory is enough and that he must keep out of the war, and vanishes. The Trojan "
+"chiefs, recognising the god, hold Ascanius back and go into the fight themselves, and the weapons fall like rain and "
+"hail. Two giant brothers, Pandarus and Bitias, sons of a nymph of Ida, then do what Aeneas had forbidden: they open the "
+"gate they were set to guard and stand on either side of it like two great oaks, inviting the enemy in. The first "
+"Rutulians to rush the gap are killed or driven back, and the Trojans, emboldened, begin to sally out. But word reaches "
+"Turnus; he comes at the gate in fury, kills Antiphates, a son of Sarpedon, and several more, and brings down Bitias "
+"with a huge siege-spear, the giant falling like one of the stone piers the Romans of Virgil's day sank into the sea at "
+"Baiae.")
+
+U = [
+(624, 'precatus:',
+ """Him such things flinging out in words and dire things chanting\ndid not bear Ascanius, and on the horse-hair string, turned to face him,\nstrained his shaft, and wide apart his arms drawing\nstood firm, first to Jove, a suppliant, with vows having prayed:""",
+ """Ascanius could not bear the man's boasting and his ill-omened talk; he turned to face him, fitted an arrow to the horsehair string and drew it, his arms stretched wide apart, and stood braced, first praying humbly to Jupiter and making his vows:""",
+ """A new paragraph in Greenough. 'Talia iactantem… canentem', 'him flinging out such things… chanting', the object of 'non tulit', 'did not bear'; Numanus is not named. 'dira canentem', 'chanting dire things', as if prophesying ill. 'nervo… equino', 'on the horse-hair string', framing 'obversus', 'turned to face (him)'. 'contendit telum', 'strained the shaft', drew the arrow back. 'diversa bracchia ducens', 'drawing his arms apart', one forward on the bow, one back to the ear. 'ante', an adverb, 'first', before he shoots; 'Iovem… precatus', 'having prayed to Jove'. 'per vota', 'with vows', promises of offerings if the prayer is heard. 'iactantem' begins with a consonant ('yactantem'). Elision 'nervoqu(e) obversus'."""),
+(625, 'coeptis.',
+ """“Jupiter almighty, to my daring give your nod, my undertaking.""",
+ """“Almighty Jupiter, nod your assent to this bold beginning.""",
+ """Ascanius's first words in war are a prayer. 'omnipotens', 'all-powerful', Jupiter's regular title. 'adnue', 'nod assent', Greenough's 'adn-' for 'ann-': the nod with which the king of the gods grants a prayer, as Zeus nods to Thetis in Iliad 1.528. 'audacibus… coeptis', 'to bold beginnings', dative with 'adnue', framing the end of the line; 'coepta', 'things begun', a noun from 'coepi'. Virgil had used the same half-line of his own poem in the Georgics, praying to Caesar (Georgics 1.40). No elisions."""),
+(629, 'harenam.”',
+ """I myself for you to your temples will bring ritual gifts\nand will set before the altars, with gilded brow, a bullock,\nshining white, and equal his head with his mother carrying,\none to butt already with his horn and with his feet to scatter the sand.”""",
+ """I myself will bring you the customary gifts at your temple, and set before your altars a bullock with gilded brow, gleaming white, who carries his head as high as his mother's, already old enough to butt with his horn and paw up the sand with his hooves.”""",
+ """'feram… statuam', future indicatives: the vow. 'sollemnia dona', 'ritual gifts', 'sollemnis' of rites performed in due form. 'aurata fronte', 'with gilded brow', ablative of description: the horns or forehead of a victim were gilded for sacrifice. 'candentem', 'shining white', the colour for an offering to the gods above. 'pariter… caput cum matre ferentem', 'carrying his head level with his mother', fully grown. 'qui… petat… spargat', 'one who would butt… scatter', a relative clause of characteristic in the subjunctive. Line 629 repeats word for word a line of Virgil's Eclogues (3.87), where a bull is promised. Elisions 'tib(i) ad', 'statu(am) ante', 'ant(e) aras'."""),
+(631, 'arcus:',
+ """He heard, and of heaven the Father, from a part of the sky clear,\nthundered on the left; sounds at that moment the death-bearing bow:""",
+ """The Father of heaven heard, and thundered on the left out of a cloudless quarter of the sky; at the same instant the deadly bow twanged:""",
+ """'Audiit' = 'audivit', 'heard'. 'caeli Genitor', 'the Father (begetter) of heaven', Jupiter. 'de parte serena', 'from a clear part (of the sky)': thunder out of a cloudless sky was an unmistakable sign. 'intonuit laevum', 'thundered on the left', 'laevum' an adverbial (internal) accusative; for Roman augurs the left was the lucky side, and the same omen answers Anchises's prayer at 2.693. 'una', 'together', at the same moment. 'fatifer', 'fate-bringing', deadly, a compound of the epic kind. No elisions."""),
+(634, 'traicit.',
+ """flies off, dreadfully whistling, the drawn-back arrow,\nand through the head of Remulus comes, and the hollow temples with its iron\npierces.""",
+ """the arrow, drawn to the full, sped away with a fearful hiss, went through Remulus's head and drove its iron point through the hollow of his temples.""",
+ """'horrendum stridens', 'whistling dreadfully', 'horrendum' a neuter adjective used as an adverb. 'adducta', 'drawn back', pulled to the full. 'Remuli', Numanus, called here by his surname (593). 'cava tempora', 'the hollow temples', the hollows at the sides of the head. 'ferro', 'with its iron', the arrowhead. 'traicit', 'pierces through', 'trans' + 'iacio', with a hidden consonantal i ('tra-yicit'); it is held over to the start of the next line, the arrow's last movement. No elisions."""),
+(634, 'superbis!',
+ """“Go, with words mock courage, proud ones!""",
+ """“Go on, mock true courage with your arrogant words!""",
+ """'I', 'go!', the imperative of 'eo', a single letter: the scornful 'go on, then'. 'verbis… superbis', 'with proud words', framing the clause. 'inlude', 'mock', Greenough's 'inl-' for 'ill-', here with the accusative 'virtutem', 'courage', the Trojans' courage that Numanus scorned. Ascanius speaks to the dead man. Elision 'virtut(em) inlude'."""),
+(635, 'remittunt.”',
+ """Twice-captured Phrygians these to the Rutulians answers send back.”""",
+ """This is the answer the twice-captured Phrygians send back to the Rutulians.”""",
+ """The print has 'His', a misprint for 'Bis', corrected here: Ascanius throws back Numanus's own sneer, 'bis capti Phryges' (599), and 'His capti', 'captured by these', gives no sense here; the Latin Library has 'bis'. 'haec… responsa', 'these answers', the arrow itself. 'Rutulis', dative, Numanus's people standing for all the Italians. 'remittunt', 'send back', return in kind. No elisions."""),
+(636, 'Ascanius.',
+ """This only Ascanius.""",
+ """That was all Ascanius said.""",
+ """'Hoc tantum (dixit)', 'this much only (he said)', the verb of speaking left out, as often. The boy's two lines answer Numanus's twenty-two. Elision 'tant(um) Ascanius'."""),
+(637, 'tollunt.',
+ """The Teucrians with a shout follow up,\nand with joy they roar and their spirits to the stars raise.""",
+ """The Trojans took up his deed with a shout, roaring with joy, their spirits lifted to the stars.""",
+ """'Teucri', the Trojans, called after Teucer, an early king of Troy; the 'eu' is one syllable. 'clamore sequuntur', 'follow with a shout', take up his deed with cheering. 'laetitia', 'with joy', ablative of cause. 'animos… ad sidera tollunt', 'raise their spirits to the stars', a hyperbole that Apollo's 'ad astra' (641) will pick up. Elision 'animosqu(e) ad'."""),
+(640, 'Iulum:',
+ """In the airy then by chance region long-haired Apollo\nfrom above the Ausonian lines and the city was viewing,\non a cloud sitting, and with these the victorious addresses Iulus:""",
+ """It happened that long-haired Apollo, seated on a cloud in the upper air, was looking down on the Ausonian lines and the town, and he spoke to the victorious Iulus:""",
+ """'Aetheria… plaga', 'in the ethereal region', ablative of place, the upper air above the clouds, framing the line; 'Aetheria' has 'Ae-' as one syllable. 'crinitus Apollo', 'long-haired Apollo', Homer's Phoebus of the unshorn hair. 'Ausonias acies', 'the Ausonian lines', Ausonia an old poetic name for Italy. 'urbem', the Trojan camp, called a city. 'videbat… adfatur', the imperfect of the scene, then the historic present. 'his', 'with these (words)'. 'victorem… Iulum', 'the victor Iulus', framing; Iulus is Ascanius's other name, from which the Julian house drew its own (1.267–268). Elisions 'atqu(e) his', 'victor(em) adfatur'."""),
+(642, 'deos.',
+ """“Be blessed in your new valour, boy: so one goes to the stars,\nfrom gods begotten and about to beget gods.""",
+ """“Glory to your young courage, boy! This is the road to the stars, you who are born of gods and will be the father of gods.""",
+ """'Macte… virtute', 'be honoured for your valour', the old Roman formula of praise for a deed well done; 'macte' (probably a vocative of 'mactus', 'increased, glorified') takes the ablative. 'nova', 'new', his first exploit. 'sic itur ad astra', 'thus it is gone to the stars', the impersonal passive: glory, and in the end a place among the gods, is won this way. 'dis genite', 'born of gods', vocative of 'genitus', through Venus and Jupiter; 'geniture deos', 'about to beget gods', the future participle in the vocative: Julius Caesar and Augustus, deified, claimed descent from Iulus. Elision 'genit(e) et'."""),
+(644, 'capit.',
+ """Rightly all wars\nunder the race of Assaracus, fated to come, will settle,\nnor does Troy contain you.”""",
+ """By right all the wars that fate will bring shall die away under the line of Assaracus; Troy is too small to hold you.”""",
+ """The print has 'capit. ”Simul', a misprint for 'capit.” Simul', corrected here: the closing mark is set after the space and joined to the next word, so t keeps it at the head of the next unit while l and i close the speech here. 'Iure', 'rightly', 'by right'. 'gente sub Assaraci', 'under the race of Assaracus', Anchises's grandfather, 'sub' set after the noun; the Julian line and the peace of Augustus. 'fato ventura', 'fated to come', future participle with 'bella'. 'resident', 'will settle', 'die down', future of 'resido'. 'nec te Troia capit', 'nor does Troy contain you': your destiny is too large for a Troy. Elision 'Iur(e) omnia'."""),
+(646, 'petit.',
+ """At once, these things having spoken, from the high\nether he launched himself, parts the breathing airs,\nand Ascanius seeks out.""",
+ """As he spoke he plunged down from the high heavens, parting the breathing winds, and made for Ascanius.""",
+ """The mark at the head of t closes Apollo's speech (see the last unit); l and i carry none here. 'Simul… effatus', 'as soon as he had spoken', 'simul' for 'simul ac'; 'effatus', perfect participle of the deponent 'effor', 'speak out'. 'ab alto aethere', 'from the high ether', split across the line-break. 'se misit', 'sent himself', the perfect of a single plunge, followed by the presents 'dimovet', 'parts', and 'petit', 'makes for'. 'spirantis… auras', 'the breathing breezes', accusative plural in '-is'. No elisions."""),
+(647, 'Buten;',
+ """His shape then is turned, of his face,\ninto old Butes;""",
+ """Then the form of his face was changed into that of old Butes;""",
+ """'Forma… oris', 'the shape of his face', subject of the passive 'vertitur', 'is turned', with 'in', 'into'. 'antiquum… Buten', 'aged Butes', 'Buten' a Greek accusative; not the boxer Butes of 5.372 nor the Trojan killed at 11.690. Gods in Homer often take the likeness of a mortal to speak to a hero: Apollo rouses Aeneas in the shape of the herald Periphas (Iliad 17.322–325). Elision 'antiqu(um) in'."""),
+(649, 'addidit.',
+ """this man to Dardanian Anchises\nwas armour-bearer before, and faithful at the threshold guard;\nthen as companion to Ascanius the father assigned him.""",
+ """he had once been armour-bearer to Dardanian Anchises and his faithful guard at the door, and afterwards Aeneas had given him to Ascanius as his attendant.""",
+ """'hic', 'he', Butes. 'Dardanio Anchisae', 'to Dardanian Anchises', dative; the final '-o' is not elided before 'Anchisae' (hiatus), and the line ends heavily, with a spondee in the fifth foot, a Greek rhythm for a Greek name. 'armiger', 'armour-bearer', squire. 'ad limina custos', 'guard at the threshold', door-keeper. 'pater', the father, Aeneas. 'comitem', 'as a companion', predicative. 'addidit', 'added', assigned. Elisions 'fidusqu(e) ad', 'comit(em) Ascanio'."""),
+(652, 'Iulum:',
+ """Went Apollo,\nin all things like the aged man, voice and colour\nand white hair and arms savage with their sounds,\nand with these the ardent, in words, he addresses Iulus:""",
+ """So Apollo came, like the old man in every point, in voice and colouring, in his white hair and his fiercely clanging armour, and he spoke these words to Iulus in the heat of his triumph:""",
+ """'omnia… similis', 'like in all things', 'omnia' an accusative of respect, spelled out by 'vocem… colorem… crinis… arma', all accusatives of respect with 'similis'; 'longaevo', 'to the aged man', dative. Line 650 has a syllable too many (hypermetric): the '-que' of 'coloremque' elides into 'et' at the start of 651. 'crinis albos', accusative plural in '-is'. 'saeva sonoribus arma', 'arms fierce with their sounds', clanging. 'ardentem', 'burning', still aflame with his success. Line 652 nearly repeats 640. Elisions 'coloremqu(e) | et' (across the line), 'atqu(e) his'."""),
+(654, 'tuis;',
+ """“Let it be enough, son of Aeneas, that by weapons, with impunity, Numanus\nhas met his death — yours;""",
+ """“Let it be enough, son of Aeneas, that Numanus has fallen to your arrows and you are unharmed;""",
+ """'Sit satis', 'let it be enough', a jussive subjunctive, with the infinitive 'oppetiisse' as its subject. 'Aenide', 'son of Aeneas', vocative of 'Aenides', a patronymic made on the Greek pattern; 'Ae-' is one syllable. 'telis… tuis', 'by your weapons', framing the clause. 'impune', 'without penalty', with no harm to yourself. 'oppetiisse', 'to have met (death)', perfect infinitive of 'oppeto', with 'mortem' understood. Elision 'Numan(um) oppetiisse'."""),
+(656, 'bello.',
+ """this first to you great Apollo\ngrants, glory, and equal does not grudge arms:\nfor the rest refrain, boy, from war.”""",
+ """great Apollo grants you this first glory and does not begrudge you weapons to match his own; but for the rest, boy, keep away from the war.”""",
+ """The print has 'magnus, Apollo', a misprint for 'magnus Apollo', corrected here: Apollo, speaking as Butes, names himself in the third person, so there is no vocative to set off. The print also has 'bello. ”Sic', a misprint for 'bello.” Sic', corrected here; l and i close the speech in this unit. 'primam hanc… laudem', 'this first glory', framing. 'paribus… armis', 'equal arms', the bow, the archer god's own weapon; 'non invidet', 'does not grudge (you)'. 'cetera', 'as for the rest', an adverbial accusative. 'parce… bello', 'refrain from war', 'parco' with the dative. Elisions 'prim(am) hanc', 'laud(em) et'."""),
+(658, 'auram.',
+ """So having begun, Apollo\nthe mortal in the midst of speech sight left\nand far off into thin, from their eyes, vanished air.""",
+ """With these words Apollo, still in the middle of speaking, passed from mortal sight and vanished from their eyes, far off into thin air.""",
+ """The mark at the head of t closes the speech just ended; l and i carry none. 'orsus', 'having begun', from 'ordior', used of speaking: 'so he spoke'. 'mortalis… aspectus', 'mortal sight', accusative plural in '-is': he left the eyes of men (some take it as 'his mortal appearance'). 'medio… sermone', 'in the middle of his speech', framing 'aspectus'. 'in tenuem… auram', 'into thin air', framing 'ex oculis evanuit', 'vanished from their eyes'. Elisions 'medi(o) aspectus', 'tenu(em) ex'."""),
+(660, 'sonantem.',
+ """Recognised the god the chiefs, and the divine arrows,\nthe Dardanians, and the quiver in his flight perceived sounding.""",
+ """The Dardan chiefs knew the god and his divine arrows, and heard his quiver rattle as he went.""",
+ """'Agnovere… sensere', perfects in '-ere' for '-erunt'. 'proceres… Dardanidae', 'the Dardanian chiefs', framing; 'Dardanidae', 'sons of Dardanus', the founder of Troy's royal line. 'divina tela', the god's arrows, heard rattling in the quiver as he leaves, as Apollo's arrows rattled on his shoulders when he came down from Olympus in anger (Iliad 1.46). 'fuga', 'in his flight', ablative. 'sensere', 'perceived', of hearing. No elisions."""),
+(663, 'mittunt.',
+ """So, greedy for the fight, by the words and the will of Phoebus\nAscanius they hold back; themselves into the contests again\nthey move up, and their lives into open dangers send.""",
+ """So they invoked the words and will of Phoebus to keep Ascanius, eager as he was, out of the fighting, while they themselves went back into the struggle and threw their lives into open danger.""",
+ """'Ergo', 'therefore'. 'avidum pugnae', 'greedy for the fight', the genitive with an adjective of desire, framing the line with 'Ascanium'. 'dictis ac numine Phoebi', 'by the words and divine will of Phoebus', ablative of cause or means. 'prohibent', 'keep back'. 'ipsi', 'they themselves', the Trojan chiefs. 'succedunt', 'move up into', take their places in. 'animas', 'lives'. 'in aperta pericula', 'into open dangers', in plain view, with nothing between them and the enemy. Elisions 'Erg(o) avidum', 'ips(i) in', 'animasqu(e) in'."""),
+(665, 'torquent.',
+ """Goes a shout along the whole, through the battlements, walls;\nthey stretch keen bows and the thongs whirl.""",
+ """A shout ran all along the walls from battlement to battlement; they bent their keen bows and whirled their javelin-thongs.""",
+ """'It clamor', 'a shout goes', 'it' from 'eo'. 'totis… muris', 'along the whole walls', ablative of place, framing. 'propugnacula', 'battlements', the defences along the top. 'acris arcus', 'keen bows', accusative plural in '-is'. 'amenta', the leather thongs fixed to a javelin's shaft and looped round the fingers, which gave the throw spin and distance; 'torquent', 'twist', whirl, as they let fly. No elisions."""),
+(667, 'surgit:',
+ """Is strewn all the ground with weapons; then shields and hollow\ngive sound at the striking, helmets; fight harsh rises:""",
+ """The whole ground was strewn with spears; shields and hollow helmets rang under the blows; the fighting grew fierce:""",
+ """'Sternitur omne solum telis', 'all the ground is strewn with weapons', the spears that missed. 'scuta cavaeque… galeae', 'shields and hollow helmets', the subjects of 'dant sonitum', 'give sound', the second split across the line. 'flictu', 'with striking', a rare noun from 'fligo', 'dash' (seen in 'adfligo', 'conflictus'). 'pugna aspera surgit', 'harsh fight rises', grows. The colon leads into the simile. Elision 'pugn(a) aspera'."""),
+(671, 'rumpit.',
+ """as great as, coming from the west, at the time of the rainy Kids,\nlashes the rain the ground, as much as with hail the storm-clouds\ninto the shallows pour down, when Jupiter, bristling with south winds,\nwhirls the watery storm and in the sky the hollow clouds bursts.""",
+ """as heavy as the rain that comes from the west in the season of the rainy Kids and lashes the earth, as thick as the hail the storm-clouds hurl into the sea when Jupiter, bristling with southern gales, whirls round the watery tempest and breaks open the hollow clouds across the sky.""",
+ """'quantus… imber… quam multa grandine', 'as great as the rain… as many as with hail', two comparisons for the volley of weapons, the main clause understood. 'ab occasu', 'from the west' (some take it of the setting of the stars). 'pluvialibus Haedis', 'when the Kids are rainy', ablative of time: the Haedi, two small stars in the Charioteer, whose seasons were proverbially stormy. 'nimbi', 'storm-clouds'. 'in vada', 'into the shallows', the sea. 'horridus austris', 'bristling with south winds'. 'aquosam hiemem', 'the watery storm', 'hiems' of a storm, not only winter. Homer likens stones flying from the Greek wall to driving snow (Iliad 12.156–158). Elisions 'aquos(am) hiemem', 'hiem(em) et'."""),
+(676, 'hostem.',
+ """Pandarus and Bitias, from Idaean Alcanor sprung,\nwhom in Jove's grove brought up the woodland Iaera,\nyoung men equal to their native firs and mountains,\nthe gate, which by their leader's command was entrusted, unbar,\ntrusting in their courage, and unprovoked invite within the walls the enemy.""",
+ """Pandarus and Bitias, sons of Alcanor of Ida, whom the wood-nymph Iaera reared in the grove of Jupiter, young men as tall as the firs and mountains of their homeland, threw open the gate their commander had given into their keeping, trusting in their own courage, and of their own accord invited the enemy inside the walls.""",
+ """A new paragraph in Greenough. 'Idaeo Alcanore creti', 'sprung from Alcanor of Ida', ablative of origin with 'creti', from 'cresco'. 'Iovis… luco', 'in Jove's grove', on Mount Ida. 'silvestris Iaera', 'woodland Iaera', a nymph, the name probably three syllables (I-ae-ra). 'abietibus… patriis et montibus aequos', 'equal to their native firs and mountains', dative; 'abietibus' is read with a consonantal i (ab-yetibus). 'ducis imperio commissa (erat)', 'had been entrusted by their leader's command': Aeneas had ordered that no one fight outside the walls (40–43). 'freti animis', 'trusting in their courage'; the Latin Library has 'armis', 'their arms'. 'ultro', 'unprovoked'. Elisions 'Idae(o) Alcanore', 'fret(i) animis', 'ultroqu(e) invitant'."""),
+(678, 'corusci:',
+ """They themselves within, on right and left, before the towers stand,\narmed with iron and with crests, as to their high heads, flashing:""",
+ """They took their stand inside, on right and left, in front of the towers, armed with steel, the plumes flashing on their lofty heads:""",
+ """'Ipsi', 'themselves', the brothers. 'dextra ac laeva', 'on the right and on the left', ablatives, 'parte' understood. 'pro turribus', 'in front of the towers' flanking the gate. 'adstant', Greenough's 'ads-' for 'ast-'. 'cristis capita alta corusci', 'flashing with crests as to their high heads', 'capita' an accusative of respect, the Greek construction. The colon leads into the simile. Elisions 'Ips(i) intus', 'dextr(a) ac', 'ferr(o) et', 'capit(a) alta'."""),
+(682, 'nutant.',
+ """such as, soaring into the air, the flowing streams around,\nwhether on the Po's banks or beside pleasant Athesis,\nrise up twin oaks, and their unshorn to the sky\nlift heads and with lofty top nod.""",
+ """as twin oaks rise high into the air beside flowing rivers, on the banks of the Po or by the lovely Adige, lifting their unshorn heads to the sky and nodding their lofty crowns.""",
+ """'quales… geminae quercus', 'such as twin oaks', the simile. 'aëriae', 'airy', towering into the air; Greenough's diaeresis marks 'a-e' as two syllables. 'liquentia flumina circum', 'around the flowing streams', 'circum' after its noun, as 'propter' after 'amoenum (Athesim)', 'beside the pleasant Athesis'. 'Padi', the Po; 'Athesim', the Adige, accusative in '-im'; both rivers of Virgil's own northern Italy. 'intonsa… capita', 'unshorn heads', leafy crowns. 'nutant', 'nod', sway. Homer compares the two Lapiths standing before the Greek gate to two tall oaks on the mountains (Iliad 12.131–134). Elision 'capit(a) et'."""),
+(686, 'totis:',
+ """Burst into the entrance, as soon as the Rutulians saw it open,\nat once Quercens and handsome in his arms Aquiculus\nand headlong of spirit Tmarus and Mars-born Haemon\nwith their whole columns:""",
+ """As soon as the Rutulians saw the way standing open, Quercens burst in at once, and Aquiculus, splendid in his armour, and headstrong Tmarus and Haemon, a son of Mars, with all their companies:""",
+ """The print has 'inrumpunt' with a small letter after the full stop at 682, a misprint for 'Inrumpunt', corrected here. 'inrumpunt aditus', 'burst into the entrance', Greenough's 'inr-' for 'irr-', the plural 'aditus' for one gateway. 'Rutuli ut videre', 'as soon as the Rutulians saw', 'ut' with the perfect, 'videre' = 'viderunt'; 'patentis (aditus)', 'lying open'. The four named men are the subjects of 'inrumpunt'. 'continuo', 'at once'. 'pulcher… armis', 'handsome in his arms', ablative of respect. 'praeceps animi', 'headlong of spirit', the genitive (or locative) 'animi' with an adjective. 'Mavortius', 'of Mavors', Mars's old name. Elision 'Rutul(i) ut'."""),
+(687, 'vitam.',
+ """but, turned, their backs they gave\nor at the very gate laid down on the threshold their life.""",
+ """but they either turned and fled, or laid down their lives on the very threshold of the gate.""",
+ """'at', 'but', Greenough's reading, marking the reversal; the Latin Library has 'aut', which gives 'aut… aut', 'either… or'. With 'at' the sense is the same, 'aut' (687) alone carrying the alternative: they fled or they fell. 'versi', 'turned', the passive used of a reflexive act. 'terga dedere', 'gave their backs', fled; 'dedere… posuere', perfects in '-ere'. 'ipso portae… in limine', 'on the very threshold of the gate', framing. 'vitam', singular for each man's life. Elision 'posuer(e) in'."""),
+(688, 'irae;',
+ """Then more grow in spirits at odds the angers;""",
+ """Then rage grew all the hotter in hearts set against each other;""",
+ """'magis increscunt… irae', 'the angers grow more', plural of the fury on both sides. 'animis discordibus', 'in discordant spirits', ablative of place (or dative): the hearts of the two armies at strife, the Rutulians stung by their losses, the Trojans by the attack on their gate. No elisions."""),
+(690, 'audent.',
+ """and now, gathered, the Trojans mass in the same place\nand to join hands and to run forward further they dare.""",
+ """and now the Trojans rallied and massed at the one spot, and dared to close with the enemy and charge out further from the gate.""",
+ """'collecti… glomerantur', 'gathered, they mass together', the passive used reflexively. 'Troes', a Greek nominative plural, two syllables. 'eodem', 'to the same place', the open gate, three syllables here. 'conferre manum', 'to join hands', fight at close quarters. 'procurrere longius', 'to run forward further', out beyond the gate, against Aeneas's order. Elision 'man(um) et'."""),
+(693, 'patentis.',
+ """To the leader Turnus, in a different part raging\nand throwing men into disorder, is carried a message: the enemy\nis seething with fresh slaughter and offering the gates open.""",
+ """Word reached Turnus, the commander, as he raged in another quarter, throwing men into confusion, that the enemy was hot with fresh slaughter and was holding the gates wide open.""",
+ """A new paragraph in Greenough. 'Ductori Turno', 'to the leader Turnus', dative with 'perfertur', 'is carried through (to)'. 'diversa in parte', 'in a different part' of the field. 'furenti turbantique', 'raging and throwing into confusion', present participles agreeing with 'Turno'. 'nuntius', 'a message', followed by the accusative and infinitive 'hostem fervere… praebere', 'that the enemy was seething… offering'. 'fervere', with a short e, the old third-conjugation form beside 'fervēre'. 'caede nova', 'with fresh slaughter'. 'patentis', accusative plural in '-is'. Elisions 'divers(a) in', 'nov(a) et'."""),
+(695, 'superbos.',
+ """He leaves what he began, and by monstrous roused anger\nto the Dardanian rushes gate and the brothers proud.""",
+ """He abandoned what he had begun, and, stirred to monstrous fury, rushed to the Trojan gate and the arrogant brothers.""",
+ """'Deserit inceptum', 'he abandons what he had begun', his attack elsewhere. 'immani… ira', 'by huge anger', framing 'concitus', 'roused'. 'Dardaniam… portam', 'the Dardanian gate', the Trojans', framing 'ruit ad'. 'fratres superbos', 'the proud brothers', Pandarus and Bitias, proud of their bold stroke. Elisions 'incept(um) atque', 'atqu(e) immani'."""),
+(698, 'iaculo;',
+ """And first Antiphates, for he first was pressing forward,\nfrom a Theban mother the bastard of lofty Sarpedon,\nwith a hurled lays low javelin;""",
+ """First he struck down Antiphates, who was the first to come at him, the bastard son of great Sarpedon by a Theban mother, with a cast of his javelin;""",
+ """'primum Antiphaten', 'first Antiphates', a Greek accusative in '-en'. 'is enim se primus agebat', 'for he was the first to drive himself forward', a parenthesis. 'Thebana de matre', 'from a Theban mother', probably of Thebe near Troy, Andromache's city, rather than Greek Thebes. 'nothum', 'bastard', a Greek word. 'Sarpedonis alti', 'of lofty Sarpedon', son of Zeus and king of the Lycians, killed by Patroclus in Iliad 16. 'coniecto… iaculo', 'with a hurled javelin', framing 'sternit', 'lays low'; 'coniecto' has a consonantal i (con-yecto). Elision 'prim(um) Antiphaten'."""),
+(700, 'abit:',
+ """flies the Italian cornel\nthrough the air yielding, and in the stomach fixed, beneath the deep\nchest it passes:""",
+ """the Italian cornel-shaft flew through the yielding air, lodged in his belly and drove on deep up into his chest:""",
+ """'Itala cornus', 'Italian cornel', the javelin named from its wood, the hard cornel-cherry; Turnus's spear comes from the Italian soil. 'aëra per tenerum', 'through the soft air', 'aëra' a Greek accusative of three syllables, 'per' set after it. 'stomacho… infixa', 'fixed in the stomach'. 'sub altum pectus abit', 'passes under the deep chest', drives up into the depths of the chest. Elision 'stomachoqu(e) infixa'."""),
+(701, 'tepescit.',
+ """gives back the cave of the black wound a wave\nfoaming, and in the pierced the iron lung grows warm.""",
+ """the cavern of the black wound gave back a foaming flood, and the steel grew warm in the lung it had pierced.""",
+ """'reddit', 'gives back', pours out. 'specus atri volneris', 'the cave of the black wound', 'volneris' Greenough's old spelling of 'vulneris'; 'specus', a cave, is a vivid word for the gaping hole. 'undam spumantem', 'a foaming wave' of blood, frothing from the lung. 'fixo… in pulmone', 'in the pierced lung', framing 'ferrum'. 'tepescit', 'grows warm', an inceptive verb in '-sco'. Elisions 'spumant(em) et', 'ferr(um) in'."""),
+(704, 'dedisset,',
+ """Then Merops and Erymas by hand, then lays low Aphidnus,\nthen Bitias, blazing in his eyes and in spirit roaring,\nnot with a javelin — for not to a javelin would he have given his life —""",
+ """Then he cut down Merops and Erymas in close fighting, then Aphidnus, then Bitias, his eyes blazing and his heart roaring, and not with a javelin, for he would never have given up his life to a javelin,""",
+ """'Meropem… Erymanta… Bitian', Greek accusatives. 'manu', 'by hand', at close quarters, with the sword. 'tum… tum… tum', the killings counted off. 'ardentem oculis animisque frementem', 'blazing in his eyes and roaring in his spirit', ablatives of respect. 'neque enim… dedisset', 'for he would not have given', the pluperfect subjunctive of an unreal condition, 'if it had been a javelin' understood. The sentence changes course at the next line: instead of 'but with a phalarica', the spear itself becomes the subject (anacoluthon). The long sentence is divided here at a comma. Elisions 'Merop(em) atque', 'atqu(e) Erymanta', 'ardent(em) oculis', 'nequ(e) enim', 'vit(am) ille'."""),
+(708, 'sustinuit:',
+ """but, with a great whistle, whirled, a phalarica came,\ndriven in the manner of a thunderbolt, which neither two bull's hides\nnor, with double scale, a breastplate faithful, and with gold,\nwithstood:""",
+ """but a whirling phalarica came at him with a great whistle, driven like a thunderbolt, and neither two layers of bull's hide nor his trusty breastplate, with its double scales of gold, could stand against it:""",
+ """'magnum stridens', 'whistling greatly', the neuter adjective as an adverb, as 'horrendum' (632). 'contorta', 'whirled', hurled with a spin. 'phalarica', a heavy spear with a long iron head, thrown by hand or by an engine in sieges, often wrapped in burning tow. 'fulminis acta modo', 'driven in the manner of a thunderbolt'. 'duo taurea terga', 'two bull's hides', the layers of his shield. 'duplici squama… et auro', 'with double scale and gold', a hendiadys, 'with a double layer of golden scales'. 'fidelis', 'faithful', never pierced till now. 'sustinuit', singular with the nearer subject. No elisions."""),
+(708, 'membra.',
+ """collapsing, crash down the huge limbs.""",
+ """his huge limbs gave way and came crashing down.""",
+ """'conlapsa', Greenough's 'conl-' for 'coll-', 'having collapsed', the perfect participle of the deponent 'conlabor'. 'ruunt', 'crash down', the present. 'immania membra', 'huge limbs': Bitias is a giant, one of the brothers 'equal to the mountains' (674). No elisions."""),
+(709, 'ingens.',
+ """Gives the earth a groan, and on his shield thunders, huge.""",
+ """The earth groaned, and the giant came thundering down on his shield.""",
+ """'Dat tellus gemitum', 'the earth gives a groan', as the body hits it. 'clipeum super intonat', 'thunders upon his shield', 'super' set after its noun; the subject is best taken as Bitias, 'ingens', 'huge', held to the end of the line: the giant crashes down onto his own shield (some take 'ingens' with the earth). Homer's formula for a falling warrior is 'and his armour rang upon him' (Iliad 4.504 and often); here the man thunders on the armour. Elision 'gemit(um) et'."""),
+(713, 'recumbit:',
+ """Such on the Euboean shore of Baiae at times\nfalls a stone pier, which from great masses beforehand\nbuilt up into the sea they cast; so it ruin\nheadlong drags and, deep in the shallows dashed, settles:""",
+ """So on the Euboean shore of Baiae a pier of stone will sometimes fall, built first out of great blocks and then cast into the sea; it drags its ruin headlong after it and, dashed into the shallows, comes to rest deep on the bottom:""",
+ """'Talis… quondam… cadit', 'such falls at times', 'quondam' here 'sometimes', as often in similes. 'Euboico… litore', 'on the Euboean shore': Cumae, near Baiae, was founded from Chalcis in Euboea. 'Baiarum', of Baiae, the fashionable resort on the Bay of Naples, where rich Romans built villas out into the sea. 'saxea pila', 'a stone pier', a mass of masonry. 'magnis… molibus', 'from great masses', the blocks of the foundation; 'constructam ponto iaciunt', 'built up, they cast it into the sea'. Virgil compares the giant's fall to engineering he could see in his own day. 'ruinam… trahit', 'drags its fall', collapses. 'prona', 'headlong'. 'iaciunt' begins with a consonantal i. No elisions."""),
+(714, 'harenae;',
+ """mingle themselves the seas, and black are raised the sands;""",
+ """the waters churn together, and the black sand is lifted from the bottom;""",
+ """'miscent se maria', 'the seas mingle themselves', are churned up; 'maria' a poetic plural. 'nigrae… harenae', 'black sands', stirred from the bottom, the dark volcanic sand of that coast. 'attolluntur', 'are raised'. Elisions 'mari(a) et', 'nigr(ae) attolluntur'."""),
+(716, 'Typhoeo.',
+ """then at the sound lofty Prochyta trembles, and the hard bed,\nInarime, by Jove's commands laid upon Typhoeus.""",
+ """then high Prochyta trembles at the crash, and Inarime too, the hard bed laid on Typhoeus at Jove's command.""",
+ """'Prochyta', Procida, an island in the Bay of Naples; 'alta', 'high'. 'durum cubile', 'the hard bed', in apposition to 'Inarime', Ischia, under which the giant Typhoeus lay pinned by Jupiter after his revolt, the cause of its earthquakes. The name was thought to come from Homer's 'ein Arimois', 'among the Arimi', where Typhoeus lies (Iliad 2.783), read as one word. 'imposta', shortened from 'imposita'. 'Typhoeo', a Greek dative, its last two vowels run together (synizesis). 'Iovis' begins with a consonantal i. Elision 'Prochyt(a) alta'."""),
+]
+
+P = A.part('aeneid-070'); L = A.lines_of(P); paras = {l['n'] for l in L if l['p']}
+cuts = A.cut(P, [(u[0], u[1]) for u in U])
+sents = []; prev_end_line = None
+for (t, ln), (_, _t, l, i, n) in zip(cuts, U):
+    u = {'t': t, 'l': l, 'i': i, 'n': n}
+    if prev_end_line != ln and ln in paras: u['p'] = True
+    u['v'] = True; u['ln'] = ln; sents.append(u)
+    prev_end_line = ln + t.count('\n')
+    if t.count('\n') != l.count('\n'): print('LINE COUNT', ln, repr(t[:30]), t.count('\n'), l.count('\n'))
+    if t.count('\n') > 4: print('TOO LONG', ln)
+    if '\n' in i: print('NEWLINE IN i', ln)
+    if t.rstrip('”]')[-1] not in A.TERMINAL + ',': print('ENDING', ln, repr(t[-12:]))
+    nw = len(n.split())
+    if nw > 139 or nw < 15: print('NOTE LENGTH', ln, nw)
+A.jdump({'title': TITLE, 'titleEn': TITLE_EN, 'part': PART, 'about': ABOUT, 'sentences': sents}, os.path.join(HERE, 'units.json'))
+print(len(sents), 'units')

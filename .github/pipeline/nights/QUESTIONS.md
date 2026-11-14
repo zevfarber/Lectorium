@@ -1353,3 +1353,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - P572L14 جذبتها: the feminine pronoun has no clear antecedent; translated "drew back from the window", with a note.
 - Library label: `Night 114 · The Lover and the Beloved, continued`. Nothing to decide.
 - Next: night 115 is not yet complete (tail unread); the next firing should transcribe.
+
+## 2026-11-14 (transcribing run, PDF 599-606 = pp. 577-584)
+- Both passes on the strongest model: 28 disputes over 8 pages (3.5 a page). Night labels 116 (P579L01, dropped by the line detector and read from the band by both passes), 117 (P581L12) and 118 (P584L04) are each printed centred on their own line; all three carry `h` (P584L04 set by hand).
+- The adjudicator, spot-checking p606 (no disputes) and p604, proposed four changes to readings both passes agreed on: P584L02 «جنّ الليل» for «جنّ المليل», رأسى for رأسي, P584L19 «لما رات» for «لمارات», P584L20 شيأ for شياً; and P582L02 «فاذكرلها» for «فاذكر لها». The run looked at the crops: on P584L02 the second word shows a loop after the first lām, so «المليل» stays (a misprint for الليل, as printed again correctly at P584L07); the spacing and marks of the others are doubtful. Decided meanwhile: the passes' agreed readings stand. Nothing to decide unless the owner wants them re-read.
+- For the publishing runs (all archived as printed): P584L02 جنّ المليل (for الليل; P584L01–02 are repeated as L06–07 after the night label, in the print itself); P582L04 البهتان (for البستان); P578L01 بكاوشديدا (for بكاء شديدا); P580L08 verse الْعَرَامِ (undotted ع; sense wants الغرام); P581L22 شرّما (low-medium confidence, perhaps a misprint); P581L21 شياْ with a small circle over the alif (low confidence); P579L04 هذة. Run-together words kept: لاانشدها, شاءالله, اذكرلها, لمارات, السعيدان.
+- Nights 115, 116 and 117 are now complete and unpublished; the next three firings should publish them.

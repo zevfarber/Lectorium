@@ -1347,3 +1347,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Corrected misprints in emend.json: P570L02 وانبلت→واقبلت, P570L03 النياب→الثياب. Kept as printed and flagged in the notes: verse P570L16 اَنْقَلِ (no sense, breaks the -di rhyme; probably ṣaḥīḥi al-naqdi, possibly al-naqli; left untranslated «…»); P570L19 قَدْ جَرَتْ … (obscure, no clear subject); P570L21 مَوَاسِمْ repeated as a rhyme word; P569L21–P570L01 تفصيل الا جمال, read as tafṣīla al-ijmāli with the print's split kept (doubtful); رأيحة/الرأيحة for rāʾiḥa; علي for ʿalā (P569L19, pointed ʿalā with a dagger alif); run-together لايكتب, يابنت, لاتسألي, لابدان, انهالك, لوكنت. The archive was not changed.
 - Library label: `Night 113 · The Lover and the Beloved, continued`. Nothing to decide.
 - Next: night 114 is complete and unpublished; the next firing should publish it.
+
+## Night 114 (published 2026-11-14)
+- No misprints corrected; emend.json unchanged. Kept as printed and flagged in the notes: P574L20 جبينها قد انفتح سال دمها (no و before سال; possibly a dropped letter, possibly asyndeton — doubtful, so kept); P573L03 verse يَنْصِفُ (print's vowel for yunṣifu); P572L22 verse حَمَّلْتِنِي pointed feminine in a poem addressed to a man; Middle Arabic forms استمرّيت, حمتني, هنّاك, رفصتها, سهرانة, قضي, ماجري, الخمس/الخمسة اصابع. The archive was not changed.
+- P572L14 جذبتها: the feminine pronoun has no clear antecedent; translated "drew back from the window", with a note.
+- Library label: `Night 114 · The Lover and the Beloved, continued`. Nothing to decide.
+- Next: night 115 is not yet complete (tail unread); the next firing should transcribe.

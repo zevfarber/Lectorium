@@ -61,8 +61,8 @@ scan anomaly turns up later in the volume.
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 590 (archive ends at printed p. 568, header ٥٦١ on PDF 583 confirms −22; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py now uses −22). Pages remaining: 348 PDF pages (591–938)
-(approximate, pending the corrected offset holding). Lines archived: 12612 (counted 2026-11-14). calc.traineddata last
+**Last PDF page done: 598 (archive ends at printed p. 576, header ٥٧٤ on PDF 596 confirms −22; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py now uses −22). Pages remaining: 340 PDF pages (599–938)
+(approximate, pending the corrected offset holding). Lines archived: 12787 (counted 2026-11-14). calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new
 verified line pairs (pp. 127-131, 133-134 prose only, verse/heading excluded; p. 132 excluded, its

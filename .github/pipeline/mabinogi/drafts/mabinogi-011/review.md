@@ -68,3 +68,101 @@ The following follow the house table: *Ie* "Yes" throughout (17, 33, 42, 51, 57,
 - 91 · i "they laid … drove … and he lay with her". The verbal nouns have no expressed subject; the English supplies the one the story requires. Kept.
 
 Pass 1: 1 major / 20 minor / 7 style
+
+## Pass 2 (glossary and units)
+
+Reviewer pass 2 (2026-11-14). I checked every entry in gloss.json against the text where the form occurs and against the unit notes as they stand after pass 1. That covers all 222 new entries (one per key of novel-forms.json) and the 32 drafted `__broaden__` entries. I also read known-forms.json against this part's text to find known entries whose sense or mutation cause would mislead a reader here, and added broadenings for them. For each entry I checked the lemma (the Middle Welsh head, then a real modern form or "no secure modern form"), the meaning, the grammar and the mutation with its real cause. Third witness and aids as in pass 1; no translation consulted. Edits were made by a Python script (exact-match replacements; dump with ensure_ascii=False, indent=1). Afterwards a script confirmed these points:
+- the gloss.json keys other than `__broaden__` equal the novel-forms.json keys (222), and no value is empty;
+- each of the 54 `__broaden__` keys is in known-forms.json, and each value begins with the old entry verbatim + " · ";
+- units.json has 116 sentences, and its `t` list equals cut.json's.
+
+### Changes
+
+- ymlyc · major · Glossed as an obscure preposition 'in the lap of, between' with no modern form. Note 2 (correctly) has *yn* + *plyc* 'fold'. · Now *yn* + *plyc* (*plyg*) 'in the fold of', the nasal mutation not fully shown.
+- synnyeit · major · Glossed as "a 3 sg. past form whose exact ending is uncertain" of *synnyaw* (*synhwyro*). It is the verbal noun after *Sef a wnaeth* (note 9). · Now verbal noun *synnyeit* (*synied*) 'look at, observe'.
+- necau, ych (broadening) · major · *necau* was glossed 'to kill, destroy, strangle', and the *ych* broadening said "he may kill you". It is *nacáu* 'refuse' (note 35; Red Book *neckau*). · Both corrected to 'refuse'; *ych* described as the object before a verbal noun.
+- gwreinc · major · Lemma *gwreng* 'common people'. It is the plural of *gwreang* 'youth, young man' (note 42), not modern *gwrêng*. · Corrected.
+- emys · major · "a kind of horse or hunting beast … meaning uncertain". It is the plural of *amws* 'stallion' (note 59). · Corrected.
+- rydit · major · 'release, ransom, satisfaction' and the example "here is a ransom for you". Note 64 has 'freedom, release'. · Corrected; 'ransom' dropped.
+- gyueir · major · Lemma *cyfair* 'even, complete'. The word is *kyweir* 'equipped, in harness' (note 66; Red Book *yn gyweir*). · Corrected to *kyueir* (*cyweir*).
+- bryssur · major · Lemma "bryssur (brysur)" with "b not shown softened after yn". It is *prysur* with p softened to b after the adverbial *yn*. · Corrected. Note 71 now says so too.
+- bryt (broadening) · major · "dy bryt 'your mind' where the expected soft mutation after dy is not shown". In *colli dy bryt a'th liw* it is *pryt* 'looks', softened (p>b) after *dy* (note 13). · Corrected; marked as a different word from *bryt* 'mind'.
+- euyd · minor · The lemma gave "(Eueid, Eufydd)"; *Eueid* is invented. · Now *Euyd* (*Eufydd*), with the Red Book's *eueyd* and the later emendation to Gwydion, as note 6.
+- dol · minor · "radical after o". *o* softens; *d* > *dd* does not show in the spelling. · Corrected.
+- ymdanei · minor · The head was *am*. The conjugated base is *ymdan* (*amdan*). · Corrected.
+- atueilaw · minor · "(adfeilio, probable descendant)", "meaning inferred from context". GPC has *adfeilio*. · Hedges removed.
+- ham · minor · "the h is aspiration after pa". *pa* softens; it does not add h. · Now: the h is part of the compound *paham* as written.
+- biewynt · minor · "soft-mutated (p>b) after the interrogative pwy". *pwy* is not a softening word. · Now: *b-* is the usual form after *pwy*; analysis uncertain.
+- trawscwyd, drawscwyd · minor · An invented modern *trawsgwydd* and the senses 'crossing, mishap'. Notes 36 and 57 give 'contrivance, device'. · Now: no secure modern form; 'device, contrivance', sense from the context.
+- deguyr · minor · Aligned with corrected note 39: *deg* does not soften; the two g's are written once.
+- tauawt, lawn · minor · "treated here as f. since the next adjective is soft-mutated" and "soft-mutated after the feminine noun". This contradicts corrected note 49 and the Red Book's *llawn da*. · Both aligned: *tauawt* usually m.; *lawn* softening or spelling, not clear.
+- teu · minor · "possessive adjective placed after its noun". It is the independent possessive 'yours'. · Corrected.
+- ymadolwyn · minor · 'parley with'. Note 50 has 'beseech, entreat'. · Corrected.
+- bronwyn · minor · "no mutation". *gwyn* is softened (gw>w) in the compound. · Corrected.
+- rithassei · minor · "r unchanged (rh does not mutate)". rh does soften, to r; the spelling writes r for both. · Corrected.
+- guerthut · minor · "the soft form expected after nas is not shown". The infixed *'s* causes no mutation. · Now radical after *nas*.
+- geimeit · minor · 'companions, fellows' (*cf. ceimiaid*). It is the plural of *keimyat* 'champion, warrior' (note 71). · Corrected.
+- hwyret · minor · 'slowness', an abstract noun. It is the equative of *hwyr* (note 85). · Corrected.
+- hwysc · minor · "h- after eu unexplained". · Aligned with corrected note 86: (g)wysc without its g takes h as a vowel-initial word does.
+- uydant · minor · "3 pl. present subjunctive". *bydant* is the present-future (note 89). · Corrected.
+- arhoed, arhoynt · minor · *arhoed* was "impersonal imperfect"; it is the impersonal preterite in *-ed* (note 96). *arhoynt* now says it is subjunctive in sense (note 93).
+- ymdangneuedu · minor · "radical". *tangneuedu* is softened after *ym-* (note 101). · Corrected.
+- yguelei · minor · The entry offered "the alternative reading y guelei 'saw'". This is not in the note or the log, and it does not construe with *dodi*. · Removed; the entry now gives the Red Book's agreeing *ygwelei*.
+- guahard · minor · The example read "his host". Note 104 follows 'the two hosts'. · Corrected.
+- tyuyawc · minor · An invented modern "tyfiog" and "'growing, fertile'". · Now: no secure modern form; meaning uncertain, perhaps from *tyfu*.
+- my · minor · "a spelling of uy or of mi … uncertain". Note 112 has *my* for *uy*, and the Red Book has *my hun*. · Aligned.
+- med · minor · "3 sg. present with past sense", 'said'. *med Pryderi* is 'says Pryderi' (note 108). · Corrected.
+- kedernit · minor · The entry said "radical" without noting the unsoftened object after *a gyrchwn* (note 78), or the nasal shown only on *yg*. · Added.
+- uath · minor · Added the softening after *ar* (*ar Uath*, note 81).
+- diueuessur · minor · The softening of *messur* after *di-* was not named. · Added.
+- penmaen · minor · "radical", with nothing on the softening expected after the feminine *dol*, which the modern Dolbenmaen shows. · Added.
+- guely (broadening) · minor · It said "soft after the particle y" for the radical *guely*, and cited *a wely di*, which belongs under *wely*. · Corrected.
+- by (broadening) · minor · "'if' … with the sense uncertain". The sense is plain (note 51; Red Book *pany bei*). · Corrected.
+- uu (broadening) · minor · "uy spelt uu". Note 47 calls it an apparent slip, with the Red Book's *miui uy hun*. · Aligned.
+- maen (broadening) · minor · "radical after the article y with a masculine noun". Corrected note 114 reads *y* as *ym* 'in'. · Aligned, with the Red Book.
+- deulu (broadening, new) · minor · The known entry has only *teulu* softened after *'y*. Here it is 'the two hosts' (note 104). · Added.
+- dros (broadening, new) · minor · The known entry has only 'over, across'. · Added 'for, instead of' before a softened verbal noun, with the note's hedge.
+- gyfranc (broadening, new) and unit 97 · minor · The known entry says "noun m., soft-mutated after y", which is self-contradictory. · The broadening says it is softened here after the article as a feminine; note 97 now says "so treated as feminine here" rather than asserting the gender. The known head is not touched.
+- New broadenings for uses the known entries do not cover · minor · Each added as old entry + " · ":
+  - *furuf* (*ba furuf* 'how');
+  - *en* (adverbial *En llawen*);
+  - *uuant* (after a fronted predicate);
+  - *uei* (after *tra*);
+  - *uyw* (complement after *bydei*);
+  - *gigleu* (1 sg.);
+  - *guell* (plain comparative);
+  - *rydhau* (after *dy*);
+  - *chwedleu* ('news');
+  - *ryngtaw* (plain 'between him and');
+  - *uynet* (object with words between);
+  - *wneuthur* (after *dros*);
+  - *lu* (after *'y*);
+  - *guelei* (unsoftened after relative *a*);
+  - *deryw* ('has befallen');
+  - *e* (*E rof a Duw*);
+  - *ellir* (after *cany*);
+  - *ys* (*yd ys* impersonal);
+  - *paub* (unsoftened after *gan*).
+- pedyt · style · The modern form "pedydd" was invented. · Now "no modern form".
+- llesteirei, hilyont, phara, kyuarfo, graessaw, geluydodeu · style · These heads were modern forms, invented modern forms, or invented spellings where the Middle Welsh head belongs:
+  - *llesteiraw*, *hilyaw*, *para*, *kyuaruot*;
+  - *graessaw* (*croeso*);
+  - *keluydyt*, replacing the invented "kelvydyd".
+  · Corrected.
+- eidon · style · "plural/collective". · Now: noun m., generic in *kic eidon* 'beef'.
+- creu · style · The modern "crau" is not secure. · Now "modern form uncertain".
+- angerd · style · 'might, intensity'. Note 114 has 'fury, ardour'. · Aligned.
+- las · style · "3 sg. impersonal" (the impersonal has no person); head *lladd*. · Now 'impersonal preterite', head *llad* (*lladd*).
+
+Second pass over units.json: two notes changed (71 *bryssur*, 97 *gyfranc*, above). No other note disagrees with the glossary as it now stands.
+
+### Refused
+- Entries carrying one example line (e.g. *math*, *goewin*, *kynllyuan*) · The example illustrates; the lemma, sense and grammar are general to the form. Kept.
+- neillaw "(no modern form)", noun f. · *naill law* is not one modern word; the gender follows *llaw*. Kept.
+- call (Nant Call) · The entry already says the sense of the name is uncertain. Kept.
+- llesteirei, guybyd, paraf "no mutation after the infixed 'y" · Right for the 3 sg. m. infixed pronoun (as pass 1). Kept.
+- dygyuori (*dygyfori*), lluydaw (*lluyddu*), awrhon, yghymherued · The heads are acceptable. Kept.
+- gwastatrwyd, kynllyuan, harueu: genders as given · Not checked against GPC, and no gender question arises in this part's text. Kept; the owner may wish to check them.
+- Known *gyfranc* "noun m." and known *ys* · These belong to earlier parts and were broadened rather than rewritten. The owner may wish to settle the gender of *kyfranc* in the work glossary.
+
+Pass 2: 9 major / 37 minor / 6 style

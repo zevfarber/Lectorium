@@ -1,0 +1,73 @@
+# Packet — cid-tiradas-15-17: At Cardeña: Jimena's plea, and Castilians gather to follow the Cid
+
+Tiradas 15–17, Pidal lines 242–294 (Cantar I (Destierro)).
+The established text below is pinned. A unit's `t` is one or more consecutive verses joined by "\n", cut by script.
+Flags: none
+
+
+## tirada 15
+
+242	Llamavan a la puerta, i sopieron el mandado;
+243	Dios, qué alegre f[o] el abbat don Sancho!
+244	Con lu[m]bres e con candelas al corral dieron salto,
+245	con tan grant gozo reçiben al que en buen ora nasco.
+246	“Gradéscolo a Dios, mio Çid”, dixo el abbat don Sancho;
+247	“pues que aquí vos veo, prendet de mí ospedado.”
+248	Dixo el Çid, [el que en buen ora nasco]:
+248b	“graçias don abbat, e so vuestro pagado;
+249	yo adobaré conducho pora mí e pora mi[o]s vasallos;
+250	mas por que me vo de tierra, dovos çinquaenta marcos,
+251	si yo algún día visquier[o], se[e]rvos han doblados.
+252	Non quiero far en el monesterio un dinero de daño;
+253	evades aquí pora doña Ximena dovos çient marcos;
+254	a ella e a sus fijas e a sus dueñas sirvádeslas est año.
+255	Dues fijas dexo niñas e prendetlas en los braços;
+256	aquí vos [las] acomiendo a vos, abbat don Sancho;
+257	dellas e de mi mugier fagades todo recabdo.
+258	Si essa despenssa vos falleçiere o vos menguare algo,
+259	bien las abastad, yo assí vos lo mando;
+260	por un marco que despendades al monesterio daré yo quatro.”
+261	Otorgado gelo avie el abbat de grado.
+262	Afevos doña Ximena con sus fijas do va ilegando;
+263	señas dueñas las traen e adúzenlas [en los braços].
+264	Ant el Campeador doña Ximena fincó los inojos amos.
+265	Llorava de los ojos, quísol besar las manos:
+266	“Merçed, Canpeador, en ora buena f[o]stes nado!
+267	Por malos mestureros de tierra sodes echado.
+
+## tirada 16
+
+268	Merçed, ya Çid, barba tan complida!
+269	Fem ante vos yo e vuestras ffijas,
+269b	iffantes son e de días chicas,
+270	con aquestas mis dueñas de quien so yo servida.
+271	Yo lo veo que estades vos en ida
+272	e nos de vos partir nos hemos en vida.
+273	Dadnos consejo por amor de santa María!”
+274	Enclinó las manos la barba vellida,
+275	a las su[e]s fijas en braço' las prendía,
+276	llególas al coraçón, ca mucho las quería.
+277	Llora de los ojos, tan fuerte mientre sospira:
+278	“Ya doña Ximena, la mi mugier tan complida,
+279	commo a la mi[e] alma yo tanto vos quería.
+280	Ya lo ve[e]des que partir nos emos en vida,
+281	yo iré y vos fincaredes remanida.
+282	Plega a Dios e a santa María,
+282b	que aun con mis manos case estas mis fijas,
+283	e quede ventura y algunos días vida,
+284	e vos, mugier ondrada, de mí seades servida!”
+
+## tirada 17
+
+285	Grand yantar le fazen al buen Canpeador.
+286	Tañen las campanas en San Pero a clamor.
+287	Por Castiella o[d]iendo van los pregones,
+288	commo se va de tierra mio Çid el Canpeador;
+289	unos dexan casas e otros onores.
+290	En aqués día a la puent de Arla[n]çón
+291	çiento quinze cavalleros todos juntados son;
+292	todos demandan por mio Çid el Campeador;
+293	Martín Antolínez con ellos' cojó.
+294	Vansse pora San Pero do está el que en buen[a] naçió.
+
+Glossary: 126 of 240 forms already in cid-glossary.json.

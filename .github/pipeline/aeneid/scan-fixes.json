@@ -10515,5 +10515,195 @@
    "6ar–ma×"
   ],
   "why": "Teucrum has Greek eu as one long syllable, and its -que elides before iterum: cur-vă pĕ | tat Teu | crum(que) ĭ-tĕ | rum sē | red-dăt ĭn | ar-ma (15 syllables). The scanner (cost 0.6, not flagged) split eu into Te-u and made tat Te-u a dactyl."
+ },
+ "10.690": {
+  "sc": [
+   "1suc–ce–2dit–",
+   "pug–3nae–‖",
+   "Teu–4cros–que",
+   "in–5va–dit⏑",
+   "o⏑6van–tis×"
+  ],
+  "why": "Teucros has Greek eu as one long syllable (as 10.44, 10.617, 10.684), and its -que elides before invadit: suc-cē | dit pug | nae Teu | crōs (que) in | vā-dĭt ŏ | vān-tis (13 syllables). The scanner (cost 0.0, not flagged) split eu into Te-u and made nae Te-u a dactyl."
+ },
+ "10.705": {
+  "sc": [
+   "1Cis–se–2is–",
+   "re–3gi–na⏑",
+   "Pa⏑4rin–‖",
+   "cre⏑at⏑",
+   "5ur–be⏑",
+   "pa⏑6ter–na×"
+  ],
+  "why": "Cisseis is three syllables (Greek Κισσηΐς, as 7.320), its -is long by position before r-; regina (nominative) has a short final a and Paris a short Pa-: Cis-sē | īs rē | gī-nă Pă | rīn crĕ-ăt | ur-bĕ pă | ter-na (15 syllables). The scanner (cost 1.5, not flagged) read Cisseis as two syllables and made -na and Pa- long."
+ },
+ "10.712": {
+  "sc": [
+   "1nec–",
+   "cui–quam",
+   "2i–ras–3ci–‖",
+   "pro⏑pi⏑4us–que",
+   "ac–5ce–de⏑re⏑",
+   "6vir–tus×"
+  ],
+  "why": "cuiquam is two syllables, cui one long syllable as everywhere in Virgil (as 7.692), its -quam elided before irasci: nec cui | (quam) ī-rās | cī prŏ-pĭ | us (que) ac | cē-dĕ-rĕ | vir-tus (14 syllables). The scanner (cost 0.0, not flagged) split cui into cŭ-ĭ and made the first foot a dactyl."
+ },
+ "10.724": {
+  "sc": [
+   "1sua–det⏑",
+   "e⏑2nim–",
+   "ve–3sa–na⏑",
+   "fa⏑4mes–‖",
+   "si–",
+   "5for–te⏑",
+   "fu⏑6ga–cem×"
+  ],
+  "why": "Wrong quantities with the right count (cost 1.5, not flagged), the same half-line as 9.340: vēsāna has its first two syllables long (vē- + sānus), its final a short (nominative, with fames), and fămēs a short first syllable: suā-dĕt ĕ | nĭm vē | sā-nă fă | mēs sī | for-tĕ fŭ | gā-cem (15 syllables), suadet two syllables with consonantal u. The scanner made ve-sa short and -na fa- long."
+ },
+ "10.726": {
+  "sc": [
+   "1gau–det⏑",
+   "hi⏑2ans–",
+   "im–3ma–ne⏑‖",
+   "co⏑4mas–que",
+   "ar–5re–xit⏑",
+   "et⏑",
+   "6hae–ret×"
+  ],
+  "why": "Carrier line, checked by hand: gau-dĕt hĭ | āns im | mā-nĕ cŏ | mās (que) ar | rē-xĭt ĕt | hae-ret (15 syllables). The scanner's fit is correct; the entry is needed only because this line shares a unit with the half-line 10.728, which the scanner cannot fit, and a unit with an unresolved line receives no sc at all."
+ },
+ "10.727": {
+  "sc": [
+   "1vis–ce⏑ri⏑2bus–",
+   "su⏑per⏑",
+   "3ac–cum–4bens–‖",
+   "la⏑vit⏑",
+   "5in–pro⏑ba⏑",
+   "6tae–ter×"
+  ],
+  "why": "Carrier line, checked by hand: vis-cĕ-rĭ | būs sŭ-pĕr | ac-cum | bēns lă-vĭt | in-prŏ-bă | tae-ter (16 syllables). The scanner's fit is correct; the entry is needed only because this line shares a unit with the half-line 10.728, which the scanner cannot fit, and a unit with an unresolved line receives no sc at all."
+ },
+ "10.728": {
+  "sc": [
+   "1o–ra⏑",
+   "cru⏑2or×"
+  ],
+  "why": "Half-line (hemistich), one of Virgil's unfinished lines, as 10.490 and 10.580: ō-ră crŭ | or, a dactyl and one syllable (– ⏑ ⏑ | ×), ōra long, cruor two syllables with a short cru-, the last syllable marked × as the end of the line (4 syllables). There is no hexameter to fit; the scanner returns UNRESOLVED. 726, 727 and 729, in the same unit, are entered as carriers."
+ },
+ "10.729": {
+  "sc": [
+   "1sic–",
+   "ru⏑it⏑",
+   "2in–",
+   "den–3sos–‖",
+   "a⏑la⏑4cer–",
+   "Me–5zen–ti⏑us⏑",
+   "6hos–tis×"
+  ],
+  "why": "Carrier line, checked by hand: sīc rŭ-ĭt | in den | sōs ă-lă | cer Mē | zen-tĭ-ŭs | hos-tis (15 syllables). The scanner's fit is correct; the entry is needed only because this line shares a unit with the half-line 10.728, which the scanner cannot fit, and a unit with an unresolved line receives no sc at all."
+ },
+ "10.743": {
+  "sc": [
+   "1Nunc–",
+   "mo⏑re⏑re",
+   "2Ast–",
+   "de–",
+   "3me–‖",
+   "di–4vom–",
+   "pa⏑ter⏑",
+   "5at–que",
+   "ho⏑mi⏑6num–",
+   "rex×"
+  ],
+  "why": "Wrong quantities with the right count (cost 0.3, not flagged). de and me are long (dē, mē), and pater is two shorts: Nunc mŏ-rĕ | r(e) āst dē | mē dī | vōm pă-tĕr | āt-qu(e) hŏ-mĭ | nūm rex (15 syllables), morere elided into Ast across the stop. The scanner made dē and mē short and both syllables of pater long."
+ },
+ "10.745": {
+  "sc": [
+   "1ol–li–",
+   "2du–ra⏑",
+   "qui⏑3es–‖",
+   "o⏑cu⏑4los–",
+   "et–",
+   "5fer–re⏑us⏑",
+   "6ur–get×"
+  ],
+  "why": "quies is two syllables, quĭ-ēs (as 1.723, 3.495, 7.598), and dura (nominative, with quies) has a short final a: ol-lī | dū-ră quĭ | ēs ŏ-cŭ | lōs et | fer-rĕ-ŭs | ur-get (15 syllables). The scanner (cost 0.0, not flagged) read quies as one syllable and made -ra long."
+ },
+ "10.753": {
+  "sc": [
+   "1de–i⏑cit⏑",
+   "2at–",
+   "Thro⏑ni⏑3um–‖",
+   "Sa⏑li⏑4us–",
+   "Sa⏑li⏑5um–que⏑",
+   "Ne⏑6al–ces×"
+  ],
+  "why": "deicit is three syllables, dē-ĭ-cit (dē + iacio, as 8.428), and its -cit is short before at: dē-ĭ-cĭt | at Thrŏ-nĭ | um Să-lĭ | us Să-lĭ | um-quĕ Nĕ | al-ces (17 syllables), five dactyls. The scanner (cost 1.8, not flagged) read dei- as one syllable and made -cit long before a vowel."
+ },
+ "10.769": {
+  "sc": [
+   "1Huic–",
+   "con–tra",
+   "2Ae–ne–3as–‖",
+   "spe⏑cu⏑4la–tus⏑",
+   "in⏑",
+   "5ag–mi⏑ne⏑",
+   "6lon–go×"
+  ],
+  "why": "Aenēās: Ae- is one long syllable (diphthong), and -nē- is long, -ās long, and contra elides into it: Huic con | tr(a) Ae-nē | ās spĕ-cŭ | lā-tŭs ĭn | ag-mĭ-nĕ | lon-go (15 syllables), huic one syllable. The scanner (cost 1.2, not flagged) split the initial Ae into A-e."
+ },
+ "10.776": {
+  "sc": [
+   "1Ae–ne–2ae–",
+   "Di–3xit–‖",
+   "stri–4den–tem–que",
+   "5e–mi⏑nus⏑",
+   "6has–tam×"
+  ],
+  "why": "Aenēae: Ae- is one long syllable (diphthong), and -nē- is long: Ae-nē | ae Dī | xit stri | den-tem | (que) ē-mĭ-nŭs | has-tam (13 syllables), the -que of stridentemque elided into eminus; the stray closing mark of the print (rule 5b) does not affect the words. The scanner (cost 1.2, not flagged) split the initial Ae into A-e."
+ },
+ "10.781": {
+  "sc": [
+   "1Ster–ni⏑tur⏑",
+   "2in–fe–3lix–‖",
+   "a⏑li⏑4e–no–",
+   "5vol–ne⏑re⏑",
+   "6cae–lum×que"
+  ],
+  "why": "Hypermetric line (as 4.558, 5.753, 6.602, 8.228): the last -que of caelumque elides into aspicit, the first word of 782, so the line has sixteen syllables and fifteen count: Ster-nĭ-tŭr | in fē | līx ă-lĭ | ē-nō | vol-nĕ-rĕ | cae-lum(que). The final -que is not counted and is left unmarked, the end mark × on lum. The scanner cannot elide across a line end and returned UNRESOLVED. 782, in the same unit, is entered as a carrier."
+ },
+ "10.782": {
+  "sc": [
+   "1as–pi⏑cit⏑",
+   "2et–",
+   "dul–3cis–‖",
+   "mo⏑ri⏑4ens–",
+   "re⏑mi⏑5nis–ci⏑tur⏑",
+   "6Ar–gos×"
+  ],
+  "why": "Carrier line, checked by hand: as-pĭ-cĭt | et dul | cīs mŏ-rĭ | ens rĕ-mĭ | nis-cĭ-tŭr | Ar-gos (16 syllables), the -que of caelumque (781) elided into its first syllable. The scanner's fit is correct; the entry is needed only because this line shares a unit with the hypermetric 10.781, which the scanner cannot fit, and a unit with an unresolved line receives no sc at all."
+ },
+ "10.783": {
+  "sc": [
+   "1tum–",
+   "pi⏑us⏑",
+   "2Ae–ne–3as–‖",
+   "has–4tam–",
+   "ia⏑cit⏑",
+   "5il–la⏑",
+   "per⏑",
+   "6or–bem×"
+  ],
+  "why": "Aenēās: Ae- is one long syllable (diphthong), and -nē- is long, -ās long: tum pĭ-ŭs | Ae-nē | ās has | tam iă-cĭt | il-lă pĕr | or-bem (15 syllables), iacit with consonantal i. The scanner (cost 1.2, not flagged) split the initial Ae into A-e."
+ },
+ "10.787": {
+  "sc": [
+   "1Ae–ne–2as–",
+   "vi–3so–‖",
+   "Tyr–4rhe–ni–",
+   "5san–gui⏑ne⏑",
+   "6lae–tus×"
+  ],
+  "why": "Aenēās: Ae- is one long syllable (diphthong), and -nē- is long, -ās long: Ae-nē | ās vī | sō Tyr | rhē-nī | san-guĭ-nĕ | lae-tus (13 syllables). The scanner (cost 1.2, not flagged) split the initial Ae into A-e."
  }
 }

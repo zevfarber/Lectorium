@@ -36,11 +36,15 @@ def src_units(word):
     """The source word as a list of glyph-units, each a list of (key, tr)."""
     if not word.get('signs'):                      # an ACLT lacuna marker: lost word(s)
         return [[('DAMAGED', '[…]')]]
-    us = {}
-    for s in word['signs']:
+    us, order = {}, []
+    for i, s in enumerate(word['signs']):
+        u = s['unit'] if 'unit' in s else ('gap', i)          # a lacuna with no unit index is its own glyph, in place
+        if u not in us:
+            us[u] = []
+            order.append(u)
         for k in (s.get('sign') or 'DAMAGED').split('+'):      # a sign keyed as a ligature (A110+A383) = its parts
-            us.setdefault(s.get('unit', 0), []).append((k, s['tr']))
-    return [us[k] for k in sorted(us)]
+            us[u].append((k, s['tr']))
+    return [us[k] for k in order]
 
 
 def packet(p):

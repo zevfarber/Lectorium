@@ -67,3 +67,4 @@ Iron Age Luwian values (z = ts, h = a rasped kh). `langCode: null`. No voice cho
 ## House renderings (Run 3)
 - §35, the spindle clause (2026-11-15): l "Indeed in my days women too walk with the spindle." · i "In my days women too walk about with their spindles." (=ha read as additive "too".)
 - Determinatives keep tr "" as in the pilot. CAPUT-tt(i)- has no val (ACLT leaves its Luwian form open).
+- Lost signs the corpus restores (2026-11-15): keep the source key, tr = the restored value with "?", `"damaged": true`; the note says they are not on the stone. Unrestored gaps stay ▢ DAMAGED "[…]", each in its own position in the word (hooks.src_units).

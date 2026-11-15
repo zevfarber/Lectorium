@@ -958,7 +958,7 @@
    "p": true,
    "l": "[…] in my days.",
    "i": "[…] in my days.",
-   "n": "Only the end of this clause survives. Before it the numbering jumps from §41 to §44: §42 and §43 are not preserved. Of the opening there remain an illegible trace (x, shown as ▢) and the signs i-zi-i, which the corpus leaves uninterpreted. Then comes the phrase of §35 and §36, ammiyanza halliyanza 'in my days', both dative plural -nza: the ia-za of the first word and the ia of the second are lost and restored by the corpus (shown as ▢ with the restored value and a query), and the final za of halliyanza is damaged.",
+   "n": "Only the end of this clause survives. Before it the numbering jumps from §41 to §44: §42 and §43 are not preserved. Of the opening there remain a gap and an illegible trace (x, both shown as ▢) and the signs i-zi-i, which the corpus leaves uninterpreted. Then comes the phrase of §35 and §36, ammiyanza halliyanza 'in my days', both dative plural -nza: the ia-za of the first word and the ia of the second are lost and restored by the corpus (shown with the restored signs and a query: they are not on the stone), and the final za of halliyanza is damaged.",
    "words": [
     {
      "reading": "[…]",
@@ -982,15 +982,9 @@
      "morph": [
       {
        "lemma": "[lost]",
-       "gloss": "signs broken away on the stone; not restored",
+       "gloss": "signs broken away on the stone, then an illegible trace (x); not restored",
        "g": [
-        0
-       ]
-      },
-      {
-       "lemma": "x",
-       "gloss": "an illegible trace of a sign",
-       "g": [
+        0,
         1
        ]
       }
@@ -1063,7 +1057,7 @@
       },
       {
        "lemma": "[lost]",
-       "gloss": "signs broken away on the stone; not restored",
+       "gloss": "signs broken away after i-zi-i on the stone; not restored",
        "g": [
         3
        ]
@@ -1090,17 +1084,19 @@
       },
       {
        "keys": [
-        "DAMAGED"
+        "A210"
        ],
        "role": "phon",
-       "tr": "ia?"
+       "tr": "ia?",
+       "damaged": true
       },
       {
        "keys": [
-        "DAMAGED"
+        "A377"
        ],
        "role": "phon",
-       "tr": "za?"
+       "tr": "za?",
+       "damaged": true
       }
      ],
      "morph": [
@@ -1149,10 +1145,11 @@
       },
       {
        "keys": [
-        "DAMAGED"
+        "A210"
        ],
        "role": "phon",
-       "tr": "ia?"
+       "tr": "ia?",
+       "damaged": true
       },
       {
        "keys": [
@@ -1187,7 +1184,7 @@
    "ln": 45,
    "l": "And(?) this fortress I built.",
    "i": "And I built this fortress.",
-   "n": "Almost word for word §38 again. za 'this' (neuter accusative) is damaged at its start, and the sign after it is lost: the corpus reads it as either pa or ha — that is =pa 'but, and' or =ha 'and' — but leaves it out of its transcription, hence the '(?)'. =wa follows, its wa/i sign lost and restored, then spelled out with a. The quotation mark before CASTRUM is the corpus's editorial addition (<“>) and is not shown; harnissanza is CASTRUM-sà-zá — logogram, complement and ending — with the last sign damaged. In AEDIFICARE.MI the MI is damaged.",
+   "n": "Almost word for word §38 again. za 'this' (neuter accusative) is partly damaged, and the sign after it is lost: the corpus reads it as either pa or ha — that is =pa 'but, and' or =ha 'and' — but leaves it out of its transcription, hence the '(?)'. =wa follows, its wa/i sign lost and restored by the corpus (shown with a query), then spelled out with a. The quotation mark before CASTRUM is the corpus's editorial addition (<“>) and is not shown; harnissanza is CASTRUM-sà-zá — logogram, complement and ending — with the last sign damaged. In AEDIFICARE.MI the MI is damaged.",
    "words": [
     {
      "reading": "za=wa",
@@ -1209,10 +1206,11 @@
       },
       {
        "keys": [
-        "DAMAGED"
+        "A439"
        ],
        "role": "phon",
-       "tr": "wa/i?"
+       "tr": "wa/i?",
+       "damaged": true
       },
       {
        "keys": [
@@ -1367,7 +1365,7 @@
    "p": true,
    "l": "And this Tarhunzas into (it) I settled.",
    "i": "And in it I settled this Tarhunzas.",
-   "n": "wa=tta: =wa with the place particle; the end of its ta and whatever followed are lost. zan 'this' (za-, common accusative singular) begins with za₄ and breaks off. Tarhunzan, the god in the accusative, survives only as the divine classifier and the first half of the thunder sign (TONI[TRUS]); the rest of the name is lost and stands as a separate gap, as the corpus divides it. anta 'in, into' and isnuhha 'I settled' are clear: isnu(wa)- 'make sit, settle' (§30–§31) under the seat classifier SOLIUM, with the 1st singular past -ha; its sà is damaged. 'This Tarhunzas': the demonstrative points to the god as present here, in the city just named; what form that presence took, the clause does not say. Before it the numbering jumps from §45 to §47: §46 is not preserved.",
+   "n": "wa=tta: =wa with the place particle; the end of its ta and whatever followed are lost. zan 'this' (za-, common accusative singular) begins with za₄ and breaks off. Tarhunzan, the god in the accusative, survives only as the divine classifier and the thunder sign, itself partly damaged (TONI[TRUS]); the rest of the name is lost, and the corpus closes the break with a bracket standing on its own, shown here as a gap. anta 'in, into' and isnuhha 'I settled' are clear: isnu(wa)- 'make sit, settle' (§30–§31) under the seat classifier SOLIUM, with the 1st singular past -ha; its sà is damaged. 'This Tarhunzas': the demonstrative points to the god as present here, in the city just named; what form that presence took, the clause does not say. Before it the numbering jumps from §45 to §47: §46 is not preserved.",
    "words": [
     {
      "reading": "wa=tta",
@@ -1405,14 +1403,14 @@
       },
       {
        "lemma": "=tta",
-       "gloss": "particle of place/motion",
+       "gloss": "particle of place/motion (its ta partly damaged)",
        "g": [
         1
        ]
       },
       {
        "lemma": "[lost]",
-       "gloss": "signs broken away on the stone; not restored",
+       "gloss": "signs broken away after the ta on the stone; not restored",
        "g": [
         2
        ]
@@ -1478,7 +1476,7 @@
      "morph": [
       {
        "lemma": "Tarhunza-",
-       "gloss": "Tarhunzas, the Storm-god — here accusative, Tarhunzan; the thunder sign is half lost",
+       "gloss": "Tarhunzas, the Storm-god — here accusative, Tarhunzan; the thunder sign is partly damaged",
        "g": [
         1
        ]
@@ -1600,8 +1598,8 @@
   },
   {
    "ln": 48,
-   "l": "And him to honour stands every river-land: in the year a bull, and at the cutting a sheep, and at the crushing a sheep.",
-   "i": "And every river-land stands to honour him: a bull each year, a sheep at the cutting, and a sheep at the crushing of the grapes.",
+   "l": "And him to honour stands every river-land: during the year a bull, and at the cutting a sheep, and at the crushing a sheep.",
+   "i": "And every river-land stands to honour him: a bull in the course of the year, a sheep at the cutting, and a sheep at the crushing of the grapes.",
    "n": "wa=an: =wa with =an 'him' — the god just settled. izzistuna 'to honour' is an infinitive; taya 'stands' (ta- 'stand', present 3rd singular) has as its subject habaris tanimis 'every river-land', nominative -s: habari- is the corpus's habad(i)-, the d sounded r, under the river classifier FLUMEN; tanimis is OMNIS.MI-i-sá. Then the offerings, each animal in the nominative: ussi mari 'during the year' (ussi, dative of uss(i)- 'year' under ANNUS; mari is one ligature, ma+ra/i) — wawis 'a bull' (BOS.ANIMA); kwaruna=ha 'and at the cutting', a dative under a classifier known only by its list number, L486 (the tu stands for ru here; the other copy is read kwaduna) — hawis 'a sheep' (OVIS.ANIMA, first as classifier, then as logogram); harri=ha 'and at the crushing', under the vine sign VITIS — hawis. 'Cutting' and 'crushing' are the corpus's glosses; that they mean the reaping and the pressing of the grapes is likely but not certain. The ANIMA element of BOS.ANIMA and OVIS.ANIMA has no verifiable Unicode sign: it is shown with the ▢ placeholder, which here marks a gap in the sign repertoire, not damage to the stone.",
    "words": [
     {
@@ -2146,7 +2144,7 @@
    "p": true,
    "l": "And may he bless Azatiwada with health and with well-being.",
    "i": "And may he bless Azatiwada with health and well-being.",
-   "n": "usnuwattu is the 3rd singular imperative (-ttu) of usnu(wa)- 'bless, make prosper' (the usnu- of §15): 'may he bless' — the god of §47–§48 is the unnamed subject; =tta is the place particle. Azzattiwadan is the accusative (-n). Two instrumental nouns follow, both glossed 'health' by the corpus: saPisarari (saPisad(a)-, the capital P marking a sound the spelling leaves open; the d is sounded r, the l-sign lá/í stands for ra, and ri+i is one ligature) and hadaradi=ha (hadara-, with =ha 'and'). 'Health and well-being' only marks that two different words stand side by side; how they differ is not known.",
+   "n": "usnuwattu is the 3rd singular imperative (-ttu) of usnu(wa)- 'bless, make prosper' (the usnu- of §14): 'may he bless' — the god of §47–§48 is the unnamed subject; =tta is the place particle. Azzattiwadan is the accusative (-n). Two instrumental nouns follow, both glossed 'health' by the corpus: saPisarari (saPisad(a)-, the capital P marking a sound the spelling leaves open; the d is sounded r, the l-sign lá/í stands for ra, and ri+i is one ligature) and hadaradi=ha (hadara-, with =ha 'and'). 'Health and well-being' only marks that two different words stand side by side; how they differ is not known.",
    "words": [
     {
      "reading": "wa=tta",
@@ -2732,9 +2730,9 @@
   {
    "ln": 51,
    "p": true,
-   "l": "And may give him Tarhunzas, pleased, and of this fortress the gods — to Azatiwada long days and many years, and good old age.",
+   "l": "And may give him Tarhunzas, fully(?) pleased, and of this fortress the gods — to Azatiwada long days and many years, and good old age.",
    "i": "And may Tarhunzas, well pleased, and the gods of this fortress give Azatiwada long days and many years, and a good old age.",
-   "n": "piyantu 'may they give' (piya-, 3rd plural imperative -ntu, the n unwritten) carries =ha, =wa and =du 'to him', whom Azzattiwadaya (dative -ya) then names. Two subjects: Tarhunzas, with ahha usnuwammis — usnuwammis is the participle (-mmi-, nominative -s) of usnu(wa)- 'bless, please', so 'pleased' or 'blessed', and ahha (ARHA, which the corpus sets in braces) colours it, its exact force here unclear; and massaninzi 'gods' (DEUS-ní-zi, nominative plural -nzi), qualified by zassi=ha=wa harnassassi 'of this fortress', genitival -ssi on both words. In harnassassi the ra/i of the ligature há+ra/i is supplied by the corpus (<+ra/i>): it is shown but is not on the stone. The gifts are accusatives: arraya halliya 'long days' (LONGUS-lá/í-ia, the l-sign standing for the stem's r), miyantinzi=ha ussinzi 'and many years' (common plural -nzi, the ANNUS classifier), sannawisa=ha=wa tammihisa 'and good old age' (neuter singular -sa, with =wa once more mid-clause). Three register breaks fall in this clause.",
+   "n": "piyantu 'may they give' (piya-, 3rd plural imperative -ntu, the n unwritten) carries =ha, =wa and =du 'to him', whom Azzattiwadaya (dative -ya) then names. Two subjects: Tarhunzas, with ahha usnuwammis — usnuwammis is the participle (-mmi-, nominative -s) of usnu(wa)- 'bless, please', so 'pleased' or 'blessed', and ahha (ARHA, which the corpus sets in braces) colours it, its exact force here unclear; and massaninzi 'gods' (DEUS-ní-zi, nominative plural -nzi), qualified by zassi=ha=wa harnassassi 'of this fortress', genitive -ssi on both words. In harnassassi the ra/i of the ligature há+ra/i is supplied by the corpus (<+ra/i>): it is shown but is not on the stone. The gifts are accusatives: arraya halliya 'long days' (LONGUS-lá/í-ia, the l-sign standing for the stem's r), miyantinzi=ha ussinzi 'and many years' (common plural -nzi, the ANNUS classifier), sannawisa=ha=wa tammihisa 'and good old age' (neuter singular -sa, with =wa once more mid-clause). Three register breaks fall in this clause.",
    "words": [
     {
      "reading": "piyantu=ha=wa=du",
@@ -3030,7 +3028,7 @@
       },
       {
        "lemma": "-ssi",
-       "gloss": "genitival ending — 'of this'",
+       "gloss": "genitive ending — 'of this'",
        "g": [
         1
        ]
@@ -3104,7 +3102,7 @@
       },
       {
        "lemma": "-ssi",
-       "gloss": "genitival ending — 'of (this) fortress'",
+       "gloss": "genitive ending — 'of (this) fortress'",
        "g": [
         4
        ]
@@ -4352,9 +4350,9 @@
   },
   {
    "ln": 55,
-   "l": "and they may be made (things) of sheep, of bull, of Kumarma and of Tipariya.",
-   "i": "may it all, sheep and bull, belong to Kumarma and Tipariya.",
-   "n": "wa=ada: =wa with =ada 'they', the clitic pronoun in the nominative plural — the things that dwell in the land (§54). izziyaru 'may it be made, become' is the imperative middle of §53, singular again with a neuter plural subject; here it is spelled with rú, one of several signs carrying that value. Four genitival forms in -ssi follow: hawassi 'of sheep' (OVIS.ANIMA), wawassi 'of bull' (BOS.ANIMA), Kumarmassi and TiPariyassi=ha 'of Kumarma and of Tipariya'. How the two animal words relate to the gods' names is not certain: this edition reads them as naming what dwells in the land — its sheep and cattle — and the two gods as its owners. The ANIMA element again has no verifiable sign (the ▢ placeholder, not damage).",
+   "l": "and may they be made (things) of sheep, of bull, of Kumarma and of Tipariya.",
+   "i": "may it all become the sheep's and the bull's, Kumarma's and Tipariya's.",
+   "n": "wa=ada: =wa with =ada 'they', the clitic pronoun in the nominative plural — the things that dwell in the land (§54). izziyaru 'may it be made, become' is the imperative middle of §53, singular again with a neuter plural subject; here it is spelled with rú, one of several signs carrying that value. Four genitives in -ssi follow: hawassi 'of sheep' (OVIS.ANIMA), wawassi 'of bull' (BOS.ANIMA), Kumarmassi and TiPariyassi=ha 'of Kumarma and of Tipariya'. All four stand in the same case, so what dwells in the land is to become 'of' each alike: the sheep's and the bull's as it is Kumarma's and Tipariya's. What being 'of the sheep and the bull' means here — given over to flocks and herds, perhaps — is not certain; the English keeps the genitives as they stand. The ANIMA element again has no verifiable sign (the ▢ placeholder, not damage).",
    "words": [
     {
      "reading": "wa=ada",
@@ -4483,7 +4481,7 @@
       },
       {
        "lemma": "-ssi",
-       "gloss": "genitival ending — 'of sheep'",
+       "gloss": "genitive ending — 'of sheep'",
        "g": [
         2
        ]
@@ -4529,7 +4527,7 @@
       },
       {
        "lemma": "-ssi",
-       "gloss": "genitival ending — 'of bull'",
+       "gloss": "genitive ending — 'of bull'",
        "g": [
         2
        ]
@@ -4573,7 +4571,7 @@
       },
       {
        "lemma": "-ssi",
-       "gloss": "genitival ending — 'of Kumarma'",
+       "gloss": "genitive ending — 'of Kumarma'",
        "g": [
         2
        ]
@@ -4632,7 +4630,7 @@
       },
       {
        "lemma": "-ssi",
-       "gloss": "genitival ending — 'of Tipariya'",
+       "gloss": "genitive ending — 'of Tipariya'",
        "g": [
         3
        ]
@@ -4653,7 +4651,7 @@
    "p": true,
    "l": "And much for us may they give birth.",
    "i": "May they bear young for us in plenty.",
-   "n": "man=wa=anza: man 'much' (spelled ma, the n unwritten) carries =wa and =anza 'us', the 1st plural clitic pronoun in the dative — 'for us'. hassantu is the 3rd plural imperative (-ntu, the n unwritten) of hassa- 'give birth'. Its subject is not named; it is most naturally the sheep and cattle of §55. The small final stroke after tu is the scribal mark met in §15, whose function is debated.",
+   "n": "man=wa=anza: man 'much' (spelled ma, the n unwritten) carries =wa and =anza 'us', the 1st plural clitic pronoun in the dative — 'for us'. hassantu is the 3rd plural imperative (-ntu, the n unwritten) of hassa- 'give birth'. Its subject is not named; it is most naturally the sheep and bulls named in §55. The small final stroke after tu is the scribal mark met in §15, whose function is debated.",
    "words": [
     {
      "reading": "man=wa=anza",
@@ -4762,7 +4760,7 @@
   {
    "ln": 57,
    "l": "And much may they magnify (them).",
-   "i": "And may they make them grow great.",
+   "i": "And may they make them grow very great.",
    "n": "man=ba=wa: 'much' again, now with the topic shifter =pa (written pa, transcribed =ba by the corpus) and =wa. urannuwantu 'may they magnify' is urannu(wa)- 'make great' — §2's verb, written with MAGNUS+ra/i — in the 3rd plural imperative, with the same small final stroke as §56. Neither subject nor object is written; the English supplies 'them', taking up the herds of §55–§56.",
    "words": [
     {
@@ -4883,7 +4881,7 @@
    "ln": 58,
    "l": "And much may they serve Azatiwada and Muksas's house, through Tarhunzas and the gods.",
    "i": "And may they serve Azatiwada and the house of Muksas well, through Tarhunzas and the gods.",
-   "n": "man=ba=wa as in §57. parnawantu 'may they serve' is parnawa- in the 3rd plural imperative (-ntu), under the CRUX classifier. Whom they serve stands in the dative: Azzattiwadaya 'Azatiwada' and Muksassan=ha parni 'and the house of Muksas' — Muksa- with the possessive ending -ssan agreeing with parni 'house' (DOMUS-ní-i, as in §21); the a after há spells out the vowel of =ha. Tarhuntadi and massanadi=ha are instrumentals, 'through Tarhunzas and the gods' (the last sign of Tarhuntadi, ti, is lost and restored by the corpus); whether 'through' means by their gift or for their sake is open. The corpus glosses Muksa- 'Mopsus'; this edition keeps Muksas (see §21).",
+   "n": "man=ba=wa as in §57. parnawantu 'may they serve' is parnawa- in the 3rd plural imperative (-ntu), under the CRUX classifier. Whom they serve stands in the dative: Azzattiwadaya 'Azatiwada' and Muksassan=ha parni 'and the house of Muksas' — Muksa- with the possessive ending -ssan agreeing with parni 'house' (DOMUS-ní-i, as in §21); the a after há spells out the vowel of =ha. Tarhuntadi and massanadi=ha are instrumentals, 'through Tarhunzas and the gods' (the last sign of Tarhuntadi, ti, is lost and restored by the corpus, shown with a query); whether 'through' means by their gift or for their sake is open. The corpus glosses Muksa- 'Mopsus'; this edition keeps Muksas (see §21).",
    "words": [
     {
      "reading": "man=ba=wa",
@@ -5232,10 +5230,11 @@
       },
       {
        "keys": [
-        "DAMAGED"
+        "A090"
        ],
        "role": "phon",
-       "tr": "ti?"
+       "tr": "ti?",
+       "damaged": true
       }
      ],
      "morph": [

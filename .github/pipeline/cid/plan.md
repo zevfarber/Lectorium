@@ -11,7 +11,7 @@
 | cid-tiradas-19-23 | The angel's dream; the border crossed; Castejón surprised and the Henares raided | tiradas 19–23, lines 404–492 | published |
 | cid-tiradas-24-26 | Minaya's vow; the spoils sold to the Moors; the march toward the Jalón | tiradas 24–26, lines 493–556 | published |
 | cid-tiradas-27-31 | Camp before Alcocer; the town taken by a feigned retreat | tiradas 27–31, lines 557–622 | published |
-| cid-tiradas-32-34 | Fáriz and Galve besiege Alcocer; the sally, and Pero Vermúdez charges with the banner | tiradas 32–34, lines 623–714 | todo |
+| cid-tiradas-32-34 | Fáriz and Galve besiege Alcocer; the sally, and Pero Vermúdez charges with the banner | tiradas 32–34, lines 623–714 | established |
 | cid-tiradas-35-39 | The battle below Alcocer: Fáriz wounded, Galve routed | tiradas 35–39, lines 715–777 | todo |
 | cid-tiradas-40-43 | Counting the spoil; Minaya rides to King Alfonso with a gift | tiradas 40–43, lines 778–835b | todo |
 | cid-tiradas-44-48 | Alcocer sold; camp on the hill by Monreal; the king half-pardons Minaya | tiradas 44–48, lines 836–898 | todo |

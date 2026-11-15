@@ -1,0 +1,228 @@
+# aeneid-082 (XI.1-99): t is cut from the edition by A.cut; l, i, n drafted from the Latin.
+import sys, os
+HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, '..', '..'))
+import aeneid_lib as A
+
+TITLE = 'Tropaeum Mezentii. Funus Pallantis'
+PART = "Mezentius's Trophy and Pallas Sent Home (XI.1–99)"
+TITLE_EN = "Mezentius's Trophy and Pallas Sent Home — Aeneid XI.1–99"
+ABOUT = ("Book XI opens on the morning after the battle. Before he will think of burying his dead, Aeneas pays his vows to the gods: "
+"he lops the branches from a great oak and dresses the trunk in Mezentius's armour, a trophy to the war-god. "
+"Then he tells his captains that the worst is over, that the march on King Latinus's city lies ahead, and that the first duty now is to bury their comrades and to send Pallas home to his father. "
+"He goes back to where the young man's body lies, watched over by old Acoetes, once Evander's armour-bearer, and grieves over him: he had promised Evander something very different, and the father, still praying for his son's return, will see his funeral instead. "
+"A thousand picked men are to go with the body. Pallas is laid on a bier of woven branches, like a flower just picked, and Aeneas wraps him in one of two robes that Dido once made with her own hands. "
+"Spoils, horses, captives bound for sacrifice at the pyre, the weeping Acoetes and Pallas's war-horse Aethon go in the procession. "
+"Aeneas gives the dead a last greeting and turns back to the camp. The funeral train has a Homeric model in Achilles' honours for Patroclus in the Iliad.")
+
+U = [
+(1, 'reliquit:',
+ """Ocean meanwhile, rising, Aurora left:""",
+ """Meanwhile the Dawn rose and left the stream of Ocean:""",
+ """A new book and a new paragraph in Greenough. Book XI opens with the dawn of the day after Mezentius's death, the last event of Book X. 'Oceanum', the river Ocean that in Greek myth flows round the edge of the earth; the Dawn ('Aurora') rises out of it, as the sun does, a Homeric way of telling the time. 'surgens', present participle, 'rising'. The colon leads into what Aeneas does at first light. Elision 'Ocean(um) interea'."""),
+(4, 'Eoo.',
+ """Aeneas, although both to the comrades to give time to be buried\nhis cares urge, and troubled by the death his mind is,\nthe vows to the gods at first dawn, as victor, was paying.""",
+ """Aeneas, though his cares pressed him to give his time to burying his comrades, and his mind was shaken by the death, began at first light to pay the gods the vows he owed them as victor.""",
+ """'quamquam… praecipitant curae', 'although his anxieties hurry him (on)', with the infinitive 'dare', 'to give'. 'sociis… humandis', 'to the comrades to be buried', the gerundive in the dative: 'to give time to burying his comrades'. 'funere', 'by the death', Pallas's above all. 'vota… solvebat', 'was paying his vows', what a general had promised the gods in return for victory; the imperfect is 'set about paying'. 'deum' = 'deorum', the old genitive plural you have met often. 'primo… Eoo', 'at the first dawn', 'Eous' the Greek name for the morning (star). Piety comes before grief. Elision 'quamqu(am) et'."""),
+(8, 'bellipotens:',
+ """A huge oak, cut off on every side its branches,\nhe sets up on a mound, and gleaming dresses it in arms,\nof Mezentius the leader the spoils, to you, great one, a trophy,\nmighty in war:""",
+ """He set up on a mound a huge oak with its branches lopped off all round, and dressed it in gleaming armour, the spoils of the leader Mezentius, a trophy to you, great lord of war:""",
+ """A trophy ('tropaeum'), the Greek and Roman monument of victory: a tree trunk dressed in the beaten enemy's armour, set up where he was beaten. 'decisis undique ramis', ablative absolute, 'the branches having been cut off all round'. 'tumulo', 'on a mound', ablative of place. 'induit arma', 'puts arms on (it)', as one dresses a man. 'Mezenti', Greenough's genitive in single '-i' for 'Mezentii'. 'tibi, magne… bellipotens', Virgil turns to address the god himself, an apostrophe: the trophy is offered to Mars. 'bellipotens', 'powerful in war', an old-fashioned compound of the kind Ennius made. Elision 'fulgentiaqu(e) induit'."""),
+(11, 'eburnum.',
+ """he fits the dripping with blood crests,\nand the weapons broken of the man, and twice six the breastplate struck\nand pierced in places, and the shield of bronze to the left\nhe binds beneath, and the sword from the neck he hangs, of ivory.""",
+ """he fitted on the crests still dripping with blood, and the man's broken spears, and the breastplate struck and pierced in twelve places; to the left side he bound the bronze shield, and from the neck he hung the ivory-hilted sword.""",
+ """The dressing of the trunk, piece by piece, as if it were the man. 'rorantis', accusative plural in '-is', 'dripping'. 'telaque trunca viri', 'and the man's broken weapons', the spears snapped off in the fighting. 'thoraca', the Greek accusative of 'thorax', 'breastplate'. 'bis sex… locis', 'in twice six places', with 'petitum perfossumque', 'struck and pierced'. 'sinistrae', 'to the left (hand)', dative with 'subligat', 'binds beneath': the shield hangs where the left arm would hold it. 'ensem… eburnum', 'the ivory sword', a sword with an ivory hilt. 'collo', 'from the neck', where the baldric would carry it. Elisions 'vir(i) et', 'clipeumqu(e) ex', 'atqu(e) ensem'."""),
+(13, 'ovantis:',
+ """Then the comrades, for all him crowded round was covering\nthe throng of the leaders, thus beginning he urges, exulting:""",
+ """Then, since the whole crowd of captains was pressing close round him, he began to encourage his comrades, who were exulting, in these words:""",
+ """'namque… turba ducum', a parenthesis giving the reason: 'for the whole crowd of leaders, packed close, was surrounding him'. 'omnis' is nominative singular, with 'turba'. 'stipata', 'crowded together'. 'tegebat', literally 'was covering', hemming him in on every side. 'sic incipiens', 'beginning thus'. 'hortatur', 'urges, encourages', a deponent with 'socios' as object. 'ovantis', accusative plural in '-is', agreeing with 'socios': 'ovo' is to rejoice in triumph (the 'ovatio' was the lesser Roman triumph). Elision 'namqu(e) omnis'."""),
+(14, 'viri;',
+ """“The greatest thing done, men;""",
+ """“Men, the greatest part of our work is done;""",
+ """Aeneas's speech to his captains, which runs to 28. 'Maxima res effecta', 'the greatest thing (has been) accomplished', with 'est' left out, as often in short, weighty statements. With Mezentius, the most savage of their enemies, dead, the hardest part of the war is behind them. 'viri', vocative, 'men', a soldier's address to soldiers. No elisions."""),
+(15, 'superest:',
+ """fear all let it be away,\nas for what remains:""",
+ """for what is still to come, let every fear be gone:""",
+ """'abesto', future imperative of 'absum', 'let it be absent': the future imperative is the form of laws and solemn orders. 'timor omnis', 'all fear', its subject. 'quod superest', 'as to what remains', a common idiom: 'for the future'. It goes with what comes before; the colon then opens the reason for confidence. No elisions."""),
+(16, 'est.',
+ """these are the spoils and from a king proud\nthe first-fruits, and by my hands Mezentius this is.""",
+ """here are the spoils, the first-fruits of victory over a proud king, and this, made by my hands, is Mezentius.""",
+ """'haec', 'these', pointing to the trophy. 'primitiae', 'first-fruits', the first of the harvest, offered to the gods; here the first spoils of the war, with more to come. 'de rege superbo', 'from (taken off) a proud king': 'superbus' is the word for a tyrant, and Mezentius was driven out by his own people for his cruelty. 'manibusque meis Mezentius hic est', 'and this, by my hands, is Mezentius': all that is left of the terrible king is a dressed-up tree trunk, and Aeneas made it so. 'manibus', ablative of means. No elisions."""),
+(17, 'Latinos.',
+ """Now the march to the king for us, and the walls Latin.""",
+ """Now we must march on the king and the walls of the Latins.""",
+ """'iter… nobis', 'a journey (is) for us', with 'est' left out: the dative of the person with 'esse', close to the dative of possession that you have met often. 'ad regem', King Latinus, in whose city, Laurentum, the war against the Trojans is being directed. 'muros… Latinos', 'the Latin walls'. The line is plain and practical: the war is not yet won. No elisions."""),
+(21, 'tardet.',
+ """Arms make ready in your spirits, and in hope seize beforehand the war,\nso that no delay, unknowing, as soon as to pluck the standards\nnod assent the gods above and the youth to lead out from the camp,\nmay hinder, or sluggish from fear a resolve slow you.""",
+ """Make your weapons and your hearts ready, and in your hopes take hold of the war before it comes, so that when the gods first give their assent to pull up the standards and lead the young men out of the camp, no delay may hinder you unprepared, and no purpose grown slack with fear may hold you back.""",
+ """'animis', 'in (your) spirits', ablative: be ready in mind as well as in arms. 'spe praesumite bellum', 'take up the war in advance in hope'. 'nequa', Greenough's one-word spelling of 'ne qua', 'lest any'. 'ignaros', 'you, unaware', the object of 'impediat' (and of 'tardet'), with 'vos' understood. 'ubi primum', 'as soon as'. 'vellere signa', 'to pull up the standards', planted in the ground in camp and pulled up to march. 'adnuerint', future perfect, 'shall have nodded': the gods give the signal by omens. 'pubem', 'the young (fighting) men'. 'segnisve… sententia', 'or a sluggish resolve', nominative. Elisions 'parat(e) animis', 'mor(a) ignaros', 'pubemqu(e) educere'."""),
+(23, 'est.',
+ """Meanwhile the comrades and the unburied bodies to the earth\nlet us commit, which the only honour beneath Acheron the deepest is.""",
+ """Meanwhile let us give our comrades' unburied bodies to the earth, the only honour there is for them deep down by Acheron.""",
+ """'socios inhumataque corpora', 'our comrades and their unburied bodies', two words for one thing (hendiadys): the bodies of the comrades. 'mandemus', hortatory subjunctive, 'let us commit'. 'terrae', dative. 'qui solus honos… est', 'which is the only honour': 'qui' agrees with 'honos' in its own clause, not with the act of burial it refers to, a common attraction. 'Acheronte sub imo', 'beneath deepest Acheron', the underworld river standing for the whole world of the dead. In Book VI the unburied wander a hundred years before they may cross (VI.325–330). Prodelision 'imo (e)st'."""),
+(26, 'muneribus,',
+ """Go,” he says, “the outstanding souls, who with blood for us\nthis fatherland have brought forth, their own, honour with the last\ngifts,""",
+ """“Go,” he said, “and honour with the last rites those noble souls who have won this country for us at the price of their own blood;""",
+ """The print has '“Ite, ait, egregias', with an opening mark before 'Ite' and none before 'egregias', a misprint (as at 6.46, 6.52 and 7.121) for 'Ite,” ait, “egregias', corrected here: the speech has run on from 14 and only breaks off for 'ait'. 'Ite… decorate', 'go… honour', plural imperatives. 'egregias animas', 'outstanding souls', the dead. 'peperere', the '-ere' ending for '-erunt' (you'll see it constantly), perfect of 'pario', 'brought forth, won'. 'hanc patriam', 'this (land as their) fatherland', Italy, the promised home. 'sanguine… suo', framing the clause. 'supremis / muneribus', 'with the last gifts', the funeral rites. Elision 'It(e) ait'."""),
+(28, 'acerbo.”',
+ """and to the grieving of Evander first to the city\nlet be sent Pallas, whom not of valour lacking\ncarried off a black day and in a death sank bitter.”""",
+ """and first let Pallas be sent to Evander's grieving city, Pallas, who did not lack for courage, whom a black day carried off and plunged into an early death.”""",
+ """'maestamque… ad urbem', 'to the grieving city', Pallanteum, Evander's town on the future site of Rome (Book VIII); 'maestam' looks ahead to the grief the body will bring. 'primus', 'first', before the others are buried. 'mittatur', jussive subjunctive, 'let him be sent'. 'non virtutis egentem', 'not lacking in courage', litotes: 'egeo' takes the genitive. 'atra dies', 'a black day', the day of death; 'dies' is feminine here, as often of a fated day. 'funere mersit acerbo', 'sank him in bitter death': 'acerbus' is 'unripe', and so of a death that comes too soon. The same line is used in Book VI of the souls of infants (VI.429). The speech ends. Elision 'maestamqu(e) Evandri'."""),
+(33, 'alumno.',
+ """Thus he speaks, weeping, and takes back to the threshold his step,\nwhere the body of lifeless, laid out, Pallas Acoetes\nwas guarding, the aged, who to Parrhasian Evander\nthe armour-bearer before was, but not with happy equally\nthen as companion with auspices, to his dear given, was going, foster-child.""",
+ """So he spoke, in tears, and made his way back to the doorway where the body of Pallas lay, watched over by old Acoetes, who had once been armour-bearer to Arcadian Evander, but had since gone out, under omens far less happy, as the companion assigned to the dear boy he had helped to raise.""",
+ """A new paragraph in Greenough. 'inlacrimans', 'weeping over (it)', Greenough's spelling of 'illacrimans'. 'recipit… gressum', 'takes his step back', returns. 'ubi', 'where'. 'exanimi', genitive singular of 'exanimis', 'lifeless', with 'Pallantis'. 'senior', the comparative used for 'old man'. 'Parrhasio', 'Parrhasian', Arcadian (Parrhasia is a district of Arcadia), not elided before 'Evandro': a hiatus. 'armiger', 'armour-bearer'. 'ante', adverb, 'formerly'. 'non felicibus aeque… auspiciis', 'with omens not equally happy', ablative of attendant circumstances. 'caro… alumno', dative with 'datus', 'given (as companion) to his dear charge': an 'alumnus' is a child one has reared. Elisions 'recipitqu(e) ad', 'ub(i) exanimi'."""),
+(35, 'solutae.',
+ """Around, all, both of servants the band and the Trojan crowd,\nand, the grieving Trojan women, as to their hair according to custom loosed.""",
+ """Around him stood the whole company of servants, the crowd of Trojans, and the Trojan women with their hair unbound in mourning, as custom required.""",
+ """'Circum', adverb, 'round about', with the verb ('stood') left out. 'omnis… manus', 'the whole band', 'omnis' nominative singular. 'famulum' = 'famulorum', the old genitive plural in '-um' again. 'Iliades', Greek nominative plural, 'women of Ilium', Trojan women. 'maestum… crinem… solutae', 'loosed as to their grieving hair': the participle is passive in form but used like a Greek middle ('having loosed their hair'), and the hair is its accusative, a construction Virgil likes. 'de more', 'according to custom': women let down their hair in mourning. 'maestum' is transferred from the women to their hair. Elisions 'Circ(um) omnis', 'maest(um) Iliades'."""),
+(38, 'luctu.',
+ """When indeed Aeneas through the doors brought himself, high,\na huge groan, beaten, to the stars they raise,\ntheir breasts, and with grieving bellows the royal hall with lament.""",
+ """But when Aeneas came in through the high doorway, they beat their breasts and raised a great groan to the stars, and the hall moaned with the sound of mourning.""",
+ """'Ut vero', 'but when', 'ut' with the perfect indicative. 'foribus… altis', 'through the high doors', ablative of the way by which (or dative, 'into the doors'). 'sese intulit', 'brought himself in', entered. 'tunsis… pectoribus', ablative absolute framing the line-end, 'their breasts having been beaten': the beating of the breast is the regular gesture of mourning. 'ad sidera', 'to the stars', epic exaggeration. 'immugit', 'bellows within', a word used of cattle and of a roaring sea, here of the hall echoing with grief. 'regia', 'the royal dwelling', the hall where the king's son lies. Elisions 'ver(o) Aeneas', 'ses(e) intulit', 'maestoqu(e) immugit'."""),
+(41, 'obortis.',
+ """He himself the head of snowy, propped up, Pallas and the face\nwhen he saw, and on the smooth gaping breast the wound\nof the spear-point Ausonian, with tears thus speaks, having risen.""",
+ """Aeneas, when he saw the propped head and snow-white face of Pallas, and the wound of the Italian spear gaping in his smooth young chest, spoke these words as the tears welled up.""",
+ """'Ipse', Aeneas. 'caput… fultum… et ora', 'the propped head and face', the objects of 'vidit', put before 'ut', 'when'. 'nivei', 'snowy', the pallor of death, with 'Pallantis'. 'levi', from 'lēvis', 'smooth', the hairless chest of a youth, not 'lĕvis', 'light'; the metre tells them apart. 'patens', 'gaping'. 'cuspidis Ausoniae', 'of the Ausonian spear-point': 'Ausonia' is a poetic name for Italy; this is Turnus's spear, which went through Pallas's shield, his corslet and his chest (X.479–489). 'lacrimis… obortis', ablative absolute, 'tears having sprung up'. 'fatur', 'speaks', deponent. No elisions."""),
+(44, 'paternas?',
+ """“You,” he says, “pitiable boy, when happy she was coming,\ndid she begrudge, Fortune, me, so that you should not the kingdom see\nours, nor to the home as victor be carried of your father?""",
+ """“Poor boy,” he said, “was it you that Fortune grudged me, just when she came to me smiling, so that you should not see my kingdom, nor ride home in triumph to your father's house?""",
+ """Aeneas's lament, which runs to 58. Greenough, as usual, prints no marks round an 'inquit' that falls inside a speech; l and i add them. 'Tene… invidit… mihi', 'was it you that (Fortune) grudged me?', '-ne' marking the question: 'invideo' takes the accusative of the thing grudged and the dative of the person, a poetic construction. 'miserande', vocative of the gerundive, 'you who must be pitied'. 'cum laeta veniret', 'when she was coming in joy', the victory she had just brought. 'ne… videres… veherere', 'so that you should not see… nor be carried', imperfect subjunctives; 'veherere' is the second person ending '-re' for '-ris', riding in a chariot as victor. 'regna… nostra', the kingdom Aeneas is to found. Elisions 'Ten(e) inquit', 'nequ(e) ad'."""),
+(48, 'gente.',
+ """Not these to Evander about you the promises, to the parent,\non departing I had given, when me, having embraced, as I went,\nhe was sending into a great command, and fearing was warning\nthat fierce were the men, that with a hard the battles race.""",
+ """These were not the promises I made to Evander about you when I left him, when he embraced me as I set out, sending me to win a great empire, and warned me anxiously that the men were fierce, and that we would be fighting a hardy race.""",
+ """'Non haec… promissa… dederam', 'not these were the promises I had given', the pluperfect looking back to the parting in Book VIII. 'parenti', 'to the father', in apposition to 'Evandro'. 'discedens', 'on leaving'. 'cum… mitteret… moneret', 'when he was sending… and warning', 'cum' with the imperfect subjunctive. 'complexus', 'having embraced', deponent perfect participle. 'euntem', 'going', present participle of 'eo'. 'in magnum imperium', 'into a great dominion': to the Etruscan command Evander had found for him, and beyond it to empire. 'acris esse viros', indirect statement, 'that the men were fierce'; 'acris' is accusative plural in '-is'. 'cum dura proelia gente', 'that the battles were with a hard race', 'esse' carried over. Elision 'magn(um) imperium'."""),
+(50, 'donis:',
+ """And now he indeed, by hope much taken, empty,\nperhaps even vows makes and heaps the altars with gifts:""",
+ """And even now, perhaps, deceived by empty hope, he is making vows and heaping the altars with offerings:""",
+ """'ille', Evander, far away in Pallanteum. 'quidem', 'indeed', answered by 'nos' in the next line: 'he… but we'. 'spe… captus inani', 'taken in by an empty hope', the words framing the phrase. 'multum', adverb, 'much'. 'fors et', 'perhaps even', 'fors' used like 'forsitan'. 'vota facit', 'makes vows', promising the gods gifts if his son comes home safe. 'cumulat altaria donis', 'heaps the altars with gifts'. The father praying for a son already dead is the bitterest irony of the lament. Elision 'cumulatqu(e) altaria'."""),
+(52, 'honore.',
+ """we the young man lifeless and nothing now to the heavenly ones any\nowing, with empty, grieving, escort honour.""",
+ """while we, in our grief, escort with useless honours a lifeless youth who owes nothing any longer to any god in heaven.""",
+ """'nos', emphatic first, set against 'ille'. 'exanimum', 'lifeless', here from 'exanimus' (second declension), where 30 had 'exanimi' from 'exanimis'; Virgil uses both. 'nil iam caelestibus ullis / debentem', 'owing nothing now to any heavenly gods': the vows were made for his life, and now he is beyond the gods' power and their claims. 'nil' = 'nihil'. 'vano… honore', 'with empty honour', which cannot help the dead. 'maesti', nominative plural with 'nos'. 'comitamur', 'escort', deponent. Elisions 'iuven(em) exanimum', 'exanim(um) et'."""),
+(53, 'videbis!',
+ """Unhappy one, of your son the funeral cruel you will see!""",
+ """Unhappy father, you will see your son's cruel funeral!""",
+ """Aeneas turns to address the absent Evander, an apostrophe. 'Infelix', vocative, 'unhappy (father)'. 'nati', 'of your son', genitive. 'funus' can be the funeral or the dead body itself; here both are coming to Pallanteum. 'videbis', future: Evander will see this soon. The short exclamations that follow (53–55) break up the lament into sobs. No elisions."""),
+(54, 'triumphi!',
+ """These our returns and the awaited triumphs!""",
+ """So this is our homecoming, this the triumph we looked for!""",
+ """Exclamations without a verb: 'Hi (sunt)', 'these (are)'. 'reditus', nominative plural, 'returns', the poetic plural for one homecoming. 'expectati', Greenough's spelling of 'exspectati', 'looked for'. 'triumphi', the Roman victory procession, which Pallas should have ridden in; the funeral procession about to be formed (59–93) takes its place. Bitter irony. No elisions."""),
+(55, 'fides!',
+ """This my great faith!""",
+ """So much for my solemn pledge!""",
+ """'Haec mea magna fides', 'this (is) my great faith', with 'est' left out again. 'fides' is the pledged word: Aeneas had promised to bring the boy home safe, and the corpse is what his promise has come to. The third short exclamation in a row, each starting with a demonstrative ('Hi… Haec'). No elisions."""),
+(57, 'pater.',
+ """But not, Evander, by shameful\nwounds routed will you look on him, nor, safe, a dread\nwill you pray for, for your son, death, as a father.""",
+ """Yet, Evander, you will not see him routed and carrying the wounds of shame, nor will you, his father, have cause to pray for a cruel death because your son came home safe.""",
+ """The one comfort. 'At', 'but, yet'. 'pudendis / vulneribus', 'with shameful wounds', wounds in the back, taken in flight; Pallas's wound is in his chest (40). 'pulsum', 'routed', with 'eum' understood. 'adspicies', Greenough's spelling of 'aspicies', future. 'sospite… nato', ablative absolute, 'your son being safe': Evander will not have to wish himself dead because his son had saved his life by cowardice. 'dirum… funus', 'a dread death', for the father himself; 'optabis', 'you will pray for'. 'pater', 'as a father', held to the end of the clause. Elision 'puls(um) adspicies'."""),
+(58, 'Iule!”',
+ """Alas for me, how great\na protection, Ausonia, and how great you lose, Iulus!”""",
+ """Alas, how great a defender you are losing, Italy, and you, Iulus, how great a one!”""",
+ """'Ei mihi', 'alas for me', an interjection with the dative. 'quantum / praesidium', 'how great a protection', exclamatory. 'Ausonia', vocative, 'Italy'; the one verb 'perdis' serves both it and 'tu… Iule' (a nominative 'Ausonia' would need 'perdit'). Pallas would have been a defender of the new Italy that Trojans and Latins are to make together, and a companion in arms for Aeneas's son Iulus (Ascanius). 'Iule', vocative of 'Iulus', three syllables, I-u-le. The speech ends. Elisions 'praesidi(um) Ausonia', 'Ausoni(a) et'."""),
+(63, 'patri.',
+ """These things when he had wept, to be lifted the pitiable body\nhe orders, and from the whole column chosen he sends\na thousand men, who the last might escort honour\nand be present at the father's tears, consolations of grief\nsmall, of great, but to the wretched owed father.""",
+ """When he had finished his lament, he ordered the pitiable body to be lifted up, and sent a thousand men chosen from the whole army to go with it in its last honours and to be present at the father's weeping: a small comfort for so great a grief, but one owed to the unhappy father.""",
+ """A new paragraph in Greenough. 'Haec ubi deflevit', 'when he had wept (over) these things', 'ubi' with the perfect. 'tolli… imperat', 'orders to be lifted', 'impero' with the infinitive, poetic for 'ut' and the subjunctive. 'lectos', 'chosen', from 'lego'. 'mille viros', 'a thousand men', a large escort and an honour in itself. 'qui… comitentur… intersintque', a relative clause of purpose, 'to escort… and to be present at'. 'supremum… honorem', 'the last honour', the funeral. 'solacia… exigua', in apposition to the whole sentence: 'a small consolation'. 'luctus… ingentis', genitive, 'of a huge grief', the words set against each other. Elision 'exigu(a) ingentis'."""),
+(66, 'inumbrant.',
+ """Not sluggish, others hurdles and a soft bier\nof arbutus weave with rods and with withy of oak,\nand the built-up couch with a covering of leaves they shade.""",
+ """Others, quick to the work, wove hurdles and a soft bier out of arbutus rods and oak twigs, and shaded the raised couch with a canopy of leaves.""",
+ """'Haud segnes', 'not slow', litotes: they work eagerly. 'alii', 'others', nominative. 'crates', 'wicker hurdles', a frame of woven twigs; 'feretrum', 'a bier' for carrying the body. 'arbuteis… virgis', 'with arbutus rods', from the strawberry-tree, and 'vimine querno', 'with oak withy': the bier is made from the woodland round the camp. 'exstructos… toros', 'the built-up couch', poetic plural. 'obtentu frondis', 'with a covering of foliage', which 'inumbrant', 'they shade (it)'. The plain country materials will make the next lines' simile natural. No elisions."""),
+(70, 'recessit:',
+ """Here the young man on rustic, high, straw they place,\nlike, by a girl's reaped thumb, a flower,\neither of soft violet or of drooping hyacinth,\nfrom which neither its gleam yet nor yet its own beauty has gone:""",
+ """There they laid the young man, high on his rustic bed, like a flower picked by a girl's fingers, a soft violet or a drooping hyacinth, that has not yet lost its brightness or its beauty:""",
+ """'Hic', 'here', on the couch. 'sublimem', 'raised high'. 'agresti… stramine', 'on the rustic bedding', ablative of place. 'qualem… florem', 'such as a flower', the simile: 'qualis' agrees with 'florem', which stands in apposition to 'iuvenem'. 'virgineo… pollice', 'by a girl's thumb', the thumbnail nipping the stalk; 'demessum', 'reaped, cut off'. 'violae', any of several soft flowers; 'hyacinthi', a Greek word ending the line in four syllables. 'cui… recessit', 'from which… has departed', 'cui' dative of separation. 'necdum', Greenough's one word for 'nec dum'. Virgil used a cut flower for the dead Euryalus (IX.435–437); Homer has a drooping poppy for a dying warrior (Iliad 8.306–308). No elisions."""),
+(71, 'ministrat.',
+ """No longer the mother nourishes, the earth, and strength supplies.""",
+ """But its mother the earth no longer feeds it or gives it strength.""",
+ """The point of the simile, saved for its last line: the picked flower keeps its colour for a while, but it has been cut from the root and will soon wither. So Pallas still looks alive, and is not. 'non iam', 'no longer'. 'mater… tellus', 'mother earth', the words split round the verb. 'alit', 'nourishes'. 'viresque ministrat', 'and supplies strength', 'vires' accusative plural of 'vis'. No elisions."""),
+(75, 'auro.',
+ """Then twin garments, with gold and with purple stiff,\nbrought out Aeneas, which for him, glad in the labours,\nherself with her own once hands Sidonian Dido\nhad made, and with fine had picked out the web gold.""",
+ """Then Aeneas brought out two robes, stiff with gold and purple, which Sidonian Dido had once made for him with her own hands, rejoicing in the work, and had picked out the weave with fine gold thread.""",
+ """'geminas vestes', 'twin garments', a matching pair. 'auroque ostroque', 'with gold and purple', the double '-que'; 'ostrum' is the costly purple dye from the murex shellfish of Tyre. 'rigentis', accusative plural in '-is', 'stiff', with gold thread. 'illi', dative, 'for him', Aeneas. 'laeta laborum', 'glad in her tasks', the genitive with an adjective, a Greek construction. 'Sidonia Dido', Dido of Sidon, the Phoenician city, queen of Carthage, whom Aeneas left in Book IV. Line 75 repeats IV.264 word for word, where Aeneas wears one of her gifts at Carthage. 'discreverat', 'had distinguished', marked out the pattern. Elision 'auroqu(e) ostroque'."""),
+(77, 'amictu,',
+ """Of these one to the young man, as the last, grieving, honour,\nhe puts on, and the hair about to burn veils with the covering,""",
+ """One of these he put on the young man, sorrowfully, as a last honour, and with the other he veiled the hair that was soon to burn,""",
+ """'Harum unam', 'one of these (robes)'. 'iuveni… induit', 'puts (it) on the young man', 'induo' with the dative of the person. 'supremum… honorem', 'as a last honour', in apposition to the act. 'maestus', nominative, Aeneas, 'grieving'. 'arsuras… comas', 'the hair that will burn', the future participle looking ahead to the pyre at Pallanteum. 'obnubit', 'veils', covers the head. 'amictu', 'with the cloak', probably the second of the pair. A gift of Dido's goes into the fire with Pallas: Virgil gives no comment, and lets the reader remember. Elision 'Har(um) unam'."""),
+(79, 'duci.',
+ """and many besides of the Laurentine prizes of the battle\nhe heaps up, and in long the booty orders in file to be led.""",
+ """and besides he heaped up many prizes won in the battle with the Laurentines, and ordered the plunder to be led along in a long procession.""",
+ """'multaque… praemia', 'and many prizes', spoils won from the enemy. 'praeterea', 'besides'. 'Laurentis… pugnae', 'of the Laurentine battle', genitive singular: the fighting against the Latins, whose king rules at Laurentum. 'aggerat', 'heaps up', from 'agger', 'a mound'. 'longo… ordine', 'in a long line', ablative of manner, framing 'praedam iubet'. 'duci', present passive infinitive of 'duco', 'to be led'; the procession of spoils is the Roman triumph again, given to the dead. No elisions."""),
+(80, 'hostem.',
+ """He adds horses and weapons, of which he had stripped the enemy.""",
+ """He added horses and weapons that he had taken from the enemy.""",
+ """'Addit', 'he adds' (to the procession). 'equos et tela', 'horses and weapons'. 'quibus', ablative of separation with 'spoliaverat', 'had stripped (the enemy) of': 'spolio' takes the person stripped in the accusative and the thing taken in the ablative. 'hostem', 'the enemy', singular for the whole enemy army. The pluperfect looks back to the fighting of Book X. No elisions."""),
+(82, 'flammas,',
+ """He had bound also behind the backs the hands of those whom he would send to the shades\nas offerings to the dead, with slaughtered about to sprinkle blood the flames,""",
+ """He had also tied behind their backs the hands of the men he meant to send to the shades as offerings for the dead, to sprinkle the flames of the pyre with their blood,""",
+ """'Vinxerat', pluperfect of 'vincio', 'had bound'. 'quos mitteret', 'whom he would send', a relative clause of purpose; the antecedent ('eorum', 'of those') is left out. 'umbris', dative, 'to the shades', the dead. 'inferias', 'offerings to the dead', in apposition to 'quos'. 'caeso… sanguine', 'with slain blood', the blood of the slain men. 'sparsuros', future participle, 'about to sprinkle'; the Latin Library reads 'sparsurus', which would make Aeneas the one who sprinkles. In Book X Aeneas took eight young men alive for this (X.517–520), as Achilles killed twelve Trojans at Patroclus's pyre (Iliad 23.175–176). Virgil states it and does not describe it. No elisions."""),
+(84, 'figi.',
+ """and dressed tree-trunks in hostile arms he orders\nthemselves to carry, the leaders, and the enemy names to be fixed on.""",
+ """and he ordered the leaders themselves to carry tree-trunks dressed in the enemy's armour, with the names of the enemy fixed on them.""",
+ """More trophies, like the one in 5–11. 'indutos… truncos hostilibus armis', 'trunks clothed in hostile arms', 'induo' with the ablative of what is put on; the words frame the line. 'iubet… ipsos ferre duces', 'orders the leaders themselves to carry', an honour to the dead. 'inimicaque nomina figi', 'and the hostile names to be fixed on', the present passive infinitive: each trophy is labelled with the name of the enemy whose armour it carries. 'inimicus' is a personal enemy, 'hostis' (in 'hostilibus') a public one; here the two are near in sense. No elisions."""),
+(85, 'Acoetes:',
+ """Is led, unhappy, by age worn out, Acoetes:""",
+ """Unhappy Acoetes, worn out with age, was led along:""",
+ """'Ducitur', 'is led', put first; the old man cannot walk by himself and is supported. 'infelix', 'unhappy'. 'aevo confectus', 'finished (worn out) by age', ablative of cause. Acoetes, Evander's old armour-bearer and Pallas's companion (30–33), goes with the body he guarded. The colon introduces what he does. No elisions."""),
+(87, 'terrae.~.~.',
+ """his breasts now befouling with fists, now with nails his face,\nhe is thrown down, and with all flung forward his body on the ground.""",
+ """now battering his breast with his fists, now tearing his face with his nails, he flung himself down and lay stretched full length on the ground.""",
+ """The print has 'terrae.~.~.', a misprint for 'terrae.', corrected here: the marks after the full stop are not Latin, and the line is complete in sense and metre; the owner may know what they stand for. 'pectora… foedans pugnis, nunc unguibus ora', 'disfiguring his breast with his fists, his face with his nails', the gestures of violent mourning, in a chiasmus (object, means; means, object). 'sternitur', passive used as a middle, 'throws himself down'. 'toto… corpore', 'with his whole body', at full length. 'terrae', 'on the ground', dative after 'proiectus'. No elisions."""),
+(88, 'currus.',
+ """They lead also, with Rutulian soaked blood, the chariots.""",
+ """They led the chariots too, drenched in Rutulian blood.""",
+ """'Ducunt et', 'they lead also', 'et' meaning 'also'. 'Rutulo… sanguine', 'with Rutulian blood', the blood of Turnus's people, the Rutuli, framing the line round 'perfusos', 'soaked'. 'currus', 'chariots', accusative plural, taken from the enemy and now part of the procession of spoils. No elisions."""),
+(90, 'ora.',
+ """Behind, the warrior horse, laid aside his trappings, Aethon,\ngoes weeping, and with drops wets large his face.""",
+ """Behind came Pallas's war-horse, Aethon, stripped of his trappings, weeping and wetting his face with great tears.""",
+ """'Post', adverb, 'behind'. 'bellator', 'warrior', a noun used as an adjective with 'equus'. 'positis insignibus', ablative absolute, 'his decorations having been put off', a sign of mourning. 'Aethon', a Greek name, 'blazing', borne by one of Hector's horses in the Iliad (8.185). 'it lacrimans', 'goes weeping': the horses of Achilles weep for Patroclus in the Iliad (17.426–440), and Virgil gives the dead boy's horse the same grief. 'guttis… grandibus', 'with large drops', framing 'umectat', 'wets'. 'ora', 'face', poetic plural. Elision 'guttisqu(e) umectat'."""),
+(92, 'habet.',
+ """The spear others and the helmet carry, for the rest Turnus\nas victor holds.""",
+ """Others carried his spear and helmet; the rest Turnus held as victor.""",
+ """'Hastam… galeamque', 'the spear and helmet', Pallas's own. 'alii', 'others', nominative. 'nam cetera Turnus / victor habet', 'for Turnus, the victor, has the rest': Turnus stripped Pallas's sword-belt and wears it (X.495–500), and the poem will come back to it at the very end (XII.940–952). 'victor', in apposition, 'as victor', held over the line-end with weight. Elision 'Hast(am) alii'."""),
+(93, 'armis.',
+ """Then the grieving phalanx, and the Teucrians follow,\nand the Tyrrhenians all, and with reversed the Arcadians arms.""",
+ """Then the mourning column followed, the Trojans, all the Etruscans, and the Arcadians with their weapons reversed.""",
+ """'maesta phalanx', 'the mourning column', the Greek word for a body of troops. 'Teucrique… Tyrrhenique… et… Arcades', 'Trojans and Etruscans and Arcadians', the three peoples of Aeneas's army, each joined by its own connective (polysyndeton). 'Teucri', from Teucer, an early king of Troy. 'Tyrrheni', Etruscans, the allies Evander found for Aeneas. 'versis… armis', ablative absolute framing 'Arcades', 'with arms turned upside down', the soldiers' sign of mourning; the Arcadians are Pallas's own people. Elision 'Tyrrheniqu(e) omnes'."""),
+(95, 'alto:',
+ """After the whole far ahead of the comrades had gone on, the file,\nstood still Aeneas, and with a groan these things added, deep:""",
+ """When the whole line of his comrades had gone on far ahead, Aeneas stopped, and with a deep groan added these words:""",
+ """'Postquam… praecesserat', 'after (the line) had gone ahead', 'postquam' here with the pluperfect, less usual than the perfect, stressing that it was well ahead. 'omnis… ordo', 'the whole file', 'omnis' nominative singular. 'comitum', genitive plural, 'of the companions'. 'longe', 'far'. 'substitit', 'stopped', perfect of 'subsisto'. 'gemitu… alto', 'with a deep groan', framing 'haec addidit', 'added these (words)', with the verb of speaking itself in place of the usual ellipsis. Elisions 'Postqu(am) omnis', 'gemituqu(e) haec'."""),
+(97, 'vocant:',
+ """“Us to other from here tears the same, grim, of war\nfates call:""",
+ """“The same grim fate of war calls us away from here to other tears:""",
+ """Aeneas's short farewell, which runs to 98. 'Nos', 'us', emphatic first: he cannot stay. 'alias… ad lacrimas', 'to other tears', the further deaths still to come in the war. 'hinc', 'from here'. 'eadem horrida belli / fata', 'the same dreadful fates of war', the plural 'fata' with 'vocant'; the same fate that took Pallas waits for others. 'horrida', 'bristling, grim'. Elision 'ead(em) horrida'."""),
+(98, 'vale.',
+ """hail for ever for me, greatest Pallas,\nand for ever farewell.”""",
+ """greatest Pallas, I greet you for all time, and for all time I say goodbye.”""",
+ """'salve… vale', the two Roman words of greeting and of parting, 'be well' and 'fare well', both said to the dead at the end of a funeral; Catullus closes his poem at his brother's grave with a like greeting and farewell, 'ave atque vale' (101.10). 'aeternum', 'for ever', the neuter accusative used as an adverb, repeated with '-que'. 'mihi', 'for me', an ethic dative, 'from me'. 'maxime Palla', vocative; 'Palla' is the Greek vocative of 'Pallas'. The closing speech mark is printed joined to the next word; see the next unit. Elision 'salv(e) aeternum'."""),
+(99, 'ferebat.',
+ """Nor more having spoken, to the high\nhe was making for walls, and his step into the camp was bearing.""",
+ """Saying no more, he set off for the high walls and made his way back into the camp.""",
+ """The print has 'vale. ”Nec', with the closing speech mark joined to the next word, a misprint for 'vale.” Nec', corrected here: the speech ends with 'vale'. 'Nec plura effatus', 'and having spoken no more', 'effatus' perfect participle of the deponent 'effor'. 'tendebat', 'was making his way', the imperfect of a movement under way. 'ad altos… muros', 'to the high walls', the Trojan camp, framing the line-end. 'gressum… ferebat', 'bore his step', went. The procession goes on to Pallanteum without him; the war calls him back. Elisions 'plur(a) effatus', 'gressumqu(e) in'."""),
+]
+
+# Speech-mark exemptions for the l/i mark check (t is as printed; l/i carry the corrected marks):
+PAIRS = {97: 98}          # unit ln 97 closes the speech in l/i; unit ln 98 carries the stray ” in t
+OTHER = {24, 42}          # 24: misprinted “ (rule 5b); 42: inquit inside the speech, marks added in l/i
+P = A.part('aeneid-082'); L = A.lines_of(P); paras = {l['n'] for l in L if l['p']}
+cuts = A.cut(P, [(u[0], u[1]) for u in U])
+EXEMPT = set(PAIRS) | set(PAIRS.values()) | OTHER
+sents = []; prev_end_line = None
+for (t, ln), (_, _t, l, i, n) in zip(cuts, U):
+    u = {'t': t, 'l': l, 'i': i, 'n': n}
+    if prev_end_line != ln and ln in paras: u['p'] = True
+    u['v'] = True; u['ln'] = ln; sents.append(u)
+    prev_end_line = ln + t.count('\n')
+    if t.count('\n') != l.count('\n'): print('LINE COUNT', ln, repr(t[:30]), t.count('\n'), l.count('\n'))
+    if t.count('\n') > 4: print('TOO LONG', ln)
+    if '\n' in i: print('NEWLINE IN i', ln)
+    if t.rstrip('”]')[-1] not in A.TERMINAL + ',': print('ENDING', ln, repr(t[-12:]))
+    nw = len(n.split())
+    if nw > 139 or nw < 15: print('NOTE LENGTH', ln, nw)
+    for mk in '“”[]':
+        if t.count(mk) != l.count(mk) and ln not in EXEMPT: print('MARK l', ln, mk)
+        if mk in '“”' and t.count(mk) != i.count(mk) and ln not in EXEMPT: print('MARK i', ln, mk)
+covered = sorted({ln + k for (t, ln) in cuts for k in range(t.count('\n') + 1)})
+if covered != [l['n'] for l in L]: print('COVERAGE', covered)
+A.jdump({'title': TITLE, 'titleEn': TITLE_EN, 'part': PART, 'about': ABOUT, 'sentences': sents}, os.path.join(HERE, 'units.json'))
+print(len(sents), 'units;', len(covered), 'lines covered')

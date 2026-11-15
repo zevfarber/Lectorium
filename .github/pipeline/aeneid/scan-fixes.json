@@ -10960,5 +10960,193 @@
    "6al–to×"
   ],
   "why": "Aenēās: Ae- is one long syllable (diphthong), and -nē- is long, -ās long: sub-stĭ-tĭt | Ae-nē | ās gĕ-mĭ | tū-qu(e) haec | ad-dĭ-dĭt | al-to (15 syllables), gemitū ablative, its -que elided before haec. The scanner (cost 1.2, not flagged) split the initial Ae into A-e."
+ },
+ "11.100": {
+  "sc": [
+   "1Iam–que",
+   "o–2ra–to–3res–‖",
+   "a⏑de⏑4rant–",
+   "ex–",
+   "5ur–be⏑",
+   "La⏑6ti–na×"
+  ],
+  "why": "Wrong quantities with the right count (cost 0.0, not flagged): ōrātōrēs has long ō- and -rā- (from ōro), and ădĕrant has short a- and -de- (ad + ĕram): Iam-qu(e) ō | rā-tō | rēs ă-dĕ | rant ex | ur-bĕ Lă | tī-na (14 syllables), Iamque elided into oratores, caesura after oratores. The scanner made o- and -ra- short and a-, -de- long."
+ },
+ "11.106": {
+  "sc": [
+   "1Quos–",
+   "bo⏑nus⏑",
+   "2Ae–ne–3as–‖",
+   "haud–",
+   "4as–per–5nan–da⏑",
+   "pre⏑6can–tis×"
+  ],
+  "why": "Aenēās: Ae- is one long syllable (diphthong), and -nē- is long, -ās long: Quōs bŏ-nŭs | Ae-nē | ās haud | as-per | nan-dă prĕ | can-tis (14 syllables). The scanner (cost 1.2, not flagged) split the initial Ae into A-e."
+ },
+ "11.111": {
+  "sc": [
+   "1o–ra–2tis–",
+   "E⏑qui⏑dem",
+   "3et–",
+   "vi–4vis–‖",
+   "con–5ce–de⏑re⏑",
+   "6vel–lem×"
+  ],
+  "why": "Wrong quantities with the right count (cost 0.0, not flagged): ōrātĭs has long ō- and -rā-, and ĕquĭdem short e- and -qui-, so the only fit lengthens -tis in the arsis of the second foot at the sense pause after the question (as se at 1.314, erat at 7.174): ō-rā | tīs ĕ-quĭ | d(em) et vī | vīs con | cē-dĕ-rĕ | vel-lem (14 syllables), equidem elided into et. The scanner made -ra- and -tis short and E-, -qui- long."
+ },
+ "11.115": {
+  "sc": [
+   "1Ae–qui⏑us⏑",
+   "2huic–",
+   "Tur–3num–‖",
+   "fu⏑e⏑4rat–",
+   "se",
+   "op–5po–ne⏑re⏑",
+   "6mor–ti×"
+  ],
+  "why": "Wrong syllable division (cost 0.0, not flagged): Aequius is Ae-quĭ-ŭs, initial Ae- one long syllable and qu a single consonant, and huic is one syllable: Ae-quĭ-ŭs | huic Tur | num fŭ-ĕ | rat s(e) op | pō-nĕ-rĕ | mor-ti (15 syllables), se elided into opponere, caesura after Turnum. The scanner divided Aequ-ius and hu-ic; the quantities happen to come out the same, but the syllables (and the audio) were wrong."
+ },
+ "11.116": {
+  "sc": [
+   "1Si–",
+   "bel–2lum–",
+   "fi–3ni–re⏑‖",
+   "ma⏑4nu–",
+   "si–",
+   "5pel–le⏑re⏑",
+   "6Teu–cros×"
+  ],
+  "why": "Teu- is the Greek diphthong eu, one long syllable (as Teucri at 3.601 and 11.92): Sī bel | lum fī | nī-rĕ mă | nū sī | pel-lĕ-rĕ | Teu-cros (14 syllables), caesura after finire. The scanner (cost 1.4, not flagged) split Teu- into Te-u and counted 15 syllables."
+ },
+ "11.120": {
+  "sc": [
+   "1Di–xe⏑rat⏑",
+   "2Ae–ne–3as–‖",
+   "Il–li",
+   "4ob–sti⏑pu⏑5e–re⏑",
+   "si⏑6len–tes×"
+  ],
+  "why": "Aenēās: Ae- is one long syllable (diphthong), and -nē- is long, -ās long: Dī-xĕ-răt | Ae-nē | ās Il | l(i) ob-stĭ-pŭ | ē-rĕ sĭ | len-tes (15 syllables), illi elided into obstipuere. The scanner (cost 1.2, not flagged) split the initial Ae into A-e."
+ },
+ "11.134": {
+  "sc": [
+   "1per–",
+   "sil–2vas–",
+   "Teu–3cri–‖",
+   "mix–4ti–que",
+   "in–5pu–ne⏑",
+   "La⏑6ti–ni×"
+  ],
+  "why": "Teu- is the Greek diphthong eu, one long syllable (as Teucri at 3.601 and 11.92): per sil | vās Teu | crī mix | tī-qu(e) in | pū-nĕ Lă | tī-ni (13 syllables, four spondees and a dactyl in the fifth foot), -que elided into inpune, caesura after Teucri. The scanner (cost 0.0, not flagged) split Teu- into Te-u and counted 14 syllables."
+ },
+ "11.148": {
+  "sc": [
+   "1At–",
+   "non–",
+   "2E–van–3drum–",
+   "po⏑tis⏑",
+   "4est–‖",
+   "vis–",
+   "5ul–la⏑",
+   "te⏑6ne–re×"
+  ],
+  "why": "Wrong quantities with the right count (cost 0.0, not flagged), as 11.55: nōn is long and Ēvandrum has long Ē- (Greek eu): At nōn | Ē-van | drum pŏ-tĭs | est vīs | ul-lă tĕ | nē-re (14 syllables), caesura after est. The scanner made non and E- short and po- long."
+ },
+ "11.161": {
+  "sc": [
+   "1re–sta–rem",
+   "2ut–",
+   "ge⏑ni⏑3tor–‖",
+   "Tro–4um–",
+   "so⏑ci⏑a",
+   "5ar–ma⏑",
+   "se⏑6cu–tum×"
+  ],
+  "why": "Troum is two syllables, Trō-um (genitive plural of Tros), its -um long by position before socia; genitor has short ge- and -ni-: rē-stā | r(em) ut gĕ-nĭ | tor Trō | um sŏ-cĭ | (a) ar-mă sĕ | cū-tum (15 syllables), restarem elided into ut and socia into arma, caesura after genitor. The scanner (cost 1.5, not flagged) made Troum one syllable and ge-, -ni- long (14 syllables)."
+ },
+ "11.162": {
+  "sc": [
+   "1ob–ru⏑e⏑2rent–",
+   "Ru⏑tu⏑3li–‖",
+   "te–4lis–",
+   "A⏑ni⏑mam",
+   "5ip–se⏑",
+   "de⏑6dis–sem×"
+  ],
+  "why": "Wrong quantities with the right count (cost 0.0, not flagged): tēlīs has long tē- and -īs, and ănĭmam short a- and -ni-: ob-rŭ-ĕ | rent Rŭ-tŭ | lī tē | līs ă-nĭ | m(am) ip-sĕ dĕ | dis-sem (16 syllables), animam elided into ipse, caesura after Rutuli. The scanner made te- and -lis short and A-, -ni- long."
+ },
+ "11.164": {
+  "sc": [
+   "1nec–",
+   "vos–",
+   "2ar–gu⏑e⏑3rim–‖",
+   "Teu–4cri–",
+   "nec–",
+   "5foe–de⏑ra⏑",
+   "6nec–",
+   "quas×"
+  ],
+  "why": "Teu- is the Greek diphthong eu, one long syllable (as Teucri at 3.601 and 11.92): nec vōs | ar-gŭ-ĕ | rim Teu | crī nec | foe-dĕ-ră | nec quās (14 syllables), caesura after arguerim. The scanner (cost 0.0, not flagged) split Teu- into Te-u and counted 15 syllables."
+ },
+ "11.168": {
+  "sc": [
+   "1du–cen–tem",
+   "2in–",
+   "La⏑ti⏑3um–‖",
+   "Teu–4cros–",
+   "ce⏑ci⏑5dis–se⏑",
+   "iu⏑6va–bit×"
+  ],
+  "why": "Teu- is the Greek diphthong eu, one long syllable (as Teucri at 3.601 and 11.92): dū-cen | t(em) in Lă-tĭ | um Teu | crōs cĕ-cĭ | dis-sĕ iŭ | vā-bit (15 syllables), ducentem elided into in, caesura after Latium. The scanner (cost 0.0, not flagged) split Teu- into Te-u and counted 16 syllables."
+ },
+ "11.170": {
+  "sc": [
+   "1quam–",
+   "pi⏑us⏑",
+   "2Ae–ne–3as–‖",
+   "et–",
+   "4quam–",
+   "mag–5ni–",
+   "Phry⏑ges⏑",
+   "6et–",
+   "quam×"
+  ],
+  "why": "Bracketed line. Flagged COSTLY 2.2. Aenēās: Ae- is one long syllable (diphthong), and -nē- is long, -ās long; Phrўgĕs has two short syllables (Greek nominative plural): quam pĭ-ŭs | Ae-nē | ās et | quam mag | nī Phrў-gĕs | et quam (14 syllables), caesura after Aeneas. The scanner split the initial Ae into A-e and counted 15 syllables."
+ },
+ "11.175": {
+  "sc": [
+   "1Tur–ne⏑",
+   "Sed⏑",
+   "2in–fe–3lix–‖",
+   "Teu–4cros–",
+   "quid–",
+   "5de–mo⏑ror⏑",
+   "6ar–mis×"
+  ],
+  "why": "Teu- is the Greek diphthong eu, one long syllable (as Teucri at 3.601 and 11.92); quid is long by position before demoror: Tur-nĕ sĕd | in-fē | līx Teu | crōs quid | dē-mŏ-rŏr | ar-mis (14 syllables), caesura after infelix. The scanner (cost 0.0, not flagged) split Teu- into Te-u and counted 15 syllables."
+ },
+ "11.184": {
+  "sc": [
+   "1iam–",
+   "pa⏑ter⏑",
+   "2Ae–ne–3as–‖",
+   "iam–",
+   "4cur–vo",
+   "in–",
+   "5li–to⏑re⏑",
+   "6Tar–chon×"
+  ],
+  "why": "Aenēās: Ae- is one long syllable (diphthong), and -nē- is long, -ās long: iam pă-tĕr | Ae-nē | ās iam | cur-v(o) in | lī-tŏ-rĕ | Tar-chon (14 syllables), curvo elided into in. The scanner (cost 1.2, not flagged) split the initial Ae into A-e."
+ },
+ "11.186": {
+  "sc": [
+   "1mo–re⏑",
+   "tu⏑2le–re⏑",
+   "pa⏑3trum–‖",
+   "sub–4iec–tis–que",
+   "5ig–ni⏑bus⏑",
+   "6a–tris×"
+  ],
+  "why": "Consonantal i after the prefix: subiectis is sub-iec-tis, three syllables, sub- long by position before the consonant i: mō-rĕ tŭ | lē-rĕ pă | trum sub | iec-tīs | qu(e) ig-nĭ-bŭs | ā-tris (15 syllables), -que elided into ignibus, caesura after patrum. The scanner (cost 0.0, not flagged) read su-bi-ec-tis with a vowel i and counted 16 syllables."
  }
 }

@@ -1383,3 +1383,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Also kept as printed, for the publishing runs: P585L06 ذبحنك (one dot; sense ذبحتك); P591L02 ثيأ (three dots; for شيأ); P591L04 با (one dot below; for يا); P590L16 خطيئها (sense خطيئتها; both passes agree); run-together ومااسم, نورالهدى, مافعلت, لاصغيرة; P588L03 وَاٰخِرُ with a dagger alif.
 - The running header on PDF 613 prints ٤٩١ for ٥٩١ (printer's error; headers are not transcribed, the archive is unaffected).
 - Nights 118, 119 and 120 are now complete and unpublished; the next three firings should publish them.
+
+## Night 118 (published 2026-11-15)
+- Corrected misprint in emend.json: P585L06 ذبحنك→ذبحتك (“she will slaughter you”). Kept as printed and explained in the notes: P587L01 مسّرة (shadda printed on the sīn; read masarra, mark kept, as for P508L14); verse P587L02 لَمْ اَخْلُ … الْكَأْسُ (printed vowels do not construe; sense lam ukhli … al-kaʾsa, translated so); verse P586L13 قَلْبُكَ (masculine “your”, kept); اَهْنَى for ahnaʾ; غطاوها (spoken form of غطاءها); مضي, طولى, يدى (read yadī), شياً, وجدتّها (wajattuhā); run-together ومازلت, لمارات, لاتنس. The archive was not changed.
+- The night contains a frank love scene between ʿAzīz and the lady (P586L16–P587L03); it is translated in full, as the conventions require. No passage omitted.
+- Library label: `Night 118 · The Lover and the Beloved, continued`. Nothing to decide.
+- Next: nights 119 and 120 are complete and unpublished; the next two firings should publish them.

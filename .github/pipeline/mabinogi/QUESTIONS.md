@@ -58,3 +58,9 @@ the drafter's note to say it is *march* soft-mutated, spelt with the w-letter. T
 - Unit 9 "a chanys gwnn" (col. 76): the Red Book has *a chanys nys gwnn*; the White Book may have lost a *nys*. Decided meanwhile: nothing supplied; *chanys* read as *kan* + *nys* 'since … not … it' (as *Kanys* at 55 and 57, where the Red Book writes *Kan nys*), the note gives the Red Book.
 - Uncertain words rendered from context and flagged: *ymodi* ('handle', RB *teimlaw*), *rwtter* ('train'), *doethwyf*, *yr lygryssit*, *kywein gueir* ('carting hay'), *yrd porth* ('gate-hammers'), *Mynord* ('neck-hammer'?; RB *mynoad*), *anwymp*.
 - The known glossary entry *ansyberwyt* (from an earlier part) gives the modern form "anseberwydd"; the reviewer suggests checking it against GPC (another part's entry; not changed here).
+
+## 2026-11-15 · mabinogi-013 · small open points (draft)
+- The published glossary uses both *klywet* and *clybot* as the lemma of the same verb (entries from earlier parts). Not changed here; the owner may want one lemma.
+- The earlier entry *delediwhaf* says "(no modern form)" where this part's entries say "(obsolete)". Not changed.
+- Uncertain readings rendered from context and flagged in the notes: *hof* (read as hoff 'pleasing'), *ossymdeithawc* (RB *ossymdeithaw*), *llyw* read as *lliw* 'colour' (RB lliw), *handid*/*henbydy* (hanbot), *yn luttaf*, *morwyal* (which seaweed), *brithaw* of leather. *eneit* at unit 124 rendered 'life' (011 has it only as the vocative 'soul, friend').
+- New name forms chosen: Dinas Dinlle (text *Dinllef*), Bryn Arien (*Brynn Aryen*), Dunoding (*Dinodig*), Cefn Clydno, Mur Castell, Aber Menai, Eifionydd, Morgannwg. The owner may rule otherwise.

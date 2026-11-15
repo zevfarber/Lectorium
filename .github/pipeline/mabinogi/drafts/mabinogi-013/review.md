@@ -97,3 +97,158 @@ Counts: 1 major, 22 minor, 12 style, counted per unit (16/54, 72/76/89 and 12/12
   Eifionydd, Mur Castell): the modern Welsh forms are right, and the notes say how the manuscript spellings differ
   (Llew/Lleu, Blodeued, Dinllef, Menei, Aryen, Clutno, Dinodig, Eiwynyd). Kept. The l of 65 keeps the name's
   meaning 'Lleu Hand Steady' at the naming. Kept.
+
+## Pass 2 (2026-11-15)
+
+Glossary check. I checked every one of the 154 new entries and 49 broadenings in `gloss.json` against the text,
+the reviewed `units.json`, `known-forms.json` and the Red Book. For each entry I checked the lemma (the Middle Welsh
+dictionary form), whether the bracketed modern form is a real word (else "obsolete"), the meaning as used here,
+the grammar label, and the mutation and its cause. A script confirmed that every broadening begins with the old
+entry copied whole and exactly. I also read all 422 known entries for uses in this part that they do not cover.
+Every key of `novel-forms.json` is still present (asserted). Edits were made by script; the `units.json` `t` fields
+and count are unchanged (asserted). Where a note and the glossary disagreed, I decided which was right and fixed
+both. Two pass-1 calls turned out wrong and are corrected here (units 71 and 112).
+
+### Changes
+
+Major
+- unit 71 · l, i, n · major · bryt is pryt 'form' softened after y 'his'. The glossary already has dy bryt
+  'your looks' (pryt > bryt), which proves this. The draft's reading (y = eu 'their', bryt unsoftened) was wrong,
+  and so was my pass-1 hedge · l 'into his form own', i "released the boy into his own form", note rewritten.
+  Glossary: bryt broadened.
+- unit 112 · n · major · yn gwbyl is not "unsoftened": the base is cwbyl (cwbl), and the glossary's gwbyl entry
+  says so. The g is the regular softening after adverbial yn. The drafter's flag was right and my pass-1 note was
+  wrong · note corrected (also says that ll in yn llawen does not soften). Glossary: gwbyl broadened; unit 75 note
+  now names gwbyl as softened after oed.
+- wely (known) · major · missed broadening: the existing entry is only gwelet 'you will see', but here yn y wely
+  is gwely 'bed' after y 'his' · broadened.
+- hegyr · major · it was glossed as "present or impersonal" with a "prothetic h, not a mutation". It is egyr,
+  3 sg. present of agori, and the h- marks the infixed pronoun 'her, it' (the chest), as the note says · rewritten.
+- lit · major · it was called "radical after the article y". It is llit softened after y 'his' · rewritten.
+- lunyaf · major · it was called "ll unmutated after ny (ny mutates only c, p, t, g)". The form is lunyaf,
+  softened, and ny does soften ll · corrected.
+- uedrut · major · it was labelled "2 sg. preterite". -ut is the 2 sg. imperfect, as the note says · corrected.
+- adnepit · major · it was labelled "impersonal present subjunctive". -it is the impersonal imperfect · corrected.
+- henbydy · major · the lemma "henbydu" is invented. The form is hanbot (hanfod), 2 sg. present-future, as the
+  note says · rewritten.
+- handid · major · it was glossed as a "particle/preposition 'in spite of'". It is hanbot, 3 sg. present
+  subjunctive, as the note says · rewritten.
+- aniolwch · major · it was glossed as "meaning uncertain; perhaps an diolwch 'our thanks'". It is an- +
+  diolwch, 'unthanks', as the note says · rewritten.
+- diodwn · major · the entry had no lemma ("meaning uncertain … perhaps diosg"). It is diodi (di- + dodi), as
+  the note says · rewritten.
+- gweirwyt · major · the lemma "gweiraw (gweirio)" is invented, and the entry claimed the g was "kept where soft
+  mutation would drop it". It is gyweirwyt (kyweiraw) with the y not written, softened after a; the Red Book has
+  a gyweirwyt · rewritten.
+- gyniweir · major · it was given as "geniweir (geniwair)", radical. The word is kyniweir (cyniwair), softened as
+  the subject after oed, as the note says, and geniwair is not a word · rewritten.
+- llyw · major · it was glossed 'helm … sense uncertain'. The note reads it as lliw 'colour', the Red Book has
+  lliw, and the image confirms the letters · rewritten.
+- arganuot (broadening) · major · it read y arganuot as 'their' "with the h- absent". With no h-, y is 'his', as
+  the note says; the Red Book has eu harganuot · rewritten. Unit 33 note: Red Book reading added.
+
+Minor
+- diwarnawt, diwyrnawt · lemma "diwarnawd" mixed spellings · "diwarnawt (diwrnod)".
+- kyny · "cynnid" is not a word; "kyt + ny" should be kyn + ny · "(obsolete; cf. cyn na)", kyn + ny.
+- guascaru · "radical where y 'his' would soften" left y unresolved · now says y is 'her, it' or 'their'.
+- ymgeneuinawd · "(obsolete)", "meaning uncertain" · it is ymgyneuinaw (ymgynefino), a real word with a clear
+  sense.
+- hof · the second example was mistranslated ('pleasing to the boy') · 'it would have pleased a boy of eight'.
+  Red Book hoff added.
+- synnywys · lemma given as synnu · synnyaw (synnu), matching the note.
+- gadw · the entry had 'keeping him'; the note has 'its' (the shame) · 'keeping it up', of her shame.
+- dynghaf, dyghaf · lemma "tynghu" · tyngu.
+- dyghet, dynghet · gender m. · f. (tynged is feminine).
+- direit · "(direidd)" is not a word · (diriaid).
+- direidwreic · "(direidwraig)" is not a word; "the compound is unmutated" was wrong · (obsolete); gwreic is
+  softened inside the compound.
+- auar · it was glossed as the adjective 'woeful'; the note has the noun 'grief' · noun 'grief, sorrow'.
+- guelas · the example was glossed 'at once he saw'; the note has 'in the place where he saw' · aligned with the
+  note.
+- delysc · "dilusg" is invented · delysc (delysg, dylysg).
+- morwyal · "morwial (morwial, rare)" was unverified · (obsolete), sense hedged.
+- heilyw, eilyw · "(obsolete) form, appearance" · eiliw is the real modern word; 'colour, hue, looks', as the
+  note has it.
+- esgidyeu · the example was given in the wrong word order · llunyaw esgidyeu.
+- ormod · "adverbial yn" · predicative yn.
+- uedru, medrwys · the examples were mistranslated ('hit him', 'he hit him, the Lleu') · 'hitting it'; 'with a
+  steady hand the fair one hit it'.
+- gyffes; llaw (broadening) · 'deft' differed from the units' 'steady' · 'steady' (with 'sure, deft' as alternatives).
+- lleu · it was made a personal name. Here y Lleu is the adjective used as a noun, 'the fair one', which gives the
+  name · rewritten.
+- ellyngwys · "a for o by vowel affection, g lost by soft mutation" was wrong (yd does not soften) · rewritten.
+- prudach · the meaning 'more mature' differed from the note · 'graver'. The unsoftened p after predicative yn is
+  now stated in the glossary and in the unit 82 note (Red Book the same).
+- leuenyd · "llywenydd" is invented · llewenyd (llawenydd).
+- gynghan · it was glossed 'round about'; the note has 'in concert' · aligned with the note, (obsolete).
+- torr · "(torr)" · (tor); the example's gloss aligned with the note.
+- gwryanc · "(gŵr ieuanc)" is a phrase, not a form · (gwreang).
+- luttaf · it was glossed 'grievous, bitter'; the note has 'eager, vehement'. "(no modern form)" · aligned,
+  (obsolete).
+- asswynaw · "aswyno" is unverified · asswynaw (obsolete), 'invoke; here conjure up'.
+- ossymdeithawc · it was glossed via "ymdeithawc 'travelling'", against the note · adjective in -awc,
+  perhaps on ossymdeith 'provision', as the note has it. Unit 133 note gained the same hedge.
+- blodeued · "(Blodeuwedd)" with an outside etymology · (Blodeuedd), the house form.
+- dinodig · "(Dinodig)" · (Dunoding), the house form.
+- clutno · "(Clutno)" · (Clydno), the house form.
+- Broadenings removed:
+  - kigleu: the old entry already covered it.
+  - byd: it mislabelled Ony byd as a subjunctive, and the old entry already covers it.
+  - wnawn: the slip is in the pronoun, not the verb, so it moved to i.
+- Broadenings corrected:
+  - lle: the second half added nothing.
+  - ureisket: the gloss is aligned with unit 7.
+  - beth: now the a beth idiom of 001.
+  - elwir: the cause is the infixed 'th, not na.
+  - troet: troet is not nasal-mutated; the nasal is written only on uyn.
+  - wneuthur: the cause is aligned with the note.
+  - lawer: softened as an adverb, not after llei.
+  - geuyn: y is the preposition, not the article.
+  - derw: the sense 'has ended' added.
+- Missed broadenings added:
+  - ef: the empty subject 'it' and 'it' the wren.
+  - e: the vocative E porthawr.
+  - inheu: = ninheu.
+  - i: = ni in wnawn i.
+  - hwyl: 'sail'.
+  - ledyr: softened after ryw.
+  - wiscaw: subject after derw.
+  - gauas: after neur.
+  - dywetpwyt: after a.
+  - degach: lledyr degach.
+- Unit 4 · n · y dref is the article with the object of kyrchu (l already 'the town'), not y 'to' · corrected.
+- Unit 19 · n · doi was "tense uncertain"; the glossary has the imperfect (kystal y doi y gof) · note aligned,
+  with the hedge kept.
+
+Style
+- rwyuaw: lemma rhwyfo → rwyuaw (rhwyfo).
+- ureicheu: gender m./f.
+- brithaw, gwniaw: eu glossed 'them' → 'their'.
+- cryd: lemma crydd → cryd (crydd).
+- wimon: "predicative/adverbial yn" → predicative yn.
+- debygy: "(tybio)" → (tebygu).
+- chawn: "future" → present-future.
+- bylgeint, hir (broadening): the gloss is aligned with the units.
+- thelediwaf: "(no modern form)" → (obsolete).
+- erwein: lemma.
+- gyuareisket: Red Book added.
+- eiwynyd, mur, castell, dinllef, dinas: claims from outside the text (Glaslyn, Tomen y Mur, "near Caernarfon",
+  lleu/lleuef) removed; the Red Book's Mur y Castell given.
+
+Counts (pass 2): 16 major, 57 minor, 12 style (counted per bullet; a grouped bullet counts once per entry or unit named).
+
+### Refused
+
+- y harganuot / a'y hanuon read as 'their': right. Both refer to plurals: Gwydion and the boy, then the second
+  pair of shoes (rei ereill). In the next sentence the Red Book has eu harganuot. The y broadening (15) stands.
+- gyuareisket, ymobryn, hof, gyffes, synnywys: the hedges are kept, because the senses are inferred.
+- amgenu "(obsolete; cf. amgen)", kymedroli, ymdan/amdan under am: acceptable. Kept.
+- telediw "(no modern form)" in the existing entry delediwhaf is a published entry and not this pass's to change.
+  Only the new thelediwaf follows the "(obsolete)" rule.
+- dihirwch: the known entry ('wretchedness') and the unit 76 note ('listlessness', with the range stated) are
+  compatible. Kept.
+- Lemma klywet in kigleu against clybot in glywei/glywynt/glywaf: both appear in the published glossary, and the
+  new entries follow the clybot of the nearest existing form (glywei). Kept; the owner may want them unified.
+- uab, gist, kyuuch, wydyon, dwy, gallu, hwnn, pwy, genhyf, am, gan, lann, weith, well, drydyd, gryd, ueirch,
+  allu, welet, gynghor, gwisc, geissaw, allei, eneit, uuost, dylyei, rac, delediwhaf, gyuoeth, lys, wreic, heb, y:
+  each broadening is needed and correct, and copied exactly. Kept.

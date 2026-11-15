@@ -1,3 +1,5 @@
 # Azatiwada — run log (Run 3)
 
 - 2026-10-12 · setup · ACLT docs/96 (Hu.) and docs/176 (Ho.) archived on the runner and parsed word by word (72 and 53 clauses); §1–§21 match the pilot sign for sign (pilot conventions aside). Sign keys for §22–§75 checked against the Unicode proposal N4282 and names list: 113 of 117 labels verified. 3 parts.
+- 2026-11-15 · pilot fix · azatiwada-luwian.json: SUPER+ra/i A270→A070 (§8–10), tu A088→A089 (§20), INFRA A056→A057 (§21), keys, characters and the clause strings; §17 note reworded (not preserved in either copy as ACLT gives them).
+- 2026-11-15 · azatiwada-22-37 published · §22–§37 · 16 units · glossary: 35 new lemmas, 15 broadened · review pass 1: 2 major (§28 missing i; §34 CAPUT val ziti removed, ACLT leaves it open), 16 minor, 2 style; pass 2 (glossary): 5 major (2 missing lemmas, -nza and -i ending entries), 15 minor, 6 style; orchestrator 1 style (§26). Validator PASS with 3 WARN accepted (no val for CAPUT §34, PES₂.PES₂ §35, TERRA+LA+LA §37 — Luwian value not secure). Det tr "" as in the pilot. Glosser ran on Sonnet; drafter and reviewer on the routine's model. §35 house rendering recorded in conventions.md.

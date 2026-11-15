@@ -5,3 +5,8 @@
 - 2026-10-12 · signs · rú (A102, A102A or A103) and ara/i (A133 or A134) are ambiguous; ANIMA and COR have no verifiable sign. Decided meanwhile: A102 and A134; ANIMA and COR shown as ▢ with a note.
 - 2026-10-12 · §17 · Neither ACLT copy has §17 (the pilot's note says it survives in Ho.). Decided meanwhile: the first firing rewords the note. §42, §43, §46 are likewise absent and shipped as gap units.
 - 2026-10-12 · audio · No Luwian voice chosen. Decided meanwhile: parts publish without audio.
+- 2026-11-15 · CAPUT · ACLT writes CAPUT-tt(i)- with the Luwian form open (§34, §60, §61, §73), but the pilot gives CAPUT val ziti (§1, §20). Decided meanwhile: §22–§37 follows ACLT (no val, reading CAPUT-ttis); the pilot is left unchanged until the owner decides.
+- 2026-11-15 · BONUS · The pilot keys BONUS as A320; the sign verification gives BONUS = A165 (used in §24, §36). Not in the setup's list of pilot fixes. Decided meanwhile: pilot left as is; the new part uses A165 as the source has it.
+- 2026-11-15 · §37 warranza · ACLT files it under walilid(a)- "territory"; the pilot's §5 uses warra- "plain". Decided meanwhile: morph carries ACLT's lemma, l/i keep "plain" for consistency with §5, and the note says so.
+- 2026-11-15 · §25 · Hu. spells -ha-há-wa/i, but ACLT transcribes only hattaliha. Decided meanwhile: read hattaliha=ha=wa (cf. §5 latrahha=ha=wa), with a note that this goes beyond the edition's transcription.
+- 2026-11-15 · kwippa · ACLT has kwippa "indeed" (§23, §31…) where the pilot segments kwi=pa "but". Decided meanwhile: two glossary entries, cross-referenced.

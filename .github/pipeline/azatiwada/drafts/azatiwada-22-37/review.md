@@ -46,3 +46,51 @@ Reviewer pass 1, 2026-11-15. All edits were made by script (scratchpad review1.p
 1. CAPUT: the pilot reads CAPUT-ti-(i)-sá as zitis (§1, §20, and conventions.md cites "CAPUT → ziti" as a model val). ACLT reads CAPUT-tt(i)- with the word left open, here and at §60, §61 and §73. This pass followed ACLT for §34. Should the pilot be brought into line, or should ziti be restored here and in later parts?
 2. The kwippa lemma differs between the pilot (kwi=pa "but") and this part (kwippa "indeed"), so the glossary will carry two entries.
 3. The pilot still keys BONUS as A320. sign-verification.json lists this among the pilot's wrong identifications (BONUS = A165), but conventions.md corrects only SUPER, tu and INFRA. This part uses A165 correctly.
+
+## Pass 2
+
+Coordinator decisions, recorded here: (1) CAPUT stays as ACLT has it (no val). The pilot's ziti is left alone, and the question goes to the owner. (2) kwippa gets its own glossary entry, separate from the pilot's kwi=pa. (3) The pilot's BONUS key A320 is not changed this firing and goes to the owner. gloss.json was edited by script (scratchpad review2.py). Dry-run with gloss.json passed into assemble: 0 errors, the same 3 expected no-val warnings (CAPUT, PES₂.PES₂, TERRA+LA+LA). Every morph lemma in units.json now has a glossary entry.
+
+### Changes (gloss.json)
+
+- CAPUT-tt(i)- · new entry · major · The lemma introduced in pass 1 had no entry. · Added: "man, person — written with the head sign CAPUT; the corpus leaves the Luwian word open (§1 and §20 read the sign ziti-)".
+- walilid(a)- · new entry · major · The lemma introduced in pass 1 had no entry. · Added: "territory, open land — the corpus's lemma for TERRA+LA+LA (transcribed warranza); reading and meaning uncertain".
+- kwippa · entry · minor · The entry did not mention the pilot's kwi=pa for the same spelling. · Now "indeed — adverb that opens a clause (the corpus's kwippa; the same spelling kwa/i-pa is written kwi=pa 'but, however' in §11)".
+- tu(wa)-, allant-, hantili-, harwa-, wanatti- · entries · minor · Each called a logogram a "classifier": PONERE, LOCUS, FRONS, VIA and FEMINA are logograms in these words. · Changed to "written with …".
+- asa-, warriyamalla, irhi-, hattal(a)i- · entries · minor · "classified by" was wrong or only half right. SOLIUM.MI and BONUS+RA/I (§37), FINES+HI (§32) and L274 (§25) are logograms in some words and classifiers in others. · Changed to "written with (or classified by) …".
+- zanta · entry · style · Added that INFRA also writes annan.
+- zila · entry · minor · The entry did not mention the form actually written here. · Added "also sounded zira".
+- -una · entry · minor · "'to go'" tied the ending to one line. · Changed to "infinitive ending — 'to …'".
+- -ri · entry · minor · The entry carried a line-specific remark about the sign tara/i. · Changed to "instrumental ending — 'with, by means of'".
+- -nti · entry · style · "the n goes unwritten" was stated as a rule for every occurrence. · Changed to "the n is usually left unwritten".
+- asiya- · entry · style · The wording was garbled ("as 'sit, dwell'"). · Rewritten.
+- Attanawanni- · entry · style · Brought in line with the house place-name form. · Changed to "Adanawan, of Adanawa (Adana)".
+- __broaden__ -nza · major · "accusative ending · dative plural ending; also neuter singular nominative" lumped unrelated endings and mislabelled one of them (the "accusative" -nza is the neuter nom./acc. singular). · Rewritten as two named endings: dative-locative plural, and neuter singular nominative/accusative.
+- __broaden__ -i · major · The entry repeated the dative twice and kept "'upon army'". · Rewritten: "two unrelated endings spelled alike: on nouns, the dative-locative singular; on verbs, the 3rd person singular present".
+- __broaden__ -ya · minor · The draft's "neuter plural … also dative" ran the homonyms together. · Rewritten as two named endings: dative-locative singular, and neuter nominative/accusative plural.
+- __broaden__ -di · minor · The entry joined two line glosses ("'because of'" · "'by which'"). · Rewritten as one case: "ablative-instrumental ending — 'from, because of; by, with'".
+- __broaden__ -ta · minor · The pilot's "(there) were" plus "was" read as a list of lines. · Now "3rd person singular past ending …; a neuter plural subject also takes it ('there were')".
+- __broaden__ -nzi, -nta · minor · They joined pilot and line glosses. · Rewritten as general entries (common-gender plural nom./acc.; 3rd plural past).
+- __broaden__ ibami-, kistami-, harnissa- · minor · Each had a case label ("dative case", "neuter plural accusative") appended to the lemma gloss. Case belongs to the ending, not the lemma. · Removed. Each now reads "written with or classified by …".
+- __broaden__ ammu · minor · The entry kept the pilot's "written with EGO", but here ammu is spelled á-mu, and the dative was given only as a line note. · Rewritten as "I; also the dative 'me' … (spelled á-mu, or with EGO)".
+- __broaden__ =mu, =pa, allummida-, Azzattiwada- · minor · Each was a "pilot · line" join. · Merged into one general reading each. allummida- now gives both the corpus's adjective reading and the noun reading.
+- __broaden__ -n · new · minor · The pilot entry "accusative singular ending — 'whom'" was tied to one line (harwan here). · Changed to "accusative singular ending — marks the object".
+- __broaden__ isnuwa- · new · minor · The pilot entry says "most of this word is restored — the stone is broken here", which is true only of §16. §30 and §31 are intact. · Changed to "seat, settle — 'make sit' (written with or classified by SOLIUM)".
+- __broaden__ hassa- · new · style · Added ACLT's "luxury(?)" next to "satiety(?)", to match the §36 note.
+
+### Considered and refused (pass 2)
+
+- kwi=pa (the pilot glossary): its "but, however" differs from ACLT's kwippa "indeed". It is not used in this part, so a broaden entry would have no effect, and the pilot is left alone this firing. Recorded for the owner, and the new kwippa entry points to it.
+- -ya: the pilot's §19 calls -ya a "dative plural". That was not repeated in the general entry (Luwian's dative plural is -nza), and the pilot itself is left alone.
+- =ada, pad(i)-, aba-, parran, =wa=ada, =wa=di, usa-, abadi, a, kwissant(i)-, ruwan, kwissa-, i-, sitta-, (PES₂.PES₂)da-, sannawizz(a/i)-: checked against the packet and ACLT's labels. They are correct and general, so no change.
+- The pilot entries used unchanged in this part (-s, -ha, -tta, =wa, =ha, =tta, =ada=tta, kwi-, as-, ami(ya)-, halli-, latra-, zin, tawiyan, anta, annan, na, tama-, kwittan, Ahhiyawa-, Ahhiyawanni-, hantawatti-, suri-) are general and fit their uses here.
+- units.json, second full pass: I re-read every unit (l/i, notes, morph glosses, g coverage, roles, vals, nl) and found nothing further to change. The cross-references to §11, §1 and §20 inside two glossary entries were kept deliberately: they explain divergences from the published part.
+
+### Open questions for the owner (carried)
+
+1. CAPUT: the pilot's zitis (§1, §20) differs from ACLT's CAPUT-tt(i)- (§34 here, and §60, §61, §73 later).
+2. kwi=pa (pilot) vs kwippa (ACLT) for the same spelling.
+3. The pilot's BONUS key A320 is not corrected (sign verification gives A165).
+
+## Orchestrator check (after pass 2)
+- §26 · i · style · "had never destroyed" overstated plain NEG₂ na · changed to "had not destroyed".

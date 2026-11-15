@@ -63,3 +63,7 @@ Iron Age Luwian values (z = ts, h = a rasped kh). `langCode: null`. No voice cho
   `azatiwada-luwian.json` (keys and characters) and logs it. The pilot's
   §17 note ("survives only in the other copy") is not supported by ACLT; the same firing rewords it to say the
   clause is not preserved in either copy as the corpus gives them.
+
+## House renderings (Run 3)
+- §35, the spindle clause (2026-11-15): l "Indeed in my days women too walk with the spindle." · i "In my days women too walk about with their spindles." (=ha read as additive "too".)
+- Determinatives keep tr "" as in the pilot. CAPUT-tt(i)- has no val (ACLT leaves its Luwian form open).

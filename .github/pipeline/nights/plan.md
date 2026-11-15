@@ -60,6 +60,7 @@ scan anomaly turns up later in the volume.
 | done (2026-11-14, unattended) | 583–590 | 561–568 | `archive/pp561-568.json` | Night 110 closes (P563L18); Night 111 label P563L19, Night 112 label P566L06, Night 113 label P568L16 (all centred, h); verse pp. 561, 564, 565, 566, 568; headers ٥٦١ on PDF 583 confirms −22; all joins continuous incl. 560→561 |
 | done (2026-11-14, unattended) | 599–606 | 577–584 | `archive/pp577-584.json` | Night 115 closes (P578L22); Night 116 label P579L01, Night 117 label P581L12, Night 118 label P584L04 (all centred, h); verse pp. 577, 578, 580, 582; header ٥٧٧ on PDF 599 confirms −22; all joins continuous incl. 576→577 |
 | done (2026-11-15, unattended) | 607–614 | 585–592 | `archive/pp585-592.json` | Night 118 closes (P587L06); Night 119 label P587L07, Night 120 label P590L14 (الموفية للعشرين بعد المائة), Night 121 label P592L19 (all centred, h); verse pp. 586–589; headers ٥٨٥ on PDF 607 and ٥٩٢ on PDF 614 confirm −22 (PDF 613 prints ٤٩١, a misprint for ٥٩١); all joins continuous incl. 584→585 |
+| done (2026-11-15, unattended) | 615–622 | 593–600 | `archive/pp593-600.json` | Night 121 closes (P594L18); Night 122 label P594L19, Night 123 label P597L09, Night 124 label P599L21 (all centred, h); verse pp. 593–594, 595, 596, 600; headers ٥٩٣/٥٩٥/٥٩٨/٦٠٠ confirm −22 (PDF 618 prints ٤٩٦ for ٥٩٦); all joins continuous incl. 592→593 |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 

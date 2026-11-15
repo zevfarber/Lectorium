@@ -69,3 +69,11 @@ the drafter's note to say it is *march* soft-mutated, spelt with the w-letter. T
 - col 104 l. 36 *guybọt*: Evans prints a dot beneath the o. Leaving the o out (our rule for dotted letters) gives no word. Decided meanwhile: kept *guybot*; the dot's meaning is unknown.
 - col 105 l. 2 *uot yn hynn* (witness *yr hynn*; Red Book *yn wir*): kept as printed; the drafter says the reading is uncertain.
 - col 111 l. 11: a raised a after *ac* read into the line as *ac a'y gwledychwys* ('and ruled it'); the witness drops it. Decided meanwhile: adopted from the image.
+
+## 2026-11-15 · mabinogi-014 · small open points (draft)
+- Blodeuedd / Blodeuwedd: the English uses Blodeuwedd only in the owl passage (units 124–127), where the name is explained, and Blodeuedd elsewhere (the text's Blodeued). The owner may prefer one form throughout.
+- Nantlleu kept (not the modern Nantlle), because the text's point is 'Lleu's valley'.
+- *ergyt* rendered 'cast' throughout, so that 'blow' stays reserved for *dyrnawt* (house table).
+- The englynion (units 103, 105, 107): *lenn*, *gorduwrych*, *ban*, *nis mwy tawd*, *angerd*, *medur*, *ymywet* are rendered from context and flagged uncertain. The third englyn's missing *eu* is not supplied.
+- Other uncertain readings flagged in the notes: *ady* (adu?), *yn lut*, *yn hynn* (unit 59), *garymleis*, *neita*, *seui*, *auyr* (gafr?).
+- The glossary entry *hutlath* gives 'wand' while the units say 'rod' (as in 012). Not changed.

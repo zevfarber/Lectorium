@@ -61,3 +61,89 @@ the 150 `t`s are asserted unchanged and no `p` field was added. Edits made by sc
 - 28 `i` "be together for good": interpretive but faithful to the plotting; kept.
 - 12 yn goganu as 'our reviling' (it could be progressive yn + verbal noun): the note's reading gives good sense; not changed.
 - 6, 78, 85 short geographical glosses (Penllyn round Llyn Tegid, Ardudwy in Meirionnydd, Arfon facing Môn): factual locating notes of the kind earlier parts carry, not readings of the text; kept, unlike 120's lake-name, which put a traditional name on something the text leaves unnamed.
+
+## Pass 2 (2026-11-15)
+
+The glossary and a second read of the units. I checked all 204 new entries in gloss.json against this part's text
+and the corrected units.json: lemma and modern form, meaning, part of speech and grammar, mutation and its real
+cause, and that each entry is general to the form and not pinned to one line. I checked all 49 broadenings by
+script: each starts with the published entry from /home/user/Lectorium/mabinogi-glossary.json, copied exactly,
+followed by " · ". I checked each new reading against the text. Then I read through the published entry of every
+known form this part uses, about 340 forms, looking for senses this part needs that are missing. Coverage was
+checked by script with the reader's own tokenizer (r3lib.tokens). Every token of the 150 `t`s is either a key in
+gloss.json or in the published glossary. No gloss key falls outside the text, and the keys match novel-forms.json
+exactly. Where the units and the glossary disagreed, I fixed whichever was wrong. I read the Red Book for wascawd,
+prytwn, kehynt, ysmalawch, faraf, wnay, byrhit, braf, Wy gwyrda, gaffant, seui and neita. No new images were
+viewed (the readings in question were settled on the image in pass 1, or are not in doubt). No `t` was touched; no
+`p` was added; the scripts assert both. Edit script: scratchpad r1/edit3.py.
+
+### Changes
+- wascawd · gloss · major · glossed as the noun gwasgawd 'shelter' (f.), with "the division is uncertain"; in yny wascawd y nos arnaw it is the 3 sg. preterite (-awd) of gwascu 'press', soft after yny, as unit 10 says (Red Book the same) · rewritten.
+- prytwn · gloss · major · invented as "a verb form … probably related to prydu, apparently a subjunctive"; it is pryt + hwn 'this time' (y prytwn 'at this hour'; unit 12; Red Book y pryttwn) · rewritten.
+- guahodwn · gloss · major · "1 pl. present subjunctive"; -wn is the 1 pl. present indicative (subjunctive -om), as unit 12 says · corrected.
+- furu · gloss · major · "soft-mutated (ff>f) after pa": ff does not mutate; furu is ffurf with f written for ff · corrected to radical, spelling explained.
+- uythit · gloss · major · "impersonal present/future habitual"; -it is the impersonal imperfect, as unit 47 says · corrected.
+- faraf · gloss · major · "soft-mutated after o 'if' (the expected form is baraf; the initial f is unexpected)"; it is the spirant mutation after o 'if', ph written f (Red Book o pharaf), as unit 59 says · corrected.
+- gaffant · gloss · major · "3 pl. present subjunctive" (the same error corrected in unit 124 in pass 1); it is the present indicative, the Red Book's caffont the subjunctive · corrected.
+- uenegit · gloss · major · "impersonal preterite in -it"; -it is the impersonal imperfect (the preterite is -wyt), as unit 133 says · corrected.
+- druanach · gloss · major · lemma "druan (druan)", "no mutation"; the word is truan, soft-mutated (t>d) after dremynt · corrected, the cause said to be uncertain.
+- 54 · n, l · major · my pass-1 change was wrong: I made wnay present ("will-make"). The glossary has wnay as the imperfect spelt -ay for -ei, and the Red Book reads ef a wnaei here · `l` restored to "would-make"; the note now says wnay = wnaei, 3 sg. imperfect.
+- 134 · n, l · major · Wy gwyrda kywir: the note had Wy as an exclamation 'O' and `l` "O noblemen". The published glossary has wy as a spelling of uy 'my', and the Red Book has vyggwyrda kywir · the note says so; `l` "My noblemen true" (`i` already had "My true noblemen").
+- 97 · n, i, l · minor · yn braf glossed as 'at a fine pace'. The published glossary has braf as praff 'stout, thick', "not modern braf 'fine'", and the Red Book reads yn braff · note rewritten; `i` "at a strong pace", `l` "going strongly".
+- eillt · gloss · minor · "meaning uncertain, apparently a word for a dependant or man of standing", against unit 85's 'villein, bondman' (the dictionary sense) · rewritten as villein, bondman.
+- uab · broadening · minor · the glosser's reading "(a man of rank or dependence, eillt uncertain)" contradicted unit 85 · "(a bondman, son of an eillt 'villein')".
+- ysmalawch · gloss · minor · "a noun of tenderness, languishing or longing", against unit 36's 'playfulness, banter' (cf. ysmala; Red Book ysmalhawch) · aligned with the unit.
+- ymoglyt · gloss · minor · called a noun m.; it is a verbal noun · corrected.
+- neita · gloss · minor · "3 sg. present subjunctive/narrative present" stated as fact; the tense is uncertain (unit 74) · aligned.
+- ehetuan · gloss · minor · lemma "ehedfa", noun f.; the word is ehedfan (unit 75) · corrected.
+- garymleis · gloss · minor · "initial g- either radical or soft-mutated (c>g)": there is no ground for a c- base, and a verbal noun's object is not mutated here · now radical, with both possible elements given as uncertain (unit 75 aligned).
+- lenn · gloss · minor · glossed only as llen with "(here perhaps 'bank, shore, region')", mutation ll>l stated as fact; unit 103 gives llenn or glenn · now gives both, with both mutations.
+- glenn · gloss · minor · "perhaps glan 'bank' or glain 'gem'", against unit 103's 'glen' · aligned, marked uncertain.
+- gorduwrych · gloss · minor · "a verb or noun about the sky" · aligned with unit 103 (gor- + du + perhaps brych), uncertain.
+- tawd · gloss · minor · "perhaps from tawdd 'melted'" · aligned with unit 105 (perhaps 3 sg. present of toddi), uncertain.
+- anwaeret · gloss · minor · "meaning uncertain"; anwaered 'steep descent, slope' is a dictionary word, and unit 107 glosses it so · corrected.
+- blodeuwed · gloss · minor · lemma "Blodeuedd (Blodeuwedd)" and the etymology blodeu + gwedd stated as fact · lemma Blodeuwed (Blodeuwedd), the -wed etymology hedged, the owl sense given as in units 124–127.
+- yngynnatau · gloss · minor · "to confer, treat, negotiate (meaning uncertain); reflexive", against unit 128's 'send envoys' · aligned; "reflexive" dropped.
+- seui · gloss · minor · "3 sg. preterite"; unit 139 has apparently the imperfect, with the form unusual · aligned.
+- nantllew · gloss · minor · modern form given as "Nantlleu"; the modern place-name is Nantlle (the English of the unit keeps Nantlleu, refused in pass 1) · modern form Nantlle, with a note that the English writes Nantlleu.
+- auyr · gloss · minor · "gafyr … collective goats, GPC gafyr" stated as fact · aligned with unit 63 (probably gafr with the helping vowel; perhaps a plural; uncertain).
+- byrhit · gloss + unit 47 · minor · gloss had imperfect subjunctive, unit had imperfect · both now say impersonal imperfect, with the -h- suggesting the subjunctive (Red Book byryit).
+- uywn · gloss · minor · "(the sense of the o is not certain)": o fewn 'within' is plain · corrected.
+- pebyr · gloss · minor · 'vigorous' (as 'strong' in unit 6, removed in pass 1); modern form given as Pebr · 'radiant, bright', modern Pefr.
+- gordiwes, gordiwawd · gloss · minor · modern form "gorddiwes"; GPC lemmatises goddiweddyd (unit 9) · corrected.
+- goganu · gloss · minor · "after yn with a passive sense", against unit 12 (yn 'our') · aligned.
+- ady · gloss · minor · "'his being left / their leaving him'; exact sense uncertain", against unit 12 · aligned ('for his leaving', letting him go).
+- hanuones · gloss · minor · "a prefixed h before a vowel after the particle y" stated as fact; unit 56 says probably the infixed pronoun · aligned.
+- gyuarwyneb · gloss · minor · "soft-mutated after the feminine noun auon it follows": the word does not follow auon as a qualifier · soft-mutated as an adverb.
+- dylwyth · gloss · minor · "(MW dylwyth)": the MW radical is tylwyth · removed.
+- neillparth · gloss · minor · noun f.; parth is masculine (published entry) · noun m.
+- bori · gloss · minor · "after y (the article with a feminine noun, or 'its'; the cause is not certain)"; unit 99 has y 'its' as the object · aligned.
+- borthes · gloss · minor · only 'fed'; units 105 render 'has borne' (porthi 'bear, endure') · sense added.
+- leiaf · gloss · minor · "soft-mutated as an adjective placed before its noun" (an adjective before a noun is not itself softened for that reason) · the predicate after hynny, with the cause uncertain.
+- guastatau · gloss · minor · aligned with unit 98 ('settle, come to rest').
+- y, par · broadening · minor · y'm byrhit rendered "I am struck"; byrhit is imperfect · "I should be struck".
+- dyuot · broadening added · minor · unit 140's dyuot is a slip for dywot 'said'; the published entry has only the verbal noun 'come'.
+- wnaet · broadening added · minor · the published entry has 'he did'; here a wnaet hi 'she did'.
+- heb · broadening added · minor · heb 'past' + noun (heb porth y llys); the published entry has 'past' only in heb law.
+- eu · broadening added · minor · eu = gau 'false' in the englyn (Ony dywedaf i eu).
+- ban · broadening added · minor · possible 'whence' in the first englyn (uncertain).
+- nis · broadening added · minor · the published entry is pinned to a feminine 'her'; here parabyl nis cauas (m.) and Nis gwlych glaw.
+- ergyt · broadening added · minor · the units render 'cast' (of a spear); the published entry has 'blow, stroke, shot'.
+- ouut · broadening added · minor · the published entry has the mutation only after o; here object of keueis.
+- kyuyl · broadening added · minor · the published entry has 'vicinity'; here Kyn kyuyl y'r ulwydyn 'before the end of the year'.
+- lef · broadening added · minor · the published entry pins the mutation to the object of dot; here object of glywei.
+- dremynt · broadening added · minor · the published entry has no case of the object of a verb; here Ny welsei neb ar wr dremynt.
+- hegyr · broadening added · minor · the published entry explains h- by a feminine object (kist); here the object is the sty, creu (m.).
+- 75 · n · minor · garymleis aligned with the gloss (garm or garw + llais, uncertain).
+- 124 · n · minor · dy uaedu glossed as baedu; the glossary has maedu (maeddu) 'beat', the dictionary lemma for the sense · aligned.
+- kymerued · gloss · style · modern form "(obsolete; cf. perued)"; GPC has cymherfedd (unit 104) · corrected.
+- kehynt · gloss + unit 28 · style · gloss said imperfect, unit imperfect subjunctive · both now imperfect subjunctive (the -h- form), the unit with the Red Book's keffynt.
+
+### Refused
+- The glosser's three broadenings duw (dyw 'day' in duw Sul), par ('spear') and lleu (the personal name): each is real and needed (the published entries have only God, peri 'cause', and the adjective lleu 'fair'). Kept (par with its tense fixed).
+- The other glosser broadenings (chaer, y, i, o, yr, ny, na, dy, bot, uot, hynn, ym, dros, ellir, allwys, benn, geuyn, barawt, hedrych, hymdidan, hwyneb, ohir, gyueir, kyt, gynghor, uaes, geing, wr, dir, maeth, deulu, wydyon, gerdet, beth, chyn, mwy, holl, maes, ymywn, allan, brynn, was, wrth, wrthaw, bwrw): prefixes verified by script; readings real and needed. Kept unchanged.
+- hutlath: the published entry says 'magic wand', while the units (as 012) render 'magic rod'. A dictionary meaning is not a rendering, and the entry already says the sense is disputed. No broadening.
+- sarhaet glossed as a masculine noun: the gender is not certain to me and does not affect the reading; not changed.
+- brodyr ("the nasal mutation b>m is not written" after a'm): the published entry for 'm says it softens; whether a'm mutates at all in this text is a question for the work-level glossary, not this part. Not changed.
+- Lemma-style differences (some new entries give the modern word as lemma, e.g. hydd (hydd), where others give the MW form): the published glossary mixes both. Not normalised.
+- garymleis, medur, ymywet, gorduwrych, glenn, tawd: kept as uncertain, not resolved; the text does not settle them.

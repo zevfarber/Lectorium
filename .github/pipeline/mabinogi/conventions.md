@@ -71,6 +71,7 @@ speaker-exchange). The units' `t`, joined, reproduce the established text charac
 | cantref | cantref | cantref | hundred, cantrev |
 | pryt … ac ansawd | form and appearance | form and appearance | shape and semblance |
 | dyrnaut | blow | blow | stroke |
+| ergyt | cast | cast | blow (that is dyrnaut) |
 | digrifwch | amusement | pleasure | mirth, diversion |
 | carueidrwyd | affection | affection | dalliance |
 | meuyl im | shame to-me | shame on me | woe is me |

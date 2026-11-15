@@ -1364,3 +1364,8 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Corrected misprints in emend.json: P575L15 فقل→فقد ("for your joys have drawn near"), P577L19 انت→اتت ("she came to me"), P578L01 بكاوشديدا→بكاء شديدا (و for ء, and the word space restored). Kept as printed and explained in the notes: P577L04 وعلا نور النهار (read as the darkness rising over the daylight, not emended); P576L13 احدٰهما; P576L15 اسوء; P577L08 مضيأ; P575L06 شيء ما كان (nominative after kāna); رأسي treated as feminine (خفّت راسي); P576L01 المسطبة spelled with س; verse P577L15 وَبُيُوْتُ (read as a subject put first); words printed run together, such as ولابها, تريدان, اولا, مابي, ادعوالله, مماهي, يابن, ماحصل, شاءالله, مايأتي, يارب, لاانشدها, مابين. The archive was not changed.
 - Library label: `Night 115 · The Lover and the Beloved, continued`. Nothing to decide.
 - Next: nights 116 and 117 are complete and unpublished; the next two firings should publish them.
+
+## Night 116 (published 2026-11-15)
+- No misprints corrected; emend.json unchanged. P579L22 تلّفت: the print's shadda is on the lām; pointed talaffattu (shadda on the fā’), with a note, as for عُليّ in night 111 (a misplaced mark, so no emend entry). Kept as printed and flagged in the notes: verse P580L08 الْعَرَامِ (ʿayn for the expected ghayn; ʿarām is a real word, so doubtful; translated as "passion"); يَلُمْنِي (shortened yalūmunī); بطني treated as feminine; هذة; ثلٰثا; ى for final ي (الصينى, زبادى, يدى, فى, عمى, معشوقتى); run-together السعيدان, مابين. The archive was not changed.
+- Library label: `Night 116 · The Lover and the Beloved, continued`. Nothing to decide.
+- Next: night 117 is complete and unpublished; the next firing should publish it.

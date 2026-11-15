@@ -103,6 +103,8 @@ def ordinal_number(ordinal):
             return TENS[rest[0]]
         if len(rest) == 2 and rest[0] in TENS and rest[1] in TENS:   # مائة وعشرين
             return TENS[rest[0]] + TENS[rest[1]]
+        if len(rest) == 3 and rest[1] == "بعد" and rest[0] in TENS and rest[2] in TENS:   # الموفية للعشرين بعد المائة (Night 120, 2026-11-15)
+            return TENS[rest[0]] + TENS[rest[2]]
         return None
     if len(words) == 1:
         if words[0] in UNITS:

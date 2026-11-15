@@ -10,3 +10,6 @@
 - 2026-11-15 · §37 warranza · ACLT files it under walilid(a)- "territory"; the pilot's §5 uses warra- "plain". Decided meanwhile: morph carries ACLT's lemma, l/i keep "plain" for consistency with §5, and the note says so.
 - 2026-11-15 · §25 · Hu. spells -ha-há-wa/i, but ACLT transcribes only hattaliha. Decided meanwhile: read hattaliha=ha=wa (cf. §5 latrahha=ha=wa), with a note that this goes beyond the edition's transcription.
 - 2026-11-15 · kwippa · ACLT has kwippa "indeed" (§23, §31…) where the pilot segments kwi=pa "but". Decided meanwhile: two glossary entries, cross-referenced.
+- 2026-11-15 · hooks · src_units filed a lacuna sign without a unit index under glyph 0 (▢ beside the wrong sign). Decided meanwhile: each such lacuna is its own glyph in its own position (no published part affected: §1–§37 have no such lacunae). Restored lost signs keep the source key with "?" and damaged:true (the reader does not yet render `damaged`).
+- 2026-11-15 · hassa- · ACLT uses one lemma string for the noun 'luxury(?)' (§36) and the verb 'give birth' (§56). Decided meanwhile: one key, gloss names both words.
+- 2026-11-15 · glossary · broadenings in 38-58 (e.g. `[missing clause]`, `-ari`) are inherited by later parts; the pilot's own `[missing clause]` entry still names §17 "in this copy". Decided meanwhile: left as published.

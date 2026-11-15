@@ -1,0 +1,5312 @@
+{
+ "language": "Luwian",
+ "langCode": null,
+ "script": "Anatolian hieroglyphs",
+ "work": "Azzattiwadas",
+ "workEn": "The Azatiwada Inscription (Karatepe)",
+ "id": "azatiwada-38-58",
+ "title": "Azzattiwadas",
+ "titleEn": "The Azatiwada Inscription (Karatepe) — §38–§58",
+ "part": "§38–§58 · The city of Azatiwadaya and its god",
+ "numbering": "clause",
+ "provisional": true,
+ "draftNote": "Sign identifications and readings follow the Annotated Corpus of Luwian Texts and are checked against the Unicode sign list; individual readings remain scholarly judgments.",
+ "source": "KARATEPE 1 (the Azatiwada inscription), Hieroglyphic Luwian version, copy Hu., clauses §38–§58. Text (transcription and sign-by-sign transliteration) follows the Annotated Corpus of Luwian Texts, ACLT 2 (I. Yakubovich et al., luwian.web-corpora.net), with sign identifications per the Unicode Anatolian Hieroglyphs repertoire (Laroche numbering); lemma meanings checked against open scholarly literature. The inscription survives in duplicate copies at the citadel's two gates (Hu. and Ho.); §17 is not preserved in either copy as the corpus gives them Transliteration conventions: Hawkins-style values as adopted by ACLT (the city name of clause 2 read Hiyawa; others read Adanawa). The stone's word-divider strokes and sign reversals are not reproduced. The original runs boustrophedon (alternating direction line by line) in registers of vertically stacked signs; it is presented here left-to-right and linear, with the corpus's recorded line divisions shown as ‖ marks. Translations are made fresh from the Luwian for this edition. Pronunciation convention: conventional scholarly Iron Age Luwian values (z = ts, h = a rasped kh).",
+ "images": [
+  {
+   "file": "KaratepeSüd1.jpg",
+   "caption": "Blocks of the Hieroglyphic Luwian text at Karatepe's south gate, still standing where Azatiwada set them. The signs run in horizontal bands, each band read in the opposite direction from the one before.",
+   "alt": "Stone blocks carved with bands of Anatolian hieroglyphs, set in a wall on a wooded hilltop",
+   "author": "Klaus-Peter Simon",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  }
+ ],
+ "about": "",
+ "sentences": [
+  {
+   "t": "𔗷𔗬 𔖪 𔔉𔕹 𔔘𔖻𔓶",
+   "l": "And this fortress I built.",
+   "ln": 38,
+   "words": [
+    {
+     "reading": "a=wa",
+     "say": "a=wa",
+     "glyphs": [
+      {
+       "s": "𔗷",
+       "role": "phon",
+       "tr": "a",
+       "sign": "A450"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "a",
+       "gloss": "and (clause connective)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "=wa",
+       "gloss": "quotative particle",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "za",
+     "say": "za",
+     "glyphs": [
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "za-",
+       "gloss": "this (demonstrative) — neuter accusative singular",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "harnissanza",
+     "say": "harnissanza",
+     "glyphs": [
+      {
+       "s": "𔔉",
+       "role": "log",
+       "tr": "CASTRUM",
+       "sign": "A231",
+       "val": "harnissa"
+      },
+      {
+       "s": "𔕹",
+       "role": "phon",
+       "tr": "zá",
+       "sign": "A335"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "harnissa-",
+       "gloss": "fortress (the fortress-wall sign CASTRUM as logogram)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-nza",
+       "gloss": "neuter singular accusative ending",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tamaha",
+     "say": "tamaha",
+     "glyphs": [
+      {
+       "s": "𔔘𔖻",
+       "role": "log",
+       "tr": "AEDIFICARE+MI",
+       "sign": "A246",
+       "keys": [
+        "A246",
+        "A391"
+       ],
+       "val": "tama"
+      },
+      {
+       "s": "𔓶",
+       "role": "phon",
+       "tr": "ha",
+       "sign": "A215"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tama-",
+       "gloss": "build (AEDIFICARE)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-ha",
+       "gloss": "1st person singular past — 'I built'",
+       "g": [
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "And I built this fortress.",
+   "n": "A new movement: the fortress-city itself. a=wa opens the clause (a is the plain connective 'and', as in §32 and §36). za 'this' is the demonstrative za- in the neuter accusative singular, agreeing with harnissanza 'fortress' — here the logogram CASTRUM stands for the word itself and is followed only by its ending -nza, written zá. AEDIFICARE+MI-ha 'I built' is the verb of §19 and §23: the logogram with its attached mi, plus the 1st singular past ending -ha.",
+   "p": true,
+   "par": {
+    "id": "azatiwada-phoenician",
+    "ln": [
+     "II 9"
+    ],
+    "u": 27
+   }
+  },
+  {
+   "t": "𔗬𔑢𔑯 𔖫𔐓𔖪𔑣𔗬𔐫𔓱𔐤𔔂 𔐓𔗲𔒄𔖪 𔑇𔓶",
+   "l": "And to it Azatiwadaya (as) name I put.",
+   "ln": 39,
+   "words": [
+    {
+     "reading": "wa=du=tta",
+     "say": "wa=du=tta",
+     "glyphs": [
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔑢",
+       "role": "phon",
+       "tr": "tu",
+       "sign": "A089"
+      },
+      {
+       "s": "𔑯",
+       "role": "phon",
+       "tr": "ta",
+       "sign": "A100"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "=wa",
+       "gloss": "quotative particle",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "=du",
+       "gloss": "to it (clitic pronoun, dative singular)",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "=tta",
+       "gloss": "particle of place/motion",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "Azzattiwadayan",
+     "say": "Azzattiwadayan",
+     "glyphs": [
+      {
+       "s": "𔖫",
+       "role": "det",
+       "tr": "",
+       "sign": "A378"
+      },
+      {
+       "s": "𔐓",
+       "role": "phon",
+       "tr": "á",
+       "sign": "A019"
+      },
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377"
+      },
+      {
+       "s": "𔑣",
+       "role": "phon",
+       "tr": "ti",
+       "sign": "A090"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔐫",
+       "role": "phon",
+       "tr": "tà",
+       "sign": "A041"
+      },
+      {
+       "s": "𔓱",
+       "role": "phon",
+       "tr": "ia",
+       "sign": "A210"
+      },
+      {
+       "s": "𔐤",
+       "role": "phon",
+       "tr": "na",
+       "sign": "A035"
+      },
+      {
+       "s": "𔔂",
+       "role": "det",
+       "tr": "",
+       "sign": "A225"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Azzattiwadaya-",
+       "gloss": "Azatiwadaya — the city named after Azatiwada (classified by LITUUS before and the city sign URBS after)",
+       "g": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+       ]
+      },
+      {
+       "lemma": "-n",
+       "gloss": "accusative singular ending",
+       "g": [
+        7
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "alamanza",
+     "say": "alamanza",
+     "glyphs": [
+      {
+       "s": "𔐓",
+       "role": "phon",
+       "tr": "á",
+       "sign": "A019"
+      },
+      {
+       "s": "𔗲",
+       "role": "phon",
+       "tr": "la/i",
+       "sign": "A445"
+      },
+      {
+       "s": "𔒄",
+       "role": "phon",
+       "tr": "ma",
+       "sign": "A110",
+       "nl": true
+      },
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "alaman-",
+       "gloss": "name",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-za",
+       "gloss": "neuter singular accusative ending",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tuwahha",
+     "say": "tuwahha",
+     "glyphs": [
+      {
+       "s": "𔑇",
+       "role": "log",
+       "tr": "PONERE",
+       "sign": "A065",
+       "val": "tuwa"
+      },
+      {
+       "s": "𔓶",
+       "role": "phon",
+       "tr": "ha",
+       "sign": "A215"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tu(wa)-",
+       "gloss": "put, place (PONERE)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-ha",
+       "gloss": "1st person singular past — 'I put'",
+       "g": [
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "And I gave it the name Azatiwadaya.",
+   "n": "wa=du=tta: the chain carries =du 'to it' (the clitic pronoun as- in the dative — the fortress) and the place particle =tta. The new city's name, Azzattiwadayan, is the ruler's own name with the suffix -aya, framed by two classifiers: LITUUS, the sign that stands before Azatiwada's name, and URBS 'city' at the end; -n marks the accusative. alamanza 'name' (alaman-, neuter accusative singular) stands beside it — 'I put (as) name'. A register break falls inside this word, between la/i and ma (the corpus marks it ||). PONERE-ha 'I put' is the verb of §22.",
+   "par": {
+    "id": "azatiwada-phoenician",
+    "ln": [
+     "II 9"
+    ],
+    "u": 27
+   }
+  },
+  {
+   "t": "𔕰𔕸𔗬𔑾 𔐣𔐤 𔖖𔓢𔕙𔖪𔗦 𔖖𔑵𔖪𔗦𔓟 𔗦𔑯 𔖪𔑣 𔔉𔓉 𔔘𔖻𔐤",
+   "l": "Indeed behind me Tarhunzas and Runzas were, for this fortress to build.",
+   "ln": 40,
+   "words": [
+    {
+     "reading": "kwippa=wa=mu",
+     "say": "kwippa=wa=mu",
+     "glyphs": [
+      {
+       "s": "𔕰",
+       "role": "phon",
+       "tr": "kwa/i",
+       "sign": "A329"
+      },
+      {
+       "s": "𔕸",
+       "role": "phon",
+       "tr": "pa",
+       "sign": "A334"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔑾",
+       "role": "phon",
+       "tr": "mu",
+       "sign": "A107"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kwippa",
+       "gloss": "indeed (clause-opening adverb)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "=wa",
+       "gloss": "quotative particle",
+       "g": [
+        2
+       ]
+      },
+      {
+       "lemma": "=mu",
+       "gloss": "me (clitic pronoun) — with appan, 'behind me'",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "appan",
+     "say": "appan",
+     "glyphs": [
+      {
+       "s": "𔐣",
+       "role": "log",
+       "tr": "POST",
+       "sign": "A034",
+       "val": "appa"
+      },
+      {
+       "s": "𔐤",
+       "role": "comp",
+       "tr": "na",
+       "sign": "A035"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "appan",
+       "gloss": "behind, after(wards) (POST)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "Tarhunzas",
+     "say": "Tarhunzas",
+     "glyphs": [
+      {
+       "s": "𔖖",
+       "role": "det",
+       "tr": "",
+       "sign": "A360"
+      },
+      {
+       "s": "𔓢",
+       "role": "log",
+       "tr": "TONITRUS",
+       "sign": "A199",
+       "val": "Tarhu"
+      },
+      {
+       "s": "𔕙",
+       "role": "comp",
+       "tr": "hu",
+       "sign": "A307"
+      },
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377"
+      },
+      {
+       "s": "𔗦",
+       "role": "phon",
+       "tr": "sá",
+       "sign": "A433"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Tarhunza-",
+       "gloss": "Tarhunzas, the Storm-god",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-s",
+       "gloss": "nominative singular ending — the subject",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "Runzas=ha",
+     "say": "Runzas=ha",
+     "glyphs": [
+      {
+       "s": "𔖖",
+       "role": "det",
+       "tr": "",
+       "sign": "A360"
+      },
+      {
+       "s": "𔑵",
+       "role": "log",
+       "tr": "CERVUS₃",
+       "sign": "A103",
+       "val": "Runt"
+      },
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377"
+      },
+      {
+       "s": "𔗦",
+       "role": "phon",
+       "tr": "sá",
+       "sign": "A433"
+      },
+      {
+       "s": "𔓟",
+       "role": "phon",
+       "tr": "há",
+       "sign": "A196"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Runti(ya)-",
+       "gloss": "Runzas, a god (DN), written with the stag sign CERVUS₃",
+       "g": [
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-s",
+       "gloss": "nominative singular ending",
+       "g": [
+        3
+       ]
+      },
+      {
+       "lemma": "=ha",
+       "gloss": "and",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "asanta",
+     "say": "asanta",
+     "glyphs": [
+      {
+       "s": "𔗦",
+       "role": "phon",
+       "tr": "sá",
+       "sign": "A433"
+      },
+      {
+       "s": "𔑯",
+       "role": "phon",
+       "tr": "ta",
+       "sign": "A100"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "as-",
+       "gloss": "be",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-nta",
+       "gloss": "3rd person plural past — '(they) were' (the a- and the n unwritten)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "zatti",
+     "say": "zatti",
+     "glyphs": [
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377"
+      },
+      {
+       "s": "𔑣",
+       "role": "phon",
+       "tr": "ti",
+       "sign": "A090"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "za-",
+       "gloss": "this (demonstrative)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-tti",
+       "gloss": "dative singular ending — 'for this'",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "harnissi",
+     "say": "harnissi",
+     "glyphs": [
+      {
+       "s": "𔔉",
+       "role": "log",
+       "tr": "CASTRUM",
+       "sign": "A231",
+       "val": "harnissa"
+      },
+      {
+       "s": "𔓉",
+       "role": "phon",
+       "tr": "si",
+       "sign": "A174"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "harnissa-",
+       "gloss": "fortress (CASTRUM)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-i",
+       "gloss": "dative singular ending (the si sign also carries the stem's s)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tamuna",
+     "say": "tamuna",
+     "glyphs": [
+      {
+       "s": "𔔘𔖻",
+       "role": "log",
+       "tr": "AEDIFICARE.MI",
+       "sign": "A246",
+       "keys": [
+        "A246",
+        "A391"
+       ],
+       "val": "tama"
+      },
+      {
+       "s": "𔐤",
+       "role": "phon",
+       "tr": "na",
+       "sign": "A035"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tama-",
+       "gloss": "build (AEDIFICARE)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-una",
+       "gloss": "infinitive ending — 'to build' (written with na alone)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "Tarhunzas and Runzas stood behind me in building this fortress.",
+   "n": "kwippa=wa=mu: 'indeed' with =wa and =mu 'me', which goes with appan 'behind, after' (POST-na: the logogram plus na for the final n) — 'behind me'. Two gods are the subject, each in the nominative -s under the divine classifier DEUS: Tarhunzas (TONITRUS, the thunder sign, as in §3) and Runzas, the god the corpus lemmatizes Runti(ya)-, written with a stag sign, CERVUS₃, and carrying =ha 'and'. asanta '(they) were' is 3rd plural past, spelled sá-ta without its first vowel as in §36. zatti harnissi 'for this fortress' is a dative singular pair (za- 'this', harnissa- 'fortress'), and tamuna is the infinitive of tama- 'build': AEDIFICARE.MI-na, the ending -una written with na alone.",
+   "p": true,
+   "par": {
+    "id": "azatiwada-phoenician",
+    "ln": [
+     "II 10"
+    ],
+    "u": 28
+   }
+  },
+  {
+   "t": "▢𔐫 𔔘𔖻𔓶 ▢𔑯 ▢",
+   "l": "[…] them I built […]",
+   "ln": 41,
+   "words": [
+    {
+     "reading": "ada",
+     "say": "ada",
+     "glyphs": [
+      {
+       "s": "▢",
+       "role": "log",
+       "tr": "[…]",
+       "sign": "DAMAGED"
+      },
+      {
+       "s": "𔐫",
+       "role": "phon",
+       "tr": "tà",
+       "sign": "A041"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[lost]",
+       "gloss": "signs broken away on the stone; not restored",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "=ada",
+       "gloss": "them (clitic pronoun, accusative plural)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tamaha",
+     "say": "tamaha",
+     "glyphs": [
+      {
+       "s": "𔔘𔖻",
+       "role": "log",
+       "tr": "AEDIFICARE.MI",
+       "sign": "A246",
+       "keys": [
+        "A246",
+        "A391"
+       ],
+       "val": "tama"
+      },
+      {
+       "s": "𔓶",
+       "role": "phon",
+       "tr": "ha",
+       "sign": "A215"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tama-",
+       "gloss": "build (AEDIFICARE; the sign is partly damaged)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-ha",
+       "gloss": "1st person singular past — 'I built'",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[…]ta",
+     "say": "[…]ta",
+     "glyphs": [
+      {
+       "s": "▢",
+       "role": "log",
+       "tr": "[…]",
+       "sign": "DAMAGED"
+      },
+      {
+       "s": "𔑯",
+       "role": "phon",
+       "tr": "ta",
+       "sign": "A100"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[lost]",
+       "gloss": "signs broken away on the stone; not restored",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "ta",
+       "gloss": "a surviving sign of an unread word",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[…]",
+     "say": "[…]",
+     "glyphs": [
+      {
+       "s": "▢",
+       "role": "log",
+       "tr": "[…]",
+       "sign": "DAMAGED"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[lost]",
+       "gloss": "signs broken away on the stone; not restored",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "[…] I built them […]",
+   "n": "A broken clause. Of the first word only its last sign survives, tà, which the corpus reads as the clitic =ada 'them' (accusative plural) on a lost host word. The verb is again 'I built' (tama- + -ha); the first part of the AEDIFICARE sign is damaged, restored by the corpus ([AEDIFI]CARE). After it only a ta between gaps remains — what word it belonged to is unknown — and the clause breaks off. The English keeps only what can be read.",
+   "par": {
+    "id": "azatiwada-phoenician",
+    "ln": [
+     "II 11"
+    ],
+    "u": 29
+   }
+  },
+  {
+   "t": "▢",
+   "l": "[This clause is not preserved.]",
+   "ln": 42,
+   "words": [
+    {
+     "reading": "[…]",
+     "say": "[…]",
+     "glyphs": [
+      {
+       "s": "▢",
+       "role": "log",
+       "tr": "[…]",
+       "sign": "DAMAGED"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[missing clause]",
+       "gloss": "clause §42 is not preserved in either copy of the inscription",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "n": "In this copy (Hu.) the numbering jumps from §41 to §44, and §42 is not preserved in either copy as the corpus gives them. A reading of it may be added once its text can be verified.",
+   "absent": true
+  },
+  {
+   "t": "▢",
+   "l": "[This clause is not preserved.]",
+   "ln": 43,
+   "words": [
+    {
+     "reading": "[…]",
+     "say": "[…]",
+     "glyphs": [
+      {
+       "s": "▢",
+       "role": "log",
+       "tr": "[…]",
+       "sign": "DAMAGED"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[missing clause]",
+       "gloss": "clause §43 is not preserved in either copy of the inscription",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "n": "Like §42, this clause is not preserved in either copy as the corpus gives them; the copy at the other gate has no clauses from §33 to §46. A reading may be added once its text can be verified.",
+   "absent": true
+  },
+  {
+   "t": "▢▢ ▢ 𔓯𔖩𔓯▢ 𔐓𔖻𔓱𔖪 𔖓𔓶𔔹𔓱𔖪",
+   "l": "[…] in my days.",
+   "ln": 44,
+   "words": [
+    {
+     "reading": "[…]",
+     "say": "[…]",
+     "glyphs": [
+      {
+       "s": "▢",
+       "role": "log",
+       "tr": "[…]",
+       "sign": "DAMAGED"
+      },
+      {
+       "s": "▢",
+       "role": "log",
+       "tr": "x",
+       "sign": "DAMAGED"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[lost]",
+       "gloss": "signs broken away on the stone; not restored",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "x",
+       "gloss": "an illegible trace of a sign",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[…]",
+     "say": "[…]",
+     "glyphs": [
+      {
+       "s": "▢",
+       "role": "log",
+       "tr": "[…]",
+       "sign": "DAMAGED"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[lost]",
+       "gloss": "signs broken away on the stone; not restored",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[…]i-zi-i[…]",
+     "say": "[…]i-zi-i[…]",
+     "glyphs": [
+      {
+       "s": "𔓯",
+       "role": "phon",
+       "tr": "i",
+       "sign": "A209"
+      },
+      {
+       "s": "𔖩",
+       "role": "phon",
+       "tr": "zi",
+       "sign": "A376"
+      },
+      {
+       "s": "𔓯",
+       "role": "phon",
+       "tr": "i",
+       "sign": "A209"
+      },
+      {
+       "s": "▢",
+       "role": "log",
+       "tr": "[…]",
+       "sign": "DAMAGED"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "i-zi-i-",
+       "gloss": "the surviving signs of a broken word the corpus leaves uninterpreted",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "[lost]",
+       "gloss": "signs broken away after i-zi-i on the stone; not restored",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ammiyanza",
+     "say": "ammiyanza",
+     "glyphs": [
+      {
+       "s": "𔐓",
+       "role": "phon",
+       "tr": "á",
+       "sign": "A019"
+      },
+      {
+       "s": "𔖻",
+       "role": "phon",
+       "tr": "mi",
+       "sign": "A391"
+      },
+      {
+       "s": "𔓱",
+       "role": "phon",
+       "tr": "ia?",
+       "sign": "A210",
+       "damaged": true
+      },
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za?",
+       "sign": "A377",
+       "damaged": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ami(ya)-",
+       "gloss": "my",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-nza",
+       "gloss": "dative plural ending — 'in my …' (restored)",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "halliyanza",
+     "say": "halliyanza",
+     "glyphs": [
+      {
+       "s": "𔖓",
+       "role": "det",
+       "tr": "",
+       "sign": "A358"
+      },
+      {
+       "s": "𔓶",
+       "role": "phon",
+       "tr": "ha",
+       "sign": "A215"
+      },
+      {
+       "s": "𔔹",
+       "role": "phon",
+       "tr": "li",
+       "sign": "A278"
+      },
+      {
+       "s": "𔓱",
+       "role": "phon",
+       "tr": "ia?",
+       "sign": "A210",
+       "damaged": true
+      },
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "halli-",
+       "gloss": "day (classified by the DIES sign)",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-nza",
+       "gloss": "dative plural — 'in (my) days' (the za damaged)",
+       "g": [
+        4
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "[…] in my days.",
+   "n": "Only the end of this clause survives. Before it the numbering jumps from §41 to §44: §42 and §43 are not preserved. Of the opening there remain a gap and an illegible trace (x, both shown as ▢) and the signs i-zi-i, which the corpus leaves uninterpreted. Then comes the phrase of §35 and §36, ammiyanza halliyanza 'in my days', both dative plural -nza: the ia-za of the first word and the ia of the second are lost and restored by the corpus (shown with the restored signs and a query: they are not on the stone), and the final za of halliyanza is damaged.",
+   "p": true,
+   "par": {
+    "id": "azatiwada-phoenician",
+    "ln": [
+     "II 11"
+    ],
+    "u": 29
+   }
+  },
+  {
+   "t": "𔖪▢𔗬𔗷 𔔉𔑶𔕹 𔔘𔖻𔓶",
+   "l": "And(?) this fortress I built.",
+   "ln": 45,
+   "words": [
+    {
+     "reading": "za=wa",
+     "say": "za=wa",
+     "glyphs": [
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377"
+      },
+      {
+       "s": "▢",
+       "role": "phon",
+       "tr": "pa/ha?",
+       "sign": "DAMAGED",
+       "damaged": true
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i?",
+       "sign": "A439",
+       "damaged": true
+      },
+      {
+       "s": "𔗷",
+       "role": "phon",
+       "tr": "a",
+       "sign": "A450"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "za-",
+       "gloss": "this (demonstrative) — neuter accusative singular; the sign is damaged",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "=pa or =ha",
+       "gloss": "a lost sign read pa or ha by the corpus: 'but' or 'and'; not in its transcription",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "=wa",
+       "gloss": "quotative particle",
+       "g": [
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "harnissanza",
+     "say": "harnissanza",
+     "glyphs": [
+      {
+       "s": "𔔉",
+       "role": "log",
+       "tr": "CASTRUM",
+       "sign": "A231",
+       "val": "harnissa"
+      },
+      {
+       "s": "𔑶",
+       "role": "comp",
+       "tr": "sà",
+       "sign": "A104"
+      },
+      {
+       "s": "𔕹",
+       "role": "phon",
+       "tr": "zá",
+       "sign": "A335"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "harnissa-",
+       "gloss": "fortress (CASTRUM)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-nza",
+       "gloss": "neuter singular accusative ending (the sign damaged)",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tamaha",
+     "say": "tamaha",
+     "glyphs": [
+      {
+       "s": "𔔘𔖻",
+       "role": "log",
+       "tr": "AEDIFICARE.MI",
+       "sign": "A246",
+       "keys": [
+        "A246",
+        "A391"
+       ],
+       "val": "tama"
+      },
+      {
+       "s": "𔓶",
+       "role": "phon",
+       "tr": "ha",
+       "sign": "A215"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tama-",
+       "gloss": "build (AEDIFICARE; the MI damaged)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-ha",
+       "gloss": "1st person singular past — 'I built'",
+       "g": [
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "And I built this fortress.",
+   "n": "Almost word for word §38 again. za 'this' (neuter accusative) is partly damaged, and the sign after it is lost: the corpus reads it as either pa or ha — that is =pa 'but, and' or =ha 'and' — but leaves it out of its transcription, hence the '(?)'. =wa follows, its wa/i sign lost and restored by the corpus (shown with a query), then spelled out with a. The quotation mark before CASTRUM is the corpus's editorial addition (<“>) and is not shown; harnissanza is CASTRUM-sà-zá — logogram, complement and ending — with the last sign damaged. In AEDIFICARE.MI the MI is damaged.",
+   "par": {
+    "id": "azatiwada-phoenician",
+    "ln": [
+     "II 17"
+    ],
+    "u": 31
+   }
+  },
+  {
+   "t": "▢",
+   "l": "[This clause is not preserved.]",
+   "ln": 46,
+   "words": [
+    {
+     "reading": "[…]",
+     "say": "[…]",
+     "glyphs": [
+      {
+       "s": "▢",
+       "role": "log",
+       "tr": "[…]",
+       "sign": "DAMAGED"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[missing clause]",
+       "gloss": "clause §46 is not preserved in either copy of the inscription",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "n": "In this copy (Hu.) the numbering jumps from §45 to §47, and §46 is not preserved in either copy as the corpus gives them. A reading of it may be added once its text can be verified.",
+   "absent": true
+  },
+  {
+   "t": "𔗬𔑯▢ 𔒈▢ 𔖖𔓢 ▢ 𔗷𔑯 𔕐𔓯𔑶𔖿𔓶",
+   "l": "And this Tarhunzas into (it) I settled.",
+   "ln": 47,
+   "words": [
+    {
+     "reading": "wa=tta",
+     "say": "wa=tta",
+     "glyphs": [
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔑯",
+       "role": "phon",
+       "tr": "ta",
+       "sign": "A100"
+      },
+      {
+       "s": "▢",
+       "role": "log",
+       "tr": "[…]",
+       "sign": "DAMAGED"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "=wa",
+       "gloss": "quotative particle",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "=tta",
+       "gloss": "particle of place/motion (its ta partly damaged)",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "[lost]",
+       "gloss": "signs broken away after the ta on the stone; not restored",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "zan",
+     "say": "zan",
+     "glyphs": [
+      {
+       "s": "𔒈",
+       "role": "phon",
+       "tr": "za₄",
+       "sign": "A112"
+      },
+      {
+       "s": "▢",
+       "role": "log",
+       "tr": "[…]",
+       "sign": "DAMAGED"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "za-",
+       "gloss": "this (demonstrative)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-n",
+       "gloss": "common accusative singular ending (lost)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "Tarhunzan",
+     "say": "Tarhunzan",
+     "glyphs": [
+      {
+       "s": "𔖖",
+       "role": "det",
+       "tr": "",
+       "sign": "A360"
+      },
+      {
+       "s": "𔓢",
+       "role": "log",
+       "tr": "TONITRUS",
+       "sign": "A199",
+       "val": "Tarhu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Tarhunza-",
+       "gloss": "Tarhunzas, the Storm-god — here accusative, Tarhunzan; the thunder sign is partly damaged",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[…]",
+     "say": "[…]",
+     "glyphs": [
+      {
+       "s": "▢",
+       "role": "log",
+       "tr": "[…]",
+       "sign": "DAMAGED"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[lost]",
+       "gloss": "signs broken away on the stone; not restored",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "anta",
+     "say": "anta",
+     "glyphs": [
+      {
+       "s": "𔗷",
+       "role": "phon",
+       "tr": "a",
+       "sign": "A450"
+      },
+      {
+       "s": "𔑯",
+       "role": "phon",
+       "tr": "ta",
+       "sign": "A100"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "anta",
+       "gloss": "in, into",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "isnuhha",
+     "say": "isnuhha",
+     "glyphs": [
+      {
+       "s": "𔕐",
+       "role": "det",
+       "tr": "",
+       "sign": "A299"
+      },
+      {
+       "s": "𔓯",
+       "role": "phon",
+       "tr": "i",
+       "sign": "A209"
+      },
+      {
+       "s": "𔑶",
+       "role": "phon",
+       "tr": "sà",
+       "sign": "A104"
+      },
+      {
+       "s": "𔖿",
+       "role": "phon",
+       "tr": "nú",
+       "sign": "A395"
+      },
+      {
+       "s": "𔓶",
+       "role": "phon",
+       "tr": "ha",
+       "sign": "A215"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "isnuwa-",
+       "gloss": "settle, make sit (classified by the seat sign SOLIUM)",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-ha",
+       "gloss": "1st person singular past — 'I settled'",
+       "g": [
+        4
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "And in it I settled this Tarhunzas.",
+   "n": "wa=tta: =wa with the place particle; the end of its ta and whatever followed are lost. zan 'this' (za-, common accusative singular) begins with za₄, itself partly damaged, and breaks off. Tarhunzan, the god in the accusative, survives only as the divine classifier and the thunder sign, itself partly damaged (TONI[TRUS]); the rest of the name is lost, and the corpus closes the break with a bracket standing on its own, shown here as a gap. anta 'in, into' and isnuhha 'I settled' are clear: isnuwa- 'make sit, settle' (§30–§31) under the seat classifier SOLIUM, with the 1st singular past -ha; its sà is damaged. 'This Tarhunzas': the demonstrative points to the god as present here, in the city just named; what form that presence took, the clause does not say. Before it the numbering jumps from §45 to §47: §46 is not preserved.",
+   "p": true,
+   "par": {
+    "id": "azatiwada-phoenician",
+    "ln": [
+     "II 17"
+    ],
+    "u": 31
+   }
+  },
+  {
+   "t": "𔗬𔐤 𔓯𔖩𔗔𔑢𔐤 𔑯𔓱 𔓳𔓟𔕸𔖱𔗦 𔖝𔖻𔓯𔗦 𔕺𔑺𔓉 𔒄𔖱 𔑺▢𔗦 𔘝𔕰𔑢𔐤𔓶 𔒄▢𔓟𔗬𔗦 𔒻𔓟𔖱𔓶 𔒄▢𔗬𔗔",
+   "l": "And him to honour stands every river-land: during the year a bull, and at the cutting a sheep, and at the crushing a sheep.",
+   "ln": 48,
+   "words": [
+    {
+     "reading": "wa=an",
+     "say": "wa=an",
+     "glyphs": [
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔐤",
+       "role": "phon",
+       "tr": "na",
+       "sign": "A035"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "=wa",
+       "gloss": "quotative particle",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "=an",
+       "gloss": "him (clitic pronoun, accusative singular)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "izzistuna",
+     "say": "izzistuna",
+     "glyphs": [
+      {
+       "s": "𔓯",
+       "role": "phon",
+       "tr": "i",
+       "sign": "A209"
+      },
+      {
+       "s": "𔖩",
+       "role": "phon",
+       "tr": "zi",
+       "sign": "A376"
+      },
+      {
+       "s": "𔗔",
+       "role": "phon",
+       "tr": "sa",
+       "sign": "A415"
+      },
+      {
+       "s": "𔑢",
+       "role": "phon",
+       "tr": "tu",
+       "sign": "A089"
+      },
+      {
+       "s": "𔐤",
+       "role": "phon",
+       "tr": "na",
+       "sign": "A035"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "izzista-",
+       "gloss": "honour",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-una",
+       "gloss": "infinitive ending — 'to honour'",
+       "g": [
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "taya",
+     "say": "taya",
+     "glyphs": [
+      {
+       "s": "𔑯",
+       "role": "phon",
+       "tr": "ta",
+       "sign": "A100"
+      },
+      {
+       "s": "𔓱",
+       "role": "phon",
+       "tr": "ia",
+       "sign": "A210"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ta-",
+       "gloss": "stand",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-i",
+       "gloss": "3rd person singular present — 'stands' (spelled -ia)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "habaris",
+     "say": "habaris",
+     "glyphs": [
+      {
+       "s": "𔓳",
+       "role": "det",
+       "tr": "",
+       "sign": "A212"
+      },
+      {
+       "s": "𔓟",
+       "role": "phon",
+       "tr": "há",
+       "sign": "A196"
+      },
+      {
+       "s": "𔕸𔖱",
+       "role": "phon",
+       "tr": "pa+ra/i",
+       "sign": "A334",
+       "keys": [
+        "A334",
+        "A383"
+       ]
+      },
+      {
+       "s": "𔗦",
+       "role": "phon",
+       "tr": "sá",
+       "sign": "A433"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "habad(i)-",
+       "gloss": "river-land (classified by the river sign FLUMEN) — here sounded habari-, d heard as r",
+       "g": [
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-s",
+       "gloss": "nominative singular ending — the subject",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tanimis",
+     "say": "tanimis",
+     "glyphs": [
+      {
+       "s": "𔖝𔖻",
+       "role": "log",
+       "tr": "OMNIS.MI",
+       "sign": "A366",
+       "keys": [
+        "A366",
+        "A391"
+       ],
+       "val": "tanim"
+      },
+      {
+       "s": "𔓯",
+       "role": "phon",
+       "tr": "i",
+       "sign": "A209"
+      },
+      {
+       "s": "𔗦",
+       "role": "phon",
+       "tr": "sá",
+       "sign": "A433"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tanim(a)-",
+       "gloss": "all, every (OMNIS with attached mi)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-is",
+       "gloss": "common nominative singular ending",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ussi",
+     "say": "ussi",
+     "glyphs": [
+      {
+       "s": "𔕺",
+       "role": "det",
+       "tr": "",
+       "sign": "A336"
+      },
+      {
+       "s": "𔑺",
+       "role": "phon",
+       "tr": "u",
+       "sign": "A105"
+      },
+      {
+       "s": "𔓉",
+       "role": "phon",
+       "tr": "si",
+       "sign": "A174"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "uss(i)-",
+       "gloss": "year (classified by the ANNUS sign)",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "-i",
+       "gloss": "dative singular ending (the si sign also carries the stem's s)",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mari",
+     "say": "mari",
+     "glyphs": [
+      {
+       "s": "𔒄𔖱",
+       "role": "phon",
+       "tr": "mara/i",
+       "sign": "A110",
+       "keys": [
+        "A110",
+        "A383"
+       ]
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mari",
+       "gloss": "during (one ligature, ma+ra/i)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wawis",
+     "say": "wawis",
+     "glyphs": [
+      {
+       "s": "𔑺▢",
+       "role": "log",
+       "tr": "BOS.ANIMA",
+       "sign": "A105",
+       "keys": [
+        "A105",
+        "DAMAGED"
+       ],
+       "val": "wawi"
+      },
+      {
+       "s": "𔗦",
+       "role": "phon",
+       "tr": "sá",
+       "sign": "A433"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "waw(i)-",
+       "gloss": "bull, ox (BOS.ANIMA)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-s",
+       "gloss": "nominative singular ending",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "kwaruna=ha",
+     "say": "kwaruna=ha",
+     "glyphs": [
+      {
+       "s": "𔘝",
+       "role": "det",
+       "tr": "",
+       "sign": "A486"
+      },
+      {
+       "s": "𔕰",
+       "role": "phon",
+       "tr": "kwa/i",
+       "sign": "A329"
+      },
+      {
+       "s": "𔑢",
+       "role": "phon",
+       "tr": "tu",
+       "sign": "A089"
+      },
+      {
+       "s": "𔐤",
+       "role": "phon",
+       "tr": "na",
+       "sign": "A035"
+      },
+      {
+       "s": "𔓶",
+       "role": "phon",
+       "tr": "ha",
+       "sign": "A215"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kwaruna-",
+       "gloss": "cutting (classified by the sign L486) — dative, 'at the cutting'; meaning approximate",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "=ha",
+       "gloss": "and",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "hawis",
+     "say": "hawis",
+     "glyphs": [
+      {
+       "s": "𔒄▢",
+       "role": "det",
+       "tr": "",
+       "sign": "A110",
+       "keys": [
+        "A110",
+        "DAMAGED"
+       ]
+      },
+      {
+       "s": "𔓟",
+       "role": "phon",
+       "tr": "há",
+       "sign": "A196"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔗦",
+       "role": "phon",
+       "tr": "sá",
+       "sign": "A433"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "haw(i)-",
+       "gloss": "sheep (classified by OVIS.ANIMA)",
+       "g": [
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-s",
+       "gloss": "nominative singular ending",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "harri=ha",
+     "say": "harri=ha",
+     "glyphs": [
+      {
+       "s": "𔒻",
+       "role": "det",
+       "tr": "",
+       "sign": "A160"
+      },
+      {
+       "s": "𔓟𔖱",
+       "role": "phon",
+       "tr": "há+ra/i",
+       "sign": "A196",
+       "keys": [
+        "A196",
+        "A383"
+       ]
+      },
+      {
+       "s": "𔓶",
+       "role": "phon",
+       "tr": "ha",
+       "sign": "A215"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "harr(a/i)-",
+       "gloss": "crushing (classified by the vine sign VITIS) — dative, 'at the crushing'; meaning approximate",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "=ha",
+       "gloss": "and",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "hawis",
+     "say": "hawis",
+     "glyphs": [
+      {
+       "s": "𔒄▢",
+       "role": "log",
+       "tr": "OVIS.ANIMA",
+       "sign": "A110",
+       "keys": [
+        "A110",
+        "DAMAGED"
+       ],
+       "val": "hawi"
+      },
+      {
+       "s": "𔗬",
+       "role": "comp",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔗔",
+       "role": "phon",
+       "tr": "sa",
+       "sign": "A415"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "haw(i)-",
+       "gloss": "sheep (OVIS.ANIMA)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-s",
+       "gloss": "nominative singular ending",
+       "g": [
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "And every river-land stands to honour him: a bull in the course of the year, a sheep at the cutting, and a sheep at the crushing of the grapes.",
+   "n": "wa=an: =wa with =an 'him' — the god just settled. izzistuna 'to honour' is an infinitive; taya 'stands' (ta- 'stand', present 3rd singular) has as its subject habaris tanimis 'every river-land', nominative -s: habari- is the corpus's habad(i)-, the d sounded r, under the river classifier FLUMEN; tanimis is OMNIS.MI-i-sá. Then the offerings, each animal in the nominative: ussi mari 'during the year' (ussi, dative of uss(i)- 'year' under ANNUS; mari is one ligature, ma+ra/i) — wawis 'a bull' (BOS.ANIMA); kwaruna=ha 'and at the cutting', a dative under a classifier known only by its list number, L486 (the tu stands for ru here; the other copy is read kwaduna) — hawis 'a sheep' (OVIS.ANIMA, first as classifier, then as logogram); harri=ha 'and at the crushing', under the vine sign VITIS — hawis. 'Cutting' and 'crushing' are the corpus's glosses; that they mean the reaping and the pressing of the grapes is likely but not certain. The ANIMA element of BOS.ANIMA and OVIS.ANIMA has no verifiable Unicode sign: it is shown with the ▢ placeholder, which here marks a gap in the sign repertoire, not damage to the stone.",
+   "par": {
+    "id": "azatiwada-phoenician",
+    "ln": [
+     "II 19"
+    ],
+    "u": 32
+   }
+  },
+  {
+   "t": "𔗬𔑯 𔑺𔗔𔖿𔗬𔑢𔑺 𔖫𔐓𔖪𔑣𔗬𔐫𔐤 𔗔𔑈𔗦𔓇𔖱𔓯 𔓶𔐫𔖱𔑣𔓯𔓟",
+   "l": "And may he bless Azatiwada with health and with well-being.",
+   "ln": 49,
+   "words": [
+    {
+     "reading": "wa=tta",
+     "say": "wa=tta",
+     "glyphs": [
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔑯",
+       "role": "phon",
+       "tr": "ta",
+       "sign": "A100"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "=wa",
+       "gloss": "quotative particle",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "=tta",
+       "gloss": "particle of place/motion",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "usnuwattu",
+     "say": "usnuwattu",
+     "glyphs": [
+      {
+       "s": "𔑺",
+       "role": "phon",
+       "tr": "u",
+       "sign": "A105"
+      },
+      {
+       "s": "𔗔",
+       "role": "phon",
+       "tr": "sa",
+       "sign": "A415"
+      },
+      {
+       "s": "𔖿",
+       "role": "phon",
+       "tr": "nú",
+       "sign": "A395"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔑢",
+       "role": "phon",
+       "tr": "tu",
+       "sign": "A089"
+      },
+      {
+       "s": "𔑺",
+       "role": "phon",
+       "tr": "u",
+       "sign": "A105"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "usnu-",
+       "gloss": "bless, make prosper",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-ttu",
+       "gloss": "3rd person singular imperative — 'may he …'",
+       "g": [
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "Azzattiwadan",
+     "say": "Azzattiwadan",
+     "glyphs": [
+      {
+       "s": "𔖫",
+       "role": "det",
+       "tr": "",
+       "sign": "A378"
+      },
+      {
+       "s": "𔐓",
+       "role": "phon",
+       "tr": "á",
+       "sign": "A019"
+      },
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377"
+      },
+      {
+       "s": "𔑣",
+       "role": "phon",
+       "tr": "ti",
+       "sign": "A090"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔐫",
+       "role": "phon",
+       "tr": "tà",
+       "sign": "A041"
+      },
+      {
+       "s": "𔐤",
+       "role": "phon",
+       "tr": "na",
+       "sign": "A035"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Azzattiwada-",
+       "gloss": "Azatiwada",
+       "g": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      },
+      {
+       "lemma": "-n",
+       "gloss": "accusative singular ending",
+       "g": [
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "saPisarari",
+     "say": "saPisarari",
+     "glyphs": [
+      {
+       "s": "𔗔",
+       "role": "phon",
+       "tr": "sa",
+       "sign": "A415"
+      },
+      {
+       "s": "𔑈",
+       "role": "phon",
+       "tr": "pi",
+       "sign": "A066"
+      },
+      {
+       "s": "𔗦",
+       "role": "phon",
+       "tr": "sá",
+       "sign": "A433"
+      },
+      {
+       "s": "𔓇",
+       "role": "phon",
+       "tr": "lá/í",
+       "sign": "A172"
+      },
+      {
+       "s": "𔖱𔓯",
+       "role": "phon",
+       "tr": "ri+i",
+       "sign": "A383",
+       "keys": [
+        "A383",
+        "A209"
+       ]
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "saPisad(a)-",
+       "gloss": "health (the capital P marks a sound the spelling leaves open)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-ari",
+       "gloss": "instrumental ending — 'with' (-adi, the d sounded r)",
+       "g": [
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "hadaradi=ha",
+     "say": "hadaradi=ha",
+     "glyphs": [
+      {
+       "s": "𔓶",
+       "role": "phon",
+       "tr": "ha",
+       "sign": "A215"
+      },
+      {
+       "s": "𔐫𔖱",
+       "role": "phon",
+       "tr": "tà+ra/i",
+       "sign": "A041",
+       "keys": [
+        "A041",
+        "A383"
+       ]
+      },
+      {
+       "s": "𔑣",
+       "role": "phon",
+       "tr": "ti",
+       "sign": "A090"
+      },
+      {
+       "s": "𔓯",
+       "role": "phon",
+       "tr": "i",
+       "sign": "A209"
+      },
+      {
+       "s": "𔓟",
+       "role": "phon",
+       "tr": "há",
+       "sign": "A196"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "hadara-",
+       "gloss": "health, well-being (a second word glossed health)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-di",
+       "gloss": "instrumental ending — 'with'",
+       "g": [
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "=ha",
+       "gloss": "and",
+       "g": [
+        4
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "And may he bless Azatiwada with health and well-being.",
+   "n": "usnuwattu is the 3rd singular imperative (-ttu) of usnu- 'bless, make prosper' (the verb of §14): 'may he bless' — the god of §47–§48 is the unnamed subject; =tta is the place particle. Azzattiwadan is the accusative (-n). Two instrumental nouns follow, both glossed 'health' by the corpus: saPisarari (saPisad(a)-, the capital P marking a sound the spelling leaves open; the d is sounded r, the l-sign lá/í stands for ra, and ri+i is one ligature) and hadaradi=ha (hadara-, with =ha 'and'). 'Health and well-being' only marks that two different words stand side by side; how they differ is not known.",
+   "p": true,
+   "par": {
+    "id": "azatiwada-phoenician",
+    "ln": [
+     "III 2"
+    ],
+    "u": 33
+   }
+  },
+  {
+   "t": "𔑏𔖱𔔹𔓟𔗬𔗦 𔐚𔗲𔗦 𔓯𔖩𔓱𔖱𔗑 𔖝𔖻𔒄𔖪 𔐑𔑯𔖪",
+   "l": "And highly may he be made foremost among all kings.",
+   "ln": 50,
+   "words": [
+    {
+     "reading": "sarli=ha=wa=as",
+     "say": "sarli=ha=wa=as",
+     "glyphs": [
+      {
+       "s": "𔑏𔖱",
+       "role": "log",
+       "tr": "SUPER+ra/i",
+       "sign": "A070",
+       "keys": [
+        "A070",
+        "A383"
+       ],
+       "val": "sar"
+      },
+      {
+       "s": "𔔹",
+       "role": "phon",
+       "tr": "li",
+       "sign": "A278"
+      },
+      {
+       "s": "𔓟",
+       "role": "phon",
+       "tr": "há",
+       "sign": "A196"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔗦",
+       "role": "phon",
+       "tr": "sá",
+       "sign": "A433"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "sarli",
+       "gloss": "highly (SUPER+ra/i)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "=ha",
+       "gloss": "and",
+       "g": [
+        2
+       ]
+      },
+      {
+       "lemma": "=wa",
+       "gloss": "quotative particle",
+       "g": [
+        3
+       ]
+      },
+      {
+       "lemma": "=as",
+       "gloss": "he (clitic pronoun, nominative singular)",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "hantilis",
+     "say": "hantilis",
+     "glyphs": [
+      {
+       "s": "𔐚",
+       "role": "log",
+       "tr": "FRONS",
+       "sign": "A026",
+       "val": "hanti"
+      },
+      {
+       "s": "𔗲",
+       "role": "phon",
+       "tr": "la/i/u",
+       "sign": "A445"
+      },
+      {
+       "s": "𔗦",
+       "role": "phon",
+       "tr": "sá",
+       "sign": "A433"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "hantili-",
+       "gloss": "foremost, first (FRONS 'front')",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-s",
+       "gloss": "nominative singular ending",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "izziyararu",
+     "say": "izziyararu",
+     "glyphs": [
+      {
+       "s": "𔓯",
+       "role": "phon",
+       "tr": "i",
+       "sign": "A209"
+      },
+      {
+       "s": "𔖩",
+       "role": "phon",
+       "tr": "zi",
+       "sign": "A376"
+      },
+      {
+       "s": "𔓱𔖱",
+       "role": "phon",
+       "tr": "ia+ra/i",
+       "sign": "A210",
+       "keys": [
+        "A210",
+        "A383"
+       ]
+      },
+      {
+       "s": "𔗑",
+       "role": "phon",
+       "tr": "ru",
+       "sign": "A412"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "izzi(ya)-",
+       "gloss": "make, do",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-(ra)ru",
+       "gloss": "3rd person singular imperative, middle — 'let him be made'",
+       "g": [
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tanimanza",
+     "say": "tanimanza",
+     "glyphs": [
+      {
+       "s": "𔖝𔖻",
+       "role": "log",
+       "tr": "OMNIS.MI",
+       "sign": "A366",
+       "keys": [
+        "A366",
+        "A391"
+       ],
+       "val": "tanim"
+      },
+      {
+       "s": "𔒄",
+       "role": "comp",
+       "tr": "ma",
+       "sign": "A110"
+      },
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tanim(a)-",
+       "gloss": "all, every (OMNIS with attached mi)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-nza",
+       "gloss": "dative plural ending",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "hantawattanza",
+     "say": "hantawattanza",
+     "glyphs": [
+      {
+       "s": "𔐑",
+       "role": "log",
+       "tr": "REX",
+       "sign": "A017",
+       "val": "hantawatti"
+      },
+      {
+       "s": "𔑯",
+       "role": "comp",
+       "tr": "ta",
+       "sign": "A100"
+      },
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "hantawatti-",
+       "gloss": "king (written with the REX sign)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-nza",
+       "gloss": "dative plural ending — 'among (the) kings'",
+       "g": [
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "And may he be made high, foremost among all kings.",
+   "n": "sarli=ha=wa=as: sarli 'highly' (SUPER+ra/i, the sign of sranta 'over', here followed by -li) carries =ha 'and', =wa and =as 'he', the clitic pronoun in the nominative — Azatiwada. hantilis 'foremost' is FRONS 'front' with -li-s, as in §26, nominative singular. izziyararu is izzi(ya)- 'make' in the 3rd singular imperative middle, 'let him be made'; the corpus reads the ligature ia+ra/i plus ru as a longer form than the other copy's izziyaru. tanimanza hantawattanza 'to all kings' is dative plural -nza twice: OMNIS.MI-ma-za and REX-ta-za.",
+   "par": {
+    "id": "azatiwada-phoenician",
+    "ln": [
+     "III 2"
+    ],
+    "u": 33
+   }
+  },
+  {
+   "t": "𔑈𔓱𔑢𔓟𔗬𔑢𔑺 𔖖𔓢𔕙𔖪𔗦 𔓸 𔑺𔗔𔖿𔗬𔖻𔗦 𔖪𔓉𔓟𔗬 𔔉𔓟𔖱𔐤𔗦𔓉 𔖖𔓵𔖩 𔖫𔐓𔖪𔑣𔗬𔐫𔓱 𔑄𔓇𔓱 𔖓𔓟𔔹𔓱 𔖻𔓱𔑣𔖩𔓶 𔕺𔑺𔓉𔖩 𔗔𔐤𔗬𔗦𔓶𔗬 𔐞𔖻𔗒𔗦",
+   "l": "And may give him Tarhunzas, fully(?) pleased, and of this fortress the gods — to Azatiwada long days and many years, and good old age.",
+   "ln": 51,
+   "words": [
+    {
+     "reading": "piyantu=ha=wa=du",
+     "say": "piyantu=ha=wa=du",
+     "glyphs": [
+      {
+       "s": "𔑈",
+       "role": "phon",
+       "tr": "pi",
+       "sign": "A066"
+      },
+      {
+       "s": "𔓱",
+       "role": "phon",
+       "tr": "ia",
+       "sign": "A210"
+      },
+      {
+       "s": "𔑢",
+       "role": "phon",
+       "tr": "tu",
+       "sign": "A089"
+      },
+      {
+       "s": "𔓟",
+       "role": "phon",
+       "tr": "há",
+       "sign": "A196"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔑢",
+       "role": "phon",
+       "tr": "tu",
+       "sign": "A089"
+      },
+      {
+       "s": "𔑺",
+       "role": "phon",
+       "tr": "u",
+       "sign": "A105"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "piya-",
+       "gloss": "give",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-ntu",
+       "gloss": "3rd person plural imperative — 'may they give' (the n unwritten)",
+       "g": [
+        2
+       ]
+      },
+      {
+       "lemma": "=ha",
+       "gloss": "and",
+       "g": [
+        3
+       ]
+      },
+      {
+       "lemma": "=wa",
+       "gloss": "quotative particle",
+       "g": [
+        4
+       ]
+      },
+      {
+       "lemma": "=du",
+       "gloss": "to him (clitic pronoun, dative singular)",
+       "g": [
+        5,
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "Tarhunzas",
+     "say": "Tarhunzas",
+     "glyphs": [
+      {
+       "s": "𔖖",
+       "role": "det",
+       "tr": "",
+       "sign": "A360"
+      },
+      {
+       "s": "𔓢",
+       "role": "log",
+       "tr": "TONITRUS",
+       "sign": "A199",
+       "val": "Tarhu"
+      },
+      {
+       "s": "𔕙",
+       "role": "comp",
+       "tr": "hu",
+       "sign": "A307"
+      },
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377"
+      },
+      {
+       "s": "𔗦",
+       "role": "phon",
+       "tr": "sá",
+       "sign": "A433"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Tarhunza-",
+       "gloss": "Tarhunzas, the Storm-god",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-s",
+       "gloss": "nominative singular ending — a subject",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ahha",
+     "say": "ahha",
+     "glyphs": [
+      {
+       "s": "𔓸",
+       "role": "log",
+       "tr": "ARHA",
+       "sign": "A216",
+       "val": "ahha"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ahha",
+       "gloss": "away, back, utterly (ARHA; set in braces by the corpus) — its force with the participle unclear",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "usnuwammis",
+     "say": "usnuwammis",
+     "glyphs": [
+      {
+       "s": "𔑺",
+       "role": "phon",
+       "tr": "u",
+       "sign": "A105"
+      },
+      {
+       "s": "𔗔",
+       "role": "phon",
+       "tr": "sa",
+       "sign": "A415"
+      },
+      {
+       "s": "𔖿",
+       "role": "phon",
+       "tr": "nú",
+       "sign": "A395"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔖻",
+       "role": "phon",
+       "tr": "mi",
+       "sign": "A391"
+      },
+      {
+       "s": "𔗦",
+       "role": "phon",
+       "tr": "sá",
+       "sign": "A433"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "usnu-",
+       "gloss": "bless, please",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-mmi-",
+       "gloss": "participle — 'pleased, blessed'",
+       "g": [
+        4
+       ]
+      },
+      {
+       "lemma": "-s",
+       "gloss": "nominative singular ending, agreeing with Tarhunzas",
+       "g": [
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "zassi=ha=wa",
+     "say": "zassi=ha=wa",
+     "glyphs": [
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377"
+      },
+      {
+       "s": "𔓉",
+       "role": "phon",
+       "tr": "si",
+       "sign": "A174"
+      },
+      {
+       "s": "𔓟",
+       "role": "phon",
+       "tr": "há",
+       "sign": "A196"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "za-",
+       "gloss": "this (demonstrative)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-ssi",
+       "gloss": "genitive ending — 'of this'",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "=ha",
+       "gloss": "and",
+       "g": [
+        2
+       ]
+      },
+      {
+       "lemma": "=wa",
+       "gloss": "quotative particle",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "harnassassi",
+     "say": "harnassassi",
+     "glyphs": [
+      {
+       "s": "𔔉",
+       "role": "det",
+       "tr": "",
+       "sign": "A231"
+      },
+      {
+       "s": "𔓟𔖱",
+       "role": "phon",
+       "tr": "há+ra/i",
+       "sign": "A196",
+       "keys": [
+        "A196",
+        "A383"
+       ]
+      },
+      {
+       "s": "𔐤",
+       "role": "phon",
+       "tr": "na",
+       "sign": "A035"
+      },
+      {
+       "s": "𔗦",
+       "role": "phon",
+       "tr": "sá",
+       "sign": "A433"
+      },
+      {
+       "s": "𔓉",
+       "role": "phon",
+       "tr": "si",
+       "sign": "A174"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "harnissa-",
+       "gloss": "fortress (classified by CASTRUM) — sounded harnassa-; the ra/i is supplied by the corpus",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-ssi",
+       "gloss": "genitive ending — 'of (this) fortress'",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "massaninzi",
+     "say": "massaninzi",
+     "glyphs": [
+      {
+       "s": "𔖖",
+       "role": "log",
+       "tr": "DEUS",
+       "sign": "A360",
+       "val": "massani"
+      },
+      {
+       "s": "𔓵",
+       "role": "comp",
+       "tr": "ní",
+       "sign": "A214"
+      },
+      {
+       "s": "𔖩",
+       "role": "phon",
+       "tr": "zi",
+       "sign": "A376"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "massan(i)-",
+       "gloss": "god (DEUS)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-nzi",
+       "gloss": "nominative plural ending",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "Azzattiwadaya",
+     "say": "Azzattiwadaya",
+     "glyphs": [
+      {
+       "s": "𔖫",
+       "role": "det",
+       "tr": "",
+       "sign": "A378"
+      },
+      {
+       "s": "𔐓",
+       "role": "phon",
+       "tr": "á",
+       "sign": "A019"
+      },
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377"
+      },
+      {
+       "s": "𔑣",
+       "role": "phon",
+       "tr": "ti",
+       "sign": "A090"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔐫",
+       "role": "phon",
+       "tr": "tà",
+       "sign": "A041"
+      },
+      {
+       "s": "𔓱",
+       "role": "phon",
+       "tr": "ia",
+       "sign": "A210"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Azzattiwada-",
+       "gloss": "Azatiwada",
+       "g": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      },
+      {
+       "lemma": "-ya",
+       "gloss": "dative ending — 'to, for'",
+       "g": [
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "arraya",
+     "say": "arraya",
+     "glyphs": [
+      {
+       "s": "𔑄",
+       "role": "log",
+       "tr": "LONGUS",
+       "sign": "A062",
+       "val": "arra"
+      },
+      {
+       "s": "𔓇",
+       "role": "comp",
+       "tr": "lá/í",
+       "sign": "A172"
+      },
+      {
+       "s": "𔓱",
+       "role": "phon",
+       "tr": "ia",
+       "sign": "A210"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "array(a/i)-",
+       "gloss": "long (LONGUS; the l-sign stands for the stem's r)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-ya",
+       "gloss": "neuter plural accusative ending",
+       "g": [
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "halliya",
+     "say": "halliya",
+     "glyphs": [
+      {
+       "s": "𔖓",
+       "role": "det",
+       "tr": "",
+       "sign": "A358"
+      },
+      {
+       "s": "𔓟",
+       "role": "phon",
+       "tr": "há",
+       "sign": "A196"
+      },
+      {
+       "s": "𔔹",
+       "role": "phon",
+       "tr": "li",
+       "sign": "A278"
+      },
+      {
+       "s": "𔓱",
+       "role": "phon",
+       "tr": "ia",
+       "sign": "A210"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "halli-",
+       "gloss": "day (classified by the DIES sign)",
+       "g": [
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-ya",
+       "gloss": "plural accusative ending — 'days'",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "miyantinzi=ha",
+     "say": "miyantinzi=ha",
+     "glyphs": [
+      {
+       "s": "𔖻",
+       "role": "phon",
+       "tr": "mi",
+       "sign": "A391"
+      },
+      {
+       "s": "𔓱",
+       "role": "phon",
+       "tr": "ia",
+       "sign": "A210"
+      },
+      {
+       "s": "𔑣",
+       "role": "phon",
+       "tr": "ti",
+       "sign": "A090"
+      },
+      {
+       "s": "𔖩",
+       "role": "phon",
+       "tr": "zi",
+       "sign": "A376"
+      },
+      {
+       "s": "𔓶",
+       "role": "phon",
+       "tr": "ha",
+       "sign": "A215"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "miyant(i)-",
+       "gloss": "many",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-nzi",
+       "gloss": "common plural accusative ending (the n before t unwritten)",
+       "g": [
+        3
+       ]
+      },
+      {
+       "lemma": "=ha",
+       "gloss": "and",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ussinzi",
+     "say": "ussinzi",
+     "glyphs": [
+      {
+       "s": "𔕺",
+       "role": "det",
+       "tr": "",
+       "sign": "A336"
+      },
+      {
+       "s": "𔑺",
+       "role": "phon",
+       "tr": "u",
+       "sign": "A105"
+      },
+      {
+       "s": "𔓉",
+       "role": "phon",
+       "tr": "si",
+       "sign": "A174"
+      },
+      {
+       "s": "𔖩",
+       "role": "phon",
+       "tr": "zi",
+       "sign": "A376"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "uss(i)-",
+       "gloss": "year (classified by the ANNUS sign)",
+       "g": [
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-nzi",
+       "gloss": "common plural accusative ending",
+       "g": [
+        3
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "sannawisa=ha=wa",
+     "say": "sannawisa=ha=wa",
+     "glyphs": [
+      {
+       "s": "𔗔",
+       "role": "phon",
+       "tr": "sa",
+       "sign": "A415"
+      },
+      {
+       "s": "𔐤",
+       "role": "phon",
+       "tr": "na",
+       "sign": "A035"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔗦",
+       "role": "phon",
+       "tr": "sá",
+       "sign": "A433"
+      },
+      {
+       "s": "𔓶",
+       "role": "phon",
+       "tr": "ha",
+       "sign": "A215"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "sannawi-",
+       "gloss": "good",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-sa",
+       "gloss": "neuter singular accusative ending",
+       "g": [
+        3
+       ]
+      },
+      {
+       "lemma": "=ha",
+       "gloss": "and",
+       "g": [
+        4
+       ]
+      },
+      {
+       "lemma": "=wa",
+       "gloss": "quotative particle",
+       "g": [
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tammihisa",
+     "say": "tammihisa",
+     "glyphs": [
+      {
+       "s": "𔐞",
+       "role": "phon",
+       "tr": "tá",
+       "sign": "A029"
+      },
+      {
+       "s": "𔖻",
+       "role": "phon",
+       "tr": "mi",
+       "sign": "A391"
+      },
+      {
+       "s": "𔗒",
+       "role": "phon",
+       "tr": "hi",
+       "sign": "A413"
+      },
+      {
+       "s": "𔗦",
+       "role": "phon",
+       "tr": "sá",
+       "sign": "A433"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tammihi(d)-",
+       "gloss": "old age",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-sa",
+       "gloss": "neuter singular accusative ending",
+       "g": [
+        3
+       ]
+      }
+     ],
+     "nl": true
+    }
+   ],
+   "i": "And may Tarhunzas, well pleased, and the gods of this fortress give Azatiwada long days and many years, and a good old age.",
+   "n": "piyantu 'may they give' (piya-, 3rd plural imperative -ntu, the n unwritten) carries =ha, =wa and =du 'to him', whom Azzattiwadaya (dative -ya) then names. Two subjects: Tarhunzas, with ahha usnuwammis — usnuwammis is the participle (-mmi-, nominative -s) of usnu- 'bless, please', so 'pleased' or 'blessed', and ahha (ARHA, which the corpus sets in braces) colours it, its exact force here unclear; and massaninzi 'gods' (DEUS-ní-zi, nominative plural -nzi), qualified by zassi=ha=wa harnassassi 'of this fortress', genitive -ssi on both words. In harnassassi the ra/i of the ligature há+ra/i is supplied by the corpus (<+ra/i>): it is shown but is not on the stone. The gifts are accusatives: arraya halliya 'long days' (LONGUS-lá/í-ia, the l-sign standing for the stem's r), miyantinzi=ha ussinzi 'and many years' (common plural -nzi, the ANNUS classifier), sannawisa=ha=wa tammihisa 'and good old age' (neuter singular -sa, with =wa once more mid-clause). Three register breaks fall in this clause.",
+   "p": true,
+   "par": {
+    "id": "azatiwada-phoenician",
+    "ln": [
+     "III 4"
+    ],
+    "u": 34
+   }
+  },
+  {
+   "t": "𔑈𔓱𔑢𔓟𔗬𔑢 𔓣𔓟𔗦 𔖝𔖻𔒄𔖪 𔐑𔖪 𔑏𔖱𔑯",
+   "l": "And may they give him auras over all kings.",
+   "ln": 52,
+   "words": [
+    {
+     "reading": "piyantu=ha=wa=du",
+     "say": "piyantu=ha=wa=du",
+     "glyphs": [
+      {
+       "s": "𔑈",
+       "role": "phon",
+       "tr": "pi",
+       "sign": "A066"
+      },
+      {
+       "s": "𔓱",
+       "role": "phon",
+       "tr": "ia",
+       "sign": "A210"
+      },
+      {
+       "s": "𔑢",
+       "role": "phon",
+       "tr": "tu",
+       "sign": "A089"
+      },
+      {
+       "s": "𔓟",
+       "role": "phon",
+       "tr": "há",
+       "sign": "A196"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔑢",
+       "role": "phon",
+       "tr": "tu",
+       "sign": "A089"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "piya-",
+       "gloss": "give",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-ntu",
+       "gloss": "3rd person plural imperative — 'may they give' (the n unwritten)",
+       "g": [
+        2
+       ]
+      },
+      {
+       "lemma": "=ha",
+       "gloss": "and",
+       "g": [
+        3
+       ]
+      },
+      {
+       "lemma": "=wa",
+       "gloss": "quotative particle",
+       "g": [
+        4
+       ]
+      },
+      {
+       "lemma": "=du",
+       "gloss": "to him (clitic pronoun, dative singular)",
+       "g": [
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "pihassa",
+     "say": "pihassa",
+     "glyphs": [
+      {
+       "s": "𔓣",
+       "role": "log",
+       "tr": "FULGUR",
+       "sign": "A200",
+       "val": "piha"
+      },
+      {
+       "s": "𔓟",
+       "role": "comp",
+       "tr": "há",
+       "sign": "A196"
+      },
+      {
+       "s": "𔗦",
+       "role": "phon",
+       "tr": "sá",
+       "sign": "A433"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "pihass(a)-",
+       "gloss": "aura, radiance (FULGUR, the lightning sign; nuance approximate) — the whole word supplied by the corpus",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-a",
+       "gloss": "plural accusative ending",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tanimanza",
+     "say": "tanimanza",
+     "glyphs": [
+      {
+       "s": "𔖝𔖻",
+       "role": "log",
+       "tr": "OMNIS.MI",
+       "sign": "A366",
+       "keys": [
+        "A366",
+        "A391"
+       ],
+       "val": "tanim"
+      },
+      {
+       "s": "𔒄",
+       "role": "comp",
+       "tr": "ma",
+       "sign": "A110"
+      },
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tanim(a)-",
+       "gloss": "all, every (OMNIS with attached mi)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-nza",
+       "gloss": "dative plural ending",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "hantawattanza",
+     "say": "hantawattanza",
+     "glyphs": [
+      {
+       "s": "𔐑",
+       "role": "log",
+       "tr": "REX",
+       "sign": "A017",
+       "val": "hantawatti"
+      },
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "hantawatti-",
+       "gloss": "king (written with the REX sign)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-nza",
+       "gloss": "dative plural ending",
+       "g": [
+        1
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "sranta",
+     "say": "sranta",
+     "glyphs": [
+      {
+       "s": "𔑏𔖱",
+       "role": "log",
+       "tr": "SUPER+ra/i",
+       "sign": "A070",
+       "keys": [
+        "A070",
+        "A383"
+       ],
+       "val": "sran"
+      },
+      {
+       "s": "𔑯",
+       "role": "comp",
+       "tr": "ta",
+       "sign": "A100"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "sranta",
+       "gloss": "on top of, over (SUPER)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "And may they give him a radiance above all kings.",
+   "n": "The same opening as §51, piyantu=ha=wa=du 'and may they give him'. Its object, pihassa 'auras' (pihass(a)-, plural accusative), under the lightning sign FULGUR, is not on this stone: the whole word is supplied by the corpus (<…>), as the copy at the other gate writes it — shown here, but editorial. The corpus glosses it 'aura'; 'radiance' keeps the light of the lightning classifier, but the word's nuance is approximate. tanimanza hantawattanza 'all kings' is dative plural again (REX-za this time, after a register break), governed by sranta 'over, on top of' (SUPER+ra/i-ta, as in §8–§10).",
+   "par": {
+    "id": "azatiwada-phoenician",
+    "ln": [
+     "III 4"
+    ],
+    "u": 34
+   }
+  },
+  {
+   "t": "𔕰𔕸𔗬 𔖪 𔔉𔓟𔖱𔓵𔑶𔖪 𔓯𔖩𔓱𔗑 𔖖𔓀𔗔 𔖖𔒻𔗦𔓟",
+   "l": "Indeed this fortress may be made Kumarma's and Tipariya's.",
+   "ln": 53,
+   "words": [
+    {
+     "reading": "kwippa=wa",
+     "say": "kwippa=wa",
+     "glyphs": [
+      {
+       "s": "𔕰",
+       "role": "phon",
+       "tr": "kwa/i",
+       "sign": "A329"
+      },
+      {
+       "s": "𔕸",
+       "role": "phon",
+       "tr": "pa",
+       "sign": "A334"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kwippa",
+       "gloss": "indeed (clause-opening adverb)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "=wa",
+       "gloss": "quotative particle",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "za",
+     "say": "za",
+     "glyphs": [
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "za-",
+       "gloss": "this (demonstrative) — neuter nominative singular",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "harnissanza",
+     "say": "harnissanza",
+     "glyphs": [
+      {
+       "s": "𔔉",
+       "role": "det",
+       "tr": "",
+       "sign": "A231"
+      },
+      {
+       "s": "𔓟𔖱",
+       "role": "phon",
+       "tr": "há+ra/i",
+       "sign": "A196",
+       "keys": [
+        "A196",
+        "A383"
+       ]
+      },
+      {
+       "s": "𔓵",
+       "role": "phon",
+       "tr": "ní",
+       "sign": "A214"
+      },
+      {
+       "s": "𔑶",
+       "role": "phon",
+       "tr": "sà",
+       "sign": "A104"
+      },
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377",
+       "nl": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "harnissa-",
+       "gloss": "fortress (classified by the fortress-wall sign CASTRUM)",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-nza",
+       "gloss": "neuter singular nominative ending",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "izziyaru",
+     "say": "izziyaru",
+     "glyphs": [
+      {
+       "s": "𔓯",
+       "role": "phon",
+       "tr": "i",
+       "sign": "A209"
+      },
+      {
+       "s": "𔖩",
+       "role": "phon",
+       "tr": "zi",
+       "sign": "A376"
+      },
+      {
+       "s": "𔓱",
+       "role": "phon",
+       "tr": "ia",
+       "sign": "A210"
+      },
+      {
+       "s": "𔗑",
+       "role": "phon",
+       "tr": "ru",
+       "sign": "A412"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "izzi(ya)-",
+       "gloss": "make, do",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-ru",
+       "gloss": "3rd person singular imperative, middle — 'may it be made, become'",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "Kumarmas(sa)",
+     "say": "Kumarmas(sa)",
+     "glyphs": [
+      {
+       "s": "𔖖",
+       "role": "det",
+       "tr": "",
+       "sign": "A360"
+      },
+      {
+       "s": "𔓀",
+       "role": "log",
+       "tr": "BONUS",
+       "sign": "A165",
+       "val": "Kumarma"
+      },
+      {
+       "s": "𔗔",
+       "role": "phon",
+       "tr": "sa",
+       "sign": "A415"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Kumarma-",
+       "gloss": "Kumarma, a god (DN), written with the BONUS sign",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "-s(sa)",
+       "gloss": "genitive ending — 'of Kumarma'",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "TiPariyas(sa)=ha",
+     "say": "TiPariyas(sa)=ha",
+     "glyphs": [
+      {
+       "s": "𔖖",
+       "role": "det",
+       "tr": "",
+       "sign": "A360"
+      },
+      {
+       "s": "𔒻",
+       "role": "log",
+       "tr": "VITIS",
+       "sign": "A160",
+       "val": "TiPariya"
+      },
+      {
+       "s": "𔗦",
+       "role": "phon",
+       "tr": "sá",
+       "sign": "A433"
+      },
+      {
+       "s": "𔓟",
+       "role": "phon",
+       "tr": "há",
+       "sign": "A196"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "TiPariya-",
+       "gloss": "Tipariya, a god (DN), written with the vine sign VITIS",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "-s(sa)",
+       "gloss": "genitive ending — 'of Tipariya'",
+       "g": [
+        2
+       ]
+      },
+      {
+       "lemma": "=ha",
+       "gloss": "and",
+       "g": [
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "May this fortress become Kumarma's and Tipariya's.",
+   "n": "kwippa=wa 'indeed'. za harnissanza 'this fortress' is now the subject, neuter nominative singular (CASTRUM a classifier before a fully spelled har-ni-sà-za; a register break falls before the last sign). izziyaru is izzi(ya)- in the 3rd singular imperative middle: 'let it be made, may it become'. Two gods follow in the genitive, 'of Kumarma' and 'of Tipariya', each written as a logogram under DEUS: BONUS 'good' for Kumarma, VITIS 'vine' for Tipariya (with =ha 'and'). The corpus transcribes the genitive -s(sa), leaving the full ending open, and writes TiPariya with a capital P for a sound the spelling leaves open. Both names are written only with logograms, so their Luwian sound rests on the corpus's reading.",
+   "p": true,
+   "par": {
+    "id": "azatiwada-phoenician",
+    "ln": [
+     "III 7"
+    ],
+    "u": 35
+   }
+  },
+  {
+   "t": "𔕰𔕸𔗬𔑯 𔔆𔓵𔓱 𔕰𔓱 𔗷𔑯 𔕐𔖻𔗦𔓯",
+   "l": "Indeed in the land, which (things) dwell within,",
+   "ln": 54,
+   "words": [
+    {
+     "reading": "kwippa=wa=tta",
+     "say": "kwippa=wa=tta",
+     "glyphs": [
+      {
+       "s": "𔕰",
+       "role": "phon",
+       "tr": "kwa/i",
+       "sign": "A329"
+      },
+      {
+       "s": "𔕸",
+       "role": "phon",
+       "tr": "pa",
+       "sign": "A334"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔑯",
+       "role": "phon",
+       "tr": "ta",
+       "sign": "A100"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kwippa",
+       "gloss": "indeed (clause-opening adverb)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "=wa",
+       "gloss": "quotative particle",
+       "g": [
+        2
+       ]
+      },
+      {
+       "lemma": "=tta",
+       "gloss": "particle of place/motion",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wattaniya",
+     "say": "wattaniya",
+     "glyphs": [
+      {
+       "s": "𔔆",
+       "role": "log",
+       "tr": "REGIO",
+       "sign": "A228",
+       "val": "wattani"
+      },
+      {
+       "s": "𔓵",
+       "role": "comp",
+       "tr": "ní",
+       "sign": "A214"
+      },
+      {
+       "s": "𔓱",
+       "role": "phon",
+       "tr": "ia",
+       "sign": "A210"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wattani-",
+       "gloss": "country, land (REGIO)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-ya",
+       "gloss": "dative singular ending — 'in the land'",
+       "g": [
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "kwaya",
+     "say": "kwaya",
+     "glyphs": [
+      {
+       "s": "𔕰",
+       "role": "phon",
+       "tr": "kwa/i",
+       "sign": "A329"
+      },
+      {
+       "s": "𔓱",
+       "role": "phon",
+       "tr": "ia",
+       "sign": "A210"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kwi-",
+       "gloss": "which (relative)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-ya",
+       "gloss": "neuter plural nominative ending — 'which (things)'",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "anta",
+     "say": "anta",
+     "glyphs": [
+      {
+       "s": "𔗷",
+       "role": "phon",
+       "tr": "a",
+       "sign": "A450"
+      },
+      {
+       "s": "𔑯",
+       "role": "phon",
+       "tr": "ta",
+       "sign": "A100"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "anta",
+       "gloss": "in, inside",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "asai",
+     "say": "asai",
+     "glyphs": [
+      {
+       "s": "𔕐𔖻",
+       "role": "log",
+       "tr": "SOLIUM+MI",
+       "sign": "A299",
+       "keys": [
+        "A299",
+        "A391"
+       ],
+       "val": "asa"
+      },
+      {
+       "s": "𔗦",
+       "role": "comp",
+       "tr": "sá",
+       "sign": "A433"
+      },
+      {
+       "s": "𔓯",
+       "role": "phon",
+       "tr": "i",
+       "sign": "A209"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "asa-",
+       "gloss": "sit, dwell (SOLIUM, with its attached mi)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-i",
+       "gloss": "3rd person singular present — 'dwells'",
+       "g": [
+        2
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "And whatever dwells in the land —",
+   "n": "kwippa=wa=tta, the opener with the place particle. wattaniya 'in the land' is the dative singular of wattani- 'country, area' (REGIO-ní-ia, after a register break). kwaya 'which (things)' is the relative kwi- in the neuter plural nominative, and its verb asai 'dwells' (asa- 'sit, dwell', present 3rd singular) is singular, as a neuter plural subject requires (see §33); anta 'in' points back to the land. SOLIUM+MI-sá-i: the seat sign with its attached mi, then sá re-sounding the stem. The clause is completed by §55. The other copy has a different verb here, isnuwanti 'they settle'.",
+   "par": {
+    "id": "azatiwada-phoenician",
+    "ln": [
+     "III 7"
+    ],
+    "u": 36
+   }
+  },
+  {
+   "t": "𔗬𔐫 𔓯𔖩𔓱𔑳 𔒄▢𔗬𔓉 𔑺▢𔗬𔓉 𔖖𔓀𔓉 𔖖𔒻𔓱𔓉𔓟",
+   "l": "and may they be made (things) of sheep, of bull, of Kumarma and of Tipariya.",
+   "ln": 55,
+   "words": [
+    {
+     "reading": "wa=ada",
+     "say": "wa=ada",
+     "glyphs": [
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔐫",
+       "role": "phon",
+       "tr": "tà",
+       "sign": "A041"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "=wa",
+       "gloss": "quotative particle",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "=ada",
+       "gloss": "they (clitic pronoun, nominative plural)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "izziyaru",
+     "say": "izziyaru",
+     "glyphs": [
+      {
+       "s": "𔓯",
+       "role": "phon",
+       "tr": "i",
+       "sign": "A209"
+      },
+      {
+       "s": "𔖩",
+       "role": "phon",
+       "tr": "zi",
+       "sign": "A376"
+      },
+      {
+       "s": "𔓱",
+       "role": "phon",
+       "tr": "ia",
+       "sign": "A210"
+      },
+      {
+       "s": "𔑳",
+       "role": "phon",
+       "tr": "rú",
+       "sign": "A102"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "izzi(ya)-",
+       "gloss": "make, do",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-ru",
+       "gloss": "3rd person singular imperative, middle — 'may it be made, become'",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "hawassi",
+     "say": "hawassi",
+     "glyphs": [
+      {
+       "s": "𔒄▢",
+       "role": "log",
+       "tr": "OVIS.ANIMA",
+       "sign": "A110",
+       "keys": [
+        "A110",
+        "DAMAGED"
+       ],
+       "val": "hawi"
+      },
+      {
+       "s": "𔗬",
+       "role": "comp",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔓉",
+       "role": "phon",
+       "tr": "si",
+       "sign": "A174"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "haw(i)-",
+       "gloss": "sheep (OVIS.ANIMA)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-ssi",
+       "gloss": "genitive ending — 'of sheep'",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wawassi",
+     "say": "wawassi",
+     "glyphs": [
+      {
+       "s": "𔑺▢",
+       "role": "log",
+       "tr": "BOS.ANIMA",
+       "sign": "A105",
+       "keys": [
+        "A105",
+        "DAMAGED"
+       ],
+       "val": "wawi"
+      },
+      {
+       "s": "𔗬",
+       "role": "comp",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔓉",
+       "role": "phon",
+       "tr": "si",
+       "sign": "A174"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "waw(i)-",
+       "gloss": "bull, ox (BOS.ANIMA)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-ssi",
+       "gloss": "genitive ending — 'of bull'",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "Kumarmassi",
+     "say": "Kumarmassi",
+     "glyphs": [
+      {
+       "s": "𔖖",
+       "role": "det",
+       "tr": "",
+       "sign": "A360"
+      },
+      {
+       "s": "𔓀",
+       "role": "log",
+       "tr": "BONUS",
+       "sign": "A165",
+       "val": "Kumarma"
+      },
+      {
+       "s": "𔓉",
+       "role": "phon",
+       "tr": "si",
+       "sign": "A174"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Kumarma-",
+       "gloss": "Kumarma, a god (DN), written with the BONUS sign",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "-ssi",
+       "gloss": "genitive ending — 'of Kumarma'",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "TiPariyassi=ha",
+     "say": "TiPariyassi=ha",
+     "glyphs": [
+      {
+       "s": "𔖖",
+       "role": "det",
+       "tr": "",
+       "sign": "A360"
+      },
+      {
+       "s": "𔒻",
+       "role": "log",
+       "tr": "VITIS",
+       "sign": "A160",
+       "val": "TiPariya"
+      },
+      {
+       "s": "𔓱",
+       "role": "comp",
+       "tr": "ia",
+       "sign": "A210"
+      },
+      {
+       "s": "𔓉",
+       "role": "phon",
+       "tr": "si",
+       "sign": "A174"
+      },
+      {
+       "s": "𔓟",
+       "role": "phon",
+       "tr": "há",
+       "sign": "A196"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "TiPariya-",
+       "gloss": "Tipariya, a god (DN), written with the vine sign VITIS",
+       "g": [
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-ssi",
+       "gloss": "genitive ending — 'of Tipariya'",
+       "g": [
+        3
+       ]
+      },
+      {
+       "lemma": "=ha",
+       "gloss": "and",
+       "g": [
+        4
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "may it all become the sheep's and the bull's, Kumarma's and Tipariya's.",
+   "n": "wa=ada: =wa with =ada 'they', the clitic pronoun in the nominative plural — the things that dwell in the land (§54). izziyaru 'may it be made, become' is the imperative middle of §53, singular again with a neuter plural subject; here it is spelled with rú, one of several signs carrying that value. Four genitives in -ssi follow: hawassi 'of sheep' (OVIS.ANIMA), wawassi 'of bull' (BOS.ANIMA), Kumarmassi and TiPariyassi=ha 'of Kumarma and of Tipariya'. All four stand in the same case, so what dwells in the land is to become 'of' each alike: the sheep's and the bull's as it is Kumarma's and Tipariya's. What being 'of the sheep and the bull' means here — given over to flocks and herds, perhaps — is not certain; the English keeps the genitives as they stand. The ANIMA element again has no verifiable sign (the ▢ placeholder, not damage).",
+   "par": {
+    "id": "azatiwada-phoenician",
+    "ln": [
+     "III 7"
+    ],
+    "u": 36
+   }
+  },
+  {
+   "t": "𔒄𔗬𔖪 𔓶𔗦𔑢𔗷",
+   "l": "And much for us may they give birth.",
+   "ln": 56,
+   "words": [
+    {
+     "reading": "man=wa=anza",
+     "say": "man=wa=anza",
+     "glyphs": [
+      {
+       "s": "𔒄",
+       "role": "phon",
+       "tr": "ma",
+       "sign": "A110"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "man",
+       "gloss": "much (the n unwritten)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "=wa",
+       "gloss": "quotative particle",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "=anza",
+       "gloss": "us (clitic pronoun, dative plural) — 'for us'",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "hassantu",
+     "say": "hassantu",
+     "glyphs": [
+      {
+       "s": "𔓶",
+       "role": "phon",
+       "tr": "ha",
+       "sign": "A215"
+      },
+      {
+       "s": "𔗦",
+       "role": "phon",
+       "tr": "sá",
+       "sign": "A433"
+      },
+      {
+       "s": "𔑢",
+       "role": "phon",
+       "tr": "tu",
+       "sign": "A089"
+      },
+      {
+       "s": "𔗷",
+       "role": "comp",
+       "tr": "´",
+       "sign": "A450"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "hassa-",
+       "gloss": "give birth",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-ntu",
+       "gloss": "3rd person plural imperative — 'may they …' (the n unwritten; the final stroke a scribal mark)",
+       "g": [
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "May they bear young for us in plenty.",
+   "n": "man=wa=anza: man 'much' (spelled ma, the n unwritten) carries =wa and =anza 'us', the 1st plural clitic pronoun in the dative — 'for us'. hassantu is the 3rd plural imperative (-ntu, the n unwritten) of hassa- 'give birth'. Its subject is not named; it is most naturally the sheep and bulls named in §55. The small final stroke after tu is the scribal mark met in §15, whose function is debated.",
+   "p": true,
+   "par": {
+    "id": "azatiwada-phoenician",
+    "ln": [
+     "III 9"
+    ],
+    "u": 37
+   }
+  },
+  {
+   "t": "𔒄𔕸𔗬 𔖙𔖱𔖿𔗬𔑢𔗷",
+   "l": "And much may they magnify (them).",
+   "ln": 57,
+   "words": [
+    {
+     "reading": "man=ba=wa",
+     "say": "man=ba=wa",
+     "glyphs": [
+      {
+       "s": "𔒄",
+       "role": "phon",
+       "tr": "ma",
+       "sign": "A110"
+      },
+      {
+       "s": "𔕸",
+       "role": "phon",
+       "tr": "pa",
+       "sign": "A334"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "man",
+       "gloss": "much (the n unwritten)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "=pa",
+       "gloss": "topic shifter — 'and as for …', 'but'",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "=wa",
+       "gloss": "quotative particle",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "urannuwantu",
+     "say": "urannuwantu",
+     "glyphs": [
+      {
+       "s": "𔖙𔖱",
+       "role": "log",
+       "tr": "MAGNUS+ra/i",
+       "sign": "A363",
+       "keys": [
+        "A363",
+        "A383"
+       ],
+       "val": "ura"
+      },
+      {
+       "s": "𔖿",
+       "role": "phon",
+       "tr": "nú",
+       "sign": "A395"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔑢",
+       "role": "phon",
+       "tr": "tu",
+       "sign": "A089"
+      },
+      {
+       "s": "𔗷",
+       "role": "comp",
+       "tr": "´",
+       "sign": "A450"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "urannuwa-",
+       "gloss": "make great — causative of ura- 'great' (MAGNUS)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-ntu",
+       "gloss": "3rd person plural imperative — 'may they …' (the n unwritten; the final stroke a scribal mark)",
+       "g": [
+        3,
+        4
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "And may they make them grow very great.",
+   "n": "man=ba=wa: 'much' again, now with the topic shifter =pa (written pa, transcribed =ba by the corpus) and =wa. urannuwantu 'may they magnify' is urannuwa- 'make great' — §2's verb, written with MAGNUS+ra/i — in the 3rd plural imperative, with the same small final stroke as §56. Neither subject nor object is written; the English supplies 'them', taking up the herds of §55–§56.",
+   "par": {
+    "id": "azatiwada-phoenician",
+    "ln": [
+     "III 9"
+    ],
+    "u": 37
+   }
+  },
+  {
+   "t": "𔒄𔕸𔗬 𔕛𔕸𔖱𔐤𔗬𔑢𔑺 𔖫𔐓𔖪𔑣𔗬𔐫𔓱 𔑾𔗧𔗔𔗦𔓟𔗷 𔔙𔓵𔓯 𔖖𔓢𔕙𔑯𔑣 𔖖𔐤𔑣𔓟",
+   "l": "And much may they serve Azatiwada and Muksas's house, through Tarhunzas and the gods.",
+   "ln": 58,
+   "words": [
+    {
+     "reading": "man=ba=wa",
+     "say": "man=ba=wa",
+     "glyphs": [
+      {
+       "s": "𔒄",
+       "role": "phon",
+       "tr": "ma",
+       "sign": "A110"
+      },
+      {
+       "s": "𔕸",
+       "role": "phon",
+       "tr": "pa",
+       "sign": "A334"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "man",
+       "gloss": "much (the n unwritten)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "=pa",
+       "gloss": "topic shifter — 'and as for …', 'but'",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "=wa",
+       "gloss": "quotative particle",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "parnawantu",
+     "say": "parnawantu",
+     "glyphs": [
+      {
+       "s": "𔕛",
+       "role": "det",
+       "tr": "",
+       "sign": "A309"
+      },
+      {
+       "s": "𔕸𔖱",
+       "role": "phon",
+       "tr": "pa+ra/i",
+       "sign": "A334",
+       "keys": [
+        "A334",
+        "A383"
+       ]
+      },
+      {
+       "s": "𔐤",
+       "role": "phon",
+       "tr": "na",
+       "sign": "A035"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔑢",
+       "role": "phon",
+       "tr": "tu",
+       "sign": "A089"
+      },
+      {
+       "s": "𔑺",
+       "role": "phon",
+       "tr": "u",
+       "sign": "A105"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "parnawa-",
+       "gloss": "serve (classified by the CRUX sign)",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-ntu",
+       "gloss": "3rd person plural imperative — 'may they serve' (the n unwritten)",
+       "g": [
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "Azzattiwadaya",
+     "say": "Azzattiwadaya",
+     "glyphs": [
+      {
+       "s": "𔖫",
+       "role": "det",
+       "tr": "",
+       "sign": "A378"
+      },
+      {
+       "s": "𔐓",
+       "role": "phon",
+       "tr": "á",
+       "sign": "A019"
+      },
+      {
+       "s": "𔖪",
+       "role": "phon",
+       "tr": "za",
+       "sign": "A377"
+      },
+      {
+       "s": "𔑣",
+       "role": "phon",
+       "tr": "ti",
+       "sign": "A090"
+      },
+      {
+       "s": "𔗬",
+       "role": "phon",
+       "tr": "wa/i",
+       "sign": "A439"
+      },
+      {
+       "s": "𔐫",
+       "role": "phon",
+       "tr": "tà",
+       "sign": "A041"
+      },
+      {
+       "s": "𔓱",
+       "role": "phon",
+       "tr": "ia",
+       "sign": "A210"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Azzattiwada-",
+       "gloss": "Azatiwada",
+       "g": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      },
+      {
+       "lemma": "-ya",
+       "gloss": "dative ending — 'to, for'",
+       "g": [
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "Muksassan=ha",
+     "say": "Muksassan=ha",
+     "glyphs": [
+      {
+       "s": "𔑾",
+       "role": "phon",
+       "tr": "mu",
+       "sign": "A107"
+      },
+      {
+       "s": "𔗧",
+       "role": "phon",
+       "tr": "ka",
+       "sign": "A434"
+      },
+      {
+       "s": "𔗔",
+       "role": "phon",
+       "tr": "sa",
+       "sign": "A415"
+      },
+      {
+       "s": "𔗦",
+       "role": "phon",
+       "tr": "sá",
+       "sign": "A433"
+      },
+      {
+       "s": "𔓟",
+       "role": "phon",
+       "tr": "há",
+       "sign": "A196"
+      },
+      {
+       "s": "𔗷",
+       "role": "phon",
+       "tr": "a",
+       "sign": "A450"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Muksa-",
+       "gloss": "Muksas — the founding ancestor of the dynasty (see §21)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-ssan",
+       "gloss": "possessive ending — 'of Muksas' (agreeing with 'house')",
+       "g": [
+        3
+       ]
+      },
+      {
+       "lemma": "=ha",
+       "gloss": "and",
+       "g": [
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "parni",
+     "say": "parni",
+     "glyphs": [
+      {
+       "s": "𔔙",
+       "role": "log",
+       "tr": "DOMUS",
+       "sign": "A247",
+       "val": "parna"
+      },
+      {
+       "s": "𔓵",
+       "role": "comp",
+       "tr": "ní",
+       "sign": "A214"
+      },
+      {
+       "s": "𔓯",
+       "role": "phon",
+       "tr": "i",
+       "sign": "A209"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "parna-",
+       "gloss": "house (DOMUS)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-ni",
+       "gloss": "dative-locative ending — 'to the house'",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "Tarhuntadi",
+     "say": "Tarhuntadi",
+     "glyphs": [
+      {
+       "s": "𔖖",
+       "role": "det",
+       "tr": "",
+       "sign": "A360"
+      },
+      {
+       "s": "𔓢",
+       "role": "log",
+       "tr": "TONITRUS",
+       "sign": "A199",
+       "val": "Tarhu"
+      },
+      {
+       "s": "𔕙",
+       "role": "comp",
+       "tr": "hu",
+       "sign": "A307"
+      },
+      {
+       "s": "𔑯",
+       "role": "phon",
+       "tr": "ta",
+       "sign": "A100"
+      },
+      {
+       "s": "𔑣",
+       "role": "phon",
+       "tr": "ti?",
+       "sign": "A090",
+       "damaged": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "Tarhunt-",
+       "gloss": "Tarhunzas, the Storm-god",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-di",
+       "gloss": "instrumental ending — 'through' (its sign lost and restored)",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "massanadi=ha",
+     "say": "massanadi=ha",
+     "glyphs": [
+      {
+       "s": "𔖖",
+       "role": "log",
+       "tr": "DEUS",
+       "sign": "A360",
+       "val": "massani"
+      },
+      {
+       "s": "𔐤",
+       "role": "comp",
+       "tr": "na",
+       "sign": "A035"
+      },
+      {
+       "s": "𔑣",
+       "role": "phon",
+       "tr": "ti",
+       "sign": "A090"
+      },
+      {
+       "s": "𔓟",
+       "role": "phon",
+       "tr": "há",
+       "sign": "A196"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "massan(i)-",
+       "gloss": "god (DEUS)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-di",
+       "gloss": "instrumental ending — 'through'",
+       "g": [
+        2
+       ]
+      },
+      {
+       "lemma": "=ha",
+       "gloss": "and",
+       "g": [
+        3
+       ]
+      }
+     ]
+    }
+   ],
+   "i": "And may they serve Azatiwada and the house of Muksas well, through Tarhunzas and the gods.",
+   "n": "man=ba=wa as in §57. parnawantu 'may they serve' is parnawa- in the 3rd plural imperative (-ntu), under the CRUX classifier. Whom they serve stands in the dative: Azzattiwadaya 'Azatiwada' and Muksassan=ha parni 'and the house of Muksas' — Muksa- with the possessive ending -ssan agreeing with parni 'house' (DOMUS-ní-i, as in §21); the a after há spells out the vowel of =ha. Tarhuntadi and massanadi=ha are instrumentals, 'through Tarhunzas and the gods' (the last sign of Tarhuntadi, ti, is lost and restored by the corpus, shown with a query); whether 'through' means by their gift or for their sake is open. The corpus glosses Muksa- 'Mopsus'; this edition keeps Muksas (see §21).",
+   "par": {
+    "id": "azatiwada-phoenician",
+    "ln": [
+     "III 9"
+    ],
+    "u": 37
+   }
+  }
+ ],
+ "parallel": {
+  "id": "azatiwada-phoenician",
+  "label": "Phoenician"
+ },
+ "glossary": {
+  "-(ra)ru": "3rd person singular imperative ending, middle — 'may it/he be …' (a longer spelling than -ru, with ra before it; the corpus's reading)",
+  "-a": "neuter nominative/accusative plural ending",
+  "-ari": "ablative-instrumental ending — 'out of, because of; with, by' (-adi with its d sounded r)",
+  "-di": "ablative-instrumental ending — 'from, because of; by, with'",
+  "-ha": "1st person singular past ending — 'I …-ed'",
+  "-i": "two unrelated endings spelled alike: on nouns, the dative-locative singular — 'to, for, upon'; on verbs, the 3rd person singular present — '(he, she, it) …s'",
+  "-is": "common-gender nominative singular ending — -s, with the i that stems in -a/i- take in this case",
+  "-mmi-": "participle suffix — makes '…-ed' adjectives from verbs",
+  "-n": "accusative singular ending — marks the object",
+  "-ni": "dative-locative ending — 'to, for, in'",
+  "-nta": "3rd person plural past ending — '(they) …-ed', '(they) were' (the n is usually left unwritten)",
+  "-ntu": "3rd person plural imperative ending, active — 'may they …' (the n is usually unwritten)",
+  "-nza": "two endings spelled alike: the dative-locative plural — 'to, for, in, at' ('in my days', 'in those places'); and the neuter singular nominative/accusative ending of a noun or of an adjective agreeing with it",
+  "-nzi": "common-gender plural ending, nominative or accusative",
+  "-ru": "3rd person singular imperative ending, middle — 'may it be …'",
+  "-s": "nominative singular ending — marks the subject",
+  "-s(sa)": "genitive ending — 'of …' (the corpus's -s(sa) leaves the ending's full form open)",
+  "-sa": "neuter nominative/accusative singular ending",
+  "-ssan": "possessive ending — 'of Muksas' (agreeing with 'house')",
+  "-ssi": "genitive ending — 'of …'",
+  "-tti": "dative-locative ending — 'to, for, upon'",
+  "-ttu": "3rd person singular imperative ending, active — 'may he …'",
+  "-una": "infinitive ending — 'to …'",
+  "-ya": "two endings spelled alike: on nouns, the dative-locative singular — 'to, for'; on neuter nouns, adjectives and pronouns, the nominative/accusative plural ('good things', 'which')",
+  "-za": "accusative ending (on neuter nouns, the nominative/accusative singular)",
+  "=ada": "they, them (clitic pronoun, 3rd person plural, nominative or accusative; leans on an earlier word)",
+  "=an": "him, it (clitic pronoun, 3rd person common-gender accusative singular; leans on an earlier word)",
+  "=anza": "us, to us (clitic pronoun, 1st person plural dative)",
+  "=as": "he, she, it (clitic pronoun, 3rd person common-gender nominative singular)",
+  "=du": "to him, to it (clitic pronoun, 3rd person singular dative; leans on an earlier word)",
+  "=ha": "and (clitic — glued to the end of its word)",
+  "=mu": "me, to me, for me (clitic pronoun, leaning on the first word of the clause)",
+  "=pa": "but, and; marks a new topic or a contrast — 'and as for …' (clitic; the corpus's =ba)",
+  "=pa or =ha": "a lost sign that the corpus reads as pa or ha — 'but' or 'and'; the reading is not settled",
+  "=tta": "particle of place/motion — untranslatable filler in English",
+  "=wa": "quotative particle — hangs on the first word of nearly every clause, marking the running narration; you'll see it constantly",
+  "Azzattiwada-": "Azatiwada — the ruler who speaks this inscription (his name may mean 'beloved of the Sun'); between vowels the d may be sounded r (Azzattiwaras)",
+  "Azzattiwadaya-": "Azatiwadaya — the city named after Azatiwada (classified by the LITUUS sign before it and the city sign URBS after it)",
+  "Kumarma-": "Kumarma — a god (divine name; classified by DEUS and written with the BONUS sign, so its Luwian sound rests on the corpus's reading)",
+  "Muksa-": "Muksas — the founding ancestor of the dynasty; the same figure as the Greek seer Mopsos",
+  "Runti(ya)-": "Runtiya — a god (divine name; written with the stag sign CERVUS₃; sounded Runzas in the nominative)",
+  "Tarhunt-": "Tarhunzas, the Storm-god — head of the Luwian pantheon (written with the thunder sign)",
+  "Tarhunza-": "Tarhunzas, the Storm-god",
+  "TiPariya-": "Tipariya — a god (divine name; classified by DEUS and written with the vine sign VITIS; the capital P marks a sound the spelling leaves open)",
+  "[lost]": "signs broken away on the stone; not restored",
+  "[missing clause]": "a clause not preserved in either copy of the inscription as the corpus gives them",
+  "a": "and (clause connective)",
+  "ahha": "away, forth, utterly (the preverb ARHA — colors the verb like English 'out' in 'spread out')",
+  "alaman-": "name (noun)",
+  "ami(ya)-": "my",
+  "anta": "in, inside",
+  "appan": "behind, after, afterwards (written with the POST sign; adverb/postposition)",
+  "array(a/i)-": "long (adjective; written with LONGUS, the l-sign standing for the stem's r)",
+  "as-": "be",
+  "asa-": "sit, dwell (written with the seat sign SOLIUM and its attached mi)",
+  "habad(i)-": "river-land, riverine land (noun; classified by the river sign FLUMEN; the d may be sounded r)",
+  "hadara-": "health, well-being (noun; the corpus glosses it 'health', as it does saPisad(a)-)",
+  "halli-": "day (classified by the DIES sign)",
+  "hantawatti-": "king (written with the REX sign)",
+  "hantili-": "foremost, first, earlier (written with the FRONS 'front' sign)",
+  "harnissa-": "fortress (written with or classified by the fortress-wall sign CASTRUM)",
+  "harr(a/i)-": "crushing, pressing (noun, classified by the vine sign VITIS; meaning approximate)",
+  "hassa-": "two words spelled alike: a noun, satiety(?), luxury(?) — classified by the licking-mouth sign, the nuance a scholarly guess; and a verb, give birth (to)",
+  "haw(i)-": "sheep (noun; written with, or classified by, the sign OVIS.ANIMA)",
+  "i-zi-i-": "the surviving signs of a broken word the corpus leaves uninterpreted",
+  "isnuwa-": "seat, settle — 'make sit' (written with or classified by the seat sign SOLIUM)",
+  "izzi(ya)-": "make, do",
+  "izzista-": "honour (verb)",
+  "kwaruna-": "cutting (noun, classified by the sign L486; meaning approximate)",
+  "kwi-": "who, which (the relative pronoun, written with the REL sign or spelled kwa/i-)",
+  "kwippa": "indeed — adverb that opens a clause (the corpus's kwippa; the same spelling kwa/i-pa is written kwi=pa 'but, however' in §11)",
+  "man": "much, greatly (adverb; the n is unwritten)",
+  "mari": "during, throughout (postposition/adverb; written as one ligature ma+ra/i)",
+  "massan(i)-": "god, deity (noun; written with the DEUS sign)",
+  "miyant(i)-": "many (adjective; the n before t is unwritten)",
+  "parna-": "house (written with the house-plan sign DOMUS)",
+  "parnawa-": "serve (verb; classified by the CRUX sign)",
+  "pihass(a)-": "aura, radiance (noun, written with the lightning sign FULGUR; nuance approximate)",
+  "piya-": "give (verb)",
+  "saPisad(a)-": "health (noun; the capital P marks a sound the spelling leaves open)",
+  "sannawi-": "good (often classified by the BONUS sign)",
+  "sarli": "highly, on high (adverb, written SUPER+ra/i)",
+  "sranta": "on top of, over (SUPER)",
+  "ta": "a surviving sign of an unread word; no meaning recoverable",
+  "ta-": "stand (verb)",
+  "tama-": "build (AEDIFICARE)",
+  "tammihi(d)-": "old age (noun)",
+  "tanim(a)-": "all, every (OMNIS with attached mi; the ma re-sounds its ending)",
+  "tu(wa)-": "put, place (written with the PONERE sign)",
+  "urannuwa-": "make great — causative of ura- 'great' (MAGNUS)",
+  "usnu-": "exalt, make prosper; bless, please",
+  "uss(i)-": "year (noun; classified by the ANNUS sign)",
+  "wattani-": "country, land (noun; written with the REGIO sign)",
+  "waw(i)-": "bull, ox (noun; written with the sign BOS.ANIMA)",
+  "x": "an illegible trace of a sign",
+  "za-": "this (demonstrative pronoun/adjective; neuter nominative/accusative za, common accusative zan, dative zatti, genitive zassi)"
+ }
+}

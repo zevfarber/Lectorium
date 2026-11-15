@@ -982,9 +982,15 @@
      "morph": [
       {
        "lemma": "[lost]",
-       "gloss": "signs broken away on the stone, then an illegible trace (x); not restored",
+       "gloss": "signs broken away on the stone; not restored",
        "g": [
-        0,
+        0
+       ]
+      },
+      {
+       "lemma": "x",
+       "gloss": "an illegible trace of a sign",
+       "g": [
         1
        ]
       }
@@ -1048,7 +1054,7 @@
      "morph": [
       {
        "lemma": "i-zi-i-",
-       "gloss": "the surviving start of a word the corpus leaves uninterpreted",
+       "gloss": "the surviving signs of a broken word the corpus leaves uninterpreted",
        "g": [
         0,
         1,
@@ -1202,7 +1208,8 @@
         "DAMAGED"
        ],
        "role": "phon",
-       "tr": "pa/ha?"
+       "tr": "pa/ha?",
+       "damaged": true
       },
       {
        "keys": [
@@ -1365,7 +1372,7 @@
    "p": true,
    "l": "And this Tarhunzas into (it) I settled.",
    "i": "And in it I settled this Tarhunzas.",
-   "n": "wa=tta: =wa with the place particle; the end of its ta and whatever followed are lost. zan 'this' (za-, common accusative singular) begins with za₄ and breaks off. Tarhunzan, the god in the accusative, survives only as the divine classifier and the thunder sign, itself partly damaged (TONI[TRUS]); the rest of the name is lost, and the corpus closes the break with a bracket standing on its own, shown here as a gap. anta 'in, into' and isnuhha 'I settled' are clear: isnu(wa)- 'make sit, settle' (§30–§31) under the seat classifier SOLIUM, with the 1st singular past -ha; its sà is damaged. 'This Tarhunzas': the demonstrative points to the god as present here, in the city just named; what form that presence took, the clause does not say. Before it the numbering jumps from §45 to §47: §46 is not preserved.",
+   "n": "wa=tta: =wa with the place particle; the end of its ta and whatever followed are lost. zan 'this' (za-, common accusative singular) begins with za₄, itself partly damaged, and breaks off. Tarhunzan, the god in the accusative, survives only as the divine classifier and the thunder sign, itself partly damaged (TONI[TRUS]); the rest of the name is lost, and the corpus closes the break with a bracket standing on its own, shown here as a gap. anta 'in, into' and isnuhha 'I settled' are clear: isnuwa- 'make sit, settle' (§30–§31) under the seat classifier SOLIUM, with the 1st singular past -ha; its sà is damaged. 'This Tarhunzas': the demonstrative points to the god as present here, in the city just named; what form that presence took, the clause does not say. Before it the numbering jumps from §45 to §47: §46 is not preserved.",
    "words": [
     {
      "reading": "wa=tta",
@@ -1577,7 +1584,7 @@
      ],
      "morph": [
       {
-       "lemma": "isnu(wa)-",
+       "lemma": "isnuwa-",
        "gloss": "settle, make sit (classified by the seat sign SOLIUM)",
        "g": [
         1,
@@ -2144,7 +2151,7 @@
    "p": true,
    "l": "And may he bless Azatiwada with health and with well-being.",
    "i": "And may he bless Azatiwada with health and well-being.",
-   "n": "usnuwattu is the 3rd singular imperative (-ttu) of usnu(wa)- 'bless, make prosper' (the usnu- of §14): 'may he bless' — the god of §47–§48 is the unnamed subject; =tta is the place particle. Azzattiwadan is the accusative (-n). Two instrumental nouns follow, both glossed 'health' by the corpus: saPisarari (saPisad(a)-, the capital P marking a sound the spelling leaves open; the d is sounded r, the l-sign lá/í stands for ra, and ri+i is one ligature) and hadaradi=ha (hadara-, with =ha 'and'). 'Health and well-being' only marks that two different words stand side by side; how they differ is not known.",
+   "n": "usnuwattu is the 3rd singular imperative (-ttu) of usnu- 'bless, make prosper' (the verb of §14): 'may he bless' — the god of §47–§48 is the unnamed subject; =tta is the place particle. Azzattiwadan is the accusative (-n). Two instrumental nouns follow, both glossed 'health' by the corpus: saPisarari (saPisad(a)-, the capital P marking a sound the spelling leaves open; the d is sounded r, the l-sign lá/í stands for ra, and ri+i is one ligature) and hadaradi=ha (hadara-, with =ha 'and'). 'Health and well-being' only marks that two different words stand side by side; how they differ is not known.",
    "words": [
     {
      "reading": "wa=tta",
@@ -2231,7 +2238,7 @@
      ],
      "morph": [
       {
-       "lemma": "usnu(wa)-",
+       "lemma": "usnu-",
        "gloss": "bless, make prosper",
        "g": [
         0,
@@ -2732,7 +2739,7 @@
    "p": true,
    "l": "And may give him Tarhunzas, fully(?) pleased, and of this fortress the gods — to Azatiwada long days and many years, and good old age.",
    "i": "And may Tarhunzas, well pleased, and the gods of this fortress give Azatiwada long days and many years, and a good old age.",
-   "n": "piyantu 'may they give' (piya-, 3rd plural imperative -ntu, the n unwritten) carries =ha, =wa and =du 'to him', whom Azzattiwadaya (dative -ya) then names. Two subjects: Tarhunzas, with ahha usnuwammis — usnuwammis is the participle (-mmi-, nominative -s) of usnu(wa)- 'bless, please', so 'pleased' or 'blessed', and ahha (ARHA, which the corpus sets in braces) colours it, its exact force here unclear; and massaninzi 'gods' (DEUS-ní-zi, nominative plural -nzi), qualified by zassi=ha=wa harnassassi 'of this fortress', genitive -ssi on both words. In harnassassi the ra/i of the ligature há+ra/i is supplied by the corpus (<+ra/i>): it is shown but is not on the stone. The gifts are accusatives: arraya halliya 'long days' (LONGUS-lá/í-ia, the l-sign standing for the stem's r), miyantinzi=ha ussinzi 'and many years' (common plural -nzi, the ANNUS classifier), sannawisa=ha=wa tammihisa 'and good old age' (neuter singular -sa, with =wa once more mid-clause). Three register breaks fall in this clause.",
+   "n": "piyantu 'may they give' (piya-, 3rd plural imperative -ntu, the n unwritten) carries =ha, =wa and =du 'to him', whom Azzattiwadaya (dative -ya) then names. Two subjects: Tarhunzas, with ahha usnuwammis — usnuwammis is the participle (-mmi-, nominative -s) of usnu- 'bless, please', so 'pleased' or 'blessed', and ahha (ARHA, which the corpus sets in braces) colours it, its exact force here unclear; and massaninzi 'gods' (DEUS-ní-zi, nominative plural -nzi), qualified by zassi=ha=wa harnassassi 'of this fortress', genitive -ssi on both words. In harnassassi the ra/i of the ligature há+ra/i is supplied by the corpus (<+ra/i>): it is shown but is not on the stone. The gifts are accusatives: arraya halliya 'long days' (LONGUS-lá/í-ia, the l-sign standing for the stem's r), miyantinzi=ha ussinzi 'and many years' (common plural -nzi, the ANNUS classifier), sannawisa=ha=wa tammihisa 'and good old age' (neuter singular -sa, with =wa once more mid-clause). Three register breaks fall in this clause.",
    "words": [
     {
      "reading": "piyantu=ha=wa=du",
@@ -2960,7 +2967,7 @@
      ],
      "morph": [
       {
-       "lemma": "usnu(wa)-",
+       "lemma": "usnu-",
        "gloss": "bless, please",
        "g": [
         0,
@@ -4761,7 +4768,7 @@
    "ln": 57,
    "l": "And much may they magnify (them).",
    "i": "And may they make them grow very great.",
-   "n": "man=ba=wa: 'much' again, now with the topic shifter =pa (written pa, transcribed =ba by the corpus) and =wa. urannuwantu 'may they magnify' is urannu(wa)- 'make great' — §2's verb, written with MAGNUS+ra/i — in the 3rd plural imperative, with the same small final stroke as §56. Neither subject nor object is written; the English supplies 'them', taking up the herds of §55–§56.",
+   "n": "man=ba=wa: 'much' again, now with the topic shifter =pa (written pa, transcribed =ba by the corpus) and =wa. urannuwantu 'may they magnify' is urannuwa- 'make great' — §2's verb, written with MAGNUS+ra/i — in the 3rd plural imperative, with the same small final stroke as §56. Neither subject nor object is written; the English supplies 'them', taking up the herds of §55–§56.",
    "words": [
     {
      "reading": "man=ba=wa",
@@ -4857,7 +4864,7 @@
      ],
      "morph": [
       {
-       "lemma": "urannu(wa)-",
+       "lemma": "urannuwa-",
        "gloss": "make great — causative of ura- 'great' (MAGNUS)",
        "g": [
         0,

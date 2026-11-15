@@ -1394,3 +1394,8 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - No misprints corrected; emend.json unchanged. Kept as printed and explained in the notes: P588L04 قلت where ʿAzīza speaks (read qālat, pointed قٰلَتْ with a dagger alif, the edition's defective spelling); P588L16 حلها (ḥālihā, dagger alif); P587L15 اللتي; P588L07 البيت الشعر (for bayt al-shiʿr); P589L05 البيتين الذي (singular relative after a dual); P589L12 فتحت عيناها (nominative dual as object); P587L12 فاخذته (masculine pronoun for the cloth); spoken اشغلني, باست, ما تقرب لك, رح, متشوش, عياط; run-together السعيدان, ومااسم, نورالهدى. The archive was not changed.
 - Library label: `Night 119 · The Lover and the Beloved, continued`. Nothing to decide.
 - Next: night 120 is complete and unpublished; the next firing should publish it.
+
+## Night 120 (published 2026-11-15)
+- Corrected misprints in emend.json: P590L16 خطيئها→خطيئتها (“her sin”), P591L02 ثيأ→شيأ, P591L04 با→يا, P592L10 والمنك→ولكنك (as the transcribing run recommended). Kept as printed and explained in the notes: P590L15 الشاب عزيز (name without accusative alif, read ʿAzīz without case ending); P590L18 علي for ʿalā; P591L06 آلاخرة (madda on the article's alif; read al-ākhira) and سلامت (open tāʾ); P591L09 هذين الكلمتين (masculine demonstrative); P591L08 يقول for a command; P591L13 ارني (masculine imperative to his mother); مقالى; run-together وماصدقت, مافعلت, وماكنت, ولاخداعنا, لاصغيرة. The archive was not changed.
+- Library label: `Night 120 · The Lover and the Beloved, continued`. Nothing to decide.
+- Next: night 121 is not yet complete (tail unread); the next firing should transcribe.

@@ -1,0 +1,192 @@
+# aeneid-079 (X.606-688): t is cut from the edition by A.cut; l, i, n drafted from the Latin.
+import sys, os
+HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, '..', '..'))
+import aeneid_lib as A
+
+TITLE = 'Imago Aeneae. Turni fuga'
+PART = "The Phantom of Aeneas (X.606–688)"
+TITLE_EN = "The Phantom of Aeneas — Aeneid X.606–688"
+ABOUT = ("On Olympus Jupiter teases Juno: it is Venus, he says, not their own courage, that keeps the Trojans going. Juno answers "
+"humbly and begs to be allowed to save Turnus, who is descended from the god Pilumnus and has loaded Jupiter's altars with gifts. "
+"Jupiter grants a delay of his death, nothing more; the war will not be changed. Juno comes down in a storm-cloud and makes a "
+"phantom of Aeneas out of mist, with his arms, his crest, his walk and an empty voice. It taunts Turnus and runs; Turnus chases it "
+"onto a moored ship, and Juno cuts the cable and sweeps the ship out to sea while the real Aeneas looks in vain for him on the field. "
+"Turnus, ashamed to have deserted his men, cries out against Jupiter, begs the winds to wreck him, and three times tries either to "
+"fall on his sword or to swim back to the fight, until Juno restrains him and the tide carries him to his father's city, Ardea. "
+"The phantom recalls the image of Aeneas that Apollo makes in the Iliad.")
+
+U = [
+(606, 'ultro:',
+ """Meanwhile Jupiter, unprompted, addresses Juno:""",
+ """Meanwhile Jupiter, of his own accord, spoke to Juno:""",
+ """A new paragraph in Greenough, and a change of scene to Olympus. 'compellat', 'accosts', a formal word for speaking to someone. 'ultro', 'of his own accord', unasked: Jupiter opens the conversation, and he means to tease. The exchange recalls Zeus and Hera over Sarpedon in Iliad 16.431–461, with the roles turned round: there Zeus wants to save a man and Hera talks him out of it; here Juno pleads and Jupiter allows only a delay. Elision 'Iunon(em) interea'."""),
+(610, 'pericli.”',
+ """“O sister to me and also my most beloved wife,\nas you supposed, it is Venus (nor does your judgement deceive you)\nwho props up the Trojan strength, not a right hand lively in war\nthat the men have, nor a spirit fierce and enduring of danger.”""",
+ """“My sister, and my dearest wife as well, you were right in what you thought, and your judgement does not mislead you: it is Venus who keeps the Trojans' strength alive, not any vigour of their own right hands in war, nor their fierce spirit that bears up under danger.”""",
+ """'germana… coniunx': Juno is Jupiter's sister and his wife, both children of Saturn; 'eadem', 'the same woman', 'and also'. 'rebare', Greenough's form of 'rebaris', 'you used to think', from 'reor'; the second-person '-re' is common in verse. Jupiter is being ironic: he pretends to grant Juno's complaint that only Venus keeps the Trojans alive, just when Aeneas is cutting down the Latins. 'opes', 'power, resources'. 'viris', dative of possession, 'to the men', as 'sunt mihi'. 'pericli', the shortened genitive of 'periculum', with 'patiens', 'enduring of danger'. Elisions 'mih(i) atqu(e) eadem'."""),
+(612, 'timentem?',
+ """To whom Juno, humbly: “Why, O most handsome husband,\ndo you trouble me, sick at heart and your harsh words fearing?""",
+ """Juno answered him meekly: “Why, my most handsome husband, do you torment me, when I am sick at heart and dread your stern words?""",
+ """'Cui', the connecting relative, 'to him', with the verb of speaking left out, as 'Aeolus haec contra' in Book I: you will keep meeting both. 'summissa', 'lowered, humble': Juno's tone has changed. 'pulcherrime coniunx', flattery. 'aegram… timentem', both agreeing with the 'me' understood after 'sollicitas', 'trouble (me), sick (at heart) and fearing'. 'tristia dicta', 'harsh words': 'tristis' can be 'grim, stern'. Elision 'aegr(am) et'."""),
+(616, 'parenti.',
+ """If to me (such as once it had been and as it was fitting it should be)\nthere were strength in love, this you would surely not deny me,\nall-powerful one, that I might both withdraw Turnus from the fight\nand keep him unharmed for Daunus, his father.""",
+ """If my love still had the power it once had and ought to have, you would not refuse me this, almighty one: that I might steal Turnus away from the battle and keep him safe for his father Daunus.""",
+ """An unreal condition in present time, with imperfect subjunctives 'foret… negares', 'if there were… you would not deny' (and in fact there is not). 'foret' = 'esset'. 'mihi… vis', dative of possession. 'quae… quamque esse decebat', 'which it had once been and which it was right that it should be', describing 'vis' before it arrives. 'namque', put late, a poetic habit. 'non… negares… quin… possem': after a negative verb of refusing, 'quin' with the subjunctive. 'et… et', 'both… and'. 'Dauno… parenti', Daunus, Turnus's father, king of Ardea. Elisions 'quamqu(e) esse', 'posse(m) incolumem'."""),
+(617, 'poenas.',
+ """Now let him perish, and to the Teucrians with his loyal blood pay the penalty.""",
+ """As it is, let him die, and pay the Trojans the penalty with his own loyal blood.""",
+ """'Nunc', 'as things are', not 'at this moment': the regular turn back to fact after an unreal condition. 'pereat… det', jussive subjunctives, said in bitterness, not as a wish. 'poenas dare', 'to pay the penalty', the usual phrase; 'Teucris', dative, to the Trojans. 'pio… sanguine', 'with dutiful blood', the blood of a man who has done right by gods and kin, so that the punishment is undeserved. No elisions."""),
+(620, 'donis.”',
+ """Yet he from our stock draws his name,\nand Pilumnus is his fourth father, and your thresholds, with a lavish\nhand, he has often loaded with many gifts.”""",
+ """And yet he draws his descent from our own stock: Pilumnus was his great-great-grandfather, and often has he heaped the doors of your temples with gifts from a lavish hand.”""",
+ """'nostra… origine', 'from our origin', from the gods: Pilumnus, an old Italian god, is his ancestor. 'deducit… nomen', 'draws his name', his line. 'illi', dative of possession again. 'quartus pater', 'fourth father', counting back father, grandfather, great-grandfather, great-great-grandfather ('pater, avus, proavus, abavus'). 'tua… limina', 'your thresholds', the doors of Jupiter's temples, the possessive and noun far apart; the subject of 'oneravit' is Turnus again. 'larga… manu', 'with generous hand'. Elisions 'Pilumnusqu(e) illi', 'multisqu(e) oneravit'."""),
+(621, 'Olympi:',
+ """To whom the king of airy Olympus briefly thus speaks:""",
+ """The king of high Olympus answered her briefly:""",
+ """'Cui', the connecting relative again, with 'fatur' this time expressed. 'rex aetherii… Olympi', 'king of airy Olympus', the adjective and its noun framing the line; 'aether' is the bright upper air where the gods live. 'breviter', 'briefly': his answer takes six lines to her ten. 'sic fatur', 'speaks thus', a regular formula for introducing a speech. No elisions."""),
+(625, 'vacat.',
+ """“If a delay of the present death and time for the doomed\nare begged, for the young man, and you perceive that I lay this down so,\ntake Turnus away by flight and snatch him from the pressing fates:\nso far to have indulged you there is room.""",
+ """“If what you ask is a postponement of the death now upon him, and a little time for a young man who must fall, and you understand that this is how I decree it, then carry Turnus off in flight and snatch him from the doom that is closing on him: so much indulgence there is room for.""",
+ """'mora… tempusque… oratur', 'a delay and time are begged', a passive verb of asking. 'praesentis leti', 'of the death at hand'. 'caduco… iuveni', 'for the falling young man', one doomed to fall; 'caducus' is used of what drops, like leaves or fruit. 'hoc ita ponere', 'that I lay this down so', 'ponere' of fixing a ruling. 'tolle… eripe', imperatives. 'instantibus… fatis', dative with 'eripe', 'snatch from the fates that press on him'. 'hactenus indulsisse vacat', 'thus far it is open (to me) to have indulged (you)', the perfect infinitive where prose would put the present, common in verse. Elisions 'mequ(e) hoc', 'Turn(um) atqu(e) instantibus'."""),
+(627, 'inanis.”',
+ """But if a deeper, beneath those\nprayers, favour lies hidden, and that the whole could be moved\nor changed you think, the war, empty hopes you feed on.”""",
+ """But if beneath these prayers there lies some deeper favour, and you imagine that the whole course of the war can be shifted and altered, you are feeding on empty hopes.”""",
+ """'Sin', 'but if', the other side of the condition. 'altior… venia', 'a deeper favour', more than a delay. 'istis… sub precibus', 'under those prayers of yours': 'iste' is the demonstrative of the person spoken to, often with a touch of contempt. 'totum… bellum', 'the whole war', adjective and noun far apart; 'moveri mutarive', infinitives with 'putas', '(that it can) be moved or changed', '-ve', 'or'. 'spes… inanis', accusative plural in '-is', 'empty hopes'. 'pascis', 'you feed', you nourish yourself on hopes. No elisions."""),
+(629, 'maneret?',
+ """And Juno, weeping: “What if what in voice you are loath to give\nin mind you gave, and this life for Turnus remained assured?""",
+ """And Juno, in tears: “What if you granted in your heart what you are reluctant to grant in words, and this life stayed secure for Turnus?""",
+ """'adlacrimans', 'weeping at this', Greenough's spelling (the familiar form is 'allacrimans'); the verb of speaking is again understood. 'Quid si… dares… maneret?', 'what if you were to give… and it were to remain?', imperfect subjunctives of something only imagined. 'quae voce gravaris', '(what) you are reluctant (to give) with your voice': 'gravor', 'to find a thing burdensome, be loath'. 'voce… mente', word against thought. 'rata', 'ratified', fixed, from 'reor'. Elisions 'Iun(o) adlacrimans', 'atqu(e) haec'."""),
+(631, 'feror.',
+ """Now a heavy end awaits the guiltless one, or I, of the truth\nempty, go astray.""",
+ """As it is, a cruel end awaits an innocent man, or else I have wandered far from the truth.""",
+ """'Nunc', 'as it is', back to fact after the imagined case. 'manet', 'awaits', with an accusative, as often. 'insontem', 'the guiltless one', Turnus: Juno holds him innocent of anything that deserves this. 'gravis exitus', 'a grievous end'. 'veri vana', 'empty of the truth', a genitive with an adjective of want, like 'inops' or 'expers'. 'feror', 'I am borne along', so 'I go astray'; perhaps 'I am said to be'. No elisions."""),
+(632, 'reflectas!”',
+ """And O that rather by a false fear\nI may be mocked, and to the better your, you who can, purposes may bend back!”""",
+ """Oh, may it rather be that a false fear is mocking me, and that you, who have the power, may turn your purposes to something better!”""",
+ """'Quod', a connecting relative, 'as to which', binding this to what went before. 'ut… ludar… reflectas', 'ut' with the subjunctive of a wish, 'O that I may be mocked… and that you may bend': 'utinam' is the usual word. 'formidine falsa', 'by a false fear', ablative of means. 'in melius', 'for the better'. 'tua… orsa', 'your beginnings', what you have begun or planned, from 'ordior', 'begin'; the possessive and its noun frame 'qui potes', 'you who are able'. No elisions."""),
+(635, 'petivit.',
+ """When she had given these words, from high heaven at once herself\nshe sent, driving a storm, girt with a rain-cloud, through the airs,\nand the Ilian line and the Laurentine camp she sought.""",
+ """With these words she flung herself straight down from high heaven, driving a storm before her through the air, wrapped in a rain-cloud, and made for the Trojan line and the Laurentine camp.""",
+ """'Haec ubi dicta dedit', 'when she had given these words', a stock formula for ending a speech; English wants the pluperfect where the Latin has 'dedit' after 'ubi'. 'caelo… alto', 'from high heaven', ablative of separation. 'se… misit', 'sent herself', a sudden plunge. 'agens hiemem', 'driving a storm': 'hiems' is winter, then any foul weather. 'nimbo succincta', 'girded with a cloud'. 'Iliacam aciem', the Trojan battle-line; 'Laurentia castra', the camp of the Latins, after Laurentum, Latinus's city. Elisions 'Iliacamqu(e) aci(em) et'."""),
+(640, 'euntis,',
+ """Then the goddess out of hollow cloud a thin, strengthless shade\nin the likeness of Aeneas (a wondrous portent to see)\nequips with Dardanian weapons, and the shield and the plumes\nof the godlike head she counterfeits, gives empty words,\ngives sound without mind, and copies the steps of one walking,""",
+ """Then out of hollow cloud the goddess fashioned a thin, strengthless shadow in the shape of Aeneas, a marvel to behold, and decked it with Trojan arms; she counterfeited the shield and the crest on that godlike head, gave it empty words, gave it sound with no mind behind it, and copied the gait of a man walking,""",
+ """The phantom recalls Iliad 5.449–453, where Apollo makes an image of Aeneas and the fighting goes on around it while the real Aeneas is safe, and Iliad 21.595–605, where Apollo takes Agenor's shape and lures Achilles away in pursuit (the line numbers perhaps). 'nube cava', 'from hollow cloud', ablative of material. 'in faciem Aeneae', 'into Aeneas's likeness'. 'visu mirabile', 'wonderful to see', the supine in '-u'. 'iubas', 'manes', the horsehair crests of a helmet. 'euntis', genitive singular, 'of a man going'. The sentence runs on into the simile, so this unit ends at a comma. Elisions 'faci(em) Aeneae', 'divin(i) adsimulat', 'gressusqu(e) effingit'."""),
+(642, 'sensus.',
+ """like the shapes that, once death is met, the story is, flit about,\nor the dreams which delude the senses lulled to sleep.""",
+ """like the forms that are said to flit about when death has come, or the dreams that cheat our senses in sleep.""",
+ """A short simile. 'qualis', 'such as', looks back to the phantom, which is like the ghosts of the dead. 'fama est', 'the report is', takes the accusative and infinitive 'figuras volitare', 'that shapes flit about'. 'morte obita', ablative absolute, 'death having been met', after death. 'quae… somnia', 'the dreams which', the noun drawn into the relative clause. 'sopitos… sensus', 'senses lulled asleep', the adjective and noun framing the second half of the line. Elisions 'mort(e) obita', 'fam(a) est'."""),
+(644, 'lacessit.',
+ """But before the foremost lines, joyful, prances the image,\nand provokes the man with weapons and with voice challenges him.""",
+ """And the phantom pranced gleefully in front of the foremost ranks, goading the hero with its weapons and taunting him with its voice.""",
+ """'At', a quick change of focus. 'primas… ante acies', 'before the front lines', the preposition between adjective and noun, a common verse order. 'laeta', 'joyful', the phantom given its maker's glee. 'exsultat', 'leaps, prances'. 'imago', 'the image', held to the end of the line. 'virum', 'the man', Turnus, accusative singular here, not the genitive plural. 'telis et voce', by brandishing its spears and by shouting. Elisions 'laet(a) ant(e) acies'."""),
+(646, 'tergo.',
+ """On it presses Turnus, and a whirring spear from afar\nhe hurls: it, its back given, turns its footsteps.""",
+ """Turnus pressed hard upon it and hurled a whistling spear from a distance; it turned its back and fled.""",
+ """'Instat cui Turnus', 'on which Turnus presses', the relative 'cui' (dative with the compound 'instat') put second and linking back to 'imago'. 'stridentem… hastam', 'the hissing spear', framing 'eminus', 'from a distance'. 'conicit', 'hurls'. 'illa', the phantom. 'dato… tergo', ablative absolute, 'its back given', turned in flight; 'vertit vestigia', 'turns its steps'. Elision 'stridentemqu(e) eminus'."""),
+(649, 'Aenea?',
+ """Then indeed, when that Aeneas had turned and was retreating Turnus\nbelieved, and in his mind, in turmoil, drank in an empty hope:\n“Where are you running, Aeneas?""",
+ """Then indeed, when Turnus believed that Aeneas had turned and was giving ground, and in his wild excitement drank in an empty hope, he cried: “Where are you running, Aeneas?""",
+ """'Tum vero', 'then indeed', the moment of crisis. 'Aenean', the Greek accusative of 'Aeneas', and 'Aenea', the Greek vocative; Greenough keeps both. 'ut… credidit', 'when he believed', 'ut' with the indicative, temporal; 'Aenean aversum… cedere', accusative and infinitive, 'that Aeneas, turned away, was retreating'. 'animo… hausit', 'drank in with his mind', a strong verb. 'turbidus', 'wild, confused'. 'spem… inanem', the adjective held to the end. The verb of speaking is left out before the speech. Elisions 'ver(o) Aenean', 'avers(um) ut', 'atqu(e) animo'."""),
+(650, 'undas.”',
+ """The pledged bridal chamber, do not desert it;\nby this right hand will be given the land sought across the waves.”""",
+ """Do not abandon the marriage you were promised: this right hand will give you the land you have sought across the sea.”""",
+ """Turnus's taunt. 'Thalamos… pactos', 'the pledged bridal chamber', marriage with Lavinia, whom Latinus has promised to Aeneas and Turnus claims for himself: he mocks Aeneas for deserting the bride he came for. 'ne desere', 'ne' with the imperative, an old and poetic way of forbidding; prose has 'noli' with the infinitive. 'hac… dextra', 'by this right hand', framing 'dabitur': the land Aeneas sought he will get from Turnus, enough for a grave. 'tellus quaesita per undas', Italy, the land of the prophecies. No elisions."""),
+(652, 'ventos.',
+ """Such things shouting, he follows, and his drawn blade he brandishes,\nthe point, and does not see that the winds bear off his joys.""",
+ """Shouting such words he gave chase, flashing his drawn sword, and did not see that the winds were carrying his triumph away.""",
+ """'Talia vociferans', 'shouting such things'. 'strictum… mucronem', 'the drawn point', the sword named by its tip, the adjective and noun split across the line-end. 'coruscat', 'brandishes, makes flash'. 'nec… videt', 'and does not see'. 'ferre… ventos', accusative and infinitive, 'that the winds are carrying off his joys': winds carrying off words or hopes is proverbial for things that come to nothing. 'gaudia', his imagined triumph. No elisions."""),
+(655, 'oris.',
+ """By chance a ship, joined to the ledge of a high rock,\nwith its ladders let down was standing and its gangway ready,\nthe one in which the king from the Clusine shores had been carried, Osinius.""",
+ """As it happened, a ship stood moored against the ledge of a high rock, with its ladders let down and its gangway ready: the ship that had brought King Osinius from the shores of Clusium.""",
+ """'Forte', 'by chance', a word Virgil often uses to set up a scene. 'coniuncta crepidine saxi', 'joined to the ledge of a rock', moored alongside. 'expositis… scalis et ponte parato', ablatives absolute, 'ladders set out and gangway ready'. 'qua', 'by which', the ship he came in; 'erat' is understood with 'advectus'. 'Clusinis… oris', 'from the Clusine region': Clusium is an inland Etruscan town, and 'ora' can mean any region. Osinius is one of Aeneas's Etruscan allies, perhaps named only here. No elisions."""),
+(657, 'latebras;',
+ """Hither, trembling, the image of the fleeing Aeneas\nthrows itself into hiding;""",
+ """There the image of the fleeing Aeneas flung itself in fright, into hiding;""",
+ """'Huc', 'here', into the ship. 'sese… conicit', 'throws itself', the same verb as Turnus's spear-throw at 646. 'trepida', 'trembling', the phantom playing its part to the end. 'Aeneae fugientis imago', 'the image of a fleeing Aeneas', the participle naming the role it plays. 'in latebras', 'into hiding places', plural for singular. Elision 'trepid(a) Aeneae'."""),
+(658, 'altos.',
+ """nor more slowly does Turnus press on,\nand he overcomes the delays and leaps the gangways, the high ones.""",
+ """Turnus pressed after it no less hotly, overcame every obstacle and leapt across the high gangway.""",
+ """'nec… segnior', 'and no slower', litotes, an understatement meaning 'as eagerly as ever'. 'instat', 'presses on'. 'exsuperat moras', 'gets over the delays', whatever stands in his way. 'pontis… altos', accusative plural in '-is', 'the high bridges', the gangway, plural for singular, with the adjective held to the end. 'transilit', 'leaps across'. No elisions."""),
+(660, 'navem.',
+ """Scarcely had he touched the prow: the Saturnian breaks the cable\nand, torn away, sweeps over the rolled-back waters the ship.""",
+ """Hardly had he set foot on the prow when Saturn's daughter snapped the cable and swept the ship, torn from its moorings, away over the ebbing waters.""",
+ """'Vix… attigerat: rumpit', 'scarcely had he touched: she breaks', two clauses set side by side with no 'cum', the speed in the syntax. 'Saturnia', 'daughter of Saturn', Juno, a title you will meet often. 'avolsam', Greenough's spelling of 'avulsam', 'torn away', agreeing with 'navem' at the end of the line. 'revoluta per aequora', 'over the rolled-back waters', perhaps the tide running out, perhaps the water rolling back as the ship pulls away. Elision 'pror(am) attigerat'."""),
+(662, 'morti:',
+ """But him, absent, Aeneas to battle demands;\nmeeting him, many bodies of men he sends down to death:""",
+ """Aeneas, meanwhile, was calling on the absent Turnus to fight, and sent down to death many men who crossed his path:""",
+ """Greenough prints these two lines after 660; The Latin Library has them after 664, which keeps the phantom's story unbroken. We keep Greenough's order. 'Illum autem', 'but him', Turnus, now gone. 'absentem', the irony: Aeneas challenges a man who is no longer on the field. 'in praelia', Greenough's spelling of 'proelia'. 'obvia', 'in his way', with 'corpora'. 'multa virum… corpora', 'many bodies of men', 'virum' the old genitive plural (you will see it constantly). 'demittit… morti', 'sends down to death', a dative of direction. Elisions 'Ill(um) aut(em) Aeneas', 'absent(em) in'."""),
+(664, 'atrae.',
+ """then the light image no longer now seeks hiding-places,\nbut flying aloft mingled itself with a cloud, a black one.""",
+ """Then the airy image looked for hiding places no longer, but flew up high and melted into a black cloud.""",
+ """'levis', 'light', insubstantial, its work done. 'haud ultra… iam', 'no longer now'. 'sublime', 'aloft', the neuter adjective used as an adverb. 'nubi… atrae', dative with the compound verb 'immiscuit', 'mingled itself with a black cloud', the noun and adjective framing the end of the line: the phantom goes back into the cloud it was made from (636). 'immiscuit', a perfect after presents, the vanishing done in an instant. Elision 's(e) immiscuit'."""),
+(665, 'turbo.',
+ """While Turnus, meanwhile, over the mid sea the whirlwind carries.""",
+ """Meanwhile a whirlwind was carrying Turnus away over the open sea.""",
+ """'Cum… interea', 'while meanwhile', 'cum' with the indicative, joining this to what is happening on the field. 'Turnum', the object first, the subject 'turbo', 'the whirlwind', held to the end of the line: the storm Juno brought down with her (634). 'medio… aequore', 'over the middle of the sea', ablative of the route taken. 'fert', 'carries', the present for vividness. Elision 'medi(o) interea'."""),
+(667, 'tendit:',
+ """He looks back, unaware of what has happened and ungrateful for his rescue,\nand both his hands, with his voice, to the stars he stretches:""",
+ """He looked back, not understanding what had happened and with no gratitude for his rescue, and stretched both hands to the stars as he cried out:""",
+ """'Respicit', 'looks back', to the shore falling away behind. 'ignarus rerum', 'unaware of what had happened', a genitive with an adjective of knowing; 'ingratus salutis', 'ungrateful for his safety', the same genitive. 'duplicis… manus', 'both hands', accusative plural in '-is'; 'duplex' in verse is often simply 'two, both'. Hands raised to the sky are the gesture of prayer. 'cum voce', 'with his voice', crying out as he does it. Elision 'rer(um) ingratusque'."""),
+(669, 'poenas?',
+ """“Almighty father, of so great a crime worthy have you\nheld me, and willed me to pay such penalties?""",
+ """“Almighty father, have you judged me guilty of so great a crime, and willed that I should pay such a penalty?""",
+ """'tanton', Greenough's shortened form of 'tantone', 'tanto' with the question particle '-ne', its final '-e' dropped. 'tanto… crimine dignum', 'worthy of so great a crime': 'dignus' with the ablative, deserving the punishment such a crime would earn. 'duxisti', 'have you considered', 'duco' in the sense 'reckon'. 'talis… poenas', accusative plural in '-is'. 'expendere poenas', 'to pay out penalties', weighed out like money. Elisions 'duxist(i) et', 'voluist(i) expendere'."""),
+(670, 'reducit?',
+ """Where am I borne? Whence have I gone? What flight brings me back, and as whom?""",
+ """Where am I being carried? Where have I come from? What is this flight, and what sort of man will it bring me home as?""",
+ """Three quick questions. 'Quo feror?', 'where am I carried?', the passive of a man with no control over where he goes. 'Unde abii?', 'from where have I gone?' 'quemve', '-ve', 'or': 'and as what man (does it bring me back)?', 'quem' standing in apposition to 'me': he will come home a deserter. 'reducit', 'leads back', home to Ardea. Elision 'Und(e) abii'."""),
+(671, 'videbo?',
+ """The Laurentine walls again, or the camp, shall I see?""",
+ """Shall I ever see the walls of Laurentum or our camp again?""",
+ """'Laurentisne… muros', 'the Laurentine walls', accusative plural in '-is', with the question particle '-ne' attached to the first word. Laurentum is the city of Latinus; 'castra', the camp of Turnus's own army. 'iterum', 'again', with 'videbo', 'shall I see', a man who fears he never will. Elision 'Laurentisn(e) iterum'."""),
+(672, 'secuti?',
+ """What of that band of men, who me and my arms have followed?""",
+ """And what of that company of men who followed me and my standard?""",
+ """'Quid manus illa virum', 'what (of) that band of men?', the verb left out, a common shape for a question in distress. 'virum', the genitive plural again. 'secuti', with 'sunt' understood, as often with perfect participles. 'me meaque arma', 'me and my arms', my leadership in war: they followed him, and he has left them. Elision 'meaqu(e) arma'."""),
+(675, 'accipio!',
+ """Them (horror!) all, to an unspeakable death, have I left,\nand now I see them scattering, and the groans of the falling\nI hear!""",
+ """Have I left them all (oh, the wickedness of it!) to a hideous death, and now I see them scattered and hear the groans of the dying!""",
+ """'Quosne', 'them, then?', a connecting relative with the question particle '-ne', asked in horror, hence the exclamation mark; The Latin Library prints 'quosque', 'and whom', a plain relative running on from 672, with much the same sense. 'nefas', 'a thing against divine law', thrown in as an exclamation. 'omnis', 'palantis', accusative plurals in '-is'. 'infanda in morte', 'in an unspeakable death'. 'palantis', 'straggling, scattered'. He sees and hears it in his mind. 'cadentum', genitive plural of the participle, '-um' for '-ium'. 'accipio', 'I take in', with the ears. Elision 'infand(a) in'."""),
+(676, 'mihi?',
+ """What am I doing? Or what earth now could gape deep enough\nfor me?""",
+ """What am I to do? What earth could open deep enough to swallow me now?""",
+ """'Quid ago?', 'what am I doing?', the present indicative where one might expect a deliberative subjunctive, a colloquial turn for 'what am I to do?'. 'quae… dehiscat… terra', 'what earth could gape open', a potential subjunctive; 'satis ima', 'deep enough', 'imus' being 'lowest'. The wish for the earth to swallow one up is Homeric (Agamemnon at Iliad 4.182, Hector of Paris at 6.281–282, perhaps), and Dido says it at IV.24. Elision 'ag(o) aut', across the question mark."""),
+(679, 'sequatur.”',
+ """You, O winds, take pity rather:\nonto crags, onto rocks (willingly I, Turnus, implore you)\nbear the ship, and drive it on the cruel shoals of the Syrtis,\nwhere neither the Rutulians nor knowing rumour may follow me.”""",
+ """Winds, have pity on me rather: drive this ship onto the crags and rocks (it is Turnus who begs you, and with all his heart), and hurl it onto the cruel shoals of the Syrtis, where neither the Rutulians nor the rumour that knows my shame can follow me.”""",
+ """'Vos… miserescite', 'you, take pity', from the old verb 'miseresco'. 'potius', 'rather', rather than the earth. 'volens vos Turnus adoro', thrown in between the phrases and their verb 'ferte': 'willingly I, Turnus, entreat you'; he names himself, as heroes do at grand moments. 'Syrtis', genitive singular, 'of the Syrtis', the dangerous sandbanks off the African coast, the furthest wreck he can think of. 'quo… sequatur', 'to which (place)… may follow', a relative clause of purpose. 'conscia fama', 'knowing rumour', report that knows his disgrace. 'neque… nec', 'neither… nor'. No elisions."""),
+(684, 'arma.',
+ """Saying these things, in mind now this way, now that way he wavers,\nwhether himself on the sword-point, for so great a disgrace, out of his mind,\nhe should fix, and drive the cruel blade through his ribs,\nor throw himself into the midst of the waves, and the shores by swimming,\nthe curving ones, seek, and give himself back again to the Teucrians' arms.""",
+ """Saying this, he wavered in his mind, now this way and now that: whether, maddened by such disgrace, he should fall on his sword and drive the cruel blade through his ribs, or throw himself into the midst of the waves, swim for the curving shore, and hurl himself once more against the arms of the Trojans.""",
+ """'fluctuat', 'he wavers', literally 'rolls like a wave', apt for a man at sea. 'an… an', 'whether… or', an indirect double question with deliberative subjunctives ('induat… exigat… iaciat… petat… reddat'). 'sese mucrone… induat', 'put himself upon the point', fall on his sword. 'crudum… ensem', 'the cruel sword', framing the half-line. 'iaciat', with 'se' understood from 'sese'. 'nando', 'by swimming', the gerund. 'Teucrum', the old genitive plural. A divided mind stopped by a god perhaps recalls Achilles in Iliad 1.188–194, wondering whether to draw his sword on Agamemnon until Athena checks him. Elisions 'mucron(e) ob', 'Teucrumqu(e) iterum'."""),
+(686, 'repressit.',
+ """Three times he tried each way, three times greatest Juno\nheld him back, and the young man, pitying him in her heart, restrained.""",
+ """Three times he tried each course, and three times mighty Juno held him back and checked the young man, pitying him in her heart.""",
+ """'Ter… ter', 'three times… three times', a Homeric pattern for an effort repeated and foiled, as when Patroclus three times climbs the wall of Troy and Apollo three times beats him back (Iliad 16.702–705, perhaps). 'conatus', with 'est' understood. 'utramque viam', 'each way', the sword and the sea. 'animi', 'in her mind', a genitive found with words of feeling ('miserata animi'), perhaps an old locative in origin. 'iuvenem', Turnus. Elision 'iuvenemqu(e) animi'."""),
+(688, 'urbem.',
+ """He glides on, cutting the deep, with wave and tide favouring,\nand to his father's ancient city, Daunus's, is carried down.""",
+ """On he glides, cutting through the deep with wave and tide in his favour, and is borne down to the ancient city of his father Daunus.""",
+ """'Labitur', 'he glides', the ship and the man as one. 'alta secans', 'cutting the deep', 'alta' neuter plural, the open sea. 'fluctuque aestuque secundo', 'with favouring wave and tide', the double '-que… -que', with 'secundo' agreeing with the nearer noun. 'patris… Dauni… urbem', the city of his father Daunus: Ardea, the Rutulian capital, a few miles from the coast. 'defertur', 'is carried down', borne to land. Elision 'fluctuqu(e) aestuque'."""),
+]
+
+PAIRS = {}
+P = A.part('aeneid-079'); L = A.lines_of(P); paras = {l['n'] for l in L if l['p']}
+cuts = A.cut(P, [(u[0], u[1]) for u in U])
+sents = []; prev_end_line = None
+for (t, ln), (_, _t, l, i, n) in zip(cuts, U):
+    u = {'t': t, 'l': l, 'i': i, 'n': n}
+    if prev_end_line != ln and ln in paras: u['p'] = True
+    u['v'] = True; u['ln'] = ln; sents.append(u)
+    prev_end_line = ln + t.count('\n')
+    if t.count('\n') != l.count('\n'): print('LINE COUNT', ln, repr(t[:30]), t.count('\n'), l.count('\n'))
+    if t.count('\n') > 4: print('TOO LONG', ln)
+    if '\n' in i: print('NEWLINE IN i', ln)
+    if t.rstrip('”]')[-1] not in A.TERMINAL + ',': print('ENDING', ln, repr(t[-12:]))
+    nw = len(n.split())
+    if nw > 139 or nw < 15: print('NOTE LENGTH', ln, nw)
+    for mk in '“”[]':
+        if t.count(mk) != l.count(mk) and ln not in PAIRS and ln not in PAIRS.values(): print('MARK l', ln, mk)
+        if mk in '“”' and t.count(mk) != i.count(mk) and ln not in PAIRS and ln not in PAIRS.values(): print('MARK i', ln, mk)
+A.jdump({'title': TITLE, 'titleEn': TITLE_EN, 'part': PART, 'about': ABOUT, 'sentences': sents}, os.path.join(HERE, 'units.json'))
+print(len(sents), 'units')

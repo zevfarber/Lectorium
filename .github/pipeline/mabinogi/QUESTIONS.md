@@ -64,3 +64,8 @@ the drafter's note to say it is *march* soft-mutated, spelt with the w-letter. T
 - The earlier entry *delediwhaf* says "(no modern form)" where this part's entries say "(obsolete)". Not changed.
 - Uncertain readings rendered from context and flagged in the notes: *hof* (read as hoff 'pleasing'), *ossymdeithawc* (RB *ossymdeithaw*), *llyw* read as *lliw* 'colour' (RB lliw), *handid*/*henbydy* (hanbot), *yn luttaf*, *morwyal* (which seaweed), *brithaw* of leather. *eneit* at unit 124 rendered 'life' (011 has it only as the vocative 'soul, friend').
 - New name forms chosen: Dinas Dinlle (text *Dinllef*), Bryn Arien (*Brynn Aryen*), Dunoding (*Dinodig*), Cefn Clydno, Mur Castell, Aber Menai, Eifionydd, Morgannwg. The owner may rule otherwise.
+
+## 2026-11-15 · mabinogi-014 · small open points (establish)
+- col 104 l. 36 *guybọt*: Evans prints a dot beneath the o. Leaving the o out (our rule for dotted letters) gives no word. Decided meanwhile: kept *guybot*; the dot's meaning is unknown.
+- col 105 l. 2 *uot yn hynn* (witness *yr hynn*; Red Book *yn wir*): kept as printed; the drafter says the reading is uncertain.
+- col 111 l. 11: a raised a after *ac* read into the line as *ac a'y gwledychwys* ('and ruled it'); the witness drops it. Decided meanwhile: adopted from the image.

@@ -16,4 +16,4 @@
 | mabinogi-011 | Gwydion's swine and the death of Pryderi | Evans cols 81–89 | published |
 | mabinogi-012 | Goewin's wrong and the brothers' penance | Evans cols 89–94 | published |
 | mabinogi-013 | Aranrhod's three destinies and the woman of flowers | Evans cols 94–101 | published |
-| mabinogi-014 | Blodeuedd, Gronw and the eagle on the oak | Evans cols 101–111 | todo |
+| mabinogi-014 | Blodeuedd, Gronw and the eagle on the oak | Evans cols 101–111 | established |

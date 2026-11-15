@@ -1416,3 +1416,8 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - The young woman's frank speech (P599L08–L14, نيك) is translated in full, as the conventions require. No passage omitted.
 - Library label: `Night 123 · The Lover and the Beloved, continued`. Nothing to decide.
 - Next: night 124 is not yet complete (tail unread); the next firing should transcribe.
+
+## 2026-11-15 (transcribing run, PDF 623-630 = pp. 601-608)
+- Both passes on the strongest model: 25 disputes over 8 pages (about 3 a page). Night labels 125 (P602L01), 126 (P603L16), 127 (P605L10) and 128 (P607L07) are each printed centred on their own line; all four carry `h` (P603L16 and P607L07 set by hand). Lines the detector missed and both passes recovered from the bands: P605L09 (the short line الكلام المباح that closes Night 126), P606L12 (فيها هذه الابيات, before the verse on p. 606), and a merged crop split on p. 604.
+- Kept as printed, for the publishing runs to consider for `emend.json`: P603L08 المتزوّح (no dot under the final letter; sense المتزوّج); P602L15 هذه الليلة (second lam faint but read as lam, so no emendation needed); P606L08 لأ (hamza printed on the negative لا); P605L16 على غير استوأ (hamza over the final alif; sense استواء); P607L05 اذ اغبت (spacing; sense اذا غبت); P608L11 الخرفة (one dot; sense الخرقة); P601L01 عزيزان (run together, for عزيز ان). Run-together غيرالذي, واذابزوجتي, هذاالبكاء, وهوميت, لَوْمُتُّ, وارجوالله, ومافعلت.
+- Nights 124, 125, 126 and 127 are now complete and unpublished; the next four firings should publish them.

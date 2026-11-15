@@ -1410,3 +1410,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Corrected misprints in emend.json: P594L03 دعها→معها, P594L06 قاعيدهما→فاعيدهما, P594L13 الرمان→الزمان (as the transcribing run suggested). Kept as printed and explained in the notes: قلت for qālat (dagger alif); حتي; كاس, راس, شاني (no hamza); قماشى; مامعني; هذين الكلمتين; ذلك الحال; اشتاقت نفسي الذهاب (no الى); verse تادّب (no hamza), يَامَيَّت (fatḥa printed on the yāʾ, read mayyita), law + jussive اَسْتَطِعْ, الْمُنْدَافِق (not a dictionary form; read as al-mundafiq/al-mutadāfiq, “gushing”); run-together شاءالله, ولاباحت, كلمابتّ, ومازلت, ولاحزن, لاادري. The archive was not changed.
 - Library label: `Night 121 · The Lover and the Beloved, continued`. Nothing to decide.
 - Next: nights 122 and 123 are complete and unpublished; the next two firings should publish them.
+
+## Night 123 (published 2026-11-15)
+- Corrected misprints in emend.json: P597L13 اقبلب→اقبلت, P598L20 الوفاو→الوفاء (as the transcribing run suggested). Kept as printed and explained in the notes: P599L03 ولاد واهي (space misplaced in ولا دواهي; spacing rule); العجوزة (spoken feminine); الحيوة; وتقوى (ى for final yāʾ); عزيز without accusative alif; ولولا هي; ولا بقت; على حيلها; run-together السعيدان, الاقفل, لايصلح, اقدران. The archive was not changed.
+- The young woman's frank speech (P599L08–L14, نيك) is translated in full, as the conventions require. No passage omitted.
+- Library label: `Night 123 · The Lover and the Beloved, continued`. Nothing to decide.
+- Next: night 124 is not yet complete (tail unread); the next firing should transcribe.

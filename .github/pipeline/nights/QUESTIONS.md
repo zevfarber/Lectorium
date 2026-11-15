@@ -1389,3 +1389,8 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - The night contains a frank love scene between ʿAzīz and the lady (P586L16–P587L03); it is translated in full, as the conventions require. No passage omitted.
 - Library label: `Night 118 · The Lover and the Beloved, continued`. Nothing to decide.
 - Next: nights 119 and 120 are complete and unpublished; the next two firings should publish them.
+
+## Night 119 (published 2026-11-15)
+- No misprints corrected; emend.json unchanged. Kept as printed and explained in the notes: P588L04 قلت where ʿAzīza speaks (read qālat, pointed قٰلَتْ with a dagger alif, the edition's defective spelling); P588L16 حلها (ḥālihā, dagger alif); P587L15 اللتي; P588L07 البيت الشعر (for bayt al-shiʿr); P589L05 البيتين الذي (singular relative after a dual); P589L12 فتحت عيناها (nominative dual as object); P587L12 فاخذته (masculine pronoun for the cloth); spoken اشغلني, باست, ما تقرب لك, رح, متشوش, عياط; run-together السعيدان, ومااسم, نورالهدى. The archive was not changed.
+- Library label: `Night 119 · The Lover and the Beloved, continued`. Nothing to decide.
+- Next: night 120 is complete and unpublished; the next firing should publish it.

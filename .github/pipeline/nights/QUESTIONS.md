@@ -1375,3 +1375,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - ʿAzīza explains three of the four objects (the ṭāb stick, the date-stone, the carob seed) and says nothing of the knucklebone; the note says so for this night only.
 - Library label: `Night 117 · The Lover and the Beloved, continued`. Nothing to decide.
 - Next: night 118 is not yet complete (tail unread); the next firing should transcribe.
+
+## 2026-11-15 (transcribing run, PDF 607-614 = pp. 585-592)
+- Both passes on the strongest model: 27 disputes over 8 pages (3.4 a page). Night labels 119 (P587L07), 120 (P590L14) and 121 (P592L19) are each printed centred on their own line; all three carry `h`.
+- `nights_index.py` did not understand الموفية للعشرين بعد المائة (Night 120) and reported an ordinal MISMATCH. The run added that form ("completing" + tens + بعد + hundred) to `ordinal_number`, in the way earlier runs added new forms; it now reads 120, and the older forms (الموفية للستين, الموفية للمائة, الحادية والعشرون بعد المائة) still parse. Nothing to decide.
+- P592L10: the adjudicator ruled ولكنك (low confidence); the run read the crop and found one kaf only (alif, lam into a mim loop, dotted nun, final kaf), so the archive keeps the print, والمنك, a misprint for ولكنك. For the publishing run: emend in `emend.json`.
+- Also kept as printed, for the publishing runs: P585L05 ذبحنك (one dot; sense ذبحتك); P591L02 ثيأ (three dots; for شيأ); P591L04 با (one dot below; for يا); P590L16 خطيئها (sense خطيئتها; both passes agree); run-together ومااسم, نورالهدى, مافعلت, لاصغيرة; P588L03 وَاٰخِرُ with a dagger alif.
+- The running header on PDF 613 prints ٤٩١ for ٥٩١ (printer's error; headers are not transcribed, the archive is unaffected).
+- Nights 118, 119 and 120 are now complete and unpublished; the next three firings should publish them.

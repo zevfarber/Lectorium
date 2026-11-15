@@ -10132,5 +10132,59 @@
    "6Teu–cri×"
   ],
   "why": "Grais is two long syllables (Grāīs, as 6.529 and 8.135), and imperdita has a short di and a short final a; Teucri has Greek eu as one long syllable: et vōs | Ō Grā | īs im | per-dĭ-tă | cor-pŏ-ră | Teu-cri (14 syllables). The scanner (COSTLY 1.5, not flagged) made Gra-is short-short and di-ta long-long."
+ },
+ "10.453": {
+  "sc": [
+   "1De–si⏑lu⏑2it–",
+   "Tur–3nus–‖",
+   "bi⏑iu⏑4gis–",
+   "pe⏑des⏑",
+   "5ap–pa⏑rat⏑",
+   "6i–re×"
+  ],
+  "why": "biiugis is bĭ-jŭ-gīs, three syllables, the second i consonantal and bi- short, as at 5.144, 10.253 and 10.399; pedes is the nominative pĕdĕs, 'on foot': Dē-sĭ-lŭ | ĭt Tūr | nūs bĭ-jŭ | gīs pĕ-dĕs | ap-pă-răt | ī-re (16 syllables), caesura after Turnus. The scanner (COSTLY 2.5, flagged) ran bi-iu together into one long syllable, a fit with 15."
+ },
+ "10.486": {
+  "sc": [
+   "1Il–le⏑",
+   "ra⏑2pit–",
+   "ca⏑li⏑3dum–‖",
+   "frus–4tra–",
+   "de–",
+   "5vol–ne⏑re⏑",
+   "6te–lum×"
+  ],
+  "why": "Wrong quantities with the right count (cost 0.0, no flag). calidum is short-short-long here (călĭdus), frustra ends in a long a (frūstrā) and de is long: Il-lĕ ră | pĭt că-lĭ | dum frūs | trā dē | vol-nĕ-rĕ | tē-lum (15 syllables), caesura after calidum. The scanner made ca and li long and the a of frustra and de short."
+ },
+ "10.490": {
+  "sc": [
+   "1Quem–",
+   "Tur–2nus–",
+   "su⏑per⏑",
+   "3ad–sis–4tens×"
+  ],
+  "why": "Half-line (hemistich), one of Virgil's unfinished lines, as 10.284: Quem Tur | nūs sŭ-pĕr | ad-sis | tens, a spondee, a dactyl, a spondee and one syllable (– – | – ⏑ ⏑ | – – | ×), the r of super carried onto adsistens, the last syllable marked × as the end of the line (8 syllables). There is no hexameter to fit; the scanner returns UNRESOLVED. 491 and 492, in the same unit, are entered as carriers."
+ },
+ "10.491": {
+  "sc": [
+   "1Ar–ca⏑des⏑",
+   "2haec–",
+   "in–3quit–‖",
+   "me⏑mo⏑4res–",
+   "me⏑a⏑",
+   "5dic–ta⏑",
+   "re⏑6fer–te×"
+  ],
+  "why": "Carrier line, checked by hand: Ar-că-dĕs | haec in | quit mĕ-mŏ | rēs mĕ-ă | dic-tă rĕ | fer-te (16 syllables), Arcades with the short Greek -ĕs. The scanner's fit is correct; the entry is needed only because this line shares a unit with the half-line 10.490, which the scanner cannot fit, and a unit with an unresolved line receives no sc at all."
+ },
+ "10.492": {
+  "sc": [
+   "1Eu–an–2dro–",
+   "qua–3lem–‖",
+   "me⏑ru⏑4it–",
+   "Pal–5lan–ta⏑",
+   "re⏑6mit–to×"
+  ],
+  "why": "Carrier line, checked by hand: Eu-an | drō quā | lem mĕ-rŭ | it Pal | lan-tă rĕ | mit-to (14 syllables), Euandro with Greek eu as one long syllable. The scanner's fit is correct; the entry is needed only because the first word of this line closes a unit with the half-line 10.490, which the scanner cannot fit, and a unit with an unresolved line receives no sc at all."
  }
 }

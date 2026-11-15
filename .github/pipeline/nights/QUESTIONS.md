@@ -1369,3 +1369,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - No misprints corrected; emend.json unchanged. P579L22 تلّفت: the print's shadda is on the lām; pointed talaffattu (shadda on the fā’), with a note, as for عُليّ in night 111 (a misplaced mark, so no emend entry). Kept as printed and flagged in the notes: verse P580L08 الْعَرَامِ (ʿayn for the expected ghayn; ʿarām is a real word, so doubtful; translated as "passion"); يَلُمْنِي (shortened yalūmunī); بطني treated as feminine; هذة; ثلٰثا; ى for final ي (الصينى, زبادى, يدى, فى, عمى, معشوقتى); run-together السعيدان, مابين. The archive was not changed.
 - Library label: `Night 116 · The Lover and the Beloved, continued`. Nothing to decide.
 - Next: night 117 is complete and unpublished; the next firing should publish it.
+
+## Night 117 (published 2026-11-15)
+- Corrected misprints in emend.json: P582L04 البهتان→البستان (“the garden”), P584L02 جنّ المليل→جنّ الليل (the next night repeats the phrase correctly at P584L07). Kept as printed and explained in the notes: P581L22 كفاك الله شرّما (read sharra mā, “the evil of what…”; possibly a misprint for شرّها, but that is a guess); P581L21 شياْ with a sukūn over the alif; P583L17 ملأن (malʾānu, diptote); P583L19 تامريني (taʾmurīnī for taʾmurīnanī); matʿūb; الراس and الي spellings; verse P582L21 مِنْ الدُّمُوعِ (sukūn before the article, read mina al-); run-together مايحتاج, ماتيسر, اذكرلها. The archive was not changed.
+- ʿAzīza explains three of the four objects (the ṭāb stick, the date-stone, the carob seed) and says nothing of the knucklebone; the note says so for this night only.
+- Library label: `Night 117 · The Lover and the Beloved, continued`. Nothing to decide.
+- Next: night 118 is not yet complete (tail unread); the next firing should transcribe.

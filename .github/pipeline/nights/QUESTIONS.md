@@ -1492,3 +1492,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Library label: `Night 132 · The Lover and the Beloved, continued`. Nothing to decide.
 - Run note: the container's local `main` ref had again diverged from `origin/main`; this run worked from `origin/main` (the stale ref is kept as `old-local-main` in this container only).
 - Next: night 133 is not yet complete (tail unread); the next firing should transcribe.
+
+## PDF 647–654 (printed pp. 625–632, transcribed 2026-11-16)
+- Nothing for the owner to decide. Night 134's label (P628L13) is printed centred on its own line and carries `h`. The running header sat in the detector's first crop on six of the eight pages; the passes were told to skip it, and both did.
+- Low confidence: P628L06 اَلَسْتَ (worn type; one pass read اَمَسْتَ); P631L01 عَلَى (worn first letter). P630L22 مُنْدَفِعاً vs مُنْدَفِعًا is only where the tanwīn is encoded.
+- The adjudicator turned three long strokes into kashida, not filler (P625L12 شعر, P627L02 and P631L07 الابيات). Final ة on هذة, واعطاة and خوفة is as printed. The kasras under the feminine ك on P628L02–03, L19 (اجازيكِ, ميزانكِ, فانكِ, عليكِ, فيكِ) were checked on the image and are printed.
+- Kept as printed, for the publishing runs to consider for `emend.json`: P627L04 بَامَغْرُورُ (sense يَا مَغْرُورُ); P627L06 ضِيَاوَ; P627L07 وَالْقَدَرِ (sense perhaps وَالْقَمَرِ; doubtful, keep unless sure); P627L19 فالت (sense قالت); P627L22 لا بداني (spacing); P628L05 وَاعَرَبِي (sense وَاعَجَبِي); P630L05 ها تيها (sense فاتيتها?; doubtful); P631L21 لو لاخوفى (spacing).
+- Night 133 is now complete and unpublished; the next firing should publish it.

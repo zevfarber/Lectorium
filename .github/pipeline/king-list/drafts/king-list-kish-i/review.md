@@ -38,3 +38,46 @@ Plate I (langdon1923_0042.jpg) read line by line at 2–5× for I 42–47 and II
 - II 35 i "made the weapons of the land of Elam bow down" sounds odd · refused: it follows the form (tukul-bi object of gam); the note gives Langdon's alternative.
 - II 42 "ib-ag … the plural 'they ruled'" (the -b- is not strictly a plural marker) · refused: identical to the published pilot's gloss; changing it here only would split the glossary.
 - II 39 note's mention of the Agga–Gilgamesh story · refused: general background, not a translation.
+
+## Pass 2
+
+Every gloss.json entry checked against units.json, packet.md and Langdon pp. 10–11 (langdon1923_0015/0016.jpg, transliteration, translation and footnotes); Plate I re-read at II 29–31 and II 45–47. Edits by script (scratchpad rev2.py), no cuneiform retyped.
+
+### Changes — gloss.json
+
+- e₃ · __broaden__ · major · the pilot entry 'to descend (verb e₃)' would have been shipped as the glossary sense of e₃ in II 17 ba-e₃-de₃ 'went up (to heaven)', the opposite direction; the glosser did not broaden it · added under "__broaden__": old entry whole + " · to go out, go up (also written UD.DU; Langdon ĕ)".
+- ar-pi-u₂-um · gloss · major · said the name's "second sign (Langdon dā) is shown as DA … uncertain" — dā is the second sign of maš-da, not of Arpium (whose second sign is PI) · clause removed; entry now: king of Kish, son of a maš-da (Langdon 'a poor man'), u₂ = Langdon ú, Nippur variants.
+- tukul · gloss · major · "no case ending in the list, 'with weapons' being understood in the closing refrain" — false for II 37 {ĝeš}tukul-bi, the object of ib-ta-an-gam, and pinned to one use · now general: weapon, mace — KU with the wood determinative (Langdon ᵍⁱˢku).
+- kiš · gloss · major · "it has no case ending … 'in' being understood" is false at II 45, where Kish is the subject of ba-an-sig₃; also garbled ("first dynasty after the Flood, to which the list returns after the Flood") · rewritten general, after the unit's morph gloss: city in northern Babylonia, seat of the first dynasty after the Flood; KIŠ + place-det KI.
+- maš-da · gloss · minor · "his dā sign" ambiguous about which sign · now "the second sign (Langdon dā) is drawn on his copy like NI, so its identification as DA is uncertain" (as the II 14 note).
+- bu-[…] · gloss · minor · said Langdon "restores 'Bu-Sin (?)'"; he restores Bu-ᵈ[En-zu] and translates 'Bu-Sin (?)' · corrected.
+- […] · gloss · minor · pinned to the four lost lines of Col. II, though the lemma is also used in I 46 and II 5 · now general.
+- -ke₄ · gloss · minor · pinned ("absent after dumu enmenunna in one line") · generalized ("not always written"); grammar label kept (genitive -ak + ergative -e).
+- e-ta-na · gloss · minor · carried his reign (1,500 years) — line data · removed.
+- ba-li-iḫ · gloss · minor · carried a Nippur variant reign (410 years) · removed.
+- ba- · gloss · minor · pinned to ba-e₃-de₃ and the Nippur spellings · general prefix gloss kept only.
+- mu-un-, gi-n, gam, ma-da, -ma, ib-ta-an-, sipa · gloss · minor · each pinned to its line ("in mu-un-gi-na", "Langdon translates 'with his weapon subdued'", "in ma-da elam{ki}-ma", "of the line", "in Etana's entry") · generalized; gam now 'to bend, bow down; (with -n-) to make bow down, subdue'.
+- šu-ši, 6, 23, iti, u₄-maš, e₂-an-na · gloss · minor · pinned to II 31 / II 42–44 / II 46 ("5 šu-ši + 6 = 306", "in the dynasty's total", "as in maš-da", "the city whose kings come next") · trimmed to the general sense in the pilot's terse format.
+- ba-an- · gloss · minor · justified itself by "the passive English of the refrain" (pinned to the translation of one line) · now ba- (often motion away / middle-passive) + -n-, ordinarily a 'he' who acts.
+- dumu · gloss · style · "Langdon reads it as 'son'" added nothing · now "'dumu X' = 'son of X'".
+
+Checked and kept: ĝa₂-ur, gul-la-{d}nidaba-an-na-[…]-el (fourth sign = NAGA after the det., consistent with the I 46 note), ba-[…], ga-li₂-bu-um (fn. 5: three Nippur copies — confirmed), ka-lu-mu, dug₄-ga-gi₄-ib (fn. 7 confirmed on p. 10), a₂-tab, a₂-tab-ba, lu₂, kur-kur, en-me-nun-na, me-lam-kiš (fn. 17), bar-sal-nun-na (fn. 18), tup-za-aḫ (fn. 19), ti-iz-kar₃, il-ku-u₃, il-ta-sa-du-um, en-me-en-bara₂-gi-gur, elam, {ĝeš}, ag-ga, u₄, sig₃. Langdon's translations quoted in the units ('son of a poor man', 'made the foreign lands faithful', 'with his weapon subdued', 'Bu-Sin (?)', 'Baba(?)') verified on pp. 10–11. Pilot entries used here (lugal, mu, mu-bi, ni-ag, ib-ag, -bi, -šú, -la, an, nam-lugal, ba-gín, -am₃, {d}, numerals) cover this part's uses; only e₃ needed broadening.
+
+### Changes — units.json
+
+- II 35 (II 35–38) · l · minor · ib-ta-an-gam rendered "bent-down", which reads as intransitive and drops the -n- 'he' that i ("made … bow down") and the note rely on · now "he-made-bow-down".
+- II 42 (II 42–44) · n · minor · "ib-ag … is the plural 'they ruled'" misnames the form: the -b- of ì-b-aĝ₂ is not a plural marker · note now says it is the reign verb of the totals rendered 'they ruled', its -b- the third-person non-personal marker, the plural English following the sense. (Pass 1 refused this to keep the pilot glossary; the glossary entry is left as published — only our note's grammar label is corrected.)
+- II 5 · i · style · "Ba[…] …" vs II 6 "Bu-[…] …" · now "Ba-[…] …".
+
+### Re-checked, no change
+
+- Arithmetic: the 19 reigns sum to 15,751; 6 šar₂ + 4 geš'u + 8 geš + 3 u = 24,510 — the II 42 note is right.
+- Plate II 45: KIŠ KI GIŠ KU BA AN + one compact final sign; no rule between 45 and 46 on the prism (Langdon's printed rule under 45 is his layout; the prism's rule is below 47), so the II 45–46 unit stands. II 30: third sign boxed with inner wedge, GAN kept with the note's doubt.
+- House formulae, l ↔ i, notes ↔ morph glosses: consistent after the changes above.
+
+### Findings considered and refused
+
+- II 16 an-še₃ uses modern še₃ where the pilot prints Langdon's -šú · refused: conventions ask for modern subscript readings; the lemma stays '-šú' so the glossary entry is shared.
+- II 45 sig₃ shown as two glyphs PA + GAN₂ while the copy draws one compact sign · refused: no better identification from the plate alone; the note and glossary already say the identification is uncertain.
+- II 14 l "son of a-mašda" (odd hyphen) · refused: the hyphen joins the English for one Sumerian word, as house l does; harmless.
+- Pilot glossary 'ib-ag … (plural reign verb)' · refused to change here: published entry; the owner can revise it across parts (flag for QUESTIONS.md if desired).

@@ -49,3 +49,9 @@ Conventional reconstructed Sumerian. `langCode: null`. No voice chosen; parts pu
   not changed by the run.
 - The sign inventory in `source/sign-inventory.json` is a first pass from Langdon's readings, not plate-verified:
   the drafter confirms every sign on the plate.
+
+## House renderings settled in king-list-kish-i (2026-11-16)
+- Formulas as above, applied: "In X, Y became king; he reigned N years"; total "N kings reigned M years"; "X was smitten with weapons; its kingship was carried to Y".
+- Readings by sign, Langdon's form in the note: -šú → -še₃ (lemma kept `-šú`), ba-gín → ba-ĝen (lemma kept `ba-gín`), ĕ → e₃ (UD.DU), sib → sipa (PA.LU), galu → lu₂, ᵍⁱˢku → {ĝeš}tukul, -ge → -ke₄ (KID), ita → iti, ud → u₄; sīg/sig → sig₃ (PA.GAN₂, flagged: the copy draws one compact sign).
+- Lost line = one unit per prism line, one LACUNA glyph (role punct, tr "[…]"); doubtful restorations of Langdon's (with his own ?) are not shipped as signs.
+- Numerals shown as written (geš'u/geš/u/diš clusters); `reading` = the value; the note gives the composition.

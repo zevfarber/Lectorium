@@ -55,3 +55,9 @@ Conventional reconstructed Sumerian. `langCode: null`. No voice chosen; parts pu
 - Readings by sign, Langdon's form in the note: -šú → -še₃ (lemma kept `-šú`), ba-gín → ba-ĝen (lemma kept `ba-gín`), ĕ → e₃ (UD.DU), sib → sipa (PA.LU), galu → lu₂, ᵍⁱˢku → {ĝeš}tukul, -ge → -ke₄ (KID), ita → iti, ud → u₄; sīg/sig → sig₃ (PA.GAN₂, flagged: the copy draws one compact sign).
 - Lost line = one unit per prism line, one LACUNA glyph (role punct, tr "[…]"); doubtful restorations of Langdon's (with his own ?) are not shipped as signs.
 - Numerals shown as written (geš'u/geš/u/diš clusters); `reading` = the value; the note gives the composition.
+
+## House renderings settled in king-list-uruk-i (2026-11-16)
+- e₂-an-na-ka (column-end line) → "In Eanna"; en-am₃ … lugal-am₃ → "was lord and became king"; lu₂ X mu-un-du₃-a → "the one who built X"; verbless clauses ("his city (was) …", "his father (was) …") → "whose city was …", "whose father was …".
+- Readings by sign, Langdon's form in the note: em/aga → aĝ₂ (AĜ₂); ᵈBabbar → {d}utu; tur 'enter' → ku₄ (TU); ĝar-sag → ḫur-saĝ (plate: ḪUR); dū → du₃ (KAK); Uri → urim₂; Kullab → kul-aba₄; eri → uru; bûr → a.
+- Phonetic complements such as Lugal-banda(da) → glyph role `comp`, reading in braces. Divine names: {d} its own morph, the name lemma without it.
+- Damaged-but-visible signs Langdon leaves unbracketed: noted only; bracketed where the copy hatches them away entirely.

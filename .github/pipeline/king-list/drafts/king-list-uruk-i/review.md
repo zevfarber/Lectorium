@@ -37,3 +37,34 @@ Plate I (langdon1923_0042.jpg) read at II 47 and Plate II (langdon1923_0043.jpg)
 - III 4 ab-ba with no written case ending rendered "into" · refused: the l marks it "(into)" and the note says the locative may be hidden in the -a.
 - III 31 de₃ shown unbracketed although the sign is partly hatched · refused: Langdon prints de unbracketed and the note gives the doubt.
 - III 3 2 u read where a third corner wedge may start the hatching · refused: only two are drawn whole; Langdon reads 2[5]; the note says the tens are at the edge of the break.
+
+## Pass 2
+
+Every gloss.json entry checked against units.json (notes and morph glosses), packet.md and Langdon pp. 11–13; units.json re-read in full. Edits by script (scratchpad rev2.py), JSON loaded and dumped; gloss.json key order kept.
+
+### Changes — gloss.json
+
+- __broaden__ ba-an- · major · the broadening said that with ba-an-ku₄ "the -n- may point to the place entered", the grammar rejected in pass 1 (the -n- marks a person, and the sea is a thing) · new text kept after the published entry and " · ": in intransitive verbs of motion (ba-an-ku₄ 'entered') the -n- has no clear 'he' to mark; its function there is uncertain.
+- {d}gibil-ga-mes → gibil-ga-mes · key · minor · the lemma carried the {d}, though its `g` leaves out the determinative glyph, and Lugalbanda and Dumuzi (lugal-banda₃, dumu-zi), like the pilot's dumu-zi-sib, keep {d} as their own morph · key renamed together with units.json and new-lemmas.json; text now "written GIŠ.BIL, GA and MES (Langdon meš) after the divine determinative".
+- lil₂-la₂ · gloss · minor · opened with "lillu —", out of line with III 17 now that it reads "a fool (?)" · now Langdon 'a fool' (lil-lá; 'the fool, imbecile, cripple', Akkadian lillu), KID + LAL, lil₂ also 'wind, phantom', so the sense is uncertain.
+- ur-{d}nun-gal · gloss · minor · "another copy writes Ur-ᵈNun-lugal" gave as preserved what Langdon (fn. 4) prints as [Ur-ᵈNun-]lugal · now "another copy has [Ur-ᵈNun-]lugal (partly restored by Langdon)".
+- -ka · gloss · style · tied to one form ("as in e₂-an-na-ka 'in the House of Heaven'") · example dropped, general sense kept.
+- ab-ba · gloss · style · tied to one line ("Langdon takes the sea to be the Persian Gulf", his fn. 10 on III 5) · dropped; the III 4 note keeps it.
+
+### Changes — units.json
+
+- III 17 (III 17) and III 21 (III 22) · morph lemma {d}gibil-ga-mes · minor · (the same rename) · lemma now gibil-ga-mes; '{d}' stays its own morph (g [0]), as in lugal-banda₃ and dumu-zi; morph gloss reworded the same way.
+- III 4 (III 6) · morph gloss of e₃ in ba-e₃ · style · gave Langdon's form as ĕ, but in this line he prints ba-ed · now "Langdon ed here, ĕ elsewhere".
+
+### Checked and kept
+
+- Coverage: every morph lemma in units.json is either in a published king-list glossary (king-list-antediluvian.json, king-list-kish-i.json) or in gloss.json; gloss.json has no orphan keys; new-lemmas.json equals the gloss.json keys; the broadening begins with the published ba-an- entry whole + " · ".
+- Entries confirmed against the text and Langdon: mes-ki-aĝ₂-ga-še-ir (em = AĜ₂; fn. 9 Mes-ki-in-ga-še-ir), utu (ᵈBabbar, 'Shamash'), en, ku₄ (TU, Langdon tur 'penetrated'), ḫur-saĝ (diamond ḪUR on the copy), en-me-kar (fn. 11), unug, -ga (general), du₃ (KAK, dū), lugal-banda₃ (DA a complement), dumu-zi (fn. 1 Ab-ú), šu-ḪA.GUNU, uru, -ni, ḫa-a (bûr = A), kul-aba₄, -ba-ke₄ (gen. + erg., grammar right), utul-kalam-ma (U+GUD), la-ba-še-ir, en-nun-dara₃-an-na, […]-ḫe₂-de₃, me-lam-an-na, lugal-ki-aĝ₂, 12, urim₂. No invented modern forms; the modern readings named (ku₄, aĝ₂, Kuara, šu-ku₆) are flagged as such or as uncertain, as the notes do.
+- units.json, read again in full: the grammar labels, l ↔ i, house formulas and the kish-i lemmas and numeral encoding are consistent after pass 1; no further findings.
+
+### Findings considered and refused
+
+- e₃ broadening (removed by the coordinator) · agreed: the published kish-i glossary already carries 'to go out, go up (also written UD.DU; Langdon ĕ)'.
+- Names carrying a reign or a father in the gloss (en-me-kar 'son of Meskiaggasher', ur-{d}nun-gal 'son of Gilgamesh', utul-kalam-ma 'son of Urnungal') · refused: identifying a royal name by its lineage is general to the name, not to one line, and kish-i's name entries do the same; no reign figures are given.
+- mes-ki-aĝ₂-ga-še-ir and en-me-kar giving Nippur spellings · refused: they are variants of the name, as in kish-i's ar-pi-u₂-um.
+- "12": "twelve" brief · refused: it matches the format of kish-i's numeral entries.

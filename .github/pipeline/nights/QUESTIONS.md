@@ -1485,3 +1485,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - The night was pushed once the gate passed, and the whole-night review's fixes followed in a second commit the same run. 25 shared glossary entries that carried other nights' senses had this night's sense appended (e.g. الْبُعْدِ, مَاهَذَا, الْعَرِيفُ, سَلَّمَ); nothing was overwritten.
 - Library label: `Night 131 · The Lover and the Beloved, continued`. Nothing to decide.
 - Next: night 132 is complete and unpublished; the next firing should publish it.
+
+## Night 132 (published 2026-11-16)
+- Corrected misprints in emend.json: P619L07 تعد→قعد; P619L16 البيتن→البيتين; P620L01 اتسما→اقسما; P620L08 وبنظفانك→وينظفانك; P620L15 اى→الى. Kept as printed and explained in the notes: P620L16 فتنقّشوا (low-confidence in the archive; the sense needs فتنشّفوا, "they dried themselves", and the translation follows the sense); والبسوا (causative for لبسوا); يدة ×2, غيرة, هذة ×2 (ة for ه); شيأً, شياً; لايش; فماصدق, ومازال, ماقاله run together; the print's وَدَدْتُهُمَا (for wadidtu) and nominative دُمُوْعُهَا in verse. All verse (P619L05–06, L17–18, L20; P620L11–12, L21–P621L01; P621L04–05, L09–11, L13–14) is copied as printed. The archive was not changed.
+- The headman's lust for the two young men (their quivering buttocks, his verses, the bath scene) is translated frankly; no sexual act is described and the two are grown young men. No passage omitted.
+- Library label: `Night 132 · The Lover and the Beloved, continued`. Nothing to decide.
+- Run note: the container's local `main` ref had again diverged from `origin/main`; this run worked from `origin/main` (the stale ref is kept as `old-local-main` in this container only).
+- Next: night 133 is not yet complete (tail unread); the next firing should transcribe.

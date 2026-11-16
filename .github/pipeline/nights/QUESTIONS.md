@@ -1444,3 +1444,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Corrected misprints in emend.json: P605L12 تاج الملك→تاج الملوك (dropped wāw in the name); P606L08 لأ→لا (stray hamza on the negative). Kept as printed and explained in the notes: استوأ (hamza on a final alif, for istiwāʾ); الوداعة (for wadīʿa, 'deposit'); اذ اغبت (space set one letter early, for اذا غبت); حست (spoken for أحسّت); تري, جري (ى written ي); كدت ان اغمي (perfect after kāda an); run-together ياهل, ياولدي, مافعلت, قدمات, هذاالبكاء, وهوميت, ماحصل, وارجوالله. The verse (P606L13–19) is copied as printed; its fa-mā in line 5 is read as a filler and noted. The archive was not changed.
 - No passage omitted. Library label: `Night 127 · The Lover and the Beloved, continued`. Nothing to decide.
 - Next: night 128 is not yet complete (tail unread); the next firing should transcribe.
+
+## PDF 631–638 (printed pp. 609–616, transcribed 2026-11-16)
+- Nothing for the owner to decide. Night labels for 129 (P609L13), 130 (P611L14) and 131 (P613L12) are each printed centred on their own line; all three carry `h`.
+- The orchestrator changed four readings after the adjudication, from the crops: P635 (printed P613L22) the adjudicator had normalised شىء (undotted ى with hamza) to شيء; restored as شئ, the archive's usual spelling of that print form. Sukuns added on undisputed verse words both passes had missed: P609L04 قَالَ لِيْ, P612L09 فِيْ كَبِدِيْ.
+- Left as read, possibly worth a later look: P609L01 اولا (a shadda-like mark over the و, read as doubtful and omitted); P611L14 للثلثين (the adjudicator thought it saw a dagger alif; not clear on the crop, omitted).
+- Kept as printed, for the publishing runs to consider for `emend.json`: P612L05 وزبره (one dot below; sense وزيره); P613L09 ولعزير (no dot; sense ولعزيز); P614L20 تأج (hamza on the alif of تاج); P613L04 جأبه (for جاء به). Run-together words kept as printed: لاباس, بنتامن, شهرمان, اذراى, نَحْوَارْضِكُمْ, يَامُنْتَهَى, وقرّعينا (twice).
+- Nights 128, 129 and 130 are now complete and unpublished; the next three firings should publish them.

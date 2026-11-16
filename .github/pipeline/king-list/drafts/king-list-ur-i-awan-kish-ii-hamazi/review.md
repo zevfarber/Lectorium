@@ -58,3 +58,34 @@ Counts: 0 major, 6 minor, 3 style.
 
 - Lemma "-ma": published kish-i glossary has "genitive -a(k) 'of', written -ma after a final m (elam{ki}-ma)"; this part uses -ma as locative (urim₂{ki}-ma 'in Ur'). gloss.json needs a broadening (e.g. "-a after a final m: genitive or locative"), not a second sense under the same key silently.
 - uruk-i MES vs DUB (see (a)) and an unread-sign marker key (see (b)).
+
+## Pass 2
+
+I checked every gloss.json entry (18 new lemmas plus `__broaden__` "-ma") against units.json, its notes, Langdon pp. 13–14, and the published glossaries of kish-i and uruk-i. Edits were made by script (scratchpad reviewer/rev2.py). gloss.json keeps its own layout (one entry per line), and units.json is dumped with indent 1. Afterwards: both files parse, the new-lemmas.json keys equal the gloss.json keys, every glyph sign is a key in signs-cuneiform.json, and every morph `g` covers its word's glyphs once. Build not run.
+
+### Changes — gloss.json
+
+- x-nun-na · minor · "nun-na as in other royal names" was an unsupported comparison: no such names are given in this part or in Langdon's notes here · dropped.
+- ma₂-gal-gal-[…] · minor · "the Mamagal… of an earlier line" tied the entry to a line, and "which is uncertain" was garbled · now "perhaps the same man as Mamagal…, spelled differently (Langdon asks which spelling is right)".
+- ḫa-ma-zi · minor · "ḪA-MA-ZI + place-determinative ki" is not general to the form: IV 39 writes it without ki · now "usually + place-determinative ki".
+- laḫ₄-[…] · minor · "the first sign is damaged": on the copy the sign is half in the break, and the identification is the uncertain part · now "half in the break".
+- ka-al-bu-um · style · "Semitic-looking name in -um" · brought into line with kish-i ga-li₂-bu-um: "the name looks Semitic (Akkadian-type -um ending)".
+
+### Changes — units.json
+
+- 19 morph glosses for new lemmas · minor · they still held the drafter's wording and did not match gloss.json · each set to its gloss.json text.
+
+### Checked and kept
+
+- `__broaden__` -ma: the published kish-i entry is kept whole, followed by " · " and the locative use. The grammar is right: -a written -ma after a final m.
+- ba-an- needs no broadening. The published entry (ba- middle/passive + -n- marking a 'he' who acts, as broadened in uruk-i) already covers ba-an-sig₃. kish-i uses the same entry for the same refrain in II 45, and sig₃ is transitive, so -n- has its ordinary sense. The uruk-i broadening concerns only intransitive verbs of motion.
+- The other entries agree with the text, and their uncertainty matches the notes: mes-an-ni-pad-da, mes-ki-aĝ₂-{d}nanna ({d} inside the lemma, as published ur-{d}nun-gal), e-lu-lu and ba-lu-lu (marked as restored), 4, a-wa-an, ku-ul-[…], da-da-sig, ma₂-ma₂-gal-[…], umuš-e, i-bi-ni-iš, lugal-mu, ḫa-da-ni-iš. No invented modern forms.
+- units.json re-read after the pass-1 edits:
+  - Every reading rebuilds from its glyph tr values. The only exception is IV 30's x, carried on the marker glyph by design.
+  - Signs and roles are as confirmed on the plate in pass 1.
+  - l, i and n agree, including the changed IV 17, 20, 23, 30, 39 and 41.
+
+### Findings considered and refused
+
+- Strip the line-specific example from the -ma broadening ("urim₂{ki}-ma 'in Ur'") · refused: the published half carries an example in the same way (elam{ki}-ma).
+- The units.json morph gloss for -ma (III 39, IV 5) still differs from the glossary text · refused: -ma is not a new lemma, and the morph gloss is the line-level gloss, as in uruk-i.

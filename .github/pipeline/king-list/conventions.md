@@ -61,3 +61,10 @@ Conventional reconstructed Sumerian. `langCode: null`. No voice chosen; parts pu
 - Readings by sign, Langdon's form in the note: em/aga → aĝ₂ (AĜ₂); ᵈBabbar → {d}utu; tur 'enter' → ku₄ (TU); ĝar-sag → ḫur-saĝ (plate: ḪUR); dū → du₃ (KAK); Uri → urim₂; Kullab → kul-aba₄; eri → uru; bûr → a.
 - Phonetic complements such as Lugal-banda(da) → glyph role `comp`, reading in braces. Divine names: {d} its own morph, the name lemma without it.
 - Damaged-but-visible signs Langdon leaves unbracketed: noted only; bracketed where the copy hatches them away entirely.
+
+## House renderings settled in king-list-ur-i-awan-kish-ii-hamazi (2026-11-16)
+- urim₂{ki}-ma → "In Ur" (-ma = locative -a after final m); city with no case ending (ḫa-ma-zi, IV 39) → literal "in-Hamazi," and, with no lugal-am₃, "In Hamazi, Hadanish reigned N years".
+- One-king total: "1 king; their-years N they-ruled" → "One king reigned N years".
+- Readings by sign: Langdon's Mes (fn. DUP) → DUB, tr mes; Mes-ki-em-ᵈNannar → mes-ki-aĝ₂-{d}nanna; Ḫa-ma-ṣi → ḫa-ma-zi (ZI); A-wa-an → a-wa-an{ki} (PI = wa). English names write š as sh (Hadanish, Umushe).
+- A visible but unread sign: LACUNA glyph with tr "x", unbracketed, inside the name's morph; the note says it is not lost.
+- Damaged forms Langdon prints unbracketed but the copy hatches away entirely (IV 14, 28, 35 ag) are bracketed.

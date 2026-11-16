@@ -26,6 +26,13 @@ SIGNS = os.path.join(R.ROOT, 'signs-egyptian.json')
 PDF = 'source/raw/budge1895.pdf'
 PDF_OFFSET = 164          # PDF page = Budge's printed page + 164 (interlinear text, pp. 1-242)
 ROLES = ('phon', 'comp', 'det', 'log', 'suff', 'num')
+SUPPLEMENT_RULE = '''THIS PART IS A SUPPLEMENT (owner's ruling, 2026-11-16). Its text is the Appendix section itself, which Ani's papyrus
+does not have: for this part only, the rule below is turned round — the Appendix named under Start/End is IN, Ani's own
+text before and after it is OUT, and footnotes stay OUT. Give every word "plate": "App." and the Appendix's own line
+numbers. Add a top-level "witness" string to the established file: what Budge's footnotes say the text is taken from
+(edition, plate numbers, and the papyrus if he names it), in one sentence.
+
+'''
 
 
 def code_name(code):
@@ -84,6 +91,7 @@ def establish_packet(p):
     else:
         start = (f"right after the end of {p.get('after')} — but that part has no established file yet. Stop: release the claim and "
                  f"write this to QUESTIONS.md (parts must be established in book order).")
+    sup = SUPPLEMENT_RULE if p.get('supplement') else ''
     return f"""# Establish — {p['id']}: {p['name']}
 
 Budge 1895, interlinear text, printed pp. {a}–{b} (PDF pages {a + PDF_OFFSET}–{b + PDF_OFFSET} of {PDF}; PDF page = printed page + {PDF_OFFSET}).
@@ -94,7 +102,7 @@ Start: {start}
 End: {p.get('endAt') or "at the end of the chapter or section if it ends on your last page or in the first third of the page after it; otherwise at the last sentence-end on your last page. Never stop inside a sentence. Read on to the next page as far as that needs."}
 The page ranges in parts.json are a first pass from the running heads: the page itself decides. Record the pages you really used.
 
-What belongs to the Papyrus of Ani, and what does not (conventions.md, "What is Ani's text"):
+{sup}What belongs to the Papyrus of Ani, and what does not (conventions.md, "What is Ani's text"):
 - IN: everything Budge prints as the papyrus's own text under a "PLATE n." heading, including chapter titles, rubrics and
   the words written beside the figures in the vignettes.
 - OUT: every section headed "Appendix." (text supplied from Naville's Todtenbuch or other papyri) up to the next "PLATE"
@@ -144,6 +152,8 @@ def check_established(p):
     for k in ('page', 'plate', 'line', 'lastWord'):
         if not e['end'].get(k):
             errs.append(f'end.{k} missing — the next part starts from it')
+    if p.get('supplement') and not (e.get('witness') or '').strip():
+        errs.append('a supplement needs "witness": what Budge says the Appendix is taken from')
     ws = e['words']
     if not ws:
         return errs + ['no words']
@@ -259,9 +269,17 @@ def assemble(p, units, gloss):
     story = {'id': p['id'], 'title': cfg['title'], 'titleRead': cfg['titleRead'], 'titleEn': units.get('titleEn', ''),
              'part': units.get('part', '')}
     story.update(cfg['header'])
+    if p.get('supplement'):
+        src = cfg['supplementSourceStatement'].replace('{cite}', cite + ' (Appendix)').replace('{witness}', 'the text is ' + e.get('witness', '').rstrip('.'))
+        if sents:
+            sents[0] = dict([('mark', p['supplementMark'])] + list(sents[0].items()))
+    else:
+        src = cfg['sourceStatement'].replace('{cite}', cite).replace('{plates}', 'Plate' + ('s ' if len(plates) > 1 else ' ') + ', '.join(plates))
     story.update({'numbering': 'stanza', 'dir': 'ltr', 'provisional': True, 'draftNote': cfg['draftNote'],
-                  'source': cfg['sourceStatement'].replace('{cite}', cite).replace('{plates}', 'Plate' + ('s ' if len(plates) > 1 else ' ') + ', '.join(plates)),
+                  'source': src,
                   'about': units.get('about', ''), 'sentences': sents})
+    if p.get('supplement'):
+        story['supplement'] = True
     used = [m['lemma'] for s in sents for w in s['words'] for m in w['morph']]
     story['glossary'] = {k: G[k] for k in dict.fromkeys(used) if k in G}
     story['_problems'] = problems
@@ -321,6 +339,8 @@ def validate(p, story):
                 idx = [int(x) for x in re.findall(r'\d+', w['q'])]
                 if sorted(idx) != list(range(n)):
                     errs.append(f'{tag}: q {w["q"]!r} does not cover its {n} glyphs once each')
+    if p.get('supplement') and not (story['sentences'] and story['sentences'][0].get('mark')):
+        errs.append('a supplement must open with its mark (not on Ani\'s papyrus)')
     e2, w2 = R.words_checks(story, S)
     return errs + e2, warns + w2
 

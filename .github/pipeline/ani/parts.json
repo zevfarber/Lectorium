@@ -2,7 +2,7 @@
  "work": "Book of the Dead of Ani",
  "source": "source/raw/budge1895.pdf (PDF page = printed page + 164)",
  "edition": "E. A. Wallis Budge, The Book of the Dead: The Papyrus of Ani in the British Museum. The Egyptian Text with Interlinear Transliteration and Translation (London: British Museum, 1895) — Heidelberg University Library scan, via archive.org item papyrus-of-ani-transliteration-e.-a.-wallis-budge",
- "boundaryRule": "Order: the rest of Spell 125 first (owner, 2026-11-16), then the papyrus from Plate I to Plate XXXVII. Page ranges are a first pass from Budge's running heads; each establishing firing fixes the real start and end on the page and records them (start/end in the established file). A part marked 'after' starts where that part's established file ends. Budge's Appendix sections and footnote texts (supplied from other papyri) are never part of the text. Already published and not repeated: the Confession, pp. 198–203 (ani-spell125-opening).",
+ "boundaryRule": "Order: the rest of Spell 125 first (owner, 2026-11-16), then the papyrus from Plate I to Plate XXXVII. Page ranges are a first pass from Budge's running heads; each establishing firing fixes the real start and end on the page and records them (start/end in the established file). A part marked 'after' starts where that part's established file ends. Budge's Appendix sections and footnote texts (supplied from other papyri) are never part of the text. Already published and not repeated: the Confession, pp. 198–203 (ani-spell125-opening). One supplement (owner, 2026-11-16): ani-125-address, the address to the gods that other papyri have after the Confession, taken from Budge's Appendix (pp. 203–212) and marked for the reader as not on Ani's papyrus. No other Appendix is published.",
  "parts": [
   {
    "id": "ani-125-introduction",
@@ -19,6 +19,24 @@
    "status": "todo",
    "startAt": "the heading \"PLATE XXX.\" on p. 189: line 1, the chapter title \"Re en āq er usext maāti\" (Chapter of entering the Hall of Double Maāti). The lines above the heading on p. 189 are the end of Spell 175 (Plate XXIX) and belong to ani-175.",
    "endAt": "p. 193, Plate XXIX line 28, last words \"neb àmaχ\" (lord of veneration), immediately before the heading \"Appendix.\" The Appendix (pp. 193–197, from Naville) is out. The published Confession (pp. 198–203, ani-spell125-opening) follows."
+  },
+  {
+   "id": "ani-125-address",
+   "seq": 204,
+   "name": "Spell 125 — the address to the gods (supplement: not on Ani's papyrus)",
+   "cite": "Budge pp. 203–212, Appendix",
+   "pages": [
+    203,
+    213
+   ],
+   "chapters": "[CXXV], the Appendix after the Confession — from Naville, Todtenbuch, Bd. I, Bll. 137, 138",
+   "plates": "none: the line numbers are those of Budge's Appendix (use plate \"App.\")",
+   "file": "ani-125-address.json",
+   "status": "todo",
+   "supplement": true,
+   "supplementMark": "Not on Ani's papyrus. Other papyri continue Spell 125 here with an address to the gods of the hall; it is given from Naville's 1886 edition of the Theban Book of the Dead, as Budge prints it.",
+   "startAt": "the heading \"Appendix.\" on p. 203, directly under the last declaration of the Confession: its first numbered line is 2, \"ànet' ḥràu-θen neteru àpu\" (Homage to you, O gods these). Footnote 1 on p. 203 names the source (Naville, Todtenbuch, Bd. I, Bll. 137, 138): copy it into \"witness\".",
+   "endAt": "the last word of this Appendix, immediately before Ani's text resumes with the title of Spell 42 (about p. 212–213). Read every footnote on the way for what it says about the source papyri and put that in \"witness\" too."
   },
   {
    "id": "ani-125-rubric",

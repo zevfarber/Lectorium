@@ -16,7 +16,7 @@ Order: Hammurabi → Kebra Nagast → Secret History → Mabinogi → Cid → Az
 | cid | Pidal 1923 | 50 (each established first) | Old Spanish verse |
 | azatiwada | ACLT 2, copy Hu. | 3 | Luwian hieroglyphs, sign keys |
 | king-list | Langdon 1923 | 8 | cuneiform words, signs from the plates |
-| ani | Budge 1895, interlinear text (added 2026-11-16) | 50 (each established first) | Egyptian words, signs read from Budge's type |
+| ani | Budge 1895, interlinear text (added 2026-11-16) | 51 (each established first) | Egyptian words, signs read from Budge's type |
 
 How a firing works: `RUNBOOK.md`. Tools: `r3.py` (next / claim / establish-packet / pin / packet / build /
 validate / publish / done / plan), `r3lib.py`, `cun.py` (cuneiform), `signs.py` (cuneiform, Anatolian and Egyptian: adds a sign to a shared sign

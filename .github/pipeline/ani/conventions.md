@@ -7,7 +7,7 @@ lemma spellings, glosses and renderings. Background: project docs `claude/egypti
 glyph / morph model) and `claude/egyptian-audio-status.md` (the pronunciation convention).
 
 Owner's order (2026-11-16): the rest of Spell 125 first — its introduction and its rubric — then the papyrus
-from Plate I to the end. 50 parts (`parts.json`).
+from Plate I to the end. 51 parts (`parts.json`), one of them a marked supplement.
 
 ## What is Ani's text
 Budge prints three things in the same hieroglyphic type; only the first is the papyrus:
@@ -21,9 +21,13 @@ Budge prints three things in the same hieroglyphic type; only the first is the p
 Words Budge sets in [ ] in the text line are his restorations of damage: kept, flagged `"restored": true` on the
 glyphs, and the note says they are restored. The speculation principle applies throughout: this is an 1895
 printed transcription of a scribe's cursive hieroglyphs; say plainly where a reading is doubtful.
-The owner has not yet ruled on whether the Appendix to Spell 125 (the long address to the gods after the
-Confession, pp. 203–212, which Ani's papyrus does not have) should be added as a marked supplement
-(QUESTIONS.md). Until he does, it stays out.
+**One supplement** (owner's ruling, 2026-11-16): the address to the gods that other papyri have after the
+Confession — Budge's Appendix on pp. 203–212, which Ani's papyrus does not have — is published as its own part,
+`ani-125-address`, marked for the reader as not on Ani's papyrus (the build puts the mark on its first unit and a
+different source statement; `titleEn` / `part` say "supplement"; the `about` says in plain words that Ani's scribe
+stopped at the declarations and that this is how other papyri go on). Its notes never speak of "Ani's scribe" as
+the writer; where the text names the dead person, say whose name Budge's source has. No other Appendix is
+published.
 
 ## The scribe's mistakes
 Ani's papyrus is beautiful and careless. Under the misprints rule (../README.md 5b) a slip the sense allows only

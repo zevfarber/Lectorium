@@ -13,3 +13,7 @@
 - 2026-11-15 · hooks · src_units filed a lacuna sign without a unit index under glyph 0 (▢ beside the wrong sign). Decided meanwhile: each such lacuna is its own glyph in its own position (no published part affected: §1–§37 have no such lacunae). Restored lost signs keep the source key with "?" and damaged:true (the reader does not yet render `damaged`).
 - 2026-11-15 · hassa- · ACLT uses one lemma string for the noun 'luxury(?)' (§36) and the verb 'give birth' (§56). Decided meanwhile: one key, gloss names both words.
 - 2026-11-15 · glossary · broadenings in 38-58 (e.g. `[missing clause]`, `-ari`) are inherited by later parts; the pilot's own `[missing clause]` entry still names §17 "in this copy". Decided meanwhile: left as published.
+- 2026-11-16 · §72 · ACLT divides §72 into 72a and 72b; hooks compares only the leading number. Decided meanwhile: both units carry ln 72, and the §72a note says so.
+- 2026-11-16 · anta tama- · Rendered "walls up" (lit. "builds in") in §66, §71, §72b; the note marks it as a reading. Decided meanwhile: kept as the house rendering.
+- 2026-11-16 · §75 kwari · ACLT glosses only 'if'; this part reads 'when, as long as' in §75, with a note. Decided meanwhile: kept.
+- 2026-11-16 · glossary · the pilot's published -wi entry ("dative ending — 'upon horse'") is pinned to one line; broadened here by copying it whole. Decided meanwhile: left as published.

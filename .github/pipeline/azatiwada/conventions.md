@@ -70,3 +70,4 @@ Iron Age Luwian values (z = ts, h = a rasped kh). `langCode: null`. No voice cho
 - Lost signs the corpus restores (2026-11-15): keep the source key, tr = the restored value with "?", `"damaged": true`; the note says they are not on the stone. Unrestored gaps stay ▢ DAMAGED "[…]", each in its own position in the word (hooks.src_units).
 - §39, the naming (2026-11-15): l "And to it Azatiwadaya (as) name I put." · i "And I gave it the name Azatiwadaya."
 - God names from logograms kept as names: Runzas (CERVUS₃), Kumarma (BONUS), Tipariya (VITIS); usnu- 'bless, please'.
+- §73, the curse (2026-11-16): i "then may Tarhunzas of heaven, Tiwazas of heaven, Iyas and all the gods erase that kingdom, and that king, and that nobleman." Sun-god named Tiwazas (as spelled), CAELUM tippasassis 'of heaven'; ahha i(ya)Ti- 'erase'; anta tama- 'wall up' (a reading); CAPUT-tt(i)- 'nobleman' in i.

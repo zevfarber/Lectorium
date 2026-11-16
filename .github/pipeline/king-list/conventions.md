@@ -68,3 +68,10 @@ Conventional reconstructed Sumerian. `langCode: null`. No voice chosen; parts pu
 - Readings by sign: Langdon's Mes (fn. DUP) → DUB, tr mes; Mes-ki-em-ᵈNannar → mes-ki-aĝ₂-{d}nanna; Ḫa-ma-ṣi → ḫa-ma-zi (ZI); A-wa-an → a-wa-an{ki} (PI = wa). English names write š as sh (Hadanish, Umushe).
 - A visible but unread sign: LACUNA glyph with tr "x", unbracketed, inside the name's morph; the note says it is not lost.
 - Damaged forms Langdon prints unbracketed but the copy hatches away entirely (IV 14, 28, 35 ag) are bracketed.
+
+## House renderings settled in king-list-uruk-ii-to-kish-iii (2026-11-16)
+- City at the head of a dynasty with -ga after final g (unug{ki}-ga) or -a (adab{ki}-a) → locative "In X"; with -še₃ instead (ma-ri₂{ki}-še₃, V 23) → literal "to-X (sic)", English follows the formula "In X".
+- A reign line with no named subject (IV 47–48) → "He (?) reigned / exercised …"; totals written with ni-ag (V 32, 41) keep the singular in `l`.
+- ba-gub after a city with no case ending → "its kingship was established at X" (as the pilot's Larak/Shuruppak).
+- Readings by sign: Langdon's Ma-er → ma-ri₂{ki} (URU, as drawn); An-sir → an-sir₂ (BU); Kug-ᵈBaú → ku₃-{d}ba-u₂; munuz → munus; suĝuš → suḫuš; Akšak → akšak{ki} (UD.KUŠU₂, flagged). English: Mari, Akshak, Ku-Bau; munus lu₂ kaš-tin-na → "a woman tavern-keeper".
+- A restored number carrying Langdon's "(?)" is a LACUNA glyph, not shipped as signs (V 26), and the arithmetic goes in the note.

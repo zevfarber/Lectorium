@@ -137,3 +137,68 @@ All signs, roles and values in units.json agree with this record.
 - The "tavern-keeper" question (above).
 - new-lemmas.json "en-ug-du-an-na" and "ma-ri₂" agree with the notes. "akšak" should stay flagged as an identification. The glosser should not take Langdon's p. 5 view of the break as being about Uruk.
 - For the next part: compare V 44's Akšak writing with V 43's (see question 3).
+
+## Pass 2
+
+I checked every gloss.json entry (17 new lemmas plus `__broaden__` -ga, -a, -šú, ba-gub, kiš) against units.json, its notes, the plate record above, Langdon pp. 14–15 and his Introduction p. 5. I also checked the published glossaries of all five king-list-*.json files, by script. Edits were made by script (scratchpad reviewer/rev2.py). gloss.json and units.json are both dumped with indent 1, ensure_ascii=False and no trailing newline; gloss.json's layout is unchanged.
+
+Checks run afterwards:
+- Every `__broaden__` value starts with the published entry exactly as published, followed by " · ":
+  - -ga: uruk-i.
+  - -a: "nominalizer", as in antediluvian and uruk-i.
+  - -šú: antediluvian, kish-i, ur-i-awan and uruk-i.
+  - kiš: kish-i and ur-i-awan. The old text "Kish — city in northern Babylonia, seat of the first dynasty after the Flood; written with the KIŠ sign plus the place-determinative KI (unread), as kiš{ki}" is kept whole.
+- The new-lemmas.json keys equal the gloss.json keys.
+- Every morph lemma in units.json is either in a published glossary or new in gloss.json.
+- No gloss.json key repeats a published lemma.
+- Every glyph sign is a key in signs-cuneiform.json.
+- Morph `g` coverage is exact.
+
+### Changes — gloss.json
+
+- `__broaden__` -šú · **major** · The new reading glossed ma-ri₂{ki}-še₃ as "'in Mari'". That gives the terminative a locative meaning it does not have. The form is the terminative -še₃ 'to', written where the formula (and Langdon's fn. 3, L. No. 1 V 10 Ma-er-(ki)-a) has the locative. · Now: "also written where the formula has the locative -a 'in' (ma-ri₂{ki}-še₃ at the head of a dynasty, where another copy has ma-ri₂{ki}-a); why the terminative stands there is uncertain".
+- -na · minor · Three problems:
+  - "'man of the tavern'?" made kaš-tin mean 'tavern'. That is not in the words, and the kaš-tin entry itself does not say it.
+  - The entry was tied to this one word ("after the n of tin").
+  - "-(a)k" was fine, but the entry was not general to the form.
+  · Now "-a(k) 'of' (genitive) written -na after a final n, as in lu₂ kaš-tin-na 'person of kaš-tin'; the analysis is uncertain".
+- `__broaden__` ba-gub · minor · The broadening was unnecessary. The published antediluvian entry already covers exactly this use: Larak and Shuruppak, "its kingship was established at …", with the city carrying no case ending. The added text was also tied to this line ("where earlier …", "the city here"). · Removed. ba-gub keeps its published entry.
+- `__broaden__` kiš · minor · The added text was tied to these lines ("from Mari", "Ku-Bau") and ended with "the earlier phrase 'first dynasty' does not apply here". That disowns the old text inside the same entry. · Now "· the kingship returns to it more than once, so it is also the seat of later dynasties of Kish", with the old text kept whole in front.
+- ma-ri₂ · minor · "the reading of the second sign is uncertain" contradicted the plate. Pass 1 confirmed URU against III 15 and IR (III 27). · Now "the second sign is identified from the copy". Langdon's "er" stays in the entry.
+- `__broaden__` -ga · style · "here at the head of a dynasty" tied the entry to a line. · Now "(unug{ki}-ga 'in Uruk', at the head of a dynasty)".
+
+### Changes — units.json
+
+- 22 morph glosses for new lemmas · minor · They still held the drafter's wording and did not match gloss.json. · Each is now set to its gloss.json text (as in ur-i-awan pass 2).
+- V 23 · morph gloss -šú · minor · It carried the general published 'to, towards', with no word on the odd use. · Now the line-level gloss "terminative -še₃ 'to' (the EŠ₂ sign; Langdon -šú) — written here where the formula has the locative 'in'". It matches the note and the broadening.
+
+Counts (pass 2): 1 major, 7 minor, 1 style.
+
+### Checked and kept
+
+- en-ug-du-an-na:
+  - UG is flagged as Langdon's identification.
+  - The En-šag-kuš-an-na remark is his (fn. 9 p. 14).
+  - "first king of the second dynasty of Uruk" fits his p. 5 view (the only known king).
+- lugal-an-ni-mu-un-du₃: "the sense of the name is uncertain" fits the pass-1 V 17 note. No relative-clause reading is claimed.
+- an-sir₂, lugal-tar-zi, the four "[…]-" Mari names, […]-lu, adab, akšak (identification flagged), ku₃-{d}ba-u₂, munus, suḫuš: no invented modern forms, and they are general to the form.
+- kaš-tin: Langdon's 'wine seller' is credited, and "tavern-keeper" stays as decided by the owner.
+- `__broaden__` -a: the locative on a city name is right for adab{ki}-a.
+- `__broaden__` -ga: the locative reading is right for unug{ki}-ga at a dynasty's head (as urim₂{ki}-ma in ur-i-awan).
+- Published lemmas whose morph glosses differ from the glossary (unug, urim₂, lu₂, gi-n, mu-un- 'he/she', u/geš/diš with "N here = …", šu-ši, lugal 'here plural'): kept as line-level glosses, as ur-i-awan pass 2 and uruk-i do. None contradicts its published entry.
+- Second read of units.json:
+  - Every reading rebuilds from its glyph tr values.
+  - `say` agrees with the reading.
+  - l, i and n agree after the pass-1 edits.
+  - Nothing further found.
+
+### Findings considered and refused
+
+- Broaden ba-an- for this part · refused. sig₃ is transitive, and the published entry (as uruk-i broadened it) already covers ba-an-sig₃, as ur-i-awan pass 2 found.
+- Broaden lu₂ for lu₂ kaš-tin-na ('person of …', not a relative 'who') · refused. The published "man; 'the one who …'" begins with 'man', which covers the use, and the line-level morph gloss says "man, person".
+
+### Build and validate
+
+`r3.py build` produced 21 units, and `validate` printed **PASS**. Its one WARN is the V 32 linecheck line ('120 + 16' written 2 geš + u + 6 diš), which was confirmed on the plate in pass 1. In the built glossary the broadened entries read as above, and ba-gub keeps its published text.
+
+Restored afterwards: stories.json was checked out and the generated king-list-uruk-ii-to-kish-iii.json deleted. git status shows only the drafts files modified (gloss.json, units.json, review.md). signs.py made no changes in this pass.

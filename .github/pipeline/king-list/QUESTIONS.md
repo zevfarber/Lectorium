@@ -17,3 +17,10 @@
 - **mes = DUB vs MES.** Langdon fn. 1 (III 40) says the sign written mes is DUP (REC 385), and the plate draws the same sign in III 40/42/43 and III 7. This part ships DUB (tr mes); the published king-list-uruk-i ships MES for the same drawn sign (III 7, and III 1 restored). Decided meanwhile: DUB here; uruk-i left untouched for the owner to reconcile.
 - **Unread but visible sign (IV 30, Langdon '?' / fn. PISAN+RU?).** No sign key exists for "a sign present but unread"; shipped as the LACUNA glyph with tr "x", unbracketed, folded into the name's morph (x-nun-na), with the note explaining. Decided meanwhile: keep this; a dedicated key (label "x") via signs.py would be cleaner if the owner wants one.
 - **New signs LAH4 (IV 20) and UMUSH (IV 29)** are identifications of uncertain copies (Langdon Laḫ(?), Umuš-e); both are flagged in the notes.
+
+## 2026-11-16 · king-list-uruk-ii-to-kish-iii
+- **Mari = ma-ri₂ (URU), not Langdon's Ma-er (IR).** In V 22 and V 33 the copy draws the sign after MA like the URU of III 15, not the IR of III 27. Decided meanwhile: shipped ma-ri₂{ki}; Langdon's reading is in the notes.
+- **IV 48: 480 vs 420.** The prism's numeral is 8 geš = 480; Langdon's translation and introduction give 420 for the dynasty. Decided meanwhile: 480 shipped, both reported.
+- **V 1–10** is one lost unit because Langdon's source has one entry for it (the build requires that); in Col. II the lost lines were one unit per line. Decided meanwhile: one unit, the note saying it stands for ten lines (Langdon: Ur II, 4 or 5 names).
+- **V 43 Akšak**: two signs before KI, shipped as the conventional UD.KUŠU₂ though the copy does not confirm KUŠU₂ (new sign KUSHU2 added). The next part's drafter should compare V 44's first sign.
+- **"tavern-keeper"** (V 37) is kept in `i`, against Langdon's "a female wine seller", since it is the part's name and the project's English for the word in Hammurabi. Decided meanwhile: kept.

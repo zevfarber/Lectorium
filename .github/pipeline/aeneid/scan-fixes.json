@@ -11741,5 +11741,49 @@
    "6fi–xit×"
   ],
   "why": "Wrong quantities with the right count (cost 0.0, not flagged): corpŏră has its last two syllables short (the open -a before sed), Būtēn has the long Greek -ēn (η) and āversum a long ā- (from ab): cor-pŏ-ră | sēd Bū | tēn ā | ver-sum | cus-pĭ-dĕ | fī-xit (14 syllables), caesura after Buten. The scanner made -po- and -ra long and -ten short."
+ },
+ "11.747": {
+  "sc": [
+   "1ar–ma⏑",
+   "vi⏑2rum–que⏑",
+   "fe⏑3rens–‖",
+   "tum–",
+   "4sum–ma",
+   "ip–5si–us⏑",
+   "ab⏑",
+   "6has–ta×"
+  ],
+  "why": "Confirmed by hand, entered only to clear the COSTLY flag: ipsīus has its middle i long (the usual quantity of the pronoun genitive), summa is elided into it, and ab is short before hasta (h makes no position): ar-mă vĭ | rum-quĕ fĕ | rēns tūm | summ(a) ip | sī-ŭs ăb | has-ta (15 syllables), caesura after ferens. The scanner's parse is right; the cost is the elision and the long -ī-."
+ },
+ "11.768": {
+  "sc": [
+   "1For–te⏑",
+   "sa⏑2cer–",
+   "Cy⏑be⏑3lo–‖",
+   "Chlo–4reus–",
+   "o–5lim–que⏑",
+   "sa⏑6cer–dos×"
+  ],
+  "why": "Chlōreus is a Greek name (Χλωρεύς) of two long syllables, Chlō-reus, with eu one diphthong (as Teucri, Eurus); Cybelō is the dative with long -ō: For-tĕ să | cēr Cy̆-bĕ | lō Chlō | reūs ō | līm-quĕ să | cēr-dōs (15 syllables), caesura after Cybelo. The scanner (cost 0.8, not flagged) read Chlo-re-us as three syllables with a short Chlo-, counted 16 and put a dactyl in the third foot."
+ },
+ "11.800": {
+  "sc": [
+   "1con–ver–2te–re",
+   "a⏑ni⏑3mos–‖",
+   "a–4cris–",
+   "o⏑cu⏑5los–que⏑",
+   "tu⏑6le–re×"
+  ],
+  "why": "Wrong quantities with the right count (cost 0.0, not flagged): ācrīs (accusative plural of ācer) has both syllables long, and ŏcŭlōs its first two short: con-ver | tē-r(e) ă-nĭ | mōs ā | crīs ŏ-cŭ | lōs-quĕ tŭ | lē-re (15 syllables), convertere elided into animos, caesura after animos. The scanner made a-cris short and o-cu long."
+ },
+ "11.813": {
+  "sc": [
+   "1sub–ie–2cit–",
+   "pa⏑vi⏑3tan–tem",
+   "u⏑te⏑4ro–‖",
+   "sil–5vas–que⏑",
+   "pe⏑6ti–vit×"
+  ],
+  "why": "subiēcit (sub + iacio): the i after the prefix is consonantal, sub | iē | cit, so sub is long by position, iē has its long perfect vowel and -cit is long by position before pavitantem (cf. 2.37 subiectis, 2.721 subiecta): sub-iē | cit pă-vĭ | tant(em) ŭ-tĕ | rō sil | vās-quĕ pĕ | tī-vit (15 syllables), pavitantem elided into utero, caesura after utero. The scanner (cost 0.0, not flagged) read su-bi-e-cit with a vowel i and a short e, counting 16."
  }
 }

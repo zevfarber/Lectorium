@@ -99,12 +99,13 @@ end **only where Greenough begins a paragraph** (an indented line in the TEI —
 | VI.127 | *noctes atque dies patet atri ianua Ditis* | "nights and days lies open of black Dis the door" | "the door of gloomy Dis is never shut, by night or by day" |
 | VI.128–129 | *sed revocare gradum superasque evadere ad auras, hoc opus, hic labor est* | "but to call back the step and to escape out to the upper airs, this the work, here the hardship is" | "But to turn your step back and win out to the air above — there is the real work of it, there the hardship." |
 | VI.851–853 | *tu regere imperio populos, Romane, memento; / hae tibi erunt artes; pacisque imponere morem, / parcere subiectis, et debellare superbos* | "you, to rule by your command the peoples, Roman, remember; / these for you will be the arts; and of peace to impose the custom, / to spare the subjected, and to fight out the war against the proud." | "Your task, Roman — never forget it — is to rule the peoples by your sovereign power (these will be the skills that are yours), to establish peace and make it their custom, to spare whoever yields, and to fight the haughty until the war is done." |
+| XI.831 (= XII.952) | *vitaque cum gemitu fugit indignata sub umbras* | "and life with a groan takes flight, chafing, down under the shades." | "and life, bitter at its going, took flight with a groan down among the shades." |
 
 Set pieces still ahead, to be decided in a dedicated pass before the batch that reaches them (Ovid's
 ruling of 2026-08-27): I.203 *forsan et haec olim meminisse iuvabit*; I.462 *sunt lacrimae rerum*;
 II.49 *timeo Danaos et dona ferentis*; IV.23 *agnosco veteris vestigia flammae*; VI.126–129 *facilis
 descensus Averno*; VI.851–853 *tu regere imperio populos, Romane, memento*; XII.952 *vitaque cum gemitu
-fugit indignata sub umbras*. For each: build from the Latin, check the result against memory of the
+fugit indignata sub umbras* (decided at its first occurrence, XI.831, in aeneid-089; reuse at XII.952). For each: build from the Latin, check the result against memory of the
 best-known modern versions for verbatim echo, and rephrase any distinctive echo.
 
 ## Glossary

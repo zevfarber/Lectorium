@@ -17,6 +17,7 @@
      (Windows' Mongolian Baiti is only the offline fallback in the stack). -->
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mongolian&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Tibetan:wght@400;600&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew:wght@400;600&display=swap" rel="stylesheet">
 <style>
 
@@ -378,6 +379,21 @@
   body[data-script="devanagari"] .tr { font-size: .8rem; letter-spacing: 0; }
   body[data-script="devanagari"] .stack.punct .gl { font-size: 1.3rem; opacity: .6; }
   body[data-script="devanagari"] .de.words { gap: 8px 10px; }
+  /* Tibetan (words model): each word is its syllables side by side, the dot (tsheg) that closes a syllable
+     kept with it. Tall stacks above and below the line need generous line-height. Under the syllables:
+     the letters (Wylie), or under the whole word how it is said. */
+  body[data-script="tibetan"] .gl, body[data-script="tibetan"] .storySub .tOrig, body[data-script="tibetan"] .pwTib {
+    font-family: 'Noto Serif Tibetan', 'Jomolhari', 'Microsoft Himalaya', 'Kailasa', 'Noto Sans Tibetan', 'Tibetan Machine Uni', serif;
+    font-size: 1.7rem; line-height: 1.75; font-style: normal; }
+  body[data-script="tibetan"] .pwTib { display: block; font-size: 1.9rem; line-height: 1.7; }
+  body[data-script="tibetan"] .tr { font-size: .78rem; letter-spacing: 0; }
+  body[data-script="tibetan"] .word { gap: 0; }
+  body[data-script="tibetan"] .word .stack { padding: 1px 1px; }
+  body[data-script="tibetan"] .glyphrow { gap: 0; }
+  body[data-script="tibetan"] .stack.punct .gl { opacity: .65; }
+  body[data-script="tibetan"] .de.words { gap: 6px 12px; }
+  #signModal table.abc.dn.tib td.f, .signModal table.abc.dn.tib td.f { font-family: 'Noto Serif Tibetan', 'Jomolhari', 'Microsoft Himalaya', 'Kailasa', serif; font-size: 1.9rem; line-height: 1.8; }
+  body[data-script="tibetan"] .stack.punct .tr { display: block; min-height: 1.15em; white-space: pre; }
   /* Ancient Greek (polytonic): Georgia renders the varia (grave) series U+1F70–1F7D with a detached
      accent; Palatino Linotype / Cambria carry full correctly-composed polytonic. Scoped to Greek stories. */
   body[data-script="greek"] .de, body[data-script="greek"] .note, body[data-script="greek"] .en,
@@ -986,6 +1002,7 @@ function tokenize(text, scan, alt){
    The alphabet (uniliterals) is seeded in full; other signs grow as texts introduce them.
    A story selects its script via story.script. Roles come from the story data, not here. */
 const SIGN_GLOSSARIES = {
+ "tibetan": {"consonants": [[["ཀ", "ka", "k"], ["ཁ", "kha", "kh"], ["ག", "ga", "g"], ["ང", "nga", "ng"]], [["ཅ", "ca", "ch"], ["ཆ", "cha", "ch"], ["ཇ", "ja", "j"], ["ཉ", "nya", "ny"]], [["ཏ", "ta", "t"], ["ཐ", "tha", "t"], ["ད", "da", "d"], ["ན", "na", "n"]], [["པ", "pa", "p"], ["ཕ", "pha", "p"], ["བ", "ba", "b"], ["མ", "ma", "m"]], [["ཙ", "tsa", "ts"], ["ཚ", "tsha", "ts"], ["ཛ", "dza", "dz"], ["ཝ", "wa", "w"]], [["ཞ", "zha", "zh"], ["ཟ", "za", "z"], ["འ", "'a", "—"], ["ཡ", "ya", "y"]], [["ར", "ra", "r"], ["ལ", "la", "l"], ["ཤ", "sha", "sh"], ["ས", "sa", "s"]], [["ཧ", "ha", "h"], ["ཨ", "a", "a"]]], "vowels": [["ཀི", "ki", "i"], ["ཀུ", "ku", "u"], ["ཀེ", "ke", "e"], ["ཀོ", "ko", "o"]], "rules": [["བར་དོ", "bar do", "bardo", "A plain syllable is read as written: a consonant with its built-in a, or with a vowel mark above or below."], ["དགོངས", "dgongs", "gong", "A letter written before the main letter (ག ད བ མ འ) is silent, and so is a final ས after another final letter."], ["སྐུ", "sku", "ku", "ར ལ ས written on top of the main letter are silent."], ["ཕྱག", "phyag", "chak", "ྱ (y) underneath: with p, ph, b, m it changes the sound to ch, ch, j, ny. A final g is said k."], ["གྲོལ", "grol", "dröl", "ྲ (r) underneath turns k, kh, g, p, ph, b into tr or dr. A final l, like d, n and s, shifts a, o, u toward e, ö, ü."], ["བླ་མ", "bla ma", "lama", "ླ (l) underneath: only the l is said."], ["ཐོས", "thos", "tö", "A final s or d is silent and shifts the vowel: a → e, o → ö, u → ü."], ["སངས་རྒྱས", "sangs rgyas", "sanggyé", "Both rules together: sangs keeps its a (the s follows another final letter), rgyas becomes gyé."], ["དབང", "dbang", "wang", "དབ at the start is said w, or nothing before u (དབུགས dbugs, uk)."], ["བར་དོའི", "bar do'i", "bardö", "-འི, 'of', is written onto the end of a word and changes its last vowel: a → é, o → ö, u → ü."], ["པདྨ", "padma", "pema", "Sanskrit words are written with stacked letters Tibetan words never use."]]},
  "arabic": {letters:[["\u02bealif","\u0627","\u0101 / \u02be","long \u0101, and the seat for hamza"],["b\u0101\u02be","\u0628","b",""],["t\u0101\u02be","\u062a","t",""],["th\u0101\u02be","\u062b","th","as in think"],["j\u012bm","\u062c","j",""],["\u1e25\u0101\u02be","\u062d","\u1e25","breathy h, from the throat"],["kh\u0101\u02be","\u062e","kh","as in Bach"],["d\u0101l","\u062f","d","never joins to the left"],["dh\u0101l","\u0630","dh","as in this; never joins left"],["r\u0101\u02be","\u0631","r","never joins left"],["z\u0101y","\u0632","z","never joins left"],["s\u012bn","\u0633","s",""],["sh\u012bn","\u0634","sh",""],["\u1e63\u0101d","\u0635","\u1e63","emphatic s"],["\u1e0d\u0101d","\u0636","\u1e0d","emphatic d"],["\u1e6d\u0101\u02be","\u0637","\u1e6d","emphatic t"],["\u1e93\u0101\u02be","\u0638","\u1e93","emphatic dh"],["\u02bfayn","\u0639","\u02bf","a constriction in the throat, not a vowel"],["ghayn","\u063a","gh","like a French r"],["f\u0101\u02be","\u0641","f",""],["q\u0101f","\u0642","q","k made far back"],["k\u0101f","\u0643","k",""],["l\u0101m","\u0644","l",""],["m\u012bm","\u0645","m",""],["n\u016bn","\u0646","n",""],["h\u0101\u02be","\u0647","h",""],["w\u0101w","\u0648","w / \u016b","consonant w, or long \u016b; never joins left"],["y\u0101\u02be","\u064a","y / \u012b","consonant y, or long \u012b"]],marks:[["fat\u1e25a","\u0628\u064e","a","short a, written above"],["kasra","\u0628\u0650","i","short i, written below"],["\u1e0damma","\u0628\u064f","u","short u, written above"],["suk\u016bn","\u0628\u0652","\u2014","this letter carries no vowel"],["shadda","\u0628\u0651","bb","doubles the letter"],["tanw\u012bn","\u0628\u064b \u0628\u064d \u0628\u064c","an / in / un","the indefinite endings"],["madda","\u0622","\u0101","\u02bealif + \u0101 at the start of a word"],["dagger \u02bealif","\u0647\u0670","\u0101","long \u0101 written small (h\u0101dh\u0101)"],["hamza","\u0621","\u02be","the glottal catch; over or under its seat"]],special:[["t\u0101\u02be marb\u016b\u0163a","\u0629","a / at","the feminine ending; -at before a following noun"],["\u02bealif maq\u1e63\u016bra","\u0649","\u0101","final \u0101 written like y\u0101\u02be without dots"],["l\u0101m-\u02bealif","\u0644\u0627","l\u0101","the one ligature you must know"]]},
  "ethiopic": {orders:["ä", "u", "i", "a", "e", "ə", "o"],rows:[{cons:"h",cells:[{g:"ሀ",r:"hä"},{g:"ሁ",r:"hu"},{g:"ሂ",r:"hi"},{g:"ሃ",r:"ha"},{g:"ሄ",r:"he"},{g:"ህ",r:"hə"},{g:"ሆ",r:"ho"}]},{cons:"l",cells:[{g:"ለ",r:"lä"},{g:"ሉ",r:"lu"},{g:"ሊ",r:"li"},{g:"ላ",r:"la"},{g:"ሌ",r:"le"},{g:"ል",r:"lə"},{g:"ሎ",r:"lo"}]},{cons:"ḥ",cells:[{g:"ሐ",r:"ḥä"},{g:"ሑ",r:"ḥu"},{g:"ሒ",r:"ḥi"},{g:"ሓ",r:"ḥa"},{g:"ሔ",r:"ḥe"},{g:"ሕ",r:"ḥə"},{g:"ሖ",r:"ḥo"}]},{cons:"m",cells:[{g:"መ",r:"mä"},{g:"ሙ",r:"mu"},{g:"ሚ",r:"mi"},{g:"ማ",r:"ma"},{g:"ሜ",r:"me"},{g:"ም",r:"mə"},{g:"ሞ",r:"mo"}]},{cons:"ś",cells:[{g:"ሠ",r:"śä"},{g:"ሡ",r:"śu"},{g:"ሢ",r:"śi"},{g:"ሣ",r:"śa"},{g:"ሤ",r:"śe"},{g:"ሥ",r:"śə"},{g:"ሦ",r:"śo"}]},{cons:"r",cells:[{g:"ረ",r:"rä"},{g:"ሩ",r:"ru"},{g:"ሪ",r:"ri"},{g:"ራ",r:"ra"},{g:"ሬ",r:"re"},{g:"ር",r:"rə"},{g:"ሮ",r:"ro"}]},{cons:"s",cells:[{g:"ሰ",r:"sä"},{g:"ሱ",r:"su"},{g:"ሲ",r:"si"},{g:"ሳ",r:"sa"},{g:"ሴ",r:"se"},{g:"ስ",r:"sə"},{g:"ሶ",r:"so"}]},{cons:"q",cells:[{g:"ቀ",r:"qä"},{g:"ቁ",r:"qu"},{g:"ቂ",r:"qi"},{g:"ቃ",r:"qa"},{g:"ቄ",r:"qe"},{g:"ቅ",r:"qə"},{g:"ቆ",r:"qo"}]},{cons:"b",cells:[{g:"በ",r:"bä"},{g:"ቡ",r:"bu"},{g:"ቢ",r:"bi"},{g:"ባ",r:"ba"},{g:"ቤ",r:"be"},{g:"ብ",r:"bə"},{g:"ቦ",r:"bo"}]},{cons:"t",cells:[{g:"ተ",r:"tä"},{g:"ቱ",r:"tu"},{g:"ቲ",r:"ti"},{g:"ታ",r:"ta"},{g:"ቴ",r:"te"},{g:"ት",r:"tə"},{g:"ቶ",r:"to"}]},{cons:"ḫ",cells:[{g:"ኀ",r:"ḫä"},{g:"ኁ",r:"ḫu"},{g:"ኂ",r:"ḫi"},{g:"ኃ",r:"ḫa"},{g:"ኄ",r:"ḫe"},{g:"ኅ",r:"ḫə"},{g:"ኆ",r:"ḫo"}]},{cons:"n",cells:[{g:"ነ",r:"nä"},{g:"ኑ",r:"nu"},{g:"ኒ",r:"ni"},{g:"ና",r:"na"},{g:"ኔ",r:"ne"},{g:"ን",r:"nə"},{g:"ኖ",r:"no"}]},{cons:"ʾ",cells:[{g:"አ",r:"ʾä"},{g:"ኡ",r:"ʾu"},{g:"ኢ",r:"ʾi"},{g:"ኣ",r:"ʾa"},{g:"ኤ",r:"ʾe"},{g:"እ",r:"ʾə"},{g:"ኦ",r:"ʾo"}]},{cons:"k",cells:[{g:"ከ",r:"kä"},{g:"ኩ",r:"ku"},{g:"ኪ",r:"ki"},{g:"ካ",r:"ka"},{g:"ኬ",r:"ke"},{g:"ክ",r:"kə"},{g:"ኮ",r:"ko"}]},{cons:"w",cells:[{g:"ወ",r:"wä"},{g:"ዉ",r:"wu"},{g:"ዊ",r:"wi"},{g:"ዋ",r:"wa"},{g:"ዌ",r:"we"},{g:"ው",r:"wə"},{g:"ዎ",r:"wo"}]},{cons:"ʿ",cells:[{g:"ዐ",r:"ʿä"},{g:"ዑ",r:"ʿu"},{g:"ዒ",r:"ʿi"},{g:"ዓ",r:"ʿa"},{g:"ዔ",r:"ʿe"},{g:"ዕ",r:"ʿə"},{g:"ዖ",r:"ʿo"}]},{cons:"z",cells:[{g:"ዘ",r:"zä"},{g:"ዙ",r:"zu"},{g:"ዚ",r:"zi"},{g:"ዛ",r:"za"},{g:"ዜ",r:"ze"},{g:"ዝ",r:"zə"},{g:"ዞ",r:"zo"}]},{cons:"y",cells:[{g:"የ",r:"yä"},{g:"ዩ",r:"yu"},{g:"ዪ",r:"yi"},{g:"ያ",r:"ya"},{g:"ዬ",r:"ye"},{g:"ይ",r:"yə"},{g:"ዮ",r:"yo"}]},{cons:"d",cells:[{g:"ደ",r:"dä"},{g:"ዱ",r:"du"},{g:"ዲ",r:"di"},{g:"ዳ",r:"da"},{g:"ዴ",r:"de"},{g:"ድ",r:"də"},{g:"ዶ",r:"do"}]},{cons:"g",cells:[{g:"ገ",r:"gä"},{g:"ጉ",r:"gu"},{g:"ጊ",r:"gi"},{g:"ጋ",r:"ga"},{g:"ጌ",r:"ge"},{g:"ግ",r:"gə"},{g:"ጎ",r:"go"}]},{cons:"ṭ",cells:[{g:"ጠ",r:"ṭä"},{g:"ጡ",r:"ṭu"},{g:"ጢ",r:"ṭi"},{g:"ጣ",r:"ṭa"},{g:"ጤ",r:"ṭe"},{g:"ጥ",r:"ṭə"},{g:"ጦ",r:"ṭo"}]},{cons:"ṗ",cells:[{g:"ጰ",r:"ṗä"},{g:"ጱ",r:"ṗu"},{g:"ጲ",r:"ṗi"},{g:"ጳ",r:"ṗa"},{g:"ጴ",r:"ṗe"},{g:"ጵ",r:"ṗə"},{g:"ጶ",r:"ṗo"}]},{cons:"ṣ",cells:[{g:"ጸ",r:"ṣä"},{g:"ጹ",r:"ṣu"},{g:"ጺ",r:"ṣi"},{g:"ጻ",r:"ṣa"},{g:"ጼ",r:"ṣe"},{g:"ጽ",r:"ṣə"},{g:"ጾ",r:"ṣo"}]},{cons:"ṣ́",cells:[{g:"ፀ",r:"ṣ́ä"},{g:"ፁ",r:"ṣ́u"},{g:"ፂ",r:"ṣ́i"},{g:"ፃ",r:"ṣ́a"},{g:"ፄ",r:"ṣ́e"},{g:"ፅ",r:"ṣ́ə"},{g:"ፆ",r:"ṣ́o"}]},{cons:"f",cells:[{g:"ፈ",r:"fä"},{g:"ፉ",r:"fu"},{g:"ፊ",r:"fi"},{g:"ፋ",r:"fa"},{g:"ፌ",r:"fe"},{g:"ፍ",r:"fə"},{g:"ፎ",r:"fo"}]},{cons:"p",cells:[{g:"ፐ",r:"pä"},{g:"ፑ",r:"pu"},{g:"ፒ",r:"pi"},{g:"ፓ",r:"pa"},{g:"ፔ",r:"pe"},{g:"ፕ",r:"pə"},{g:"ፖ",r:"po"}]}]},
  "ugaritic": {
@@ -4380,6 +4397,31 @@ function renderArabicAlphabet(sg){
   return h;
 }
 
+function renderTibetanAlphabet(sg){
+  let h = '<div class="abcNote">Tibetan spelling was fixed more than a thousand years ago and the spoken language has moved on since, much as with English <i>knight</i>. '
+    + 'So every word here has two faces: the <b>letters</b> as written (given in the Wylie system, which puts a Latin letter for each Tibetan one) and the word <b>as said</b> today in the reading style of central Tibet. '
+    + 'The switch above the text chooses which of the two stands under the words.</div>';
+  h += '<div class="smGroup"><h4>The thirty consonants — each carries a built-in a</h4><table class="abc dn tib">'
+     + '<tr><th>letter · name</th><th>letter · name</th><th>letter · name</th><th>letter · name</th></tr>';
+  sg.consonants.forEach(row => {
+    h += '<tr>';
+    row.forEach(([ch, wy, snd]) => { h += '<td class="f">' + escapeHtml(ch) + '<span class="from">' + escapeHtml(wy) + (snd && snd !== wy.replace(/a$/, '') ? ' · said ' + escapeHtml(snd) : '') + '</span></td>'; });
+    for (let k = row.length; k < 4; k++) h += '<td></td>';
+    h += '</tr>';
+  });
+  h += '</table></div>';
+  h += '<div class="smGroup"><h4>The four vowel marks — shown on ཀ (k)</h4><table class="abc dn tib"><tr>';
+  sg.vowels.forEach(([ch, wy]) => { h += '<td class="f">' + escapeHtml(ch) + '<span class="from">' + escapeHtml(wy) + '</span></td>'; });
+  h += '</tr></table></div>';
+  h += '<div class="smGroup"><h4>From the letters to the sound</h4><table class="abc dn tib">'
+     + '<tr><th>written</th><th>letters</th><th>said</th><th class="abcn" style="text-align:left">what happens</th></tr>';
+  sg.rules.forEach(([ch, wy, snd, note]) => {
+    h += '<tr><td class="f">' + escapeHtml(ch) + '</td><td class="snd">' + escapeHtml(wy) + '</td><td class="snd"><b>' + escapeHtml(snd) + '</b></td>'
+       + '<td class="abcn" style="max-width:none">' + escapeHtml(note) + '</td></tr>';
+  });
+  h += '</table></div>';
+  return h;
+}
 function renderDevanagariAlphabet(sg){
   const a = sg.groups;
   let h = '<div class="abcNote">Read a Devanagari word as a chain of syllables. Each consonant letter '
@@ -4539,6 +4581,11 @@ function showWordPop(wordEl){
     $('popW').innerHTML = sgn
       + '<div class="pwRow"><span class="pwk">transliteration</span><span class="pwv">' + escapeHtml(w.reading || '') + '</span></div>'
       + (w.say ? '<div class="pwRow say"><span class="pwk">said</span><span class="pwv">' + escapeHtml(w.say) + '</span></div>' : '');
+  } else if (story.script === 'tibetan') {
+    // the word in its own script, then its letters (Wylie) and how it is said
+    $('popW').innerHTML = '<span class="pwTib">' + escapeHtml((w.glyphs || []).filter(x => (x.role || '') !== 'punct').map(x => x.s || '').join('').replace(/\u0F0B$/, '')) + '</span>'
+      + '<div class="pwRow"><span class="pwk">letters</span><span class="pwv">' + escapeHtml(w.reading || '') + '</span></div>'
+      + (w.say ? '<div class="pwRow say"><span class="pwk">said</span><span class="pwv">' + escapeHtml(w.say) + '</span></div>' : '');
   } else {
     $('popW').textContent = w.reading || '';
   }
@@ -4697,6 +4744,13 @@ function openSigns(){
     $('smTitle').textContent = 'The Devanagari alphabet';
     $('smSub').innerHTML = 'A syllabic alphabet: consonant letters carry a built-in <b>a</b>; the other vowels are marks written around them. Transliteration in IAST, as under the words in the text.';
     $('smBody').innerHTML = renderDevanagariAlphabet(sg);
+    $('signModal').classList.add('open');
+    return;
+  }
+  if (story.script === 'tibetan'){
+    $('smTitle').textContent = 'The Tibetan alphabet';
+    $('smSub').innerHTML = 'Thirty consonant letters and four vowel marks, written left to right in syllables. A dot (<b>\u0F0B</b>) closes each syllable; there are no spaces between words.';
+    $('smBody').innerHTML = renderTibetanAlphabet(sg);
     $('signModal').classList.add('open');
     return;
   }
@@ -6193,6 +6247,9 @@ function loadStory(s){
           : story.script === 'cuneiform'
           ? '<button data-sp="sch" title="Academic transliteration — per sign, with ĝ, hyphens and superscript determinatives (diĝir)">diĝir</button>'
             + '<button data-sp="read" title="Readable spelling — smoothed running words, ĝ→ng, determinatives silent (dingir)">dingir</button>'
+          : story.script === 'tibetan'
+          ? '<button data-sp="sch" title="Letters — every letter that is written, syllable by syllable, in the Wylie system (thos grol)">thos grol</button>'
+            + '<button data-sp="read" title="As said — the word as it is pronounced today in the reading style of central Tibet (tödröl)">tödröl</button>'
           : story.script === 'ethiopic'
           ? '<button data-sp="sch" title="Scholarly transliteration — with the schwa ə (6th order) and the pharyngeal ʿ (Gəʿəz)">Gəʿəz</button>'
             + '<button data-sp="read" title="Readable spelling — plain vowels, no diacritics (Geez)">Geez</button>'
@@ -6219,8 +6276,9 @@ function loadStory(s){
   if (sb){
     sb.style.display = signGlossaryFor(s) ? '' : 'none';
     sb.textContent = (s.script === 'ethiopic') ? '📜 Fidäl'
-                   : (s.script === 'mongol' || s.script === 'devanagari' || s.script === 'arabic' || s.script === 'kiche' || s.script === 'phoenician') ? '📜 Alphabet' : '📜 Signs';
-    sb.title = (s.script === 'kiche') ? 'Alphabet — how to pronounce the K\u2019iche\u2019 letters'
+                   : (s.script === 'mongol' || s.script === 'devanagari' || s.script === 'arabic' || s.script === 'kiche' || s.script === 'phoenician' || s.script === 'tibetan') ? '📜 Alphabet' : '📜 Signs';
+    sb.title = (s.script === 'tibetan') ? 'Alphabet — the Tibetan letters, and how the spelling is said'
+      : (s.script === 'kiche') ? 'Alphabet — how to pronounce the K\u2019iche\u2019 letters'
       : (s.script === 'mongol' || s.script === 'devanagari' || s.script === 'arabic')
       ? 'Alphabet reference — every letter in its initial, medial and final shapes'
       : 'Sign reference — the alphabet and the classifiers';

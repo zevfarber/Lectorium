@@ -1428,3 +1428,8 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Library label: `Night 124 · The Lover and the Beloved, continued`. Nothing to decide.
 - Note: this firing's checkout had a local `main` that had diverged from `origin/main` (50/50 commits); the run worked from `origin/main` and left the local branch alone. No effect on the repository.
 - Next: nights 125, 126 and 127 are complete and unpublished; the next three firings should publish them.
+
+## Night 125 (published 2026-11-16)
+- Corrected misprint in emend.json: P603L08 المتزوح→المتزوج (as the transcribing run suggested). Kept as printed and explained in the notes: اجئ (yāʾ only as hamza seat); run-together لاعلم, مالم (twice), مابقي, لابد; colloquial اريد منك انك تحكي, حكى على, قعدت انتظرتك, اقدر ما اخليك. Two idioms not found in the classical dictionaries are translated by best reading and flagged as uncertain: سالما بشحم ("safe with fat", i.e. unharmed) and الحزمة الدفرة ("the stinking bundle", her insult for the wife). The archive was not changed.
+- No passage omitted. Library label: `Night 125 · The Lover and the Beloved, continued`. Nothing to decide.
+- Next: nights 126 and 127 are complete and unpublished; the next two firings should publish them.

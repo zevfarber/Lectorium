@@ -1458,3 +1458,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - ʿAzīz's frank line about his mutilation (P608L21, آلة) is translated in full. No passage omitted.
 - Library label: `Night 128 · The Lover and the Beloved, continued`. Nothing to decide.
 - Next: nights 129 and 130 are complete and unpublished; the next two firings should publish them.
+
+## Night 129 (published 2026-11-16)
+- Corrected misprints in emend.json: P609L18 وتصدي→وقصدي ("and my purpose"; a ت for ق); P611L10 دينا→دنيا (letters transposed in the name). Kept as printed and explained in the notes: شيأ (twice); الظمأن (no madda; long ā marked with a dagger alif in the vocalisation); بطواشي; باب الريح (read as a small wind-door or hatch, flagged uncertain); فاخذهم (masc. pl. pronoun for the dirhams); تحكي لي as a request; نظرت لها; final ى in فى, تجرى, باكى, سألتنى; run-together ماجرى, وماهو, لاباس, وعادبه. The archive was not changed.
+- ʿAzīz's frank line about his mutilation (P610L19–20, آلة رجال) is translated in full. No passage omitted.
+- Library label: `Night 129 · The Lover and the Beloved, continued`. Nothing to decide.
+- Run note: the container's local `main` ref had diverged from `origin/main` (stale commits not on the remote); this run worked from `origin/main` and left the stale ref alone.
+- Next: night 130 is complete and unpublished; the next firing should publish it.

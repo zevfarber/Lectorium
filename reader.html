@@ -155,8 +155,8 @@
   body.hidetr .translit { display: none; }
   /* scansion overlay (Scansion button; units carrying sc): each syllable is a small column,
      its quantity mark centred above it; feet 2–6 open with a hairline; ‖ marks the main pause */
-  .de.scan { line-height: 2.5; }
-  .de.scan .w { white-space: nowrap; }
+  .de.scan, .ilat.scan { line-height: 2.5; }
+  .de.scan .w, .ilat.scan .w { white-space: nowrap; }
   .syl { display: inline-block; text-align: center; line-height: 1.15; vertical-align: baseline; }
   /* the marks are drawn, not typed: ⏑ and ‖ are missing from many phone fonts, and drawn shapes look the same everywhere */
   .sylm { display: block; height: .52em; line-height: 0; color: var(--muted); user-select: none; -webkit-user-select: none; }
@@ -4834,12 +4834,23 @@ function buildSentEl(s, i, showLit){
   if (interlin) {
     div.classList.add('ilv');
     const litLines = s.l.split('\n');
+    // scansion in the line-by-line layout too: the unit's sc is one string per word, so each
+    // printed line takes the next run of words
+    const scanAll = (showScan && s.sc) ? scanParse(s.t, s.sc) : null;
+    let scanAt = 0;
     for (let k = 0; k < latLines.length; k++) {
       const pair = document.createElement('div');
       pair.className = 'ipair';
       const a = document.createElement('div');
       a.className = 'ilat';
-      a.innerHTML = (k === 0 ? lnChip : '') + tokenize(latLines[k]);
+      let lineScan = null;
+      if (scanAll) {
+        const nw = (latLines[k].match(WORD_RE) || []).length;
+        lineScan = scanAll.slice(scanAt, scanAt + nw);
+        scanAt += nw;
+        a.classList.add('scan');
+      }
+      a.innerHTML = (k === 0 ? lnChip : '') + tokenize(latLines[k], lineScan);
       const b = document.createElement('div');
       b.className = 'ilit';
       b.innerHTML = escapeHtml(litLines[k] || '');

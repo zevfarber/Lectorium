@@ -1,0 +1,4178 @@
+{
+ "titleEn": "Sumerian King List — Kish, the first dynasty after the Flood (I 42 – II 46)",
+ "part": "Kish, the first dynasty after the Flood (I 42 – II 46)",
+ "about": "After the Flood kingship comes down again, to Kish: twenty-three kings, from Ĝa-ur to Agga, among them Etana the shepherd who went up to heaven. Four lines at the top of Col. II are lost and two more are only begun, so some names are gone. The reigns are still enormous but shrinking — hundreds of years now, not tens of thousands — and the dynasty's total does not match the reigns that survive; the notes say so rather than correct it. Readings follow Langdon's 1923 edition, signs as his copy of the prism shows them; several names, a few signs and the grammar of one line are uncertain, and the notes flag each case.",
+ "sentences": [
+  {
+   "col": "I",
+   "line": 42,
+   "ln": 42,
+   "l": "in-Kish, the-kingship —",
+   "i": "the kingship was in Kish.",
+   "n": "The second beginning: after the Flood (I 39–41) the list opens again at Kish, below a ruled line. The pattern is the one the list used for Eridu (I 2): the city, then nam-lugal-la, 'the kingship'. KI after KIŠ is the place-determinative, not read aloud. -la is the vowel ending -a written after the l of lugal; the grammar books disagree on its exact force (locative 'in' or a genitive), but the sense is that Kish now held the kingship.",
+   "words": [
+    {
+     "reading": "kiš{ki}",
+     "say": "kiš",
+     "glyphs": [
+      {
+       "sign": "KISH",
+       "role": "log",
+       "tr": "kiš"
+      },
+      {
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kiš",
+       "gloss": "Kish — city in northern Babylonia, seat of the first dynasty after the Flood (KIŠ + place-det ki)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nam-lugal-la",
+     "say": "namlugala",
+     "glyphs": [
+      {
+       "sign": "NAM",
+       "role": "phon",
+       "tr": "nam"
+      },
+      {
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      },
+      {
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nam-lugal",
+       "gloss": "kingship",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-la",
+       "gloss": "genitive/locative — 'of/in'",
+       "g": [
+        2
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "I",
+   "line": 43,
+   "ln": 43,
+   "l": "in-Kish, Ĝa-ur was-king; years 1200 he-ruled.",
+   "i": "In Kish, Ĝa-ur became king; he reigned 1,200 years.",
+   "n": "Three prism lines make the first reign: the city, the king's name, lugal-am₃ 'was king' (copula -am₃ written a-an), then the reign formula. Kish has no case-ending: 'in' is understood, as in the antediluvian list. The name is Langdon's Gà-ur — the GA₂ sign (his 'MAL') followed by UR, read ĝa₂-ur here; how the name was really pronounced is uncertain. On the prism a wide space separates Kish from the name; Langdon (fn. 5) asks whether a small sign was lost there, sees no traces, and believes nothing is missing. The number is two geš'u signs, 2 × 600 = 1,200.",
+   "words": [
+    {
+     "reading": "kiš{ki}",
+     "say": "kiš",
+     "glyphs": [
+      {
+       "sign": "KISH",
+       "role": "log",
+       "tr": "kiš"
+      },
+      {
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kiš",
+       "gloss": "Kish — city in northern Babylonia, seat of the first dynasty after the Flood (KIŠ + place-det ki)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ĝa₂-ur",
+     "say": "ĝaur",
+     "glyphs": [
+      {
+       "sign": "GA2",
+       "role": "phon",
+       "tr": "ĝa₂"
+      },
+      {
+       "sign": "UR",
+       "role": "phon",
+       "tr": "ur"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ĝa₂-ur",
+       "gloss": "Ĝa-ur (Langdon Gà-ur) — first king of Kish after the Flood; reading of the name uncertain",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal-am₃",
+     "say": "lugalam",
+     "glyphs": [
+      {
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      },
+      {
+       "sign": "A",
+       "role": "phon",
+       "tr": "am₃"
+      },
+      {
+       "sign": "AN",
+       "role": "phon",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-am₃",
+       "gloss": "enclitic copula 'is / was' — written am₃ = a-an",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "1,200",
+     "say": "1,200",
+     "glyphs": [
+      {
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "2 geš'u",
+       "u": "CUNEIFORM NUMERIC SIGN TWO GESHU"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš); 2 here = 1,200",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "I",
+   "line": 46,
+   "ln": 46,
+   "l": "Gulla-Nidaba-anna-[…]-el, years 960 he-ruled.",
+   "i": "Gulla-Nidaba-anna[…] reigned 960 years.",
+   "n": "A royal name, partly damaged. The prism shows GUL-LA, the divine determinative (AN, unread), the sign of the grain-goddess Nidaba (Nisaba, written NAGA), AN-NA, then a broken stretch, and EL at the end of the line. The broken stretch is shown as a gap; Langdon leaves it unread. He adds (fn. 6) that Gulla-ezen-an-na… is also a possible reading — that is, the fourth sign is not certain. The number is written geš'u + 6 geš: 600 + 360 = 960.",
+   "words": [
+    {
+     "reading": "gul-la-{d}nidaba-an-na-[…]-el",
+     "say": "gullanidabaanna…el",
+     "glyphs": [
+      {
+       "sign": "GUL",
+       "role": "phon",
+       "tr": "gul"
+      },
+      {
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la"
+      },
+      {
+       "sign": "AN",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "NAGA",
+       "role": "log",
+       "tr": "nidaba"
+      },
+      {
+       "sign": "AN",
+       "role": "phon",
+       "tr": "an"
+      },
+      {
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "sign": "LACUNA",
+       "role": "punct",
+       "tr": "[…]"
+      },
+      {
+       "sign": "EL",
+       "role": "phon",
+       "tr": "el"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "{d}",
+       "gloss": "divine determinative (diĝir) — marks the following name as a god",
+       "g": [
+        2
+       ]
+      },
+      {
+       "lemma": "gul-la-{d}nidaba-an-na-[…]-el",
+       "gloss": "Gulla-Nidaba-anna… — second king of Kish after the Flood; name partly broken, its fourth sign (Nidaba) uncertain",
+       "g": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "960",
+     "say": "960",
+     "glyphs": [
+      {
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "geš'u"
+      },
+      {
+       "sign": "GESH2",
+       "role": "num",
+       "tr": "6 geš",
+       "u": "CUNEIFORM NUMERIC SIGN SIX GESH2"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "geš",
+       "gloss": "60 (the base of the system); 6 here = 360",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 1,
+   "ln": 1,
+   "lost": true,
+   "l": "[…]",
+   "i": "[…]",
+   "n": "The top of Col. II is broken away: four lines are lost entirely. Langdon (fn. 2) judges that they held two royal names with their reigns, corresponding to Poebel's Nippur fragment No. 5, I 1–3.",
+   "words": [
+    {
+     "reading": "[…]",
+     "say": "…",
+     "glyphs": [
+      {
+       "sign": "LACUNA",
+       "role": "punct",
+       "tr": "[…]"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "a lost stretch of text",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 2,
+   "ln": 2,
+   "lost": true,
+   "l": "[…]",
+   "i": "[…]",
+   "n": "Lost line (see II 1).",
+   "words": [
+    {
+     "reading": "[…]",
+     "say": "…",
+     "glyphs": [
+      {
+       "sign": "LACUNA",
+       "role": "punct",
+       "tr": "[…]"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "a lost stretch of text",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 3,
+   "ln": 3,
+   "lost": true,
+   "l": "[…]",
+   "i": "[…]",
+   "n": "Lost line (see II 1).",
+   "words": [
+    {
+     "reading": "[…]",
+     "say": "…",
+     "glyphs": [
+      {
+       "sign": "LACUNA",
+       "role": "punct",
+       "tr": "[…]"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "a lost stretch of text",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 4,
+   "ln": 4,
+   "lost": true,
+   "l": "[…]",
+   "i": "[…]",
+   "n": "Lost line — the last of the four. Langdon's translation of it reads only '… reigned ? years.'",
+   "words": [
+    {
+     "reading": "[…]",
+     "say": "…",
+     "glyphs": [
+      {
+       "sign": "LACUNA",
+       "role": "punct",
+       "tr": "[…]"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "a lost stretch of text",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 5,
+   "ln": 5,
+   "l": "Ba-[…]",
+   "i": "Ba[…] …",
+   "n": "Only the first sign, BA, survives; the rest of the line is broken. Langdon restores Ba[ba?-gul-?e? mu ? ni-ag], with his own question marks throughout (and a Nippur parallel, Poebel No. 5 I 4). That restoration is too uncertain to show as signs, so only BA and a gap are given: a king whose name began Ba-, and his reign.",
+   "words": [
+    {
+     "reading": "ba-[…]",
+     "say": "ba…",
+     "glyphs": [
+      {
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "sign": "LACUNA",
+       "role": "punct",
+       "tr": "[…]"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ba-[…]",
+       "gloss": "a royal name beginning Ba-, the rest lost",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "[…]",
+       "gloss": "a lost stretch of text",
+       "g": [
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 6,
+   "ln": 6,
+   "l": "Bu-{d}[…]",
+   "i": "Bu-[…] …",
+   "n": "BU and the divine determinative (AN) survive; the rest is broken. Langdon restores Bu-ᵈ[En-zu ? mu ? ni-ag] — 'Bu-Sin (?)' in his translation, after Poebel No. 5 I 5 — with question marks for the reign. Only the preserved signs are shown. The determinative tells us that a god's name followed.",
+   "words": [
+    {
+     "reading": "bu-{d}[…]",
+     "say": "bu…",
+     "glyphs": [
+      {
+       "sign": "BU",
+       "role": "phon",
+       "tr": "bu"
+      },
+      {
+       "sign": "AN",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "LACUNA",
+       "role": "punct",
+       "tr": "[…]"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bu-[…]",
+       "gloss": "a royal name beginning Bu- with a god's name (Langdon: Bu-Sin?), the rest lost",
+       "g": [
+        0,
+        2
+       ]
+      },
+      {
+       "lemma": "{d}",
+       "gloss": "divine determinative (diĝir) — marks the following name as a god",
+       "g": [
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 7,
+   "ln": 7,
+   "l": "Galibum, years 960 he-ruled.",
+   "i": "Galibum reigned 960 years.",
+   "n": "The first fully preserved name of the column. li₂ is the NI sign (Langdon lí). The name looks Semitic (Akkadian-type -um ending) — from here on several Kish names do. Langdon notes the same king on three Nippur duplicates. 960 = geš'u + 6 geš.",
+   "words": [
+    {
+     "reading": "ga-li₂-bu-um",
+     "say": "galibum",
+     "glyphs": [
+      {
+       "sign": "GA",
+       "role": "phon",
+       "tr": "ga"
+      },
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "li₂"
+      },
+      {
+       "sign": "BU",
+       "role": "phon",
+       "tr": "bu"
+      },
+      {
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ga-li₂-bu-um",
+       "gloss": "Galibum — king of Kish (first dynasty)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "960",
+     "say": "960",
+     "glyphs": [
+      {
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "geš'u"
+      },
+      {
+       "sign": "GESH2",
+       "role": "num",
+       "tr": "6 geš",
+       "u": "CUNEIFORM NUMERIC SIGN SIX GESH2"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "geš",
+       "gloss": "60 (the base of the system); 6 here = 360",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 9,
+   "ln": 9,
+   "l": "Kalumu, years 840 he-ruled.",
+   "i": "Kalumu reigned 840 years.",
+   "n": "Name and reign on one line. Langdon reads Ka-lu-mu-mu mu, which needs three MU signs; his own copy on Plate I shows only two (KA-LU-MU-MU, then the number). Here the second MU is taken as 'years' and the name as Ka-lu-mu; a final -um may simply be unwritten. The Nippur copies have Ga-lu-mu-um, Ka-lu-mu-um and Ga-lu-mu-um-e (Langdon fn. 6), which support a name Kalumum. 840 = geš'u + 4 geš.",
+   "words": [
+    {
+     "reading": "ka-lu-mu",
+     "say": "kalumu",
+     "glyphs": [
+      {
+       "sign": "KA",
+       "role": "phon",
+       "tr": "ka"
+      },
+      {
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      },
+      {
+       "sign": "MU",
+       "role": "phon",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ka-lu-mu",
+       "gloss": "Kalumu(m) — king of Kish; Langdon Ka-lu-mu-mu, Nippur copies Ga/Ka-lu-mu-um",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "840",
+     "say": "840",
+     "glyphs": [
+      {
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "geš'u"
+      },
+      {
+       "sign": "GESH2",
+       "role": "num",
+       "tr": "4 geš",
+       "u": "CUNEIFORM NUMERIC SIGN FOUR GESH2"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "geš",
+       "gloss": "60 (the base of the system); 4 here = 240",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 10,
+   "ln": 10,
+   "l": "Duggagib, years 900 he-ruled.",
+   "i": "Duggagib reigned 900 years.",
+   "n": "The first sign is KA, which can be read dug₄ ('speak') or zu₂ ('tooth'). Langdon (fn. 7) reads dúg = dug₄; Poebel had read zu-ga-gi-ib-(e), which Langdon rejects together with the 'Scorpion King' interpretation built on it. The reading of the name is therefore uncertain. gi₄ is Langdon's gí. 900 = geš'u + 5 geš.",
+   "words": [
+    {
+     "reading": "dug₄-ga-gi₄-ib",
+     "say": "duggagib",
+     "glyphs": [
+      {
+       "sign": "KA",
+       "role": "phon",
+       "tr": "dug₄"
+      },
+      {
+       "sign": "GA",
+       "role": "phon",
+       "tr": "ga"
+      },
+      {
+       "sign": "GI4",
+       "role": "phon",
+       "tr": "gi₄"
+      },
+      {
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ib"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dug₄-ga-gi₄-ib",
+       "gloss": "Duggagib — king of Kish (Langdon Dúg-ga-gí-ib; first sign KA, also readable zu₂)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "900",
+     "say": "900",
+     "glyphs": [
+      {
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "geš'u"
+      },
+      {
+       "sign": "GESH2",
+       "role": "num",
+       "tr": "5 geš",
+       "u": "CUNEIFORM NUMERIC SIGN FIVE GESH2"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "geš",
+       "gloss": "60 (the base of the system); 5 here = 300",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 12,
+   "ln": 12,
+   "l": "Atab, years 600 he-ruled.",
+   "i": "Atab reigned 600 years.",
+   "n": "a₂ is the A₂ sign ('arm'), tab the TAB sign ('double'); as a name its meaning is not clear. 600 is one geš'u sign. Langdon (fn. 8) gives the Nippur duplicates for this king and the next.",
+   "words": [
+    {
+     "reading": "a₂-tab",
+     "say": "atab",
+     "glyphs": [
+      {
+       "sign": "A2",
+       "role": "phon",
+       "tr": "a₂"
+      },
+      {
+       "sign": "TAB",
+       "role": "phon",
+       "tr": "tab"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "a₂-tab",
+       "gloss": "Atab — king of Kish",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "600",
+     "say": "600",
+     "glyphs": [
+      {
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "geš'u"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 13,
+   "ln": 13,
+   "l": "Atabba, years 840 he-ruled.",
+   "i": "Atabba reigned 840 years.",
+   "n": "Atabba follows Atab; the added -ba makes a distinct name. 840 = geš'u + 4 geš.",
+   "words": [
+    {
+     "reading": "a₂-tab-ba",
+     "say": "atabba",
+     "glyphs": [
+      {
+       "sign": "A2",
+       "role": "phon",
+       "tr": "a₂"
+      },
+      {
+       "sign": "TAB",
+       "role": "phon",
+       "tr": "tab"
+      },
+      {
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "a₂-tab-ba",
+       "gloss": "Atabba — king of Kish, after Atab",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "840",
+     "say": "840",
+     "glyphs": [
+      {
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "geš'u"
+      },
+      {
+       "sign": "GESH2",
+       "role": "num",
+       "tr": "4 geš",
+       "u": "CUNEIFORM NUMERIC SIGN FOUR GESH2"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "geš",
+       "gloss": "60 (the base of the system); 4 here = 240",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 14,
+   "ln": 14,
+   "l": "Arpium, son of a-mašda — years 720 he-ruled.",
+   "i": "Arpium, son of a mašda, reigned 720 years.",
+   "n": "The first king given a father. dumu 'son' + maš-da + -ke₄ (Langdon -ge): genitive 'of' plus the ergative -e, because 'the son of …' is the subject of the reign verb. Langdon (fn. 10) notes that the sign here is BAR, not the usual MAŠ, and translates maš-da as 'a poor man'; the sense of this word in the list is uncertain. u₂ is Langdon's ú. Nippur variants of the name: Ar-pi-i, Ar-pu-um, Ar-pi-ú (fn. 9); there the order of these six kings is Galibum, Atab, Atabba, Kalumum, Duggagib, Arpium (fn. 11). 720 = geš'u + 2 geš.",
+   "words": [
+    {
+     "reading": "ar-pi-u₂-um",
+     "say": "arpium",
+     "glyphs": [
+      {
+       "sign": "AR",
+       "role": "phon",
+       "tr": "ar"
+      },
+      {
+       "sign": "PI",
+       "role": "phon",
+       "tr": "pi"
+      },
+      {
+       "sign": "U2",
+       "role": "phon",
+       "tr": "u₂"
+      },
+      {
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ar-pi-u₂-um",
+       "gloss": "Arpium — king of Kish",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "dumu",
+     "say": "dumu",
+     "glyphs": [
+      {
+       "sign": "TUR",
+       "role": "log",
+       "tr": "dumu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dumu",
+       "gloss": "son, child (the TUR sign read dumu)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "maš-da-ke₄",
+     "say": "mašdake",
+     "glyphs": [
+      {
+       "sign": "BAR",
+       "role": "log",
+       "tr": "maš"
+      },
+      {
+       "sign": "DA",
+       "role": "phon",
+       "tr": "da"
+      },
+      {
+       "sign": "KID",
+       "role": "phon",
+       "tr": "ke₄"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "maš-da",
+       "gloss": "maš-da — Langdon 'a poor man' (written BAR-DA, not the usual MAŠ); sense in the list uncertain",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-ke₄",
+       "gloss": "-ke₄ — genitive -ak 'of' + ergative -e, written with the KID sign (Langdon -ge): marks 'son of X' as the subject of the clause",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "720",
+     "say": "720",
+     "glyphs": [
+      {
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "geš'u"
+      },
+      {
+       "sign": "GESH2",
+       "role": "num",
+       "tr": "2 geš",
+       "u": "CUNEIFORM NUMERIC SIGN TWO GESH2"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "geš",
+       "gloss": "60 (the base of the system); 2 here = 120",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 16,
+   "ln": 16,
+   "l": "Etana, the-shepherd, the-man-who to-heaven went-up, the-man-who the-foreign-lands made-firm, was-king; years 1500 he-ruled.",
+   "i": "Etana, the shepherd, the one who went up to heaven, who made all the foreign lands firm, became king; he reigned 1,500 years.",
+   "n": "The longest entry so far, four prism lines. sipa 'shepherd' is PA + LU (Langdon sib), a royal title. lu₂ 'man' introduces 'the one who …' twice. an-še₃: an 'heaven' + terminative -še₃ 'to' (the EŠ₂ sign; Langdon -šú). ba-e₃-de₃ (Langdon ba-ĕ-dé): e₃, written UD.DU, is the verb 'go out / go up'; the Nippur copies write ba-e₃-da and ni-ib-e₃-da (fn. 12), with the -a that makes a 'who' clause. kur-kur is 'mountain-land' doubled: all the foreign lands. mu-un-gi-na: gi-n 'make firm, establish' with the prefix chain mu-n- and the -a of the 'who' clause (Langdon: 'made the foreign lands faithful'). Etana's ascent is the subject of a well-known Babylonian legend. 1,500 = 2 geš'u + 5 geš; a Nippur copy has 600 + 35 (?) (fn. 13).",
+   "words": [
+    {
+     "reading": "e-ta-na",
+     "say": "etana",
+     "glyphs": [
+      {
+       "sign": "E",
+       "role": "phon",
+       "tr": "e"
+      },
+      {
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "e-ta-na",
+       "gloss": "Etana — king of Kish, the shepherd who went up to heaven",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "sipa",
+     "say": "sipa",
+     "glyphs": [
+      {
+       "sign": "PA",
+       "role": "log",
+       "tr": "sipa"
+      },
+      {
+       "sign": "LU",
+       "role": "log",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "sipa",
+       "gloss": "shepherd (PA 'staff' + LU 'sheep'; Langdon sib)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lu₂",
+     "say": "lu",
+     "glyphs": [
+      {
+       "sign": "LU2",
+       "role": "log",
+       "tr": "lu₂"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lu₂",
+       "gloss": "man; 'the one who …' (heads a relative clause; Langdon galu)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "an-še₃",
+     "say": "anše",
+     "glyphs": [
+      {
+       "sign": "AN",
+       "role": "log",
+       "tr": "an"
+      },
+      {
+       "sign": "ESH2",
+       "role": "phon",
+       "tr": "še₃"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "an",
+       "gloss": "heaven, sky",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-šú",
+       "gloss": "terminative -šè/-šú — 'to, towards' (the EŠ₂ sign)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ba-e₃-de₃",
+     "say": "baede",
+     "glyphs": [
+      {
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "sign": "UD",
+       "role": "log",
+       "tr": "e₃"
+      },
+      {
+       "sign": "DU",
+       "role": "log",
+       "tr": ""
+      },
+      {
+       "sign": "NE",
+       "role": "phon",
+       "tr": "de₃"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ba-",
+       "gloss": "ba- — verbal prefix (often of motion away, or a middle/passive sense)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "e₃",
+       "gloss": "to go out, go up (written UD.DU; Langdon ĕ)",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "lu₂",
+     "say": "lu",
+     "glyphs": [
+      {
+       "sign": "LU2",
+       "role": "log",
+       "tr": "lu₂"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lu₂",
+       "gloss": "man; 'the one who …' (heads a relative clause; Langdon galu)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "kur-kur",
+     "say": "kurkur",
+     "glyphs": [
+      {
+       "sign": "KUR",
+       "role": "log",
+       "tr": "kur"
+      },
+      {
+       "sign": "KUR",
+       "role": "log",
+       "tr": "kur"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kur-kur",
+       "gloss": "the foreign lands, all the mountain lands (kur 'mountain, foreign land' reduplicated as a plural)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu-un-gi-na",
+     "say": "mungina",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "phon",
+       "tr": "mu"
+      },
+      {
+       "sign": "UN",
+       "role": "phon",
+       "tr": "un"
+      },
+      {
+       "sign": "GI",
+       "role": "log",
+       "tr": "gi"
+      },
+      {
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu-un-",
+       "gloss": "mu-n- — verbal prefix chain: mu- + -n- 'he' (the doer)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "gi-n",
+       "gloss": "to make firm, establish (gi-n 'firm, true')",
+       "g": [
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal-am₃",
+     "say": "lugalam",
+     "glyphs": [
+      {
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      },
+      {
+       "sign": "A",
+       "role": "phon",
+       "tr": "am₃"
+      },
+      {
+       "sign": "AN",
+       "role": "phon",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-am₃",
+       "gloss": "enclitic copula 'is / was' — written am₃ = a-an",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "1,500",
+     "say": "1,500",
+     "glyphs": [
+      {
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "2 geš'u",
+       "u": "CUNEIFORM NUMERIC SIGN TWO GESHU"
+      },
+      {
+       "sign": "GESH2",
+       "role": "num",
+       "tr": "5 geš",
+       "u": "CUNEIFORM NUMERIC SIGN FIVE GESH2"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš); 2 here = 1,200",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "geš",
+       "gloss": "60 (the base of the system); 5 here = 300",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 20,
+   "ln": 20,
+   "l": "Balih, son of Etana — years 400 he-ruled.",
+   "i": "Balih, son of Etana, reigned 400 years.",
+   "n": "iḫ is the AḪ sign. -ke₄ (Langdon -ge): genitive 'of' + ergative -e on 'son of Etana'. A Nippur copy spells the name Wa-li-iḫ (fn. 14) and gives 410 years (fn. 15). 400 is written 6 geš + 4 u: 360 + 40.",
+   "words": [
+    {
+     "reading": "ba-li-iḫ",
+     "say": "balih",
+     "glyphs": [
+      {
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "sign": "LI",
+       "role": "phon",
+       "tr": "li"
+      },
+      {
+       "sign": "AH",
+       "role": "phon",
+       "tr": "iḫ"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ba-li-iḫ",
+       "gloss": "Balih — son of Etana, king of Kish",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "dumu",
+     "say": "dumu",
+     "glyphs": [
+      {
+       "sign": "TUR",
+       "role": "log",
+       "tr": "dumu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dumu",
+       "gloss": "son, child (the TUR sign read dumu)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "e-ta-na-ke₄",
+     "say": "etanake",
+     "glyphs": [
+      {
+       "sign": "E",
+       "role": "phon",
+       "tr": "e"
+      },
+      {
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "sign": "KID",
+       "role": "phon",
+       "tr": "ke₄"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "e-ta-na",
+       "gloss": "Etana — king of Kish, the shepherd who went up to heaven",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-ke₄",
+       "gloss": "-ke₄ — genitive -ak 'of' + ergative -e, written with the KID sign (Langdon -ge): marks 'son of X' as the subject of the clause",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "400",
+     "say": "400",
+     "glyphs": [
+      {
+       "sign": "GESH2",
+       "role": "num",
+       "tr": "6 geš",
+       "u": "CUNEIFORM NUMERIC SIGN SIX GESH2"
+      },
+      {
+       "sign": "U",
+       "role": "num",
+       "tr": "4 u",
+       "u": "CUNEIFORM NUMERIC SIGN FOUR U"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš",
+       "gloss": "60 (the base of the system); 6 here = 360",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "u",
+       "gloss": "10; 4 here = 40",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 23,
+   "ln": 23,
+   "l": "Enmenunna, years 660 he-ruled.",
+   "i": "Enmenunna reigned 660 years.",
+   "n": "en 'lord' + me + nun 'prince' + -na: a name of the same shape as the En-men-… kings before the Flood. 660 = geš'u + geš. Langdon (fn. 16): a Nippur copy has En-me-nun-na-ge and 611 years.",
+   "words": [
+    {
+     "reading": "en-me-nun-na",
+     "say": "enmenunna",
+     "glyphs": [
+      {
+       "sign": "EN",
+       "role": "phon",
+       "tr": "en"
+      },
+      {
+       "sign": "ME",
+       "role": "phon",
+       "tr": "me"
+      },
+      {
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "nun"
+      },
+      {
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "en-me-nun-na",
+       "gloss": "Enmenunna — king of Kish",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "660",
+     "say": "660",
+     "glyphs": [
+      {
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "geš'u"
+      },
+      {
+       "sign": "GESH2",
+       "role": "num",
+       "tr": "geš"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "geš",
+       "gloss": "60 (the base of the system)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 24,
+   "ln": 24,
+   "l": "Melam-Kish, son of Enmenunna — years 900 he-ruled.",
+   "i": "Melam-Kish, son of Enmenunna, reigned 900 years.",
+   "n": "The name contains the city's own name, Kish (with its determinative); me-lam is the word for an awe-inspiring radiance. -ke₄: 'son of Enmenunna' as subject. Langdon (fn. 17) reports that King's Chronicles read A-lam-kiš-šu, 'certainly a scribal error'. 900 = geš'u + 5 geš.",
+   "words": [
+    {
+     "reading": "me-lam-kiš{ki}",
+     "say": "melamkiš",
+     "glyphs": [
+      {
+       "sign": "ME",
+       "role": "phon",
+       "tr": "me"
+      },
+      {
+       "sign": "LAM",
+       "role": "phon",
+       "tr": "lam"
+      },
+      {
+       "sign": "KISH",
+       "role": "log",
+       "tr": "kiš"
+      },
+      {
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "me-lam-kiš",
+       "gloss": "Melam-Kish — king of Kish (me-lam 'radiance' + the city name)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "dumu",
+     "say": "dumu",
+     "glyphs": [
+      {
+       "sign": "TUR",
+       "role": "log",
+       "tr": "dumu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dumu",
+       "gloss": "son, child (the TUR sign read dumu)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "en-me-nun-na-ke₄",
+     "say": "enmenunnake",
+     "glyphs": [
+      {
+       "sign": "EN",
+       "role": "phon",
+       "tr": "en"
+      },
+      {
+       "sign": "ME",
+       "role": "phon",
+       "tr": "me"
+      },
+      {
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "nun"
+      },
+      {
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "sign": "KID",
+       "role": "phon",
+       "tr": "ke₄"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "en-me-nun-na",
+       "gloss": "Enmenunna — king of Kish",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "-ke₄",
+       "gloss": "-ke₄ — genitive -ak 'of' + ergative -e, written with the KID sign (Langdon -ge): marks 'son of X' as the subject of the clause",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "900",
+     "say": "900",
+     "glyphs": [
+      {
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "geš'u"
+      },
+      {
+       "sign": "GESH2",
+       "role": "num",
+       "tr": "5 geš",
+       "u": "CUNEIFORM NUMERIC SIGN FIVE GESH2"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "geš",
+       "gloss": "60 (the base of the system); 5 here = 300",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 26,
+   "ln": 26,
+   "l": "Barsalnunna, son of Enmenunna — years 1200 he-ruled.",
+   "i": "Barsalnunna, son of Enmenunna, reigned 1,200 years.",
+   "n": "A second son of Enmenunna. Here dumu Enmenunna has no -ke₄ (compare II 24): the scribe does not always write the case ending. A Nippur copy omits 'son of Enmenunna' altogether (fn. 18). The number is two geš'u signs; Langdon prints it 600 + 600 (1200).",
+   "words": [
+    {
+     "reading": "bar-sal-nun-na",
+     "say": "barsalnunna",
+     "glyphs": [
+      {
+       "sign": "BAR",
+       "role": "phon",
+       "tr": "bar"
+      },
+      {
+       "sign": "SAL",
+       "role": "phon",
+       "tr": "sal"
+      },
+      {
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "nun"
+      },
+      {
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bar-sal-nun-na",
+       "gloss": "Barsalnunna — king of Kish",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "dumu",
+     "say": "dumu",
+     "glyphs": [
+      {
+       "sign": "TUR",
+       "role": "log",
+       "tr": "dumu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dumu",
+       "gloss": "son, child (the TUR sign read dumu)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "en-me-nun-na",
+     "say": "enmenunna",
+     "glyphs": [
+      {
+       "sign": "EN",
+       "role": "phon",
+       "tr": "en"
+      },
+      {
+       "sign": "ME",
+       "role": "phon",
+       "tr": "me"
+      },
+      {
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "nun"
+      },
+      {
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "en-me-nun-na",
+       "gloss": "Enmenunna — king of Kish",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "1,200",
+     "say": "1,200",
+     "glyphs": [
+      {
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "2 geš'u",
+       "u": "CUNEIFORM NUMERIC SIGN TWO GESHU"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš); 2 here = 1,200",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 28,
+   "ln": 28,
+   "l": "Tupzah, son of Barsalnunna — years 140 he-ruled.",
+   "i": "Tupzah, son of Barsalnunna, reigned 140 years.",
+   "n": "The first sign is the one Langdon calls KIŠIB, 'not MES' (fn. 19), and reads tup. In Unicode it is the MES character. Langdon's reading Tup- is kept, but the value of this sign in the name is uncertain, so the name's real form is uncertain too. 140 = 2 geš + 2 u: a small reign after so many large ones.",
+   "words": [
+    {
+     "reading": "tup-za-aḫ",
+     "say": "tupzah",
+     "glyphs": [
+      {
+       "sign": "KISHIB",
+       "role": "phon",
+       "tr": "tup"
+      },
+      {
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "za"
+      },
+      {
+       "sign": "AH",
+       "role": "phon",
+       "tr": "aḫ"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tup-za-aḫ",
+       "gloss": "Tupzah — king of Kish (Langdon Tup-za-aḫ; first sign KIŠIB/MES, value uncertain)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "dumu",
+     "say": "dumu",
+     "glyphs": [
+      {
+       "sign": "TUR",
+       "role": "log",
+       "tr": "dumu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dumu",
+       "gloss": "son, child (the TUR sign read dumu)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "bar-sal-nun-na",
+     "say": "barsalnunna",
+     "glyphs": [
+      {
+       "sign": "BAR",
+       "role": "phon",
+       "tr": "bar"
+      },
+      {
+       "sign": "SAL",
+       "role": "phon",
+       "tr": "sal"
+      },
+      {
+       "sign": "NUN",
+       "role": "phon",
+       "tr": "nun"
+      },
+      {
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bar-sal-nun-na",
+       "gloss": "Barsalnunna — king of Kish",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "140",
+     "say": "140",
+     "glyphs": [
+      {
+       "sign": "GESH2",
+       "role": "num",
+       "tr": "2 geš",
+       "u": "CUNEIFORM NUMERIC SIGN TWO GESH2"
+      },
+      {
+       "sign": "U",
+       "role": "num",
+       "tr": "2 u"
+      },
+      {
+       "sign": "U",
+       "role": "num",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš",
+       "gloss": "60 (the base of the system); 2 here = 120",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "u",
+       "gloss": "10; 2 here = 20",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 30,
+   "ln": 30,
+   "l": "Tizkar, son of Tupzah — years 5-sixties + 6 he-ruled.",
+   "i": "Tizkar, son of Tupzah, reigned 306 years.",
+   "n": "iz is the GIŠ sign; kar₃ is Langdon's kàr — the third sign is read GAN here after Langdon's value, but its identification on the copy is not certain. The number is unusual: instead of geš signs the scribe writes 5 šu-ši + 6 — 'five sixties and six', with šu-ši 'sixty' spelled out as a word (Akkadian šūši). 5 × 60 + 6 = 306.",
+   "words": [
+    {
+     "reading": "ti-iz-kar₃",
+     "say": "tizkar",
+     "glyphs": [
+      {
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      },
+      {
+       "sign": "GISH",
+       "role": "phon",
+       "tr": "iz"
+      },
+      {
+       "sign": "GAN",
+       "role": "phon",
+       "tr": "kar₃"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ti-iz-kar₃",
+       "gloss": "Tizkar — king of Kish (Langdon Ti-iz-kàr; third sign uncertain)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "dumu",
+     "say": "dumu",
+     "glyphs": [
+      {
+       "sign": "TUR",
+       "role": "log",
+       "tr": "dumu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dumu",
+       "gloss": "son, child (the TUR sign read dumu)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tup-za-aḫ",
+     "say": "tupzah",
+     "glyphs": [
+      {
+       "sign": "KISHIB",
+       "role": "phon",
+       "tr": "tup"
+      },
+      {
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "za"
+      },
+      {
+       "sign": "AH",
+       "role": "phon",
+       "tr": "aḫ"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tup-za-aḫ",
+       "gloss": "Tupzah — king of Kish (Langdon Tup-za-aḫ; first sign KIŠIB/MES, value uncertain)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "306",
+     "say": "306",
+     "glyphs": [
+      {
+       "sign": "DISH",
+       "role": "num",
+       "tr": "5 diš",
+       "u": "CUNEIFORM NUMERIC SIGN FIVE DISH"
+      },
+      {
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "sign": "IGI",
+       "role": "phon",
+       "tr": "ši"
+      },
+      {
+       "sign": "DISH",
+       "role": "num",
+       "tr": "6 diš",
+       "u": "CUNEIFORM NUMERIC SIGN SIX DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "5",
+       "gloss": "five",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "šu-ši",
+       "gloss": "šu-ši — 'sixty', written out as a word (Akkadian šūši); 5 šu-ši = 300",
+       "g": [
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "6",
+       "gloss": "six",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 32,
+   "ln": 32,
+   "l": "Ilku, years 900 he-ruled.",
+   "i": "Ilku reigned 900 years.",
+   "n": "Langdon reads Il-ku-u ('Ilkû'); on his copy the third sign is not the single corner-wedge U but a larger sign, taken here as U₃ (ù) — an uncertain identification. A Nippur copy may have Il-ku-u-um (fn. 1). The number: Langdon reads 600 + 300 = 900, but notes (fn. 2) that it is 'written 60 + 15! by wrong spacing of the figures'. On the copy the upright wedge of the geš'u stands apart from its corner-wedge, so the group looks like 1 (= 60) + 10 + 5. Read as geš'u + 5 geš it is 900, which is what is shown.",
+   "words": [
+    {
+     "reading": "il-ku-u₃",
+     "say": "ilku",
+     "glyphs": [
+      {
+       "sign": "IL",
+       "role": "phon",
+       "tr": "il"
+      },
+      {
+       "sign": "KU",
+       "role": "phon",
+       "tr": "ku"
+      },
+      {
+       "sign": "U3",
+       "role": "phon",
+       "tr": "u₃"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "il-ku-u₃",
+       "gloss": "Ilku — king of Kish (Langdon Il-ku-u, 'Ilkû'; third sign uncertain)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "900",
+     "say": "900",
+     "glyphs": [
+      {
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "geš'u"
+      },
+      {
+       "sign": "GESH2",
+       "role": "num",
+       "tr": "5 geš",
+       "u": "CUNEIFORM NUMERIC SIGN FIVE GESH2"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "geš",
+       "gloss": "60 (the base of the system); 5 here = 300",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 33,
+   "ln": 33,
+   "l": "Iltasadum, years 1200 he-ruled.",
+   "i": "Iltasadum reigned 1,200 years.",
+   "n": "Another Semitic-looking name in -um. 1,200 = two geš'u.",
+   "words": [
+    {
+     "reading": "il-ta-sa-du-um",
+     "say": "iltasadum",
+     "glyphs": [
+      {
+       "sign": "IL",
+       "role": "phon",
+       "tr": "il"
+      },
+      {
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "sign": "SA",
+       "role": "phon",
+       "tr": "sa"
+      },
+      {
+       "sign": "DU",
+       "role": "phon",
+       "tr": "du"
+      },
+      {
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "il-ta-sa-du-um",
+       "gloss": "Iltasadum — king of Kish",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "1,200",
+     "say": "1,200",
+     "glyphs": [
+      {
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "2 geš'u",
+       "u": "CUNEIFORM NUMERIC SIGN TWO GESHU"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš); 2 here = 1,200",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 35,
+   "ln": 35,
+   "l": "Enmenbaragigur, the-man-who, the-land of-Elam, its-weapons bent-down, was-king; years 900 he-ruled.",
+   "i": "Enmenbaragigur, the man who made the weapons of the land of Elam bow down, became king; he reigned 900 years.",
+   "n": "Four prism lines. The name is Langdon's En-me-en-bara-gi-gur; the king is better known today as Enmebaragesi, with the last signs read differently. lu₂ 'the man who …'. ma-da 'land'; elam{ki}-ma: Elam (the NIM sign + ki) + the genitive -a(k) 'of', written -ma after m. {ĝeš}tukul 'weapon' is the KU sign with the wood-determinative GIŠ (Langdon ᵍⁱˢku). -bi 'its': read with Elam — 'its (Elam's) weapons' — the phrase is the object of the verb. ib-ta-an-gam: gam 'bend, bow down' with the prefix chain ib-ta-n-; Langdon (fn. 3) takes -ta- as an instrumental infix and translates 'with his weapon subdued' the land of Elam. Both readings are possible; the grammar of the line is debated. A Nippur copy has this line (P. No. 3 II 1). 900 = geš'u + 5 geš; the same copy has 600 + 300 (?) (fn. 4).",
+   "words": [
+    {
+     "reading": "en-me-en-bara₂-gi-gur",
+     "say": "enmenbaragigur",
+     "glyphs": [
+      {
+       "sign": "EN",
+       "role": "phon",
+       "tr": "en"
+      },
+      {
+       "sign": "ME",
+       "role": "phon",
+       "tr": "me"
+      },
+      {
+       "sign": "EN",
+       "role": "phon",
+       "tr": "en"
+      },
+      {
+       "sign": "BARA2",
+       "role": "phon",
+       "tr": "bara₂"
+      },
+      {
+       "sign": "GI",
+       "role": "phon",
+       "tr": "gi"
+      },
+      {
+       "sign": "GUR",
+       "role": "phon",
+       "tr": "gur"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "en-me-en-bara₂-gi-gur",
+       "gloss": "Enmenbaragigur (Langdon) — king of Kish, the Enmebaragesi of modern scholarship",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lu₂",
+     "say": "lu",
+     "glyphs": [
+      {
+       "sign": "LU2",
+       "role": "log",
+       "tr": "lu₂"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lu₂",
+       "gloss": "man; 'the one who …' (heads a relative clause; Langdon galu)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "ma-da",
+     "say": "mada",
+     "glyphs": [
+      {
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "sign": "DA",
+       "role": "phon",
+       "tr": "da"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ma-da",
+       "gloss": "land, country",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "elam{ki}-ma",
+     "say": "elamma",
+     "glyphs": [
+      {
+       "sign": "NIM",
+       "role": "log",
+       "tr": "elam"
+      },
+      {
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "elam",
+       "gloss": "Elam — the land east of Babylonia (NIM + place-det ki)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-ma",
+       "gloss": "genitive -a(k) 'of', written -ma after m",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "{ĝeš}tukul-bi",
+     "say": "tukulbi",
+     "glyphs": [
+      {
+       "sign": "GISH",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "KU",
+       "role": "log",
+       "tr": "tukul"
+      },
+      {
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "{ĝeš}",
+       "gloss": "wood determinative (ĝeš) — marks a wooden object",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "tukul",
+       "gloss": "weapon, mace (the KU sign with ĝeš; Langdon ᵍⁱˢku)",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "-bi",
+       "gloss": "'its / that' (3rd-person possessive)",
+       "g": [
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "ib-ta-an-gam",
+     "say": "ibtangam",
+     "glyphs": [
+      {
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ib"
+      },
+      {
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "sign": "AN",
+       "role": "phon",
+       "tr": "an"
+      },
+      {
+       "sign": "GAM",
+       "role": "log",
+       "tr": "gam"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ib-ta-an-",
+       "gloss": "ib-ta-n- — verbal prefix chain with -ta- ('from / with'; Langdon's instrumental infix) and -n- 'he'",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "gam",
+       "gloss": "to bend, bow down; to subdue",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal-am₃",
+     "say": "lugalam",
+     "glyphs": [
+      {
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      },
+      {
+       "sign": "A",
+       "role": "phon",
+       "tr": "am₃"
+      },
+      {
+       "sign": "AN",
+       "role": "phon",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-am₃",
+       "gloss": "enclitic copula 'is / was' — written am₃ = a-an",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "900",
+     "say": "900",
+     "glyphs": [
+      {
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "geš'u"
+      },
+      {
+       "sign": "GESH2",
+       "role": "num",
+       "tr": "5 geš",
+       "u": "CUNEIFORM NUMERIC SIGN FIVE GESH2"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "geš",
+       "gloss": "60 (the base of the system); 5 here = 300",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 39,
+   "ln": 39,
+   "l": "Agga, son of Enmenbaragigur — years 625 he-ruled.",
+   "i": "Agga, son of Enmenbaragigur, reigned 625 years.",
+   "n": "The last king of the dynasty: AK + GA, Langdon's Ag-ga (also cited as Aka). He is the Agga of Kish known from the Sumerian story of his conflict with Gilgamesh of Uruk. A Nippur copy has Ag dumu En-me-bara… (fn. 5). -ke₄: 'son of …' as subject. 625 = geš'u + 2 u + 5 — the same figure as the Nippur copy (fn. 6).",
+   "words": [
+    {
+     "reading": "ag-ga",
+     "say": "agga",
+     "glyphs": [
+      {
+       "sign": "AK",
+       "role": "phon",
+       "tr": "ag"
+      },
+      {
+       "sign": "GA",
+       "role": "phon",
+       "tr": "ga"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ag-ga",
+       "gloss": "Agga (Aka) — last king of the first dynasty of Kish",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "dumu",
+     "say": "dumu",
+     "glyphs": [
+      {
+       "sign": "TUR",
+       "role": "log",
+       "tr": "dumu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dumu",
+       "gloss": "son, child (the TUR sign read dumu)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "en-me-en-bara₂-gi-gur-ke₄",
+     "say": "enmenbaragigurke",
+     "glyphs": [
+      {
+       "sign": "EN",
+       "role": "phon",
+       "tr": "en"
+      },
+      {
+       "sign": "ME",
+       "role": "phon",
+       "tr": "me"
+      },
+      {
+       "sign": "EN",
+       "role": "phon",
+       "tr": "en"
+      },
+      {
+       "sign": "BARA2",
+       "role": "phon",
+       "tr": "bara₂"
+      },
+      {
+       "sign": "GI",
+       "role": "phon",
+       "tr": "gi"
+      },
+      {
+       "sign": "GUR",
+       "role": "phon",
+       "tr": "gur"
+      },
+      {
+       "sign": "KID",
+       "role": "phon",
+       "tr": "ke₄"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "en-me-en-bara₂-gi-gur",
+       "gloss": "Enmenbaragigur (Langdon) — king of Kish, the Enmebaragesi of modern scholarship",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      },
+      {
+       "lemma": "-ke₄",
+       "gloss": "-ke₄ — genitive -ak 'of' + ergative -e, written with the KID sign (Langdon -ge): marks 'son of X' as the subject of the clause",
+       "g": [
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "625",
+     "say": "625",
+     "glyphs": [
+      {
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "geš'u"
+      },
+      {
+       "sign": "U",
+       "role": "num",
+       "tr": "2 u"
+      },
+      {
+       "sign": "U",
+       "role": "num",
+       "tr": ""
+      },
+      {
+       "sign": "DISH",
+       "role": "num",
+       "tr": "5 diš",
+       "u": "CUNEIFORM NUMERIC SIGN FIVE DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "u",
+       "gloss": "10; 2 here = 20",
+       "g": [
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "diš",
+       "gloss": "1; 5 here = 5",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 42,
+   "ln": 42,
+   "l": "23 kings; their-years 24510, months 3, days 3 (and) half-a-day they-ruled.",
+   "i": "Twenty-three kings reigned 24,510 years, 3 months and 3½ days.",
+   "n": "The dynasty's total, over three lines. mu-bi 'its/their years'; ib-ag (modern íb-aĝ₂) is the plural 'they ruled'. 24,510 is written 6 šar₂ + 4 geš'u + 8 geš + 3 u (21,600 + 2,400 + 480 + 30); on the copy the šar₂ cluster cannot be counted with complete certainty, but these counts give Langdon's figure. iti 'month' (Langdon ita), then u₄ 'day' (Langdon ud) 3 and u₄-maš, a half-day (maš 'half', again the BAR sign, as in II 14). The total does not add up: Langdon (fn. 8) says the 19 preserved reigns come to 12,491 and that the scribe's total 'cannot be correct'. (Adding the figures as this copy writes them gives 15,751 — still far short.) The months and days are a strange precision for a list of giant reigns. A Nippur copy inserts a sub-total for Enmenbaragigur and his son (fn. 7).",
+   "words": [
+    {
+     "reading": "23",
+     "say": "23",
+     "glyphs": [
+      {
+       "sign": "U",
+       "role": "num",
+       "tr": "2 u"
+      },
+      {
+       "sign": "U",
+       "role": "num",
+       "tr": ""
+      },
+      {
+       "sign": "DISH",
+       "role": "num",
+       "tr": "3 diš",
+       "u": "CUNEIFORM NUMERIC SIGN THREE DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "23",
+       "gloss": "twenty-three",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal",
+     "say": "lugal",
+     "glyphs": [
+      {
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king (here plural 'kings')",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu-bi",
+     "say": "mubi",
+     "glyphs": [
+      {
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu",
+       "nl": true
+      },
+      {
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu-bi",
+       "gloss": "'its years' — mu 'years' + -bi 'its'",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "24,510",
+     "say": "24,510",
+     "glyphs": [
+      {
+       "sign": "SHAR2",
+       "role": "num",
+       "tr": "6 šar₂",
+       "u": "CUNEIFORM NUMERIC SIGN SIX SHAR2"
+      },
+      {
+       "sign": "GESHU",
+       "role": "num",
+       "tr": "4 geš'u",
+       "u": "CUNEIFORM NUMERIC SIGN FOUR GESHU"
+      },
+      {
+       "sign": "GESH2",
+       "role": "num",
+       "tr": "8 geš",
+       "u": "CUNEIFORM NUMERIC SIGN EIGHT GESH2"
+      },
+      {
+       "sign": "U",
+       "role": "num",
+       "tr": "3 u"
+      },
+      {
+       "sign": "U",
+       "role": "num",
+       "tr": ""
+      },
+      {
+       "sign": "U",
+       "role": "num",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šar₂",
+       "gloss": "3,600 (60 × 60); 6 here = 21,600",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "geš'u",
+       "gloss": "600 (ten geš); 4 here = 2,400",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "geš",
+       "gloss": "60 (the base of the system); 8 here = 480",
+       "g": [
+        2
+       ]
+      },
+      {
+       "lemma": "u",
+       "gloss": "10; 3 here = 30",
+       "g": [
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "iti",
+     "say": "iti",
+     "glyphs": [
+      {
+       "sign": "ITI",
+       "role": "log",
+       "tr": "iti"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "iti",
+       "gloss": "month (Langdon ita)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "3",
+     "say": "3",
+     "glyphs": [
+      {
+       "sign": "DISH",
+       "role": "num",
+       "tr": "3 diš",
+       "u": "CUNEIFORM NUMERIC SIGN THREE DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "3",
+       "gloss": "three",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "u₄",
+     "say": "u",
+     "glyphs": [
+      {
+       "sign": "UD",
+       "role": "log",
+       "tr": "u₄"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u₄",
+       "gloss": "day (the UD sign; Langdon ud)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "3",
+     "say": "3",
+     "glyphs": [
+      {
+       "sign": "DISH",
+       "role": "num",
+       "tr": "3 diš",
+       "u": "CUNEIFORM NUMERIC SIGN THREE DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "3",
+       "gloss": "three",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "u₄-maš",
+     "say": "umaš",
+     "glyphs": [
+      {
+       "sign": "UD",
+       "role": "log",
+       "tr": "u₄"
+      },
+      {
+       "sign": "BAR",
+       "role": "log",
+       "tr": "maš"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u₄-maš",
+       "gloss": "half a day (u₄ 'day' + maš 'half', written with BAR)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ib-ag",
+     "say": "ibag",
+     "glyphs": [
+      {
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ib"
+      },
+      {
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ib-ag",
+       "gloss": "íb-aĝ₂ — 'they ruled' (plural reign verb)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "col": "II",
+   "line": 45,
+   "ln": 45,
+   "l": "Kish with-weapons was-smitten; its-kingship to-Eanna went.",
+   "i": "Kish was smitten with weapons; its kingship was carried to Eanna.",
+   "n": "The refrain that closes a historical dynasty: the city is defeated and the kingship moves. {ĝeš}tukul 'weapon(s)' has no case ending; the sense 'with weapons' is understood. ba-an-sig₃ (Langdon ba-an-sīg; he also prints it sig): sig₃ 'strike, smite', with the prefixes ba-an-. On the copy the verb is one compact sign, taken here as PA.GAN₂ = sig₃; the identification of the drawn form is not certain. Eanna, 'House of Heaven', is the temple of Inanna at Uruk, standing here for the city whose kings come next. e₂ 'house' (Langdon é), an-na 'of heaven', -še₃ 'to' (Langdon -šú). ba-ĝen (Langdon ba-gín; the DU sign) 'went'. On the prism ba-ĝen is written below, in the same line (Langdon prints it on a second, unnumbered line).",
+   "words": [
+    {
+     "reading": "kiš{ki}",
+     "say": "kiš",
+     "glyphs": [
+      {
+       "sign": "KISH",
+       "role": "log",
+       "tr": "kiš"
+      },
+      {
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kiš",
+       "gloss": "Kish — city in northern Babylonia, seat of the first dynasty after the Flood (KIŠ + place-det ki)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "{ĝeš}tukul",
+     "say": "tukul",
+     "glyphs": [
+      {
+       "sign": "GISH",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "KU",
+       "role": "log",
+       "tr": "tukul"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "{ĝeš}",
+       "gloss": "wood determinative (ĝeš) — marks a wooden object",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "tukul",
+       "gloss": "weapon, mace (the KU sign with ĝeš; Langdon ᵍⁱˢku)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ba-an-sig₃",
+     "say": "bansig",
+     "glyphs": [
+      {
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "sign": "AN",
+       "role": "phon",
+       "tr": "an"
+      },
+      {
+       "sign": "PA",
+       "role": "log",
+       "tr": "sig₃"
+      },
+      {
+       "sign": "GAN2",
+       "role": "log",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ba-an-",
+       "gloss": "ba-n- — verbal prefix chain (ba- often gives a passive sense)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "sig₃",
+       "gloss": "to strike, smite (written PA.GAN₂; Langdon sīg)",
+       "g": [
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nam-lugal-bi",
+     "say": "namlugalbi",
+     "glyphs": [
+      {
+       "sign": "NAM",
+       "role": "phon",
+       "tr": "nam"
+      },
+      {
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      },
+      {
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nam-lugal",
+       "gloss": "kingship",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-bi",
+       "gloss": "'its / that' (3rd-person possessive)",
+       "g": [
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "e₂-an-na-še₃",
+     "say": "eannaše",
+     "glyphs": [
+      {
+       "sign": "E2",
+       "role": "log",
+       "tr": "e₂"
+      },
+      {
+       "sign": "AN",
+       "role": "log",
+       "tr": "an"
+      },
+      {
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "sign": "ESH2",
+       "role": "phon",
+       "tr": "še₃"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "e₂-an-na",
+       "gloss": "Eanna, 'House of Heaven' — Inanna's temple at Uruk (Langdon É-an-na)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-šú",
+       "gloss": "terminative -šè/-šú — 'to, towards' (the EŠ₂ sign)",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ba-ĝen",
+     "say": "baĝen",
+     "glyphs": [
+      {
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "sign": "DU",
+       "role": "log",
+       "tr": "ĝen"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ba-gín",
+       "gloss": "ba-ĝen — 'went, passed' (ĝen written with the DU sign)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

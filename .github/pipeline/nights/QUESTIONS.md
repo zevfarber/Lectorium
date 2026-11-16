@@ -1439,3 +1439,8 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - The mutilation scene (P604L12–P604L21, the lady castrates ʿAzīz) is violence between adults and is translated in full, as the conventions require; the `about` says the night contains it. No passage omitted.
 - Library label: `Night 126 · The Lover and the Beloved, continued`. Nothing to decide.
 - Next: night 127 is complete and unpublished; the next firing should publish it.
+
+## Night 127 (published 2026-11-16)
+- Corrected misprints in emend.json: P605L12 تاج الملك→تاج الملوك (dropped wāw in the name); P606L08 لأ→لا (stray hamza on the negative). Kept as printed and explained in the notes: استوأ (hamza on a final alif, for istiwāʾ); الوداعة (for wadīʿa, 'deposit'); اذ اغبت (space set one letter early, for اذا غبت); حست (spoken for أحسّت); تري, جري (ى written ي); كدت ان اغمي (perfect after kāda an); run-together ياهل, ياولدي, مافعلت, قدمات, هذاالبكاء, وهوميت, ماحصل, وارجوالله. The verse (P606L13–19) is copied as printed; its fa-mā in line 5 is read as a filler and noted. The archive was not changed.
+- No passage omitted. Library label: `Night 127 · The Lover and the Beloved, continued`. Nothing to decide.
+- Next: night 128 is not yet complete (tail unread); the next firing should transcribe.

@@ -2076,5 +2076,19 @@
   "status": 200,
   "bytes": 2113504,
   "sha256": "e0732f7cb47a08ee2186c83a18a91ae277126e8099b53c432b4c3e32488dac9b"
+ },
+ {
+  "url": "https://en.wikipedia.org/w/index.php?title=List+of+Luwian+hieroglyphs&action=raw",
+  "dest": ".github/pipeline/azatiwada/source/ref/wikipedia-list-of-luwian-hieroglyphs.wiki",
+  "at": "2026-11-16T20:18:09Z",
+  "status": 404
+ },
+ {
+  "url": "https://archive.org/download/papyrus-of-ani-transliteration-e.-a.-wallis-budge/Papyrus%20of%20Ani%20Transliteration%20E.A.%20Wallis%20Budge.pdf",
+  "dest": ".github/pipeline/ani/source/raw/budge1895.pdf",
+  "at": "2026-11-16T20:18:10Z",
+  "status": 200,
+  "bytes": 84057055,
+  "sha256": "88ccc5845c714b34d67786dd32f6293214232932fb86db8d991dd6513809d6bb"
  }
 ]

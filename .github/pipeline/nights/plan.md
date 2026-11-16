@@ -63,11 +63,12 @@ scan anomaly turns up later in the volume.
 | done (2026-11-15, unattended) | 615–622 | 593–600 | `archive/pp593-600.json` | Night 121 closes (P594L18); Night 122 label P594L19, Night 123 label P597L09, Night 124 label P599L21 (all centred, h); verse pp. 593–594, 595, 596, 600; headers ٥٩٣/٥٩٥/٥٩٨/٦٠٠ confirm −22 (PDF 618 prints ٤٩٦ for ٥٩٦); all joins continuous incl. 592→593 |
 | done (2026-11-15, unattended) | 623–630 | 601–608 | `archive/pp601-608.json` | Night 124 closes (P601L21); Night 125 label P602L01, Night 126 label P603L16, Night 127 label P605L10, Night 128 label P607L07 (all centred, h); verse p. 606; headers ٦٠١ on PDF 623 and ٦٠٨ on PDF 630 confirm −22; all joins continuous incl. 600→601 |
 | done (2026-11-16, unattended) | 631–638 | 609–616 | `archive/pp609-616.json` | Night 128 closes (P609L12); Night 129 label P609L13, Night 130 label P611L14, Night 131 label P613L12 (all centred, h); verse pp. 609, 612, 614, 615; headers ٦٠٩ on PDF 631 and ٦١٦ on PDF 638 confirm −22; all joins continuous incl. 608→609 |
+| done (2026-11-16, unattended) | 639–646 | 617–624 | `archive/pp617-624.json` | Night 131 closes (P618L16); Night 132 label P618L17 (printed الثلٰثون, dagger alif), Night 133 label P622L17 (both centred, h); verse pp. 619–621; headers ٦١٧ on PDF 639 (a two-line running header) and ٦٢٤ on PDF 646 confirm −22; all joins continuous incl. 616→617 |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 638 (archive ends at printed p. 616, headers ٦٠٩ on PDF 631 and ٦١٦ on PDF 638 confirm −22; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py now uses −22). Pages remaining: 300 PDF pages (639–938)
-(approximate, pending the corrected offset holding). Lines archived: 13669 (counted 2026-11-16). calc.traineddata last
+**Last PDF page done: 646 (archive ends at printed p. 624, headers ٦١٧ on PDF 639 and ٦٢٤ on PDF 646 confirm −22; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py now uses −22). Pages remaining: 292 PDF pages (647–938)
+(approximate, pending the corrected offset holding). Lines archived: 13842 (counted 2026-11-16). calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new
 verified line pairs (pp. 127-131, 133-134 prose only, verse/heading excluded; p. 132 excluded, its

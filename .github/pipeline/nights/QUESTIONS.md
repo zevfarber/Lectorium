@@ -1470,3 +1470,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Corrected misprints in emend.json (all three as the transcribing run suggested): P612L05 وزبره→وزيره; P613L04 جأبه→جاءبه (jāʾa bihi, kept run together as printed); P613L09 ولعزير→ولعزيز. Kept as printed and explained in the notes: السعيدان (al-saʿīd anna run together); للثلثين (no long alif); عصاة for ʿaṣā, "stick" (final tāʾ marbūṭa); final ى in تشتهى, ابى, يغصبنى; run-together بنتامن, ولابد, لاتحب (twice), ياملك; شهر زاد set as two words. The verse (P612L09–12) is copied as printed. The archive was not changed.
 - No passage omitted. Library label: `Night 130 · The Lover and the Beloved, continued`. Nothing to decide.
 - Next: night 131 is not yet complete (tail unread); the next firing should transcribe.
+
+## PDF 639–646 (printed pp. 617–624, transcribed 2026-11-16)
+- Nothing for the owner to decide. Night labels for 132 (P618L17) and 133 (P622L17) are each printed centred on their own line; both carry `h`. P618L17 prints والثلٰثون (dagger alif over the lām), not الثلاثون as the draft and both passes had; corrected by the orchestrator from the crop.
+- PDF 639 has a two-line running header (the tale title, with the page number ٦١٧). Both passes took it for a section heading; the orchestrator removed it before the diff, since P616L23 (نكتري لك) runs straight on into P617L01 (دكانا).
+- The orchestrator changed one undisputed word from the crop: P617L06 تجّاربة (one dot below, as printed; both passes had تجّارية; the adjudicator noticed it).
+- Low confidence: P620L16 فتنقّشوا (the shadda hides the dots; sense فتنشّفوا); P624L07 ولوفّتت (a single dot, so ف; neither pass had it). Medium: P620L01 اتسما (a tooth, not the loop of ق; sense اقسما).
+- Kept as printed, for the publishing runs to consider for `emend.json`: P617L08 سرق (sense سوق); P617L06 تجّاربة (sense تجّارية); P618L01 ينفرّجا (sense يتفرّجا) and بالدنكم (sense ببلدكم); P618L06 زئدا (sense زائدا); P618L07 ابنات (sense البنات); P619L07 تعد (sense قعد); P620L01 اتسما (sense اقسما); P620L08 وبنظفانك; P620L15 اى (lām missing; sense الى); P620L16 فتنقّشوا; P624L01 وحضوصا (sense وخصوصا); P624L07 ولوفّتت.
+- Night 131 is now complete and unpublished; the next firing should publish it. Night 132 is complete too, but `nights_index.py --next` gives one night at a time.

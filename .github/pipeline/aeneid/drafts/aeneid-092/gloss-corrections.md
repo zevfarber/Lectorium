@@ -1,0 +1,1 @@
+- gesture: entry reworded by the run lead to the abere/repetem pattern (the print's form named as a misprint).

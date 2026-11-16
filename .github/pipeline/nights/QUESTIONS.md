@@ -1433,3 +1433,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Corrected misprint in emend.json: P603L08 المتزوح→المتزوج (as the transcribing run suggested). Kept as printed and explained in the notes: اجئ (yāʾ only as hamza seat); run-together لاعلم, مالم (twice), مابقي, لابد; colloquial اريد منك انك تحكي, حكى على, قعدت انتظرتك, اقدر ما اخليك. Two idioms not found in the classical dictionaries are translated by best reading and flagged as uncertain: سالما بشحم ("safe with fat", i.e. unharmed) and الحزمة الدفرة ("the stinking bundle", her insult for the wife). The archive was not changed.
 - No passage omitted. Library label: `Night 125 · The Lover and the Beloved, continued`. Nothing to decide.
 - Next: nights 126 and 127 are complete and unpublished; the next two firings should publish them.
+
+## Night 126 (published 2026-11-16)
+- No misprints corrected. Kept as printed and explained in the notes: لضوؤ (the name spelled with hamza on wāw); رجلاي, يداي (nominative dual for oblique); يضرباني (masculine dual for two women); لا يمكن اتركك (no أن); راس (no hamza); رفصتني (spoken for rafasa); جبنّا (shadda printed; read jubunn, cheese); run-together مابقي, ياسيدتي, ياعزيزة, ولابد, غيرالذي, ولالي, ولاحاجة, واذابزوجتي. ملّس على راسك is not in the classical dictionaries; translated "stroke your head" and flagged as uncertain. The archive was not changed.
+- The mutilation scene (P604L12–P604L21, the lady castrates ʿAzīz) is violence between adults and is translated in full, as the conventions require; the `about` says the night contains it. No passage omitted.
+- Library label: `Night 126 · The Lover and the Beloved, continued`. Nothing to decide.
+- Next: night 127 is complete and unpublished; the next firing should publish it.

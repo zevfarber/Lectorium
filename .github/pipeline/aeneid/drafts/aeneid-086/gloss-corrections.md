@@ -1,0 +1,1 @@
+Run-lead corrections after the glosser: obsidam (obsīdō, not obsideō), praeses (unpinned), tiburtique (Tiburtus gen. first), inferat broaden (jussive main verb, not relative), merito broaden dropped (adverb already covered).

@@ -1465,3 +1465,8 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Library label: `Night 129 · The Lover and the Beloved, continued`. Nothing to decide.
 - Run note: the container's local `main` ref had diverged from `origin/main` (stale commits not on the remote); this run worked from `origin/main` and left the stale ref alone.
 - Next: night 130 is complete and unpublished; the next firing should publish it.
+
+## Night 130 (published 2026-11-16)
+- Corrected misprints in emend.json (all three as the transcribing run suggested): P612L05 وزبره→وزيره; P613L04 جأبه→جاءبه (jāʾa bihi, kept run together as printed); P613L09 ولعزير→ولعزيز. Kept as printed and explained in the notes: السعيدان (al-saʿīd anna run together); للثلثين (no long alif); عصاة for ʿaṣā, "stick" (final tāʾ marbūṭa); final ى in تشتهى, ابى, يغصبنى; run-together بنتامن, ولابد, لاتحب (twice), ياملك; شهر زاد set as two words. The verse (P612L09–12) is copied as printed. The archive was not changed.
+- No passage omitted. Library label: `Night 130 · The Lover and the Beloved, continued`. Nothing to decide.
+- Next: night 131 is not yet complete (tail unread); the next firing should transcribe.

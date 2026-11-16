@@ -1451,3 +1451,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Left as read, possibly worth a later look: P609L01 اولا (a shadda-like mark over the و, read as doubtful and omitted); P611L14 للثلثين (the adjudicator thought it saw a dagger alif; not clear on the crop, omitted).
 - Kept as printed, for the publishing runs to consider for `emend.json`: P612L05 وزبره (one dot below; sense وزيره); P613L09 ولعزير (no dot; sense ولعزيز); P614L20 تأج (hamza on the alif of تاج); P613L04 جأبه (for جاء به). Run-together words kept as printed: لاباس, بنتامن, شهرمان, اذراى, نَحْوَارْضِكُمْ, يَامُنْتَهَى, وقرّعينا (twice).
 - Nights 128, 129 and 130 are now complete and unpublished; the next three firings should publish them.
+
+## Night 128 (published 2026-11-16)
+- Corrected misprint in emend.json: P608L11 الخرفة→الخرقة (as the transcribing run suggested). Kept as printed and explained in the notes: P609L01 اولا read as aw lā, "or not" (a possible shadda would give awwalan, "first"; noted); سنه (ه for ة); بنت الدليلة المحتالة (read "the daughter of Dalīla the Wily", the article and the descriptive reading noted); تصدم به الناس (read "dazzles people with it", flagged uncertain); spoken تتباعد/تتزوج بها/تغيب as requests, لعل + verb, لم تنشف, فراقي لـ; run-together ماكتبته, مافيها, ولازلت, مابي, ولازالت, ومافعلت, وماجدّد. The verse (P609L04–05, P609L07–08) is copied as printed. The archive was not changed.
+- Four existing glossary entries (بِيَ, بِهَذَا, بِهَذِهِ, بِهِ) had this night's sense of بِـ appended; no meaning was overwritten.
+- ʿAzīz's frank line about his mutilation (P608L21, آلة) is translated in full. No passage omitted.
+- Library label: `Night 128 · The Lover and the Beloved, continued`. Nothing to decide.
+- Next: nights 129 and 130 are complete and unpublished; the next two firings should publish them.

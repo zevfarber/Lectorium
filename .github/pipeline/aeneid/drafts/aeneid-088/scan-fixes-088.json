@@ -1,0 +1,91 @@
+{
+ "11.657": {
+  "sc": [
+   "1I–ta⏑li⏑2des–",
+   "quas–",
+   "3ip–sa⏑",
+   "de⏑4cus–‖",
+   "si⏑bi⏑",
+   "5di–a⏑",
+   "Ca⏑6mil–la×"
+  ],
+  "why": "dīa is two syllables (dī-ă, from dīus), and decus is long by position before sibi: Ī-tă-lĭ | dēs quās | ip-să dĕ | cūs sĭ-bĭ | dī-ă Că | mil-la (16 syllables), caesura after decus. The scanner (cost 1.5, not flagged) ran dia into one syllable, counted 15 and made both syllables of sibi long to fit."
+ },
+ "11.659": {
+  "sc": [
+   "1qua–les–",
+   "2Thre–i⏑ci⏑3ae–‖",
+   "cum–",
+   "4flu–mi⏑na⏑",
+   "5Ther–mo–6don–tis×"
+  ],
+  "why": "Confirmed by hand, entered only to clear the COSTLY flag: Thrēĭcĭae is four syllables (Greek Θρηΐκιος; Greenough prints Threïcius at 6.645) and the Greek name Thermōdōn (ω) gives a spondaic fifth foot: quā-lēs | Thrē-ĭ-cĭ | ae cum | flū-mĭ-nă | Thēr-mō | dōn-tis (14 syllables), caesura after Threiciae. The scanner's parse was right; the cost is the spondaic fifth foot."
+ },
+ "11.662": {
+  "sc": [
+   "1Pen–the⏑si⏑2le–a⏑",
+   "re⏑3fert–‖",
+   "mag–4no–que",
+   "u⏑lu⏑5lan–te⏑",
+   "tu⏑6mul–tu×"
+  ],
+  "why": "Penthĕsĭlēa is five syllables (Greek Πενθεσίλεια, -lē-ă, as Penthesilea furens at 1.491), and rĕfert has a short re-: Pen-thĕ-sĭ | lē-ă rĕ | fert mag | nōqu(e) ŭ-lŭ | lān-tĕ tŭ | mul-tu (16 syllables), magnoque elided into ululante, caesura after refert. The scanner (cost 1.5, not flagged) ran -lea into one syllable, counted 15 and lengthened re- to fit."
+ },
+ "11.665": {
+  "sc": [
+   "1de–i⏑cis⏑",
+   "2Aut–",
+   "quot⏑",
+   "hu⏑3mi–‖",
+   "mo⏑ri⏑4en–ti⏑a⏑",
+   "5cor–po⏑ra⏑",
+   "6fun–dis×"
+  ],
+  "why": "dēĭcis is three syllables (dē-ĭ-cis: de + iacio, dē- long), and its -cĭs is short before the vowel of Aut; quŏt is short before humi (h makes no position): dē-ĭ-cĭs | aut quŏt hŭ | mī mŏ-rĭ | en-tĭ-ă | cor-pŏ-ră | fun-dis (17 syllables, five dactyls), caesura after humi. The scanner (cost 1.5, not flagged) read dei- as one syllable, counted 16 and made -cis long."
+ },
+ "11.678": {
+  "sc": [
+   "1ig–no–2tis–",
+   "et⏑",
+   "e⏑3quo–‖",
+   "ve–4na–tor⏑",
+   "I⏑5a–py⏑ge⏑",
+   "6fer–tur×"
+  ],
+  "why": "Ĭāpyx is a Greek name (Ἰᾶπυξ) with a vowel I, so Iapyge is four syllables, Ĭ-ā-pў-gĕ (as Iapyge at 8.710 and Iapyx at 12.391), and vēnātŏr keeps its short -or before it: ig-nō | tīs ĕt ĕ | quō vē | nā-tŏr Ĭ | ā-pў-gĕ | fer-tur (15 syllables), caesura after equo. The scanner (cost 0.0, not flagged) read Ia- as consonantal (Ja-), counted 14 and lengthened -tor."
+ },
+ "11.680": {
+  "sc": [
+   "1pug–na–2to–ri",
+   "o⏑pe⏑3rit–‖",
+   "ca⏑put⏑",
+   "4in–gens–",
+   "5o–ris⏑",
+   "hi⏑6a–tus×"
+  ],
+  "why": "Wrong quantities with the right count (cost 0.0, not flagged): pugnātōri has -nā- and -tō- long (-ātor, -ātōris), and ŏpĕrit has its first two syllables short: pug-nā | tōr(i) ŏ-pĕ | rīt că-pŭt | in-gens | ō-rĭs hĭ | ā-tus (15 syllables), pugnatori elided into operit, caesura after operit. The scanner made -na- and -to- short and o-pe- long."
+ },
+ "11.685": {
+  "sc": [
+   "1tra–i⏑cit⏑",
+   "2et–",
+   "su⏑per⏑",
+   "3haec–‖",
+   "i⏑ni⏑4mi–co–",
+   "5pec–to⏑re⏑",
+   "6fa–tur×"
+  ],
+  "why": "trāĭcit is three syllables (trā-ĭ-cit, trans + iacio, as deicis at 11.665), and its -cĭt is short before et: trā-ĭ-cĭt | ēt sŭ-pĕr | haec ĭ-nĭ | mī-cō | pec-tŏ-rĕ | fā-tur (16 syllables), caesura after haec. The scanner (cost 1.8, not flagged) read trai- as one syllable, counted 15 and lengthened -cit."
+ },
+ "11.691": {
+  "sc": [
+   "1cor–po⏑ra⏑",
+   "2sed–",
+   "Bu–3ten–‖",
+   "a–4ver–sum–",
+   "5cus–pi⏑de⏑",
+   "6fi–xit×"
+  ],
+  "why": "Wrong quantities with the right count (cost 0.0, not flagged): corpŏră has its last two syllables short (the open -a before sed), Būtēn has the long Greek -ēn (η) and āversum a long ā- (from ab): cor-pŏ-ră | sēd Bū | tēn ā | ver-sum | cus-pĭ-dĕ | fī-xit (14 syllables), caesura after Buten. The scanner made -po- and -ra long and -ten short."
+ }
+}

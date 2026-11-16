@@ -1,0 +1,5 @@
+# Book of the Dead of Ani — questions for the owner
+
+- 2026-11-16 · Spell 125 · Ani's papyrus has the introduction, the 42 declarations and the rubric. It does not have the long address to the gods that follows the declarations in other papyri; Budge prints that from Naville as an Appendix (pp. 203–212), and a longer introduction likewise (pp. 193–197). Decided meanwhile: only what is on Ani's papyrus is published; the notes say what other papyri add. If you want the address as a marked supplement (as with Hammurabi's erased columns), it becomes one more part.
+- 2026-11-16 · voice · The declarations' voice needed your approval of every take. Decided meanwhile: new parts publish without audio, with the pronunciation line filled in, until you choose a voice that reads the same way every time.
+- 2026-11-16 · order in the library · Parts are listed in papyrus order (by Budge's page), so the introduction to Spell 125 appears before the declarations and the rubric after them, and the earlier plates above them as they are published.

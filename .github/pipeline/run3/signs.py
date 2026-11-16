@@ -10,12 +10,14 @@ would change.
     python3 signs.py check                       embedded copies == the JSON files (exit 1 if not)
     python3 signs.py add cuneiform KEY 'CUNEIFORM SIGN NAME' '{"name":..., "type":..., "sound":..., "values":[...], "label":...}'
     python3 signs.py add anatolian A###  'ANATOLIAN HIEROGLYPH A###' '{"name":..., "type":..., "sound":..., "pron":null, "determines":null}'
+    python3 signs.py add egyptian G43 'EGYPTIAN HIEROGLYPH G043' '{"name":..., "type":"uniliteral|biliteral|triliteral|logogram|determinative", "sound":..., "pron":null, "determines":null}'
 The glyph is always taken from Python's unicodedata by the Unicode name you give — never typed by hand.
 """
 import json, os, sys, unicodedata
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
-FILES = {'cuneiform': ('signs-cuneiform.json', 'cuneiform'), 'anatolian': ('signs-anatolian.json', 'Anatolian hieroglyphs')}
+FILES = {'cuneiform': ('signs-cuneiform.json', 'cuneiform'), 'anatolian': ('signs-anatolian.json', 'Anatolian hieroglyphs'),
+         'egyptian': ('signs-egyptian.json', 'Egyptian hieroglyphs')}
 HTML = ['index.html', 'reader.html']
 
 
@@ -44,7 +46,7 @@ def block(h, key):
 
 def fmt(script, signs):
     """The embedded block's own layout, so a one-sign addition is a one-line diff."""
-    if script == 'anatolian':
+    if script in ('anatolian', 'egyptian'):
         return '{\n' + ',\n'.join(f'  {json.dumps(k, ensure_ascii=False)}: {json.dumps(v, ensure_ascii=False)}'
                                     for k, v in signs.items()) + '\n }'
     return json.dumps(signs, ensure_ascii=False, indent=1)

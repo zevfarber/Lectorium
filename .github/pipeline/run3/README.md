@@ -5,7 +5,7 @@ begun, one part per firing, moving to the next text by itself when one is done. 
 (`../queue-run3.txt`), its own records; it never touches the shared queue (`../queue.txt`), the Nights, or
 another work's files.
 
-Order: Hammurabi → Kebra Nagast → Secret History → Mabinogi → Cid → Azatiwada → Sumerian King List.
+Order: Hammurabi → Kebra Nagast → Secret History → Mabinogi → Cid → Azatiwada → Sumerian King List → Book of the Dead of Ani.
 
 | work | edition | parts left | kind |
 |---|---|---|---|
@@ -16,9 +16,10 @@ Order: Hammurabi → Kebra Nagast → Secret History → Mabinogi → Cid → Az
 | cid | Pidal 1923 | 50 (each established first) | Old Spanish verse |
 | azatiwada | ACLT 2, copy Hu. | 3 | Luwian hieroglyphs, sign keys |
 | king-list | Langdon 1923 | 8 | cuneiform words, signs from the plates |
+| ani | Budge 1895, interlinear text (added 2026-11-16) | 50 (each established first) | Egyptian words, signs read from Budge's type |
 
 How a firing works: `RUNBOOK.md`. Tools: `r3.py` (next / claim / establish-packet / pin / packet / build /
-validate / publish / done / plan), `r3lib.py`, `cun.py` (cuneiform), `signs.py` (adds a sign to a shared sign
+validate / publish / done / plan), `r3lib.py`, `cun.py` (cuneiform), `signs.py` (cuneiform, Anatolian and Egyptian: adds a sign to a shared sign
 glossary and its copy embedded in the reader), `page.py` (renders a scanned page); and `../../scripts/fetch_run3.py` +
 `../../workflows/fetch-run3.yml` (the runner fetches public-domain sources listed in `fetch-requests.json`,
 since Claude's cloud sessions cannot reach archive.org or Wikisource).

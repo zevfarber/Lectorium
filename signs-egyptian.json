@@ -1,0 +1,694 @@
+{
+ "script": "Egyptian hieroglyphs",
+ "note": "Shared sign glossary for every Egyptian text; keys are Gardiner codes. The reader embeds an identical copy (SIGN_GLOSSARIES). Add signs only with .github/pipeline/run3/signs.py.",
+ "signs": {
+  "G1": {
+   "glyph": "𓄿",
+   "name": "Egyptian vulture",
+   "type": "uniliteral",
+   "sound": "ꜣ",
+   "pron": "glottal stop / aleph (conventionally 'a')",
+   "determines": null
+  },
+  "M17": {
+   "glyph": "𓇋",
+   "name": "flowering reed",
+   "type": "uniliteral",
+   "sound": "i",
+   "pron": "'i'/'y' or glottal stop (written i here; Leiden j)",
+   "determines": null
+  },
+  "Z4": {
+   "glyph": "𓏭",
+   "name": "pair of strokes",
+   "type": "uniliteral",
+   "sound": "y",
+   "pron": "'y' (also written as two reeds)",
+   "determines": null
+  },
+  "D36": {
+   "glyph": "𓂝",
+   "name": "forearm",
+   "type": "uniliteral",
+   "sound": "ꜥ",
+   "pron": "ayin, pharyngeal (conventionally 'a')",
+   "determines": null
+  },
+  "G43": {
+   "glyph": "𓅱",
+   "name": "quail chick",
+   "type": "uniliteral",
+   "sound": "w",
+   "pron": "'w' (conventionally 'u/w')",
+   "determines": null
+  },
+  "D58": {
+   "glyph": "𓃀",
+   "name": "foot / lower leg",
+   "type": "uniliteral",
+   "sound": "b",
+   "pron": "'b'",
+   "determines": null
+  },
+  "Q3": {
+   "glyph": "𓊪",
+   "name": "stool (reed mat)",
+   "type": "uniliteral",
+   "sound": "p",
+   "pron": "'p'",
+   "determines": null
+  },
+  "I9": {
+   "glyph": "𓆑",
+   "name": "horned viper",
+   "type": "uniliteral",
+   "sound": "f",
+   "pron": "'f'",
+   "determines": null
+  },
+  "G17": {
+   "glyph": "𓅓",
+   "name": "owl",
+   "type": "uniliteral",
+   "sound": "m",
+   "pron": "'m'",
+   "determines": null
+  },
+  "N35": {
+   "glyph": "𓈖",
+   "name": "ripple of water",
+   "type": "uniliteral",
+   "sound": "n",
+   "pron": "'n'",
+   "determines": null
+  },
+  "D21": {
+   "glyph": "𓂋",
+   "name": "mouth",
+   "type": "uniliteral",
+   "sound": "r",
+   "pron": "'r'",
+   "determines": null
+  },
+  "O4": {
+   "glyph": "𓉔",
+   "name": "reed shelter",
+   "type": "uniliteral",
+   "sound": "h",
+   "pron": "'h' as in hat",
+   "determines": null
+  },
+  "V28": {
+   "glyph": "𓎛",
+   "name": "twisted wick / hank of flax",
+   "type": "uniliteral",
+   "sound": "ḥ",
+   "pron": "emphatic h (conventionally 'h')",
+   "determines": null
+  },
+  "Aa1": {
+   "glyph": "𓐍",
+   "name": "sieve / placenta",
+   "type": "uniliteral",
+   "sound": "ḫ",
+   "pron": "'kh' as in Bach",
+   "determines": null
+  },
+  "F32": {
+   "glyph": "𓄡",
+   "name": "animal's belly with teats",
+   "type": "uniliteral",
+   "sound": "ẖ",
+   "pron": "softer 'kh' (palatal)",
+   "determines": null
+  },
+  "O34": {
+   "glyph": "𓊃",
+   "name": "door bolt",
+   "type": "uniliteral",
+   "sound": "z",
+   "pron": "'z'/'s'",
+   "determines": null
+  },
+  "S29": {
+   "glyph": "𓋴",
+   "name": "folded cloth",
+   "type": "uniliteral",
+   "sound": "s",
+   "pron": "'s'",
+   "determines": null
+  },
+  "N37": {
+   "glyph": "𓈙",
+   "name": "pool / garden basin",
+   "type": "uniliteral",
+   "sound": "š",
+   "pron": "'sh'",
+   "determines": null
+  },
+  "N29": {
+   "glyph": "𓈎",
+   "name": "hill slope",
+   "type": "uniliteral",
+   "sound": "q",
+   "pron": "emphatic k (Gardiner ḳ); conventionally 'q'",
+   "determines": null
+  },
+  "V31": {
+   "glyph": "𓎡",
+   "name": "basket with handle",
+   "type": "uniliteral",
+   "sound": "k",
+   "pron": "'k'",
+   "determines": null
+  },
+  "W11": {
+   "glyph": "𓎼",
+   "name": "ring stand / jar stand",
+   "type": "uniliteral",
+   "sound": "g",
+   "pron": "'g'",
+   "determines": null
+  },
+  "X1": {
+   "glyph": "𓏏",
+   "name": "bread loaf",
+   "type": "uniliteral",
+   "sound": "t",
+   "pron": "'t'",
+   "determines": null
+  },
+  "V13": {
+   "glyph": "𓍿",
+   "name": "tethering rope / hobble",
+   "type": "uniliteral",
+   "sound": "ṯ",
+   "pron": "'tj'/'ch' as in church",
+   "determines": null
+  },
+  "D46": {
+   "glyph": "𓂧",
+   "name": "hand",
+   "type": "uniliteral",
+   "sound": "d",
+   "pron": "'d'",
+   "determines": null
+  },
+  "I10": {
+   "glyph": "𓆓",
+   "name": "cobra / snake",
+   "type": "uniliteral",
+   "sound": "ḏ",
+   "pron": "'dj'/'j' as in judge",
+   "determines": null
+  },
+  "A1": {
+   "glyph": "𓀀",
+   "name": "seated man",
+   "type": "logogram/determinative",
+   "sound": "1sg suffix pronoun ·i; det. of a man",
+   "pron": null,
+   "determines": "a man; a person; 1st person ('I/me'); occupations & roles"
+  },
+  "B1": {
+   "glyph": "𓁐",
+   "name": "seated woman",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "a woman; a female person"
+  },
+  "D54": {
+   "glyph": "𓂻",
+   "name": "walking legs",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "motion — verbs of coming, going, movement"
+  },
+  "Z1": {
+   "glyph": "𓏤",
+   "name": "single stroke",
+   "type": "marker",
+   "sound": null,
+   "pron": null,
+   "determines": "logogram/ideogram marker (the sign IS the word); the number 'one'"
+  },
+  "Z2": {
+   "glyph": "𓏥",
+   "name": "plural strokes",
+   "type": "marker",
+   "sound": null,
+   "pron": null,
+   "determines": "plurality — a plural or collective noun"
+  },
+  "O1": {
+   "glyph": "𓉐",
+   "name": "house / building plan",
+   "type": "biliteral/logogram",
+   "sound": "pr (also logogram 'house, pr')",
+   "pron": null,
+   "determines": null
+  },
+  "O28": {
+   "glyph": "𓉺",
+   "name": "pillar (iwn)",
+   "type": "triliteral",
+   "sound": "iwn",
+   "pron": null,
+   "determines": null
+  },
+  "O49": {
+   "glyph": "𓊖",
+   "name": "town (crossroads)",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "a town, city, or place; a settlement"
+  },
+  "D35": {
+   "glyph": "𓂜",
+   "name": "forearms in negation",
+   "type": "grammatical",
+   "sound": "n — negation ('not')",
+   "pron": null,
+   "determines": null
+  },
+  "D4": {
+   "glyph": "𓁹",
+   "name": "eye",
+   "type": "biliteral/logogram",
+   "sound": "ir / jr (also logogram 'eye')",
+   "pron": null,
+   "determines": "the eye; seeing; (as verb) do, make"
+  },
+  "G37": {
+   "glyph": "𓅪",
+   "name": "sparrow (small bird)",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "bad, evil, small, weak — abstract negatives"
+  },
+  "Q7": {
+   "glyph": "𓊮",
+   "name": "brazier with flame",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "fire, flame, heat, burning"
+  },
+  "D40": {
+   "glyph": "𓂡",
+   "name": "forearm with stick",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "force, effort, strength; violent action"
+  },
+  "A2": {
+   "glyph": "𓀁",
+   "name": "man with hand to mouth",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "eat, drink, speak, think, feel; effort — actions of mouth or mind"
+  },
+  "A14": {
+   "glyph": "𓀐",
+   "name": "man with blood streaming from his head",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "death, dying; an enemy; the dead"
+  },
+  "A17": {
+   "glyph": "𓀔",
+   "name": "seated child, hand to mouth",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "a child; youth; the young"
+  },
+  "A40": {
+   "glyph": "𓀭",
+   "name": "seated god",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "a god; a divine being (classifies divine names)"
+  },
+  "A58": {
+   "glyph": "𓁃",
+   "name": "standing man",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "a man; a male person; human action"
+  },
+  "Aa8": {
+   "glyph": "𓐖",
+   "name": "irrigation district / canal-land sign",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "a region or district; irrigated land (reading here uncertain)"
+  },
+  "Aa11": {
+   "glyph": "𓐙",
+   "name": "sledge-runner / plinth (maꜥat-sign)",
+   "type": "biliteral/ideogram",
+   "sound": "mꜣꜥ (also ideogram 'true, right, just')",
+   "pron": null,
+   "determines": null
+  },
+  "D1": {
+   "glyph": "𓁶",
+   "name": "head",
+   "type": "biliteral",
+   "sound": "tp (also 'head')",
+   "pron": null,
+   "determines": null
+  },
+  "D2": {
+   "glyph": "𓁷",
+   "name": "face",
+   "type": "biliteral",
+   "sound": "ḥr (also 'face; upon')",
+   "pron": null,
+   "determines": null
+  },
+  "D28": {
+   "glyph": "𓂓",
+   "name": "two arms raised (ka)",
+   "type": "biliteral/ideogram",
+   "sound": "kꜣ (also ideogram 'ka, spirit')",
+   "pron": null,
+   "determines": null
+  },
+  "D9": {
+   "glyph": "𓁿",
+   "name": "eye with flowing tears",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "weeping, tears; the eye"
+  },
+  "D53": {
+   "glyph": "𓂺",
+   "name": "phallus",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "phallus; male; beget; urinate"
+  },
+  "D56": {
+   "glyph": "𓂾",
+   "name": "leg",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "leg, foot; to tread"
+  },
+  "E23": {
+   "glyph": "𓃭",
+   "name": "recumbent lion",
+   "type": "biliteral",
+   "sound": "rw (also 'l'; lion)",
+   "pron": null,
+   "determines": null
+  },
+  "E34": {
+   "glyph": "𓃹",
+   "name": "hare",
+   "type": "biliteral",
+   "sound": "wn",
+   "pron": null,
+   "determines": null
+  },
+  "F4": {
+   "glyph": "𓄂",
+   "name": "forepart of a lion",
+   "type": "biliteral",
+   "sound": "ḥꜣ (also ḥꜣt 'front, foremost')",
+   "pron": null,
+   "determines": null
+  },
+  "F27": {
+   "glyph": "𓄛",
+   "name": "hide of a mammal, with tail",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "skin, hide, leather; a mammal"
+  },
+  "F34": {
+   "glyph": "𓄣",
+   "name": "heart",
+   "type": "biliteral/ideogram",
+   "sound": "ib (also ideogram 'heart')",
+   "pron": null,
+   "determines": null
+  },
+  "F35": {
+   "glyph": "𓄤",
+   "name": "heart and windpipe",
+   "type": "triliteral/ideogram",
+   "sound": "nfr (also 'good, beautiful, perfect')",
+   "pron": null,
+   "determines": null
+  },
+  "G36": {
+   "glyph": "𓅨",
+   "name": "swallow",
+   "type": "biliteral",
+   "sound": "wr (also 'great')",
+   "pron": null,
+   "determines": null
+  },
+  "H6": {
+   "glyph": "𓆄",
+   "name": "feather (Shu / feather of Maꜥat)",
+   "type": "ideogram/determinative",
+   "sound": "šw (as phonogram)",
+   "pron": null,
+   "determines": "the feather of Maꜥat; truth, rightness; air"
+  },
+  "H8": {
+   "glyph": "𓆇",
+   "name": "egg",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "egg; a goddess or woman; a son; birth"
+  },
+  "I14": {
+   "glyph": "𓆙",
+   "name": "serpent",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "a snake or serpent; a serpent-deity"
+  },
+  "M3": {
+   "glyph": "𓆱",
+   "name": "branch / piece of wood",
+   "type": "biliteral",
+   "sound": "ḫt (also 'wood, tree; thing')",
+   "pron": null,
+   "determines": "wood, tree; a thing"
+  },
+  "M23": {
+   "glyph": "𓇓",
+   "name": "sedge (sw-plant)",
+   "type": "biliteral/ideogram",
+   "sound": "sw (in nsw(t) 'king')",
+   "pron": null,
+   "determines": null
+  },
+  "N1": {
+   "glyph": "𓇯",
+   "name": "sky",
+   "type": "ideogram/determinative",
+   "sound": "pt 'sky' (ideogram)",
+   "pron": null,
+   "determines": "sky, heaven; above"
+  },
+  "N2": {
+   "glyph": "𓇰",
+   "name": "sky with a hanging star (night)",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "night; darkness; the nocturnal sky"
+  },
+  "N5": {
+   "glyph": "𓇳",
+   "name": "sun disk",
+   "type": "ideogram/determinative",
+   "sound": "rꜥ 'sun, Ra'; hrw 'day'",
+   "pron": null,
+   "determines": "the sun; a day; time; the sun-god"
+  },
+  "N16": {
+   "glyph": "𓇾",
+   "name": "flat land with grains",
+   "type": "biliteral/ideogram",
+   "sound": "tꜣ (also 'land, earth')",
+   "pron": null,
+   "determines": "land, earth, ground"
+  },
+  "N21": {
+   "glyph": "𓈅",
+   "name": "tongue of land / estate",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "a strip of land; an estate; a region"
+  },
+  "N25": {
+   "glyph": "𓈉",
+   "name": "range of three hills (desert)",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "hill-country, desert; a foreign land; the necropolis"
+  },
+  "N35a": {
+   "glyph": "𓈗",
+   "name": "ripples of water (canal)",
+   "type": "ideogram/determinative",
+   "sound": "mw 'water' (ideogram)",
+   "pron": null,
+   "determines": "water, liquid; a body of water"
+  },
+  "N40": {
+   "glyph": "𓈝",
+   "name": "legs walking on a road",
+   "type": "biliteral/ideogram",
+   "sound": "šm 'walk, go'",
+   "pron": null,
+   "determines": null
+  },
+  "O6": {
+   "glyph": "𓉗",
+   "name": "enclosure / mansion plan",
+   "type": "ideogram/biliteral",
+   "sound": "ḥwt 'mansion, enclosure, temple'",
+   "pron": null,
+   "determines": null
+  },
+  "P8": {
+   "glyph": "𓊤",
+   "name": "oar",
+   "type": "triliteral",
+   "sound": "ḫrw (also 'voice, sound')",
+   "pron": null,
+   "determines": null
+  },
+  "R4": {
+   "glyph": "𓊵",
+   "name": "loaf on a reed-mat",
+   "type": "triliteral/ideogram",
+   "sound": "ḥtp 'offering; be content; peace'",
+   "pron": null,
+   "determines": null
+  },
+  "R8": {
+   "glyph": "𓊹",
+   "name": "cloth wound on a pole (netjer-standard)",
+   "type": "triliteral/ideogram",
+   "sound": "nṯr 'god'",
+   "pron": null,
+   "determines": "a god; divine; sacred"
+  },
+  "R11": {
+   "glyph": "𓊽",
+   "name": "djed-pillar",
+   "type": "biliteral/ideogram",
+   "sound": "ḏd (also 'stability'; the place Ḏdw, Busiris)",
+   "pron": null,
+   "determines": null
+  },
+  "R14": {
+   "glyph": "𓋀",
+   "name": "emblem of the West (feather on standard)",
+   "type": "ideogram",
+   "sound": "imnt 'the West'",
+   "pron": null,
+   "determines": "the West; the western land of the dead"
+  },
+  "T30": {
+   "glyph": "𓌪",
+   "name": "knife",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "a knife; cutting, slaughter"
+  },
+  "U30": {
+   "glyph": "𓍔",
+   "name": "kiln",
+   "type": "biliteral",
+   "sound": "tꜣ",
+   "pron": null,
+   "determines": null
+  },
+  "V24": {
+   "glyph": "𓎗",
+   "name": "cord wound on a stick",
+   "type": "biliteral/ideogram",
+   "sound": "wḏ 'command, decree'",
+   "pron": null,
+   "determines": null
+  },
+  "V30": {
+   "glyph": "𓎟",
+   "name": "basket",
+   "type": "biliteral",
+   "sound": "nb 'all, every; lord, possessor'",
+   "pron": null,
+   "determines": null
+  },
+  "W19": {
+   "glyph": "𓏇",
+   "name": "milk-jar carried in a net",
+   "type": "biliteral",
+   "sound": "mi",
+   "pron": null,
+   "determines": null
+  },
+  "W24": {
+   "glyph": "𓏌",
+   "name": "round pot",
+   "type": "biliteral",
+   "sound": "nw",
+   "pron": null,
+   "determines": null
+  },
+  "X4": {
+   "glyph": "𓏒",
+   "name": "loaf / bread-roll",
+   "type": "determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "bread, cakes; food offerings"
+  },
+  "Y5": {
+   "glyph": "𓏠",
+   "name": "senet game-board",
+   "type": "biliteral",
+   "sound": "mn",
+   "pron": null,
+   "determines": null
+  },
+  "Z15g": {
+   "glyph": "𓐁",
+   "name": "group of small strokes (numeral variant)",
+   "type": "marker/determinative",
+   "sound": null,
+   "pron": null,
+   "determines": "strokes accompanying a sign-group (function here uncertain)"
+  }
+ }
+}

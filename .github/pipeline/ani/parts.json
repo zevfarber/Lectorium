@@ -1,0 +1,765 @@
+{
+ "work": "Book of the Dead of Ani",
+ "source": "source/raw/budge1895.pdf (PDF page = printed page + 164)",
+ "edition": "E. A. Wallis Budge, The Book of the Dead: The Papyrus of Ani in the British Museum. The Egyptian Text with Interlinear Transliteration and Translation (London: British Museum, 1895) — Heidelberg University Library scan, via archive.org item papyrus-of-ani-transliteration-e.-a.-wallis-budge",
+ "boundaryRule": "Order: the rest of Spell 125 first (owner, 2026-11-16), then the papyrus from Plate I to Plate XXXVII. Page ranges are a first pass from Budge's running heads; each establishing firing fixes the real start and end on the page and records them (start/end in the established file). A part marked 'after' starts where that part's established file ends. Budge's Appendix sections and footnote texts (supplied from other papyri) are never part of the text. Already published and not repeated: the Confession, pp. 198–203 (ani-spell125-opening).",
+ "parts": [
+  {
+   "id": "ani-125-introduction",
+   "seq": 189,
+   "name": "Spell 125 — entering the Hall of the Two Truths",
+   "cite": "Budge pp. 189–193",
+   "pages": [
+    189,
+    193
+   ],
+   "chapters": "CXXV, Introduction",
+   "plates": "XXX lines 1–18, then XXIX lines 19–28 (\"Returning to Plate XXIX\", p. 193)",
+   "file": "ani-125-introduction.json",
+   "status": "todo",
+   "startAt": "the heading \"PLATE XXX.\" on p. 189: line 1, the chapter title \"Re en āq er usext maāti\" (Chapter of entering the Hall of Double Maāti). The lines above the heading on p. 189 are the end of Spell 175 (Plate XXIX) and belong to ani-175.",
+   "endAt": "p. 193, Plate XXIX line 28, last words \"neb àmaχ\" (lord of veneration), immediately before the heading \"Appendix.\" The Appendix (pp. 193–197, from Naville) is out. The published Confession (pp. 198–203, ani-spell125-opening) follows."
+  },
+  {
+   "id": "ani-125-rubric",
+   "seq": 222,
+   "name": "Spell 125 — the rubric",
+   "cite": "Budge pp. 222–224",
+   "pages": [
+    222,
+    224
+   ],
+   "chapters": "CXXV, Rubric",
+   "plates": "XXXIII lines 1–10",
+   "file": "ani-125-rubric.json",
+   "status": "todo",
+   "startAt": "the heading \"PLATE XXXIII.\" on p. 222: line 1, \"àn Àusàr Ani maāχeru\" (See Osiris Ani, triumphant). Footnote 1 on p. 222 (a \"less corrupt text\" from Naville, printed in hieroglyphs) is out.",
+   "endAt": "p. 224, line 10, last words \"ḥeḥ en sep\" (millions of times), immediately before the heading \"Appendix.\" The Appendix is out."
+  },
+  {
+   "id": "ani-hymn-to-ra",
+   "seq": 1,
+   "name": "Hymn to Ra at his rising",
+   "cite": "Budge pp. 1–4",
+   "pages": [
+    1,
+    4
+   ],
+   "chapters": "XV (hymn to Ra)",
+   "plates": "I",
+   "file": "ani-hymn-to-ra.json",
+   "status": "todo",
+   "startAt": "the first word of the text under \"PLATE I.\" on p. 1.",
+   "endAt": "the end of the hymn to Ra as the papyrus has it on Plate I (about p. 4), before the \"Appendix\" that Budge prints on pp. 5–7 (out)."
+  },
+  {
+   "id": "ani-hymn-to-osiris",
+   "seq": 8,
+   "name": "Hymn to Osiris",
+   "cite": "Budge pp. 8–10",
+   "pages": [
+    8,
+    10
+   ],
+   "chapters": "XV (hymn to Osiris Un-nefer)",
+   "plates": "II",
+   "file": "ani-hymn-to-osiris.json",
+   "status": "todo",
+   "startAt": "the first word of Ani's text after the Appendix of pp. 5–7 (the heading \"PLATE II.\", about p. 8)."
+  },
+  {
+   "id": "ani-weighing-of-the-heart",
+   "seq": 11,
+   "name": "The weighing of the heart",
+   "cite": "Budge pp. 11–16",
+   "pages": [
+    11,
+    16
+   ],
+   "chapters": "XXX B and the speeches of the judgment scene",
+   "plates": "III, IV",
+   "file": "ani-weighing-of-the-heart.json",
+   "status": "todo",
+   "endAt": "the end of the text of the judgment scene (Plates III–IV), including the speeches of Thoth, the gods and Horus, before Spell 1 begins (about p. 16–17). Appendix sections (pp. 13–15) are out.",
+   "after": "ani-hymn-to-osiris"
+  },
+  {
+   "id": "ani-001-a",
+   "seq": 17,
+   "name": "Spell 1, first half",
+   "cite": "Budge pp. 17–20",
+   "pages": [
+    17,
+    20
+   ],
+   "chapters": "I",
+   "plates": "IV, V",
+   "file": "ani-001-a.json",
+   "status": "todo",
+   "after": "ani-weighing-of-the-heart"
+  },
+  {
+   "id": "ani-001-b",
+   "seq": 21,
+   "name": "Spell 1, second half",
+   "cite": "Budge pp. 21–24",
+   "pages": [
+    21,
+    24
+   ],
+   "chapters": "I",
+   "plates": "V, VI",
+   "file": "ani-001-b.json",
+   "status": "todo",
+   "after": "ani-001-a"
+  },
+  {
+   "id": "ani-022-072",
+   "seq": 25,
+   "name": "Spell 22 and the rubric of Spell 72",
+   "cite": "Budge pp. 25–27",
+   "pages": [
+    25,
+    27
+   ],
+   "chapters": "XXII; LXXII (Rubric)",
+   "plates": "VI",
+   "file": "ani-022-072.json",
+   "status": "todo",
+   "after": "ani-001-b"
+  },
+  {
+   "id": "ani-017-a",
+   "seq": 27,
+   "name": "Spell 17, part 1 of 6",
+   "cite": "Budge pp. 27–31",
+   "pages": [
+    27,
+    31
+   ],
+   "chapters": "XVII",
+   "plates": "VII",
+   "file": "ani-017-a.json",
+   "status": "todo",
+   "after": "ani-022-072"
+  },
+  {
+   "id": "ani-017-b",
+   "seq": 32,
+   "name": "Spell 17, part 2 of 6",
+   "cite": "Budge pp. 32–36",
+   "pages": [
+    32,
+    36
+   ],
+   "chapters": "XVII",
+   "plates": "VII, VIII",
+   "file": "ani-017-b.json",
+   "status": "todo",
+   "after": "ani-017-a"
+  },
+  {
+   "id": "ani-017-c",
+   "seq": 37,
+   "name": "Spell 17, part 3 of 6",
+   "cite": "Budge pp. 37–41",
+   "pages": [
+    37,
+    41
+   ],
+   "chapters": "XVII",
+   "plates": "IX, X",
+   "file": "ani-017-c.json",
+   "status": "todo",
+   "after": "ani-017-b"
+  },
+  {
+   "id": "ani-017-d",
+   "seq": 42,
+   "name": "Spell 17, part 4 of 6",
+   "cite": "Budge pp. 42–46",
+   "pages": [
+    42,
+    46
+   ],
+   "chapters": "XVII",
+   "plates": "X",
+   "file": "ani-017-d.json",
+   "status": "todo",
+   "after": "ani-017-c"
+  },
+  {
+   "id": "ani-017-e",
+   "seq": 47,
+   "name": "Spell 17, part 5 of 6",
+   "cite": "Budge pp. 47–51",
+   "pages": [
+    47,
+    51
+   ],
+   "chapters": "XVII",
+   "plates": "X",
+   "file": "ani-017-e.json",
+   "status": "todo",
+   "after": "ani-017-d"
+  },
+  {
+   "id": "ani-017-f",
+   "seq": 52,
+   "name": "Spell 17, part 6 of 6",
+   "cite": "Budge pp. 52–55",
+   "pages": [
+    52,
+    55
+   ],
+   "chapters": "XVII",
+   "plates": "X",
+   "file": "ani-017-f.json",
+   "status": "todo",
+   "after": "ani-017-e"
+  },
+  {
+   "id": "ani-147-a",
+   "seq": 56,
+   "name": "Spell 147 — the seven gates, first half",
+   "cite": "Budge pp. 56–59",
+   "pages": [
+    56,
+    59
+   ],
+   "chapters": "CXLVII",
+   "plates": "XI upper register",
+   "file": "ani-147-a.json",
+   "status": "todo",
+   "after": "ani-017-f"
+  },
+  {
+   "id": "ani-147-b",
+   "seq": 60,
+   "name": "Spell 147 — the seven gates, second half",
+   "cite": "Budge pp. 60–62",
+   "pages": [
+    60,
+    62
+   ],
+   "chapters": "CXLVII",
+   "plates": "XI, XII upper register",
+   "file": "ani-147-b.json",
+   "status": "todo",
+   "after": "ani-147-a"
+  },
+  {
+   "id": "ani-146-a",
+   "seq": 63,
+   "name": "Spell 146 — the pylons, first half",
+   "cite": "Budge pp. 63–66",
+   "pages": [
+    63,
+    66
+   ],
+   "chapters": "CXLVI",
+   "plates": "XI, XII lower register",
+   "file": "ani-146-a.json",
+   "status": "todo",
+   "after": "ani-147-b"
+  },
+  {
+   "id": "ani-146-b",
+   "seq": 67,
+   "name": "Spell 146 — the pylons, second half",
+   "cite": "Budge pp. 67–70",
+   "pages": [
+    67,
+    70
+   ],
+   "chapters": "CXLVI",
+   "plates": "XII lower register",
+   "file": "ani-146-b.json",
+   "status": "todo",
+   "after": "ani-146-a"
+  },
+  {
+   "id": "ani-018-introduction",
+   "seq": 71,
+   "name": "Spell 18 — the introduction",
+   "cite": "Budge pp. 71–73",
+   "pages": [
+    71,
+    73
+   ],
+   "chapters": "XVIII, Introduction",
+   "plates": "XII",
+   "file": "ani-018-introduction.json",
+   "status": "todo",
+   "after": "ani-146-b"
+  },
+  {
+   "id": "ani-018-a",
+   "seq": 74,
+   "name": "Spell 18, first half",
+   "cite": "Budge pp. 74–78",
+   "pages": [
+    74,
+    78
+   ],
+   "chapters": "XVIII",
+   "plates": "XIII",
+   "file": "ani-018-a.json",
+   "status": "todo",
+   "after": "ani-018-introduction"
+  },
+  {
+   "id": "ani-018-b",
+   "seq": 79,
+   "name": "Spell 18, second half",
+   "cite": "Budge pp. 79–82",
+   "pages": [
+    79,
+    82
+   ],
+   "chapters": "XVIII",
+   "plates": "XIV",
+   "file": "ani-018-b.json",
+   "status": "todo",
+   "after": "ani-018-a"
+  },
+  {
+   "id": "ani-023-024",
+   "seq": 83,
+   "name": "Spells 23 and 24",
+   "cite": "Budge pp. 83–87",
+   "pages": [
+    83,
+    87
+   ],
+   "chapters": "XXIII; XXIV ([XXV] is supplied: out)",
+   "plates": "XV",
+   "file": "ani-023-024.json",
+   "status": "todo",
+   "after": "ani-018-b"
+  },
+  {
+   "id": "ani-026-030b",
+   "seq": 88,
+   "name": "Spells 26 and 30B",
+   "cite": "Budge pp. 88–91",
+   "pages": [
+    88,
+    91
+   ],
+   "chapters": "XXVI; XXX B",
+   "plates": "XV",
+   "file": "ani-026-030b.json",
+   "status": "todo",
+   "after": "ani-023-024"
+  },
+  {
+   "id": "ani-061-054",
+   "seq": 91,
+   "name": "Spells 61 and 54",
+   "cite": "Budge pp. 91–96",
+   "pages": [
+    91,
+    96
+   ],
+   "chapters": "LXI; LIV ([LX–LXII], [LXIII A], [LV] are supplied: out)",
+   "plates": "XV",
+   "file": "ani-061-054.json",
+   "status": "todo",
+   "after": "ani-026-030b"
+  },
+  {
+   "id": "ani-029-027-058-059",
+   "seq": 97,
+   "name": "Spells 29, 27, 58 and 59",
+   "cite": "Budge pp. 97–104",
+   "pages": [
+    97,
+    104
+   ],
+   "chapters": "XXIX; XXVII; LVIII; LIX ([XXIX A], [XXX A], [XXVIII] are supplied: out)",
+   "plates": "XVI",
+   "file": "ani-029-027-058-059.json",
+   "status": "todo",
+   "after": "ani-061-054"
+  },
+  {
+   "id": "ani-044-045-046-050-093",
+   "seq": 105,
+   "name": "Spells 44, 45, 46, 50 and 93",
+   "cite": "Budge pp. 105–110",
+   "pages": [
+    105,
+    110
+   ],
+   "chapters": "XLIV; XLV; XLVI; L; XCIII; XCIII A",
+   "plates": "XVI, XVII",
+   "file": "ani-044-045-046-050-093.json",
+   "status": "todo",
+   "after": "ani-029-027-058-059"
+  },
+  {
+   "id": "ani-043-089-091-092",
+   "seq": 111,
+   "name": "Spells 43, 89, 91 and 92",
+   "cite": "Budge pp. 111–117",
+   "pages": [
+    111,
+    117
+   ],
+   "chapters": "XLIII; LXXXIX; XCI; XCII",
+   "plates": "XVII, XVIII",
+   "file": "ani-043-089-091-092.json",
+   "status": "todo",
+   "after": "ani-044-045-046-050-093"
+  },
+  {
+   "id": "ani-074-008-002-009-132-010",
+   "seq": 118,
+   "name": "Spells 74, 8, 2, 9, 132 and 10",
+   "cite": "Budge pp. 118–123",
+   "pages": [
+    118,
+    123
+   ],
+   "chapters": "LXXIV; VIII; II; IX; CXXXII; X (= XLVIII)",
+   "plates": "XVIII",
+   "file": "ani-074-008-002-009-132-010.json",
+   "status": "todo",
+   "after": "ani-043-089-091-092"
+  },
+  {
+   "id": "ani-015-a",
+   "seq": 123,
+   "name": "Spell 15 — the hymns, part 1 of 4",
+   "cite": "Budge pp. 123–127",
+   "pages": [
+    123,
+    127
+   ],
+   "chapters": "XV",
+   "plates": "XVIII, XIX",
+   "file": "ani-015-a.json",
+   "status": "todo",
+   "after": "ani-074-008-002-009-132-010"
+  },
+  {
+   "id": "ani-015-b",
+   "seq": 128,
+   "name": "Spell 15 — the hymns, part 2 of 4",
+   "cite": "Budge pp. 128–131",
+   "pages": [
+    128,
+    131
+   ],
+   "chapters": "XV",
+   "plates": "XIX, XX",
+   "file": "ani-015-b.json",
+   "status": "todo",
+   "after": "ani-015-a"
+  },
+  {
+   "id": "ani-015-c",
+   "seq": 132,
+   "name": "Spell 15 — the hymns, part 3 of 4",
+   "cite": "Budge pp. 132–135",
+   "pages": [
+    132,
+    135
+   ],
+   "chapters": "XV",
+   "plates": "XX, XXI",
+   "file": "ani-015-c.json",
+   "status": "todo",
+   "after": "ani-015-b"
+  },
+  {
+   "id": "ani-015-d",
+   "seq": 136,
+   "name": "Spell 15 — the hymns, part 4 of 4",
+   "cite": "Budge pp. 136–138",
+   "pages": [
+    136,
+    138
+   ],
+   "chapters": "XV",
+   "plates": "XXI",
+   "file": "ani-015-d.json",
+   "status": "todo",
+   "after": "ani-015-c"
+  },
+  {
+   "id": "ani-133",
+   "seq": 138,
+   "name": "Spell 133",
+   "cite": "Budge pp. 138–142",
+   "pages": [
+    138,
+    142
+   ],
+   "chapters": "CXXXIII and its rubric ([CXXVI] p. 140 is supplied: out)",
+   "plates": "XXI, XXII",
+   "file": "ani-133.json",
+   "status": "todo",
+   "after": "ani-015-d"
+  },
+  {
+   "id": "ani-134",
+   "seq": 142,
+   "name": "Spell 134",
+   "cite": "Budge pp. 142–146",
+   "pages": [
+    142,
+    146
+   ],
+   "chapters": "CXXXIV",
+   "plates": "XXII",
+   "file": "ani-134.json",
+   "status": "todo",
+   "after": "ani-133"
+  },
+  {
+   "id": "ani-124",
+   "seq": 146,
+   "name": "Spell 124",
+   "cite": "Budge pp. 146–150",
+   "pages": [
+    146,
+    150
+   ],
+   "chapters": "CXXIV",
+   "plates": "XXIV",
+   "file": "ani-124.json",
+   "status": "todo",
+   "after": "ani-134"
+  },
+  {
+   "id": "ani-086-077",
+   "seq": 150,
+   "name": "Spells 86 and 77",
+   "cite": "Budge pp. 150–154",
+   "pages": [
+    150,
+    154
+   ],
+   "chapters": "LXXXVI; LXXVII",
+   "plates": "XXV",
+   "file": "ani-086-077.json",
+   "status": "todo",
+   "after": "ani-124"
+  },
+  {
+   "id": "ani-078-a",
+   "seq": 154,
+   "name": "Spell 78, part 1 of 3",
+   "cite": "Budge pp. 154–158",
+   "pages": [
+    154,
+    158
+   ],
+   "chapters": "LXXVIII",
+   "plates": "XXV, XXVI",
+   "file": "ani-078-a.json",
+   "status": "todo",
+   "after": "ani-086-077"
+  },
+  {
+   "id": "ani-078-b",
+   "seq": 159,
+   "name": "Spell 78, part 2 of 3",
+   "cite": "Budge pp. 159–162",
+   "pages": [
+    159,
+    162
+   ],
+   "chapters": "LXXVIII",
+   "plates": "XXVI",
+   "file": "ani-078-b.json",
+   "status": "todo",
+   "after": "ani-078-a"
+  },
+  {
+   "id": "ani-078-c",
+   "seq": 163,
+   "name": "Spell 78, part 3 of 3",
+   "cite": "Budge pp. 163–166",
+   "pages": [
+    163,
+    166
+   ],
+   "chapters": "LXXVIII",
+   "plates": "XXVI",
+   "file": "ani-078-c.json",
+   "status": "todo",
+   "after": "ani-078-b"
+  },
+  {
+   "id": "ani-079-087-088-082",
+   "seq": 167,
+   "name": "Spells 79, 87, 88 and 82",
+   "cite": "Budge pp. 167–172",
+   "pages": [
+    167,
+    172
+   ],
+   "chapters": "LXXIX; LXXXVII; LXXXVIII; LXXXII",
+   "plates": "XXVI, XXVII",
+   "file": "ani-079-087-088-082.json",
+   "status": "todo",
+   "after": "ani-078-c"
+  },
+  {
+   "id": "ani-085-083",
+   "seq": 172,
+   "name": "Spells 85 and 83",
+   "cite": "Budge pp. 172–177",
+   "pages": [
+    172,
+    177
+   ],
+   "chapters": "LXXXV; LXXXIII ([LXXXIII Rubric] is supplied: out)",
+   "plates": "XXVII",
+   "file": "ani-085-083.json",
+   "status": "todo",
+   "after": "ani-079-087-088-082"
+  },
+  {
+   "id": "ani-084-081a-080",
+   "seq": 178,
+   "name": "Spells 84, 81A and 80",
+   "cite": "Budge pp. 178–184",
+   "pages": [
+    178,
+    184
+   ],
+   "chapters": "LXXXIV; LXXXI A; LXXX",
+   "plates": "XXVIII",
+   "file": "ani-084-081a-080.json",
+   "status": "todo",
+   "after": "ani-085-083"
+  },
+  {
+   "id": "ani-175",
+   "seq": 184,
+   "name": "Spell 175",
+   "cite": "Budge pp. 184–188",
+   "pages": [
+    184,
+    188
+   ],
+   "chapters": "CLXXV",
+   "plates": "XXIX",
+   "file": "ani-175.json",
+   "status": "todo",
+   "endAt": "the last word of Spell 175 on p. 189, immediately above the heading \"PLATE XXX.\" (Spell 125 follows: ani-125-introduction).",
+   "after": "ani-084-081a-080"
+  },
+  {
+   "id": "ani-042-a",
+   "seq": 213,
+   "name": "Spell 42, first half",
+   "cite": "Budge pp. 213–217",
+   "pages": [
+    213,
+    217
+   ],
+   "chapters": "XLII (the passages marked [XLII] are supplied: out)",
+   "plates": "XXXII",
+   "file": "ani-042-a.json",
+   "status": "todo",
+   "startAt": "the first word of Ani's text after the Appendix that follows the Confession (pp. 203–212, out): the title of Spell 42, about p. 213."
+  },
+  {
+   "id": "ani-042-b",
+   "seq": 218,
+   "name": "Spell 42, second half",
+   "cite": "Budge pp. 218–221",
+   "pages": [
+    218,
+    221
+   ],
+   "chapters": "XLII",
+   "plates": "XXXII",
+   "file": "ani-042-b.json",
+   "status": "todo",
+   "endAt": "the last word of Ani's text before the heading \"PLATE XXXIII.\" on p. 222 (the rubric of Spell 125 follows: ani-125-rubric).",
+   "after": "ani-042-a"
+  },
+  {
+   "id": "ani-155-156-029b-166",
+   "seq": 225,
+   "name": "Spells 155, 156, 29B and 166",
+   "cite": "Budge pp. 225–229",
+   "pages": [
+    225,
+    229
+   ],
+   "chapters": "CLV; CLVI; XXIX B; CLXVI",
+   "plates": "XXXIII",
+   "file": "ani-155-156-029b-166.json",
+   "status": "todo",
+   "startAt": "the first word of Ani's text after the Appendix that follows the rubric of Spell 125 (which begins on p. 224): the title of Spell 155, about p. 225."
+  },
+  {
+   "id": "ani-151-a",
+   "seq": 229,
+   "name": "Spell 151 — the funeral chamber, first half",
+   "cite": "Budge pp. 229–232",
+   "pages": [
+    229,
+    232
+   ],
+   "chapters": "CLI",
+   "plates": "XXXIII, XXXIV",
+   "file": "ani-151-a.json",
+   "status": "todo",
+   "after": "ani-155-156-029b-166"
+  },
+  {
+   "id": "ani-151-b",
+   "seq": 233,
+   "name": "Spell 151, second half, with Spell 6",
+   "cite": "Budge pp. 233–236",
+   "pages": [
+    233,
+    236
+   ],
+   "chapters": "CLI; VI",
+   "plates": "XXXIII, XXXIV",
+   "file": "ani-151-b.json",
+   "status": "todo",
+   "after": "ani-151-a"
+  },
+  {
+   "id": "ani-110",
+   "seq": 236,
+   "name": "Spell 110 — the Field of Offerings",
+   "cite": "Budge pp. 236–238",
+   "pages": [
+    236,
+    238
+   ],
+   "chapters": "CX",
+   "plates": "XXXIV",
+   "file": "ani-110.json",
+   "status": "todo",
+   "after": "ani-151-b"
+  },
+  {
+   "id": "ani-148-185-186",
+   "seq": 239,
+   "name": "Spell 148 and the closing hymns",
+   "cite": "Budge pp. 239–242",
+   "pages": [
+    239,
+    242
+   ],
+   "chapters": "CXLVIII; CLXXXV; CLXXXVI",
+   "plates": "XXXV, XXXVI, XXXVII",
+   "file": "ani-148-185-186.json",
+   "status": "todo",
+   "endAt": "the last word of the papyrus (Plate XXXVII, p. 242).",
+   "after": "ani-110"
+  }
+ ]
+}

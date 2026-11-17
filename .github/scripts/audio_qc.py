@@ -146,7 +146,9 @@ def main():
         text = spoken_text(s)
         best = score(path, text)
         tries = 0
-        while best["fail"] and tries < MAX_REROLLS and key and cfg.get("name"):
+        # Only Chirp voices give a different take each time; any other voice returns the same clip, so a
+        # re-roll would only spend characters (2026-11-17).
+        while best["fail"] and tries < MAX_REROLLS and key and "Chirp" in (cfg.get("name") or ""):
             tries += 1
             tmp = path + ".reroll.mp3"
             try:

@@ -42,8 +42,10 @@ VOICES = {
     "ar-XA": {"name": "ar-XA-Chirp3-HD-Achernar", "lang": "ar-XA", "espeak": "ar"},   # resolved 2026-09-20, pinned 2026-09-21
     # Hebrew (Pirkei Avot, 2026-10-08): Modern Israeli reading of the pointed text. Name left empty so
     # the first run resolves it deterministically and writes audio/<id>/voice.txt; pin it afterwards.
-    "he-IL": {"name": "he-IL-Chirp3-HD-Achernar", "lang": "he-IL", "espeak": "he",   # pinned 2026-10-08
-              "candidates": ["he-IL-Chirp3-HD-Achernar", "he-IL-Wavenet-A", "he-IL-Standard-A"]},
+    # 2026-11-17: Chirp3-HD-Achernar (pinned 2026-10-08) invented sounds on Hebrew; Zev, by ear, chose
+    # Wavenet-A reading the pointed, punctuated text. Do not move Hebrew back to a Chirp voice.
+    "he-IL": {"name": "he-IL-Wavenet-A", "lang": "he-IL", "espeak": "he",
+              "candidates": ["he-IL-Wavenet-A", "he-IL-Standard-A"]},
 }
 
 # Languages with no Google voice and no browser voice (langCode null) that are read by another
@@ -250,7 +252,7 @@ def new_regime(story):
                 or any(isinstance(s.get("say"), str) for s in story["sentences"]))
 
 
-def build_word_clips(sid, story, adir, cfg, key):
+def build_word_clips(sid, story, adir, cfg, key, remake=False):
     """audio/<id>/w/<n>.mp3 + words.json for a story with wordClips: true.
 
     Keys are the reader's own glossary keys (wordKey of each WORD_RE token of `t`). A key is
@@ -274,6 +276,8 @@ def build_word_clips(sid, story, adir, cfg, key):
     wf, wtf = adir + "/words.json", wdir + "/texts.json"
     words = json.load(open(wf, encoding="utf-8")) if os.path.exists(wf) else {}
     wtexts = json.load(open(wtf, encoding="utf-8")) if os.path.exists(wtf) else {}
+    if remake:   # the voice changed: keep the numbering, make every clip again
+        wtexts = {}
     nxt = max([int(n) for n in words.values()] + [-1]) + 1
     made = 0
     for k in sorted(spoken_for):
@@ -318,9 +322,15 @@ def main():
 
     # an already-resolved voice sticks (idempotent re-runs must never drift)
     vf = adir + "/voice.txt"
-    if not cfg.get("name") and os.path.exists(vf):
-        cfg["name"] = open(vf, encoding="utf-8").read().strip() or None
+    old_voice = open(vf, encoding="utf-8").read().strip() if os.path.exists(vf) else ""
+    if not cfg.get("name") and old_voice:
+        cfg["name"] = old_voice
     cfg["name"] = resolve_voice(cfg, key)
+    # A changed voice makes every existing clip stale, whatever its text (2026-11-17, Hebrew): the
+    # text caches below are ignored for this run, so all sentence and word clips are made again.
+    voice_changed = bool(old_voice) and old_voice != cfg["name"]
+    if voice_changed:
+        print("voice changed for %s: %s -> %s; every clip will be made again" % (sid, old_voice, cfg["name"]))
     open(vf, "w", encoding="utf-8").write(cfg["name"] + "\n")
 
     # Clips are cached by TEXT, not merely by existence. Skipping on existence alone means a
@@ -342,6 +352,8 @@ def main():
                       if os.path.exists("%s/%d.mp3" % (adir, i))}
     # A new-regime story is never grandfathered: its text (or its spoken layer) has just been
     # re-issued, so an old clip with no recorded text is exactly the clip that must not be trusted.
+    if voice_changed:
+        prev_texts = {}
 
     # Monthly budget (2026-10-11): skip, don't half-build, a story that would pass it.
     need = sum(len(spoken_text(s)) for i, s in enumerate(story["sentences"])
@@ -381,7 +393,7 @@ def main():
 
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     if story.get("wordClips") is True:
-        build_word_clips(sid, story, adir, cfg, key)
+        build_word_clips(sid, story, adir, cfg, key, remake=voice_changed)
     # The listening check re-rolls bad clips BEFORE alignment, so timings are taken from the
     # clip that ships. It never fails the job: its findings go to audio/<id>/qc.json.
     subprocess.run(["python3", ".github/scripts/audio_qc.py", sid], check=False, env=env)

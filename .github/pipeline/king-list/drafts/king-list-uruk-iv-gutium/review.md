@@ -136,3 +136,70 @@ Checks:
 - **VII 31 and VII 33: no MU 'years' on the copy**, where Langdon prints mu unbracketed. Decided meanwhile: the copy is followed (no mu word), the figures are counted as years, and Langdon's print is in the notes. In VII 33 the ME.EŠ (-meš) stands where mu would.
 - **VII 51 Gutian total**: the prism's 19 figures make 91 years and 40 days. The restored total (P. No. 2) is 125. Langdon's fn. 5 says "actual total only 86". Decided meanwhile: all three are reported and none corrected. conventions.md lists VII 51 among the totals that do not add up, which stands.
 - **VII 15 unug{ki}-še₃** at the head of a dynasty, where Langdon prints Unug-(ki) and the usual form is -ga. It is the third such -še₃ (after V 23 Mari and V 44 Akshak). Decided meanwhile: "to-Uruk (sic)", English "In Uruk".
+
+## Pass 2
+
+### What I read
+
+- gloss.json: 26 entries and `__broaden__` for e-lu-lu, šu-{d}suen and mu.
+- units.json after pass 1, every unit: reading, `l`, `i`, note and morph.
+- For the old text of every broadening, the published glossaries of all king-list-*.json.
+- Plate details from pass 1, re-checked where a note depends on them (VII 31, 33, 48, 50).
+
+### How the edits were made and checked
+
+Edits were made by script (scratchpad reviewer/rev2.py): load both files, modify, dump with indent=1 and ensure_ascii=False. No cuneiform was touched.
+
+Checks:
+- Every morph `g` covers its word's glyphs exactly once (asserted).
+- gloss.json contains no line number and no ESZ (asserted).
+- `r3.py build` → BUILT, 30 units. The built glossary shows the broadened mu, nu, e-lu-lu and šu-{d}suen, and the published u₄.
+- `validate` → **PASS**. The only WARN is the same 3 linecheck lines.
+- `signs.py check` → in sync.
+- stories.json was checked out and king-list-uruk-iv-gutium.json deleted. `git status` shows only units.json and gloss.json changed.
+
+### Changes
+
+- **gloss.json `__broaden__` e-lu-lu, šu-{d}suen · minor**
+  - What was wrong: both broadenings were pinned to lines ("(VII 33)", "(VII 45)"). The glosser worked from the pre-review morph text.
+  - What was done: the line numbers were removed. The old text was confirmed to be each published gloss whole, followed by " · ".
+- **gloss.json `__broaden__` mu · style**
+  - What was wrong: "taken with Langdon as 'a king by name'" no longer matched the units after pass 1. It also misquotes Langdon, whose translation is "had not a king by name".
+  - What was done: it now reads "'had no king by name'". The old text "year(s)" is the published gloss whole.
+- **gloss.json `__broaden__` nu (added) · minor**
+  - What was wrong: the published gloss of nu covers only "before a noun, 'not (a) …'". In VII 28 nu stands before the verb (nu-tuk), so the glossary did not cover this part's use.
+  - What was done: the gloss was broadened to: published text whole + " · before a verb, 'not': nu-tuk 'did not have'". The units morph carries the same text.
+- **units.json morph glosses gu-tu-um, tuk, -meš · minor**
+  - What was wrong: they differed from gloss.json, which is what enters the glossary.
+    - The units' gu-tu-um was line-pinned ("in both VII 26 and VII 27") and said "once with KI".
+    - The glosser's general wording ("with or without KI", "where the name is written out in full") is correct.
+  - What was done: the units morph glosses were aligned to gloss.json. Together with the broadenings and u₄ below, 30 morph glosses were aligned in all.
+- **units.json morph u₄ · style**
+  - What was wrong: the gloss carried "— u₄ N 'N days'", which differs from the published "day (the UD sign; Langdon ud)". gloss.json does not broaden it, so the glossary keeps the published text.
+  - What was done: it was aligned to the published gloss.
+
+**Counts: 0 major, 3 minor, 2 style.**
+
+### gloss.json entries checked and accepted
+
+- ur-nigin, ur-gigir, kud-da, šu-i₃-li₂, ur-{d}utu, im-ta-a, in-ki-šu₂, šul-me-e, i-ni-ma-ba-ki-eš, i-gi-eš-a-uš, ia-ar-la-gab, i-ba-te, ia-ar-la, ku-ru-um, […]-ne-di-in, […]-ra-bu-um, i-ra-ru-um, ib-ra-nu-um, ḫa-ab-lum, ia-ar-la-ga-an-da, ti-ri-ga, 21: these are identical to the reviewed units glosses.
+  - The sign descriptions agree with the plate.
+  - Langdon's forms and footnote variants are quoted correctly: Im-bi-a; Warlagaba as third king; Iarlagaš; Ti-ri-ga-an; the variant gi.
+  - No modern form is invented. "Akkadian ilī 'my god'" is a correct grammatical label.
+- ni-kil-la-gab: it describes only the name's signs, so it does not contradict the missing MU of VII 31.
+- -meš ("plural marker, written ME.EŠ; … follows a single king's name, where its sense is unclear"): this is consistent with pass 1 (ME + the EŠ sign, keyed ESH, standing where mu would). Nothing in gloss.json mentions ESZ or a MU in VII 31 or 33.
+- ugnim ("army, troops; Langdon 'horde(s)'"): consistent with PD lexical sense, and the sign identification is flagged.
+- tuk: "nu-tuk 'did not have' (nu 'not' + tuk)" is correct.
+
+### Fresh re-read of units.json: no further changes
+
+- `l` and `i` agree in sense and force in all 30 units.
+  - "(to)" and "(years)" mark unwritten words, as in uruk-i III 4 "(into)".
+  - Restorations are bracketed in `l`, as in akkad VII 9 "[years]".
+- The notes for VII 31, 33 and 50 read consistently with the plate after pass 1.
+- **VII 48:** the partial sign at the edge of the break touching MU is described as a trace and not read. That is right; it is too damaged to identify.
+
+### Refused
+
+- **The "a people of the eastern mountains" in gu-tu-um.** It is general description, not a translation of this text, and it was in the drafter's text that pass 1 accepted. Kept.
+- **The per-occurrence numeral glosses ("1; 6 here = 6", "king (here plural 'kings')").** They follow published morph practice and do not enter the glossary (no gloss.json entry). Kept.

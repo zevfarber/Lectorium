@@ -37,3 +37,9 @@
 - **signs-cuneiform.json DUG**: the entry added this firing says "in sagi (SAG.ŠU.DUG)"; after review the part ships KA.ŠU.DUG. signs.py cannot edit an existing entry. Decided meanwhile: left for the owner (one word to change, in the JSON and the two embedded copies).
 - **VI 34**: the copy writes the second Agade A(sic!)-NE with no GA and no KI and puts a '?' inside the sign Langdon reads galu. Decided meanwhile: shipped a-de₃ and lu₂(?), Langdon's print in the note.
 - **VII 9 Shu-Durul**: wholly restored; Langdon's Gimil-dur-ūl, KIB read ul after Scheil, shipped [šu-dur-ulₓ] with the new sign DUR (GU₂×KAK).
+
+## king-list-uruk-iv-gutium (2026-11-17)
+- **VII 31, VII 33: no MU on the plate.** Langdon prints 'mu 6 ni-ag' unbracketed in both; the copy goes straight from the name to the figure, while every other reign line draws MU. Decided meanwhile: the plate followed, `l` "6 (years)", Langdon's print in the notes.
+- **Gutian total (VII 50–51).** The prism's surviving figures add to 91 years and 40 days; the 125 is Langdon's restoration from P. No. 2; his translation note says 'only 86' without showing how. Decided meanwhile: all three reported, nothing corrected.
+- **VII 15 unug{ki}-še₃** at a dynasty's head (box drawn like the EŠ₂ of VIII 2, not GA): the third such -še₃ (V 23, V 44). Decided meanwhile: literal "to-Uruk (sic)", English "In Uruk", as before.
+- **VII 26/27 gu-tu-x-um**: a sign Langdon does not read stands between TU and UM in both lines. Decided meanwhile: unread x (LACUNA glyph, tr "x"), lemma gu-tu-um.

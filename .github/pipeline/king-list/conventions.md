@@ -92,3 +92,9 @@ Conventional reconstructed Sumerian. `langCode: null`. No voice chosen; parts pu
 - A stray wedge marked sic! inside a name: DISH glyph, role punct, tr "(sic)", inside the name's morph, no lemma of its own.
 - A count of kings takes its value as the lemma ("11"); " — " before the reign after "son of X" / "elder-brother of X, son of Y" in `l`.
 - KIB read ulₓ (after Langdon and Scheil). English: Rimush, Manishtishu, Naram-Suen, Shargalisharri, Igigi, Imi, Nani, Elulu, Dudu, Shu-Durul.
+
+## House renderings settled in king-list-uruk-iv-gutium (2026-11-17)
+- ugnim (KI.KAL.BAD, flagged) → "horde"; ugnim gu-tu-um → `l` "the-horde of Gutium", `i` "the horde of Gutium"; lugal-mu nu-tuk → `l` "a-king by-name(?) not-had", `i` "had no king by name (?)" (Langdon's sense, queried).
+- A reign line with no MU drawn (VII 31, 33) → `l` "X, 6 (years) he-ruled"; `i` as the formula. ud N → u₄, "days" ("reigned 40 days").
+- Readings by sign: Gimil-ili → šu-i₃-li₂ (NI NI); Kudda → kud-da (TAR, flagged); Ur-ᵈBabbar → ur-{d}utu; šù → šu₂; gab → DUH; šul → DUN; -meš → ME + EŠ (key ESH). English: Ur-nigin, Ur-gigir, Shu-ili, Ur-Utu, Imta, Inkishu, Nikillagab, Shulme, Elulumesh, Inimabakesh, Igeshaush, Yarlagab, Ibate, Yarla, Kurum, Irarum, Ibranum, Hablum, Yarlaganda, Tiriga.
+- A sign not read inside a name (gu-tu-x-um) → LACUNA glyph tr "x", the lemma the name without it.

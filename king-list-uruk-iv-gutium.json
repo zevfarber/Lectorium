@@ -1,0 +1,4448 @@
+{
+ "language": "Sumerian",
+ "langCode": null,
+ "script": "cuneiform",
+ "work": "Sumerian King List",
+ "workEn": "Sumerian King List",
+ "id": "king-list-uruk-iv-gutium",
+ "title": "𒉆𒈗",
+ "titleRead": "Namlugal",
+ "titleEn": "Sumerian King List — Uruk and the Gutian hordes (VII 15 – VIII 2)",
+ "part": "Uruk and the Gutian hordes (VII 15 – VIII 2)",
+ "provisional": true,
+ "draftNote": "Draft — the cuneiform and its readings are provisional, checked sign-by-sign against Langdon's 1923 edition of the prism.",
+ "source": "Weld-Blundell Prism (WB 444), after S. Langdon, Oxford Editions of Cuneiform Texts II (Oxford, 1923), VII 15 – VIII 2. Cuneiform in normalized Unicode (Neo-Assyrian forms) though the prism is Old Babylonian. Academic transliteration in modern subscript notation over Langdon's 1923 readings; Langdon's restorations shown in [ ] and his superseded readings flagged in the notes; pronunciation conventional reconstructed Sumerian. Fresh translations from the Sumerian; Langdon's public-domain translation consulted for sense only.",
+ "about": "The fourth dynasty of Uruk and the Gutian horde: Col. VII 15–51 of the prism and the first two lines of Col. VIII. Five kings of Uruk — Ur-nigin, his son Ur-gigir, Kudda, Shu-ili and Ur-Utu — reign 30 years in all; then Uruk is smitten and the kingship goes not to a city but to 'the horde of Gutium', a mountain people, who at first 'had no king by name (?)'. Twenty Gutian reigns follow, most of a handful of years, one of only forty days; two of the names are partly broken and one is lost. The total counts 21 kings, the kingless time as one, and its years are lost in a break that Langdon fills from another copy as 125 (the 40 days survive), far more than the 91 years and 40 days the reigns on the prism add up to. The kingship then returns to Uruk. Readings follow Langdon's 1923 edition, signs as his copy of the prism shows them. Where the copy shows something else — a 'to' after Uruk at the head of the dynasty, BA where his print has KA, an extra unread sign in the name Gutium, signs he brackets that survive, no 'years' sign in two reign lines (VII 31, 33) where he prints mu — the copy is followed and the notes say so; uncertain identifications, among them Langdon's long-form Gimil (ŠU) and several of the Gutian names' signs, are flagged.",
+ "numbering": "line",
+ "sentences": [
+  {
+   "ln": 15,
+   "t": "𒀕𒆠𒂠 𒌨𒆸 𒈗𒀀𒀭\n𒈬 𒐌 𒉌𒀝",
+   "l": "to-Uruk (sic), Ur-nigin was-king; years 7 he-ruled.",
+   "words": [
+    {
+     "reading": "unug{ki}-še₃",
+     "say": "unugše",
+     "glyphs": [
+      {
+       "s": "𒀕",
+       "sign": "UNUG",
+       "role": "log",
+       "tr": "unug"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒂠",
+       "sign": "ESH2",
+       "role": "phon",
+       "tr": "še₃"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "unug",
+       "gloss": "Uruk (Langdon Unug, Erech) — city in southern Babylonia, the seat of this dynasty; written with the UNUG sign (AB-gunû) plus the place-determinative KI (unread), as unug{ki}",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-šú",
+       "gloss": "terminative -šè/-šú — 'to, towards' (the EŠ₂ sign) · also written where the formula has the locative -a 'in' (ma-ri₂{ki}-še₃ at the head of a dynasty, where another copy has ma-ri₂{ki}-a); why the terminative stands there is uncertain",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ur-nigin",
+     "say": "urnigin",
+     "glyphs": [
+      {
+       "s": "𒌨",
+       "sign": "UR",
+       "role": "log",
+       "tr": "ur"
+      },
+      {
+       "s": "𒆸",
+       "sign": "LAGAB",
+       "role": "log",
+       "tr": "nigin"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ur-nigin",
+       "gloss": "Ur-nigin (Langdon Ur-nigin) — first king of the fourth dynasty of Uruk, father of Ur-gigir; UR + the sign Langdon reads nigin, drawn on the copy as a pointed head joined to a box of horizontals rather than the plain LAGAB box, so the identification is uncertain; ur 'man, servant'; the sense of the name is not clear",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal-am₃",
+     "say": "lugalam",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "am₃"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "phon",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-am₃",
+       "gloss": "enclitic copula 'is / was' — written am₃ = a-an",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "7",
+     "say": "7",
+     "glyphs": [
+      {
+       "s": "𒐌",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "7 diš",
+       "u": "CUNEIFORM NUMERIC SIGN SEVEN DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 7 here = 7",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 15,
+   "i": "In Uruk, Ur-nigin became king; he reigned 7 years.",
+   "n": "The fourth dynasty of Uruk opens, with the city at the head of the line and the king's name. VII 15 'Unug-(ki) Ur-nigin lugal-ám': on the copy (Pl. IV) the city is the UNUG sign and KI, and after KI stands a box of horizontals with two upright heads, drawn like the EŠ₂ of unug{ki}-še₃ in VIII 2 (and of VI 8, VI 23, VI 30) and unlike the GA of VII 47 (a box with a pointed wedge inside). Langdon prints no ending. The plate is followed: unug{ki}-še₃ 'to Uruk', where the opening formula has the locative 'in' (as at Mari, V 23, and Akshak, V 44); the literal line marks the oddity, the English follows the formula. That the box is EŠ₂ and not GA (unug{ki}-ga, the usual form, IV 45, VI 24) is a reading of the copy and not certain. The king: UR + a sign that Langdon reads nigin; the copy draws it as a large pointed head joined to a box of horizontals, not as the plain LAGAB box, and it is shown as LAGAB (nigin) after Langdon, an uncertain identification; the same form recurs in VII 17. ur is 'man, servant'; how the name is to be understood is not clear. Then LUGAL and A.AN, lugal-am₃ 'was king'. VII 16: mu 'years', 7 diš (four over three), ni-ag 'he ruled'; all clear."
+  },
+  {
+   "ln": 17,
+   "t": "𒌨𒇀 𒌉 𒌨𒆸𒆤\n𒈬 𒐋 𒉌𒀝",
+   "l": "Ur-gigir, son of-Ur-nigin — years 6 he-ruled.",
+   "words": [
+    {
+     "reading": "ur-gigir",
+     "say": "urgigir",
+     "glyphs": [
+      {
+       "s": "𒌨",
+       "sign": "UR",
+       "role": "log",
+       "tr": "ur"
+      },
+      {
+       "s": "𒇀",
+       "sign": "GIGIR",
+       "role": "log",
+       "tr": "gigir"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ur-gigir",
+       "gloss": "Ur-gigir (Langdon Ur-gigir) — king of Uruk (fourth dynasty), son of Ur-nigin; UR + GIGIR (LAGAB×BAD, 'chariot'), the second sign drawn wide on the copy, so its identification is Langdon's and uncertain; ur 'man, servant'; the sense of the name is not clear",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "dumu",
+     "say": "dumu",
+     "glyphs": [
+      {
+       "s": "𒌉",
+       "sign": "TUR",
+       "role": "log",
+       "tr": "dumu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dumu",
+       "gloss": "son, child — written with the TUR sign, read dumu; 'dumu X' = 'son of X'",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ur-nigin-ke₄",
+     "say": "urniginke",
+     "glyphs": [
+      {
+       "s": "𒌨",
+       "sign": "UR",
+       "role": "log",
+       "tr": "ur"
+      },
+      {
+       "s": "𒆸",
+       "sign": "LAGAB",
+       "role": "log",
+       "tr": "nigin"
+      },
+      {
+       "s": "𒆤",
+       "sign": "KID",
+       "role": "phon",
+       "tr": "ke₄"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ur-nigin",
+       "gloss": "Ur-nigin (Langdon Ur-nigin) — first king of the fourth dynasty of Uruk, father of Ur-gigir; UR + the sign Langdon reads nigin, drawn on the copy as a pointed head joined to a box of horizontals rather than the plain LAGAB box, so the identification is uncertain; ur 'man, servant'; the sense of the name is not clear",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-ke₄",
+       "gloss": "genitive -ak 'of' + ergative -e, written with the KID sign (Langdon -ge) — marks a genitive phrase such as 'son of X' as the subject (agent) of the verb; not always written",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "6",
+     "say": "6",
+     "glyphs": [
+      {
+       "s": "𒐋",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "6 diš",
+       "u": "CUNEIFORM NUMERIC SIGN SIX DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 6 here = 6",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 17,
+   "i": "Ur-gigir, son of Ur-nigin, reigned 6 years.",
+   "n": "Two lines. VII 17 'Ur-gigir dumu Ur-nigin- ge': UR, then gigir 'chariot', which the copy draws wide, as a plain box followed by a box with a diagonal inside; it is taken, with Langdon, as one sign, LAGAB×BAD (gigir), drawn spread out — an identification from his reading, not certain from the drawing. dumu (the TUR sign) 'son'; ur-nigin as in VII 15 (the same large form of the second sign); then KID, -ke₄ (Langdon -ge), the genitive -ak 'of' + the ergative -e: 'son of Ur-nigin', marking the phrase as the subject of the verb. VII 18: mu, 6 diš (three over three), ni-ag; all clear."
+  },
+  {
+   "ln": 19,
+   "t": "𒋻𒁕 𒈬 𒐋 𒉌𒀝",
+   "l": "Kudda, years 6 he-ruled.",
+   "words": [
+    {
+     "reading": "kud-da",
+     "say": "kudda",
+     "glyphs": [
+      {
+       "s": "𒋻",
+       "sign": "TAR",
+       "role": "phon",
+       "tr": "kud"
+      },
+      {
+       "s": "𒁕",
+       "sign": "DA",
+       "role": "phon",
+       "tr": "da"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kud-da",
+       "gloss": "Kudda (Langdon Kudda) — king of Uruk (fourth dynasty); written with two signs, taken here as TAR (read kud) + DA; the identification of the first sign is uncertain",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "6",
+     "say": "6",
+     "glyphs": [
+      {
+       "s": "𒐋",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "6 diš",
+       "u": "CUNEIFORM NUMERIC SIGN SIX DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 6 here = 6",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 19,
+   "i": "Kudda reigned 6 years.",
+   "n": "Name and reign on one line, all clear on the copy. Langdon prints the name 'Kudda' as one word, without dividing it. The copy draws two signs: a horizontal crossed by an upright and a diagonal, and a box with an inner horizontal and wedges. They are taken here as TAR, read kud, and DA: kud-da. The first identification is made from the drawing (it is unlike the GIŠ of VII 24) and is uncertain; the reading kud for TAR follows Langdon's name. Langdon (fn. 4) notes a vase said to come from Warka naming a Kudda, a šangu-priest of Innini and Babbar. mu, 6 diš, ni-ag."
+  },
+  {
+   "ln": 20,
+   "t": "𒋗𒉌𒉌 𒈬 𒐊 𒉌𒀝",
+   "l": "Shu-ili, years 5 he-ruled.",
+   "words": [
+    {
+     "reading": "šu-i₃-li₂",
+     "say": "šuili",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "log",
+       "tr": "šu"
+      },
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "i₃"
+      },
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "li₂"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šu-i₃-li₂",
+       "gloss": "Shu-ili (Langdon Gimil-ili) — king of Uruk (fourth dynasty); ŠU (Langdon's Gimil, drawn on the copy in a long form whose identification is his and uncertain) + NI-NI, read i₃-li₂, Akkadian ilī 'my god'",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "5",
+     "say": "5",
+     "glyphs": [
+      {
+       "s": "𒐊",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "5 diš",
+       "u": "CUNEIFORM NUMERIC SIGN FIVE DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 5 here = 5",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 20,
+   "i": "Shu-ili reigned 5 years.",
+   "n": "Name and reign on one line. Langdon 'Gimil-ili', printed as one name. Langdon reads the first element Gimil; on the copy it is drawn in the same long form as in VI 9, VI 13 and VII 45 (two touching parts: a wide part, pointed at the left and cross-hatched, then a box of horizontals ending in a crossing), unlike the compact ŠU of VIII 15 and 17. Langdon's reading is kept and shown as ŠU, read šu by sign (house rule); the identification is his and uncertain. Then two signs drawn alike, each a pointed sign with an upright, the NI sign as in ni-ag at the end of the line: i₃-li₂ (both NI; li₂ is the NI sign, as in Galibum), Langdon's ili, Akkadian 'my god'. English Shu-ili. mu, 5 diš (three over two), ni-ag; all clear."
+  },
+  {
+   "ln": 21,
+   "t": "𒌨𒀭𒌓 𒈬 𒐋 𒉌𒀝",
+   "l": "Ur-Utu, years 6 he-ruled.",
+   "words": [
+    {
+     "reading": "ur-{d}utu",
+     "say": "urutu",
+     "glyphs": [
+      {
+       "s": "𒌨",
+       "sign": "UR",
+       "role": "log",
+       "tr": "ur"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "log",
+       "tr": "utu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "{d}",
+       "gloss": "divine determinative (diĝir) — marks the following name as a god",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "ur-{d}utu",
+       "gloss": "Ur-Utu (Langdon Ur-ᵈBabbar) — king of Uruk (fourth dynasty); ur 'man, servant' + the sun-god Utu (the UD sign with the divine determinative; Langdon's Babbar): 'servant of Utu'",
+       "g": [
+        0,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "6",
+     "say": "6",
+     "glyphs": [
+      {
+       "s": "𒐋",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "6 diš",
+       "u": "CUNEIFORM NUMERIC SIGN SIX DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 6 here = 6",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 21,
+   "i": "Ur-Utu reigned 6 years.",
+   "n": "Name and reign on one line, all clear. Langdon 'Ur-ᵈBabbar': UR, the divine determinative (AN), and UD, the sun-god, read utu by sign (Langdon's Babbar, whom he renders Shamash): ur-{d}utu 'servant of Utu'. mu, 6 diš, ni-ag."
+  },
+  {
+   "ln": 22,
+   "t": "𒐊 𒈗\n𒈬𒁉 𒌋𒌋𒌋 𒅁𒀝",
+   "l": "5 kings; their-years 30 they-ruled.",
+   "words": [
+    {
+     "reading": "5",
+     "say": "5",
+     "glyphs": [
+      {
+       "s": "𒐊",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "5 diš",
+       "u": "CUNEIFORM NUMERIC SIGN FIVE DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "5",
+       "gloss": "five",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal",
+     "say": "lugal",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king (here plural 'kings')",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu-bi",
+     "say": "mubi",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu-bi",
+       "gloss": "'its years' — mu 'years' + -bi 'its'",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "30",
+     "say": "30",
+     "glyphs": [
+      {
+       "s": "𒌋",
+       "sign": "U",
+       "role": "num",
+       "tr": "3 u"
+      },
+      {
+       "s": "𒌋",
+       "sign": "U",
+       "role": "num",
+       "tr": ""
+      },
+      {
+       "s": "𒌋",
+       "sign": "U",
+       "role": "num",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "10; 3 here = 30",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ib-ag",
+     "say": "ibag",
+     "glyphs": [
+      {
+       "s": "𒅁",
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ib"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ib-ag",
+       "gloss": "íb-aĝ₂ — 'they ruled' (plural reign verb)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 22,
+   "i": "Five kings reigned 30 years.",
+   "n": "The total for the fourth dynasty of Uruk, over two lines, all clear on the copy: 5 diš (three over two), lugal; mu-bi, 30 = 3 u, ib-ag. The five reigns add up: 7 + 6 + 6 + 5 + 6 = 30, and there are five names. Langdon (fn. 5) notes that the Scheil tablet (Rev. 11–16) has the figures 3 + 6 + 6 + 5 + 6 and the total 26."
+  },
+  {
+   "ln": 24,
+   "t": "𒀕𒆠 𒄑𒆪 𒁀𒀭𒉺𒃷\n𒉆𒈗𒁉\n𒆠𒆗𒁁 𒄖𒌅▢𒌝 𒁀𒁺",
+   "l": "Uruk with-weapons was-smitten; its-kingship (to) the-horde of Gutium went.",
+   "words": [
+    {
+     "reading": "unug{ki}",
+     "say": "unug",
+     "glyphs": [
+      {
+       "s": "𒀕",
+       "sign": "UNUG",
+       "role": "log",
+       "tr": "unug"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "unug",
+       "gloss": "Uruk (Langdon Unug, Erech) — city in southern Babylonia, the seat of this dynasty; written with the UNUG sign (AB-gunû) plus the place-determinative KI (unread), as unug{ki}",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "{ĝeš}tukul",
+     "say": "tukul",
+     "glyphs": [
+      {
+       "s": "𒄑",
+       "sign": "GISH",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒆪",
+       "sign": "KU",
+       "role": "log",
+       "tr": "tukul"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "{ĝeš}",
+       "gloss": "wood determinative (ĝeš, the GIŠ sign) — unread, marks a wooden object; Langdon writes it as a raised ᵍⁱˢ",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "tukul",
+       "gloss": "weapon, mace — the KU sign with the wood determinative ĝeš (Langdon ᵍⁱˢku)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ba-an-sig₃",
+     "say": "bansig",
+     "glyphs": [
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "phon",
+       "tr": "an"
+      },
+      {
+       "s": "𒉺",
+       "sign": "PA",
+       "role": "log",
+       "tr": "sig₃"
+      },
+      {
+       "s": "𒃷",
+       "sign": "GAN2",
+       "role": "log",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ba-an-",
+       "gloss": "ba-n- — verbal prefix chain: ba- (often of motion away, or a middle/passive sense) + -n-, which ordinarily marks a 'he' who acts · in intransitive verbs of motion (ba-an-ku₄ 'entered') the -n- has no clear 'he' to mark; its function there is uncertain",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "sig₃",
+       "gloss": "to strike, smite — written as one compact sign taken as PA.GAN₂ (Langdon sīg, also printed sig); the identification of the drawn form is uncertain",
+       "g": [
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nam-lugal-bi",
+     "say": "namlugalbi",
+     "glyphs": [
+      {
+       "s": "𒉆",
+       "sign": "NAM",
+       "role": "phon",
+       "tr": "nam"
+      },
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nam-lugal",
+       "gloss": "kingship",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-bi",
+       "gloss": "'its / that' (3rd-person possessive)",
+       "g": [
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "ugnim",
+     "say": "ugnim",
+     "glyphs": [
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "log",
+       "tr": "ugnim"
+      },
+      {
+       "s": "𒆗",
+       "sign": "KAL",
+       "role": "log",
+       "tr": ""
+      },
+      {
+       "s": "𒁁",
+       "sign": "BAD",
+       "role": "log",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ugnim",
+       "gloss": "army, troops; Langdon 'horde(s)' — written with three signs taken (after Langdon's reading ugnim) as KI.KAL.BAD; the copy draws three separate signs, a pointed sign like KI, a box with horizontals and a box with a crossing, and the identification of the last two is uncertain",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "gu-tu-x-um",
+     "say": "gutium",
+     "glyphs": [
+      {
+       "s": "𒄖",
+       "sign": "GU",
+       "role": "phon",
+       "tr": "gu"
+      },
+      {
+       "s": "𒌅",
+       "sign": "TU",
+       "role": "phon",
+       "tr": "tu"
+      },
+      {
+       "s": "▢",
+       "sign": "LACUNA",
+       "role": "punct",
+       "tr": "x"
+      },
+      {
+       "s": "𒌝",
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "gu-tu-um",
+       "gloss": "Gutium (Langdon Gu-tu-um, 'Gutûm') — the land of the Gutians, a people of the eastern mountains; GU-TU-UM, with or without the place-determinative KI; on this prism a further sign (a cluster of corner-wedges joined to a box of horizontals) stands between TU and UM where the name is written out in full; it is not identified and is shown as x; other copies have Gu-ti-um",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ba-ĝen",
+     "say": "baĝen",
+     "glyphs": [
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒁺",
+       "sign": "DU",
+       "role": "log",
+       "tr": "ĝen"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ba-gín",
+       "gloss": "ba-ĝen — 'went, passed' (ĝen written with the DU sign)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 24,
+   "i": "Uruk was smitten with weapons; its kingship was carried to the horde of Gutium.",
+   "n": "The refrain, over three lines; the kingship now passes not to a city but to a people. VII 24 'Unug-(ki) ᵍⁱˢku ka- an- sīg': UNUG and KI, then GIŠ and KU, {ĝeš}tukul 'weapon(s)' (Langdon ᵍⁱˢku); then the verb. Langdon prints 'ka-', a misprint (as in V 21): the copy draws a small box with an inner diagonal, the same BA as in ba-gín (VII 26), not KA; so ba-an-sig₃ 'was smitten' (Langdon sīg), the last sign drawn compact, as elsewhere. VII 25 'nam-lugal-bi': 'its kingship'. VII 26 'ugnim Gu-tu-um ba-gín': ugnim, which Langdon renders 'hordes', 'army, troops', written with three signs (taken as KI.KAL.BAD after his reading; the last two are not certainly identified on the copy); then the name Gutium, and ba-ĝen 'went' (Langdon ba-gín; BA, DU). No 'to' is written: ugnim gu-tu-um stands bare, where the refrain elsewhere has -še₃; the genitive 'of Gutium' is unwritten too. Langdon (fn. 6) notes that the Scheil tablet (Rev. 18) has Gu-ti-um-(ki)-šú. The name: GU and TU, then a sign Langdon does not read, a cluster of corner-wedges joined to a box of horizontals, and then UM (the box with uprights of Kurum, VII 39, and Irarum, VII 42). The same sequence stands in VII 27. The extra sign is not lost, but it is not identified here: it is shown as x inside the name, and the name is given as Langdon's Gutium."
+  },
+  {
+   "ln": 27,
+   "t": "𒆠𒆗𒁁 𒄖𒌅▢𒌝𒆠\n𒈗𒈬 𒉡𒌇",
+   "l": "The-horde of Gutium a-king by-name(?) not-had.",
+   "words": [
+    {
+     "reading": "ugnim",
+     "say": "ugnim",
+     "glyphs": [
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "log",
+       "tr": "ugnim"
+      },
+      {
+       "s": "𒆗",
+       "sign": "KAL",
+       "role": "log",
+       "tr": ""
+      },
+      {
+       "s": "𒁁",
+       "sign": "BAD",
+       "role": "log",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ugnim",
+       "gloss": "army, troops; Langdon 'horde(s)' — written with three signs taken (after Langdon's reading ugnim) as KI.KAL.BAD; the copy draws three separate signs, a pointed sign like KI, a box with horizontals and a box with a crossing, and the identification of the last two is uncertain",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "gu-tu-x-um{ki}",
+     "say": "gutium",
+     "glyphs": [
+      {
+       "s": "𒄖",
+       "sign": "GU",
+       "role": "phon",
+       "tr": "gu"
+      },
+      {
+       "s": "𒌅",
+       "sign": "TU",
+       "role": "phon",
+       "tr": "tu"
+      },
+      {
+       "s": "▢",
+       "sign": "LACUNA",
+       "role": "punct",
+       "tr": "x"
+      },
+      {
+       "s": "𒌝",
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "gu-tu-um",
+       "gloss": "Gutium (Langdon Gu-tu-um, 'Gutûm') — the land of the Gutians, a people of the eastern mountains; GU-TU-UM, with or without the place-determinative KI; on this prism a further sign (a cluster of corner-wedges joined to a box of horizontals) stands between TU and UM where the name is written out in full; it is not identified and is shown as x; other copies have Gu-ti-um",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal-mu",
+     "say": "lugalmu",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      },
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        1
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "nu-tuk",
+     "say": "nutuk",
+     "glyphs": [
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      },
+      {
+       "s": "𒌇",
+       "sign": "TUK",
+       "role": "log",
+       "tr": "tuk"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nu",
+       "gloss": "not — negative particle (the NU sign); before a noun, 'not (a) …' · before a verb, 'not': nu-tuk 'did not have'",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "tuk",
+       "gloss": "to have, possess (the TUK sign); nu-tuk 'did not have' (nu 'not' + tuk)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 27,
+   "i": "The horde of Gutium had no king by name (?).",
+   "n": "Two lines, all clear on the copy. VII 27 'ugnim Gu-tu-um-(ki)': ugnim and the name as in VII 26 (with the same unread sign x before UM), now with the place-determinative KI. The genitive is unwritten: 'the horde (of) Gutium'. VII 28 'lugal-mu nu-tuk': lugal 'king'; mu, which Langdon takes as 'name' ('had not a king by name'), not 'years' as in the reign lines; nu 'not' and tuk 'to have' (TUK): nu-tuk 'did not have'. lugal-mu could also be read 'my king' (-mu 'my'), which makes no sense here; how mu goes with lugal is uncertain, and Langdon's 'by name' is followed with a query. Langdon (fn. 7) notes that Legrain No. 1 VIII 2 has lugal nu-ub-tuk, 'had not a king', without mu. In the total (VII 50) this kingless time is counted as one king (his fn. 5)."
+  },
+  {
+   "ln": 29,
+   "t": "𒅎𒋫𒀀 𒈗𒀀𒀭 𒈬 𒐈 𒉌𒀝",
+   "l": "Imta was-king; years 3 he-ruled.",
+   "words": [
+    {
+     "reading": "im-ta-a",
+     "say": "imtaa",
+     "glyphs": [
+      {
+       "s": "𒅎",
+       "sign": "IM",
+       "role": "phon",
+       "tr": "im"
+      },
+      {
+       "s": "𒋫",
+       "sign": "TA",
+       "role": "phon",
+       "tr": "ta"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "im-ta-a",
+       "gloss": "Imta (Langdon Im-ta-a, 'Imtâ') — the first named king of the Gutian horde; IM-TA-A; Legrain No. 1 has Im-bi-a, and Langdon thinks one of the two similar signs (TA, BI) a scribe's error",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal-am₃",
+     "say": "lugalam",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "am₃"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "phon",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-am₃",
+       "gloss": "enclitic copula 'is / was' — written am₃ = a-an",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "3",
+     "say": "3",
+     "glyphs": [
+      {
+       "s": "𒐈",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "3 diš",
+       "u": "CUNEIFORM NUMERIC SIGN THREE DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 3 here = 3",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 29,
+   "i": "Imta became king; he reigned 3 years.",
+   "n": "The first named Gutian king; one line, all clear on the copy: IM, TA, A, then lugal-am₃ 'was king' (A.AN), mu, 3 diš, ni-ag. As at the head of a dynasty, the line says he 'was king' (lugal-am₃), but no city is named. Langdon (fn. 8) notes that Legrain No. 1 VIII 3 has Im-bi-a ('the signs are so similar that a scribal error has occurred'; which is right he leaves open) and (fn. 9) that it gives 5 years. The name's sense is not clear."
+  },
+  {
+   "ln": 30,
+   "t": "𒅔𒆠𒋙 𒈬 𒐋 𒉌𒀝",
+   "l": "Inkishu, years 6 he-ruled.",
+   "words": [
+    {
+     "reading": "in-ki-šu₂",
+     "say": "inkišu",
+     "glyphs": [
+      {
+       "s": "𒅔",
+       "sign": "IN",
+       "role": "phon",
+       "tr": "in"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "ki"
+      },
+      {
+       "s": "𒋙",
+       "sign": "SHU2",
+       "role": "phon",
+       "tr": "šu₂"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "in-ki-šu₂",
+       "gloss": "Inkishu (Langdon In-ki-šù) — a Gutian king; IN-KI + a small sign that Langdon reads šù, taken as ŠU₂; the identification of the last sign is his; a variant has gi for ki",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "6",
+     "say": "6",
+     "glyphs": [
+      {
+       "s": "𒐋",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "6 diš",
+       "u": "CUNEIFORM NUMERIC SIGN SIX DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 6 here = 6",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 30,
+   "i": "Inkishu reigned 6 years.",
+   "n": "Name and reign on one line. Langdon 'In-ki-šù', with a grave accent on šù. The copy draws IN, KI (the pointed sign, as in Unug-(ki)), and then a small sign, a single corner-wedge with a tail; Langdon's šù is read by sign as ŠU₂ (šu₂), but that this small form is ŠU₂ is his identification and is uncertain. Langdon notes a variant gi for ki (fn. 10) and (fn. 11) that Legrain No. 1 VIII 5 has 7 years. mu, 6 diš, ni-ag."
+  },
+  {
+   "ln": 31,
+   "t": "𒉌𒆸𒆷𒂃 𒐋 𒉌𒀝",
+   "l": "Nikillagab, 6 (years) he-ruled.",
+   "words": [
+    {
+     "reading": "ni-kil-la-gab",
+     "say": "nikillagab",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒆸",
+       "sign": "LAGAB",
+       "role": "phon",
+       "tr": "kil"
+      },
+      {
+       "s": "𒆷",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la"
+      },
+      {
+       "s": "𒂃",
+       "sign": "DUH",
+       "role": "phon",
+       "tr": "gab"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-kil-la-gab",
+       "gloss": "Nikillagab (Langdon Ni-kil-la-gab) — a Gutian king; NI + a plain box (LAGAB, given Langdon's value kil) + LA + GAB (the DU₈ sign); the value kil is Langdon's; the sense of the name is not clear",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "6",
+     "say": "6",
+     "glyphs": [
+      {
+       "s": "𒐋",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "6 diš",
+       "u": "CUNEIFORM NUMERIC SIGN SIX DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 6 here = 6",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 31,
+   "i": "Nikillagab reigned 6 years.",
+   "n": "Name and reign on one line, all clear; there is no MU 'years' on the copy (see the end of this note). NI; then a plain box with one upright head, the LAGAB sign, given Langdon's value kil (the value is his); LA (a pointed head and a box of horizontals, as in Yarla, VII 38); GAB, the DU₈ sign (a box with corner-wedges, as in Yarlagab, VII 36). Langdon (fn. 12) suggests that Legrain No. 1 VIII 19, '…an-gab', may be the same king. After GAB the copy goes straight to 6 diš (three over three) and ni-ag: the MU sign drawn in every other reign line of this column (a cluster of corner-wedges on a horizontal, closed by an upright; e.g. VII 30, 32, 36) is not there. Langdon prints 'mu 6 ni-ag' unbracketed; the copy is followed, and the figure is taken as years, as his translation has it."
+  },
+  {
+   "ln": 32,
+   "t": "𒂄𒈨𒂊 𒈬 𒐋 𒉌𒀝",
+   "l": "Shulme, years 6 he-ruled.",
+   "words": [
+    {
+     "reading": "šul-me-e",
+     "say": "šulmee",
+     "glyphs": [
+      {
+       "s": "𒂄",
+       "sign": "DUN",
+       "role": "phon",
+       "tr": "šul"
+      },
+      {
+       "s": "𒈨",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "me"
+      },
+      {
+       "s": "𒂊",
+       "sign": "E",
+       "role": "phon",
+       "tr": "e"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šul-me-e",
+       "gloss": "Shulme (Langdon Šul-me-e, 'Šulmê') — a Gutian king; DUN (read šul) + ME + E",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "6",
+     "say": "6",
+     "glyphs": [
+      {
+       "s": "𒐋",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "6 diš",
+       "u": "CUNEIFORM NUMERIC SIGN SIX DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 6 here = 6",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 32,
+   "i": "Shulme reigned 6 years.",
+   "n": "Name and reign on one line, all clear: the DUN sign, read šul (Langdon Šul), then ME and E: šul-me-e (Langdon 'Šulmê'). mu, 6 diš, ni-ag."
+  },
+  {
+   "ln": 33,
+   "t": "𒂊𒇻𒇻𒈨𒌍 𒐋 𒉌𒀝",
+   "l": "Elulu-mesh, 6 (years) he-ruled.",
+   "words": [
+    {
+     "reading": "e-lu-lu-meš",
+     "say": "elulumeš",
+     "glyphs": [
+      {
+       "s": "𒂊",
+       "sign": "E",
+       "role": "phon",
+       "tr": "e"
+      },
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      },
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      },
+      {
+       "s": "𒈨",
+       "sign": "ME",
+       "role": "phon",
+       "tr": "meš"
+      },
+      {
+       "s": "𒌍",
+       "sign": "ESH",
+       "role": "phon",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "e-lu-lu",
+       "gloss": "Elulu — king of Ur; the name is not on this prism, restored by Langdon from other copies · Elulu — also a king of Agade, the last of four named after 'who was king?' (Langdon [E-lu-lu]); likewise not on this prism, restored by Langdon; other copies have i-lu-lu · Elulumesh — also a Gutian king, the name clear on the prism and followed by -meš",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "-meš",
+       "gloss": "-meš — plural marker (written ME.EŠ; Akkadian scribal usage); on this prism it follows a single king's name, where its sense is unclear (Langdon takes it as part of the name, 'Elulumeš')",
+       "g": [
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "6",
+     "say": "6",
+     "glyphs": [
+      {
+       "s": "𒐋",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "6 diš",
+       "u": "CUNEIFORM NUMERIC SIGN SIX DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 6 here = 6",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 33,
+   "i": "Elulumesh reigned 6 years.",
+   "n": "Name and reign on one line, all clear. E, LU, LU, then ME (an upright with a horizontal) followed by three corner-wedges, the EŠ of VII 34, i.e. ME.EŠ, the writing of meš: Langdon 'E-lu-lu-meš', translated 'Elulumeš' as one name. -meš is elsewhere the plural marker (Akkadian scribal usage; cf. Sumerian -me-eš 'they are'), which makes no sense after one king's name; whether it belongs to the name or is a scribe's slip is not clear, and it is kept as written. The literal line separates it; the English keeps Langdon's Elulumesh. There is no MU 'years' after it: the copy goes from the three corner-wedges straight to 6 diš (three over three). The corner-wedges are not a MU, which on this copy closes its cluster with an upright (VII 32, 34). Langdon prints 'E-lu-lu-meš mu 6 ni-ag', mu unbracketed; the copy is followed, and the figure is taken as years. Whether the scribe left out mu, or wrote ME.EŠ where mu belonged, is not clear. The name e-lu-lu is that of the king of Ur (IV 1) and of Agade (VII 5), both restored there; here it is clear. 6 diš, ni-ag."
+  },
+  {
+   "ln": 34,
+   "t": "𒄿𒉌𒈠𒁀𒆠𒌍 𒈬 𒐊 𒉌𒀝",
+   "l": "Inimabakesh, years 5 he-ruled.",
+   "words": [
+    {
+     "reading": "i-ni-ma-ba-ki-eš",
+     "say": "inimabakeš",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "ki"
+      },
+      {
+       "s": "𒌍",
+       "sign": "ESH",
+       "role": "phon",
+       "tr": "eš"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "i-ni-ma-ba-ki-eš",
+       "gloss": "Inimabakesh (Langdon I-ni-ma-ba-ki-eš, 'Inimabakêš') — a Gutian king; I-NI-MA-BA-KI-EŠ",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "5",
+     "say": "5",
+     "glyphs": [
+      {
+       "s": "𒐊",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "5 diš",
+       "u": "CUNEIFORM NUMERIC SIGN FIVE DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 5 here = 5",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 34,
+   "i": "Inimabakesh reigned 5 years.",
+   "n": "Name and reign on one line, all clear: I, NI, MA, BA, KI, EŠ (three corner-wedges), as Langdon. mu, 5 diš (three over two), ni-ag."
+  },
+  {
+   "ln": 35,
+   "t": "𒄿𒄀𒌍𒀀𒍑 𒈬 𒐋 𒉌𒀝",
+   "l": "Igeshaush, years 6 he-ruled.",
+   "words": [
+    {
+     "reading": "i-gi-eš-a-uš",
+     "say": "igešauš",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒄀",
+       "sign": "GI",
+       "role": "phon",
+       "tr": "gi"
+      },
+      {
+       "s": "𒌍",
+       "sign": "ESH",
+       "role": "phon",
+       "tr": "eš"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒍑",
+       "sign": "USH",
+       "role": "phon",
+       "tr": "uš"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "i-gi-eš-a-uš",
+       "gloss": "Igeshaush (Langdon I-gi-eš-a-uš, 'Igêšauš') — a Gutian king; I-GI-EŠ-A-UŠ",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "6",
+     "say": "6",
+     "glyphs": [
+      {
+       "s": "𒐋",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "6 diš",
+       "u": "CUNEIFORM NUMERIC SIGN SIX DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 6 here = 6",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 35,
+   "i": "Igeshaush reigned 6 years.",
+   "n": "Name and reign on one line, the last of Col. VII on Langdon's p. 18. I, then GI with the three slanting corner-wedges of EŠ drawn against it, A, and UŠ: as Langdon, though on the copy GI and EŠ run together. mu, 6 diš, ni-ag."
+  },
+  {
+   "ln": 36,
+   "t": "𒅀𒅈𒆷𒂃 𒈬 𒌋𒐊 𒉌𒀝",
+   "l": "Yarlagab, years 15 he-ruled.",
+   "words": [
+    {
+     "reading": "ia-ar-la-gab",
+     "say": "iarlagab",
+     "glyphs": [
+      {
+       "s": "𒅀",
+       "sign": "IA",
+       "role": "phon",
+       "tr": "ia"
+      },
+      {
+       "s": "𒅈",
+       "sign": "AR",
+       "role": "phon",
+       "tr": "ar"
+      },
+      {
+       "s": "𒆷",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la"
+      },
+      {
+       "s": "𒂃",
+       "sign": "DUH",
+       "role": "phon",
+       "tr": "gab"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ia-ar-la-gab",
+       "gloss": "Yarlagab (Langdon I̯a-ar-la-gab, 'Jarlagab') — a Gutian king; IA (i̯a, consonantal y) + AR + LA + GAB (the DU₈ sign); Legrain No. 1 has Warlagaba, as the third king",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "15",
+     "say": "15",
+     "glyphs": [
+      {
+       "s": "𒌋",
+       "sign": "U",
+       "role": "num",
+       "tr": "u"
+      },
+      {
+       "s": "𒐊",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "5 diš",
+       "u": "CUNEIFORM NUMERIC SIGN FIVE DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "10",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "diš",
+       "gloss": "1; 5 here = 5",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 36,
+   "i": "Yarlagab reigned 15 years.",
+   "n": "Name and reign on one line, all clear: IA (Langdon i̯a, the consonantal y), AR, LA, GAB (DU₈). English Yarlagab (Langdon 'Jarlagab'). mu, 15 = 1 u + 5 diš, ni-ag. Langdon (fn. 1) notes that Legrain No. 1 VIII 6 has Warlagaba, makes him the third king, and gives 6 years."
+  },
+  {
+   "ln": 37,
+   "t": "𒄿𒁀𒋼 𒈬 𒐈 𒉌𒀝",
+   "l": "Ibate, years 3 he-ruled.",
+   "words": [
+    {
+     "reading": "i-ba-te",
+     "say": "ibate",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒋼",
+       "sign": "TE",
+       "role": "phon",
+       "tr": "te"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "i-ba-te",
+       "gloss": "Ibate (Langdon I-ba-te) — a Gutian king; I-BA-TE",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "3",
+     "say": "3",
+     "glyphs": [
+      {
+       "s": "𒐈",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "3 diš",
+       "u": "CUNEIFORM NUMERIC SIGN THREE DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 3 here = 3",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 37,
+   "i": "Ibate reigned 3 years.",
+   "n": "Name and reign on one line, all clear: I, BA, TE. mu, 3 diš, ni-ag. Langdon (fn. 2) compares Legrain No. 1 VIII 17, '…ti'."
+  },
+  {
+   "ln": 38,
+   "t": "𒅀𒅈𒆷 𒈬 𒐈 𒉌𒀝",
+   "l": "Yarla, years 3 he-ruled.",
+   "words": [
+    {
+     "reading": "ia-ar-la",
+     "say": "iarla",
+     "glyphs": [
+      {
+       "s": "𒅀",
+       "sign": "IA",
+       "role": "phon",
+       "tr": "ia"
+      },
+      {
+       "s": "𒅈",
+       "sign": "AR",
+       "role": "phon",
+       "tr": "ar"
+      },
+      {
+       "s": "𒆷",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ia-ar-la",
+       "gloss": "Yarla (Langdon I̯a-ar-la, 'Jarla(gaš)') — a Gutian king; IA-AR-LA, perhaps a shortened writing of a longer name (Langdon: probably Yarlagash)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "3",
+     "say": "3",
+     "glyphs": [
+      {
+       "s": "𒐈",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "3 diš",
+       "u": "CUNEIFORM NUMERIC SIGN THREE DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 3 here = 3",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 38,
+   "i": "Yarla reigned 3 years.",
+   "n": "Name and reign on one line, all clear: IA, AR, LA, as in VII 36 without GAB. Langdon (fn. 3) thinks the name is probably I̯arlagaš (the fourth king in Legrain No. 1 VIII; Arlagan in Clay) and translates 'Jarla(gaš)'; the prism has only ia-ar-la, and nothing is supplied here. mu, 3 diš, ni-ag."
+  },
+  {
+   "ln": 39,
+   "t": "𒆪𒊒𒌝 𒈬 𒁹 𒉌𒀝",
+   "l": "Kurum, years 1 he-ruled.",
+   "words": [
+    {
+     "reading": "ku-ru-um",
+     "say": "kurum",
+     "glyphs": [
+      {
+       "s": "𒆪",
+       "sign": "KU",
+       "role": "phon",
+       "tr": "ku"
+      },
+      {
+       "s": "𒊒",
+       "sign": "RU",
+       "role": "phon",
+       "tr": "ru"
+      },
+      {
+       "s": "𒌝",
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ku-ru-um",
+       "gloss": "Kurum (Langdon Ku-ru-um) — a Gutian king; KU-RU-UM",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "1",
+     "say": "1",
+     "glyphs": [
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "diš"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 39,
+   "i": "Kurum reigned 1 year.",
+   "n": "Name and reign on one line, all clear: KU, RU, UM. mu, 1 diš, ni-ag."
+  },
+  {
+   "ln": 40,
+   "t": "▢𒉈𒁲𒅔 𒈬 𒐈 𒉌𒀝",
+   "l": "[…]-nedin, years 3 he-ruled.",
+   "words": [
+    {
+     "reading": "[…]-ne-di-in",
+     "say": "…nedin",
+     "glyphs": [
+      {
+       "s": "▢",
+       "sign": "LACUNA",
+       "role": "punct",
+       "tr": "[…]"
+      },
+      {
+       "s": "𒉈",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "ne"
+      },
+      {
+       "s": "𒁲",
+       "sign": "DI",
+       "role": "phon",
+       "tr": "di"
+      },
+      {
+       "s": "𒅔",
+       "sign": "IN",
+       "role": "phon",
+       "tr": "in"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "a lost stretch of text — a gap where the signs are broken away on the prism",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "[…]-ne-di-in",
+       "gloss": "[…]-nedin (Langdon '…. ne-di-in') — a Gutian king; only the end of the name survives, NE-DI-IN, and the rest is lost",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "3",
+     "say": "3",
+     "glyphs": [
+      {
+       "s": "𒐈",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "3 diš",
+       "u": "CUNEIFORM NUMERIC SIGN THREE DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 3 here = 3",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 40,
+   "i": "[…]-nedin reigned 3 years.",
+   "n": "Name and reign on one line. The beginning of the line is hatched on the copy; the end of the name stands after the break: NE (a box with horizontals, at the edge of the break), DI, IN (Langdon '…. ne-di-in'). The lost part is not restored. mu, 3 diš, ni-ag."
+  },
+  {
+   "ln": 41,
+   "t": "▢𒊏𒁍𒌝 𒈬 𒁹𒁹 𒉌𒀝",
+   "l": "[…]-rabum, years 2 he-ruled.",
+   "words": [
+    {
+     "reading": "[…]-ra-bu-um",
+     "say": "…rabum",
+     "glyphs": [
+      {
+       "s": "▢",
+       "sign": "LACUNA",
+       "role": "punct",
+       "tr": "[…]"
+      },
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "𒁍",
+       "sign": "BU",
+       "role": "phon",
+       "tr": "bu"
+      },
+      {
+       "s": "𒌝",
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "a lost stretch of text — a gap where the signs are broken away on the prism",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "[…]-ra-bu-um",
+       "gloss": "[…]-rabum (Langdon '…. ra-bu-um') — a Gutian king; only the end of the name survives, RA-BU-UM, and the rest is lost",
+       "g": [
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "2",
+     "say": "2",
+     "glyphs": [
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "2 diš"
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 2 here = 2",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 41,
+   "i": "[…]-rabum reigned 2 years.",
+   "n": "Name and reign on one line. The beginning is hatched; RA stands at the edge of the break, then BU and UM (Langdon '…. ra-bu-um'). mu, 2 diš, ni-ag."
+  },
+  {
+   "ln": 42,
+   "t": "𒄿𒊏𒊒𒌝 𒈬 𒁹𒁹 𒉌𒀝",
+   "l": "Irarum, years 2 he-ruled.",
+   "words": [
+    {
+     "reading": "i-ra-ru-um",
+     "say": "irarum",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "𒊒",
+       "sign": "RU",
+       "role": "phon",
+       "tr": "ru"
+      },
+      {
+       "s": "𒌝",
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "i-ra-ru-um",
+       "gloss": "Irarum (Langdon I-ra-ru-um) — a Gutian king; I-RA-RU-UM",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "2",
+     "say": "2",
+     "glyphs": [
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "2 diš"
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 2 here = 2",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 42,
+   "i": "Irarum reigned 2 years.",
+   "n": "Name and reign on one line, all clear: I, RA, RU, UM. mu, 2 diš, ni-ag."
+  },
+  {
+   "ln": 43,
+   "t": "𒅁𒊏𒉡𒌝 𒈬 𒁹 𒉌𒀝",
+   "l": "Ibranum, years 1 he-ruled.",
+   "words": [
+    {
+     "reading": "ib-ra-nu-um",
+     "say": "ibranum",
+     "glyphs": [
+      {
+       "s": "𒅁",
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ib"
+      },
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      },
+      {
+       "s": "𒌝",
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ib-ra-nu-um",
+       "gloss": "Ibranum (Langdon Ib-ra-nu-um) — a Gutian king; IB-RA-NU-UM",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "1",
+     "say": "1",
+     "glyphs": [
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "diš"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 43,
+   "i": "Ibranum reigned 1 year.",
+   "n": "Name and reign on one line, all clear: IB, RA, NU, UM. mu, 1 diš, ni-ag."
+  },
+  {
+   "ln": 44,
+   "t": "𒄩𒀊𒈝 𒈬 𒁹𒁹 𒉌𒀝",
+   "l": "Hablum, years 2 he-ruled.",
+   "words": [
+    {
+     "reading": "ḫa-ab-lum",
+     "say": "ḫablum",
+     "glyphs": [
+      {
+       "s": "𒄩",
+       "sign": "HA",
+       "role": "phon",
+       "tr": "ḫa"
+      },
+      {
+       "s": "𒀊",
+       "sign": "AB",
+       "role": "phon",
+       "tr": "ab"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫa-ab-lum",
+       "gloss": "Hablum (Langdon Ḫa-ab-lum) — a Gutian king, father of Shu-Suen; ḪA-AB-LUM",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "2",
+     "say": "2",
+     "glyphs": [
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "2 diš"
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 2 here = 2",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 44,
+   "i": "Hablum reigned 2 years.",
+   "n": "Name and reign on one line, all clear: ḪA, AB, LUM. mu, 2 diš, ni-ag."
+  },
+  {
+   "ln": 45,
+   "t": "𒋗𒀭𒂗𒍪 𒌉 𒄩𒀊𒈝\n𒈬 𒐌 𒉌𒀝",
+   "l": "Shu-Suen, son of Hablum — years 7 he-ruled.",
+   "words": [
+    {
+     "reading": "šu-{d}suen",
+     "say": "šusuen",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "log",
+       "tr": "šu"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒂗",
+       "sign": "EN",
+       "role": "log",
+       "tr": "suen"
+      },
+      {
+       "s": "𒍪",
+       "sign": "ZU",
+       "role": "log",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "{d}",
+       "gloss": "divine determinative (diĝir) — marks the following name as a god",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "šu-{d}suen",
+       "gloss": "Shu-Suen (Langdon Gimil-ᵈSin) — name of a king of Akshak (son of Ishu-il; Langdon's restoration, not preserved on this prism) and of a king of Kish; ŠU (Langdon's Gimil) + the moon-god Suen (EN.ZU, Langdon Sin) with the divine determinative; where the copy draws the first element in a long form unlike its usual ŠU, the identification is Langdon's and uncertain · also a Gutian king, son of Hablum, the name clear on the prism, the first element again in the long form",
+       "g": [
+        0,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "dumu",
+     "say": "dumu",
+     "glyphs": [
+      {
+       "s": "𒌉",
+       "sign": "TUR",
+       "role": "log",
+       "tr": "dumu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dumu",
+       "gloss": "son, child — written with the TUR sign, read dumu; 'dumu X' = 'son of X'",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫa-ab-lum",
+     "say": "ḫablum",
+     "glyphs": [
+      {
+       "s": "𒄩",
+       "sign": "HA",
+       "role": "phon",
+       "tr": "ḫa"
+      },
+      {
+       "s": "𒀊",
+       "sign": "AB",
+       "role": "phon",
+       "tr": "ab"
+      },
+      {
+       "s": "𒈝",
+       "sign": "LUM",
+       "role": "phon",
+       "tr": "lum"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫa-ab-lum",
+       "gloss": "Hablum (Langdon Ḫa-ab-lum) — a Gutian king, father of Shu-Suen; ḪA-AB-LUM",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "7",
+     "say": "7",
+     "glyphs": [
+      {
+       "s": "𒐌",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "7 diš",
+       "u": "CUNEIFORM NUMERIC SIGN SEVEN DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 7 here = 7",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 45,
+   "i": "Shu-Suen, son of Hablum, reigned 7 years.",
+   "n": "Two lines. VII 45 'Gimil-ᵈEn-zu dumu Ḫa-ab-lum'. Langdon reads the first element Gimil; on the copy it is drawn in the same long form as in VI 9, VI 13 and VII 20 (two touching parts: a wide part, pointed at the left and cross-hatched, then a box of horizontals ending in a crossing), unlike the compact ŠU of VIII 15 and 17. Langdon's reading is kept and shown as ŠU, read šu by sign (house rule); the identification is his and uncertain. Then the divine determinative and EN.ZU, the moon-god (Langdon En-zu, read suen by sign): šu-{d}suen, Shu-Suen. dumu (TUR) and ḫa-ab-lum, 'son of Hablum' (VII 44); here no -ke₄ is written after the father's name (contrast VII 17), so the genitive is unwritten, as Langdon prints it. VII 46: mu, 7 diš, ni-ag; all clear."
+  },
+  {
+   "ln": 47,
+   "t": "𒅀𒅈𒆷𒂵𒀭𒁕 𒈬 𒐌 𒉌𒀝",
+   "l": "[Ya]rlaganda, years 7 he-ruled.",
+   "words": [
+    {
+     "reading": "[ia]-ar-la-ga-an-da",
+     "say": "iarlaganda",
+     "glyphs": [
+      {
+       "s": "𒅀",
+       "sign": "IA",
+       "role": "phon",
+       "tr": "ia"
+      },
+      {
+       "s": "𒅈",
+       "sign": "AR",
+       "role": "phon",
+       "tr": "ar"
+      },
+      {
+       "s": "𒆷",
+       "sign": "LA",
+       "role": "phon",
+       "tr": "la"
+      },
+      {
+       "s": "𒂵",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "ga"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "phon",
+       "tr": "an"
+      },
+      {
+       "s": "𒁕",
+       "sign": "DA",
+       "role": "phon",
+       "tr": "da"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ia-ar-la-ga-an-da",
+       "gloss": "Yarlaganda (Langdon [I̯a-]ar-la-ga-an-da, 'Jarlaganda') — a Gutian king; IA-AR-LA-GA-AN-DA, the first sign in a break, restored by Langdon",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "7",
+     "say": "7",
+     "glyphs": [
+      {
+       "s": "𒐌",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "7 diš",
+       "u": "CUNEIFORM NUMERIC SIGN SEVEN DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 7 here = 7",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 47,
+   "i": "Yarlaganda reigned 7 years.",
+   "n": "Name and reign on one line. The beginning of the line is hatched; Langdon restores [I̯a-]. AR stands at the edge of the break (its head touching the hatching), then LA, GA (a box with a pointed wedge inside), AN, DA, all clear. English Yarlaganda (Langdon 'Jarlaganda'). Langdon (fn. 4) compares Legrain No. 1 VIII 15, '…da'. mu, 7 diš, ni-ag."
+  },
+  {
+   "ln": 48,
+   "t": "▢ 𒈬 𒐌 𒉌𒀝",
+   "l": "[…], years 7 he-ruled.",
+   "words": [
+    {
+     "reading": "[…]",
+     "say": "…",
+     "glyphs": [
+      {
+       "s": "▢",
+       "sign": "LACUNA",
+       "role": "punct",
+       "tr": "[…]"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "a lost stretch of text — a gap where the signs are broken away on the prism",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "7",
+     "say": "7",
+     "glyphs": [
+      {
+       "s": "𒐌",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "7 diš",
+       "u": "CUNEIFORM NUMERIC SIGN SEVEN DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 7 here = 7",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 48,
+   "i": "[…] reigned 7 years.",
+   "n": "The king's name is lost: the line is hatched for more than half its length (Langdon prints only dots). At the edge of the break a trace of a sign touches MU; it is not read. mu, 7 diš, ni-ag, clear."
+  },
+  {
+   "ln": 49,
+   "t": "𒋾𒊑𒂵 𒌓 𒌋𒌋𒌋𒌋 𒉌𒀝",
+   "l": "[Tiri]ga, days 40 he-ruled.",
+   "words": [
+    {
+     "reading": "[ti-ri]-ga",
+     "say": "tiriga",
+     "glyphs": [
+      {
+       "s": "𒋾",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      },
+      {
+       "s": "𒊑",
+       "sign": "RI",
+       "role": "phon",
+       "tr": "ri"
+      },
+      {
+       "s": "𒂵",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "ga"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ti-ri-ga",
+       "gloss": "Tiriga (Langdon [Ti-ri-]ga) — the last Gutian king, who reigned forty days; TI-RI-GA, the first two signs in a break and restored by Langdon; an inscription has the name as Ti-ri-ga-an",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "u₄",
+     "say": "u",
+     "glyphs": [
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "log",
+       "tr": "u₄"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u₄",
+       "gloss": "day (the UD sign; Langdon ud)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "40",
+     "say": "40",
+     "glyphs": [
+      {
+       "s": "𒌋",
+       "sign": "U",
+       "role": "num",
+       "tr": "4 u"
+      },
+      {
+       "s": "𒌋",
+       "sign": "U",
+       "role": "num",
+       "tr": ""
+      },
+      {
+       "s": "𒌋",
+       "sign": "U",
+       "role": "num",
+       "tr": ""
+      },
+      {
+       "s": "𒌋",
+       "sign": "U",
+       "role": "num",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "10; 4 here = 40",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 49,
+   "i": "Tiriga reigned 40 days.",
+   "n": "Name and reign on one line. The beginning is hatched; Langdon restores [Ti-ri-]. Of GA only the pointed right part stands at the edge of the break (it is not bracketed). Then UD — here u₄ 'day(s)', not mu 'years': Langdon 'ud 40', 'reigned 40 days' — 40 = 4 u (two over two), and ni-ag (NI drawn wide). Langdon (fn. 6) notes an inscription (RA 9, 120) with the name Ti-ri-ga-an, and that Legrain No. 1 IX 1 also has 40 days. English Tiriga, after Langdon."
+  },
+  {
+   "ln": 50,
+   "t": "𒌋𒌋𒁹 𒈗\n𒈬𒁉 𒐖𒐊 𒌓 𒌋𒌋𒌋𒌋 𒅁𒀝",
+   "l": "21 kings; [their-years 125], days 40 they-ruled.",
+   "words": [
+    {
+     "reading": "21",
+     "say": "21",
+     "glyphs": [
+      {
+       "s": "𒌋",
+       "sign": "U",
+       "role": "num",
+       "tr": "2 u"
+      },
+      {
+       "s": "𒌋",
+       "sign": "U",
+       "role": "num",
+       "tr": ""
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "diš"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "21",
+       "gloss": "twenty-one",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal",
+     "say": "lugal",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king (here plural 'kings')",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[mu-bi]",
+     "say": "mubi",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu-bi",
+       "gloss": "'its years' — mu 'years' + -bi 'its'",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "[125]",
+     "say": "125",
+     "glyphs": [
+      {
+       "s": "𒐖",
+       "sign": "GESH2",
+       "role": "num",
+       "tr": "2 geš",
+       "u": "CUNEIFORM NUMERIC SIGN TWO GESH2"
+      },
+      {
+       "s": "𒐊",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "5 diš",
+       "u": "CUNEIFORM NUMERIC SIGN FIVE DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš",
+       "gloss": "60 (the base of the system); 2 here = 120",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "diš",
+       "gloss": "1; 5 here = 5",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "u₄",
+     "say": "u",
+     "glyphs": [
+      {
+       "s": "𒌓",
+       "sign": "UD",
+       "role": "log",
+       "tr": "u₄"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u₄",
+       "gloss": "day (the UD sign; Langdon ud)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "40",
+     "say": "40",
+     "glyphs": [
+      {
+       "s": "𒌋",
+       "sign": "U",
+       "role": "num",
+       "tr": "4 u"
+      },
+      {
+       "s": "𒌋",
+       "sign": "U",
+       "role": "num",
+       "tr": ""
+      },
+      {
+       "s": "𒌋",
+       "sign": "U",
+       "role": "num",
+       "tr": ""
+      },
+      {
+       "s": "𒌋",
+       "sign": "U",
+       "role": "num",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "10; 4 here = 40",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ib-ag",
+     "say": "ibag",
+     "glyphs": [
+      {
+       "s": "𒅁",
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ib"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ib-ag",
+       "gloss": "íb-aĝ₂ — 'they ruled' (plural reign verb)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 50,
+   "i": "Twenty-one kings reigned [125 years] and 40 days.",
+   "n": "The total for the Gutian horde, over two lines; the last of Col. VII. VII 50 '21 lugal': the figure is damaged on the copy: part of it lies in a patch of hatching, with one corner-wedge and one upright clear; Langdon reads 21 (2 u + 1 diš) unbracketed, and his value is shown; then LUGAL, clear. VII 51 '[mu-bi 125] ud 40 ib- ag': mu-bi and the years are in the break, restored by Langdon from Poebel No. 2 (Rev. III 7): 125 = 2 geš + 5 diš; then UD (u₄ 'days') at the edge of the break, 40 = 4 u, IB and AK clear. The count: there are 20 names (VII 29–49, the name of VII 48 lost), and Langdon (fn. 5 to his translation) explains the 21 by the kingless time of VII 27–28, counted as one king. The years: the nineteen figures on the prism (VII 29–48, every one checked on the copy; VII 31 and 33 write no mu but are counted as years) make 3 + 6 + 6 + 6 + 6 + 5 + 6 + 15 + 3 + 3 + 1 + 3 + 2 + 2 + 1 + 2 + 7 + 7 + 7 = 91 years, plus Tiriga's 40 days: 91 years and 40 days, 34 years short of the restored 125. Langdon says 'the actual total is only 86 years'; that is 5 less than the figures he himself prints for these lines, and he does not say how he reached it. Both are reported; neither is corrected. He notes that Legrain No. 1 IX 3 has 124 years and 40 days, that the restored 125 is 'naturally uncertain', and that a king whose name ends in -ga in Legrain No. 1 VIII 21 is not on this prism. The totals are shown as written (and as restored), not corrected."
+  },
+  {
+   "ln": 1,
+   "t": "𒆠𒆗𒁁 𒄖𒌅𒌝𒆠 𒄑𒆪 𒁀𒀭𒉺𒃷\n𒉆𒈗𒁉 𒀕𒆠𒂠 𒁀𒁺",
+   "l": "The-horde of Gutium [with-weapons was-smitten]; its-kingship to-Uruk [went].",
+   "words": [
+    {
+     "reading": "ugnim",
+     "say": "ugnim",
+     "glyphs": [
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "log",
+       "tr": "ugnim"
+      },
+      {
+       "s": "𒆗",
+       "sign": "KAL",
+       "role": "log",
+       "tr": ""
+      },
+      {
+       "s": "𒁁",
+       "sign": "BAD",
+       "role": "log",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ugnim",
+       "gloss": "army, troops; Langdon 'horde(s)' — written with three signs taken (after Langdon's reading ugnim) as KI.KAL.BAD; the copy draws three separate signs, a pointed sign like KI, a box with horizontals and a box with a crossing, and the identification of the last two is uncertain",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "gu-tu-[um{ki}]",
+     "say": "gutium",
+     "glyphs": [
+      {
+       "s": "𒄖",
+       "sign": "GU",
+       "role": "phon",
+       "tr": "gu"
+      },
+      {
+       "s": "𒌅",
+       "sign": "TU",
+       "role": "phon",
+       "tr": "tu"
+      },
+      {
+       "s": "𒌝",
+       "sign": "UM",
+       "role": "phon",
+       "tr": "um"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "gu-tu-um",
+       "gloss": "Gutium (Langdon Gu-tu-um, 'Gutûm') — the land of the Gutians, a people of the eastern mountains; GU-TU-UM, with or without the place-determinative KI; on this prism a further sign (a cluster of corner-wedges joined to a box of horizontals) stands between TU and UM where the name is written out in full; it is not identified and is shown as x; other copies have Gu-ti-um",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[{ĝeš}tukul]",
+     "say": "tukul",
+     "glyphs": [
+      {
+       "s": "𒄑",
+       "sign": "GISH",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒆪",
+       "sign": "KU",
+       "role": "log",
+       "tr": "tukul"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "{ĝeš}",
+       "gloss": "wood determinative (ĝeš, the GIŠ sign) — unread, marks a wooden object; Langdon writes it as a raised ᵍⁱˢ",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "tukul",
+       "gloss": "weapon, mace — the KU sign with the wood determinative ĝeš (Langdon ᵍⁱˢku)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[ba-an-sig₃]",
+     "say": "bansig",
+     "glyphs": [
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "phon",
+       "tr": "an"
+      },
+      {
+       "s": "𒉺",
+       "sign": "PA",
+       "role": "log",
+       "tr": "sig₃"
+      },
+      {
+       "s": "𒃷",
+       "sign": "GAN2",
+       "role": "log",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ba-an-",
+       "gloss": "ba-n- — verbal prefix chain: ba- (often of motion away, or a middle/passive sense) + -n-, which ordinarily marks a 'he' who acts · in intransitive verbs of motion (ba-an-ku₄ 'entered') the -n- has no clear 'he' to mark; its function there is uncertain",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "sig₃",
+       "gloss": "to strike, smite — written as one compact sign taken as PA.GAN₂ (Langdon sīg, also printed sig); the identification of the drawn form is uncertain",
+       "g": [
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nam-lugal-bi",
+     "say": "namlugalbi",
+     "glyphs": [
+      {
+       "s": "𒉆",
+       "sign": "NAM",
+       "role": "phon",
+       "tr": "nam"
+      },
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nam-lugal",
+       "gloss": "kingship",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-bi",
+       "gloss": "'its / that' (3rd-person possessive)",
+       "g": [
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "unug{ki}-še₃",
+     "say": "unugše",
+     "glyphs": [
+      {
+       "s": "𒀕",
+       "sign": "UNUG",
+       "role": "log",
+       "tr": "unug"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒂠",
+       "sign": "ESH2",
+       "role": "phon",
+       "tr": "še₃"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "unug",
+       "gloss": "Uruk (Langdon Unug, Erech) — city in southern Babylonia, the seat of this dynasty; written with the UNUG sign (AB-gunû) plus the place-determinative KI (unread), as unug{ki}",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-šú",
+       "gloss": "terminative -šè/-šú — 'to, towards' (the EŠ₂ sign) · also written where the formula has the locative -a 'in' (ma-ri₂{ki}-še₃ at the head of a dynasty, where another copy has ma-ri₂{ki}-a); why the terminative stands there is uncertain",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[ba-ĝen]",
+     "say": "baĝen",
+     "glyphs": [
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒁺",
+       "sign": "DU",
+       "role": "log",
+       "tr": "ĝen"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ba-gín",
+       "gloss": "ba-ĝen — 'went, passed' (ĝen written with the DU sign)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VIII",
+   "line": 1,
+   "i": "The horde of Gutium was smitten with weapons; its kingship was carried to Uruk.",
+   "n": "The refrain, over two lines, at the head of Col. VIII. VIII 1 'ugnim [Gu-tu-um-ki ᵍⁱˢku ba-an-sīg]': ugnim (three signs, as in VII 26), then GU clear and TU drawn at the edge of a hatched break; the rest of the line is lost. Langdon brackets the whole name, but GU and TU survive and are shown unbracketed; um{ki} {ĝeš}tukul ba-an-sig₃ is his restoration (whether the unread sign of VII 26–27 stood here cannot be seen). VIII 2 'nam-lugal-bi Unug-(ki)-šú [ba-gín]': nam-lugal-bi, UNUG, KI and EŠ₂ clear, unug{ki}-še₃ 'to Uruk'; ba-ĝen 'went' is in the break, restored by Langdon (printed on an indented run-over line)."
+  }
+ ],
+ "glossary": {
+  "-am₃": "enclitic copula 'is / was' — written am₃ = a-an",
+  "-bi": "'its / that' (3rd-person possessive)",
+  "-ke₄": "genitive -ak 'of' + ergative -e, written with the KID sign (Langdon -ge) — marks a genitive phrase such as 'son of X' as the subject (agent) of the verb; not always written",
+  "-meš": "-meš — plural marker (written ME.EŠ; Akkadian scribal usage); on this prism it follows a single king's name, where its sense is unclear (Langdon takes it as part of the name, 'Elulumeš')",
+  "-šú": "terminative -šè/-šú — 'to, towards' (the EŠ₂ sign) · also written where the formula has the locative -a 'in' (ma-ri₂{ki}-še₃ at the head of a dynasty, where another copy has ma-ri₂{ki}-a); why the terminative stands there is uncertain",
+  "21": "twenty-one",
+  "5": "five",
+  "[…]": "a lost stretch of text — a gap where the signs are broken away on the prism",
+  "[…]-ne-di-in": "[…]-nedin (Langdon '…. ne-di-in') — a Gutian king; only the end of the name survives, NE-DI-IN, and the rest is lost",
+  "[…]-ra-bu-um": "[…]-rabum (Langdon '…. ra-bu-um') — a Gutian king; only the end of the name survives, RA-BU-UM, and the rest is lost",
+  "ba-an-": "ba-n- — verbal prefix chain: ba- (often of motion away, or a middle/passive sense) + -n-, which ordinarily marks a 'he' who acts · in intransitive verbs of motion (ba-an-ku₄ 'entered') the -n- has no clear 'he' to mark; its function there is uncertain",
+  "ba-gín": "ba-ĝen — 'went, passed' (ĝen written with the DU sign)",
+  "diš": "diš — 1",
+  "dumu": "son, child — written with the TUR sign, read dumu; 'dumu X' = 'son of X'",
+  "e-lu-lu": "Elulu — king of Ur; the name is not on this prism, restored by Langdon from other copies · Elulu — also a king of Agade, the last of four named after 'who was king?' (Langdon [E-lu-lu]); likewise not on this prism, restored by Langdon; other copies have i-lu-lu · Elulumesh — also a Gutian king, the name clear on the prism and followed by -meš",
+  "geš": "geš — 60 (the base of the system)",
+  "gu-tu-um": "Gutium (Langdon Gu-tu-um, 'Gutûm') — the land of the Gutians, a people of the eastern mountains; GU-TU-UM, with or without the place-determinative KI; on this prism a further sign (a cluster of corner-wedges joined to a box of horizontals) stands between TU and UM where the name is written out in full; it is not identified and is shown as x; other copies have Gu-ti-um",
+  "i-ba-te": "Ibate (Langdon I-ba-te) — a Gutian king; I-BA-TE",
+  "i-gi-eš-a-uš": "Igeshaush (Langdon I-gi-eš-a-uš, 'Igêšauš') — a Gutian king; I-GI-EŠ-A-UŠ",
+  "i-ni-ma-ba-ki-eš": "Inimabakesh (Langdon I-ni-ma-ba-ki-eš, 'Inimabakêš') — a Gutian king; I-NI-MA-BA-KI-EŠ",
+  "i-ra-ru-um": "Irarum (Langdon I-ra-ru-um) — a Gutian king; I-RA-RU-UM",
+  "ia-ar-la": "Yarla (Langdon I̯a-ar-la, 'Jarla(gaš)') — a Gutian king; IA-AR-LA, perhaps a shortened writing of a longer name (Langdon: probably Yarlagash)",
+  "ia-ar-la-ga-an-da": "Yarlaganda (Langdon [I̯a-]ar-la-ga-an-da, 'Jarlaganda') — a Gutian king; IA-AR-LA-GA-AN-DA, the first sign in a break, restored by Langdon",
+  "ia-ar-la-gab": "Yarlagab (Langdon I̯a-ar-la-gab, 'Jarlagab') — a Gutian king; IA (i̯a, consonantal y) + AR + LA + GAB (the DU₈ sign); Legrain No. 1 has Warlagaba, as the third king",
+  "ib-ag": "íb-aĝ₂ — 'they ruled' (plural reign verb)",
+  "ib-ra-nu-um": "Ibranum (Langdon Ib-ra-nu-um) — a Gutian king; IB-RA-NU-UM",
+  "im-ta-a": "Imta (Langdon Im-ta-a, 'Imtâ') — the first named king of the Gutian horde; IM-TA-A; Legrain No. 1 has Im-bi-a, and Langdon thinks one of the two similar signs (TA, BI) a scribe's error",
+  "in-ki-šu₂": "Inkishu (Langdon In-ki-šù) — a Gutian king; IN-KI + a small sign that Langdon reads šù, taken as ŠU₂; the identification of the last sign is his; a variant has gi for ki",
+  "ku-ru-um": "Kurum (Langdon Ku-ru-um) — a Gutian king; KU-RU-UM",
+  "kud-da": "Kudda (Langdon Kudda) — king of Uruk (fourth dynasty); written with two signs, taken here as TAR (read kud) + DA; the identification of the first sign is uncertain",
+  "lugal": "king",
+  "mu": "year(s) · name — in lugal-mu nu-tuk, taken with Langdon as 'had no king by name'; the sense there is uncertain",
+  "mu-bi": "'its years' — mu 'years' + -bi 'its'",
+  "nam-lugal": "kingship",
+  "ni-ag": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+  "ni-kil-la-gab": "Nikillagab (Langdon Ni-kil-la-gab) — a Gutian king; NI + a plain box (LAGAB, given Langdon's value kil) + LA + GAB (the DU₈ sign); the value kil is Langdon's; the sense of the name is not clear",
+  "nu": "not — negative particle (the NU sign); before a noun, 'not (a) …' · before a verb, 'not': nu-tuk 'did not have'",
+  "sig₃": "to strike, smite — written as one compact sign taken as PA.GAN₂ (Langdon sīg, also printed sig); the identification of the drawn form is uncertain",
+  "ti-ri-ga": "Tiriga (Langdon [Ti-ri-]ga) — the last Gutian king, who reigned forty days; TI-RI-GA, the first two signs in a break and restored by Langdon; an inscription has the name as Ti-ri-ga-an",
+  "tuk": "to have, possess (the TUK sign); nu-tuk 'did not have' (nu 'not' + tuk)",
+  "tukul": "weapon, mace — the KU sign with the wood determinative ĝeš (Langdon ᵍⁱˢku)",
+  "u": "u — 10",
+  "ugnim": "army, troops; Langdon 'horde(s)' — written with three signs taken (after Langdon's reading ugnim) as KI.KAL.BAD; the copy draws three separate signs, a pointed sign like KI, a box with horizontals and a box with a crossing, and the identification of the last two is uncertain",
+  "unug": "Uruk (Langdon Unug, Erech) — city in southern Babylonia, the seat of this dynasty; written with the UNUG sign (AB-gunû) plus the place-determinative KI (unread), as unug{ki}",
+  "ur-gigir": "Ur-gigir (Langdon Ur-gigir) — king of Uruk (fourth dynasty), son of Ur-nigin; UR + GIGIR (LAGAB×BAD, 'chariot'), the second sign drawn wide on the copy, so its identification is Langdon's and uncertain; ur 'man, servant'; the sense of the name is not clear",
+  "ur-nigin": "Ur-nigin (Langdon Ur-nigin) — first king of the fourth dynasty of Uruk, father of Ur-gigir; UR + the sign Langdon reads nigin, drawn on the copy as a pointed head joined to a box of horizontals rather than the plain LAGAB box, so the identification is uncertain; ur 'man, servant'; the sense of the name is not clear",
+  "ur-{d}utu": "Ur-Utu (Langdon Ur-ᵈBabbar) — king of Uruk (fourth dynasty); ur 'man, servant' + the sun-god Utu (the UD sign with the divine determinative; Langdon's Babbar): 'servant of Utu'",
+  "u₄": "day (the UD sign; Langdon ud)",
+  "{d}": "divine determinative (diĝir) — marks the following name as a god",
+  "{ĝeš}": "wood determinative (ĝeš, the GIŠ sign) — unread, marks a wooden object; Langdon writes it as a raised ᵍⁱˢ",
+  "šu-i₃-li₂": "Shu-ili (Langdon Gimil-ili) — king of Uruk (fourth dynasty); ŠU (Langdon's Gimil, drawn on the copy in a long form whose identification is his and uncertain) + NI-NI, read i₃-li₂, Akkadian ilī 'my god'",
+  "šu-{d}suen": "Shu-Suen (Langdon Gimil-ᵈSin) — name of a king of Akshak (son of Ishu-il; Langdon's restoration, not preserved on this prism) and of a king of Kish; ŠU (Langdon's Gimil) + the moon-god Suen (EN.ZU, Langdon Sin) with the divine determinative; where the copy draws the first element in a long form unlike its usual ŠU, the identification is Langdon's and uncertain · also a Gutian king, son of Hablum, the name clear on the prism, the first element again in the long form",
+  "šul-me-e": "Shulme (Langdon Šul-me-e, 'Šulmê') — a Gutian king; DUN (read šul) + ME + E",
+  "ḫa-ab-lum": "Hablum (Langdon Ḫa-ab-lum) — a Gutian king, father of Shu-Suen; ḪA-AB-LUM"
+ }
+}

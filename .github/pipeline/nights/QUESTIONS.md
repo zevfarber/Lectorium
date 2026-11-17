@@ -1521,3 +1521,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Nothing sexual beyond Dunyā's awakening desire; no passage omitted.
 - Library label: `Night 134 · The Lover and the Beloved, continued`. Nothing to decide.
 - Next: night 135 is not yet complete (tail unread); the next firing should transcribe.
+
+## PDF 663–670 (printed pp. 641–648, transcribed 2026-11-17)
+- Night 135 (P640L01–P643L17) is now complete and unpublished; the next firing should publish it.
+- The night 136 label at P643L18 is printed `الميلة` (misprint for الليلة). It is archived as printed; `nights_index.py` still finds the night. A publishing run should add it to `emend.json` if the reading text shows the label. The line's `"h": true` was set by hand (pass 1 had left it off; every earlier night label carries it).
+- Low confidence: P644L03 اَمَا (pass 1 امّا, pass 2 انّا; the adjudicator saw two fathas, no shadda, an undotted middle tooth); P646L11 التفتت (the second letter has no lām stem; it is not استفتت or انتفتت).
+- Orchestrator checks (both passes agreed, but may have read by sense). All confirmed as printed. For the publishing runs to consider for `emend.json`: P641L05 `ن` (alif of ان missing: الى ن دخلا); P642L02 بانا (sense باتا); P642L03 وانفق (sense واتفق); P642L13 سعمت (sense سمعت); P645L14 الملول (sense الملوك); P645L19 وآحرا (sense وآخرا); P646L11 وفالت (sense وقالت; both passes had written وقالت, the adjudicator saw one dot); P647 محبور (sense مجبور); P644L05 فابتدأء.
+- The ه/ة disputes (شاه, والده, يده, هذه, بلاده etc.) were decided one word at a time from the ink. None showed two clear dots, so all are ه.

@@ -1559,3 +1559,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, for the publishing runs to consider for `emend.json`: P659L05 يهزأ ابالرحيق (an extra alif, checked on the image; sense بالرحيق); P662L16 اه (sense انه; no nūn printed). `قضى فكان` (P659L18, P661L15) is the character's name, Qudiyā Fakān.
 - The p661→p662 join changes topic abruptly (the mother's speech: "وكثرة احزانك" / "ولم يبعثوا لنا…"). The adjudicator found no gap and no missing line.
 - The p681 line "وقول الآخر" (P659L15) had no crop and was read from the band by both passes.
+
+## Night 137 (published 2026-11-17)
+- Corrected misprints in emend.json: P650L14 دنّت→دقّت (kettledrums beaten); P651L03 للوزبر→للوزير; P651L04, P651L16 الوزبر→الوزير; P651L20 بانية→باقية; P654L02, P654L05 اوزبر→الوزير; P654L06 اى→الى; P655L15 غربس نعمنك→غريس نعمتك. The archive was not changed.
+- Name of Sharrukān's daughter, قضى فكان: vocalised قَضَى فَكَانَ and romanised Qaḍā Fakān ("He decreed, and it came to be", a pair with Kān Mā Kān); the note says Quḍiya is also possible. This is the first night to romanise her name; change it across the nights if you prefer another reading.
+- Kept as printed with notes: Middle Arabic and spelling habits (شيأ/شياً, اتمنّي, ايش, ة for ه in وعانقة, نزهه, طأئش), the printed mark in لو تمنّيتُ (P651L23), run-together words (مانسيتني, ولابدان, اولا, اوفي, مايروح, وبعدان, وامران).
+- Library label: `Night 137 · The Lover and the Beloved ends / King ʿUmar ibn al-Nuʿmān, continued` (Dandān's story ends and the main tale resumes; I used "continued" rather than "begins" since ʿUmar's tale was already under way).
+- Next: night 138 is complete and unpublished; the next firing should publish it (and add P658L16 فالت→قالت to emend.json).

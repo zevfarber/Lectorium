@@ -1,187 +1,217 @@
 {
- "note": "2026-11-17: first listening check of the Chinese texts (all) and a sample of the Nights. No human verdict exists; each current clip is compared with a Wavenet reading of the same text under the same listeners.",
+ "note": "2026-11-17, second pass. The first pass (run 44036243364) finished Chinese and was cut off in Arabic, and a cut-off run kept no transcripts. This pass re-listens to the Chinese clips that stood out, to record what was heard, and does the whole Nights sample.",
  "whisper": [
   "large-v3"
  ],
  "jobs": [
   {
-   "name": "chinese",
+   "name": "chinese-flagged",
    "sets": [
     {
      "label": "current (Chirp3-HD-Achernar)",
      "ref": "main",
      "stories": [
-      "analects-01",
-      "daodejing-ch01",
-      "daodejing-ch02",
-      "daodejing-ch03",
-      "daodejing-ch04",
-      "daodejing-ch05",
-      "daodejing-ch06",
-      "daodejing-ch07",
-      "daodejing-ch08",
       "daodejing-ch09",
       "daodejing-ch10",
-      "daodejing-ch11",
-      "daodejing-ch12",
-      "daodejing-ch13",
       "daodejing-ch14",
       "daodejing-ch15",
       "daodejing-ch16",
       "daodejing-ch17",
-      "daodejing-ch18",
-      "daodejing-ch19",
       "daodejing-ch20",
-      "daodejing-ch21",
       "daodejing-ch22",
-      "daodejing-ch23",
-      "daodejing-ch24",
-      "daodejing-ch25",
       "daodejing-ch26",
-      "daodejing-ch27",
-      "daodejing-ch28",
-      "daodejing-ch29",
       "daodejing-ch30",
-      "daodejing-ch31",
-      "daodejing-ch32",
-      "daodejing-ch33",
-      "daodejing-ch34",
-      "daodejing-ch35",
-      "daodejing-ch36",
       "daodejing-ch37",
-      "daodejing-ch38",
-      "daodejing-ch39",
-      "daodejing-ch40",
       "daodejing-ch41",
-      "daodejing-ch42",
-      "daodejing-ch43",
       "daodejing-ch44",
       "daodejing-ch45",
-      "daodejing-ch46",
-      "daodejing-ch47",
       "daodejing-ch48",
-      "daodejing-ch49",
-      "daodejing-ch50",
-      "daodejing-ch51",
       "daodejing-ch52",
       "daodejing-ch53",
-      "daodejing-ch54",
       "daodejing-ch55",
       "daodejing-ch56",
-      "daodejing-ch57",
       "daodejing-ch58",
-      "daodejing-ch59",
-      "daodejing-ch60",
-      "daodejing-ch61",
-      "daodejing-ch62",
-      "daodejing-ch63",
-      "daodejing-ch64",
-      "daodejing-ch65",
-      "daodejing-ch66",
-      "daodejing-ch67",
-      "daodejing-ch68",
-      "daodejing-ch69",
-      "daodejing-ch70",
-      "daodejing-ch71",
-      "daodejing-ch72",
-      "daodejing-ch73",
-      "daodejing-ch74",
-      "daodejing-ch75",
       "daodejing-ch76",
-      "daodejing-ch77",
-      "daodejing-ch78",
-      "daodejing-ch79",
-      "daodejing-ch80",
-      "daodejing-ch81"
-     ]
+      "daodejing-ch80"
+     ],
+     "units": {
+      "daodejing-ch09": [
+       1
+      ],
+      "daodejing-ch10": [
+       6
+      ],
+      "daodejing-ch15": [
+       1
+      ],
+      "daodejing-ch16": [
+       5
+      ],
+      "daodejing-ch17": [
+       1,
+       3
+      ],
+      "daodejing-ch20": [
+       7,
+       10,
+       11
+      ],
+      "daodejing-ch22": [
+       0,
+       1
+      ],
+      "daodejing-ch26": [
+       0
+      ],
+      "daodejing-ch41": [
+       4,
+       12
+      ],
+      "daodejing-ch44": [
+       0,
+       1,
+       2
+      ],
+      "daodejing-ch48": [
+       1
+      ],
+      "daodejing-ch52": [
+       8
+      ],
+      "daodejing-ch55": [
+       5
+      ],
+      "daodejing-ch76": [
+       3
+      ],
+      "daodejing-ch14": [
+       2
+      ],
+      "daodejing-ch30": [
+       1
+      ],
+      "daodejing-ch37": [
+       0
+      ],
+      "daodejing-ch45": [
+       4
+      ],
+      "daodejing-ch53": [
+       2
+      ],
+      "daodejing-ch56": [
+       3
+      ],
+      "daodejing-ch58": [
+       8
+      ],
+      "daodejing-ch80": [
+       1
+      ]
+     }
     },
     {
      "label": "wavenet-a",
      "synth": "cmn-CN-Wavenet-A",
      "stories": [
-      "analects-01",
-      "daodejing-ch01",
-      "daodejing-ch02",
-      "daodejing-ch03",
-      "daodejing-ch04",
-      "daodejing-ch05",
-      "daodejing-ch06",
-      "daodejing-ch07",
-      "daodejing-ch08",
       "daodejing-ch09",
       "daodejing-ch10",
-      "daodejing-ch11",
-      "daodejing-ch12",
-      "daodejing-ch13",
       "daodejing-ch14",
       "daodejing-ch15",
       "daodejing-ch16",
       "daodejing-ch17",
-      "daodejing-ch18",
-      "daodejing-ch19",
       "daodejing-ch20",
-      "daodejing-ch21",
       "daodejing-ch22",
-      "daodejing-ch23",
-      "daodejing-ch24",
-      "daodejing-ch25",
       "daodejing-ch26",
-      "daodejing-ch27",
-      "daodejing-ch28",
-      "daodejing-ch29",
       "daodejing-ch30",
-      "daodejing-ch31",
-      "daodejing-ch32",
-      "daodejing-ch33",
-      "daodejing-ch34",
-      "daodejing-ch35",
-      "daodejing-ch36",
       "daodejing-ch37",
-      "daodejing-ch38",
-      "daodejing-ch39",
-      "daodejing-ch40",
       "daodejing-ch41",
-      "daodejing-ch42",
-      "daodejing-ch43",
       "daodejing-ch44",
       "daodejing-ch45",
-      "daodejing-ch46",
-      "daodejing-ch47",
       "daodejing-ch48",
-      "daodejing-ch49",
-      "daodejing-ch50",
-      "daodejing-ch51",
       "daodejing-ch52",
       "daodejing-ch53",
-      "daodejing-ch54",
       "daodejing-ch55",
       "daodejing-ch56",
-      "daodejing-ch57",
       "daodejing-ch58",
-      "daodejing-ch59",
-      "daodejing-ch60",
-      "daodejing-ch61",
-      "daodejing-ch62",
-      "daodejing-ch63",
-      "daodejing-ch64",
-      "daodejing-ch65",
-      "daodejing-ch66",
-      "daodejing-ch67",
-      "daodejing-ch68",
-      "daodejing-ch69",
-      "daodejing-ch70",
-      "daodejing-ch71",
-      "daodejing-ch72",
-      "daodejing-ch73",
-      "daodejing-ch74",
-      "daodejing-ch75",
       "daodejing-ch76",
-      "daodejing-ch77",
-      "daodejing-ch78",
-      "daodejing-ch79",
-      "daodejing-ch80",
-      "daodejing-ch81"
-     ]
+      "daodejing-ch80"
+     ],
+     "units": {
+      "daodejing-ch09": [
+       1
+      ],
+      "daodejing-ch10": [
+       6
+      ],
+      "daodejing-ch15": [
+       1
+      ],
+      "daodejing-ch16": [
+       5
+      ],
+      "daodejing-ch17": [
+       1,
+       3
+      ],
+      "daodejing-ch20": [
+       7,
+       10,
+       11
+      ],
+      "daodejing-ch22": [
+       0,
+       1
+      ],
+      "daodejing-ch26": [
+       0
+      ],
+      "daodejing-ch41": [
+       4,
+       12
+      ],
+      "daodejing-ch44": [
+       0,
+       1,
+       2
+      ],
+      "daodejing-ch48": [
+       1
+      ],
+      "daodejing-ch52": [
+       8
+      ],
+      "daodejing-ch55": [
+       5
+      ],
+      "daodejing-ch76": [
+       3
+      ],
+      "daodejing-ch14": [
+       2
+      ],
+      "daodejing-ch30": [
+       1
+      ],
+      "daodejing-ch37": [
+       0
+      ],
+      "daodejing-ch45": [
+       4
+      ],
+      "daodejing-ch53": [
+       2
+      ],
+      "daodejing-ch56": [
+       3
+      ],
+      "daodejing-ch58": [
+       8
+      ],
+      "daodejing-ch80": [
+       1
+      ]
+     }
     }
    ]
   },

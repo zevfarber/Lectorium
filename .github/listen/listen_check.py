@@ -177,6 +177,8 @@ def main():
                 idxs = range(len(story["sentences"]))
                 if st.get("max_units"):
                     idxs = list(idxs)[:st["max_units"]]
+                if st.get("units", {}).get(sid) is not None:   # only the named units of this story
+                    idxs = [i for i in st["units"][sid] if 0 <= i < len(story["sentences"])]
                 for i in idxs:
                     text = spoken_text(story["sentences"][i])
                     if st.get("synth"):
@@ -201,6 +203,9 @@ def main():
                     os.unlink(path)
                     sr["clips"].append(row)
                     print(job["name"], st["label"], sid, i, {k: v["err"] for k, v in row.items() if isinstance(v, dict)}, flush=True)
+                    # one self-contained line per clip, so a run that is cut off still leaves everything it heard
+                    print("CLIP " + json.dumps({"job": job["name"], "set": st["label"], "story": sid, "i": i, "said": text,
+                                                "row": row}, ensure_ascii=False), flush=True)
             jr["sets"].append(sr)
         if stt_state.get("dead"):
             jr["google_stt_unavailable"] = stt_state["dead"]

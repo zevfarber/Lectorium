@@ -95,7 +95,7 @@ def ensure_ref(ref):
 
 
 def synth(text, voice, key):
-    body = json.dumps({"input": {"text": text}, "voice": {"languageCode": voice[:5], "name": voice},
+    body = json.dumps({"input": {"text": text}, "voice": {"languageCode": "-".join(voice.split("-")[:2]), "name": voice},
                        "audioConfig": {"audioEncoding": "MP3"}}).encode("utf-8")
     req = urllib.request.Request(TTS_URL + "?key=" + key, data=body, headers={"Content-Type": "application/json"})
     for attempt in range(5):

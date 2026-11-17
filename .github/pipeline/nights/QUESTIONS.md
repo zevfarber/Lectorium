@@ -1543,3 +1543,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Marks the adjudicator found that neither pass had: P654L06 الرَحبة (fatha) and P656L21 وَمَضىٰ (dagger alif in the verse).
 - The ه/ة disputes (ولده, وولده, جواده, قصره, فلكزه) were decided as ه: no two clear dots.
 - P654: the first Pass 1 agent transcribed mostly from the bands, reading only 3 crops. It was rerun properly before the diff, and only the rerun was used.
+
+## Night 136 (published 2026-11-17)
+- Corrected misprints in emend.json: P643L18 الميلة→الليلة (night label); P644L05 قئما→قائما and فابتدأء→فابتدأ; P644L19 كترة→كثرة; P645L14 الملول→الملوك; P645L19 وآحرا→وآخرا; P646L11 وفالت→وقالت; P646L15 والده→ولده (Shahramān tells the envoys to let their king know that "his son" is well; the print says "his father"; reverse it if you prefer the print). The archive was not changed.
+- Kept as printed and explained in the notes: محبور (read maḥbūr, "glad"); وابيها at P649L01 ("with her husband and her father": Shahramān does ride with them three days; abīhi may be meant); ة for the pronoun ه (والدة, بلادة, خاطرة, بجانبة, هذة); اخرجو; وتوّجه with the shadda on the wāw; ʿAzīz pointed nominative after inna hādhā al-shābba (no alif in the print); the run-together الحذران, لابدان, الذّعيش, الاوتاج, اريدان.
+- Left for the transcription pipeline to consider (not changed): P646L09 ساره read sārrahu "told him privately" (sarrahu "gladdened him" also possible).
+- The consummation (dakhala bi-, "took her virginity") is one plain sentence between adults; no passage omitted.
+- Library label: `Night 136 · The Lover and the Beloved, continued`. Nothing to decide.
+- Next: night 137 is not yet complete; the next firing should transcribe.

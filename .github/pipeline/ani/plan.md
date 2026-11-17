@@ -4,7 +4,7 @@
 
 | part | name | range | status |
 |---|---|---|---|
-| ani-125-introduction | Spell 125 — entering the Hall of the Two Truths | Budge pp. 189–193 | todo |
+| ani-125-introduction | Spell 125 — entering the Hall of the Two Truths | Budge pp. 189–193 | established |
 | ani-125-address | Spell 125 — the address to the gods (supplement: not on Ani's papyrus) | Budge pp. 203–212, Appendix | todo |
 | ani-125-rubric | Spell 125 — the rubric | Budge pp. 222–224 | todo |
 | ani-hymn-to-ra | Hymn to Ra at his rising | Budge pp. 1–4 | todo |

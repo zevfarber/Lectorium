@@ -41,6 +41,9 @@ def build(pid, check=False):
     part = next(p for p in parts["parts"] if p["id"] == pid)
     src = json.load(open(os.path.join(HERE, parts["source"]), encoding="utf-8"))
     lemmata = src["books"][str(part["book"])]["lemmata"]
+    # the running head that closes a juan (論語卷一 …) sits in the lemma list after even-numbered
+    # books; it is not text. The sha256 pin covers the list as archived; the units skip it.
+    lemmata = [x for x in lemmata if not re.fullmatch(r"論語[卷巻][一二三四五六七八九十]+", x)]
     seed = load(os.path.join(HERE, "glossary_seed.py"), "seed")
     GLOSS, POLY = seed.GLOSS, seed.POLY
     units = load(os.path.join(HERE, "drafts", pid, "units.py"), "units").UNITS

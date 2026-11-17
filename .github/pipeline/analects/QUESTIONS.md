@@ -19,3 +19,14 @@ default crib.
 The two books share many characters but use some in different senses (德 "virtue" here, "potency" in
 the Daodejing). Decided: a separate `analects-glossary.json`. Say if you would rather have one Chinese
 glossary for the library.
+
+## Juan-end running heads in the source archive (analects-02, 2026-11-17)
+`archive_analects.py` strips the running head that opens each juan but not the one that closes it, so
+the archived lemma lists of books 2, 4, 6, 8, 10, 12, 14, 16, 18 and 20 end with 論語卷一…論語卷十 (the
+`lemmata` counts in `parts.json` include it). Decided meanwhile: the pinned source stays as archived,
+and `build_analects.py` skips a lemma that is exactly 論語卷N; book 2 has 39 units against 40 pinned
+lemmata. If you would rather fix the archive script and re-pin those ten books, say so.
+
+## 2.17 是知也 read zhī with Zhu Xi (analects-02, 2026-11-17)
+Many readers take the last 知 as 智 zhì "this is wisdom". Zhu Xi marks no separate reading and glosses
+it as knowing (不害其為知), so the text reads zhī "this is knowing" and the note gives the other.

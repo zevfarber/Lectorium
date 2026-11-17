@@ -1551,3 +1551,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - The consummation (dakhala bi-, "took her virginity") is one plain sentence between adults; no passage omitted.
 - Library label: `Night 136 · The Lover and the Beloved, continued`. Nothing to decide.
 - Next: night 137 is not yet complete; the next firing should transcribe.
+
+## PDF 679–686 (printed pp. 657–664, transcribed 2026-11-17)
+- Nights 137 (P649L07–P658L14) and 138 (P658L15–P660L21) are now complete and unpublished; the next two firings should publish them, one each. Night 139 begins at P661L01. Both labels are centred on their own lines, `h`.
+- `nights_index.py` missed the night 138 label at first. The line after it (P658L16) prints `فالت` for `قالت` (one dot, checked on the image), and the formula pattern required قالت. I added فالت to the pattern in `tools/nights_index.py`, as was done for الميلة. Nothing else changed. A publishing run should put P658L16 فالت→قالت in `emend.json`.
+- Low confidence: P659L03 وَاَعَنَابَهَا (verse; five fathas, placement unclear); P663L09 دِع (verse; an unclear mark over the dal left out); P664L04 الْفُؤادِ (one mark read as hamza, no fatha).
+- Kept as printed, for the publishing runs to consider for `emend.json`: P659L05 يهزأ ابالرحيق (an extra alif, checked on the image; sense بالرحيق); P662L16 اه (sense انه; no nūn printed). `قضى فكان` (P659L18, P661L15) is the character's name, Qudiyā Fakān.
+- The p661→p662 join changes topic abruptly (the mother's speech: "وكثرة احزانك" / "ولم يبعثوا لنا…"). The adjudicator found no gap and no missing line.
+- The p681 line "وقول الآخر" (P659L15) had no crop and was read from the band by both passes.

@@ -1,0 +1,59 @@
+name: Listening check
+
+# Two independent speech recognizers transcribe prepared clips and compare them with the text the
+# voice was given (.github/listen/listen_check.py). Started by pushing .github/listen/request.json,
+# or by hand. Reads only; commits nothing. The report is printed in the log and kept as an artifact.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/listen/request.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: listen-check
+  cancel-in-progress: false
+
+jobs:
+  listen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - name: Checkout (scripts and story files only; clips are fetched one by one)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          sparse-checkout: |
+            /.github/
+            /*.json
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python3 -m pip install --quiet --upgrade pip
+          python3 -m pip install --quiet faster-whisper pypinyin
+
+      - name: Listen
+        env:
+          GOOGLE_TTS_KEY: ${{ secrets.GOOGLE_TTS_KEY }}
+        run: python3 .github/listen/listen_check.py .github/listen/request.json
+
+      - name: Keep the report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: listen-report
+          path: listen-report.json
+          if-no-files-found: ignore

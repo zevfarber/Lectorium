@@ -1,0 +1,11 @@
+{
+ "note": "Calibration, 2026-11-17: Avot ch. 1. Zev judged the Chirp clips terrible and Wavenet A good.",
+ "whisper": ["small", "large-v3"],
+ "jobs": [
+  {"name": "hebrew-calibration",
+   "sets": [
+    {"label": "chirp3-hd (as shipped Oct 8)", "verdict": "bad", "ref": "eff39f099f9915883f3e6734f6bd7ea467546604", "stories": ["avot-ch1"]},
+    {"label": "wavenet-a", "verdict": "good", "synth": "he-IL-Wavenet-A", "stories": ["avot-ch1"]}
+   ]}
+ ]
+}

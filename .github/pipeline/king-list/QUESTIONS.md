@@ -43,3 +43,10 @@
 - **Gutian total (VII 50–51).** The prism's surviving figures add to 91 years and 40 days; the 125 is Langdon's restoration from P. No. 2; his translation note says 'only 86' without showing how. Decided meanwhile: all three reported, nothing corrected.
 - **VII 15 unug{ki}-še₃** at a dynasty's head (box drawn like the EŠ₂ of VIII 2, not GA): the third such -še₃ (V 23, V 44). Decided meanwhile: literal "to-Uruk (sic)", English "In Uruk", as before.
 - **VII 26/27 gu-tu-x-um**: a sign Langdon does not read stands between TU and UM in both lines. Decided meanwhile: unread x (LACUNA glyph, tr "x"), lemma gu-tu-um.
+
+## king-list-uruk-v-ur-iii-isin (2026-11-17)
+- **VIII 4/6 "mu 7 šu-ši 7 u₄".** Langdon (fn. 7) takes šu-ši as 1/6: 7⅙ years and 7 days; elsewhere on the prism N šu-ši = N × 60, which would give 420. Decided meanwhile: Langdon's reading shipped, flagged, 420 given in the note.
+- **VIII 31 Lipit-Ashdar.** Langdon restores ᵈLi-[bi-it-Ašdar] without "?", but gives no writing of Ašdar to ship (and in VI 17 his Ašdar is an unidentified sign); and the copy has no room for AN before LI. Decided meanwhile: li-[bi-it-…] with Ašdar as one LACUNA glyph; no {d}; both in the note.
+- **Two-sign logograms with only the first sign surviving** are bracketed as Langdon does each time: urim₂[{ki}…] in VIII 8 but {d}su[en] in VIII 34 (split inside EN.ZU). A house rule is wanted.
+- **Sign-glossary values** (signs.py cannot edit entries): ARAD lacks er₃, IB urta, ENGUR namma, KA pi₄, KAK du₃, DI ṭe, IG ĝal₂; UR2 has no values; NE and GAN have only bí, ḫé. Left for the owner.
+- **AMAR vs BUR.** Langdon's one "Bur-Sin" is AMAR for the Ur III king (VIII 13, 15) and a closed box taken as BUR for the Isin king (VIII 34, 37). Decided meanwhile: {d}amar-{d}suen and {d}bur-{d}suen, the latter flagged.

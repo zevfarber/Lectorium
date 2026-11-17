@@ -163,3 +163,60 @@ The drafter's "BUR in Bur-Suen" is not a gap: BUR lists bur. Values used in earl
 - Sign `values` gaps listed above.
 
 **Counts: 1 major, 7 minor, 5 style.**
+
+## Pass 2
+
+### What I read
+
+- gloss.json: all 23 new entries and the 4 `__broaden__` entries.
+- The published entries for šu-ši, -ma, -na and šu-{d}suen, taken from r3lib.merged_inline_glossary('king-list'), to check that each broadening keeps the old entry whole.
+- units.json once more after the pass-1 edits: every unit's `l`, `i` and `n`, and every morph gloss compared by script against gloss.json and the published glossary.
+- The plate, as in pass 1, for the entries that describe drawn forms. These are the absence of AN before Lipit-Ashdar (VIII 31) and before Bur-Suen (VIII 37), the compact ŠU (VIII 15) and the AMAR/BUR contrast.
+
+### How the edits were made and checked
+
+Edits were made by script (scratchpad reviewer/rev2.py): load, modify, dump with indent=1 and ensure_ascii=False, which is the format of both files (checked to round-trip). After the edits:
+- The script asserts that each broadening starts with the old entry whole + " · ".
+- Every morph gloss in units.json was set to its gloss.json or `__broaden__` text. That made 10 morph glosses consistent: -ma ×3, šu-ši ×2, šu-i₃-li₂-šu ×2, bur-{d}suen ×2 and li-bi-it-ašdar ×1.
+- The numeral morphs (diš/u/geš "N here = …") and "lugal (here plural 'kings')" differ from the glossary on purpose, as in every published part. They were left alone.
+- hooks.assemble(units, gloss) + hooks.validate, run in memory → no errors. One WARN: the same 5 linecheck lines as in pass 1. The linecheck.md it wrote was deleted. No build, no commit.
+
+### Changes
+
+- **li-bi-it-ašdar · gloss.json + morph · major**
+  - What was wrong: the entry still opens with Langdon's ᵈLi-[…]. It did not say that the copy draws no divine determinative, the change pass 1 made to the text (VIII 31). A reader would take the dingir to be on the prism.
+  - What was done: added "Langdon prints a divine determinative before the name, but none is drawn on the copy". The units morph was aligned to the entry.
+- **-ma · __broaden__ + morphs · minor**
+  - What was wrong:
+    - The broadening was pinned to a line ("'Ur was smitten', VIII 21").
+    - It left out the use the text also has, -ma before the terminative (urim₂{ki}-ma-še₃, VIII 8). The VIII 8 morph carried a different, unmerged gloss, and the VIII 9 morph carried the old entry. That gave three texts for one lemma.
+  - What was done:
+    - The entry is now the old entry whole + " · also written after urim₂{ki} where no 'of' or 'in' is expected — before the terminative (urim₂{ki}-ma-še₃ 'to Ur') and in the smitten refrain, where other cities stand bare; its function there is not clear". It has no line number.
+    - All three morphs now carry this entry.
+- **šu-ši · __broaden__ + morphs · minor**
+  - What was wrong: the broadening was pinned to one reign ("(Utuhegal's reign)").
+  - What was done: it is now general to the form: "after a number of years (mu 7 šu-ši 7 u₄) taken by Langdon as '1/6' (of a year) …; uncertain". The old entry is kept whole.
+- **šu-i₃-li₂-šu · gloss.json + morphs · minor**
+  - What was wrong: "NI-NI (i₃-li₂, Akkadian ilī 'god')". ilī with a long ī is 'my god'. The form before -šu is ili, the genitive of ilum: ili-šu 'of his god'.
+  - What was done: it now reads "Akkadian ili, genitive of ilum 'god'".
+- **bur-{d}suen · gloss.json + morphs · minor**
+  - What was wrong: "written with the divine determinative". In VIII 37 (dumu bur-{d}suen-ke₄) the copy draws no AN before BUR, and Langdon prints none.
+  - What was done: added "(once without it)".
+
+### Entries checked and kept
+
+- **utu-ḫe₂-ĝal₂, ur-{d}namma, šul-gi, amar-{d}suen, i-bi₂-{d}suen, i₃-si-in**: the signs agree with the text and the plate, and the uncertain identifications are flagged.
+- **iš-bi-er₃-ra, i-din-{d}da-gan, iš-me-{d}da-gan, er₃-ra-i-mi-ti, en-lil₂-ba-ni, za-am-bi-ia, i-ṭe-er-pi₄-ša, ur-du₃-ku₃-ga, suen-ma-gir₂**: the same holds.
+  - The Akkadian etymologies are glossed as plain words: 'Dagan gave', 'Dagan heard', bāni 'creator', magir 'favourable'.
+  - Iterpisha's 'her word saves' and the Hilprecht writing are Langdon's (fn. 4).
+- **ur-{d}nin-urta, li-bi-it-{d}en-lil₂, nu-ur₂-{d}nin-šubur, 14, šu**: agree with the text and the plate.
+- **"On this prism …" in several entries**: kept. These describe the form on the single source, as the published šu-{d}suen entry does. They are not line references.
+- **-na and šu-{d}suen broadenings**: the old entry is whole + " · " + the new reading, and the new readings are general. Kept.
+- **The glosser's modern forms**: no invented or modern forms were found. Every lemma matches the drafter's by-sign readings, and every entry gives Langdon's form.
+
+### units.json re-check after pass 1
+
+- Nothing further. The pass-1 `l`/`i` changes (VIII 3, 5, 7, 9, 21, 23, 36) and notes (VIII 31, 41, 44) read correctly against the plate and Langdon's footnotes.
+- Glyph roles are consistent: ARAD and KA are phon, as are NE and DI in the same names.
+
+**Counts: 1 major, 4 minor, 0 style.**

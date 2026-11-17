@@ -98,3 +98,10 @@ Conventional reconstructed Sumerian. `langCode: null`. No voice chosen; parts pu
 - A reign line with no MU drawn (VII 31, 33) → `l` "X, 6 (years) he-ruled"; `i` as the formula. ud N → u₄, "days" ("reigned 40 days").
 - Readings by sign: Gimil-ili → šu-i₃-li₂ (NI NI); Kudda → kud-da (TAR, flagged); Ur-ᵈBabbar → ur-{d}utu; šù → šu₂; gab → DUH; šul → DUN; -meš → ME + EŠ (key ESH). English: Ur-nigin, Ur-gigir, Shu-ili, Ur-Utu, Imta, Inkishu, Nikillagab, Shulme, Elulumesh, Inimabakesh, Igeshaush, Yarlagab, Ibate, Yarla, Kurum, Irarum, Ibranum, Hablum, Yarlaganda, Tiriga.
 - A sign not read inside a name (gu-tu-x-um) → LACUNA glyph tr "x", the lemma the name without it.
+
+## House renderings settled in king-list-uruk-v-ur-iii-isin (2026-11-17)
+- Dynasty opening with lugal and no -am₃ (urim₂{ki}-ma / i₃-si-in{ki}-na X lugal) → `l` "(was) king", `i` the formula "In X, Y became king; he reigned N years" (as the pilot's I 3).
+- urim₂{ki}-ma in the smitten-refrain → `l` "in-Ur (sic)", `i` as the formula. Name and reign on one line → `l` "X — years N he-ruled", `i` "X reigned N years".
+- Langdon's šu-ši as 1/6 (VIII 4, 6) → "7⅙ (?) years and 7 days", the 60-reading in the note. Colophon šu PN (Langdon kat) → `l` "hand (of) PN", `i` "By the hand of PN".
+- Readings by sign, Langdon's form in the note: ᵈDungi → {d}šul-gi (DUN.GI); ᵈBur-ᵈSin → {d}amar-{d}suen (AMAR, Ur III) but {d}bur-{d}suen (BUR, Isin, flagged); Gimil-ᵈSin → šu-{d}suen; I-be → i-bi₂ (NE); Gir* → er₃ (ARAD, flagged); ᵈNinurta → {d}nin-urta (NIN.IB); ᵈNammu → {d}namma (ENGUR); Utu-ĝe-gál → utu-ḫe₂-ĝal₂; Ì-si-in → i₃-si-in{ki}; Nu-ùr-ᵈNin-subur → nu-ur₂-{d}nin-šubur.
+- English: Utuhegal, Ur-Namma, Shulgi, Amar-Suen, Shu-Suen, Ibi-Suen, Ishbi-Erra, Shu-ilishu, Idin-Dagan, Ishme-Dagan, Lipit-Ashdar, Ur-Ninurta, Bur-Suen, Lipit-Enlil, Erra-imiti, Enlil-bani, Zambiya, Iterpisha, Ur-dukuga, Suen-magir, Nur-Ninshubur; Isin.

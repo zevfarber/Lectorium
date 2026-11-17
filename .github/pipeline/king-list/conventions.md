@@ -30,7 +30,7 @@ Langdon's accents are NOT converted by arithmetic: map each value by its sign (h
 - Langdon's printed misprints (IV 6 mam-lugal-bi; V 21, VII 24 ka-an-sīg; VII 14 bagín; V 16 -šú-ba-gín): the
   plate decides the sign; `reading` follows the plate; the note says what Langdon prints.
 - His parenthesized corrections in VIII 18, 19, 26 and the IV 48 480/420 discrepancy go in the notes; `t` and
-  `reading` follow the prism. Totals that do not add up (II 43, IV 35, VI 21, VII 12, VII 51, VIII 20, VIII 45)
+  `reading` follow the prism. Totals that do not add up (II 43, IV 35, VII 12, VII 51, VIII 20, VIII 45)
   are reported in the notes, not corrected.
 
 ## Translation and notes
@@ -75,3 +75,12 @@ Conventional reconstructed Sumerian. `langCode: null`. No voice chosen; parts pu
 - ba-gub after a city with no case ending → "its kingship was established at X" (as the pilot's Larak/Shuruppak).
 - Readings by sign: Langdon's Ma-er → ma-ri₂{ki} (URU, as drawn); An-sir → an-sir₂ (BU); Kug-ᵈBaú → ku₃-{d}ba-u₂; munuz → munus; suĝuš → suḫuš; Akšak → akšak{ki} (UD.KUŠU₂, flagged). English: Mari, Akshak, Ku-Bau; munus lu₂ kaš-tin-na → "a woman tavern-keeper".
 - A restored number carrying Langdon's "(?)" is a LACUNA glyph, not shipped as signs (V 26), and the arithmetic goes in the note.
+
+## House renderings settled in king-list-akshak-kish-iv-uruk-iii (2026-11-17)
+- VI 21 was listed above among totals that do not add up; it does (25+400+30+7+11+11+7 = 491; Langdon fn. 10 "total correct") — removed from that list.
+- Divine names by sign, Langdon's form in the note: ᵈSin → {d}suen (EN.ZU); ᵈIlbaba → {d}za-ba₄-ba₄ (ZA.MUŠ₃.MUŠ₃); ᵈŠaḫan → {d}šakkan₂ (GIR₃). Gimil → šu (ŠU). English: Shu-Suen, Ur-Zababa, Shu-Shakkan; A-ga-dé → a-ga-de₃{ki} (NE), "Agade".
+- Langdon's long-form "Gimil" (two touching parts on the copy; VI 9, VI 13, and again VII 20, VII 45): kept as his single ŠU, the note saying the identification is his and uncertain. Later parts treat VII 20 and VII 45 the same way.
+- in-ag (VI 5) = ì-n-aĝ₂, a 3sg form, not plural (Langdon fn. 1: in-ag-meš is the plural); `l` "he-ruled", `i` follows the sense.
+- City with KI drawn though Langdon prints none (Akšak V 44, VI 6) and -še₃ drawn though he says none (Unug VI 23): the plate decides; the note says what Langdon prints. Kiš{ki} with no case ending at a dynasty's head → "In Kish".
+- Signs printed unbracketed but hatched away on the copy are bracketed (as before); a figure of which a wedge survives is not bracketed, the note saying the value is Langdon's.
+

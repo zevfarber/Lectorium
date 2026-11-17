@@ -24,3 +24,9 @@
 - **V 1–10** is one lost unit because Langdon's source has one entry for it (the build requires that); in Col. II the lost lines were one unit per line. Decided meanwhile: one unit, the note saying it stands for ten lines (Langdon: Ur II, 4 or 5 names).
 - **V 43 Akšak**: two signs before KI, shipped as the conventional UD.KUŠU₂ though the copy does not confirm KUŠU₂ (new sign KUSHU2 added). The next part's drafter should compare V 44's first sign.
 - **"tavern-keeper"** (V 37) is kept in `i`, against Langdon's "a female wine seller", since it is the part's name and the project's English for the word in Hammurabi. Decided meanwhile: kept.
+
+## king-list-akshak-kish-iv-uruk-iii (2026-11-17)
+- **Long-form "Gimil" (VI 9, VI 13; also VII 20, VII 45)**: the copy draws two touching parts where Langdon reads the one sign ŠU (Gimil). The drafter shipped an unidentified sign + ŠU; the reviewer refused that (the copy cannot settle it). Decided meanwhile: Langdon's šu-{d}suen, flagged uncertain in the note and glossary.
+- **VI 17 Ašdar-muti**: the copy shows one sign the run could not identify; shipped as x-mu-ti with Langdon's Ašdar (Ištar) in the note.
+- **Divine names read by sign** ({d}suen, {d}za-ba₄-ba₄, {d}šakkan₂) against Langdon's Sin, Ilbaba, Šaḫan, following the earlier {d}utu/{d}nanna decisions. Decided meanwhile: kept, Langdon's forms in notes.
+- **conventions.md** listed VI 21 among totals that do not add up; it adds up (491). Corrected.

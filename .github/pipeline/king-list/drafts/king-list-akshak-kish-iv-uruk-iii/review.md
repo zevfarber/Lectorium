@@ -127,3 +127,69 @@ All glyphs in units.json now agree with this record.
 - conventions.md wrongly lists VI 21 among totals that do not add up.
 - For the drafters of VII 20 and VII 45: the same long form of Gimil appears there. Treat it as here.
 - For signs.py (not done): MUSH3 lacks the value ba₄, and KUSHU2's value list has only "akšak".
+
+## Pass 2
+
+I checked every gloss.json entry (17, written before pass 1) against units.json, its notes, the pass-1 plate record and Langdon pp. 15–16. I also read hooks.py `assemble()` and run3/cun.py `fill_words`. They work like this:
+- The shipped glossary is the merged published glossary, updated with gloss.json. So for a new lemma the gloss.json text is the glossary entry.
+- Each word's popup uses the unit's own morph `gloss`, and falls back to the glossary only when that gloss is empty.
+
+So both texts ship, and both must be right.
+
+Edits were made by script (scratchpad reviewer/rev2.py). The JSON was loaded and dumped with indent 1 and ensure_ascii=False, keeping each file's newline convention. The dumps round-trip. Checks afterwards:
+- every morph lemma in units.json is in the published glossary or in gloss.json;
+- no gloss.json entry is unused;
+- no gloss.json key repeats a published lemma;
+- the new-lemmas.json keys equal the gloss.json keys.
+
+### Changes — gloss.json / new-lemmas.json
+
+- x-šu-{d}suen · **major** · The entry and lemma were dropped from units.json in pass 1 (the long-form Gimil is shipped as ŠU). Left in place, the entry described an "x" that no longer exists. · Deleted from gloss.json and new-lemmas.json.
+- šu-{d}suen · **major** · The entry did not flag the long-form Gimil on the copy, so the shipped glossary would present the Kish king's ŠU as certain. · Now: "… where the copy draws the first element in a long form unlike its usual ŠU, the identification is Langdon's and uncertain". It keeps the note that the Akshak name is Langdon's restoration.
+- in-ag · **major** · "'they ruled'; plural reign verb, a variant of ib-ag with -n-" misnames the grammar, as found in pass 1. · Now: "ì-n-aĝ₂ … 'he ruled'; the -n- marks a 3rd-person singular agent, so the form is not itself plural (a plural would add -eš)". The entry still says this is Langdon's restoration.
+- 7 · minor · "shown as 7 diš (four signs over three); here the count of kings (and of years) in a reign line" had three problems:
+  - It was tied to a line.
+  - It said "signs" where it meant wedges.
+  - It was wrong: the lemma `7` is used only for the count of kings in a total. In reign lines the lemma is `diš`.
+  · Now "seven", as the published "1" "one", "4" "four", "6" "six".
+- x-mu-ti · minor · "(the goddess Ištar, queried)": Langdon does not query Ašdar. The query is ours, and it is already carried by "the reading of the name is uncertain". · "queried" removed.
+- a-ga-de₃ · minor · "the city of the next dynasty after Uruk" was tied to this refrain. · Now "city in northern Babylonia, seat of the dynasty of Sargon". Sargon is Langdon's Šar-ru-ki-in, VI 31.
+- i-šu-il · style · "it looks Semitic, but the sense is a guess" is now "it looks Semitic, its sense is not explained here", matching the pass-1 note.
+
+### Changes — units.json
+
+- Morph glosses of the 17 new lemmas (all occurrences) · minor · Several still held the drafter's or pass-1 wording, which differed from gloss.json (for example the `7` and `in-ag` texts, and the word-level text of x-mu-ti). · Each was set to its gloss.json text, as in uruk-ii pass 2.
+
+Counts (pass 2): 3 major, 4 minor, 1 style.
+
+### Checked and kept
+
+- un-zi, un-da-lu-lu, ur-ur, lugal-zag-gi-si, na-an-ni-ia-aḫ: none invents a modern form, and each says the sense of the name is unclear.
+  - "first of its dynasty" for Unzi is right: V 44 opens the Akshak dynasty.
+  - The Scheil spelling Na-ni-ia-aḫ is Langdon's fn. 7.
+- šu-{d}šakkan₂: GIR₃ read šakkan₂ is a reading by sign, and the entry says the name is restored. The published Elulu/Balulu entries carry the same "not on this prism" remark.
+- ur-{d}za-ba₄-ba₄, zi-mu-dar-ra, u-ṣi-wa-tar: each states what lies in a break and what rests on Langdon. These lemmas occur only once, so the break remarks are not wrongly tied to a line, by the precedent of the published one-off names.
+- iš-[…]: Langdon's "Ish-me(?)" is kept as his own query and is not restored. The Scheil I-mu is his fn. 6.
+- `__broaden__`: none is used, and none is needed.
+  - The published -šú broadening (ma-ri₂{ki}-še₃) already covers V 44's akšak{ki}-še₃ at the head of a dynasty.
+  - kiš "seat of later dynasties of Kish" covers Kish IV.
+  - ba-an- covers sig₃.
+
+### Second read of units.json
+
+- `l` and `i` agree throughout, and the house formulas are applied.
+- The brackets match the plate record.
+- Numerals and values: 30, 6, 6, [20], [24], [7], [93], 25, 400, 30, 7, 11, 11, 7, 491, 25, 25. The arithmetic notes are right: 93 and 491 add up, and 97 2/3 checks.
+- `say` follows the house rules: "…" for an unread or lost sign, determinatives silent.
+- Nothing further found.
+
+### Findings considered and refused
+
+- **Rename the lemma x-mu-ti to drop the x** · refused. The ur-i-awan precedent is the lemma `x-nun-na` for a visible but unread sign.
+- **Add "Zababa, god of Kish" to the Zababa entry as Langdon's** · refused. Langdon reads Ilbaba and the entry already credits him. The identification is the reading by sign that the house uses.
+
+### Build and validate
+
+`r3.py build` produced 20 units, and `validate` printed **PASS**. Its one WARN is "7 line(s) differ from Langdon" (VI 1, 5, 9, 13, 17, 18, 21). All seven are confirmed on the plate or come from house readings by sign; see pass 1. `signs.py check` says "in sync". In the built glossary, šu-{d}suen, in-ag, 7 and a-ga-de₃ read as above, and -šú and kiš carry their published broadenings.
+
+Restored afterwards: stories.json was checked out and the generated story json deleted. git status shows only gloss.json, new-lemmas.json and units.json modified (plus this review.md).

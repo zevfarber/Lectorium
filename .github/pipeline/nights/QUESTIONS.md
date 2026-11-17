@@ -1579,3 +1579,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Low confidence: P667L13 ذَاقًا (verse; heavy mark over the rhyme, tanwīn probable, a single fatha possible).
 - Kept as printed, for the publishing run to consider for `emend.json`: P670L03 بفصة (only one dot, on the fāʾ; sense بفضة). P671L07 بحيوٰة was read from a faint, broken word; the two passes had بدوة and بحيوة.
 - The adjudicator logged the 664→665 join as a coverage gap, because it read the archive's printed page numbers as PDF numbers. pp657-664.json is printed 657–664 (PDF 679–686), so there is no gap. The text runs on: the mourning verse ends p. 664, and p. 665 opens "ثم انها امتنعت من الطعام والشراب". Nothing changed.
+
+## Night 139 (published 2026-11-18)
+- Corrected misprint in emend.json: P664L08 الارج→الازج (Bāb al-Azaj, the Baghdad gate). The archive was not changed.
+- Kept as printed with notes (doubtful, not corrected): P661L07 تخنق (perhaps تخفق, "flutter"); P661L13 ان اباك الحاجب ابا قضى فكان (the Chamberlain is father to neither cousin); P662L16 اه (read as the sigh āh; perhaps انه); P663L07 قطع ياسه; P665L06 والآنان (read as anān, "moaning"); P664L14 بعدت (read baʿudta; baʿudtu possible).
+- Printed verse kept exactly with notes: دِع (P663L09, for daʿ), اَصْغِيْ, سَهَرَتْ, لِوَجْهِكَ (masculine "your" to the cousin), كُربَ.
+- Middle Arabic noted: عينيه as subject, سبعة عشر سنه, واولاة, هي واياه, جاؤا, بطّل, وعيطت, الجيعان, يا هل ترى.
+- Library label: `Night 139 · King ʿUmar ibn al-Nuʿmān, continued`. Nothing to decide.
+- Next: night 140 (P665L08–) is not yet complete; the next firing should transcribe.

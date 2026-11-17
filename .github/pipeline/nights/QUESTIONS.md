@@ -1573,3 +1573,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Printed verse kept exactly with notes on odd pointing: وَاَعَنَابَهَا (P659L03), شَهْدًا (P659L17, sense perhaps شهداء), رَشَاءُ and لَوَحِظُهُ (P659L14), ثَغَرُ (P660L04), تَكَدَّرَ اَخْلَاقَهَا (P660L19).
 - Split/fused words kept as printed: لا شكينك (vocalised لَأَ شْكِيَنَّكَ), هوالّا, هذاوشاع, شهر زاد. قضي with dotted yāʾ read Qaḍā.
 - Next: night 139 begins at P661L01 and is not yet complete (tail unread); the next firing transcribes.
+
+## PDF 687–694 (printed pp. 665–672, transcribed 2026-11-17)
+- Night 139 (P661L01–P665L07) is now complete and unpublished; the next firing should publish it. Night 140 begins at P665L08 (centred label, `h`).
+- Low confidence: P667L13 ذَاقًا (verse; heavy mark over the rhyme, tanwīn probable, a single fatha possible).
+- Kept as printed, for the publishing run to consider for `emend.json`: P670L03 بفصة (only one dot, on the fāʾ; sense بفضة). P671L07 بحيوٰة was read from a faint, broken word; the two passes had بدوة and بحيوة.
+- The adjudicator logged the 664→665 join as a coverage gap, because it read the archive's printed page numbers as PDF numbers. pp657-664.json is printed 657–664 (PDF 679–686), so there is no gap. The text runs on: the mourning verse ends p. 664, and p. 665 opens "ثم انها امتنعت من الطعام والشراب". Nothing changed.

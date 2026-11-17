@@ -1,0 +1,93 @@
+# Packet — cid-tiradas-49-55: Raids from the hill; Minaya returns with men; the count of Barcelona takes offence
+
+Tiradas 49–55, Pidal lines 899–959 (Cantar I (Destierro)).
+The established text below is pinned. A unit's `t` is one or more consecutive verses joined by "\n", cut by script.
+Flags: wholly italic restored line(s): 934b, 935b, 935c
+
+
+## tirada 49
+
+899	Quiérovos dezir del que en buen[a] çinxo espada:
+900	aquel poyo en él priso posada;
+901	mientra que sea el pueblo de moros e de la yente cristiana,
+902	el Poyo de mio Çid asil dirán por carta.
+903	Estando allí, mucha tierra preava,
+904	el [val] de río Martín todo lo metió en paria.
+905	A Saragoça sus nuevas legavan,
+906	non plaze a los moros, firme mientre les pesava.
+907	Allí sovo mio Çid conplidas quinze se[d]manas;
+908	quando vío el caboso que se tardava Minaya,
+909	con todas sus yentes fizo una trasnochada;
+910	dexó el Poyo, todo lo desenparava,
+911	allén de Teruel don Rodrigo passava,
+912	en el pinar de Tévar Roy Díaz posava;
+913	todas essas tierras todas las preava,
+914	a Saragoça metuda lâ en paria.
+915	Quando esto fecho ovo, a cabo de tres se[d]manas
+916	de Castiella venido es Minaya,
+917	dozientos con él, que todos çiñen espadas;
+918	non son en cuenta, sabet, las peonadas.
+919	Quando vi[d]o mio Çid asomar a Minaya,
+920	el cavallo corriendo, valo abraçar sin falla,
+921	besóle la boca e los ojos de la cara.
+922	Todo gelo dize, que nol encubre nada.
+923	El Campeador fermoso sonrrisava:
+924	“grado a Dios e a las sus vertudes santas;
+925	mientra vos visquiéredes, bien me irá a mí, Minaya!”
+
+## tirada 50
+
+926	¡Dios, cómmo f[o] alegre todo aquel fonssado,
+927	que Minaya Álvar Fáñez assi era llegado,
+928	diziéndoles saludes de primos e de hermanos,
+929	e de sus compañas, aquellas que avien dexad[o]!
+
+## tirada 51
+
+930	Dios, cómmo es alegre la barba vellida,
+931	que Álbar Fáñez pagó las mill missas,
+932	e quel dixo saludes de su mugier e de sus fijas!
+933	Dios, cómmo f[o] el Çid pagado e fizo grant alegría!
+934	“Ya Álvar Fáñez, bivades muchos días!
+934b	más valedes que nos, ¡tan buena mandadería!”
+
+## tirada 52
+
+935	Non lo tardó el que en buen ora nasco,
+935b	priso dozientos cavalleros escollechos a mano,
+935c	fizo una corrida la noch trasnochando;
+936	tierras d'Alcañiz negras las va parando,
+937	e a derredor todo lo va preando.
+938	Al terçer día, don ixo i es tornado.
+
+## tirada 53
+
+939	Hya va el mandado por las tierras todas,
+940	pesando va a los de Monçon e a los de Hu[o]sca;
+941	por que dan parias plaze a los de Saragoça,
+942	de mio Çid R[o]y Díaz que non temién ninguna fonta.
+
+## tirada 54
+
+943	Con estas ganançias a la posada tornando se van.
+944	todos son alegres, ganançias traen grandes;
+945	plogo a mio Çid, e mucho a Álbar Fáñez.
+946	Sonrrisós el caboso, que non lo pudo endurar:
+947	“ya cavalleros, dezir vos he la verdad:
+948	qui en un logar mora siempre, lo so puede menguar;
+949	cras a la mañana penssemos de cavalgar,
+950	dexat estas posadas e iremos adelant.”
+951	Estonçes se mudó el Çid, al puerto de Alucat;
+952	dent corre mio Çid a Huesa e a Mont Alván;
+953	en aquessa corrida diez dias ovieron a morar.
+954	F[o]ron los mandados a todas partes,
+955	que el salido de Castiella así los trae tan mal.
+
+## tirada 55
+
+956	Los mandados son idos a [las] partes todas;
+957	llegaron las nuevas al co[m]de de Barçilona,
+958	que mio Çid R[o]y Díaz quel corrié la tierra toda;
+959	ovo grand pesar e tóvoslo a grand fonta.
+
+Glossary: 188 of 265 forms already in cid-glossary.json.

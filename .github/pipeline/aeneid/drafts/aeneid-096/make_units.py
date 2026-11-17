@@ -1,0 +1,268 @@
+# aeneid-096 (XII.554-649): t is cut from the edition by A.cut; l, i, n drafted from the Latin.
+import sys, os
+HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, '..', '..'))
+import aeneid_lib as A
+
+TITLE = 'Urbs Latini oppugnatur'
+PART = "The Assault on the City (XII.554–649)"
+TITLE_EN = "The Assault on the City — Aeneid XII.554–649"
+ABOUT = ("Venus puts it into Aeneas's mind to strike at the heart of the war: Latinus's city, so far untouched by the fighting. "
+"He gathers his captains on a mound, tells the army that Jupiter is on their side, and orders the town burned unless the Latins submit; ladders go up and torches fly, while inside the walls the citizens split between those who would open the gates and those who would hold them, like bees smoked out of a hollow rock. "
+"Queen Amata, seeing the enemy at the walls and no sign of Turnus, believes him dead, cries out that she is the cause of all the evil, and hangs herself; Lavinia and the women mourn, and Latinus goes about with his robe torn and dust in his white hair. "
+"Far off at the edge of the plain, Turnus hears the uproar from the city. His sister Juturna, still disguised as his charioteer, urges him to keep fighting where victory comes easily, but he has seen through her: he has watched his friends die, Drances's taunts still sting, and he will not let Italy see him run. "
+"If the gods above have turned from him, he will go down to the dead with his honour whole. "
+"His choice has a Homeric shape: Hector before the walls of Troy, resolving to face Achilles rather than live to be called a coward.")
+
+U = [
+(556, 'Latinos.',
+ "At this point a thought into Aeneas's mind his mother, most beautiful, sent,\nthat he should go to the walls and turn against the city his column\nmore swiftly, and with sudden disaster throw into confusion the Latins.",
+ "At this moment his mother, fairest of all, put it into Aeneas's mind to make for the walls, turn his army swiftly on the city, and throw the Latins into confusion with a sudden blow.",
+ "A new paragraph in Greenough: Venus intervenes. 'Hic', 'at this point'. 'mentem… misit', 'sent a thought', 'mens' here a purpose or idea; 'Aeneae', dative, 'into Aeneas', three syllables, Ae- one long syllable. 'genetrix pulcherrima', 'his most beautiful mother', Venus. 'iret ut… adverteret… turbaret', 'that he should go… turn… confound', the clause explaining the thought, with 'ut' postponed. 'urbi', dative with 'adverteret', 'turn his column on the city'. 'ocius', 'more swiftly', the comparative used for 'swiftly'. 'subita… clade', 'with sudden disaster'. Latinus's city has so far stayed out of the fighting. Elision 'urbiqu(e) adverteret'."),
+(559, 'quietam.',
+ "He, as, tracking through the scattered columns Turnus,\nhither and thither his gaze he carried round, beholds the city\nfree of so great a war and with impunity quiet.",
+ "As he tracked Turnus through the scattered ranks, turning his eyes this way and that, he caught sight of the city, untouched by all this war and lying quiet, as if it had nothing to answer for.",
+ "'Ille', Aeneas. 'ut', 'as, when', with the perfect 'circumtulit'; then 'aspicit', a historic present for the moment of seeing. 'vestigans', 'tracking', the hunting word of 467. 'diversa per agmina', 'through the scattered columns', the preposition after its adjective. 'huc atque huc', 'this way and that'. 'acies', here 'eyes, gaze', not battle-lines. 'immunem tanti belli', 'exempt from so great a war', a genitive of separation. 'impune quietam', 'quiet with impunity': the city sits at peace though the treaty was broken on its side. Elisions 'atqu(e) huc', 'bell(i) atque', 'atqu(e) impune'."),
+(560, 'imago:',
+ "At once the image of a greater battle fires him:",
+ "At once the vision of a greater battle set him ablaze:",
+ "'Continuo', 'immediately'. 'pugnae… maioris imago', 'the image of a greater fight', the genitive split round the verb: Aeneas sees in his mind an assault on the city itself, not a chase across the field. 'adcendit', Greenough's spelling of 'accendit', 'kindles', with its object, 'him', understood. Elision 'pugn(ae) adcendit'."),
+(564, 'deponunt.',
+ "Mnestheus and Sergestus he calls, and brave Serestus,\nthe captains, and a mound takes, to which the rest of the Teucrians'\nforce runs together, nor shields or javelins, close-packed,\ndo they lay down.",
+ "He called Mnestheus, Sergestus and brave Serestus, his captains, and took a rise in the ground, where the rest of the Trojan army gathered round him in close ranks, still keeping hold of their shields and spears.",
+ "'Mnesthea', Greek accusative of Mnestheus. Sergestus and Serestus are Trojan captains, Sergestus a rival in the boat race of Book V. 'ductores', in apposition, 'the leaders'. 'tumulum… capit', 'takes a mound', a hillock to speak from. 'quo', 'to which, whither'. 'cetera Teucrum… legio', 'the rest of the Trojan force', 'Teucrum' the old genitive plural, eu one syllable; 'legio' is simply 'army' here, with a Roman ring. 'densi', 'massed', plural with a plural verb after the singular 'legio', sense over grammar. 'nec… deponunt', they keep their arms in hand, ready. Elision 'scut(a) aut'."),
+(564, 'fatur:',
+ "On the high mound, in their midst, standing, he speaks:",
+ "Standing in their midst on the high mound, he spoke:",
+ "'Celso… aggere', 'on the lofty mound', the 'tumulus' of 562, framing the line; an 'agger' is any heap of earth. 'medius', 'in the middle', an adjective where English uses a phrase. 'fatur', 'speaks', the solemn verb of epic speech. What follows is a general's address before an assault, short and peremptory. No elisions."),
+(566, 'ito.',
+ "“Let there be no delay to my words; Jupiter on this side stands,\nnor let anyone, because the undertaking is sudden, go slower for me.",
+ "“Let nothing hold back my orders; Jupiter stands with us. Let no man go to it more slowly because the plan is sudden.",
+ "'Nequa', Greenough's one-word spelling of 'ne qua', 'let no (delay)', 'qua' the indefinite after 'ne'. 'esto' and 'ito' are future imperatives, the forms of laws and formal orders, 'let there be', 'let him go'. 'hac stat', 'stands on this side', is with us. 'neu quis', 'and let no one'. 'ob inceptum subitum', 'on account of the sudden undertaking'. 'mihi', an ethic dative, 'I tell you', or 'in my service'. 'segnior', 'more sluggish'. No elisions."),
+(569, 'ponam.',
+ "The city today, the cause of the war, the very realm of Latinus,\nunless the bridle to accept and, conquered, to obey they confess,\nI will root out, and level with the ground its smoking roofs I will lay.",
+ "This very day, unless they own themselves ready to take the bit and obey as beaten men, I will tear up this city, the cause of the war, the very kingdom of Latinus, and lay its smoking roofs level with the ground.",
+ "The objects 'Urbem… causam belli, regna ipsa Latini' come first; the verbs 'eruam… ponam' wait for line 569. 'ni… fatentur', 'unless they confess', the present indicative in a simple condition. 'frenum accipere', 'to accept the bridle', a horse's word for submission. 'victi', 'as conquered men'. 'eruam', 'I will uproot, overthrow'. 'aequa solo… ponam', 'I will lay level with the ground', 'solo' dative with 'aequa'. 'fumantia culmina', 'smoking roof-tops', the fire foreseen. Elisions 'Urb(em) hodie', 'regn(a) ipsa', 'fren(um) accipere', 'accip(ere) et', 'eru(am) et'."),
+(571, 'victus?',
+ "Am I, no doubt, to wait until it please Turnus our battles\nto endure, and again he wish to clash, beaten?",
+ "Am I to wait, I suppose, until Turnus is pleased to face us in battle and chooses to fight again, beaten as he is?",
+ "'Scilicet', 'of course, no doubt', bitterly ironic. 'exspectem', a deliberative subjunctive, 'am I to wait?'. 'dum', 'until', with the subjunctives 'libeat' and 'velit', the waiting looking forward. 'libeat… Turno', 'it should please Turnus', impersonal with a dative. 'proelia… nostra pati', 'to endure our fighting', to face us. 'victus', 'beaten as he is', Aeneas counting Turnus's evasions as defeat; he does not know they are Juturna's doing. No elisions."),
+(572, 'nefandi:',
+ "This is the head, O citizens, this the sum of the unspeakable war:",
+ "Here, my countrymen, is the head and sum of this accursed war:",
+ "'Hoc caput… haec… summa', 'this (is) the head… this the sum', 'est' understood: the city is the source and crux of the war. 'cives', 'citizens', a Roman general's address to his soldiers, as if the Trojans were already a city. 'belli… nefandi', 'of the unspeakable war', unspeakable because it is fought in breach of sworn treaties. No elisions."),
+(573, 'flammis.”',
+ "bring torches quickly, and the treaty demand back with flames.”",
+ "bring torches, quickly, and claim back the treaty with fire.”",
+ "'ferte faces', 'bring torches'. 'propere', 'with speed'. 'foedus… reposcite flammis', 'demand back the treaty with flames', exact by fire what the broken compact owed you: a compressed and violent phrase, 're-' marking a claim to what is due. The speech ends here. No elisions."),
+(575, 'feruntur.',
+ "He had spoken, and, with spirits equally vying, all\nform a wedge, and in a dense mass to the walls are borne.",
+ "He had spoken, and all of them, their spirits vying, formed a wedge and bore down on the walls in a dense mass.",
+ "'Dixerat', 'he had spoken', the regular formula for the end of a speech, the pluperfect marking it as finished before the action resumes. 'animis… certantibus', ablative absolute, 'their spirits vying', each man eager to outdo the rest. 'pariter', 'alike'. 'dant cuneum', 'make a wedge', the 'cuneus' of 457. 'densa… mole', 'in a dense mass'. 'feruntur', 'are carried, rush', the passive with a middle sense. Elisions 'atqu(e) animis', 'densaqu(e) ad'."),
+(576, 'ignis.',
+ "Ladders on a sudden and, sudden, appeared fire.",
+ "All at once there were ladders, and fire burst out without warning.",
+ "'Scalae… ignis', 'ladders… fire', two subjects with a singular verb that agrees with the nearer. 'improviso', 'unexpectedly', an adverb, and 'subitus', 'sudden', saying it twice for the speed of it. 'apparuit', 'appeared'. Elisions 'Scal(ae) improviso', 'subitusqu(e) apparuit'."),
+(578, 'telis.',
+ "Run off, some, to the gates and the first men slaughter;\nsteel others whirl and overshadow the sky with weapons.",
+ "Some ran to the gates and cut down the guards there, others hurled their spears and darkened the sky with missiles.",
+ "'alii… alii', 'some… others'. 'Discurrunt', 'run in different directions'. 'primos', 'the first ones', the sentries at the gates. 'trucidant', 'butcher'. 'ferrum… torquent', 'whirl steel', hurl iron-tipped spears. 'obumbrant aethera telis', 'overshadow the sky with weapons', 'aethera' the Greek accusative; a stock exaggeration of battle since Homer. Elisions 'ali(i) ad', 'ferr(um) alii'."),
+(582, 'rumpi.',
+ "Himself among the foremost his right hand beneath the walls stretches\nAeneas, and with a great voice accuses Latinus,\nand calls the gods to witness that again he to battle is forced,\ntwice now the Italians are enemies, this second treaty is broken.",
+ "Aeneas himself, among the front ranks, stretched out his right hand beneath the walls, upbraided Latinus at the top of his voice, and called the gods to witness that he was being forced into battle a second time, that the Italians were now his enemies twice over, that this second treaty was being broken.",
+ "'Ipse… Aeneas', the name held over the line-break. 'dextram… tendit', 'stretches out his right hand', a gesture of appeal. 'incusat… Latinum', 'accuses Latinus', the king who swore the treaty. 'testatur… deos', 'calls the gods to witness', followed by three accusative-and-infinitive clauses: 'se… cogi', 'that he is compelled'; 'Italos hostis', 'that the Italians are enemies', 'esse' understood, 'hostis' the -is accusative; 'haec altera foedera rumpi', 'that this second treaty is broken'. Commentators take the first to be Latinus's alliance of Book VII. Elisions 'Ips(e) inter', 'magnaqu(e) incusat', 's(e) ad', 'i(am) Italos'."),
+(583, 'civis:',
+ "Arises among the alarmed citizens discord:",
+ "Strife broke out among the panic-stricken citizens:",
+ "'Exoritur', 'rises up', placed first, the strife breaking out at once. 'trepidos inter… civis', 'among the frightened citizens', the preposition set between adjective and noun; 'civis', Greenough's -is accusative plural. 'discordia', 'discord', the city divided in two, as the next lines show. No elisions."),
+(586, 'muros.',
+ "some the city bid to unbar and to throw open the gates\nto the Dardanians, and the king himself drag onto the walls;\narms others carry and press on to defend the walls.",
+ "some urged that the city be unbarred and its gates thrown open to the Trojans, and dragged the king himself up on to the ramparts; others took up arms and pressed on to hold the walls.",
+ "'alii… alii', 'some… others', the two parties. 'reserare', 'to unbar', literally to take off the bar, 'sera'. 'iubent', 'urge', with the infinitives. 'Dardanidis', 'to the Dardanians', the Trojans, dative. 'ipsum… regem', 'the king himself', Latinus, hauled to the walls to treat with Aeneas. 'in moenia', 'onto the walls'. 'pergunt', 'go on, press on'. Elisions 'urb(em) alii', 'ali(i) et'."),
+(588, 'amaro:',
+ "Shut in, as when in a porous rock a shepherd\nhas tracked down bees and with smoke filled them, bitter:",
+ "As when a shepherd has tracked bees to their hiding-place in a hollow rock and filled it with bitter smoke:",
+ "A simile: the city in panic is like a hive smoked out. 'ut cum', 'as when', with the perfects 'vestigavit… implevit', the perfect of a thing that habitually happens. 'Inclusas… apes', 'the shut-in bees', framing. 'latebroso in pumice', 'in a porous rock full of hiding-places', 'pumex' here any hollow, crumbling stone. 'fumo… amaro', 'with bitter smoke', the way bee-keepers drive bees out. 'pastor', 'a shepherd', the countryman who finds a wild hive. Apollonius of Rhodes (Argonautica II) has, from memory, shepherds smoking out bees in the same way. Elisions 'latebros(o) in', 'fumoqu(e) implevit'."),
+(590, 'iras;',
+ "they within, alarmed for their state, through the waxen camp\nrun about, and with loud hissings sharpen their angers;",
+ "inside, fearful for their state, they run this way and that through their waxen camp and whet their anger with loud buzzing;",
+ "'illae', the bees. 'trepidae rerum', 'anxious for their affairs', a genitive with an adjective of feeling. 'cerea castra', 'the waxen camp', the comb, the bees pictured as an army, as in Georgics IV; it suits the besieged city. 'discurrunt', the very verb used of the Trojans at 577. 'acuunt… iras', 'sharpen their wrath'. 'stridoribus', 'with whirrings, buzzings'. Elisions 'ill(ae) intus', 'magnisqu(e) acuunt'."),
+(592, 'auras.',
+ "rolls a black smell through the dwellings; then with a murmur, blind,\nwithin the rocks resound; to the empty airs goes the smoke.",
+ "the black reek rolls through their dwellings, the rock hums within with a muffled murmur, and the smoke goes up into the empty air.",
+ "'volvitur ater odor', 'a black smell rolls', 'ater' given to the smell though it belongs to the smoke, a transferred epithet. 'tectis', 'through the dwellings', the cells of the comb. 'murmure caeco', 'with a blind murmur', unseen and muffled. 'intus saxa sonant', 'the rocks sound within'. 'vacuas… ad auras', 'to the empty air', the preposition between adjective and noun. The application is left to the reader: the city, smoked and humming with panic. No elisions."),
+(594, 'urbem.',
+ "Befell this to the weary also, a misfortune, Latins,\nwhich the whole with grief shook from its foundations, city.",
+ "Then a further blow fell on the weary Latins, a misfortune that shook the whole city to its foundations with grief.",
+ "A new paragraph in Greenough: the death of Queen Amata. 'Accidit… fortuna', 'there befell… a fortune', 'fortuna' here bad fortune. 'haec', 'this', looking forward to what is told. 'fessis… Latinis', dative with 'accidit', 'befell the weary Latins', framing the line. 'etiam', 'also, as well', on top of the assault. 'totam… urbem', framing the second line. 'funditus', 'from the foundations', as of a building shaken down. No elisions."),
+(597, 'Turni:',
+ "The queen, as from the palace coming she sees the enemy,\nthe walls being assailed, fires to the roofs flying,\nnowhere battle-lines in opposition, Rutulian, no columns of Turnus:",
+ "When the queen looked out from the palace and saw the enemy coming, the walls under assault, fire flying on to the roofs, and nowhere any Rutulian ranks to meet them, no columns of Turnus:",
+ "'Regina', Amata, wife of Latinus, who had fought the Trojan marriage since Book VII. 'ut… prospicit', 'when she looks out', a historic present. 'tectis', 'from the palace', ablative of place from which. Then a run of accusatives and infinitives after 'prospicit': 'hostem venientem', the enemy coming; 'incessi muros', the walls being attacked, 'incessi' the regular present passive infinitive of 'incesso', 'assail', not a misprint; 'ignis… volare', fires flying, -is plural. 'contra', 'opposite', an adverb. Elisions 'Regin(a) ut', 'nusqu(am) acies', 'null(a) agmina'."),
+(600, 'malorum,',
+ "the unhappy woman, in the contest of the fight, the young man believes\nslain, and, by sudden grief in her mind disordered,\nherself the cause she cries out, and the guilt and the head of the evils,",
+ "the unhappy woman believed the young man had been killed in the fighting, and, her mind thrown into turmoil by sudden grief, she cried out that she was the cause, the guilt and the fountain-head of all these evils,",
+ "'infelix', 'the unhappy one', Amata, the epithet of Dido. 'iuvenem', Turnus, her favoured suitor for Lavinia; 'credit… exstinctum', 'believes him dead', 'esse' understood. 'pugnae… in certamine', 'in the contest of battle'. 'mentem turbata', 'disordered in mind', the accusative of the part affected with a passive participle, a Greek usage. 'se causam clamat', 'cries that she is the cause'. 'crimen… caput… malorum', 'the crime and source of the evils', 'caput' the fountain-head; the double '-que… -que'. The period runs on; it is cut at this comma. Elisions 'iuven(em) in', 'exstinct(um) et'."),
+(603, 'alta.',
+ "and many things, in her sorrowful, out of her mind, having uttered, frenzy,\nher purple, about to die, with her hand she rends robes,\nand the knot of a hideous death from a beam ties, high.",
+ "and, having poured out many wild words in the frenzy of her grief, resolved to die, she tore her purple robes with her own hand and tied from a high beam the noose of an ugly death.",
+ "'multa… effata', 'having uttered many things', the deponent participle. 'per maestum… furorem', 'in her sorrowful frenzy', framing. 'demens', 'out of her mind'. 'purpureos… amictus', 'her purple robes', the royal colour, framing the line. 'moritura', 'about to die, resolved to die', as of Dido at IV.519. 'nodum informis leti', 'the knot of an unsightly death', 'informis' 'shapeless, hideous': hanging was held a disgraceful death, and Servius says, from memory, that the pontifical books denied the hanged burial. 'trabe… ab alta', 'from a high beam'. No elisions."),
+(607, 'furit:',
+ "Which disaster when the wretched learned, the Latin women,\nthe daughter first, with her hand, her golden, Lavinia, hair\nand rosy having torn her cheeks, then the rest around,\nthe throng, rages:",
+ "When the unhappy Latin women learned of this disaster, first her daughter Lavinia tore her golden hair and rosy cheeks with her hands, and then the rest of the throng around her ran wild with grief:",
+ "'Quam cladem', a connecting relative, 'and this disaster'. 'accepere' = 'acceperunt', 'heard, learned'. 'miserae… Latinae', 'the wretched Latin women', framing. 'filia… Lavinia', the princess whose hand is the prize of the war; her 'rosy cheeks' recall her blush at 64–69 of this book. 'flavos… crinis… et roseas… genas', both objects of 'laniata', 'having torn', a middle participle like the Greek, 'tearing her hair and cheeks', the gestures of mourning. 'crinis', -is accusative plural. 'cetera… turba', 'the rest of the crowd'. 'circum', an adverb. Elision 'postqu(am) accepere'."),
+(607, 'aedes.',
+ "resound far and wide with beatings of the breast the halls.",
+ "the palace rang far and wide with the beating of breasts.",
+ "'resonant… aedes', 'the halls resound', the subject held to the end; 'aedes' in the plural is a house, here the palace. 'late', 'far and wide'. 'plangoribus', 'with beatings', 'plangor' the striking of the breast in lament and the cries that go with it. The words echo the mourning for Dido at IV.668, 'resonat magnis plangoribus aether'. No elisions."),
+(608, 'urbem.',
+ "From here through the whole, ill-omened, is spread the report, city.",
+ "From there the dismal news spread through the whole city.",
+ "'Hinc', 'from here', from the palace. 'totam… per urbem', 'through the whole city', framing the line, with the preposition late. 'infelix… fama', 'the ill-omened news'. 'volgatur', Greenough's spelling of 'vulgatur', 'is spread among the people', the 'volgus'. Rumour runs through the city as it did through Carthage at Dido's death. Elision 'tot(am) infelix'."),
+(609, 'mentes;',
+ "They let sink their spirits;",
+ "Spirits sank;",
+ "'Demittunt mentes', 'they let their spirits fall', they lose heart; the subject is the people at large, understood from 'fama… per urbem'. 'mentes' here courage, resolve. A two-word clause, set against the long sentence about the king that follows. No elisions."),
+(611, 'turpans.',
+ "goes, with torn robe, Latinus,\nat his wife's fate thunderstruck and the city's ruin,\nhis white hair, with foul dust sprinkled, defiling.",
+ "Latinus went about with his robe torn, stunned by his wife's fate and the ruin of his city, fouling his white hair with the filthy dust he poured on it.",
+ "'it scissa veste', 'goes with torn garment', ablative of manner: tearing the clothes was a sign of mourning. 'coniugis… fatis', 'by the fate of his wife', ablative of cause with 'attonitus', 'thunderstruck, stunned'; 'coniugis', the i consonantal, con-yu-gis. 'urbis ruina', the fall of his city. 'canitiem… perfusam… turpans', 'defiling his white hair, sprinkled with dirty dust', the same gesture of mourning as Achilles' when he hears of Patroclus's death in Iliad XVIII. Elision 'caniti(em) immundo'."),
+(613, 'ultro.]',
+ "[And much he accuses himself, who had not received before]\n[Dardanian Aeneas and as son-in-law adopted him of his own accord.]",
+ "He blamed himself bitterly for not having welcomed Trojan Aeneas from the first and taken him for his son-in-law of his own free will.",
+ "Greenough brackets these two lines as spurious, and they are absent from many texts (the Latin Library omits them): they repeat, with small changes, XI.471–472, where Latinus blames himself in nearly the same words, and seem to have been brought in from there. Read as they stand: 'multa', 'much', an adverbial accusative. 'qui… acceperit', 'since he had not received', 'qui' causal with the subjunctive. 'ante', 'earlier'. 'Dardanium Aenean', Greek accusative 'Aenean'. 'generum… adsciverit', 'had adopted as son-in-law', Greenough's 'adsciverit' for 'asciverit'. 'ultro', 'of his own accord'. Elisions 'Dardani(um) Aenean', 'generumqu(e) adsciverit'."),
+(616, 'equorum;',
+ "Meanwhile, on the furthest part of the plain, the warrior Turnus\nstraggling men pursues, a few, now slower, and\nnow less and less with the success glad of his horses;",
+ "Meanwhile, out at the far edge of the field, Turnus the warrior was chasing a few stragglers, more slowly now, and less and less pleased with the running of his horses;",
+ "A new paragraph in Greenough: the scene turns to Turnus. 'Interea', 'meanwhile'. 'extremo… in aequore', 'on the furthest part of the plain', 'aequor' any level surface, of land as of sea: Juturna has drawn him far from the city. 'bellator', 'warrior', used as an adjective. 'palantis', 'straggling', -is accusative plural. 'segnior', 'more slowly'. 'minus atque minus', 'less and less'. 'successu… equorum', 'with the success of his horses', their easy, empty victories. The semicolon after 'equorum' is supplied by Lectorium where the digital source dropped a mark; the lowercase 'attulit' shows Greenough did not print a full stop. Elision 'Intere(a) extremo'."),
+(619, 'murmur.',
+ "brought this to him, with blind terrors, the breeze,\nmingled, the clamour, and his pricked-up struck ears\nthe sound of the confused city and a joyless murmur.",
+ "the breeze carried to him a clamour charged with dark, unseen terrors, and the sound of the city in turmoil, a cheerless murmur, struck his straining ears.",
+ "'attulit… aura', 'the breeze brought'. 'hunc… commixtum… clamorem', 'this mingled shout', framing; 'illi', 'to him'. 'caecis terroribus', 'with blind terrors', ablative with 'commixtum', terrors whose cause he cannot see. 'adrectas… aures', 'his pricked-up ears', Greenough's 'adrectas' for 'arrectas', as of a horse listening. 'impulit', 'struck', its subjects 'sonus… et… murmur'. 'confusae… urbis', 'of the city in disorder'. 'inlaetabile', 'joyless', a rare, heavy word. Elisions 'clamor(em) adrectasque', 'adrectasqu(e) impulit'."),
+(620, 'luctu?',
+ "“Ah me! Why with such great grief are thrown into turmoil the walls?",
+ "“Ah me! Why are the walls in such an uproar of grief?",
+ "Turnus speaks to himself. 'Ei mihi', 'alas for me', an exclamation, 'ei' one syllable. 'Quid', 'why', an adverbial accusative. 'tanto… luctu', 'with such grief', framing the rest; 'turbantur moenia', 'the walls are disturbed', the walls standing for the people inside them. No elisions."),
+(621, 'urbe?”',
+ "Or what so great rushes, from the distant, a shout, city?”",
+ "Or what is this great cry that comes rushing from the far-off city?”",
+ "'Quisve', 'or what', 'quis' used as an adjective with 'clamor', and '-ve' 'or'. 'tantus… clamor', 'so great a shout', the adjective set well before its noun. 'diversa… ab urbe', 'from the city in the other direction', far off across the field. 'ruit', 'rushes', of sound. No elisions."),
+(622, 'habenis.',
+ "So he says, and with drawn-in, beside himself, halts, reins.",
+ "So he spoke, and, beside himself, pulled in the reins and stopped.",
+ "'Sic ait', 'so he says', a formula closing a speech. 'adductis… habenis', ablative absolute, 'the reins drawn in', framing the rest. 'amens', 'out of his mind', distraught. 'subsistit', 'halts'. Elision 'adductisqu(e) amens'."),
+(625, 'dictis:',
+ "And him, as, into the likeness turned of Metiscus\nthe charioteer, both chariot and horses and reins his sister was steering,\nwith such words she meets:",
+ "And his sister, who, changed into the likeness of the charioteer Metiscus, was steering chariot, horses and reins, met him with these words:",
+ "'Atque huic', 'and to him', dative with 'occurrit', 'she meets him, answers him'. 'soror', Juturna, still disguised as Metiscus since 469. 'ut', 'as', with 'regebat': she is the one driving. 'in faciem… conversa Metisci', 'turned into the appearance of Metiscus', framing. 'currumque et equos et lora', 'both chariot and horses and reins', the full list. 'talibus… dictis', 'with such words', a formula. Elisions 'Atqu(e) huic', 'currumqu(e) et'."),
+(626, 'pandit;',
+ "“This way, Turnus, let us pursue\nthe Troy-born, where first a road victory opens;",
+ "“Let us chase the Trojans this way, Turnus, where victory first opens a road for us;",
+ "'Hac', 'by this way'. 'sequamur', a hortative subjunctive, 'let us follow, pursue'. 'Troiugenas', 'the Troy-born', a grand compound, accusative plural. 'qua', 'where, by which way'. 'prima… victoria', 'victory first', the adjective with the force of an adverb: here is where the winning is easy. 'viam… pandit', 'opens the way'. Juturna wants him anywhere but near Aeneas. No elisions."),
+(627, 'possint.',
+ "there are others who the houses with their hands could defend.",
+ "there are others who can defend the houses by force of arms.",
+ "'sunt alii, qui… possint', 'there are others such as could defend', a relative clause of characteristic with the subjunctive. 'tecta', 'roofs', the houses of the city. 'manu', 'by hand', by fighting. Juturna will not let him go back to the city, where Aeneas is. No elisions."),
+(628, 'miscet:',
+ "Falls upon the Italians Aeneas and battles stirs up:",
+ "Aeneas is falling upon the Italians and stirring up battle:",
+ "'Ingruit', 'bursts in, falls upon', with the dative 'Italis'. 'Aeneas', Ae- one long syllable. 'proelia miscet', 'mixes battles', a common phrase for joining or stirring up battle. Juturna's point is that each of them has his own field. No elisions."),
+(629, 'Teucris.',
+ "let us too savage with our hands send deaths to the Teucrians.",
+ "let us too deal out cruel deaths to the Trojans with our own hands.",
+ "'et nos', 'we too', 'et' 'also'. 'mittamus', a hortative subjunctive. 'saeva… funera', 'savage deaths', 'funus' a funeral, hence a death. 'Teucris', dative, 'to the Teucrians', the Trojans, named after Teucer, an early king of Troy; eu one syllable. No elisions."),
+(630, 'recedes.”',
+ "Neither in number inferior from the fight nor in honour will you withdraw.”",
+ "You will come out of the fight his match both in the number of your kills and in glory.”",
+ "'numero inferior… (nec) honore', 'inferior in number… (nor) in honour', ablatives of respect: you will kill as many and win as much glory as Aeneas. 'pugnae', with 'recedes', 'you will retire from the fight', a dative where prose would have 'ex pugna'. 'Nec… nec', 'neither… nor'. Elision 'numer(o) inferior'."),
+(631, 'haec:',
+ "Turnus to this:",
+ "Turnus replied:",
+ "One of the half-lines Virgil left unfinished, some fifty-odd in the poem: two and a half feet, and the line breaks off. The verb of speaking is left out, a pattern already met ('Aeolus haec contra'): 'ad haec', 'to these things', in reply. Whether Virgil meant the short line as an effect or would have filled it out is unknowable; he died before revising the poem. No elisions."),
+(634, 'dea.',
+ "“O sister, both long since I knew you, when first by craft\nthe treaty you troubled and yourself into these wars gave,\nand now in vain you deceive me, goddess.",
+ "“Sister, I knew you long ago, when you first used your arts to wreck the treaty and threw yourself into this war, and now, goddess though you are, you deceive me in vain.",
+ "'O soror': Turnus has seen through the disguise. 'et… et', 'both… and', joining then and now. 'dudum adgnovi', 'I recognised (you) long ago', Greenough's 'adgnovi' for 'agnovi'. 'cum prima', 'when first', 'prima' with adverbial force. 'per artem', 'by craft': disguised as Camers, she stirred the Rutulians to break the treaty earlier in this book (222–224). 'turbasti' = 'turbavisti', the shortened perfect. 'te… dedisti', 'you gave yourself', threw yourself in. 'nequiquam fallis', 'you deceive in vain'. 'dea', 'goddess', as you are. Elisions 'dud(um) adgnovi', 'tequ(e) haec', 'ha(ec) in'."),
+(635, 'labores?',
+ "But who, from Olympus\nsent down, such great willed you to bear toils?",
+ "But who wanted you sent down from Olympus to bear such heavy labours?",
+ "'quis… voluit', 'who willed', the subject a god: Turnus guesses at a higher hand, and it is Juno's. 'Olympo… demissam', 'sent down from Olympus', ablative of separation. 'te ferre', infinitive with 'voluit', 'wished you to endure'. 'tantos… labores', 'such great toils'. Juturna is a water-nymph made immortal by Jupiter, so 'Olympus' stands for heaven at large. No elisions."),
+(636, 'videres?',
+ "Or that of your brother, wretched, the death, cruel, you might see?",
+ "Or was it so that you should watch your poor brother's cruel death?",
+ "'An', 'or', introducing a second, bitter guess. 'ut… videres', a purpose clause, 'that you might see'. 'fratris miseri', 'of your wretched brother', Turnus speaking of himself in the third person. 'letum… crudele', 'cruel death', framing 'ut'. He already speaks as a doomed man. Elision 'let(um) ut'."),
+(637, 'ago?',
+ "For what am I doing?",
+ "For what am I to do?",
+ "'Nam quid ago?', 'for what do I do?', the present indicative in a deliberative question, livelier than the subjunctive 'agam'. 'Nam', 'for', gives the reason for the despair just voiced: there is no way out. He casts about and finds none. No elisions."),
+(637, 'salutem?',
+ "Or what now pledges Fortune, safety?",
+ "Or what hope of safety does Fortune now hold out?",
+ "'quae… salutem', 'what safety', 'quae' the interrogative adjective, with 'salutem' held to the end of the line. 'spondet', 'promises, pledges', a legal word for a solemn guarantee. 'Fortuna', capitalised by Greenough as a goddess. No elisions."),
+(640, 'victum.',
+ "I saw, before my eyes, myself, me with his voice calling,\nMurranus, than whom no other survives dearer to me,\nmeet death, huge, and by a huge wound overcome.",
+ "With my own eyes I saw Murranus, dearer to me than any man now left alive, calling out to me by name, go down to his death, a giant overcome by a giant's wound.",
+ "'Vidi… ipse', 'I saw myself', with 'oculos ante… meos', 'before my eyes', the preposition after its first word. 'me voce vocantem', 'calling me with his voice', crying for help. 'Murranum', felled by Aeneas with a rock at 529–534. 'quo… carior', 'dearer than whom', an ablative of comparison. 'superat', 'survives, is left'. 'oppetere', 'meet (death)', as at 543. 'ingentem… ingenti', 'huge… by a huge (wound)': a great man needs a great wound to fell him. 'volnere', Greenough's spelling of 'vulnere'. Elisions 'ant(e) ipse', 'oppeter(e) ingentem', 'ingent(em) atque', 'atqu(e) ingenti'."),
+(642, 'adspiceret;',
+ "Fell, unhappy man, that our disgrace Ufens\nshould not behold;",
+ "Unlucky Ufens fell rather than see our shame;",
+ "'Occidit', 'fell', perfect. 'nostrum ne dedecus… adspiceret', 'so that he might not see our disgrace', a purpose clause with 'ne': Turnus speaks as if Ufens died on purpose, sparing himself the sight. Greenough prints 'nostrum ne dedecus'; the Latin Library has 'ne nostrum dedecus', with the same sense. Ufens fell to Gyas at 460. 'adspiceret', Greenough's spelling of 'aspiceret'. No elisions."),
+(642, 'armis.',
+ "the Teucrians possess his body and arms.",
+ "the Trojans have his body and his armour.",
+ "'Teucri', 'the Teucrians', eu one syllable. 'potiuntur', 'get possession of', with the ablatives 'corpore et armis'. To lose the body and armour to the enemy was the last disgrace in Homeric war, and the fight over a corpse is a stock scene of the Iliad. Elision 'corpor(e) et'."),
+(644, 'refellam?',
+ "That the houses be razed (this to our fortunes was lacking, one thing)\nshall I endure, and with my right hand Drances' words not refute?",
+ "Am I to let our homes be razed (the one thing still wanting to our ruin) and not give the lie to Drances's words with my own right hand?",
+ "'Exscindine… perpetiar', 'am I to endure (that the houses) be destroyed?', 'exscindi' the present passive infinitive with the question particle '-ne', 'domos' its subject; 'perpetiar' a deliberative subjunctive (or future). '(id rebus defuit unum)', 'this one thing was lacking to our fortunes', a bitter aside, in parentheses in the print. 'dextra… refellam', 'refute with my right hand', answer by deeds. Drances, Turnus's enemy in the Latin council of Book XI, called him a coward who sent others to die. No elisions."),
+(645, 'videbit?',
+ "My back shall I give, and Turnus fleeing shall this land see?",
+ "Shall I turn my back, and this land see Turnus run?",
+ "'Terga dabo', 'shall I give my back', turn and run, the phrase of 463. The question is indignant, the futures meaning 'am I to'. 'Turnum', the speaker naming himself, proud even in despair. 'haec terra', 'this land', Italy, his own country. Elisions 'dab(o) et', 'fugient(em) haec'."),
+(646, 'est?',
+ "To such a degree is it to die wretched?",
+ "Is death so very hard a thing?",
+ "'Usque adeone', 'even to such a point?', '-ne' the question particle. 'mori miserum est', 'to die is wretched', the infinitive the subject. One of the poem's most quoted questions: a man who has chosen death over disgrace asking whether death is really the worst. Elisions 'Usqu(e) adeone', 'miser(um) est', the last really prodelision, 'miserumst'."),
+(647, 'voluntas!',
+ "You, O, to me, Manes,\nbe kind, since of those above turned away is the will!",
+ "Shades of the dead, be kind to me, since the gods above have turned their favour from me!",
+ "'Manes', the spirits of the dead and the powers of the underworld. 'este', imperative plural of 'sum', 'be'. 'boni', 'kind, gracious'. 'O' sits between 'Vos' and 'mihi', the interjection set inside the phrase. 'superis… aversa voluntas', 'the will of those above is turned away', 'est' understood, 'superis' a dative of possession. Turnus turns from heaven to the underworld, as Dido does in her last prayers. No elisions."),
+(649, 'avorum.”',
+ "A holy, to you, soul, and of that ignorant guilt,\nI shall go down, of my great never unworthy ancestors.”",
+ "To you I shall go down, a spirit without stain, innocent of that disgrace, and never unworthy of my great forefathers.”",
+ "'Sancta… anima', 'a holy soul', untainted, framing 'ad vos'. 'istius… culpae', 'of that fault', the cowardice he has just refused, 'iste' with a note of contempt. 'nescia', 'not knowing', innocent of; the Latin Library's 'inscia' means the same. 'descendam', 'I shall go down' to the underworld. 'magnorum… avorum', 'of my great ancestors', framing the line; 'haud umquam indignus', 'never unworthy', litotes. Turnus's line goes back to Inachus and Acrisius of Argos (VII.371–372). Elisions 'Sanct(a) ad', 'anim(a) atque', 'atqu(e) istius', 'magnor(um) haud', 'umqu(am) indignus'."),
+]
+
+# Speech-mark check exemptions (rule 5b), by closing text of the unit: none needed.
+#  'ultro.]' (612-613): Greenough's brackets for spurious lines are kept in l; i, being English prose, carries
+#      none (the bracket check below is on l only), and the note says the lines are bracketed.
+#  'equorum;' (616): the semicolon is supplied in the source (rule 5); the note says so.
+EXEMPT = set()
+# Long periods: 595-603 cut after 'Turni:' (597) and at the comma after 'malorum' (600); 604-607 is four lines.
+OVERLONG = set()
+P = A.part('aeneid-096'); L = A.lines_of(P); paras = {l['n'] for l in L if l['p']} | {L[0]['n']}
+cuts = A.cut(P, [(u[0], u[1]) for u in U])
+sents = []; prev_end_line = None
+for (t, ln), (_, tail, l, i, n) in zip(cuts, U):
+    u = {'t': t, 'l': l, 'i': i, 'n': n}
+    if prev_end_line != ln and ln in paras: u['p'] = True
+    u['v'] = True; u['ln'] = ln; sents.append(u)
+    prev_end_line = ln + t.count('\n')
+    if t.count('\n') != l.count('\n'): print('LINE COUNT', ln, repr(t[:30]), t.count('\n'), l.count('\n'))
+    if t.count('\n') > 4: print('TOO LONG' + (' (known, uncuttable)' if ln in OVERLONG else ''), ln, t.count('\n') + 1, 'lines')
+    if '\n' in i: print('NEWLINE IN i', ln)
+    if t.rstrip('”]')[-1] not in A.TERMINAL + ',': print('ENDING', ln, repr(t[-12:]))
+    nw = len(n.split())
+    if nw > 139 or nw < 15: print('NOTE LENGTH', ln, nw)
+    for mk in '“”[]':
+        if t.count(mk) != l.count(mk) and tail not in EXEMPT: print('MARK l', ln, mk)
+        if mk in '“”' and t.count(mk) != i.count(mk) and tail not in EXEMPT: print('MARK i', ln, mk)
+    if '“' in n or '”' in n:
+        if tail not in EXEMPT and 'The print has' not in n: print('DOUBLE MARK IN n', ln)
+covered = sorted({ln + k for (t, ln) in cuts for k in range(t.count('\n') + 1)})
+if covered != [l['n'] for l in L]: print('COVERAGE', covered)
+joined = '\n'.join(l['t'] for l in L)
+rebuilt = ''.join(t + ('\n' if (k + 1 < len(cuts) and cuts[k + 1][1] != ln + t.count('\n')) else ' ' if k + 1 < len(cuts) else '') for k, (t, ln) in enumerate(cuts))
+if rebuilt != joined: print('JOIN MISMATCH')
+if A.sha(L) != P.get('sha256', A.sha(L)): print('SHA MISMATCH')
+A.jdump({'title': TITLE, 'titleEn': TITLE_EN, 'part': PART, 'about': ABOUT, 'sentences': sents}, os.path.join(HERE, 'units.json'))
+print(len(sents), 'units;', len(covered), 'lines covered')

@@ -1,0 +1,2789 @@
+{
+ "language": "Sumerian",
+ "langCode": null,
+ "script": "cuneiform",
+ "work": "Sumerian King List",
+ "workEn": "Sumerian King List",
+ "id": "king-list-akkad",
+ "title": "𒉆𒈗",
+ "titleRead": "Namlugal",
+ "titleEn": "Sumerian King List — Sargon and the kings of Akkad (VI 31 – VII 14)",
+ "part": "Sargon and the kings of Akkad (VI 31 – VII 14)",
+ "provisional": true,
+ "draftNote": "Draft — the cuneiform and its readings are provisional, checked sign-by-sign against Langdon's 1923 edition of the prism.",
+ "source": "Weld-Blundell Prism (WB 444), after S. Langdon, Oxford Editions of Cuneiform Texts II (Oxford, 1923), VI 31 – VII 14. Cuneiform in normalized Unicode (Neo-Assyrian forms) though the prism is Old Babylonian. Academic transliteration in modern subscript notation over Langdon's 1923 readings; Langdon's restorations shown in [ ] and his superseded readings flagged in the notes; pronunciation conventional reconstructed Sumerian. Fresh translations from the Sumerian; Langdon's public-domain translation consulted for sense only.",
+ "about": "The kingship comes to Agade (Akkad), and this part gives its whole dynasty: the end of Col. VI and the first fourteen lines of Col. VII. It opens with Sargon — Šarrukin, read by Langdon as one longer name, Sharrukin-ilubani — a gardener and cup-bearer of Ur-Zababa of Kish, who built Agade and reigned 56 years; then his sons Rimush and Manishtishu, Manishtishu's son Naram-Suen, and Naram-Suen's son Shargalisharri. The foot of Col. VI is broken away, so the reigns of the last two and most of their names are Langdon's restoration, shown in brackets, and where his numbers carry his own query they are left as gaps. Col. VII begins with a line without a king, 'Who was king? Who was not king?', and four kings who together ruled three years; then Dudu and his son Shu-Durul, and the total, eleven kings and 181 years, which cannot be checked against the broken reigns. The refrain carries the kingship to Uruk. Readings follow Langdon's 1923 edition, signs as his copy of the prism shows them. Where the copy shows something other than his transliteration — Agade written without GA in VI 34, a stray wedge marked 'sic!' in Ur-Zababa, signs he prints whole that the copy hatches as broken — the copy is followed and the notes say so; names and readings that are uncertain are flagged, among them the first sign of the cup-bearer's title, which the copy draws unlike its usual KA.",
+ "numbering": "line",
+ "sentences": [
+  {
+   "ln": 31,
+   "t": "𒀀𒂵𒉈 𒊬𒊒𒆠𒅔\n𒉌𒇻𒁀𒉌 𒉡𒄑𒊬\n𒅗𒋗𒂁 𒌨𒀭𒍝𒁹𒈹𒈹\n𒈗 𒀀𒉈 𒇽 𒀀𒂵𒉈𒆠\n𒈬𒌦𒆕𒀀\n𒈗𒀀𒀭 𒈬 𒐐𒐋 𒉌𒀝",
+   "l": "in-Agade, Sharrukin-ilubani, gardener, cup-bearer of-Ur-Zababa, king of-A(ga)de (sic), the-man(?)-who Agade built, was-king; years 56 he-ruled.",
+   "words": [
+    {
+     "reading": "a-ga-de₃",
+     "say": "agade",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒂵",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "ga"
+      },
+      {
+       "s": "𒉈",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "de₃"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "a-ga-de₃",
+       "gloss": "Agade (Langdon A-ga-dé; Akkad) — city in northern Babylonia, seat of the dynasty of Sargon; A-GA-NE (NE read de₃, Langdon dé) + the place-determinative KI, as a-ga-de₃{ki} · also written without GA (a-de₃, the A marked 'sic!' on the copy) and without KI, at the head of the dynasty",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šar-ru-ki-in-i₃-lu-ba-ni",
+     "say": "šarrukinilubani",
+     "glyphs": [
+      {
+       "s": "𒊬",
+       "sign": "SAR",
+       "role": "phon",
+       "tr": "šar"
+      },
+      {
+       "s": "𒊒",
+       "sign": "RU",
+       "role": "phon",
+       "tr": "ru"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "ki"
+      },
+      {
+       "s": "𒅔",
+       "sign": "IN",
+       "role": "phon",
+       "tr": "in"
+      },
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "i₃",
+       "nl": true
+      },
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      },
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šar-ru-ki-in-i₃-lu-ba-ni",
+       "gloss": "Sharrukin-ilubani (Langdon Šar-ru-ki-in-ì-lu-ba-ni) — first king of Agade, Šarrukin, the king known in English as Sargon of Akkad; ŠAR-RU-KI-IN + NI-LU-BA-NI, which Langdon takes as the rest of one name ('Sharrukîn-ilubani'); the copy marks the surface of NI and LU as damaged, and the reading of these last four signs is uncertain",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nu-{ĝeš}kiri₆",
+     "say": "nukiri",
+     "glyphs": [
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "phon",
+       "tr": "nu"
+      },
+      {
+       "s": "𒄑",
+       "sign": "GISH",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒊬",
+       "sign": "SAR",
+       "role": "log",
+       "tr": "kiri₆"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nu-{ĝeš}kiri₆",
+       "gloss": "gardener, orchard-keeper (Langdon nu-giš-šar) — nu, a prefix forming words for a person's trade, + {ĝeš}kiri₆ 'orchard, garden' (GIŠ.SAR; the SAR sign read kiri₆ after the wood sign)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "sagi",
+     "say": "sagi",
+     "glyphs": [
+      {
+       "s": "𒅗",
+       "sign": "KA",
+       "role": "log",
+       "tr": "sagi"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "log",
+       "tr": ""
+      },
+      {
+       "s": "𒂁",
+       "sign": "DUG",
+       "role": "log",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "sagi",
+       "gloss": "cup-bearer, a court office — read as one word, sagi; the signs are Langdon's KA.ŠU.DUG (his ka-šu-duĝ); the first sign as drawn on the copy is unlike its usual KA, and its identification is uncertain",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "ur-{d}za-(sic)-ba₄-ba₄",
+     "say": "urzababa",
+     "glyphs": [
+      {
+       "s": "𒌨",
+       "sign": "UR",
+       "role": "log",
+       "tr": "ur"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒍝",
+       "sign": "ZA",
+       "role": "phon",
+       "tr": "za"
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "punct",
+       "tr": "(sic)"
+      },
+      {
+       "s": "𒈹",
+       "sign": "MUSH3",
+       "role": "phon",
+       "tr": "ba₄"
+      },
+      {
+       "s": "𒈹",
+       "sign": "MUSH3",
+       "role": "phon",
+       "tr": "ba₄"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "{d}",
+       "gloss": "divine determinative (diĝir) — marks the following name as a god",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "ur-{d}za-ba₄-ba₄",
+       "gloss": "Ur-Zababa (Langdon Ur-ᵈIlbaba) — king of Kish, son of Shu-Suen; ur 'man, servant' + the god Zababa of Kish, written ZA + the MUŠ₃ sign twice (read ba₄) with the divine determinative (Langdon ᵈIlbaba): 'servant of Zababa'; the first sign, UR, lies in a break on this copy · also the king whose cup-bearer Sargon was, where the name is clear on the copy but has a stray upright wedge after ZA, marked 'sic!' and not read",
+       "g": [
+        0,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal",
+     "say": "lugal",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "a-de₃",
+     "say": "ade",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒉈",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "de₃"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "a-ga-de₃",
+       "gloss": "Agade (Langdon A-ga-dé; Akkad) — city in northern Babylonia, seat of the dynasty of Sargon; A-GA-NE (NE read de₃, Langdon dé) + the place-determinative KI, as a-ga-de₃{ki} · also written without GA (a-de₃, the A marked 'sic!' on the copy) and without KI, at the head of the dynasty",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lu₂(?)",
+     "say": "lu",
+     "glyphs": [
+      {
+       "s": "𒇽",
+       "sign": "LU2",
+       "role": "log",
+       "tr": "lu₂"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lu₂",
+       "gloss": "man; 'the one who …' — introduces a relative ('who') clause; Langdon galu",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-ga-de₃{ki}",
+     "say": "agade",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒂵",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "ga"
+      },
+      {
+       "s": "𒉈",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "de₃"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "a-ga-de₃",
+       "gloss": "Agade (Langdon A-ga-dé; Akkad) — city in northern Babylonia, seat of the dynasty of Sargon; A-GA-NE (NE read de₃, Langdon dé) + the place-determinative KI, as a-ga-de₃{ki} · also written without GA (a-de₃, the A marked 'sic!' on the copy) and without KI, at the head of the dynasty",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu-un-du₃-a",
+     "say": "mundua",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "phon",
+       "tr": "mu"
+      },
+      {
+       "s": "𒌦",
+       "sign": "UN",
+       "role": "phon",
+       "tr": "un"
+      },
+      {
+       "s": "𒆕",
+       "sign": "KAK",
+       "role": "log",
+       "tr": "du₃"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu-un-",
+       "gloss": "mu-n- — verbal prefix chain: mu- + -n- 'he' (the doer)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "du₃",
+       "gloss": "to build — written with the KAK sign (Langdon dū)",
+       "g": [
+        2
+       ]
+      },
+      {
+       "lemma": "-a",
+       "gloss": "nominalizer · locative -a 'in, at' on a city name (adab{ki}-a 'in Adab')",
+       "g": [
+        3
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "lugal-am₃",
+     "say": "lugalam",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "am₃"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "phon",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "-am₃",
+       "gloss": "enclitic copula 'is / was' — written am₃ = a-an",
+       "g": [
+        1,
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "56",
+     "say": "56",
+     "glyphs": [
+      {
+       "s": "𒐐",
+       "sign": "U",
+       "role": "num",
+       "tr": "5 u",
+       "u": "CUNEIFORM NUMERIC SIGN FIVE U"
+      },
+      {
+       "s": "𒐋",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "6 diš",
+       "u": "CUNEIFORM NUMERIC SIGN SIX DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "10; 5 here = 50",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "diš",
+       "gloss": "1; 6 here = 6",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VI",
+   "line": 31,
+   "i": "In Agade, Sharrukin-ilubani (Sargon), a gardener, cup-bearer of Ur-Zababa, the king of Agade, the one who built Agade, became king; he reigned 56 years.",
+   "n": "The dynasty of Agade (Akkad) opens, over six prism lines. VI 31: a-ga-de₃ 'Agade' (A, GA, NE; Langdon dé, read de₃ by sign), with no KI and no case-ending; at a dynasty's head it is 'in Agade', as with Kish in VI 9. On this copy NE is a box with a crossing, as in VI 34 and VII 13. Then the king's name, running over the line break: ŠAR (a box of corner-wedges), RU, KI, IN, as šar-ru-ki-in in VI 37 and VI 41 — Sharrukin, the king known in English as Sargon of Akkad. VI 32: NI, LU, BA, NI, which Langdon reads -ì-lu-ba-ni and takes as the end of one name, 'Sharrukîn-ilubani'; the copy marks NI and LU as damaged, and the reading is uncertain. Then nu-{ĝeš}kiri₆ 'gardener' (NU + GIŠ.SAR, the SAR sign read kiri₆ after the wood sign; Langdon nu-giš-šar). VI 33: the cup-bearer's title, Langdon's ka-šu-duĝ ('a cup-bearer'), read here as one word, sagi. Its first sign is drawn as a small pointed head with one upright, unlike both the KA of II 9–10 and the SAG of III 4 on this copy, so his KA is kept and the identification is uncertain; then ŠU and the long jar-sign DUG. Then Ur-Zababa (Langdon Ur-ᵈIl-ba-ba), the king of Kish of VI 12: UR, AN, ZA, a single upright wedge marked 'sic!' on the copy (not read; shown as (sic)), and MUŠ₃ twice. No genitive is written: 'cup-bearer of Ur-Zababa'. VI 34: LUGAL, then A marked 'sic!' and NE — this Agade is written a-de₃, without GA or KI, though Langdon prints A-ga-de (ki); the literal line marks it. Then a sign with a query drawn inside it on the copy, read lu₂ (Langdon galu) after Langdon, and a-ga-de₃{ki} in full. VI 35: mu-un-du₃-a 'who built' (du₃ the KAK sign, Langdon dū; -a makes the 'who' clause), as lu₂ … mu-un-du₃-a in III 7. VI 36: lugal-am₃ 'was king', mu, 56 = 5 u + 6 diš, ni-ag, all clear. Langdon (fn. 2) notes that the Nippur copy Legrain No. 1, which begins here (fn. 1), has 55 (VII 6)."
+  },
+  {
+   "ln": 37,
+   "t": "𒊑𒈬𒍑 𒌉 𒊬𒊒𒆠𒅔\n𒈬 𒐎 𒉌𒀝",
+   "l": "Rimush, son of-Sharrukin — years 9 he-ruled.",
+   "words": [
+    {
+     "reading": "ri-mu-uš",
+     "say": "rimuš",
+     "glyphs": [
+      {
+       "s": "𒊑",
+       "sign": "RI",
+       "role": "phon",
+       "tr": "ri"
+      },
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "phon",
+       "tr": "mu"
+      },
+      {
+       "s": "𒍑",
+       "sign": "USH",
+       "role": "phon",
+       "tr": "uš"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ri-mu-uš",
+       "gloss": "Rimush (Langdon Rí-mu-uš) — king of Agade, son of Sargon; RI-MU-UŠ; an Akkadian name",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "dumu",
+     "say": "dumu",
+     "glyphs": [
+      {
+       "s": "𒌉",
+       "sign": "TUR",
+       "role": "log",
+       "tr": "dumu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dumu",
+       "gloss": "son, child — written with the TUR sign, read dumu; 'dumu X' = 'son of X'",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šar-ru-ki-in",
+     "say": "šarrukin",
+     "glyphs": [
+      {
+       "s": "𒊬",
+       "sign": "SAR",
+       "role": "phon",
+       "tr": "šar"
+      },
+      {
+       "s": "𒊒",
+       "sign": "RU",
+       "role": "phon",
+       "tr": "ru"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "ki"
+      },
+      {
+       "s": "𒅔",
+       "sign": "IN",
+       "role": "phon",
+       "tr": "in"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šar-ru-ki-in",
+       "gloss": "Sharrukin (Langdon Šar-ru-ki-in) — Šarrukin, first king of Agade, the king known in English as Sargon of Akkad; ŠAR-RU-KI-IN; an Akkadian name",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "9",
+     "say": "9",
+     "glyphs": [
+      {
+       "s": "𒐎",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "9 diš",
+       "u": "CUNEIFORM NUMERIC SIGN NINE DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 9 here = 9",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VI",
+   "line": 37,
+   "i": "Rimush, son of Sargon, reigned 9 years.",
+   "n": "Two lines, all clear on the copy. VI 37 'Rí-mu-uš dumu Šar-ru-ki-in': RI, MU, UŠ, the name Rimush (Langdon Rí-mu-uš; his rí is the RI sign, read ri), then dumu šar-ru-ki-in 'son of Sharrukin' (Sargon; no genitive or -ke₄ is written, as the English must supply). VI 38 'mu 9 ni-ag': mu, 9 = 9 diš (three over three over three), ni-ag. Langdon (fn. 3) notes that Legrain No. 1 VII gives 15 years."
+  },
+  {
+   "ln": 39,
+   "t": "𒈠𒉌𒅖𒋾𒅖𒋗\n𒋀𒃲 𒊑𒈬𒋗𒍑\n𒌉 𒊬𒊒𒆠𒅔\n𒈬 𒌋𒐊 𒉌𒀝",
+   "l": "Manishtishu, elder-brother of-Rimushush (sic), son of-Sharrukin — years 15 [he-ruled].",
+   "words": [
+    {
+     "reading": "ma-ni-iš-ti-iš-šu",
+     "say": "maništišu",
+     "glyphs": [
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒅖",
+       "sign": "ISH",
+       "role": "phon",
+       "tr": "iš"
+      },
+      {
+       "s": "𒋾",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      },
+      {
+       "s": "𒅖",
+       "sign": "ISH",
+       "role": "phon",
+       "tr": "iš"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ma-ni-iš-ti-iš-šu",
+       "gloss": "Manishtishu (Langdon Ma-ni-iš-ti-iš-šu) — king of Agade, son of Sargon and elder brother of Rimush; MA-NI-IŠ-TI-IŠ-ŠU; an Akkadian name, also spelled Ma-ni-iš-te-šu on a Nippur copy",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šeš-gal",
+     "say": "šešgal",
+     "glyphs": [
+      {
+       "s": "𒋀",
+       "sign": "SHESH",
+       "role": "log",
+       "tr": "šeš"
+      },
+      {
+       "s": "𒃲",
+       "sign": "GAL",
+       "role": "log",
+       "tr": "gal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šeš-gal",
+       "gloss": "elder brother — šeš 'brother' + gal 'big, great'",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "ri-mu-šu-uš",
+     "say": "rimušuš",
+     "glyphs": [
+      {
+       "s": "𒊑",
+       "sign": "RI",
+       "role": "phon",
+       "tr": "ri"
+      },
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "phon",
+       "tr": "mu"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      },
+      {
+       "s": "𒍑",
+       "sign": "USH",
+       "role": "phon",
+       "tr": "uš"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ri-mu-šu-uš",
+       "gloss": "Rimush, miswritten ri-mu-šu-uš (Langdon: 'Sic! Error for Ri-mu-uš-šu') — the king of Agade, son of Sargon, named as Manishtishu's younger brother; the last two signs are in the wrong order",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "dumu",
+     "say": "dumu",
+     "glyphs": [
+      {
+       "s": "𒌉",
+       "sign": "TUR",
+       "role": "log",
+       "tr": "dumu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dumu",
+       "gloss": "son, child — written with the TUR sign, read dumu; 'dumu X' = 'son of X'",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "šar-ru-ki-in",
+     "say": "šarrukin",
+     "glyphs": [
+      {
+       "s": "𒊬",
+       "sign": "SAR",
+       "role": "phon",
+       "tr": "šar"
+      },
+      {
+       "s": "𒊒",
+       "sign": "RU",
+       "role": "phon",
+       "tr": "ru"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "phon",
+       "tr": "ki"
+      },
+      {
+       "s": "𒅔",
+       "sign": "IN",
+       "role": "phon",
+       "tr": "in"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šar-ru-ki-in",
+       "gloss": "Sharrukin (Langdon Šar-ru-ki-in) — Šarrukin, first king of Agade, the king known in English as Sargon of Akkad; ŠAR-RU-KI-IN; an Akkadian name",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "15",
+     "say": "15",
+     "glyphs": [
+      {
+       "s": "𒌋",
+       "sign": "U",
+       "role": "num",
+       "tr": "u"
+      },
+      {
+       "s": "𒐊",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "5 diš",
+       "u": "CUNEIFORM NUMERIC SIGN FIVE DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "10",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "diš",
+       "gloss": "1; 5 here = 5",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[ni-ag]",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VI",
+   "line": 39,
+   "i": "Manishtishu, elder brother of Rimush, son of Sargon, reigned 15 years.",
+   "n": "Four lines. VI 39 'Ma-ni-iš-ti-iš-šu': MA, NI, IŠ, TI, IŠ, ŠU, the name Manishtishu, all clear. VI 40 'šeš-gal Rí-mu-šu-uš': šeš-gal 'elder brother' (šeš 'brother' + gal 'big'), then RI, MU, ŠU, UŠ: the name of Rimush (VI 37) with its last two signs in the wrong order; Langdon (fn. 4): 'Sic! Error for Ri-mu-uš-šu'. The literal line keeps the miswriting, the English gives the king's name. The phrase has no genitive written: 'elder brother of Rimush'. VI 41 'dumu Šar-ru-ki-in': dumu šar-ru-ki-in 'son of Sharrukin' (Sargon), all clear; Langdon (fn. 5) draws from it that Manishtishu too was Sargon's son. VI 42 'mu 15 ni- ag': mu, 15 = 1 u + 5 diš, clear; then the copy hatches the rest of the line, with traces, so ni-ag is in the break (Langdon prints it unbracketed) and is bracketed here. Langdon (fn. 6) notes that Legrain No. 1 VII 11 has 7, and (fn. 4) that the same copy writes the name Ma-ni-iš-te-šu."
+  },
+  {
+   "ln": 43,
+   "t": "𒈾𒊏𒄠𒀭𒂗𒍪\n𒌉 𒈠𒉌𒅖𒋾𒅖𒋗\n𒈬 ▢ 𒉌𒀝",
+   "l": "Naram-[Suen], son of-Ma[nishtishu] — years […] [he-ruled].",
+   "words": [
+    {
+     "reading": "na-ra-am-[{d}suen]",
+     "say": "naramsuen",
+     "glyphs": [
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒂗",
+       "sign": "EN",
+       "role": "log",
+       "tr": "suen"
+      },
+      {
+       "s": "𒍪",
+       "sign": "ZU",
+       "role": "log",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "{d}",
+       "gloss": "divine determinative (diĝir) — marks the following name as a god",
+       "g": [
+        3
+       ]
+      },
+      {
+       "lemma": "na-ra-am-{d}suen",
+       "gloss": "Naram-Suen (Langdon Narâm-Sin, Na-ra-am-ᵈEn-zu) — king of Agade, son of Manishtishu; NA-RA-AM + the moon-god Suen (EN.ZU, Langdon Sin) with the divine determinative; an Akkadian name; on this prism the god's name, and in its second mention the whole name, are in a break and restored by Langdon",
+       "g": [
+        0,
+        1,
+        2,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "dumu",
+     "say": "dumu",
+     "glyphs": [
+      {
+       "s": "𒌉",
+       "sign": "TUR",
+       "role": "log",
+       "tr": "dumu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dumu",
+       "gloss": "son, child — written with the TUR sign, read dumu; 'dumu X' = 'son of X'",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "ma-[ni-iš-ti-iš-šu]",
+     "say": "maništišu",
+     "glyphs": [
+      {
+       "s": "𒈠",
+       "sign": "MA",
+       "role": "phon",
+       "tr": "ma"
+      },
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒅖",
+       "sign": "ISH",
+       "role": "phon",
+       "tr": "iš"
+      },
+      {
+       "s": "𒋾",
+       "sign": "TI",
+       "role": "phon",
+       "tr": "ti"
+      },
+      {
+       "s": "𒅖",
+       "sign": "ISH",
+       "role": "phon",
+       "tr": "iš"
+      },
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "phon",
+       "tr": "šu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ma-ni-iš-ti-iš-šu",
+       "gloss": "Manishtishu (Langdon Ma-ni-iš-ti-iš-šu) — king of Agade, son of Sargon and elder brother of Rimush; MA-NI-IŠ-TI-IŠ-ŠU; an Akkadian name, also spelled Ma-ni-iš-te-šu on a Nippur copy",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "[…]",
+     "say": "…",
+     "glyphs": [
+      {
+       "s": "▢",
+       "sign": "LACUNA",
+       "role": "punct",
+       "tr": "[…]"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "a lost stretch of text — a gap where the signs are broken away on the prism",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[ni-ag]",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VI",
+   "line": 43,
+   "i": "Naram-Suen, son of Manishtishu, reigned […] years.",
+   "n": "Three lines; from here the copy is broken away more and more to the right. VI 43 'Na-ra-am-[ᵈEn-zu]': NA, RA and AM, the last at the edge of a hatched break; the divine determinative and EN.ZU, the moon-god Suen (Langdon ᵈEn-zu, 'Sin'), are Langdon's restoration; only a trace stands at the far right of the line. The name is Naram-Suen (Langdon Narâm-Sin). VI 44 'dumu Ma-[ni-iš-ti-iš-šu]': dumu and MA, then the break; the rest of Manishtishu is restored. Langdon (fn. 7) notes that the Nippur copy Legrain No. 1 VII 13 also calls Naram-Suen son of Manishtishu, against the later tradition that made him Sargon's son. VI 45 'mu [38 (?) ni- ag]': only MU survives. Langdon's number carries his own query, so it is not shown as signs: the gap is marked […]. His 38 is reckoned back from the total of VII 12 (fn. 3 there): with Shargalisharri at 24, 181 − (56 + 9 + 15 + 3 + 21 + 15) − 24 = 38. Legrain No. 1 VII 14 has 56 (fn. 8). ni-ag is restored."
+  },
+  {
+   "ln": 46,
+   "t": "𒊬𒂵𒉌𒊬𒊑\n𒌉 𒈾𒊏𒄠𒀭𒂗𒍪\n𒈬 ▢ 𒉌𒀝",
+   "l": "Sha[rgalisharri, son of-Naram-Suen — years […] he-ruled].",
+   "words": [
+    {
+     "reading": "ša[r-ga-li₂-šar-ri]",
+     "say": "šargališarri",
+     "glyphs": [
+      {
+       "s": "𒊬",
+       "sign": "SAR",
+       "role": "phon",
+       "tr": "šar"
+      },
+      {
+       "s": "𒂵",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "ga"
+      },
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "li₂"
+      },
+      {
+       "s": "𒊬",
+       "sign": "SAR",
+       "role": "phon",
+       "tr": "šar"
+      },
+      {
+       "s": "𒊑",
+       "sign": "RI",
+       "role": "phon",
+       "tr": "ri"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šar-ga-li₂-šar-ri",
+       "gloss": "Shargalisharri (Langdon Šar-ga-lí-šar-rí) — king of Agade, son of Naram-Suen; ŠAR-GA-LI₂-ŠAR-RI (li₂ the NI sign); an Akkadian name; on this prism only the first sign survives, damaged, and the rest is Langdon's restoration from a Nippur copy",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[dumu]",
+     "say": "dumu",
+     "glyphs": [
+      {
+       "s": "𒌉",
+       "sign": "TUR",
+       "role": "log",
+       "tr": "dumu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dumu",
+       "gloss": "son, child — written with the TUR sign, read dumu; 'dumu X' = 'son of X'",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "[na-ra-am-{d}suen]",
+     "say": "naramsuen",
+     "glyphs": [
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "𒊏",
+       "sign": "RA",
+       "role": "phon",
+       "tr": "ra"
+      },
+      {
+       "s": "𒄠",
+       "sign": "AM",
+       "role": "phon",
+       "tr": "am"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒂗",
+       "sign": "EN",
+       "role": "log",
+       "tr": "suen"
+      },
+      {
+       "s": "𒍪",
+       "sign": "ZU",
+       "role": "log",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "{d}",
+       "gloss": "divine determinative (diĝir) — marks the following name as a god",
+       "g": [
+        3
+       ]
+      },
+      {
+       "lemma": "na-ra-am-{d}suen",
+       "gloss": "Naram-Suen (Langdon Narâm-Sin, Na-ra-am-ᵈEn-zu) — king of Agade, son of Manishtishu; NA-RA-AM + the moon-god Suen (EN.ZU, Langdon Sin) with the divine determinative; an Akkadian name; on this prism the god's name, and in its second mention the whole name, are in a break and restored by Langdon",
+       "g": [
+        0,
+        1,
+        2,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[mu]",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "[…]",
+     "say": "…",
+     "glyphs": [
+      {
+       "s": "▢",
+       "sign": "LACUNA",
+       "role": "punct",
+       "tr": "[…]"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "[…]",
+       "gloss": "a lost stretch of text — a gap where the signs are broken away on the prism",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[ni-ag]",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VI",
+   "line": 46,
+   "i": "Shargalisharri, son of Naram-Suen, reigned […] years.",
+   "n": "Three lines, the last of Col. VI, ruled off below. VI 46 'Ša[r-ga-lí-šar-rí ]': only the left part of the first sign survives, a cluster of corner-wedges like the beginning of ŠAR in VI 31 (Langdon 'Ša[r'); the rest of the line is hatched. The name is restored by Langdon from Legrain No. 1 VII 15 (fn. 9): ŠAR, GA, NI (read li₂; Langdon lí), ŠAR, RI (Langdon rí), Shargalisharri. VI 47 '[dumu Na-ra-am-ᵈEn-zu]' and VI 48 '[mu 24 (?) ni- ag]' are hatched across on the copy and wholly restored by Langdon: 'son of Naram-Suen', then the reign. The number of VI 48 carries Langdon's query, so it is not shown as signs; he takes 24 from Poebel No. 3 R. II 4 and Legrain No. 1 VII 17 (fn. 10)."
+  },
+  {
+   "ln": 1,
+   "t": "𒀀𒁀𒀀𒀭 𒈗 𒀀𒁀𒀀𒀭 𒉡 𒈗",
+   "l": "[who-was king]? who-was not king?",
+   "words": [
+    {
+     "reading": "[a-ba-am₃]",
+     "say": "abaam",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "am₃"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "phon",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "a-ba",
+       "gloss": "who? — interrogative pronoun; a-ba-am₃ 'who is it / who was it?'",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-am₃",
+       "gloss": "enclitic copula 'is / was' — written am₃ = a-an",
+       "g": [
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[lugal]",
+     "say": "lugal",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "a-ba-am₃",
+     "say": "abaam",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "am₃"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "phon",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "a-ba",
+       "gloss": "who? — interrogative pronoun; a-ba-am₃ 'who is it / who was it?'",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-am₃",
+       "gloss": "enclitic copula 'is / was' — written am₃ = a-an",
+       "g": [
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nu",
+     "say": "nu",
+     "glyphs": [
+      {
+       "s": "𒉡",
+       "sign": "NU",
+       "role": "log",
+       "tr": "nu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nu",
+       "gloss": "not — negative particle (the NU sign); before a noun, 'not (a) …'",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal",
+     "say": "lugal",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 1,
+   "i": "Who was king? Who was not king?",
+   "n": "The first line of Col. VII, a sentence with no name: a time when the kingship had no settled holder. '[a-ba-ám lugal] a-ba-ám nu lugal': the first half is hatched on the copy and restored by Langdon; then A at the edge of the break, BA, A.AN, NU and LUGAL. a-ba 'who?' + the copula -am₃ (A.AN; Langdon -ám): a-ba-am₃ lugal 'who was king?', a-ba-am₃ nu lugal 'who was not king?' — nu 'not' negates the noun. Langdon translates it so (fn. 11: the same in the Scheil tablet, Rev. 2, while Poebel No. 3 Rev. II 7 has the Akkadian ma-nu-um šarru ma-nu-um la šarru). The four names that follow are those of the kings of this time; their total is in VII 6–7."
+  },
+  {
+   "ln": 2,
+   "t": "𒄿𒄄𒄄 𒈗",
+   "l": "[Igi]gi, king.",
+   "words": [
+    {
+     "reading": "[i-gi₄]-gi₄",
+     "say": "igigi",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒄄",
+       "sign": "GI4",
+       "role": "phon",
+       "tr": "gi₄"
+      },
+      {
+       "s": "𒄄",
+       "sign": "GI4",
+       "role": "phon",
+       "tr": "gi₄"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "i-gi₄-gi₄",
+       "gloss": "Igigi (Langdon [I-gí-]gí) — a king of Agade, the first of four named after 'who was king? who was not king?'; I-GI₄-GI₄, the beginning restored by Langdon; other copies have ì-gi-gi and ì-ki-ki",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal",
+     "say": "lugal",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 2,
+   "i": "Igigi was king.",
+   "n": "'[I-gí-]gí lugal': the start of the line is hatched; at its edge the copy draws a box with uprights, two uprights and a slanting sign with a long horizontal, which Langdon reads as one sign gí (GI₄, read gi₄); then LUGAL, clear. His restoration [I-gí-] is after the other lists (fn. 12: Poebel No. 3 R. II 9, Scheil Rev. 3 ì-gi-gi, Legrain No. 1 VII 20 ì-ki-ki). That the visible signs are one GI₄ is his reading and is not certain. Name and lugal with no verb or copula: a list entry, 'Igigi, king'; the English gives it as a clause."
+  },
+  {
+   "ln": 3,
+   "t": "𒄿𒈪 𒈗",
+   "l": "[Imi], king.",
+   "words": [
+    {
+     "reading": "[i-mi]",
+     "say": "imi",
+     "glyphs": [
+      {
+       "s": "𒄿",
+       "sign": "I",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𒈪",
+       "sign": "MI",
+       "role": "phon",
+       "tr": "mi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "i-mi",
+       "gloss": "Imi (Langdon [I-mi]) — a king of Agade, one of four named after 'who was king?'; on this prism the name is in a break and is restored by Langdon from other copies",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal",
+     "say": "lugal",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 3,
+   "i": "Imi was king.",
+   "n": "'[I-mi] lugal': the name is hatched away on the copy and restored by Langdon from the other lists (fn. 13: Poebel No. 3 Rev. II 10–11); LUGAL is clear."
+  },
+  {
+   "ln": 4,
+   "t": "𒈾𒉌 𒈗",
+   "l": "[Nani], king.",
+   "words": [
+    {
+     "reading": "[na-ni]",
+     "say": "nani",
+     "glyphs": [
+      {
+       "s": "𒈾",
+       "sign": "NA",
+       "role": "phon",
+       "tr": "na"
+      },
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "na-ni",
+       "gloss": "Nani (Langdon [Na-ni]) — a king of Agade, one of four named after 'who was king?'; on this prism the name is in a break and is restored by Langdon; other copies have na-nu-um",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal",
+     "say": "lugal",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 4,
+   "i": "Nani was king.",
+   "n": "'[Na-ni] lugal': the name is hatched away on the copy and restored by Langdon; LUGAL is clear. Langdon (fn. 13) notes that the Scheil tablet (Rev. 4) and Legrain No. 1 VII 21 have na-nu-um."
+  },
+  {
+   "ln": 5,
+   "t": "𒂊𒇻𒇻 𒈗",
+   "l": "[Elulu], king.",
+   "words": [
+    {
+     "reading": "[e-lu-lu]",
+     "say": "elulu",
+     "glyphs": [
+      {
+       "s": "𒂊",
+       "sign": "E",
+       "role": "phon",
+       "tr": "e"
+      },
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      },
+      {
+       "s": "𒇻",
+       "sign": "LU",
+       "role": "phon",
+       "tr": "lu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "e-lu-lu",
+       "gloss": "Elulu — king of Ur; the name is not on this prism, restored by Langdon from other copies · Elulu — also a king of Agade, the last of four named after 'who was king?' (Langdon [E-lu-lu]); likewise not on this prism, restored by Langdon; other copies have i-lu-lu",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal",
+     "say": "lugal",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 5,
+   "i": "Elulu was king.",
+   "n": "'[E-lu-lu] lugal': the name is hatched away on the copy and restored by Langdon; LUGAL is clear. Langdon (fn. 14) notes that the Scheil tablet (Rev. 4) and Legrain No. 1 VII 22 have i-lu-lu. Not the Elulu of Ur (IV 1), whose name is also restored."
+  },
+  {
+   "ln": 6,
+   "t": "𒐉 𒈗\n𒈬 𒐈 𒅁𒀝",
+   "l": "[4] kings; [years 3] they-ruled.",
+   "words": [
+    {
+     "reading": "[4]",
+     "say": "4",
+     "glyphs": [
+      {
+       "s": "𒐉",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "4 diš",
+       "u": "CUNEIFORM NUMERIC SIGN FOUR DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "4",
+       "gloss": "four",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal",
+     "say": "lugal",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king (here plural 'kings')",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[mu]",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "[3]",
+     "say": "3",
+     "glyphs": [
+      {
+       "s": "𒐈",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "3 diš",
+       "u": "CUNEIFORM NUMERIC SIGN THREE DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "diš",
+       "gloss": "1; 3 here = 3",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ib-ag",
+     "say": "ibag",
+     "glyphs": [
+      {
+       "s": "𒅁",
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ib"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ib-ag",
+       "gloss": "íb-aĝ₂ — 'they ruled' (plural reign verb)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 6,
+   "i": "Four kings reigned 3 years.",
+   "n": "The total for the four kings of VII 2–5, over two lines. VII 6 '4 lugal': on the copy the line is hatched as far as the middle and only LUGAL stands, at the right; no figure is drawn. Langdon prints 4 unbracketed; it is bracketed here, his value shown as 4 diš. VII 7 '[mu 3 ] ib- ag': mu and 3 are restored by Langdon in a hatched break; IB and AK are clear: ib-ag 'they ruled'. Langdon (fn. 15) notes that for these two lines Poebel No. 3 Rev. 13 and the Scheil tablet Rev. 5 have 4-bi 3 mu ib(in)-ag 'these four ruled 3 years'."
+  },
+  {
+   "ln": 8,
+   "t": "𒁺𒁺 𒈬 𒌋𒌋𒁹 𒉌𒀝",
+   "l": "[Dudu, years] 21 he-ruled.",
+   "words": [
+    {
+     "reading": "[du-du]",
+     "say": "dudu",
+     "glyphs": [
+      {
+       "s": "𒁺",
+       "sign": "DU",
+       "role": "phon",
+       "tr": "du"
+      },
+      {
+       "s": "𒁺",
+       "sign": "DU",
+       "role": "phon",
+       "tr": "du"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "du-du",
+       "gloss": "Dudu (Langdon Du-du) — king of Agade, father of Shu-Durul; DU-DU; on this prism the name is restored by Langdon where his own reign is given, and clear where his son is named",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[mu]",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "21",
+     "say": "21",
+     "glyphs": [
+      {
+       "s": "𒌋",
+       "sign": "U",
+       "role": "num",
+       "tr": "2 u"
+      },
+      {
+       "s": "𒌋",
+       "sign": "U",
+       "role": "num",
+       "tr": ""
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "diš"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "10; 2 here = 20",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "diš",
+       "gloss": "1",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 8,
+   "i": "Dudu reigned 21 years.",
+   "n": "'[Du-du] mu 21 ni-ag': the start of the line is hatched; the name (restored by Langdon; it is clear in the next line) and MU are in the break — Langdon prints mu unbracketed, and it is bracketed here. Of 21 the first corner-wedge is a trace at the edge of the break, then a second corner-wedge and one upright: 2 u + 1 diš, as Langdon reads it. NI and AK are clear."
+  },
+  {
+   "ln": 9,
+   "t": "𒋗𒄙𒄒 𒌉 𒁺𒁺𒆤\n𒈬 𒌋𒐊 𒉌𒀝",
+   "l": "[Shu-Durul], son of-Dudu — [years] 15 he-ruled.",
+   "words": [
+    {
+     "reading": "[šu-dur-ulₓ]",
+     "say": "šudurul",
+     "glyphs": [
+      {
+       "s": "𒋗",
+       "sign": "SHU",
+       "role": "log",
+       "tr": "šu"
+      },
+      {
+       "s": "𒄙",
+       "sign": "DUR",
+       "role": "phon",
+       "tr": "dur"
+      },
+      {
+       "s": "𒄒",
+       "sign": "KIB",
+       "role": "phon",
+       "tr": "ulₓ"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šu-dur-ulₓ",
+       "gloss": "Shu-Durul (Langdon Gimil-dur-ūl) — king of Agade, son of Dudu; ŠU (Langdon's Gimil, read šu by sign) + DUR + KIB, which Langdon (after Scheil) reads ul; the name is in a break on this prism and the signs shown are Langdon's restoration; the reading of the last sign is uncertain",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "dumu",
+     "say": "dumu",
+     "glyphs": [
+      {
+       "s": "𒌉",
+       "sign": "TUR",
+       "role": "log",
+       "tr": "dumu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dumu",
+       "gloss": "son, child — written with the TUR sign, read dumu; 'dumu X' = 'son of X'",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "du-du-ke₄",
+     "say": "duduke",
+     "glyphs": [
+      {
+       "s": "𒁺",
+       "sign": "DU",
+       "role": "phon",
+       "tr": "du"
+      },
+      {
+       "s": "𒁺",
+       "sign": "DU",
+       "role": "phon",
+       "tr": "du"
+      },
+      {
+       "s": "𒆤",
+       "sign": "KID",
+       "role": "phon",
+       "tr": "ke₄"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "du-du",
+       "gloss": "Dudu (Langdon Du-du) — king of Agade, father of Shu-Durul; DU-DU; on this prism the name is restored by Langdon where his own reign is given, and clear where his son is named",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-ke₄",
+       "gloss": "genitive -ak 'of' + ergative -e, written with the KID sign (Langdon -ge) — marks a genitive phrase such as 'son of X' as the subject (agent) of the verb; not always written",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "[mu]",
+     "say": "mu",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu",
+       "gloss": "year(s)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "15",
+     "say": "15",
+     "glyphs": [
+      {
+       "s": "𒌋",
+       "sign": "U",
+       "role": "num",
+       "tr": "u"
+      },
+      {
+       "s": "𒐊",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "5 diš",
+       "u": "CUNEIFORM NUMERIC SIGN FIVE DISH"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "u",
+       "gloss": "10",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "diš",
+       "gloss": "1; 5 here = 5",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ni-ag",
+     "say": "niag",
+     "glyphs": [
+      {
+       "s": "𒉌",
+       "sign": "NI",
+       "role": "phon",
+       "tr": "ni"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ni-ag",
+       "gloss": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 9,
+   "i": "Shu-Durul, son of Dudu, reigned 15 years.",
+   "n": "Two lines. VII 9 '[Gimil-dur-ū̄l] dumu Du-du-ge': the name is hatched away on the copy and restored by Langdon; it is shown here as he gives it, Gimil (read šu by sign: ŠU, as elsewhere in this edition) + dur (the DUR sign) + the KIB sign, which he reads ūl after Scheil (fn. 1; his transliteration prints u with a double macron); a reading of KIB as ul is uncertain, and it is given as ulₓ. English Shu-Durul. dumu, then DU, DU and KID: du-du-ke₄ 'son of Dudu' (-ke₄, Langdon -ge, the genitive + ergative), clear. VII 10 '[mu] 15 ni- ag': mu in the break, restored by Langdon; 15 = 1 u + 5 diš, NI, AK clear."
+  },
+  {
+   "ln": 11,
+   "t": "𒌋𒁹 𒈗\n𒈬𒁉 𒐗𒁹 𒅁𒀝",
+   "l": "11 kings; their-years 181 they-ruled.",
+   "words": [
+    {
+     "reading": "11",
+     "say": "11",
+     "glyphs": [
+      {
+       "s": "𒌋",
+       "sign": "U",
+       "role": "num",
+       "tr": "u"
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "diš"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "11",
+       "gloss": "eleven",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "lugal",
+     "say": "lugal",
+     "glyphs": [
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "lugal",
+       "gloss": "king (here plural 'kings')",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mu-bi",
+     "say": "mubi",
+     "glyphs": [
+      {
+       "s": "𒈬",
+       "sign": "MU",
+       "role": "log",
+       "tr": "mu"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mu-bi",
+       "gloss": "'its years' — mu 'years' + -bi 'its'",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "181",
+     "say": "181",
+     "glyphs": [
+      {
+       "s": "𒐗",
+       "sign": "GESH2",
+       "role": "num",
+       "tr": "3 geš",
+       "u": "CUNEIFORM NUMERIC SIGN THREE GESH2"
+      },
+      {
+       "s": "𒁹",
+       "sign": "DISH",
+       "role": "num",
+       "tr": "diš"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "geš",
+       "gloss": "60 (the base of the system); 3 here = 180",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "diš",
+       "gloss": "1",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ib-ag",
+     "say": "ibag",
+     "glyphs": [
+      {
+       "s": "𒅁",
+       "sign": "IB",
+       "role": "phon",
+       "tr": "ib"
+      },
+      {
+       "s": "𒀝",
+       "sign": "AK",
+       "role": "log",
+       "tr": "ag"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ib-ag",
+       "gloss": "íb-aĝ₂ — 'they ruled' (plural reign verb)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 11,
+   "i": "Eleven kings reigned 181 years.",
+   "n": "The total for Agade, over two lines, all clear on the copy. VII 11 '11 lugal': 11 = 1 u + 1 diš, lugal. There are eleven names: Sargon, Rimush, Manishtishu, Naram-Suen, Shargalisharri, the four of VII 2–5, Dudu and Shu-Durul; Langdon (fn. 2) notes that the Scheil tablet (Rev. 8) has 12, counting the time of 'who was king?' as one. VII 12 'mu-bi 180 + 1 ib- ag': mu-bi, then three tall uprights and one more, 3 geš (180) + 1 diš, which Langdon prints '180 + 1', and ib-ag. The total cannot be checked on this prism: the reigns that survive make 56 + 9 + 15 + 3 + 21 + 15 = 119, and the figures for Naram-Suen and Shargalisharri are lost. Langdon's 38 and 24 (VI 45, 48) are his own reckoning to reach 181; he notes (fn. 3) that Poebel No. 2 (Rev. III 2) and the Scheil tablet (Rev. 8) have 197, and shows that the variants' own figures yield it (55 + 15 + 7 + 56 + 25 + 3 + 21 + 15 = 197). The total is shown as written, not corrected."
+  },
+  {
+   "ln": 13,
+   "t": "𒀀𒂵𒉈𒆠 𒄑𒆪 𒁀𒀭𒉺𒃷\n𒉆𒈗𒁉 𒀕𒆠𒂠 𒁀𒁺",
+   "l": "Agade with-weapons was-smitten; its-kingship to-Uruk went.",
+   "words": [
+    {
+     "reading": "a-ga-de₃{ki}",
+     "say": "agade",
+     "glyphs": [
+      {
+       "s": "𒀀",
+       "sign": "A",
+       "role": "phon",
+       "tr": "a"
+      },
+      {
+       "s": "𒂵",
+       "sign": "GA",
+       "role": "phon",
+       "tr": "ga"
+      },
+      {
+       "s": "𒉈",
+       "sign": "NE",
+       "role": "phon",
+       "tr": "de₃"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "a-ga-de₃",
+       "gloss": "Agade (Langdon A-ga-dé; Akkad) — city in northern Babylonia, seat of the dynasty of Sargon; A-GA-NE (NE read de₃, Langdon dé) + the place-determinative KI, as a-ga-de₃{ki} · also written without GA (a-de₃, the A marked 'sic!' on the copy) and without KI, at the head of the dynasty",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "{ĝeš}tukul",
+     "say": "tukul",
+     "glyphs": [
+      {
+       "s": "𒄑",
+       "sign": "GISH",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒆪",
+       "sign": "KU",
+       "role": "log",
+       "tr": "tukul"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "{ĝeš}",
+       "gloss": "wood determinative (ĝeš, the GIŠ sign) — unread, marks a wooden object; Langdon writes it as a raised ᵍⁱˢ",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "tukul",
+       "gloss": "weapon, mace — the KU sign with the wood determinative ĝeš (Langdon ᵍⁱˢku)",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ba-an-sig₃",
+     "say": "bansig",
+     "glyphs": [
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒀭",
+       "sign": "AN",
+       "role": "phon",
+       "tr": "an"
+      },
+      {
+       "s": "𒉺",
+       "sign": "PA",
+       "role": "log",
+       "tr": "sig₃"
+      },
+      {
+       "s": "𒃷",
+       "sign": "GAN2",
+       "role": "log",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ba-an-",
+       "gloss": "ba-n- — verbal prefix chain: ba- (often of motion away, or a middle/passive sense) + -n-, which ordinarily marks a 'he' who acts · in intransitive verbs of motion (ba-an-ku₄ 'entered') the -n- has no clear 'he' to mark; its function there is uncertain",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "sig₃",
+       "gloss": "to strike, smite — written as one compact sign taken as PA.GAN₂ (Langdon sīg, also printed sig); the identification of the drawn form is uncertain",
+       "g": [
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nam-lugal-bi",
+     "say": "namlugalbi",
+     "glyphs": [
+      {
+       "s": "𒉆",
+       "sign": "NAM",
+       "role": "phon",
+       "tr": "nam"
+      },
+      {
+       "s": "𒈗",
+       "sign": "LUGAL",
+       "role": "log",
+       "tr": "lugal"
+      },
+      {
+       "s": "𒁉",
+       "sign": "BI",
+       "role": "phon",
+       "tr": "bi"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nam-lugal",
+       "gloss": "kingship",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-bi",
+       "gloss": "'its / that' (3rd-person possessive)",
+       "g": [
+        2
+       ]
+      }
+     ],
+     "nl": true
+    },
+    {
+     "reading": "unug{ki}-še₃",
+     "say": "unugše",
+     "glyphs": [
+      {
+       "s": "𒀕",
+       "sign": "UNUG",
+       "role": "log",
+       "tr": "unug"
+      },
+      {
+       "s": "𒆠",
+       "sign": "KI",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𒂠",
+       "sign": "ESH2",
+       "role": "phon",
+       "tr": "še₃"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "unug",
+       "gloss": "Uruk (Langdon Unug, Erech) — city in southern Babylonia, the seat of this dynasty; written with the UNUG sign (AB-gunû) plus the place-determinative KI (unread), as unug{ki}",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "-šú",
+       "gloss": "terminative -šè/-šú — 'to, towards' (the EŠ₂ sign) · also written where the formula has the locative -a 'in' (ma-ri₂{ki}-še₃ at the head of a dynasty, where another copy has ma-ri₂{ki}-a); why the terminative stands there is uncertain",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ba-ĝen",
+     "say": "baĝen",
+     "glyphs": [
+      {
+       "s": "𒁀",
+       "sign": "BA",
+       "role": "phon",
+       "tr": "ba"
+      },
+      {
+       "s": "𒁺",
+       "sign": "DU",
+       "role": "log",
+       "tr": "ĝen"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ba-gín",
+       "gloss": "ba-ĝen — 'went, passed' (ĝen written with the DU sign)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "col": "VII",
+   "line": 13,
+   "i": "Agade was smitten with weapons; its kingship was carried to Uruk.",
+   "n": "The refrain, over two lines, all clear on the copy. VII 13 'A-ga-de-(ki) ᵍⁱˢku ba-an- sīg': A, GA, NE (one box with a crossing, as in VI 31), KI: a-ga-de₃{ki}; GIŠ and KU, {ĝeš}tukul 'weapon(s)' (Langdon ᵍⁱˢku); ba-an-sig₃ 'was smitten' (Langdon sīg). VII 14 'nam-lugal-bi Unug-(ki)-šú bagín': nam-lugal-bi 'its kingship', unug{ki}-še₃ 'to Uruk' (EŠ₂; Langdon -šú), ba-ĝen 'went' (Langdon prints 'bagín' without the hyphen; the copy has BA and DU)."
+  }
+ ],
+ "glossary": {
+  "-a": "nominalizer · locative -a 'in, at' on a city name (adab{ki}-a 'in Adab')",
+  "-am₃": "enclitic copula 'is / was' — written am₃ = a-an",
+  "-bi": "'its / that' (3rd-person possessive)",
+  "-ke₄": "genitive -ak 'of' + ergative -e, written with the KID sign (Langdon -ge) — marks a genitive phrase such as 'son of X' as the subject (agent) of the verb; not always written",
+  "-šú": "terminative -šè/-šú — 'to, towards' (the EŠ₂ sign) · also written where the formula has the locative -a 'in' (ma-ri₂{ki}-še₃ at the head of a dynasty, where another copy has ma-ri₂{ki}-a); why the terminative stands there is uncertain",
+  "11": "eleven",
+  "4": "four",
+  "[…]": "a lost stretch of text — a gap where the signs are broken away on the prism",
+  "a-ba": "who? — interrogative pronoun; a-ba-am₃ 'who is it / who was it?'",
+  "a-ga-de₃": "Agade (Langdon A-ga-dé; Akkad) — city in northern Babylonia, seat of the dynasty of Sargon; A-GA-NE (NE read de₃, Langdon dé) + the place-determinative KI, as a-ga-de₃{ki} · also written without GA (a-de₃, the A marked 'sic!' on the copy) and without KI, at the head of the dynasty",
+  "ba-an-": "ba-n- — verbal prefix chain: ba- (often of motion away, or a middle/passive sense) + -n-, which ordinarily marks a 'he' who acts · in intransitive verbs of motion (ba-an-ku₄ 'entered') the -n- has no clear 'he' to mark; its function there is uncertain",
+  "ba-gín": "ba-ĝen — 'went, passed' (ĝen written with the DU sign)",
+  "diš": "diš — 1",
+  "du-du": "Dudu (Langdon Du-du) — king of Agade, father of Shu-Durul; DU-DU; on this prism the name is restored by Langdon where his own reign is given, and clear where his son is named",
+  "dumu": "son, child — written with the TUR sign, read dumu; 'dumu X' = 'son of X'",
+  "du₃": "to build — written with the KAK sign (Langdon dū)",
+  "e-lu-lu": "Elulu — king of Ur; the name is not on this prism, restored by Langdon from other copies · Elulu — also a king of Agade, the last of four named after 'who was king?' (Langdon [E-lu-lu]); likewise not on this prism, restored by Langdon; other copies have i-lu-lu",
+  "geš": "geš — 60 (the base of the system)",
+  "i-gi₄-gi₄": "Igigi (Langdon [I-gí-]gí) — a king of Agade, the first of four named after 'who was king? who was not king?'; I-GI₄-GI₄, the beginning restored by Langdon; other copies have ì-gi-gi and ì-ki-ki",
+  "i-mi": "Imi (Langdon [I-mi]) — a king of Agade, one of four named after 'who was king?'; on this prism the name is in a break and is restored by Langdon from other copies",
+  "ib-ag": "íb-aĝ₂ — 'they ruled' (plural reign verb)",
+  "lugal": "king",
+  "lu₂": "man; 'the one who …' — introduces a relative ('who') clause; Langdon galu",
+  "ma-ni-iš-ti-iš-šu": "Manishtishu (Langdon Ma-ni-iš-ti-iš-šu) — king of Agade, son of Sargon and elder brother of Rimush; MA-NI-IŠ-TI-IŠ-ŠU; an Akkadian name, spelled Ma-ni-iš-te-šu on a Nippur copy",
+  "mu": "year(s)",
+  "mu-bi": "'its years' — mu 'years' + -bi 'its'",
+  "mu-un-": "mu-n- — verbal prefix chain: mu- + -n- 'he' (the doer)",
+  "na-ni": "Nani (Langdon [Na-ni]) — a king of Agade, one of four named after 'who was king?'; on this prism the name is in a break and is restored by Langdon; other copies have na-nu-um",
+  "na-ra-am-{d}suen": "Naram-Suen (Langdon Narâm-Sin, Na-ra-am-ᵈEn-zu) — king of Agade, son of Manishtishu; NA-RA-AM + the moon-god Suen (EN.ZU, Langdon Sin) with the divine determinative; an Akkadian name; on this prism the god's name, and in its second mention the whole name, are in a break and restored by Langdon",
+  "nam-lugal": "kingship",
+  "ni-ag": "ì-aĝ₂ (Langdon 'ni-ag') — 'he ruled', lit. 'measured out'; reign verb, 3sg",
+  "nu": "not — negative particle (the NU sign); before a noun, 'not (a) …'",
+  "nu-{ĝeš}kiri₆": "gardener, orchard-keeper (Langdon nu-giš-šar) — nu, a prefix forming words for a person's trade, + {ĝeš}kiri₆ 'orchard, garden' (GIŠ.SAR, the SAR sign read kiri₆ after the wood sign)",
+  "ri-mu-uš": "Rimush (Langdon Rí-mu-uš) — king of Agade, son of Sargon; RI-MU-UŠ; an Akkadian name",
+  "ri-mu-šu-uš": "Rimush, miswritten ri-mu-šu-uš (Langdon: 'Sic! Error for Ri-mu-uš-šu') — the king of Agade, son of Sargon, named as Manishtishu's younger brother; the last two signs are in the wrong order",
+  "sagi": "cup-bearer, a court office — read as one word, sagi; the signs are Langdon's KA.ŠU.DUG (his ka-šu-duĝ); the first sign as drawn on the copy is unlike its usual KA, and its identification is uncertain",
+  "sig₃": "to strike, smite — written as one compact sign taken as PA.GAN₂ (Langdon sīg, also printed sig); the identification of the drawn form is uncertain",
+  "tukul": "weapon, mace — the KU sign with the wood determinative ĝeš (Langdon ᵍⁱˢku)",
+  "u": "u — 10",
+  "unug": "Uruk (Langdon Unug, Erech) — city in southern Babylonia, the seat of this dynasty; written with the UNUG sign (AB-gunû) plus the place-determinative KI (unread), as unug{ki}",
+  "ur-{d}za-ba₄-ba₄": "Ur-Zababa (Langdon Ur-ᵈIlbaba) — king of Kish, son of Shu-Suen; ur 'man, servant' + the god Zababa of Kish, written ZA + the MUŠ₃ sign twice (read ba₄) with the divine determinative (Langdon ᵈIlbaba): 'servant of Zababa'; the first sign, UR, lies in a break on this copy · also the king whose cup-bearer Sargon was, where the name is clear on the copy but has a stray upright wedge after ZA, marked 'sic!' and not read",
+  "{d}": "divine determinative (diĝir) — marks the following name as a god",
+  "{ĝeš}": "wood determinative (ĝeš, the GIŠ sign) — unread, marks a wooden object; Langdon writes it as a raised ᵍⁱˢ",
+  "šar-ga-li₂-šar-ri": "Shargalisharri (Langdon Šar-ga-lí-šar-rí) — king of Agade, son of Naram-Suen; ŠAR-GA-LI₂-ŠAR-RI (li₂ the NI sign); an Akkadian name; on this prism only the first sign survives, damaged, and the rest is Langdon's restoration from a Nippur copy",
+  "šar-ru-ki-in": "Sharrukin (Langdon Šar-ru-ki-in) — Šarrukin, first king of Agade, the king known in English as Sargon of Akkad; ŠAR-RU-KI-IN; an Akkadian name",
+  "šar-ru-ki-in-i₃-lu-ba-ni": "Sharrukin-ilubani (Langdon Šar-ru-ki-in-ì-lu-ba-ni) — first king of the dynasty of Agade, the king known in English as Sargon of Akkad (Šarrukin); ŠAR-RU-KI-IN + NI-LU-BA-NI, which Langdon takes as the rest of one name; the copy marks the surface of NI and LU as damaged, so the reading of these last four signs is uncertain",
+  "šeš-gal": "elder brother — šeš 'brother' + gal 'big, great'",
+  "šu-dur-ulₓ": "Shu-Durul (Langdon Gimil-dur-ūl) — king of Agade, son of Dudu; ŠU (Langdon's Gimil) + DUR + KIB, which Langdon (after Scheil) reads ul; the name is in a break on this prism and the signs shown are Langdon's restoration; the reading of the last sign is uncertain"
+ }
+}

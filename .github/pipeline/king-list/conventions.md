@@ -84,3 +84,11 @@ Conventional reconstructed Sumerian. `langCode: null`. No voice chosen; parts pu
 - City with KI drawn though Langdon prints none (Akšak V 44, VI 6) and -še₃ drawn though he says none (Unug VI 23): the plate decides; the note says what Langdon prints. Kiš{ki} with no case ending at a dynasty's head → "In Kish".
 - Signs printed unbracketed but hatched away on the copy are bracketed (as before); a figure of which a wedge survives is not bracketed, the note saying the value is Langdon's.
 
+
+## House renderings settled in king-list-akkad (2026-11-17)
+- a-ga-de₃ at a dynasty's head with no case ending or KI → "In Agade". šar-ru-ki-in → `l` "Sharrukin", `i` "Sargon"; VI 31–32 name kept as Langdon's one name Sharrukin-ilubani, flagged.
+- sagi X → "cup-bearer of X" (signs Langdon's KA.ŠU.DUG); nu-{ĝeš}kiri₆ → "gardener"; šeš-gal → "elder brother".
+- a-ba-am₃ lugal a-ba-am₃ nu lugal → `l` "who-was king? who-was not king?", `i` "Who was king? Who was not king?"; "X lugal" → `l` "X, king.", `i` "X was king."
+- A stray wedge marked sic! inside a name: DISH glyph, role punct, tr "(sic)", inside the name's morph, no lemma of its own.
+- A count of kings takes its value as the lemma ("11"); " — " before the reign after "son of X" / "elder-brother of X, son of Y" in `l`.
+- KIB read ulₓ (after Langdon and Scheil). English: Rimush, Manishtishu, Naram-Suen, Shargalisharri, Igigi, Imi, Nani, Elulu, Dudu, Shu-Durul.

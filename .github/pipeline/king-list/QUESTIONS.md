@@ -30,3 +30,10 @@
 - **VI 17 Ašdar-muti**: the copy shows one sign the run could not identify; shipped as x-mu-ti with Langdon's Ašdar (Ištar) in the note.
 - **Divine names read by sign** ({d}suen, {d}za-ba₄-ba₄, {d}šakkan₂) against Langdon's Sin, Ilbaba, Šaḫan, following the earlier {d}utu/{d}nanna decisions. Decided meanwhile: kept, Langdon's forms in notes.
 - **conventions.md** listed VI 21 among totals that do not add up; it adds up (491). Corrected.
+
+## king-list-akkad (2026-11-17)
+- **Published VI 30 (king-list-akshak-kish-iv-uruk-iii)**: both drafter and reviewer of this part find that in VI 31, 34 and VII 13 the NE of A-ga-de₃ is the crossed box alone; in VI 30 the copy draws in addition a box of corner-wedges like ŠAR/SAR between NE and KI, which the published part merged into a 'wide two-part NE'. Decided meanwhile: the published part is left as it is, for the owner.
+- **VI 33 sagi**: the first sign is drawn unlike both KA (II 9–10) and SAG (III 4). Decided meanwhile: Langdon's KA kept (KA.ŠU.DUG), read sagi, flagged uncertain.
+- **signs-cuneiform.json DUG**: the entry added this firing says "in sagi (SAG.ŠU.DUG)"; after review the part ships KA.ŠU.DUG. signs.py cannot edit an existing entry. Decided meanwhile: left for the owner (one word to change, in the JSON and the two embedded copies).
+- **VI 34**: the copy writes the second Agade A(sic!)-NE with no GA and no KI and puts a '?' inside the sign Langdon reads galu. Decided meanwhile: shipped a-de₃ and lu₂(?), Langdon's print in the note.
+- **VII 9 Shu-Durul**: wholly restored; Langdon's Gimil-dur-ūl, KIB read ul after Scheil, shipped [šu-dur-ulₓ] with the new sign DUR (GU₂×KAK).

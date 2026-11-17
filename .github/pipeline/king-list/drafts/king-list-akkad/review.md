@@ -153,3 +153,89 @@ Checks:
 
 - The DUG entry added to signs-cuneiform.json gives the value "in sagi (SAG.ŠU.DUG)". With the KA reading kept, this should be "KA.ŠU.DUG" (Langdon). It is left as it is, per instructions.
 - VI 30 (published): an extra SAR-like sign. See above.
+
+## Pass 2
+
+### What I checked
+
+- gloss.json: 19 entries plus `__broaden__` for e-lu-lu, ur-{d}za-ba₄-ba₄ and a-ga-de₃. I checked them against units.json, the plates, Langdon pp. 17–18 (fns.) and the published glossaries.
+- units.json: re-read end to end.
+
+### How the edits were made and checked
+
+Edits were made by script (scratchpad reviewer/rev2.py): load, modify, dump with indent=1 and ensure_ascii=False, keeping each file's trailing newline.
+
+Checks afterwards:
+- Each broadening starts with the published entry, copied exactly, followed by " · ".
+- The lemma sets match: new-lemmas.json keys = gloss.json keys (without `__broaden__`) = the units.json lemmas that are in no published glossary. There are 18.
+- Every broadened lemma is used in units.json.
+- Build → BUILT, 15 units, 48 glossary entries, no "(sic)".
+- `validate` → **PASS**. It gives the same two WARNs as pass 1:
+  - unit 0 n is 1861 chars, which is acceptable for a six-line entry;
+  - linecheck VI 33, confirmed in pass 1.
+- `signs.py check` → in sync.
+- Afterwards stories.json was checked out and king-list-akkad.json removed. The build wrote no other file. `git status` shows only gloss.json, new-lemmas.json and units.json in drafts/king-list-akkad/.
+
+### Changes — gloss.json / new-lemmas.json
+
+- **(sic) · major**
+  - What was wrong: the lemma was removed from units.json in pass 1, so the entry would have shipped a non-word.
+  - What was done: deleted from gloss.json and new-lemmas.json.
+- **sagi · major**
+  - What was wrong: the entry said "written SAG.ŠU.DUG … taken as SAG from the copy", which is against the pass-1 decision.
+  - What was done: it is now "read as one word, sagi; the signs are Langdon's KA.ŠU.DUG …; the first sign … unlike its usual KA, … uncertain".
+- **ur-{d}za-ba₄-ba₄ (broaden) · minor**
+  - What was wrong: the added text "where the first sign, UR, is clear on the copy (the break is not there)" left out the stray wedge now inside this lemma's morph.
+  - What was done: the old entry is kept exactly, followed by " · also the king whose cup-bearer Sargon was, where the name is clear on the copy but has a stray upright wedge after ZA, marked 'sic!' and not read".
+- **du-du · minor**
+  - What was wrong: "where it stands the name is in a break on this prism" is false where the name stands after dumu, clear as DU DU KID.
+  - What was done: it now says that on this prism the name is restored where his own reign is given and is clear where his son is named.
+- **na-ra-am-{d}suen · minor**
+  - What was wrong: "where it stands the god's name is lost" did not cover the second mention, where the whole name is restored.
+  - What was done: it now matches the pass-1 morph text.
+- **new-lemmas.json draftGloss · style**
+  - What was wrong: the drafts were stale.
+  - What was done: each is now set to the final gloss.json text.
+
+### Changes — units.json
+
+- **about · minor**
+  - What was wrong: "then his sons Rimush and Manishtishu, Naram-Suen and Shargalisharri" made all four Sargon's sons. The prism makes Naram-Suen the son of Manishtishu (VI 44) and Shargalisharri the son of Naram-Suen (VI 47, restored).
+  - What was done: it now reads "… Manishtishu's son Naram-Suen, and Naram-Suen's son Shargalisharri".
+- **morph glosses · style**
+  - What was wrong: the morph glosses were not aligned with the shipped glossary text.
+  - What was done: sagi, du-du, na-ra-am-{d}suen and the three broadened lemmas now have the same text as gloss.json. The wording of a-ga-de₃ and e-lu-lu follows the glosser ("also a king of Agade", "… at the head of the dynasty").
+
+**Counts (pass 2): 2 major, 4 minor, 2 style.**
+
+### Entries checked and kept
+
+- šar-ru-ki-in-i₃-lu-ba-ni and šar-ru-ki-in: the signs and Langdon's form are right. "Sargon" is given as the English name, and the uncertainty is kept.
+- nu-{ĝeš}kiri₆: GIŠ.SAR = kiri₆ by sign. nu is given as a profession-forming element, which is a fair, general description.
+- ri-mu-uš.
+- ri-mu-šu-uš: the last two signs are swapped against Langdon's ri-mu-uš-šu, as stated.
+- ma-ni-iš-ti-iš-šu: Ma-ni-iš-te-šu is in Legrain No. 1, the Nippur text (fns. 4, 7).
+- šeš-gal.
+- šar-ga-li₂-šar-ri: restored from L. No. 1 VII 15 (fn. 9).
+- a-ba and nu: the grammar is right. a-ba-am₃ is the interrogative + copula, and nu is the negator before a noun.
+- i-gi₄-gi₄, i-mi, na-ni: the variants are as fns. 12–13.
+- šu-dur-ulₓ: KIB read ul after Scheil (fn. 1), restored.
+- 11: house practice for a count of kings (cf. "12", "23").
+- e-lu-lu and a-ga-de₃: each broadening keeps the published entry exactly and is general.
+
+No invented modern forms or misnamed grammar were found.
+
+### Re-read of units.json
+
+Nothing else was found. I rechecked every footnote attribution (fns. 1–15, 1–3), every sum (119, 62 = 38 + 24, 197), the eleven names for "11 lugal", the brackets, the `l`/`i` pairs and the house formulas.
+
+### For QUESTIONS.md / conventions.md at publication
+
+1. **VI 30 (published part):** the copy draws a SAR-like box of corner-wedges between NE and KI. Elsewhere in VI 31–VII 13 NE is the crossed box alone, so the published "two-part NE" is doubtful. The published part was not changed.
+2. **VI 33:** the first sign of sagi is Langdon's KA, but as drawn it matches neither KA nor SAG on the copy. It is flagged as uncertain, and the owner may want a check against a sign list.
+3. **signs-cuneiform.json DUG:** the value text says "in sagi (SAG.ŠU.DUG)" and should become KA.ŠU.DUG. It was not changed, per instructions; it needs signs.py or an owner edit.
+4. **New house renderings for conventions.md:**
+   - an unread "sic!" wedge goes inside the name's morph (DISH, punct, tr "(sic)"), with no lemma of its own;
+   - a count of kings takes the value as its lemma ("11");
+   - " — " before the reign after "son of X" also applies to "elder-brother of X, son of Y";
+   - KIB = ulₓ after Langdon/Scheil.

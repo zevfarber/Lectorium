@@ -1566,3 +1566,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed with notes: Middle Arabic and spelling habits (شيأ/شياً, اتمنّي, ايش, ة for ه in وعانقة, نزهه, طأئش), the printed mark in لو تمنّيتُ (P651L23), run-together words (مانسيتني, ولابدان, اولا, اوفي, مايروح, وبعدان, وامران).
 - Library label: `Night 137 · The Lover and the Beloved ends / King ʿUmar ibn al-Nuʿmān, continued` (Dandān's story ends and the main tale resumes; I used "continued" rather than "begins" since ʿUmar's tale was already under way).
 - Next: night 138 is complete and unpublished; the next firing should publish it (and add P658L16 فالت→قالت to emend.json).
+
+## Night 138 (published 2026-11-17)
+- Corrected misprints in emend.json: P658L16 فالت→قالت; P659L05 ابالرحيق→بالرحيق. The archive was not changed.
+- Kept as printed with a note (doubtful, not corrected): P659L06 كما قيل فيها الشاعر (probably قال); P660L02 يطلق النظار (perhaps النظر); P658L18 "ام ضوء المكان" for his widow (perhaps ام كان ما كان); P660L07 فاغتاظت بـ.
+- Printed verse kept exactly with notes on odd pointing: وَاَعَنَابَهَا (P659L03), شَهْدًا (P659L17, sense perhaps شهداء), رَشَاءُ and لَوَحِظُهُ (P659L14), ثَغَرُ (P660L04), تَكَدَّرَ اَخْلَاقَهَا (P660L19).
+- Split/fused words kept as printed: لا شكينك (vocalised لَأَ شْكِيَنَّكَ), هوالّا, هذاوشاع, شهر زاد. قضي with dotted yāʾ read Qaḍā.
+- Next: night 139 begins at P661L01 and is not yet complete (tail unread); the next firing transcribes.

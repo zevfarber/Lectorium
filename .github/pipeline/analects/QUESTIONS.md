@@ -30,3 +30,21 @@ lemmata. If you would rather fix the archive script and re-pin those ten books, 
 ## 2.17 是知也 read zhī with Zhu Xi (analects-02, 2026-11-17)
 Many readers take the last 知 as 智 zhì "this is wisdom". Zhu Xi marks no separate reading and glosses
 it as knowing (不害其為知), so the text reads zhī "this is knowing" and the note gives the other.
+
+## Misprint corrected in 3.9: 把 → 杞 (analects-03, 2026-11-17)
+Under the rule of 2026-11-06 (README 5b). The Siku copy as transcribed by Kanripo prints 把不足徵也
+(and 把夏之後 in Zhu Xi's comment); Ruan 1816 and He Yan SBCK both have 杞, and only 杞 (the state of
+the Xia heirs) makes sense. The pinned source is unchanged; the correction is recorded in
+`emend.json` (new — the Analects had no emendation list), and `build_analects.py` applies it in the
+text gate and requires the unit's note to open "The print has 把, a misprint for 杞, corrected here."
+Nothing waits on you; say if you would rather the reading text keep 把.
+
+## 3.8 盻 kept, read pàn (analects-03, 2026-11-17)
+The print has 盻 (xì 'to glare') in 美目盻兮; Zhu Xi glosses it 普莧反, i.e. 盼 pàn, which Ruan
+prints. Treated as the edition's graphic form, not a misprint: the text keeps 盻, the pinyin is pàn,
+and the note says so.
+
+## 大 not in POLY (analects-03, 2026-11-17)
+大 is read tài in 大廟 and 大師 (Zhu Xi 大音泰), stated on every occurrence in Book 3; but 1.12 and
+2.22 use 大 dà without an explicit reading, so 大 is not in the POLY set the build enforces. Later
+books should state tài wherever it occurs.

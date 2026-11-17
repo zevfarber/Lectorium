@@ -1535,3 +1535,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - The lovers' nights together are told in stock phrases, translated plainly; all are adults. No passage omitted.
 - Library label: `Night 135 · The Lover and the Beloved, continued`. Nothing to decide.
 - Next: night 136 is not yet complete (tail unread); the next firing should transcribe.
+
+## PDF 671–678 (printed pp. 649–656, transcribed 2026-11-17)
+- Night 136 (P643L18–P649L06) is now complete and unpublished; the next firing should publish it. The night 137 label at P649L07 is centred on its own line, `h`, printed والثلٰثون with dagger alif.
+- Low confidence: P650L14 دنّت (the adjudicator saw one dot above a tooth, not the loop of ق; the sense is دقّت).
+- Orchestrator checks (both passes agreed but may have read by sense), decided from the image and archived as printed. For the publishing runs to consider for `emend.json`: P650L14 دنّت (sense دقّت); P651L03, L04, L16 للوزبر/الوزبر (sense الوزير, one dot); P654L02 and L05 اوزبر (no lām printed, sense الوزير); P654L06 اى (sense الى); P651L20 بانية (sense باقية); P655L15 غربس نعمنك (sense غريس نعمتك). Confirmed: P650L03 وذبحت (the draft had ونحت); P649L14 الذّ عيش (two words, shadda printed); P649L05 شهر زاد (two words, ر).
+- Marks the adjudicator found that neither pass had: P654L06 الرَحبة (fatha) and P656L21 وَمَضىٰ (dagger alif in the verse).
+- The ه/ة disputes (ولده, وولده, جواده, قصره, فلكزه) were decided as ه: no two clear dots.
+- P654: the first Pass 1 agent transcribed mostly from the bands, reading only 3 crops. It was rerun properly before the diff, and only the rerun was used.

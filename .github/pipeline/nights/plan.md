@@ -66,11 +66,12 @@ scan anomaly turns up later in the volume.
 | done (2026-11-16, unattended) | 639–646 | 617–624 | `archive/pp617-624.json` | Night 131 closes (P618L16); Night 132 label P618L17 (printed الثلٰثون, dagger alif), Night 133 label P622L17 (both centred, h); verse pp. 619–621; headers ٦١٧ on PDF 639 (a two-line running header) and ٦٢٤ on PDF 646 confirm −22; all joins continuous incl. 616→617 |
 | done (2026-11-16, unattended) | 647–654 | 625–632 | `archive/pp625-632.json` | Night 133 closes (P628L12); Night 134 label P628L13 (centred, h); verse pp. 625–627, 628, 629–631; headers ٦٢٥ on PDF 647 and ٦٣٢ on PDF 654 confirm −22; all joins continuous incl. 624→625 |
 | done (2026-11-17, unattended) | 655–662 | 633–640 | `archive/pp633-640.json` | Night 134 closes (P639L23); Night 135 label P640L01 (centred, h); verse pp. 635–636 (P636L01–04 faint and broken: six words set as […], see QUESTIONS.md); headers ٦٣٣ on PDF 655 and ٦٣٥/٦٣٦ confirm −22; all joins continuous incl. 632→633 |
+| done (2026-11-17, unattended) | 671–678 | 649–656 | `archive/pp649-656.json` | Night 136 closes (P649L06); Night 137 label P649L07 (centred, h, dagger alif in والثلٰثون); verse p. 656; headers ٦٥٠ on PDF 672 and ٦٥٢ on PDF 674 confirm −22; all joins continuous incl. 648→649 |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 670 (archive ends at printed p. 648, header ٦٤٨ on PDF 670 confirms −22; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py now uses −22). Pages remaining: 268 PDF pages (671–938)
-(approximate, pending the corrected offset holding). Lines archived: 14202 (counted 2026-11-17). calc.traineddata last
+**Last PDF page done: 678 (archive ends at printed p. 656, headers ٦٥٠/٦٥٢ on PDF 672/674 confirm −22; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py now uses −22). Pages remaining: 260 PDF pages (679–938)
+(approximate, pending the corrected offset holding). Lines archived: 14384 (counted 2026-11-17). calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new
 verified line pairs (pp. 127-131, 133-134 prose only, verse/heading excluded; p. 132 excluded, its

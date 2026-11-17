@@ -1528,3 +1528,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Low confidence: P644L03 اَمَا (pass 1 امّا, pass 2 انّا; the adjudicator saw two fathas, no shadda, an undotted middle tooth); P646L11 التفتت (the second letter has no lām stem; it is not استفتت or انتفتت).
 - Orchestrator checks (both passes agreed, but may have read by sense). All confirmed as printed. For the publishing runs to consider for `emend.json`: P641L05 `ن` (alif of ان missing: الى ن دخلا); P642L02 بانا (sense باتا); P642L03 وانفق (sense واتفق); P642L13 سعمت (sense سمعت); P645L14 الملول (sense الملوك); P645L19 وآحرا (sense وآخرا); P646L11 وفالت (sense وقالت; both passes had written وقالت, the adjudicator saw one dot); P647 محبور (sense مجبور); P644L05 فابتدأء.
 - The ه/ة disputes (شاه, والده, يده, هذه, بلاده etc.) were decided one word at a time from the ink. None showed two clear dots, so all are ه.
+
+## Night 135 (published 2026-11-17)
+- Corrected misprints in emend.json: P640L09 نضمته→فضمته; P641L05 ن→ان (الى ان); P642L02 بانا→باتا; P642L03 وانفق→واتفق; P642L13 سعمت→سمعت. Kept as printed and explained in the notes: P641L04 وتحت الملك (perhaps وتخت, "the throne of King Sulaymān Shāh"; doubtful, kept); P642L23 ماشي (unclear: mā shī "nothing" or colloquial māshī; flagged); P641L16 ازدْدتُّ (the print's marks kept); قمشة "whip" (vowels uncertain); العلق (read as a coarse insult); ولدة (ة for ه); run-together للعجوزكوني, وامران, ماجرى, ماكان, ماستر, ماجسرك, شعرابطه. The archive was not changed.
+- Glossary: the review found 45 existing shared entries whose wording fitted only the night they were written for (e.g. وَجْهَهَا "her maidenhead", قَبْلَهُ "read qalbahu", فَخَلَعَ "bestowed"); each was rewritten to cover both senses, not overwritten with a different meaning.
+- The lovers' nights together are told in stock phrases, translated plainly; all are adults. No passage omitted.
+- Library label: `Night 135 · The Lover and the Beloved, continued`. Nothing to decide.
+- Next: night 136 is not yet complete (tail unread); the next firing should transcribe.

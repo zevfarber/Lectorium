@@ -15,7 +15,7 @@
 | cid-tiradas-35-39 | The battle below Alcocer: Fáriz wounded, Galve routed | tiradas 35–39, lines 715–777 | published |
 | cid-tiradas-40-43 | Counting the spoil; Minaya rides to King Alfonso with a gift | tiradas 40–43, lines 778–835b | published |
 | cid-tiradas-44-48 | Alcocer sold; camp on the hill by Monreal; the king half-pardons Minaya | tiradas 44–48, lines 836–898 | published |
-| cid-tiradas-49-55 | Raids from the hill; Minaya returns with men; the count of Barcelona takes offence | tiradas 49–55, lines 899–959 | todo |
+| cid-tiradas-49-55 | Raids from the hill; Minaya returns with men; the count of Barcelona takes offence | tiradas 49–55, lines 899–959 | established |
 | cid-tiradas-56-59 | Battle with the count of Barcelona; Colada won; the captive count refuses food | tiradas 56–59, lines 960–1023 | todo |
 | cid-tiradas-60-63 | The count eats and is set free; the exiles grow rich | tiradas 60–63, lines 1024–1086 | todo |
 | cid-tiradas-64-68 | Toward Valencia: Murviedro taken and the Moorish armies beaten | tiradas 64–68, lines 1085–1154 | todo |

@@ -44,10 +44,23 @@ def build(pid, check=False):
     # the running head that closes a juan (論語卷一 …) sits in the lemma list after even-numbered
     # books; it is not text. The sha256 pin covers the list as archived; the units skip it.
     lemmata = [x for x in lemmata if not re.fullmatch(r"論語[卷巻][一二三四五六七八九十]+", x)]
+    # owner's rule 5b (2026-11-06): clear misprints are corrected in the reading text. The pinned
+    # source stays as archived; emend.json lists each correction {"unit", "print", "read"} and the
+    # gate compares the text against the lemma with the correction applied. The unit's note must
+    # open with the print's reading ("The print has X, a misprint for Y, corrected here.").
+    emend_path = os.path.join(HERE, "emend.json")
+    emends = json.load(open(emend_path, encoding="utf-8")).get(pid, []) if os.path.exists(emend_path) else []
     seed = load(os.path.join(HERE, "glossary_seed.py"), "seed")
     GLOSS, POLY = seed.GLOSS, seed.POLY
     units = load(os.path.join(HERE, "drafts", pid, "units.py"), "units").UNITS
     errs = []
+    for e in emends:
+        ui = e["unit"]
+        if lemmata[ui].count(e["print"]) != 1:
+            errs.append("emend: %s does not occur exactly once in lemma %d" % (e["print"], ui)); continue
+        lemmata[ui] = lemmata[ui].replace(e["print"], e["read"])
+        if not units[ui].get("n", "").startswith("The print has %s, a misprint for %s, corrected here." % (e["print"], e["read"])):
+            errs.append("emend: unit %d note must open with the print's reading" % ui)
 
     if len(units) != len(lemmata):
         errs.append("unit count %d != lemma count %d" % (len(units), len(lemmata)))

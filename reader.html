@@ -111,6 +111,12 @@
   .hint { color: var(--muted); font-size: .82rem; font-family: system-ui, 'Noto Sans', sans-serif;
     background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; margin-bottom: 26px; line-height: 1.5; }
   .hint kbd { background: var(--accent-soft); border-radius: 4px; padding: 0 5px; font-family: inherit; }
+  .hint .howLead { margin: 0 0 8px; }
+  .hint dl.how { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 7px 14px; }
+  .hint dl.how dt { font-weight: 600; color: var(--text); white-space: nowrap; }
+  .hint dl.how dd { margin: 0; }
+  .hint .howKeys { margin: 10px 0 0; }
+  @media (hover: none), (pointer: coarse) { .hint .howKeys { display: none; } }
   details.hint { padding: 8px 14px; }
   details.hint summary { cursor: pointer; font-weight: 600; color: var(--text); list-style: none;
     display: inline-flex; align-items: center; gap: 6px; user-select: none; }
@@ -628,17 +634,16 @@
   <details class="hint" id="hintBox" open>
     <summary>Instructions</summary>
     <div class="hint-body">
-    <b>English</b> in the top bar shows the English beside the original for the whole text; while it's on,
-    choose <b>natural</b> or <b>literal</b> there to switch every sentence at once.
-    Click a sentence to focus it — the buttons always show what you'll get <i>next</i>:
-    <b>🔊 Listen</b> becomes <b>⏹ Stop</b> while it reads (<kbd>Esc</kbd> also stops);
-    <b>🐢 Slow</b> plays it slowly and becomes <b>🐇 Regular</b>;
-    <b>EN</b> reveals the English and becomes <b>hide EN</b>;
-    <b>≈ literal</b> and <b>≈ natural</b> switch between the two English versions for that one sentence (natural is shown first); <b>📝</b> opens the grammar note.
-    <b>✍️ Try</b> lets you attempt your own translation (typed or dictated 🎤) before comparing with the English.
-    Click any <b>word</b> for its meaning and pronunciation.
-    <b>🎓 Ask</b> opens the in-app tutor for that sentence, and <b>✓ Check</b> (inside ✍️ Try) has the tutor judge your translation by meaning — each flagged error gets a <b>why?</b>. Set it up once via <b>🎓 Tutor</b> in the top bar.
-    Keyboard: <kbd>↑</kbd>/<kbd>↓</kbd> move · <kbd>E</kbd> English · <kbd>L</kbd> listen · <kbd>S</kbd> slow · <kbd>N</kbd> note · <kbd>T</kbd> try · <kbd>A</kbd> ask · <kbd>Esc</kbd> stop.
+    <p class="howLead">Tap a sentence to select it. Its buttons appear with it.</p>
+    <dl class="how">
+      <dt>English</dt><dd>In the top bar. Shows the English beside the original. You can choose the <b>natural</b> or the <b>literal</b> translation.</dd>
+      <dt>Any word</dt><dd>Tap it for its meaning and pronunciation.</dd>
+      <dt>🔊 Listen</dt><dd>Hear the sentence in its original language. Tap again to pause, and again to resume.</dd>
+      <dt>🐢 Slow</dt><dd>Plays the sentence slowly. <b>🐇 Regular</b> takes you back to normal speed.</dd>
+      <dt>✍️ Try</dt><dd>Write your own translation, typed or dictated (🎤). <b>⇄ Compare</b> sets it beside ours. <b>✓ Check</b> asks the tutor to read it for meaning, and <b>why?</b> explains each point the tutor raises.</dd>
+      <dt>🎓 Ask</dt><dd>Ask the tutor a question about that sentence.</dd>
+    </dl>
+    <p class="howKeys">Keyboard: <kbd>↑</kbd>/<kbd>↓</kbd> move · <kbd>E</kbd> English · <kbd>L</kbd> listen · <kbd>S</kbd> slow · <kbd>N</kbd> note · <kbd>T</kbd> try · <kbd>A</kbd> ask · <kbd>Esc</kbd> stop.</p>
     </div>
   </details>
   <div id="tutorSetup">

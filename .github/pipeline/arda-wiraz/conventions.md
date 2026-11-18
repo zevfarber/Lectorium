@@ -1,76 +1,130 @@
-# Middle Persian (Pahlavi), *Ardā Wirāz Nāmag* — conventions (pilot, 2026-11-13)
+# Middle Persian (Pahlavi), *Ardā Wirāz Nāmag* — conventions
 
-First Middle Persian text in Lectorium. Zev asked for the pilot; the choices below were made in the
-pilot session and are his to change.
+First Middle Persian text in Lectorium. Pilot 2026-11-13 (chapter 1); the owner's rulings on the script
+2026-11-18; queued on Run 4 the same day. Model part: **arda-wiraz-001**.
 
 ## Edition of record
+**Hoshangji Jamaspji Asa, Martin Haug and E. W. West, *The Book of Arda Viraf* (Bombay and London, 1872)**,
+archive.org `bookofardaviraf00haug`. Page images of the whole Pahlavi text are in `source/pages/` (leaves
+n104–n239; leaf = printed page + 101; the text ends about n237). Each page: the Pahlavi in Pahlavi type,
+Haug's Roman reading under it, manuscript variants at the foot.
 
-**Hoshangji Jamaspji Asa, Martin Haug and E. W. West, *The Book of Arda Viraf* (Bombay and London,
-1872)** — archive.org `bookofardaviraf00haug` (page images: `/download/<id>/page/nNNN_w1500.jpg`;
-chapter 1 = leaves n104–n109 = printed pp. 3–8). Each page has the Pahlavi text in Pahlavi type,
-Haug's Roman reading of it underneath, and manuscript variants at the foot. His English translation
-is later in the volume (meaning check only, never wording). West's *Glossary and Index* (1874),
-archive.org `glossaryindexofp00west`, gives every word in Pahlavi type with its occurrences.
+Aids, none of them the text: the scan's OCR of the Roman lines (`source/raw/haug1872-text-ocr.txt`, words only)
+and of Haug's English (`source/raw/haug1872-english-ocr.txt`, a check on the sense, never wording). No modern
+edition or translation (Gignoux 1984, Vahman 1986, or any online transcription) is opened or recalled for
+wording. The standard dictionary's system (MacKenzie, *A Concise Pahlavi Dictionary*, 1971) is the convention
+followed for transcription and transliteration; it is a convention, used from knowledge, not a text to copy.
 
-Control witness, never the text and never copied: the TITUS transcription (Vavroušek/Gippert,
-chapters and sentences per Gignoux), which follows the later K20-based editions. Gignoux 1984 and
-Vahman 1986 are in copyright and not consulted for wording.
+Sentence numbers are Haug's, cited §chapter.sentence. Later editions number differently.
 
-Sentence numbers are Haug's (shown as §). Later editions number differently.
+## What the page shows (owner's ruling, 2026-11-18)
+- **The script = images of Haug's print**, cut into words that wrap right to left above each unit (`img`).
+  Sentence numbers, rings and ornaments are left out. Inscriptional and Psalter Pahlavi letters were tried
+  and rejected; do not bring them back.
+- **Under it the Latin line**, tappable: `t`, the words as read. The reader's button switches that line to
+  `wr`, the letters as written.
 
-## What the page shows
+## `t` — the words as read
+MacKenzie's transcription: vowels a ā e ē i ī o ō u ū; consonants b č d f g γ h ǰ k l m n p r s š t w x y z ž.
+Capitals for sentence starts and names only. Punctuation is ours, guided by Haug's. Attached pronouns and the
+indefinite -ē are joined with a hyphen (u-š, u-šān, kū-mān, čiyōn-išān, kas-ē, ēk-ē); so are compounds Haug
+hyphenates that are one notion (wad-baxt, ǰud-kēš, Ērān-šahr). The linking ī is its own word. Numbers written
+as figures in the manuscript are read out (sēsad, haft).
 
-- **`t` = the words as read**, in MacKenzie's transcription (ēdōn gōwēnd kū …). Book Pahlavi has
-  no Unicode encoding, so the script itself cannot be set as text. Capitals: sentence start and names.
-  Punctuation is ours, guided by Haug's.
-- **`wr` = the letters as written**, one string per word of `t`, in the usual transliteration:
-  Aramaic word-signs (heterograms) in capitals with MacKenzie's letter values (AYK, OL, MNW, BRA,
-  YHWWN-, HWE-), Persian spellings in small letters, the otiose final stroke as `'` wherever Haug's
-  Roman has final -ŏ/-ô. The reader's **As written** switch (state key `writtenMP`) shows `wr[wi]`
-  in place of each word; tapping still looks up the read form. Figures in the manuscript (300, 7,
-  3, the -1 of kas-ē/ēk-ē) stay figures in `wr`.
-- How `wr` is derived: Haug's Roman reading identifies the word-sign or spelling behind each word
-  (yemalelund = YMRRWNd, khadûk = ʾywk, -yîsh = -yhʾ …); the Pahlavi type is consulted for doubtful
-  words. Not every letter has been checked against the page — the source line says so.
-- Glossary keyed by the read form (lowercased), shared file `arda-wiraz-glossary.json`; `build.py`
-  appends how each form is written.
+## `w` — the letters as written
+The usual transliteration, one group per word of `t`:
+- Persian spellings in small letters: ʾ b g d h w z k l m n s p c š t y, and r where the word is spelled with
+  the r-form. The standard dictionary spelling is the default (gēhān gyhʾn, kard krt, Ērān ʾylʾn).
+- The final stroke is written `'` exactly where Haug's Roman ends in -ŏ or -ô (Aêtûnŏ → ʾytwn', dînô → dyn',
+  shatrô → štr'), and not otherwise.
+- Aramaic word-signs in capitals with MacKenzie's letter values (A aleph, E he, H heth, O ayin, C sadhe).
+  Haug's Roman gives the word-sign by its traditional Parsi reading; the common ones:
+
+  | Haug | written | read | | Haug | written | read |
+  |---|---|---|---|---|---|---|
+  | va | W | ud | | pavan | PWN | pad |
+  | -i | Y | ī | | min | MN | az |
+  | aîgh | AYK | kū | | val | OL | ō |
+  | mûn | MNW | kē | | madam | MDM | abar |
+  | amat | AMT | ka | | yîn | BYN | andar |
+  | hat | HT | agar | | levatman | LWTE | abāg |
+  | vad | OD | tā | | barâ | BRA | be |
+  | lâ | LA | nē | | al | AL | ma |
+  | zak | ZK | ān | | denman | ZNE | ēn |
+  | valman | OLE | ōy | | valmanshân | OLEšʾn | awēšān |
+  | li | L | man | | lanman | LNE | amā |
+  | lekûm | LKWM | ašmā | | nafshman | NPŠE | xwēš |
+  | benafshman | BNPŠE | xwad | | akhar | AHL | pas |
+  | afash | APš | u-š | | afshân | APšʾn | u-šān |
+  | adîn | ADYN | ēg | | kolâ | KRA | harw |
+  | kabed | KBD | was | | zakâî | ZKʾy | any |
+  | mandavam | MNDOM | tis | | shem | ŠM | nām |
+  | anshûtâ | ANŠWTA | mardōm | | gabrâ | GBRA | mard |
+  | nêshman | NYŠE | zan | | shapîr | ŠPYL | weh |
+  | saryâ | SLYA | wad | | shanat | ŠNT | sāl |
+  | mayâ | MYA | āb | | zahabâ | ZHBA | zarr |
+  | babâ | BBA | dar | | tôrâ | TWRA | gāw |
+  | yadman | YDE | dast | | ragelman | LGLE | pāy |
+  | shêdâ | ŠDYA | dēw | | milayâ | MRYA | saxwan |
+  | khadîh | AYŠ | kas | | aît | AYT | ast |
+  | hômand | HWEnd | hēnd | | yehevûn- | YHWWN- | būdan, baw- |
+  | yemalelûn- | YMRRWN- | guftan, gōw- | | vazlûn- | OZLWN- | šudan, šaw- |
+  | yâtûn- | YATWN- | āmadan, āy- | | yâîtyûn- | YHYTYWN- | āwurdan, āwar- |
+  | yâmtûn- | YHMTWN- | rasīdan, ras- | | yedrûn- | YBLWN- | burdan, bar- |
+  | yehabûn- | YHBWN- | dādan, dah- | | khavîtûn- | YDOYTWN- | dānistan, dān- |
+  | yekavîmûn- | YKOYMWN- | ēstādan, ēst- | | yetîbûn- | YTYBWN- | nišastan, nišīn- |
+  | hankhetûn- | HNHTWN- | nihādan, nih- | | ramîtûn- | LMYTWN- | abgandan, abgan- |
+  | zektelûn- | YKTLWN- | ōzadan, ōzan- | | neksûn- | NKSWN- | kuštan, kuš- |
+  | bavîhûn- | BOYHWN- | xwāstan, xwāh- | | karîtûn- | KLYTWN- | xwandan, xwān- |
+  | mekadlûn- | MKBLWN- | padīriftan, padīr- | | medammûn- | MDMEN- | sahistan, sah- |
+  | zerkhûn- | YLYDWN- | zādan, zāy- | | tebrûn- | TBLWN- | škastan, škenn- |
+  | khadûk | ʾywk | ēk | | khadû- | ʾyw- | ēw- |
+
+  A verb's word-sign takes Persian endings in small letters: -t / -st past (YHWWNt būd, YTYBWNst nišast),
+  -d 3 pl. (YMRRWNd gōwēnd), -yt 3 sg. and 2 pl. (OZLWNyt šawēd), -m 1 sg., -ym 1 pl., -ʾt (YKOYMWNʾt ēstād).
+  Haug writes the past with ḍ and the 3 pl. with d. His -yîsh at a word's end is the adverb ending -īhā (-yhʾ).
+- Figures in the manuscript stay figures (300, 7, 3; the -1 of AYŠ-1 kas-ē and ʾywk-1 ēk-ē).
+- A word-sign not in this table: identify it from Haug's Roman, the Pahlavi type and the sense, write it by
+  the same system, and add it to the table in the same commit. If it cannot be identified with confidence,
+  write the group in small letters as the type shows it and say so in the unit's note.
+- Two spellings in chapter 1 are a best reading of the type and are open: *did* (TNYD; Haug "tanid") and the
+  second *sē* (TLTAk; Haug "telatâk"). Keep them as they are until someone settles them.
 
 ## Haug's readings and later corrections
-
-- Where Haug's *reading* of the same letters has been given up (nīyāzānīnīd → wiyābānēnīd, Vīrāf →
-  Wirāz, Frōbāg → Farnbāg, khadûk → ēk), `t` has today's reading and the note says so the first time.
-- Where later editors *correct the manuscripts* (pad sāxt → passāxt §16; Šaspīgān → šēbišn §18;
-  xwadāy-ōmand → andōhōmand §20), `t` keeps Haug's print and the note gives the correction.
-- Genuinely uncertain words (dahīg §4, nāhīčag §39) are marked (?) in the translation and glossary.
+- Where Haug's *reading* of the same letters has been given up, `t` has today's reading and the note says so
+  the first time (Vîrâf → Wirāz; nîyâzânînîḍ → wiyābānēnīd; Frôbâg → Farnbāg; khadûk → ēk). His reading of a
+  name never goes into `l` or `i`.
+- Where later editors *correct the manuscripts*, `t` keeps Haug's print and the note gives the correction
+  (ch. 1: pad sāxt → passāxt; Šaspīgān → šēbišn; xwadāy-ōmand → andōhōmand). Give such a correction only
+  where you are sure of it; never look one up in a modern edition.
+- Clear misprints follow the pipeline's rule 5b. Uncertain words are marked (?) in `l`, `i` and the glossary.
 
 ## Translation
+Two layers as everywhere. Verb-final order kept in `l`; attached pronouns shown hyphenated ("And-he",
+"as-to-them"). Names in their Middle Persian form (Zardušt, Wirāz, Ādurbād, Srōš, Ādur, Ohrmazd, Ahriman;
+Ērān-šahr → "the land of Iran" in `i`). Verbs kept for evil beings get their own English verb (dwāristan
+"scuttle"). Recurring patterns are flagged once per chapter at most, then left: be + verb, ī, u-š / u-šān,
+rāy, kū, -īh, -išn, -īhā, -tar. Notes point out word-signs a reader of Hebrew or Aramaic will recognise,
+once each across the work (already done: ŠM, PWN, MYA, ZHBA, TWRA, KLYTA, BBA, ANŠWTA, MNDOM, MRYA, AYŠ, ŠDYA,
+GBRA, MNW, NPŠE, LKWM, ŠPYL, LGLE, YDE, AL, L).
 
-Two layers as everywhere. Verb-final order kept in `l`; attached pronouns shown hyphenated
-("And-he", "as-to-them"). Names in their Middle Persian form (Zardušt, Wirāz, Ādurbād, Ērān-šahr →
-"the land of Iran" in `i`). Daevic verbs get a distinct English verb (dwāristan "scuttle").
-Recurring patterns flagged once, then left: be + verb, ī, u-š / u-šān, rāy, kū, -īh, -išn, -īhā, -tar.
+House renderings: ahlaw "righteous"; druwand "wicked"; Gannāg Mēnōg "the Foul Spirit" (`i`: "the Evil
+Spirit"); gizistag "accursed"; dēn "religion"; yazdān "the gods"; mēnōg "spirit, spirit world"; dušox "hell";
+ruwān "soul"; dastwar "high priest"; māzdēsn "Mazda-worshipper"; humat, hūxt, huwaršt "good thought, good
+word, good deed".
+
+## Hell (chapters 17–100)
+The punishments are graphic and many concern sexual conduct. Never bowdlerise: `l` and `i` say what the text
+says, in plain words. A part whose content calls for it carries `advisory` in units.json (`lede`: one plain
+sentence naming what the part shows; `more`: two or three sentences of context), by the project's
+content-advisory rules. If there is a passage you will not translate, follow the pipeline README's rule 7:
+leave out the smallest piece, mark the gap, publish the rest.
+
+## Glossary
+Keyed by the read form, lowercased, as the reader splits words. Entries: "lemma — meaning (grammar)"; verbs
+under the infinitive with the present stem ("guftan, gōw- — to say (present, 'they say')"). How a form is
+written is added by the build from `w` (`spellings.json`), so entries never state it.
 
 ## Open
-
-1. Zev's verdict on the presentation (words as read on the page, letters behind a switch).
-2. No voice yet. Carrier candidates to sample: a Persian (fa-IR) voice reading the transcription.
-3. Later chapters (hell, chs. 18–100) are graphic; content advisory applies (`claude/content-advisory.md`).
-4. A full letter-by-letter check of `wr` against the Pahlavi type, and Haug's italics (words not in
-   all manuscripts), which are not marked.
-5. For a run: 101 chapters; `parts.json` to be cut by chapter groups; the Roman reading of each page
-   is model work from the page images, as the Nights and Popol Vuh are.
-
-## The script on the page (Zev's ruling, 2026-11-18)
-After a trial of the two encoded sister scripts (Inscriptional and Psalter Pahlavi, generated from
-`wr`), Zev chose **images of Haug's print as the default script**, with the Latin line under it as
-usual. Inscriptional is dropped outright; Psalter would only come back if a font were needed to make
-words tappable, and it is not needed (the Latin line is tappable).
-- Each unit has `img`: word images cut from the print, wrapping right to left (`imgBase` on the story,
-  files under `img/arda-wiraz/<part>/`, list in `print-sample.json`). Sentence numbers, punctuation
-  rings and end ornaments are left out.
-- Cutting: `tools/cut_print_ch1.py` (lines by baseline, word shapes by white space, units by the
-  print's own sentence numbers, whose positions were read off the page by eye and are listed in the
-  script). Check per unit: shape count close to word count.
-- The button switches the Latin line: As read ↔ As written (`mpView`).
-- Cost measured on chapter 1: 513 images, 580 KB, about 1.1 KB a word → about 10 MB for the book.
-- The images are one block per unit; individual word images are not linked to glossary words.
+1. No voice. 2. No letter-by-letter check of `w` against the type. 3. Word images are not linked to
+glossary words. 4. Haug's italics (words not in all his manuscripts) are not marked.

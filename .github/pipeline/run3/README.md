@@ -17,6 +17,7 @@ Order: Hammurabi → Kebra Nagast → Secret History → Mabinogi → Cid → Az
 | azatiwada | ACLT 2, copy Hu. | 3 | Luwian hieroglyphs, sign keys |
 | king-list | Langdon 1923 | 8 | cuneiform words, signs from the plates |
 | ani | Budge 1895, interlinear text (added 2026-11-16) | 51 (each established first) | Egyptian words, signs read from Budge's type |
+| arda-wiraz (Run 4) | Haug & West 1872 (added 2026-11-18) | 28 (each established first) | Middle Persian: Haug's Roman reading from the page images, the print cut into word images |
 
 How a firing works: `RUNBOOK.md`. Tools: `r3.py` (next / claim / establish-packet / pin / packet / build /
 validate / publish / done / plan), `r3lib.py`, `cun.py` (cuneiform), `signs.py` (cuneiform, Anatolian and Egyptian: adds a sign to a shared sign
@@ -31,7 +32,7 @@ Every text gets audio once its voice is settled; `audio.yml` builds it on push o
 the monthly budget (`build_pinned.py MONTHLY_BUDGET_USD`), and the daily budget check warns the owner at $8.
 - Hammurabi: voice settled (German carrier, 2026-10-11) — every new `hammurabi-` part is voiced on push.
 - Kebra Nagast (Geʿez), Secret History (Middle Mongol), Mabinogi (Middle Welsh), Cid (Old Spanish), Azatiwada
-  (Luwian), King List (Sumerian): voice not chosen — they publish without audio; when the owner chooses a voice,
+  (Luwian), King List (Sumerian), Arda Viraf (Middle Persian): voice not chosen — they publish without audio; when the owner chooses a voice,
   the language goes into `build_pinned.py` PINNED / `pick_targets.py` PINNED_AUTO and the sweep voices every
   published part.
 The run itself never builds or edits audio.

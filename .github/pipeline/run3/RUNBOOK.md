@@ -104,5 +104,6 @@ Nothing survives a firing unless it is pushed. So:
   (see `.github/pipeline/README.md`, rule 7).
 A run that publishes nothing and says why is a good run; a run that publishes a part it is unsure of is not.
 Never send email, never use Google Drive, never create, change or disable a routine. Never touch another
-work's files, `queue.txt`, or anything outside `.github/pipeline/<w>/`, the work's story and glossary files,
+work's files, `queue.txt`, or anything outside `.github/pipeline/<w>/`, the work's story and glossary files
+(for a work whose build cuts page images, its image folder `img/<w>/` is part of its story files),
 `stories.json`, and (via signs.py only) the sign glossaries and their embedded copies.

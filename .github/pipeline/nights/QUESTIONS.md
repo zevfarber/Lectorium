@@ -1594,3 +1594,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, for the publishing run to consider for `emend.json`: P680L23 يزجع (a clear dot over the rāʾ; sense يرجع). P673L17 اراقبه: the letter after ارا did not ink and only two dots remain (ta or qāf); recorded as اراقبه from the gap and the sense, low confidence. P678L05 سعد انة: printed with a full space, but it is the name Saʿdāna.
 - Hemistich mark: on P679L01 the print sets its asterisk over the kashida of الْمَحَبَّةِ. I placed ` * ` after that word, matching P678L21. The adjudicator's verdict had dropped it, so I restored it by hand.
 - Nothing to decide.
+
+## Night 140 (published 2026-11-18)
+- Corrected misprints in emend.json: P666L02 ينقوت→يتقوت (the same verb is printed correctly at P666L12); P670L03 بفصة→بفضة (silver). The archive was not changed.
+- Kept as printed with notes (doubtful, not corrected): P666L05 مخضبة (read mukhaḍḍaba, "dyed"; perhaps مخصبة, "fertile"); P671L17 الضربة الفاضلة (perhaps الفاصلة, "the decisive stroke"); P672L02 فضجّر (read as "grew distressed"); P673L14 غيار (read ghayyār, "raider"); P673L15 حجرة (read "mare"); P669L03 فدخلت (read dakhkhaltu, "I brought in [the elders]").
+- Printed marks kept with notes: صَدِىٌ (P668L11, nominative where genitive is expected), وصفّه (P673L08, stray shadda), يا لَله (P670L12); verse: تَضْمُرُهَا, ذَاقًا, مَارَايْتُ, شَرَّدْتُ, اَسَاقِفٌ, يَتَدَفَّقُ (rhymes -aqu among -iqu).
+- Names romanised for the first time: Ṣabbāḥ ibn Rammāḥ ibn Hammām (صباح, the Bedouin; vocalised صَبَّاح), Najma (نجمه, his cousin), Ghassān (the horse-thief), Kahrdāsh (the robber chief), al-Qātūl and al-Majnūn (the horse's names). Change them across the nights if you prefer other readings.
+- Library label: `Night 140 · King ʿUmar ibn al-Nuʿmān, continued`. Nothing to decide.
+- Next: night 141 (P674L07–P678L11) is complete and unpublished; the next firing should publish it.

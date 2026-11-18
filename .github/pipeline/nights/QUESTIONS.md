@@ -1635,3 +1635,12 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Names romanised for the first time: Fātin (the warrior-maiden Kahrdāsh loved), Jāmiʿ (an emir of the Daylam), Bākūn (the old slave-woman with the poisoned dagger).
 - Library label: `Night 142 · King ʿUmar ibn al-Nuʿmān, continued`. Bākūn's story of the ruined lover in the bath begins at the end of this night; the next night may want to name it once its heading or its shape is clear.
 - Nothing to decide. Next: night 143 (from P692L19) is still open; the next firing should transcribe.
+
+## PDF 719–726 (printed pp. 697–704, transcribed 2026-11-18)
+- Night 143 (P692L19–P702L03, 213 lines) is now complete and unpublished; the next firing should publish it. Night 144 label P702L04 (centred on its own line, `h`), still open at the end of p. 704.
+- PDF 719 has a two-line running header (the tale title wraps: "…وكان ما كان / والوزير دندان بسبب دايته مرجانة"); both lines were skipped. On PDF 719, 720, 721 and 724 the detector took the header for crop 1; nothing lost.
+- This batch the ة/ه check found nothing to correct: every word that both passes ended in ة after a non-joining letter is a real ة (خرزة, ابريزة, مدة, شدة and so on). Where the horned ه was disputed, the adjudicator ruled ه from the image (الخرزه P697L05, هذه P704L13).
+- Low confidence: P704L06 ففرح (one pass read a dot over the last letter, ففرخ; the adjudicator saw only a slanted speck).
+- Kept as printed, for the publishing run to consider for `emend.json`: P700L01 التقانة (both passes; sense perhaps التفاتة); P700L23 "فسارت قضى فكان بنفسها" (reads oddly; both passes agree); P703L09 وثاقهم was ruled ق, not ت; P702L16 قدا هديت and P704L03 وقدا تحفته (spacing as printed, sense قد اهديت / قد اتحفته); P698L10 البرمن (set solid, sense البر من).
+- Marked prose words confirmed by both passes: سرّا, ثلٰث/ثلٰثة/ثلٰثمائة, فَاخَذَنا, استقلّيت, حنّ, وحلّ, الاخوّة, متهيّئين, ونَفتْ, واُنهب, يعدّ, يدلّهم, ميّزوهم, الشقيّين.
+- Nothing to decide.

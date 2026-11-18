@@ -133,3 +133,26 @@ standard yè and the note (and glossary) give shè. Say if you prefer shè as th
   archive; the first witness's 亦 is the archived evidence.
 - 孫 (xùn, 7.35) and 和 (hè, 7.31) are stated in Book 7 but not added to POLY, since earlier books use
   them with their first readings unstated.
+
+## Misprint corrected in 8.4: 地 → 也 (analects-08, 2026-11-18)
+Under rule 5b. 鳥之將死，其鳴也哀 'when a bird is about to die, its cry is mournful': the copy prints 其鳴地哀;
+both witnesses read 也, and the parallel 其言也善 follows. In `emend.json`; pinned source unchanged. Nothing waits on you.
+
+## build_analects.py now accepts CJK Extension B characters (analects-08, 2026-11-18)
+8.7 士不可以不𢎞毅: the edition writes 𢎞 (U+22390, outside the Basic Multilingual Plane) for 弘. The build's
+character patterns covered only the BMP, so they were widened; books 1–7 build exactly as before. The glyph is
+kept as printed (pinyin hóng, glossary '= 弘'). If a reader's font lacks it, it may show as a box — say if you
+would rather print 弘 with a note.
+
+## 8.1 literal: 'Taibo — he can surely be called utmost virtue' (analects-08, 2026-11-18)
+The l keeps the Chinese construction (a person 'called' 至德) so that 其可謂至德也已矣 reads the same in 8.1 and 8.20;
+the i smooths it ('surely deserves to be called the utmost'). Say if you prefer 'a man of utmost virtue' in 8.1.
+
+## Smaller points left open (analects-08, 2026-11-18)
+- 8.14 不在其位不謀其政 recurs in Book 14, where Zhu Xi marks it 重出; its passage number there (14.26 or 14.27 —
+  Zhu Xi's heading counts 47 chapters but 46 ○ starts are marked) is for the Book 14 run to settle.
+- 8.2 君子篤於親…: Zhu Xi quotes Wu that it should be a separate chapter; kept in 8.2 as he prints it, note says so.
+- 8.12 至 read as printed with Zhu Xi's suspicion that it should be 志 given in the note (doubtful, so not emended).
+- 8.20 婦人: Zhu Xi reports Liu Shidu's view that the woman is Yi Jiang; 劉侍讀 left as 'Academician Liu', unidentified.
+- Some commentator identifications (蘇氏 Su Shi, 晁氏 Chao Yuezhi, 稷 'Lord Millet', 內則 as a Record of Rites
+  chapter) come from general knowledge, as in earlier books.

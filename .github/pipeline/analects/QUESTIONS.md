@@ -63,3 +63,33 @@ other man's place'), following Zhu Xi's 推己之謂恕. Decided meanwhile as th
 4.4 prints 茍 (strictly a different character, jì) for 苟, as old prints commonly do; Zhu Xi's own
 comment writes 苟. Treated as the edition's graphic form, like 盻 in 3.8: text keeps 茍, pinyin gǒu,
 note says so.
+
+## Misprint corrected in 5.9: 宰子 → 宰予 (analects-05, 2026-11-18)
+Under rule 5b. The Siku copy as transcribed prints 宰子晝寢; Zhu Xi's own comment on the line names 宰予,
+the Master goes on to call him 予 (於予與何誅), and both witnesses read 宰予. (Hu Yin, quoted by Zhu Xi,
+also appears as 宰子 in this copy — the same 子/予 confusion.) Recorded in `emend.json`; pinned source
+unchanged. Nothing waits on you; say if you would rather the reading text keep 宰子 'Master Zai'.
+
+## Misprint corrected in 5.15: 已 → 己 (analects-05, 2026-11-18)
+其行己也恭 'in conducting himself': the copy prints 已, as at 4.14; first witness reads 己. In `emend.json`.
+
+## 巳 kept in 5.26, read yǐ (analects-05, 2026-11-18)
+巳矣乎 is printed with 巳 (also in Zhu Xi's comment); elsewhere this copy prints the particle as 已.
+Treated as the edition's graphic form, like 茍 and 盻: text keeps 巳, pinyin yǐ, note says so, 巳 added
+to POLY. Say if you would rather it be corrected to 已 under rule 5b.
+
+## 輕 in 5.25 (analects-05, 2026-11-18)
+The transcription of our Ruan witness (KR1h0004) sets 輕 in 衣輕裘 in round brackets, apparently marking
+it as a suspected later addition. Zhu Xi and He Yan both have it; kept, and the note says so (hedged).
+
+## 足 not in POLY yet (analects-05, 2026-11-18)
+Book 5 has 足 jù 'excessive' (5.24 足恭, stated in the unit). 足 cannot join the POLY set the build
+enforces until the zú occurrences in books 2–4 (analects-02 unit 16, analects-03 unit 12, analects-04
+units 8 and 12) state =zú; left as is so published books are untouched. Same for 三 (5.19 Zhu Xi sàn,
+printed sān).
+
+## Older glossary entries with ';' inside brackets (analects-05, 2026-11-18)
+The glossary review found that a ';' inside parentheses cuts the popup's first clause mid-bracket.
+Fixed in all Book 5 entries; older entries with the same fault (其諸, 共, 殆, 禄, 車, 嗚呼, 辟, 盻, 杞)
+were left untouched (broaden-only rule). A later run could move those semicolons outside the
+brackets if you agree.

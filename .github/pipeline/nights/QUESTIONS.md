@@ -1618,3 +1618,12 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, for the publishing run to consider for `emend.json`: P682L11 فخرح (no dot on the last letter; sense فخرج); P687L05 واولا (sense ولولا); P687L13 رائد (no dot seen; sense perhaps زائد); P686L16 اغطاهم (a dot over the ع; sense اعطاهم). P687L22 سان سان is printed as two words; the same name is ساسان at P688L22 (kashida-stretched).
 - P684L11, the verse introduction قال فيه الشاعر, had no crop. Both passes read it from the band.
 - Nothing to decide.
+
+## PDF 711–718 (printed pp. 689–696, transcribed 2026-11-18)
+- Night 142 (P678L12–P692L18, 320 lines) is now complete and unpublished; the next firing should publish it. Night 143 label P692L19 (centred, `h`), still open at the end of p. 696.
+- On PDF 711 and 712 the detector took the running header for body line 1; the passes were told to skip that crop. Nothing lost.
+- 714→715 join: both passes read the start of P693L01 as ني منه. On the crop the second word has a dot over a flat stroke, not a tooth: مخه ("فساحت ني مخه", the hashish dissolved in his brain). Corrected by hand. The first word shows a tooth with one dot and no loop, so it stays ني as printed. The adjudicator read في. For the publishing run: ني is a misprint for في (emend.json).
+- Kept as printed, for the publishing run to consider for `emend.json`: P689L22 الصاح (no tooth for ب; sense الصباح); P691L17 فقانت (sense فقالت); P694L16 ووثبث (sense ووثبت); P694L23 ياكرن (sense uncertain, perhaps باكون); P696 رابت/رابته/روباك (one dot below; sense رايت/رايته/روياك); P692L20 السعيدا and النسقية (sense الفسقية); P690L02 نكرهه (one dot above, sense تكرهه); P690L06 وحمت (sense وحنت?).
+- Low confidence: P692L08 امرضه (a speck above the joined ه); P695L14 ما كان / P695L21 ماكان (the spacing of the name); P696L12 اهلك (damaged letter).
+- plan.md's running line total was 175 short; it is now recounted from the archives (15447).
+- Nothing to decide.

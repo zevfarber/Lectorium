@@ -197,3 +197,20 @@ the 10.1 note mention that many modern editions divide the book into 27. Say if 
   selling, commentator identities (Lu Deming, Chao Yuezhi, Xing Bing, Zhang Zai, Xie Liangzuo).
 - The headless render check could not run this time (permission refused for a local server + browser); a later run
   with a browser should load analects-10 once.
+
+## 由 written Yóu in Book 11 (analects-11, 2026-11-18)
+Books 2, 5 and 6 print Zilu's personal name 由 as 'Yóu' (accented, to keep it apart from English 'you'); Book 9 (and the 牢 entry above)
+uses plain 'You'. Book 11 uses Yóu throughout and its 11.12 note explains the accent. Say which you want and a later run will bring
+Book 9 into line.
+
+## Smaller points left open (analects-11, 2026-11-18)
+- Readings against Zhu Xi's marks, each noted once: 德行 xíng (his 去聲 xìng), 從我 / 從者 cóng (his 去聲), 三復 sān (as 5.19).
+- 比及 (11.25) read bì, the traditional reading (Zhu Xi 必二反; Book 4 shipped 比 bì); some modern readers say bǐ. 屢空 (11.18) read kòng
+  'in want'; Zhu Xi marks nothing and kōng is also heard; the note says both. 夫二三子 (11.10) read fú 'those', unmarked by Zhu Xi.
+- 11.25 lemmata 60–61: Zhu Xi's split of speakers (Zeng Xi asks, the Master answers) is followed; the note gives the other reading
+  (all the Master's reply).
+- Particle-only He Yan variants (孰賢乎, 過猶不及也, 足民也, 能之也…) are noted, following the 'character added or dropped' rule.
+  Say if you would rather drop particle-only variants from the notes.
+- Commentators named by surname only in Zhu Xi (洪氏, 吳氏, 王氏) are given as 'Hong', 'Wu', 'a Mr Wang', without identification;
+  11.11's He Yan comment is credited to Chen Qun 陳群 on the strength of 陳群曰.
+- The He Yan transcription (KR1h0005_006) lacks page 2b, so 11.4–11.5 and the start of 11.6 could not be collated against He Yan.

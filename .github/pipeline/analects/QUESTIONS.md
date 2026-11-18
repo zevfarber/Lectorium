@@ -111,3 +111,25 @@ third units (夫仁者… and 能近取譬…) carry no quotation marks, as with
 Zhu Xi joins 雍也可使南面 with 仲弓問子桑伯子 (6.1) and 子華使於齊 with 原思為之宰 (6.3), so our numbers run up
 to two behind the 30-chapter numbering some editions use (Nanzi is 6.26, the mean 6.27, 博施 6.28). This
 follows the conventions ("Zhu Xi's chapter breaks"); the parts.json passage count (28) agrees.
+
+## Misprint corrected in 7.28: 已 → 己 (analects-07, 2026-11-18)
+Under rule 5b. 人潔己以進 'a man purifies himself to come forward': the copy prints 已 (as at 4.14, 5.15,
+6.28); the first witness reads 絜己. In `emend.json`; pinned source unchanged. Nothing waits on you.
+
+## 祗 kept in 7.34, read qí (analects-07, 2026-11-18)
+禱爾于上下神祗: the copy writes 祗 (properly zhī 'reverent') for 祇 qí 'earth spirits', in the text and in
+Zhu Xi's comment (地曰祗); the first witness has 祇. Treated as the edition's graphic form, like 盻, 茍
+and 巳: text keeps 祗, pinyin qí, note says so. Say if you would rather correct it under rule 5b.
+
+## 葉公 read yè gōng, not shè gōng (analects-07, 2026-11-18)
+Zhu Xi reads 葉 舒涉反 (shè), and the traditional reading 葉公 shè gōng is still common; we give the current
+standard yè and the note (and glossary) give shè. Say if you prefer shè as the house reading.
+
+## Smaller points left open (analects-07, 2026-11-18)
+- 7.26 射: Zhu Xi's 食亦反 is noted as an older reading; we give shè.
+- 7.32 文莫: follows Zhu Xi (莫 'perhaps'), with He Yan's 莫 = 無; the reading of 文莫 as one word
+  'striving' (忞慔) is not mentioned. Say if you want it in the note.
+- 7.16: the note cites the Lu reading 亦 for 易 as recorded by Lu Deming (經典釋文), which is not in the
+  archive; the first witness's 亦 is the archived evidence.
+- 孫 (xùn, 7.35) and 和 (hè, 7.31) are stated in Book 7 but not added to POLY, since earlier books use
+  them with their first readings unstated.

@@ -243,7 +243,11 @@ def spoken_text(s):
     """
     say = s.get("say")
     src = say if isinstance(say, str) and say.strip() else s["t"]
-    return src.replace("\n", " ").strip()
+    # An asterisk is a printed divider (the Nights set one between the two halves of a verse line),
+    # never a word. The Chirp 3 HD Arabic voice read it aloud as extra syllables (found 2026-11-18 by
+    # the listening check: Nights 111 and 121). The voice gets a comma there instead.
+    src = re.sub(r"\s*\*+\s*", ", ", src)
+    return src.replace("\n", " ").strip().strip(",").strip()
 
 
 def new_regime(story):

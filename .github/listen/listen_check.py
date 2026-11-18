@@ -42,7 +42,8 @@ def lang_of(story):
 def spoken_text(s):
     say = s.get("say")
     src = say if isinstance(say, str) and say.strip() else s["t"]
-    return src.replace("\n", " ").strip()
+    src = re.sub(r"\s*\*+\s*", ", ", src)   # as build_audio.spoken_text: a divider is not read aloud
+    return src.replace("\n", " ").strip().strip(",").strip()
 
 
 _pinyin = None

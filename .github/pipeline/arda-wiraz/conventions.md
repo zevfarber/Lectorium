@@ -60,12 +60,17 @@ Recurring patterns flagged once, then left: be + verb, ī, u-š / u-šān, rāy,
 5. For a run: 101 chapters; `parts.json` to be cut by chapter groups; the Roman reading of each page
    is model work from the page images, as the Nights and Popol Vuh are.
 
-## Script trial (2026-11-18) — Zev to choose
-Chapter 1 carries three more layers so he can compare on a phone: `wi` and `wp` = the `wr` letters set
-letter for letter in Inscriptional Pahlavi and Psalter Pahlavi (generated in `build.py`: `'` → waw,
-h → heth, E → he, c/C → sadhe, r/R/O/w → waw-ayin-resh, numbers in the script's own number signs), and
-`img` on the title, §1 and §2 = word images cut from Haug's print (`print-sample.json`, files under
-`img/arda-wiraz/001/`, story field `imgBase`). The reader's button cycles As read → Letters: Latin →
-Letters: inscription → Letters: psalter (state `mpView`). Fonts: Noto Sans Inscriptional Pahlavi and
-Noto Sans Psalter Pahlavi (OFL) in `fonts/`. Measured image cost: 29 words = 35 KB, so about 1.2 KB a
-word, roughly 11 MB for the whole book.
+## The script on the page (Zev's ruling, 2026-11-18)
+After a trial of the two encoded sister scripts (Inscriptional and Psalter Pahlavi, generated from
+`wr`), Zev chose **images of Haug's print as the default script**, with the Latin line under it as
+usual. Inscriptional is dropped outright; Psalter would only come back if a font were needed to make
+words tappable, and it is not needed (the Latin line is tappable).
+- Each unit has `img`: word images cut from the print, wrapping right to left (`imgBase` on the story,
+  files under `img/arda-wiraz/<part>/`, list in `print-sample.json`). Sentence numbers, punctuation
+  rings and end ornaments are left out.
+- Cutting: `tools/cut_print_ch1.py` (lines by baseline, word shapes by white space, units by the
+  print's own sentence numbers, whose positions were read off the page by eye and are listed in the
+  script). Check per unit: shape count close to word count.
+- The button switches the Latin line: As read ↔ As written (`mpView`).
+- Cost measured on chapter 1: 513 images, 580 KB, about 1.1 KB a word → about 10 MB for the book.
+- The images are one block per unit; individual word images are not linked to glossary words.

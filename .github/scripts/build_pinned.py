@@ -446,6 +446,20 @@ def main():
 
     env = dict(os.environ); env["ESPEAK_VOICE"] = cfg["espeak"]
     subprocess.run(["python3", os.path.join(HERE, "align_wordref.py"), sid], check=True, env=env)
+    switch_audio_on(sid)
+
+
+def switch_audio_on(sid):
+    """Take a freshly voiced text off audio/_off.json (the reader's list of switched-off audio)."""
+    fn = os.path.join("audio", "_off.json")
+    try:
+        d = json.load(open(fn, encoding="utf-8"))
+    except Exception:
+        return
+    if sid in d.get("ids", []):
+        d["ids"] = [x for x in d["ids"] if x != sid]
+        json.dump(d, open(fn, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print("audio switched back on for %s (%d text(s) still off)" % (sid, len(d["ids"])))
 
 
 if __name__ == "__main__":

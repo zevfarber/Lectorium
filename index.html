@@ -6468,7 +6468,19 @@ $('storyFilter').oninput = (e) => {
    for the session, and the parsed timings are handed to loadStory so nothing is fetched twice.
    A story that already carries an audio field is left exactly as it is. */
 const audioProbe = {};          // id -> Promise<parsed align.json | null>
+/* Audio switched off (2026-11-18): audio/_off.json lists texts whose clips are known to be faulty and
+   are waiting to be re-recorded. For those the reader behaves as if no audio existed yet ("audio in
+   preparation"); the build takes an id off the list when its new clips land. */
+let audioOff = new Set();
+const audioOffReady = fetch('audio/_off.json', { cache: 'no-cache' })
+  .then(r => r.ok ? r.json() : null)
+  .then(d => { audioOff = new Set((d && d.ids) || []); })
+  .catch(() => {});
 function probeAudio(s){
+  return audioOffReady.then(() => probeAudioNow(s));
+}
+function probeAudioNow(s){
+  if (s && s.id && audioOff.has(s.id)) { s.audio = null; s._align = null; return Promise.resolve(null); }
   if (!s || s.audio || !s.id) return Promise.resolve(null);
   if (!(s.id in audioProbe)) {
     audioProbe[s.id] = fetch('audio/' + s.id + '/align.json', { cache: 'no-cache' })

@@ -208,13 +208,18 @@ def missing_audio():
     Dispatch with id = "missing" to rebuild everything that has no audio.
     """
     out = []
+    # texts whose audio is switched off (audio/_off.json) need voicing again, in the same order as the rest
+    try:
+        off = set(json.load(open(os.path.join("audio", "_off.json"), encoding="utf-8")).get("ids", []))
+    except Exception:
+        off = set()
     for f in sorted(os.listdir(".")):
         if "/" in f or not f.endswith(".json"):
             continue
         sid = story_id(f)
         if not sid:
             continue
-        if not os.path.exists(os.path.join("audio", sid, "align.json")):
+        if not os.path.exists(os.path.join("audio", sid, "align.json")) or sid in off:
             out.append(sid)
     return sorted(out, key=_order)
 

@@ -73,3 +73,56 @@ Counts (one per line above): major 3 · minor 38 · style 5 (46 change lines).
 - **unit 31 l/i "An-arutef".** This is close to the familiar form, not Budge's "An-aarut-f". The say is rule-based. Kept.
 - **Double reed in ꜣny (tr `i`, `i` for reading y).** The same applies everywhere in the work. Left for a work-wide decision.
 - **Modern-translation wording.** None recognised. Nothing was recalled or checked against modern translations, as instructed.
+
+## Pass 2
+
+All edits were made by script (json load, modify and dump with ensure_ascii=False and indent=1). No glyph code, order, role or tr was touched; a before/after comparison of every glyph (sign, role, tr) matches. No lemma key was added or renamed. Dry run: OK with no ERROR. The only WARN lines left are the 27 "names a modern translator" warnings. Each one is for Budge, and each refers to his 1895 reading or print as a point of comparison, never as the translation.
+
+The run lead's decisions were checked. The `say` suffix joins came out right: ii·n·i → iieni, nfrw·k → neferuek, pr·i → perii (like the model's srmi·i → seremii), ḏd·t·i → djedeti. The homographs pr, n, ir, sš and ḥmt are kept under one key, and each now reads as two senses (see below).
+
+### Changes
+
+- unit 17 · l/i/n/morph gloss of r · major · r + sḏmt·f was translated as purpose ("so that I might speak"), which the grammar does not give. Purpose would be r + infinitive, and here t + ·i marks the sḏmt·f. · l now reads "… as · the-Bennu · until · spoke · I" and i reads "He let me come forth as the Bennu-bird, until I spoke." The note says the sense is unclear, that Budge takes it as purpose, and why the translation keeps "until". The occurrence gloss of r is now "until (with the sḏmt·f form)". The U28 rod is given the misprint formula.
+- unit 6 · n · minor · W24 (nw-pot) has tr ꜣ in štꜣw, a sound the sign cannot carry, and the note had no misprint formula. · Added "The papyrus writes š-t-nw; read štꜣw."
+- unit 6 · n · minor · U28 (ḏꜣ) has tr ḏ in ḏdt·i, with no formula. · Added "The papyrus writes a plain rod (coded U28, an approximation of the print) where the cobra ḏ is expected; read ḏdt·i."
+- units 7, 9, 29 · n · minor · same W24 → ꜣ in štꜣw with no formula. · A short formula sentence added to each.
+- unit 10 · n · minor · the formula read "ḏꜣ-ꜣ-t-ḏꜣ-s", which hid the printed nw-pot. · Now "ḏꜣ-nw-t-ḏꜣ-s; read ḏꜣḏꜣt", and the pot is described as standing for ꜣ.
+- unit 13 · n · minor · the second X1 in ḥtp·kwi had phon t with no t in the reading, and no formula. · Added "The papyrus writes ḥtp-t-kwi, with a second t; read ḥtp·kwi."
+- unit 16 · n · minor · Q7 (fire-altar) is log with tr bꜣ, which it cannot carry, and there was no formula. · The formula is added and says the identification of the sign is doubtful.
+- unit 21 · n · minor · Aa2 has tr ḏw in ꜣbḏw (open point from pass 1), and there was no formula. · Added "The papyrus writes a round sign (coded Aa2 from the print, which cannot carry ḏw) where the hill sign ḏw is expected; read ꜣbḏw."
+- unit 22 · n · minor · V6 has tr mḥ, which it cannot carry, and there was no formula. · The note now opens with the formula for smḥ·n·i.
+- unit 33 · n · minor · S40 is log with tr swt, which is not a value of the sign, and there was no formula. · Formula added: read swt, Seth.
+- unit 43 · n · minor · Aa2 is log with tr ḥsb, which is not a known writing, and there was no formula. · The formula is added, and it says the reading rests on the sense and on Budge's ḥesb.
+- unit 24 · n · minor · "km-wr 'the Great Black'" is a Budge-style English name. · Now "km-wr joins km 'black' and wr 'great', and what the name meant is not clear".
+- unit 31 · l/i/n · minor · "An-arutef" is neither the reading, the rule-based say, nor Budge's form; it is an invented or remembered modern form. · l and i now use En-iarered-ef, the say form. The note gives Budge's spelling from the packet (Àn-àarruṭ-f) and says the rule-based form is used.
+- unit 36 · l · minor · l had a bare "(?)" for ir and the untranslated "ꜥšꜣ(?)". · Now "(question) · you · know …" and "many(?)".
+- unit 40 · l · minor · same bare "(?)" for ir. · Now "(question)".
+- unit 27 · n · style · Budge's spelling was "Per-tep-tu-f". · Now Per-ṭep-ṭu-f, the packet's transliteration.
+- unit 3 · l · style · ꜥꜣ "here" is called doubtful in the note but was not marked in l. · Now "here(?)" at its first occurrence.
+- gloss ḫr-sk-šw · meaning · minor · it quoted Budge's 1895 English ("Driver away of Shu"). · Now "Kher-sek-Shu, the name of the door of the hall; sk 'wipe away' and šw 'Shu' are clear, the whole is not (?) (name; Budge: χer-sek-Śu)".
+- gloss km-wr · meaning · minor · "the Great Black". · Now gives the parts km "black" and wr "great", its sense unclear (?), with Budge: Qem-ur.
+- gloss stm · meaning · minor · it quoted Budge's English "leaf". · The quote is removed; the entry reads "apparently a leaf or panel", with Budge: setem.
+- gloss n-iꜣrrd-f · meaning · minor · it had the invented form "An-arutef" and a non-packet Budge spelling. · Now En-iarered-ef, with Budge: Àn-àarruṭ-f.
+- gloss ḏdt · meaning · minor · "(Budge: Tattu)" is Budge's English, which he uses for both Mendes and Busiris, so it misleads. · Now "(place name; Budge: Ṭeṭṭeṭ)", from the packet.
+- gloss wsir, inpw, ꜣbḏw, nšmt, pr-tp-ḏw-f, pr-wsir · Budge spelling · style · these were not the packet's transliteration (Ausar, Anpu, Abtu, neshem boat, Per-tep-tu-f, Per-Ausar). · Now Àusàr, Ànpu, Àbṭu, neśemet, Per-ṭep-ṭu-f and Per-Àusàr.
+- gloss tꜣ-mri, bnw · Budge spelling · style · these had none. · Added Ta-merà and bennu.
+- gloss ḏd · meaning · minor · the entry did not cover the use of ḏd in unit 6 (the noun ḏdt "words"). · Added "ḏdt 'words, speech' (noun from it)".
+- __broaden__ n, ir, pr, ḥmt and gloss sš · meaning · minor · the second sense was tacked on with "also", so it read as one word. · Each now reads "· a second word of the same spelling: …" (n: the preposition "to, for"; ir: the particle "when, if" and the question; pr: the noun "house"; sš: the verb "pass"). ḥmt reads "also woman in general (noun; plural ḥmwt 'women')". Every broaden still begins with the known entry copied whole (checked by script).
+- gloss (≈65 entries: rꜣ, ꜥq, dwꜣ, ḫnty, ii, nfrw, ꜥ, ꜥš, msi, šndt, isr, iw, stẖ, ḫnm, tkn, ḥbs, ḏꜣḏꜣt, sbḫt, ꜣḫ, gs, iwi, rḫ, ḥtp, ·kwi, snsn, ḥtpt, kꜣ, wnn, bꜣ, rdi, snṯr, sm, ẖrd, pr-sṯt, smḥ, wiꜣ, ḫfty, ḏꜣi, sꜥḥ, sgr, rd, ḥwt-nṯr, kfꜣ, ꜥfnt, tš, hꜣi, ḥꜣw, rḫyt, ḥry-ib, ḥm, ·ti, ꜥšꜣ, pḥty, wꜣst, imꜣḫ, mꜣꜥ-ḫrw, sḏm·n·f …) · grammar · style · these lacked the "(grammar)" part of `lemma — meaning (grammar)`, or had it misplaced (for example ḥbs "(verb)" after a noun sense). · A grammar label was added or moved; the meanings are unchanged.
+
+Counts: major 1 · minor 22 · style 5 (28 change lines).
+
+### Considered and refused
+
+- **say vowel insertion** (hetepkwi, aqkwi, rekhtu, imten, ankhi): strictly the rule puts an e between the consonants. The model itself does not do this everywhere (henbet, khenty, Ra-setjau), so these were left alone for a work-wide decision. awyi (ꜥwy·i) was also left: the rule is ambiguous for w before y.
+- **G1 (tr ꜣ) for the -y(w) ending of ḫftyw / ꜥntyw**: tr gives the sign's own sound, not the sound the word needs, so the misprint formula does not apply. The notes explain it. Kept.
+- **D36 (tr ꜥ) in mk and mḫꜣt**: this is the sign's own sound, in a later spelling the notes explain. Kept.
+- **W24 tr `in` in ink (unit 14)**: this is a regular spelling of ink in these papyri (Budge's nuk), not a slip. Kept.
+- **The bolt in ḏꜣḏꜣt (unit 10) and the stray w in sgr·n·i (unit 25), with their own sounds as tr**: the formula is already there. Kept.
+- **Budge's English in notes 6, 25, 32, 33, 34 and 36** (for example "(Budge: 'I have spoken')" and "Budge reads a wish ('let your weighing be …')"): each is set against the translation as the older reading, never used as the translation, which the conventions allow. Kept.
+- **The unit 43 sentence on what the other papyri add**: it is hedged ("seem") and is the one sentence the conventions require. Kept.
+- **Unit 39 Z1 left in the n group**: I agree with pass 1.
+- **Unit 34 negative reading n wn**: it is noted as one of two possibilities. Kept.
+- **Unit 31 name**: the readable form En-iarered-ef is clumsy, but it is rule-based. A nicer form would have to come from memory of modern renderings, which the conventions forbid.
+
+Verdict: safe to publish as a provisional draft. The grammar and translation stand on the signs, every reading where tr and sign disagree carries the misprint formula or an explanation, and the remaining doubts are flagged in l, i or n.

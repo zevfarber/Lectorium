@@ -1674,3 +1674,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - The P703L20 text calls Sharrukān Kān Mā Kān's ʿamm, which is right (his father is Ḍawʾ al-Makān); two draft notes that said otherwise were corrected in review.
 - Library label: `Night 144 · King ʿUmar ibn al-Nuʿmān, continued` (Ḥammād's tale is an inset told before the kings, not a headed tale).
 - Nothing to decide. Next: night 145 (P713L14–P716L06) is complete and unpublished; the next firing should publish it.
+
+## Night 145 (P713L14–P716L06, published 2026-11-18)
+- Corrected misprints in emend.json (4): P714L01 حرودب→حردوب (Ḥardūb), P714L13 جازبت→جازيت, P714L17 ونكشت→ونكشف, P715L22 اللّعيش→العيش. The archive was not changed.
+- Kept as printed with notes (doubtful or Middle Arabic): P715L12 فقرط بيده على اضلاعها (read qaraṭa, "squeezed", vowels a guess); P713L17 فاطلعته من علائقه (sense uncertain); P715L18 يتجارى (for yatajarraʾu); P715L22 والهناه; P716L02 ضو المكان; اكتروه اهل بيت المقدس (plural verb before its subject).
+- Spacing kept: السعيدان, العبيدان, شهر زاد.
+- The review again noticed that شَرْكَان (as the corpus points it) reads Sharkān while tr has Sharrukān; I kept the corpus pointing, as decided for Night 143. If the owner wants شَرُّكَان throughout, it is a mechanical sweep.
+- Library label: `Night 145 · King ʿUmar ibn al-Nuʿmān ends` — the night closes the tale; the bird tales (header حكاية البطة مع الشبل) begin in Night 146.
+- Nothing to decide. Next: night 146 (from P716L07) is still open; the next firing should transcribe.

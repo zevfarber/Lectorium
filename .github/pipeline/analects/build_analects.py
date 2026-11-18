@@ -15,8 +15,8 @@ import hashlib, json, os, re, sys, unicodedata, importlib.util
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.abspath(os.path.join(HERE, "..", "..", ".."))
-HAN = re.compile(r"[㐀-䶿一-鿿豈-﫿]")
-TOK = re.compile(r"^(\^?)([㐀-鿿豈-﫿]+)([^=/㐀-鿿]*)(?:=([^/]+))?(?:/(.*))?$")
+HAN = re.compile(r"[㐀-䶿一-鿿豈-﫿\U00020000-\U0003FFFF]")  # incl. CJK Ext. B+ (𢎞, 8.7)
+TOK = re.compile(r"^(\^?)([㐀-鿿豈-﫿\U00020000-\U0003FFFF]+)([^=/㐀-鿿\U00020000-\U0003FFFF]*)(?:=([^/]+))?(?:/(.*))?$")
 
 
 def load(path, name):

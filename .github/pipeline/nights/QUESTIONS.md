@@ -1665,3 +1665,12 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, for the publishing run to consider for `emend.json`: P712L13 توسل (the ل rises to full height; sense perhaps توسد); P710L17 قلت (two dots, not the قلث one pass saw); P712L18 مَفَرْ (broken م head).
 - On P708L11/16 and P709L07 the adjudicator read اللّٰهِ / لِلّٰهِ with a shadda and dagger alif, which neither pass had. This matches the archive's usual spelling.
 - Nothing to decide.
+
+## Night 144 (P702L04–P713L13, published 2026-11-18)
+- Corrected misprints in emend.json (2): P704L20 إثواب→اثواب (hamza set under the alif of athwāb), P712L13 توسل→توسد (he "pillowed" his sword under his head). The archive was not changed.
+- Kept as printed with notes (doubtful, not corrected): P706L20 الفارسي (al-Fārisī, "the Persian", for a Bedouin of Fazāra; perhaps a slip for al-fāris, "the horseman" — a drafter had corrected it, and I put the print back as not certain); P703L22 ضاع منها المال (feminine for the merchant; likely منه); P705L03 اشتراؤها (nominative hamza seat where an object is expected); P706L01 فنزلنا (read "set out"); P708L14 ذا الخيل; P709L18 من بلال; P710L01 رخيم الرجس (perhaps rajīm); P710L06/09 تلقي (sense talqā); P710L13 وكل الامر; P713L02 قالت له (for لي).
+- Spacing kept: فلماكانت (the night's heading), كلواحد, بينماهم, قدا هديت, وقدا تحفته, يافرسان, اوتريدون, فليبرزلي, يا حمادا نا (pointed yā Ḥammādu anā), لما ذا, and the usual ما/لا run-togethers.
+- Names romanised for the first time: Ḥammād al-Fazārī (the Bedouin narrator), Bilāl and Hilāl (two of his companions), ʿAbbād ibn Tamīm ibn Thaʿlaba and the Banū Thaʿlaba, Iblīs.
+- The P703L20 text calls Sharrukān Kān Mā Kān's ʿamm, which is right (his father is Ḍawʾ al-Makān); two draft notes that said otherwise were corrected in review.
+- Library label: `Night 144 · King ʿUmar ibn al-Nuʿmān, continued` (Ḥammād's tale is an inset told before the kings, not a headed tale).
+- Nothing to decide. Next: night 145 (P713L14–P716L06) is complete and unpublished; the next firing should publish it.

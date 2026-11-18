@@ -1,0 +1,94 @@
+# Packet — cid-tiradas-64-68: Toward Valencia: Murviedro taken and the Moorish armies beaten
+
+Tiradas 64–68, Pidal lines 1085–1154 (Cantar II (Bodas)).
+The established text below is pinned. A unit's `t` is one or more consecutive verses joined by "\n", cut by script.
+Flags: Pidal transposes lines here (print order differs from numeric order)
+
+
+## tirada 64
+
+1085	Aquis conpieça la gesta de mio Çid el de Bivar.
+1087	Poblado ha mio Çid el puerto de Alucat,
+1088	dexado [h]a Saragoça e a las tierras ducá,
+1089	e dexado [h]a Huesa e tierras de Mont Alván.
+1090	Contra la mar salada conpeçó de guerrear;
+1091	a orient exe el sol, e tornós a essa part.
+1092	Myo Çid gañó a Xérica e a Onda e Almenar,
+1093	tierras de Borriana todas conquistas las ha.
+
+## tirada 65
+
+1094	Ayudól el Criador, el Señor que es en çielo.
+1095	Él con todo esto priso a Murviedro;
+1096	ya vi[d]íe mio Çid que Dios le iva valiendo.
+1097	Dentro en Valençia non es poco el miedo.
+
+## tirada 66
+
+1098	Pesa a los de Valençia, sabet, non les plaze;
+1099	prisieron so consejo quel viniessen çercar,
+1100	Trasnocharon de noch, al alva de la man
+1101	açerca de Murviedro tornan tiendas a fincar.
+1102	Viólo mio Çid, tomós a maravillar:
+1102b	“Grado a tí, Padre spirital!
+1103	En sus tierras somos e femosles tod mal,
+1104	bevemos so vino e comemos el so pan;
+1105	si nos çercar vienen, con derecho lo fazen.
+1106	A menos de lid aquesto nos partirá;
+1107	vayan los mandados por los que nos deven ayudar
+1108	los unos a Xérica e los otros a Alucad,
+1109	desí a Onda e los otros a Almenar,
+1110	los de Borriana luego vengan acá;
+1111	conpeçaremos aquesta lid campal,
+1112	yo fío por Dios que en nuestro pro eñadrán.”
+1113	Al terçer día todos juntados s’[a]n,
+1114	el que en buen ora nasco compeçó de fablar:
+1115	“Oíd, mesnadas, sí el Criador vos salve!
+1116	Después que nos partiemos de la linpia cristiandad,
+1117	—non f[o] a nuestro grado ni nos non pudiemos mas,—
+1118	grado a Dios, lo nuestro f[o] adelant.
+1119	Los de Valençia çercados nos han;
+1120	si en estas tierras quisiéremos durar,
+1121	firme mientre son estos a escarmentar.
+
+## tirada 67
+
+1122	Passe la noche e venga la mañana,
+1123	aparejados me se[e]d a cavallos e armas;
+1124	iremos ve[e]r aquella su almofalla.
+1125	Commo omnes exidos de tierra estraña
+1126	allí pareçrá el que mereçe la soldada.”
+
+## tirada 68
+
+1127	Oíd qué dixo Minaya Álbar Fáñez:
+1128	“Campeador, fagamos lo que a vos plaze.
+1129	A mí dedes çient cavalleros, que non vos pido más;
+1130	vos con los otros firádeslos delant.
+1131	Bien los ferredes, que dubda non i avrá,
+1132	yo con los çiento entraré del otra part,
+1133	commo fío por Dios, el campo nuestro será.”
+1134	Commo gelo a dicho al Campeador mucho plaze.
+1135	Mañana era e piénssanse de armar,
+1136	quis cada uno dellos bien sabe lo que ha de far.
+1137	Con los alvores mio Çid ferirlos va:
+1138	“¡En el nombre del Criador e d’apostol santi Yague,
+1139	feridlos, cavalleros, d’amor e de voluntad,
+1140	ca yo so R[o]y Diaz, mio Çid el de Bivar!”
+1141	Tanta cuerda de tienda i veriedes [cr]ebar,
+1142	arrancarse las estacas e acostarse a todas partes los tendales.
+1143	Moros son muchos, ya quieren reconbrar.
+1144	Del otra part entróles Álbar Fáñez;
+1145	maguer les pesa oviéronse a dar e a arrancar:
+1151	de pie[de]s de cavallo los ques pudieron escapar.
+1147	Dos reyes de moros mataron en es alcaz,
+1148	fata Valençia duró el segudar.
+1149	Grandes son las ganançias que mio Çid fechas ha;
+1152	robavan el campo e piénssanse de tornar.
+1153	Entravan a Murviedro con estas ganançias que traen;
+1146	grand es el gozo que va por es logar.
+1150	Prisieron Çebolla e quanto que es i adelant;
+1155	miedo an en Valençia que no saben qué se far;
+1154	las nuevas de mio Çid, sabet, sonando van.
+
+Glossary: 216 of 291 forms already in cid-glossary.json.

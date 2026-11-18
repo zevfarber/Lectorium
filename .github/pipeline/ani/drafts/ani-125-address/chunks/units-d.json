@@ -1,0 +1,4643 @@
+{
+ "sentences": [
+  {
+   "ln": 41,
+   "p": true,
+   "l": "Besu · before · Min · (is) · the-name · of · leg · my · right",
+   "i": "'Besu-before-Min' is the name of my right leg.",
+   "n": "The dead person answers the floor of the hall, which has asked the names of the legs that tread on it. The answer is a sentence of two nouns side by side, 'A (is) the name of B', as at the door. bsw is foot b, bolt s, quail chick w, with a fish as classifier and plural strokes; the fish cannot be identified in the type (coded K1, an approximation) and the word is not clear. It may belong with bs 'bring in, introduce', but a fish fits no known sense, and it is left as a name, Besu. m-bꜣḥ 'before, in the presence of' is the owl m and the phallus bꜣḥ with its stroke; the flat roll-like sign under it (coded Y1, the papyrus roll) is unexpected and doubtful in the print. mnw is Min, the god of Coptos and Akhmim, written with his emblem and the seated god (Budge: Amsu, his old reading of the emblem). rd·i 'my leg' is mouth r, hand d, the leg as classifier and the seated man ·i 'my'. wnmi 'right' is the feather on its standard, the sign of the West, which also writes the word for 'right' (the West lies on the right hand of one who faces south, as Egyptians oriented themselves), with m as complement and the strokes y; the last sign, a stroke ending in a loop, is the classifier and is only approximated by its code (V1).",
+   "words": [
+    {
+     "reading": "bsw",
+     "say": "besu",
+     "q": "0-1-2-3:4",
+     "glyphs": [
+      {
+       "sign": "D58",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "sign": "S29",
+       "role": "phon",
+       "tr": "s"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "sign": "K1",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      },
+      {
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "bsw",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "m-bꜣḥ",
+     "say": "em-bah",
+     "q": "0-1:2:3",
+     "glyphs": [
+      {
+       "sign": "G17",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "sign": "D53",
+       "role": "log",
+       "tr": "bꜣḥ"
+      },
+      {
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "Y1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "m-bꜣḥ",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mnw",
+     "say": "Min",
+     "glyphs": [
+      {
+       "sign": "R22",
+       "role": "log",
+       "tr": "mnw"
+      },
+      {
+       "sign": "A40",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mnw",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "rn",
+     "say": "ren",
+     "q": "0:1-2",
+     "glyphs": [
+      {
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "sign": "A2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rn",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "n",
+     "say": "en",
+     "glyphs": [
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ny",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "rd·i",
+     "say": "redi",
+     "q": "0:1-2-3",
+     "glyphs": [
+      {
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "sign": "D46",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "sign": "D56",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "A1",
+       "role": "suff",
+       "tr": "·i"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rd",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "·i",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wnmi",
+     "say": "wenemi",
+     "q": "0-1-2:3",
+     "glyphs": [
+      {
+       "sign": "R14",
+       "role": "log",
+       "tr": "wnm"
+      },
+      {
+       "sign": "G17",
+       "role": "comp",
+       "tr": "m"
+      },
+      {
+       "sign": "Z4",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "sign": "V1",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wnmi",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 41,
+   "l": "Wenpet(?) · of · Nephthys · (is) · the-name · of · leg · my · left",
+   "i": "'Wenpet(?) of Nephthys' is the name of my left leg.",
+   "n": "The same sentence for the other leg. wnpt is the hare wn with n as complement, stool p, loaf t and the branch, the classifier of wood: a feminine noun, as the following nt shows, perhaps something made of wood (a staff?), but the word is not known and its sense is uncertain; Budge renders it with a word of mourning, which the classifier does not support. nt is the genitive n with the feminine t, agreeing with wnpt. nbt-ḥwt, Nephthys, 'Lady of the Mansion', sister of Isis and Osiris, is written with her own sign, the basket nbt set on the house-enclosure ḥwt, and the cobra of goddesses (Budge: Nebt-ḥet). iꜣbi 'left' is the spear-standard of the East, which writes the word for 'left' as the West writes 'right', the strokes y and foot b as complement; the looped stroke after it is the same doubtful classifier as in wnmi.",
+   "words": [
+    {
+     "reading": "wnpt",
+     "say": "wenepet",
+     "q": "0:1-2*3:4",
+     "glyphs": [
+      {
+       "sign": "E34",
+       "role": "phon",
+       "tr": "wn"
+      },
+      {
+       "sign": "N35",
+       "role": "comp",
+       "tr": "n"
+      },
+      {
+       "sign": "Q3",
+       "role": "phon",
+       "tr": "p"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "M3",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wnpt",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nt",
+     "say": "net",
+     "q": "0:1",
+     "glyphs": [
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ny",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nbt-ḥwt",
+     "say": "Nephthys",
+     "glyphs": [
+      {
+       "sign": "O9",
+       "role": "log",
+       "tr": "nbt-ḥwt"
+      },
+      {
+       "sign": "I12",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nbt-ḥwt",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "rn",
+     "say": "ren",
+     "q": "0:1-2",
+     "glyphs": [
+      {
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "sign": "A2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rn",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "n",
+     "say": "en",
+     "glyphs": [
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ny",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "rd·i",
+     "say": "redi",
+     "q": "0:1-2-3",
+     "glyphs": [
+      {
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "sign": "D46",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "sign": "D56",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "A1",
+       "role": "suff",
+       "tr": "·i"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rd",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "·i",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "iꜣbi",
+     "say": "iabi",
+     "glyphs": [
+      {
+       "sign": "R15",
+       "role": "log",
+       "tr": "iꜣb"
+      },
+      {
+       "sign": "Z4",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "sign": "D58",
+       "role": "comp",
+       "tr": "b"
+      },
+      {
+       "sign": "V1",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "iꜣbi",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 42,
+   "p": true,
+   "l": "tread · then · upon · us · you · know · us",
+   "i": "Tread on us, then, for you know us.",
+   "n": "The floor gives way. ḫnd 'tread, step' is placenta ḫ, water n, hand d, with a leg and the walking legs as classifiers: the bare stem is the imperative. ir·k, written reed–mouth–basket, is the preposition r with ·k after an imperative, 'you, then', as at the end of Anubis's speech in the introduction. ḥr·n 'upon us': the face ḥr with r and its stroke, and ·n 'us' (water n with plural strokes, the 1st person plural). iw·k rḫ·ṯi 'you know': iw with ·k, and the stative of rḫ 'know' (mouth r, placenta ḫ, papyrus roll) with the 2nd singular ending written in its older form ṯi (the tethering rope ṯ and reed i). The n with plural strokes after it is the object 'us'; after a stative Egyptian uses the dependent pronoun n, which looks the same as the suffix.",
+   "words": [
+    {
+     "reading": "ḫnd",
+     "say": "khened",
+     "q": "0:1:2-3-4",
+     "glyphs": [
+      {
+       "sign": "Aa1",
+       "role": "phon",
+       "tr": "ḫ"
+      },
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "sign": "D46",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "sign": "D56",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "D54",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫnd",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ir·k",
+     "say": "irek",
+     "q": "0-1:2",
+     "glyphs": [
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "sign": "V31",
+       "role": "suff",
+       "tr": "·k"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "r",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "·k",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḥr·n",
+     "say": "heren",
+     "q": "0:1-2-3:4",
+     "glyphs": [
+      {
+       "sign": "D2",
+       "role": "phon",
+       "tr": "ḥr"
+      },
+      {
+       "sign": "D21",
+       "role": "comp",
+       "tr": "r"
+      },
+      {
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "N35",
+       "role": "suff",
+       "tr": "·n"
+      },
+      {
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḥr",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "·n",
+       "g": [
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "iw·k",
+     "say": "iuek",
+     "glyphs": [
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "sign": "V31",
+       "role": "suff",
+       "tr": "·k"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "iw",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "·k",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "rḫ·ṯi·n",
+     "say": "rekhtjin",
+     "q": "0:1:2-3-4-5:6",
+     "glyphs": [
+      {
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "sign": "Aa1",
+       "role": "phon",
+       "tr": "ḫ"
+      },
+      {
+       "sign": "Y1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "V13",
+       "role": "suff",
+       "tr": "·ṯ"
+      },
+      {
+       "sign": "M17",
+       "role": "suff",
+       "tr": "i"
+      },
+      {
+       "sign": "N35",
+       "role": "suff",
+       "tr": "·n"
+      },
+      {
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rḫ",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "·ti",
+       "g": [
+        3,
+        4
+       ]
+      },
+      {
+       "lemma": "·n",
+       "g": [
+        5,
+        6
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 42,
+   "p": true,
+   "l": "not · will-announce · I · you · says · the-doorkeeper · of · hall · this · unless · have-said · you · name · my",
+   "i": "'I will not announce you,' says the doorkeeper of this hall, 'unless you tell my name.'",
+   "n": "nn (water n written twice) is the negative of the future: nn smi·i 'I will not announce'. smi 'report, announce' is bolt s and the lung-and-windpipe sign (here for sm), reed i, the man with hand to mouth (speech) and ·i 'I'; tw (loaf t, quail chick w) is the dependent pronoun 'you', the object. in N after a speech is 'says N'. iry-ꜥꜣ 'doorkeeper', literally 'the one belonging to the door', joins two of Budge's groups as one word: the guardian figure for iry (coded A47, an approximation of a wrapped man with a stick), then ꜥꜣ 'door', the column ꜥꜣ over a hatched door-leaf (coded O31 as the nearest sign) and the branch of wood. wsḫt 'hall' is the hall-plan alone; ṯn is the feminine 'this' in its older form with ṯ. n-is (water n, reed i, bolt s) is 'unless, except' (n 'not' + the particle is), followed by the sḏm·n·f ḏd·n·k 'you have said': ḏd 'say' (cobra, hand), the n that marks the completed action, ·k 'you'.",
+   "words": [
+    {
+     "reading": "nn",
+     "say": "nen",
+     "q": "0:1",
+     "glyphs": [
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nn",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "smi·i",
+     "say": "semii",
+     "glyphs": [
+      {
+       "sign": "S29",
+       "role": "comp",
+       "tr": "s"
+      },
+      {
+       "sign": "F36",
+       "role": "phon",
+       "tr": "sm"
+      },
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "A2",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "A1",
+       "role": "suff",
+       "tr": "·i"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "smi",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "·i",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tw",
+     "say": "tu",
+     "glyphs": [
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tw",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "in",
+     "say": "in",
+     "q": "0:1",
+     "glyphs": [
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "in",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "iry-ꜥꜣ",
+     "say": "iry-aa",
+     "q": "0-1:2:3",
+     "glyphs": [
+      {
+       "sign": "A47",
+       "role": "log",
+       "tr": "iry",
+       "approx": true
+      },
+      {
+       "sign": "O29",
+       "role": "phon",
+       "tr": "ꜥꜣ"
+      },
+      {
+       "sign": "O31",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "M3",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "iry-ꜥꜣ",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "n",
+     "say": "en",
+     "glyphs": [
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ny",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wsḫt",
+     "say": "usekhet",
+     "glyphs": [
+      {
+       "sign": "O15",
+       "role": "log",
+       "tr": "wsḫt"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wsḫt",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ṯn",
+     "say": "tjen",
+     "q": "0:1",
+     "glyphs": [
+      {
+       "sign": "V13",
+       "role": "phon",
+       "tr": "ṯ"
+      },
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tn",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "n-is",
+     "say": "en-is",
+     "q": "0:1*2",
+     "glyphs": [
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "S29",
+       "role": "phon",
+       "tr": "s"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "n-is",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḏd·n·k",
+     "say": "djedenek",
+     "q": "0:1-2:3",
+     "glyphs": [
+      {
+       "sign": "I10",
+       "role": "phon",
+       "tr": "ḏ"
+      },
+      {
+       "sign": "D46",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "sign": "V31",
+       "role": "suff",
+       "tr": "·k"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḏd",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "sḏm·n·f",
+       "g": [
+        2
+       ]
+      },
+      {
+       "lemma": "·k",
+       "g": [
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "rn·i",
+     "say": "reni",
+     "q": "0:1-2-3",
+     "glyphs": [
+      {
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "sign": "A2",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "A1",
+       "role": "suff",
+       "tr": "·i"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rn",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "·i",
+       "g": [
+        3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 42,
+   "p": true,
+   "l": "perceiver · of-hearts · searcher · of-bellies · (is) · name · your",
+   "i": "'He who discerns hearts and searches bodies' is your name.",
+   "n": "Two participles, each with its object, make the doorkeeper's name. siꜣ 'perceive, discern' is the fringed cloth siꜣ (the type's sign is doubtful, coded S32) with ꜣ as complement and the man with hand to mouth; ibw 'hearts' is the heart-jar ib with its stroke and plural strokes. ḏꜥr 'search out, investigate' is cobra ḏ, arm ꜥ, mouth r, a thin stroke (coded Z1, perhaps another stroke) and the walking legs. ẖt 'belly, body' is the belly-with-teats sign ẖ with t and plural strokes, 'bellies': the inner self, as the heart is (Budge reads it as a different word). The heart and the belly were where a person's thoughts and deeds were thought to lie, and the judge of the dead looks into both.",
+   "words": [
+    {
+     "reading": "siꜣ",
+     "say": "sia",
+     "glyphs": [
+      {
+       "sign": "S32",
+       "role": "log",
+       "tr": "siꜣ"
+      },
+      {
+       "sign": "G1",
+       "role": "comp",
+       "tr": "ꜣ"
+      },
+      {
+       "sign": "A2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "siꜣ",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ibw",
+     "say": "ibu",
+     "q": "0:1-2",
+     "glyphs": [
+      {
+       "sign": "F34",
+       "role": "log",
+       "tr": "ib"
+      },
+      {
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "Z3",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ib",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḏꜥr",
+     "say": "djaer",
+     "q": "0:1:2-3-4",
+     "glyphs": [
+      {
+       "sign": "I10",
+       "role": "phon",
+       "tr": "ḏ"
+      },
+      {
+       "sign": "D36",
+       "role": "phon",
+       "tr": "ꜥ"
+      },
+      {
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "sign": "Z1",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      },
+      {
+       "sign": "D54",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḏꜥr",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ẖt",
+     "say": "khet",
+     "q": "0:1*2",
+     "glyphs": [
+      {
+       "sign": "F32",
+       "role": "log",
+       "tr": "ẖ"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ẖt",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "rn·k",
+     "say": "renek",
+     "q": "0:1-2-3",
+     "glyphs": [
+      {
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "sign": "A2",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "V31",
+       "role": "suff",
+       "tr": "·k"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rn",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "·k",
+       "g": [
+        3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 43,
+   "p": true,
+   "l": "will-announce · I · you · then",
+   "i": "Then I will announce you.",
+   "n": "smi·i tw, as just before but without nn: 'I will announce you'. ir·f (reed, mouth, horned viper ·f) is the particle 'then', r with the suffix ·f, which stands after the words it qualifies.",
+   "words": [
+    {
+     "reading": "smi·i",
+     "say": "semii",
+     "glyphs": [
+      {
+       "sign": "S29",
+       "role": "comp",
+       "tr": "s"
+      },
+      {
+       "sign": "F36",
+       "role": "phon",
+       "tr": "sm"
+      },
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "A2",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "A1",
+       "role": "suff",
+       "tr": "·i"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "smi",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "·i",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tw",
+     "say": "tu",
+     "glyphs": [
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tw",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ir·f",
+     "say": "iref",
+     "q": "0-1:2",
+     "glyphs": [
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "sign": "I9",
+       "role": "suff",
+       "tr": "·f"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "r",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "·f",
+       "g": [
+        2
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 43,
+   "l": "who · (is) · the-god · who-is-in · hour · his · say · you · it",
+   "i": "Who is the god who is in his hour? Tell it.",
+   "n": "nm 'who?' is water n and the owl m, with the arm ꜥ joined to the owl in one ligature (a later spelling, as in mk; Budge's nimā). The n after it is taken as the particle in, written without its reed, that marks the subject ('who is it, the god …'); it is not clear. nṯr 'god' is the flag with the seated god. imy 'who is in' is the nisba of m: reed, the rib-sign im, m as complement and the strokes y. wnwt 'hour' is the hare wn with n, the pot nw (here giving w), loaf t, the star and the sun with a stroke as classifiers of time, and ·f 'his'. ḏd·k st, 'you should say it', is the sḏm·f used as a command; st (bolt s, loaf t) is the dependent pronoun 'it'.",
+   "words": [
+    {
+     "reading": "nm",
+     "say": "nem",
+     "q": "0-1*2",
+     "glyphs": [
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "sign": "G17",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "sign": "D36",
+       "role": "phon",
+       "tr": "ꜥ"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nm",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "in",
+     "say": "in",
+     "glyphs": [
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "in",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nṯr",
+     "say": "netjer",
+     "glyphs": [
+      {
+       "sign": "R8",
+       "role": "phon",
+       "tr": "nṯr"
+      },
+      {
+       "sign": "A40",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nṯr",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "imy",
+     "say": "imy",
+     "glyphs": [
+      {
+       "sign": "M17",
+       "role": "comp",
+       "tr": "i"
+      },
+      {
+       "sign": "Z11",
+       "role": "phon",
+       "tr": "im"
+      },
+      {
+       "sign": "G17",
+       "role": "comp",
+       "tr": "m"
+      },
+      {
+       "sign": "Z4",
+       "role": "phon",
+       "tr": "y"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "imy",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wnwt·f",
+     "say": "wenutef",
+     "q": "0:1:2*3-4:5*6-7",
+     "glyphs": [
+      {
+       "sign": "E34",
+       "role": "phon",
+       "tr": "wn"
+      },
+      {
+       "sign": "N35",
+       "role": "comp",
+       "tr": "n"
+      },
+      {
+       "sign": "W24",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "N14",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "N5",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "I9",
+       "role": "suff",
+       "tr": "·f"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wnwt",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+       ]
+      },
+      {
+       "lemma": "·f",
+       "g": [
+        7
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḏd·k",
+     "say": "djedek",
+     "q": "0:1-2",
+     "glyphs": [
+      {
+       "sign": "I10",
+       "role": "phon",
+       "tr": "ḏ"
+      },
+      {
+       "sign": "D46",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "sign": "V31",
+       "role": "suff",
+       "tr": "·k"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḏd",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "·k",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "st",
+     "say": "set",
+     "q": "0:1",
+     "glyphs": [
+      {
+       "sign": "O34",
+       "role": "phon",
+       "tr": "s"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "st",
+       "g": [
+        0,
+        1
+       ],
+       "gloss": "it, them (3rd person dependent pronoun, object of a verb; same spelling as st \"place\")"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 43,
+   "p": true,
+   "l": "it-is · the-Mau(?) · of-the-Two-Lands",
+   "i": "It is the Mau(?) of the Two Lands.",
+   "n": "in (water n alone again) answers the question in the same form: 'it is …'. The first sign of the next word is not clear in the type: a broad arch with a small ring on top, coded W19 (the jug in its net, mi) as the nearest; then vulture ꜣ, quail chick w, and the man with hand to mouth and the seated man as classifiers — a man known by what he says. The reading mꜣw is a guess from these signs (Budge reads māau and makes it a title of a recorder or reporter); the word is not identified and is left as a title, Mau. tꜣwy 'the Two Lands', Upper and Lower Egypt, is the land-sign tꜣ written twice for the dual. Thoth, as the next lines show, is meant.",
+   "words": [
+    {
+     "reading": "in",
+     "say": "in",
+     "glyphs": [
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "in",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mꜣw",
+     "say": "mau",
+     "glyphs": [
+      {
+       "sign": "W19",
+       "role": "phon",
+       "tr": "m",
+       "approx": true
+      },
+      {
+       "sign": "G1",
+       "role": "phon",
+       "tr": "ꜣ"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "sign": "A2",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "A1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mꜣw",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tꜣwy",
+     "say": "tawy",
+     "q": "0:1",
+     "glyphs": [
+      {
+       "sign": "N16",
+       "role": "log",
+       "tr": "tꜣ"
+      },
+      {
+       "sign": "N16",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tꜣ",
+       "g": [
+        0,
+        1
+       ],
+       "gloss": "land, earth (noun; dual tꜣwy \"the Two Lands\", Egypt; tp tꜣ \"upon earth\")"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 43,
+   "p": true,
+   "l": "who · then · (is) · he · the-Mau(?) · of-the-Two-Lands",
+   "i": "Who, then, is he, the Mau(?) of the Two Lands?",
+   "n": "pty 'who? what?' (stool p, loaf t, strokes y) and the particle tr 'then', which strengthens a question, are printed by Budge as one group; they are split here as two words. The sign of tr (a tall curved stalk on a small base) is only approximated by its code (M6), and the man with hand to mouth follows as classifier. sw (the sedge sw with w) is the dependent pronoun 'he', the subject; mꜣw tꜣwy stands after it in apposition, the title as before, its reading still doubtful.",
+   "words": [
+    {
+     "reading": "pty",
+     "say": "pety",
+     "q": "0:1*2",
+     "glyphs": [
+      {
+       "sign": "Q3",
+       "role": "phon",
+       "tr": "p"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "Z4",
+       "role": "phon",
+       "tr": "y"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "pty",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tr",
+     "say": "ter",
+     "q": "0-1",
+     "glyphs": [
+      {
+       "sign": "M6",
+       "role": "phon",
+       "tr": "tr",
+       "approx": true
+      },
+      {
+       "sign": "A2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tr",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "sw",
+     "say": "su",
+     "glyphs": [
+      {
+       "sign": "M23",
+       "role": "phon",
+       "tr": "sw"
+      },
+      {
+       "sign": "G43",
+       "role": "comp",
+       "tr": "w"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "sw",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mꜣw",
+     "say": "mau",
+     "glyphs": [
+      {
+       "sign": "W19",
+       "role": "phon",
+       "tr": "m",
+       "approx": true
+      },
+      {
+       "sign": "G1",
+       "role": "phon",
+       "tr": "ꜣ"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "sign": "A2",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "A1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mꜣw",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tꜣwy",
+     "say": "tawy",
+     "q": "0:1",
+     "glyphs": [
+      {
+       "sign": "N16",
+       "role": "log",
+       "tr": "tꜣ"
+      },
+      {
+       "sign": "N16",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tꜣ",
+       "g": [
+        0,
+        1
+       ],
+       "gloss": "land, earth (noun; dual tꜣwy \"the Two Lands\", Egypt; tp tꜣ \"upon earth\")"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 44,
+   "p": true,
+   "l": "Thoth · (it) · is",
+   "i": "It is Thoth.",
+   "n": "A pw 'it is A', the commonest nominal sentence: the noun, then pw (stool p, quail chick w). ḏḥwty, Thoth, is written with his sacred bird, the ibis on its standard, and the seated god (Budge: Teḥuti). Thoth, the god of writing and reckoning, is the one who reports to Osiris the result of the weighing of the heart.",
+   "words": [
+    {
+     "reading": "ḏḥwty",
+     "say": "Thoth",
+     "glyphs": [
+      {
+       "sign": "G26",
+       "role": "log",
+       "tr": "ḏḥwty"
+      },
+      {
+       "sign": "A40",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḏḥwty",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "pw",
+     "say": "pu",
+     "glyphs": [
+      {
+       "sign": "Q3",
+       "role": "phon",
+       "tr": "p"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "pw",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 44,
+   "p": true,
+   "l": "come · says · Thoth · have-come · you · for · what",
+   "i": "'Come,' says Thoth. 'Why have you come?'",
+   "n": "mi 'come!' is the imperative used for iwi 'come': owl m with the arm ꜥ in the ligature of the later spelling, reed i, walking legs. in 'says' is written here with reed i and a second sign that Budge reads as the fish in; in the type it looks like a hooked stick crossing a straight one (coded K1, the fish, as the sign with the value in; the shape is unmatched). ii·n·k 'you have come' is the sḏm·n·f of ii (reed-leaf, reed and strokes for the second i, walking legs, n, ·k). r m 'for what?, why?' is the preposition r with the interrogative m 'what', again with the owl-and-arm ligature; Budge was unsure of it.",
+   "words": [
+    {
+     "reading": "mi",
+     "say": "mi",
+     "q": "0*1-2-3",
+     "glyphs": [
+      {
+       "sign": "G17",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "sign": "D36",
+       "role": "phon",
+       "tr": "ꜥ"
+      },
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "D54",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mi",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "in",
+     "say": "in",
+     "glyphs": [
+      {
+       "sign": "M17",
+       "role": "comp",
+       "tr": "i"
+      },
+      {
+       "sign": "K1",
+       "role": "phon",
+       "tr": "in",
+       "approx": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "in",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḏḥwty",
+     "say": "Thoth",
+     "glyphs": [
+      {
+       "sign": "G26",
+       "role": "log",
+       "tr": "ḏḥwty"
+      },
+      {
+       "sign": "A40",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḏḥwty",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ii·n·k",
+     "say": "iienek",
+     "q": "0-1-2:3-4:5",
+     "glyphs": [
+      {
+       "sign": "M18",
+       "role": "phon",
+       "tr": "ii"
+      },
+      {
+       "sign": "M17",
+       "role": "comp",
+       "tr": "i"
+      },
+      {
+       "sign": "Z4",
+       "role": "comp",
+       "tr": "i"
+      },
+      {
+       "sign": "D54",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "sign": "V31",
+       "role": "suff",
+       "tr": "·k"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ii",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "sḏm·n·f",
+       "g": [
+        4
+       ]
+      },
+      {
+       "lemma": "·k",
+       "g": [
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "r",
+     "say": "er",
+     "glyphs": [
+      {
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "r",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "m",
+     "say": "em",
+     "glyphs": [
+      {
+       "sign": "G17",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "sign": "D36",
+       "role": "phon",
+       "tr": "ꜥ"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "m",
+       "g": [
+        0,
+        1
+       ],
+       "gloss": "what? (interrogative pronoun; r m \"for what? why?\")"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 44,
+   "p": true,
+   "l": "have-come · I · here · to · report",
+   "i": "I have come here to make report.",
+   "n": "The dead answer in Thoth's own form, ii·n·i 'I have come'. ꜥꜣ 'here, hither' is the column ꜥꜣ with the arm ꜥ as complement and a long table-like sign (coded R3, an approximation) as classifier; it is read as in the introduction's ii·n·i ꜥꜣ, and Budge again takes it as a verb of motion. r + infinitive gives purpose: smit is the infinitive of smi 'report, announce' with its feminine t, 'to report' — to be announced by Thoth and to give account of oneself.",
+   "words": [
+    {
+     "reading": "ii·n·i",
+     "say": "iieni",
+     "q": "0-1-2:3-4:5",
+     "glyphs": [
+      {
+       "sign": "M18",
+       "role": "phon",
+       "tr": "ii"
+      },
+      {
+       "sign": "M17",
+       "role": "comp",
+       "tr": "i"
+      },
+      {
+       "sign": "Z4",
+       "role": "comp",
+       "tr": "i"
+      },
+      {
+       "sign": "D54",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "sign": "A1",
+       "role": "suff",
+       "tr": "·i"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ii",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "sḏm·n·f",
+       "g": [
+        4
+       ]
+      },
+      {
+       "lemma": "·i",
+       "g": [
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ꜥꜣ",
+     "say": "aa",
+     "q": "0:1:2",
+     "glyphs": [
+      {
+       "sign": "O29",
+       "role": "phon",
+       "tr": "ꜥꜣ"
+      },
+      {
+       "sign": "D36",
+       "role": "comp",
+       "tr": "ꜥ"
+      },
+      {
+       "sign": "R3",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ꜥꜣ",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "r",
+     "say": "er",
+     "glyphs": [
+      {
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "r",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "smit",
+     "say": "semit",
+     "glyphs": [
+      {
+       "sign": "S29",
+       "role": "comp",
+       "tr": "s"
+      },
+      {
+       "sign": "F36",
+       "role": "phon",
+       "tr": "sm"
+      },
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "A2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "smi",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 44,
+   "p": true,
+   "l": "what · then · (is) · condition · your",
+   "i": "What, then, is your condition?",
+   "n": "pty tr 'what, then?' as before, split from Budge's one group. ḫrt 'condition, state; what belongs to one' is placenta ḫ, mouth r, loaf t, the papyrus roll of abstracts and plural strokes (the last printed as a broken thin line), with ·k 'your'. Thoth asks in what state the dead person comes.",
+   "words": [
+    {
+     "reading": "pty",
+     "say": "pety",
+     "q": "0:1*2",
+     "glyphs": [
+      {
+       "sign": "Q3",
+       "role": "phon",
+       "tr": "p"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "Z4",
+       "role": "phon",
+       "tr": "y"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "pty",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tr",
+     "say": "ter",
+     "q": "0-1",
+     "glyphs": [
+      {
+       "sign": "M6",
+       "role": "phon",
+       "tr": "tr",
+       "approx": true
+      },
+      {
+       "sign": "A2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tr",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫrt·k",
+     "say": "kheretek",
+     "q": "0:1:2-3-4-5",
+     "glyphs": [
+      {
+       "sign": "Aa1",
+       "role": "phon",
+       "tr": "ḫ"
+      },
+      {
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "Y1a",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "Z3",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "V31",
+       "role": "suff",
+       "tr": "·k"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫrt",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      },
+      {
+       "lemma": "·k",
+       "g": [
+        5
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 44,
+   "p": true,
+   "l": "I · pure · from · evil · all",
+   "i": "I am pure of all evil.",
+   "n": "iw·i + the stative: 'I am pure'. wꜥb 'be pure' is the man pouring water from a jar over himself (wꜥb), with three water-lines as classifiers; the stative ending ·kwi 'I (am)' is basket k, quail chick w and a single stroke for i. m 'from' after a word of purity is 'free of'. ḫww 'evil, wrongdoing' is placenta ḫ, the arm-sign ḫw (drawn in the type as a forearm with the hand down; coded D41, an approximation), w, and the small bird of bad things with plural strokes. nb 'all' follows its noun.",
+   "words": [
+    {
+     "reading": "iw·i",
+     "say": "iui",
+     "glyphs": [
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "sign": "A1",
+       "role": "suff",
+       "tr": "·i"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "iw",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "·i",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wꜥb·kwi",
+     "say": "uabkwi",
+     "q": "0-1:2:3-4:5*6",
+     "glyphs": [
+      {
+       "sign": "D60",
+       "role": "log",
+       "tr": "wꜥb"
+      },
+      {
+       "sign": "N35",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "N35",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "N35",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "V31",
+       "role": "suff",
+       "tr": "·k"
+      },
+      {
+       "sign": "G43",
+       "role": "suff",
+       "tr": "w"
+      },
+      {
+       "sign": "Z1",
+       "role": "suff",
+       "tr": "i"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wꜥb",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "·kwi",
+       "g": [
+        4,
+        5,
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "m",
+     "say": "em",
+     "glyphs": [
+      {
+       "sign": "G17",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "m",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫww",
+     "say": "khuu",
+     "q": "0:1-2-3:4",
+     "glyphs": [
+      {
+       "sign": "Aa1",
+       "role": "comp",
+       "tr": "ḫ"
+      },
+      {
+       "sign": "D41",
+       "role": "phon",
+       "tr": "ḫw",
+       "approx": true
+      },
+      {
+       "sign": "G43",
+       "role": "comp",
+       "tr": "w"
+      },
+      {
+       "sign": "G37",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫww",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nb",
+     "say": "neb",
+     "glyphs": [
+      {
+       "sign": "V30",
+       "role": "phon",
+       "tr": "nb"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nb",
+       "g": [
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 45,
+   "l": "(I) · protected · (myself) · from · hostile-acts · of · those-who-are-in · days · their · not · I · among · them",
+   "i": "I have kept myself safe from the hostile acts of those who live out their days; I am not among them.",
+   "n": "ḫwi 'protect, guard' is written with the same signs as ḫww 'evil' above, with the papyrus roll; then n and ·i: the sḏm·n·f 'I have protected (myself)'. A w stands between the n and the seated man that has no place in this form; it may show that the copy meant the stative (ending k-w-i), and the reading is uncertain. The iw before it has no suffix of its own. šntt is the looped cord šn with n, two loaves t, the bird of bad things and plural strokes: a feminine noun of hostility, from the same root as šnṯ 'revile, quarrel' (Budge: śentet). imyw hrw·sn 'those who are in their days' — imyw, plural of imy, and hrw 'day' (courtyard h, r, w, the sun and plural strokes) with ·sn 'their' (bolt, water, plural strokes) — are the living on earth, whose days are still running. nn twi m-m·sn 'I am not among them': nn negates the sentence without a verb; twi (t, w and the seated man) is the later form of the pronoun 'I'; m-m 'among' is the owl twice, the second joined to the arm ꜥ in the ligature.",
+   "words": [
+    {
+     "reading": "iw",
+     "say": "iu",
+     "glyphs": [
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "iw",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫw·n·i",
+     "say": "khueni",
+     "q": "0:1-2-3-4:5*6",
+     "glyphs": [
+      {
+       "sign": "Aa1",
+       "role": "comp",
+       "tr": "ḫ"
+      },
+      {
+       "sign": "D41",
+       "role": "phon",
+       "tr": "ḫw",
+       "approx": true
+      },
+      {
+       "sign": "G43",
+       "role": "comp",
+       "tr": "w"
+      },
+      {
+       "sign": "Y1a",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "sign": "A1",
+       "role": "suff",
+       "tr": "·i"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫwi",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "sḏm·n·f",
+       "g": [
+        4,
+        5
+       ]
+      },
+      {
+       "lemma": "·i",
+       "g": [
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "m",
+     "say": "em",
+     "glyphs": [
+      {
+       "sign": "G17",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "m",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "šntt",
+     "say": "shenetet",
+     "q": "0:1:2*3-4:5",
+     "glyphs": [
+      {
+       "sign": "V7",
+       "role": "phon",
+       "tr": "šn"
+      },
+      {
+       "sign": "N35",
+       "role": "comp",
+       "tr": "n"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "G37",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šnt",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nt",
+     "say": "net",
+     "q": "0:1",
+     "glyphs": [
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ny",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "imyw",
+     "say": "imyu",
+     "glyphs": [
+      {
+       "sign": "M17",
+       "role": "comp",
+       "tr": "i"
+      },
+      {
+       "sign": "Z11",
+       "role": "phon",
+       "tr": "im"
+      },
+      {
+       "sign": "G17",
+       "role": "comp",
+       "tr": "m"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "sign": "Z3",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "imy",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "hrw·sn",
+     "say": "herusen",
+     "q": "0:1-2-3:4-5:6:7",
+     "glyphs": [
+      {
+       "sign": "O4",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "sign": "N5",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "O34",
+       "role": "suff",
+       "tr": "·z"
+      },
+      {
+       "sign": "N35",
+       "role": "suff",
+       "tr": "n"
+      },
+      {
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "hrw",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ],
+       "gloss": "day (noun; plural hrw)"
+      },
+      {
+       "lemma": "·sn",
+       "g": [
+        5,
+        6,
+        7
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nn",
+     "say": "nen",
+     "q": "0:1",
+     "glyphs": [
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nn",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "twi",
+     "say": "tui",
+     "glyphs": [
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "sign": "A1",
+       "role": "suff",
+       "tr": "i"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "twi",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "m-m·sn",
+     "say": "em-emsen",
+     "q": "0-1*2-3:4:5",
+     "glyphs": [
+      {
+       "sign": "G17",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "sign": "G17",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "sign": "D36",
+       "role": "phon",
+       "tr": "ꜥ"
+      },
+      {
+       "sign": "O34",
+       "role": "suff",
+       "tr": "·z"
+      },
+      {
+       "sign": "N35",
+       "role": "suff",
+       "tr": "n"
+      },
+      {
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "m-m",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "·sn",
+       "g": [
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 45,
+   "p": true,
+   "l": "will-announce · I · then · you",
+   "i": "Then I will announce you.",
+   "n": "Thoth's words repeat the doorkeeper's, with the particle ir·f standing before the object tw this time. Budge takes smi in all these lines as 'question, examine'; the man with hand to mouth marks a word of speaking, and 'report, announce' fits each place it comes.",
+   "words": [
+    {
+     "reading": "smi·i",
+     "say": "semii",
+     "glyphs": [
+      {
+       "sign": "S29",
+       "role": "comp",
+       "tr": "s"
+      },
+      {
+       "sign": "F36",
+       "role": "phon",
+       "tr": "sm"
+      },
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "A2",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "A1",
+       "role": "suff",
+       "tr": "·i"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "smi",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "·i",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ir·f",
+     "say": "iref",
+     "q": "0-1:2",
+     "glyphs": [
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "sign": "I9",
+       "role": "suff",
+       "tr": "·f"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "r",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "·f",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tw",
+     "say": "tu",
+     "glyphs": [
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tw",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 46,
+   "l": "who · (is it) · goes-down · into · the-flame · walls · its · (are) · of · uraei · being · floor · his · in · Nun · waters(?)",
+   "i": "Who is it that goes down into the flame whose walls are uraei, his floor being in the waters(?) of Nun?",
+   "n": "nm in 'who is it that …' as before, with a participle: hꜣt (courtyard h, two vultures ꜣ, loaf t, walking legs) is from hꜣi 'go down'; the t is unexpected, and the form is not certain. sḏt 'flame, fire' is taken from the crossed sticks (here for sḏ), t and a flame-like sign (coded Q7); Budge reads seśet. inbwt·s 'its walls': reed and fish in with n as complement, b, w, t, the wall and a canal-like sign (coded N23, an approximation) as classifiers, plural strokes, and ·s 'its' (the folded cloth s, the feminine suffix: the flame's walls). m iꜥrwt 'of uraei': iꜥrt is the uraeus, the rearing cobra of the royal brow (reed, arm, mouth, t, w, cobra, plural), so the walls are living fire-spitting snakes. wnnw sꜣtw·f 'his floor being …': wnn 'be' (hare wn, n, n, the pot, w, plural strokes) and sꜣtw 'ground, floor' (pintail sꜣ, t, w, canal-sign, plural strokes, house and stroke), with ·f 'his', the one who goes down. nnw is Nun, the primeval water (water n, the adze nw, approximated, and the pot nw). The last word, quail chick w and two reeds with three water-lines, a pool and the canal-sign, is a word for a body of water that cannot be identified; Budge takes it as 'lake'. The whole question is obscure.",
+   "words": [
+    {
+     "reading": "nm",
+     "say": "nem",
+     "q": "0-1*2",
+     "glyphs": [
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "sign": "G17",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "sign": "D36",
+       "role": "phon",
+       "tr": "ꜥ"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nm",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "in",
+     "say": "in",
+     "glyphs": [
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "in",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "hꜣt",
+     "say": "hat",
+     "q": "0-1-2-3:4",
+     "glyphs": [
+      {
+       "sign": "O4",
+       "role": "phon",
+       "tr": "h"
+      },
+      {
+       "sign": "G1",
+       "role": "phon",
+       "tr": "ꜣ"
+      },
+      {
+       "sign": "G1",
+       "role": "comp",
+       "tr": "ꜣ"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "D54",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "hꜣi",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "m",
+     "say": "em",
+     "glyphs": [
+      {
+       "sign": "G17",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "m",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "sḏt",
+     "say": "sedjet",
+     "q": "0:1-2",
+     "glyphs": [
+      {
+       "sign": "Z9",
+       "role": "phon",
+       "tr": "sḏ"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "Q7",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "sḏt",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "inbwt·s",
+     "say": "inebutes",
+     "q": "0-1:2-3-4-5-6-7:8-9",
+     "glyphs": [
+      {
+       "sign": "M17",
+       "role": "comp",
+       "tr": "i"
+      },
+      {
+       "sign": "K1",
+       "role": "phon",
+       "tr": "in"
+      },
+      {
+       "sign": "N35",
+       "role": "comp",
+       "tr": "n"
+      },
+      {
+       "sign": "D58",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "O36",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "N23",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      },
+      {
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "S29",
+       "role": "suff",
+       "tr": "·s"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "inb",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+       ]
+      },
+      {
+       "lemma": "·s",
+       "g": [
+        9
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "m",
+     "say": "em",
+     "glyphs": [
+      {
+       "sign": "G17",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "m",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "iꜥrwt",
+     "say": "iarut",
+     "q": "0-1:2:3-4-5-6",
+     "glyphs": [
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "D36",
+       "role": "phon",
+       "tr": "ꜥ"
+      },
+      {
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "sign": "I12",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "Z3",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "iꜥrt",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wnnw",
+     "say": "wenenu",
+     "q": "0:1:2-3-4-5",
+     "glyphs": [
+      {
+       "sign": "E34",
+       "role": "phon",
+       "tr": "wn"
+      },
+      {
+       "sign": "N35",
+       "role": "comp",
+       "tr": "n"
+      },
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "sign": "W24",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "sign": "G43",
+       "role": "comp",
+       "tr": "w"
+      },
+      {
+       "sign": "Z3",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wnn",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "sꜣtw·f",
+     "say": "satuef",
+     "q": "0-1-2-3:4-5:6-7",
+     "glyphs": [
+      {
+       "sign": "G39",
+       "role": "phon",
+       "tr": "sꜣ"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "sign": "N23",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      },
+      {
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "O1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "I9",
+       "role": "suff",
+       "tr": "·f"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "sꜣtw",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+       ]
+      },
+      {
+       "lemma": "·f",
+       "g": [
+        7
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "m",
+     "say": "em",
+     "glyphs": [
+      {
+       "sign": "G17",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "m",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "nnw",
+     "say": "Nenu",
+     "q": "0:1-2",
+     "glyphs": [
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "sign": "U19",
+       "role": "phon",
+       "tr": "nw",
+       "approx": true
+      },
+      {
+       "sign": "W24",
+       "role": "comp",
+       "tr": "nw"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nw",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wy",
+     "say": "wy",
+     "q": "0-1-2-3:4:5:6-7:8",
+     "glyphs": [
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "N35",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "N35",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "N35",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "N37",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "N23",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      },
+      {
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wy",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 46,
+   "p": true,
+   "l": "the-passer · (it) · is · Osiris · (it) · is",
+   "i": "It is the one who passes through: it is Osiris.",
+   "n": "Two A pw sentences. sby is a participle of sbi 'go, pass, travel': the bolt on splayed legs sb (coded O35), two reeds, and the papyrus roll as classifier. wsir, Osiris, puts the eye before the seat, as in the introduction, with the seated god. The one who goes down through the flame and the deep is Osiris himself.",
+   "words": [
+    {
+     "reading": "sby",
+     "say": "seby",
+     "glyphs": [
+      {
+       "sign": "O35",
+       "role": "phon",
+       "tr": "sb"
+      },
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "Y1a",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "sbi",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "pw",
+     "say": "pu",
+     "glyphs": [
+      {
+       "sign": "Q3",
+       "role": "phon",
+       "tr": "p"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "pw",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wsir",
+     "say": "Osiris",
+     "q": "0:1*2",
+     "glyphs": [
+      {
+       "sign": "D4",
+       "role": "phon",
+       "tr": "ir"
+      },
+      {
+       "sign": "Q1",
+       "role": "phon",
+       "tr": "ws"
+      },
+      {
+       "sign": "A40",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wsir",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "pw",
+     "say": "pu",
+     "glyphs": [
+      {
+       "sign": "Q3",
+       "role": "phon",
+       "tr": "p"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "pw",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 47,
+   "p": true,
+   "l": "proceed · then · behold · you · announced · (are) · you",
+   "i": "Go on, then: see, you are announced.",
+   "n": "wḏꜣ 'proceed, go on' (quail chick w, the fire-drill ḏꜣ with ꜣ, walking legs) is the imperative, followed by ir·k 'then, you' as in the floor's speech. mk 'see, behold' has the owl-and-arm ligature, as in the introduction, and the dependent pronoun tw 'you' after it; Budge prints them as one group, kept so here. smi·ṯi is the stative of smi with the 2nd singular ending ṯi (tethering rope, reed): 'you are announced' — the stative of a transitive verb is passive in sense.",
+   "words": [
+    {
+     "reading": "wḏꜣ",
+     "say": "wedja",
+     "glyphs": [
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "sign": "U28",
+       "role": "phon",
+       "tr": "ḏꜣ"
+      },
+      {
+       "sign": "G1",
+       "role": "comp",
+       "tr": "ꜣ"
+      },
+      {
+       "sign": "D54",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wḏꜣ",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ir·k",
+     "say": "irek",
+     "q": "0-1:2",
+     "glyphs": [
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "sign": "V31",
+       "role": "suff",
+       "tr": "·k"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "r",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "·k",
+       "g": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "mk-tw",
+     "say": "mek-tu",
+     "q": "0*1-2:3*4",
+     "glyphs": [
+      {
+       "sign": "G17",
+       "role": "phon",
+       "tr": "m"
+      },
+      {
+       "sign": "D36",
+       "role": "phon",
+       "tr": "ꜥ"
+      },
+      {
+       "sign": "V31",
+       "role": "phon",
+       "tr": "k"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mk",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "tw",
+       "g": [
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "smi·ṯi",
+     "say": "semitji",
+     "glyphs": [
+      {
+       "sign": "S29",
+       "role": "comp",
+       "tr": "s"
+      },
+      {
+       "sign": "F36",
+       "role": "phon",
+       "tr": "sm"
+      },
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "A2",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "V13",
+       "role": "suff",
+       "tr": "·ṯ"
+      },
+      {
+       "sign": "M17",
+       "role": "suff",
+       "tr": "i"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "smi",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "·ti",
+       "g": [
+        4,
+        5
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 47,
+   "l": "(is) · bread · your · from · the-Sound-Eye · beer · from · the-Sound-Eye",
+   "i": "Your bread is from the Sound Eye, (your) beer from the Sound Eye.",
+   "n": "iw + subject + adverbial phrase, with no verb. t 'bread' is the loaf t with two classifiers that the type does not show clearly (a round-topped loaf in a cup, coded X8, and a long roll, coded X4, both approximations) and plural strokes; Budge reads tau. wḏꜣt, the 'Sound Eye' of Horus (quail chick w, fire-drill ḏꜣ, ꜣ, t, and the painted eye), torn out by Seth and made whole again, stands for every offering given to the dead. ḥnqt 'beer' is wick ḥ, hill q and t with the beer-jug and plural strokes; its n is not written. No 'your' is written with it: Budge supplies it in brackets. The second m is the horizontal sign used for m, and the second wḏꜣt is written w, ḏꜣ and the eye alone.",
+   "words": [
+    {
+     "reading": "iw",
+     "say": "iu",
+     "glyphs": [
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "iw",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "t·k",
+     "say": "tek",
+     "q": "0:1-2:3-4",
+     "glyphs": [
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "X8",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      },
+      {
+       "sign": "X4",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      },
+      {
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "V31",
+       "role": "suff",
+       "tr": "·k"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "t",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "·k",
+       "g": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "m",
+     "say": "em",
+     "glyphs": [
+      {
+       "sign": "G17",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "m",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wḏꜣt",
+     "say": "wedjat",
+     "glyphs": [
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "sign": "U28",
+       "role": "phon",
+       "tr": "ḏꜣ"
+      },
+      {
+       "sign": "G1",
+       "role": "comp",
+       "tr": "ꜣ"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "D10",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wḏꜣt",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḥnqt",
+     "say": "henqet",
+     "q": "0-1:2-3:4",
+     "glyphs": [
+      {
+       "sign": "V28",
+       "role": "phon",
+       "tr": "ḥ"
+      },
+      {
+       "sign": "N29",
+       "role": "phon",
+       "tr": "q"
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "W22",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḥnqt",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "m",
+     "say": "em",
+     "glyphs": [
+      {
+       "sign": "Aa15",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "m",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wḏꜣt",
+     "say": "wedjat",
+     "glyphs": [
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "sign": "U28",
+       "role": "phon",
+       "tr": "ḏꜣ"
+      },
+      {
+       "sign": "D10",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wḏꜣt",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 47,
+   "l": "goes-forth · for · you · the-voice(-offering) · upon · earth · from · the-Sound-Eye",
+   "i": "The voice-offering goes out for you on earth from the Sound Eye.",
+   "n": "pr·tw is pri 'go out, come forth' (house pr, r, walking legs) with the ending tw (t, w) of the sḏm·tw·f, the passive or impersonal form: 'there is a going out'. Its subject ḫrw 'voice' (the oar ḫrw with w, a bread-roll as classifier, coded X4, approximated, and plural strokes) stands after n·k 'for you'. The bread classifier shows what is meant: prt-ḫrw, the 'going out of the voice', the offering made by speaking the offering formula at the tomb, by which bread and beer reach the dead. tp tꜣ 'upon earth' is the head tp and the land sign tꜣ: from the living. Budge reads the verb as a passive 'are brought out', which comes to the same.",
+   "words": [
+    {
+     "reading": "iw",
+     "say": "iu",
+     "glyphs": [
+      {
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "iw",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "pr·tw",
+     "say": "pertu",
+     "q": "0:1:2-3:4",
+     "glyphs": [
+      {
+       "sign": "O1",
+       "role": "phon",
+       "tr": "pr"
+      },
+      {
+       "sign": "D21",
+       "role": "comp",
+       "tr": "r"
+      },
+      {
+       "sign": "D54",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "sign": "Z7",
+       "role": "phon",
+       "tr": "w"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "pri",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "sḏm·tw·f",
+       "g": [
+        3,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "n·k",
+     "say": "nek",
+     "q": "0:1",
+     "glyphs": [
+      {
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "sign": "V31",
+       "role": "suff",
+       "tr": "·k"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "n",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "·k",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "ḫrw",
+     "say": "kheru",
+     "q": "0-1-2:3",
+     "glyphs": [
+      {
+       "sign": "P8",
+       "role": "log",
+       "tr": "ḫrw"
+      },
+      {
+       "sign": "Z7",
+       "role": "comp",
+       "tr": "w"
+      },
+      {
+       "sign": "X4",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      },
+      {
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫrw",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tp",
+     "say": "tep",
+     "q": "0:1",
+     "glyphs": [
+      {
+       "sign": "D1",
+       "role": "log",
+       "tr": "tp"
+      },
+      {
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tp",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "tꜣ",
+     "say": "ta",
+     "glyphs": [
+      {
+       "sign": "N16",
+       "role": "log",
+       "tr": "tꜣ"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tꜣ",
+       "g": [
+        0
+       ],
+       "gloss": "land, earth (noun; dual tꜣwy \"the Two Lands\", Egypt; tp tꜣ \"upon earth\")"
+      }
+     ]
+    },
+    {
+     "reading": "m",
+     "say": "em",
+     "glyphs": [
+      {
+       "sign": "Aa15",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "m",
+       "g": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "wḏꜣt",
+     "say": "wedjat",
+     "glyphs": [
+      {
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "sign": "U28",
+       "role": "phon",
+       "tr": "ḏꜣ"
+      },
+      {
+       "sign": "D10",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wḏꜣt",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ln": 47,
+   "l": "has-decreed(?) · he · it · for · me",
+   "i": "He has decreed it (?) for me.",
+   "n": "Budge leaves the first group untransliterated, printing dots. It is a staff with a loop at its foot crossed by a horned viper, then two strokes: the staff is taken as the cord-on-stick wḏ 'command, decree' (coded V25, an approximation), the viper as ·f 'he' (the sḏm·f), and the two strokes are not explained. sw (sedge, w) is then the dependent pronoun 'it', the object, and r·i (mouth r, seated man) 'for me' or 'concerning me'. 'He' is perhaps Thoth or Osiris; the sentence is doubtful in reading and sense. These are the last words of the address in the papyrus Budge follows.",
+   "words": [
+    {
+     "reading": "wḏ·f",
+     "say": "wedjef",
+     "q": "0*1-2",
+     "glyphs": [
+      {
+       "sign": "V25",
+       "role": "phon",
+       "tr": "wḏ",
+       "approx": true
+      },
+      {
+       "sign": "I9",
+       "role": "suff",
+       "tr": "·f"
+      },
+      {
+       "sign": "Z4",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wḏ",
+       "g": [
+        0,
+        2
+       ]
+      },
+      {
+       "lemma": "·f",
+       "g": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "sw",
+     "say": "su",
+     "glyphs": [
+      {
+       "sign": "M23",
+       "role": "phon",
+       "tr": "sw"
+      },
+      {
+       "sign": "Z7",
+       "role": "comp",
+       "tr": "w"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "sw",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "reading": "r·i",
+     "say": "eri",
+     "glyphs": [
+      {
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "sign": "A1",
+       "role": "suff",
+       "tr": "·i"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "r",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "·i",
+       "g": [
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

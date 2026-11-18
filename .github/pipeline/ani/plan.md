@@ -7,7 +7,7 @@
 | ani-125-introduction | Spell 125 — entering the Hall of the Two Truths | Budge pp. 189–193 | published |
 | ani-125-address | Spell 125 — the address to the gods (supplement: not on Ani's papyrus) | Budge pp. 203–212, Appendix | published |
 | ani-125-rubric | Spell 125 — the rubric | Budge pp. 222–224 | published |
-| ani-hymn-to-ra | Hymn to Ra at his rising | Budge pp. 1–4 | todo |
+| ani-hymn-to-ra | Hymn to Ra at his rising | Budge pp. 1–4 | established |
 | ani-hymn-to-osiris | Hymn to Osiris | Budge pp. 8–10 | todo |
 | ani-weighing-of-the-heart | The weighing of the heart | Budge pp. 11–16 | todo |
 | ani-001-a | Spell 1, first half | Budge pp. 17–20 | todo |

@@ -1602,3 +1602,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Names romanised for the first time: Ṣabbāḥ ibn Rammāḥ ibn Hammām (صباح, the Bedouin; vocalised صَبَّاح), Najma (نجمه, his cousin), Ghassān (the horse-thief), Kahrdāsh (the robber chief), al-Qātūl and al-Majnūn (the horse's names). Change them across the nights if you prefer other readings.
 - Library label: `Night 140 · King ʿUmar ibn al-Nuʿmān, continued`. Nothing to decide.
 - Next: night 141 (P674L07–P678L11) is complete and unpublished; the next firing should publish it.
+
+## Night 141 (published 2026-11-18)
+- No misprints corrected; emend.json unchanged.
+- Kept as printed with notes (doubtful, not corrected): P674L10 وهاش (read hāsha, "stormed"; sense a guess); P674L21 اخرج بي (causative plus bi-); P675L22 verse مِنِيْ (read minnī, "on my part"; munā possible); P676L02 verse وَطُوْلُ (printed nominative where ṭūla is expected); P676L19 لتطفى and جمرته (whose "ember" is unclear); P678L09 ووعدتها لك (read waʿadtuhā, the old woman speaking; waʿadat-hā possible).
+- Spelling and spacing kept: غمدة, هذة (ة for the pronoun), علي/حتي/جدى, لوقدر, العزّالي, and سعد انة (two printed words, romanised as one name, Saʿdāna, the old go-between, first appearance).
+- Narrator slips into the first person at P675L04 (فقلت له) and back at حدّثه; noted for the reader.
+- Library label: `Night 141 · King ʿUmar ibn al-Nuʿmān, continued`. Nothing to decide.
+- Next: night 142 (P678L12–) is not yet complete; the next firing should transcribe.

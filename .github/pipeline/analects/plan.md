@@ -15,7 +15,7 @@ owner's approval of the pilot, after which `analects` is added to `queue.txt`.
 | 7 | 述而 | 37 | 873 |
 | 8 | 泰伯 | 21 | 618 |
 | 9 | 子罕 | 30 | 806 |
-| 10 | 鄉黨 | 17 | 646 |
+| 10 | 鄉黨 | 18 | 646 |
 | 11 | 先進 | 25 | 1053 |
 | 12 | 顏淵 | 24 | 996 |
 | 13 | 子路 | 30 | 1035 |

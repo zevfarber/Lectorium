@@ -59,3 +59,13 @@ Recurring patterns flagged once, then left: be + verb, ī, u-š / u-šān, rāy,
    all manuscripts), which are not marked.
 5. For a run: 101 chapters; `parts.json` to be cut by chapter groups; the Roman reading of each page
    is model work from the page images, as the Nights and Popol Vuh are.
+
+## Script trial (2026-11-18) — Zev to choose
+Chapter 1 carries three more layers so he can compare on a phone: `wi` and `wp` = the `wr` letters set
+letter for letter in Inscriptional Pahlavi and Psalter Pahlavi (generated in `build.py`: `'` → waw,
+h → heth, E → he, c/C → sadhe, r/R/O/w → waw-ayin-resh, numbers in the script's own number signs), and
+`img` on the title, §1 and §2 = word images cut from Haug's print (`print-sample.json`, files under
+`img/arda-wiraz/001/`, story field `imgBase`). The reader's button cycles As read → Letters: Latin →
+Letters: inscription → Letters: psalter (state `mpView`). Fonts: Noto Sans Inscriptional Pahlavi and
+Noto Sans Psalter Pahlavi (OFL) in `fonts/`. Measured image cost: 29 words = 35 KB, so about 1.2 KB a
+word, roughly 11 MB for the whole book.

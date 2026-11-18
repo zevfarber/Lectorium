@@ -19,6 +19,39 @@ for x in U:
     for a,b in zip(toks,wr):
         spell.setdefault(a.lower(),[])
         if b not in spell[a.lower()]: spell[a.lower()].append(b)
+
+# ---- the written layer set in the two encoded sister scripts (trial, 2026-11-18) ----
+# Letter for letter from wr. Lower case = Persian spelling, capitals = Aramaic word-signs; both map to
+# the same letters. ' (the otiose final stroke) is set as waw, whose shape it has in the book hand.
+LET={'ʾ':'ALEPH','A':'ALEPH','b':'BETH','B':'BETH','g':'GIMEL','G':'GIMEL','d':'DALETH','D':'DALETH',
+     'E':'HE','w':'WAW-AYIN-RESH','W':'WAW-AYIN-RESH','O':'WAW-AYIN-RESH','r':'WAW-AYIN-RESH','R':'WAW-AYIN-RESH',
+     "'":'WAW-AYIN-RESH','z':'ZAYIN','Z':'ZAYIN','h':'HETH','H':'HETH','y':'YODH','Y':'YODH','k':'KAPH','K':'KAPH',
+     'l':'LAMEDH','L':'LAMEDH','m':'MEM-QOPH','M':'MEM-QOPH','Q':'MEM-QOPH','n':'NUN','N':'NUN','s':'SAMEKH','S':'SAMEKH',
+     'p':'PE','P':'PE','c':'SADHE','C':'SADHE','š':'SHIN','Š':'SHIN','t':'TAW','T':'TAW'}
+import unicodedata
+def num(n,script):
+    N=lambda x: unicodedata.lookup(script+' NUMBER '+x)
+    out=''
+    if n>=100: out+=num(n//100,script)+N('ONE HUNDRED'); n%=100
+    while n>=20: out+=N('TWENTY'); n-=20
+    if n>=10: out+=N('TEN'); n-=10
+    while n>=4: out+=N('FOUR'); n-=4
+    if n: out+=N({1:'ONE',2:'TWO',3:'THREE'}[n])
+    return out
+def setin(form,script):
+    out=''
+    for part in re.split(r'(\d+|-)',form):
+        if not part: continue
+        if part=='-': out+=' '
+        elif part.isdigit(): out+=num(int(part),script)
+        else:
+            for ch in part: out+=unicodedata.lookup(script+' LETTER '+LET[ch])
+    return out
+SAMPLE=json.load(open(os.path.join(HERE,'print-sample.json')))
+for i,d in enumerate(sents):
+    d['wi']=[setin(f,'INSCRIPTIONAL PAHLAVI') for f in d['wr']]
+    d['wp']=[setin(f,'PSALTER PAHLAVI') for f in d['wr']]
+    if str(i) in SAMPLE: d['img']=SAMPLE[str(i)]
 keys=sorted(spell)
 missing=[k for k in keys if k not in G]; extra=[k for k in G if k not in spell]
 assert not missing,missing
@@ -44,6 +77,7 @@ story={
  "source":open(os.path.join(HERE,'source.txt'),encoding='utf-8').read().strip(),
  "about":open(os.path.join(HERE,'about.txt'),encoding='utf-8').read().strip(),
  "glossaryFile":"arda-wiraz-glossary.json",
+ "imgBase":"img/arda-wiraz/001/",
  "sentences":sents}
 json.dump(story,open(os.path.join(ROOT,'arda-wiraz-001.json'),'w',encoding='utf-8'),ensure_ascii=False,indent=1)
 json.dump(gloss,open(os.path.join(ROOT,'arda-wiraz-glossary.json'),'w',encoding='utf-8'),ensure_ascii=False,indent=1)

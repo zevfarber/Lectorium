@@ -25,6 +25,8 @@
      CC BY 4.0 (Zenodo 10.5281/zenodo.8342382). SantakkuM imitates the monumental script of the
      Hammurabi stele; Santakku the OB cursive. Signs outside them fall back to Noto (Neo-Assyrian). */
   @font-face { font-family: 'Noto Sans Ugaritic'; src: url('fonts/NotoSansUgaritic-Regular.woff2') format('woff2'); font-display: swap; }
+  @font-face { font-family: 'Noto Sans Inscriptional Pahlavi'; src: url('fonts/NotoSansInscriptionalPahlavi-Regular.woff2') format('woff2'); font-display: swap; }
+  @font-face { font-family: 'Noto Sans Psalter Pahlavi'; src: url('fonts/NotoSansPsalterPahlavi-Regular.woff2') format('woff2'); font-display: swap; }
   @font-face { font-family: 'Noto Sans Phoenician'; src: url('fonts/NotoSansPhoenician-Regular.woff2') format('woff2'); font-display: swap; }
   @font-face { font-family: 'SantakkuM'; src: url('fonts/SantakkuM.woff') format('woff'); font-display: swap; }
   @font-face { font-family: 'Santakku';  src: url('fonts/Santakku.woff')  format('woff'); font-display: swap; }
@@ -190,6 +192,15 @@
   /* tashkil stacks above and below the letters, so Arabic needs far more leading than Latin;
      at the reader's default size, marks on adjacent lines collide without it. */
   .de.rtl .w { padding: 0 .06em; }
+  /* Middle Persian: the written layer set in the two encoded sister scripts, and word images of the print */
+  .de.mpscript { direction: rtl; text-align: right; unicode-bidi: isolate; }
+  .de.mpscript .w { padding: 0 .12em; }
+  .de.mp-insc { font-family: 'Noto Sans Inscriptional Pahlavi', 'Segoe UI Historic', serif; font-size: 1.6rem; line-height: 2; }
+  .de.mp-psal { font-family: 'Noto Sans Psalter Pahlavi', 'Segoe UI Historic', serif; font-size: 1.75rem; line-height: 2.1; }
+  .de.mpscript .lineno { margin-right: 0; margin-left: 10px; font-family: system-ui, sans-serif; direction: ltr; unicode-bidi: isolate; display: inline-block; }
+  .printline { direction: rtl; text-align: right; margin: 2px 0 6px; line-height: 0; }
+  .printline img { height: 3.1em; width: auto; margin: 0 .28em .2em; vertical-align: middle; }
+  .printline .cap { display: block; direction: ltr; text-align: right; font: .68rem/1.4 system-ui, sans-serif; color: var(--muted, #8a8172); margin-top: 2px; }
   .sent.rtlsent .translit { direction: ltr; text-align: left; }
   .sent.rtlsent .en, .sent.rtlsent .note, .sent.rtlsent .lit { direction: ltr; text-align: left; }
   /* the line-number / night marker belongs on the right in an RTL line */
@@ -892,9 +903,11 @@ function bareLettersHE(s){ return s.replace(/[\u0591-\u05BD\u05BF\u05C1\u05C2\u0
    driven by data, not by hardcoded language names — so new scripts just plug in.
    Old English: plainLetters (þ/ð→th, æ→ae, length marks hidden).
    Future (Egyptian etc.): scholarly→readable transliteration slots in the same way. */
+let mpView = 'read';          // Middle Persian: read | latin | insc | psal
 let activeSimplify = null;   // config for the current story, or null
 /* should the original text be folded right now? */
 function simplifyNow(){
+  if (activeSimplify && activeSimplify.cycle) return mpView !== 'read';
   return !!(plainMode && activeSimplify && activeSimplify.fn);
 }
 function simplifyConfig(story){
@@ -924,8 +937,10 @@ function simplifyConfig(story){
   // the scholars' transliteration — Aramaic word-signs in capitals (YMRRWNd, read gōwēnd), Persian
   // spellings in small letters. Off = the words as they were read aloud.
   if (story.sentences.some(x => Array.isArray(x.wr)))
-    return { label: 'As written', labelOn: 'As read', title: 'As written — the letters of the Pahlavi script for each word; CAPITALS are Aramaic word-signs that were read aloud as the Persian word',
-             titleOn: 'As read — back to the words as they were spoken', stateKey: 'writtenMP', fn: x => x };
+    return { cycle: ['read', 'latin', 'insc', 'psal'],
+             names: { read: 'As read', latin: 'Letters: Latin', insc: 'Letters: inscription', psal: 'Letters: psalter' },
+             title: 'Press to change how the text is shown: the words as read aloud; the letters of the script in Latin transliteration (CAPITALS are Aramaic word-signs); the same letters set in the Inscriptional Pahlavi alphabet; or in the Psalter Pahlavi alphabet',
+             stateKey: 'writtenMP', fn: x => x };
   if (story.sentences.some(x => Array.isArray(x.mt)))
     return { label: 'ꜩ→tz', labelOn: 'tz→ꜩ', title: 'Modern letters — the words in today\u2019s K\u2019iche\u2019 alphabet instead of the manuscript\u2019s colonial spelling (ꜩ ꜯ ꜭ ꜫ, v, z, h, c/qu)',
              titleOn: 'Manuscript letters — back to Ximénez\u2019s spelling as written', stateKey: 'modernKI', fn: x => x };
@@ -5218,7 +5233,20 @@ function buildSentEl(s, i, showLit){
       de.innerHTML = lnChip + buildStacks(s);
     } else {
       const scan = (showScan && s.sc) ? scanParse(s.t, s.sc) : null;
-      de.innerHTML = lnChip + tokenize(s.t, scan, Array.isArray(s.mt) ? s.mt : (Array.isArray(s.wr) ? s.wr : null));
+      const mpAlt = Array.isArray(s.wr) ? ({ latin: s.wr, insc: s.wi, psal: s.wp }[mpView] || s.wr) : null;
+      let thtml = tokenize(s.t, scan, Array.isArray(s.mt) ? s.mt : mpAlt);
+      if (mpAlt && simplifyNow() && (mpView === 'insc' || mpView === 'psal')) {
+        // the script has no Latin punctuation: keep the words, drop what stands between them
+        thtml = thtml.replace(/<\/span>[^<]*/g, '</span> ').replace(/^[^<]+/, '');
+        de.classList.add('mpscript', 'mp-' + mpView); de.setAttribute('dir', 'rtl');
+      }
+      de.innerHTML = lnChip + thtml;
+      if (Array.isArray(s.img) && story.imgBase) {
+        const pl = document.createElement('div'); pl.className = 'printline';
+        pl.innerHTML = s.img.map(g => '<img alt="" loading="lazy" src="' + story.imgBase + g.f + '" width="' + g.w + '" height="' + g.h + '">').join('')
+          + '<span class="cap">the 1872 print</span>';
+        div.appendChild(pl);
+      }
       if (scan) de.classList.add('scan');
     }
     if (vertical) de.classList.add('vert');
@@ -6123,6 +6151,7 @@ function updatePlainBtn(){
   if (activeSimplify.vowels) {          // an on/off switch like Transcription: lit = vowels shown
     pb.textContent = 'Vowels'; pb.title = activeSimplify.title; pb.classList.toggle('active', !plainMode); return;
   }
+  if (activeSimplify.cycle) { pb.textContent = activeSimplify.names[mpView]; pb.title = activeSimplify.title; pb.classList.toggle('active', mpView !== 'read'); return; }
   pb.textContent = (plainMode && activeSimplify.labelOn) ? activeSimplify.labelOn : activeSimplify.label;
   pb.title = (plainMode && activeSimplify.titleOn) ? activeSimplify.titleOn : activeSimplify.title;
   pb.classList.toggle('active', plainMode);
@@ -6134,7 +6163,14 @@ function setPlain(on){
   render();
   if (focusedIdx >= 0) focusSent(focusedIdx, false);
 }
-$('plainBtn').onclick = () => setPlain(!plainMode);
+$('plainBtn').onclick = () => {
+  if (activeSimplify && activeSimplify.cycle) {
+    const c = activeSimplify.cycle; mpView = c[(c.indexOf(mpView) + 1) % c.length];
+    try { localStorage.setItem('mpView', mpView); } catch(e) {}
+    setPlain(mpView !== 'read'); return;
+  }
+  setPlain(!plainMode);
+};
 $('signsBtn').onclick = openSigns;
 $('signModal').addEventListener('click', (e) => { if (e.target.id === 'signModal') closeSigns(); });
 $('fixModal').addEventListener('click', (e) => { if (e.target.id === 'fixModal') closeFix(); });
@@ -6477,6 +6513,7 @@ function loadStory(s){
     fetch(ab + '/words.json').then(r => r.ok ? r.json() : null).then(d => { wordClips = d; }).catch(() => {});
   }
   activeSimplify = simplifyConfig(s);
+  if (activeSimplify && activeSimplify.cycle) { try { mpView = localStorage.getItem('mpView') || 'read'; } catch(e) { mpView = 'read'; } if (activeSimplify.cycle.indexOf(mpView) < 0) mpView = 'read'; }
   const sayMode = !!(activeSimplify && activeSimplify.mode === 'say');
   const pb = $('plainBtn');
   const rg = $('readGroup');

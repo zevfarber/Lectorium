@@ -1,0 +1,4276 @@
+{
+ "id": "ani-125-rubric",
+ "title": "𓂋𓄿 𓏌𓅱 𓉐𓂋𓏏𓂻 𓅓 𓉔𓂋𓅱𓇳",
+ "titleRead": "Ra nu peret em heru",
+ "titleEn": "Book of the Dead of Ani — Spell 125 — the rubric",
+ "part": "Spell 125 — the rubric (Plate 33)",
+ "language": "Middle Egyptian",
+ "langCode": null,
+ "script": "Egyptian hieroglyphs",
+ "work": "Book of the Dead of Ani",
+ "workEn": "Book of the Dead of Ani",
+ "numbering": "stanza",
+ "dir": "ltr",
+ "provisional": true,
+ "draftNote": "Draft — the hieroglyphs are read from the printed type of Budge's 1895 edition of the papyrus, and the signs and readings are still being checked; expect changes.",
+ "source": "Papyrus of Ani (British Museum EA 10470), Plate XXXIII. Hieroglyphs transcribed from the interlinear text of E. A. W. Budge, The Book of the Dead: The Papyrus of Ani in the British Museum (London, 1895), pp. 222–224; Budge's transliteration and word-by-word English were used to check the reading of the signs and the sense, never for wording. Only the papyrus's own text is given: the passages Budge supplies from other papyri in his appendixes and footnotes are left out. Transliteration in the Leiden convention, with the reed written i; translation made fresh from the Egyptian. Shown left to right; the papyrus is written in columns read from the top down. The line under each word (\"say\") is the conventional Egyptological classroom pronunciation — a neutral e between consonants; ꜣ and ꜥ as a; w as u or w; ṯ as tj; ḏ as dj; ḫ and ẖ as kh; š as sh — an artificial teaching pronunciation, since the vowels of Egyptian were never written. The grouping of signs within a word follows Budge's type, which regularises the scribe's hand.",
+ "about": "The rubric that closes Spell 125 on Ani's papyrus: the instructions for using the spell, most of it written in red. Ani is to be dressed in clothing and white sandals and anointed with myrrh, offerings of a bull, fowl, incense, flowers, beer and herbs are made to him, and a picture is to be drawn in pure pigment on clean ground and buried(?) in a field on which no pig treads. Then come the promises — he and his children's children will flourish, he will be among the king's courtiers, pass every gate of the West and be among the followers of Osiris — and the closing words 'truly right, a million times'; Ani's copy is short and in places garbled, and the notes say where.",
+ "sentences": [
+  {
+   "ln": 1,
+   "p": true,
+   "t": "𓇋𓌻 𓊨𓁹 𓄿𓈖𓏥𓇋𓇋𓀀 𓐙𓊤 𓃹𓈖𓐍𓍼𓆑 𓎛𓃀𓋴𓋳 𓍿𓇋𓃀𓋸 𓐝 𓏏𓃀𓏏𓅱𓋸𓋸 𓌉𓏏𓏭𓀀 𓅨𓂋𓎛𓅱𓎯𓍃 𓐝 𓁶𓊪𓏏𓎯𓏥 𓈖𓏏 𓂝𓈖𓏏𓄿𓎯𓏥",
+   "words": [
+    {
+     "reading": "ir",
+     "glyphs": [
+      {
+       "s": "𓇋",
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𓌻",
+       "sign": "U7",
+       "role": "phon",
+       "tr": "r",
+       "approx": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ir",
+       "gloss": "to do, make (lemma iri) · a second word of the same spelling: the particle ir \"when, if\" at the head of a clause (ir ꜥq·i \"when I entered\"), here apparently also bringing in a question (\"do you know …?\") · also \"as for\" (particle; ir with a noun puts that noun first as the topic)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "ir",
+     "q": "0-1",
+     "rubric": true
+    },
+    {
+     "reading": "wsir",
+     "glyphs": [
+      {
+       "s": "𓊨",
+       "sign": "Q1",
+       "role": "phon",
+       "tr": "ws"
+      },
+      {
+       "s": "𓁹",
+       "sign": "D4",
+       "role": "phon",
+       "tr": "ir"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wsir",
+       "gloss": "Osiris, god of the dead and king of the world below; Wsir N \"the Osiris N\", the dead person (god's name; Budge: Àusàr)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "Osiris",
+     "q": "0:1"
+    },
+    {
+     "reading": "ꜣny",
+     "glyphs": [
+      {
+       "s": "𓄿",
+       "sign": "G1",
+       "role": "phon",
+       "tr": "ꜣ"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓏥",
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓇋",
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𓇋",
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𓀀",
+       "sign": "A1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ꜣny",
+       "gloss": "Ani, royal scribe of Thebes, for whom the papyrus was made (personal name)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ],
+     "say": "Ani",
+     "q": "0-1:2-3-4-5"
+    },
+    {
+     "reading": "mꜣꜥ-ḫrw",
+     "glyphs": [
+      {
+       "s": "𓐙",
+       "sign": "Aa11",
+       "role": "phon",
+       "tr": "mꜣꜥ"
+      },
+      {
+       "s": "𓊤",
+       "sign": "P8",
+       "role": "log",
+       "tr": "ḫrw"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mꜣꜥ-ḫrw",
+       "gloss": "true of voice, vindicated (epithet; said of the dead whose words were found true at the judgement)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "maa-kheru",
+     "q": "0:1"
+    },
+    {
+     "reading": "wnḫ·f",
+     "glyphs": [
+      {
+       "s": "𓃹",
+       "sign": "E34",
+       "role": "phon",
+       "tr": "wn"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "comp",
+       "tr": "n"
+      },
+      {
+       "s": "𓐍",
+       "sign": "Aa1",
+       "role": "phon",
+       "tr": "ḫ"
+      },
+      {
+       "s": "𓍼",
+       "sign": "V12",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓆑",
+       "sign": "I9",
+       "role": "suff",
+       "tr": "·f"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wnḫ",
+       "gloss": "to put on, clothe oneself in (verb; of garments)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      },
+      {
+       "lemma": "·f",
+       "gloss": "he, him, his, it (3rd person masculine singular suffix pronoun; the horned viper)",
+       "g": [
+        4
+       ]
+      }
+     ],
+     "say": "wenekhef",
+     "q": "0:1-2:3-4",
+     "rubric": true
+    },
+    {
+     "reading": "ḥbs",
+     "glyphs": [
+      {
+       "s": "𓎛",
+       "sign": "V28",
+       "role": "phon",
+       "tr": "ḥ"
+      },
+      {
+       "s": "𓃀",
+       "sign": "D58",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𓋴",
+       "sign": "S29",
+       "role": "phon",
+       "tr": "s"
+      },
+      {
+       "s": "𓋳",
+       "sign": "S28",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḥbs",
+       "gloss": "to clothe, cover (verb); clothing (noun)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ],
+     "say": "hebes",
+     "rubric": true
+    },
+    {
+     "reading": "ṯbi",
+     "glyphs": [
+      {
+       "s": "𓍿",
+       "sign": "V13",
+       "role": "phon",
+       "tr": "ṯ"
+      },
+      {
+       "s": "𓇋",
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𓃀",
+       "sign": "D58",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𓋸",
+       "sign": "S33",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṯbi",
+       "gloss": "to put on sandals, be shod (verb; stative 'shod')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ],
+     "say": "tjebi",
+     "rubric": true
+    },
+    {
+     "reading": "m",
+     "glyphs": [
+      {
+       "s": "𓐝",
+       "sign": "Aa15",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "m",
+       "gloss": "in, from (preposition) · also \"with\" (instrument), \"as\" (m bnw \"as the Bennu\"), \"on\" (living on), \"by\"; im before a suffix (im·i, im·f, im·tn) · a second word of the same spelling: what? (interrogative pronoun; r m 'for what? why?') · also 'among' (with a group of people)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "say": "em",
+     "rubric": true
+    },
+    {
+     "reading": "tbwt",
+     "glyphs": [
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓃀",
+       "sign": "D58",
+       "role": "phon",
+       "tr": "b"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓅱",
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𓋸",
+       "sign": "S33",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓋸",
+       "sign": "S33",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ṯbt",
+       "gloss": "sandal (noun; plural ṯbwt, later written tbwt)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ],
+     "say": "tebut",
+     "rubric": true
+    },
+    {
+     "reading": "ḥḏty",
+     "glyphs": [
+      {
+       "s": "𓌉",
+       "sign": "T3",
+       "role": "phon",
+       "tr": "ḥḏ"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓏭",
+       "sign": "Z4",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𓀀",
+       "sign": "A1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḥḏ",
+       "gloss": "to damage, defraud, diminish · a second word of the same spelling: white, bright (adjective; verb 'be white, bright'; written with the mace)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ],
+     "say": "hedjty",
+     "q": "0-1:2-3",
+     "rubric": true
+    },
+    {
+     "reading": "wrḥw",
+     "glyphs": [
+      {
+       "s": "𓅨",
+       "sign": "G36",
+       "role": "phon",
+       "tr": "wr"
+      },
+      {
+       "s": "𓂋",
+       "sign": "D21",
+       "role": "comp",
+       "tr": "r"
+      },
+      {
+       "s": "𓎛",
+       "sign": "V28",
+       "role": "phon",
+       "tr": "ḥ"
+      },
+      {
+       "s": "𓅱",
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𓎯",
+       "sign": "W1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓍃",
+       "sign": "U15",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wrḥ",
+       "gloss": "to anoint, smear with oil (verb; stative 'anointed')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ],
+     "say": "werehu",
+     "q": "0:1-2-3-4:5",
+     "rubric": true
+    },
+    {
+     "reading": "m",
+     "glyphs": [
+      {
+       "s": "𓐝",
+       "sign": "Aa15",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "m",
+       "gloss": "in, from (preposition) · also \"with\" (instrument), \"as\" (m bnw \"as the Bennu\"), \"on\" (living on), \"by\"; im before a suffix (im·i, im·f, im·tn) · a second word of the same spelling: what? (interrogative pronoun; r m 'for what? why?') · also 'among' (with a group of people)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "say": "em",
+     "rubric": true
+    },
+    {
+     "reading": "tpt",
+     "glyphs": [
+      {
+       "s": "𓁶",
+       "sign": "D1",
+       "role": "phon",
+       "tr": "tp"
+      },
+      {
+       "s": "𓊪",
+       "sign": "Q3",
+       "role": "comp",
+       "tr": "p"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓎯",
+       "sign": "W1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓏥",
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tpt",
+       "gloss": "finest oil, oil of the first quality (noun; from tp 'head, first'; reading and sense uncertain)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ],
+     "say": "tepet",
+     "q": "0:1-2-3:4",
+     "rubric": true
+    },
+    {
+     "reading": "nt",
+     "glyphs": [
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ny",
+       "gloss": "of (the genitive adjective; written n, fem. nt, pl. nw): rꜣ n ꜥq \"spell of entering\"",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "net",
+     "q": "0:1",
+     "rubric": true
+    },
+    {
+     "reading": "ꜥntyw",
+     "glyphs": [
+      {
+       "s": "𓂝",
+       "sign": "D36",
+       "role": "phon",
+       "tr": "ꜥ"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓄿",
+       "sign": "G1",
+       "role": "phon",
+       "tr": "ꜣ"
+      },
+      {
+       "s": "𓎯",
+       "sign": "W1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓏥",
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ꜥntyw",
+       "gloss": "myrrh, aromatic resin (noun)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ],
+     "say": "antyu",
+     "q": "0:1-2-3-4:5",
+     "rubric": true
+    }
+   ],
+   "l": "as-for · the-Osiris · Ani · true-of-voice · puts-on · he · clothing · shod · with · sandals · white · anointed · with · finest-oil · of · myrrh",
+   "i": "As for the Osiris Ani, true of voice: let him put on clothing, shod in white sandals and anointed with the finest oil of myrrh.",
+   "n": "The rubric — the instructions that follow a spell — begins here, and the papyrus writes it in red, all but the name and title of Ani (Wsir Ani mꜣꜥ-ḫrw), which stand in black. The papyrus writes the reed and a tall sign that Budge's type renders like a hoe (coded U7, an approximation; no known value of it fits); read ir 'as for', with caution. Budge reads the group in (àn, 'see'), but the second sign is not the water-line n either. What decides is the syntax, not the sign: the name is taken up again by the ·f of wnḫ·f, and a noun put first and then resumed by a suffix is the pattern of ir + noun, 'as for N, he …'; in with a noun ('it is N who …') would be followed by a participle with no ·f. The reading ir is therefore kept, but the sign itself is unidentified and the reading rests on the grammar alone. Wsir Ani, 'the Osiris Ani' (seat and eye; vulture, water, two reeds, seated man), and mꜣꜥ-ḫrw 'true of voice', written as usual in this papyrus with the plinth and the oar and without the sickle. wnḫ·f 'he puts on (clothing)' is the hare wn with n as complement, placenta ḫ, a band of string (V12) as classifier, and ·f; the sḏm·f here gives an instruction, 'let him put on'. ḥbs 'clothing' (ḥ, b, the folded cloth s, a fringed cloth) is its object. ṯbi 'shod' is the tethering rope ṯ, a reed, b and the sandal: the stative, describing his state; the reed stands before b, perhaps for the weak final i of the verb written early. tbwt 'sandals' is t, b, t, w with the sandal written twice for the pair; t is written for the older ṯ, a common later spelling. ḥḏty 'white' is the mace ḥḏ with t and the two strokes y, perhaps the dual ending agreeing with the pair of sandals; the seated man after them is not expected after a colour word and is left unexplained. Budge's numeral 2 stands inside tbwt in the print. wrḥw 'anointed' is the swallow wr with r, ḥ, and the w of the stative, with the ointment jar as classifier; the low flat sign printed as U15, met in earlier parts where the forearm with stick was expected, follows it here as well and is not read. m 'with', both here and before tpt, is Aa15, an object of uncertain nature that often writes m. tpt 'finest oil' is the head tp with p and t, the jar and plural strokes: oil 'of the first quality'. The same small jar (coded W1) serves this papyrus for oil, beer and jugs alike. nt is the genitive 'of' in its feminine form, agreeing with tpt; ꜥntyw 'myrrh' is spelled as in the introduction (ꜥ, n, t, the vulture for the ending, jar, plural). Clean linen, white sandals and anointing were what a priest or anyone approaching the gods had to have."
+  },
+  {
+   "ln": 2,
+   "t": "𓅱𓂧𓈖𓍿𓏜 𓈖𓆑 𓃒 𓇆𓏜 𓊹𓋴𓈖𓏏𓂋𓈓 𓂋𓏤𓅬 𓊵𓏏𓊪𓇋𓇋𓆰 𓎛𓈎𓎯𓏤 𓊃𓇐𓐝𓅱𓆰𓏥",
+   "words": [
+    {
+     "reading": "wdn",
+     "glyphs": [
+      {
+       "s": "𓅱",
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𓂧",
+       "sign": "D46",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓍿",
+       "sign": "V13",
+       "role": "phon",
+       "tr": "ṯ"
+      },
+      {
+       "s": "𓏜",
+       "sign": "Y1a",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wdn",
+       "gloss": "to offer, make offering (verb)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ],
+     "say": "weden",
+     "q": "0-1:2-3-4",
+     "rubric": true
+    },
+    {
+     "reading": "n·f",
+     "glyphs": [
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓆑",
+       "sign": "I9",
+       "role": "suff",
+       "tr": "·f"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "n",
+       "gloss": "not; negates the verb ('I have not …') · also in n wn \"there is not\" · a second word of the same spelling: the preposition \"to, for\" (n·i \"to me\") · the negative also before a noun, 'without, there being no …'",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "·f",
+       "gloss": "he, him, his, it (3rd person masculine singular suffix pronoun; the horned viper)",
+       "g": [
+        1
+       ]
+      }
+     ],
+     "say": "enef",
+     "q": "0:1",
+     "rubric": true
+    },
+    {
+     "reading": "kꜣ",
+     "glyphs": [
+      {
+       "s": "𓃒",
+       "sign": "E1",
+       "role": "log",
+       "tr": "kꜣ"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "kꜣ",
+       "gloss": "ka, the life-force that receives offerings (noun); plural kꜣw, perhaps also \"food, sustenance\" · a second word of the same spelling: bull (noun; written with the bull)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "say": "ka",
+     "rubric": true
+    },
+    {
+     "reading": "wꜣḏ",
+     "glyphs": [
+      {
+       "s": "𓇆",
+       "sign": "M14",
+       "role": "phon",
+       "tr": "wꜣḏ"
+      },
+      {
+       "s": "𓏜",
+       "sign": "Y1a",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wꜣḏ",
+       "gloss": "papyrus stem; papyrus-column, papyrus-sceptre or amulet (noun) · also green, fresh, flourishing (adjective; verb wꜣḏ 'be green') (Budge: 'tablet') · also fresh plants, greens, vegetables (noun)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "wadj",
+     "q": "0-1",
+     "rubric": true
+    },
+    {
+     "reading": "snṯr",
+     "glyphs": [
+      {
+       "s": "𓊹",
+       "sign": "R8",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓋴",
+       "sign": "S29",
+       "role": "phon",
+       "tr": "s",
+       "approx": true
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓂋",
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𓈓",
+       "sign": "N33a",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "snṯr",
+       "gloss": "incense (noun; lit. \"what makes divine\")",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ],
+     "say": "senetjer",
+     "q": "0-1-2:3:4-5",
+     "rubric": true
+    },
+    {
+     "reading": "r",
+     "glyphs": [
+      {
+       "s": "𓂋",
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𓏤",
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓅬",
+       "sign": "G38",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "r",
+       "gloss": "to, towards, into, at (preposition); with an infinitive \"in order to\"; with the sḏmt·f \"until\"; after an imperative, with a suffix (ir·k), \"yourself, then\" · a second word of the same spelling: goose, fowl (noun; the goose sign)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "say": "er",
+     "q": "0:1-2",
+     "rubric": true
+    },
+    {
+     "reading": "ḥtpy",
+     "glyphs": [
+      {
+       "s": "𓊵",
+       "sign": "R4",
+       "role": "phon",
+       "tr": "ḥtp"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "comp",
+       "tr": "t"
+      },
+      {
+       "s": "𓊪",
+       "sign": "Q3",
+       "role": "comp",
+       "tr": "p"
+      },
+      {
+       "s": "𓇋",
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𓇋",
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𓆰",
+       "sign": "M2",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḥtp",
+       "gloss": "to be content, at peace, to rest (verb); peace; offering (noun; m ḥtp \"in peace\")",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ],
+     "say": "hetepy",
+     "q": "0:1*2-3-4-5",
+     "rubric": true
+    },
+    {
+     "reading": "ḥnqt",
+     "glyphs": [
+      {
+       "s": "𓎛",
+       "sign": "V28",
+       "role": "phon",
+       "tr": "ḥ"
+      },
+      {
+       "s": "𓈎",
+       "sign": "N29",
+       "role": "phon",
+       "tr": "q"
+      },
+      {
+       "s": "𓎯",
+       "sign": "W1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓏤",
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḥnqt",
+       "gloss": "beer (noun)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ],
+     "say": "henqet",
+     "q": "0-1:2-3",
+     "rubric": true
+    },
+    {
+     "reading": "smw",
+     "glyphs": [
+      {
+       "s": "𓊃",
+       "sign": "O34",
+       "role": "comp",
+       "tr": "z"
+      },
+      {
+       "s": "𓇐",
+       "sign": "M21",
+       "role": "phon",
+       "tr": "sm"
+      },
+      {
+       "s": "𓐝",
+       "sign": "Aa15",
+       "role": "comp",
+       "tr": "m"
+      },
+      {
+       "s": "𓅱",
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𓆰",
+       "sign": "M2",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      },
+      {
+       "s": "𓏥",
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "smw",
+       "gloss": "herbs, vegetables, plants (noun)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     ],
+     "say": "semu",
+     "q": "0-1-2-3-4:5",
+     "rubric": true
+    }
+   ],
+   "l": "offered · to-him · a-bull · greens · incense · fowl · flower-offerings · beer · herbs",
+   "i": "There are offered to him a bull, greens, incense, fowl, offerings of flowers, beer and herbs.",
+   "n": "Still in red. Budge prints wdn n·f as one group; it is split here into the verb and n·f 'to him' (the preposition n with ·f). The papyrus writes w-d-n-ṯ; read wdn 'offer' (quail chick w, hand d, water n, papyrus roll): the tethering rope ṯ stands where the introduction has an unclear classifier in the same word, and is not read (Budge keeps it, uṭenθ). With no ending and no subject, wdn is taken as the passive sḏm, 'there are offered' (it could also be the infinitive heading a list, 'offering to him …'). kꜣ 'bull' is the bull alone, written as a picture of the word. wꜣḏ 'greens, fresh plants' is the papyrus clump with the cobra (wꜣḏ) and the papyrus roll. snṯr 'incense' puts the god's flag first in honour, then s, n, t, r, with three grains as classifier of a substance (the s is an approximation of the print). r 'goose, fowl' is the mouth r with its stroke and the goose. ḥtpy is the offering table ḥtp with t and p, two reeds y, and a bunch of flowers (approximated by the print) as classifier: offerings of flowers, perhaps bouquets. ḥnqt 'beer' is written short, ḥ, q, the jar and a stroke, without its n and t; the jar is the same as the oil jar of line 1. smw 'herbs, vegetables' is the bolt s, the plant sm, m (Aa15) and w, with flowers and plural strokes. These are the ordinary foods of the offering table: meat, fowl, bread-and-beer, greens, with incense and flowers."
+  },
+  {
+   "ln": 3,
+   "t": "𓇋𓋴𓏏 𓁹 𓈖𓎡 𓊃𓌫𓐝 𓊵𓏏𓊪𓏏 𓏞𓏜𓏤 𓁷𓏤 𓅭𓏏𓅱𓇮𓏥 𓃂𓈗 𓅓 𓃾𓈒𓏏𓏭𓏥 𓃂𓈗",
+   "words": [
+    {
+     "reading": "ist",
+     "glyphs": [
+      {
+       "s": "𓇋",
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𓋴",
+       "sign": "S29",
+       "role": "phon",
+       "tr": "s"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ist",
+       "gloss": "now, see (particle opening a new statement)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "say": "iset",
+     "rubric": true
+    },
+    {
+     "reading": "ir",
+     "glyphs": [
+      {
+       "s": "𓁹",
+       "sign": "D4",
+       "role": "phon",
+       "tr": "ir"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ir",
+       "gloss": "to do, make (lemma iri) · a second word of the same spelling: the particle ir \"when, if\" at the head of a clause (ir ꜥq·i \"when I entered\"), here apparently also bringing in a question (\"do you know …?\") · also \"as for\" (particle; ir with a noun puts that noun first as the topic)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "say": "ir",
+     "rubric": true
+    },
+    {
+     "reading": "n·k",
+     "glyphs": [
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓎡",
+       "sign": "V31",
+       "role": "suff",
+       "tr": "·k"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "n",
+       "gloss": "not; negates the verb ('I have not …') · also in n wn \"there is not\" · a second word of the same spelling: the preposition \"to, for\" (n·i \"to me\") · the negative also before a noun, 'without, there being no …'",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "·k",
+       "gloss": "you, your (2nd person masculine singular suffix pronoun; the basket sign)",
+       "g": [
+        1
+       ]
+      }
+     ],
+     "say": "enek",
+     "q": "0:1",
+     "rubric": true
+    },
+    {
+     "reading": "sšm",
+     "glyphs": [
+      {
+       "s": "𓊃",
+       "sign": "O34",
+       "role": "comp",
+       "tr": "z"
+      },
+      {
+       "s": "𓌫",
+       "sign": "T31",
+       "role": "phon",
+       "tr": "sšm",
+       "approx": true
+      },
+      {
+       "s": "𓐝",
+       "sign": "Aa15",
+       "role": "comp",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "sšm",
+       "gloss": "image, figure (noun) · also procedure, the way a thing is done",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "say": "seshem",
+     "q": "0:1-2",
+     "rubric": true
+    },
+    {
+     "reading": "ḥtpt",
+     "glyphs": [
+      {
+       "s": "𓊵",
+       "sign": "R4",
+       "role": "phon",
+       "tr": "ḥtp"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "comp",
+       "tr": "t"
+      },
+      {
+       "s": "𓊪",
+       "sign": "Q3",
+       "role": "comp",
+       "tr": "p"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḥtpt",
+       "gloss": "offering, food-offering (noun; plural ḥtpwt)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ],
+     "say": "hetepet",
+     "q": "0:1*2*3",
+     "rubric": true
+    },
+    {
+     "reading": "sš",
+     "glyphs": [
+      {
+       "s": "𓏞",
+       "sign": "Y3",
+       "role": "log",
+       "tr": "sš"
+      },
+      {
+       "s": "𓏜",
+       "sign": "Y1a",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓏤",
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "sš",
+       "gloss": "scribe (noun; the palette-and-pen sign) · a second word of the same spelling: to pass, go through (verb; doubtful here) · also to write, draw, paint (verb; written with the scribe's palette)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "say": "sesh",
+     "rubric": true
+    },
+    {
+     "reading": "ḥr",
+     "glyphs": [
+      {
+       "s": "𓁷",
+       "sign": "D2",
+       "role": "log",
+       "tr": "ḥr"
+      },
+      {
+       "s": "𓏤",
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḥr",
+       "gloss": "face; (preposition) upon, on, over, concerning · a second word of the same spelling: Horus, the falcon god, son of Osiris and Isis; the sun as a falcon (god's name; Budge: Ḥeru)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "her",
+     "q": "0:1",
+     "rubric": true
+    },
+    {
+     "reading": "sꜣtw",
+     "glyphs": [
+      {
+       "s": "𓅭",
+       "sign": "G39",
+       "role": "phon",
+       "tr": "sꜣ"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓅱",
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𓇮",
+       "sign": "M44",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      },
+      {
+       "s": "𓏥",
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "sꜣtw",
+       "gloss": "ground, soil, floor (noun)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ],
+     "say": "satu",
+     "q": "0-1-2-3:4",
+     "rubric": true
+    },
+    {
+     "reading": "wꜥb",
+     "glyphs": [
+      {
+       "s": "𓃂",
+       "sign": "D60",
+       "role": "log",
+       "tr": "wꜥb"
+      },
+      {
+       "s": "𓈗",
+       "sign": "N35a",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wꜥb",
+       "gloss": "to be pure, clean; to purify oneself, bathe (verb); pure (adjective)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "wab",
+     "rubric": true
+    },
+    {
+     "reading": "m",
+     "glyphs": [
+      {
+       "s": "𓅓",
+       "sign": "G17",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "m",
+       "gloss": "in, from (preposition) · also \"with\" (instrument), \"as\" (m bnw \"as the Bennu\"), \"on\" (living on), \"by\"; im before a suffix (im·i, im·f, im·tn) · a second word of the same spelling: what? (interrogative pronoun; r m 'for what? why?') · also 'among' (with a group of people)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "say": "em",
+     "rubric": true
+    },
+    {
+     "reading": "ḫnty",
+     "glyphs": [
+      {
+       "s": "𓃾",
+       "sign": "F1",
+       "role": "phon",
+       "tr": "ḫnt",
+       "approx": true
+      },
+      {
+       "s": "𓈒",
+       "sign": "N33",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "comp",
+       "tr": "t"
+      },
+      {
+       "s": "𓏭",
+       "sign": "Z4",
+       "role": "phon",
+       "tr": "y"
+      },
+      {
+       "s": "𓏥",
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫnty",
+       "gloss": "foremost, who is at the head of (nisba adjective; ḫnty imntt \"Foremost of the West\", a title of Osiris) · a second word of the same spelling: a pigment or colour (noun; reading doubtful)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ],
+     "say": "khenty",
+     "q": "0*1:2*3*4",
+     "rubric": true
+    },
+    {
+     "reading": "wꜥb",
+     "glyphs": [
+      {
+       "s": "𓃂",
+       "sign": "D60",
+       "role": "log",
+       "tr": "wꜥb"
+      },
+      {
+       "s": "𓈗",
+       "sign": "N35a",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wꜥb",
+       "gloss": "to be pure, clean; to purify oneself, bathe (verb); pure (adjective)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "wab",
+     "rubric": true
+    }
+   ],
+   "l": "now · make · for-yourself · an-image · of-an-offering · drawn · upon · ground · clean · with · pigment(?) · pure",
+   "i": "Now, make for yourself a picture of an offering, drawn upon clean ground with pure pigment(?).",
+   "n": "Still in red. ist (reed i, folded cloth s, t) is a particle that opens a new statement, 'now, see'. Budge prints ir n·k as one group; it is split here: ir 'make' (the eye alone) is taken as the imperative, and n·k (water n, basket ·k) is 'for yourself', the instruction now turning to the user of the book. It could also be the sḏm·n·f ir·n·k, 'you have made', but an instruction suits the rubric better. sšm 'image, figure' is the bolt s, the sign sšm (a stand with slanting top, approximated in the print) and m (Aa15) as complement; the word also means 'procedure, the way a thing is done'. ḥtpt 'offering' (offering table ḥtp, t, p and the feminine t) follows it directly as a genitive: what is to be drawn is an offering scene. sš 'drawn, written' is the scribe's palette with the papyrus roll and stroke: the verb 'write', which covers drawing too; no ending shows its form, and it is taken as the passive participle, 'drawn', describing the image. Budge reads the group ān; the palette is the regular sign of sš, and that is how it is read here. sꜣtw 'ground, floor' as in the introduction: pintail duck sꜣ, t, w, a small wedge-shaped sign (approximated in the print; perhaps the clod or the land sign) and plural strokes. wꜥb 'clean, pure' is the man pouring water with the ripples of water; it comes twice, after the ground and after the pigment. The pigment word is uncertain: a small horned animal's head (coded F1, an approximation), a small circle, t and two strokes y with plural strokes. Budge reads it χenti and takes it as 'colour'; no value of the head gives ḫnt, and the reading ḫnty is kept only after him. The small circle is the classifier of minerals and pigments, so a paint of some kind is meant. A picture drawn with care on clean ground made the spell work, much as the vignette on the papyrus does."
+  },
+  {
+   "ln": 4,
+   "t": "𓊃𓎡𓂋𓏏𓅱𓏜𓏤 𓐝 𓄿𓎛𓏏𓇮𓏤 𓈖𓏏𓏭 𓂜 𓐍𓈖𓂧𓂾𓂻𓈖 𓆷𓄿𓇋𓄿𓄛 𓁷𓂋𓊃",
+   "words": [
+    {
+     "reading": "skr·tw",
+     "glyphs": [
+      {
+       "s": "𓊃",
+       "sign": "O34",
+       "role": "phon",
+       "tr": "z"
+      },
+      {
+       "s": "𓎡",
+       "sign": "V31",
+       "role": "phon",
+       "tr": "k"
+      },
+      {
+       "s": "𓂋",
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓅱",
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𓏜",
+       "sign": "Y1a",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓏤",
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "skr",
+       "gloss": "to bury (verb; meaning uncertain)",
+       "g": [
+        0,
+        1,
+        2,
+        5,
+        6
+       ]
+      },
+      {
+       "lemma": "sḏm·tw·f",
+       "gloss": "the tw of the sḏm·tw·f, the passive or impersonal form (\"one …\", \"… is done\") (verb form; written after the verb, before its suffix)",
+       "g": [
+        3,
+        4
+       ]
+      }
+     ],
+     "say": "sekertu",
+     "q": "0:1:2-3-4-5-6",
+     "rubric": true
+    },
+    {
+     "reading": "m",
+     "glyphs": [
+      {
+       "s": "𓐝",
+       "sign": "Aa15",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "m",
+       "gloss": "in, from (preposition) · also \"with\" (instrument), \"as\" (m bnw \"as the Bennu\"), \"on\" (living on), \"by\"; im before a suffix (im·i, im·f, im·tn) · a second word of the same spelling: what? (interrogative pronoun; r m 'for what? why?') · also 'among' (with a group of people)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "say": "em",
+     "rubric": true
+    },
+    {
+     "reading": "ꜣḥt",
+     "glyphs": [
+      {
+       "s": "𓄿",
+       "sign": "G1",
+       "role": "phon",
+       "tr": "ꜣ"
+      },
+      {
+       "s": "𓎛",
+       "sign": "V28",
+       "role": "phon",
+       "tr": "ḥ"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓇮",
+       "sign": "M44",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      },
+      {
+       "s": "𓏤",
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ꜣḥt",
+       "gloss": "field, arable land (noun)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ],
+     "say": "ahet",
+     "q": "0-1-2:3-4",
+     "rubric": true
+    },
+    {
+     "reading": "nty",
+     "glyphs": [
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓏭",
+       "sign": "Z4",
+       "role": "phon",
+       "tr": "y"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nty",
+       "gloss": "who, which, that (relative adjective); as a noun \"he who\"",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "say": "nety",
+     "q": "0:1*2",
+     "rubric": true
+    },
+    {
+     "reading": "n",
+     "glyphs": [
+      {
+       "s": "𓂜",
+       "sign": "D35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "n",
+       "gloss": "not; negates the verb ('I have not …') · also in n wn \"there is not\" · a second word of the same spelling: the preposition \"to, for\" (n·i \"to me\") · the negative also before a noun, 'without, there being no …'",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "say": "en",
+     "rubric": true
+    },
+    {
+     "reading": "ḫnd·n",
+     "glyphs": [
+      {
+       "s": "𓐍",
+       "sign": "Aa1",
+       "role": "phon",
+       "tr": "ḫ"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓂧",
+       "sign": "D46",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "s": "𓂾",
+       "sign": "D56",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓂻",
+       "sign": "D54",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫnd",
+       "gloss": "to tread, step, walk (on) (verb; ḫnd ḥr 'tread upon') · a second word of the same spelling: leg, shin (noun; reading uncertain)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      },
+      {
+       "lemma": "sḏm·n·f",
+       "gloss": "the n of the sḏm·n·f, marking a completed action (\"I have …\", \"I …ed\") (verb form; written between the verb and its suffix)",
+       "g": [
+        5
+       ]
+      }
+     ],
+     "say": "khenden",
+     "q": "0:1:2-3-4-5",
+     "rubric": true
+    },
+    {
+     "reading": "šꜣi",
+     "glyphs": [
+      {
+       "s": "𓆷",
+       "sign": "M8",
+       "role": "phon",
+       "tr": "šꜣ"
+      },
+      {
+       "s": "𓄿",
+       "sign": "G1",
+       "role": "comp",
+       "tr": "ꜣ"
+      },
+      {
+       "s": "𓇋",
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𓄿",
+       "sign": "G1",
+       "role": "phon",
+       "tr": "ꜣ"
+      },
+      {
+       "s": "𓄛",
+       "sign": "F27",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šꜣi",
+       "gloss": "pig (noun; the animal of Seth, unclean)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ],
+     "say": "shai",
+     "rubric": true
+    },
+    {
+     "reading": "ḥr·s",
+     "glyphs": [
+      {
+       "s": "𓁷",
+       "sign": "D2",
+       "role": "phon",
+       "tr": "ḥr"
+      },
+      {
+       "s": "𓂋",
+       "sign": "D21",
+       "role": "comp",
+       "tr": "r"
+      },
+      {
+       "s": "𓊃",
+       "sign": "O34",
+       "role": "suff",
+       "tr": "·z"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḥr",
+       "gloss": "face; (preposition) upon, on, over, concerning · a second word of the same spelling: Horus, the falcon god, son of Osiris and Isis; the sun as a falcon (god's name; Budge: Ḥeru)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "·s",
+       "gloss": "she, her, it, its (3rd person feminine singular suffix pronoun; the folded cloth or the bolt)",
+       "g": [
+        2
+       ]
+      }
+     ],
+     "say": "heres",
+     "q": "0:1-2",
+     "rubric": true
+    }
+   ],
+   "l": "is-buried(?) · in · a-field · which · not · treads · a-pig · upon-it",
+   "i": "And it is to be buried(?) in a field on which no pig treads.",
+   "n": "Still in red. skr·tw is s, k, r, then t and w, with the papyrus roll and a stroke: the word is not well known. Budge reads it sekertu and takes it as 'bury'; here the t-w is taken as the tw of the passive sḏm·tw·f, 'one buries (it), it is buried', with the sense left in doubt. m 'in' is Aa15 once more. ꜣḥt 'field' is vulture ꜣ, ḥ, t, the small wedge-shaped sign again (approximated in the print) and a stroke. nty 'which' (water n, t, two strokes) stands after a feminine noun where ntt would be expected; the papyrus does not mark the agreement. n ḫnd·n šꜣi ḥr·s is n + the sḏm·n·f. With the negative this form does not state a past ('has not' is n + sḏm·f, as in the declarations); it states what does not or cannot happen, as a general truth: 'on which no pig treads'. ḫnd 'tread' (placenta ḫ, n, d, the leg and the walking legs) and then the n of the form, which Budge prints as a group of its own (en); the two are joined here as one word. šꜣi 'pig' is the pool with lotus šꜣ, vulture ꜣ, reed i and a second vulture, with a hide-like sign with a tail (an approximation of the print) as classifier of animals. ḥr·s 'upon it' is the face ḥr with r as complement and the bolt ·s, 'it', referring back to the field. The pig belonged to Seth and was unclean; Budge's footnote shows that other papyri have 'pigs and donkeys' here."
+  },
+  {
+   "ln": 5,
+   "t": "𓇋𓂋 𓁹𓏏 𓏛𓏏𓏤𓍼𓀀 𓏏𓈖 𓁷𓏤𓆑 𓃹𓈖𓈖𓆑 𓇆𓏜",
+   "words": [
+    {
+     "reading": "ir",
+     "glyphs": [
+      {
+       "s": "𓇋",
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𓂋",
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ir",
+       "gloss": "to do, make (lemma iri) · a second word of the same spelling: the particle ir \"when, if\" at the head of a clause (ir ꜥq·i \"when I entered\"), here apparently also bringing in a question (\"do you know …?\") · also \"as for\" (particle; ir with a noun puts that noun first as the topic)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "ir",
+     "q": "0:1",
+     "rubric": true
+    },
+    {
+     "reading": "irt",
+     "glyphs": [
+      {
+       "s": "𓁹",
+       "sign": "D4",
+       "role": "phon",
+       "tr": "ir"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ir",
+       "gloss": "to do, make (lemma iri) · a second word of the same spelling: the particle ir \"when, if\" at the head of a clause (ir ꜥq·i \"when I entered\"), here apparently also bringing in a question (\"do you know …?\") · also \"as for\" (particle; ir with a noun puts that noun first as the topic)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "iret",
+     "q": "0:1",
+     "rubric": true
+    },
+    {
+     "reading": "šꜥt",
+     "glyphs": [
+      {
+       "s": "𓏛",
+       "sign": "Y1",
+       "role": "log",
+       "tr": "šꜥ"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓏤",
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓍼",
+       "sign": "V12",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓀀",
+       "sign": "A1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šꜥt",
+       "gloss": "slaughter, massacre; the slaughtering (noun; from šꜥd 'cut') · a second word of the same spelling: letter, document, writing (noun)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ],
+     "say": "shat",
+     "q": "0:1*2-3-4",
+     "rubric": true
+    },
+    {
+     "reading": "tn",
+     "glyphs": [
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "tn",
+       "gloss": "this (feminine demonstrative, after its noun; masculine pn)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "ten",
+     "q": "0:1",
+     "rubric": true
+    },
+    {
+     "reading": "ḥr·f",
+     "glyphs": [
+      {
+       "s": "𓁷",
+       "sign": "D2",
+       "role": "log",
+       "tr": "ḥr"
+      },
+      {
+       "s": "𓏤",
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓆑",
+       "sign": "I9",
+       "role": "suff",
+       "tr": "·f"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḥr",
+       "gloss": "face; (preposition) upon, on, over, concerning · a second word of the same spelling: Horus, the falcon god, son of Osiris and Isis; the sun as a falcon (god's name; Budge: Ḥeru)",
+       "g": [
+        0,
+        1
+       ]
+      },
+      {
+       "lemma": "·f",
+       "gloss": "he, him, his, it (3rd person masculine singular suffix pronoun; the horned viper)",
+       "g": [
+        2
+       ]
+      }
+     ],
+     "say": "heref",
+     "q": "0:1-2",
+     "rubric": true
+    },
+    {
+     "reading": "wnn·f",
+     "glyphs": [
+      {
+       "s": "𓃹",
+       "sign": "E34",
+       "role": "phon",
+       "tr": "wn"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "comp",
+       "tr": "n"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓆑",
+       "sign": "I9",
+       "role": "suff",
+       "tr": "·f"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wnn",
+       "gloss": "to be, exist (verb; wn·n·i \"I have been\"; n wn \"there is not\")",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "·f",
+       "gloss": "he, him, his, it (3rd person masculine singular suffix pronoun; the horned viper)",
+       "g": [
+        3
+       ]
+      }
+     ],
+     "say": "wenenef",
+     "q": "0:1-2:3",
+     "rubric": true
+    },
+    {
+     "reading": "wꜣḏ",
+     "glyphs": [
+      {
+       "s": "𓇆",
+       "sign": "M14",
+       "role": "phon",
+       "tr": "wꜣḏ"
+      },
+      {
+       "s": "𓏜",
+       "sign": "Y1a",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wꜣḏ",
+       "gloss": "papyrus stem; papyrus-column, papyrus-sceptre or amulet (noun) · also green, fresh, flourishing (adjective; verb wꜣḏ 'be green') (Budge: 'tablet') · also fresh plants, greens, vegetables (noun)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "wadj",
+     "q": "0-1",
+     "rubric": true
+    }
+   ],
+   "l": "if · making · writing · this · upon-it · will-be · he · flourishing",
+   "i": "If this writing is made upon it, he will flourish,",
+   "n": "Still in red. ir 'if' (reed i, mouth r) heads the condition, as in the introduction's ir ꜥq·i. irt is the eye ir with t: the infinitive of iri 'make', whose t is the regular ending of the infinitive in verbs of this class, and šꜥt tn is its object — ir + infinitive, 'if (there is) the making of this writing', the usual way a rubric sets out its condition. The English says it as a passive, 'if this writing is made'. The papyrus writes only a flat papyrus roll, t, a stroke, a tied band and the seated man, with no pool š and no arm ꜥ; read šꜥt 'writing, document', with Budge (śāt), from the t and the sense. The seated man is unexpected in this word. The papyrus roll with t and stroke is also the regular writing of mḏꜣt 'book, papyrus roll', which would fit these signs at least as well and gives much the same sense; the reading šꜥt rests on Budge. tn 'this' (loaf t, water n) is feminine, agreeing with šꜥt. ḥr·f 'upon it' (face and stroke, ·f) refers to the ground or the picture. wnn·f is the hare wn with n as complement, a second n and ·f: the sḏm·f of wnn 'be', 'he will be' — the same signs that the introduction reads as wn·n·i, past; here the promise points to the future. wꜣḏ (the papyrus clump with cobra and papyrus roll) is 'flourish, be green': wnn·f wꜣḏ, 'he will be flourishing'. The rubric now turns from what to do to what it will bring."
+  },
+  {
+   "ln": 6,
+   "t": "𓄟𓋴𓏏𓈖𓀀𓁐𓏤 𓏌𓏤 𓄟𓋴𓏏𓈖𓀀𓁐𓏤𓆑 𓇅𓆓𓏜 𓂋𓂝𓁚 𓂜 𓎛𓏏𓎺𓄿𓏲𓅪𓈖𓏥",
+   "words": [
+    {
+     "reading": "msw",
+     "glyphs": [
+      {
+       "s": "𓄟",
+       "sign": "F31",
+       "role": "phon",
+       "tr": "ms"
+      },
+      {
+       "s": "𓋴",
+       "sign": "S29",
+       "role": "comp",
+       "tr": "s"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓀀",
+       "sign": "A1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓁐",
+       "sign": "B1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓏤",
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "msw",
+       "gloss": "children, offspring (noun; plural of ms 'child', from msi 'give birth')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+       ]
+      }
+     ],
+     "say": "mesu",
+     "q": "0-1-2:3-4-5-6",
+     "rubric": true
+    },
+    {
+     "reading": "nw",
+     "glyphs": [
+      {
+       "s": "𓏌",
+       "sign": "W24",
+       "role": "phon",
+       "tr": "nw"
+      },
+      {
+       "s": "𓏤",
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ny",
+       "gloss": "of (the genitive adjective; written n, fem. nt, pl. nw): rꜣ n ꜥq \"spell of entering\"",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "nu",
+     "q": "0:1",
+     "rubric": true
+    },
+    {
+     "reading": "msw·f",
+     "glyphs": [
+      {
+       "s": "𓄟",
+       "sign": "F31",
+       "role": "phon",
+       "tr": "ms"
+      },
+      {
+       "s": "𓋴",
+       "sign": "S29",
+       "role": "comp",
+       "tr": "s"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓀀",
+       "sign": "A1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓁐",
+       "sign": "B1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓏤",
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓆑",
+       "sign": "I9",
+       "role": "suff",
+       "tr": "·f"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "msw",
+       "gloss": "children, offspring (noun; plural of ms 'child', from msi 'give birth')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+       ]
+      },
+      {
+       "lemma": "·f",
+       "gloss": "he, him, his, it (3rd person masculine singular suffix pronoun; the horned viper)",
+       "g": [
+        7
+       ]
+      }
+     ],
+     "say": "mesuef",
+     "q": "0-1-2:3-4-5-6-7",
+     "rubric": true
+    },
+    {
+     "reading": "wꜣḏ",
+     "glyphs": [
+      {
+       "s": "𓇅",
+       "sign": "M13",
+       "role": "phon",
+       "tr": "wꜣḏ"
+      },
+      {
+       "s": "𓆓",
+       "sign": "I10",
+       "role": "comp",
+       "tr": "ḏ"
+      },
+      {
+       "s": "𓏜",
+       "sign": "Y1a",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wꜣḏ",
+       "gloss": "papyrus stem; papyrus-column, papyrus-sceptre or amulet (noun) · also green, fresh, flourishing (adjective; verb wꜣḏ 'be green') (Budge: 'tablet') · also fresh plants, greens, vegetables (noun)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "say": "wadj",
+     "rubric": true
+    },
+    {
+     "reading": "rꜥ",
+     "glyphs": [
+      {
+       "s": "𓂋",
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𓂝",
+       "sign": "D36",
+       "role": "phon",
+       "tr": "ꜥ"
+      },
+      {
+       "s": "𓁚",
+       "sign": "C1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rꜥ",
+       "gloss": "Ra, the sun-god (god's name; Budge: Rā)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "say": "Ra",
+     "q": "0:1-2",
+     "rubric": true
+    },
+    {
+     "reading": "n",
+     "glyphs": [
+      {
+       "s": "𓂜",
+       "sign": "D35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "n",
+       "gloss": "not; negates the verb ('I have not …') · also in n wn \"there is not\" · a second word of the same spelling: the preposition \"to, for\" (n·i \"to me\") · the negative also before a noun, 'without, there being no …'",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "say": "en",
+     "rubric": true
+    },
+    {
+     "reading": "ḥtꜣw",
+     "glyphs": [
+      {
+       "s": "𓎛",
+       "sign": "V28",
+       "role": "phon",
+       "tr": "ḥ"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓎺",
+       "sign": "W10",
+       "role": "phon",
+       "tr": "ꜣ",
+       "approx": true
+      },
+      {
+       "s": "𓄿",
+       "sign": "G1",
+       "role": "comp",
+       "tr": "ꜣ"
+      },
+      {
+       "s": "𓏲",
+       "sign": "Z7",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𓅪",
+       "sign": "G37",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓏥",
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḥtꜣw",
+       "gloss": "failing, hindrance (noun; meaning uncertain)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+       ]
+      }
+     ],
+     "say": "hetau",
+     "q": "0-1:2-3-4-5:6:7",
+     "rubric": true
+    }
+   ],
+   "l": "children · of · children · his · flourishing · (like) · Ra · without · failing(?)",
+   "i": "and the children of his children will flourish like Ra, without fail(?).",
+   "n": "Still in red. The papyrus writes ms-s-t-n with the man and the woman, twice; read msw 'children' both times: the three fox-skins ms with s as complement, then a t and an n that have no place in the word and are not read, a seated man and woman (the classifier of people) and a stroke; the plural is not otherwise marked (Budge: mesten, sic). nw (the pot nw and stroke) is the plural form of the genitive 'of'; msw nw msw·f is 'the children of his children', his descendants. wꜣḏ is now written with the single papyrus stem, the cobra ḏ as complement and the papyrus roll. rꜥ 'Ra' is mouth r, arm ꜥ and the seated god with the sun-disk and uraeus. No 'like' is written before Ra (Budge supplies it too); 'flourishing (as) Ra' is the likely sense. n (the arms spread, D35) is 'not, without'. The word after it is doubtful: wick ḥ, t, a tub-shaped sign (W10, an approximation of the print) and vulture ꜣ, coil w, and a sparrow — the classifier of small, bad or lacking things — standing on a water-line n over plural strokes. It is read ḥtꜣw, a word for failing or hindrance, after Budge's ḥettau ('without intermission'); the tub seems to stand for ꜣ, as the pot does in štꜣw in the introduction, and the n under the sparrow is not accounted for. The sense 'without fail' fits, but the reading is not sure."
+  },
+  {
+   "ln": 6,
+   "t": "𓃹𓈖𓈖𓆑 𓐝 𓎤𓂧 𓄣𓏤 𓈖 𓇓𓏏𓈖𓁐 𓐝 𓍲𓈖𓇋𓇋𓀙𓀀𓏤𓆑",
+   "words": [
+    {
+     "reading": "wnn·f",
+     "glyphs": [
+      {
+       "s": "𓃹",
+       "sign": "E34",
+       "role": "phon",
+       "tr": "wn"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "comp",
+       "tr": "n"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓆑",
+       "sign": "I9",
+       "role": "suff",
+       "tr": "·f"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wnn",
+       "gloss": "to be, exist (verb; wn·n·i \"I have been\"; n wn \"there is not\")",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "·f",
+       "gloss": "he, him, his, it (3rd person masculine singular suffix pronoun; the horned viper)",
+       "g": [
+        3
+       ]
+      }
+     ],
+     "say": "wenenef",
+     "q": "0:1-2:3",
+     "rubric": true
+    },
+    {
+     "reading": "m",
+     "glyphs": [
+      {
+       "s": "𓐝",
+       "sign": "Aa15",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "m",
+       "gloss": "in, from (preposition) · also \"with\" (instrument), \"as\" (m bnw \"as the Bennu\"), \"on\" (living on), \"by\"; im before a suffix (im·i, im·f, im·tn) · a second word of the same spelling: what? (interrogative pronoun; r m 'for what? why?') · also 'among' (with a group of people)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "say": "em",
+     "rubric": true
+    },
+    {
+     "reading": "sšd",
+     "glyphs": [
+      {
+       "s": "𓎤",
+       "sign": "V33",
+       "role": "phon",
+       "tr": "sš",
+       "approx": true
+      },
+      {
+       "s": "𓂧",
+       "sign": "D46",
+       "role": "phon",
+       "tr": "d",
+       "approx": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "sšd",
+       "gloss": "a word not identified here (meaning uncertain; Budge: seśeṭ, sic)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "seshed",
+     "q": "0:1",
+     "rubric": true
+    },
+    {
+     "reading": "ib",
+     "glyphs": [
+      {
+       "s": "𓄣",
+       "sign": "F34",
+       "role": "log",
+       "tr": "ib"
+      },
+      {
+       "s": "𓏤",
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ib",
+       "gloss": "the heart, mind",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "ib",
+     "q": "0:1",
+     "rubric": true
+    },
+    {
+     "reading": "n",
+     "glyphs": [
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ny",
+       "gloss": "of (the genitive adjective; written n, fem. nt, pl. nw): rꜣ n ꜥq \"spell of entering\"",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "say": "en",
+     "rubric": true
+    },
+    {
+     "reading": "nswt",
+     "glyphs": [
+      {
+       "s": "𓇓",
+       "sign": "M23",
+       "role": "phon",
+       "tr": "nsw"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "comp",
+       "tr": "n"
+      },
+      {
+       "s": "𓁐",
+       "sign": "B1",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nswt",
+       "gloss": "the king",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ],
+     "say": "nesut",
+     "q": "0-1:2-3"
+    },
+    {
+     "reading": "m",
+     "glyphs": [
+      {
+       "s": "𓐝",
+       "sign": "Aa15",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "m",
+       "gloss": "in, from (preposition) · also \"with\" (instrument), \"as\" (m bnw \"as the Bennu\"), \"on\" (living on), \"by\"; im before a suffix (im·i, im·f, im·tn) · a second word of the same spelling: what? (interrogative pronoun; r m 'for what? why?') · also 'among' (with a group of people)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "say": "em",
+     "rubric": true
+    },
+    {
+     "reading": "šnyw·f",
+     "glyphs": [
+      {
+       "s": "𓍲",
+       "sign": "V7",
+       "role": "phon",
+       "tr": "šn"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "comp",
+       "tr": "n"
+      },
+      {
+       "s": "𓇋",
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𓇋",
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𓀙",
+       "sign": "A21",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      },
+      {
+       "s": "𓀀",
+       "sign": "A1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓏤",
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓆑",
+       "sign": "I9",
+       "role": "suff",
+       "tr": "·f"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šny",
+       "gloss": "courtier, one of the retinue (noun; plural šnyw, 'those who surround')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+       ]
+      },
+      {
+       "lemma": "·f",
+       "gloss": "he, him, his, it (3rd person masculine singular suffix pronoun; the horned viper)",
+       "g": [
+        7
+       ]
+      }
+     ],
+     "say": "shenyuef",
+     "q": "0:1-2-3-4-5-6-7"
+    }
+   ],
+   "l": "will-be · he · in · …(?) · of-heart · of · the-king · among · courtiers · his",
+   "i": "He will be in the … (?) of the king's heart, among his courtiers.",
+   "n": "The papyrus writes this in red as far as m 'among', except for nswt 'king', which stands in black; from šnyw·f on the rubric is in black. wnn·f 'he will be' as on line 5, and m 'in' (Aa15). The next word is doubtful and is left untranslated: a sign like a tied bag or spindle (coded V33, an approximation) over a long flat sign taken as the hand d (also approximated); Budge reads it seśeṭ, marks it sic, and gives no English. Budge's footnote shows that other papyri have here a phrase meaning 'satisfying the heart of the king (and of his nobles)', so a word of pleasing or favour is expected, but what Ani's scribe wrote cannot be read with any confidence. ib 'heart' is the heart sign with its stroke; n is the genitive. nswt 'king' is the sedge (nsw) with t and n, and a seated figure (approximated in the print; perhaps a seated noble or king) as classifier. šnyw·f 'his courtiers' is the looped cord šn, n, two reeds y, an official holding a staff (approximated) and a man, a stroke, and ·f: the people around the king, the court. No plural strokes are written; the plural is taken from m 'among'. To be favoured at court was the reward of a good official in life, and the rubric promises it again in death."
+  },
+  {
+   "ln": 7,
+   "t": "𓇋𓅱 𓏲𓂞𓆑 𓍲𓈖𓊃𓈖𓉐 𓂧𓊃𓏭𓎯 𓅨𓂋 𓈖 𓇋𓏲𓆑𓄹𓏥 𓁷𓏤 𓊯𓏏𓏏 𓈖𓏏 𓊹𓀭 𓉻𓂝𓏏𓏛",
+   "words": [
+    {
+     "reading": "iw",
+     "glyphs": [
+      {
+       "s": "𓇋",
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𓅱",
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "iw",
+       "gloss": "opens a statement, often with a suffix (iw·f \"he …\"); not translated (particle)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "iu"
+    },
+    {
+     "reading": "di·w·f",
+     "glyphs": [
+      {
+       "s": "𓏲",
+       "sign": "Z7",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𓂞",
+       "sign": "D37",
+       "role": "phon",
+       "tr": "di"
+      },
+      {
+       "s": "𓆑",
+       "sign": "I9",
+       "role": "suff",
+       "tr": "·f"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "rdi",
+       "gloss": "to give, put, place; with a sḏm·f, to cause, let (verb; di·f pr·i \"he let me come forth\")",
+       "g": [
+        1
+       ]
+      },
+      {
+       "lemma": "sḏm·w",
+       "gloss": "the w sometimes written with the passive sḏm, \"… is done, … is given\" (verb form)",
+       "g": [
+        0
+       ]
+      },
+      {
+       "lemma": "·f",
+       "gloss": "he, him, his, it (3rd person masculine singular suffix pronoun; the horned viper)",
+       "g": [
+        2
+       ]
+      }
+     ],
+     "say": "diuef",
+     "q": "0:1-2"
+    },
+    {
+     "reading": "šns",
+     "glyphs": [
+      {
+       "s": "𓍲",
+       "sign": "V7",
+       "role": "phon",
+       "tr": "šn"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "comp",
+       "tr": "n"
+      },
+      {
+       "s": "𓊃",
+       "sign": "O34",
+       "role": "phon",
+       "tr": "z"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓉐",
+       "sign": "O1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šns",
+       "gloss": "cake, loaf (noun)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ],
+     "say": "shenes",
+     "q": "0:1-2:3:4"
+    },
+    {
+     "reading": "ds",
+     "glyphs": [
+      {
+       "s": "𓂧",
+       "sign": "D46",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "s": "𓊃",
+       "sign": "O34",
+       "role": "phon",
+       "tr": "z"
+      },
+      {
+       "s": "𓏭",
+       "sign": "Z4",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓎯",
+       "sign": "W1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ds",
+       "gloss": "flint; flint knife (noun) · a second word of the same spelling: jug, jar (noun; written with the small jar)",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ],
+     "say": "des",
+     "q": "0:1-2-3"
+    },
+    {
+     "reading": "wr",
+     "glyphs": [
+      {
+       "s": "𓅨",
+       "sign": "G36",
+       "role": "phon",
+       "tr": "wr"
+      },
+      {
+       "s": "𓂋",
+       "sign": "D21",
+       "role": "comp",
+       "tr": "r"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wr",
+       "gloss": "great (adjective); a great one, a great amount (noun)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "wer",
+     "q": "0:1"
+    },
+    {
+     "reading": "n",
+     "glyphs": [
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ny",
+       "gloss": "of (the genitive adjective; written n, fem. nt, pl. nw): rꜣ n ꜥq \"spell of entering\"",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "say": "en"
+    },
+    {
+     "reading": "iwf",
+     "glyphs": [
+      {
+       "s": "𓇋",
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𓏲",
+       "sign": "Z7",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𓆑",
+       "sign": "I9",
+       "role": "phon",
+       "tr": "f"
+      },
+      {
+       "s": "𓄹",
+       "sign": "F51",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓏥",
+       "sign": "Z2",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "iwf",
+       "gloss": "meat, flesh (noun)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ],
+     "say": "iuf",
+     "q": "0-1:2-3:4"
+    },
+    {
+     "reading": "ḥr",
+     "glyphs": [
+      {
+       "s": "𓁷",
+       "sign": "D2",
+       "role": "log",
+       "tr": "ḥr"
+      },
+      {
+       "s": "𓏤",
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḥr",
+       "gloss": "face; (preposition) upon, on, over, concerning · a second word of the same spelling: Horus, the falcon god, son of Osiris and Isis; the sun as a falcon (god's name; Budge: Ḥeru)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "her",
+     "q": "0:1"
+    },
+    {
+     "reading": "ḫꜣwt",
+     "glyphs": [
+      {
+       "s": "𓊯",
+       "sign": "R1",
+       "role": "log",
+       "tr": "ḫꜣwt",
+       "approx": true
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "comp",
+       "tr": "t"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "comp",
+       "tr": "t"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḫꜣwt",
+       "gloss": "altar, offering table (noun)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "say": "khaut",
+     "q": "0-1:2"
+    },
+    {
+     "reading": "nt",
+     "glyphs": [
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ny",
+       "gloss": "of (the genitive adjective; written n, fem. nt, pl. nw): rꜣ n ꜥq \"spell of entering\"",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "net",
+     "q": "0:1"
+    },
+    {
+     "reading": "nṯr",
+     "glyphs": [
+      {
+       "s": "𓊹",
+       "sign": "R8",
+       "role": "phon",
+       "tr": "nṯr"
+      },
+      {
+       "s": "𓀭",
+       "sign": "A40",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nṯr",
+       "gloss": "god",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "netjer"
+    },
+    {
+     "reading": "ꜥꜣt",
+     "glyphs": [
+      {
+       "s": "𓉻",
+       "sign": "O29",
+       "role": "phon",
+       "tr": "ꜥꜣ"
+      },
+      {
+       "s": "𓂝",
+       "sign": "D36",
+       "role": "comp",
+       "tr": "ꜥ"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓏛",
+       "sign": "Y1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ꜥꜣ",
+       "gloss": "great (adjective); (adverb) here, hither · a second word of the same spelling: donkey, ass (noun) · a third word of the same spelling: door, door-leaf (noun; iry-ꜥꜣ \"doorkeeper\")",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ],
+     "say": "aat",
+     "q": "0:1-2:3"
+    }
+   ],
+   "l": "(and) · are-given · to-him · cakes · jugs · a-great-(portion) · of · meat · upon · the-altar · of · the-god · great",
+   "i": "And there will be given to him cakes, jugs (of drink) and a great portion of meat upon the altar of the great god.",
+   "n": "From here the text is in black. iw (reed i, quail chick w) opens the statement. The next group is the coil w over the giving arm di and ·f: it is taken as the passive sḏm·w of rdi 'give', 'there is given', with its w written above the arm, and ·f as 'to him' with the preposition n left out. Read as it stands, di·f would be 'he gives', which does not fit, since Ani is the one who receives; Budge too takes it as 'be given to him'. The papyrus writes šn-n-s-n with a small house-like sign; read šns 'cake, loaf': the looped cord šn with n, bolt s, a second n that has no place in the word (Budge: śensen, sic), and the house-shaped sign as classifier. ds 'jug' (hand d, bolt s, two strokes, and the same small jar as for oil and beer) is the jar that held beer or water. wr (swallow wr with r) is 'great' used as a noun, 'a great amount'; with n iwf, 'of meat', it is taken as a large portion. iwf 'meat, flesh' is reed i, coil w, f, a piece of flesh and plural strokes. ḥr 'upon'. ḫꜣwt 'altar, offering table', a feminine noun, is a bowl on a pedestal with strokes of food above it (approximated in the print), with t written twice; no plural strokes are written, so it is taken as singular (Budge: 'the tables'). nt is the feminine genitive agreeing with ḫꜣwt; nṯr 'god' is the flag with the seated god. ꜥꜣt 'great' (the column ꜥꜣ, arm ꜥ, t and the papyrus roll) has a feminine t: either it agrees with the feminine ḫꜣwt ('the great altar of the god'), or the t is written by attraction; it is translated with 'god', as in the usual phrase nṯr ꜥꜣ 'the great god'. The dead eats from the food laid before the great god — a share of the temple offerings."
+  },
+  {
+   "ln": 8,
+   "t": "𓂜 𓂧𓈖𓇋𓊩𓏲𓍃𓏏𓏲𓆑 𓁷𓏤 𓋴𓇼𓃀𓄿𓉐 𓎟 𓈖 𓋀𓏏𓏏𓈉",
+   "words": [
+    {
+     "reading": "n",
+     "glyphs": [
+      {
+       "s": "𓂜",
+       "sign": "D35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "n",
+       "gloss": "not; negates the verb ('I have not …') · also in n wn \"there is not\" · a second word of the same spelling: the preposition \"to, for\" (n·i \"to me\") · the negative also before a noun, 'without, there being no …'",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "say": "en"
+    },
+    {
+     "reading": "dni·tw·f",
+     "glyphs": [
+      {
+       "s": "𓂧",
+       "sign": "D46",
+       "role": "phon",
+       "tr": "d"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓇋",
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𓊩",
+       "sign": "Q2",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      },
+      {
+       "s": "𓏲",
+       "sign": "Z7",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𓍃",
+       "sign": "U15",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓏲",
+       "sign": "Z7",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𓆑",
+       "sign": "I9",
+       "role": "suff",
+       "tr": "·f"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "dni",
+       "gloss": "to hold back, restrain, turn back (verb)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      },
+      {
+       "lemma": "sḏm·tw·f",
+       "gloss": "the tw of the sḏm·tw·f, the passive or impersonal form (\"one …\", \"… is done\") (verb form; written after the verb, before its suffix)",
+       "g": [
+        6,
+        7
+       ]
+      },
+      {
+       "lemma": "·f",
+       "gloss": "he, him, his, it (3rd person masculine singular suffix pronoun; the horned viper)",
+       "g": [
+        8
+       ]
+      }
+     ],
+     "say": "denituef",
+     "q": "0:1-2-3-4:5-6*7:8"
+    },
+    {
+     "reading": "ḥr",
+     "glyphs": [
+      {
+       "s": "𓁷",
+       "sign": "D2",
+       "role": "log",
+       "tr": "ḥr"
+      },
+      {
+       "s": "𓏤",
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḥr",
+       "gloss": "face; (preposition) upon, on, over, concerning · a second word of the same spelling: Horus, the falcon god, son of Osiris and Isis; the sun as a falcon (god's name; Budge: Ḥeru)",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "her",
+     "q": "0:1"
+    },
+    {
+     "reading": "sbꜣ",
+     "glyphs": [
+      {
+       "s": "𓋴",
+       "sign": "S29",
+       "role": "comp",
+       "tr": "s"
+      },
+      {
+       "s": "𓇼",
+       "sign": "N14",
+       "role": "phon",
+       "tr": "sbꜣ"
+      },
+      {
+       "s": "𓃀",
+       "sign": "D58",
+       "role": "comp",
+       "tr": "b"
+      },
+      {
+       "s": "𓄿",
+       "sign": "G1",
+       "role": "comp",
+       "tr": "ꜣ"
+      },
+      {
+       "s": "𓉐",
+       "sign": "O1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "sbꜣ",
+       "gloss": "door, gate (noun)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ],
+     "say": "seba"
+    },
+    {
+     "reading": "nb",
+     "glyphs": [
+      {
+       "s": "𓎟",
+       "sign": "V30",
+       "role": "phon",
+       "tr": "nb"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nb",
+       "gloss": "lord, master, possessor (of); (adjective, after a noun) every, all",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "say": "neb"
+    },
+    {
+     "reading": "n",
+     "glyphs": [
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ny",
+       "gloss": "of (the genitive adjective; written n, fem. nt, pl. nw): rꜣ n ꜥq \"spell of entering\"",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "say": "en"
+    },
+    {
+     "reading": "imntt",
+     "glyphs": [
+      {
+       "s": "𓋀",
+       "sign": "R14",
+       "role": "phon",
+       "tr": "imnt"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "comp",
+       "tr": "t"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓈉",
+       "sign": "N25",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "imntt",
+       "gloss": "the West, the realm of the dead",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ],
+     "say": "imentet",
+     "q": "0-1*2:3"
+    }
+   ],
+   "l": "not · is-held-back · he · at · gate · any · of · the-West",
+   "i": "He will not be held back at any gate of the West.",
+   "n": "n (the arms spread) + the passive sḏm·tw·f: 'he is not held back'. In the classical language n + sḏm·f is past and the future 'will not' is nn; the papyrus writes a single n here, as other copies of these spells sometimes do, and the promise is taken as future. dni 'hold back, restrain, turn back' is hand d, water n, reed i, a tall chair-like sign (coded Q2, an approximation; its value here is not clear and it is taken as a classifier), coil w, and the low flat sign printed as U15 — where the forearm with stick, the classifier of force, would suit this verb, as in earlier parts — then t and w, the tw of the passive, and ·f. Budge reads ṭenau-tuf and takes it as 'separated'; with the chair-like sign unexplained, the verb and its sense are not certain. ḥr 'at' (the face and stroke). sbꜣ 'gate, door' is the folded cloth s, the star sbꜣ, b and ꜣ as complements, and a house-shaped sign as classifier where the door sign might be expected. nb 'any' (the basket) follows its noun. n imntt 'of the West': the emblem of the West with t, t and the hill-country sign, as in the introduction. The gates of the world below, each with its keeper, are the subject of other spells; this one promises that none will stop him."
+  },
+  {
+   "ln": 8,
+   "t": "𓋴𓏏𓎺𓄿𓅱𓏴𓂻𓏏𓅱𓆑 𓎛𓈖𓂝 𓇓𓏏𓈖𓇋𓇋𓏏𓆤𓄿𓏏𓀲𓏤",
+   "words": [
+    {
+     "reading": "stꜣ·tw·f",
+     "glyphs": [
+      {
+       "s": "𓋴",
+       "sign": "S29",
+       "role": "phon",
+       "tr": "s"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓎺",
+       "sign": "W10",
+       "role": "phon",
+       "tr": "ꜣ",
+       "approx": true
+      },
+      {
+       "s": "𓄿",
+       "sign": "G1",
+       "role": "comp",
+       "tr": "ꜣ"
+      },
+      {
+       "s": "𓅱",
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𓏴",
+       "sign": "Z9",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓂻",
+       "sign": "D54",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓅱",
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𓆑",
+       "sign": "I9",
+       "role": "suff",
+       "tr": "·f"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "stꜣ",
+       "gloss": "to drag, draw, haul (verb; of hauling a sledge or towing a boat)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+       ]
+      },
+      {
+       "lemma": "sḏm·tw·f",
+       "gloss": "the tw of the sḏm·tw·f, the passive or impersonal form (\"one …\", \"… is done\") (verb form; written after the verb, before its suffix)",
+       "g": [
+        7,
+        8
+       ]
+      },
+      {
+       "lemma": "·f",
+       "gloss": "he, him, his, it (3rd person masculine singular suffix pronoun; the horned viper)",
+       "g": [
+        9
+       ]
+      }
+     ],
+     "say": "setatuef",
+     "q": "0-1:2-3-4-5:6-7-8-9"
+    },
+    {
+     "reading": "ḥnꜥ",
+     "glyphs": [
+      {
+       "s": "𓎛",
+       "sign": "V28",
+       "role": "phon",
+       "tr": "ḥ"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓂝",
+       "sign": "D36",
+       "role": "phon",
+       "tr": "ꜥ"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḥnꜥ",
+       "gloss": "with, together with (preposition)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "say": "hena",
+     "q": "0-1:2"
+    },
+    {
+     "reading": "nswt-bity",
+     "glyphs": [
+      {
+       "s": "𓇓",
+       "sign": "M23",
+       "role": "phon",
+       "tr": "nsw"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "comp",
+       "tr": "n"
+      },
+      {
+       "s": "𓇋",
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𓇋",
+       "sign": "M17",
+       "role": "phon",
+       "tr": "i"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓆤",
+       "sign": "L2",
+       "role": "phon",
+       "tr": "bit"
+      },
+      {
+       "s": "𓄿",
+       "sign": "G1",
+       "role": "phon",
+       "tr": "ꜣ"
+      },
+      {
+       "s": "𓏏",
+       "sign": "X1",
+       "role": "phon",
+       "tr": "t"
+      },
+      {
+       "s": "𓀲",
+       "sign": "A43",
+       "role": "det",
+       "tr": "",
+       "approx": true
+      },
+      {
+       "s": "𓏤",
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "nswt-bity",
+       "gloss": "king of Upper and Lower Egypt (title; lit. 'he of the sedge and the bee')",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+       ]
+      }
+     ],
+     "say": "nesut-bity",
+     "q": "0-1:2-3-4-5-6-7-8-9-10"
+    }
+   ],
+   "l": "is-drawn · he · together-with · the-king-of-Upper-and-Lower-Egypt",
+   "i": "He will be drawn along together with the king of Upper and Lower Egypt,",
+   "n": "stꜣ·tw·f is the passive sḏm·tw·f again: stꜣ 'drag, draw, haul' (the word for hauling a sledge or towing a boat in procession) is the folded cloth s, t, the tub-shaped sign (W10, approximated, as in ḥtꜣw on line 6; it seems to stand for ꜣ) with vulture ꜣ and w, the crossed sticks and the walking legs as classifiers; then t-w and ·f. Budge's numeral 9 stands inside this word in the print. ḥnꜥ 'together with' (wick ḥ, water n, arm ꜥ). nswt-bity 'king of Upper and Lower Egypt' is written oddly: the sedge nsw with t and n, two reeds and a t, then the bee bit with a vulture ꜣ and t, and a small seated king with crown and flail (approximated in the print) and a stroke. The two reeds may be the y of bity written early, and the vulture is not accounted for; Budge transliterates sutenit-bat with a query. A single seated king and a single stroke are written, and a single stroke does not mark a plural: what stands is the singular, 'the king of Upper and Lower Egypt' (perhaps meant generally, any king). Budge translates 'kings', which the signs do not show. To go in with the kings was to share in the royal afterlife that was once theirs alone."
+  },
+  {
+   "ln": 9,
+   "t": "𓃹𓈖𓈖𓆑 𓅓 𓌞𓋴𓅱𓂻 𓈖 𓊨𓁹𓀭 𓂋𓐛𓏤 𓃹𓈖𓈖𓄤𓀭",
+   "words": [
+    {
+     "reading": "wnn·f",
+     "glyphs": [
+      {
+       "s": "𓃹",
+       "sign": "E34",
+       "role": "phon",
+       "tr": "wn"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "comp",
+       "tr": "n"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓆑",
+       "sign": "I9",
+       "role": "suff",
+       "tr": "·f"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wnn",
+       "gloss": "to be, exist (verb; wn·n·i \"I have been\"; n wn \"there is not\")",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "lemma": "·f",
+       "gloss": "he, him, his, it (3rd person masculine singular suffix pronoun; the horned viper)",
+       "g": [
+        3
+       ]
+      }
+     ],
+     "say": "wenenef",
+     "q": "0:1-2:3"
+    },
+    {
+     "reading": "m",
+     "glyphs": [
+      {
+       "s": "𓅓",
+       "sign": "G17",
+       "role": "phon",
+       "tr": "m"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "m",
+       "gloss": "in, from (preposition) · also \"with\" (instrument), \"as\" (m bnw \"as the Bennu\"), \"on\" (living on), \"by\"; im before a suffix (im·i, im·f, im·tn) · a second word of the same spelling: what? (interrogative pronoun; r m 'for what? why?') · also 'among' (with a group of people)",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "say": "em"
+    },
+    {
+     "reading": "šmsw",
+     "glyphs": [
+      {
+       "s": "𓌞",
+       "sign": "T18",
+       "role": "phon",
+       "tr": "šms"
+      },
+      {
+       "s": "𓋴",
+       "sign": "S29",
+       "role": "comp",
+       "tr": "s"
+      },
+      {
+       "s": "𓅱",
+       "sign": "G43",
+       "role": "phon",
+       "tr": "w"
+      },
+      {
+       "s": "𓂻",
+       "sign": "D54",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šmsw",
+       "gloss": "follower, attendant (noun; from šms 'to follow')",
+       "g": [
+        0,
+        1,
+        2,
+        3
+       ]
+      }
+     ],
+     "say": "shemsu"
+    },
+    {
+     "reading": "n",
+     "glyphs": [
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ny",
+       "gloss": "of (the genitive adjective; written n, fem. nt, pl. nw): rꜣ n ꜥq \"spell of entering\"",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "say": "en"
+    },
+    {
+     "reading": "wsir",
+     "glyphs": [
+      {
+       "s": "𓊨",
+       "sign": "Q1",
+       "role": "phon",
+       "tr": "ws"
+      },
+      {
+       "s": "𓁹",
+       "sign": "D4",
+       "role": "phon",
+       "tr": "ir"
+      },
+      {
+       "s": "𓀭",
+       "sign": "A40",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wsir",
+       "gloss": "Osiris, god of the dead and king of the world below; Wsir N \"the Osiris N\", the dead person (god's name; Budge: Àusàr)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "say": "Osiris",
+     "q": "0:1-2"
+    },
+    {
+     "reading": "r-gs",
+     "glyphs": [
+      {
+       "s": "𓂋",
+       "sign": "D21",
+       "role": "phon",
+       "tr": "r"
+      },
+      {
+       "s": "𓐛",
+       "sign": "Aa13",
+       "role": "log",
+       "tr": "gs"
+      },
+      {
+       "s": "𓏤",
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "r-gs",
+       "gloss": "beside, at the side of (preposition; r 'at' + gs 'side')",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "say": "er-ges",
+     "q": "0:1:2"
+    },
+    {
+     "reading": "wnn-nfr",
+     "glyphs": [
+      {
+       "s": "𓃹",
+       "sign": "E34",
+       "role": "phon",
+       "tr": "wn"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "comp",
+       "tr": "n"
+      },
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      },
+      {
+       "s": "𓄤",
+       "sign": "F35",
+       "role": "phon",
+       "tr": "nfr"
+      },
+      {
+       "s": "𓀭",
+       "sign": "A40",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "wnn-nfr",
+       "gloss": "Wennefer, 'he who is (always) perfect', a name of Osiris (god's name; Budge: Un-nefer)",
+       "g": [
+        0,
+        1,
+        2,
+        3,
+        4
+       ]
+      }
+     ],
+     "say": "Wenen-nefer",
+     "q": "0:1:2-3-4"
+    }
+   ],
+   "l": "will-be · he · among · the-followers · of · Osiris · beside · Wennefer",
+   "i": "and he will be among the followers of Osiris, beside Wennefer.",
+   "n": "wnn·f 'he will be' once more (hare, n, n, ·f), and m 'as, among' (the owl). šmsw 'followers' is the šms sign (a bundle carried on a staff, the sign of following) with s, w and the walking legs: those who walk in a god's train. n 'of' is the genitive; wsir 'Osiris' now has the seated god as classifier. r-gs 'beside, at the side of' is the mouth r with the sign gs (Aa13, an object of uncertain nature, printed here in the same shape as the m sign Aa15) and its stroke — gs 'side' made into a preposition. wnn-nfr 'Wennefer' (Budge: Un-nefer) is the hare wn with n twice, the heart-and-windpipe nfr and the seated god: 'he who is (always) perfect', a name of Osiris. To follow Osiris was the hope of every dead person: to live on in his company as he lives on."
+  },
+  {
+   "ln": 10,
+   "t": "𓍱𓏤𓏛 𓌳𓂝𓏜 𓁨𓏤 𓈖 𓊃𓊪𓊗",
+   "words": [
+    {
+     "reading": "šs",
+     "glyphs": [
+      {
+       "s": "𓍱",
+       "sign": "V6",
+       "role": "phon",
+       "tr": "šs"
+      },
+      {
+       "s": "𓏤",
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      },
+      {
+       "s": "𓏛",
+       "sign": "Y1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "šs",
+       "gloss": "truly, properly (adverb; meaning uncertain)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "say": "shes",
+     "q": "0*1:2"
+    },
+    {
+     "reading": "mꜣꜥ",
+     "glyphs": [
+      {
+       "s": "𓌳",
+       "sign": "U1",
+       "role": "phon",
+       "tr": "mꜣ"
+      },
+      {
+       "s": "𓂝",
+       "sign": "D36",
+       "role": "phon",
+       "tr": "ꜥ"
+      },
+      {
+       "s": "𓏜",
+       "sign": "Y1a",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "mꜣꜥ",
+       "gloss": "true, right, just (adjective)",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "say": "maa",
+     "q": "0:1-2"
+    },
+    {
+     "reading": "ḥḥ",
+     "glyphs": [
+      {
+       "s": "𓁨",
+       "sign": "C11",
+       "role": "num",
+       "tr": "ḥḥ"
+      },
+      {
+       "s": "𓏤",
+       "sign": "Z1",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ḥḥ",
+       "gloss": "a million, countless (number); Heh, the god of endlessness",
+       "g": [
+        0,
+        1
+       ]
+      }
+     ],
+     "say": "heh"
+    },
+    {
+     "reading": "n",
+     "glyphs": [
+      {
+       "s": "𓈖",
+       "sign": "N35",
+       "role": "phon",
+       "tr": "n"
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "ny",
+       "gloss": "of (the genitive adjective; written n, fem. nt, pl. nw): rꜣ n ꜥq \"spell of entering\"",
+       "g": [
+        0
+       ]
+      }
+     ],
+     "say": "en"
+    },
+    {
+     "reading": "sp",
+     "glyphs": [
+      {
+       "s": "𓊃",
+       "sign": "O34",
+       "role": "phon",
+       "tr": "z"
+      },
+      {
+       "s": "𓊪",
+       "sign": "Q3",
+       "role": "phon",
+       "tr": "p"
+      },
+      {
+       "s": "𓊗",
+       "sign": "O50",
+       "role": "det",
+       "tr": ""
+      }
+     ],
+     "morph": [
+      {
+       "lemma": "sp",
+       "gloss": "time, occasion; deed, case, matter (noun); sp sn 'twice'",
+       "g": [
+        0,
+        1,
+        2
+       ]
+      }
+     ],
+     "say": "sep",
+     "q": "0:1*2"
+    }
+   ],
+   "l": "truly · right · a-million · of · times",
+   "i": "Truly right, a million times.",
+   "n": "The closing formula of many rubrics, vouching that the spell works. šs is the knotted cord šs with a stroke and the papyrus roll: 'truly, properly'. mꜣꜥ 'right, true' is the sickle mꜣ and the arm ꜥ with the papyrus roll, written without the plinth: šs mꜣꜥ, 'truly right'. ḥḥ 'a million' is the kneeling god Heh with raised arms and his stroke, the sign for the largest number; n is the genitive; sp 'time, occasion' is bolt s and p, with the threshing floor (which can also write the word alone) as classifier. ḥḥ n sp, 'a million of times': it has been tried and found good again and again. With these words Spell 125 ends on Ani's papyrus."
+  }
+ ],
+ "glossary": {
+  "ir": "ir — to do, make (lemma iri) · a second word of the same spelling: the particle ir \"when, if\" at the head of a clause (ir ꜥq·i \"when I entered\"), here apparently also bringing in a question (\"do you know …?\") · also \"as for\" (particle; ir with a noun puts that noun first as the topic)",
+  "wsir": "wsir — Osiris, god of the dead and king of the world below; Wsir N \"the Osiris N\", the dead person (god's name; Budge: Àusàr)",
+  "ꜣny": "ꜣny — Ani, royal scribe of Thebes, for whom the papyrus was made (personal name)",
+  "mꜣꜥ-ḫrw": "mꜣꜥ-ḫrw — true of voice, vindicated (epithet; said of the dead whose words were found true at the judgement)",
+  "wnḫ": "wnḫ — to put on, clothe oneself in (verb; of garments)",
+  "·f": "·f — he, him, his, it (3rd person masculine singular suffix pronoun; the horned viper)",
+  "ḥbs": "ḥbs — to clothe, cover (verb); clothing (noun)",
+  "ṯbi": "ṯbi — to put on sandals, be shod (verb; stative 'shod')",
+  "m": "m — in, from (preposition) · also \"with\" (instrument), \"as\" (m bnw \"as the Bennu\"), \"on\" (living on), \"by\"; im before a suffix (im·i, im·f, im·tn) · a second word of the same spelling: what? (interrogative pronoun; r m 'for what? why?') · also 'among' (with a group of people)",
+  "ṯbt": "ṯbt — sandal (noun; plural ṯbwt, later written tbwt)",
+  "ḥḏ": "ḥḏ — to damage, defraud, diminish · a second word of the same spelling: white, bright (adjective; verb 'be white, bright'; written with the mace)",
+  "wrḥ": "wrḥ — to anoint, smear with oil (verb; stative 'anointed')",
+  "tpt": "tpt — finest oil, oil of the first quality (noun; from tp 'head, first'; reading and sense uncertain)",
+  "ny": "ny — of (the genitive adjective; written n, fem. nt, pl. nw): rꜣ n ꜥq \"spell of entering\"",
+  "ꜥntyw": "ꜥntyw — myrrh, aromatic resin (noun)",
+  "wdn": "wdn — to offer, make offering (verb)",
+  "n": "n — not; negates the verb ('I have not …') · also in n wn \"there is not\" · a second word of the same spelling: the preposition \"to, for\" (n·i \"to me\") · the negative also before a noun, 'without, there being no …'",
+  "kꜣ": "kꜣ — ka, the life-force that receives offerings (noun); plural kꜣw, perhaps also \"food, sustenance\" · a second word of the same spelling: bull (noun; written with the bull)",
+  "wꜣḏ": "wꜣḏ — papyrus stem; papyrus-column, papyrus-sceptre or amulet (noun) · also green, fresh, flourishing (adjective; verb wꜣḏ 'be green') (Budge: 'tablet') · also fresh plants, greens, vegetables (noun)",
+  "snṯr": "snṯr — incense (noun; lit. \"what makes divine\")",
+  "r": "r — to, towards, into, at (preposition); with an infinitive \"in order to\"; with the sḏmt·f \"until\"; after an imperative, with a suffix (ir·k), \"yourself, then\" · a second word of the same spelling: goose, fowl (noun; the goose sign)",
+  "ḥtp": "ḥtp — to be content, at peace, to rest (verb); peace; offering (noun; m ḥtp \"in peace\")",
+  "ḥnqt": "ḥnqt — beer (noun)",
+  "smw": "smw — herbs, vegetables, plants (noun)",
+  "ist": "ist — now, see (particle opening a new statement)",
+  "·k": "·k — you, your (2nd person masculine singular suffix pronoun; the basket sign)",
+  "sšm": "sšm — image, figure (noun) · also procedure, the way a thing is done",
+  "ḥtpt": "ḥtpt — offering, food-offering (noun; plural ḥtpwt)",
+  "sš": "sš — scribe (noun; the palette-and-pen sign) · a second word of the same spelling: to pass, go through (verb; doubtful here) · also to write, draw, paint (verb; written with the scribe's palette)",
+  "ḥr": "ḥr — face; (preposition) upon, on, over, concerning · a second word of the same spelling: Horus, the falcon god, son of Osiris and Isis; the sun as a falcon (god's name; Budge: Ḥeru)",
+  "sꜣtw": "sꜣtw — ground, soil, floor (noun)",
+  "wꜥb": "wꜥb — to be pure, clean; to purify oneself, bathe (verb); pure (adjective)",
+  "ḫnty": "ḫnty — foremost, who is at the head of (nisba adjective; ḫnty imntt \"Foremost of the West\", a title of Osiris) · a second word of the same spelling: a pigment or colour (noun; reading doubtful)",
+  "skr": "skr — to bury (verb; meaning uncertain)",
+  "sḏm·tw·f": "sḏm·tw·f — the tw of the sḏm·tw·f, the passive or impersonal form (\"one …\", \"… is done\") (verb form; written after the verb, before its suffix)",
+  "ꜣḥt": "ꜣḥt — field, arable land (noun)",
+  "nty": "nty — who, which, that (relative adjective); as a noun \"he who\"",
+  "ḫnd": "ḫnd — to tread, step, walk (on) (verb; ḫnd ḥr 'tread upon') · a second word of the same spelling: leg, shin (noun; reading uncertain)",
+  "sḏm·n·f": "sḏm·n·f — the n of the sḏm·n·f, marking a completed action (\"I have …\", \"I …ed\") (verb form; written between the verb and its suffix)",
+  "šꜣi": "šꜣi — pig (noun; the animal of Seth, unclean)",
+  "·s": "·s — she, her, it, its (3rd person feminine singular suffix pronoun; the folded cloth or the bolt)",
+  "šꜥt": "šꜥt — slaughter, massacre; the slaughtering (noun; from šꜥd 'cut') · a second word of the same spelling: letter, document, writing (noun)",
+  "tn": "tn — this (feminine demonstrative, after its noun; masculine pn)",
+  "wnn": "wnn — to be, exist (verb; wn·n·i \"I have been\"; n wn \"there is not\")",
+  "msw": "msw — children, offspring (noun; plural of ms 'child', from msi 'give birth')",
+  "rꜥ": "rꜥ — Ra, the sun-god (god's name; Budge: Rā)",
+  "ḥtꜣw": "ḥtꜣw — failing, hindrance (noun; meaning uncertain)",
+  "sšd": "sšd — a word not identified here (meaning uncertain; Budge: seśeṭ, sic)",
+  "ib": "ib — the heart, mind",
+  "nswt": "nswt — the king",
+  "šny": "šny — courtier, one of the retinue (noun; plural šnyw, 'those who surround')",
+  "iw": "iw — opens a statement, often with a suffix (iw·f \"he …\"); not translated (particle)",
+  "rdi": "rdi — to give, put, place; with a sḏm·f, to cause, let (verb; di·f pr·i \"he let me come forth\")",
+  "sḏm·w": "sḏm·w — the w sometimes written with the passive sḏm, \"… is done, … is given\" (verb form)",
+  "šns": "šns — cake, loaf (noun)",
+  "ds": "ds — flint; flint knife (noun) · a second word of the same spelling: jug, jar (noun; written with the small jar)",
+  "wr": "wr — great (adjective); a great one, a great amount (noun)",
+  "iwf": "iwf — meat, flesh (noun)",
+  "ḫꜣwt": "ḫꜣwt — altar, offering table (noun)",
+  "nṯr": "nṯr — god",
+  "ꜥꜣ": "ꜥꜣ — great (adjective); (adverb) here, hither · a second word of the same spelling: donkey, ass (noun) · a third word of the same spelling: door, door-leaf (noun; iry-ꜥꜣ \"doorkeeper\")",
+  "dni": "dni — to hold back, restrain, turn back (verb)",
+  "sbꜣ": "sbꜣ — door, gate (noun)",
+  "nb": "nb — lord, master, possessor (of); (adjective, after a noun) every, all",
+  "imntt": "imntt — the West, the realm of the dead",
+  "stꜣ": "stꜣ — to drag, draw, haul (verb; of hauling a sledge or towing a boat)",
+  "ḥnꜥ": "ḥnꜥ — with, together with (preposition)",
+  "nswt-bity": "nswt-bity — king of Upper and Lower Egypt (title; lit. 'he of the sedge and the bee')",
+  "šmsw": "šmsw — follower, attendant (noun; from šms 'to follow')",
+  "r-gs": "r-gs — beside, at the side of (preposition; r 'at' + gs 'side')",
+  "wnn-nfr": "wnn-nfr — Wennefer, 'he who is (always) perfect', a name of Osiris (god's name; Budge: Un-nefer)",
+  "šs": "šs — truly, properly (adverb; meaning uncertain)",
+  "mꜣꜥ": "mꜣꜥ — true, right, just (adjective)",
+  "ḥḥ": "ḥḥ — a million, countless (number); Heh, the god of endlessness",
+  "sp": "sp — time, occasion; deed, case, matter (noun); sp sn 'twice'"
+ }
+}

@@ -73,11 +73,12 @@ scan anomaly turns up later in the volume.
 | done (2026-11-18, unattended) | 703–710 | 681–688 | `archive/pp681-688.json` | Night 142 continues (no night label in these pages; 235 lines from P678L12 and still open); verse pp. 681, 684, 687; header ٦٨٤ (PDF 706) confirms −22; detector-dropped verse intro P684L11 recovered from the band; all joins continuous incl. 680→681 |
 | done (2026-11-18, unattended) | 711–718 | 689–696 | `archive/pp689-696.json` | Night 142 closes at P692L18 (320 lines, the longest night); night 143 label P692L19 (centred, `h`); verse pp. 690–691; headers ٦٨٩/٦٩٠ confirm −22; 714→715 join word مخه fixed by hand from the image; all joins continuous incl. 688→689 |
 | done (2026-11-18, unattended) | 719–726 | 697–704 | `archive/pp697-704.json` | Night 143 closes (P702L03); Night 144 label own line P702L04 (centred, h); no verse; two-line running header on PDF 719 (both lines skipped); headers ٦٩٧/٧٠٠/٧٠٢ confirm −22; all joins continuous incl. 696→697 |
+| done (2026-11-18, unattended) | 727–734 | 705–712 | `archive/pp705-712.json` | Night 144 continues (no night label or closing formula in these pages; 239 lines from P702L04 and still open); verse pp. 707–712 (the tale of Ḥammād the Bedouin); headers ٧٠٨ (PDF 730) and ٧١٢ (PDF 734) confirm −22; detector-dropped verse intro P708L11 recovered from the band; all joins continuous incl. 704→705 |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 726 (archive ends at printed p. 704, headers ٦٩٧/٧٠٠/٧٠٢ on PDF 719/722/724 confirm −22; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py now uses −22). Pages remaining: 212 PDF pages (727–938)
-(approximate, pending the corrected offset holding). Lines archived: 15629 (15447 + 182). calc.traineddata last
+**Last PDF page done: 734 (archive ends at printed p. 712, headers ٧٠٨/٧١٢ on PDF 730/734 confirm −22; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py now uses −22). Pages remaining: 204 PDF pages (735–938)
+(approximate, pending the corrected offset holding). Lines archived: 15803 (15629 + 174). calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new
 verified line pairs (pp. 127-131, 133-134 prose only, verse/heading excluded; p. 132 excluded, its

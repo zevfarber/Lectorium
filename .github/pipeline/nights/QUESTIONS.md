@@ -1653,3 +1653,15 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Decided meanwhile: Sharrukān is spelled so in English (tr/l/i/n), as in Nights 101–141; Night 142 alone has "Sharrkān" (left alone). The Arabic t keeps the corpus's شَرْكَان pointing. If the owner prefers one spelling throughout, it is a mechanical sweep.
 - Library label: `Night 143 · King ʿUmar ibn al-Nuʿmān, continued` (Bākūn's bath-house story is an inset, not a headed tale).
 - Nothing to decide. Next: night 144 (from P702L04) is still open; the next firing should transcribe.
+
+## PDF 727–734 (printed pp. 705–712, transcribed 2026-11-18)
+- Night 144 (from P702L04) is still open after these pages: no night label or closing formula on pp. 705–712 (checked in the text, not only with `nights_index.py`). It stands at 239 lines. The next firing transcribes again.
+- The running header changes to the inset tale of Ḥammād the Bedouin and ʿAbbād ibn Thaʿlaba before King Rūmzān. Verse runs through pp. 707–712.
+- PDF 730: the detector dropped the verse introduction P708L11 وتنشد هذه الابيات (a double-pitch gap). Both passes recovered it from the band. PDF 734: crop 21 held two verse lines, and both passes split them. On PDF 730, 731, 733 and 734 the detector took the running header for crop 1; nothing was lost.
+- Two agents read the PDF 734 header as ٧١٣. On the image it is ٧١٢ (Persian-style ۲), so −22 holds.
+- P712L02: both passes had يا حماد انا. The ink reads يا حمادا نا, with the gap after the alif. I set it as printed by hand. For the publishing run: a spacing slip, read يا حماد انا.
+- The ة/ه check found nothing to correct. Every word where both passes ended in ة after a non-joining letter is a real ة (كسوة, مدة, شاردة, بلدة, غادة, دورة and so on).
+- Low confidence: P707L17 ما ذكرتم (narrow gap); P712L20 اِطِّرَادٍ (which letter each kasra belongs to).
+- Kept as printed, for the publishing run to consider for `emend.json`: P712L13 توسل (the ل rises to full height; sense perhaps توسد); P710L17 قلت (two dots, not the قلث one pass saw); P712L18 مَفَرْ (broken م head).
+- On P708L11/16 and P709L07 the adjudicator read اللّٰهِ / لِلّٰهِ with a shadda and dagger alif, which neither pass had. This matches the archive's usual spelling.
+- Nothing to decide.

@@ -1644,3 +1644,12 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, for the publishing run to consider for `emend.json`: P700L01 التقانة (both passes; sense perhaps التفاتة); P700L23 "فسارت قضى فكان بنفسها" (reads oddly; both passes agree); P703L09 وثاقهم was ruled ق, not ت; P702L16 قدا هديت and P704L03 وقدا تحفته (spacing as printed, sense قد اهديت / قد اتحفته); P698L10 البرمن (set solid, sense البر من).
 - Marked prose words confirmed by both passes: سرّا, ثلٰث/ثلٰثة/ثلٰثمائة, فَاخَذَنا, استقلّيت, حنّ, وحلّ, الاخوّة, متهيّئين, ونَفتْ, واُنهب, يعدّ, يدلّهم, ميّزوهم, الشقيّين.
 - Nothing to decide.
+
+## Night 143 (P692L19–P702L03, published 2026-11-18)
+- Corrected misprints in emend.json (10): P692L20 السعيدا→السعيد, P692L20 النسقية→الفسقية, P693L01 ني→في, P694L16 ووثبث→ووثبت, P694L20 وجداه→وجدها, P694L23 ياكرن→باكون, P696L02 رابت→رايت, P696L10 رابته→رايته, P696L11 روباك→روياك, P700L01 التقانة→التفاتة. The archive was not changed.
+- Kept as printed with notes (doubtful, not corrected): P695L02 استيقظه (intransitive verb with an object suffix; likely استيقظ or ايقظته); P694L14 بمخارف (read as "fables"; perhaps زخارف); P696L10 الذيذ (read ladhīdh with a stray alif; perhaps الذّ); P694L08 كنت اصبر (two readings given); P693L06–07 ثم فعل وهو ساكت (verb without object); P699L09 قصته (perhaps قصتها); P699L14 ابن اخته (Kān Mā Kān is in fact his brother's son); P700L23 فسارت قضى فكان بنفسها kept, read "went in person".
+- Spacing kept: يجدا حدا (P692L22, pointed as yajid aḥadan across the split), البرمن, ماعندي, كلواحد, قدمات, قدارسل, فعند ما.
+- Names romanised for the first time: Rūmzān (رومزان, king of the Rūm, Ḥardūb's grandson by Abrīza), Zalīṭ (زليط, the hashish-eater's nickname; the gloss "perhaps 'stark naked'" is marked as a guess).
+- Decided meanwhile: Sharrukān is spelled so in English (tr/l/i/n), as in Nights 101–141; Night 142 alone has "Sharrkān" (left alone). The Arabic t keeps the corpus's شَرْكَان pointing. If the owner prefers one spelling throughout, it is a mechanical sweep.
+- Library label: `Night 143 · King ʿUmar ibn al-Nuʿmān, continued` (Bākūn's bath-house story is an inset, not a headed tale).
+- Nothing to decide. Next: night 144 (from P702L04) is still open; the next firing should transcribe.

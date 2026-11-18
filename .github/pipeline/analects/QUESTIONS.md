@@ -178,3 +178,22 @@ a courtesy name.
 - Facts from general knowledge, as in earlier books: 利者義之和 from the Changes, 易簀 from the Record of Rites, 雄雉 in
   the Bei 邶 section, the Book 14/15 repeats (知者不惑…, 好德如好色), commentator identities (Hou Zhongliang, Hu Yin, etc.);
   9.12-related cross-references to 12.1 and 12.22 should be checked when Book 12 is drafted.
+
+## Book 10: 18 sections, not 17 (analects-10, 2026-11-18)
+Zhu Xi's heading says 舊說凡一章，今分為十七節, but the Siku copy marks 18 ○ section starts (朝與下大夫, 君召, 入公門, 執圭,
+君子不以紺緅, 齊必有明衣布, 食不厭精, 席不正不坐, 鄉人飲酒, 問人於他邦, 廏焚, 君賜食, 入太廟, 朋友死, 寢不尸, 升車, 色斯舉矣
+after the opening). Only 12 of them close with 此一節記…; 席不正不坐, 廏焚, 入太廟 (重出) and 色斯舉矣 do not, so which pair
+Zhu Xi counted as one is unclear. We follow the printed breaks: 10.1–10.18, parts.json passages 17 → 18. The about and
+the 10.1 note mention that many modern editions divide the book into 27. Say if you want 17 (merging which two) or 27.
+
+## Smaller points left open (analects-10, 2026-11-18)
+- Readings: 首 in 東首 (10.13) kept shòu per Zhu Xi's 去聲 (a different word, 'to face toward'); 長 cháng (10.6, Zhu Xi
+  去聲) and 拖 tuō (10.13, Zhu Xi 徒我反 → duò) follow modern practice, notes say so; 勝 shēng in 10.5 (平聲) but shèng in
+  10.8 不使勝食氣 (no note from Zhu Xi); 齊如也 (10.8) read zhāi, Zhu Xi marks nothing; 去喪 去 given qù (Zhu Xi 上聲).
+- 10.18 曰山梁雌雉…: i says 'The Master said' (He Yan's unattributed comment, Xing Bing); l keeps 'He said'. Zhu Xi's
+  必有闕文 stated; 共 read gòng, with the 拱 reading (Chao Yuezhi, Liu Pinjun) in the note.
+- Zhu Xi's commentary prints 狊 古闐反 (10.18), probably for 古闃反; commentary only, not the text, left alone.
+- General knowledge kept, as in earlier books: 康子 = Ji Kangzi (from 2.20/6.6), the 殯 gloss, 沽 for both buying and
+  selling, commentator identities (Lu Deming, Chao Yuezhi, Xing Bing, Zhang Zai, Xie Liangzuo).
+- The headless render check could not run this time (permission refused for a local server + browser); a later run
+  with a browser should load analects-10 once.

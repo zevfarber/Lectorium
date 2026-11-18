@@ -175,7 +175,10 @@ def spoken_divider():
         if not os.path.exists(tp):
             continue
         try:
-            if "*" not in open(tp, encoding="utf-8").read():
+            rec = open(tp, encoding="utf-8").read()
+            # a clip text recorded as "" is a request to make that clip again (set by hand in
+            # audio/<id>/texts.json; first used 2026-11-18 for long poems spoken in pieces)
+            if "*" not in rec and not any(v == "" for v in json.loads(rec).values()):
                 continue
             # only stories voiced by build_audio.py, whose spoken_text carries the fix
             if json.load(open(f, encoding="utf-8")).get("langCode") not in VOICE_LANGS:

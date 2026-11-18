@@ -185,7 +185,10 @@ def fallback_pieces(s, text):
     """
     say = s.get("say")
     src = say if isinstance(say, str) and say.strip() else s["t"]
-    lines = [ln.strip() for ln in src.split("\n") if ln.strip()]
+    # each piece gets the same treatment as spoken_text: the printed divider (*) is never spoken.
+    # (2026-11-18: the pieces were cut from the raw text, so long poems kept the fault after the fix.)
+    lines = [re.sub(r"\s*\*+\s*", ", ", ln).strip().strip(",").strip() for ln in src.split("\n")]
+    lines = [ln for ln in lines if ln]
     if len(lines) > 1:
         return lines
     words = text.split()

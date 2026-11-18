@@ -156,3 +156,25 @@ the i smooths it ('surely deserves to be called the utmost'). Say if you prefer 
 - 8.20 婦人: Zhu Xi reports Liu Shidu's view that the woman is Yi Jiang; 劉侍讀 left as 'Academician Liu', unidentified.
 - Some commentator identifications (蘇氏 Su Shi, 晁氏 Chao Yuezhi, 稷 'Lord Millet', 內則 as a Record of Rites
   chapter) come from general knowledge, as in earlier books.
+
+## Misprints corrected in 9.5 and 9.11: 子 → 予 (analects-09, 2026-11-18)
+Under rule 5b. 9.5 匡人其如予何 'what can the men of Kuang do to me?' and 9.11 且予縱不得大葬，予死於道路乎: the copy
+prints 子 for 予 in both (the same confusion as 宰子 at 5.9); Zhu Xi's own paraphrase (匡人其奈我何) and both
+witnesses read 予. In `emend.json`; pinned source unchanged. Nothing waits on you.
+
+## 牢 in 9.6 given as 'Lao' (analects-09, 2026-11-18)
+牢曰 'Lao said': Zhu Xi identifies him as a disciple surnamed Qin 琴, courtesy name 子開 or (another account) 子張 — not
+the well-known Zizhang. Since the text uses his personal name, the English says 'Lao' (as 'You' for 由). Say if you prefer
+a courtesy name.
+
+## Smaller points left open (analects-09, 2026-11-18)
+- 9.11 病閒: given jiàn (modern reading); Zhu Xi marks 閒如字 — the note says so without naming a tone.
+- 9.23 法語之言: 語 given yǔ 'words'; Zhu Xi marks no reading, though his gloss 正言之 is verbal (yù 'to tell') — arguable.
+- 9.30 偏其反而: 反 given fǎn; Zhu Xi takes it = 翻 'to turn over'; the Ode lines (lemma 43) stand without quotation
+  marks, since a unit cannot open with punctuation and the speech-continuation rule applies; the note marks it as a lost Ode.
+- 9.29/9.30: He Yan's heading counts 31 chapters (Huang Kan 30) and his commentary reads 唐棣 with the 權 saying; where his
+  extra chapter falls could not be located in the archived text (no breaks marked). We follow Zhu Xi's 30.
+- 9.6: Zhu Xi's 孔氏 quotation is read as ending at 未可知也, so 與者疑辭… is Zhu Xi's own.
+- Facts from general knowledge, as in earlier books: 利者義之和 from the Changes, 易簀 from the Record of Rites, 雄雉 in
+  the Bei 邶 section, the Book 14/15 repeats (知者不惑…, 好德如好色), commentator identities (Hou Zhongliang, Hu Yin, etc.);
+  9.12-related cross-references to 12.1 and 12.22 should be checked when Book 12 is drafted.

@@ -1,0 +1,91 @@
+# Packet — cid-tiradas-69-74: Raids south of Valencia; the call to arms; the siege and fall of the city
+
+Tiradas 69–74, Pidal lines 1156–1220 (Cantar II (Bodas)).
+The established text below is pinned. A unit's `t` is one or more consecutive verses joined by "\n", cut by script.
+Flags: Pidal transposes lines here (print order differs from numeric order)
+
+
+## tirada 69
+
+1156	Sonando van sus nuevas, alent parte del mar [andon];
+1157	alegre era el Çid e todas sus compañas,
+1158	que Dios le ayudara e fiziera esta arrancada.
+1159	Davan sus corredores e fazien las trasnochadas,
+1160	llegan a Gujera e llegan a Xátiva,
+1161	aun mas ayusso, a Denia la casa;
+1162	cabo del mar tierra de moros firme la quebranta.
+1163	Ganaron Peña Cadiella, las exidas e las entradas.
+
+## tirada 70
+
+1164	Quando el Çid Campeador ovo Peña Cadiella,
+1165	ma’les pesa en Xátiva e dentro en Gujera,
+1166	non es con recabdo el dolor de Valençia.
+
+## tirada 71
+
+1167	En tierra de moros prendiendo e ganando,
+1168	e durmiendo los días e las noches tranochando,
+1169	en ganar aquellas villas mio Çid duró tres años.
+
+## tirada 72
+
+1170	A los de Valençia escarmentados los han,
+1171	non osan fueras exir nin con él se ajuntar;
+1172	tajávales las huertas e fazíales grand mal,
+1173	en cada uno destos años mio Çid les tollió el pan.
+1174	Mal se aquexan los de Valençia que non sabent ques far.
+1175	de ninguna part que sea non les viníe pan;
+1176	nin da co[n]ssejo padre a fijo, nin fijo a padre,
+1177	nin amigo a amigo nos pueden consolar.
+1178	Mala cueta es, señores, aver mingua de pan,
+1179	fijos e mugieres ve[e]r lo[s] murir de fanbre.
+1180	Delante veyen so duelo, non se pueden huviar,
+1181	por el rey de Marruecos ovieron a enbiar;
+1182	con el de los Montes Claros, avíe guerra tan grand,
+1183	non les dixo co[n]sejo, nin los vino huviar.
+1184	Sópolo mio Çid, de coraçón le plaz;
+1185	salió de Murviedro una noch [a] trasnocha[r]
+1186	amaneció a mio Çid en tierras de Mon Real.
+1187	Por Aragón e por Navarra pregón mandó echar,
+1188	a tierras de Castiella enbió s[o]s menssajes:
+1189	Quien quiere perder cueta e venir a rritad,
+1190	viniesse a mio Çid que a sabor de cavalgar;
+1191	çercar quiere a Valençia pora cristianos la dar:
+
+## tirada 73
+
+1192	“quien quiere ir comigo çercar a Valençia,
+1193	—todos vengan de grado, ninguno non ha premia,—
+1194	tres días le speraré en Canal de Çelfa.”
+
+## tirada 74
+
+1195	Esto dixo mio Çid el [Campeador leal].
+1196	Tornávas a Murviedro, ca él ganada se la a.
+1197	Andidieron los pregones, sabet, a todas partes,
+1198	al sabor de la ganançia, non lo quiere[n] detardar,
+1199	grandes yentes se le acojen de la buena cristiandad.
+1206	Sonando va[n] sus nuevas todas a todas partes;
+1207	mas le vienen a mio Çid, sabet, que nos le van;
+1200	creçiendo va riqueza a mio Çid el de Bivar;
+1201	quando vi[d]o las gentes juntadas, compeçós de pagar.
+1202	Mio Çid don Rodrigo non lo quiso detardar,
+1203	adeliñó pora Valençia e sobrellas va echar,
+1204	bien la çerca mio Çid, que non i avía hart;
+1205	viédales exir e viédales entrar.
+1208	Metióla en pla[zd]o, si les viniessen huviar.
+1209	Nueve meses complidos, sabet, sobrella yaz,
+1210	quando vino el dezeno oviérongela a dar.
+1211	Grandes son los gozos que van por [e]s logar
+1212	quando mio Çid gañó a Valençia e entró en la çibdad.
+1213	Los que f[o]ron de pie cavalleros se fazen;
+1214	el oro e la plata ¿quien vos lo podrie contar?
+1215	Todos eran ricos quantos que allí ha.
+1216	Mio Çid don Rodrigo la quinta mandó tomar,
+1217	en el aver monedado treynta mill marcos le caen,
+1218	e los otros averes ¿quien los podrié contar?
+1219	Alegre era el Campeador con todos los que ha,
+1220	quando su seña cabdal sedié en somo del alcáç[er].
+
+Glossary: 194 of 271 forms already in cid-glossary.json.

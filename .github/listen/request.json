@@ -1,5 +1,5 @@
 {
- "note": "2026-11-18: the Chirp Arabic voice reads the verse divider * aloud. 17 units containing it: the clips now on the site against a fresh Chirp take with the divider replaced by a comma.",
+ "note": "2026-11-18, retry: fresh Chirp takes of the 17 divider units with the divider replaced by a comma (the site clips were scored in run 44306761768; a long passage refused by the voice stopped that run).",
  "whisper": [
   "large-v3"
  ],
@@ -8,79 +8,6 @@
   {
    "name": "arabic-divider",
    "sets": [
-    {
-     "label": "current (reads the divider)",
-     "ref": "main",
-     "stories": [
-      "nights-01",
-      "nights-07",
-      "nights-100",
-      "nights-111",
-      "nights-114",
-      "nights-121",
-      "nights-127",
-      "nights-132",
-      "nights-139",
-      "nights-16",
-      "nights-21",
-      "nights-23",
-      "nights-28",
-      "nights-35",
-      "nights-46",
-      "nights-58"
-     ],
-     "units": {
-      "nights-111": [
-       2,
-       5
-      ],
-      "nights-121": [
-       7
-      ],
-      "nights-01": [
-       9
-      ],
-      "nights-07": [
-       74
-      ],
-      "nights-100": [
-       61
-      ],
-      "nights-114": [
-       10
-      ],
-      "nights-127": [
-       17
-      ],
-      "nights-132": [
-       28
-      ],
-      "nights-139": [
-       29
-      ],
-      "nights-16": [
-       149
-      ],
-      "nights-21": [
-       21
-      ],
-      "nights-23": [
-       92
-      ],
-      "nights-28": [
-       139
-      ],
-      "nights-35": [
-       88
-      ],
-      "nights-46": [
-       45
-      ],
-      "nights-58": [
-       38
-      ]
-     }
-    },
     {
      "label": "chirp, divider removed",
      "synth": "ar-XA-Chirp3-HD-Achernar",

@@ -183,7 +183,14 @@ def main():
                 for i in idxs:
                     text = spoken_text(story["sentences"][i])
                     if st.get("synth"):
-                        data = synth(text, st["synth"], key); time.sleep(0.3)
+                        try:
+                            data = synth(text, st["synth"], key); time.sleep(0.3)
+                        except urllib.error.HTTPError as e:
+                            # e.g. Chirp refuses a long passage with no sentence punctuation (the build
+                            # then speaks it in pieces); here the clip is skipped and the run goes on
+                            print("  synth refused %s %d (%d bytes): HTTP %s %s" % (sid, i, len(text.encode("utf-8")), e.code,
+                                  e.read().decode("utf-8", "replace")[:200].replace(key, "…")), flush=True)
+                            data = None
                     else:
                         data = git_bytes(ref, "audio/%s/%d.mp3" % (sid, i))
                     if not data:

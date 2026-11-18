@@ -70,11 +70,12 @@ scan anomaly turns up later in the volume.
 | done (2026-11-17, unattended) | 679–686 | 657–664 | `archive/pp657-664.json` | Night 137 closes (P658L14); Night 138 label P658L15, Night 139 label P661L01 (both centred, h); verse pp. 657, 659, 662–664; headers ٦٥٧ (PDF 679) and ٦٦٤ (PDF 686) confirm −22; all joins continuous incl. 656→657 |
 | done (2026-11-17, unattended) | 687–694 | 665–672 | `archive/pp665-672.json` | Night 139 closes (P665L07); Night 140 label P665L08 (الموفية للاربعين, centred, h); verse pp. 666–667, 672; headers ٦٦٥ (PDF 687) and ٦٧٢ (PDF 694) confirm −22; all joins continuous incl. 664→665 |
 | done (2026-11-18, unattended) | 695–702 | 673–680 | `archive/pp673-680.json` | Night 140 closes (P674L06); Night 141 label P674L07, Night 142 label P678L12 (centred, h); short kashida-stretched line P678L11 المباح recovered from the band (detector drop); verse pp. 675, 676, 678, 679; headers ٦٧٣ (PDF 695) and ٦٨٠ (PDF 702) confirm −22; all joins continuous incl. 672→673 |
+| done (2026-11-18, unattended) | 703–710 | 681–688 | `archive/pp681-688.json` | Night 142 continues (no night label in these pages; 235 lines from P678L12 and still open); verse pp. 681, 684, 687; header ٦٨٤ (PDF 706) confirms −22; detector-dropped verse intro P684L11 recovered from the band; all joins continuous incl. 680→681 |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 702 (archive ends at printed p. 680, headers ٦٧٣/٦٨٠ on PDF 695/702 confirm −22; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py now uses −22). Pages remaining: 236 PDF pages (703–938)
-(approximate, pending the corrected offset holding). Lines archived: 14910 (counted 2026-11-18). calc.traineddata last
+**Last PDF page done: 710 (archive ends at printed p. 688, header ٦٨٤ on PDF 706 confirms −22; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py now uses −22). Pages remaining: 228 PDF pages (711–938)
+(approximate, pending the corrected offset holding). Lines archived: 15091 (counted 2026-11-18). calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new
 verified line pairs (pp. 127-131, 133-134 prose only, verse/heading excluded; p. 132 excluded, its

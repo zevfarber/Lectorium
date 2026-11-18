@@ -1610,3 +1610,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Narrator slips into the first person at P675L04 (فقلت له) and back at حدّثه; noted for the reader.
 - Library label: `Night 141 · King ʿUmar ibn al-Nuʿmān, continued`. Nothing to decide.
 - Next: night 142 (P678L12–) is not yet complete; the next firing should transcribe.
+
+## PDF 703–710 (printed pp. 681–688, transcribed 2026-11-18)
+- Night 142 (from P678L12) is still open after these pages: no night label or closing formula on pp. 681–688 (checked in the text, not only with `nights_index.py`). At 235 lines so far it is already the longest night, so it should close early in the next batch. The next firing transcribes again.
+- **ه or ة after a non-joining letter.** In this type, a stand-alone final ه after د ذ ر ز و ا is drawn as a horned loop that looks like a ة. A real ة is a round loop with two separate dots (compare والحيوة P685L02, الغنيمة P686L18). Pass 2 wrote ة for every horned ه, and the adjudicator ruled ه each time. Both passes agreed on ة in seven places, so those never reached the adjudicator: فوجدة P683L01, هذة P683L16/17/21/23, عندة P685L06, واعطاة P686L18. I checked each crop and corrected them to ه by hand before applying the verdicts. **The earlier archives may hold the same misreading:** pp. 600–680 have هذة 26 times (against هذه 65), plus عندة, وجدة and others, and a publishing run has treated "ة for the pronoun" as a habit of the print. Nothing changed meanwhile. Worth one spot-check run that looks at those crops; if they are horned ه, correct the archive (no reading text changes meaning either way).
+- Low confidence: P687L06 قتلناه (dots worn; one pass had فعلناه, the other قتلناة).
+- Kept as printed, for the publishing run to consider for `emend.json`: P682L11 فخرح (no dot on the last letter; sense فخرج); P687L05 واولا (sense ولولا); P687L13 رائد (no dot seen; sense perhaps زائد); P686L16 اغطاهم (a dot over the ع; sense اعطاهم). P687L22 سان سان is printed as two words; the same name is ساسان at P688L22 (kashida-stretched).
+- P684L11, the verse introduction قال فيه الشاعر, had no crop. Both passes read it from the band.
+- Nothing to decide.

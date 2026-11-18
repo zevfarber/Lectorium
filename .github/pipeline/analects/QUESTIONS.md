@@ -93,3 +93,21 @@ The glossary review found that a ';' inside parentheses cuts the popup's first c
 Fixed in all Book 5 entries; older entries with the same fault (其諸, 共, 殆, 禄, 車, 嗚呼, 辟, 盻, 杞)
 were left untouched (broaden-only rule). A later run could move those semicolons outside the
 brackets if you agree.
+
+## 6.24 井有仁焉 read with Liu Mianzhi as 人 (analects-06, 2026-11-18)
+Zai Wo's question 'if someone told him there was 仁 in the well': Zhu Xi quotes Liu Mianzhi 劉聘君 that
+仁 should be 人 'a man (fallen in)'. The printed 仁 is kept in the text (a doubtful reading, not a clear
+misprint, so rule 5b does not apply); the English follows Zhu Xi with 'a man', and the note gives the
+print, Liu's reading and He Yan's 井有仁者焉. Say if you would rather the English keep 'humaneness'.
+
+## 宋朝 read zhāo (analects-06, 2026-11-18)
+6.14 宋朝 Prince Zhao of Song: pinyin zhāo; the note says cháo is also heard. Decided meanwhile.
+
+## No quotation marks on 6.28's continuation units (analects-06, 2026-11-18)
+The Master's answer in 6.28 runs over three units; since a unit cannot open with 「, the second and
+third units (夫仁者… and 能近取譬…) carry no quotation marks, as with 5.x follow-ups.
+
+## Passage numbering is Zhu Xi's 28 chapters (analects-06, 2026-11-18)
+Zhu Xi joins 雍也可使南面 with 仲弓問子桑伯子 (6.1) and 子華使於齊 with 原思為之宰 (6.3), so our numbers run up
+to two behind the 30-chapter numbering some editions use (Nanzi is 6.26, the mean 6.27, 博施 6.28). This
+follows the conventions ("Zhu Xi's chapter breaks"); the parts.json passage count (28) agrees.

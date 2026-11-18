@@ -1587,3 +1587,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Middle Arabic noted: عينيه as subject, سبعة عشر سنه, واولاة, هي واياه, جاؤا, بطّل, وعيطت, الجيعان, يا هل ترى.
 - Library label: `Night 139 · King ʿUmar ibn al-Nuʿmān, continued`. Nothing to decide.
 - Next: night 140 (P665L08–) is not yet complete; the next firing should transcribe.
+
+## PDF 695–702 (printed pp. 673–680, transcribed 2026-11-18)
+- Nights 140 (P665L08–P674L06) and 141 (P674L07–P678L11) are now complete and unpublished; the next two firings should publish them. Night 142 label P678L12 (centred, `h`).
+- P678L11 is one word, المباح, stretched across the line by a kashida ("فسكتت عن الكلام المباح"). The detector dropped it, and it was recovered from the band. One pass read الصباح; the adjudicator read المباح with high confidence.
+- Kept as printed, for the publishing run to consider for `emend.json`: P680L23 يزجع (a clear dot over the rāʾ; sense يرجع). P673L17 اراقبه: the letter after ارا did not ink and only two dots remain (ta or qāf); recorded as اراقبه from the gap and the sense, low confidence. P678L05 سعد انة: printed with a full space, but it is the name Saʿdāna.
+- Hemistich mark: on P679L01 the print sets its asterisk over the kashida of الْمَحَبَّةِ. I placed ` * ` after that word, matching P678L21. The adjudicator's verdict had dropped it, so I restored it by hand.
+- Nothing to decide.

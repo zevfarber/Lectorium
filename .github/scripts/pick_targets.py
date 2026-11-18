@@ -151,6 +151,45 @@ def stale_alignment():
     return out + take
 
 
+DIVIDER_PER_RUN = 25   # stories per run re-voiced for the divider fix below
+
+
+def spoken_divider():
+    """Story ids whose recorded clips were made from text that still held a printed divider (*).
+
+    2026-11-18: the Chirp 3 HD Arabic voice read the asterisk the Nights set between the halves of
+    a verse line aloud, as invented syllables (found by the listening check, confirmed on 17 of 17
+    clips). build_audio.spoken_text no longer passes it on, but a story is only re-voiced when it is
+    built, and nothing else would pick these up. This finds every story whose audio/<id>/texts.json
+    records a clip text containing an asterisk, a few per run; build_audio then re-makes only the
+    sentences whose spoken text changed. Once all are done this returns nothing.
+    """
+    out = []
+    for f in sorted(os.listdir(".")):
+        if "/" in f or not f.endswith(".json"):
+            continue
+        sid = story_id(f)
+        if not sid:
+            continue
+        tp = os.path.join("audio", sid, "texts.json")
+        if not os.path.exists(tp):
+            continue
+        try:
+            if "*" not in open(tp, encoding="utf-8").read():
+                continue
+            # only stories voiced by build_audio.py, whose spoken_text carries the fix
+            if json.load(open(f, encoding="utf-8")).get("langCode") not in VOICE_LANGS:
+                continue
+        except Exception:
+            continue
+        out.append(sid)
+    take = out[:DIVIDER_PER_RUN]
+    if out:
+        print("clips recorded with a spoken divider: %d story/ies; re-voicing %d this run: %s"
+              % (len(out), len(take), " ".join(take)))
+    return take
+
+
 def missing_audio():
     """Every audio-bearing root story that has no clips at all.
 
@@ -215,6 +254,7 @@ def main():
                 elif sid:
                     ids.append(sid)
         ids.extend(stale_alignment())
+        ids.extend(spoken_divider())
 
     ids = sorted(set(ids), key=_order)
     gh_out = os.environ.get("GITHUB_OUTPUT")

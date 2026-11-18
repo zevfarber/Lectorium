@@ -1629,7 +1629,7 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Nothing to decide.
 
 ## Night 142 (published 2026-11-18)
-- Corrected misprints in emend.json (15): P680L23 يزجع→يرجع, P681L14 تكون→نكون, P682L11 فخرح→فخرج, P682L21 اى→الى, P683L12 جاربة→جارية, P684L16 فقطت→فقطعت, P686L16 واغطاهم→واعطاهم, P687L05 واولا→ولولا, P687L13 رائد→زائد, P689L22 الصاح→الصباح, P690L02 نكرهه→تكرهه, P691L17 فقانت→فقالت, P691L18 باتلاقه→باتلافه, P691L22 اى→الى. The archive was not changed.
+- Corrected misprints in emend.json (14): P680L23 يزجع→يرجع, P681L14 تكون→نكون, P682L11 فخرح→فخرج, P682L21 اى→الى, P683L12 جاربة→جارية, P684L16 فقطت→فقطعت, P686L16 واغطاهم→واعطاهم, P687L05 واولا→ولولا, P687L13 رائد→زائد, P689L22 الصاح→الصباح, P690L02 نكرهه→تكرهه, P691L17 فقانت→فقالت, P691L18 باتلاقه→باتلافه, P691L22 اى→الى. The archive was not changed.
 - Kept as printed with notes (doubtful, not corrected): P692L04 سمعت (samiʿtu, "I heard", where Kān Mā Kān is the one who hears: either a misprint for سمع or the narrator slipping into the first person, as in Night 141; the drafter had corrected it, and I put the print back); P685L19 اتهرك (no such word; anharaka or aqharaka likely); P690L06 وحمت (perhaps وحنت); P681L15 وينخرم; P683L04 راى الى; P688L15 واذ باهاليها.
 - Spacing kept: سان سان (P687L22), سا سان, كهر داش, لا بدان, اريدان.
 - Names romanised for the first time: Fātin (the warrior-maiden Kahrdāsh loved), Jāmiʿ (an emir of the Daylam), Bākūn (the old slave-woman with the poisoned dagger).

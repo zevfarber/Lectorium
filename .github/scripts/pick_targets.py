@@ -151,7 +151,7 @@ def stale_alignment():
     return out + take
 
 
-DIVIDER_PER_RUN = 25   # stories per run re-voiced for the divider fix below
+DIVIDER_PER_RUN = 80   # stories per run re-voiced for the divider fix below (first batch of 25 took 14 minutes)
 
 
 def spoken_divider():

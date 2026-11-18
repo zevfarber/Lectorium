@@ -1,31 +1,32 @@
 {
- "note": "2026-11-18: after the divider fix all 401 affected Nights clips were re-recorded (runs 44315660562, 44323227983). Sample of the new clips as they are on the site.",
+ "note": "2026-11-18: long poems the build speaks line by line, re-recorded after the divider was removed from each line (run 44335950199). Sample of the new clips as on the site.",
  "whisper": [
   "large-v3"
  ],
  "google_stt": false,
  "jobs": [
   {
-   "name": "arabic-divider-after",
+   "name": "arabic-long-poems-after",
    "sets": [
     {
      "label": "current (re-recorded)",
      "ref": "main",
      "stories": [
       "nights-01",
+      "nights-03",
       "nights-10",
-      "nights-11",
-      "nights-111",
-      "nights-117",
-      "nights-121",
+      "nights-100",
+      "nights-108",
       "nights-127",
-      "nights-136",
-      "nights-16",
+      "nights-133",
+      "nights-139",
+      "nights-140",
+      "nights-18",
+      "nights-22",
       "nights-24",
-      "nights-35",
-      "nights-49",
-      "nights-64",
-      "nights-80"
+      "nights-34",
+      "nights-37",
+      "nights-52"
      ],
      "units": {
       "nights-01": [
@@ -35,45 +36,43 @@
        114,
        125
       ],
-      "nights-11": [
-       72,
-       83
-      ],
-      "nights-117": [
-       20
-      ],
       "nights-127": [
        17
       ],
-      "nights-136": [
-       78,
-       80
+      "nights-03": [
+       20
       ],
-      "nights-16": [
-       17
+      "nights-100": [
+       61
+      ],
+      "nights-108": [
+       2
+      ],
+      "nights-133": [
+       62
+      ],
+      "nights-139": [
+       20
+      ],
+      "nights-140": [
+       24
+      ],
+      "nights-18": [
+       127
+      ],
+      "nights-22": [
+       61
       ],
       "nights-24": [
-       100,
-       102
+       146
       ],
-      "nights-35": [
-       12,
-       21
+      "nights-34": [
+       78
       ],
-      "nights-49": [
-       5
+      "nights-37": [
+       155
       ],
-      "nights-64": [
-       17
-      ],
-      "nights-80": [
-       11
-      ],
-      "nights-111": [
-       2,
-       5
-      ],
-      "nights-121": [
+      "nights-52": [
        7
       ]
      }

@@ -100,8 +100,9 @@ def unit_words(s):
 
 
 def _ph(ipa):
-    rom = re.sub("[ˈː]", "", ipa)
-    return '<phoneme alphabet="ipa" ph="%s">%s</phoneme>' % (escape(ipa, {'"': "&quot;"}), escape(rom))
+    # sent as the voice accepts it (latin_g2p.for_voice), with plain letters as the inner text
+    return '<phoneme alphabet="ipa" ph="%s">%s</phoneme>' % (escape(L.for_voice(ipa), {'"': "&quot;"}),
+                                                            escape(L.plain(ipa)))
 
 
 def sentence_ssml(s):
@@ -135,7 +136,7 @@ def word_ipa_map(story, word_key):
     out = {}
     for s in story["sentences"]:
         for tok, mac, _ in unit_words(s):
-            out.setdefault(word_key(tok), L.ipa(mac))
+            out.setdefault(word_key(tok), L.for_voice(L.ipa(mac)))   # word clips: same rule as sentences
     return out
 
 

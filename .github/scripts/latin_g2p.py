@@ -97,6 +97,27 @@ def _stress_index(units, enclitic):
     return pen if heavy else vidx[-3]
 
 
+# The carrier voice (de-DE-Wavenet-B) accepts only aː and iː as long vowels. A <phoneme> whose IPA
+# holds uː eː oː (or yː ɛː ɔː øː ʊː) is refused WITHOUT an error and the voice reads the tag's inner
+# text instead — found 2026-11-18 when Zev heard "mutastis" half spelled out; 27% of Ovid's words were
+# affected. A doubled vowel is accepted and is how Zev chose to hear the long ones (sample B).
+_VOICE_LONG = re.compile("([ueoyɛɔøʊ])ː")
+
+
+def for_voice(ipa_string):
+    """The IPA as it may be sent to the voice: long u, e, o (and y) written as a doubled vowel."""
+    return _VOICE_LONG.sub(lambda m: m.group(1) * 2, ipa_string)
+
+
+_PLAIN = str.maketrans({"ˈ": "", "ː": "", "ɛ": "e", "ɔ": "o", "ʏ": "y", "ɪ": "i", "ʊ": "u", "ŋ": "ng", "j": "i"})
+
+
+def plain(ipa_string):
+    """Ordinary letters for the inner text of a <phoneme> tag, so that a refused tag is at worst read
+    as a plain word and never as phonetic symbols."""
+    return ipa_string.translate(_PLAIN)
+
+
 def ipa(word):
     """IPA for one macronized Latin word, with ˈ before the stressed syllable."""
     w = U.normalize('NFC', word.lower())

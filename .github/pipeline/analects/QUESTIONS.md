@@ -48,3 +48,18 @@ and the note says so.
 大 is read tài in 大廟 and 大師 (Zhu Xi 大音泰), stated on every occurrence in Book 3; but 1.12 and
 2.22 use 大 dà without an explicit reading, so 大 is not in the POLY set the build enforces. Later
 books should state tài wherever it occurs.
+
+## Misprint corrected in 4.14: 已 → 己 (analects-04, 2026-11-18)
+Under rule 5b. The Siku copy as transcribed prints 不患莫已知 ('no one knows me' needs 己); the copy
+confuses 己/已/巳 throughout, the Master Cheng saying Zhu Xi quotes on the line has 求其在己者, and the
+first witness reads 己. Recorded in `emend.json`; the pinned source is unchanged. Nothing waits on you.
+
+## 恕 rendered 'fellow-feeling' (analects-04, 2026-11-18)
+4.15 忠恕 is 'wholeheartedness and fellow-feeling' (i: 'to be wholehearted, and to put yourself in the
+other man's place'), following Zhu Xi's 推己之謂恕. Decided meanwhile as the house rendering for 恕
+(it recurs in 5.12/15.24); say if you prefer another.
+
+## 茍 kept as printed, read gǒu (analects-04, 2026-11-18)
+4.4 prints 茍 (strictly a different character, jì) for 苟, as old prints commonly do; Zhu Xi's own
+comment writes 苟. Treated as the edition's graphic form, like 盻 in 3.8: text keeps 茍, pinyin gǒu,
+note says so.

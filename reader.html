@@ -6,6 +6,8 @@
 <title>Lectorium</title>
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#faf7f2">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16.png">
 <link rel="apple-touch-icon" href="icons/icon-180.png">
 <meta name="apple-mobile-web-app-title" content="Lectorium">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -639,7 +641,11 @@
   .wlWhyH { font-size:1.6rem; font-weight:500; margin:0 0 .5em; }
   .wlWhy { margin:0 0 .9em; font-size:1.3rem; line-height:1.5; }
   .hmSig { margin:.9em 0 0; font-family:'Homemade Apple','Snell Roundhand','Segoe Script',cursive; font-size:1.9rem; font-style:normal; line-height:1.6; word-spacing:.35em; }
-  header .title { cursor:pointer; }
+  header .title { cursor:pointer; display:inline-flex; align-items:center; gap:7px; }
+  header .title img { display:block; border-radius:5px; }
+  .hmBrand { display:flex; align-items:center; gap:clamp(12px,2.6vw,30px); margin-top:clamp(12px,4vw,40px); }
+  .hmBrand .hmName { margin-top:0; margin-left:0; }
+  .hmLogo { height:clamp(70px,15.5vw,150px); width:auto; flex:none; }
   @media (max-width:640px) {
     .home.open { font-size:1.15rem; }
     .hmSide { grid-template-columns:1fr; }
@@ -678,7 +684,7 @@
 </head>
 <body>
 <header>
-  <span class="title">Lectorium</span>
+  <span class="title"><img src="icons/favicon-48.png" width="22" height="22" alt="">Lectorium</span>
   <select id="workSel" title="Choose a work"></select>
   <select id="storySel" title="Choose a text within the work"></select>
   <input id="storyFilter" type="search" placeholder="Filter…" title="Filter texts in this work by title or number" style="display:none">
@@ -767,7 +773,7 @@
 <div id="welcomeModal" class="home">
   <div class="hmPage">
     <div class="hmTop"><button id="hmEnter" type="button" class="hmBtn hmGhost">Open the library</button></div>
-    <h1 class="hmName">Lectorium</h1>
+    <div class="hmBrand"><img class="hmLogo" src="img/logo-scroll.png" width="326" height="308" alt=""><h1 class="hmName">Lectorium</h1></div>
     <p class="hmTag">A complete reading suite for the world’s classic myths, legends and wisdom, in their original languages.</p>
 
     <p class="hmLead">You have heard of the Odyssey all your life. These are its first two lines as Homer composed them. Tap any word to see what it means. Tap Listen to hear them.</p>

@@ -1691,3 +1691,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, for the publishing run to consider for `emend.json`: P726L16 ساعة وقل / قيل (I checked the ink and it reads وقل; the sense wants وقد قيل); P724L08 البقظة (for اليقظة); P727L19 انشعرّ (for اقشعرّ); P723L12 فتعل; P723L18 اتيسه (perhaps انيسه); P721L16 البراي (one ر); P724L07 وقدرماك run together; P724L21 اتعدى (sense اقعدي).
 - Low confidence: P727L19 ايّتها (the shadda sits between the ي and ت).
 - Nothing to decide.
+
+## Night 146 (P716L07–P724L15, published 2026-11-19)
+- Corrected misprints in emend.json (11): P717L01 موتكما→مودتكما (the duck comes "desiring your friendship", not "your death"), P717L22 وكولى→وكوني, P718L16 السطان→السلطان, P720L05 با→يا, P720L10 ويشدة→ويشده (ة for the pronoun ه, as on Nights 88–96), P720L19 غظيا→غيظا, P721L06 واو→ولو, P721L16 البراي→البراري, P722L10 نكون→تكون, P723L18 اتيسه→اقيسه ("so that I can fit it to your size", which picks up قياس on the line before; the transcribers' other candidate انيسه was judged less likely), P724L08 البقظة→اليقظة. The archive was not changed.
+- Kept as printed with notes (doubtful): P718L15 الخريف العقل (perhaps الخرف, "dotard"); P718L21 الطفر (for ثفر, "crupper"); P720L12 الصرع (the rein; form unclear); P720L15 انتحل ظهرى; P720L18 ويسلي شحمي; P721L16 الهج; P722L02 وبيده اطفال صغار; P722L05 ولا قاع (perhaps ولاقاه, "and met him"; that would need a spacing change too); P723L12 فتعل (sense "got to his feet"); P723L17 مسامير مطرفة.
+- Spacing kept: لاتخافي, لاباس, لاارى, ولابما, يابن, ياسيدي, لاتطاق, يا نجارما, مافات, وقدرماك, بلاشك, ولاريب, فكبريا, and the stray و at P718L23.
+- غبرة is pointed ghabra throughout (one slice had ghabara; the corpus has both).
+- Library label: `Night 146 · The Duck and the Lion Cub`, from the running header حكاية البطة مع الشبل. The tale has no heading of its own in the text. Night 147 continues it.
+- Nothing to decide. Next: night 147 (P724L16–P726L21) is complete and unpublished; the next firing should publish it.

@@ -1699,3 +1699,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - غبرة is pointed ghabra throughout (one slice had ghabara; the corpus has both).
 - Library label: `Night 146 · The Duck and the Lion Cub`, from the running header حكاية البطة مع الشبل. The tale has no heading of its own in the text. Night 147 continues it.
 - Nothing to decide. Next: night 147 (P724L16–P726L21) is complete and unpublished; the next firing should publish it.
+
+## Night 147 (P724L16–P726L21, published 2026-11-19)
+- Corrected misprints in emend.json (4): P724L21 اتعدى→اقعدى and P725L01 تعدت→قعدت (the print has حتى قعدت on the line between; تعدت cannot be a first-person form), P725L20 وام→ولم, P726L16 وقل→وقد (wa-qad qīla; the reviewer judged the only alternative, a dittography of قيل, gives the same sense). The ت/ق pair is a body-shape error, not a dot slip; it is corrected because the sense allows one reading. The archive was not changed.
+- Kept as printed with notes: لاننّا (shadda on the second nūn), نستوفاه, جزئر, الحشايش, جري, أكلين (read ākilīn), the printed fatḥas of آمَنين/آكَلين, الاّ, and the verse's لِاُخْبِرُهُ (indicative after li-) and bare يَوْم.
+- Spacing kept: لاينفك, فبينماهما, الحذروان, هاهوقد, هوالآخر, ماقتلها, شهر زاد.
+- غبرة pointed ghabra, as in Night 146.
+- Library label: `Night 147 · The Duck and the Lion Cub ends / The Hermit and the Pigeons begins`. The new anecdote opens with the centred word وورد (P726L18) and has no heading; the running header on p. 728 calls the next material حكاية الراعي العابد. The name "The Hermit and the Pigeons" is mine; change it if the owner prefers another.
+- Nothing to decide. Next: night 148 (from P727L01) is still open; the next firing should transcribe.

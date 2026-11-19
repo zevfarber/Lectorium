@@ -1747,3 +1747,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Spacing kept: مالا, بلاتعب, فيخلولي, وارجوان, هل لابدأت, لاَنوبنّ, ولا صعدنّ, ولا طعمن, فلا عجّلن, لا علمنك, الاعقوبة, شهر زاد; the line-split و / لم at P737L06–07 and P739L09–10.
 - Library label: `Night 149 · The Wolf and the Fox, continued`. The tale goes on into Night 150. The fable of the falcon and the partridge is told inside the fox's speech, so it is not named in the label.
 - Nothing to decide. Next: night 150 (P745L01–P751L06) is complete and unpublished; the next firing should publish it.
+
+## Night 150 (P745L01–P751L06, published 2026-11-19)
+- Corrected misprints in emend.json (4): P745L20 تخانه→تخافه, P747L08 وخففته→وجففته ("dried"; the sesame is called مجففا a few lines on), P749L09 فهده→فهذه, P749L22 اى→الى. The archive was not changed.
+- Kept as printed with notes (doubtful): P748L13 دمن (perhaps ضمن; reading uncertain); P748L10 وعاشت فيه (perhaps وعاثت, "made havoc"); P750L07 الاجلاء (perhaps الاخلاء, "close friends"); P746L04 verse الْعِطَافَا; P746L20 verse فَاخْتَطَفَتْ (pointed active, sense passive); P746L18 فرأه, الفرحات; P746L07 بسيّدة (ة for the pronoun ه).
+- Library label: `Night 150 · The Wolf and the Fox ends / The Mouse and the Weasel / The Crow and the Cat / The Fox and the Crow begins`. It names four tales because the night holds four. The flea and the mouse is told inside the fox's speech, so it is not named in the label. The names are mine, from the running headers.
+- Nothing to decide. Next: night 151 (from P751L07) is still open; the next firing should transcribe.

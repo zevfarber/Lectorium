@@ -11,3 +11,4 @@
 - 2026-11-19 · ani-hymn-to-ra · parts.json cites the hymn as Budge pp. 1–4; the established text runs to p. 5 l. 28. Decided meanwhile: published with the established range; the cite field was left as it was.
 - 2026-11-19 · sign glossary · 25 more Egyptian sign entries (for ani-hymn-to-ra) were written by the run lead from memory of the Gardiner list, no sign list to hand; F9 (given as pḥ, in pḥty), R7, X6 are the least sure. Worth a check against a sign list.
 - 2026-11-19 · ani-hymn-to-osiris · parts.json cites the hymn as Budge pp. 8–10; the established text runs to p. 11 l. 20. Decided meanwhile: established with the real range; the cite field left as it was (as for the hymn to Ra).
+- 2026-11-19 · sign glossary · 18 more Egyptian sign entries (for ani-hymn-to-osiris) were written by the run lead from memory of the Gardiner list, no sign list to hand; F16 (horn), U9, U13 and R17 are the least sure. Worth a check against a sign list.

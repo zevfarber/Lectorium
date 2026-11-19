@@ -66,3 +66,76 @@ These lemmas share a key with a known entry of another sense. The build would fi
 - ḥqꜣ — used both as the verb "rule" (ḥqꜣ·n·f) and the noun "ruler".
 
 These are new keys: nḥḥ, ḏt, ꜥḥꜥw, tpy, wtt, iry-pꜥt, wrrt, ḥḏt, ḥqꜣt, nḫꜣḫꜣ, iꜣwt, itf, ꜣw, mn, nst, tꜣ-ḥr-stꜣ·n·f, sk, snḏ, ḥnty, iṯi, igrt, ḏꜥm, ḥꜥw, ḫsbḏ, mfkꜣt, iwn, wsḫ, šnbt, tꜣ-ḏsr, ẖrt-nṯr, ḫdi, ḫnti, šnꜥ, dwꜣt, qbḥ, sḫt-iꜣrw, it, bdt.
+
+## Pass 2
+
+I made the edits by script (scratchpad review2/edit2.py). The checks reuse review1/verify.py, plus a lemma-coverage check. After the edits:
+- The glyph sequence (548 signs) still equals source/established/ani-hymn-to-osiris.json.
+- No sign, role, tr, q, approx, restored or rubric flag changed. Glyphs are compared field by field against the pre-pass-2 file.
+- Every morph g-list covers its word's glyphs exactly once.
+- Every lemma in units.json is either in known-lemmas.json or a top-level key of gloss.json.
+- gloss.json has no unused key and no key that duplicates a known lemma.
+- Every `__broaden__` value begins with the known entry whole, followed by " · ".
+
+The only approx differences are the four pass 1 already kept (M8 at w91, N21 at w106 and w111).
+
+### Changes
+
+Format: unit/entry · field · severity · what was wrong · what was done.
+
+1. gloss `ḫd` → `ḫdi` · key, grammar · **major** · Pass 1 renamed the morph lemma to ḫdi (U18), so the gloss key ḫd was stale and ḫdi had no gloss at all. The entry also called the verb "2-lit". It is ḫdi, a verb with a weak third radical: the unit's note explains its infinitive ḫdt by exactly that. · Removed ḫd. Added "ḫdi — to sail downstream, fare north (verb; infinitive ḫdt; the Nile flows north)".
+2. gloss `__broaden__.ḥry-ib` · missing · **major** · The known entry has only the noun "middle, midst; inner parts". U0 uses the word as the epithet "who dwells in" (nṯr ꜥꜣ ḥry-ib ꜣbḏw). Pass 1 flagged this, but there was no broaden entry, so the build would have glossed the epithet as a noun. · Added the known entry whole + " · also who is in the midst of, who dwells in (nisba epithet after a noun or name; …)".
+3. gloss `ḥqꜣ` · grammar · minor · The entry said "(verb 3ae-inf)". ḥqꜣ has three strong radicals, so it is not a 3ae-inf verb. · Now "ḥqꜣ — to rule (verb); ruler (noun m.); written with the crook".
+4. gloss `wtt` · grammar · minor · The entry said "(verb 3-lit)". A verb whose second and third radicals are the same is not a plain 3-lit verb, and the class label adds nothing. The second clause was a line-bound restatement. · Now "to beget, engender (verb); the begotten one, offspring (passive participle used as a noun)".
+5. gloss `ḫnti` · grammar · minor · The entry said "(verb 3ae-inf)". ḫnti has four radicals with a weak last one, so the label is wrong. · Dropped the class: "(verb; infinitive ḫntyt)".
+6. gloss `ḥḏt` · Budge form · minor · "Budge: ḥeṭ" is not Budge's form. He prints ḥet' (t' = ḏ). His ṭ is the hand d, so "ḥeṭ" would point a reader to the wrong word. · Changed to "Budge: ḥet'".
+7. gloss `nḫꜣḫꜣ` · Budge form, wording · minor · "Budge: khu" uses his English spelling, not his transliteration, which is χu. "reading of the sign alone uncertain" is a doubt that belongs to this line, and the U3 note already gives it. · Now "(noun m.; Budge: χu)".
+8. gloss `mfkꜣt` · Budge form · minor · "Budge: mafkia" lacks his ā. He prints māfkia. · Corrected.
+9. gloss `tꜣ-ḥr-stꜣ·n·f` · Budge form · minor · "Ta-her-seta-nef" lacks Budge's ḥ. He prints Ta-ḥer-seta-nef, and so does the U8 note. · Corrected.
+10. gloss `ẖrt-nṯr`, `sḫt-iꜣrw` · Budge form · minor · Both took Budge's English spelling or mixed it with his transliteration: "Neter-khert" and "Sekhet-Àrui". His transliteration has χ: Neter-χert, Seχet-Àrui. · Both corrected.
+11. U17 · n · minor · For the same reason as 10, the note's "(Budge: Neter-khert)" changed to "Neter-χert". All the other Budge forms in the notes already follow his transliteration.
+12. gloss `sk` · wording · minor · The entry had "here perhaps …", which ties a general entry to one line. It also had "(Budge: sek)": Budge forms are for names, not common verbs. · Now "to wipe, sweep (verb); perhaps also to drag, tow (?) (sense uncertain; Budge's 'toweth')". The uncertainty is kept, matching l/i "(?)".
+13. gloss `it` · wording · minor · "(?)" and "reading of the bare grain sign doubtful" put this line's doubt into the lemma entry. it 'barley' is a sure word. · Now "it — barley (noun m.; often paired with bdt 'emmer')". The U22 note and the "(?)" in l/i still carry the doubt about the reading.
+14. gloss `ḏꜥm` · wording · style · "reading of the sign uncertain" is a doubt that belongs to this line. · Removed. The U15 note still gives it.
+15. gloss `__broaden__.st` · wording · minor · The new sense was hedged with a guess about this line, "perhaps a short writing of smyt". · Now known entry + " · also, with the hill-country sign, the desert hills, the necropolis (?) (noun; sense uncertain)".
+16. gloss `__broaden__.skr` · format · style · Sokar the god is a different word from the verb "bury", but the entry joined the two with "also". · Now "a second word of the same spelling: Sokar, …".
+17. U22 ꜣḥt · say · minor · The say was "akhet", but the word has ḥ, which the rule writes h, not kh. · Now "ahet".
+18. U8 · i; U10 · n · minor · The name was rendered "Ta-her-sta-nef" in i (U8) and in the U10 note. The say form, and the rule used for every other name in the part (Igeret, Ta-djeser), is "Ta-her-setanef". · Both now "Ta-her-setanef".
+19. U8 · n · minor · The note quoted Budge as supplying "'that which existeth [and]'". His English is "{that which existeth [and that which]} not yet hath become". · The note now quotes him exactly and says that he supplies words not in the signs.
+20. U15 · n · minor · The note said that "three phrases" are each "a noun followed by the part of the body it qualifies". The third phrase, mfkꜣt ḥr-tp ꜥwy·fy, is a noun with a prepositional phrase, a different construction. · Now: two such phrases, and a third that puts turquoise upon his arms.
+21. U21 · l · minor · l had "are-given". The verb is the singular passive di·tw, and i has "Bread is given". · l "is-given".
+22. U4 · l · style · l had "the-desert(?)", while i and the note have "the desert hills(?)". · l "the-desert-hills(?)".
+23. U16 wsḫ · say · style · The say was "wesekh". The published parts say wsḫt "usekhet" and wsḫ-nmtt "Usekh-nemtet", following the rule w → u before a consonant. · Now "usekh".
+
+**Counts:** major 2 · minor 17 · style 4 (23 changes).
+
+### Checked and found correct (no change)
+
+- **Each unit against the signs and Budge's transliteration.** I checked every glyph role and tr. Every complement repeats a consonant of its sign, and every determinative has an empty tr. The ln of every unit matches the established line of its first word, checked by script. The approx remarks in the notes match the approx flags one by one: every "approximate" in a note is on a flagged sign, and no flagged sign is passed over.
+- **Grammar labels.** I re-checked these and found them right:
+  - the sḏm·n·f forms (šsp, stꜣ, sk, ḥqꜣ);
+  - the statives mn (twice), ꜣw and ḫꜥ·ṯi;
+  - the imperfective participle sbby (3ae-inf gemination), the participles iṯ and ꜥnḫ, and the passive participle wtt;
+  - the nisbas tpy, imy and ḥry-ib;
+  - the prospective di·k;
+  - the passives šnꜥ·tw and di·tw;
+  - the infinitives ḫd(t) and ḫntyt;
+  - the dual ꜥwy·fy;
+  - the adjective + noun phrases;
+  - the direct genitives and the "X of Xs" superlatives;
+  - n with the dative placed before the noun subject (wꜣḏ n·k tꜣwy);
+  - nbw agreeing with sbꜣw.
+- **Glossary coverage of known lemmas.** n (for / not), m (as), nb (all), ꜥ (hand), ꜣḫ (glory), wsr (power), ḥtp (offering), pr (house), ꜣḥt, kꜣ, tꜣ (land) and imy are each already covered by their known entries. The broaden entries for sꜣ, skr, st, ḥry-ib, mꜣꜥ-ḫrw, ꜥnḫ, ḥr and tp each add exactly the sense used here.
+- **Names against the published parts.** Osiris, Wennefer, Abydos/Abedju, Djedu, Geb, Nut, Horus, Sokar, Lord of All, Iunu, Duat, the Osiris the scribe Ani. The l/i of ind ḥr·k, of m-bꜣḥ ꜥ nb-r-ḏr, and of n kꜣ n Wsir match the published parts.
+- **No Budge-isms** (hath, thee, triumph, homage, saith) in l or i. No wording of a remembered modern translation.
+
+### Considered and refused
+
+- **ḥr 'upon' coded log inside tꜣ-ḥr-stꜣ·n·f (U8) but phon in U5 and U20.** Left. The published parts code D2 both ways (125-introduction phon, 125-rubric log).
+- **say forms that do not insert e in every consonant cluster** (khesbed, mefkat, khentyt, henty). Left. The published parts do the same (khenty, heptu, henqet).
+- **The second djed R11 in ḏdw coded det** (125-introduction has D46 comp instead). Left. The sign is different there, and treating the doubled djed as a classifier is defensible.
+- **The two reeds coded tr "i i" in iṯy and ḫntyt, against "y" in pwy.** Left. The published hymn to Ra codes iṯy the same way.
+- **U8 i "not yet"** (n ḫpr without the t of the sḏmt·f). Kept. The note gives both readings and says the sense is the same.
+- **U16 iwn 'pillar' despite the god classifier** (Budge reads it as a name, Àn). Kept. The note states Budge's reading and the doubt is clear.
+- **U22 ꜣḥt from two plough-like signs.** Kept. It is honestly flagged as doubtful, with (?) in l/i, and the signs support no better reading.
+- **U11 the wn-n-t-t correction, U1/U11 ḥḥ for nḥḥ, U13's unread t.** I re-checked pass 1's reasons and agree with them.

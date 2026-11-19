@@ -257,3 +257,13 @@ Book 9 into line.
 - **文徳** is 'the virtue of letters' in l and 'the virtue of peace and learning' in i, to keep the house 文. Say if you want something else.
 - **Line breaks:** Book 16 makes the number of ^ breaks in each w equal the number of lines in l, and breaks after an opening 「 as Book 15 does. The build does not enforce this, and the shipped 15.1 has one more break than lines; say whether it should become a gate.
 - **Older glossary entries** (禄, 辟, 諒, 毁, 隠 and others) have an unclosed parenthesis before their first ';', so their default popup gloss cuts mid-parenthesis (as noted for Books 13–14). The Book 16 entries were written to avoid it; the older ones would need their text changed, not just added to, so they were left.
+
+## 2026-11-19 — Book 17
+
+- **17.17 = 1.3** reuses the shipped English; He Yan's text lacks the chapter entirely, and the note says so.
+- **Readings decided:** 歸 guī in 歸孔子豚 (Zhu Xi 歸如字一作饋; the note gives kuì for those who follow 饋); 亡 wú 'away from home' (unmarked); 莞 wǎn (Zhu Xi 華版反, which points to huǎn — noted once); 佛肸 bì xī (佛音弼, 肸許密反); 亟 qì 'often' (好亟知並去聲); 識 shí, 興 xīng (unmarked); 鄉原 xiāng yuàn (原與愿同, no sound mark); 徼 jiāo after Zhu Xi's 古堯反 — some modern editions read jiǎo; say if you want that.
+- **Binding (decided meanwhile):** bound 陽貨, 公山弗擾, 公山氏 (as 孔氏/管氏), 佛肸, 中牟, 周南, 召南, 鄉原, 孺悲, 莞爾, 女子 (doubtful — could equally be 女 | 子); not bound 東周 (Zhu Xi reads 為東周 as 興周道於東方, not the period name), 匏瓜, 上知, 下愚, 牛刀, 絃歌, 日月, 從事, 鳥獸, 草木, 六言, 六蔽.
+- **Speaker attributions following Zhu Xi:** 17.1 the unnamed answers 曰不可 are Kongzi's (隨問而對) in i, a bare "He said" in l; 17.21 unit 46 (女安則為之…) is the Master's (此夫子之言也), left unquoted because it opens its unit; 17.24 unit 51 splits the Master's question from Zigong's answer (惡徼以下子貢之言也).
+- **17.25** translated on Zhu Xi's household reading (小人 = servants, 僕𨽻下人; women and servants of a house, 臣妾); the note explains, without comment.
+- **Echoes left, judged literal (reviewer's list):** 蔽 'clouding' in 17.8 is close to Legge's 'beclouding' — the alternative would be 'screening' (Zhu Xi 遮掩), a 12-place change plus the glossary; 17.16 'quarrelsome and contrary' / 'perverse'; 17.5 'a Zhou in the east'; 17.18 'sharp mouths that overturn states'.
+- **General knowledge kept:** the Guanju as the first poem of the Zhounan (17.10).

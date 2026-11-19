@@ -1578,7 +1578,7 @@ GLOSS = {
     "周南": "zhōu nán — the Zhounan, 'South of Zhou': the first section of the Airs of the States 國風 in the Odes, opening with the Guanju (17.10)",
     "召南": "shào nán — the Shaonan, 'South of Shao': the second section of the Airs of the States in the Odes; 召 is read shào here (17.10); He Yan's text writes 邵南",
     "鄉原": "xiāng yuàn — the village paragon: the man his village calls honest, who goes along with everyone to please the world (17.13; Zhu Xi: 原與愿同, 原 read as 愿 'honest, sincere')",
-    "孺悲": "rú bēi — Ru Bei, a man of Lu who had studied the mourning rites for a gentleman with Kongzi (17.20)",
+    "孺悲": "rú bēi — Ru Bei, a man of Lu who had studied the mourning rites for an officer (士喪禮) with Kongzi (17.20)",
     "女子": "nǚ zǐ — women; in 17.25 the women of the household who serve, paired with the menservants (臣妾)",
     "莞爾": "wǎn ěr — with a small smile (莞 'smiling' + 爾 'in such a way'; 17.4)",
     # --- Book 17 (陽貨): characters ---
@@ -1601,7 +1601,7 @@ GLOSS = {
     "牟": "móu — in 中牟, a place name (17.7)",
     "磷": "lìn — to wear thin (磨而不磷, 17.7; Zhu Xi: 磷力刃反; 磷薄也; Kong Anguo: 磷薄也)",
     "涅": "niè — a black dye-stuff; to dye black with it (涅而不緇, 17.7; Zhu Xi: 涅乃結反; 涅染皁物; Kong Anguo: 涅可以染皂者)",
-    "匏": "páo — a gourd (吾豈匏瓜也哉, 17.7; Zhu Xi and Kong Anguo: 匏瓠也)",
+    "匏": "páo — a gourd (吾豈匏瓜也哉, 17.7; Zhu Xi, and He Yan's own comment: 匏瓠也)",
     "繫": "xì — to tie, to hang tied in one place (繫而不食, 17.7; Zhu Xi: 繫於一處); also jì, to tie a knot",
     "邇": "ěr — near, close at hand (邇之事父, 17.9; Kong Anguo: 邇近也)",
     "獸": "shòu — a beast, a four-footed animal (鳥獸, 17.9)",

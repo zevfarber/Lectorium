@@ -75,11 +75,12 @@ scan anomaly turns up later in the volume.
 | done (2026-11-18, unattended) | 719–726 | 697–704 | `archive/pp697-704.json` | Night 143 closes (P702L03); Night 144 label own line P702L04 (centred, h); no verse; two-line running header on PDF 719 (both lines skipped); headers ٦٩٧/٧٠٠/٧٠٢ confirm −22; all joins continuous incl. 696→697 |
 | done (2026-11-18, unattended) | 727–734 | 705–712 | `archive/pp705-712.json` | Night 144 continues (no night label or closing formula in these pages; 239 lines from P702L04 and still open); verse pp. 707–712 (the tale of Ḥammād the Bedouin); headers ٧٠٨ (PDF 730) and ٧١٢ (PDF 734) confirm −22; detector-dropped verse intro P708L11 recovered from the band; all joins continuous incl. 704→705 |
 | done (2026-11-18, unattended) | 735–742 | 713–720 | `archive/pp713-720.json` | Night 144 closes and nights 145 (P713L14) and 146 (P716L07) open, both labels on their own centred line, flagged h; verse P713L01, P717L12; running header changes from Nuzhat al-Zaman and Ḥammād (p. 713) to حكاية البطة مع الشبل (p. 720); headers ٧١٣ (PDF 735) and ٧٢٠ (PDF 742) confirm −22; P717L22 prints وكولى (low-confidence, type error for وكوني, kept as printed); all joins continuous |
+| done (2026-11-19, unattended) | 743–750 | 721–728 | `archive/pp721-728.json` | Night 146 closes (P724L15); Night 147 label P724L16 and Night 148 label P727L01 (both centred own line, h); running headers حكاية الشبل مع النجار (p. 721) to حكاية الراعي العابد (p. 728); centred sub-heading وورد P726L18 (h); verse P721L21, P726L05/07; headers ٧٢١/٧٢٨ confirm −22; all joins continuous incl. 720→721 |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 742 (archive ends at printed p. 720, headers ٧١٣/٧٢٠ on PDF 735/742 confirm −22; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py now uses −22). Pages remaining: 196 PDF pages (743–938)
-(approximate, pending the corrected offset holding). Lines archived: 15984 (15803 + 181). calc.traineddata last
+**Last PDF page done: 750 (archive ends at printed p. 728, headers ٧٢١/٧٢٨ on PDF 743/750 confirm −22; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py now uses −22). Pages remaining: 188 PDF pages (751–938)
+(approximate, pending the corrected offset holding). Lines archived: 16163 (15984 + 179). calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new
 verified line pairs (pp. 127-131, 133-134 prose only, verse/heading excluded; p. 132 excluded, its

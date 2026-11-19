@@ -1682,3 +1682,12 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - The review again noticed that شَرْكَان (as the corpus points it) reads Sharkān while tr has Sharrukān; I kept the corpus pointing, as decided for Night 143. If the owner wants شَرُّكَان throughout, it is a mechanical sweep.
 - Library label: `Night 145 · King ʿUmar ibn al-Nuʿmān ends` — the night closes the tale; the bird tales (header حكاية البطة مع الشبل) begin in Night 146.
 - Nothing to decide. Next: night 146 (from P716L07) is still open; the next firing should transcribe.
+
+## PDF 743–750 (printed pp. 721–728, transcribed 2026-11-19)
+- Night 146 closes at P724L15. Night 147's label is on its own centred line at P724L16, and Night 148's at P727L01; both are flagged h. Nights 146 and 147 are now complete and unpublished. The next two firings should publish them.
+- The running header changes from حكاية الشبل مع النجار to the peacock, duck and gazelle material, and then to حكاية الراعي العابد (p. 728).
+- P726L18: a single centred word, وورد ("it is related"), introduces the anecdote of the pious man and the doves. It is transcribed as its own line, flagged h. The detector missed it, and missed P726L06 ثم قالت ايضا هذا البيت (centred); both passes recovered both lines from the bands.
+- The adjudicator confirmed that this edition's free-standing final ه has a hooked top and no dots. Pass 1 had read several of them as ة (هذه, اخذه, بيده, ظهره, امره, وصبره, اولاده), and they were decided as ه. Every remaining final ة in the archive is a real feminine ending.
+- Kept as printed, for the publishing run to consider for `emend.json`: P726L16 ساعة وقل / قيل (I checked the ink and it reads وقل; the sense wants وقد قيل); P724L08 البقظة (for اليقظة); P727L19 انشعرّ (for اقشعرّ); P723L12 فتعل; P723L18 اتيسه (perhaps انيسه); P721L16 البراي (one ر); P724L06 قدرماك run together; P725L01 اتعدى (sense اقعدي).
+- Low confidence: P727L19 ايّتها (the shadda sits between the ي and ت).
+- Nothing to decide.

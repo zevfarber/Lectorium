@@ -278,3 +278,14 @@ Book 9 into line.
 - **Echoes left, judged literal:** 'birds and beasts', 'the madman of Chu', 'He is a recluse', 'presented his two sons to him'.
 - **Glossary brackets:** the reviewer counts about 215 shipped entries (Books 9–17) whose first clause has an unclosed bracket before the first ';' (as already noted for Books 13–16). Fixing them means changing text, not adding, so it was left. Book 18's new entries avoid it. Approve a one-off pass if you want them fixed.
 - **Manifest title:** `part` is "Book 18 — 微子 The Viscount of Wei" (title translated, as Book 15 "Duke Ling of Wei").
+
+## 2026-11-19 — Book 19
+
+- **Readings decided:** 文 wén in 小人之過也必文 (Zhu Xi 文去聲, i.e. wèn — noted once; translated 'dress up', after 文飾); 洒 sǎ, 掃 sǎo (Zhu Xi 色賣反 / 素報反 point to shài / sào — noted); 亡 wú (亡讀作無); 與 yú in 我之大賢與 / 我之不賢與; 泥 nì, 好 hào, 惡 wù in 惡居下流, 更 gēng, 識 zhì ×2, 語 yù, 量 liàng, 知 zhì ×2 in 19.25 (知去聲); 道 dǎo in 道之斯行 (He Yan's text writes 導); 見 jiàn in 多見其不知量 (He Yan's 適自見不知量 may intend xiàn 'to show' — say if you prefer it); 多 kept duō though read as 祇 'only' (Zhu Xi 多與祇同).
+- **Binding (decided meanwhile):** bound 儼然 堂堂 言游 孟莊子 孟氏 陽膚 仲尼 公孫朝 叔孫武叔 陳子禽 (whole name, rather than 陳 | 子禽). Not bound: 下流 (as 17.24, though Zhu Xi glosses it as one place), 文武, 丘陵, 宮牆, 室家, 常師, 百工, 小道, 致命, 洒掃, 應對, 進退, 草木, 親喪, 日月, 百官, 邦家.
+- **仲尼 'courtesy name':** the archive shows only that 仲尼 = 孔子; the note and glossary call it his courtesy name from general knowledge. Hedge if you want everything grounded.
+- **Commentary slips (not reading text, so not in emend.json):** Zhu Xi on 19.15 prints 少試實 (probably for 誠; hedged in the note); on 19.12 非以其未為先 (未 for 末; paraphrased, not quoted). He Yan's book heading reads 凢卄四章/九卄五章 — a 24-chapter count beside 25; not mentioned.
+- **19.25 於變時雍:** Zhu Xi cites it without naming the source (the Documents, from memory); the note leaves it unnamed.
+- **Echoes left, judged literal:** 'seen from afar' (19.9), 'strength to spare' (19.13, as 1.6), 'has not fallen to the ground; it is among men' (19.22), 'Those who find its gate are perhaps few' (19.23), 'what harm would that do to the sun and moon?' (19.24).
+- **Glossary brackets:** 肆 and 矜 (older entries) also have an unclosed bracket in their first sense; left, as with the ~215 noted under Book 18.
+- **Manifest title:** `part` is "Book 19 — 子張 Zizhang".

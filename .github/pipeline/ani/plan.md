@@ -9,7 +9,7 @@
 | ani-125-rubric | Spell 125 — the rubric | Budge pp. 222–224 | published |
 | ani-hymn-to-ra | Hymn to Ra at his rising | Budge pp. 1–4 | published |
 | ani-hymn-to-osiris | Hymn to Osiris | Budge pp. 8–10 | published |
-| ani-weighing-of-the-heart | The weighing of the heart | Budge pp. 11–16 | todo |
+| ani-weighing-of-the-heart | The weighing of the heart | Budge pp. 11–16 | established |
 | ani-001-a | Spell 1, first half | Budge pp. 17–20 | todo |
 | ani-001-b | Spell 1, second half | Budge pp. 21–24 | todo |
 | ani-022-072 | Spell 22 and the rubric of Spell 72 | Budge pp. 25–27 | todo |

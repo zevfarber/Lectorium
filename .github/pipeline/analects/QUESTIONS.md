@@ -227,3 +227,12 @@ Book 9 into line.
 
 - **Two chapters on one card (13.6–7, 13.13–14).** Zhu Xi's copy prints these pairs with only a ○ between them and no commentary, so the unit-per-lemma rule puts each pair in one unit. Decided meanwhile: one card, numbered with a range chip ("6–7", "13–14"), via a new `npas` key in the draft and build; the note on each says the card holds two chapters. The same will happen at 15.18–19 and 15.22–23. If you would rather split such stretches into two cards at the ○ (which needs the gate to allow a lemma to span two units), say so and the build can be changed before Book 15.
 - **13.20 行己有恥** — clear misprint (已 for 己) corrected in the reading text under rule 5b; recorded in emend.json.
+
+## 2026-11-19 — Book 14
+
+- **Two misprints corrected (rule 5b), recorded in emend.json:** 14.42 莫已知也 → 莫己知也 (Zhu Xi's own sound note 莫已之已音紀餘音以 confirms; the two 已 of 斯已而已矣 stay 已 yǐ, as he says), and 14.43 總已以聽 → 總己 (his comment 總己謂總攝己職; Ruan 總己).
+- **14.40 子曰作者七人矣** is numbered as its own chapter: the Kanripo transcription shows a blank where the ○ should be, but Zhu Xi comments on it separately (李氏曰), and his count 凡四十七章 needs it.
+- **14.17 九合諸侯:** Zhu Xi reads 九 as 糾 'to marshal' (督也). The translation keeps a neutral 'time after time' (i) and the plain numeral in l, and the note gives his reading. If the owner prefers Zhu Xi's reading in the English as crib precedence would suggest, only u22's l/i change.
+- **Readings decided:** 諒隂 liáng ān (traditional; Zhu Xi gives no sound and says 未詳其義); 孔氏 bound as a name (as 管氏 in Book 3); 何為 'why' read wèi (14.34, 14.37; not marked by Zhu Xi); readings against Zhu Xi's marks, each noted once: 行 xíng (14.4, 14.29), 盪 dàng (土浪反), 糾 jiū (居黝反), 使 shǐ (14.26), 叩 kòu (音口).
+- **He Yan transcription slips, reported as printed and hedged:** 陳桓 for 陳恒 (also in Ma Rong's comment there), 孔子與人坐, 賜也賢乎我, 石門石門, 未之難 (its own comment prints 未無也), 踞於位, 脩巳以敬人. Ma Rong's comment on 總己 reads 已已百官也 in the transcription and is not cited.
+- Glossary: the first `;` of many entries falls inside a parenthesis (as in Book 13), so the popup's default gloss may cut mid-parenthesis where a token gives no in-context gloss; every Book 14 token carries its own gloss, so nothing visible changes, but the format may be worth a later pass.

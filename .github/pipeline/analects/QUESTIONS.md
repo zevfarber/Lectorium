@@ -245,3 +245,15 @@ Book 9 into line.
 - **15.30 (lemmata 41–43):** one sentence split at Zhu Xi's 句 marks; as at 7.6 and 8.8, these units carry 子曰： without a quotation mark.
 - **Commentary transcription oddities, paraphrased not quoted:** He Yan's 未事 for 末事 (15.1), Zhu Xi's 冇得 (15.2), 聽之侯人 (15.26). 15.3 prints 德 (not the edition's usual 徳); kept.
 - 蘇氏 is given as 'Su' (as Books 1–12) while Books 13–14 say 'Su Shi'; a one-word change if you want them unified.
+
+## 2026-11-19 — Book 16
+
+- **A ○ inside 16.1.** The print has a ○ before 丘也聞 (lemma 9), outside Zhu Xi's comment brackets. Treated as not a chapter break, since his count of fourteen chapters needs 16.1 to run to 蕭牆之内也; the unit's note says so.
+- **Claims from memory cut (decided meanwhile):** that later critics suspect 寡 and 貧 have changed places in 不患寡而患不均，不患貧而患不安, and that Zheng Xuan's example (Yang Hu imprisoning Ji Huanzi) came before Ran You served the Ji. Neither is in Zhu Xi or He Yan's collection. If you want the transposition mentioned (it is a well-known Qing suggestion), it needs a public-domain source to cite.
+- **Kept, hedged:** unit 0 says the head of the Ji was 'presumably Ji Kangzi', which is an inference, not in the commentaries.
+- **16.12 displaced couplet:** Zhu Xi quotes Hu Yin: Master Cheng put 誠不以富亦祗以異 (12.10) at the head of this chapter, and Hu judges it seems to belong just before 其斯之謂與; Zhu Xi calls this near right and adds that 孔子曰 has probably dropped out. Nothing moved; the note gives the account (and agrees with what the shipped 12.10 note says Cheng held).
+- **Readings against Zhu Xi's marks:** 亢 kàng (his 音剛 gāng; as 1.10's note), 探 tàn (吐南反), 辟 pì in 便辟 (婢亦反), 逺 yuǎn in 逺其子 (去聲) — each noted once.
+- **Binding (decided meanwhile):** bound 夫人, 小童, 小君 (titles), 大人, 庶人, 陪臣, 血氣; not bound 便辟, 便佞, 善柔 (Zhu Xi glosses each as a unit — binding would be a three-unit change plus keys), 君夫人, 寡小君, 公室, 文徳, 干戈, 子孫.
+- **文徳** is 'the virtue of letters' in l and 'the virtue of peace and learning' in i, to keep the house 文. Say if you want something else.
+- **Line breaks:** Book 16 makes the number of ^ breaks in each w equal the number of lines in l, and breaks after an opening 「 as Book 15 does. The build does not enforce this, and the shipped 15.1 has one more break than lines; say whether it should become a gate.
+- **Older glossary entries** (禄, 辟, 諒, 毁, 隠 and others) have an unclosed parenthesis before their first ';', so their default popup gloss cuts mid-parenthesis (as noted for Books 13–14). The Book 16 entries were written to avoid it; the older ones would need their text changed, not just added to, so they were left.

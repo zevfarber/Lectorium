@@ -28,7 +28,7 @@ Spoken layer and word clips (added 2026-09-10 for Perrault's 1697 text):
 Usage: python3 build_audio.py <story-id>
 Env:   GOOGLE_TTS_KEY  (Google Cloud TTS API key, from Actions secret)
 """
-import base64, json, os, re, subprocess, sys, time, urllib.request, urllib.error
+import base64, json, os, re, shutil, subprocess, sys, time, urllib.request, urllib.error
 
 VOICES = {
     "de-DE": {"name": "de-DE-Chirp-HD-F", "lang": "de-DE", "espeak": "de"},
@@ -60,8 +60,11 @@ LANGUAGE_VOICES = {
     # voice reading the Ethiopic letters as printed, i.e. the traditional Ethiopian church pronunciation,
     # at the slower rate he chose (0.7). Only the punctuation is changed ("ethi"): the word divider ፡
     # becomes a space and the stops become commas and full stops. Alignment uses espeak's Amharic voice.
+    # wordClips (2026-11-20): every word is also voiced on its own, for the popup's Say it and as the
+    # alignment reference. Before this, Say it cut the word out of the sentence clip using timings from
+    # espeak's Amharic, and Zev heard pieces of the neighbouring words (፳፩ "twenty-one" got 0.075 s).
     "Ge'ez (Classical Ethiopic)": {"name": "am-ET-Wavenet-B", "lang": "am-ET", "espeak": "am",
-                                   "script": "ethi", "rate": 0.7},
+                                   "script": "ethi", "rate": 0.7, "wordClips": True},
 }
 
 
@@ -253,10 +256,53 @@ def spoken_text(s):
     return src.replace("\n", " ").strip().strip(",").strip()
 
 
-def new_regime(story):
+def wants_word_clips(story, cfg=None):
+    """A story asks for word clips itself (Perrault), or its language's voice does (Geʿez)."""
+    return story.get("wordClips") is True or bool((cfg or {}).get("wordClips"))
+
+
+def new_regime(story, cfg=None):
     """True for stories that use the spoken layer or word clips (Perrault onward)."""
-    return bool(story.get("wordClips") is True
+    return bool(wants_word_clips(story, cfg)
                 or any(isinstance(s.get("say"), str) for s in story["sentences"]))
+
+
+def words_model_clip_texts(story):
+    """{word_key(say): text to voice} for a words-model story read by a plain-text voice (Geʿez).
+
+    The reader keys the popup's clip by wordKey(words[i].say) and align_wordref.py looks clips up the
+    same way, so the key is the romanized `say`; the voice is sent the word in its own script (the
+    glyphs, punctuation dropped), which is what it reads in the sentence clips.
+    """
+    import align_wordref as AW
+    out = {}
+    for s in story["sentences"]:
+        for w in s.get("words") or []:
+            say = (w.get("say") or "").strip()
+            text = "".join(g.get("s", "") for g in w.get("glyphs", []) if g.get("role") != "punct").strip()
+            if say and text and AW.word_key(say) not in out:
+                out[AW.word_key(say)] = text
+    return out
+
+
+def shared_word_clips(voice):
+    """{voiced text: path} of word clips other stories already made with this voice, so a word
+    shared by many chapters is paid for once."""
+    found = {}
+    for d in sorted(os.listdir("audio")) if os.path.isdir("audio") else []:
+        vf, tf = "audio/%s/voice.txt" % d, "audio/%s/w/texts.json" % d
+        if not (os.path.exists(vf) and os.path.exists(tf)):
+            continue
+        if open(vf, encoding="utf-8").read().strip() != voice:
+            continue
+        try:
+            for n, text in json.load(open(tf, encoding="utf-8")).items():
+                p = "audio/%s/w/%s.mp3" % (d, n)
+                if text not in found and os.path.exists(p) and os.path.getsize(p) > 0:
+                    found[text] = p
+        except Exception:
+            continue
+    return found
 
 
 def build_word_clips(sid, story, adir, cfg, key, remake=False):
@@ -273,7 +319,11 @@ def build_word_clips(sid, story, adir, cfg, key, remake=False):
     import align_wordref as AW   # same directory; shares the reader-mirroring tokenizer
     say_for = story.get("wordSay") or {}
     spoken_for = {}
+    if not story.get("langCode") and any(s.get("words") for s in story["sentences"]):
+        spoken_for = words_model_clip_texts(story)   # Geʿez: keyed by say, voiced in fidel
     for s in story["sentences"]:
+        if s.get("words") and not story.get("langCode"):
+            continue
         for tok in AW.WORD_RE.findall(s["t"]):
             k = AW.word_key(tok)
             if k not in spoken_for:
@@ -286,7 +336,8 @@ def build_word_clips(sid, story, adir, cfg, key, remake=False):
     if remake:   # the voice changed: keep the numbering, make every clip again
         wtexts = {}
     nxt = max([int(n) for n in words.values()] + [-1]) + 1
-    made = 0
+    made = copied = 0
+    shared = {} if remake else shared_word_clips(cfg["name"])
     for k in sorted(spoken_for):
         if k not in words:
             words[k] = nxt
@@ -296,13 +347,20 @@ def build_word_clips(sid, story, adir, cfg, key, remake=False):
         text = spoken_for[k]
         if os.path.exists(path) and os.path.getsize(path) > 0 and wtexts.get(n) == text:
             continue
+        if text in shared and os.path.abspath(shared[text]) != os.path.abspath(path):
+            shutil.copyfile(shared[text], path)
+            wtexts[n] = text
+            copied += 1
+            continue
         open(path, "wb").write(synth_with_retry(text, cfg, key))
         wtexts[n] = text
+        shared[text] = path
         made += 1
         time.sleep(THROTTLE_S)
     json.dump(words, open(wf, "w", encoding="utf-8"), ensure_ascii=False, indent=1, sort_keys=True)
     json.dump(wtexts, open(wtf, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print("word clips: %d written of %d keys for %s" % (made, len(spoken_for), sid))
+    print("word clips: %d written, %d copied from other stories, of %d keys for %s"
+          % (made, copied, len(spoken_for), sid))
 
 
 def main():
@@ -351,7 +409,7 @@ def main():
             prev_texts = json.load(open(tf, encoding="utf-8"))
         except Exception:
             prev_texts = {}
-    elif not new_regime(story):
+    elif not new_regime(story, cfg):
         # Clips that predate this cache are grandfathered in: record what they say now rather
         # than resynthesizing a whole corpus to establish a baseline we already trust.
         prev_texts = {str(i): s["t"].replace("\n", " ").strip()
@@ -391,7 +449,7 @@ def main():
 
     env = dict(os.environ)
     env["ESPEAK_VOICE"] = cfg["espeak"]
-    if not new_regime(story):
+    if not new_regime(story, cfg):
         subprocess.run(
             ["python3", ".github/scripts/align_dtw.py", sid],
             check=True, env=env,
@@ -399,7 +457,7 @@ def main():
         return
 
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-    if story.get("wordClips") is True:
+    if wants_word_clips(story, cfg):
         build_word_clips(sid, story, adir, cfg, key, remake=voice_changed)
     # The listening check re-rolls bad clips BEFORE alignment, so timings are taken from the
     # clip that ships. It never fails the job: its findings go to audio/<id>/qc.json.

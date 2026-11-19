@@ -193,6 +193,40 @@ def spoken_divider():
     return take
 
 
+WORDCLIP_LANGUAGES = {"Ge'ez (Classical Ethiopic)"}   # keep in sync with "wordClips" in build_audio.py LANGUAGE_VOICES
+WORDCLIPS_PER_RUN = 25
+
+
+def word_clips_missing():
+    """Story ids voiced before their language's voice was set to make word clips (Geʿez, 2026-11-20).
+
+    Their sentence clips are good and stay; build_audio adds audio/<id>/w/ + words.json and re-aligns
+    on those clips. A story already has them once words.json exists. Rationed per run; the rest
+    follow on later runs (push or dispatch "wordclips"). Once all are done this returns nothing.
+    """
+    out = []
+    for f in sorted(os.listdir(".")):
+        if "/" in f or not f.endswith(".json"):
+            continue
+        sid = story_id(f)
+        if not sid:
+            continue
+        adir = os.path.join("audio", sid)
+        if not os.path.exists(os.path.join(adir, "align.json")) or os.path.exists(os.path.join(adir, "words.json")):
+            continue
+        try:
+            if json.load(open(f, encoding="utf-8")).get("language") not in WORDCLIP_LANGUAGES:
+                continue
+        except Exception:
+            continue
+        out.append(sid)
+    take = out[:WORDCLIPS_PER_RUN]
+    if out:
+        print("stories without word clips: %d; voicing words for %d this run: %s"
+              % (len(out), len(take), " ".join(take)))
+    return take
+
+
 def missing_audio():
     """Every audio-bearing root story that has no clips at all.
 
@@ -234,6 +268,8 @@ def main():
         pre = dispatch.split(":", 1)[1].strip()
         ids.extend(x for x in missing_audio() if x.startswith(pre))
         print("dispatch %r: %d story/ies" % (dispatch, len(ids)))
+    elif dispatch.lower() == "wordclips":
+        ids.extend(word_clips_missing())
     elif dispatch.lower() == "missing":
         ids.extend(missing_audio())
         print("dispatch 'missing': %d story/ies have no clips yet" % len(ids))
@@ -263,6 +299,7 @@ def main():
                     ids.append(sid)
         ids.extend(stale_alignment())
         ids.extend(spoken_divider())
+        ids.extend(word_clips_missing())
 
     ids = sorted(set(ids), key=_order)
     gh_out = os.environ.get("GITHUB_OUTPUT")

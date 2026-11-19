@@ -236,3 +236,12 @@ Book 9 into line.
 - **Readings decided:** 諒隂 liáng ān (traditional; Zhu Xi gives no sound and says 未詳其義); 孔氏 bound as a name (as 管氏 in Book 3); 何為 'why' read wèi (14.34, 14.37; not marked by Zhu Xi); readings against Zhu Xi's marks, each noted once: 行 xíng (14.4, 14.29), 盪 dàng (土浪反), 糾 jiū (居黝反), 使 shǐ (14.26), 叩 kòu (音口).
 - **He Yan transcription slips, reported as printed and hedged:** 陳桓 for 陳恒 (also in Ma Rong's comment there), 孔子與人坐, 賜也賢乎我, 石門石門, 未之難 (its own comment prints 未無也), 踞於位, 脩巳以敬人. Ma Rong's comment on 總己 reads 已已百官也 in the transcription and is not cited.
 - Glossary: the first `;` of many entries falls inside a parenthesis (as in Book 13), so the popup's default gloss may cut mid-parenthesis where a token gives no in-context gloss; every Book 14 token carries its own gloss, so nothing visible changes, but the format may be worth a later pass.
+
+## 2026-11-19 — Book 15
+
+- **15.4 恭己** — clear misprint (已 for 己) corrected under rule 5b; recorded in emend.json.
+- **15.25 今亡已夫** kept as printed (Zhu Xi's own quotation of Yang Shi has 已夫); Ruan and He Yan read 矣夫, noted. Say if you would rather treat 已 as a misprint.
+- **Binding left unbound (decided meanwhile):** 俎豆 (Book 8 binds 籩豆 — binding it would be consistent; a one-unit change plus a glossary key), 志士 / 仁人 (Zhu Xi glosses as ordinary phrases), 明日, 直道, 没世. 三代 and 師冕 are bound.
+- **15.30 (lemmata 41–43):** one sentence split at Zhu Xi's 句 marks; as at 7.6 and 8.8, these units carry 子曰： without a quotation mark.
+- **Commentary transcription oddities, paraphrased not quoted:** He Yan's 未事 for 末事 (15.1), Zhu Xi's 冇得 (15.2), 聽之侯人 (15.26). 15.3 prints 德 (not the edition's usual 徳); kept.
+- 蘇氏 is given as 'Su' (as Books 1–12) while Books 13–14 say 'Su Shi'; a one-word change if you want them unified.

@@ -1707,3 +1707,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - غبرة pointed ghabra, as in Night 146.
 - Library label: `Night 147 · The Duck and the Lion Cub ends / The Hermit and the Pigeons begins`. The new anecdote opens with the centred word وورد (P726L18) and has no heading; the running header on p. 728 calls the next material حكاية الراعي العابد. The name "The Hermit and the Pigeons" is mine; change it if the owner prefers another.
 - Nothing to decide. Next: night 148 (from P727L01) is still open; the next firing should transcribe.
+
+## PDF 751–758 (printed pp. 729–736, transcribed 2026-11-19)
+- Night 148 closes at P733L14. Night 149's label is on its own centred line at P733L15. The adjudicate prompt has no way to set the flag, so I set h on it by hand, as for earlier labels. Night 148 is now complete and unpublished; the next firing should publish it.
+- The running header is حكاية طير الماء والسحلف. The print spells the animal السحلف (س ح ل ف) throughout, the header included; it is kept as printed. The publishing run may want to note it as a form of سلحفاة.
+- Lines dropped by the detector and recovered from the bands by both passes: P732L10 فانشد طير الماء يقول, P732L20 (a centred اعلم), P733L14 عن الكلام المباح, and the verse line طال ما قد ساء قلبي on p. 735. P735L20 شعر — is a centred label, flagged h.
+- Both passes wrote ة on six words where the print has a hooked final ه with no dots. The adjudicator found them, and I corrected them by hand before applying: P730L23 وولده, P734L06 عبده, three cases of هذه on p. 734, and وآخره. P730L21 هذة does have two clear dots (I checked the crop), so it is kept as printed.
+- For the publishing run (kept as printed): P734L18 تيل (two dots above; a misprint for قيل), P734L22 المتل (for المثل), P734L07 التعميف (sense unclear), P736L08 فَلَاَ صْفَحَنْ (verse; printed with a gap inside the word), P730L21–22 يغترّبها / المغترّبها (run together).
+- Nothing to decide.

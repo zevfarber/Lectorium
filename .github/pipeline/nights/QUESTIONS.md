@@ -1760,3 +1760,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - ه/ة: both passes wrote واخذه at P760L11, but the adjudicator found two clear dots (واخذة), and I corrected it by hand before applying. The print has ة at P753L07 هذة, P753L19 شرة and twice عندة on p. 759, but an undotted عنده at P759L10. All are kept as printed.
 - For the publishing run (kept as printed): P758L03 اخذ (the dot is faint; pass 1 read اخل); P759L20 الطاوُوس (here with a damma; elsewhere الطاؤوس); P756L06 مِلْ (the sukun is medium confidence); P760L12 ار احسن (two words set close together).
 - Nothing to decide.
+
+## Night 151 (P751L07–P753L15, published 2026-11-19)
+- No misprints corrected; emend.json unchanged.
+- Kept as printed with notes (doubtful): P751L10 مطر السلامة (an unusual figure, perhaps corrupt); P751L19 كفى بصدق المودة صلاح النية (the case of صلاح; both readings given); P752L04 الممكّنة (read mumakkana); P752L07 وان استحكمت قوة المحتال (a compressed clause); P753L03 صلة بقطيعة (the force of bi-).
+- P753L08 صحبَته: the print sets a fatḥa on the b. By the rule that a printed mark on a prose word is kept, it is pointed صَحَبْتَهُ (ṣaḥabtahu), and the note gives the Classical ṣaḥibtahu. The drafter had moved the vowel instead; I put the print's mark back.
+- The shared glossary entry بِالنَّهَارِ said 'with the day'; it now says 'by day'. Five other shared entries had a sense added for this night's use of bi- or maʿa kawnika; no existing meaning was removed.
+- Library label: `Night 151 · The Fox and the Crow, continued`. The flea and the mouse is told inside the fox's speech, and the falcon fable begins inside the crow's, so neither is named in the label. The title follows the running header حكاية الثعلب والغراب.
+- Nothing to decide. Next: night 152 (P753L16–P760L19) is complete and unpublished; the next firing should publish it.

@@ -73,3 +73,52 @@ Several draft lemmas share a key with a known entry of another sense, so the bui
 - mꜣꜥt — here also the goddess Maat
 - rsy — here also the noun "the south"
 - ·w — new: the 3rd m. sg. ending of the stative
+
+## Pass 2
+
+Edits made by script (scratchpad review2/edit2.py), checks in review2/verify.py and review2/lem.py. After the edits the concatenated glyph sequence (810 signs) still equals source/established/ani-hymn-to-ra.json. Rubric, approx and restored flags match sign by sign. Every morph g-list is non-empty and covers its word's glyphs exactly once. No sign, role, tr or q was changed. Every lemma in units.json is in known-lemmas.json or is a top-level key of gloss.json. gloss.json has no unused keys and no key that duplicates a known lemma. Every `__broaden__` value begins with the known entry, copied whole, followed by " · ".
+
+### Changes
+
+Format: unit/entry · field · severity · what was wrong · what was done.
+
+1. U25 `s` (the lone bolt) / gloss `__broaden__.s` · morph lemma, gloss · **major** · The broaden entry gave `s` "a second word of the same spelling: a lone s of unclear sense". That is a placeholder, not a word of the language. Without it, the part's glossary would list s "man, person" for this sign. · Removed the broaden entry. The morph lemma is now the known `·s` (suffix 'it, its'), which is Budge's reading ("its") and the note's "perhaps". The morph keeps its own gloss: "a single s, not understood here (perhaps the suffix "its")". The reading, l ("s(?)") and the note are unchanged.
+2. gloss `ḫft` · **major** · The entry had "Budge: khefti 'when'". Budge prints χeft, and Budge brackets are for names. The entry also ran prepositional and conjunctional uses together. · Changed to "in front of, facing; in accordance with; at the time of, when (preposition; also before a verb form)".
+3. gloss `mnt` · **major** · "also thigh (noun f.)" was added from memory and is not secure lexicon. "meaning uncertain here" ties a general gloss to this one line. · Changed to "mnt — daily (adverb; Budge: ment)". The doubt about the signs stays in the U14 note.
+4. U22 · l, i, n · minor · l and i had "his place(?) of yesterday". No noun ꜥ 'place, region' is known: that is Budge's guess. ꜥ 'state, condition' is attested. · l "his-state(?)", i "he has come to his state(?) of yesterday". The note now says Budge's 'region' is a sense the word is not known to have, and that 'state' is the reading taken. The query is kept. The gloss `ꜥ` broaden changes to match (13).
+5. U10 · l · minor · l gave "southern · northern · western · eastern". Pass 1 rewrote the note to make these the feminine nouns for the quarters, followed by a direct genitive, but l still showed adjectives. · l "of-the-south · the-north · the-west · the-east". i already had this.
+6. U0 · n · minor · The note called N27 in ꜣḫt "approximated in Budge's type", but the sign has no approx flag (the flag is on N27 in ḥr-ꜣḫty, U7). · Removed the claim.
+7. U5 · n · minor · The note said šsp O42 was "approximated in Budge's type", but it is not flagged approx. · Removed the claim.
+8. U12 · n · minor · The note said A53 in irw and V26 in ꜥḏt were "approximated in the type", but neither is flagged. Only the boat P3 is. · Removed both claims. The note on the boat is kept.
+9. U10 · n · minor · The note put "(approximated in the type)" on the rushes M22, which are not flagged. The approximate sign is the plumed god A40. · Moved the remark to A40.
+10. U24 · n · minor · The note called F9 in ꜣt "approximated", but it is not flagged. Only the packet's UNSURE applies. · Now "(an animal head not clear in the print)".
+11. gloss `pḥ` · minor · The second sense "hindquarters, rear, end (noun m.)" came from memory. The standard noun is pḥwy, which is already a known lemma (U27). · Removed. The entry is now "to reach, arrive at, attain (verb)".
+12. gloss `·w` · minor · "also the plural ending of nouns and adjectives" is wrong under a lemma for the stative ending. Plural -w is never analysed as a separate morph. · Removed.
+13. gloss `__broaden__.ꜥ` · minor · "also region(?), state, condition (noun f.; sense uncertain)" gave Budge's unattested 'region', a gender that is not secure, and a line-bound hedge. · Now known entry + " · a second word of the same spelling: state, condition (noun)".
+14. gloss `__broaden__.wḏꜣ` · minor · "to be content, well-disposed" belongs to wḏꜣ-ib, not to wḏꜣ. Also, "be sound" is a separate word, not an extension of "proceed". · Now known entry + " · a second word of the same spelling: to be sound, prosper (verb; ꜥnḫ wḏꜣ snb …)".
+15. gloss `__broaden__.ḫt` · minor · ḫt 'wood' was marked noun f. That word is masculine; the feminine is ḫt 'thing'. · "wood, tree, stick, a wooden board (noun m.)".
+16. gloss `tꜣ-ṯnn` · minor · "'the Land that rises'" gave an etymology as if certain. The Budge form "Ta-tunen" does not match the packet (Ta - tu - nen) or the U10 note (Ta-tu-nen). · Now "Tatenen, god of the land that first rose out of the waters, worshipped at Memphis (god's name; tꜣ 'land'; Budge: Ta-tu-nen)".
+17. gloss `nwt` · minor · "'sky'" was given as the meaning of the name, which is not transparent. · Removed.
+18. gloss `iꜣbtt` · minor · The tail "iꜣbty 'eastern'" conflicts with the known lemma iꜣby, which U0 uses. · Removed. The entry is now "the east, the eastern quarter where the sun rises (noun f.)".
+19. gloss `ꜥḏt` · minor · "Adjet, the morning bark" presented ꜥḏt as an established name. The note says it is the reading of the signs and that the usual name is mꜥnḏt. The Budge form āṭet is his English: his transliteration is āṭtet. · Now "the sun's bark of the day, the morning bark (boat name; the reading follows the signs: the morning bark is usually named mꜥnḏt, also ꜥnḏt; Budge: āṭtet)".
+20. gloss `ḫpri`, `ḥr-ꜣḫty`, `sktt`, `ḥwt-sr` · Budge spelling · minor · These were taken from Budge's English column or partly anglicised (Kheperà, Ḥeru-khuti, Sektet, Ḥet-ser). The convention and the known entries (Àusàr, Àbṭu, Teḥuti) use the transliteration column. · Now χeperà, Ḥeru-χuti, sektet and ḥet ser. ḥwt-sr also gets "at Heliopolis", as in the U18 note.
+21. gloss `wdb` · minor · "the turning over of offerings" did not match the units ("reversion of offerings"). · Now "wdb ḫt 'the reversion of offerings', …". The second word "shore, riverbank" is kept as standard lexicon, in the "a second word of the same spelling" format.
+22. gloss `ꜣḫt`, `int` · style · The second words were written as "also …" or with redundant wording. · Both now use the "a second word of the same spelling:" format. Their senses (inundation season, valley) are standard and kept.
+23. gloss `nyny`, `ḥꜣt`, `iꜥḥ`, `ḥwt-bꜣ`, `__broaden__.rsy` · style · nyny was tied to "raised arms", while this classifier holds the arms forward. iꜥḥ described the classifier of this one writing. ḥwt-bꜣ had "a sacred sanctuary". rsy had a redundant "(noun; rsy 'the south')". ḥꜣt split its senses with "· also". · All tightened. No sense was added or removed.
+
+**Counts:** major 3 · minor 18 · style 2 (23 changes).
+
+### Checked and found correct (no change)
+
+- **The units pass 1 changed.** U3 psḏ (sḏm·f with noun subject), U25 ḫpr (stative after sp·f), U30 gm·f and U33 šsp·i (passive sḏm·f with suffix subject), U28 mꜣꜣ·i (morph on ·i only, restored flag kept), and U10 tmmw (G17 phon m). All are right, and their l, i and n agree.
+- **Grammar labels throughout.** These are labelled correctly: stative endings (·ṯi, ·w, unwritten), sḏm·n·f and sḏm·tw·f morphs, the relative form mrr·f, the imperfective participle ddw, the nisbas ḥry, ẖry and iry, the infinitive with a genitive subject, ḥr + infinitive, n + infinitive 'without', and the dual ꜥwy.
+- **Second senses kept as standard lexicon:** int 'valley', ꜣḫt 'inundation season', ꜣḫ 'glory, effectiveness', ḥpt 'embrace', tr 'time, season', ꜣbḏw 'abdju-fish', mi 'like', mꜣꜥt the goddess, rꜥ 'sun, day', wdb 'shore', šps 'precious', and ḥꜣt 'beginning'.
+- **Unsure items kept.** iꜥḥ 'moon, Iah' and ḥwt-sr are right as entries. ḥꜣt is right; the note gives the doubt about "prow".
+- **No Budge-isms and no remembered modern wording** in l or i.
+
+### Considered and refused
+
+- **U2 reading `ind` → inḏ** (the tr has nḏ and the say form is "inedj"). Kept: the published ani-125-address uses reading "ind" with the known lemma "ind".
+- **Budge brackets on common nouns** (stwt "satetu", ḥmw "ḥemu", tmmw "tememu", mnt "ment"). Kept: the published entries do the same (ḥpt "ḥeptu", "qebt", "pait").
+- **say for ḫꜥ·ṯi "khaatji" next to ḫꜥ·k "khaek".** Left: the rule allows either, and this is not a reading question.
+- **ꜥwy·s with the second arm coded det.** Left: it is coded the same way in U4, U16 and U26, and reading the repeated sign as a marker of the dual is a defensible analysis.

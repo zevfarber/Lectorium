@@ -1740,3 +1740,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - ه/ة: the adjudicator gave ه wherever the final hook is not two clear dots: P745L07 لايجاوزه, P745L22 هذه, P747L01 وحده, P747L18 ماهذه, P747L21 هذه/ارصده. conventions.md cites وحدة as an example of the edition's spelling, but this page shows the hooked ه.
 - For the publishing run (kept as printed): P749L22 اى (lām missing, for الى; the join to p. 750 reads دعتني الى ملاطفتك); P748L13 دمن (for ضمن?); P745L20 تخانه (one dot above; perhaps تخافه); P745L09 المواخاة; spacing kept: P745L12 شرافشاه, P746L12 وبصروابه, P747L22 ماخطر, P750 مالاتدرك/ولاتصح.
 - Nothing to decide.
+
+## Night 149 (P733L15–P744L23, published 2026-11-19)
+- Corrected misprints in emend.json (9): P734L18 تيل→قيل, P734L22 المتل→المثل, P738L17 ذانك→ذاتك (the feminine adjectives مفارقة/زائلة/راحلة follow), P739L01 ولانساد→ولافساد (kept as one word, as printed), P739L03 الثلعب→الثعلب, P739L13 البزية→البرية, P740L08 اصادتك→اصادقك (ت/ق, as in Night 147), P741L15 اى→الى, P743L15 فقالت→فقال (the fox is masculine throughout). The archive was not changed.
+- Kept as printed with notes (doubtful): P734L07 التعميف (perhaps التعنيف); P735L04 انك نلته ما املّته; P736L02 التسليق; P739L06–11 بأزيا/البأزي (hamza printed on bāzī); P739L10 آتيتك به; P741L03 وكائه (perhaps وكأنه); P741L20 verse فَرِّضْ (perhaps فَرَضِّ); P743L20 اغل ربك (perhaps اغدر بك, "betray you"; translated by that sense); P744L04 استدرك ما انسل; P744L12 فنطيت (colloquial "jumped").
+- Spacing kept: مالا, بلاتعب, فيخلولي, وارجوان, هل لابدأت, لاَنوبنّ, ولا صعدنّ, ولا طعمن, فلا عجّلن, لا علمنك, الاعقوبة, شهر زاد; the line-split و / لم at P737L06–07 and P739L09–10.
+- Library label: `Night 149 · The Wolf and the Fox, continued`. The tale goes on into Night 150. The fable of the falcon and the partridge is told inside the fox's speech, so it is not named in the label.
+- Nothing to decide. Next: night 150 (P745L01–P751L06) is complete and unpublished; the next firing should publish it.

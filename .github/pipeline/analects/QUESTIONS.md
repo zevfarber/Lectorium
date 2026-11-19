@@ -214,3 +214,11 @@ Book 9 into line.
 - Commentators named by surname only in Zhu Xi (洪氏, 吳氏, 王氏) are given as 'Hong', 'Wu', 'a Mr Wang', without identification;
   11.11's He Yan comment is credited to Chen Qun 陳群 on the strength of 陳群曰.
 - The He Yan transcription (KR1h0005_006) lacks page 2b, so 11.4–11.5 and the start of 11.6 could not be collated against He Yan.
+
+## Smaller points left open (analects-12, 2026-11-19)
+- 12.8 惜乎夫子之說君子也: punctuated with Zhu Xi as 夫子之說，君子也 ('your words, sir, are a gentleman's'), which his gloss 子成之言乃君子之意 requires; the note gives the other common punctuation (one sentence, 'what a pity, sir, the way you speak of the gentleman').
+- Readings against Zhu Xi's marks, each noted once: 去 qù (his 上聲), 譖 zèn (莊蔭反), 選 xuǎn (息戀反), 告 gào in 忠告 (工毒反), 行 xíng in 行違 (去聲). 祗 in 亦祗以異 read zhǐ 'only' (Zheng Xuan 祗適也); the glossary's first reading for 祗 stays qí (7.34), so this occurrence states its reading.
+- He Yan's 12.5 comment is headed 鄭之曰, treated as a slip for 鄭玄曰 (Zheng Xuan) and hedged; Kong Anguo's gloss on 復 in 12.1 prints 及 where 反 is expected, reported as printed. 12.19 He Yan 子爲改焉用殺 (改 for 政) reported as a probable slip, not proved.
+- Sima Niu's brother: Zhu Xi names him 向魋 here and identifies 桓魋 with 向魋 at 7.22; the note follows that.
+- General knowledge kept, hedged 'in tradition': Gao Yao as Shun's minister of punishments, Tang as founder of the Shang, 司馬 as the minister of war's title.
+- 12.15 repeats Book 6's 博學於文 passage (6.25 in our numbering); Zhu Xi's text here lacks 君子, so l supplies 'one'.

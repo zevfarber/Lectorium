@@ -8,7 +8,7 @@
 | ani-125-address | Spell 125 — the address to the gods (supplement: not on Ani's papyrus) | Budge pp. 203–212, Appendix | published |
 | ani-125-rubric | Spell 125 — the rubric | Budge pp. 222–224 | published |
 | ani-hymn-to-ra | Hymn to Ra at his rising | Budge pp. 1–4 | published |
-| ani-hymn-to-osiris | Hymn to Osiris | Budge pp. 8–10 | todo |
+| ani-hymn-to-osiris | Hymn to Osiris | Budge pp. 8–10 | established |
 | ani-weighing-of-the-heart | The weighing of the heart | Budge pp. 11–16 | todo |
 | ani-001-a | Spell 1, first half | Budge pp. 17–20 | todo |
 | ani-001-b | Spell 1, second half | Budge pp. 21–24 | todo |

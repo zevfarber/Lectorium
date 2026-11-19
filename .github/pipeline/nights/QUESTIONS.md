@@ -1715,3 +1715,12 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Both passes wrote ة on six words where the print has a hooked final ه with no dots. The adjudicator found them, and I corrected them by hand before applying: P730L23 وولده, P734L06 عبده, three cases of هذه on p. 734, and وآخره. P730L21 هذة does have two clear dots (I checked the crop), so it is kept as printed.
 - For the publishing run (kept as printed): P734L18 تيل (two dots above; a misprint for قيل), P734L22 المتل (for المثل), P734L07 التعميف (sense unclear), P736L08 فَلَاَ صْفَحَنْ (verse; printed with a gap inside the word), P730L22–23 يغترّبها / المغترّبها (run together).
 - Nothing to decide.
+
+## Night 148 (P727L01–P733L14, published 2026-11-19)
+- Corrected misprints in emend.json (2): P727L19 انشعرّ→اقشعرّ ("shuddered"), P730L19 وسرري→وسروري. The archive was not changed.
+- Kept as printed with notes (doubtful): P731L02 الديه (read ladayhi; perhaps اليه repeated); P731L12 يعد لها (pointed yuʿaddu lahā as printed; يعدلها "equals it" is the alternative); P734-side items from the transcription note (تيل, المتل) fall in Night 149, not here. Also noted: P729L14 the verse's printed actives انتهينا/امرنا (usually quoted as passives); P732L12 printed فَرَجَتْ; P729L20 فقبله (qabilahu or qabbalahu); P732L13–14 انساق القضاء اليه بازيا.
+- Middle Arabic kept: اغناما after كان له, ان … رجل, يخافا, حتي, علي for على, تري, شيأ, التايه, مثل ذكرته.
+- Spacing kept: ارجوان, الّاعظاما, يغترّبها/المغترّبها, لاازال, لاتملّى, ذوحيل, لاحول, لاصبر, ولابيني, مالا, شهر زاد / شهرزاد.
+- السحلف is the print's spelling for the tortoise throughout; pointed al-siḥlif and noted once. Rendered "tortoise" in English.
+- Library label: `Night 148 · The Hermit and the Pigeons ends / The Water-Bird and the Tortoise / The Wolf and the Fox begins`. It names three tales because the night holds three; the shepherd episode is part of the hermit material (the running header calls it حكاية الراعي العابد). The name "The Wolf and the Fox" is mine, since the tale has no heading in the text.
+- Nothing to decide. Next: night 149 (from P733L15) is still open; the next firing should transcribe.

@@ -1753,3 +1753,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed with notes (doubtful): P748L13 دمن (perhaps ضمن; reading uncertain); P748L10 وعاشت فيه (perhaps وعاثت, "made havoc"); P750L07 الاجلاء (perhaps الاخلاء, "close friends"); P746L04 verse الْعِطَافَا; P746L20 verse فَاخْتَطَفَتْ (pointed active, sense passive); P746L18 فرأه, الفرحات; P746L07 بسيّدة (ة for the pronoun ه).
 - Library label: `Night 150 · The Wolf and the Fox ends / The Mouse and the Weasel / The Crow and the Cat / The Fox and the Crow begins`. It names four tales because the night holds four. The flea and the mouse is told inside the fox's speech, so it is not named in the label. The names are mine, from the running headers.
 - Nothing to decide. Next: night 151 (from P751L07) is still open; the next firing should transcribe.
+
+## PDF 775–782 (printed pp. 753–760, transcribed 2026-11-19)
+- Night 151 closes at P753L15, and Night 152's label is on its own centred line at P753L16. Night 152 closes at P760L19, and Night 153's label is on its own line at P760L20. Nights 151 and 152 are both complete and unpublished, so the next two firings should publish.
+- Centred one-word anecdote openers are flagged h: زعموا P753L13, بلغني P754L08, ويحكى P755L06, بلغني P757L03 and P757L18, and بلغني P758L13. I set h by hand on four of them (P753L13, P754L08, P757L03, P757L18) and on the Night 152 label, where pass 1 had left it off. Most of these lines had no crop and were read from the bands by both passes.
+- ه/ة: both passes wrote واخذه at P760L11, but the adjudicator found two clear dots (واخذة), and I corrected it by hand before applying. The print has ة at P753L07 هذة, P753L19 شرة and twice عندة on p. 759, but an undotted عنده at P759L10. All are kept as printed.
+- For the publishing run (kept as printed): P758L03 اخذ (the dot is faint; pass 1 read اخل); P759L20 الطاوُوس (here with a damma; elsewhere الطاؤوس); P756L06 مِلْ (the sukun is medium confidence); P760L14 ار احسن (two words set close together).
+- Nothing to decide.

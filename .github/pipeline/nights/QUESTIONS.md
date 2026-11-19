@@ -1768,3 +1768,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - The shared glossary entry بِالنَّهَارِ said 'with the day'; it now says 'by day'. Five other shared entries had a sense added for this night's use of bi- or maʿa kawnika; no existing meaning was removed.
 - Library label: `Night 151 · The Fox and the Crow, continued`. The flea and the mouse is told inside the fox's speech, and the falcon fable begins inside the crow's, so neither is named in the label. The title follows the running header حكاية الثعلب والغراب.
 - Nothing to decide. Next: night 152 (P753L16–P760L19) is complete and unpublished; the next firing should publish it.
+
+## Night 152 (P753L16–P760L19, published 2026-11-19)
+- Misprints corrected (emend.json): P757L01 القنفل → القنفذ; P758L04 لى → الى (the alif-lām of ilā lost, as with اى).
+- Kept as printed with notes (doubtful): P754L03 يطرح (no object; read "yields", يطمع considered); P754L10 رميس (a lamb or kid by context, word unknown, glossed with "?"); P753L22 صار قُوّته (masculine verb with the print's quwwatuhu); P757L04 سنده (town unidentified, read Sindah); P757L15 واراد (singular verb for the two sharpers; perhaps a dropped dual alif); P757L23 شرائُها (the print's damma after min kept); P756L05, P756L07 المطال, P756L14 وكلما, P760L13 امني (readings given in the notes).
+- P758L09 فأخذ (for fa-ākhudha): a drafter put a combining madda on the printed أ; the review replaced it with a dagger alif, فَأٰخُذَ, following رَأٰهُ (P754L11). No letter changed.
+- Shared glossary amended for this night's uses, no existing sense removed: زَادُ (adds the split name يَا شَهْرَ زَادُ), شَهْرَ, لِأَ, عِنْدَةُ, عِنْدِةِ.
+- Library label: `Night 152 · The Fox and the Crow ends / The Hedgehog and the Ringdove / The Thief and His Ape / The Sparrow and the Peacock`. The sparrow-and-peacock fable ends in this night (Night 153 opens a new tale at P760L20). Title follows the night's longest new tale, حكاية القنفذ والورشان.
+- Nothing to decide. Next: night 153 is not yet complete; the next firing should transcribe.

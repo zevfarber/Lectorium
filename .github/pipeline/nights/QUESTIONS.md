@@ -1724,3 +1724,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - السحلف is the print's spelling for the tortoise throughout; pointed al-siḥlif and noted once. Rendered "tortoise" in English.
 - Library label: `Night 148 · The Hermit and the Pigeons ends / The Water-Bird and the Tortoise / The Wolf and the Fox begins`. It names three tales because the night holds three; the shepherd episode is part of the hermit material (the running header calls it حكاية الراعي العابد). The name "The Wolf and the Fox" is mine, since the tale has no heading in the text.
 - Nothing to decide. Next: night 149 (from P733L15) is still open; the next firing should transcribe.
+
+## PDF 759–766 (printed pp. 737–744, transcribed 2026-11-19)
+- Night 149 runs on through all eight pages; no night label or closing formula appears. It has 248 lines so far, from P733L15, which is long but within the range seen before (Night 144 had 252). The running header is حكاية الذئب والثعلب.
+- Lines dropped by the detector and recovered from the bands by both passes: the centred verse intros قول الشاعر (p. 737 and p. 741) and وقول الآخر (twice on p. 743). They are plain lines, not h.
+- Both passes wrote ة in هذة at P737L20. The adjudicator found an undotted hooked ه there, and I corrected it to هذه by hand before applying.
+- For the publishing run (kept as printed): P739L01 ولانساد (perhaps ولا فساد); P739L03 الثلعب (letters transposed, for الثعلب); P739L13 البزية (a dot over the ر, for البرية); P738L17 ذانك (one dot; perhaps ذالك); P741L15 اى (for الى); P741L03 وكائه (printed hamza; sense وكانه); P744L11 الاعقوبة (run together).
+- Low confidence: P739L08 الجافل (faint); P741L11 بِاَخَرِيْنَا (the mark over the alif).
+- Nothing to decide.

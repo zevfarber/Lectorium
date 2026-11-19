@@ -503,7 +503,6 @@
   .signModal.open { display:flex; align-items:flex-start; justify-content:center; }
   /* invite-only beta (Zev, 2026-10-19): nothing shows until a valid invite code is entered */
   body.locked > :not(#welcomeModal) { visibility:hidden; }
-  body.locked #welcomeModal { background:var(--bg); }
   body.locked #welcomeModal .pclose, body.locked #wlOpenRow { display:none; }
   .smBox { background:var(--panel); color:var(--ink); margin-top:6vh; width:min(680px,92vw); max-height:84vh; overflow:auto;
            border-radius:14px; padding:22px 24px; box-shadow:0 12px 40px rgba(0,0,0,.28); position:relative; }
@@ -567,34 +566,73 @@
   .wlRow { display:flex; gap:8px; align-items:center; margin-top:8px; flex-wrap:wrap; }
   .wlRow input { font: inherit; padding:6px 8px; border:1px solid var(--border); border-radius:8px; max-width:200px; }
   .wlSmall { font-size:.78rem; margin-top:8px; color: var(--muted); }
-  /* landing page (2026-11-19): the welcome box carries the name, a live Odyssey sentence, and the invite door */
-  body.locked #welcomeModal { overflow-y:auto; -webkit-overflow-scrolling:touch; }
-  body.locked .wlBox { max-height:none; margin:0 auto; box-shadow:none; background:transparent; border-radius:0; padding:30px 20px 60px; }
-  .wlBox { font-size:1rem; line-height:1.5; }
-  .wlBox > .pclose { position:absolute; top:10px; right:10px; }
-  .wlName { margin:0; font-size:2rem; font-weight:600; letter-spacing:.01em; }
-  .wlTag { margin:4px 0 20px; font-size:1.05rem; color:var(--accent); }
-  .wlLead { margin:0 0 12px; }
-  .wlDemo { border:1px solid var(--border); border-radius:12px; background:var(--panel); padding:16px 16px 14px; margin-bottom:20px; }
-  .wdLine { font-size:1.3rem; line-height:1.55; }
-  .wdTr { font-size:.85rem; color:var(--muted); font-style:italic; margin-bottom:8px; }
-  .wdW { cursor:pointer; border-radius:4px; padding:1px 1px; -webkit-tap-highlight-color:transparent; }
-  .wdW:hover { background:var(--accent-soft); }
-  .wdW.sel { background:var(--accent-soft); box-shadow:0 0 0 2px var(--accent-soft); }
-  .wdW.now { background:var(--accent); color:#fff; }
-  .wdBtns { display:flex; gap:8px; margin-top:6px; }
-  .wdBtns button { min-height:38px; padding:6px 14px; }
-  .wdGloss { font-family:system-ui,-apple-system,'Noto Sans',sans-serif; font-size:.9rem; margin-top:12px; min-height:2.9em; color:var(--muted); }
-  .wdGloss b { color:var(--ink); font-family:Georgia,'Times New Roman','Noto Serif',serif; font-size:1.05rem; font-weight:600; }
+  /* Home (2026-11-19): a full page, reached from the Lectorium name in the top bar; shown alone until an invite code is entered */
+  @font-face { font-family:'EB Garamond'; font-style:normal; font-weight:400 800; font-display:swap; src:url('fonts/eb-garamond-latin-wght-normal.woff2') format('woff2-variations'); unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+  @font-face { font-family:'EB Garamond'; font-style:normal; font-weight:400 800; font-display:swap; src:url('fonts/eb-garamond-latin-ext-wght-normal.woff2') format('woff2-variations'); unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+  @font-face { font-family:'EB Garamond'; font-style:normal; font-weight:400 800; font-display:swap; src:url('fonts/eb-garamond-greek-wght-normal.woff2') format('woff2-variations'); unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF; }
+  @font-face { font-family:'EB Garamond'; font-style:normal; font-weight:400 800; font-display:swap; src:url('fonts/eb-garamond-greek-ext-wght-normal.woff2') format('woff2-variations'); unicode-range:U+1F00-1FFF; }
+  @font-face { font-family:'EB Garamond'; font-style:italic; font-weight:400 800; font-display:swap; src:url('fonts/eb-garamond-latin-wght-italic.woff2') format('woff2-variations'); unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+  @font-face { font-family:'EB Garamond'; font-style:italic; font-weight:400 800; font-display:swap; src:url('fonts/eb-garamond-latin-ext-wght-italic.woff2') format('woff2-variations'); unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+  .home { display:none; }
+  .home.open { display:block; position:fixed; inset:0; z-index:60; overflow-y:auto; -webkit-overflow-scrolling:touch; background:var(--bg);
+    --rubric:#8c2b1b; --leaf:#fffdf8; --rule:#d9cfc0;
+    font-family:'EB Garamond', Georgia, 'Times New Roman', serif; font-size:1.25rem; line-height:1.5; color:var(--ink); }
+  .hmPage { max-width:1040px; margin:0 auto; padding:20px clamp(20px,6vw,72px) 96px; position:relative; }
+  .hmTop { display:flex; justify-content:flex-end; min-height:44px; }
+  .home .hmBtn { font-family:inherit; font-size:1.05rem; line-height:1.2; padding:9px 18px; min-height:44px; border-radius:3px; border:1px solid var(--ink); background:var(--ink); color:var(--bg); cursor:pointer; }
+  .home .hmBtn:hover { background:#463d33; }
+  .home .hmBtn.hmGhost { background:transparent; color:var(--ink); }
+  .home .hmBtn.hmGhost:hover { background:rgba(43,38,32,.07); }
+  .home :focus-visible { outline:2px solid var(--rubric); outline-offset:3px; }
+  .hmName { font-size:clamp(3.4rem,13vw,7.5rem); font-weight:500; line-height:.95; letter-spacing:-.02em; margin:clamp(12px,4vw,40px) 0 0 -.04em; }
+  .hmTag { font-size:clamp(1.3rem,3.4vw,1.75rem); font-style:italic; line-height:1.3; max-width:27em; margin:.6em 0 0; }
+  .hmLead { max-width:34em; margin:clamp(48px,8vw,88px) 0 18px; }
+  .hmLeaf { background:var(--leaf); border:1px solid var(--rule); border-left:3px solid var(--rubric); border-radius:2px; box-shadow:0 1px 0 #fff inset, 0 18px 40px -28px rgba(60,40,20,.55);
+    padding:clamp(20px,4vw,40px) clamp(18px,4vw,44px); }
+  .hmVerse { overflow-wrap:break-word; }
+  .wdLine { font-size:clamp(1.5rem,4.1vw,2.2rem); line-height:1.35; }
+  .wdTr { font-size:clamp(1rem,2.2vw,1.2rem); font-style:italic; color:#7b6f60; margin:.1em 0 .9em; }
+  .wdW { cursor:pointer; border-bottom:2px solid transparent; transition:color .12s; -webkit-tap-highlight-color:transparent; }
+  .wdW:hover { border-bottom-color:var(--rule); }
+  .wdW.sel { border-bottom-color:var(--rubric); }
+  .wdW.now { color:var(--rubric); }
+  .hmSide { display:grid; grid-template-columns:auto 1fr; gap:14px 28px; align-items:start; margin-top:10px; }
+  .wdBtns { display:flex; gap:10px; }
+  .wdGloss { font-size:1.1rem; line-height:1.4; color:#7b6f60; min-height:2.8em; padding-top:.35em; }
+  .wdGloss b { color:var(--ink); font-weight:600; font-size:1.2em; }
   .wdGloss .wdMean { color:var(--ink); }
-  .wdEn { border-top:1px solid var(--border); margin-top:10px; padding-top:10px; }
-  .wdSwitch { margin-top:8px; font-size:.8rem; }
-  .wlFive { list-style:none; margin:0 0 16px; padding:0; }
-  .wlFive li { padding:5px 0; border-bottom:1px solid var(--border); }
-  .wlFive li:last-child { border-bottom:none; }
-  .wlWorks { color:var(--muted); margin:0 0 18px; }
-  .wlWhyH { font-size:1.1rem; margin:26px 0 6px; }
-  .wlWhy { margin:0; }
+  .wdEn { border-top:1px solid var(--rule); margin-top:18px; padding-top:16px; max-width:36em; }
+  .home .wdSwitch { font-family:inherit; font-size:1rem; margin-top:10px; padding:4px 12px; border-radius:3px; }
+  .wlFive { list-style:none; margin:clamp(56px,9vw,104px) 0 0; padding:0; max-width:44em; }
+  .wlFive li { display:grid; grid-template-columns:8.2em 1fr; gap:0 18px; padding:.5em 0; border-top:1px solid var(--rule); }
+  .wlFive li:last-child { border-bottom:1px solid var(--rule); }
+  .wlFive b { font-weight:600; }
+  .hmShelf { margin-top:clamp(56px,9vw,104px); }
+  .wlWorks { max-width:34em; margin:0 0 22px; }
+  .hmBooks { list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(3,1fr); gap:0 clamp(18px,4vw,48px); }
+  .hmBooks li { padding:.75em 0 .7em; border-top:1px solid var(--rule); }
+  .hmOrig { display:block; font-size:clamp(1.45rem,3.2vw,2rem); line-height:1.25; }
+  .hmOrig:lang(sa), .hmOrig:lang(lzh), .hmOrig:lang(ar) { font-family:'Noto Serif Devanagari','Noto Naskh Arabic','Songti SC','Noto Serif CJK TC','PMingLiU',serif; }
+  .hmOrig[dir="rtl"] { text-align:left; }
+  .hmEng { display:block; font-size:1rem; color:#7b6f60; }
+  .hmDoor { margin-top:clamp(56px,9vw,104px); max-width:34em; }
+  .home .wlCode { border:1px solid var(--ink); border-radius:2px; padding:20px 22px; margin:0; font-size:1.1rem; background:var(--leaf); }
+  .home .wlCode input { font-family:inherit; font-size:1.1rem; padding:8px 10px; min-height:44px; border:1px solid var(--rule); border-radius:3px; max-width:11em; }
+  .home .wlCode .fixSend { font-family:inherit; font-size:1.05rem; min-height:44px; padding:9px 18px; border-radius:3px; border:1px solid var(--ink); background:var(--ink); color:var(--bg); font-weight:400; }
+  .home .wlSmall { font-size:.95rem; }
+  .home .fixMsg { font-size:1rem; }
+  .hmWhy { margin-top:clamp(56px,9vw,104px); max-width:33em; }
+  .wlWhyH { font-size:1.6rem; font-weight:500; margin:0 0 .5em; }
+  .wlWhy { margin:0; font-size:1.3rem; line-height:1.5; }
+  header .title { cursor:pointer; }
+  @media (max-width:640px) {
+    .home.open { font-size:1.15rem; }
+    .hmSide { grid-template-columns:1fr; }
+    .wlFive li { grid-template-columns:1fr; }
+    .hmBooks { grid-template-columns:1fr 1fr; }
+    .wlWhy { font-size:1.2rem; }
+  }
+  @media (prefers-reduced-motion:reduce) { .wdW { transition:none; } }
   .audioBadge { display:inline-block; font-family: system-ui, sans-serif; font-size:.6rem; font-weight:600; color: var(--muted); border:1px solid var(--border); border-radius:999px; padding:1px 7px; vertical-align: middle; }
   .draftBadge { display: inline-block; font-family: system-ui, 'Noto Sans', sans-serif; font-size: .6rem; font-weight: 600;
     text-transform: uppercase; letter-spacing: .08em; color: #8a5300; background: #fbe6c0;
@@ -708,42 +746,71 @@
   </div>
 </div>
 
-<div id="welcomeModal" class="signModal">
-  <div class="smBox wlBox">
-    <button class="pclose" onclick="closeWelcome()">✕</button>
-    <h1 class="wlName">Lectorium</h1>
-    <p class="wlTag">A complete reading suite for the world’s classic myths, legends and wisdom, in their original languages.</p>
-    <p class="wlLead">You have heard of the Odyssey all your life. These are its first two lines as Homer composed them. Tap any word to see what it means. Tap Listen to hear them.</p>
-    <div class="wlDemo" id="wlDemo">
-      <div class="wdLine" lang="grc"><span class="wdW" data-i="0">ἄνδρα</span> <span class="wdW" data-i="1">μοι</span> <span class="wdW" data-i="2">ἔννεπε</span>, <span class="wdW" data-i="3">μοῦσα</span>, <span class="wdW" data-i="4">πολύτροπον</span>, <span class="wdW" data-i="5">ὃς</span> <span class="wdW" data-i="6">μάλα</span> <span class="wdW" data-i="7">πολλὰ</span></div>
+<div id="welcomeModal" class="home">
+  <div class="hmPage">
+    <div class="hmTop"><button id="hmEnter" type="button" class="hmBtn hmGhost">Open the library</button></div>
+    <h1 class="hmName">Lectorium</h1>
+    <p class="hmTag">A complete reading suite for the world’s classic myths, legends and wisdom, in their original languages.</p>
+
+    <p class="hmLead">You have heard of the Odyssey all your life. These are its first two lines as Homer composed them. Tap any word to see what it means. Tap Listen to hear them.</p>
+    <div class="hmLeaf" id="wlDemo">
+      <div class="hmVerse">
+      <div class="wdLine" lang="grc"><span class="wdW" role="button" tabindex="0" data-i="0">ἄνδρα</span> <span class="wdW" role="button" tabindex="0" data-i="1">μοι</span> <span class="wdW" role="button" tabindex="0" data-i="2">ἔννεπε</span>, <span class="wdW" role="button" tabindex="0" data-i="3">μοῦσα</span>, <span class="wdW" role="button" tabindex="0" data-i="4">πολύτροπον</span>, <span class="wdW" role="button" tabindex="0" data-i="5">ὃς</span> <span class="wdW" role="button" tabindex="0" data-i="6">μάλα</span> <span class="wdW" role="button" tabindex="0" data-i="7">πολλὰ</span></div>
       <div class="wdTr">andra moi ennepe, mousa, polytropon, hos mala polla</div>
-      <div class="wdLine" lang="grc"><span class="wdW" data-i="8">πλάγχθη</span>, <span class="wdW" data-i="9">ἐπεὶ</span> <span class="wdW" data-i="10">Τροίης</span> <span class="wdW" data-i="11">ἱερὸν</span> <span class="wdW" data-i="12">πτολίεθρον</span> <span class="wdW" data-i="13">ἔπερσεν</span>·</div>
+      <div class="wdLine" lang="grc"><span class="wdW" role="button" tabindex="0" data-i="8">πλάγχθη</span>, <span class="wdW" role="button" tabindex="0" data-i="9">ἐπεὶ</span> <span class="wdW" role="button" tabindex="0" data-i="10">Τροίης</span> <span class="wdW" role="button" tabindex="0" data-i="11">ἱερὸν</span> <span class="wdW" role="button" tabindex="0" data-i="12">πτολίεθρον</span> <span class="wdW" role="button" tabindex="0" data-i="13">ἔπερσεν</span>·</div>
       <div class="wdTr">planchthē, epei Troiēs hieron ptoliethron epersen·</div>
-      <div class="wdBtns"><button id="wdListen" type="button">🔊 Listen</button><button id="wdEnBtn" type="button">English</button></div>
-      <div class="wdGloss" id="wdGloss" aria-live="polite">Tap a word to see what it means.</div>
+      </div>
+      <div class="hmSide">
+        <div class="wdBtns"><button id="wdListen" type="button" class="hmBtn">🔊 Listen</button><button id="wdEnBtn" type="button" class="hmBtn hmGhost">English</button></div>
+        <div class="wdGloss" id="wdGloss" aria-live="polite">Tap a word to see what it means.</div>
+      </div>
       <div class="wdEn" id="wdEn" style="display:none">
         <div id="wdEnNat">Muse, tell me of the man of many shifts, who was driven far off his course after he had sacked the holy citadel of Troy.</div>
         <div id="wdEnLit" style="display:none">The man to me tell-of, Muse, the many-turning, who very much<br>was driven-astray, after Troy&#x27;s holy citadel he sacked;</div>
         <button id="wdEnSwitch" type="button" class="wdSwitch">≈ literal</button>
       </div>
     </div>
+
     <ul class="wlFive">
-      <li><b>Every text</b> in its original writing, with optional English-letter transcription when needed.</li>
-      <li><b>Every sentence</b> in two translations: word by word, and natural English.</li>
-      <li><b>Every sentence</b> read aloud, at normal speed or slow.</li>
-      <li><b>Every word</b> explained at a tap.</li>
-      <li><b>A tutor</b> to answer your questions.</li>
+      <li><b>Every text</b> <span>in its original writing, with optional English-letter transcription when needed.</span></li>
+      <li><b>Every sentence</b> <span>in two translations: word by word, and natural English.</span></li>
+      <li><b>Every sentence</b> <span>read aloud, at normal speed or slow.</span></li>
+      <li><b>Every word</b> <span>explained at a tap.</span></li>
+      <li><b>A tutor</b> <span>to answer your questions.</span></li>
     </ul>
-    <p class="wlWorks">Homer, Beowulf, the Brothers Grimm, the Bhagavad Gita and many more, each in its original language.</p>
+
+    <div class="hmShelf">
+      <p class="wlWorks">Homer, Beowulf, the Brothers Grimm, the Bhagavad Gita and many more, each in its original language.</p>
+      <ul class="hmBooks">
+        <li><span class="hmOrig" lang="grc">Ὀδύσσεια</span><span class="hmEng">The Odyssey, Ancient Greek</span></li>
+        <li><span class="hmOrig" lang="grc">Ἰλιάς</span><span class="hmEng">The Iliad, Ancient Greek</span></li>
+        <li><span class="hmOrig" lang="la">Metamorphoses</span><span class="hmEng">Ovid’s Metamorphoses, Latin</span></li>
+        <li><span class="hmOrig" lang="ang">Bēowulf</span><span class="hmEng">Beowulf, Old English</span></li>
+        <li><span class="hmOrig" lang="de">Kinder- und Hausmärchen</span><span class="hmEng">Grimms’ Fairy Tales, German</span></li>
+        <li><span class="hmOrig" lang="sa">श्रीमद्भगवद्गीता</span><span class="hmEng">The Bhagavad Gita, Sanskrit</span></li>
+        <li><span class="hmOrig" lang="lzh">道德經</span><span class="hmEng">Tao Te Ching, Classical Chinese</span></li>
+        <li><span class="hmOrig" lang="ar" dir="rtl">الف ليلة وليلة</span><span class="hmEng">The Thousand and One Nights, Arabic</span></li>
+        <li><span class="hmOrig" lang="non">Hávamál</span><span class="hmEng">Sayings of the High One, Old Norse</span></li>
+        <li><span class="hmOrig" lang="osp">Cantar de mio Cid</span><span class="hmEng">The Song of the Cid, Old Spanish</span></li>
+        <li><span class="hmOrig" lang="orv">Слово о пълку Игоревѣ</span><span class="hmEng">The Tale of Igor’s Campaign, Old East Slavic</span></li>
+        <li><span class="hmOrig" lang="wlm">Pedeir Keinc y Mabinogi</span><span class="hmEng">The Four Branches of the Mabinogi, Middle Welsh</span></li>
+      </ul>
+    </div>
+
+    <div class="hmDoor" id="hmDoor">
     <div id="wlCodeBox" class="wlCode" style="display:none">
       Lectorium is in a private beta. Enter the invite code from your invitation to open the library. The code also turns on the reading tutor and lets your notes reach us.
       <div class="wlRow"><input id="codeIn" type="text" placeholder="Invite code" autocomplete="off"><button id="codeSave" class="fixSend">Enter code</button></div>
       <div id="codeMsg" class="fixMsg"></div>
       <div class="dim wlSmall">During the beta we count which texts each invite code opens and how far it reads, to see what works. Nothing else is recorded.</div>
     </div>
-    <div class="wlRow" id="wlOpenRow"><button class="fixSend" onclick="closeWelcome()">Open the library</button></div>
-    <h2 class="wlWhyH">Why I built this</h2>
-    <p class="wlWhy">I love to experience the magic of classic cultural writings in their original languages, but to become fluent in all these languages and scripts is impossible. So for most of my life, when I wanted to read an ancient text, I had to find a dictionary, a grammar, and a translation and work through it with all three open. It was insanely slow and I would get stuck anyway: I couldn’t see how the translation came out of the words, I had no one to ask, and I had little idea how the text should sound. That’s why I built Lectorium, which puts all of that into one package, the way an office suite puts all your programs in one place. This program lets anyone, from the total beginner to the almost fluent, experience these texts in their original with minimal friction. Try it out and explore the world’s myths, legends, and wisdom sayings with nothing but your phone or computer.</p>
+    <div class="wlRow" id="wlOpenRow"><button class="hmBtn" type="button" onclick="closeWelcome()">Open the library</button></div>
+    </div>
+
+    <div class="hmWhy">
+      <h2 class="wlWhyH">Why I built this</h2>
+      <p class="wlWhy">I love to experience the magic of classic cultural writings in their original languages, but to become fluent in all these languages and scripts is impossible. So for most of my life, when I wanted to read an ancient text, I had to find a dictionary, a grammar, and a translation and work through it with all three open. It was insanely slow and I would get stuck anyway: I couldn’t see how the translation came out of the words, I had no one to ask, and I had little idea how the text should sound. That’s why I built Lectorium, which puts all of that into one package, the way an office suite puts all your programs in one place. This program lets anyone, from the total beginner to the almost fluent, experience these texts in their original with minimal friction. Try it out and explore the world’s myths, legends, and wisdom sayings with nothing but your phone or computer.</p>
+    </div>
   </div>
 </div>
 <div id="feedbackModal" class="signModal">
@@ -5989,10 +6056,14 @@ async function saveCode(raw, msgEl){
     return true;
   } catch(e) { if (msgEl) msgEl.textContent = 'Could not reach the service. Please try again in a moment.'; return false; }
 }
-function unlockLibrary(){ document.body.classList.remove('locked'); }
-function openWelcome(){ $('welcomeModal').classList.add('open');
+function unlockLibrary(){ document.body.classList.remove('locked'); if (typeof wlSyncDoor === 'function') wlSyncDoor(); }
+function wlSyncDoor(){ const lk = document.body.classList.contains('locked'); if ($('hmEnter')) $('hmEnter').textContent = lk ? 'Enter invite code' : 'Open the library'; }
+function openWelcome(){ const m = $('welcomeModal'); const was = m.classList.contains('open'); m.classList.add('open'); wlSyncDoor();
+  if (!was) { m.scrollTop = 0; if (!document.body.classList.contains('locked')) { try { history.pushState({ lectHome: 1 }, ''); } catch(e) {} } }
   const c = inviteCode(); if (c && $('codeIn')) { $('codeIn').value = c; $('codeMsg').textContent = 'Your code is saved.'; } }
-function closeWelcome(){ if (document.body.classList.contains('locked')) return; wlDemoStop(); $('welcomeModal').classList.remove('open'); try { localStorage.setItem('welcomed', '1'); } catch(e) {} }
+function closeWelcome(fromPop){ if (document.body.classList.contains('locked')) return; wlDemoStop(); $('welcomeModal').classList.remove('open'); try { localStorage.setItem('welcomed', '1'); } catch(e) {}
+  if (fromPop !== true) { try { if (history.state && history.state.lectHome) history.back(); } catch(e) {} } }
+window.addEventListener('popstate', () => { if ($('welcomeModal').classList.contains('open')) closeWelcome(true); });
 /* landing demo: Odyssey 1.1-2, self-contained (words, meanings and timings are inlined so it works before the library opens) */
 const WL_WORDS = [{"w": "ἄνδρα", "lemma": "ἀνήρ", "m": "man; acc. sg."}, {"w": "μοι", "lemma": "ἐγώ", "m": "I; encl. dat. sg.: ’to me, for me’"}, {"w": "ἔννεπε", "lemma": "ἐννέπω", "m": "tell of, relate, speak; pres. imper. 2 sg."}, {"w": "μοῦσα", "lemma": "Μοῦσα", "m": "Muse, goddess of poetic inspiration; voc. sg."}, {"w": "πολύτροπον", "lemma": "πολύτροπος", "m": "of many turns, much-turning (much-travelled, or versatile and wily; both senses debated); masc. acc. sg."}, {"w": "ὃς", "lemma": "ὅς, ἥ, ὅν (relative)", "m": "who, which; masc. nom. sg."}, {"w": "μάλα", "lemma": "μάλα", "m": "very, very much, exceedingly; adv."}, {"w": "πολλὰ", "lemma": "πολύς", "m": "much, many; neut. acc. pl.: ’many things, greatly’"}, {"w": "πλάγχθη", "lemma": "πλάζω", "m": "drive off course, make wander; aor. pass. 3 sg., unaugmented: ’was driven astray’"}, {"w": "ἐπεὶ", "lemma": "ἐπεί", "m": "after, since, when"}, {"w": "Τροίης", "lemma": "Τροία", "m": "Troy; gen. sg. (Ionic -ης for Attic -ας)"}, {"w": "ἱερὸν", "lemma": "ἱερός", "m": "sacred, holy; neut. acc. sg."}, {"w": "πτολίεθρον", "lemma": "πτολίεθρον", "m": "citadel, city; neut. acc. sg., epic lengthened by-form of πόλις"}, {"w": "ἔπερσεν", "lemma": "πέρθω", "m": "sack, destroy, lay waste; aor. 3 sg."}];
 const WL_ALIGN = [[0.0, 0.36], [0.36, 0.84], [0.84, 1.57], [1.69, 2.41], [2.53, 3.685], [3.72, 4.02], [4.02, 4.44], [4.45, 4.81], [4.81, 5.645], [5.77, 6.15], [6.15, 6.69], [6.7, 7.25], [7.27, 7.94], [7.94, 9.25]];
@@ -6006,7 +6077,9 @@ function wlDemoLabel(){ $('wdListen').textContent = !wlAudio || wlAudio.ended ||
 function wlDemoStop(){ if (wlAudio) { wlAudio.pause(); wlAudio.currentTime = 0; } cancelAnimationFrame(wlRaf); document.querySelectorAll('#wlDemo .wdW.now').forEach(el => el.classList.remove('now')); if ($('wdListen')) wlDemoLabel(); }
 (function(){
   const demo = $('wlDemo'); if (!demo) return;
-  demo.querySelectorAll('.wdW').forEach(el => { el.onclick = () => {
+  $('hmEnter').onclick = () => { if (document.body.classList.contains('locked')) { $('hmDoor').scrollIntoView({ behavior: 'smooth', block: 'center' }); setTimeout(() => $('codeIn').focus({ preventScroll: true }), 350); } else closeWelcome(); };
+  document.querySelector('header .title').onclick = openWelcome;
+  demo.querySelectorAll('.wdW').forEach(el => { el.onkeydown = (ev) => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); el.click(); } }; el.onclick = () => {
     const d = WL_WORDS[+el.dataset.i];
     demo.querySelectorAll('.wdW.sel').forEach(x => x.classList.remove('sel')); el.classList.add('sel');
     const g = $('wdGloss'); g.textContent = '';

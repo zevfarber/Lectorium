@@ -77,3 +77,46 @@ Format: unit · field · severity · what was wrong · what was done.
 - Lemma key renamed: **pꜣwt → psḏt** (U11, U20, U30). gloss.json's pꜣwt entry should become "psḏt — the Ennead, the company of nine gods (noun f.; psḏt nṯrw 'the Ennead of the gods'; Budge: paut)".
 - No other key was added or renamed.
 - ꜥꜣ is used in U40 as the adverb "greatly" (ḥsy ꜥꜣ). The known entry has "(adverb) here, hither" only, so it may need `__broaden__`.
+
+## Pass 2
+
+I edited units.json and gloss.json by script (scratchpad review2/edit2.py; checks in review2/verify.py, against copies of both files taken before the edits). No sign code, sign order or glyph count changed. After the edits the concatenated glyph sequence (709 signs) still equals source/established/ani-weighing-of-the-heart.json. Every morph g-list is non-empty and covers its word's glyphs exactly once, every determinative has an empty tr, and the rubric, approx and restored flags are unchanged glyph by glyph. Every l has one token per word. gloss.json keys now equal the units' lemma keys minus known-lemmas.json (26 entries), and each `__broaden__` value starts with its known entry copied exactly. I read all 41 units again sign by sign against the packet and Budge's transliteration, every grammatical label in the notes, l against the Egyptian, i against l, say against the rule, and codings and names against the six published ani-* parts. I checked every gloss entry against the text and against every use of its lemma in the part, and every known entry used here for senses this part needs that it lacks.
+
+### Changes
+
+Format: unit/key · field · severity · what was wrong · what was done.
+
+1. gloss pꜣwt · key, value · **major** · The entry still glossed pꜣwt "company, cycle (of gods)", a word that does not exist, after pass 1 renamed the lemma to psḏt. The build would have found no entry for psḏt and published a ghost entry. · pꜣwt removed. psḏt added: "psḏt — the Ennead, the company of nine gods (noun f.; psḏt nṯrw 'the Ennead of the gods'; Budge: paut)".
+2. gloss sḫr · value · minor · "make foul … perhaps 'make stink'" is Budge's English ("make to stink"). It also contradicted the U7 note, which says the signs ordinarily spell sḫr "overthrow, fell". · "sḫr — to overthrow, fell (causative verb, from ḫr 'fall'); to harm, bring to ruin (?) (sense uncertain)".
+3. gloss __broaden__ ꜥꜣ · new · minor · U40 ḥsy ꜥꜣ uses ꜥꜣ as the adverb "greatly". The known entry has only "great" and "here, hither". · Known entry copied whole + " · also greatly, very (adverb, after an adjective or participle: ḥsy ꜥꜣ 'greatly favoured')".
+4. gloss __broaden__ imi · new · minor · The known entry is "give! (imperative of rdi)" only. In U25, U32 and U39 imi is "cause, let" before a sḏm·f (imi di·tw, imi wn·i), and the l and i say "cause", "have … given", "let me be". · Known entry + " · also cause, let (before a sḏm·f …)".
+5. gloss __broaden__ r · new · minor · The known entry has "to, towards, into, at". Here r·i is "against me" five times (U2–U4, U8) and r·f is "concerning him" (U14, U30). · Known entry + " · also against (of hostility …); concerning, about …".
+6. gloss __broaden__ grg · new · minor · The known entry is a verb only ("to speak falsehood"). In U8 and U37 grg is the noun "lies", the object of ḏd. · Known entry + " · also lies, falsehood (noun; ḏd grg 'speak lies')".
+7. gloss bṯꜣ · value · minor · "rebel" is not a sense of bṯꜣ. The entry also pinned itself to a line ("bṯꜣ·f 'his wrong'"). · "bṯꜣ — to do wrong, sin (verb); wrong, wrongdoing, crime (noun)".
+8. gloss ḫnmw · value · minor · The entry said "Budge reads the word as the verb χnem 'formeth'". That is a remark on one line, and it is not Budge's spelling of a name. The entry also offered an unsupported etymology ("ḫnm 'join, fashion'"). · Both removed: "ḫnmw — Khnum, the ram-headed god who shapes the bodies of the newborn on a potter's wheel (god's name)".
+9. gloss ꜣst · value · minor · The entry gave "'seat, throne'" as the meaning of the name, but the name is not transparent. Only its writing uses the seat sign. · "(goddess's name, written with the seat sign; Budge: Àuset)".
+10. gloss wpi · value · minor · The entry lacked "judge", the sense this part uses (wp-mꜣꜥt, U11). The example also stood outside the grammar bracket. · "wpi — to open, part, separate; to judge (between) (verb 3ae-inf.; wp mꜣꜥt 'who judges what is right')".
+11. U25 · n · minor · The note said that the first sign "may be the pool with lotus flowers that writes ꜣḥ". That sign writes šꜣ, and nothing printed here writes ꜣḥ. · Now: "Budge's seḥ takes the first sign as the booth sḥ, which gives no word for field here; no sign that writes ꜣḥ is clearly printed, and the reading is doubtful."
+12. U30 · n · minor · Pass 1's insertion broke the sign list: "like the unread signs in ḏꜣḏꜣt, the stand-like sign wḏꜥ, and the n …" made wḏꜥ and the n into unread signs. · Split into two sentences: "… like the unread signs in ḏꜣḏꜣt. Then come the stand-like sign wḏꜥ and the n of the sḏm·n·f, …".
+13. U37 · n · minor · The note still opened "n ḏd·n·i 'I have not said'", the past sense the same note then rejects for the classical language. · Opening gloss → "'I do not say'". The later remark that copies of this time may mean "I have not spoken" stays.
+14. U32 pri · reading, say, n · minor · The note calls the word the infinitive "its t unwritten", but the reading was pri. Elsewhere in the part the reading carries unwritten letters (ꜥwt·i, ḥsyw, ḥnqt), and the same infinitive in U25 and U28 is prt. · reading → prt, say → peret, and the note now names prt.
+15. gloss __broaden__ wḏꜥ · removed · style · The known entry ("to judge, separate (verb)") already covers every use here. The broadening only restated it with a line-pinned example (wḏꜥ·n 'has judged'). · Removed.
+16. gloss rq · value · style · The example was pinned to a line (rq·k 'your hostility'), a stray "(?)" came after the grammar, and "turn aside" is unsupported. · "rq — to oppose, be hostile (verb); opposition, hostility (noun)".
+17. gloss ḥn, imy-wt, ntk, snnw · value · style · ḥn: "Budge's guess for a doubtful sign" is about this line. imy-wt: "noun m." for a god's title, and "wrappings" was added. ntk: archaic "thou". snnw: the example stood outside the grammar bracket. · ḥn "(verb; reading and sense uncertain)". imy-wt "(god's epithet; …)", "wrappings" dropped. ntk "you", "masculine singular". snnw example moved inside the bracket.
+
+**Counts:** major 1 · minor 13 · style 3 (17 changes).
+
+**Gloss after this pass:** 26 new entries. 8 broadened keys: m, ḏr, sḫm and sš kept; ꜥꜣ, imi, r and grg added; wḏꜥ dropped.
+
+### Considered and refused
+
+- **R8 coded log in nṯr (U8, U29, U40), nṯrw (U30) and nṯrt (U29), but phon in nṯrw (U11, U20).** Left. A lone R8 writing the whole word is a logogram by the conventions' own definition. The published parts are themselves mixed (phon in most, log in two), so neither choice is an error.
+- **U8 r-gs without the opening "The papyrus writes X; read Y".** Left as pass 1 wrote it. It is not settled whether the scribe or Budge's type is at fault, and the note says plainly that the reading is not sure.
+- **U9 wy say "uy" (published "wy" for the lake-word wy).** Left. "uy" follows the rule (w → u when no vowel follows). The published form belongs to another lemma.
+- **U28 prt as an infinitive after ib·f mꜣꜥ.** Left. A stative of pri would not take t with a masculine subject, and the note's reading ("coming forth") is defensible.
+- **Known mꜣꜥ "(adjective)", used here as the stative (U15, U28) and in m wn mꜣꜥ (U13).** Not broadened. The stative belongs to the adjective-verb, and "true, right" covers the sense.
+- **Known ḫr "to, near, with (of persons)", rendered "against" (U29), "towards" (U23) and "before" (U40).** Not broadened. These are contextual renderings of the same preposition used of persons.
+- **U11 i "who judges what is right for the great Ennead" against l "of".** Kept. The genitive n allows "for", and i is meant to be real English.
+- **ini "3ae-inf." and šm "2-lit." in the glossary.** Kept. Both are the standard verb classes.
+- **sš __broaden__ adds the noun "writing, record".** Kept. U30 renders sš that way (with doubt), and the known entry has only the verb "write".
+- **U21, U6 ḥn·i, U10 gap.** Left as pass 1 found them. Each note already says plainly that the reading is doubtful.

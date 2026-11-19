@@ -267,3 +267,14 @@ Book 9 into line.
 - **17.25** translated on Zhu Xi's household reading (小人 = servants, 僕𨽻下人; women and servants of a house, 臣妾); the note explains, without comment.
 - **Echoes left, judged literal (reviewer's list):** 蔽 'clouding' in 17.8 is close to Legge's 'beclouding' — the alternative would be 'screening' (Zhu Xi 遮掩), a 12-place change plus the glossary; 17.16 'quarrelsome and contrary' / 'perverse'; 17.5 'a Zhou in the east'; 17.18 'sharp mouths that overturn states'.
 - **General knowledge kept:** the Guanju as the first poem of the Zhounan (17.10).
+
+## 2026-11-19 — Book 18
+
+- **Readings decided:** 長沮 cháng jǔ (Zhu Xi 沮七余反 points to qū — noted once); 騧 guā (烏瓜反 points to wā — noted once); 三黜 sān (Zhu Xi 去聲, as 5.19); 施 printed and read shī but translated as 弛 'neglect', following Zhu Xi (陸氏本作弛; 弛遺棄也); 食 sì, 見 xiàn (18.7); 中 zhòng ×4, 降 jiàng (18.8); 大師 tài shī; 少 shào in 少連/少師; 飯 fàn. Say if you want Zhu Xi's qū / wā.
+- **Zhu Xi's 18.4 comment prints 定公四十年**; the note says it is evidently for 十四年 (Duke Ding did not reign forty years). Commentary text only, not the reading text, so not in emend.json.
+- **Binding (decided meanwhile):** bound 微子 箕子 比干 季桓子 接輿 長沮 桀溺 孔丘 虞仲 夷逸 朱張 少連 方叔 魯公, the eight officers of 18.11, 士師, 逸民 (Zhu Xi's term), 丈人 (doubtful), 憮然, 滔滔; the musicians of 18.9 as office + name (大師 | 摯, 亞飯 | 干, 三飯 | 繚, 四飯 | 缺, 少師 | 陽). Not bound: 女樂 (doubtful), 季 | 孟, 楚狂, 隠居, 鳥獸, 四體, 五榖, 明日, 長幼, 大故, 已而, 鼓, 播 | 鼗, 擊 | 磬.
+- **Romanisations of obscure names** are the run's choice: Yu Zhong, Yi Yi, Zhu Zhang, Shao Lian; the eight officers Bo Da, Bo Kuo, Zhong Tu, Zhong Ren, Shu Ye, Shu Xia, Ji Sui, Ji Gua.
+- **Speakers:** 18.8 unit 20 (我則異於是…) is the Master's words with no 曰, left unquoted as 17.21 unit 46. 18.7 unit 15: the note gives both Zhu Xi's report of the Fuzhou text (子路反子曰) and Zheng Xuan's reading.
+- **Echoes left, judged literal:** 'birds and beasts', 'the madman of Chu', 'He is a recluse', 'presented his two sons to him'.
+- **Glossary brackets:** the reviewer counts about 215 shipped entries (Books 9–17) whose first clause has an unclosed bracket before the first ';' (as already noted for Books 13–16). Fixing them means changing text, not adding, so it was left. Book 18's new entries avoid it. Approve a one-off pass if you want them fixed.
+- **Manifest title:** `part` is "Book 18 — 微子 The Viscount of Wei" (title translated, as Book 15 "Duke Ling of Wei").

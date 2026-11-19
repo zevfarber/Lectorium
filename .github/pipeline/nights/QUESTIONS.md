@@ -1732,3 +1732,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - For the publishing run (kept as printed): P739L01 ولانساد (perhaps ولا فساد); P739L03 الثلعب (letters transposed, for الثعلب); P739L13 البزية (a dot over the ر, for البرية); P738L17 ذانك (one dot; perhaps ذالك); P741L15 اى (for الى); P741L03 وكائه (printed hamza; sense وكانه); P744L11 الاعقوبة (run together).
 - Low confidence: P739L08 الجافل (faint); P741L11 بِاَخَرِيْنَا (the mark over the alif).
 - Nothing to decide.
+
+## PDF 767–774 (printed pp. 745–752, transcribed 2026-11-19)
+- Night 149 is complete: its closing formula is the last line of p. 744. Night 150's label is the first line of p. 745, on its own line (h). Night 150 closes at P751L06, and Night 151's label is on its own centred line at P751L07 (I set h by hand). Nights 149 and 150 are both complete and unpublished, so the next two firings should publish.
+- Four centred one- or two-word anecdote openers are flagged h: ومما يحكى P747L03, بلغني P748L15, وحكي P749L12 and زعموا P750L15. I set h by hand on بلغني and زعموا, where one pass had left it off, so that they match وورد P726L18. The running headers in the batch are حكاية الفأرة وبنت عرس, حكاية الغراب والسنور and حكاية البرغوث والفأرة.
+- Lines dropped by the detector and recovered from the bands by both passes: P746L01–02, P746L19 هذه الابيات, P747L03, P748L14 من الهلكة قالت نعم, P748L15, P749L01 (verse), P749L12 and P750L15. On p. 751 two verse lines were merged in one crop, and both passes split them.
+- ه/ة: the adjudicator gave ه wherever the final hook is not two clear dots: P745L07 لايجاوزه, P745L22 هذه, P747L01 وحده, P747L18 ماهذه, P747L21 هذه/ارصده. conventions.md cites وحدة as an example of the edition's spelling, but this page shows the hooked ه.
+- For the publishing run (kept as printed): P749L22 اى (lām missing, for الى; the join to p. 750 reads دعتني الى ملاطفتك); P748L13 دمن (for ضمن?); P745L20 تخانه (one dot above; perhaps تخافه); P747L09 المواخاة; spacing kept: P745L12 شرافشاه, P746L12 وبصروابه, P747L22 ماخطر, P750 مالاتدرك/ولاتصح.
+- Nothing to decide.

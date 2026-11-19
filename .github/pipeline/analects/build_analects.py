@@ -128,12 +128,13 @@ def build(pid, check=False):
             s["n"] = u["n"]
         s["v"] = True
         if u.get("pas"):
-            pas_no += 1
-            s["ln"] = pas_no
-            if ui == 0:
-                s["p"] = True
-            else:
-                s["p"] = True
+            # a stretch can hold more than one of Zhu Xi's chapters when the edition prints them with
+            # only a ○ between and no commentary (13.6–7, 13.13–14, 15.18–19, 15.22–23): npas = how many;
+            # the card then shows the range ("6–7") and the count still advances by each chapter.
+            k = int(u.get("npas", 1))
+            s["ln"] = pas_no + 1 if k == 1 else "%d–%d" % (pas_no + 1, pas_no + k)
+            pas_no += k
+            s["p"] = True
         if s["t"] != t:
             errs.append("unit %d: t not NFC" % ui)
         if not s["l"]:

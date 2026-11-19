@@ -1688,6 +1688,6 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - The running header changes from حكاية الشبل مع النجار to the peacock, duck and gazelle material, and then to حكاية الراعي العابد (p. 728).
 - P726L18: a single centred word, وورد ("it is related"), introduces the anecdote of the pious man and the doves. It is transcribed as its own line, flagged h. The detector missed it, and missed P726L06 ثم قالت ايضا هذا البيت (centred); both passes recovered both lines from the bands.
 - The adjudicator confirmed that this edition's free-standing final ه has a hooked top and no dots. Pass 1 had read several of them as ة (هذه, اخذه, بيده, ظهره, امره, وصبره, اولاده), and they were decided as ه. Every remaining final ة in the archive is a real feminine ending.
-- Kept as printed, for the publishing run to consider for `emend.json`: P726L16 ساعة وقل / قيل (I checked the ink and it reads وقل; the sense wants وقد قيل); P724L08 البقظة (for اليقظة); P727L19 انشعرّ (for اقشعرّ); P723L12 فتعل; P723L18 اتيسه (perhaps انيسه); P721L16 البراي (one ر); P724L06 قدرماك run together; P725L01 اتعدى (sense اقعدي).
+- Kept as printed, for the publishing run to consider for `emend.json`: P726L16 ساعة وقل / قيل (I checked the ink and it reads وقل; the sense wants وقد قيل); P724L08 البقظة (for اليقظة); P727L19 انشعرّ (for اقشعرّ); P723L12 فتعل; P723L18 اتيسه (perhaps انيسه); P721L16 البراي (one ر); P724L07 وقدرماك run together; P724L21 اتعدى (sense اقعدي).
 - Low confidence: P727L19 ايّتها (the shadda sits between the ي and ت).
 - Nothing to decide.

@@ -567,6 +567,34 @@
   .wlRow { display:flex; gap:8px; align-items:center; margin-top:8px; flex-wrap:wrap; }
   .wlRow input { font: inherit; padding:6px 8px; border:1px solid var(--border); border-radius:8px; max-width:200px; }
   .wlSmall { font-size:.78rem; margin-top:8px; color: var(--muted); }
+  /* landing page (2026-11-19): the welcome box carries the name, a live Odyssey sentence, and the invite door */
+  body.locked #welcomeModal { overflow-y:auto; -webkit-overflow-scrolling:touch; }
+  body.locked .wlBox { max-height:none; margin:0 auto; box-shadow:none; background:transparent; border-radius:0; padding:30px 20px 60px; }
+  .wlBox { font-size:1rem; line-height:1.5; }
+  .wlBox > .pclose { position:absolute; top:10px; right:10px; }
+  .wlName { margin:0; font-size:2rem; font-weight:600; letter-spacing:.01em; }
+  .wlTag { margin:4px 0 20px; font-size:1.05rem; color:var(--accent); }
+  .wlLead { margin:0 0 12px; }
+  .wlDemo { border:1px solid var(--border); border-radius:12px; background:var(--panel); padding:16px 16px 14px; margin-bottom:20px; }
+  .wdLine { font-size:1.3rem; line-height:1.55; }
+  .wdTr { font-size:.85rem; color:var(--muted); font-style:italic; margin-bottom:8px; }
+  .wdW { cursor:pointer; border-radius:4px; padding:1px 1px; -webkit-tap-highlight-color:transparent; }
+  .wdW:hover { background:var(--accent-soft); }
+  .wdW.sel { background:var(--accent-soft); box-shadow:0 0 0 2px var(--accent-soft); }
+  .wdW.now { background:var(--accent); color:#fff; }
+  .wdBtns { display:flex; gap:8px; margin-top:6px; }
+  .wdBtns button { min-height:38px; padding:6px 14px; }
+  .wdGloss { font-family:system-ui,-apple-system,'Noto Sans',sans-serif; font-size:.9rem; margin-top:12px; min-height:2.9em; color:var(--muted); }
+  .wdGloss b { color:var(--ink); font-family:Georgia,'Times New Roman','Noto Serif',serif; font-size:1.05rem; font-weight:600; }
+  .wdGloss .wdMean { color:var(--ink); }
+  .wdEn { border-top:1px solid var(--border); margin-top:10px; padding-top:10px; }
+  .wdSwitch { margin-top:8px; font-size:.8rem; }
+  .wlFive { list-style:none; margin:0 0 16px; padding:0; }
+  .wlFive li { padding:5px 0; border-bottom:1px solid var(--border); }
+  .wlFive li:last-child { border-bottom:none; }
+  .wlWorks { color:var(--muted); margin:0 0 18px; }
+  .wlWhyH { font-size:1.1rem; margin:26px 0 6px; }
+  .wlWhy { margin:0; }
   .audioBadge { display:inline-block; font-family: system-ui, sans-serif; font-size:.6rem; font-weight:600; color: var(--muted); border:1px solid var(--border); border-radius:999px; padding:1px 7px; vertical-align: middle; }
   .draftBadge { display: inline-block; font-family: system-ui, 'Noto Sans', sans-serif; font-size: .6rem; font-weight: 600;
     text-transform: uppercase; letter-spacing: .08em; color: #8a5300; background: #fbe6c0;
@@ -681,16 +709,32 @@
 </div>
 
 <div id="welcomeModal" class="signModal">
-  <div class="smBox">
+  <div class="smBox wlBox">
     <button class="pclose" onclick="closeWelcome()">✕</button>
-    <h3 class="smTitle">Welcome to Lectorium</h3>
-    <div class="smSub">Read the world's classic and sacred texts in the languages they were written in, whatever your level.</div>
-    <ul class="wlList">
-      <li>Tap any word to see what it means.</li>
-      <li>Each sentence has a literal translation that follows the original, and a natural one. Switch between them as you read.</li>
-      <li>🔊 reads a sentence aloud. 🎓 Ask puts a question about it to the reading tutor.</li>
-      <li>⚑ correction sends us an error, so it is fixed for every reader.</li>
+    <h1 class="wlName">Lectorium</h1>
+    <p class="wlTag">A complete reading suite for the world’s classic myths, legends and wisdom, in their original languages.</p>
+    <p class="wlLead">You have heard of the Odyssey all your life. These are its first two lines as Homer composed them. Tap any word to see what it means. Tap Listen to hear them.</p>
+    <div class="wlDemo" id="wlDemo">
+      <div class="wdLine" lang="grc"><span class="wdW" data-i="0">ἄνδρα</span> <span class="wdW" data-i="1">μοι</span> <span class="wdW" data-i="2">ἔννεπε</span>, <span class="wdW" data-i="3">μοῦσα</span>, <span class="wdW" data-i="4">πολύτροπον</span>, <span class="wdW" data-i="5">ὃς</span> <span class="wdW" data-i="6">μάλα</span> <span class="wdW" data-i="7">πολλὰ</span></div>
+      <div class="wdTr">andra moi ennepe, mousa, polytropon, hos mala polla</div>
+      <div class="wdLine" lang="grc"><span class="wdW" data-i="8">πλάγχθη</span>, <span class="wdW" data-i="9">ἐπεὶ</span> <span class="wdW" data-i="10">Τροίης</span> <span class="wdW" data-i="11">ἱερὸν</span> <span class="wdW" data-i="12">πτολίεθρον</span> <span class="wdW" data-i="13">ἔπερσεν</span>·</div>
+      <div class="wdTr">planchthē, epei Troiēs hieron ptoliethron epersen·</div>
+      <div class="wdBtns"><button id="wdListen" type="button">🔊 Listen</button><button id="wdEnBtn" type="button">English</button></div>
+      <div class="wdGloss" id="wdGloss" aria-live="polite">Tap a word to see what it means.</div>
+      <div class="wdEn" id="wdEn" style="display:none">
+        <div id="wdEnNat">Muse, tell me of the man of many shifts, who was driven far off his course after he had sacked the holy citadel of Troy.</div>
+        <div id="wdEnLit" style="display:none">The man to me tell-of, Muse, the many-turning, who very much<br>was driven-astray, after Troy&#x27;s holy citadel he sacked;</div>
+        <button id="wdEnSwitch" type="button" class="wdSwitch">≈ literal</button>
+      </div>
+    </div>
+    <ul class="wlFive">
+      <li><b>Every text</b> in its original writing, with optional English-letter transcription when needed.</li>
+      <li><b>Every sentence</b> in two translations: word by word, and natural English.</li>
+      <li><b>Every sentence</b> read aloud, at normal speed or slow.</li>
+      <li><b>Every word</b> explained at a tap.</li>
+      <li><b>A tutor</b> to answer your questions.</li>
     </ul>
+    <p class="wlWorks">Homer, Beowulf, the Brothers Grimm, the Bhagavad Gita and many more, each in its original language.</p>
     <div id="wlCodeBox" class="wlCode" style="display:none">
       Lectorium is in a private beta. Enter the invite code from your invitation to open the library. The code also turns on the reading tutor and lets your notes reach us.
       <div class="wlRow"><input id="codeIn" type="text" placeholder="Invite code" autocomplete="off"><button id="codeSave" class="fixSend">Enter code</button></div>
@@ -698,6 +742,8 @@
       <div class="dim wlSmall">During the beta we count which texts each invite code opens and how far it reads, to see what works. Nothing else is recorded.</div>
     </div>
     <div class="wlRow" id="wlOpenRow"><button class="fixSend" onclick="closeWelcome()">Open the library</button></div>
+    <h2 class="wlWhyH">Why I built this</h2>
+    <p class="wlWhy">I love to experience the magic of classic cultural writings in their original languages, but to become fluent in all these languages and scripts is impossible. So for most of my life, when I wanted to read an ancient text, I had to find a dictionary, a grammar, and a translation and work through it with all three open. It was insanely slow and I would get stuck anyway: I couldn’t see how the translation came out of the words, I had no one to ask, and I had little idea how the text should sound. That’s why I built Lectorium, which puts all of that into one package, the way an office suite puts all your programs in one place. This program lets anyone, from the total beginner to the almost fluent, experience these texts in their original with minimal friction. Try it out and explore the world’s myths, legends, and wisdom sayings with nothing but your phone or computer.</p>
   </div>
 </div>
 <div id="feedbackModal" class="signModal">
@@ -5946,7 +5992,38 @@ async function saveCode(raw, msgEl){
 function unlockLibrary(){ document.body.classList.remove('locked'); }
 function openWelcome(){ $('welcomeModal').classList.add('open');
   const c = inviteCode(); if (c && $('codeIn')) { $('codeIn').value = c; $('codeMsg').textContent = 'Your code is saved.'; } }
-function closeWelcome(){ if (document.body.classList.contains('locked')) return; $('welcomeModal').classList.remove('open'); try { localStorage.setItem('welcomed', '1'); } catch(e) {} }
+function closeWelcome(){ if (document.body.classList.contains('locked')) return; wlDemoStop(); $('welcomeModal').classList.remove('open'); try { localStorage.setItem('welcomed', '1'); } catch(e) {} }
+/* landing demo: Odyssey 1.1-2, self-contained (words, meanings and timings are inlined so it works before the library opens) */
+const WL_WORDS = [{"w": "ἄνδρα", "lemma": "ἀνήρ", "m": "man; acc. sg."}, {"w": "μοι", "lemma": "ἐγώ", "m": "I; encl. dat. sg.: ’to me, for me’"}, {"w": "ἔννεπε", "lemma": "ἐννέπω", "m": "tell of, relate, speak; pres. imper. 2 sg."}, {"w": "μοῦσα", "lemma": "Μοῦσα", "m": "Muse, goddess of poetic inspiration; voc. sg."}, {"w": "πολύτροπον", "lemma": "πολύτροπος", "m": "of many turns, much-turning (much-travelled, or versatile and wily; both senses debated); masc. acc. sg."}, {"w": "ὃς", "lemma": "ὅς, ἥ, ὅν (relative)", "m": "who, which; masc. nom. sg."}, {"w": "μάλα", "lemma": "μάλα", "m": "very, very much, exceedingly; adv."}, {"w": "πολλὰ", "lemma": "πολύς", "m": "much, many; neut. acc. pl.: ’many things, greatly’"}, {"w": "πλάγχθη", "lemma": "πλάζω", "m": "drive off course, make wander; aor. pass. 3 sg., unaugmented: ’was driven astray’"}, {"w": "ἐπεὶ", "lemma": "ἐπεί", "m": "after, since, when"}, {"w": "Τροίης", "lemma": "Τροία", "m": "Troy; gen. sg. (Ionic -ης for Attic -ας)"}, {"w": "ἱερὸν", "lemma": "ἱερός", "m": "sacred, holy; neut. acc. sg."}, {"w": "πτολίεθρον", "lemma": "πτολίεθρον", "m": "citadel, city; neut. acc. sg., epic lengthened by-form of πόλις"}, {"w": "ἔπερσεν", "lemma": "πέρθω", "m": "sack, destroy, lay waste; aor. 3 sg."}];
+const WL_ALIGN = [[0.0, 0.36], [0.36, 0.84], [0.84, 1.57], [1.69, 2.41], [2.53, 3.685], [3.72, 4.02], [4.02, 4.44], [4.45, 4.81], [4.81, 5.645], [5.77, 6.15], [6.15, 6.69], [6.7, 7.25], [7.27, 7.94], [7.94, 9.25]];
+let wlAudio = null, wlRaf = 0;
+function wlDemoMark(){
+  const ws = document.querySelectorAll('#wlDemo .wdW'); const t = wlAudio ? wlAudio.currentTime : -1;
+  ws.forEach((el, i) => el.classList.toggle('now', !!wlAudio && !wlAudio.paused && t >= WL_ALIGN[i][0] && t < WL_ALIGN[i][1]));
+  if (wlAudio && !wlAudio.paused) wlRaf = requestAnimationFrame(wlDemoMark);
+}
+function wlDemoLabel(){ $('wdListen').textContent = !wlAudio || wlAudio.ended || (wlAudio.paused && wlAudio.currentTime === 0) ? '🔊 Listen' : (wlAudio.paused ? '▶ Resume' : '⏸ Pause'); }
+function wlDemoStop(){ if (wlAudio) { wlAudio.pause(); wlAudio.currentTime = 0; } cancelAnimationFrame(wlRaf); document.querySelectorAll('#wlDemo .wdW.now').forEach(el => el.classList.remove('now')); if ($('wdListen')) wlDemoLabel(); }
+(function(){
+  const demo = $('wlDemo'); if (!demo) return;
+  demo.querySelectorAll('.wdW').forEach(el => { el.onclick = () => {
+    const d = WL_WORDS[+el.dataset.i];
+    demo.querySelectorAll('.wdW.sel').forEach(x => x.classList.remove('sel')); el.classList.add('sel');
+    const g = $('wdGloss'); g.textContent = '';
+    const b = document.createElement('b'); b.textContent = d.w; g.appendChild(b);
+    if (d.lemma !== d.w) g.appendChild(document.createTextNode(' \u2190 ' + d.lemma));
+    g.appendChild(document.createElement('br'));
+    const m = document.createElement('span'); m.className = 'wdMean'; m.textContent = d.m; g.appendChild(m);
+  }; });
+  $('wdListen').onclick = () => {
+    if (!wlAudio) { wlAudio = new Audio('audio/odyssey-001/0.mp3');
+      wlAudio.onended = () => { wlDemoMark(); wlDemoLabel(); }; wlAudio.onpause = wlDemoLabel; wlAudio.onplay = () => { wlDemoLabel(); wlDemoMark(); };
+      wlAudio.onerror = () => { $('wdListen').textContent = '🔊 Listen'; }; }
+    if (wlAudio.paused) wlAudio.play().catch(() => {}); else wlAudio.pause();
+  };
+  $('wdEnBtn').onclick = () => { const on = $('wdEn').style.display === 'none'; $('wdEn').style.display = on ? '' : 'none'; $('wdEnBtn').textContent = on ? 'hide English' : 'English'; };
+  $('wdEnSwitch').onclick = () => { const lit = $('wdEnLit').style.display === 'none'; $('wdEnLit').style.display = lit ? '' : 'none'; $('wdEnNat').style.display = lit ? 'none' : ''; $('wdEnSwitch').textContent = lit ? '≈ natural' : '≈ literal'; };
+})();
 function openFeedback(){ $('fbMsg').textContent = ''; $('feedbackModal').classList.add('open'); setTimeout(() => $('fbText').focus(), 30); }
 function closeFeedback(){ $('feedbackModal').classList.remove('open'); }
 $('aboutBtn').onclick = openWelcome;

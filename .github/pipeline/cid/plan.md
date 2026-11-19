@@ -21,7 +21,7 @@
 | cid-tiradas-64-68 | Toward Valencia: Murviedro taken and the Moorish armies beaten | tiradas 64–68, lines 1085–1154 | published |
 | cid-tiradas-69-74 | Raids south of Valencia; the call to arms; the siege and fall of the city | tiradas 69–74, lines 1156–1220 | published |
 | cid-tiradas-75-77 | The king of Seville repulsed; the uncut beard; a second gift for the king | tiradas 75–77, lines 1221–1286 | published |
-| cid-tiradas-78-82 | Jerónimo made bishop; Minaya's embassy wins leave for Jimena; the Infantes take notice | tiradas 78–82, lines 1287–1384 | todo |
+| cid-tiradas-78-82 | Jerónimo made bishop; Minaya's embassy wins leave for Jimena; the Infantes take notice | tiradas 78–82, lines 1287–1384 | established |
 | cid-tiradas-83-83a | Minaya fetches Jimena and the daughters from Cardeña | tiradas 83–83, lines 1385–1452 | todo |
 | cid-tiradas-83-83b | The Cid's escort and Avengalvón meet the ladies at Medinaceli | tiradas 83–83, lines 1453–1526 | todo |
 | cid-tiradas-84-86 | Through Molina to Valencia; the Cid rides Babieca to greet his family | tiradas 84–86, lines 1527–1609 | todo |

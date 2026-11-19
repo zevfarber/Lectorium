@@ -629,10 +629,13 @@
   .home .wlCode .fixSend { font-family:inherit; font-size:1.05rem; min-height:44px; padding:9px 18px; border-radius:3px; border:1px solid var(--ink); background:var(--ink); color:var(--bg); font-weight:400; }
   .home .wlSmall { font-size:.95rem; }
   .home .fixMsg { font-size:1rem; }
-  .hmWhy { margin-top:clamp(56px,9vw,104px); display:grid; grid-template-columns:minmax(0,33em) minmax(220px,320px); gap:0 clamp(28px,5vw,64px); justify-content:space-between; align-items:start; }
+  .hmWhy { margin-top:clamp(56px,9vw,104px); display:grid; grid-template-columns:minmax(0,1.05fr) minmax(0,1fr); gap:0 clamp(28px,5vw,56px); align-items:stretch; }
   .hmWhy .wlWhyH { grid-column:1 / -1; }
   .hmWhyText { grid-column:1; grid-row:2; }
-  .hmPhoto { grid-column:2; grid-row:2; width:100%; height:auto; display:block; border-radius:2px; box-shadow:0 18px 40px -28px rgba(60,40,20,.55); margin-top:.35em; }
+  .hmWhyText .wlWhy:last-child { margin-bottom:0; }
+  .hmWhy .hmSig { grid-column:1; grid-row:3; }
+  .hmPhotoBox { grid-column:2; grid-row:2; position:relative; margin-top:.35em; }
+  .hmPhoto { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:50% 30%; display:block; border-radius:2px; box-shadow:0 18px 40px -28px rgba(60,40,20,.55); }
   .wlWhyH { font-size:1.6rem; font-weight:500; margin:0 0 .5em; }
   .wlWhy { margin:0 0 .9em; font-size:1.3rem; line-height:1.5; }
   .hmSig { margin:.9em 0 0; font-family:'Homemade Apple','Snell Roundhand','Segoe Script',cursive; font-size:1.9rem; font-style:normal; line-height:1.6; word-spacing:.35em; }
@@ -646,7 +649,7 @@
     .wlWhy { font-size:1.2rem; }
   }
   @media (max-width:900px) { .hmBooks { grid-template-columns:1fr 1fr; } }
-  @media (max-width:760px) { .hmWhy { display:block; max-width:33em; } .hmPhoto { max-width:300px; margin:.3em 0 1.1em; } }
+  @media (max-width:760px) { .hmWhy { display:block; max-width:33em; } .hmPhotoBox { max-width:300px; aspect-ratio:4 / 5; margin:.3em 0 1.1em; } .hmPhoto { object-position:50% 8%; } .hmWhyText .wlWhy:last-child { margin-bottom:.9em; } }
   @media (prefers-reduced-motion:reduce) { .wdW { transition:none; } }
   .audioBadge { display:inline-block; font-family: system-ui, sans-serif; font-size:.6rem; font-weight:600; color: var(--muted); border:1px solid var(--border); border-radius:999px; padding:1px 7px; vertical-align: middle; }
   .draftBadge { display: inline-block; font-family: system-ui, 'Noto Sans', sans-serif; font-size: .6rem; font-weight: 600;
@@ -824,13 +827,13 @@
 
     <div class="hmWhy">
       <h2 class="wlWhyH">Why I built this</h2>
-      <img class="hmPhoto" src="img/zev-farber.jpg" width="800" height="1000" loading="lazy" alt="Zev Farber sitting on a bench in a street library, an open book in his hands">
+      <div class="hmPhotoBox"><img class="hmPhoto" src="img/zev-farber-portrait.jpg" width="900" height="1399" loading="lazy" alt="Zev Farber sitting on a bench in a street library, an open book in his hands"></div>
       <div class="hmWhyText">
       <p class="wlWhy">I love to experience the magic of classic cultural writings in their original languages, but to become fluent in all these languages and scripts is impossible.</p>
       <p class="wlWhy">So for most of my life, when I wanted to read an ancient text, I had to find a dictionary, a grammar, and a translation and work through it with all three open. It was insanely slow and I would get stuck anyway: I couldn’t see how the translation came out of the words, I had no one to ask, and I had little idea how the text should sound.</p>
       <p class="wlWhy">That’s why I built Lectorium, which puts all of that into one package, the way an office suite puts all your programs in one place. This program lets anyone, from the total beginner to the almost fluent, experience these texts in their original with minimal friction. Try it out and explore the world’s myths, legends, and wisdom sayings with nothing but your phone or computer.</p>
-      <p class="hmSig">Zev Farber</p>
       </div>
+      <p class="hmSig">Zev Farber</p>
     </div>
   </div>
 </div>

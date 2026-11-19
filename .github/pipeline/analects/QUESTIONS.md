@@ -222,3 +222,8 @@ Book 9 into line.
 - Sima Niu's brother: Zhu Xi names him 向魋 here and identifies 桓魋 with 向魋 at 7.22; the note follows that.
 - General knowledge kept, hedged 'in tradition': Gao Yao as Shun's minister of punishments, Tang as founder of the Shang, 司馬 as the minister of war's title.
 - 12.15 repeats Book 6's 博學於文 passage (6.25 in our numbering); Zhu Xi's text here lacks 君子, so l supplies 'one'.
+
+## 2026-11-19 — Book 13
+
+- **Two chapters on one card (13.6–7, 13.13–14).** Zhu Xi's copy prints these pairs with only a ○ between them and no commentary, so the unit-per-lemma rule puts each pair in one unit. Decided meanwhile: one card, numbered with a range chip ("6–7", "13–14"), via a new `npas` key in the draft and build; the note on each says the card holds two chapters. The same will happen at 15.18–19 and 15.22–23. If you would rather split such stretches into two cards at the ○ (which needs the gate to allow a lemma to span two units), say so and the build can be changed before Book 15.
+- **13.20 行己有恥** — clear misprint (已 for 己) corrected in the reading text under rule 5b; recorded in emend.json.

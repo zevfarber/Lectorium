@@ -1881,3 +1881,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
   - ة written for the pronoun ه (صدرة, امرة, عندة, غيرة, يجدة, دارة, سيدة, فوجدة): kept and noted, following Night 157. The old shared glossary entry أَمْرِةِ called this a misprint; it was rewritten to call it the print's habit.
 - Library label: `Night 159 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
 - Nothing to decide. Night 160 is incomplete (its tail is unread), so the next firing should transcribe.
+
+## PDF 807–814 (pp. 785–792, transcribed 2026-11-20)
+- P786L01 (verse, top of page) had no line crop. The adjudicator re-read it from 500-dpi crops and found marks that both passes had supplied from expectation (وَاسْتَطلْ with no kasra, وَعَزَّ, اَقْبَلْ, اُطِعِ, bare-alif fathas where pass 1 had hamzas). The full verdict line was set by hand, because `apply_verdicts.py` cannot apply a whole-line check once a dispute on the same line has changed it. Low confidence: أهُنْ (the mark over the alif looks like a hamza head, possibly a heavy sukun).
+- Possible misprints for the publishing run to judge (kept as printed): P788L18 تخل مني (sense wants تخدمني, "she serves me"); P788L14 المشير (ش dots visible; sense wants المسير); P789L11 بصعي (for بسعي); P790L06 نطرق (for فطرق) and P790L10 قان (for فان).
+- P792L09 والفرش: an ink blot covers the middle letters; medium confidence (the Vision draft read النيش).
+- Night labels P785L11, P789L13, P791L15 are on their own lines with h, per precedent. Nights 160, 161 and 162 are now complete and unpublished; the next three firings should publish them.
+- Environment: `python3` here is 3.11 with no numpy/cv2; `pip` installs into /usr/bin/python3 (3.13). Run the tools with `/usr/bin/python3`.

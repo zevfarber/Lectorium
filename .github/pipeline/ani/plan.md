@@ -11,7 +11,7 @@
 | ani-hymn-to-osiris | Hymn to Osiris | Budge pp. 8–10 | published |
 | ani-weighing-of-the-heart | The weighing of the heart | Budge pp. 11–16 | published |
 | ani-001-a | Spell 1, first half | Budge pp. 17–20 | published |
-| ani-001-b | Spell 1, second half | Budge pp. 21–24 | todo |
+| ani-001-b | Spell 1, second half | Budge pp. 21–24 | established |
 | ani-022-072 | Spell 22 and the rubric of Spell 72 | Budge pp. 25–27 | todo |
 | ani-017-a | Spell 17, part 1 of 6 | Budge pp. 27–31 | todo |
 | ani-017-b | Spell 17, part 2 of 6 | Budge pp. 32–36 | todo |

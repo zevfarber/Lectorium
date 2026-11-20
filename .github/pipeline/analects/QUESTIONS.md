@@ -289,3 +289,13 @@ Book 9 into line.
 - **Echoes left, judged literal:** 'seen from afar' (19.9), 'strength to spare' (19.13, as 1.6), 'has not fallen to the ground; it is among men' (19.22), 'Those who find its gate are perhaps few' (19.23), 'what harm would that do to the sun and moon?' (19.24).
 - **Glossary brackets:** 肆 and 矜 (older entries) also have an unclosed bracket in their first sense; left, as with the ~215 noted under Book 18.
 - **Manifest title:** `part` is "Book 19 — 子張 Zizhang".
+
+## Book 20 (堯曰), 2026-11-20 — decided meanwhile
+- **Unit 4 (雖有周親…在予一人) unquoted:** King Wu's words have no 曰, and a unit cannot open with 「 (punctuation trails the word before it), so they stand unquoted in Chinese and English; the note says whose they are (Zhu Xi: from the Great Declaration 泰誓).
+- **Tang in unit 2:** the l opens "(Tang) said:" following Zhu Xi's 曰上當有湯字.
+- **帝 'the High Lord':** used for 帝 throughout 20.1 (皇皇后帝 'the most august Sovereign, the High Lord'; i 'Lord on High').
+- **Binding:** bound 厯數, 皇皇, 一人 (予一人 'I, the One Man'). Not bound: 后帝, 萬方, 周親, 仁人, 權量, 法度, 從政, 五美, 四惡, 衆寡, 衣冠, 瞻視, 出納.
+- **屏 bǐng, 出 chū:** Zhu Xi gives no mark for 屏 (Kong Anguo 屏除也); modern bǐng given. He marks 出去聲; modern chū given, noted once.
+- **He Yan's 右 for 后** (Kong Anguo's gloss 皇大也右君也): quoted as printed with a word that 右 stands for 后. Commentary, not reading text, so not in emend.json.
+- **Render check:** not run this time (refused by the session's permission layer); a later run with a browser may check analects-20 loads under data-script="chinese".
+- **DONE:** not written this run, so that the next run can still add Book 20's `audio` field once the Action lands it; that run then finds all 20 published and writes DONE.

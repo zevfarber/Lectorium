@@ -1870,3 +1870,14 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - The poem P779L19–P780L01 is treated as the opening of Shams al-Nahār's letter, which runs on through the rhymed prose to the couplet at P780L12.
 - Library label: `Night 158 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
 - Nothing to decide. Night 159 is complete and unpublished, so the next firing should publish it; P781L18 يأنيني is for that run to judge.
+
+## Night 159 (P781L01–P783L17, published 2026-11-20)
+- Misprint corrected (emend.json): P781L18 يأنيني → يأتيني ("he would come to me", ن for ت), as the transcription run flagged.
+- Kept as printed, with notes:
+  - (verse) P781L08 وَرَوَّعَ: printed active, but the sense wants the passive ruwwiʿa. P781L11 حُبِّيكَ: read as ḥubbīka, lengthened for the metre. P781L12 كَفَعَالُ: damma where the grammar wants a kasra. The verse also calls Lubnā's Qays "al-Majnūn", which mixes up two lovers; the note says so.
+  - P782L22 اودّعه: the print's shadda gives Form II (waddaʿa), but the sense is "entrust" (Form IV). The shadda is kept and the note says it may be a slip.
+  - P782L15 ارباب الديون: taken as Abū al-Ḥasan's debtors, not his creditors, and noted as loose.
+  - P781L19 الجارية: read as Shams al-Nahār herself.
+  - ة written for the pronoun ه (صدرة, امرة, عندة, غيرة, يجدة, دارة, سيدة, فوجدة): kept and noted, following Night 157. The old shared glossary entry أَمْرِةِ called this a misprint; it was rewritten to call it the print's habit.
+- Library label: `Night 159 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
+- Nothing to decide. Night 160 is incomplete (its tail is unread), so the next firing should transcribe.

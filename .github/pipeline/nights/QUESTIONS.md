@@ -1888,3 +1888,13 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - P792L09 والفرش: an ink blot covers the middle letters; medium confidence (the Vision draft read النيش).
 - Night labels P785L11, P789L13, P791L15 are on their own lines with h, per precedent. Nights 160, 161 and 162 are now complete and unpublished; the next three firings should publish them.
 - Environment: `python3` here is 3.11 with no numpy/cv2; `pip` installs into /usr/bin/python3 (3.13). Run the tools with `/usr/bin/python3`.
+
+## Night 160 (P783L18–P785L10, published 2026-11-20)
+- Misprint corrected (emend.json): P784L01 الجاربة → الجارية (ب for ي).
+- Kept as printed, with notes:
+  - P784L21 سرّتني: read as sārratnī, "she confided to me" (Form III with the long ā unwritten, supplied with a dagger alif). sarratnī, "she gladdened me", does not fit the bad news that follows. This is our reading, and the note says so.
+  - P785L03 لانها كانت تميل وتصغي الى ابي الحسن: "she" is taken as the slave-girl. Her mistress is also possible, and the note gives both.
+  - P784L15 عسي (ي for ى) followed by اكون without أن: Middle Arabic, noted.
+- Demonstratives (ذلك, هذه, هذين, لكن) are written without a dagger alif, as in Nights 150–159. One drafter had used the dagger form, and it was made plain.
+- Library label: `Night 160 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
+- Nothing to decide. Nights 161 and 162 are complete and unpublished, so the next two firings should publish them. The transcription run flagged possible misprints in 161 (P788L18 تخل مني, P788L14 المشير, P789L11 بصعي) for that run to judge.

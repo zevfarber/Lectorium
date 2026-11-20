@@ -23,3 +23,4 @@
 
 - 2026-11-20 · ani-001-b · The six strokes (Z15e) in the name of the sixth-day feast snwt (Plate 5, Budge's "VI ent ḥeb") are coded role `log`, tr "snw", not `num`: they write the feast's name, not a count. Decided meanwhile: log, and Budge's three groups joined into one word. If the owner prefers numerals always `num`, it is unit 12 (l. 24) of drafts/ani-001-b/units.json.
 - 2026-11-20 · sign glossary · 6 more Egyptian sign entries (A7, A16, D3, N11, U22, Z15e) written by the run lead from memory of the Gardiner list; worth a check against a sign list (Z15e gives the numeral six as "sjs"; sjsw is the fuller form).
+- 2026-11-20 · ani-022-072 · Budge restarts his line numerals at 1. for Chapter XXII and again for the Rubric of Chapter LXXII, although Plate VI ran to l. 44 in ani-001-b. Decided meanwhile: the numerals are recorded as printed (ln in the draft will be chapter-relative); a later ruling could renumber the plate continuously.

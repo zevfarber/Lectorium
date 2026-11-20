@@ -51,3 +51,42 @@ Considered and refused:
 - No Budge-isms left in l / i ("triumphant", "saith", "homage", "victorious", "thee/ye", "hath": none). Budge's English appears only in the notes, quoted as his.
 
 Re-check: the concatenated glyph codes of units.json equal the established sequence exactly (932 signs). The q of every word that keeps Budge's division equals the established q, and the 8 joined or split words are correctly re-indexed (iwr·i, iḏbwy/rḫtt, wḏ·tw, ir/n·i, snwt, ḥtp-nṯr). Restored flags: R8 (l. 39), E34 N35 G37 of wn·f (l. 43), I9 of sp·f (l. 44). 25 rubric words, as established. Morph indices cover every glyph. No note is over 1100 characters (largest: U17 1096, U2 1090, U9 1023).
+
+## Pass 2
+
+Changes (U<n>/gloss · field · severity · what was wrong · what was done). Units numbered from 0. All edits by script (/tmp/claude-0/reviewer2/edit.py), which asserts each old string before it replaces it.
+
+- U32 · l / i / n · minor · n + sḏm·n·tw·f was rendered as a past ("No fault of his was found there"), against the house rule of the published weighing of the heart (U16, U37) and the Spell 125 rubric (U3). The note offered "cannot" only as an alternative · l "not · can-be-found · fault-his · there"; i "No fault of his can be found there."; note now says that n with the sḏm·n·f does not state a past act in the classical language, but what does not or cannot happen (as in the weighing of the heart). The past "has not been found" is given as a possible later usage.
+- U27 · n · minor · "A word dnd 'rage' has this spelling" states as fact a lexical claim that no permitted source can check · now "A word dnd 'rage, wrath' may be meant, but whether it is written so cannot be checked here, and rage does not suit the wish". The gap in l / i is kept.
+- U4 · n · minor · pass 1's participial reading was left without a qualification: the classical participial statement with a noun subject puts in before the noun, and here there is none · added "(the classical language would put in before the noun)". The rendering "it is Thoth who makes …" is kept (see below).
+- U28 · n · minor · the future reading of n + sḏm·tw·f rested only on "as nn would be", and gave no reason why n could carry that sense · now "but n is often written for nn in copies of this time, and among the wishes the future of nn fits". The rendering is kept.
+- U1 · n · style · "the hand d and the chick w as complements": w is not a complement, because no sign in ḏdw carries it, and it is coded phon · "the hand d as complement, the chick w and the town sign".
+- gloss dr · minor · the entry added "the preposition 'since, from, until' (dr 'when')", which is ḏr, a different word with ḏ (and "until" is not one of its senses) · "dr — to drive away, repel, subdue (verb)".
+- gloss sšw · minor · "to be empty, be emptied (stative of the causative …)" gave the meaning of šwi, not of its causative, and put one occurrence's form (the stative) into the lemma · "sšw — to empty, make empty (verb; causative of šwi 'be empty'; Budge: sesu-θà; reading doubtful)".
+- gloss dnd · minor · "dnd — rage, fury (noun)" asserted the uncheckable sense as the lemma's meaning (as U27 did) · "dnd — a word of unclear sense, perhaps 'rage, wrath' (noun; Budge: ṭenṭ, 'confidence'; meaning uncertain)". Budge's ṭenṭ from the packet is added.
+- gloss snwt · minor · "(Budge: 'day six')" is not Budge's wording: his groups are VI / ent / ḥeb, "six … of the … festival" · now "written with six strokes, which Budge reads as the numeral 'six'".
+- gloss ḥmwt · minor · "craftsmen, artisans (noun, plural)": ḥmwt is the feminine noun "craft, craftsmanship". The plural of the craftsman is ḥmww · "ḥmwt — craft, craftsmanship; perhaps also the craftsmen as a body (noun f.); wr ḫrp ḥmwt 'Greatest of the Directors of Craft(smen)' … (reading doubtful here)". U17's "Craftsmen" is kept because of the seated-man classifier, and the gloss allows it.
+- gloss wrd · minor · labelled an adjective; wrd is the verb "be weary" · "to be weary, tired (verb)"; "reading doubtful here".
+- gloss nḏ · minor · "(verb; nḏ m 'protect' with an object)" is garbled: the m in U9 is the preposition before the infinitive, not part of the verb's construction · "nḏ — to protect, guard (verb)".
+- gloss iꜣkb · minor · the derived noun was given as iꜣkbt, but the word in U2 is read iꜣkbyt · "iꜣkbyt 'wailing woman, mourner'".
+- gloss tpḥt · style · the entry carried one occurrence's details (Budge's 'storehouses', "which chambers are meant is uncertain"). These belong in the U7 note, which already has them · "tpḥt — cavern, hollow, hole in the earth (noun f.; plural tpḥwt)".
+- gloss ḥnw · style · "barque" against "bark" in the units and the published parts · "bark".
+- gloss __broaden__ sm · minor · "the title is written with the leopard-skin sign", but here it is written s-m without it · "often written with the leopard-skin sign".
+- gloss __broaden__ sḫm · style · "where a shoulder of Osiris lay" is one occurrence's lore, not a sense of the place name · dropped.
+
+Checked and confirmed (no change):
+- Gloss: every key is spelled exactly as the units' morph lemma, and all 31 are used. None is already in known-lemmas.json. Every __broaden__ value starts with the exact known entry followed by " · " (checked by script). Budge's spellings in brackets match the packet: Ṭeṭṭeṭi, ḥai, Reχtet, Teśteś, urṭ, seśit, qāḥ, ābet, Ṭenàt, Rere, ḥennu, χebasi, mātennu, sesu-θà, Seχem. Doubtful items are marked uncertain.
+- Known lemmas used here in a new sense, checked again. None needs broadening: st (dependent pronoun "it, them" is already in it), n (negative and preposition both in it), hrw ("day" in it), pr ("house" in it), tꜣ ("land, earth" in it), tr ("time, season; dual trwy" in it), mi ("like, as" in it). The same holds for imy (plural imyw), iry, šd ("recite, read out"), wpi, sqꜣ, irf, ny, sbiw and ḫr (broadened). wn, wḏ, sš, rꜣ, wꜥb, sm, sḫm, ꜣḫ and ·ti are rightly broadened.
+- Pass 1's U4 participle: kept. The first half has "I am Thoth, who makes Osiris true of voice", and noun + participle after "Ra commanded it" can only be the content of the order. The rendering "it is Thoth who …" equals "Thoth is the one who …", and the note now says that in is missing.
+- Pass 1's U28 future: kept, with the reason added (above). The past "was not repelled" stands in the note as the classical sense.
+
+Considered and refused:
+- U25/U26 irf·tn: irf does not normally take a suffix, and ir·tn (r + suffix after an imperative, as in known r) is the more regular reading. The note gives both, the sense is the same, and the morph lemma irf is a known key. Left as is.
+- U17 i "Directors of Craftsmen": kept, as the seated man suggests persons; the gloss now gives "craft" as the lemma's main sense.
+- U31 i "glorious spirit": not Budge's "glorified soul"; "glorious" is the published rendering of ꜣḫ (001-a, ꜣḫt). Kept.
+- G29 coded log bꜣ, where the hymn to Osiris and the address have phon: the bird writes the whole word, which is log by conventions. Kept; the difference is consistent within this part.
+- O34 tr "z" while the readings have s: house practice in every published part. Kept.
+- U2 rḫtt with V1 det and no phonogram for r or ḫ: the note says the signs write no r or ḫ, and the reading rests on the footnote variant. Kept as doubtful.
+- No Budge-isms in l / i (thee, thou, ye, hath, saith, homage, triumphant, victorious, perfected, glorified: none). Line references in the notes ("as in line 18 / 21 / 22 / 29 / 30", Budge's numerals 23, 26, 30, 33, 39, 43) all match the packet.
+
+Final check (/tmp/claude-0/reviewer2/check.py and an alignment script): units.json and gloss.json parse. The glyph sequence equals the established sequence exactly (932 signs). Every q is a valid permutation of its word's indices, and the 248 words that keep Budge's division have exactly the established q. The 8 joined or split words are the ones pass 1 listed. Morph indices cover every glyph. All 121 morph lemmas are in known-lemmas.json or gloss.json. Rubric words: 25 = 25. No note is over 1100 characters (largest: U17 1096, U2 1090, U9 1023). Result: PASS.

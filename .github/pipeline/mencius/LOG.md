@@ -1,0 +1,3 @@
+# Mencius pipeline — log
+
+2026-11-20 · setup · Source archived: Zhu Xi 孟子集注 (Siku Wenyuange, Kanripo KR1h0015 juan 010–016); witnesses KR1h0002 (Zhao Qi, SBCK) and KR1h0001 (TLS, finding aid). archive_mencius.py cuts the 14 篇 into 34 parts of whole chapters (~1,000 chars). Chapter starts the transcription marks wrongly fixed and checked against TLS numbering: 3B.5 and 6B.5 lack a ○; ○ inside 5A.7, 5B.7, 6B.9 is not a chapter start; every 篇 then matches the chapter count Zhu Xi states at its head. 6A.1 把柳→杞柳 put in emend.json. build_mencius.py cloned from build_analects.py; stand-in test on mencius-22 PASS, wrong pas caught.

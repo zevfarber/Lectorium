@@ -1824,3 +1824,12 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Shared glossary: the drafters found 49 existing entries whose sense does not fit this night. Most of them are names read as plain words: الحسن, مسرور, عفيف, علي. Each entry got an appended "Also …" sense, and no existing text was removed. One existing entry was wrong and I corrected it: الشَّابَّيْنِ had "gen., second term of the iḍāfa after hādhayni". It now reads "gen., in apposition to the demonstrative hādhayni", because a demonstrative cannot govern a genitive.
 - Library label: `Night 154 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
 - Nothing to decide. Nights 155 and 156 are complete and unpublished, so the next two firings should publish them.
+
+## Night 155 (P772L03–P774L04, published 2026-11-20)
+- Misprints corrected (emend.json): P773L07 منة → منه; P773L21 خرنا → خوفا; P774L03 ننسه → نفسه. The transcription run flagged the last two. I added منة myself: an ة where the sense needs the pronoun ه makes it a different word, so it is a misprint, not the edition's usual spelling.
+- Kept as printed, with notes:
+  - P773L18 حَبِيبْ: the type is damaged, and the other transcription pass read حَاسِبْ. The final foot does not scan as wāfir, and the -īb rhyme sits loosely with -āʾib. The note says the word may be corrupt.
+  - P774L02 عَلّى: a stray shadda on the preposition. The mark is kept, the word is read ʿalā, and the note says so.
+  - P773L04 ادري: read as the elative adrā, "better acquainted", because of the following min ghayrī. The note gives adrī, "I know", as the alternative.
+- Library label: `Night 155 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
+- Nothing to decide. Night 156 is complete and unpublished, so the next firing should publish it.

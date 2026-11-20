@@ -1810,3 +1810,17 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
   - P776L08 بُعْدِي: the damma is faint.
 - Spacing: the print joins ابوالحسن throughout p. 773, and also السعيدان, بكاريا, فبينماهم and لابدان. All of these are kept joined as printed.
 - Nothing to decide.
+
+## Night 154 (P767L01–P772L02, published 2026-11-20)
+- Misprint corrected (emend.json): P767L14 بَدَيْكَ → يَدَيْكَ ("your hands", in the verse). The transcription run had flagged it.
+- Kept as printed, with notes:
+  - P767L17 آالهُ: read as the question a-ilāhun, "are you a god…?". The metre wants tanwīn where the print has a single ḍamma.
+  - P767L16 لَيْسَ الْعَجِيبُ كَوْنُكَ: both nouns are nominative.
+  - P770L12 التحائف: for tuḥaf, "rarities".
+  - P771L02 the second بَانَ (the ben-tree): the print points it bāna; the transliteration reads bāni.
+  - P771L03 اَنَسَتْ: the metre needs ānasat.
+  - P771L22 آخِرُ after كان: nominative as printed.
+  - P769L01 سببا: an accusative predicate after inna, a Middle Arabic form.
+- Shared glossary: the drafters found 49 existing entries whose sense does not fit this night. Most of them are names read as plain words: الحسن, مسرور, عفيف, علي. Each entry got an appended "Also …" sense, and no existing text was removed. One existing entry was wrong and I corrected it: الشَّابَّيْنِ had "gen., second term of the iḍāfa after hādhayni". It now reads "gen., in apposition to the demonstrative hādhayni", because a demonstrative cannot govern a genitive.
+- Library label: `Night 154 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
+- Nothing to decide. Nights 155 and 156 are complete and unpublished, so the next two firings should publish them.

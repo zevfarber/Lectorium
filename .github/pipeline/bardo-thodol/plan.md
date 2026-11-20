@@ -5,7 +5,7 @@
 | part | name | range | status |
 |---|---|---|---|
 | bardo-thodol-002 | At the moment of death: the first clear light, and the second | pp. 18–26 | published |
-| bardo-thodol-003 |  | pp. 27–35 | todo |
+| bardo-thodol-003 | The second bardo, and the third begins: the voices, lights and rays, and the first day | pp. 27–35 | established |
 | bardo-thodol-004 |  | pp. 36–44 | todo |
 | bardo-thodol-005 |  | pp. 45–53 | todo |
 | bardo-thodol-006 |  | pp. 54–62 | todo |

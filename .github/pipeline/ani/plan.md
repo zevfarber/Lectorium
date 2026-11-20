@@ -13,7 +13,7 @@
 | ani-001-a | Spell 1, first half | Budge pp. 17–20 | published |
 | ani-001-b | Spell 1, second half | Budge pp. 21–24 | published |
 | ani-022-072 | Spell 22 and the rubric of Spell 72 | Budge pp. 25–27 | published |
-| ani-017-a | Spell 17, part 1 of 6 | Budge pp. 27–31 | todo |
+| ani-017-a | Spell 17, part 1 of 6 | Budge pp. 27–31 | established |
 | ani-017-b | Spell 17, part 2 of 6 | Budge pp. 32–36 | todo |
 | ani-017-c | Spell 17, part 3 of 6 | Budge pp. 37–41 | todo |
 | ani-017-d | Spell 17, part 4 of 6 | Budge pp. 42–46 | todo |

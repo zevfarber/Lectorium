@@ -299,3 +299,6 @@ Book 9 into line.
 - **He Yan's 右 for 后** (Kong Anguo's gloss 皇大也右君也): quoted as printed with a word that 右 stands for 后. Commentary, not reading text, so not in emend.json.
 - **Render check:** not run this time (refused by the session's permission layer); a later run with a browser may check analects-20 loads under data-script="chinese".
 - **DONE:** not written this run, so that the next run can still add Book 20's `audio` field once the Action lands it; that run then finds all 20 published and writes DONE.
+
+## 2026-11-20 — Analects finished
+- All 20 books are published with audio; `DONE` written. Every work in `queue.txt` now has a DONE marker, so the routine idles until a new work is added to the queue. Still open from Book 20: a headless render check of analects-20 was never run.

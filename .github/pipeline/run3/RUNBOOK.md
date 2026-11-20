@@ -18,7 +18,10 @@ Run every command from the work's folder, `.github/pipeline/<work>/`; `R3` below
   marker and the LOG line, and stop. The next firing moves to the next work by itself.
 - `WORK <w>` + `BUSY` — another firing holds a live claim on every remaining part: stop.
 - `SKIP <w>` lines — a work whose only remaining parts are blocked is passed over (its blocked parts wait for the
-  owner); the answer that follows is this firing's job.
+  owner); the answer that follows is this firing's job. **Never write DONE for a work that still has blocked
+  parts** (2026-11-20): mark the parts `blocked`, say why in QUESTIONS.md, and let `R3 next` pass the work over.
+  That way, once the cause is fixed, the work resumes by itself; the queue's later works are there for exactly
+  this case.
 - `WORK <w>`, `PART <id>`, `ACTION establish|draft` — this firing's job. Read `<w>/conventions.md` and
   `<w>/runbook.md` now.
 

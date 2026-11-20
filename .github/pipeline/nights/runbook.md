@@ -41,9 +41,27 @@ so. Nothing here needs the owner, and the ratio needs no tuning.
    (`archive/pp003-012.json`) to see the shape.
 2. Derive the state from the repository: the last transcribed PDF page is the highest page in
    the `pages` field across `archive/pp*.json` (`printed pp. A-B (PDF pages X-Y)`; use Y). The
-   next batch is PDF pages **Y+1 … Y+8** (eight pages per run). Vol. 1 ends at PDF page 938
-   (`plan.md`); if Y = 938 the volume is done: create the empty marker `DONE`, append a LOG line,
-   commit, push, stop.
+   next batch is PDF pages **Y+1 … Y+8** (eight pages per run), with three rules from
+   `source/pagemap.json` (volume 2 connected 2026-11-20):
+   - **A batch never crosses the end of volume 1.** Volume 1's last page is PDF 932 (printed
+     p. 910, the colophon); a batch that would run past it stops at 932, even if that makes it
+     short. The batch after it starts at **PDF 936**, the first text page of volume 2 (PDF
+     933–935 are volume 2's title leaves and are never transcribed).
+   - **Pages listed under `exclude_pdf` are skipped**, and the batch takes the next pages after
+     them so that it still holds eight real pages. They are placeholder pages standing in for
+     pages missing from the only scan of volume 2 (printed pp. 20–21, 42–43, 360, 365, 386–387,
+     578–579). Run `nights_ocr.py` around them (two calls into the same `--out` folder), write the
+     archive name and `pages` field from the first and last real page, and say in the LOG which
+     pages were skipped. The page join across a missing page will not read as one sentence; that
+     is expected — note it, do not hunt for a lost line.
+   - Volume 2 ends at PDF 1631. If Y = 1631, the Nights are done as far as the scans go: create
+     the empty marker `DONE`, append a LOG line, commit, push, stop.
+
+   **Volume 2's page numbers.** Archive page numbers carry on from volume 1: a volume-2 page
+   whose own header reads *n* is archived as page 910 + *n* (refs `P915L01` for its p. 5), and
+   printed = PDF − 22 still holds everywhere. So when you confirm a batch's first page against
+   its header, add 910 to what a volume-2 header shows. PDF 1291–1298 (vol. 2 pp. 359–366) are
+   flagged `uncertain` in `pagemap.json`; read its note before transcribing them.
 3. Claim: create `claims/pp<Y+1>-<Y+8>.md` with the UTC time and your session id, commit and
    push it before doing anything else. If a claim for those pages exists and is less than 3 hours
    old, another run holds it — stop. A claim older than 3 hours is abandoned; overwrite it.
@@ -73,8 +91,9 @@ crops and bands. If `tesseract` cannot be installed the script still runs and th
 draft is empty — the correction agents then transcribe from the crops alone. That costs a little
 more attention, not correctness.
 
-The scan is split into 50-page chunks in `source/`: `calcutta2-vol1-p<A>-<B>.pdf` holds PDF pages
-A–B. Pass `--offset A-1` so output folders carry absolute page numbers. A batch that straddles two
+The scan is split into 50-page chunks in `source/`: `calcutta2-vol1-p<A>-<B>.pdf` and, for
+volume 2, `calcutta2-vol2-p<A>-<B>.pdf` hold absolute PDF pages A–B (volume 2's numbering
+continues volume 1's: its chunks start at 933). Pass `--offset A-1` so output folders carry absolute page numbers. A batch that straddles two
 chunks is run as two calls into the same `--out` folder.
 
     python3 tools/nights_ocr.py --pdf source/calcutta2-vol1-p001-050.pdf --pages 31-38 --offset 0 \

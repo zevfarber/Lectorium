@@ -238,3 +238,20 @@ agent's word that it checked its own text; changes a letter of the archive; touc
 `index.html`, audio, or another work's files; opens a modern translation of the Nights for
 wording; runs NFC over an Arabic file; sends email; uses Google Drive; creates, changes or
 disables a routine.
+
+## Volume 2 (from 2026-11-20)
+
+From archive page 911 on, the text comes from volume 2. Archive page numbers there are 910 + the
+page number the print shows, so in `source` write the edition as **vol. 2** and the printed
+pages as the print numbers them (archive pp. 915–921 → "vol. 2, Calcutta 1839, printed pp.
+5–11"), and the scan as archive.org aliflailaorbook02unkngoog. A night that runs from the end of
+volume 1 into volume 2 cites both ("vol. 1, printed pp. 905–910, and vol. 2, printed pp. 4–6").
+
+Some volume-2 pages are missing from the only scan (`source/pagemap.json`, `missing_printed_vol2`).
+A night that spans one is published with the gap, marked the way step 2 of the skipped-passage
+procedure above marks one: end the sense unit at the last line before the missing page, close its
+`l` and `i` with ` […]`, give it the `n` "A passage is skipped here for now." (append it if the unit
+already has a note), and start the next unit at the first line after the missing page, mid-sentence
+if that is where the page begins. There are no lines to put in `omit.json` (the archive has none),
+no `gap` field, no `gaps.json` entry and no `advisory`. `check_slice.py` gates exactly as usual,
+because the archive simply has no lines there. Say in the LOG which page is missing.

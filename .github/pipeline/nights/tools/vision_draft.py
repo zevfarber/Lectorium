@@ -32,7 +32,7 @@ import argparse, base64, datetime, glob, json, os, re, sys, urllib.request
 HERE = os.path.dirname(os.path.abspath(__file__))
 NIGHTS = os.path.dirname(HERE)
 VDIR = os.path.join(NIGHTS, 'vision')
-LAST_PDF_PAGE = 938          # vol. 1 (plan.md)
+LAST_PDF_PAGE = 1631         # end of vol. 2 (source/pagemap.json, 2026-11-20); vol. 1 ends at 932
 AHEAD = 120                  # pages fetched ahead of the transcription (~15 runs of 8)
 MONTHLY_CAP = 2000         # owner 2026-11-12: Nights may fire every 2 h (~1,100 pages/month); pages past Google's free 1,000 cost about $1.50 per thousand
 
@@ -40,7 +40,7 @@ ARABIC = re.compile(r'[؀-ۿ]')
 
 def chunk_for(page):
     """source/calcutta2-vol1-p<A>-<B>.pdf holding absolute PDF page `page`, and A-1."""
-    for f in sorted(glob.glob(os.path.join(NIGHTS, 'source', 'calcutta2-vol1-p*-*.pdf'))):
+    for f in sorted(glob.glob(os.path.join(NIGHTS, 'source', 'calcutta2-vol*-p*-*.pdf'))):
         a, b = (int(x) for x in re.search(r'p(\d+)-(\d+)\.pdf$', f).groups())
         if a <= page <= b:
             return f, a - 1
@@ -93,7 +93,9 @@ def fetch(a):
         for tok in re.findall(r'\d+(?:-\d+)?', re.sub(r'#.*', '', open(req).read())):
             lo, hi = (int(x) for x in tok.split('-')) if '-' in tok else (int(tok),) * 2
             want += list(range(lo, hi + 1))
-    want = sorted({p for p in want if not os.path.exists(os.path.join(VDIR, f'p{p:03d}.json'))})
+    sys.path.insert(0, HERE)
+    from pagemap import excluded   # title leaves and placeholder pages are never sent (2026-11-20)
+    want = sorted({p for p in want if not excluded(p) and not os.path.exists(os.path.join(VDIR, f'p{p:03d}.json'))})
     usage_f = os.path.join(VDIR, '_usage.json')
     usage = json.load(open(usage_f)) if os.path.exists(usage_f) else {}
     month = datetime.datetime.utcnow().strftime('%Y-%m')

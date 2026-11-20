@@ -58,6 +58,12 @@ NIGHTS = os.path.dirname(HERE)
 ARCHIVE = os.path.join(NIGHTS, "archive")
 
 
+def _archive_key(name):
+    """Printed order, numerically (pp1001 after pp999; vol. 2 from 2026-11-20)."""
+    m = re.match(r"pp(\d+)", name)
+    return (int(m.group(1)) if m else -1, name)
+
+
 # Passages left out of the reading edition (owner's rule, 2026-10-16). omit.json lists ranges of
 # archived lines, {"from": "P324L08", "to": "P324L19", "night": 39, "reason": "..."}; the lines
 # stay in the archive but are skipped here, so a night whose story leaves them out still passes.
@@ -106,7 +112,7 @@ def words(s):
 
 def archive_tokens(first_ref, last_ref):
     out, inside = [], False
-    for name in sorted(os.listdir(ARCHIVE)):
+    for name in sorted(os.listdir(ARCHIVE), key=_archive_key):
         if not (name.startswith("pp") and name.endswith(".json")):
             continue
         with open(os.path.join(ARCHIVE, name), encoding="utf-8") as fh:
@@ -125,7 +131,7 @@ def archive_verse_marked(first_ref, last_ref):
     """One entry per archive token, parallel to archive_tokens(): the archive's own marked
     word where the line is verse and the word carries marks, else None."""
     out, inside = [], False
-    for name in sorted(os.listdir(ARCHIVE)):
+    for name in sorted(os.listdir(ARCHIVE), key=_archive_key):
         if not (name.startswith("pp") and name.endswith(".json")):
             continue
         with open(os.path.join(ARCHIVE, name), encoding="utf-8") as fh:

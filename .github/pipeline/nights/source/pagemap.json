@@ -1,0 +1,51 @@
+{
+ "about": "How the scan's PDF pages map to the printed pages, for both volumes. Written 2026-11-20 when volume 2 was connected. Printed page (as used in archive refs P<page>L<line> and archive file names) = absolute PDF page - 22 throughout. Volume 1 is printed pp. 1-910 (PDF 23-932; its last text page, p. 910, is the colophon). Volume 2 continues the numbering: its printed page n is archived as page 910+n, at absolute PDF page 932+n. So a volume-2 page whose header reads n is archived as P(910+n).",
+ "volumes": [
+  {
+   "vol": 1,
+   "first_pdf": 1,
+   "last_pdf": 932,
+   "printed_offset": 0,
+   "scan": "archive.org aliflailaorbooko01macn, 300 ppi",
+   "chunks": "source/calcutta2-vol1-p<A>-<B>.pdf"
+  },
+  {
+   "vol": 2,
+   "first_pdf": 933,
+   "last_pdf": 1631,
+   "printed_offset": 910,
+   "scan": "archive.org aliflailaorbook02unkngoog (Google scan of the University of Virginia copy, 600 ppi bilevel), re-ordered into reading order: Google scanned the book back to front, with three spreads scanned twice. Each page is set at its true size, so a 300 dpi render matches volume 1.",
+   "chunks": "source/calcutta2-vol2-p<A>-<B>.pdf"
+  }
+ ],
+ "first_text_pdf_vol2": 936,
+ "exclude_pdf": {
+  "933": "vol. 2 title page (p. 1)",
+  "934": "vol. 2 p. 2, blank verso (placeholder)",
+  "935": "vol. 2 half-title (p. 3)",
+  "952": "vol. 2 p. 20: not in the scan (placeholder page)",
+  "953": "vol. 2 p. 21: not in the scan (placeholder page)",
+  "974": "vol. 2 p. 42: not in the scan (placeholder page)",
+  "975": "vol. 2 p. 43: not in the scan (placeholder page)",
+  "1292": "vol. 2 p. 360: not in the scan (placeholder page)",
+  "1297": "vol. 2 p. 365: not in the scan (placeholder page)",
+  "1318": "vol. 2 p. 386: not in the scan (placeholder page)",
+  "1319": "vol. 2 p. 387: not in the scan (placeholder page)",
+  "1510": "vol. 2 p. 578: not in the scan (placeholder page)",
+  "1511": "vol. 2 p. 579: not in the scan (placeholder page)"
+ },
+ "missing_printed_vol2": [
+  20,
+  21,
+  42,
+  43,
+  360,
+  365,
+  386,
+  387,
+  578,
+  579
+ ],
+ "uncertain": "PDF 1291-1298 (vol. 2 pp. 359-366): the scan's leaves here are out of order and two pages seem to be absent (360 and 365 as best read). The order used is by the header numbers as read: 359, [360 missing], 361, 362, 363, 364, [365 missing], 366. The header of 362 is smudged (could be 360 or 365). Read the text across these pages: if a page join shows that two pages are in the wrong order or that the page called missing is in fact present under another number, record it in QUESTIONS.md and archive in the order the text runs.",
+ "last_pdf": 1631
+}

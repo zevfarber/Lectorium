@@ -16,15 +16,17 @@ Printed page = PDF page - 20 for Calcutta II vol. 1.
 Refs use the PRINTED page number, as the pilot's archive does. Prints what it applied and
 every low-confidence verdict, for the LOG.
 """
-import json, sys
+import json, os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from pagemap import excluded, volume  # vol. 2 and its excluded pages (2026-11-20)
 
 PDF_TO_PRINTED = -22  # from PDF 460 on (vol. 1 scan has three duplicate leaves; check each header)
 
 def main():
     run, p0, p1, out = sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), sys.argv[4]
     V = json.load(open(f'{run}/verdicts.json', encoding='utf-8'))
-    pages = {p: json.load(open(f'{run}/p{p:03d}/pass1.json', encoding='utf-8')) for p in range(p0, p1 + 1)}
-    pass2 = {p: json.load(open(f'{run}/p{p:03d}/pass2.json', encoding='utf-8')) for p in range(p0, p1 + 1)}
+    pages = {p: json.load(open(f'{run}/p{p:03d}/pass1.json', encoding='utf-8')) for p in range(p0, p1 + 1) if not excluded(p)}
+    pass2 = {p: json.load(open(f'{run}/p{p:03d}/pass2.json', encoding='utf-8')) for p in range(p0, p1 + 1) if not excluded(p)}
     applied, low, drops, inserts = 0, [], [], []
     for v in V:
         if v.get('join'):
@@ -51,14 +53,18 @@ def main():
         pages[p].insert(0 if k is None else k + 1, L)
     lines = []
     for p in range(p0, p1 + 1):
+        if excluded(p): continue
         pp = p + PDF_TO_PRINTED
         for n, L in enumerate(pages[p], 1):
             e = {'ref': f'P{pp:02d}L{n:02d}', 't': L['t']}
             for k in ('v', 'h'):
                 if L.get(k): e[k] = True
             lines.append(e)
-    arch = {'edition': 'Macnaghten, Alif Laila vol. 1, Calcutta 1839 (Calcutta II)',
-            'scan': 'archive.org aliflailaorbooko01macn, 300 ppi',
+    v2 = volume(p0) == 2
+    arch = {'edition': f'Macnaghten, Alif Laila vol. {2 if v2 else 1}, Calcutta 1839 (Calcutta II)'
+                       + (' — vol. 2 pages are archived as 910 + the printed page number' if v2 else ''),
+            'scan': 'archive.org aliflailaorbook02unkngoog, 600 ppi bilevel, re-ordered (source/pagemap.json)' if v2
+                    else 'archive.org aliflailaorbooko01macn, 300 ppi',
             'pages': f'printed pp. {p0 + PDF_TO_PRINTED}-{p1 + PDF_TO_PRINTED} (PDF pages {p0}-{p1})',
             'method': 'Tesseract draft (tools/td/calc.traineddata) corrected against 2x line crops and page bands by one agent; independent second full transcription; disagreements adjudicated by a third agent against the images. Prose is the bare rasm as printed; verse carries the edition\'s vowel marks, hemistichs separated by " * " (v); headings and night labels marked h; trailing filler written "—".',
             'lines': lines}

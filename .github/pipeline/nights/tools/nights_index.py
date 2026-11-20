@@ -34,6 +34,12 @@ NIGHTS = os.path.dirname(HERE)
 ROOT = os.path.abspath(os.path.join(NIGHTS, "..", "..", ".."))
 ARCHIVE = os.path.join(NIGHTS, "archive")
 
+
+def _archive_key(name):
+    """Printed order, numerically (pp1001 after pp999; vol. 2 from 2026-11-20)."""
+    m = re.match(r"pp(\d+)", name)
+    return (int(m.group(1)) if m else -1, name)
+
 # The opening formula. The ordinal is one to four words: a single word up to 10 (الثانية), two
 # for the teens (الحادية عشر), two joined by و for 21–29 and the like (الحادية والعشرون), and
 # this edition's "completing" form at the round tens (الموفية للثلثين, "the one completing
@@ -137,7 +143,7 @@ def ordinal_number(ordinal):
 def load_lines():
     """Every archived line in printed order, as (ref, text)."""
     out = []
-    for name in sorted(os.listdir(ARCHIVE)):
+    for name in sorted(os.listdir(ARCHIVE), key=_archive_key):
         if not (name.startswith("pp") and name.endswith(".json")):
             continue
         with open(os.path.join(ARCHIVE, name), encoding="utf-8") as fh:
@@ -153,7 +159,7 @@ def load_records():
     (ref, text) pairs: until 2026-09-25 it dropped "v", so drafters could not see which lines
     were verse (found publishing Nights 11 and 12)."""
     out = []
-    for name in sorted(os.listdir(ARCHIVE)):
+    for name in sorted(os.listdir(ARCHIVE), key=_archive_key):
         if not (name.startswith("pp") and name.endswith(".json")):
             continue
         with open(os.path.join(ARCHIVE, name), encoding="utf-8") as fh:

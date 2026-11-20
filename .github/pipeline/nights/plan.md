@@ -305,3 +305,23 @@ in five.
    `aliflailaorbook01unkngoog` / `aliflailaorbook02unkngoog` (v.2), `aliflailaorbooko03macn`
    (v.3), `aliflailaorbooko04macn` (v.4). Check each one's own printed headers before trusting any
    page offset, as with vol. 1.
+
+## Volume 2 — connected 2026-11-20 (attended session)
+
+Volume 1's text ends at **PDF 932 = printed p. 910** (the colophon; the "938" above counted blank and
+English leaves at the end of the scan). Volume 2 is archive.org `aliflailaorbook02unkngoog`, the only
+scan of it found (Google, University of Virginia copy, 600 ppi bilevel, 1839). Google scanned it back
+to front and scanned three spreads twice; it was re-ordered into reading order, set at true page size
+(a 300 dpi render matches volume 1: line pitch ~103 px), and split into `source/calcutta2-vol2-p<A>-<B>.pdf`.
+
+- Numbering carries on: vol. 2 printed p. *n* = archive page 910 + *n* = absolute PDF page 932 + *n*,
+  so printed = PDF − 22 still holds. 699 pages: PDF 933–1631. Text starts at PDF 936 (p. 4); PDF
+  933–935 are the title leaves and are never transcribed.
+- Pages missing from the scan (each kept as a marked placeholder page, never transcribed): vol. 2
+  pp. 20–21, 42–43, 360, 365, 386–387, 578–579. Pages 359–366 are out of order in the scan; see
+  `uncertain` in `source/pagemap.json`.
+- Tools changed for it: `tools/pagemap.py` (new); archives sorted by number, not by name
+  (`pp1001` after `pp999`); `validate_archive.py` accepts four-digit pages and a page jump over a
+  missing page (as a WARN); `apply_verdicts.py` skips excluded pages and writes the vol. 2 edition
+  and scan; `vision_draft.py` reads both volumes' chunks and never sends an excluded page.
+- At eight pages a transcribing run, volume 2 is about 87 transcribing runs.

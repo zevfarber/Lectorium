@@ -14,7 +14,9 @@ adjudicator's job; the page joins (last words of page N + first words of N+1) ar
 adjudicator to read.
 Exit 0 and RESULT PASS, or exit 1 with the failures listed.
 """
-import json, re, sys, unicodedata
+import json, os, re, sys, unicodedata
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from pagemap import missing_printed  # vol. 2 pages absent from the scan (2026-11-20)
 
 MARKS = set('ًٌٍَُِّْٰ')
 
@@ -30,11 +32,14 @@ def main():
     last_pp, last_ll, pages = None, 0, []
     for L in lines:
         ref, t = L.get('ref', ''), L.get('t', '')
-        m = re.fullmatch(r'P(-?\d{2,3})L(\d{2})', ref)
+        m = re.fullmatch(r'P(-?\d{2,4})L(\d{2})', ref)
         if not m: fails.append(f'bad ref {ref!r}'); continue
         pp, ll = int(m.group(1)), int(m.group(2))
         if pp != last_pp:
-            if last_pp is not None and pp != last_pp + 1: fails.append(f'page jump {last_pp}->{pp}')
+            if last_pp is not None and pp != last_pp + 1:
+                skipped = set(range(last_pp + 1, pp))
+                if skipped <= missing_printed(): warns.append(f'page jump {last_pp}->{pp} over page(s) missing from the scan: {sorted(skipped)}')
+                else: fails.append(f'page jump {last_pp}->{pp}')
             if ll != 1: fails.append(f'{ref}: page does not start at L01')
             pages.append(pp); last_pp, last_ll = pp, 0
         if ll != last_ll + 1: fails.append(f'{ref}: line numbering gap')
@@ -47,7 +52,7 @@ def main():
     if prev:
         pd = json.load(open(prev, encoding='utf-8'))
         pprev = max(int(re.match(r'P(-?\d+)', L['ref']).group(1)) for L in pd['lines'])
-        if pages and pages[0] != pprev + 1:
+        if pages and pages[0] != pprev + 1 and not set(range(pprev + 1, pages[0])) <= missing_printed():
             fails.append(f'archive starts at printed p. {pages[0]}, previous archive ends at p. {pprev}')
     # page joins, for the eye
     byp = {}

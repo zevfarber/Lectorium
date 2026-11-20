@@ -3,6 +3,7 @@
 
     python3 r3.py next                     which work and part this firing takes (reads queue-run3.txt)
     python3 r3.py next run4                the same for Run 4 (reads queue-run4.txt)
+    python3 r3.py next main                the same for the shared text pipeline (reads queue.txt)
     python3 r3.py claim   <work> <id> <phase>
     python3 r3.py release <work> <id>
     python3 r3.py establish-packet <work> <id>   scan-based parts: what to read, and the OCR draft
@@ -28,7 +29,10 @@ QUEUE = os.path.join(R.PIPE, 'queue-run3.txt')
 
 def queue(name=None):
     out = []
-    path = os.path.join(R.PIPE, 'queue-%s.txt' % name) if name else QUEUE
+    if name == 'main':                # the shared text pipeline's queue.txt (2026-11-20: works built on this
+        path = os.path.join(R.PIPE, 'queue.txt')   # machinery may sit on it; works without work.json are DONE there)
+    else:
+        path = os.path.join(R.PIPE, 'queue-%s.txt' % name) if name else QUEUE
     for line in open(path, encoding='utf-8'):
         line = line.split('#', 1)[0].strip()
         if line:
@@ -37,7 +41,7 @@ def queue(name=None):
 
 
 def cmd_next(name=None):
-    if name and not __import__('re').fullmatch(r'run\d+', name):
+    if name and not __import__('re').fullmatch(r'run\d+|main', name):
         R.die('unknown queue', name)
     for w in queue(name):
         if os.path.exists(os.path.join(R.PIPE, w, 'DONE')):

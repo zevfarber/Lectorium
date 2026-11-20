@@ -18,6 +18,9 @@ import re
 
 WORD_CLASS = (
     'A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ̀-ͯḀ-ỿ'
+    # Latin Extended-D: the Popol Vuh manuscript's colonial letters ꜩ ꜫ ꜭ ꜯ are letters inside a word
+    # (reader.html since 2026-10-26; copied here 2026-11-20, when the Popol Vuh went on the queue).
+    '\uA720-\uA7FF'
     # Greek, Cyrillic, Greek Extended, Mongolian + its invisible shaping controls
     'Ά-ϿЀ-ӿἀ-῿ᠠ-ᡷ᠋-᠎'
     # Arabic: letters, tatweel and tashkil (part of the word); not U+0600-061F, not digits/punct.
@@ -27,6 +30,8 @@ WORD_CLASS = (
     # Hebrew: letters, vowel points and accents (part of the word), geresh/gershayim (abbreviations);
     # not maqaf U+05BE, paseq U+05C0, sof pasuq U+05C3. Mirrors reader.html (2026-10-08).
     '\u0591-\u05BD\u05BF\u05C1\u05C2\u05C4\u05C5\u05C7\u05D0-\u05EA\u05F0-\u05F4'
+    # Phoenician letters U+10900-1091B (reader.html matches them as surrogate pairs); not the divider U+1091F.
+    '\U00010900-\U0001091B'
 )
 HAN_CLASS = '㐀-䶿一-鿿豈-﫿'
 WORD_RE = re.compile('[' + HAN_CLASS + ']|[' + WORD_CLASS + ']+(?:[-\\[\\]()][' + WORD_CLASS + ']+)*')

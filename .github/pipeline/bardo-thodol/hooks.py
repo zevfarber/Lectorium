@@ -102,20 +102,30 @@ Start: {start}
 Pages: {leaves} (page p is leaf n(p+1); the last one only to finish a sentence that runs over the edge of
 p. {p['last_page']}).
 
-Procedure (the image decides every letter):
-1. Read each page line by line, enlarging (crop one line at a time and scale ×3; ×5 for a doubtful syllable).
+Procedure (the image decides every letter; the witness tells you what to look for):
+1. The witnesses are stored here, so no network is needed:
+   - `source/raw/dzogchengonpa-kha.txt` — a transcription of THIS print, text kha, ONE PRINT LINE PER LINE
+     (a line beginning ༄༅༔ ༔ starts a leaf front). It is close to the print but has typing errors
+     (e.g. མཐབ for མཐའ, ལོངས་སྤྲོད for ལོངས་སྤྱོད, བཞུངས for བཞུགས). For text kha it is your working copy.
+   - `source/raw/bowiki-other-recension.txt` — another recension; it goes on through the wrathful deities
+     (text ga). For ga it is the guide to what a line says, never to how this print spells it.
+2. Find the start point in the witness. Then, page by page: each page has FIVE print lines (count them on the
+   image; a page that begins a leaf front opens with ༄༅༔ ༔). Crop one line at a time from the image, enlarge
+   ×3 (×5 for a doubtful syllable), and check the witness line against it syllable by syllable. Where they
+   differ, the image decides; where the image is unclear and the witness is plausible, take the witness and
+   put `[?]` after the syllable. For text ga, read the image line by line with the other recension open: it
+   tells you which words to expect, so a smudged syllable is a choice between candidates, never a guess.
    Write each print line as one line of the file, under a {{page}} marker, exactly as printed: tsheg, ༔ and །
-   where the print has them, the line-end abbreviations as printed (པའཾ, ལཾ), the opening ornament ༄༅༔ ༔ if
-   a page begins with it. Put `[?]` after any syllable you are not sure of.
-2. Check your reading against the dzogchengonpa.org transcription of this same print and the bo.wikipedia.org
-   text of another print if this sandbox can reach them; they find your place and flag a misread syllable, but
-   the image decides. If they cannot be reached, say so in the log and read with extra care.
+   where the print has them, the line-end abbreviations as printed (པའཾ, ལཾ), the opening ornament ༄༅༔ ༔ where
+   a page begins with it.
 3. Stop at the last ༔ or ། that closes a sentence on p. {p['last_page']}, or finish the sentence from the next page.
 4. Add `# fix:` lines for what the text will give differently from the print: each line-end abbreviation
    written out (`# fix: པའཾ => པའམ`), a tsheg missing where two print lines join (`# fix: རྣམསབར => རྣམས་བར`),
    and a clear misprint (README rule 5b; the note must name it). Nothing else.
-5. Log every doubtful reading, every misprint, every place the other print differs in sense, in
-   `drafts/{p['id']}/establish-log.md`; the drafter turns them into notes.
+5. Log every place the image overruled the witness, every `[?]`, every misprint, every place the other
+   recension differs in sense, in `drafts/{p['id']}/establish-log.md`; the drafter turns them into notes.
+   A page you still cannot read with the witness beside it is a README rule 7 gap: the smallest stretch
+   possible, logged, and the part goes on — never block the whole work for it.
 6. Write `source/established/{p['id']}.txt` with the header lines `# name:` (a short English name for the
    library: what this stretch says, e.g. "The second bardo: when the clear light is not recognised") and
    `# pages: {p['pages']}` (adjusted if it ran over), the `# fix:` lines, then the page-marked lines. Pin it:

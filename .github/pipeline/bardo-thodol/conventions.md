@@ -16,7 +16,8 @@ A traditional blockprint carries no modern editor's work, so the pre-1930 rule i
 blocks themselves. Evans-Wentz 1927 printed no Tibetan, and there is no pre-1930 Western edition
 of the Tibetan text.
 
-Control witnesses, never the text and never copied:
+Control witnesses, never the text and never copied (both stored in `source/raw/` since 2026-11-20, because
+unattended runs cannot reach either site):
 - dzogchengonpa.org, a line-by-line transcription of this same print with its page numbers (many
   typing errors; good for finding one's place);
 - the text at bo.wikipedia.org (ཆོས་ཉིད་བར་དོའི་གསལ་འདེབས་ཐོས་གྲོལ་ཆེན་མོ་), another recension,

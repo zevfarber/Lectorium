@@ -76,13 +76,18 @@ Each image is the K'iche' (left) column of one manuscript page, background flatt
 the right-hand column of the original and is not in these crops.
 
 Procedure (the image decides every letter):
-1. Read the column in strips (crop about six lines at a time and enlarge 2–3×, e.g. with PIL), top to bottom,
-   image by image, from the start point to the last full stop on image {p['last_image']:04d} (or, if the
-   sentence runs on, to its end on the next image). Write the letters as Ximénez wrote them: c/qu, v, z, h, b,
-   doubled vowels, and the colonial letters ꜩ ꜯ ꜭ ꜭh ꜫ (capitals Ꜩ Ꜯ Ꜭ Ꜫ). Where the hand is ambiguous between
-   ꜭ, ꜫ, g, q, c, look up the same passage in Brasseur 1861 (`source/raw/brasseur1861_djvu.txt`, OCR; his
-   q = ꜭ, his g = ꜫ; search for a distinctive name or word near the spot) to choose between letters only —
-   Brasseur is never the text.
+1. Brasseur de Bourbourg's 1861 edition is a transcription of THIS manuscript, stored here as OCR
+   (`source/raw/brasseur1861_djvu.txt`; K'iche' paragraphs with his French translation and notes mixed in).
+   Find the start point in it (search for a distinctive word or name); his text tells you what each line of
+   the image should say. Then read the column in strips (crop about six lines at a time and enlarge 2–3×, e.g.
+   with PIL), top to bottom, image by image, and write what Ximénez wrote, checking every word against
+   Brasseur. The differences you must expect and always resolve in favour of the image: Brasseur prints q for
+   ꜭ, g for ꜫ, tz for ꜩ, separates prefixes with hyphens (x-qui nohih) and apostrophes (r'utzinic), and
+   normalises spelling; the OCR adds its own errors. Write the letters as Ximénez wrote them: c/qu, v, z, h,
+   b, doubled vowels, and the colonial letters ꜩ ꜯ ꜭ ꜭh ꜫ (capitals Ꜩ Ꜯ Ꜭ Ꜫ). Where the image is unclear,
+   take the letter Brasseur's reading implies and log it. Brasseur is never the text: his word order,
+   additions or omissions against the image are logged and the image followed. A line still unreadable with
+   Brasseur beside it is a README rule 7 gap — the smallest stretch possible, logged; never block the work.
 2. Words Ximénez runs together across a line break are divided; particles he joins to a word are divided as
    the conventions say. A word he adds above the line is printed in place (note it in the log).
 3. Punctuation, capitals and quotation marks are ours (“ ” around direct speech). Capitals: sentence start,

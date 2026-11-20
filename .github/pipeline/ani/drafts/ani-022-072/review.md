@@ -31,3 +31,30 @@ Re-check after editing: units.json parses. The 562 sign codes, in order across a
 - U17 wr n iwf 'a great portion of meat' against Budge's "meat" for ur: the swallow writes wr, and the 125 rubric reads the same phrase the same way. Kept.
 - Joins and splits (U0 ḥtp-nṯr, mꜣꜥ-ḫrw / n·f; U1 wbn·kwi; U2 rdi·w / n·i; U7 ind-ḥr·k kept whole because the cobra stands after the face; U9 ꜣḫ·kwi): each is stated in its note, and q is correctly re-indexed. Kept.
 - Budge-isms: no "triumphant", "homage", "saith", "thee", "bond of regularity" or "victorious" remain in l / i. Budge's words appear only in the notes, quoted as his.
+
+## Pass 2
+
+Changes are listed as U<n>/gloss · field · severity · what was wrong · what was done. Units are numbered from 0. All edits were made by script (/tmp/claude-0/reviewer2/edit.py), and the script asserts each old value before it replaces it.
+
+- gloss smꜣw · major · "perhaps 'joined, unbroken' … from smꜣ 'to unite, join'" invents a sense and a derivation, and it carried the occurrence phrase into the lemma · now "a word qualifying darkness, kkw smꜣw, perhaps 'deep, utter darkness' (?) (written with the sign smꜣ 'unite'; form and meaning uncertain; Budge: samau, 'darkness')".
+- gloss ḥꜣ · minor · "from the noun ḥꜣ 'back'" is an etymology that cannot be checked, and "ḥꜣ·k 'behind you'" pinned the entry to this occurrence · now "ḥꜣ — behind, around, about (preposition; Budge: ḥa)".
+- gloss qrsw · minor · "from qrs 'to bury'" stated a derivation as fact · now "(noun m.; the w often not written; cf. qrs 'to bury'; Budge: qeres)".
+- gloss tpy-ꜥ · minor · "literally 'those who were before'; the blessed dead who went before" is an invented literal sense plus this occurrence's lore · now "forebear, predecessor (noun; written with tp 'head' and the arm ꜥ; plural tpyw-ꜥ 'ancestors'; Budge: ṭepu-ā)".
+- gloss sšp · minor · "reading doubtful, the signs give šsp" belongs to the U7 note (where it already stands), not to the lemma. The gender "m." was also unverified · now "sšp — light, brightness (noun; Budge: seśep, 'radiance')".
+- gloss nsrt, šms, ḥwt, nbdt · style · each was pinned to this occurrence ("š nsrt 'the Pool of Flame'…; reading not sure"; "sign identification not sure here"; "used of the great house of a god"; "read from its fire classifier only") · these phrases were dropped or made general. šms keeps the idiom šms ib "follow one's heart, do as one wishes", which is a sense of the lemma.
+- gloss kkw, swḥt · style · Budge's spelling was missing (conventions) · added (keku, suḥt).
+- gloss __broaden__ dni · minor · The noun "share, portion" was attached to the verb with "also", and it carried "dni·k 'your share'" · now "a second word of the same spelling: share, portion (?) (noun; Budge: ṭenà, 'portion')".
+- gloss __broaden__ ḫt · minor · "tp ḫt 'on top of the stairs'" pinned the entry to this occurrence, and the sense was given without Budge · now "a third word: stairway, terrace (?) (noun; written with the stairway sign; Budge: χet, 'steps')".
+- gloss __broaden__ wḏ · style · "the masculine noun wḏ … (from the verb)" · now "also wḏ 'command, decree' (noun m.)". The tp entry is accepted as it stands. All four __broaden__ values begin with the known entry copied whole, followed by " · " (checked by script).
+- U16 · words[st] glyph X1 role · minor · coded phon. Q1 already carries st, so t is its complement, as the published 125 introduction codes it · role → comp.
+- U7 · n · minor · The ḥry-tp sentence explained the unread t by agreement with ḥwt, which a noun title cannot show. Budge's alternative was not given, and "deep, unbroken darkness" repeated the invented gloss · the t is now "perhaps a feminine ending written by attraction to ḥwt". Budge's grouping is added: ḥwt ḥrt 'the Upper Mansion' would leave the head and the god sign with no place. "unbroken" was dropped.
+- U14 · words[ir·tw·s] say · style · "irtus"; the house pattern is ·tw·f → -tuef, so ·tw·s → -tues · "irtues".
+
+Items left from pass 1, now settled:
+- ḥry-tp / ḥwt ḥrt (U7): ḥry-tp is kept. It accounts for every sign except the t, and the god classifier suits a title of a divine person. ḥwt ḥrt accounts for the t but leaves D1, Z1 and A40 unexplained. The reading stays marked doubtful, and the note now gives both.
+- sšp (U7): kept as it is: O42 tr "šsp", reading sšp, with the doubt in the note. Whether O42 alone can write sšp cannot be checked without a lexicon.
+- E23 in šnꜥ·tw·f (U16): kept as phon "rw" with the note "not read". This follows house practice (published 001-b codes and describes the same word in the same way, and the 001-b pass 1 rule lets a surplus sign keep phon tr with a "not read" note).
+
+Fresh re-read of units.json: I checked l against the Egyptian, i against l, the grammatical labels, names, say forms, rubric and restored flags, and the ln and p values. I found nothing further.
+
+Re-check: units.json and gloss.json parse. The sign sequence still equals the packet's w0..w178 (562 signs). Morph coverage is exact. Every morph lemma has an entry in known-lemmas.json or in gloss.json. Every gloss key is used.

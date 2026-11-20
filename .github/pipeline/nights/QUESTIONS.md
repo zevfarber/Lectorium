@@ -1857,3 +1857,16 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, with notes: P776L18 (verse) يَعْقِبُ (sense wants yuʿqibu); P778L08 فَزَعَتْ (usual faziʿat); P778L10 اَسْطُرَ (fatḥa where genitive and rhyme want -ri; nearest to a misprint, but it is the print's verse pointing); P778L12 الْقِوَامِ (usually qawām); P777L20 وبكي.
 - Library label: `Night 157 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
 - Nothing to decide. Nights 158 and 159 are complete and unpublished; P781L18 يأنيني (noted by the transcription run) is for Night 159's publisher to judge.
+
+## Night 158 (P779L08–P780L21, published 2026-11-20)
+- No misprints corrected (emend.json unchanged).
+- Kept as printed, with notes:
+  - P779L16 وقبلّها: the print's shadda sits on the lām; it is kept there, the bāʾ's shadda is supplied, and the word is read qabbalahā. The note says where the printed mark stands.
+  - P779L18 هذة: ة for ه, kept per Night 157.
+  - P780L04 قطما: read as qaṭṭu mā run together; the spacing is kept.
+  - P780L07 ثاير, P780L05 هنيا, P780L10 لاتطفى: hamza dropped (thāyir, haniyyan, tuṭfī); noted.
+  - P779L22 (verse) تَغْفَلُ: who is heedless is uncertain ("you" or the eye); the note gives both.
+  - P780L14 دفعتها: read as first person ("I handed it"), following قرأتُها; the narration slides back to the third person at P780L19 (وخرج ابوالحسن), noted.
+- The poem P779L19–P780L01 is treated as the opening of Shams al-Nahār's letter, which runs on through the rhymed prose to the couplet at P780L12.
+- Library label: `Night 158 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
+- Nothing to decide. Night 159 is complete and unpublished, so the next firing should publish it; P781L18 يأنيني is for that run to judge.

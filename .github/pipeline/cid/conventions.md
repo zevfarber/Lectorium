@@ -50,6 +50,7 @@ from the *Crónica de Veinte Reyes*.
 - House renderings: v. 20 "God, what a good vassal — if only he had a good lord!"; Padre spirital "the spiritual Father"; Minaya Albar Fáñez "Minaya Álvar Fáñez" in `i` (Albar kept in `l`); the *en buen ora* formula
   "in a good hour you girded on your sword" (and its variants: "born in a good hour").
 - Bavieca (the Çid's horse, first at v. 1573) "Babieca" in `i` (Bavieca kept in `l`), from cid-tiradas-84-86.
+- Yúcef, king of Marruecos (first at v. 1621) "Yúsuf" in `i` (Yúcef kept in `l`); Marruecos "Morocco" in `i`, from cid-tiradas-87-90.
 - Never bowdlerize.
 
 ## Glossary

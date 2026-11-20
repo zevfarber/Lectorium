@@ -1850,3 +1850,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Low confidence: P779L16 وقبلّها (shadda between ب and ل, nearer the lam).
 - Two Pass-1 agents (PDF 804, 806) read only some line crops and took the rest from the bands. Their dispute counts (9, 6) were normal, so they were not rerun; noted in case it recurs.
 - Nights 157, 158 and 159 are now complete and unpublished; the next three firings should publish them.
+
+## Night 157 (P776L11–P779L07, published 2026-11-20)
+- Misprints corrected (emend.json): P776L19 (verse) اصَّبْرِ → الصَّبْرِ (dropped lām, "the ropes of patience"); P777L09 آكتمي → اكتمي (stray madda on the imperative uktumī).
+- ة written for the pronoun ه (خبرة, امرة, عندة ×4, جسدة, شعرة, هذة ×2) kept as printed and noted, following Night 152 and the conventions' list of the edition's spelling habits; Night 156's دارة → داره was emended. The two precedents differ; I followed the majority (keep) because the habit is pervasive on these pages. If the owner prefers these emended, it is a list of ten entries.
+- Kept as printed, with notes: P776L18 (verse) يَعْقِبُ (sense wants yuʿqibu); P778L08 فَزَعَتْ (usual faziʿat); P778L10 اَسْطُرَ (fatḥa where genitive and rhyme want -ri; nearest to a misprint, but it is the print's verse pointing); P778L12 الْقِوَامِ (usually qawām); P777L20 وبكي.
+- Library label: `Night 157 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
+- Nothing to decide. Nights 158 and 159 are complete and unpublished; P781L18 يأنيني (noted by the transcription run) is for Night 159's publisher to judge.

@@ -1776,3 +1776,12 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Shared glossary amended for this night's uses, no existing sense removed: زَادُ (adds the split name يَا شَهْرَ زَادُ), شَهْرَ, لِأَ, عِنْدَةُ, عِنْدِةِ.
 - Library label: `Night 152 · The Fox and the Crow ends / The Hedgehog and the Ringdove / The Thief and His Ape / The Sparrow and the Peacock`. The sparrow-and-peacock fable ends in this night (Night 153 opens a new tale at P760L20). Title follows the night's longest new tale, حكاية القنفذ والورشان.
 - Nothing to decide. Next: night 153 is not yet complete; the next firing should transcribe.
+
+## PDF 783–790 (printed pp. 761–768, transcribed 2026-11-20)
+- Night 153 closes at P766L21, and Night 154's label is on its own centred line at P767L01. I set h on that label by hand. Night 153 (P760L20–P766L21, 133 lines) is complete and unpublished, so the next firing should publish it.
+- Lines the detector dropped, recovered from the bands by both passes: P761L13 فيها الشاعر, P761L21 ولسان الحال يقول, P764L05 (verse).
+- Lines read from the bands only: pass 1 on p. 765 and both passes on p. 767 read most lines without opening their 2x crops. The adjudicator then checked p. 767's prose lines against the crops, and they matched. It corrected one line both passes agreed on: P767L04 الابيات (the long stroke is a kashida, not a filler dash).
+- Misprints kept as printed (both passes and the adjudicator agree), for the publishing run: P762L15 الاتمار (for الاقمار); P764L08 زبديني (for زيديني); P764L16 سَلَتْنِي (for سلبتني); P765L12 ورشّشن; P767L14 بَدَيْكَ (for يديك).
+- Low confidence: P767L17 آالهُ (the print sets آ, then ا, then a single-lam له; both passes wrote آاللّهُ). Medium confidence: P764L06 اَرَدَّتَّ, P767L05 مَافِى, P767L15 الَّتِى.
+- Spacing: P761L22 فَعَزِّا لْفُوَادَ is kept as printed. On P768L17 the adjudicator thought the print may run اميرالمؤمنين together, but nobody disputed it, so the agreed spaced form stands.
+- Nothing to decide.

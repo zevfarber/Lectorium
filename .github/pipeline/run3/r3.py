@@ -46,6 +46,11 @@ def cmd_next(name=None):
     for w in queue(name):
         if os.path.exists(os.path.join(R.PIPE, w, 'DONE')):
             continue
+        if not os.path.exists(os.path.join(R.PIPE, w, 'work.json')):
+            # a work with its own pipeline (queue.txt mixes both kinds since 2026-11-20)
+            print(f'WORK {w}\nOWN-RUNBOOK this work has its own pipeline: read .github/pipeline/{w}/runbook.md '
+                  f'and follow it from its first step instead of run3/RUNBOOK.md')
+            return
         p, action = R.next_part(w)
         if p is None:
             parts = R.parts_doc(w)['parts']

@@ -6,7 +6,7 @@ on the Run 3 machinery, because its text has to be read from blockprint images f
 **Follow `../run3/RUNBOOK.md` exactly, with one change: wherever it says `R3 next`, run
 `python3 ../run3/r3.py next main`** (it reads `queue.txt`). Everything else — claims, the two actions,
 the three roles and their models, build, validate, publish, "If something is wrong" — is as written there.
-Run every command from this folder. Read `conventions.md` before anything else.
+Run every command from this folder. If `r3.py next main` answers `OWN-RUNBOOK` (this work is blocked or finished and the next work on `queue.txt` has its own pipeline), read that work's `runbook.md` and do its job instead; this work waits. Read `conventions.md` before anything else.
 **First, `pip install pyewts`** (`python3 -c "import pyewts"` to check): `tib.py` needs it for the letters
 and the pronunciation line, and the build cannot run without it.
 

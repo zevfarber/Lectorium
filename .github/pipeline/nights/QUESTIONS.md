@@ -1785,3 +1785,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Low confidence: P767L17 آالهُ (the print sets آ, then ا, then a single-lam له; both passes wrote آاللّهُ). Medium confidence: P764L06 اَرَدَّتَّ, P767L05 مَافِى, P767L15 الَّتِى.
 - Spacing: P761L22 فَعَزِّا لْفُوَادَ is kept as printed. On P768L17 the adjudicator thought the print may run اميرالمؤمنين together, but nobody disputed it, so the agreed spaced form stands.
 - Nothing to decide.
+
+## Night 153 (P760L20–P766L21, published 2026-11-20)
+- Misprints corrected (emend.json): P762L05 تأني → تأتي; P762L15 الاتمار → الاقمار (the same simile, كانهن الاقمار, stands at P761L09–10); P764L08 زبديني → زيديني.
+- Kept as printed with notes (doubtful): P761L02 واله (probably ولده, "his son", but more than a dot away; the translation brackets "[his son]"); P761L19 صدك (read ṣaddaka, "towards you"; perhaps قصدك); P763L15 يحيل (for يحول); P765L14 جانب سرير (no article). Verse kept as printed with the likely reading in the note: P761L14 نَذْرُ (for نَزْر), P764L01 الرِّسَالَةً, P764L02 اَشْكُوْحَا لِيَهْ, P764L04 عَارِبَهْ (for عَارِيَة), P764L16 سَلَتْنِي / شَلَتْنِي (the least certain reading in the night), P764L17 تَحْوَى.
+- Shared glossary: three existing entries named a bi- sense that does not fit this night's use. I added a sense to each and removed nothing: بِعَشْرِ (bi- after idhā of surprise), بِالْبَابِ ("at the door"), بِقُبْلَةٍ (the gift bestowed after anʿama ʿalā).
+- Library label: `Night 153 · ʿAlī ibn Bakkār and Shams al-Nahār`. The title follows the running header, حكاية علي بن بكار مع شمس النهار. The night opens the tale fresh, so the label has no "begins".
+- Process note: the draft was first parked on the development branch claude/zen-hopper-tklt7x (pre-review), because a stop hook asked for uncommitted work to be pushed and pushing to main would have published the night before its review. That branch holds only that draft and can be deleted.
+- Nothing to decide. Next: night 154 is not yet complete (tail unread), so the next firing should transcribe.

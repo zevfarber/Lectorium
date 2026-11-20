@@ -48,6 +48,12 @@ def cmd_next(name=None):
             continue
         if not os.path.exists(os.path.join(R.PIPE, w, 'work.json')):
             # a work with its own pipeline (queue.txt mixes both kinds since 2026-11-20)
+            pj = os.path.join(R.PIPE, w, 'parts.json')
+            if os.path.exists(pj):
+                st = [q.get('status') for q in R.jload(pj).get('parts', [])]
+                if st and all(x in ('published', 'blocked') for x in st) and 'blocked' in st:
+                    print(f'SKIP {w}: only blocked parts are left — see its QUESTIONS.md; going on')
+                    continue
             print(f'WORK {w}\nOWN-RUNBOOK this work has its own pipeline: read .github/pipeline/{w}/runbook.md '
                   f'and follow it from its first step instead of run3/RUNBOOK.md')
             return

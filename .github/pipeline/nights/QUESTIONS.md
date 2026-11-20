@@ -1793,3 +1793,20 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Library label: `Night 153 · ʿAlī ibn Bakkār and Shams al-Nahār`. The title follows the running header, حكاية علي بن بكار مع شمس النهار. The night opens the tale fresh, so the label has no "begins".
 - Process note: the draft was first parked on the development branch claude/zen-hopper-tklt7x (pre-review), because a stop hook asked for uncommitted work to be pushed and pushing to main would have published the night before its review. That branch holds only that draft and can be deleted.
 - Nothing to decide. Next: night 154 is not yet complete (tail unread), so the next firing should transcribe.
+
+## PDF 791–798 (printed pp. 769–776, transcribed 2026-11-20)
+- Night 154 closes at P772L02. Nights 155 (P772L03–P774L04) and 156 (P774L05–P776L10) fall entirely within this batch. Night 157's label is on P776L11. All three labels sit on their own lines, and all three have h; I set the h on P772L03 and P774L05 by hand. Three nights, 154–156, are now complete and unpublished, so the next three firings should publish them.
+- I overrode the adjudicator twice, in favour of what is printed. In both places the adjudicator chose the intended word and read it as a broken letter. I checked both 2x crops myself, and both show the misprint plainly:
+  - P773L21: the print has خرنا, a misprint for خوفا.
+  - P774L03: the print has ننسه, a misprint for نفسه.
+  Both are for the publishing run's emend.json under rule 5b.
+- Also for the publishing run:
+  - P775L09 حافقة: the print has no dot, and the sense is خافقة. The adjudicator kept it as printed.
+  - P776L19 اصَّبْرِ: the print has no lam, for الصَّبْرِ. Both passes agree.
+  - P776L08 لِلدَمْعِي: the print has two lams.
+- Low confidence:
+  - P773L18 حَبِيبْ: the type is damaged at the end of the line. The other pass read حَاسِبْ.
+  - P775L02 قَالَتْ: the lam is damaged, but its fatha is printed.
+  - P776L08 بُعْدِي: the damma is faint.
+- Spacing: the print joins ابوالحسن throughout p. 773, and also السعيدان, بكاريا, فبينماهم and لابدان. All of these are kept joined as printed.
+- Nothing to decide.

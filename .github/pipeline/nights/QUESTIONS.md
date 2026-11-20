@@ -1833,3 +1833,13 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
   - P773L04 ادري: read as the elative adrā, "better acquainted", because of the following min ghayrī. The note gives adrī, "I know", as the alternative.
 - Library label: `Night 155 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
 - Nothing to decide. Night 156 is complete and unpublished, so the next firing should publish it.
+
+## Night 156 (P774L05–P776L10, published 2026-11-20)
+- Misprints corrected (emend.json): P774L09 دارة → داره ("his house", ة for ه, as in earlier nights); P775L09 حافقة → خافقة ("fluttering", ح for خ).
+- Kept as printed, with notes:
+  - P774L21 (verse) نَارَتْ / نَقَشْ: the sense and the parallel with تَنَلْهُ point to نالت, and the metre wants the noun naqshan. The pointing is the print's own, so it is kept and the note gives the likely reading.
+  - P776L08 (verse) لِلدَمْعِي: probably a doubled lām for لِدَمْعِي, "for my tears". Kept, read li-damʿī, and noted.
+  - P774L11 ملقي: the print's ي for ى (mulqan, "lying"). Noted.
+  - P776L09 الصفة: read as al-ṣuffa, "the dais". Noted.
+- Library label: `Night 156 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
+- Nothing to decide. Night 157 is still incomplete (its tail is unread), so the next firing should transcribe.

@@ -26,7 +26,7 @@
 | cid-tiradas-83-83b | The Cid's escort and Avengalvón meet the ladies at Medinaceli | tiradas 83–83, lines 1453–1526 | published |
 | cid-tiradas-84-86 | Through Molina to Valencia; the Cid rides Babieca to greet his family | tiradas 84–86, lines 1527–1609 | published |
 | cid-tiradas-87-90 | The ladies look out over Valencia; King Yúsuf lands from Morocco | tiradas 87–90, lines 1610–1656 | published |
-| cid-tiradas-91-94 | Jimena reassured; the battle plan; the bishop asks for the first blows | tiradas 91–94, lines 1657–1710 | todo |
+| cid-tiradas-91-94 | Jimena reassured; the battle plan; the bishop asks for the first blows | tiradas 91–94, lines 1657–1710 | established |
 | cid-tiradas-95-95 | The battle against Yúsuf and the great spoil | tiradas 95–95, lines 1711–1798 | todo |
 | cid-tiradas-96-101 | Minaya brings the king a gift; royal favour; the Infantes plan the marriages | tiradas 96–101, lines 1799–1884 | todo |
 | cid-tiradas-102-102 | The king proposes the marriages and a meeting with the Cid | tiradas 102–102, lines 1885–1958 | todo |

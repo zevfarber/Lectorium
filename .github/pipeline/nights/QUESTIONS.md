@@ -1843,3 +1843,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
   - P776L09 الصفة: read as al-ṣuffa, "the dais". Noted.
 - Library label: `Night 156 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
 - Nothing to decide. Night 157 is still incomplete (its tail is unread), so the next firing should transcribe.
+
+## PDF 799–806 (pp. 777–784, transcribed 2026-11-20)
+- Hand corrections after adjudication (from the images): P779L18 هذة (both passes had هذه; the print dots it); h added to the night labels P779L08 and P783L18; h removed from the verse introducer P778L05 وقول الآخر (precedent P767L12).
+- Adjudicator kept as printed: P781L18 يأنيني (one dot above; sense wants يأتيني) — a possible misprint for the publishing run to judge. P778L15 the passes read طلمع/وام; the adjudicator found the print has طلع and ولم (a broken lam join), so no misprint there.
+- Low confidence: P779L16 وقبلّها (shadda between ب and ل, nearer the lam).
+- Two Pass-1 agents (PDF 804, 806) read only some line crops and took the rest from the bands. Their dispute counts (9, 6) were normal, so they were not rerun; noted in case it recurs.
+- Nights 157, 158 and 159 are now complete and unpublished; the next three firings should publish them.

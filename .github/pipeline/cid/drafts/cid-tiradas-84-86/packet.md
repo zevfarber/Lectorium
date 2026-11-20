@@ -1,0 +1,101 @@
+# Packet — cid-tiradas-84-86: Through Molina to Valencia; the Cid rides Babieca to greet his family
+
+Tiradas 84–86, Pidal lines 1527–1609 (Cantar II (Bodas)).
+The established text below is pinned. A unit's `t` is one or more consecutive verses joined by "\n", cut by script.
+Flags: Pidal transposes lines here (print order differs from numeric order); no OCR text for: 1606
+
+
+## tirada 84
+
+1527	Sorrisós de la boca Álbar Fáñez Minaya:
+1528	“Ya Ave[n]galvón, amigol sodes sin falla!
+1529	Si Dios me llegare al Çid e lo vea con el alma,
+1530	desto que avedes fecho vos non perderedes nada.
+1531	Vayamos posar, ca la çena es adobada.”
+1532	Dixo Avengalvón: “plazme desta presentaja;
+1533	antes deste terçer día [a] vos la daré doblada.”
+1534	Entraron en Medina, sirvíalos Minaya,
+1535	todos fueron alegres del çerviçio que tomara[n],
+1536	el portero del rey quitar lo mandava;
+1537	ondrado es mio Çid en Valençia do estava
+1538	de tan grand conducho commo en Medinal sacara[n];
+1539	el rey lo pagó todo, e quito se va Minaya.
+1540	Passada es la noche, venida es la mañana,
+1541	oída es la missa, e luego cavalgavan.
+1542	Salieron de Medina, e Salón passavan,
+1543	Arbuxuelo arriba privado aguijavan,
+1544	el campo de T[a]ranz luégol atravessavan,
+1545	vinieron a Molina, la que Ave[n]galvón mandava.
+1546	El obispo don Jero[me] buen cristiano sin falla,
+1547	las noches e los días las dueñas aguarda[va];
+1548	e buen cavallo en diestro que va ante su[e]s armas.
+1549	Entre él e Álbar Fáñez hivan a una compaña.
+1550	Entrados son a Molina, buena e rica casa;
+1551	el moro Ave[n]galvón bien los sirvié sin falla,
+1552	de quanto que quisieron non ovieron falla,
+1553	aun las ferraduras quitar gelas mandava;
+1554	a Minaya e a las dueñas ¡Dios cómmo las ondrava!
+1555	Otro día manaña luego cavalgavan,
+1556	fata en Valençia sirvíalos sin falla;
+1557	lo so despendié el moro, que de[l]los non tomava nada.
+1558	Con estas alegrías e nuevas tan ondradas
+1559	aprés son de Valençia a tres leguas contadas.
+1560	A mio Çid, el que en buen[a] [çinxo espada],
+1561	dentro a Valençia el mandád[ol] [leva]van.
+
+## tirada 85
+
+1562	Alegre f[o] mio Çid, que nunqua más nin tanto,
+1563	ca de lo que más amava yál viene el mandado.
+1564	Doz[ien]tos cavalleros mandó exir privado,
+1565	que reçiban a Minaya e a las dueñas fijas dalgo;
+1566	él sedíe en Valençia curiando e guardando,
+1567	ca bien sabe que Álbar Fáñez trahe todo recabdo;
+
+## tirada 86
+
+1568	afevos todos aquestos reçiben a Minaya
+1569	e a las dueñas e a las niñas e a las otras conpañas.
+1570	Mandó mio Çid a los que ha en su[e] casa
+1571	que guardassen el alcáç[e]r e las otras torres altas
+1572	e todas las puertas e las exidas e las entradas,
+1573	e aduxiéssenle a Bavieca; poco avié quel ganara
+1573b	d'aquel rey de Sevilla e de la sue arrancada,
+1574	aun non sabié mio Çid, el que en buen ora çinxo espada,
+1575	si serié corredor o ssi abrié buena parada;
+1576	a la puerta de Valençia, do en so salvo [estava],
+1577	delante su mugier e de sus fijas querié tener las armas.
+1578	Reçebidas las dueñas a una grant ondrança,
+1579	obispo don Jero[me] adelant se entrava,
+1580	y dexava el cavallo, pora la capiella adeliñava;
+1581	con quantos que él puede, que con oras se acordara[n],
+1582	sobrepelliças vestidas e con cruzes de plata,
+1583	reçibir salién las dueñas e al bueno de Minaya.
+1584	El que en buen ora nasco non lo detardava:
+1587	vistiós el sobregonel; luenga trahe la barba;
+1585	ensiéllanle a Bavieca, cuberturas le echavan,
+1586	mio Çid salió sobrél, e armas de fuste tomava.
+1589	Por nombre el cavallo Bavieca cavalga,
+1588	fizo una corrida, ésta f[o] tan estraña,
+1590	quando ovo corrido, todos se maravillavan;
+1591	des día se preçió Bavieca en quant grant f[o] España.
+1592	En cabo del cosso mio Çid desca[va]lgava,
+1593	adeliñó a su mugier e a su[e]s fijas amas;
+1594	quando lo vio doña Ximena, a pie[de]s se le echava:
+1595	“Merced, Campeador, en buen ora cinxiestes espada!
+1596	Sacada me avedes de muchas vergüenças malas;
+1597	afeme aquí, señor, yo [e] vuestras fijas amas,
+1598	con Dios e convusco buenas son e criadas.”
+1599	A la madre e a las fijas bien las abraçava,
+1600	del gozo que avíen de los sos ojos lloravan.
+1601	Todas las sus mesnadas en grant deleyt estavan,
+1602	armas tenien e tablados [cr]ebanta[van].
+1603	Oíd lo que dixo el que en buena [çinxo espada]:
+1604	“vos [doña Ximena], querida mugier e ondrada,
+1605	e amas mis fijas mi[o] coraçón e mi alma,
+1606	entrad comigo en Valençia la casa,
+1607	en esta heredad que vos yo he ganada.”
+1608	Madre e fijas las manos le besavan.
+1609	A tan grand ondra ellas a Valençia entravan.
+
+Glossary: 241 of 327 forms already in cid-glossary.json.

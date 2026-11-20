@@ -4,15 +4,15 @@
 
 | part | name | range | status |
 |---|---|---|---|
-| bardo-thodol-002 |  | pp. 18–26 | blocked |
-| bardo-thodol-003 |  | pp. 27–35 | blocked |
-| bardo-thodol-004 |  | pp. 36–44 | blocked |
-| bardo-thodol-005 |  | pp. 45–53 | blocked |
-| bardo-thodol-006 |  | pp. 54–62 | blocked |
-| bardo-thodol-007 |  | pp. 63–71 | blocked |
-| bardo-thodol-008 |  | pp. 72–80 | blocked |
-| bardo-thodol-009 |  | pp. 81–89 | blocked |
-| bardo-thodol-010 |  | pp. 90–98 | blocked |
-| bardo-thodol-011 |  | pp. 99–107 | blocked |
-| bardo-thodol-012 |  | pp. 108–115 | blocked |
-| bardo-thodol-013 |  | pp. 116–121 | blocked |
+| bardo-thodol-002 | At the moment of death: the first clear light, and the second | pp. 18–26 | established |
+| bardo-thodol-003 |  | pp. 27–35 | todo |
+| bardo-thodol-004 |  | pp. 36–44 | todo |
+| bardo-thodol-005 |  | pp. 45–53 | todo |
+| bardo-thodol-006 |  | pp. 54–62 | todo |
+| bardo-thodol-007 |  | pp. 63–71 | todo |
+| bardo-thodol-008 |  | pp. 72–80 | todo |
+| bardo-thodol-009 |  | pp. 81–89 | todo |
+| bardo-thodol-010 |  | pp. 90–98 | todo |
+| bardo-thodol-011 |  | pp. 99–107 | todo |
+| bardo-thodol-012 |  | pp. 108–115 | todo |
+| bardo-thodol-013 |  | pp. 116–121 | todo |

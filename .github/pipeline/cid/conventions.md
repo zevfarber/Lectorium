@@ -73,3 +73,4 @@ publish without audio until he chooses. Do not build audio.
 - The pilot's `[Roy]` at v. 15 and v. 58 should be `R[o]y` (only the o is italic); left for the owner.
 - Álbar/Álvar Albar[oz] "Álvar Álvarez" in `i` (the -oz form kept in `l`), as in 19-23, 35-39, 95-95.
 - coronado "tonsured-one" in `l`, "churchman" in `i` (78-82, 83-83b, 95-95); non … cristiano "no one" (Pidal, vv. 29, 1788).
+- Per Vermu[doz] "Per Vermudoz" in `i`; co[m]de don Garcia "Count García" (the Garci Ordóñez of v. 1345, said in the note); sant Esidr[e] "Saint Isidore", from cid-tiradas-96-101.

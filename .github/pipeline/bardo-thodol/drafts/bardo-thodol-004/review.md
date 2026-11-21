@@ -59,3 +59,69 @@ Severity count: major 0 · minor 11 · style 9 (20 change lines).
 - u. 14, 38 · no `p` where 003 u. 43 had one before the buddha's appearance: here the day's paragraph opens at u. 12 / 36 with the address and runs through the appearance. Kept.
 - u. 41 · `i` "too bright for the eye to look at" for blta mi bzod pa: this is the sense of "unbearable to look at" and not a known translation's wording. Kept.
 - u. 22 · ལམ → ལ་མ named as "a misprint" though the fix list counts it as a tsheg dropped mid-line: read_B calls it a contraction, and the note's statement (the print has ལམ; ལ་མ is meant) is true either way. Kept.
+
+## Pass 2
+
+Second pass: every one of the 133 entries in gloss.json and the 3 broadenings checked against its word, its use in units.json,
+the master glossary's entries for related forms and 003's pass 2; then all 49 units read again from the original through `l`
+to `i`, with the 154 known forms' master entries read against how they are used here. Both files were edited by script
+(ensure_ascii=False, indent 1). `w` is unchanged, so the key set is the same as after pass 1: every word key in units.json is
+in glossary.json or gloss.json (the two pass-1 joins, ལོངས་སྤྱོད་རྫོགས་པའི་སྐུ་རུ and ལོངས་སྤྱོད་རྫོགས་པའི་སྐུར, are glossed),
+no gloss.json key is already in the master, and none is unused. check.py: 49 units, 4936 letters, PASS.
+
+### Changes: gloss.json
+
+- gloss བསུ་མའི · entry · minor · "bsu ma 'one who meets, welcomer'" stated as a known word; it is the print's one-off form beside bsu ba'i in the same sentence of day two · now parsed (bsu + -ma, a noun ending), with "perhaps 'the one who welcomes'" and the bsu ba'i form named.
+- gloss དབྱིངས་ཕྱུག་མ · parts · minor · "phyug 'rich, mistress' + -ma": phyug alone is "rich"; "mistress" is phyug ma (as the master's ནམ་མཁའི་དབྱིངས་ཕྱུག་མ) · now "phyug ma 'rich one, mistress'", and "short for Nam mkha'i dbyings phyug ma" in place of "here called by a shortened name".
+- gloss སྐྱོར · stem · minor · "perhaps 'hold up!' in the prayer" left the form's grammar open and pinned it to the verse · now: skyor is the present stem and also the imperative; past and future bskyor.
+- gloss བསྐྱོར · stem · minor · "a stem of skyor" and "in the prayer" (pinned) · now "past and future stem of skyor", as pass 1 put it in the note to u. 32; "in a request, perhaps standing for 'hold up!'".
+- gloss བལྟ་བར, བལྟ · stem · minor · "blta, a stem of lta" · now "future stem of lta", as the note to u. 30 after pass 1.
+- gloss འབྱུང་བ · sense · minor · only "element"; the form is also the ordinary verbal noun "arising, coming about", and the entry is general to the form · added after " · ".
+- gloss ཀླུང · sense · minor · "expanse (klung, the print's spelling of klong)" let the reader think klung means "expanse"; as its own word klung is "river" · added; the note to u. 16 says the same now (below).
+- gloss དུ་ཁ · entry · minor · "the block is damaged" is true only of 39.4 (u. 21); at 40.3 (u. 27) the two letters are clear (establishment log) · removed; the entry says "the reading is uncertain".
+- gloss བྲོས་སུ · stem, sense · minor · "as one who flees" is not in the notes or `l` and gives su a sense it does not have; bros was given as "flee" without its stem · now "fleeing, in flight (bros, past of 'bros 'to flee', + -su)", as the master's བྲོས.
+- gloss ལཱ་སྱ་མ, པུཥྤེ་མ · parts · minor · "(+ -ma, feminine)" with nothing before the +: the Sanskrit part of the form was not given · now lā sya (Sanskrit lāsya "dance") + -ma; puṣpe (the name in its form of address, from puṣpa "flower") + -ma.
+- gloss མཱ་ལྱམ, དྷུ་པེ་མ · parts · style · the print's letters were not shown (mA lyam) or not explained (dhu pe) · now "mā lyam, the print's letters for a Sanskrit name from mālya 'garland' (other recension mā le ma)"; "dhu pe, for Sanskrit dhūpe, the form of address, from dhūpa 'incense', + -ma".
+- gloss དགའ་བར · parts · style · "-bar 'with'": the ending makes an adverb, it does not mean "with" · now "+ -bar, making an adverb".
+- gloss བསྒྲལ་དུ · stem · style · bsgral given without its stem · now "future stem of sgrol" (the future with du gsol).
+- gloss སྟུག་པོ་བཀོད་པའི · Sanskrit, stem · style · no Sanskrit, while the other realm and figure names have it; "the buddha-field of the centre" stated as the name's meaning · now Ghanavyūha, bkod past of 'god, "the name of a buddha-field, in this book that of the centre" (as pass 1's note to u. 9).
+- gloss མངོན་པར་དགའ་བའི · Sanskrit · style · Abhirati, which the note to u. 14 gives, missing · added.
+- gloss མི་བསྐྱོད་པ · parts · style · no parts · now mi "not" + bskyod "move, shake" + -pa.
+- gloss བསྐོར · stem · style · no stem · now "past of skor 'to surround'".
+- gloss བརྒྱན་པ · stem · style · "brgyan 'adorn'" · now "past of rgyan".
+- gloss བྱར་མེད · stem · style · "bya 'to do'" · now "future stem of byed, 'to be done'", as the master's བྱ.
+- gloss རིན་པོ་ཆེ · parts · style · "(rin po che 'jewel')" glossed the word by itself · now rin "value" + po + che "great".
+- gloss དགའ་བ · parts · style · "(dga' ba 'glad')" · now "(dga' 'glad' + -ba)".
+- __broaden__ ཀུན་ཏུ་བཟང་པོ · wording · style · "one of the two who attend Ratnasambhava on the third day" pinned the sense to a passage · now "the bodhisattva of that name (Samantabhadra), one of the eight great bodhisattvas".
+- __broaden__ ཀྱིས · wording · style · "once in this print" will not stay true as parts are added · now "in this print also written where kyi 'of' is meant".
+- __broaden__ གིས · new · minor · the master has only "by (after g, ng)"; u. 29 ma 'byung gis and u. 44, 45 'ong gis have gis after a verb, running on, as the notes to u. 29 and 44 say (the master gives this sense for gi and kyis but not for gis) · broadened.
+- __broaden__ ཆེ་བའི · new · minor · the master has "of the greater, senior"; in u. 34 sdig sgrib che ba'i gang zag is "persons in whom obscurations are great", as the note says · broadened.
+
+### Changes: units.json
+
+- u. 22 · n · minor · "the print writes the same phrase so on the third day" overstated the support for ལ་མ: on the third day (u. 46) the tsheg after la is itself unseen and the reading is marked uncertain · now "the same phrase on the third day is read so (there the tsheg is not clearly seen)".
+- u. 31 · l · style · "prayer this-way obtain(?)!" for smon lam 'di skad du: pass 1 brought 'di skad to "these-words", and 003 u. 15 has "these-words-in" for 'di skad du · now "prayer these-words-in obtain(?)!".
+- u. 4 · n · style · gti mug "the first of the poisons of the mind": it is first in this book's days, not in the usual lists of the poisons · now "one of the poisons of the mind, the poison of the first day".
+- u. 16 · n · style · klung named only as a spelling of klong · added "klung as a word by itself is 'river'", as the gloss.
+- u. 8 · n · style · bsgral without its stem · now "the future stem of sgrol" (pass 1 refused this as no error; it is added now because the gloss gives it and the two should agree).
+
+Severity count, pass 2: major 0 · minor 13 · style 17 (30 change lines: 24 gloss entries rewritten in 21 lines, 2 broadenings reworded, 2 added; 5 unit fields).
+
+### Checked and confirmed (no change)
+
+- Stem claims left standing, each checked: 'ongs past of 'ong; bsags past of gsog (gsog / bsags / bsag / sogs); drongs imperative of 'dren ('dren / drangs / drang / drongs); skyol imperative of skyel (skyel / bskyal / bskyal / skyol); spongs imperative of spong (spong / spangs / spang / spongs); bzhogs shig called perhaps the print's form for zhog, imperative of 'jog; yis the 'by' ending after a vowel in verse; ma byed cig a prohibition with the present stem.
+- Particle forms: drug tu (-tu after -g), sa ru (-ru after a vowel), thugs kar / snying khar / thad kar (-r after a vowel), kyi after yab yum (-m, rule gyi) named in the note to u. 18 as the print's; tshud de (de after -d), lhung ste and 'ong ste (ste after -ng), 'khyams te, 'jigs te (te after -s).
+- Uncertain readings agree between gloss and notes: ཡོངས་པ, དུད་ཁ, དུ་ཁ, བསུ་མའི (now), མཚེར་བ, བཞོགས་ཤིག, ཀྱིས (sangs rgyas kyis).
+- Sanskrit names: Vajrasattva, Akṣobhya, Abhirati, Buddhalocanā, Kṣitigarbha, Maitreya (with maitri in Tibetan letters), Ākāśagarbha, Samantabhadra, Ratnasambhava, Māmakī, Śrīmat (note), ādarśajñāna, samatājñāna, samyaksaṃbuddha, dharmadhātu are right.
+- The broadenings each begin with the master entry whole, then " · " (checked by script).
+- All 49 units re-read: pass 1's changes are sound; verse line counts equal in w, l, i (u. 8, 32); misprint notes in the required form (u. 10, 22, 37).
+
+### Findings considered and refused
+
+- ཞེ་སྡང, ང་རྒྱལ "the mind's poison of the second / third day"; རྡོ་རྗེ་སེམས་དཔའི "the buddha of the second day": they name the word's place in the book's scheme, as the master does ("the buddha of the centre"), not a single line. Kept.
+- ལྕགས་ཀྱུ "the hook by which the light of compassion draws one out": the image is the book's own and recurs; kept.
+- མཚེར་བ "mtsher is no known word": the note to u. 17 and the establishment log say the same, and the other recension has 'tsher throughout. Kept.
+- ཀྱཻ་མ "at the head of a prayer": that is where the cry stands in this book; the master's ཀྱེ་མ is cited. Kept.
+- ལྷུང "to fall (lhung)" without stem (lhung beside ltung): no false claim is made, and the stem system of this verb is not certain enough to state. Kept.
+- ལ in gnyis la (u. 16, 40), read as "and, with" between two pairs: the master's "after a verb or adjective: 'and'" covers a numeral closely enough, and the note explains it. No broadening.
+- u. 18 `i` "so bright that your eyes can hardly bear it" for mig gis mi bzod pa tsam du: the sense of "to the point the eye cannot bear it", in the wording 003 used. Kept.

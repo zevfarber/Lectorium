@@ -1908,3 +1908,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
   - P788L05 مترّددا: the print's shadda is on the rāʾ; kept, with the dāl's shadda added.
 - Library label: `Night 161 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
 - Nothing to decide. Night 162 is complete and unpublished, so the next firing should publish it.
+
+## Night 162 (P789L13–P791L14, published 2026-11-21)
+- Misprints corrected (emend.json): P790L06 نطرق → فطرق; P790L10 قان → فان; P791L01 منة → منه; P791L02 ويضغف → ويضعف (the emend entry was first written as يضغف and failed the check, because the print fuses the و; fixed before drafting was merged).
+- Kept as printed, with notes: السعيدان (spacing); P790L08 علي همّي and P790L15 بكي (ي for ى); P791L02 يقوي pointed yaqwā; P791L03–04 فليت اجلي قريب كنت ارتاح (Middle Arabic); لااخالف, فماترى (spacing). Verse P790L17 لِلْمُبْتَلِي is the print's active pointing; P790L20 اِلَّا هُوَ where Classical wants iyyāhu — both kept and noted.
+- Library label: `Night 162 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
+- Nothing to decide. No complete night is waiting now (163's tail is not yet transcribed), so the next firing should transcribe.

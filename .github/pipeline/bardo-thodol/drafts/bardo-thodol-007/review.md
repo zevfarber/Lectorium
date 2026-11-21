@@ -190,3 +190,60 @@ Severity count: major 0 · minor 6 · style 8 (14 change lines).
 - u. 17 · "the usual spelling is khong seng": Reader B's log says the same, and the print has both. Kept.
 - u. 33 · follow the other recension's tha mas kyang: the print is followed (conventions.md), and the note gives the other
   reading and why it fits. Kept.
+
+## Pass 2
+
+Second pass: every one of the 124 entries in gloss.json and its two broadenings checked against the word, its use in
+units.json and the notes, and the master entries of related forms (stems, particle forms, Sanskrit); the master entries of
+the 243 known forms in this part read by script against the units where each occurs; then all 41 units read again from the
+original through `l` to `i`. Both files were edited by script (ensure_ascii=False, indent 1, no final newline; a round-trip
+of each unedited file was checked to be byte-identical first). `w` is unchanged. Key check by script: the gloss.json keys
+equal the part's words not in the master glossary (124), none unused; every broadening is of a master key used here and
+begins with the master entry whole + " · ". Letter check: 41 units, 5079 letters, PASS. Verse line counts w / l / i: u. 30,
+seven each. hooks.assemble + hooks.validate with gloss.json merged as `r3.py build` merges it (validate reading the
+glossary as it would be written): no error, no WARN; no "no glossary entry" left.
+
+### Changes: gloss.json
+
+- __broaden__ ཞིང · new · minor · the master has only zhing "and, while" (the clause particle); here (u. 30 dag pa'i zhing mchog, u. 36 mkha' spyod kyi zhing nas) it is the noun "realm" · broadened with "realm, field; a buddha-field".
+- __broaden__ མི · new · minor · the master has only mi "not"; u. 19 sngar 'dris pa'i mi is "a person one knew before" · broadened with "person, human being".
+- __broaden__ མ · new · minor · the master has only ma "not"; u. 19 ma dang bu is "mother and child" · broadened with "mother".
+- gloss ལྷུན་གྲུབ · sense · minor · the example "rig pa lhun grub chen po 'knowing, the great spontaneous presence'" parsed u. 21 wrongly: rig pa is the subject that dissolves into lhun grub chen po'i sku, as `l` and `i` have it · example now "lhun grub chen po'i sku 'the body of great spontaneous presence'".
+- gloss ཞེ · grammar · minor · "says, thinks (zhe)" misnamed the form: zhe is zhes "so, thus" before na, not a verb · now "so, thus (zhe, the form zhes takes before na after ng, n, m, r, l, ' and a vowel; ce na after g, d, b, she na after s)".
+- __broaden__ བཏབ་པས · new · style · the master's "by having given, because it is given" does not fit u. 31 smon lam btab pas, "because the prayer is made" · broadened.
+- gloss ཁྱབ་པ, ཚོམ་བུས, སྟེང་དུ, ཁ་སྦུབ་པ, ཀློད, བལྟ་སྟངས · general · style · each carried a line's comment (the other recension's reading, or "the rim is made of clusters of light", "a round mirror laid face down") · removed; the notes keep them. ཀློད now "another spelling of glod 'to loosen'" (master གློད); བལྟ་སྟངས "also written lta stangs".
+- gloss ཞི་བ, སྣམ་བུ · general · style · "the peaceful deities of the days so far …", "here a band of light" pinned to this part · now "the peaceful ones, the peaceful deities, as against khro bo, the wrathful"; "a band, as of light".
+- gloss དྲིལ་བ · stem · style · no stem, and "wound together like a cord" pinned to u. 4 · now "dril, past of 'dril 'to roll, to wind'".
+- gloss ཆོད་པ · stem · style · "chod 'cut'" without its relation to gcod · now "chod, the intransitive beside gcod 'to cut'".
+- gloss རྒྱན · general · style · gave only the noun · added "to adorn (rgyan, the present stem; past brgyan)", as the master's བརྒྱན་པ.
+- gloss འཛིན · stem · style · "to hold ('dzin): 'dzin cing 'holding, and'" · now "the present stem; past bzung".
+- gloss ཡབ · general · style · "a buddha in union with his consort" named the pair, not the father · now "father (yab, respectful); the male of a buddha and his consort", as the master's ཡུམ.
+- gloss འཁྱམས་དུ · grammar · style · now says that du stands where the rule gives su after -s, as the note to u. 35 does.
+- gloss འོ་རྒྱལ་ལོ · parts · style · now ties 'o rgyal to the master's འོ་བརྒྱལ "weary, worn out".
+- gloss ཁོང་སེང, ཁོང་གསེང · parts · style · "seng, the usual spelling of gseng" made a claim about the simple word that the evidence (two spellings of the compound in one print) does not carry · both now "also written …".
+- gloss གྲི་གུག · parts · style · parts added (gri "knife", gug "curved").
+- gloss བླ་ན་མེད་པ, པདྨ་གར་གྱི་དབང་ཕྱུག · Sanskrit · style · added anuttara and Padmanarteśvara (narta "dance" + īśvara "lord", as the Tibetan gar + dbang phyug).
+
+### Changes: units.json
+
+- u. 41 · n · style · the Sanskrit of Padma gar gyi dbang phyug was missing, where the note gives it for mkha' 'gro ma and rig 'dzin · "Sanskrit Padmanarteśvara" added.
+- about · style · "because the dead man's awareness is not yet complete": u. 16 says that the energy (rang rtsal) of the wisdom of awareness is not complete · now "because the energy of the dead man's awareness is not yet complete".
+
+Severity count, pass 2: major 0 · minor 5 · style 15 (20 change lines: 18 on gloss.json — 4 broadenings added, 22 entries rewritten — and 2 on units.json).
+
+### Checked and confirmed (no change)
+
+- Stems and labels in gloss and notes, each checked: blangs past of len (len / blangs / blang / longs); bkag past of 'gog; bsgral past and future of sgrol; bskyal past and future of skyel; byon past of 'byon; shar past of 'char; 'ongs past of 'ong; skyes past of skye; bos past and imperative of 'bod; brgyan past of rgyan; sangs rgya present beside sangs rgyas; zhog imperative of 'jog; skyor present and imperative; yis after a vowel, ru after a vowel, su after -s (chags su), -go / -bo / -ngo / -no / -ro by the final.
+- Hedges kept where the notes mark doubt: ལྔ་ལྔའི, རྫོགས་པར (image), སྦ་ཐག, གཅིག (broadening, "perhaps"), and the master's མེ་རེ་རེ, མདུན་པ, ཐོབ་ཅིག, དུ་ཁ, which this part uses as the notes do.
+- Both glosser broadenings are needed (ཕྱིར "back", which "outside, outward" does not cover; གཅིག "together, at once", hedged) and begin with the master entry verbatim.
+- Sanskrit: mudrā, maṇḍala, sugata, khecara, vidyādhara, ḍākinī, kleśa, samādhi (note), vipāka (by sense) are right.
+- Known forms read against their use here: ལ, ཀྱི (de rnams kyi "of"), གི, གིས ('dug gis), ཀྱིས (las kyis), གྱིས, ཏེ, སྟེ, ཅིག, ཞིག, ཅིང, ཤིང, ཡང (tha ma'i yang tha ma "even"), ཀྱང, མར, ན, རང, དག (ma dag), ལས, བཀྲག, གསལ་བའི, འདུག cover their use; only ཞིང, མི, མ and བཏབ་པས needed broadening.
+- All 41 units re-read: pass 1's changes are sound (kyi in u. 17, the content of yid ches in u. 20, the stem of byon in u. 28, sangs rgya'o in u. 31, Sky-Faring against sky-goer, the hedged line 5 of the prayer). The claim in u. 29 that the print had 'dun pa in 006 holds (006 has འདུན་པ once); the pilot has rnal 'byor 'bring (u. 32); 002 has 'dug gis after a verb (u. 28); 003 has me re re (u. 4); 004 has du kha (u. 23). The order of the five poisons by day in u. 30's note agrees with the master (zhe sdang the second day, phrag dog the fifth). `i` read again for remembered wording: none found.
+
+### Findings considered and refused
+
+- ཡང · broaden for de yang "that is, namely" (u. 5, 7, 11): 002 has de yang four times under the same master entry; "also" is the word, and the notes give the phrase. Kept.
+- u. 41 · 'dzin cing, cing after -n where the rule gives zhing: the same print habit as cig after a vowel (pass 1, refused), and no note claims a rule. Kept.
+- gloss ཉམ་ང་བའི "the usual spelling": agrees with the master's ཉམས་ང་བ "the print's spelling of nyam nga ba". Kept.
+- gloss རྫོགས་པར with "the reading rdzogs is not sure on the image": a line's doubt in a form entry, but the master keeps such doubts (ཕྱིར, དུ་ཁ), and the reader should see it. Kept.
+- u. 4 · `l` "dawning come" against the note's "come to dawn" for 'char du 'ong ste: as 006 pass 2 refused, the note names the Tibetan, `l` keeps the formula of the earlier parts. Kept.

@@ -8,7 +8,7 @@
 | bardo-thodol-003 | The second bardo, and the third begins: the voices, lights and rays, and the first day | pp. 27–35 | published |
 | bardo-thodol-004 | The first day ends, the second and the third: Vairocana's prayer, Vajrasattva, Ratnasambhava | pp. 36–45 | published |
 | bardo-thodol-005 | The third day ends, the fourth, and the fifth begins: Ratnasambhava's prayer, Amitābha, Amoghasiddhi | pp. 45–54 | published |
-| bardo-thodol-006 |  | pp. 54–62 | todo |
+| bardo-thodol-006 | The fifth day ends and the sixth begins: Amoghasiddhi's prayer, and all the deities at once | pp. 54–62 | established |
 | bardo-thodol-007 |  | pp. 63–71 | todo |
 | bardo-thodol-008 |  | pp. 72–80 | todo |
 | bardo-thodol-009 |  | pp. 81–89 | todo |

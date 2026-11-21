@@ -71,3 +71,5 @@ publish without audio until he chooses. Do not build audio.
 - The six numbers printed nowhere (99, 1043, 2432, 2459, 3663, 3679) and the label 2455 printed twice: follow
   the print; the establishing run checks each on the image (Pidal's footnotes may explain) and records it.
 - The pilot's `[Roy]` at v. 15 and v. 58 should be `R[o]y` (only the o is italic); left for the owner.
+- Álbar/Álvar Albar[oz] "Álvar Álvarez" in `i` (the -oz form kept in `l`), as in 19-23, 35-39, 95-95.
+- coronado "tonsured-one" in `l`, "churchman" in `i` (78-82, 83-83b, 95-95); non … cristiano "no one" (Pidal, vv. 29, 1788).

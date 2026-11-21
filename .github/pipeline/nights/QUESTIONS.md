@@ -1942,3 +1942,13 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
   - P797L12–13: the "we" walking back to the river is the jeweller, the thieves and the lovers together, as فعل بي ايضا (P798L06) shows. The notes on the units either side of the slice join were made to agree.
 - Library label: `Night 164 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
 - Nothing to decide. Night 165 is complete and unpublished, so the next firing should publish it.
+
+## Night 165 (P798L20–P800L20, published 2026-11-21)
+- Misprint corrected (emend.json): P798L21 السيعدان → السعيدان (kept run together, as the print sets it elsewhere).
+- Kept as printed, with notes:
+  - P800L03 لا قول: read li-aqūla, "so that I may say" (spacing kept); lā qawla makes no sense here.
+  - P800L10–11 فهربنا عندهم: an unusual pairing, read "took refuge with them". P800L18 وصلت: read waṣalat (the skiff reached land); waṣaltu is possible.
+  - P799L11 فجأوا read jāʾū with a dagger alif; P800L04 وحلفتني read Form II ḥallafatnī; P799L21 اتصل تلك الناحية, ittaṣala with a direct object; P800L08 فيأخذونني indicative after fa- (Middle Arabic); P800L14 فتّش على for فتّش عن.
+  - From P800L07 the narrating "I" is the slave-girl, inside the jeweller's account; the note says so.
+- Library label: `Night 165 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
+- Nothing to decide. Night 166 is not complete yet (only its heading is transcribed), so the next firing should transcribe.

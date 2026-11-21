@@ -7,7 +7,7 @@
 | bardo-thodol-002 | At the moment of death: the first clear light, and the second | pp. 18–26 | published |
 | bardo-thodol-003 | The second bardo, and the third begins: the voices, lights and rays, and the first day | pp. 27–35 | published |
 | bardo-thodol-004 | The first day ends, the second and the third: Vairocana's prayer, Vajrasattva, Ratnasambhava | pp. 36–45 | published |
-| bardo-thodol-005 |  | pp. 45–53 | todo |
+| bardo-thodol-005 | The third day ends, the fourth, and the fifth begins: Ratnasambhava's prayer, Amitābha, Amoghasiddhi | pp. 45–54 | established |
 | bardo-thodol-006 |  | pp. 54–62 | todo |
 | bardo-thodol-007 |  | pp. 63–71 | todo |
 | bardo-thodol-008 |  | pp. 72–80 | todo |

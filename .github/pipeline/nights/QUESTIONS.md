@@ -1916,6 +1916,6 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Nothing to decide. No complete night is waiting now (163's tail is not yet transcribed), so the next firing should transcribe.
 
 ## Transcription PDF 815–822 (pp. 793–800, 2026-11-21)
-- Kept as printed (possible misprints, for the publishing run to judge): P793L05 واصحلته (for واصلحته); P793L18 تي (for في); P795L21 الناني (for الثاني); P796L07 فقات (for فقلت); P798L21 السيعدان (spacing/letters, for السعيد ان); P798L02 الحارت.
+- Kept as printed (possible misprints, for the publishing run to judge): P793L06 واصحلته (for واصلحته); P793L19 تي (for في); P795L22 الناني (for الثاني); P796L08 فقات (for فقلت); P798L21 السيعدان (spacing/letters, for السعيد ان); P798L02 الحارت.
 - Night labels P795L03 (164), P798L20 (165), P800L21 (166) are on their own lines with h, per precedent. Nights 163, 164 and 165 are now complete and unpublished; the next three firings should publish them.
 - Nothing to decide.

@@ -55,6 +55,7 @@ def thl_syl(w, pos, prev=''):
 OVERRIDE = {'pad+ma': 'pema', 'd+hU': 'dhu', 'tIr': 'tir', 'kyai': 'kyé',
             'd+hu': 'dhu', 'A': 'a', "seng+ge'i": 'sengge'}   # 2026-11-20: bardo-thodol-002
 OVERRIDE.update({'lA': 'la', 's+ya': 'sya', 'mA': 'ma', 'l+yam': 'lyam', 'puSh+pe': 'pushpé'})   # 2026-11-21: bardo-thodol-004
+OVERRIDE.update({'g+hIrti': 'ghirti'})   # 2026-11-21: bardo-thodol-005
 
 def word(tok):
     """tok: one word in Tibetan script, syllables joined by tsheg, optional trailing tsheg / punctuation.

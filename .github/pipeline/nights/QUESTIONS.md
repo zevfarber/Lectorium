@@ -1973,3 +1973,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - The night ends mid-speech of the slave-girl; her quotation is left open, as at the end of Night 165.
 - Library label: `Night 167 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
 - Nothing to decide. Night 168 is not complete yet (its tail is unread), so the next firing should transcribe.
+
+## Transcription PDF 831–838 (pp. 809–816, 2026-11-21)
+- Night labels P809L05 (169), P811L01 (170), P812L14 (171), P814L16 (172), P816L05 (173) are on their own lines with h, per precedent. Nights 168–172 are now complete and unpublished; the next five firings should publish them.
+- P810 → P811: the print has no `وادرك شهرزاد الصباح فسكتت عن الكلام المباح` before the Night 170 label; the adjudicator confirmed no line is lost. The publishing run should close Night 169 without it (or note its absence).
+- Kept as printed (possible misprints, for the publishing run to judge): P816L08 بالامراو (for بالامراء); P816L02 ظَفْرِهِ (verse; fatha on ظ). Spelling of حيٰوتي/حيوٰتي varies in where the small alif sits (P811, P812, P813) — copied as each image shows.
+- Tightly set words split per archive precedent (امر لها, فيا ليت, ولا نهارا, لا تميل, ولو سعى, ولو سقيت); the print shows no visible space.
+- Nothing to decide.

@@ -1930,3 +1930,15 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
   - Middle Arabic: استقرّيت, نطّيت, تخبّيت, يصدفوهم (no -na), الي for ilā.
 - Library label: `Night 163 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
 - Nothing to decide. Nights 164 and 165 are complete and unpublished, so the next two firings should publish them.
+
+## Night 164 (P795L03–P798L19, published 2026-11-21)
+- Misprints corrected (emend.json): P795L22 الناني → الثاني (the same phrase is printed correctly at P797L14); P796L08 فقات → فقلت.
+- Kept as printed, with notes:
+  - P798L02 الحارت: read as al-ḥārāt, "the quarters", with the long ā unwritten and a dagger alif supplied. It may be a misprint for الحارات.
+  - P796L22 انشاءه: the sense wants ifshāʾahu, "divulging it". Kept as printed, because anshaʾa can be stretched to "spread (news)". The note says the reading is uncertain.
+  - P797L07 وقسم منهم عليّ: the print's shadda gives ʿalayya, so the thieves split into those "with me" and those "against me". ʿAlī is raised in the note and rejected.
+  - P795L17 ولابواب: read as wa-lā bawwābin, "and no doorkeeper"; wa-lā abwābin is given as the alternative. P798L08 فطلَعنا: read as Form II ṭallaʿanā, "he put us aboard"; ṭalaʿnā is noted.
+  - The print's habit of writing ة for the pronoun ه (دارة, وراءة) is noted. نحن الذي (singular alladhī for the plural) and لم نرهما are Middle Arabic, noted.
+  - P797L12–13: the "we" walking back to the river is the jeweller, the thieves and the lovers together, as فعل بي ايضا (P798L06) shows. The notes on the units either side of the slice join were made to agree.
+- Library label: `Night 164 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
+- Nothing to decide. Night 165 is complete and unpublished, so the next firing should publish it.

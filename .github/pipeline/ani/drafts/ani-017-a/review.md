@@ -37,3 +37,36 @@ Changes are listed as unit · field · severity · what was wrong · what was do
 For the glosser, beyond the new lemmas: qrs (known only as the verb 'bury') is used in U23 as a noun 'burial'. nk carries "(here) fornicate", which is pinned to Spell 125, and U32 needs the general sense. st is used in U4 for the dependent pronoun written with s alone. Each of these needs a `__broaden__`.
 
 Re-check after editing: units.json parses and keeps its formatting (indent 1). The 951 sign codes, in order across all units, equal the packet's w0..w299. Every morph covers each glyph index of its word exactly once. Every det has an empty tr. Rubric flags match the packet glyph for glyph. Restored flags are unchanged: only G17 in U14 qmꜣ and U17 tm, as discussed above. The longest note is 1568 characters. The validator will warn about horns Z9 with empty tr in phon (rf, sf, ḫft, itf·f, ḫftyw·f) and in comp (nfrt). This is deliberate: the horns take the role of the viper they belong to.
+
+## Pass 2
+
+Changes are listed as U<n>/gloss · field · severity · what was wrong · what was done. Units are numbered from 0. All edits were made by script (/tmp/claude-0/reviewer017b/edit.py), and the script asserts each old value before it replaces it. No glyph code, glyph order, rubric flag or restored flag was changed.
+
+- U28 · n · minor · ꜥḥꜥ was called "a sḏm·f whose subject, the god, is not repeated". A sḏm·f cannot stand without its subject · it is now taken as the stative with its ending unwritten, 'he (is) standing', with the god as subject. The alternative ꜥḥꜥ(·n) sḏm·n·f is kept.
+- U5 · n · minor · ḏdt nbt tm was called "the direct genitive". nbt stands between the two nouns, where a direct genitive allows nothing · the note now says that tm is taken as a genitive with no n written, and that the construction is not sure.
+- U18 · n · minor · iꜣbty was called "feminine to agree with ꜣḫt", but the reading shown, iꜣbty, is the masculine form. The t may equally be the t of iꜣbt 'east' · the note now says that the writing cannot show which it is.
+- U10 · n · minor · wnt was called "an infinitive of wnn". The infinitive of wnn has no t · now "taken as a form of wnn 'be', though its t is not explained" (the construction was already marked doubtful). "written like sṯs 'praises'" still carried the rendering that pass 1 replaced · now "sṯs 'raising up'".
+- U22 · n · minor · "ḥnꜥ sḥqꜣ·tw" was presented without doubt, but ḥnꜥ before a verb form is unusual · added: Budge takes the word as a noun ('the appointment as prince'), and the construction is not sure. The label of nw, "the plural genitive: 'those of'", was sharpened to "the genitive adjective in its plural form, agreeing with ḫftyw", with the reason for the rendering 'those of'.
+- U32 · words[nk·f] morph gloss · minor · The known entry nk carries "(here) fornicate / commit adultery", which is pinned to Spell 125 and would be the gloss of Ra's act here. The glosser's __broaden__ only repeated "to copulate" · the broaden is dropped, and this occurrence has its own morph gloss "to copulate (verb)".
+- U33 bnw, U39 nḥḥ · glyph N35 role · style · Water n was coded phon before the pot nw and the guinea fowl nḥ, which already carry n. That would spell bnnw and nnḥḥ · role → comp (tr stays n).
+- U27 · l · style · rdi is the relative form ('which Ra gave to me'), but l showed only "gave" · → "which-gave".
+- about · style · "the power to go out and come in" does not match the title, which gives prt and hꜣyt, 'going forth' and 'going down' · → "the power to go forth by day in any form and to go down into the necropolis".
+- gloss __broaden__ st · minor · The addition repeated a pronoun sense already in the known entry ("it, them … written s-t") as a third item · now the known entry whole + " · the dependent pronoun is also written with s alone".
+- gloss __broaden__ qrs · minor · "burial (noun; qrst; Budge: qeres, 'dead body')" mixed the lemma with Budge's sense of this occurrence. The units keep reading and lemma qrs (U23), and the note reads it as qrst with its t unwritten · now the known entry + " · qrst, burial (noun f.; the t is sometimes not written)".
+- gloss __broaden__ ḫt · style · The new sense was added without marking it as a separate word, as the known entry does for the second and third words · " · a fourth word: rear, following (noun; …)".
+- gloss __broaden__ ꜣḫ (new) · minor · U4 reads ꜣḫt as the noun 'something effective, a benefit'. No sense of the known entry covers it · added the known entry + " · also ꜣḫt, what is effective or useful, a benefit (noun f.)".
+- gloss nnw · minor · "a word not identified (?)" had no grammar, and the "(?)" doubled the doubt · now "an unidentified word (word class unknown; the reading of the signs is doubtful; Budge renders 'that')".
+- gloss ḥnn, stꜣt · style · Each carried notes about the classifiers or a sign of this occurrence ("the second sign is doubtful", "the classifiers are doubtful") · dropped. ḥnn now gives its spelling ḥnnw. stꜣt keeps its doubt about reading and sense.
+- gloss šꜣꜥ, ḏs, sṯsw · style · Genders that cannot be confirmed (m.) were dropped. sṯsw no longer says "sṯs 'praises'" (the known entry is 'raise up'), and šꜣꜥ also mentions the verb 'to begin'.
+- gloss ẖꜣt · style · Budge's spelling is not needed for a common noun · "corpse, dead body (noun f.)".
+
+### Refused findings
+- The tr coding of the question (X1/D21 complements before M6, the reed coded phon "i" and not read): pass 1's ruling stands. It follows published ani-125-address and ani-001-b.
+- The coding of the double reed (phon "i i" here, "y y" in some published words): the published parts are mixed (both codings occur in 022-072, 001-a, 001-b and 125-address). No change.
+- U19 "I am Yesterday; I know Tomorrow", U33 "I am that Bennu which is in Heliopolis": the wording follows directly from ink N + stative and from ink N pwy nty m X. It is not a borrowing. Kept.
+- U6 m wn, U7 ḥqꜣ pn n·f, U23 iw·n mn / dhn·n·tw, U24 wḏ·n, U26 st-imntt, U27 nnw, U38 stꜣt·f and the stray n, U39 n r: each doubt is marked in the note and in l / i, and I could not build a reading from the signs that does better. Kept.
+- U23 qrs: the reading stays qrs, as the signs give it, and is not changed to qrst. A t left unwritten is ordinary spelling, not a slip under the misprint rule. The note gives qrst.
+- U14 ḫt 'rear': this stays a glossary broaden and does not become a separate lemma. The glossary keeps homonyms under one key, as the known entry ḫt already does.
+- ḥbꜥ, znt, dhn, qꜣqꜣ, st-imntt, sipw, itm, mni, sḥ, sḥqꜣ, ky, dwꜣw: each has the right form, is general to its lemma, marks the doubt where the notes doubt it, and gives Budge's spelling where it is a name or a doubtful word. Kept.
+
+Re-check: units.json and gloss.json parse, keep indent 1, and have no trailing newline, as before. The 951 sign codes, in order, equal the packet's w0..w299. The rubric and restored flags and the q values are identical to pass 1. Morph coverage is exact, and every det has an empty tr. Every morph lemma is a key of known-lemmas.json or gloss.json, and every gloss key is used. Every __broaden__ value starts with the known entry copied whole, followed by " · ". No gloss entry contains "here". The longest note is 1568 characters (U0); U22 is now 1505.

@@ -28,7 +28,7 @@
 | cid-tiradas-87-90 | The ladies look out over Valencia; King Yúsuf lands from Morocco | tiradas 87–90, lines 1610–1656 | published |
 | cid-tiradas-91-94 | Jimena reassured; the battle plan; the bishop asks for the first blows | tiradas 91–94, lines 1657–1710 | published |
 | cid-tiradas-95-95 | The battle against Yúsuf and the great spoil | tiradas 95–95, lines 1711–1798 | published |
-| cid-tiradas-96-101 | Minaya brings the king a gift; royal favour; the Infantes plan the marriages | tiradas 96–101, lines 1799–1884 | todo |
+| cid-tiradas-96-101 | Minaya brings the king a gift; royal favour; the Infantes plan the marriages | tiradas 96–101, lines 1799–1884 | established |
 | cid-tiradas-102-102 | The king proposes the marriages and a meeting with the Cid | tiradas 102–102, lines 1885–1958 | todo |
 | cid-tiradas-103-104a | Both sides make ready for the meeting on the Tagus | tiradas 103–104, lines 1959–2012 | todo |
 | cid-tiradas-104-104b | The Cid kneels before Alfonso and is pardoned | tiradas 104–104, lines 2013–2067 | todo |

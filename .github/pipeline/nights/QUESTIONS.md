@@ -1898,3 +1898,13 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Demonstratives (ذلك, هذه, هذين, لكن) are written without a dagger alif, as in Nights 150–159. One drafter had used the dagger form, and it was made plain.
 - Library label: `Night 160 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
 - Nothing to decide. Nights 161 and 162 are complete and unpublished, so the next two firings should publish them. The transcription run flagged possible misprints in 161 (P788L18 تخل مني, P788L14 المشير, P789L11 بصعي) for that run to judge.
+
+## Night 161 (P785L11–P789L12, published 2026-11-21)
+- Misprints corrected (emend.json): P788L14 المشير → المسير ("going", as at P788L01 and L09); P789L11 بصعي → بسعي ("by striving").
+- Kept as printed, with notes:
+  - P788L18 تخل مني: makes no sense as printed; probably تخدمني, "who serves me". Kept as two words, pointed تَخْلُ مِنِّي, and translated by that guess, which the note says.
+  - (verse) P785L17 يَطْمَعُنِيْ: pointed as Form I, but the sense wants Form IV yuṭmiʿunī; P786L01 اَقْبَلْ: the print gives aqbal, and the contrast with وَلِّ suggests uqbil; P787L01 مَكْتُوْمَةٌ (nom. as kānat's predicate), غَضَبَا, and P787L02 الِيْ for ilayya. All are the print's points, kept and noted.
+  - P789L05 ان لي دار غير: nominative after inna (Middle Arabic), noted. P788L19 غلمانه: the jeweller has just said he keeps only one old slave-woman; noted.
+  - P788L05 مترّددا: the print's shadda is on the rāʾ; kept, with the dāl's shadda added.
+- Library label: `Night 161 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
+- Nothing to decide. Night 162 is complete and unpublished, so the next firing should publish it.

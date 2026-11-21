@@ -126,3 +126,67 @@ Severity count: major 0 · minor 6 · style 13 (19 change lines).
   dissolves is not named, and the print is followed. Kept.
 
 ## Pass 2
+
+Second pass: every one of the 78 entries in gloss.json and the 4 broadenings checked against its word, its use in units.json,
+the notes, and the master entries of related forms (stems, case and particle forms, parts, Sanskrit); then all 49 units read
+again from the original through `l` to `i`, with the master entries of the 231 known forms read against how they are used
+here. Both files were edited by script (ensure_ascii=False, indent 1; a round-trip of each unedited file was checked to be
+byte-identical first). `w` is unchanged, so the key set is the same as after pass 1. Key check by script (keys formed as
+hooks.py forms them, through tib.word, punct-only tokens and ' / ' skipped): every word key in units.json is in glossary.json
+or gloss.json, no gloss.json key is already in the master, none is unused, the key set equals novel-forms.json, every
+broadening is of a master key, is used here, and begins with the master entry whole + " · ". Letter check: all `w` joined,
+' / ' removed, equals `hooks.letters()` for the part (4748 letters, PASS); hooks.assemble + hooks.validate with the merged
+glossary report no error.
+
+### Changes: gloss.json
+
+- gloss བྲོས་བས · stem · minor · "because they flee (bros 'flee' …)": bros is the past of 'bros, and the entry gave no stem · now "because (they) fled, fleeing (bros, past of 'bros 'to flee', + -bas, …)".
+- gloss བྲོས་ཅིག · stem · minor · "bros 'flee' + cig": the form is the imperative of 'bros, and cig after -s is the print's writing where the rule gives shig (the note to u. 33 gives the other recension's shig) · now says both.
+- gloss ཨཱ་ལོ་ཀེ · Sanskrit · minor · "āloke, the address of āloka 'light'": the vocative of the masculine āloka is āloka (āloke is its locative); āloke is the form of address of the feminine name Ālokā · now "the form of address of the name Ālokā, from āloka 'light'"; the note to u. 21 likewise (below).
+- __broaden__ ན · new · minor · the master has only "if, when; also 'in, at'"; in skye rga na 'chi (u. 6) na is "to be ill", as the note says · broadened with "to be ill, sickness (na, the verb of na ba)".
+- __broaden__ བཞུགས་པ · new · minor · the master has "abiding, being present (bzhugs, respectful 'stay')"; here (u. 19, 49) gdan / khri la bzhugs pa is "seated on", as `l` and `i` have · broadened with the respectful "sit".
+- __broaden__ པདྨ · new · minor · the master entry ends "Here the Lotus family …"; in u. 19 padma is the flower held in Amitābha's hand, and the entry as it stands would mislead · broadened with the flower as an emblem held in the hand.
+- gloss བཀག་པའི · stem · style · "of blocking, that blocks" for a past stem (pass 1 made `l` "blocked's" in u. 7 and 37) · now "of what has blocked, that blocks".
+- gloss བསྐྱོད · stem · style · "past of skyod": bskyod is the past and future stem; the gloss is general to the form (pass 1 rightly left the note to u. 15, which concerns the past) · now "past and future stem of skyod 'to move, to stir'".
+- gloss ཞིང · grammar · style · "the form of zhing after ng" said nothing; zhing stands after a vowel and after ng, n, m, r, l, ' · now so, with cing, shing.
+- gloss སྐྱེ · stem · style · now "the present and future stem; past skyes" (the master's སྐྱེས "past of skye").
+- gloss རྒ · sense · style · only the noun; rga is first the verb "to grow old" · added.
+- gloss ལ་སོགས་པ · parts · style · no parts · now la 'to' + sogs 'et cetera' + -pa, as the master's ལ་སོགས.
+- gloss ཉམས་པ · parts · style · no parts · now nyams 'decline, be damaged' + -pa, as the master's ཉམས.
+- gloss སྐལ་ཆད · stem · style · chad now "past of 'chad".
+- gloss གོས་དཀར་མོ · parts · style · "dkar mo 'white', with the feminine -mo" · now "dkar 'white' + -mo, the feminine ending".
+- gloss སྤྱན་རས་གཟིགས · parts · style · "ras gzigs 'looking'" gave ras a meaning it does not have (ras is "cloth"); gzigs is the respectful "look" · now spyan + ras + gzigs, with ras left unexplained.
+- gloss གྷཱིརྟི་མ · parts · style · the -ma was not shown as a part · now "ghīrti, the print's letters, perhaps for gīti 'song', + -ma".
+- gloss བྱོན་ནོ · sense · style · "the respectful 'come' used of a buddha": byon is the respectful "come, go" for any honoured being, and with one form for every tense the entry should not give the present only · now "comes, came … used of a buddha or other honoured being".
+- gloss རབ་བརྩེགས་པའི · stem · style · brtsegs "stacked" · now "piled up, past of rtseg".
+- gloss རྡོ་རྗེ་རྒྱ་གྲམ · Sanskrit · style · no Sanskrit, while the other emblems and names have it · now viśvavajra.
+- gloss ནམ་མཁའ་ལྡིང · parts · style · no parts · now nam mkha' 'sky' + lding 'soar, hover'.
+- gloss མར · sense · style · the form is also the common word "butter"; the entry is general to the form · added as "another word of the same spelling".
+- __broaden__ ལ · wording · style · "among (skal chad kyi rigs la …)" copied the line of u. 14 · now "among (… kyi rigs la 'among those of the … kind')", "on (… la bzhugs 'seated on …')".
+- __broaden__ གནས་སུ · wording · style · "(mi'i gnas su ltung …)" copied the line of u. 6 · now "(… gnas su ltung 'fall into the abode of …')".
+
+### Changes: units.json
+
+- u. 21 · n · minor · "āloke, the form of address of āloka, 'light', for Ālokā": as the gloss above · now "āloke, the form of address of the name Ālokā, 'she of light' (from āloka, 'light')".
+- u. 7 · n · style · "bkag pa'i, 'blocking', is the past stem" glossed a past stem with a present sense, against `l` "blocked's" · now "bkag pa'i, 'that has blocked, blocking', has the past stem of 'gog".
+
+Severity count, pass 2: major 0 · minor 7 · style 19 (26 change lines: 19 gloss entries rewritten, 3 broadenings added, 2 reworded; 2 unit notes).
+
+### Checked and confirmed (no change)
+
+- Stem claims left standing, each checked: ltung present and future, lhung past (as pass 1 put it in the notes to u. 6 and 36); bod future of 'bod ('bod / bos / bod / bos); 'ong ba present ('ong / 'ongs / 'ong); bkag past of 'gog ('gog / bkag / dgag / khog); bskyed past and future of skyed; bsags past of gsog; spong present in mi spong bar; zhog imperative of 'jog; bskyol read as skyol, imperative of skyel (skyel / bskyal / bskyal / skyol); bskyor past and future of skyor; byon one form for every tense.
+- The print's -ba for -pa after -n and -s (yin ba'i, rtogs ba'i, bros bas, 'ong bas) named as its spelling in gloss and notes alike; zhing after ng (myong zhing), shing after s ('ongs shing), ste after ng ('byung ste, 'ong ste, myong ste), te after s ('jigs te, skyes te, 'khyams te, bcas te) covered by the master's ཏེ ("this print also writes it after other letters").
+- "perhaps" kept where the notes call a reading uncertain: ཡི read as 'by' (u. 11, `l` "of(by?)"), གྷཱིརྟི་མ, the master's ཐོབ་ཅིག; mtsher read as 'tsher.
+- Sanskrit: Sukhāvatī, Pāṇḍaravāsinī, Avalokiteśvara, Mañjuśrī, Gītā (marked perhaps), preta, kleśa, asura, Amoghasiddhi, Samayatārā, samaya, pratyavekṣaṇājñāna (note) are right.
+- Known forms read against their use here: the master's entries for ཀྱིས (kyis for kyi, u. 21, 32, 36), གི, གིས ('ong gis, u. 27), གྱིས (both 'do!' and 'by'), ཅིག (u. 25), ཡང (gzhan yang, da dung yang), ཏེ, སྟེ, ཤིང, དྲུག་ཏུ (sku drug tu), ཟིན་པར (now broadened by the glosser), གྲུབ་པའི (likewise), ཐད་ཀར, ཙམ་དུ, བར་དུ, ཐོག་ཏུ, འཁྱམས, བྲོས, སྐྱེས, བསྐྱེད cover their use; only ན, བཞུགས་པ and པདྨ needed broadening (above).
+- All 49 units re-read: pass 1's changes are sound; verse line counts equal in w, l, i (u. 11, 39, six lines each); the misprint notes (u. 23, 25) in the required form; u. 47's "again has no thams cad" agrees with the log (53.3, the 004 pattern).
+
+### Findings considered and refused
+
+- རིགས་པ (master) "rig pa as printed once with a final s": the print now has it twice (002 and u. 29 here). A broadening must keep the master entry whole, so it cannot remove "once"; the sense the entry gives is right for this use. Left for whoever edits the master.
+- u. 15 · note "bskyod, past of skyod": pass 1 refused "past and future" here as no error; the sentence has the past. The gloss now gives both stems. Kept.
+- u. 25 · note "cig is the print's form of zhig" against the master's ཅིག "gcig written without its prefix g-": both accounts of the indefinite cig are current; the note says "as before", following the earlier parts. Kept.
+- ཤང་ཤང "in pictures part bird and part human": an iconographic remark, but the note to u. 49 (after pass 1's trim) says the same, and the word is otherwise unexplained by its letters. Kept.
+- འོང་བ "'ong ba yin no 'is coming'", སྐྱེ "skye rga na 'chi …", བཞི་པ "zhag bzhi pa", དམར "dmar la": set phrases showing the form's use, as the master gives (བསུ་བ, སེར), not a line's wording. Kept.
+- ལ broadening "on": the master's "at" nearly covers it, but "seated on" is the plain English of the construction and the gloss is harmless. Kept.
+- ཞེན་ཅིག (master) zhen cig, where the rule gives zhig: the master gives the form without remark for 003–004 too; the print's cig for zhig/shig after n is listed in QUESTIONS.md (ཉོན་ཅིག) as a habit awaiting the owner. No broadening.

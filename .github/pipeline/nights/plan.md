@@ -85,10 +85,11 @@ scan anomaly turns up later in the volume.
 | done (2026-11-20, unattended) | 799–806 | 777–784 | `archive/pp777-784.json` | Night 157 closes (P779L07); Night 158 label own line P779L08, Night 159 label P781L01, Night 160 label P783L18 (all h); verse pp. 779–780, 782, 784; ʿAlī ibn Bakkār and Shams al-Nahār continues; all joins continuous incl. 776→777 |
 | done (2026-11-20, unattended) | 807–814 | 785–792 | `archive/pp785-792.json` | Night 160 closes (P785L10); Night 161 label own line P785L11, Night 162 P789L13, Night 163 P791L15 (all h); verse pp. 786–787, 790; ʿAlī ibn Bakkār and Shams al-Nahār continues; all joins continuous incl. 784→785 |
 | done (2026-11-21, unattended) | 815–822 | 793–800 | `archive/pp793-800.json` | Night 163 closes (P795L02); Night 164 label own line P795L03, Night 165 P798L20, Night 166 P800L21 (all h); verse p. 793; ʿAlī ibn Bakkār and Shams al-Nahār continues; all joins continuous incl. 792→793 |
+| done (2026-11-21, unattended) | 823–830 | 801–808 | `archive/pp801-808.json` | Night 166 closes (P803L02); Night 167 label own line P803L03, Night 168 P805L16 (both h); verse pp. 804, 808; P803L01–02 missed by the line detector (read as header) and set by hand from the scan; headers ٨٠١/٨٠٣/٨٠٨ confirm −22; all joins continuous incl. 800→801 |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 822 (archive ends at printed p. 800; PDF − 22 holds through vol. 1; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py uses −22). Pages remaining in vol. 1: 110 PDF pages (823–932), then vol. 2 (PDF 936–1631, see runbook step 0.1)
+**Last PDF page done: 830 (archive ends at printed p. 808; PDF − 22 holds through vol. 1; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py uses −22). Pages remaining in vol. 1: 102 PDF pages (831–932), then vol. 2 (PDF 936–1631, see runbook step 0.1)
 (approximate, pending the corrected offset holding). Lines archived: 17754 (17574 + 180). calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new

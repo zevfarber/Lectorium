@@ -1,0 +1,99 @@
+# Packet — cid-tiradas-95-95: The battle against Yúsuf and the great spoil
+
+Tiradas 95–95, Pidal lines 1711–1798 (Cantar II (Bodas)).
+The established text below is pinned. A unit's `t` is one or more consecutive verses joined by "\n", cut by script.
+Flags: no OCR text for: 1757
+
+
+## tirada 95
+
+1711	Salidos son todos armados por las torres de [Quarto],
+1712	mio Çid a los sos vassallos tan bien los acordando.
+1713	Dexan a las puertas omnes de grant recabdo.
+1714	Dió salto mio Çid en Bavieca el so cavallo;
+1715	de todas guarnizones muy bien es adobado.
+1716	La seña sacan fuera, de Valençia dieron salto,
+1717	quatro mill menos treínta con mio Çid van a cabo.
+1718	a los çinquaenta mill vanlos ferir de grado;
+1719-20	Álvar Alvar[oz] e Minaya entráronles del otro cabo.
+1721	Plogo al Criador e ovieron de arrancarlos.
+1722	Mio Çid enpleó la lança, al espada metió mano,
+1723	atantos mata de moros que non fueron contados;
+1724	por el cobdo ayuso la sangre destellando.
+1725	Al rey Yúcef tres colpes le ovo dados,
+1726	saliósle del sol espada, ca muchol andido el cavallo.
+1727	metiósle en Gujera, un castiello palaçiano;
+1728	mio Çid el de Bivar fasta allí llegó en alca[nço]
+1729	con otros quel consiguen de s[o]s buenos vassallos.
+1730	Desd' allí se tornó el que en buen ora nasco,
+1731	mucho era alegre de lo que an caçado;
+1732	allí preçió a Bavieca de la cabeça fasta a cabo.
+1733	Toda esta ganançia en su mano a rastado.
+1734	Los çinquaenta mill por cuenta fuero' notados:
+1735	non escaparon mas de çiento e quatro.
+1736	Mesnadas de mio Çid robado an el canpo;
+1737	entre oro e plata fallaron tres mill marcos,
+1738	[de] las otras ganançias non avía recabdo.
+1739	Alegre era mio Çid e todos sos vassallos,
+1740	que Dios les ovo merçed que vençieron el campo:
+1741	quando al rey de Marruecos assí lo an arrancado,
+1742	dexó Álbar Fáñez por saber todo recabdo;
+1743	con çient cavalleros a Valençia es entrado,
+1744	fronzida trahe la cara, que era desarmado,
+1745	assí entró sobre Bavieca, el espada en la mano.
+1746	Reçibienlo las dueñas que lo están esperando;
+1747	mio Çid fincó antellas, tovo la rienda al cavallo:
+1748	“A vos me omillo, dueñas, grant prez vos he gañado:
+1749	vos teniendo Valençia, e yo vençí el campo;
+1750	esto Dios se lo quiso con todos los sos santos,
+1751	quando en vuestra venida tal ganançia nos han dad[o].
+1752	Ve[e]des el espada sangrienta e sudiento el cavallo:
+1753	con tal cum esto se vençen moros del campo.
+1754	Rogad al Criador que vos viba algunt año,
+1755	entraredes en prez, e besarán vuestras manos.”
+1756	Esto dixo mio Çid, diçiendo del cavallo.
+1757	Quandol vieron de pie que era descavalgado,
+1758	las dueñas e las fijas, e la mugier que vale algo
+1759	delant el Campeador los inojos fincaron:
+1760	“Somos en vuestra merced, e bivades muchos años!”
+1761	En buelta con él entraron al palaçio,
+1762	e ivan posar con él en unos preçiosos escaños.
+1763	“Ya mugier d[o]ña Ximena, nom lo aviedes rogado?
+1764	Estas dueñas que aduxiestes, que vos sirven tanto,
+1765	quiérolas casar con de aquestos mios vassallos;
+1766	a cada una dellas doles dozientos marcos,
+1767	que lo sepan en Castiella, a quién sirvieron tanto.
+1768	Lo de vuestras fijas venir se a más por espacio.”
+1769	Levantáronse todas e besáronle las manos,
+1770	grant f[o] el alegría que f[o] por el palaçio.
+1771	Commo lo dixo el Çid, assí lo han acabado.
+1772	Minaya Álbar Fáñez fuera era en el campo,
+1773	con todas estas yentes escriviendo e contando;
+1774	entre tiendas e armas e vestidos preçiados
+1775	tanto fallan [ellos] desto que [mucho] es sobejano.
+1776	Quiérovos dezir lo que es más granado:
+1777	non pudieron saber la cuenta de todos los cavallos
+1778	que andan arriados e non ha qui tomallos;
+1779	los moros de las tierras ganado se an y algo;
+1780	maguer de todo esto, el Campeador contado
+1781	de los buenos e otorgados cayéronle mill cavallos;
+1782	quando a mio Çid cayeron tantos,
+1782b	los otros bien pueden fincar pagados.
+1783	Tanta tienda preciada e tanto tendal obrado
+1784	que a ganado mio Çid con todos s[o]s vassallos!
+1785	La tienda del rey de Marruecos, que de las otras es cabo,
+1786	dos tendales la sufren, con oro son labrados;
+1787	mandó mio Çid [el Campeador contado],
+1788	que fita sovisse la tienda, e non la tolliesse dent cristiano:
+1789	“Tal tienda commo esta, que de Marruecos [h]a passado,
+1790	enbiar la quiero a Alfonsso el Castellano,
+1791	que croviesse s[u]s nuevas de mio Çid que avíe algo.”
+1792	Con aquestas riquezas tantas a Valençia son entrados.
+1793	El obispo don Jero[me], caboso coronado,
+1794	quando es farto de lidiar con amas las sus manos,
+1795	non tiene en cuenta los moros que ha matados;
+1796	lo que ca[d]ié a él mucho era sobejano;
+1797	mio Çid don Rodrigo, el que en buen ora nasco,
+1798	de toda la su quinta el diezmo l'a mandado.
+
+Glossary: 266 of 341 forms already in cid-glossary.json.

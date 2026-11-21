@@ -1919,3 +1919,14 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed (possible misprints, for the publishing run to judge): P793L06 واصحلته (for واصلحته); P793L19 تي (for في); P795L22 الناني (for الثاني); P796L08 فقات (for فقلت); P798L21 السيعدان (spacing/letters, for السعيد ان); P798L02 الحارت.
 - Night labels P795L03 (164), P798L20 (165), P800L21 (166) are on their own lines with h, per precedent. Nights 163, 164 and 165 are now complete and unpublished; the next three firings should publish them.
 - Nothing to decide.
+
+## Night 163 (P791L15–P795L02, published 2026-11-21)
+- An earlier firing claimed this night at 06:22 UTC and pushed its emend entries, then published nothing. This run took over the claim at 10:23 (over 3 hours old, so abandoned) and reused those entries.
+- Misprints corrected (emend.json): P792L01 غليها → عليها; P793L06 واصحلته → واصلحته; P793L19 تي → في; P794L02 فرجدت → فوجدت; P794L09 احي → اخي.
+- Kept as printed, with notes:
+  - P792L12 فقلت ما يحضر به الاّ انت: the masculine انت fits the slave-girl speaking to the jeweller better (فقالت). Kept as فقلت and noted.
+  - P793L21 كلامه, for the little maid's words (possibly for كلامها). P795L02 داره الثانية التي هو ساكن بها: read as "his other house", because the "second house" is the one that was stripped. P794L22 احسن جماعة: an odd phrase, possibly corrupt.
+  - Verse: الْاَرِقَا, اَعْشِقُ, سَأُعُدُّهَا, خُمْرَةَ and الْعُسَّالِ are the print's points, kept and noted.
+  - Middle Arabic: استقرّيت, نطّيت, تخبّيت, يصدفوهم (no -na), الي for ilā.
+- Library label: `Night 163 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
+- Nothing to decide. Nights 164 and 165 are complete and unpublished, so the next two firings should publish them.

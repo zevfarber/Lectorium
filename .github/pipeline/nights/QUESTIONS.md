@@ -1952,3 +1952,13 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
   - From P800L07 the narrating "I" is the slave-girl, inside the jeweller's account; the note says so.
 - Library label: `Night 165 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
 - Nothing to decide. Night 166 is not complete yet (only its heading is transcribed), so the next firing should transcribe.
+
+## Night 166 (P800L21–P803L02, published 2026-11-21)
+- Misprints corrected (emend.json): P801L06 يدبها → يديها; P802L04 وانفقوا → واتفقوا; P802L09 نكونوا → تكونوا (the watchmen ask "who are you?"); P802L10 وحرجت → وخرجت.
+- Kept as printed, with notes:
+  - P801L02 جاو بها: read jāʾa bihā, "(the man who) brought her", with the hamza unwritten; pointed جَاؤَ on the printed letters. The plural jāʾū is ruled out by the singular الرجل الذي.
+  - P801L06 فرشّت: the print's shadda kept; read first person, "I sprinkled", pointed رَشّْتُ (shadda and sukūn on one letter, as at Night 83). By its letters alone it would be rashshat, "she sprinkled"; noted.
+  - P801L03 فلما اصبحت الصباح: read aṣbaḥat ("when she reached the morning"), with aṣbaḥtu noted as the alternative; اندهشت/قطعت/تقدمت read first person (the slave-girl), "she" noted as possible.
+  - P802L10 سكرت: read sakirtu, "I had been drinking", part of Shams al-Nahār's story to the watch. P802L07 احضرلنا kept as one word. P802L21 تعوض على الناس, Middle Arabic ʿawwaḍa ʿalā. P801L04 منعت انا للجوارى, li- marking the object.
+- Library label: `Night 166 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
+- Nothing to decide. Night 167 is complete and unpublished, so the next firing should publish it.

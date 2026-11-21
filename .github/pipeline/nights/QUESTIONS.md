@@ -1962,3 +1962,14 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
   - P802L10 سكرت: read sakirtu, "I had been drinking", part of Shams al-Nahār's story to the watch. P802L07 احضرلنا kept as one word. P802L21 تعوض على الناس, Middle Arabic ʿawwaḍa ʿalā. P801L04 منعت انا للجوارى, li- marking the object.
 - Library label: `Night 166 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
 - Nothing to decide. Night 167 is complete and unpublished, so the next firing should publish it.
+
+## Night 167 (P803L03–P805L15, published 2026-11-21)
+- Misprints: none.
+- Kept as printed, with notes:
+  - P803L06 امضي: read amḍī ("I will go"), with imḍī ("go!") noted. P803L20 لحظة: taken with what precedes ("bring him to me for a moment"); the other attachment is noted.
+  - P803L04–05: the opening sentence starts "that the jeweller, when the slave-girl said to him…" and slides into his own "I" without finishing; the note explains it. P804L22 "the jeweller said to him" in the third person inside his own narration; noted.
+  - P805L12 ولم اعلمها: read lam uʿlimhā ("nor told her the reason"); lam aʿlamhā noted. P805L14 فان ما عندها احفظ واقرب لكتمان السر غيري: loose grammar, read "she has no one besides me more trustworthy…"; noted.
+  - Run-together ماجرى, مابك, مايسرّك, واعتذرلي kept as one word. Verse (P804L20–21) copied as printed; اَمَّا with no fa- in its answer noted.
+- The night ends mid-speech of the slave-girl; her quotation is left open, as at the end of Night 165.
+- Library label: `Night 167 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
+- Nothing to decide. Night 168 is not complete yet (its tail is unread), so the next firing should transcribe.

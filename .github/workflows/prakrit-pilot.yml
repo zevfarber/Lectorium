@@ -1,0 +1,43 @@
+name: Prakrit voices pilot
+
+# Pilot only, 2026-11-22: four Kalpasūtra passages read by three borrowed voices, into audio-pilot/prakrit/,
+# for Zev to choose the Prakrit voice by ear (audio-pilot/prakrit.html).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/scripts/prakrit_pilot.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  prakrit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github
+            audio-pilot
+            kalpasutra-001.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Synthesize
+        env:
+          GOOGLE_TTS_KEY: ${{ secrets.GOOGLE_TTS_KEY }}
+        run: python3 .github/scripts/prakrit_pilot.py
+      - name: Commit
+        run: |
+          git config user.name "lectorium-audio-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          rm -rf audio   # the usage counter written during synthesis lives outside this sparse checkout
+          git add audio-pilot/
+          git diff --cached --quiet && exit 0
+          git commit -m "Prakrit voices pilot clips [skip ci]"
+          for a in 1 2 3 4 5; do git push && exit 0; git pull --rebase origin main; sleep $((a*5)); done
+          exit 1

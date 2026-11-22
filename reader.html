@@ -211,6 +211,12 @@
   body[data-script="arabic"] #popW { font-size: 1.9rem; line-height: 1.9; direction: rtl; }
   /* Hebrew (Mishnah, Bible): pointed text needs a font whose niqqud sits cleanly; the vowel points
      hang below the line, so it wants nearly as much leading as Arabic. */
+  /* Korean: old Hangul syllables (ᄒᆞ, ᄃᆡ) are built from conjoining letters, which only some fonts assemble
+     into one block — Malgun Gothic (Windows), Apple SD Gothic Neo (Apple), Noto Sans CJK KR (Android). */
+  body[data-script="hangul"] .de, body[data-script="hangul"] #popW, body[data-script="hangul"] .storySub .tOrig,
+  body[data-script="hangul"] h1.storyTitle {
+    font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', 'Noto Sans CJK KR', 'Noto Sans KR', 'Source Han Sans K', sans-serif; }
+  body[data-script="hangul"] .de { font-size: 1.32rem; line-height: 1.95; word-break: keep-all; }
   body[data-script="hebrew"] .de.rtl,
   body[data-script="hebrew"] #popW {
     font-family: 'Noto Serif Hebrew', 'SBL Hebrew', 'Ezra SIL', 'Times New Roman', serif; }
@@ -965,7 +971,11 @@ const WORD_CLASS = 'A-Za-zÀ-ÖØ-öø-ÿ\\u0100-\\u024F\\u0300-\\u036F\\u1E00-\
   /* Phoenician (U+10900-1091B, astral): the regex has no u flag, so a letter is a surrogate pair —
      the high surrogate D802 and the low DD00-DD1B both sit in the class. The word divider U+1091F
      (low DD1F) stays out. */
-  + '\\uD802\\uDD00-\\uDD1B';
+  + '\\uD802\\uDD00-\\uDD1B'
+  /* Hangul (Korean, 2026-11-22): modern syllables, the conjoining jamo that spell old syllables such as
+     ᄒᆞ (arae-a) letter by letter, their Extended-A/B blocks, the compatibility letters, and the repeat
+     mark 〻 (U+303B), which the Jeonju prints set INSIDE a word (계〻승〻 = 계계승승). */
+  + '\\u1100-\\u11FF\\u3131-\\u318E\\u303B\\uA960-\\uA97F\\uAC00-\\uD7A3\\uD7B0-\\uD7FF';
 /* Han characters: no spaces are written, and in Classical Chinese the character IS the word,
    so each one tokenizes on its own (a run must NOT collapse into a single token). */
 const HAN_CLASS = '\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uF900-\\uFAFF';
@@ -1081,6 +1091,11 @@ function simplifyConfig(story){
              names: { read: 'As read', latin: 'As written' },
              title: 'Press to switch the Latin line between the words as read aloud and the letters of the script in transliteration (CAPITALS are Aramaic word-signs)',
              stateKey: 'writtenMP', fn: x => x };
+  // Korean (Chunhyang): mt carries the modern spelling of every word, since the old letter ㆍ has no
+  // single modern value (ᄒᆞ → 하, ᄃᆡ → 대, but 마리 → 말이 and 힝곡 → 향곡 are spelling, not letters).
+  if (story.script === 'hangul' && story.sentences.some(x => Array.isArray(x.mt)))
+    return { label: 'ᄒᆞ→하', labelOn: '하→ᄒᆞ', title: 'Modern spelling — each word as Korean is spelled today, instead of the 1910s woodblock’s spelling with the old letter ㆍ',
+             titleOn: 'Printed spelling — back to the woodblock’s own letters', stateKey: 'modernKO', fn: x => x };
   if (story.sentences.some(x => Array.isArray(x.mt)))
     return { label: 'ꜩ→tz', labelOn: 'tz→ꜩ', title: 'Modern letters — the words in today\u2019s K\u2019iche\u2019 alphabet instead of the manuscript\u2019s colonial spelling (ꜩ ꜯ ꜭ ꜫ, v, z, h, c/qu)',
              titleOn: 'Manuscript letters — back to Ximénez\u2019s spelling as written', stateKey: 'modernKI', fn: x => x };

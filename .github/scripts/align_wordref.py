@@ -37,7 +37,9 @@ WORD_CLASS = ('A-Za-z\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u00ff\\u0100-\\u024F\\u03
               '\u0386-\u03ff\u0400-\u04ff\\u1F00-\\u1FFF\\u1820-\\u1877\\u180B-\\u180E'
               '\\u0620-\\u065F\\u0670-\\u06D3\\u06D5-\\u06ED'
               # Hebrew (2026-10-08), as in reader.html and wordre.py
-              '\\u0591-\\u05BD\\u05BF\\u05C1\\u05C2\\u05C4\\u05C5\\u05C7\\u05D0-\\u05EA\\u05F0-\\u05F4')
+              '\\u0591-\\u05BD\\u05BF\\u05C1\\u05C2\\u05C4\\u05C5\\u05C7\\u05D0-\\u05EA\\u05F0-\\u05F4'
+              # Hangul (2026-11-22), as in reader.html and wordre.py
+              '\\u1100-\\u11FF\\u3131-\\u318E\\u303B\\uA960-\\uA97F\\uAC00-\\uD7A3\\uD7B0-\\uD7FF')
 HAN_CLASS = '\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uF900-\\uFAFF'
 WORD_PAT = '[' + HAN_CLASS + ']|[' + WORD_CLASS + ']+(?:[-\\[\\]()][' + WORD_CLASS + ']+)*'
 WORD_RE = re.compile(WORD_PAT)

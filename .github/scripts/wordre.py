@@ -32,6 +32,9 @@ WORD_CLASS = (
     '\u0591-\u05BD\u05BF\u05C1\u05C2\u05C4\u05C5\u05C7\u05D0-\u05EA\u05F0-\u05F4'
     # Phoenician letters U+10900-1091B (reader.html matches them as surrogate pairs); not the divider U+1091F.
     '\U00010900-\U0001091B'
+    # Hangul (Korean, 2026-11-22), as in reader.html: syllables, conjoining jamo (old syllables such as ᄒᆞ
+    # are spelled with them), Extended-A/B, compatibility letters, and the repeat mark 〻 (U+303B).
+    '\u1100-\u11FF\u3131-\u318E\u303B\uA960-\uA97F\uAC00-\uD7A3\uD7B0-\uD7FF'
 )
 HAN_CLASS = '㐀-䶿一-鿿豈-﫿'
 WORD_RE = re.compile('[' + HAN_CLASS + ']|[' + WORD_CLASS + ']+(?:[-\\[\\]()][' + WORD_CLASS + ']+)*')

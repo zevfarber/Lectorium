@@ -46,6 +46,12 @@ VOICES = {
     # Wavenet-A reading the pointed, punctuated text. Do not move Hebrew back to a Chirp voice.
     "he-IL": {"name": "he-IL-Wavenet-A", "lang": "he-IL", "espeak": "he",
               "candidates": ["he-IL-Wavenet-A", "he-IL-Standard-A"]},
+    # Korean (Chunhyang, 2026-11-22): the voice reads each unit's `say`, the modern spelling of the
+    # woodblock's text (the page keeps the old letter ㆍ, which no voice reads). Standard Seoul reading.
+    # Name left empty: the first run resolves it (best female voice, Chirp 3 HD first) and writes
+    # audio/<id>/voice.txt; pin it here afterwards, once Zev has heard it.
+    "ko-KR": {"name": "", "lang": "ko-KR", "espeak": "ko",
+              "candidates": ["ko-KR-Chirp3-HD-Achernar", "ko-KR-Wavenet-A"]},
 }
 
 # Languages with no Google voice and no browser voice (langCode null) that are read by another

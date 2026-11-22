@@ -19,3 +19,6 @@
 ## cid-tiradas-84-86 (establish, 2026-11-20)
 - 1555 "Otro día manaña": Pidal's print has no tilde on the first n (400 dpi), against "mañana" at 1540 and elsewhere. Likely a dropped tilde in the type. Decided meanwhile: kept as printed (sole-source rule: the image decides); the drafter should note it and translate as "next morning".
 - 1595 "cinxiestes": printed without cedilla (cf. çinxo 1560, 1574, 1603). Decided meanwhile: kept as printed; glossary will key the form as printed.
+
+## 2026-11-22 · cid-tiradas-103-104a · margin label 1990
+Pidal's margin (PDF p. 258, printed p. 254) prints "1990" beside "Minaya Álbar Fáñez e aquel Per Vermu[doz]". Counting from 1985 (and his footnote 1987 on "mula", in "Tanta gruessa mula") puts "chicos e grandes" at 1990 and Minaya at 1991; counting back from 1995 and footnote 1993 ("coranado") with 1992b gives the same. Decided meanwhile: the draft's labels are kept (Minaya = 1991); the printed label is taken as set one line low. 2004b remains a provisional letter of ours (one printed line more than the labels 2000b … 2005 allow).

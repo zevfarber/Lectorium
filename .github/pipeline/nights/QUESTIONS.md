@@ -2034,3 +2034,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, with notes: P818L05 با لوزير split (read bi-al-wazīri); عامي vocalised ʿāmmiyyin (no shadda printed); ماجرى, لاينفعه set solid; فى with ى; وأمره read wa-ʾmurhu with the printed أ.
 - Glossary: shared كِتَافَهُ corrected from 'his shoulders' to 'his bonds'; the shared وَالِدِهِ entry carried a remark about "sentence 97" of some earlier night (house business) — dropped; the night it came from was not traced.
 - Nothing to decide. Nights 175–178 are complete and unpublished.
+
+## Night 175 (P818L10–P819L16, published 2026-11-22)
+- Library label: `Night 175 · Qamar al-Zamān, continued`.
+- Misprint corrected (emend.json): P818L14 والده→ولده (the king is anxious about his son; the same sentence goes on لم يكن له ولد سواه).
+- Kept as printed, with notes: الغضاة (al-ghaḍā); متشوش; لم يجىء; شيأ; فى/في; على الذي اساء الادب (alladhī as a bare "that"); the khādim and the mamlūk who serve the prince are not said to be one man; no شعر rubric before the third poem.
+- Verse copied as printed; tr follows the printed vowels (uqūlu for اُقُوْلُ, ḍūʾa for ضُوْءَ, banāta for وَبَنَاتَ), the intended reading in the note, as in earlier nights. ساهٍ after raʾaytu, اَلْقٰى (subject left open), and تَبْرِي (as printed "pares"; translated "heals" by the sense) noted.
+- Nothing to decide. Nights 176–178 are complete and unpublished.

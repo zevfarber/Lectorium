@@ -13,6 +13,6 @@
 | bardo-thodol-008 | Day seven: the knowledge-holders and ḍākinīs, the animal light, the prayer; the peaceful bardo closes | pp. 72–79 | published |
 | bardo-thodol-009 | The bardo of the wrathful deities begins: why it is hard to recognise, and who is freed | pp. 81–90 | published |
 | bardo-thodol-010 | The blood-drinkers of days eight to eleven: Buddha, Vajra, Ratna and Padma Heruka | pp. 90–98 | published |
-| bardo-thodol-011 |  | pp. 99–107 | todo |
+| bardo-thodol-011 | Karma Heruka on day twelve, and the wrathful goddesses: the Gaurīs, the Phra men, the gatekeepers and the first Īśvarīs | pp. 98–107 | established |
 | bardo-thodol-012 |  | pp. 108–115 | todo |
 | bardo-thodol-013 |  | pp. 116–121 | todo |

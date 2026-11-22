@@ -556,6 +556,7 @@
   table.abc.ko td.f { writing-mode:horizontal-tb; height:auto; font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR','Source Han Sans K',sans-serif;
     font-size:1.5rem; line-height:1.5; min-width:40px; white-space:nowrap; }
   table.abc.ko td.f.nm, table.abc.ko td.f.sm { font-size:1rem; }
+  table.abc.ko td.abcn, .abcNote.ko { font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR','Source Han Sans K',system-ui,sans-serif; }
   table.abc.ko td.f .from { display:block; font-size:.62rem; color:var(--muted); font-family:system-ui,'Noto Sans',sans-serif; line-height:1.1; }
   @media (max-width:560px){ table.abc td.abcn { display:none; } }
   table.abc.ki td.f { writing-mode:horizontal-tb; height:auto; font-family:Georgia,'Noto Serif',serif; font-size:1.15rem;
@@ -5084,7 +5085,7 @@ SIGN_GLOSSARIES["hangul"] = { type: "alphabet", groups: HANGUL_ALPHABET };
 
 function renderHangulAlphabet(sg){
   const a = sg.groups, E = escapeHtml;
-  let h = '<div class="abcNote">Hangul was invented in 1443 under King Sejong so that anyone could learn to read in a few days. '
+  let h = '<div class="abcNote ko">Hangul was invented in 1443 under King Sejong so that anyone could learn to read in a few days. '
     + 'It is an alphabet — fourteen consonants and ten vowels — but its letters are stacked into one square <b>block per syllable</b>: '
     + '한 is ㅎ h + ㅏ a + ㄴ n. This woodblock, printed about 1912–1926, still uses the old letter <b>ㆍ</b> and older spellings; '
     + 'the <b>ᄒᆞ→하</b> button shows every word as Korean is spelled today, and the line under each sentence romanizes that modern reading '

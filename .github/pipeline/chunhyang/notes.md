@@ -28,7 +28,7 @@ Crops of three columns by a third of the page height are legible enough to see t
 - `say`: the mt words with modern punctuation, for the voice. Same words as mt, enforced by the build.
 - `tr` (shown under the Korean, `trStyle: "line"`): the Revised Romanization of `say`, made by romanize.py with
   the sound changes inside each word (linking, nasalization, ㄴ/ㄹ → ll, ㅎ), tensification unwritten, the h kept
-  after k/t/p (덕화 deokhwa); proper names and the first word capitalized.
+  after k/t/p (덕화 deokhwa); proper names and the first word capitalized. Shown by default (`trShown`).
 - `wordSay`: the modern form of every printed word that differs, for the word clips.
 - `l`: structurally transparent, following the Korean clause order where English can bear it.
 - `i`: plain English, lightly old-fashioned where the narrator is grand; never childish.

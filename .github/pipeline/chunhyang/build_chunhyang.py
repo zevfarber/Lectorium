@@ -91,6 +91,7 @@ def main(root):
         "langCode": "ko-KR",
         "script": "hangul",
         "trStyle": "line",
+        "trShown": True,
         "source": SOURCE,
         "about": ABOUT,
         "wordClips": True,

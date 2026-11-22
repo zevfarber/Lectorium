@@ -6491,7 +6491,9 @@ $('scanBtn').onclick = () => {
    the glyphs are unreadable without them; a whole romanized LINE under the sentence
    (Arabic…) is OFF by default — it is the escape hatch from the script, not the norm. */
 let hideTr = false;
-function trPrefKey(){ return (story && story.trStyle === 'line') ? 'hideTrLine' : 'hideTr'; }
+/* a romanization-line story with trShown (Korean) shows its line by default, under its own key, so hiding
+   the Arabic line does not hide the Korean one */
+function trPrefKey(){ return (story && story.trStyle === 'line') ? (story.trShown ? 'hideTrLineShown' : 'hideTrLine') : 'hideTr'; }
 function loadTrPref(){
   const k = trPrefKey();
   let v = null;

@@ -13,3 +13,4 @@
   build_audio.py with the name left empty, so the first run picks the voice (Chirp 3 HD first) — for Zev to
   hear and approve or replace.
 - 2026-11-22 · romanization line added: `tr` per unit (Revised Romanization of `say`, romanize.py), trStyle "line".
+- 2026-11-22 · romanization line shown by default (trShown); Hangul alphabet added to the reader (📜 Alphabet: consonants, vowels, syllable blocks, the print's old letters, spelling to sound).

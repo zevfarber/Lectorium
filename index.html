@@ -552,6 +552,11 @@
   table.abc.dn td.f { writing-mode:horizontal-tb; height:auto; font-family:'Noto Serif Devanagari','Noto Sans Devanagari','Nirmala UI','Kohinoor Devanagari','Devanagari Sangam MN','Mangal',serif;
     font-size:1.5rem; line-height:1.5; font-style:normal; min-width:40px; }
   table.abc.dn td.f .from { display:block; font-size:.62rem; color:var(--muted); font-family:system-ui,'Noto Sans',sans-serif; line-height:1.1; }
+  /* Korean alphabet (Hangul): fonts that also assemble the old syllables (ᄒᆞ) into one block */
+  table.abc.ko td.f { writing-mode:horizontal-tb; height:auto; font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR','Source Han Sans K',sans-serif;
+    font-size:1.5rem; line-height:1.5; min-width:40px; white-space:nowrap; }
+  table.abc.ko td.f.nm, table.abc.ko td.f.sm { font-size:1rem; }
+  table.abc.ko td.f .from { display:block; font-size:.62rem; color:var(--muted); font-family:system-ui,'Noto Sans',sans-serif; line-height:1.1; }
   @media (max-width:560px){ table.abc td.abcn { display:none; } }
   table.abc.ki td.f { writing-mode:horizontal-tb; height:auto; font-family:Georgia,'Noto Serif',serif; font-size:1.15rem;
     line-height:1.3; min-width:0; white-space:normal; width:3.6em; }
@@ -4986,6 +4991,143 @@ function renderDevanagariAlphabet(sg){
   return h + '</table></div>';
 }
 
+/* Korean (Chunhyang, 2026-11-22): the Hangul alphabet — letters, how they stack into syllable blocks,
+   the old letters the Jeonju woodblock still uses, and how the spelling becomes sound. Romanization as in
+   the line under the text (Revised Romanization). Registered in SIGN_GLOSSARIES for the shared 📜 button. */
+const HANGUL_ALPHABET = {
+  // [letter, name, name romanized, at the start of a syllable, at the end, how to say it]
+  consonants: [
+    ["ㄱ","기역","giyeok","g","k","k without a puff of air; between vowels a soft g"],
+    ["ㄴ","니은","nieun","n","n",""],
+    ["ㄷ","디귿","digeut","d","t","t without a puff; between vowels a soft d"],
+    ["ㄹ","리을","rieul","r","l","a tapped r between vowels; l at the end of a syllable and when doubled (ll)"],
+    ["ㅁ","미음","mieum","m","m",""],
+    ["ㅂ","비읍","bieup","b","p","p without a puff; between vowels a soft b"],
+    ["ㅅ","시옷","siot","s","t","s; before i and y nearer sh (시 shi)"],
+    ["ㅇ","이응","ieung","—","ng","silent at the start of a syllable (it holds the place of the vowel); ng at the end"],
+    ["ㅈ","지읒","jieut","j","t","between ch and j, without a puff"],
+    ["ㅊ","치읓","chieut","ch","t","ch with a strong puff of air"],
+    ["ㅋ","키읔","kieuk","k","k","k with a strong puff"],
+    ["ㅌ","티읕","tieut","t","t","t with a strong puff"],
+    ["ㅍ","피읖","pieup","p","p","p with a strong puff"],
+    ["ㅎ","히읗","hieut","h","t","h; at the end of a syllable it usually vanishes or adds a puff to the next consonant"]
+  ],
+  // the tense (doubled) consonants
+  tense: [
+    ["ㄲ","쌍기역","ssanggiyeok","kk","k"],
+    ["ㄸ","쌍디귿","ssangdigeut","tt","—"],
+    ["ㅃ","쌍비읍","ssangbieup","pp","—"],
+    ["ㅆ","쌍시옷","ssangsiot","ss","t"],
+    ["ㅉ","쌍지읒","ssangjieut","jj","—"]
+  ],
+  // [letter, romanized, how to say it]
+  vowels: [
+    ["ㅏ","a","a as in father"],
+    ["ㅑ","ya","ya as in yard"],
+    ["ㅓ","eo","an open o, between the u of 'but' and the o of British 'hot'"],
+    ["ㅕ","yeo","y + eo"],
+    ["ㅗ","o","o as in 'go', without the glide into u"],
+    ["ㅛ","yo","y + o"],
+    ["ㅜ","u","oo as in 'food'"],
+    ["ㅠ","yu","you"],
+    ["ㅡ","eu","oo with the lips spread flat, not rounded"],
+    ["ㅣ","i","ee as in 'see'"]
+  ],
+  compound: [
+    ["ㅐ","ae","e as in 'bed' (ㅏ + ㅣ)"],
+    ["ㅔ","e","e as in 'bed' — today said the same as ㅐ (ㅓ + ㅣ)"],
+    ["ㅒ","yae","ye"],
+    ["ㅖ","ye","ye"],
+    ["ㅘ","wa","wa (ㅗ + ㅏ)"],
+    ["ㅙ","wae","we"],
+    ["ㅚ","oe","we (once a rounded e, as in German ö)"],
+    ["ㅝ","wo","wo, as in 'wonder' (ㅜ + ㅓ)"],
+    ["ㅞ","we","we"],
+    ["ㅟ","wi","wee"],
+    ["ㅢ","ui","eu + i; as the ending -의 ‘of’ it is said e (우탕의 Utangui, said u-tang-e)"]
+  ],
+  // [block, its letters, romanized, how it is built]
+  blocks: [
+    ["가","ㄱ + ㅏ","ga","a tall vowel (ㅏ ㅓ ㅣ …) stands to the right of the consonant"],
+    ["고","ㄱ + ㅗ","go","a flat vowel (ㅗ ㅜ ㅡ …) sits under it"],
+    ["한","ㅎ + ㅏ + ㄴ","han","a final consonant goes at the bottom"],
+    ["왕","ㅇ + ㅘ + ㅇ","wang","a syllable that starts with a vowel is written with the silent ㅇ first; at the bottom ㅇ is ng"],
+    ["숙종","ㅅㅜㄱ ㅈㅗㅇ","sukjong","one block per syllable; spaces come between words, not syllables"],
+    ["늙","ㄴ + ㅡ + ㄺ","neuk","two final consonants: usually only one is said (here k); the other is heard when a vowel follows (늙어 neulgeo)"]
+  ],
+  // the old letters and spellings in this print: [as printed, today, name, what it is]
+  old: [
+    ["ᄒᆞ","하","ㆍ arae-a ‘lower a’",
+     "a vowel of medieval Korean that had disappeared from speech by the 1700s; printers kept writing it out of habit, mostly where Korean now writes ㅏ. The book’s commonest old spelling: ᄒᆞ고 = 하고. Officially dropped in 1933"],
+    ["ᄃᆡ","대","ㆎ arae-a + i","the same old vowel with ㅣ added; today ㅐ (ᄃᆡ왕 = 대왕 ‘great king’, ᄉᆡᆼ = 생, ᄆᆡ = 매)"],
+    ["ᄯᆡ","때","ᄯ ㅅ + ㄷ","old writing of the tense consonants: a ㅅ written before ㄱ ㄷ ㅂ doubles it. ᄯ = ㄸ, ᄭ = ㄲ (ᄭᆡ쳐 = 깨쳐)"],
+    ["셩","성","y after ㅅ ㅈ ㅊ","by 1900 the y-glide after ㅅ ㅈ ㅊ was no longer said, so 셩 and 성, 쥬 and 주, 쳐 and 처 sounded the same; the print writes the y, modern spelling drops it"],
+    ["계〻승〻","계계승승","〻 repeat mark","doubles the syllable before it; two marks after two syllables double the pair (미ᄌᆡ〻〻 = 미재미재)"],
+    ["마리","말이","spelled as heard","the print often writes a final consonant where it is said, at the start of the next syllable: 마리 for 말이, 구든 for 굳은"],
+    ["초의","초에","-의 for -에","the place ending ‘at, in’ is written -의 throughout, as the southwest said it"]
+  ],
+  // [modern spelling, romanized, what happens]
+  rules: [
+    ["말이","mari","a final consonant moves to a following vowel: mal + i is said ma-ri"],
+    ["있다 · 옛","itda · yet","at the end of a syllable only seven sounds are possible — k, n, t, l, m, p, ng — so ㅅ ㅆ ㅈ ㅊ ㅌ ㅎ all end as t"],
+    ["전라도","Jeollado","n and l side by side become ll"],
+    ["백마","baengma","k t p before n or m become ng n m (white horse)"],
+    ["낳거드면","nakeodeumyeon","ㅎ disappears, but puffs into a following ㄱ ㄷ ㅈ (k, t, ch); before a vowel it is silent (낳을 naeul)"],
+    ["일찍","iljjik","the romanization writes the letters' sounds, not every tensing: ㄱ ㄷ ㅂ ㅅ ㅈ after another stop are said tense (늙도록 neukdorok is said neuk-tto-rok)"]
+  ]
+};
+SIGN_GLOSSARIES["hangul"] = { type: "alphabet", groups: HANGUL_ALPHABET };
+
+function renderHangulAlphabet(sg){
+  const a = sg.groups, E = escapeHtml;
+  let h = '<div class="abcNote">Hangul was invented in 1443 under King Sejong so that anyone could learn to read in a few days. '
+    + 'It is an alphabet — fourteen consonants and ten vowels — but its letters are stacked into one square <b>block per syllable</b>: '
+    + '한 is ㅎ h + ㅏ a + ㄴ n. This woodblock, printed about 1912–1926, still uses the old letter <b>ㆍ</b> and older spellings; '
+    + 'the <b>ᄒᆞ→하</b> button shows every word as Korean is spelled today, and the line under each sentence romanizes that modern reading '
+    + '(Revised Romanization, the South Korean standard).</div>';
+  const cons = (title, rows, hasNote) => {
+    let t = '<div class="smGroup"><h4>' + title + '</h4><table class="abc ko">'
+      + '<tr><th>letter</th><th>name</th><th>start</th><th>end</th>' + (hasNote ? '<th class="abcn" style="text-align:left">how to say it</th>' : '') + '</tr>';
+    rows.forEach(r => {
+      t += '<tr><td class="f">' + E(r[0]) + '</td><td class="f nm">' + E(r[1]) + '<span class="from">' + E(r[2]) + '</span></td>'
+        + '<td class="snd">' + E(r[3]) + '</td><td class="snd">' + E(r[4]) + '</td>'
+        + (hasNote ? '<td class="abcn">' + E(r[5] || '') + '</td>' : '') + '</tr>';
+    });
+    return t + '</table></div>';
+  };
+  h += cons('The fourteen consonants — as the first and the last sound of a syllable', a.consonants, true);
+  h += cons('The five tense consonants — doubled letters, said with a tight throat and no puff', a.tense, false);
+  const vow = (title, rows) => {
+    let t = '<div class="smGroup"><h4>' + title + '</h4><table class="abc ko">'
+      + '<tr><th>letter</th><th>with ㅇ</th><th>value</th><th class="abcn" style="text-align:left">how to say it</th></tr>';
+    rows.forEach(r => {
+      const blk = String.fromCharCode(0xAC00 + 11 * 588 + 'ㅏㅐㅑㅒㅓㅔㅕㅖㅗㅘㅙㅚㅛㅜㅝㅞㅟㅠㅡㅢㅣ'.indexOf(r[0]) * 28);
+      t += '<tr><td class="f">' + E(r[0]) + '</td><td class="f">' + E(blk) + '</td><td class="snd">' + E(r[1]) + '</td><td class="abcn">' + E(r[2]) + '</td></tr>';
+    });
+    return t + '</table></div>';
+  };
+  h += vow('The ten vowels — written with a silent ㅇ when no consonant comes first', a.vowels);
+  h += vow('The compound vowels', a.compound);
+  h += '<div class="smGroup"><h4>Building a syllable</h4><table class="abc ko">'
+     + '<tr><th>block</th><th>letters</th><th>value</th><th class="abcn" style="text-align:left">how it is built</th></tr>';
+  a.blocks.forEach(r => {
+    h += '<tr><td class="f">' + E(r[0]) + '</td><td class="f sm">' + E(r[1]) + '</td><td class="snd">' + E(r[2]) + '</td><td class="abcn" style="max-width:none">' + E(r[3]) + '</td></tr>';
+  });
+  h += '</table></div>';
+  h += '<div class="smGroup"><h4>The old letters and spellings in this book</h4><table class="abc ko">'
+     + '<tr><th>printed</th><th>today</th><th class="abcn" style="text-align:left">what it is</th></tr>';
+  a.old.forEach(r => {
+    h += '<tr><td class="f">' + E(r[0]) + '</td><td class="f">' + E(r[1]) + '</td><td class="abcn" style="max-width:none"><b>' + E(r[2]) + '</b> — ' + E(r[3]) + '</td></tr>';
+  });
+  h += '</table></div>';
+  h += '<div class="smGroup"><h4>From the spelling to the sound</h4><table class="abc ko">'
+     + '<tr><th>written</th><th>said</th><th class="abcn" style="text-align:left">what happens</th></tr>';
+  a.rules.forEach(r => {
+    h += '<tr><td class="f">' + E(r[0]) + '</td><td class="snd">' + E(r[1]) + '</td><td class="abcn" style="max-width:none">' + E(r[2]) + '</td></tr>';
+  });
+  return h + '</table></div>';
+}
+
 function signGlossaryFor(st){ return (st && st.script && SIGN_GLOSSARIES[st.script]) || null; }
 
 /* Dispatch: linear per-glyph interlinear, or "as written" quadrat blocking.
@@ -5278,6 +5420,13 @@ function openSigns(){
     $('smTitle').textContent = 'The Tibetan alphabet';
     $('smSub').innerHTML = 'Thirty consonant letters and four vowel marks, written left to right in syllables. A dot (<b>\u0F0B</b>) closes each syllable; there are no spaces between words.';
     $('smBody').innerHTML = renderTibetanAlphabet(sg);
+    $('signModal').classList.add('open');
+    return;
+  }
+  if (story.script === 'hangul'){
+    $('smTitle').textContent = 'The Korean alphabet (Hangul)';
+    $('smSub').innerHTML = 'Fourteen consonants and ten vowels, stacked into one block per syllable, written left to right with spaces between words.';
+    $('smBody').innerHTML = renderHangulAlphabet(sg);
     $('signModal').classList.add('open');
     return;
   }
@@ -6871,8 +7020,9 @@ function loadStory(s){
   if (sb){
     sb.style.display = signGlossaryFor(s) ? '' : 'none';
     sb.textContent = (s.script === 'ethiopic') ? '📜 Fidäl'
-                   : (s.script === 'mongol' || s.script === 'devanagari' || s.script === 'arabic' || s.script === 'kiche' || s.script === 'phoenician' || s.script === 'tibetan') ? '📜 Alphabet' : '📜 Signs';
+                   : (s.script === 'mongol' || s.script === 'devanagari' || s.script === 'arabic' || s.script === 'kiche' || s.script === 'phoenician' || s.script === 'tibetan' || s.script === 'hangul') ? '📜 Alphabet' : '📜 Signs';
     sb.title = (s.script === 'tibetan') ? 'Alphabet — the Tibetan letters, and how the spelling is said'
+      : (s.script === 'hangul') ? 'Alphabet — the Korean letters, the old letters in this book, and how the spelling is said'
       : (s.script === 'kiche') ? 'Alphabet — how to pronounce the K\u2019iche\u2019 letters'
       : (s.script === 'mongol' || s.script === 'devanagari' || s.script === 'arabic')
       ? 'Alphabet reference — every letter in its initial, medial and final shapes'

@@ -2015,3 +2015,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprints corrected (emend.json): P813L04 خدة→خده, P813L05 وقدة→وقده, P813L11 and P813L12 والدة→والده (ة for ه), P813L18 الزاوج→الزواج.
 - Kept as printed, with notes: P813L01 سري pointed sarā with the printed ي; ويروى read yarwī (yurwā possible); P814L04 مُظَفَّرَات with ظ for ض (braided); P814L05 مُجَرَّعَات passive where the sense may want active; P814L08 وَغَدٍ genitive where ghadan is expected; P814L09 تُسْكِنُهُ Form IV where Form I fits; P814L13 اختلي with ي for ى; first poem's metre named only as "appears to be" munsariḥ; the -āṣī poem's metre left unnamed.
 - Nothing to decide. Night 172 is complete and unpublished; the next firing should publish it.
+
+## Night 172 (P814L16–P816L04, published 2026-11-22)
+- Library label: `Night 172 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P815L07 ولدة→ولده, P815L13 خصرة→خصره (ة for ه, as in Night 171).
+- Kept as printed, with notes: واقفون (read as a circumstantial clause); مرت عليه يوم (feminine verb); يستحى with ى; رآيه; ويشكي; العاكر; ازدرت جفونه بالصارم البتار (obscure, candidates named); تهيّج read tahayyaja (imperfect noted); verse الْكَرَي, عَقَارِبٍ, حَرْكَاتِهِ, ظَفْرِهِ, وَارَى, وَاسِ noted; the poem is kāmil and is another version of a poem in Night 17. The night breaks off at يوم موسم; the print splits شهر زاد.
+- Nothing to decide. No complete night is waiting; Night 173 needs the next transcription batch (PDF 839 on).

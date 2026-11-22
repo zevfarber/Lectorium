@@ -2041,3 +2041,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, with notes: الغضاة (al-ghaḍā); متشوش; لم يجىء; شيأ; فى/في; على الذي اساء الادب (alladhī as a bare "that"); the khādim and the mamlūk who serve the prince are not said to be one man; no شعر rubric before the third poem.
 - Verse copied as printed; tr follows the printed vowels (uqūlu for اُقُوْلُ, ḍūʾa for ضُوْءَ, banāta for وَبَنَاتَ), the intended reading in the note, as in earlier nights. ساهٍ after raʾaytu, اَلْقٰى (subject left open), and تَبْرِي (as printed "pares"; translated "heals" by the sense) noted.
 - Nothing to decide. Nights 176–178 are complete and unpublished.
+
+## Night 176 (P819L17–P820L13, published 2026-11-22)
+- Library label: `Night 176 · Qamar al-Zamān, continued`.
+- Misprints: none corrected.
+- Kept as printed, with notes: P820L12–13 فسكتت من الكلام المباح (min, where the print has ʿan in every other dawn formula; sound Arabic, so not treated as a misprint); الد مرياط split (one name, al-Dimiryāṭ, vowels uncertain); بئر روماني معمورة (masculine adjective on a feminine noun); قميص مشمع ("waxed shirt", the cloth doubtful); الاطلس المعدني (probably satin shot with metal thread); ليلة اربعة عشر (bare masculine number); موقود (later form for mūqad); كانه, فى; second محشوة printed without shadda (supplied).
+- Nothing to decide. Nights 177–178 are complete and unpublished.

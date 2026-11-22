@@ -2021,3 +2021,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprints corrected (emend.json): P815L07 ولدة→ولده, P815L13 خصرة→خصره (ة for ه, as in Night 171).
 - Kept as printed, with notes: واقفون (read as a circumstantial clause); مرت عليه يوم (feminine verb); يستحى with ى; رآيه; ويشكي; العاكر; ازدرت جفونه بالصارم البتار (obscure, candidates named); تهيّج read tahayyaja (imperfect noted); verse الْكَرَي, عَقَارِبٍ, حَرْكَاتِهِ, ظَفْرِهِ, وَارَى, وَاسِ noted; the poem is kāmil and is another version of a poem in Night 17. The night breaks off at يوم موسم; the print splits شهر زاد.
 - Nothing to decide. No complete night is waiting; Night 173 needs the next transcription batch (PDF 839 on).
+
+## Night 173 (P816L05–P817L09, published 2026-11-22)
+- Library label: `Night 173 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P816L08 بالامراو→بالامراء (و for ء, as بكاو/ماو before); P817L08 احدوا درك→احد وادرك (space misplaced; entered as two word-level corrections, احدوا→احد and درك→وادرك, because emend.py matches single words).
+- Kept as printed, with notes: الي beside الى; كؤس (vocalised kuʾus as printed, Classical kuʾūs); شان; ثلٰث; مسكوه (Form I); فى, يدى; ياولد set solid; شهامة الملك read al-mulk (al-malik named in the note).
+- Nothing to decide.

@@ -1993,3 +1993,13 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - ʿAlī ibn Bakkār dies in this night; the tale continues (the jeweller's story to Shahrazād's frame), so the label stays "continued".
 - Library label: `Night 168 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
 - Nothing to decide. Nights 169–172 are complete and unpublished; the next firings should publish them. Note for Night 169: the print has no closing formula before the Night 170 label (see transcription PDF 831–838).
+
+## Night 169 (P809L05–P810L21, published 2026-11-22)
+- Misprints: none corrected.
+- Kept as printed, with notes:
+  - P809L17 وقد علمت صبرها: read wa-qad ʿalimtu ṣabrahā ("and I knew what she was bearing"); عدمت ("she had lost her patience") is the likelier sense and is named in the note, but the printed reading makes sense, so it is not emended.
+  - P810L09–11: the jeweller briefly in the third person ("the girl said to the jeweller", "he said to her"), "I" again from فقمت; noted. P810L11 تجديني noted as jussive or colloquial shortening.
+- The print has no closing `وادرك شهرزاد الصباح` formula; the night ends on the bridge to King Shahramān's tale, and the last note says so.
+- Glossary: the shared entry for شَهْرَمَانَ (Night 131's king of the Camphor Islands) was given an added sense for Qamar al-Zamān's father; بِأَعْجَبَ was corrected (bi- marks laysa's predicate; "than" is min).
+- Library label: `Night 169 · ʿAlī ibn Bakkār and Shams al-Nahār ends`. The next tale's English name is for the Night 170 run to take from its heading.
+- Nothing to decide. Nights 170–172 are complete and unpublished.

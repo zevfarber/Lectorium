@@ -9,6 +9,7 @@ PUNCT = '༔།༈༄༅'   # ༔ ། ༈ ༄ ༅
 def wylie_syl(syl):
     """EWTS for one syllable, in the form shown to the reader (long vowels with macrons, no '+')."""
     w = _C.toWylie(syl).strip()
+    if w in LETTERS: return LETTERS[w]
     w = w.replace('+', '')
     w = w.replace('A', 'ā').replace('I', 'ī').replace('U', 'ū').replace('M', 'ṃ')
     return w
@@ -56,6 +57,8 @@ OVERRIDE = {'pad+ma': 'pema', 'd+hU': 'dhu', 'tIr': 'tir', 'kyai': 'kyé',
             'd+hu': 'dhu', 'A': 'a', "seng+ge'i": 'sengge'}   # 2026-11-20: bardo-thodol-002
 OVERRIDE.update({'lA': 'la', 's+ya': 'sya', 'mA': 'ma', 'l+yam': 'lyam', 'puSh+pe': 'pushpé'})   # 2026-11-21: bardo-thodol-004
 OVERRIDE.update({'g+hIrti': 'ghirti'})   # 2026-11-21: bardo-thodol-005
+LETTERS = {'a+th-i+i': 'ithi'}   # 2026-11-22: bardo-thodol-008, the iti stack ཨྠྀི (ཨ over ཐ, reversed gi-gu + gi-gu): one i for each letter
+OVERRIDE.update({'a+th-i+i': 'iti'})   # 2026-11-22: bardo-thodol-008
 OVERRIDE.update({'g+han+d+he': 'ghandhé', 'nIr': 'nir', 'shAkya': 'shakya', 'seng+ge': 'sengge'})   # 2026-11-21: bardo-thodol-006
 
 def word(tok):

@@ -10,7 +10,7 @@
 | bardo-thodol-005 | The third day ends, the fourth, and the fifth begins: Ratnasambhava's prayer, Amitābha, Amoghasiddhi | pp. 45–54 | published |
 | bardo-thodol-006 | The fifth day ends and the sixth begins: Amoghasiddhi's prayer, and all the deities at once | pp. 54–62 | published |
 | bardo-thodol-007 | The sixth day ends: the four wisdoms' light-paths and the six impure lights; the seventh day, the knowledge-holders | pp. 63–72 | published |
-| bardo-thodol-008 |  | pp. 72–80 | todo |
+| bardo-thodol-008 | Day seven: the knowledge-holders and ḍākinīs, the animal light, the prayer; the peaceful bardo closes | pp. 72–79 | established |
 | bardo-thodol-009 |  | pp. 81–89 | todo |
 | bardo-thodol-010 |  | pp. 90–98 | todo |
 | bardo-thodol-011 |  | pp. 99–107 | todo |

@@ -2003,3 +2003,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Glossary: the shared entry for شَهْرَمَانَ (Night 131's king of the Camphor Islands) was given an added sense for Qamar al-Zamān's father; بِأَعْجَبَ was corrected (bi- marks laysa's predicate; "than" is min).
 - Library label: `Night 169 · ʿAlī ibn Bakkār and Shams al-Nahār ends`. The next tale's English name is for the Night 170 run to take from its heading.
 - Nothing to decide. Nights 170–172 are complete and unpublished.
+
+## Night 170 (P811L01–P812L13, published 2026-11-22)
+- Library label: `Night 170 · Qamar al-Zamān begins`; title حِكَايَةُ قَمَرِ الزَّمَانِ. The print gives the tale no heading (Night 169 only announces "the tale of King Shahramān"), so the run named it after its hero; later nights should use `Qamar al-Zamān, continued`. Rename if you prefer another name.
+- Misprints: none corrected.
+- Kept as printed, with notes: P811L12 بالزيّنة (the shadda printed over the yāʾ, which no reading of zīna needs; kept, read bi-al-zīna); شكى/دعى with ى; مالي read mā lī ("I have no wish"); P812L06 verse اَوْقَلَّ run together (aw qalla); P812L08 يُعْطِى with ى (yuʿṭī); النِّسَا shortened for the metre. The first verse pair is attributed in its note to ʿAlqama ibn ʿAbada.
+- Nothing to decide. Nights 171–172 are complete and unpublished.

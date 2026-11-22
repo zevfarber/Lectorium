@@ -31,7 +31,7 @@
 | cid-tiradas-96-101 | Minaya brings the king a gift; royal favour; the Infantes plan the marriages | tiradas 96–101, lines 1799–1884 | published |
 | cid-tiradas-102-102 | The king proposes the marriages and a meeting with the Cid | tiradas 102–102, lines 1885–1958 | published |
 | cid-tiradas-103-104a | Both sides make ready for the meeting on the Tajo | tiradas 103–104, lines 1959–2012 | published |
-| cid-tiradas-104-104b | The Cid kneels before Alfonso and is pardoned | tiradas 104–104, lines 2013–2067 | todo |
+| cid-tiradas-104-104b | The Cid kneels before Alfonso and is pardoned | tiradas 104–104, lines 2013–2067 | established |
 | cid-tiradas-104-104c | The king asks the daughters' hands for the Infantes | tiradas 104–104, lines 2068–2126 | todo |
 | cid-tiradas-105-108 | Gifts and leave-taking; the Cid tells Jimena of the matches | tiradas 105–108, lines 2131–2189 | todo |
 | cid-tiradas-109-111 | Jimena glad, the Cid uneasy; the weddings in Valencia | tiradas 109–111, lines 2190–2277 | todo |

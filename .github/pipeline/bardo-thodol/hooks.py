@@ -227,7 +227,7 @@ def assemble(p, units, gloss):
             words.append(w)
             t += tok + (' ' if tok[-1] in T.PUNCT else '')
         d = {'t': t.strip(), 'words': words, 'l': u['l']}
-        for k in ('i', 'n'):
+        for k in ('i', 'n', 'gap'):
             if u.get(k):
                 d[k] = u[k]
         if u.get('p'):

@@ -186,3 +186,121 @@ Severity count: major 0 · minor 7 · style 16 (23 change lines).
   change it, edit the master entries and leave the published notes, or bring them into line together.
 - The establish log's count of [?] marks (17) does not match the 14 marks in the pinned file. The log is left as written, a
   record of that firing.
+
+## Pass 2
+
+Second pass. Each of the 141 entries in gloss.json and its 2 broadenings was checked against the word and its use in
+units.json (w / l / i / n), against the master entries of related forms (stems, particle forms, Sanskrit), and against
+glossary.json style. The master entries of the 204 known forms used in this part were read by script against the units where
+each occurs, to find uses they do not cover. Then all 33 units were read again from the original through `l` to `i`, with
+pass 1's changes. Both files were edited by script (ensure_ascii=False, indent 1, no final newline). A round-trip of each
+unedited file was checked to be byte-identical first. `w` is unchanged.
+
+Key check by script: the gloss.json keys equal the part's words not in the master glossary (141 of 345). None is unused and
+none is already in the master. Every broadening (2 from the glosser, 6 added here) is of a master key used in this part, and
+each begins with the master entry whole + " · ". Letter check: 33 units, 4093 letters, PASS (sha256 of the pinned source
+matches). hooks.assemble + hooks.validate were run in memory, with gloss.json merged as `r3.py build` merges it (validate
+reading the glossary as it would be written; nothing written). Result: no error, no WARN, and no "no glossary entry" left.
+`r3.py build` was not run.
+
+### Changes: gloss.json
+
+- gloss ཀས · sense · minor · "the draft takes it as 'and others'" was pinned to the draft and wrong about it: the draft reads
+  -s as the doer's ending, hedged · now "a doubtful reading of this print (ka + -s?) after gzhan dag 'others': perhaps for kyang
+  'too', or for gnas 'abodes' …; the sense is not sure", matching pass 1's u. 31 ruling.
+- gloss ཐོས་པ · stem · minor · "thos, past of nyan 'hear'": thos "to hear" is a verb of its own (nyan "listen" has past mnyan) ·
+  now "(thos 'to hear' + -pa)".
+- gloss སྒོམས་པ · stem · minor · "(sgom + -pa; the print spells it sgoms)" · now "sgoms, in form the imperative of sgom (sgom /
+  bsgoms / bsgom / sgoms), written for the past bsgoms", as the u. 16 note.
+- gloss བསྒོམ་པའི, བསྒོམ་པར · stem · minor · given as "sgom pa + …", which hid the stem · now "bsgom, the future stem of sgom".
+- gloss ཕྱེད་པའི · stem · minor · "phyed, a form of phye 'to divide'" did not say what phye is · now "a spelling of phye, the past
+  stem of 'byed 'to open, to separate'", with bye brag phyed as the example.
+- gloss འབྱུང་བར · sense · minor · example "'byung bar 'gyur 'is sure to appear'" put the sense of cis kyang into the verb · now
+  "'will come to arise'".
+- gloss ཤ་སྟག · sense · minor · "without exception, certainly …, an intensifier": sha stag is "nothing but, all of them", not
+  "certainly" · now "nothing but, all without exception (sha stag), set after what it covers".
+- gloss འོག་ཏུ · wording · minor · the example "welcome has passed 'og tu" mixed English into the Tibetan · now "X 'das pa'i
+  'og tu 'after X has passed'".
+- gloss དོད་པ · sense · style · guess removed. dod pa "to stick out, protrude" is the ordinary verb of 'bur du dod pa (as the u. 16
+  note has it) · now "standing out, projecting (dod 'to stick out, protrude' + -pa) …".
+- gloss ལོངས · sense · style · "the sense is taken from the context" removed. longs "leisure, opportunity" is a word in its own
+  right (yengs longs med) · now with that example, and its other use as the imperative of len.
+- gloss ལྷུན་སྟུག · parts · style · "(lhun stug)" gave no parts · now "lhun 'mass, bulk' + stug 'thick', as in stug po; also
+  written lhun 'thug".
+- gloss འཁྲུལ་འཁོར · sense · style · "wheel of delusion" left out the word's own sense, "machine, turning device" · now has both,
+  as the u. 5 note.
+- gloss stems added where the glosser left them out:
+  - བསྒྲིམས: past of sgrim, sgrim / bsgrims / bsgrim / sgrims.
+  - བཟླས་པ: past of zlo, zlo / bzlas / bzla / zlos.
+  - ཉམས་སུ་བླང: future of len, len / blangs / blang / longs.
+  - ཉམས་སུ་བླངས་པ: blangs, past of len; it had been given as past of the compound.
+  - ཁྲག་འཐུང: 'thung present, past 'thungs; also Sanskrit heruka.
+  - འབྱོན: present, past byon.
+  - འགྱུར: present and future, past gyur.
+  - བསྒྱུར: past and future of sgyur.
+  - བསྟན་པར: bstan, past and future of ston.
+  - འདས་པའི: past of 'da'.
+  - བཤད་པའི: past of 'chad.
+  - གདན་དྲངས་པར: drangs, past of 'dren; gdan "seat".
+  All are style changes.
+- gloss parts, Sanskrit and wording · style:
+  - ལྔ་བཅུ་རྩ་བརྒྱད: rtsa is the joining word, not part of "and eight".
+  - མ་ཐག་ཏུ: ma + thag "distance" + -tu.
+  - ཐ་ན: tha "end" + na.
+  - ཅིས་ཀྱང: ci + -s + kyang.
+  - བྱིན་རླབས: byin + rlabs.
+  - གསང་སྔགས: guhyamantra.
+  - མ་རིག: avidyā.
+  - གདུང: the respectful word for bones.
+  - གཡང: usually g.yang sa.
+  - ཤི་རམ: apparently a spelling of sha ri ram.
+  - རོལ་མོར: "in play" dropped; "perhaps written for rol mo'i", as the u. 26 note.
+  - ཁོར་ཡུག་ཏུ: "again and again" given as the sense of a recurring state, not as the word's meaning.
+- __broaden__ · added (style), each as master entry + " · " + new reading, for known words whose master entry did not cover this
+  part's use:
+  - ཆགས: "to come into being, to take shape … the sense is not sure" (u. 31).
+  - བྱེ་བྲག: "distinction, difference: bye brag phyed" (u. 32).
+  - དག: "plural marker after nouns too" (u. 28, 31).
+  - མ་ཁད་དུ: "on the point of, just before" (u. 25). The master entry has only "as soon as", against the u. 25 note.
+  - ལ: "from, of, with verbs of fleeing and fearing" (u. 14).
+  - ཚན་ཆེ: "great in number, prevailing" (u. 6).
+
+### Changes: units.json
+
+- u. 10 · n · style · "ngos zin, 'the face is caught'" after pass 1 made `l` "recognition seized" · now "'the face is seized'".
+
+Severity count, pass 2: major 0 · minor 8 · style 14 (22 change lines: 21 on gloss.json, including the 6 new broadenings as one
+line; 1 on units.json).
+
+### Checked and confirmed (no change)
+
+- The glosser's two broadenings are needed and begin with the master entry verbatim:
+  - ཕྱིར "because, for the sake of" (u. 11, 20, 27, 32).
+  - གནས "state, condition" (u. 7, gnas bsgyur).
+- Stems and labels in gloss entries, each checked:
+  - Past stems: bris, past of 'bri; btab, past of 'debs; byas, past of byed; shar, past of 'char; song, past of 'gro; skyes,
+    past of skye; byon, the respectful past of 'byon.
+  - Other forms: 'dul, present; skye, present in skye ba; grongs, respectful "died".
+  - Particles: -ru after a vowel (dka' ru); -lo, -ro, -'o endings.
+- Known forms read against their use here:
+  - Covered as they stand: ཟེར ("ray", u. 26); ཀློག (u. 28); ཐོབ་པ (u. 4, 21); ཡང ("even", u. 14); ཅིག ("a", u. 10, 15); སྐུ; མཐོང;
+    བཞིན་དུ; ཞེ; ན; ཏེ; དེ ("after a verb: 'and then'", u. 7 bsgyur de); འདིར (here, u. 12–30); མར; ཙམ་དུ; གཅིག.
+  - Covered by the glossary's own wording: དངངས (left as in pass 1).
+- Sense hedges kept where the notes mark doubt: ཀས, ཆགས, རོལ་མོར, ཤི་རམ, ཁོར་ཡུག་ཏུ.
+- All 33 units re-read. Pass 1's changes are sound:
+  - The two re-divisions.
+  - "recognition seized".
+  - The u. 31 note with gnas.
+  - The stems of sgoms and klog.
+  - The about.
+  No further change to `l`, `i` or the notes beyond u. 10 above. `i` was read again for remembered wording, and none was found.
+
+### Findings considered and refused
+
+- gloss བསྟན་པར, འབྱོན, འཛིན-type entries with an example from this part (bstan par bya, mi 'byon): the master entries carry
+  examples the same way, and none is pinned to a single line's reading. Kept.
+- gloss སྐུ་གཟུགས "image of a deity, a statue or painting" against u. 22, where sku gzugs are forms among the relics: an image of a
+  deity is what the word means, and the note explains the use there. Kept.
+- gloss ཤོང "to fit, to find room (shong 'to be able to hold')": both senses are the one verb (blor ma shong "did not fit in the
+  mind"). Kept.
+- gloss བརྒྱལ་བ with brgyal as a bare verb: brgyal ba "to faint" has no distinct stems in common use. Kept.

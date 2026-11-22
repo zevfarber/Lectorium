@@ -57,7 +57,7 @@ abbreviations as printed.
 Two layers. `l` keeps Tibetan order (verb last, particles after their words) with hyphens for
 fused endings. House renderings: bar do → "the between" in `l`, "bardo" in `i`; ngo sprod →
 "face-introduce" / "point out"; 'od gsal → "clear light"; chos nyid → "reality itself" / "reality";
-chos sku → "body of truth"; rig 'dzin → "knowledge-holder"; mkha' spyod → "Sky-Faring" (mkha' 'gro ma "sky-goer"); rig pa → "knowing" / "awareness"; rigs kyi bu → "child of noble
+chos sku → "body of truth"; rig 'dzin → "knowledge-holder"; mkha' spyod → "Sky-Faring" (mkha' 'gro ma "sky-goer"); khrag 'thung → "blood-drinker" (heruka); gsang sngags → "secret mantra"; rdzogs chen → "Great Perfection"; rig pa → "knowing" / "awareness"; rigs kyi bu → "child of noble
 family"; 'pho ba → "transference"; rlung → "wind"; rtsa → "channel". Titles of companion texts
 translated in `i`, explained in the note the first time.
 Recurring patterns flagged once: verb-final order, -'i / -r / -s endings, the sentence-ending -o,

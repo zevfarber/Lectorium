@@ -2047,3 +2047,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprints: none corrected.
 - Kept as printed, with notes: P820L12–13 فسكتت من الكلام المباح (min, where the print has ʿan in every other dawn formula; sound Arabic, so not treated as a misprint); الد مرياط split (one name, al-Dimiryāṭ, vowels uncertain); بئر روماني معمورة (masculine adjective on a feminine noun); قميص مشمع ("waxed shirt", the cloth doubtful); الاطلس المعدني (probably satin shot with metal thread); ليلة اربعة عشر (bare masculine number); موقود (later form for mūqad); كانه, فى; second محشوة printed without shadda (supplied).
 - Nothing to decide. Nights 177–178 are complete and unpublished.
+
+
+## Night 177 (P820L14–P822L17, published 2026-11-22)
+- Library label: `Night 177 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P822L03 انسم→اقسم ("I adjure"; the next sentence answers لقد اقسمت عليّ); P822L08 الميلة→الليلة ("this night"; P822L11 repeats في هذه الليلة).
+- Kept as printed, with notes: شيأ; فاستجاربها and وتريدان run together; لعطبه used transitively ("would destroy him"); the verse's printed pointing; فى/في.
+- Nothing to decide. Night 178 is complete and unpublished.

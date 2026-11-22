@@ -2027,3 +2027,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprints corrected (emend.json): P816L08 بالامراو→بالامراء (و for ء, as بكاو/ماو before); P817L08 احدوا درك→احد وادرك (space misplaced; entered as two word-level corrections, احدوا→احد and درك→وادرك, because emend.py matches single words).
 - Kept as printed, with notes: الي beside الى; كؤس (vocalised kuʾus as printed, Classical kuʾūs); شان; ثلٰث; مسكوه (Form I); فى, يدى; ياولد set solid; شهامة الملك read al-mulk (al-malik named in the note).
 - Nothing to decide.
+
+## Night 174 (P817L10–P818L09, published 2026-11-22)
+- Library label: `Night 174 · Qamar al-Zamān, continued`.
+- Misprints: none corrected.
+- Kept as printed, with notes: P818L05 با لوزير split (read bi-al-wazīri); عامي vocalised ʿāmmiyyin (no shadda printed); ماجرى, لاينفعه set solid; فى with ى; وأمره read wa-ʾmurhu with the printed أ.
+- Glossary: shared كِتَافَهُ corrected from 'his shoulders' to 'his bonds'; the shared وَالِدِهِ entry carried a remark about "sentence 97" of some earlier night (house business) — dropped; the night it came from was not traced.
+- Nothing to decide. Nights 175–178 are complete and unpublished.

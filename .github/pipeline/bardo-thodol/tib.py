@@ -61,6 +61,7 @@ LETTERS = {'a+th-i+i': 'ithi'}   # 2026-11-22: bardo-thodol-008, the iti stack ‡
 OVERRIDE.update({'a+th-i+i': 'iti'})   # 2026-11-22: bardo-thodol-008
 OVERRIDE.update({'g+han+d+he': 'ghandh√©', 'nIr': 'nir', 'shAkya': 'shakya', 'seng+ge': 'sengge'})   # 2026-11-21: bardo-thodol-006
 OVERRIDE.update({'maN+Dal': 'mandal', 'bud+d+ha': 'buddha', 'badzra': 'benza', 'rat+na': 'ratna', 'b+han': 'ban', 'd+ha': 'dha', 'khaT+waM': 'khatvam', 'T+waM': 'tvam'})   # 2026-11-22: bardo-thodol-010
+OVERRIDE.update({'karma': 'karma', 'b+han+d+ha': 'bandha', 'gasma': 'gasma', 'tsaN+Da': 'tsanda', 'tsit+ta': 'tsitta'})   # 2026-11-22: bardo-thodol-011
 
 def word(tok):
     """tok: one word in Tibetan script, syllables joined by tsheg, optional trailing tsheg / punctuation.

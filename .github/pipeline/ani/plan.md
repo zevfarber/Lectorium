@@ -17,7 +17,7 @@
 | ani-017-b | Spell 17, part 2 of 6 | Budge pp. 32–36 | published |
 | ani-017-c | Spell 17, part 3 of 6 | Budge pp. 37–41 | published |
 | ani-017-d | Spell 17, part 4 of 6 | Budge pp. 42–46 | published |
-| ani-017-e | Spell 17, part 5 of 6 | Budge pp. 47–51 | todo |
+| ani-017-e | Spell 17, part 5 of 6 | Budge pp. 47–51 | established |
 | ani-017-f | Spell 17, part 6 of 6 | Budge pp. 52–55 | todo |
 | ani-147-a | Spell 147 — the seven gates, first half | Budge pp. 56–59 | todo |
 | ani-147-b | Spell 147 — the seven gates, second half | Budge pp. 60–62 | todo |

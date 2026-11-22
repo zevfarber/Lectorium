@@ -2054,3 +2054,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprints corrected (emend.json): P822L03 انسم→اقسم ("I adjure"; the next sentence answers لقد اقسمت عليّ); P822L08 الميلة→الليلة ("this night"; P822L11 repeats في هذه الليلة).
 - Kept as printed, with notes: شيأ; فاستجاربها and وتريدان run together; لعطبه used transitively ("would destroy him"); the verse's printed pointing; فى/في.
 - Nothing to decide. Night 178 is complete and unpublished.
+## Night 178 (P822L18–P824L03, published 2026-11-23)
+- Library label: `Night 178 · Qamar al-Zamān, continued`.
+- Misprint corrected (emend.json): P823L10 وجراب→وجواب ("and a ready answer", paired with عقل وافر; جراب "bag" gives no sense).
+- Kept as printed, with notes: verse ثَلْثُ ذَوائِبِ (print's vowels do not scan; thalātha dhawāʾiba wanted); لَوْ لَا اُمْسِكَ (singular where the metre wants umsikā); تعلّق في ضعيف and اذا همّت تقوم; الخيّال with printed shadda (khayāl probably meant); باعكان; كماينبغي and اذكرلك set solid; line-final lone و before متصل; شيأ; سيدتى/سيدتي.
+- Glossary: shared يَرَاهُ corrected (lemma raʾā; the old remark about an indicative for a subjunctive was wrong, the forms are identical).
+- Nothing to decide. Night 179 is not yet complete (its tail is untranscribed).

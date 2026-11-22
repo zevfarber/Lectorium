@@ -12,7 +12,7 @@
 | bardo-thodol-007 | The sixth day ends: the four wisdoms' light-paths and the six impure lights; the seventh day, the knowledge-holders | pp. 63–72 | published |
 | bardo-thodol-008 | Day seven: the knowledge-holders and ḍākinīs, the animal light, the prayer; the peaceful bardo closes | pp. 72–79 | published |
 | bardo-thodol-009 | The bardo of the wrathful deities begins: why it is hard to recognise, and who is freed | pp. 81–90 | published |
-| bardo-thodol-010 |  | pp. 90–98 | todo |
+| bardo-thodol-010 | The blood-drinkers of days eight to eleven: Buddha, Vajra, Ratna and Padma Heruka | pp. 90–98 | established |
 | bardo-thodol-011 |  | pp. 99–107 | todo |
 | bardo-thodol-012 |  | pp. 108–115 | todo |
 | bardo-thodol-013 |  | pp. 116–121 | todo |

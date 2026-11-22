@@ -2009,3 +2009,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprints: none corrected.
 - Kept as printed, with notes: P811L12 بالزيّنة (the shadda printed over the yāʾ, which no reading of zīna needs; kept, read bi-al-zīna); شكى/دعى with ى; مالي read mā lī ("I have no wish"); P812L06 verse اَوْقَلَّ run together (aw qalla); P812L08 يُعْطِى with ى (yuʿṭī); النِّسَا shortened for the metre. The first verse pair is attributed in its note to ʿAlqama ibn ʿAbada.
 - Nothing to decide. Nights 171–172 are complete and unpublished.
+
+## Night 171 (P812L14–P814L15, published 2026-11-22)
+- Library label: `Night 171 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P813L04 خدة→خده, P813L05 وقدة→وقده, P813L11 and P813L12 والدة→والده (ة for ه), P813L18 الزاوج→الزواج.
+- Kept as printed, with notes: P813L01 سري pointed sarā with the printed ي; ويروى read yarwī (yurwā possible); P814L04 مُظَفَّرَات with ظ for ض (braided); P814L05 مُجَرَّعَات passive where the sense may want active; P814L08 وَغَدٍ genitive where ghadan is expected; P814L09 تُسْكِنُهُ Form IV where Form I fits; P814L13 اختلي with ي for ى; first poem's metre named only as "appears to be" munsariḥ; the -āṣī poem's metre left unnamed.
+- Nothing to decide. Night 172 is complete and unpublished; the next firing should publish it.

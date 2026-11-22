@@ -40,3 +40,33 @@ Severity count: 2 major, 11 minor (three of them grouped new-lemmas items), 6 st
 - Budge-isms and remembered wording: after the changes above, none remain in l / i / about. "triumphant", "soul", "Tchafi", "Seb", "defects" occur only in notes, as Budge's renderings. "true of voice", "the Lord to the Limit", "Djedu", "Two Tjafi(?)" and the question "What, then, is it?" match ani-017-c and the known glosses. Kept.
 
 Re-check after editing (scratchpad check.py): OK. The sign sequence equals the established w0..w119, and rubric flags match the packet sign for sign. Restored flags are unchanged (compared with a copy taken before editing). Morph coverage and q indices are exact. Every det has an empty tr. Every lemma is known or new. Every BROADEN key exists, and every new entry is used. The replica build passes 19 units. Remaining warnings: Budge named in notes (expected); U12 and U13 notes at 1614 and 1790 characters (long clauses); Z9 phon with an empty tr in ṯꜣfy (published coding).
+
+## Pass 2
+
+Changes are listed as unit/gloss · field · severity · what was wrong · what was done. All edits were made by one script (scratchpad review2_edit.py), which asserts each old value before it replaces it. No glyph code, glyph order, role, tr, q, rubric flag or restored flag was changed, and no words were regrouped. I found no majors in this pass.
+
+**gloss.json and new-lemmas.txt.** The two lists have the same keys: 7 entries and 8 broadens. Every key is a morph lemma in units.json, and none of the 7 entries collides with a known key. Every __broaden__ value starts with the known entry unchanged, followed by " · ". All of this was checked by script. None of the entries describes this occurrence's signs or carries a doubt tied to this line.
+
+- gloss ḥwꜣw · minor · The glosser dropped Budge's English, 'entrails'. House style keeps Budge's English where his sense differs from ours, so that a reader of the old translation can find the word: bgꜣ has (Budge: beḳa, 'defect'), iꜣt has (Budge: àati, 'slaughter-houses') and ṯꜣfy has 'the two Tchafi'. Budge's 'entrails' differs from 'rotting flesh'. · Restored: "(…; Budge: ḥuau, 'entrails')".
+- gloss nsb · style · The glosser dropped Budge's 'eateth'. His sense matches ours, so the gloss loses nothing, and the published parts give Budge's English only where it helps (e.g. "Budge: Seker" alone). · The drop is kept, and new-lemmas.txt is brought into line ('eateth' removed).
+- gloss pꜣwt · minor · "from pꜣ 'be first, of old'" was an etymology stated as fact, and its gloss of pꜣ is loose. · Removed: "pꜣwt — the primeval gods (?) (noun f.; Budge: paut)". Also removed in new-lemmas.txt.
+- gloss __broaden__ sn · minor · The dependent pronoun was labelled "object of a verb" only. The dependent pronoun is also the subject after particles; the known tw entry says "object of a verb, or subject after mk". · → "them, they (3rd person plural dependent pronoun; object of a verb, or subject after a particle)". Also changed in new-lemmas.txt.
+- U11 · n · minor · The note still glossed pꜣwt as "the first company of gods", the invented sense pass 1 removed from the glossary, which also echoes Budge. The note also said "Budge's word for the Ennead, psḏt, is written otherwise in part 1", which garbles the point: Budge's paut is his reading of psḏt. The closing "Khepri … carries the gods in his own body" stated a doubtful reading as fact. · → "taken as pꜣwt, the primeval gods"; "Budge's paut is also his reading of psḏt, the Ennead, which part 1 writes otherwise"; "If the reading is right, Khepri, the sun at dawn, holds the first gods in his own body."
+- U12 · n · style · sipw ('who inspect', after the plural keepers) was labelled "the participle". · → "the plural participle".
+- U13 · n · style · "the keepers being its subject" (ddyw) was stated as certain. The participle follows ḫftyw·f directly, so the enemies cannot be ruled out on grammar alone. · → "the keepers most likely being its subject".
+- U1 · i · style · "when he went into Djedu" rendered ꜥq, which l and the note give as 'enter'. · → "when he entered Djedu".
+
+Severity count for pass 2: 0 major, 3 minor, 4 style.
+
+### Refused findings
+- Gloss smꜣ-wr, "smꜣ 'wild bull' + wr 'great'": this is the meaning of the name's parts. House style gives that for transparent names ('Wide-strider' and others). smꜣ with the bull is the wild bull, and the (?) stays. Kept.
+- Gloss ḥwꜣw, "from ḥwꜣ 'to rot, stink'": the verb is a real one, and the noun is its derivative. This is not an invented etymology. Kept.
+- Gloss sꜣwt broaden, "from sꜣw 'guard, keep watch over'": the verb sꜣw 'guard' is standard, and it is the obvious base of the noun. Kept.
+- Gloss sip, bwt, msqt, and the broadens bgꜣ, skr, ḏt, iꜣt, smꜣ, ꜣḫ: they are general, they are hedged where the sense is uncertain, and they carry Budge's forms where useful. Kept.
+- U13 i, "who do slaughter …" stays ambiguous in English between the enemies and the keepers. This mirrors the Egyptian, and the note gives the likelier reading. Kept.
+- U2, U3, U6, U7, U10, U16: doubts are marked in l / i with (?) or in the notes. The form labels (sḏm·n·f after ꜥḥꜥ·n, the stative after ꜥḥꜥ·n + pronoun, sḏm·f with a noun subject, n sḏm·n·f as a general negation, n sḏm·tw·f) match the signs and the l. Kept.
+- U9, "in part 2 it is written stẖ": checked, ani-017-b has stẖ twice. Kept.
+- U12 and U13 note lengths (1621 and 1802 characters) are over the 1600 warning. Both units are long clauses, and every sentence explains a form. Kept.
+- Budge-isms and remembered wording: none in l / i / about. Kept.
+
+Re-check after editing (check.py): OK. The sign sequence and the rubric flags equal the established text. Morph coverage and q indices are exact. Every det has an empty tr. All lemmas are known or new. The replica build passes 19 units. units.json, gloss.json and new-lemmas.txt keep their formatting (indent 1, ensure_ascii off, no trailing newline in the JSON). Remaining warnings: Budge named in notes, the two long notes, and Z9 phon with an empty tr in ṯꜣfy (published coding).

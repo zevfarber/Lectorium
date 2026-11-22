@@ -9,6 +9,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from units import UNITS
 from glossary import G
+from romanize import romanize
 
 OLD = {
     "{hA}": "ᄒᆞ", "{hAi}": "ᄒᆡ", "{dAi}": "ᄃᆡ",
@@ -46,8 +47,12 @@ SOURCE = ("Text: 열여츈향슈졀가 (Yeollyeo Chunhyang sujeolga), Jeonju woo
           "is editorial, following modern spacing. The woodcut often reduces the dot of ㆍ to a touch on the next "
           "stroke; where it cannot be seen, the reading follows the edition’s regular spellings (ᄒᆞ, ᄃᆡ, ᄉᆡᆼ), "
           "and doubtful words are noted. The modern-spelling view and the reading voice follow present-day South "
-          "Korean spelling and standard pronunciation. Translations made fresh from the Korean for Lectorium; no "
+          "Korean spelling and standard pronunciation; the romanization line is the Revised Romanization of that reading. Translations made fresh from the Korean for Lectorium; no "
           "translation consulted.")
+
+# proper names (modern spelling), capitalized in the romanization line
+NAMES = ("숙종", "요순", "우탕", "전라도", "남원", "삼남", "월매", "성가", "성참판", "공부자", "이구산", "정나라",
+         "정자산", "아동방", "우성산", "경상도", "웅천", "주천의")
 
 
 def main(root):
@@ -68,7 +73,7 @@ def main(root):
                 if word_say.get(a.lower(), b) != b:
                     raise SystemExit("one printed form, two modern forms: %s" % a)
                 word_say[a.lower()] = b
-        s = {"t": t, "mt": mm, "say": say, "l": u["l"], "i": u["i"], "n": ex(u["n"])}
+        s = {"t": t, "tr": romanize(say, NAMES), "mt": mm, "say": say, "l": u["l"], "i": u["i"], "n": ex(u["n"])}
         if u.get("p"):
             s = {"p": True, **s}
         sentences.append(s)
@@ -85,6 +90,7 @@ def main(root):
         "language": "Korean",
         "langCode": "ko-KR",
         "script": "hangul",
+        "trStyle": "line",
         "source": SOURCE,
         "about": ABOUT,
         "wordClips": True,

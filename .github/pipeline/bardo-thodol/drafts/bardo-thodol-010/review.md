@@ -77,3 +77,101 @@ Severity count: major 0 · minor 5 · style 8 (13 change lines, covering 17 fiel
   editing it is not this reviewer's job. The `gap` field on u. 9 is present and correct; the entry is left for the builder or
   editor.
 - No division was changed and no `w` letter was touched.
+
+## Pass 2
+
+Second pass. Each of the 107 entries in gloss.json and its one broadening (རབ) was checked against the word and its use in
+units.json (w / l / i / n), against the stems of the verb, against the master entries of related forms (bsnams pa, sbyor, sbyar,
+zhal sbyar, stug po bkod pa'i, ngo sprad, bsgrags pa'o) and against glossary.json style. The specific items were each checked:
+- bsgrags / sgrog: right (sgrog / bsgrags / bsgrag / sgrogs).
+- btegs / 'degs: right.
+- bkod / 'god: wrong (see below).
+- sbyor / sbyar: wrong (see below).
+- bsnams: no stem was given (see below).
+- thong gshol / mthong shol "plough": thong gshol is the plough, and the sense is right. mthong shol is now given its parts.
+- The four Krodhīśvarī names: the sense is right, but the parts are now given as krodhī + īśvarī.
+- bsgrad pa / bgrad pa: right. bsgrad pa is marked uncertain and pointed to bgrad pa, and neither entry claims a stem.
+
+The master entries of the 153 known forms used in this part were read by script against the units where each occurs. One master
+entry does not cover its use here (ཕྲ, "inlay"), and a broadening was added for it. ཤར "east", ཕྱིར "back", ཀྱི for kyis, གིས
+"by", ལ "on" and ཡང "again" are already covered. Every other-recension claim in the notes was checked again against
+source/raw/bowiki-other-recension.txt, and all of them hold. Among them, u. 1's 'phra is right: the establishment log's "ཕྲ too" is
+the slip, not the note. The cross-references to the published parts were checked: 003 for ma dngangs shig, 004 for zhal sbyar,
+009 for yi dam gyi lha yin par, and 004 / 005 for the days of Vajrasattva, Ratnasambhava and Amitābha. All are right.
+
+Then all 39 units were read again from the original through `l` to `i`, with pass 1's changes. The grammar labels in the notes
+were checked against the form, and the notes against the glosses. None of these contradicts the other. No `w` division was
+changed. Unit 9 keeps its `gap` field.
+
+gloss.json was edited by script (ensure_ascii=False, indent 1, no final newline). A round trip was checked to be byte-identical
+first. units.json was not edited. Key check: the gloss.json keys equal novel-forms.json (107). None is in the master glossary and
+none is empty. Each broadening begins with the master entry whole + " · ". The source sha256 matches. R.common_checks,
+hooks.assemble and hooks.validate were run in memory, with gloss.json merged as `r3.py build` merges it and nothing written. The
+result: 39 units, 0 errors, no "no glossary entry". There is 1 WARN: u. 11's note is 1912 characters, see Refused. `r3.py build`
+was not run.
+
+### Changes: gloss.json
+
+- gloss བཀོད་པ · stem · minor · "bkod, past and future stem of 'god". The future is dgod ('god / bkod / dgod / khod) · now "past
+  stem", with the four stems. "inlaid" is dropped, because it was this line's sense; the entry is now "set, arranged, set out".
+- gloss ངོ་སྤྲད་པར · stem · minor · "ngo sprad, past stem of ngo sprod". sprad is the past and future stem (sprod / sprad / sprad /
+  sprod), and with bya, the future of byed, it is the future here · now "the past and future stem of sprod", with the four stems.
+- gloss ཞལ་སྦྱོར · stem · minor · "sbyor, present stem of sbyar". That makes sbyar the verb. The verb is sbyor, whose past and future
+  are sbyar, as in the master entry སྦྱོར · now "sbyor, the present stem of sbyor 'to join' (sbyor / sbyar / sbyar / sbyor)". zhal
+  is marked as respectful, and the entry points to zhal sbyar, which uses the past stem.
+- gloss དབུ་སྐྲ · parts · minor · "(the respectful words)". skra is the plain word for hair; the compound is respectful through dbu ·
+  now "the respectful word (dbu 'head', respectful, + skra 'hair')".
+- gloss བསྣམས་པར · stem · style · bsnams was given only as "the respectful word for 'hold'" · now "past stem of snom, the respectful
+  verb 'to take, to hold' (snom / bsnams / bsnam / snoms)".
+- gloss ཁཊྭཾ་ག, ཁ་ཊྭཾ་ག · wording · style · "here spelled in two / three syllables" was pinned to a line · now "written in two
+  syllables, khaTwaM ga; also written kha TwaM ga", and the converse.
+- gloss ཞེས་པ · wording · style · "the (sound) called" was pinned to u. 8 · now "so called, what is called (zhes 'thus, so', closing a
+  name or a quotation, + -pa)".
+- gloss བར་མ · sense · style · "the print's other spelling of bar pa". bar ma is a regular form, "the middle one", and not a
+  misspelling · now "(bar 'between, middle' + -ma), the same as bar pa". བར་བ is kept as it stands: it is the print's ba for pa.
+- gloss མཐོང་ཤོལ · parts · style · no parts were given · now "a spelling of thong gshol (mthong written for thong, shol for gshol);
+  the reading is doubtful".
+- gloss བུདྡྷ- / བཛྲ- / རཏྣ- / པདྨ་ཀྲོ་ཏི་ཤྭ་རི་མ · parts · style · "krodha 'wrath' + īśvarī 'lady'" does not give krodhīśvarī.
+  krodha + īśvarī would be krodheśvarī · now "krodhī 'wrathful', written kro ti, + īśvarī 'sovereign lady'" in all four.
+- __broaden__ རབ · wording · style · "the reading there is doubtful" was pinned to u. 25 (the doubt belongs in the note) · now
+  "best, highest · very, intensely, before a verb or adjective (rab 'bar ba 'blazing intensely')".
+- __broaden__ ཕྲ · added · minor · the master entry "subtle, fine, thin" does not cover g.yu'i phra, "turquoise inlay" (u. 1, as its
+  note has it) · now "subtle, fine, thin (phra) · inlay, fine inset work (phra): g.yu'i phra 'turquoise inlay'".
+
+### Changes: units.json
+
+None.
+
+Severity count, pass 2: major 0 · minor 5 · style 7 (12 change lines; 17 entries touched: 15 edited, 1 broadening rewritten, 1
+broadening added).
+
+### Checked and confirmed (no change)
+
+- Stems and respect labels in the gloss:
+  - bsgrags (pas, par): past of sgrog.
+  - sgrog pa: present.
+  - btags: past of 'dogs.
+  - bstan: past and future of ston.
+  - btegs: past of 'degs.
+  - bkang: past of 'gengs.
+  - bsgom shig: bsgom, future of sgom, with the command.
+  - Respectful words: dbu, zhabs, spyan, gzigs, mgul, zhal, bzhugs.
+- Uncertain readings and guessed senses marked as such: bsgrad pa, zangs yag tu, ha ha'i, sha'u, bshugs, stob pa, thug chom, spu
+  seb, nyi, rnge, mthong shol.
+- ཐོང་གཤོལ "plough": right, and general to the form.
+- The notes' labels are the same as the glosses': sbyor in u. 36, bsgom in u. 36, btegs in u. 11, bkang in u. 34, bsgrags in u. 1
+  and u. 14, thon in u. 20.
+
+### Findings considered and refused
+
+- u. 18 `l` "plough(?)" against `i` "a plough", which has no mark: the mark in `l` is for the doubtful letters, and the note says the
+  sense is clear. In u. 25 the doubt was over a word that changes the sense. Kept.
+- u. 6 `l` "spread-wide(?)" against `i` with no mark: the same reason. The note says the sense is the same either way. Kept.
+- u. 10 note "(krodha, 'wrath'; īśvarī, 'lady'); kro ti is the print's spelling of krodhī": it is loose, but it names krodhī and is
+  not wrong. Kept. The gloss entries now give the parts exactly.
+- gad rgyang, perhaps usually written gad rgyangs: not sure enough to add. Left as the glosser has it.
+- A stem for bgrad / bsgrad, and for brkyang / bskum in brkyang bskum du: the stems were not certain enough to state. The entries
+  give the sense and the parts only, which is safe.
+- WARN: u. 11's note is 1912 characters. It carries six doubtful or variant points (thug chom, tsam pa, spu seb, gis, east / inside,
+  nyi) that the establishment log requires. Cutting it is left to the editor.
+- The gaps.json entry for u. 9: as pass 1 said, this is outside the reviewer's files, and it is left for the editor.

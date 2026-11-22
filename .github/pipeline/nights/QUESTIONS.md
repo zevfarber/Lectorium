@@ -1980,3 +1980,16 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed (possible misprints, for the publishing run to judge): P816L08 بالامراو (for بالامراء); P816L02 ظَفْرِهِ (verse; fatha on ظ). Spelling of حيٰوتي/حيوٰتي varies in where the small alif sits (P811, P812, P813) — copied as each image shows.
 - Tightly set words split per archive precedent (امر لها, فيا ليت, ولا نهارا, لا تميل, ولو سعى, ولو سقيت); the print shows no visible space.
 - Nothing to decide.
+
+## Night 168 (P805L16–P809L04, published 2026-11-22)
+- Misprints corrected (emend.json): P808L09 رأبته → رأيته; P808L18 رأنني → رأتني (the subject is ʿAlī's mother).
+- Kept as printed, with notes:
+  - P806L07 اتصر: not a known word; vocalised as aqṣir ("desist"), with iqtaṣir/ikhtaṣir named as alternatives. Not corrected, because ت/ق differ by more than dots and the reading is not certain.
+  - P806L02–03 ولا تطول … ولا تبعد: read as jussive commands, lā tuṭawwil / lā tubʿid ("do not draw out … do not put off"); noted.
+  - P807L09 فننجو read subjunctive fa-nanjuwa (indicative noted); P807L18 رفعت read rafaʿat (rufiʿat noted); P807L20 اني اذا رأيتني مت اذهب, an unfinished sentence that turns into a command; وهو with feminine وصية.
+  - P807L23/P808L02 تغنّى read tughannī (ى for ي), taghannā noted. قدمات, اقدران and other run-together words kept as one word.
+  - Verse P808L03–07 copied as printed; وَجِيْرَة with no final vowel and اِلْفِ/اجْتِمَاعِ with a single kasra are read with tanwīn in tr, as the metre requires; noted.
+  - P808L15 cites Qurʾān 3:145; identified in the note.
+- ʿAlī ibn Bakkār dies in this night; the tale continues (the jeweller's story to Shahrazād's frame), so the label stays "continued".
+- Library label: `Night 168 · ʿAlī ibn Bakkār and Shams al-Nahār, continued`.
+- Nothing to decide. Nights 169–172 are complete and unpublished; the next firings should publish them. Note for Night 169: the print has no closing formula before the Night 170 label (see transcription PDF 831–838).

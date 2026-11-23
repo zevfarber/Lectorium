@@ -34,7 +34,7 @@
 | cid-tiradas-104-104b | The Cid kneels before Alfonso and is pardoned | tiradas 104–104, lines 2013–2067 | published |
 | cid-tiradas-104-104c | The king asks the daughters' hands for the Infantes | tiradas 104–104, lines 2068–2126 | published |
 | cid-tiradas-105-108 | Gifts and leave-taking; the Cid tells Jimena of the matches | tiradas 105–108, lines 2131–2189 | published |
-| cid-tiradas-109-111 | Jimena glad, the Cid uneasy; the weddings in Valencia | tiradas 109–111, lines 2190–2277 | todo |
+| cid-tiradas-109-111 | Jimena glad, the Cid uneasy; the weddings in Valencia | tiradas 109–111, lines 2190–2277 | established |
 | cid-tiradas-112-114 | The lion breaks loose; the Infantes' fear; King Búcar lands | tiradas 112–114, lines 2278–2337 | todo |
 | cid-tiradas-115-117 | Búcar's message; Fernando's cowardice; the bishop opens the battle | tiradas 115–117, lines 2338–2402 | todo |
 | cid-tiradas-118-119 | Búcar killed and Tizón won; the victory and the spoils | tiradas 118–119, lines 2403–2473 | todo |

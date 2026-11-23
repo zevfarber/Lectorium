@@ -2074,3 +2074,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, with notes: السعيدان, وصفتهالك, ولابد, ياسيدتي, اوتأسريني set solid; وارسل كاتب الملوك (no و between the verbs; kātiba al-mulūki possible); عشرة عجائز, السبع/السبعة قصور; قوارة البول (qawwāra not in Lane; read as a form of qārūra); معشوقتي (fem.) of Maymūna's male beloved; ضِحكت with printed kasra.
 - Glossary: shared مَيْمُونَةَ rewritten (it described only the Night 5 couplet's Maymūna as if universal, with "see note"); shared لِأَنِّي now glosses its li-.
 - Nothing to decide. Nights 180–182 are complete and unpublished.
+
+## Night 180 (P826L14–P828L11, published 2026-11-23)
+- Library label: `Night 180 · Qamar al-Zamān, continued`.
+- Misprint corrected (emend.json): P828L01 ملّي→عليّ (لكِ عليّ ذلك, joining from P827L23).
+- Kept as printed, with notes: قدا فرغا (space misplaced in قد افرغا; pointed across the break, qad ufrighā); بند قي (bunduqī, "Venetian", set as two words); بتأمّل (possibly يتأمّل, one dot; kept); verse الخَنِق (الحَنِق possible) and nominative خَوْفُ where an accusative of reason is wanted; دهنشا with accusative alif only on P827L06; الساعه, تقضى, اجئ/تجئ; rubric شعر kept in the prose unit before the verse.
+- Nothing to decide. Nights 181–182 are complete and unpublished.

@@ -2086,3 +2086,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprint corrected (emend.json): P828L18 verse تَذَلُّلًا وَتَذَلُّلَا → second word وَتَدَلُّلَا ("abasement … coquetry", one dot; the same verbal noun joined to itself by wa- is not idiom). The drafter rated it doubtful, the reviewer clear; corrected as clear. If the owner prefers the print, drop the emend.json entry and restore "abasement upon abasement".
 - Kept as printed, with notes: verse يَنْصِفُ (yunṣifu wanted), رَايْتُ, وَاهْوِ (ihwa expected), مُنْحِفُ, وَدَدْتُهُمَا, لَوْاَنَّ set solid; prose اواخوان set solid; تخفى. P829L11 بِالْعَجْزِ … وَاَضْعَفُ is stiff; the reviewer suggested la-aʿjazu, declined because it breaks the kāmil metre.
 - Nothing to decide. Night 182 is complete and unpublished.
+
+## Night 182 (P830L03–P832L17, published 2026-11-23)
+- Library label: `Night 182 · Qamar al-Zamān, continued`.
+- Misprint corrected (emend.json): P832L07 verse فَالمَّاسُ → فَالنَّاسُ ("people beat on cold iron"; the printed shadda after the article only fits a sun letter, and الماس "diamond" gives no sense). Print's other marks kept.
+- Kept as printed, with notes: verse انْصَفُوا (anṣafū), اَنَّهُ (innahu wanted), هَجْرُكَ (hajraki wanted), رَقَّصَتْ without object, لِلْاِعْدَادِ, تَرْنِيْ; prose السعيدان, لابداني, بلاشعور, يادهنش, ياقشقش, اريدان set solid; وجما لهما, الا ثنين, احد هما split; عيناة/يداة/رجلاة (ة for ه); ايها السيدة; المداري (exact sense uncertain).
+- Glossary: review corrected several older shared entries' senses for this night (الْأَسَدِ, بُرْغُوثٍ, رَفِيقِهِ, مَحْبُوبِي, أَحْسَنْتَ, اَحْسَنَ) by appending.
+- Nothing to decide. Night 183 is not yet complete (its tail is untranscribed).

@@ -2107,3 +2107,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, with notes: P834L03 لا تملى بها read as li-atamallā bihā, "that I may take my fill of her", one word split by the print's spacing (tamallā bi- as in Night 179; the drafter's alternative lā tumlī bihā, "do not delay with her", named in the note); P834L01 حذري read as ḥazrī "my guess" (ḥadharī possible); P833L04 بقامة النيّة (الفيّة possible); verse وَرْدُ خَدٍّ lacks the wa- the munsariḥ metre needs; غِزَالًا with kasra; فَسَاعَةُ nominative; السعيدان, لايقدر, ماشاء set solid; ثلث, نائمه, هى/وهى/زوّجنى.
 - The reviewer believed the couplet بدت قمرا ومالت غصن بان is al-Mutanabbī's; not verifiable from the sources this pipeline may use, so not stated to the reader.
 - Nothing to decide. Nights 184–186 are complete and unpublished.
+
+## Night 184 (P834L05–P836L03, published 2026-11-23)
+- Library label: `Night 184 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P834L12 عضب→غضب; P834L13 بجابنى→بجانبى; P835L13 وفرصتها→وقرصتها (the flea "nipped" her, as Dahnash in Night 183).
+- Kept as printed, with notes: P834L07 لا تملّى بها read li-atamallā bihā, as in Night 183 (lā tumlī named, needs the shadda set aside); P834L11 والفت read as alfata, "turned (his face) away" (lafata with a stray alif, or iltafata, named); بالنيام pointed niyām (verbal noun of nāma, Lane), not Middle Arabic; اني اذا نبّهتها loosely built; ومنقوش without accusative alif; مالي, ومافعله set solid; شيأ, استحى. P834L20 تذكرة لها read "a reminder for her" (keepsake of her named).
+- Glossary: the shared entry مَهْمَا analysed a wa- the key lacks; corrected to the plain particle.
+- Nothing to decide. Nights 185–186 are complete and unpublished.

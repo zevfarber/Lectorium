@@ -89,11 +89,12 @@ scan anomaly turns up later in the volume.
 | done (2026-11-21, unattended) | 831–838 | 809–816 | `archive/pp809-816.json` | Night 168 closes (P809L04); Night 169 label own line P809L05, 170 P811L01, 171 P812L14, 172 P814L16, 173 P816L05 (all h); verse pp. 810, 812, 814, 815, 816; no `وادرك شهرزاد الصباح` before Night 170 (print omits it, no line lost); headers ٨١٣/٨١٥ confirm −22; all joins continuous incl. 808→809 |
 | done (2026-11-22, unattended) | 839–846 | 817–824 | `archive/pp817-824.json` | Night 173 closes (P817L09); Night 174 label own line P817L10, 175 P818L10, 176 P819L17, 177 P820L14, 178 P822L18, 179 P824L04 (all h); verse pp. 818, 819, 821, 823; Qamar al-Zamān imprisoned, the ifrita Maymūna and Dahnash compare him with Princess Budūr; headers ٨١٧/٨٢١ confirm −22; all joins continuous incl. 816→817 |
 | done (2026-11-23, unattended) | 847–854 | 825–832 | `archive/pp825-832.json` | Night 179 closes (P826L13); Night 180 label own line P826L14, 181 P828L12, 182 P830L03, 183 P832L18 (all h); verse pp. 828–832 (Qamar al-Zamān and Budūr compared by Maymūna, Dahnash and Qashqash); header ٨٢٥ on PDF 847 confirms −22; all joins continuous incl. 824→825 |
+| done (2026-11-23, unattended) | 855–862 | 833–840 | `archive/pp833-840.json` | Night 183 closes (P834L04); Night 184 label own line P834L05, 185 P836L04, 186 P837L18, 187 P839L12 (all h); verse pp. 833, 835–836 (Qamar al-Zamān and Budūr each wake beside the other, the ring; in the morning he questions the servant about the girl); header ٨٣٨ on PDF 860 confirms −22; all joins continuous incl. 832→833 |
 | … | … | … | … | one archive per run |
 | end | ~933–938 (offset now −20; recheck near the end) | ~913–920 | | then create `DONE` |
 
-**Last PDF page done: 854 (archive ends at printed p. 832; PDF − 22 holds through vol. 1; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py uses −22). Pages remaining in vol. 1: 78 PDF pages (855–932), then vol. 2 (PDF 936–1631, see runbook step 0.1)
-(approximate, pending the corrected offset holding). Lines archived: 18450 (counted from archive/ on 2026-11-23; the running sum kept here had drifted). calc.traineddata last
+**Last PDF page done: 862 (archive ends at printed p. 840; PDF − 22 holds through vol. 1; PDF 458-459 are a duplicate leaf, so from PDF 460 printed = PDF − 22; apply_verdicts.py uses −22). Pages remaining in vol. 1: 70 PDF pages (863–932), then vol. 2 (PDF 936–1631, see runbook step 0.1)
+(approximate, pending the corrected offset holding). Lines archived: 18627 (counted from archive/ on 2026-11-23). calc.traineddata last
 successfully retrained 2026-09-19/20 (still the committed model — the 2026-09-26 pp.119-126 retrain
 attempt regressed (CER 8.64%→10.40%, discarded); a second 2026-09-26 attempt, from 140 new
 verified line pairs (pp. 127-131, 133-134 prose only, verse/heading excluded; p. 132 excluded, its

@@ -2093,3 +2093,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, with notes: verse انْصَفُوا (anṣafū), اَنَّهُ (innahu wanted), هَجْرُكَ (hajraki wanted), رَقَّصَتْ without object, لِلْاِعْدَادِ, تَرْنِيْ; prose السعيدان, لابداني, بلاشعور, يادهنش, ياقشقش, اريدان set solid; وجما لهما, الا ثنين, احد هما split; عيناة/يداة/رجلاة (ة for ه); ايها السيدة; المداري (exact sense uncertain).
 - Glossary: review corrected several older shared entries' senses for this night (الْأَسَدِ, بُرْغُوثٍ, رَفِيقِهِ, مَحْبُوبِي, أَحْسَنْتَ, اَحْسَنَ) by appending.
 - Nothing to decide. Night 183 is not yet complete (its tail is untranscribed).
+
+## PDF 855–862 (pp. 833–840, transcribed 2026-11-23)
+- For the publishing runs (Nights 183–187), clear misprints archived as printed, to correct via emend.json per README rule 5b: P834L13 بجابنى (sense wants بجانبى); P839L22 الاوض (الارض); P837L01 لقمر الرمان (ز undotted; الزمان everywhere else). P840L23 is archived طلعت (one pass saw طلمعت, an extra tooth; the adjudicator read طلعت).
+- Possible misprints, for the publisher to judge: P834L12 عضب (غضب wanted; first letter undotted); P836L14 وانطرالى (ظ undotted?); P836L17 خط where the sense wants غط; P835L13 وفرصتها (قرصتها?); P839L04 ورفصه (ورقصه?).
+- P835L03 verse: both passes omitted a sukun on the final و of جودوا; added by hand after checking the crop. The first و may carry one too and سادتي may have a sukun on the ي; not added, marks too doubtful at this crop.
+- P838 ه/ة: five finals after د/ذ (وساعده, عنده, فوجده, هذه) read ه by the adjudicator (medium confidence; the glyph lacks the separate dots of the nearby ة).
+- Nothing to decide.

@@ -2067,3 +2067,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Word splits kept where the print leaves a word-width gap: بند قي (P828), وجما لهما, الا ثنين, احد هما (P832). P830L20 verse has no gap between hemistichs, so no " * ".
 - The plan's "Lines archived" running sum had drifted (the 2026-11-22 run did not add its 173); replaced with the count from archive/ (18450).
 - Nothing to decide.
+
+## Night 179 (P824L04–P826L13, published 2026-11-23)
+- Library label: `Night 179 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P826L02 اقوه→افوه twice (the interjection of disgust, printed افوه in Night 23); P826L04 ربالتك→ريالتك ("your drool", with سالت); P826L07 فلبي→فابي ("and he refused"; فلبّى "he complied" contradicts the next clause فلما خالف اباه). The last is the least certain of the four (one letter, ل for ا); if the owner prefers it kept as printed, drop its emend.json entry and restore the note.
+- Kept as printed, with notes: السعيدان, وصفتهالك, ولابد, ياسيدتي, اوتأسريني set solid; وارسل كاتب الملوك (no و between the verbs; kātiba al-mulūki possible); عشرة عجائز, السبع/السبعة قصور; قوارة البول (qawwāra not in Lane; read as a form of qārūra); معشوقتي (fem.) of Maymūna's male beloved; ضِحكت with printed kasra.
+- Glossary: shared مَيْمُونَةَ rewritten (it described only the Night 5 couplet's Maymūna as if universal, with "see note"); shared لِأَنِّي now glosses its li-.
+- Nothing to decide. Nights 180–182 are complete and unpublished.

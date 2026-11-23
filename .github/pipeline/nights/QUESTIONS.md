@@ -2114,3 +2114,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, with notes: P834L07 لا تملّى بها read li-atamallā bihā, as in Night 183 (lā tumlī named, needs the shadda set aside); P834L11 والفت read as alfata, "turned (his face) away" (lafata with a stray alif, or iltafata, named); بالنيام pointed niyām (verbal noun of nāma, Lane), not Middle Arabic; اني اذا نبّهتها loosely built; ومنقوش without accusative alif; مالي, ومافعله set solid; شيأ, استحى. P834L20 تذكرة لها read "a reminder for her" (keepsake of her named).
 - Glossary: the shared entry مَهْمَا analysed a wa- the key lacks; corrected to the plain particle.
 - Nothing to decide. Nights 185–186 are complete and unpublished.
+
+## Night 185 (P836L04–P837L17, published 2026-11-23)
+- Library label: `Night 185 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P836L14 وانطرالى→وانظرالى (set solid as printed); P836L17 خط→غط (ghaṭṭa fī al-nawm); P837L01 الرمان→الزمان; P837L14 موصغا→موضعا.
+- Kept as printed, with notes: P837L10 صدرها ("her chest"; the sense seems to want صدره "his chest" — doubtful, the idiomatic line follows his); P836L06 هذ اشاب (alif misplaced by the spacing, read hādhā shābb); بحيوتي; فم without accusative alif; السعيدان, ماباله, مالك set solid; الخضرة (dusky skin or garden imagery, left open); هارشني/ناغشنى (exact sense uncertain); وثقلت read thaqulat (thaqqalat possible).
+- Frank passage (Budūr caresses the sleeping Qamar al-Zamān, both adults) translated in full, per "never bowdlerize".
+- Nothing to decide. Night 186 is complete and unpublished.

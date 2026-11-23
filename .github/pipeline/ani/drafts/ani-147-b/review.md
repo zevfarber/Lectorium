@@ -55,3 +55,48 @@ Known entries whose sense here is different, so the build would show the wrong g
 - iꜣw — known only as "praise, adoration"; here "old man, the aged one" (noun; with the bent man leaning on a stick).
 - sꜥḥ — known as "noble, dignitary"; here also "the noble body, mummy" (sꜥḥ·f).
 - ꜥšꜣ — known as an adjective; here used as a noun, "multitude, the many (parts)" (ꜥšꜣ·f).
+
+## Pass 2
+
+All edits were made by script (`review2.py` in the reviewer's scratchpad). It uses json.dumps(ensure_ascii=False, indent=1) and writes no trailing newline, which matches both files as found. Afterwards a script confirmed these points:
+- the 756 sign codes, joined in order, are unchanged and equal the packet's sequence (and HEAD's);
+- every morph lemma in units.json is in known-lemmas.json or gloss.json;
+- no gloss entry is unused, and none duplicates a known lemma;
+- every entry begins "lemma — ";
+- every `__broaden__` value begins with its known-lemmas.json entry copied whole, then " · ".
+
+Every Budge form quoted in gloss.json and in the notes (45 in the notes, 22 in the glossary) was compared with the packet's transliteration character by character. All are correct. The names in `l`/`i` agree with the glossary (all 12), and every `say` that also occurs in ani-147-a matches it.
+
+Counts: 0 major, 5 minor, 7 style.
+
+### Changes — gloss.json
+
+- sfḫnw · meaning · minor · "feminine sfḫnwt, the t often not written". The second clause generalised from this one spelling, the seventh gate's heading, and does not belong in a lemma entry · now "feminine sfḫnwt", the same as ḫmtnw in ani-147-a.
+- bgꜣsw · meaning · minor · "the guilty (?), failing ones". "Failing ones" was a sense invented from a guessed etymology · now "the guilty (?)", with the etymology kept as "perhaps".
+- dmḏ · grammar · style · "the reading rests on Budge's ṭemt" pinned the entry to this part's sign doubt, which the U17/U24 notes already give, and it repeated "Budge: ṭemt" · now "to unite, join together (verb; Budge: ṭemt)".
+- qs · grammar · style · gender missing · "noun m.".
+- `__broaden__` ꜥšꜣ · style · the new sense gave "ꜥšꜣ·f 'its many (parts)'" and "many parts" as senses of the lemma · now "multitude, the many (noun; with a suffix, 'its many (parts)'; Budge: āśt)".
+- `__broaden__` sšd · style · the new sense included "'bind up' a thing bound with a band", which is reasoning about this one occurrence · now "to bind up, bandage (?) (verb; a guess; Budge: seśeṭ, 'bandaged')".
+- `__broaden__` psd · style · gender missing on the new noun sense · "noun m.".
+
+### Changes — units.json
+
+- U26 w118 `itk-tꜣw-khꜣq-ḫrw` · glyph 3 (X1) role · minor · the role was `phon` "t" before U30 `phon` "tꜣ", which would read ttꜣ. Everywhere else in the part, a sign that announces a multiliteral is `comp` (U6 reed before M1, U31 q and ꜣ before T14, U3 and U24 s before F36 and Aa18) · `comp`.
+- U10 · n · minor · swꜣ·i disagrees with Budge's seś-à, and the note did not give his reading · "(Budge: seś-à, taking the sign as sš)", as ani-147-a does.
+- U37 · n · minor · the note called ·sn "'their'" but then rendered "cutting them down". On an infinitive the suffix here is the object · "the suffix ·sn 'them', the object of the infinitive".
+- U43 · n · style · Sektet was called "the bark in which the sun crosses the sky", which does not match the known gloss ("the evening bark of the sun") · aligned.
+- U40 · n · style · "as at the earlier gates" did not mention that sš and mꜣꜥ-ḫrw are left out here · added.
+
+### Considered and refused
+
+- Name glosses that say which gate each demon belongs to ("the doorkeeper of the fourth gate of Spell 147"): kept. This is the house pattern for names (ani-147-a, pass 2), and it is not a line-pinned sense.
+- bgꜣsw / U7: the derivation from bgꜣ is kept as "perhaps", because the unit note gives the same hedge. Nothing in the packet confirms or refutes it.
+- Lemma keys `db-ḥr-khꜣ-ḫft` and `itk-tꜣw-khꜣq-ḫrw`, with "kh" for k + h: kept. They are Leiden letters (V31 k, O4 h), not the digraph, and they match the morph lemmas.
+- `ḥkꜣw` keyed as written rather than as ḥkꜣ: kept. It matches units.json, and the gloss gives "magic, spells".
+- ḫsf-ḫmiw and ꜥnḫ-f-m-fnṯw meanings not marked "(?)": kept. Both are built from transparent, known words, and the signs support them (the toppled-wall classifier, the worm).
+- `__broaden__` ꜥšꜣ (is it needed?): kept. The known entry is only an adjective, and here the word is a noun with a suffix.
+- No broadening for wꜥ ("O sole one"), nḏ (participle "protector"), sꜣwty ("watcher"), mꜣꜥ-ḫrw (U23 noun), ir (U35 passive), sp/sn, ḫr ("before"), wꜥb (stative): the known entries cover these uses.
+- U19 `l` "cuts(?)" against `i` "wounds(?)": kept. Both fall inside the gloss "cut, wound (?)", and the English is better for the change.
+- U2 "as at the second gate, but no ·s": checked against ani-147-a U23 (rn sꜣwty·s). The comparison is with the writing of sꜣwty, so it is kept.
+- U34 "left untranslated at the second gate": correct (ani-147-a U30 is in the second gate).
+- Roles and `tr` in every word were re-checked against the readings. No other faults were found, and the pass 1 items were not reopened.

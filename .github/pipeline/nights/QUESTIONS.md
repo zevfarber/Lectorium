@@ -2127,3 +2127,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - No misprint corrected. Kept as printed, with notes: P838L01 ثم كتبت له وثيقة انه اعتقها read annahu aʿtaqahā (the pronouns fit the scene poorly; انها اعتقته would be expected — doubtful, not emended); P838L20–21 وهل وصل من قدرك انت الآخر انك تخادعني loosely built, sense given as scorn and flagged uncertain; P839L05 سلبة "rope" pointed salaba (uncertain); P839L07 يغطس read yughaṭṭisu (Form II, transitive); الا قليلا, انثي, رفصه, شاله, نشله, ولازال as Middle Arabic; شهر زاد split across P839L10/11.
 - The servant is named Ṣawāb here for the first time.
 - Nothing to decide. Night 187 is not yet complete (its tail is untranscribed).
+
+## Night 187 (P839L12–P841L13, published 2026-11-23)
+- Library label: `Night 187 · Qamar al-Zamān, continued`.
+- Misprint corrected (emend.json): P839L22 الاوض→الارض (على وجه الارض).
+- Kept as printed, with notes: P839L18 الغطاس read al-ghiṭās "dunking" (vowels a guess); P839L20 وتشطب read tashaṭṭaba "was scratched" (Form V); P840L09 سجنه read sajnihi "his imprisoning" (sijnihi possible); P840L16 ويكلفنى اني اخبره لها وبمن اخذها loosely built, bi-man also possibly "by means of whom"; P841L06 فسلامة شبابك… read as a wish (an oath reading possible, no bi-); يهدي for يهدأ, مغلوق, kallafa + anna + imperfect as Middle Arabic; فرأه pointed with dagger alif; شهرزاد solid as printed.
+- Review: يا مولانا السلطان pointed al-sulṭāna (accusative apposition after the vocative); earlier nights are split on this (‑u 7, ‑a 4, ‑i 6) — not swept, left as published.
+- Nothing to decide. Nights 188–191 are complete and unpublished.

@@ -22,7 +22,7 @@
 | ani-147-a | Spell 147 — the seven gates, first half | Budge pp. 56–59 | published |
 | ani-147-b | Spell 147 — the seven gates, second half | Budge pp. 60–62 | published |
 | ani-146-a | Spell 146 — the pylons, first half | Budge pp. 63–66 | published |
-| ani-146-b | Spell 146 — the pylons, second half | Budge pp. 67–70 | todo |
+| ani-146-b | Spell 146 — the pylons, second half | Budge pp. 67–70 | established |
 | ani-018-introduction | Spell 18 — the introduction | Budge pp. 71–73 | todo |
 | ani-018-a | Spell 18, first half | Budge pp. 74–78 | todo |
 | ani-018-b | Spell 18, second half | Budge pp. 79–82 | todo |

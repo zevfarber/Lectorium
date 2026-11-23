@@ -89,6 +89,12 @@ Ximénez's paragraphs and headings.
 | Ah Raxa Laꜫ / Ah Raxa Ꜩel | He-of Green Plate / He-of Green Bowl | He of the Green Plate / He of the Green Bowl | Lord of the Green Plate |
 | chuꜭhaxic | it-is-said | as they are called / as it is said | — |
 | naual | spirit-power | spirit power | genius, magic |
+| queh, ꜯiquin | deer, bird | the deer and the birds | — |
+| Ahꜯac, Ahbit | He-who-builds, He-who-shapes | the Builder and the Shaper (`l` keeps them apart from Ꜯacol, Bitol) | — |
+| Ratit Ꜫih, Ratit Zac | Grandmother of-Day, Grandmother of-Light | Grandmother of the Day, Grandmother of the Light | — |
+| ahꜫih | day-keeper | the day-keeper | — |
+| vinac ꜯac, vinac bit | person built, person shaped | a person built, a person shaped | — |
+| vvarabal, vyacalibal | its-sleeping-place, its-standing-place | its place to sleep, its place to rest | — |
 
 ## Notes (`n`)
 

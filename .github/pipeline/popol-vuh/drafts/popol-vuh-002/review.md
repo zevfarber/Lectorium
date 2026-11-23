@@ -57,3 +57,72 @@ Counts: **major 2 · minor 22 · style 5** (29 rows).
 - **poco / poc / pocotahic (units 3, 4, 28).** Brasseur reads g (ꜫ) in all three (pogo, pog, pogotahic), and the MS is printed with plain c. This is not in the establishment log, so it is a question for the establisher, not the notes. The mt respells letter for letter (pok-), which is right while the reading stands. Flagged here only.
 - **Chi byih (unit 8) as chi + y- 'you (pl.)' + bih** (Brasseur Ch'y biyh). This is possible, but the same byih follows ca- 'we' in unit 30, so y cannot be a person marker there. The note's account (a doubtful spelling of bih) was kept.
 - **Paragraph flags (`p`).** None of the units has `p`. Pass 1 was not asked to set them, and they come from the packet's paragraph blocks. Left for the pipeline. Note that ¶ breaks fall before units 0, 1, 4, 7, 10, 11, 12, 17, 20, 25, 28, 32, 33 if they are set by hand.
+
+## Pass 2
+
+Reviewer pass 2, 2026-11-23. Read conventions.md, packet.md, popol-vuh-001.json, popol-vuh-glossary.json, units.json
+(after pass 1), gloss.json and the pass 1 record. Meaning checks used only Brasseur 1861 (OCR lines 18540–18900); no
+modern translation was opened. Edits by script; no `t` changed, no unit added, removed or moved, no `p` added;
+len(mt) == len(WORD_RE.findall(t)) holds for all 35 units. Glossary keys are unchanged (the 203 novel forms); only
+`__broaden__` gained two keys (`chi`, `rico`), and every broadened value is the old entry whole + " · " + the new reading.
+
+Glossary form check (script: each unit's WORD_RE tokens, lowercased, zipped with mt): every entry's modern form equals
+the draft's mt for that form, except `quechelah` (fixed below). `ca` (qa/ka) and `que` (ke/qe) have two mt values and
+now carry both readings. Known forms whose mt differs from the published glossary: `chi` (chik in units 4, 7, 28, 30)
+and `que` (qe in unit 21) — both broadened.
+
+Counts: **major 1 · minor 17 · style 20** (38 rows).
+
+### Changes
+
+| unit / gloss key | field | sev. | what was wrong | what was done |
+|---|---|---|---|---|
+| gloss `xrah` | value | major | "it was wanted, (they) wanted": the passive and the plural that pass 1 removed from the units (a major there). xrah is x- + r- 3sg ergative + aj, active singular. | "xraj — wanted; x- completive + r- 'he, it' (3sg ergative before a vowel) + aj 'want', the wanted action following as a noun". |
+| gloss `quechelah` | value | minor | Modern form k'iche'laj; the draft's mt (after pass 1) is k'echelaj. | "k'echelaj — forest; a second spelling of quichelah (k'iche'laj) …". |
+| gloss `ꜭohe` | value | minor | Invented morphology (k'o + "-je") and pinned to one line ("after chi of wishing"); the form is also used in kat k'oje wi (unit 3). | "be, be there, dwell; intransitive verb, the verb of k'o 'there is'", both uses cited. |
+| gloss `chuxic` | value | minor | "let it be; ch- optative": pass 1 made it 'it shall be' and set it against chuxoc. | "it shall be; ch- + ux + -ik, said after a speech, beside chuxoq 'let it be'". |
+| gloss `bano` | value | minor | "doing, did": it is the verb (xki b'ano 'they made it', chi qa b'ano), not a noun. | "do, make; b'an + -o, the ending of a transitive verb". |
+| gloss `chu` | value | minor | "(uncertain)" with no morphology: chu is two plain things, chi + u- 'its' (unit 7) and ch- + u- 'it' (unit 33). | Both analyses given; hedge dropped. |
+| gloss `hutac` | value | minor | "each, each kind": pass 1 removed 'kind' from the l because hutac is 'each'. | "each; quantifier, ju- 'one' + -taq". |
+| gloss `quibil` | value | minor | "reciprocal ending" is invented. | "ki- 'their' + ib' 'self' + -il". |
+| gloss `ivecha` | value | minor | "i- + wecha 'food'": the w is the prefix (iw- before a vowel), as the entry for xivech says. | "iw- 'your (pl.)' (i- before a vowel) + echa 'food'". |
+| gloss `lo` | value | minor | Only 'perhaps'; the same form is the verb in xqui lo 'they saw(?)' (unit 26). | Second reading added, marked uncertain and inferred from Brasseur. |
+| gloss `ꜫih` | value | minor | 'day, sun' only; unit 17 reads qui ꜫih 'their day, their lot (inferred)'. | Added "in ki q'ij perhaps 'their lot, fortune' (uncertain)". |
+| gloss `nabaxtah`, `canabaxic` | value | minor | Stated as certain, though nabax 'remember' is inferred (unit 22 note, gloss `nabax`). | "(uncertain)", "sense inferred". |
+| `__broaden__` `que` | value | minor | The 'for us' reading is mt qe, not ke, but sat under the ke heading. | Three readings: ke 'thus' · ke k- + e 'they' · qe 'for us' (uncertain). |
+| `__broaden__` `chi` (new) | value | minor | Units 4, 7, 28, 30 show chi as chik (shared c); the published entry gives only chi. | Broadened with "chik — again: chic with its final c shared with the next word". |
+| 13 | i | minor | "you shall have, but they shall be the canyons" is future (Brasseur's reading); the K'iche' and l are completive/perfect (xivech 'became yours', mixe vuxic 'have become'). "lairs and dens" broke the rendering of unit 5. | "your food and your fodder, your places to sleep and your places to rest, are yours there; they have become the canyons and the forests, …". |
+| 31 | l, n | minor | chire is singular ('to him, to her', so the note), but l had "to-them". | l "to-him/her"; note says the pair is spoken to as one, as with catoc. |
+| 33 | l, n | minor | Same with chirech: l "to-them". | l "to-him/her"; note adds that chirech is singular. |
+| 33, 34 | l | minor | nabaxtah, canabaxic 'remembered' unhedged, though unit 22 says the sense is inferred. | "remembered(?)", "our-being-remembered(?)". |
+| gloss `cacha` | value | style | "k- 'ongoing'" against the note's ca-. | "ka- 'ongoing action'". |
+| gloss `ychacabal` | value | style | Morphology skipped the root. | "+ a root chak not otherwise known + -ab'al". |
+| gloss `camo`, `yao` | value | style | Pinned to xu ("after xu"), meaning given as past. | "take" / "give"; -o transitive ending, with the phrase as example. |
+| gloss `ꜭhavahe` | value | style | "(let)" belongs to tah, not to this word. | "speak (uncertain form) … (kix ch'awaje taj 'speak, you all')". |
+| gloss `coh` | value | style | "pronoun before a verb" contradicted its own "k- 'shall' + oj". | "we, us (shall); k- + oj, before a verb". |
+| gloss `icaharizah` | value | style | "us" comes from coh, not from this word. | "you (all) praise, honour (uncertain)". |
+| gloss `xcoꜫibeh` | value | style | "it cried out": the subject is each of the animals (l "they-cried(?)"); no morphology. | "cried out (uncertain); x- completive + a verb not otherwise known". |
+| gloss `vbixic` | value | style | Root given as b'i 'say' (that is b'i' 'name'). | b'ij 'say'. |
+| gloss `xꜭha` | value | style | "(they) said": the form is singular (subject Alom, Ꜭaholom taken as one). | "said; … the singular of xech'a". |
+| gloss `tihtobeh` | value | style | "with verb ending". | "+ -ej, transitive verb ending". |
+| gloss `tiyic` | value | style | No morphology; doubtful reading not said. | "doubtful reading, perhaps ti' 'eat' + -ik". |
+| gloss `yoh` | value | style | "(uncertain)": the units treat yoh 'undo' as known (unit 26 note; l unhedged); the inferred sense in unit 29's note is yoc's. | Hedge removed. |
+| gloss `mucun` | value | style | "(uncertain)" while l and n are unhedged; Brasseur reads 'could not see behind' here and the verb recurs later in his text (x-e mucunic). | "look, see; verb". |
+| gloss `vꜭhan` | value | style | "its speech" only; it is used in xe vꜭhan qui quib 'they spoke among themselves'. | "speech, speaking", with the phrase. |
+| `__broaden__` `ta` | value | style | New reading lacked a modern form and the format of the others. | "· ta — hear, understand; transitive verb (xki ta 'they heard')". |
+| `__broaden__` `rico` (new) | value | style | Published 'they found'; here chu rico 'let it find'. | "· riqo — find, in chu riqo 'let it find' (ch- + u- 'it')". |
+| 8 | l | style | "Let-you-say": no 'you' prefix (pass 1 refused y as a person marker). | "Let-(you)-say", as unit 15's "let-(you)-take". |
+| 15 | i | style | "now" is not in the K'iche' (it is Brasseur's 'Maintenant'); xa 'only' dropped. | "Take up your service, and only that: your flesh shall be eaten." |
+| 30 | i | style | "to reckon its days, to find its shaping": 'find' is invented; the K'iche' has two passive nouns, 'its being day-counted, its being shaped'. | "Try once more: let its days be counted, let it be shaped." |
+| 32 | i | style | "the word was given" for vbixic 'its being said'. | "Then it was told to the diviners". |
+
+### Considered and refused
+
+- **Unit 7 "Now that you can cry, now that you can call" and "each after its kind"** (pass 1 left both for pass 2). Both come straight from Brasseur's French ("puisque la puissance de bramer et de gazouiller (vous est donnée)"; "chacun suivant son espèce, chacun suivant son genre"), the permitted check, not from a modern translation; l and n state the forms. Kept.
+- **Unit 13 future tense as Brasseur's** — Brasseur has "vous les aurez; (mais) ce seront les ravines", but the K'iche' verbs are completive/perfect and l follows them; i was brought into line with l (above), not with Brasseur.
+- **gloss `nuc` = nuk' (ejective supplied).** nuk' 'arrange' is a certain word; the mt and gloss agree, and the note gives Brasseur nuq. Kept.
+- **gloss `chau` = ch'aw, `iziquih` = isik'ij (ejectives supplied).** Certain words (ch'aw 'speak', sik'ij 'call'); within the mt rule. Kept.
+- **gloss `xivech` (x- on a possessed noun).** Odd, but it is the note's own analysis, and the gloss agrees with it. Kept; a question for a later pass on Classical K'iche' grammar.
+- **known `chauaxoc` "root chaw 'sow'"** against `ravaxic` "awax 'sow'" here (ch- + awax would be consistent). The published entry is outside this part's keys and was not broadened. Flagged for the glossary owner.
+- **l "let we make" (units 14, 30) against "let-us make" (unit 21).** chi ca ban(o) has a separate chi 'let' and ca- 'we'; ca bana has no chi. The difference is in the K'iche'. Kept.
+- **Ahꜯac, Ahbit as "the Builder and the Shaper" in i; ahbit "the shaper" in unit 33.** As pass 1. Kept.

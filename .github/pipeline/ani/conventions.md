@@ -82,7 +82,7 @@ the signs.
   part does ("(Budge: Usekh-nemtet)") so a reader with an old translation can find it.
 - No modern translation is opened or recalled (Faulkner, Allen, Quirke, Goelet…). Budge's English under each
   word is in the packet as a 130-year-old check on sense only.
-- House renderings (from published parts): Spell 147's ꜥryt is "gate" (Budge "hall"), each gate with its doorkeeper (iry-ꜥꜣ), watcher (sꜣwty) and announcer (smi); Budge's line numerals restart in each gate and `ln` keeps them as printed. *sp sn* is rendered "(Twice.)"; the suffix ·tn is said `-ten` (`imyten`, `henaten`).
+- House renderings (from published parts): Spell 147's ꜥryt is "gate" (Budge "hall"); Spell 146's sbḫt is "pylon" (Budge "pylon"), its doorkeeper iry-ꜥꜣ, each gate with its doorkeeper (iry-ꜥꜣ), watcher (sꜣwty) and announcer (smi); Budge's line numerals restart in each gate and `ln` keeps them as printed. *sp sn* is rendered "(Twice.)"; the suffix ·tn is said `-ten` (`imyten`, `henaten`).
 - Never bowdlerise; the content advisory rules of the project apply where a chapter calls for one.
 
 ## Titles

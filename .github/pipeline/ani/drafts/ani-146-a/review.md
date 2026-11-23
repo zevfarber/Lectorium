@@ -59,3 +59,52 @@ Known entries whose sense here is different, so the build would show the wrong g
 - ḥꜣw — known only as "nakedness"; here (U24) perhaps ḥꜣw 'excess, abundance' (?) (noun; Budge renders 'breath').
 - qd — known only as "to build"; here (U32) the noun qd 'form, likeness' (Budge: qeṭ, 'the like').
 - ꜣw and wsḫ — known as verbs/adjectives 'be long', 'be broad'; here (U31) as nouns 'length', 'breadth' with ·s. A short addition each.
+
+## Pass 2
+
+All edits were made by script (`review2_146a.py` in the reviewer's scratchpad). It uses json.dumps(ensure_ascii=False, indent=1) and keeps each file's ending as found (no trailing newline). Afterwards scripts confirmed these points:
+- the 632 sign codes are unchanged and equal the packet's sequence, and all the pass 1 structural checks still hold (`check146a.py`);
+- every morph lemma in units.json is in known-lemmas.json or gloss.json (17 new, none missing);
+- no gloss entry is unused, and none duplicates a known lemma;
+- every entry begins "lemma — ";
+- every `__broaden__` value (8) begins with its known-lemmas.json entry copied whole, then " · ";
+- every Budge form in the glossary was checked against the packet's transliteration (Neruit, Mes-Ptaḥ, Sebaq, Neḳau, Ḥentet-Ārqiu, Semati, reśàt, smert, senk, setau, sart, ḥefu, χebχebet, θennu, sert, ḥent, χet, ḥau, qeṭ, tememet).
+
+Counts: 0 major, 9 minor, 9 style.
+
+### Changes — gloss.json
+
+- ms-ptḥ, ngꜣw, nrwyt, sbꜣq, smꜣty, ḥntyt-ꜥrqyw · grammar · style · "(name of a doorkeeper; …)" did not match the house wording for these demons in ani-147-a/b · now "(name of a gatekeeper demon; …)", in the published order: name, meaning (?), office, part, then the grammar.
+- ngꜣw · grammar · minor · "from the word for the long-horned bull, which takes the bull as classifier" copied the unit's reasoning about this spelling · now "spelled as ngꜣw 'long-horned bull', with the bull as classifier; doubtful".
+- sbꜣq · grammar · style · "the arrow sign is not understood" described this one writing · now "the reading rests on a sign not identified", the wording of srs-ḥr in ani-147-a.
+- nrwyt · grammar · style · "doubtful" was missing, though the note gives the meaning with a query · added.
+- rš · whole · minor · The entry mixed this passage's form "ršit", a stray "rš," and Budge's other reading of this passage ("Budge instead reads … 'the nostrils'") · now "to rejoice, be glad (verb; written with the nose as classifier); joy (noun f.; Budge: reśàt)".
+- smr · whole · minor · "(?)", "doubtful" and "Budge reads … 'beloved'" belonged to the reading of U14, not to the lemma, which is certain · now "companion, 'Friend', a courtier's title (noun m.; feminine smrt; a word built on mri 'love'; Budge: smert)". The doubt stays in the U14 note.
+- snk · grammar · minor · "not otherwise known in these parts" was a remark about the part · removed; "the sense is doubtful" kept.
+- ḫbḫbt · grammar · minor · the same "not otherwise known in these parts" · removed.
+- stꜣw · grammar · style · "noun pl." was not stated in the note (the plural strokes may be only classifiers) · "noun".
+- sꜣr · whole · minor · "sꜣrt, the one in need (?) (feminine participle used as a noun …)" pinned the lemma to U20, and "Budge: 'the needy'" quoted his English, not his transliteration · now "want, need; to be in need (?) (noun and verb; doubtful; Budge: sart)".
+- ḥfꜣw · grammar · style · "written with the snake sign alone" described this one writing · now "(noun m.; Budge: ḥefu)".
+- ṯni · whole · minor · "written with t for ṯ in places" described U9's spelling; "exaltation" and "ṯnwt … participles" were senses and forms not given in the notes; "'how great'" quoted Budge's English · now "to be distinguished, raised above (verb); ṯnw, greatness (?) (noun; Budge: θennu)".
+- `__broaden__` sr · minor · "participle feminine srt 'who foretells' (?); doubtful" pinned the new sense to U3 · now "a second word of the same spelling: to foretell, make known (verb; Budge: sert)".
+- `__broaden__` ḥnwt · style · the new sense lacked the house phrase "a second word of the same spelling" and Budge's form · added (Budge: ḥent).
+- `__broaden__` ḫt · minor · "noun f." was not stated in the notes, and "'Flame'" quoted his English · now "a fifth word: fire, flame (noun; written with the flame as classifier; Budge: χet)".
+- `__broaden__` ḥꜣw · minor · "Budge instead renders 'breath'" argued this passage · now "a second word of the same spelling: excess, abundance (?) (noun; Budge: ḥau)".
+- `__broaden__` qd · style · "the like" and "'the like'" repeated Budge's English · now "form, likeness (noun m.; Budge: qeṭ)", with "a second word of the same spelling".
+- `__broaden__` tmmw · style · "feminine collective form tmmt, 'mankind' (noun f. …)" restated the sense · now "also written tmmt, as a feminine collective (Budge: tememet)".
+
+### Changes — units.json
+
+None. In a fresh pass over every unit, including those not touched in pass 1, I re-read every role and `tr` against its reading, every `l` against the Egyptian word order, every `i` against its `l`, and every grammatical label. No fault was found.
+
+### Considered and refused
+
+- hmhmt "the shout of battle": kept. The U30 note supports it ("the battle cry of a fierce goddess").
+- sbty "noun m.; plural sbtyw": kept. The gender is the lemma's own, and the plural is the form in the text (U2).
+- sdbḥ, both senses ("entreat (?)", "provide for, equip"), and the causative of dbḥ: kept. The U25 note gives both senses and the derivation.
+- smꜣty "from smꜣ 'unite', or … 'slay'", and ḥntyt-ꜥrqyw "ꜥrq 'bind, swear' (?)": kept. Each is in its note, with the query.
+- The ꜣw and wsḫ broadenings: kept as the glosser wrote them. Each begins with the known entry whole, and the senses are those of U31.
+- Name glosses that name the pylon and the spell: kept. This is the published house pattern ("the doorkeeper of the first gate of Spell 147").
+- U24 l/i "abundance(?) of joy(?)" (pass 1): re-examined and kept. The note gives both readings and says that both are doubtful.
+- U26 "while his head is (on him)(?)" and U25 sdbḥ·tw·s: re-examined. Both are marked doubtful and give the alternatives, and no better parse is supported.
+- U12, the second mꜣꜥ-ḫrw with ordinary roles (phon/log): kept. The glyphs record what the papyrus has, and the note marks the second writing as not read.

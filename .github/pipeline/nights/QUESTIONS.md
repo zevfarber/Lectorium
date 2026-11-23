@@ -2100,3 +2100,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - P835L03 verse: both passes omitted a sukun on the final و of جودوا; added by hand after checking the crop. The first و may carry one too and سادتي may have a sukun on the ي; not added, marks too doubtful at this crop.
 - P838 ه/ة: five finals after د/ذ (وساعده, عنده, فوجده, هذه) read ه by the adjudicator (medium confidence; the glyph lacks the separate dots of the nearby ة).
 - Nothing to decide.
+
+## Night 183 (P832L18–P834L04, published 2026-11-23)
+- Library label: `Night 183 · Qamar al-Zamān, continued`.
+- Misprint corrected (emend.json): P832L20 موعوبا→مرعوبا ("terrified"; the same sentence closes Night 182 with مرعوبا).
+- Kept as printed, with notes: P834L03 لا تملى بها read as li-atamallā bihā, "that I may take my fill of her", one word split by the print's spacing (tamallā bi- as in Night 179; the drafter's alternative lā tumlī bihā, "do not delay with her", named in the note); P834L01 حذري read as ḥazrī "my guess" (ḥadharī possible); P833L04 بقامة النيّة (الفيّة possible); verse وَرْدُ خَدٍّ lacks the wa- the munsariḥ metre needs; غِزَالًا with kasra; فَسَاعَةُ nominative; السعيدان, لايقدر, ماشاء set solid; ثلث, نائمه, هى/وهى/زوّجنى.
+- The reviewer believed the couplet بدت قمرا ومالت غصن بان is al-Mutanabbī's; not verifiable from the sources this pipeline may use, so not stated to the reader.
+- Nothing to decide. Nights 184–186 are complete and unpublished.

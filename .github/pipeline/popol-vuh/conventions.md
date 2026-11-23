@@ -95,6 +95,13 @@ Ximénez's paragraphs and headings.
 | ahꜫih | day-keeper | the day-keeper | — |
 | vinac ꜯac, vinac bit | person built, person shaped | a person built, a person shaped | — |
 | vvarabal, vyacalibal | its-sleeping-place, its-standing-place | its place to sleep, its place to rest | — |
+| poy, aham che | effigy, carved wood | the effigies carved of wood | mannikins |
+| ꜩite | tz'ite' | the tz'ite' (kept in K'iche') | coral tree (in `i`) |
+| ahꜩite | he-of-tz'ite' | the one of the tz'ite' | — |
+| ahꜫol | he-of-resin | He of the Resin | — |
+| Ahtoltecat | He-of-Toltecat | the Toltec | — |
+| Chiracan Xmucane | Chiracan Xmucane | Chiracan Xmucane (Chiracan untranslated, meaning unknown) | — |
+| Xecotcovach, Camaloꜩ, Coꜩbalam, Tucumbalam | names kept | Xecotcovach, Camalotz, Cotzbalam, Tucumbalam (not translated) | — |
 
 ## Notes (`n`)
 

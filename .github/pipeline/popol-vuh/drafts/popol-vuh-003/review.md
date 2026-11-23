@@ -46,3 +46,49 @@ Counts: **major 0 · minor 8 · style 3** (11 rows).
 - **Ah Raxa Lac → Laq (unit 2) with a plain c.** This is consistent with the pilot's Laꜫ → Laq, and the same word as lac → laq in unit 36. Kept.
 - **Not in the establishment log, flagged for the establisher.** Brasseur reads ch'uxic where the MS (as established) has chuxoc in unit 13 (Utz are ch'uxic ri y poy). The text is pinned, so the notes are left as they are.
 - **Per-word mention of the g-shape → ꜭ rule.** It is a standing rule in conventions.md, and 001/002 do not repeat it in the notes. Not added.
+
+## Pass 2
+
+Reviewer pass 2, 2026-11-23. Read conventions.md, packet.md (text and establishment log), popol-vuh-001.json,
+popol-vuh-002.json, popol-vuh-glossary.json, wordre.py, pass 1 above, units.json and the Sonnet gloss.json (all 133 entries
+and the 9 `__broaden__` values). The meaning check used only Brasseur 1861 (OCR around lines 18990–19160). No modern
+translation was opened. All edits were made by script. No `t` was changed, and no unit was added, removed or moved. No
+`p` was added.
+
+Checks run by script afterwards: units.json and gloss.json parse. len(mt) == len(WORD_RE.findall(t)) holds for all 37
+units, and no unit has `p`. Every key in novel-forms.json is in gloss.json. Every gloss key is a lowercased WORD_RE token of
+this part, and every gloss modern form (including each new reading in `__broaden__`) equals the mt used for that form.
+Every `__broaden__` value begins with the glossary entry copied whole, then " · ". mt against 001/002 shows only the
+differences pass 1 accepted (ꜭoh, quech, vi), plus 001/002 readings (chik, xe') that do not occur here.
+
+Counts: **major 0 · minor 8 · style 9** (17 rows).
+
+### Changes
+
+| unit/entry | field | sev. | what was wrong | what was done |
+|---|---|---|---|---|
+| 13 | n | minor | The log says nothing about Brasseur's `Utz are ch'uxic` (OCR 19023), where the text has `Vꜩ are chuxoc`, and the note did not mention chuxoc at all. | Added a sentence: chuxoc is ch- + ux + -oc, as in Ta chuxoc; Brasseur prints ch'uxic 'it shall be'; the text printed here has chuxoc, and the difference is not settled. `t` was not changed. |
+| 28 | mt | minor | oquic → oqik, against xoc → xok in unit 35 (same root) and 002's Catoc → Katok, catoquexic → qatokexik. 'Enter' is ok. | oqik → okik. |
+| gloss `oquic` | value | minor | oqik, oq 'enter' (followed the old mt). | okik; ok 'enter' + -ik. |
+| gloss `ieioh` | value | minor | Modern form ieioj. Pass 1 changed the mt to yeyoj, so the gloss and the toggle disagreed. | yeyoj, with Brasseur yeyoh and a note that consonantal i is respelled y. |
+| gloss `hizah` | value | minor | It put a- 'you' inside hizah. The unit 12 parse (pass 1) puts c- + a- in ca, and hizah is the rest of cahiza, with the c not written. | Rewritten to match the unit 12 parse. Marked uncertain. |
+| gloss `taquentah` | value | minor | It left out the possibility that the end is tah, the wishing particle. The unit 11 note gives this possibility (pass 1). | Added "perhaps taj, the particle of wishing". |
+| gloss `alai` | value | minor | "alay rech 'bearer of them'": rech is 'of it'. The glossary's uncertainty about alay was also dropped. | alay kech 'bearer of them', the preamble's alay written with i; marked uncertain. |
+| gloss `__broaden__.chi` | new reading | minor | The example "chi kajtz'aq 'that we build'" is an invented form: kajtz'aq means 'their builders' and does not occur after chi. | Replaced with this part's chi qajaj 'that we carve'. |
+| gloss `tiquiba` | value | style | It cited the preamble form as xchikatikib'a, but 001's mt is xchiqatikib'a'. | Now cites xchiqatikib'a'. |
+| gloss `ꜭuxlaai` | value | style | The glossary's "exact form uncertain" for k'u'xla'y was dropped. | Restored, and the entry now ties the form to the preamble's ꜭuxlaay. |
+| gloss `banatahic` | value | style | "shall be done": the 'shall' comes from chi, not from the form. | being done, be done; passive -ataj + -ik; chi b'anatajik given as an example. |
+| gloss `cahah` | value | style | "that we carve": the 'that' comes from chi. | "we carve". |
+| gloss `cotox` | value | style | "shall be sculpted": the 'shall' comes from chi. | "be sculpted". |
+| gloss `vxic` | value | style | "came to be": the form has no x-. | becoming, coming to be; xe uxik given as an example. |
+| gloss `camizax` | value | style | "was killed": the form has no x-. The morphology (-is + -ax) also differed from the unit 26 note (-iza + -x). | be killed; kamisa (kam + -isa) + passive -x; xe kamisax given as an example. |
+| gloss `cutun`, `xcute` | value | style | Both were pinned to their lines: "follows chi 'let'" and "with the household as subject". | The line-bound phrases were removed. xcute now records MS xcuhe and stays uncertain. |
+| gloss `__broaden__.ca`, `.que` | new reading | style | ca: the example kach'awik is a different token (caꜭhauic), and "are withered" turns a guess into a fact. que: "the same as kech here" is pinned to the line. | ca: the examples are now this part's ka pichipoj (uncertain) and ma ka jisaj (k- + a-). que: "compare kech". |
+
+### Considered and refused
+
+- **Change chuxoc or add a log entry (unit 13).** The text is pinned, and this pass may not change `t` or the establishment log. The note now gives both readings. The establisher should check the image at this word.
+- **chi vinac: l "at people" against n "'of people'" (unit 25).** Both are glosses of the preposition chi, and unit 20 also uses "at people". This does not mislead. Kept.
+- **vbac "its bone" without (?) in the gloss (unit 31).** The (?) in l is on what 'its bone, their face' means in context (the eyes). The word itself is certain. Kept.
+- **boh → b'oj, xot, zibac → sib'ak.** Each is respelled letter for letter, and no ejective or glottal stop is supplied. That is the rule for a word whose modern form the pass cannot confirm. Kept.
+- **Pass 1 refusals (achih → achi, caa, taquentah/vzuculiquil q, ꜭoh k'oj, chu rico, Ah Raxa Lac).** There is no new reason to reopen them. Kept.

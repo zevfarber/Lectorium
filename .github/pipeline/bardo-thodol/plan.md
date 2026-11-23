@@ -15,4 +15,4 @@
 | bardo-thodol-010 | The blood-drinkers of days eight to eleven: Buddha, Vajra, Ratna and Padma Heruka | pp. 90–98 | published |
 | bardo-thodol-011 | Karma Heruka on day twelve, and the wrathful goddesses: the Gaurīs, the Phra men, the gatekeepers and the first Īśvarīs | pp. 98–107 | published |
 | bardo-thodol-012 | The last Īśvarīs and the gatekeepers; all as one's own appearance; Yama, Lord of Death, and the call on the yidam | pp. 107–115 | published |
-| bardo-thodol-013 |  | pp. 116–121 | todo |
+| bardo-thodol-013 | The prayer of the bardo, the benefits of hearing, and the colophon | pp. 115–121 | established |

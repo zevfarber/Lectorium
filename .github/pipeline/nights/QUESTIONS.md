@@ -2080,3 +2080,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprint corrected (emend.json): P828L01 ملّي→عليّ (لكِ عليّ ذلك, joining from P827L23).
 - Kept as printed, with notes: قدا فرغا (space misplaced in قد افرغا; pointed across the break, qad ufrighā); بند قي (bunduqī, "Venetian", set as two words); بتأمّل (possibly يتأمّل, one dot; kept); verse الخَنِق (الحَنِق possible) and nominative خَوْفُ where an accusative of reason is wanted; دهنشا with accusative alif only on P827L06; الساعه, تقضى, اجئ/تجئ; rubric شعر kept in the prose unit before the verse.
 - Nothing to decide. Nights 181–182 are complete and unpublished.
+
+## Night 181 (P828L12–P830L02, published 2026-11-23)
+- Library label: `Night 181 · Qamar al-Zamān, continued`.
+- Misprint corrected (emend.json): P828L18 verse تَذَلُّلًا وَتَذَلُّلَا → second word وَتَدَلُّلَا ("abasement … coquetry", one dot; the same verbal noun joined to itself by wa- is not idiom). The drafter rated it doubtful, the reviewer clear; corrected as clear. If the owner prefers the print, drop the emend.json entry and restore "abasement upon abasement".
+- Kept as printed, with notes: verse يَنْصِفُ (yunṣifu wanted), رَايْتُ, وَاهْوِ (ihwa expected), مُنْحِفُ, وَدَدْتُهُمَا, لَوْاَنَّ set solid; prose اواخوان set solid; تخفى. P829L11 بِالْعَجْزِ … وَاَضْعَفُ is stiff; the reviewer suggested la-aʿjazu, declined because it breaks the kāmil metre.
+- Nothing to decide. Night 182 is complete and unpublished.

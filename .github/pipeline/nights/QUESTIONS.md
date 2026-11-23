@@ -2060,3 +2060,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, with notes: verse ثَلْثُ ذَوائِبِ (print's vowels do not scan; thalātha dhawāʾiba wanted); لَوْ لَا اُمْسِكَ (singular where the metre wants umsikā); تعلّق في ضعيف and اذا همّت تقوم; الخيّال with printed shadda (khayāl probably meant); باعكان; كماينبغي and اذكرلك set solid; line-final lone و before متصل; شيأ; سيدتى/سيدتي.
 - Glossary: shared يَرَاهُ corrected (lemma raʾā; the old remark about an indicative for a subjunctive was wrong, the forms are identical).
 - Nothing to decide. Night 179 is not yet complete (its tail is untranscribed).
+
+## PDF 847–854 (pp. 825–832, transcribed 2026-11-23)
+- For the publishing run (Night 180/181): P828L01 is printed ملّي where the sense wants عليّ (لكِ عليّ ذلك, joining from P827L23) — a clear misprint; archived as printed, to correct via emend.json per README rule 5b.
+- Kept as printed, possibly misprints, for the publisher to judge: P826L02 اقوه اقوه (the ق shows a single dot; افوه possible); P829 verse يَنْصِفُ; P832 verse فَالمَّاسُ (sense wants فالناس); P832L20 موعوبا; P830L01 ميمولة (ميمونة meant?); second دهنش on P829L01 possibly printed دهمش.
+- Word splits kept where the print leaves a word-width gap: بند قي (P828), وجما لهما, الا ثنين, احد هما (P832). P830L20 verse has no gap between hemistichs, so no " * ".
+- The plan's "Lines archived" running sum had drifted (the 2026-11-22 run did not add its 173); replaced with the count from archive/ (18450).
+- Nothing to decide.

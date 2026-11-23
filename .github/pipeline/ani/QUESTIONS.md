@@ -43,3 +43,7 @@
 
 ## 2026-11-22 · ani-147-a · line numbers restart in each ārit
 Budge numbers the papyrus lines of Spell 147 afresh in every hall (ārit): hall 1 ll. 1–17, hall 2 ll. 1–9, hall 3 ll. 1–8, and so on in ani-147-b. The established file keeps his numerals as printed and adds `"hall"` to every word. Decided meanwhile: the drafter sets each unit's `ln` to Budge's numeral and says in the first unit of each hall ("p": true) which ārit it opens; if the build or validator objects to repeated `ln` values, the drafter records it here rather than renumbering Budge's lines.
+
+- 2026-11-23 · ani-147-a · footnote 2: Budge prints the sceptre S42 (sḫm·k) and says in his note that the papyrus has im·k. The established file has his printed signs, so the part reads sḫm·k "may you have power", and the note gives the papyrus's im·k. Decided meanwhile: as published. If the owner wants the papyrus's signs, re-establish w53 (M17 G17 V31) and re-pin.
+- 2026-11-23 · ani-147-a · ꜥryt is rendered "gate" in this part (Budge "hall"; ani-125-address "lintel/door-frame"); the glossary entry was broadened, and conventions now give "gate" as the house rendering for Spell 147. Unwritten first-person ·i in sḏm·n·f forms is supplied in reading with "(I)" in l, following weighing-of-the-heart and hymn-to-ra.
+- 2026-11-23 · sign glossary · 7 more Egyptian sign entries (F3, M4, F42, T13, T26, Z15B, Z3A) written by the run lead from memory of the Gardiner list; T26 (sḫt) and T13 (rs) are coded approx/unsure in Budge's type here. Worth a check against a sign list.

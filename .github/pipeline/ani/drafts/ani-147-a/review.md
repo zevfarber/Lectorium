@@ -65,3 +65,43 @@ Known entries too narrow for this part (`__broaden__`):
 - sḫn — add: to embrace (with the embracing arms D32).
 - imi — add: a second word of the same spelling: the negative verb "do not, you are not to" (imi + suffix + negatival complement; im·k).
 - wnḫ — add: to clothe, dress (a person or a cult object, e.g. a standard).
+
+## Pass 2
+
+Edits were made by script (`review2.py` in the reviewer's scratchpad). After the edits, a script check passed: the glyph sequence equals the established one; every unit has an int `ln`; every morph lemma in units.json is in known-lemmas.json or gloss.json; no gloss entry is unused; every entry starts "lemma — "; and every `__broaden__` value is the known-lemmas.json entry copied whole, then " · ", then the new sense.
+
+Counts: 0 major, 9 minor, 11 style (counted per line below; the grouped lines cover 8 name entries, 4 pinned entries and 5 broaden values).
+
+### Changes — gloss.json
+
+- hꜣ-ḫrw · minor · it quoted "Budge: Ha-kheru", which is Budge's English line; his transliteration in the packet is "Ha - χeru", and the house quotes Budge's transliteration (Àusàr, Seχet-Àrui, χeperà) · now "Budge: Ha-χeru"; also labelled the announcer of the first gate, a name of a gatekeeper demon.
+- sḫd-ḥr-ꜥšꜣ-irw · minor · it quoted Budge's English "Sekhet-ḥrà-āsht-àru"; the packet's transliteration is "seχeṭ-ḥrà - āśt - àru" · now "Budge: Seχeṭ-ḥrà-āśt-àru"; labelled a name of a gatekeeper demon (the doorkeeper of the first gate).
+- mtty-ḥ, wsd · minor · the meaning field opened with "name of a gate's watcher/announcer" and repeated "name of a demon" in the grammar · restructured as "name — meaning, the watcher/announcer of the Nth gate of Spell 147 (name of a gatekeeper demon; …; Budge: …)", like the other names.
+- sqd-ḥr, srs-ḥr, wn-ḥꜣt, qq-ḥwꜣwt-nt-pḥwy · style · these were labelled only "name of a doorkeeper/watcher", not by kind · same pattern as above; srs-ḥr also gets "(?)" on its meaning, since the U33 note marks the reading as resting on an uncertain sign; sqd-ḥr is derived from the verb sqdi.
+- gꜣḥ · minor · the entry carried the spelling of this one occurrence ("written g + ḥ …, the ꜣ not written"), which belongs in the note · now general; Budge's "ḳeḥ, 'be needy'" checked against the packet and correct.
+- qbb · minor · it carried this occurrence's spelling ("written with g for q and one b") · now general, with "reading doubtful" kept.
+- rḏw · minor · it carried this occurrence's sign doubt ("rests on a sign taken as the mountain ḏw"), which is in the U7 note · now general: "efflux, exudation, the fluids that run from a corpse".
+- smnḫ · minor · the grammar label "causative; sḏm·n·f smnḫ·n·i …" quoted a verb form as if it were part of the lemma · now "causative of mnḫ 'be excellent'".
+- spr, sṯꜣ, mkt, ḫmtnw · style · each was pinned to its line ("infinitive after ḫft …", "imperative 'draw on!'", "mkt ḏḥwty …", "written with the numeral and t") · made general (spr r 'arrive at'; sṯꜣ "often written stꜣ").
+- snḏm · style · "the nḏm sign is written in a doubtful form" belongs to the occurrence · removed; "causative of nḏm 'be sweet, pleasant'".
+- ḫmt · minor · the grammar label was "verb, used as a noun in m ḫmt" with a pinned spelling · now "to think, intend, plan (verb); thought, intention (noun)". The doubt in U26 is about the phrase, not the lemma.
+- sḫḫ · style · "written s + ḫ + ḫ" · removed; "a word not identified".
+- mꜣꜥtyw · style · tightened: "(noun pl., with the god classifier; reading and meaning a guess; …)".
+- `__broaden__` ꜥryt, smi, sḫn, imi, wnḫ · style ×5 · the prefixes were already whole, but each new sense had occurrence detail: "infinitive …; the sense in its context is doubtful" (sḫn), "im·k irt …; the use is doubtful" (imi), "participle wnḫ 'who clothes'" (wnḫ). imi also lacked the general construction · rewritten as general senses. imi's example is now the standard im·k sḏm "you shall not hear". Old entries were re-copied whole from known-lemmas.json and verified by script.
+
+### Changes — units.json
+
+- U1 · n · minor · "(Budge: Sekhet-ḥrà-āsht-àru)" was Budge's English spelling, against the house's practice of quoting his transliteration · now "(Budge: Seχeṭ-ḥrà-āśt-àru)", matching the gloss.
+- U3 · n · style · "(Budge: Ha-kheru)" · now "(Budge: Ha-χeru)", matching the gloss.
+
+### Re-read of units.json — considered and refused
+
+- Name renderings in `l`/`i` against the glossary: all nine agree (Sekhed-her-asha-iru, Metety-he, Ha-kheru, Wen-hat, Seqed-her, Used, Qeq-huaut-net-pehuy, Seres-her, Aa). No change.
+- Every other Budge form quoted in the notes was checked against the packet's transliteration (sta, senet'em, seχen, māket, ḳeḥ, ḳeb, seś-à, seśeṭ, semenχ-nà, àp-nà, seχeχ, seśep, ertu-k, āb, t'eṭtu, ārit, Metti-heh, Un-ḥāt, Seqeṭ-ḥrà, Useṭ, Qeq-ḥauatu-ent-peḥui, Se-res-ḥrà, Āaa, Maāta): all correct.
+- U26 `i` "as the second of Thoth" is the same as Budge's English: kept. It is the only literal rendering of m snnw ḏḥwty, not a Budge-ism.
+- U38 `i` "which comes forth from the Great Crown" looks like Budge's "[which] cometh forth from the crown": kept. It is built from the participle pr; the archaism and the bracket are not taken over.
+- U8 occurrence gloss on imi: kept even though imi is now broadened. Without it, the build would show the entry's first sense ("give!") on this word.
+- U34 occurrence gloss for the name Aa under lemma ꜥꜣ: kept (see pass 1).
+- U29 ḫnd·i "a sḏm·f after iw": kept. iw + sḏm·f is a regular statement form, and the unwritten ·i is stated.
+- U42 sḫḫ `i` "I have […]": kept. The note says that no n is written and that the English follows the clauses around it.
+- Roles and tr: no further faults found. All O34 bolts have tr with z; every det has an empty tr; every morph index is inside its word.

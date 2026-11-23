@@ -4,7 +4,7 @@
 
 | part | name | range | status |
 |---|---|---|---|
-| popol-vuh-002 |  | LoC images 0012–0014 | todo |
+| popol-vuh-002 | The animals, and the people of mud | fols. 2v–4r | established |
 | popol-vuh-003 |  | LoC images 0015–0017 | todo |
 | popol-vuh-004 |  | LoC images 0018–0020 | todo |
 | popol-vuh-005 |  | LoC images 0021–0023 | todo |

@@ -2121,3 +2121,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, with notes: P837L10 صدرها ("her chest"; the sense seems to want صدره "his chest" — doubtful, the idiomatic line follows his); P836L06 هذ اشاب (alif misplaced by the spacing, read hādhā shābb); بحيوتي; فم without accusative alif; السعيدان, ماباله, مالك set solid; الخضرة (dusky skin or garden imagery, left open); هارشني/ناغشنى (exact sense uncertain); وثقلت read thaqulat (thaqqalat possible).
 - Frank passage (Budūr caresses the sleeping Qamar al-Zamān, both adults) translated in full, per "never bowdlerize".
 - Nothing to decide. Night 186 is complete and unpublished.
+
+## Night 186 (P837L18–P839L11, published 2026-11-23)
+- Library label: `Night 186 · Qamar al-Zamān, continued`.
+- No misprint corrected. Kept as printed, with notes: P838L01 ثم كتبت له وثيقة انه اعتقها read annahu aʿtaqahā (the pronouns fit the scene poorly; انها اعتقته would be expected — doubtful, not emended); P838L20–21 وهل وصل من قدرك انت الآخر انك تخادعني loosely built, sense given as scorn and flagged uncertain; P839L05 سلبة "rope" pointed salaba (uncertain); P839L07 يغطس read yughaṭṭisu (Form II, transitive); الا قليلا, انثي, رفصه, شاله, نشله, ولازال as Middle Arabic; شهر زاد split across P839L10/11.
+- The servant is named Ṣawāb here for the first time.
+- Nothing to decide. Night 187 is not yet complete (its tail is untranscribed).

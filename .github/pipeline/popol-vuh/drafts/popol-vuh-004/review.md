@@ -77,3 +77,82 @@ Counts: **major 0 · minor 13 · style 3** (16 rows).
   - `chi` (also chi' 'mouth').
   - `caa`. Its "(uncertain)" can now cite the grindstones' speeches. The tresillo spelling `ꜫaa` gets mt kaa.
   - New keys must match the mt as now set: wetal, jub'iq', kaa.
+
+## Pass 2
+
+Reviewer pass 2, 2026-11-24 (a different reviewer from pass 1). I read conventions.md, runbook.md, ../run3/RUNBOOK.md §2,
+packet.md, units.json and gloss.json as left by pass 1, pass 1's review, popol-vuh-001/002/003.json, popol-vuh-glossary.json,
+novel-forms.json, known-forms.json, the 003 review and wordre.py. For meaning I used only Brasseur 1861 (OCR lines 19275–19745,
+K'iche' and French); no modern translation was opened or recalled. I made every edit by script; no `t` was changed and no unit
+was added, removed or moved.
+
+I went through all 40 units again: every grammar label against its form, K'iche' → l word by word, l ↔ i, the house table,
+every mt against its MS word (by script against 001–003 and against the glossary heads), and every cross-reference in the
+notes against the published parts (xtio, xcut qui vach, ronohel xcute qui vach, qui mayxic/qui cutuxic, vbac qui vach and
+qui caa in 003; cacha, qui poco vi ivib, mixix, tihtobeh, xrah, chuꜫab, cahcah ibinibal, ychacabal, Hupacha, ca byih and
+xe chacatah in 002; vcutunizaxic/vcalahobizaxic, xecha, ta chuxoc and vbanatahic in 001). One cross-reference was wrong.
+The units needed little after pass 1. The gloss needed more: it was written before pass 1's edits, and three of its modern
+forms were stale.
+
+Then I checked every gloss.json entry against the text and the final mt. After the edits, the modern form at the head of
+every entry (and of every reading in each `__broaden__` value) matches the mt of that word in units.json, script-checked.
+
+Counts: **major 3 · minor 21 · style 5** (29 rows; units 3, gloss 26).
+
+### Changes — units.json
+
+| unit | field | sev. | what was wrong | what was done |
+|---|---|---|---|---|
+| 13 | i | style | "came rushing out of the fire straight at their heads": nothing in the K'iche' gives "straight", and the line is already a guess. | "came rushing out of the fire at their heads". |
+| 20 | l, n | minor | l "in its-showing-a-face" and n "'in its appearing'". chi vachinic has no possessive prefix, so "its-" was not in the form. | l "in showing-a-face". n "chi vachinic 'in appearing, in looks' (no possessive prefix)". |
+| 24 | n | minor | "vꜭoheic 'its being', as qui ꜭoheic in the second part". qui ꜭoheic is in the first part (001, `E nimac etamanel, e nimac ahnaoh chi qui ꜭoheic`), and it is not in 002. | "in the first part". |
+
+### Changes — gloss.json
+
+| key | field | sev. | what was wrong | what was done |
+|---|---|---|---|---|
+| ꜫaa | value | major | Head q'aa: stale (pass 1 set mt kaa), and q'aa is not a K'iche' word. | "kaa — grindstone, the metate on which maize is ground (fully modern ka'); noun, caa written with the tresillo". |
+| vetal | value | major | Head uetal: stale (mt wetal), and impossible as a spelling. | "wetal — its sign, its trace; v- 'its' before a vowel + etal 'sign, mark' (modern retal; Brasseur r'etal); etal also 'descendants'". |
+| hubic | value | major | Head jub'ik: stale (mt jub'iq'). The etymology "jun 'one' + -b'ik" was invented, and pass 1 had already removed it from the note. | "jub'iq' — a little; adverb". |
+| xuraih | value | minor | "he wanted … raij, a form of aj 'want' (as in xrah)": the analysis pass 1 rejected, because it leaves the r- after u- unexplained. | "he desired, longed for; x- + u- 'he' + raij 'desire' (inferred; Brasseur 'désirait'), not a form of aj 'want'". |
+| cac | value | minor | The first reading described the draft ("a word the draft leaves out of the idiomatic line"), not the form. | "kak — (uncertain) meaning not known; the letters respelled. Brasseur takes it as ac 'fowl, turkey'". The fire reading is unchanged. |
+| hule | value | minor | It ended "left out of the idiomatic line", which is about the draft. | That clause is removed. Brasseur's reading of vetal hule vinac is kept. |
+| icouen | value | minor | "(guess) to surpass … 'to rise above all' is a guess", which quoted the draft's i. | "(uncertain) not otherwise known; Brasseur nimaliqouen 'to surpass', perhaps from a verb of passing". |
+| __broaden__ vxic | value | minor | The new reading ended "'finery' in the idiomatic line is a guess", which is about the draft. | "(uncertain) finery, precious stones (Brasseur 'pierreries'), or perhaps xik' 'wing'; paired with vpuvac 'his silver'". The old entry is kept whole in front. |
+| __broaden__ ꜫih | — | minor | The "new" reading "q'ij — sun" is already in the glossary entry ("day, sun"), so this was not a broadening. | Removed. |
+| xcha | value | minor | "second verb of saying beside xch'a": pass 1 corrected this in the note. The glossary's xecha is "x- + e- + cha 'say'". | "x- completive + cha 'say', the singular of xecha". |
+| rah | value | minor | "r- + aj 'want'" did not say that r- is the singular after a plural subject. | Now matches note 15: r- 'his, its' + aj, the form of xrah, apparently fixed after a plural subject, with the wanted act following. |
+| chucab | value | minor | "our strength": the 'our' is ca, a separate token. It also cited the toggle, which is about the reader, not the form. | "chuq'ab' — strength, force; noun, written with plain c (ca chucab 'our strength'); compare chuꜫab 'on the arm of'" (the glossary's 002 entry). |
+| naquipa | value | minor | "what for, why": the 'why' comes from naquipa rumal, not from naquipa alone (note 4). | "naqipa — what; naqi 'what' + pa, in naquipa rumal 'why, for what reason'". |
+| cati | value | minor | "we shall bite": the 'shall' is in xquix, not in cati. | "qati — we bite (you); qa- 'we' + ti' 'bite, eat flesh'", with the doubtful reading stated as the log gives it. |
+| catio | value | minor | "we shall eat": same problem as cati. | "qati'o — we eat, bite (you); qa- + ti' + transitive -o (xquix catio 'we shall eat you')". |
+| xquix | value | minor | "(doubtful reading, as in xquix cati chic, xquix catio)" called both occurrences doubtful. Only cati is doubtful, and xquix catio is clear. | xk- 'shall' (xchi- before a vowel) + ix 'you (pl.)', the object, before a verb with its own subject prefix. The doubt is moved to cati. |
+| itio | value | minor | "bite" only. Pass 1 added 'eat flesh' to note 0, and 003's xtio (glossary xti'o 'ate, bit into') is the same verb. | "iti'o — you (pl.) bit, ate (us); i- + ti' 'bite, eat flesh' + transitive -o, as xti'o". |
+| xbutic | value | minor | "x- completive + b'utik 'flood'" put the -ik inside the root. | "x- completive + b'ut 'flood' + -ik". |
+| vꜭoheic | value | minor | "as qui ꜭoheic in the second part": the same wrong reference as unit 24. | "in the first part". The head uk'oje'ik is kept, as in the glossary's ꜭoheic. |
+| quiꜭohe | value | minor | It did not say that the n of in is not written, which is the point of note 25. | Added that the n is not written and that, as written, qui- is also the shape of 'they'. |
+| quiloc | value | minor | "their being seen": 'their' is the separate token qui. | "seeing, being seen (uncertain; form not clear); qui quiloc 'their seeing'". |
+| xbanatahic | value | minor | "as ub'anatajik in the preamble": that word is in the last line of 001, and pass 1 corrected this in note 39. | "as vbanatahic in the first part", and the root is given as b'anataj 'be done'. |
+| xoh | value | style | "(did it to us)" was a draft paraphrase. | "we, us (completed action); x- + oj, the absolutive, before the verb (xoh camic 'we died')". |
+| hutaꜫih | value | style | "(doubled in the text)" pinned the entry to a line. | Removed. |
+| vaic | value | style | "eating, ate": -ik makes a verbal noun, and the 'ate' came from the line. | "eating". |
+| nimarizah | value | style | "-ariza 'make'" did not match the head nimarisaj. | "causative -arisaj", with the reflexive use given generally. |
+
+### Checked and kept / refused
+
+- **`caa` in `__broaden__`.** Not added. caa is a known form, but it does not occur in this part, which writes only ꜫaa, so there is no use here for a broadening to cover. A broadening can only add to an entry. It cannot take out the old entry's "(uncertain)". The new entry for ꜫaa gives the word as certain, without the hedge. If the caa entry should lose its "(uncertain)", that is an edit to the work glossary at build. It is not a `__broaden__`.
+- **Pass 1's requested broadenings.** All present and exact (old entry whole + " · " + new reading, script-checked): chique (chiqe 'to us'), cu (ku-), ha (ja 'house'), chi (chi' 'mouth'). Also va (wa 'food'), coh (koj ongoing), oc (ok 'enter'), ve (teeth, uncertain), vxic and ꜫihil, each a sense the old entry lacks.
+- **Coverage.** Every key of novel-forms.json has an entry, and gloss.json has no key outside it. Every token of the text is in the work glossary, known-forms or novel-forms.
+- **"the people built, the people shaped" (units 16, 20, 25) against the house i "a person built, a person shaped".** Kept. In these units the phrase names the wooden people already made and now ruined, so the plural is the sense. 002 uses the singular because it speaks of the person still to be made.
+- **qui quiloc → kiloq (q, not k).** Kept. Brasseur's qu'iloc does not decide between k and q. Ximénez's verbal -oc is -oq elsewhere (chuxoc, zaquiroc), and the note says the form is not clear.
+- **Unit 28 i "my teeth" against note "v- 'its' + e".** Kept. The speaker is the macaw, and Brasseur reads "mes dents". The note already says that the reading of ve is uncertain.
+- **Unit 25 i "I stand now above".** Kept. ꜭohe 'be, be there' with chuvi 'on top of' is a position. 'stand' adds no claim that the l "I-am … on-top-of" lacks.
+- **Unit 34 l "Only" for xere (elsewhere "Thus").** Kept. xere covers both 'just so' and 'only this' (note 6, glossary), and here it introduces a limitation.
+- **Examples inside gloss entries** (e.g. ca chucab, que rah, chi qui holom). Kept. They illustrate the form in MS spelling, as the published glossary's entries do. They do not stand in for the meaning.
+- **ꜫaa as full modern ka'.** Not changed, for pass 1's reason (consistency with 003's caa → kaa). The gloss mentions ka' as the fully modern form.
+
+### Verification (script)
+
+units.json and gloss.json parse. len(mt) == len(WORD_RE.findall(t)) for all 40 units. The units' `t`, joined in order, give back
+the packet's 14 paragraphs exactly, paragraph by paragraph. All 128 novel forms are keyed in gloss.json. Every `__broaden__` value
+begins with the existing glossary entry whole + " · ". The head modern form of every gloss entry agrees with the mt of that word.

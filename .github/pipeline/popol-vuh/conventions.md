@@ -102,6 +102,15 @@ Ximénez's paragraphs and headings.
 | Ahtoltecat | He-of-Toltecat | the Toltec | — |
 | Chiracan Xmucane | Chiracan Xmucane | Chiracan Xmucane (Chiracan untranslated, meaning unknown) | — |
 | Xecotcovach, Camaloꜩ, Coꜩbalam, Tucumbalam | names kept | Xecotcovach, Camalotz, Cotzbalam, Tucumbalam (not translated) | — |
+| Vucub Caquix (Vvcub Caquix) | Seven Macaw | Vucub Caquix (kept; the note gives 'Seven Macaw') | — |
+| ꜭoy | monkey | the monkeys | — |
+| ꜫaa (003: caa) | grindstone | the grindstones (mt kaa in both parts) | — |
+| xot, boh | griddle, pot | griddles, pots | — |
+| xcub | hearthstone | the hearthstones | — |
+| binibal, chacabal | means-of-walking, means-of-standing | what people walk by, what people stand by | — |
+| zaquil al, zaquil ꜭahol | white child, white son | the clear light of the children, the clear light of the sons | — |
+| ꜫih, ic | sun, moon | the sun and the moon | — |
+| vetal | its-sign | their sign | — |
 
 ## Notes (`n`)
 

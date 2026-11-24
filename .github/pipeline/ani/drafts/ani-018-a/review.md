@@ -98,3 +98,51 @@ Known lemmas whose entry is too narrow for this part (for `__broaden__`):
 - `m`: add 'before, in the presence of' (U3 etc.; Budge's variant m-bꜣḥ).
 - `·ti`: the 3rd feminine singular is given only as "written ·ṯi". U20 writes it ·tw (rs·ti).
 - `ḫꜣwy`: add "also written ḫꜣwt, with t" (U12), if pass 2 keeps that reading.
+
+## Pass 2
+
+All edits were made by script (`reviewer2/review2_018a.py` in the reviewer's scratchpad). The script asserts each old value (text replacements must match exactly once; word fields are checked before they are replaced) and writes units.json and gloss.json with json.dumps(ensure_ascii=False, indent=1) and no trailing newline, as before. No glyph was touched. Pass 1's checker (`check_018a.py`), run again after the edits, confirmed these points:
+- the 929 sign codes, joined in order, equal the established sequence;
+- every word's `rubric` flag matches the established file glyph by glyph, and no word is restored;
+- every morph `g` covers its word's glyphs exactly once; the roles are only phon/comp/det/log/suff/num; every det has an empty `tr` and every other role has a `tr`; every O34 has 'z';
+- `q` is unchanged on every word that is not joined or split (the one join and two splits are as pass 1 recorded); `ln` matches the established line; no Budge-ism is in any `l` or `i`.
+A second script confirmed for gloss.json: every morph lemma in units.json is in known-lemmas.json or is a key of gloss.json (none missing, none unused); every new entry starts "lemma — "; and every `__broaden__` entry starts with the known-lemmas entry, copied exactly, followed by " · ".
+
+Pass 1's three major changes were tested and are accepted:
+- smꜣꜥ-ḫrw "make true of voice": every published `i` (ani-001-a U8, U15; ani-001-b U3, U4) has "makes Osiris true of voice against his enemies", and ani-001-b's `l` has "who-makes-true-of-voice".
+- iḏbw rḫty: N21 is the house's iḏb (ani-001-b U2). Budge's Taiu needs the land sign N16, which is not printed, and rḫyt 'common folk' is written with the lapwing. The query stays on both words. Applying the misprints formula in U21 is right: two signs are left out, but the refrain just before gives the spelling, so only one reading is possible.
+- ḫꜣwt read as ḫꜣwy: the alternative is real. ani-146-a U13 spells ḫꜣwt 'altar' as M12 G1 X1 G43 with the altar sign R1, and the introduction (U12) spells it M12 X1 Z1, so these signs could spell 'altar'. But the "ir …" units take up the night named at the end of the section before (U4→U6, U15→U17), and the night at the end of section B is ḫt ḫꜣwy (U10). That structure outweighs the spelling. The (?) in `l` and `i` and the note's mention of 'altar' are enough.
+
+Counts: 0 major, 10 minor, 20 style (16 of the style changes are in gloss wording).
+
+### Changes
+
+- U24 w253 tnw · reading, say, n · minor · The house reads this word ṯnw/ṯnwt even when it is written with t (ani-146-a U9: X1 `tr` 't', reading ṯnwt, lemma ṯni). The draft read tnw, though its lemma is ṯni · reading `ṯnw`, say `tjenu`. The note now says "with t for ṯ, as Spell 146 writes it", and it adds that Spell 146 also classifies the word with a bird with raised wings on a post, which supports the identification. The glyph `tr` stays 't'.
+- U1 · n · minor · Three faults. The note called T34 "a slanting post", but T34 is the butcher's knife nm. It said "no other sense offers itself" for m nm, which is too strong. And it said "the bound captive" and "their binding is their punishment", although the printed figure has one arm raised and is not bound, and the word is read 'guarding' · now: "the knife nm (coded T34, approximate; printed as a slanting wedge)", 'again' kept from Budge with its query and a hedged alternative ("the knife also writes nmt 'slaughter-block', which would suit the passage, but no t is written"), "the captive showing …", and "their custody is their punishment".
+- U1 ḥtm·n·tw, U15 smn·tw · say · style · "hetementu" and "sementu" drop the e between n and t. The house has ms·n·tw "mesenetu" and gm·n·tw "gemenetu" · "hetemenetu", "semenetu".
+- U5 · i · style · The `i` had a serial comma ("Nephthys, and Horus"), unlike U0 and U16 · removed.
+- U17 · n · style · The note said twice that the referent of 'it' is unknown · the first statement is cut.
+- U24 · n · style · "goes on on Plate 14" · "continues on Plate 14".
+- gloss `dp`, `p` · minor · The glosser called Dep "the northern twin of Pe" and Pe "the southern twin of Dep". Nothing in the notes or the packet supports that orientation · now "with Pe (Dep) one of the twin towns of Buto in the north-western Delta". "with the town sign" is cut.
+- gloss `ḏd` (broaden) · minor · The entry invented a phrase "ḏd ḏd 'the djed pillar'" and named the code R11 · now "· a second word of the same spelling: the djed pillar, emblem of Osiris (noun m.; the pillar sign as a logogram)".
+- gloss `ṯni` (broaden) · minor · The entry put a different word, tnw 'number, count', into the entry for ṯni, and it spelled the form "tnw" · now "· also ṯnw 'distinguishing, setting apart' (?) (infinitive; written with t; Budge: tennu)". The alternative 'count' stays in the note only.
+- gloss `ḥtm` · minor · The entry gave only 'destroy' and a passive form pinned to the line. The house entry for sḥtm calls it "causative of ḥtm 'perish'", so ḥtm needs both senses · "ḥtm — to destroy; to perish, be destroyed (verb; causative sḥtm; Budge: ḥetem)".
+- gloss `m` (broaden) · minor · The entry had 'at' only, illustrated with "'at the coming of …'". The 'before, in the presence of' that U3, U9, U14, U19 and U23 use, and that pass 1 asked for, was missing · now "· also 'at' (of a time or event) · also 'before, in the presence of' (a god or a tribunal; like m-bꜣḥ)".
+- gloss `rḫtt` (broaden) · minor · The entry stated as certain that rḫtt is "also written rḫty", but the notes call the identification doubtful · "· perhaps also written rḫty (?), in iḏbw rḫty 'the Banks of Rekhty' (Budge: reχit)".
+- gloss `mt` · minor · The grammar label "noun m. plural" was given to the singular lemma 'dead person' · "mt — a dead man (noun m.; plural mtw 'the dead', often the condemned dead, with the classifier of enemies; Budge: mitu)".
+- gloss `ihꜣbw` · minor · The entry carried Budge's English "cries of joy" as a meaning, and it described the signs · "ihꜣbw — jubilation, rejoicing (?) (noun; sense uncertain; Budge: àhabu)".
+- gloss `smn`, `sꜥḥꜥ` · style · The label "causative s- prefix verb" and the sample forms pinned to the line are replaced by the house form "(verb; causative of mn 'be firm')" and "(verb; causative of ꜥḥꜥ 'stand')". Budge's spelling is added to smn.
+- gloss `qn`, `rs`, `sḏr` · style · The form labels pinned to the line ("passive sḏm·tw·f qn·tw·f", "stative rs·ti 'she is awake'", "infinitive used as a noun") are cut. Budge's spellings are added, and qn gets "cf. qnqn 'beat'" (a known lemma, the basis of the note's reading).
+- gloss `hꜣkr`, `tfnwt`, `tni`, `mrw`, `ꜥꜣw` · style · Spelling details pinned to the line are cut or generalised; tfnwt takes the house label "goddess's name"; mrw "noun m. plural" (the gender is not known) becomes "noun, plural", and its etymology is hedged ("perhaps from mr 'bind'"); in ꜥꜣw the (?) now covers both senses.
+- gloss `nm`, `iꜣkb`, `iḏb`, `sꜣw`, `·ti`, `ḫꜣwy` (broaden) · style · The additions are made general rather than tied to this line ("taken from Budge", "the same word is taken here", "written with the lock-of-hair classifier", which also holds for the known sense). sꜣw: "bound-captive classifier" becomes "captive classifier", since the printed figure is not bound. ·ti: the example uses the reading rs·ti, not "rs·tw". ḫꜣwy: "· also written ḫꜣwt, with t (?)".
+
+### Considered and refused
+
+- U14/U16 `say` "Pe", "Dep" for the readings pt, dpt: kept. They are settled modern names, like Iunu and Djedu, and the house's "pet" and "depet" belong to other words ('sky', 'boat').
+- U11: reading R22 as the negative in Budge's àn, which would give a name of the 'without eyes' type: not done. The house has ḥr-ḫnty-irty with no sign between (ani-017-c U26), and R22 is ḫm in this house. The note already leaves the sign unread.
+- U12 `ḫꜣwt` → 'altar' (reversing pass 1): refused for the reasons given above.
+- U0 and U1 note lengths: kept. Both read every sign of units that are full of new words, and they carry no extra background. The refrain notes U8, U13, U18 and U22 are one or two sentences each.
+- U19 "Budge renders 'is he', which n·f cannot mean": kept. The wording is strong, but it is right about the signs.
+- U20 iꜣkbyt with the misprints formula (k before ꜣ, no i): kept. After irt with the mourning lock, only 'lament' makes sense.
+- U24 `i` "at the coming of jubilation(?)" for ḫpr: kept (pass 1's ruling).
+- `say` "resti" (rule-strict "reseti"): kept. House practice varies ("nistu", "irtu", "ditu").

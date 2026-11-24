@@ -2167,3 +2167,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprints corrected (emend.json): P853L09 اخيك→اختك (ukhtaka; the mother speaks of Budūr, حصل لها); P853L15 بذور→بدور; P854L02 وانفا→واقفا (qāma wāqifan).
 - Kept as printed, with notes: P851L22 فقتلها read with the sword as subject (likely a dropped ت for فقتلتها, doubtful, not emended); P854L05 اقسام read "conjurations" ("sections" of his books possible); P853L20 ثاني يوم العشاء loosely built; P852L14 راس given its hamza as at P852L12; غلام بائتا, اقصي, بنته, لعل ان as Middle Arabic.
 - Nothing to decide. Night 194 is complete and unpublished.
+
+## Night 194 (P854L18–P856L19, published 2026-11-24)
+- Library label: `Night 194 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P855L03 فطننت→فظننت; P856L15 جرائر→جزائر (printed correctly on the lines around it).
+- Kept as printed, with notes: P855L06 او اعانتة read iʿānatahu "helping him" (likely اعانقه "embrace him", one letter away — doubtful, not emended); P856L06 تمشي read as the perfect tamashshā (ي for ى); verse P856L03 مَزُورِ "one visited" (sense uncertain); الطيرب vocalised al-Ṭayrab (a guess); ة for ه (امرة, اخذة, اعتراة, هذة, verse اراة); السعيدان, وانايا, البرفستة set solid.
+- Shared glossary: وَأُفَتِّشُ said its marks were the print's; at P855L22 the print has none — sense appended saying so.
+- Nothing to decide. Night 195 is not yet complete (its tail is untranscribed).

@@ -2154,3 +2154,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, with notes: P847L13 ترغبني read turaghghibunī (Form II, no shadda printed); P848L04 ان مابك جنون read an mā bika junūnun "there is no madness in you"; P848L06 بالله … انك تفعل read innaka (annaka possible); P848L07 والامتّ set solid, wa-illā muttu; مختفي, وقل (dagger alif), لولا … كنت without la-, ناول … لابيه as Middle Arabic; verse P848L02 الدَّهْرُ nominative after لعلّ and P848L09 تَزْوِيرُ nominative as predicate of kāna kept as printed and noted.
 - The night ends on وانشد هذه الابيات; the verses open Night 192.
 - Nothing to decide. Night 192 is not yet complete (its tail is untranscribed).
+
+## Night 192 (P848L14–P851L10, published 2026-11-24)
+- Library label: `Night 192 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P849L07 والدك→ولدك (the vizier speaks of the king's son, as at P849L12); P850L01 التصر→القصر; P850L06 الديباح→الديباج; P851L01 الملح→المليح (printed in full at P851L05); P851L04 البست→الست.
+- Kept as printed, with notes (all verse): وَلَا تَخْدَعُوا printed active (sense wants passive tukhdaʿū); مُقْلَتَيْهِ possibly for مقلتيها; خَرَّسَتْ Form II for the metre; مُنْصِفُ nominative after mā. Spelling habits noted: ة for ه (ولدة, والدة, عندة), متي, رأه (dagger alif), باسها, ينفسد, فليداوي, ليالي, السبعة قصور.
+- nights-191: its last note said the verses "open the next night"; Night 192 shows they are never given (he recites "also these verses"). Note corrected.
+- Nothing to decide. Nights 193–194 are complete and unpublished.

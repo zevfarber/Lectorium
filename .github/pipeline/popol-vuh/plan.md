@@ -9,7 +9,7 @@
 | popol-vuh-004 | The revolt of the household things; the monkeys; the pride of Vucub Caquix | fols. 5r–6r | published |
 | popol-vuh-005 | The pride of Vucub Caquix and his sons; the two boys shoot him with the blowgun | fols. 6r–7v | published |
 | popol-vuh-006 | Vucub Caquix loses his teeth and dies; Zipacna and the four hundred boys | fols. 7v–9r | published |
-| popol-vuh-007 |  | LoC images 0027–0029 | todo |
+| popol-vuh-007 | The four hundred boys die; the crab made to trap Zipacna | fols. 9r–10v | established |
 | popol-vuh-008 |  | LoC images 0030–0032 | todo |
 | popol-vuh-009 |  | LoC images 0033–0035 | todo |
 | popol-vuh-010 |  | LoC images 0036–0038 | todo |

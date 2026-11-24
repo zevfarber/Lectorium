@@ -2141,3 +2141,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, with notes: P843L11 وانا مها بجانبي vocalised mahan "oryxes" (likely a dropped ع of معها "with her"; the idiomatic line gives that sense); P843L19 ثم عد انّي بالجواب vocalised innī with the print's shadda (likely sense ilayya, "to me"); بطل read baṭṭala (baṭala … al-ḍarbu possible); قلبتها qallabtuhā; والّا يهلكني indicative; كلّيت kallaytu; يرفص yarfuṣu; فرماة with ة for ه; احد ثك and الا مركلّه split as printed.
 - Glossary: the shared entry إِنَّمَا analysed a wa- the key lacks; corrected.
 - Nothing to decide. Nights 189–191 are complete and unpublished.
+
+## Night 189 (P844L01–P846L05, published 2026-11-24)
+- Library label: `Night 189 · Qamar al-Zamān, continued`.
+- Misprint corrected (emend.json): P845L04 العضب→الغضب (bi-ʿayni al-ghaḍabi, "with the eye of anger").
+- Kept as printed, with notes: P846L02 وشوّفتنى read wa-shawwaftanī (likely شوّقتنى "made me long for her", one dot away — doubtful, not emended; the idiomatic line follows "long"); P844L10 ابشْر with the print's misplaced sukūn (read abshir); P844L15 لاسمرّنك with the print's shadda on the rā (read la-asmurannaka; Form II la-usammirannaka named); P845L12 جمادي الاخرى (usual al-ākhira); ة for ه in بشرّةِ, واخبرة, والدة, وراءة; السعيدان, قدجنّ, ماجنّ, وارادان, ذوالقعدة set solid; الثلثاء with dagger alif.
+- Nothing to decide. Nights 190–191 are complete and unpublished.

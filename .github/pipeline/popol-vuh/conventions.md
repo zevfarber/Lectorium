@@ -111,6 +111,10 @@ Ximénez's paragraphs and headings.
 | zaquil al, zaquil ꜭahol | white child, white son | the clear light of the children, the clear light of the sons | — |
 | ꜫih, ic | sun, moon | the sun and the moon | — |
 | vetal | its-sign | their sign | — |
+| Zipacna, Cabracan, Chimalmat | names kept | Zipacna, Cabracan, Chimalmat (not translated) | — |
+| Hunhunahpu (005, where the actor is Hunahpu) | as written | Hunhunahpu, as written; the note says so | silently correcting to Hunahpu |
+| Zaqui Nimac, Zaqui Nima Ꜩiz | names kept | Zaqui Nimac, Zaqui Nima Tziz (mt Tz'iis, the known name of 001/003) | — |
+| vb | blowgun | the blowgun | — |
 
 ## Notes (`n`)
 

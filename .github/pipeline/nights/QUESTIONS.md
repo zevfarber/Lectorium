@@ -2147,3 +2147,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprint corrected (emend.json): P845L04 العضب→الغضب (bi-ʿayni al-ghaḍabi, "with the eye of anger").
 - Kept as printed, with notes: P846L02 وشوّفتنى read wa-shawwaftanī (likely شوّقتنى "made me long for her", one dot away — doubtful, not emended; the idiomatic line follows "long"); P844L10 ابشْر with the print's misplaced sukūn (read abshir); P844L15 لاسمرّنك with the print's shadda on the rā (read la-asmurannaka; Form II la-usammirannaka named); P845L12 جمادي الاخرى (usual al-ākhira); ة for ه in بشرّةِ, واخبرة, والدة, وراءة; السعيدان, قدجنّ, ماجنّ, وارادان, ذوالقعدة set solid; الثلثاء with dagger alif.
 - Nothing to decide. Nights 190–191 are complete and unpublished.
+
+## Night 191 (P847L01–P848L13, published 2026-11-24)
+- Library label: `Night 191 · Qamar al-Zamān, continued`.
+- Misprint corrected (emend.json): P848L01 ويأنيك→ويأتيك, pointed wa-yaʾtiyaka (subjunctive, continuing ḥattā yufarrija).
+- Kept as printed, with notes: P847L13 ترغبني read turaghghibunī (Form II, no shadda printed); P848L04 ان مابك جنون read an mā bika junūnun "there is no madness in you"; P848L06 بالله … انك تفعل read innaka (annaka possible); P848L07 والامتّ set solid, wa-illā muttu; مختفي, وقل (dagger alif), لولا … كنت without la-, ناول … لابيه as Middle Arabic; verse P848L02 الدَّهْرُ nominative after لعلّ and P848L09 تَزْوِيرُ nominative as predicate of kāna kept as printed and noted.
+- The night ends on وانشد هذه الابيات; the verses open Night 192.
+- Nothing to decide. Night 192 is not yet complete (its tail is untranscribed).

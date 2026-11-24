@@ -2134,3 +2134,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, with notes: P839L18 الغطاس read al-ghiṭās "dunking" (vowels a guess); P839L20 وتشطب read tashaṭṭaba "was scratched" (Form V); P840L09 سجنه read sajnihi "his imprisoning" (sijnihi possible); P840L16 ويكلفنى اني اخبره لها وبمن اخذها loosely built, bi-man also possibly "by means of whom"; P841L06 فسلامة شبابك… read as a wish (an oath reading possible, no bi-); يهدي for يهدأ, مغلوق, kallafa + anna + imperfect as Middle Arabic; فرأه pointed with dagger alif; شهرزاد solid as printed.
 - Review: يا مولانا السلطان pointed al-sulṭāna (accusative apposition after the vocative); earlier nights are split on this (‑u 7, ‑a 4, ‑i 6) — not swept, left as published.
 - Nothing to decide. Nights 188–191 are complete and unpublished.
+
+## Night 188 (P841L14–P843L23, published 2026-11-24)
+- Library label: `Night 188 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P841L22 نقال→فقال; P842L13 اضعاث→اضغاث (printed correctly at P842L15).
+- Kept as printed, with notes: P843L11 وانا مها بجانبي vocalised mahan "oryxes" (likely a dropped ع of معها "with her"; the idiomatic line gives that sense); P843L19 ثم عد انّي بالجواب vocalised innī with the print's shadda (likely sense ilayya, "to me"); بطل read baṭṭala (baṭala … al-ḍarbu possible); قلبتها qallabtuhā; والّا يهلكني indicative; كلّيت kallaytu; يرفص yarfuṣu; فرماة with ة for ه; احد ثك and الا مركلّه split as printed.
+- Glossary: the shared entry إِنَّمَا analysed a wa- the key lacks; corrected.
+- Nothing to decide. Nights 189–191 are complete and unpublished.

@@ -2174,3 +2174,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, with notes: P855L06 او اعانتة read iʿānatahu "helping him" (likely اعانقه "embrace him", one letter away — doubtful, not emended); P856L06 تمشي read as the perfect tamashshā (ي for ى); verse P856L03 مَزُورِ "one visited" (sense uncertain); الطيرب vocalised al-Ṭayrab (a guess); ة for ه (امرة, اخذة, اعتراة, هذة, verse اراة); السعيدان, وانايا, البرفستة set solid.
 - Shared glossary: وَأُفَتِّشُ said its marks were the print's; at P855L22 the print has none — sense appended saying so.
 - Nothing to decide. Night 195 is not yet complete (its tail is untranscribed).
+
+## Night 195 (P856L20–P858L01, published 2026-11-24)
+- Library label: `Night 195 · Qamar al-Zamān, continued`.
+- `nights_index.py` flagged ORDINAL MISMATCH at nights 200 (الموفية للمائتين) and 201 (الاولى بعد المائتين): it did not know the dual "two hundred". This run added مائتين/مايتين/مائتان/مايتان = 200 to its number table, as earlier runs added forms for 101 and 120; the table now reads 195–200 complete with no mismatch. Night 195 lies before the flagged nights and was published.
+- Misprints corrected (emend.json): P857L10 and P857L18 اى→الى.
+- Kept as printed, with notes: P857L10 لا نقل vocalised li-anqula "so that I may bring (him) in" (لانقذ "to rescue", one letter away, named, not adopted); يطلّع read yaṭṭallaʿu (Form V, "pry into"); ردّت روحه read passive ruddat (raddat possible); المقدركان set solid; الممشاة with ة; شهر زاد set as two words; يكفي ماجرى, ربما انك, مسكه من شعر رأسه, في حال العدم as Middle Arabic.
+- Nothing to decide. Nights 196–200 are complete and unpublished.

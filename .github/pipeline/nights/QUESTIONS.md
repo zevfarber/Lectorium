@@ -2181,3 +2181,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprints corrected (emend.json): P857L10 and P857L18 اى→الى.
 - Kept as printed, with notes: P857L10 لا نقل vocalised li-anqula "so that I may bring (him) in" (لانقذ "to rescue", one letter away, named, not adopted); يطلّع read yaṭṭallaʿu (Form V, "pry into"); ردّت روحه read passive ruddat (raddat possible); المقدركان set solid; الممشاة with ة; شهر زاد set as two words; يكفي ماجرى, ربما انك, مسكه من شعر رأسه, في حال العدم as Middle Arabic.
 - Nothing to decide. Nights 196–200 are complete and unpublished.
+
+## Night 196 (P858L02–P859L06, published 2026-11-24)
+- Library label: `Night 196 · Qamar al-Zamān, continued`.
+- Misprint corrected (emend.json): P858L22 نقال→فقال.
+- P858L15 وصفَته: the print's fatḥa sits on the fāʾ, which no reading with the sense "you described" (waṣaftahu) allows; the mark is moved and pointed وَصَفْتَهُ, as with تلّفت (P579L22), and the note gives the print's placement. No emend entry (marks only).
+- Kept as printed, with notes: من منذ, فابي (ى as ي), فى, ملقى, حيٰوته and ثلٰث with printed dagger alif, السعيدان, لايتكلمون, والّافتروح set solid, اذا … لا تنظر without fa-.
+- Nothing to decide. Nights 197–200 are complete and unpublished.

@@ -2188,3 +2188,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - P858L15 وصفَته: the print's fatḥa sits on the fāʾ, which no reading with the sense "you described" (waṣaftahu) allows; the mark is moved and pointed وَصَفْتَهُ, as with تلّفت (P579L22), and the note gives the print's placement. No emend entry (marks only).
 - Kept as printed, with notes: من منذ, فابي (ى as ي), فى, ملقى, حيٰوته and ثلٰث with printed dagger alif, السعيدان, لايتكلمون, والّافتروح set solid, اذا … لا تنظر without fa-.
 - Nothing to decide. Nights 197–200 are complete and unpublished.
+
+## Night 197 (P859L07–P860L15, published 2026-11-24)
+- Library label: `Night 197 · Qamar al-Zamān, continued`.
+- No misprints corrected. Verse P859L13–P860L11 copied as printed; kept with notes: رُمِيْْتَ (two sukūns, read rumīta), شَجِي after ذا read for the noun shajā, لِحَاظُ nominative after لٰكِنَّ, اِنِّي with kasra after تحسبوا, خِضَابُ without tanwīn, مُتَّهِمِي read as "accuser", الْفَضْلَ accusative after قلت, وَاعْجَمِ with bare alif, tanwīn on Luqmān, Yūsuf, Dāwūd, Yaʿqūb, Yūnus and Ayyūb. Prose: صغى with ى (ṣaghā), قمرالزمان and شهر زاد spaced as printed.
+- Shared glossary: الْفَضْلَ (only the name al-Faḍl) and تَحْكِي (only "you tell") given the senses needed here.
+- Nothing to decide. Nights 198–200 are complete and unpublished.

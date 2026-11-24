@@ -6,7 +6,7 @@
 |---|---|---|---|
 | popol-vuh-002 | The animals, and the people of mud | fols. 2v–4r | published |
 | popol-vuh-003 | The day-keepers cast lots; the people of wood and the flood | fols. 4r–5r | published |
-| popol-vuh-004 |  | LoC images 0018–0020 | todo |
+| popol-vuh-004 | The revolt of the household things; the monkeys; the pride of Vucub Caquix | fols. 5r–6r | established |
 | popol-vuh-005 |  | LoC images 0021–0023 | todo |
 | popol-vuh-006 |  | LoC images 0024–0026 | todo |
 | popol-vuh-007 |  | LoC images 0027–0029 | todo |

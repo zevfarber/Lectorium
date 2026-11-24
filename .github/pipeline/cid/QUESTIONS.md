@@ -41,3 +41,9 @@ correct numbering is De todas partes = 2455 (not 2437b), Grado = 2456 … Todos 
 firing the pinned numbers stand and the notes on 2437b, 2455 and 2460 state the question; renumbering is the
 owner's decision (it touches the pinned text's labels and the provisional 2437b).
 Decided meanwhile: published with the pinned numbering (2437b, 2455 on "Grado", 2459 unprinted); the notes at 2437b, 2455 and 2460 state the question as uncertain. If the owner agrees, renumber: "De todas partes" = 2455, "Grado" … "Todos estos bienes" = 2456–2459 (source/established, re-pin, rebuild).
+
+
+## 2026-11-24 · cid-tiradas-120-123 · footnote 2522 and the 2455 numbering; elas (Run 4)
+1. Pidal's footnote 2522 refers Minaya's "mataste a Búcar" to v. 2458. In the published 118-119 (pinned numbering) "Matastes a Búcar" is unlabelled and counts as 2457; it is 2458 only if the second printed 2455 is a slip for 2456 — the renumbering proposed in the 118-119 entry above. This is independent support for that renumbering. Decided meanwhile: nothing renumbered; the note at 2530 states this.
+2. elas (v. 2536, "elas noches e los días"): the reviewer prefers the archaic article ela(s) (Pidal admits ela as article at v. 473, quotes the phrase as one, prints no circumflex), with e + las kept as possible and marked uncertain. The published note at v. 992 reads elas as e + las. Decided meanwhile: 2536 published with the article reading first; v. 992 left as published, for the owner.
+3. The establishing run's Ca[di]erónle (2489): at high zoom the a may also be italic (Ca → C[a]). Pinned text unchanged; the note flags it.

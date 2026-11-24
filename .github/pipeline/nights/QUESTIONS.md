@@ -2161,3 +2161,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, with notes (all verse): وَلَا تَخْدَعُوا printed active (sense wants passive tukhdaʿū); مُقْلَتَيْهِ possibly for مقلتيها; خَرَّسَتْ Form II for the metre; مُنْصِفُ nominative after mā. Spelling habits noted: ة for ه (ولدة, والدة, عندة), متي, رأه (dagger alif), باسها, ينفسد, فليداوي, ليالي, السبعة قصور.
 - nights-191: its last note said the verses "open the next night"; Night 192 shows they are never given (he recites "also these verses"). Note corrected.
 - Nothing to decide. Nights 193–194 are complete and unpublished.
+
+## Night 193 (P851L11–P854L17, published 2026-11-24)
+- Library label: `Night 193 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P853L09 اخيك→اختك (ukhtaka; the mother speaks of Budūr, حصل لها); P853L15 بذور→بدور; P854L02 وانفا→واقفا (qāma wāqifan).
+- Kept as printed, with notes: P851L22 فقتلها read with the sword as subject (likely a dropped ت for فقتلتها, doubtful, not emended); P854L05 اقسام read "conjurations" ("sections" of his books possible); P853L20 ثاني يوم العشاء loosely built; P852L14 راس given its hamza as at P852L12; غلام بائتا, اقصي, بنته, لعل ان as Middle Arabic.
+- Nothing to decide. Night 194 is complete and unpublished.

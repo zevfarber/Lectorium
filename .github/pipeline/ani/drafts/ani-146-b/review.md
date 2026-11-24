@@ -69,3 +69,51 @@ Known entries that do not cover their use here (`__broaden__`):
 - mḥ — known only as "fill"; here (U20) the ordinal formation mḥ + number, 'the one completing N', mḥt-mḏ 'tenth'.
 - ḫt — "wood, tree, stick" covers the sign, but here (U16) the sense is a rod as a measure of length (?). A short addition.
 - sdbḥ — known as a verb; here (U22) perhaps a noun 'entreaty' (?), written short. A short addition.
+
+## Pass 2
+
+All edits were made by script (`review2_146b.py` in the reviewer's scratchpad). It loads each file with json and writes it back with json.dumps(ensure_ascii=False, indent=1) and no trailing newline, as the files were. A second script (`check2_146b.py`) then confirmed these points:
+- the 425 sign codes, joined in order, equal the packet's sequence w0…w112;
+- every morph `g` list covers its word's glyphs exactly once;
+- every morph lemma is in known-lemmas.json or is a top-level gloss.json key (25 new lemmas, none missing, none unused, none duplicating a known lemma);
+- every `__broaden__` key (8) is in known-lemmas.json, and each value begins with that entry copied whole, then " · ".
+Every `say` whose reading occurs in a published ani-*.json was compared with the published form. All agree except šfšft·s (below).
+
+Counts: 1 major, 10 minor, 7 style.
+
+### Changes — units.json
+
+- U16 wꜣḏ · n · minor · "'green stone', malachite or green felspar": nothing in the signs or the text identifies the mineral (the stone classifier says only "stone"). The identification was added from outside · now "'green stone'; which stone is meant is not said."
+- U3 ḥꜣpt · n · minor · "taken as the verb after mrr·s" did not name the form, and it left out that the t does not fit · now "taken as the infinitive after mrr·s, 'loves to cover', though the infinitive of a verb of three consonants has no t". The participle alternative that follows is kept.
+- U2 bgꜣ · n · minor · "a word related to bꜣgi" stated the link as a fact, while the known gloss gives it with "perhaps" · now "perhaps a writing of bꜣgi 'be weary, slack'".
+- U7 ꜥḫm · n · minor · The word was called "a participle" with no mention that a title of the (feminine) pylon would be expected to show t · added "written without the feminine t".
+- U23 šfšft·s · say · minor · "shefsheftes" did not match the house form of this word: šfšft·k is "shefshefetek" in ani-017-f, so e is inserted between f and t · "shefshefetes".
+- U18 qq · n · style · as for U7: added "written without the feminine t".
+
+### Changes — gloss.json
+
+- `__broaden__` mḥ · major · "forms the ordinals from eleven on: mḥt-mḏ 'tenth'" contradicts its own example and the unit (U20: "the way ordinals above nine are formed") · now "also forms the ordinals from ten upward, mḥ with the number, 'the one that completes N' (participle; mḥt-mḏ 'tenth', feminine; Budge: meḥt met)".
+- `__broaden__` wꜣḏ · minor · "green stone, malachite (?)" added a specific that the text does not support, and "as in 'green stone of the South'" tied the entry to U16 · now "also green stone (noun; written with the stone as classifier; Budge: uat')".
+- `__broaden__` bgꜣ · minor · "used of the dead Osiris" tied the lemma to this passage's interpretation (U2's note) · now "also the weary one (noun, used of a person; written with the seated man with hanging arms, the classifier of weariness)".
+- `__broaden__` ḫt · minor · The measuring rod was entered as "a sixth word", but it is the same word as "wood, tree, stick" (the second word), and "written with the stick sign" is true of that word too · now "also a rod as a measure of length (?) (noun; Budge: χet)".
+- `__broaden__` ḏrt · minor · "also hand" made 'hand' a sense of the word 'kite'. They are two words · now "a second word of the same spelling: hand (noun f.; Budge: ṭet)".
+- nḏnḏ · grammar · minor · "reduplicated form of nḏ" claimed a base word that no unit gives or supports, and "infinitive nḏnḏ" tied the entry to U9's form · now "(verb; a reduplicated word; Budge: net'net')".
+- `__broaden__` šnt · style · "numeral hundred (šnt; …)" did not follow the house wording for a homonym · now "a second word of the same spelling: hundred (numeral; …; ḫmt šnt 'three hundred')".
+- ḫmnnw · grammar · style · "the number that gives Hermopolis, ḫmnw, its name" is background, not part of the lemma, and "numeral, ordinal" did not follow the known sfḫnw / ḫmtnw / fdnw pattern · now "eighth (ordinal numeral, from ḫmn 'eight'; feminine ḫmnnwt; Budge: χemennet)". The Hermopolis remark stays in the U5 note.
+- psḏnw · grammar · style · now "(ordinal numeral, …)", as for ḫmnnw.
+- ḫꜣꜥ · grammar · style · "written with the walking legs" described this one writing (cf. the pass 2 changes to ḥfꜣw in ani-146-a) · removed.
+- spd · grammar · style · Budge's form was missing · added "Budge: sepṭet".
+- dyw · grammar · style · "the old word" meant nothing · now "(numeral; the script almost never spells it out, writing the figure instead)".
+
+### Considered and refused
+
+- F4 in ḥꜣt (U14) as `phon` 'ḥꜣt' rather than `log`: kept. It is the same coding as ani-146-a U34 and ani-125-address.
+- ẖnw·s (U24), E14 'ẖn' + N35 comp + W24 'nw' + G43 comp: kept. It is the same coding as ẖnw in ani-125-address (and as F32 ẖnw in ani-017-d).
+- "nedjnedj" with no e between the two halves: kept. It follows the house's reduplicated "khebkhebet" (ani-146-a).
+- "Sikty-ef" with no e in kt: kept. The house's "Hentyt-arqyu" is the same.
+- U3 "The papyrus writes i, b and k; read ikbyt": kept, for the reason pass 1 gives. Only ikb fits the classifiers.
+- U22 nhst 'who rouses' without a query: kept. The doubt of the line is stated at the end of the note, and tnwt and sdbḥt carry the queries.
+- U16 ḫmt-šnt-dyw (pass 1): not undone. The morph gives no lemma for ḫmt; the šnt broadening names ḫmt šnt 'three hundred' instead, since one glyph cannot be split between two morphs.
+- U15 hrrt, U10 iwty, U4 iry-ꜥꜣ join (pass 1): re-read and kept. The l/i match the parse given, and the doubt is stated.
+- Gloss entries left as the glosser wrote them, each checked against its unit notes: iꜣggyt, ikb, ḥꜣp, rkḥ, ḏꜣf, pꜥt, nihy, msꜣt, dbn, sꜣtt, šmꜥ, qq, mḏ, nhs and tnwt; the name entries sikty-f, ḫw-ḏt-f, ir-sw-ḏs-f and sḫn-wr (in ani-146-a's pattern, with Budge's forms as in the packet: Sàkti-f, χu-t'et-f, Àri-su t'esef, Seχen-ur); and the broadenings bs and sdbḥ.
+- Every broadening was re-tested for need: each covers a use in a unit that the old entry does not. None was dropped.

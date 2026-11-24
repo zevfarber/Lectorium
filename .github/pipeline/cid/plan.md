@@ -37,7 +37,7 @@
 | cid-tiradas-109-111 | Jimena glad, the Cid uneasy; the weddings in Valencia | tiradas 109–111, lines 2190–2277 | published |
 | cid-tiradas-112-114 | The lion breaks loose; the Infantes' fear; King Búcar lands | tiradas 112–114, lines 2278–2337 | published |
 | cid-tiradas-115-117 | Búcar's message; Fernando's cowardice; the bishop opens the battle | tiradas 115–117, lines 2338–2402 | published |
-| cid-tiradas-118-119 | Búcar killed and Tizón won; the victory and the spoils | tiradas 118–119, lines 2403–2473 | todo |
+| cid-tiradas-118-119 | Búcar killed and Tizón won; the victory and the spoils | tiradas 118–119, lines 2403–2473 | established |
 | cid-tiradas-120-123 | The Cid content with his sons-in-law; their boasting and the household's jests | tiradas 120–123, lines 2474–2542 | todo |
 | cid-tiradas-124-125 | The Infantes ask to take their wives to Carrión; Jimena's farewell | tiradas 124–125, lines 2543–2617 | todo |
 | cid-tiradas-126-127 | Félez Muñoz sent along; Avengalvón learns of the plot and leaves them | tiradas 126–127, lines 2618–2680 | todo |

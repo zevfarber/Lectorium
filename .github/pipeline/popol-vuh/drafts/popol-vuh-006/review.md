@@ -70,3 +70,96 @@ Counts: **major 0 · minor 13 · style 12** (25 rows).
 - **`chaquimah` → chakimaj.** Left, letter for letter. The word is unknown, and Brasseur's k (= q) alone does not settle it.
 - **QUESTIONS points:** (1) caual kawal vs kuwal (above). (2) The modern word against the image letter: ajk'un (ajkun), uq'exel (uk'exel), and 005's uch'apa (chap) should be decided together. (3) 003's xcahixic/vcahic were given kaj 'go down'; the verb is qaj (006). (4) 004's xca nao and 006's xunao are both letter for letter; na'o is the modern verb. (5) The k'ot 'dig, gouge' family in 003 and 006 (koto, kotaj, kotox, xkotin). (6) 004's mt for `zachuluhuh` (sachulujuj) reads the c + h of zac|huluhuh as the digraph ch; 006 divides the word and gives saq julujuj. 004's toggle should probably be saqjulujuj. (7) 004's icouen → ikowen may be ik'ow (above).
 - **Glosser (pass 2).** Keys must match the final mt: ꜩucubei tzuqub'ei, iꜩucubal itzuqub'al, ivalcual iwalk'wal, tocobah toq'ob'aj, choc chok, xchoc xchok, xoquic xokik, xunao xunao, ahꜭun ajk'un. Known forms in a new sense that may need `__broaden__`: `re` ('his teeth', r- + e), `ve` ('yes'; 'my teeth'), `quib` ('ourselves', qib'), `cuꜭ` ('with us', quk'), `chiquih` ('behind them', chikij), `cachbilan` (kachb'ilan, ongoing), `cam` ('die', kam), `xquicot` ('they dug'), `ha` ('go!'), `cu` (ku, c- + u-), `chi` ('mouth', chi').
+
+## Pass 2
+
+Reviewer pass 2, 2026-11-24 (a different reviewer from pass 1). I read conventions.md, runbook.md, ../run3/RUNBOOK.md §2,
+packet.md (text and establishment log), units.json as left by pass 1, gloss.json (made by the glosser from the pre-pass-1
+draft), pass 1's review, novel-forms.json, known-forms.json, popol-vuh-001…005.json, popol-vuh-glossary.json, the 005
+review and wordre.py. For meaning I used only Brasseur 1861 (OCR lines 20090–20560, K'iche', French and notes) and the
+glossary; no modern translation was opened or recalled. Every edit was made by script (json load/dump, ensure_ascii=False,
+indent=1); no `t` was changed and no unit was added, removed or moved.
+
+Units: I went through all 58 again (grammar labels against forms, K'iche' → l word by word, l ↔ i, couplets, the house
+table, uncertainty labels, every establishment-log item, the about). I re-ran the MS-form → mt comparison against 001–005
+by script: the only differences are pass 1's five explained homographs (chiquih, cachbilan, quib, cuꜭ, cam). Comparing
+roots by hand found one more split: `xutiquiba` (unit 55) had xutikib'a, against tikib'a' in 001 (xchicatiquiba) and 003
+(tiquiba) and the glossary. I checked the notes' cross-references against 001–005 (zachuluhuh, quizoc, chi ca coh, recha,
+xi quivubah, chuiu/ahe, e cabauil, Vꜭux Cah in 005, In banol vleu, calibal, acanic, nah, quiꜭohe, mucunic, vvbaxic,
+xcolo, pala, Vꜩ bala) and the Brasseur claims against the OCR; all held except the one location below (unit 58).
+
+Gloss: I checked all 135 entries and all 17 `__broaden__` values against the text and the final mt, by script and by reading.
+Every novel form has an entry and no key is extra. Nine heads were stale against pass 1's mt (the list pass 1 gave) and
+one against this pass's change; all now equal the mt of their tokens. Several morphologies were wrong (missing u- in the
+three passives of 'say', w- 'my' in varam, a root kok, ka- in xchi). Every `__broaden__` value begins with the glossary
+entry verbatim; four broadenings were added for known forms used here in senses the glossary does not cover.
+
+Afterwards the JSON parses, len(mt) == len(WORD_RE.findall(t)) for all 58 units, the units' `t`, joined in order, give
+back the packet's 22 paragraphs exactly, every novel form is keyed in gloss.json, and every gloss head equals the units'
+mt for that form.
+
+Counts: **major 0 · minor 24 · style 11** (35 findings; units 5, gloss 30).
+
+### Changes — units.json
+
+| unit | field | sev. | what was wrong | what was done |
+|---|---|---|---|---|
+| 55 | mt | minor | `xutiquiba` → xutikib'a, but the same verb is tikib'a' in 001 (xchiqatikib'a'), 003 (tiquiba) and the glossary. | mt xutikib'a'; the note says the toggle shows the glottal stop as in the first and third parts. |
+| 9 | i | style | "a half of what we have": 'of what we have' renders nothing (Brasseur's parenthesis 'de notre nourriture'). | "and a share, a half, we give to them". |
+| 21 | n | style | chi in chi too vloc was not analysed, though every other command in the speech is (Brasseur ch'y too). | Added: chi is ch- + i- 'you (pl.)', as before the other commands. |
+| 33 | n | style | xcah 'they wanted': "c- (qui- 'their' before a vowel)" — on a verb the prefix is the ergative 'they', as the part's other notes call it (xquicam, xquicat). | "c- (the form of qui- 'they' before a vowel)". |
+| 58 | n | style | "as quiꜭohe 'I am' in the earlier parts": it occurs only in 004. | "in the fourth part". |
+
+### Changes — gloss.json
+
+| key | field | sev. | what was wrong | what was done |
+|---|---|---|---|---|
+| ꜩucubei, iꜩucubal | value | minor | Heads tzukub'ei, itzukub'al and root tzukuj, against the mt tzuqub'ei, itzuqub'al (pass 1: root tzuq). | Heads = mt; root tzuq 'feed, sustain', Brasseur's k = q. |
+| ivalcual | value | minor | Head iwalkual; morphology "kual, the children of both parents" (pass 1 removed this from the note). | "iwalk'wal — your (pl.) children; iw- + alk'wal 'children', built on al 'a woman's child'; ejective restored". |
+| tocobah | value | minor | Head tokob'aj against mt toq'ob'aj. | toq'ob'aj, from toq'ob' 'pity'; Ximénez leaves the ejective unmarked. |
+| choc, xchoc, xoquic | value | minor | Heads choq, xchoq, xoqik and root oq, against mt chok, xchok, xokik (the verb ok, as xoc/catoc in the glossary). | Heads = mt; root ok 'enter'. |
+| xunao | value | minor | Head xuna'o and root na', against mt xunao (004's nao). | xunao, na 'feel'; letters respelled, as nao. |
+| ahꜭun | value | minor | Head ajkun and "kun" against mt ajk'un. | ajk'un; "the letter respelled as written (modern ajkun)". |
+| xutiquiba | value | minor | Head followed the old mt. | xutikib'a', tikib'a' 'plant, begin'. |
+| vcalibal | value | minor | "Brasseur reads the first letter as q": he prints u galibal, g = ꜫ. | "Ximénez writes plain c where Brasseur reads ꜫ (his g)". |
+| varam | value | minor | "w- 'my' + aram": nu 'my' stands before it; the root is war (as pass 1 corrected in the note). | "waram — sleep; noun, war 'sleep' + -am". |
+| xel | value | minor | "with no ending at the end of a clause": the -ik is missing because the clause goes on (pass 1's correction in note 22). | "with no -ik because more follows in the clause". |
+| xuchaxic, xuꜭhaxic, xuꜭhax | value | minor | "x- completive + ch'a …" left out the u- that is in the form (pass 1's correction in note 52). | "x- completive + u- + ch'a 'say' + -x- (passive) + -ik" (xuꜭhax without -ik). |
+| vcoc | value | minor | "u- 'its' + kok": an invented root. | "taken with ok 'enter', the c not explained (Brasseur x-uq-oc)". |
+| caual | value | minor | "precious stones, jewels": jewels is yamanic, the other half of the pair (005 pass 2 corrected the same swap); "the cuval … written with a" stated as fact. | "kawal — precious stones (inferred); perhaps kuwal (cuval) … written with a; the letters respelled as written". |
+| xchi | value | minor | "written apart before ka- + verb": in Xchi ca coh the ca is qa- 'we'. | "before the person prefix and the verb". |
+| __broaden__ chiquih | value | minor | "chi + ki- 'their' + ij" would give chikiij; before a vowel the prefix is k-. | "chi + k- 'their' (ki- before a vowel) + ij 'back'". |
+| __broaden__ ve | value | minor | The glossary's teeth reading is pinned to nay pu ve raxcavacoh; here ve is 'my teeth' (units 14, 16, 18). | Added "we — my teeth; w- 'my' + e 'tooth'". |
+| __broaden__ xquicot | new | minor | Glossary "they rejoiced"; here 'they dug' (unit 51). | Added "xkikot — they dug; x- completive + ki- 'they' + kot 'dig'". |
+| __broaden__ chi | new | minor | The glossary has 'let' but not the plural command ch- + i- of units 11–16, 21. | Added "chi — ch- (command) + i- 'you (pl.)', before a verb". |
+| xcah | value | style | "k- (ki- 'their' …)" on a verb. | "'they'". |
+| ivachbilan | value | style | "iw- 'your (pl.)'" on a verb; "the verb of qachb'ilan" pointed to another part's form. | "iw- 'you (pl.)' (i- before a vowel, the ergative) + achb'ilan 'accompany'". |
+| canih | value | style | "I beg": the person is not in the word (Oh canih 'we beg'). | "beg, implore (inferred); a word of entreaty, with chiwech, chawech". |
+| cunah | value | style | "the root of ajkun 'healer'": that is not the head of ahꜭun. | "the root of ahꜭun 'healer' (modern ajkun)". |
+| tahoc | value | style | "(koto tajoq 'dug out')" pinned. | "passive ending -taj + -oq, written apart after a verb (inferred)". |
+| __broaden__ cuꜭ | value | style | "ruk' with q- 'our'". | "q- 'our' (qa- before a vowel) + uk' 'company'". |
+| __broaden__ pala | new | style | Glossary 'as many as'; here half of a question 'how far' (unit 57). | Added "pala — with janikan, in a question 'how far?' (inferred)". |
+
+### Refused / left
+
+- **Pass 1's decisions kept**: caual kawal (not kuwal); ajk'un and uq'exel by the letter; the coto family koto; xuchaxic xuch'axik
+  against plain cha/xcha; ejectives restored in ik'ow, q'at, k'am, sik'in. I found nothing against them; they are owner questions.
+- **Unit 41 `Xchin teleh` 'I shall carry'.** Left. in 'I' is the absolutive on a transitive root (one would expect a
+  transitive form with v-/nu-); Brasseur reads 'je le porterai'. The note gives the parts correctly; whether teleh is an
+  antipassive is not decidable from this text.
+- **ba rendered "then" in l (units 11, 14, 17, 18), though the note calls it a particle of urging.** Left: consistent
+  across the part, and the note explains it.
+- **Unit 15 quivbah kiub'aj vs 005 quivubah kiwub'aj; unit 4 xil with no ergative; unit 46 xcam with no prefix.** Left, as pass 1.
+- **Unit 52 i "we cannot get to the bottom of it"** (Brasseur 'nous n'en pouvons plus'). Left, marked inferred in the note.
+- **Gloss entries not changed**: every other entry's head, meaning and morphology match the notes; uncertain senses are marked.
+- **about**: checked against the units; every event is there and in order. No change.
+
+### Points for QUESTIONS.md
+
+1. Pass 1's seven points stand (caual kawal/kuwal; modern word vs letter for ajk'un, uq'exel, 005's uch'apa; 003's kaj
+   → qaj; 004 xca nao / 006 xunao vs na'o; the k'ot family in 003 and 006; 004 sachulujuj → saqjulujuj; 004 ikowen → ik'owen).
+2. The glossary entry `xquicot` ('they rejoiced', 001) and 006's 'they dug' share mt xkikot; the toggle cannot tell them
+   apart. Fine by the letter rule; noted for the owner.
+3. House renderings to copy into conventions.md (confirmed): ahau → the lord; lal ahau → my lord (lal the respectful
+   'you'); ahꜭun → a healer; naual atit, naual mama → an old woman of spirit power, an old man of spirit power; omuch
+   ꜭaholab → the four hundred boys; Vꜩ bala → Very well; vbac vvach → his eyes (l its-bone his-face); vꜫexel → a replacement.

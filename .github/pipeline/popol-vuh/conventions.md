@@ -115,6 +115,14 @@ Ximénez's paragraphs and headings.
 | Hunhunahpu (005, where the actor is Hunahpu) | as written | Hunhunahpu, as written; the note says so | silently correcting to Hunahpu |
 | Zaqui Nimac, Zaqui Nima Ꜩiz | names kept | Zaqui Nimac, Zaqui Nima Tziz (mt Tz'iis, the known name of 001/003) | — |
 | vb | blowgun | the blowgun | — |
+| ahau | lord | the lord | king |
+| lal ahau | you(sir) lord | my lord (lal alone: the respectful 'you') | Your Majesty |
+| ahꜭun | healer | a healer (mt ajk'un by the letter; the modern word is ajkun) | doctor, physician |
+| naual atit, naual mama | spirit-power old-woman, spirit-power old-man | an old woman of spirit power, an old man of spirit power | magicians, wonder-workers |
+| omuch ꜭaholab | four-hundred boys | the four hundred boys | Four Hundred Youths (as a capitalised name) |
+| Vꜩ bala | good bala | Very well | — |
+| vbac vvach | its-bone his-face | his eyes | eyeball |
+| vꜫexel | its-replacement | a replacement, in exchange | — |
 
 ## Notes (`n`)
 

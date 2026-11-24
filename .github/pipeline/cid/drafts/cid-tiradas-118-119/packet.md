@@ -1,0 +1,84 @@
+# Packet — cid-tiradas-118-119: Búcar killed and Tizón won; the victory and the spoils
+
+Tiradas 118–119, Pidal lines 2403–2473 (Cantar III (Corpes)).
+The established text below is pinned. A unit's `t` is one or more consecutive verses joined by "\n", cut by script.
+Flags: numbers printed nowhere in the verse column (see LOG.md): 2432, 2459; label 2455 is printed twice: on 'De todas partes sos vassallos van llegando' (pdf 286, between 2437 and 2438; provisionally numbered 2437b here) and on 'Grado a Dios e al padre…' (pdf 287). Probably a misprint or a relocated line (2432 is otherwise missing); decide
+
+
+## tirada 118
+
+2403	Sácanlos de las tiendas, cáenlos en alcaz;
+2404	tanto braço con loriga veriedes caer a part,
+2405	tantas cabeças con yelmos que por el campo ca[d]en,
+2406	cavallos sin dueños salir a todas partes.
+2407	Siete migeros complidos duró el segudar.
+2408	Mio Çid al rey Búcar ca[d]iól en alcaz:
+2409	“Acá torna, Búcar! venist dalent mar.
+2410	Ve[e]rte as con el Çid, el de la barba grant,
+2411	saludar nos hemos amos, e tajaremos amizta[t].”
+2412	Respuso Búcar al Çid: “cofonda Dios tal amiztad!
+2413	Espada tienes en mano e veot aguijar;
+2414	así commo semeja, en mi la quieres ensayar.
+2415	Mas si el cavallo non estropieça o comigo non ca[d]e,
+2416	non te juntarás comigo fata dentro en la mar.”
+2417	Aquí respuso mio Çid: “esto non será verdad.”
+2418	Buen cavallo tiene Búcar e grandes saltos faz,
+2419	mas Bavieca el de mio Çid alcançándolo va.
+2420	Alcançólo el Çid a Búcar a tres braças del mar,
+2421	arriba alçó Colada, un grant colpe dádol ha,
+2422	las carbonclas del yelmo tollidas gela[s] ha,
+2423	cortól el yelmo e, librado todo lo al,
+2424	fata la çintura el espada llegado ha.
+2425	Mató a Búcar, al rey de allén mar,
+2426	e ganó a Tizón que mill marcos d' oro val.
+2427	Vençió la batalla maravillosa e grant,
+2428	Aquís ondró mio Çid e quantos con el[le] [están].
+
+## tirada 119
+
+2429	Con estas ganançias yas ivan tornando;
+2430	sabet, todos de firme robavan el campo.
+2431	A las tiendas eran llegados [con] el que buen[a] nasco,
+2433	Mio Çid R[o]y Diaz, el Campeador contado.
+2434	con dos espadas que él preçiava algo
+2435	por la matança vinía tan privado,
+2436	la cara fronzida e almófar soltado,
+2437	cofia sobre los pelos fronzida della yaquanto.
+2437b	De todas partes sos vassallos van llegando;
+2438	algo vi[di]e mio Çid de lo que era pagado,
+2439	alçó sos ojos, est[a]va adelant catando,
+2440	e vi[d]o venir a Dí[a]go e a Fernando;
+2441	amos son fijos del co[m]de don Gonçal[v]o.
+2442	Alegrós mio Çid fermoso sonrrisando:
+2443	“¿Venides, mios yernos, mios fijos sodes amos!
+2444	Sé que de lidiar bien sodes pagados;
+2445	a Carrión de vos irán buenos mandados,
+2446	cómmo al rey Búcar avemos arrancado.
+2447	Commo yo fio por Dios y en todos los sos santos,
+2448	desta arrancada nos iremos pagados.”
+2449	Minaya Álbar Fáñez essora es llegado,
+2450	el escudo trae al cuello e todo espad[ad]o;
+2451	de los colpes de las lanças non avie recabdo;
+2452	aquellos que gelos dieran non gelo avien logrado.
+2453	Por el cobdo ayuso la sangre destellando;
+2454	de veínte arriba ha moros matado;
+2455	“Grado a Dios e al padre que está en alto,
+2456	e a vos, Çid, que en buen ora f[o]stes nado!
+2457	Matastes a Búcar e arrancamos el canpo.
+2458	Todos estos bienes de vos son e de vuestros vassallos.
+2460	E vuestros yernos aquí son ensayados,
+2461	fartos de lidiar con moros en el campo.”
+2462	Dixo mio Çid: “yo desto so pagado;
+2463	quando agora son buenos, adelant serán preçiados.”
+2464	Por bien lo dixo el Çid, mas ellos lo touieron a [escarnio].
+2465	Todos l[os] gana[dos] a Valençia son llegad[os];
+2466	alegre es mio Çid con todos [sos vassallos],
+2467	que a la raçión ca[di]e de plata seys çientos marcos.
+2468	Los yernos de mio Çid quando este aver tomaron
+2469	desta arrancada, que lo tenien en so salvo,
+2470	cuydaron que en [sos] días nunqua serien minguados.
+2471	F[o]ron en Valençia muy bien arreados,
+2472	conduchos a sazones, buenas pieles e buenos mantos.
+2473	Muchos son alegres mio Çid e s[o]s vassallos.
+
+Glossary: 242 of 296 forms already in cid-glossary.json.

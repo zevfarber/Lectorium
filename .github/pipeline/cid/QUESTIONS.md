@@ -22,3 +22,22 @@
 
 ## 2026-11-22 · cid-tiradas-103-104a · margin label 1990
 Pidal's margin (PDF p. 258, printed p. 254) prints "1990" beside "Minaya Álbar Fáñez e aquel Per Vermu[doz]". Counting from 1985 (and his footnote 1987 on "mula", in "Tanta gruessa mula") puts "chicos e grandes" at 1990 and Minaya at 1991; counting back from 1995 and footnote 1993 ("coranado") with 1992b gives the same. Decided meanwhile: the draft's labels are kept (Minaya = 1991); the printed label is taken as set one line low. 2004b remains a provisional letter of ours (one printed line more than the labels 2000b … 2005 allow).
+
+
+## 2026-11-24 · cid-tiradas-118-119 · the double label 2455 (Run 4)
+Pidal prints the margin label 2455 twice: on "De todas partes sos vassallos van llegando" (p. 282, which he has
+moved up between 2437 and 2438) and on "Grado a Dios e al padre que está en alto" (p. 283). Counting from the
+label 2450 on "el escudo trae al cuello", "Grado" is the fifth line after it, so the second 2455 agrees with
+the count on the page; but that count ignores the moved line. If "De todas partes" (2455) stood in the
+manuscript between 2454 "de veínte arriba ha moros matado" and "Grado", then "Grado" is 2456, "e a vos, Çid"
+2457, "Matastes" 2458, "Todos estos bienes" 2459 and "E vuestros yernos" 2460, as labelled. Three things support
+this: (1) the moved line's own label 2455 says that is where it belongs; (2) the number 2459, otherwise printed
+nowhere with no line missing, is accounted for; (3) Pidal's footnote 2456, "Conjunción e pleonástica, v. 300",
+fits "Grado a Dios e al padre" (v. 300: a Dios e al Padre spirital; his note to 2342 also points to v. 300) and
+not "e a vos, Çid", whose e is an ordinary 'and'. The footnote 2460 ('aquí se han distinguido') falls on "E
+vuestros yernos" either way. Verdict: the drafter is right, and the case is stronger than he put it — the
+second 2455 is a slip of the print (most likely a leftover label from before the line was moved), and the
+correct numbering is De todas partes = 2455 (not 2437b), Grado = 2456 … Todos estos bienes = 2459. In this
+firing the pinned numbers stand and the notes on 2437b, 2455 and 2460 state the question; renumbering is the
+owner's decision (it touches the pinned text's labels and the provisional 2437b).
+Decided meanwhile: published with the pinned numbering (2437b, 2455 on "Grado", 2459 unprinted); the notes at 2437b, 2455 and 2460 state the question as uncertain. If the owner agrees, renumber: "De todas partes" = 2455, "Grado" … "Todos estos bienes" = 2456–2459 (source/established, re-pin, rebuild).

@@ -2241,3 +2241,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - No misprints corrected. P867L14 prints انزل أ اتنا: a lone precomposed أ, then اتنا. Kept as printed (two tokens), pointed انْزِلِ أ أْتِنَا (the lone أ left unvowelled as the silent opening alif) and read iʾtinā, 'bring us'; the note says the reading is likeliest but not certain.
 - Kept as printed, with notes: شيٌ with printed tanwīn after ايّ (tr shayun, following the pointing); verse وَالْمَعْنِي and فِى; يدى with ى; زوّجته بها, يستعجل على, مسكه, الست, قدّام flagged as later usage; اطلعه 'brought him up'.
 - Nothing to decide. Night 204 is complete and unpublished; the next firing publishes it.
+
+## Night 204 (P868L10–P870L16, published 2026-11-25)
+- Library label: `Night 204 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P869L17 كثيرا لزفرات → كثير الزفرات (the article's alif set on the previous word; two entries), P869L18 فزير → غزير.
+- Kept as printed, with notes: وابرؤها/فابرؤها (ؤ; read Form IV ubriʾuhā), علي and الي (read ʿalā, ilā), تطفى without hamza, مايتمنّى set solid; ولا اظرف read wa-lā aẓrafa, 'none more gracious' (a slip for another word, e.g. aẓlam, possible); والبلاء لمن يئس taken as its own clause; وادخل بها read adkhala bi- (doubled transitivity); verse عَارِفُ, مُتَحَيِّرُ, سَلَامُ with single ḍamma, الْهَوَي with ي, فَارْسِلِي without hamza (tr fa-irsilī).
+- Shared glossary: three wrong entries corrected — فِيْ ('extra yāʾ for the meter' → printed sukūn on the long vowel), اَلْقَاهُ (Form IV / 'Middle Arabic spelling' → Form I of laqiya, ى written ا before a suffix), سَلِي (salī for isʾalī).
+- Nothing to decide. Night 205 is not yet complete (tail unread); the next firing transcribes.

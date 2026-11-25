@@ -110,3 +110,102 @@ Counts: **major 0 · minor 12 · style 6** (18 rows).
 8. **`bate`**: "yoke" was removed as not grounded. If the owner has a source for the ball-game sense, the note can say
    so.
 9. No new house rendering in this part.
+
+## Pass 2
+
+Reviewer pass 2, 2026-11-25 (a different reviewer from pass 1). I read conventions.md, runbook.md, ../run3/RUNBOOK.md §2,
+packet.md (text and establishment log), QUESTIONS.md, popol-vuh-001…008.json, popol-vuh-glossary.json, wordre.py, the
+008 review (its pass 2), units.json as left by pass 1, pass 1's review, gloss.json, novel-forms.json and
+known-forms.json. For meaning I used only Brasseur 1861 (OCR lines 21320–21990: K'iche', French and notes) and the
+glossary. I opened no modern translation and recalled none. Every edit was made by script (json load/dump,
+ensure_ascii=False, indent=1). No `t` was changed, and no unit was added, removed or moved. Unit numbers are 0-based.
+
+Units: I went through all 43 again: grammar labels against forms, K'iche' → l word by word, l ↔ i, couplets, the house
+table, uncertainty labels, every establishment-log item (all are covered) and the about (no change). I re-checked every
+Brasseur claim in the notes against the OCR. One was wrong: unit 34's 'strap', which is not in Brasseur. One attribution
+was misleading: unit 14's hom. I re-ran the MS form → mt comparison against 001–008 by script. It gives the same three
+deliberate differences as pass 1 (chacab, qui ꜩih, cuc). I also compared roots by script. This found 001's `camuhibal`
+qamujib'al 'our place of shade' (muh 'shade'), which bears on xcacamuh 'veil'. I added it as an inference and kept the
+mt, since the morph division is unclear. The same check found that 006's `vcotobahic`, which pass 1's note tied to
+cotobax 'be punished', is 'its digging' there.
+
+Gloss: I checked all 105 entries and every `__broaden__` value against the units and the final mt, by script and by
+reading. Keys equal novel-forms.json exactly. Every head equals the units' mt for its form (compared lowercased). Every
+broadening begins with the current glossary entry verbatim + " · ". I compared each known form's use in 009 with its
+glossary entry. Four broadenings were missing: `chacab`, which pass 1 asked for and the glosser did not supply,
+`vlaquel`, `chirih` and `chuvi`. `patan` lacked its 'load' sense. None was unneeded.
+
+Afterwards the JSON parses, and len(mt) == len(WORD_RE.findall(t)) for all 43 units. The units' `t`, joined, give back
+the packet's 15 paragraphs exactly. Gloss keys == novel-forms keys (+ `__broaden__`), and every head and broadening
+prefix checks. Final gloss: 105 novel forms, 16 broadened.
+
+Counts: **major 0 · minor 14 · style 14** (28 findings: units 11 (minor 4, style 7); gloss 17 (minor 10, style 7)).
+Gloss: 13 values fixed (11 entries, 2 broadenings), 4 broadenings added, 0 dropped.
+
+### Changes — units.json
+
+| unit | field | sev. | what was wrong | what was done |
+|---|---|---|---|---|
+| 34 | n | minor | "Brasseur takes … Patan as a carrying basket and its strap". He has 'hotte qui sert à porter des fardeaux', with no strap. He goes on to say that office, charge and tribute are often the same word, so the link to the duty is his own, not ours. | The note now gives his words: a basket for carrying loads, from which come 'office, charge and tribute'. |
+| 14 | n | minor | "hom is the ball court (Brasseur's note), a walled alley … hips, not the hands": this attributes to Brasseur what his note does not say. His note gives Nahuatl tlachco and calls the place a temple. | The note says what Brasseur says, and the cultural fact stands unattributed. |
+| 38 | n | minor | "cotobax may be the cotobah of 006 (vcotobahic)". In 006 vcotobahic is 'its digging' (coto 'dig'), so the note implied a sense link that 006 does not support. | "cotobax has the letters of 006's vcotobahic, read there as 'its digging'; whether they are one verb is not known." |
+| 13 | n | minor | "(hun + taꜫ + ꜫih)": taꜫ spells taq' with the tresillo, but the word is taq 'each' (glossary: jun + taq + q'ij). This is the same slip pass 1 fixed in unit 20. | "(hun 'one' + tac 'each' + ꜫih 'day')". |
+| 1 | n | style | "camuh, a verb not otherwise known": 001's camuhibal 'our place of shade' (ca- + muh 'shade') shares the letters, which fits Brasseur's 'veil'. | Added as inferred. mt stays xqakamuj, since the division is unclear. |
+| 15 | l | style | l "He-came-here" against the note's "chul 'he comes here'" and i "would come". | "He-comes-here". |
+| 17 | n | style | xe yaluh rested on Brasseur's French alone. His note on Xbaquiyalo gives yaloh 'séparer, retenir, demeurer'. | Added. |
+| 20 | n | style | "que 'them' + ca- 'we'": que is c- (ongoing) + e 'them', as the note says of que two units earlier. | Relabelled. |
+| 23 | l | style | l "giving(?)", where the note says the agent form 'giver' is "here taken as 'given'" and i has "given them". | "given(?)". |
+| 26 | n | style | Brasseur has `chi pe puh rakan`, without chirih. This was not mentioned, though the note cites his letters for the next words. | Added. |
+| 42 | n | style | ca chuvi chic 'later' was called inferred, without its basis. Brasseur has 'ensuite de cela'. | Added. |
+
+### Changes — gloss.json
+
+| key | field | sev. | what was wrong | what was done |
+|---|---|---|---|---|
+| ꜩiyah | value | minor | "the phrase it ends": ꜩiyah begins `ꜩiyah bac xu pan …`. | "in tziyaj b'aq 'bare bone (?)', read after Brasseur's 'only a skeleton' (guess)". |
+| hom | value | minor | "struck with the hips … (Brasseur's note)": the same false attribution as unit 14. | "the walled alley of the ball game (Brasseur: the hall of the ball game, Nahuatl tlachco)". |
+| culvachih | value | minor | No hedge, though note 32 marks the pair inferred, after Brasseur. | "(inferred) … after Brasseur". |
+| hupul | value | minor | "face down" stated plainly, though note 32 says that Brasseur here reads 'mouth upward' and that the English keeps 007/008's reading (inferred; QUESTIONS 007 5, 008 1). | "(inferred) … (Brasseur here reads hupul-oc 'mouth upward', the opposite)". |
+| cotobax | value | minor | "perhaps the verb of ukotob'ahik": that word is 'its digging'. | "the letters of ukotob'ajik 'its digging', but whether one verb is not known". |
+| __broaden__ patan | value | minor | "a carrying basket and its strap": Brasseur has no strap. The sense 'load' (huhun chi patan 'each a load', note 36) was missing. | Brasseur's 'hotte … whence office, charge, tribute', plus "patan — (inferred) load, burden carried". |
+| __broaden__ chacab | new | minor | The glossary has only chaq'ab' 'at night'. In unit 2 the units give chakab' 'a part' (Brasseur xa chakab 'seulement une partie'). Pass 1 asked for this broadening, and the glosser did not supply it. | Added "chakab' — (inferred) a part, a portion …". |
+| __broaden__ vlaquel | new | minor | The glossary has "(uncertain) 'set itself, level itself'" (001). Here the units read 'alone, unmarried' (Brasseur 'célibataire'). | Added "ulaqel — (inferred) alone, unmarried …". |
+| __broaden__ chirih | new | minor | The glossary has 'behind it'. Unit 26 reads chirih vvach 'on his face'. | Added "chirij — (inferred) on, over (the surface of) …". |
+| __broaden__ chuvi | new | minor | The glossary has 'on top of'. Unit 42 reads ca chuvi chic 'later on', in time. | Added "chuwi' — (inferred) after, later (of time) …; after Brasseur ('ensuite de cela')". |
+| xcacamuh | value | style | It lacked the possible muh 'shade' link (unit 1). | Added "(inferred)". |
+| yaqueic | value | style | "their bearing": 'their' is qui, which is not in the form. | "bearing, ways". |
+| culelaah | value | style | "they face each other": 'they' is qui, and 'each other' is quib. | "face (each other), with kib' 'one another'". |
+| cuchmaihic | value | style | "they gathered": 'they' is que, which is not in the form. | "gathering, coming together". |
+| telelaon | value | style | "they carry": 'they' is qui. | "carry on the shoulder, bear as a load". |
+| yaluh | value | style | "stayed long" was given without Brasseur's yaloh. | "stay long, remain" + his yaloh. |
+| __broaden__ que | value | style | "ke 'them' + qa- 'we'": it misdescribes que, which is k- + e. | "ke — k- 'ongoing' + e 'them', the object before a transitive verb …". |
+
+### Refused / left
+
+- **The glosser's other broadenings are kept.** They are qui (qi tzij), cab ('the two of them'), pa (after naqi), chire
+  ('because'), chul (narrative), cul ('throat'), cuc ('gather'), zac ('white dice'), nim ('respect') and hunhunahpu (the
+  father). Each is a sense the entry lacks and the units use. In `pa`, the existing reading is limited to 'after mi', so
+  the naqi pa use is not covered by it.
+- **No broadening for** `ca` in `ca cut` / `ca chuvi chic`. These are left unrendered, and the entry's "(unclear) a
+  particle … left unrendered" covers them. `oc` 'already' (unit 42) falls under 'yet, still'. `holom` 'skull' falls under
+  'head'. `chaah` as a noun 'the ball game' (unit 13) falls under 'play (perhaps at ball)'. `cahau` 'parents' (unit 5) is
+  the English of i, not a sense of the word.
+- **l "it-is-called" for chuꜭhaxic (units 26, 35)** against the house table's "it-is-said": kept. The pilot itself uses
+  both (001:7, 001:24).
+- **`chamiy` mt chamiy (letter for letter).** The staff word may be modern ch'amiy, but Brasseur too writes chamiy
+  without his apostrophe. It is left as it is. See question 2 below.
+- **Pass 1's decisions all stand.** These are chacab chakab', qui ꜩih qi tzij, cuc kuk, camouic k'amowik, vve uwe,
+  Junb'atz', the restored ejectives, and the letter-for-letter forms. I re-checked each against the OCR and 001–008.
+- **Unit 7 "as in 005"** sits after nabeal … vcabal. Only vcabal is in 005, and the sentence reads as referring to it.
+  Left.
+- **The about**: re-checked against the units. No change.
+
+### For QUESTIONS.md (decided meanwhile as above; nothing blocked)
+
+1. Pass 1's nine points stand.
+2. **`chamiy` 'staff'** (Chamiabac, rahchami, cahchamiyal) is respelled without the ejective, following the letter and
+   Brasseur. If the modern word ch'amiy decides, the four forms and the names change together. This is the same question
+   as rixk'aq and aq'an (007 2, 008 4).
+3. **`xcacamuh`**: x- + ca- + camuh, or x- + ca- + ca- + muh 'shade' (001's camuhibal qamujib'al)? Meanwhile mt is
+   xqakamuj and the link is noted as inferred. If muh is the root, 001's q- and 009's k- for the same ca- should agree.
+4. No new house rendering in this part.

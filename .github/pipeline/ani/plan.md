@@ -28,7 +28,7 @@
 | ani-018-b | Spell 18, second half | Budge pp. 79–82 | published |
 | ani-023-024 | Spells 23 and 24 | Budge pp. 83–87 | published |
 | ani-026-030b | Spells 26 and 30B | Budge pp. 88–91 | published |
-| ani-061-054 | Spells 61 and 54 | Budge pp. 91–96 | todo |
+| ani-061-054 | Spells 61 and 54 | Budge pp. 91–96 | established |
 | ani-029-027-058-059 | Spells 29, 27, 58 and 59 | Budge pp. 97–104 | todo |
 | ani-044-045-046-050-093 | Spells 44, 45, 46, 50 and 93 | Budge pp. 105–110 | todo |
 | ani-043-089-091-092 | Spells 43, 89, 91 and 92 | Budge pp. 111–117 | todo |

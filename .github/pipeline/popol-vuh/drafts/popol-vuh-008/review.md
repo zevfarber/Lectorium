@@ -84,3 +84,99 @@ Counts: **major 0 · minor 9 · style 4** (13 rows).
 5. **For the establisher:** the 008 log says Cabrracan ×8 / Cabracan ×6 (the text has 7/7) and "27 paragraphs" (the
    pinned text has 26).
 6. No new house rendering in this part.
+
+## Pass 2
+
+Reviewer pass 2, 2026-11-25 (a different reviewer from pass 1). I read conventions.md, runbook.md, ../run3/RUNBOOK.md §2,
+packet.md (text and establishment log), popol-vuh-001…007.json, popol-vuh-glossary.json, wordre.py, the 007 review (its
+pass 2), units.json as left by pass 1, pass 1's review, gloss.json, novel-forms.json and known-forms.json. For meaning I
+used only Brasseur 1861 (OCR lines 20930–21370, K'iche', French and notes) and the glossary; no modern translation was
+opened or recalled. Every edit was made by script (json load/dump, ensure_ascii=False, indent=1); no `t` was changed and
+no unit was added, removed or moved. Unit numbers are 0-based, as in pass 1.
+
+Units: I went through all 68 again (grammar labels against forms, K'iche' → l word by word, l ↔ i, couplets, the house
+table, uncertainty labels, the establishment-log items, the about) and re-checked every Brasseur claim in the notes
+against the OCR, including pass 1's corrected ones (units 5, 18, 47, 48, 50, 12/53): all hold. Pass 1's fixes all stand.
+I re-ran the MS-form → mt comparison against 001–007 by script (same five deliberate differences as pass 1), and then
+compared the *roots* of 008's new forms with the published mt, which the form-for-form comparison cannot catch: the
+climbing verb acan is aq'an in 004 (acan, acanic), 005 (chacan) and 006 (acanoc, "toggle aq'an, as in the earlier
+parts", against Brasseur's k there too), but 008 had xakanik / kakanik.
+
+Gloss: all 111 entries and every `__broaden__` value checked against the text and the final mt, by script (every
+occurrence of each key) and by reading. Keys equal novel-forms.json exactly. Every head equalled the units' mt before
+the acan change; xacanic and cacanic were changed with it. Every `__broaden__` value begins with the glossary entry
+verbatim + " · ". `zahcab` is not glossed as lime (it says lime is not shown). I compared each known form's 008 uses with
+its glossary entry: three broadenings were missing (bac, cat, xuxic) and one was not needed (bi).
+
+Afterwards the JSON parses, len(mt) == len(WORD_RE.findall(t)) for all 68 units, the units' `t` give back the packet's
+26 paragraphs exactly, paragraph by paragraph, every `t` equals pass 1's, gloss keys == novel-forms keys (+
+`__broaden__`), every gloss head equals the units' mt for that form, and every `__broaden__` value starts with the current
+glossary entry + " · ". Final gloss: 111 novel forms, 19 broadened.
+
+Counts: **major 0 · minor 14 · style 16** (30 findings; units 3, gloss 27).
+
+### Changes — units.json
+
+| unit | field | sev. | what was wrong | what was done |
+|---|---|---|---|---|
+| 5, 8, 36 | mt, n | minor | `xacanic` xakanik, `cacanic` kakanik ×2: the climbing verb acan is aq'an in every published part (004 acan/acanic, 005 chacan, 006 acanoc, each restored against Brasseur's k); the note itself calls it "acan 'climb'", a certain word. | mt xaq'anik, kaq'anik (×2); notes 5 and 8 say the toggle gives the root aq'an as in the earlier parts. |
+| 59 | i | minor | "they set off again": xbe is 'he went', and the note says "singular then plural". | "he set off again, and they came there …". |
+| 51 | i | style | "As the earth goes onto the bird's back": xchoc is 'it shall go' (l "it-shall-go-in"; Brasseur 'enveloppera'). | "As the earth shall go onto …". |
+
+### Changes — gloss.json
+
+| key | field | sev. | what was wrong | what was done |
+|---|---|---|---|---|
+| xeopon | value | minor | "also used with a singular subject (Zipacna) in the same sentence": wrong (the note: xbec singular for Zipacna, xeopon plural for all) and pinned to a line. | Dropped; the entry is the form's morphology. |
+| xacanic | value | minor | Head xakanik, root "akan", against the glossary's acan aq'an and the corrected mt. | "xaq'anik … aq'an 'climb' …". |
+| cacanic | value | minor | Head kakanik, the same. | "kaq'anik …". |
+| xcutun | value | minor | "the verb of ukutunisaxik": the published form is uk'utunisaxik (glossary vcutunizaxic, cutun k'utun). | uk'utunisaxik. |
+| xꜩolcopih | value | minor | "he turned back" stated plainly; the note says it is taken with Brasseur, the ending unknown. | "(inferred, after Brasseur 'il ne retourna plus')". |
+| vulih | value | minor | Covered only `ca vulih` 'you'; in `xchin vulih` (unit 39) the v is 'I'. The head also described the preceding word ka as part of the form. | Both readings, the w described as what it is in each. |
+| chacahoc | value | minor | "the line is uncertain" without the reason; note 50 (pass 1) gives Brasseur's ch'u kah-oc and 'his defeat'. | Says so. |
+| tihic | value | minor | "eating" with no hedge; the establishment log and note call the reading doubtful (blot on the ligature). | "(doubtful reading: a blot sits on the ligature)". |
+| xcul | value | minor | "kul 'smear'" plain; the notes mark the sense inferred (Brasseur 'frottèrent'). | "(inferred)". |
+| __broaden__ bac | new | minor | Glossary 'bone; noun'; here a verb, xqui bac (qui cac) 'they made/struck (fire)', a guess after Brasseur. | Added "b'aq — (guess) make fire, strike fire …". |
+| __broaden__ cat | new | minor | Glossary 'you (one) shall / ongoing'; in unit 51 `quehe cat` is taken as cut 'then' (Brasseur quehecut). | Added "kat — (inferred) then, so; taken as k'ut written cat …". |
+| __broaden__ xuxic | new | minor | Glossary "they came to be"; here `abah cut xuxic ri Zipacna`, singular (no e-). | Added "xuxik — it became, he became …, no plural e-, so singular". |
+| cumaꜩih | value | style | "their trick": 'their' is qui, not in the form; "(guess)" before the meaning. | "trick, contrivance (guess) …". |
+| ahtah | value | style | "after ka r- … in kar ajtaj" pinned; head "wishing, want". | General, with the phrase as an example. |
+| xcoc | value | style | "that it went in": 'that' is the context. | "it went in (inferred) …". |
+| hupunic | value | style | "the jupulik of the last part": pinned to a part. | "jupulik 'face down' with n for l … (Brasseur 'à plat ventre')". |
+| pacal | value | style | Brasseur's opposite reading not mentioned (the glossary's pacalic mentions it). | Adds "(Brasseur pagal, read as stooping)". |
+| xtilob | value | style | "it came down … meaning unknown": self-contradictory order. | "(guess) meaning unknown, 'came down' guessed from qajoq …; doubtful reading (perhaps xhilob)". |
+| hunchic | value | style | "said twice in a row": pinned. | Dropped. |
+| xivilo | value | style | "(i- before a vowel)" reads as if i- were the prevocalic form (pass 1's fix in note 39; 007's pass 2). | "(the form of i- before a vowel)". |
+| mabi | value | style | "not (yet)": 'yet' invented; the note says only a form of maui. | "not". |
+| mucu | value | style | "they buried him": 'they' is xqui. | "bury (him) …". |
+| __broaden__ xquilo | value | style | "(qa- before a vowel)": the same misreading of direction. | "(the form of qa- before a vowel)". |
+| __broaden__ car | value | style | "not 'fish' here": pinned, and a negation rather than a meaning. | "kar — (inferred) k- 'ongoing' + r- 'he', run onto the verb aj …". |
+| __broaden__ vi | value | style | Third reading not in the format. | "wi — part of wikiq'ab' 'right (hand)' (inferred), written apart …". |
+| __broaden__ ba | value | style | "here perhaps pointing": pinned. | "b'a — (inferred) pointing, 'over there, look', after chila' 'there'". |
+| __broaden__ bi | dropped | style | 'our name' after qa is the same sense as the entry's 'name' ('their name' after ki); not a new reading. | Removed. |
+
+### Refused / left
+
+- **Glosser's other broadenings kept** (cab, vcab, cumal, xquilo, vvb, pu 'in', car, xa 'you (did)', chu 'he', cha 'at
+  your', vi, vaih 'hunger', cul 'coat', ꜩac, rico, ba): each is a sense the entry lacks and the units use.
+- **No broadening for** `ꜭahol` 'boy' in address (007 pass 2 refused the same), `chi` joining a number to a noun (`e
+  caib chi ꜭaholab`; the entry's 'with, of' is near enough and the l brackets it), `qui` in `qui paqueic` and `chu` in
+  `xel chu vloc` (unexplained and unrendered in the units; a gloss would be a guess on a guess), `cabracan` "younger son"
+  (= the second son, as the text says).
+- **`cabrracan` gloss "younger son"** kept, to match the glossary's cabracan.
+- **Brasseur's k (= q) in `u chek`, `bikitahie`, `chakou`, `chakatahic`**: left. vchec, biquitahic and xchacou are
+  respelled letter for letter (uncertain words); chacatah- follows 004–007 (chakataj).
+- **Unit 36 `qui couic` kowik** against 006's icouic ik'owik, though the note links them: kept, since the note calls the
+  link inferred and Ximénez's plain c is respelled, as 007's ecouic ekowik.
+- **Unit 41 note "Brasseur has Ch'y gama"**: the OCR has `дата`; the reading g is plain from the shape and agrees with
+  his French; left.
+- **Unit 15 l "Seven Macaw"** for Vvcub Caquix: as in 005–007 l.
+- **The about**: re-checked against the units; no change.
+
+### For QUESTIONS.md
+
+1. Pass 1's six points stand.
+2. **The climbing verb acan** is now aq'an in 008 as in 004–006, although Brasseur writes k (= q) here and in 005–006
+   (x-akanic, c'akanic; ch'akan, akan-oc, as those notes say). The modern word is aq'an; the owner may want to confirm that the modern word,
+   not Brasseur's letter, decides here (the same question as 007's rixk'aq).
+3. No new house rendering in this part.

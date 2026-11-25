@@ -70,3 +70,30 @@ Counts: 2 major, 9 minor, 2 style.
 - New lemmas: biꜣ, btn, bḥnt, imy-wrt, ipn, isk, mḥyt, ptḥ, rwd, srf, swt (the particle; note that the house's swt elsewhere is Seth, under stẖ), sḫmt, wnš, wḥꜥ, wꜥrt, šwyt (light (?) · a second word of the same spelling: shade, shadow), ḫꜣḫ, ṯsm, ꜥqy, š-nsrt.
 - To broaden: nwt (+ bonds (?); + a weapon or tool (?)), sꜣḥ (+ Sah, Orion), ny (check that it covers nt), ḫr (+ 'from', with persons), rd (+ rtw, 'thigh (?)').
 - Pass 2 should re-read U5 and U16 as wholes, the two least certain passages.
+
+## Pass 2
+
+Both files were edited by script (`review2_023024.py` in the reviewer's scratchpad). Each old value was asserted before it was replaced. The glosser had worked from the units as they stood before pass 1, so the lemmas were reconciled after the edits. Checks re-run after the edits: the 647 signs equal the packet, morph covers each glyph once, det tr is empty, O34 carries z, and there are no Budge-isms. Every morph lemma in units.json is now a key of known-lemmas.json or of gloss.json, and gloss.json has no unused keys. Every `__broaden__` entry starts with the known entry copied exactly, followed by " · ".
+
+Counts: 1 major, 7 minor, 2 style.
+
+### Changes (gloss.json)
+- rwd · **major** · The entry repeated pass 1's error, "stative rwd 'are firm'"; in this text rwd stands before its subject. · It is now "to be firm, hard, strong (verb; a later spelling of rwḏ; Budge: ruṭ)".
+- __broaden__ šwt · minor · The lemma is no longer used, since pass 1 filed the word under šwyt. · The entry is removed, and its sense is moved into šwyt as "a second word of the same spelling: shade, shadow".
+- __broaden__ sꜣḥ · minor · The entry was missing, so the house gloss "toe" alone would have covered Orion. · Added: known entry · "a second word of the same spelling: Sah, Orion … (god's name; Budge: Saḥu)".
+- __broaden__ sgr · minor · The house has sgr only as a verb, but U16 uses the noun sgrw 'silence'. · The noun is added.
+- __broaden__ dmḏ · minor · The house sense "unite, join together" does not cover 'gather' in U13, U15 and U17. · 'gather, collect' is added.
+- imy-wrt · minor · The glosser gave an invented literal sense, "the one on the great side". · It now reads "the west side, the West; first the starboard side of a boat (also written feminine, imt-wrt; Budge: àmt urt)".
+- swt · minor · The glosser invented the sense "'as for … indeed' (?)". · It is now the enclitic particle "but, however", and the entry notes that the same letters write Seth's name, which is filed under stẖ.
+- biꜣ · minor · The entry was tied to this passage ("the metal of the opening-of-the-mouth tools") and claimed too much. · It now gives a general sense.
+- wḥꜥ, ḫꜣḫ · style · Both entries carried remarks about this passage's sign coding. · The remarks are removed, so the entries are general to the lemma.
+- ipn, nwt broaden · style · Both entries were worded for this passage only. · They are reworded to be general to the lemma; nwt's "weapon" sense is marked doubtful.
+
+### Second read of units.json
+No further changes. Re-checked and kept:
+- U5 and U16 as a whole: their notes say plainly where the sense is unclear.
+- U17 `l` "him-whose(-is)-it": it matches the note's reading, and it is marked uncertain.
+- U9 `i` "every spell" for ḥkꜣ nb, which `l` gives as "magic · all": the sense is the same.
+- U12 rdi … n 'given to': Budge's 'made into' is given in the note.
+
+The other glosses (ptḥ, sḫmt, wꜥrt, wnš, bḥnt, btn, ṯsm, ꜥqy, mḥyt, š-nsrt, isk, srf, and the rd, ḫr and r broadenings) match the text and the house style, and the names carry Budge's spelling.

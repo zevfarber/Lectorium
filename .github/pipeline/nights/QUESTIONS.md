@@ -2223,3 +2223,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - **السعيدان / السعيد ان in the night formula.** The adjudicator reports the print sets it solid; both passes split it on P865L19, P867L08, P868L11 (undisputed, left as the passes wrote it) and the disputed P870L18 was ruled solid. Earlier archives are also mixed. Decided meanwhile: no hand change; a publishing run reads the formula the same either way.
 - Misprints recorded as printed, for emend.json at publishing: P869L18 فزير (for غزير), P872L13 بعانيتها (for بعافيتها, low confidence), P872L16 شوتها (for شوقها).
 - Nothing waits on the owner.
+
+## Night 201 (P864L13–P865L17, published 2026-11-25)
+- Library label: `Night 201 · Qamar al-Zamān, continued`.
+- Misprint corrected (emend.json): P864L18 عظهما→عظمهما.
+- Kept as printed, with notes: ثلٰثة (dagger alif printed), مازالا, مانريد and ماسلا set solid, ما ذا split, نعم ما apart; نجر of bones (read 'hacked'; a slip for another verb possible); سائرين plural for dual; مقطّعا/عليه singular for two garments; اخذنا بها منه الاذن (bi- of time); verse فَاسْتَوْجِبُ with ḍamma, الرِّضَى, هَاجِرِيْ, تُبْدِى.
+- Nothing to decide. Nights 202–204 are complete and unpublished.

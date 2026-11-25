@@ -2194,3 +2194,12 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - No misprints corrected. Verse P859L13–P860L11 copied as printed; kept with notes: رُمِيْْتَ (two sukūns, read rumīta), شَجِي after ذا read for the noun shajā, لِحَاظُ nominative after لٰكِنَّ, اِنِّي with kasra after تحسبوا, خِضَابُ without tanwīn, مُتَّهِمِي read as "accuser", الْفَضْلَ accusative after قلت, وَاعْجَمِ with bare alif, tanwīn on Luqmān, Yūsuf, Dāwūd, Yaʿqūb, Yūnus and Ayyūb. Prose: صغى with ى (ṣaghā), قمرالزمان and شهر زاد spaced as printed.
 - Shared glossary: الْفَضْلَ (only the name al-Faḍl) and تَحْكِي (only "you tell") given the senses needed here.
 - Nothing to decide. Nights 198–200 are complete and unpublished.
+
+## Night 198 (P860L16–P862L03, published 2026-11-25)
+- Library label: `Night 198 · Qamar al-Zamān, continued`.
+- Misprint corrected (emend.json): P861L20 نطاوعه→فطاوعه.
+- P860L17 ان مرزوان قال لوالده يا ابي: the print gives Marzawān words that Night 197 gives to Qamar al-Zamān (to his father). More than one letter is involved, so kept as printed and explained in the note; not emended.
+- Kept as printed, with notes: يرمى (ى for ي), اسو حال (hamza dropped), علي يدي (ي for ى), فى, مابه and قرّعينك and قمرالزمان set solid, والسبعة قصور, فرحت الناس.
+- Shared glossary: الْجَوَّانِيَّةِ said the print marks the shadda; at P861L03 it is bare — note appended.
+- Open (for the owner, nothing waits): published nights write both li-llāhi (≈42×) and li-Allāhi (≈31×) in `tr`; this night uses li-llāhi. Meanwhile runs follow the majority li-llāhi.
+- Nothing else to decide. Nights 199–200 are complete and unpublished.

@@ -2260,3 +2260,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprints corrected (emend.json): P871L08 فرعت→فرغت, P872L13 بعانيتها→بعافيتها.
 - Kept as printed, with notes: P872L16 شوتها (not a word as printed; read 'her desire', likely شهوتها with hāʾ dropped, شوقها possible); P872L20 استهدى سرّ (read as استهدأ, 'his heart was at rest'; doubtful); verse عَظْمِ pointed ʿaẓm where the sense wants ʿuẓm 'greatness'; verse مِنْكَ masculine to a feminine eye; وصلبت in the later sense 'braced'; السعيدان, كادان, بعد كما, شهر زاد and verse يَاعَيْنُ/فَيَاكَبِدِي/مَاكَوَاكَ spacing as set.
 - Nothing to decide. Nights 206–208 are complete and unpublished; the next firings publish them.
+
+## Night 206 (P873L06–P874L22, published 2026-11-25)
+- Library label: `Night 206 · Qamar al-Zamān, continued`.
+- No letter misprints. P873L17 prints سنّية with the shadda on the nūn; the word is saniyya, so the pointing corrects it to سَنِيَّة and the note gives the print's form (rule 5b; bare letters unchanged, so no emend.json entry). The reviewer proposed keeping both shaddas and romanising sanniyya; not taken, as that reads a non-word.
+- Kept as printed, with notes: الهجن العشاري (ʿushārī uncertain), وحمل read Form II, هي واياه, اوصاه على, بنته, الكلاء, كلما for كل ما, فياترى, ما ذا, شهر زاد; verse الزَّمَان without case vowel and الْعَشْرَةِ pointed 'ten' where the sense is ʿishra 'companionship'.
+- Nothing to decide. Nights 207–208 are complete and unpublished; the next firings publish them.

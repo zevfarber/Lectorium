@@ -2203,3 +2203,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Shared glossary: الْجَوَّانِيَّةِ said the print marks the shadda; at P861L03 it is bare — note appended.
 - Open (for the owner, nothing waits): published nights write both li-llāhi (≈42×) and li-Allāhi (≈31×) in `tr`; this night uses li-llāhi. Meanwhile runs follow the majority li-llāhi.
 - Nothing else to decide. Nights 199–200 are complete and unpublished.
+
+## Night 199 (P862L04–P862L21, published 2026-11-25)
+- Library label: `Night 199 · Qamar al-Zamān, continued`.
+- No misprints corrected. Kept as printed, with notes: السعيدان set solid, عند هما split, بماجري (solid, ي for ى); verse صَدِيْق printed without tanwīn (read ṣadīqun for the metre); وردت read passive ruddat (raddat possible).
+- Shared glossary: فَرْحَتِهِ gave the verb's form faraḥa for the noun farḥa; corrected.
+- Nothing to decide. Night 200 is complete and unpublished.

@@ -11,7 +11,7 @@
 | popol-vuh-006 | Vucub Caquix loses his teeth and dies; Zipacna and the four hundred boys | fols. 7v–9r | published |
 | popol-vuh-007 | The four hundred boys die; the crab made to trap Zipacna | fols. 9r–10v | published |
 | popol-vuh-008 | Zipacna turned to stone; the boys lure Cabracan with a roasted bird | fols. 10v–12r | published |
-| popol-vuh-009 |  | LoC images 0033–0035 | todo |
+| popol-vuh-009 | The fathers of Hunahpu and Xbalanque; the lords of Xibalba | fols. 12r–13r | established |
 | popol-vuh-010 |  | LoC images 0036–0038 | todo |
 | popol-vuh-011 |  | LoC images 0039–0041 | todo |
 | popol-vuh-012 |  | LoC images 0042–0044 | todo |

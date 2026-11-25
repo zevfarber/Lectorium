@@ -26,7 +26,7 @@
 | ani-018-introduction | Spell 18 — the introduction | Budge pp. 71–73 | published |
 | ani-018-a | Spell 18, first half | Budge pp. 74–78 | published |
 | ani-018-b | Spell 18, second half | Budge pp. 79–82 | published |
-| ani-023-024 | Spells 23 and 24 | Budge pp. 83–87 | todo |
+| ani-023-024 | Spells 23 and 24 | Budge pp. 83–87 | established |
 | ani-026-030b | Spells 26 and 30B | Budge pp. 88–91 | todo |
 | ani-061-054 | Spells 61 and 54 | Budge pp. 91–96 | todo |
 | ani-029-027-058-059 | Spells 29, 27, 58 and 59 | Budge pp. 97–104 | todo |

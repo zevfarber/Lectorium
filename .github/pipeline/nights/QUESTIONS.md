@@ -2209,3 +2209,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - No misprints corrected. Kept as printed, with notes: السعيدان set solid, عند هما split, بماجري (solid, ي for ى); verse صَدِيْق printed without tanwīn (read ṣadīqun for the metre); وردت read passive ruddat (raddat possible).
 - Shared glossary: فَرْحَتِهِ gave the verb's form faraḥa for the noun farḥa; corrected.
 - Nothing to decide. Night 200 is complete and unpublished.
+
+## Night 200 (P863L01–P864L12, published 2026-11-25)
+- Library label: `Night 200 · Qamar al-Zamān, continued`.
+- No letter misprints. P863L05 فزينّت: the print's shadda sits on the nūn; moved to the yāʾ (فَزُيِّنَتِ), note gives the print's placement (marks only, Night 196 precedent; no emend entry).
+- Kept as printed, with notes: السعيدان, ياسيدي, لايقدر, اريدان, لاتبت, الاليلة, غدتأتي, الابك, وامران set solid; انك + imperative استأذن; اننا ندبر; ولا تخلي; الف يوم مبارك الذي قواك (الذي without antecedent; read as a blessing on whoever healed him); verse بِسَاطُ nominative, سُلَيْمَانِ with kasra, فَدَيْتُكُ, اَلَيْكَ, bare عَذَاب, فَاصْلَى without hamza.
+- In verse, tr gives the reading (fadaytuka, ilayka) where the print's vowel is impossible, but follows the print where it is merely irregular (bisāṭu, Sulaymāni). Noted for consistency; nothing waits.
+- Nothing to decide. Night 201 is not yet complete (tail unread); the next firing transcribes.

@@ -53,3 +53,7 @@ Decided meanwhile: published with the pinned numbering (2437b, 2455 on "Grado", 
 1. [fonta] [mio] (v. 2569): the establishing run bracketed two italic words either side of the caesura separately; whether Pidal means one restoration is not certain. Decided meanwhile: pinned text kept; the note flags it.
 2. darvos e mulas (v. 2572): read e = he (split future, as darvos he at 2568, 2575); 'and' possible. Decided meanwhile: the future reading in `l`/`i`, the alternative in the note.
 3. Title: the part name in parts.json said "Jimena"; every earlier title and `i` uses "Ximena". Decided meanwhile: published as "Ximena's farewell".
+
+## 2026-11-25 · cid-tiradas-128-130 · readings without a Pidal note (Run 4)
+1. [a nombre] (v. 2705), caños (2695), çinchas corredizas (2736), nol torna recabdo (2756): Pidal's footnotes are silent. Conventions list his *Vocabulario* (1908–11) as an aid, but it is not in `source/`. Decided meanwhile: readings from context ("in plenty", "caves", "running girths", "neither could help the other"), each marked uncertain in its note. If the owner adds the Vocabulario scan, these can be settled.
+2. Griza / Álamos / Elpha (2694–95): no Pidal note; the glosser's unsourced "Ariza" identification was removed. Decided meanwhile: names left unidentified, said so.

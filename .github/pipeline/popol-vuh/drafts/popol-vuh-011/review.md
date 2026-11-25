@@ -118,3 +118,100 @@ Counts: **major 0 · minor 3 · style 9** (12 rows).
    `zima` the plain z.
 5. **For the establisher:** Brasseur's OCR here reads `PuchakChah` (22605) and later `Pucbal-chah` (22706). The pinned
    text has Pucbal Chah, so nothing changes, but the log's "B. Pucbal-chah" holds only for the second.
+
+## Pass 2
+
+Reviewer pass 2 (adversarial), 2026-11-25. I read conventions.md (all, with the house table and "The modern-letters
+toggle"), runbook.md ("ACTION draft"), ../run3/RUNBOOK.md §2, QUESTIONS.md, packet.md, units.json after pass 1, pass 1
+above, gloss.json, novel-forms.json / known-forms.json, popol-vuh-001…010.json, popol-vuh-glossary.json and the 010
+review's Pass 2. For meaning I used only Brasseur 1861 (OCR 22480–22760, his note on cha at 22402–22422, the
+introduction at 8700–8735 and 9820, the Pucbal-chah note at 9061) and the published files. I opened no modern
+translation and recalled none. All edits were made by script (json load/dump, ensure_ascii=False, indent=1). No `t`
+or `mt` was changed, and no unit was added, removed or moved.
+
+**Fresh pass on units.json.** I went through all 31 units again: grammar labels against the forms, original → `l`
+word by word, `l` ↔ `i`, remembered English, couplets, and the house renderings (Vꜩ bala "Very well", at ahau "lord",
+chuꜭhaxic, names). By script I compared every mt with 001–010. The only forms that differ from a published mt are
+Xcat xq'at and vchac uchaq', both argued in their notes; every other multi-valued form fits its sense here. Each novel
+mt is a letter-for-letter respelling, except the restorations that pass 1 ruled on (tz'apim / tz'apin, k'iso, q'apoj,
+uchaq', xq'at, sik'), which are certain words with published or Brasseur support. Every Brasseur attribution was
+rechecked against the OCR. They hold: 'il a suffi de mentionner les noms', 'on vous tranchera (dans la poitrine)',
+'votre souvenir demeurera enseveli', '(le corps de) l'aîné … son jeune frère', 'se couvrit aussitôt de fruits',
+'également rond tout autour', 'de la même espèce', 's'interdisant mutuellement et se défendant', the calabash note
+('qu'on appelle tzima en quiché'), the count of nine (introduction and the note at the trials), and both cha / chay
+sources as pass 1 corrected them. Every doubtful reading in the establishment log is flagged in its unit. I found
+nothing major in the units: three small fixes.
+
+**gloss.json.** Every novel form has an entry, and its key is exactly the novel form. By script, the modern form of
+every entry equals the final mt for that word in units.json (all 55 forms match exactly). I read every value against
+the final notes, and 14 entries were corrected. Broadenings: by script, every value starts with the published entry
+exactly, then " · ". Of pass 1's list, cac was missing and has been added. ha (ja 'house' already in the entry) and
+co (k'o 'there is' already in the entry) are covered and were not added. chire and chul were dropped as not needed.
+
+Afterwards: JSON parses; len(mt) == WORD_RE count for all 31 units; the units' `t`, joined with a space, equal the
+packet's 12 paragraphs exactly; every novel form has a gloss entry; all 14 broadenings begin with their published entry.
+
+Counts (pass 2): **major 0 · minor 9 · style 14** (23 rows).
+
+### Changes
+
+| unit / entry | field | sev. | what was wrong | what was done |
+|---|---|---|---|---|
+| gloss `xvꜭhax` | value | minor | The entry read "they were spoken to … without the plural e; singular form", which contradicts itself. | "was spoken to, was asked; x- + vꜭhax (ch'a + passive -x, as in xe vꜭhax 'they were told'), here without the plural e-", in line with the published vꜭhax entry. |
+| gloss `quizo` | value | minor | The entry gave the form as "we finished it". The 'we' is in xca, not in quizo. | "finish it, use it up; k'is + -o …", with xca quizo given as the example. |
+| gloss `caracoh` | value | minor | It gave 'rattling', the same reading as xuruxuh. But the English leaves cac caracoh out, and the note gives 'rattling' to the zac xuruxuh phrase. | Changed to "a sound word, not otherwise known; in cac caracoh, a doubtful phrase left out of the English (Brasseur zakcaracoh)". |
+| gloss `chaim` | value | minor | "'Blade House' … (Brasseur 'house of the fighters')" did not match `i` ("House of Blades (?)"). It also left out Brasseur's introduction, the real support for the reading, and did not say that -im is unexplained. | Changed to 'House of Blades (?)' with -im (unexplained), the introduction's 'la Maison des Lances d'Obsidienne', and his French here. |
+| gloss `vevah` | value | minor | The entry had "(guess) be hidden", where the note says inferred and analyses the form as v- 'it' + eu 'hide' + -ah. | Changed to "(inferred) hide, be hidden", with the note's analysis (euaxibal, perhaps v- 'it') and Brasseur's 'enseveli'. |
+| gloss `caiih` | value | minor | The entry gave "they look at it", but the 'they' is qui. | Changed to "look at (it); in qui caiih 'they look at it'", with Brasseur's French. |
+| broaden `cac` | added | minor | Pass 1 asked for this one and it was missing. The published entry has Brasseur's 'fowl' and 'fire', and neither fits here: this is a doubtful reading, where Brasseur has zak. | Added "kak — (doubtful reading) before caracoh, where Brasseur reads zak 'white'; perhaps a slip for zac; left out of the English". |
+| broaden `chire` | removed | minor | "to it (chire vacamic 'we call it today')" is not a new sense, since the published "to him, to her" already covers it. The example also mistranslated chire vacamic. | Dropped. |
+| broaden `chul` | removed | minor | "they come here … plural subject" was not needed. The person is unmarked, and the note itself takes ronohel Xibalba as a singular collective (rilo 'he sees it'), which the published "he comes here (narrative)" covers. | Dropped. |
+| 18 | n | style | "Chi ya 'let (it) be given'" was passive, but `l` has "Let give" and `i` has "Put". | "Chi ya 'let (them) put': chi (optative) + ya 'give, put'". |
+| 8 | n | style | "bi 'say'" did not match the published b'ij / biyh. | Changed to "bih 'say'". |
+| 14 | i | style | "Here your faces shall be hidden away." had no mark, though vevah is only inferred (the gloss had it as a guess). | Added "(?)". |
+| gloss `xuxulim` | value | style | Brasseur was quoted loosely ("the shivering of the wind"). | Quoted exactly, with the French, as unit 1 now does. |
+| gloss `xhe` | value | style | "'that went to be given'" read as Brasseur's French. The gloss is ours. | Reworded: "read 'went' … after Brasseur, who reads x-be". |
+| gloss `roo` | value | style | It stated 'five' as fact. | Changed to "taken as 'five' from its place in the list (inferred)", as in unit 6. |
+| gloss `ꜩapim` | value | style | The m / n spellings were not noted, though pass 1 asked for them. | Added "also written ꜩapin". |
+| gloss `chaꜫol` | value | style | It did not say that Brasseur's k is q, so his reading does not support the tresillo. | Added. |
+| gloss `vnimal` | value | style | It was tied to the line ("the elder's body without the head"). | Made general: it is the nimal 'greatness' of earlier parts, set against vchac 'his younger brother'. |
+| gloss `xuta` | value | style | It was pinned to 'she'. | Changed to "he heard it, she heard it". |
+| gloss `balami` | value | style | The morphology was garbled ("+ -i, noun + -i + ja"). | Changed to "b'alam + -i, joined to ja 'house'". |
+| broaden `cha` | value | style | It read "in … Chaim Ha", but Chaim is another token. 'blade' was not marked inferred. | Changed to "(inferred) blade, obsidian edge, as the arrow point above (chi cha 'of the blade')". |
+| broaden `chah` | value | style | It said "Brasseur takes it as 'ash'" without the source. | Gave the source: 'le Cendrier' and his note's chaah 'ash'. The torch is kept as the letter reading. |
+| broaden `xcat` | value | style | It gave a line-pinned example, and "plain c for ꜫ" asserted the letter. | Example dropped. Changed to "plain c where Brasseur has g (ꜫ)". |
+
+### Refused / left
+
+- **Unit 21 i "which we still call today"**: I agree with pass 1 and kept it.
+- **Unit 10 xvꜭhax and the unexplained v**: kept. The published vꜭhax entry analyses it as u- + ch'a + -x. Brasseur's
+  x-euchax / x-e uchaxic suggest the u belongs to the stem, but nothing here settles it.
+- **Unit 27 quil kil**: kept letter for letter. Brasseur's gil (= ꜫ) may point to q'il 'hold back', but the word is not
+  certain from this text, so the mark is not supplied.
+- **Unit 25 huzu → jusuk**: kept with 002/008/010. The shared-c explanation does not apply before xubanic (008's
+  question 10 again).
+- **Unit 17 i "only the body of the elder"**: kept as pass 1 did. vnimal is the kin word 'elder', paired with vchac.
+- **The about's "at once"**: kept. huzu (unit 25) gives the suddenness, so the summary may use it.
+- **Unit 6 Roo 'fifth'**: kept with its "(inferred)". No source here explains the form.
+- **Glossary values with examples in parentheses** (teu, vcah, humah): kept. The published glossary does the same.
+- **Broadenings ha, co**: not added. The published entries already give ja 'house' and k'o 'there is'.
+
+### For QUESTIONS.md (pass 1 and pass 2 combined; decided meanwhile as above; nothing blocked)
+
+1. **Proposed renderings, not added to the house table meanwhile:** Balami Ha 'the Jaguar House', Ꜩoꜩi Ha 'the Bat
+   House', Chaim Ha 'the House of Blades (?)' (Brasseur's introduction: 'Maison des Lances d'Obsidienne'), Xuxulim Ha
+   and Pucbal Chah kept as names (Brasseur 'le Cendrier'), zima 'the calabash', hun capoh 'a maiden'.
+2. **The written letter against the modern word, a new kind:** ꜩoꜩ (modern sotz') and zima (modern tz'ima') would need
+   a letter replaced, not a mark supplied. Decided meanwhile: letter for letter (tzotz, sima), as with 010's zimah and
+   ziban. If the owner prefers the known word, these change together.
+3. **Same letters, two words:** uchaq' 'younger brother' against 006's uchak 'its work' (vchac); xq'at 'cut' against
+   010's xk'at 'burned' (xcat). Both rest on Brasseur's g and the sense. This is the same question as 006/009's q'at
+   and 007's rixk'aq.
+4. **Unrestored marks where Brasseur has g:** quil kil (B. gil, perhaps q'il 'hold back'); the dig and take verbs of
+   earlier parts are the same kind of case. Decide together with point 3.
+5. **xvꜭhax / vꜭhax:** the v is analysed as u- (published entry). Brasseur's x-euchax / x-e uchaxic suggest a stem
+   uch'a(x). This is open.
+6. **huzu → jusuk** before a word without c (here, and 008 question 10).
+7. **The glossary:** cac broadened for the doubtful cac caracoh. chire and chul were not broadened (covered).
+8. **For the establisher:** Brasseur's OCR reads `PuchakChah` (22605) and later `Pucbal-chah` (22706). The log's
+   "B. Pucbal-chah" holds only for the second; the pinned text is unaffected.

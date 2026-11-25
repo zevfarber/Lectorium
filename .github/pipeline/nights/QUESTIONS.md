@@ -2254,3 +2254,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - **Both passes read most prose lines on PDF 896, 898 and 900 from the bands, not the crops**, so shared errors would not show as disputes. The adjudicator re-read those lines against the crops and found two shared misses (P878L15 يا لَله fatha, P878L08 verse فِيْ sukūn), both fixed by verdict.
 - Misprints recorded as printed, for emend.json at publishing: P875L02 ليبصرة (for ليبصره), P876L19 تمر الزمان (for قمر), P878L13 تجدة (for تجده), P879L02 ومازات (ل damaged or missing; for ومازالت), P879L10 الآنبوس (for الآبنوس), P880L06 لم أامن (for آمن), P880L08 الآ ان (spurious madda on الا).
 - Nothing waits on the owner. Nights 205–208 are complete and unpublished; the next firings publish them.
+
+## Night 205 (P870L17–P873L05, published 2026-11-25)
+- Library label: `Night 205 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P871L08 فرعت→فرغت, P872L13 بعانيتها→بعافيتها.
+- Kept as printed, with notes: P872L16 شوتها (not a word as printed; read 'her desire', likely شهوتها with hāʾ dropped, شوقها possible); P872L20 استهدى سرّ (read as استهدأ, 'his heart was at rest'; doubtful); verse عَظْمِ pointed ʿaẓm where the sense wants ʿuẓm 'greatness'; verse مِنْكَ masculine to a feminine eye; وصلبت in the later sense 'braced'; السعيدان, كادان, بعد كما, شهر زاد and verse يَاعَيْنُ/فَيَاكَبِدِي/مَاكَوَاكَ spacing as set.
+- Nothing to decide. Nights 206–208 are complete and unpublished; the next firings publish them.

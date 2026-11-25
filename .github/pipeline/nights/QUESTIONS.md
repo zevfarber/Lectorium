@@ -2266,3 +2266,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - No letter misprints. P873L17 prints سنّية with the shadda on the nūn; the word is saniyya, so the pointing corrects it to سَنِيَّة and the note gives the print's form (rule 5b; bare letters unchanged, so no emend.json entry). The reviewer proposed keeping both shaddas and romanising sanniyya; not taken, as that reads a non-word.
 - Kept as printed, with notes: الهجن العشاري (ʿushārī uncertain), وحمل read Form II, هي واياه, اوصاه على, بنته, الكلاء, كلما for كل ما, فياترى, ما ذا, شهر زاد; verse الزَّمَان without case vowel and الْعَشْرَةِ pointed 'ten' where the sense is ʿishra 'companionship'.
 - Nothing to decide. Nights 207–208 are complete and unpublished; the next firings publish them.
+
+## Night 207 (P875L01–P876L17, published 2026-11-25)
+- Library label: `Night 207 · Qamar al-Zamān, continued`.
+- Misprint corrected (emend.json): P875L02 ليبصرة → ليبصره.
+- Kept as printed, with notes: يالَلّٰه العجب ان read yā la-llāhi! al-ʿajabu anna (inna possible); البلاد العمار read al-ʿamār (ʿimār/ʿummār possible); verse وَصَمَمْتُهُمْ 'deaf to them' or 'stopped them up'; verse لَا تُبْقِي indicative read as statement; وحسّ, ساخت روحه, جريتي/مشيتي, تعبانا, مرق, الهنا, لحّ flagged as later usage; run-together وطاربه, الجوفنام, وارادان, شهرزاد kept as set.
+- Nothing to decide. Night 208 is complete and unpublished; the next firing publishes it.

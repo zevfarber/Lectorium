@@ -95,3 +95,51 @@ Known lemmas whose entry is too narrow for this part (for `__broaden__`):
 - `ḫr`: only the verb 'fall' and the preposition. U28 has the particle ḫr, which brings in a further case or a consequence (here written with T28 ẖr).
 - `bꜣby`: add "also written bby, without ꜣ (Budge: Bebi)".
 - `ḫnr`: add the passive ḫnr·tw '(things) are shut away (?)' only if pass 2 thinks the entry needs it; the general sense 'shut in' covers it.
+
+## Pass 2
+
+All edits were made by script (`review2_018b.py` in the reviewer's scratchpad). The script asserts each old value: entries must match exactly, text replacements must match exactly once, and glyphs are checked by sign, role and tr. It writes units.json and gloss.json with json.dumps(ensure_ascii=False, indent=1) and no trailing newline. No glyph code was touched. After the edits, pass 1's checker (`check_018b.py`) confirmed the same points as before: the 1130 signs are in order, the rubric flags and `ln` match, morph coverage is exact, det/tr are correct, `q` is unchanged outside the five joins (which are correct), and there are no Budge-isms. A further check of gloss.json confirmed:
+- every morph lemma is in known-lemmas.json or in gloss.json (none missing, none unused);
+- every new entry starts "lemma — ";
+- every `__broaden__` value starts with the known entry verbatim, followed by " · ".
+
+The coordinator asked about three entries:
+- itrty: the reading in the units (i t r t y with two shrine classifiers) is the usual spelling of 'the Two Shrines', so the entry and U22's note agree. Budge's 'two regions' is kept only as his rendering.
+- isdn: now matches the pass-1 note on U4.
+- the ḥr broadening ('with', of the cause of a feeling: ḥtp ḥr·s): kept. It is exactly U22's use.
+
+Counts: 0 major, 4 minor, 8 style.
+
+### Changes
+
+- gloss `·f` (broaden) and U20 ꜥwy·fy · gloss, reading, say, glyph role, n · minor · The glosser called ·fy "the dual form" of ·f, "agreeing with a dual noun". The U20 note said the same ("the suffix made dual to agree with the arms"), and pass 1 refused to change it. That was wrong: Egyptian has no dual of the 3rd masculine singular suffix. The two strokes after ·f are the dual strokes of ꜥwy written again, and they are not read. The house writes this word ꜥwy·f (ani-017-f U6). The fix:
+  - reading `ꜥwy·f`, say `awyef`, the last Z4 `det` '' (still in the ·f morph);
+  - the note now says that the strokes are repeated and not read, and that the suffix is still ·f 'his';
+  - broaden: "· after a dual noun sometimes followed by the two strokes of the dual, which are not read (ꜥwy·f 'his two arms')".
+- gloss `ḫr` (broaden) · minor · "a third word of the same spelling" was wrong, because the particle is a different word and is here not written the same way. "not translated" and "written with the block ẖr" described this line only, not the lemma · "· a third word: the particle ḫr, which brings in a further case or a consequence (?) (particle; sometimes written ẖr)".
+- U10, U25 ꜥ after m-bꜣḥ · morph gloss · minor · Without its own gloss, the build would show 'arm, hand' for a sign that the notes leave unexplained and `l` shows as "(ꜥ)" · added an occurrence gloss: "ꜥ — the arm sign, written after m-bꜣḥ 'in the presence of'; not explained, perhaps part of a fuller writing of the preposition (?)".
+- gloss `iry` (broaden, new) · minor · U26 irt·f and U29 iry·f use iry as an adjective 'belonging to', with a feminine irt. The known entry gives only the noun 'one who belongs to, keeper of' · added "· also as an adjective, 'belonging to, pertaining to' (feminine irt; irt·f 'which belongs to him')".
+- gloss `isdn` · style · "who with Thoth, Osiris and Anubis sits in the court" was tied to this line · "a god of the tribunal that judges the dead; perhaps a form of the name of Isdes (?)", as the U4 note now says.
+- gloss `itrty` · style · the spelling detail "written with two shrines as classifier" was cut. The label is now "noun f., dual".
+- gloss `mnty` · style · "written with the captive that classes people with enemies" was made general: "with the classifier of enemies".
+- gloss `nḏm` · style · "glad" and "of the heart" are not senses of nḏm itself · "to be sweet, pleasant (verb; nḏm ib 'glad of heart'; …)".
+- gloss `sštꜣ` · style · added "causative of štꜣ 'be secret'", as the house labels causatives.
+- gloss `wp-wꜣwt` · style · "who goes before Osiris" went beyond these parts · "a jackal god".
+- gloss `ḏrw` · style · "taken from ḏr" stated an etymology as fact · "side, flank (?) (noun; perhaps from ḏr 'limit, end'; …)".
+- gloss `mnt`, `ḏr` (broaden) · style:
+  - mnt: "written with a leg sign" becomes "with the leg as classifier";
+  - ḏr: the doubled hedge ("(?)" + "sense uncertain") and the invented derivation are replaced by "· also ḏri 'to put an end to, stop' (?) (verb; Budge: t'erà)".
+
+### Second read of units.json
+
+I made a full second read: `l` word by word, `i` against `l`, the grammar in every note, and consistency with the pass-1 edits. Nothing else needed changing:
+- U5 (ḫnr·tw), U28 (ẖr, wḏꜣ pw ir·n·f, šdd·w morph) and U29 (rr) agree in their glyphs, notes, `l` and `i`.
+- U8 and U20 now hang the infinitive on the one genitive n.
+- U27 `i` agrees with "being-pure(?)".
+- The rubric statements still stand on U27–U30.
+
+Refused:
+- U11 hꜣy is given no grammatical label: kept. Both a participle and a stative are possible, and the note does not claim either.
+- U9 `i` "the form" against `l` "forms-their": kept as the English idiom for iri ḫprw m.
+- gloss `šs` with V33: no broadening is needed. The known entry is general, and the sign is described in the U30 note.
+- gloss `ꜥwt`, `sft`, `bꜣby` (broaden), `ḥr` (broaden): kept as written.

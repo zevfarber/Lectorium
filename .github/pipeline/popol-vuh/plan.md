@@ -12,7 +12,7 @@
 | popol-vuh-007 | The four hundred boys die; the crab made to trap Zipacna | fols. 9r–10v | published |
 | popol-vuh-008 | Zipacna turned to stone; the boys lure Cabracan with a roasted bird | fols. 10v–12r | published |
 | popol-vuh-009 | The fathers of Hunahpu and Xbalanque; the lords of Xibalba | fols. 12r–13r | published |
-| popol-vuh-010 |  | LoC images 0036–0038 | todo |
+| popol-vuh-010 | The owl messengers; the fathers go down to Xibalba | fols. 13r–14v | established |
 | popol-vuh-011 |  | LoC images 0039–0041 | todo |
 | popol-vuh-012 |  | LoC images 0042–0044 | todo |
 | popol-vuh-013 |  | LoC images 0045–0047 | todo |

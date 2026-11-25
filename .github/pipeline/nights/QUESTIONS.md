@@ -2235,3 +2235,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - No misprints corrected. Kept as printed, with notes: علي for على (P865L20), مطلى (ى; read spoken maṭlī), فى, ثلثة, جاؤا, الرؤس (one wāw), مارأوا set solid; وترمي read subjunctive after the prohibition (indicative possible); باقلام المطالب loose in sense (noted); "he took the gear" said twice (P866L14–15), the narrator's repeat, not a misprint.
 - tr uses bi-Allāhi (house majority, ≈108 vs 6), not bi-llāhi.
 - Nothing to decide. Nights 203–204 are complete and unpublished.
+
+## Night 203 (P867L07–P868L09, published 2026-11-25)
+- Library label: `Night 203 · Qamar al-Zamān, continued`.
+- No misprints corrected. P867L14 prints انزل أ اتنا: a lone precomposed أ, then اتنا. Kept as printed (two tokens), pointed انْزِلِ أ أْتِنَا (the lone أ left unvowelled as the silent opening alif) and read iʾtinā, 'bring us'; the note says the reading is likeliest but not certain.
+- Kept as printed, with notes: شيٌ with printed tanwīn after ايّ (tr shayun, following the pointing); verse وَالْمَعْنِي and فِى; يدى with ى; زوّجته بها, يستعجل على, مسكه, الست, قدّام flagged as later usage; اطلعه 'brought him up'.
+- Nothing to decide. Night 204 is complete and unpublished; the next firing publishes it.

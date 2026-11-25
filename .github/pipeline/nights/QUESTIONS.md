@@ -2229,3 +2229,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprint corrected (emend.json): P864L18 عظهما→عظمهما.
 - Kept as printed, with notes: ثلٰثة (dagger alif printed), مازالا, مانريد and ماسلا set solid, ما ذا split, نعم ما apart; نجر of bones (read 'hacked'; a slip for another verb possible); سائرين plural for dual; مقطّعا/عليه singular for two garments; اخذنا بها منه الاذن (bi- of time); verse فَاسْتَوْجِبُ with ḍamma, الرِّضَى, هَاجِرِيْ, تُبْدِى.
 - Nothing to decide. Nights 202–204 are complete and unpublished.
+
+## Night 202 (P865L18–P867L06, published 2026-11-25)
+- Library label: `Night 202 · Qamar al-Zamān, continued`.
+- No misprints corrected. Kept as printed, with notes: علي for على (P865L20), مطلى (ى; read spoken maṭlī), فى, ثلثة, جاؤا, الرؤس (one wāw), مارأوا set solid; وترمي read subjunctive after the prohibition (indicative possible); باقلام المطالب loose in sense (noted); "he took the gear" said twice (P866L14–15), the narrator's repeat, not a misprint.
+- tr uses bi-Allāhi (house majority, ≈108 vs 6), not bi-llāhi.
+- Nothing to decide. Nights 203–204 are complete and unpublished.

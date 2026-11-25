@@ -50,3 +50,34 @@ Counts: 1 major, 10 minor, 2 style.
 - U15 sp sn unhyphenated: ani-023-024 (the latest part) writes "sp sn"/`sep sen`, the weighing scene "sp-sn". Left as the latest part has it.
 - U6 ꜥꜣwy say `aawy` (w before y): matches the house `awyi` for ꜥwy·i. Not changed.
 - U12 the D36 "classifier" of the second sḫm·i: it might be the forceful arm D40 in Budge's type. Codes are established, and the note already calls it another form of the classifier. Not changed.
+
+## Pass 2
+
+gloss.json was edited by script (`review2_026.py` in the reviewer's scratchpad). Each old value is asserted before it is replaced, and the draft's indent=1 is kept. The glosser worked in parallel with pass 1. Checks after the edits:
+- every morph lemma in units.json is a key of known-lemmas.json or of gloss.json;
+- gloss.json has no unused keys and no unused `__broaden__` entries;
+- every `__broaden__` entry starts with the known entry copied exactly, followed by " · ";
+- `check_026.py`, re-run, passes: the 617 signs equal the packet, morph covers each glyph once, det tr is empty, O34 carries z, rubric flags and `ln` are right, and no Budge-isms appear.
+
+units.json was re-read as a whole after the pass-1 edits. Notes, readings, `l` and `i` agree, and the grammar labels are consistent across units: the negatival complement is "written with t" in both U14 and U18, the srwd·n / ṯsw account in U9 matches its `l` and `i`, and ḫni·tw is filed under ḫnr. No further change was needed there.
+
+Counts: 0 major, 7 minor, 4 style.
+
+### Changes (gloss.json)
+
+- ḫni · minor · The entry was for a lemma no longer used: pass 1 files the word under ḫnr, which is already known ("to restrain, hold back, shut in"). · Dropped.
+- ꜣgy · minor · The entry said the word is "written with … the numeral 3". The 3 is Budge's papyrus-line numeral printed inside the group, not part of the word. It also said "not clear to me (?)", which is out of register. · "Agy, a stretch of water or a place in the world below, not otherwise known (place name; meaning unknown; Budge: Aḳi, 'the Lake of Flowers')".
+- tm · minor · "tm + infinitive negates it" was the wrong grammar: the negated verb follows in the negatival complement. The entry also merged tm 'be complete' into the negative verb as one sense. · Rewritten: "not to do, fail to (negative verb; the verb it negates follows in the negatival complement …)", with "to be complete, whole" as a second word of the same spelling.
+- šꜥt (`__broaden__`) · minor · The cake sense was added as "also …", which makes it a sense of 'slaughter'. It is an unrelated word. · "· a third word of the same spelling: a kind of cake or loaf (noun f.; with three grains as classifier; Budge: śetā)".
+- mꜣst · minor · "knee, thigh (?)": thigh is an invented sense. · "knee (noun f.; dual mꜣsty …)".
+- sḫnš · minor · "defame (?)" was an invented sense, and "sense taken from the causative" said nothing. · "to make foul, make stink (verb 4-lit.; causative of ḫnš 'stink'; Budge …)".
+- dwn · minor · "to raise up, rise" was given as a settled sense. It rests only on this passage and Budge's 'rise'. · "to stretch out, straighten; to raise up (?)".
+- ꜥm · style · The entry was tied to this line ("the spelling here is with the crossed planks …"); that belongs in the note, which says it. · "to swallow, eat (verb; Budge: àmu 'eat')".
+- šdn, qrf · style · The entries were tied to this line ("stative šdntt", "stative qrfy"). · Made general; the uncertainty is kept.
+- ḥn (`__broaden__`) · style · "with a plural subject, ḥn·n 'we hasten'" is not a new sense: ·n is its own morph. · Broadening dropped; the known entry stands.
+- r (`__broaden__`) · style · The example "nn … r 'not … from'" did not show the sense. · The example is now "ḫnr … r 'shut away from'".
+
+### Checked and kept
+
+- ḫwḫt, ḫwdt, srwd: correct and general. The doubts are marked.
+- The broadenings of iꜣby (iꜣbty 'eastern') and ꜥꜣ (dual ꜥꜣwy): correct.

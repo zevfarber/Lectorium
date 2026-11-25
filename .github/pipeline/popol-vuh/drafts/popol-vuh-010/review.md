@@ -121,3 +121,102 @@ Counts: **major 0 · minor 9 · style 12** (21 rows).
 5. **The 'go' verb (he, ho, hix):** Brasseur makes he ho-e 'that they go'. The glosser needs entries for all three.
 6. **For the glosser:** vxic 'wings' (units 11–12) broadens 004's uncertain entry; tem 'bench' broadens 'holding';
    pu 'in its' (pa + u, Brasseur) broadens 'in, at'; yaol here is the agent 'bearer', against the entry's 'given'.
+
+## Pass 2
+
+Reviewer pass 2, 2026-11-25 (a different reviewer from pass 1). I read conventions.md, runbook.md, ../run3/RUNBOOK.md §2,
+QUESTIONS.md, packet.md (text and establishment log), popol-vuh-001…009.json, popol-vuh-glossary.json, wordre.py, the
+009 review (its pass 2), pass 1 above, units.json as pass 1 left it, gloss.json, novel-forms.json and known-forms.json.
+For meaning I used only Brasseur 1861 (OCR lines 21900–22560, and 17567 / 34317 for Cavizimah) and the glossary. I
+opened no modern translation and recalled none. Every edit was made by script (json load/dump, ensure_ascii=False,
+indent=1). No `t` was changed, and no unit was added, removed or moved. Unit numbers are 0-based.
+
+Units: I went through all 76 again: grammar labels against forms, K'iche' → l word by word, l ↔ i, couplets, the house
+table, uncertainty labels, the establishment-log items (all covered, as pass 1 found) and the about. I re-checked every
+Brasseur claim in the notes against the OCR; all hold except the Cavizimah gloss (unit 39), which was shortened. I re-ran
+the MS form → mt comparison against 001–009 (same two deliberate departures as pass 1: qochoch, k'at) and then a letter
+check on every mt (no v, z, c or non-ch h left; one b' per MS b; one j per MS h outside ch/ꜭh). That check found two
+respelling slips pass 1 missed: `Cahulhut` → Kajulhut (an h left unrespelled) and `ziban` → siban (b without its ').
+
+Gloss: I checked all 119 entries and every `__broaden__` value against the units and the final mt, by script and by
+reading. Keys equal novel-forms.json exactly; every head equals the units' mt (compared lowercased); every broadening
+begins with the current glossary entry verbatim + " · ". I then compared every known form's use in 010 with its glossary
+entry (185 forms). Pass 1's four requests were open: the glosser broadened `tem` only, and not `vxic`, `pu` or `yaol`.
+The same check found six more known forms used in a sense the glossary lacks: `cha`, `zac`, `bala`, `choc`, `huracan`,
+`mi`, plus `cul` in a name. Several entries carried Sonnet errors: a false Brasseur attribution (`ho`), the claim pass 1
+had already removed from unit 64 (`puzu`), an invented form (`ajtzib'` in `ziban`), an invented root (`wal` in `valehic`),
+a wrong morphology (`toc` 'let them'), and person markers that belong to other words (`humuhub`, `oponic`).
+
+Afterwards: the JSON parses; len(mt) == len(WORD_RE.findall(t)) for all 76 units; the units' `t`, joined in order, give
+back the packet's 18 paragraphs exactly, and each paragraph is tiled by whole units; gloss keys == novel-forms keys
+(+ `__broaden__`), every head matches the mt, every broadening prefix checks. Final gloss: 119 novel forms, 19 broadened.
+
+Counts: **major 0 · minor 19 · style 15** (34 findings: units 7 (minor 4, style 3); gloss 27 (minor 15, style 12)).
+
+### Changes — units.json
+
+| unit | field | sev. | what was wrong | what was done |
+|---|---|---|---|---|
+| 70 | mt | minor | `Cahulhut` was given Kajulhut: the second h was left unrespelled (h → j). | Kajuljut. Gloss head changed with it. |
+| 32 | mt, n | minor | `ziban` was given siban: the b was not respelled b' (the rule respells every b; cf. ajtz'ib'enai). | mt sib'an; the note's "(siban)" → "(sib'an)". Gloss head changed with it. |
+| 62 | n | minor | "oponic 'they arrived there', with -ic at the end of the clause". It is not clause-final: pa Queꜫuma Ha follows. | "xe oponic 'they arrived there': opon + -ic, here kept before the place phrase pa Queꜫuma Ha." |
+| about | — | minor | "sent to the Dark House with a lit torch and a lit cigar each": after pass 1 made unit 68 "a single torch … each one's cigar", the about still gave each brother a torch. Also "Xmucane weeps" states Brasseur's French as the text's, where unit 34 marks quzquz 'grief' a guess. | "with a single lit torch and a lit cigar each"; "Xmucane is overcome with grief". |
+| 32 | n | style | "four verbs in -an": coton ends in -on. | "four verbs in -an (coton in -on)". |
+| 64 | n | style | "que 'them' + ca- 'we'": que is c- + e 'them' (the same relabelling 009 pass 2 made). | "que, c- (ongoing) + e 'them', + ca- 'we'". |
+| 39 | n | style | Cavizimah "'adorned calabash tree'": Brasseur (OCR 34317) has 'calebassier orné ou armé'. | Quoted in full: "adorned or armed calabash tree". |
+
+### Changes — gloss.json
+
+| key | field | sev. | what was wrong | what was done |
+|---|---|---|---|---|
+| ho | value | minor | "(ho 'let us go', after Brasseur)": Brasseur gives no such form (pass 1 corrected the same claim in unit 26); 'we' is inferred, unmarked. Head capitalised (Jo). | "jo — (inferred) we go, let us go; the verb 'go' (Brasseur names it Ho 'aller', with hin …, he …); the person 'we' is inferred". |
+| toc | value | minor | "(inferred) let them": toc is the end of petoc written apart (pet + -oc), not a word 'let them' (unit 28's note). | "toq — the end of petoq 'come' written apart …: the t of pet + -oq". |
+| puzu | value | minor | "puz, the word of sacrifice in earlier parts": the claim pass 1 removed from unit 64; the glossary's pus is 'sacred power (exact sense uncertain); often connected with sacrifice'. | Brought into line with unit 64. |
+| ziban | value | minor | "the tzib' … of ajtzib'": no such entry; the word is tz'ib' of ajtz'ib'enai (unit 32). Head siban. | "sib'an — … the tz'ib' 'write, paint' of ajtz'ib'enai, but written with the plain z …". |
+| ꜩuan | value | minor | "make music, play the flute; … tzu 'flute'": pass 1 removed 'flute' from i as an inference; the flute word is su (ajsu), not tzu. | "make music; … perhaps the su 'flute' of ajsu, though written with the tz ligature". |
+| valehic | value | minor | "from wal 'rise' + -ej + -ik": an invented root; the note gives only 'rise up' (inferred) after Brasseur. | "(inferred) rising up, getting up; not otherwise known, after Brasseur ('voulant se lever')". |
+| quiqui | value | minor | Not marked doubtful, though the note and the log call the reading (qui qui joined) doubtful. | Doubtful reading stated; Brasseur's chi quiqi-a given. |
+| cahulhut | value | minor | Head Kajulhut (see unit 70). | kajuljut. |
+| __broaden__ vxic | new | minor | Glossary: 'becoming' / '(uncertain) finery … or perhaps xik' wing; paired with vpuvac'. Units 11–12 read 'its wings'. Pass 1 asked; not supplied. | Added "uxik — (inferred) its wings; u- + xik 'wing' (modern xik'), after Brasseur ('des ailes') …". |
+| __broaden__ pu | new | minor | Glossary: 'also' / 'in, at'. Units 30, 37 read pu as pa + u- 'in its' (Brasseur's note). Pass 1 asked; not supplied. | Added "pu — in its, in the; pa 'in' + u- 'its' contracted …". |
+| __broaden__ yaol | new | minor | Glossary: '(inferred) given, giving'. Unit 69 reads the agent 'giver, bearer'. Pass 1 asked; not supplied. | Added "yaol — (inferred) giver, bearer …". |
+| __broaden__ cha | new | minor | Glossary: 'say' / 'at your'. Unit 65 reads cha 'flint (?)', arrow point (Brasseur's note). | Added "cha — (guess) arrow point, flint …". |
+| __broaden__ zac | new | minor | Glossary: 'white, light' / 'white dice'. Unit 16 reads xqui zac … qui ꜩih 'they made clear their word', a verb. | Added "saq — (inferred) make clear, speak out …". |
+| __broaden__ huracan | new | minor | Glossary: the Heart of Sky's name only. Units 10–11 use it as the owl's name 'One-Leg', which the text itself explains. | Added "Juraqan — One-Leg, in Juraqan Tukur 'One-Leg Owl' …". |
+| __broaden__ mi | new | minor | Glossary: 'now, just now'. Unit 35 l reads mi xbizonic 'do-not(?) grieve'. | Added "mi — (inferred) do not, before a verb …; the form is not clear". |
+| oponic | value | style | "they arrived there": 'they' is xe; and the clause-final -ic label (unit 62) does not fit. | "arrived there; opon + -ik, the ending of an intransitive verb". |
+| culibal | value | style | "from a root 'sit'": no root named or known. | "a noun of place in -ib'al, after Brasseur ('siège')". |
+| calem | value | style | "(perhaps c- + e 'they' + a verb)": that describes que, not calem; the doubtful letter not said. | Doubtful reading (looped l) stated; left out of the English. |
+| humuhub | value | style | "they roared": 'they' is xe. | "roar with laughter, burst out laughing; after Brasseur ('éclataient de rire')". |
+| ꜫaꜫa | value | style | "the letters of kaq 'red' respelled with the tresillo": kaq has no tresillo; unmarked as inferred. | "(inferred) red; a colour word in -a, written with two tresillos (Brasseur caka, 'rouge') …". |
+| eco | value | style | "the verb of ik'ow" stated as fact; the unrestored ejective unexplained. | "taken as the verb of ekowik and of ik'ow …; the ejective not restored". |
+| culic | value | style | Brasseur's k'ulic 'our arrival' option (unit 26) missing. | Added. |
+| tucur, quzquz, xyaic, cala | head | style | Heads capitalised (Tukur, Kuskus, Xyaik, Kala) from a sentence-initial mt; glossary heads of common words are lower case (e.g. k'atek'ut). | Lower-cased. |
+| __broaden__ tem | value | style | The glosser's "taken as a noun 'seat', not 'holding'" argues with the old entry and omits Brasseur. | "tem — (inferred) bench, seat; noun (qa tem 'our bench'), after Brasseur ('siège d'honneur'); tem is the modern word for a bench". |
+| __broaden__ bala | new | style | Glossary covers only Vꜩ bala; units 20 read quiꜩih bala 'truly indeed'. | Added "b'ala — (inferred) indeed; strengthens the word before it". |
+| __broaden__ choc | new | style | Glossary: 'let it enter; ch- (wish)'. Unit 34 is narrative ('it enters, came over'). | Added "chok — it enters, comes over (in narrative, not a wish) …". |
+| __broaden__ cul | new | style | The name Nuzivan Cul: the glossary's kul senses are 'it comes', 'coat', 'throat (in chi kul)'. | Added "Kul — (inferred) throat, gorge, in the name of the ravine Nusiwan Kul (Brasseur 'ma ravine de gorge')". |
+
+### Refused / left
+
+- **The glosser's other broadenings are kept**: ꜩihon 'lit', quic 'rubber', que qe 'us', cochoch qochoch, cat k'at, cah
+  qaj, a 'river', na 'first'. Each is a sense the entry lacks and the units use.
+- **No broadening** for ꜩac (Xꜩac qui ꜩih 'their word fell' is under 'fall'), oc 'already' (under 'yet, still', as 009
+  pass 2), chi 'for' in chi varabal (under 'at, in, to'), yao 'given' in xha yao (under 'give'), vtuquel 'only'
+  (under 'by itself, alone'), chaah 'game' (under 'play', as 009 pass 2), hal (under 'change').
+- **Unit 9 xe vꜭhaxic**: the note analyses vꜭhaxic without naming v-; left, as the glossary entry gives u- and 009 does
+  the same.
+- **Unit 21 l "We then (cu)"** for Oh na cu: the 'then' stands for na; left.
+- **Unit 2 opon**: Brasseur's text has `Qu'yx apon kuq`; the MS (established) has opon and the note's reading does not
+  depend on the vowel. Left; for the establisher (below).
+- **Pass 1's decisions all stand**: the restored ejectives, qochoch / k'at, the owl names translated in i, the split of
+  poy / aham che, the single torch, Ahalq'ana, "it-is-called" for chuꜭhaxic. I re-checked each against the OCR.
+- **The house table**: Vꜩ bala, poy / aham che, queꜫum, ahau, chuꜭhaxic, Hunhunahpu as written: all as pass 1 left them.
+
+### For QUESTIONS.md (decided meanwhile as above; nothing blocked)
+
+1. Pass 1's six points stand; its point 6 (the glosser's broadenings) is now done (vxic, tem, pu, yaol).
+2. **For the establisher** (Brasseur differs and the establishment log is silent; the MS is the text): ¶1 `Quix opon cuꜭ`
+   (Brasseur apon); ¶16 `rumal vi queꜩabal` (Brasseur rumal ri qu'etzabal, no vi); ¶3 `xe vlic, e cu tacal` (Brasseur
+   x-e ulic cu takal, no e). Worth a look at the image when 010 is revisited.
+3. No new house rendering in this pass.

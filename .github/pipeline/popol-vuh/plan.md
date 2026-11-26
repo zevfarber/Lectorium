@@ -15,8 +15,8 @@
 | popol-vuh-010 | The owl messengers; the fathers go down to Xibalba | fols. 13r–14v | published |
 | popol-vuh-011 | The houses of trial; the fathers die; the calabash tree | fols. 14v–15v | published |
 | popol-vuh-012 | The maiden Xquic and the skull in the calabash tree | fols. 15v–17r | published |
-| popol-vuh-013 |  | LoC images 0043–0047 | todo |
-| popol-vuh-014 |  | LoC images 0048–0050 | todo |
+| popol-vuh-013 | Xquic comes to the grandmother and the net of maize | fols. 17r–18r | established |
+| popol-vuh-014 |  | LoC images 0045–0047 | todo |
 | popol-vuh-015 |  | LoC images 0051–0053 | todo |
 | popol-vuh-016 |  | LoC images 0054–0056 | todo |
 | popol-vuh-017 |  | LoC images 0057–0059 | todo |

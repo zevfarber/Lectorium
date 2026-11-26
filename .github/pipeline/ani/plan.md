@@ -31,7 +31,7 @@
 | ani-061-054 | Spells 61 and 54 | Budge pp. 91–96 | published |
 | ani-029-027-058-059 | Spells 29, 27, 58 and 59 | Budge pp. 97–104 | published |
 | ani-044-045-046-050-093 | Spells 44, 45, 46, 50 and 93 | Budge pp. 105–110 | published |
-| ani-043-089-091-092 | Spells 43, 89, 91 and 92 | Budge pp. 111–117 | todo |
+| ani-043-089-091-092 | Spells 43, 89, 91 and 92 | Budge pp. 111–117 | established |
 | ani-074-008-002-009-132-010 | Spells 74, 8, 2, 9, 132 and 10 | Budge pp. 118–123 | todo |
 | ani-015-a | Spell 15 — the hymns, part 1 of 4 | Budge pp. 123–127 | todo |
 | ani-015-b | Spell 15 — the hymns, part 2 of 4 | Budge pp. 128–131 | todo |

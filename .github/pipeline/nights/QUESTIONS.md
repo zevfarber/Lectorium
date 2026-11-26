@@ -2285,3 +2285,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - **51 shared misses** were fixed by the adjudicator on lines the passes read from the bands (mostly sukun on long vowels in verse; also شهر زاد spaced at P883L01, السعيدان solid at P887L05, حيٰوة with upright alif at P887L20–21, matching P879L06).
 - Misprints recorded as printed, for emend.json at publishing: P881L03 مَذَا (for ماذا), P887L06 "على عليه" (على presumably for عدى; doubtful — keep and note). Low confidence: P881L05 عَلِقْتُهُمْ (type damaged; علقتهم from sense).
 - Nothing waits on the owner. Nights 209–211 are complete and unpublished; the next firings publish them.
+
+## Night 209 (P879L08–P883L01, published 2026-11-26)
+- Library label: `Night 209 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P879L10 الآنبوس → الآبنوس, P881L03 verse مذا → ماذا, P882L20 هذة → هذه.
+- Kept as printed, with notes: السعيدان run together (السعيد ان); لم أامن with printed hamza + alif for آمن; الخيّام with a printed shadda; تايه for تائه; الآ read illā; the name spelled حيوٰة (dagger alif over the wāw) on p. 880 and حياة on pp. 881–882; verse عَلِقْتُهُمْ (damaged type, likeliest reading); verse كَرَمُ ابْنُ زَائِدَةِ with nominatives where the sense wants acc./gen.; هنّوها, دعوا لها جميع الخلق, اضمر على flagged as later usage; stray و at P882L12 kept as set.
+- Nothing to decide. Nights 210–211 are complete and unpublished; the next firings publish them.

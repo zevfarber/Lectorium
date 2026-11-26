@@ -61,3 +61,33 @@ Counts: 0 major, 7 minor, 6 style.
 Lemmas used in morph that are not in known-lemmas.json: ꜣgb, ngg-wr, nḫt, ssn, wḏꜥ-ꜣꜥb, bkꜣ. Known entries to watch:
 - nḏm is glossed as the verb only. This part uses the adjective as a noun, 'the sweet one'. A broadening is suggested: "· also as an adjective used as a noun, 'the sweet one' (nḏm tꜣwy 'the sweet one of the Two Lands')".
 - sš already has 'nest', and wpi already has 'judge' (so the A2 classifier is covered). m-ꜥ, ny, ꜣt, ḏfꜣw, ḫsbḏ and sꜣw all cover this part as they stand.
+
+## Pass 2
+
+gloss.json was edited by script (`review2_061.py` in the reviewer's scratchpad), and units.json by a second script (`review2u_061.py`). Each old value is asserted before it is replaced. The draft's indent=1 and its trailing-newline state are kept for both files. Checks after the edits:
+- every morph lemma in units.json is a key of known-lemmas.json or of gloss.json;
+- gloss.json has no unused keys, and its one `__broaden__` entry (nḏm) is for a lemma that is known and used;
+- that entry starts with the known entry copied exactly, character for character, followed by " · " (asserted by script);
+- `check_061.py`, re-run, passes: the 283 signs equal the packet, morph covers each glyph once, det tr is empty and no other tr is, O34 carries z / ·z, and there are no Budge-isms in `l` / `i`.
+
+units.json was re-read as a whole, as a fresh adversarial pass after the pass-1 edits. The notes, readings, `l` and `i` agree with each other. The pass-1 relabels (m-ꜥ, ny, the classifier of force, nḏm as a nominalised adjective) read consistently in every unit that mentions them. One overclaim was found (below).
+
+Counts: 0 major, 3 minor, 2 style.
+
+### Changes (gloss.json)
+
+- wḏꜥ-ꜣꜥb · **minor** · "a being addressed by name" is an invented sense. The text has ink wḏꜥ-ꜣꜥb, "I am W.": the speaker takes the name for himself, and no one is addressed. "Budge: Utā-aāb" was a hyphenated form Budge never prints: he prints two groups, utā and aāb, and his English is 'Utcha-aāb'. "not understood (?)" hedged twice. · "Wedja-aab, a name the speaker takes for himself, not understood (name; the first part perhaps wḏꜥ 'judge, separate', the second, ꜣꜥb, not known; Budge: Utcha-aāb)". The say form Wedja-aab is kept: it is the units' `say` and follows the house wḏꜥ `wedja`, with ꜣ ꜥ → a.
+- ngg-wr · **minor** · The entry was tied to this line ("whose egg the speaker claims to be"). It gave Budge's spelling as "Neḳeḳ-ur" with a hyphen, but Budge prints "Neḳeḳ ur" with a space under one group (packet w40). House entries quote Budge as he prints him: his hyphens are kept where he has them (Qem-ur, ānχ-f-em-fent) and none are added. The entry also lacked the say form that house name entries begin with (Kem-ur, Ankh-ef-em-fenetju). · "Negeg-wer, 'the Great Cackler', a goose god of the beginning of things (god's name; from ngg 'cackle' and wr 'great'; Budge: Neḳeḳ ur)".
+- bkꜣ · **minor** · "sense uncertain here" tied the entry to this line, and the second word was folded into the first's brackets. Budge's reading was given as English only. · "to grow light, dawn (?) (verb; with the sun as classifier; Budge: beka, 'destroy (?)') · a second word of the same spelling: to be pregnant (verb)", in the house format for words of the same spelling. The doubt stays as (?).
+- nḫt · style · "not to be confused with nḫḫ 'grow old'" is advice about this line, and "Budge: neχeχt" is his reading of the scribe's doubled ḫ, not a spelling of the word. "verb 3-lit." is not the house form, which is "verb" in all but three entries. · "to be strong, mighty (verb; written with the arm with a stick, the classifier of force)". The misprint and Budge's reading are already in the note.
+
+### Changes (units.json)
+
+- U7 ꜣꜥb · n · style · "the cup and the mat suggest an offering vessel" claimed too much: both classifiers are approximate codes (W10, R4), and the word is unknown. · "its two classifiers, both approximate, may point to a vessel or an offering, but that is a guess."
+
+### Checked and kept
+
+- ꜣgb, "written with three lines of water": correct. The packet's sign is N35A, the three water lines, and this entry does not mention the canal N36 (in this part the canal is in itrw, not in ꜣgb). The units note for ꜣgꜣb also says "three lines of water (N35A)". "noun m." and "Budge: aḳab 'the water floods'" quote the packet exactly. Not changed.
+- ssn: "to breathe, smell", with the nose as classifier and Budge's sesen 'smell', is correct and general. "verb 3-lit." is correct for s-s-n and is left; this is a style point only.
+- nḏm (`__broaden__`): the old part is the known entry exactly. The new part, "also the adjective used as a noun, 'the sweet one'", is what U9 now says. Kept.
+- No entry carries a Budge-ism in its meaning part; Budge's forms appear only in the "(Budge: …)" slot.

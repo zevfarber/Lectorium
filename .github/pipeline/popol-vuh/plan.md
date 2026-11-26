@@ -17,8 +17,8 @@
 | popol-vuh-012 | The maiden Xquic and the skull in the calabash tree | fols. 15v–17r | published |
 | popol-vuh-013 | Xquic comes to the grandmother and the net of maize | fols. 17r–18r | published |
 | popol-vuh-014 | The birth of Hunahpu and Xbalanque; their elder brothers become monkeys | fols. 18r–19r | published |
-| popol-vuh-015 |  | LoC images 0047–0050 | todo |
-| popol-vuh-016 |  | LoC images 0054–0056 | todo |
+| popol-vuh-015 | The grandmother laughs; the monkeys go to the forest; the field that clears itself | fols. 19r–20v | established |
+| popol-vuh-016 |  | LoC images 0050–0053 | todo |
 | popol-vuh-017 |  | LoC images 0057–0059 | todo |
 | popol-vuh-018 |  | LoC images 0060–0062 | todo |
 | popol-vuh-019 |  | LoC images 0063–0065 | todo |

@@ -57,3 +57,8 @@ Decided meanwhile: published with the pinned numbering (2437b, 2455 on "Grado", 
 ## 2026-11-25 · cid-tiradas-128-130 · readings without a Pidal note (Run 4)
 1. [a nombre] (v. 2705), caños (2695), çinchas corredizas (2736), nol torna recabdo (2756): Pidal's footnotes are silent. Conventions list his *Vocabulario* (1908–11) as an aid, but it is not in `source/`. Decided meanwhile: readings from context ("in plenty", "caves", "running girths", "neither could help the other"), each marked uncertain in its note. If the owner adds the Vocabulario scan, these can be settled.
 2. Griza / Álamos / Elpha (2694–95): no Pidal note; the glosser's unsourced "Ariza" identification was removed. Decided meanwhile: names left unidentified, said so.
+
+## 2026-11-26 · cid-tiradas-131-131 · small readings left open (Run 4)
+1. entre noch e día (v. 2810): no Pidal note. Decided meanwhile: "by night and by day" in `i`; the note gives "in the half-light (dusk or dawn)" as possible.
+2. don Urraca (v. 2812): Pidal's text has don, his footnote doña. Decided meanwhile: as printed in `l`, "Doña Urraca" in `i`, as with don Elvira.
+3. ración (v. 2773, ni dend sabien ración): no Pidal note. Decided meanwhile: "knew nothing of it at all", marked uncertain.

@@ -89,3 +89,43 @@ Lemmas used in morph that are not in known-lemmas.json: nqfywt, mꜣt, tnw, mrty
 - **in**: the particle in iw opening a question ("is it that …?") is not covered.
 - **ḫnd**: the participle "striding (?)" is covered by the verb.
 - **ẖry**: the sense "who hold (?)" is a guess, marked in the note, and needs no broadening.
+
+## Pass 2
+
+gloss.json and units.json were edited by one script (`review2.py` in the reviewer's scratchpad `r1/`). It asserts each old value before replacing it and keeps both files' indent=1 and trailing-newline state. Checks after the edits:
+- every morph lemma in units.json is in known-lemmas.json or gloss.json;
+- no gloss.json entry or `__broaden__` key is for a lemma no longer used (smt is still a word in U34, untranslated, so its entry stays, corrected);
+- every broadening starts with the known entry copied whole, then " · " (asserted by script for all five);
+- no entry contains "here", "this line" or a line number;
+- `check.py`, re-run, passes: the 975 signs equal the packet, morph covers each glyph once, det tr is empty, O34 carries z / ·z, the ln and rubric flags match, and there are no Budge-isms in `l` / `i`.
+
+Budge's spellings were checked against the packet transliterations.
+
+Counts: 0 major, 7 minor, 5 style.
+
+### Changes (gloss.json)
+
+- nqfywt · **minor** · The entry was tied to the line ("a word in the address to the takers of hearts") and offered "noun or participle" as a grammar it cannot know. · "nqfywt — a word not known; perhaps of seizing or striking, from its classifier of force (?) (Budge: neqefiut, 'stealers')".
+- tnw · **minor** · "where?, what? (?)" took Budge's 'what?' into the meaning. tnw is 'where?'; the doubt about this occurrence belongs in the unit note, which already gives it. · "tnw — where? (interrogative adverb; Budge: ten, 'what?')".
+- mrty · **minor** · "a pair of goddesses shown with eyes and a rearing cobra" turned the classifiers into a description of images. The identification was also stated without doubt. · "Merty, a pair of goddesses (?) (god's name, dual; written with two eyes and the rearing cobra; the meaning of the name is not certain; Budge: Merti)".
+- rwi · **minor** · "sḏm·f as a command, 'may you depart'" pinned the entry to U29. "rua" is not Budge's spelling; the packet has ruà. · "rwi — to go away, depart (from: r) (verb; Budge: ruà, 'separate')".
+- smt · **minor** · The entry was out of step with pass 1. "perhaps 'going' (?)" kept the sense that was removed from U34 because nothing supports it. · "smt — not known (word of doubtful reading; Budge: semet, 'making straight for')".
+- mhr · **minor** · The Budge spelling was wrong: "māḥeru" for the packet's māḥerà. · Corrected; the rest kept.
+- ẖry (`__broaden__`) · **minor** · "here taken as 'who hold…'" pinned the broadening to the line. · The known entry is kept whole, followed by " · also, perhaps, who holds, has in keeping (?) (plural ẖryw; Budge: χeri, 'possessors of')".
+- ꜥqꜣ · style · "the word for a true course or plumb-line" is a claim without support in the text or the known entries. "true" was added to the meaning. · "ꜥqꜣ — straight, exact (adjective; Budge: āqa, 'the middle')".
+- mitt · style · The Budge spelling was "matet"; the packet has màtet. "adverb / noun f." was set in the house form. · "(adverb; noun f.; Budge: màtet)".
+- wsr (`__broaden__`) · style · "a second word of the same spelling: wsrw 'oar'" gave the plural form as if it were the lemma. · "· a second word of the same spelling: oar (noun m.; plural wsrw, written with the wood classifier; Budge: useru)".
+
+### Changes (units.json)
+
+- U41 · n · style · "the published parts also call it Khemenu" suggested that the parts call *Wenu* Khemenu. Khemenu is another name, ḫmnw, for the same city. · "the published parts name the same city by its other name, Khemenu (ḫmnw)."
+- U44 · n · style · The pass-1 rewording left an ellipsis that is hard to read: "and ssn·i 'I breathe' the seated man". · "… has the seated man."
+
+### Checked and kept
+
+- stwt (`__broaden__`): "a second word of the same spelling: meaning uncertain (?), written with a mummy-shaped classifier of images, perhaps from twt 'image'". This agrees with pass 1: U35's note says the known stwt 'rays' does *not* fit here. The coordinator's message read pass 1 the other way, but pass 1 did not say the word here is "rays". The prefix is exact. Kept.
+- tm (`__broaden__`): "also tmt 'all, all of them' (?) (from tm 'to be complete'; Budge: temt)". This matches U4 and is marked doubtful. Kept.
+- in (`__broaden__`): the interrogative in iw. The prefix is exact. Kept.
+- mꜣt, srt, mḏꜣbt, swn and psy are each marked doubtful (?), with Budge's spelling as the packet prints it. irtt and nht are general and right; the Budge part is optional for words that are not names. Kept.
+- wnw: "Wenu, Hermopolis, city of Thoth … (place name; …; Budge: Unnu)". This is general and uses the packet's spelling. Kept.
+- The fresh read of units.json found nothing else wrong in roles, tr, labels or `l` ↔ `i`. U13 and U14 read consistently after the pass-1 move, and the ssn formula now stands in U22, U38 and U44.

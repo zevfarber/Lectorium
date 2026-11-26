@@ -2322,3 +2322,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprints corrected (emend.json): P890L06 وهذة → وهذه; P890L15 verse وتعلبوا → وتعذبوا (ل for ذ); P891L02 واراة → واراه; P892L09 جسدة → جسده, فجهّزة → فجهّزه, وواراة → وواراه; P892L10 تم → ثم.
 - Kept as printed, with notes: P890L06 واها read as the exclamation wāhan "ah, how fine!" (likely a slip for ولها "and it has", not certain — reversible by an emend entry if the owner prefers); verse اَرَاهَمْ, عَيَنِيْ, فَاَدْمَعُهَا, الرَّبُوْعُ, وَسَاكِنِيْهَا, تَجَلُّديْ as pointed; spacing قمرا لزمان, فياترى, اوحدث, لايردّ; حيوٰته with dagger alif; مطر/امطار glossed as jars; ولبّس عليهم read "covered them over" (possibly "disguised it from them"; noted).
 - Nothing to decide. Night 215 is complete and unpublished; the next firing publishes it.
+
+## Night 215 (P892L15–P894L05, published 2026-11-26)
+- Library label: `Night 215 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json), all ة for ه as in earlier nights: P892L17 واستاجرة → واستاجره, P893L07 هذة → هذه, P893L14 اشتهاة → اشتهاه, P893L17 هذة → هذه, P894L03 واخذة → واخذه.
+- Kept as printed, with notes: المركب feminine throughout (سافرت, هذه المركب) with masculine طاب الريح; solid لاسيما and ماله (mā lahu); ما هذا الّا ذهبا with accusative; ملآنة for Classical malʾā; العصافيرى with ى; حياة النفوس spelled here with ا (not حيوٰة). Doubtful vowels flagged in notes: القاقلي (qāqullī), كوم (kawm/kūm), دكة (dikka), الشيل (shayl).
+- Shared glossary entries corrected deliberately (not appended): الشَّجَرِ ('of the tree' → 'of the trees', collective), مَلْآنَةً (agreement explained), مَالَهُ (mā-negation of a nominal clause is Classical, not Middle Arabic), كَوْمُ (old entry was a placeholder "same, nominative").
+- Nothing to decide. Night 216 is not yet complete (tail unread); the next firing transcribes.

@@ -2272,3 +2272,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprint corrected (emend.json): P875L02 ليبصرة → ليبصره.
 - Kept as printed, with notes: يالَلّٰه العجب ان read yā la-llāhi! al-ʿajabu anna (inna possible); البلاد العمار read al-ʿamār (ʿimār/ʿummār possible); verse وَصَمَمْتُهُمْ 'deaf to them' or 'stopped them up'; verse لَا تُبْقِي indicative read as statement; وحسّ, ساخت روحه, جريتي/مشيتي, تعبانا, مرق, الهنا, لحّ flagged as later usage; run-together وطاربه, الجوفنام, وارادان, شهرزاد kept as set.
 - Nothing to decide. Night 208 is complete and unpublished; the next firing publishes it.
+
+## Night 208 (P876L18–P879L07, published 2026-11-26)
+- Library label: `Night 208 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P876L19 تمر الزمان → قمر, P878L13 تجدة → تجده, P879L02 ومازات → ومازالت.
+- Kept as printed, with notes: مرابعا / لاجل المرابع (read murābiʿ, a sharecropping garden hand; the vowels and sense are ours, and المرابع may stand for المرابعة); بيوت الاشجار read as the water basins round the trees; الفاس pointed al-faʾs; وان عندنا مركبا read wa-anna (inna possible); الحمد لله الذي اتيت with no returning pronoun (a later-language turn); ويعمل joined loosely to قعوده; حيٰوة with printed dagger alif; يا لَله العجب as in Night 207; verse قَرِيحَةٌ/مُتَيَّمُ nominative after مَا/لَا, as printed.
+- Nothing to decide. Night 209 is not yet complete (tail unread); the next firing transcribes.

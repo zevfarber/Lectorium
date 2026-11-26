@@ -42,7 +42,7 @@
 | cid-tiradas-124-125 | The Infantes ask to take their wives to Carrión; Jimena's farewell | tiradas 124–125, lines 2543–2617 | published |
 | cid-tiradas-126-127 | Félez Muñoz sent along; Avengalvón learns of the plot and leaves them | tiradas 126–127, lines 2618–2680 | published |
 | cid-tiradas-128-130 | The oak wood of Corpes: the daughters stripped, beaten and abandoned | tiradas 128–130, lines 2675–2762 | published |
-| cid-tiradas-131-131 | Félez Muñoz finds and rescues his cousins | tiradas 131–131, lines 2763–2862b | todo |
+| cid-tiradas-131-131 | Félez Muñoz finds and rescues his cousins | tiradas 131–131, lines 2763–2862b | established |
 | cid-tiradas-132-133 | Minaya brings the daughters home; Muño Gustioz asks the king for justice | tiradas 132–133, lines 2863–2967 | todo |
 | cid-tiradas-134-136 | The king summons a court at Toledo; the Cid's vigil at San Servando | tiradas 134–136, lines 2968–3059 | todo |
 | cid-tiradas-137-137a | The Cid dresses for the court and enters it | tiradas 137–137, lines 3060–3126 | todo |

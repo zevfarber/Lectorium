@@ -132,3 +132,97 @@ Counts: **major 0 · minor 9 · style 11** (20 rows).
    'it ran, flowed', inferred, against 'it was smeared'), `vchac` ('its flesh', guess), `chi` (chi + i- 'you (pl.)' in
    chi chih, chi puzu), `vi` (wi in vvi qui cab), `raih` (raij with nu- 'I': the r belongs to the stem), `cah` (qaj 'we
    want'), `zaquitoc` (published as the torch's name; here the flint knife, Brasseur 'un couteau de silex').
+
+## Pass 2
+
+Reviewer pass 2 (adversarial), 2026-11-26. I read conventions.md (all of it, with the house table and "The modern-letters
+toggle"), runbook.md (Reviewer, Glosser), ../run3/RUNBOOK.md §2, QUESTIONS.md, packet.md with the establishment log,
+known-forms.json / novel-forms.json, wordre.py, popol-vuh-001…011.json, popol-vuh-glossary.json, the 011 review's Pass 2,
+and pass 1 above with units.json and gloss.json as it left them. For meaning I used only Brasseur 1861 (OCR 22680–23215,
+K'iche', French and notes) and the published files. I opened no modern translation and recalled none. Every edit was
+made by script (json load/dump, ensure_ascii=False, indent=1). No `t` or `mt` was changed, and no unit was added, removed
+or moved. I undid none of pass 1's decisions.
+
+**Fresh pass on units.json.** I went through all 83 units again: grammar labels against the forms, K'iche' → `l` word by
+word, `l` ↔ `i`, remembered English, couplets, and the house renderings (Vꜩ bala, lal / alac, ahau, chuꜭhaxic
+'it-is-called' as in 001–011, vꜫexel, Hunhunahpu as written, names kept). By script every mt was checked again against
+the published forms; I agree with pass 1's rulings (cac kaq, ꜫaꜫ q'aq', vmial umi'al, Xkik', waqaqib', the cam / cama
+split). I rechecked every Brasseur attribution against the OCR: they hold, and two still given in English are now quoted
+in French. Two `l` glosses contradicted the forms (36, 44) and were fixed; nothing major.
+
+**gloss.json.** Every novel form (105) has a non-empty entry under its exact key, and by script the modern form of every
+entry equals the final mt for that word (all match, including the 10 broadenings). I read each value against the final
+notes: 15 entries were corrected, among them the two pass 1 made stale (xquic, xcopcot). Broadenings: every one starts
+with its published entry exactly, then " · ". Of pass 1's list, cac was corrected (it still said q'aq'), and vchac, raih
+and zaquitoc were added. chi, vi and cah were not added, because the published entries already cover them. I also added
+chique and chaquih, two uses the published entries do not cover. xcul, vila and cha were kept as the glosser wrote them.
+
+Afterwards: both JSON files parse; 83 units; every `t` and `mt` is identical to pass 1's; len(mt) == WORD_RE count in
+all 83 units; the units' `t`, joined with a space, equal the packet's 20 paragraphs exactly; every novel form has a
+gloss entry whose modern form equals its mt; every broadening begins with its published entry.
+
+Counts (pass 2): **major 0 · minor 12 · style 13** (25 rows). Gloss: 17 entries corrected (15 entries + 2 broadenings),
+5 broadenings added, none dropped (the 3 that were asked for and not needed were never added).
+
+### Changes
+
+| unit / entry | field | sev. | what was wrong | what was done |
+|---|---|---|---|---|
+| 36 | l, n | minor | The l read "far that she-goes sacrificing-her there", and the note read "let her go to be sacrificed there". puzo is puz + -o, the transitive ending, so whoever goes is the sacrificer, not the maiden. Brasseur reads it the same way: 'qu'on aille la sacrifier loin d'ici'. | l now reads "far that (one)-goes to-sacrifice-her there". The note says so and quotes Brasseur. The i ("let her be taken far away to be sacrificed") already fits and was kept. |
+| 44 | l, n | minor | cucaam was glossed "they-carrying(?)", but cu- is the singular prefix. puzbal re was glossed "sacrificer of-her", an agent, where the note says -bal marks the instrument. | l now reads "carrying-it(?) … instrument-of-sacrifice of-her". The note gives cu- as c- + v- (singular, the four not marked). |
+| 4 | n | style | Brasseur's rendering was given in our English. | Quoted in French: 'Pourquoi n'irais-je pas voir cet arbre'. |
+| 8 | n | style | Same problem as unit 4. | Quoted in French: 'Mourrai-je donc et sera-ce ma ruine si j'en cueille un?'. |
+| 5 | n | style | "Cate 'then' (MS b in xbec …)" hung the letter remark on the wrong word. | "Cate 'then'. xbec 'she went' (MS b, where Brasseur reads x-pec)." |
+| 81 | l, n | style | xzalih carries no plural e-, but the l had "they-returned", and the note was silent on the number. | l now reads "it-returned". The note says no e- is written, so vabanel is taken as one body (her escort), and adds Brasseur's 'ses partisans'. |
+| gloss `xquic` | value | minor | Stale. It still read "feminine or diminutive … 'Little Blood' after Brasseur", which pass 1 removed as unsourced. | Now gives Brasseur's x (ix) woman's-name prefix + quic 'blood' or 'rubber' ('la Femme-Sang ou la Gomme-Noire'), inferred. |
+| gloss `xcopcot` | value | minor | Stale. It read "(guess) it was cut, gashed", against the final unit 64. | Now reads "(guess) became renowned", with Brasseur's French. It notes that there is no person prefix and that the passive 'cut' has no support. |
+| gloss `beba` | value | minor | "we go; x- + ca- 'we' + be + -ba" put the 'we' and the x- of xca inside beba. | Now reads "go; b'e 'go' + -ba, in xca beba 'we are going (?)'". |
+| gloss `yaix` | value | minor | "we give, we set": the 'we' belongs to ca. | Now reads "give, set; from ya …; in ca yaix tah, qa- 'we'". |
+| gloss `cucaam` | value | minor | "taking with them" implied a plural that cu- does not mark. | Now reads "carrying it; k- + u- (singular) + kam …". |
+| broaden `cac` | value | minor | Stale. The new reading still said "q'aq' — red … the toggle respells q'aq'", but the mt is kaq (pass 1). | Now reads "kaq — red; the modern word, which these letters spell with nothing restored …". |
+| broaden `vchac` | added | minor | Asked for by pass 1 and missing. The published entry has only 'its work' and 'his younger brother'. | Added: "uchak — (guess) its flesh, after Brasseur ('qui n'a déjà plus de chair') …". |
+| broaden `raih` | added | minor | Asked for by pass 1 and missing. The published entry analyses the form as r- 'it' + aij, but here it takes ca- 'you' and nu- 'I'. | Added: the reading 'want' with the r belonging to the stem, with Brasseur's French. |
+| broaden `zaquitoc` | added | minor | Asked for by pass 1 and missing. The published entry names the torch; here the word is the flint knife. | Added: "the white flint knife of sacrifice (Brasseur 'un couteau de silex') …". |
+| broaden `chique` | added | minor | In xe chique chuvi (unit 77), chique stands as a verb (guess 'leaned'). The published entry has only 'to them' and 'to us'. | Added, as a guess, with Brasseur's 'se tournèrent … vers le parfum'. |
+| gloss `holomax` | value | style | "(inferred) not understood" contradicted itself. | Now reads "not understood", with Brasseur's two readings and his French. |
+| gloss `coloba` | value | style | "after the draft" is not a source. | Now reads "(guess) …; Brasseur leaves it out". |
+| gloss `ꜩololeh` | value | style | It said "the tzalij 'return' of an earlier word", which is vague. | Now names vꜩalihic, adds Brasseur's 'vous retournerez', and cross-refers to kololej. |
+| gloss `xzalih` | value | style | It read "they returned", but no plural e- is written. | Now reads "(inferred) returned; … no plural e- written". |
+| gloss `hoxbal` | value | style | It was not marked inferred, though vhoxbal and the notes are. | Marked "(inferred)", with Brasseur's 'déshonneur', 'crime'. |
+| gloss `xapon`, `xril`, `xuliquiba`, `chumaihah` | value | style | Each was pinned to 'she'. | Made general: "he …, she …". |
+| gloss `puzo` | value | style | "sacrificing her" was pinned to the line and blurred the transitive -o. | Now reads "sacrifice (someone) (inferred); pus + -o, the transitive ending". |
+| broaden `ꜫaꜫ` | value | style | The new reading was a line-pinned example. | Made general: "red (Brasseur cak 'rouge'); the same tresillo letters as 'fire'; the modern word is kaq …". |
+| broaden `chaquih` | added | style | The published entry gives 'dry; adjective', but xqui chaquih (76) uses it as a verb. | Added: "(inferred) dry (something), parch; used as a verb …". |
+
+### Refused / left
+
+- **Broadenings chi, vi, cah** (pass 1 point 6): not added. The published chi already has "ch- (command) + i- 'you (pl.)',
+  before a verb" (chi puzu, chi chih) and chik 'any more'. The published vi has "part of wikiq'ab' 'right (hand)'" for
+  a vi qui cab, and vvi is a novel form with its own entry. The published cah has "qaj — we want".
+- **xcul, vila, cha broadenings**: kept. Each covers a use the published entry lacks ('flowed', 'I see it', ch- + a-
+  'you' in cha coto).
+- **Other known forms** (xuꜭhaxic 'he was told', xu 'it (did)', vꜭux 'its heart' and the like): their published
+  entries cover this part's uses closely enough. I did not broaden them, and published entries are not edited here.
+- **Unit 7 i "Is it not sweet …"**: kept. Brasseur renders this line 'N'est-ce pas admirable comme cet arbre s'est
+  couvert de fruits?', but the note marks quz 'sweet' as inferred from ¶3 and ¶19, and it does not attribute the
+  sense to him here.
+- **Unit 17 "ca ban" 'it-is-done'**: kept as drafted. The sense of the line rests on Brasseur, and piꜩ is already
+  marked as a guess.
+- **Unit 29 i, unit 49 i "given us"**: kept. These are light English supplements that do not change the sense.
+- **Unit 82 xe chacatah 'brought low'**: kept, as in the earlier parts, although Brasseur here has 'furent joués'.
+- **Unmarked inferred words in `i`** (e.g. "searched it", 18; "it ran", 61): kept, as in 010–011. Only guesses take (?).
+
+### For QUESTIONS.md (pass 1 and pass 2 combined; decided meanwhile as above; nothing blocked)
+
+1. **Red with plain c and with tresillos**: cac → kaq (the modern word, nothing restored), ꜫaꜫ 'red' → q'aq' by the
+   letters, the same mt as 'fire'. Decide with 010 point 2.
+2. **xcopcot**: 'became renowned (?)' with Brasseur. The cut reading has no source.
+3. **Hunahpu for Hunhunahpu** (¶5): the mirror case of 005's table row. The row could be widened to "either name as
+   written".
+4. **vi qui cab 'right hand'** (008's reading) against Brasseur's 'le bout de ta main' here.
+5. **ahchoce, Chec**: k under the 007 rule. If ekah 'carry' (eqaj) is accepted as certain, Chec → Cheq.
+6. **Proposed renderings, not added to the house table meanwhile**: zel 'bowl'; Tucur 'the owls' (as 010–011);
+   Chuh Ꜫaꜫ Che kept as a name (i "Chuh Q'aq' Che, the red tree"); vꜫexevach 'likeness and stand-in'; hoxol 'a
+   wanton'.
+7. **Glossary**: published raih (r- + aij) and this part's raij with nu- 'I' disagree on where the r belongs. The
+   broadening records both, and the owner may want the published entry revised.

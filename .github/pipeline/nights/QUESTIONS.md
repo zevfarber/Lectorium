@@ -2291,3 +2291,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprints corrected (emend.json): P879L10 الآنبوس → الآبنوس, P881L03 verse مذا → ماذا, P882L20 هذة → هذه.
 - Kept as printed, with notes: السعيدان run together (السعيد ان); لم أامن with printed hamza + alif for آمن; الخيّام with a printed shadda; تايه for تائه; الآ read illā; the name spelled حيوٰة (dagger alif over the wāw) on p. 880 and حياة on pp. 881–882; verse عَلِقْتُهُمْ (damaged type, likeliest reading); verse كَرَمُ ابْنُ زَائِدَةِ with nominatives where the sense wants acc./gen.; هنّوها, دعوا لها جميع الخلق, اضمر على flagged as later usage; stray و at P882L12 kept as set.
 - Nothing to decide. Nights 210–211 are complete and unpublished; the next firings publish them.
+
+## Night 211 (P884L17–P887L03, published 2026-11-26)
+- Library label: `Night 211 · Qamar al-Zamān, continued`.
+- Misprint corrected (emend.json): P886L08 ونظاروا → ونظروا.
+- Kept as printed, with notes: ordinal الحادية عشر (ʿashar for ʿashrata); الي for الى; يزالو without final alif; وزغرتت / الزغاريت; رؤسهم; وحثّوا with printed shadda (ḥaththū, where throwing dust wants ḥathaw; doubtful); verse بِجَنَانِهِ pointed janān where the sense wants jinān (Paradise); verse حَلِفِ الضَّنَى (ḥalif for ḥalīf); verse يَحْظُ pointed with damma for jussive yaḥẓa; run-together ماكان, وماصدق, واولداه, verse لَاتَعْذُلُوا, لَايُزِيْلَ, وَسَارَعَنَّا; شهر زاد as set.
+- Nothing to decide. Night 212 is not yet complete (tail unread); the next firing transcribes.

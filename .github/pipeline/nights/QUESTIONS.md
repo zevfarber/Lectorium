@@ -2316,3 +2316,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprints corrected (emend.json), all ة for ه, as in earlier nights: P889L11 امعاءة → امعاءه, P889L12 جلدة → جلده, P889L15 فوجدة → فوجده, P889L16 رآة → رآه, P889L17 هذة → هذه.
 - Kept as printed, with notes: جدرها read jidr "root, stump" (probably for جذر; as in Night 212, not certain); الفاس pointed al-faʾs; شيأ, فدنى, فاتي, علي, فى spellings; ومرّبه set as one word (wa-marra bihi); طابقا read ṭābaq "trapdoor" (least certain word of the night); the opening recap has ووالده joined to firāq ("parting from his wife and his father") where Night 212 had him remember his father.
 - Nothing to decide. Nights 214–215 are complete and unpublished; the next firings publish them.
+
+## Night 214 (P890L03–P892L14, published 2026-11-26)
+- Library label: `Night 214 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P890L06 وهذة → وهذه; P890L15 verse وتعلبوا → وتعذبوا (ل for ذ); P891L02 واراة → واراه; P892L09 جسدة → جسده, فجهّزة → فجهّزه, وواراة → وواراه; P892L10 تم → ثم.
+- Kept as printed, with notes: P890L06 واها read as the exclamation wāhan "ah, how fine!" (likely a slip for ولها "and it has", not certain — reversible by an emend entry if the owner prefers); verse اَرَاهَمْ, عَيَنِيْ, فَاَدْمَعُهَا, الرَّبُوْعُ, وَسَاكِنِيْهَا, تَجَلُّديْ as pointed; spacing قمرا لزمان, فياترى, اوحدث, لايردّ; حيوٰته with dagger alif; مطر/امطار glossed as jars; ولبّس عليهم read "covered them over" (possibly "disguised it from them"; noted).
+- Nothing to decide. Night 215 is complete and unpublished; the next firing publishes it.

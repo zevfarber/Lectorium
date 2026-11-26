@@ -37,7 +37,7 @@ Flags: none
 2890	“¿Venides, mis fijas? Dios vos curie de mal!
 2891	Yo tomé el casamiento, mas non osé dezir al.
 2892	Plega al Criador, que en çielo está,
-2893	que vos vea mejor casadas d' aqui en adelant.
+2893	que vos vea mejor casadas d' aquí en adelant.
 2894	De mios yernos de Carrión Dios me faga vengar!”
 2895	Besaron las manos las fijas al padre.
 2896	Teniendo ivan armas, entráronse a la cibdad;

@@ -62,3 +62,10 @@ Decided meanwhile: published with the pinned numbering (2437b, 2455 on "Grado", 
 1. entre noch e día (v. 2810): no Pidal note. Decided meanwhile: "by night and by day" in `i`; the note gives "in the half-light (dusk or dawn)" as possible.
 2. don Urraca (v. 2812): Pidal's text has don, his footnote doña. Decided meanwhile: as printed in `l`, "Doña Urraca" in `i`, as with don Elvira.
 3. ración (v. 2773, ni dend sabien ración): no Pidal note. Decided meanwhile: "knew nothing of it at all", marked uncertain.
+
+## 2026-11-26 · cid-tiradas-132-133 · established text corrected at v. 2893; readings left open (Run 4)
+1. v. 2893: the pinned text had "d' aqui" (the establishing LOG said "aqui unaccented as printed"); the drafter and the reviewer both read an acute on the image, and this firing confirmed it at zoom 6 (PDF p. 312, first line: a slanted stroke, unlike the dots of the i's nearby; Pidal's note to 2867 also prints aquí). Decided: the established file corrected to "d' aquí", re-pinned (sha 81730cb899a6), packet regenerated (novel forms unchanged), the unit's `t` and note updated, then built. For the owner only if he wants the establishing procedure tightened on accents.
+2. otro tanto las ha (v. 2864, Pidal "Verso dificil"): Pidal's second guess (fablado las ha) taken in `i`, Lidforss's conortado in the note; uncertain.
+3. ellos co[m]des gallizanos (v. 2926): read e + los "and the"; "they" possible — said in the note.
+4. sín salve el Criador / lê (v. 2960): no Pidal note; sín read sí + me (n for m), lê = le + e (split future, circumflex rule); marked uncertain.
+5. reyno mio (v. 2962) ends an ó line; no Pidal note; said in the note. Extent of p[as]sar (v. 2876) uncertain.

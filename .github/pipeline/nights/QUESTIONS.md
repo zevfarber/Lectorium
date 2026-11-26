@@ -2304,3 +2304,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Join 895→896: "كل ذلك | قمر الزمان" — a و (وقمر) seems not to have inked in the indent; kept as printed.
 - Night labels 213–216 all read الليلة (P892L15 passes had الميلة; the lam-lam ligature looks like a mim; adjudicator and dot check both read الليلة).
 - Nothing waits on the owner. Nights 212–215 are complete and unpublished; the next firings publish them.
+
+## Night 212 (P887L04–P889L05, published 2026-11-26)
+- Library label: `Night 212 · Qamar al-Zamān, continued`.
+- Misprint corrected (emend.json): P887L06 على → عدى ("علم انه عدى عليه وافترسه اما وحش واما قاطع طريق"). The transcribing run had called it doubtful; decided here that the sense allows only عدى (one letter, ل for د). Reversible by deleting the emend entry if the owner disagrees.
+- Kept as printed, with notes: run-together السعيدان and ولوفى; جدر شجرة (probably for جذر, "stump"; not certain); والدة read wālidahu "his father" with ة for ـه (as in earlier nights; the glossary key وَالِدَةُ now carries both "mother" and this sense); فبطته (loose agreement); تسير المركب (fem. verb); verse اِنِّيْ after اَعْلَمُ, تَنَالُهُمْ indicative after an imperative, يَوْمَ acc. twice in P887L12.
+- Nothing to decide. Nights 213–215 are complete and unpublished; the next firings publish them.

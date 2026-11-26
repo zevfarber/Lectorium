@@ -2310,3 +2310,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprint corrected (emend.json): P887L06 على → عدى ("علم انه عدى عليه وافترسه اما وحش واما قاطع طريق"). The transcribing run had called it doubtful; decided here that the sense allows only عدى (one letter, ل for د). Reversible by deleting the emend entry if the owner disagrees.
 - Kept as printed, with notes: run-together السعيدان and ولوفى; جدر شجرة (probably for جذر, "stump"; not certain); والدة read wālidahu "his father" with ة for ـه (as in earlier nights; the glossary key وَالِدَةُ now carries both "mother" and this sense); فبطته (loose agreement); تسير المركب (fem. verb); verse اِنِّيْ after اَعْلَمُ, تَنَالُهُمْ indicative after an imperative, يَوْمَ acc. twice in P887L12.
 - Nothing to decide. Nights 213–215 are complete and unpublished; the next firings publish them.
+
+## Night 213 (P889L06–P890L02, published 2026-11-26)
+- Library label: `Night 213 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json), all ة for ه, as in earlier nights: P889L11 امعاءة → امعاءه, P889L12 جلدة → جلده, P889L15 فوجدة → فوجده, P889L16 رآة → رآه, P889L17 هذة → هذه.
+- Kept as printed, with notes: جدرها read jidr "root, stump" (probably for جذر; as in Night 212, not certain); الفاس pointed al-faʾs; شيأ, فدنى, فاتي, علي, فى spellings; ومرّبه set as one word (wa-marra bihi); طابقا read ṭābaq "trapdoor" (least certain word of the night); the opening recap has ووالده joined to firāq ("parting from his wife and his father") where Night 212 had him remember his father.
+- Nothing to decide. Nights 214–215 are complete and unpublished; the next firings publish them.

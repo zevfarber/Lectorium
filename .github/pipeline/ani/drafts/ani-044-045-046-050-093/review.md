@@ -72,3 +72,44 @@ These known entries are too narrow for this part and need `__broaden__`:
 - ḥnwt (known "deceit · mistress"; here "horn", dual ḥnwty);
 - kꜣ (here the particle "then, so", U46);
 - mkt / mki: the draft uses a new lemma mki "protect" for the infinitive mkt. The known noun mkt "protection" stands beside it.
+
+
+## Pass 2
+
+Edits by script (`r2/edit.py` in the reviewer's scratchpad): each text replacement asserted to match exactly once, each glyph's old sign/role/tr asserted before the change, each gloss entry asserted to start as expected; written back with json.dumps(ensure_ascii=False, indent=1), no trailing newline. Pass 1's `check.py` re-run afterwards: the 1180 sign codes still equal the packet's sequence; morph g, q, det/tr, O34, ln and rubric checks clean (the "restored?" lines are the part-bracketed words pass 1 explains). Lemma check by script: every morph lemma is in known-lemmas.json or gloss.json; no gloss entry for an unused lemma; every `__broaden__` value starts with the known entry copied whole + " · "; no s/t fields.
+
+Counts: 0 major, 13 minor, 5 style.
+
+### Changes — units.json
+
+- U22 · l, i, n · **minor** · "the sun-folk" for ḥnmmt is remembered modern-translation wording, not in any published part. · → "the-Henmemet" / "the Henmemet" (the name, with the note's existing explanation "a class of beings who live in the sun's light").
+- U46 bnnwt · glyph 2 (N35) role · **minor** · Second water n tagged comp n, but the reading bnnwt has nn: both water n's carry sound (as rnn in U4). · comp → phon.
+
+### Changes — gloss.json
+
+- ṯst · **minor** · "noun m." for a noun in -t; Budge's English misquoted ("vertebrae" for his "vertebræ"). · → noun f.; 'the vertebræ'.
+- ḥnmmt · **minor** · "the sun-folk" (modern-translation wording); "noun f. plural" for a collective. · → "the Henmemet, a class of beings who live in the sun's light (noun f., collective; written with the disc with falling rays; Budge: hamemet)".
+- ḫm · **minor** · "used impersonally" misnames the passive ḫm·tw. · → "passive ḫm·tw 'be unknown, be ignored'"; Budge: χem added.
+- ·st · **minor** · Pinned to the line ("here after bn"). · → general: "it, they (suffix pronoun of the 3rd person; a writing of ·s with t found in later texts; doubtful)".
+- mki · **minor** · Line-specific doubt and Budge's 'verily' (his rendering of this one passage) put into the lemma. · → "to protect, guard (verb; infinitive mkt; Budge: māket)".
+- nwd · **minor** · Pinned ("participle, 'which moves'"). · → "to turn, bend, move (?) (verb; reading and sense doubtful; Budge: ennuṭ, 'advancing')".
+- db · **minor** · Stray "'goring'" (Budge's English for tbw, not ṭeb) tacked on. · removed; "pierce" added to the sense to match Budge's 'pierce'.
+- ḥsq · **minor** · "also used of reaping" stated as fact; it is the context's sense here. · → "perhaps also of cutting grain, reaping (?)"; Budge: ḥesq.
+- __broaden__ mwt · **minor** · New sense pinned ("mt·i 'I die'", "often with a small ring", which is this print's approximate N33). · → "to die (verb; often written mt, without the w; Budge: mit)". Old entry copied whole (checked).
+- __broaden__ wn · **minor** · New sense pinned ("wn·n·i 'I have hastened'"). · → "(verb of motion, written with the walking legs; doubtful)".
+- __broaden__ bꜣby (new) · **minor** · Budge prints Bàbà here; the known entry gives only Baabi / Bebi, so a reader of Budge could not find the name. · old entry + " · Budge also: Bàbà".
+- nwḥ · style · Budge's English without his transliteration. · added "Budge: ennuḥti, 'goring'".
+- ḥst · style · Budge's transliteration missing. · added "Budge: ḥeset".
+- wnwn · style · "reduplicated from wn" is a guess at derivation; Budge missing. · → "(verb, reduplicated; written with the walking legs; the sense is doubtful; Budge: unun, 'travel')".
+- bnnt · style · A word not otherwise met, given as certain. · "(?)" added to the sense.
+- __broaden__ itm (new) · style · Budge prints Tmu here; the known entry has only Tem. · old entry + " · Budge also: Tmu".
+
+### Findings refused
+
+- **"the Imperishable Stars" (U5, gloss iḫmw-sk).** Kept. It is the Egyptological term of art for these circumpolar stars, not one translator's phrasing, and the note builds it from the grammar ('those who do not know perishing').
+- **Two reeds tr i/i where the reading has y (nnyw U26, ḏꜣyt·i U49, ky U41).** Not changed: the house is split (ky i/i ×28, pwy y/y and i/i), and pass 1 changed bby only because each reed there stands alone for y.
+- **bnnwt: w written after t.** Not noted: the feminine plural -wt is regularly written t before w.
+- **U31 i "who saw at her first occasion"** (l has no "at"), **U19 "Let this be done"** ("this" not written), **U31 "in their forms"** ("their" not written). Small English supplements, not misreadings; left.
+- **U50 note quotes Budge's "triumphant with victory".** Kept: it is a marked quotation of Budge as a check, not wording in `l`/`i`.
+- **im lemma "im" (U37, U39) beside "m" for im·i (U44, U47, U48).** House practice exactly (im → im; im·f, im·s → m).
+- The known entries for ꜣḫ, sr, ḥnn, ꜥm, iṯi, ḏꜣi, mnt, nm, ẖrt-nṯr cover this part's senses; no broaden needed. The glosser's other broaden entries (sk, smꜣt, ḥꜣ, sšd, ḥnwt, kꜣ) were checked and are exact copies with fair new senses; left.

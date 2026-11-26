@@ -141,3 +141,75 @@ Counts: **major 0 · minor 4 · style 10** (14 rows).
    top'), `loc` (lok 'dear (?)', after Brasseur's 'chérie'), `xquiz` (xk'is of the heart, 'failed'), `val` (wal, meaning
    unknown in ta hul val oc), `i` (iw- 'you (pl.)' as ergative in i vila; the published entry is the possessive only),
    `xpetic` ('she came'), `ya` ('put, set' in qui ya).
+
+## Pass 2
+
+Reviewer pass 2 (adversarial), 2026-11-26. I read conventions.md (with the house table and "The modern-letters toggle"),
+runbook.md, ../run3/RUNBOOK.md §2, packet.md with the establishment log, known-forms.json / novel-forms.json, wordre.py,
+popol-vuh-glossary.json, popol-vuh-001…012.json (by script for every form a note cites as "as in an earlier part"), the
+012 review's Pass 2, and pass 1 above with units.json and gloss.json as it left them. For meaning I used only Brasseur
+1861 (OCR 23160–23445, K'iche', French and notes) and the published files; I opened no modern translation and recalled
+none. Every edit was made by script (json load/dump, ensure_ascii=False, indent=1). No `t` or `mt` was changed, no unit
+added, removed or moved; none of pass 1's rulings was undone.
+
+**Fresh pass on units.json.** All 33 units again: grammar labels against the forms, K'iche' → `l` word by word, `l` ↔
+`i`, remembered English, couplets (Ta hul … ta hul; ha cama … ha hacha; in macol, in ꜭazbol; xavi xere … xavi cu xere;
+quetal, qui ꜩihel puch; xa zu, xa bix … xa zibanic, xa pu cotonic — all kept as pairs in `i`), house renderings (Vꜩ
+bala 'Very well', lal the respectful 'you', capoh 'maiden', names kept). Every "as in an earlier part" was checked in the
+published JSON: 012 vhoxbal / nu hoxbal, co cha pam, xbec, ca bixic, ca nu tao, vila, xqui chaquih 'they dried it';
+010 xqui taqueh ri be, ivatit, cochoch qochoch; 009 ahzu ajsu, ahbix, ahꜩibenai, ahcot ajkot, ralcualah, xcaminac oc,
+yaqueic; 007 xziquinic xsik'inik; 006 vcoc, vcolbal, ha cama; 005–007 ꜭaxtoꜭ; 004 cube; 003 xa loc. All hold. Every
+Brasseur attribution was rechecked against the OCR and holds (the French quotations are his words). Two small fixes.
+
+**gloss.json.** By script: 55 novel forms, 55 entries, no extras; every entry's modern form equals the unit's mt for that
+token (cabix carries both kab'ix and qab'ix, as its two mts); every `__broaden__` starts with the published entry
+exactly, then " · ". Each value was read against the final notes: 8 entries corrected, 7 broadenings added; the 7 the
+glosser wrote (hal, hul, cat, vvi, loc, i, xe) are correct and kept.
+
+Afterwards: both files parse; 33 units; len(mt) == WORD_RE count in every unit; the units' `t`, joined with a space,
+rebuild the packet's 14 paragraphs exactly; novel-forms keys == gloss keys; every modern form == mt; every broadening
+begins with its published entry.
+
+Counts (pass 2): **major 0 · minor 10 · style 5** (15 rows).
+
+### Changes
+
+| unit / entry | field | sev. | what was wrong | what was done |
+|---|---|---|---|---|
+| 7 | i | style | "What is carried here is alive" made e ꜭazlic singular; e is the plural ('they are living'; l "they alive"; Brasseur 'les voici portés vivants'). | "Here they are, carried, and alive: Hunhunahpu and Vucub Hunahpu are not dead; …". |
+| 0 | n | style | "in 010 the brothers left them to keep 'your grandmother' warm": "the brothers" could be read as Hunbatz and Hunchouen themselves. | "in 010 Hunhunahpu and Vucub Hunahpu, leaving for Xibalba, told the two to keep 'your grandmother' warm". |
+| gloss `ꜩiya` | value | minor | Gave Brasseur's note as 'préparer le maïs avec la cendre', which is not his wording. | His note's words 'cuire le maïs avec de la cendre ou de la potasse' and his rendering 'vous qui préparez le maïs avec la cendre'. |
+| gloss `alib` | value | minor | Only 'daughter-in-law', though the entry itself says the word is used from both sides and ¶4 Lal valib is 'my mother-in-law' (unit 8). | "daughter-in-law; also mother-in-law: …, said from either side (inferred)". |
+| gloss `valib` | value | minor | Only 'my daughter-in-law'; Lal valib (unit 8) is Xquic's 'my mother-in-law'. | Adds "also my mother-in-law, said by the son's wife (inferred)". |
+| gloss `chivi` | value | minor | Analysed as chi + wi' 'head', the word of huvi/vcavi; the note's chi + vi is the ꜭo chi vi 'is there any more' pattern, vi the particle of place. "at all" is in no note. | "chi 'any more' (chik with its c not written) + wi, the particle that points back to a place … as in k'o chi wi". |
+| gloss `xtoh` | value | minor | "'rain', a goddess of food" compressed Brasseur's note; he makes Xtoh the goddess of rain and of the earth's fruitfulness, one of three of food and plenty. | Rewritten with his words ('les auteurs traduisent par le mot pluie, averse'), the ninth day sign, inferred. |
+| broaden `yaqueic` | added | minor | Pass 1 asked; missing. The published entry is 'bearing, ways'; here (unit 2) it is taken as 'come forth, be born'. | Added as a guess, with Brasseur's 'peu s'en fallait pour la naissance'. |
+| broaden `chaquih` | added | minor | Published entry 'dry' / 'dry (something)'; here (unit 9) qui chaquih is taken as 'they spent (the day)'. | Added as a guess, with Brasseur's 'ils employaient tout le jour'. |
+| broaden `ya` | added | minor | Pass 1 asked; missing. The published entry is 'give' (and 'river'); qui ya (unit 24) and 012's chi ya chuvi ꜫaꜫ are 'put, set'. | Added "put, set; the 'give' verb used of placing a thing". |
+| broaden `val` | added | minor | Pass 1 asked; missing. The published entry 'my child' does not cover ta hul val oc (unit 19), where the note says the meaning is unknown. | Added "(unclear) in ta hul val oc, a doubtful reading; what it means there is not known". |
+| broaden `vila` | added | minor | ve a vila (unit 5) is a- 'you' + w- (rest of aw-) + il + -a, and i vila (unit 8) is not a command; the published entry has only the command after chi and 'I see it'. | Added both uses, inferred. |
+| broaden `pa` | added | style | The published question-particle sense is pinned "after mi"; here it follows ma (Ma pa xe camic) and ꜭo chi (Ꜭo chi pa ri val), as in 008/012's ma pa. | Added "question particle after other words too: ma pa …, ꜭo chi pa …". |
+| broaden `xpetic` | added | style | Pass 1 asked. The published entry reads "(you) came"; unit 24 Ta xpetic is 'she came'. | Added "he came, she came; the same form of a third person". |
+| gloss `ꜭazbol`, `recan`, `rila` | value | style | ꜭazbol mixed spellings ("k'az 'debt'"); recan was not marked inferred though its sense rests on the inferred ecan of xecan; rila was pinned to 'she'. | ꜭazbol: "ꜭaz 'debt' + -bol; not the ꜭaz 'live' of ꜭazlic"; recan: "(inferred) her load, his load, its burden; r- 'her, his, its'"; rila: "he sees it, she sees it". |
+
+### Refused / left
+
+- **Broaden `xquiz`** (pass 1 point 3): not added. The published "it finished, they finished; k'is 'end, be finished'"
+  covers both uses here (xquiz cut vꜭux 'her heart came to an end', xquiz a cam 'have you finished taking'); 'failed' is
+  the English of the line, not a new sense.
+- **Unit 8 i "So you shall see"**: kept. Quehe cut i vila ta has no future mark, but neither does it have a command form;
+  Brasseur's 'voyez' is one reading, the English one other, and the l shows the bare form.
+- **Unit 26 i "Have you laid it waste (?)"** for xe 'them': kept; English "it" for the field's plants, l keeps 'them'.
+- **Unit 32 i "I shall see yet"** for chi vil (optative): kept; Brasseur 'je verrai', and the l shows "That I-see".
+- **gloss `xecan` "the toggle keeps k"**: kept; it explains the mt, as 012's entries do.
+- **gloss `boc` "(guess)"** where the note says inferred: kept; the gloss is less confident than the note, never more.
+- **Published entries `vcaam` ("carried by him"), `xbec` ("he went"), `petic` ("coming", verbal noun)**: cover these uses
+  closely enough; not broadened.
+
+### For QUESTIONS.md (pass 2; nothing blocked)
+
+1. Pass 1's three points stand (cat 'net' as k'at; vchuch 'mother' for the grandmother; the glosser broadenings, now done).
+2. **alib** is now glossed both ways ('daughter-in-law', 'mother-in-law'); if the owner wants a house rendering, the
+   proposal is alib 'daughter-in-law' / valib 'my mother-in-law' only where Xquic says it of the grandmother (¶4).
+3. No new house renderings proposed beyond pass 1's; Chahal Echa 'the Guardian of Food' and Xtoh, Xcanil, Xcacau kept as
+   names could go into the table if they recur.

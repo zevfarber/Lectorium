@@ -19,8 +19,8 @@
 | popol-vuh-014 | The birth of Hunahpu and Xbalanque; their elder brothers become monkeys | fols. 18r–19r | published |
 | popol-vuh-015 | The grandmother laughs; the monkeys go to the forest; the field that clears itself | fols. 19r–20v | published |
 | popol-vuh-016 | The animals undo the field; the rat tells of the ball things | fols. 20v–22r | published |
-| popol-vuh-017 |  | LoC images 0053–0056 | todo |
-| popol-vuh-018 |  | LoC images 0060–0062 | todo |
+| popol-vuh-017 | Xibalba summons the twins; the louse, the toad, the snake and the falcon | fols. 22r–23v | established |
+| popol-vuh-018 |  | LoC images 0056–0059 | todo |
 | popol-vuh-019 |  | LoC images 0063–0065 | todo |
 | popol-vuh-020 |  | LoC images 0066–0068 | todo |
 | popol-vuh-021 |  | LoC images 0069–0071 | todo |

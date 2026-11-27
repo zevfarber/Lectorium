@@ -2403,3 +2403,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, with notes: السعيدان (al-saʿīdu anna run together); verse تَفْجَا and الثَّار without hamza; P917L20 كُحَلُ (read as kuḥl with a metrical vowel; kaḥal, the natural dark rim of the eyelids, offered as the alternative); P918L07 وَتَرَتْ read as watarat with no joining 'and', its force flagged as uncertain; P917L09–10 printed without hemistich breaks.
 - Decided meanwhile, reversible: P918L01 ذَنْبِي اِلَى الدَّهْرِ read as a topic with ذَنْبَ الْحُسَامِ as object of فَلْيَكْرَهْ; P917L19 اللَّيَالِي read al-layāliya (accusative, as the metre needs).
 - Nights 223–224 are complete and unpublished; the next firing publishes Night 223. Nothing waits on the owner.
+
+## Night 223 (P918L16–P920L02, published 2026-11-27)
+- Library label: `Night 223 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): ة→ه ×5 (فؤاده P918L18, وراءه P918L19 and P919L08, خبره P919L13, سيده P919L22, 'his master's two sons').
+- Kept as printed, with notes: run-together السعيدان, وثاروامّا, ماحصل, ياليتنا, لانروح, ماجرى, لاحول ولاقوة; فعَلاَ with the print's fatḥa on the lām-alif; مشوُمة (pointed مَشُوُمَةٌ, mashūma for mashʾūma, as the shared keys مَشُومَة have it; Night 47 pointed the masculine مَشْوُمُ); اريح; mukattafīna plural for the two brothers.
+- Decided meanwhile, reversible: P919L10 كان read as ka-anna ('as though'), with kāna given as the alternative; P919L23 واقفين read as the dual wāqifayni (plural possible, noted).
+- Nights 224 is complete and unpublished; the next firing publishes it. Nothing waits on the owner.

@@ -2358,3 +2358,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Dot check (adjudicator): 9 endings restored to ة. Judgement call left as pass 1 read it: on P908 the endings of اخوه, اخبره, واخبره, قصره are a rounder ه with one knob, read as plain ه (the archive has قصره 21×, قصرة 0×).
 - Kept as printed, for publishing: P906L05 قوب (sense قرب), P906L17 برضيك (sense يرضيك), P909L18 النضائل (sense الفضائل), P908L20 القيضة (sense القضية), P909L04 بالبكا وايضا; spacing بماجرى, ماجرى, لاغروان, سهومن. P910L12 وشيء: one pass wrote ئ; the adjudicator saw a dotted ي and a separate hamza.
 - Night 218 is complete and unpublished; the next firing publishes it. Nothing waits on the owner.
+
+## Night 218 (P903L20–P904L21, published 2026-11-27)
+- Library label: `Night 218 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P904L05 هذة → هذه; P904L09 اجدة → اجده; P904L11 حصرة → حصره.
+- Decided meanwhile, reversible: P904L11 وعجزت عن حصره الحساب is pointed الْحُسَّابُ, "the reckoners" (a broken plural, so the feminine verb agrees), rather than الْحِسَابُ, which would leave the feminine verb unexplained; the note says the reading is ours. العاشقه, المفارقه (ه for ة) kept as printed and pointed pausal (-ah).
+- Next: Night 219 runs on into volume 2 and is not complete; the next firing transcribes (PDF 936 onward). Nothing waits on the owner.

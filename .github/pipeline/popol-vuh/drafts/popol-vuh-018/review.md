@@ -161,3 +161,74 @@ All other known forms match the published mt.
    Decide together.
 4. Achinac is achinak by 007's rule; if 'who' achinaq is accepted as certain, change it.
 5. The tz' supplied on the plain ligature (tz'ub'aj, tz'onox) remains part of the open 015–017 question.
+
+
+## Pass 2
+
+This pass read all 63 units again as a fresh read: the labels, `l` against the K'iche', `l` against `i`, the house renderings, and mt against the toggle rules and the published parts (the comparison script was run again on 001–017). It also checked every gloss entry: 62 novel keys and 13 broadenings from the Sonnet glosser. Pass 1's changes were checked and found right. Brasseur's ball-argument passage (OCR 25504–25570) and his lords' footnote (25294–25296) were reread for the attributions.
+
+Gloss checks, by script and by reading:
+- Every gloss value's modern form was compared with the units' mt for that token.
+- Every novel form has an entry, and there is no extra key.
+- Every broadening starts with its popol-vuh-glossary.json entry, copied whole, + " · ".
+- Every known token was checked against its glossary entry for this part's sense, which found five missing broadenings.
+- Each entry's morphology and (inferred)/(guess) flags were read against the units' `l` and `n`.
+
+Edits were made by script (load, change named fields, dump with ensure_ascii=False, indent=1, as the files were). No `t` changed. After the edits, a script check confirms:
+- the 63 units tile the 9 pinned paragraphs exactly;
+- each paragraph starts a unit (U1, 5, 9, 25, 29, 34, 39, 49, 59);
+- len(mt) equals the number of WORD_RE tokens in every unit;
+- every novel form has a gloss entry;
+- every broadening begins with its current glossary entry + " · ";
+- hooks.assemble + hooks.validate, run in memory with the merged glossary, give no errors or warnings, and no form is left uncovered.
+
+`r3.py validate` was not run, because it needs the built story file and this pass does not build.
+
+Counts. Units: 0 major, 1 minor, 1 style. Gloss: 0 major, 11 minor, 5 style.
+
+### Unit changes
+
+- U26 · l · minor · Pass 1 changed the note on `are chi biyh` to 'to say' (no chu- 'he' written), but `l` still had "that he-says". · `l` is now "this to-say its-name …".
+- U8 · n · style · The note said "curi is cut 'then' + ri". The letters are cu + ri, as the published k'uri (k'u + ri) has it. · "cu 'then' (the short form of cut) + ri 'the'".
+
+The fresh read found nothing else to change. All of these were checked again and are right:
+- the labels: the ergative/absolutive prefixes, ch- + a-/i- commands, the passives xuꜭhaxic, xe vꜭhax, xe vchaxic and xe ꜩonox, the -ou agent-focus xi/xe tiouic, the antipassive xe tacon, and xahauax;
+- the speaker tags of ¶3 and ¶8, tag by tag;
+- the couplets in `i` (U26, U46, U47, U48, U62);
+- the house renderings (Vꜩ bala, poy/aham che, Queꜫuma Ha, ahau, the lords' English names, Ahalq'ana).
+
+The mt comparison is unchanged from pass 1. caca kaqa, quetaam qetaam, chiquech chiqech and toc tok are the only forms that differ from the published mt, and each is a different word or person.
+
+### Gloss changes
+
+- yicou · minor · "they crossed, waded" gave the form a person it does not carry (the 'they' is qui-). · "(inferred) cross, wade across (it); …".
+- hu · minor · The entry was marked (guess), but both units mark hu = hun as inferred (U43, U56). · Now (inferred).
+- alanic · minor · The morphology "al + -ik" left out the -an. · "al … + -an + -ik".
+- ꜫaꜫa (broadening) · minor · The new reading had the head form q'aq', but the mt is q'aq'a. It also repeated the 'red' example of the old entry. · "q'aq'a — (inferred) fire; q'aq' 'fire' + -a, … (xa ꜫaꜫa chicop …; Brasseur gaga, 'des lucioles')".
+- que (broadening) · minor · It said "a possessive pronoun after a noun", but in va que and ri que the pronoun follows a demonstrative or the article and stands alone. · "qe — ours; q- + e, standing alone as 'ours' (…, of the ball); Brasseur va ke 'la nôtre'".
+- coh (broadening) · minor · Not needed, so removed. The published entry already has "koj — put, place; transitive verb (inferred)" and "koj — we, us (ongoing)". The 'you (pl.)' of chi coh belongs to chi, whose published entry has ch- + i-. Pass 1's request for it is refused for this reason.
+- chec (broadening added) · minor · The only published entry is "carry her off" (ch- + ec), but U27 reads chec as 'leg, shin'. · Added "(inferred) leg, shin; …; perhaps the modern ch'ek 'knee', not restored".
+- vah (broadening added) · minor · The only published entry is "hid" (evah), but U62's qui vah is 'you (pl.) want'. · Added "(inferred) want; w- + aj, the iw- 'you (pl.)' before a vowel with its i written in the qui before it, after Brasseur qu'yv'ah".
+- re (broadening added) · minor · No published entry has 'this', but U53's Re ba is 'this (one)'. · Added "(inferred) this (one); …, the sense from the setting".
+- xi (broadening added) · minor · The published entry has x- + i(n) 'me', x- + i- 'you (pl.)' ergative, and 'I'. None of these is the roll-call's reading (13 taps, U13–U24): the absolutive 'you' (ix with its x not written), as the units read it. · Added "(inferred) x- completive + i(x) 'you (pl.)', the absolutive object, …, said to one person out of respect; after Brasseur 'quoi donc vous a piqué'".
+- ꜭha (broadening added) · minor · The published entry is 'says, said'. U57's Ꜭha chic is a command, 'say it again', marked doubtful. · Added "(guess) say (it)!, the bare root as a command; Brasseur 'C'est dit!'".
+- ꜩubah · style · "the tz' and b' supplied". The b' is ordinary respelling, not supplied. · "the tz' supplied on the plain ligature".
+- calainic · style · "they greeted" gave the noun a person. · "greeting, to greet; … (xe calainic 'they greeted')".
+- cachaco · style · "we have beaten them" fixed the tense and the object, which come from mi xe. · "we beat (them); … the ending of a transitive verb, … (mi xe cachaco 'we have just beaten them')".
+- ꜩonox · style · "they were asked" gave the form a person. · "be asked, was asked; … (xe ꜩonox 'they were asked')".
+- chiquech (broadening) · style · "; also 'to them' above" repeated the old entry. · Removed.
+
+The other novel entries were checked against their units and kept. They are true to the form, flagged as the units flag them, and general to the form. The Brasseur quotations were found in the OCR, among them 'Sang-d'Épervier' (25296) behind 'Hawk Blood'. The 12 remaining broadenings from the glosser each add a sense the old entry lacks and copy it whole: chi, tio, ti, cut, xquiz, que, ꜫaꜫa, caca, toc, chiquech, quetaam, ꜩih. Three of them (que, ꜫaꜫa, chiquech) were edited above; the rest are kept as written.
+
+### Refusals
+
+- coh broadening (pass 1's request): refused, as above; the published senses cover every use here.
+- chi broadening: its old entry already has chik 'again' (c shared with the next word) and chik 'any more' (c not written), so the new reading is close to them. It is kept, because 'again, in turn' with the c simply not written (chi vi, chi roo, chi Ahalpuh) is the reading pass 1 gave five units, and the reader taps it there.
+- camic: a broadening 'death' (U62 Xa camic) was considered and dropped. The published 'died, dying' is close enough.
+- U15 i "he said in his turn": kept. Here the tag follows Vucub Came's first question to Xiquiripat, so "in his turn" is right, unlike U16–U23, where pass 1 made it "he went on".
+- ꜩih broadening's example "'they lit the torch'" drops the negation of U43 (Ma cu xqui ꜩih). It is a fragment illustrating the verb, so it was not changed.
+- vacac is flagged (inferred) and vvc and vahxac are not, though all three take their q from the known numerals (waqaq, wuq, wajxaq). The units do not flag them either, so the gloss was left as it is.
+
+### For the owner
+
+No new open decisions. Pass 1's list stands (the three Brasseur differences for the establisher, the tag-closes-speech rule, catat/k'at, Achinac, the tz' on the plain ligature). The drafter's proposed house renderings were not added to conventions.md.

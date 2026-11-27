@@ -84,3 +84,6 @@ Decided meanwhile: published with the pinned numbering (2437b, 2455 on "Grado", 
 
 ## 2026-11-27 · cid-tiradas-137-137c · printer's slips in the italic line 3211b (Run 4, establish)
 1. 3211b (wholly italic, restored by Pidal) prints "Allí les respondió el comdc do Remond:" — at zoom 9 the last letter of comdc is plainly c (no eye, against the e of "el" beside it), and do lacks its n. Decided meanwhile: comdc read as the misprint it is, comde (as in 3208, 3135); do kept as printed (a dropped letter, not a reading we can see; the drafter's note says it stands for don, as everywhere else in this scene). If the owner prefers the print letter for letter, change comde back to comdc and re-pin.
+
+## cid-tiradas-137-137c (2026-11-27, Run 4)
+- Part renamed from "The Cid claims the dowry money" to "The Cid's second claim: the three thousand marks" (parts.json updated): Pidal's rubric calls the money "el ajuar" (house "trousseau"), it is not the arras ("dower"), and "dowry" blurs the house distinction. Decided meanwhile: the new name stands; owner may restore the old one.

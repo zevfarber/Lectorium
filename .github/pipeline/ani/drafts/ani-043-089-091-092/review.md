@@ -78,3 +78,64 @@ These known entries are too narrow for this part (`__broaden__`):
 - nw (known only "Nu"; here the verb "look, see", U14);
 - ·ti (known as the 2nd person stative ending; here also the 3rd person feminine, wn·ṯi and ḫtm·ṯi, U34–U35);
 - iꜣbtt (known as the noun "the east"; here the adjective "eastern", U22).
+
+
+## Pass 2
+
+Method. Every unit was read again through pass 1's merged view (copied to scratchpad `r2/view.py`), word by word against the packet's signs, Budge's transliteration and English, and the approximate-code flags. Every glossary entry was read against how units.json uses the lemma. House roles, renderings and say forms were checked by script against all published `ani-*.json`. No modern translation was opened or recalled. All edits were made by script (`r2/edit.py`). Before replacing anything, the script asserts each text replacement matches exactly once, each glyph's old sign, role and tr, and each gloss entry's old opening. Files were written back with json.dumps(ensure_ascii=False, indent=1) and no trailing newline. Pre-edit copies are in `r2/*.before.json`.
+
+After the edits:
+- `check.py`: the 1550 sign codes equal the packet's sequence; 57 units, 496 words; 0 errors.
+- Lemma check by script: every morph lemma is in known-lemmas.json or gloss.json; no gloss entry is unused; every `__broaden__` value starts with the known entry copied whole + " · ".
+- Only one glyph differs from pass 1 (U43, role/tr). No code was changed or moved.
+
+Counts: 0 major, 24 minor, 9 style.
+
+### Changes — units.json
+
+- U18 · l, i, n · **minor** · "who-make-enter" / "make the bas enter" is Budge's "who make to enter". The house renders stknyw "who-usher-in" (001-b), and the known gloss is "bring near, usher in". · l → "who-usher-in"; i → "who usher the bas into the mummies"; the note gives the sense and quotes Budge as a check.
+- U24 · n · **minor** · The note called n (arms alone) + sḏm·f "the future negative". n sḏm·f is the negative of the past or of what cannot happen. nn is the future. · The note now says so, and says the arms alone also write nn here, so the future is taken as in Spell 43. The gloss of ḥtm·f is now "it shall be destroyed", matching l.
+- U25 · l · **minor** · "on · breast-his", but no ḥr is written (the note says so). · → "(on)-breast-his".
+- U42, U47 · l · **minor** · "on-the-day" for bare hrw, with no preposition written. · → "(on)-the-day".
+- U43 m-m · glyph 2 (D36) · **minor** · The arm was det with empty tr. The house tags it phon ꜥ in m-m (125-address m-m·sn), as in mi written mꜥ. · → phon ꜥ. The note now says the arm comes from the later spelling with ꜥ and is not read.
+- U47 · n · **minor** · The note glossed wn wꜣt as "'the way is opened'", but pass 1 made l/i a wish. · → "here taken as a wish, 'let the way be opened'".
+- U55 · n · **minor** · nḏrt was called the infinitive of nḏr, but a strong verb has no t in the infinitive. · → a noun in t from nḏr; the infinitive point is stated.
+- U56 · n · **minor** · The note had "he will go forth", against l/i's present (pass 1's change). · → "he goes forth"; "his ba shall not be shut in(?)".
+- U8 · i · **minor** · "who are in your hall" changed the person: l has sḥ·f "his hall". · → "O this Runner, who is in his hall!"
+- U33 rdwy · say · style · "redwy". By rule w after a consonant → u, and the house has reduyi. · → "reduy".
+- U34 · i · style · "what was sealed" against l "what-is-sealed". · → "what is sealed".
+- U38 · n · style · pw and ꜥꜣ are masculine after feminine wꜣt, and the note did not say so. · One sentence added.
+- U44 · n · style · smn is taken as a participle agreeing with irt, but it has no t. · "here without the t of the feminine" added.
+
+### Changes — gloss.json
+
+- rnpi · **minor** · Pinned to this text ("stative rnp·kwi 'I am young'") and called the palm-rib a classifier. · → "to be young, become young again (verb; Budge: renpà)".
+- pḥrr · **minor** · The verb lemma was glossed as the noun "runner (?)", with a line-specific "a title of a god who is called on". pḥrr is the verb "run". · → "to run (verb); pḥrry 'runner, one who runs' (noun m.; Budge: peḥreri)".
+- wḏfꜣ · **minor** · Pinned ("wḏfꜣw 'there is delay'"). · → general, "a writing of wḏf with ꜣ".
+- ꜣmm · **minor** · The units use it as a noun ("your grasp"), and the entry gave only the verb. · Noun sense added, marked "(?)".
+- nbw · **minor** · Invented adjective "golden". · Removed; Budge: nub added.
+- ꜥꜣt · **minor** · Pinned ("used of stones inlaid in a work"). · Removed; Budge: āat added.
+- wnt · **minor** · Invented gloss "a place that is shut and opened". · Removed; "perhaps from wn".
+- ḫtm · **minor** · ḫtmyw was labelled "noun m. plural", but U49 has the participle. · The form is dropped from the lemma; Budge: χetem added.
+- ḫkr · **minor** · "the sense of the verb is doubtful" was unfounded. Budge was missing. · Removed; Budge: χakeru, 'splendours' added.
+- nmtt · **minor** · Labelled "noun f. plural" for a singular feminine noun. · → "(noun f.; from nmt 'stride, travel'; Budge: nemmat)".
+- nḏr · **minor** · nḏrt was labelled "the infinitive". · → "nḏrt 'grasp, holding' (?) (noun f.)".
+- iḫḫw · **minor** · "noun m. plural"; the sense came only from Budge. · → "dim light, twilight (?) (noun m.; …; Budge: àχeχu, 'rays of light')".
+- __broaden__ iwi · **minor** · Not needed: the known entry covers the iwt of U9 and the iw of U43. It also misnamed iwt as an infinitive, where the unit has the sḏm·f after rdi. · Removed.
+- __broaden__ iꜣbtt (new) · **minor** · The known entry is the noun only; U22 has the adjective (pass 1's request). · Known entry + " · also eastern (nisba adjective, feminine …)".
+- __broaden__ nw, dmi, nm · **minor** · New senses were pinned ("imperative nw 'look!'", "rdit dmi 'letting join'", "nm·f 'may he repeat'; from m nm"). nw was also called "of the same spelling", which it is not. · Made general; old entries copied whole (checked).
+- __broaden__ šwt · style · "of the same spelling" (feather and sunshade are different signs), and Budge's χaibit was given as if it were his reading of šwt. · → "a second word šwt: …; Budge reads χaibit, another word for the shade".
+- innytw · style · Line-specific ("called on to send the ba home"). · → "a god (god's name; …)".
+- ḫꜣ · style · "number m." · → "number".
+- ḫpd · style · No grammar label. · → "(a word not identified, perhaps a noun; …)".
+- bꜣw, mdw, ꜥqꜣ, mwt · style · bꜣw now has Budge: baiu and "plural in form". mdw now has the homograph 'staff' that the U40 note uses, and Budge: meṭ. ꜥqꜣ and mwt broaden entries are trimmed (copies checked).
+
+### Refused
+
+- **·ti broaden** (pass 1's request). Not needed: the known entry already has the 3rd person feminine ·ṯi.
+- **mwt broaden** kept: mwtw 'the dead' is not covered by "to die".
+- **say -iu/-yu** (inyw iniu, sḥryw seheriu, stknyw setekeniu against 001-b setekenyu). Left: the house is mixed, and the part is consistent.
+- **pd / rwd** read with d (lemma pḏ for pd, but rwd for rwd). Left: both follow the known entries, and each note states the d for ḏ.
+- **unread signs given a tr** (t in ṯs·kwi, ꜣ after wsir in U11, the stray f in U42). Left: the house has no role for an unread phonetic sign, and the notes say they are not read.
+- **U21 i "in your presence(?)"** for ẖr ḫpd n·tn. Kept: it is marked doubtful and the note says it follows Budge.
+- **U13, U36, U51, U52, U55 doubtful readings.** Checked: the doubt is flagged consistently in l, i and the note; left.

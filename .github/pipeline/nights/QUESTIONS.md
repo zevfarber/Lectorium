@@ -2396,3 +2396,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Decided meanwhile, reversible: P916L20 انشده is read as narrative (anshadahu, al-Amjad recites to the treasurer); the imperative anshidhu, still inside his instructions, is equally possible and the note says so.
 - Review suggestion not taken: rewording the existing shared key الْأَسْعَدَ ('in apposition after inna' — it is the noun of inna); existing entries are only appended to.
 - Nights 222–224 are complete and unpublished; the next firing publishes Night 222. Nothing waits on the owner.
+
+## Night 222 (P917L04–P918L15, published 2026-11-27)
+- Library label: `Night 222 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P917L05 ما تريد منك → ما نريد منك (as at P917L02 the night before); ة→ه ×3 (خدّه, شعره, يده); P918L06 verse مُزْدَةٍ → مُزْدَهٍ (muzdahin, 'puffed up'; مزدة gives no word).
+- Kept as printed, with notes: السعيدان (al-saʿīdu anna run together); verse تَفْجَا and الثَّار without hamza; P917L20 كُحَلُ (read as kuḥl with a metrical vowel; kaḥal, the natural dark rim of the eyelids, offered as the alternative); P918L07 وَتَرَتْ read as watarat with no joining 'and', its force flagged as uncertain; P917L09–10 printed without hemistich breaks.
+- Decided meanwhile, reversible: P918L01 ذَنْبِي اِلَى الدَّهْرِ read as a topic with ذَنْبَ الْحُسَامِ as object of فَلْيَكْرَهْ; P917L19 اللَّيَالِي read al-layāliya (accusative, as the metre needs).
+- Nights 223–224 are complete and unpublished; the next firing publishes Night 223. Nothing waits on the owner.

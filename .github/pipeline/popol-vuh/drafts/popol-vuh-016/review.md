@@ -63,3 +63,59 @@ Forms with several published mt (catit qatit/katit, cabix, ca qa/ka, xe/xe', ha 
 2. quih in `tiquil quih` as q'ij.
 3. The tz' supplied on the plain ligature for tz'apij and tz'onoj (with 015's tz'iloj).
 4. U15: the deer and the rabbit "came by" their tails (the u- reading, parallel to U20), against Brasseur's twins.
+
+## Pass 2
+
+This pass covered all 56 units again and every gloss entry (75 novel keys and 11 broadenings from the glosser). It checked
+pass 1's changes and found them right: ic → ik for 'chile', awetaam, the u- reading of U15, the active ca rah in U28, and
+ca quil. The Brasseur quotations were checked again in the OCR, including the footnotes for yaclin (24268–24270), pek (24396)
+and Xan (24518). Every gloss value's modern form was compared by script with the units' mt for that token, and all of them
+match. Every broadening was checked against popol-vuh-glossary.json: each starts with the old entry, copied whole.
+
+Edits were made by script (load, change named fields, dump with ensure_ascii=False, indent=1). No t changed. After the
+edits, a script check confirms: the 56 units tile the 19 paragraphs exactly; each paragraph starts a unit (U1, 5, 7, 9, 12,
+13, 16, 18, 22, 26, 29, 32, 33, 37, 39, 43, 45, 49, 52); len(mt) equals the number of WORD_RE tokens in every unit;
+gloss.json loads and covers all 75 novel keys; and every one of the 18 broadenings starts with its glossary entry + " · ".
+
+Counts. Units: 0 major, 2 minor, 1 style. Gloss: 0 major, 13 minor, 4 style.
+
+### Unit changes
+
+- U5 · i · minor · "as we found it when we came there just now" adds 'as we found it', which is not in the text (ta xoh opon mier 'when we arrived just now'). puch 'also' was dropped. · "and a great forest too over our field (?), when we went there just now, grandmother".
+- U22 · l · minor · The l left (qui) bare, though the note reads it as 'I' (quin, with the n not written) and the i renders it. Pass 1 fixed the same gap in U33. · "Not (ta) I(?) dying by-you;".
+- U19 · n · style · "has plain c (Brasseur cateh)" presents an agreement as if it were a difference. The OCR (24293) has x-qui cateh. · "with plain c as in Brasseur's cateh".
+
+### Gloss changes
+
+- cho (broadening) · minor · The new reading began "cho — rat", but the modern form must be the mt, ch'o. · "ch'o — rat, mouse; noun (modern ch'o), …".
+- cateh · minor · The morphology was misnamed: "x- completive form xki katej". The form has no x-. · "katej — (inferred) block, head off; transitive verb (xki katej 'they blocked it'), …".
+- ꜩapitah · minor · "the plain tz ligature supplies the tz'" was wrong. The ligature is plain, and the toggle supplies the tz'. · The entry now says so.
+- vꜩin · minor · "tzin … with u-" took the u of utzin for a prefix. The verb is utzin 'be complete' (from utz 'good'), as the unit's note has it. · The entry is rewritten.
+- iaclin · minor · "does not fit K'iche' grammar" was stated as fact, and the entry was not marked uncertain. This is Brasseur's footnote (OCR 24268–70), and the unit attributes it to him. · The entry is marked (inferred) and attributes the claim to Brasseur.
+- cuxu · minor · The entry put the 'you shall' of cha into the form cuxu itself. · "gnaw (it); with cha 'you (command)', …".
+- varah · minor · The entry put ca 'we' into the form. · Removed.
+- quia (broadening) · minor · It was marked (inferred), but the unit calls the sense a guess. · (guess).
+- cama (broadening) · minor · It duplicated the existing sense: the old entry 'taking, take (from k'am)' already covers 'fetch'. · Removed.
+- quih (broadening added) · minor · The existing entry is kij 'juice', and it says explicitly 'not q'ij'. The units read tiquil quih as q'ij 'noon, sun' (U38). The glosser missed this. · Added "q'ij — (inferred) sun, day; in tikil q'ij 'noon' …".
+- xiquin (broadening added) · minor · The existing entry has only 'ear', but U35 and U40 use xiquin ha 'the corner of the house'. · Added "xikin — corner (of a house) …".
+- xi (broadening added) · minor · The existing entry has only x- + i(n) 'me', but U53 xi bano is 'you (pl.) did'. Pass 1 left this to the glosser, who missed it. · Added "xi — you (pl.) (did it) …".
+- xcut (broadening added) · minor · The existing entry is 'was struck (guess); perhaps showed', but U42 has 'was ground'. · Added "xkut — (inferred) was ground …".
+- caam (broadening added) · style · The existing entry has only k'a'm 'vine', but U39 cu caam has mt kaam 'carry'. · Added "kaam — (inferred) carry …".
+- ti (broadening added) · style · The existing entry is 'eat (flesh)', but U41 and U42 use qa ti / qui ti 'our eating, their meal', a noun, and the food is not flesh. · Added "ti — (inferred) eating, a meal …".
+- que, tah (broadenings added) · style · U23 que chabiyh, U51 que vah and U51 xqui mahix tah are unclear in the units, and neither existing entry has an unclear sense. · Added an "(unclear) … left unrendered" reading to each.
+- xuban, ana, vquebal, numic · style · These were tidied. xuban was marked (inferred) although the form is certain; ana was capitalised; vquebal had only 'its', although the jar is hers; numic had "(inferred)" in the wrong place. · Corrected.
+
+The other novel entries were checked against their units and were found to be true to the form, marked where the units mark them, and general to the form. Kept as written: poroh poroj, quinac kinaq', vz us, xcoz kos, mezcutahinac (mes 'sweep'), and the ꜩapih family.
+
+### Refusals
+
+- tum, ic, pec, va, tac, cat, cul, quebal broadenings: each adds a sense that is not already present and copies the old entry whole. Kept (quebal was tidied).
+- I left the remaining doubtful-reading words without broadenings where the existing entry already covers the use: quil 'it is seen', chel, ya 'river', ha 'water', ca as the unclear particle, chi as the unclear particle, and pu 'in its'.
+- U13 xrah … qui chapo (i "the twins tried"), U26 icahau 'your father' with i "fathers", and U42 lac 'plate' with i "bowl" are all within house practice. Not changed.
+- The about paragraph agrees with the units, including U15's (?) reading, which it does not contradict. Not changed.
+
+### Open questions for the owner (in addition to pass 1's four)
+
+1. xan (U47): the modern K'iche'/Kaqchikel word xan may be 'mosquito'. If the owner confirms this, the gloss could say so. It now keeps xan as a name, after the text's own comparison with vz.
+2. tiho (U48), published as "tij 'try'": in modern K'iche', tij is 'eat (tr.)', and 'try' is another verb. The sense 'she tried' rests on Brasseur ('qu'elle essaya'). The published entry was not changed here.
+3. xvoro (U48) is labelled x- + wor + -o, but a transitive verb would want the ergative u- (xuworo). Either the v is the prefix or the prefix is unwritten. Left as drafted.

@@ -1,0 +1,5223 @@
+{
+ "id": "ani-015-b",
+ "pages": [
+  127,
+  131
+ ],
+ "start": {
+  "page": 127,
+  "plate": "XIX",
+  "line": 1,
+  "note": "“1. ànet' ḥrà - k χabes em Àn …” (“Homage to thee, [lord of] starry deities in Àn …”, p. 127 row 3, under the rule: the litany of Chapter XV), right after ani-015-a's “ḥeḥ t'etta” (p. 127 row 2, end of the hymn to Osiris)"
+ },
+ "end": {
+  "page": 131,
+  "plate": "XX",
+  "line": 15,
+  "lastWord": "neb - à",
+  "note": "… may I be united to the land of everlastingness; thou, behold, hast ordered for me it, my lord. (p. 131 row 9, second word; the rest of the row, “à Àusàr Ani maāχeru em ḥetep maāχeru t'eṭ - f” “Hail Osiris, Ani, … he saith:”, opens the speech that runs on to p. 132 l. 16 and is the next part)"
+ },
+ "skipped": [
+  "p. 129 footnote 1 (“For a similar text see Lepsius, Todtenbuch, Bl. iv.”; its mark stands in the PLATE XX title row)"
+ ],
+ "sections": "One continuous run of Ani's text, Chapter XV, no Appendix: the litany “ànet' ḥrà - k” p. 127 row 3 – p. 129 row 3 (“sep sen”, Plate XIX ll. 1–10, numerals restart at 1 under the rule), then after the heading PLATE XX the hymn “ṭua - ṭuau Rā χeft uben - f em χut àbtet ent pet” p. 129 row 4 – p. 131 row 9 (ll. 1–15). The Plate XX hymn runs on past p. 131 (p. 132 begins “16. ànet' ḥrà - k uben - k”), so the part ends at the last sentence-end on p. 131, “neb - à”, leaving the vocative and “t'eṭ - f” with the speech they introduce. parts.json had pp. 128–131; the part starts on p. 127 row 3, where ani-015-a stopped.",
+ "words": [
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "M17",
+    "Aa27"
+   ],
+   "q": "0-1",
+   "budge": "ànet'",
+   "gloss": "Homage to thee,",
+   "rubric": true,
+   "approx": [
+    "Aa27"
+   ],
+   "unsure": "first group of 'ànet' ḥrà - k' (Budge prints the two transliteration words without hyphen between them; split here into two words). Reed M17 then the spindle-like upright with a ring and crossbar near the top (Aa27 approx). Under overline. Overline over row 3 begins just after the numeral '1.' and ends after V31; it shows a tiny break above the gap between the reed and Aa27. · Decision (A): Budge spaces ànet' | ḥrà - k as two transliteration groups under one overline: two words (as mer | Ṭes Ṭes in ani-015-a)"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "D2",
+    "Z1",
+    "V31"
+   ],
+   "q": "0:1-2",
+   "budge": "ḥrà - k",
+   "gloss": "[lord of]",
+   "rubric": true,
+   "unsure": "face D2 (frontal face with ears) on a stroke Z1, then basket V31; under overline"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "M12",
+    "G1",
+    "D58",
+    "S29",
+    "N14",
+    "Z2"
+   ],
+   "q": "0-1-2-3-4:5",
+   "budge": "χabes",
+   "gloss": "starry deities",
+   "approx": [
+    "M12"
+   ],
+   "unsure": "first sign is a lamp: small curled/open ring on a thin stem with an X-shaped base (no exact code; Q7 approx). S29 is the tall folded cloth. '[lord of]' in the English stands between ànet' ḥrà - k and this word · Decision (B): first sign a tall stem with a curled top on a flared base: M12 approx (lotus-like); Q7 (brazier) does not fit; doubtful"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "in"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "O28"
+   ],
+   "budge": "Àn",
+   "gloss": "Àn, [and of]",
+   "approx": [
+    "O28"
+   ],
+   "unsure": "single tall pillar with a pointed tip on top (O28 approx); '[and of]' is Budge's English insertion · B: single tall narrow pillar with pointed top and small crossbar near top (O28 approx)"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "N8",
+    "G17",
+    "G17",
+    "X1",
+    "Z2"
+   ],
+   "q": "0-1-2-3:4",
+   "budge": "hamemet",
+   "gloss": "the celestial beings",
+   "unsure": "disk with rays hanging down N8; Budge's 'hamemet' printed without dot under h · B: first sign a disk with rays/beaded strands hanging below (N8). '[and of]' bracket only in English."
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "in"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "T28",
+    "O26",
+    "N29",
+    "O49"
+   ],
+   "q": "0-1-2-3",
+   "budge": "χer-āba",
+   "gloss": "Kher-āba,",
+   "approx": [
+    "T28",
+    "N29"
+   ],
+   "unsure": "Budge prints 'χer' with 'er' raised small (χ^er-āba). First sign a small trapezoid with vertical hatching (T28 approx; W11-like); O26 rounded-top stele; then a low arch-shaped sign with small marks inside (N29 approx, uncertain); town O49 · Decision (A): no low flat sign is printed between N29 and O49"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "E34",
+    "N35",
+    "X1",
+    "Z4",
+    "A40"
+   ],
+   "q": "0:1-2:3-4",
+   "budge": "Unti",
+   "gloss": "[thou] god Unti,",
+   "unsure": "'[thou]' bracket only in English; no brackets in sign line · B: '[thou]' bracket in English only."
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "G25",
+    "Aa1",
+    "G43",
+    "Y1a",
+    "Z1"
+   ],
+   "q": "0-1-2-3-4",
+   "budge": "χu",
+   "gloss": "glorious more",
+   "unsure": "crested ibis G25; after the chick a narrow upright rectangle with small ticks on its left (Y1a) then a dashed vertical stroke Z1 · B: tall upright with ticks at left Y1a then a dashed stroke Z1. English 'glorious more' runs under χu and er."
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "D21"
+   ],
+   "budge": "er",
+   "gloss": "than"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "R8",
+    "R8",
+    "R8"
+   ],
+   "q": "0-1-2",
+   "budge": "neteru",
+   "gloss": "the gods"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "N37",
+    "N16",
+    "W10",
+    "G1",
+    "Z9",
+    "Aa13"
+   ],
+   "q": "0:1-2-3-4:5",
+   "budge": "śeta",
+   "gloss": "hidden",
+   "approx": [
+    "N37",
+    "N16",
+    "W10",
+    "Aa13"
+   ],
+   "unsure": "top: long rectangle with a diagonal band through middle (bolt O34); under it a thin flat bar with three dots beneath (N16 approx); small cup-like sign with rounded right side (W10 approx); vulture G1; then x (Z9) over a flat bar carrying a small sprawling shape (Aa13 approx; P1 possible per t'a ruling) · Decision (B): first sign the long hatched rectangle: N37 (š, house), not the bolt"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "Z11",
+    "G17",
+    "X1"
+   ],
+   "q": "0-1-2",
+   "budge": "àmt",
+   "gloss": "in"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "O28",
+    "W24",
+    "O49"
+   ],
+   "q": "0-1:2",
+   "budge": "Ànnu",
+   "gloss": "Heliopolis.",
+   "approx": [
+    "O28"
+   ],
+   "unsure": "same pointed pillar as Àn (O28 approx) · B: pointed pillar as in Àn (O28 approx)"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "M17",
+    "Aa27"
+   ],
+   "q": "0-1",
+   "budge": "ànet'",
+   "gloss": "Homage to thee,",
+   "rubric": true,
+   "approx": [
+    "Aa27"
+   ],
+   "unsure": "first group of 'ànet' ḥrà - k' (Budge prints the two transliteration words without hyphen between them; split here into two words). Reed M17 then the spindle-like upright with a ring and crossbar near the top (Aa27 approx). Under overline. Numeral '2.' at start of row 5; overline over the group. · Decision (A): Budge spaces ànet' | ḥrà - k as two transliteration groups under one overline: two words (as mer | Ṭes Ṭes in ani-015-a)"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "D2",
+    "Z1",
+    "V31"
+   ],
+   "q": "0:1-2",
+   "budge": "ḥrà - k",
+   "gloss": "",
+   "rubric": true,
+   "unsure": "face D2 (frontal face with ears) on a stroke Z1, then basket V31; under overline"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "O28",
+    "Z1",
+    "Z2",
+    "A40"
+   ],
+   "q": "0-1:2-3",
+   "budge": "Àn",
+   "gloss": "Àn",
+   "approx": [
+    "O28"
+   ],
+   "unsure": "pillar O28 approx, then a single stroke stacked over three small strokes, then seated god A40 · B: one stroke set above three strokes"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "in"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "O28",
+    "T30",
+    "N25"
+   ],
+   "q": "0-1:2",
+   "budge": "Àn-ṭes",
+   "gloss": "Àntes (?),",
+   "approx": [
+    "O28",
+    "T30",
+    "N25"
+   ],
+   "unsure": "Budge's English prints '(?)'. Knife lying obliquely (T30 approx, flint knife ds) over a low outlined base with wavy/three-humped top (N25 approx; could be a jar/basin sign) · B: knife lying diagonally (T30 approx) over a low box with wavy top (N25 approx). Budge's English has '(?)'."
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "G5",
+    "D21",
+    "A40"
+   ],
+   "q": "0:1-2",
+   "budge": "Ḥeru",
+   "gloss": "Horus"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "in"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "G25",
+    "Aa1",
+    "X1",
+    "Z4",
+    "N18",
+    "N18"
+   ],
+   "q": "0-1:2*3-4:5",
+   "budge": "χuti",
+   "gloss": "the double horizon,",
+   "approx": [
+    "N18",
+    "N18"
+   ],
+   "unsure": "two rounded oblongs with dots inside, stacked (N18 approx, no N27 printed) · B: two dotted oblongs stacked; no N27"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "Q3",
+    "N1",
+    "D46",
+    "D54"
+   ],
+   "q": "0*1:2*3",
+   "budge": "peṭ",
+   "gloss": "long",
+   "unsure": "top: Q3 and the sky N1; below: a lying cobra I10 (elongated shape with raised hump, same shape as ṭ elsewhere) and D54 · Decision (own): Q3, the bar with turned-down ends (N1 approx) over the flat hand D46 (Budge ṭ), then D54; whether D54 belongs here or to nemmat is unclear (spacing favours peṭ)",
+   "approx": [
+    "N1"
+   ]
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "D54",
+    "X1",
+    "Z1"
+   ],
+   "q": "0:1*2",
+   "budge": "nemmat",
+   "gloss": "of step,",
+   "unsure": "only D54 over X1 and a stroke printed; no n/m signs"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "U28",
+    "G1",
+    "P1",
+    "I9"
+   ],
+   "q": "0-1-2-3",
+   "budge": "t'a - f",
+   "gloss": "he passeth forth",
+   "approx": [
+    "U28",
+    "P1"
+   ],
+   "unsure": "tall tapering spike on a small foot (U28 approx); det: flat base carrying zigzag, upright post and oblique strokes (P1 approx, as house ruling) · B: tall tapering upright on a small base (U28 approx); determinative a boat-like flat base carrying an upright and zigzag strokes (P1 approx; same sign as det of uàa - f on p.128)"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "D2",
+    "D21",
+    "X1",
+    "N1"
+   ],
+   "q": "0:1-2:3",
+   "budge": "ḥert",
+   "gloss": "over heaven ;"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "N35",
+    "X1",
+    "I9"
+   ],
+   "q": "0:1:2",
+   "budge": "entef",
+   "gloss": "he is"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "G5",
+    "N27",
+    "X1",
+    "Z4",
+    "N18",
+    "N18"
+   ],
+   "q": "0-1:2*3-4:5",
+   "budge": "Ḥeru - χuti",
+   "gloss": "Horus of the double horizon.",
+   "approx": [
+    "N18",
+    "N18"
+   ],
+   "unsure": "Budge prints one group 'Ḥeru - χuti'. Horizon N27 (disk between hills) over X1 + Z4; then two stacked empty rectangles with a gap in the lower edge (look like O1 house plan; coded N18 approx as χuti's oblongs, undotted here) · B: horizon sign N27 over X1 Z4; the two stacked signs are hollow bracket-shaped oblongs (⊏⊐) without dots, coded N18 approx"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "M17",
+    "Aa27"
+   ],
+   "q": "0-1",
+   "budge": "ànet'",
+   "gloss": "Homage to thee,",
+   "rubric": true,
+   "approx": [
+    "Aa27"
+   ],
+   "unsure": "first group of 'ànet' ḥrà - k' (Budge prints the two transliteration words without hyphen between them; split here into two words). Reed M17 then the spindle-like upright with a ring and crossbar near the top (Aa27 approx). Under overline. Numeral '3.' stands at right of row 6; overline over the group. · Decision (A): Budge spaces ànet' | ḥrà - k as two transliteration groups under one overline: two words (as mer | Ṭes Ṭes in ani-015-a)"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "D2",
+    "Z1",
+    "V31"
+   ],
+   "q": "0:1-2",
+   "budge": "ḥrà - k",
+   "gloss": "",
+   "rubric": true,
+   "unsure": "face D2 (frontal face with ears) on a stroke Z1, then basket V31; under overline"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "R7",
+    "E10",
+    "Z1"
+   ],
+   "budge": "ba",
+   "gloss": "Soul",
+   "unsure": "small bucket-pot with a stick/handle (W10a approx) then the RAM E10 (horizontal wavy horns), stroke above; not the jabiru · Decision (B): the small bowl with wisps before the ram is the incense bowl R7 (house: R7 coded before the ba-sign); the ram E10"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "Q3",
+    "G43"
+   ],
+   "q": "0-1",
+   "budge": "pu",
+   "gloss": "",
+   "unsure": "no English word printed under pu (only a stray comma-like mark at left) · B: no English directly under pu; English 'of' stands between pu and en, with a stray comma-like mark at the line start"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "N35"
+   ],
+   "budge": "en",
+   "gloss": "of"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "V28",
+    "N5",
+    "V28"
+   ],
+   "q": "0-1-2",
+   "budge": "ḥeḥ",
+   "gloss": "everlastingness,"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "E10",
+    "Z1",
+    "M17",
+    "M17",
+    "A40"
+   ],
+   "q": "0:1-2-3-4",
+   "budge": "Bai",
+   "gloss": "Soul (or Ram-god)",
+   "unsure": "ram E10 with stroke above, two reeds M17, seated god A40; '(or' italic in English · B: ram E10 with horizontal horns; stroke above. English has '(or Ram-god)' with 'or' italic."
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "Z11",
+    "G17",
+    "Z4"
+   ],
+   "q": "0-1-2",
+   "budge": "àmi",
+   "gloss": "dwelling in"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "R11",
+    "R11",
+    "G43",
+    "O49"
+   ],
+   "q": "0-1-2-3",
+   "budge": "Ṭeṭṭeṭu",
+   "gloss": "Tattu,"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "E34",
+    "N35",
+    "N35",
+    "F35",
+    "A40"
+   ],
+   "q": "0:1:2-3-4",
+   "budge": "Un-nefer",
+   "gloss": "Un-nefer,"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "G39",
+    "Z1"
+   ],
+   "q": "0-1",
+   "budge": "se",
+   "gloss": "son of"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "W24",
+    "X1",
+    "N1",
+    "I13"
+   ],
+   "q": "0*1:2-3",
+   "budge": "Nut",
+   "gloss": "Nut ;",
+   "approx": [
+    "I13"
+   ],
+   "unsure": "rearing cobra over basket (I13) · B: rearing cobra on a basket (I13)"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "N35",
+    "X1",
+    "I9"
+   ],
+   "q": "0:1:2",
+   "budge": "entef",
+   "gloss": "he is"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "V30"
+   ],
+   "budge": "neb",
+   "gloss": "lord of"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "M17",
+    "W11",
+    "D21",
+    "X1",
+    "N25"
+   ],
+   "q": "0-1:2-3:4",
+   "budge": "Àḳert",
+   "gloss": "Aḳert.",
+   "approx": [
+    "N25"
+   ],
+   "unsure": "last sign the same low outlined base with three-humped top as in Àn-ṭes (N25 approx) · B: hatched trapezoid W11; low box with wavy top N25 approx"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "M17",
+    "Aa27"
+   ],
+   "q": "0-1",
+   "budge": "ànet'",
+   "gloss": "Homage to thee",
+   "rubric": true,
+   "approx": [
+    "Aa27"
+   ],
+   "unsure": "first group of 'ànet' ḥrà - k' (Budge prints the two transliteration words without hyphen between them; split here into two words). Reed M17 then the spindle-like upright with a ring and crossbar near the top (Aa27 approx). Under overline. Numeral '4.' mid row 8; overline over the group. · Decision (A): Budge spaces ànet' | ḥrà - k as two transliteration groups under one overline: two words (as mer | Ṭes Ṭes in ani-015-a)"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "D2",
+    "Z1",
+    "V31"
+   ],
+   "q": "0:1-2",
+   "budge": "ḥrà - k",
+   "gloss": "",
+   "rubric": true,
+   "unsure": "face D2 (frontal face with ears) on a stroke Z1, then basket V31; under overline"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "in"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "S38",
+    "N29",
+    "Aa13",
+    "V31"
+   ],
+   "q": "0-1:2-3",
+   "budge": "ḥeq - k",
+   "gloss": "thy dominion over",
+   "approx": [
+    "N29",
+    "Aa13"
+   ],
+   "unsure": "crook S38; small right-angled triangle (N29 approx, q) over a flat bar with a small tuft on it (Aa13 approx); basket V31 · B: crook S38; small right triangle (N29 approx) over flat bar with small tuft (Aa13 approx); no G1"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "R11",
+    "D46",
+    "G43",
+    "O49"
+   ],
+   "q": "0-1:2-3",
+   "budge": "Ṭeṭṭu",
+   "gloss": "Tattu,",
+   "unsure": "Decision (B): the flat sign over the chick is the hand D46 (Budge dotted ṭ), not the cobra"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "G36",
+    "D21",
+    "X1",
+    "S4"
+   ],
+   "q": "0:1-2-3",
+   "budge": "urert",
+   "gloss": "the urert crown",
+   "approx": [
+    "S4"
+   ],
+   "unsure": "det: a small crown-like/figure shape with a curl on top and a long oblique stroke, standing over a basket (S4 red crown on basket approx; shape unclear, could be a figure); 'urert' italic in English · Decision (A): the crown with a curl set on a basket, one sign: S4 approx (red crown on basket)"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "Y5",
+    "N35",
+    "Y1a"
+   ],
+   "q": "0:1-2",
+   "budge": "men",
+   "gloss": "is established"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "Aa15"
+   ],
+   "budge": "em",
+   "gloss": "upon"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "D1",
+    "Z1",
+    "V31"
+   ],
+   "q": "0:1-2",
+   "budge": "ṭep - k",
+   "gloss": "thy head ;"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "N35",
+    "X1",
+    "V31"
+   ],
+   "q": "0:1:2",
+   "budge": "entek",
+   "gloss": "thou art"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "T21",
+    "Z1",
+    "U15"
+   ],
+   "q": "0:1:2",
+   "budge": "uā",
+   "gloss": "the One,",
+   "unsure": "B: harpoon T21, stroke, low flat sign with upright tab U15 (Budge reads ā)"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "D4"
+   ],
+   "budge": "àri",
+   "gloss": "maker"
+  },
+  {
+   "page": 127,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "G17",
+    "D36",
+    "V31",
+    "X1",
+    "Aa13",
+    "Z1",
+    "I9"
+   ],
+   "q": "0-1-2:3:4-5-6",
+   "budge": "māket - f",
+   "gloss": "of his strength,",
+   "approx": [
+    "Aa13"
+   ],
+   "unsure": "owl with an arm projecting at its chest and a small upright tab behind (G17 D36 ligature); bottom: flat bar with a small tuft and upright tab at right (Aa13 approx; U15 possible); dashed vertical Z1 · B: owl with arm (hand out at left, upright tab at right) = G17+D36 ligature; basket over X1 over flat bar with small tuft (Aa13 approx); dashed vertical stroke Z1"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "R4",
+    "V31"
+   ],
+   "q": "0-1",
+   "budge": "ḥetep - k",
+   "gloss": "thou art at peace"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "in",
+   "unsure": "B: owl drawn with ear-tufts and little inner detail"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "R11",
+    "D46",
+    "G43",
+    "O49"
+   ],
+   "q": "0-1:2-3",
+   "budge": "Ṭeṭṭu",
+   "gloss": "Tattu.",
+   "unsure": "Decision (B): the flat sign over the chick is the hand D46 (Budge dotted ṭ), not the cobra"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "M17",
+    "Aa27"
+   ],
+   "q": "0-1",
+   "budge": "ànet'",
+   "gloss": "Homage to thee",
+   "rubric": true,
+   "approx": [
+    "Aa27"
+   ],
+   "unsure": "first group of 'ànet' ḥrà - k' (Budge prints the two transliteration words without hyphen between them; split here into two words). Reed M17 then the spindle-like upright with a ring and crossbar near the top (Aa27 approx). Under overline. Numeral '5.' mid row 1; overline over the group. · Decision (A): Budge spaces ànet' | ḥrà - k as two transliteration groups under one overline: two words (as mer | Ṭes Ṭes in ani-015-a)"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "D2",
+    "Z1",
+    "V31"
+   ],
+   "q": "0:1-2",
+   "budge": "ḥrà - k",
+   "gloss": "",
+   "rubric": true,
+   "unsure": "face D2 (frontal face with ears) on a stroke Z1, then basket V31; under overline"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "as"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "V30"
+   ],
+   "budge": "neb",
+   "gloss": "lord of"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "N35",
+    "U15",
+    "D21",
+    "X1",
+    "M1",
+    "A40"
+   ],
+   "q": "0:1:2-3-4-5",
+   "budge": "Nārt",
+   "gloss": "the acacia-tree,",
+   "approx": [
+    "M1"
+   ],
+   "unsure": "tree M1 with a curved line ending in an arrow-like point passing through its crown (no exact code); then A40 · B: tree with a cord/arrow crossing its trunk (M1 approx); seated god A40"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "D21",
+    "X1",
+    "U15"
+   ],
+   "q": "0:1:2",
+   "budge": "erṭāt",
+   "gloss": "placing",
+   "unsure": "the low flat sign with upright tab at right (U15) where Budge reads ṭā · B: D21 over X1 over low flat sign with upright tab (U15); no D36/D37 printed"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "O34",
+    "V31",
+    "D21",
+    "Z9",
+    "P3"
+   ],
+   "q": "0:1:2-3-4",
+   "budge": "Seker",
+   "gloss": "the Seker boat",
+   "approx": [
+    "O34",
+    "P3"
+   ],
+   "unsure": "top a thin horizontal rod with a small knot mid-way (O34 approx, thin bolt); det: a small x then a bark on a sledge (runners curled at left, posts) carrying a hawk-headed figure/shrine and an oblique oar-like object (P3 approx; Seker/Henu bark, no exact code); x coded Z9 separately though it may belong to the det · B: bolt O34 over basket over mouth; determinative = bark with standing bird/figure and oar on a sledge (P3 approx); a small × stands before it, coded Z9 (may be part of the bark drawing)"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "D2",
+    "Z1"
+   ],
+   "q": "0:1",
+   "budge": "ḥer",
+   "gloss": "upon"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "X1",
+    "U15",
+    "G17",
+    "X1",
+    "V1",
+    "I9"
+   ],
+   "q": "0:1-2-3:4-5",
+   "budge": "temt - f",
+   "gloss": "its sledge,",
+   "approx": [
+    "U15",
+    "V1"
+   ],
+   "unsure": "sledge sign: frame with posts and a curled/forked left end (U15 approx, more elaborate than the plain U15); after the owl, X1 over a curved line ending in an arrow-point (V1 approx, rope?) · Decision (A): the sledge with upturned end U15 (tm), no jackal head"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "U35",
+    "U15"
+   ],
+   "q": "0-1",
+   "budge": "χesef",
+   "gloss": "turner back of",
+   "approx": [
+    "U35"
+   ],
+   "unsure": "x-and-spindle ligature U35 (one sign); low flat sign with curled left end and tab at right U15 · B: spindle-with-viper ligature U35; then low flat sign with upright tab U15 (no D41 arm). 'esef' printed small/raised in Budge's transliteration."
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "S29",
+    "D58",
+    "M17",
+    "G43",
+    "N33",
+    "Aa26"
+   ],
+   "q": "0-1-2-3-4-5",
+   "budge": "Sebàu",
+   "gloss": "the Fiend",
+   "approx": [
+    "N33",
+    "Aa26"
+   ],
+   "unsure": "small circle between chick and the Y-forked upright (N33 approx) · B: small ring N33; Y-forked upright Aa26 approx"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "D4"
+   ],
+   "budge": "àri",
+   "gloss": "the maker of"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "N26",
+    "Z7",
+    "G37"
+   ],
+   "q": "0:1-2",
+   "budge": "ṭu",
+   "gloss": "evil,"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "D37"
+   ],
+   "budge": "ṭā",
+   "gloss": "making",
+   "approx": [
+    "D37"
+   ],
+   "unsure": "flat forearm with small cone at left end (loaf) and upright tab (hand) at right; D37 approx · B: small triangle (loaf) at left end of flat arm with upright tab = D37"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "R4"
+   ],
+   "budge": "ḥetep",
+   "gloss": "to rest"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "D10"
+   ],
+   "budge": "ut'at",
+   "gloss": "the utchat",
+   "unsure": "eye shows the falcon-cheek markings: D10; 'utchat' italic in English · B: eye with falcon-cheek markings (spiral) = D10. 'utchat' italic in English."
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "D21"
+   ],
+   "budge": "er",
+   "gloss": "upon"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "Q1",
+    "X1",
+    "O1",
+    "O34"
+   ],
+   "q": "0-1:2-3",
+   "budge": "àuset-s",
+   "gloss": "its place.",
+   "approx": [
+    "O1",
+    "O34"
+   ],
+   "unsure": "Budge prints 'àuset-s' without spaces. Tall seat Q1; X1 over an empty rectangle with a gap in the lower edge (O1 approx); thin rod with knot (O34 approx) · B: Budge prints 'àuset-s' with no spaces round the hyphen"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "M17",
+    "Aa27"
+   ],
+   "q": "0-1",
+   "budge": "ànet'",
+   "gloss": "Homage to thee,",
+   "rubric": true,
+   "approx": [
+    "Aa27"
+   ],
+   "unsure": "first group of 'ànet' ḥrà - k' (Budge prints the two transliteration words without hyphen between them; split here into two words). Reed M17 then the spindle-like upright with a ring and crossbar near the top (Aa27 approx). Under overline. Numeral '6.' at right of row 3; overline over the group. · Decision (A): Budge spaces ànet' | ḥrà - k as two transliteration groups under one overline: two words (as mer | Ṭes Ṭes in ani-015-a)"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "D2",
+    "Z1",
+    "V31"
+   ],
+   "q": "0:1-2",
+   "budge": "ḥrà - k",
+   "gloss": "",
+   "rubric": true,
+   "unsure": "face D2 (frontal face with ears) on a stroke Z1, then basket V31; under overline"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "F12",
+    "S29",
+    "D21",
+    "U15"
+   ],
+   "q": "0-1-2:3",
+   "budge": "user",
+   "gloss": "strong One",
+   "unsure": "low flat sign under D21 with curled left end and tab at right, no ā in Budge (U15) · B: D21 over low flat sign with tab (U15), no ā read"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "in"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "G1",
+    "X1",
+    "F9",
+    "X1",
+    "N5",
+    "I9"
+   ],
+   "q": "0-1-2-3:4-5",
+   "budge": "atet - f",
+   "gloss": "his moment,",
+   "approx": [
+    "F9"
+   ],
+   "unsure": "an animal head with open snout (hippopotamus-like head; no exact code, F4 approx) · Decision (B): animal head with open jaws: the leopard head F9 approx (ꜣt), not the lion forepart"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "G36",
+    "D21",
+    "A21"
+   ],
+   "q": "0:1-2",
+   "budge": "ur",
+   "gloss": "great One,"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "O29",
+    "U15",
+    "Aa13"
+   ],
+   "q": "0:1:2",
+   "budge": "āā",
+   "gloss": "mighty,",
+   "approx": [
+    "O29",
+    "Aa13"
+   ],
+   "unsure": "lozenge-tipped rod lying (O29) over the low flat sign with tab (U15; D36 expected) over a flat bar with tuft (Aa13 approx) · B: lozenge-tipped rod lying (O29 approx) over low flat with tab (U15) over flat bar with small tuft (Aa13 approx)"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "W17"
+   ],
+   "budge": "χent",
+   "gloss": "at the head of",
+   "approx": [
+    "W17"
+   ],
+   "unsure": "rack of upright jars (W17 approx) · B: rack with jars, χent printed with raised small 'ent'"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "N35",
+    "G1",
+    "M17",
+    "D21",
+    "D46",
+    "T12",
+    "O1",
+    "I9"
+   ],
+   "q": "0:1-2-3:4-5-6-7",
+   "budge": "Na - àreṭ - f",
+   "gloss": "Na - aret - f,",
+   "approx": [
+    "T12",
+    "O1"
+   ],
+   "unsure": "Budge prints 'àreṭ' with grave accent (not ā). A loop crossed by an oblique stick (V6 approx); open rectangle with gapped lower edge (O1 approx) · Decision (B): under D21 the flat hand D46 (Budge ṭ); then the looped sign with splayed legs T12 approx; O1 approx as printed"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "V30"
+   ],
+   "budge": "neb",
+   "gloss": "lord of"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "V28",
+    "N5",
+    "V28"
+   ],
+   "q": "0-1-2",
+   "budge": "ḥeḥ",
+   "gloss": "eternity,"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "D4"
+   ],
+   "budge": "àri",
+   "gloss": "maker of"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "I10",
+    "X1",
+    "N16"
+   ],
+   "q": "0:1:2",
+   "budge": "t'etta",
+   "gloss": "everlastingness,",
+   "approx": [
+    "N16"
+   ],
+   "unsure": "cobra arching over X1 over a hatched flat strip (N16 approx) · B: cobra with long body curving down at right; dark bar with grains N16 approx"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "N35",
+    "X1",
+    "V31"
+   ],
+   "q": "0:1:2",
+   "budge": "entek",
+   "gloss": "thou art"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "V30"
+   ],
+   "budge": "neb",
+   "gloss": "lord of"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "M23",
+    "X1",
+    "N35",
+    "A1",
+    "N35",
+    "N35",
+    "O49"
+   ],
+   "q": "0-1:2-3-4:5:6",
+   "budge": "Sutenḥenen",
+   "gloss": "Heracleopolis.",
+   "approx": [
+    "A1"
+   ],
+   "unsure": "seated figure on a low seat with hand raised to face (A1 approx; could be A2) · B: seated figure with something on head (A1 approx); printed as one word"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "M17",
+    "Aa27"
+   ],
+   "q": "0-1",
+   "budge": "ànet'",
+   "gloss": "Homage to thee,",
+   "rubric": true,
+   "approx": [
+    "Aa27"
+   ],
+   "unsure": "first group of 'ànet' ḥrà - k' (Budge prints the two transliteration words without hyphen between them; split here into two words). Reed M17 then the spindle-like upright with a ring and crossbar near the top (Aa27 approx). Under overline. Numeral '7.' mid row 5; overline over the group. · Decision (A): Budge spaces ànet' | ḥrà - k as two transliteration groups under one overline: two words (as mer | Ṭes Ṭes in ani-015-a)"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "D2",
+    "Z1",
+    "V31"
+   ],
+   "q": "0:1-2",
+   "budge": "ḥrà - k",
+   "gloss": "",
+   "rubric": true,
+   "unsure": "face D2 (frontal face with ears) on a stroke Z1, then basket V31; under overline"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "R4",
+    "X1",
+    "Q3"
+   ],
+   "q": "0:1*2",
+   "budge": "ḥetep",
+   "gloss": "resting"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "D2",
+    "Z1"
+   ],
+   "q": "0:1",
+   "budge": "ḥer",
+   "gloss": "upon"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "Aa11",
+    "X1",
+    "C10"
+   ],
+   "q": "0:1-2",
+   "budge": "maāt",
+   "gloss": "Right and Truth,",
+   "approx": [
+    "C10"
+   ],
+   "unsure": "plinth Aa11 lying (no sickle); seated goddess with feather holding an ankh (C10 approx) · B: plinth lying flat, no sickle; seated goddess with feather holding ankh (C10 approx)"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "N35",
+    "X1",
+    "V31"
+   ],
+   "q": "0:1:2",
+   "budge": "entek",
+   "gloss": "thou art"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "V30"
+   ],
+   "budge": "neb",
+   "gloss": "the lord of"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "R17",
+    "D58",
+    "D46",
+    "Z7",
+    "O49"
+   ],
+   "q": "0-1-2:3*4",
+   "budge": "Àbṭu",
+   "gloss": "Abydos,",
+   "approx": [
+    "R17"
+   ],
+   "unsure": "upright with a pointed top, crossbar and drooping strokes (R17 approx fetish) · Decision (B): the flat sign over the coil is the hand D46 (Budge ṭ)"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "W9",
+    "G17",
+    "Y1a"
+   ],
+   "q": "0-1-2",
+   "budge": "χnem",
+   "gloss": "are joined",
+   "approx": [
+    "W9"
+   ],
+   "unsure": "B: 'nem' printed small/raised"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "N35"
+   ],
+   "budge": "en",
+   "gloss": "",
+   "unsure": "B: no English under en; 'to' in 'thy limbs to the netherworld' may render it"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "V28",
+    "U15",
+    "F51",
+    "F51",
+    "F51",
+    "V31"
+   ],
+   "q": "0-1:2*3*4-5",
+   "budge": "ḥāu - k",
+   "gloss": "thy limbs",
+   "approx": [
+    "F51",
+    "F51",
+    "F51"
+   ],
+   "unsure": "three small curls (F51 approx) under U15 · B: U15 for ā; three flesh curls"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "N16",
+    "D45",
+    "X1",
+    "X1",
+    "N25"
+   ],
+   "q": "0:1-2*3:4",
+   "budge": "Tasertet",
+   "gloss": "to the netherworld,",
+   "approx": [
+    "N16",
+    "D45",
+    "N25"
+   ],
+   "unsure": "flat strip with dots beneath (N16) over a flat arm-like sign with handle (D45 approx); two X1 over the three-humped base sign (N25 approx) · B: long bar with dots (N16 approx) over arm-like sign with upturned end and small hand (ḏsr, D45 approx); no dots in Budge's transliteration"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "N35",
+    "X1",
+    "V31"
+   ],
+   "q": "0:1:2",
+   "budge": "entek",
+   "gloss": "thou art"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "D58",
+    "X1",
+    "G43",
+    "K1",
+    "Z2",
+    "I9"
+   ],
+   "q": "0-1-2-3:4-5",
+   "budge": "betu - f",
+   "gloss": "he [who] hateth",
+   "approx": [
+    "K1"
+   ],
+   "unsure": "'[who]' bracket only in English; fish K1 approx · B: fish over three strokes; '[who]' bracket in English only"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "W11",
+    "D21",
+    "T14",
+    "G37",
+    "Z2"
+   ],
+   "q": "0:1-2-3:4",
+   "budge": "ḳer",
+   "gloss": "fraud and craftiness.",
+   "approx": [
+    "T14"
+   ],
+   "unsure": "middle sign: a bent/zigzag stick standing on a flat bar (no exact code; T14 approx) · B: bent zigzag stick standing on a flat base (T14 approx, no good code)"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "M17",
+    "Aa27"
+   ],
+   "q": "0-1",
+   "budge": "ànet'",
+   "gloss": "Homage to thee",
+   "rubric": true,
+   "approx": [
+    "Aa27"
+   ],
+   "unsure": "first group of 'ànet' ḥrà - k' (Budge prints the two transliteration words without hyphen between them; split here into two words). Reed M17 then the spindle-like upright with a ring and crossbar near the top (Aa27 approx). Under overline. Numeral '8.' mid row 7; overline over the group. · Decision (A): Budge spaces ànet' | ḥrà - k as two transliteration groups under one overline: two words (as mer | Ṭes Ṭes in ani-015-a)"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "D2",
+    "Z1",
+    "V31"
+   ],
+   "q": "0:1-2",
+   "budge": "ḥrà - k",
+   "gloss": "",
+   "rubric": true,
+   "unsure": "face D2 (frontal face with ears) on a stroke Z1, then basket V31; under overline"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "D2",
+    "F34"
+   ],
+   "q": "0-1",
+   "budge": "ḥer-àb",
+   "gloss": "within",
+   "unsure": "B: heart drawn as a jar with ears (F34); no strokes"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "G43",
+    "M17",
+    "G1",
+    "P1",
+    "I9"
+   ],
+   "q": "0-1-2-3-4",
+   "budge": "uàa - f",
+   "gloss": "his boat,",
+   "approx": [
+    "P1"
+   ],
+   "unsure": "boat det: flat base carrying zigzag, upright and oblique strokes (P1 approx) · B: boat det: flat base with an upright and zigzag strokes, as in t'a - f"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "W25"
+   ],
+   "budge": "àn",
+   "gloss": "bringing",
+   "approx": [
+    "W25"
+   ],
+   "unsure": "pot-on-legs sign (W25 approx); a stray dot printed low left of 'àn' in the transliteration · B: ring on walking legs"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "N35"
+   ],
+   "budge": "en",
+   "gloss": ""
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "V28",
+    "U15",
+    "Q3",
+    "Z4",
+    "N18",
+    "N35A",
+    "A40"
+   ],
+   "q": "0-1:2*3-4:5-6",
+   "budge": "Ḥāpi",
+   "gloss": "Ḥāpi",
+   "approx": [
+    "N18"
+   ],
+   "unsure": "dotted rounded oblong (N18 approx) over three water lines N35A · B: dotted rounded oblong over three water lines; English shows Ḥāpi with dotted H"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "from"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "X1",
+    "Q3",
+    "V28",
+    "X1",
+    "O1",
+    "I9"
+   ],
+   "q": "0:1-2-3:4-5",
+   "budge": "tepḥet - f",
+   "gloss": "his source ;",
+   "approx": [
+    "O1"
+   ],
+   "unsure": "open rectangle with gapped lower edge (O1 approx) · Decision (A): no dot is visible under the first t of Budge's transliteration at zoom 6"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "G43",
+    "D58",
+    "N35",
+    "N5"
+   ],
+   "q": "0-1-2:3",
+   "budge": "uben",
+   "gloss": "shineth"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "H6",
+    "G43",
+    "N5"
+   ],
+   "q": "0-1-2",
+   "budge": "śu",
+   "gloss": "the light"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "D2",
+    "Z1"
+   ],
+   "q": "0:1",
+   "budge": "ḥer",
+   "gloss": "upon"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "K4",
+    "X1",
+    "Aa2",
+    "I9"
+   ],
+   "q": "0:1*2-3",
+   "budge": "χat - f",
+   "gloss": "his body ;",
+   "approx": [
+    "K4",
+    "Aa2"
+   ],
+   "unsure": "X1 and an oval with a band (Aa1 approx) under a fish-like/animal-belly sign with tail curving down (F32 approx); printed left to right X1, oval, belly arching over · Decision (B): the fish K4 stands on top, X1 and an oval (Aa2 approx) under it"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "N35",
+    "X1",
+    "I9"
+   ],
+   "q": "0:1:2",
+   "budge": "entef",
+   "gloss": "he is"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "Z11",
+    "G17",
+    "Z4"
+   ],
+   "q": "0-1-2",
+   "budge": "àmi",
+   "gloss": "the dweller in"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "Aa1",
+    "N35",
+    "O1",
+    "O49"
+   ],
+   "q": "0:1-2:3",
+   "budge": "Neχen",
+   "gloss": "Nekhen.",
+   "approx": [
+    "O1"
+   ],
+   "unsure": "open rectangle with gapped lower edge (O1 approx) · B: open rectangle (⊏⊐) over town sign"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "M17",
+    "Aa27"
+   ],
+   "q": "0-1",
+   "budge": "ànet'",
+   "gloss": "Homage to thee,",
+   "rubric": true,
+   "approx": [
+    "Aa27"
+   ],
+   "unsure": "first group of 'ànet' ḥrà - k' (Budge prints the two transliteration words without hyphen between them; split here into two words). Reed M17 then the spindle-like upright with a ring and crossbar near the top (Aa27 approx). Under overline. Numeral '9.' mid row 9; overline over the group. · Decision (A): Budge spaces ànet' | ḥrà - k as two transliteration groups under one overline: two words (as mer | Ṭes Ṭes in ani-015-a)"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "D2",
+    "Z1",
+    "V31"
+   ],
+   "q": "0:1-2",
+   "budge": "ḥrà - k",
+   "gloss": "",
+   "rubric": true,
+   "unsure": "face D2 (frontal face with ears) on a stroke Z1, then basket V31; under overline"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "D4"
+   ],
+   "budge": "àri",
+   "gloss": "maker"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "R8",
+    "R8",
+    "R8"
+   ],
+   "q": "0-1-2",
+   "budge": "neteru",
+   "gloss": "of the gods,"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "M23",
+    "X1",
+    "L2",
+    "X1"
+   ],
+   "q": "0:1-2:3",
+   "budge": "suten net",
+   "gloss": "{King of North and South,}",
+   "unsure": "Budge's English in braces, stacked 'King of North / and South,'. Sedge M23 and bee L2 over two X1 · Decision (B): M23 with X1 under it, then the bee L2 with X1 under it: M23 X1 L2 X1"
+  },
+  {
+   "page": 128,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "Q1",
+    "D4",
+    "A40"
+   ],
+   "q": "0-1-2",
+   "budge": "Àusàr",
+   "gloss": "Osiris,",
+   "unsure": "written inside a cartouche (not coded), with a vertical bar after it · B: enclosed in a cartouche (cartouche ring not coded); Q1 a tall narrow seat"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "Aa11",
+    "P8"
+   ],
+   "q": "0:1",
+   "budge": "maāχeru",
+   "gloss": "triumphant,",
+   "unsure": "plinth Aa11 over oar P8; no sickle printed"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "U17",
+    "Y1a"
+   ],
+   "q": "0-1",
+   "budge": "ḳer",
+   "gloss": "master of",
+   "approx": [
+    "U17"
+   ],
+   "unsure": "first sign a crooked pick-like stick standing on a flat slab (U17 grg-pick shape); then tall upright with tie on left Y1a · B: first sign a pick-like crooked stick set in a flat block (U17, grg); then upright with tie Y1a"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "N16",
+    "N16"
+   ],
+   "q": "0:1",
+   "budge": "taiu",
+   "gloss": "worlds",
+   "unsure": "two flat land signs stacked, each with three small dots inside/under it (N16) · B: two flat bars each with three grains below (N16), stacked; no bow-tie signs here"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "in"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "O34",
+    "Q3",
+    "O50",
+    "Z1",
+    "I9"
+   ],
+   "q": "0:1*2-3-4",
+   "budge": "sep - f",
+   "gloss": "his seasons",
+   "unsure": "dashed vertical Z1 between the O50 group and the viper · B: top sign a horizontal bar with a short double tie in the middle, read as the bolt O34 (same shape as in pesṭ, suaś, sep, Sektet); dashed vertical stroke Z1 before the viper"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "Y5",
+    "N35",
+    "Aa1",
+    "U22",
+    "Y1a"
+   ],
+   "q": "0:1-2-3-4",
+   "budge": "menχ",
+   "gloss": "gracious,",
+   "approx": [
+    "U22"
+   ],
+   "unsure": "third sign a bell/onion-shaped top with a small ring below (taken as the menχ chisel U22) · B: third sign a bell-shaped top over an oval loop; coded U22 (chisel, mnḫ) as nearest, shape not a true chisel"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "N35",
+    "X1",
+    "I9"
+   ],
+   "q": "0:1:2",
+   "budge": "entef",
+   "gloss": "he"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "Q3",
+    "G43"
+   ],
+   "q": "0-1",
+   "budge": "pu",
+   "gloss": "is"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "V30"
+   ],
+   "budge": "neb",
+   "gloss": "the lord of"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "N9",
+    "N9",
+    "N21",
+    "N21"
+   ],
+   "q": "0-1-2:3",
+   "budge": "àṭeb",
+   "gloss": "the world.",
+   "approx": [
+    "N9",
+    "N21"
+   ],
+   "unsure": "two circles each with a small square notch inside at left (no exact code; N9 a placeholder), then two Z-like wedges stacked (N21 approx per house) · B: two circles each with a small square notch inside on the left (no exact code; N9 used as nearest disk-with-mark); then two bow-tie / hour-glass signs stacked (N21 approx, as for taiu on p. 130). Budge prints àṭeb with dot under t"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "D37",
+    "V31",
+    "N35",
+    "A1"
+   ],
+   "q": "0:1-2:3",
+   "budge": "ṭā - k - nà",
+   "gloss": "Grant thou to me",
+   "unsure": "first sign a flat bar with a small conical loaf at left end and upright tab at right: coded D37 (house ṭā); kneeling man A1 · B: forearm with a small conical loaf at its left end (D37); kneeling man with arm raised A1"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "N31",
+    "X1",
+    "Z1"
+   ],
+   "q": "0:1*2",
+   "budge": "uat",
+   "gloss": "a way",
+   "approx": [
+    "N31"
+   ],
+   "unsure": "top sign a horizontal bar with a small flower/shrub at each end (road N31)"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "Z9",
+    "D54",
+    "A1"
+   ],
+   "q": "0:1-2",
+   "budge": "seś - à",
+   "gloss": "that I may pass",
+   "unsure": "only × over walking legs printed (no O34/N37) · B: small × over a small ⋀ (walking legs, D54 approx); no O34/N37 printed"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "in"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "R4",
+    "X1",
+    "Q3"
+   ],
+   "q": "0:1*2",
+   "budge": "ḥetep",
+   "gloss": "peace."
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "W24",
+    "V31",
+    "A1"
+   ],
+   "q": "0:1-2",
+   "budge": "nuk",
+   "gloss": "I am",
+   "unsure": "small eared pot W24 over basket V31; no N35 printed"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "Z4A",
+    "Aa28"
+   ],
+   "q": "0-1",
+   "budge": "āq",
+   "gloss": "just and true,",
+   "approx": [
+    "Aa28"
+   ],
+   "unsure": "two slightly curved upright strokes then a tall narrow rectangle with slanting foot (taken as Aa28) · Decision (A): two upright strokes as one sign Z4A (house), then the tall slanted sign Aa28 approx"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "D35"
+   ],
+   "budge": "àn",
+   "gloss": "I have not",
+   "approx": [
+    "D35"
+   ]
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "I10",
+    "D46",
+    "A1"
+   ],
+   "q": "0:1-2",
+   "budge": "t'eṭ - à",
+   "gloss": "spoken"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "W11",
+    "D21",
+    "U17",
+    "Z1",
+    "G37"
+   ],
+   "q": "0:1-2-3-4",
+   "budge": "ḳer",
+   "gloss": "lies",
+   "approx": [
+    "W11",
+    "G37",
+    "U17"
+   ],
+   "unsure": "first sign a small trapezoid with a notch, not hatched (W11 approx); third the crooked pick on slab as in row 1; small sparrow-like bird at end · B: hatched jar-stand W11 over mouth D21; then pick-in-block U17, dashed stroke Z1, small sparrow G37"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "to"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "D21",
+    "Aa1",
+    "Y1a",
+    "A1"
+   ],
+   "q": "0:1-2-3",
+   "budge": "reχ - à",
+   "gloss": "my knowledge,"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "D35"
+   ],
+   "budge": "àn",
+   "gloss": "not",
+   "approx": [
+    "D35"
+   ]
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "D4",
+    "Z1"
+   ],
+   "q": "0:1",
+   "budge": "àri - à",
+   "gloss": "have I acted",
+   "unsure": "only eye over a single stroke; no seated man · B: only the eye over a stroke is printed; no seated-man sign for the suffix -à that Budge transliterates"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "O34",
+    "Q3",
+    "O50"
+   ],
+   "q": "0:1*2",
+   "budge": "sep",
+   "gloss": "with a motive",
+   "unsure": "B: bolt O34 (bar with middle tie) over Q3 and O50; Budge's English 'with a motive second' is spread under sep and sen"
+  },
+  {
+   "page": 129,
+   "plate": "XIX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "Z4A",
+    "W24"
+   ],
+   "q": "0:1",
+   "budge": "sen",
+   "gloss": "second.",
+   "approx": [
+    "W24"
+   ],
+   "unsure": "two short upright strokes over a small round pot with ears/loop (W24; T22 possible) · B: two short upright strokes over a small round pot-like sign with a loop on top (W24 approx); Budge reads sep sen"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "D46",
+    "V4",
+    "G1",
+    "N14",
+    "G1",
+    "G43",
+    "A30",
+    "Y1a"
+   ],
+   "budge": "ṭua - ṭuau",
+   "gloss": "An adoration of",
+   "rubric": true,
+   "approx": [
+    "N14",
+    "V4",
+    "A30"
+   ],
+   "unsure": "first group: lying flat sign with raised bump (hand D46), tall loop with small ring/tie at lower left (lasso V4), vulture G1; then six-armed × star (N14 approx), G1, chick G43, standing man with both arms raised (A30), Y1a. Footnote mark ¹ printed high after the Y1a. Overline covers this word only. · B: first group: a flat hand with thumb tick (D46), a cord forming a small tied loop with a long tail arching right and down (lasso V4 approx), vulture G1; then star N14, vulture G1, chick G43, standing man with both arms raised (A30 approx), upright with tie Y1a. Footnote mark ¹ printed high after the Y1a (refers to footnote 1); not coded",
+   "q": "0-1-2-3-4-5-6-7"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "D21",
+    "U15",
+    "C1"
+   ],
+   "q": "0:1-2",
+   "budge": "Rā",
+   "gloss": "Rā",
+   "unsure": "flat sign with upright tab at right (U15, where Budge reads ā); seated god with disk on head (C1) · B: mouth over a low flat sign with upright tab at right (U15, where Rā normally has D36); seated god with disk C1. Not under the overline (gap in the rule over Rā)"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "Aa1",
+    "I9",
+    "X1"
+   ],
+   "q": "0:1:2",
+   "budge": "χeft",
+   "gloss": "when",
+   "rubric": true,
+   "unsure": "overline from χeft through uben - f"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "G43",
+    "D58",
+    "N35",
+    "N5",
+    "I9"
+   ],
+   "q": "0-1-2:3-4",
+   "budge": "uben - f",
+   "gloss": "he riseth",
+   "rubric": true,
+   "unsure": "B: second overline of the title row covers χeft and uben - f only"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "in"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "N27",
+    "X1",
+    "O1"
+   ],
+   "q": "0:1*2",
+   "budge": "χut",
+   "gloss": "the horizon",
+   "approx": [
+    "O1"
+   ],
+   "unsure": "lower right sign a rectangle open at bottom (house O1?)"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "R15",
+    "D58",
+    "X1",
+    "X1",
+    "N25"
+   ],
+   "q": "0-1-2*3:4",
+   "budge": "àbtet",
+   "gloss": "eastern",
+   "approx": [
+    "R15"
+   ],
+   "unsure": "B: lowest sign a rectangle with a wavy/hilly top line (N25 approx)"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "N35",
+    "X1"
+   ],
+   "q": "0:1",
+   "budge": "ent",
+   "gloss": "of"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "Q3",
+    "X1",
+    "N1"
+   ],
+   "q": "0*1:2",
+   "budge": "pet",
+   "gloss": "heaven."
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "V28",
+    "U15",
+    "N35"
+   ],
+   "q": "0-1:2",
+   "budge": "ḥā en",
+   "gloss": "Rejoice",
+   "unsure": "flat sign with upright tab (U15) where Budge reads ā; Budge prints 'ḥā en' as one group · B: Budge prints 'ḥā en' as one transliteration group without hyphen; the low flat sign with upright tab at right (U15) is read ā"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 1,
+   "signs": [
+    "Z11",
+    "G43",
+    "Z1",
+    "M3",
+    "Aa1",
+    "X1",
+    "A40",
+    "Z1",
+    "I9"
+   ],
+   "q": "0-1-2-3:4*5-6-7-8",
+   "budge": "àmu - χet - f",
+   "gloss": "those who are in his train.",
+   "approx": [
+    "A40"
+   ],
+   "unsure": "line numeral '2.' printed inside the word between the first dashed Z1 and M3; word kept in line 1. Det: seated figure, long wig/hood, wrapped, hand raised to face (no beard visible) - A40 approx, A1 possible · Decision (A): the seated figure has a long wig: A40 approx"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "M17",
+    "A26"
+   ],
+   "budge": "à",
+   "gloss": "Hail",
+   "approx": [
+    "A26"
+   ],
+   "q": "0-1"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "D4",
+    "Q1",
+    "A40"
+   ],
+   "q": "0:1*2",
+   "budge": "Àusàr",
+   "gloss": "Osiris"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "G1",
+    "N35",
+    "Z2",
+    "M17",
+    "M17",
+    "A1"
+   ],
+   "q": "0-1:2-3-4-5",
+   "budge": "Ani",
+   "gloss": "Ani"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "Aa15"
+   ],
+   "budge": "em",
+   "gloss": "in"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "Aa11",
+    "P8"
+   ],
+   "q": "0:1",
+   "budge": "maāχeru",
+   "gloss": "triumph,"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "I10",
+    "D46",
+    "I9"
+   ],
+   "q": "0:1-2",
+   "budge": "t'eṭ - f",
+   "gloss": "saith he:",
+   "rubric": true,
+   "unsure": "overline covers t'eṭ - f only"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "M17",
+    "A26"
+   ],
+   "budge": "à",
+   "gloss": "Hail",
+   "approx": [
+    "A26"
+   ],
+   "q": "0-1"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "M17",
+    "X1",
+    "N35",
+    "N5"
+   ],
+   "q": "0-1:2:3",
+   "budge": "àṭen",
+   "gloss": "Disk",
+   "unsure": "Decision (B): Budge prints àṭen with a dotted ṭ (zoom 6)"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "Q3",
+    "G43",
+    "M17",
+    "M17"
+   ],
+   "q": "0-1-2-3",
+   "budge": "pui",
+   "gloss": "that,"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "V30"
+   ],
+   "budge": "neb",
+   "gloss": "lord"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "F29",
+    "X1",
+    "X1",
+    "X1",
+    "G43",
+    "N8",
+    "Z1"
+   ],
+   "q": "0-1:2:3-4-5-6",
+   "budge": "satetu",
+   "gloss": "of rays,",
+   "approx": [
+    "F29"
+   ],
+   "unsure": "pierced skin F29; three X1 in a staggered column; sun with rays N8; dashed Z1 · B: three X1: two stacked, one set between them to the right"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 2,
+   "signs": [
+    "G43",
+    "D58",
+    "N35",
+    "N5"
+   ],
+   "q": "0-1-2:3",
+   "budge": "uben",
+   "gloss": "rising",
+   "unsure": "line numeral '3.' printed inside the word between D58 and N35/N5; word kept in line 2"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "in"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "N27",
+    "X1",
+    "O1"
+   ],
+   "q": "0:1*2",
+   "budge": "χut",
+   "gloss": "the horizon",
+   "approx": [
+    "O1"
+   ]
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "N5",
+    "Z1"
+   ],
+   "q": "0:1",
+   "budge": "hru",
+   "gloss": "day"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "V30"
+   ],
+   "budge": "neb",
+   "gloss": "every;"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "Q3",
+    "O34",
+    "D46",
+    "N8",
+    "V31"
+   ],
+   "q": "0:1:2-3-4",
+   "budge": "pesṭ - k",
+   "gloss": "do thou shine"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "upon"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "D2",
+    "Z1"
+   ],
+   "q": "0:1",
+   "budge": "ḥrà",
+   "gloss": "the face"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "N35"
+   ],
+   "budge": "en",
+   "gloss": "of"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "D4",
+    "Q1",
+    "A40"
+   ],
+   "q": "0:1*2",
+   "budge": "Àusàr",
+   "gloss": "Osiris"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "G1",
+    "N35",
+    "Z2",
+    "M17",
+    "M17",
+    "A1"
+   ],
+   "q": "0-1:2-3-4-5",
+   "budge": "Ani",
+   "gloss": "Ani,"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "Aa15"
+   ],
+   "budge": "em",
+   "gloss": "in"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "Aa11",
+    "P8"
+   ],
+   "q": "0:1",
+   "budge": "maāχeru",
+   "gloss": "triumph."
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "N14",
+    "G1",
+    "A30",
+    "Y1a",
+    "I9"
+   ],
+   "q": "0-1-2-3-4",
+   "budge": "ṭua - f",
+   "gloss": "He adoreth",
+   "rubric": true,
+   "approx": [
+    "N14",
+    "A30"
+   ],
+   "unsure": "overline begins over the star and runs to the end of the row, continuing over 'tu' on the next row · B: overline begins at the star and runs to the row end; continues over 'tu' at the start of the next row"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "X1",
+    "G43"
+   ],
+   "q": "0-1",
+   "budge": "tu",
+   "gloss": "thee",
+   "rubric": true,
+   "unsure": "short overline at start of row covers this word only (continuation of the overline over ṭua - f) · B: short overline over this word only (continuation of the rubric of ṭua - f)"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 3,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "at"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "N14",
+    "G1",
+    "M17",
+    "M17",
+    "X1",
+    "N5"
+   ],
+   "q": "0-1-2-3-4:5",
+   "budge": "ṭuait",
+   "gloss": "daybreak,",
+   "approx": [
+    "N14"
+   ],
+   "unsure": "numeral '4.' stands just before this word · B: line numeral '4.' stands just before this word"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "O34",
+    "R4",
+    "X1",
+    "Q3",
+    "Y1a",
+    "I9"
+   ],
+   "q": "0-1:2*3-4-5",
+   "budge": "se - ḥetep - f",
+   "gloss": "he maketh to rest"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "X1",
+    "G43"
+   ],
+   "budge": "tu",
+   "gloss": "thee",
+   "unsure": "Budge's English 'thee with praise' spans here; 'with praise' has no separate transliteration · B: Budge's English 'thee with praise' stands under tu; no separate word for 'praise' in his transliteration",
+   "q": "0-1"
+  },
+  {
+   "page": 129,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "G17",
+    "D36",
+    "N37",
+    "D21",
+    "E23",
+    "G43",
+    "N2"
+   ],
+   "q": "0*1-2:3-4-5-6",
+   "budge": "māśeru",
+   "gloss": "at eventide.",
+   "approx": [
+    "N37",
+    "N2"
+   ],
+   "unsure": "first sign the owl-over-arm ligature (G17+D36); hatched/slashed rectangle N37 over mouth D21; recumbent lion E23; chick; last a sky sign with ends turned down and a small star hanging below (N2 approx; sky + hanging star) · B: owl lying over flat arm (G17+D36 ligature); rectangle with a diagonal double slash (N37 approx) over mouth D21; small couchant lion E23; chick G43; sky-like bar with a hanging stroke ending in a star/× (N2 approx, night)"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "O1",
+    "D21",
+    "D54"
+   ],
+   "q": "0:1-2",
+   "budge": "per",
+   "gloss": "May come forth"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "R7",
+    "G29"
+   ],
+   "budge": "ba",
+   "gloss": "the soul",
+   "unsure": "jabiru with small incense bowl R7 at its foot; a small raised tick near the bird's head (looks like '1') not coded - a tick, not a footnote mark (no footnote on p.130) · B: jabiru with a small pot (R7) at its foot; small raised tick at upper right not coded (not a footnote mark)",
+   "q": "0-1"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "N35"
+   ],
+   "budge": "en",
+   "gloss": "of"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "Q2",
+    "D4"
+   ],
+   "q": "0:1",
+   "budge": "Àusàr",
+   "gloss": "Osiris,",
+   "approx": [
+    "Q2"
+   ],
+   "unsure": "low couchant-shaped seat over eye; no god figure · B: low couchant-shaped seat over the eye; no god figure"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "G1",
+    "N35",
+    "Z2",
+    "M17",
+    "M17",
+    "A51"
+   ],
+   "q": "0-1:2-3-4-5",
+   "budge": "Ani",
+   "gloss": "Ani,",
+   "unsure": "det: man seated on a chair holding flail (A51) · B: det: man seated on a box chair holding a flail (A51)"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 4,
+   "signs": [
+    "Aa11",
+    "P8"
+   ],
+   "q": "0:1",
+   "budge": "maāχeru",
+   "gloss": "victorious"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "V28",
+    "N35",
+    "U15",
+    "V31"
+   ],
+   "q": "0-1:2-3",
+   "budge": "ḥenā - k",
+   "gloss": "with thee",
+   "unsure": "numeral '5.' stands just before this word; flat sign with upright tab (U15) where Budge reads ā · B: line numeral '5.' stands just before this word; low flat sign with tab at right (U15) where Budge reads ā"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "D21"
+   ],
+   "budge": "er",
+   "gloss": "into"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "Q3",
+    "X1",
+    "N1"
+   ],
+   "q": "0*1:2",
+   "budge": "pet",
+   "gloss": "heaven,"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "V24",
+    "G43",
+    "D54",
+    "I9"
+   ],
+   "q": "0-1-2-3",
+   "budge": "utu - f",
+   "gloss": "may he go forth",
+   "approx": [
+    "V24"
+   ],
+   "unsure": "first sign a thin stake with a small looped knot on top (V24 approx) · B: first sign a tall stick with a small knotted/looped head and foot (V24 approx)"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "in"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "G17",
+    "D36",
+    "V26",
+    "D46",
+    "X1",
+    "X1",
+    "P1"
+   ],
+   "budge": "Māāṭet",
+   "gloss": "the Māāṭet boat,",
+   "approx": [
+    "V26",
+    "P1"
+   ],
+   "unsure": "owl-over-arm ligature; then a sign of two curved lines crossing at each end like a lens with crossed tips (no exact code; Aa27 placeholder); lower a flat hand-like sign (D46); two X1 above; boat on a flat base with small cabin and raised ends (P1 approx) · Decision (B): the crossed-curves sign is the netting needle V26 approx, as the house codes āṭet (hymn to Ra, ani-015-a)",
+   "q": "0*1-2:3-4*5:6"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "Y5",
+    "N35",
+    "M17",
+    "P11",
+    "P1",
+    "I9"
+   ],
+   "q": "0:1-2-3-4-5",
+   "budge": "menà - f",
+   "gloss": "may he come into port",
+   "approx": [
+    "P11",
+    "P1"
+   ],
+   "unsure": "after M17 a thin slightly curved upright (mooring post P11 approx); boat with cabin and curling ropes at both ends on a flat base · B: after the reed a tall thin upright bent over at the top (mooring post P11 approx); boat with cabin on a base line (P1 approx)"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "in"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "O34",
+    "V31",
+    "X1",
+    "X1",
+    "P1"
+   ],
+   "q": "0:1:2*3-4",
+   "budge": "Sektet",
+   "gloss": "the Sektet boat,",
+   "approx": [
+    "P1"
+   ]
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "R15",
+    "D58",
+    "Aa1",
+    "Z9",
+    "A9",
+    "I9"
+   ],
+   "q": "0-1-2:3-4-5",
+   "budge": "àbeχ - f",
+   "gloss": "may he go",
+   "approx": [
+    "A9"
+   ],
+   "unsure": "det a kneeling/squatting man bending forward with arm stretched forward, head bowed - no exact code, A1 approx · Decision (B): kneeling man carrying a load on his head: A9 approx"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "in"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 5,
+   "signs": [
+    "M17",
+    "Aa1",
+    "Aa15",
+    "D35",
+    "Z2",
+    "G36",
+    "D21",
+    "D46",
+    "A7",
+    "N14",
+    "Z2"
+   ],
+   "budge": "àχemu - urṭ",
+   "gloss": "among the stars which set",
+   "approx": [
+    "D35",
+    "G36",
+    "A7",
+    "N14"
+   ],
+   "unsure": "numeral '6.' printed inside the word after Aa1/Aa15 (bevelled flat sign); word kept in line 5. Bird lying flat over D21 (G36 approx); flat hand D46; standing/wrapped figure with arms hanging (A7 approx); star over three strokes · B: line numeral '6.' printed inside the word after M17 Aa1 Aa15 (before the negative-arms sign D35 over three strokes); word kept in line 5. Recumbent bird over D21 (G36 approx); hand D46; slumped wrapped seated figure (A7 approx); star over three strokes",
+   "q": "0-1:2-3:4-5:6-7-8-9:10"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "in"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "Q3",
+    "X1",
+    "N1"
+   ],
+   "q": "0*1:2",
+   "budge": "pet",
+   "gloss": "heaven."
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "D4",
+    "Q1",
+    "A40"
+   ],
+   "q": "0:1*2",
+   "budge": "Àusàr",
+   "gloss": "Osiris,"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "G1",
+    "N35",
+    "Z2",
+    "M17",
+    "M17",
+    "A1"
+   ],
+   "q": "0-1:2-3-4-5",
+   "budge": "Ani",
+   "gloss": "Ani,"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "R4",
+    "V13",
+    "M17"
+   ],
+   "q": "0-1-2",
+   "budge": "ḥetep-θà",
+   "gloss": "being at peace",
+   "unsure": "tall narrow loop V13 for θ · B: R4 alone (no X1/Q3) then a tall narrow loop V13 and reed"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "Aa11",
+    "P8"
+   ],
+   "q": "0:1",
+   "budge": "maāχeru",
+   "gloss": "and in triumph,"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "I10",
+    "D46",
+    "I9"
+   ],
+   "q": "0:1-2",
+   "budge": "t'eṭ - f",
+   "gloss": "saith he,",
+   "rubric": true,
+   "unsure": "overline covers t'eṭ - f only · B: overline covers this word only"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "O34",
+    "V4",
+    "G1",
+    "N37",
+    "A30",
+    "Y1a",
+    "I9"
+   ],
+   "budge": "suaś - f",
+   "gloss": "adoreth he",
+   "approx": [
+    "N37",
+    "A30"
+   ],
+   "unsure": "lasso V4 as in ṭua; rectangle with a slash (N37 approx) · B: looped cord with long arching tail (V4 approx, same sign as in ṭua); rectangle with diagonal double slash (N37 approx); man with both arms raised (A30 approx)",
+   "q": "0-1-2-3-4-5-6"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 6,
+   "signs": [
+    "V30",
+    "Z1",
+    "I9"
+   ],
+   "q": "0:1-2",
+   "budge": "neb - f",
+   "gloss": "his lord,"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "V30"
+   ],
+   "budge": "neb",
+   "gloss": "the lord of",
+   "unsure": "numeral '7.' stands just before this word · B: line numeral '7.' stands just before this word"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "V28",
+    "N5",
+    "V28"
+   ],
+   "budge": "ḥeḥ",
+   "gloss": "eternity, [saying]:",
+   "unsure": "[saying] bracketed in Budge's English only · B: '[saying]' bracketed in Budge's English only",
+   "q": "0-1-2"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "M17",
+    "Aa27",
+    "I10",
+    "D46",
+    "D2",
+    "Z1",
+    "V31"
+   ],
+   "budge": "ànet' - ḥrà - k",
+   "gloss": "Homage to thee,",
+   "rubric": true,
+   "approx": [
+    "Aa27"
+   ],
+   "unsure": "second sign an upright with cross-arms and an oval centre (Aa27 approx); cobra over a small flat sign (I10 D46); face D2 over stroke. Overline covers this word only · B: second sign a tall upright with a cross-shaped knob at top (Aa27 approx); cobra over hand (I10 D46) for t'; face D2 over stroke. Overline covers this word only",
+   "q": "0-1-2:3-4:5-6"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "G5",
+    "G25",
+    "Aa1",
+    "X1",
+    "Z4",
+    "N18",
+    "N18"
+   ],
+   "q": "0-1-2:3*4-5:6",
+   "budge": "Ḥeru - χuti",
+   "gloss": "Horus of the two horizons,",
+   "approx": [
+    "G25",
+    "N18"
+   ],
+   "unsure": "second bird with long curved bill and crest (G25 approx); two dotted oblongs stacked (N18 approx) · B: falcon; crested ibis G25; Aa1 over X1 + two oblique strokes; two dotted oblongs stacked (N18 approx)"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "L1",
+    "D21",
+    "M17",
+    "A40"
+   ],
+   "q": "0-1-2-3",
+   "budge": "χeperà",
+   "gloss": "Kheperà",
+   "approx": [
+    "A40"
+   ],
+   "unsure": "det same long-wigged seated figure as after àmu-χet and suten"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "Q3",
+    "G43"
+   ],
+   "q": "0-1",
+   "budge": "pu",
+   "gloss": "that is, [who]",
+   "unsure": "[who] bracketed in English only · B: '[who]' bracketed in Budge's English only"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "L1",
+    "D21"
+   ],
+   "q": "0-1",
+   "budge": "χeper",
+   "gloss": "created"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "I10",
+    "O34",
+    "I9"
+   ],
+   "q": "0-1:2",
+   "budge": "t'esef",
+   "gloss": "himself;",
+   "unsure": "O34 over I9 stacked inside the cobra's curve · B: cobra with O34 and I9 stacked under its body"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "F35",
+    "I9",
+    "D21",
+    "Z4",
+    "G43"
+   ],
+   "q": "0-1:2-3-4",
+   "budge": "neferiu",
+   "gloss": "doubly beautiful [is]",
+   "approx": [
+    "F35"
+   ],
+   "unsure": "[is] bracketed in English only · B: '[is]' bracketed in Budge's English only"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "G43",
+    "D58",
+    "N35",
+    "N5",
+    "V31"
+   ],
+   "q": "0-1-2:3-4",
+   "budge": "uben - k",
+   "gloss": "thy rising"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 7,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "in"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "N27",
+    "X1",
+    "O1"
+   ],
+   "q": "0:1*2",
+   "budge": "χut",
+   "gloss": "the horizon,",
+   "approx": [
+    "O1"
+   ],
+   "unsure": "numeral '8.' stands just before this word · B: line numeral '8.' stands just before this word"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "O34",
+    "T3",
+    "I10",
+    "N8",
+    "V31"
+   ],
+   "q": "0-1-2-3-4",
+   "budge": "se - ḥet' - k",
+   "gloss": "thou shinest upon",
+   "approx": [
+    "T3"
+   ],
+   "unsure": "thin upright with lozenge top and conical foot (mace T3 approx) · B: mace T3 for ḥet'; cobra I10"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "N16",
+    "N21",
+    "N16",
+    "N21"
+   ],
+   "q": "0*1:2*3",
+   "budge": "taiu",
+   "gloss": "the two lands",
+   "approx": [
+    "N21"
+   ],
+   "unsure": "Decision (B): two rows, each N16 followed by N21: N16 N21 N16 N21"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "with"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "F29",
+    "Z7",
+    "X1",
+    "N8",
+    "Z1",
+    "V31"
+   ],
+   "q": "0-1:2-3-4-5",
+   "budge": "satu - k",
+   "gloss": "thy beams.",
+   "approx": [
+    "F29"
+   ],
+   "unsure": "B: small closed curl Z7 over X1"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "R8",
+    "R8",
+    "R8",
+    "A40",
+    "Z1"
+   ],
+   "q": "0-1-2-3-4",
+   "budge": "neteru",
+   "gloss": "Gods"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "V30",
+    "G43",
+    "Z1"
+   ],
+   "q": "0-1-2",
+   "budge": "nebu",
+   "gloss": "all"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "are in"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "V28",
+    "U15",
+    "U15",
+    "G43",
+    "Z4",
+    "A28",
+    "Y1a",
+    "Z1"
+   ],
+   "q": "0-1:2-3-4-5-6-7",
+   "budge": "ḥāāui",
+   "gloss": "rejoicing [when]",
+   "unsure": "two flat signs with upright tabs stacked (U15, Budge reads āā); man with both arms raised A28; [when] in English only · B: two low flat signs with tab at right (U15) stacked where Budge reads āā; man with both arms raised A28; '[when]' bracketed in English only"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "D4",
+    "U1",
+    "G1",
+    "G1",
+    "O34",
+    "Z2"
+   ],
+   "q": "0-1-2-3-4:5",
+   "budge": "maa - s[en]",
+   "gloss": "they see",
+   "unsure": "eye with sickle-like curve below (D4 U1 ligature); brackets in Budge's transliteration only, no brackets in the sign line; two vultures; O34 over three strokes · B: eye with sickle beneath (D4 U1 ligature), two vultures, bolt O34 over three strokes. Brackets '[en]' only in Budge's transliteration: no brackets in the sign line and no n sign printed"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 8,
+   "signs": [
+    "X1",
+    "G43"
+   ],
+   "q": "0-1",
+   "budge": "tu",
+   "gloss": "thee"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "in the condition",
+   "unsure": "numeral '9.' stands just before this word · B: line numeral '9.' stands just before this word"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "M23",
+    "X1",
+    "N35",
+    "A40"
+   ],
+   "q": "0-1:2-3",
+   "budge": "suten",
+   "gloss": "of king",
+   "approx": [
+    "A40"
+   ],
+   "unsure": "sedge printed faint with a dashed stem; det the seated long-wigged figure · Decision (A): a seated long-wigged figure is printed after N35: A40"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "N35"
+   ],
+   "budge": "en",
+   "gloss": "of"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "Q3",
+    "X1",
+    "N1"
+   ],
+   "q": "0*1:2",
+   "budge": "pet",
+   "gloss": "heaven."
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "V30",
+    "X1",
+    "E34",
+    "N35",
+    "W24",
+    "X1",
+    "I12"
+   ],
+   "q": "0:1-2:3-4:5-6",
+   "budge": "Nebt-Unnut",
+   "gloss": "Nebt-Unnut"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "Y5",
+    "N35",
+    "V13",
+    "Y1a",
+    "V13",
+    "M17"
+   ],
+   "q": "0:1-2-3-4-5",
+   "budge": "men - θà",
+   "gloss": "is placed",
+   "approx": [
+    "V13"
+   ],
+   "unsure": "after Y5/N35 a tall hooked sign with a curled foot (V13 approx, doubtful), then Y1a, then a narrow tall loop (V13) and M17 · B: after Y5/N35 a tall hooked loop resting in a small curved base (V13 approx, unclear sign); then Y1a, tall loop V13 for θ, reed"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "upon"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "D1",
+    "Z1",
+    "V31"
+   ],
+   "q": "0:1-2",
+   "budge": "ṭep - k",
+   "gloss": "thy head;"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "M26",
+    "U15",
+    "X1",
+    "H8",
+    "I12",
+    "O34"
+   ],
+   "q": "0*1-2:3-4-5",
+   "budge": "qemāt - s",
+   "gloss": "her portion of the south [and]",
+   "approx": [
+    "M26",
+    "H8"
+   ],
+   "unsure": "sedge-like stem with root tuft and hooked top, crossed by a flat sign with upright tab (U15) - ligature; tilted oval (H8 approx); [and] in English only · Decision (A): the low flat sign U15 crosses the foot of M26; X1 over a tilted oval (H8 approx); then I12 O34"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "M16",
+    "X1",
+    "H8",
+    "I12",
+    "O34"
+   ],
+   "q": "0-1:2-3-4",
+   "budge": "meḥt - s",
+   "gloss": "her portion of the north [are]",
+   "approx": [
+    "M16",
+    "H8"
+   ],
+   "unsure": "papyrus clump on a small base (M16 approx); [are] in English only · Decision (A): M16, X1 over the tilted oval (H8 approx), I12, O34 — as qemāt - s"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "on"
+  },
+  {
+   "page": 130,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 9,
+   "signs": [
+    "F13",
+    "X1",
+    "Z1",
+    "V31"
+   ],
+   "q": "0:1*2-3",
+   "budge": "àpt - k",
+   "gloss": "thy forehead;",
+   "approx": [
+    "F13"
+   ],
+   "unsure": "Budge prints 'àpt' (dotted à), not 'āpt'; sign is two upcurved horns joined at base (F13) · Decision (A): Budge prints àpt with a dotted à"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "M17",
+    "G43"
+   ],
+   "q": "0-1",
+   "budge": "àu",
+   "gloss": "she",
+   "unsure": "Line numeral '10.' stands immediately before this word at the start of p. 131 row 1. · B: Budge's English 'she maketh' spans àu and àri - nes; printed right after the numeral '10.'"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "D4",
+    "N35",
+    "O34"
+   ],
+   "q": "0-1:2",
+   "budge": "àri - nes",
+   "gloss": "maketh",
+   "unsure": "nes = N35 over a horizontal bolt O34."
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "Q1",
+    "X1",
+    "O1",
+    "O34"
+   ],
+   "q": "0-1:2-3",
+   "budge": "àuset-s",
+   "gloss": "her place",
+   "unsure": "Seat printed as an upright with a foot (Q1 profile); X1 over O1; Budge prints 'àuset-s' without spaces around the hyphen. · B: X1 over an open-bottomed rectangle (house O1 shape); Budge prints 'àuset-s' with no spaces round the hyphen"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "before"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "F4",
+    "X1",
+    "Z1",
+    "V31"
+   ],
+   "q": "0:1*2-3",
+   "budge": "ḥāt - k",
+   "gloss": "thee",
+   "unsure": "B: English 'before thee' spans em ḥāt - k"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "G26",
+    "X1",
+    "Z4"
+   ],
+   "q": "0:1*2",
+   "budge": "Teḥuti",
+   "gloss": "Thoth",
+   "unsure": "Ibis on perch; under the perch X1 and two-three small oblique strokes (coded Z4). · B: ibis on standard; under the standard a small X1 and oblique strokes (two or three, blurred) - coded Z4"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "Y5",
+    "N35",
+    "Y1a"
+   ],
+   "q": "0:1-2",
+   "budge": "men",
+   "gloss": "is fixed",
+   "unsure": "B: game-board Y5 over N35, then tall upright with small tie at its left side (Y1a)"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "in"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "F4",
+    "X1",
+    "Z1"
+   ],
+   "q": "0:1*2",
+   "budge": "ḥāt",
+   "gloss": "the front of"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "G43",
+    "M17",
+    "G1",
+    "P1",
+    "Z1",
+    "V31"
+   ],
+   "budge": "uàa - k",
+   "gloss": "thy boat",
+   "approx": [
+    "P1"
+   ],
+   "unsure": "Boat determinative is a boat on a double base line with upcurled ends and a small ⊓ shrine/cabin amidships (sledge-like); no exact code, P1 approx (P3-like). Bird after M17 is a vulture G1. · B: boat: flat hull on a thick base line, zigzag/curled ends, small shrine/cabin in the middle; no exact code, P1 approx"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "D2",
+    "Z1"
+   ],
+   "q": "0:1",
+   "budge": "ḥer",
+   "gloss": "to",
+   "unsure": "Frontal face D2."
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "O34",
+    "O34",
+    "E34",
+    "N35",
+    "X4",
+    "T28",
+    "Z2"
+   ],
+   "q": "0:1-2:3-4:5:6",
+   "budge": "sesunneṭ",
+   "gloss": "annihilate",
+   "approx": [
+    "X4",
+    "T28"
+   ],
+   "unsure": "Last group: an elongated rounded oblong with a small bump on top (N18 approx; same shape as the top sign of ṭeḳa) over a flat bar with a small V-shaped tuft at its centre (Aa13 approx), three strokes below. Neither sign certain. · Decision (B): the long rounded sign with a tab at its right X4 approx over a slab on three legs with a small Y on it (T28 approx; the strokes Z2 may be its legs); all doubtful"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 10,
+   "signs": [
+    "Aa1",
+    "I9",
+    "X1",
+    "G1",
+    "Z1",
+    "V31"
+   ],
+   "q": "0:1:2-3-4-5",
+   "budge": "χefta - k",
+   "gloss": "thy enemies",
+   "unsure": "Hatched disc Aa1 over the horned viper (horns as small ×) over X1; dashed stroke Z1 after the vulture. The numeral '11.' follows V31. · B: Aa1 (hatched disc) over horned viper lying (× at its head = horns, I9) over X1; vulture G1; dashed stroke Z1; basket with handle V31 stands before the numeral '11.'. No enemy determinative printed"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 11,
+   "signs": [
+    "V30",
+    "G43",
+    "Z1"
+   ],
+   "budge": "nebu",
+   "gloss": "all",
+   "unsure": "Line numeral '11.' stands immediately before this word. Possible speck under the u in the transliteration; read as plain 'nebu'. · B: printed right after the numeral '11.'; basket without handle (V30)"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 11,
+   "signs": [
+    "Z11",
+    "G17",
+    "G43",
+    "Z1"
+   ],
+   "budge": "àmu",
+   "gloss": "Those who dwell in",
+   "unsure": "B: English 'Those who dwell in the netherworld' spans àmu ṭuat"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 11,
+   "signs": [
+    "N14",
+    "G1",
+    "X1",
+    "O1"
+   ],
+   "q": "0-1-2:3",
+   "budge": "ṭuat",
+   "gloss": "the netherworld",
+   "unsure": "Star printed small like an ×-star. · B: star N14, vulture G1, X1 over an open-bottomed rectangle (house-like; not the starred circle N15)"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 11,
+   "signs": [
+    "O1",
+    "D21",
+    "D54"
+   ],
+   "q": "0:1-2",
+   "budge": "per",
+   "gloss": "come forth"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 11,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "to"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 11,
+   "signs": [
+    "U35",
+    "G43",
+    "A16",
+    "D54",
+    "Z2",
+    "V31"
+   ],
+   "q": "0-1-2-3:4-5",
+   "budge": "χesefu - k",
+   "gloss": "meet thee with homage",
+   "approx": [
+    "A16"
+   ],
+   "unsure": "χesef ligature (spindle crossed by the viper) coded U35. The man is a standing figure stooping forward with arm hanging forward/down, open hand; A16 approx (bowing man). D54 over three strokes. · B: first sign: spindle with horned viper (× at left) lying across = U35 ligature; man bending forward with both arms hanging (bowing, A16 approx); walking legs D54 over three strokes"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 11,
+   "signs": [
+    "D21"
+   ],
+   "budge": "er",
+   "gloss": "and to"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 11,
+   "signs": [
+    "D4",
+    "U1",
+    "G1",
+    "G1",
+    "G43"
+   ],
+   "q": "0:1-2-3-4",
+   "budge": "maau",
+   "gloss": "see",
+   "unsure": "Sickle printed above the eye; coded D4 U1 (house order). Two vultures then the chick. · Decision (A/B): signs as A (eye D4 then sickle U1, house order); Budge prints maau"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 11,
+   "signs": [
+    "T32",
+    "G17",
+    "A40"
+   ],
+   "budge": "sem",
+   "gloss": "[thy] Image",
+   "approx": [
+    "T32",
+    "A40"
+   ],
+   "unsure": "First sign a tall narrow arch crossed diagonally by a cord ending in a small loop at lower right (sšm-sign), T32 approx; no O34 printed. Last sign a seated figure with long wig, knee raised, no visible beard or arms (statue det.), A40 approx. Brackets '[thy]' only in Budge's English; no brackets in the sign line. · B: first sign: tall upright with hooked top, crossed by a diagonal cord ending in a loop at its foot (sšm sign; T32 approx per Spell 15 pt 1 ruling); determinative a seated wrapped figure with long wig, no visible flail (A40 approx; statue det A53/A51 possible). '[thy]' is bracketed in Budge's English only; no brackets in the sign line"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 12,
+   "signs": [
+    "Q3",
+    "G43"
+   ],
+   "q": "0-1",
+   "budge": "pu",
+   "gloss": "that",
+   "unsure": "Line numeral '12.' stands immediately before this word. · B: printed right after numeral '12.'"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 12,
+   "signs": [
+    "F35",
+    "I9",
+    "D21"
+   ],
+   "q": "0-1:2",
+   "budge": "nefer",
+   "gloss": "beautiful",
+   "unsure": "B: horned viper with × horns (I9) over D21"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 12,
+   "signs": [
+    "M18",
+    "Z4",
+    "D54",
+    "N35",
+    "A1"
+   ],
+   "q": "0-1:2-3:4",
+   "budge": "ī - nà",
+   "gloss": "I have come",
+   "rubric": true,
+   "unsure": "Overline over this word only (starts at row 4's first sign, ends after the nà group). Only one reed printed, with legs (M18); no separate M17. Z4 over D54; kneeling man with arm raised, open hand (A1). · B: overline runs over the whole group ī - nà only (from M18 to the kneeling man)"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 12,
+   "signs": [
+    "Aa1",
+    "D21",
+    "V31"
+   ],
+   "q": "0:1-2",
+   "budge": "χer - k",
+   "gloss": "before thee"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 12,
+   "signs": [
+    "M17",
+    "G43",
+    "A1"
+   ],
+   "budge": "àuà",
+   "gloss": "may I be",
+   "unsure": "B: kneeling man with one arm raised (A1)"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 12,
+   "signs": [
+    "V28",
+    "N35",
+    "U15",
+    "V31"
+   ],
+   "q": "0-1:2-3",
+   "budge": "ḥenā - k",
+   "gloss": "with thee",
+   "unsure": "B: low flat sign with upright tab at right where Budge reads ā: U15"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 12,
+   "signs": [
+    "D21"
+   ],
+   "budge": "er",
+   "gloss": "to"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 12,
+   "signs": [
+    "D4",
+    "U1",
+    "G1",
+    "G1"
+   ],
+   "q": "0:1-2-3",
+   "budge": "maa",
+   "gloss": "see",
+   "unsure": "Sickle above eye, coded D4 U1 (house order). · Decision (A): house order D4 U1"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 12,
+   "signs": [
+    "M17",
+    "X1",
+    "N35",
+    "N5",
+    "V31"
+   ],
+   "q": "0-1:2:3-4",
+   "budge": "àten - k",
+   "gloss": "thy disk"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 12,
+   "signs": [
+    "N5",
+    "Z1"
+   ],
+   "q": "0:1",
+   "budge": "hru",
+   "gloss": "day",
+   "unsure": "Decision (A): Budge prints hru with no dot (zoom 6)"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 12,
+   "signs": [
+    "V30"
+   ],
+   "budge": "neb",
+   "gloss": "every"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 12,
+   "signs": [
+    "D35",
+    "N35"
+   ],
+   "q": "0:1",
+   "budge": "àn",
+   "gloss": "may [I] not",
+   "approx": [
+    "D35"
+   ],
+   "unsure": "'[I]' bracket in Budge's English only. · B: flat bar with a small raised bump in the middle and arrow-like ends (negative arms, D35 approx); '[I]' bracketed in Budge's English only"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 12,
+   "signs": [
+    "Aa1",
+    "N35",
+    "M17",
+    "D19",
+    "U15",
+    "X1",
+    "G43"
+   ],
+   "q": "0:1-2-3-4-5-6",
+   "budge": "χenà - tu",
+   "gloss": "be shut in",
+   "unsure": "Third sign is a face-in-profile (nose, eye, brow), coded D19, not O30. Low flat sign with tab U15 although Budge reads no ā here. The numeral '13.' follows the next word àn. · B: profile face with nose and eye (D19 approx); then low flat sign with upright tab at right (U15) with no ā in Budge's reading - coded as printed"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 12,
+   "signs": [
+    "D35",
+    "N35"
+   ],
+   "q": "0:1",
+   "budge": "àn",
+   "gloss": "may [I] not",
+   "approx": [
+    "D35"
+   ],
+   "unsure": "'[I]' bracket in Budge's English only. Numeral '13.' follows this word. · B: same negative sign as before; '[I]' bracketed in Budge's English only"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 13,
+   "signs": [
+    "V7",
+    "N35",
+    "U15",
+    "E23",
+    "D54",
+    "X1",
+    "G43"
+   ],
+   "q": "0-1:2-3-4-5-6",
+   "budge": "śenār - tu",
+   "gloss": "be turned back",
+   "approx": [
+    "V7",
+    "E23"
+   ],
+   "unsure": "First sign a tall oval loop with a small inner loop near the top and its ends crossed at the bottom (V7 approx). Fourth sign a small low recumbent shape: rounded head-like end at left with interior lines, long flat body, rounded lump at right — lying lion E23 approx (could be the forearm D40). Line numeral '13.' immediately before this word. · B: printed right after numeral '13.'; first sign an oval loop whose ends cross below (šn cord, V7 approx); N35 over U15 (Budge ā); then a recumbent lion (E23 approx, r) "
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 13,
+   "signs": [
+    "U1",
+    "G1",
+    "Z4",
+    "G43",
+    "Y1a"
+   ],
+   "q": "0-1-2-3-4",
+   "budge": "maiu",
+   "gloss": "may be renewed",
+   "unsure": "B: sickle alone (no eye); two small oblique strokes Z4 between the birds; tall upright with tie at left Y1a"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 13,
+   "signs": [
+    "V28",
+    "U15",
+    "F51",
+    "Z2",
+    "A1"
+   ],
+   "q": "0-1:2*3-4",
+   "budge": "ḥāu - à",
+   "gloss": "my members",
+   "approx": [
+    "F51"
+   ],
+   "unsure": "Small curl with tail (F51 approx) under U15 beside three strokes. · B: U15 over a small loop with tail (F51 approx), three strokes, kneeling man A1"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 13,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "by"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 13,
+   "signs": [
+    "X4",
+    "Q7",
+    "G1",
+    "D4"
+   ],
+   "q": "0:1-2-3",
+   "budge": "ṭeka",
+   "gloss": "the sight of",
+   "approx": [
+    "X4",
+    "Q7"
+   ],
+   "unsure": "Top sign the same elongated rounded oblong with small top bump as in sesunneṭ (N18 approx, uncertain). Under it a small trapezoid with an inner Λ, wider at base (W11 for ḳ). Budge prints dots under ṭ and ḳ. · Decision (B): same long rounded sign as in sesunneṭ (X4 approx) over a trapezoid stand Q7 approx; Budge prints ṭeka, undotted k"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 13,
+   "signs": [
+    "F35",
+    "Z1",
+    "Z2",
+    "V31"
+   ],
+   "q": "0-1:2-3",
+   "budge": "neferu-k",
+   "gloss": "thy beauties",
+   "unsure": "Single stroke above three strokes after F35. Budge prints 'neferu-k' with no spaces around the hyphen. · B: F35, then a single short stroke above three strokes; Budge prints 'neferu-k' without spaces round the hyphen"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 13,
+   "signs": [
+    "W19",
+    "M17"
+   ],
+   "q": "0-1",
+   "budge": "mà",
+   "gloss": "like",
+   "approx": [
+    "W19"
+   ],
+   "unsure": "Tall loop ending in a small netted jug: W19 approx. · B: milk-jug-in-net shape (loop with bulb at foot)"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 13,
+   "signs": [
+    "V28",
+    "W14",
+    "O34",
+    "M17",
+    "M17",
+    "A2",
+    "V31"
+   ],
+   "q": "0-1-2-3-4-5-6",
+   "budge": "ḥesi - k",
+   "gloss": "thy favoured ones",
+   "approx": [
+    "W14"
+   ],
+   "unsure": "Second sign a tall narrow vessel with a T-shaped top and small triangular foot, W14 approx. Kneeling figure with arm brought to the face, A2. Numeral '14.' stands after the next word nebu. · B: tall slim jar W14; seated/kneeling man with hand held at his face (A2 approx, A1 possible)"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 13,
+   "signs": [
+    "V30",
+    "Z2"
+   ],
+   "q": "0:1",
+   "budge": "nebu",
+   "gloss": "all",
+   "unsure": "Line numeral '14.' follows this word."
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 14,
+   "signs": [
+    "D2",
+    "Z1"
+   ],
+   "q": "0:1",
+   "budge": "ḥer",
+   "gloss": "because",
+   "unsure": "Line numeral '14.' immediately before this word. Budge's English 'because' spans ḥer entet. · B: printed right after numeral '14.'. Budge prints 'ḥer' and 'entet' as two transliteration words under one English gloss 'because' - see next entry; this entry is ḥer only, gloss shared"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 14,
+   "signs": [
+    "N35",
+    "X1",
+    "X1"
+   ],
+   "q": "0:1*2",
+   "budge": "entet",
+   "gloss": "",
+   "unsure": "Budge's English 'because' stands under ḥer entet together; no separate gloss. · B: gloss 'because' shared with ḥer"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 14,
+   "signs": [
+    "W24",
+    "V31",
+    "A1"
+   ],
+   "q": "0:1-2",
+   "budge": "nuk",
+   "gloss": "I am"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 14,
+   "signs": [
+    "T21",
+    "Z1",
+    "U15"
+   ],
+   "q": "0:1:2",
+   "budge": "uā",
+   "gloss": "one",
+   "unsure": "Harpoon over a stroke over the low flat sign with an upright tab at right (U15). · B: harpoon over a stroke over a long low flat sign with small upright tab at its right end (U15)"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 14,
+   "signs": [
+    "G17"
+   ],
+   "budge": "em",
+   "gloss": "of"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 14,
+   "signs": [
+    "N35",
+    "U19",
+    "W24",
+    "G43"
+   ],
+   "q": "0:1-2-3",
+   "budge": "ennu",
+   "gloss": "those",
+   "approx": [
+    "U19"
+   ]
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 14,
+   "signs": [
+    "N5",
+    "N35"
+   ],
+   "q": "0-1",
+   "budge": "en",
+   "gloss": "who",
+   "unsure": "Printed: a circle with a central dot (N5) then the water line; Budge transliterates the group only 'en'. · B: small ring with central dot (sun N5 shape) before N35; odd for 'en' but that is what is printed"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 14,
+   "signs": [
+    "A51",
+    "O34",
+    "O34",
+    "Y1a",
+    "Z1",
+    "N35",
+    "V31"
+   ],
+   "q": "0-1:2-3-4-5:6",
+   "budge": "śepses - nek",
+   "gloss": "worshipped thee",
+   "approx": [
+    "A51"
+   ],
+   "unsure": "Man seated on a chair holding a small object/flail in front (A50 approx; A51 possible). Dashed stroke after Y1a. · Decision (own): the noble seated on a chair A51 approx (B); after Y1a a single dashed stroke Z1 (A)"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 14,
+   "signs": [
+    "D1",
+    "Z1"
+   ],
+   "q": "0:1",
+   "budge": "ṭep",
+   "gloss": "upon"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 14,
+   "signs": [
+    "N16"
+   ],
+   "budge": "ta",
+   "gloss": "earth"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 14,
+   "signs": [
+    "M17",
+    "G43"
+   ],
+   "budge": "àu",
+   "gloss": "May"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 14,
+   "signs": [
+    "F22",
+    "D54",
+    "N35",
+    "A1"
+   ],
+   "q": "0:1-2:3",
+   "budge": "peḥ-nà",
+   "gloss": "I arrive",
+   "approx": [
+    "F22"
+   ],
+   "unsure": "First sign two overlapping leaf-like loops on a horizontal rod (lion hindquarters F22 approx), D54 under it. Budge prints 'peḥ-nà' without spaces."
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 14,
+   "signs": [
+    "D21"
+   ],
+   "budge": "er",
+   "gloss": "at"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 14,
+   "signs": [
+    "N16"
+   ],
+   "budge": "ta",
+   "gloss": "the land"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 14,
+   "signs": [
+    "N35"
+   ],
+   "budge": "en",
+   "gloss": "of"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 14,
+   "signs": [
+    "V28",
+    "N5",
+    "V28"
+   ],
+   "q": "0-1-2",
+   "budge": "ḥeḥ",
+   "gloss": "eternity"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 14,
+   "signs": [
+    "W9",
+    "G17",
+    "Y1a",
+    "N35"
+   ],
+   "q": "0-1-2-3",
+   "budge": "χnem - nà",
+   "gloss": "may I be united",
+   "unsure": "The numeral '15.' is printed inside this word, between Y1a and the N35 of -nà; the word keeps line 14. No A1 after N35. · B: the numeral '15.' stands between Y1a and the N35 of -nà; word keeps line 14 (line in force at its first sign)"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 15,
+   "signs": [
+    "D21"
+   ],
+   "budge": "er",
+   "gloss": "to"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 15,
+   "signs": [
+    "N16"
+   ],
+   "budge": "ta",
+   "gloss": "the land"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 15,
+   "signs": [
+    "N35"
+   ],
+   "budge": "en",
+   "gloss": "of"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 15,
+   "signs": [
+    "I10",
+    "X1",
+    "N16"
+   ],
+   "q": "0:1:2",
+   "budge": "t'etta",
+   "gloss": "everlastingness",
+   "unsure": "Cobra whose body curves down around X1 over N16. · B: cobra I10 curling over and down the right side of X1 and a flat sign with small grains beneath (N16 approx)"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 15,
+   "signs": [
+    "N35",
+    "X1",
+    "V31"
+   ],
+   "q": "0:1:2",
+   "budge": "entek",
+   "gloss": "thou"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 15,
+   "signs": [
+    "M17",
+    "S29"
+   ],
+   "q": "0-1",
+   "budge": "às",
+   "gloss": "behold",
+   "unsure": "B: second sign a tall narrow inverted-U (folded cloth S29 drawn upright)"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 15,
+   "signs": [
+    "V24",
+    "G43",
+    "Y1a",
+    "N35",
+    "A1"
+   ],
+   "q": "0-1-2-3:4",
+   "budge": "utu - nà",
+   "gloss": "hast ordered for me",
+   "approx": [
+    "V24"
+   ],
+   "unsure": "Staff with coiled top (wḏ sign), V24 approx. · B: upright stick with a small coil at top (wḏ, V24 approx)"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 15,
+   "signs": [
+    "O34",
+    "X1"
+   ],
+   "q": "0:1",
+   "budge": "set",
+   "gloss": "it"
+  },
+  {
+   "page": 131,
+   "plate": "XX",
+   "chapter": "XV",
+   "line": 15,
+   "signs": [
+    "V30",
+    "A40",
+    "A1"
+   ],
+   "q": "0-1-2",
+   "budge": "neb - à",
+   "gloss": "my lord",
+   "approx": [
+    "A40"
+   ],
+   "unsure": "After V30 a seated figure with long wig (A40 approx, beard not clear), then the kneeling man with arm raised (A1). Stretch ends here; the overline over the following 'à' (Hail) belongs to the next part. · B: after V30 a seated long-wigged figure with knee raised (A40 approx; no beard visible), then the kneeling man with arm raised A1 (the suffix -à)"
+  }
+ ]
+}

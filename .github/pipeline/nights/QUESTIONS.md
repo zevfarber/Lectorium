@@ -2345,3 +2345,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, with notes: P896L22 verse انَشَدَ (metre wants فأنشد); P899L11 هيّأتنا (sense سيّئاتنا); P899L12 اجادوا حسن (spacing for أجاد وأحسن); P899L16 بينهما وبينه; P896L10 للاختيار read ikhtiyār "elder" (doubtful); verse آمن الارهاص (P900L14) obscure.
 - Review fixed one misreading: P899L22–P900L01 لعلّه ينتصب refers to "the familiar (thing)" Budūr pretends to have, not to Qamar al-Zamān's member.
 - Nothing waits on the owner. Night 217 is complete and unpublished; the next firing publishes it.
+
+## Night 217 (P901L19–P903L19, published 2026-11-27)
+- Library label: `Night 217 · Qamar al-Zamān, continued` (the princes al-Amjad and al-Asʿad enter here, but the print gives no new tale heading, so the label stays on Qamar al-Zamān).
+- Misprints corrected (emend.json): P902L08 نرضاة → نرضاه; P902L12 الافراج → الافراح (the transcription kept ج as printed; the sense allows only الافراح, "the wedding festivities", so it is corrected under the 2026-11-06 rule); P902L19 اباة → اباه.
+- Kept as printed, with a note: P902L17 زوجته (the sense wants زوجتيه "his two wives", as منهما on the next line shows; doubtful, so not corrected; the idiomatic layer reads "his wives"). Spacing السعيدان, لماصار, ماكان, ولانخرج kept.
+- Nothing waits on the owner. Night 218 is not yet complete (tail unread); the next firing transcribes (PDF 927–932, the last six pages of volume 1).

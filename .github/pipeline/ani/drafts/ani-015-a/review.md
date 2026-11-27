@@ -48,3 +48,43 @@ Sign codes and order untouched; after editing: JSON loads, the sign sequence equ
 - `p` placement: U0 (title), U2 (Ani's speech begins, as in the published Plate 1 hymn), U34 (second hymn, Budge's numerals restart). Nothing else opens a chapter, rubric or speech. Kept.
 - iḫmw-wrd "Unwearying Stars", iḫmw-sk "Imperishable Stars": the latter is the published rendering (Spell 44); no Budge wording ("stars which never rest/set") in l/i. Kept.
 - No Budge-isms found in l/i (checked for thee/thou/saith/homage/triumphant/beatified/fiends and his name forms).
+
+## Pass 2
+
+Fresh full check of all 48 units and of gloss.json (unit and word numbers as in Pass 1). Sign codes and order untouched. After editing: JSON loads; sign sequence equals the packet's (919 glyphs); morph `g` covers every glyph of every word exactly once; gloss key set equals the lemmas used minus known-lemmas keys; every `__broaden__` value begins with the known entry whole + " · ".
+
+### Changes — units.json
+- U3 · n · minor · dwꜣ tw with no subject was called "the infinitive used as an exclamation" without saying that an infinitive takes a pronoun object as a suffix (dwꜣ·k, as ḥr dwꜣ·k in U21), so the dependent tw is irregular for it · added that the construction is not certain, that a dependent tw after an infinitive is a later usage, and that Budge's passive comes to the same sense; l/i kept.
+- U30 · n · minor · same construction (dwꜣ tw, sqꜣ tw) with no doubt stated · "with the same doubt over the construction" added.
+- U0 · n · minor · ꜣḫt "with t and a house-like sign as classifiers", while the glyphs (rightly) have X1 as a complement · "with t as complement and a house-like sign as classifier".
+- U23 · i · minor · l has "in(?)" for imytw (the note says the sense is doubtful) but i stated "in the sky" flatly · i "came into being in(?) the sky".
+- U5 · glyphs (w40 mꜣꜥw, Z7) · style · the second w was `comp`; a complement repeats a consonant of a multiliteral sign, and here it repeats the uniliteral G43; U19's same word has it as `phon` · role phon (tr w); note already says "the curl w again".
+- U20 · i · style · "has hauled on(?)" echoed Budge's "draweth on" · "has hauled(?)".
+- U43 · i · style · "make the Two Lands bright" echoed Budge's "makest bright" · "you brighten the Two Lands", matching l "brighten".
+- U41 · i · style · l "the-opponents" against i "the adversaries" · i "the opponents".
+- U36 · n · style · stray comma "'Heliopolis' (Iunu), is" · comma removed.
+
+### Changes — gloss.json
+- iḫmw-wrd · major · glossed "the circumpolar stars that never set", which is the Imperishable Stars (iḫmw-sk) and contradicts U8's note · rewritten on the pattern of the known iḫmw-sk entry: "'those who do not know weariness', the Unwearying Stars, the stars that never cease moving (plural noun, from ḫm 'not know' and wrd 'be weary'; Budge: àuχemu urṭu)".
+- __broaden__ sti · minor · no longer used (pass 1 moved stwt·k to lemma stwt) · dropped.
+- __broaden__ dwꜣ, stwt, ḥtp · minor · known entries fail this part's uses (dwꜣw noun 'adoration' in U34; stwt as a verb 'shine' in U31; ḥtp of the sun 'set' in U0, U9, U11, U39) · added: "· also dwꜣw, adoration, praise (noun from it)"; "· also to shine, send out rays (?) (verb, spelled like the noun stwt)"; "· also, of the sun, to set (verb; ḥtp·f 'his setting')".
+- __broaden__ mḥyt · minor · "also written short, mḥw (older spelling)": the claim that mḥw is an older spelling is unsupported · "· also written short, mḥw (?)", matching the doubt in U45.
+- __broaden__ nṯri · minor · "to make divine, glorify": 'glorify' is an invented sense, and the transitive use itself is doubtful (U29 says so) · "· also, with an object, to make divine (?)".
+- ꜣḫw · minor · etymology "from ꜣḫ 'be effective, shine'" conflates two roots and cannot be stood behind · cut: "radiance, sunlight (noun m.)".
+- hnw, tpi · minor · the verb 'jubilate' and the verb tpi 'breathe in' are not secure · "(?)" added; tpi also given Budge's tepà.
+- imy-r · minor · "r 'mouth'" in a Leiden gloss (the word is rꜣ) · "the nisba imy of the preposition m with rꜣ 'mouth'"; etymology 'he who is in the mouth' kept (standard and matches U32's note).
+- ḏꜣyw · style · "from ḏꜣi 'oppose'" aligned with U41's note "cross, oppose"; Budge: t'ai added.
+- __broaden__ ḏd · style · new sense "(ḏd, of a god or a lord: 'living and enduring')" was pinned to this passage · "· also to be stable, enduring (verb; stative ḏd 'stable'; ꜥnḫ ḏd 'living and enduring')".
+- __broaden__ sšm · style · gave only the participle · "· also to lead, guide (verb); guide, leader (participle used as a noun)", matching the occurrence gloss.
+- nmi · style · "said of the sun crossing the sky" pinned the entry to this passage · cut.
+- npt · style · Budge's nept added (word otherwise unknown, sense from him).
+
+### Findings refused
+- U38 nṯrw pw sšm dwꜣt: whether the first or the last member of 'A pw B' is the predicate does not change an identity in English; the doubt is stated and l/i carry "(?)". Kept.
+- U36 Heliopolis vs Iunu: the published parts are mixed (Spell 125 opening: Heliopolis; Plate 2 hymn to Osiris: Iunu); pass 1's Heliopolis is the model's and a settled name; say stays Iunu as in every published part. Kept.
+- U47 ḥḥ for nḥḥ: same spelling, reading and lemma as the published Plate 2 hymn ("the copy's way of writing the word and is not corrected"). Kept.
+- U20 pḥ sw (pass 1's object reading) and sk·n·s: sound against the grammar; doubts stated. Kept.
+- U46 "are at peace": the plain rendering of ḥtp used through the draft, not a Budge phrase to avoid. Kept.
+- mꜣꜥw "fair wind" and its note's link with mꜣꜥ: kept; the gloss gives Budge's form; no better reading from the signs.
+- ḏꜣyw, sḥḏ, imy-r etymologies: standard; kept (imy-r corrected for rꜣ only).
+- Readings, say forms, rubric flags (U0, U1, U34 match the packet), misprint notes (U18, "The papyrus writes … ; read …") and names (Sektet, Adjet, Manu, Wennefer, Horakhty, Duat, Sokar, Ani's spellings) checked against the published parts: consistent. No Budge-isms found in l/i beyond the three echoes fixed above.

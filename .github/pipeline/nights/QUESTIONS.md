@@ -2410,3 +2410,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, with notes: run-together السعيدان, وثاروامّا, ماحصل, ياليتنا, لانروح, ماجرى, لاحول ولاقوة; فعَلاَ with the print's fatḥa on the lām-alif; مشوُمة (pointed مَشُوُمَةٌ, mashūma for mashʾūma, as the shared keys مَشُومَة have it; Night 47 pointed the masculine مَشْوُمُ); اريح; mukattafīna plural for the two brothers.
 - Decided meanwhile, reversible: P919L10 كان read as ka-anna ('as though'), with kāna given as the alternative; P919L23 واقفين read as the dual wāqifayni (plural possible, noted).
 - Nights 224 is complete and unpublished; the next firing publishes it. Nothing waits on the owner.
+
+## Night 224 (P920L03–P921L09, published 2026-11-27)
+- Library label: `Night 224 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): ة→ه ×2 (اولاده P920L20, 'his sons'; P921L09, 'his sons' clothes').
+- Kept as printed, with notes: P921L07 قتُلا, whose printed ḍamma sits on the tāʾ (the passive is qutilā). The rule keeps printed prose marks, so `t` shows قُتُلَا while `tr` gives qutilā, and the audio may say "qutulā". **Owner:** should a mark the print sets in the wrong place be corrected the way a misprinted letter is? For now it is kept. Also kept: P921L01 وقد قال لي, a singular verb for the two brothers (one brother speaking for both, or a dropped dual alif; flagged as doubtful); قنانيتين (pointed as qanānītayni, a guess); verse اِصْلُ (read aṣlu); حاشى; and the run-together السعيدان, اريدان, ياسيداي.
+- Review suggestions not taken: rewording the existing shared keys الْأَسَدِ ("here Sharkān", left over from an earlier night) and الْخَازِنْدَارِ ("gen. after ʿalā"). Existing entries are only appended to.
+- Night 225 is not complete yet (its tail is still to be transcribed); the next firing transcribes. Nothing waits on the owner.

@@ -185,3 +185,69 @@ All other known forms match the published mt.
    Chequen zanic kept as names; coꜩih 'flower(s)'; cah ꜩel coꜩih 'four bowls of flowers'; chahal / chahalib 'guardian(s)';
    ticon 'garden'; Puhuyu, Xpurpuvec, Purpuec kept; muchih / muchit / carinimac kept with colours translated; chacon / chacom
    'what (we) have won'.
+
+## Pass 2
+
+I checked gloss.json (50 novel entries and 6 under `__broaden__`, written by the glosser against the drafter's units.json
+before pass 1) against the current units.json:
+- each entry's modern form against the token's mt;
+- meaning and morphology against the notes, and general to the form rather than pinned to one line;
+- the (inferred) and (guess) marks against the notes;
+- each broadening against the published entry, which must be kept whole.
+
+I also listed every known form in the part with its published glossary entry and looked for uses not covered. Then I re-read
+the whole of units.json (`l`, `i`, `n`, about) after the pass-1 edits.
+
+Checks after the edits:
+- make_units.py printed `OK: 50 units, 10 paragraphs, 705 words, longest 34 (U22); paragraph starts at U1, 6, 12, 17, 24, 28,
+  34, 37, 43, 48`.
+- No `t` changed.
+- gloss.json covers every novel-forms.json key: 50 of 50, no extra keys.
+- Every `__broaden__` value starts with the published entry whole, followed by " · ".
+- hooks.assemble + hooks.validate run in memory, nothing written: no warnings. The only error is coverage against the on-disk
+  glossary, the expected pre-build state. Against the merged glossary that assemble produces, no form is missing.
+
+Counts: 0 major, 7 minor, 3 style.
+
+### Changes
+
+- gloss `mix` (new broadening) · minor · U43 `mix ia` is 'you (pl.) have given/let'. The published entry has only 'has just'
+  (mi- + x-) and 'do not' (mi + ix). · Broadened: "mix — you (pl.) have; mi- 'just now' + ix 'you (pl.)' before a verb, the
+  completive x- merged with it (inferred; …)".
+- gloss `mixe` (new broadening) · minor · U13/U25 `mixe ca chaco` 'we have just beaten them': here e is the absolutive object
+  'them', but the published entry says only 'they have just'. · Broadened with the object reading.
+- gloss `ia` (new broadening) · minor · The published entry says "with no doer named", but in U43 `mix ia` the doer is ix 'you
+  (pl.)'. · Broadened: "ya — give, let; with a doer named (mix ya …)".
+- gloss `ꜩel` (new broadening) · minor · The published entry is only the name Aj Raxa Tzel. Here ꜩel is the plain noun 'bowl'
+  (U8, U36, U39, U41). · Broadened: "tzel — bowl; noun, in plain use …".
+- gloss `cah` (new broadening) · minor · 'four' (U8 `cah ꜩel`) appears in the published entry only as a parenthesis under 'sky'.
+  · Broadened: "kaj — four; numeral, the root of kajib' …".
+- gloss `mi` (new broadening) · minor · U44 `mi na re` 'not even (?)' is not covered by 'just now' or 'do not'. · Broadened, marked
+  (guess), with Brasseur's French.
+- gloss `ana` (broadening) · minor · The example gloss said "'where else could it have come to be seen'". That follows the
+  wording pass 1 removed from U26 `i` ("else" is Brasseur's, and the clause is active). · Now "'from where did it come that he
+  see it'".
+- gloss `chacon` · style · "once perhaps 'their defeats'" pinned the entry to U6. · Now "also read 'defeats', the games lost,
+  after Brasseur ('leurs défaites')".
+- gloss `acaba`, `elecai` · style · The establishment log lists both as doubtful readings, and the notes now say so (pass 1),
+  but the entries did not. · "(inferred; doubtful reading)".
+
+### Checked and kept
+
+- Modern forms: every one of the 50 entries matches its token's mt (`ꜭux` k'ux and `cana` q'ana under `__broaden__` also
+  match). The pass-1 change at U43 (`ca vilo` → ka wilo) needed no gloss change: the published `vilo` entry already reads "I
+  see it; w- 'I' + il + -o", and `ca` has the ongoing ka.
+- Glosser's broadenings:
+  - `cha`: the play/court reading is marked (inferred), with Brasseur's 'lances' given.
+  - `xcah`: 'it began' is (inferred), with Brasseur's contrary reading.
+  - `cana`, `ꜭux`, `xic` ('wing', as 010's vxic) are each justified by the text.
+  - All keep the old entry whole.
+- Grammar in the novel entries: the passive -ax/-ix + -ik (elecaxic, quirixic), the agent/plural forms (chahalib, chahal),
+  -bal/-in/-em (tohbal, chahin, chahem), x- + ki- + na (xquina) and r- + utz (rvꜩ) all agree with the notes. No invented modern
+  forms; every unexplained word is "respelled by the letters" as its mt is.
+- `chaim`: the published entry calls Chaim Ha "the fifth house of trial" (011's list). In 019 it is the twins' second trial
+  (v cab tihobal). The entry is about the name, and 011's order is true of the list, so it is not broadened.
+- Known forms with other new uses (re 'teeth', he 'tail', chi' 'mouth', cab 'second', oc 'already', cu = ku, caam kaam, ꜫuz
+  'delight', vilo 'I see', quic 'rubber', cama, oho, varah) are already covered by published entries.
+- units.json, re-read whole: no further changes. The pass-1 edits read correctly in context. The points refused in pass 1 (U7,
+  U13 "for once", U21 chi, U25/U26 split) stand.

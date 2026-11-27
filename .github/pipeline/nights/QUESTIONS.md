@@ -2373,3 +2373,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Volume 2's type sets shaddas on prose words much more often than volume 1's (validator WARNs on most pages); both passes agree on them, so they are kept as printed. The dot check restored 16 final ة (يدة, مناخيرة, فاخبرة, صهرة, خازندارة, لامرة, قدّرة, صدرة, خدّة, وراءة, اولادة ×3, ولدة ×2, حزناة), plus فِى ×2 in the P917L01 verse. As in recent volume-1 batches, هذه was not changed: the adjudicator could not reliably tell its ending from a plain ه.
 - Third readings by the adjudicator: P917L01 فَهُنَّ (both passes had فَمِنْ), P917L20 كُحَلُ, P918L20 فعَلاَ, P919L05 مشوُمة (a damma, not a hamza, over the waw). Spacing kept as printed: السعيدان, اريدان, لانروح, ياليتنا, وثاروامّا.
 - Nights 219–224 are complete and unpublished; the next firings publish them. Nothing waits on the owner.
+
+## Night 219 (P905L01–P909L05, published 2026-11-27)
+- Library label: `Night 219 · Qamar al-Zamān, continued`. Last night of volume 1; the colophon (P909L06–P910L21) is not part of it, as decided at transcription.
+- Misprints corrected (emend.json): ة→ه ×9 (هذه ×5, غمده, انهاه, يده ×2); P906L05 قوب → قرب; P906L17 برضيك → يرضيك; P908L20 القيضة → القضية.
+- Kept as printed, with notes: P906L01 split وقدا صبحت (wa-qad aṣbaḥat); P908L14 يصيرتا (doubtful; perhaps تصيرا), vocalised as printed; P906L11 ودلّ (ذلّ possible); P907L08 verse كَيْلَا يُصِيبُكَ (indicative); جري, حكي, بالحيوة, بالبكا, بن without alif.
+- Decided meanwhile: shared-glossary senses that clashed with this night were appended, never replaced. The reviewer notes that the existing key اللّٰهُ claims the dagger alif is the edition's own mark, which is not so where the print has bare الله; this night no longer uses that key, and it was left unchanged.
+- Nothing waits on the owner. Night 220 (lost opening, see the transcription entry above) is next; nights 220–224 are complete and unpublished.

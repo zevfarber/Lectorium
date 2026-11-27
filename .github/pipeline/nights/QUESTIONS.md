@@ -2388,3 +2388,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, with notes: P915L11 لاتجزعني (pointed lā tujazziʿnī, "do not make me grieve"; لاتجرعني, "do not make me swallow", is one dot away and fits غصة/تسقني better, so doubtful, not corrected); P914L15 واخرج لهما (sense بهما, "take them out"); قنانيتين (dual of a later qanāniya, "flask"); ودعى, يا ولداي, ياسيداي, يهنّياه, صابرون after a dual subject.
 - Review suggestion not taken: reordering the existing shared key فِعْلًا (existing entries are only appended to).
 - Nights 221–224 are complete and unpublished; the next firing publishes Night 221. Nothing waits on the owner.
+
+## Night 221 (P915L16–P917L03, published 2026-11-27)
+- Library label: `Night 221 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P916L04 صدرة → صدره; P917L02 ما تريد منك → ما نريد منك (one dot; al-Amjad speaks for both brothers, as مالنا before shows).
+- Kept as printed, with notes: هذه كلّه; اخى; فبكي; يا سيداي; ما يقتل قبل الا انا; ولاتدعهما (dual with no clear antecedent; تدعها, 'leave it' (the fire), expected; doubtful, not corrected); spacing ماجرى, ولاقوة, مالنا.
+- Decided meanwhile, reversible: P916L20 انشده is read as narrative (anshadahu, al-Amjad recites to the treasurer); the imperative anshidhu, still inside his instructions, is equally possible and the note says so.
+- Review suggestion not taken: rewording the existing shared key الْأَسْعَدَ ('in apposition after inna' — it is the noun of inna); existing entries are only appended to.
+- Nights 222–224 are complete and unpublished; the next firing publishes Night 222. Nothing waits on the owner.

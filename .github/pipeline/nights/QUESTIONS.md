@@ -2426,3 +2426,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, possibly misprints, for the publishing run: P924L13 الصوق (for السوق; the same page prints السوق at L19), P925L23 حظت (for حطت, "she set down"; a dot is beside the ط), P925L11 مجتعون (for مجتمعون), P925L07 ينتظرلي (perhaps ينتظرني; not confirmed on the image), P929L19 يملّيه (could be a heavily inked يسلّيه).
 - Volume 2's type keeps setting shaddas on prose words (59 gate WARNs, against 65 in the last batch); both passes agree on them, so they are kept.
 - Next batch: PDF 954–961 (PDF 952–953 = vol. 2 pp. 20–21 are missing from the scan). Nothing waits on the owner.
+
+## Night 225 (P921L10–P923L02, published 2026-11-27)
+- Library label: `Night 225 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): ة→ه ×5 (اولاده and ولده P921L12, ولده P921L14, حزناه P921L19, امره P922L14).
+- Kept as printed, with notes: in the first poem, يَمُسَّ (P922L02; one syllable too many and hard sense, probably يَمِسْ "sway", which the idiomatic layer follows) and مَعَاطِفَ (the metre wants tanwīn); the first half of P922L04 and the second half of P922L08 do not scan cleanly; اِعْزِزْ (P922L10), where the print's kasra stands for the fatḥa of the verb of wonder; مُتَسَاوِيهِ (P922L10, no clear grammar; translated as "where the base and the noble lie as equals"); وا ولداه, "alas my son", in the singular for two sons. Also kept: وترامي, واشتكي, اعلا and the run-together السعيدان, لاحول ولاقوة.
+- Nights 226–229 are complete and unpublished; the next firing publishes Night 226 and should correct its misprinted label اليلة (P923L03) through emend.json. Nothing waits on the owner.

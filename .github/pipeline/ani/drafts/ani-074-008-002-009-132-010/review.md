@@ -74,3 +74,63 @@ These known entries are too narrow for this part (`__broaden__`):
 - tm (known only as the negative verb; here also "be complete, come to an end", U13);
 - ḫꜥ (known only as the verb; here the noun ḫꜥw "appearings, crowns", U45);
 - ḫm (known as "not know"; here read ḫmt, taken as "without (?)", U45, doubtful).
+
+## Pass 2
+
+Method. All 46 units were read again from the start, word by word, in a fresh merged view of units.json and the packet (`review2/view.py`, output `review2/all.txt`). Each word was checked for every glyph's role and tr, its reading against the signs and Budge's letters, its morph, its say form, and its grammar labels. `l` was checked word by word, and `i` against `l`. House roles, readings and say forms were checked by script against the published `ani-*.json`: mk / mk-tw, m-m, mi, rdi(t), wi, sp sn, ir·k, wnw, iꜥḥ, swty / stẖ, ꜣḫ·kwi, "(iw)" and "(twice)" in `l`. Then gloss.json was checked entry by entry against the text and known-lemmas.json. No modern translation was opened or recalled. Budge's English was used only as a check on sense.
+
+Edits were made by script (`review2/edit.py`, `review2/edit2.py`). Before replacing anything, each text replacement was asserted to match exactly once, and each gloss value was asserted equal to its old value. Both files were written back in their own format: json indent 1, ensure_ascii off, no trailing newline. The pre-edit copies are `review2/units.before.json` and `review2/gloss.before.json`. After the edits, `review2/check.py` confirmed:
+- the 1001 sign codes, joined in order, equal the packet's sequence;
+- glyphs, q and morph are identical to the pass-1 file;
+- every q and every morph g covers its word's glyphs once;
+- every det has an empty tr and no other role has one;
+- every morph lemma is either in known-lemmas.json or a gloss key, and no gloss key is unused;
+- every `__broaden__` entry begins with exactly the known entry + " · " and is used in this part.
+
+Counts: 0 major, 5 minor, 7 style (12 changes: 6 in units.json, 6 in gloss.json).
+
+### Changes — units.json
+
+- U0 · n · **minor** · The note called wnt "its infinitive with t" under the lemma wn, a verb of two consonants, whose infinitive takes no t. · The note now says the t is one that the infinitive of a two-consonant verb does not take, so the form (infinitive or noun) is not clear.
+- U3 · n · **minor** · The note quoted Budge as "uārt", but the packet prints "uart". · → "(Budge: uart)".
+- U5 · n · **minor** · Pass 1 changed `l`/`i` to the infinitive "my going", but the note still opened "šmt·i 'I walk'" and then called it the infinitive. · → "šmt·i 'my going'".
+- U0 · n · style · The note called pr the infinitive of pri without saying that the infinitive's t is missing. · ", its t not written" added.
+- U19 · n · style · The first sign of wꜥw (coded K1, not that sign) has tr w only because Budge reads u. The note did not say so. · Clause added: "the first sign taking his u only because he reads it so".
+- U40 · l · style · `i` has "at his strides(?)" (pass 1), but `l` had "strides-his" with no doubt marked. · → "strides(?)-his".
+
+### Changes — gloss.json
+
+- ḫꜥ · `__broaden__` · **minor** · Pass 1 asked for this entry and the glosser left it out. The known entry has only the verb, and U45 has the noun ḫꜥw. · Added: known entry whole + " · also ḫꜥw, appearings, glorious appearances; crowns (noun m. plural; Budge: χāāu)".
+- mwt · `__broaden__` · **minor** · The entry was not needed. The known entry already has "to die (verb; often written mt, without the w; Budge: mit)", which is the U15 word. The added "death, dying (the infinitive …)" only names an infinitive, which the house does not gloss separately (compare prt under pri). It also repeated "Budge: mit". · Removed.
+- rr · `__broaden__` · style · The new sense was pinned to this line ("the sense of the verb after rdi 'let'"). · → known entry + " · also to turn about, turn back (verb; Budge: rer, 'to return')".
+- nꜣg · style · Pinned to the line ("the parallel with qq 'eat'"). · → "the sense is a guess from Budge".
+- rw · style · Pinned to this print ("Budge: no transliteration, only …"). · → "(noun m.; also the lion as a god; written with the recumbent lion; Budge: 'the Lion-god')".
+- šfyt · style · No Budge reading, unlike the other new entries. · "Budge: śeft" added.
+
+### Checked and kept
+
+- **Broadenings kept** (each is used in this part and begins exactly with the known entry):
+  - is: the particle, U42, U44;
+  - bꜣ: the verb "hack open (?)", U39;
+  - ir: the noun irt "deeds", U1 irt·k (the known entry has only the verb and particles);
+  - rr: "turn back", U31;
+  - sꜥḥ: the stative verb, U29;
+  - ḫm: ḫmt "without (?)", U45.
+- **tm — refused (pass 1's suggestion).** The known entry already has "a second word of the same spelling: to be complete, whole (verb)". U13's "come to an end" is a rendering of that sense in context, so it is not a new sense.
+- **New entries.** All 14 (qrrt, ḥfd, ibḥ, ꜥbꜣ, rwty, wꜥw, imḥt, šfyt, sḥr, rw, sḏf, ꜥḏ, šꜣs, nꜣg) have correct grammar labels and mark their doubt. The one place name, imḥt, gives Budge's àmmeḥet. No modern sense is invented: every doubtful sense is marked (?) and attributed to Budge or to the classifier.
+- **House checks** (published parts):
+  - mk-wi is hyphenated as the house mk-tw;
+  - m-m with D36 phon ꜥ is the house tagging;
+  - mi with G17 D36 is the house writing;
+  - "(iw)" and "(twice)" in `l` are the house form;
+  - wnw "Wenu" and iꜥḥ "Iah" match the house;
+  - swty under the lemma stẖ matches 043.
+
+### Refused
+
+- **ꜣḫ·kwi (U29): G43 phon w, "not read".** The house ꜣḫ·kwi (one case) has no chick. Here the chick is printed, and the note says it is not read. Kept.
+- **U26 ḥsq·i: sḏm·f rendered "have cut out".** The note states that the sḏm·f here is of a deed done, and the sense of the passage requires the past. Kept.
+- **U9 / U19 U15 as a classifier of wn.** The packet codes what is printed, the note names the sign, and the house 043 writes wn·w the same way. Kept.
+- **part "walking".** This is a general description of Spell 74, not a translation of wnt. Kept.
+
+Totals: 12 changes — 0 major, 5 minor (3 units, 2 gloss), 7 style (3 units, 4 gloss); 4 findings refused; nothing unresolved.

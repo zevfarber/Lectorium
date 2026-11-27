@@ -21,8 +21,8 @@
 | popol-vuh-016 | The animals undo the field; the rat tells of the ball things | fols. 20v–22r | published |
 | popol-vuh-017 | Xibalba summons the twins; the louse, the toad, the snake and the falcon | fols. 22r–23v | published |
 | popol-vuh-018 | The twins go down to Xibalba; the Xan names the lords; the Dark House | fols. 23v–25r | published |
-| popol-vuh-019 |  | LoC images 0059–0062 | todo |
-| popol-vuh-020 |  | LoC images 0066–0068 | todo |
+| popol-vuh-019 | The ball game won; the House of Blades; the ants fetch the flowers | fols. 25r–26v | established |
+| popol-vuh-020 |  | LoC images 0062–0065 | todo |
 | popol-vuh-021 |  | LoC images 0069–0071 | todo |
 | popol-vuh-022 |  | LoC images 0072–0074 | todo |
 | popol-vuh-023 |  | LoC images 0075–0077 | todo |

@@ -16,7 +16,12 @@ Exit 0 and RESULT PASS, or exit 1 with the failures listed.
 """
 import json, os, re, sys, unicodedata
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from pagemap import missing_printed  # vol. 2 pages absent from the scan (2026-11-20)
+from pagemap import missing_printed, EXCLUDE, PDF_TO_PRINTED  # vol. 2 pages absent from the scan (2026-11-20)
+
+def skippable():
+    """Archive pages that never hold text: vol. 2 pages missing from the scan, and the excluded
+    PDF pages (vol. 2 title leaves, PDF 933-935 = archive 911-913). Added 2026-11-27."""
+    return missing_printed() | {p + PDF_TO_PRINTED for p in EXCLUDE}
 
 MARKS = set('ًٌٍَُِّْٰ')
 
@@ -38,7 +43,7 @@ def main():
         if pp != last_pp:
             if last_pp is not None and pp != last_pp + 1:
                 skipped = set(range(last_pp + 1, pp))
-                if skipped <= missing_printed(): warns.append(f'page jump {last_pp}->{pp} over page(s) missing from the scan: {sorted(skipped)}')
+                if skipped <= skippable(): warns.append(f'page jump {last_pp}->{pp} over page(s) missing from the scan: {sorted(skipped)}')
                 else: fails.append(f'page jump {last_pp}->{pp}')
             if ll != 1: fails.append(f'{ref}: page does not start at L01')
             pages.append(pp); last_pp, last_ll = pp, 0
@@ -52,7 +57,7 @@ def main():
     if prev:
         pd = json.load(open(prev, encoding='utf-8'))
         pprev = max(int(re.match(r'P(-?\d+)', L['ref']).group(1)) for L in pd['lines'])
-        if pages and pages[0] != pprev + 1 and not set(range(pprev + 1, pages[0])) <= missing_printed():
+        if pages and pages[0] != pprev + 1 and not set(range(pprev + 1, pages[0])) <= skippable():
             fails.append(f'archive starts at printed p. {pages[0]}, previous archive ends at p. {pprev}')
     # page joins, for the eye
     byp = {}

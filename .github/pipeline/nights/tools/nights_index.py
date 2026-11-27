@@ -201,12 +201,27 @@ def find_markers(lines):
 
 PRINTED_AS = {70: 69}   # night -> wrong ordinal the print carries (accepted, 2026-10-31)
 
+# Night formulas that are not in the archive because their page is missing from the scan
+# (2026-11-27): the opening of Night 220 stood before vol. 2 p. 4, and the only scan of
+# vol. 2 has nothing between the half-title (PDF 935) and p. 4 (PDF 936). The night is taken
+# to begin at the first surviving line; a publishing run marks the lost opening as a gap.
+LOST_OPENINGS = {"P914L01": 220}
+# Archived lines that belong to no night: a night ends before them (2026-11-27). The vol. 1
+# colophon: the "rest of the tale is in the second quarter" heading and the editor's afterword.
+NOT_STORY = {"P909L06": "end of vol. 1: continuation heading and editor's colophon, P909L06-P910L21"}
+
 
 def build():
     lines = load_lines()
     if not lines:
         return []
     markers = find_markers(lines)
+    refs = [r for r, _t in lines]
+    for ref, num in LOST_OPENINGS.items():
+        if ref in refs:
+            markers.append((refs.index(ref), "(lost: %d)" % num))
+    markers.sort(key=lambda m: m[0])
+    cuts = sorted(refs.index(r) for r in NOT_STORY if r in refs)
     nights = []
     # The frame material before Night 1. The pilot (nights-frame-01) already covers printed
     # pp. 1-3 down to a mid-page sentence boundary, so a run publishing this unit starts after
@@ -226,8 +241,12 @@ def build():
         })
     for n, (idx, ordinal) in enumerate(markers, start=1):
         end_idx = markers[n][0] - 1 if n < len(markers) else len(lines) - 1
+        cut = next((c for c in cuts if idx < c <= end_idx), None)
+        if cut is not None:
+            end_idx = cut - 1
         count = end_idx - idx + 1
-        number = ordinal_number(ordinal)
+        lost = re.fullmatch(r"\(lost: (\d+)\)", ordinal)
+        number = int(lost.group(1)) if lost else ordinal_number(ordinal)
         # Known printer's error: the edition prints night 70 as "the 69th" (P446L18).
         if n in PRINTED_AS and number == PRINTED_AS[n]:
             number = n
@@ -245,6 +264,12 @@ def build():
             "ordinal_read": ordinal,
             "ordinal_number": number,
         }
+        if lost:
+            nt["note"] = ("opening lost: the night formula and the start of the night stood on "
+                          "vol. 2 pages missing from the scan; the archive begins mid-sentence at "
+                          "%s. Publish what survives and mark the lost opening as a gap." % nt["start"])
+        if cut is not None:
+            nt["note"] = "ends before %s (%s)" % (lines[cut][0], NOT_STORY[lines[cut][0]])
         if number != n:
             nt["problem"] = ("ordinal reads as %s, expected %d" % (number, n)
                              if number is not None else "ordinal not understood")

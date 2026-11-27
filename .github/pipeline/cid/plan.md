@@ -47,7 +47,7 @@
 | cid-tiradas-134-136 | The king summons a court at Toledo; the Cid's vigil at San Servando | tiradas 134–136, lines 2968–3059 | published |
 | cid-tiradas-137-137a | The Cid dresses for the court and enters it | tiradas 137–137, lines 3060–3126 | published |
 | cid-tiradas-137-137b | The court opens; Colada and Tizón are handed back | tiradas 137–137, lines 3127–3198 | published |
-| cid-tiradas-137-137c | The Cid claims the dowry money | tiradas 137–137, lines 3199–3249 | todo |
+| cid-tiradas-137-137c | The Cid claims the dowry money | tiradas 137–137, lines 3199–3249 | established |
 | cid-tiradas-138-143 | The Cid charges the Infantes with dishonour; Pero Vermúdez challenges Fernando | tiradas 138–143, lines 3250–3328 | todo |
 | cid-tiradas-144-149a | Martín Antolínez and Muño Gustioz challenge; envoys of Navarre and Aragon arrive | tiradas 144–149, lines 3329–3408 | todo |
 | cid-tiradas-149-149b | The new marriages granted; Minaya's challenge; the combats set; the Cid takes leave | tiradas 149–149, lines 3409–3507 | todo |

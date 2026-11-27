@@ -81,3 +81,6 @@ Decided meanwhile: published with the pinned numbering (2437b, 2455 on "Grado", 
 ## 2026-11-27 · cid-tiradas-137-137a · readings without a Pidal note (Run 4)
 1. suelta f[o] la missa (3061), [a sazón] (3062), dulçes of swords (3077), fecha por razón (3095): no Pidal note. Decided meanwhile: "the mass was over", "duly given", "fine-tempered"/"sweet" in `l`, "made for a purpose", each marked as our reading in its note.
 2. recabdar (3098): Pidal gives Bello's 'lograr' and Hinard's 'prevenir' without choosing. Decided meanwhile: "secure", meant to hold both; said in the note.
+
+## 2026-11-27 · cid-tiradas-137-137c · printer's slips in the italic line 3211b (Run 4, establish)
+1. 3211b (wholly italic, restored by Pidal) prints "Allí les respondió el comdc do Remond:" — at zoom 9 the last letter of comdc is plainly c (no eye, against the e of "el" beside it), and do lacks its n. Decided meanwhile: comdc read as the misprint it is, comde (as in 3208, 3135); do kept as printed (a dropped letter, not a reading we can see; the drafter's note says it stands for don, as everywhere else in this scene). If the owner prefers the print letter for letter, change comde back to comdc and re-pin.

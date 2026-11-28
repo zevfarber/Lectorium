@@ -205,7 +205,10 @@ PRINTED_AS = {70: 69}   # night -> wrong ordinal the print carries (accepted, 20
 # (2026-11-27): the opening of Night 220 stood before vol. 2 p. 4, and the only scan of
 # vol. 2 has nothing between the half-title (PDF 935) and p. 4 (PDF 936). The night is taken
 # to begin at the first surviving line; a publishing run marks the lost opening as a gap.
-LOST_OPENINGS = {"P914L01": 220}
+# (2026-11-28) Likewise Night 231: vol. 2 pp. 20-21 (PDF 952-953) are missing from the scan,
+# and they held the end of Night 230 and the formula and opening of Night 231. Night 230 ends
+# at the foot of p. 19 (P929L22) with its ending lost; Night 231 begins at the head of p. 22 (P932L01).
+LOST_OPENINGS = {"P914L01": 220, "P932L01": 231}
 # Archived lines that belong to no night: a night ends before them (2026-11-27). The vol. 1
 # colophon: the "rest of the tale is in the second quarter" heading and the editor's afterword.
 NOT_STORY = {"P909L06": "end of vol. 1: continuation heading and editor's colophon, P909L06-P910L21"}
@@ -268,6 +271,10 @@ def build():
             nt["note"] = ("opening lost: the night formula and the start of the night stood on "
                           "vol. 2 pages missing from the scan; the archive begins mid-sentence at "
                           "%s. Publish what survives and mark the lost opening as a gap." % nt["start"])
+        if complete and re.fullmatch(r"\(lost: \d+\)", markers[n][1]):
+            nt["note"] = ("ending lost: the close of the night stood on vol. 2 pages missing "
+                          "from the scan; the archive breaks off mid-sentence after %s. Publish "
+                          "what survives and mark the lost ending as a gap." % nt["end"])
         if cut is not None:
             nt["note"] = "ends before %s (%s)" % (lines[cut][0], NOT_STORY[lines[cut][0]])
         if number != n:

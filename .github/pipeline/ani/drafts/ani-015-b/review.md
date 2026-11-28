@@ -49,3 +49,46 @@ Sign codes and order untouched; after editing: JSON loads, the sign sequence equ
 - U26 "lord of rays", U20 "maker of the gods", U45 "the land of eternity": coincide with Budge only because they are the literal words; no better English. Kept.
 - No other Budge-isms in l/i (checked thee/thou/saith/homage/triumph/glorious/beatified and his name forms Tattu, Un-nefer, Kheperà, Ḥāpi); names (Heliopolis/Iunu, Horakhty, Khepri, Wennefer, Igeret, Sokar, Sektet, Unwearying Stars, Duat, Sacred Land, Henmemet, Kher-aha) and say forms agree with the published parts.
 - `p` placement: U0 (litany), U24 (Plate 20 hymn, numerals restart), U26 (Ani's speech), U32 (second speech after "[saying]"). Kept.
+
+## Pass 2
+
+Fresh full check of all 47 units (U0–U46, numbered as in Pass 1) and of every gloss.json entry. Sign codes and order untouched. After editing: JSON loads; sign sequence equals the packet's (1058 glyphs); morph `g` covers every glyph of every word exactly once; no `s`/`t` fields; gloss key set equals the lemmas used minus known-lemmas keys (17 entries); every `__broaden__` key is used and known, and its value begins with the known entry whole + " · ".
+
+### Changes — units.json
+- U42 · l, i, n · minor · n + sḏm·tw·f rendered as a present ("(I) am not shut in"), while U23's own note (rightly) says n with the sḏm·f denies a past act; the hymn's context ("I have come … I am with you") suits the perfect · l "not · has-been-shut-in · (I) · not · has-been-turned-back · (I)", i "(I) have not been shut in, (I) have not been turned back."; note gives the reason and keeps Budge's wish reading.
+- U0 · n · minor · said the M12 sign "is not identified" while coding it as M12 and reading it ḫꜣ: M12 is the lotus ḫꜣ, the value read, and Spell 1 (mꜥḫꜣyt) codes it so · "a sign coded M12, the lotus ḫꜣ (in the print … approximate; Q7 does not fit; M12 writes ḫꜣ in Spell 1 as well)".
+- about · minor · "the god every being comes out to see" overstates U39 (it is those in the Duat) · "the god whom those in the Duat come out to see".
+- U38 · i · style · "stands fast" against "stands firm" for the same mn in U7 and U36 · "stands firm".
+
+### Changes — gloss.json
+- iꜣbḫ → ꜣbḫ · major · stale entry for a lemma no longer used, and the needed ꜣbḫ had none · iꜣbḫ removed; ꜣbḫ "to mix, mingle, join with (verb; Budge: àbeχ)" added (verified: the known verb ꜣbḫ; R15's i is Budge's à).
+- dgꜣ · minor · lemma no longer used (now known dgi, whose entry covers 'look at') · removed.
+- __broaden__ in · minor · in is no longer used (U17 is ini), and ini's known entry already has 'to bring' · removed; nothing moved to ini.
+- __broaden__ nḫn · minor · known nḫn is only 'child, infant'; U19 is the city Nekhen (carried so far only by an occurrence gloss) · added "· a second word of the same spelling: Nekhen, Hierakonpolis, the old city of Horus in Upper Egypt (place name; Budge: Neχen)".
+- __broaden__ nty · minor · known nty (relative 'who, which') does not cover ntt the conjunction of U44's ḥr ntt · added "· also ntt 'that' (conjunction, after a preposition: ḥr ntt 'because')".
+- __broaden__ šps · minor · new sense pinned to this passage ("the sḏm·n·f šps·n·k 'you have honoured'") · "· also to be noble; with an object, to make noble, honour (?) (verb)".
+- __broaden__ ·ti · minor · "once for a 3rd person masculine subject" pinned to this passage · "· also for a 3rd person masculine subject (?) (a later use of the ending, or a slip)".
+- __broaden__ grg · style · "(verb; participle grg 'who founded')" pinned · "(verb)".
+- __broaden__ šmꜥ · style · named "mḥt" where the lemma used is mḥtt, and gave only the cobra · "· also šmꜥt, 'the southern one', the cobra-goddess or crown of the South (feminine nisba used as a noun; with mḥtt 'the northern one')".
+- ḫꜣbs · minor · "the reading of its first sign is doubtful" is about this passage's print, not the lemma · cut (the note keeps the doubt).
+- idbwy · minor · "reading doubtful" pinned to this passage; grammar thin · "(dual noun, from idb 'bank'; Budge: àṭeb)".
+- sswn · minor · "causative verb" unverified and "the signs are doubtful" pinned · "to destroy, punish (verb; Budge: sesunneṭ)".
+- nbt-wnwt · minor · "shown as the uraeus serpent" is this passage's identification, not the name's general sense · cut.
+- wnty · style · "a god (?)" while the god classifier is written; the doubt is the meaning · "Wenty, a god, perhaps 'he who exists' … (god's name; meaning doubtful; …)".
+- iwn-ds · style · described this passage's signs · "Iun-des (?), a place not identified (place name; reading doubtful; Budge: Àn-ṭes)".
+- nꜥrt · style · "Budge takes it for an acacia; Budge: Nārt" doubled · "(noun f.; Budge: Nārt, 'the acacia-tree')".
+- tmt · style · "(?)" and "the word is doubtful" doubled · "sledge (?), the runner-frame … (noun f.; Budge: temt)".
+- nn-nswt · style · 'Nen-nesut' in quotes read as a meaning · "Heracleopolis (Nen-nesut) … nswt 'king' is written first out of respect".
+- mꜥnḏt · style · "(noun f.)" against the known sktt / ꜥḏt "(boat name)" · aligned.
+
+### Refused
+- Pass 1's own changes checked and kept: ꜣbḫ (the known verb 'mix, join with'; R15 tr ꜣb with the i unread is stated); di for D37 (U10, U22; Spell 1 codes the giving arm phon di); ir·i (U23, stroke as suffix); Busiris in l/i with say Djedu (agrees with every published say form); "more effective" (ꜣḫ adjective, known entry covers it); "stands firm" (now also U38); ini for W25; dgi for U43 with reading dgꜣ kept from the signs.
+- Unread signs coded phon with a tr not in the reading (U1 G43 in ꜣḫ, U4 two reeds in bꜣ, U15 second t of tꜣ-ḏsr, U38 G1 in ḫftyw, U39 G43 in mꜣꜣ, U42 E23): each note says the sign is not read; Spell 1 codes E23 the same way. Kept.
+- Occurrence glosses kept beside the broadenings (U2 ꜣḫt, U18 šw, U19 nḫn, U20 grg, U31 ·ti, U36 šmꜥ, U44 šps) and U24 dwꜣ: each gives the one sense this occurrence needs out of a multi-word entry.
+- n-ꜣird-f, ḥꜥpy, dwꜣyt, mšrw, swꜣš, mꜣwi gloss entries: correct, general, Budge's forms given. Kept.
+- U17 i "who are in the midst of his bark, who brings Hapy": the person shift is the Egyptian's and the note says so. Kept.
+- U26 i "O you Disk … who rises": the participle is 3rd person; not changed to "rise".
+- U4 bꜣ pw n ḥḥ as "this ba of eternity" (pw as demonstrative): kept, l shows "this".
+- U0 i "and of the Henmemet": the supplied "and" is ordinary English for the juxtaposed vocatives; kept.
+- Names, say forms (Wenen-nefer, Djedu, Iunu, Igeret, Seketet, Ta-djeser, Abedju, Horakhty, Khepri, Kher-aha, ikhemu-wered, henememet) and the U9 citation of Spell 1's "Henu-bark of Sokar upon its sledge(?)": checked against the published parts; consistent.
+- No Budge-isms or remembered modern phrasing found in l/i beyond what Pass 1 fixed.

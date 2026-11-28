@@ -2479,3 +2479,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprints corrected (emend.json): P932L16 دارهم → دراهم (letters transposed); P932L18 امرة → امره (as at P922L14); P933L07 اله → انه ("ولا بد انه يقتلني"). The similar P934L11 واله (sense وانه) falls in Night 232; the next run should treat it the same way unless the owner prefers otherwise.
 - Kept as printed and noted: فسقيه, وسدّلات (saddalāt, uncertain; perhaps "couches"), مملوه (mamlūʾ), رات, جري, قلت له عليه (odd doubling), لاثم solid (so one unit runs across a sentence break), امير ياخور (amīr ākhūr; yākhūr vocalisation a guess), بهادر read as a diptote. The note on maʿshūq says the masculine does not by itself settle the beloved's sex.
 - Night 232 and 233 are complete and unpublished; the next firing publishes Night 232. Nothing waits on the owner.
+
+## Night 232 (P933L21–P937L09, published 2026-11-28, unattended)
+- Library label: `Night 232 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P934L11 واله → وانه (as at P933L07); P935L17 آلمة → آلمه; P936L11, P936L13 يدة → يده; P936L23 وهذة → وهذه.
+- Kept as printed and noted as doubtful: P934L01 لما (sense wants فلما; fa-dakhala as apodosis); P934L16 أذ in "أذ مرني" (read adh "then", perhaps idhan or a stray letter); P935L02 أنست (read Form II annasti); P935L10 زربونا (zarbūn, a shoe; form uncertain); P936L21 إن after لا بد (sense an, subjunctive follows); P937L01 وتصل (read wa-ttaṣala, perhaps for ووصل); P936L12 فوقعت رأسها (feminine verb); مقالي read maqālī "my words".
+- Untidy but not wrong, left for an attended tidy-up: some long shared glossary entries carry "also also" (لَهَا, تَجِدْهُ) and empty "Also (Night 224):" fragments (عَلَى, عَلَيَّ, بِمَا).
+- Night 233 is complete and unpublished; the next firing publishes it. Nothing waits on the owner.

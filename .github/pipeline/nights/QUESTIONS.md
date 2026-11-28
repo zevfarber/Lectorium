@@ -2447,3 +2447,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - The note on the black slave Ghaḍbān's description (unit 20) states plainly that this is the Nights' stock portrait pairing blackness with ugliness. Decided meanwhile; the owner may prefer a different wording.
 - Existing glossary entry وَاقْشَعَرَّ said "quadriliteral form IX"; corrected to Form IV deliberately.
 - Nights 228 and 229 are complete and unpublished; the next firing publishes Night 228. Nothing waits on the owner.
+
+## Night 228 (published 2026-11-28, unattended)
+- Library label: `Night 228 · Qamar al-Zamān, continued`.
+- No misprints corrected. Printed verse marks kept and noted: وَرَبُّمَا (P927L07, vowels transposed; transliterated as the intended rubbamā, the note says so), لَعَلَّ اللهُ (P926L13, damma where Classical wants Allāha), sukūn on long vowels (جَارُوْا etc.), اِلَهِي without its long ā.
+- Kept as printed, read by sense: P926L15 خلته as khallatahu "his need"; P927L09 وَابْشِرْ as abshir with hamza dropped (metre needs wa-bshir).
+- Night 229 is complete and unpublished; the next firing publishes it. Nothing waits on the owner.

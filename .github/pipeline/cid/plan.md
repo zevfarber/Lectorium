@@ -50,7 +50,7 @@
 | cid-tiradas-137-137c | The Cid's second claim: the three thousand marks | tiradas 137–137, lines 3199–3249 | published |
 | cid-tiradas-138-143 | The Cid charges the Infantes with dishonour; Pero Vermúdez challenges Fernando | tiradas 138–143, lines 3250–3328 | published |
 | cid-tiradas-144-149a | Martín Antolínez and Muño Gustioz challenge; envoys of Navarre and Aragon arrive | tiradas 144–149, lines 3329–3408 | published |
-| cid-tiradas-149-149b | The new marriages granted; Minaya's challenge; the combats set; the Cid takes leave | tiradas 149–149, lines 3409–3507 | todo |
+| cid-tiradas-149-149b | The new marriages granted; Minaya's challenge; the combats set; the Cid takes leave | tiradas 149–149, lines 3409–3507 | established |
 | cid-tiradas-150-150a | Babieca and the king; the champions wait at Carrión | tiradas 150–150, lines 3508–3570 | todo |
 | cid-tiradas-150-150b | The lists; Pero Vermúdez defeats Fernando | tiradas 150–150, lines 3571–3645 | todo |
 | cid-tiradas-151-152 | Martín Antolínez and Muño Gustioz win; the second marriages; the end | tiradas 151–152, lines 3646–3730 | todo |

@@ -2492,3 +2492,10 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Misprints corrected (emend.json): P937L11 اطراق → اطرق (extra alif; the verb aṭraqa); P937L14 امرة → امره, P938L03 اخذة → اخذه, P938L08 واخبرة → واخبره, P938L13 وامرة → وامره (ة for ه, as in Nights 231–232); P938L11 بهاذر → بهادر (ذ for د).
 - Kept as printed and noted: P937L15 يا خور split (read as the one title amīr yākhūr, as in Night 232); علي for ʿalā; baḥatha ʿalā for ʿan; لازالوا with lā for mā; لا كان split (Night 232 had لاكان solid); run-together ولاحول, ولاقوة, لوكتب, ماجرى, ياسيدي, لاتقتل, ماكان. al-wālī rendered "chief of police" in i, as in Night 232.
 - Night 234 is not yet complete (its tail is untranscribed); the next firing transcribes. Nothing waits on the owner.
+
+## Transcription pp. 940–947 (PDF 962–969, 2026-11-28)
+- Night labels 235 (P941L14), 236 (P944L04) and 237 (P946L01) are each printed on their own centred line and are marked `h`, as for 232–234; one pass had left the flag off, so it was set by the run. 235 and 236 print والثلٰثون with the dagger alif; 237 prints والثلثون without it (adjudicator, label check).
+- New tale: heading حكاية نعمة بن الربيع ونُعم جاريته at P946L16 (h), inside Night 237; the running header of p. 947 is حكاية نعمة ونُعم.
+- Low confidence, for the publishing run: P943L22 first word يمشي is under an ink blot (the other pass read يمضي; either fits "he walked on"); P943L22 ends ماه, kept as printed (sense ماء). P943L13 سلامته, ending too heavy to tell ه/ة. P940L15 تاجرُ رقيقِ, single marks (no tanwin) as printed.
+- Kept as printed: P942L08 الذي (one pass read اللي; adjudicated from the image); P945L01 اسمى (dot check: final ى without dots); P947L20 فى المغنى; solid spellings مايشاء, لابد, ماجرى, يَامَوْلَى (verse).
+- Next batch: PDF 970–973 and 976–979 (archive pp. 948–951, 954–957); PDF 974–975 (vol. 2 pp. 42–43) are not in the scan. Nights 234–236 are complete and unpublished; the next firing publishes Night 234. Nothing waits on the owner.

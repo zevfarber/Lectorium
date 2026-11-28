@@ -1,0 +1,108 @@
+# Packet — cid-tiradas-138-143: The Cid charges the Infantes with dishonour; Pero Vermúdez challenges Fernando
+
+Tiradas 138–143, Pidal lines 3250–3328 (Cantar III (Corpes)).
+The established text below is pinned. A unit's `t` is one or more consecutive verses joined by "\n", cut by script.
+Flags: wholly italic restored line(s): 3290b
+
+
+## tirada 138
+
+3250	Estas apreçiaduras mio Çid presas las ha,
+3251	sos omnes las tienen e dellas penssarán.
+3252	Mas quando esto ovo acabado, penssaron luego d'al.
+3253	“Merçed, [ya] rey señor, por amor de caridad!
+3254	La rencura mayor non se me puede olbidar.
+3255	Oídme toda la cort e pésevos de mio mal;
+3256	ifantes de Carrión, quem desondraron tan mal,
+3257	a menos de riebtos no los puedo dexar.
+
+## tirada 139
+
+3258	Dezid ¿qué vos merecí, ifantes [de Carrión],
+3259	en juego o en vero o en alguna razón?
+3259b	aquí lo mejoraré a juvizio de la cort.
+3260	¿A quém descubriestes las telas del coraçón?
+3261	A la salida de Valençia mis fijas vos di yo,
+3262	con muy grand ondra e averes a nombre;
+3263	quando las non queriedes, ya canes traidores,
+3264	¿por qué las sacávades de Valençia sus honores?
+3265	¿A qué las firiestes a çinchas e a espolones?
+3266	Solas las dexastes en el robredo de Corpes,
+3267	a las bestias fieras e a las aves del mont.
+3268	Por quanto les fiziestes menos valedes vos.
+3269	Si non recudedes, véalo esta cort.”
+
+## tirada 140
+
+3270	El co[m]de don Garçía en pie se levantava;
+3271	“Merçed, ya rey, el mejor de toda España!
+3272	Vezós mio Çid a llas cortes pregonadas;
+3273	dexóla creçer e luenga trae la barba;
+3274	los unos le han miedo e los otros espanta.
+3275	Los de Carrión son de natura ta[n] [alta],
+3276	non gelas devién querer sus fijas por varraganas,
+3277	¿o quien gelas diera por parejas o por veladas?
+3278	Derecho fizieron porque las han dexadas.
+3279	Quanto él dize non gelo preçiamos nada.”
+3280	Essora el Campeador prísos a la barba;
+3281	“Grado a Dios que çielo e tierra manda!
+3282	por esso es lue[n]ga que a deliçio f[o] criada.
+3283	¿Qué avedes vos, co[m]de, por retraer la mi barba?
+3284	ca de quando nasco a deliçio f[o] criada;
+3285	ca non me priso a ella, fijo de mugier nada,
+3286	nimbla messó fijo de moro nin de cristiana,
+3287	commo yo a vos, co[m]de, en el castiello de Cabra.
+3288	Quando pris a Cabra, e a vos por la barba,
+3289	non í ovo rapaz que non messó su pulgada;
+3290	la que yo messé aun non es eguada,
+3290b	ca yo la trayo aquí en mi bolsa alçada.”
+
+## tirada 141
+
+3291	Ferrán Go[n]çál[v]ez en pie se levantó,
+3292	a altas vozes odredes qué fabló:
+3293	“Dexássedesvos Çid de aquesta razón;
+3294	de vuestros averes de todos pagado ssodes.
+3295	Non creciés varaja entre nos e vos.
+3296	De natura somos de co[m]des de Carrión:
+3297	deviemos casar con fijas de reyes e de enperadores,
+3298	ca non perteneçien fijas de ifançones.
+3299	Por que las dexamos derecho fiziemos nos;
+3300	más nos preçiamos, sabet, que menos no.”
+
+## tirada 142
+
+3301	Mío Çid R[o]y Díaz a Per Vermu[doz] cata;
+3302	“Fabla, Pero Mudo, varón que tanto callas!
+3303	Yo las he fijas, e tú primas cormanas;
+3304	a mí lo dizen, a tí dan las orejadas.
+3305	Si yo respondier[o], tú non entrarás en armas.”
+
+## tirada 143
+
+3306	Per Vermu[doz] conpeçó de fablar;
+3307	detiénesle la lengua, non puede delibrar,
+3308	mas quando enpieça, sabed, nol da vagar:
+3309	“Dirévos, Çid, costu[n]bres avedes tales,
+3310	siempre en las cortes Pero Mudo me llamades!
+3311	Bien lo sabedes que yo non pu[o]do mas;
+3312	por lo que yo ovier a fer por mí non mancará.
+3313	Mientes, Ferrando, de quanto dicho has.
+3314	por el Campeador mucho valiestes más.
+3315	Las tu[e]s mañas yo te las sabré contar:
+3316	miémbrat quando lidiamos çerca Valençia la grand;
+3317	pedist las feridas primeras al Canpeador leal,
+3318	vist un moro, fústel ensayar;
+3318b	antes fuxiste que a [él] te allegasses.
+3319	Si yo non uviás, el moro te jugara mal;
+3320	passé por tí, con el moro me of de ajuntar.
+3321	de los primeros colpes ofle de arrancar;
+3322	did el cavallo, tóveldo en poridad:
+3323	fasta este día no lo descubrí a nadi.
+3324	Delant mio Çid e delante todos ovístete de alabar
+3325	que mataras el moro e que fizieras barnax;
+3326	croviérontelo todos, mas non saben la verdad.
+3327	E eres fermoso, mas mal varragán!
+3328	¡Lengua sin manos, qu[o]mo osas fablar?
+
+Glossary: 241 of 331 forms already in cid-glossary.json.

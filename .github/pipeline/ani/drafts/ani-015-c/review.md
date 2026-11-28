@@ -30,3 +30,35 @@ Units are numbered from 0 in the order of `sentences`. All 43 units and 243 word
 - p placement: U1 (Ani's speech), U19 (what he says after U18's say-line) and U35 (the new address after U34). U0, U18 and U34 are say-lines without p, as in 015-b's U25. Kept.
 - Occurrence glosses on smw, sm, imw, itrw, ḏꜣḏꜣt, pr and ḥw were kept. Each separates this word from a different known sense (smw 'herbs', sm 'go', ḥw the god Hu, and so on). Moving them into the glossary is the glosser's job: smꜣ, sm, smw, ḥw and pr need `__broaden__`.
 - Budge-isms: none in l/i after the U25 and U38 changes. I checked thee/thou/thy/saith/homage/triumph/glorious/stablished/victorious/behold/beatified/illumine/exult/progress/eventide/statutes. House renderings agree: "the Osiris (the scribe) Ani", "true of voice", Nu, Nut, Ra, Maat, "Your Majesty", the Disk, the Two Lands, the necropolis.
+
+## Pass 2
+
+This was a fresh full re-read of all 43 units, numbered as in Pass 1, and of every entry in gloss.json. Sign codes and order were untouched. After editing: both files load; the sign sequence equals the established file's (831 glyphs); morph `g` covers every glyph of every word exactly once; there are no `s`/`t` fields and no det has a tr. The gloss key set equals exactly the lemmas used minus the known-lemmas keys (16 entries: ḫꜣst, pwnt, kt, ḥpi, ḥfn, šri, km, msms, ntꜥ, rꜣ-ꜥ, sꜥꜣ, wnmy, mhꜣw, ḥbbt, sḥb, wṯs). Every `__broaden__` key is a known lemma that the units use, and each value begins with the known entry whole + " · ". The pass-1 change to ḫwi needs no gloss work: ḫwi is known ("to protect, guard, keep safe"), and ꜣḫ is still used in U25.
+
+### Changes — gloss.json
+- __broaden__ smꜣ · minor · The entry carried "(passive) to be joined", which is Budge's rendering and was dropped from U25 in Pass 1. It also called the verb "a second sense" of 'slay', though it is a different word · Now "· a second word of the same spelling: to unite, join; with m, to unite with (verb; written with the lungs and windpipe; Budge: sama)".
+- __broaden__ (new) nṯri · minor · The known entry has only the verb 'be divine'. U33 uses nṯry as an adjective with r for the comparative, and nothing covered that · Added "· also nṯry, divine (adjective, nisba of nṯr; with r, 'more divine than'; Budge: neteri)".
+- __broaden__ (new) wꜥ · minor · The known entry has only 'one; someone'. U9's wꜥ·ṯi is the stative 'being alone', which was uncovered · Added "· also to be one, be alone (verb; the stative 'alone, by oneself'; Budge: uā)".
+- ḥfn · minor · The Budge spelling "ḥefenu" is not in the packet, which has ḥefnu (w82). "plural ḥfnw" and "noun m." were also pinned to this one writing · Now "a hundred thousand (numeral; written with the tadpole; Budge: ḥefnu)".
+- wṯs · minor · The Budge spelling "uθes" is not in the packet, which has uθesu (w230). "participle 'who lifts up'" was pinned to U42 · Now "(verb; Budge: uθesu, 'supporting')".
+- msms · minor · The Budge spelling "mes-mes" is the note's hyphenation; the packet has mesmes (w92). "written with the legs as classifier" described this passage's spelling · Now "to pass through (?) (reduplicated verb; reading and sense doubtful; Budge: mesmes, 'count')".
+- wnmy · minor · "right hand, taken as the west" called the word a noun and pinned the sense to U28 · Now a nisba adjective, also used as a noun, 'the right side', with the general reason it means the west (the right hand of one who faces south).
+- __broaden__ ḥw · style · "often paired with ḏfꜣw" was given without Budge's form · Now "food, plenty (noun m.; paired with ḏfꜣw 'provisions'; Budge: ḥu, 'meats')". The occurrence gloss in U42 was brought into line.
+- ḥpi · style · "the form and sense are doubtful" spoke of this passage's forms · Now "(verb of motion; sense doubtful; …)". Both Budge forms are kept (packet w77, w127).
+- mhꜣw · style · "the word and its first sign are doubtful" was about this print · Now "(noun, collective; reading doubtful; …)".
+- kt · style · "of a moment or day, 'brief'" was U12's context · Cut.
+- pwnt · style · "in the east where the sun rises" was this hymn's reason for naming Punt, not part of the name · Cut. Now "the land of incense, on the Red Sea coast".
+- __broaden__ smw, sm, imw · style · These entries described this passage's sign or Budge's "(?)" ("reading of the sign doubtful", "read with Budge", "written with the sun's rays as classifier") · Each now gives only the sense, "(?)", "doubtful" and Budge's form.
+
+### Changes — units.json
+- U29, U31 (ḥtp·k) · glyph role · style · R4 was coded phon here and log in U0, U1 and U14, all with the same spelling. The house uses both codings, but the part should be consistent · Changed to log.
+- U8 (tꜣw) · glyph role · style · The first N16 was coded phon, while U16's tꜣ and U36's tꜣwy have it as log · Changed to log.
+
+### Refused
+- ḫꜣst "Budge: set": an odd reading for the hill-country sign, but it is what the packet prints (w51). Kept.
+- km 'to complete' (Budge qam), ntꜥ, rꜣ-ꜥ, sꜥꜣ, sḥb, šri, ḥbbt: general, and their Budge spellings match the packet. The (?) on rꜣ-ꜥ is the lemma's own doubt. Kept.
+- itrw broaden ("the river-length, a measure of long distances"): it is a general sense of the word. Kept.
+- Occurrence glosses on smw, sm, imw, itrw, smꜣ, ḏꜣḏꜣt and pr stay. They name this occurrence's sense among several, and they agree with the glossary.
+- ꜣbw (U12) needs no broaden: the known ꜣb entry already covers the noun (n ꜣbw).
+- sip 'inspect, examine' for 'reckon' (U8), sš 'paint, writing' (U8), ḥḏ 'be bright' (U16 ḥḏ-tꜣ), dwꜣw 'morning' (U20), wn and rꜣ (U9): the known entries cover these uses. No broaden.
+- Units re-read: no further issues in readings, grammar labels, l/i, Budge-isms, names, rubrics, restorations, ln or p beyond the above. The pass-1 refusals stand.

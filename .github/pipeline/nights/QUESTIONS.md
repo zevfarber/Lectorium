@@ -2439,3 +2439,11 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed, vocalised by sense and noted: مدّ روحك (read as a colloquial "hold out, be patient"; uncertain), محراب (read as a small oratory in the wild), عين ماء يجري (masculine verb), هو واياه, اولاد of two brothers, حسبت الف حساب (ḥasabtu), لِحفه (liḥf, foot of the mountain), المدينه vocalised الْمَدِينَهِ.
 - Transliteration of لله: house usage is split (li-llāhi in the pilot and Nights 216, 221; li-Allāhi in Night 224). This night follows the "al- never elided" rule and writes li-Allāhi. Decided meanwhile; a ruling would let a later attended pass make it uniform.
 - The reviewer noted some weak older glossary entries (e.g. مُدَّ glossed first as passive, نَصِلُ as "continue"); senses were appended, not rewritten. Candidates for a deliberate glossary sweep.
+
+## Night 227 (published 2026-11-28, unattended)
+- Library label: `Night 227 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P925L11 مجتعون → مجتمعون (dropped م); P925L23 حظت → حطت ("she set down").
+- Kept as printed, vocalised by sense and noted as doubtful: P925L07 ينتظرلي (colloquial "waiting for me" with li-, or a misprint for ينتظرني); P926L01 فاستغلق (translated in the sense of فاستفاق "he came to"; uncertain whether misprint or unrecorded usage); فادار كتاف الاسعد (read as kitāf, the pinion-rope); غمي عليه (ghumiya).
+- The note on the black slave Ghaḍbān's description (unit 20) states plainly that this is the Nights' stock portrait pairing blackness with ugliness. Decided meanwhile; the owner may prefer a different wording.
+- Existing glossary entry وَاقْشَعَرَّ said "quadriliteral form IX"; corrected to Form IV deliberately.
+- Nights 228 and 229 are complete and unpublished; the next firing publishes Night 228. Nothing waits on the owner.

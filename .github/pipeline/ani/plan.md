@@ -36,7 +36,7 @@
 | ani-015-a | Spell 15 — the hymns, part 1 of 4 | Budge pp. 123–127 | published |
 | ani-015-b | Spell 15 — the hymns, part 2 of 4 | Budge pp. 128–131 | published |
 | ani-015-c | Spell 15 — the hymns, part 3 of 4 | Budge pp. 132–135 | published |
-| ani-015-d | Spell 15 — the hymns, part 4 of 4 | Budge pp. 136–138 | todo |
+| ani-015-d | Spell 15 — the hymns, part 4 of 4 | Budge pp. 135–137 | established |
 | ani-133 | Spell 133 | Budge pp. 138–142 | todo |
 | ani-134 | Spell 134 | Budge pp. 142–146 | todo |
 | ani-124 | Spell 124 | Budge pp. 146–150 | todo |

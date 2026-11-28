@@ -135,6 +135,18 @@ Ximénez's paragraphs and headings.
 | xahoh / xahol | dance / dancer | the dance / the dancers | — |
 | ahaual ha | lords' houses | the houses of lords | palaces |
 | Puhuy, Cux, Yboy, Xꜩul, Chiꜩic (021) | names kept | Puhuy, Cux, Yboy, Xtzul, Chitzic (dance names; Brasseur's glosses in the note, as his) | — |
+| puz, puzu (022) | sacrifice | sacrifice | kill, immolate |
+| ꜭaztah / caztah v vach (022) | come-alive its-face | come back to life (mt k'astaj for both spellings) | be resurrected |
+| ꜩy (022) | dog | dog (= ꜩi, mt tz'i') | — |
+| yvahil (022) | your-payment | your payment | reward, wages |
+| maihah / maiha (022) | marvel | marvel at | be amazed |
+| qui vholom ahau (022) | their-head lord | their chief lord | king |
+| al, ꜭahol (ival i ꜭahol; cal qui ꜭahol) (022) | child, son | children and sons (the note gives Brasseur's 'vassals') | vassals in `i` |
+| halvachibal quib (022) | change-of-face themselves | changing their own form | metamorphosis |
+| Xhunahpu (022) | Xhunahpu | Hunahpu (as 021; the note says so) | — |
+| at ahau (022) | you lord | lord (as 011, 019) | my lord, Your Majesty |
+| qui cabichal | the-two-of-them | the two of them (014, 020–022) | their companions |
+| chacatah- | brought-low | brought low | defeated |
 
 ## Notes (`n`)
 

@@ -2499,3 +2499,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Low confidence, for the publishing run: P943L22 first word يمشي is under an ink blot (the other pass read يمضي; either fits "he walked on"); P943L22 ends ماه, kept as printed (sense ماء). P943L13 سلامته, ending too heavy to tell ه/ة. P940L15 تاجرُ رقيقِ, single marks (no tanwin) as printed.
 - Kept as printed: P942L08 الذي (one pass read اللي; adjudicated from the image); P945L01 اسمى (dot check: final ى without dots); P947L20 فى المغنى; solid spellings مايشاء, لابد, ماجرى, يَامَوْلَى (verse).
 - Next batch: PDF 970–973 and 976–979 (archive pp. 948–951, 954–957); PDF 974–975 (vol. 2 pp. 42–43) are not in the scan. Nights 234–236 are complete and unpublished; the next firing publishes Night 234. Nothing waits on the owner.
+
+## Night 234 (P938L21–P941L13, published 2026-11-28, unattended)
+- Library label: `Night 234 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P939L09 القبض → انقبض (ل for ن) and خاطرة → خاطره (ة for ه); P939L13 اخاة → اخاه; P939L22 ابهرام → لبهرام (ا for ل; قال لـ, and يا سيدي follows).
+- Kept as printed and noted: المركب treated as feminine throughout; ريح with masculine خرج; تلك البحر; repeated كان (وكان … كان الامجد); printed marks شيءٌ (after ayyu), ملكةِ (vocative), تاجرُ رقيقِ, الرسالةِ (subject, kasra printed); verse حَيْلَةُ and الْمَرْأُ as pointed; masaka bi-; شان, شيأ, واملؤا.
+- Nights 235 and 236 are complete and unpublished; the next firing publishes Night 235. Nothing waits on the owner.

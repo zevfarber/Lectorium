@@ -47,3 +47,63 @@ I made the edits with a script (`json.load` → exact-substring replacements, ea
 - style: 3
 - total changes: 10 (15 field edits)
 - refused: 7
+
+## Pass 2
+
+I checked all 79 novel entries and the 10 `__broaden__` entries in gloss.json (written before pass 1) against the current units.json (mt, `l`/`i`/`n` after the pass-1 changes), novel-forms.json, known-forms.json and popol-vuh-glossary.json, by script and by hand. I edited gloss.json by script (load, asserted replacements, `json.dump(ensure_ascii=False, indent=1)`). I re-asserted every broadening prefix against known-forms.json, which agrees with the published glossary.
+
+Units changed in pass 2: none. No `t` changed, and the mt lengths are unchanged.
+
+### Checks run
+- **Keys.** All 79 novel-forms.json keys are present. No entry is extra, and none is already in the glossary.
+- **Modern forms.** By script, each entry's modern form equals an mt the text uses for that token. The exceptions are capitals from a sentence start: vue (kept lowercase, following the glossary's practice); xchueca and xelehebex, lowercased below; and the quih broadening, which gave "qui ih" in place of the mt kij (fixed below). The pass-1 mt change (U5 que → qe) needs no new entry: the glossary already has "qe — us (the object after an agent noun, camol qe 'taker of us')".
+- **Broadening prefixes.** Every one of the 10 begins with the old entry copied exactly, then " · ".
+- **Declined broadenings.**
+  - cul ('throat (uncertain)'), xac ('leaf') and cuz ('sweet'; 'it pleased them' is the same word) are covered.
+  - cam and chih are not covered: see changes 17–18.
+- **Other known forms used in a new sense.** I went through every known form the part uses against its glossary senses. ia, choc and cu were not covered (changes 16, 19, 20). The rest are covered: que/qe, cuꜭ quk', quech, ya 'water', car, hal, ra, cax, atan, tacal (`l` keeps 'set'), xoc, xuxic, la, qui (unrendered particle), oc, chi, cah/xcah, raih, nay.
+
+### Changes (item · severity · wrong · done)
+1. **xequeba · minor.** The entry analysed the word as "x- completive + e- 3pl + verb". But it stands after chi ca ('that we …'), so it is not a completive. Rewritten as a verb not otherwise known, with the example, Brasseur, and the -ib'a comparison (inferred).
+2. **pixabic · minor.** The entry glossed it as the noun 'counsel, instruction'. In ta xe pixabic it is an intransitive verb, 'they gave their counsel' (Brasseur 'en prenant congé'). Rewritten, marked inferred.
+3. **cutunizah · minor.** The entry said "be shown". Its own morphology (-is 'make' + -aj) is active. Changed to "make appear, bring out".
+4. **xaho · minor.** The entry said "they danced it", putting the person of xqui into the form. Changed to "dance it", with the example.
+5. **xah · minor.** Same fault ("they danced"). Changed to "dance; verb (xqui xah 'they danced')".
+6. **xenacahic · minor.** The entry said "its beginning", but 'its' is the separate v-. The sense is a guess (the U34 note). Changed to "(guess) beginning".
+7. **quih broadening · minor.** The modern form "qui ih" was not the mt (kij). The prefix "qi- 'their'" should be ki-. The entry was pinned to "(U29)", and its "doubtful" mark was wrong for a reading the log does not doubt; it is a guess. Rewritten.
+8. **catoc broadening · minor.** The entry put the person "we" into catoc, but the person is carried by coh. It also did not give Brasseur's ꜫat- reading, which the U7 note gives. Rewritten.
+9. **cahim · minor.** The entry said "doubtful". The log decided the letter (plain c against Brasseur's ꜭ) and does not doubt the reading. Rewritten.
+10. **il · style.** The entry was pinned ("here the passive"). Made general.
+11. **cay · style.** The entry was pinned ("in U47"), and it omitted the noun use 'our watching' (U38). Rewritten.
+12. **mach · style.** The entry was pinned ("(U47)"). Made general, with Brasseur's rendering.
+13. **quixbic broadening · style.** The entry was pinned ("fits U41"). Changed, with the k' noted as not restored.
+14. **ꜭaztah · style.** "Spelled with the g-shaped letter here" was pinned. Changed to "written with the cuatrillo, and also caztah with plain c".
+15. **xchueca, xelehebex · style.** These had sentence-start capitals in the modern form. Lowercased (one change, two entries).
+16. **__broaden__ ia · minor (added).** The glossary has only ia 'give'. Here (U31) it is the second half of quia 'many', written apart. Added, with the old entry kept whole.
+17. **__broaden__ cam · minor (added).** The glosser declined this one, but the glossary's 'take' sense has mt k'am, and the 'die' sense has kam. Neither covers U44's kam 'take part (guess)', respelled by the letters. Added.
+18. **__broaden__ chih · minor (added).** The glosser declined this one, but the glossary has only 'endure, bear'. In U20 (xe rah chih) it is 'force, make bear' (inferred, Brasseur). Added.
+19. **__broaden__ choc · minor (added).** The glossary has 'enter' and 'cried out'. U4 takes choc as 'become' (a guess). Added.
+20. **__broaden__ cu · style (added).** In U29 (cul qui cu) cu is an unrendered particle, mt ku, which neither glossary sense covers. Added.
+
+### Refused
+1. **vue lowercase against the mt Uwe.** The capital comes only from the sentence start, and the glossary lowercases such words.
+2. **que: no broadening for U5's qe after an instrument noun.** The existing "qe — us (the object after an agent noun …)" covers it.
+3. **cuz, cul, xac: no broadening.** These are covered, as the glosser judged.
+4. **The remaining entries were left as written:** nabal, honel, pacam, ꜩonoxic, cucha, ꜩonobex, tix, chivil, vꜩil, vchax, queex, queic, mixca, xhunahpu, xquetamah, chohibal, chohih, choh, eꜩanem, chopih, cahtac, mul, xicah, xeꜭhax, culavachih, rip, hupuhuh, xecam, yuyub, xulcab, xcanah, xꜩonox, ꜫihin, xhoc, chaom, xecutun, robix, ꜩucux, aꜩiyac, aꜩiiac, banan, ilic, hala, xahoh, puhuy, cux, yboy, xꜩul, chiꜩic, maihabal, cayic, pune, caminaquil, hebelic, xbochi, cayih, xahol, xꜭhao (agrees with the pass-1 U39 `l` "spoke-it"), xobic, ahaual, cach, cacrail, benam, quiamul, xechihic, vue, and the cua/chah/hoc/quiy/mich/ꜭoh/xecah broadenings. In each one the mt, sense, (?) mark and morphology agree with the current draft.
+
+### Build and validate
+Not run in this pass: it was not asked for, and the build writes the published files.
+
+### Counts (pass 2)
+- major: 0
+- minor: 13 (9 entry corrections + 4 added broadenings)
+- style: 7
+- total changes: 20 (16 entries rewritten in gloss.json, 5 broadenings added, 0 units changed)
+- refused: 4
+
+### Counts (both passes)
+- major: 0
+- minor: 20
+- style: 10
+- total changes: 30
+- refused: 11

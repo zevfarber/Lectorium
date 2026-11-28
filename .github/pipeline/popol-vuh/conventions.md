@@ -128,6 +128,13 @@ Ximénez's paragraphs and headings.
 | Zoꜩi Ha, Zoꜩin Ha | Bat House | the Bat House (mt Sotz'i Ja, Sotz'in Ja; 020) | — |
 | Camazoꜩ | Camazotz | Camazotz (name kept, mt Kamasotz'; Brasseur's gloss in the note) | Death Bat |
 | coc (020) | turtle | the turtle (mt kok) | tortoise |
+| Xulu, Pacam (021) | names kept | Xulu, Pacam (mt Xulu, Pakam; Brasseur's glosses in the note, as his) | — |
+| chohim abah, choh (021) | heated stone, oven(?) | the heated stone (as 018); the oven (?) | — |
+| vinac car | fish-men | fish-men | — |
+| meba | poor | poor men | beggars |
+| xahoh / xahol | dance / dancer | the dance / the dancers | — |
+| ahaual ha | lords' houses | the houses of lords | palaces |
+| Puhuy, Cux, Yboy, Xꜩul, Chiꜩic (021) | names kept | Puhuy, Cux, Yboy, Xtzul, Chitzic (dance names; Brasseur's glosses in the note, as his) | — |
 
 ## Notes (`n`)
 

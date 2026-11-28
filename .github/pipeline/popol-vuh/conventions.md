@@ -123,6 +123,11 @@ Ximénez's paragraphs and headings.
 | Vꜩ bala | good bala | Very well | — |
 | vbac vvach | its-bone his-face | his eyes | eyeball |
 | vꜫexel | its-replacement | a replacement, in exchange | — |
+| Teuh Ha | Cold House | the Cold House (mt Tewj Ja) | — |
+| Balami Ha | Jaguar House | the Jaguar House | — |
+| Zoꜩi Ha, Zoꜩin Ha | Bat House | the Bat House (mt Sotz'i Ja, Sotz'in Ja; 020) | — |
+| Camazoꜩ | Camazotz | Camazotz (name kept, mt Kamasotz'; Brasseur's gloss in the note) | Death Bat |
+| coc (020) | turtle | the turtle (mt kok) | tortoise |
 
 ## Notes (`n`)
 

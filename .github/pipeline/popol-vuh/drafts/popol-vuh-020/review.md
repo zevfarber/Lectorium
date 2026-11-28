@@ -69,3 +69,73 @@ I made the edits with a script (`json.load` → exact-substring replacements, ea
 - style: 8
 - total changes: 24 (25 replacements; U30 `l` had two)
 - refused: 8
+
+## Pass 2
+
+I re-read units.json after the pass-1 changes and found nothing further to change. I checked:
+- the about paragraph against the revised U16, U18 and U27;
+- notes against the published glossary senses: tiyic, chuꜩinic, rah, chopon, cat, coh, vila, quecha;
+- house renderings, couplets, and `(?)` marks between `l` and `i`.
+
+Units changed in pass 2: none.
+
+Then I checked all 100 novel entries and the 4 `__broaden__` entries in gloss.json against units.json (mt, `l`/`i`/`n`) and against popol-vuh-glossary.json, by script and by hand:
+- Every key is a lowercased token of the text, and none is already in the glossary.
+- Every modern form equals the draft's mt. The only differences were capitals from a sentence start (xtane, cahanican, acaroc), and lowercase there follows the glossary's practice.
+- Every broadening begins with the old entry whole, then " · ".
+- I kept zoꜩ = sotz' and pix/pixc kept in K'iche' with (?), as decided in pass 1.
+
+I edited gloss.json by script (load, replace, `json.dump(ensure_ascii=False, indent=1)`), with the broadening prefixes asserted.
+
+### Changes (item · severity · wrong · done)
+1. **pacaquic · minor.** The entry gave "ke 'they (ongoing)' + pakakik" as the morphology of the single word pacaquic, and it omitted the doubtful reading. Rewritten as "(doubtful reading, guess) fall upon … verb in -ik".
+2. **buhuhic · minor.** The entry glossed it "taking counsel", which belongs to ꜩonoh … naoh, not to this word. It also gave the morphology as que + the word. Rewritten as "(guess) whirring, making a great noise … verb in -ik".
+3. **queꜫumar · minor.** The entry ended "; ke 'then'", which is nonsense for this form. Rewritten as q'equm + -ar.
+4. **ꜭohic · minor.** The morphology was "k'o + -jik". Corrected to k'oj (as k'oje) + -ik.
+5. **ꜭoleta · minor.** The morphology included kat 'you shall', which is a separate token. Corrected to k'ol + -eta, with (?) kept.
+6. **cactarin · minor.** The entry had "kak 'red'", against the draft's mt kaq for cac 'red' (U36) and the glossary's kaq 'red'. Corrected to cac (kaq).
+7. **xulu · minor.** The entry had "(?) came down". After the pass-1 change to U30 `l`, xulu is only 'came, arrived' (ul), and the "down" guess belongs to culoc. Rewritten as "(doubtful reading) came, arrived".
+8. **yecoub · minor.** The entry had "held up, held back". After the pass-1 change to U47 `l`, only "hold back" stands. Rewritten as "(guess) hold back …", noting the plain c kept.
+9. **ac · minor.** Brought into line with the pass-1 U25 note: perhaps aꜫ 'peccary' written with plain c. The "aq/ak' both possible" clause was dropped. mt ak is kept, respelled by the letters.
+10. **mucum · minor.** The entry said "doubtful", but the reading is not doubtful; only the sense is inferred. Changed to "(inferred)", with Brasseur's French added.
+11. **cahanican · minor.** The doubtful reading from the establishment log was missing. Added.
+12. **ꜩucu · minor.** The doubtful reading from the establishment log was missing. Added.
+13. **coxcotic · minor.** The sense is inferred in the U50 note but was unmarked in the entry. Added "(inferred)" and the looped t.
+14. **catic · minor.** The entry was pinned to the line ("were burned … in xe katik"), and the sense was not marked as inferred. Made general: "(inferred) burn, be burned; k'at with plain c + -ik".
+15. **xeꜩacou · minor.** The -ow ending was left unnamed. Added "the ending that names the doers (after Are)", as in the glossary's banouic, and marked the sense (inferred).
+16. **teuh · minor.** The modern form was lowercase "tewj", but the word occurs only in the name, where mt is "Tewj". The morphology "+ ha 'house'" was wrong for the single token. Rewritten.
+17. **ꜩah · style.** The entry was pinned to the line. Made general, marked (doubtful reading, guess).
+18. **quꜩ · style.** "Not otherwise known" missed what U4's note gives (qu + ligature, Brasseur c'utz = ca vꜩ). Rewritten.
+19. **camizabal · style.** The entry ended "ki- 'their' before it", which describes the line, not the form. Moved into an example.
+20. **hebel · style.** "respelled with the sense after the draft" was meaningless. Rewritten.
+21. **cohe · style.** "k'o 'be' + -je, plain c" is now "ꜭohe 'be' written with plain c, the k' restored as in coheic".
+22. **huchatic, ama, chacuca · style.** These had sentence-start capitals in the modern form though none is a name. Lowercased (one change, three entries), following the glossary's practice.
+23. **__broaden__ tiyic · minor (added).** The glossary has "were eaten (uncertain)"; here (U16) the word is 'were bitten'. Added, with the old entry kept whole.
+24. **__broaden__ chuꜩinic · minor (added).** The glossary has "it will come right, it can be"; here (U15) the word is 'it is finished, comes to an end' (inferred). Added.
+25. **__broaden__ nimal · minor (added).** The glossary has only 'greatness'; here (U20) the word is Hunahpu's body (inferred, Brasseur 'le corps'). Added.
+26. **__broaden__ qui · minor (added).** The glossary had no entry for qui 'sweet, glad' (U10 qui qui ꜭux, Brasseur quiy) or for the unclear question particle (U11 Apa qui, U20 Qui cu are). Added both readings.
+
+### Refused
+1. **cahanican, xtane, acaroc: lowercase against the capitalised mt.** The capitals come only from the sentence start. The glossary lowercases such words (e.g. catecut k'atek'ut).
+2. **vuch broadening.** The new reading ("the animal, standing alone") overlaps the old 'opossum'. It is kept because the old entry is tied to the name and the mt here is lowercase wuch'.
+3. **No broadening added for cul, cama, he, coh, tio, cac, xcah, chi, ꜩam, rah, chopon, vꜭhaxic, xquilo or co.** The glossary already covers this part's senses of all of them.
+4. **The remaining entries were left as written:** zacbocom, ochoch, cuꜩ, mamai, xzach, vꜩinic, bolol, ꜩimah, cahauaxic, zoꜩin, zoꜩ, camazoꜩ, chaquiꜩam, chopor, vcutbal, quiliꜩ, xtane, zilobic, chacal, cahanic, labalo, ril, cupul, zilabic, zoz, quixbih, acaroc, yayan, colana, xare, racabal, cumar, ꜩalic, canohoc, tiz, cubulcutih, chuꜩam, halvachibal, xcotix, coloc, culoc, zoꜩi, atan, chuuc, xecah, xaquinuchic, xuchux, xaquinic, xaquin, raxaꜩinic, chux, baquitila, chayecuh, avib, pixc, avuꜭ, xpixabaxic, colan, chacoyan, yan, caxou, tanenic, xicou, canab, pix, ocotal, chaninic, camixtah, xtiquixtah, cuba, colem, xcacatah, pucabin, zaquiram, zaquilal, rahal, and the coc/quel/xcupix broadenings. In each one the mt, sense, (?) mark and morphology agree with the draft.
+
+### Build and validate
+- `python3 ../run3/r3.py build popol-vuh popol-vuh-020` reported "BUILT popol-vuh-020: 59 units → popol-vuh-020.json", with no WARN lines.
+- `python3 ../run3/r3.py validate popol-vuh popol-vuh-020` reported PASS.
+- The build wrote popol-vuh-020.json and updated popol-vuh-glossary.json and stories.json. Nothing was published or committed.
+
+### Counts (pass 2)
+- major: 0
+- minor: 20 (16 entry corrections + 4 added broadenings)
+- style: 6
+- total changes: 26 (24 entries rewritten in gloss.json, 4 broadenings added, 0 units changed)
+- refused: 4
+
+### Counts (both passes)
+- major: 1
+- minor: 35
+- style: 14
+- total changes: 50
+- refused: 12

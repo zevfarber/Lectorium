@@ -92,3 +92,6 @@ Decided meanwhile: published with the pinned numbering (2437b, 2455 on "Grado", 
 1. Title uses the house "Per Vermudoz" for the queue name's "Pero Vermúdez". Decided meanwhile: house form; parts.json name left as given.
 2. Readings without a settling Pidal note, each marked uncertain in its note: quém = a qué + me (3260), ge 'from him' (3276), nada as participle 'born' (3285), entrarás en armas 'you will not enter the lists' (3305), valiestes aimed at both Infantes (3314).
 3. 3259b: the damaged margin label prints like "3250b"; kept as 3259b, the only place it can stand.
+
+## 2026-11-28 · cid-tiradas-144-149a · v. 3360 [venidos] and Pidal's footnote "mismos"
+Pidal prints [venidos] in italics (his restoration) at the end of v. 3360, but his footnote glosses "mismos, ripio, igual que en 847", a word not in the printed line. The page does not say whether mismos is the manuscript's reading he replaced. Decided meanwhile: the established text follows the print ([venidos]); the unit's note quotes the footnote and says the relation is uncertain. Pidal's 1908–11 *Cantar de mio Cid* (texto, gramática y vocabulario) would settle it; it is not among this work's source files.

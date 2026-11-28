@@ -2486,3 +2486,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Kept as printed and noted as doubtful: P934L01 لما (sense wants فلما; fa-dakhala as apodosis); P934L16 أذ in "أذ مرني" (read adh "then", perhaps idhan or a stray letter); P935L02 أنست (read Form II annasti); P935L10 زربونا (zarbūn, a shoe; form uncertain); P936L21 إن after لا بد (sense an, subjunctive follows); P937L01 وتصل (read wa-ttaṣala, perhaps for ووصل); P936L12 فوقعت رأسها (feminine verb); مقالي read maqālī "my words".
 - Untidy but not wrong, left for an attended tidy-up: some long shared glossary entries carry "also also" (لَهَا, تَجِدْهُ) and empty "Also (Night 224):" fragments (عَلَى, عَلَيَّ, بِمَا).
 - Night 233 is complete and unpublished; the next firing publishes it. Nothing waits on the owner.
+
+## Night 233 (P937L10–P938L20, published 2026-11-28, unattended)
+- Library label: `Night 233 · Qamar al-Zamān, continued`.
+- Misprints corrected (emend.json): P937L11 اطراق → اطرق (extra alif; the verb aṭraqa); P937L14 امرة → امره, P938L03 اخذة → اخذه, P938L08 واخبرة → واخبره, P938L13 وامرة → وامره (ة for ه, as in Nights 231–232); P938L11 بهاذر → بهادر (ذ for د).
+- Kept as printed and noted: P937L15 يا خور split (read as the one title amīr yākhūr, as in Night 232); علي for ʿalā; baḥatha ʿalā for ʿan; لازالوا with lā for mā; لا كان split (Night 232 had لاكان solid); run-together ولاحول, ولاقوة, لوكتب, ماجرى, ياسيدي, لاتقتل, ماكان. al-wālī rendered "chief of police" in i, as in Night 232.
+- Night 234 is not yet complete (its tail is untranscribed); the next firing transcribes. Nothing waits on the owner.

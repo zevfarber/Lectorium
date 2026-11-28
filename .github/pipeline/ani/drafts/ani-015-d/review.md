@@ -75,3 +75,57 @@ I re-indexed `q` on each of them and checked it by script.
 - U24 iw labelled a participle after mꜣꜣ + object: the stative would also fit, but the participle is the known gloss's own use (iwi). Kept.
 - p: only U9 has it, where the red section begins. U8 and U25 are say-lines without p, as in 015-b and 015-c. Kept.
 - Budge-isms: none in l/i after the "joy of heart" change. I checked thee/thou/thy/saith/homage/triumph/glorious/victorious/behold/shining ones/netherworld/venerated/sailors/look out/make glorious/set in order. "Power of the powers", "Praises are made for you", "her heart is glad" and "to make the hearts of the spirits live" agree with Budge only because they are the literal words. House renderings agree with the published parts: "the Osiris (the scribe) Ani", "true of voice", the Sektet-bark / Adjet-bark, the Disk, the necropolis, the Sacred Land, the Field of Reeds, and the says Seketet / Adjet / Ta-djeser / Sekhet-Iaru / Nebet-…
+
+## Pass 2
+
+I re-read all 26 units afresh (numbered as in Pass 1) and checked every gloss.json entry against the text, the grammar and the packet's Budge spellings. Every word was compared by script with all published words that have the same sign sequence (reading, roles, tr) and the same reading (say). The only house difference is int (U15): the one published int codes the first fish det, while this part codes it phon in with i and n as complements. Both are defensible, so it is kept. Sign codes and order are untouched. After editing, these checks pass by script:
+- both files load;
+- the sign sequence equals the packet's (557 glyphs);
+- morph `g` covers every glyph once;
+- every `q` indexes its word exactly. Unchanged words carry the packet's q. The joined words (ḥr-ntt, sk·n, mꜣꜣ·n·sn, ḥtp-nṯr) and the split ones were re-derived and match;
+- no det has a tr, and no other role has an empty one;
+- there are no `s`/`t` fields;
+- every `ln` matches its first word's line.
+
+The gloss keys equal the lemmas used minus the known-lemmas keys (11: ḥri, isfty, imꜣḫy, sqdi, ꜣwt-ib, ḥknw, bꜥbꜥt, dm, qdt, nbt-ꜥnḫ, sꜥnḫ). The sk·n restructure added no lemma, since sk and sḏm·n·f are both known. Every `__broaden__` key is a known lemma that the units use, and each value begins with the known entry copied by script + " · ".
+
+### Changes — units.json
+- U0 · n · minor · ḥrw st·f had no form label · Added: taken as a participle with its noun after it, 'far of seat', the same pattern as ꜥꜣ nrw.
+- U0 · n · style · "isftyw … is i, the tall sign is as in isft (coded …)" did not parse, and "the vulture, as in the plural ḫftyw" did not say what the vulture does · Now "i, the tall sign is (coded Y1a, approximate, as in isft), s, f, t and the vulture standing for the plural ending, as in ḫftyw".
+- U0 · n · style · Added that Spell 17 (017-f) also writes nrw without the vulture. This is the evidence that the spelling is attested (see Refused, (a)).
+- U8 · n · minor · The note did not mention that in Spells 18 and 146 the say-line in N stands *before* the words it introduces. A reader could take U8 as opening the promises · Added that sentence, and the reason it is taken as closing here: the words after it speak to Ani as 'you'.
+- U11, U12 · l · style · "made · one · for" and "called · one · you" are not in the house's form for the sḏm·tw·f. 015-a has stꜣ·tw as "is-towed" · Now "is-made · for · you · praises …" and "is-called · you · in …".
+- U17 · n · minor · "the verb with its ending unwritten (a stative would show t after a feminine subject)" contradicted itself · Now: the form of ḫr is not clear, since a stative after the feminine ḏwt would usually show its ending t, which is not written.
+- U18 · n · minor · Two problems. ṯsw has the lemma ṯst (noun f.), but nothing said why there is no t (pass-1 open question). dmw was "a passive form" with no name · Added "the plural of ṯst 'vertebra' with the t of the feminine not written". dmw is now "a passive sḏm·f, with the w the passive sometimes shows". The reading ṯsw is kept as written, and the lemma stays ṯst (the house lemma for the noun, 044 U27).
+- U21 · n · style · The note did not say that qdt 'crew' is not the usual word · Added: the usual word for a boat's crew is sqdw (from sqdi), with an s that is not written here.
+- U24 · i · minor · i "when they see Ra" did not match l "have-seen · they", the sḏm·n·f the note names. U15 keeps the past tense as written · Now "when they have seen Ra coming in peace".
+- about · style · "Horus with Thoth and Maat at his sides" is the reading Pass 1 removed from U23's i (Thoth and Maat are further objects of 'you have seen') · Now "and Horus, and Thoth and Maat at his sides".
+
+### Changes — gloss.json
+- ḥri · minor · Budge's 'fortifying' belongs to a different reading of this one passage, not to the lemma. "(?)" and "sense doubtful" described this occurrence, not the verb, which is well attested · Now "to be far, distant, keep away (from: r) (verb; Budge: ḥeru)". The doubt stays in U0's l/i/n.
+- isfty, imꜣḫy, ꜣwt-ib, ḥknw, sꜥnḫ · style · Each carried Budge's English for this passage ('wicked devils', 'the venerated beings', 'joy of heart', 'praises') · Cut to "Budge: <spelling>". ḥknw "plural in sense; written with the man with hand to mouth" described this writing · Now "praise, hymns of praise (noun m.; from ḥkn 'praise')". ꜣwt-ib now gives ꜣwt 'length' explicitly. sꜥnḫ "causative verb, transitive" is now in the house form "(verb; causative of ꜥnḫ 'live')".
+- sqdi · minor · "sqdd·f 'he sails'" was pinned to the line, and its 'he sails' contradicts U7's wish 'may he sail' · Now "(verb 3ae-inf.; geminated stem sqdd; Budge: seqṭeṭ)". The geminated stem is kept as a general pointer.
+- dm · minor · Three problems: "(?)", "sense doubtful" and "written with the knife as classifier" described this passage; 'let be cut asunder' is Budge's English here; the verb 'be sharp, pierce' is not doubtful · Now "to be sharp; to pierce, cut (verb; Budge: ṭemu)".
+- nbt-ꜥnḫ · minor · Two problems: Budge's spelling was given as his English "Nebt-ānkh", where the packet's transliteration is Nebt - ānχ; and "a goddess (?)" doubted what the cobra classifier shows · Now "'Lady of Life', a name or title of a goddess (god's name f.; …; Budge: Nebt-ānχ)".
+- bꜥbꜥt, qdt · style · Tidied to "sense doubtful, taken from Budge: …". These two keep Budge's English (see Refused).
+- __broaden__ ꜥ · minor · "side, in the dual ꜥwy·f 'his two sides' (ḥr ꜥwy·f 'at his two sides')" was pinned to U23 and reproduced the line. The known ꜥ entry (dual ꜥwy 'the two arms') and ·f entry ("ꜥwy·f 'his two arms'") already cover the word, and l has "two-arms" · Removed.
+- __broaden__ nfrw · minor · This resolves the pass-1 open question. The house has no numbered or "(?)" lemma keys (none among the 1041 known): homonyms share one key, joined by "a second word of the same spelling" (sr, ḥꜣ, sš …). The build fills each morph gloss from the occurrence gloss first, and the occurrence gloss on U23 already gives this word's sense. So the right shape is a broaden, not a new key. The old text "in ḥr nfrw 'at the nfrw' … perhaps 'look-out' (?) (Budge: 'the place of look out')" was pinned to the line and was Budge's English · Now "· a second word of the same spelling, not understood: perhaps a place in the sun's bark (?) (noun; Budge: neferu, with a query)".
+- __broaden__ snsn · minor · The added sense carried an invented derivation ("the sense 'be joined' from the 'smell, kiss' of sn, 'touch, mingle'") · Now "· also to join, keep company with, associate with (verb; with m or m-m 'among'; Budge: sensen)".
+- __broaden__ biꜣ · style · "Budge: bàt, 'the sky'; the ꜣ is not written" described this writing · Now "· also the firmament, the sky thought of as a vault of metal (noun m.; Budge: bàt)".
+- __broaden__ sbꜣ · style · The star was given as a sense of 'door' · Now "· a second word of the same spelling: star (noun m.; written with the star sign; plural sbꜣw)".
+
+### Refused
+- (a) Restoring "The papyrus writes X; read Y" for nrw (U0) and nṯrw (U24). Pass 1 was right. Neither word is missing a sound:
+  - n-r-w writes every consonant of nrw. The vulture G14 is its classifier (146-b codes it det), and 017-f writes nrw r-n-w with no vulture and no formula.
+  - n-t-r-w writes every consonant of nṯrw, with t for ṯ as d stands for ḏ in this part's ḏḥwty.
+
+  These are phonetic spellings, not slips. The house keeps the formula for a missing or wrong sound sign (015-b nḫn written ḫ-n; 015-a qꜣs/ḥsq out of order; 015-c ḏfḏfsꜣ for ḏfꜣw). Where only an expected logogram or classifier is absent, the house says so in plain words ("spelled out", "is not written": 015-a dwꜣw and ḥr-ꜣḫty, 015-b ind, 017-b iꜥrwt).
+- (b) Pass 1's U20/U21 restructure is kept. sk·n sktt pḥ sw is the noun-subject form of 015-a's sktt sk·n·s pḥ sw (same coding of sk: S29 comp, V28 phon sk, V31 comp, U15 det). sw is the object of pḥ, and qdt rꜥ m ḥꜥꜥwy parallels U24. Re-indexed q 0-1-2-3-4:5, ln 45 / 46 and the l-order were checked by script.
+- (c) U8 and U25 in as 'says N', not Budge's vocative 'O'. The house renders in + N as 'says / said by N' in every published part (018-introduction, 146-a/b, 029…, 044…), and the call 'O' is i (015-c U0). U8 stays unqueried in l/i. Its note gives the doubt, and it closes a prayer in which Ani speaks of himself as 'he'. U25 keeps "says(?)" because the 2nd-person promises before it make 'says' harder.
+- bꜥbꜥt and qdt keep Budge's English in the gloss. The sense of each rests on Budge alone, and the house keeps his English for such words (015-c pass 2: msms "Budge: mesmes, 'count'"; wṯs; known sk "Budge's 'toweth'").
+- ṯsw: no `__broaden__` of ṯst and no new key. The plural writing is explained in U18's note. The house gives the noun the key ṯst (044) and keeps ṯs for the verb (015-c, 026, 125-introduction, 146-b).
+- int (U15) coding: see above. Kept.
+- sbꜣw N14 log (the house codes it phon, but in words with house or door classifiers, where the star writes the sounds of sbꜣ 'door'). For 'star' with stroke and classifier, log is the conventions' role. Kept.
+- imꜣḫyw F39 log with complement ḫ: the house codes imꜣḫ so (F39 log twice). Kept.
+- Occurrence glosses on biꜣ, snsn, sbꜣ and nfrw are kept. They pick this word's sense out of a multi-sense entry, as the build expects.
+- All other pass-1 decisions and refusals were re-examined and stand: ḥri, di·k | wi vs di·kwi, mk ḥꜣ·k isft, sqdd·f, sꜣ on Aa17, ḥsq | n·i, the in in U8, nfrw left untranslated, and iw as a participle. Budge-isms: none in l/i (re-checked thee/thou/saith/homage/triumph/glorious/shining/venerated/netherworld/look out/sailors/joy of heart). Says agree with the house wherever the reading is published.

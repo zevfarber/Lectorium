@@ -22,8 +22,8 @@
 | popol-vuh-017 | Xibalba summons the twins; the louse, the toad, the snake and the falcon | fols. 22r–23v | published |
 | popol-vuh-018 | The twins go down to Xibalba; the Xan names the lords; the Dark House | fols. 23v–25r | published |
 | popol-vuh-019 | The ball game won; the House of Blades; the ants fetch the flowers | fols. 25r–26v | published |
-| popol-vuh-020 |  | LoC images 0062–0065 | todo |
-| popol-vuh-021 |  | LoC images 0069–0071 | todo |
+| popol-vuh-020 | The Houses of Cold, Jaguars, Fire and Bats; the head of Hunahpu | fols. 26v–28v | established |
+| popol-vuh-021 |  | LoC images 0066–0069 | todo |
 | popol-vuh-022 |  | LoC images 0072–0074 | todo |
 | popol-vuh-023 |  | LoC images 0075–0077 | todo |
 | popol-vuh-024 |  | LoC images 0078–0080 | todo |

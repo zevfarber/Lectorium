@@ -87,3 +87,8 @@ Decided meanwhile: published with the pinned numbering (2437b, 2455 on "Grado", 
 
 ## cid-tiradas-137-137c (2026-11-27, Run 4)
 - Part renamed from "The Cid claims the dowry money" to "The Cid's second claim: the three thousand marks" (parts.json updated): Pidal's rubric calls the money "el ajuar" (house "trousseau"), it is not the arras ("dower"), and "dowry" blurs the house distinction. Decided meanwhile: the new name stands; owner may restore the old one.
+
+## 2026-11-28 · cid-tiradas-138-143 · readings left open (Run 4)
+1. Title uses the house "Per Vermudoz" for the queue name's "Pero Vermúdez". Decided meanwhile: house form; parts.json name left as given.
+2. Readings without a settling Pidal note, each marked uncertain in its note: quém = a qué + me (3260), ge 'from him' (3276), nada as participle 'born' (3285), entrarás en armas 'you will not enter the lists' (3305), valiestes aimed at both Infantes (3314).
+3. 3259b: the damaged margin label prints like "3250b"; kept as 3259b, the only place it can stand.

@@ -2466,3 +2466,9 @@ Pass agents for pp. 495-498 (four of eight pass-1/pass-2 reports) did not open t
 - Dot check: 3 endings changed (P934L17 فى, P937L14 امرة, P939L04 second الي). Left as transcribed where the ink was too heavy to tell ه from ة: P932L08 وحشاشة, P933L03 نفسه, P933L12 فاخذه, P934L05 حاله/غمزه, P935L17 آلمة, P936L15 عليه, P938L03 اخذة.
 - Volume 2's type keeps setting shaddas and some vowels on prose words (gate WARNs on most lines); both passes agree on them, so they are kept.
 - Next batch: PDF 962–969 (archive pp. 940–947). Nothing waits on the owner.
+
+## Night 230 (P929L01–P929L22, published 2026-11-28, unattended)
+- Library label: `Night 230 · Qamar al-Zamān, continued`.
+- **Lost ending, marked as a gap.** The night breaks off at P929L22 (…فصادف في طريقه إمرأة ذات حسن وجمال); the rest, with its closing formula, stood on vol. 2 pp. 20–21 (PDF 952–953), missing from the scan. The last unit closes `l`/`i` with " […]", its note says "A passage is skipped here for now.", and it carries `"gap": "End of Night 230 (after P929L22): not in the scan"`, with a matching entry in root `gaps.json`. An owner insert shows after that unit, which is the right place for a lost ending.
+- No misprints corrected. Kept as printed, with notes: P929L19 يملّيه (pointed yumallīhi, Form II of m-l-w, "keep company"; uncertain; يسلّيه "console" is the likelier sense and is named as a candidate, not adopted); إمرأة and شيأ (edition spellings); ماكان solid; وبينه with a masculine pronoun for مدينة (Middle Arabic agreement).
+- Nights 231–233 are complete and unpublished; the next firing publishes Night 231 (lost opening; gap at its start, as for Night 220). Nothing waits on the owner.
